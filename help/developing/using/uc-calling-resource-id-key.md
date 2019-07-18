@@ -4,7 +4,7 @@ seo-title: 2つのフィールドで構成されたIDキーを使用したリソ
 description: 2つのフィールドで構成されたIDキーを使用したリソースの呼び出し
 seo-description: 2つのフィールドで構成されたIDキーを使用してリソースを呼び出す方法について説明します
 translation-type: tm+mt
-source-git-commit: b46579e3bf270b26986e107be9d8e07a39841b38
+source-git-commit: 6d4f814ecd3862a632a25728545bc98a5e336fb5
 
 ---
 
@@ -23,16 +23,16 @@ In this use case, the **Profile** resource has been extended with custom **"CRM 
 
 関連トピック:
 
-* [リソースの作成または拡張](help/developing/using/creating-or-extending-the-resource.md)
-* [IDキーの定義](help/developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)
+* [リソースの作成または拡張](../../developing/using/creating-or-extending-the-resource.md)
+* [IDキーの定義](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)
 * [Campaign Standard REST API](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
 
 ## 手順1:IDキーの設定
 
 >[!NOTE]
-> Global concepts when configuring identification keys are detailed in [this section](help/developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys).
+> Global concepts when configuring identification keys are detailed in [this section](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys).
 
-1. IDキーを設定する前に、目的のフィールドとそれが発行されていることを確認してください。For more on this, refer to [this section](help/developing/using/creating-or-extending-the-resource.md).
+1. IDキーを設定する前に、目的のフィールドとそれが発行されていることを確認してください。For more on this, refer to [this section](../../developing/using/creating-or-extending-the-resource.md).
 
 1. **[!UICONTROL Administration]** / **[!UICONTROL Developement]** / **[!UICONTROL Custom resources]** メニューに移動し、リソースを **[!UICONTROL Profile]** 開きます。
 
@@ -47,14 +47,14 @@ In this use case, the **Profile** resource has been extended with custom **"CRM 
    ![](assets/uc_idkey3.png)
 
    >[!NOTE]
-   > If you want to display the two custom fields in the profile's interface, configure the **[UICONTROL Screen definition]** tab. For more on this, refer to [this section](help/developing/using/configuring-the-screen-definition.md).
+   > If you want to display the two custom fields in the profile's interface, configure the **[UICONTROL Screen definition]** tab. For more on this, refer to [this section](../../developing/using/configuring-the-screen-definition.md).
 
 1. IDキーを使用してリソースを呼び出せるように、フィルター定義を設定できるようになりました。
 
 ## 手順2:フィルター定義の設定
 
 >[!NOTE]
-> Global concepts when configuring filter definitions are detailed in [this section](help/developing/using/configuring-filter-definition.md).
+> Global concepts when configuring filter definitions are detailed in [this section](../../developing/using/configuring-filter-definition.md).
 
 1. **["UACROLフィルター定義]** »タブで、??«UACROLを追加&#x200B;**[]**
 
@@ -87,7 +87,7 @@ In this use case, the **Profile** resource has been extended with custom **"CRM 
 
 IDキーとフィルター定義が設定されたら、キャンペーン標準インターフェイスまたはREST APIからリソースを呼び出すことができます。
 
-To use the filter definition from the interface, use a **[UICONTROL Query]** activity in a workflow (see [this section](help/automating/using/query.md)). その後、左側のパネルでフィルターを使用できます。
+To use the filter definition from the interface, use a **[UICONTROL Query]** activity in a workflow (see [this section](../../automating/using/query.md)). その後、左側のパネルでフィルターを使用できます。
 
 ![](assets/uc_idkey9.png)
 
