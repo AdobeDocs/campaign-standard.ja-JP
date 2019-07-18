@@ -14,7 +14,7 @@ discoiquuid: dcee9711-7fa6-4773- ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c2be404f780c8df57c5b0aa9858aa162592ca55c
+source-git-commit: 0a481ba4fcaf808ba0c524ec437f0e7e28cc2274
 
 ---
 
@@ -33,7 +33,9 @@ You can also consult the Adobe Campaign [Release Notes](../../rn/using/release-n
 
 複合識別キーを使用してプロファイルを呼び出す方法について、使用事例が追加されました。[詳細情報](../../developing/using/uc-calling-resource-id-key.md)
 
-パラメーター付きのcampfkフローを呼び出す際に、エイリアス処理期間を使用しない定期配信の使用についての推奨が追加されました。[詳細情報](../../automating/using/calling-a-workflow-with-external-parameters.md)
+パラメーターを使用したワークフローの呼び出し時に、集計期間を使用しない定期配信の使用についての推奨が追加されました。[詳細情報](../../automating/using/calling-a-workflow-with-external-parameters.md)
+
+電子メールデザイナーに電子メールコンテンツをフラグメントとして保存する方法に関するセクションが更新されました。[詳細情報](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment)
 
 ## Release 19.2 - May 2019 {#release-19-2---may-2019}
 
