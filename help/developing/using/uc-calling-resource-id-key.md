@@ -1,15 +1,15 @@
 ---
-title: 2つのフィールドで構成されたIDキーを使用したリソースの呼び出し
-seo-title: 2つのフィールドで構成されたIDキーを使用したリソースの呼び出し
-description: 2つのフィールドで構成されたIDキーを使用したリソースの呼び出し
-seo-description: 2つのフィールドで構成されたIDキーを使用してリソースを呼び出す方法について説明します
+title: 複合識別キーを使用したリソースの呼び出し
+seo-title: 複合識別キーを使用したリソースの呼び出し
+description: 複合識別キーを使用したリソースの呼び出し
+seo-description: 複合識別キーを使用してリソースを呼び出す方法について説明します
 translation-type: tm+mt
-source-git-commit: 6d4f814ecd3862a632a25728545bc98a5e336fb5
+source-git-commit: 8aea0483bcb1b104e5bd2b13426a1ac590c8efaf
 
 ---
 
 
-# 2つのフィールドで構成されたIDキーを使用したリソースの呼び出し
+# 複合識別キーを使用したリソースの呼び出し
 
 場合によっては、2つのフィールドで構成されるIDキーをリソースに定義することが必要な場合があります。IDキーが設定されたら、キャンペーンStandardインターフェイスまたはAPIからこのIDキーでリソースを呼び出せるように、フィルター定義を設定する必要があります。
 
@@ -38,16 +38,16 @@ In this use case, the **Profile** resource has been extended with custom **"CRM 
 
    ![](assets/uc_idkey1.png)
 
-1. **[UACROL識別キー]** セクションで、ボタンを **[!UICONTROL Create element]** クリックします。
+1. **[!UICONTROL Identification keys]** セクションで、ボタンを **[!UICONTROL Create element]** クリックします。
 
    ![](assets/uc_idkey2.png)
 
-1. Add the two custom "CRM ID" and "Category" fields, then click **[UICONTROL Confirm]**.
+1. Add the two custom "CRM ID" and "Category" fields, then click **[!UICONTROL Confirm]**.
 
    ![](assets/uc_idkey3.png)
 
    >[!NOTE]
-   > If you want to display the two custom fields in the profile's interface, configure the **[UICONTROL Screen definition]** tab. For more on this, refer to [this section](../../developing/using/configuring-the-screen-definition.md).
+   > If you want to display the two custom fields in the profile's interface, configure the **[!UICONTROL Screen definition]** tab. For more on this, refer to [this section](../../developing/using/configuring-the-screen-definition.md).
 
 1. IDキーを使用してリソースを呼び出せるように、フィルター定義を設定できるようになりました。
 
@@ -56,7 +56,7 @@ In this use case, the **Profile** resource has been extended with custom **"CRM 
 >[!NOTE]
 > Global concepts when configuring filter definitions are detailed in [this section](../../developing/using/configuring-filter-definition.md).
 
-1. **["UACROLフィルター定義]** »タブで、??«UACROLを追加&#x200B;**[]**
+1. **[!UICONTROL Filter definition]** タブでをクリック **[!UICONTROL Add an element]**&#x200B;し、フィルター定義のラベルとIDを入力します。
 
 1. フィルター定義のプロパティを編集して、ルールを設定します。
 
@@ -66,11 +66,11 @@ In this use case, the **Profile** resource has been extended with custom **"CRM 
 
    ![](assets/uc_idkey5.png)
 
-1. Select the first field used in the identification key ("CRM ID"), then activate the **[UICONTROL Switch to parameters]** option.
+1. Select the first field used in the identification key ("CRM ID"), then activate the **[!UICONTROL Switch to parameters]** option.
 
    ![](assets/uc_idkey6.png)
 
-1. **[UACROL Filter条件]** セクションで **[、UACROL Equal]** 演算子を維持し、パラメーターの名前を定義して、プラス記号をクリックして作成します。
+1. **[!UICONTROL Filter conditions]** セクションで **[!UICONTROL Equal]** 、演算子を保持し、パラメーターの名前を定義して、プラス記号をクリックして作成します。
 
    ![](assets/uc_idkey7.png)
 
@@ -87,16 +87,20 @@ In this use case, the **Profile** resource has been extended with custom **"CRM 
 
 IDキーとフィルター定義が設定されたら、キャンペーン標準インターフェイスまたはREST APIからリソースを呼び出すことができます。
 
-To use the filter definition from the interface, use a **[UICONTROL Query]** activity in a workflow (see [this section](../../automating/using/query.md)). その後、左側のパネルでフィルターを使用できます。
+To use the filter definition from the interface, use a **[!UICONTROL Query]** activity in a workflow (see [this section](../../automating/using/query.md)). その後、左側のパネルでフィルターを使用できます。
 
 ![](assets/uc_idkey9.png)
 
 キャンペーン標準REST APIからフィルター定義を使用するには、以下の構文を使用します。
 
-\"GET/profileAndServicesExt/&lt; resourceName&gt;&lt; filterName&gt;?&lt; param1_ parameter&gt;=&lt; value&gt;&amp;&lt; param2_ parameter&gt;=&lt; value&gt;\"
+```
+GET /profileAndServicesExt/&lt;resourceName&gt;&lt;filterName&gt;?&lt;param1_parameter&gt;=&lt;value&gt;&&lt;param2_parameter&gt;=&lt;value&gt;
+```
 
 この場合、"Spring"カテゴリからプロファイルを取得する構文と"123456" CRM IDは次のようになります。
 
-\"GEThttps://mc.adobe.io/&lt; INTAIALION&gt;/campaign/profileAndServiceText/profile/identification_ key?category_ parameter= spring&amp; crm_ id_ parameter=123456\"
+```
+GET https://mc.adobe.io/&lt;ORGANIZATION&gt;/campaign/profileAndServicesExt/profile/identification_key?category_parameter=spring&crm_id_parameter=123456
+```
 
 For more details, refer to [Campaign Standard REST APIs documentation](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#filtering).
