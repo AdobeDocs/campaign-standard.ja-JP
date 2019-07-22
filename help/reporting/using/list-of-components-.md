@@ -14,7 +14,7 @@ discoiquuid: 17cf126a-7ce1-4e11- bb5e-2bdce01cfsed
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 7102ed308f94985f8924a13aab2583e50b6c68e4
 
 ---
 
@@ -277,7 +277,7 @@ To learn more on compatibility between dimensions and metrics, refer to this [ta
   </tr> 
   <tr> 
    <td> クリック<br /> </td> 
-   <td> Number of times users interact with the push notification, e.g. clicks on the notification or button.<br /> </td> 
+   <td> プッシュ通知がデバイスに配信され、ユーザーがクリックした回数。The user either wanted to view the notification, which will then be moved to Push Open tracking, or dismiss it.<br /> </td> 
   </tr> 
   <tr> 
    <td> Click through rate<br /> </td> 
@@ -293,7 +293,7 @@ To learn more on compatibility between dimensions and metrics, refer to this [ta
   </tr> 
   <tr> 
    <td> Impressions<br /> </td> 
-   <td> Total of push notifications seen by recipients.<br /> </td> 
+   <td> プッシュ通知がデバイスに配信され、通知センターに戻された回数。ほとんどの場合、インプレッション数は配信された数値に似ています。This ensures that the device got the message and relayed that information back to the server.<br /> </td> 
   </tr> 
   <tr> 
    <td> Processed/sent<br /> </td> 
@@ -301,7 +301,7 @@ To learn more on compatibility between dimensions and metrics, refer to this [ta
   </tr> 
   <tr> 
    <td> Open<br /> </td> 
-   <td> Total number of application launches when users open the push notification.<br /> </td> 
+   <td> デバイスに配信され、ユーザーがクリックしたプッシュ通知の合計数が、アプリを開くことになります。This is similar to the Push Click except a Push Open will not be triggered if the notification was dismissed.<br /> </td> 
   </tr> 
   <tr> 
    <td> Open rate<br /> </td> 
