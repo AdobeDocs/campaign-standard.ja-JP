@@ -3,7 +3,7 @@ product: Adobe Campaign Standard
 audience: エンドユーザー
 user-guide-title: Adobe Campaign Standardヘルプ
 translation-type: tm+mt
-source-git-commit: d3c63b3e39738e38585077c4be34b141f08bcff2
+source-git-commit: 55180d1bd13e29ea0f77c3412c0da5fa523e7cfc
 
 ---
 
@@ -175,6 +175,7 @@ source-git-commit: d3c63b3e39738e38585077c4be34b141f08bcff2
       + [レポートインターフェイス](reporting/using/reporting-interface.md)
       + [コンポーネントのリスト ](reporting/using/list-of-components-.md)
       + [インジケーターの計算](reporting/using/indicator-calculation.md)
+      + [トラブルシューティング](reporting/using/troubleshooting.md)
    + List of reports {#list-of-reports}
       + [レポート期間の定義](reporting/using/defining-the-report-period.md)
       + [バウンスサマリ](reporting/using/bounce-summary.md)
@@ -196,6 +197,7 @@ source-git-commit: d3c63b3e39738e38585077c4be34b141f08bcff2
       + [ビジュアライゼーションの追加](reporting/using/adding-visualizations.md)
       + [コンポーネントの追加](reporting/using/adding-components.md)
       + [カスタムプロファイルディメンションの作成](reporting/using/creating-a-custom-profile-dimension.md)
+      + [ワークフローセグメントに基づくレポートの作成](reporting/using/creating-a-report-workflow-segment.md)
 + Integrating with Adobe Cloud {#integrating-with-adobe-cloud}
    + [Campaign統合について](integrating/using/about-campaign-integrations.md)
    + Working with Campaign and Experience Manager {#working-with-campaign-and-experience-manager}
@@ -274,6 +276,7 @@ source-git-commit: d3c63b3e39738e38585077c4be34b141f08bcff2
       + [紐付け](automating/using/reconciliation.md)
       + [ファイルの抽出](automating/using/extract-file.md)
       + [購読サービス](automating/using/subscription-services.md)
+      + [External API](automating/using/external-api.md)
    + Filtering data {#filtering-data}
       + [クエリーの編集](automating/using/editing-queries.md)
       + [詳細式の編集](automating/using/advanced-expression-editing.md)
@@ -291,7 +294,7 @@ source-git-commit: d3c63b3e39738e38585077c4be34b141f08bcff2
       + [リソースステータス](developing/using/resource-statuses.md)
       + [データモデルの変更の監視](developing/using/monitoring-data-model-changes.md)
    + Adding or extending a resource {#adding-or-extending-a-resource}
-      + [リソースを追加する主な手順](developing/using/key-steps-of-adding-a-resource.md)
+      + [リソースを追加するための主要な手順](developing/using/key-steps-to-add-a-resource.md)
       + [リソースの作成または拡張](developing/using/creating-or-extending-the-resource.md)
       + [リソースのデータ構造の設定](developing/using/configuring-the-resource-s-data-structure.md)
       + [画面定義の設定](developing/using/configuring-the-screen-definition.md)
@@ -311,7 +314,7 @@ source-git-commit: d3c63b3e39738e38585077c4be34b141f08bcff2
    + [Adobe Campaignの管理について](administration/using/about-administrating-adobe-campaign.md)
    + Users and security {#users-and-security}
       + [アクセス管理について](administration/using/about-access-management.md)
-      + [ユーザーのタイプ](administration/using/types-of-users.md)
+      + [ユーザー管理](administration/using/users-management.md)
       + [組織単位](administration/using/organizational-units.md)
       + [ロールのリスト](administration/using/list-of-roles.md)
       + [グループとユーザーの管理](administration/using/managing-groups-and-users.md)
