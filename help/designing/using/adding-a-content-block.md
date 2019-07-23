@@ -14,7 +14,7 @@ discoiquuid: 3ffda143- f42a-4cf9- b43c- e53d24549025
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a12df43de55dedf388a397fbf4670d99e3ea7f3d
+source-git-commit: 84bc011b079c9f620ea672bf081e54adc023aa07
 
 ---
 
@@ -91,6 +91,10 @@ Adobe Campaignには、事前設定済みのコンテンツブロックのリス
 1. Enter the content of the content block(s), and click the **[!UICONTROL Create]** button.
 
 コンテンツブロックをメッセージまたはランディングページのコンテンツエディターで使用できるようになりました。
+
+>[!CAUTION]
+>
+>When editing the content of a block, make sure there are no extra white spaces between the beginning and the end of your *if* statements. HTMLでは、空白が画面に表示され、コンテンツレイアウトに影響します。
 
 ## About targeting dimension {#about-targeting-dimension}
 
