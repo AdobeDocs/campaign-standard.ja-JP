@@ -14,7 +14,7 @@ discoiquuid: 8dc45c37-6908-407e-8e41-4a4188cba2b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 806dc4736ffb395a0eea102090c688102478aaca
+source-git-commit: a7c7a46fdba2395c773582923c6bd647c2d6c9d6
 
 ---
 
@@ -43,6 +43,10 @@ source-git-commit: 806dc4736ffb395a0eea102090c688102478aaca
    * **[!UICONTROL Create a new resource]**:フィールド **[!UICONTROL Label]** と **[!UICONTROL ID]** フィールドを入力します。**[!UICONTROL ID]** フィールドは必須です。「ラベル」フィールドを空のままにすると、IDから自動的に完了します。
 
       ![](assets/schema_extension_2.png)
+
+      >[!NOTE]
+      >
+      >30文字の最大値を使用して再入力しました。
 
    * **[!UICONTROL Extend an existing resource]**:拡張するリソースを選択します。
 
