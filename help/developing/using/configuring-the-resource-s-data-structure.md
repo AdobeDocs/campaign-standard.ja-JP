@@ -15,7 +15,7 @@ context-tags: cusResource、main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a12df43de55dedf388a397fbf4670d99e3ea7f3d
+source-git-commit: 6b642a58fc88779f88f2f860c133b36934c59d21
 
 ---
 
@@ -44,6 +44,7 @@ When editing the resource, in the **[!UICONTROL Data structure]** tab, you can a
    >[!NOTE]
    >
    >If you leave the **[!UICONTROL Label]** field empty, it will automatically be completed from the ID.
+   >最大30文字を使用することをお勧めします。
 
    ![](assets/schema_extension_4.png)
 
@@ -81,7 +82,11 @@ When editing the resource, in the **[!UICONTROL Data structure]** tab, you can a
 
 1. Use the **[!UICONTROL Create element]** button to create a key.
 
-   The **[!UICONTROL Label]** and **[!UICONTROL ID]** fields are completed by default, but you can be edited.
+   The **[!UICONTROL Label]** and **[!UICONTROL ID]** fields are completed by default but you can edit them.
+
+   >[!NOTE]
+   >
+   >最大30文字を使用することをお勧めします。
 
 1. To define the elements making up this key, click **[!UICONTROL Create element]** and select the fields that you created for this resource.
 
@@ -102,6 +107,11 @@ When editing the resource, in the **[!UICONTROL Data structure]** tab, you can a
    ![](assets/schema_extension_26.png)
 
 1. The **[!UICONTROL Label]** and **[!UICONTROL ID]** fields are completed by default, but you can edit them.
+
+   >[!NOTE]
+   >
+   >最大30文字を使用することをお勧めします。
+
 1. このインデックスを構成する要素を定義するには、このリソース用に作成したフィールドを選択します。
 
    ![](assets/schema_extension_27.png)
@@ -135,6 +145,10 @@ The indexes that were created appear in the list in the **[!UICONTROL Index]** s
    ![](assets/schema_extension_29.png)
 
 1. **[!UICONTROL New link]** 画面では、デフォルトでは **[!UICONTROL Label]****[!UICONTROL ID]** フィールドが完了しますが、編集することもできます。
+
+   >[!NOTE]
+   >
+   >最大30文字を使用することをお勧めします。
 
    >[!CAUTION]
    >
@@ -242,6 +256,11 @@ In the custom resource screen, the **[!UICONTROL Summary]** pane indicates the s
    ![](assets/schema_extension_30.png)
 
 1. 必要に応じて、リソースのラベルとIDを変更します。
+
+   >[!NOTE]
+   >
+   >最大30文字を使用することをお勧めします。
+
 1. このリソースへのアクセスを特定の組織単位に制限する必要がある場合は、ここで指定します。アプリケーションでこのリソースを使用できるのは、許可されている数量のユーザーのみです。
 1. 変更を保存します。
 
