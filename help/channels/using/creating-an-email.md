@@ -14,7 +14,7 @@ discoiquuid: b27e0170- e73f-4782-8568-02927fb374f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6df0e764750a31f29d6fe3ec4d92e19b3f07f728
+source-git-commit: 8f4c849adf1852d8a23c5ff5252da25c175faa84
 
 ---
 
@@ -62,7 +62,9 @@ You can create an email from a [campaign](../../start/using/marketing-activities
    >
    >電子メールを保存できるようにするには、まずコンテンツに編集を加える必要があります。If you click **[!UICONTROL Cancel]** at this point, you will not complete the wizard and your email will not be created.
 
-   その後、電子メールダッシュボードが表示されます。For more on this, see [Approving messages](../../sending/using/preparing-the-send.md).
+   その後、電子メールダッシュボードが表示されます。It allows you to check your message and [prepare the send](../../sending/using/preparing-the-send.md).
+
+   The **[!UICONTROL Edit properties]** button in the upper-right corner allows you to edit the properties of the email. 例えば、配信の準備時にラベルが計算されるように電子メールを設定できます。Available parameters are listed in [this section](../../administration/using/configuring-email-channel.md#list-of-email-properties).
 
    ![](assets/delivery_dashboard_2.png)
 
