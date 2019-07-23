@@ -15,7 +15,7 @@ context-tags: スケジュール、メイン
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3e2081fc3377fe4edbdf3fb8c4765a9acda6d79e
+source-git-commit: 3216d09e18cd249e3f2a6aae74254bc172538810
 
 ---
 
@@ -45,10 +45,10 @@ When building your workflow, only use one **[!UICONTROL Scheduler]** activity pe
 1. Specify the **[!UICONTROL Execution frequency]**:
 
    * **[!UICONTROL Once]**:ワークフローが1回実行されます。
-   * **[!UICONTROL Several times a day]**:ワークフローは1日に数回定期的に実行されます。
+   * **[!UICONTROL Several times a day]**:ワークフローは1日に数回定期的に実行されます。特定の時間または定期的に実行を設定できます。
    * **[!UICONTROL Daily]**:ワークフローは、1日に1回特定の時間に実行されます。
    * **[!UICONTROL Weekly]**:ワークフローは、指定された時間、または1週間に数回実行されます。
-   * **[!UICONTROL Monthly]**:ワークフローは、指定した時間に1回または複数回実行されます。
+   * **[!UICONTROL Monthly]**:ワークフローは、指定した時間に1回または複数回実行されます。ワークフローを実行する必要がある場合は、月数を選択できます。月の第2火曜日など、指定した曜日に実行を設定することもできます。
    * **[!UICONTROL Yearly]**:ワークフローは、指定した時間に1回または複数回実行されます。
 
 1. 選択した頻度に従って実行の詳細を定義します。詳細フィールドは、使用頻度（時間、繰り返し頻度、指定日など）によって異なる場合があります。
@@ -62,6 +62,8 @@ When building your workflow, only use one **[!UICONTROL Scheduler]** activity pe
    * **[!UICONTROL Never]**:指定した頻度に応じてワークフローが実行され、時間枠や繰り返し回数に制限されません。
    * **[!UICONTROL After a certain number of iterations]**:ワークフローは、指定した頻度に従って、 **X** の上限に達するまで実行されます。**[!UICONTROL Number of iterations]** したがって、指定する必要があります。
    * **[!UICONTROL On a specific date]**:ワークフローは指定した日付まで、指定した頻度に従って実行されます。したがって、実行のデッドラインを指定する必要があります。
+
+1. Check the schedule of the next ten executions of your workflow by clicking **[!UICONTROL Preview next executions]**.
 
 1. **[!UICONTROL Execution options]** タブで **[!UICONTROL Time zone]** 、フィールド内のスケジューラーのタイムゾーンを設定します。これにより、特定のタイムゾーンでワークフローを開始できます。そうしないと、ワークフローはデフォルトでサーバータイムゾーンで実行されます。
 
