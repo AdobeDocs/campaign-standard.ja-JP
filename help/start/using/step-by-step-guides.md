@@ -14,7 +14,7 @@ discoiquuid: d7088c18-7daf-4c30- b633-2f19496b1143
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 20b4d5dfb297cac4cd69fe6f945b4399abd7f06a
 
 ---
 
@@ -40,7 +40,7 @@ Adobe Campaignについて詳しくは、次の使用事例および例を参照
 
 * [電子メールを設計するための主要な手順](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch):最初から電子メールコンテンツをデザインするための重要な手順を読み上げます。
 * [Adobe CampaignでのExperience Cloud Triggersの使用](../../integrating/using/abandonment-triggers-use-cases.md):Webサイト上のAdobe Analyticsによって追跡された特定の行動に従って、パーソナライズされた電子メールを顧客に送信します。
-* [リソースの追加または拡張](../../developing/using/key-steps-of-adding-a-resource.md):新しいリソースを作成したり、既存のリソースを拡張したりする方法について説明します。
+* [リソースの追加または拡張](../../developing/using/key-steps-to-add-a-resource.md):新しいリソースを作成したり、既存のリソースを拡張したりする方法について説明します。
 * [ワークフローテンプレートの読み込み](../../automating/using/importing-data.md#example--import-workflow-template):インポートテンプレートを使用して、同じ構造のファイルを定期的にインポートします。
 * [ダブルオプトインプロセス](../../channels/using/setting-up-a-double-opt-in-process.md)の設定:ランディングページにリンクされた電子メールを送信して、顧客の購読を確認する方法について説明します。
 * [電子メールのパーソナライズ](../../designing/using/example--email-personalization.md):顧客の年齢に従って電子メールをパーソナライズします。
