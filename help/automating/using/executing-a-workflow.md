@@ -15,7 +15,7 @@ context-tags: ワークフロー、概要;ワークフロー、メイン
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
+source-git-commit: e33cbfbf6376dabfe81b9bd6f7cce817f35d1b75
 
 ---
 
@@ -28,7 +28,7 @@ source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
 
 >[!CAUTION]
 >
->5つ以上のワークフローを同時に実行しないことをお勧めします。同時に実行されるワークフローが多すぎると、システムはリソースを不足し、不安定な状態になることがあります。また、ワークフローを時間の経過とともに分散することをお勧めします。
+> アドビでは、ワークフローの実行に優先順位を付け、最大20個の同時ワークフロー実行を実行して、インスタンス全体でパフォーマンスを最大限に発揮させることを推奨しています。20以上の同時ワークフロー実行が計画されており、デフォルトでは順次実行されます。カスタマーケアにチケットを送信することで、同時ワークフロー実行の最大数のデフォルト設定を調整できます。
 
 実行関連アクション（開始、停止、一時停止など）are **asynchronous** processes: the command is saved and will become effective once the server is available to apply it.
 
