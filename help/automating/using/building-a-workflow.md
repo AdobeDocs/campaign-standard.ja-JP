@@ -15,7 +15,7 @@ context-tags: ワークフロー、ウィザード、ワークフロー、メイ
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e384a0cef325bc01eb5ea050b0f3d926aea9a88f
+source-git-commit: 51154892b2d5bd5685272735cdd6e7d9474e09a6
 
 ---
 
@@ -94,6 +94,10 @@ Creating a marketing activity is detailed in the [Creating marketing activities]
    >[!NOTE]
    >
    >コピー&amp;ペーストで既存のアクティビティを複製することもできます。このようにして、当初定義されていた設定を維持します。For more on this, refer to [Duplicating workflow activities](../../automating/using/workflow-interface.md#duplicating-workflow-activities).
+
+Once your workflow activities are linked together, you can personalize the transitions between them with the **label** of your choice. そのためには、トランジションをダブルクリックしてプロパティにアクセスします。
+
+**[!UICONTROL Targeting]****[!UICONTROL Data management (ETL)]** また、アクティビティによって、アウトバウンドトランジションの **セグメントコード** を定義できます。その後、マーケティングキャンペーンの効率を測定するために、これらのセグメントコードに基づいてレポートを作成できます。For more on this, refer to [this section](../../reporting/using/creating-a-report-workflow-segment.md).
 
 ## Configuring activities {#configuring-activities}
 
