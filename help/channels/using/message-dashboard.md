@@ -15,7 +15,7 @@ context-tags: delivery， main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6df0e764750a31f29d6fe3ec4d92e19b3f07f728
+source-git-commit: 25d997b2e5aa41e29e49ab047398b3db811bd6b6
 
 ---
 
@@ -31,7 +31,7 @@ source-git-commit: 6df0e764750a31f29d6fe3ec4d92e19b3f07f728
 灰色のバーは、メッセージにリンクされている様々なアイコンを再グループ化します。
 
 * **[!UICONTROL Summary]**:メッセージに関するメイン情報を表示/非表示にします。
-* **[!UICONTROL Edit properties]**:メッセージの高度なパラメーターを編集できます。
+* **[!UICONTROL Edit properties]**:メッセージ [の高度なパラメーター](../../administration/using/configuring-email-channel.md#list-of-email-properties)を編集できます。
 * **[!UICONTROL Reports]**:を使用して、メッセージに関連するレポートにアクセスできます。
 
 **関連トピック:**
