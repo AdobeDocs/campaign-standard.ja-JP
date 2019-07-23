@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f- ab48- bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6df0e764750a31f29d6fe3ec4d92e19b3f07f728
+source-git-commit: 89c139e3e2934996e267f875ef7fc2502c27a028
 
 ---
 
@@ -365,7 +365,10 @@ Adobe Campaignと共に送信するすべての電子メールに同じヘッダ
 
    ![](assets/email_designer_mobile_view_change.png)
 
-1. コンポーネントを非表示にすることもできます。このオプションをオンにすると、対応するコンポーネントがモバイルデバイスに表示されたときに非表示になります。
+1. コンポーネントを非表示にするには、モバイルデバイスに表示します。To do this, select **[!UICONTROL Show only on desktop devices]** from the **[!UICONTROL Display options]**.
+また、デスクトップデバイスでこのコンポーネントを非表示にすることもできます。つまり、モバイルデバイスでのみ表示されます。To do this, select **[!UICONTROL Show only on mobile devices]**.
+例えば、このオプションを使用すると、モバイルデバイスに特定の画像を表示したり、デスクトップデバイス上で別の画像を表示したりできます。
+このオプションは、モバイルビューまたはデスクトップビューから設定できます。
 
    ![](assets/email_designer_mobile_hide.png)
 
