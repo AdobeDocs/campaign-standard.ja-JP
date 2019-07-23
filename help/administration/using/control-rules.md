@@ -14,7 +14,7 @@ discoiquuid: 305cde-6424-4c6f- b11b-1e8bdbad6ef1
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6a877d878f01fa1e541dc20b8b0941602113d15b
+source-git-commit: 5e5532c0769fe33016eaee994bdaae9c70a7eaa5
 
 ---
 
@@ -58,3 +58,6 @@ Adobe Campaignで使用できるデフォルトルールのセットにより、
 
    チェックにメッセージパーソナライゼーションが必要な場合は、この段階を選択します。
 
+>[!NOTE]
+>
+>セキュリティ上の理由から、コントロールルールのコンテンツを変更することはできません。**[!UICONTROL Code]** フィールドは読み取り専用です。
