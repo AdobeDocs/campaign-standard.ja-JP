@@ -15,7 +15,7 @@ context-tags: extAccountEmail， overview;emailConfig， main;ルールセット
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 806dc4736ffb395a0eea102090c688102478aaca
+source-git-commit: 4d95fe00c1958399ff4d22d5f0e7762f895b4032
 
 ---
 
@@ -143,7 +143,7 @@ This section details the list of parameters available in the properties screen o
 
 >[!NOTE]
 >
->一部のパラメーターはテンプレートでのみ使用できます。Parameters you can access [depend on your permissions](../../administration/using/types-of-users.md).
+>一部のパラメーターはテンプレートでのみ使用できます。Parameters you can access [depend on your permissions](../../administration/using/users-management.md).
 
 To edit the properties of an email or an email template, use the **[!UICONTROL Edit properties]** button.
 
@@ -250,7 +250,10 @@ Preparing messages is detailed in the [Approving messages](../../sending/using/p
    >
    >**[!UICONTROL Administration]** / **[!UICONTROL Channels]** &gt; **[!UICONTROL Typologies]** メニューからアクセスできるタイポロジは [、「タイポロジ](../../administration/using/about-typology-rules.md) 」セクションに表示されます。
 
-* **[!UICONTROL Compute the label during delivery analysis]**:を使用すると、メッセージの準備段階で電子メールのラベル値を計算できます。
+* **[!UICONTROL Compute the label during delivery preparation]**:では、パーソナライゼーションフィールド、コンテンツブロックおよび動的テキストを使用して、メッセージの準備段階で電子メールのラベル値を計算できます。
+
+   また、ワークフローの外部シグナルアクティビティに宣言されているイベント変数を使用して、配信ラベルをパーソナライズすることもできます。For more on this, refer to [this section](../../automating/using/calling-a-workflow-with-external-parameters.md).
+
 * **[!UICONTROL Save SQL queries in the log]**:このオプションを使用すると、準備段階でSQLクエリログをジャーナルに追加できます。
 
 ### List of email SMTP parameters {#list-of-email-smtp-parameters}
