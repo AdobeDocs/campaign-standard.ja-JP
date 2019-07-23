@@ -15,7 +15,7 @@ context-tags: DeliveryTransactionalTemplate，概要
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d50d486ed77cb7989df47133bb49fde3227ae3a5
+source-git-commit: e08b7e01956a9106937cb72ab790cb2e98999fcd
 
 ---
 
@@ -313,8 +313,6 @@ By selecting a transactional message, you can delete it with the **[!UICONTROL D
 
 イベントが実行配信に割り当てられた後、受信者のメールボックスがいっぱいになると、一時的なエラーが原因でトランザクションメッセージが失敗する可能性があります。For more on this, see [Retries after a delivery temporary failure](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
-トランザクションイベントが失敗した実行配信に割り当てられている場合、このイベントは延期されて再試行されます。再試行すると、新しい実行配信に割り当てられます。
-
 >[!NOTE]
 >
 >イベントが実行配信に割り当てられると、この実行配信の送信ログにはこのイベントが表示されます。The failed deliveries are displayed in the **[!UICONTROL Execution list]** tab of the transactional message.
@@ -323,9 +321,7 @@ By selecting a transactional message, you can delete it with the **[!UICONTROL D
 
 **ログの更新の送信**
 
-トランザクションイベントが失敗した実行配信に割り当てられた場合、このイベントは延期されて数分後に再試行されます。再試行すると、新しい実行配信に割り当てられます。
-
-ただし、新しい実行配信の送信ログはすぐには更新されません（スケジュールされたワークフローによって更新が実行されます）。It means that the message could be in **[!UICONTROL Pending]** status even if the transactional event has been processed by the new execution delivery.
+再試行プロセスでは、新しい実行配信の送信ログは直ちに更新されません（更新はスケジュールされたワークフローによって実行されます）。It means that the message could be in **[!UICONTROL Pending]** status even if the transactional event has been processed by the new execution delivery.
 
 **失敗した実行配信**
 
