@@ -14,7 +14,7 @@ discoiquuid: 332bd6be-6ca3-4d38- b608-8a66c156d080
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 51154892b2d5bd5685272735cdd6e7d9474e09a6
 
 ---
 
@@ -36,3 +36,4 @@ From the palette, on the left-hand side of the screen, unfold the **[!UICONTROL 
 * [ファイルの抽出](../../automating/using/extract-file.md)
 * [購読サービス](../../automating/using/subscription-services.md)
 
+**[!UICONTROL Data management (ETL)]** アクティビティを使用すると、アウトバウンドトランジションの **セグメントコード** を定義できます。その後、マーケティングキャンペーンの効率を測定するために、これらのセグメントコードに基づいてレポートを作成できます。For more on this, refer to [this section](../../reporting/using/creating-a-report-workflow-segment.md).
