@@ -14,7 +14,7 @@ discoiquuid: dcee9711-7fa6-4773- ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0a481ba4fcaf808ba0c524ec437f0e7e28cc2274
+source-git-commit: 4d95fe00c1958399ff4d22d5f0e7762f895b4032
 
 ---
 
@@ -26,6 +26,16 @@ Adobe Campaign Standardドキュメントの最新の更新について説明し
 このページには、Adobe Campaign Standardの各リリースのすべての新機能およびドキュメントの更新が記載されています。
 
 You can also consult the Adobe Campaign [Release Notes](../../rn/using/release-notes.md).
+
+## Release 19.3 - July 30 {#release-19-3---july-2019}
+
+### New capabilities included in the release {#new-capabilities-included-in-the-release-19}
+
+### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release-17}
+
+Information was added in the [Calling a workflow with parameters](../../developing/using/uc-calling-resource-id-key.md) section. 配信期間に基づいて配信が準備されることを指定し、ワークフローを1日に複数回呼び出す場合は、それらのワークフローにピリオドがないことを確認します。
+
+ワークフローの外部シグナルアクティビティで宣言されているイベント変数を使用して、配信のラベルをパーソナライズする方法について、情報を追加しました。[詳細情報](../../developing/using/uc-calling-resource-id-key.md)
 
 ## July 2019 {#release-july-2019}
 
@@ -201,7 +211,7 @@ The Configuring a mobile application using Adobe Experience Platform SDKs sectio
 
 Videos have been updated and moved [here](https://helpx.adobe.com/campaign/kt/acs/index/acs-videos.html).
 
-ユーザーのタイプのタイプを更新しました。[詳細情報](../../administration/using/types-of-users.md)
+ユーザーのタイプのタイプを更新しました。[詳細情報](../../administration/using/users-management.md)
 
 ## Release 18.9 - September 2018 {#release-18-9---september-2018}
 
@@ -461,7 +471,7 @@ Adobe Analyticsで共有されるKPIの詳細なリストです。[詳細情報]
 
 S3アカウントの推奨事項を追加しました。[詳細情報](../../administration/using/external-accounts.md#amazon-s3-account-recommendations)
 
-様々なタイプのユーザーに関する節を更新しました。[詳細情報](../../administration/using/types-of-users.md)
+様々なタイプのユーザーに関する節を更新しました。[詳細情報](../../administration/using/users-management.md)
 
 画像ソースのパーソナライゼーションに関する節を更新しました。[詳細情報](../../designing/using/personalizing-an-image-source.md)
 
@@ -551,7 +561,7 @@ Dreamweaver integration live - [Read more](https://helpx.adobe.com/campaign/kt/a
 
 ### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release-14}
 
-様々なタイプのAdobe Campaignユーザーに追加されたセクション。[詳細情報](../../administration/using/types-of-users.md)
+様々なタイプのAdobe Campaignユーザーに追加されたセクション。[詳細情報](../../administration/using/users-management.md)
 
 ワークフローガイドが整理および拡張されました。Easily find how to [build](../../automating/using/building-a-workflow.md) and [execute](../../automating/using/executing-a-workflow.md) a workflow, how to [target](../../automating/using/targeting-data.md) and [manage](../../automating/using/targeting-data.md#enriching-data) your data, how to [import](../../automating/using/importing-data.md) data, and [how to use workflow data](../../automating/using/using-workflow-data.md) to update the database or to send deliveries.
 
