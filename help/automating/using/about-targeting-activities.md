@@ -14,7 +14,7 @@ discoiquuid: 5f7607a1-5f71-4d66-9688-3e5a1774f1b4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 51154892b2d5bd5685272735cdd6e7d9474e09a6
 
 ---
 
@@ -40,3 +40,4 @@ From the palette, on the left-hand side of the screen, unfold the **[!UICONTROL 
 * [重複除外](../../automating/using/deduplication.md)
 * [Enhance](../../automating/using/enrichment.md)
 
+**[!UICONTROL Targeting]** アクティビティを使用すると、アウトバウンドトランジションの **セグメントコード** を定義できます。その後、マーケティングキャンペーンの効率を測定するために、これらのセグメントコードに基づいてレポートを作成できます。For more on this, refer to [this section](../../reporting/using/creating-a-report-workflow-segment.md).
