@@ -15,7 +15,7 @@ context-tags: 配信，デプロイメント，戻る
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 77b0933bcd004cedc6a58f80717a4284b284e0cd
+source-git-commit: e9dd7c374903d0c57ac4881ed125c3215bd7fe11
 
 ---
 
@@ -43,6 +43,10 @@ To send your delivery, click the **[!UICONTROL Confirm send]** button found in t
 >[!NOTE]
 >
 >メッセージがスケジュールされている場合は、送信時に送信されます。For more on scheduling messages, refer to [this section](../../sending/using/about-scheduling-messages.md).
+
+集計期間のない定期配信を使用している場合は、配信の送信前に確認を要求できます。To do this, open the **[!UICONTROL Schedule]** block of the delivery dashboard, then activate the dedicated option.
+
+![](assets/confirmation_recurring_deliveries.png)
 
 **[!UICONTROL Deployment]** ブロックは送信の進行状況を示します。
 
