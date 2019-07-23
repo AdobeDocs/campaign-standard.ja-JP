@@ -14,7 +14,7 @@ discoiquuid: 45ddf7b7-98f7-4fdd- bb4a-49ec8490e877
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 698466596fdacd005dc4d72b8071208c8c39f77d
+source-git-commit: eed2e3597548c97345f51fe62dd2b56af5042e87
 
 ---
 
@@ -27,7 +27,7 @@ Adobe Targetの統合では、動的な画像を配信に追加して、エク�
 
 Adobe Campaignで画像にアクセスする前に、次のタスクをAdobe Targetで実行する必要があります。
 
-* Create one or several [redirect offers](https://marketing.adobe.com/resources/help/en_US/tnt/help/t_Creating_a_Redirect_Offer.html), in which you must specify the URL of the image you will be using.
+* Create one or several [redirect offers](https://docs.adobe.com/content/help/en/target/using/experiences/offers/offer-redirect.html), in which you must specify the URL of the image you will be using.
 * Create one or several [audiences](https://marketing.adobe.com/resources/help/en_US/target/ov/c_about_segments.html), to define the target of your activity.
 * [フォームベースのExperience Composer](https://marketing.adobe.com/resources/help/en_US/target/target/t_form_experience_composer.html) アクティビティを作成します。このアクティビティでは、作成されたリダイレクトオファーの数に応じて、rawboxを選択し、いくつかのエクスペリエンスを指定できます。各エクスペリエンスについて、作成されたリダイレクトオファーの1つを選択する必要があります。
 * Adobe Campaignの情報を使用してセグメントを作成し、エクスペリエンスを指定します。Adobe Campaignのデータをオファーの選択ルールで使用するには、Adobe Targetのrawboxでデータを指定する必要があります。
