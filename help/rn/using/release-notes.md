@@ -14,7 +14,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8- bdb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3b40e71ea9aa7e31c4ab8dcc46f78919328c8572
+source-git-commit: f6ac14bf13433444e71d58cf677681b30f4b620f
 
 ---
 
@@ -41,11 +41,11 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
  <tbody> 
   <tr> 
    <td> External API Activity (Public Beta)<br /> </td> 
-   <td> <p>より深いパーソナライゼーションを実現するために、外部APIアクティビティを使用すると、外部システムからのデータをREST API呼び出し経由でワークフローに取り込むことができます。RESTエンドポイントは、顧客管理システム、Adobe I/OランタイムまたはAdobe Experience Cloud RESTエンドポイント（例: Data Platform、Target、Analytics、Campaign）です。</p><p>この機能は現在パブリックベータ版です。</p><p>For more information, refer to the <a href="../../automating/using/external-api.md">detailed documentation</a>.</p></td> 
+   <td> <p>より深いパーソナライゼーションを実現するために、外部APIアクティビティを使用すると、外部システムからのデータをREST API呼び出し経由でワークフローに取り込むことができます。RESTエンドポイントは、顧客管理システム、Adobe I/OランタイムまたはAdobe Experience Cloud RESTエンドポイント（例: Data Platform、Target、Analytics、Campaign）です。</p><p>この機能は現在パブリックベータ版です。</p><p>For more information, refer to the <a href="../../automating/using/external-api.md">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">how-to video</a>.</p></td> 
   </tr> 
   <tr> 
    <td> Report on workflow segment<br /> </td> 
-   <td> <p>この機能により、マーケティング担当者は、セグメントコードごとに配信パフォーマンスを分類できます。ワークフローを作成し、セグメント化アクティビティを使用して配信母集団にセグメントを割り当てると、これらのセグメントが同じ配信に移行できるようになります。これにより、単一の配信内で複数のセグメントに基づいてオープン/クリックの統計を表示できます。</p><p>For more information, refer to the <a href="../../reporting/using/creating-a-report-workflow-segment.md">detailed documentation</a>.</p></td> 
+   <td> <p>この機能により、マーケティング担当者は、セグメントコードごとに配信パフォーマンスを分類できます。ワークフローを作成し、セグメント化アクティビティを使用して配信母集団にセグメントを割り当てると、これらのセグメントが同じ配信に移行できるようになります。これにより、単一の配信内で複数のセグメントに基づいてオープン/クリックの統計を表示できます。</p><p>For more information, refer to the <a href="../../reporting/using/creating-a-report-workflow-segment.md">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/reporting/report-on-workflow-segments.html">how-to video</a>.</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -70,7 +70,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * 動的コンテンツの記号を使用するとHTML出力が破損する問題を修正しました。（CAR-33688）
 * 電子メールデザイナーでテキストを編集する際に「元に戻す」オプションを使用すると発生していた問題を修正しました。（CAR-32565）
 * スタイルを削除せずにスタイルを解除すると、追加のタグが作成される問題を修正しました。（CAR-32359）
-* 電子メールで使用する各画像がデスクトップデバイスでのみ表示されるか、モバイルデバイスのみで表示されるかを定義できます。
+* 電子メールで使用される各コンポーネントがデスクトップデバイスでのみ表示されるか、モバイルデバイスのみで表示されるかを定義できるようになりました。
 * Socialコンテンツコンポーネントの幅と高さを設定できるようになりました。
 * 動的コンテンツを削除した後、動的コンテンツの古いソースコードが削除されない問題を修正しました。
 * 電子メールの変更後に電子メールの件名が更新されない可能性がある問題を修正しました。
@@ -91,6 +91,7 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * ワークフローの外部シグナルアクティビティで宣言されているイベント変数を使用して、配信のラベルをカスタマイズできるようになりました。For more on this, refer to the [detailed documentation](../../automating/using/calling-a-workflow-with-external-parameters.md).
 * DGPRの削除クエリが改善され、パフォーマンスが向上しました。（CAR-33504）
 * 外部アカウント設定インターフェイスから"ftp"オプションが削除されました。（CAR-34472）
+* これで、電子メールメッセージごとにSMTPテストモードオプションを有効化および無効化できます。For more on this, refer to the [detailed documentation](../../administration/using/configuring-email-channel.md#smtp-test-mode). （CAR-34602）
 
 ### Other changes {#other-changes-2}
 
@@ -123,7 +124,6 @@ View the latest [documentation updates](../../rn/using/documentation-updates.md)
 * 購読を含むチェックボックスフィールドの設定時に発生する可能性があるランディングページの問題を修正しました。（CAR-34369）
 * リストを設定し、「アイコン」フィールドを追加すると発生していた問題を修正しました。（CAR-34585）
 * "|」および"%"記号を、ファイルワークフローアクティビティの読み込みの日付または時間区切り文字として使用します。（CAR-34706）
-* アクティビティを追加したときにワークフローで発生し、ワークフローを保存して、ブラウザーの「戻る」ボタンに移動した問題を修正しました。新しく追加されたアクティビティがワークスペースから削除されました。（CAR-34788）
 * ランディングページのチェックボックスを使用して表示条件を使用すると発生していた問題を修正しました。（CAR-34802）
 * フィルタリングディメンションがトラッキングログとプロファイルのターゲットディメンションに設定されている場合、「追加データ」タブにフィールドが表示されなかった、強化アクティビティの問題を修正しました。
 * "WorkflowTemplate"リソースを書き出す際にエラーメッセージが表示される問題を修正しました。
