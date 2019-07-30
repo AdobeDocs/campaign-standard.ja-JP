@@ -14,7 +14,7 @@ discoiquuid: 3f968556- e774-43dc- a0b8-7188d7665fbc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 20b4d5dfb297cac4cd69fe6f945b4399abd7f06a
+source-git-commit: 8e2f947cce39ce08f233292d34cb4440aa48a2b5
 
 ---
 
@@ -38,6 +38,10 @@ Event configuration must be performed by an **administrator** by following the s
 1. Give a **[!UICONTROL Label]** and an **[!UICONTROL ID]** to the event. **[!UICONTROL ID]** フィールドは必須で、プリフィックス"EVT"で始まる必要があります。If you do not use this prefix, it is automatically added once you click **[!UICONTROL Create]**.
 
    ![](assets/message-center_1.png)
+
+   >[!CAUTION]
+   >
+   >IDは、EDTプレフィックスを含め、64文字以内にする必要があります。
 
 1. Select the channel that will be used to send your transactional messages **[!UICONTROL Email]**, **[!UICONTROL Mobile (SMS)]** or **[!UICONTROL Mobile application]** (push notification).
 
