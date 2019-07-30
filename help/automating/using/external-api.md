@@ -12,7 +12,7 @@ context-tags: ExternalAPI、ワークフロー、メイン
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1444a636f401ed9c34295aaca1a2b3271d6700a4
+source-git-commit: eb908d4e0ff23319025d3193bb9b22d006b5901e
 
 ---
 
@@ -25,16 +25,29 @@ source-git-commit: 1444a636f401ed9c34295aaca1a2b3271d6700a4
 
 **[!UICONTROL External API]** アクティビティにより、REST API呼び出しを介して **外部システム** からワークフローにデータ **が送信** されます。
 
-The REST endpoints can be a Customer management system, an [Adobe I/O Runtime](https://www.adobe.io/apis/experienceplatform/runtime.html) or an Experience Cloud REST endpoints (Data Platform, Target, Analytics, Campaign, etc).
+The REST endpoints can be a customer management system, an [Adobe I/O Runtime](https://www.adobe.io/apis/experienceplatform/runtime.html) instance or an Experience Cloud REST endpoints (Data Platform, Target, Analytics, Campaign, etc).
+
+>[!CAUTION]
+>
+>この機能は現在パブリックベータ版です。External APIアクティビティを使用する前に、使用規約に同意する必要があります。このパブリックベータ版機能はまだアドビによって商用リリースされていないので、Adobe ClientCareではサポートされていません。エラーが含まれている可能性があります。また、他のリリース機能と同様に機能しないこともあります。
 
 このアクティビティの主な特性は次のとおりです。
 
-* 5MB HTTP応答データサイズ制限
+* サードパーティREST APIエンドポイントにデータをJSON形式で渡す機能
+* JSON応答を受信し、出力テーブルにマップして、他のワークフローアクティビティにダウンストリームを渡すことができます。
 * アウトバウンド特定のトランジションによる失敗管理
+
+このアクティビティでは次のグァドラリオが配置されました。
+
+* 5MB HTTP応答データサイズ制限
 * リクエストのタイムアウトは60秒です
 * HTTPリダイレクトは許可されません
 * HTTPS以外のURLが拒否されました
 * 「同意:application/json" request header and"Content- Type:application/json"responseヘッダーが許可されます
+
+>[!CAUTION]
+>
+>アクティビティは、キャンペーン全体のデータ（最新のオファー、最新のスコアなど）を取得するためのものであることに注意してください。データが大量に転送される可能性があるため、各プロファイルの特定の情報を取得することはできません。If the use case requires this, the recommendation is to use the [Transfer File](../../automating/using/transfer-file.md) activity.
 
 ## Configuration {#configuration}
 
@@ -61,7 +74,7 @@ This tab lets you define the sample **JSON structure** returned by the API Call.
 
 ![](assets/externalAPI-outbound.png)
 
-The JSON structure pattern is: **{“data”:[{“key”:“value”}, {“key”:“value”},...]}**
+The JSON structure pattern is: `{“data”:[{“key”:“value”}, {“key”:“value”},...]}`
 
 The sample JSON definition must have the **following characteristics**:
 
@@ -86,9 +99,9 @@ This tab lets you control **general properties** on the external API activity li
 
 ### 列の定義
 
-    &gt;[!注]
-    &gt;
-    &gt;このタブは、**応答データ形式**が完了し、「アウトバウンドマッピング」タブで検証されたときに表示されます。
+>[!NOTE]
+>
+>This tab appears when the **response data format** is completed and validated in Outbound Mapping tab.
 
 **「列の定義」** タブでは、エラーを含まないデータをインポートし、今後の操作用にAdobe Campaignデータベースに存在するタイプと一致させるために、各列のデータ構造を正確に指定できます。
 
@@ -109,6 +122,109 @@ This tab lets you activate the **outbound transition** and its label. This speci
 このタブは、ほとんどのワークフローアクティビティで使用できます。For more information, consult the [Activity properties](../../automating/using/executing-a-workflow.md#activity-properties) section.
 
 ![](assets/externalAPI-options.png)
+
+## トラブルシューティング
+
+この新しいワークフローアクティビティに追加されるログメッセージには、次の2種類があります。情報とエラーを参照してください。潜在的な問題のトラブルシューティングに役立ちます。
+
+### 情報
+
+これらのログメッセージは、ワークフローアクティビティの実行中に有用なチェックポイントに関する情報をログに記録するために使用されます。具体的には、次のログメッセージを使用して、最初の試行と、APIにアクセスするための再試行の試み（最初の試行の失敗）も記録されます。
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> Message format<br /> </th> 
+   <th> Example<br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> API URL'% s'を呼び出しています。</td> 
+   <td> <p>API URL'https://example.com/api/v1/web-coupon?count=2'を呼び出します。</p></td> 
+  </tr> 
+  <tr> 
+   <td> API URL"% s"を再試行しています。以前の試行に失敗しました（'% s'）。</td> 
+   <td> <p>API URL'https://example.com/api/v1/web-coupon?count=2'を再試行しています。前の試行に失敗しました（'HTTP-401'）。</p></td>
+  </tr> 
+  <tr> 
+   <td> "% s"からコンテンツを転送しています（% s/% s）。</td> 
+   <td> <p>"https://example.com/api/v1/web-coupon?count=2'（1234/1234）からのコンテンツの転送」を参照してください。</p></td> 
+  </tr>
+ </tbody> 
+</table>
+
+### エラー
+
+これらのログメッセージは、予期しないエラー状態に関する情報をログに記録するために使用され、最終的にワークフローアクティビティが失敗します。
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> Code - Message format<br /> </th> 
+   <th> Example<br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> WKF-560250- APIリクエストの本文を超過しました（制限:'% d'）。</td> 
+   <td> <p>APIリクエストの本文が上限を超えました（制限:"5242880"）。</p></td> 
+  </tr> 
+  <tr> 
+   <td> WKF-560239- API応答を超過しました（制限:'% d'）。</td> 
+   <td> <p>API応答を超過しました（制限:5242880'）。</p></td> 
+  </tr> 
+  <tr> 
+   <td> WKF-560245- API URLを解析できません（エラー:'% d'）。</td> 
+   <td> <p>API URLを解析できません（エラー:'-2010'）。</p>
+   <p> 注意:このエラーは、API URLに検証ルールが失敗した場合に記録されます。</p></td>
+  </tr> 
+  <tr>
+   <td> WKF-560244- API URLホストは、"localhost"またはIPアドレスリテラル（URLホスト）にすることはできません。'% s'）。</td> 
+   <td> <p>API URLホストは、"localhost"またはIPアドレスリテラル（URLホスト）にすることはできません。"localhost"）。</p>
+    <p>API URLホストは、"localhost"またはIPアドレスリテラル（URLホスト）にすることはできません。"192.168.0.5"）。</p>
+    <p>API URLホストは、"localhost"またはIPアドレスリテラル（URLホスト）にすることはできません。'[2001]'）.</p></td>
+  </tr> 
+  <tr> 
+   <td> WKF-560238- API URLは、安全なURL（https）である必要があります（要求されたURL:'% s'）。</td> 
+   <td> <p>API URLは、安全なURL（https）である必要があります（https）。'https://example.com/api/v1/web-coupon?count=2').</p></td> 
+  </tr> 
+  <tr> 
+   <td> WKF-560249:リクエスト本文のJSONを作成できませんでした。"% s"を追加する際にエラーが発生しました。</td> 
+   <td> <p>リクエスト本文のJSONを作成できませんでした。"params"を追加する際にエラーが発生しました。</p>
+    <p>リクエスト本文のJSONを作成できませんでした。"data"を追加する際にエラーが発生しました。</p></td>
+  </tr> 
+  <tr> 
+   <td> WKF-560246: HTTPヘッダーキーが不正です（ヘッダーキー:'% s'）。</td> 
+   <td> <p>HTTPヘッダーキーが不正です（ヘッダーキー:'% s'）。</p>
+   <p> 注意:このエラーは、カスタムヘッダーキーが[RFC]（https://tools.ietf.org/html/rfc7230#section-3.2.html)）に従って検証できない場合に記録されます</p></td> 
+  </tr>
+ <tr> 
+   <td> WKF-560248: HTTPヘッダーキーは許可されません（ヘッダーキー）。'% s'）。</td> 
+   <td> <p>HTTPヘッダーキーは許可されません（ヘッダーキー:"Accept"）。</p></td> 
+  </tr> 
+  <tr> 
+   <td> WKF-560247- AHTTPヘッダー値が不正です（ヘッダー値:'% s'）。</td> 
+   <td> <p>HTTPヘッダー値が不正です（ヘッダー値:'% s'）。 </p>
+    <p>注意:このエラーは、カスタムヘッダ値が[RFC]（https://tools.ietf.org/html/rfc7230#section-3.2.html)）に従って検証に失敗した場合に記録されます</p></td> 
+  </tr> 
+  <tr> 
+   <td> WKF-560240- JSONペイロードに不正なプロパティ'% s'があります。</td> 
+   <td> <p>JSONペイロードに不正なプロパティ"blah"があります。</p></td>
+  </tr> 
+  <tr>
+   <td> WKF-560241- JSON形式または受け入れ不能な形式です。</td> 
+   <td> <p>JSON形式または受け入れ不可能な形式です。</p>
+   <p>注意:このメッセージは、外部APIからの応答の本文の解析にのみ適用され、応答本文がこのアクティビティによって規定されたJSON形式に準拠しているかどうかを検証しようとすると記録されます。</p></td>
+  </tr>
+  <tr> 
+   <td> WKF-560246-アクティビティに失敗しました（理由:'% s'）。</td> 
+   <td> <p>HTTP401エラー応答が原因でアクティビティが失敗した場合-アクティビティ失敗（理由:'HTTP-401'）</p>
+        <p>内部呼び出しに失敗したためにアクティビティが失敗した場合-アクティビティ失敗（理由:"IRC-- NN"）。</p>
+        <p>Content- Typeヘッダーが無効なことが原因でアクティビティが失敗した場合。- アクティビティに失敗しました（理由:"Content- Type- application/html"）。</p></td> 
+  </tr>
+ </tbody> 
+</table>
 
 <!--
 ## Example: Managing coupons with External API Activity
