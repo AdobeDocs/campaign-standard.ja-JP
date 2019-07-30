@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f- ab48- bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 89c139e3e2934996e267f875ef7fc2502c27a028
+source-git-commit: 072843b5507dbae34b5d3924bf22f20b4edfa285
 
 ---
 
@@ -128,6 +128,26 @@ For more on converting an existing email into an Email Designer-compatible email
 * 電子メールデザイナー内で編集中の電子メールの一部のコンテンツとして直接保存することはできません。そのコンテンツに対応するHTMLを新しいフラグメントにコピー&amp;ペーストする必要があります。For more on this, see [Saving content as a fragment](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment).
 * スタイルを編集する場合、ほとんどの電子メールクライアントで正式にサポートされているWebフォントのみが使用できます。
 * スタイルは、今後再利用するためにテーマとして保存することはできません。ただし、CSSスタイルはコンテンツテンプレートまたは電子メールで保存できます。For more on styles, see [this section](../../designing/using/editing-email-styles.md).
+
+### Email Designer updates {#email-designer-updates}
+
+電子メールデザイナーは継続的に改善されています。最初から電子メールコンテンツを作成して、すぐに使用できるテンプレートから、またはフラグメントを作成した場合、次にコンテンツを開いたときに、次の更新メッセージが表示されることがあります。
+
+![](assets/email_designer_fragment-patch-message.png)
+
+CSSの衝突の問題などの問題を回避するために、コンテンツを最新バージョンに更新することをお勧めします。**[!UICONTROL Update now]**&#x200B;をクリックします。
+
+コンテンツの更新中にエラーが発生した場合は、HTMLをチェックして、この更新を再度実行する前に修正してください。
+
+フラグメントについては、次の点に注意してください。
+
+* 新しい電子メールまたはテンプレートにフラグメントを追加する場合は、このフラグメントを最初に更新する必要があります。
+
+* 複数のフラグメントがある場合は、電子メールコンテンツで使用する各フラグメントを更新する必要があります。
+
+* 現在の電子メールメッセージに影響を与えないようにするには、一部のステージまたは変更を望まない特定のキャンペーンに、一部のフラグメントを更新しないように選択できます。
+
+* 更新されていないフラグメントが既に使用されている電子メールを送信できますが、そのフラグメントは編集できません。
 
 ## Designing an email content from scratch {#designing-an-email-content-from-scratch}
 
