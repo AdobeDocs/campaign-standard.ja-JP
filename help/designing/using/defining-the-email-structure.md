@@ -14,7 +14,7 @@ discoiquuid: 207fdf6d-165a-41af- ad53- ba97d3403b62
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b671da944fa3059d3a09bceda7d5142df984593c
+source-git-commit: 7de6436bbd4f1cc5032e13414f7337f637bf608a
 
 ---
 
@@ -193,6 +193,10 @@ Email Designerの利用可能なコンポーネントのリストを次に示し
 
 電子メールを電子メールで編集する際に、その電子メールの一部をフラグメントとして直接保存できます。
 
+>[!CAUTION]
+>
+>フラグメント化フィールド、動的コンテンツ、または他のフラグメントを含む構造をフラグメントとして保存することはできません。
+
 1. When editing an email in the Email Designer, select **[!UICONTROL Save as fragment]** from the main toolbar.
 
    ![](assets/email_designer_save-as-fragment.png)
@@ -215,7 +219,7 @@ Email Designerの利用可能なコンポーネントのリストを次に示し
 
    ![](assets/email_designer_save-as-fragment_list.png)
 
-1. 新しいフラグメントを使用するには、その他の電子メールコンテンツを開き、フラグメントリストから選択します。
+1. 新しいフラグメントを使用するには、任意の電子メールコンテンツを開き、フラグメントリストから選択します。
 
 ![](assets/email_designer_save-as-fragment_in-new-email.png)
 
