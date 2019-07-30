@@ -14,7 +14,7 @@ discoiquuid: dcee9711-7fa6-4773- ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4d95fe00c1958399ff4d22d5f0e7762f895b4032
+source-git-commit: 55aed1eeb44d96b1029555e6afdc4e205262b563
 
 ---
 
@@ -27,9 +27,13 @@ Adobe Campaign Standardドキュメントの最新の更新について説明し
 
 You can also consult the Adobe Campaign [Release Notes](../../rn/using/release-notes.md).
 
-## Release 19.3 - July 30 {#release-19-3---july-2019}
+## Release 19.3 - July 2019 {#release-19-3---july-2019}
 
 ### New capabilities included in the release {#new-capabilities-included-in-the-release-19}
+
+External API Activity (Public Beta) - [Read more](../../automating/using/external-api.md)
+
+Report on workflow segment - [Read more](../../reporting/using/creating-a-report-workflow-segment.md)
 
 ### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release-17}
 
@@ -37,7 +41,27 @@ Information was added in the [Calling a workflow with parameters](../../developi
 
 ワークフローの外部シグナルアクティビティで宣言されているイベント変数を使用して、配信のラベルをパーソナライズする方法について、情報を追加しました。[詳細情報](../../developing/using/uc-calling-resource-id-key.md)
 
-## July 2019 {#release-july-2019}
+Adobe Campaign Standardでのユーザーの作成方法について詳しく説明しています。[詳細情報](../../administration/using/users-management.md)
+
+動的レポートに関するトラブルシューティングが追加されました。[詳細情報](../../reporting/using/troubleshooting.md)
+
+様々なアプリ内テンプレートが個人情報をどのように処理するかを説明する図。[詳細情報](../../channels/using/preparing-and-sending-an-in-app-message.md)
+
+電子メールデザイナーに電子メールコンテンツをフラグメントとして保存する方法に関するセクションが更新されました。[詳細情報](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment)
+
+余分な余白が電子メールコンテンツのレイアウトに与える影響について、警告が追加されました。[詳細情報](../../designing/using/adding-a-content-block.md#creating-custom-content-blocks)
+
+電子メールDesignerの推奨更新の新しい節が追加されました。[詳細情報](../../designing/using/about-email-content-design.md#email-designer-updates)
+
+実際の顧客データを使用して配達確認を送信する方法に関する新しいセクションが追加されました。[詳細情報](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs-using-additional-data)
+
+ワークフローのベストプラクティスに関する新しい節が追加されました。[詳細情報](../../automating/using/best-practices-workflows.md)
+
+キャンペーンStandardおよびClassicのエラーメッセージのリストが更新されました。[詳細情報](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+
+カスタムリソースドキュメントに警告が追加されました。カスタムリソースIDには最大30文字を使用することをお勧めします。これは、カスタムリソースフィールド、キー、インデックスおよびリンクにも適用されます。[詳細情報](../../developing/using/creating-or-extending-the-resource.md)
+
+## Documentation updates - July 2019 {#doc-updates-2019}
 
 ランディングページの制限に関する新しいページを追加しました。[詳細情報](../../channels/using/landing-page-limitations.md)
 
@@ -45,7 +69,9 @@ Information was added in the [Calling a workflow with parameters](../../developi
 
 パラメーターを使用したワークフローの呼び出し時に、集計期間を使用しない定期配信の使用についての推奨が追加されました。[詳細情報](../../automating/using/calling-a-workflow-with-external-parameters.md)
 
-電子メールデザイナーに電子メールコンテンツをフラグメントとして保存する方法に関するセクションが更新されました。[詳細情報](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment)
+キャンペーンStandardおよびClassicのエラーメッセージのリストが更新されました。[詳細情報](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+
+カスタムリソースドキュメントに警告が追加されました。カスタムリソースIDには最大30文字を使用することをお勧めします。これは、カスタムリソースフィールド、キー、インデックスおよびリンクにも適用されます。[詳細情報](../../developing/using/creating-or-extending-the-resource.md)
 
 ## Release 19.2 - May 2019 {#release-19-2---may-2019}
 
@@ -170,8 +196,6 @@ Added information on the new option in the Query ( [Read more](../../automating/
 新しいバッチサイズフィールドのデータアクティビティの更新セクションに情報を追加し、アップロードするデータの最大バッチサイズを定義できるようにしました。[詳細情報](../../automating/using/update-data.md#configuration)
 
 新しいオプションの「ファイルアクティビティを抽出」セクションに情報を追加しました。この節では、アウトバウンドトランジションが空の場合にファイル生成プロセスを無効にすることができます。[詳細情報](../../automating/using/extract-file.md#configuration)
-
-Profiles&amp; Services Ext APIの更新方法に関する新しいテクニカルノートが追加されました。[詳細情報](https://helpx.adobe.com/campaign/kb/profile-service-api-update.html)
 
 ## Release 19.0 - January 2019 {#release-19-0---january-2019}
 
