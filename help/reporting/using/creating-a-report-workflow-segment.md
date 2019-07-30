@@ -14,7 +14,7 @@ discoiquuid: b6d3de63-3add-4881-8917-04a6f8b6be4d
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 36e04227f300d28d2c48da440ddab3ccf9281168
+source-git-commit: c555c35004ffe3c3d7e2f845a3a2707b1985e190
 
 ---
 
@@ -58,7 +58,7 @@ Note that segment codes will be collected as soon as you enable the segment code
 
 ## Step 2: Create a workflow with segments {#step-2--create-a-workflow-segments}
 
-[!NOTE]
+>[!NOTE]
 >電子メール配信の入力トランジションが空の場合、以前の移行のセグメントコードがデフォルトで追加されます。
 
 まず、ターゲット母集団ごとにワークフローを作成する必要があります。ここでは、オーディエンスの年齢に応じてパーソナライズされる電子メールを送信します。20~30歳のプロファイルと、30~40才のプロファイルに別の配信を提供します。
