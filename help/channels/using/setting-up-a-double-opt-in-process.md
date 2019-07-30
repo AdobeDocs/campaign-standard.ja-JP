@@ -14,7 +14,7 @@ discoiquuid: 1a24504e-7f9d-4297- b39e- c5f085b0f388
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 855db33971afdf9f02bf1b00be67c9e3f50bee06
+source-git-commit: 6dd0c32259d942a0fb790f345cd13800a57e814a
 
 ---
 
@@ -105,6 +105,7 @@ You need to create a specific [typology rule](../../administration/using/about-t
 1. From the Adobe Campaign logo, select **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Typologies]** and click **[!UICONTROL Typologies]**.
 1. Duplicate the out-of-box typology **[!UICONTROL Transactional message on profile (mcTypologyProfile)]**.
 1. Once duplication confirmed, edit the new typology and enter the label **TYPOLOGY_PROFILE**.
+1. **ブラックリストに記載されたアドレス** ルールを削除します。
 1. **[!UICONTROL Save]**&#x200B;をクリックします。
 
 この誤植を確認電子メールに関連付けることができるようになりました。
