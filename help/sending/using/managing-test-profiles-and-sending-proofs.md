@@ -15,7 +15,7 @@ context-tags: seedMember，概要
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cb6396228e42f99f7e184a82e6c894b09a164cd9
+source-git-commit: 663ce734a79d7895e1e5cbd6d5756447d42299fd
 
 ---
 
@@ -128,3 +128,42 @@ You can manage your test profiles from the advanced menu **[!UICONTROL Profiles 
 **関連トピック:**
 
 [テストの送信、電子メール](https://helpx.adobe.com/campaign/kt/acs/using/acs-sending-test-preparing-sending-email-feature-video-use.html) ビデオの準備と送信
+
+## Sending proofs using additional data {#sending-proofs-using-additional-data}
+
+この節では、疑似テストプロファイルデータを使用するとは対照的に、ワークフローでアクセスできる実際の顧客データを使用して、配達確認を送信する方法について説明します。これにより、ワークフローで使用される変数が正確で、受信者が受信するメッセージのビューを取得できます。
+
+1. Create a test profile and enable **[!UICONTROL Proof]** and **[!UICONTROL Trap]** as the intended usage. For more on this, see [Managing test profiles](../../sending/using/managing-test-profiles-and-sending-proofs.md#managing-test-profiles).
+
+   このテストプロファイルはターゲットオーディエンスの一部になります。
+
+   >[!NOTE]
+   >
+   >メッセージ内の任意のリッチフィールドに対してテストプロファイルをトラップとして使用する場合、対応する追加のデータは、実際のターゲットプロファイルからランダムに選択され、トラップテストプロファイルに割り当てられます。
+
+1. マーケティングアクティビティリストにアクセスし、テストワークフローを作成します。
+
+   See [Creating a workflow](../../automating/using/building-a-workflow.md#creating-a-workflow).
+
+1. Drag and drop a **[!UICONTROL Query]** activity into your workflow and open it.
+
+   The Query activity is presented in the [Query](../../automating/using/query.md) section.
+
+1. リンクされたテーブルからデータを追加します。For more on this, see [Enriching data](../../automating/using/query.md#enriching-data).
+
+1. **電子メール配信** アクティビティをワークフローにドラッグ&amp;ドロップして開きます。
+
+   The Email delivery activity is presented in the [Email delivery](../../automating/using/email-delivery.md) section.
+
+1. 電子メールメッセージダッシュボードから、作成したトラップの使用状況を示すテストプロファイルを選択します。
+
+1. クエリアクティビティで定義した追加データを使用して、電子メールコンテンツのパーソナライゼーションフィールドに追加します。
+
+1. 電子メールを保存してワークフローを開始します。
+
+メッセージの準備中に、ターゲットカウントには選択したテストプロファイルが含まれます。
+メッセージが送信されると、追加のデータが実際のプロファイルのデータに置き換えられます。
+
+>[!NOTE]
+>
+>追加のデータのみが置き換えられます。テストプロファイルには、名前や姓などの実際のプロファイルデータは使用されません。
