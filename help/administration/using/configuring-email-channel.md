@@ -15,7 +15,7 @@ context-tags: extAccountEmail， overview;emailConfig， main;ルールセット
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4d95fe00c1958399ff4d22d5f0e7762f895b4032
+source-git-commit: 8f737b1f66b40862d0e0f64cf7d7f4a2d4d29518
 
 ---
 
@@ -177,8 +177,6 @@ You can also add a **[!UICONTROL Description]** in the corresponding field and e
 
 再試行の数は、グローバル（アドビのテクニカル管理者に問い合わせる）、または配信または配信テンプレートごとに変更できます
 
-**[!UICONTROL Test SMTP delivery]** このオプションを使用すると、SMTPを使用してメッセージをテストできます。メッセージは、SMTPサーバーとの接続が確立されるまで処理されますが、送信されません。For more information on configuring SMTP, refer to the [List of email SMTP parameters](../../administration/using/configuring-email-channel.md#list-of-email-smtp-parameters) section.
-
 #### Email format parameters {#email-format-parameters}
 
 送信する電子メールの形式を設定できます。次の3つのオプションがあります。
@@ -191,6 +189,24 @@ You can also add a **[!UICONTROL Description]** in the corresponding field and e
    >このオプションには、メッセージの両方のバージョンが含まれます。これは、メッセージサイズが大きいので配信スループットに影響します。
 
 * **すべてのメッセージをテキスト形式で送信**&#x200B;します。メッセージはテキスト形式で送信されます。HTML形式は送信されませんが、受信者がメッセージ内のリンクをクリックしたときにのみミラーページに使用されます。
+
+#### SMTP test mode {#smtp-test-mode}
+
+**[!UICONTROL Enable SMTP test mode]** このオプションを使用すると、メッセージを実際に送信することなく、SMTP接続経由で電子メールの送信をテストできます。
+メッセージは、SMTPサーバーとの接続が確立されるまで処理されますが、送信されません。
+
+![](assets/smtp-test-mode.png)
+
+このオプションは電子メールおよび電子メールテンプレートで使用できます。
+
+電子メールテンプレートのSMTPテストモードオプションを有効にすると、このテンプレートから作成されたすべての電子メールメッセージにこのオプションが有効になります。
+
+>[!CAUTION]
+>
+>このオプションが電子メールに対して有効になっている場合、チェックマークが解除されるまでメッセージは送信されません。
+>電子メールまたは電子メールテンプレートダッシュボードに警告が表示されます。
+
+For more information on configuring SMTP, refer to the [List of email SMTP parameters](../../administration/using/configuring-email-channel.md#list-of-email-smtp-parameters) section.
 
 ### Validity period parameters {#validity-period-parameters}
 
