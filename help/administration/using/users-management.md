@@ -14,7 +14,7 @@ discoiquuid: 08c8712a-0066-4b8b-8471-2656b8fb23ed
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4d95fe00c1958399ff4d22d5f0e7762f895b4032
+source-git-commit: ab329af94dc4e28651aaef17f4588d894fb48b74
 
 ---
 
@@ -124,11 +124,11 @@ Functional administrators are the only users who can access the **[!UICONTROL Ad
 
    ![](assets/create_user_4.png)
 
-ユーザーが作成され、ユーザーがパスワードを設定する必要がある次のウィンドウに電子メールをリダイレクトして、使用条件に同意する必要があります。このユーザーは、Adobe Campaign Standardインスタンスに接続できます。
+ユーザーが作成され、ユーザーがパスワードを設定する必要がある次のウィンドウにリダイレクトされ、契約書の利用規約に同意する必要があります。このユーザーは、Adobe Campaign Standardインスタンスに接続できます。
 
 ![](assets/create_user_5.png)
 
-ユーザーがインスタンスにサインインすると、すぐにAdobe Campaign Standardと同期されます。
+ユーザーがインスタンスにサインインすると、すぐにAdobe Campaign Standardに同期されます。
 
 ユーザーがAdobe Campaignと正しく同期されているかどうかを確認できます。
 
@@ -149,3 +149,5 @@ Functional administrators are the only users who can access the **[!UICONTROL Ad
 1. **[!UICONTROL Authorized connection zone]** フィールドで、ユーザーがこのインスタンスに接続する方法（内部ネットワークやVPNなど）を選択します。
 
 1. **[!UICONTROL Save]**&#x200B;をクリックします。
+
+ユーザーがAdobe Campaign Standardを使用できるようになりました。
