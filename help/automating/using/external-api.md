@@ -12,7 +12,7 @@ context-tags: ExternalAPI、ワークフロー、メイン
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eb908d4e0ff23319025d3193bb9b22d006b5901e
+source-git-commit: 6748e59aaeafce9dc6e77dc0664a9024a53c3e35
 
 ---
 
@@ -197,7 +197,7 @@ This tab lets you activate the **outbound transition** and its label. This speci
   <tr> 
    <td> WKF-560246: HTTPヘッダーキーが不正です（ヘッダーキー:'% s'）。</td> 
    <td> <p>HTTPヘッダーキーが不正です（ヘッダーキー:'% s'）。</p>
-   <p> 注意:このエラーは、カスタムヘッダーキーが[RFC]（https://tools.ietf.org/html/rfc7230#section-3.2.html)）に従って検証できない場合に記録されます</p></td> 
+   <p> Note: This error is logged when the custom header key fails validation according to <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a></p></td> 
   </tr>
  <tr> 
    <td> WKF-560248: HTTPヘッダーキーは許可されません（ヘッダーキー）。'% s'）。</td> 
@@ -206,7 +206,7 @@ This tab lets you activate the **outbound transition** and its label. This speci
   <tr> 
    <td> WKF-560247- AHTTPヘッダー値が不正です（ヘッダー値:'% s'）。</td> 
    <td> <p>HTTPヘッダー値が不正です（ヘッダー値:'% s'）。 </p>
-    <p>注意:このエラーは、カスタムヘッダ値が[RFC]（https://tools.ietf.org/html/rfc7230#section-3.2.html)）に従って検証に失敗した場合に記録されます</p></td> 
+    <p>Note: This error is logged when the custom header value fails validation according to <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a></p></td> 
   </tr> 
   <tr> 
    <td> WKF-560240- JSONペイロードに不正なプロパティ'% s'があります。</td> 
