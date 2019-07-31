@@ -14,7 +14,7 @@ discoiquuid: dcee9711-7fa6-4773- ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 55aed1eeb44d96b1029555e6afdc4e205262b563
+source-git-commit: 03f7f16b3c4ae82da87fdbe1548791fd905dff67
 
 ---
 
@@ -37,11 +37,17 @@ Report on workflow segment - [Read more](../../reporting/using/creating-a-report
 
 ### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release-17}
 
-Information was added in the [Calling a workflow with parameters](../../developing/using/uc-calling-resource-id-key.md) section. 配信期間に基づいて配信が準備されることを指定し、ワークフローを1日に複数回呼び出す場合は、それらのワークフローにピリオドがないことを確認します。
+「キャンペーン標準導入ガイド」が有効になりました。[詳細情報](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html)
 
-ワークフローの外部シグナルアクティビティで宣言されているイベント変数を使用して、配信のラベルをパーソナライズする方法について、情報を追加しました。[詳細情報](../../developing/using/uc-calling-resource-id-key.md)
+Microsoft Dynamics365コネクターの実装と使用状況について、新しいヘルプ記事のセットが作成されました。この機能は現在制限付きであることに注意してください。[詳細情報](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
+
+A note has been added in the [Calling a workflow with parameters](../../automating/using/calling-a-workflow-with-external-parameters.md) section about delivery preparation and their aggregation period.
+
+ワークフローの外部シグナルアクティビティで宣言されているイベント変数を使用して、配信のラベルをパーソナライズする方法について、情報を追加しました。[詳細情報](../../automating/using/external-signal.md)
 
 Adobe Campaign Standardでのユーザーの作成方法について詳しく説明しています。[詳細情報](../../administration/using/users-management.md)
+
+製品マニュアルやチュートリアルビデオへのリンクなど、マーケティングキャンペーンを簡素化するためのヒントが追加されました。[詳細情報](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html)
 
 動的レポートに関するトラブルシューティングが追加されました。[詳細情報](../../reporting/using/troubleshooting.md)
 
