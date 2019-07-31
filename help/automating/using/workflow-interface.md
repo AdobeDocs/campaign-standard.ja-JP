@@ -15,7 +15,7 @@ context-tags: workflow， main;ワークフロー、概要
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ff0b995533f34dd8eab7a9a82feaab3ceed4ff29
+source-git-commit: 6748e59aaeafce9dc6e77dc0664a9024a53c3e35
 
 ---
 
@@ -26,8 +26,8 @@ source-git-commit: ff0b995533f34dd8eab7a9a82feaab3ceed4ff29
 
 ワークフロー編集画面は、次の要素で構成されています。
 
-* [使用](../../automating/using/workflow-interface.md#palette)可能なアクティビティを参照するパレット
-* The [Workspace](../../automating/using/workflow-interface.md#workspace), in which the activities are configured and organized
+* [使用](../../automating/using/workflow-interface.md#palette)可能なアクティビティを参照するパレット。
+* The [Workspace](../../automating/using/workflow-interface.md#workspace), in which the activities are configured and organized.
 * [アクションバー](../../automating/using/workflow-interface.md#action-bar)は、ワークフローやそのコンポーネントを操作できるボタンで構成されています。
 * [選択したアクティビティの周囲に表示されるクイックアクション](../../automating/using/workflow-interface.md#quick-actions)は、操作できます。
 
