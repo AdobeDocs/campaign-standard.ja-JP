@@ -14,7 +14,7 @@ discoiquuid: dcee9711-7fa6-4773- ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 03f7f16b3c4ae82da87fdbe1548791fd905dff67
+source-git-commit: 3cb698bc5025a59771128a8df493e7e126f00cab
 
 ---
 
@@ -59,7 +59,7 @@ Adobe Campaign Standardでのユーザーの作成方法について詳しく説
 
 電子メールDesignerの推奨更新の新しい節が追加されました。[詳細情報](../../designing/using/about-email-content-design.md#email-designer-updates)
 
-実際の顧客データを使用して配達確認を送信する方法に関する新しいセクションが追加されました。[詳細情報](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs-using-additional-data)
+<!-- A new section on how to send proofs using real customer data has been added. [Read more](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs-using-additional-data) -->
 
 ワークフローのベストプラクティスに関する新しい節が追加されました。[詳細情報](../../automating/using/best-practices-workflows.md)
 
