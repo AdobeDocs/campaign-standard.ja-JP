@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f- ab48- bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 072843b5507dbae34b5d3924bf22f20b4edfa285
+source-git-commit: ed67b5e68aa308a6bf54348d4b86f223aec969dd
 
 ---
 
@@ -133,7 +133,7 @@ For more on converting an existing email into an Email Designer-compatible email
 
 電子メールデザイナーは継続的に改善されています。最初から電子メールコンテンツを作成して、すぐに使用できるテンプレートから、またはフラグメントを作成した場合、次にコンテンツを開いたときに、次の更新メッセージが表示されることがあります。
 
-![](assets/email_designer_fragment-patch-message.png)
+![](assets/email_designer_fragment_patch_message.png)
 
 CSSの衝突の問題などの問題を回避するために、コンテンツを最新バージョンに更新することをお勧めします。**[!UICONTROL Update now]**&#x200B;をクリックします。
 
@@ -181,7 +181,7 @@ CSSの衝突の問題などの問題を回避するために、コンテンツ�
 
 ここでは、既存の電子メールを電子メールデザイナー互換の電子メールに変換する方法について説明します。
 
-By default, if you just upload any HTML (see [Importing content from a file](../../designing/using/importing-content-from-a-file.md)), the content is loaded in ' [compatibility mode](../../designing/using/about-email-content-design.md#email-designer-compatibility-mode)', which limits the edition possibilities through the UI (only in-place edition, no drag-and-drop).
+By default, if you just upload any HTML (see [Importing content from a file](../../designing/using/importing-content-from-a-file.md)), the content is loaded in '[compatibility mode](../../designing/using/about-email-content-design.md#email-designer-compatibility-mode)', which limits the edition possibilities through the UI (only in-place edition, no drag-and-drop).
 
 ただし、複数の電子メールで再利用できるように構成されたモジュールテンプレートとフラグメントのフレームワークを作成する場合は、電子メールのHTMLを電子メールデザイナーテンプレートに変換することを検討してください。
 
