@@ -15,7 +15,7 @@ context-tags: seedMember，概要
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 663ce734a79d7895e1e5cbd6d5756447d42299fd
+source-git-commit: 3cb698bc5025a59771128a8df493e7e126f00cab
 
 ---
 
@@ -129,19 +129,19 @@ You can manage your test profiles from the advanced menu **[!UICONTROL Profiles 
 
 [テストの送信、電子メール](https://helpx.adobe.com/campaign/kt/acs/using/acs-sending-test-preparing-sending-email-feature-video-use.html) ビデオの準備と送信
 
-## Sending proofs using additional data {#sending-proofs-using-additional-data}
+<!-- ## Sending proofs using additional data {#sending-proofs-using-additional-data}
 
-この節では、疑似テストプロファイルデータを使用するとは対照的に、ワークフローでアクセスできる実際の顧客データを使用して、配達確認を送信する方法について説明します。これにより、ワークフローで使用される変数が正確で、受信者が受信するメッセージのビューを取得できます。
+This section describes how to send proofs using real customer data accessible via a workflow, as opposed to using fake test profile data. This allows you to check that the variables used in the workflow are accurate and to get a view of the message that your recipients will receive.
 
 1. Create a test profile and enable **[!UICONTROL Proof]** and **[!UICONTROL Trap]** as the intended usage. For more on this, see [Managing test profiles](../../sending/using/managing-test-profiles-and-sending-proofs.md#managing-test-profiles).
 
-   このテストプロファイルはターゲットオーディエンスの一部になります。
+    This test profile becomes part of the targeted audience.
 
    >[!NOTE]
    >
-   >メッセージ内の任意のリッチフィールドに対してテストプロファイルをトラップとして使用する場合、対応する追加のデータは、実際のターゲットプロファイルからランダムに選択され、トラップテストプロファイルに割り当てられます。
+   >When using a test profile as a trap, for any enriched fields in a message, the corresponding additional data is randomly picked from a real targeted profile and assigned to the trap test profile.
 
-1. マーケティングアクティビティリストにアクセスし、テストワークフローを作成します。
+1. Access the marketing activity list and create a test workflow.
 
    See [Creating a workflow](../../automating/using/building-a-workflow.md#creating-a-workflow).
 
@@ -149,21 +149,21 @@ You can manage your test profiles from the advanced menu **[!UICONTROL Profiles 
 
    The Query activity is presented in the [Query](../../automating/using/query.md) section.
 
-1. リンクされたテーブルからデータを追加します。For more on this, see [Enriching data](../../automating/using/query.md#enriching-data).
+1. Add additional data from a linked table. For more on this, see [Enriching data](../../automating/using/query.md#enriching-data).
 
-1. **電子メール配信** アクティビティをワークフローにドラッグ&amp;ドロップして開きます。
+1. Drag and drop an **Email delivery** activity into your workflow and open it.
 
    The Email delivery activity is presented in the [Email delivery](../../automating/using/email-delivery.md) section.
 
-1. 電子メールメッセージダッシュボードから、作成したトラップの使用状況を示すテストプロファイルを選択します。
+1. From the email message dashboard, select the test profile with trap usage that you created.
 
-1. クエリアクティビティで定義した追加データを使用して、電子メールコンテンツのパーソナライゼーションフィールドに追加します。
+1. Add to your email content personalization fields using the additional data that you defined in the Query activity.
 
-1. 電子メールを保存してワークフローを開始します。
+1. Save the email and start the workflow.
 
-メッセージの準備中に、ターゲットカウントには選択したテストプロファイルが含まれます。
-メッセージが送信されると、追加のデータが実際のプロファイルのデータに置き換えられます。
+During message preparation, the target count includes the test profile that you selected.
+Once the message is sent, additional data is replaced by data from a real profile.
 
 >[!NOTE]
->
->追加のデータのみが置き換えられます。テストプロファイルには、名前や姓などの実際のプロファイルデータは使用されません。
+   >
+   >Only additional data are replaced. No real profile data such as first name or last name will be used for the test profile. -->
