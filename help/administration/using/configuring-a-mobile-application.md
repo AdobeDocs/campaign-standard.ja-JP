@@ -14,7 +14,7 @@ discoiquuid: 2a14500f-5ede-4131-8b1a- b7fd65b7e3aa
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b9799c40bd7b6422409456db2c4f694f486b42f8
+source-git-commit: 44be801f7bcbb3a495744ecd5fa08250585ed8cb
 
 ---
 
@@ -35,6 +35,10 @@ After your mobile applications are set up in Adobe Campaign by leveraging the Ex
 
 ## Using Adobe Experience Platform SDK {#using-adobe-experience-platform-sdk}
 
+>[!Ntoo]
+>
+>To learn more on the different mobile use cases supported in Adobe Campaign Standard by using the Adobe Experience Platform SDKs, refer to this [page](https://helpx.adobe.com/campaign/kb/configure-launch-rules-acs-use-cases.html).
+
 プッシュ通知およびアプリ内メッセージをExperience Platform SDKアプリケーションと共に送信するには、モバイルアプリケーションをAdobe Experience Platform Experience Platform Experience Platform Launchで設定し、Adobe Campaignで設定する必要があります。For the detailed steps to configure your mobile application using Experience Platform SDK, refer to this [page](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html).
 
 設定を開始するには、次の手順に従います。
@@ -44,11 +48,11 @@ After your mobile applications are set up in Adobe Campaign by leveraging the Ex
    ![](assets/launch_1.png)
 
 1. Mobileタイプのプロパティを作成して、Experience Platform Launchでモバイルアプリケーションを作成します。For more info, refer to the [Experience Platform Launch](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#create-a-new-mobile-property) documentation.
-1. Install the **[!UICONTROL Adobe Campaign (Beta)]** extension for your mobile application in Experience Platform Launch:
+1. Install the **[!UICONTROL Adobe Campaign Standard]** extension for your mobile application in Experience Platform Launch:
 
-   For more information on extensions, refer to the [Experience Platform Launch](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard-beta) documentation.
+   For more information on extensions, refer to the [Experience Platform Launch](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard) documentation.
 
-1. Configure rules for your application in Adobe Launch, see [Configuring your application in Launch](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#ConfiguringyourapplicationinLaunch)
+1. Configure rules for your application in Adobe Launch, see [Configuring your application in Launch](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Step1Createdataelements)
 1. Configure your Adobe Launch application in Adobe Campaign Standard, see [Setting up your Adobe Launch application in Adobe Campaign](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#SettingupyourAdobeLaunchapplicationinAdobeCampaign).
 1. Add channel specific configuration to your Mobile Application set-up, see [Channel-specific application configuration in Adobe Campaign](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign).
 
