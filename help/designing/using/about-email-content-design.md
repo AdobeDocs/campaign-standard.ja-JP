@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f- ab48- bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ed67b5e68aa308a6bf54348d4b86f223aec969dd
+source-git-commit: f85995fc5a331b57e42a58d979940751dbe7ce97
 
 ---
 
@@ -484,7 +484,7 @@ DreamweaverとAdobe Campaign Standardの統合により、Dreamweaverインタ�
 
 * **DreamweaverでのCampaignのパーソナライゼーションの追加**
 
-   For the email developer there is no longer a need to add text like [[FIRSTNAME_PLACEHOLDER]] nor to look up the syntax of your data model’s tables. Dreamweaverのキャンペーンツールバーは、キャンペーンインスタンスのデータモデルに直接接続します。つまり、「名」に「名」という名前のデータを取り込むことができます。キャンペーン内でコンテンツブロックを作成した場合は、それらを直接Dreamweaverに取り込むことができます。
+   For the email developer there is no longer a need to add text like ```[[FIRSTNAME_PLACEHOLDER]]``` nor to look up the syntax of your data model’s tables. Dreamweaverのキャンペーンツールバーは、キャンペーンインスタンスのデータモデルに直接接続します。つまり、「名」に「名」という名前のデータを取り込むことができます。キャンペーン内でコンテンツブロックを作成した場合は、それらを直接Dreamweaverに取り込むことができます。
 
 This capability is detailed in the Dreamweaver Documentation accessible [here](https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html). A demonstration [video](https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html) is also available.
 
