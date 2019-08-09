@@ -14,12 +14,12 @@ discoiquuid: 39b86fda-7766-4e5f- ab48- bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f85995fc5a331b57e42a58d979940751dbe7ce97
+source-git-commit: 86600fe800477442e274429e1ef9cd299c33026a
 
 ---
 
 
-# About email content design{#about-email-content-design}
+# 電子メールコンテンツデザインについて{#about-email-content-design}
 
 電子メールデザイナーのドラッグ&amp;ドロップインターフェイスを使用して、Adobe Campaignで電子メールのコンテンツを作成および変更します。
 
@@ -31,23 +31,23 @@ source-git-commit: f85995fc5a331b57e42a58d979940751dbe7ce97
 
 1つまたは複数のマーケティングアクティビティに共通のアクションについて詳しくは、以下の節を参照してください。
 
-* For more on personalizing an email content, see [Inserting a personalization field](../../designing/using/inserting-a-personalization-field.md) and [Adding a content block](../../designing/using/adding-a-content-block.md).
-* For more on importing another email content, see [Selecting an existing content](../../designing/using/selecting-an-existing-content.md).
-* For more on defining dynamic content in an email, see [Defining dynamic content in an email](../../designing/using/defining-dynamic-content-in-an-email.md).
-* For more on inserting links in an email, see [Inserting a link](../../designing/using/inserting-a-link.md).
-* For more on inserting images in an email, see [Inserting images](../../designing/using/inserting-images.md).
+* 電子メールコンテンツのパーソナライズについて詳しくは、「パーソナライゼーションフィールド [の挿入](../../designing/using/inserting-a-personalization-field.md) 」および「コンテンツブロック [の追加](../../designing/using/adding-a-content-block.md)」を参照してください。
+* 別の電子メールコンテンツのインポートについて詳しくは、既存のコンテンツ [の選択を参照](../../designing/using/selecting-an-existing-content.md)してください。
+* 電子メールで動的コンテンツを定義する方法について詳しくは、電子メールでの動的コンテンツ [の定義](../../designing/using/defining-dynamic-content-in-an-email.md)を参照してください。
+* 電子メールへのリンクの挿入について詳しくは、リンク [の挿入を参照](../../designing/using/inserting-a-link.md)してください。
+* 電子メールに画像を挿入する方法について詳しくは、画像 [の挿入](../../designing/using/inserting-images.md)を参照してください。
 
-Also check the [general best practices for content design](../../designing/using/content-design-best-practices.md).
+コンテンツデザインの [一般的なベストプラクティスも確認](../../designing/using/content-design-best-practices.md)してください。
 
-## About the Email Designer {#about-the-email-designer}
+## 電子メールデザイナーについて {#about-the-email-designer}
 
 電子メールデザイナーを使用すると、電子メールコンテンツや電子メールコンテンツテンプレートを作成できます。これは、単純な電子メール、トランザクション電子メール、A/Bテスト電子メール、多言語電子メール、繰り返し電子メールと互換性があります。
 
-To get started with the Email Designer, watch this [set of videos](https://helpx.adobe.com/campaign/kt/acs/using/acs-email-designer-tutorial.html#GettingStarted) that explain the general functionality of the Email Designer and how to design an email from scratch or using templates.
+電子メールDesignerを使い始めるには、電子メールDesignerの一般的な機能について説明するビデオ [](https://helpx.adobe.com/campaign/kt/acs/using/acs-email-designer-tutorial.html#GettingStarted) セットと、最初からの電子メールのデザイン方法やテンプレートを使用する方法について説明しています。
 
-### Email Designer home page {#email-designer-home-page}
+### Designerのホームページ {#email-designer-home-page}
 
-When [creating an email](../../channels/using/creating-an-email.md), the **[!UICONTROL Email Designer]** home page automatically displays upon selecting the email content.
+電子メールを [作成する場合、](../../channels/using/creating-an-email.md)電子メールコンテンツを選択する際に **[!UICONTROL Email Designer]** ホームページが自動的に表示されます。
 
 ![](assets/email_designer_home_page.png)
 
@@ -65,11 +65,11 @@ When [creating an email](../../channels/using/creating-an-email.md), the **[!UIC
 
 テンプレートを選択しない場合、電子メールデザイナーのホームページでは、コンテンツのデザインの開始方法を選択できます。
 
-* **[!UICONTROL Create]** 新しいコンテンツを最初から開始するには、ボタンをクリックします。See [Designing an email content from scratch](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch).
-* **[!UICONTROL Upload]** コンピューターからファイルをアップロードするには、ボタンをクリックします。See [Importing content from a file](../../designing/using/importing-content-from-a-file.md).
-* **[!UICONTROL Import from URL]** 既存のコンテンツを取得するには、ボタンをクリックします。See [Importing content from a URL](../../designing/using/importing-content-from-a-url.md).
+* **[!UICONTROL Create]** 新しいコンテンツを最初から開始するには、ボタンをクリックします。詳しくは、最初から電子メールコンテンツの [デザイン](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch)を参照してください。
+* **[!UICONTROL Upload]** コンピューターからファイルをアップロードするには、ボタンをクリックします。詳しくは、ファイルからのコンテンツ [の読み込みを](../../designing/using/importing-content-from-a-file.md)参照してください。
+* **[!UICONTROL Import from URL]** 既存のコンテンツを取得するには、ボタンをクリックします。詳しくは、URLからのコンテンツ [の読み込みを](../../designing/using/importing-content-from-a-url.md)参照してください。
 
-### Email Designer interface {#email-designer-interface}
+### 電子メールデザイナーインターフェイス {#email-designer-interface}
 
 電子メールDesignerには、コンテンツのすべてのアスペクトを作成、編集、カスタマイズできる数多くのオプションが用意されています。
 
@@ -79,7 +79,7 @@ When [creating an email](../../channels/using/creating-an-email.md), the **[!UIC
 
 **パレット** （1）で使用できる要素から、構造コンポーネントとコンテンツフラグメントをメイン **Workspace** （2）にドラッグ&amp;ドロップします。**ワークスペース** でコンポーネントまたは要素を選択し、 **設定** ペイン（3）からのメインスタイルと表示の特性をカスタマイズします（3）。
 
-Access more general options and settings from the main **Toolbar** (4).
+メイン **ツールバー** （4）から、より一般的なオプションと設定にアクセスします。
 
 >[!NOTE]
 >
@@ -87,23 +87,23 @@ Access more general options and settings from the main **Toolbar** (4).
 
 ![](assets/email_designer_toolbar.png)
 
-The **Contextual toolbar** of the editor interface offers various functionalities depending on the zone selected. テキストのスタイルを変更できるアクションボタンおよびボタンが含まれています。実行される変更は、常に選択したゾーンに適用されます。
+エディターインターフェイスの **コンテキストツールバー** には、選択したゾーンに応じて様々な機能が用意されています。テキストのスタイルを変更できるアクションボタンおよびボタンが含まれています。実行される変更は、常に選択したゾーンに適用されます。
 
-### General recommendations for using the Email Designer {#general-recommendations-for-using-the-email-designer}
+### 電子メールデザイナーの一般的な推奨事項 {#general-recommendations-for-using-the-email-designer}
 
 電子メールDesignerを適切に使用し、できるだけ適切な電子メールを作成するには、以下の原則を適用することをお勧めします。
 
 * HTMLの&lt; head&gt;セクションに個別のCSSやCSSではなくインラインスタイリングを使用します。インラインスタイリングを使用することで、コンテンツフラグメントの保存と再利用を最適化できます。
 
-   See [Adding inline styling attributes](../../designing/using/editing-email-styles.md#adding-inline-styling-attributes).
+   インラインスタイル属性 [の追加を参照](../../designing/using/editing-email-styles.md#adding-inline-styling-attributes)してください。
 
 * コンテンツフラグメントを作成および再利用して、マーケティングキャンペーン全体の一貫性を維持することで、ブランディングを容易に調整できます。
 
-   See [Creating a content fragment](../../designing/using/defining-the-email-structure.md#creating-a-content-fragment).
+   コンテンツフラグメント [の作成を参照](../../designing/using/defining-the-email-structure.md#creating-a-content-fragment)してください。
 
-Also check the [general best practices for content design](../../designing/using/content-design-best-practices.md).
+コンテンツデザインの [一般的なベストプラクティスも確認](../../designing/using/content-design-best-practices.md)してください。
 
-### Email Designer compatibility mode {#email-designer-compatibility-mode}
+### 電子メールDesignerの互換モード {#email-designer-compatibility-mode}
 
 コンテンツをアップロードする場合、電子メールデザイナーのWYSIWYGエディターで完全に準拠し、編集可能な特定のタグを含める必要があります。
 
@@ -120,16 +120,16 @@ Also check the [general best practices for content design](../../designing/using
 
 電子メールまたは高度なスタイル設定に新しいセクションを追加するなどの変更は、HTMLモードを使用して電子メールのソースコードで直接行う必要があります。
 
-For more on converting an existing email into an Email Designer-compatible email, see [this section](../../designing/using/about-email-content-design.md#designing-an-email-using-existing-contents).
+既存の電子メールを電子メールデザイナーと互換性のある電子メールに変換する方法については、こちらを [](../../designing/using/about-email-content-design.md#designing-an-email-using-existing-contents)参照してください。
 
-### Email Designer limitations {#email-designer-limitations}
+### 電子メールデザイナーの制限事項 {#email-designer-limitations}
 
-* フラグメントでパーソナライゼーションフィールドを使用することはできません。For more on fragments, see [this section](../../designing/using/defining-the-email-structure.md#about-fragments).
-* 電子メールデザイナー内で編集中の電子メールの一部のコンテンツとして直接保存することはできません。そのコンテンツに対応するHTMLを新しいフラグメントにコピー&amp;ペーストする必要があります。For more on this, see [Saving content as a fragment](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment).
+* フラグメントでパーソナライゼーションフィールドを使用することはできません。フラグメントについて詳しくは、 [この節](../../designing/using/defining-the-email-structure.md#about-fragments)を参照してください。
+* 電子メールデザイナー内で編集中の電子メールの一部のコンテンツとして直接保存することはできません。そのコンテンツに対応するHTMLを新しいフラグメントにコピー&amp;ペーストする必要があります。詳しくは、コンテンツ [をフラグメントとして保存](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment)を参照してください。
 * スタイルを編集する場合、ほとんどの電子メールクライアントで正式にサポートされているWebフォントのみが使用できます。
-* スタイルは、今後再利用するためにテーマとして保存することはできません。ただし、CSSスタイルはコンテンツテンプレートまたは電子メールで保存できます。For more on styles, see [this section](../../designing/using/editing-email-styles.md).
+* スタイルは、今後再利用するためにテーマとして保存することはできません。ただし、CSSスタイルはコンテンツテンプレートまたは電子メールで保存できます。スタイルについて詳しくは、 [この節](../../designing/using/editing-email-styles.md)を参照してください。
 
-### Email Designer updates {#email-designer-updates}
+### 電子メールDesignerの更新 {#email-designer-updates}
 
 電子メールデザイナーは継続的に改善されています。最初から電子メールコンテンツを作成して、すぐに使用できるテンプレートから、またはフラグメントを作成した場合、次にコンテンツを開いたときに、次の更新メッセージが表示されることがあります。
 
@@ -145,20 +145,22 @@ CSSの衝突の問題などの問題を回避するために、コンテンツ�
 
 * 複数のフラグメントがある場合は、電子メールコンテンツで使用する各フラグメントを更新する必要があります。
 
-* 現在の電子メールメッセージに影響を与えないようにするには、一部のステージまたは変更を望まない特定のキャンペーンに、一部のフラグメントを更新しないように選択できます。
+* まだ準備されていない現在の電子メールメッセージに影響を与えないように、一部のフラグメントを更新しないように選択できます。
 
 * 更新されていないフラグメントが既に使用されている電子メールを送信できますが、そのフラグメントは編集できません。
 
-## Designing an email content from scratch {#designing-an-email-content-from-scratch}
+* 既に準備されている電子メールで使用されているフラグメントを更新しても、それらの電子メールには影響しません。
+
+## 電子メールコンテンツの新規作成 {#designing-an-email-content-from-scratch}
 
 電子メールデザイナーを使用して、最初から電子メールコンテンツを作成してデザインする主な手順を次に示します。
 
 1. 電子メールを作成して、そのコンテンツを開きます。
-1. 電子メールを形成する構造コンポーネントを追加します。See [Editing the email structure](../../designing/using/defining-the-email-structure.md#editing-the-email-structure).
-1. コンポーネントコンポーネントにコンテンツコンポーネントとフラグメントを挿入します。See [Adding fragments and content components](../../designing/using/defining-the-email-structure.md#adding-fragments-and-content-components).
-1. 画像を追加し、電子メールのテキストを編集します。See [Inserting images](../../designing/using/inserting-images.md).
-1. パーソナライゼーションフィールドやリンクなどを追加して、電子メールをパーソナライズします。See [Inserting a personalization field](../../designing/using/inserting-a-personalization-field.md), [Inserting a link](../../designing/using/inserting-a-link.md) and [Defining dynamic content in an email](../../designing/using/defining-dynamic-content-in-an-email.md).
-1. 電子メールの件名を定義します。See [Personalizing the subject line of an email](../../designing/using/personalizing-the-subject-line-of-an-email.md).
+1. 電子メールを形成する構造コンポーネントを追加します。詳しくは、電子メール構造 [の編集](../../designing/using/defining-the-email-structure.md#editing-the-email-structure)を参照してください。
+1. コンポーネントコンポーネントにコンテンツコンポーネントとフラグメントを挿入します。フラグメントとコンテンツコンポーネント [の追加](../../designing/using/defining-the-email-structure.md#adding-fragments-and-content-components)を参照してください。
+1. 画像を追加し、電子メールのテキストを編集します。詳しくは、画像 [の挿入を](../../designing/using/inserting-images.md)参照してください。
+1. パーソナライゼーションフィールドやリンクなどを追加して、電子メールをパーソナライズします。詳しくは、パーソナライゼーションフィールド [の挿入](../../designing/using/inserting-a-personalization-field.md)、 [リンク](../../designing/using/inserting-a-link.md) の挿入、電子メールでの動的コンテンツ [の定義を参照](../../designing/using/defining-dynamic-content-in-an-email.md)してください。
+1. 電子メールの件名を定義します。電子メールの件名の [パーソナライズを参照](../../designing/using/personalizing-the-subject-line-of-an-email.md)してください。
 1. 電子メールをプレビューします。
 1. コンテンツを保存し、オーディエンスを定義して送信を適切にスケジュールしたことを確認してから、メッセージに進んでください。
 
@@ -166,7 +168,7 @@ CSSの衝突の問題などの問題を回避するために、コンテンツ�
 
 >[!NOTE]
 >
->電子メールコンテンツをゼロからデザインしないように、あらかじめ用意されているコンテンツテンプレートを使用できます。For more on this, see [Content templates](../../start/using/about-templates.md#content-templates).
+>電子メールコンテンツをゼロからデザインしないように、あらかじめ用意されているコンテンツテンプレートを使用できます。詳しくは [、コンテンツテンプレート](../../start/using/about-templates.md#content-templates)を参照してください。
 
 **関連トピック**:
 
@@ -177,11 +179,11 @@ CSSの衝突の問題などの問題を回避するために、コンテンツ�
 * [メッセージのプレビュー](../../sending/using/previewing-messages.md)
 * [電子メールレンダリング](../../sending/using/email-rendering.md)
 
-## Designing an email using existing contents {#designing-an-email-using-existing-contents}
+## 既存のコンテンツを使用した電子メールのデザイン {#designing-an-email-using-existing-contents}
 
 ここでは、既存の電子メールを電子メールデザイナー互換の電子メールに変換する方法について説明します。
 
-By default, if you just upload any HTML (see [Importing content from a file](../../designing/using/importing-content-from-a-file.md)), the content is loaded in '[compatibility mode](../../designing/using/about-email-content-design.md#email-designer-compatibility-mode)', which limits the edition possibilities through the UI (only in-place edition, no drag-and-drop).
+デフォルトでは、HTMLをアップロードするだけで（ファイルからコンテンツ [の読み込み](../../designing/using/importing-content-from-a-file.md)を参照）、コンテンツは«[互換モード](../../designing/using/about-email-content-design.md#email-designer-compatibility-mode)»に読み込まれます。このモードは、UI経由でのエディションの可能性を制限します（インプレース版のみ、ドラッグアンドドロップなし）。
 
 ただし、複数の電子メールで再利用できるように構成されたモジュールテンプレートとフラグメントのフレームワークを作成する場合は、電子メールのHTMLを電子メールデザイナーテンプレートに変換することを検討してください。
 
@@ -191,26 +193,26 @@ By default, if you just upload any HTML (see [Importing content from a file](../
 * [フラグメントとコンポーネント](../../designing/using/about-email-content-design.md#using-fragments-and-components)の使用、最初から開始、HTMLデザインの再作成
 * [HTMLコンテンツ](../../designing/using/about-email-content-design.md#converting-an-html-content) 電子メールのモジュール化電子メールデザイナーコンテンツへの変換
 
-### Building content from an out-of-the-box template {#building-content-from-an-out-of-the-box-template}
+### あらかじめ用意されているテンプレートからコンテンツを作成する {#building-content-from-an-out-of-the-box-template}
 
-1. 電子メールを作成して、そのコンテンツを開きます。For more on this, see [Creating an email](../../channels/using/creating-an-email.md).
-1. Click the home icon to access the **[!UICONTROL Email Designer]** home page.
-1. Click the **[!UICONTROL Templates]** tab.
+1. 電子メールを作成して、そのコンテンツを開きます。詳しくは、電子メールの [作成](../../channels/using/creating-an-email.md)を参照してください。
+1. ホームページにアクセスするには、ホームアイコン **[!UICONTROL Email Designer]** をクリックします。
+1. タブを **[!UICONTROL Templates]** クリックします。
 1. あらかじめ用意されているHTMLテンプレートを選択します。
 
-   異なるテンプレートには、複数のタイプの要素の様々な組み合わせがあります。例えば、"Feather"テンプレートにはマージンがありますが、「アトラス」テンプレートはありません。For more on this, see [Content templates](../../start/using/about-templates.md#content-templates).
+   異なるテンプレートには、複数のタイプの要素の様々な組み合わせがあります。例えば、"Feather"テンプレートにはマージンがありますが、「アトラス」テンプレートはありません。詳しくは [、コンテンツテンプレート](../../start/using/about-templates.md#content-templates)を参照してください。
 
-1. これらの要素を組み合わせて、多数の電子メールバリアントを作成できます。For example, you can duplicate an email section by selecting a structure component and clicking **[!UICONTROL Duplicate]** from the contextual toolbar.
-1. 左側の青い矢印を使用して要素を移動すると、構造コンポーネントを下または上にドラッグすることができます。For more on this, see [Editing the email structure](../../designing/using/defining-the-email-structure.md#editing-the-email-structure).
-1. コンポーネントを移動して、各構造要素の組織を変更することもできます。For more on this, see [Adding fragments and components](../../designing/using/defining-the-email-structure.md#adding-fragments-and-content-components).
+1. これらの要素を組み合わせて、多数の電子メールバリアントを作成できます。例えば、構造コンポーネントを選択し、コンテキストツールバーからをクリック **[!UICONTROL Duplicate]** して、電子メールセクションを複製できます。
+1. 左側の青い矢印を使用して要素を移動すると、構造コンポーネントを下または上にドラッグすることができます。これについて詳しくは、電子メール構造 [の編集](../../designing/using/defining-the-email-structure.md#editing-the-email-structure)を参照してください。
+1. コンポーネントを移動して、各構造要素の組織を変更することもできます。これについて詳しくは、フラグメントとコンポーネント [の追加](../../designing/using/defining-the-email-structure.md#adding-fragments-and-content-components)を参照してください。
 1. 必要に応じて各要素のコンテンツを変更します。画像、テキスト、リンク
-1. 必要に応じて、スタイル設定オプションをコンテンツに合わせて調整します。For more on this, see [Editing email styles](../../designing/using/editing-email-styles.md).
+1. 必要に応じて、スタイル設定オプションをコンテンツに合わせて調整します。これについて詳しくは、電子メールスタイル [の編集](../../designing/using/editing-email-styles.md)を参照してください。
 
-### Using fragments and components {#using-fragments-and-components}
+### フラグメントとコンポーネントの使用 {#using-fragments-and-components}
 
 単に電子メールデザイナーに外部コンテンツを準拠させるには、最初からメッセージを作成し、既存の電子メールからフラグメントやコンポーネントにコンテンツをコピーすることをお勧めします。
 
-When you have a content that cannot be recreated, you can copy-paste the HTML code from the original email using the **[!UICONTROL Html]** content component. 先に進む前に、HTMLに精通していることを確認してください。
+再作成できないコンテンツがある場合は、 **[!UICONTROL Html]** コンテンツコンポーネントを使用して、元の電子メールからHTMLコードをコピー&amp;ペーストできます。先に進む前に、HTMLに精通していることを確認してください。
 
 完全な例を以下に示します。
 
@@ -234,7 +236,7 @@ Adobe Campaignと共に送信するすべての電子メールに同じヘッダ
 
 これを行うには、次の手順に従います。
 
-1. In Adobe Campaign, go to **[!UICONTROL Resources]** &gt; **[!UICONTROL Content templates & fragments]** and create a fragment for your header. For more on this, see [Creating a content fragment](../../designing/using/defining-the-email-structure.md#creating-a-content-fragment).
+1. Adobe Campaignで **[!UICONTROL Resources]** 、&gt; **[!UICONTROL Content templates & fragments]** に移動し、ヘッダーのフラグメントを作成します。詳しくは、コンテンツフラグメント [の作成](../../designing/using/defining-the-email-structure.md#creating-a-content-fragment)を参照してください。
 1. フラグメントに必要な数のコンポーネントを追加します。
 
    ![](assets/des_loading_compatible_fragment_1.png)
@@ -245,7 +247,7 @@ Adobe Campaignと共に送信するすべての電子メールに同じヘッダ
 
 1. 対応する画像をアップロードし、テキストを入力して設定を調整します。
 
-   For more on managing style settings and inline attributes, see [Editing email styles](../../designing/using/editing-email-styles.md).
+   スタイル設定とインライン属性の管理について詳しくは、電子メールスタイル [の編集](../../designing/using/editing-email-styles.md)を参照してください。
 
    ![](assets/des_loading_compatible_fragment_3.png)
 
@@ -254,7 +256,7 @@ Adobe Campaignと共に送信するすべての電子メールに同じヘッダ
 
    ![](assets/des_loading_compatible_fragment_4.png)
 
-   If you are familiar with HTML, you can copy-paste the HTML code from the original footer using the **[!UICONTROL Html]** content component. For more on this, see [About content components](../../designing/using/defining-the-email-structure.md#about-content-components).
+   HTMLに精通している場合は **[!UICONTROL Html]** 、コンテンツコンポーネントを使用して元のフッターからHTMLコードをコピー&amp;ペーストできます。これについて詳しくは、コンテンツコンポーネント [について](../../designing/using/defining-the-email-structure.md#about-content-components)を参照してください。
 
    ![](assets/des_loading_compatible_fragment_9.png)
 
@@ -264,13 +266,13 @@ Adobe Campaignと共に送信するすべての電子メールに同じヘッダ
 
 電子メールデザイナーを使用して電子メールテンプレートを作成できるようになりました。コンテンツコンポーネントを使用して、電子メールの様々なセクションを反映し、設定を調整して、元のニュースレターにできるだけ近くにします。最後に、作成したフラグメントを挿入します。
 
-1. Email Designerを使用してテンプレートを作成します。For more on this, see [Content templates](../../start/using/about-templates.md#content-templates).
-1. テンプレートに複数の構造コンポーネントを挿入し、電子メールのヘッダー、フッター、本文に対応します。For more on adding structure components, see [Editing the email structure with the Email Designer](../../designing/using/defining-the-email-structure.md#editing-the-email-structure).
+1. Email Designerを使用してテンプレートを作成します。詳しくは [、コンテンツテンプレート](../../start/using/about-templates.md#content-templates)を参照してください。
+1. テンプレートに複数の構造コンポーネントを挿入し、電子メールのヘッダー、フッター、本文に対応します。構造コンポーネントの追加について詳しくは、電子メールDesignerでの電子メール構造 [の編集](../../designing/using/defining-the-email-structure.md#editing-the-email-structure)を参照してください。
 1. 必要な数のコンテンツコンポーネントを挿入して、ニュースレター本文を作成します。毎月更新する電子メールの編集可能コンテンツになります。
 
    ![](assets/des_loading_compatible_fragment_5.png)
 
-   If you are familiar with HTML code, Adobe recommends leveraging **[!UICONTROL Html]** components where you can copy-paste the more complex elements of the original email. Use other components such as **[!UICONTROL Button]**, **[!UICONTROL Image]** or **[!UICONTROL Text]** for the rest of the content. For more on this, see [About content components](../../designing/using/defining-the-email-structure.md#about-content-components).
+   HTMLコードに精通している場合は **[!UICONTROL Html]** 、元の電子メールのより複雑な要素をコピー&amp;ペーストできるコンポーネントを活用することをお勧めします。他のコンポーネントや **[!UICONTROL Button]**&#x200B;その他 **[!UICONTROL Image]** のコンテンツ **[!UICONTROL Text]** を使用します。これについて詳しくは、コンテンツコンポーネント [について](../../designing/using/defining-the-email-structure.md#about-content-components)を参照してください。
 
    >[!NOTE]
    >
@@ -280,7 +282,7 @@ Adobe Campaignと共に送信するすべての電子メールに同じヘッダ
 
    ![](assets/des_loading_compatible_fragment_6.png)
 
-   For more on managing style settings and inline attributes, see [Editing email styles](../../designing/using/editing-email-styles.md).
+   スタイル設定とインライン属性の管理について詳しくは、電子メールスタイル [の編集](../../designing/using/editing-email-styles.md)を参照してください。
 
 1. 以前に作成した2つのフラグメント（ヘッダーとフッター）を目的の構造コンポーネントに挿入します。
 
@@ -298,7 +300,7 @@ Adobe Campaignと共に送信するすべての電子メールに同じヘッダ
 * [電子メールデザイナー向けの紹介ビデオ](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true&captions=jpn)
 * [電子メールコンテンツの新規作成](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch)
 
-### Converting an HTML content {#converting-an-html-content}
+### HTMLコンテンツの変換 {#converting-an-html-content}
 
 この使用例では、HTML電子メールを電子メールデザイナーコンポーネントに簡単に変換できます。
 
@@ -337,11 +339,11 @@ Adobe Campaignと共に送信するすべての電子メールに同じヘッダ
 すべてのブロックを特定したら、電子メールDesignerで、既存の電子メールのセクションごとに次の手順を繰り返します。
 
 1. 電子メールデザイナーを開き、空の電子メールコンテンツを作成します。
-1. ボディレベルの属性を設定します。背景色、幅などFor more on this, see [Editing email styles](../../designing/using/editing-email-styles.md).
-1. 構造コンポーネントを追加します。For more on this, see [Editing the email structure](../../designing/using/defining-the-email-structure.md#editing-the-email-structure).
-1. HTMLコンポーネントを追加します。For more on this, see [Adding fragments and components](../../designing/using/defining-the-email-structure.md#adding-fragments-and-content-components).
+1. ボディレベルの属性を設定します。背景色、幅などこれについて詳しくは、電子メールスタイル [の編集](../../designing/using/editing-email-styles.md)を参照してください。
+1. 構造コンポーネントを追加します。これについて詳しくは、電子メール構造 [の編集](../../designing/using/defining-the-email-structure.md#editing-the-email-structure)を参照してください。
+1. HTMLコンポーネントを追加します。これについて詳しくは、フラグメントとコンポーネント [の追加](../../designing/using/defining-the-email-structure.md#adding-fragments-and-content-components)を参照してください。
 1. そのコンポーネントにHTMLをコピー&amp;ペーストします。
-1. モバイルビューに切り替えます。For more on this, see [this section](../../designing/using/about-email-content-design.md#switching-to-mobile-view).
+1. モバイルビューに切り替えます。これについて詳しくは、 [この節](../../designing/using/about-email-content-design.md#switching-to-mobile-view)を参照してください。
 
    CSSが見つからないため、レスポンシブビューが壊れています。
 
@@ -358,18 +360,18 @@ Adobe Campaignと共に送信するすべての電子メールに同じヘッダ
 
    >[!NOTE]
    >
-   >Do not modify the CSS generated by the Email Designer: `<style acrite-template-css="true">` and `<style acrite-custom-styles="" type="text/css">`. この後にスタイルを追加してください。
+   >Email Designerで生成されたCSSを変更しないでください。 `<style acrite-template-css="true">` および`<style acrite-custom-styles="" type="text/css">`この後にスタイルを追加してください。
 
 1. モバイルビューに戻って、コンテンツが正しく表示されていることを確認し、変更内容を保存します。
 
-## Switching to mobile view {#switching-to-mobile-view}
+## モバイルビューへの切り替え {#switching-to-mobile-view}
 
 モバイルディスプレイのすべてのスタイルオプションを個別に編集することで、電子メールのレスポンシブデザインを微調整できます。例えば、マージンやパディングを適用したり、フォントサイズを小さくまたは大きくしたり、ボタンを変更したり、モバイルバージョンの電子メールに固有の背景色を適用したりできます。
 
-モバイルビューでは、すべてのスタイルオプションを使用できます。The Email Designer style settings are presented in the [Editing email styles](../../designing/using/editing-email-styles.md) section.
+モバイルビューでは、すべてのスタイルオプションを使用できます。電子メールデザイナースタイルの設定は、「電子メールの [編集スタイル](../../designing/using/editing-email-styles.md) 」セクションに表示されます。
 
-1. 電子メールを作成し、コンテンツの編集を開始します。For more on this, see [Designing an email content from scratch](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch).
-1. To access the dedicated mobile view, select the **[!UICONTROL Switch to mobile view]** button.
+1. 電子メールを作成し、コンテンツの編集を開始します。詳しくは、「最初から電子メールコンテンツを [デザイン](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch)する」を参照してください。
+1. 専用のモバイルビューにアクセスするには **[!UICONTROL Switch to mobile view]** 、ボタンを選択します。
 
    ![](assets/email_designer_mobile_view_switch.png)
 
@@ -385,20 +387,20 @@ Adobe Campaignと共に送信するすべての電子メールに同じヘッダ
 
    ![](assets/email_designer_mobile_view_change.png)
 
-1. コンポーネントを非表示にするには、モバイルデバイスに表示します。To do this, select **[!UICONTROL Show only on desktop devices]** from the **[!UICONTROL Display options]**.
-また、デスクトップデバイスでこのコンポーネントを非表示にすることもできます。つまり、モバイルデバイスでのみ表示されます。To do this, select **[!UICONTROL Show only on mobile devices]**.
+1. コンポーネントを非表示にするには、モバイルデバイスに表示します。これを行うには、から選択 **[!UICONTROL Show only on desktop devices]****[!UICONTROL Display options]**します。
+また、デスクトップデバイスでこのコンポーネントを非表示にすることもできます。つまり、モバイルデバイスでのみ表示されます。これを行うには、を選択 **[!UICONTROL Show only on mobile devices]**します。
 例えば、このオプションを使用すると、モバイルデバイスに特定の画像を表示したり、デスクトップデバイス上で別の画像を表示したりできます。
 このオプションは、モバイルビューまたはデスクトップビューから設定できます。
 
    ![](assets/email_designer_mobile_hide.png)
 
-1. Click again the **[!UICONTROL Switch to mobile view]** button to go back to the standard desktop view. 行ったスタイル変更は反映されません。
+1. ボタンを **[!UICONTROL Switch to mobile view]** もう一度クリックすると、標準のデスクトップビューに戻ります。行ったスタイル変更は反映されません。
 
    ![](assets/email_designer_mobile_view_desktop_no-change.png)
 
    >[!NOTE]
    >
-   >The only exception is the **[!UICONTROL Style inline]** settings. インラインでのスタイル設定の変更は、標準のデスクトップビューにも適用されます。
+   >唯一の例外は **[!UICONTROL Style inline]** 設定です。インラインでのスタイル設定の変更は、標準のデスクトップビューにも適用されます。
 
 1. テキスト編集、新しい画像のアップロード、新しいコンポーネントの追加など、電子メールの構造やコンテンツに対するその他の変更。は標準ビューにも適用されます。
 
@@ -406,7 +408,7 @@ Adobe Campaignと共に送信するすべての電子メールに同じヘッダ
 
    ![](assets/email_designer_mobile_view_change_content.png)
 
-   Click again the **[!UICONTROL Switch to mobile view]** button to go back to the standard desktop view. 変更が反映されます。
+   ボタンを **[!UICONTROL Switch to mobile view]** もう一度クリックすると、標準のデスクトップビューに戻ります。変更が反映されます。
 
    ![](assets/email_designer_mobile_view_desktop_content-change.png)
 
@@ -420,19 +422,19 @@ Adobe Campaignと共に送信するすべての電子メールに同じヘッダ
 
    ![](assets/email_designer_mobile_view_background_desktop.png)
 
-1. Switch again to mobile view, and now disable the **[!UICONTROL Background color]** setting.
+1. もう一度モバイルビューに切り替えて **[!UICONTROL Background color]** 、設定を無効にします。
 
    ![](assets/email_designer_mobile_view_background_mobile_disabled.png)
 
    デスクトップビューで定義されている背景色が適用されるようになりました。灰色で表示されます（空白ではありません）。
 
-   The only exception is the **[!UICONTROL Border color]** setting. モバイルビューで無効にした場合、デスクトップビューで境界線の色が定義されていても、境界線は適用されなくなります。
+   唯一の例外は **[!UICONTROL Border color]** 設定です。モバイルビューで無効にした場合、デスクトップビューで境界線の色が定義されていても、境界線は適用されなくなります。
 
-## Plain text and HTML modes {#plain-text-and-html-modes}
+## プレーンテキストモードとHTMLモード {#plain-text-and-html-modes}
 
-### Generating a text version of the email {#generating-a-text-version-of-the-email}
+### 電子メールのテキストバージョンの生成 {#generating-a-text-version-of-the-email}
 
-By default, the **[!UICONTROL Plain text]** version of your email is automatically generated and synchronized with the **[!UICONTROL Edit]** version.
+デフォルトでは、電子メールの **[!UICONTROL Plain text]** バージョンは自動的に生成され **[!UICONTROL Edit]** 、バージョンと同期されます。
 
 HTMLバージョンに追加されたパーソナライゼーションフィールドとコンテンツブロックも、プレーンテキストバージョンと同期されます。
 
@@ -440,7 +442,7 @@ HTMLバージョンに追加されたパーソナライゼーションフィー�
 >
 >プレーンテキストバージョンのコンテンツブロックを使用するには、HTMLコードが含まれていないことを確認します。
 
-To have a plain text version different from the HTML version, you can disable this synchronization by clicking the **[!UICONTROL Sync with HTML]** switch from the **[!UICONTROL Plain text]** view of your email.
+HTMLバージョンとは異なるプレーンテキストバージョンを使用するには、電子メールの表示から **[!UICONTROL Sync with HTML]** 切り替えをクリックしてこの同期 **[!UICONTROL Plain text]** を無効にします。
 
 ![](assets/email_designer_textversion.png)
 
@@ -448,29 +450,29 @@ To have a plain text version different from the HTML version, you can disable th
 
 >[!NOTE]
 >
->If you edit the **[!UICONTROL Plain text]** version while synchronization is disabled, the next time you enable the **[!UICONTROL Sync with HTML]** option, all the changes you made in the plain text version will be replaced with the HTML version. The changes made in **[!UICONTROL Plain text]** view cannot be reflected in **[!UICONTROL HTML]** view.
+>同期が無効になって **[!UICONTROL Plain text]** いるときにバージョンを編集する場合、次回 **[!UICONTROL Sync with HTML]** オプションを有効にすると、プレーンテキストバージョンで行ったすべての変更がHTMLバージョンに置き換えられます。ビューで **[!UICONTROL Plain text]** 行われた変更は、ビューに **[!UICONTROL HTML]** 反映できません。
 
-### Editing an email content source in HTML {#editing-an-email-content-source-in-html}
+### HTMLでの電子メールコンテンツソースの編集 {#editing-an-email-content-source-in-html}
 
 最も高度なユーザーおよびデバッグの場合は、HTMLで直接電子メールコンテンツを表示および編集できます。
 
 電子メールのHTMLバージョンを編集するには、次の2つの方法があります。
 
-* Select **[!UICONTROL Edit]** &gt; **[!UICONTROL HTML]** to open the HTML version of the entire email.
+* 電子メール全体のHTMLバージョンを開くには、 **[!UICONTROL Edit]** / **[!UICONTROL HTML]** を選択します。
 
    ![](assets/email_designer_html1.png)
 
-* From the WYSIWYG interface, select an element and click the **[!UICONTROL Source code]** icon.
+* WYSIWYGインターフェイスから要素を選択し、アイコンを **[!UICONTROL Source code]** クリックします。
 
-   選択した要素のソースのみが表示されます。You can edit the source code if the selected element is a **[!UICONTROL HTML]** content component. その他のコンポーネントは読み取り専用モードになっていますが、完全なHTMLバージョンの電子メールで編集できます。
+   選択した要素のソースのみが表示されます。選択した要素がコンテンツコンポーネントで **[!UICONTROL HTML]** ある場合は、ソースコードを編集できます。その他のコンポーネントは読み取り専用モードになっていますが、完全なHTMLバージョンの電子メールで編集できます。
 
    ![](assets/email_designer_html2.png)
 
-HTMLを変更すると、電子メールの応答性が断ち切れることがあります。**[!UICONTROL Preview]** 必ずボタンを使用してテストしてください。See [Previewing messages](../../sending/using/previewing-messages.md).
+HTMLを変更すると、電子メールの応答性が断ち切れることがあります。**[!UICONTROL Preview]** 必ずボタンを使用してテストしてください。詳しくは、メッセージ [のプレビューを](../../sending/using/previewing-messages.md)参照してください。
 
-## Design through Adobe Campaign integrations {#design-through-adobe-campaign-integrations}
+## Adobe Campaign統合によるデザイン {#design-through-adobe-campaign-integrations}
 
-### Editing content in Dreamweaver {#editing-content-in-dreamweaver}
+### Dreamweaverでのコンテンツの編集 {#editing-content-in-dreamweaver}
 
 DreamweaverとAdobe Campaign Standardの統合により、Dreamweaverインターフェイスで電子メールのコンテンツを編集できます。レスポンシブ電子メールコンテンツを設計および開発するために、Dreamweaverの強力なインターフェイスにアクセスできます。
 
@@ -484,15 +486,15 @@ DreamweaverとAdobe Campaign Standardの統合により、Dreamweaverインタ�
 
 * **DreamweaverでのCampaignのパーソナライゼーションの追加**
 
-   For the email developer there is no longer a need to add text like ```[[FIRSTNAME_PLACEHOLDER]]``` nor to look up the syntax of your data model’s tables. Dreamweaverのキャンペーンツールバーは、キャンペーンインスタンスのデータモデルに直接接続します。つまり、「名」に「名」という名前のデータを取り込むことができます。キャンペーン内でコンテンツブロックを作成した場合は、それらを直接Dreamweaverに取り込むことができます。
+   電子メール開発者は、データモデルの表のようなテキストを追加し ```[[FIRSTNAME_PLACEHOLDER]]``` たり参照したりする必要がなくなりました。Dreamweaverのキャンペーンツールバーは、キャンペーンインスタンスのデータモデルに直接接続します。つまり、「名」に「名」という名前のデータを取り込むことができます。キャンペーン内でコンテンツブロックを作成した場合は、それらを直接Dreamweaverに取り込むことができます。
 
-This capability is detailed in the Dreamweaver Documentation accessible [here](https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html). A demonstration [video](https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html) is also available.
+この機能は、ここでアクセス [できるDreamweaverドキュメントで説明](https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html)しています。デモ [ビデオ](https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html) も利用できます。
 
-### Editing content in Experience Manager {#editing-content-in-experience-manager}
+### Experience Managerでのコンテンツの編集 {#editing-content-in-experience-manager}
 
-電子メールコンテンツは、Experience Managerで編集して、Adobe Campaign Standardの1つまたは複数の電子メールメッセージに使用できます。Refer to [this document](../../integrating/using/integrating-with-experience-manager.md).
+電子メールコンテンツは、Experience Managerで編集して、Adobe Campaign Standardの1つまたは複数の電子メールメッセージに使用できます。このドキュメント [](../../integrating/using/integrating-with-experience-manager.md)を参照してください。
 
-### Email design options comparison {#email-design-options-comparison}
+### 電子メールデザインオプションの比較 {#email-design-options-comparison}
 
 Adobe Campaignには、複数の電子メールオーサリングオプションがあります。以下の表に、それぞれの主な可能性、それぞれのメリットおよび制限を示します。
 
@@ -500,7 +502,7 @@ Adobe Campaignには、複数の電子メールオーサリングオプション
  <thead> 
   <tr> 
    <th> </th> 
-   <th> Email Designer<br /> </th> 
+   <th> 電子メールデザイナー<br /> </th> 
    <th> Experience Manager<br /> </th> 
    <th> Dreamweaver<br /> </th> 
   </tr> 
@@ -508,86 +510,83 @@ Adobe Campaignには、複数の電子メールオーサリングオプション
  <tbody> 
   <tr> 
    <td> <strong>空白の電子メールを開始</strong><br /> </td> 
-   <td> Supported<br /> </td> 
-   <td> Supported<br /> </td> 
-   <td> Supported<br /> </td> 
+   <td> サポートされる<br /> </td> 
+   <td> サポートされる<br /> </td> 
+   <td> サポートされる<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>HTMLの書き込み</strong><br /> </td> 
-   <td> Supported<br /> </td> 
-   <td> Not supported<br /> </td> 
-   <td> Supported<br /> </td> 
+   <td> サポートされる<br /> </td> 
+   <td> サポートされていません<br /> </td> 
+   <td> サポートされる<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>HTMLの更新</strong><br /> </td> 
-   <td> Only inside an HTML component<br /> </td> 
-   <td> Not supported<br /> </td> 
-   <td> Supported<br /> </td> 
+   <td> HTMLコンポーネント内のみ<br /> </td> 
+   <td> サポートされていません<br /> </td> 
+   <td> サポートされる<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>基本的なパーソナライゼーション</strong><br /> </td> 
-   <td> Supported<br /> </td> 
-   <td> Supported<br /> </td> 
-   <td> Supported<br /> </td> 
+   <td> サポートされる<br /> </td> 
+   <td> サポートされる<br /> </td> 
+   <td> サポートされる<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>高度なパーソナライゼーション</strong><br /> </td> 
-   <td> Supported<br /> </td> 
-   <td> Not supported<br /> </td> 
-   <td> Not supported<br /> </td> 
+   <td> サポートされる<br /> </td> 
+   <td> サポートされていません<br /> </td> 
+   <td> サポートされていません<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>校正/プレビュー</strong><br /> </td> 
-   <td> Supported<br /> </td> 
-   <td> Preview in AEM<br /> Proof in Campaign<br /> </td> 
-   <td> Preview and proof in Campaign<br /> </td> 
+   <td> サポートされる<br /> </td> 
+   <td> CampaignでのAEM<br /> 校正のプレビュー<br /> </td> 
+   <td> キャンペーンでのプレビューと校正<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>製品リスト</strong><br /> </td> 
-   <td> Supported in email transactional messages<br /> </td> 
-   <td> Not supported<br /> </td> 
-   <td> Not supported<br /> </td> 
+   <td> 電子メールトランザクションメッセージでサポート<br /> </td> 
+   <td> サポートされていません<br /> </td> 
+   <td> サポートされていません<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>メリット</strong><br /> </td> 
    <td> 
-     - Easy email building through drag-and-drop experience<br/>
-     - Functionalities similar to legacy content editor<br/>
-     - Reusable content with fragments
+     - ドラッグ&amp;ドロップ操作による簡単な電子メール作成<br/>-レガシーコンテンツエディターと同様<br/>-フラグメントを使用した再利用可能なコンテンツ
   </td> 
    <td> 
-     - Reusing assets from website in emails<br/>
-     - Leveraging the power of Experience Manager in email contents
+     - 電子メール内のWebサイトからのアセットの再利用<br/>-電子メールコンテンツのExperience
+ Managerの活用
     </td> 
    <td> 
-    - Capability for a developer to directly code an email<br/>
-    - Bi-directional synchronization<br/>
-    - Editing offline in Dreamweaver and synchronizing later<br/>
-    - Uploading images to Adobe Campaign through Dreamweaver
+    - 開発者が電子メールを直接コーディングするための機能<br/>-双方向の同期<br/>-
+ Dreamweaverでのオフライン編集および後で同期<br/>-
+ Dreamweaver経由での画像のAdobe Campaignへのアップロード
   </td> 
   </tr> 
   <tr> 
    <td> <strong>制限事項</strong><br /> </td> 
    <td> 
-     - No conditional content within fragments<br/>
-     - Using Experience Manager fragments not possible
+     - フラグメント内に条件付きコンテンツがない<br/>-
+ Experience Managerフラグメントを使用できない
   </td> 
    <td> 
-     - Advanced personalization difficult to implement<br/>
-     - Need to send tests in Adobe Campaign
+     - 高度なパーソナライゼーションの実装<br/>-
+ Adobe Campaignでのテストの送信が必要
   </td> 
-   <td> Dynamic content not supported<br /> </td> 
+   <td> 動的コンテンツはサポートされていません<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>オーディエンス</strong><br /> </td> 
-   <td> Marketers who want to keep the flexibility to use HTML components in combination with drag-and-drop features<br /> </td> 
-   <td> Marketers already using Experience Manager who want to use standard email templates with little personalization<br /> </td> 
-   <td> Developers who want to code email contents and integrate directly with Adobe Campaign<br /> </td> 
+   <td> ドラッグ&amp;ドロップ機能と組み合わせてHTMLコンポーネントを使用する柔軟性を保ちたいマーケティング担当者<br /> </td> 
+   <td> ほとんどパーソナライゼーションのない標準の電子メールテンプレートを使用するExperience Managerを既に使用しているマーケティング担当者<br /> </td> 
+   <td> 電子メールコンテンツをコード化し、Adobe Campaignと直接統合する開発者<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>詳しくは、</strong><br /> </td> 
-   <td> See <a href="../../designing/using/about-email-content-design.md#about-the-email-designer">About the Email Designer</a><br /> </td> 
-   <td> See <a href="../../integrating/using/integrating-with-experience-manager.md">Integrating with Experience Manager</a><br /> </td> 
+   <td> 電子メールデザイナー <a href="../../designing/using/about-email-content-design.md#about-the-email-designer">についてを参照してください</a><br /> </td> 
+   <td> Experience Managerと <a href="../../integrating/using/integrating-with-experience-manager.md">の統合を参照してください</a><br /> </td> 
    <td> <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">DreamweaverとCampaignを参照</a> して、このビデオをご覧 <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html">ください</a><br /> </td> 
   </tr> 
  </tbody> 
