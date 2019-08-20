@@ -14,14 +14,14 @@ discoiquuid: a9afbb76- d2b3-44c7- b97a-1694501aa913
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 82df97bb1fe4d65f204fc55ebcedd0c47337a8e7
 
 ---
 
 
-# SMS report{#sms-report}
+# SMSレポート{#sms-report}
 
-** SMS**レポートは、配信済みおよびバウンス率などのSMS配信に関する詳細を提供します。
+**SMS** レポートは、配信された配信速度やバウンス率などのSMS配信に関する詳細を提供します。
 
 ![](assets/dynamic_report_sms.png)
 
