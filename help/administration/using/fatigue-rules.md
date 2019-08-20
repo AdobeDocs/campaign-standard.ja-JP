@@ -14,14 +14,14 @@ discoiquuid: 4337a80b-0fb9-4a37- bce3- fe2121a66586
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a12df43de55dedf388a397fbf4670d99e3ea7f3d
+source-git-commit: 48c725de297e3a8b2fc05be65f59cd23b2cfd7d7
 
 ---
 
 
-# Fatigue rules{#fatigue-rules}
+# 疲労ルール{#fatigue-rules}
 
-## About fatigue rules {#about-fatigue-rules}
+## 疲労規則について {#about-fatigue-rules}
 
 疲労ルールを使用すると、マーケティング担当者はグローバルなクロスチャネルビジネスルールを設定して、キャンペーンからのプロシークプロファイルを自動的に除外することができます。
 
@@ -37,15 +37,15 @@ source-git-commit: a12df43de55dedf388a397fbf4670d99e3ea7f3d
 * [誤字の管理](../../administration/using/about-typology-rules.md#managing-typologies)
 * [タイポロジルール](../../administration/using/about-typology-rules.md#typology-rules)
 
-## Creating a fatigue rule {#creating-a-fatigue-rule}
+## 疲労ルールの作成 {#creating-a-fatigue-rule}
 
 **[!UICONTROL Fatigue]** タイポロジルールを作成および設定するには、次の手順を適用します。
 
-1. Click the Adobe Campaign logo, in the top left corner of the interface, then select **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Typologies]** &gt; **[!UICONTROL Typology rules]**.
+1. Adobe Campaignロゴをクリックし、インターフェイスの左上隅に **[!UICONTROL Administration]** ある/ **[!UICONTROL Channels]** &gt; **[!UICONTROL Typologies]** &gt;を選択 **[!UICONTROL Typology rules]**&#x200B;します。
 
    ![](assets/fatigue4.png)
 
-1. From the list of typology rules, click **[!UICONTROL Create]**.
+1. タイポロジルールのリストから、をクリック **[!UICONTROL Create]**&#x200B;します。
 
    ![](assets/fatigue.png)
 
@@ -53,25 +53,25 @@ source-git-commit: a12df43de55dedf388a397fbf4670d99e3ea7f3d
 
    ![](assets/fatigue3.png)
 
-1. **[!UICONTROL Channel]** フィールドで、ルールが適用するチャネルを選択します。You can either select a single channel (email, SMS, direct mail, mobile application) or select **[!UICONTROL All channels]**. See [Choosing the channel](../../administration/using/fatigue-rules.md#choosing-the-channel).
+1. **[!UICONTROL Channel]** フィールドで、ルールが適用するチャネルを選択します。1つのチャネル（電子メール、SMS、ダイレクトメール、モバイルアプリケーション）を選択するか、または選択 **[!UICONTROL All channels]**&#x200B;します。チャネル [の選択を参照](../../administration/using/fatigue-rules.md#choosing-the-channel)してください。
 
    ![](assets/fatigue5.png)
 
-1. **[!UICONTROL General]** タブで、プロファイルごとのメッセージの最大数を計算する方法を定義します。定数しきい値または変数を選択できます。プロファイルおよび配信のしきい値を調整することもできます。For more on this, refer to [Defining the threshold](../../administration/using/fatigue-rules.md#defining-the-threshold).
+1. **[!UICONTROL General]** タブで、プロファイルごとのメッセージの最大数を計算する方法を定義します。定数しきい値または変数を選択できます。プロファイルおよび配信のしきい値を調整することもできます。これについて詳しくは、しきい値 [の定義](../../administration/using/fatigue-rules.md#defining-the-threshold)を参照してください。
 
    ![](assets/fatigue2.png)
 
-1. Choose a **[!UICONTROL Sliding period]** on which the typology rule will apply. For more on this, refer to [Setting the sliding period](../../administration/using/fatigue-rules.md#setting-the-sliding-period).
+1. タイポロジルール **[!UICONTROL Sliding period]** を適用する場所を選択します。詳しくは、スライド期間 [の設定](../../administration/using/fatigue-rules.md#setting-the-sliding-period)を参照してください。
 
    ![](assets/fatigue6.png)
 
    この例では（以前のスクリーンショットを参照）、スライド期間15日間の最大4つのメッセージを送信するように選択しています。
 
-1. **[!UICONTROL Application criteria]** タブでは、このルールをすべての配信に適用したり、送信するメッセージに従ってルールの適用性を制限したりできます。ルールは、アプリケーション条件が満たされた場合にのみ実行されます。例えば、特定の単語から始まるラベルまたは特定のレターを含むIDでのみルールを適用できます。See [Restricting the applicability of a filtering rule](../../administration/using/filtering-rules.md#restricting-the-applicability-of-a-filtering-rule).
+1. **[!UICONTROL Application criteria]** タブでは、このルールをすべての配信に適用したり、送信するメッセージに従ってルールの適用性を制限したりできます。ルールは、アプリケーション条件が満たされた場合にのみ実行されます。例えば、特定の単語から始まるラベルまたは特定のレターを含むIDでのみルールを適用できます。詳しくは、フィルタリングルールの適用性 [の制限](../../administration/using/filtering-rules.md#restricting-the-applicability-of-a-filtering-rule)を参照してください。
 
    ![](assets/fatigue20.png)
 
-1. **[!UICONTROL Typologies]** タブを選択し、配信に使用するタイポロジルールにリンクします。See [Managing typologies](../../administration/using/about-typology-rules.md#managing-typologies) and [Typology rules](../../administration/using/about-typology-rules.md#typology-rules).
+1. **[!UICONTROL Typologies]** タブを選択し、配信に使用するタイポロジルールにリンクします。詳しく [は、タイポロジ](../../administration/using/about-typology-rules.md#managing-typologies) および [タイポロジルールの管理](../../administration/using/about-typology-rules.md#typology-rules)を参照してください。
 
    ![](assets/fatigue12.png)
 
@@ -79,7 +79,7 @@ source-git-commit: a12df43de55dedf388a397fbf4670d99e3ea7f3d
    >
    >タイポロジは、このテンプレートを使用して作成されたすべての配信に自動的に適用されるように、配信テンプレートで定義できます。
 
-配信の準備中、配信済みの配信の数に応じて、配信からプロファイルが除外されます。配信ログで疲労ルールの実行結果を表示できます。See [Viewing the fatigue results](../../administration/using/fatigue-rules.md#viewing-the-fatigue-results).
+配信の準備中、配信済みの配信の数に応じて、配信からプロファイルが除外されます。配信ログで疲労ルールの実行結果を表示できます。詳しくは、疲労結果 [の表示](../../administration/using/fatigue-rules.md#viewing-the-fatigue-results)を参照してください。
 
 ![](assets/fatigue16.png)
 
@@ -87,9 +87,9 @@ source-git-commit: a12df43de55dedf388a397fbf4670d99e3ea7f3d
 >
 >疲労ルールが機能するには、配信の連絡先日付を定義する必要があります。メッセージをすぐに送信するように選択した場合、疲労ルールは適用されません。
 
-## Choosing the channel {#choosing-the-channel}
+## チャネルの選択 {#choosing-the-channel}
 
-様々なチャネルで疲労ルールを使用できます。The channel is defined in the **[!UICONTROL Channel]** field of the typology rule settings. You can either select a single channel or select **[!UICONTROL All channels]**.
+様々なチャネルで疲労ルールを使用できます。チャネルは、タイポロジルール設定の **[!UICONTROL Channel]** フィールドに定義されています。1つのチャネルを選択するか、または選択 **[!UICONTROL All channels]**&#x200B;します。
 
 ![](assets/fatigue5.png)
 
@@ -112,9 +112,9 @@ source-git-commit: a12df43de55dedf388a397fbf4670d99e3ea7f3d
 
 疲労ルールは、すべての配信タイプと互換性があります。1件のショット配信、定期配信、ワークフロー配信およびトランザクションメッセージ。
 
-**トランザクションメッセージ** は、リマーケティングメッセージなど、マーケティングメッセージ（RTV）とマーケティングメッセージ（ターゲットプロファイル）をターゲット化するために使用できます。疲労ルールはマーケティングメッセージにのみ互換性があります（ターゲットプロファイル）。イベントトランザクションメッセージにはプロファイル情報は含まれません。したがって、プロファイルを使用した拡張の場合でも、疲労ルールと互換性がありません。With the support of marketing messages in transactional messaging, you can **apply a fatigue rule to all channels including marketing transactional messages**.
+**トランザクションメッセージ** は、リマーケティングメッセージなど、マーケティングメッセージ（RTV）とマーケティングメッセージ（ターゲットプロファイル）をターゲット化するために使用できます。疲労ルールはマーケティングメッセージにのみ互換性があります（ターゲットプロファイル）。イベントトランザクションメッセージにはプロファイル情報は含まれません。したがって、プロファイルを使用した拡張の場合でも、疲労ルールと互換性がありません。トランザクションメッセージでマーケティングメッセージをサポートすると、マーケティング **トランザクションメッセージ**&#x200B;を含むすべてのチャネルに疲労ルールを適用できます。
 
-## Defining the threshold {#defining-the-threshold}
+## しきい値の定義 {#defining-the-threshold}
 
 各疲労ルールは、特定の期間に1つのプロファイルに送信できるメッセージの最大数を表すしきい値を定義します。このしきい値に到達すると、考慮された期間の終わりまで、配信を増やすことができません。このプロセスにより、メッセージがセットしきい値を超えた場合に、それを防ぐために、自動的に配信からプロファイルを除外することができます。
 
@@ -130,48 +130,48 @@ source-git-commit: a12df43de55dedf388a397fbf4670d99e3ea7f3d
 
 **変数のしきい値の使用**
 
-To define a variable threshold, select the **[!UICONTROL Depends on the recipient]** value in the **[!UICONTROL Threshold type]** field.
+変数のしきい値を定義するには、フィールド内の **[!UICONTROL Depends on the recipient]** 値を選択 **[!UICONTROL Threshold type]** します。
 
 ![](assets/fatigue15.png)
 
 次に2つのオプションがあります。
 
-* プロファイルフィールドを選択します。しきい値は、選択したフィールドに従って各プロファイルによって異なります。For example, if you have extended the profiles resource with a 'Communication frequency' field, click the button on the right of the **[!UICONTROL Threshold computation formula]** field and select your field. 各プロファイルについて、しきい値が「通信頻度」フィールドの値になります。
+* プロファイルフィールドを選択します。しきい値は、選択したフィールドに従って各プロファイルによって異なります。例えば、「通信頻度」フィールドのプロファイルリソースを拡張している場合は **[!UICONTROL Threshold computation formula]** 、フィールドの右側のボタンをクリックして、フィールドを選択します。各プロファイルについて、しきい値が「通信頻度」フィールドの値になります。
 
    ![](assets/fatigue21.png)
 
-* define a formula: click the second button on the right of the **[!UICONTROL Threshold computation formula]** field to define an advanced threshold calculation formula. 例えば、プロファイルが属しているセグメントに応じて、認証されたメッセージの数をインデックス化できます。つまり、"Web"セグメントに属するプロファイルは、他のプロファイルよりも多くのメッセージを受け取ることがあります。**[!UICONTROL Iif (@origin='Web', 5, 3)]** タイプ数式では、Webセグメントのプロファイルに5つのメッセージを配信し、他のセグメントに対して3つのメッセージを配信します。
+* 数式を定義します。 **[!UICONTROL Threshold computation formula]** フィールドの右側の2番目のボタンをクリックして、高度なしきい値計算数式を定義します。例えば、プロファイルが属しているセグメントに応じて、認証されたメッセージの数をインデックス化できます。つまり、"Web"セグメントに属するプロファイルは、他のプロファイルよりも多くのメッセージを受け取ることがあります。**[!UICONTROL Iif (@origin='Web', 5, 3)]** タイプ数式では、Webセグメントのプロファイルに5つのメッセージを配信し、他のセグメントに対して3つのメッセージを配信します。
 
    ![](assets/fatigue14.png)
 
 **プロファイルと配信におけるしきい値の調整**
 
-デフォルトでは、すべてのメッセージがしきい値の計算に考慮されます。Check the **[!UICONTROL Refine Threshold on profiles and deliveries]** box to filter the profiles and deliveries to count when preparing the delivery.
+デフォルトでは、すべてのメッセージがしきい値の計算に考慮されます。配信の準備時にカウントするプロファイルと配信をフィルターする **[!UICONTROL Refine Threshold on profiles and deliveries]** には、チェックボックスをオンにします。
 
-In the following example, only male profiles are counted and only deliveries with a label starting with **Newsletters** are counted.
+次の例では、男性プロファイルのみがカウントされ、 **ニュースレター** から始まるラベルの付いた配信のみがカウントされます。
 
 ![](assets/fatigue13.png)
 
-Refining the threshold on deliveries is different than restricting the applicability of the entire rule ( **[!UICONTROL Application criteria]** tab):
+配信時のしきい値の調整は、ルール全体（ **[!UICONTROL Application criteria]** タブ）の適用性を制限するのとは異なります。
 
 * **[!UICONTROL Application criteria]**:を選択します。例えば、アプリケーション条件が「ニュースレターで始まる」の場合、ルールはこの条件を適用する配信にのみ適用されます。配信のラベルが「プロモーション」で始まる場合、ルールはまったく実行されません。
 * **[!UICONTROL Refine threshold on profiles and deliveries > Deliveries to count]**:このタイポロジルールを使用して配信するすべての配信は、ルールを実行しますが、過去の配信とスケジュールされた配信をカウントします。例えば、制限が「ニュースレターで始まる」の場合、配信ラベルが「プロモーション」で始まる場合でも、ルールは実行されます。選択したスライド期間に対して、ラベルが「ニュースレター」で始まる配信の数が表示されます。
 
-## Setting the sliding period {#setting-the-sliding-period}
+## スライディング期間の設定 {#setting-the-sliding-period}
 
-疲労ルールは、周期的な周期で定義されます。The period is configured in the **[!UICONTROL Sliding period]** section, for example 2 weeks, 7 days or 5 hours.
+疲労ルールは、周期的な周期で定義されます。期間は、2週間、7日間、5時間など **[!UICONTROL Sliding period]** のセクションで設定されます。
 
 ![](assets/fatigue6.png)
 
 ルールが実行されると、過去の配信とスケジュール済み配信の両方が考慮されます。これにより、所定のスライド期間でのしきい値を超えないようにすることが保証されます。
 
-For example, if you define a 48-hour period, the system will be looking 48 hours **before the contact date ** and 48 hours **after the contact date**. したがって、将来の配信と以前の配信の統合を有効にするために、選択した期間が2倍になります。
+例えば、48時間の期間を定義した場合、連絡先日から48時間 **前に48時間の** 予定日 ****&#x200B;が表示されます。したがって、将来の配信と以前の配信の統合を有効にするために、選択した期間が2倍になります。
 
-To restrict the deliveries taken into account to a 2-week period, enter **Day** and **7** or 1 week in the **Sliding period** section. 配信日の7日前に送信され、ルールが適用された配信日から最長7日経過した配信は、計算で考慮されます。
+配信を2週間に制限するには、「スライディング期間»セクションで?«日»または?«1 ************&#x200B;配信日の7日前に送信され、ルールが適用された配信日から最長7日経過した配信は、計算で考慮されます。
 
-## Viewing the fatigue results {#viewing-the-fatigue-results}
+## 疲労の結果の表示 {#viewing-the-fatigue-results}
 
-配信の準備中、配信済みの配信の数に応じて、配信からプロファイルが除外されます。To view fatigue rule execution results, click the button in the bottom right corner of the **[!UICONTROL Deployment]** block.
+配信の準備中、配信済みの配信の数に応じて、配信からプロファイルが除外されます。疲労ルールの実行結果を表示するには、 **[!UICONTROL Deployment]** ブロックの右下隅にあるボタンをクリックします。
 
 ![](assets/fatigue22.png)
 
@@ -189,11 +189,11 @@ To restrict the deliveries taken into account to a 2-week period, enter **Day** 
 
    ![](assets/fatigue19.png)
 
-## Viewing the fatigue rule summary report {#viewing-the-fatigue-rule-summary-report}
+## 疲労ルールサマリレポートの表示 {#viewing-the-fatigue-rule-summary-report}
 
 Adobe Campaignでは、疲労ルールに関する専用レポートを使用して、キャンペーンにどのように適用されるかを把握できます。これにより、キャンペーンが相互に影響を与え、適切な調整を行うことができます。
 
-The **[!UICONTROL Fatigue rules summary]** report can be accessed from the **[!UICONTROL Reports]** button, in the top right corner of each program, campaign, and message.
+レポートは **[!UICONTROL Fatigue rules summary]** 、ボタンから **[!UICONTROL Reports]** アクセスし、各プログラム、キャンペーン、メッセージの右上隅に表示されます。
 
 ![](assets/fatigue27.png)
 
@@ -218,11 +218,11 @@ The **[!UICONTROL Fatigue rules summary]** report can be accessed from the **[!U
 >
 >表示されるデータは、レポートにアクセスするプログラム、メッセージ、キャンペーンのコンテキストには依存しません。このレポートには、すべての組織単位のすべての疲労ルールと配信が表示されます。これにより、キャンペーンが他のユーザーによってどのように影響を受けるかを把握するために、すべての配信のグローバルビューを取得できます。
 
-## Examples {#examples}
+## 例 {#examples}
 
 疲労管理の導入には多くの可能性があります。次に、実行できる操作の例を示します。
 
-* Create a fatigue rule using a **constant threshold** that applies to **all channels**:
+* すべてのチャネルに適用される **一定のしきい値** を使用して、疲労ルール **を作成**&#x200B;します。
 
    例えば、スライディング期間7日間の一定のしきい値を持つマルチチャネルルールを作成します。
 
@@ -230,7 +230,7 @@ The **[!UICONTROL Fatigue rules summary]** report can be accessed from the **[!U
 
    ![](assets/fatigue23.png)
 
-* Create a fatigue rule using a **variable threshold** based on a **profile field**:
+* プロファイルフィールドに基づいて **可変のしきい値** を使用して、疲労ルール **を作成**&#x200B;します。
 
    「通信制限」フィールドのプロファイルリソースを拡張して、プロファイルごとに異なるしきい値を定義しています。疲労ルールで、このフィールドに基づいて変数のしきい値を定義し、2日間のスライディング期間を選択します。次の2つのプロファイルの例を見てみましょう。Johnの通信制限は1で、Davidはしきい値2です。どちらの場合も、昨日ニュースレター電子メールを受信しています。今すぐ電子メールを送信します。ターゲットから除外されたので、Davidのみが受信します。
 
@@ -238,7 +238,7 @@ The **[!UICONTROL Fatigue rules summary]** report can be accessed from the **[!U
 
 * **しきい値計算数式を使用して、疲労ルールを作成**&#x200B;します。
 
-   プロファイルの年齢に応じてしきい値を変更したい。プロファイルが40未満の場合、上限4と古いプロファイルの制限を2に制限します。このしきい値を拡張フィールドと共に各プロファイルに定義する代わりに、疲労ルールに直接数式を作成して、プロファイルの年齢に従ってしきい値を計算できます。In our example, the formula would be **[!UICONTROL Iif (@age<40, 4, 2)]**.
+   プロファイルの年齢に応じてしきい値を変更したい。プロファイルが40未満の場合、上限4と古いプロファイルの制限を2に制限します。このしきい値を拡張フィールドと共に各プロファイルに定義する代わりに、疲労ルールに直接数式を作成して、プロファイルの年齢に従ってしきい値を計算できます。この例では、数式があり **[!UICONTROL Iif (@age<40, 4, 2)]**&#x200B;ます。
 
    ![](assets/fatigue25.png)
 
@@ -246,7 +246,7 @@ The **[!UICONTROL Fatigue rules summary]** report can be accessed from the **[!U
    >
    >この節では、しきい値計算数式を使用した疲労ルールの例を示します。
 
-* Create a fatigue rule that **refines the threshold** on profiles and deliveries:
+* プロファイルと配信のしきい値を **調整する** 疲労ルールを作成します。
 
    「スコア」フィールドのプロファイルリソースが拡張され、「タイプ」フィールドの配信リソースも拡張されました。3の定数しきい値を定義したいが、「アラート」または「ブラックフライデー」というタイプのすべての配信と、10を超えるスコアのあるすべてのプロファイルから除外したい場合。ルールが実行されると、過去およびスケジュール済み配信の間に、過去の配信とスケジュールされた配信の間で、スコアが10未満のプロファイルに送信されるすべての配信が、「アラート」または「ブラックフライデー」に送信されます。
 
@@ -256,12 +256,12 @@ The **[!UICONTROL Fatigue rules summary]** report can be accessed from the **[!U
 
 この使用事例では、毎週2つ以上のメッセージをプレミアムプロファイルに配信し、週ごとに2メッセージを標準プロファイルに配信するためのタイポロジルールを作成します。
 
-To identify customers and prospects, we extended the profiles resource with the **[!UICONTROL Status]** field, which contains 0 for premium profiles and 1 for standard profiles.
+顧客と見込み客を特定するために、プロファイルリソースを拡張しました。この **[!UICONTROL Status]** フィールドには、プレミアムプロファイルの場合は0、標準プロファイルには1が含まれていました。
 
 ルールを作成するには、次の手順を適用します。
 
 1. **新しい疲労** タイプのタイポロジルールを作成します。
-1. **[!UICONTROL Threshold]** このセクションでは、各プロファイルに応じてしきい値を計算する数式を作成します。Select the **[!UICONTROL Depends on the recipient]** value in the **[!UICONTROL Threshold type]** field, then click the icon the second button on the right of the **[!UICONTROL Threshold computation formula]** field.
+1. **[!UICONTROL Threshold]** このセクションでは、各プロファイルに応じてしきい値を計算する数式を作成します。フィールドの **[!UICONTROL Depends on the recipient]** 値を選択 **[!UICONTROL Threshold type]** し、 **[!UICONTROL Threshold computation formula]** フィールドの右側にある2番目のボタンをクリックします。
 
    ![](assets/fatigue7.png)
 
@@ -269,22 +269,22 @@ To identify customers and prospects, we extended the profiles resource with the 
 
    ![](assets/fatigue8.png)
 
-1. Then select the profile's **Status** in the **[!UICONTROL Available fields]** section.
+1. 次に、セクションでプロファイル **のステータス** を選択 **[!UICONTROL Available fields]** します。
 
    ![](assets/fatigue9.png)
 
-1. Enter the desired values to create the following formula: **Iif(@status=0,2,4)**
+1. 必要な値を入力して、次の数式を作成します。 **Iif（@ status=0,2,4）**
 
    ![](assets/fatigue10.png)
 
    この数式では、ステータスが0の場合は2、他のすべてのステータスについては4を割り当てることができます。
 
-1. Click **[!UICONTROL Confirm]** to approve the formula.
-1. Indicate the **[!UICONTROL Sliding period]** on which the rule will apply: 7 days in this case, to restrict the deliveries taken into account to a 2-week period.
+1. をクリック **[!UICONTROL Confirm]** して、数式を承認します。
+1. ルールを適用する **[!UICONTROL Sliding period]** 対象を示します。この場合7日のうちに、考慮した配信を2週間の期間に制限します。
 
    ![](assets/fatigue11.png)
 
-1. これで、配信に適用するために作成したルールを、タイポロジにリンクします。To do this, select the **[!UICONTROL Typologies]** tab, click **[!UICONTROL Create element]** and select the typology used for your deliveries.
+1. これで、配信に適用するために作成したルールを、タイポロジにリンクします。これを行うには、タブを **[!UICONTROL Typologies]** 選択し、配信に使用するタイポロジをクリック **[!UICONTROL Create element]** して選択します。
 
    ![](assets/fatigue12.png)
 
