@@ -14,76 +14,76 @@ discoiquuid: a967c6cc- c53b-41b4-866b-90860d78f463
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 60365021e10d3d0e3197f57c6e410af3b8ec0c1d
+source-git-commit: d857bee3e7cb54ec179a73d9c256a14771cbd474
 
 ---
 
 
-# Configuring Campaign-Points of Interest data integration{#configuring-campaign-points-of-interest-data-integration}
+# キャンペーン目標地点データ統合の設定{#configuring-campaign-points-of-interest-data-integration}
 
-## Configuring Campaign-Points of Interest data integration with Adobe Experience Platform SDKs {#configuring-campaign-poi-aep-sdk}
+## Adobe Experience Platform SDKとの目標地点データ統合の設定 {#configuring-campaign-poi-aep-sdk}
 
 >[!NOTE]
 >
->モバイルアプリケーションは、Adobe Experience Platform SDKを使用してAdobe Campaign Standardで既に設定されている必要があります。For the detailed steps, refer to this [page](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
+>モバイルアプリケーションは、Adobe Experience Platform SDKを使用してAdobe Campaign Standardで既に設定されている必要があります。詳細手順については、 [このページ](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)を参照してください。
 
-The mobile applications used to collect location data must be configured by an **administrator** in the Adobe Campaign interface.
+場所データの収集に使用するモバイルアプリケーションは、Adobe Campaignインターフェイスの **管理者** が設定する必要があります。
 
 Adobe Experience Platform SDKを使用して設定されたモバイルアプリケーションでAdobe Experience Platformロケーションサービスを使用できるようにするには、以下を行う必要があります。
 
-1. Add the **[!UICONTROL Places]** and **[!UICONTROL Places Monitor]** extensions to your mobile app configuration in Adobe Experience Platform Launch. Adobe Campaignでモバイルアプリケーションをセットアップします。See [Install the Places extension in Adobe Experience Platform Launch](https://placesdocs.com/places-services-by-adobe-documentation/configure-places-in-the-sdk/places-extension#install-the-places-extension-in-adobe-experience-platform-launch) and [Install the Places Monitor extension in Experience Platform Launch](https://placesdocs.com/places-services-by-adobe-documentation/configure-places-in-the-sdk/places-monitor-extension/using-the-places-monitor-extension).
+1. Adobe **[!UICONTROL Places]** Experience Platform Launchのモバイルアプリ設定に **[!UICONTROL Places Monitor]** 、および拡張機能を追加します。Adobe Campaignでモバイルアプリケーションをセットアップします。詳しくは、Adobe Experience Platform Launchに場所拡張を [インストール](https://placesdocs.com/places-services-by-adobe-documentation/configure-places-in-the-sdk/places-extension#install-the-places-extension-in-adobe-experience-platform-launch) し [、Experience Platform Launchで場所モニター拡張機能をインストールするを](https://placesdocs.com/places-services-by-adobe-documentation/configure-places-in-the-sdk/places-monitor-extension/using-the-places-monitor-extension)参照してください。
 
-1. Once your extensions are set up, create data elements within **[!UICONTROL Adobe Experience Platform Launch]** to retrieve data from these extensions. Refer to this [page](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Step1Createdataelements) to create your data elements.
+1. 拡張子が設定されたら、これらの拡張子からデータを取得 **[!UICONTROL Adobe Experience Platform Launch]** するためにデータ要素を作成します。データ要素を作成するには [、このページ](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Step1Createdataelements) を参照してください。
 
-1. Then, in **[!UICONTROL Adobe Experience Platform Launch]**, you need to create rules to support mobile use cases between Point of Interests and Adobe Campaign.\
-   This rule will be triggered when a user enters a geo-fenced **[!UICONTROL Point of Interest]**. Refer to this [page](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Locationpostback) to create your rule.
+1. 次に、 **[!UICONTROL Adobe Experience Platform Launch]**&#x200B;目標地点とAdobe Campaignの間のモバイルユースケースをサポートするルールを作成する必要があります。\
+   このルールは、ユーザーが地域フィードに入るとトリガー **[!UICONTROL Point of Interest]**&#x200B;されます。ルールを作成するには [、このページ](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Locationpostback) を参照してください。
 
-1. Define your **[!UICONTROL Points of Interest]** in Places. See [Create a Point of Interest](https://placesdocs.com/places-services-by-adobe-documentation/places-database-management-1/managing-pois-in-the-places-ui#create-a-poi).
+1. 場所 **[!UICONTROL Points of Interest]** を定義します。目標地点 [の作成を参照](https://placesdocs.com/places-services-by-adobe-documentation/places-database-management-1/managing-pois-in-the-places-ui#create-a-poi)してください。
 
-1. Adobe Campaignでモバイルアプリケーションおよび収集された場所データにアクセスすることを確認してください。See [Accessing mobile apps used to collect location data](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#accessing-mobile-apps-used-to-collect-location-data) and [Accessing collected location data](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#accessing-collected-location-data).
+1. Adobe Campaignでモバイルアプリケーションおよび収集された場所データにアクセスすることを確認してください。場所データの収集に使用するモバイルアプリ [および収集された場所](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#accessing-mobile-apps-used-to-collect-location-data) データ [へのアクセスを参照](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#accessing-collected-location-data)してください。
 
-## Configuring Campaign-Points of Interest data integration using SDK V4 {#configuring-campaign-poi-sdkv4}
+## SDK V4を使用した、キャンペーン目標地点データ統合の設定 {#configuring-campaign-poi-sdkv4}
 
-The mobile applications used to collect location data must be configured by an **administrator** in the Adobe Campaign interface.
+場所データの収集に使用するモバイルアプリケーションは、Adobe Campaignインターフェイスの **管理者** が設定する必要があります。
 
 SDK V4で設定されたモバイルアプリケーションで目標地点データ機能を使用するには、以下を行う必要があります。
 
 1. モバイル用Adobe Analyticsにアクセスできます。使用許諾契約書を確認するか、アドビのアカウント担当者にお問い合わせください。
-1. Adobe Campaignでモバイルアプリケーションをセットアップします。See [Setting up a mobile app in Campaign](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#setting-up-a-mobile-app-in-campaign).
-1. Adobe Mobile Servicesインターフェイスでモバイルアプリケーションをセットアップします。これにより、Adobe Mobile Servicesによって収集されたデータがAdobe Campaignに送信されるようになります。See [Configuring a mobile app in Adobe Mobile Services](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#configuring-a-mobile-app-in-adobe-mobile-services).
+1. Adobe Campaignでモバイルアプリケーションをセットアップします。詳しくは、キャンペーンでのモバイルアプリ [の設定を](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#setting-up-a-mobile-app-in-campaign)参照してください。
+1. Adobe Mobile Servicesインターフェイスでモバイルアプリケーションをセットアップします。これにより、Adobe Mobile Servicesによって収集されたデータがAdobe Campaignに送信されるようになります。Adobe Mobile Servicesでのモバイルアプリ [の設定](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#configuring-a-mobile-app-in-adobe-mobile-services)を参照してください。
 1. モバイルアプリケーションの具体的な設定を実行します。
 
    * Adobe Mobile Servicesインターフェイスからダウンロードした設定ファイルをモバイルアプリケーションにパッケージ化します。
-   * Experience Cloud Mobile SDKをモバイルアプリケーションに統合します。See [Integrating the SDK into a mobile application](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#integrating-the-sdk-into-a-mobile-application).
+   * Experience Cloud Mobile SDKをモバイルアプリケーションに統合します。"SDKと [モバイルアプリケーション](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#integrating-the-sdk-into-a-mobile-application)の統合」を参照してください。
 
-1. Adobe Mobile Servicesインターフェイスで目標地点を定義します。See [Defining Points of Interest in Adobe Mobile Services](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#defining-points-of-interest-in-adobe-mobile-services).
-1. モバイルアプリケーションのサブスクライバーから収集するデータを定義します。See [Collecting subscribers' Points of interest data](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#collecting-subscribers--points-of-interest-data).
-1. Adobe Campaignでモバイルアプリケーションおよび収集された場所データにアクセスすることを確認してください。See [Accessing mobile apps used to collect location data](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#accessing-mobile-apps-used-to-collect-location-data) and [Accessing collected location data](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#accessing-collected-location-data).
+1. Adobe Mobile Servicesインターフェイスで目標地点を定義します。Adobe Mobile Servicesでの目標地点 [の定義](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#defining-points-of-interest-in-adobe-mobile-services)を参照してください。
+1. モバイルアプリケーションのサブスクライバーから収集するデータを定義します。購読者の目標地点データ [の収集を参照](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#collecting-subscribers--points-of-interest-data)してください。
+1. Adobe Campaignでモバイルアプリケーションおよび収集された場所データにアクセスすることを確認してください。場所データの収集に使用するモバイルアプリ [および収集された場所](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#accessing-mobile-apps-used-to-collect-location-data) データ [へのアクセスを参照](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#accessing-collected-location-data)してください。
 
-### Setting up a mobile app in Adobe Campaign using SDK V4 {#setting-up-a-mobile-app-in-campaign}
+### SDK V4を使用したAdobe Campaignでのモバイルアプリの設定 {#setting-up-a-mobile-app-in-campaign}
 
 Adobe Campaignで目標地点データを収集できるようにするには、Adobe Campaignがデータを受信するモバイルアプリケーションを設定する必要があります。
 
-1. Click the **[!UICONTROL Adobe Campaign]** logo, in the top left corner, then select **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Mobile app]**.
-1. Click **[!UICONTROL Create]** to set up an application.
+1. 左上隅の **[!UICONTROL Adobe Campaign]** ロゴをクリックし、 **[!UICONTROL Administration]** / **[!UICONTROL Channels]** &gt; **[!UICONTROL Mobile app]**&#x200B;を選択します。
+1. をクリック **[!UICONTROL Create]** してアプリケーションを設定します。
 1. **[!UICONTROL Application name]** フィールドに名前を入力し、をクリック **[!UICONTROL Create]**&#x200B;します。
 
    **[!UICONTROL Device-specific settings]** セクションに入力しないでください。これは、プッシュ通知を受信するアプリケーションの設定にのみ適用されます。
 
-**[!UICONTROL Mobile application properties]** このセクションでは、2つのURLが表示されます。 **[!UICONTROL Collect PII endpoint]** および&#x200B;**[!UICONTROL Location Services endpoint]**&#x200B;これらはAdobe Mobile Servicesインターフェイスで使用されます。See [Configuring a mobile app in Adobe Mobile Services](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#configuring-a-mobile-app-in-adobe-mobile-services).
+**[!UICONTROL Mobile application properties]** このセクションでは、2つのURLが表示されます。 **[!UICONTROL Collect PII endpoint]** および&#x200B;**[!UICONTROL Location Services endpoint]**&#x200B;これらはAdobe Mobile Servicesインターフェイスで使用されます。Adobe Mobile Servicesでのモバイルアプリ [の設定](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#configuring-a-mobile-app-in-adobe-mobile-services)を参照してください。
 
-* The **[!UICONTROL Collect PII endpoint]** URL is used to collect the users' Experience Cloud IDs and registration tokens from the mobile application when it is launched. 電子メール、姓名、姓などの資格情報を使用してユーザーログにログインすると、このデータも収集され、ユーザーの登録トークンとAdobe Campaignプロファイルの調整に使用されます。
+* URLは **[!UICONTROL Collect PII endpoint]** 、起動時にモバイルアプリケーションからユーザーのExperience Cloud IDおよび登録トークンを収集するために使用されます。電子メール、姓名、姓などの資格情報を使用してユーザーログにログインすると、このデータも収集され、ユーザーの登録トークンとAdobe Campaignプロファイルの調整に使用されます。
 * **[!UICONTROL Location Services endpoint]** URLは、目標地点からのユーザーの緯度、経度、半径などの位置データを収集するために使用されます。
 
-You can now use these values in Adobe Mobile Services to finish the configuration, as explained in the [Configuring a mobile app in Adobe Mobile Services](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#configuring-a-mobile-app-in-adobe-mobile-services) section.
+Adobe Mobile [Services](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#configuring-a-mobile-app-in-adobe-mobile-services) の"Adobe Mobile Servicesでのモバイルアプリの設定」の説明に従って、これらの値をAdobe Mobile Servicesで使用できるようになりました。
 
 ![](assets/poi_mobile_app_properties.png)
 
-### Configuring a V4 mobile app in Adobe Mobile Services {#configuring-a-mobile-app-in-adobe-mobile-services}
+### Adobe Mobile ServicesでのV4モバイルアプリの設定 {#configuring-a-mobile-app-in-adobe-mobile-services}
 
 Adobe Mobile Servicesによって収集されたデータをAdobe Campaignに送信するには、Mobile Servicesインターフェイスでポストバックを設定する必要があります。
 
-You will need specific information that you can find in the mobile application parameters set in Adobe Campaign (see [Setting up a mobile app in Campaign](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#setting-up-a-mobile-app-in-campaign)):
+Adobe Campaignで設定されたモバイルアプリケーションパラメーターで特定できる情報が必要です（キャンペーンでのモバイルアプリ [の設定を参照](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#setting-up-a-mobile-app-in-campaign)）。
 
 * **[!UICONTROL IMS Organization ID]**
 * **[!UICONTROL Collect PII Endpoint]**
@@ -94,7 +94,7 @@ You will need specific information that you can find in the mobile application p
 1. [mobilemarketing.adobe.comにログイン](http://mobilemarketing.adobe.com/)します。
 1. アプリケーションを作成するか、既存のアプリケーションを選択します。
 1. **[!UICONTROL Manage App Settings]** ページに移動します。
-1. In the **Visitor ID Service ** section, check **Enable** and select your organization from the drop-down list. Click **Save**.
+1. **「訪問者IDサービス** »セクションで、?«有効&#x200B;****「 **保存**」をクリックします。
 
    >[!CAUTION]
    >
@@ -103,9 +103,9 @@ You will need specific information that you can find in the mobile application p
 1. **[!UICONTROL Manage Postbacks]**&#x200B;をクリックします。
 1. ポストバックを作成します。
 
-   * Select **[!UICONTROL PII]** as the **[!UICONTROL Postback Type]**.
-   * **[!UICONTROL URL]** フィールドで、Adobe Campaignインターフェイスで設定したモバイルアプリケーションから **[!UICONTROL Collect PII Endpoint]** URLをコピーし、それ前にサーバー名を付けます。See [Setting up a mobile app in Campaign](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#setting-up-a-mobile-app-in-campaign).
-   * Fill in the **[!UICONTROL Post Body]** field as follows:
+   * として選択 **[!UICONTROL PII]****[!UICONTROL Postback Type]**&#x200B;します。
+   * **[!UICONTROL URL]** フィールドで、Adobe Campaignインターフェイスで設定したモバイルアプリケーションから **[!UICONTROL Collect PII Endpoint]** URLをコピーし、それ前にサーバー名を付けます。詳しくは、キャンペーンでのモバイルアプリ [の設定を](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#setting-up-a-mobile-app-in-campaign)参照してください。
+   * 次のように **[!UICONTROL Post Body]** フィールドに入力します。
 
       iOSの場合:
 
@@ -139,9 +139,9 @@ You will need specific information that you can find in the mobile application p
 
 1. 2番目のポストバックを作成します。
 
-   * Select **[!UICONTROL Postback]** as the **[!UICONTROL Postback Type]**.
-   * **[!UICONTROL URL]** フィールドで、Adobe Campaignインターフェイスで設定したモバイルアプリケーションから **[!UICONTROL Location Services Endpoint]** URLをコピーし、それ前にサーバー名を付けます。See [Setting up a mobile app in Campaign](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#setting-up-a-mobile-app-in-campaign).
-   * Fill in the **[!UICONTROL Post Body]** field as follows:
+   * として選択 **[!UICONTROL Postback]****[!UICONTROL Postback Type]**&#x200B;します。
+   * **[!UICONTROL URL]** フィールドで、Adobe Campaignインターフェイスで設定したモバイルアプリケーションから **[!UICONTROL Location Services Endpoint]** URLをコピーし、それ前にサーバー名を付けます。詳しくは、キャンペーンでのモバイルアプリ [の設定を](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md#setting-up-a-mobile-app-in-campaign)参照してください。
+   * 次のように **[!UICONTROL Post Body]** フィールドに入力します。
 
       ```
       {
@@ -166,56 +166,56 @@ You will need specific information that you can find in the mobile application p
 
 >[!NOTE]
 >
->For detailed information on configuring postbacks, refer to the [Adobe Mobile Services documentation](https://marketing.adobe.com/resources/help/en_US/mobile/signals_.html).
+>ポストバックの設定について詳しくは、 [Adobe Mobile Servicesのドキュメント](https://marketing.adobe.com/resources/help/en_US/mobile/signals_.html)を参照してください。
 
-### Integrating the SDK into a mobile application {#integrating-the-sdk-into-a-mobile-application}
+### SDKとモバイルアプリケーションの統合 {#integrating-the-sdk-into-a-mobile-application}
 
 Mobileコアサービスのソフトウェア開発キット（SDK）を使用すると、モバイルアプリケーションをAdobe Campaignに統合できます。
 
-This step is described in this [page](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html).
+この手順については、 [このページ](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)で説明します。
 
-### Defining Points of Interest in Adobe Mobile Services {#defining-points-of-interest-in-adobe-mobile-services}
+### Adobe Mobile Servicesでの目標地点の定義 {#defining-points-of-interest-in-adobe-mobile-services}
 
 場所データの収集に使用する目標地点を定義するには:
 
 1. Adobe Mobile Servicesインターフェイスに移動します。
 1. アプリケーションを追加します。
 
-   For more information on managing applications in Mobile Services, refer to the [Adobe Mobile Services documentation](https://marketing.adobe.com/resources/help/en_US/mobile/t_new_app.html).
+   Mobile Servicesでのアプリケーションの管理について詳しくは、 [Adobe Mobile Servicesのドキュメント](https://marketing.adobe.com/resources/help/en_US/mobile/t_new_app.html)を参照してください。
 
 1. 目標地点を定義します。
 
-   For more information on managing Points of Interest, refer to the [Adobe Mobile Services documentation](https://marketing.adobe.com/resources/help/en_US/mobile/t_manage_points.html).
+   目標地点の管理について詳しくは、 [Adobe Mobile Servicesのドキュメント](https://marketing.adobe.com/resources/help/en_US/mobile/t_manage_points.html)を参照してください。
 
-### Collecting subscribers' Points of interest data {#collecting-subscribers--points-of-interest-data}
+### 購読者の目標地点データの収集 {#collecting-subscribers--points-of-interest-data}
 
 特定のカスタムリソースを使用すると、アプリケーションの購読者から収集するデータを定義できます。
 
-This step is described in the [Configuring a mobile application using SDK V4](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) page.
+この手順については、"SDK [V4](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) ページを使用したモバイルアプリケーションの設定」を参照してください。
 
 
-## Accessing mobile apps used to collect location data {#accessing-mobile-apps-used-to-collect-location-data}
+## 場所データの収集に使用するモバイルアプリへのアクセス {#accessing-mobile-apps-used-to-collect-location-data}
 
 Adobe Campaignで正常に作成されたアプリケーションにアクセスするには:
 
-1. Click the **[!UICONTROL Adobe Campaign]** logo, in the top left corner.
-1. Select **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Mobile app (SDK v4)]** or **[!UICONTROL Mobile app (AEP SDK)]** depending on the SDK.
+1. 左上隅の **[!UICONTROL Adobe Campaign]** ロゴをクリックします。
+1. 選択 **[!UICONTROL Administration]** / **[!UICONTROL Channels]** &gt; **[!UICONTROL Mobile app (SDK v4)]** またはSDK **[!UICONTROL Mobile app (AEP SDK)]** によって異なります。
 1. リストからモバイルアプリケーションを選択して、そのプロパティを表示します。
 
    ![](assets/poi_mobile_app_subscribers.png)
 
-A list of the application's subscribers is also displayed in the **[!UICONTROL Mobile application subscribers]** tab. 購読者とは、モバイルデバイスにアプリケーションをインストールしたユーザーのことです。Adobe Campaignデータベースプロファイルは、登録トークンで識別されます。
+アプリの購読者のリストもタブに **[!UICONTROL Mobile application subscribers]** 表示されます。購読者とは、モバイルデバイスにアプリケーションをインストールしたユーザーのことです。Adobe Campaignデータベースプロファイルは、登録トークンで識別されます。
 
-## Accessing collected location data {#accessing-collected-location-data}
+## 収集された場所データへのアクセス {#accessing-collected-location-data}
 
-Once the setup is done, the collected Points of Interest data is listed in the **[!UICONTROL Places]** tab of each profile. リストにアクセスするには:
+セットアップが完了すると、収集された目標地点データが各プロファイルの **[!UICONTROL Places]** タブに表示されます。リストにアクセスするには:
 
 1. プロファイルを選択します。
-1. Click the **[!UICONTROL Edit profile properties]** button on the right.
+1. 右側の **[!UICONTROL Edit profile properties]** ボタンをクリックします。
 1. **[!UICONTROL Places]** タブを選択します。
 
    ![](assets/poi_profile_places.png)
 
 現在のプロファイルの目標地点データが収集されます。場所データは、6か月間Adobe Campaignデータベースに保存されます。
 
-For more information on accessing and editing profiles, see [Profiles](../../audiences/using/about-profiles.md).
+プロファイルへのアクセスと編集について詳しくは [、プロファイル](../../audiences/using/about-profiles.md)を参照してください。
