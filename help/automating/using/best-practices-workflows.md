@@ -14,7 +14,7 @@ context-tags: ワークフロー、概要;ワークフロー、メイン
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3ed76cc48c94510b40e7a946031ec4331c6e0905
+source-git-commit: fd44c6e6d0f6a4ca75b01c99fbae6d9072dd7736
 
 ---
 
@@ -116,7 +116,7 @@ Adobe Campaignでは、タスクの大規模なスコープを実行するため
 
 ## リストの書き出し{#exporting-lists}
 
-書き出しリストオプションを使用すると、デフォルトで最大100,000行を書き出し、 **NMS_ ExportlistLimitオプションで定義**&#x200B;できます。このオプションは、 **管理** 者/ **アプリケーション設定** / **オプションの下の機能管理者で管理**できます。
+書き出しリストオプションを使用すると、デフォルトで最大100,000行を書き出し、 **NMS_ ExportlistLimitオプションで定義**&#x200B;できます。このオプションは、&gt;&gt;の下 **[!UICONTROL Administration]** の機能管理者によって管理でき **[!UICONTROL Application settings]****[!UICONTROL Options]**ます。
 詳しくは、「リスト [の書き出し](../../automating/using/exporting-lists.md)」を参照してください。
 
 ## トラブルシューティング{#workflow-troubleshooting}
@@ -133,15 +133,15 @@ Adobe Campaignには、ワークフローの問題をよりよく把握するた
 
 SQLクエリは、「ログ」タブで分析できます。
 
-1. ワークフローワークスペースで、「プロパティ **を編集」をクリック**&#x200B;します。
-1. **一般** / **実行**&#x200B;で、エンジンオプションで"SQLクエリ **を保存** 」および「 **実行»?のSQLクエリを確認し、?«確認?******
+1. ワークフローワークスペースで、をクリック **[!UICONTROL Edit properties]**&#x200B;します。
+1. In **[!UICONTROL General]** &gt; **[!UICONTROL Execution]**， check and **[!UICONTROL Save SQL queries in the log]****[!UICONTROL Execute in the engine]** options and click **[!UICONTROL Confirm]**.
 
 **ログにSQLクエリを表示するには:**
-1. **「ログとタスク**」をクリックします。
-1. **「ログ** 」タブで **、検索** パネルを開きます。
-1. "SQLログ **のみ表示」をチェック**&#x200B;します。
+1. **[!UICONTROL Log and Tasks]**&#x200B;をクリックします。
+1. **[!UICONTROL Logs]** タブで **[!UICONTROL Search]** パネルを開きます。
+1. チェック **[!UICONTROL Display SQL logs only]**&#x200B;してください。
 
-クエリーがログの **"Message** 」列に表示されます。
+クエリーがログの **[!UICONTROL Message]** 列に表示されます。
 
 ### 配信ログの使用{#using-delivery-logs}
 
