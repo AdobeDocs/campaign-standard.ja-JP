@@ -14,12 +14,12 @@ context-tags: ワークフロー、概要;ワークフロー、メイン
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e02ca92032c298fe1b5dbc7094de201d0a106be5
+source-git-commit: 3ed76cc48c94510b40e7a946031ec4331c6e0905
 
 ---
 
 
-# Workflow best practices{#workflow-best-practices}
+# ワークフローのベストプラクティス{#workflow-best-practices}
 
 Adobe Campaignでは、タスクの大規模なスコープを実行するためのすべてのタイプのワークフローを設定できます。ただし、ワークフローを設計して実行するときは、不正な実装として細心の注意を払う必要があるので、パフォーマンス、エラー、プラットフォームの問題につながる可能性があります。ベストプラクティスとトラブルシューティングのヒントの一覧を参照できます。
 
@@ -27,7 +27,7 @@ Adobe Campaignでは、タスクの大規模なスコープを実行するため
 >
 >ワークフローデザインと実行は、Adobe Campaignの上級ユーザーが実行する必要があります。
 
-## Naming{#naming}
+## 命名{#naming}
 
 ワークフローのトラブルシューティングを行うには、ワークフローに名前を付けてラベルを付けることをお勧めします。ワークフローの説明フィールドに入力して、演算子が簡単に理解できるようにプロセスを要約します。
 ワークフローが複数のワークフローを含むプロセスの一部である場合は、ラベルを入力して、明確に並べることができます。
@@ -40,13 +40,13 @@ Adobe Campaignでは、タスクの大規模なスコープを実行するため
 * 010-エクスポート-配信ログの書き出し
 * 011-エクスポート-トラッキングログの書き出し
 
-## Duplicating workflows{#duplicating-workflows}
+## ワークフローの複製{#duplicating-workflows}
 
-ワークフローを複製できます。In the **[!UICONTROL Marketing Activities]**, hover over the workflow and click **[!UICONTROL Duplicate element]**. 複製が完了すると、ワークフローの変更はワークフローのコピーまで持ち越されません。ワークフローのコピーを編集できます。
+ワークフローを複製できます。で **[!UICONTROL Marketing Activities]**、ワークフローの上にマウスポインターを置いて、をクリック **[!UICONTROL Duplicate element]**&#x200B;します。複製が完了すると、ワークフローの変更はワークフローのコピーまで持ち越されません。ワークフローのコピーを編集できます。
 
 ![](assets/duplicating_workflow.png)
 
-## Execution{#execution}
+## 実行{#execution}
 
 ### ワークフロー数
 
@@ -66,15 +66,15 @@ Adobe Campaignでは、タスクの大規模なスコープを実行するため
 
 停止していないトランジションを含むワークフローは実行できます。これにより、警告メッセージが生成され、ワークフローが一時停止しますが、トランジションに到達すると、エラーが発生しません。また、デザインを完了せずにワークフローを開始し、進めることもできます。
 
-For more information, refer to [Executing workflows](../../automating/using//executing-a-workflow.md).
+詳しくは、「ワークフロー [の実行](../../automating/using//executing-a-workflow.md)」を参照してください。
 
-## Activity{#activity}
+## アクティビティ{#activity}
 
 ### ワークフローデザイン
 
-To ensure that the workflow ends properly, use an **[!UICONTROL End activity]**. ワークフローの最後のトランジションはそのままにしておいてください。
+ワークフローが正しく終了するようにするには、を使用 **[!UICONTROL End activity]**&#x200B;してください。ワークフローの最後のトランジションはそのままにしておいてください。
 
-To access the detail view of the transitions, check the **[!UICONTROL Keep interim results]** option in the Execution section of the workflow properties.
+トランジションの詳細ビューにアクセスするには、ワークフローのプロパティの「実行」セクションで **[!UICONTROL Keep interim results]** オプションを確認します。
 
 >[!CAUTION]
 >
@@ -83,57 +83,76 @@ To access the detail view of the transitions, check the **[!UICONTROL Keep inter
 ![](assets/keep_interim_best_practices.png)
 
 
-### Labelling activities{#activity-labeling}
+### ワークリングアクティビティ{#activity-labeling}
 
 ワークフローの開発時に、すべてのAdobe Campaignオブジェクトのように、すべてのアクティビティに対して名前が生成されます。アクティビティの名前はツールによって生成され、編集できませんが、設定時に明示的な名前でラベル付けすることをお勧めします。
 
-### Duplicating activities{#activity-duplicating}
+### アクティビティの複製{#activity-duplicating}
 
-既存のアクティビティを複製するには、コピー&amp;ペーストを使用できます。このようにして、当初定義されていた設定を維持します。For more information, refer to [Duplicating workflow activities](../../automating/using/workflow-interface.md).
+既存のアクティビティを複製するには、コピー&amp;ペーストを使用できます。このようにして、当初定義されていた設定を維持します。詳しくは、ワークフローアクティビティ [の複製](../../automating/using/workflow-interface.md)を参照してください。
 
-### Scheduler activity{#acheduler-activity}
+### スケジューラーアクティビティ{#acheduler-activity}
 
-When building your workflow, only use one **[!UICONTROL Scheduler activity]** per branch. ワークフローの同じブランチに複数のスケジューラー（相互にリンクされている）がある場合、実行するタスクの数は指数的に乗算され、データベースにかなり負荷がかかります。
+ワークフローを作成するときは、ブランチごとに1つ **[!UICONTROL Scheduler activity]** だけ使用します。ワークフローの同じブランチに複数のスケジューラー（相互にリンクされている）がある場合、実行するタスクの数は指数的に乗算され、データベースにかなり負荷がかかります。
 
-You can preview the next ten executions of your workflows by clicking **[!UICONTROL Preview next executions]**.
+クリック **[!UICONTROL Preview next executions]**&#x200B;して、ワークフローの次の10回の実行をプレビューできます。
 
 ![](assets/preview_scheduler.png)
 
-For more information, refer to [Scheduler activity](../../automating/using/scheduler.md).
+詳しくは [、スケジューラーアクティビティ](../../automating/using/scheduler.md)を参照してください。
 
-## Calling workflow with parameters{#workflow-with-parameters}
+## パラメーターを使用したワークフローの呼び出し{#workflow-with-parameters}
 
-Make sure that the name and number of parameters are identical to what is defined when calling the workflow (see [Defining the parameters when calling the workflow](../../automating/using/calling-a-workflow-with-external-parameters.md#defining-the-parameters-when-calling-the-workflow)). パラメーターのタイプも、期待される値と一致する必要があります。
+ワークフローの呼び出し時に定義されているパラメーターと同じ名前と数が使用されていることを確認してください（ワークフローの呼び出し時にパラメーター [の定義を参照](../../automating/using/calling-a-workflow-with-external-parameters.md#defining-the-parameters-when-calling-the-workflow)してください）。パラメーターのタイプも、期待される値と一致する必要があります。
 
-Make sure that all the parameters have been declared in the **[!UICONTROL External signal activity]**. そうしないと、アクティビティの実行時にエラーが発生します。
+すべてのパラメーターがで宣言されていることを確認 **[!UICONTROL External signal activity]**&#x200B;してください。そうしないと、アクティビティの実行時にエラーが発生します。
 
-For more information, see [Calling a workflow with external parameters](../../automating/using/calling-a-workflow-with-external-parameters.md).
+詳しくは、「外部パラメーターを使用したワークフロー [の呼び出し](../../automating/using/calling-a-workflow-with-external-parameters.md)」を参照してください。
 
-## Exporting packages{#exporting-packages}
+## パッケージの書き出し{#exporting-packages}
 
 パッケージをエクスポートするには、エクスポートされたリソースにデフォルトIDを含めることはできません。そのため、エクスポート可能なリソースのIDは、Adobe Campaign Standardの標準として提供されているテンプレートとは異なる名前を使用して変更する必要があります。
-For more information, see [Managing packages](../../automating/using/managing-packages.md).
+詳しくは、パッケージ [の管理](../../automating/using/managing-packages.md)を参照してください。
 
-## Exporting lists{#exporting-lists}
+## リストの書き出し{#exporting-lists}
 
-The export list option allows you to export a maximum of 100,000 lines by default and defined by the **Nms_ExportListLimit option**. This option can be managed by the functional administrator, under **Administration** &gt; **Application settings** &gt; **Options**.
-For more information, see [Exporting lists](../../automating/using/exporting-lists.md).
+書き出しリストオプションを使用すると、デフォルトで最大100,000行を書き出し、 **NMS_ ExportlistLimitオプションで定義**&#x200B;できます。このオプションは、 **管理** 者/ **アプリケーション設定** / **オプションの下の機能管理者で管理**できます。
+詳しくは、「リスト [の書き出し](../../automating/using/exporting-lists.md)」を参照してください。
 
-## Troubleshooting{#workflow-troubleshooting}
+## トラブルシューティング{#workflow-troubleshooting}
 
 Adobe Campaignには、ワークフローの問題をよりよく把握するための様々なログが用意されています。
 
-### Using workflow logs{#using-workflow-logs}
+### ワークフローログの使用{#using-workflow-logs}
 
-ワークフローログにアクセスして、アクティビティの実行を監視できます。このインデックスは、実行時に実行される操作および実行エラーを時系列で表します。
-For more information, refer to [Monitoring workflow execution](../../automating/using/executing-a-workflow.md#monitoring).
+ワークフローログにアクセスして、アクティビティの実行を監視できます。このインデックスは、実行時に実行される操作および実行エラーを時系列で表します。「ログ」タブは、選択したすべてのアクティビティの実行の履歴に含まれます。
+「タスク」タブでは、アクティビティの実行シーケンスの詳細が表示されます。アクティビティに関する詳細情報を取得するには、タスクをクリックします。
+詳しくは [、「監視ワークフローの実行](../../automating/using/executing-a-workflow.md#monitoring)」を参照してください。
 
-### Using delivery logs{#using-delivery-logs}
+#### データ管理アクティビティのトラブルシューティング{#troubleshooting-data-management-activities}
+
+SQLクエリは、「ログ」タブで分析できます。
+
+1. ワークフローワークスペースで、「プロパティ **を編集」をクリック**&#x200B;します。
+1. **一般** / **実行**&#x200B;で、エンジンオプションで"SQLクエリ **を保存** 」および「 **実行»?のSQLクエリを確認し、?«確認?******
+
+**ログにSQLクエリを表示するには:**
+1. **「ログとタスク**」をクリックします。
+1. **「ログ** 」タブで **、検索** パネルを開きます。
+1. "SQLログ **のみ表示」をチェック**&#x200B;します。
+
+クエリーがログの **"Message** 」列に表示されます。
+
+### 配信ログの使用{#using-delivery-logs}
 
 配信ログを使用すると、配信の成功を監視できます。除外ログは、送信の準備中に除外されたメッセージを返します。ログを送信すると、各プロファイルの配信ステータスが提供されます。
-For more information, refer to [Understanding delivery failures](../../sending/using/understanding-delivery-failures.md).
+詳しくは、配信エラー [について](../../sending/using/understanding-delivery-failures.md)を参照してください。
 
-### Using delivery alerting{#delivery-alerting}
+### 配信に関するアラートの使用{#delivery-alerting}
 
 配信の警告機能は、ユーザーグループが配信の実行に関する情報を含む通知を自動的に受信できるアラート管理システムです。
-For more information, refer to [Delivery alerting](../../sending/using/receiving-alerts-when-failures-happen.md).
+詳しくは [、配信の警告](../../sending/using/receiving-alerts-when-failures-happen.md)を参照してください。
+
+**関連トピック:**
+
+* [エラー管理](../../automating/using/executing-a-workflow.md#error-management)
