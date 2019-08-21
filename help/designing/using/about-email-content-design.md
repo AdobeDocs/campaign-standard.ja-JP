@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f- ab48- bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 86600fe800477442e274429e1ef9cd299c33026a
+source-git-commit: 68d9732efb55b9d5363218e5c35204892f16d983
 
 ---
 
@@ -125,7 +125,6 @@ source-git-commit: 86600fe800477442e274429e1ef9cd299c33026a
 ### 電子メールデザイナーの制限事項 {#email-designer-limitations}
 
 * フラグメントでパーソナライゼーションフィールドを使用することはできません。フラグメントについて詳しくは、 [この節](../../designing/using/defining-the-email-structure.md#about-fragments)を参照してください。
-* 電子メールデザイナー内で編集中の電子メールの一部のコンテンツとして直接保存することはできません。そのコンテンツに対応するHTMLを新しいフラグメントにコピー&amp;ペーストする必要があります。詳しくは、コンテンツ [をフラグメントとして保存](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment)を参照してください。
 * スタイルを編集する場合、ほとんどの電子メールクライアントで正式にサポートされているWebフォントのみが使用できます。
 * スタイルは、今後再利用するためにテーマとして保存することはできません。ただし、CSSスタイルはコンテンツテンプレートまたは電子メールで保存できます。スタイルについて詳しくは、 [この節](../../designing/using/editing-email-styles.md)を参照してください。
 
