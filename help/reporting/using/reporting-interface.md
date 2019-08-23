@@ -14,12 +14,12 @@ discoiquuid: 14d86b4f-2782-48ec-8968-393a6de4f853
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e9a4d99ddf311898c48b2b352fa13f5b59ed1fbe
+source-git-commit: 782a5f89b0361f1cbe59c9b353ca90dec90c3906
 
 ---
 
 
-# Reporting interface{#reporting-interface}
+# レポートインターフェイス{#reporting-interface}
 
 上部のツールバーを使用すると、レポートを変更、保存または印刷できます。
 
@@ -49,8 +49,9 @@ source-git-commit: e9a4d99ddf311898c48b2b352fa13f5b59ed1fbe
 * [パネルの追加](../../reporting/using/adding-panels.md)
 * [ビジュアライゼーションの追加](../../reporting/using/adding-visualizations.md)
 * [コンポーネントの追加](../../reporting/using/adding-components.md)
+* [電子メールを介したレポートの共有者との自動的な共有](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)
 
-## Tabs {#tabs}
+## タブ {#tabs}
 
 左側のタブでは、必要に応じてレポートを作成し、データをフィルターできます。
 
@@ -62,7 +63,7 @@ source-git-commit: e9a4d99ddf311898c48b2b352fa13f5b59ed1fbe
 * **[!UICONTROL Visualizations]**:選択項目をドラッグ&amp;ドロップして、グラフィカルディメンションをレポートに表示します。詳しくは、ビジュアライゼーションの追加セクションを参照してください。
 * **[!UICONTROL Components]**:レポートをカスタマイズして、様々なディメンション、指標、セグメント、期間を使用できます。
 
-## Toolbar {#toolbar}
+## ツールバー {#toolbar}
 
 ツールバーはワークスペースの上にあります。異なるタブで構成されているので、レポートを変更、保存、共有、印刷することができます。
 
@@ -74,7 +75,7 @@ source-git-commit: e9a4d99ddf311898c48b2b352fa13f5b59ed1fbe
 * [ビジュアライゼーションの追加](../../reporting/using/adding-visualizations.md)
 * [コンポーネントの追加](../../reporting/using/adding-components.md)
 
-### Project tab {#project-tab}
+### 「プロジェクト」タブ {#project-tab}
 
 ![](assets/tab_project.png)
 
@@ -86,7 +87,7 @@ source-git-commit: e9a4d99ddf311898c48b2b352fa13f5b59ed1fbe
 * **CSVをダウンロード**:レポートをCSVファイルにエクスポートします。
 * **[!UICONTROL Print]**:レポートを印刷します。
 
-### Edit tab {#edit-tab}
+### 「編集」タブ {#edit-tab}
 
 ![](assets/tab_edit.png)
 
@@ -95,7 +96,7 @@ source-git-commit: e9a4d99ddf311898c48b2b352fa13f5b59ed1fbe
 * **元に戻す**:ダッシュボードの最後のアクションをキャンセルします。
 * **すべてクリア**:ダッシュボードのすべてのパネルを削除します。
 
-### Insert tab {#insert-tab}
+### 「挿入」タブ {#insert-tab}
 
 ![](assets/tab_insert.png)
 
@@ -106,7 +107,7 @@ source-git-commit: e9a4d99ddf311898c48b2b352fa13f5b59ed1fbe
 * **改行**:ダッシュボードに新しい折れ線グラフを追加します。
 * **New Bar**:ダッシュボードに新しい棒グラフを追加します。
 
-### Share tab {#share-tab}
+### 「共有」タブ {#share-tab}
 
 ![](assets/tab_share_1.png)
 
@@ -119,7 +120,7 @@ source-git-commit: e9a4d99ddf311898c48b2b352fa13f5b59ed1fbe
       ![](assets/tab_share_4.png)
 
    1. 電子メールの受信者を選択するには、フィールドをクリックしてドロップダウンで選択するか、電子メールアドレスを入力します。
-   1. Check **[!UICONTROL Show scheduling options]** if you want to send recurring emails. This can also be done by selecting **[!UICONTROL Send Report on schedule]** in the **[!UICONTROL Share]** tab.
+   1. 定期的な電子メール送信を行うかどう **[!UICONTROL Show scheduling options]** かをチェックします。これは、タブで選択 **[!UICONTROL Send Report on schedule]** することでも実行 **[!UICONTROL Share]** できます。
    1. **[!UICONTROL Send now]**&#x200B;をクリックします。受信者はレポートを添付して電子メールを受信します。
 
 * **[!UICONTROL Send report on schedule]**:レポートをスケジュールし、受信者に繰り返し電子メールを送信します。
@@ -129,12 +130,12 @@ source-git-commit: e9a4d99ddf311898c48b2b352fa13f5b59ed1fbe
 
       ![](assets/tab_share_5.png)
 
-   1. Select your starting and ending date to configure your email validity in the **[!UICONTROL Starting on]** and **[!UICONTROL Ending on]** fields.
+   1. 開始日と終了日を選択して、電子メールの有効期間を **[!UICONTROL Starting on]****[!UICONTROL Ending on]** フィールドに設定します。
    1. 電子メールの送信頻度を選択します。
 
       ![](assets/tab_share_2.png)
 
-   1. Click **[!UICONTROL Send on schedule]**, your recipients will receive your recurring email depending on the chosen frequency.
+   1. をクリック **[!UICONTROL Send on schedule]**&#x200B;すると、選択した頻度に応じて、定期的な電子メールが受信者に送信されます。
 
 * **[!UICONTROL Scheduled reports]**:すべての予定レポートを検索して設定します。
 
@@ -142,8 +143,12 @@ source-git-commit: e9a4d99ddf311898c48b2b352fa13f5b59ed1fbe
 
       ![](assets/tab_share_3.png)
 
-   1. If you need to delete one of your scheduled report, select the scheduled report you want to delete then click **[!UICONTROL Delete the section]**.
+   1. 予定レポートのいずれかを削除する必要がある場合は、削除する予定レポートを選択して、をクリック **[!UICONTROL Delete the section]**&#x200B;します。
    1. 予定レポートを設定またはチェックするには、変更する必要のあるレポートを直接クリックします。
    1. **[!UICONTROL Edit scheduled report]** ウィンドウが表示され、必要に応じて電子メールの受信者または頻度を変更できるようになりました。
 
 ターゲットユーザーは、自分のインボックスにレポートを直接添付した電子メールを受信します。ユーザーは、定期的な電子メールごとに購読解除リンクを使用して、定期的な電子メールの受信を停止することができます。
+
+**関連トピック:**
+
+* [電子メールを介したレポートの共有者との自動的な共有](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)
