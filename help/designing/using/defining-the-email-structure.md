@@ -14,21 +14,21 @@ discoiquuid: 207fdf6d-165a-41af- ad53- ba97d3403b62
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7de6436bbd4f1cc5032e13414f7337f637bf608a
+source-git-commit: c2316d35c582efc8a3cc9be5de810c5dbe3f5e97
 
 ---
 
 
-# Defining the email structure{#defining-the-email-structure}
+# 電子メール構造の定義{#defining-the-email-structure}
 
-## Editing the email structure {#editing-the-email-structure}
+## 電子メール構造の編集 {#editing-the-email-structure}
 
 電子メールデザイナーを使用すると、電子メールの構造を簡単に定義できます。シンプルなドラッグ&amp;ドロップ操作で構造要素を追加および移動することで、電子メールの形を秒単位でデザインできます。
 
 電子メールの構造を編集するには:
 
 1. 既存のコンテンツを開くか、新しい電子メールコンテンツを作成します。
-1. Access the **[!UICONTROL Structure components]** by selecting the **+** icon on the left.
+1. 左側の **[!UICONTROL Structure components]****+** アイコンを選択してアクセスします。
 
    ![](assets/email_designer_structure.png)
 
@@ -54,20 +54,20 @@ source-git-commit: 7de6436bbd4f1cc5032e13414f7337f637bf608a
 
 構造を定義すると、コンテンツフラグメントやコンポーネントを電子メールに追加できます。
 
-## Adding fragments and content components {#adding-fragments-and-content-components}
+## フラグメントとコンテンツコンポーネントの追加 {#adding-fragments-and-content-components}
 
 電子メールデザイナーを使用して、電子メールに構造コンポーネントを追加すると、そのコンテンツを定義できます。そのためには、各構造コンポーネント内に要素を追加する必要があります。
 
-There are two categories of content elements that you can use: **fragments** and **content components**.
+使用できるコンテンツ要素には、次の2つのカテゴリがあります。 **フラグメント** と **コンテンツコンポーネント**
 
-### About fragments {#about-fragments}
+### フラグメントについて {#about-fragments}
 
 フラグメントは、1つまたは複数の電子メールで参照できる再利用可能なコンポーネントです。
 
 電子メールデザイナーのフラグメントを最高の形で使用するには:
 
-* 独自のフラグメントを作成します。See [Creating a content fragment](../../designing/using/defining-the-email-structure.md#creating-a-content-fragment) and [Saving content as a fragment](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment).
-* 電子メールで必要な回数だけ使用します。See [Inserting elements into an email](../../designing/using/defining-the-email-structure.md#inserting-elements-into-an-email).
+* 独自のフラグメントを作成します。コンテンツフラグメント [の作成](../../designing/using/defining-the-email-structure.md#creating-a-content-fragment) およびコンテンツ [をフラグメントとして保存を参照](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment)してください。
+* 電子メールで必要な回数だけ使用します。詳しくは、電子メールへの要素 [の挿入を](../../designing/using/defining-the-email-structure.md#inserting-elements-into-an-email)参照してください。
 * フラグメントを編集すると、変更が同期されます。そのフラグメントを含むすべての電子メール（準備または送信されていない）に自動的に反映されます。
 
 電子メールに追加すると、フラグメントはデフォルトでロックされます。特定の電子メール用にフラグメントを変更する場合は、使用されている電子メールの中でそのフラグメントをロック解除して、元のフラグメントと同期を解除できます。変更は同期されません。
@@ -76,9 +76,9 @@ There are two categories of content elements that you can use: **fragments** and
 
 ![](assets/des_unlocking_fragment.png)
 
-このフラグメントは独立したコンポーネントになり、現在のフラグメントにリンクされません。その後、他のコンテンツコンポーネントとして編集できます。See [About content components](../../designing/using/defining-the-email-structure.md#about-content-components).
+このフラグメントは独立したコンポーネントになり、現在のフラグメントにリンクされません。その後、他のコンテンツコンポーネントとして編集できます。コンテンツコンポーネント [について](../../designing/using/defining-the-email-structure.md#about-content-components)を参照してください。
 
-### About content components {#about-content-components}
+### コンテンツコンポーネントについて {#about-content-components}
 
 コンテンツコンポーネントは生の空のコンポーネントで、一度電子メールに配置すると編集できます。
 
@@ -88,35 +88,35 @@ Email Designerの利用可能なコンポーネントのリストを次に示し
 
 * **[!UICONTROL Button]**
 
-   If you need to use multiple buttons, rather than editing each button from scratch, you can duplicate the **[!UICONTROL Button]** component using the contextual toolbar.
+   各ボタンを編集する代わりに、複数のボタンを使用する必要がある場合は、コンテキストツールバーを使用して **[!UICONTROL Button]** コンポーネントを複製できます。
 
-   また、ボタンをフラグメントに保存して、再利用することもできます。For more on this, see [Creating a content fragment](../../designing/using/defining-the-email-structure.md#creating-a-content-fragment) and [Saving content as a fragment](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment).
+   また、ボタンをフラグメントに保存して、再利用することもできます。これについて詳しくは、コンテンツフラグメント [の作成](../../designing/using/defining-the-email-structure.md#creating-a-content-fragment) およびコンテンツ [をフラグメントとして保存](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment)を参照してください。
 
 * **[!UICONTROL Carousel]**
 
-   For more on this, see [Using the carousel component](../../designing/using/defining-the-email-structure.md#using-the-carousel-component).
+   これについて詳しくは、カルーセルコンポーネント [の使用](../../designing/using/defining-the-email-structure.md#using-the-carousel-component)を参照してください。
 
 * **[!UICONTROL Divider]**
 * **[!UICONTROL Html]**
 
-   既存のHTMLの各部をコピーするには、このコンポーネントを使用します。これにより、無料のモジュール化HTMLコンポーネントを作成できます。
+   このコンポーネントを使用して、既存のHTMLの様々な部分をコピー&amp;ペーストします。これにより、無料のモジュール化HTMLコンポーネントを作成できます。
 
    >[!NOTE]
    >
-   >無料のHTMLコンポーネントは、限られたオプションで編集できます。If all styles are not inlined, make sure to add the proper CSS in the **head** section of the HTML code, otherwise the email will not be responsive. Use the **[!UICONTROL Preview]** button to test the responsiveness of your content (see [Previewing messages](../../sending/using/previewing-messages.md)).
+   >無料のHTMLコンポーネントは、限られたオプションで編集できます。すべてのスタイルがインラインでない場合、HTMLコードの **head** セクションに適切なCSSを追加してください。そうしないと、電子メールはレスポンシブになりません。コンテンツの応答性をテストする **[!UICONTROL Preview]** には、このボタンを使用します（メッセージ [](../../sending/using/previewing-messages.md)のプレビューを参照）。
 
 * **[!UICONTROL Image]**
 * **[!UICONTROL Social]**
 * **[!UICONTROL Text]**
 
-#### Using the carousel component {#using-the-carousel-component}
+#### カルーセルコンポーネントの使用 {#using-the-carousel-component}
 
-1. Drag and drop the **[!UICONTROL Carousel]** component inside a structure component.
+1. コンポーネントを **[!UICONTROL Carousel]** 構造コンポーネント内にドラッグ&amp;ドロップします。
 1. コンピューターから画像を選択します。
 
    ![](assets/des_carousel_browse.png)
 
-1. From the **[!UICONTROL Settings]** pane, set the number of thumbnails that you want in the carousel.
+1. パネルから **[!UICONTROL Settings]** 、カルーセルに含めるサムネールの数を設定します。
 1. コンピューターからフォールバック画像を選択します。
 
    ![](assets/des_carousel_fallback.png)
@@ -127,13 +127,13 @@ Email Designerの利用可能なコンポーネントのリストを次に示し
    >
    >カルーセルコンポーネントは、次の電子メールプラットフォームと互換性があります。Apple Mail7、Apple Mail8、Outlook2011for Mac、Mozilla2016for Mac、Mozilla Thandber、iPadおよびiPad mini iOS、iPhone iOS、Android、AOL（Chrome、Firefox）。
 
-1. Select **[!UICONTROL Fallback view]** to display the fallback image in the Email Designer.
+1. 電子 **[!UICONTROL Fallback view]** メールデザイナーにフォールバック画像を表示する場合に選択します。
 
-### Inserting elements into an email {#inserting-elements-into-an-email}
+### 電子メールへの要素の挿入 {#inserting-elements-into-an-email}
 
-電子メールのコンテンツを定義するには、事前に配置した構造コンポーネントにコンテンツ要素を追加します。See [Editing the email structure](../../designing/using/defining-the-email-structure.md#editing-the-email-structure).
+電子メールのコンテンツを定義するには、事前に配置した構造コンポーネントにコンテンツ要素を追加します。詳しくは、電子メール構造 [の編集](../../designing/using/defining-the-email-structure.md#editing-the-email-structure)を参照してください。
 
-1. Access the content elements by selecting the **+** icon on the left. [フラグメントまた](../../designing/using/defining-the-email-structure.md#about-fragments) は [コンテンツコンポーネントを選択](../../designing/using/defining-the-email-structure.md#about-content-components)します。
+1. 左側の **+** アイコンを選択して、コンテンツ要素にアクセスします。[フラグメントまた](../../designing/using/defining-the-email-structure.md#about-fragments) は [コンテンツコンポーネントを選択](../../designing/using/defining-the-email-structure.md#about-content-components)します。
 1. 追加するフラグメントのラベルまたはラベルの一部が既にわかっている場合は、そのラベルを検索できます。
 
    ![](assets/email_designer_fragmentsearch.png)
@@ -150,30 +150,30 @@ Email Designerの利用可能なコンポーネントのリストを次に示し
 
    >[!NOTE]
    >
-   >フラグメントは、電子メールに追加するときにデフォルトでロックされます。特定の電子メール用にフラグメントを変更したり、フラグメント内で変更を直接行ったりする場合は、元のフラグメントと同期を解除できます。See [About fragments](../../designing/using/defining-the-email-structure.md#about-fragments).
+   >フラグメントは、電子メールに追加するときにデフォルトでロックされます。特定の電子メール用にフラグメントを変更したり、フラグメント内で変更を直接行ったりする場合は、元のフラグメントと同期を解除できます。フラグメント [について](../../designing/using/defining-the-email-structure.md#about-fragments)を参照してください。
 
 1. 電子メールに追加する必要のあるすべての要素について、この手順を繰り返します。
 1. 電子メールを保存します。
 
-電子メール構造が設定されると、各コンテンツ要素のスタイルを編集できます。See [Editing an element](../../designing/using/editing-email-styles.md#editing-an-element).
+電子メール構造が設定されると、各コンテンツ要素のスタイルを編集できます。詳しくは、要素 [の編集を参照](../../designing/using/editing-email-styles.md#editing-an-element)してください。
 
 >[!NOTE]
 >
->フラグメントが変更されると、そのフラグメントが使用されている電子メールに変更が自動的に反映されます。For more on this, see [About fragments](../../designing/using/defining-the-email-structure.md#about-fragments).
+>フラグメントが変更されると、そのフラグメントが使用されている電子メールに変更が自動的に反映されます。これについて詳しくは、フラグメント [について](../../designing/using/defining-the-email-structure.md#about-fragments)を参照してください。
 
-### Creating a content fragment {#creating-a-content-fragment}
+### コンテンツフラグメントの作成 {#creating-a-content-fragment}
 
 独自のコンテンツフラグメントを作成して、必要に応じて1つ以上の電子メールで使用することができます。
 
 1. **[!UICONTROL Resources]** に **[!UICONTROL Content templates & fragments]** 移動して、をクリック **[!UICONTROL Create]**&#x200B;します。
-1. Click the email label to access the **[!UICONTROL Properties]** tab of the Email Designer.
+1. 電子メールのラベルをクリックして、電子メールデザイナーの **[!UICONTROL Properties]** タブにアクセスします。
 1. 認識できるラベルを指定し、次のパラメーターを選択して、後で新しい電子メールでフラグメントを探します。
 
-   * Because fragments are only compatible with emails, select **[!UICONTROL Delivery]** from the **[!UICONTROL Content type]** drop-down list.
+   * フラグメントは電子メールとのみ互換性があるので、ドロップダウンリスト **[!UICONTROL Delivery]****[!UICONTROL Content type]** から選択します。
    * **[!UICONTROL Fragment]****[!UICONTROL HTML type]** このコンテンツを電子メールでフラグメントとして使用できるようにするには、ドロップダウンリストから選択します。
    ![](assets/email_designer_createfragment.png)
 
-1. 必要に応じて、フラグメントのサムネールとして使用する画像を設定できます。Select it from the **[!UICONTROL Thumbnail]** tab of the template properties.
+1. 必要に応じて、フラグメントのサムネールとして使用する画像を設定できます。テンプレートプロパティの **[!UICONTROL Thumbnail]** タブから選択します。
 
    ![](assets/email_designer_createfragment_thumbnail.png)
 
@@ -183,13 +183,13 @@ Email Designerの利用可能なコンポーネントのリストを次に示し
 1. 必要に応じてカスタマイズできる構造コンポーネントとコンテンツコンポーネントを追加します。
 1. 編集後、フラグメントを保存します。
 
-このフラグメントは、電子メールデザイナーで作成された電子メールで使用できるようになりました。It appears under the **[!UICONTROL Fragments]** section of the Palette.
+このフラグメントは、電子メールデザイナーで作成された電子メールで使用できるようになりました。パレットのセクションの **[!UICONTROL Fragments]** 下に表示されます。
 
 >[!NOTE]
 >
->電子メールで使用しない限り、フラグメント内にパーソナライゼーションフィールドを挿入することはできません。これを行うには、このフラグメントのロックを解除する必要があります。See [About fragments](../../designing/using/defining-the-email-structure.md#about-fragments).
+>電子メールで使用しない限り、フラグメント内にパーソナライゼーションフィールドを挿入することはできません。これを行うには、このフラグメントのロックを解除する必要があります。フラグメント [について](../../designing/using/defining-the-email-structure.md#about-fragments)を参照してください。
 
-### Saving content as a fragment {#saving-content-as-a-fragment}
+### フラグメントとしてのコンテンツの保存 {#saving-content-as-a-fragment}
 
 電子メールを電子メールで編集する際に、その電子メールの一部をフラグメントとして直接保存できます。
 
@@ -197,7 +197,7 @@ Email Designerの利用可能なコンポーネントのリストを次に示し
 >
 >フラグメント化フィールド、動的コンテンツ、または他のフラグメントを含む構造をフラグメントとして保存することはできません。
 
-1. When editing an email in the Email Designer, select **[!UICONTROL Save as fragment]** from the main toolbar.
+1. 電子メールの編集時に、メインツールバーから選択 **[!UICONTROL Save as fragment]** します。
 
    ![](assets/email_designer_save-as-fragment.png)
 
@@ -211,11 +211,11 @@ Email Designerの利用可能なコンポーネントのリストを次に示し
 
 1. **[!UICONTROL Create]**&#x200B;をクリックします。
 
-1. Add a label and a description if needed, then click **[!UICONTROL Save]**.
+1. 必要に応じてラベルと説明を追加し、をクリック **[!UICONTROL Save]**&#x200B;します。
 
    ![](assets/email_designer_save-as-fragment_popup.png)
 
-1. To find the fragment that you just created, go to **[!UICONTROL Resources]** &gt; **[!UICONTROL Content templates & fragments]**.
+1. 作成したフラグメントを検索するには、&gt;に **[!UICONTROL Resources]** 移動 **[!UICONTROL Content templates & fragments]**&#x200B;します。
 
    ![](assets/email_designer_save-as-fragment_list.png)
 
