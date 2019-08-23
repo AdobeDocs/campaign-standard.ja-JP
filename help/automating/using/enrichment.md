@@ -15,12 +15,12 @@ context-tags: engretion， main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
+source-git-commit: 782a5f89b0361f1cbe59c9b353ca90dec90c3906
 
 ---
 
 
-# Enrichment{#enrichment}
+# Enhance{#enrichment}
 
 ## 説明 {#description}
 
@@ -28,48 +28,48 @@ source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
 
 **[!UICONTROL Enrichment]** アクティビティは高度なアクティビティで、ワークフローで処理する追加データを定義できます。
 
-## Context of use {#context-of-use}
+## 使用コンテキスト {#context-of-use}
 
 **[!UICONTROL Enrichment]** アクティビティは通常、ターゲットアクティビティの後、またはファイルのインポート後、ターゲットデータの使用を許可するアクティビティの前に使用されます。
 
-This activity contains more advanced enrichment functions than the **[!UICONTROL Query]** activity. Some simple cases of enrichment can be directly performed in the [Query activity](../../automating/using/query.md#enriching-data).
+このアクティビティには **[!UICONTROL Query]** 、アクティビティよりも高度な強化関数が含まれています。シンプル化の単純なケースは [、クエリアクティビティで直接実行](../../automating/using/query.md#enriching-data)できます。
 
 **[!UICONTROL Enrichment]** アクティビティを使用すると、インバウンドトランジションを活用し、そのアクティビティを設定して、追加のデータを使用して出力トランジションを完了できます。複数のセットからのデータを組み合わせたり、一時リソースへのリンクを作成したりできます。
 
-## Configuration {#configuration}
+## 設定 {#configuration}
 
-To configure an **[!UICONTROL Enrichment]** activity:
+アクティビティを **[!UICONTROL Enrichment]** 設定するには:
 
-1. Drag and drop an **[!UICONTROL Enrichment]** activity into your workflow.
-1. Select the activity, then open it using the ![](assets/edit_darkgrey-24px.png) button from the quick actions that appear.
-1. If the activity has several inbound transitions, select the **[!UICONTROL Primary set]**. このアクティビティで設定された追加のデータは、アウトバウンドトランジションのこのプライマリセットに追加されます。
+1. アクティビティを **[!UICONTROL Enrichment]** ワークフローにドラッグ&amp;ドロップします。
+1. アクティビティを選択し、表示されるクイックアクションの ![](assets/edit_darkgrey-24px.png) ボタンを使用してそのアクティビティを開きます。
+1. アクティビティにインバウンドトランジションが複数ある場合は、を選択 **[!UICONTROL Primary set]**&#x200B;します。このアクティビティで設定された追加のデータは、アウトバウンドトランジションのこのプライマリセットに追加されます。
 
    プライマリセットに既にデータが含まれている場合は、そのデータを保持するか、削除するかを選択できます。**[!UICONTROL Keep all additional data from the main set]** このオプションの選択を解除すると、その選択したデータだけがアウトバウンド **[!UICONTROL Enrichment]** トランジションに保持されます。
 
-1. If there are several inbound transitions, define relations between the primary set and the other inbound data in the **[!UICONTROL Advanced Relations]** tab of the activity. **[!UICONTROL Add element]** ボタンを使用して複数の関係を追加できます。
+1. 複数のインバウンドトランジションがある場合は、アクティビティのタブ内 **[!UICONTROL Advanced Relations]** のプライマリセットと他の受信データとの関係を定義します。**[!UICONTROL Add element]** ボタンを使用して複数の関係を追加できます。
 
    新しい関係を定義する場合は、プライマリセットにリンクする受信データのセットを選択します。次に、関係のタイプを定義します。受信データとデータモデルに応じて、いくつかのタイプの関係を使用できます。
 
    * **[!UICONTROL 1 cardinality simple link]**:受信データの各レコードは、プライマリセットから1つのレコードのみに関連付けられます。プライマリセットのレコードごとに、リンクされたデータに1つのレコードが関連付けられています。
    * **[!UICONTROL N cardinality collection link]**:0、1またはその他（N）のリンクデータは、プライマリセットの1レコードに関連付けることができます。
    * **[!UICONTROL 0 or 1 cardinality simple link]**:プライマリセットからのレコードは、リンクされたデータから0または1レコードに関連付けることができますが、複数のレコードに関連付けることはできません。
-   Once the **[!UICONTROL Cardinality]** is defined, define a **[!UICONTROL Reconciliation criteria]**. The **[!UICONTROL Source expression]** of the reconciliation criteria can be a field from the target resource, an [expression](../../automating/using/advanced-expression-editing.md) or directly a value specified between quotes.
+   定義が完了 **[!UICONTROL Cardinality]** したら、を定義 **[!UICONTROL Reconciliation criteria]**&#x200B;します。紐付け条件 **[!UICONTROL Source expression]** の例としては、ターゲットリソースのフィールド、 [式](../../automating/using/advanced-expression-editing.md) 、引用符間で指定した値などがあります。
 
    **[!UICONTROL Label]** ワークフロー **[!UICONTROL ID]** の後半で簡単に識別できます。
 
    >[!NOTE]
    >
-   >You can only define relations between the primary set and the other inbound transitions connected to the **[!UICONTROL Enrichment]** activity. For simpler cases aiming at defining relations with database resources, use a [Reconciliation](../../automating/using/reconciliation.md) activity.
+   >プライマリセットと **[!UICONTROL Enrichment]** そのアクティビティに接続されている他のインバウンドトランジションとの関係のみを定義できます。データベースリソースとの関係の定義を目的とした単純なケースについては [、紐付け](../../automating/using/reconciliation.md) アクティビティを使用します。
 
-1. Define the additional data from the **[!UICONTROL Additional data]** tab of the activity. You can define additional data (simple fields, aggregates and collections) related to the targeting dimension of the primary set or based on the links created in the **[!UICONTROL Advanced relations]** tab of the **[!UICONTROL Enrichment]** activity.
+1. アクティビティの **[!UICONTROL Additional data]** タブから追加のデータを定義します。プライマリセットのターゲットディメンション、またはアクティビティの **[!UICONTROL Advanced relations]** タブで作成されたリンクに基づいて、追加のデータ（単純なフィールド、集計およびコレクション）を定義 **[!UICONTROL Enrichment]** できます。
 
-   Consult the [Enriching data](../../automating/using/query.md#enriching-data) section.
+   詳しくは、 [「データの絞り込み」](../../automating/using/query.md#enriching-data) の節を参照してください。
 
 1. アクティビティの設定を確認し、ワークフローを保存します。
 
-The data is now available to use in the activities connected after the **[!UICONTROL Enrichment]**. For example, you can find it under the **[!UICONTROL Additional data (targetData)]** link of the personalization fields explorer in an email content.
+これで、その後に接続されたアクティビティでデータを使用できるよう **[!UICONTROL Enrichment]**&#x200B;になります。例えば、電子メールコンテンツのパーソナライゼーションフィールドエクスプローラ **[!UICONTROL Additional data (targetData)]** のリンクの下に表示されます。
 
-## Example: Enriching profile data with data contained in a file {#example--enriching-profile-data-with-data-contained-in-a-file}
+## 例:ファイルに含まれるデータを含むプロファイルデータの絞り込み {#example--enriching-profile-data-with-data-contained-in-a-file}
 
 この例は、ファイルに含まれる購入データを含むプロファイルデータをエンリッチメントする方法を示しています。ここでは、購入データがサードパーティ製システムに保存されていることを考慮します。各プロファイルには、ファイルに複数の購入を格納できます。ワークフローの最終目標は、忠誠度のために、少なくとも2つの品目を購入したターゲットプロファイルに電子メールを送信することです。
 
@@ -77,8 +77,8 @@ The data is now available to use in the activities connected after the **[!UICON
 
 ![](assets/enrichment_example_workflow.png)
 
-* A **[!UICONTROL Query]** activity that targets the profiles who will receive the message.
-* A **[!UICONTROL Load file]** activity that loads the purchase data. 次に例を示します。
+* メッセージを受信するプロファイルをターゲットにする **[!UICONTROL Query]** アクティビティ。
+* 購入データを読み込む **[!UICONTROL Load file]** アクティビティ。次に例を示します。
 
    ```
    tcode;tdate;customer;product;tamount
@@ -90,25 +90,25 @@ The data is now available to use in the activities connected after the **[!UICON
    aze128;04/03/2017;clara.smith@example.com;Phone;149
    ```
 
-   この例のファイルでは、電子メールアドレスを使用してデータをデータベースプロファイルと調整します。You can also enable unique IDs as described in [this document](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).
+   この例のファイルでは、電子メールアドレスを使用してデータをデータベースプロファイルと調整します。このドキュメントの [説明に従って、一意のIDを有効](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)にすることもできます。
 
-* **[!UICONTROL Enrichment]** ファイルから読み込まれたトランザクションデータと、で選択 **[!UICONTROL Query]**&#x200B;したプロファイルとの間にリンクを作成するアクティビティ。The link is defined in the **[!UICONTROL Advanced relations]** tab of the activity. The link is based on the transition coming from the **[!UICONTROL Load file]** activity. プロファイルリソースの「電子メール」フィールドと、インポートされたファイルの「顧客」列を紐付け条件として使用します。
+* **[!UICONTROL Enrichment]** ファイルから読み込まれたトランザクションデータと、で選択 **[!UICONTROL Query]**&#x200B;したプロファイルとの間にリンクを作成するアクティビティ。リンクは、アクティビティの **[!UICONTROL Advanced relations]** タブで定義されます。リンクは **[!UICONTROL Load file]** 、アクティビティからの移行に基づいています。プロファイルリソースの「電子メール」フィールドと、インポートされたファイルの「顧客」列を紐付け条件として使用します。
 
    ![](assets/enrichment_example_workflow2.png)
 
-   Once the link is created, two sets of **[!UICONTROL Additional data]** are added:
+   リンクが作成されると、次の2セットが追加 **[!UICONTROL Additional data]** されます。
 
-   * 各プロファイルの最後の2つのトランザクションに対応する2行のコレクション。このコレクションでは、製品名、トランザクション日および製品の価格が追加データとして追加されます。データに降順の並べ替えが適用されます。To create the collection, from the **[!UICONTROL Additional data]** tab:
+   * 各プロファイルの最後の2つのトランザクションに対応する2行のコレクション。このコレクションでは、製品名、トランザクション日および製品の価格が追加データとして追加されます。データに降順の並べ替えが適用されます。コレクションを **[!UICONTROL Additional data]** タブから作成するには:
 
-      Select the link previously defined in the **[!UICONTROL Advanced relations]** tab of the activity.
+      アクティビティのタブで **[!UICONTROL Advanced relations]** 定義済みのリンクを選択します。
 
       ![](assets/enrichment_example_workflow3.png)
 
-      Check **[!UICONTROL Collection]** and specify the number of lines to retrieve (2 in this example). In this screen, you can customize the **[!UICONTROL Alias]** and the **[!UICONTROL Label]** of the collection. これらの値は、このコレクションを参照する際に、ワークフローの次のアクティビティに表示されます。
+      取得する行数をチェック **[!UICONTROL Collection]** して指定します（この例では2）。この画面では、コレクションを **[!UICONTROL Alias]** カスタマイズして **[!UICONTROL Label]** カスタマイズできます。これらの値は、このコレクションを参照する際に、ワークフローの次のアクティビティに表示されます。
 
       ![](assets/enrichment_example_workflow4.png)
 
-      As **[!UICONTROL Data]** to keep for the collection, select the columns that will be used in the final delivery.
+      コレクションを維持するため **[!UICONTROL Data]** に、最終配信で使用する列を選択します。
 
       ![](assets/enrichment_example_workflow6.png)
 
@@ -116,9 +116,9 @@ The data is now available to use in the activities connected after the **[!UICON
 
       ![](assets/enrichment_example_workflow7.png)
 
-   * 各プロファイルのトランザクションの合計数を集計する集計。この集計は、少なくとも2つのトランザクションが記録されているプロファイルをフィルターするために使用されます。To create the aggregate, from the **[!UICONTROL Additional data]** tab:
+   * 各プロファイルのトランザクションの合計数を集計する集計。この集計は、少なくとも2つのトランザクションが記録されているプロファイルをフィルターするために使用されます。集計を **[!UICONTROL Additional data]** タブから作成するには:
 
-      Select the link previously defined in the **[!UICONTROL Advanced relations]** tab of the activity.
+      アクティビティのタブで **[!UICONTROL Advanced relations]** 定義済みのリンクを選択します。
 
       ![](assets/enrichment_example_workflow3.png)
 
@@ -126,15 +126,19 @@ The data is now available to use in the activities connected after the **[!UICON
 
       ![](assets/enrichment_example_workflow8.png)
 
-      As **[!UICONTROL Data]** to keep, define a **Count All** aggregate. 必要に応じて、次のアクティビティで簡単に検索するカスタムエイリアスを指定します。
+      維持するには **[!UICONTROL Data]** 、「すべて **カウント」** 集計を定義します。必要に応じて、次のアクティビティで簡単に検索するカスタムエイリアスを指定します。
 
       ![](assets/enrichment_example_workflow9.png)
 
-* A **[!UICONTROL Segmentation]** activity with only one segment, that retrieves profiles of the initial target that have at least two transactions recorded. 1つのトランザクションのみを含むプロファイルは除外されます。そのためには、事前定義済みの集計でセグメント化のクエリーが実行されます。
+* 1つ以上のセグメントを持つ **[!UICONTROL Segmentation]** アクティビティで、少なくとも2つのトランザクションが記録されている初期ターゲットのプロファイルを取得します。1つのトランザクションのみを含むプロファイルは除外されます。そのためには、事前定義済みの集計でセグメント化のクエリーが実行されます。
 
    ![](assets/enrichment_example_workflow5.png)
 
-* **[!UICONTROL Email delivery]** プロファイルによって最後に行われた2つの購入を動的に取得する **[!UICONTROL Enrichment]** ために定義された追加のデータを使用するアクティビティ。The additional data can be found in the **Additional data (TargetData)** node when adding a personalization field.
+* **[!UICONTROL Email delivery]** プロファイルによって最後に行われた2つの購入を動的に取得する **[!UICONTROL Enrichment]** ために定義された追加のデータを使用するアクティビティ。追加データは、パーソナライゼーションフィールドを追加するときに **追加データ（targetData）** ノードにあります。
 
    ![](assets/enrichment_example_workflow10.png)
+
+**関連トピック:**
+
+* [外部データによる顧客プロファイルの充実](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Managedatatofuelengagingexperiences)
 
