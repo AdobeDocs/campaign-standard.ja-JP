@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f- ab48- bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 68d9732efb55b9d5363218e5c35204892f16d983
+source-git-commit: 782a5f89b0361f1cbe59c9b353ca90dec90c3906
 
 ---
 
@@ -177,6 +177,7 @@ CSSの衝突の問題などの問題を回避するために、コンテンツ�
 * [メッセージのスケジュール](../../sending/using/about-scheduling-messages.md)
 * [メッセージのプレビュー](../../sending/using/previewing-messages.md)
 * [電子メールレンダリング](../../sending/using/email-rendering.md)
+* [HTMLを必要とせずにパーソナライズした電子メールを作成する](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Createcompellingcontenttailoredtoeveryindividual)
 
 ## 既存のコンテンツを使用した電子メールのデザイン {#designing-an-email-using-existing-contents}
 
