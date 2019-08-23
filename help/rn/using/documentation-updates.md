@@ -14,7 +14,7 @@ discoiquuid: dcee9711-7fa6-4773- ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7364d547cabe9ae83b43ab964bf57e48338130f8
+source-git-commit: 2c16cdff843115e122dc1d9ccca69a39ea6ebb22
 
 ---
 
@@ -30,6 +30,8 @@ Adobe Campaign [リリースノート](../../rn/using/release-notes.md)も参照
 ## ドキュメントの更新-2019年8月 {#doc-updates-august-2019}
 
 「ログ」タブでSQLクエリを表示する方法のトラブルシューティングの節に、手順が追加されました。[詳細情報](../../automating/using/best-practices-workflows.md#troubleshooting-data-management-activities)
+
+新しいヘルプ記事が追加され、コントロールパネル内のサブドメインおよび証明書の管理に関する情報が追加されました。[詳細情報](https://helpx.adobe.com/campaign/kb/control-panel-subdomains-certificates.html)
 
 ## リリース19.3-2019年7月 {#release-19-3---july-2019}
 
