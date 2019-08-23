@@ -14,14 +14,14 @@ discoiquuid: f7a5e935-54cf-422e-8459-27221409a200
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a12df43de55dedf388a397fbf4670d99e3ea7f3d
+source-git-commit: 782a5f89b0361f1cbe59c9b353ca90dec90c3906
 
 ---
 
 
-# Personalizing the subject line of an email{#personalizing-the-subject-line-of-an-email}
+# 電子メールの件名行のパーソナライズ{#personalizing-the-subject-line-of-an-email}
 
-## Personalizing an email subject {#personalizing-an-email-subject}
+## 電子メールの件名をパーソナライズする {#personalizing-an-email-subject}
 
 メッセージを準備して送信するには、メッセージの件名が必須です。
 
@@ -29,7 +29,7 @@ source-git-commit: a12df43de55dedf388a397fbf4670d99e3ea7f3d
 >
 >件名行が空の場合、メッセージダッシュボードおよび電子メールデザイナーに警告が表示されます。
 
-To configure the email subject, go the **[!UICONTROL Properties]** tab of the Email Designer home page (accessible through the home icon) and fill in the **[!UICONTROL Subject]** section.
+電子メールの件名を設定するには、電子メールDesignerホームページ（ホームアイコンからアクセス可能）の **[!UICONTROL Properties]** タブに進み **[!UICONTROL Subject]** 、セクションに入力します。
 
 ![](assets/email_designer_subject.png)
 
@@ -41,7 +41,7 @@ To configure the email subject, go the **[!UICONTROL Properties]** tab of the Em
 * [コンテンツブロックの追加](../../designing/using/adding-a-content-block.md)
 * [電子メールでの動的コンテンツの定義](../../designing/using/defining-dynamic-content-in-an-email.md)
 
-## Predictive subject line {#predictive-subject-line}
+## 予測件名行 {#predictive-subject-line}
 
 電子メールを編集する際、異なる件名行を試してから、送信する前にそのオープンレートの見積もりを行うことができます。
 
@@ -51,13 +51,13 @@ To configure the email subject, go the **[!UICONTROL Properties]** tab of the Em
 >
 >この機能は、電子メールメッセージおよび英語のコンテンツのみを含むデータベースで使用できます。トレーニングされたモデルは一貫性がなく、インスタンスに他の言語の電子メールが含まれていると、誤った結果につながります。サブジェクトをテストできるオプションは、モデルが既にインスタンスで使用可能な場合にのみ表示されます。
 
-### Testing a subject {#testing-a-subject}
+### 件名のテスト {#testing-a-subject}
 
 件名行をテストするには:
 
 1. 電子メールを作成または開きます。
 1. コンテンツを開き、対応する入力フィールドに電子メールの件名を入力します。
-1. Click the **[!UICONTROL Test subject]** button to access the **[!UICONTROL Test your subject line]** window. このウィンドウからも件名を編集できます。
+1. ボタンを **[!UICONTROL Test subject]** クリックして、ウィンドウに **[!UICONTROL Test your subject line]** アクセスします。このウィンドウからも件名を編集できます。
 1. オープンレート予測に考慮する正しいモデルを選択します。特定の業界に対応するいくつかのモデルが使用できます。
 1. **[!UICONTROL Test]**&#x200B;をクリックします。
 
@@ -80,28 +80,28 @@ To configure the email subject, go the **[!UICONTROL Properties]** tab of the Em
 
 ![](assets/predictive_subject_line_example.png)
 
-### Importing models {#importing-models}
+### モデルの読み込み {#importing-models}
 
 デフォルトでは、Adobe Campaignサーバー上で実行されているモデルはありません。モデルを取得して機能をアクティブにするには、次の2つの方法があります。
 
 * 以前の電子メールメッセージのデータから、ローカルモデルをトレーニングできます。
 
    * 既にAdobe Campaignを使用している場合、ローカルモデルには既に送信済みのメッセージが自動的にトレーニングされます。
-   * Adobe Campaignを初めて使用する場合、4列を含む以前のシステム/ESPからCSVファイルを抽出できます。date， subject， send， open.To do that, go to **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Email]** &gt; **[!UICONTROL Subject Line Import]** and follow the instructions provided on the successive screens. 件名のアップロードが完了したら、以下の説明に従ってローカルモデルをインポートします。ローカルモデルは、アップロードしたデータを使用して自動的にトレーニングされます。
+   * Adobe Campaignを初めて使用する場合、4列を含む以前のシステム/ESPからCSVファイルを抽出できます。date， subject， send， open.これを行うには **[!UICONTROL Administration]** 、&gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Email]** &gt; **[!UICONTROL Subject Line Import]** に移動して、連続する画面に表示される指示に従います。件名のアップロードが完了したら、以下の説明に従ってローカルモデルをインポートします。ローカルモデルは、アップロードしたデータを使用して自動的にトレーニングされます。
    * Adobe Campaignを初めて使用していて、前述のようにCSVファイルを取得できない場合は、事前にトレーニングされたモデルを使用するか、システム内で十分な配信データを使用してローカルモデルをトレーニングすることができます。現在のデータセットには、パターンを認識し、モデルをトレーニングするために十分なデータが含まれているかどうかが自動的に判断されます。
 
       >[!NOTE]
       >
       >独自のモデルをトレーニングするために必要な件名行が定義されていません。これをトレーニングできるようにするには、件名行を変化させ、重複しないようにする必要があります。処理するデータが足りない場合、システムはモデルをトレーニングできません。インスタンスには1つのトレーニングモデルのみを使用できます。
-   To train a local model, download the subjectLineTraining.xml from [here](https://support.neolane.net/webApp/downloadCenter?__userConfig=psaDownloadCenter) and use the [package import](../../automating/using/managing-packages.md) feature to upload it to your Adobe Campaign instance. 技術ワークフローは、自動的にトレーニングを行います。
+   ローカルモデルをトレーニングするには、ここから [subjectLineTraining.xmlをダウンロード](https://support.neolane.net/webApp/downloadCenter?__userConfig=psaDownloadCenter) し、 [パッケージインポート](../../automating/using/managing-packages.md) 機能を使用してAdobe Campaignインスタンスにアップロードします。技術ワークフローは、自動的にトレーニングを行います。
 
-   The first time you want to train a model, an administrator can force the **[!UICONTROL SubjectLine Training workflow]** to start from the **[!UICONTROL Administration]** &gt; **[!UICONTROL Application settings]** &gt; **[!UICONTROL Workflows]** menu.
+   初めてモデルをトレーニングしたい場合は、管理者が **[!UICONTROL SubjectLine Training workflow]****[!UICONTROL Administration]** &gt; **[!UICONTROL Application settings]** &gt; **[!UICONTROL Workflows]** メニューから開始するように強制できます。
 
    モデルがアップロードされ、トレーニングされると、その機能は自動的にアクティブ化され、メッセージの件名行フィールドの横に新しいオプションが表示されます。
 
    その後、技術ワークフローは自動的に毎週引き続きモデルをトレーニングします。
 
-* 特定の産業（医療など）に特有の事前にトレーニングされたモデルをインポートできます。using the [package import](../../automating/using/managing-packages.md) feature. These models are available [here](https://support.neolane.net/webApp/downloadCenter?__userConfig=psaDownloadCenter) and cannot be trained.
+* 特定の産業（医療など）に特有の事前にトレーニングされたモデルをインポートできます。パッケージ [インポート](../../automating/using/managing-packages.md) 機能を使用します。これらのモデルは [、ここで](https://support.neolane.net/webApp/downloadCenter?__userConfig=psaDownloadCenter) 使用でき、トレーニングを行うことはできません。
 
    モデルがアップロードされると、その機能が自動的にアクティブ化され、メッセージの件名行フィールドの横に新しいオプションが表示されます。
 
@@ -116,3 +116,6 @@ To configure the email subject, go the **[!UICONTROL Properties]** tab of the Em
 * 医療業界:subjectInsightMedical.xml
 * トレーニングモデル:subjectlineRainling. xml。
 
+**関連トピック:**
+
+* [Adobe Sensei予測による件名行の最適化](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Createcompellingcontenttailoredtoeveryindividual)
