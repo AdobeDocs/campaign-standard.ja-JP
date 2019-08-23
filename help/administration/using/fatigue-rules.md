@@ -14,7 +14,7 @@ discoiquuid: 4337a80b-0fb9-4a37- bce3- fe2121a66586
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 48c725de297e3a8b2fc05be65f59cd23b2cfd7d7
+source-git-commit: 782a5f89b0361f1cbe59c9b353ca90dec90c3906
 
 ---
 
@@ -36,6 +36,7 @@ source-git-commit: 48c725de297e3a8b2fc05be65f59cd23b2cfd7d7
 * [準備](../../administration/using/configuring-email-channel.md#preparation)
 * [誤字の管理](../../administration/using/about-typology-rules.md#managing-typologies)
 * [タイポロジルール](../../administration/using/about-typology-rules.md#typology-rules)
+* [連絡先の疲労を防ぐために通信頻度を最適化する](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
 
 ## 疲労ルールの作成 {#creating-a-fatigue-rule}
 
