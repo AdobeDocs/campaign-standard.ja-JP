@@ -2,28 +2,28 @@
 title: リソースの作成または拡張
 seo-title: リソースの作成または拡張
 description: リソースの作成または拡張
-seo-description: リソースを最初から定義する方法を確認します。
-page-status-flag: 常にアクティブ化されていない
+seo-description: リソースを最初から定義する方法を見つけます。
+page-status-flag: 決して活性化されていない
 uuid: 7c26b63d-9587-472b-804f- cde5c45dfb3c
-contentOwner: サウビート
-products: SG_ CAMPAIGN/STANDARD
-audience: 開発中
+contentOwner: ソビア
+products: SG_キャンペーン/標準
+audience: 現像
 content-type: 参照
-topic-tags: 追加または拡張するリソース
-discoiquuid: 8dc45c37-6908-407e-8e41-4a4188cba2b3
+topic-tags: 追加または拡張されたリソース
+discoiquuid: 8dc45c37-6908-407e-8e41-4a ba2b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a7c7a46fdba2395c773582923c6bd647c2d6c9d6
+source-git-commit: 50620788c05b76cc2f69c19c26f968ca15a02048
 
 ---
 
 
-# Creating or extending the resource{#creating-or-extending-the-resource}
+# リソースの作成または拡張{#creating-or-extending-the-resource}
 
-管理者は、あらかじめ用意されたデータモデルに含まれていないデータに対して作業が必要な場合、新規リソースを最初から作成することも、既存のリソースの拡張を作成することもできます。
+管理者は、最初から新しいリソースを作成するか、最新のデータモデルの一部ではないデータに対して作業が必要な場合は、既存のリソースの拡張を作成できます。
 
-拡張できるのは、次の機能を備えたリソースのみです。
+拡張できるのは、次のすぐに使用できるリソースのみです。
 
 * **[!UICONTROL Campaign (campaign)]**
 * **[!UICONTROL Deliveries (delivery)]**
@@ -37,21 +37,21 @@ source-git-commit: a7c7a46fdba2395c773582923c6bd647c2d6c9d6
 
 リソースを作成または拡張するには:
 
-1. From **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]** &gt; **[!UICONTROL Custom Resources]**, click the **[!UICONTROL Create]** button.
+1. **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]** &gt;で **[!UICONTROL Custom Resources]**、ボタン **[!UICONTROL Create]** をクリックします。
 1. 実行するアクションを選択します。
 
-   * **[!UICONTROL Create a new resource]**:フィールド **[!UICONTROL Label]** と **[!UICONTROL ID]** フィールドを入力します。**[!UICONTROL ID]** フィールドは必須です。「ラベル」フィールドを空のままにすると、IDから自動的に完了します。
+   * **[!UICONTROL Create a new resource]**:および **[!UICONTROL Label]****[!UICONTROL ID]** フィールドを入力します。**[!UICONTROL ID]** フィールドは必須です。「ラベル」フィールドを空のままにすると、自動的にIDから完了します。
 
       ![](assets/schema_extension_2.png)
 
       >[!NOTE]
       >
-      >30文字の最大値を使用して再入力しました。
+      >最大30文字の使用を推奨します。
 
    * **[!UICONTROL Extend an existing resource]**:拡張するリソースを選択します。
 
       ![](assets/schema_extension_10.png)
 
-1. Click **[!UICONTROL Create]** to create the resource, which will then take on the **[!UICONTROL Draft]** status in case of new resource or the **[!UICONTROL Editing]** status in case of extension.
+1. リソース **[!UICONTROL Create]** を作成するときにクリックします。リソースは、 **[!UICONTROL Draft]** 新しいリソースの場合、または拡張子の場合 **[!UICONTROL Editing]** はステータスになります。
 
-新しいリソースが作成され、設定できるようになりました。For more on resource configuration, refer to [Configuring the resource's data structure](../../developing/using/configuring-the-resource-s-data-structure.md).
+新しいリソースが作成され、構成できるようになります。リソース構成の詳細については、「 [リソースのデータ構造の構成」を](../../developing/using/configuring-the-resource-s-data-structure.md)参照してください。
