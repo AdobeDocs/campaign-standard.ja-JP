@@ -15,7 +15,7 @@ context-tags: ワークフロー、ユースケース、セグメンテーショ
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
+source-git-commit: e77c8a65834009f2f7157d9535ae8e12e59244ff
 
 ---
 
@@ -42,15 +42,14 @@ source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
 1. セグメント上にマウスポインタを移動し、この年に追加されたターゲット顧客 ![](assets/edit_darkgrey-24px.png) をデータベースに追加します。
 1. ドラッグアンドドロップ **[!UICONTROL Profiles]** し、フィルタタイプ **[!UICONTROL Created]** で選択 **[!UICONTROL Relative]**&#x200B;します。
 1. to **[!UICONTROL Level of precision]** に **[!UICONTROL Year]** 変更して選択 **[!UICONTROL This year]**&#x200B;します。
-
->[!NOTE]
->
->規則の構造を確認するには、をクリック **[!UICONTROL Advanced Mode]**&#x200B;します。
-
 1. 2 **[!UICONTROL Confirm]** 回クリックします。
 1. で **[!UICONTROL Advanced Options]**、 **[!UICONTROL Generate complement]** 残りの受信者を対象とするセグメントを作成します。
 1. **[!UICONTROL Confirm]**&#x200B;をクリックします。
 1. **[!UICONTROL Save]**&#x200B;をクリックします。
+
+>[!NOTE]
+>
+>規則の構造を確認するには、をクリック **[!UICONTROL Advanced Mode]**&#x200B;します。
 
 ## 電子メール配信の作成 {#create-an-email-delivery}
 
@@ -62,11 +61,10 @@ source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
 1. 電子メールのレイアウトを作成するには、をクリック **[!UICONTROL Email Designer]**&#x200B;します。
 1. 要素を挿入するか、既存のテンプレートを選択します。
 1. 各配信に固有の特典でEメールをカスタマイズできます。
-
-詳細については、電子メール [の設計](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch)を参照してください。
-
 1. クリック **[!UICONTROL Preview]** すると、レイアウトが確認されます。
 1. **[!UICONTROL Save]**&#x200B;をクリックします。
+
+詳細については、電子メール [の設計](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch)を参照してください。
 
 **関連トピック:**
 
