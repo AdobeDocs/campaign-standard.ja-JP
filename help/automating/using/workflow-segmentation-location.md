@@ -15,7 +15,7 @@ context-tags: 'ワークフロー、ユースケース、クエリ、セグメ�
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
+source-git-commit: e77c8a65834009f2f7157d9535ae8e12e59244ff
 
 ---
 
@@ -45,11 +45,7 @@ source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
 1. **[!UICONTROL Confirm]**&#x200B;をクリックします。
 1. で **[!UICONTROL List of outbound segments]**&#x200B;は、をクリック **[!UICONTROL Add an element]** してクリック ![](assets/edit_darkgrey-24px.png) し、2番目の都市の人を対象とするセグメントを作成します。シカゴだ
 1. ドラッグアンドドロップ **[!UICONTROL Location]** して、演算子 **[!UICONTROL City]** で選択 **[!UICONTROL equals to]** し、値を入力 **[!UICONTROL Chicago]** します。
-
->[!NOTE]
->
->シカゴに入った全ての人に到達するには、大文字と小文字を区別しないオプションの選択を解除する。
-
+1. シカゴに入った全ての人に到達するには、大文字と小文字を区別しないオプションの選択を解除する。
 1. **[!UICONTROL Confirm]**&#x200B;をクリックします。
 
 ## 電子メール配信の作成{#creating-an-email-delivery}
