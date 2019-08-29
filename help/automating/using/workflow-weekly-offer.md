@@ -15,7 +15,7 @@ context-tags: ワークフロー、ユースケース、クエリ、配信、ス
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
+source-git-commit: e77c8a65834009f2f7157d9535ae8e12e59244ff
 
 ---
 
@@ -37,14 +37,13 @@ source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
 1. 搬送のaおよび **[!UICONTROL Time]****[!UICONTROL Repetition frequency]** aを選択します。
 1. で、を **[!UICONTROL Days of the week]**&#x200B;選択 **[!UICONTROL Tuesday]**&#x200B;します。
 1. ワークフローのパラメーター **[!UICONTROL Start]** と **[!UICONTROL Expiration]** パラメーターを指定します。
+1. アクティビティを確認し、ワークフローを保存します。
 
 ![](assets/scheduler_properties.png)
 
 >[!NOTE]
 >
 >ワークフローを特定の **[!UICONTROL Time Zone]****[!UICONTROL Execution options]**&#x200B;タブで開始するには、タイムゾーンフィールドでスケジューラのタイムゾーンを設定します。
-
-1. アクティビティを確認し、ワークフローを保存します。
 
 ## クエリアクティビティの作成{#creating-a-query-activity}
 
