@@ -15,7 +15,7 @@ context-tags: ワークフロー、ユースケース、クエリ
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
+source-git-commit: e77c8a65834009f2f7157d9535ae8e12e59244ff
 
 ---
 
@@ -36,14 +36,13 @@ source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
 1. で、を **[!UICONTROL Execution frequency]**&#x200B;選択 **[!UICONTROL Daily]**&#x200B;します。
 1. ワークフローの実行 **[!UICONTROL Time]****[!UICONTROL Repetition frequency]** と実行を選択します。
 1. ワークフローの **[!UICONTROL Start]** 日付 **[!UICONTROL Expiration]** と日付を選択します。
+1. アクティビティを確認し、ワークフローを保存します。
 
 >[!NOTE]
 >
 >特定のタイムゾーンでワークフローを開始するには、タブ&#x200B;**[!UICONTROL Execution options]**&#x200B;で、フィールド内のスケジューラのタイムゾーンを設定 **[!UICONTROL Time zone]**&#x200B;します。
 
 ![](assets/time_zone.png)
-
-1. アクティビティを確認し、ワークフローを保存します。
 
 ## クエリアクティビティの作成 {#creating-a-query-activity}
 
@@ -75,13 +74,13 @@ source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
 1. **[!UICONTROL Query]** エディターで、最初のクエリを選択して複製します。
 1. 複製を開きます。
 1. クエリ **[!UICONTROL Day]****[!UICONTROL Month]** で置き換えます。
-次のようにしてください。
-
-``` Month(@created) = Month(GetDate()) ```
-
 1. **[!UICONTROL Confirm]**&#x200B;をクリックします。
 
 ![](assets/month_rule.png)
+
+次のようにしてください。
+
+``` Month(@created) = Month(GetDate()) ```
 
 最終クエリが表示されます。
 
