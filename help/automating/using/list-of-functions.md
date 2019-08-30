@@ -2,752 +2,747 @@
 title: 関数のリスト
 seo-title: 関数のリスト
 description: 関数のリスト
-seo-description: クエリー編集ツールを使用すると、高度な機能を使用して複雑なフィルタリングを実行できます。
-page-status-flag: 常にアクティブ化されていない
+seo-description: クエリ編集ツールを使用すると、高度な関数を使用して複雑なフィルター処理を実行できます。
+page-status-flag: 決して活性化されていない
 uuid: fd50fc99-1e7a-479b- beb7-1f246b419d46
-contentOwner: サウビート
-products: SG_ CAMPAIGN/STANDARD
+contentOwner: ソビア
+products: SG_キャンペーン/標準
 audience: 自動化
 content-type: 参照
-topic-tags: filtering- data
-discoiquuid: 3cdbe962-1c59-4cd8- b29e-36aa2562fac6
+topic-tags: フィルタリングデータ
+discoiquuid: 3cdd962-1c59-4cd8- b29e-36aa2562fac6
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 83be3f22f3508248f2a4666080a7207998093dc3
 
 ---
 
 
 # 関数のリスト{#list-of-functions}
 
-## About functions {#about-functions}
+## 関数について {#about-functions}
 
-クエリー編集ツールを使用すると、高度な機能を使用して複雑なフィルタリングを実行できます。To do this, the tool palette contains the **[!UICONTROL Expression]** element that you can use in the workspace. Further information on this element is detailed in a [specific section](../../automating/using/advanced-expression-editing.md).
+クエリ編集ツールを使用すると、高度な関数を使用して複雑なフィルター処理を実行できます。これを行うには、ワークスペースで使用できる **[!UICONTROL Expression]** 要素がツールパレットに含まれます。この要素の詳細については、特定 [のセクション](../../automating/using/advanced-expression-editing.md)で詳しく説明します。
 
-この要素を使用すると、条件を手動で入力できます。ここでは、以下の節で定義する関数を使用できます。
+この要素を使用すると、条件を手動で入力できます。ここでは、次のセクションで定義した関数を使用できます。
 
-目的の結果および操作されたデータのタイプに応じて、いくつかの関数タイプを使用できます。
+必要な結果と操作データのタイプに応じて、いくつかの関数タイプを使用できます。
 
 * 日付
 * ジオマーケティング
 * 数値
-* その他の関数
+* その他の機能
 * 集計
-* 文字列の操作
+* 文字列操作
 * 並べ替え
 
-## Dates {#dates}
+## 日付 {#dates}
 
-日付関数は、日付または時間の値を操作するために使用します。
+日付関数は日付または時刻の値を操作するために使用されます。
 
 <table> 
  <tbody> 
   <tr> 
-   <td> <strong>名前</strong><br /> </td> 
+   <td> <strong>名</strong><br /> </td> 
    <td> <strong>説明</strong><br /> </td> 
    <td> <strong>構文</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>addDays</strong><br /> </td> 
-   <td> Adds a number of days to a date<br /> </td> 
-   <td> AddDays(&lt;date&gt;, &lt;number&gt;)<br /> </td> 
+   <td> <strong>AddDays</strong><br /> </td> 
+   <td> 日付に日数を追加します<br /> </td> 
+   <td> AddDays（&lt; date&gt;，&lt; number&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>addHours</strong><br /> </td> 
-   <td> Adds a number of hours to a date<br /> </td> 
-   <td> AddHours(&lt;date&gt;, &lt;number&gt;)<br /> </td> 
+   <td> <strong>追加時間</strong><br /> </td> 
+   <td> 日付に数時間を追加します<br /> </td> 
+   <td> AddHours（&lt; date&gt;，&lt; number&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>addMinutes</strong><br /> </td> 
-   <td> Adds a number of minutes to a date<br /> </td> 
-   <td> AddMinutes(&lt;date&gt;, &lt;number&gt;)<br /> </td> 
+   <td> <strong>AddMinutes</strong><br /> </td> 
+   <td> 日付に分数を追加します<br /> </td> 
+   <td> AddMinutes（&lt; date&gt;，&lt; number&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>addMonths</strong><br /> </td> 
-   <td> Adds a number of months to a date<br /> </td> 
-   <td> AddMonths(&lt;date&gt;, &lt;number&gt;)<br /> </td> 
+   <td> <strong>AddMonths</strong><br /> </td> 
+   <td> 日付に月数を追加します<br /> </td> 
+   <td> AddMonths（&lt; date&gt;，&lt; number&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>addSeconds</strong><br /> </td> 
-   <td> Adds a number of seconds to a date<br /> </td> 
-   <td> AddSeconds(&lt;date&gt;, &lt;number&gt;)<br /> </td> 
+   <td> <strong>AddSeconds</strong><br /> </td> 
+   <td> 日付に秒数を追加します<br /> </td> 
+   <td> AddSeconds（&lt; date&gt;，&lt; number&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>addYear</strong><br /> </td> 
-   <td> Adds a number of years to a date<br /> </td> 
-   <td> AddYears(&lt;date&gt;, &lt;number&gt;)<br /> </td> 
+   <td> <strong>AddYears</strong><br /> </td> 
+   <td> 日付に年数を追加します<br /> </td> 
+   <td> AddYears（&lt; date&gt;，&lt; number&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>dateOnly</strong><br /> </td> 
-   <td> Returns the date only (with time at 00:00)<br /> </td> 
-   <td> DateOnly(&lt;date&gt;)<br /> </td> 
+   <td> <strong>DateOnly</strong><br /> </td> 
+   <td> 日付のみを返します（時刻は00:00）。<br /> </td> 
+   <td> DateOnly（&lt; date&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>日</strong><br /> </td> 
-   <td> Returns the number representing the day of the date<br /> </td> 
-   <td> Day(&lt;date&gt;)<br /> </td> 
+   <td> <strong>デイ</strong><br /> </td> 
+   <td> 日付の日付を表す数値を返します<br /> </td> 
+   <td> 日（&lt; date&gt;）<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>DayOfYear</strong><br /> </td> 
-   <td> Returns a number representing the day in the year of the date<br /> </td> 
-   <td> DayOfYear(&lt;date&gt;)<br /> </td> 
+   <td> 日付の年の日付を表す数値を返します<br /> </td> 
+   <td> DayOfYear（&lt; date&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Daysago</strong><br /> </td> 
-   <td> Returns the current date minus n days<br /> </td> 
-   <td> DaysAgo(&lt;number&gt;)<br /> </td> 
+   <td> <strong>デイサゴ</strong><br /> </td> 
+   <td> 現在の日付からn日を引いた日付を返します<br /> </td> 
+   <td> DaysHello（&lt; number&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>daysSaveInt</strong><br /> </td> 
-   <td> Returns the current date minus n days (as an integer yyyymmdd)<br /> </td> 
-   <td> DaysAgoInt(&lt;number&gt;)<br /> </td> 
+   <td> <strong>デイサゴ</strong><br /> </td> 
+   <td> 現在の日付を負のyyyymmddとして返します。<br /> </td> 
+   <td> DaysAsInt（&lt; number&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>daysDiff</strong><br /> </td> 
-   <td> Number of days between two dates<br /> </td> 
-   <td> DaysDiff(&lt;end date&gt;, &lt;start date&gt;)<br /> </td> 
+   <td> <strong>Daysdiff</strong><br /> </td> 
+   <td> 2つの日付間の日数<br /> </td> 
+   <td> DaysDiff（&lt;終了日&gt;、&lt;開始日&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>daySaled</strong><br /> </td> 
-   <td> Returns the age in days of a date<br /> </td> 
-   <td> DaysOld(&lt;date&gt;)<br /> </td> 
+   <td> <strong>デイセールス</strong><br /> </td> 
+   <td> 日付の日数を返します<br /> </td> 
+   <td> DaySold（&lt; date&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>getDate</strong><br /> </td> 
-   <td> Returns the current system date of the server<br /> </td> 
-   <td> GetDate()<br /> </td> 
+   <td> <strong>GetDate</strong><br /> </td> 
+   <td> サーバーの現在のシステム日付を返します<br /> </td> 
+   <td> getDate（）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Hour</strong><br /> </td> 
-   <td> Returns the hour of the date<br /> </td> 
-   <td> Hour(&lt;date&gt;)<br /> </td> 
+   <td> <strong>アワー</strong><br /> </td> 
+   <td> 日付の時刻を返します<br /> </td> 
+   <td> 時間（&lt; date&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>hoursDiff</strong><br /> </td> 
-   <td> Returns the number of hours between two dates<br /> </td> 
-   <td> HoursDiff(&lt;end date&gt;, &lt;start date&gt;)<br /> </td> 
+   <td> <strong>HoursDiff</strong><br /> </td> 
+   <td> 2つの日付間の時間数を返します<br /> </td> 
+   <td> HoursDiff（&lt;終了日&gt;、&lt;開始日&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>localToutC</strong><br /> </td> 
-   <td> Converts a local date and time to UTC<br /> </td> 
-   <td> LocalToUTC(&lt;date&gt;, &lt;Time Zone&gt;)<br /> </td> 
+   <td> <strong>ローカルToutc</strong><br /> </td> 
+   <td> ローカルの日付と時刻をUTCに変換します<br /> </td> 
+   <td> localToUTC（&lt; date&gt;、&lt; Time Zone&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>分</strong><br /> </td> 
-   <td> Returns the minutes of the date<br /> </td> 
-   <td> Minute(&lt;date&gt;)<br /> </td> 
+   <td> <strong>議事録</strong><br /> </td> 
+   <td> 日付の分を返します<br /> </td> 
+   <td> 分（&lt; date&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>minutesDifference</strong><br /> </td> 
-   <td> Returns the number of minutes between two dates<br /> </td> 
-   <td> MinutesDiff(&lt;end date&gt;, &lt;start date&gt;)<br /> </td> 
+   <td> <strong>MinuesDiff</strong><br /> </td> 
+   <td> 2つの日付間の分数を返します<br /> </td> 
+   <td> MinuesDiff（&lt;終了日&gt;、&lt;開始日&gt;）<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>月</strong><br /> </td> 
-   <td> Returns the number representing the month of the date<br /> </td> 
-   <td> Month(&lt;date&gt;)<br /> </td> 
+   <td> 日付の月を表す数値を返します<br /> </td> 
+   <td> 月（&lt; date&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Monthsago</strong><br /> </td> 
-   <td> Returns the date corresponding to the current date minus n months<br /> </td> 
-   <td> MonthsAgo(&lt;number&gt;)<br /> </td> 
+   <td> <strong>ムーンサゴ</strong><br /> </td> 
+   <td> 現在の日付に対応する日付を返します<br /> </td> 
+   <td> MonthsInformation（&lt; number&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>MonthsDifference</strong><br /> </td> 
-   <td> Returns the number of months between two dates<br /> </td> 
-   <td> MonthsDiff(&lt;end date&gt;, &lt;start date&gt;)<br /> </td> 
+   <td> <strong>月単位</strong><br /> </td> 
+   <td> 2つの日付間の月数を返します<br /> </td> 
+   <td> MonthsDiff（&lt;終了日&gt;、&lt;開始日&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>MonthSaled</strong><br /> </td> 
-   <td> Returns the age in months of a date<br /> </td> 
-   <td> MonthsOld(&lt;date&gt;)<br /> </td> 
+   <td> <strong>MonthSold</strong><br /> </td> 
+   <td> 日付の月数を月単位で返します<br /> </td> 
+   <td> MonthSold（&lt; date&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>第2</strong><br /> </td> 
-   <td> Returns the seconds of the date<br /> </td> 
-   <td> Second(&lt;date&gt;)<br /> </td> 
+   <td> <strong>セカンド</strong><br /> </td> 
+   <td> 日付の秒を返します<br /> </td> 
+   <td> 2番目（&lt; date&gt;）<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>最も古い</strong><br /> </td> 
-   <td> 最も古い日付を返す </td> 
-   <td> Oldest(&lt;Date&gt;, &lt;Date&gt;)<br /> </td> 
+   <td> 最も古い日付を返します </td> 
+   <td> 最も古い（&lt;日付&gt;、&lt;日付&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>secondsDifference</strong><br /> </td> 
-   <td> Returns the number of seconds between two dates<br /> </td> 
-   <td> SecondsDiff(&lt;end date&gt;, &lt;start date&gt;)<br /> </td> 
+   <td> <strong>セカンダリdiff</strong><br /> </td> 
+   <td> 2つの日付間の秒数を返します<br /> </td> 
+   <td> secondsDiff（&lt;終了日&gt;、&lt;開始日&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>subDays</strong><br /> </td> 
-   <td> Subtracts a number of days from a date<br /> </td> 
-   <td> SubDays(&lt;date&gt;, &lt;number&gt;)<br /> </td> 
+   <td> <strong>サブデイズ</strong><br /> </td> 
+   <td> 日付から日数を減算します<br /> </td> 
+   <td> subDays（&lt; date&gt;，&lt; number&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>subHours</strong><br /> </td> 
-   <td> Subtracts a number of hours from a date<br /> </td> 
-   <td> SubHours(&lt;date&gt;, &lt;number&gt;)<br /> </td> 
+   <td> <strong>サブ時間</strong><br /> </td> 
+   <td> 日付から数時間を減算します<br /> </td> 
+   <td> サブ時間（&lt; date&gt;，&lt; number&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>subMinutes</strong><br /> </td> 
-   <td> Subtracts a number of minutes from a date<br /> </td> 
-   <td> SubMinutes(&lt;date&gt;, &lt;number&gt;)<br /> </td> 
+   <td> <strong>サブ秒</strong><br /> </td> 
+   <td> 日付から分数を減算します<br /> </td> 
+   <td> サブ分（&lt; date&gt;，&lt; number&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>submonths</strong><br /> </td> 
-   <td> Subtracts a number of months from a date<br /> </td> 
-   <td> SubMonths(&lt;date&gt;, &lt;number&gt;)<br /> </td> 
+   <td> <strong>サブ月</strong><br /> </td> 
+   <td> 日付から月数を減算します<br /> </td> 
+   <td> subMonths（&lt; date&gt;，&lt; number&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>subSeconds</strong><br /> </td> 
-   <td> Subtracts a number of seconds from a date<br /> </td> 
-   <td> SubSeconds(&lt;date&gt;, &lt;number&gt;)<br /> </td> 
+   <td> <strong>サブ秒</strong><br /> </td> 
+   <td> 日付から秒数を減算します<br /> </td> 
+   <td> subSeconds（&lt; date&gt;，&lt; number&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>subYear</strong><br /> </td> 
-   <td> Subtracts a number of years from a date<br /> </td> 
-   <td> SubYears(&lt;date&gt;, &lt;number&gt;)<br /> </td> 
+   <td> <strong>サブイヤー</strong><br /> </td> 
+   <td> 日付から年数を減算します<br /> </td> 
+   <td> subyees（&lt; date&gt;，&lt; number&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>toDate</strong><br /> </td> 
-   <td> Converts a date + time as a date<br /> </td> 
-   <td> ToDate(&lt;date + time&gt;)<br /> </td> 
+   <td> <strong>トデート</strong><br /> </td> 
+   <td> 日付+時刻を日付として変換します<br /> </td> 
+   <td> ToDate（&lt; date+ time&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>toDateTime</strong><br /> </td> 
-   <td> Converts a string to a date + time<br /> </td> 
-   <td> ToDateTime(&lt;string&gt;)<br /> </td> 
+   <td> <strong>ToDateTime</strong><br /> </td> 
+   <td> 文字列を日付+時刻に変換します<br /> </td> 
+   <td> ToDateTime（&lt; string&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>toDateTimeWithTimeZone</strong><br /> </td> 
-   <td> 文字列をdate+ timezoneに変換します。<br /> 例:ToDateTimeWithTimeZone（"2019-02-1908:09:00"，"Asia/Tehran"）<br /> </td> 
-   <td> ToDateTimeWithTimezone(&lt;string&gt;)<br /> </td> 
+   <td> <strong>TimeDateTimeWithZone</strong><br /> </td> 
+   <td> 文字列を日付+タイムゾーンに変換します。<br /> 例:ToDateTimeWithTimeZone（"2019-02-1908:09:00"、「アジア/テヘラン」）<br /> </td> 
+   <td> ToDateTimeWithTimeZone（&lt; string&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>切り捨て日付</strong><br /> </td> 
-   <td> Rounds a date+time to the nearest second<br /> </td> 
-   <td> TruncDate(@lastModified, &lt;number of seconds&gt;)<br /> </td> 
+   <td> <strong>Truncate</strong><br /> </td> 
+   <td> 日付+時刻を最も近い2番目の日付に丸めます<br /> </td> 
+   <td> truncate（@ LastModified、&lt;の秒数&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>truncateTZ</strong><br /> </td> 
-   <td> Rounds a date + time to a given precision expressed in seconds<br /> </td> 
-   <td> TruncDateTZ(&lt;date&gt;, &lt;number of seconds&gt;, &lt;time zone&gt;)<br /> </td> 
+   <td> <strong>トランデート</strong><br /> </td> 
+   <td> 日付+時刻を秒単位で指定した精度に丸めます<br /> </td> 
+   <td> TruncateTZ（&lt; date&gt;、&lt;の秒数&gt;、&lt;タイムゾーン&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>truncalQuarter</strong><br /> </td> 
-   <td> Rounds a date off to the quarter<br /> </td> 
-   <td> TruncQuarter(&lt;date&gt;)<br /> </td> 
+   <td> <strong>トランククォーター</strong><br /> </td> 
+   <td> 四半期に日付を四捨五入します<br /> </td> 
+   <td> SubQuarter（&lt; date&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>truncalTime</strong><br /> </td> 
-   <td> Rounds the time part up to the nearest second<br /> </td> 
-   <td> TruncTime(&lt;date&gt;, &lt;number of seconds&gt;)<br /> </td> 
+   <td> <strong>トランケート時間</strong><br /> </td> 
+   <td> タイムパーツを最も近い2番目の部分まで四捨五入します<br /> </td> 
+   <td> truncTime（&lt; date&gt;、&lt;の秒数&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>truncWeek</strong><br /> </td> 
-   <td> Rounds a date off to the week<br /> </td> 
-   <td> TruncWeek(&lt;date&gt;)<br /> </td> 
+   <td> <strong>トランケート</strong><br /> </td> 
+   <td> 日付を週に四捨五入します<br /> </td> 
+   <td> truncek（&lt; date&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>clocYear</strong><br /> </td> 
-   <td> Rounds a date + time to January 1st of the year<br /> </td> 
-   <td> TruncYear(&lt;date&gt;)<br /> </td> 
+   <td> <strong>Truncate</strong><br /> </td> 
+   <td> 日付+時刻を年の1月1日に丸めます<br /> </td> 
+   <td> Truncate（&lt; date&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Weekday</strong><br /> </td> 
-   <td> Returns the number representing the day in the week of the date<br /> </td> 
-   <td> WeekDay(&lt;date&gt;)<br /> </td> 
+   <td> <strong>平日</strong><br /> </td> 
+   <td> 日付の週の曜日を表す数値を返します<br /> </td> 
+   <td> WeekDay（&lt; date&gt;）<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>年</strong><br /> </td> 
-   <td> Returns the number representing the year of the date<br /> </td> 
-   <td> Year(&lt;date&gt;)<br /> </td> 
+   <td> 日付の年を表す数値を返します<br /> </td> 
+   <td> 年（&lt; date&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>yearAnd Month</strong><br /> </td> 
-   <td> Returns the number representing the year and month of the date<br /> </td> 
-   <td> YearAndMonth(&lt;date&gt;)<br /> </td> 
+   <td> <strong>年と月</strong><br /> </td> 
+   <td> 日付の年と月を表す数値を返します<br /> </td> 
+   <td> YearAndMonth（&lt; date&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>yearsDiff</strong><br /> </td> 
-   <td> Returns the number of years between the two dates<br /> </td> 
-   <td> YearsDiff(&lt;end date&gt;, &lt;start date&gt;)<br /> </td> 
+   <td> <strong>YearsDiff</strong><br /> </td> 
+   <td> 2つの日付間の年数を返します<br /> </td> 
+   <td> YearsDiff（&lt;終了日&gt;、&lt;開始日&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>yearSaled</strong><br /> </td> 
-   <td> Returns the age in years of a date<br /> </td> 
-   <td> YearsOld(&lt;date&gt;)<br /> </td> 
+   <td> <strong>年間販売済み</strong><br /> </td> 
+   <td> 日付を年単位で返します<br /> </td> 
+   <td> YearSold（&lt; date&gt;）<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Geomarketing {#geomarketing}
+## ジオマーケティング {#geomarketing}
 
-ジオマーケティング関数は、地理的価値を操作するために使用します。
+ジオマーケティング関数は地理値を操作するために使用されます。
 
 <table> 
  <tbody> 
   <tr> 
-   <td> <strong>名前</strong><br /> </td> 
+   <td> <strong>名</strong><br /> </td> 
    <td> <strong>説明</strong><br /> </td> 
    <td> <strong>構文</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>距離</strong><br /> </td> 
-   <td> Returns the distance in kilometers between two points defined by their longitude and latitude (expressed in degrees)<br /> </td> 
-   <td> Distance(&lt;Longitude A&gt;, &lt;Latitude A&gt;, &lt;Longitude B&gt;, &lt;Latitude B&gt;)<br /> </td> 
+   <td> <strong>ディスタンス</strong><br /> </td> 
+   <td> 経度と緯度で定義された2点間の距離をキロメートル単位で返します（度単位）。<br /> </td> 
+   <td> 距離（経度A&gt;&gt;、&lt; Latitude A&gt;、&lt;経度B&gt;、&lt; Latitude B&gt;）<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Numerical {#numerical}
+## 数値 {#numerical}
 
 数値関数は、テキストを数値に変換するために使用します。
 
 <table> 
  <tbody> 
   <tr> 
-   <td> <strong>名前</strong><br /> </td> 
+   <td> <strong>名</strong><br /> </td> 
    <td> <strong>説明</strong><br /> </td> 
    <td> <strong>構文</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Abs</strong><br /> </td> 
-   <td> Returns the absolute value of a number<br /> </td> 
-   <td> Abs(&lt;number&gt;)<br /> </td> 
+   <td> <strong>アブス</strong><br /> </td> 
+   <td> 数値の絶対値を返します<br /> </td> 
+   <td> Abs（&lt; number&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Ceil</strong><br /> </td> 
-   <td> Returns the lowest integer greater than or equal to a number<br /> </td> 
-   <td> Ceil(&lt;number&gt;)<br /> </td> 
+   <td> <strong>セイル</strong><br /> </td> 
+   <td> 数値以上の最小の整数を返します<br /> </td> 
+   <td> ceil（&lt; number&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Floor</strong><br /> </td> 
-   <td> Returns the greatest integer greater than or equal to a number<br /> </td> 
-   <td> Floor(&lt;number&gt;)<br /> </td> 
+   <td> <strong>フロア</strong><br /> </td> 
+   <td> 数値以上の最大整数を返します<br /> </td> 
+   <td> 床（&lt;番号&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>最高の</strong><br /> </td> 
-   <td> Returns the greater of two numbers<br /> </td> 
-   <td> Greatest(&lt;number 1&gt;, &lt;number 2&gt;)<br /> </td> 
+   <td> <strong>最大</strong><br /> </td> 
+   <td> 2つの数値を返します<br /> </td> 
+   <td> 最大値（&lt; number1&gt;，&lt; number2&gt;）<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>最小</strong><br /> </td> 
-   <td> Returns the smaller of two numbers<br /> </td> 
-   <td> Least(&lt;number 1&gt;, &lt;number 2&gt;)<br /> </td> 
+   <td> 2つの数値の小さい方を返します<br /> </td> 
+   <td> 最小（&lt; number1&gt;，&lt; number2&gt;）<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Mod</strong><br /> </td> 
-   <td> Returns the remainder of the integer division from n1 by n2<br /> </td> 
-   <td> Mod(&lt;number 1&gt;, &lt;number 2&gt;)<br /> </td> 
+   <td> n1からn2までの整数除算の残りの部分を返します<br /> </td> 
+   <td> Mod（&lt; number1&gt;，&lt; number2&gt;）<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>パーセント</strong><br /> </td> 
-   <td> Returns the ratio of two numbers expressed as a percentage<br /> </td> 
-   <td> Percent(&lt;number 1&gt;, &lt;number 2&gt;)<br /> </td> 
+   <td> パーセンテージで表される2つの数値の比率を返します<br /> </td> 
+   <td> パーセント（&lt; number1&gt;，&lt; number2&gt;）<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>ランダム</strong><br /> </td> 
-   <td> Returns the random value<br /> </td> 
-   <td> Random()<br /> </td> 
+   <td> ランダム値を返す<br /> </td> 
+   <td> ランダム（）<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>ラウンド</strong><br /> </td> 
-   <td> Rounds off a number to n decimals<br /> </td> 
-   <td> Round(&lt;number&gt;, &lt;number of decimals&gt;)<br /> </td> 
+   <td> 数値をn進数に四捨五入します<br /> </td> 
+   <td> ラウンド（&lt; number&gt;，&lt; decimals&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Sign</strong><br /> </td> 
-   <td> Returns the sign of the number<br /> </td> 
-   <td> Sign(&lt;number&gt;)<br /> </td> 
+   <td> <strong>サイン</strong><br /> </td> 
+   <td> 数値の符号を返します<br /> </td> 
+   <td> サイン（&lt; number&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>toDouble</strong><br /> </td> 
-   <td> Converts an integer to a float<br /> </td> 
-   <td> ToDouble(&lt;number&gt;)<br /> </td> 
+   <td> <strong>トダブル</strong><br /> </td> 
+   <td> 整数を浮動小数点に変換します<br /> </td> 
+   <td> ToDouble（&lt; number&gt;）<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>ToInt64</strong><br /> </td> 
-   <td> Converts a float to a 64 bit integer<br /> </td> 
-   <td> ToInt64(&lt;number&gt;)<br /> </td> 
+   <td> floatを64ビット整数に変換します<br /> </td> 
+   <td> ToInt64（&lt; number&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>toInteger</strong><br /> </td> 
-   <td> Converts a float to an integer<br /> </td> 
-   <td> ToInteger(&lt;number&gt;)<br /> </td> 
+   <td> <strong>ToInteger</strong><br /> </td> 
+   <td> 浮動小数点を整数に変換します<br /> </td> 
+   <td> ToInteger（&lt; number&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Trantc</strong><br /> </td> 
-   <td> Truncates n1 to n2 decimals<br /> </td> 
-   <td> Trunc(&lt;n1&gt;, &lt;n2&gt;)<br /> </td> 
+   <td> <strong>トランス</strong><br /> </td> 
+   <td> n1からn2の小数点を切り捨てます<br /> </td> 
+   <td> trunc（&lt; n1&gt;，&lt; n2&gt;）<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Others {#others}
+## その他 {#others}
 
-この表には、残りの機能が含まれています。
+このテーブルには、使用可能な残りの関数が含まれます。
 
 <table> 
  <tbody> 
   <tr> 
-   <td> <strong>名前</strong><br /> </td> 
+   <td> <strong>名</strong><br /> </td> 
    <td> <strong>説明</strong><br /> </td> 
    <td> <strong>構文</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>大文字と小文字</strong><br /> </td> 
-   <td> 条件が検証された場合は、値1を返します。Otherwise, returns value 2<br /> </td> 
-   <td> Case(When(&lt;condition&gt;, &lt;value 1&gt;), Else(&lt;value 2&gt;))<br /> </td> 
+   <td> <strong>ケース</strong><br /> </td> 
+   <td> 条件が検証された場合は、値1を返します。それ以外の場合は、value2を返します<br /> </td> 
+   <td> ケース（&lt;条件&gt;、&lt; value1&gt;）、Else（&lt; value2&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>clearBits</strong><br /> </td> 
-   <td> Deletes the Flag in the value<br /> </td> 
-   <td> ClearBit(&lt;identifier&gt;, &lt;flag&gt;)<br /> </td> 
+   <td> <strong>クリアビット</strong><br /> </td> 
+   <td> 値のフラグを削除します<br /> </td> 
+   <td> ClearBit（&lt; identifier&gt;，&lt;フラグ&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>ココア</strong><br /> </td> 
-   <td> Returns value 2 if value 1 is zero or null, otherwise returns value 1<br /> </td> 
-   <td> Coalesce(&lt;value 1&gt;, &lt;value 2&gt;)<br /> </td> 
+   <td> <strong>コークシュ</strong><br /> </td> 
+   <td> value1がゼロまたはnullの場合はvalue2を返し、それ以外の場合はvalue1を返します<br /> </td> 
+   <td> Coalesce（&lt; value1&gt;，&lt; value2&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Decode</strong><br /> </td> 
-   <td> Returns value 3 is value 1 = value 2, otherwise returns 4<br /> </td> 
-   <td> Decode(&lt;value 1&gt;, &lt;value 2&gt;, &lt;value 3&gt;, &lt;value 4&gt;)<br /> </td> 
+   <td> <strong>デコード</strong><br /> </td> 
+   <td> 値3はvalue1= value2です。それ以外の場合は4を返します<br /> </td> 
+   <td> decode（&lt; value1&gt;，&lt; value2&gt;，&lt; value3&gt;，&lt; value4&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Else</strong><br /> </td> 
-   <td> Returns value 1 (may only be used as a parameter of the case function)<br /> </td> 
-   <td> Else(&lt;value 1&gt;)<br /> </td> 
+   <td> <strong>その他</strong><br /> </td> 
+   <td> 値1を返します（ケース関数のパラメータとしてのみ使用できます）。<br /> </td> 
+   <td> その他（&lt; value1&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>getEmailDomain</strong><br /> </td> 
-   <td> Extracts the domain from an email address<br /> </td> 
-   <td> GetEmailDomain(&lt;value&gt;)<br /> </td> 
+   <td> <strong>GetEmailDomain</strong><br /> </td> 
+   <td> 電子メールアドレスからドメインを抽出します<br /> </td> 
+   <td> GetEmailDomain（&lt; value&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>getMirrorUrl</strong><br /> </td> 
-   <td> Retrieves the URL of the mirror page server<br /> </td> 
-   <td> GetMirrorURL(&lt;value&gt;)<br /> </td> 
+   <td> <strong>GetMirrorURL</strong><br /> </td> 
+   <td> ミラーページサーバーのURLを取得します<br /> </td> 
+   <td> GetMirrorUrl（&lt; value&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Iif</strong><br /> </td> 
-   <td> Returns value 1 if the expression is true, otherwise returns value 2<br /> </td> 
-   <td> Iif(&lt;condition&gt;, &lt;value 1&gt;, &lt;value 2&gt;)<br /> </td> 
+   <td> <strong>イフ</strong><br /> </td> 
+   <td> 式がtrueの場合は値1を返し、それ以外の場合はvalue2を返します<br /> </td> 
+   <td> if（&lt; condition&gt;，&lt; value1&gt;，&lt; value2&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>isBitSet</strong><br /> </td> 
-   <td> Indicates whether the Flag is in the value<br /> </td> 
-   <td> IsBitSet(&lt;identifier&gt;, &lt;flag&gt;)<br /> </td> 
+   <td> <strong>IsBitSet</strong><br /> </td> 
+   <td> フラグが値に含まれているかどうかを示します<br /> </td> 
+   <td> IsBitSet（&lt; identifier&gt;，&lt;フラグ&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>isEmptyString</strong><br /> </td> 
-   <td> Returns value 2 if the string is empty, otherwise returns value 3<br /> </td> 
-   <td> IsEmptyString(&lt;string&gt;, &lt;value 2&gt;, &lt;value 3&gt;)<br /> </td> 
+   <td> <strong>IsEmptyString</strong><br /> </td> 
+   <td> 文字列が空の場合はvalue2を返し、それ以外の場合はvalue3を返します<br /> </td> 
+   <td> ISEmptyString（&lt; string&gt;，&lt; value2&gt;，&lt; value3&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>nonRull</strong><br /> </td> 
-   <td> Returns the empty string if the argument is NULL<br /> </td> 
-   <td> NoNull(&lt;value&gt;)<br /> </td> 
+   <td> <strong>ヌル</strong><br /> </td> 
+   <td> 引数がNULLの場合、空の文字列を返します<br /> </td> 
+   <td> NULL（&lt; value&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>rowID</strong><br /> </td> 
-   <td> Returns the line number<br /> </td> 
-   <td> RowId<br /> </td> 
+   <td> <strong>RowID</strong><br /> </td> 
+   <td> 行番号を返す<br /> </td> 
+   <td> RowID<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>setBits</strong><br /> </td> 
-   <td> Forces the Flag in the value<br /> </td> 
-   <td> SetBit(&lt;identifier&gt;, &lt;flag&gt;)<br /> </td> 
+   <td> <strong>SetBit</strong><br /> </td> 
+   <td> 値のフラグを強制的に強制します<br /> </td> 
+   <td> SetBit（&lt; identifier&gt;，&lt;フラグ&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>setVar</strong><br /> </td> 
-   <td> Sets a variable<br /> </td> 
-   <td> SetVar(&lt;variable&gt;, &lt;expression&gt;)<br /> </td> 
+   <td> <strong>ToBoolean</strong><br /> </td> 
+   <td> 数値をブール値に変換します<br /> </td> 
+   <td> ToBoolean（&lt; number&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>toBoolean</strong><br /> </td> 
-   <td> Converts a number into a Boolean<br /> </td> 
-   <td> ToBoolean(&lt;number&gt;)<br /> </td> 
+   <td> <strong>時</strong><br /> </td> 
+   <td> 式が検証された場合は、値1を返します。それ以外の場合は、value2を返します（ケース関数のパラメータとしてのみ使用できます）。<br /> </td> 
+   <td> （&lt; condition&gt;，&lt; value1&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>タイミング</strong><br /> </td> 
-   <td> 式が検証された場合は、value1を返します。Otherwise, returns value 2 (may only be used as a parameter of the case function)<br /> </td> 
-   <td> When(&lt;condition&gt;, &lt;value 1&gt;)<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <strong>newUuid</strong><br /> </td> 
-   <td> Returns a new UUID.<br /> </td> 
-   <td> newUUID<br /> </td> 
+   <td> <strong>ニューUID</strong><br /> </td> 
+   <td> 新しいUUIDを返します。<br /> </td> 
+   <td> ニューUID<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## String {#string}
+## 文字列 {#string}
 
-文字列関数を使用して、一連の文字列を操作します。
+文字列関数は、文字列のセットを操作するために使用されます。
 
 <table> 
  <tbody> 
   <tr> 
-   <td> <strong>名前</strong><br /> </td> 
+   <td> <strong>名</strong><br /> </td> 
    <td> <strong>説明</strong><br /> </td> 
    <td> <strong>構文</strong><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>AllNonNull2</strong><br /> </td> 
-   <td> Indicates if all parameters are non-null and not empty<br /> </td> 
-   <td> AllNonNull2(&lt;string&gt;, &lt;string&gt;)<br /> </td> 
+   <td> すべてのパラメーターがNULLではなく、空でないかどうかを示します<br /> </td> 
+   <td> AllNonNull2（&lt; string&gt;，&lt; string&gt;）<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>AllNonNull3</strong><br /> </td> 
-   <td> Indicates if all parameters are non-null and not empty<br /> </td> 
-   <td> AllNonNull3(&lt;string&gt;, &lt;string&gt;, &lt;string&gt;)<br /> </td> 
+   <td> すべてのパラメーターがNULLではなく、空でないかどうかを示します<br /> </td> 
+   <td> AllNonNull3（&lt; string&gt;，&lt; string&gt;，&lt; string&gt;）<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>ASCII</strong><br /> </td> 
-   <td> Returns the ASCII value of the first character in the string<br /> </td> 
-   <td> Ascii(&lt;string&gt;)<br /> </td> 
+   <td> 文字列内の最初の文字のASCII値を返します<br /> </td> 
+   <td> ASCII（&lt; string&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Char</strong><br /> </td> 
-   <td> Returns the character corresponding to the 'n' ASCII code<br /> </td> 
-   <td> Char(&lt;number&gt;)<br /> </td> 
+   <td> <strong>チャー</strong><br /> </td> 
+   <td> 'n'ASCIIコードに対応する文字を返します<br /> </td> 
+   <td> char（&lt; number&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Charindex</strong><br /> </td> 
-   <td> Returns the position of string 2 in string 1<br /> </td> 
-   <td> Charindex(&lt;string&gt;, &lt;string&gt;)<br /> </td> 
+   <td> <strong>シャルインデックス</strong><br /> </td> 
+   <td> string1の文字列2の位置を返します<br /> </td> 
+   <td> Charindex（&lt; string&gt;，&lt; string&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>dataLength</strong><br /> </td> 
-   <td> Returns the number of characters in a string<br /> </td> 
-   <td> DataLength(&lt;String&gt;)<br /> </td> 
+   <td> <strong>DataLength</strong><br /> </td> 
+   <td> 文字列内の文字数を返す<br /> </td> 
+   <td> DataLength（&lt; String&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>getLine</strong><br /> </td> 
-   <td> Returns the nth (from 1 to n) line of the string<br /> </td> 
-   <td> GetLine(&lt;string&gt;)<br /> </td> 
+   <td> <strong>GetLine</strong><br /> </td> 
+   <td> 文字列のn番目の行（1からn）を返します<br /> </td> 
+   <td> GetLine（&lt; string&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>isEquals</strong><br /> </td> 
-   <td> Returns the third parameter if the first two parameters are equal otherwise returns the last parameter<br /> </td> 
-   <td> IfEquals(&lt;string&gt;, &lt;string&gt;, &lt;string&gt;, &lt;string&gt;)<br /> </td> 
+   <td> <strong>IFEQUAL</strong><br /> </td> 
+   <td> 最初の2つのパラメーターが等しい場合は3番目のパラメーターを返し、それ以外の場合は最後のパラメーターを返します<br /> </td> 
+   <td> IFEquals（&lt; string&gt;，&lt; string&gt;，&lt; string&gt;，&lt; string&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>isMemoAll</strong><br /> </td> 
-   <td> Indicates if the memo passed as a parameter is null<br /> </td> 
-   <td> IsMemoNull(&lt;Memo&gt;)<br /> </td> 
+   <td> <strong>イスミムノール</strong><br /> </td> 
+   <td> パラメーターとして渡されたメモがnullかどうかを示します<br /> </td> 
+   <td> IsMemNull（&lt;メモ&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>JXTWords</strong><br /> </td> 
-   <td> パラメーターとして渡される2つの文字列を連結します。A space is added between each string in the returned value.<br /> </td> 
-   <td> JuxtWords(&lt;string&gt;, &lt;string&gt;)<br /> </td> 
+   <td> <strong>JuxtWords</strong><br /> </td> 
+   <td> パラメーターとして渡される2つの文字列を計算します。戻り値の各文字列間にスペースが追加されます。<br /> </td> 
+   <td> JuxTWords（&lt; string&gt;，&lt; string&gt;）<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>JuxtWords3</strong><br /> </td> 
-   <td> パラメーターとして渡される3つの文字列を連結します。A space is added between each string in the returned value.<br /> </td> 
-   <td> JuxtWords3(&lt;string&gt;, &lt;string&gt;, &lt;string&gt;)<br /> </td> 
+   <td> パラメーターとして渡される3つの文字列を計算します。戻り値の各文字列間にスペースが追加されます。<br /> </td> 
+   <td> JuxWords3（&lt; string&gt;，&lt; string&gt;，&lt; string&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>LPad</strong><br /> </td> 
-   <td> Returns the completed string on the left<br /> </td> 
-   <td> LPad(&lt;string&gt;, &lt;number&gt;, &lt;caractère&gt;)<br /> </td> 
+   <td> <strong>ラパッド</strong><br /> </td> 
+   <td> 左側の完成した文字列を返します<br /> </td> 
+   <td> LPad（&lt; string&gt;，&lt; number&gt;，&lt; caracecre&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Left</strong><br /> </td> 
-   <td> Returns the first n characters of the string<br /> </td> 
-   <td> Left(&lt;string&gt;, &lt;number&gt;)<br /> </td> 
+   <td> <strong>左</strong><br /> </td> 
+   <td> 文字列の最初のn文字を返します<br /> </td> 
+   <td> 左（&lt; string&gt;、&lt; number&gt;）<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>長さ</strong><br /> </td> 
-   <td> Returns the string length<br /> </td> 
-   <td> Length(&lt;string&gt;)<br /> </td> 
+   <td> 文字列の長さを返す<br /> </td> 
+   <td> 長さ（&lt; string&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Lower</strong><br /> </td> 
-   <td> Returns the string in lowercase<br /> </td> 
-   <td> Lower(&lt;string&gt;)<br /> </td> 
+   <td> <strong>下</strong><br /> </td> 
+   <td> 文字列を小文字で返します<br /> </td> 
+   <td> 下（&lt; string&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Ltrim</strong><br /> </td> 
-   <td> Removes spaces to the left of the string<br /> </td> 
-   <td> Ltrim(&lt;string&gt;)<br /> </td> 
+   <td> <strong>ルトリム</strong><br /> </td> 
+   <td> 文字列の左側にスペースを削除します<br /> </td> 
+   <td> ltrim（&lt; string&gt;）<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Md5Digest</strong><br /> </td> 
-   <td> Returns an hexadecimal representation of the MD5 key of a string<br /> </td> 
-   <td> Md5Digest(&lt;string&gt;)<br /> </td> 
+   <td> 文字列のMD5キーの16進表記を返します<br /> </td> 
+   <td> md5ダイジェスト（&lt; string&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>memOContains</strong><br /> </td> 
-   <td> Specifies whether the memo contains the string passed as a parameter<br /> </td> 
-   <td> MemoContains(&lt;memo&gt;, &lt;string&gt;)<br /> </td> 
+   <td> <strong>MemosContains</strong><br /> </td> 
+   <td> メモにパラメーターとして渡される文字列が含まれるかどうかを指定します<br /> </td> 
+   <td> MemosContains（&lt;メモ&gt;，&lt; string&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>RPad</strong><br /> </td> 
-   <td> Returns the completed string on the right<br /> </td> 
-   <td> RPad(&lt;string&gt;, &lt;number&gt;, &lt;character&gt;)<br /> </td> 
+   <td> <strong>パッド</strong><br /> </td> 
+   <td> 右側の完成した文字列を返します<br /> </td> 
+   <td> rPad（&lt; string&gt;，&lt; number&gt;，&lt;文字&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Replace</strong><br /> </td> 
-   <td> Replaces all occurrences of a specified string (2nd parameter) value with another string value (3rd parameter) in a string (1st parameter)<br /> </td> 
-   <td> Replace(&lt;String&gt;, &lt;String&gt;, &lt;String&gt;)<br /> </td> 
+   <td> <strong>置換</strong><br /> </td> 
+   <td> 指定した文字列（2番目のパラメータ）値を文字列内の別の文字列値（3番目のパラメータ）に置き換えます（1stパラメータ）。<br /> </td> 
+   <td> 置換（&lt; String&gt;，&lt; String&gt;，&lt; String&gt;）<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>右</strong><br /> </td> 
-   <td> Returns the last n characters of the string<br /> </td> 
-   <td> Right(&lt;string&gt;)<br /> </td> 
+   <td> 文字列の最後のn文字を返します<br /> </td> 
+   <td> 右（&lt; string&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Rtrim</strong><br /> </td> 
-   <td> Removes spaces to the right of the string<br /> </td> 
-   <td> Rtrim(&lt;string&gt;)<br /> </td> 
+   <td> <strong>トリム</strong><br /> </td> 
+   <td> 文字列の右側にスペースを削除します<br /> </td> 
+   <td> rtrim（&lt; string&gt;）<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Sha256Digest</strong><br /> </td> 
-   <td> Calculates the standard <strong>SHA256</strong> hash for a given UTF8 string<br /> </td> 
-   <td> Sha256Digest(&lt;String&gt;)<br /> </td> 
+   <td> 指定されたUTF8文字列の標準SHA <strong>256</strong> ハッシュを計算します<br /> </td> 
+   <td> Sha256ダイジェスト（&lt; String&gt;）<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Sha384Digest</strong><br /> </td> 
-   <td> Calculates the standard <strong>SHA384</strong> hash for a given UTF8 string<br /> </td> 
-   <td> Sha384Digest(&lt;String&gt;)<br /> </td> 
+   <td> 指定されたUTF8文字列の標準SHA <strong>384</strong> ハッシュを計算します<br /> </td> 
+   <td> Sha384ダイジェスト（&lt; String&gt;）<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Sha512Digest</strong><br /> </td> 
-   <td> Calculates the standard <strong>SHA512</strong> hash for a given UTF8 string<br /> </td> 
-   <td> Sha512Digest(&lt;String&gt;)<br /> </td> 
+   <td> 指定されたUTF8文字列の標準SHA <strong>512</strong> ハッシュを計算します<br /> </td> 
+   <td> sha512ダイジェスト（&lt; String&gt;）<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>スマート</strong><br /> </td> 
-   <td> Returns the string with the first letter of each word in capitals<br /> </td> 
-   <td> Smart(&lt;string&gt;)<br /> </td> 
+   <td> 各単語の最初の文字の文字列を大文字で返します<br /> </td> 
+   <td> スマート（&lt; string&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>サブ文字列</strong><br /> </td> 
-   <td> Extracts the sub-string starting at character n1 of the string and with a length of n2<br /> </td> 
-   <td> Substring(&lt;string&gt;, &lt;offset&gt;, &lt;length&gt;)<br /> </td> 
+   <td> <strong>文字列</strong><br /> </td> 
+   <td> 文字列の文字n1から始まり、n2の長さのサブストリングを抽出します<br /> </td> 
+   <td> 文字列（&lt; string&gt;，&lt; offset&gt;，&lt; length&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>topIntString</strong><br /> </td> 
-   <td> Converts the number to a string<br /> </td> 
-   <td> ToIntlString(&lt;number&gt;)<br /> </td> 
+   <td> <strong>ToIntlString</strong><br /> </td> 
+   <td> 数値を文字列に変換します<br /> </td> 
+   <td> toIntlString（&lt; number&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>toString</strong><br /> </td> 
-   <td> Converts the number to a string<br /> </td> 
-   <td> ToString(&lt;number&gt;)<br /> </td> 
+   <td> <strong>ToString</strong><br /> </td> 
+   <td> 数値を文字列に変換します<br /> </td> 
+   <td> ToString（&lt; number&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Upper</strong><br /> </td> 
-   <td> Returns the string in capitals<br /> </td> 
-   <td> Upper(&lt;string&gt;)<br /> </td> 
+   <td> <strong>上部</strong><br /> </td> 
+   <td> 文字列を大文字で返します<br /> </td> 
+   <td> 上位（&lt; string&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>fartAllLink</strong><br /> </td> 
-   <td> Returns the foreign key of a link passed as a parameter if the other two parameters are equal<br /> </td> 
-   <td> VirtualLink(&lt;number&gt;, &lt;number&gt;, &lt;number&gt;)<br /> </td> 
+   <td> <strong>VirtualLink</strong><br /> </td> 
+   <td> 他の2つのパラメータが等しい場合、パラメータとして渡されたリンクの外部キーを返します<br /> </td> 
+   <td> VirtualLink（&lt; number&gt;，&lt; number&gt;，&lt; number&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>faultAllLinkStr</strong><br /> </td> 
-   <td> Returns the foreign (text) key of a link passed as a parameter if the other two parameters are equal<br /> </td> 
-   <td> VirtualLinkStr(&lt;string&gt;, &lt;number&gt;, &lt;number&gt;)<br /> </td> 
+   <td> <strong>VirtualLinkStr</strong><br /> </td> 
+   <td> 他の2つのパラメーターが等しい場合に、パラメーターとして渡されたリンクの外部（テキスト）キーを返します<br /> </td> 
+   <td> virtualInkStr（&lt; string&gt;，&lt; number&gt;，&lt; number&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>encryption_ ASCPBDecrypt</strong><br /> </td> 
-   <td> Decrypts an encrypted value in HEX format with "<strong>x</strong>" prefix (1st parameter) using a key in HEX format (2nd parameter) and an initialization vector in HEX format (3rd parameter)<br /> </td> 
-   <td> encryption_aescbcDecrypt(&lt;String&gt;, &lt;String&gt;, &lt;String&gt;)<br /> </td> 
+   <td> <strong>暗号化_ aESCCDecrypt</strong><br /> </td> 
+   <td> 16進形式で暗号化された値を"x<strong></strong>」プレフィックス（1stパラメータ）で復号化します（2番目のパラメータ（2番目のパラメータ）と16進形式の初期化ベクター（3番目のパラメータ）<br /> </td> 
+   <td> encryption_ aESCCDecrypt（&lt; String&gt;，&lt; String&gt;，&lt; String&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>encryption_ ASCPBEncrypt</strong><br /> </td> 
-   <td> AESアルゴリズム（CBCブロックモード）を使用して、文字列（1番目のパラメーター）と初期化ベクトル（3rdパラメータ）を使用して、暗号化を暗号化します。The key and the initialization vector must be given in a hexadecimal representation (starting with <strong>\x</strong>). The result will be in hexadecimal without the <strong>\x</strong>.<br /> キーサイズは128ビット、192ビット、256ビット（16、24、32文字）にすることができますが、キーと同じ長さの256ビットとランダムにIVを使用することをお勧めします。<br /> </td> 
-   <td> encryption_aescbcEncrypt(&lt;String&gt;, &lt;String&gt;, &lt;String&gt;)<br /> For example: encryption_aescbcEncrypt(johndoe@example.com, "<strong>\x0123456789ABCDEF0123456789ABCDEF</strong>", "<strong>\x0123456789ABCDEFFEDCBA9876543210</strong>")<br /> </td> 
+   <td> <strong>暗号化_ aESCCEncrypt</strong><br /> </td> 
+   <td> AESアルゴリズム（CBCブロックモード）を使用して、キー（第2パラメータ）と初期化ベクター（第3パラメータ）との文字列（第1パラメータ）を暗号化します。キーと初期化ベクターは、16進表記（\ <strong>xから開始）で指定</strong>する必要があります。結果は\ <strong>yのない16進数に</strong>なります。<br /> 鍵の大きさは128ビット、192ビット、256ビット（16、24、32の16進文字）であることに注意してください。しかし、このキーと同じ長さの256ビットとランダム化IVを使用することをお勧めします。<br /> </td> 
+   <td> encryption_ aESCCEncrypt（&lt; String&gt;，&lt; String&gt;，&lt; String&gt;）<br /> 例:encryption_ aESCCEncrypt（johndoe@example.com，"\<strong>x0123456789ABCDEF0123456789ABCDEF</strong>」，"\<strong>x0123456789ABCDEFEDCBA9876543210"</strong>）<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Aggregates {#aggregates}
+## 集計 {#aggregates}
 
-The aggregation functions are only available when [adding additional data](../../automating/using/query.md#enriching-data) from a workflow's **[!UICONTROL Query]** activity.
+集計関数は、ワークフローのアクティビティから追加のデータ [](../../automating/using/query.md#enriching-data) を追加する場合にのみ使用 **[!UICONTROL Query]** できます。
 
-集計関数は、値のセットに対して計算を実行するために使用します。
+集計関数は、一連の値に対して計算を実行するために使用されます。
 
 <table> 
  <tbody> 
   <tr> 
-   <td> <strong>名前</strong><br /> </td> 
+   <td> <strong>名</strong><br /> </td> 
    <td> <strong>説明</strong><br /> </td> 
    <td> <strong>構文</strong><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>平均</strong>、平均<br /> </td> 
-   <td> Returns the average in a numerical column.<br /> </td> 
-   <td> Avg(&lt;value&gt;)<br /> </td> 
+   <td> 数値列の平均を返します。<br /> </td> 
+   <td> 平均（&lt; value&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>カウント</strong>、カウント（NULL以外）<br /> </td> 
-   <td> Counts the non-null values in a column.<br /> </td> 
-   <td> Count(&lt;value&gt;)<br /> </td> 
+   <td> <strong>Count</strong>、Count（NULL以外）<br /> </td> 
+   <td> 列のNULL以外の値をカウントします。<br /> </td> 
+   <td> Count（&lt; value&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>countHeight</strong>、すべてをカウント<br /> </td> 
-   <td> Counts all of the values (including null values and duplicates).<br /> </td> 
-   <td> CountAll()<br /> </td> 
+   <td> <strong>CountHeight</strong>、カウント<br /> </td> 
+   <td> すべての値（NULL値と重複を含む）をカウントします。<br /> </td> 
+   <td> CountHeight（）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>カウント独特</strong>、個別カウント<br /> </td> 
-   <td> Counts the non-null, distinct values in a column.<br /> </td> 
-   <td> Countdistinct(&lt;value&gt;)<br /> </td> 
+   <td> <strong>CountDistinct</strong>、Distinctカウント<br /> </td> 
+   <td> 列内のNULL以外の個別の値をカウントします。<br /> </td> 
+   <td> CountDistinct（&lt; value&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>最大</strong>値、最大値<br /> </td> 
-   <td> Returns the maximum value in a numerical, string, or date column.<br /> </td> 
-   <td> Max(&lt;value&gt;)<br /> </td> 
+   <td> <strong>最大</strong>、最大<br /> </td> 
+   <td> 数値、文字列、または日付の列の最大値を返します。<br /> </td> 
+   <td> 最大値（&lt; value&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Min</strong>， Min<br /> </td> 
-   <td> Returns the minimum value in a numerical, string, or date column.<br /> </td> 
-   <td> Min(&lt;value&gt;)<br /> </td> 
+   <td> <strong>ミン</strong>ミン<br /> </td> 
+   <td> 数値、文字列、または日付の列の最小値を返します。<br /> </td> 
+   <td> 最小（&lt; value&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Sum</strong>， Sum<br /> </td> 
-   <td> Returns the sum of the values in a numerical column.<br /> </td> 
-   <td> Sum(&lt;value&gt;)<br /> </td> 
+   <td> <strong>Sum Sum Sum Sum Sum Sum Sum Sum</strong>Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum Sum<br /> </td> 
+   <td> 数値列の値の和を返します。<br /> </td> 
+   <td> Sum（&lt; value&gt;）<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Representation {#representation}
+## 表現 {#representation}
 
-表現関数は、値の順番に使用されます。
+表示関数は、値の順序付けに使用します。
 
 <table> 
  <tbody> 
   <tr> 
-   <td> <strong>名前</strong><br /> </td> 
+   <td> <strong>名</strong><br /> </td> 
    <td> <strong>説明</strong><br /> </td> 
    <td> <strong>構文</strong><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Desc</strong><br /> </td> 
-   <td> Applies a descending sort<br /> </td> 
-   <td> Desc(&lt;value 1&gt;)<br /> </td> 
+   <td> 降順の並べ替えを適用します<br /> </td> 
+   <td> Desc（&lt; value1&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>orderBy</strong><br /> </td> 
-   <td> Sorts the result within the partition<br /> </td> 
-   <td> OrderBy(&lt;value 1&gt;)<br /> </td> 
+   <td> <strong>OrderBy</strong><br /> </td> 
+   <td> パーティション内の結果を並べ替えます<br /> </td> 
+   <td> OrderBy（&lt; value1&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>splectionBy</strong><br /> </td> 
-   <td> Partitions the result of a query on a table<br /> </td> 
-   <td> PartitionBy(&lt;value 1&gt;)<br /> </td> 
+   <td> <strong>パーティションBY</strong><br /> </td> 
+   <td> テーブルに対するクエリの結果をパーティション分割します<br /> </td> 
+   <td> PartitionBy（&lt; value1&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>rowNum</strong><br /> </td> 
-   <td> テーブルのパーティションと並べ替え順に基づいて行番号を生成します。This function is not supported for MySQL<br /> </td> 
-   <td> RowNum(PartitionBy(&lt;value 1&gt;), OrderBy(&lt;value 1&gt;))<br /> </td> 
+   <td> <strong>ロWnンム</strong><br /> </td> 
+   <td> テーブルパーティションと並べ替えシーケンスに基づいて、行番号を生成します。この関数はMySQLではサポートされていません<br /> </td> 
+   <td> RowNum（PartitionBy（&lt; value1&gt;）、OrderBy（&lt; value1&gt;））<br /> </td> 
   </tr> 
  </tbody> 
 </table>
