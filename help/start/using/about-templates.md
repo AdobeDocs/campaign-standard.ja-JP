@@ -14,7 +14,7 @@ discoiquuid: 95218BE-5430-42a2- b900-1dadbbc92d99
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8e2766bb9fef619142d3ee59cb8aa8ed20424a3f
+source-git-commit: 816c580d952848ac760c9a98c06f54bf260f3554
 
 ---
 
@@ -54,15 +54,15 @@ source-git-commit: 8e2766bb9fef619142d3ee59cb8aa8ed20424a3f
 
 ## コンテンツテンプレート {#content-templates}
 
-HTMLコンテンツテンプレートには、[詳細設定]メニューの **[!UICONTROL Resources]** [&gt; **[!UICONTROL Content templates & fragments]** ]画面からアクセス [](../../start/using/interface-description.md#advanced-menu)できます。そこから、ランディングページのコンテンツテンプレート、電子メールのコンテンツテンプレート、フラグメントを管理できます。
+HTMLコンテンツテンプレートには、[詳細設定]メニューの **[!UICONTROL Resources]** [&gt; **[!UICONTROL Content templates & fragments]** ]画面からアクセス [](../../start/using/interface-description.md#advanced-menu)できます。ここから、ランディングページのコンテンツテンプレート、電子メールコンテンツテンプレート、およびフラグメントを管理できます。
 
 ![](assets/content_templates_list.png)
 
-既定のコンテンツテンプレートは読み取り専用です。1つを編集するには、最初にそれを複製する必要があります。
+既定のコンテンツテンプレートは読み取り専用です。これらのいずれかを編集するには、まず目的のテンプレートを複製する必要があります。
 
 新しいテンプレートまたはフラグメントを作成し、独自のコンテンツを定義できます。詳細については、「 [コンテンツテンプレートの作成](../../start/using/about-templates.md#creating-a-content-template) とコンテンツフラグメント [の作成」を](../../designing/using/defining-the-email-structure.md#creating-a-content-fragment)参照してください。
 
-電子メールデザイナでコンテンツを編集する場合は、コンテンツをフラグメントまたはテンプレートとして保存することで、コンテンツテンプレートを作成することもできます。詳細については、「コンテンツ [をテンプレートとして保存する」](../../start/using/about-templates.md#saving-content-as-template) および「コンテンツ [をフラグメントとして保存する」を](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment)参照してください。
+電子メールデザイナでコンテンツを編集する場合は、コンテンツをフラグメントとして保存するかテンプレートとして保存することで、コンテンツテンプレートを作成することもできます。詳細については、「コンテンツ [をテンプレートとして保存する」](../../start/using/about-templates.md#saving-content-as-template) および「コンテンツ [をフラグメントとして保存する」を](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment)参照してください。
 
 ### すぐに使える電子メールコンテンツテンプレート {#email-content-templates}
 
