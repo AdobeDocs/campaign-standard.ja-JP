@@ -14,7 +14,7 @@ discoiquuid: dcee9711-7fa6-4773- ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8006d2631a512c68ffdd6eed9e7536abac45faa2
+source-git-commit: 815a0aba5a31346e3cd8dcaf0c24ee311da81ed1
 
 ---
 
@@ -26,6 +26,14 @@ Adobe Campaign Standardドキュメントの最新の更新プログラムにつ
 このページには、Adobe Campaign Standardの各リリースに関するすべての新機能とドキュメントの更新が記載されています。
 
 Adobe Campaign [リリースノートも参照](../../rn/using/release-notes.md)できます。
+
+## ドキュメンテーションの更新-2019年9月 {#doc-updates-september-2019}
+
+モバイルアプリケーションサブスクリプションデータに基づいてプロファイル情報を作成および更新する方法の「プッシュ通知」セクションに新しいセクションが追加されました。[もっと読む](../../channels/using/updating-profile-with-mobile-app-data.md)
+
+ロードファイルアクティビティから取得した追加データを含む電子メールの送信方法を示す新しい例が追加されました。[もっと読む](../../automating/using/load-file.md#example-2-email-with-enriched-fields)
+
+トラップの使用方法に関する新しいセクションが追加されました。[もっと読む](../../sending/using/managing-test-profiles-and-sending-proofs.md#using-traps)
 
 ## ドキュメンテーションの更新-2019年8月 {#doc-updates-august-2019}
 
