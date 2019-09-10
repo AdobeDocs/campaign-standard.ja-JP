@@ -15,7 +15,7 @@ context-tags: ワークフロー、ユースケース、セグメンテーショ
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e77c8a65834009f2f7157d9535ae8e12e59244ff
+source-git-commit: 035726bbd3112058b9a89525a861521bc3b9867e
 
 ---
 
@@ -36,6 +36,8 @@ source-git-commit: e77c8a65834009f2f7157d9535ae8e12e59244ff
 1. で **[!UICONTROL Shortcuts]**、ドラッグアンドドロップ **[!UICONTROL Profiles]** して値 **[!UICONTROL no longer contact by email]** を選択 **[!UICONTROL no]**&#x200B;します。
 1. **[!UICONTROL Confirm]**&#x200B;をクリックします。
 
+![](assets/wf-complement-query.png)
+
 ## セグメンテーションアクティビティを作成する {#create-a-segmentation-activity}
 
 1. **[!UICONTROL Activities]** &gt;&gt; **[!UICONTROL Targeting]**&#x200B;で **[!UICONTROL Segmentation]** 、アクティビティをドラッグアンドドロップしてダブルクリックします。
@@ -46,6 +48,8 @@ source-git-commit: e77c8a65834009f2f7157d9535ae8e12e59244ff
 1. で **[!UICONTROL Advanced Options]**、 **[!UICONTROL Generate complement]** 残りの受信者を対象とするセグメントを作成します。
 1. **[!UICONTROL Confirm]**&#x200B;をクリックします。
 1. **[!UICONTROL Save]**&#x200B;をクリックします。
+
+![](assets/wf-complement-segmentation.png)
 
 >[!NOTE]
 >
@@ -65,6 +69,8 @@ source-git-commit: e77c8a65834009f2f7157d9535ae8e12e59244ff
 1. **[!UICONTROL Save]**&#x200B;をクリックします。
 
 詳細については、電子メール [の設計](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch)を参照してください。
+
+![](assets/wf-deliveries-with-a-complement.png)
 
 **関連トピック:**
 
