@@ -1,121 +1,124 @@
 ---
-title: クエリーの編集
-seo-title: クエリーの編集
-description: クエリーの編集
-seo-description: 事前定義済みのフィルターとルールに基づいて、母集団を構築します。
-page-status-flag: 常にアクティブ化されていない
-uuid: a49c7739- a96c-45cb-9ac5-1ce299161a97
-contentOwner: サウビート
-products: SG_ CAMPAIGN/STANDARD
+title: クエリの編集
+seo-title: クエリの編集
+description: クエリの編集
+seo-description: 定義済みのフィルタおよびルールにより、母集団を構築します。
+page-status-flag: 決して活性化されていない
+uuid: 49c7739- a96c-45cb-9ac5-1ce299161a97
+contentOwner: ソビア
+products: SG_キャンペーン/標準
 audience: 自動化
 content-type: 参照
-topic-tags: filtering- data
-discoiquuid: 84306a1e-0d9f-44cc-88a7-36d7e5b4da1f
-context-tags: queryFilter， overview;オーディエンス、メイン
+topic-tags: フィルタリングデータ
+discoiquuid: 84306a1e-0d-88a7-36d7e5b4da1f
+context-tags: QueryFilter、概要観客主
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
+source-git-commit: bb65cbf808a95e8b42b2a682b7c0a9cc6225d920
 
 ---
 
 
-# Editing queries{#editing-queries}
+# クエリの編集{#editing-queries}
 
-## About query editor {#about-query-editor}
+## クエリエディターについて {#about-query-editor}
 
-クエリーエディターは、Adobe Campaignデータベースに含まれるデータをフィルターするためのウィザードです。
+クエリエディターは、Adobe Campaignデータベースに含まれるデータをフィルター処理できるウィザードです。
 
-この機能により、事前定義済みのフィルターやルールにより、受信者をより的確にターゲット設定することができます。
+この機能を使用すると、事前定義済みのフィルタおよびルールにより、受信者をより適切にターゲットにするための人口を構築できます。
 
-いくつかのアプリケーション機能では、次のものが使用されます。
+いくつかのアプリケーション機能は、次のように使用します。
 
-* **クエリ** タイプ **オーディエンスの作成**
+* **クエリ** の種類 **のユーザーの作成**
 * **電子メール** ターゲットの定義
-* **ワークフロー** アクティビティでの母集団の定義
+* **ワークフロー** 活動での人口の定義
 
-## Query editor interface {#query-editor-interface}
+## クエリエディターインターフェイス {#query-editor-interface}
 
-The query editor is made up of a **Palette** and a **Workspace**.
+クエリエディターは、 **パレット** とワークス **ペースで構成**&#x200B;されます。
 
 ![](assets/query_editor_overview.png)
 
-### Palette {#palette}
+### パレット {#palette}
 
-エディターの左側にあるパレットは2つのタブに分かれており、要素をテーマブロックに分割しています。これらのタブは次のとおりです。
+エディタの左側にあるパレットは、主題ブロックに分割された要素を含む2つのタブに分かれています。これらのタブは次のとおりです。
 
-* **デフォルト**&#x200B;で使用可能なショートカット。またはインスタンス管理者によって作成されます。以下に、フィールド、ノード、グループ、1対1のリンク、1- Nリンク、その他の定義済みフィルターを示します。
-* The **Explorer** which allows you to access all available fields in the target resource: nodes, grouping elements, links (1-1 and 1-N).
+* 既定 **で使用可能なショートカット**、またはインスタンス管理者によって作成されたショートカット。ここには、フィールド、ノード、グループ化、1-1リンク、1- Nリンク、およびその他の定義済みフィルタがあります。
+* ターゲット・リソース内の使用可能なすべてのフィールドにアクセスできる **Explorer** :ノード、グループ化要素、リンク（1-1および1- N）。
 
-クエリーを設定するには、タブに含まれる要素をワークスペースに移動し、それをワークスペースに移動する必要があります。Depending on the targeting dimension selected (see [Targeting dimensions and resources](../../automating/using/query.md#targeting-dimensions-and-resources)), you can:
+タブに含まれる要素は、クエリに対して構成および考慮するために、ワークスペースに移動する必要があります。選択したターゲット次元に応じて（次元およびリソース [](../../automating/using/query.md#targeting-dimensions-and-resources)のターゲットを参照）、次のことができます。
 
-* オーディエンスまたはプロファイルを1つずつ選択
+* 対象者またはプロファイルを1つずつ選択
 * 定義済みフィルターの使用
 * 選択したフィールドの単純なルールを定義する
-* 特定のフィールドに関数を適用できる高度なルールの定義
+* 特定のフィールドに関数を適用できる高度な規則の定義
 
-### Workspace {#workspace}
+### ワークスペース {#workspace}
 
-ワークスペースは中央のゾーンで、ルール、オーディエンスおよび定義済みのフィルターをパレットから追加して、組み合わせることができます。
+ワークスペースは、ルール、対象者、およびパレットから追加された定義済みフィルタを構成および結合できる中央ゾーンです。
 
-When you move an element from the palette into the workspace, a new window opens and you can start [Creating queries](../../automating/using/editing-queries.md#creating-queries).
+パレットからワークスペースに要素を移動すると、新しいウィンドウが開き、「クエリーの作成」を開始 [](../../automating/using/editing-queries.md#creating-queries)できます。
 
-## Creating queries {#creating-queries}
+## クエリの作成 {#creating-queries}
 
-クエリエディターを使用して、メッセージ内のオーディエンスまたはテストプロファイル、ワークフローの母集団、およびクエリタイプオーディエンスを定義できます。
+クエリエディターを使用すると、メッセージ内の対象者またはテストプロファイルを定義したり、ワークフロー内の母集団を作成したり、クエリ型の対象者を作成したりできます。
 
-Queries can be defined in the **[!UICONTROL Audience]** window while creating a delivery or in a **Query** activity while creating a workflow.
+クエリは、 **[!UICONTROL Audience]** 配信の作成中、またはワークフローの作成中にクエリ **** アクティビティで定義できます。
 
-1. パレットからワークスペースに要素を移動します。ルールを編集するウィンドウが開きます。
+1. パレットからワークスペースに要素を移動します。ルールを編集するためのウィンドウが開きます。
 
-   * For a string or numerical **field**, specify the comparison operator and the value.
+   * 文字列または数値 **フィールド**&#x200B;の場合は、比較演算子と値を指定します。
 
       ![](assets/query_editor_audience_definition2.png)
 
-   * For a date or date and time **field**, you can choose to define a specific date, a range between two dates, or a period relative to the query's execution date.
+   * 日付または日付と時刻 **のフィールド**&#x200B;では、特定の日付、2つの日付間の範囲、またはクエリの実行日に対して相対的な期間を指定できます。
 
       ![](assets/query_editor_date_field.png)
 
-   * For a Boolean **field**, check the boxes linked to the possible values for the field.
-   * **グループ** 化フィールドでは、ルールを作成するグループ化フィールドを選択し、他のフィールドと同じ方法で条件を定義します。
+   * ブール型 **フィールド**&#x200B;の場合は、フィールドの可能な値にリンクされたボックスをチェックします。
+   * **グループ化** フィールドの場合は、ルールを作成するグループ化フィールドを選択し、その他のフィールドと同じ方法で条件を定義します。
 
       ![](assets/query_editor_audience_definition4.png)
 
-   * **別のデータベースリソースと1対1** のリンクの場合は、ターゲット設定されているテーブルから直接値を選択します。
+   * 別のデータベースリソースと **** の1-1リンクの場合は、対象のテーブルから直接値を選択します。
 
       ![](assets/query_editor_audience_definition5.png)
 
-   * For a **1-N** link with another database resource, you can define a sub-query on the fields of this second resource.
+   * 別のデータベースリソースを持つ **1- N** リンクの場合は、この2番目のリソースのフィールドにサブクエリを定義できます。
 
       サブ条件を指定する必要はありません。
 
-      For example, you can only select the **[!UICONTROL Exists]** operator on the profile tracking logs and approve the rule. ルールは、トラッキングログが存在するすべてのプロファイルを返します。
+      たとえば、プロファイル追跡ログでオペレーター **[!UICONTROL Exists]** を選択し、規則を承認することのみできます。ルールは、追跡ログが存在するすべてのプロファイルを返します。
 
       ![](assets/query_editor_audience_definition6.png)
 
-   * **事前定義済みのフィルター**&#x200B;の場合は、提供する条件に応じて、「いいね!"を入力または選択します。
+   * **定義済みのフィルタ**&#x200B;の場合は、提示する基準に従って、目的の要素を入力または選択します。
 
-      管理者は、複雑なクエリーと繰り返しクエリーを容易にするフィルターを作成できます。これらは事前設定されたルールの形式でクエリエディターに表示され、ユーザーが実行する必要のあるステップ数を制限します。
+      管理者は、複雑で反復的なクエリを容易にするフィルターを作成できます。これらは、クエリエディターに事前構成済み規則の形式で表示され、ユーザーが実行する必要のあるステップ数を制限します。
 
       ![](assets/query-editor_filter_email-audience_filter.png)
 
-1. ルールの名前を指定できます。これは、ワークスペースにルール名として表示されます。ルールに名前が付けられていない場合は、条件の自動説明が表示されます。
-1. ワークスペース要素を組み合わせるには、相互にロックして異なるグループやグループレベルを作成します。その後、論理演算子を選択して、同じレベルの要素を組み合わせることができます。
+1. ルールの名前を指定できます。これは、ワークスペースにルール名として表示されます。ルールに名前が指定されていない場合は、条件の自動的な説明が表示されます。
+1. ワークスペース要素を結合するには、相互ロックして別のグループやグループレベルを作成します。次に、同じレベルの要素を結合する論理演算子を選択できます。
 
-   * **[!UICONTROL AND]**:2つの条件の共通部分。各条件に一致する要素のみが考慮されます。
-   * **[!UICONTROL OR]**:2つの条件の統合。少なくとも2つの条件のいずれかに一致する要素が考慮されます。
-   * **[!UICONTROL EXCEPT]**:除外条件を使用します。最初の条件に一致する要素も、2つ目の条件に一致する場合を除き考慮されます。
+   * **[!UICONTROL AND]**:2つの基準の交点。各基準に一致する要素のみが考慮されます。
+   * **[!UICONTROL OR]**:2つの基準の和集合。2つの基準のうち少なくとも1つに一致する要素を考慮します。
+   * **[!UICONTROL EXCEPT]**:除外条件。最初の基準に一致する要素は、2番目の基準に一致しない限り考慮されます。
 
-1. You can now calculate and preview the number of elements targeted by your query using the ![](assets/count.png) and ![](assets/preview.png) buttons from the action bar.
+1. アクションバーのボタン ![](assets/count.png)![](assets/preview.png) とボタンを使用して、クエリによってターゲットの要素数を計算およびプレビューできます。
 
    ![](assets/query_editor_combining_rules.png)
 
-クエリの要素を変更する場合は、編集アイコンをクリックします。ルールは以前に設定されたとおりに開かれ、必要な調整を行うことができます。
+クエリーの要素を変更する場合は、編集アイコンをクリックします。ルールは以前に構成されたときに開かれ、必要な調整を実行できます。
 
-クエリが作成および定義されるので、配信をパーソナライズするために母集団を構築できます。
+これでクエリが作成され、定義されました。これにより、配信をより適切にカスタマイズするための人口を構築できます。
 
 **関連トピック:**
 
-* [高度な関数](../../automating/using/advanced-expression-editing.md)
+* [高度な機能](../../automating/using/advanced-expression-editing.md)
 * [フィルターの定義](../../developing/using/configuring-filter-definition.md)
-
+* [ユースケース:1週間の電子メール配信を作成する](../../automating/using/workflow-weekly-offer.md)
+* [ユースケース:場所にセグメント化された配信の作成](../../automating/using/workflow-segmentation-location.md)
+* [ユースケース:補足を使用した搬送の作成](../../automating/using/workflow-created-query-with-complement.md)
+* [ユースケース:新しい配送を非公開者に送信するワークフローの再ターゲット](../../automating/using/workflow-cross-channel-retargeting.md)
