@@ -1,26 +1,26 @@
 ---
-title: 電子メール配信
-seo-title: 電子メール配信
-description: 電子メール配信
-seo-description: 電子メール配信アクティビティを使用すると、ワークフローで単一の送信電子メールまたは定期電子メールを送信できます。
-page-status-flag: 常にアクティブ化されていない
-uuid: 7de53431-84ae-4d21-8361-2775ad314ED2
-contentOwner: サウビート
-products: SG_ CAMPAIGN/STANDARD
+title: Eメール配信
+seo-title: Eメール配信
+description: Eメール配信
+seo-description: 電子メール配信活動では、ワークフローで単一の送信電子メールまたは定期的な電子メールを送信するように構成できます。
+page-status-flag: 決して活性化されていない
+uuid: 7de53431-84e-4d21-8361-2775ad314ed2
+contentOwner: ソビア
+products: SG_キャンペーン/標準
 audience: 自動化
 content-type: 参照
-topic-tags: チャネルアクティビティ
-discoiquuid: 5f288cf6- f8ff-4ac9-9c1a-8010260554bb
-context-tags: 配信，ワークフロー，メイン
+topic-tags: チャンネル活動
+discoiquuid: 5f288cf6- f8ff-4ac-9c1a-8010260554bb
+context-tags: 配送、ワークフロー、メイン
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
+source-git-commit: bb65cbf808a95e8b42b2a682b7c0a9cc6225d920
 
 ---
 
 
-# Email delivery{#email-delivery}
+# Eメール配信{#email-delivery}
 
 ## 説明 {#description}
 
@@ -28,81 +28,87 @@ source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
 
 ![](assets/recurrentemail.png)
 
-**[!UICONTROL Email delivery]** アクティビティでは、ワークフローでの電子メールの送信を設定できます。This can be a **single send** email and sent just once, or it can be a **recurring** email.
+**[!UICONTROL Email delivery]** このアクティビティでは、ワークフローで電子メールを送信するように構成できます。これは **1回の送信** 電子メールで送信することも、1回だけ送信することも **、定期的** に送信することもできます。
 
-単一送信電子メールは標準電子メールで、1回送信されます。
+一回のメールは標準のメールで、一度送った。
 
-定期的な電子メールを使用すると、定義済みの期間にわたって、同一の電子メールを複数のターゲットに対して複数回送信できます。期間ごとの配信を集計して、ニーズに対応するレポートを取得できます。
+定期的な電子メールでは、定義された期間にわたって同じ電子メールを異なるターゲットに複数回送信できます。必要に応じたレポートを取得するには、期間ごとの搬送を集計できます。
 
-## Context of use {#context-of-use}
+## 使用状況 {#context-of-use}
 
-**[!UICONTROL Email delivery]** このアクティビティは、一般に、同じワークフローで計算されたターゲットに電子メールを送信するために使用されます。
+**[!UICONTROL Email delivery]** このアクティビティは通常、同じワークフローで計算されたターゲットへの電子メールの送信を自動化するために使用されます。
 
-スケジューラーにリンクすると、定期的な電子メールを定義できます。
+スケジューラにリンクすると、定期的な電子メールを定義できます。
 
-電子メールの受信者は、クエリ、交差などのターゲットアクティビティを通して、同じワークフロー内のアクティビティのアップストリームを定義します。
+電子メール受信者は、クエリ、交差などのターゲットアクティビティを介して、同じワークフロー内のアクティビティの上流に定義されます。
 
-メッセージの実行パラメーターに従ってメッセージの準備がトリガーされます。メッセージダッシュボードから、メッセージを送信するかどうかを手動で確認できます（デフォルトで必須）。ワークフローを手動で開始することも、ワークフローにスケジューラーアクティビティを配置して実行を自動化することもできます。
+メッセージ準備は、ワークフロー実行パラメーターに従ってトリガーされます。メッセージ・ダッシュボードから、メッセージを送信するかどうかを手動で確認するかどうかを選択できます（デフォルトでは必須）。ワークフローを手動で開始するか、ワークフローにスケジューラアクティビティを配置して実行を自動化できます。
 
-## Configuration {#configuration}
+## 構成 {#configuration}
 
-1. Drag and drop an **[!UICONTROL Email delivery]** activity into your workflow.
-1. Select the activity, then open it using the ![](assets/edit_darkgrey-24px.png) button from the quick actions that appear.
+1. **[!UICONTROL Email delivery]** アクティビティをワークフローにドラッグアンドドロップします。
+1. アクティビティを選択し、表示されるクイックアクションの ![](assets/edit_darkgrey-24px.png) ボタンを使用して開きます。
 
    >[!NOTE]
    >
-   >You can access the general properties and advanced options of the activity (and not of the delivery itself) via the ![](assets/dlv_activity_params-24px.png) button from the activity's quick actions. This button is specific to the **[!UICONTROL Email delivery]** activity. 電子メールのプロパティには、電子メールダッシュボードのアクションバーからアクセスできます。
+   >アクティビティのクイックアクションの ![](assets/dlv_activity_params-24px.png) ボタンを介して、アクティビティの全般的なプロパティおよび詳細オプションにアクセスできます（配信自体ではありません）。このボタンは **[!UICONTROL Email delivery]** アクティビティに固有です。電子メールのプロパティには、電子メールダッシュボードのアクションバーを介してアクセスできます。
 
-1. 電子メール送信モードを選択します。
+1. 電子メール送信モードを選択:
 
-   * **[!UICONTROL Email]**:電子メールが1回送信されます。アクティビティにアウトバウンドトランジションを追加するかどうかを指定できます。この手順の手順7では、様々な移行タイプについて説明しています。
-   * **[!UICONTROL Recurring email]**: **[!UICONTROL Scheduler]** アクティビティに定義されている頻度に従って、電子メールが数回送信されます。送信の集計期間を選択します。This allows you to regroup all the sends that occur during the defined period in one single email that is also called **Recurring execution** and can be accessed from the application's marketing activity list.
+   * **[!UICONTROL Email]**:メールが一回送られた。ここでは、アクティビティに送信遷移を追加するかどうかを指定できます。異なる遷移タイプについては、手順7で詳しく説明します。
+   * **[!UICONTROL Recurring email]**:電子メールは、 **[!UICONTROL Scheduler]** アクティビティで定義された頻度に従って数回送信されます。送信の集計期間を選択します。これにより、定義済みの期間中に発生したすべての送信を1つの電子メールで再グループ化できます。これは **定期的な実行** とも呼ばれ、アプリケーションのマーケティング活動リストからアクセスできます。
 
-      例えば、毎日の誕生日の電子メールの場合、毎日送信するように選択できます。これにより、電子メールは毎日送信されるので、毎月の配信に関するレポートを受信できます。
+      たとえば、定期的な誕生日電子メールで送信される定期的な電子メールの場合は、毎月送信するように選択できます。これにより、電子メールは毎日送信されますが、毎月の配信に関するレポートを受け取ることができます。
 
-1. 電子メールの種類を選択します。The email types come from email templates defined in the **[!UICONTROL Resources]** &gt; **[!UICONTROL Templates]** &gt; **[!UICONTROL Delivery templates]** menu.
-1. 電子メールの一般的なプロパティを入力します。既存のキャンペーンにも添付できます。ワークフローの配信アクティビティのラベルが電子メールラベルで更新されます。
-1. 電子メールコンテンツを定義します。[コンテンツの編集](../../designing/using/about-email-content-design.md)に関するセクションを参照してください。
-1. By default, the **[!UICONTROL Email delivery]** activity does not include any outbound transitions. If you would like to add an outbound transition to your **[!UICONTROL Email delivery]** activity, go to the **[!UICONTROL General]** tab of the advanced activity options ( ![](assets/dlv_activity_params-24px.png) button in the activity's quick actions) then check one of the following options:
+1. 電子メールの種類を選択します。電子メールの種類は、&gt; **[!UICONTROL Resources]****[!UICONTROL Templates]** &gt; **[!UICONTROL Delivery templates]** メニューで定義された電子メールテンプレートから取得します。
+1. 電子メールの一般的なプロパティを入力します。既存のキャンペーンにアタッチすることもできます。ワークフローの配信アクティビティのラベルが電子メールラベルで更新されます。
+1. 電子メールの内容を定義します。[コンテンツ編集](../../designing/using/about-email-content-design.md)に関するセクションを参照してください。
+1. 既定では、アクティビティ **[!UICONTROL Email delivery]** には送信遷移は含まれません。**[!UICONTROL Email delivery]** アクティビティに送信遷移を追加する場合は、詳細アクティビティ **[!UICONTROL General]** のオプション（アクティビティのクイックアクションの ![](assets/dlv_activity_params-24px.png) ボタン）のタブに移動し、次のいずれかのオプションを確認します。
 
-   * **[!UICONTROL Add outbound transition without the population]**:これにより、インバウンドトランジションとまったく同じ訪問者を含むアウトバウンドトランジションを生成できます。
-   * **[!UICONTROL Add outbound transition with the population]**:これにより、電子メールの送信対象母集団を含むアウトバウンドトランジションを生成できます。配信準備中に除外されるターゲットのメンバー（強制隔離、電子メールなど）は、この移行から除外されます。
+   * **[!UICONTROL Add outbound transition without the population]**:これにより、着信遷移とまったく同じ人口を含む送信遷移を生成できます。
+   * **[!UICONTROL Add outbound transition with the population]**:これにより、電子メールが送信された人口を含む送信推移を生成できます。配信準備中に除外されたターゲットのメンバー（検疫、無効な電子メールなど）この遷移から除外されます。
 
-1. アクティビティの設定を確認し、ワークフローを保存します。
+1. アクティビティの構成を確認し、ワークフローを保存します。
 
-アクティビティを再度開くと、電子メールダッシュボードに直接移動します。編集できるのはコンテンツのみです。
+アクティビティを再度開くと、電子メールダッシュボードに直接移動します。編集できるのはそのコンテンツだけです。
 
-デフォルトでは、配信ワークフローを開始すると、メッセージの準備のみが開始されます。ワークフローを開始した後でもワークフローから作成されたメッセージを送信する必要があります。But from the message dashboard, and only if the message was created from a workflow, you can disable the **[!UICONTROL Request confirmation before sending messages]** option. このオプションのチェックを解除すると、準備が完了すると、それ以上通知なしでメッセージが送信されます。
+既定では、配信ワークフローを開始するとメッセージの準備のみがトリガーされます。ワークフローから作成されたメッセージの送信は、ワークフローの開始後も確認する必要があります。メッセージのダッシュボードから、メッセージがワークフローから作成された場合にのみ、オプション **[!UICONTROL Request confirmation before sending messages]** を無効にできます。このオプションをオフにすると、準備が完了するとメッセージが送信されなくなります。
 
-## Remarks {#remarks}
+## 解説 {#remarks}
 
-ワークフロー内で作成された配信は、アプリケーションのマーケティングアクティビティリストからアクセスできます。ダッシュボードを使用して、ワークフローの実行ステータスを表示できます。電子メールサマリペインのリンクを使用すると、リンクされた要素（ワークフロー、キャンペーン、定期的な電子メールの場合の親配信）に直接アクセスできます。
+ワークフロー内で作成された搬送は、アプリケーションのマーケティング活動リストでアクセスできます。ダッシュボードを使用して、ワークフローの実行ステータスを表示できます。電子メール要約ペインのリンクでは、リンクされた要素（ワークフロー、キャンペーン、定期的な電子メールの場合）に直接アクセスできます。
 
 ![](assets/wkf_display_recurrent_executions_2.png)
 
-定期配信の実行は、デフォルトでマスクされます。To view them, check the **[!UICONTROL Show recurring executions]** option in the marketing activities' search panel.
+ただし、定期的な搬送の実行はデフォルトでマスクされます。これらを表示するには、マーケティング活動の「検索パネル」の **[!UICONTROL Show recurring executions]** オプションを確認します。
 
 ![](assets/wkf_display_recurrent_executions.png)
 
-In the parent deliveries, which can be accessed from the marketing activity list or directly via the associated recurring executions, you can view the total number of sends that have been processed (according to the aggregation period specified when the **[!UICONTROL Email delivery]** activity was configured). To do this, open the detail view of the parent delivery's **[!UICONTROL Deployment]** block by selecting ![](assets/wkf_dlv_detail_button.png).
+マーケティング活動リストからアクセス可能な親搬送の場合、または関連する定期実行を介して直接実行できる場合は、処理された送信の合計数（ **[!UICONTROL Email delivery]** アクティビティの構成時に指定した集計期間に従って）を表示できます。これを行うには、親配送の **[!UICONTROL Deployment]** ブロックの詳細ビューを選択して開き ![](assets/wkf_dlv_detail_button.png)ます。
 
 ![](assets/wkf_display_recurrent_executions_3.png)
 
-## Example {#example}
+## 例 {#example}
 
 ![](assets/wkf_delivery_example_1.png)
 
-この例は誕生日のワークフローです。毎日、その日の誕生日のプロファイルに電子メールが送信されます。これを行うには、次の手順に従います。
+この例は、誕生日ワークフローです。毎日、その日に誕生日があるプロフィールに電子メールが送られます。これを行うには:
 
-* **[!UICONTROL Scheduler]** これにより、毎日午前8時にワークフローを開始できます。
+* では **[!UICONTROL Scheduler]** 、毎日8mでワークフローを開始できます。
 
    ![](assets/wkf_delivery_example_2.png)
 
-* **[!UICONTROL Query]** このアクティビティを使用すると、ワークフローが実行されるたびに、電子メールを提供したプロファイルや、当日に誕生日を持つプロファイルを計算できます。誕生日の計算は、クエリ編集ツールのパレットで使用可能な定義済みフィルターを使用して実行されます。
+* **[!UICONTROL Query]** このアクティビティを使用すると、電子メールを提供したプロファイルを計算し、ワークフローを実行するたびに現在の日にその誕生日を設定できます。誕生日の計算は、クエリ編集ツールのパレットで使用可能な定義済みフィルターを使用して実行されます。
 
    ![](assets/wkf_delivery_example_3.png)
 
-* The **[!UICONTROL Email]** is recurring. 送信は月ごとに集計されます。そのため、1か月に送信されるすべての電子メールが1つのビューに集約されます。In one year, 365 deliveries are therefore executed but they are regrouped into 12 views (also called **recurring executions**) in the Adobe Campaign interface. 履歴とレポートの詳細は毎月表示され、送信ごとには表示されません。
+* 繰り返し **[!UICONTROL Email]** ます。送信は月単位で集計されます。したがって、1か月で送信されるすべての電子メールは単一のビューに集約されます。1年間で365の配信が実行されますが、Adobe Campaignインターフェイスでは12ビュー（ **定期的な実行**&#x200B;とも呼ばれます）に再グループ化されます。履歴およびレポートの詳細は毎月表示され、送信ごとには表示されません。
 
    ![](assets/wkf_delivery_example_4.png)
 
+**関連トピック**
+
+* [ユースケース:1週間の電子メール配信を作成する](../../automating/using/workflow-weekly-offer.md)
+* [ユースケース:場所にセグメント化された配信の作成](../../automating/using/workflow-segmentation-location.md)
+* [ユースケース:補足を使用した搬送の作成](../../automating/using/workflow-created-query-with-complement.md)
+* [ユースケース:新しい配送を非公開者に送信するワークフローの再ターゲット](../../automating/using/workflow-cross-channel-retargeting.md)
