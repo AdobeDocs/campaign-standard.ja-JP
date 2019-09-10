@@ -1,50 +1,56 @@
 ---
-title: ターゲットデータ
-seo-title: ターゲットデータ
-description: ターゲットデータ
-seo-description: 必要なデータをターゲットにして選択する方法について説明します。
-page-status-flag: 常にアクティブ化されていない
+title: データのターゲット化
+seo-title: データのターゲット化
+description: データのターゲット化
+seo-description: 必要なデータをターゲットにして選択するさまざまな方法を学習します。
+page-status-flag: 決して活性化されていない
 uuid: 0645d6e5-6a7e-4917-874a-7e7725f06abd
-contentOwner: サウビート
-products: SG_ CAMPAIGN/STANDARD
+contentOwner: ソビア
+products: SG_キャンペーン/標準
 audience: 自動化
 content-type: 参照
-topic-tags: workflow- general- operation
+topic-tags: ワークフロー全般運用
 discoiquuid: 382ea74e-1662-4c64-96d7-676040586913
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: bb65cbf808a95e8b42b2a682b7c0a9cc6225d920
 
 ---
 
 
-# Targeting data{#targeting-data}
+# データのターゲット化{#targeting-data}
 
-## Selecting data {#selecting-data}
+## データの選択 {#selecting-data}
 
 次のアクティビティを使用してデータを選択できます。
 
-* **[!UICONTROL Query]** アクティビティにより、Adobe Campaignデータベースから要素の母集団をフィルタリングして抽出できます。[「クエリ](../../automating/using/query.md) 」セクションを参照してください。
-* **[!UICONTROL Incremental query]** アクティビティにより、Adobe Campaignデータベースから要素の母集団をフィルタリングして抽出できます。このアクティビティが実行されるたびに、前回の実行の結果は除外されます。これにより、新しい要素のみをターゲットにすることができます。[増分クエリ](../../automating/using/incremental-query.md) セクション。
-* **[!UICONTROL Read audience]** このアクティビティでは、既存のオーディエンスを取得し、追加のフィルター条件を適用して絞り込むことができます。オーディエンスの [読み取り](../../automating/using/read-audience.md) セクションを参照してください。
+* **[!UICONTROL Query]** このアクティビティでは、Adobe Campaignデータベースから要素の母集団をフィルタおよび抽出できます。[「クエリー」](../../automating/using/query.md) セクションを参照してください。
+* **[!UICONTROL Incremental query]** このアクティビティでは、Adobe Campaignデータベースから要素の母集団をフィルタおよび抽出できます。このアクティビティが実行されるたびに、前回の実行の結果は除外されます。これにより、新しい要素のみをターゲットにすることができます。[インクリメンタルクエリ](../../automating/using/incremental-query.md) セクション。
+* このアクティビティ **[!UICONTROL Read audience]** を使用すると、既存の対象者を取得し、追加のフィルタリング条件を適用することによってその対象者を絞り込むことができます。「閲覧者 [」](../../automating/using/read-audience.md) セクションを参照してください。
 
-## Segmenting data {#segmenting-data}
+## データのセグメント化 {#segmenting-data}
 
-Adobe Campaignでは、受信データのセットを処理できます。その結果、複数の母集団を結合したり、一部を除外したり、複数のターゲットに共通のデータのみを保持したりできます。
+Adobe Campaignでは、インバウンドデータのセットを処理できます。これにより、複数の個体群を結合したり、その一部を除外したり、複数のターゲットに共通するデータのみを保持したりできます。
 
-* **[!UICONTROL Union]** アクティビティを使用すると、複数のアクティビティの結果を単一のターゲットに再グループ化できます。[「ユニオン](../../automating/using/union.md) 」セクションを参照してください。
-* **[!UICONTROL Intersection]** アクティビティでは、アクティビティ内の異なるインバウンド母集団に共通の要素のみを維持できます。[「交差」](../../automating/using/intersection.md) セクションを参照してください。
-* **[!UICONTROL Exclusion]** アクティビティでは、特定の条件に従って、ある母集団からの要素を除外できます。[「除外](../../automating/using/exclusion.md) 」セクションを参照してください。
-* **[!UICONTROL Segmentation]** アクティビティにより、ワークフローの前に配置したアクティビティによって計算された訪問者のセグメントを1つまたは複数作成できます。アクティビティの最後に、1つのトランジションまたは異なるトランジションで処理できます。[「セグメント化](../../automating/using/segmentation.md) 」セクションを参照してください。
+* **[!UICONTROL Union]** アクティビティを使用すると、複数のアクティビティの結果を1つのターゲットに再グループ化できます。[「ユニオン](../../automating/using/union.md) 」セクションを参照してください。
+* **[!UICONTROL Intersection]** アクティビティによって、アクティビティ内の異なるインバウンドポピュレーションに共通する要素のみを保持できます。[交差](../../automating/using/intersection.md) セクションを参照してください。
+* **[!UICONTROL Exclusion]** アクティビティを使用すると、特定の条件に従って1つの母集団から要素を除外できます。[除外](../../automating/using/exclusion.md) セクションを参照してください。
+* **[!UICONTROL Segmentation]** アクティビティでは、ワークフローの前に配置されたアクティビティによって計算された人口から、1つまたは複数のセグメントを作成できます。アクティビティの最後には、1つの遷移または異なる遷移で処理できます。[Segmentation](../../automating/using/segmentation.md) セクションを参照してください。
 
-## Enriching data {#enriching-data}
+## データの濃縮 {#enriching-data}
 
-特定され、収集されたデータは、ターゲット構築を最適化し、集計して最適化することができます。データマートにモデル化されていないデータを含めることで、ターゲット設定プロセスをシンプル化し最適化できます。
+識別および収集されたデータは、集約、集約、および操作され、ターゲットの構築を最適化できます。データマートでモデル化されていないデータを含めることにより、ターゲットプロセスを効率化および最適化できます。
 
-The **[!UICONTROL Additional data]** tab of the **[!UICONTROL Query]** and **[!UICONTROL Incremental query]** activities allows you to enrich the data targeted by the query and transfer this data to the following workflow activities, where it can be utilized. 特に、以下を追加できます。
+および **[!UICONTROL Additional data]****[!UICONTROL Query]****[!UICONTROL Incremental query]** アクティビティのタブを使用すると、クエリの対象となるデータを充実させ、このデータを次のワークフローアクティビティに転送して、使用可能にすることができます。特に、次のように追加できます。
 
-* 単純なデータ
+* シンプルなデータ
 * 集計
 * コレクション
 
+**関連トピック**
+
+* [ユースケース:1週間の電子メール配信を作成する](../../automating/using/workflow-weekly-offer.md)
+* [ユースケース:場所にセグメント化された配信の作成](../../automating/using/workflow-segmentation-location.md)
+* [ユースケース:補足を使用した搬送の作成](../../automating/using/workflow-created-query-with-complement.md)
+* [ユースケース:新しい配送を非公開者に送信するワークフローの再ターゲット](../../automating/using/workflow-cross-channel-retargeting.md)
