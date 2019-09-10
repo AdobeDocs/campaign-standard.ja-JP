@@ -15,7 +15,7 @@ context-tags: 'ワークフロー、ユースケース、クエリ、待機、�
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
+source-git-commit: 035726bbd3112058b9a89525a861521bc3b9867e
 
 ---
 
@@ -36,6 +36,8 @@ source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
 1. で **[!UICONTROL Shortcuts]**、ドラッグアンドドロップ **[!UICONTROL Profiles]** して値 **[!UICONTROL no longer contact by email]** を選択 **[!UICONTROL no ]**&#x200B;します。
 1. **[!UICONTROL Confirm]**&#x200B;をクリックします。
 
+![](assets/wf-complement-query.png)
+
 ## 電子メール配信の作成{#creating-an-email-delivery}
 
 1. 各セグメントの後に****[!UICONTROL Email delivery]電子メール配信をドラッグアンドドロップします。
@@ -44,7 +46,6 @@ source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
 1. を選択 **[!UICONTROL Add an outbound transition without the population]** してをクリック **[!UICONTROL Next]**&#x200B;します。
 1. 電子メールテンプレートを選択し、をクリック **[!UICONTROL Next]**&#x200B;します。
 1. 電子メールのプロパティを入力し、をクリック **[!UICONTROL Next]**&#x200B;します。
-1. 電子メール **の電子メールオファーの名前を変更**&#x200B;します。
 1. 電子メールのレイアウトを作成するには、をクリック **[!UICONTROL Using the Email Designer]**&#x200B;します。
 1. 要素を挿入するか、既存のテンプレートを選択します。
 1. 各場所に固有の特典を電子メールでカスタマイズします。詳細については、電子メール [のデザインを](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch)参照してください。
@@ -76,6 +77,8 @@ source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
 詳細については、"SMSの [設計](../../channels/using/creating-an-sms-message.md)」を参照してください。
 1. クリック **[!UICONTROL Preview]** すると、レイアウトが確認されます。
 1. **[!UICONTROL Save]**&#x200B;をクリックします。
+
+![](assets/wf-retargeting-non-openers.png)
 
 **関連トピック:**
 
