@@ -15,7 +15,7 @@ context-tags: 'ワークフロー、ユースケース、クエリ、セグメ�
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e77c8a65834009f2f7157d9535ae8e12e59244ff
+source-git-commit: bb65cbf808a95e8b42b2a682b7c0a9cc6225d920
 
 ---
 
@@ -35,6 +35,8 @@ source-git-commit: e77c8a65834009f2f7157d9535ae8e12e59244ff
 1. で **[!UICONTROL Shortcuts]**、ドラッグアンドドロップ **[!UICONTROL Profiles]** して、演算子のあるフィールド **[!UICONTROL email]** を選択 **[!UICONTROL is not empty]**&#x200B;します。
 1. で **[!UICONTROL Shortcuts]**、ドラッグアンドドロップ **[!UICONTROL Profiles]** して値を持つフィールド **[!UICONTROL no longer contact by email]** を選択 **[!UICONTROL no]**&#x200B;します。
 1. 2 **[!UICONTROL Confirm]** 回クリックします。
+
+![](assets/wf-complement-query.png)
 
 ## セグメンテーションアクティビティの作成{#creating-a-segmentation-activity}
 
@@ -63,6 +65,8 @@ source-git-commit: e77c8a65834009f2f7157d9535ae8e12e59244ff
 
 1. クリック **[!UICONTROL Preview]** すると、レイアウトが確認されます。
 1. **[!UICONTROL Save]**&#x200B;をクリックします。
+
+![](assets/wf-segmentation-location.png)
 
 **関連トピック:**
 
