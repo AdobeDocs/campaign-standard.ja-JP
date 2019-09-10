@@ -4,7 +4,7 @@ sub-product: アドビキャンペーン標準
 audience: エンドユーザー
 user-guide-title: Adobeキャンペーン標準ヘルプ
 translation-type: tm+mt
-source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
+source-git-commit: 3b7da7df5092476be4c6acc21b2ad2472a80da83
 
 ---
 
@@ -84,6 +84,7 @@ source-git-commit: f57775ec88925d43046fe4162f2753c189d50c62
       + [プッシュ通知の準備と送信](channels/using/preparing-and-sending-a-push-notification.md)
       + [プッシュ通知のカスタマイズ](channels/using/customizing-a-push-notification.md)
       + [多言語プッシュ通知の作成](channels/using/creating-a-multilingual-push-notification.md)
+      + [モバイルアプリケーションデータに基づいたプロファイル情報の作成および更新](channels/using/updating-profile-with-mobile-app-data.md)
    + インアプリメッセージング {#in-app-messaging}
       + [In- Appメッセージングについて](channels/using/about-in-app-messaging.md)
       + [インアプリメッセージの準備と送信](channels/using/preparing-and-sending-an-in-app-message.md)
