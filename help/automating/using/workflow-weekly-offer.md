@@ -15,7 +15,7 @@ context-tags: ワークフロー、ユースケース、クエリ、配信、ス
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e77c8a65834009f2f7157d9535ae8e12e59244ff
+source-git-commit: 035726bbd3112058b9a89525a861521bc3b9867e
 
 ---
 
@@ -52,6 +52,8 @@ source-git-commit: e77c8a65834009f2f7157d9535ae8e12e59244ff
 1. オペレータ **[!UICONTROL is not empty]** として選択します。
 1. **[!UICONTROL Shortcuts]** &gt;&gt; **[!UICONTROL General]**&#x200B;で、プロファイルを追加し、値 **[!UICONTROL no longer contact by email]** で選択 **[!UICONTROL No]**&#x200B;します。
 1. **[!UICONTROL Confirm]**&#x200B;をクリックします。
+
+![](assets/wf-complement-query.png)
 
 ## 電子メール配信の作成{#creating-an-email-delivery}
 
