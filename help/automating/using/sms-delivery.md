@@ -3,24 +3,24 @@ title: SMS配信
 seo-title: SMS配信
 description: SMS配信
 seo-description: SMS配信アクティビティを使用すると、ワークフローで単一の送信SMSまたは定期的なSMSを送信できます。
-page-status-flag: 常にアクティブ化されていない
+page-status-flag: 決して活性化されていない
 uuid: 736078c6- ac91-4440-825b-4a6ae31894ef
-contentOwner: サウビート
-products: SG_ CAMPAIGN/STANDARD
+contentOwner: ソビア
+products: SG_キャンペーン/標準
 audience: 自動化
 content-type: 参照
-topic-tags: チャネルアクティビティ
-discoiquuid: 978592b8-989a-446a-8a84-12b7ffc130
-context-tags: sms， main;delivery， ssContent， back
+topic-tags: チャンネル活動
+discoiquuid: 978592b8-989a-446a-8a84-12b7fecfc130
+context-tags: 主として配信、SMSContent、背面
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
+source-git-commit: bb65cbf808a95e8b42b2a682b7c0a9cc6225d920
 
 ---
 
 
-# SMS delivery{#sms-delivery}
+# SMS配信{#sms-delivery}
 
 ## 説明 {#description}
 
@@ -28,75 +28,76 @@ source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
 
 ![](assets/recurrentsms.png)
 
-**[!UICONTROL SMS delivery]** アクティビティでは、ワークフローでのSMSの送信を設定できます。This can be a **single send** SMS and sent just once, or it can be a **recurring** SMS.
+**[!UICONTROL SMS delivery]** アクティビティを使用すると、ワークフローでSMSを送信できます。**1回の送信** SMSで送信することも、1回だけ送信することも、 **繰り返し** SMSを送信することもできます。
 
-シングル送信SMSメッセージは標準SMSで、1回送信されます。
+単一送信SMSメッセージは標準SMSで、一度送信されます。
 
-定期的なSMSメッセージを使用すると、定義済みの期間にわたって同一のSMSを複数回異なるターゲットに送信できます。期間ごとの配信を集計して、ニーズに対応するレポートを取得できます。
+定期的なSMSメッセージを使用すると、定義された期間にわたって同じSMSを異なるターゲットに複数回送信できます。必要に応じたレポートを取得するには、期間ごとの搬送を集計できます。
 
-## Context of use {#context-of-use}
+## 使用状況 {#context-of-use}
 
-**[!UICONTROL SMS delivery]** このアクティビティは、一般に、同じワークフローで計算されたターゲットにSMSを送信するために使用されます。
+**[!UICONTROL SMS delivery]** このアクティビティは通常、同じワークフローで計算されたターゲットへのSMSの送信を自動化するために使用されます。
 
-スケジューラーにリンクすると、定期的なSMSメッセージを定義できます。
+スケジューラにリンクすると、定期的なSMSメッセージを定義できます。
 
-SMS受信者は、クエリ、交差などのターゲットアクティビティを介して、同じワークフロー内のアクティビティのアップストリームを定義します。
+SMS受信者は、クエリ、交差などのターゲットアクティビティを介して、同じワークフロー内のアクティビティの上流に定義されます。
 
-メッセージの実行パラメーターに従ってメッセージの準備がトリガーされます。メッセージダッシュボードから、メッセージを送信するかどうかを手動で確認できます（デフォルトで必須）。ワークフローを手動で開始することも、ワークフローにスケジューラーアクティビティを配置して実行を自動化することもできます。
+メッセージ準備は、ワークフロー実行パラメーターに従ってトリガーされます。メッセージ・ダッシュボードから、メッセージを送信するかどうかを手動で確認するかどうかを選択できます（デフォルトでは必須）。ワークフローを手動で開始するか、ワークフローにスケジューラアクティビティを配置して実行を自動化できます。
 
-## Configuration {#configuration}
+## 構成 {#configuration}
 
-1. Drag and drop an **[!UICONTROL SMS delivery]** activity into your workflow.
-1. Select the activity, then open it using the ![](assets/edit_darkgrey-24px.png) button from the quick actions that appear.
+1. **[!UICONTROL SMS delivery]** アクティビティをワークフローにドラッグアンドドロップします。
+1. アクティビティを選択し、表示されるクイックアクションの ![](assets/edit_darkgrey-24px.png) ボタンを使用して開きます。
 
    >[!NOTE]
    >
-   >You can access the general properties and advanced options of the activity (and not of the delivery itself) via the ![](assets/dlv_activity_params-24px.png) button in the workflow's action bar. This button is specific to the **[!UICONTROL SMS delivery]** activity. SMSプロパティには、SMSダッシュボードのアクションバーからアクセスできます。
+   >ワークフローのアクションバーの ![](assets/dlv_activity_params-24px.png) ボタンを使用して、アクティビティの全般的なプロパティおよび詳細オプションにアクセスできます。このボタンは **[!UICONTROL SMS delivery]** アクティビティに固有です。SMSのプロパティには、SMSダッシュボードのアクションバーを介してアクセスできます。
 
-1. SMS送信モードを選択します。
+1. SMS送信モードを選択します:
 
-   * **[!UICONTROL SMS]**:SMSが1回送信されます。アクティビティにアウトバウンドトランジションを追加するかどうかを指定できます。この手順の手順7では、様々な移行タイプについて説明しています。
-   * **[!UICONTROL Recurring SMS]**:SMSは **[!UICONTROL Scheduler]** 、アクティビティに定義されている頻度に従って複数回送信されます。送信の集計期間を選択します。This allows you to regroup all the sends that occur during the defined period into one single view that is also called **Recurring execution** and can be accessed from the application's marketing activity list.
+   * **[!UICONTROL SMS]**:SMSは1回送信されます。ここでは、アクティビティに送信遷移を追加するかどうかを指定できます。異なる遷移タイプについては、手順7で詳しく説明します。
+   * **[!UICONTROL Recurring SMS]**: **[!UICONTROL Scheduler]** アクティビティで定義された頻度に従って、SMSが数回送信されます。送信の集計期間を選択します。これにより、定義された期間中に発生したすべての送信を1つのビューに再グループ化して **、「定期的な実行** 」とも呼ばれ、アプリケーションのマーケティング活動リストからアクセスできます。
 
-      例えば、定期的に誕生日のSMSを送信する場合、毎月送信するように選択できます。これにより、SMSは毎日送信されるので、配信に関するレポートを毎月受信できます。
+      たとえば、定期的な誕生日SMSを毎日送信する場合は、毎月送信するように選択できます。これにより、SMSは毎日送信されるのに対し、毎月の配信に関するレポートを毎月受け取ることができます。
 
-1. SMSタイプを選択します。The SMS types come from SMS templates defined in the **[!UICONTROL Resources]** &gt; **[!UICONTROL Templates]** &gt; **[!UICONTROL Delivery templates]** menu.
-1. SMSの一般的なプロパティを入力します。既存のキャンペーンにも添付できます。ワークフローの配信アクティビティのラベルがSMSラベルで更新されます。
-1. SMSコンテンツを定義します。Refer to the section concerning [Creating an SMS message](../../channels/using/creating-an-sms-message.md).
-1. By default, the **[!UICONTROL SMS delivery]** activity does not include any outbound transitions. If you would like to add an outbound transition to your **[!UICONTROL SMS delivery]** activity, go to the **[!UICONTROL General]** tab of the advanced activity options ( ![](assets/dlv_activity_params-24px.png) button in the activity's quick actions) then check one of the following options:
+1. SMSタイプを選択します。SMSの種類は、&gt; **[!UICONTROL Resources]****[!UICONTROL Templates]** &gt; **[!UICONTROL Delivery templates]** メニューで定義されたSMSテンプレートから取得されます。
+1. SMSの全般的なプロパティを入力します。既存のキャンペーンにアタッチすることもできます。ワークフローの配信アクティビティのラベルがSMSラベルで更新されます。
+1. SMSコンテンツを定義します。SMSメッセージ [の作成に関するセクションを](../../channels/using/creating-an-sms-message.md)参照してください。
+1. 既定では、アクティビティ **[!UICONTROL SMS delivery]** には送信遷移は含まれません。**[!UICONTROL SMS delivery]** アクティビティに送信遷移を追加する場合は、詳細アクティビティ **[!UICONTROL General]** のオプション（アクティビティのクイックアクションの ![](assets/dlv_activity_params-24px.png) ボタン）のタブに移動し、次のいずれかのオプションを確認します。
 
-   * **[!UICONTROL Add outbound transition without the population]**:これにより、インバウンドトランジションとまったく同じ訪問者を含むアウトバウンドトランジションを生成できます。
-   * **[!UICONTROL Add outbound transition with the population]**:これにより、SMSが送信された母集団を含むアウトバウンドトランジションを生成できます。配信準備中に除外されるターゲットのメンバー（強制隔離、無効な番号など）は、この移行から除外されます。
+   * **[!UICONTROL Add outbound transition without the population]**:これにより、着信遷移とまったく同じ人口を含む送信遷移を生成できます。
+   * **[!UICONTROL Add outbound transition with the population]**:これにより、SMSが送信された人口を含む送信遷移を生成できます。搬送準備中に除外されたターゲットのメンバー（検疫、無効な番号など）この遷移から除外されます。
 
-1. アクティビティの設定を確認し、ワークフローを保存します。
+1. アクティビティの構成を確認し、ワークフローを保存します。
 
-アクティビティを再度開くと、そのアクティビティはSMSダッシュボードに直接表示されます。編集できるのはコンテンツのみです。
+アクティビティを再度開くと、SMSダッシュボードに直接移動します。編集できるのはそのコンテンツだけです。
 
-デフォルトでは、配信ワークフローを開始すると、メッセージの準備のみが開始されます。ワークフローを開始した後でもワークフローから作成されたメッセージを送信する必要があります。But from the message dashboard, and only if the message was created from a workflow, you can disable the **[!UICONTROL Request confirmation before sending messages]** option. このオプションのチェックを解除すると、準備が完了すると、それ以上通知なしでメッセージが送信されます。
+既定では、配信ワークフローを開始するとメッセージの準備のみがトリガーされます。ワークフローから作成されたメッセージの送信は、ワークフローの開始後も確認する必要があります。メッセージのダッシュボードから、メッセージがワークフローから作成された場合にのみ、オプション **[!UICONTROL Request confirmation before sending messages]** を無効にできます。このオプションをオフにすると、準備が完了するとメッセージが送信されなくなります。
 
-## Remarks {#remarks}
+## 解説 {#remarks}
 
-ワークフロー内で作成された配信は、アプリケーションのマーケティングアクティビティリストからアクセスできます。ダッシュボードを使用して、ワークフローの実行ステータスを表示できます。SMSサマリペインのリンクを使用すると、リンクされた要素（定期的なSMSの場合にはワークフロー、キャンペーン、親配信）に直接アクセスできます。
+ワークフロー内で作成された搬送は、アプリケーションのマーケティング活動リストでアクセスできます。ダッシュボードを使用して、ワークフローの実行ステータスを表示できます。SMS概要ペインのリンクでは、リンクされた要素（ワークフロー、キャンペーン、定期的なSMSの場合は親の配信）に直接アクセスできます。
 
-定期配信の実行は、デフォルトでマスクされます。To view them, check the **[!UICONTROL Show recurring executions]** option in the marketing activities' search panel.
+ただし、定期的な搬送の実行はデフォルトでマスクされます。これらを表示するには、マーケティング活動の「検索パネル」の **[!UICONTROL Show recurring executions]** オプションを確認します。
 
-In the parent deliveries, which can be accessed from the marketing activity list or directly via the associated recurring executions, you can view the total number of sends that have been processed (according to the aggregation period specified when the **[!UICONTROL SMS delivery]** activity was configured). To do this, open the detail view of the parent delivery's **[!UICONTROL Deployment]** block by selecting ![](assets/wkf_dlv_detail_button.png).
+マーケティング活動リストからアクセス可能な親搬送の場合、または関連する定期実行を介して直接実行できる場合は、処理された送信の合計数（ **[!UICONTROL SMS delivery]** アクティビティの構成時に指定した集計期間に従って）を表示できます。これを行うには、親配送の **[!UICONTROL Deployment]** ブロックの詳細ビューを選択して開き ![](assets/wkf_dlv_detail_button.png)ます。
 
-## Example {#example}
+## 例 {#example}
 
 ![](assets/wkf_sms_example_1.png)
 
-この例は誕生日のワークフローです。毎日、誕生日がその日のプロファイルに送信されます。これを行うには、次の手順に従います。
+この例は、誕生日ワークフローです。毎日、その日に誕生日があるプロフィールにSMSが送られます。これを行うには:
 
-* **[!UICONTROL Scheduler]** これにより、毎日午前8時にワークフローを開始できます。
+* では **[!UICONTROL Scheduler]** 、毎日8mでワークフローを開始できます。
 
    ![](assets/wkf_delivery_example_2.png)
 
-* **[!UICONTROL Query]** このアクティビティを使用すると、ワークフローが実行されるたびに、携帯電話番号と、当日に誕生日が指定されたプロファイルを計算できます。誕生日の計算は、クエリ編集ツールのパレットで使用可能な定義済みフィルターを使用して実行されます。
+* **[!UICONTROL Query]** このアクティビティでは、ワークフローを実行するたびに、携帯電話番号を提供し、現在の日に誕生日があるプロファイルを計算できます。誕生日の計算は、クエリ編集ツールのパレットで使用可能な定義済みフィルターを使用して実行されます。
 
    ![](assets/wkf_delivery_example_3.png)
 
-* The **[!UICONTROL SMS]** is recurring. 送信は月ごとに集計されます。そのため、1か月に送信されるすべてのSMSメッセージが1つのビューに集約されます。In one year, 365 deliveries are therefore executed but they are regrouped into 12 views (also called **recurring executions**) in the Adobe Campaign interface. 履歴とレポートの詳細は毎月表示され、送信ごとには表示されません。
+* 繰り返し **[!UICONTROL SMS]** ます。送信は月単位で集計されます。したがって、1か月で送信されるすべてのSMSメッセージは単一のビューに集約されます。1年間で365の配信が実行されますが、Adobe Campaignインターフェイスでは12ビュー（ **定期的な実行**&#x200B;とも呼ばれます）に再グループ化されます。履歴およびレポートの詳細は毎月表示され、送信ごとには表示されません。
 
    ![](assets/wkf_sms_example_4.png)
 
+ワークフローでのSMS配信の別の例については、ユースケースを参照 [してください。新しい配信を非公開者に送信するワークフローを再ターゲット](../../automating/using/workflow-cross-channel-retargeting.md)します。
