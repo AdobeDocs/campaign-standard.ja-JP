@@ -1,32 +1,32 @@
 ---
-title: サービスの推進
-seo-title: サービスの推進
-description: サービスの推進
-seo-description: Adobe Campaignを使用すると、サービスをプロモーションし、専用のランディングページ、電子メールまたは直接Webサイトで顧客を惹きつけることができます。
-page-status-flag: 常にアクティブ化されていない
-uuid: 2b71d2a1-3e48-4a21- ab21-4a360abc1d36
-contentOwner: サウビート
-products: SG_ CAMPAIGN/STANDARD
-audience: オーディエンス
+title: サービスの昇格
+seo-title: サービスの昇格
+description: サービスの昇格
+seo-description: Adobe Campaignを使用して、サービスを宣伝し、専用のランディングページ、E-メール、またはWebサイトで直接お客様を引き込みます。
+page-status-flag: 未活性化の
+uuid: 2b71d2a1-3e48-4a21-ab21-4a360abc1d36
+contentOwner: サウビア
+products: SG_CAMPAIGN/STANDARD
+audience: 観客
 content-type: 参照
-topic-tags: 管理-購読
-discoiquuid: 98650305-7abf-456f-8c91- cf0b61f53763
-internal: n
-snippet: y
+topic-tags: 購読の管理
+discoiquuid: 98650305-7abf-456f-8c91-cf0b61f53763
+internal: 〜の
+snippet: イー
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
 ---
 
 
-# Promoting a service{#promoting-a-service}
+# サービスの昇格{#promoting-a-service}
 
-複数の方法でサービスの購読を提供し、訪問者にその購読を管理できます。
+サービスへのサブスクリプションをいくつかの方法で提供し、訪問者にサブスクリプションを管理する機能を与えることができます。
 
-キャンペーンを使用すると、次のことによってサービスを推進できます。
+キャンペーンを使用して、次の方法でサービスを昇格できます。
 
-* [サービス購読または購読解除リンクを電子メールに挿入](../../designing/using/inserting-a-link.md)します。
-* 購読または購読解除のランディングページへのリンクを電子メールで挿入します。この場合、サービスは、関連するランディングページの設定で直接参照する必要があります。
-* 購読または購読解除のランディングページをWebサイトで利用できるようになりました。ランディングページにアクセスするURLには、関連付けられたサービスなどのパラメーターと、それにアクセスするプロファイルIDを指定する必要があります。このIDはランディングページのパラメーターで定義できます。
+* [電子メールにサービスサブスクリプションまたはサブスクリプション解除リンクを挿入しています](../../designing/using/links.md#inserting-a-link)。
+* 電子メールにサブスクリプションまたはサブスクリプション解除のランディングページへのリンクを挿入する。 この場合、サービスは、関連するランディング·ページの構成で直接参照する必要があります。
+* Webサイトでの購読/購読解除のランディング·ページの利用 ランディング·ページへのアクセス権を与えるURLは、関連するサービスや、それにアクセスするプロファイルIDなどのパラメータを指定する必要があります。 このIDは、ランディング·ページ·パラメータで定義できます。
 
-For more on this, see [Linking a form to a service in a landing page](../../channels/using/designing-a-landing-page.md#linking-a-form-to-a-service).
+詳細については、「ランディング [ページでフォームをサービスにリンクする」を参照してください](../../channels/using/designing-a-landing-page.md#linking-a-form-to-a-service)。
