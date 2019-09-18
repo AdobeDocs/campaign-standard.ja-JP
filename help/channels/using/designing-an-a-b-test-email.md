@@ -1,98 +1,98 @@
 ---
-title: A/Bテスト用電子メールのデザイン
-seo-title: A/Bテスト用電子メールのデザイン
-description: A/Bテスト用電子メールのデザイン
-seo-description: A/Bテスト機能を作成し、次の手順に従ってAdobe CampaignでA/Bテストテンプレートから電子メールを作成します。
-page-status-flag: 常にアクティブ化されていない
-uuid: 104f6973-68a7-4692- a90a- a5570a980ec7
-contentOwner: サウビート
-products: SG_ CAMPAIGN/STANDARD
-audience: チャネル
+title: A/BテストのEメールの設計
+seo-title: A/BテストのEメールの設計
+description: A/BテストのEメールの設計
+seo-description: A/Bテスト機能を確認し、次の手順に従って、Adobe CampaignのA/Bテストテンプレートから電子メールを作成します。
+page-status-flag: 未活性化の
+uuid: 104f6973-68a7-4692-a90a-a5570a980ec7
+contentOwner: サウビア
+products: SG_CAMPAIGN/STANDARD
+audience: チャンネル
 content-type: 参照
-topic-tags: 電子メールメッセージ
-discoiquuid: e249ba70-90d0-43f2-868c- ce9fdc7e642d
-context-tags: delivery， abtesting， back;DeliveryCreation，ウィザード;delivery， main
-internal: n
-snippet: y
+topic-tags: E-メールメッセージ
+discoiquuid: e249ba70-90d0-43f2-868c-ce9fdc7e642d
+context-tags: 配信，abTesting,back；配信作成，ウィザード；配信，メイン
+internal: 〜の
+snippet: イー
 translation-type: tm+mt
-source-git-commit: d50d486ed77cb7989df47133bb49fde3227ae3a5
+source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
 
 ---
 
 
-# Designing an A/B test email{#designing-an-a-b-test-email}
+# A/BテストのEメールの設計{#designing-an-a-b-test-email}
 
-Adobe CampaignのA/Bテスト機能を使用すると、2~3つの電子メールバリアントを定義できます。各バリエーションは、最適な結果があるかどうかを判断するために、母集団のサンプルに送信されます。決定すると、勝者のバリエーションが残りの母集団に送信されます。
+Adobe CampaignのA/Bテスト機能を使用すると、2 ~ 3つのEメールバリアントを定義できます。 各変異体は、最も良い結果を持つ個体を決定するために母集団標本に送られる。 決定されると、勝ち抜きのバリアントが残りの母集団に送られます。
 
-電子メールのコンテンツ、件名または送信者を変更できます。
+電子メールの内容、件名、または送信者を変更できます。
 
 >[!NOTE]
 >
->Adobe Experience Managerで作成された電子メールに関するA/Bテストはできません。
+>Adobe Experience Managerで作成された電子メールに対するA/Bテストは行えません。
 
-## Creating an A/B test email {#creating-an-a-b-test-email}
+## A/Bテスト用の電子メールの作成 {#creating-an-a-b-test-email}
 
-A/Bテストは、標準の電子メール作成ウィザードを使用して作成し、A/Bテストの設定手順を追加することができます。Creating a standard email is detailed in the [Creating an email](../../channels/using/creating-an-email.md) section.
+A/Bテストは、A/Bテスト構成ステップが追加された標準の電子メール作成ウィザードを使用して作成できます。 標準の電子メールの作成の詳細については、「電子メールの作 [成」の項を参照してく](../../channels/using/creating-an-email.md) ださい。
 
-A/Bテストの特定のコンテキスト内:
+A/Bテストの特定のコンテキストで、次の操作を行います。
 
-1. 変化する要素に従って、3つのA/Bテスト専用テンプレートのいずれかから新しい電子メールを作成します。
+1. 変更する要素に従って、3つのA/Bテスト用の特定のテンプレートの1つから新しい電子メールを作成します。
 
-   * 送信者に対するA/Bテスト
+   * 送信者のA/Bテスト
    * コンテンツのA/Bテスト
-   * 件名のA/Bテスト
+   * A/Bテスト（対象）
    ![](assets/create_ab_testing.png)
 
    >[!NOTE]
    >
-   >フォローアップおよびA/Bテストテンプレートは、デフォルトでは非表示です。Check the A/B test box on the left side ( **[!UICONTROL Filter]** lateral panel) to display them.
+   >フォローアップとA/Bテストテンプレートは、既定では非表示になっています。 左側（横パネル）のA/Bテストボックスをチェ **[!UICONTROL Filter]** ックして表示します。
 
-1. 標準の電子メールと同様に、電子メールの一般的なプロパティとターゲットオーディエンスを定義します。Refer to the [Creating audiences](../../audiences/using/creating-audiences.md) section.
-1. 作成ウィザードの4つ目の手順で、A/Bテストパラメーターを定義します。
+1. 標準の電子メールと同様に、電子メールの一般プロパティと対象ユーザーを定義します。 「対象ユーザーの作 [成」の項を参照](../../audiences/using/creating-audiences.md) 。
+1. 作成ウィザードの4番目の手順で、A/Bテスト·パラメータを定義します。
 
-   * **[!UICONTROL Number of variants]**:2つまたは3つのバリエーションを使用できます。3つのバリアントを選択した場合、この手順の後にこの選択肢を変更することはできません。
-   * **[!UICONTROL Winning strategy]**:勝者バリアントの決定に使用する条件を選択します。
-   * **[!UICONTROL Target breakdown]**:各バリエーションを受け取るターゲットの割合を選択します。残りの割合は、決定されたら勝者のバリアントを受け取ります。ターゲットプロファイルはランダムに選択されます。
-   * **[!UICONTROL Winner sending method]**:勝者のバリアントを決定した後に自動的に送信するかどうかを選択します。または、残りの母集団への送信を手動で確認するかどうかを選択します。
-   * **[!UICONTROL Test duration]**:テストの期間を指定します。勝者のバリエーションは、この期間後に自動的に決定されます。電子メールダッシュボードからテストの終了前に、手動で勝者のバリエーションを選択できます。
+   * **[!UICONTROL Number of variants]**:2つまたは3つのバリアントを使用することができます。 3つのバリアントを選択した場合は、ウィザードでこの手順を確認した後で、この選択を変更することはできません。
+   * **[!UICONTROL Winning strategy]**:勝ち抜きのバリアントを決定する基準を選択します。
+   * **[!UICONTROL Target breakdown]**:各バリアントを受け取るターゲットの割合を選択します。 残りのパーセンテージは、決定された後に獲得したバリアントを受け取ります。 ターゲットプロファイルはランダムに選択されます。
+   * **[!UICONTROL Winner sending method]**:決定後に、勝ち抜いたバリアントを自動的に送信するか、残りの母集団への送信を手動で確認するかを選択します。
+   * **[!UICONTROL Test duration]**:テストの期間を指定します。 当選バリアントは、この期間の後に自動的に決定されます。 Eメールダッシュボードから、テストの終了前に、勝ち取ったバリアントを手動で選択できます。
 
-      すべてのトラッキングデータが収集され、勝者のバリアントを選択するために正しく考慮されるには、テストは少なくとも1時間である必要があります。
+      すべての追跡データを収集し、正しく考慮して当選バリアントを選択するには、テストが少なくとも1時間必要です。
    ![](assets/ab_parameters.png)
 
-1. A/Bテストパラメータが定義されたら、ウィザードの次の手順に合格して電子メールコンテンツを定義します。選択したテンプレートに応じて、複数の件名、複数の送信者名、複数の異なるコンテンツを定義できます。カルーセルを使用して、要素の異なるバリエーション間を移動します。For more information, consult the [content editor](../../designing/using/about-email-content-design.md) section.
+1. A/Bテスト·パラメータを定義したら、ウィザードの次の手順に進み、電子メール·コンテンツを定義します。 選択したテンプレートに応じて、複数の件名、複数の送信者名、または複数の異なる内容を定義できます。 カルーセルを使用して、要素の異なるバリアント間を移動します。 詳細については、コンテンツエディタのセクシ [ョンを参照してくださ](../../designing/using/overview.md) い。
 
    ![](assets/create_ab_testing2.png)
 
-1. 電子メールの作成を確認します。その後、電子メールダッシュボードが表示されます。
-1. 送信をスケジュールします。定義された日付は、A/Bテストの開始を示します。
-1. **[!UICONTROL A/B test parameters]** ブロックに表示されているA/Bテストパラメーターを確認します。ブロックを選択してテスト（手順9）を送信するまで、それらを変更できます。
+1. 電子メールの作成を確認します。 次に、電子メールのダッシュボードが表示されます。
+1. 送信をスケジュールします。 定義された日付は、A/Bテストの開始を示します。
+1. ブロックに表示されているA/Bテストパラメータを確認 **[!UICONTROL A/B test parameters]** します。 ブロックを選択して、テストの送信を確認（手順9）するまで、それらを修正できます。
 
    ![](assets/create_ab_testing3.png)
 
-1. 送信するメッセージのターゲットと数を分析するための電子メール送信を準備します。Consult the [Preparing the send](../../sending/using/preparing-the-send.md) section.
-1. A/Bテストを送信する前に、配達確認を送信して電子メールをチェックしてください。
-1. 準備が完了したら、テストの送信を確認します。確認後、A/Bテストパラメーターは変更できません。
+1. 送信先と送信するメッセージの数を分析するために、電子メール送信を準備します。 「送信の準 [備」の項を参照](../../sending/using/preparing-the-send.md) 。
+1. A/Bテストを送信する前に、校正を送信してメールを確認してください。
+1. 準備が完了したら、テストの送信を確認します。 確認後、A/Bテストパラメータは変更できません。
 
-   The A/B test starts on the date defined in the **[!UICONTROL Schedule]**.You can track its progress using the **[!UICONTROL A/B test]** and **[!UICONTROL Deployment]** blocks.
+   A/Bテストは、で定義された日付から開始します。 **[!UICONTROL Schedule]**&#x200B;とのブロックを使用して、その進行状況を追跡 **[!UICONTROL A/B test]** でき **[!UICONTROL Deployment]** ます。
 
-   テスト期間を短くする場合は、いつでも勝者のバリエーションを手動で選択できます。
+   テスト期間を短くする場合は、いつでも手動で優勝バリアントを選択できます。
 
-   Once testing has finished, a summary table is displayed in the **[!UICONTROL A/B Test]** block and this allows you to view the various indicators for the different variants that were tested.
+   テストが完了すると、ブロックに要約テーブルが表示され、テストさ **[!UICONTROL A/B Test]** れた異なるバリアントのさまざまなインジケータを表示できます。
 
-1. If you have selected **[!UICONTROL Send after confirmation]** as the sending method, you have to manually select the winning variant to start sending it to the remaining population. If you have selected **[!UICONTROL Automatic]**, the winning variant is automatically sent to the remaining population as soon as it has been determined by the system.
+1. 送信方法として選 **[!UICONTROL Send after confirmation]** 択した場合は、残りの母集団への送信を開始するには、獲得したバリアントを手動で選択する必要があります。 を選択した場合、 **[!UICONTROL Automatic]**&#x200B;勝ち抜いたバリアントは、システムによって決定されるとすぐに、残りの母集団に自動的に送信されます。
 
    >[!NOTE]
    >
-   >ネクタイがある場合、勝者のバリエーションを手動で選択する必要があります。バリアントが選択されたか、選択されているかを電子メールの作成者と修飾子に通知できます。See [Adobe Campaign notifications](../../administration/using/sending-internal-notifications.md).
+   >タイがある場合は、勝ちのバリアントを手動で選択する必要があります。 バリアントが選択されたか、選択する必要があることを電子メールの作成者と修飾子に通知できます。 「 [Adobe Campaignの通知」を参照](../../administration/using/sending-internal-notifications.md)。
 
-電子メールが定義および送信されるようになりました。キャンペーンの成功を測定するために、ログおよびレポートにアクセスできます。
+メールが定義され、送信されました。 そのログとレポートにアクセスして、キャンペーンの成功を測定できます。
 
 **関連トピック**:
 
-[電子メール](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-email-from-homepage-feature-video-use.html) ビデオの作成
+[電子メールビデオの作成](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-email-from-homepage-feature-video-use.html) ..
 
-## About A/B test indicators {#about-a-b-test-indicators}
+## A/Bテスト·インジケータについて {#about-a-b-test-indicators}
 
-電子メールダッシュボードでは、A/Bテストの測定に役立ついくつかのインジケーターを利用できます。クリック数、開封数、バウンス数などです。
+電子メールダッシュボードには、A/Bテストの測定に役立ついくつかのインジケータが表示されます。クリック回数、開く回数、バウンス回数など。
 
-**[!UICONTROL Estimated recipient reactivity]** このインジケーターは、電子メールを開いた受信者の数をクリックした受信者数を比較するレートです。例えば、10人の受信者が電子メールを開き、5人の受信者がクリックしたとします。反応率は50%です。
+このインジケータ **[!UICONTROL Estimated recipient reactivity]** は、クリックした受信者の数と、電子メールを開いた受信者の数とを比較した率です。 たとえば、10人の受信者が電子メールを開き、5人の受信者が電子メールをクリックしたとします。 反応率は50%であった。
