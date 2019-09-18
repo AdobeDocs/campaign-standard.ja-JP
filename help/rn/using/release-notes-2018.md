@@ -2,531 +2,531 @@
 title: リリースノート2018
 seo-title: リリースノート2018
 description: リリースノート2018
-seo-description: このページには、Adobe Campaign Standardの2018リリースすべてが一覧表示されます。
-page-status-flag: 常にアクティブ化されていない
-uuid: 99f92a54-4b3d-48b9- b08d- e98b24e75f62
-contentOwner: サウビート
-products: SG_ CAMPAIGN/STANDARD
-audience: rn
+seo-description: このページには、Adobe Campain Standardの2018年版がすべて一覧表示されます。
+page-status-flag: 未活性化の
+uuid: 99f92a54-4b3d-48b9-b08d-e98b24e75f62
+contentOwner: サウビア
+products: SG_CAMPAIGN/STANDARD
+audience: ラン
 content-type: 参照
-topic-tags: campaign- standard- release
-discoiquuid: e54f8305-7e32-4193-8e5a- b5d87b03038c
-internal: n
-snippet: y
+topic-tags: キャンペーン標準リリース
+discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
+internal: 〜の
+snippet: イー
 translation-type: tm+mt
-source-git-commit: 6a877d878f01fa1e541dc20b8b0941602113d15b
+source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
 
 ---
 
 
-# Release Notes 2018{#release-notes}
+# リリースノート2018{#release-notes}
 
-Adobe Campaign Standardの2018年リリースを探しますか。
+2018年のAdobe Campaign Standardの特定のリリースをお探しですか？
 
-各リリースには、新機能およびパッチが含まれています。そのコンテンツを表示するには、リリースをクリックします。
+各リリースには、新しい機能とパッチが付属しています。 リリースをクリックして、その内容を表示します。
 
-View the latest [documentation updates](../../rn/using/documentation-updates.md) for Adobe Campaign Standard. If you're looking for a newer release, consult this [page](../../rn/using/release-notes.md).
+Adobe Campaign Standardの最新のドキ [ュメントの更新](../../rn/using/documentation-updates.md) . 新しいリリースをお探しの場合は、このページを参照してく [ださい](../../rn/using/release-notes.md)。
 
-## Release 18.9 - September 2018 {#release-18-9---september-2018}
+## リリース18.9 - 2018年9月 {#release-18-9---september-2018}
 
-### What's new? {#what-s-new-}
+### 何が新しいの？ {#what-s-new-}
 
 <table> 
  <thead> 
   <tr> 
-   <th> Functionality<br /> </th> 
+   <th> 機能<br /> </th> 
    <th> 説明<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> In-App messaging (beta)<br /> </td> 
-   <td> アプリ内メッセージを使用すると、コンテキストインタラクションを提供し、プッシュ通知をオプトアウトする可能性のあるユーザーに到達できるように、モバイルアプリのユーザーをより効率的に惹きつけることができます。プッシュ通知と連携してアプリ内メッセージを使用すると、高度にパーソナライズされた関連性の高いエクスペリエンスを作成できます。これにより、アプリユーザーのコンバージョン率と定着率が向上します。<br /> 詳しくは、 <a href="../../channels/using/about-in-app-messaging.md">詳細なドキュメント</a>を参照してください。<br /> </td> 
+   <td> アプリ内メッセージング（ベータ版）<br /> </td> 
+   <td> In-Appメッセージングを使用すると、コンテキストに応じた対話を提供し、Push通知をオフにした可能性のあるユーザーに連絡できるため、Mobile appユーザーをより効果的に連携させることができます。 In-appメッセージングとプッシュ通知を組み合わせて使用すると、高度にカスタマイズされ、関連性の高いエクスペリエンスを作成できます。 これにより、Appユーザーの変換と保存が向上します。<br /> 詳細については、詳細なドキュメントを参照 <a href="../../channels/using/about-in-app-messaging.md">してください</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Adobe Launch integration for mobile apps (beta)<br /> </td> 
-   <td> Adobe CampaignとAdobe Campaignの統合により、Mobile SDK V5を使用したキャンペーンでのモバイルアプリプロパティのアクティブ化プロセスを簡素化および自動化できるようになりました。<br /> 詳しくは、 <a href="https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html">詳細なドキュメント</a>を参照してください。<br /> </td> 
+   <td> モバイルアプリ（ベータ版）向けAdobe Launch統合<br /> </td> 
+   <td> Adobe LaunchとAdobe Campaignの統合により、Mobile SDK V5を使用したキャンペーンでのMobile App Propertyのアクティブ化プロセスが簡素化され、自動化されました。<br /> 詳細については、詳細なドキュメントを参照 <a href="https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html">してください</a>。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Improvements {#improvements}
+### 改善点 {#improvements}
 
-* Adobe Campaign Standardで、Amazon S3APIのバージョン4がサポートされるようになりました。
+* Adobe Campain Standardは、Amazon S3 APIのバージョン4をサポートするようになりました。
 
-### Other changes {#other-changes}
+### その他の変更点 {#other-changes}
 
-* ブロードログでは、接続の最大数と1時間あたりの最大メッセージ数が区別されるようになりました。制限に達すると、スループットが制限される理由を知ることができます。以前は、両方のケースに同じメッセージ（「割り当てmatched"）が適用されていました。
-* Campaignでモバイルアプリケーションを設定する場合、iOS証明書とAndroidサーバーキーが正常にアップロードされたかどうか、およびその有効期限がユーザーに通知されるようになりました。
+* ブロードログでは、接続の最大数と1時間あたりの最大メッセージ数の間に違いがあります。 制限に達すると、スループットが制限される理由を知ることができます。 以前は、両方のケースに同じメッセージ(「quota met」)が適用されていました。
+* キャンペーンでモバイルアプリケーションを設定する際に、iOS証明書とAndroidサーバーキーが正常にアップロードされ、有効期限が切れているかどうかをユーザーが確認できるようになりました。
 
-   For more on this, refer to the detailed documentation on how to configure a mobile application using [SDK V4](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) and [SDK V5](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
+   詳細については、 [SDK V4および](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) SDK V5を使用してモバイルアプリケーションを設定する方法に関する詳細なドキュメントを参照してください [](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)。
 
-* 特定のMobileアプリのユーザーをターゲットに設定するには、キャンペーンプロパティの定義中にMobileアプリを選択します。この機能は、プッシュチャネルとアプリ内メッセージチャネルの両方に対応しています。
+* キャンペーンのプロパティを定義中にモバイルアプリを選択して、特定のモバイルアプリのユーザーをターゲットにします。 この機能は、プッシュメッセージングチャネルとアプリ内メッセージングチャネルの両方に対応しています。
 
-   For more information, refer to the [detailed documentation](../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification).
+    詳細については、詳細なドキュメントを参照 [してください](../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification)。
 
-* Creative Designerインターフェイスを使用してコンテンツブロックを選択すると、リストからのすべてのコンテンツブロックが読み込まれて表示されるようになりました。（CAR-27311）
+* Creative Designerインタフェースを使用してコンテンツブロックを選択すると、リスト内のすべてのコンテンツブロックがロードされ、表示されます。 (27311)
 
-   For more on this, refer to the [detailed documentation](../../designing/using/adding-a-content-block.md).
+   詳細については、詳細なドキュメントを参照 [してください](../../designing/using/personalization.md#adding-a-content-block)。
 
-### Patches {#patches}
+### パッチ {#patches}
 
-* 電子メールのダッシュボードと電子メールのサマリレポートの間のログ数に相違がある問題を修正しました。（CAR-28237
-* ファイル転送アクティビティでファイルを読み込む際にエラーメッセージが表示される可能性があるワークフローの問題を修正しました。（CAR-27435）
-* フォーム内でサービスをランダムに選択解除するという、25種類のサービスを含むランディングページの問題を修正しました。（CAR-26572）
-* ファイル転送アクティビティの使用時に、SFTP URLを持つ外部アカウントを設定できないワークフローの問題を修正しました。（CAR-26475）
-* サービスの概要レポートが更新できない問題を修正しました。（CAR-26301）
-* エンリッチメントアクティビティの使用時に、カスタムフィールドに正しい日付が表示されない問題を修正しました。（CAR-26242）
-* ファイルインポートからインポートしたときにサービス購読日が更新されない問題を修正しました。
-* ワークフローでファイルのインポートを妨げていた読み込みファイルアクティビティのエラーを修正しました。
-* サービスサマリレポート（CAR-25587）で誤った購読数が表示される問題を修正しました。
-* Adobe AnalyticsレポートとAdobe Campaignレポートのデータに相違がある問題を修正しました。（CAR-25393）
-* 制限付きアクセスユーザーがログインできない可能性がある問題を修正しました。（CAR-27381）
-* Creative Designerを使用して電子メールを編集する際に、Adobe Experience Managerのコンテンツのリストが表示されない可能性がある問題を修正しました。（CAR-27181）
-* Creative Designerでエラーが発生してエラーが発生する可能性がある問題を修正しました。（CAR-27304）
-* Internet Explorer11を使用すると、Creative Designerでドラッグ&amp;ドロップが正しく動作しない問題を修正しました。
-* カメラからアップロードし、ポートレイトモードで撮影した画像に、不要な回転位置が表示される問題を修正しました。
-* Creative Designerでクエリエディターインターフェイスを使用すると、選択情報が不明確に表示される問題を修正しました。
-* Creative Designerのクエリエディターインターフェイスを使用すると、要素が正しく複製されない問題を修正しました。
-* 自動返信を使用して登録解除された場合でも、ブラックリストに記載された受信者にSMSメッセージを配信する問題を修正しました。（CAR-27128）
-* **データベースのクリーンアップ** ワークフローが失敗する原因となっていたエラーを表示できない問題を修正しました。（CAR-26876）
-* プッシュ通知定義でカスタムフィールドを削除できない可能性がある問題を修正しました。（CAR-25588）
+* 電子メールダッシュボードとトランザクション電子メールの電子メール概要レポートのログ数に不一致がある問題を修正しました。 (CAMP-28237)
+* ファイル転送アクティビティを使用してファイルをインポートする際に、エラーメッセージが表示されるワークフローの問題を修正しました。 (CAMP-27435)
+* 25を超えるサービスを含むランディング·ページで問題が修正され、フォーム内でサービスがランダムに選択解除されました。 (CAMP-26572)
+* ファイル転送アクティビティを使用する際にSFTP URLを使用して外部アカウントを構成できなかったワークフローの問題が修正されました。 (CAMP-26475)
+* サービスの概要レポートを更新できない問題を修正。 (26301)
+* ユーザー設定フィールドが正しい日付を表示できないように、アンリックアクティビティを使用する際のワークフローの問題を修正しました。 (CAMP-26242)
+* ファイルのインポートを通じてインポートした場合に、サービスのサブスクリプション日付が更新されない問題が修正されました。
+* ファイルの読み込みアクティビティに関するエラーが修正され、ワークフローでファイルを読み込めなくなりました(CAMP-27068)。
+* Service Summaryレポートに間違ったサブスクリプション数が表示された問題が修正されました(CAMP-25587)。
+* Adobe AnalyticsとAdobe Campaignレポートのデータの不一致の問題を修正。 (CAMP-25393)
+* 制限付きのアクセスユーザーのログインを妨げる可能性のある問題を修正。 (27381)
+* Creative Designerを使用して電子メールを編集する際に、Adobe Experience Managerのコンテンツのリストが表示されない問題が修正されました。 (27181)
+* Creative Designerが開かない問題が修正され、エラーが発生。 (27304)
+* Internet Explorer 11を使用しているときに、Creative Designerでのドラッグ&amp;ドロップが正しく動作しない問題が修正されました。
+* カメラからアップロードされた画像と、写真を縦モードで撮影して、不要な回転位置に表示する問題が修正された。
+* Creative Designerでクエリエディタインターフェイスを使用する際に、選択情報が不明な場合に問題が修正されました。
+* Creative Designerでクエリエディタインターフェイスを使用する際に、要素を正しく複製できない問題が修正されました。
+* 自動応答で購読を取り消された場合でも、SMSメッセージをブラックリストに登録された受信者に配信し続ける問題が修正されました。 (27128)
+* データベースクリーンアップワークフローの失敗の原因となったエラーの表示を妨げ **た問題** が修正されました。 (CAMP-26876)
+* プッシュ通知定義内のカスタムフィールドの削除を防ぐ可能性のある問題が修正されました。 (CAMP-25588)
 
-## Release 18.7 - July 2018 {#release-18-7---july-2018}
+## リリース18.7 - 2018年7月 {#release-18-7---july-2018}
 
-### What's new? {#what-s-new--1}
+### 何が新しいの？ {#what-s-new--1}
 
 <table> 
  <thead> 
   <tr> 
-   <th> Functionality<br /> </th> 
+   <th> 機能<br /> </th> 
    <th> 説明<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> High priority flag for Android push notifications<br /> </td> 
-   <td> Android用の優先度の高いフラグ- Androidアプリの優先度が高いプッシュ通知を配信して、一部の制限付き処理を起動して実行することを有効にします。デフォルトの優先順位が「標準」であることに注意してください。これにより、メッセージの配信がバッテリーの節約に遅れる可能性があります。<br /> 詳しくは、 <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android">詳細なドキュメント</a>を参照してください。<br /> </td> 
+   <td> Androidプッシュ通知用の高優先度フラグ<br /> </td> 
+   <td> Android向けの高優先度フラグ-スリープ中のデバイスが起動し、一部の限られた処理を実行するAndroidアプリに対して、高い優先度でプッシュ通知を配信できます。 デフォルトの優先度は[標準]で、メッセージの配信が遅れてバッテリが節約される場合があります。 <br /> 詳細については、詳細なドキュメントを参照 <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android">してください</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Typology filter for mobile app subscribers<br /> </td> 
-   <td> タイポロジフィルターでのサポートの購読-タイポロジルールのフィルター条件を指定する場合、アプリの購読はフィルターおよびターゲット設定ディメンションとして選択でき、プロファイルを使用したり、プロファイルなしでユーザーの属性をフィルタリングしたりできます。<br /> 詳しくは、 <a href="../../administration/using/about-typology-rules.md#typology-rules">詳細なドキュメント</a>を参照してください。<br /> </td> 
+   <td> モバイルアプリのサブスクライバーの類型フィルター<br /> </td> 
+   <td> 類型フィルタのサポート購読-類型規則のフィルタ条件を指定する場合、アプリケーション購読をフィルタおよびターゲット次元として選択でき、プロファイルのあるユーザーまたはないユーザーの属性をフィルタできます。 <br /> 詳細については、詳細なドキュメントを参照 <a href="../../administration/using/about-typology-rules.md#typology-rules">してください</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Automated content import from a URL during message preparation<br /> </td> 
-   <td> 準備段階でURLから電子メールコンテンツをインポートできるようになりました。定期的な電子メール配信の場合、最新のHTMLコンテンツは、電子メールの送信時にコンテンツが常に最新の状態に保たれるように毎回取得されます。また、コンテンツがまだ準備されていない場合でも、URLからのコンテンツを含むスケジュール配信を作成することもできます。<br /> 詳しくは、 <a href="../../designing/using/importing-content-from-a-url.md#retrieving-content-from-a-url-automatically-at-preparation-time">詳細なドキュメント</a>を参照してください。<br /> </td> 
+   <td> メッセージの準備中にURLからコンテンツを自動インポート<br /> </td> 
+   <td> 準備フェーズ中に、URLから電子メールコンテンツをインポートできるようになりました。 定期的な電子メール配信の場合は、電子メールの送信時に常に最新のコンテンツが保証されるように、メッセージが準備されるたびに最新のHTMLコンテンツが取得されます。 また、この機能を使用すると、コンテンツがまだ準備できていない場合でも、URLからコンテンツを含むスケジュール配信を作成できます。<br /> 詳細については、詳細なドキュメントを参照 <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">してください</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Campaign release notification message<br /> </td> 
-   <td> インスタンスのアップグレード後にユーザーがログインしたときにポップアップメッセージが表示されるようになりました。メッセージにはバージョン番号が表示され、リリースノートへのリンクが含まれます。You can choose to hide the message until the next release. <br /> </td> 
+   <td> キャンペーンリリース通知メッセージ<br /> </td> 
+   <td> インスタンスを新しいバージョンにアップグレードした後、ユーザーがログインすると、ポップアップ·メッセージが表示されます。 このメッセージはバージョン番号を示し、リリースノートへのリンクを含みます。 次のリリースまでメッセージを非表示にすることができます。 <br /> </td> 
   </tr> 
   <tr> 
-   <td> User management<br /> </td> 
-   <td> 地理単位機能は、新しいキャンペーン標準インスタンスと、18.7リリースを開始した地理単位のない既存のインスタンスで使用できなくなりました。<br /> 詳しくは、 <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">このページ</a>を参照してください。<br /> </td> 
+   <td> ユーザー管理<br /> </td> 
+   <td> 18.7リリースから、新しいキャンペーン標準インスタンス、および地理的単位が作成されていない既存のインスタンスでは、地理的単位機能が使用できなくなりました。<br /> 詳細は、このページを参照してく <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">ださい</a>。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Improvements {#improvements-1}
+### 改善点 {#improvements-1}
 
-* The Adobe Campaign and Adobe Target integration now allows you to leverage Target’s [Permissions](https://marketing.adobe.com/resources/help/en_US/target/target/properties-overview.html) feature. Adobe Targetから動的な画像を電子メールに含める場合、Targetプロパティ（at_ propertyコード）を指定できるようになりました。
-* プロファイルリソースへのOwcopyリンクを持つカスタムリソースが、GGPRのプライバシーアクセス/削除リクエストによって考慮されるようになりました。単純リンクとN基数のコレクションリンクの単純なリンクでは、「ターゲットレコードの削除/複製」を選択して、カスタムリソースのリンクによって参照されるレコードを削除または複製する必要があります。0または1個の単純なリンクの場合、「レコードの削除/複製」を選択すると、リンクによって参照されているターゲットレコードを削除/複製することを意味します。
+* Adobe CampaignとAdobe Targetの統合により、Targetの [Permissions機能を活用できるようになりました](https://marketing.adobe.com/resources/help/en_US/target/target/properties-overview.html) 。 Adobe Targetのダイナミックイメージを電子メールに含める場合、Target Property （at_propertyコード）を指定できるようになりました。
+* プロファイル·リソースへのオーナー·コピー·リンクを持つカスタム·リソースは、GDPRプライバシー·アクセス/削除要求によって考慮されます。 1つの基数単純リンクとN個の基数収集リンクの場合は、カスタムリソースの[ターゲットレコードの削除/複製は、リンクが参照するレコードの削除/複製を意味する]を選択する必要があります。 0または1の基数単純リンクの場合は、「レコードの削除/複製は、リンクが参照するターゲット·レコードの削除/複製を意味する」を選択します。
 
-### Other changes {#other-changes-1}
+### その他の変更点 {#other-changes-1}
 
-* レポートの共有タイムアウトが、タイムアウトエラーを回避するために1~4分に延長されました。
-* 電子メールのコンテンツを編集すると、デフォルトで新しいCreative Designerが開きます。必要に応じて、変更を保存した後でもいつでもデフォルトのコンテンツエディターに戻ることができます。For more on this, refer to the [detailed documentation](../../designing/using/about-email-content-design.md).
-* Creative Designerでは、新しいコンテンツコンポーネントを電子メールに追加できるようになりました。カルーセル。For more on this, refer to the [detailed documentation](../../designing/using/defining-the-email-structure.md#about-content-components).
-* In a transactional message hot click report, when you click the **Change profile** button, now only the test profiles linked to the event that you defined for your transactional message are listed.
+* レポート共有のタイムアウトが1分から4分に増加し、タイムアウトエラーが発生するのを防ぎました。
+* 電子メールの内容を編集する場合、新しいCreative Designerがデフォルトで開きます。 必要に応じて、変更を保存した後でいつでも既定のコンテンツエディタに戻ることができます。 詳細については、詳細なドキュメントを参照 [してください](../../designing/using/overview.md)。
+* Creative Designerで、新しいコンテンツコンポーネントを電子メールに追加できるようになりました。カルーセルだ 詳細については、詳細なドキュメントを参照 [してください](../../designing/using/designing-from-scratch.md#about-content-components)。
+* トランザクション·メッセージのホット·クリック·レポートで、「 **Change profile** 」ボタンをクリックすると、トランザクション·メッセージに対して定義したイベントにリンクされたテスト·プロファイルのみが表示されます。
 
-### Patches {#patches-1}
+### パッチ {#patches-1}
 
-* ByEmailクエリフィルターの結果を返すことができなかった問題を修正しました。（CAR-23420）
-* 管理者（/rest/head/*エンドポイント、トランザクションメッセージ画面、プロファイル、オーディエンスの読み込み画面）に制限されている特定の機能または画面に標準ユーザーがアクセスできる問題を修正しました。
-* DGPRプライバシーの削除リクエストで、数字が開始した場合にカスタムリソースが処理されない問題を修正しました。
-* Adobe Experience Cloudで、オーディエンスの共有アクティビティを保存できなかったエラーを修正しました。
-* ファイル転送アクティビティで、ファイル名に空白スペースが含まれる場合に発生する問題を修正しました。（CAR-25936）
-* セッションの有効期限が切れた後に再接続ボタンを使用すると発生する可能性がある問題を修正しました。（CAR-25560）
-* ファネルルールに関連付けられたタイムゾーンの最適化を使用して配信を送信すると除外される可能性がある問題を修正しました。（CAR-25425）
-* API GDPR機能を使用すると、0-1タイプのリンクでデータを削除できない問題を修正しました。
-* 疲労タイポロジルールのエディションをキャンセルするとエラーメッセージが表示される可能性がある問題を修正しました。
-* 編集後に配信コンテンツをプレビューすると発生する可能性がある問題を修正しました。
-* 「解凍」オプションの使用中にCSV zipファイルを処理すると発生する問題を修正しました。
-* Creative Designerで、リンクのスタイル設定やリンクの編集の際に、不要なカラーフォントや書式を変更すると不要なカラーフォントと書式が発生する問題を修正しました。（CAR-26001）
-* 動的なコンテンツを含む配信の各条件の割合をホットクリックレポートで表示できない問題を修正しました。以前は、デフォルトのバリアントのクリックのみが表示されていました。
+* byEmailクエリフィルタで問題が修正され、結果が返されませんでした。 (CAMP-23420)
+* 管理者に制限された特定の機能や画面（/rest/head/*エンドポイント、トランザクションメッセージング画面、プロファイル、および対象ユーザーのインポート画面）に、標準ユーザーがアクセスできる問題が修正されました。
+* GDPRプライバシーの削除要求の名前が番号で始まる場合、その要求がカスタム·リソースを処理できない問題が修正されました。
+* Adobe Experience cloudでの対象ユーザーの保存アクティビティでアプリケーションサブスクライバーの共有を妨げるエラーが修正されました。
+* ファイル名に空白が含まれている場合に発生する可能性のあるファイル転送アクティビティの問題を修正しました。 (CAMP-25936)
+* セッションの有効期限が切れた後に再接続ボタンを使用したときに発生する可能性のある問題を修正。 (CAMP-25560)
+* 疲労ルールに関連するタイム·ゾーン最適化を使用して搬送を送信する際に除外につながる可能性のある問題が修正されました。 (CAMP-25425)
+* API GDPR機能を使用する際に、0-1タイプのリンクを使用してデータを削除できない可能性がある問題が修正されました。
+* 疲労類型規則の編集を取り消す際にエラーメッセージが表示される問題を修正。
+* 編集後に配信コンテンツをプレビューする際に発生する可能性のある問題が修正されました。
+* [解凍]オプションを使用してCSVのzipファイルを処理する際に発生する可能性のある問題を修正。
+* Creative Designerの問題が修正され、組み込みのスタイルを持つテキストをリンクに変更したり、リンクを編集する際に、不要な色のフォントと書式が生じた。 (CAMP-26001)
+* 動的コンテンツを含む配信の各条件に対する割合を表示できない問題が修正されました。 以前は、既定のバリアントのクリックだけが表示されていました。
 
-## Release 18.6 - June 2018 {#release-18-6---june-2018}
+## リリース18.6 - 2018年6月 {#release-18-6---june-2018}
 
-### Improvements {#improvements-2}
+### 改善点 {#improvements-2}
 
-* The **[!UICONTROL History]** API has been added to Adobe.IO. プロファイルのマーケティング履歴に関連する情報にアクセスできます。タッチポイント数、送信配信、ミラーページURLなどFor more on this, refer to the [dedicated use case](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#how-to-retrieve-the-mirror-page-for-a-delivery-sent-to-a-profile) .
-* **[!UICONTROL Database cleanup]** 技術ワークフローは、データベースバックアップのパフォーマンスを向上させるために最適化されています。
-* 電子メール用のクリエイティブデザイナーもフランス語とドイツ語で利用可能になりました。
+* APIが **[!UICONTROL History]** Adobe.IOに追加されました。 プロファイルのマーケティング履歴に関する情報にアクセスできます。タッチポイント数、送信済み配信、ミラーページのURLなど 詳細は、専用のユースケースを参照 [してください](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#how-to-retrieve-the-mirror-page-for-a-delivery-sent-to-a-profile) 。
+* データベ **[!UICONTROL Database cleanup]** ース·バックアップのパフォーマンスを向上させるために、技術的なワークフローが最適化されました。
+* Creative Designer for emailは、フランス語とドイツ語でも利用できます。
 
-### Other changes {#other-changes-2}
+### その他の変更点 {#other-changes-2}
 
-* **[!UICONTROL Compute stats]** 送信された配信の **[!UICONTROL Deployment]** ウィンドウにボタンが追加されました。例えば、送信の結果が長すぎるか、考慮されていない場合など、最新のKPIを取得できます。For more on this, refer to this [section](../../sending/using/confirming-the-send.md).
-* **最新の技術ワークフローを配信する** ための更新で、機能管理者は **、更新ルール** のjavascriptアクティビティで無視する連続エラーの数を定義できるようになりました。デフォルトでは、フィールドの値は0に設定されており、すべてのエラーは無視されます。
-* ユニットアクセス制限条件の管理時に生成されるSQLが最適化されました。
-* **[!UICONTROL Update]** これで、購読に関連するデータを追加、更新または削除できます（nms:appSubscriptionRcpテーブル）。
-* The **[!UICONTROL Update delivery execution]** technical workflow has been divided into two workflows in order to optimize performance: - **[!UICONTROL Update delivery execution]**: updates the delivery's tracking. デフォルトでは10分ごとに開始されます。**[!UICONTROL Update delivery indicators]**:配信のKPIは、デフォルトで1時間ごとに更新されます。For more on technical workflows, refer to this [section](../../administration/using/technical-workflows.md#list-of-technical-workflows).
-* When a delivery is sending messages, the status in the **[!UICONTROL Deployment]** section can now have two values: **[!UICONTROL Sending]**: the messages are being sent. **[!UICONTROL Sending (retry)]**:再試行パスが進行中です。
-* **[!UICONTROL Delivery preparation]** ロールを持つユーザーが配達確認を送信できるようになりました。（CAR-24313）
-* The **Enable TLS over SMPP** option has been added to the **SMS routing via SMPP** external account. For more on this refer to this [section](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing).
+* 送信済 **[!UICONTROL Compute stats]** みの配信のウィンドウにボタ **[!UICONTROL Deployment]** ンが追加されました。 これにより、最新のKPIを取得できます。たとえば、送信側の結果が更新に時間がかかりすぎるか、または考慮されていない場合などです。 For more on this, refer to this [section](../../sending/using/confirming-the-send.md).
+* 配信可能性 **のための更新(Update for deliverability** for Out-of-the-box)技術ワークフローで、機能管理者は、 **Update rules** javascriptアクティビティで無視する連続するエラーの数を定義できるようになりました。 既定では、フィールド値は0に設定されています。つまり、すべてのエラーは無視されます。
+* ユニット·アクセス制限条件の管理時に生成されるSQLが最適化されました。
+* このア **[!UICONTROL Update]** クティビティでは、サブスクリプションに関連するデータ（nms:appSubscriptionRcpテーブル）を追加、更新、または削除できます。
+* 技術ワー **[!UICONTROL Update delivery execution]** クフローは、パフォーマンスを最適化するために、次の2つのワークフローに分かれています。- **[!UICONTROL Update delivery execution]**:配信の追跡を更新します。 デフォルトでは10分ごとに開始されます。 **[!UICONTROL Update delivery indicators]**:配信のKPIを更新します。既定では、1時間ごとに開始されます。 技術的なワークフローの詳細については、このセクションを参照して [ください](../../administration/using/technical-workflows.md#list-of-technical-workflows)。
+* 配信がメッセージを送信する場合、セクションのステータスには次 **[!UICONTROL Deployment]** の2つの値を設定できます。: **[!UICONTROL Sending]**&#x200B;メッセージが送信されています。 **[!UICONTROL Sending (retry)]**:再試行パスが進行中です。
+* これで、役割を持つユ **[!UICONTROL Delivery preparation]** ーザーは校正を送信できるようになりました。 (CAMP-24313)
+* SMPP外部アカウ **ントを介してSMSルーティングに[ SMPP上でTLSを有効にする****** ]オプションが追加されました。 For more on this refer to this [section](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing).
 
-### Patches {#patches-2}
+### パッチ {#patches-2}
 
-* Adobe Target（CAR-24848）の動的な画像を含めると電子メールが送信されない可能性がある問題を修正しました。
-* **[!UICONTROL Privacy Access/Delete Request]** 技術ワークフローの問題を修正しました。リクエストのいずれかが失敗した場合には完了しませんでした。
-* プライバシーコアサービスがキャンペーンからリクエストステータスの更新を受信できなかった問題を修正しました。
+* Adobe Target (CAMP-24848)のダイナミックイメージを含めると、電子メールの送信が妨げられる問題が修正されました。
+* 技術的なワークフローに関する問 **[!UICONTROL Privacy Access/Delete Request]** 題が修正されましたが、いずれかの要求に失敗した場合は完了しませんでした。
+* プライバシーコアサービスがキャンペーンから要求の状態の更新を受け取れない問題を修正しました。
 * **[!UICONTROL Import shared audience]** 技術ワークフローが正常に機能できなかった問題を修正しました（CAMP-25465）。
-* コアプライバシーサービスでキャンペーンプライバシーリクエストが完了していない問題を修正しました。
-* Adobe IDが長すぎる場合に、特定のユーザーがIMS認証によってキャンペーンStandardにログインできない可能性がある問題を修正しました。（CAR-24095）
-* コンテンツモジュールを削除すると発生する可能性がある、Creative Designerの問題を修正しました。（CAR-25242）
-* データベース内のプロファイルのないサブスクライバーにプッシュ通知ルールを使用する場合の問題を修正しました。（CAR-25344）
-* 配信の除外ログにアクセスするとエラーメッセージが表示される可能性がある問題を修正しました。（CAR-24724）
-* 拡張送信ログのインスタンスで校正が準備されない問題を修正しました。
-* **[!UICONTROL Sending log]** 拡張機能を有効にしてカスタムリソースを公開すると発生する可能性がある2つの問題を修正しました。
-* 定期配信で配信期間が考慮されない問題を修正しました。
-* Fixed an issue that could occur when sorting data in the **[!UICONTROL Client data]** menu, for custom resources with more than 100K records. （CAR-24308）
-* 動的レポートで検索機能を使用する際に考慮されなかったカスタムプロファイルディメンションの問題を修正しました。
-* 動的レポートのアカウントレベルでの国際データの表示に関する問題を修正しました。
-* 購読または購読の確認解除メッセージなしでサービスを作成できるようになりました。
+* キャンペーンのプライバシー要求がコアプライバシーサービスで完了としてマークされない問題を修正しました。
+* Adobe IDが長すぎると、IMS認証を使用して特定のユーザーがキャンペーン標準にログインできなくなる問題が修正されました。 (CAMP-24095)
+* コンテンツモジュールの削除時に発生する可能性のあるCreative Designerの問題を修正。 (CAMP-25242)
+* データベースにプロファイルがないサブスクライバーのプッシュ通知疲労ルールを使用する際の問題を修正しました。 (CAMP-25344)
+* 配信の除外ログにアクセスする際にエラーメッセージが表示される問題を修正。 (CAMP-24724)
+* 拡張送信ログを使用した場合に、校正の準備ができない問題が修正されました。
+* 拡張機能を有効にしてカスタムリソースを発行する際に発生する可能性のある2つの問題 **[!UICONTROL Sending log]** が修正されました。
+* 繰り返し配信での配信期間を考慮しない場合に発生する可能性のある問題を修正。
+* 100Kを超えるレコードを持つカスタムリソースのメニ **[!UICONTROL Client data]** ューでデータを並べ替える際に発生する可能性のある問題を修正。 (24308)
+* 動的レポートで検索機能を使用する際に考慮されなかったカスタム·プロファイル次元に関する問題が修正されました。
+* 動的レポートのアカウントレベルの国際データの表示に関する問題を修正しました。
+* サブスクリプションまたはサブスクリプション解除の確認メッセージを含まないサービスを作成できるようになりました。
 
-## Release 18.5 - May 2018 {#release-18-5---may-2018}
+## リリース18.5 - 2018年5月 {#release-18-5---may-2018}
 
-### What's new? {#what-s-new--2}
+### 何が新しいの？ {#what-s-new--2}
 
 <table> 
  <thead> 
   <tr> 
-   <th> Functionality<br /> </th> 
+   <th> 機能<br /> </th> 
    <th> 説明<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> GDPR: Core Service Integration<br /> </td> 
-   <td> プライバシーコアサービス統合を使用すると、単一のJSON API呼び出しを通じて、マルチソリューションコンテキストでGGPRリクエストを自動化できます。<br /> プライバシーコアサービスからすべてのExperience CloudソリューションにプッシュされたGDPRリクエストが、キャンペーンで自動的に処理されるようになりました。<br /> 詳しくは、 <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">詳細なドキュメント</a>を参照してください。<br /> </td> 
+   <td> GDPR:コア·サービスの統合<br /> </td> 
+   <td> Privacy Core Service Integrationを使用すると、1つのJSON API呼び出しを通じて、マルチソリューションコンテキストでGDPR要求を自動化できます。 <br /> プライバシー·コア·サービスからエクスペリエンス·クラウド·ソリューションに送信されたGDPRリクエストは、キャンペーンによって自動的に処理されるようになりました。 <br /> 詳細については、詳細なドキュメントを参照 <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">してください</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Push improvements - detailed delivery feedback<br /> </td> 
-   <td> Adobe Campaignでは、MCPNSを介してプロバイダー（APNS/GCM）からプッシュメッセージに詳細なフィードバック（ログの除外ログを送信）を受信できるようになりました。<br /> 詳しくは、 <a href="../../channels/using/preparing-and-sending-a-push-notification.md#sending-the-notification">詳細なドキュメント</a>を参照してください。<br /> </td> 
+   <td> プッシュの改善-詳細な配信フィードバック<br /> </td> 
+   <td> Adobe Campaignでは、MCPNSを介してプロバイダ(APNS/GCM)からプッシュメッセージに関する詳細なフィードバック（ログと除外ログの送信）を受け取る機能が提供されました。<br /> 詳細については、詳細なドキュメントを参照 <a href="../../channels/using/preparing-and-sending-a-push-notification.md#sending-the-notification">してください</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Delivery logs extension<br /> </td> 
-   <td> 配信ログ拡張を使用すると、プロファイルデータおよびワークフローからのセグメントコードを使用して、ログの送信を拡張できます。この情報は、動的レポートで使用でき、配信時に一部の情報のスナップショットを保持できます。<br /> 使用例は2つあります。<br /> 
+   <td> 配信ログの拡張<br /> </td> 
+   <td> 配信ログ拡張機能を使用すると、ワークフローから送信されるプロファイルデータとセグメントコードを含む送信ログを拡張できます。 この情報は、動的レポートで使用でき、配信の送信時に情報のスナップショットを保持できます。<br /> さらに2つの使用例があります。<br /> 
     <ul> 
-     <li> 拡張されたデータを使用して拡張されたBroadlogsをエクスポートする:マーケティング担当者は、セグメントコードが"A"に等しいすべてのプロファイルをエクスポートしたいと思います（ワークフローエンジンからのアクセス）。 </li> 
-     <li> Segmentation on "frozen" data: As a marketer, I would like to <strong>retarget</strong> all profiles who have won 1000 loyalty points since the last sending or where segment code was equal to "A". </li> 
-    </ul> For more information, refer to the <a href="../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension">detailed documentation</a>.<br /> </td> 
+     <li> 「凍結」データを含む拡張ブロードログをエクスポートする：マーケティング担当者として、（ワークフローエンジンからの）セグメントコードが「A」と等しいすべてのプロファイルをエクスポートしたいと思います。 </li> 
+     <li> 「固定」データのセグメンテーション：マーケティング担当者として、最後の送信以降に1000個のロイヤルティポイントを獲得したすべてのプロファイル <strong></strong> 、またはセグメントコードが「A」と等しかったすべてのプロファイルを再ターゲットしたいと思います。 </li> 
+    </ul>  詳細については、詳細なドキュメントを参照 <a href="../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension">してください</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Dynamic reporting with Custom profile data<br /> </td> 
-   <td> この機能により、プロファイルリソース拡張機能で作成されたカスタムプロファイルデータに基づいてレポートを作成および管理できます。忠誠度プログラム、好みのチャネルなどのプロファイル属性ごとにレポートを分類できます。<br /> 詳しくは、 <a href="../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension">詳細なドキュメント</a>を参照してください。<br /> </td> 
+   <td> カスタム·プロファイル·データを使用した動的レポート<br /> </td> 
+   <td> この機能を使用すると、プロファイルリソースの拡張中に作成されたカスタムプロファイルデータに基づいて、レポートを作成および管理できます。 ロイヤルティプログラムや優先チャネルなどのプロファイル属性別にレポートを分解できます。<br /> 詳細については、詳細なドキュメントを参照 <a href="../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension">してください</a>。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Improvements {#improvements-3}
+### 改善点 {#improvements-3}
 
-* アプリケーションの全体的なメモリとCPU使用量が強化されました
+* アプリケーションの全体的なメモリとCPU使用率が向上
 
-### Other changes {#other-changes-3}
+### その他の変更点 {#other-changes-3}
 
-* オーディエンスの読み込みワークフローアクティビティで、Experience Cloudオーディエンスを読み込めるようになりました。以前は、このアクティビティはQueryオーディエンスとListオーディエンスのみを読み上げることができました。Refer to the [detailed documentation](../../automating/using/read-audience.md). （CAR-23623）
-* デフォルトの共有データソースの識別子が読み取り専用モードになり、変更できなくなりました。このIDを変更すると、Experience Cloudでオーディエンスを共有する際に問題が発生する可能性があります。
-* Audience Managerからのオーディエンスの読み込みが、分割ファイルで機能するようになりました。以前は、importSharedAudienceのテクニカルワークフローによって、セグメントの最後のファイルのみがインポートされていました。
-* AWS S3外部アカウントで、地域およびバージョン4認証メカニズムがサポートされるようになりました。Refer to the [detailed documentation](../../administration/using/external-accounts.md).
-* アセット選択ウィンドウの読み込みが速くなり、問題なくウィンドウを終了することができるようになりました。
-* 技術的なワークフローのプロパティと構造を、管理者権限を持つユーザーによって変更し、「すべて」の組織および地理単位に所属できるようになりました。
-* セグメントの作成時にセグメント化アクティビティインターフェイスで強化された機能は次のとおりです。制限を追加した直後に「制限」タブが表示されるようになりました。新しいセグメント名が増分されるようになりました（「セグメント1"、「セグメント2"など）。
-* "NextProcessingDate"フィールドがワークフローリソースに追加されます。このフィールドはREST API呼び出しを通じてのみ表示されるので、次の処理日のワークフローを視覚化できます。
-* 現在、"sourceId"フィールドがトラッキングログリソース（nms:trackingLogを参照）。
-* 「合計開封数」および「合計クリック数」の値を、ワークフローを介してフラットファイルでエクスポートできるようになりました。（CAR-24186）
-* プロファイルの「英語-"のリストで「英語-デンマーク語」が利用できるようになりました。（CAR-23728）
-* 追加データ（targetData）リンクでセグメント化アクティビティを使用する場合、ワークフロー外でデータが利用できないことを通知するメッセージが表示されるようになりました。このメッセージは、セグメントアクティビティから「カウント」または「プレビュー」ボタンをクリックすると表示されます。（CAR-23651）
-* ワークフローで使用されるディスク容量を最適化するために、以下の機能が強化されました。（CAR-21979）:「ファイルの読み込み」アクティビティで処理されたファイルが、デフォルトで削除されるようになりました。オプションを使用すると、特定のニーズに合わせることができます。ワークフローが削除されると、その専用フォルダーはサーバーディレクトリから自動的に非表示になります。
+* 対象ユーザーの読み取りワークフローアクティビティで、エクスペリエンスクラウドの対象ユーザーを読み取ることができます。 以前は、このアクティビティは、クエリとリストの対象ユーザーのみを読み取ることができました。  詳細なドキュメント [を参照します](../../automating/using/read-audience.md)。 (CAMP-23623)
+* 既定の共有データソースの識別子は読み取り専用モードになり、変更できなくなりました。 この識別子を変更すると、エクスペリエンスクラウドと対象ユーザーを共有する際に問題が発生する可能性があります。
+* Audience Managerからの対象ユーザーのインポートが、分割されたファイルに対して機能するようになりました。 以前は、importSharedAudienceテクニカルワークフローによって、セグメントの最後のファイルのみがインポートされていました。
+* AWS S3の外部アカウントは、リージョンとバージョン4認証メカニズムをサポートするようになりました。 詳細なドキュメント [を参照します](../../administration/using/external-accounts.md)。
+* Asset Selectionウィンドウの読み込み速度が速くなり、アセットを選択してから、問題なくウィンドウを終了できるようになりました。
+* 技術ワークフローのプロパティと構造は、管理権限を持ち、「すべて」の組織単位と地理的単位に属するユーザーが変更できるようになりました。
+* 新しいセグメントを作成する際に、セグメンテーションアクティビティのインタフェースで次の機能が強化されました。制限を追加した直後に、[制限]タブが表示されるようになりました。 新しいセグメントの名前が増分されます（「Segment 1」、「Segment 2」など）。
+* [次の処理日]フィールドがワークフローリソースに追加されます。 このフィールドは、REST API呼び出しを通じてのみ表示され、次の処理日のワークフローを視覚化できます。
+* 「sourceId」フィールドが、追跡ログリソース(nms:trackingLog)に表示されます。
+* 「開く合計」と「クリックの合計」の値を、ワークフローを介してフラット·ファイルにエクスポートできるようになりました。 (CAMP-24186)
+* 「英語- Danmark」は、プロファイルの「優先言語」リストで使用できるようになりました。 (23728)
+* 追加データ(targetData)リンクを使用してセグメンテーションアクティビティを使用する場合、ワークフロー外でデータが使用できないことを示すメッセージが表示されるようになりました。 このメッセージは、セグメンテーション·アクティビティの「Count」または「Preview」ボタンをクリックすると表示されます。 (CAMP-23651)
+* ワークフローで使用されるディスク領域を最適化するために、次の機能が強化されました。(CAMP-21979):「ファイルの読み込み」アクティビティで処理されたファイルは、デフォルトで削除されます。 オプションを使用すると、特定のニーズに合わせてそれらを保持できます。 ワークフローが削除されると、その専用フォルダはサーバディレクトリから自動的に省略されます。
 
-### Patches {#patches-3}
+### パッチ {#patches-3}
 
-* eventDateフィールドに適切に入力されていないために、一部の生レポートイベントでトラッキングイベントが関連付けられていなかった問題を修正しました。
-* プッシュ通知配信のプレビューウィンドウにパーソナライズされたフィールドが表示されない問題を修正しました。
-* プレビューウィンドウでプッシュ通知のメッセージ本文をワードラップできない問題を修正しました。
-* メインターゲットが空のときにワークフローから再キュア配信を送信すると発生していた問題を修正しました。
-* 既存のスキーマにリンクされている場合、ターゲットマッピングにアクセスできない問題を修正しました。
-* ファイルの読み込みアクティビティを介してzipファイルを読み込むと発生する可能性がある問題を修正しました。（CAR-24309）
-* 定期的な配信を送信するとPostgreSQLエラーが発生する問題を修正しました。（CAR-23613）
-* 空のJSON属性でREST APIリクエストを送信するとエラーメッセージが表示される問題を修正しました。（CAR-23506）
-* プロファイルで、「ß」文字の後に文字が大文字になるように設定されていた問題を修正しました。（CAR-23136）
-* パーソナライゼーションまたは動的コンテンツブロックの適格性条件で使用された配信を、リンクされたプロファイルのスキーマの使用中に送信する問題を修正しました。（CAR-22751）
-* サービスを削除できない問題を修正しました。（CAR-22050）
-* テストプロファイルの国または州の値を変更できない問題を修正しました。（CAR-20426）
-* Creative Designerが読み込まれない可能性がある問題を修正しました。（CAR-24573）
-* 電子メールの件名のパーソナライゼーションフィールドの後に、削除された文字が追加されていた問題を修正しました。（CAR-24113）
+* eventDateフィールドが正しく設定されていないため、未処理のレポートイベントの一部に追跡イベントが関連付けられていない問題が修正されました。
+* プッシュ通知配信のプレビューウィンドウに個人用フィールドを表示できない問題が修正されました。
+* プレビューウィンドウでプッシュ通知のメッセージ本文をワードラップできない問題が修正されました。
+* メインターゲットが空の場合に、ワークフローから再キュア配信を送信する際の問題を修正しました。
+* 既存のスキーマにリンクされている場合に、ターゲット·マッピングにアクセスできない問題が修正されました。
+* ファイルの読み込みアクティビティを使用してzipファイルを読み込む際に発生する可能性のある問題を修正。 (24309)
+* 繰り返し配信を送る際にPostgreSQLエラーに至る問題を修正しました。 (CAMP-23613)
+* 空のJSON属性を持つREST API要求の送信時にエラーメッセージを表示する問題を修正しました。 (CAMP-23506)
+* 「s」文字の後に続く文字を大文字に設定したプロファイルの問題を修正。 (CAMP-23136)
+* プロファイルのリンクスキーマの属性を使用して、個人用設定または動的コンテンツブロックの適格条件で使用する配信を送信する際の問題を修正しました。 (22751)
+* サービスの削除を妨げた問題を修正。 (CAMP-22050)
+* テストプロファイルの国または都道府県の値を変更できない問題が修正されました。 (CAMP-20426)
+* Creative Designerの読み込みを妨げる可能性のある問題を修正。 (CAMP-24573)
+* 電子メールの件名の個人用設定フィールドの後に追加された文字を削除した問題が修正されました。 (CAMP-24113)
 
-## Release 18.4 - April 2018 {#release-18-4---april-2018}
+## リリース18.4 - 2018年4月 {#release-18-4---april-2018}
 
-### Patches {#patches-4}
+### パッチ {#patches-4}
 
-#### Platform {#platform}
+#### プラットフォーム {#platform}
 
-* GGPRへのアクセスまたは削除要求が正しく処理されない可能性があるエラーを修正しました。抽出されたデータに次の文字のいずれかが含まれていた場合、まれにこの動作が発生することがありました。&amp;&lt;&gt;"'.
+* GDPRアクセスまたは削除要求の正しい処理を妨げる可能性のあるエラーを修正。 この現象は、抽出されたデータに次の文字が含まれている稀な場合に見られます。&amp; &lt; &gt; " '.
 
-#### Emails, SMS messages and direct mail {#emails--sms-messages-and-direct-mail}
+#### 電子メール、SMSメッセージ、ダイレクトメール {#emails--sms-messages-and-direct-mail}
 
-* ログの同期に時間がかかる場合に、KPIの値が誤った値で上書きされる可能性がある問題を修正しました。
+* ブロードログの同期に1時間以上かかった場合、問題が修正されると、KPIが誤った値で上書きされる可能性があります。
 
-#### Workflows {#workflows}
+#### ワークフロー {#workflows}
 
-* ワークフローのメモリ管理および最適化されたパフォーマンスが向上しました。
+* メモリ管理の向上とワークフローのパフォーマンスの最適化
 
-#### Reporting {#reporting}
+#### 報告 {#reporting}
 
-* KPI共有ワークフローで、最近の6か月ではなく、過去2か月間の配信値を取得するようになりました。外部アカウントのKPIで日付が切り捨てられて表示される問題を修正しました。
-* **送信**、 **配信、****および報償の際に特定のメッセージが考慮されない可能性がある問題を修正**&#x200B;しました。
-* **配信サマリレポート** で選択した時間範囲が長すぎる場合に発生していたエラーを修正しました。
+* KPI共有ワークフローは、過去6か月ではなく、過去2か月の配送値を取得するようになりました。 切り捨てられた日付を示すKPI共有外部勘定で問題を修正しました。
+* [送信]、[配信済み]、[送信済み]の各メッセージに含まれない特定のメッセージを引き起こす **問題**&#x200B;が修正さ ********&#x200B;れました。
+* 配信の概要レポートで選択した時間範囲が長すぎると **きに発生したエラー** が修正されました。
 
-#### Custom resources {#custom-resources}
+#### カスタムリソース {#custom-resources}
 
-* カスタムリソースの準備に失敗するエラーを修正しました。
+* カスタムリソースの準備に失敗したエラーを修正しました。
 
-## Release 18.3 - March 2018 {#release-18-3---march-2018}
+## リリース18.3 - 2018年3月 {#release-18-3---march-2018}
 
-### New capabilities {#new-capabilities}
+### 新機能 {#new-capabilities}
 
 <table> 
  <thead> 
   <tr> 
-   <th> Functionality<br /> </th> 
+   <th> 機能<br /> </th> 
    <th> 説明<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> EU General Data Protection Regulation (GDPR)<br /> </td> 
-   <td> GGPRは、2018年5月25日に実施されるデータ保護要件を調和し、最新化する欧州連合（EU）新しいプライバシー法です。GGPRは、EUに存在するデータ項目のデータを保持するAdobe Campaignのお客様に適用されます。<br /> Adobe Campaignで既に使用可能なプライバシー機能（同意管理、データ保持設定、ユーザーの役割を含む）に加えて、データプロセッサーとしてこのロールを利用して、特定のGGPRリクエストのデータコントローラーとしての準備を容易にすることができます。<br /> 
+   <td> EUのGDPR(General Data Protection Regulation)<br /> </td> 
+   <td> GDPRは、2018年5月25日に発効するデータ保護要件を調和し、近代化するEU（欧州連合）の新しいプライバシー法です。 GDPRは、EUに在住するData Subjectsのデータを保持するAdobe Campaignのお客様に適用されます。<br /> Adobe Campaign（同意の管理、データ保持の設定、ユーザーの役割を含む）で既に利用可能なプライバシー機能に加え、Data Processorとしてこの機会を利用し、特定のGDPR要求に対するData Controllerとしての準備を容易にします。<br /> 
     <ul> 
-     <li> アクセス権:データの件名を使用すると、データコントローラーによってキャプチャされた個人データのコピーを受信できます（Adobe Campaignに保存されたデータなど）。 </li> 
-     <li> 削除から削除:データの件名を使用すると、データコントローラーによって取得された個人データが削除され、Adobe Campaignに保存されているデータを含めることができます。 </li> 
-    </ul> For more information, refer to the <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">detailed documentation</a>.<br /> </td> 
+     <li> アクセス権：では、Adobe Campaignに保存されているデータを含む、データコントローラによってキャプチャされた個人データのコピーを受け取ることができます。 </li> 
+     <li> 削除する権利：データの件名には、Adobe Campaignに保存されているデータを含め、データコントローラによって取り込まれた個人データを消去する権利があります。 </li> 
+    </ul>  詳細については、詳細なドキュメントを参照 <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">してください</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Creative Designer for Email (Beta)<br /> </td> 
-   <td> Adobe Campaignの新しいクリエイティブデザイナーは、キャンペーンに完全に統合された作成エクスペリエンスを提供し、1行のコードをスクリプト化することなく、パーソナライズされた個別にパーソナライズされたパーソナライズされたパーソナライズされた電子メールを、すばやく簡単に作成できます。強力なドラッグ&amp;ドロップインターフェイスにより、クリエイティブデザイナーは、ユーザーが空白のスレートから開始したり、既存のコンテンツフラグメントやテンプレートを活用したりするかどうかを、電子メールの作成に役立ちます。<br /> 主な機能は次のとおりです。<br /> 
+   <td> Creative Designer for email （ベータ版）<br /> </td> 
+   <td> Adobe Campaignの新しいCreative Designerは、Campaignに完全に統合された作成体験を提供し、1行のコードをスクリプト化する必要なく、個々にパーソナライズされた魅惑的なE-メールを簡単にビジュアルに作成できます。 Creative Designerは、強力なドラッグ·アンド·ドロップ·インタフェースを通じて、ユーザーが空白のスレートから開始したり、既存のコンテンツのFragmentsやテンプレートを活用したりする場合でも、Eメールの作成を拡張できます。 <br /> 主な機能は次のとおりです。<br /> 
     <ul> 
-     <li> ネイティブCreative Cloud統合によって拡張されたドラッグアンドドロップインターフェイスによって、完全にパーソナライズされたレスポンシブな電子メールを視覚的にデザインおよび作成できます </li> 
-     <li> 電子メールコンテンツテンプレートを作成して保存し、電子メールの作成を支援するために保存されたテンプレートを活用 </li> 
-     <li> コンテンツフラグメントの作成と保存（ヘッダー、フッター、記事など）コンテンツの作成を合理化し、ブランドの一貫性を確保する </li> 
-     <li> ドラッグ&amp;ドロップインターフェイスでの作成と、ボタンのクリック時に電子メールのHTML直接編集をシームレスに切り替える </li> 
-    </ul> Creative Designer for Emailは英語版でのみ利用できます。<br /> 詳しくは、詳細ドキュメントを <a href="../../designing/using/about-email-content-design.md#about-the-email-designer">参照</a> して <a href="https://www.youtube.com/watch?time_continue=1&amp;v=5S_6A4fsfms">ください</a>。<br /> </td> 
+     <li> ネイティブのCreative Cloud統合により、ドラッグ·アンド·ドロップ·インターフェイスを通じて、完全にカスタマイズされ、応答性の高いEメールを視覚的に設計/作成 </li> 
+     <li> Eメール·コンテンツ·テンプレートの作成と保存、保存済みテンプレートの活用により、Eメールの作成を拡張 </li> 
+     <li> コンテンツの断片（ヘッダー、フッター、アーティクルなど）を作成して保存します。コンテンツの作成を合理化し、ブランドの一貫性を確保する </li> 
+     <li> ドラッグ&amp;ドロップインターフェイスでの作成と、ボタンをクリックしたときの電子メールのHTMLの直接編集をシームレスに切り替える </li> 
+    </ul> Creative Designer for emailは、英語でのみ利用できます。<br /> 詳細については、詳細なドキュメントを参照し <a href="../../designing/using/overview.md">て、この</a> ビデオをご覧く <a href="https://www.youtube.com/watch?time_continue=1&amp;v=5S_6A4fsfms">ださい</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Multilingual Push Deliveries<br /> </td> 
-   <td> 電子メールチャネルとSMSチャネルに既に存在するシンプルな多言語インターフェイスが、お客様の好みの言語にかかわらず、プッシュチャネルに追加されました。<br /> この機能は、複数の地域にまたがるプッシュキャンペーンを管理し、ユーザーを対象言語でターゲット設定したい顧客向けのスケーラブルで自動的なソリューションを提供します。テンプレートスプレッドシートを使用してすべての言語のバリエーションを1回のプッシュ配信にアップロードできます。Adobe Campaignは、ユーザーの言語設定に基づいて自動的にセグメント化を行い、ワークフローとレポートを簡素化することによって冗長性を減らすことができます。<br /> 詳しくは、 <a href="../../channels/using/creating-a-multilingual-push-notification.md">詳細なドキュメント</a>を参照してください。<br /> </td> 
+   <td> 多言語プッシュ配信<br /> </td> 
+   <td> E-メールチャネルとSMSチャネルに既に存在するのと同じ単純な多言語インターフェイスがプッシュチャネルに追加され、お客様の好みの言語に関係なくお客様を引き込むことができます。<br /> この機能は、複数の地域にまたがるプッシュキャンペーンを管理し、ユーザーを好みの言語でターゲットにしたいお客様に対して、拡張性と自動化を実現するソリューションです。 テンプレート化されたスプレッドシートを使用して、1回のクリックですべてのリンガルバリアントを1つのプッシュ配信にアップロードできます。 次に、Adobe Campaignは、ユーザの言語の設定に基づいて自動セグメンテーションを実行し、ワークフローとレポート作成を簡単にして冗長性を減らします。<br /> 詳細については、詳細なドキュメントを参照 <a href="../../channels/using/creating-a-multilingual-push-notification.md">してください</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Use of Custom Resources in Transactional Messaging<br /> </td> 
-   <td> すぐに使用できるフィールドに加えて、トランザクションメッセージングでは、メッセージのコンテンツを充実させるためにカスタムリソースを使用できます。<br /> 次に例を示します。<br /> 
+   <td> トランザクション·メッセージングでのカスタム·リソースの使用<br /> </td> 
+   <td> トランザクションメッセージングでは、既存のフィールドに加えて、カスタムリソースを使用してメッセージの内容を豊富にすることができます。<br /> 例：<br /> 
     <ul> 
-     <li> カスタムフィールドを紐付け条件として使用して、トランザクションメッセージとプロファイルに一致させる </li> 
-     <li> 完全プロファイル、サービス、リンクされたデータを活用して、トランザクションメッセージをさらにパーソナライズ </li> 
-    </ul> For more information, refer to the <a href="../../administration/using/configuring-transactional-messaging.md">detailed documentation</a>.<br /> </td> 
+     <li> カスタム·フィールドを調整基準として活用し、トランザクション·メッセージをプロファイルに一致させる </li> 
+     <li> 完全なプロファイル、サービス、リンク·データを活用して、トランザクション·メッセージをさらにカスタマイズ </li> 
+    </ul>  詳細については、詳細なドキュメントを参照 <a href="../../administration/using/configuring-transactional-messaging.md">してください</a>。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Patches {#patches-5}
+### パッチ {#patches-5}
 
-#### Platform {#platform-1}
+#### プラットフォーム {#platform-1}
 
-* 5000件を超えるレコードをリストからエクスポートできない問題を修正しました。
-* パーソナライゼーションフィールドで名前を付けたファイルにデータをエクスポートする際の問題を修正しました。
+* 5000を超えるレコードをリストからエクスポートできない問題が修正されました。
+* 個人用設定フィールドで指定されたファイルにデータをエクスポートする際の問題が修正されました。
 
-#### Emails, SMS messages and direct mail {#emails--sms-messages-and-direct-mail-1}
+#### 電子メール、SMSメッセージ、ダイレクトメール {#emails--sms-messages-and-direct-mail-1}
 
-* パーツのサイズがバイトではなく文字で計算されるため、マルチパートSMSが切り詰められる問題を修正しました。
-* Added an option which allows the **[!UICONTROL Delivered]** or **[!UICONTROL Bounces + Errors]** KPIs to be updated in real time after sending your delivery. プロバイダーから受信したSR（ステータスレポート）から直接再計算されます。
-* 配信スケジューラーのカレンダーウィジェットの問題を修正しました。
-* 送信された配信で、ターゲットを2回開くと表示される問題を修正しました。
-* 遅延送信日の電子メールテンプレートを作成すると、開始日をリクエストするエラーメッセージが表示される問題を修正しました。
-* 配信のコンテンツを編集する際に画像レンダリングの問題が発生する可能性がある問題を修正しました。
-* キャンペーンを複製する際の校正の問題を修正しました。
-* ワークフローに配信を追加した後、ナビゲーションバーを経由してキャンペーンテンプレートにアクセスするときにエラーメッセージが表示される問題を修正しました。
-* A/Bテスト電子メールの推奨結果が自動的に選択され、電子メールが送信されないという問題を修正しました。This behavior could occur if the delivery was in **[!UICONTROL retryInProgress]** state.
-* A/Bテスト電子メールのパラメーターを再度開くとエラーメッセージが表示される可能性がある問題を修正しました。
+* 部品のサイズがバイトではなく文字で計算されたため、マルチパートSMSが切り捨てられる問題が修正されました。
+* またはKPIを配信後にリ **[!UICONTROL Delivered]** アルタ **[!UICONTROL Bounces + Errors]** イムで更新できるオプションが追加されました。 プロバイダから受け取ったSR (Status Report)から直接再計算されます。
+* 配信スケジューラのカレンダーウィジェットに関する問題を修正。
+* 送信済み配信で2回目にターゲットを開く際の表示の問題を修正。
+* 送信日が遅れた電子メールテンプレートを作成する際に、開始日を要求するエラーメッセージが発生した問題を修正しました。
+* 配信のコンテンツを編集する際にイメージのレンダリングに問題が発生する可能性のある問題を修正。
+* キャンペーンを複製する際に、校正刷りで問題を修正しました。
+* ワークフローに配信を追加した後、ナビゲーションバーからキャンペーンテンプレートにアクセスする際にエラーメッセージが表示される問題を修正しました。
+* A/Bテスト用のEメールの勝者を自動的に選択できない問題が修正され、Eメールが送信されなくなった。 この動作は、配信が状態の場合に発生する可能性があ **[!UICONTROL retryInProgress]** ります。
+* A/BテストEメールのパラメータを再び開くと、エラーメッセージが表示される問題が修正されました。
 
-#### Audiences &amp; queries {#audiences-e-queries}
+#### 対象ユーザーとクエリ {#audiences-e-queries}
 
-* Adobe Campaign ClassicからStandardに複製された受信者に関するデータにアクセスできず、クエリを設定できなかった問題を修正しました。
-* **「カウント」ボタン** または「 **プレビュー** 」ボタンを使用した後、クエリエディターでフィルタータイプフィールドを使用すると発生していた問題を修正しました。
+* Adobe Campaign ClassicからStandardにレプリケートされた受信者のデータへのアクセスとクエリの設定を妨げる問題が修正されました。
+* [数]ボタンまたは[プレビュー]ボタンを使用した後、クエリエディタでフィルタの種類フィールドを使用中に発生した問 **題を修** 正しました **** 。
 
-#### Workflows {#workflows-1}
+#### ワークフロー {#workflows-1}
 
-* **請求** ワークフローは、配信準備遅延を改善するために最適化されています。
-* 定期的な配信アクティビティを使用すると、アウトバウンドのトランジションに人口データが表示されない問題を修正しました。
-* **更新データ** アクティビティの後に、拒否レコードがトランジションに表示されない問題を修正しました。
-* **DeliverabilityUpdate** の技術ワークフローが失敗する可能性がある問題を修正しました。
+* 配送準備の **遅延を改善するために** 、請求ワークフローが最適化されました。
+* 定期的な配信活動を使用する際に、送信遷移で母集団データを表示できない問題を修正しました。
+* データの更新アクティビティの後に、レコードを拒否して遷移に表示できない問題 **が修正され** ました。
+* DeliverabilityUpdateテクニカルワークフローが失敗する可 **能性のある** 、問題を修正しました。
 
-#### Integrations {#integrations}
+#### 統合 {#integrations}
 
-* 国際文字がAdobe Analyticsに正しく送信されない問題を修正しました。
-* Experience Cloudアセットライブラリからメッセージをメッセージに挿入しようとすると、アセットが読み込まれるようになりました。
-* 場合によってアセット選択ウィンドウが閉じることがない問題を修正しました。
-* データソースの詳細から、関連ワークフローに直接アクセスしてワークフローの状態を確認できるようになりました。
-* トリガーイベントを定義または編集するときに、直接トリガースキーマを更新できるようになりました。この変更により、トリガーの公開を取り消して別のものを作成する必要がなくなりました。
+* 国際文字がAdobe Analyticsに正しく送信されない問題が修正されました。
+* エクスペリエンスクラウドのアセットライブラリからメッセージにイメージを挿入する際に、アセットの読み込みが速くなりました。
+* アセット選択ウィンドウが閉じられない場合がある問題を修正。
+* データソースの詳細から、関連するワークフローに直接アクセスして、ワークフローの状態を確認できます。
+* トリガ·イベントを定義または編集する際に、トリガ·スキーマを直接更新できるようになりました。 この変更により、トリガの発行を取り消して別のトリガを作成する必要がなくなりました。
 
-#### Transactional messages {#transactional-messages}
+#### トランザクションメッセージ {#transactional-messages}
 
-* 配信リソースが拡張されたときのトランザクションメッセージテンプレートのエラーを修正しました。
+* 配信リソースが拡張されたときに、トランザクションメッセージテンプレートでエラーが修正されました。
 * トランザクションメッセージを削除できるようになりました。
 
-## Release 18.2 - February 2018 {#release-18-2---february-2018}
+## リリース18.2 - 2018年2月 {#release-18-2---february-2018}
 
-### New capabilities {#new-capabilities-1}
+### 新機能 {#new-capabilities-1}
 
 <table> 
  <thead> 
   <tr> 
-   <th> Functionality<br /> </th> 
+   <th> 機能<br /> </th> 
    <th> 説明<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Subscription - subscribe or unsubscribe a list of profiles to multiple services<br /> </td> 
-   <td> <strong>購読サービス</strong> のワークフローアクティビティで、複数のサービスのプロファイルリストをサブスクライブまたはサブスクライブ解除できるようになりました。ワークフローで、プロファイルを含むファイルと、各プロファイル、操作タイプおよびサービスを読み込みます。<strong>購読サービス</strong> アクティビティでは、この情報を使用し、すべてのプロファイルの購読および購読解除を一度に動的に処理できます。<br /> 詳しくは、 <a href="../../automating/using/subscription-services.md">詳細なドキュメント</a>を参照してください。<br /> </td> 
+   <td> Subscription -複数のサービスに対するプロファイルのリストを購読または購読解除します<br /> </td> 
+   <td> Subscription Servicesワークフ <strong>ローアクティビティでは</strong> 、複数のサービスに対するプロファイルのリストを購読/購読解除できます。 ワークフローで、プロファイルを含むファイルをインポートし、各プロファイルに対して、操作の種類とサービスをインポートします。 Subscription Servicesアクティビティ <strong>では</strong> 、この情報を使用して、すべてのプロファイルのサブスクリプションとサブスクリプション解除を一度に動的に処理できます。<br /> 詳細については、詳細なドキュメントを参照 <a href="../../automating/using/subscription-services.md">してください</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Enrichment activity - enrich data based on previous transitions<br /> </td> 
-   <td> The new <span class="uicontrol">Enrichment</span> workflow activity allows you to leverage the inbound transitions and complete the output transition with additional data. プロファイルをターゲット設定する場合、拡張アクティビティでは、データベースに保存されていない追加のデータ（例えば、インポートされたファイルからのアクセス）によってプロファイル情報を拡張できます。<br /> 詳しくは、 <a href="../../automating/using/enrichment.md">詳細なドキュメント</a>を参照してください。<br /> </td> 
+   <td> 濃縮アクティビティ-以前の移行に基づくデータの強化<br /> </td> 
+   <td> 新しい <span class="uicontrol">Enrictive</span> Workflowアクティビティを使用すると、インバウンド遷移を活用し、追加のデータを含む出力遷移を完了できます。 プロファイルをターゲットにする場合は、拡張アクティビティを使用して、データベースに保存されていない追加のデータ（たとえば、インポートしたファイルから取得したデータ）をプロファイル情報に追加できます。<br /> 詳細については、詳細なドキュメントを参照 <a href="../../automating/using/enrichment.md">してください</a>。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Patches {#patches-6}
+### パッチ {#patches-6}
 
-#### Platform {#platform-2}
+#### プラットフォーム {#platform-2}
 
-* Adobe Campaignのインターフェイスの上部バーが新しいExperience Cloudメニューで更新されました。
-* Fixed an issue which prevented the link to **[!UICONTROL Offers]** from being displayed in the solution dropdown list.
+* Adobe Campaignのインターフェイスのトップバーが、新しい「エクスペリエンスクラウド」メニューで更新されました。
+* ソリューションのドロップダウンリストにリ **[!UICONTROL Offers]** ンクを表示できない問題が修正されました。
 
-#### Emails, SMS messages and direct mail {#emails--sms-messages-and-direct-mail-2}
+#### 電子メール、SMSメッセージ、ダイレクトメール {#emails--sms-messages-and-direct-mail-2}
 
-* 配信準備段階が強化され、パフォーマンスが向上しました。
-* 一部のiche状況でトラッキングログが破損する可能性がある問題を修正しました。
-* 配信準備と確認の間に連絡先日が変更されたときに発生していた連絡先の更新の問題を修正しました。現在は、準備の後に連絡先日を変更する場合、送信を確認する前に、配信を再度準備する必要があります。See the [detailed documentation](../../sending/using/preparing-the-send.md).
+* 配送準備フェーズが強化され、性能が向上しました。
+* 一部のニッチ状況で、追跡ログが破損する可能性のある問題が修正されました。
+* 配送の準備と確認の間に連絡日が変更されたときに発生した連絡日の更新の問題を修正しました。 次に、準備の後で連絡日を変更する場合は、送信を確認する前に、配信を再度準備する必要があります。 詳細なドキュメント [を参照してください](../../sending/using/preparing-the-send.md)。
 
-#### Push notifications {#push-notifications}
+#### プッシュ通知 {#push-notifications}
 
-* iOSプッシュ通知で一部のパーソナライゼーションフィールドが動作しないエラーを修正しました。
-* プッシュ通知ダッシュボードでクリック率とオープン率が0%と表示されるエラーを修正しました。
+* 一部の個人用設定フィールドがiOSプッシュ通知で動作しないエラーが修正されました。
+* プッシュ通知ダッシュボードにクリックとオープンの割合を0%で表示するエラーが修正されました。
 
-#### Reports {#reports}
+#### レポート{#reports}
 
-* 一部のブラウザーでレポートリストが空として表示されるエラーを修正しました。
-* Fixed an error that occurred in the **[!UICONTROL Report sharing]** technical workflow just before its expiration limit was reached.
+* 一部のブラウザで、レポートリストが空と表示されたエラーが修正されました。
+* 有効期限に達する直前にテクニカルワ **[!UICONTROL Report sharing]** ークフローで発生したエラーを修正しました。
 
-#### Workflows {#workflows-2}
+#### ワークフロー {#workflows-2}
 
-* ドラッグ&amp;ドロップ後にアクティビティにアクセスできない問題を修正しました。
-* Fixed an issue that could cause the order of output transitions of a **[!UICONTROL Segmentation]** activity to change in some situations.
-* 列挙タイプフィールドが含まれていて、ワークフローから以前保存されていたオーディエンスを読み取る際に発生するエラーを修正しました
-* Fixed an issue causing the **[!UICONTROL Request confirmation before sending messages]** option to remain checked even after unchecking it when defining the scheduling properties of a delivery created in a workflow.
-* Automatic removal of duplicate rows (DISTINCT clause) can now be disabled in **[!UICONTROL Query]** activities, via a new option located in the **[!UICONTROL Additional data]** tab. パフォーマンス上の理由から多数の（100を超える）追加要素を定義する場合、このオプションを無効にすることをお勧めします。
+* ドラッグアンドドロップ後にアクティビティにアクセスできない問題が修正されました。
+* アクティビティの出力遷移の順序が変化する可能性のある問 **[!UICONTROL Segmentation]** 題が、一部の状況で修正されました。
+* 列挙型フィールドを含み、以前にワークフローから保存された対象ユーザーの読み取り中に発生したエラーを修正しました
+* ワークフローで作成された配 **[!UICONTROL Request confirmation before sending messages]** 送のスケジュールプロパティを定義する際に、チェックを外した後も、オプションのチェックが残る問題が修正されました。
+* タブ内の新しいオプションを使用して、アクティビティで重複するローの自動削除（DISTINCT句） **[!UICONTROL Query]** を無効にすることができるようにな **[!UICONTROL Additional data]** りました。 パフォーマンス上の理由から、追加要素を100を超える数個定義する場合は、このオプションを無効にすることをお勧めします。
 
-#### Integrations {#integrations-1}
+#### 統合 {#integrations-1}
 
-* **[!UICONTROL Data sources]** 設定画面が改善されました。
+* 設定画面が改善さ **[!UICONTROL Data sources]** れました。
 
-### Known issues {#known-issues}
+### 既知の問題 {#known-issues}
 
-表示に問題があるので、Internet Explorerバージョン11を使用しないことをお勧めします。
+表示に問題がある可能性があるため、Internet Explorerバージョン11を使用しないことをお勧めします。
 
-状況によっては、キャンペーンインターフェイスからコンテキストヘルプリンクを使用する場合に発生することがあります。18.3で修正されます。
+キャンペーンインタフェースからコンテキストヘルプリンクを使用すると、問題が発生する場合があります。 18.3で修正されます。
 
-## Release 18.1 - January 2018 {#release-18-1---january-2018}
+## リリース18.1 - 2018年1月 {#release-18-1---january-2018}
 
-### New capabilities {#new-capabilities-2}
+### 新機能 {#new-capabilities-2}
 
 <table> 
  <thead> 
   <tr> 
-   <th> Functionality<br /> </th> 
+   <th> 機能<br /> </th> 
    <th> 説明<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Reporting for Fatigue Management<br /> </td> 
-   <td> 疲労管理のレポート作成は、送信前に指定した日付範囲内の電子メール、プッシュ、SMSおよびダイレクトメールチャネルの配信に影響する、柔軟性の高い専用のレポートです。競合するすべてのキャンペーンを単一のビューで迅速に表示できるようになり、マーケティング担当者は、疲労ルールをより効果的に設定し、コミュニケーションを優先順位付けすることによってマーケティングキャンペーンを計画できます。<br /> 詳しくは、 <a href="../../administration/using/fatigue-rules.md#viewing-the-fatigue-rule-summary-report">詳細なドキュメント</a>を参照してください。<br /> </td> 
+   <td> 疲労管理のレポート<br /> </td> 
+   <td> Reporting for Fatigue Managementは、送信前に指定した日付範囲内の電子メール、プッシュ、SMS、ダイレクト·メール·チャネルの搬送に対する影響疲労ルールを表示する、専用の構成可能なレポートです。 競合するすべてのキャンペーンを1つのビューで素早く見ることができるという見識が加わり、マーケティング担当者は、疲労ルールをより効果的に設定し、コミュニケーションに優先順位を付けて、マーケティングキャンペーンを計画できます。<br /> 詳細については、詳細なドキュメントを参照 <a href="../../administration/using/fatigue-rules.md#viewing-the-fatigue-rule-summary-report">してください</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Report sharing<br /> </td> 
-   <td> レポート共有を使用すると、レポートをAdobe Campaignのユーザーと共有して、自動的に定期的に電子メールで添付できます。定期的なレポートを受信するユーザーは、各電子メールの専用リンクを介してこれらの情報を登録解除できます。<br /> 詳しくは、 <a href="../../reporting/using/reporting-interface.md#share-tab">詳細なドキュメント</a>を参照してください。<br /> </td> 
+   <td> レポートの共有<br /> </td> 
+   <td> レポートの共有を使用すると、自動繰り返し実行するレポートを含むEメール添付ファイルとして、Adobe Campaignユーザーとレポートを共有できます。 定期的なレポートを受け取るユーザーは、各Eメールの専用リンクを介して、これらの通信の購読を取り消すことができます。<br /> 詳細については、詳細なドキュメントを参照 <a href="../../reporting/using/reporting-interface.md#share-tab">してください</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Push New capabilities<br /> </td> 
-   <td> プッシュメッセージプレビュー-プッシュ通知コンテンツエディタ内からiOSおよびAndroidデバイスでプッシュ通知をプレビューして、テストまたは配信の実行前に受信者が表示する内容を正確に確認できます。<br /> 詳しくは、 <a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">詳細なドキュメント</a>を参照してください。<br /> コンテンツ利用可能-アプリを長期間開かない場合、そのデータは古くなります。これにより、ユーザーが最後にアプリを開くときにデータを更新または置換する必要があり、アプリの使用が遅延する可能性があります。コンテンツのサポートを追加すると、Adobe Campaignユーザーはアプリを起動して、プッシュ通知の配信時にバックグラウンドでデータを更新し、一貫性を高め、ユーザーのアプリ内エクスペリエンスを制御できます。<br /> 可変コンテンツ-可変コンテンツのサポートを追加したAdobe Campaignユーザーは、モバイルアプリの拡張機能を活用して、Adobe Campaignから送信されたプッシュ通知のコンテンツまたは提示方法をさらに変更できます。For example, users can leverage Mutable Content to: <br /> 
+   <td> 新しい機能のプッシュ<br /> </td> 
+   <td> プッシュメッセージプレビュー-プッシュ通知コンテンツエディタ内からiOSおよびAndroidデバイスのプッシュ通知をプレビューし、配信をテストまたは実行する前に受信者が表示する内容を正確に確認します。<br /> 詳細については、詳細なドキュメントを参照 <a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">してください</a>。<br /> 利用可能なコンテンツ-アプリを長い期間開かないと、そのデータが古くなる可能性があります。 その結果、ユーザーが最後にアプリを開いた時点でデータを更新または交換する必要が生じ、アプリの使用に遅れが生じる可能性があります。 Adobe Campaignのユーザーは、Content Availableのサポートを追加することで、プッシュ通知を配信する際にアプリを起動し、バックグラウンドでデータを更新し、ユーザーのアプリ内の操作をより一貫性よく制御できます。<br /> 変更可能なコンテンツ-変更可能なコンテンツのサポートが追加され、Adobe Campaignのユーザーは、モバイルアプリの拡張機能を活用して、Adobe Campaignから送信されるプッシュ通知の受信内容や表示をさらに変更できるようになりました。 たとえば、ユーザーは可変コンテンツを活用して、次の操作を行うことができます。 <br /> 
     <ul> 
-     <li> 暗号化された形式で配信されたデータの復号化 </li> 
-     <li> 画像またはその他のメディアファイルをダウンロードし、通知に添付ファイルとして追加 </li> 
-     <li> 通知の本文またはタイトルのテキストの変更 </li> 
-     <li> 通知へのスレッド識別子の追加 </li> 
-    </ul> For more information on Content Available and Mutable Content, refer to the <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">detailed documentation</a>.<br /><strong>警告:</strong> これらのプッシュ通知の更新により、ユーザーはモバイルアプリケーションをアップグレードする必要があります。Refer to <a href="https://helpx.adobe.com/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html">this technote</a> for more information.<br /> </td> 
+     <li> 暗号化された形式で配信されたデータを復号化する </li> 
+     <li> イメージや他のメディアファイルをダウンロードし、通知の添付ファイルとして追加する </li> 
+     <li> 通知の本文またはタイトルテキストを変更する </li> 
+     <li> 通知にスレッド識別子を追加する </li> 
+    </ul> 使用可能なコンテンツと変更可能なコンテンツの詳細については、詳細なドキュメントを参照 <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">してください</a>。<br /><strong> 警 </strong>告：プッシュ通知に関するこれらの更新では、お客様はモバイルアプリケーションをアップグレードする必要があります。 詳細は、このテ <a href="https://helpx.adobe.com/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html">クノロジー</a> を参照してください。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Time-zone optimized deliveries<br /> </td> 
-   <td> すべての受信者のタイムゾーンにある特定の日時に配信されるように定期的な電子メール、SMSおよびプッシュ通知をスケジュールし、複数の配信を設定せずに、適切なタイミングでメッセージを配信するようにします。<br /> 詳しくは、 <a href="../../automating/using/scheduler.md">詳細なドキュメント</a>を参照してください。<br /> </td> 
+   <td> タイムゾーン最適化配信<br /> </td> 
+   <td> 定期的なEメール、SMS、プッシュ通知を、各受信者のタイムゾーン内の特定の日時に配信するようにスケジュールし、複数の配信を設定せずに、適切な時刻にメッセージが配信されるようにします。 <br /> 詳細については、詳細なドキュメントを参照 <a href="../../automating/using/scheduler.md">してください</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> API Signal activity triggering<br /> </td> 
-   <td> Adobe Campaign Standard APIからワークフローのシグナルアクティビティを直接トリガーできるようになりました。<br /> 詳しくは、 <a class="anchorLink" href="https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#triggering-a-signal-activity" target="_blank">詳細なドキュメント</a> を参照してください。<br /> </td> 
+   <td> APIシグナル·アクティビティ·トリガ<br /> </td> 
+   <td> Adobe Campaign Standard APIから、ワークフローのシグナルアクティビティを直接トリガーできるようになりました。<br /> 詳細は、のマニュアルを参照して <a class="anchorLink" href="https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#triggering-a-signal-activity" target="_blank">ください</a> 。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Patches {#patches-7}
+### パッチ {#patches-7}
 
-#### Platform {#platform-3}
+#### プラットフォーム {#platform-3}
 
-* プロファイル検索が最適化され、パフォーマンスが向上しました。
-* デフォルトのセキュリティグループの内部識別子が、標準ユーザーの読み取り専用モードになりました。
+* プロファイル検索は、パフォーマンスを向上させるために最適化されました。
+* デフォルトのセキュリティ·グループの内部識別子は、標準ユーザーの読み取り専用モードになりました。
 
-#### Emails, SMS messages and direct mail {#emails--sms-messages-and-direct-mail-3}
+#### 電子メール、SMSメッセージ、ダイレクトメール {#emails--sms-messages-and-direct-mail-3}
 
-* 配信のコンテンツに顔文字を挿入すると発生する表示の問題を修正しました。
-* 配信がまだエディションにある場合に、ユーザーがログの送信にアクセスできる問題を修正しました。
-* **[!UICONTROL Scheduler]** アクティビティで、受信者のタイムゾーンに応じて配信を送信できるようになりました。
-* SMS: The option **[!UICONTROL Store incoming MO]** in the database has been added to external accounts. When checked, all incoming SMS will be stored into the **inSMS** table.
+* 配信内容に絵文字を挿入する際に発生した表示の問題を修正。
+* 配信がまだエディション中のときに、ユーザーが送信ログにアクセスできる問題を修正。
+* このア **[!UICONTROL Scheduler]** クティビティでは、受信者のタイムゾーンに応じて配信を送信できます。
+* SMS:データベース **[!UICONTROL Store incoming MO]** 内のオプションが外部アカウントに追加されました。 オンにすると、すべての着信SMSが **inSMS** テーブルに格納されます。
 * SMS:現在、サービスはトランザクションテンプレートではなくイベントに添付されています。
-* SMS:デフォルトのSMTP接続タイムアウトが30秒に短縮されました。
+* SMS:デフォルトのSMTP接続タイムアウトは30秒に短縮されました。
 
-#### Push notifications {#push-notifications-1}
+#### プッシュ通知 {#push-notifications-1}
 
-* プッシュ通知の配信を停止できないエラーを修正しました。
-* プッシュ通知を使用してアプリケーションを起動するためのプッシュ通知のアドバンスオプションにオプションが追加されました。
-* プッシュ通知プレビュービデオの一時停止ボタンを追加しました。
-* iPhone、Android、タブレットなどの様々なデバイスでプッシュ通知プレビューを使用できるようになりました。
+* プッシュ通知配信を停止できないエラーが修正されました。
+* プッシュ通知の詳細オプションにオプションを追加し、プッシュ通知を使用してアプリケーションをスリープ状態にします。
+* プッシュ通知プレビュービデオの一時停止ボタンを追加。
+* プッシュ通知のプレビューは、iPhone、Android、タブレットなど、さまざまなデバイスで使用できるようになりました。
 
-   すべてのチャネル
+   全チャンネル
 
-#### Reports {#reports-1}
+#### レポート{#reports-1}
 
-* 100%を超えるレートが表示されるエラーを修正しました。
-* ユーザーがCSVでレポートをダウンロードできない問題を修正しました。
-* Added a new **[!UICONTROL Report]** item in the homepage.
+* 100%を超えるレートを示すエラーを修正。
+* ユーザーがCSVでレポートをダウンロードできない問題が修正されました。
+* ホームページに新し **[!UICONTROL Report]** い項目を追加しました。
 
-#### Workflows {#workflows-3}
+#### ワークフロー {#workflows-3}
 
-* クエリで追加のデータを使用し、スペースを含むエイリアスを追加するとエラーメッセージが表示される問題を修正しました。英数字以外の文字が"_"に置き換えられました。
-* KPIの計算がデフォルトで停止することがあるという問題を修正。
+* クエリで追加のデータを使用し、スペースを含むエイリアスを追加する際に、エラーメッセージが表示される問題が修正されました。 英数字以外の文字は、「_」に置き換えられます。
+* KPIを計算する技術ワークフローが既定で停止する場合がある問題を修正しました。
 
-#### Profiles and audiences {#profiles-and-audiences}
+#### プロファイルと対象ユーザー {#profiles-and-audiences}
 
-* オーディエンスのクエリで複数のフィルターを追加すると発生するエラーを修正しました。
-* プロファイルの写真を変更すると発生していた表示の問題を修正しました。
-* クエリの母集団をカウントした後、正確な結果番号を表示するツールチップが追加されました。
-* ユーザーがオーディエンスを選択したり、オーディエンスピッカーウィンドウを閉じたりできない問題を修正しました。
-* 式エディターで使用可能な関数のリストが更新されました。**formatCurrency関数** と **ConvertCurrency** 関数は削除されました。
+* 対象ユーザーのクエリに複数のフィルタを追加する際に発生したエラーを修正しました。
+* プロファイルの画像を変更する際に発生した表示の問題を修正。
+* クエリの母集団を数えた後に、正確な結果番号を表示するツールチップを追加しました。
+* ユーザーが対象ユーザーを選択したり、対象ユーザーの選択ウィンドウを閉じるのを防ぐ可能性のある問題を修正。
+* エクスプレッションエディタで使用可能な関数のリストが更新されました。 FormatCurrency関数と **ConvertCurrency関数は****** 、削除されました。
 
