@@ -2,41 +2,41 @@
 title: 動的でパーソナライズされたコンテンツ
 seo-title: 動的でパーソナライズされたコンテンツ
 description: 動的でパーソナライズされたコンテンツ
-seo-description: Adobe Campaignでは、顧客の好みとデータを使用して、電子メール、SMS、プッシュ通知、インアプリメッセージまたはダイレクトメール経由でパーソナライズされたキャンペーンを作成できます。
-page-status-flag: 常にアクティブ化されていない
-uuid: a36a581e-25d4-426d-865a- c646519c961d
-contentOwner: サウビート
-products: SG_ CAMPAIGN/STANDARD
-audience: start
+seo-description: Adobe Campaignを使用すると、お客様の環境設定とデータを使用して、電子メール、SMS、プッシュ通知、InAppメッセージ、またはダイレクトメールを通じて個人用のキャンペーンを作成できます。
+page-status-flag: 未活性化の
+uuid: a36a581e-25d4-426d-865a-c646519c961d
+contentOwner: サウビア
+products: SG_CAMPAIGN/STANDARD
+audience: 開始
 content-type: 参照
-topic-tags: about- adobe- campaign
-discoiquuid: 7cbca5fb- a99b-43ea- b629-6236cf2a5ef4
-internal: n
-snippet: y
+topic-tags: アドビ活動について
+discoiquuid: 7cbca5fb-a99b-43ea-b629-6236cf2a5ef4
+internal: 〜の
+snippet: イー
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
 
 ---
 
 
-# Dynamic and personalized content{#dynamic-and-personalized-content}
+# 動的でパーソナライズされたコンテンツ{#dynamic-and-personalized-content}
 
-プロファイル、ユーザーのプロファイル、そのアクティビティに従ってパーソナライズされたコンテンツとヘッダーを使用して、クライアントの注意と応答率を向上させます。すべてのクライアント情報はAdobe Campaignで一元化されており、異なるチャネルを通してコンテンツを最適化したメッセージを提供できます。
+プロファイル、好み、活動に応じてカスタマイズされたコンテンツとヘッダーを使用して、顧客の注意を引き、応答率を向上させます。 すべてのクライアント情報はAdobe Campaignに集約され、異なるチャネルを通じて適応コンテンツを含むメッセージを提供できます。
 
-パーソナライズされたメッセージは、関連するコンテンツを送信するためのキーであり、パーソナライズされたエクスペリエンスを提供し、オープンとコンバージョン率を高めることができます。Adobe Campaignによって提供されるクロスチャネルメッセージは、様々な方法でパーソナライズできます。これらの方法は、プロファイルに応じて条件と組み合わせることができます。次のことができます。
+パーソナライズされたメッセージは、関連するコンテンツの送信、パーソナライズされた体験の提供、オープン/変換率の向上に重要です。 Adobe Campaignが配信するクロスチャネルメッセージは、さまざまな方法でカスタマイズできます。 これらの方法は、縦断に応じて基準と組み合わせることができます。 次の操作を実行できます。
 
-* Insert [dynamic personalization fields](../../designing/using/inserting-a-personalization-field.md) in your messages
-* Insert [predefined personalization blocks](../../designing/using/adding-a-content-block.md)
-* [電子メールまたはSMS](../../designing/using/personalizing-the-sender.md) の送信者のパーソナライズ
-* [電子メールの件名を](../../designing/using/personalizing-the-subject-line-of-an-email.md) パーソナライズするか [、予測件名行](../../designing/using/personalizing-the-subject-line-of-an-email.md#predictive-subject-line) の機能を使用して最適化します
-* Create [conditional content in an email](../../designing/using/defining-dynamic-content-in-an-email.md) or [in a landing page](../../designing/using/defining-dynamic-content-in-a-landing-page.md)
-* Insert [Dynamic text](../../designing/using/defining-dynamic-text.md) in a SMS message or a Push notification
+* メッセージ [に動的個人用設定フィールド](../../designing/using/personalization.md#inserting-a-personalization-field) (Dynamic Personalization Fields)を挿入します
+* 定義済みのパーソ [ナライズブロックの挿入](../../designing/using/personalization.md#adding-a-content-block)
+* [電子メールまたは](../../designing/using/subject-line.md) SMSの送信者をカスタマイズする
+* [電子メールの件名行をパーソナライズする](../../designing/using/subject-line.md) か [、予測件名行機能を使用して](../../designing/using/subject-line.md#predictive-subject-line) 電子メールを最適化するかを選択します。
+* 電子メ [ールまたはランディング·ページ](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)[に条件付きコンテンツを作成する](../../channels/using/defining-dynamic-content-in-a-landing-page.md)
+* SMSメッ [セージ](../../channels/using/defining-dynamic-text.md) 、またはプッシュ通知に動的テキストを挿入する
 
 ![](assets/delivery_content_43.png)
 
-**関連トピック:**
+**関連トピック：**
 
-* [エンドツーエンドのサンプルによる電子メールのパーソナライゼーション](../../designing/using/example--email-personalization.md)
-* Learn how to personalize URLs [in this page](../../designing/using/personalizing-urls.md)
-* Learn how to set up personalization of an image [in this page](../../designing/using/personalizing-an-image-source.md)
+* エンド·ツー·エンドのサン [プルを通じてEメールのパーソナライズを検出](../../designing/using/personalization.md#example-email-personalization)
+* このページでURLをパーソナライズ [する方法を説明](../../designing/using/personalization.md#personalizing-urls)
+* このページで画像の個人用設定を設定する [方法を説明](../../designing/using/personalization.md#personalizing-an-image-source)
 
