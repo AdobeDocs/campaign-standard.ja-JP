@@ -2,103 +2,103 @@
 title: 増分クエリ
 seo-title: 増分クエリ
 description: 増分クエリ
-seo-description: 増分クエリーアクティビティを使用すると、Adobe Campaignデータベースから要素の母集団をフィルターおよび抽出できます。
-page-status-flag: 常にアクティブ化されていない
-uuid: 73b42422- e815-43ef-84c0-97c4433ccc98
-contentOwner: サウビート
-products: SG_ CAMPAIGN/STANDARD
+seo-description: 増分クエリアクティビティを使用すると、Adobe Campaignデータベースから要素の集合をフィルタして抽出できます。
+page-status-flag: 未活性化の
+uuid: 73b42422-e815-43ef-84c0-97c4433ccc98
+contentOwner: サウビア
+products: SG_CAMPAIGN/STANDARD
 audience: 自動化
 content-type: 参照
-topic-tags: ターゲットアクティビティ
-discoiquuid: 80961e73-42ec-463a-8496- cff69fab0475
-context-tags: incremental， main
-internal: n
-snippet: y
+topic-tags: 標的活動
+discoiquuid: 80961e73-42ec-463a-8496-cff69fab0475
+context-tags: 増分、メイン
+internal: 〜の
+snippet: イー
 translation-type: tm+mt
-source-git-commit: 3e2081fc3377fe4edbdf3fb8c4765a9acda6d79e
+source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
 
 ---
 
 
-# Incremental query{#incremental-query}
+# 増分クエリ{#incremental-query}
 
 ## 説明 {#description}
 
 ![](assets/incremental.png)
 
-**[!UICONTROL Incremental query]** アクティビティにより、Adobe Campaignデータベースから要素の母集団をフィルタリングして抽出できます。このアクティビティが実行されるたびに、前回の実行の結果は除外されます。これにより、新しい要素のみをターゲットにすることができます。
+このア **[!UICONTROL Incremental query]** クティビティでは、Adobe Campaignデータベースから要素の集団をフィルタして抽出できます。 このアクティビティが実行されるたびに、前の実行の結果が除外されます。 これにより、新しい要素のみをターゲットにすることができます。
 
-You can define **[!UICONTROL Additional data]** for the targeted population via a dedicated tab. このデータは、追加の列に保存され、進行中のワークフローにのみ使用できます。
+専用のタブを使 **[!UICONTROL Additional data]** 用して、対象の母集団を定義できます。 このデータは追加の列に格納され、進行中のワークフローにのみ使用できます。
 
-アクティビティでは、クエリエディターツールが使用されます。This tool is detailed in a [dedicated section](../../automating/using/editing-queries.md#about-query-editor).
+アクティビティは、クエリエディタツールを使用します。 このツールの詳細は、専用のセクション [で説明します](../../automating/using/editing-queries.md#about-query-editor)。
 
-## Context of use {#context-of-use}
+## 使用状況 {#context-of-use}
 
-An **[!UICONTROL Incremental query]** has to be linked to a **[!UICONTROL Scheduler]** in order to define the execution frequency of the workflow, and therefore the query.
+ワーク **[!UICONTROL Incremental query]** フローの実行頻度を定義するた **[!UICONTROL Scheduler]** めに、とをにリンクする必要があります。したがって、クエリは、
 
-**[!UICONTROL Processed data]** このアクティビティに固有のタブは、必要に応じてアクティビティの以前の実行の結果を表示できます。
+このア **[!UICONTROL Processed data]** クティビティに固有のタブを使用すると、必要に応じて、アクティビティの前の実行結果を表示できます。
 
-**[!UICONTROL Incremental query]** アクティビティは、様々なタイプの用途で使用できます。
+このアク **[!UICONTROL Incremental query]** ティビティは、さまざまな種類の用途に使用できます。
 
-* 個人をセグメント化して、メッセージ、オーディエンスなどのターゲットを定義します。
-* データのエクスポート
+* 個人をセグメント化して、メッセージ、対象者などのターゲットを定義します。
+* データを書き出し中。
 
-## Configuration {#configuration}
+## 構成 {#configuration}
 
-1. Drag and drop an **[!UICONTROL Incremental query]** activity into your workflow.
-1. Select the activity, then open it using the ![](assets/edit_darkgrey-24px.png) button from the quick actions that appear.
-1. If you would like to run a query on a resource other than the profile resource, go to the activity's **[!UICONTROL Properties]** tab and select a **[!UICONTROL Resource]** and a **[!UICONTROL Targeting dimension]**.
+1. アクティビティをワークフロー **[!UICONTROL Incremental query]** にドラッグアンドドロップします。
+1. アクティビティを選択し、表示されるクイックアクシ ![](assets/edit_darkgrey-24px.png) ョンのボタンを使用して開きます。
+1. プロファイルリソース以外のリソースに対してクエリを実行する場合は、アクティビティのタブに移動し、とを **[!UICONTROL Properties]** 選択してく **[!UICONTROL Resource]** ださい **[!UICONTROL Targeting dimension]**。
 
-   The **[!UICONTROL Resource]** allows you to refine the filters displayed in the palette whereas the **[!UICONTROL Targeting dimension]**, contextual with regard to the resource selected, corresponds to the type of population that you would like to obtain (identified profiles, deliveries, data linked to the selected resource, etc.).
+   では **[!UICONTROL Resource]****[!UICONTROL Targeting dimension]**、パレットに表示されるフィルタを調整できます。ただし、選択したリソースに関するコンテキストは、取得する母集団のタイプ（識別されたプロファイル、配信、選択したリソースにリンクされたデータなど）に対応します。
 
-1. **[!UICONTROL Target]** タブで、ルールを定義して組み合わせてクエリを実行します。
-1. **[!UICONTROL Processed data]** タブで、ワークフローの次の実行に使用する増分モードを選択します。
+1. タブで、ル **[!UICONTROL Target]** ールを定義し、結合してクエリを実行します。
+1. タブで、 **[!UICONTROL Processed data]** 次にワークフローを実行するときに使用する増分モードを選択します。
 
-   * **[!UICONTROL Use the exclusion of the results of previous executions]**:新しい実行ごとに前回の実行の結果が除外されます。
-   * **[!UICONTROL Use a date field]**:次の実行では、選択した日付フィールドが **[!UICONTROL Incremental query]** アクティビティの最後の実行日以上になった結果を考慮します。**[!UICONTROL Properties]** タブで選択したリソースに関連する日付フィールドを選択できます。ログデータなどの大きなリソースをクエリーする際に、このモードのパフォーマンスが向上しました。
+   * **[!UICONTROL Use the exclusion of the results of previous executions]**:新しい実行ごとに前に実行した結果は除外されます。
+   * **[!UICONTROL Use a date field]**:次の実行では、選択した日付フィールドがアクティビティの最後の実行日以上の結果のみが考慮され **[!UICONTROL Incremental query]** ます。 タブで選択したリソースに関連する任意の日付フィールドを選択で **[!UICONTROL Properties]** きます。 このモードは、ログ·データなどの大規模なリソースを問い合わせる際のパフォーマンスが向上します。
 
-      ワークフローの最初の実行後、次の実行時に使用される最後の実行日がこのタブに表示されます。ワークフローが実行されるたびに自動的に更新されます。必要に応じて新しい入力を手動で入力することで、この値を上書きできます。
+      ワークフローの最初の実行後、このタブには、次の実行に使用される最後の実行日が表示されます。 ワークフローが実行されるたびに、自動的に更新されます。 新しい値を手動で入力して、必要に応じてこの値を上書きする可能性があります。
    >[!NOTE]
    >
-   >**[!UICONTROL Use a date field]** このモードでは、選択した日付フィールドに応じて柔軟性が高まります。例えば、選択したフィールドが修正日に対応している場合、日付フィールドモードでは最近更新されたデータを取得できますが、他のモードでは、前回の実行でターゲット設定されていた記録を除外するだけで、ワークフローの最後の実行以降に変更された記録が除外されます。
+   >選択し **[!UICONTROL Use a date field]** た日付フィールドに応じて、より柔軟なモードを使用できます。 たとえば、選択したフィールドが変更日に対応する場合、日付フィールドモードでは、最近更新されたデータを取得でき、他のモードでは、前回の実行以降に変更されたレコーディングを除外できます。
 
    ![](assets/incremental_query_usedatefield.png)
 
-1. You can define **[!UICONTROL Additional data]** for the targeted population via a dedicated tab. このデータは、追加の列に保存され、進行中のワークフローにのみ使用できます。特に、クエリーのターゲティングディメンションにリンクされているAdobe Campaignデータベーステーブルからデータを追加できます。Consult the [Enriching data](../../automating/using/query.md#enriching-data) section.
+1. 専用のタブを使 **[!UICONTROL Additional data]** 用して、対象の母集団を定義できます。 このデータは追加の列に格納され、進行中のワークフローにのみ使用できます。 特に、クエリのターゲットディメンションにリンクされたAdobe Campaignデータベーステーブルからデータを追加できます。 「データの濃縮」セ [クションを参照して](../../automating/using/query.md#enriching-data) ください。
 1. アクティビティの設定を確認し、ワークフローを保存します。
 
-## Enriching data {#enriching-data}
+## データの強化 {#enriching-data}
 
-Just as for a query, you can enrich the data from an **[!UICONTROL Incremental query]**. Consult the [Enriching data](../../automating/using/query.md#enriching-data) section.
+クエリと同様に、からのデータをリッチできます **[!UICONTROL Incremental query]**。 「データの濃縮」セ [クションを参照して](../../automating/using/query.md#enriching-data) ください。
 
-## Example: incremental query on subscribers to a service {#example--incremental-query-on-subscribers-to-a-service}
+## 例：サービスのサブスクライバーに対する増分クエリ {#example--incremental-query-on-subscribers-to-a-service}
 
-The following example shows the configuration of an **[!UICONTROL Incremental query]** activity which filters the profiles in the Adobe Campaign database that are subscribed to the **Running Newsletter** service, to send them a welcome email containing a promo code.
+次の例は、 **[!UICONTROL Incremental query]** Running Newsleter **** Serviceに登録されているAdobe Campaignデータベース内のプロファイルをフィルタし、プロモーションコードを含むようこそ電子メールを送信するアクティビティの構成を示しています。
 
-ワークフローは次の要素で構成されています。
+ワークフローは、次の要素で構成されています。
 
 ![](assets/incremental_query_example1.png)
 
-* **[!UICONTROL Scheduler]** 1か月の午前6時にワークフローを実行するアクティビティ。
+* 毎週月 **[!UICONTROL Scheduler]** 曜の午前6時にワークフローを実行するアクティビティ。
 
    ![](assets/incremental_query_example2.png)
 
-* **[!UICONTROL Incremental query]** アクティビティは、最初の実行時に現在のすべての加入者をターゲットにし、次の実行中にその週の新規登録者のみをターゲットとします。
+* 最初の **[!UICONTROL Incremental query]** 実行時に現在のすべてのサブスクライバをターゲットにし、次の実行時にその週の新しいサブスクライバのみをターゲットにするアクティビティ。
 
    ![](assets/incremental_query_example3.png)
 
-* **[!UICONTROL Email delivery]** アクティビティ。ワークフローは週に1度実行されますが、送信される電子メールの集計や、1週間だけではなく、1か月の間のレポート生成などの結果を集計できます。
+* アクテ **[!UICONTROL Email delivery]** ィビティ。 ワークフローは週に1回実行されますが、1か月に1回だけでなく、1か月にわたってレポートを生成するなど、送信された電子メールと1か月ごとの結果を集約できます。
 
-   To do this, choose to create a **[!UICONTROL Recurring email]** here regrouping the emails and the results **[!UICONTROL By month]**.
+   この操作を行うには、電子メールと結果をここで **[!UICONTROL Recurring email]** 再グループ化するように選択しま **[!UICONTROL By month]**&#x200B;す。
 
-   電子メールのコンテンツを定義し、ウェルカムプロモーションコードを挿入します。
+   電子メールの内容を定義し、ウェルカムプロモーションコードを挿入します。
 
-   For more on this, refer to the [Email delivery](../../automating/using/email-delivery.md) and [Defining email content](../../designing/using/about-personalization.md) sections.
+   詳細については、「電子メール配信」および「電子メ [ールコンテンツ](../../automating/using/email-delivery.md)[の定義」の項を参照してください](../../designing/using/personalization.md) 。
 
-次に、ワークフローの実行を開始します。毎週、新規登録者にプロモコードを含むお知らせメールが届きます。
+次に、ワークフローの実行を開始します。 新しい購読者は毎週、プロモーションコードを含むウェルカムメールを受け取ります。
 
-## Example: incremental query on delivery logs {#example--incremental-query-on-delivery-logs}
+## 例：配信ログに対する増分クエリ {#example--incremental-query-on-delivery-logs}
 
-**[!UICONTROL Incremental query]** アクティビティを使用して、ファイルに新しいログを定期的にエクスポートできます。これは、外部のレポートまたはBIツールにログデータを使用する場合に便利です。
+アクティビティを使用して、フ **[!UICONTROL Incremental query]** ァイル内の新しいログを定期的にエクスポートできます。 たとえば、外部レポートやBIツールでログデータを使用する場合に便利です。
 
-A complete example is available in the [Exporting logs](../../automating/using/exporting-logs.md) section.
+完全な例は、「ログのエクスポート」セクシ [ョンにありま](../../automating/using/exporting-logs.md) す。
