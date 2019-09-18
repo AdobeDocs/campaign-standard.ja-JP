@@ -2,1101 +2,1101 @@
 title: リリースノート2015-2016
 seo-title: リリースノート2015-2016
 description: リリースノート2015-2016
-seo-description: このページには、Adobe Campaign Standardの2015および2016リリースがすべて表示されます。
-page-status-flag: 常にアクティブ化されていない
-uuid: d5a0f6cc-0bad-46cf-8dff-1717fb624f8f
-contentOwner: サウビート
-products: SG_ CAMPAIGN/STANDARD
-audience: rn
+seo-description: このページには、Adobe Campain Standardの2015および2016リリースがすべて一覧表示されます。
+page-status-flag: 未活性化の
+uuid: d5a0f6cc-0bed-46cf-8dff-1717fb624f8f
+contentOwner: サウビア
+products: SG_CAMPAIGN/STANDARD
+audience: ラン
 content-type: 参照
-topic-tags: campaign- standard- release
+topic-tags: キャンペーン標準リリース
 discoiquuid: a3ce6b80-1858-49d1-8880-3543181127f4
-internal: n
-snippet: y
+internal: 〜の
+snippet: イー
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
 
 ---
 
 
-# Release Notes 2015-2016{#release-notes}
+# リリースノート2015-2016{#release-notes}
 
-Adobe Campaign Standardの特定の2015-2016リリースを探します。
+2015-2016年のAdobe Campain Standardの特定のリリースをお探しですか？
 
-各リリースには、新機能およびパッチが含まれています。そのコンテンツを表示するには、リリースをクリックします。
+各リリースには、新しい機能とパッチが付属しています。 リリースをクリックして、その内容を表示します。
 
-View the latest [documentation updates](../../rn/using/documentation-updates.md) for Adobe Campaign Standard. If you're looking for a newer release, consult this [page](../../rn/using/release-notes.md).
+Adobe Campaign Standardの最新のドキ [ュメントの更新](../../rn/using/documentation-updates.md) . 新しいリリースをお探しの場合は、このページを参照してく [ださい](../../rn/using/release-notes.md)。
 
-## Release 16.11 - November 2016 {#release-16-11---november-2016}
+## リリース16.11 - 2016年11月 {#release-16-11---november-2016}
 
-### New capabilities {#new-capabilities}
+### 新機能 {#new-capabilities}
 
 <table> 
  <thead> 
   <tr> 
-   <th> Functionality<br /> </th> 
+   <th> 機能<br /> </th> 
    <th> 説明<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Deliverability exclusion rules<br /> </td> 
-   <td> 暗号化されたグローバル抑制リストが、悪意のあるアクティビティ（特にスパムの使用）のためブラックリストに記載されないように配信品質インスタンスで管理されるようになりました。<br /> 電子メール配信ごとに、2つのデフォルトのタイポロジルールによって、受信者の電子メールアドレスが、このリストに含まれている許可されていないアドレスまたはドメイン名と比較されます。一致がある場合、その受信者はターゲットの母集団から除外されます。<br /> 詳しくは、 <a href="../../administration/using/filtering-rules.md#default-deliverability-exclusion-rules">詳細なドキュメント</a>を参照してください。<br /> </td> 
+   <td> 配信可能性除外ルール<br /> </td> 
+   <td> 暗号化されたグローバル抑制リストは、悪意のあるアクティビティ、特にスパムトラップの使用によるブラックリストを回避するために、配信可能なインスタンスで管理されるようになりました。<br /> 各電子メール配信に対して、2つの既定の類型規則で、受信者の電子メールアドレスと、このリストに含まれる禁止されたアドレスまたはドメイン名が比較されます。 一致がある場合、その受信者はターゲットの母集団から除外されます。<br /> 詳細については、詳細なドキュメントを参照 <a href="../../administration/using/filtering-rules.md#default-deliverability-exclusion-rules">してください</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> General optimization<br /> </td> 
-   <td> このアップデートには、クライアントによって発生した問題を修正する多くの変更およびパッチが含まれています。The global platform performances have also been optimized. <br /> </td> 
+   <td> 一般的な最適化<br /> </td> 
+   <td> このアップデートには、クライアントが発生した問題を修正する多数の変更とパッチが含まれます。 また、グローバルプラットフォームの性能も最適化されている。 <br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Patches {#patches}
+### パッチ {#patches}
 
-#### General {#general}
+#### 一般 {#general}
 
-* いくつかのセキュリティ上の問題を修正しました。
-* REST APIの空のフィールドや重複したフィールドに関するいくつかの問題を修正しました。
-* アプリケーションのホームページからSMSメッセージおよびプッシュ通知を直接作成できるようになりました。
+* いくつかのセキュリティの問題を修正。
+* REST APIの空のフィールドまたは重複するフィールドに関するいくつかの問題が修正されました。
+* SMSメッセージを作成し、通知をアプリケーションのホームページから直接プッシュできるようになりました。
 
-#### Emails and SMS messages {#emails-and-sms-messages}
+#### EメールとSMSメッセージ {#emails-and-sms-messages}
 
-* ユーザーがコンテンツエディターでzipファイルをアップロードできない問題を修正しました。
-* 配達確認を送信後に配達確認を開くことができない問題を修正しました。
-* Fixed an issue that led to an error message displaying when accessing the **[!UICONTROL Hot Clicks]** report on an A/B test email.
-* **[!UICONTROL Show source]** モードを使用して変更が適用されない問題を修正しました。
-* 予測件名行xmlモデルファイルが読み込まれない可能性がある問題を修正しました。
-* A new screen dedicated to importing data for the subject line trained model is now available in **[!UICONTROL Administration > Channels > Emails > Predictive Subject Line]** .
-* 管理者以外のユーザーが電子メール設定画面で許可されたマスクを編集できない問題を修正しました。
+* ユーザーがコンテンツエディタでzipファイルをアップロードできない問題が修正されました。
+* 送信後に証明を開けない問題を修正。
+* A/Bテスト用のEメールでレポートにアクセスする際に、エラーメ **[!UICONTROL Hot Clicks]** ッセージが表示される問題を修正。
+* モードを使用して行った変更が適用されない **[!UICONTROL Show source]** 問題が修正されました。
+* 予測サブジェクト行のxmlモデルファイルのインポートを妨げる可能性のある問題が修正されました。
+* サブジェクトラインのトレーニング済みモデルのデータの読み込み専用の新しい画面がに表示されま **[!UICONTROL Administration > Channels > Emails > Predictive Subject Line]** す。
+* 管理者以外のユーザーが電子メール構成画面で承認されたマスクを編集できる問題を修正。
 
-#### Push notifications {#push-notifications}
+#### プッシュ通知 {#push-notifications}
 
-* **[!UICONTROL Send push on profiles]** テンプレートを使用してプッシュ通知を送信した後、受信者にログおよびイベントログが表示されない問題を修正しました。
-* 新しいモバイルアプリケーションが作成されない可能性がある問題を修正しました。
+* テンプレートを使用してプッシュ通知を送信した後に、受信者に対してログとイベントログを送信できない問題が修正さ **[!UICONTROL Send push on profiles]** れました。
+* 新しいモバイルアプリケーションの作成を妨げる可能性のある問題を修正。
 
-#### Workflows {#workflows}
+#### ワークフロー {#workflows}
 
-* **[!UICONTROL Subscription]** アクティビティの使用時に発生していたパフォーマンスの問題を修正しました。
-* 内部名にスペースが含まれている場合にワークフローが機能しない問題を修正しました。
+* アクティビティの使用中に発生したパフォーマンスの問題を修 **[!UICONTROL Subscription]** 正した。
+* 内部名にスペースが含まれている場合にワークフローが機能しない問題が修正されました。
 
-#### Integrations {#integrations}
+#### 統合 {#integrations}
 
-* Fixed an issue that could lead to an error being displayed when using the **Image shared from Adobe Marketing Cloud** option in an email.
+* 電子メールでAdobe Marketing Cloudから共有した **Imageオプションを使用すると、エラーが表示される可能性のある問題が修正されました** 。
 
-#### Custom resources {#custom-resources}
+#### カスタムリソース {#custom-resources}
 
-* 拡張APIフィールドの2つのパブリケーション間でAPIのログプレビューが強化されました。
-* カスタムリソースを公開前に削除できない問題を修正しました。
-* プロファイルが拡張され、識別子キーが動的フィールドに設定されない問題を修正しました。
-* カスタムリソースにリンクを追加すると発生する可能性がある問題を修正しました。
+* 拡張APIフィールドの2つのパブリケーション間での拡張APIのログ·プレビュー。
+* 発行前にカスタムリソースを削除できない問題が修正されました。
+* プロファイルの拡張を妨げ、識別キーが動的フィールドに設定されない問題が修正されました。
+* カスタムリソースにリンクを追加する際に発生する可能性のある問題を修正しました。
 
-## Release 16.10 - October 2016 {#release-16-10---october-2016}
+## リリース16.10 - 2016年10月 {#release-16-10---october-2016}
 
-### New capabilities {#new-capabilities-1}
+### 新機能 {#new-capabilities-1}
 
 <table> 
  <thead> 
   <tr> 
-   <th> Functionality<br /> </th> 
+   <th> 機能<br /> </th> 
    <th> 説明<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Email predictive subject line<br /> </td> 
-   <td> 電子メールの編集時に、新しいオプションを使用すると、異なる件名行を試して、送信前のオープンレートの見積もりを行うことができます。これは、過去の配信データに基づいて、またはお客様の業界固有の定義済みモデルを使用して、独自のモデルをトレーニングすることで実現できます。この機能は、電子メールメッセージおよび英語のコンテンツのみを含むデータベースで使用できます。<br /> 有効化および使用の詳細については、 <a href="../../designing/using/personalizing-the-subject-line-of-an-email.md#predictive-subject-line">詳細なドキュメント</a>を参照してください。<br /> </td> 
+   <td> 電子メールの予測件名行<br /> </td> 
+   <td> 電子メールを編集する場合、新しいオプションを使用すると、送信前に別の件名を試して、開放率の見積もりを得ることができます。 これは、過去の配信データに基づいて独自のモデルをトレーニングするか、業界固有の定義済みモデルを使用することで可能になります。 この機能は、電子メールメッセージや英語のコンテンツを含むデータベースに対してのみ使用できます。 <br /> 有効化と使用の詳細については、詳細なドキュメントを参照し <a href="../../designing/using/subject-line.md#predictive-subject-line">てください</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> SMS transactional messaging<br /> </td> 
-   <td> SMSチャネルがAdobe Campaignのトランザクションメッセージング機能に追加されました。トランザクションメッセージで2つのチャネルがサポートされるようになりました。電子メールおよびSMS。<br /> 詳しくは、 <a href="../../administration/using/configuring-transactional-messaging.md#creating-an-event">詳細なドキュメント</a>を参照してください。<br /> </td> 
+   <td> SMSトランザクションメッセージング<br /> </td> 
+   <td> SMSチャネルは、Adobe Campaignのトランザクションメッセージング機能に追加されました。 トランザクション·メッセージに対しては、次の2つのチャネルがサポートされます。メールとSMS<br /> 詳細については、詳細なドキュメントを参照 <a href="../../administration/using/configuring-transactional-messaging.md#creating-an-event">してください</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Follow-up message for transactional messaging<br /> </td> 
-   <td> イベントをターゲティングするワークフローを作成できるようになりました。これは、トランザクションメッセージを以前に受信した顧客にフォローアップメッセージを送信できることを意味します。イベントタイプ、イベントログ、トラッキングログでターゲットをフィルタリングできます。フォローアップメッセージでは、イベント（ペイロード）のコンテンツを利用できます。<br /> 詳しくは、 <a href="../../channels/using/follow-up-messages.md">詳細なドキュメント</a>を参照してください。<br /> </td> 
+   <td> トランザクションメッセージのフォローアップメッセージ<br /> </td> 
+   <td> イベントを対象としたワークフローを作成できるようになりました。 つまり、以前にトランザクション·メッセージを受け取った顧客に、フォローアップ·メッセージを送信できます。 ターゲットは、イベント·タイプ、イベント·ブロードログ、および追跡ログでフィルタできます。 フォローアップメッセージでは、イベント（ペイロード）の内容を活用できます。 <br /> 詳細については、詳細なドキュメントを参照 <a href="../../channels/using/follow-up-messages.md">してください</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Extended Profile &amp; Services API<br /> </td> 
-   <td> プロファイルおよびサービスAPIに拡張フィールドを公開できるようになりました。パブリケーションメカニズムにより、APIを使用してプロファイルまたはサービスカスタムリソースの拡張フィールドをマッピングできます。For this to work, the <strong>Datamodel</strong> role has been added. この新しい役割により、ユーザーはデータモデルにアクセスできる管理者のセットを設定できます。<br /> 詳しくは、 <a href="../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension">詳細なドキュメント</a>を参照してください。<br /> </td> 
+   <td> 拡張プロファイルとサービスAPI<br /> </td> 
+   <td> これで、プロファイルAPIとサービスAPIで拡張フィールドを公開できるようになりました。 パブリケーションメカニズムを使用すると、APIは、プロファイルまたはサービスのカスタムリソースの拡張フィールドをマッピングできます。 この機能を使用するには、 <strong>Datamodel</strong> ロールが追加されました。 この新しい役割を使用すると、ユーザーはデータ·モデルにアクセスできる一連の管理者を構成できます。<br /> 詳細については、詳細なドキュメントを参照 <a href="../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension">してください</a>。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Patches {#patches-1}
+### パッチ {#patches-1}
 
-#### General {#general-1}
+#### 一般 {#general-1}
 
-* いくつかのセキュリティ上の問題を修正しました。
+* いくつかのセキュリティの問題を修正。
 
-#### Emails and SMS messages {#emails-and-sms-messages-1}
+#### EメールとSMSメッセージ {#emails-and-sms-messages-1}
 
-* The SMS external account configuration screen ( **[!UICONTROL Administration > Channels > SMS > SMS accounts]** ) has been improved. Several parameters have been added in the **[!UICONTROL SMSC specifics]** section to support error codes in the "Text" field.
+* SMS外部アカウント構成画面( **[!UICONTROL Administration > Channels > SMS > SMS accounts]** )が改善されました。 「Text」フィールドのエラー·コ **[!UICONTROL SMSC specifics]** ードをサポートするために、セクションに複数のパラメータが追加されました。
 
-#### Push notifications {#push-notifications-1}
+#### プッシュ通知 {#push-notifications-1}
 
-* **[!UICONTROL Send via push notification]** （Mobile App）テンプレートに基づいてプッシュ通知のオーディエンスを編集する際に、事前定義済みのフィルターが表示されない問題を修正しました。
-* The mobile application configuration screen ( **[!UICONTROL Administration > Channels > Push Notification > Mobile applications]** ) now displays a message to indicate that the iOS or Android platform has been successfully created.
+* (mobileApp)テンプレートに基づいてプッシュ通知の対象ユーザーを編集する際に、定義済みのフィルタが表示されな **[!UICONTROL Send via push notification]** い問題が修正されました。
+* モバイルアプリケーション設定画面( **[!UICONTROL Administration > Channels > Push Notification > Mobile applications]** )に、iOSまたはAndroidプラットフォームが正常に作成されたことを示すメッセージが表示されます。
 
-#### Landing pages {#landing-pages}
+#### ランディングページ {#landing-pages}
 
-* ランディングページのフォームが送信されたときに確認電子メールが送信されない問題を修正しました。
+* ランディングページフォームの送信時に確認メールを送信できない問題が修正されました。
 
-#### Audiences and queries {#audiences-and-queries}
+#### 対象ユーザーとクエリ {#audiences-and-queries}
 
-* クエリエディターでプロファイルを選択すると発生していたいくつかの問題を修正。
+* クエリエディタでプロファイルを選択する際に発生した問題を修正しました。
 
-#### Transactional messages {#transactional-messages}
+#### トランザクションメッセージ {#transactional-messages}
 
-* トランザクションテンプレートを非公開にできないエラーを修正しました。
-* イベントリストにイベントが表示される問題を修正しました。
+* トランザクションテンプレートの非公開化を防ぐエラーが修正されました。
+* イベントリストに表示されるイベントをトリガーする原因となった問題を修正。
 
-#### Integrations {#integrations-1}
+#### 統合 {#integrations-1}
 
-* 共有オーディエンスが、そのオーディエンスの更新後に配信されない問題を修正しました。
-* Fixed an issue that prevented a shared asset ( **[!UICONTROL Image shared from Adobe Marketing Cloud]** option) from being used in a landing page.
-* Adobe Audience Managerからインポートした共有オーディエンスの編集時に発生していた問題を修正しました。
+* 対象ユーザーの更新後に、配信中に共有対象ユーザーを使用できない問題が修正されました。
+* 共有資産（オプション）がランディング·ページで使 **[!UICONTROL Image shared from Adobe Marketing Cloud]** 用できない問題が修正されました。
+* Adobe Audience Managerから読み込んだ共有対象ユーザーの編集中に発生した問題が修正されました。
 
-## Release 16.9 - September 2016 {#release-16-9---september-2016}
+## リリース16.9 - 2016年9月 {#release-16-9---september-2016}
 
-### New capabilities {#new-capabilities-2}
+### 新機能 {#new-capabilities-2}
 
 <table> 
  <thead> 
   <tr> 
-   <th> Functionality<br /> </th> 
+   <th> 機能<br /> </th> 
    <th> 説明<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Remarketing Triggers<br /> </td> 
-   <td> Integration between the core service <span class="uicontrol">Triggers</span> and Adobe Campaign allows you to send personalized emails to your customers as a reaction to specific behaviors that are tracked on your website by Adobe Analytics (within 15 minutes).<br /> Adobe Marketing Cloudでは、様々なトリガー（買い物かごやそのフォームを破棄した顧客の行動、買い物かごから製品を削除した製品、セッションが期限切れのクライアントなど）を定義します。トリガーを作成するときに、トリガーの条件と、イベント（プロ広告）で送信されるデータをAdobe Campaignに定義します。<br /> Adobe Campaignでは、以前に作成したトリガーを選択し、イベントデータを使用してイベントデータを豊かにし、そのトリガーにリンクされているトランザクションメッセージテンプレートを定義します。例えば、クライアントが買い物かごを放棄すると、イベントはAdobe Campaignに送信され、その後15分以内にクライアントに送信されるリマーケティング電子メール経由でこのイベントを利用できます。<br /> 詳しくは、 <a href="../../integrating/using/about-adobe-experience-cloud-triggers.md">詳細なドキュメント</a>を参照してください。<br /> </td> 
+   <td> リマーケティング·トリガー<br /> </td> 
+   <td> コアサービス <span class="uicontrol">Triggers</span> とAdobe Campaignの統合により、Adobe Analyticsで追跡される特定の動作に対する反応として、カスタマイズされた電子メールを顧客に送信できます（15分以内）。<br /> Adobe Marketing cloudでは、監視する様々なトリガー、つまり、カートやフォームを破棄したすべてのクライアント、カートから製品を削除したクライアント、またはセッションの期限が切れたクライアントなど、監視する顧客の動作を定義します。 トリガーを作成する場合は、トリガーの条件と、イベント（プロード）でAdobe Campaignに送信されるデータを定義します。 <br /> Adobe Campaignでは、以前に作成したトリガを選択し、イベントデータをデータマートデータで埋め込み、そのトリガにリンクされたトランザクションメッセージテンプレートを定義します。 たとえば、クライアントがカートを破棄すると、イベントがAdobe Campaignに送信され、15分以内にクライアントに送信されるリマーケティング用の電子メールを通じてこのイベントを活用できます。<br /> 詳細については、詳細なドキュメントを参照 <a href="../../integrating/using/about-adobe-experience-cloud-triggers.md">してください</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Transactional messages: Pause / Unpublish<br /> </td> 
-   <td> コンテンツの更新中にトランザクションテンプレートの発行を休止できるようになりました。対応するメッセージは送信されなくなりますが、データベースに保存されます。再開すると、キューに登録されているメッセージは処理され、期限切れになっている場合は送信されます。<br /> 詳しくは、 <a href="../../channels/using/event-transactional-messages.md#suspending-a-transactional-message-publication">詳細なドキュメント</a>を参照してください。<br /> イベントおよびトランザクションテンプレートも公開取り消しできるようになりました。対応するメッセージは、現在送信されず、データベースに保存されません。<br /> 詳しくは、 <a href="../../channels/using/event-transactional-messages.md#unpublishing-a-transactional-message">詳細なドキュメント</a>を参照してください。<br /> </td> 
+   <td> トランザクションメッセージ：一時停止/発行解除<br /> </td> 
+   <td> トランザクションテンプレートのコンテンツを更新中に、その発行を中断できるようになりました。 対応するメッセージは送信されなくなりますが、データベースに格納されます。 再開時に、キューに登録されたメッセージが処理され、期限切れになっていない場合は送信されます。<br /> 詳細については、詳細なドキュメントを参照 <a href="../../channels/using/event-transactional-messages.md#suspending-a-transactional-message-publication">してください</a>。<br /> イベントやトランザクションテンプレートの発行を取り消すこともできます。 対応するメッセージは送信されなくなり、データベースに保存されません。<br /> 詳細については、詳細なドキュメントを参照 <a href="../../channels/using/event-transactional-messages.md#unpublishing-a-transactional-message">してください</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Multibranding<br /> </td> 
-   <td> 複数のブランドを持つクライアントは、同じインスタンスで管理できるようになりました。ブランドとは、Adobe Campaign内のブランドに関連するすべてのパラメーターを一元的に設定できる、Adobe Campaignインスタンスの管理者が管理する機能です。これには、トラッキングURL、ウェブ分析、サーバURL、ドメイン名などの技術的なパラメーターに対するロゴなどのものが含まれます。<br /> 詳しくは、 <a href="../../administration/using/branding.md">詳細なドキュメント</a>を参照してください。<br /> </td> 
+   <td> マルチブランド化<br /> </td> 
+   <td> 複数のブランドを持つクライアントが、同じインスタンスで管理できるようになりました。 ブランド化は、Adobe Campaignインスタンスの管理者が管理する機能で、Adobe Campaign内のブランドに関連するすべてのパラメータを一元的に構成できます。 これには、URLの追跡、Web Analytics、サーバーのURL、ドメイン名など、より詳細な技術パラメータへのロゴなどが含まれます。<br /> 詳細については、詳細なドキュメントを参照 <a href="../../administration/using/branding.md">してください</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Responsive email design preview<br /> </td> 
-   <td> この機能により、様々な種類のデバイスでの電子メールの応答性をテストできます。In the email preview, a grid has been added to test your email on various screen sizes.<br /> </td> 
+   <td> 応答性の高いEメールデザインのプレビュー<br /> </td> 
+   <td> この機能を使用すると、さまざまなタイプのデバイスでEメールの応答性をテストできます。 電子メールのプレビューに、さまざまな画面サイズで電子メールをテストするグリッドが追加されました。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Push notifications<br /> </td> 
-   <td> マーケティング担当者がiOSおよびAndroidモバイルデバイスでパーソナライズされたセグメントプッシュ通知を送信できるように、新しいチャネルが追加されました。メッセージは、単一の配信またはワークフローアクティビティを使用して送信できます。トランザクションメッセージとの互換性は、今後のバージョンで利用できます。This channel leverages the Mobile core service’s SDK (available <a href="https://marketing.adobe.com/developer/gallery/marketing-cloud-mobile-libraries">here</a>).<br /> 詳しくは、 <a href="../../channels/using/about-push-notifications.md">詳細なドキュメント</a>を参照してください。<br /> </td> 
+   <td> プッシュ通知<br /> </td> 
+   <td> マーケティング担当者がiOSおよびAndroidモバイルデバイスで個別化およびセグメント化されたプッシュ通知を送信できるように、新しいチャネルが追加されました。 メッセージは、単一の配信またはワークフローアクティビティを使用して送信できます。 トランザクションメッセージングとの互換性は、今後のバージョンで利用可能になる予定です。 このチャネルは、Mobile CoreサービスのSDK(ここで入手可 <a href="https://marketing.adobe.com/developer/gallery/marketing-cloud-mobile-libraries">能</a>)を活用します。<br /> 詳細については、詳細なドキュメントを参照 <a href="../../channels/using/about-push-notifications.md">してください</a>。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Patches {#patches-2}
+### パッチ {#patches-2}
 
-#### General {#general-2}
+#### 一般 {#general-2}
 
-* このリリースでは、インターフェイスリストに新しいフィルターおよび検索機能が導入されています。この新機能は、例えば、ログ（配信、追跡）、サービス（購読、購読履歴）、オーディエンスおよびワークフローの移行に使用できます。
-* 顧客プロファイルのタッチポイント数に関するいくつかの表示の問題を修正しました。
-* 複数のタイポロジイシューを修正。
+* このリリースでは、新しいフィルタリング機能と検索機能がインターフェイスリストに追加されました。 この新機能は、ログ（配信、追跡）、サービス（サブスクリプション、サブスクリプション履歴）、対象ユーザー、およびワークフローの移行などで利用できます。
+* お客様のプロファイルのタッチポイント数に関するディスプレイの問題がいくつか修正されました。
+* 類型に関する問題を修正。
 
-#### Emails and SMS messages {#emails-and-sms-messages-2}
+#### EメールとSMSメッセージ {#emails-and-sms-messages-2}
 
-* 誤った配達確認を編集できるエラーを修正しました。これらは読み取り専用になりました。
-* SMSの長すぎるまたはエンコードの問題が発生した場合に、受信者がブラックリストに登録されていた問題を修正しました。
+* 誤った校正を編集できるエラーを修正しました。 現在は読み取り専用です。
+* SMSが長すぎるか、エンコードに問題がある場合に受信者がブラックリストに表示される原因となった問題が修正されました。
 
-#### Custom resources {#custom-resources-1}
+#### カスタムリソース {#custom-resources-1}
 
-* カスタムリソースのアドバンスフィルターを使用すると、すべての結果が表示されないエラーを修正しました。
+* カスタムリソースの高度なフィルタを使用する際に、すべての結果が表示されないエラーが修正されました。
 
-#### Transactional messages {#transactional-messages-1}
+#### トランザクションメッセージ {#transactional-messages-1}
 
-* 新しいイベント定義の識別子にプレフィックスが自動的に追加されるようになりました。
-* インターフェイス内のトランザクションメッセージを表すアイコンが変更されました。
+* 新しいイベント定義の識別子に自動的に接頭辞が追加されます。
+* インタフェース内のトランザクション·メッセージを表すアイコンが変更されました。
 
-#### Integrations {#integrations-2}
+#### 統合 {#integrations-2}
 
-* Fixed a display error that would occur when a high resolution image was inserted via the **Dynamic image from Adobe Target** option.
-* リンク先IDがAMCデータソースに設定されていない場合でも共有オーディエンスを保存できるエラーを修正しました。
+* Adobe Targetからのダイナミックイメージオプションを使用して高解像度イメージを挿入したときに発生する **表示エラーを修正しました** 。
+* AMCデータソースに宛先IDが設定されていない場合でも、共有対象ユーザーを保存できるエラーが修正されました。
 
-## Release 16.7 - July 2016 {#release-16-7---july-2016}
+## リリース16.7 - 2016年7月 {#release-16-7---july-2016}
 
-### New capabilities {#new-capabilities-3}
+### 新機能 {#new-capabilities-3}
 
 <table> 
  <thead> 
   <tr> 
-   <th> Functionality<br /> </th> 
+   <th> 機能<br /> </th> 
    <th> 説明<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Enriched transactional messages<br /> </td> 
-   <td> トランザクションテンプレートをAdobe Campaignデータベースとリンクして、トランザクションメッセージのコンテンツを充実させる情報を回復できるようになりました。<br /> 詳しくは、 <a href="../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content">詳細なドキュメント</a>を参照してください。<br /> </td> 
+   <td> トランザクションメッセージの強化<br /> </td> 
+   <td> トランザクションテンプレートをAdobe Campaignデータベースにリンクして、トランザクションメッセージの内容を豊富にする情報を回復できるようになりました。<br /> 詳細については、詳細なドキュメントを参照 <a href="../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content">してください</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Dynamic URLs for images<br /> </td> 
-   <td> この新機能により、コンテンツブロックと動的テキストを挿入して、トラッキングおよびパーソナライゼーションの目的で画像ソースをパーソナライズできます。<br /> その後、画像URLにパラメータを入力して、AEMアセット（S7）動的メディアの機能から利益を得ることができます。例えば、"Hello Alsecandre"というパーソナライズされた画像を含む電子メールを、パリでの今後のイベントに関する最新のニュースと共に送信できます。または"Hello Frank， get the latest news about将来のイベントに関する最新ニュース」を参照してください。<br /> 詳しくは、 <a href="../../designing/using/personalizing-urls.md">詳細なドキュメント</a>を参照してください。<br /> </td> 
+   <td> イメージの動的URL<br /> </td> 
+   <td> この新しい機能を使用すると、トラッキングやパーソナライズの目的でコンテンツブロックとダイナミックテキストを挿入して、イメージソースをパーソナライズできます。<br /> その結果、画像URLにパラメータを入力することにより、AEM Asset(S7)ダイナミックメディアの機能から利益を得ることが可能となる。 例えば、「Hello Alexandre, get the latest news of the paris!」という個人用画像を含むEメールを送信できます。 「こんにちは、フランク、ニューヨークでの近い出来事に関する最新のニュースを知って！」<br /> 詳細については、詳細なドキュメントを参照 <a href="../../designing/using/personalization.md#personalizing-urls">してください</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Integration with People Core Service<br /> </td> 
-   <td> The Adobe Marketing Cloud <strong>Declared IDs</strong> are now covered by the integration between Adobe Campaign and People Core Service (Profiles &amp; Audiences).<br /> つまり、訪問 <strong>者ID</strong>または <strong>宣言済みIDで構成されるセグメントをインポートしたり、オーディエンスをエクスポート</strong>したりできます。<br /> 詳しくは、 <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">詳細なドキュメント</a>を参照してください。<br /> </td> 
+   <td> Peopleコア·サービスとの統合<br /> </td> 
+   <td> Adobe Marketing Cloud <strong>Declared IDsは</strong> 、Adobe CampaignとPeople Core Service(Profiles &amp; Audiences)の統合によってカバーされました。<br /><strong> つまり、セグメントをインポートし、ビジターIDまたは宣言済みIDで構成された対象ユーザーをエ </strong>クスポ<strong>ートで </strong>きること<br />になります。詳細については、詳細なドキュメントを参照 <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">してください</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Delivery logs<br /> </td> 
-   <td> The MTA logs (delivery server) now display the complete history of each message, particularly all of the delivery attempts as well as the associated error statuses, and this has no impact on the application's performance.<br /> </td> 
+   <td> 配信ログ<br /> </td> 
+   <td> MTAログ（配信サーバ）には、各メッセージの完全な履歴が表示され、特にすべての配信試行と関連するエラー·ステータスが表示され、アプリケーションのパフォーマンスに影響を与えません。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Patches {#patches-3}
+### パッチ {#patches-3}
 
-#### General {#general-3}
+#### 一般 {#general-3}
 
-* 不必要なフィールドが、完了する必要のあるフィールドの代わりに表示される可能性があるエラーを修正しました。これは、クエリ内の条件を編集する際に比較演算子が複数回変更された後に発生していました。
-* Fixed the behavior of the option **[!UICONTROL The last X days/months/quarters/years]** when defining a relative filtering condition for a date field. 計算期間は、サーバーの日時を基準としたスライディング期間になり、カレンダーベースではありません。
+* 入力を完了する必要のあるフィールドの代わりに、関連のないフィールドが表示される可能性のあるエラーが修正されました。 これは、クエリで条件を編集する際に比較演算子が複数回変更された後に発生します。
+* 日付フィールドの相対フィルタ条 **[!UICONTROL The last X days/months/quarters/years]** 件を定義する際のオプションの動作を修正しました。 計算された期間は、現在はカレンダ·ベースではなく、サーバの日時に対するスライド期間になっています。
 
-#### Workflows {#workflows-1}
+#### ワークフロー {#workflows-1}
 
-* **[!UICONTROL Query]** アクティビティのプロパティでターゲットディメンションを選択する際に、画面に間違った値のリストが返されるエラーを修正しました。
-* Fixed an error that would force the **Exists** operator to be selected when adding an average or count aggregate on a collection element in a **[!UICONTROL Query]** activity.
+* アクティビティのプロパティでターゲットディメンションを選択する際に、画面に誤った値のリストが表示されるエラーが修正さ **[!UICONTROL Query]** れました。
+* アクティビティ内の収集要素に平均または数の集計を追加する際に **Exists** 演算子を選択するよう強制するエラーが修正され **[!UICONTROL Query]** ました。
 
-#### Content editing {#content-editing}
+#### コンテンツの編集 {#content-editing}
 
-* HTMLコンテンツを読み込む際に、表示の問題（レスポンシブデザイン）の発生につながる可能性があるエラーを修正しました。コンテンツを初めて開いたときに、スタイル属性が書き直されることはなくなりました。
-* 動的コンテンツバリアントに条件が追加された場合に発生していたブロッキング以外のエラーを修正しました。
-* ランディングページのコンテンツにチェックボックスを追加すると発生していたエラーを修正。チェックボックスは使用できませんでした。
-* 対象のブロックの先頭にカーソルが置かれた場合にブロック内のテキストを削除すると発生する可能性があるエラーを修正しました。
+* HTMLコンテンツのインポート時に、表示の問題（応答性の高いデザイン）を引き起こす可能性のあるエラーが修正されました。読み込んだ後にコンテンツを初めて開いたときに、スタイル属性は書き換えられなくなりました。
+* ダイナミックコンテンツバリアントに条件が追加されたときに発生した非ブロッキングエラーを修正しました。
+* ランディング·ページのコンテンツにチェックボックスを追加した場合のエラーを修正。 このチェックボックスは使用できませんでした。
+* カーソルが問題のブロックの先頭に置かれた場合に、ブロック内のテキストを削除する際に発生するエラーを修正しました。
 
-#### Transactional messages {#transactional-messages-2}
+#### トランザクションメッセージ {#transactional-messages-2}
 
-* Webサイトを統合する際に、任意のイベントの有効期限を定義できるようになりました。この日が過ぎると、イベントに対応するメッセージを送信できなくなります。
+* Webサイトを統合する際に、任意のイベントの有効期限を定義できるようになりました。 この日付を過ぎると、イベントに対応するメッセージは送信できなくなります。
 
-## Release 16.6 - June 2016 {#release-16-6---june-2016}
+## リリース16.6 - 2016年6月 {#release-16-6---june-2016}
 
-### New capabilities {#new-capabilities-4}
+### 新機能 {#new-capabilities-4}
 
 <table> 
  <thead> 
   <tr> 
-   <th> Functionality<br /> </th> 
+   <th> 機能<br /> </th> 
    <th> 説明<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Profiles and Services API<br /> </td> 
-   <td> The Adobe Campaign <span class="uicontrol">Profiles and Services</span> API is available in the <a href="https://www.adobe.io/products/campaign">adobe.io</a> portal. これにより、Adobe Campaignプロファイルを更新、追加および削除したり、REST呼び出し経由でサービスをサブスクライブまたは登録解除したりできます。<br /> 詳しくは、APIの <a href="https://docs.campaign.adobe.com/doc/standard/en/adobeio.html">詳細説明</a>を参照してください。<br /> </td> 
+   <td> プロファイルとサービスAPI<br /> </td> 
+   <td> Adobe Campaign <span class="uicontrol">Profiles and Services</span> APIは、adobe.ioポータルから入手 <a href="https://www.adobe.io/products/campaign">できます</a> 。 これにより、Adobe Campaignプロファイルを更新、追加、削除し、REST呼び出しを介してサービスに対して購読/購読を取り消すことができます。<br /> 詳細は、APIの詳細な説 <a href="https://docs.campaign.adobe.com/doc/standard/en/adobeio.html">明を参照してください</a>。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Patches {#patches-4}
+### パッチ {#patches-4}
 
-#### General {#general-4}
+#### 一般 {#general-4}
 
-* モバイルデバイスでツールチップが無効になり、画面に表示される情報が読みやすくなるようになりました。
-* iPad画面の特定のゾーンのコンテンツをスクロールできないエラーを修正しました。
-* Internet Explorer11でコンテンツの編集中に発生していた互換性エラーをいくつか修正しました。
-* データインポートが初めて失敗したときに詳細ログにアクセスできない可能性があるエラーを修正しました。
-* 範囲フィルターが保存されない可能性があるエラーを修正しました。
-* リストの表示方法を設定する際に、リソースの要素が表示されないエラーを修正しました。
-* クエリエディターのエクスプローラーでエラーを修正しました。検索フィールドによって返された結果は検索履歴に保持され、新しい検索ごとに引き続き表示されていました。
+* モバイルデバイスでツールチップが無効になり、画面に表示される情報が読みやすくなりました。
+* iPad画面上の特定のゾーンのコンテンツをスクロールできないエラーが修正されました。
+* Internet Explorer 11のコンテンツの編集中に発生した互換性エラーが修正されました。
+* データのインポートに初めて失敗したときに、詳細ログにアクセスできないエラーが修正されました。
+* 範囲フィルタの保存を妨げる可能性のあるエラーを修正しました。
+* リストの表示方法を構成する際に、リソースの要素が表示されないエラーが修正されました。
+* クエリエディタエクスプローラでエラーが修正されました。 検索フィールドから返された結果は検索履歴に保持され、新しい検索のたびに表示され続けました。
 
-#### Emails and SMS messages {#emails-and-sms-messages-3}
+#### EメールとSMSメッセージ {#emails-and-sms-messages-3}
 
-* バウンスにリンクされた情報が配信ログで復元されないエラーを修正しました。
-* トランザクションメッセージの動的コンテンツブロックにコンテキストがアクセスできないエラーを修正しました。
-* 電子メールのコンテンツの動的テキストにURLリンクを定義できないエラーを修正しました。
-* 配信作成ウィザードの上部バーの表示を修正しました。
-* 配信のプライマリキーをパーソナライゼーションフィールドとして使用することはできません。
+* バウンスにリンクされた情報が配信ログにリカバリされないエラーが修正されました。
+* トランザクションメッセージの動的コンテンツブロック内のコンテキストにアクセスできないエラーが修正されました。
+* 電子メールのコンテンツ内の動的なテキストにURLリンクを定義できないエラーが修正されました。
+* 配信作成ウィザードの上部バーの表示を修正。
+* 配信の主キーは、個人用設定フィールドとして使用できなくなりました。
 
-#### Workflows {#workflows-2}
+#### ワークフロー {#workflows-2}
 
-* ワークフローの2つのアクティビティ間のトランジションに、計算され、あるアクティビティから別のアクティビティに転送された要素の数が表示されるようになりました。
-* **[!UICONTROL Query]** アクティビティに追加データが追加されると、互換性のないフィールドが非表示になりました。
-* データを追加するときに表示される集計定義ウィンドウが改善され、使用中のデータと互換性のあるオファーオプションのみが改善されました（例:平均値を計算することは、数値データでのみ可能です。
-* 追加の技術ワークフローを開始または再開することは、管理者権限を持つユーザーのみが実行できるようになりました。
+* ワークフローの2つのアクティビティ間の遷移に、あるアクティビティから別のアクティビティに計算および転送された要素の数が表示されるようになりました。
+* 互換性のないフィールドは、アクティビティに追加データが追加されたときに非表示にな **[!UICONTROL Query]** りました。
+* 追加データの追加時に表示される集約定義ウィンドウは、使用中のデータと互換性のあるオプションのみを提供するように改善されました(例：平均の計算は数値データに対してのみ可能です)。
+* 既存の技術ワークフローを開始または再開する際に、管理権限を持つユーザーのみが実行できるようになりました。
 
-#### Landing pages {#landing-pages-1}
+#### ランディングページ {#landing-pages-1}
 
-* ランディングページのプロパティで32ビットのAESコーディングキーを省略できるエラーを修正しました。
-* 表示条件を定義するとき、またはランディングページに動的コンテンツを追加する際に、クエリエディターが正しく表示されないエラーを修正しました。
+* ランディング·ページのプロパティで32ビットAESコーディング·キーを切り捨てる可能性のあるエラーが修正されました。
+* 可視性条件を定義するとき、またはランディングページに動的コンテンツを追加するときに、クエリエディタが正しく表示されないエラーが修正されました。
 
-#### Custom resources {#custom-resources-2}
+#### カスタムリソース {#custom-resources-2}
 
-* The **[!UICONTROL Switch to parameters]** option is now hidden when defining a filter related to a profile's subscriptions to a service.
-* カスタムリソースから0-1タイプのリンクが設定された場合に発生する可能性があるエラーを修正しました。
-* Fixed an error that, where relevant, could prevent the defined **Constant default value** from being edited when adding a **Date and time** type field in a custom resource.
+* プロフ **[!UICONTROL Switch to parameters]** ァイルのサブスクリプションに関連するフィルタをサービスに定義する際に、このオプションが非表示になりました。
+* 0-1タイプのリンクがカスタムリソースから構成されたときに発生する可能性のあるエラーを修正しました。
+* ユーザー設定リソースに日付と時刻の種類フィールドを追加する際に、定義された **Constantの既定値が編集されない****** （該当する場合）というエラーが修正されました。
 
-## Release 16.5 - May 2016 {#release-16-5---may-2016}
+## リリース16.5 - 2016年5月 {#release-16-5---may-2016}
 
-### New capabilities {#new-capabilities-5}
+### 新機能 {#new-capabilities-5}
 
 <table> 
  <thead> 
   <tr> 
-   <th> Functionality<br /> </th> 
+   <th> 機能<br /> </th> 
    <th> 説明<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Predefined filters<br /> </td> 
-   <td> 管理者は、事前設定されたルールの形式でクエリエディターに表示されるアドバンスフィルターを作成できるようになりました。これらのフィルターを選択すると、例えば、オーディエンスを定義する際に、シンプルなインターフェイスで複雑な設定を簡単に作成できます。<br /> 詳しくは、 <a href="../../developing/using/configuring-filter-definition.md">詳細なドキュメント</a>を参照してください。<br /> </td> 
+   <td> 定義済みフィルタ<br /> </td> 
+   <td> 管理者は、事前に構成された規則の形式でクエリエディタに表示される高度なフィルタを作成できるようになりました。 これらのフィルタを選択すると、ユーザーは、対象ユーザーを定義する際に、簡単なインタフェースで複雑な構成をより簡単に作成できます。<br /> 詳細については、詳細なドキュメントを参照 <a href="../../developing/using/configuring-filter-definition.md">してください</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Workflows: Subscription Services<br /> </td> 
-   <td> <span class="uicontrol">新しい購読サービス</span> アクティビティを使用すると、サービスに複数のプロファイルをサブスクライブしたり、単一のアクションでサービスをサブスクライブ解除したりできます。<br /> このアクティビティは、ターゲット設定を実行した後、または特定のデータを含むファイルをインポートした後で使用できます。<br /> 詳しくは、 <a href="../../automating/using/subscription-services.md">詳細なドキュメント</a>を参照してください。<br /> </td> 
+   <td> ワークフロー：サブスクリプションサービス<br /> </td> 
+   <td> 新しい <span class="uicontrol">Subscription Servicesアクティビティでは</span> 、1つのサービスに複数のプロファイルを登録したり、1つの操作でサービスからプロファイルを登録解除したりできます。<br /> このアクティビティは、ターゲットを実行した後、または識別されたデータを含むファイルをインポートした後に使用できます。<br /> 詳細については、詳細なドキュメントを参照 <a href="../../automating/using/subscription-services.md">してください</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Workflows: data enrichment<br /> </td> 
-   <td> The <span class="uicontrol">Additional data</span> tab is now available in <span class="uicontrol">Query</span> type activities. この機能により、クエリが対象とするデータを豊富にし、このデータを悪用された以下のワークフローアクティビティに転送できます。<br /> 追加のデータを追加した後、定義された追加データに基づいて条件を作成することで、最初にターゲット設定されたデータにフィルターレベルを適用できます。<br /> 詳しくは、 <a href="../../automating/using/query.md#enriching-data">詳細なドキュメント</a>を参照してください。<br /> </td> 
+   <td> ワークフロー：データ濃縮<br /> </td> 
+   <td> 「追加デ <span class="uicontrol">ータ」タブが</span> 、「クエリー·タイプ」アクティビティで <span class="uicontrol">使用可能</span> になりました。 この機能を使用すると、クエリの対象となるデータを強化し、このデータを次のワークフローアクティビティに転送して活用できます。<br /> 追加データを追加した後、定義された追加データに基づいて条件を作成することで、最初にターゲットとしたデータに追加のフィルタレベルを適用できます。<br /> 詳細については、詳細なドキュメントを参照 <a href="../../automating/using/query.md#enriching-data">してください</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Contextual help<br /> </td> 
-   <td> 様々なAdobe Campaign画面でコンテキストヘルプ関数を利用できるようになりました。つまり、シングルクリックで、現在使用している機能のドキュメントに直接アクセスできます。コンテキストヘルプを表示するには、"?"をクリックします。icon in the upper-right corner of the screen, as shown in the example below.<br /> </td> 
+   <td> コンテキストヘルプ<br /> </td> 
+   <td> さまざまなAdobe Campaign画面で、コンテキストヘルプ機能を使用できるようになりました。 つまり、1回のクリックで、現在使用している機能に関するドキュメントに直接アクセスできます。 コンテキストヘルプを表示するには、'?'をクリックします。 アイコンをクリックします。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Patches {#patches-5}
+### パッチ {#patches-5}
 
-#### General {#general-5}
+#### 一般 {#general-5}
 
-* Marketing Cloud標準に準拠した新しい機能のインターフェイス。
-* 様々なコンボボックスタイプの標準化。
+* Marketing cloudの標準に準拠したさまざまなインターフェイス新機能。
+* さまざまなドロップダウンリストタイプの標準化。
 
-#### Emails and SMS messages {#emails-and-sms-messages-4}
+#### EメールとSMSメッセージ {#emails-and-sms-messages-4}
 
-* エラーアドレスマスクが指定されている場合に電子メールが送信されないエラーを修正しました。
-* TLSプロトコルが電子メール配信でサポートされるようになりました。MX管理の新しい列では、各ドメインに対して目的のTLS動作を定義できます。
+* エラーアドレスマスクが指定された場合に、電子メールの送信を妨げるエラーが修正されました。
+* TLSプロトコルは、Eメール配信に対してサポートされるようになりました。 MX管理の新しい列を使用すると、各ドメインに対して必要なTLS動作を定義できます。
 * SMSインターフェイスが改善されました。
 
-#### Workflows {#workflows-3}
+#### ワークフロー {#workflows-3}
 
-* 様々なワークフローインターフェイスの新機能
-* クイックアクションの表示時に発生するエラーを修正しました。
-* Fixed an error that could cause a workflow to fail when using a **[!UICONTROL Segmentation]** type activity containing a 1-N link.
-* ワークフローのトランジションがハイブリッドデバイスで開かないエラーを修正しました。
-* ワークフローの開始時に一時停止ボタンが表示されないエラーを修正しました。
+* さまざまなワークフローインタフェース新機能
+* クイック操作の表示中に発生したエラーを修正しました。
+* 1-Nリンクを含む型アクティビティを使用する際に、ワークフローが **[!UICONTROL Segmentation]** 失敗する可能性のあるエラーが修正されました。
+* ハイブリッドデバイスでワークフローの移行を開けないエラーが修正されました。
+* ワークフローを初めて開始する際に一時停止ボタンが表示されないエラーが修正されました。
 
-#### Content editor {#content-editor}
+#### コンテンツエディタ {#content-editor}
 
-* コンテンツエディターで、電子メールまたはランディングページに含まれるURLをパーソナライズできるようになりました。Refer to the [detailed documentation](../../designing/using/personalizing-urls.md).
-* 配信の作成ウィザードに追加され、そのコンテンツが後で変更された場合に画像が失われる可能性があるエラーを修正しました。
+* コンテンツエディタで、電子メールまたはランディングページに含まれるURLをカスタマイズできるようになりました。 詳細なドキュメント [を参照します](../../designing/using/personalization.md#personalizing-urls)。
+* 配信の作成ウィザードでイメージを追加し、その後そのコンテンツを変更したときに、イメージが失われる可能性のあるエラーが修正されました。
 
-#### Custom resources {#custom-resources-3}
+#### カスタムリソース {#custom-resources-3}
 
-* カスタムリソースの設定画面にカスタマイズされた1- Nタイプリンクを追加すると発生していたエラーを修正しました。
-* カスタムリソースの準備および公開時のプログレスバーの表示を改善しました。
-* カスタムリソースのリンクリストを表示すると発生していたエラーを修正。
+* カスタムリソースの構成画面で、個人用の1-Nタイプのリンクを追加する際に発生したエラーを修正しました。
+* カスタムリソースの準備と発行時の進行状況バーの表示を改善。
+* カスタムリソースのリンクの一覧を表示中に発生したエラーを修正しました。
 
-#### Transactional messages {#transactional-messages-3}
+#### トランザクションメッセージ {#transactional-messages-3}
 
-* インターフェイスのユーザーフレンドリー性と、トランザクションメッセージエンジンのパフォーマンスと堅牢性が最適化されました。
-* トランザクションメッセージテンプレートの発行を一時的に停止できるようになりました。For more on this, refer to the [detailed documentation](../../channels/using/event-transactional-messages.md#suspending-a-transactional-message-publication).
-* 互換性のないターゲットディメンションを持つコンテンツブロックがトランザクションメッセージテンプレートに追加される可能性があるエラーを修正しました。
-* APIプレビューがイベント設定画面に表示されないエラーを修正しました。
+* トランザクションメッセージエンジンの性能とロバスト性と共に、インタフェイスの使い勝手を最適化した。
+* トランザクションメッセージテンプレートの発行を一時的に中断することができるようになりました。 詳細については、詳細なドキュメントを参照 [してください](../../channels/using/event-transactional-messages.md#suspending-a-transactional-message-publication)。
+* 互換性のないターゲットディメンションを持つコンテンツブロックをトランザクションメッセージテンプレートに追加する原因となる可能性のあるエラーが修正されました。
+* APIプレビューをイベント構成画面に表示できないエラーが修正されました。
 
-#### Audiences and queries {#audiences-and-queries-1}
+#### 対象ユーザーとクエリ {#audiences-and-queries-1}
 
-* クエリーエディターでの日付の使用に関する様々なパッチ。Refer to the [detailed documentation](../../automating/using/editing-queries.md#creating-queries).
+* クエリエディタでの日付の使用に関するさまざまなパッチ。 詳細なドキュメント [を参照します](../../automating/using/editing-queries.md#creating-queries)。
 
-#### Administration {#administration}
+#### 管理 {#administration}
 
-* ユーザーがログインできなかった「標準ユーザー」セキュリティグループの名前に関するエラーを修正しました。
+* ユーザーのログインを妨げた"Standard users"セキュリティグループの名前に関するエラーを修正しました。
 
-## Release 16.3 - March 2016 {#release-16-3---march-2016}
+## リリース16.3 - 2016年3月 {#release-16-3---march-2016}
 
-### New capabilities {#new-capabilities-6}
+### 新機能 {#new-capabilities-6}
 
 <table> 
  <thead> 
   <tr> 
-   <th> Functionality<br /> </th> 
+   <th> 機能<br /> </th> 
    <th> 説明<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Interface and navigation<br /> </td> 
-   <td> Adobe Campaignインターフェイスが改善され、ナビゲーションと操作がシンプルで直感的になりました。<br /> これで、アプリケーションの上部バーから移動できます。The advanced menus are accessible by selecting the <strong>Adobe Campaign</strong> logo.<br /> 詳しくは、 <a href="../../start/using/interface-description.md">詳細なドキュメント</a>を参照してください。<br /> </td> 
+   <td> インタフェースとナビゲーション<br /> </td> 
+   <td> Adobe Campaignインターフェイスが改良され、ナビゲーションと操作が簡単で直感的に行えるようになりました。<br /> 次に、アプリケーションの上部バーから移動します。 高度なメニューは、 <strong>Adobe Campaignロゴを選択することによってアクセスできます</strong> 。<br /> 詳細については、詳細なドキュメントを参照 <a href="../../start/using/interface-description.md">してください</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Workflows: Save audience<br /> </td> 
-   <td> A new option, <span class="uicontrol">Create then update an audience</span> , is now available in the <span class="uicontrol">Save audience</span> activity. このオプションを使用すると、オーディエンスラベルを手動で入力できます。入力したラベルが既存のオーディエンスに対応する場合、そのラベルは更新されます。オーディエンスが存在しない場合は、作成されます。<br /> また、ワークフローが実行されるたびにオーディエンスが更新されます。<br /> オーディエンス更新モードをいつでも選択できます。オーディエンスを新しいデータで入力するか、すべての実行時にオーディエンスデータ全体を置き換えます。<br /> 詳しくは、 <a href="../../automating/using/save-audience.md">詳細なドキュメント</a>を参照してください。<br /> </td> 
+   <td> ワークフロー：対象ユーザーの保存<br /> </td> 
+   <td> 新しいオプション <span class="uicontrol">「作成して対象ユーザーを更新</span> 」が「対象ユーザーの保存」アクティビティで <span class="uicontrol">使用可能になりました</span> 。 このオプションを使用すると、対象ユーザーラベルを手動で入力できます。 入力したラベルが既存の対象ユーザーに対応する場合は、更新されます。 対象ユーザーが存在しない場合は、作成されます。<br /> さらに、ワークフローが再度実行されるたびに、対象ユーザーが更新されます。<br /> 対象ユーザーの更新モードは、常に選択できます。新しいデータを対象ユーザーに入力するか、実行するたびに対象ユーザーのデータ全体を置き換えます。<br /> 詳細については、詳細なドキュメントを参照 <a href="../../automating/using/save-audience.md">してください</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Workflows: Segmentation<br /> </td> 
-   <td> <span class="uicontrol">セグメント</span> 化アクティビティで、ユーザーが一時リソースのデータをセグメント化できるようになりました。次に例を示します。インポートされたファイルのデータ。<br /> 詳しくは、 <a href="../../automating/using/segmentation.md">詳細なドキュメント</a>を参照してください。<br /> </td> 
+   <td> ワークフロー：分割<br /> </td> 
+   <td> セグメ <span class="uicontrol">ンテーション</span> (Segmentation)アクティビティでは、一時的なリソースのデータをセグメント化できます。 例：読み込まれたファイルのデータ。<br /> 詳細については、詳細なドキュメントを参照 <a href="../../automating/using/segmentation.md">してください</a>。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Patches {#patches-6}
+### パッチ {#patches-6}
 
-#### General {#general-6}
+#### 一般 {#general-6}
 
-* リストの並べ替え時に発生する表示エラーを修正しました。列の並べ替え順を示す矢印は、特定の種類のデータでのみ反転できます。
-* クエリにルールが追加されたときにドロップダウンメニューに表示される要素数が制限される問題を修正しました。
+* リストの並べ替え中に発生した表示エラーを修正しました：列の並べ替え順序を示す矢印は、特定の種類のデータに対してのみ反転できます。
+* クエリーに規則が追加されたときに、ドロップダウンメニューに表示される要素の数を制限するエラーが修正されました。
 
-#### Emails and SMS messages {#emails-and-sms-messages-5}
+#### EメールとSMSメッセージ {#emails-and-sms-messages-5}
 
-* 電子メールレンダリングレポートにアクセスできない可能性があるエラーを修正しました。
-* 送信者のアドレスが指定されていない場合、メッセージの送信準備ステージでエラーが返されるようになりました。
+* 電子メールレンダリングレポートへのアクセスを妨げる可能性のあるエラーを修正。
+* 送信者アドレスが指定されていない場合、メッセージの準備送信ステージでエラーが返されるようになりました。
 
-#### Workflows {#workflows-4}
+#### ワークフロー {#workflows-4}
 
-* 特定のファイル形式オプションが表示されましたが、CSV形式ファイルの抽出時に考慮されませんでした。これらのオプションは表示されなくなりました。
-* Fixed an error caused when the **[!UICONTROL Delete the source files after transfer]** option was checked for a **[!UICONTROL SFTP]** type file transfer.
-* Fixed an error that could prevent the counter and preview of **[!UICONTROL Query]** data from being displayed after refreshing the page.
-* ワークフローで特定のトランジション（特に配信アクティビティの後）、またはターゲットとフィルターのディメンションが異なるクエリの後に発生するエラーを修正しました。
-* アクティビティを追加した後にワークフローが保存されなかった場合、ワークフローの配信アクティビティにパーソナライゼーションフィールドが挿入されないエラーを修正しました。
-* 電子メール配信アクティビティのアウトバウンド移行ターゲットディメンションが表示されないエラーを修正しました。
+* CSV形式のファイルを抽出したときに、特定のファイル形式のオプションが表示されましたが、考慮されませんでした。 これらのオプションは、現在は表示されません。
+* タイプファイルの転送に関するオ **[!UICONTROL Delete the source files after transfer]** プションのチェック時に発生したエ **[!UICONTROL SFTP]** ラーを修正しました。
+* ページの更新後にカウンタとデータのプレビューが表示されな **[!UICONTROL Query]** い可能性のあるエラーが修正されました。
+* 特に、ターゲット化とフィルタリングの次元が異なる配信アクティビティまたはクエリの後に、ワークフローで特定の遷移を開くことによって発生したエラーが修正されました。
+* アクティビティの追加後にワークフローが保存されなかった場合に、個人用設定フィールドをワークフローの配信アクティビティに挿入できないエラーが修正されました。
+* 電子メール配信活動の送信遷移ターゲット分析コードを表示できないエラーが修正されました。
 
-#### Landing pages {#landing-pages-2}
+#### ランディングページ {#landing-pages-2}
 
-* ランディングページのローカライズ可能なコンテンツブロックでパーソナライゼーションフィールドが正しく機能しないエラーを修正しました。
+* ランディングページのローカライズ可能なコンテンツブロックで個人用設定フィールドが正しく機能しないエラーが修正されました。
 
-#### Custom resources {#custom-resources-4}
+#### カスタムリソース {#custom-resources-4}
 
-* Fixed an error that prevented a search on a custom resource from being carried out if the **[!UICONTROL Add search fields]** option of the resource screen definition was checked and if several fields were selected in the **[!UICONTROL Filter zone composition]** .
+* リソース画面定義のオプションがオンになっていて、で複数のフィールドが選択されている場合に、カスタムリソースの検索を実行できな **[!UICONTROL Add search fields]** いエラーが修正されまし **[!UICONTROL Filter zone composition]** た。
 
-## Release 16.2 - February 2016 {#release-16-2---february-2016}
+## リリース16.2 - 2016年2月 {#release-16-2---february-2016}
 
-### New capabilities {#new-capabilities-7}
+### 新機能 {#new-capabilities-7}
 
 <table> 
  <thead> 
   <tr> 
-   <th> Functionality<br /> </th> 
+   <th> 機能<br /> </th> 
    <th> 説明<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> A/B test for emails<br /> </td> 
-   <td> コンテンツ、件名または送信者の名前に対してA/Bテストを実行できるようになりました。この新機能では、最大3つの要素をテストできます。<br /> A/Bテストに固有の新しいテンプレートから電子メールを作成する場合、作成ウィザードの新しい手順によって、テストのパラメーターを定義できます。<br /> 詳しくは、 <a href="../../channels/using/designing-an-a-b-test-email.md">詳細なドキュメント</a>を参照してください。<br /> </td> 
+   <td> EメールのA/Bテスト<br /> </td> 
+   <td> Eメールの内容、件名、または送信者の名前に関するA/Bテストを実行できるようになりました。 この新しい機能は、1つの要素の3つまでのバリエーションをテストできます。<br /> A/Bテストに固有の新しいテンプレートの1つから電子メールを作成する場合、作成ウィザードの新しい手順でテストのパラメータを定義できます。<br /> 詳細については、詳細なドキュメントを参照 <a href="../../channels/using/designing-an-a-b-test-email.md">してください</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Brand management<br /> </td> 
-   <td> ブランドのIDに影響を与えるパラメーターを一元的に入力するため、1つまたは複数のブランドを定義できるようになりました。Adobe Campaignでは、これらのブランドを作成して、配信またはランディングページテンプレートにリンクできます。<br /> 詳しくは、 <a href="../../administration/using/branding.md#assigning-a-brand-to-an-email">詳細なドキュメント</a>を参照してください。<br /> </td> 
+   <td> ブランド管理<br /> </td> 
+   <td> 1つまたは複数のブランドを定義して、ブランドのアイデンティティに影響を与えるパラメータを一元的に入力できます。 Adobe Campaignでは、これらのブランドを作成し、配信またはランディング·ページ·テンプレートにリンクできます。<br /> 詳細については、詳細なドキュメントを参照 <a href="../../administration/using/branding.md#assigning-a-brand-to-an-email">してください</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Workflows: Incremental query<br /> </td> 
-   <td> A new workflow activity, <span class="uicontrol">Incremental query</span> , allows you to carry out a query which, on every execution, targets only the new results. 以前の実行の結果は自動的に除外されます。<span class="uicontrol">スケジューラー</span> アクティビティにリンクして、 <span class="uicontrol">増分クエリーの実行頻度を定義</span> できます。<br /> 詳しくは、 <a href="../../automating/using/incremental-query.md">詳細なドキュメント</a>を参照してください。<br /> </td> 
+   <td> ワークフロー：増分クエリ<br /> </td> 
+   <td> 新しいワークフロー·アクティビティ <span class="uicontrol">「Incremental query</span> 」を使用すると、すべての実行で新しい結果のみを対象とするクエリを実行できます。 以前の実行の結果は自動的に除外されます。 スケジューラ·ア <span class="uicontrol">クティビティ</span> にリンクされている場合は、増分クエリの実行頻度を定義 <span class="uicontrol">できます</span> 。<br /> 詳細については、詳細なドキュメントを参照 <a href="../../automating/using/incremental-query.md">してください</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Transactional messages<br /> </td> 
-   <td> トランザクションメッセージインターフェイスのユーザーフレンドリー性が向上しました。All business process management linked to transactional messages is currently centralized in the <span class="uicontrol">Marketing plans</span> &gt; <span class="uicontrol">Transactional messages</span> menu. イベント設定も改善されました。イベントは、カスタムリソースから独立して管理されるようになりました。<br /> 詳しくは、 <a href="../../channels/using/about-transactional-messaging.md">詳細なドキュメント</a>を参照してください。<br /> </td> 
+   <td> トランザクションメッセージ<br /> </td> 
+   <td> トランザクションメッセージインタフェースの使い勝手が向上しました。 トランザクション·メッセージにリンクされたすべてのビジネス·プロセス管理は、現在、「 <span class="uicontrol">Marketing plans</span> 」&gt;「 <span class="uicontrol">Transactional messages</span> 」メニューに集中しています。 イベントの構成も改善されました。 イベントは、カスタムリソースとは独立して管理されるようになりました。<br /> 詳細については、詳細なドキュメントを参照 <a href="../../channels/using/about-transactional-messaging.md">してください</a>。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Patches {#patches-7}
+### パッチ {#patches-7}
 
-#### General {#general-7}
+#### 一般 {#general-7}
 
-* レポート、リストおよびクエリのいくつかの表示エラーを修正しました。
-* いくつかの互換性を修正し、モバイルデバイスでエラーを表示しました。
+* レポート、リスト、およびクエリの表示エラーがいくつか修正されました。
+* モバイルデバイスの互換性と表示エラーを修正。
 
-#### Emails and SMS messages {#emails-and-sms-messages-6}
+#### EメールとSMSメッセージ {#emails-and-sms-messages-6}
 
-* メッセージ（電子メールまたはSMS）の作成時に、パーソナライゼーションフィールドを挿入するために使用されるボタンを使用できない可能性があるエラーを修正しました。
-* MブロXによって送信されたSMSメッセージが正しく送信されない可能性があるエラーを修正しました。
+* メッセージ（電子メールまたはSMS）の作成時に個人用設定フィールドの挿入に使用するボタンが表示されない可能性のあるエラーが修正されました。
+* Mblox経由で送信されたSMSメッセージが正しく送信されない可能性のあるエラーが修正されました。
 
-#### Audiences and queries {#audiences-and-queries-2}
+#### 対象ユーザーとクエリ {#audiences-and-queries-2}
 
-* フィルタリングディメンションを変更した後、クエリに追加の条件を追加すると発生する可能性があったカウントエラーを修正しました。
-* クエリの結果をプレビューすると誤ったページ番号付けが発生する可能性があるエラーを修正しました。
+* フィルタリング次元を変更した後に、クエリに条件を追加する際に発生するカウントエラーを修正しました。
+* クエリの結果をプレビューする際に、誤ったページ区切りが発生する可能性のあるエラーが修正されました。
 
-#### Content editing {#content-editing-1}
+#### コンテンツの編集 {#content-editing-1}
 
-* パーソナライズされた列挙を使用すると動的コンテンツの設定が正しく考慮されない可能性があるエラーを修正しました。
+* 個人用列挙を使用する際に、動的コンテンツ構成が正しく考慮されない可能性のあるエラーが修正されました。
 
-#### Workflows {#workflows-5}
+#### ワークフロー {#workflows-5}
 
-* Fixed an error that could prevent any action in a workflow from being carried out if there was an empty line in the **[!UICONTROL Fields to update]** tab of an **[!UICONTROL Update data]** activity.
-* 地理的/組織単位の情報を含むデータをインポートできないエラーを修正しました。
-* Fixed an error caused by adding a **[!UICONTROL Change axis]** type of **[!UICONTROL Exclusion]** rule.
-* **[!UICONTROL Segmentation]** アクティビティのアウトバウンドトランジションを操作すると、不要な追加セグメントが作成される可能性があるエラーを修正しました。
-* ワークフローテンプレートでファイルを読み込むとエラーが発生する問題を修正しました。
-* **[!UICONTROL Load file]** アクティビティの列区切り文字としてスペースが使用されない可能性があるエラーを修正しました。
+* アクティビティのタブに空の行がある場合に、ワークフロー内のアクションが実行されない可能性のあるエ **[!UICONTROL Fields to update]** ラーを修正し **[!UICONTROL Update data]** ました。
+* 地理/組織単位情報を含むデータをインポートできないエラーが修正されました。
+* ルールの種類の追加によって発生したエ **[!UICONTROL Change axis]** ラーを修正 **[!UICONTROL Exclusion]** しました。
+* アクティビティの外部遷移を操作する際に、不要な追加セグメントが作成される可能性のあるエラーが修正さ **[!UICONTROL Segmentation]** れました。
+* ワークフローテンプレートにファイルを読み込む際に発生したエラーを修正しました。
+* アクティビティの列区切りとしてスペースが使用されない可能性のあるエラーを修正 **[!UICONTROL Load file]** しました。
 
-#### Custom resources {#custom-resources-5}
+#### カスタムリソース {#custom-resources-5}
 
-* 書き出し時にリソースが公開されている場合に、パッケージをインポートした後にカスタムリソースのステータスが再ドラフト化されないエラーを修正しました。
+* エクスポート時にリソースが発行された場合に、パッケージのインポート後にカスタムリソースのステータスが再ドラフトされないエラーが修正されました。
 
-#### Packages {#packages}
+#### パッケージ {#packages}
 
-* ワークフローを含むパッケージをエクスポートできないエラーを修正しました。
-* 同じリソースの複数の要素を選択できない可能性があるエラーを修正しました。
+* ワークフローを含むパッケージをエクスポートできないエラーが修正されました。
+* 同じリソースの複数の要素が選択されない可能性のあるエラーを修正しました。
 
-## Release 16.1 - January 2016 {#release-16-1---january-2016}
+## リリース16.1 - 2016年1月 {#release-16-1---january-2016}
 
-### New capabilities {#new-capabilities-8}
+### 新機能 {#new-capabilities-8}
 
 <table> 
  <thead> 
   <tr> 
-   <th> Functionality<br /> </th> 
+   <th> 機能<br /> </th> 
    <th> 説明<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Reports<br /> </td> 
-   <td> The following email specific reports have been added: <span class="uicontrol">Complaints</span> , <span class="uicontrol">Opens</span> , and <span class="uicontrol">Unsubscriptions</span> .<br /> 次のレポートが改善されました。 <span class="uicontrol">配信サマリ</span> 、 <span class="uicontrol">バウンスサマリ</span> 、 <span class="uicontrol">配信スループット</span> および <span class="uicontrol">トラッキングインジケータ</span> 。<br /> 詳しくは、 <a href="../../reporting/using/defining-the-report-period.md">詳細なドキュメント</a>を参照してください。<br /> </td> 
+   <td> レポート<br /> </td> 
+   <td> 次の電子メール固有のレポートが追加されました：苦情 <span class="uicontrol">、開</span> く <span class="uicontrol">、購読</span> 取り消し <span class="uicontrol"></span> 。<br /> 次のレポートが改善されました。配信要約 <span class="uicontrol">、バウンス要</span> 約 <span class="uicontrol">、配信スル</span> ープット <span class="uicontrol">、追跡指標</span> 、およ <span class="uicontrol"></span> び追跡指標。<br /> 詳細については、詳細なドキュメントを参照 <a href="../../reporting/using/defining-the-report-period.md">してください</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Query editing<br /> </td> 
-   <td> The query editor has been improved and now allows you to scan the <strong>1-N</strong> type links.<br /> 詳しくは、 <a href="../../automating/using/editing-queries.md#creating-queries">詳細なドキュメント</a>を参照してください。<br /> </td> 
+   <td> クエリの編集<br /> </td> 
+   <td> クエリエディタが改良され、 <strong>1-N型のリンクをスキャンできるようになりました</strong> 。<br /> 詳細については、詳細なドキュメントを参照 <a href="../../automating/using/editing-queries.md#creating-queries">してください</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Content personalization<br /> </td> 
-   <td> As for email or landing page editing, the input interface for content block display conditions has been improved.<br /> </td> 
+   <td> コンテンツのパーソナライズ<br /> </td> 
+   <td> E-メールやランディング·ページの編集に関しては、コンテンツ·ブロック表示条件の入力インタフェースが改善されました。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Workflows: column definition when importing<br /> </td> 
-   <td> <span class="uicontrol">読み込みファイル</span> アクティビティでは、インポートしたファイルの列を詳細に設定できます。データタイプ、日付と時間の形式、空の値またはエラーの場合に適用する処理、および値の再マッピング。<br /> 詳しくは、 <a href="../../automating/using/load-file.md#column-format">詳細なドキュメント</a>を参照してください。<br /> </td> 
+   <td> ワークフロー：インポート時の列定義<br /> </td> 
+   <td> 「 <span class="uicontrol">Load file</span> 」アクティビティで、インポートしたファイルの列を詳細に構成できるようになりました。必要なデータ型、日付と時刻の形式、空の値またはエラーの場合に適用する処理、および値の再マッピング。<br /> 詳細については、詳細なドキュメントを参照 <a href="../../automating/using/load-file.md#column-format">してください</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Mapping of SMS encodings<br /> </td> 
-   <td> 標準エンコーディングを使用しないプロバイダー向けにパーソナライズされたSMSメッセージのエンコーディングのマッピングを定義できるようになりました。管理者はパーソナライズされたマッピングの設定を実行し、考慮されるべき順序を定義できます。<br /> 詳しくは、 <a href="../../administration/using/configuring-sms-channel.md#smsc-specifics">詳細なドキュメント</a>を参照してください。<br /> </td> 
+   <td> SMSエンコードのマッピング<br /> </td> 
+   <td> プロバイダが標準のエンコーディングを使用しない場合に、カスタマイズされたSMSメッセージのエンコーディングのマッピングを定義できるようになりました。 管理者は、パーソナライズされたマッピングの構成を実行し、それらを考慮する順序を定義できます。<br /> 詳細については、詳細なドキュメントを参照 <a href="../../administration/using/configuring-sms-channel.md#smsc-specifics">してください</a>。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Patches {#patches-8}
+### パッチ {#patches-8}
 
-#### General {#general-8}
+#### 一般 {#general-8}
 
-* ハイブリッド/タッチスクリーンデバイスのInternet ExplorerおよびChromeとの互換性が改善されました。
-* 指定された電子メールアドレスに構文エラーが含まれている場合に、新しいユーザー/プロファイル/テストプロファイルに入力されたすべてのデータが失われる可能性があるエラーを修正しました。
+* ハイブリッド/タッチスクリーンデバイス用のInternet ExplorerおよびChromeとの互換性が向上しました。
+* 指定された電子メールアドレスに構文エラーが含まれている場合、新しいユーザー/プロファイル/テストプロファイルに対して入力されたすべてのデータが失われる可能性のあるエラーが修正されました。
 
-#### Emails and SMS messages {#emails-and-sms-messages-7}
+#### EメールとSMSメッセージ {#emails-and-sms-messages-7}
 
-* 電子メールプレビュー画面でコンテンツサムネールが生成されない可能性があるエラーを修正しました。
-* メッセージの生コンテンツ（電子メールまたはSMS）がメッセージプレビュー画面に表示されない可能性があるエラーを修正しました。
+* 電子メールのプレビュー画面でコンテンツのサムネイルが生成されない可能性のあるエラーが修正されました。
+* メッセージの生の内容（電子メールまたはSMS）がメッセージのプレビュー画面に表示されない可能性のあるエラーが修正されました。
 
-#### Audiences and queries {#audiences-and-queries-3}
+#### 対象ユーザーとクエリ {#audiences-and-queries-3}
 
-* Fixed an error that could prevent a **Query** type audience from being created in the **Service** resource.
-* アドバンスモードでクエリの条件を編集すると、関数リストが正しく表示されない可能性があるエラーを修正しました。
-* Fixed an error that could prevent a **Query** type audience from being created if it contained criteria based on collections.
-* 配信KPIのフィルターを含むクエリが作成されない可能性があるエラーを修正しました。
-* ワークフローから作成されたオーディエンスのコンテンツがプレビューされない可能性があるエラーを修正しました。
+* クエリの種類の対象ユーザーが **Service** リソースに作成されない可能性のあるエラーが修正さ **れました** 。
+* 詳細モードでクエリの条件を編集する際に、関数リストが正しく表示されない可能性のあるエラーが修正されました。
+* コレクションに基づく条件が含まれている **Query** typeの対象ユーザーが作成されない可能性のあるエラーが修正されました。
+* 配信KPIのフィルタを含むクエリが作成されない可能性のあるエラーが修正されました。
+* ワークフローから作成された対象ユーザーのコンテンツをプレビューできない可能性のあるエラーが修正されました。
 
-#### Custom resources {#custom-resources-6}
+#### カスタムリソース {#custom-resources-6}
 
-* カスタムリソースにデフォルト値のあるフィールドが含まれている場合にサーバーがクラッシュする可能性があるエラーを修正しました。
-* Fixed an error caused by moving, then deleting an element in the **[!UICONTROL Detail screen configuration]** section while defining screens of a custom resource.
-* Fixed an error that occurred when a default value had been defined for an **integer** list that did not include **0** in its range of possible values.
-* 再初期化後に、カスタムリソースの詳細画面設定に要素が追加されない可能性があるエラーを修正しました。
+* カスタムリソースに動的な既定値を持つフィールドが含まれている場合に、サーバーのクラッシュを引き起こす可能性のあるエラーを修正しました。
+* カスタムリソースの画面を定義しながら、セクション内の要素を削除し、移動 **[!UICONTROL Detail screen configuration]** によって発生するエラーを修正しました。
+* 指定可能な値の範囲に **0****** を含まない整数リストに対して既定値が定義されたときに発生したエラーを修正しました。
+* 再初期化後にカスタムリソースの詳細画面構成に要素が追加されない可能性のあるエラーが修正されました。
 
-#### Workflows {#workflows-6}
+#### ワークフロー {#workflows-6}
 
-* 選択したアクティビティの表示のみではなく、ワークフロー内のすべてのアクティビティのログが表示される可能性があるエラーを修正しました。
-* **[!UICONTROL Scheduler]** アクティビティのエラーを修正しました。**[!UICONTROL Day of the month]** このオプションは、アカウントに正しく反映されず、置き換え **[!UICONTROL Week day]** られました。
-* Fixed an error that could prevent a **[!UICONTROL Scheduler]** activity from working correctly with the expiration mode set to **[!UICONTROL After a certain number of iterations]** .
-* **[!UICONTROL Extract file]** アクティビティを使用してデータをエクスポートする際に発生するエラーを修正しました。エクスポートファイルに存在する行数が、書き出された要素の数よりも劣っていました。
-* **[!UICONTROL Load file]** アクティビティのファイルが選択されない可能性があるエラーを修正しました。
-* **[!UICONTROL Update data]** アクティビティで更新されるフィールドが削除されないエラーを修正しました。
-* ワークフロー実行ログを開いた後、ワークフローに対する変更を保存できないエラーを修正しました。
-* Fixed an error that caused a **[!UICONTROL Load file]** activity to be executed twice if it was configured to use the file from its inbound transition and this file had been loaded using a **[!UICONTROL Transfer file]** activity.
-* Fixed an error that could prevent certain temporary entities from being correctly processed by an **Exclusion** activity.
-* Fixed an error that could prevent a **[!UICONTROL Query]** activity from being executed correctly if the targeting dimension and the filtering dimension configured in the activity were different.
-* Fixed an error concerning the automatic naming of outbound transitions added to a **[!UICONTROL Fork]** activity that could prevent the workflow from being saved.
+* 選択したアクティビティのログのみを表示する代わりに、ワークフロー内のすべてのアクティビティのログを表示する原因となるエラーが修正されました。
+* アクティビティのエラーを修正 **[!UICONTROL Scheduler]** しました。 オプション **[!UICONTROL Day of the month]** は正しく考慮されず、に置き換えられまし **[!UICONTROL Week day]** た。
+* 有効期限モードがに設定されている場合に、ア **[!UICONTROL Scheduler]** クティビティが正しく動作しない可能性のあるエラーが修正されま **[!UICONTROL After a certain number of iterations]** した。
+* アクティビティを使用してデータをエクスポートする際に発生したエラーを修 **[!UICONTROL Extract file]** 正しました。 書き出しファイル内の行数は、書き出した要素の数よりも少なかった。
+* アクティビティ内のファイルが選択されない可能 **[!UICONTROL Load file]** 性のあるエラーを修正。
+* アクティビティ内で更新されるフィールドを削除できないエ **[!UICONTROL Update data]** ラーが修正されました。
+* ワークフロー実行ログを開いた後に、ワークフローに加えられた変更が保存されないようにするエラーが修正されました。
+* 受信遷移のファイルを使用するよ **[!UICONTROL Load file]** うに構成され、このファイルがアクティビティを使用して読み込まれた場合に、アクティビティが2回実行されるエラーが修正さ **[!UICONTROL Transfer file]** れました。
+* 特定の一時エンティティが除外アクティビティで正しく処理されない可能性のあるエラーが修 **正され** ました。
+* ターゲットディメンションとアクティビティで構成 **[!UICONTROL Query]** されたフィルタリングディメンションが異なる場合に、アクティビティが正しく実行されない可能性のあるエラーが修正されました。
+* ワークフローの保存を妨げる可能性のあるアクティビティに追加された **[!UICONTROL Fork]** 送信遷移の自動命名に関するエラーを修正しました。
 
-#### Content editing {#content-editing-2}
+#### コンテンツの編集 {#content-editing-2}
 
-* コンテンツ編集時にアイコンまたは検索バーの表示が望ましくないというエラーを修正。
+* コンテンツの編集中に、アイコンや検索バーが不適切に表示される可能性があるエラーが修正されました。
 
-#### Landing pages {#landing-pages-3}
+#### ランディングページ {#landing-pages-3}
 
-* パッケージインポートを使用してランディングページをインポートできないエラーを修正しました。
+* パッケージのインポートを使用してランディングページをインポートできないエラーが修正されました。
 
-#### Transactional messages {#transactional-messages-4}
+#### トランザクションメッセージ {#transactional-messages-4}
 
-* Message Centerプッシュエージェントオペレーターのセキュリティパラメーターで信頼できるIPアドレスを指定できるようになりました。
-* 新しいタイプのイベントが作成されない可能性があるエラーを修正しました。
+* Message Center Push Agentオペレータのセキュリティ·パラメータに、信頼されたIPアドレスを指定できるようになりました。
+* 新しい種類のイベントの作成を妨げる可能性のあるエラーを修正しました。
 
-## Release 15.11 - November 2015 {#release-15-11---november-2015}
+## リリース15.11 - 2015年11月 {#release-15-11---november-2015}
 
-### New capabilities {#new-capabilities-9}
+### 新機能 {#new-capabilities-9}
 
 <table> 
  <thead> 
   <tr> 
-   <th> Functionality<br /> </th> 
+   <th> 機能<br /> </th> 
    <th> 説明<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> SMS Channel<br /> </td> 
-   <td> Adobe CampaignでSMSメッセージを送信できるようになりました。<br /> 電子メールの場合と同様に、キャンペーンおよびマーケティングアクティビティのリストから新しいSMS配信を作成できます。ワークフローから単一の送信および定期的なSMSメッセージを作成することもできます。<br /> これらのSMS配信は、配信テンプレートのリストから設定できるテンプレートに基づいています。デフォルトのテンプレートを使用できます。<br /> これらのSMS配信は、ほとんどのSMSルーターで使用されるSMPP3.4プロトコルを使用します。<br /> 詳しくは、 <a href="../../channels/using/about-sms-messages.md">詳細なドキュメント</a>を参照してください。<br /> </td> 
+   <td> SMSチャネル<br /> </td> 
+   <td> これで、Adobe CampaignでSMSメッセージを送信できるようになりました。<br /> Eメールと同様に、キャンペーンやマーケティング活動のリストから新しいSMS配信を作成できます。 ワークフローから、1回の送信メッセージと定期的なSMSメッセージを作成することもできます。<br /> これらのSMS配信は、配信テンプレートのリストから構成できるテンプレートに基づいています。 既定のテンプレートを使用できます。<br /> これらのSMS配信は、ほとんどのSMSルータで使用されるSMPP 3.4プロトコルを使用します。<br /> 詳細については、詳細なドキュメントを参照 <a href="../../channels/using/about-sms-messages.md">してください</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Exploring transitions<br /> </td> 
-   <td> ワークフローの最後の移行でデータとその構造を確認できるようになりました。This allows you to check that the processes applied by each activity correspond to your needs.<br /> </td> 
+   <td> 遷移の表示<br /> </td> 
+   <td> ワークフローの最後の移行で、データとその構造を確認できるようになりました。 これにより、各アクティビティが適用するプロセスがニーズに対応しているかどうかを確認できます。<br /> </td> 
   </tr> 
   <tr> 
-   <td> File pre- and post-processing in workflows<br /> </td> 
-   <td> <span class="uicontrol">読み込みファイル</span> を使用して読み込み、ファイル <span class="uicontrol"></span> アクティビティを抽出する際に、データファイルに追加の処理を実行できるようになりました。<br /> デフォルトでは、これらのアクティビティでGZIP形式のファイルを解凍したりzip形式で圧縮したりできます。<br /> 詳しくは <a href="../../automating/using/load-file.md">、ファイルの読み込み</a> および <a href="../../automating/using/extract-file.md">ファイル</a> アクティビティの抽出に関するドキュメントを参照してください。<br /> </td> 
+   <td> ワークフローでのファイルの前処理と後処理<br /> </td> 
+   <td> ファイルの読み込み/書き出しを行う際に、ファイルの読み込み/書き出しを行うときに、データファイルに対して追加の処理を行うこ <span class="uicontrol">とができる</span> ( <span class="uicontrol"></span> Load file/ファイルの抽出)。<br /> デフォルトでは、これらのアクティビティでGZIP形式のファイルを解凍および圧縮できます。<br /> 詳細については、「ファイルのロード」および「ファイルの抽出」アクテ <a href="../../automating/using/load-file.md">ィビティに関するドキュメ</a> ントを参照してください <a href="../../automating/using/extract-file.md"></a> 。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Deliverability reports<br /> </td> 
-   <td> 電子メールのレンダリングレポートが利用できるようになりました。このレポートでは、サポートされているサポートおよびメッセージサービスに従って、メッセージの様々なレンダリングを表示できます。<br /> レポートの概要には、受信したメッセージ、スパムメッセージ、受信されないメッセージ、受信待ちメッセージの数も表示されます。<br /> 詳しくは、 <a href="../../sending/using/email-rendering.md#email-rendering-report-description">詳細なドキュメント</a>を参照してください。<br /> </td> 
+   <td> 配信可能性レポート<br /> </td> 
+   <td> これで、電子メールレンダリングレポートが使用可能になりました。 このレポートでは、メッセージの読み取りに使用したサポートとメッセージサービスに従って、メッセージのさまざまなレンダリングを表示できます。<br /> また、レポートの概要には、受信したメッセージの数、スパムメッセージ、未受信メッセージ、および受信待ちメッセージも表示されます。<br /> 詳細については、詳細なドキュメントを参照 <a href="../../sending/using/email-rendering.md#email-rendering-report-description">してください</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Package Management<br /> </td> 
-   <td> It is now possible to import and export images in packages.<br /> </td> 
+   <td> パッケージ管理<br /> </td> 
+   <td> パッケージ内のイメージをインポートおよびエクスポートできるようになりました。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Quick actions<br /> </td> 
-   <td> 特定のアクションが表示されるのは、リストまたはワークフローで要素を選択した後またはその後にマウスポインターを置いたときです。これらのアクションの一部は、アクセスを容易にするために関係する要素の周りにアイコンとして表示されるようになりました。These quick actions can be used to duplicate an element, delete it, show the detail, etc.<br /> </td> 
+   <td> クイック操作<br /> </td> 
+   <td> リストまたはワークフロー内の要素を選択した後、または上にカーソルを置くと、特定のアクションが表示されます。 これらのアクションの一部は、アクセスを容易にするために、関連する要素の周りにアイコンとして表示されます。 これらのクイック操作を使用して、要素の複製、削除、詳細の表示などを行うことができます。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Patches {#patches-9}
+### パッチ {#patches-9}
 
-#### General {#general-9}
+#### 一般 {#general-9}
 
-* 管理者アカウントからインスタンスの一般パラメーターにアクセスできない可能性があるエラーを修正しました。
-* **現在は、フローティング** データがカスタムリソースで正しく考慮されます。
-* 対応するテンプレートのステータスが変更された場合に発生していた、実行されたシンプルなインポートのリストの表示エラーを修正しました。
+* 管理者アカウントからインスタンスの一般パラメータにアクセスできない可能性のあるエラーが修正されました。
+* **カスタム** ·リソースでは、フローティング·データが正しく考慮されるようになりました。
+* 対応するテンプレートの状態が変更されたときに発生した、実行された簡易インポートの一覧の表示エラーを修正しました。
 
-#### Landing pages {#landing-pages-4}
+#### ランディングページ {#landing-pages-4}
 
-* 英語インスタンスのフランス語で誤って表示される可能性のあるランディングページテンプレートの一部の要素を修正しました。
+* 英語のインスタンスでフランス語で誤って表示される可能性のあるランディングページテンプレートの特定の要素を修正。
 
 #### Audiences {#audiences}
 
-* Adobe Marketing Cloudからインポートしたオーディエンスがオーディエンスのリストに表示されない可能性があるエラーを修正しました。
-* クエリを定義する際に大文字と小文字が区別される可能性があるエラーを修正しました。
-* クエリを定義する際にオーディエンスがフィルターされない可能性があるエラーを修正しました。
-* オーディエンスでアクションがキャンセルされない可能性があるエラーを修正しました。
+* Adobe Marketing cloudから読み込まれたユーザーが対象ユーザーのリストに表示されない可能性のあるエラーが修正されました。
+* クエリを定義する際に、大文字と小文字を区別する可能性のあるエラーを修正しました。
+* クエリの定義時に対象ユーザーがフィルタ処理されない可能性のあるエラーが修正されました。
+* 対象ユーザーでの操作の取り消しを防ぐエラーが修正されました。
 
-#### Workflows {#workflows-7}
+#### ワークフロー {#workflows-7}
 
-* **[!UICONTROL Update data]** アクティビティの更新されたフィールドが手動で設定されない可能性があるエラーを修正しました。
-* Fixed an error that could cause the **[!UICONTROL Query]** activity to load infinitely when opened if the workflow had not been saved after having placed the activity in the diagram.
-* Fixed an error that could cause the server to stop while counting or previewing an audience selected from a **[!UICONTROL Query]** in a workflow.
-* ワークフローのアクティビティが開いたときに表示される重大でないエラーを修正しました。
-* Fixed an error that prevented a **[!UICONTROL Scheduler]** activity from being configured to execute a workflow several times a day.
-* 特定のワークフローアクティビティにクエリを実行できないフィールドが発生する可能性があるエラーを修正しました。
-* Fixed an error that could prevent the user from locating the KPIs added from a **[!UICONTROL Query]** on deliveries in the outbound transition.
-* ファイルをワークフローにインポートした後、ファイルのオーディエンスが作成されない可能性があるエラーを修正しました。
-* Fixed an error that could prevent data from being updated on profiles if the **location/address3** field of the resource was used.
-* ワークフローで、モデレートのモデレートが不可能になるエラーを修正しました。
-* SQLを表示できないエラーを修正しました。これにより、ワークフローでの定期的な配信のエラーが発生する可能性がありました。
+* アクティビティで更新されるフィールドが手動で構成されない可能性がある **[!UICONTROL Update data]** エラーが修正されました。
+* 図にアクティビティを配置した後にワークフ **[!UICONTROL Query]** ローが保存されていない場合に、開いたときにアクティビティが無限に読み込まれる可能性のあるエラーが修正されました。
+* ワークフロー内のから選択した対象ユーザーの数を数えてプレビュー中に、サーバーが停止する可能性のあるエ **[!UICONTROL Query]** ラーが修正されました。
+* ワークフロー内のアクティビティが開かれたときに表示される、重大でないエラーを修正しました。
+* 1日に何回かワークフローを実行す **[!UICONTROL Scheduler]** るようにアクティビティを構成できないエラーが修正されました。
+* 特定のワークフローアクティビティでクエリを実行できないフィールドを表示する原因となるエラーが修正されました。
+* 送信遷移の送信時に、ユーザーが送信時の配信から追加されたKPIを特定できな **[!UICONTROL Query]** い可能性のあるエラーが修正されました。
+* ファイルをワークフローにインポートした後に、ファイルの対象ユーザーが作成されない可能性のあるエラーが修正されました。
+* リソースのlocation/address3フィールドを使用した場合に、プロファイルのデ **ータが更新されない可能性のあるエラーが修正されました** 。
+* 異種のアクティビティの集まりがワークフロー内で重複しないようにするエラーが修正されました。
+* SQLの表示を妨げるエラーが修正され、ワークフローで繰り返し配信される際にエラーを診断できるようになりました。
 
-#### Content editor {#content-editor-1}
+#### コンテンツエディタ {#content-editor-1}
 
-* ランディングページまたは電子メールのソースコードで検索が不可能になるエラーを修正しました。
+* ランディング·ページまたは電子メールのソース·コードでの検索が不可能なエラーが修正されました。
 
-#### Packages {#packages-1}
+#### パッケージ {#packages-1}
 
-* 特定のタイプの要素をパッケージ（特にランディングページ、ワークフロー）にエクスポートできない可能性がある様々なエラーを修正。
-* ラベルが変更された場合に以前のパッケージインポートラベルが表示される原因となっていたエラーを修正。
-* 互換性のないリソースがエクスポート可能なリソースのリストに表示される可能性があるエラーを修正しました。
+* 特定のタイプの要素がパッケージ（特にランディング·ページ、ワークフロー）に書き出されないようなさまざまなエラーが修正されました。
+* ラベルが変更された場合に、以前のパッケージインポートラベルが表示されるエラーが修正されました。
+* エクスポート可能なリソースの一覧に互換性のないリソースが表示される原因となる可能性のあるエラーが修正されました。
 
-## Release 15.10 - October 2015 {#release-15-10---october-2015-}
+## リリース15.10 - 2015年10月 {#release-15-10---october-2015-}
 
-### New capabilities {#new-capabilities-10}
+### 新機能 {#new-capabilities-10}
 
 <table> 
  <thead> 
   <tr> 
-   <th> Functionality<br /> </th> 
+   <th> 機能<br /> </th> 
    <th> 説明<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Workflows: Deduplication activity<br /> </td> 
-   <td> データの重複排除専用の新しいアクティビティがワークフローで使用できるようになりました。このアクティビティにより、選択した条件に従ってターゲット内の重複をフィルターできます。<br /> 詳しくは、 <a href="../../automating/using/deduplication.md">詳細なドキュメント</a>を参照してください。<br /> </td> 
+   <td> ワークフロー：重複除外アクティビティ<br /> </td> 
+   <td> データの重複除外専用の新しいアクティビティが、ワークフローで使用できるようになりました。 このアクティビティを使用すると、選択した基準に従ってターゲット内の重複をフィルタできます。<br /> 詳細については、詳細なドキュメントを参照 <a href="../../automating/using/deduplication.md">してください</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Workflows: Improved diagram<br /> </td> 
-   <td> ワークフローワークスペースから、複数のキーボードショートカットを使用して、アクティビティを選択、開く、削除できるようになりました。<br /> アクティビティの配置も改善され、ワークフローが視覚的に整理されるようになりました。<br /> 詳しくは、 <a href="../../automating/using/workflow-interface.md#workspace">詳細なドキュメント</a>を参照してください。<br /> </td> 
+   <td> ワークフロー：図の改良<br /> </td> 
+   <td> ワークフローワークスペースから、複数のキーボードショートカットを使用して、アクティビティを選択、開く、および削除できるようになりました。<br /> また、アクティビティの配置も改善され、ワークフローを視覚的に整理できるようになりました。<br /> 詳細については、詳細なドキュメントを参照 <a href="../../automating/using/workflow-interface.md#workspace">してください</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Workflows: Extract file activity<br /> </td> 
-   <td> The date and time of the export is now automatically added to the labels of the files exported using an <span class="uicontrol">Extract file</span> activity. This way the files generated are unique.<br /> </td> 
+   <td> ワークフロー：ファイルのアクティビティの抽出<br /> </td> 
+   <td> 書き出しの日時が、 <span class="uicontrol">Extract file</span> （ファイルの抽出）アクティビティを使用して書き出されたファイルのラベルに自動的に追加されます。 このようにして、生成されるファイルは一意になります。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Simplified data import<br /> </td> 
-   <td> The name of the template from which a simplified import was carried out is now visible by default in the import list and in the detail of each import.<br /> </td> 
+   <td> データのインポートの合理化<br /> </td> 
+   <td> 簡易インポートの実行元のテンプレートの名前が、デフォルトでインポートリストと各インポートの詳細に表示されるようになりました。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Custom resources<br /> </td> 
-   <td> Improvement and extended possibilities for managing and defining links for custom resources.<br /> </td> 
+   <td> カスタムリソース<br /> </td> 
+   <td> カスタムリソースのリンクを管理および定義するための改善と拡張機能。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Patches {#patches-10}
+### パッチ {#patches-10}
 
-#### Email {#email}
+#### 電子メール {#email}
 
-* サービスの購読解除リンクがミラーページから正常に機能しない問題を修正しました。
-* 電子メールの編集ページに電子メール配信ラベルが正しく表示されない可能性があるエラーを修正しました。
-* Fixed an error that could prevent an external **[!UICONTROL Routing]** account from being selected in a duplicated delivery template.
+* ミラーページからサービスのサブスクリプション解除リンクが正しく動作しないエラーが修正されました。
+* 電子メールの配信ラベルが電子メール編集ページに正しく表示されない可能性のあるエラーが修正されました。
+* 重複した配信テンプレートで外部アカウン **[!UICONTROL Routing]** トが選択されない可能性のあるエラーを修正しました。
 
 #### Audiences {#audiences-1}
 
-* クエリで1- Nリンクが使用されている場合、オーディエンス数の間にエラーが発生する問題を修正しました。
-* 電子メール配信のターゲットオーディエンスでプロファイルが選択されない可能性があるエラーを修正しました。
+* クエリで1-Nリンクを使用した場合に、対象ユーザー数中に発生したエラーが修正されました。
+* 電子メール配信の対象ユーザーでプロファイルを選択できない可能性のあるエラーが修正されました。
 
-#### Workflows {#workflows-8}
+#### ワークフロー {#workflows-8}
 
-* ワークフローで電子メール配信を設定すると表示の問題が発生する可能性があるエラーを修正しました。
-* **[!UICONTROL Load file]** アクティビティが正しく動作しない可能性があるエラーを修正しました。空白のエラーメッセージが表示されます。
-* **[!UICONTROL Transfer file]** アクティビティが正しく動作しない可能性があるエラーを修正しました。アクセス権が常に正しく考慮されていませんでした。
-* Fixed an error that could prevent a file from being exported if the workflow contained a **[!UICONTROL Recurring email]** .
-* 電子メール配信をワークフローで作成したり、件名と定義されたコンテンツを考慮しないことがあるというエラーを修正。
-* Fixed an error that could prevent a reconciliation key from being selected in an **[!UICONTROL Update data]** activity when configuring the workflow of a simplified import template.
-* アクティビティが削除された後にワークフローが保存されない可能性があるエラーを修正しました。
+* ワークフローで電子メール配信を構成する際に、表示の問題を引き起こす可能性のあるエラーが修正されました。
+* アクティビティが正しく動作しない可能 **[!UICONTROL Load file]** 性のあるエラーを修正。 その後、空のエラー·メッセージが表示されます。
+* アクティビティが正しく動作しない可能 **[!UICONTROL Transfer file]** 性のあるエラーを修正。 アクセス権は必ずしも正しく考慮されていなかった。
+* ワークフローにが含まれている場合に、ファイルのエクスポートを防ぐエラーが修正されまし **[!UICONTROL Recurring email]** た。
+* ワークフローで電子メール配信が作成されない、または件名と定義済みのコンテンツが考慮されない、というエラーが修正されました。
+* 簡易インポートテンプレートのワークフローを構成する際に、アクティビティで調整キーが選 **[!UICONTROL Update data]** 択されない可能性のあるエラーが修正されました。
+* アクティビティの削除後にワークフローが保存されない可能性のあるエラーが修正されました。
 
-#### Platform {#platform}
+#### プラットフォーム {#platform}
 
-* カスタムリソースにその要素のリソースタイプへのリンクが含まれている場合に、新しい要素が作成されない可能性があるエラーを修正しました。
-* 特定のログの15分の遅延が書き込まれる可能性があるエラーを修正しました。
-* Fixed an error that could prevent the marketing activity list from being displayed when sorted by the **[!UICONTROL Date]** or **[!UICONTROL Indicators]** columns.
+* カスタムリソースにその要素のリソースタイプへのリンクが含まれている場合に、新しい要素が作成されない可能性のあるエラーが修正されました。
+* 特定のログの書き込みに15分の遅延が発生する可能性のあるエラーを修正。
+* または列で並べ替えたときにマーケティング活動リストが表示されない可能性のあるエラーが修 **[!UICONTROL Date]** 正され **[!UICONTROL Indicators]** ました。
 
-#### Landing pages {#landing-pages-5}
+#### ランディングページ {#landing-pages-5}
 
-* ランディングページをプレビューするためにテストプロファイルを選択すると発生していたエラーを修正。
+* ランディングページをプレビューするためにテストプロファイルを選択中に発生したエラーを修正しました。
 
-#### Transactional messages {#transactional-messages-5}
+#### トランザクションメッセージ {#transactional-messages-5}
 
-* テストプロファイルでイベントを削除した後にアプリケーションがクラッシュする可能性があるエラーを修正しました。
+* テストプロファイル上のイベントを削除した後にアプリケーションがクラッシュする可能性のあるエラーを修正しました。
 
-#### Reports {#reports}
+#### レポート{#reports}
 
-* Fixed an error that could cause incorrect data to be sent for the reports **[!UICONTROL deliveryThroughputReport]** and **[!UICONTROL deliveryTrackingReport]** .
+* レポートとの間違ったデータの送信を引き起こす可能性のあるエラーが修正さ **[!UICONTROL deliveryThroughputReport]** れまし **[!UICONTROL deliveryTrackingReport]** た。
 
-#### Content editor {#content-editor-2}
+#### コンテンツエディタ {#content-editor-2}
 
-* 動的コンテンツブロックの処理時に発生するHTML tag managementエラーを修正。
+* ダイナミックコンテンツブロックの処理中に発生したHTMLタグ管理エラーを修正しました。
 
-## Release 15.8 - August 2015 {#release-15-8---august-2015}
+## リリース15.8 - 2015年8月 {#release-15-8---august-2015}
 
-### New capabilities {#new-capabilities-11}
+### 新機能 {#new-capabilities-11}
 
 <table> 
  <thead> 
   <tr> 
-   <th> Functionality<br /> </th> 
+   <th> 機能<br /> </th> 
    <th> 説明<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Simplified data import<br /> </td> 
-   <td> データを簡単にインポートできるようになりました。<br /> 管理者が事前定義したテンプレートを選択し、インポートするデータを含むファイルをアップロードするだけです。テンプレートで定義されているワークフローは、ユーザーに対して透過的に実行され、読み込みの結果とエラーのログの詳細にアクセスできます。<br /> これらのファイルからのデータは、データベースに挿入することも、オーディエンスを直接作成する手段として使用することもできます。<br /> 詳しくは、 <a href="../../automating/using/about-data-import-and-export.md">詳細なドキュメント</a>を参照してください。<br /> </td> 
+   <td> データのインポートの合理化<br /> </td> 
+   <td> データを簡単にインポートできるようになりました。<br /> ユーザーは、管理者が事前に定義したテンプレートを選択し、インポートするデータを含むファイルをアップロードするだけです。 テンプレートで定義されたワークフローは、ユーザーに対して透過的に実行され、ユーザーは、インポートの結果の詳細と、エラーのログにアクセスできます。<br /> これらのファイルのデータは、データベースに挿入したり、対象ユーザーを直接作成する手段として使用できます。<br /> 詳細については、詳細なドキュメントを参照 <a href="../../automating/using/about-data-import-and-export.md">してください</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Creating programs and campaigns<br /> </td> 
-   <td> これで、作成された日が自動的に開始日として使用されるようにキャンペーンおよびプログラムが設定されます。<br /> 終了日は、次のような開始日に従って設定されます。<br /> 
+   <td> プログラムとキャンペーンの作成<br /> </td> 
+   <td> キャンペーンとプログラムは、作成日が自動的に開始日として使用されるように構成されました。<br /> 終了日は、開始日に従って次のように構成されます。<br /> 
     <ul> 
-     <li> プログラムの場合はD+186 </li> 
-     <li> キャンペーンの場合はD+61 </li> 
-    </ul> For more information, refer to the <a href="../../start/using/programs-and-campaigns.md">detailed documentation</a>.<br /> </td> 
+     <li> プログラムのD+186 </li> 
+     <li> キャンペーンのD+61 </li> 
+    </ul>  詳細については、詳細なドキュメントを参照 <a href="../../start/using/programs-and-campaigns.md">してください</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Email<br /> </td> 
-   <td> The list of tracked URLs is now read only.<br /> </td> 
+   <td> 電子メール<br /> </td> 
+   <td> 追跡するURLの一覧は読み取り専用になりました。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Transactional messages<br /> </td> 
-   <td> 作成中のアカウントのパスワード変更や確認など、イベントのパーソナライズされたトランザクションメッセージを管理できるようになりました。<br /> 詳しくは、 <a href="../../channels/using/about-transactional-messaging.md">詳細なドキュメント</a>を参照してください。<br /> </td> 
+   <td> トランザクションメッセージ<br /> </td> 
+   <td> アカウントの作成後にパスワードの変更や確認などのイベントに対して、個人用のトランザクションメッセージを管理できるようになりました。<br /> 詳細については、詳細なドキュメントを参照 <a href="../../channels/using/about-transactional-messaging.md">してください</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Custom resources<br /> </td> 
-   <td> 次のような機能が追加されました。テストプロファイル、ステータス管理およびリソースの削除を参照してください。<br /> 詳しくは、 <a href="../../developing/using/resource-statuses.md">詳細なドキュメント</a>を参照してください。<br /> </td> 
+   <td> カスタムリソース<br /> </td> 
+   <td> 次のような機能が追加されました。テストプロファイル、ステータス管理、およびリソースの削除を拡張しています。<br /> 詳細については、詳細なドキュメントを参照 <a href="../../developing/using/resource-statuses.md">してください</a>。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Patches {#patches-11}
+### パッチ {#patches-11}
 
-#### Display {#display}
+#### 表示 {#display}
 
-* Safariのクエリエディターで2つのフィールドがジャックスタップされる可能性があるエラーを修正しました。
+* Safariのクエリエディタで2つのフィールドが並べられる可能性があるエラーが修正されました。
 
-#### Content editor {#content-editor-3}
+#### コンテンツエディタ {#content-editor-3}
 
-* 電子メールの件名で文字"&lt;"、"&amp;"および"&gt;"が使用できない問題を修正しました。
+* 電子メールの件名に文字'&lt;'、'&amp;'、'&gt;'を使用できないエラーが修正されました。
 
-#### Email {#email-1}
+#### 電子メール {#email-1}
 
-* 動的テキストの後にユーザーがテキストを追加できないエラーを修正しました。
+* ダイナミックテキストの後にテキストを追加できないエラーが修正されました。
 
-#### Lists {#lists}
+#### リスト {#lists}
 
-* Fixed an error that prevented the **Message** column in workflow execution logs from being exported correctly.
+* ワークフロー実行ログの **Message** 列が正しくエクスポートされないエラーが修正されました。
 
-#### Profiles and audiences {#profiles-and-audiences}
+#### プロファイルと対象ユーザー {#profiles-and-audiences}
 
-* 要素が複製または削除されたときの二重の確認につながるエラーを修正しました。**Internet Explorer11を使用するハイブリッドデバイス**&#x200B;のみ。
+* 要素が複製または削除された時点を二重に確認するエラーが修正されました。 **Internet Explorer 11のみを使用するハイブリッドデバイス**。
 
-#### Workflows {#workflows-9}
+#### ワークフロー {#workflows-9}
 
-* ワークフローから電子メールが送信されない可能性があるエラーを修正しました。
-* **[!UICONTROL Load file]** アクティビティで拒否ファイルの名前が指定されていない場合にワークフローが実行されない可能性があるエラーを修正しました。
-* Fixed an error that could prevent a workflow from executing when the **[!UICONTROL Execution frequency]** of a **[!UICONTROL Schedule]** activity was set to **[!UICONTROL Daily]** .
+* ワークフローから電子メールが送信されない可能性のあるエラーを修正しました。
+* アクティビティで拒否ファイルの名前が指定されていない場合に、ワークフローの実行を妨げる可能性のあるエラーが修正さ **[!UICONTROL Load file]** れました。
+* アクティビティのがに設定されている場合に、ワークフローの実行を妨げ **[!UICONTROL Execution frequency]** る可能性の **[!UICONTROL Schedule]** あるエラーが修正されまし **[!UICONTROL Daily]** た。
 
-#### Platform {#platform-1}
+#### プラットフォーム {#platform-1}
 
-* 読み込みバランスのとれた環境でサムネールが生成されないエラーを修正しました。
+* 負荷分散環境でサムネイルが生成されないエラーが修正されました。
 
-## Release 15.7 - July 2015 {#release-15-7---july-2015}
+## リリース15.7 - 2015年7月 {#release-15-7---july-2015}
 
-### New capabilities {#new-capabilities-12}
+### 新機能 {#new-capabilities-12}
 
 <table> 
  <thead> 
   <tr> 
-   <th> Functionality<br /> </th> 
+   <th> 機能<br /> </th> 
    <th> 説明<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Exporting lists<br /> </td> 
-   <td> リストからCSV形式でコンテンツをファイルに書き出すことができるようになりました。This function is available in all screens with a <strong>List</strong> mode (for example: profile list).<br /> エクスポートされるデータは、エクスポート時に表示される列のデータです。リストを編集すると、エクスポートするデータを選択できます。<br /> この機能の使用について詳しくは、 <a href="../../automating/using/exporting-lists.md">詳細なドキュメント</a>を参照してください。<br /> </td> 
+   <td> リストのエクスポート<br /> </td> 
+   <td> リストのコンテンツをCSV形式のファイルにエクスポートできるようになりました。 この関数は、 <strong>List</strong> （リスト）モードのすべての画面で使用できます。プロファイルリスト)。<br /> 書き出されるデータは、書き出し時に表示される列のデータです。 リストを編集すると、書き出すデータを選択できます。<br /> この機能の使用方法の詳細については、詳細なドキュメントを参照 <a href="../../automating/using/exporting-lists.md">してください</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Integration with Adobe Profiles &amp; Audiences<br /> </td> 
-   <td> You can now share audiences between Adobe Campaign and your other Adobe Marketing Cloud solutions:<br /> 
+   <td> Adobe ProfilesおよびAudiencesとの統合<br /> </td> 
+   <td> Adobe Campaignと他のAdobe Marketing cloudソリューションとの間でユーザーを共有できるようになりました。<br /> 
     <ul> 
-     <li> Export: when you save an audience composed of profiles in a workflow, a new <span class="uicontrol">Share in Adobe Marketing Cloud</span> option allows you to add profiles to an existing audience or to create a new audience. </li> 
-     <li> Import: by creating a <strong>List</strong> type audience from the audience management screen, a new option allows you to identify it as an <span class="uicontrol">Adobe Marketing Cloud Audience</span> . その後、既存の共有オーディエンスを選択して、Adobe Campaignにインポートできます。 </li> 
-    </ul> For more information on configuring and using this functionality, refer to the <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">detailed documentation</a>.<br /> </td> 
+     <li> エクスポート：プロファイルで構成される対象ユーザーをワークフローに保存する場合、新しい <span class="uicontrol">Adobe Marketing Cloud</span> （Adobe Marketingクラウドでの共有）オプションを使用して、既存の対象ユーザーにプロファイルを追加したり、新しい対象ユーザーを作成したりできます。 </li> 
+     <li> インポート：新しいオプ <strong>ションを使用して</strong> 、対象ユーザー管理画面からリストタイプの対象ユーザーを作成し、 <span class="uicontrol">Adobe Marketing Cloud Audienceとして識別できます</span> 。 次に、既存の共有対象ユーザーを選択して、Adobe Campaignに読み込むことができます。 </li> 
+    </ul> この機能の設定と使用の詳細については、詳細なドキュメントを参照し <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">てください</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Digital Content Editor - Dynamic content<br /> </td> 
-   <td> 動的コンテンツインターフェイスが改善されました。矢印が表示され、電子メールの本文で直接様々な動的コンテンツを移動できるようになりました。<br /> この機能の使用について詳しくは、 <a href="../../designing/using/defining-dynamic-content-in-a-landing-page.md">詳細なドキュメント</a>を参照してください。<br /> </td> 
+   <td> デジタルコンテンツエディタ-動的コンテンツ<br /> </td> 
+   <td> ダイナミックコンテンツインタフェースが改善されました。 矢印が表示され、電子メール本文内の異なる動的コンテンツ間を直接移動できます。<br /> この機能の使用方法の詳細については、詳細なドキュメントを参照 <a href="../../channels/using/defining-dynamic-content-in-a-landing-page.md">してください</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Digital Content Editor - Dynamic text<br /> </td> 
-   <td> From the content editor of an email, you can now define dynamic text:<br /> 
+   <td> デジタルコンテンツエディタ-ダイナミックテキスト<br /> </td> 
+   <td> 電子メールのコンテンツエディタから、動的なテキストを定義できるようになりました。<br /> 
     <ul> 
-     <li> 電子メールの件名で、 </li> 
+     <li> 電子メールの件名で </li> 
      <li> HTMLモードで、 </li> 
-     <li> またはテキストモードで、 </li> 
-    </ul> For more information on using this functionality, refer to the <a href="../../designing/using/defining-dynamic-text.md">detailed documentation</a>.<br /> </td> 
+     <li> またはテキストモードで。 </li> 
+    </ul> この機能の使用方法の詳細については、詳細なドキュメントを参照 <a href="../../channels/using/defining-dynamic-text.md">してください</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Programs and campaigns - Reports<br /> </td> 
-   <td> レポートのインターフェイスとグラフィックが改善されました。<br /> この機能の使用について詳しくは、 <a href="../../reporting/using/defining-the-report-period.md">詳細なドキュメント</a>を参照してください。<br /> </td> 
+   <td> プログラムとキャンペーン-レポート<br /> </td> 
+   <td> 報告書のインタフェースとグラフィックスが改善された。<br /> この機能の使用方法の詳細については、詳細なドキュメントを参照 <a href="../../reporting/using/defining-the-report-period.md">してください</a>。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Patches {#patches-12}
+### パッチ {#patches-12}
 
-#### Installation {#installation}
+#### インストール {#installation}
 
-* Adobe Campaignインスタンス名が32文字に制限されるようになりました。
+* Adobe Campaignのインスタンス名は、32文字に制限されました。
 
-#### Workflows {#workflows-10}
+#### ワークフロー {#workflows-10}
 
-* ワークフローでのクエリの編集時に「配信」リソースをターゲット設定できない可能性があるエラーを修正しました。
-* ワークフローでのクエリの編集時に特定のリンクされたリソースが処理されない可能性があるエラーを修正しました。
-* Fixed an error that could prevent a **Recurring delivery** activity from being modified if the workflow had already been executed.
+* ワークフローでクエリを編集する際に、'delivery'リソースをターゲットにできない可能性のあるエラーが修正されました。
+* ワークフロー内のクエリを編集する際に、特定のリンクされたリソースが処理されない可能性のあるエラーが修正されました。
+* ワークフローが既に実行されている場合に **、繰り返し配信** (Recurring)アクティビティが変更されない可能性のあるエラーが修正されました。
 
-#### Emails {#emails}
+#### 電子メール {#emails}
 
-* 動的コンテンツが式エディターで追加されたときに電子メールを送信する前にJavaScript構文エラーがチェックされないエラーを修正しました。
+* 式エディタを使用して動的コンテンツを追加した場合に、電子メールを送信する前にJavaScript構文エラーをチェックできないエラーが修正されました。
 
-#### Landing pages {#landing-pages-6}
+#### ランディングページ {#landing-pages-6}
 
-* ランディングページをタブレットから編集できないエラーを修正しました。
+* ランディングページをタブレットから編集できないエラーが修正されました。
 
-#### Assets Core Service {#assets-core-service}
+#### アセットコアサービス {#assets-core-service}
 
-* 編集中の電子メールまたはランディングページから共有リソースを選択すると、使用可能なリソースのリストがAdobe Campaign用にフィルターされるようになりました。
+* 編集中の電子メールまたはランディングページから共有リソースを選択すると、Adobe Campaign用に使用可能なリソースのリストがフィルタ処理されます。
 
-## Release 15.6 - June 2015 {#release-15-6---june-2015}
+## リリース15.6 - 2015年6月 {#release-15-6---june-2015}
 
-### New capabilities {#new-capabilities-13}
+### 新機能 {#new-capabilities-13}
 
 <table> 
  <thead> 
   <tr> 
-   <th> Functionality<br /> </th> 
+   <th> 機能<br /> </th> 
    <th> 説明<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Workflows: Reconciliation activity<br /> </td> 
-   <td> A new <strong>Reconciliation</strong> activity links unidentified data (for example, after importing a file) with existing resources within a workflow.<br /> このアクティビティは、基本的にはデータ管理の目的で使用されます。It responds to two different use cases:<br /> 
+   <td> ワークフロー：調整活動<br /> </td> 
+   <td> 新しい調整ア <strong>クティビティは</strong> 、未識別のデータ（ファイルのインポート後など）を、ワークフロー内の既存のリソースとリンクします。<br /> このアクティビティは、基本的にデータ管理の目的で使用されます。 2つの異なる使用例に対応します。<br /> 
     <ul> 
-     <li> <strong>関係</strong>の追加: <strong>「関係</strong> 」タブでは、受信データとAdobe Campaignデータベースの他の複数のディメンションの間にリンクを追加できます。 </li> 
-     <li> <strong>データの識別</strong>: <strong>「識別」</strong> タブを使用すると、受信データをAdobe Campaignデータベースの既存のディメンションの列に関連付けることができます。アクティビティを離れると、データは指定したディメンションに属するものとして識別されます。 </li> 
-    </ul> Refer to the <a href="../../automating/using/reconciliation.md">detailed documentation</a>.<br /> </td> 
+     <li> <strong>リレーションの追加</strong>:「関 <strong>係」タブでは</strong> 、受信データとAdobe Campaignデータベースの他の複数の次元との間にリンクを追加できます。 </li> 
+     <li> <strong>データID</strong>:identificationタ <strong>ブでは</strong> 、Adobe Campaignデータベースの既存の次元の列にインバウンド·データを関連付けるだけです。 アクティビティを終了すると、データは指定したディメンションに属していると識別されます。 </li> 
+    </ul> 詳細なドキュメント <a href="../../automating/using/reconciliation.md">を参照します</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Workflows: Extract file activity<br /> </td> 
-   <td> A new <strong>Extract file</strong> activity allows you to export data from the Adobe Campaign database in the form of an external file from a workflow. <br /> 制限:現時点では、出力ファイルに動的名前を使用することはできません。<br /> 詳細について <a href="../../automating/using/extract-file.md">は、を</a>参照してください。<br /> </td> 
+   <td> ワークフロー：ファイルのアクティビティの抽出<br /> </td> 
+   <td> 新しい <strong>Extractファイルアクティビティを使用すると</strong> 、Adobe Campaignデータベースから、ワークフローの外部ファイルの形式でデータを書き出すことができます。 <br /> 制限：現在、出力ファイルに動的名を使用することはできません。<br /> 詳細なドキュメント <a href="../../automating/using/extract-file.md">を参照します</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Workflows: Scheduler activity<br /> </td> 
-   <td> Improved widget that allows you to select the execution time of the <strong>Scheduler</strong> activity in a workflow.<br /> </td> 
+   <td> ワークフロー：スケジューラの動作<br /> </td> 
+   <td> ワークフロー内のスケジューラアクティビティの実行時間を選択できる <strong>改良</strong> Widget。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Workflows: Transfer file activity<br /> </td> 
-   <td> SFTP is now supported.<br /> </td> 
+   <td> ワークフロー：ファイルのアクティビティの転送<br /> </td> 
+   <td> SFTPがサポートされるようになりました。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Custom resources<br /> </td> 
-   <td> <span class="uicontrol">開発</span> メニューでは、購入や製品テーブルなどの独自のカスタムリソースを作成することで、管理者権限を持つユーザーが提供するデータテンプレートを充実させることができます。<br /> また、あらかじめ用意されているリソースを拡張して、新しいフィールドを追加することもできます。<br /> また、新しいカスタムリソースまたは拡張カスタムリソースに対応するナビゲーションを設定できます。<br /> 詳細について <a href="../../developing/using/data-model-concepts.md">は、を</a>参照してください。<br /> </td> 
+   <td> カスタムリソース<br /> </td> 
+   <td> 「 <span class="uicontrol">Development</span> 」メニューを使用すると、管理者権限を持つユーザーが、購入や製品テーブルなど、独自のカスタムリソースを作成して提供されるデータテンプレートを拡張できるようになりました。 <br /> また、既存のリソースを拡張して、新しいフィールドを追加することもできます。<br /> また、新規または拡張されたカスタムリソースに対応する画面内のナビゲーションを構成することができる。<br /> 詳細なドキュメント <a href="../../developing/using/data-model-concepts.md">を参照します</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Test profiles<br /> </td> 
-   <td> The <strong>Middle name</strong> and <strong>Title</strong> of the test profiles can now be selected when configuring the list of test profiles.<br /> </td> 
+   <td> テストプロファイル<br /> </td> 
+   <td> テストプ <strong>ロファイルのリストを構成する際に</strong><strong></strong> 、テストプロファイルのミドルネームとタイトルを選択できるようになりました。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Content editor: Dynamic content<br /> </td> 
-   <td> 式エディターで定義された条件に従って、ユーザーに動的に表示される異なるコンテンツを定義できます。<br /> 詳細について <a href="../../designing/using/defining-dynamic-content-in-a-landing-page.md">は、を</a>参照してください。<br /> </td> 
+   <td> コンテンツエディタ：動的コンテンツ<br /> </td> 
+   <td> エクスプレッションエディタで定義した条件に従って、ユーザに動的に表示される異なる内容を定義できます。<br /> 詳細なドキュメント <a href="../../channels/using/defining-dynamic-content-in-a-landing-page.md">を参照します</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Email<br /> </td> 
-   <td> A <strong>Test profiles</strong> column is now available in an email's sending logs.<br /> </td> 
+   <td> 電子メール<br /> </td> 
+   <td> Eメール <strong>の送信ログに</strong> [Test profiles]列が表示されるようになりました。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Patches {#patches-13}
+### パッチ {#patches-13}
 
-#### Lists {#lists-1}
+#### リスト {#lists-1}
 
 * リストから要素を削除すると、リストが自動的に更新されるようになりました。
-* 1つの列のみを含むリストから要素を選択できないエラーを修正しました。
-* ページを更新した後、リストの表示に適用された変更が失われるエラーを修正しました。
-* テストプロファイルの中央名とタイトルをテストプロファイルリストに表示できるようになりました。
-* Mozilla Firefoxを使用してリストのチェックボックスを選択すると発生していたエラーを修正しました。
+* 列が1つだけ含まれるリストから要素を選択できないエラーが修正されました。
+* ページの更新後にリストの表示に適用された変更が失われる原因となったエラーが修正されました。
+* テストプロファイルのミドルネームとタイトルの両方が、テストプロファイルリストに表示されるようになりました。
+* Mozilla Firefoxを使用してリスト内のチェックボックスを選択したときに発生したエラーを修正。
 
 #### Audiences {#audiences-2}
 
-* Fixed an error that prevented the **[!UICONTROL Add]** button from being used in the audience interface.
+* 対象ユーザーインターフェイスでボ **[!UICONTROL Add]** タンを使用できないエラーが修正されました。
 
-#### Emails {#emails-1}
+#### 電子メール {#emails-1}
 
-* 電子メールの編集時に、行でプレビューボタンが2回使用されないというJavaScriptエラーを修正。
-* Fixed an error that prevented the **[!UICONTROL Edit properties]** and **[!UICONTROL Show proofs]** buttons from being used on Microsoft Surface Pro3 tablets using Internet Explorer 11.
-* 電子メールの送信ログが表示されない可能性があるエラーを修正しました。
+* 電子メールの編集時に、プレビューボタンを1行に2回使用できないJavaScriptエラーが修正されました。
+* Internet Explorer 11を使用してMicrosoft Surface Pro3 **[!UICONTROL Edit properties]** タブレット **[!UICONTROL Show proofs]** でボタンとボタンを使用できないエラーを修正。
+* 電子メールの送信ログが表示されない可能性のあるエラーが修正されました。
 
-#### Landing pages {#landing-pages-7}
+#### ランディングページ {#landing-pages-7}
 
-* Fixed an error that prevented the **Brand logo** content block from being used when editing content in a landing page.
-* ランディングページに有効性の日付が指定されている場合、マーケティングアクティビティリストにランディングページが表示されないエラーを修正しました。
+* ランディング·ページのコンテンツを編集する際 **に** 、ブランド·ロゴ·コンテンツ·ブロックが使用されないエラーが修正されました。
+* ランディング·ページに有効日が指定されている場合に、ランディング·ページがマーケティング·アクティビティ·リストに表示されないようにするエラーが修正されました。
 
-#### Workflows {#workflows-11}
+#### ワークフロー {#workflows-11}
 
-* **セグメント** 化アクティビティの設定時にグループモードでセグメントを正しく動作させないエラーを修正しました。
-* **セグメント** 化アクティビティを設定した後、トランジションを選択できないエラーを修正しました。
-* **セグメント** 化アクティビティを設定した後、トランジションを削除できないエラーを修正しました。
-* **セグメント** アクティビティ内で母集団をカウントおよびプレビューできないエラーを修正しました。
-* 繰り返し電子メールを効果的に削除できないエラーを修正しました。
-* Fixed an error that caused data from a deleted **Transfer file** activity to appear in a new **Transfer file** activity.
-* **除外** アクティビティ内で除外ルールが正しく考慮されないエラーを修正しました。
-* ワークフローで電子メール配信アクティビティを削除すると発生していたエラーを修正。対応する配信も、マーケティングアクティビティリストから削除されました。
+* セグメンテーション·アクティビティの構成時に、グループ·モードでのセグメントの制限が正しく機能しないエラーが修 **正さ** れました。
+* セグメンテーションアクティビティを構成した後に、トランジションを選択できないエラーが **修正さ** れました。
+* セグメンテーションアクティビティを構成した後で、トランジションを削除できないエラーが **修正さ** れました。
+* セグメンテーションアクティビティ内での集団のカウントとプレビューを妨げるエラー **が修正** されました。
+* 定期的な電子メールを効果的に削除できないエラーが修正されました。
+* 削除された転送ファイルアクティビティのデータが新しい転送 **ファイルアクティビティに** 表示される原因となったエラー **が修正されました** 。
+* 除外ルールが除外アクティビティ内で正しく考慮されないエラーが修 **正され** ました。
+* ワークフロー内の電子メール配信活動の削除中に発生したエラーを修正しました。 これで、対応する搬送もマーケティング活動リストから削除されます。
 
-#### Navigation {#navigation}
+#### ナビゲーション {#navigation}
 
-* Tabキーを使用して、同じページ上のフィールド間を適切に移動できるようになりました。
+* Tabキーを使用して、同じページ上のフィールド間を正しく移動できるようになりました。
 
-## Release 15.4 - April 2015 {#release-15-4---april-2015}
+## リリース15.4 - 2015年4月 {#release-15-4---april-2015}
 
-### New capabilities {#new-capabilities-14}
+### 新機能 {#new-capabilities-14}
 
 <table> 
  <thead> 
   <tr> 
-   <th> Functionality<br /> </th> 
+   <th> 機能<br /> </th> 
    <th> 説明<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Package exports / Package imports<br /> </td> 
-   <td> <strong>展開</strong> メニューでは、パッケージをエクスポートして読み込むことによって、管理者権限を持つユーザーが異なるAdobe Campaignインスタンス間のリソースを交換できるようになりました。<br /> 詳細について <a href="../../automating/using/managing-packages.md">は、を</a>参照してください。<br /> </td> 
+   <td> パッケージのエクスポート/パッケージのインポート<br /> </td> 
+   <td> 「配置」メ <strong>ニューでは</strong> 、管理者権限を持つユーザーが、パッケージの書き出しと読み込みを行って、異なるAdobe Campaignインスタンス間でリソースを交換できるようになりました。<br /> 詳細なドキュメント <a href="../../automating/using/managing-packages.md">を参照します</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Reports<br /> </td> 
-   <td> All reports (except the <strong>Hot clicks</strong> report) can now be accessed from a program. These reports are:<br /> 
+   <td> レポート<br /> </td> 
+   <td> ホット·クリック·レポートを除くす <strong>べてのレポートに</strong> 、プログラムからアクセスできるようになりました。 次のレポートがあります。<br /> 
     <ul> 
      <li> プログラム配信のスループット </li> 
-     <li> プログラムトラッキングインジケータ </li> 
-     <li> ドメイン別のプログラム分類 </li> 
-     <li> 配信不能プログラムおよびバウンスプログラム </li> 
-     <li> プログラムURLとクリックストリーム </li> 
-    </ul> これらのレポートは、特定の期間（例:3か月、6か月など）でフィルターできます。キャンペーンレポートもフィルターできます。<br /> 詳細について <a href="../../reporting/using/about-dynamic-reports.md">は、を</a>参照してください。<br /> </td> 
+     <li> プログラム追跡インジケータ </li> 
+     <li> ドメイン別のプログラムの内訳 </li> 
+     <li> 成果物とバウンス以外のプログラム </li> 
+     <li> URLをプログラムし、「≪ストリーム|Streams|emdw≫」をクリック </li> 
+    </ul> これらのレポートは、特定の期間（3か月、6か月など）にわたってフィルタ処理できます。 キャンペーンレポートもフィルタ処理できます。<br /> 詳細なドキュメント <a href="../../reporting/using/about-dynamic-reports.md">を参照します</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Workflows: <strong>Email delivery</strong> activity<br /> </td> 
-   <td> The <strong>Email delivery</strong> activity in the workflows has been improved. アプリマーケティングアクティビティのリストから、電子メール、定期電子メールおよび繰り返し電子メール実行に関する詳細情報を検索できるようになりました。<br /> 詳細について <a href="../../automating/using/email-delivery.md">は、を</a>参照してください。<br /> </td> 
+   <td> ワークフロー：電子メー <strong>ル配信活動</strong><br /> </td> 
+   <td> ワークフ <strong>ローの</strong> Eメール配信アクティビティが改善されました。 アプリケーションのマーケティング活動のリストから、電子メール、定期的な電子メール、および定期的な電子メールの実行に関する詳細情報を検索できます。<br /> 詳細なドキュメント <a href="../../automating/using/email-delivery.md">を参照します</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Workflows: <strong>Segmentation</strong> activity<br /> </td> 
-   <td> <strong>セグメント</strong> 化アクティビティがワークフローで利用できるようになりました。このアクティビティにより、同じワークフロー内でアップストリームに配置されたアクティビティによって計算された母集団から、1つまたは複数のセグメントを作成し、セグメントコードをリンクできます。このアクティビティから、セグメントは1つのトランジションまたは複数の異なるトランジションで処理できます。これで、訪問者をフィルターし、各セグメントのサイズを制限してパーソナライゼーションを最適化できるようになりました。例えば、特定の条件に対応するプロファイルをランダムに選択できます。<br /> 詳細について <a href="../../automating/using/segmentation.md">は、を</a>参照してください。<br /> </td> 
+   <td> ワークフロー：セグメンテー <strong>ション</strong> ·アクティビティ<br /> </td> 
+   <td> これで、 <strong>Segmentation</strong> （セグメンテーション）アクティビティがワークフローで使用可能になりました。 このアクティビティを使用すると、1つまたは複数のセグメントを作成し、同じワークフローの上流に配置されたアクティビティで計算される母集団からセグメントコードをリンクできます。 このアクティビティから、セグメントは1つの遷移または異なる複数の遷移で処理できます。 個人用設定をフィルタし、個人用設定を最適化するために各セグメントのサイズを制限するオプションが追加されました。 たとえば、特定の基準に対応する縦断をランダムに選択できます。<br /> 詳細なドキュメント <a href="../../automating/using/segmentation.md">を参照します</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Integrations: <strong>Assets Core Service</strong><br /> </td> 
-   <td> You can now use shared resources via <strong>Assets Core Service</strong> in your email and landing page contents. Adobe Marketing Cloudから直接共有リソースを管理できます。<br /> 詳細について <a href="../../integrating/using/working-with-campaign-and-assets-core-service.md">は、を</a>参照してください。<br /> </td> 
+   <td> 統合：アセット <strong>コアサービス</strong><br /> </td> 
+   <td> E-メールとランディング·ページのコンテンツで、 <strong>Assets Core Service</strong> （資産コア·サービス）を介して共有リソースを使用できるようになりました。 共有リソースは、Adobe Marketing Cloudから直接管理できます。<br /> 詳細なドキュメント <a href="../../integrating/using/working-with-campaign-and-assets-core-service.md">を参照します</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Integrations: <strong>Adobe Target</strong><br /> </td> 
-   <td> You can now insert images that are dynamically computed by <strong>Adobe Target</strong> into your Adobe Campaign emails. これにより、Adobe Targetセグメントで定義されている条件に従って、コンテンツをパーソナライズして同じ電子メールの複数バージョンを提供できます。<br /> 詳細について <a href="../../integrating/using/about-campaign-target-integration.md">は、を</a>参照してください。<br /> </td> 
+   <td> 統合：Adobeター <strong>ゲット</strong><br /> </td> 
+   <td> Adobe Targetで動的に計算されるイメージをAdobe Campaignの <strong>E-メールに挿入できる</strong> ようになりました。 これにより、Adobe Targetセグメントで定義された条件に従ってコンテンツをパーソナライズすることで、同じEメールの複数のバージョンを提供できます。<br /> 詳細なドキュメント <a href="../../integrating/using/about-campaign-target-integration.md">を参照します</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Digital Content Editor: <strong>Block selector</strong><br /> </td> 
-   <td> HTMLコンテンツエディターでブロックを選択すると、編集ゾーンの下部にパンくずリストが表示されます。これにより、様々な要素に簡単に移動して選択できます。<br /> 詳細について <a href="../../designing/using/managing-landing-page-structure-and-style.md">は、を</a>参照してください。<br /> </td> 
+   <td> デジタルコンテンツエディタ：ブロックセ <strong>レクタ</strong><br /> </td> 
+   <td> HTMLコンテンツエディタでブロックを選択すると、編集ゾーンの下部にブレッドクラムが表示されます。 これにより、別の要素に簡単に移動して選択できます。<br /> 詳細なドキュメント <a href="../../channels/using/managing-landing-page-structure-and-style.md">を参照します</a>。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Release 15.3 - March 2015 {#release-15-3---march-2015}
+## リリース15.3 - 2015年3月 {#release-15-3---march-2015}
 
-### New capabilities {#new-capabilities-15}
+### 新機能 {#new-capabilities-15}
 
 <table> 
  <thead> 
   <tr> 
-   <th> Functionality<br /> </th> 
+   <th> 機能<br /> </th> 
    <th> 説明<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Reports<br /> </td> 
-   <td> レポートまたはキャンペーンから直接レポートにアクセスできるようになりました。<strong>配信サマリ</strong> レポートがプログラムレベルで追加されました。<br /> 詳細について <a href="../../reporting/using/delivery-summary.md">は、を</a>参照してください。<br /> </td> 
+   <td> レポート<br /> </td> 
+   <td> これで、プログラムまたはキャンペーンから直接レポートにアクセスできます。 「配信 <strong>要約」レポート</strong> (Delivery Summary)がプログラムレベルで追加されました。<br /> 詳細なドキュメント <a href="../../reporting/using/delivery-summary.md">を参照します</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Update data<br /> </td> 
-   <td> In the workflows, the available <strong>Update data</strong> activity has a new option, which allows you to automatically link inbound data fields with the fields of an application schema. これにより、フィールドを更新するための選択プロセスが容易になります。<br /> 詳細について <a href="../../automating/using/update-data.md">は、を</a>参照してください。<br /> </td> 
+   <td> データの更新<br /> </td> 
+   <td> ワークフローでは、使用可能な <strong>Update data</strong> （データの更新）アクティビティに新しいオプションが追加され、入力データフィールドをアプリケーションスキーマのフィールドに自動的にリンクできます。 これにより、フィールドの更新の選択プロセスが容易になります。<br /> 詳細なドキュメント <a href="../../automating/using/update-data.md">を参照します</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Email delivery<br /> </td> 
-   <td> In workflows, the advanced options of the <strong>Email delivery</strong> activity can now be accessed via a specific button in the action bar. This button is only available if an <strong>Email delivery</strong> activity is selected. 主なメリットは、アウトバウンドトランジションをアクティビティに追加し、ワークフローに表示されるアクティビティの名前を編集できることです。<br /> 詳細について <a href="../../automating/using/email-delivery.md">は、を</a>参照してください。<br /> </td> 
+   <td> 電子メール配信<br /> </td> 
+   <td> ワークフローでは、 <strong>Eメール配信アクティビティの詳細オプションに</strong> 、アクションバーの特定のボタンを使用してアクセスできるようになりました。 このボタンは、電子メール配信アクティビティが選 <strong>択されている</strong> 場合にのみ使用できます。 主な利点は、アクティビティにアウトバウンド遷移を追加し、ワークフローに表示されているアクティビティの名前を編集できる点です。<br /> 詳細なドキュメント <a href="../../automating/using/email-delivery.md">を参照します</a>。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Patches {#patches-14}
+### パッチ {#patches-14}
 
-#### General {#general-10}
+#### 一般 {#general-10}
 
-* 配信の作成時に受信者が表示されないエラーを修正しました。
-* 「開いている」条件を使用している「受信者」に基づくオーディエンスが使用できない問題を修正しました。
-* 空のプロファイルが削除されないエラーを修正しました。
-* 配信のプレビュー時に発生するエラーを修正しました。
-* マーケティングアクティビティを複製できないエラーを修正しました。
-* キャンペーンの削除時に発生するエラーを修正しました。
+* 配信の作成時に受信者が表示されないエラーが修正されました。
+* [開いた受信者]の条件に基づく対象ユーザーを使用できないエラーが修正されました。
+* 空のプロファイルの削除を禁止するエラーが修正されました。
+* 配信のプレビュー中に発生したエラーを修正しました。
+* マーケティング活動の重複を防ぐエラーが修正されました。
+* キャンペーンの削除中に発生したエラーを修正しました。
 
