@@ -1,77 +1,77 @@
 ---
-title: 「ワークフローのユースケース:週次配送の作成」
-seo-title: 「ワークフローのユースケース:週次配送の作成」
-description: 「ワークフローのユースケース:週次配送の作成」
-seo-description: 「ワークフローのユースケース:週次配送の作成」
-page-status-flag: 決して活性化されていない
-uuid: 396a3de1-6fa-4385- ac9f-15fdee5a366
-contentOwner: ソビア
-products: SG_キャンペーン/標準
+title: '"ワークフローの使用例：週次配送の作成'
+seo-title: '"ワークフローの使用例：週次配送の作成'
+description: '"ワークフローの使用例：週次配送の作成'
+seo-description: '"ワークフローの使用例：週次配送の作成'
+page-status-flag: 未活性化の
+uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
+contentOwner: サウビア
+products: SG_CAMPAIGN/STANDARD
 audience: 自動化
 content-type: 参照
 topic-tags: '実行活動 '
-discoiquuid: 377821e6-69f8-41cc- a1ad-8a2f5d409
-context-tags: ワークフロー、ユースケース、クエリ、配信、スケジューラ
-internal: n
-snippet: y
+discoiquuid: 377821e6-69f8-41cc-a1ad-8a2f5ed4d409
+context-tags: ワークフロー，ユースケース，クエリ，配信，スケジューラ
+internal: 〜の
+snippet: イー
 translation-type: tm+mt
-source-git-commit: 035726bbd3112058b9a89525a861521bc3b9867e
+source-git-commit: 4a38b1f3d7d6dbf12fa71c819147bf2d91acb0c4
 
 ---
 
 
-# Worflowユースケース:毎週火曜日に電子メール配信を作成する{#creating-email-every-tuesday}
+# ワークフローの使用例：毎週火曜日に電子メール配信を作成する{#creating-email-every-tuesday}
 
-毎週火曜日に電子メールをお客様のすべてのお客様に送信できます。
+毎週火曜日に、特別キャンペーンのお客様全員にEメールを送信できます。
 
-1. で **[!UICONTROL Marketing Activities]**、をクリック **[!UICONTROL Create]** して選択 **[!UICONTROL Workflow]**&#x200B;します。
-1. ワークフロータイプ **[!UICONTROL New Workflow]** として選択し、をクリック **[!UICONTROL Next]**&#x200B;します。
-1. ワークフローのプロパティを入力し、をクリック **[!UICONTROL Create]**&#x200B;します。
+1. で、をク **[!UICONTROL Marketing Activities]**&#x200B;リックして **[!UICONTROL Create]** を選択しま **[!UICONTROL Workflow]**&#x200B;す。
+1. ワークフロー **[!UICONTROL New Workflow]** の種類としてを選択し、をクリックしま **[!UICONTROL Next]**&#x200B;す。
+1. ワークフローのプロパティを入力し、をクリックしま **[!UICONTROL Create]**&#x200B;す。
 
-## スケジューラ・アクティビティの作成{#creating-a-scheduler-activity}
+## スケジューラ·アクティビティの作成{#creating-a-scheduler-activity}
 
-1. **[!UICONTROL Activities]** &gt;で **[!UICONTROL Execution]**、をドラッグアンドドロップ **[!UICONTROL Scheduler activity]**![](assets/scheduler_icon.png)します。
+1. &gt;で、 **[!UICONTROL Activities]** をド **[!UICONTROL Execution]**&#x200B;ラッグ&amp;ドロップしま **[!UICONTROL Scheduler activity]**&#x200B;す。
 1. アクティビティをダブルクリックします。
 1. 配信の実行を構成します。
-1. で、を **[!UICONTROL Execution frequency]**&#x200B;選択 **[!UICONTROL Weekly]**&#x200B;します。
-1. 搬送のaおよび **[!UICONTROL Time]****[!UICONTROL Repetition frequency]** aを選択します。
-1. で、を **[!UICONTROL Days of the week]**&#x200B;選択 **[!UICONTROL Tuesday]**&#x200B;します。
-1. ワークフローのパラメーター **[!UICONTROL Start]** と **[!UICONTROL Expiration]** パラメーターを指定します。
+1. でを選 **[!UICONTROL Execution frequency]**&#x200B;択します **[!UICONTROL Weekly]**。
+1. 搬送のと **[!UICONTROL Time]** を選 **[!UICONTROL Repetition frequency]** 択します。
+1. でを選 **[!UICONTROL Days of the week]**&#x200B;択します **[!UICONTROL Tuesday]**。
+1. ワークフローの **[!UICONTROL Start]** とパラメ **[!UICONTROL Expiration]** ータを指定します。
 1. アクティビティを確認し、ワークフローを保存します。
 
 ![](assets/scheduler_properties.png)
 
 >[!NOTE]
 >
->ワークフローを特定の **[!UICONTROL Time Zone]****[!UICONTROL Execution options]**&#x200B;タブで開始するには、タイムゾーンフィールドでスケジューラのタイムゾーンを設定します。
+>特定の場所でワークフローを開始するに **[!UICONTROL Time Zone]**&#x200B;は、タブで、[タ&#x200B;**[!UICONTROL Execution options]**&#x200B;イムゾーン]フィールドにスケジューラのタイムゾーンを設定します。
 
 ## クエリアクティビティの作成{#creating-a-query-activity}
 
-1. **[!UICONTROL Activities]** &gt;&gt; **[!UICONTROL Targeting]**&#x200B;で、受信者を選択するには **[!UICONTROL query]** 、アクティビティをドラッグアンドドロップしてダブルクリックします。
-1. **[!UICONTROL Shortcuts]** &gt;&gt; **[!UICONTROL Profile]**&#x200B;で、ドラッグアンドドロップ **[!UICONTROL Email]**&#x200B;します。
-1. オペレータ **[!UICONTROL is not empty]** として選択します。
-1. **[!UICONTROL Shortcuts]** &gt;&gt; **[!UICONTROL General]**&#x200B;で、プロファイルを追加し、値 **[!UICONTROL no longer contact by email]** で選択 **[!UICONTROL No]**&#x200B;します。
-1. **[!UICONTROL Confirm]**&#x200B;をクリックします。
+1. &gt;で、受 **[!UICONTROL Activities]** 信者を **[!UICONTROL Targeting]**&#x200B;選択するには、アクティビティをドラッグアンドドロップし **[!UICONTROL query]** てダブルクリックします。
+1. &gt;で、ド **[!UICONTROL Shortcuts]** ラッ **[!UICONTROL Profile]**&#x200B;グアンドドロップしま **[!UICONTROL Email]**&#x200B;す。
+1. 演算子 **[!UICONTROL is not empty]** として選択します。
+1. &gt;で、プ **[!UICONTROL Shortcuts]** ロフ **[!UICONTROL General]**&#x200B;ァイルを追加し、値で **[!UICONTROL no longer contact by email]** を選択します **[!UICONTROL No]**。
+1. Click **[!UICONTROL Confirm]**.
 
 ![](assets/wf-complement-query.png)
 
 ## 電子メール配信の作成{#creating-an-email-delivery}
 
-1. **[!UICONTROL Activities]** &gt;で **[!UICONTROL Channels]**、をドラッグアンドドロップ **[!UICONTROL Email delivery]**&#x200B;します。
-1. アクティビティをクリックし、編集 ![](assets/edit_darkgrey-24px.png) するように選択します。
-1. を選択 **[!UICONTROL Recurring email]** してをクリック **[!UICONTROL Next]**&#x200B;します。
-1. 電子メールテンプレートを選択し、をクリック **[!UICONTROL Next]**&#x200B;します。
-1. 電子メールのプロパティを入力し、をクリック **[!UICONTROL Next]**&#x200B;します。
-1. 電子メールのレイアウトを作成するには、をクリック **[!UICONTROL Use Email Designer]**&#x200B;します。
+1. &gt;で、 **[!UICONTROL Activities]** をド **[!UICONTROL Channels]**&#x200B;ラッグ&amp;ドロップしま **[!UICONTROL Email delivery]**&#x200B;す。
+1. アクティビティをクリックし、編集するア ![](assets/edit_darkgrey-24px.png) クティビティを選択します。
+1. を選択し、 **[!UICONTROL Recurring email]** をクリックしま **[!UICONTROL Next]**&#x200B;す。
+1. 電子メールテンプレートを選択し、をクリックしま **[!UICONTROL Next]**&#x200B;す。
+1. 電子メールのプロパティを入力し、をクリックしま **[!UICONTROL Next]**&#x200B;す。
+1. 電子メールのレイアウトを作成するには、をクリックしま **[!UICONTROL Use Email Designer]**&#x200B;す。
 1. 要素を挿入するか、既存のテンプレートを選択します。
 1. フィールドとリンクを使用して電子メールをカスタマイズします。
-1. **[!UICONTROL Save]**&#x200B;をクリックします。
+1. Click **[!UICONTROL Save]**.
 
-詳細については、電子メール [の設計](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch)を参照してください。
+詳細については、「電子メールのデザ [イン」を参照してください](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)。
 
-**関連トピック:**
+**関連トピック：**
 
 * [クエリアクティビティ](../..//automating/using/query.md)
-* [スケジューラアクティビティ](../..//automating/using/scheduler.md)
-* [Eメール配信](../..//automating/using/email-delivery.md)
-* [Eメールチャネル](../..//channels/using/creating-an-email.md)
+* [スケジューラの動作](../..//automating/using/scheduler.md)
+* [電子メール配信](../..//automating/using/email-delivery.md)
+* [電子メールチャネル](../..//channels/using/creating-an-email.md)
