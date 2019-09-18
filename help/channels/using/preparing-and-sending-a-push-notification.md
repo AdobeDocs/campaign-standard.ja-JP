@@ -2,35 +2,35 @@
 title: プッシュ通知の準備と送信
 seo-title: プッシュ通知の準備と送信
 description: プッシュ通知の準備と送信
-seo-description: Adobe Campaignで単一送信プッシュ通知を作成するには、次の手順に従います。
-page-status-flag: 常にアクティブ化されていない
-uuid: 01997725- ca0a-420c-9e81-5ea801652f87
-contentOwner: サウビート
-products: SG_ CAMPAIGN/STANDARD
-audience: チャネル
+seo-description: 次の手順に従って、Adobe Campaignで1回送信プッシュ通知を作成します。
+page-status-flag: 未活性化の
+uuid: 01997725-ca0a-420c-9e81-5ea801652f87
+contentOwner: サウビア
+products: SG_CAMPAIGN/STANDARD
+audience: チャンネル
 content-type: 参照
 topic-tags: プッシュ通知
-discoiquuid: ec930cd4-6365-4e54- babe-9dc2eed041fc
-context-tags: delivery， mobileAppContent， back
-internal: n
-snippet: y
+discoiquuid: ec930cd4-6365-4e54-babe-9dc2eed041fc
+context-tags: 配信，mobileAppContent，戻る
+internal: 〜の
+snippet: イー
 translation-type: tm+mt
-source-git-commit: 6df0e764750a31f29d6fe3ec4d92e19b3f07f728
+source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
 ---
 
 
-# Preparing and sending a push notification{#preparing-and-sending-a-push-notification}
+# プッシュ通知の準備と送信{#preparing-and-sending-a-push-notification}
 
-## Preparing the notification {#preparing-the-notification}
+## 通知の準備 {#preparing-the-notification}
 
-Adobe Campaignを使用してプッシュ通知を作成する手順を次に示します。
+Adobe Campaignを使用してプッシュ通知を作成する手順は、次のとおりです。
 
-1. **[!UICONTROL Marketing activities]** ウィンドウから、新しいマーケティングアクティビティ [を作成](../../start/using/marketing-activities.md#creating-a-marketing-activity)します。
+1. ウィンドウで、 **[!UICONTROL Marketing activities]** 新しいマ [ーケティング活動を作成します](../../start/using/marketing-activities.md#creating-a-marketing-activity)。
 
-   Note that a single push notification can also be created from a [campaign](../../start/using/marketing-activities.md#creating-a-marketing-activity) or from the Adobe Campaign [home page](../../start/using/interface-description.md#home-page).
+   単一のプッシュ通知は、キャンペーンまたはAdobe Campaignのホ [ーム](../../start/using/marketing-activities.md#creating-a-marketing-activity) ·ページからも作成で [きます](../../start/using/interface-description.md#home-page)。
 
-   ワークフローでプッシュ通知配信アクティビティを使用することもできます。This activity is presented in the [Push notification delivery](../../automating/using/push-notification-delivery.md) section.
+   また、ワークフローでプッシュ通知配信アクティビティを使用することもできます。 このアクティビティは、「 [Push通知配信](../../automating/using/push-notification-delivery.md) 」セクションに表示されます。
 
 1. Select **[!UICONTROL Push notification]**.
 1. テンプレートを選択します。
@@ -39,93 +39,93 @@ Adobe Campaignを使用してプッシュ通知を作成する手順を次に示
 
    デフォルトでは、次の2つのテンプレートのいずれかを選択できます。
 
-   * **[!UICONTROL Send push to Campaign profiles]**:このテンプレートを使用して、モバイルアプリケーションを購読しているAdobe Campaign CRMプロファイルをターゲットにし、プッシュ通知の受信をオプトインします。[パーソナライゼーションフィールド](../../designing/using/inserting-a-personalization-field.md) は、受信者の名などのプッシュ通知に挿入できます。
-   * **[!UICONTROL Send push to app subscribers]**:このテンプレートを使用して、アプリケーションから通知を受信することをオプトインしている既知のすべてのモバイルアプリケーションユーザーにプッシュ通知を送信します。モバイルアプリケーションから収集したデータを使用して、これらのメッセージをパーソナライズできます。
-   多言語テンプレートを選択することもできます。For more information, refer to [Creating a multilingual push notification](../../channels/using/creating-a-multilingual-push-notification.md).
+   * **[!UICONTROL Send push to Campaign profiles]**:このテンプレートを使用して、モバイルアプリケーションを購読し、プッシュ通知を受信するように選択したAdobe Campaign CRMプロファイルを対象にします。 個人用設定フィ [ールドは](../../designing/using/personalization.md#inserting-a-personalization-field) 、受信者の名など、プッシュ通知に挿入できます。
+   * **[!UICONTROL Send push to app subscribers]**:このテンプレートを使用して、アプリケーションから通知を受け取るのを選択した既知の匿名モバイルアプリケーションユーザーにプッシュ通知を送信します。 これらのメッセージは、モバイルアプリケーションから収集したデータを使用してパーソナライズできます。
+   また、多言語テンプレートを選択することもできます。 詳細については、「多言語プッシュ通 [知を作成する」を参照してください](../../channels/using/creating-a-multilingual-push-notification.md)。
 
-   For more on templates, refer to the [Managing templates](../../start/using/about-templates.md) section.
+   テンプレートの詳細については、「テンプレートの管理」セク [ションを参照して](../../start/using/about-templates.md) ください。
 
-1. Enter your push notification properties and select your mobile app in the **[!UICONTROL Associate a Mobile App to a delivery]** field.
+1. プッシュ通知のプロパティを入力し、フィールドでモバイルアプリを選択 **[!UICONTROL Associate a Mobile App to a delivery]** します。
 
-   ドロップダウンには、SDK V4とExperience Platform SDKアプリケーションの両方が表示されることに注意してください。
+   ドロップダウンには、SDK V4とExperience Platform SDKアプリケーションの両方が表示されます。
 
    ![](assets/push_notif_properties.png)
 
-   プッシュ通知はキャンペーンにリンクできます。これを行うには、作成済みのキャンペーンから選択します。
+   プッシュ通知をキャンペーンにリンクできます。 これを行うには、作成済のキャンペーンから選択します。
 
-1. 次の画面では、特定のモバイルアプリケーションを購読しているすべてのVIP顧客など、オーディエンスを指定できます。For more on this, see [Creating audiences](../../audiences/using/creating-audiences.md).
+1. 次の画面では、対象ユーザーを指定できます。たとえば、特定のモバイルアプリケーションを購読しているVIPのすべての顧客を指定できます。 詳細については、「対象ユーザーの作成」を参 [照してくださ](../../audiences/using/creating-audiences.md)い。
 
-   オーディエンスは、前の手順で選択したモバイルアプリケーションに基づいて自動的にフィルタリングされます。
+   前の手順で選択したモバイルアプリケーションに基づいて、対象ユーザーが自動的にフィルタ処理されます。
 
    ![](assets/push_notif_audience.png)
 
-1. プッシュ通知をカスタマイズできるようになりました。First, choose the message style: **[!UICONTROL Alert/Message/Badge]** or **[!UICONTROL Silent push]**. The push notification types are described in the [About push notifications](../../channels/using/about-push-notifications.md) section.
+1. Push通知をカスタマイズできるようになりました。 まず、メッセージのスタイルを選択します。ま **[!UICONTROL Alert/Message/Badge]** た **[!UICONTROL Silent push]**&#x200B;は プッシュ通知の種類については、「プッシュ通知につ [いて](../../channels/using/about-push-notifications.md) 」を参照してください。
 
-   プッシュ通知のコンテンツを編集し、高度なオプションを定義します。See [Customizing a push notification](../../channels/using/customizing-a-push-notification.md).
+   プッシュ通知の内容を編集し、詳細オプションを定義します。 「プッシュ通 [知のカスタマイズ」を参照してくださ](../../channels/using/customizing-a-push-notification.md)い。
 
    ![](assets/push_notif_content.png)
 
-   ここで設定したプッシュ通知コンテンツおよびオプションは、ペイロードの形式でモバイルアプリに渡されます。The detailed structure of the payload is described in the [Understanding ACS push notifications payload structure](https://helpx.adobe.com/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html) technote.
+   ここで設定したプッシュ通知の内容とオプションは、ペイロードの形式でモバイルアプリに渡されます。 ペイロードの詳細な構造については、「 [Understanding ACS push notifications payload structure](https://helpx.adobe.com/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html) 」を参照してください。
 
-1. **[!UICONTROL Create]**&#x200B;をクリックします。
+1. Click **[!UICONTROL Create]**.
 
    ![](assets/push_notif_content_2.png)
 
-1. 通知を送信する前に、テストプロファイルでテストし、受信者が配信を送信する前に表示する内容を正確に確認できます。Select **[!UICONTROL Audiences]** from your delivery summary and click the **[!UICONTROL Test profiles]** tab.
+1. 通知を送信する前に、テストプロファイルを使用して通知をテストし、配信を送信する前に受信者が表示する内容を正確に確認できます。 配信要 **[!UICONTROL Audiences]** 約から選択し、タブをクリック **[!UICONTROL Test profiles]** します。
 
-   For more on sending tests, refer to [Test profiles](../../sending/using/managing-test-profiles-and-sending-proofs.md).
+   テストの送信の詳細については、「テストプロファイル」を参 [照してくださ](../../sending/using/managing-test-profiles-and-sending-proofs.md)い。
 
-1. Select your test profiles and click **[!UICONTROL Preview]** to display the notification: content is personalized with the test profile data.
-1. 様々なデバイスのプッシュ通知レイアウトを確認します。iPhone、Androidスマートフォン、iPadまたはAndroidタブレットを選択してレンダリングをプレビューします。
+1. テストプロファイルを選択し、をクリックし **[!UICONTROL Preview]** て通知を表示します。コンテンツは、テストプロファイルデータを使用してカスタマイズされます。
+1. 異なるデバイスでプッシュ通知のレイアウトを確認します。レンダリングをプレビューするには、iPhone、Android phone、iPad、またはAndroidタブレットを選択します。
 
    ![](assets/push_notif_preview.png)
 
-1. The **[!UICONTROL Estimated Payload Size]** is an estimate based on test profile data. 実際のペイロードサイズは異なる場合があります。メッセージの制限は4KBです。
+1. は、テ **[!UICONTROL Estimated Payload Size]** ストプロファイルデータに基づく見積です。 実際のペイロードサイズは、異なる場合があります。 メッセージの制限は4KBです。
 
    >[!CAUTION]
    >
-   >ペイロードサイズが上限4KBを超えると、メッセージは配信されません。パーソナライゼーションデータはメッセージのサイズに影響します。
+   >ペイロードサイズが4KBの制限を超える場合、メッセージは配信されません。 個人用設定データは、メッセージのサイズに影響します。
 
-## Sending the notification {#sending-the-notification}
+## 通知の送信 {#sending-the-notification}
 
-プッシュ通知は、オーディエンス条件を定義することで、Adobe Campaignで選択したオーディエンスに送信できます。以下の例では、選択したオーディエンスが4つのターゲットモバイルアプリの購読者で構成されています。
+プッシュ通知は、対象ユーザーの条件を定義することにより、Adobe Campaignで選択した対象ユーザーに送信できます。 次の例では、選択した対象ユーザーは4つのターゲットのモバイルアプリサブスクライバーで構成されています。
 
-1. Click **[!UICONTROL Prepare]** to compute the target and generate the notifications.
+1. をクリック **[!UICONTROL Prepare]** して、ターゲットを計算し、通知を生成します。
 
    ![](assets/push_send_1.png)
 
-1. Once the preparation has finished successfully, the **[!UICONTROL Deployment]** window presents the following KPIs: **[!UICONTROL Target]** and **[!UICONTROL To deliver]**. **[!UICONTROL To deliver]** この数は、ウィンドウの下部に **[!UICONTROL Targeted]** あるボタンをクリック ![](assets/lp_link_properties.png) して表示できる除外により、1より低いことに注意 **[!UICONTROL Deployment]** してください。
+1. Once the preparation has finished successfully, the **[!UICONTROL Deployment]** window presents the following KPIs: **[!UICONTROL Target]** and **[!UICONTROL To deliver]**. Note that the **[!UICONTROL To deliver]** count is lower than the **[!UICONTROL Targeted]** one due to exclusions which can be viewed by clicking ![](assets/lp_link_properties.png) button at the bottom of the **[!UICONTROL Deployment]** window.
 
    ![](assets/push_send_2.png)
 
-1. **[!UICONTROL Exclusion logs]** このタブでは、送信されたターゲットから除外されたすべてのメッセージのリストと、この除外の背後にある理由を確認できます。
+1. このタブ **[!UICONTROL Exclusion logs]** では、送信されたターゲットから除外されたすべてのメッセージの一覧と、この除外の原因を確認できます。
 
-   ここでは、プロファイルが重複しているので、モバイルアプリケーションの登録者の1人がブラックリストに記載されていて、他の購読者が他の購読者のものであることがわかりました。
+   ここでは、プロファイルが重複していたため、アドレスがブラックリストに含まれていたため、モバイルアプリのサブスクライバーの1つが除外されたことを確認できます。
 
    ![](assets/push_send_5.png)
 
-1. Click the **[!UICONTROL Exclusion causes]** tab to display the volume of excluded messages.
+1. タブをクリック **[!UICONTROL Exclusion causes]** して、除外されたメッセージのボリュームを表示します。
 
    ![](assets/push_send_7.png)
 
-1. You can now click **[!UICONTROL Confirm]** to start sending push notifications.
-1. メッセージのダッシュボードとログから配信状況を確認します。For more on this, see [Sending messages](../../sending/using/confirming-the-send.md) and [Delivery logs](../../sending/using/monitoring-a-delivery.md#delivery-logs).
+1. これで、押し込み通知の送信を **[!UICONTROL Confirm]** 開始するには、をクリックします。
+1. メッセージダッシュボードとログを使用して、配信のステータスを確認します。 詳細については、「メッセージと配信 [ログを送信する](../../sending/using/confirming-the-send.md) 」を参 [照してください](../../sending/using/monitoring-a-delivery.md#delivery-logs)。
 
-   この例では、メッセージダッシュボードに、Adobe Campaignがプッシュ通知を送信しようとしたことが表示されます。が正常にデバイスに配信され、もう1つが失敗しました。To know why the delivery has errors, click the ![](assets/lp_link_properties.png) button at the bottom of the **[!UICONTROL Deployment]** window.
+   この例では、メッセージダッシュボードに、Adobe Campaignが2つのプッシュ通知を送信しようとしたことが表示されます。1つはデバイスに正常に配信され、もう1つは障害が発生しました。 配信にエラーが発生した理由を確認するには、ウィンドウ ![](assets/lp_link_properties.png) の下部にあるボタンをクリック **[!UICONTROL Deployment]** します。
 
    ![](assets/push_send_4.png)
 
-1. **[!UICONTROL Deployment]** ウィンドウから、タブを **[!UICONTROL Sending logs]** クリックして、送信されたプッシュ通知とそのステータスのリストにアクセスします。この配信では、デバイストークンが不良なために、1つのプッシュ通知が正常に送信されました。その後、この購読者はさらに配信からブラックリストに登録されます。
+1. ウィンドウで **[!UICONTROL Deployment]** タブをクリックし **[!UICONTROL Sending logs]** て、送信されたプッシュ通知とそのステータスのリストにアクセスします。 この配信では、1つのプッシュ通知が正常に送信され、もう1つのプッシュ通知は不正なデバイストークンのために失敗しました。 この加入者は、今後の配信からブラックリストに表示されます。
 
    >[!NOTE]
    >
-   >Adobe Campaignには、何らかの障害をダウンストリームすることができます。apnsやfcmなどのプロバイダーからのエラーが発生した場合、その理由も反映されます。For more information on provider failures, you can refer to the [Apple](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CommunicatingwithAPNs.html) and [Android](https://firebase.google.com/docs/cloud-messaging/http-server-ref) documentation.
+   >理由は、Adobe Campaignの下流で発生した障害です。 apnやfcmなどのプロバイダが失敗した場合も、その理由は同様に反映される。 プロバイダの障害の詳細については、 [Apple](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CommunicatingwithAPNs.html) and [](https://firebase.google.com/docs/cloud-messaging/http-server-ref) Androidのマニュアルを参照してください。
 
    ![](assets/push_send_6.png)
 
-動的レポートでのプッシュ通知配信の影響を測定できるようになりました。
+動的なレポートを使用して、プッシュ通知の配信の影響を測定できるようになりました。
 
-**関連トピック:**
+**関連トピック：**
 
 * [プッシュ通知レポート](../../reporting/using/push-notification-report.md)
 * [ワークフロー内でのプッシュ通知の送信](../../automating/using/push-notification-delivery.md)
