@@ -1,156 +1,156 @@
 ---
-title: ランディングページのデザイン
-seo-title: ランディングページのデザイン
-description: ランディングページのデザイン
-seo-description: ランディングページのコンテンツをデザインしてサービスにリンクするには、次の手順に従います。
-page-status-flag: 常にアクティブ化されていない
-uuid: de6fe190-835c-40fd-8101- a809b430b423
-contentOwner: サウビート
-products: SG_ CAMPAIGN/STANDARD
-audience: チャネル
+title: ランディング·ページの設計
+seo-title: ランディング·ページの設計
+description: ランディング·ページの設計
+seo-description: 次の手順に従って、ランディング·ページの内容を設計し、サービスにリンクします。
+page-status-flag: 未活性化の
+uuid: de6fe190-835c-40fd-8101-a809b430b423
+contentOwner: サウビア
+products: SG_CAMPAIGN/STANDARD
+audience: チャンネル
 content-type: 参照
-topic-tags: ランディングページ
-discoiquuid: bd77d6f0-3143-4030- a91b-988a2bebc534
-context-tags: landingPage， main
-internal: n
-snippet: y
+topic-tags: ランディング·ページ
+discoiquuid: bd77d6f0-3143-4030-a91b-988a2bebc534
+context-tags: ランディングページ，メイン
+internal: 〜の
+snippet: イー
 translation-type: tm+mt
-source-git-commit: b0cf437ec97153b53bd4502171b24286abb25731
+source-git-commit: aa52fcca887c9423476a1bc0160d340f255b9ac8
 
 ---
 
 
-# Designing a landing page{#designing-a-landing-page}
+# ランディング·ページの設計{#designing-a-landing-page}
 
-## About content design {#about-content-design}
+## コンテンツデザインについて {#about-content-design}
 
-Landing pages are created as any [marketing activity](../../start/using/marketing-activities.md#about-marketing-activities).
+ランディング·ページは、任意のマーケティング·アクティビティ [として作成されま](../../start/using/marketing-activities.md#about-marketing-activities)す。
 
-ランディングページをデザインするときは、次のコンテンツを定義する必要があります。
+ランディング·ページを設計する場合は、次の内容を定義する必要があります。
 
-* ページ自体、
-* 確認ページ、
-* エラーページが表示されます。
+* ページ自体
+* 確認ページ
+* エラーページ。
 
-アクションバーの切り替えボタンを使用して、これらの各ページを表示および設定します。
+アクションバーの下のスイッチャを使用して、各ページを表示および設定します。
 
-これらのページのコンテンツは、キャンペーンコンテンツエディターを使用してデザインされます。Refer to [Design content](../../designing/using/about-landing-page-content-design.md).
+これらのページの内容は、キャンペーンコンテンツエディタを使用して設計されています。 「設計の内容」を [参照してください](../../channels/using/about-landing-page-content-design.md)。
 
-## Mapping form fields {#mapping-form-fields}
+## フォームフィールドのマッピング {#mapping-form-fields}
 
-入力フィールドは、Campaignデータベースにデータを保存または更新するために使用します。このためには、データベースのフィールドを入力ゾーン、ラジオボタンまたはチェックボックスタイプブロックにリンクする必要があります。これを行うには、次の手順に従います。
+入力フィールドは、キャンペーンデータベースにデータを格納または更新するために使用されます。 このためには、データベースフィールドを入力ゾーン、ラジオボタン、またはチェックボックスタイプブロックとリンクする必要があります。 これを行うには、次の手順に従います。
 
-1. ランディングページ内のブロックを選択します。
-1. Complete the **[!UICONTROL Form data]** part in the palette.
+1. ランディングページでブロックを選択します。
+1. パレットのパ **[!UICONTROL Form data]** ーツを完成させます。
 
    ![](assets/editing_lp_content_4.png)
 
-1. **[!UICONTROL Field]** 選択ゾーンのフォームフィールドにリンクするデータベースフィールドを選択します。
+1. 選択領域のフォームフィールドにリンクするデータベースフィールドを **[!UICONTROL Field]** 選択します。
 
-   **[!UICONTROL Mandatory]** このオプションを選択すると、ユーザーがこのフィールドを完了した場合にのみページを送信できます。必須フィールドが完了していない場合、ユーザーがページを検証するとエラーメッセージが表示されます。
+   このオプション **[!UICONTROL Mandatory]** をオンにした場合、ページは、ユーザーがこのフィールドを入力した場合にのみ送信できます。 必須フィールドが完了していない場合は、ユーザーがページを検証すると、エラーメッセージが表示されます。
 
    >[!NOTE]
    >
-   >Landing pages can only be mapped with **Profiles**.
+   >ランディング·ページは、プロファイルでのみマップで **きます**。
 
-1. Define the field type by choosing, for example **[!UICONTROL Text]**, **[!UICONTROL Number]**,or **[!UICONTROL Date]** in the **[!UICONTROL HTML type of the field]** selection area.
+1. 選択領域で、 、などを選択して、フ **[!UICONTROL Text]**&#x200B;ィールドの **[!UICONTROL Number]**&#x200B;種類を **[!UICONTROL Date]** 定義 **[!UICONTROL HTML type of the field]** します。
 
 >[!NOTE]
 >
->組み込みランディングページのデフォルトフィールドは事前に設定されています。必要に応じて変更できます。
+>組み込みのランディング·ページのデフォルト·フィールドは、事前に構成されています。 必要に応じて修正できます。
 
-## Submitting the form {#submitting-the-form}
+## フォームの送信 {#submitting-the-form}
 
-訪問者が送信ボタンをクリックしたときに実行するアクションを選択できます。これを行うには、次の手順に従います。
+ビジターが「送信」ボタンをクリックしたときに実行するアクションを選択できます。 これを行うには、次の手順に従います。
 
-1. ランディングページの送信ボタンを選択します。
-1. 左側のパネルのドロップダウンリストでアクションを選択します。Possible actions are: **[!UICONTROL Refresh]** (to refresh the page) and **[!UICONTROL Next page]** (to display the confirmation page).
+1. ランディング·ページの送信ボタンを選択します。
+1. 左側のパネルのドロップダウンリストからアクションを選択します。 次の操作が可能です。(ペ **[!UICONTROL Refresh]** ージを更新)と **[!UICONTROL Next page]** （確認ページを表示）。
 
    ![](assets/editing_lp_content_5.png)
 
-また、ボタンのラベルを変更したり、特定のリンクを設定したりできます。これを行うには、次の手順に従います。
+また、ボタンのラベルを変更したり、特定のリンクを構成することもできます。 これを行うには、次の手順に従います。
 
-1. 送信ボタンを選択します。
-1. Click on the ![](assets/lp_link_properties.png) button in the left panel.
-1. ボタンのラベルを入力し、リンクの種類、そのプロパティおよびターゲットを選択します。
+1. 「発行」ボタンを選択します。
+1. 左側のパネルのボ ![](assets/lp_link_properties.png) タンをクリックします。
+1. ボタンのラベルを入力し、リンクのタイプ、そのプロパティ、およびターゲットを選択します。
 
    ![](assets/lp_link_custom.png)
 
-## Linking a form to a service {#linking-a-form-to-a-service}
+## フォームをサービスにリンクする {#linking-a-form-to-a-service}
 
-フォームをサービスにリンクして、ランディングページの検証時にプロファイルが特定のサービスを購読できるようにすることができます。
+フォームをサービスにリンクして、プロファイルがランディング·ページを検証する際に特定のサービスを購読できるようにすることができます。
 
-ランディングページをリンクするパラメーターにより、実行されたアクションタイプと、ランディングページが単一のサービスにリンクされているか、汎用かどうかを指定できます。
+ランディング·ページをリンクするパラメータを使用すると、実行するアクション·タイプ、およびランディング·ページが単一のサービスに特別にリンクされているか、ジェネリックであるかを指定できます。
 
-リンクするサービスを選択するには、以下を行う必要があります。
+リンクするサービスを選択するには、次の操作を行う必要があります。
 
-1. Edit the landing page properties accessed via the ![](assets/edit_darkgrey-24px.png) icon in the landing page dashboard, and display the **[!UICONTROL Job]** parameters.
+1. ランディング·ページ·ダッシュボードのアイコンを使用してアク ![](assets/edit_darkgrey-24px.png) セスするランディング·ページのプロパティを編集し、パラメータを表 **[!UICONTROL Job]** 示します。
 
    ![](assets/lp_edit_properties_button.png)
 
-1. Choose **[!UICONTROL Subscription]** in the **[!UICONTROL Specific actions]** drop-down list.
+1. ドロップ **[!UICONTROL Subscription]** ダウンリスト **[!UICONTROL Specific actions]** からを選択します。
 
    ![](assets/lp_parameters_5.png)
 
-1. Select **[!UICONTROL Specific service]** to link the landing page to a single service. ランディングページで複数のサービスを使用する場合は、このオプションを選択しないでください。
+1. 選択す **[!UICONTROL Specific service]** ると、ランディング·ページが1つのサービスにリンクされます。 ランディング·ページで複数のサービスを使用する場合は、このオプションを選択しないでください。
 
-   **[!UICONTROL Specified service in the URL]** このオプションを使用して、ランディングページを複数のサービスに使用できるようにします。したがって、サービスの設定時にランディングページを参照する必要があります。
+   オプションを使 **[!UICONTROL Specified service in the URL]** 用して、ランディング·ページを複数のサービスに使用できるようにします。 したがって、サービスを構成する際にはランディング·ページを参照する必要があります。
 
-### Confirm a landing page submission {#confirm-a-landing-page-submission}
+### ランディングページの送信の確認 {#confirm-a-landing-page-submission}
 
-ランディングページが訪問者によって送信された場合、トリガーアクションを設定できます。これを行うには、次の手順に従います。
+ビジターがランディング·ページを送信すると、トリガーされるアクションを構成できます。 これを行うには、次の手順に従います。
 
-1. Edit the landing page properties accessed via the ![](assets/edit_darkgrey-24px.png) icon in the landing page dashboard, and display the **[!UICONTROL Job]** parameters.
+1. ランディング·ページ·ダッシュボードのアイコンを使用してアク ![](assets/edit_darkgrey-24px.png) セスするランディング·ページのプロパティを編集し、パラメータを表 **[!UICONTROL Job]** 示します。
 
    ![](assets/lp_edit_properties_button.png)
 
-1. Under the **[!UICONTROL Specific actions]** section, select **[!UICONTROL Start sending message]** to determine the sending of an automatic message, for example to confirm subscription to a service. 電子メール配信テンプレートを選択する必要があります。
+1. [ ]セクシ **[!UICONTROL Specific actions]** ョンで、自動メ **[!UICONTROL Start sending message]** ッセージの送信を決定する場合に選択します。たとえば、サービスへの購読を確認します。 次に、電子メール配信テンプレートを選択する必要があります。
 
-   サービスレベルで確認メッセージが既に設定されている場合、複数の確認メッセージを送信しないようにこの画面で1つ選択しないでください。Refer to [Configure a service](../../audiences/using/creating-a-service.md).
+   確認メッセージがサービス·レベルですでに構成されている場合は、複数の確認メッセージを送信しないように、この画面で確認メッセージを選択しないでください。 「サービスの [構成」を参照してください](../../audiences/using/creating-a-service.md)。
 
-1. Create **[!UICONTROL Additional data]** to enable storing additional data when the landing page is being submitted. このデータは、ページを訪問した人には表示されません。考慮されるのは一定の値のみです。
+1. [作成] **[!UICONTROL Additional data]** を選択すると、ランディング·ページの送信時に追加のデータを保存できます。 このデータは、ページにアクセスしたユーザーには表示されません。 定数値のみが考慮されます。
 
    ![](assets/lp_parameters_6.png)
 
-## Setting permissions and pre-loading data {#setting-permissions-and-pre-loading-data}
+## 権限の設定とデータの事前読み込み {#setting-permissions-and-pre-loading-data}
 
-ランディングページへのアクセスは、例えばキャンペーンによって送信されたメッセージのリンクから来た訪問者に制限できます。この場合、ランディングページでデータをプリロードできます。これを行うには、次の手順に従います。
+ランディング·ページへのアクセスは、たとえばキャンペーンから送信されるメッセージのリンクから来た特定の訪問者に制限できます。 この場合、ランディング·ページでデータをプリロードできます。 これを行うには、次の手順に従います。
 
-1. Edit the landing page properties accessed via the ![](assets/edit_darkgrey-24px.png) icon in the landing page dashboard, and display the **[!UICONTROL Access & loading]** parameters.
+1. ランディング·ページ·ダッシュボードのアイコンを使用してアク ![](assets/edit_darkgrey-24px.png) セスするランディング·ページのプロパティを編集し、パラメータを表 **[!UICONTROL Access & loading]** 示します。
 
    ![](assets/lp_edit_properties_button.png)
 
 1. Select **[!UICONTROL Preload visitor data]**.
 
-   ページへの訪問者がデータベース内のプロファイルに対応する場合、そのデータはデータベースデータとともにマッピングされるフォームのフィールドに表示され、ランディングページのパーソナライゼーションエレメントが考慮されます。
+   ページのビジターがデータベース内のプロファイルに対応する場合は、データベースデータと共にマップされたフォームのフィールドにそのデータが表示され、ランディング·ページのパーソナライズ要素が考慮されます。
 
    ![](assets/lp_parameters_3.png)
 
-また、次のこともできます。
+次の操作も実行できます。
 
-* **[!UICONTROL Authorize visitor identification via URL parameters]** 次のオプションを使用して、URLパラメーターを使用して訪問者を識別します。次に、ロードするキーを選択し、対応するURLのパラメーターを使用してフィルターパラメーターをマッピングする必要があります。
-* Authorize any visitor to access the landing page, using the **[!UICONTROL Authorize unidentified visitors]** option.
+* URLパラメータを使用して、次のオプションを使用してビジターを識別 **[!UICONTROL Authorize visitor identification via URL parameters]** します。次に、読み込みキーを選択し、対応するURLのパラメータを使用してフィルタパラメータをマップする必要があります。
+* オプションを使用して、任意のビジターがランディング·ページにアクセスできるように **[!UICONTROL Authorize unidentified visitors]** します。
 
-## Setting Google reCAPTCHA {#setting-google-recaptcha}
+## Google reCAPTCHAの設定 {#setting-google-recaptcha}
 
-ランディングページを使用してGoogle reCAPTCHA V3を設定し、ボットによるスパムや違反から保護することができます。ランディングページで使用できるようにするには、まず外部アカウントを作成する必要があります。For more information on how to configure it, refer to this [section](../../administration/using/external-accounts.md#google-recaptcha-external-account).
+Google reCAPTCHA V3をランディング·ページと共に設定し、ボットによるスパムや悪用から保護できます。 ランディング·ページで使用するには、まず外部アカウントを作成する必要があります。 設定方法の詳細については、このセクションを参照してく [ださい](../../administration/using/external-accounts.md#google-recaptcha-external-account)。
 
-Google reCaptCHA V3外部アカウントが設定されたら、ランディングページに追加できます。
+Google reCAPTCHA V3外部アカウントが設定されたら、次のランディングページに追加できます。
 
-1. Before publishing your landing page, access the page properties accessed via the ![](assets/edit_darkgrey-24px.png) icon from you landing page dashboard.
+1. ランディング·ページを公開する前に、ランディング·ページのダッシュボードからアイコンを使用してアク ![](assets/edit_darkgrey-24px.png) セスするページ·プロパティにアクセスします。
 
    ![](assets/lp_parameters_google3.png)
 
-1. Unfold the **[!UICONTROL Access & loading]** menu.
-1. **[!UICONTROL Use reCAPTCHA to protect your site from spam and abuse]** このオプションを選択します。
-1. 以前に作成したGoogle reCaptCHA外部アカウントを選択します。
+1. メニューを展開 **[!UICONTROL Access & loading]** します。
+1. オプションを確認 **[!UICONTROL Use reCAPTCHA to protect your site from spam and abuse]** します。
+1. 以前に作成したGoogle reCAPTCHA外部アカウントを選択します。
 
    ![](assets/lp_parameters_google.png)
 
-1. **[!UICONTROL Confirm]**&#x200B;をクリックします。
+1. Click **[!UICONTROL Confirm]**.
 
-ランディングページがGoogle reCaptchAで設定され、ページの下部に表示できるようになりました。
+これで、ランディング·ページがGoogle reCAPTCHAで設定され、ページの下部に表示されます。
 
 ![](assets/lp_parameters_google2.png)
 
-Google reCaptchAは、ユーザーのページとのインタラクションに基づいてスコアを返します。To check your score, connect to your [Google admin console](https://g.co/recaptcha/admin).
+次に、Google reCAPTCHAは、ユーザーのページとのやり取りに基づいてスコアを返します。 スコアを確認するには、 [Google管理コンソールに接続します](https://g.co/recaptcha/admin)。
