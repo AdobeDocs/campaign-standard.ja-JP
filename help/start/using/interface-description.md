@@ -2,146 +2,146 @@
 title: インターフェイスの説明
 seo-title: インターフェイスの説明
 description: インターフェイスの説明
-seo-description: '"Adobe Campaignワークスペースのナビゲート方法と使用方法について教えてください。ホームページ、上部バー、詳細メニューおよびアクションバー」'
-page-status-flag: 常にアクティブ化されていない
-uuid: af9f0f1f- d24a-4dc7- b4a8-70290de6eb3f
-contentOwner: サウビート
-products: SG_ CAMPAIGN/STANDARD
-audience: start
+seo-description: 「Adobe Campaignワークスペースをナビゲートして使用する方法を学習します。ホームページ、トップバー、詳細メニュー、およびアクションバー」
+page-status-flag: 未活性化の
+uuid: af9f0f1f-d24a-4dc7-b4a8-70290de6eb3f
+contentOwner: サウビア
+products: SG_CAMPAIGN/STANDARD
+audience: 開始
 content-type: 参照
-topic-tags: Discover- the- interface
-discoiquuid: dafd9860- cd22-4c30-86b7-631b64db7b3f
-internal: n
-snippet: y
+topic-tags: インターフェースの発見
+discoiquuid: dafd9860-cd22-4c30-86b7-631b64db7b3f
+internal: 〜の
+snippet: イー
 translation-type: tm+mt
-source-git-commit: 806dc4736ffb395a0eea102090c688102478aaca
+source-git-commit: 14155f29492f66b070dd302c59bdd8e81008f281
 
 ---
 
 
-# Interface description{#interface-description}
+# インターフェイスの説明{#interface-description}
 
-Adobe Campaignを使用すると、様々なメニューや画面をナビゲートしてキャンペーンを管理できます。
+Adobe Campaignでは、さまざまなメニューや画面を移動してキャンペーンを管理できます。
 
-Adobe Campaign画面はすべて、次の要素で構成されています。
+Adobe Campaignのすべての画面は、次の要素で構成されています。
 
-* ナビゲーション用の上部バー
-* 特定の機能および設定にアクセスするためのアドバンスメニュー
-* 特定の要素で機能する中央ゾーン
-* 表示されている要素内でフィルターまたは検索するための、コンテキストに従った横長のパネル。
+* ナビゲーション用のトップバー
+* 特定の機能と構成にアクセスする高度なメニュー
+* 特定の要素に対して作業を行う中央ゾーン
+* コンテキストに応じて、表示される要素内でフィルタまたはサーチを行う横型パネル。
 
 ![](assets/ux_interface_01.png)
 
-## Home page {#home-page}
+## ホームページ {#home-page}
 
-ホームページは、Adobe Campaignの主要な機能にすばやくアクセスできる一連のカードで構成されています。キャンペーンホームページで表示できる容量のリストは、権限と組織に設定されているオプションによって異なります。
+ホームページは、Adobe Campaignの主な機能にすばやくアクセスできるカードのセットで構成されています。 キャンペーンのホームページに表示される容量のリストは、権限と組織に対して構成されたオプションによって異なります。
 
 ![](assets/overview_home_page.png)
 
-* **[!UICONTROL Create an email]** カードによって電子メール作成アシスタントに移動します。このアシスタントでは、電子メールの種類を選択したり、メッセージ受信者を選択したり、コンテンツを定義したりできます。Refer to the [Creating an email](../../channels/using/creating-an-email.md) section.
-* **[!UICONTROL Create an SMS]** カードによってSMS作成アシスタントに移動します。このアシスタントでは、SMSタイプを選択し、メッセージ受信者を選択してコンテンツを定義できます。Refer to the [Creating an SMS](../../channels/using/creating-an-sms-message.md) section.
-* **[!UICONTROL Create a Direct mail]** カードによってダイレクトメール作成アシスタントが送信されます。Refer to the [Creating a direct mail](../../channels/using/creating-the-direct-mail.md) section.
-* **[!UICONTROL Create a push notification]** カードによって通知作成アシスタントに移動します。このアシスタントでは、プッシュ通知タイプを選択し、メッセージ受信者を選択してコンテンツを定義できます。Refer to the [Creating a push notification](../../channels/using/preparing-and-sending-a-push-notification.md) section.
-* **[!UICONTROL Create an InApp message]** カードには、InApp作成アシスタントが表示されます。このアシスタントでは、作成するinAppメッセージのタイプを選択し、そのプロパティ、オーディエンスおよびコンテンツを定義できます。Refer to the [Creating an InApp message](../../channels/using/about-in-app-messaging.md) section.
-* The **[!UICONTROL Marketing activities]** card takes you to the complete list of all the activities, programs, and campaigns, particularly emails, SMS, workflows, and landing pages. ここから、名前、日付、ステータスまたはアクティビティタイプで検索して要素をフィルターできます。For more on this, refer to the [Marketing activity list](../../start/using/marketing-activities.md#about-marketing-activities) section.
-* **[!UICONTROL Programs & campaigns]** カードには、キャンペーンを作成して管理できるプログラムのリストが表示されます。[プログラムリスト](../../start/using/programs-and-campaigns.md#about-plans--programs-and-campaigns)を参照してください。
-* **[!UICONTROL Timeline]** カードは、マーケティング活動のインタラクティブタイムラインに直接移動し、継続的なプログラムとそのコンテンツを問い合わせます。Refer to [Timeline](../../start/using/timeline.md).
-* **[!UICONTROL Customer profiles]** カードによってプロファイルのリストが直接表示されます。ここから、リスト内の各プロファイルに関するイベントを問い合わせることができます。Refer to [Managing profiles](../../audiences/using/about-profiles.md).
-* **[!UICONTROL Audiences]** カードは、オーディエンスのリストに直接移動します。ここから、既存のオーディエンスにアクセスし、新しいオーディエンスを構築できます。Refer to [Managing audiences](../../audiences/using/about-audiences.md).
+* このカ **[!UICONTROL Create an email]** ードを使うと、電子メール作成アシスタントに移動します。 このアシスタントでは、電子メールの種類を選択し、メッセージの受信者を選択して、コンテンツを定義できます。 「電子メールの作 [成」の項を参照してください](../../channels/using/creating-an-email.md) 。
+* このカ **[!UICONTROL Create an SMS]** ードを使用すると、SMS作成アシスタントに移動します。 このアシスタントでは、SMSの種類を選択し、メッセージの受信者を選択して、コンテンツを定義できます。 「SMSの作成」 [の項を参照してください](../../channels/using/creating-an-sms-message.md) 。
+* このカ **[!UICONTROL Create a Direct mail]** ードを使うと、ダイレクトメール作成アシスタントに移動します。 「ダイレクトメ [ールの作成」を参照](../../channels/using/creating-the-direct-mail.md) 。
+* このカ **[!UICONTROL Create a push notification]** ードを使用すると、通知作成アシスタントに移動します。 このアシスタントでは、プッシュ通知の種類を選択し、メッセージの受信者を選択して、コンテンツを定義できます。 「プッシュ通知 [の作成」の項を参照](../../channels/using/preparing-and-sending-a-push-notification.md) 。
+* このカ **[!UICONTROL Create an InApp message]** ードを使用すると、InApp作成アシスタントに移動します。 このアシスタントでは、作成するInAppメッセージの種類を選択し、そのプロパティ、対象ユーザー、コンテンツを定義できます。 「InAppメッセージ [の作成」の項を参照してください](../../channels/using/about-in-app-messaging.md) 。
+* このカ **[!UICONTROL Marketing activities]** ードには、すべてのアクティビティ、プログラム、キャンペーン、特にEメール、SMS、ワークフロー、およびランディングページの完全な一覧が表示されます。 ここから、名前、日付、ステータス、またはアクティビティ·タイプで検索して、要素をフィルタできます。 詳細は、「マーケティング活動リスト」の項 [を参照してください](../../start/using/marketing-activities.md#about-marketing-activities) 。
+* このカ **[!UICONTROL Programs & campaigns]** ードを使用すると、キャンペーンを作成、管理できるプログラムの一覧が表示されます。 「プログラム」リ [ストを参照](../../start/using/programs-and-campaigns.md#about-plans--programs-and-campaigns)。
+* このカ **[!UICONTROL Timeline]** ードを使用すると、マーケティング活動のインタラクティブなタイムラインに直接移動し、進行中のプログラムとその内容を確認できます。 タイムラインを参 [照してくださ](../../start/using/timeline.md)い。
+* このカ **[!UICONTROL Customer profiles]** ードを使用すると、プロファイルの一覧に直接移動できます。 ここから、リスト内の各プロファイルに関するイベントを参照できます。 「プロファイルの [管理」を参照](../../audiences/using/about-profiles.md)。
+* このカ **[!UICONTROL Audiences]** ードを使うと、直接観客のリストに移動します。 ここから既存の視聴者にアクセスし、新しい観客を作成できます。 「対象ユーザーの [管理」を参照](../../audiences/using/about-audiences.md)。
 
-## Top bar {#top-bar}
+## トップバー {#top-bar}
 
-上部バーはすべての画面で表示され、Adobe Campaign機能のナビゲーションや、接続されているAdobeプロファイル、通知、その他のAdobe Experience Cloudサービスおよびソリューションおよびドキュメントにアクセスできます。
+トップバーはすべての画面に表示され、Adobe Campaignの機能に移動し、接続されたAdobeプロファイル、通知、その他のAdobe Experience Cloudサービスとソリューション、およびドキュメントにアクセスできます。
 
-ナビゲーション原則は次のとおりです。
+ナビゲーションの原理は次のとおりです。
 
-* The **[!UICONTROL Adobe Campaign]** logo in the top left-hand corner of the page gives you access to the advanced capabilities and configurations. メニューはプロファイルと権限によって異なります。
+* ペー **[!UICONTROL Adobe Campaign]** ジの左上隅にあるロゴを使用すると、高度な機能と構成にアクセスできます。 メニューは、プロファイルと権限によって異なります。
 
-   The advanced menu is presented in the [Advanced menu](../../start/using/interface-description.md#advanced-menu) section.
+   「拡張」メニューは、「拡張」メニュー [の項に表示され](../../start/using/interface-description.md#advanced-menu) ます。
 
-* **[!UICONTROL Home]** このリンクにより、Adobe Campaignホームページを表示できます。
-* **[!UICONTROL Marketing activities]****[!UICONTROL Programs & Campaigns]**、 **[!UICONTROL Profiles]****[!UICONTROL Audiences]****[!UICONTROL Reports]** およびリンクを使用すると、これらの機能にリンクされているビューにアクセスできます。
-* **[!UICONTROL Help]** このボタンにより、製品ドキュメントおよびコンテキストヘルプ、リリースノート、バージョン番号、法律上の注意、およびAdobe Experience Cloudコミュニティおよびカスタマーケアへのリンクにアクセスできます。
+* このリ **[!UICONTROL Home]** ンクを使用すると、Adobe Campaignのホームページを表示できます。
+* 、、、 **[!UICONTROL Marketing activities]**&#x200B;およ **[!UICONTROL Programs & Campaigns]**&#x200B;びリン **[!UICONTROL Profiles]**&#x200B;クを使用し **[!UICONTROL Audiences]****[!UICONTROL Reports]** て、これらの機能にリンクされたビューにアクセスできます。
+* このボ **[!UICONTROL Help]** タンを使用すると、製品のドキュメントやコンテキストヘルプ、リリースノート、バージョン番号、法律上の注意事項、Adobe Experience Cloudコミュニティやカスタマーケアへのリンクを参照できます。
 
    ![](assets/ux_help.png)
 
-* The **Select solution** icon lets you switch to another Adobe Experience Cloud solution as well as to the profile settings.
-* **通知** アイコンには、最新のアラートまたは情報が表示されます。
-* **ユーザー** アイコンを使用すると、プロファイルにリンクされている情報を表示できます。**[!UICONTROL Sign out]** ボタンにアクセスできます。
+* ソリュー **ションの選択** (Select solution)アイコンを使用すると、プロファイル設定だけでなく、別のAdobe Experience Cloudソリューションに切り替えることができます。
+* 「≪通知| **Notifications** |emdw≫」アイコンには、最新のアラートまたは情報が表示されます。
+* 「≪ユー **ザー** |User|marvel≫」アイコンを使用すると、プロファイルにリンクされた情報を表示できます。 ボタンにアクセスで **[!UICONTROL Sign out]** きます。
 
-## Advanced menu {#advanced-menu}
+## [詳細設定]メニュー {#advanced-menu}
 
-The advanced menu is displayed by clicking the **Adobe Campaign** icon, in the top left corner of each screen. 詳細メニューは、契約およびユーザー権限によって異なります。
+各画面の左上隅にある **Adobe Campaign** アイコンをクリックすると、詳細メニューが表示されます。 詳細メニューは、契約やユーザーの権限によって異なる場合があります。
 
-このメニューでは、特定の機能や設定に移動できます。
+このメニューを使用すると、特定の機能と設定に移動できます。
 
-### Marketing plans {#marketing-plans}
+### マーケティング計画 {#marketing-plans}
 
-**[!UICONTROL Marketing plans]** アイコンにより、次の機能にアクセスできます。
+このアイ **[!UICONTROL Marketing plans]** コンを使用すると、次の機能にアクセスできます。
 
-* **[!UICONTROL Marketing activities]** - 詳しくは [、マーケティングアクティビティリスト](../../start/using/marketing-activities.md#about-marketing-activities) の節を参照してください。
-* **[!UICONTROL Programs & Campaigns]** - 詳しくは [、プログラムリスト](../../start/using/programs-and-campaigns.md#about-plans--programs-and-campaigns) の節を参照してください。
-* **[!UICONTROL Timeline]** - 詳しくは [、「タイムライン](../../start/using/timeline.md) 」セクションを参照してください。
-* **[!UICONTROL Transactional messages]**&#x200B;を参照 **[!UICONTROL Deliveries]****[!UICONTROL Event configuration]**[してください。](../../channels/using/about-transactional-messaging.md)
+* **[!UICONTROL Marketing activities]** -詳細は、「マーケティング活動リスト」の項 [を参照してください](../../start/using/marketing-activities.md#about-marketing-activities) 。
+* **[!UICONTROL Programs & Campaigns]** -詳細は、「プログラムリスト」の項を参 [照してください](../../start/using/programs-and-campaigns.md#about-plans--programs-and-campaigns) 。
+* **[!UICONTROL Timeline]** -詳細は、「タイムライン」の項を参照し [てください](../../start/using/timeline.md) 。
+* **[!UICONTROL Transactional messages]**&#x200B;には、サブメニューとが含まれ **[!UICONTROL Deliveries]** てい **[!UICONTROL Event configuration]** ます。詳細については、「トランザクションメッセージング [](../../channels/using/about-transactional-messaging.md) 」の項を参照してください。
 
-### Profiles &amp; audiences {#profiles-e-audiences}
+### プロファイルと対象ユーザー {#profiles-e-audiences}
 
-**[!UICONTROL Profiles & audiences]** アイコンを使用すると、次の機能にアクセスできます。
+このア **[!UICONTROL Profiles & audiences]** イコンを使用すると、次の機能にアクセスできます。
 
-* **[!UICONTROL Profiles]** - 詳しくは、「プロファイル [の管理](../../audiences/using/about-profiles.md) 」セクションを参照してください。
-* **[!UICONTROL Test profiles]** - の詳細については、「テストプロファイル [の管理](../../sending/using/managing-test-profiles-and-sending-proofs.md#managing-test-profiles) 」セクションを参照してください。
-* **[!UICONTROL Audiences]** - 詳しくは、「オーディエンス [の管理](../../audiences/using/about-audiences.md) 」セクションを参照してください。
-* **[!UICONTROL Services]** - の詳細については、「サービスの [作成](../../audiences/using/creating-a-service.md) 」セクションを参照してください。
+* **[!UICONTROL Profiles]** -詳細は、「プロファイルの管理」の項を参照 [してください](../../audiences/using/about-profiles.md) 。
+* **[!UICONTROL Test profiles]** -詳細については、「テストプロファイルの管 [理」の項を参照してください](../../sending/using/managing-test-profiles-and-sending-proofs.md#managing-test-profiles) 。
+* **[!UICONTROL Audiences]** -詳細は、「対象ユーザーの管理」の項を参 [照してくださ](../../audiences/using/about-audiences.md) い。
+* **[!UICONTROL Services]** -詳細は、「サービスの作成」の項を [参照してください](../../audiences/using/creating-a-service.md) 。
 
-### Resources {#resources}
+### リソース {#resources}
 
-**[!UICONTROL Resources]** アイコンを使用すると、次の機能にアクセスできます。
+このア **[!UICONTROL Resources]** イコンを使用すると、次の機能にアクセスできます。
 
-* **[!UICONTROL Templates]**&#x200B;には、テンプレートの各タイプのサブメニューが含まれています。これについては、テンプレート [の管理](../../start/using/about-templates.md) セクションを参照してください。
-* **[!UICONTROL Content blocks]** - 詳しくは、「コンテンツブロックの [追加](../../designing/using/adding-a-content-block.md) 」を参照してください。
-* **[!UICONTROL Content templates & fragments]** - 詳しくは [、「コンテンツテンプレート](../../start/using/about-templates.md#content-templates) 」セクションを参照してください。
+* **[!UICONTROL Templates]**&#x200B;の各タイプのテンプレートのサブメニューが含まれています。詳細は、「テンプレートの管理」の項を参照 [してください](../../start/using/about-templates.md) 。
+* **[!UICONTROL Content blocks]** -詳細は、「コンテンツブロックを追加する [」の項を参照してください](../../designing/using/personalization.md#adding-a-content-block) 。
+* **[!UICONTROL Content templates & fragments]** -詳細は、「コンテンツテンプレート」の項を参 [照してください](../../designing/using/using-reusable-content.md#content-templates) 。
 
-### Administration {#administration}
+### 管理 {#administration}
 
-**[!UICONTROL Administration]** アイコンを使用すると、機能管理者が実行できる高度な機能にアクセスできます。For more on this, refer to the [Administration](../../administration/using/about-administrating-adobe-campaign.md) section.
+このア **[!UICONTROL Administration]** イコンを使用すると、機能管理者のみが実行できる高度な機能にアクセスできます。 詳細は、「 [Administration](../../administration/using/about-administrating-adobe-campaign.md) 」の項を参照してください。
 
-## Central zone {#central-zone}
+## 中央領域 {#central-zone}
 
-ユーザーインターフェイスの中央ゾーンは、要素またはカードのセットを含む動的ゾーンです。これにより、既存の要素を編集してリソースを作成できます。
+ユーザインタフェースの中央ゾーンは、要素のリストやカードのセットなどを含む動的ゾーンです。 既存の要素を編集し、リソースを作成できます。
 
 ![](assets/ux_genericscreen.png)
 
-中央ゾーンのコンテンツと表示形式は異なる場合があります。
+中央ゾーンのコンテンツと表示形式は、次のように異なります。
 
-* **プログラム、キャンペーン、プロファイルなどのさまざまな要素** を表示するリスト。These elements can be viewed in **[!UICONTROL Card]** or **[!UICONTROL List]** mode. 変更モードボタンを使用して切り替えます。各要素にはインジケーターが表示されます。
+* プログ **ラム** 、キャンペーン、プロファイルなど、さまざまな要素を示すリスト。 これらの要素は、またはモードで表 **[!UICONTROL Card]** 示で **[!UICONTROL List]** きます。 切り替えモードボタンを使用して、切り替えます。 各要素にはインジケータが表示されます。
 
    ![](assets/ux_liste.png)
 
-   カウンターを使用すると、要素数を認識できます。この数が30を超えると、このカウンターをクリックして合計数を取得する必要があります。
+   カウンタを使用すると、要素の数を認識できます。 この数が30を超える場合は、このカウンタをクリックして合計数を取得する必要があります。
 
-* A **dashboard** presenting an overview of all the parameters linked to an activity. この画面にはインタラクティブゾーンが含まれており、これらのゾーンを個別に分離して別々の概念を設定できます。
+* アクティビティ **にリンクされた** 、すべてのパラメータの概要を示すダッシュボード。 この画面には、異なる概念を個別に切り分けて構成できる対話型ゾーンが含まれています。
 
    ![](assets/ux_dashboard.png)
 
-* If several offers are possible when creating an element, a **selection screen** allows you to select the type of element to add (campaigns, deliveries). この選択画面では、レポートにアクセスすることもできます。
+* エレメントの作成時に複数のオファーが可能な場合は、 **選択画面で** 、追加するエレメントのタイプ（キャンペーン、搬送）を選択できます。 この選択画面は、レポートにアクセスするためにも表示されます。
 
    ![](assets/ux_activityselection.png)
 
-* For the workflows and the query editor, a **workspace** with a palette is made available for you to design the object.
+* ワークフローとクエリーエディタの場合は **** 、パレットを含むワークスペースを使用してオブジェクトを設計できます。
 
-   パレットから要素をワークスペースにドラッグ&amp;ドロップして、対象の要素を設定できます。
+   パレットからワークスペースに要素をドラッグ&amp;ドロップして、問題の要素を設定できます。
 
    ![](assets/ux_workspace.png)
 
-## Action bar {#action-bar}
+## アクションバー {#action-bar}
 
-画面の種類に応じて、画面にリンクされているアクションを含むバーが上部に表示されます。
+表示される画面の種類に応じて、画面にリンクされたアクションを含むバーが上部に表示されます。
 
 ![](assets/actionbar.png)
 
 このバーには、検索やフィルタリングなどの一般的なアクションだけでなく、表示される画面に関するアクションも含まれます。
 
-* **Workspace** タイプ画面に関連するアクションについては、ワークフローの [「アクションバー](../../automating/using/workflow-interface.md#action-bar) 」セクションを参照してください。
-* **ダッシュボード** 画面に関連するアクションについては、 [「メッセージダッシュボード](../../channels/using/message-dashboard.md) 」セクションを参照してください。
-* **リスト** タイプ画面に関連するアクションについては、以下の「リスト [のカスタマイズ](../../start/using/customizing-lists.md) 」を参照してください。
+* ワークスペースタイプの画 **面に関連するアクションについては** 、ワークフローの[アクションバー [](../../automating/using/workflow-interface.md#action-bar) ]セクションを参照してください。
+* ダッシュボード画面に関連するア **クションについては** 、「メッセージダッシュボード [](../../channels/using/message-dashboard.md) 」の項を参照してください。
+* リストタイプ画面に関連 **するアクションは** 、次の「リストのカスタマイズ [」の項を参照してください](../../start/using/customizing-lists.md) 。
 
