@@ -1,203 +1,203 @@
 ---
-title: プロファイルリソースの新しいフィールドへの拡張
-seo-title: プロファイルリソースの新しいフィールドへの拡張
-description: プロファイルリソースの新しいフィールドへの拡張
-seo-description: プロファイルリソースを拡張する方法について説明します。
-page-status-flag: 常にアクティブ化されていない
-uuid: 9b99e95c-93ff-4187-90f7- db0baf5369ad
-contentOwner: サウビート
-products: SG_ CAMPAIGN/STANDARD
+title: 新しいフィールドを使用してプロファイルリソースを拡張する
+seo-title: 新しいフィールドを使用してプロファイルリソースを拡張する
+description: 新しいフィールドを使用してプロファイルリソースを拡張する
+seo-description: プロファイルリソースを拡張する方法を説明します。
+page-status-flag: 未活性化の
+uuid: 9b99e95c-93ff-4187-90f7-db0baf5369ad
+contentOwner: サウビア
+products: SG_CAMPAIGN/STANDARD
 audience: 開発中
 content-type: 参照
-topic-tags: use- case——拡張リソース
-discoiquuid: 1e0f8945- fc3c-46a9- a8e5- b181a1f5ffcb
-internal: n
-snippet: y
+topic-tags: ユースケース
+discoiquuid: 1e0f8945-fc3c-46a9-a8e5-b181a1f5ffcb
+internal: 〜の
+snippet: イー
 translation-type: tm+mt
-source-git-commit: 806dc4736ffb395a0eea102090c688102478aaca
+source-git-commit: e946069dd4cbd16085aaa8ac9fa2ea08beb74b5f
 
 ---
 
 
-# Extending the profile resource with a new field{#extending-the-profile-resource-with-a-new-field}
+# 新しいフィールドを使用してプロファイルリソースを拡張する{#extending-the-profile-resource-with-a-new-field}
 
-## About extending profiles {#about-extending-profiles}
+## プロファイルの延長について {#about-extending-profiles}
 
-この使用例では、プロファイルを拡張し、専用フィールドを使用してテストプロファイルを拡張します。
+この使用例では、専用フィールドを使用してプロファイルとテストプロファイルを拡張する方法を詳しく説明します。
 
-ここでは、ランディングページを使用してプロファイルを更新し、関心に特有のニュースレターを使用してプロファイルをターゲット化します。
+ここでは、ランディング·ページを使用して新しいフィールドでプロファイルを更新し、目的に合ったニュースレターでプロファイルをターゲットにします。
 
 そのためには、次の手順に従います。
 
-* [手順1:プロファイルリソースの拡張](../../developing/using/extending-the-profile-resource-with-a-new-field.md#step-1--extend-the-profile-resource)
+* [ステップ1:プロファイルリソースの拡張](../../developing/using/extending-the-profile-resource-with-a-new-field.md#step-1--extend-the-profile-resource)
 * [手順2:テストプロファイルの拡張](../../developing/using/extending-the-profile-resource-with-a-new-field.md#step-2--extend-the-test-profile)
-* [手順3:カスタムリソースの公開](../../developing/using/extending-the-profile-resource-with-a-new-field.md#step-3--publish-your-custom-resource)
-* [手順4:ワークフローを使用したプロファイルの更新とターゲット化](../../developing/using/extending-the-profile-resource-with-a-new-field.md#step-4--update-and-target-profiles-with-a-workflow)
+* [ステップ3:カスタムリソースの発行](../../developing/using/extending-the-profile-resource-with-a-new-field.md#step-3--publish-your-custom-resource)
+* [手順4:ワークフローを使用してプロファイルを更新し、ターゲットにする](../../developing/using/extending-the-profile-resource-with-a-new-field.md#step-4--update-and-target-profiles-with-a-workflow)
 
-次のフィールドがプロファイルに追加され、配信の対象となります。
+次のフィールドがプロファイルに追加され、配信の対象になります。
 
 ![](assets/schema_extension_uc20.png)
 
-関連トピック:
+関連トピック：
 
 * [カスタムリソースについて](../../developing/using/data-model-concepts.md)
 * [プロファイルの管理](../../audiences/using/about-profiles.md)
 * [テストプロファイルの管理](../../sending/using/managing-test-profiles-and-sending-proofs.md#managing-test-profiles)
 
-## Step 1: Extend the profile resource {#step-1--extend-the-profile-resource}
+## ステップ1:プロファイルリソースの拡張 {#step-1--extend-the-profile-resource}
 
-To create the new **Interest** field for our profiles, you first need to extend the out-of-the-box **[!UICONTROL Profiles (profile)]** resource.
+プロファイルの新しい **Interest** （利益）フィールドを作成するには、まず、既定のリソースを拡張する必要があ **[!UICONTROL Profiles (profile)]** ります。
 
-1. From the advanced menu, via the Adobe Campaign logo, select **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]**, then **[!UICONTROL Custom resources]**.
-1. If you have not extended the **[!UICONTROL Profiles]** resource yet, click **[!UICONTROL Create]**.
-1. **[!UICONTROL Extend an existing resource]** オプションを選択します。
-1. **[!UICONTROL Profile (profile)]** リソースを選択します。
-1. **[!UICONTROL Create]**&#x200B;をクリックします。
+1. 詳細メニューから、Adobe Campaignロゴを使用して、 &gt;を選 **[!UICONTROL Administration]** 択し、 **[!UICONTROL Development]**&#x200B;を選択しま **[!UICONTROL Custom resources]**&#x200B;す。
+1. リソースをまだ拡張していない場 **[!UICONTROL Profiles]** 合は、をクリックしま **[!UICONTROL Create]**&#x200B;す。
+1. オプションを選択 **[!UICONTROL Extend an existing resource]** します。
+1. リソースを選択 **[!UICONTROL Profile (profile)]** します。
+1. Click **[!UICONTROL Create]**.
 
    ![](assets/schema_extension_uc5.png)
 
-1. In the **[!UICONTROL Fields]** category of the **[!UICONTROL Data structure]** tab, click **[!UICONTROL Create element]**.
+1. タブのカテ **[!UICONTROL Fields]** ゴリで、を **[!UICONTROL Data structure]** クリックしま **[!UICONTROL Create element]**&#x200B;す。
 
    >[!NOTE]
    >
-   >Note that if you already extended the **[!UICONTROL Profile]** resource for previous purposes, you can start at this step by clicking **[!UICONTROL Add field]**.
+   >以前の目的でリソースを拡張し **[!UICONTROL Profile]** た場合は、をクリックしてこの手順を開始できます **[!UICONTROL Add field]**。
 
    ![](assets/schema_extension_uc6.png)
 
-1. Add a **[!UICONTROL Label]** and an **[!UICONTROL ID]**. **[!UICONTROL Text]** タイプを選択して、をクリック **[!UICONTROL Add]**&#x200B;します。
+1. とを追 **[!UICONTROL Label]** 加します **[!UICONTROL ID]**。 タイプを選択し、 **[!UICONTROL Text]** をクリックしま **[!UICONTROL Add]**&#x200B;す。
 
    ![](assets/schema_extension_uc9.png)
 
 1. フィールドを設定するには、「**[!UICONTROL Data structure]** ドロップダウンの下にある「**[!UICONTROL Fields]**」タブで、![](assets/schema_extension_uc8.png) をクリックしてから、以前作成したフィールドの ![](assets/schema_extension_uc7.png) をクリックします。
-1. In this example we want to add specific values, to do so click **[!UICONTROL Specify a list of authorized values]**.
+1. この例では、特定の値を追加し、をクリックします **[!UICONTROL Specify a list of authorized values]**。
 
    ![](assets/schema_extension_uc10.png)
 
-1. Click **[!UICONTROL Add an element]** then add as many value as needed by adding a **[!UICONTROL Label]** and an **[!UICONTROL ID]** and clicking **[!UICONTROL Add]**.
+1. をクリ **[!UICONTROL Add an element]** ックし、とを追加してをクリックし、必要な数だ **[!UICONTROL Label]** け値を追 **[!UICONTROL ID]** 加します **[!UICONTROL Add]**。
 
-   ここでは、これらのオプションの選択に使用するプロファイルの書籍、展覧会、映画、および該当なしの値を作成します。
+   ここでは、プロファイルのブック、展示会、映画、およびN/A値を作成し、これらのオプションを選択します。
 
    ![](assets/schema_extension_uc11.png)
 
-1. To add this field in the **[!UICONTROL Profile]** screen, click the **[!UICONTROL Screen definition]** tab.
-1. **[!UICONTROL Detail screen configuration]** ドロップダウンで、をクリック **[!UICONTROL Add a personalized fields section]** してクリック **[!UICONTROL Create element]**&#x200B;します。
+1. このフィールドを画面に追加す **[!UICONTROL Profile]** るには、タブをクリック **[!UICONTROL Screen definition]** します。
+1. ドロップダウ **[!UICONTROL Detail screen configuration]** ンでをクリックし、をク **[!UICONTROL Add a personalized fields section]** リックしま **[!UICONTROL Create element]**&#x200B;す。
 
    ![](assets/schema_extension_uc12.png)
 
-1. Select a **[!UICONTROL Type]**. ここでは、入力フィールドを追加します。Then, select your previously created field and click **[!UICONTROL Add]**.
+1. を選択しま **[!UICONTROL Type]**&#x200B;す。 ここでは、入力フィールドを追加します。 次に、以前に作成したフィールドを選択し、をクリックしま **[!UICONTROL Add]**&#x200B;す。
 
    ![](assets/schema_extension_uc2.png)
 
-1. To add a separator to better organize your profile window, click **[!UICONTROL Create an element]** and select **[!UICONTROL Separator]** from the **[!UICONTROL Type]** drop-down.
+1. プロファイルウィンドウを整理しやすくするためにセパレータを追加するには、をク **[!UICONTROL Create an element]** リックし、ドロ **[!UICONTROL Separator]** ップダウン **[!UICONTROL Type]** から選択します。
 
    ![](assets/schema_extension_uc19.png)
 
-これでフィールドが設定されます。これで、テストプロファイルに拡張する必要があります。
+フィールドが構成されました。 テストプロファイルに拡張する必要があります。
 
 >[!NOTE]
 >
->テストプロファイルリソースを拡張する必要がない場合は、発行手順にジャンプできます。
+>テストプロファイルリソースを拡張する必要がない場合は、[発行]の手順に進みます。
 
-## Step 2: Extend the test profile {#step-2--extend-the-test-profile}
+## 手順2:テストプロファイルの拡張 {#step-2--extend-the-test-profile}
 
-新しく作成したフィールドが正しく構成されているかどうかをテストするには、テストプロファイルに配信を送信してテストします。最初に、新しいフィールドもテストプロファイルに実行する必要があります。
+新しく作成されたフィールドが正しく構成されているかどうかをテストするには、テストプロファイルに配信を送信してテストします。 まず、新しいフィールドをテストプロファイルに対して実行する必要があります。
 
-1. From the advanced menu, via the Adobe Campaign logo, select **[!UICONTROL Administration]** &gt; **[!UICONTROL Development]**, then **[!UICONTROL Custom resources]**.
-1. If you have not extended the **[!UICONTROL Profiles]** resource yet, click **[!UICONTROL Create]**.
-1. **[!UICONTROL Extend an existing resource]** オプションを選択します。
-1. **[!UICONTROL Test profile (seedMember)]** リソースを選択します。
-1. **[!UICONTROL Create]**&#x200B;をクリックします。
+1. 詳細メニューから、Adobe Campaignロゴを使用して、 &gt;を選 **[!UICONTROL Administration]** 択し、 **[!UICONTROL Development]**&#x200B;を選択しま **[!UICONTROL Custom resources]**&#x200B;す。
+1. リソースをまだ拡張していない場 **[!UICONTROL Profiles]** 合は、をクリックしま **[!UICONTROL Create]**&#x200B;す。
+1. オプションを選択 **[!UICONTROL Extend an existing resource]** します。
+1. リソースを選択 **[!UICONTROL Test profile (seedMember)]** します。
+1. Click **[!UICONTROL Create]**.
 
    ![](assets/schema_extension_uc13.png)
 
-1. **[!UICONTROL Data structure]** タブで、をクリック **[!UICONTROL Create element]**&#x200B;します。
+1. タブで、をク **[!UICONTROL Data structure]** リックしま **[!UICONTROL Create element]**&#x200B;す。
 
    ![](assets/schema_extension_uc15.png)
 
-1. Select your previously created resource field and click **[!UICONTROL Add]**.
+1. 以前に作成したリソースフィールドを選択し、をクリックし **[!UICONTROL Add]**&#x200B;ます。
 
    ![](assets/schema_extension_uc16.png)
 
-1. Carry out the same steps from step 11 to 13 as the extend profile walkthrough above to add this field in the **[!UICONTROL Test profile]** screen.
-1. **[!UICONTROL Save]**&#x200B;をクリックします。
+1. 手順11 ~ 13と同じ手順を、上の延長プロファイルウォークスルーと同じ手順で実行し、このフィールドを画面に追加 **[!UICONTROL Test profile]** します。
+1. Click **[!UICONTROL Save]**.
 
-プロファイルとテストプロファイルの両方に、新しいフィールドが使用可能になります。正しく設定するには、カスタムリソースを公開する必要があります。
+これで、プロファイルとテストプロファイルの両方に新しいフィールドが使用可能になります。 正しく設定するには、カスタムリソースを公開する必要があります。
 
-## Step 3: Publish your custom resource {#step-3--publish-your-custom-resource}
+## ステップ3:カスタムリソースの発行 {#step-3--publish-your-custom-resource}
 
-変更をリソースに適用して使用できるようにするには、データベースの更新を実行する必要があります。
+リソースに対して実行された変更を適用し、その変更を使用できるようにするには、データベースの更新を実行する必要があります。
 
-1. From the advanced menu, select **Administration** &gt; **Development**, then **Publishing**.
-1. By default, the option **[!UICONTROL Determine modifications since the last publication]** is checked, which means that only the changes carried out since the last update will be applied.
+1. 詳細メニューから、「管理」&gt;「開発」&gt;「パブリッシ **ング** 」を選 **択します******。
+1. デフォルトでは、このオ **[!UICONTROL Determine modifications since the last publication]** プションはオンになっています。つまり、最後の更新以降に実行された変更のみが適用されます。
 
    ![](assets/schema_extension_uc14.png)
 
-1. Click **[!UICONTROL Prepare publication]** to start the analysis which will update your database.
-1. Once the publication has been carried out, click the **Publish** button to apply your new configurations.
+1. をクリック **[!UICONTROL Prepare publication]** して、データベースを更新する分析を開始します。
+1. パブリケーションが実行されたら、[パブリッシュ]ボタンをク **リックし** 、新しい設定を適用します。
 
    ![](assets/schema_extension_uc17.png)
 
-1. Once published, the **Summary** pane of each resource indicates that the status is now **Published** and specifies the date of the last publication.
+1. 発行後、各リソー **スの** [概要]ウィンドウには、現在の状態が[発行済み **** ]であることが示され、最後の発行日が指定されます。
 
    ![](assets/schema_extension_uc18.png)
 
-1. **[!UICONTROL Profiles]** タブを選択して、 **[!UICONTROL New]** 変更が正しく実装されているかどうかを確認します。
+1. タブを選択し **[!UICONTROL Profiles]** 、をクリックし **[!UICONTROL New]** て、変更が正しく実装されているかどうかを確認します。
 
    ![](assets/schema_extension_uc20.png)
 
-例えば、新しいリソースフィールドを使用できるようになり、配信の対象となりました。
+新しいリソースフィールドを使用し、たとえば配信の対象にする準備が整いました。
 
-## Step 4: Update and target profiles with a workflow {#step-4--update-and-target-profiles-with-a-workflow}
+## 手順4:ワークフローを使用してプロファイルを更新し、ターゲットにする {#step-4--update-and-target-profiles-with-a-workflow}
 
-To update profiles with data for the new custom field, you can create a landing page using the **[!UICONTROL Profile acquisition]** template. For more information on landing pages, refer to this [page](../../channels/using/about-landing-pages.md).
+新しいカスタムフィールドのデータを使用して縦断を更新するには、テンプレートを使用してランディングページを作成 **[!UICONTROL Profile acquisition]** します。 ランディング·ページの詳細は、このページを参照してく [ださい](../../channels/using/about-landing-pages.md)。
 
-ここでは、このフィールドに入力しなかったワークフロープロファイルのターゲットを設定します。個人用のニュースレターやオファーを受信するようにプロファイルを更新するように指示する電子メールが送信されます。各プロファイルは、選択した興味に応じてパーソナライズされたニュースレターを受け取ります。
+ここでは、このフィールドに値を入力しなかったワークフロープロファイルを対象にします。 個人用のニュースレターや内定を受け取るために、自分のプロフィールを更新するように求めるEメールが届きます。 次に、各プロファイルには、選択した興味に応じて個別のニュースレターが送信されます。
 
-First, we need to create a landing page that will update the **Interest** fields of the targeted profiles:
+最初に、ターゲットプロファイルの **Interest** （関心事）フィールドを更新するランディング·ページを作成する必要があります。
 
-1. From the **[!UICONTROL Marketing activities]**, click **[!UICONTROL Create]** then select **[!UICONTROL Landing page]**.
-1. ランディングページタイプを選択します。Here, since we want to update our profiles, select **[!UICONTROL Profile acquisition]**.
-1. **[!UICONTROL Create]**&#x200B;をクリックします。
-1. Click the **[!UICONTROL Content]** block to start editing the content of your landing page.
+1. からをクリック **[!UICONTROL Marketing activities]**&#x200B;し、を選 **[!UICONTROL Create]** 択しま **[!UICONTROL Landing page]**&#x200B;す。
+1. ランディング·ページ·タイプを選択します。 ここで、プロファイルを更新するため、を選択しま **[!UICONTROL Profile acquisition]**&#x200B;す。
+1. Click **[!UICONTROL Create]**.
+1. ブロックをク **[!UICONTROL Content]** リックして、ランディング·ページの内容の編集を開始します。
 
    ![](assets/schema_extension_uc21.png)
 
-1. 必要に応じてランディングページをカスタマイズします。
-1. プロファイルに設定されているフィールドをクリックして、興味の選択範囲を選択します。In the left pane, select your previously created **Interest** custom resource.
+1. 必要に応じて、ランディング·ページをカスタマイズします。
+1. プロファイルに設定されているフィールドをクリックして、[関心事]を選択します。 左側のペインで、以前に作成した関心事のカスタムリソ **ース** を選択します。
 
    ![](assets/schema_extension_uc22.png)
 
-1. ランディングページを保存してテストし、フィールドが正しく構成されていることを確認します。
-1. Click **[!UICONTROL Publish]** when your landing page is ready.
+1. ランディング·ページを保存し、フィールドが正しく設定されているか確認します。
+1. ランディング **[!UICONTROL Publish]** ページの準備が整ったら、をクリックします。
 
-ランディングページが準備されました。プロファイルを更新するには、選択した興味に応じて特別なオファーを送信するワークフローを作成します。
+ランディング·ページの準備が整いました。 プロファイルを更新するには、選択した関心事に応じて特別な内定を送信するワークフローを作成します。
 
-1. **[!UICONTROL Marketing activities]** タブから、をクリック **[!UICONTROL Create]****[!UICONTROL Workflow]**&#x200B;します。
-1. Drag and drop a **[!UICONTROL Query]** activity to target the profiles or audiences you need.
-1. Drag and drop an **[!UICONTROL Email delivery]** activity to start configuring your email which will contain a link to the landing page. Select the **[!UICONTROL Add an outbound transition with the population]**.
+1. タブでをク **[!UICONTROL Marketing activities]** リックし、を **[!UICONTROL Create]** 選択しま **[!UICONTROL Workflow]**&#x200B;す。
+1. アクティビティをドラッグ·アン **[!UICONTROL Query]** ド·ドロップして、必要なプロファイルまたは対象ユーザーをターゲットにします。
+1. アクティビティをドラッグ·ア **[!UICONTROL Email delivery]** ンド·ドロップして、ランディング·ページへのリンクを含む電子メールの構成を開始します。 を選択しま **[!UICONTROL Add an outbound transition with the population]**&#x200B;す。
 
    ![](assets/schema_extension_uc3.png)
 
-1. 必要に応じて電子メールを作成してデザインします。For more information on email personalization, refer to this [page](../../designing/using/designing-content-in-adobe-campaign.md).
+1. 必要に応じて、Eメールを作成してデザインします。 電子メールの個人用設定の詳細については、このページを参照して [ください](../../designing/using/quick-start.md)。
 1. プロファイルをランディングページにリダイレクトするボタンを電子メールに追加します。
-1. Select the added button and click ![](assets/schema_extension_uc7.png) in the **[!UICONTROL Link]** section in the left pane.
+1. 追加ボタンを選択し、左ペイン ![](assets/schema_extension_uc7.png) のセクション **[!UICONTROL Link]** をクリックします。
 
    ![](assets/schema_extension_uc23.png)
 
-1. **[!UICONTROL Insert link]** ウィンドウで、ドロップダウン **[!UICONTROL Landing page]** から **[!UICONTROL Link type]** 選択して、以前に作成したランディングページを選択します。
+1. ウィンドウ **[!UICONTROL Insert link]** で、ドロップダ **[!UICONTROL Landing page]** ウンから **[!UICONTROL Link type]** を選択し、前に作成したランディング·ページを選択します。
 
    ![](assets/schema_extension_uc24.png)
 
-1. **[!UICONTROL Save]**&#x200B;をクリックします。電子メールが準備され、ワークフローに戻ることができます。
-1. **[!UICONTROL Wait]** アクティビティを追加して、プロファイルの一部の時間をランディングページに入力します。
-1. **[!UICONTROL Segmentation]** アクティビティを追加して **、関心に応じてアウトバウンドトランジションを分割**&#x200B;します。
-1. **各関心のアウトバウンドセグメントを作成**&#x200B;します。
+1. Click **[!UICONTROL Save]**. メールの準備が整いました。ワークフローに戻ることができます。
+1. アクティビテ **[!UICONTROL Wait]** ィを追加して、プロファイルがランディング·ページを埋めるまでの時間を設定します。
+1. 活動を追加し **[!UICONTROL Segmentation]** て、関心事に応じて外部遷移を分割 **します**。
+1. 各利息のアウトバウンド·セグメントを作 **成します**。
 
    ![](assets/schema_extension_uc4.png)
 
-1. Add an **[!UICONTROL Email delivery]** activity after each transition and create a personalized email depending on the chosen **Interest**.
-1. 設定が完了したら、ワークフローを開始します。
+1. 各移行後に **[!UICONTROL Email delivery]** 活動を追加し、選択した関心事に応じて個人用の電子メールを作成 **します**。
+1. 構成が完了したら、ワークフローを開始します。
 
    ![](assets/schema_extension_uc25.png)
 
-選択した値に応じて、この興味フィールドに続けてパーソナライズされた電子メールが入力されるように、プロファイルに電子メールが送信されるようになりました。
+プロファイルには、選択した値に応じて、この「関心事」フィールドに入力するように求める電子メールが送信され、その後に個人用の電子メールが送信されます。
