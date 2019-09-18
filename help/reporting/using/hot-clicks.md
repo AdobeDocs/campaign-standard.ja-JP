@@ -2,81 +2,81 @@
 title: ホットクリック
 seo-title: ホットクリック
 description: ホットクリック
-seo-description: '[ホットクリック]レポートで、顧客が配信をクリックした場所を確認します。'
-page-status-flag: 常にアクティブ化されていない
-uuid: 7ed49dd3- d7ee-466a-9a7b- d2aa16961667
-contentOwner: サウビート
-products: SG_ CAMPAIGN/STANDARD
-audience: レポート
+seo-description: 最新のクリック音がすぐに届くレポートで、お客様がお客様の提供をクリックした場所を確認します。
+page-status-flag: 未活性化の
+uuid: 7ed49dd3-d7ee-466a-9a7b-d2aa16961667
+contentOwner: サウビア
+products: SG_CAMPAIGN/STANDARD
+audience: 報告
 content-type: 参照
-topic-tags: レポートのリスト
+topic-tags: レポート一覧
 discoiquuid: ecbc1ade-63d9-4ac2-9828-380a1aa95094
-context-tags: DeliveryHotclicksReport， main
-internal: n
-snippet: y
+context-tags: 配信HotClicksReport，メイン
+internal: 〜の
+snippet: イー
 translation-type: tm+mt
-source-git-commit: 77b0933bcd004cedc6a58f80717a4284b284e0cd
+source-git-commit: aa52fcca887c9423476a1bc0160d340f255b9ac8
 
 ---
 
 
-# Hot clicks{#hot-clicks}
+# ホットクリック{#hot-clicks}
 
-This report can be accessed from the **[!UICONTROL Reports]** button in each delivery or transactional message.
+このレポートは、各配信メッセージまたはトランザクシ **[!UICONTROL Reports]** ョンメッセージのボタンからアクセスできます。
 
 ![](assets/delivery_reports_hot-clicks_4.png)
 
-各リンクのクリック数の割合を示すメッセージコンテンツ（HTMLまたはテキスト）が表示されます。
+各リンクのクリック回数の割合で、メッセージの内容（HTMLまたはテキスト）を表示します。
 
 ![](assets/delivery_reports_10.png)
 
-配信の動的コンテンツを作成した場合は、定義した各条件の割合を表示できます。For more on inserting conditional content in a delivery, see [Defining dynamic content](../../designing/using/defining-dynamic-content-in-a-landing-page.md).
+配信用に動的コンテンツを作成した場合は、定義した各条件のパーセンテージを表示できます。 デリバリへの条件付きコンテンツの挿入の詳細については、「動的コンテンツの定義」 [を参照してくださ](../../channels/using/defining-dynamic-content-in-a-landing-page.md)い。
 
-例えば、次の条件を使用して配信を作成したとします。
+たとえば、次の条件で搬送を作成したとします。
 
-* 受信者が男性または女性の場合、メイン画像上のリンクは異なります。
-* 25を超える受信者にのみ表示される特別オファーへのリンクも追加しました。
+* 受信者が男性か女性の場合、メイン画像のリンクは異なります。
+* また、25を超える受信者にのみ表示される特別なオファーへのリンクも追加しました。
 
-Once your message is sent, select **[!UICONTROL Reports]** &gt; **[!UICONTROL Hot clicks]** from the delivery dashboard.
+メッセージが送信されたら、配信ダッシュボ **[!UICONTROL Reports]** ードか **[!UICONTROL Hot clicks]** ら「&gt;」を選択します。
 
-デフォルトでは、プロファイルは選択されていません。性別が不明な受信者、25歳未満の受信者、または年齢が不明な受信者のクリックのみが表示されます。
+既定では、プロファイルは選択されていません。 性別が不明な受信者と、25歳未満または年齢が不明な受信者に対してのみ、クリックが表示されます。
 
 ![](assets/delivery_reports_hot-clicks_1.png)
 
-To display clicks for women, click the **[!UICONTROL Change profile]** button and select a female test profile. 男性のクリックを表示するには、同様に手順を続行し、男性テストプロファイルを選択します。
+女性のクリックを表示するには、ボタンをク **[!UICONTROL Change profile]** リックし、女性のテストプロファイルを選択します。 男性用のクリックを表示するには、同様に操作し、男性のテストプロファイルを選択します。
 
 ![](assets/delivery_reports_hot-clicks_2.png)
 
-To display clicks for recipients over 25, click the **[!UICONTROL Change profile]** button and select a test profile whose birth date is matching this condition.
+25を超える受信者のクリックを表示するには、ボタンをク **[!UICONTROL Change profile]** リックし、この条件に一致する生年月日のテストプロファイルを選択します。
 
-For more on test profiles, see [About test profiles](../../sending/using/managing-test-profiles-and-sending-proofs.md#about-test-profiles).
-
->[!NOTE]
->
->特定リンクのクリック数は、配信のすべての条件付きコンテンツのクリック数の合計に対する割合です。したがって、動的コンテンツを定義した場合、特定のテストプロファイルに対して表示される割合の合計が100と等しくない可能性があります。
-
-同様に、定期的な配信およびトランザクションメッセージの場合、表示する動的コンテンツに対応するテストプロファイルを選択できますが、選択した実行配信に応じてクリック率を表示することもできます。
-
-実行配信は、次の場合に作成される、実用的ではない、機能しない技術的なメッセージです。
-
-* 定期的な配信が実行または更新されるたびに実行されます。
-
-   例えば、この配信の管理ワークフローが月に1回実行されると、1か月に1回の実行配信が行われます。これに加えて、配信のコンテンツが更新されるたびに、追加の実行配信が作成されます。
-
-   For more on recurring email deliveries, see [Email delivery](../../automating/using/email-delivery.md).
-
-* トランザクションメッセージの場合は1か月につき1回、トランザクションメッセージが編集および公開されるたびに、デフォルトで発行されます。
-
-   For more on transactional messages, see [About transactional messaging](../../channels/using/about-transactional-messaging.md).
+テストプロファイルの詳細については、「テストプロファイルにつ [いて」を参照してくださ](../../sending/using/managing-test-profiles-and-sending-proofs.md#about-test-profiles)い。
 
 >[!NOTE]
 >
->トラッキングされたURLのIDは実行ごとに異なるので、特定のメッセージのすべての実行配信でホットクリックデータを集計することはできません。一度に1つの実行配信のみを表示できます。
+>特定のリンクでのクリック回数は、配信内のすべての条件付きコンテンツに対するクリック回数の合計に対する割合です。 したがって、動的コンテンツを定義した場合、特定のテストプロファイルに表示されるパーセンテージの合計は100とは異なる場合があります。
 
-Once your message is sent, select **[!UICONTROL Reports]** &gt; **[!UICONTROL Hot clicks]** from the delivery dashboard.
+同様に、繰り返し配信とトランザクション·メッセージの場合は、表示する動的コンテンツに対応するテスト·プロファイルを選択できますが、選択した実行配信に応じてクリック率を表示することもできます。
 
-デフォルトでは、最後の実行配信が選択されます。Click the **[!UICONTROL Change execution delivery]** button to select another one.
+実行配信は、次の場合に作成される、非アクションで非機能な技術メッセージです。
+
+* 繰り返し配信が実行または更新されるたびに、
+
+   たとえば、この配信を管理するワークフローが月に1回実行される場合、1か月に1回実行配信が行われます。 さらに、配信の内容が更新されるたびに、追加の実行配信が作成されます。
+
+   定期的な電子メール配信の詳細については、「電子メール配信」を参 [照してくださ](../../automating/using/email-delivery.md)い。
+
+* トランザクションメッセージの場合は、既定で月に1回、トランザクションメッセージが編集され、再発行されるたびに、
+
+   トランザクション·メッセージの詳細は、「トランザクション·メッセ [ージについて」を参照してくださ](../../channels/using/about-transactional-messaging.md)い。
+
+>[!NOTE]
+>
+>追跡されるURLのIDは実行ごとに異なるため、特定のメッセージのすべての実行配信に対してホットクリックデータを集計することはできません。 一度に表示できるのは、1つの実行デリバリに対してのみです。
+
+メッセージが送信されたら、配信ダッシュボ **[!UICONTROL Reports]** ードか **[!UICONTROL Hot clicks]** ら「&gt;」を選択します。
+
+デフォルトでは、最後の実行配信が選択されます。 別のボタンをク **[!UICONTROL Change execution delivery]** リックして選択します。
 
 ![](assets/delivery_reports_hot-clicks_3.png)
 
-選択した配信実行のクリック率のみが表示されます。
+選択した搬送実行のクリック率のみが表示されます。
