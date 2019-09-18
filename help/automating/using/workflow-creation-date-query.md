@@ -1,88 +1,88 @@
 ---
-title: 「ワークフローのユースケース:プロファイルの作成日に搬送を作成しています」
-seo-title: 「ワークフローのユースケース:プロファイルの作成日に搬送を作成しています」
-description: 「ワークフローのユースケース:プロファイルの作成日に搬送を作成しています」
-seo-description: 「ワークフローのユースケース:プロファイルの作成日に搬送を作成しています」
-page-status-flag: 決して活性化されていない
-uuid: 396a3de1-6fa-4385- ac9f-15fdee5a366
-contentOwner: ソビア
-products: SG_キャンペーン/標準
+title: '"ワークフローの使用例：プロファイルの作成日に搬送を作成する'
+seo-title: '"ワークフローの使用例：プロファイルの作成日に搬送を作成する'
+description: '"ワークフローの使用例：プロファイルの作成日に搬送を作成する'
+seo-description: '"ワークフローの使用例：プロファイルの作成日に搬送を作成する'
+page-status-flag: 未活性化の
+uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
+contentOwner: サウビア
+products: SG_CAMPAIGN/STANDARD
 audience: 自動化
 content-type: 参照
 topic-tags: '実行活動 '
-discoiquuid: 377821e6-69f8-41cc- a1ad-8a2f5d409
-context-tags: ワークフロー、ユースケース、クエリ
-internal: n
-snippet: y
+discoiquuid: 377821e6-69f8-41cc-a1ad-8a2f5ed4d409
+context-tags: ワークフロー，ユースケース，クエリ
+internal: 〜の
+snippet: イー
 translation-type: tm+mt
-source-git-commit: e77c8a65834009f2f7157d9535ae8e12e59244ff
+source-git-commit: 4a38b1f3d7d6dbf12fa71c819147bf2d91acb0c4
 
 ---
 
 
-# ワークフローのユースケース:プロファイルの作成日に配送を作成 {#creation-date-query}
+# ワークフローのユースケース：プロファイルの作成日に配信を作成 {#creation-date-query}
 
-お客様のプロファイル作成日に電子メールでオファーを送信できます。
+お客様のプロファイル作成の記念日に、Eメールでオファーを送信できます。
 
-1. で **[!UICONTROL Marketing Activities]**、をクリック **[!UICONTROL Create]** して選択 **[!UICONTROL Workflow]**&#x200B;します。
-1. ワークフロータイプ **[!UICONTROL New Workflow]** として選択し、をクリック **[!UICONTROL Next]**&#x200B;します。
-1. ワークフローのプロパティを入力し、をクリック **[!UICONTROL Create]**&#x200B;します。
+1. で、をク **[!UICONTROL Marketing Activities]**&#x200B;リックして **[!UICONTROL Create]** を選択しま **[!UICONTROL Workflow]**&#x200B;す。
+1. ワークフロー **[!UICONTROL New Workflow]** の種類としてを選択し、をクリックしま **[!UICONTROL Next]**&#x200B;す。
+1. ワークフローのプロパティを入力し、をクリックしま **[!UICONTROL Create]**&#x200B;す。
 
-## スケジューラ・アクティビティの作成 {#creating-a-scheduler-activity}
+## スケジューラ·アクティビティの作成 {#creating-a-scheduler-activity}
 
-1. **[!UICONTROL Activities]** &gt;で **[!UICONTROL Execution]**、をドラッグアンドドロップ **[!UICONTROL Scheduler activity]**![](assets/scheduler_icon.png)します。
+1. &gt;で、 **[!UICONTROL Activities]** をド **[!UICONTROL Execution]**&#x200B;ラッグ&amp;ドロップしま **[!UICONTROL Scheduler activity]**&#x200B;す。
 1. アクティビティをダブルクリックします。
 1. 配信の実行を構成します。
-1. で、を **[!UICONTROL Execution frequency]**&#x200B;選択 **[!UICONTROL Daily]**&#x200B;します。
-1. ワークフローの実行 **[!UICONTROL Time]****[!UICONTROL Repetition frequency]** と実行を選択します。
-1. ワークフローの **[!UICONTROL Start]** 日付 **[!UICONTROL Expiration]** と日付を選択します。
+1. でを選 **[!UICONTROL Execution frequency]**&#x200B;択します **[!UICONTROL Daily]**。
+1. ワークフロ **[!UICONTROL Time]** ーのと実 **[!UICONTROL Repetition frequency]** 行のを選択します。
+1. ワークフローの **[!UICONTROL Start]** 日付と日 **[!UICONTROL Expiration]** 付を選択してください。
 1. アクティビティを確認し、ワークフローを保存します。
 
 >[!NOTE]
 >
->特定のタイムゾーンでワークフローを開始するには、タブ&#x200B;**[!UICONTROL Execution options]**&#x200B;で、フィールド内のスケジューラのタイムゾーンを設定 **[!UICONTROL Time zone]**&#x200B;します。
+>特定のタイムゾーンでワークフローを開始するには、タブで、**[!UICONTROL Execution options]**&#x200B;スケジューラのタイムゾーンをフィールドに設定 **[!UICONTROL Time zone]**&#x200B;します。
 
 ![](assets/time_zone.png)
 
 ## クエリアクティビティの作成 {#creating-a-query-activity}
 
-1. 受信者を選択するには、を **[!UICONTROL Query activity]** ドラッグアンドドロップしてダブルクリックします。
-1. 値を追加 **[!UICONTROL Profiles]** して選択 **[!UICONTROL no longer contact by email]****[!UICONTROL no]**&#x200B;します。
+1. 受信者を選択するには、宛先をドラッグアンドドロップし **[!UICONTROL Query activity]** て、その宛先をダブルクリックします。
+1. 値を追 **[!UICONTROL Profiles]** 加し、値 **[!UICONTROL no longer contact by email]** で選択します **[!UICONTROL no]**。
 
-### 実行日と同じ日に作成されたプロファイルを取得する {#retriving-profiles-created-on-the-same-day}
+### 実行日と同じ日に作成されたプロファイルを取得しています {#retriving-profiles-created-on-the-same-day}
 
-1. で **[!UICONTROL Profile]**、 **[!UICONTROL Created]** フィールドをドラッグアンドドロップします。をクリックし **[!UICONTROL Advanced Mode]**ます。
+1. で、フ **[!UICONTROL Profile]**&#x200B;ィールドをドラッグアンドドロップ **[!UICONTROL Created]** します。 をクリックしま **[!UICONTROL Advanced Mode]**す。
    ![](assets/advanced_mode.png)
-1. で、 **[!UICONTROL list of functions]**&#x200B;ノード&#x200B;**[!UICONTROL Day]** からダブルクリック&#x200B;**[!UICONTROL Date]**&#x200B;します。
-1. 次に、フィールドを引数 **[!UICONTROL Created]** として挿入します。
-1. オペレータ **[!UICONTROL equals to (=)]** として選択します。
-1. 「値」（Value）で、のノード&#x200B;**[!UICONTROL Day]** から **[!UICONTROL Date]** 選択 **[!UICONTROL List of functions]**&#x200B;します。
+1. で、ノー **[!UICONTROL list of functions]**&#x200B;ドからダブルク&#x200B;**[!UICONTROL Day]** リックし&#x200B;**[!UICONTROL Date]**&#x200B;ます。
+1. 次に、フィールドを引数として **[!UICONTROL Created]** 挿入します。
+1. 演算子と **[!UICONTROL equals to (=)]** してを選択します。
+1. [値]で、のノ&#x200B;**[!UICONTROL Day]** ードか **[!UICONTROL Date]** らを選択します **[!UICONTROL List of functions]**。
 1. 関数を引数&#x200B;**[!UICONTROL GetDate()]**&#x200B;として挿入します。
 
 作成日が現在の日と等しいプロファイルを取得しました。
 
-次のようにしてください。
+最後に、次の文字列が表示されます。
 
 ```Day(@created) = Day(GetDate())```
 
 ![](assets/day_creation_query.png)
 
-**[!UICONTROL Confirm]**&#x200B;をクリックします。
+Click **[!UICONTROL Confirm]**.
 
-### 実行月と同じ月に作成されたプロファイルの取得{#retriving-profiles-created-on-the-same-month}
+### 実行月と同じ月に作成されたプロファイルを取得しています{#retriving-profiles-created-on-the-same-month}
 
-1. **[!UICONTROL Query]** エディターで、最初のクエリを選択して複製します。
+1. エディタ **[!UICONTROL Query]** で最初のクエリを選択し、複製します。
 1. 複製を開きます。
-1. クエリ **[!UICONTROL Day]****[!UICONTROL Month]** で置き換えます。
-1. **[!UICONTROL Confirm]**&#x200B;をクリックします。
+1. クエリ **[!UICONTROL Day]** 内で **[!UICONTROL Month]** に置き換えます。
+1. Click **[!UICONTROL Confirm]**.
 
 ![](assets/month_rule.png)
 
-次のようにしてください。
+最後に、次のようにします。
 
 ``` Month(@created) = Month(GetDate()) ```
 
-最終クエリが表示されます。
+最後のクエリーには、次のように表示されます。
 
 ```Day(@created) = Day(GetDate()) AND Month(@created) = Month(GetDate())```
 
@@ -90,21 +90,21 @@ source-git-commit: e77c8a65834009f2f7157d9535ae8e12e59244ff
 
 ## 電子メール配信の作成{#creating-an-email-delivery}
 
-1. 電子メール配信をドラッグアンドドロップします。
-1. アクティビティをクリックし、編集 ![](assets/edit_darkgrey-24px.png) するように選択します。
-1. を選択 **[!UICONTROL Recurring email]** してをクリック **[!UICONTROL Next]**&#x200B;します。
-1. 電子メールテンプレートを選択し、をクリック **[!UICONTROL Next]**&#x200B;します。
-1. 電子メールのプロパティを入力し、をクリック **[!UICONTROL Next]**&#x200B;します。
-1. 電子メールのレイアウトを作成するには、をクリック **[!UICONTROL Email Designer]**&#x200B;します。
+1. 電子メール配信をドラッグ·アンド·ドロップします。
+1. アクティビティをクリックし、編集するア ![](assets/edit_darkgrey-24px.png) クティビティを選択します。
+1. を選択し、 **[!UICONTROL Recurring email]** をクリックしま **[!UICONTROL Next]**&#x200B;す。
+1. 電子メールテンプレートを選択し、をクリックしま **[!UICONTROL Next]**&#x200B;す。
+1. 電子メールのプロパティを入力し、をクリックしま **[!UICONTROL Next]**&#x200B;す。
+1. 電子メールのレイアウトを作成するには、をクリックしま **[!UICONTROL Email Designer]**&#x200B;す。
 1. 要素を挿入するか、既存のテンプレートを選択します。
 1. フィールドとリンクを使用して電子メールをカスタマイズします。
-詳細については、電子メール [の設計](../../designing/using/about-email-content-design.md#designing-an-email-content-from-scratch)を参照してください。
-1. クリック **[!UICONTROL Preview]** すると、レイアウトが確認されます。
-1. **[!UICONTROL Save]**&#x200B;をクリックします。
+詳細については、「電子メールのデザ [イン」を参照してください](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)。
+1. レイアウトを **[!UICONTROL Preview]** 確認するには、をクリックします。
+1. Click **[!UICONTROL Save]**.
 
-**関連トピック:**
+**関連トピック：**
 
-* [クエリー](../../automating/using/query.md)
+* [クエリ](../../automating/using/query.md)
 * [スケジューラ](../../automating/using/scheduler.md)
-* [Eメール配信](../../automating/using/email-delivery.md)
-* [Eメールチャネル](../../channels/using/creating-an-email.md)
+* [電子メール配信](../../automating/using/email-delivery.md)
+* [電子メールチャネル](../../channels/using/creating-an-email.md)
