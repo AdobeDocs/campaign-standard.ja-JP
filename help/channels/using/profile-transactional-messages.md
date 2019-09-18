@@ -1,88 +1,88 @@
 ---
-title: プロファイルトランザクションメッセージ
-seo-title: プロファイルトランザクションメッセージ
-description: プロファイルトランザクションメッセージ
-seo-description: プロファイルトランザクションメッセージを作成して公開する方法について説明します。
-page-status-flag: 常にアクティブ化されていない
-uuid: a8efe979-74ae-46ff- a305- b86a90679581
-contentOwner: サウビート
-products: SG_ CAMPAIGN/STANDARD
-audience: チャネル
+title: トランザクションメッセージのプロファイル
+seo-title: トランザクションメッセージのプロファイル
+description: トランザクションメッセージのプロファイル
+seo-description: プロファイルトランザクションメッセージを作成して公開する方法を説明します。
+page-status-flag: 未活性化の
+uuid: a8efe979-74ae-46ff-a305-b86a90679581
+contentOwner: サウビア
+products: SG_CAMPAIGN/STANDARD
+audience: チャンネル
 content-type: 参照
-topic-tags: トランザクションメッセージング
-discoiquuid: dcb90fc-42c3-419e-8345-79cddf969e41
-internal: n
-snippet: y
+topic-tags: トランザクション·メッセージング
+discoiquuid: dcb90afc-42c3-419e-8345-79cddf969e41
+internal: 〜の
+snippet: イー
 translation-type: tm+mt
-source-git-commit: 855db33971afdf9f02bf1b00be67c9e3f50bee06
+source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
 ---
 
 
-# Profile transactional messages{#profile-transactional-messages}
+# トランザクションメッセージのプロファイル{#profile-transactional-messages}
 
-トランザクションメッセージは、顧客のマーケティングプロファイルに基づいて送信でき、次のことが可能です。
+顧客マーケティング·プロファイルに基づいてトランザクション·メッセージを送信でき、次の操作を実行できます。
 
-* **[!UICONTROL Blacklisted address]**[例えば、疲労ルール](../../administration/using/fatigue-rules.md)などのマーケティングタイポロジルールを適用します。
-* メッセージ内に購読解除リンクを含めます。
+* または疲労ルールなどのマーケティング **[!UICONTROL Blacklisted address]** 類型ル [ールを適用](../../administration/using/fatigue-rules.md)。
+* メッセージ内にサブスクリプション解除リンクを含めます。
 * トランザクションメッセージをグローバル配信レポートに追加します。
-* 顧客の遍歴のトランザクションメッセージを活用します。
+* お客様の旅においてトランザクション·メッセージを活用します。
 
-Once you have created and published an event (the cart abandonment as per the [example](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle) above), the corresponding transactional message is created automatically.
+イベントを作成して公開すると(上記の例に従ってカートを破棄する [](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle) )、対応するトランザクションメッセージが自動的に作成されます。
 
-The configuration steps are presented in the [Configuring an event to send a profile transactional message](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) section.
+構成手順は、「プロファイルトランザクショ [ンメッセージを送信するイベントの構成」セクションで説明します](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) 。
 
-イベントがトランザクションメッセージの送信をトリガーするには、メッセージをパーソナライズし、テストして公開する必要があります。
+イベントがトランザクション·メッセージの送信をトリガーするには、メッセージをパーソナライズし、テストして公開する必要があります。
 
 >[!NOTE]
 >
->To access the transactional messages, you must have administration rights or appear in the **[!UICONTROL Message Center agents]** (mcExec) security group. 疲労ルールは、プロファイルトランザクションメッセージと互換性があります。[疲労ルール](../../administration/using/fatigue-rules.md)を参照してください。
+>トランザクション·メッセージにアクセスするには、管理権限を持っているか、(mcExec)セキュリ **[!UICONTROL Message Center agents]** ティ·グループに表示されている必要があります。 疲労ルールは、プロファイルトランザクションメッセージと互換性があります。 疲労ル [ールを参照](../../administration/using/fatigue-rules.md)。
 
-## Sending a profile transactional message {#sending-a-profile-transactional-message}
+## プロファイルトランザクションメッセージの送信 {#sending-a-profile-transactional-message}
 
-プロファイルトランザクションメッセージの作成、パーソナライズおよび公開の手順は、イベントトランザクションメッセージと同じです。[イベントトランザクションメッセージ](../../channels/using/event-transactional-messages.md)を参照してください。
+プロファイル·トランザクション·メッセージを作成、パーソナライズ、公開する手順は、イベント·トランザクション·メッセージと同じです。 「イベント·ト [ランザクション·メッセージ](../../channels/using/event-transactional-messages.md)」を参照。
 
-違いは以下のとおりです。
+次に、相違点を示します。
 
-1. 作成されたトランザクションメッセージに移動します。
-1. In the transactional message, click the **[!UICONTROL Content]** section. In addition to the transactional template, you can also choose the default email template, which targets **[!UICONTROL Profile]**.
+1. 作成されたトランザクションメッセージを編集するために移動します。
+1. トランザクション·メッセージで、セクションをクリ **[!UICONTROL Content]** ックします。 トランザクションテンプレートに加えて、ターゲットとなる既定の電子メールテンプレートを選択することもできま **[!UICONTROL Profile]**&#x200B;す。
 
    ![](assets/message-center_marketing_templates.png)
 
-1. デフォルトの電子メールテンプレートを選択します。
+1. 既定の電子メールテンプレートを選択します。
 
-   すべてのマーケティング電子メールと同様、購読解除リンクが含まれます。
+   すべてのマーケティング電子メールと同様に、サブスクリプション解除リンクが含まれます。
 
    ![](assets/message-center_marketing_perso_unsubscription.png)
 
-   また、リアルタイムイベントに基づく設定とは異なり、すべてのプロファイル情報に直接アクセスして、メッセージをパーソナライズすることができます。See [Inserting a personalization field](../../designing/using/inserting-a-personalization-field.md).
+   また、リアルタイムイベントに基づく構成とは異なり、すべてのプロファイル情報に直接アクセスして、メッセージをカスタマイズできます。 「個人用設 [定フィールドの挿入」を参照してくださ](../../designing/using/personalization.md#inserting-a-personalization-field)い。
 
-1. 変更を保存して、メッセージを公開します。See [Publishing a transactional message](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message).
+1. 変更を保存し、メッセージを発行します。 「トランザク [ション·メッセージの発行」を参照](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message)。
 
-## Monitoring a profile transactional message delivery {#monitoring-a-profile-transactional-message-delivery}
+## プロファイルトランザクションメッセージ配信の監視 {#monitoring-a-profile-transactional-message-delivery}
 
-メッセージが公開され、サイトの統合が完了したら、配信を監視できます。
+メッセージが発行され、サイトの統合が完了したら、配信を監視できます。
 
-1. To view the message delivery log, click the icon at the bottom right of the **[!UICONTROL Deployment]** block.
+1. メッセージ配信ログを表示するには、ブロックの右下にあるアイコンをクリック **[!UICONTROL Deployment]** します。
 
-   For more information on accessing the logs, see [Monitoring the delivery](../../sending/using/monitoring-a-delivery.md).
+   ログへのアクセスの詳細については、「配信の監視」を [参照してください](../../sending/using/monitoring-a-delivery.md)。
 
-1. **[!UICONTROL Sending logs]** タブを選択します。**[!UICONTROL Status]** 列に、プロファイルがオプトインしている **[!UICONTROL Sent]** ことを示します。
+1. タブを選択 **[!UICONTROL Sending logs]** します。 列で、縦断 **[!UICONTROL Status]** がオプ **[!UICONTROL Sent]** トインされていることを示します。
 
    ![](assets/message-center_marketing_sending_logs.png)
 
-1. **[!UICONTROL Exclusions logs]** このタブを選択すると、ブラックリストに記載されたアドレスなど、メッセージターゲットから除外された受信者を表示できます。
+1. タブを選択 **[!UICONTROL Exclusions logs]** すると、ブラックリスト·アドレスなど、メッセージ·ターゲットから除外された受信者が表示されます。
 
    ![](assets/message-center_marketing_exclusion_logs.png)
 
-For any profile that has opted out, the **[!UICONTROL Blacklisted address]** typology rule excluded the corresponding recipient.
+オフにしたプロファイルの場合、類型規則によっ **[!UICONTROL Blacklisted address]** て対応する受信者が除外されます。
 
-This rule is part of a specific typology that applies to all transactional messages based on the **[!UICONTROL Profile]** table.
+この規則は、テーブルに基づくすべてのトランザクションメッセージに適用される特定の類型の一部 **[!UICONTROL Profile]** です。
 
 ![](assets/message-center_marketing_typology.png)
 
 **関連トピック**:
 
-* [サイトの統合](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website)
-* [タイポロジ](../../administration/using/about-typology-rules.md)
+* [サイト統合](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website)
+* [類型](../../administration/using/about-typology-rules.md)
 
