@@ -2,25 +2,25 @@
 title: ダイレクトメール配信
 seo-title: ダイレクトメール配信
 description: ダイレクトメール配信
-seo-description: ダイレクトメール配信アクティビティを使用すると、単一のダイレクトメールまたは定期的なダイレクトメールをワークフローで送信できます。
-page-status-flag: 常にアクティブ化されていない
-uuid: bfa7b176- a17c-4079- a073-64b8ce4788ed
-contentOwner: サウビート
-products: SG_ CAMPAIGN/STANDARD
+seo-description: ダイレクトメール配信アクティビティを使用すると、ワークフロー内で1つの送信ダイレクトメールまたは定期的なダイレクトメールを送信するように構成できます。
+page-status-flag: 未活性化の
+uuid: bfa7b176-a17c-4079-a073-64b8ce478ed
+contentOwner: サウビア
+products: SG_CAMPAIGN/STANDARD
 audience: 自動化
 content-type: 参照
-topic-tags: チャネルアクティビティ
-discoiquuid: b9ddb2a0-54ff-4ada- be6f-8109fa06d461
-context-tags: DirectMail，ワークフロー，メイン
-internal: n
-snippet: y
+topic-tags: チャネル活動
+discoiquuid: b9ddb2a0-54ff-4ada-be6f-8109fa06d461
+context-tags: directMail,workflow,main
+internal: 〜の
+snippet: イー
 translation-type: tm+mt
-source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
+source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
 
 ---
 
 
-# Direct mail delivery{#direct-mail-delivery}
+# ダイレクトメール配信{#direct-mail-delivery}
 
 ## 説明 {#description}
 
@@ -28,70 +28,70 @@ source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
 
 ![](assets/recurrentpaper.png)
 
-**[!UICONTROL Direct mail delivery]** このアクティビティでは、ダイレクトメールキャンペーンに使用するプロファイルデータを含むファイルを設定および準備できます。This can be a direct mail that is used just once, or it can be a **recurring** direct mail.
+このア **[!UICONTROL Direct mail delivery]** クティビティでは、ダイレクトメールキャンペーンに使用するプロファイルデータを含むファイルを構成および準備できます。 これは、1回だけ使用するダイレクトメールか、繰り返し使用するダイレクトメ **ール** （繰り返し）です。
 
 標準のダイレクトメールは1回送信されます。
 
-定期的なメールを使用すると、定義済みの期間にわたって、同一のダイレクトメールを複数回のターゲットに送信できます。期間ごとの配信を集計して、ニーズに対応するレポートを取得できます。
+定期的なメールを使用すると、同じダイレクト·メールを定義された期間に複数回、異なるターゲットに送信できます。 各期間の搬送を集計して、必要に応じたレポートを取得できます。
 
-## Context of use {#context-of-use}
+## 使用状況 {#context-of-use}
 
-**[!UICONTROL Direct mail delivery]** このアクティビティは、プロファイルデータを含むファイルの準備を自動化するために一般的に使用されます。このファイルは、郵送を担当するパートナー/プロバイダーに送信できます。
+このアクテ **[!UICONTROL Direct mail delivery]** ィビティは、通常、プロファイルデータを含むファイルの準備を自動化するために使用されます。 このファイルは、メーリング担当のパートナー/プロバイダに送ることができます。
 
-スケジューラーにリンクすると、定期的なダイレクトメールを定義できます。
+スケジューラにリンクされている場合は、定期的なダイレクトメールを定義できます。
 
-ダイレクトメールの受信者は、クエリ、交差などのターゲットアクティビティを介して、同じワークフロー内のアクティビティのアップストリームを定義します。住所が指定されていないプロファイルは、ダイレクトメールが準備されると自動的に除外されます。
+ダイレクトメールの受信者は、クエリ、交差点などのアクティビティをターゲットにして、同じワークフローのアクティビティの上流に定義されます。 郵送先住所が指定されていないプロファイルは、ダイレクトメールの準備時に自動的に除外されます。
 
-メッセージの実行パラメーターに従ってメッセージの準備がトリガーされます。メッセージダッシュボードから、メッセージを送信するかどうかを手動で確認できます（デフォルトで必須）。ワークフローを手動で開始することも、ワークフローにスケジューラーアクティビティを配置して実行を自動化することもできます。
+メッセージの準備は、ワークフロー実行パラメータに従ってトリガされます。 メッセージ·ダッシュボードから、メッセージを送信する手動確認を要求するかどうかを選択できます（デフォルトで必要）。 ワークフローを手動で開始するか、スケジューラ·アクティビティをワークフローに配置して実行を自動化できます。
 
-## Configuration {#configuration}
+## 構成 {#configuration}
 
-1. Drag and drop a **[!UICONTROL Direct mail delivery]** activity into your workflow.
-1. Select the activity, then open it using the ![](assets/edit_darkgrey-24px.png) button from the quick actions that appear.
+1. アクティビティをワークフロー **[!UICONTROL Direct mail delivery]** にドラッグアンドドロップします。
+1. アクティビティを選択し、表示されるクイックアクシ ![](assets/edit_darkgrey-24px.png) ョンのボタンを使用して開きます。
 
    >[!NOTE]
    >
-   >You can access the general properties and advanced options of the activity (and not of the delivery itself) via the ![](assets/dlv_activity_params-24px.png) button from the activity's quick actions. このボタンは、チャネルアクティビティに固有のボタンです。ダイレクトメールのプロパティには、ダイレクトメールダッシュボードのアクションバーからアクセスできます。
+   >アクティビティのクイックアクションからボタンを使用して、アクティビティの一般プロパティと詳細オプション(配信自体ではな ![](assets/dlv_activity_params-24px.png) い)にアクセスできます。 このボタンは、チャネルアクティビティに固有です。 ダイレクトメールのプロパティは、ダイレクトメールダッシュボードのアクションバーからアクセスできます。
 
 1. ダイレクトメール送信モードを選択します。
 
-   * **[!UICONTROL Direct mail]**:ダイレクトメールが1回送信されます。アクティビティにアウトバウンドトランジションを追加するかどうかを指定できます。この手順の手順7では、様々な移行タイプについて説明しています。
-   * **[!UICONTROL Recurring direct mail]**: **[!UICONTROL Scheduler]** アクティビティで定義された頻度に従って、ダイレクトメールが数回送信されます。送信の集計期間を選択します。This allows you to regroup all the sends that occur during the defined period in one single direct mail that is also called **Recurring execution** and can be accessed from the application's marketing activity list.
+   * **[!UICONTROL Direct mail]**:ダイレクトメールは1回だけ送信されます。 ここで、アクティビティに外部遷移を追加するかどうかを指定できます。 この手順の手順7では、異なる遷移タイプについて詳しく説明します。
+   * **[!UICONTROL Recurring direct mail]**:ダイレクトメールは、アクティビティで定義された頻度に従って複数回送信さ **[!UICONTROL Scheduler]** れます。 送信の集計期間を選択します。 これにより、1つのダイレクト·メールで定義された期間中に発生したすべての送信を再グループ化できます。これは、 **Recurring Execution** （繰り返し実行）とも呼ばれ、アプリケーションのマーケティング·アクティビティ·リストからアクセスできます。
 
-      例えば、定期的に誕生日のメールが処理された場合、毎月送信するように選択できます。これにより、メールは毎日処理されるので、配信に関するレポートを毎月受信できます。
+      たとえば、毎日処理される定期的な誕生日メールの場合は、1か月あたりの送信を集計するように選択できます。 これにより、毎日メールが処理されるのに、月単位で配信に関するレポートを受け取ることができます。
 
       >[!NOTE]
       >
-      >定期的なダイレクトメールの場合、ワークフローの実行ごとに新しいファイルが生成されます。選択した集計期間は、この動作に影響しません。
+      >定期的なダイレクトメールの場合、ワークフローの実行ごとに新しいファイルが生成されます。 選択した集約期間は、この動作に影響を与えません。
 
-1. ダイレクトメールタイプを選択します。The direct mail types come from templates defined in the **[!UICONTROL Resources]** &gt; **[!UICONTROL Templates]** &gt; **[!UICONTROL Delivery templates]** menu.
-1. ダイレクトメールの一般的なプロパティを入力します。既存のキャンペーンにも添付できます。ワークフローの配信アクティビティのラベルが、ダイレクトメールラベルで更新されます。
-1. ダイレクトメールのコンテンツを定義します。[コンテンツの編集](../../designing/using/about-personalization.md)に関するセクションを参照してください。
-1. By default, the **[!UICONTROL Direct mail delivery]** activity does not include any outbound transitions. If you would like to add an outbound transition to your **[!UICONTROL Direct mail delivery]** activity, go to the **[!UICONTROL General]** tab of the advanced activity options ( ![](assets/dlv_activity_params-24px.png) button in the activity's quick actions) then check one of the following options:
+1. ダイレクトメールの種類を選択します。 ダイレクトメールの種類は、 &gt; &gt; **[!UICONTROL Resources]** &gt;メニューで定義したテンプレ **[!UICONTROL Templates]** ートから **[!UICONTROL Delivery templates]** 取得します。
+1. ダイレクトメールの全般プロパティを入力します。 既存のキャンペーンに添付することもできます。 ワークフローの配信活動のラベルがダイレクトメールラベルで更新されます。
+1. ダイレクトメールの内容を定義します。 内容編集の項を参 [照](../../designing/using/personalization.md)。
+1. デフォルトでは、アクティビティ **[!UICONTROL Direct mail delivery]** にはアウトバウンド遷移は含まれません。 アクティビティにアウトバウンド遷移を追加する場合は、アクティビティの **[!UICONTROL Direct mail delivery]** クイックアクションの「アクティビティの詳細」(Advanced Activity)オプションの **[!UICONTROL General]**![](assets/dlv_activity_params-24px.png) タブ（アクティビティのクイックアクションのボタン）に移動し、次のいずれかのオプションを選択します。
 
-   * **[!UICONTROL Add outbound transition without the population]**:これにより、インバウンドトランジションとまったく同じ訪問者を含むアウトバウンドトランジションを生成できます。この移行には、ダイレクトメールアクティビティによって生成されたファイルと、ダイレクトメールアクティビティによって受信された生の母集団が含まれます。
-   * **[!UICONTROL Add outbound transition with the population]**:これにより、ダイレクトメールを送信する母集団を含むアウトバウンドトランジションを生成できます。ダイレクトメール準備中に除外されるターゲットのメンバー（強制隔離、無効なアドレスなど）は、この移行から除外されます。この移行には、ダイレクトメールによって生成されたファイルも含まれます。
+   * **[!UICONTROL Add outbound transition without the population]**:これにより、着信推移とまったく同じ母集団を含む発信推移を生成できます。 この移行には、ダイレクトメール活動で生成されたファイルと、ダイレクトメール活動で受け取った未処理の人口が含まれます。
+   * **[!UICONTROL Add outbound transition with the population]**:これにより、ダイレクトメールの送信先の母集団を含む送信遷移を生成できます。 ダイレクトメールの準備中に除外されたターゲットのメンバ（検疫、無効なアドレスなど）はこの遷移から除外されます。 この移行には、ダイレクトメールで生成されたファイルも含まれます。
 
 1. アクティビティの設定を確認し、ワークフローを保存します。
 
-アクティビティを再度開くと、直接ダイレクトメールダッシュボードに移動します。編集できるのはコンテンツのみです。
+アクティビティを再び開くと、ダイレクトメールダッシュボードに直接移動します。 コンテンツのみを編集できます。
 
-デフォルトでは、配信ワークフローを開始すると、メッセージの準備のみが開始されます。ワークフローを開始した後でもワークフローから作成されたメッセージを送信する必要があります。But from the message dashboard, and only if the message was created from a workflow, you can disable the **[!UICONTROL Request confirmation before sending messages]** option. このオプションのチェックを解除すると、準備が完了すると、それ以上通知なしでメッセージが送信されます。
+既定では、配信ワークフローを開始すると、メッセージの準備のみがトリガーされます。 ワークフローから作成されたメッセージの送信は、ワークフローの開始後も確認する必要があります。 ただし、メッセージダッシュボードから、ワークフローからメッセージが作成された場合にのみ、このオプションを無効にで **[!UICONTROL Request confirmation before sending messages]** きます。 このオプションをオフにすると、準備が完了した後に、通知なしでメッセージが送信されます。
 
-## Remarks {#remarks}
+## 備考 {#remarks}
 
-ワークフロー内で作成された配信は、アプリケーションのマーケティングアクティビティリストからアクセスできます。ダッシュボードを使用して、ワークフローの実行ステータスを表示できます。ダイレクトメールサマリペインのリンクを使用すると、リンクされた要素（定期的なダイレクトメールの場合にはワークフロー、キャンペーン、親配信）に直接アクセスできます。
+ワークフロー内で作成された搬送には、アプリケーションのマーケティング活動リストからアクセスできます。 ダッシュボードを使用して、ワークフローの実行ステータスを表示できます。 ダイレクトメールの概要ウィンドウのリンクを使用すると、リンクされた要素（定期的なダイレクトメールの場合は、ワークフロー、キャンペーン、親の配信）に直接アクセスできます。
 
 ![](assets/wkf_display_parent_elements_direct_mail.png)
 
-定期配信の実行は、デフォルトでマスクされます。To view them, check the **[!UICONTROL Show recurring executions]** option in the marketing activities' search panel.
+繰り返し送信の実行は、デフォルトでマスクされます。 これらを表示するには、マーケティン **[!UICONTROL Show recurring executions]** グ活動の検索パネルのオプションを確認します。
 
 ![](assets/wkf_display_recurrent_executions_direct_mail.png)
 
-In the parent deliveries, which can be accessed from the marketing activity list or directly via the associated recurring executions, you can view the total number of mails that have been processed (according to the aggregation period specified when the **[!UICONTROL Direct mail delivery]** activity was configured). To do this, open the detail view of the parent delivery's **[!UICONTROL Deployment]** block by selecting ![](assets/wkf_dlv_detail_button.png).
+マーケティング活動リストから、または関連する定期的な実行を介して直接アクセスできる親搬送では、処理されたメールの合計数を（アクティビティが構成されたときに指定された集計期間に従って）表示で **[!UICONTROL Direct mail delivery]** きます。 これを行うには、を選択して親搬送のブロックの詳細ビュー **[!UICONTROL Deployment]** を開きます ![](assets/wkf_dlv_detail_button.png)。
 
 ![](assets/wkf_display_recurrent_executions_3_direct_mail.png)
 
-## Example {#example}
+## 例 {#example}
 
-**[!UICONTROL Direct mail delivery]**[「ダイレクトメール](../../channels/using/example-of-direct-mail-in-a-workflow.md) 」の章では、この例を使用できます。
+の例は、「ダイレ **[!UICONTROL Direct mail delivery]** クトメール」の章に [あります](../../channels/using/example-of-direct-mail-in-a-workflow.md) 。
