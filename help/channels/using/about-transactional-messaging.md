@@ -2,113 +2,113 @@
 title: トランザクションメッセージングについて
 seo-title: トランザクションメッセージングについて
 description: トランザクションメッセージングについて
-seo-description: 送信できるトランザクションメッセージのタイプと、Adobe Campaignでの使用方法を確認します。
-page-status-flag: 常にアクティブ化されていない
-uuid: 8470e9e2- ee17-456f-9e4c-460e69c78a2c
-contentOwner: サウビート
-products: SG_ CAMPAIGN/STANDARD
-audience: チャネル
+seo-description: 送信できるさまざまな種類のトランザクションメッセージと、Adobe Campaignでの使用方法を確認します。
+page-status-flag: 未活性化の
+uuid: 8470e9e2-ee17-456f-9e4c-460e69c78a2c
+contentOwner: サウビア
+products: SG_CAMPAIGN/STANDARD
+audience: チャンネル
 content-type: 参照
-topic-tags: トランザクションメッセージング
-discoiquuid: 71a4d5d5- fe2a-4ce5- b22b- a4736f7add83
-internal: n
-snippet: y
+topic-tags: トランザクション·メッセージング
+discoiquuid: 71a4d5d5-fe2a-4ce5-b22b-a4736f7add83
+internal: 〜の
+snippet: イー
 translation-type: tm+mt
-source-git-commit: d93c2600299a8d2ec3672b3d82222f423878034c
+source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
 ---
 
 
-# About transactional messaging{#about-transactional-messaging}
+# トランザクションメッセージングについて{#about-transactional-messaging}
 
-Adobe Campaignでは、パーソナライズされたトランザクションメッセージを作成して管理できます。
+Adobe Campaignで、個人用のトランザクションメッセージを作成および管理できます。
 
-トランザクションメッセージとは、Webサイトなどのプロバイダーによってユーザーに送信される個人および一意のコミュニケーションです。
+トランザクションメッセージとは、Webサイトなどのプロバイダがユーザに送信する個別の一意の通信です。
 
-* 受信者が確認または確認する情報が含まれているので、このタイプのメッセージは特に期待されます。例えば、アカウントを作成した後のお知らせメッセージや、請求書、請求書、パスワードの変更を確認するメッセージなどの確認メッセージを作成できます。
-* クライアントの関係を定義する重要なメッセージです。ユーザーは、リアルタイムで送信されることを期待しています。トリガーされるイベントと到着したメッセージの間の遅延は非常に短くする必要があります。
-* トランザクションメッセージには一般的に高オープン率があります。
+* この種類のメッセージは、受信者が確認または確認する情報を含むので、特に期待されます。 たとえば、アカウントを作成した後のウェルカムメッセージ、または注文が出荷されたことを確認するメッセージ、請求書、またはパスワードの変更を確認するメッセージなどです。
+* クライアントの関係を定義する重要なメッセージです。ユーザは、リアルタイムで送信されることを想定しています。 トリガーされるイベントとメッセージの受信間の遅延は、非常に短くする必要があります。
+* トランザクション·メッセージのオープン·レートは一般に高い。
 
-Adobe Campaignでは、この機能を情報システムに統合して、カスタムトランザクションメッセージに変換するイベントを送信することができます。
+Adobe Campaignでは、この機能を、カスタムトランザクションメッセージに変換されるイベントを送信する情報システムと統合できます。
 
 >[!NOTE]
 >
->トランザクションメッセージは、オプションに応じて電子メール、SMSまたはプッシュ通知で送信できます。使用許諾契約書を確認してください。
+>トランザクションメッセージは、オプションに応じて、電子メール、SMS、またはプッシュ通知で送信できます。 使用許諾契約を確認してください。
 
 Adobe Campaignでは、次の2種類のトランザクションメッセージを使用できます。
 
-* [イベントをターゲット化するイベントトランザクションメッセージ](../../channels/using/event-transactional-messages.md) 。イベント自体に含まれるデータは、配信ターゲットを定義するために使用されます。
-* [Adobe Campaignマーケティングデータベースからのプロファイルトランザクションメッセージ](../../channels/using/profile-transactional-messages.md) のターゲットプロファイル。Adobe Campaignデータベースの情報を使用して、顧客のマーケティングプロファイルに基づいてトランザクションメッセージを送信できます。
+* [イベントを対象とした](../../channels/using/event-transactional-messages.md) 、イベントトランザクションメッセージ。 イベント自体に含まれるデータは、配信ターゲットの定義に使用されます。
+* [Adobe Campaignのマーケティング](../../channels/using/profile-transactional-messages.md) ·データベースのプロファイルを対象としたトランザクション·メッセージのプロファイル Adobe Campaignデータベースの情報を使用して、顧客のマーケティングプロファイルに基づいてトランザクションメッセージを送信できます。
 
-メッセージタイプは、トランザクションメッセージに変換されるイベントの設定時に定義されます。[トランザクションメッセージング設定](../../administration/using/configuring-transactional-messaging.md)を参照してください。
+メッセージ·タイプは、トランザクション·メッセージに変換されるイベントを構成する際に定義されます。 「トランザクシ [ョン·メッセージ構成」を参照](../../administration/using/configuring-transactional-messaging.md)。
 
 >[!NOTE]
 >
->Adobe Campaignでは、トランザクションメッセージの処理を他の任意の配信で優先できます。
+>Adobe Campaignは、トランザクションメッセージの処理を他の配信よりも優先します。
 
-トランザクションメッセージングは、Adobe Campaign Standard APIからも利用できます。For more on this, refer to the [dedicated documentation](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#about-transactional-messaging).
+トランザクションメッセージングは、Adobe Campaign Standard APIからも利用できます。 詳細については、専用のマニュアルを参照し [てください](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#about-transactional-messaging)。
 
-## Transactional messaging operating principle {#transactional-messaging-operating-principle}
+## トランザクションメッセージングの動作原則 {#transactional-messaging-operating-principle}
 
-WebサイトとこのWebサイトのユーザが製品を購入できる会社の例を見てみましょう。
+Webサイトを持つ企業の例を見てみましょう。このWebサイトでは、ユーザーが製品を購入できます。
 
-Adobe Campaignでは、買い物かごに製品を追加したサイトユーザーに通知電子メールを送信できます。そのうちの1人が、購入を待たずにサイトを離れると、買い物かごの放棄電子メールが自動的に送信されます。
+Adobe Campaignを使用すると、カートに製品を追加したサイトユーザに通知電子メールを送信できます。購入を経ずに退場すると、カート廃棄メールが自動的に送信されます。
 
 これを配置する手順は次のとおりです。
 
-1. 「買い物かごの放棄」という名前のイベントを設定し、このイベント設定を発行して、トランザクションメッセージを自動的に作成します。Creating and publishing an event are presented in the [Configuring an event to send an event transactional message](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) section.
-1. トランザクションメッセージは、パーソナライズ、テスト、発行する必要があります。[イベントトランザクションメッセージ](../../channels/using/event-transactional-messages.md)を参照してください。
-1. さらに、クライアントが買い物かごを放棄したときにイベントをトリガーするために、このイベントはAdobe Campaign Standard REST APIを使用して会社のWebサイトから送信する必要があります。See [Site integration](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website).
+1. 「Cart Abbonding」という名前のイベントを構成し、このイベント構成を公開します。このイベント構成は、トランザクションメッセージを自動的に作成します。 イベントの作成と公開は、「イベントトランザクショ [ンメッセージを送信するイベントの構成](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) 」のセクションで行います。
+1. トランザクション·メッセージは、パーソナライズされ、テストされ、公開される必要があります。 「イベント·ト [ランザクション·メッセージ](../../channels/using/event-transactional-messages.md)」を参照。
+1. さらに、クライアントがカートを破棄したときにイベントがトリガーされるように、このイベントはAdobe Campaign Standard REST APIを使用して会社のWebサイトから送信する必要があります。 「サイト [の統合」を参照](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website)。
 
-これらの手順がすべて実行されると、ユーザが買い物かごの製品を注文せずにサイトを離れると、自動的に通知電子メールが届きます。
+これらの手順がすべて実行されると、ユーザーがカート内の製品を注文せずにサイトを離れると、自動的に通知Eメールが送信されます。
 
-## Transactional messaging limitations {#transactional-messaging-limitations}
+## トランザクションメッセージングの制限 {#transactional-messaging-limitations}
 
-### Design and publication {#design-and-publication}
+### デザインと出版 {#design-and-publication}
 
-トランザクションメッセージをデザインして発行するときに、実行する必要のある手順の一部を元に戻すことはできません。以下の制限事項に注意してください。
+トランザクション·メッセージを設計および公開する際に、実行する必要のある手順の一部を元に戻すことはできません。 次の制限に注意する必要があります。
 
-* 各イベント設定に使用できるチャネルは1つだけです。See [Creating an event](../../administration/using/configuring-transactional-messaging.md#creating-an-event).
-* イベントが作成されると、チャネルを変更することはできません。したがって、メッセージが正常に送信されない場合は、ワークフローを使用して別のチャネルから送信できるメカニズムを設計する必要があります。[ワークフローデータとプロセス](../../automating/using/workflow-data-and-processes.md)を参照してください。
-* You cannot change the targeting dimension ( **[!UICONTROL Real-time event]** or **[!UICONTROL Profile]** ) after the event is created. See [Creating an event](../../administration/using/configuring-transactional-messaging.md#creating-an-event).
-* パブリケーションのロールバックはできませんが、イベントの公開を取り消すことができます。この操作により、イベントと関連するトランザクションメッセージはアクセスできません。See [Unpublishing an event](../../administration/using/configuring-transactional-messaging.md#unpublishing-an-event).
-* イベントに関連付けることのできるトランザクションメッセージは、イベントの発行時に自動的に作成されるメッセージです。See [Previewing and publishing the event](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event).
+* 各イベント構成に使用できるチャネルは1つだけです。 「イベ [ントの作成」を参照](../../administration/using/configuring-transactional-messaging.md#creating-an-event)。
+* イベントが作成された後は、チャンネルを変更できません。 したがって、メッセージが正常に送信されない場合は、ワークフローを使用して別のチャネルから送信できるメカニズムを設計する必要があります。 「ワークフ [ロー·データとプロセス」を参照](../../automating/using/workflow-data-and-processes.md)。
+* イベントの作成後にターゲットディメンシ **[!UICONTROL Real-time event]** ョン(ま **[!UICONTROL Profile]** たは)を変更することはできません。 「イベ [ントの作成」を参照](../../administration/using/configuring-transactional-messaging.md#creating-an-event)。
+* パブリケーションをロールバックすることはできませんが、イベントの公開を取り消すことができます。この操作を行うと、イベントと関連するトランザクションメッセージにアクセスできなくなります。 「イベント [の公開の取り消し」を参照してくださ](../../administration/using/configuring-transactional-messaging.md#unpublishing-an-event)い。
+* イベントに関連付けられるトランザクションメッセージは、そのイベントの発行時に自動的に作成されるメッセージだけです。 「イベント [のプレビューと公開」を参照してください](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)。
 
-### Personalization {#personalization}
+### 個人用設定 {#personalization}
 
-メッセージコンテンツをパーソナライズする方法は、トランザクションメッセージの種類によって異なります。特異性は以下のとおりです。
+メッセージ·コンテンツをパーソナライズする方法は、トランザクション·メッセージのタイプによって異なります。 次に、特定の内容を示します。
 
-**イベントベースのトランザクションメッセージ**:
+**イベント·ベースのトランザクション·メッセージ**:
 
-* パーソナライゼーション情報は、イベント自体に含まれるデータから取得されます。[イベントトランザクションメッセージ](../../channels/using/event-transactional-messages.md)を参照してください。
-* You cannot use **Unsubscription link** content blocks in an event transactional message.
-* イベントベースのトランザクションメッセージでは、送信イベント内のデータのみを使用して受信者およびメッセージコンテンツのパーソナライゼーションを定義します。ただし、Adobe Campaignデータベースの情報を使用してトランザクションメッセージのコンテンツを充実させることができます。See [Enriching the transactional message content](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content).
-* イベントトランザクションメッセージにはプロファイル情報が含まれていないため、プロファイルを使用した補強の場合でも、疲労ルールとは互換性がありません。[疲労ルール](../../administration/using/fatigue-rules.md)を参照してください。
+* 個人情報は、イベント自体に含まれるデータから取得されます。 「イベント·ト [ランザクション·メッセージ](../../channels/using/event-transactional-messages.md)」を参照。
+* イベントトランザクショ **ンメッセージでは** 、[サブスクリプション解除]リンクコンテンツブロックは使用できません。
+* イベント·ベースのトランザクション·メッセージングでは、送信イベント内のデータのみを使用して、受信者とメッセージ·コンテンツのパーソナライズを定義します。 ただし、Adobe Campaignデータベースの情報を使用して、トランザクションメッセージの内容を強化できます。 「トランザク [ション·メッセージの内容の強化」を参照してくださ](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content)い。
+* イベント·トランザクション·メッセージにはプロファイル情報が含まれないため、プロファイルとの拡張の場合でも、疲労ルールとの互換性はありません。 疲労ル [ールを参照](../../administration/using/fatigue-rules.md)。
 
-**プロファイルベースのトランザクションメッセージ**:
+**プロファイル·ベースのトランザクション·メッセージ**:
 
-* パーソナライゼーション情報は、イベントに含まれるデータまたは調整されたプロファイルレコードから取得できます。See [Profile transactional messages](../../channels/using/profile-transactional-messages.md).
-* You can use **Unsubscription link** content blocks in a profile transactional message. See [Adding a content block](../../designing/using/adding-a-content-block.md).
-* 疲労ルールは、プロファイルトランザクションメッセージと互換性があります。[疲労ルール](../../administration/using/fatigue-rules.md)を参照してください。
+* 個人用設定情報は、イベントに含まれるデータまたは調整済みプロファイルレコードから取得できます。 「トランザクシ [ョン·メッセージのプロファイル](../../channels/using/profile-transactional-messages.md)」を参照。
+* プロファイル·トランザクショ **ン·メッセージで** 、「≪サブスクリプション解除|Unsubscription|Eas≫」リンク·コンテンツ·ブロックを使用できます。 「コンテンツ [ブロックの追加」を参照してくださ](../../designing/using/personalization.md#adding-a-content-block)い。
+* 疲労ルールは、プロファイルトランザクションメッセージと互換性があります。 疲労ル [ールを参照](../../administration/using/fatigue-rules.md)。
 
-製品リストは、トランザクション電子メールメッセージでのみ使用できます。See [Using product listings in a transactional message](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message).
+製品一覧は、トランザクションの電子メールメッセージでのみ使用できます。 トランザク [ション·メッセージでの製品リストの使用を参照](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message)。
 
-### Permissions and branding {#permissions-and-branding}
+### 権限とブランド化 {#permissions-and-branding}
 
-[ブランディング](../../administration/using/branding.md) 管理にアクセスすると、トランザクションメッセージは標準的なメッセージングよりも柔軟性を低下させます。Adobe recommends linking all brands used in transactional messages to the **[!UICONTROL All]** organizational unit. これについて詳しくは、以下の詳細を参照してください。
+ブランド管理に関しては [](../../administration/using/branding.md) 、トランザクションメッセージングは標準メッセージングよりも柔軟性が低くなります。 トランザクションメッセージで使用されるすべてのブランドを組織単位にリンクするこ **[!UICONTROL All]** とをお勧めします。 詳細については、以下の詳細な説明を参照してください。
 
-トランザクションメッセージを編集する際、ブランド名やブランドロゴなどの一部のパラメーターを自動的に適用するようにブランドにリンクできます。**[!UICONTROL Default brand]** トランザクションメッセージのプロパティでは、デフォルトで選択されています。
+トランザクションメッセージを編集する際に、そのメッセージをブランドにリンクして、ブランド名やブランドロゴなどのパラメータを自動的に適用できます。 トランザク **[!UICONTROL Default brand]** ションメッセージのプロパティでは、が既定で選択されています。
 
 ![](assets/message-center_branding.png)
 
-To access the transactional messages, you must be part of the **[!UICONTROL Message Center agents]** (mcExec) security group, which is linked to the **[!UICONTROL Message Center]** [organizational unit](../../administration/using/organizational-units.md). Therefore, all objects (including branding) used in a transactional message must be visible from the **[!UICONTROL Message Center]** organizational unit, meaning that these objects must be in the **[!UICONTROL Message Center]** or **[!UICONTROL All]** organizational units.
+トランザクションメッセージにアクセスするには、組織単位( **[!UICONTROL Message Center agents]** organizational unit)にリンクされた(mcExec)セキュリティグループに属している必要が **[!UICONTROL Message Center]** あ [ります](../../administration/using/organizational-units.md)。 したがって、トランザクションメッセージで使用されるすべてのオブジェクト（ブランド化を含む）は、組織単位(OU)から参照できる必要があります。つまり、これらのオブジェクトは、または組織単位(OU)に **[!UICONTROL Message Center]** 含まれる必要が **[!UICONTROL Message Center]****[!UICONTROL All]** あります。
 
-However, if the brand selected in the message properties is linked to an organizational unit which is different from **[!UICONTROL Message Center]** or **[!UICONTROL All]**, this will cause an error and you will not be able to send the transactional message.
+ただし、メッセージのプロパティで選択したブランドが、またはとは異なる組織単位にリンクされている場合は、エラーが発生し、トランザクションメッセージを送信できなくなります。 **[!UICONTROL Message Center]****[!UICONTROL All]**
 
-Therefore, if you want to use multi-branding in the context of transactional messaging, you should link all brands either to the **[!UICONTROL Message Center]** organizational unit or to the **[!UICONTROL All]** organizational unit.
+したがって、トランザクションメッセージングのコンテキストでマルチブランドを使用する場合は、すべてのブランドを組織単位または組織単位 **[!UICONTROL Message Center]** にリンクする必要が **[!UICONTROL All]** あります。
 
-### Exporting and importing transactional messages {#exporting-and-importing-transactional-messages}
+### トランザクション·メッセージのエクスポートとインポート {#exporting-and-importing-transactional-messages}
 
-* To export a transactional message, you need to include the corresponding event configuration when [creating the package export](../../automating/using/managing-packages.md#creating-a-package).
-* Once the transactional message is [imported through a package](../../automating/using/managing-packages.md#importing-a-package), it is not displayed in the transactional message list. You need to [publish](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event) the event configuration in order to make the associated transactional message available.
+* トランザクションメッセージをエクスポートするには、パッケージのエクスポートを作成する際に、対応するイベ [ント構成を含める必要がありま](../../automating/using/managing-packages.md#creating-a-package)す。
+* トランザクション·メッセージは、パッ [ケージを介してインポートされ](../../automating/using/managing-packages.md#importing-a-package)、トランザクション·メッセージ·リストには表示されません。 関連するトランザクシ [ョンメッセージを使用可能にするには](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event) 、イベント構成を公開する必要があります。
 
