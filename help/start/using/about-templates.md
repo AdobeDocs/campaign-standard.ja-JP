@@ -2,19 +2,19 @@
 title: テンプレートについて
 seo-title: テンプレートについて
 description: テンプレートについて
-seo-description: '"Adobe Campaignテンプレートを使用すると、必要に応じてパラメータを事前に構成できます。テンプレートには、マーケティング活動の完全または一部の構成が含まれていて、技術者以外のエンドユーザーに対するAdobeキャンペーンの使用をシンプルにすることができます」。'
-page-status-flag: 決して活性化されていない
-uuid: 018534b6-61a3-433e- bb60-4983c8b9386
-contentOwner: ソビア
-products: SG_キャンペーン/標準
+seo-description: 「Adobe Campaignテンプレートを使用すると、必要に応じてパラメータを事前に設定できます。テンプレートには、テクニカル以外のエンドユーザーに対するAdobe Campaignの使用を簡単にするために、マーケティング活動の完全または一部の構成を含めることができます。」
+page-status-flag: 未活性化の
+uuid: 018534b6-61a3-433e-bb60-49883c8b9386
+contentOwner: サウビア
+products: SG_CAMPAIGN/STANDARD
 audience: 開始
 content-type: 参照
-topic-tags: 管理テンプレート
-discoiquuid: 95218BE-5430-42a2- b900-1dadbbc92d99
-internal: n
-snippet: y
+topic-tags: テンプレートの管理
+discoiquuid: 95218ebe-5430-42a2-b900-1dadbc92d99
+internal: 〜の
+snippet: イー
 translation-type: tm+mt
-source-git-commit: 816c580d952848ac760c9a98c06f54bf260f3554
+source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
 
 ---
 
@@ -23,92 +23,92 @@ source-git-commit: 816c580d952848ac760c9a98c06f54bf260f3554
 
 ## マーケティング活動テンプレート {#marketing-activity-templates}
 
-新しいマーケティング活動を作成すると、ウィザードの最初の画面に、タイプまたはテンプレートの選択が求められます。テンプレートを使用すると、必要に応じて特定のパラメータを事前に構成できます。テンプレートには、マーケティング活動の完全または一部の構成が含まれている場合があります。テンプレート管理は、機能管理者によって実行されます。
+新しいマーケティング活動を作成すると、ウィザードの最初の画面に、種類またはテンプレートを選択するよう求められます。 テンプレートを使用すると、必要に応じて特定のパラメータを事前に構成できます。 テンプレートには、マーケティング活動の完全な構成または一部の構成が含まれる場合があります。 テンプレート管理は、機能管理者が実行します。
 
-エンドユーザにはシンプルなインターフェイスがあります。新しいマーケティング活動を作成するときは、使用するテンプレートを選択するだけです。技術的な構成について心配する必要はありません。これは、テンプレートの機能管理者によって既に事前構成されています。
+エンド·ユーザーは、インタフェースを簡略化しています。 新しいマーケティング活動を作成する場合は、使用するテンプレートを選択する必要があります。 技術的な構成に関する心配は不要です。 これは、機能管理者によってテンプレート内で既に事前に構成されています。
 
-たとえば、電子メールテンプレートの場合は、HTMLコンテンツ、視聴者、および配信のその他のパラメータを事前に入力できます。スケジュール、テストプロファイル、配信の全般的なプロパティ、高度なパラメータなど。これにより、新しいアクティビティを作成するときに時間を節約できます。
+たとえば、電子メールテンプレートの場合は、HTMLコンテンツ、対象ユーザー、および配信のその他のパラメータを事前に入力できます。スケジュール、テストプロファイル、配送の一般的なプロパティ、詳細パラメータなど これにより、新しいアクティビティを作成する際の時間を節約できます。
 
 ![](assets/template_1.png)
 
-マーケティング活動のタイプごとに、1つまたは複数のすぐに使用できるテンプレートを最小構成で使用できます。これらの既定のテンプレートは変更または削除できません。
+各タイプのマーケティング活動に対して、最小限の構成で1つまたは複数の標準テンプレートを使用できます。 これらの標準テンプレートは、変更または削除できません。
 
-テンプレートは、次のマーケティング活動で使用できます。
+テンプレートは、次のマーケティング活動に使用できます。
 
 * プログラム
 * キャンペーン
 * 電子メール配信
 * SMS配信
 * プッシュ通知
-* ランディング・ページ
+* ランディングページ
 * ワークフロー
 * サービス
-* インポート
+* 読み込み
 * トランザクションメッセージ
 
-これらのテンプレートは、&gt; **[!UICONTROL Resources]****[!UICONTROL Templates]** 画面から管理されます。
+これらのテンプレートは、 &gt;画面か **[!UICONTROL Resources]** ら管理 **[!UICONTROL Templates]** します。
 
 >[!NOTE]
 >
->ブランド構成は、電子メールまたはランディング・ページ・テンプレートで事前に構成できます。詳細については [、「ブランディング](../../administration/using/branding.md) 」セクションを参照してください。
+>ブランド構成は、電子メールまたはランディング·ページ·テンプレートで事前に構成できます。 詳細については、「ブランド化」の項を参照 [してく](../../administration/using/branding.md) ださい。
 
 ## コンテンツテンプレート {#content-templates}
 
-HTMLコンテンツテンプレートには、[詳細設定]メニューの **[!UICONTROL Resources]** [&gt; **[!UICONTROL Content templates & fragments]** ]画面からアクセス [](../../start/using/interface-description.md#advanced-menu)できます。ここから、ランディングページのコンテンツテンプレート、電子メールコンテンツテンプレート、およびフラグメントを管理できます。
+HTMLコンテンツテンプレートは、[詳細設定]メニューの[ &gt; ] **[!UICONTROL Resources]** 画面から **[!UICONTROL Content templates & fragments]** アクセス [できます](../../start/using/interface-description.md#advanced-menu)。 ここから、ランディング·ページのコンテンツ·テンプレート、Eメール·コンテンツ·テンプレート、およびフラグメントを管理できます。
 
 ![](assets/content_templates_list.png)
 
-既定のコンテンツテンプレートは読み取り専用です。これらのいずれかを編集するには、まず目的のテンプレートを複製する必要があります。
+標準のコンテンツテンプレートは読み取り専用です。 1つを編集するには、まず目的のテンプレートを複製する必要があります。
 
-新しいテンプレートまたはフラグメントを作成し、独自のコンテンツを定義できます。詳細については、「 [コンテンツテンプレートの作成](../../start/using/about-templates.md#creating-a-content-template) とコンテンツフラグメント [の作成」を](../../designing/using/defining-the-email-structure.md#creating-a-content-fragment)参照してください。
+新しいテンプレートまたはフラグメントを作成し、独自のコンテンツを定義できます。 詳細については、「コンテンツテンプレ [ートを作成する」および](../../start/using/about-templates.md#creating-a-content-template) 「コンテ [ンツフラグメントを作成する」を参照してください](../../designing/using/using-reusable-content.md#creating-a-content-fragment)。
 
-電子メールデザイナでコンテンツを編集する場合は、コンテンツをフラグメントとして保存するかテンプレートとして保存することで、コンテンツテンプレートを作成することもできます。詳細については、「コンテンツ [をテンプレートとして保存する」](../../start/using/about-templates.md#saving-content-as-template) および「コンテンツ [をフラグメントとして保存する」を](../../designing/using/defining-the-email-structure.md#saving-content-as-a-fragment)参照してください。
+電子メールデザイナでコンテンツを編集する場合は、コンテンツをフラグメントまたはテンプレートとして保存して、コンテンツテンプレートを作成することもできます。 詳細については、「テンプレートとし [てコンテンツを保存する」および](../../start/using/about-templates.md#saving-content-as-template) 「フラグメ [ントとしてコンテンツを保存する」を参照してくださ](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment)い。
 
-### すぐに使える電子メールコンテンツテンプレート {#email-content-templates}
+### E-メール·コンテンツ·テンプレートは、すぐに利用できる {#email-content-templates}
 
-電子 **[!UICONTROL Templates]**[メールデザイナー](../../designing/using/about-email-content-design.md#about-the-email-designer) のホームページのタブで提供されるHTMLコンテンツを管理できます。
+電子メールデザイナのホームページのタブで提供さ **[!UICONTROL Templates]** れるHTMLコンテ [ンツを管理できます](../../designing/using/overview.md) 。
 
-最新の電子メールコンテンツテンプレートには、モバイル最適化された18のレイアウトと、Behanceアーティストが設計した4つのクラス最高の応答性テンプレートが含まれています。これらは、お客様のウェルカムメッセージ、ニュースレター、リエンゲージメントのEメールなどの最新の用途に対応しています。ブランドのコンテンツで簡単にカスタマイズできるため、メールのデザインプロセスを簡単に実行できます。
+E-メールコンテンツテンプレートには、モバイル向けに最適化された18のレイアウトと、Behanceアーティストが設計したクラス最高の応答性を持つ4つのテンプレートが含まれます。 お客様の歓迎メッセージ、ニュースレター、再契約のE-メールなど、最新の用途に対応しています。 E-メールの設計プロセスを一から簡単にするために、ブランドのコンテンツを簡単にカスタマイズできます。
 
 ![](assets/content_templates.png)
 
-**関連トピック:**
+**関連トピック：**
 
-* このビデオでコンテンツテンプレート [をカスタマイズする方法について](https://helpx.adobe.com/campaign/kt/acs/using/acs-email_content_templates-feature-video-use.html)説明します。
-* コンテンツの編集の詳細については、「電子メールコンテンツのデザイン [について」を](../../designing/using/about-email-content-design.md)参照してください。
+* このビデオでコンテンツテンプレートを個 [人用に設定する方法を説明します](https://helpx.adobe.com/campaign/kt/acs/using/acs-email_content_templates-feature-video-use.html)。
+* コンテンツの編集の詳細については、「電子メールコンテンツデザ [インについて」を参照してくださ](../../designing/using/overview.md)い。
 
-### コンテンツテンプレートの作成 {#creating-a-content-template}
+### コンテンツテンプレートを作成する {#creating-a-content-template}
 
-独自のコンテンツテンプレートを作成して、必要に応じて何度でも使用できます。
+独自のコンテンツテンプレートを作成して、必要な回数だけ使用できます。
 
-電子メールコンテンツテンプレートを作成する方法を次の例に示します。
+次の例は、電子メールコンテンツテンプレートを作成する方法を示しています。
 
-1. **[!UICONTROL Resources]** &gt;に **[!UICONTROL Content templates & fragments]** 移動し、をクリック **[!UICONTROL Create]**&#x200B;します。
-1. 電子メール・ラベルをクリックして、電子メール・デザイナの **[!UICONTROL Properties]** タブにアクセスします。
-1. 認識可能なラベルを指定し、次のパラメータを選択して、このテンプレートを電子メールで使用できるようにします。
+1. &gt;に移動し、をク **[!UICONTROL Resources]** リッ **[!UICONTROL Content templates & fragments]** クしま **[!UICONTROL Create]**&#x200B;す。
+1. 電子メール·ラベルをクリックして、電子メ **[!UICONTROL Properties]** ール·デザイナのタブにアクセスします。
+1. 認識可能なラベルを指定し、次のパラメータを選択して、このテンプレートを電子メールで使用できます。
 
-   * ドロップ **[!UICONTROL Shared]****[!UICONTROL Delivery]** ダウンリスト **[!UICONTROL Content type]** を選択します。
-   * ドロップ **[!UICONTROL Template]****[!UICONTROL HTML type]** ダウンリストから選択します。
+   * ドロップダウ **[!UICONTROL Shared]** ンリ **[!UICONTROL Delivery]** ストから、ま **[!UICONTROL Content type]** たはを選択します。
+   * ドロップダウ **[!UICONTROL Template]** ンリストか **[!UICONTROL HTML type]** らを選択します。
    ![](assets/email_designer_create-template.png)
 
-1. 必要に応じて、テンプレートのサムネイルとして使用するイメージを設定できます。テンプレートプロパティの **[!UICONTROL Thumbnail]** タブから選択します。
+1. 必要に応じて、テンプレートのサムネイルとして使用するイメージを設定できます。 テンプレートのプロパティ **[!UICONTROL Thumbnail]** のタブから選択します。
 
    ![](assets/email_designer_create-template_thumbnail.png)
 
-   このサムネイルは、電子 **[!UICONTROL Templates]**[メールデザイナ](../../designing/using/about-email-content-design.md#about-the-email-designer) のホームページのタブに表示されます。
+   このサムネイルは、電子メールデザイナのホ **[!UICONTROL Templates]** ームページのタ [ブに表示さ](../../designing/using/overview.md) れます。
 
-1. **[!UICONTROL Properties]** タブを閉じて、メインワークスペースに戻ります。
-1. 必要に応じてカスタマイズできる構造コンポーネントおよびコンテンツコンポーネントを追加します。
+1. タブを閉じ **[!UICONTROL Properties]** て、メインワークスペースに戻ります。
+1. 必要に応じてカスタマイズできる構造コンポーネントとコンテンツコンポーネントを追加します。
    >[!NOTE]
    >
-   > コンテンツテンプレート内にパーソナル化フィールドや条件付きコンテンツを挿入することはできません。
+   > 個人用設定フィールドや条件付きコンテンツをコンテンツテンプレート内に挿入することはできません。
 1. 編集したら、テンプレートを保存します。
 
-このテンプレートは、電子メールデザイナで構築された電子メールで使用できるようになりました。**[!UICONTROL Templates]**[電子メールデザイナ](../../designing/using/about-email-content-design.md#about-the-email-designer) のホームページのタブから選択します。
+このテンプレートは、電子メールデザイナで作成された任意の電子メールで使用できます。 電子メールデザイナのホ **[!UICONTROL Templates]** ームページのタ [ブから](../../designing/using/overview.md) 、選択します。
 
 ![](assets/content_template_new.png)
 
-### コンテンツをテンプレートとして保存 {#saving-content-as-template}
+### テンプレートとしてのコンテンツの保存 {#saving-content-as-template}
 
 電子メールデザイナで電子メールを編集する場合は、その電子メールの内容をテンプレートとして直接保存できます。
 
@@ -116,17 +116,17 @@ HTMLコンテンツテンプレートには、[詳細設定]メニューの **[!
 >
 >You cannot save as template a structure containing personalization fields or dynamic content.-->
 
-1. 電子メールデザイナのメインツールバー **[!UICONTROL Save as template]** から選択します。
+1. 電子メー **[!UICONTROL Save as template]** ルデザイナのメインツールバーからを選択します。
 
    ![](assets/email_designer_save-as-template.png)
 
-1. 必要に応じてラベルと説明を追加し、をクリック **[!UICONTROL Save]**&#x200B;します。
+1. 必要に応じてラベルと説明を追加し、をクリックしま **[!UICONTROL Save]**&#x200B;す。
 
    ![](assets/email_designer_save-as-template_creation.png)
 
-1. 作成したテンプレートを検索するには **[!UICONTROL Resources]** &gt; **[!UICONTROL Content templates & fragments]**&#x200B;に進みます。
+1. 作成したテンプレートを検索するには、 **[!UICONTROL Resources]** &gt;に進みま **[!UICONTROL Content templates & fragments]**&#x200B;す。
 
-1. 新しいテンプレートを使用するには、電子 **[!UICONTROL Templates]**[メールデザイナー](../../designing/using/about-email-content-design.md#about-the-email-designer) のホームページのタブから新しいテンプレートを選択します。
+1. 新しいテンプレートを使用するには、電子メールデザイナのホ **[!UICONTROL Templates]** ームページのタ [ブから](../../designing/using/overview.md) 、テンプレートを選択します。
 
    ![](assets/content_template_new.png)
 
