@@ -2,83 +2,83 @@
 title: 電子メールの件名と送信者の定義
 seo-title: 電子メールの件名と送信者の定義
 description: 電子メールの件名と送信者の定義
-seo-description: 電子メールデザイナで電子メールの件名と送信者を定義する方法を説明します。
-page-status-flag: 未活性化の
+seo-description: 電子メールデザイナーで電子メールの件名と送信者を定義する方法を確認します。
+page-status-flag: 非活性化の
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
-contentOwner: サウビア
+contentOwner: ソビア
 products: SG_CAMPAIGN/STANDARD
 audience: 設計
 content-type: 参照
-topic-tags: 編集，電子メールの内容
+topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
-internal: 〜の
-snippet: イー
+internal: n
+snippet: y
 translation-type: tm+mt
-source-git-commit: 29cbde1a6bb57526f626f2d1fef52695c50de8e6
+source-git-commit: 0cf4807fc3d617b0c5ca33705b6344d1f3994ab3
 
 ---
 
 
-# 電子メールの件名と送信者の定義{#defining-the-subject-line-of-an-email}
+# Defining the subject line and the sender of an email{#defining-the-subject-line-of-an-email}
 
-メッセージの件名は、メッセージの準備と送信に必須です。
+The message subject is mandatory to prepare and send the message.
 
 >[!NOTE]
 >
->件名行が空の場合、メッセージダッシュボードと電子メールデザイナに警告が表示されます。
+>件名行が空の場合は、メッセージダッシュボードと電子メールデザイナーに警告が表示されます。
 
-電子メールの件名を設定するには、電子メー **[!UICONTROL Properties]** ルデザイナのホームページのタブ（ホームアイコンからアクセス可能）に移動し、セクションに入力 **[!UICONTROL Subject]** します。
+電子メールの件名を設定するには、電子メールデザ **[!UICONTROL Properties]** イナーのホームページのタブ（ホームアイコンからアクセス可能）に移動し、セクションに入力 **[!UICONTROL Subject]** します。
 
-**電子メールの件名を定義する手順は、次のとおりです**。
+**To define the subject line of an email:**
 
 1. 電子メールを作成します。
 1. ホームページを閉じます。
-1. 電子メール·デ **[!UICONTROL Properties]** ザイナのホームページのタブ（ホーム·アイコンからアクセス可能）に移動し、セクションに入力 **[!UICONTROL Subject]** します。
+1. 電子メールデ **[!UICONTROL Properties]** ザイナのホームページのタブ（ホームアイコンからアクセス可能）に移動し、セクションに入力 **[!UICONTROL Subject]** します。
 
 ![](assets/email_designer_subject.png)
 
-対応するアイコンをクリックして、個人用設定フィールド、コンテンツブロック、および動的コンテンツを件名行に追加することもできます。
+また、対応するアイコンをクリックして、パーソナライゼーションフィールド、コンテンツブロックおよび動的コンテンツを件名行に追加することもできます。
 
 **関連トピック：**
 
-* [個人用設定フィールドの挿入](../../designing/using/personalization.md#inserting-a-personalization-field)
-* [コンテンツブロックを追加する](../../designing/using/personalization.md#adding-a-content-block)
-* [電子メールでの動的コンテンツの定義](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)
+* [Inserting a personalization field](../../designing/using/personalization.md#inserting-a-personalization-field)
+* [Adding a content block](../../designing/using/personalization.md#adding-a-content-block)
+* [Defining dynamic content in an email](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)
 
-## 予測対象行 {#predictive-subject-line}
+## Predictive subject line {#predictive-subject-line}
 
-電子メールを編集する場合は、送信する前に別の件名を試して、開放率の見積もりを得ることができます。
+When editing an email, you can try out different subject lines and get an estimation of its open rate before you send it.
 
-この機能は、デフォルトでは無効になっています。 最初のモデルをインポートするときに有効になります。 モデルは、特定の業界に固有のトレーニング·データ·セットの結果です。 モデルを使用すると、新しい件名行が送信されたときに、電子メールのオープン率を予測できます。
+This feature is disabled by default. It is enabled when the first model is imported. A model is the result of training data sets specific to a given industry. Models allow the system to predict the open rate of the email when a new subject line is submitted.
 
 >[!NOTE]
 >
->この機能は、電子メールメッセージや英語のコンテンツを含むデータベースに対してのみ使用できます。 訓練されたモデルは矛盾し、インスタンスに他の言語の電子メールが含まれている場合は、誤った結果が生じます。 サブジェクトをテストできるオプションは、モデルがインスタンスで既に使用可能な場合にのみ表示されます。
+>This feature is available for email messages and for databases that contain English contents only. トレーニングを受けたモデルは一貫性がなく、インスタンスに他の言語の電子メールが含まれている場合は、誤った結果を招きます。 サブジェクトをテストするオプションは、モデルが既にインスタンスで使用可能な場合にのみ表示されます。
 
 **関連トピック**
 
 * [件名行のテスト](../../sending/using/testing-subject-line-email.md)
 
-## 電子メール送信者 {#email-sender}
+## 電子メールの送信者 {#email-sender}
 
-送信されたメッセージのヘッダーに表示される送信者の名前を定義するには、電子メールデザイナのホームページの **[!UICONTROL Properties]** タブ（「ホーム」アイコンからアクセス可能）に移動します。
+送信するメッセージのヘッダーに表示される送信者の名前を定義するには、電子メールデザイナーのホームページのタブに移動します( **[!UICONTROL Properties]** ホームアイコンからアクセスできます)。
 
 ![](assets/delivery_content_edition16.png)
 
-* このフ **[!UICONTROL From: name]** ィールドには、送信者名を入力できます。 既定では、既定の[送信者名 **** ]ブロックがフィールドに自動的に入力されます。 Adobe Campaignは、この送信者を指定するために、電子メールチャネルの設定(Adobe Campaignロゴを使用し **[!UICONTROL Administration > Channels > Email > Email accounts]** た詳細メニューから)を参照します。
+* このフ **[!UICONTROL From: name]** ィールドには、送信者名を入力できます。 デフォルトでは、デフォルトの **Sender name** blockが自動的にフィールドに入力されます。 Adobe Campaignは、（Adobe Campaignロゴを介して）電子メールチャネルの設定 **[!UICONTROL Administration > Channels > Email > Email accounts]** を参照し、この送信者を指定します。
 
-   送信者名を変更するには、[送信者名]ブロックをク **リックし** ます。 フィールドが編集可能になり、使用する名前を入力できます。
+   送信者名は、[送信者名]ブロックをクリックして **変更できます** 。 フィールドが編集可能になり、使用する名前を入力できます。
 
-   このフィールドは個人用に設定できます。 これを行うには、送信者名の下のアイコンをクリックして、個人用設定フィールド、コンテンツブロック、および動的コンテンツを追加します。
+   このフィールドはパーソナライズできます。 これを行うには、送信者名の下のアイコンをクリックして、パーソナライゼーションフィールド、コンテンツブロックおよび動的コンテンツを追加します。
 
-* このセク **[!UICONTROL From: email address]** ションからフィールドを編集することはできません。 ダッシュボードから電子メールのプロパティを編集して、変更できます。 詳細については、「電子メールの詳細パ [ラメータの一覧」を参照してください](../../administration/using/configuring-email-channel.md#advanced-parameters)。
+* このセ **[!UICONTROL From: email address]** クションではフィールドを編集できません。 電子メールのプロパティをダッシュボードから編集することで変更できます。 詳しくは、電子メールの詳細パラ [メーターのリストを参照してください](../../administration/using/configuring-email-channel.md#advanced-parameters)。
 
 >[!NOTE]
 >
->ヘッダーパラメーターを空にすることはできません。 送信者のアドレスは、電子メールの送信を許可するために必須です（RFC標準）。 Adobe Campaignは、入力した電子メールアドレスの構文を確認します。
+>ヘッダーパラメーターは空にできません。 送信者のアドレスは、電子メールの送信を許可するために必須です（RFC標準）。 Adobe Campaignは、入力された電子メールアドレスの構文を確認します。
 
 **関連トピック：**
 
-* [個人用設定フィールドの挿入](../../designing/using/personalization.md#inserting-a-personalization-field)
-* [コンテンツブロックを追加する](../../designing/using/personalization.md#adding-a-content-block)
+* [パーソナライゼーションフィールドの挿入](../../designing/using/personalization.md#inserting-a-personalization-field)
+* [コンテンツブロックの追加](../../designing/using/personalization.md#adding-a-content-block)
 * [電子メールでの動的コンテンツの定義](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)
