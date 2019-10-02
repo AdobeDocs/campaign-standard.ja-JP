@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: エンドユーザー
 user-guide-title: Adobe Campaign Standardヘルプ
 translation-type: tm+mt
-source-git-commit: 48613d46724800463c0559f6d12d8eec9dc89018
+source-git-commit: 9d16dff7667cafdaa23f9ff5fdda693803993d7f
 
 ---
 
@@ -18,8 +18,8 @@ source-git-commit: 48613d46724800463c0559f6d12d8eec9dc89018
    + [リリースノート2017](rn/using/release-notes-2017.md)
    + [リリースノート2015-2016](rn/using/release-notes-2015-2016.md)
    + [ドキュメントの更新](rn/using/documentation-updates.md)
-+ はじめに {#getting-started}
-   + Adobe Campaignについて {#about-adobe-campaign}
++ Getting started {#getting-started}
+   + Adobe Campaign について {#about-adobe-campaign}
       + [キャンペーンオーケストレーション](start/using/campaign-orchestration.md)
       + [セグメント化とターゲット化](start/using/segmentation-and-targeting.md)
       + [動的でパーソナライズされたコンテンツ](start/using/dynamic-and-personalized-content.md)
@@ -40,25 +40,26 @@ source-git-commit: 48613d46724800463c0559f6d12d8eec9dc89018
       + [多言語テンプレートの作成](start/using/creating-a-multilingual-template.md)
       + [テンプレートの使用](start/using/using-a-template.md)
    + チュートリアル {#tutorials}
-      + [ステップバイステップガイド](start/using/step-by-step-guides.md)
+      + [詳細な手順ガイド](start/using/step-by-step-guides.md)
       + [ハウツービデオ](start/using/how-to-videos.md)
 + プロファイルとオーディエンス {#profiles-and-audiences}
-   + [About profiles and audiences](audiences/using/about-profiles-and-audiences.md)
-   + Managing profiles {#managing-profiles}
-      + [About profiles](audiences/using/about-profiles.md)
-      + [Creating profiles](audiences/using/creating-profiles.md)
-      + [Editing profiles](audiences/using/editing-profiles.md)
-      + [Integrated customer profile](audiences/using/integrated-customer-profile.md)
-      + [Active profiles](audiences/using/active-profiles.md)
-   + Managing audiences {#managing-audiences}
-      + [About audiences](audiences/using/about-audiences.md)
-      + [Creating audiences](audiences/using/creating-audiences.md)
-      + [Selecting an audience in a message](audiences/using/selecting-an-audience-in-a-message.md)
-   + Managing subscriptions {#managing-subscriptions}
-      + [About subscriptions](audiences/using/about-subscriptions.md)
-      + [Creating a service](audiences/using/creating-a-service.md)
-      + [Promoting a service](audiences/using/promoting-a-service.md)
+   + [プロファイルとオーディエンスについて](audiences/using/about-profiles-and-audiences.md)
+   + プロファイルの管理 {#managing-profiles}
+      + [プロファイルについて](audiences/using/about-profiles.md)
+      + [プロファイルの作成](audiences/using/creating-profiles.md)
+      + [プロファイルの編集](audiences/using/editing-profiles.md)
+      + [統合された顧客プロファイル](audiences/using/integrated-customer-profile.md)
+      + [アクティブなプロファイル](audiences/using/active-profiles.md)
+   + オーディエンスの管理 {#managing-audiences}
+      + [オーディエンスについて](audiences/using/about-audiences.md)
+      + [オーディエンスの作成](audiences/using/creating-audiences.md)
+      + [メッセージ内のオーディエンスの選択](audiences/using/selecting-an-audience-in-a-message.md)
+   + 購読の管理 {#managing-subscriptions}
+      + [購読について](audiences/using/about-subscriptions.md)
+      + [サービスの作成](audiences/using/creating-a-service.md)
+      + [サービスのプロモーション](audiences/using/promoting-a-service.md)
       + [購読の監視](audiences/using/monitoring-subscriptions.md)
+      + [サービスの購読の確認](audiences/using/confirming-subscription-to-a-service.md)
    + オプトインおよびオプトアウトプロセスについて {#understanding-opt-in-and-opt-out-processes}
       + [キャンペーンのオプトインとオプトアウトについて](audiences/using/about-opt-in-and-opt-out-in-campaign.md)
       + [キャンペーンのオプトインとオプトアウトの管理](audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
@@ -89,21 +90,21 @@ source-git-commit: 48613d46724800463c0559f6d12d8eec9dc89018
       + [多言語プッシュ通知の作成](channels/using/creating-a-multilingual-push-notification.md)
       + [モバイルアプリケーションデータに基づくプロファイル情報の作成と更新](channels/using/updating-profile-with-mobile-app-data.md)
    + アプリ内メッセージ {#in-app-messaging}
-      + [About In-App messaging](channels/using/about-in-app-messaging.md)
-      + [Preparing and sending an In-App message](channels/using/preparing-and-sending-an-in-app-message.md)
-      + [Customizing an In-App message](channels/using/customizing-an-in-app-message.md)
-   + Direct mail {#direct-mail}
-      + [About direct mail](channels/using/about-direct-mail.md)
-      + [Return to sender](channels/using/return-to-sender.md)
-      + [Creating the direct mail](channels/using/creating-the-direct-mail.md)
-      + [Defining the direct mail audience](channels/using/defining-the-direct-mail-audience.md)
-      + [Defining the direct mail content](channels/using/defining-the-direct-mail-content.md)
-      + [Example of direct mail in a workflow](channels/using/example-of-direct-mail-in-a-workflow.md)
-   + Transactional messaging {#transactional-messaging}
-      + [About transactional messaging](channels/using/about-transactional-messaging.md)
-      + [Event transactional messages](channels/using/event-transactional-messages.md)
-      + [Profile transactional messages](channels/using/profile-transactional-messages.md)
-      + [Transactional push notifications](channels/using/transactional-push-notifications.md)
+      + [アプリ内メッセージについて](channels/using/about-in-app-messaging.md)
+      + [アプリ内メッセージの準備と送信](channels/using/preparing-and-sending-an-in-app-message.md)
+      + [アプリ内メッセージのカスタマイズ](channels/using/customizing-an-in-app-message.md)
+   + ダイレクトメール {#direct-mail}
+      + [ダイレクトメールについて](channels/using/about-direct-mail.md)
+      + [送信者に戻る](channels/using/return-to-sender.md)
+      + [ダイレクトメールの作成](channels/using/creating-the-direct-mail.md)
+      + [ダイレクトメールの対象ユーザーの定義](channels/using/defining-the-direct-mail-audience.md)
+      + [ダイレクトメールコンテンツの定義](channels/using/defining-the-direct-mail-content.md)
+      + [ワークフロー内のダイレクトメールの例](channels/using/example-of-direct-mail-in-a-workflow.md)
+   + トランザクションメッセージング {#transactional-messaging}
+      + [トランザクションメッセージについて](channels/using/about-transactional-messaging.md)
+      + [イベントトランザクションメッセージ](channels/using/event-transactional-messages.md)
+      + [プロファイルトランザクションメッセージ](channels/using/profile-transactional-messages.md)
+      + [トランザクションプッシュ通知](channels/using/transactional-push-notifications.md)
       + [フォローアップメッセージ](channels/using/follow-up-messages.md)
    + ランディングページ {#landing-pages}
       + [ランディングページについて](channels/using/about-landing-pages.md)
@@ -115,14 +116,14 @@ source-git-commit: 48613d46724800463c0559f6d12d8eec9dc89018
       + [ランディングページのコンテンツデザインについて](channels/using/about-landing-page-content-design.md)
       + [ランディングページコンテンツエディターのインターフェイス](channels/using/landing-page-content-editor-interface.md)
       + [ランディングページの構造とスタイルの管理](channels/using/managing-landing-page-structure-and-style.md)
-      + [Changing a landing page form data properties](channels/using/changing-a-landing-page-form-data-properties.md)
+      + [ランディングページフォームデータプロパティの変更](channels/using/changing-a-landing-page-form-data-properties.md)
       + [ランディングページでの動的コンテンツの定義](channels/using/defining-dynamic-content-in-a-landing-page.md)
 + 電子メールコンテンツのデザイン {#designing-content}
    + [キャンペーン電子メールデザイナ](designing/using/designing-content-in-adobe-campaign.md)
    + [クイックスタート](designing/using/quick-start.md)
-   + [Usage &amp; Recommendations](designing/using/overview.md)
+   + [使用状況と推奨事項](designing/using/overview.md)
    + [件名行と送信者の定義](designing/using/subject-line.md)
-   + [Designing emails from scratch](designing/using/designing-from-scratch.md)
+   + [新規での電子メールのデザイン](designing/using/designing-from-scratch.md)
    + [既存のコンテンツを使用した電子メールのデザイン](designing/using/using-existing-content.md)
    + [再利用可能なコンテンツを使用した電子メールのデザイン](designing/using/using-reusable-content.md)
    + [マルチソリューション電子メールデザイン](designing/using/using-integrations.md)
@@ -131,12 +132,13 @@ source-git-commit: 48613d46724800463c0559f6d12d8eec9dc89018
    + [スタイルの管理](designing/using/styles.md)
    + [リンクの管理](designing/using/links.md)
    + [イメージの管理](designing/using/images.md)
-+ Testing and Sending {#testing-and-sending}
++ テストと送信 {#testing-and-sending}
    + [Campaignでのメッセージの送信について](sending/using/about-sending-messages-with-campaign.md)
    + メッセージの準備とテスト {#preparing-and-testing-messages}
       + [メッセージのプレビュー](sending/using/previewing-messages.md)
       + [送信の準備](sending/using/preparing-the-send.md)
       + [テストプロファイルの管理と校正の送信](sending/using/managing-test-profiles-and-sending-proofs.md)
+      + [電子メールの件名行のテスト](sending/using/testing-subject-line-email.md)
       + [E メールのレンダリング](sending/using/email-rendering.md)
    + メッセージのスケジュール {#sheduling-messages}
       + [メッセージのスケジュールについて](sending/using/about-scheduling-messages.md)
@@ -145,18 +147,18 @@ source-git-commit: 48613d46724800463c0559f6d12d8eec9dc89018
       + [送信日の計算](sending/using/computing-the-sending-date.md)
    + メッセージの送信と追跡 {#sending-and-tracking-messages}
       + [送信の確認](sending/using/confirming-the-send.md)
-      + [メッセージの追跡](sending/using/tracking-messages.md)
+      + [メッセージのトラッキング](sending/using/tracking-messages.md)
    + メッセージの監視 {#monitoring-messages}
       + [配信の監視](sending/using/monitoring-a-delivery.md)
       + [エラー発生時のアラートの受信](sending/using/receiving-alerts-when-failures-happen.md)
-      + [配信エラーについて](sending/using/understanding-delivery-failures.md)
-      + [検疫管理の理解](sending/using/understanding-quarantine-management.md)
+      + [配信エラーの理解](sending/using/understanding-delivery-failures.md)
+      + [強制隔離管理の理解](sending/using/understanding-quarantine-management.md)
 + レポート {#reporting}
    + レポートについて {#about-reporting}
       + [動的レポートについて](reporting/using/about-dynamic-reports.md)
       + [レポートインターフェイス](reporting/using/reporting-interface.md)
       + [コンポーネントのリスト ](reporting/using/list-of-components-.md)
-      + [インジケーターの計算](reporting/using/indicator-calculation.md)
+      + [指標の計算](reporting/using/indicator-calculation.md)
       + [トラブルシューティング](reporting/using/troubleshooting.md)
    + レポートのリスト {#list-of-reports}
       + [レポート期間の定義](reporting/using/defining-the-report-period.md)
@@ -181,7 +183,7 @@ source-git-commit: 48613d46724800463c0559f6d12d8eec9dc89018
       + [カスタムプロファイルディメンションの作成](reporting/using/creating-a-custom-profile-dimension.md)
       + [ワークフローセグメントに基づくレポートの作成](reporting/using/creating-a-report-workflow-segment.md)
 + Adobe cloudとの連携 {#integrating-with-adobe-cloud}
-   + [Campaignの統合について](integrating/using/about-campaign-integrations.md)
+   + [About Campaign 統合について](integrating/using/about-campaign-integrations.md)
    + CampaignとExperience Managerの操作 {#working-with-campaign-and-experience-manager}
       + [Experience Managerとの連携](integrating/using/integrating-with-experience-manager.md)
       + [Experience Managerでのキャンペーンフォームの作成 ](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
@@ -216,17 +218,17 @@ source-git-commit: 48613d46724800463c0559f6d12d8eec9dc89018
       + [ワークフローの運用原則](automating/using/workflow-operating-principles.md)
       + [ワークフローインターフェイス](automating/using/workflow-interface.md)
    + ワークフローの一般操作 {#workflow-general-operation}
-      + [ワークフローの構築](automating/using/building-a-workflow.md)
-      + [ターゲットデータ](automating/using/targeting-data.md)
-      + [データの読み込み](automating/using/importing-data.md)
+      + [ワークフローの作成](automating/using/building-a-workflow.md)
+      + [データのターゲティング](automating/using/targeting-data.md)
+      + [データのインポート](automating/using/importing-data.md)
       + [ワークフローデータの使用](automating/using/using-workflow-data.md)
       + [ワークフローの実行](automating/using/executing-a-workflow.md)
       + [外部パラメーターを使用したワークフローの呼び出し](automating/using/calling-a-workflow-with-external-parameters.md)
       + [ワークフローのベストプラクティス](automating/using/best-practices-workflows.md)
-   + ターゲット設定アクティビティ {#targeting-activities}
+   + ターゲティングアクティビティ {#targeting-activities}
       + [ターゲット設定アクティビティについて](automating/using/about-targeting-activities.md)
       + [クエリ](automating/using/query.md)
-      + [増分処理クエリ](automating/using/incremental-query.md)
+      + [増分クエリ](automating/using/incremental-query.md)
       + [和集合](automating/using/union.md)
       + [積集合](automating/using/intersection.md)
       + [除外](automating/using/exclusion.md)
@@ -237,7 +239,7 @@ source-git-commit: 48613d46724800463c0559f6d12d8eec9dc89018
       + [エンリッチメント](automating/using/enrichment.md)
    + 実行アクティビティ {#execution-activities}
       + [実行アクティビティについて](automating/using/about-execution-activities.md)
-      + [開始と終了](automating/using/start-and-end.md)
+      + [開始および終了](automating/using/start-and-end.md)
       + [分岐](automating/using/fork.md)
       + [AND 結合](automating/using/and-join.md)
       + [スケジューラー](automating/using/scheduler.md)
@@ -247,7 +249,7 @@ source-git-commit: 48613d46724800463c0559f6d12d8eec9dc89018
    + チャネルアクティビティ {#channel-activities}
       + [チャネルアクティビティについて](automating/using/about-channel-activities.md)
       + [E メール配信](automating/using/email-delivery.md)
-      + [SMS配信](automating/using/sms-delivery.md)
+      + [SMS 配信](automating/using/sms-delivery.md)
       + [プッシュ通知配信](automating/using/push-notification-delivery.md)
       + [ダイレクトメール配信](automating/using/direct-mail-delivery.md)
       + [アプリ内配信](automating/using/in-app-delivery.md)
@@ -260,11 +262,11 @@ source-git-commit: 48613d46724800463c0559f6d12d8eec9dc89018
       + [ファイルの抽出](automating/using/extract-file.md)
       + [購読サービス](automating/using/subscription-services.md)
       + [外部 API](automating/using/external-api.md)
-   + フィルターデータ {#filtering-data}
+   + データのフィルター {#filtering-data}
       + [クエリーの編集](automating/using/editing-queries.md)
       + [高度な式の編集](automating/using/advanced-expression-editing.md)
       + [関数のリスト](automating/using/list-of-functions.md)
-   + データの読み込みと書き出し {#importing-and-exporting-data}
+   + データのインポートおよびエクスポート {#importing-and-exporting-data}
       + [データのインポートとエクスポートについて](automating/using/about-data-import-and-export.md)
       + [インポートテンプレートを使用したデータのインポート](automating/using/importing-data-with-import-templates.md)
       + [インポートテンプレートの定義](automating/using/defining-import-templates.md)
@@ -319,12 +321,12 @@ source-git-commit: 48613d46724800463c0559f6d12d8eec9dc89018
       + [タイポロジルールについて](administration/using/about-typology-rules.md)
       + [フィルタールール](administration/using/filtering-rules.md)
       + [疲労ルール](administration/using/fatigue-rules.md)
-      + [制御ルール](administration/using/control-rules.md)
+      + [コントロールルール](administration/using/control-rules.md)
    + アプリケーション設定 {#application-settings}
       + [外部アカウント](administration/using/external-accounts.md)
       + [CampaignでのTargetマッピング](administration/using/target-mappings-in-campaign.md)
       + [テクニカルワークフロー](administration/using/technical-workflows.md)
       + [ブランディング](administration/using/branding.md)
       + [内部通知の送信](administration/using/sending-internal-notifications.md)
-      + [Data retention](administration/using/data-retention.md)
+      + [データ リテンション](administration/using/data-retention.md)
       + [更新と保守の操作](administration/using/updates-and-maintenance-operations.md)
