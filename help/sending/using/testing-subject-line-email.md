@@ -2,83 +2,83 @@
 title: 電子メールの件名行のテスト
 seo-title: 電子メールの件名行のテスト
 description: 電子メールの件名行のテスト
-seo-description: 電子メールデザイナで電子メールの件名を定義する方法を説明します。
-page-status-flag: 未活性化の
+seo-description: 電子メールデザイナーで電子メールの件名行を定義する方法を確認します。
+page-status-flag: 非活性化の
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
-contentOwner: サウビア
+contentOwner: ソビア
 products: SG_CAMPAIGN/STANDARD
 audience: 送信
 content-type: 参照
-topic-tags: 編集，電子メールの内容
+topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
-internal: 〜の
-snippet: イー
+internal: n
+snippet: y
 translation-type: tm+mt
-source-git-commit: 62992dbedea7209ca26ae9e1a475a0c87405a4d9
+source-git-commit: 8b85bbad7458286252a2900ce730288f6e52442e
 
 ---
 
 # 件名のテスト {#testing-a-subject}
 
-件名行をテストする手順は、次のとおりです。
+件名をテストするには、次の手順に従います。
 
-1. 電子メールを作成または開きます。
+1. 電子メールを作成するか、開きます。
 1. コンテンツを開き、対応する入力フィールドに電子メールの件名を入力します。
-1. ボタンをクリッ **[!UICONTROL Test subject]** クして、ウィンドウにアクセス **[!UICONTROL Test your subject line]** します。 このウィンドウから件名を編集することもできます。
-1. オープンレート予測に考慮する正しいモデルを選択します。 特定の業界に対応するモデルがいくつか用意されています。
+1. ボタンをクリッ **[!UICONTROL Test subject]** クして、ウィンドウにアクセ **[!UICONTROL Test your subject line]** スします。 このウィンドウからは、件名を編集できます。
+1. オープンレート予測に考慮する正しいモデルを選択します。 特定の業界に対応するいくつかのモデルが用意されています。
 1. Click **[!UICONTROL Test]**.
 
-次に、あなたの主題が分析されます。
+その後、被験者が分析されます。
 
 >[!NOTE]
 >
->件名が短すぎる場合は、分析できず、エラーメッセージが表示されます。
+>件名が短すぎると、分析できず、エラーメッセージが表示されます。
 
-いくつかのインジケータが計算され、次の操作を行うのに役立つ一連のツールが表示されます。
+いくつかのインジケーターが計算され、以下の作業を行うのに役立つツールが表示されます。
 
-* **予測オープンレート**:この表は、現在の件名を含むEメールのオープン·レートを示します。
-* **件名の長さ**:このインジケータを使用すると、件名の現在の長さが正しいか、または長くする必要があるか短くする必要があるかを確認できます。
-* **色付き単語**:被験者をテストする際、緑で強調表示された単語は、オープンレート予測を増加させる最も貢献する単語です。 赤で強調表示された単語は、オープンレート予測を増やすのに最も寄与しない単語です。 件名に単語を追加または削除すると、強調表示された単語が変更されます。
-* **分類と単語の候補**:ウィンドウの下部に、選択したモデルに関連する複数のカテゴリが表示されます。 これらのカテゴリは、重要度順に並べ替えられ、件名に関連する単語がチェック記号で含まれているかどうかを確認できます。 各カテゴリには、より適切にし、オープンな率を上げるために、件名に使用できる候補語のセットが含まれます。 これらの単語は、特定のカテゴリで最も頻繁に使用される単語です。
+* **予測開放率**:このグラフでは、現在の件名を含む電子メールの開封率を把握できます。
+* **件名の長さ**:このインジケーターを使用すると、対象の現在の長さが正しいか、長くする必要があるか短くする必要があるかを確認できます。
+* **色付きの単語**:サブジェクトをテストする場合、緑色でハイライトされている単語は、開放率予測の増加に最も貢献する単語です。 赤でハイライトされている単語は、開放率予測の増加に最も貢献していない単語です。 件名内の単語を追加または削除すると、ハイライト表示されている単語が変更されます。
+* **サーチクエリ**:ウィンドウの下部には、選択したモデルに関連するカテゴリが多数表示されます。 これらのカテゴリは重要度の順に並べ替えられ、チェック記号を使用して関連付けられた単語が件名に含まれているかどうかを確認できます。 各カテゴリには、より関連性を高め、開放率を上げるために、サブジェクトで使用できる推奨単語のセットが含まれています。 These words are the words that are used the most often in a given category.
 
 >[!NOTE]
 >
->個人用フィールドと句読点は、主題分析から削除されます。 動的/条件付きテキストの場合、すべてのバリアントは1つのサブジェクト行と見なされます。
+>Personalization fields and punctuation marks are stripped from the subject analysis. In the case of dynamic/conditional text, all variants are considered as one subject line.
 
 ![](assets/predictive_subject_line_example.png)
 
-## モデルのインポート {#importing-models}
+## Importing models {#importing-models}
 
-デフォルトでは、Adobe Campaignサーバー上で実行されているモデルはありません。 モデルを取得し、フィーチャーをアクティブにする方法は2つあります。
+By default, there is no model running on your Adobe Campaign server. There are two ways to get a model and activate the feature:
 
-* 以前の電子メールメッセージのデータから、ローカルモデルをトレーニングできます。
+* You can train a local model from the data of your previous email messages:
 
-   * 既にAdobe Campaignを使用している場合は、既に送信したメッセージに対してローカルモデルのトレーニングが自動的に行われます。
-   * Adobe Campaignを初めて使用する場合は、以前のシステム/ESPから、次の4つの列を含むCSVファイルを抽出できます。日付、件名、送信済み、開きます。 それを行うには、 &gt; &gt; **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt;に進み、 **[!UICONTROL Email]****[!UICONTROL Subject Line Import]** 次の画面に表示される指示に従います。 サブジェクトのアップロードが完了したら、次の説明に従ってローカルモデルをインポートします。 ローカル·モデルは、アップロードしたデータを使用して自動的にトレーニングされます。
-   * Adobe Campaignを初めて使用し、上記の説明に従ってCSVファイルを取得できない場合は、事前にトレーニングを受けたモデルを使用するか、ローカルモデルをトレーニングするのに十分な配信データがシステムに入るまで待つことができます。 現在のデータセットに、パターンを認識し、モデルをトレーニングするのに十分なデータが含まれているかどうかが自動的に判断されます。
+   * If you are already using Adobe Campaign, the local model will be automatically trained on the messages that you have already sent.
+   * If you are new to Adobe Campaign, you can extract a CSV file from your previous system/ESP that contains 4 columns: date, subject, sent, opens. To do that, go to  &gt;  &gt;  &gt;  and follow the instructions provided on the successive screens. **[!UICONTROL Administration]****[!UICONTROL Channels]****[!UICONTROL Email]****[!UICONTROL Subject Line Import]** When the subject upload is complete, import a local model as described below. The local model is automatically trained with the data you uploaded.
+   * If you are new to Adobe Campaign and cannot get a CSV file as described above, you can use a pre-trained model or wait until you have enough delivery data in your system to train a local model. The system will automatically determine whether your current data set contains enough data to recognize patterns and to train the model.
 
       >[!NOTE]
       >
-      >独自のモデルを作成するのに必要な件名行の数が定義されていません。 訓練を行うには、対象線を変え、重複を持たない必要があります。 処理するデータが不足している場合、システムはモデルをトレーニングできません。 インスタンスには、1つのトレーニング済みモデルしかありません。
-   ローカルモデルをトレーニングするには、ここからsubjectLineTraining.xmlをダウンロ [ードし](https://support.neolane.net/webApp/downloadCenter?__userConfig=psaDownloadCenter)[](../../automating/using/managing-packages.md) 、パッケージの読み込み機能を使用してAdobe Campaignインスタンスにアップロードします。 テクニカルワークフローが自動的にトレーニングを行います。
+      >There is no defined number of subject lines needed to train your own model. これを訓練するには、対象線を変え、重複を持たない必要があります。 処理に必要なデータがない場合、システムはモデルをトレーニングできません。 インスタンスには、トレーニングを受けたモデルを1つだけ持つことができます。
+   ローカルモデルをトレーニングするには、ここからsubjectLineTraining.xmlをダウンロ [ードし](https://support.neolane.net/webApp/downloadCenter?__userConfig=psaDownloadCenter) 、パッケージのインポート機能を使用 [して](../../automating/using/managing-packages.md) 、Adobe Campaignインスタンスにアップロードします。 テクニカルワークフローが自動的にトレーニングを行います。
 
-   モデルを初めてトレーニングする場合、管理者は&gt; &gt; **[!UICONTROL SubjectLine Training workflow]** &gt;メニューからを強制的に起動するこ **[!UICONTROL Administration]** と **[!UICONTROL Application settings]** ができ **[!UICONTROL Workflows]** ます。
+   モデルを初めてトレーニングする場合、管理者は、 &gt; &gt;メニューから **[!UICONTROL SubjectLine Training workflow]** を強制的に開始す **[!UICONTROL Administration]** ること **[!UICONTROL Application settings]** ができ **[!UICONTROL Workflows]** ます。
 
-   モデルがアップロードされ、トレーニングされると、その機能が自動的にアクティブ化され、メッセージの件名欄の横に新しいオプションが表示されます。
+   モデルがアップロードされ、トレーニングされると、この機能が自動的にアクティブ化され、メッセージの件名行フィールドの横に新しいオプションが表示されます。
 
-   その後、技術的なワークフローは、毎週モデルのトレーニングを自動的に続けます。
+   その後、技術ワークフローは自動的に毎週モデルのトレーニングを続けます。
 
-* 特定の業種（医療など）に固有のプレトレーニング済みモデルをインポートできます。パッケージインポ [ート機能を使用](../../automating/using/managing-packages.md) 。 これらのモデルはここ [で入手で](https://support.neolane.net/webApp/downloadCenter?__userConfig=psaDownloadCenter) 、トレーニングはできません。
+* 特定の業種（医療など）に特有のトレーニングを受けたモデルをインポートできます。パッケージのイ [ンポート機能](../../automating/using/managing-packages.md) 。 これらのモデルはここで [入手でき](https://support.neolane.net/webApp/downloadCenter?__userConfig=psaDownloadCenter) 、トレーニングはできません。
 
-   モデルをアップロードすると、その機能が自動的にアクティブ化され、メッセージの件名フィールドの横に新しいオプションが表示されます。
+   モデルがアップロードされると、その機能が自動的にアクティブ化され、メッセージの件名行フィールドの横に新しいオプションが表示されます。
 
 >[!NOTE]
 >
->トレーニング済みモデルのインポートと生成は、管理者のみが実行できます。
+>トレーニングを受けたモデルのインポートと生成は、管理者のみが実行できます。
 
-使用可能なモデルは次のとおりです。
+使用できるモデルは次のとおりです。
 
 * 化粧品業界：subjectInsightCosmetic.xml
-* スーパーマーケット業界：subjectInsightSuperpart.xml
-* 医療産業：subjectInsightMedical.xml
-* トレーニングのモデル：subjectlineTraining.xml
+* スーパー業界：subjectInsightSuperpart.xml
+* 医療業界：subjectInsightMedical.xml
+* トレーニングするモデル：subjectlineTraining.xml。
