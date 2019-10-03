@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: エンドユーザー
 user-guide-title: Adobe Campaign Standardヘルプ
 translation-type: tm+mt
-source-git-commit: 9d16dff7667cafdaa23f9ff5fdda693803993d7f
+source-git-commit: 41b298ad4f0a75bc196d050955c7edf221877a6f
 
 ---
 
@@ -61,24 +61,24 @@ source-git-commit: 9d16dff7667cafdaa23f9ff5fdda693803993d7f
       + [購読の監視](audiences/using/monitoring-subscriptions.md)
       + [サービスの購読の確認](audiences/using/confirming-subscription-to-a-service.md)
    + オプトインおよびオプトアウトプロセスについて {#understanding-opt-in-and-opt-out-processes}
-      + [キャンペーンのオプトインとオプトアウトについて](audiences/using/about-opt-in-and-opt-out-in-campaign.md)
-      + [キャンペーンのオプトインとオプトアウトの管理](audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
-      + [配信のオプトアウトプロファイルの識別](audiences/using/identifying-opt-out-profiles-for-a-delivery.md)
+      + [About opt-in and opt-out in Campaign](audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+      + [Managing opt-in and opt-out in Campaign](audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
+      + [Identifying opt-out profiles for a delivery](audiences/using/identifying-opt-out-profiles-for-a-delivery.md)
 + 通信チャネル {#communication-channels}
-   + 通信チャネルについて {#about-communication-channels}
-      + [通信チャネルの検出](channels/using/discovering-communication-channels.md)
-      + [メッセージを送信するための主要な手順](channels/using/key-steps-to-send-a-message.md)
-      + [メッセージへのアクセス](channels/using/accessing-messages.md)
-      + [メッセージダッシュボード](channels/using/message-dashboard.md)
-   + 電子メールメッセージ {#email-messages}
-      + [電子メールについて](channels/using/about-emails.md)
-      + [電子メールの作成](channels/using/creating-an-email.md)
-      + [A/Bテスト用電子メールのデザイン](channels/using/designing-an-a-b-test-email.md)
-      + [多言語電子メールの作成](channels/using/creating-a-multilingual-email.md)
+   + About communication channels {#about-communication-channels}
+      + [Discovering communication channels](channels/using/discovering-communication-channels.md)
+      + [Key steps to send a message](channels/using/key-steps-to-send-a-message.md)
+      + [Accessing messages](channels/using/accessing-messages.md)
+      + [Message dashboard](channels/using/message-dashboard.md)
+   + Email messages {#email-messages}
+      + [About emails](channels/using/about-emails.md)
+      + [Creating an email](channels/using/creating-an-email.md)
+      + [Designing an A/B test email](channels/using/designing-an-a-b-test-email.md)
+      + [Creating a multilingual email](channels/using/creating-a-multilingual-email.md)
    + SMS messages {#sms-messages}
-      + [SMSメッセージについて](channels/using/about-sms-messages.md)
+      + [About SMS messages](channels/using/about-sms-messages.md)
       + [SMSメッセージの作成](channels/using/creating-an-sms-message.md)
-      + [SMSメッセージのパーソナライズ](channels/using/personalizing-sms-messages.md)
+      + [Personalizing SMS messages](channels/using/personalizing-sms-messages.md)
       + [受信SMSの管理](channels/using/managing-incoming-sms.md)
       + [SMSとプッシュコンテンツのデザインについて](channels/using/about-sms-and-push-content-design.md)
       + [SMSおよびプッシュコンテンツエディタインターフェイス](channels/using/sms-and-push-content-editor-interface.md)
@@ -115,26 +115,26 @@ source-git-commit: 9d16dff7667cafdaa23f9ff5fdda693803993d7f
       + [ダブルオプトインプロセスの設定](channels/using/setting-up-a-double-opt-in-process.md)
       + [ランディングページのコンテンツデザインについて](channels/using/about-landing-page-content-design.md)
       + [ランディングページコンテンツエディターのインターフェイス](channels/using/landing-page-content-editor-interface.md)
-      + [ランディングページの構造とスタイルの管理](channels/using/managing-landing-page-structure-and-style.md)
+      + [Managing landing page structure and style](channels/using/managing-landing-page-structure-and-style.md)
       + [ランディングページフォームデータプロパティの変更](channels/using/changing-a-landing-page-form-data-properties.md)
-      + [ランディングページでの動的コンテンツの定義](channels/using/defining-dynamic-content-in-a-landing-page.md)
-+ 電子メールコンテンツのデザイン {#designing-content}
-   + [キャンペーン電子メールデザイナ](designing/using/designing-content-in-adobe-campaign.md)
+      + [Defining dynamic content in a landing page](channels/using/defining-dynamic-content-in-a-landing-page.md)
++ Designing email content {#designing-content}
+   + [Campaign Email Designer](designing/using/designing-content-in-adobe-campaign.md)
    + [クイックスタート](designing/using/quick-start.md)
-   + [使用状況と推奨事項](designing/using/overview.md)
-   + [件名行と送信者の定義](designing/using/subject-line.md)
-   + [新規での電子メールのデザイン](designing/using/designing-from-scratch.md)
+   + [Usage &amp; Recommendations](designing/using/overview.md)
+   + [Defining the subject line and the sender](designing/using/subject-line.md)
+   + [Designing emails from scratch](designing/using/designing-from-scratch.md)
    + [既存のコンテンツを使用した電子メールのデザイン](designing/using/using-existing-content.md)
-   + [再利用可能なコンテンツを使用した電子メールのデザイン](designing/using/using-reusable-content.md)
-   + [マルチソリューション電子メールデザイン](designing/using/using-integrations.md)
+   + [Designing emails using reusable content](designing/using/using-reusable-content.md)
+   + [Multi-solution email design](designing/using/using-integrations.md)
    + [パーソナライゼーション](designing/using/personalization.md)
-   + [プレーンテキストとHTMLモード](designing/using/plain-text-html-modes.md)
-   + [スタイルの管理](designing/using/styles.md)
-   + [リンクの管理](designing/using/links.md)
-   + [イメージの管理](designing/using/images.md)
+   + [Plain text and HTML modes](designing/using/plain-text-html-modes.md)
+   + [Managing email styles](designing/using/styles.md)
+   + [Managing links](designing/using/links.md)
+   + [Managing images](designing/using/images.md)
 + テストと送信 {#testing-and-sending}
-   + [Campaignでのメッセージの送信について](sending/using/about-sending-messages-with-campaign.md)
-   + メッセージの準備とテスト {#preparing-and-testing-messages}
+   + [About sending messages with Campaign](sending/using/about-sending-messages-with-campaign.md)
+   + Preparing and testing messages {#preparing-and-testing-messages}
       + [メッセージのプレビュー](sending/using/previewing-messages.md)
       + [送信の準備](sending/using/preparing-the-send.md)
       + [テストプロファイルの管理と校正の送信](sending/using/managing-test-profiles-and-sending-proofs.md)
@@ -181,22 +181,22 @@ source-git-commit: 9d16dff7667cafdaa23f9ff5fdda693803993d7f
       + [ビジュアライゼーションの追加](reporting/using/adding-visualizations.md)
       + [コンポーネントの追加](reporting/using/adding-components.md)
       + [カスタムプロファイルディメンションの作成](reporting/using/creating-a-custom-profile-dimension.md)
-      + [ワークフローセグメントに基づくレポートの作成](reporting/using/creating-a-report-workflow-segment.md)
-+ Adobe cloudとの連携 {#integrating-with-adobe-cloud}
+      + [Creating a report based on workflow segments](reporting/using/creating-a-report-workflow-segment.md)
++ Integrating with Adobe Cloud {#integrating-with-adobe-cloud}
    + [About Campaign 統合について](integrating/using/about-campaign-integrations.md)
-   + CampaignとExperience Managerの操作 {#working-with-campaign-and-experience-manager}
-      + [Experience Managerとの連携](integrating/using/integrating-with-experience-manager.md)
-      + [Experience Managerでのキャンペーンフォームの作成 ](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
-   + CampaignとTargetの操作 {#working-with-campaign-and-target}
-      + [Campaign-Targetの統合について](integrating/using/about-campaign-target-integration.md)
-      + [Campaign-Target統合の設定](integrating/using/configuring-the-campaign-target-integration.md)
-      + [Target動的コンテンツの追加](integrating/using/adding-target-dynamic-content.md)
-   + CampaignとAnalyticsの操作 {#working-with-campaign-and-analytics}
-      + [CampaignとAnalyticsの統合について](integrating/using/about-campaign-analytics-integration.md)
-      + [CampaignとAnalyticsの統合の設定](integrating/using/configure-campaign-analytics-integration.md)
+   + Working with Campaign and Experience Manager {#working-with-campaign-and-experience-manager}
+      + [Integrating with Experience Manager](integrating/using/integrating-with-experience-manager.md)
+      + [Creating a Campaign form in Experience Manager ](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
+   + Working with Campaign and Target {#working-with-campaign-and-target}
+      + [About Campaign-Target integration](integrating/using/about-campaign-target-integration.md)
+      + [Configuring the Campaign-Target integration](integrating/using/configuring-the-campaign-target-integration.md)
+      + [Adding Target dynamic content](integrating/using/adding-target-dynamic-content.md)
+   + Working with Campaign and Analytics {#working-with-campaign-and-analytics}
+      + [About Campaign-Analytics integration](integrating/using/about-campaign-analytics-integration.md)
+      + [Configure Campaign-Analytics integration](integrating/using/configure-campaign-analytics-integration.md)
       + [Analyticsのキャンペーンディメンションと指標](integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
-   + CampaignとAudience ManagerまたはPeopleコアサービスの使用 {#working-with-campaign-and-audience-manager-or-people-core-service}
-      + [Campaign-Audience ManagerまたはPeopleコアサービス統合について](integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
+   + Working with Campaign and Audience Manager or People core service {#working-with-campaign-and-audience-manager-or-people-core-service}
+      + [About Campaign-Audience Manager or People core service integration](integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
       + [Audience ManagerまたはPeopleコアサービスとの統合のプロビジョニングと設定](integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
       + [トラブルシューティング](integrating/using/troubleshooting.md)
       + [Audience ManagerまたはPeopleコアサービスとのオーディエンスの共有](integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
@@ -252,22 +252,22 @@ source-git-commit: 9d16dff7667cafdaa23f9ff5fdda693803993d7f
       + [SMS 配信](automating/using/sms-delivery.md)
       + [プッシュ通知配信](automating/using/push-notification-delivery.md)
       + [ダイレクトメール配信](automating/using/direct-mail-delivery.md)
-      + [アプリ内配信](automating/using/in-app-delivery.md)
-   + データ管理活動 {#data-management-activities}
-      + [データ管理アクティビティについて](automating/using/about-data-management-activities.md)
+      + [In-App delivery](automating/using/in-app-delivery.md)
+   + Data management activities {#data-management-activities}
+      + [About data management activities](automating/using/about-data-management-activities.md)
       + [データを更新](automating/using/update-data.md)
       + [ファイルを読み込み](automating/using/load-file.md)
-      + [転送ファイル](automating/using/transfer-file.md)
+      + [Transfer file](automating/using/transfer-file.md)
       + [紐付け](automating/using/reconciliation.md)
       + [ファイルの抽出](automating/using/extract-file.md)
       + [購読サービス](automating/using/subscription-services.md)
       + [外部 API](automating/using/external-api.md)
    + データのフィルター {#filtering-data}
       + [クエリーの編集](automating/using/editing-queries.md)
-      + [高度な式の編集](automating/using/advanced-expression-editing.md)
+      + [Advanced expression editing](automating/using/advanced-expression-editing.md)
       + [関数のリスト](automating/using/list-of-functions.md)
    + データのインポートおよびエクスポート {#importing-and-exporting-data}
-      + [データのインポートとエクスポートについて](automating/using/about-data-import-and-export.md)
+      + [About data import and export](automating/using/about-data-import-and-export.md)
       + [インポートテンプレートを使用したデータのインポート](automating/using/importing-data-with-import-templates.md)
       + [インポートテンプレートの定義](automating/using/defining-import-templates.md)
       + [ログの書き出し](automating/using/exporting-logs.md)
@@ -296,7 +296,7 @@ source-git-commit: 9d16dff7667cafdaa23f9ff5fdda693803993d7f
    + 使用例：APIの拡張 {#use-case--extending-the-api}
       + [APIの拡張について](developing/using/about-extending-the-api.md)
       + [手順1:プロファイルリソースに拡張フィールドを追加する](developing/using/step-1--add-extension-fields-to-the-profile-resource.md)
-      + [手順2:拡張機能の公開](developing/using/step-2--publish-the-extension.md)
+      + [Step 2: Publish the extension](developing/using/step-2--publish-the-extension.md)
       + [手順3:拡張機能の確認](developing/using/step-3--verify-the-extension.md)
    + 使用例：リソースの拡張 {#use-cases--extending-resources}
       + [新しいフィールドを使用したプロファイルリソースの拡張](developing/using/extending-the-profile-resource-with-a-new-field.md)
