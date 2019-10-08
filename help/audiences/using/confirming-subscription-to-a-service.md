@@ -14,7 +14,7 @@ discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8b85bbad7458286252a2900ce730288f6e52442e
+source-git-commit: a98c15b5c0f5f8714a09e709d4fa5259d3ce531e
 
 ---
 
@@ -28,22 +28,22 @@ source-git-commit: 8b85bbad7458286252a2900ce730288f6e52442e
 購読（または購読解除）の確認メッセージをサービスに送信する場合は、デフォルトのメッセージまたはカスタムメッセージを使用できます。 確認メッセージを選択する手順は、「サービスの作成」セクシ [ョンに記載されます](../../audiences/using/creating-a-service.md) 。
 
 デフォルトのメッセージを使用する場合は、次の制限を満たしてコンテンツを編集できます。
-* You can only personalize the message content with limited fields from the event context.
-* This message will be the same for all services that use the default mode.
+* イベントコンテキストから、制限付きフィールドを使用してメッセージのコンテンツをパーソナライズすることのみ可能です。
+* このメッセージは、デフォルトモードを使用するすべてのサービスで同じになります。
 
-To send a specific confirmation email for a given service, you can create a custom message, in which you will also be able to leverage personalization fields from other resources. To do this, you must create and configure a transactional message. This message can be referenced :
-* From the service itself. For more on this, see Configuring confirmation message from a service.[](../../audiences/using/confirming-subscription-to-a-service.md#configuring-confirmation-message-from-service)
-* From a subscription landing page. For more on this, see Configuring confirmation message from a landing page.[](../../audiences/using/confirming-subscription-to-a-service.md#configuring-confirmation-message-from-landing-page)
+特定のサービスに対して特定の確認電子メールを送信するには、カスタムメッセージを作成し、他のリソースからのパーソナライゼーションフィールドを利用することもできます。 これを行うには、トランザクションメッセージを作成し、設定する必要があります。 このメッセージは、次の場合に参照できます。
+* サービス自体から。 詳しくは、「サービスからの確認メ [ッセージの設定」を参照してください](../../audiences/using/confirming-subscription-to-a-service.md#configuring-confirmation-message-from-service)。
+* 購読のランディングページから。 詳しくは、「ランディングページか [らの確認メッセージの設定」を参照してください](../../audiences/using/confirming-subscription-to-a-service.md#configuring-confirmation-message-from-landing-page)。
 
 ## サービスからの確認メッセージの設定 {#configuring-confirmation-message-from-service}
 
-For example, you want to automatically send a confirmation message to the visitors of your website when they subscribe to your brand newsletter.
+例えば、Webサイトの訪問者がブランドニュースレターを購読するときに、その訪問者に確認メッセージを自動的に送信するとします。
 
-You need to configure a transactional email and reference that message from the desired service (subscription to your brand newsletter in this case). In order to enrich the transactional message with service information, you can define a reconciliation when creating the event.
+トランザクション用の電子メールを設定し、目的のサービスからのメッセージを参照する必要があります（この場合は、ブランドニュースレターの購読）。 トランザクションメッセージをサービス情報と共に強化するために、イベントの作成時に調整を定義できます。
 
-サービスから設定する場合、確認トランザクションメッセージは、各訪問者が初めてそのサービスにサブスクライブしたときにのみ送信されます。 If a profile is already subscribed, no confirmation message will be sent again to that profile.
+サービスから設定する場合、確認トランザクションメッセージは、各訪問者が初めてそのサービスにサブスクライブしたときにのみ送信されます。 プロファイルが既に登録されている場合は、そのプロファイルに確認メッセージは再度送信されません。
 
-### Step 1: Create the confirmation email {#step-1--create-the-confirmation-email-1}
+### 手順1:確認電子メールの作成 {#step-1--create-the-confirmation-email-1}
 
 確認電子メールは、ニュースレターを購読している各プロファイルに（ランディングページなどの方法を通じて）自動的に送信されます。 購読はイベントと見なされ、電子メールはサービスを購読する [各プロファイルを](../../channels/using/about-transactional-messaging.md) 、ターゲットにするトランザクションメッセージです。
 
@@ -51,7 +51,7 @@ You need to configure a transactional email and reference that message from the 
 
 #### イベントの作成 {#create-the-event-1}
 
-The confirmation email is a transactional message as it reacts to an event: the subscription to a service. このメッセージは、ニュースレターの購読を確認するために送信されます。
+確認電子メールは、イベントに反応するトランザクションメッセージです。サービスの購読。 このメッセージは、ニュースレターの購読を確認するために送信されます。
 
 1. イベントを作成するには、// **[!UICONTROL Marketing plans]** メニュ **[!UICONTROL Transactional messages]** ーを使 **[!UICONTROL Event configuration]** 用します。このメニューはAdobe Campaignロゴからアクセスできます。
 1. ラベルを入力し、ターゲットディメンションを選択して、をクリックしま **[!UICONTROL Create]**&#x200B;す。
@@ -62,7 +62,7 @@ The confirmation email is a transactional message as it reacts to an event: the 
 
    ![](assets/confirmation_publicLabel-field.png)
 
-   >[メモ]
+   >[!NOTE]
    >
    >このフ **[!UICONTROL publicLabel]** ィールドは必須です。 イベントデータ構造に追加しない場合、Adobe Campaignはサービスとの調整を実行できません。 サービスを購読する際に、このフィールドに対応するサービスの **[!UICONTROL Service label]** IDが入力されます。
 
@@ -74,7 +74,7 @@ The confirmation email is a transactional message as it reacts to an event: the 
 
    ![](assets/confirmation_publicLabel-join.png)
 
-   >[メモ]
+   >[!NOTE]
    >
    >これにより、トランザクションメッセージ内のリソースのパーソナライゼ **[!UICONTROL Service]** ーションフィールドを使用できます。
 
@@ -84,19 +84,19 @@ The confirmation email is a transactional message as it reacts to an event: the 
 
 #### 確認メッセージの設計 {#design-the-confirmation-message-1}
 
-The confirmation email is a transactional message based on the event that you just published.
+確認電子メールは、発行したイベントに基づくトランザクションメッセージです。
 
 1. Adobe Campaignのロゴで、/を選択し、 **[!UICONTROL Marketing plans]** をクリ **[!UICONTROL Transactional messages]** ックしま **[!UICONTROL Transactional messages]**&#x200B;す。
-1. Select the transactional email corresponding to the event that you just published.
+1. 発行したイベントに対応するトランザクション電子メールを選択します。
 
-1. Click the  section and select an email template. **[!UICONTROL Content]** For more on editing a transactional message content, see Event transactional messages.[](../../channels/using/event-transactional-messages.md)
-1. As you have direct access to all fields from the  resource, you can select any field from the  &gt;  &gt;  &gt; node to personalize your content.**[!UICONTROL Service]****[!UICONTROL Context]****[!UICONTROL Real-time event (rtEvent)]****[!UICONTROL Event context (ctx)]****[!UICONTROL Service]**
+1. セクションをクリ **[!UICONTROL Content]** ックし、電子メールテンプレートを選択します。 トランザクションメッセージコンテンツの編集について詳しくは、イベントトランザクシ [ョンメッセージを参照してくださ](../../channels/using/event-transactional-messages.md)い。
+1. リソースのすべてのフィールドに直接アクセスできるので、// **[!UICONTROL Service]** nodeから任意のフィールドを選択して、コンテンツをパーソナライズする **[!UICONTROL Context]** ことができます **[!UICONTROL Real-time event (rtEvent)]****[!UICONTROL Event context (ctx)]****[!UICONTROL Service]** 。
 
    ![](assets/confirmation_personalization-service.png)
 
    トランザクションメッセージのパーソナライズについて詳しくは、この節を [参照してくださ](../../channels/using/event-transactional-messages.md#personalizing-a-transactional-message)い。
 
-1. Preview your message using a test profile. 詳しくは、トランザクションメッセージで [のテストプロファイルの定義を参照してください](../../channels/using/event-transactional-messages.md#defining-a-test-profile-in-a-transactional-message)。
+1. テストプロファイルを使用してメッセージをプレビューします。 詳しくは、トランザクションメッセージで [のテストプロファイルの定義を参照してください](../../channels/using/event-transactional-messages.md#defining-a-test-profile-in-a-transactional-message)。
 
 1. をクリック **[!UICONTROL Save & close]** して、コンテンツを保存します。
 1. トランザクションメッセージを公開します。 詳しくは、ト [ランザクションメッセージの公開を参照してくださ](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message)い。
@@ -109,7 +109,7 @@ The confirmation email is a transactional message based on the event that you ju
 
    ![](assets/confirmation_service-label.png)
 
-   >[メモ]
+   >[!NOTE]
    >
    >トランザクションメッセージとの調整を有効にするには、このフィールドに入力する必要があります。
 
@@ -120,7 +120,11 @@ The confirmation email is a transactional message based on the event that you ju
 
 1. Click **[!UICONTROL Confirm]** and save the service.
 
-現在は、プロファイルがこのサービスを購読するたびに、定義したトランザクションメッセージを受信し、選択したサービスにマッピングされたパーソナライズされたフィールドを受信します。 A message will be sent only the first time the user subscribes.
+現在は、プロファイルがこのサービスを購読するたびに、定義したトランザクションメッセージを受信し、選択したサービスにマッピングされたパーソナライズされたフィールドを受信します。
+
+>[!NOTE]
+>
+>ユーザーが初めて購読するときにのみメッセージが送信されます。
 
 ## ランディングページからの確認メッセージの設定 {#configuring-confirmation-message-from-landing-page}
 
@@ -136,7 +140,7 @@ The confirmation email is a transactional message based on the event that you ju
 
 #### イベントの作成 {#create-the-event-2}
 
-The confirmation email is a transactional message as it reacts to an event: the subscription to a service. [](../../channels/using/about-transactional-messaging.md)このメッセージは、ニュースレターの購読を確認するために送信されます。
+確認電子メールは、イベントに反 [応する](../../channels/using/about-transactional-messaging.md) 、トランザクションメッセージです。サービスの購読。 このメッセージは、ニュースレターの購読を確認するために送信されます。
 
 1. イベントを作成するには、// **[!UICONTROL Marketing plans]** メニュ **[!UICONTROL Transactional messages]** ーを使 **[!UICONTROL Event configuration]** 用します。このメニューはAdobe Campaignロゴからアクセスできます。
 1. ラベルを入力し、ターゲットディメンションを選択して、をクリックしま **[!UICONTROL Create]**&#x200B;す。
@@ -147,7 +151,7 @@ The confirmation email is a transactional message as it reacts to an event: the 
 
    ![](assets/confirmation_serviceName-field.png)
 
-   >[メモ]
+   >[!NOTE]
    >
    >このフ **[!UICONTROL serviceName]** ィールドは必須です。 イベントデータ構造に追加しない場合、Adobe Campaignは、登録済みサービスとの調整を実行できません。
 
@@ -156,7 +160,7 @@ The confirmation email is a transactional message as it reacts to an event: the 
 
    ![](assets/confirmation_serviceName-join.png)
 
-   >[メモ]
+   >[!NOTE]
    >
    >これにより、トランザクションメッセージ内のリソースのパーソナライゼ [!UICONTROL Service] ーションフィールドを使用できます。
 
@@ -192,6 +196,6 @@ Webサイトに公開する購読のランディングページを作成しま�
 
 現在は、プロファイルがランディングページを送信してニュースレターを購読するたびに、サービスにマッピングされたパーソナライズされたフィールドで定義した確認メッセージを受け取ります。
 
->[NOTE]
+>[!NOTE]
 >
 >プロファイルが既に登録されている場合でも、ランディングページが送信されるたびにメッセージが送信されます。
