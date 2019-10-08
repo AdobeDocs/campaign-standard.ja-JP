@@ -3,32 +3,32 @@ title: 購読について
 seo-title: 購読について
 description: 購読について
 seo-description: null
-page-status-flag: 常にアクティブ化されていない
-uuid: b0263e40- f910-49f2- a138-0a1302aeeec6
-contentOwner: サウビート
-products: SG_ CAMPAIGN/STANDARD
-audience: オーディエンス
+page-status-flag: 非活性化の
+uuid: b0263e40-f910-49f2-a138-0a1302aeec6
+contentOwner: ソビア
+products: SG_CAMPAIGN/STANDARD
+audience: audiences
 content-type: 参照
-topic-tags: 管理-購読
-discoiquuid: 27de5a13-7b7c-4c91- bf26-3dfd324beb8f
+topic-tags: 購読の管理
+discoiquuid: 27de5a13-7b7c-4c91-bf26-3dfd324beb8f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
 
 ---
 
 
-# About subscriptions{#about-subscriptions}
+# 購読について{#about-subscriptions}
 
-Adobe Campaign allows you to create and manage newsletters and cross-channel communications, through a set of **services**: messages can only be sent to profiles who subscribed to the service (opt-in). これらのプロファイルは、メッセージの作成時に専用フィルターを使用して識別されます。
+Adobe Campaignでは、一連のサービスを使用して、ニュースレターやチャネル間の通信を作成および管理で **きます**。メッセージは、サービスを購読しているプロファイル（オプトイン）にのみ送信できます。 これらのプロファイルは、メッセージを作成する際に専用のフィルターを使用して識別されます。
 
-Subscription mechanisms can be set up to offer your customers a chance to subscribe to these services, notably though **emails** and **landing pages**.
+購読メカニズムを設定して、顧客が電子メールやランディングページを含め、これらのサービスを購読する機会を提 **供で** きる **ようにします**。
 
-各サービスには次のものがあります。
+各サービスには次の機能が付属しています。
 
-* **購読** （オプトイン）および **[!UICONTROL Unsubscription]** （オプトアウト）メカニズム。
-* Subscription and/or unsubscription **confirmation mechanisms**.
-* A subscription **history**.
+* **購読** （オプトイン）と **[!UICONTROL Unsubscription]** （オプトアウト）のメカニズム
+* 購読/非購読の確認 **メカニズム**。
+* 購読履 **歴**。
 
-購読は、Adobe Campaign Standard APIを使用して管理することもできます。For more on this, refer to the [dedicated documentation](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#managing-subscriptions) .
+購読は、Adobe Campaign Standard APIを使用して管理することもできます。 For more on this, refer to the [dedicated documentation](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#managing-subscriptions) .
