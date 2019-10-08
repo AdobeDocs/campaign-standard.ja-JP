@@ -14,7 +14,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d9357481a567cb0d11eea43211abf08a6dcb07d6
+source-git-commit: 57a0d20697461fb87b61c38dfd1779fadd565888
 
 ---
 
@@ -27,35 +27,39 @@ Adobe Campaign Standardドキュメントの最新の更新について説明し
 
 また、『Adobe Campaignリリースノート』を参照する [こともできます](../../rn/using/release-notes.md)。
 
-## Documentation updates - October 2019 {#doc-updates-october-2019}
+## ドキュメントの更新 — 2019年10月 {#doc-updates-october-2019}
 
-A new section describing how to send an automatic custom confirmation email to profiles who subscribe to a specific service has been added. [詳細を表示](../../audiences/using/confirming-subscription-to-a-service.md)
+キャンペーン標準設定に関連する新しいセクションが追加されました。 [詳細を表示](../../administration/using/about-campaign-standard-settings.md)
 
-The Transactional messaging section has been modified with the latest UI updates, including editing content with the Email Designer. [詳細を表示](../../channels/using/event-transactional-messages.md)
+特定のサービスを購読するプロファイルに自動カスタム確認電子メールを送信する方法を説明する新しい節が追加されました。 [詳細を表示](../../audiences/using/confirming-subscription-to-a-service.md)
 
-## Documentation updates - September 2019 {#doc-updates-september-2019}
+「トランザクションメッセージ」セクションは、電子メールデザイナでのコンテンツの編集など、最新のUIの更新によって変更されました。 [詳細を表示](../../channels/using/event-transactional-messages.md)
 
-A new section was added in the Push notifications section on how to create and update profile information based on mobile application subscription data. [詳細を表示](../../channels/using/updating-profile-with-mobile-app-data.md)
+ランディングページのチャプターが再編成されました。 また、ランディングページの設定手順を詳細に説明する新しいセクションが追加され、機能が強化されました。 [詳細を表示](../../channels/using/main-steps-to-set-up-a-landing-page.md)
 
-A new example showing how to send an email containing additional data retrieved from a load file activity has been added. [詳細を表示](../../automating/using/load-file.md#example-2-email-with-enriched-fields)
+## ドキュメントの更新 — 2019年9月 {#doc-updates-september-2019}
 
-A new section on how to use traps has been added. [詳細を表示](../../sending/using/managing-test-profiles-and-sending-proofs.md#using-traps).
+モバイルアプリケーションの購読データに基づいてプロファイル情報を作成および更新する方法に関する新しいセクションが、「プッシュ通知」セクションに追加されました。 [詳細を表示](../../channels/using/updating-profile-with-mobile-app-data.md)
 
-A note about the Launch_URL_Campaign option was added in the page on how to configure a mobile application using Adobe Experience Platform SDKs. ****[詳細を表示](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)
+ロードファイルアクティビティから取得した追加のデータを含む電子メールの送信方法を示す新しい例が追加されました。 [詳細を表示](../../automating/using/load-file.md#example-2-email-with-enriched-fields)
 
-The email designer guide has been reorganized. [詳細を表示](../../designing/using/designing-content-in-adobe-campaign.md)
+トラップの使用方法に関する新しいセクションが追加されました。 [詳細を表示](../../sending/using/managing-test-profiles-and-sending-proofs.md#using-traps).
 
-## Documentation updates - August 2019 {#doc-updates-august-2019}
+Adobe Experience Platform SDKを使用したモバ **イルアプリケーションの設定方法に関するページに、「** Launch_URL_Campaign」オプションに関するメモが追加されました。 [詳細を表示](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)
 
-A new section with use cases on workflows focusing on queries has been added. [詳細を表示](../../automating/using/workflow-created-query-with-complement.md)
+電子メールデザイナーガイドが再編成されました。 [詳細を表示](../../designing/using/designing-content-in-adobe-campaign.md)
 
-A procedure was added in the workflow troubleshooting section on how to display SQL queries in the Log tab. [詳細を表示](../../automating/using/best-practices-workflows.md#troubleshooting-data-management-activities)
+## ドキュメントの更新 — 2019年8月 {#doc-updates-august-2019}
 
-A new help article has been added, with information related to subdomains and certificates management within the Control Panel. [詳細を表示](https://helpx.adobe.com/campaign/kb/control-panel-subdomains-certificates.html)
+クエリーに重点を置いたワークフローの使用例に関する節を追加しました。 [詳細を表示](../../automating/using/workflow-created-query-with-complement.md)
 
-The section describing the content templates and fragments has been updated. [詳細を表示](../../designing/using/using-reusable-content.md#content-templates)
+「ログ」タブにSQLクエリを表示する方法に関するワークフローのトラブルシューティングの節に手順が追加されました。 [詳細を表示](../../automating/using/best-practices-workflows.md#troubleshooting-data-management-activities)
 
-A new section on how to save email content as a template in the Email Designer has been added. [詳細を表示](../../start/using/about-templates.md#saving-content-as-template)
+新しいヘルプ記事が追加され、サブドメインと証明書の管理に関する情報がコントロールパネルに表示されました。 [詳細を表示](https://helpx.adobe.com/campaign/kb/control-panel-subdomains-certificates.html)
+
+コンテンツテンプレートとフラグメントについて説明する節が更新されました。 [詳細を表示](../../designing/using/using-reusable-content.md#content-templates)
+
+電子メールデザイナーで電子メールコンテンツをテンプレートとして保存する方法に関する新しい節が追加されました。 [詳細を表示](../../start/using/about-templates.md#saving-content-as-template)
 
 ## リリース19.3 - 2019年7月 {#release-19-3---july-2019}
 
@@ -99,7 +103,7 @@ Campaign StandardおよびClassicのエラーメッセージのリストが更�
 
 ## ドキュメントの更新 — 2019年7月 {#doc-updates-2019}
 
-ランディングページの制限に関する新しいページを追加しました。 [詳細を表示](../../channels/using/landing-page-limitations.md)
+ランディングページの制限に関する新しいページを追加しました。 [詳細を表示](../../channels/using/about-landing-pages.md#landing-page-limitations)
 
 複合IDキーを使用してプロファイルを呼び出す方法に関する使用例が追加されました。 [詳細を表示](../../developing/using/uc-calling-resource-id-key.md)
 
@@ -109,35 +113,35 @@ Campaign StandardおよびClassicのエラーメッセージのリストが更�
 
 カスタムリソースドキュメントに警告を追加しました。 カスタムリソースIDには、最大30文字を使用することをお勧めします。 これは、カスタムリソースフィールド、キー、インデックス、およびリンクにも適用されます。 [詳細を表示](../../developing/using/creating-or-extending-the-resource.md)
 
-## Release 19.2 - May 2019 {#release-19-2---may-2019}
+## リリース19.2 - 2019年5月 {#release-19-2---may-2019}
 
-### New capabilities included in the release {#new-capabilities-included-in-the-release}
+### リリースに含まれる新機能 {#new-capabilities-included-in-the-release}
 
-Control Panel - Read more[](https://helpx.adobe.com/campaign/kb/control-panel.html)
+コントロールパネル — 詳 [細情報](https://helpx.adobe.com/campaign/kb/control-panel.html)
 
-Local notifications - Read more[](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)
+ローカル通知 — 詳 [細情報](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)
 
-Workflow enhancement - Add a payload to external signal activity - Read more[](../../automating/using/calling-a-workflow-with-external-parameters.md)
+ワークフローの強化 — 外部シグナルアクティビティにペイロードを追加 — 詳 [細情報](../../automating/using/calling-a-workflow-with-external-parameters.md)
 
-Landing Pages enhancement - Google reCAPTCHA - Read more[](../../channels/using/designing-a-landing-page.md#setting-google-recaptcha)
+ランディングページの機能強化 — Google reCAPTCHA — 詳 [細情報](../../channels/using/designing-a-landing-page.md#setting-google-recaptcha)
 
-### Other documentation updates coming with the release {#other-documentation-updates-coming-with-the-release}
+### リリースに伴うその他のドキュメントの更新 {#other-documentation-updates-coming-with-the-release}
 
-The Domain Name Delegation article has been updated. [詳細を表示](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html)
+ドメイン名委任記事が更新されました。 [詳細を表示](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html)
 
 リリース計画の新しい記事が公開され、今後のリリース日を共有できるようになりました。 [詳細を表示](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
 
-The contextual help links available directly from Adobe Campaign have been updated.
+Adobe Campaignから直接利用できるコンテキストヘルプリンクが更新されました。
 
-The following page becomes the official Videos page for Adobe Campaign Standard.[](https://helpx.adobe.com/campaign/kt/acs/index/acs-videos.html)
+次のページ [は](https://helpx.adobe.com/campaign/kt/acs/index/acs-videos.html) 、Adobe Campaign Standardの公式ビデオページになります。
 
-Added a section on data retention including the default retention values for standard tables. [詳細を表示](../../administration/using/data-retention.md)
+標準テーブルのデフォルトのリテンション値を含む、データリテンションに関する節を追加しました。 [詳細を表示](../../administration/using/data-retention.md)
 
 更新とメンテナンス操作に関する節を追加しました。 [詳細を表示](../../administration/using/updates-and-maintenance-operations.md)
 
 ファイル転送アクティビティの新しい並べ替えオプションに **情報が追加さ** れました。 [詳細を表示](../../automating/using/transfer-file.md)
 
-REST APIドキ [ュメントが更新され](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html) ました。
+REST APIドキ [ュメントが更新され](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html) ました。
 
 * キャンペーン標準REST APIを使用する理由に関する一般的な情報を含む新しい節が追加されました。
 * 一般的な使用例を表す、事前に設計されたAPIリクエストの集まりが利用可能になりました。
@@ -175,13 +179,13 @@ SMPPプロバ [イダへの接続を許可するMTAインスタンスの数を�
 
 廃止および削除された機能ページが更新されました。 [詳細を表示](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
 
-The Dreamweaver integration section has been updated and improved. [詳細を表示](../../designing/using/using-integrations.md#editing-content-in-dreamweaver)
+Dreamweaverの統合セクションが更新され、改善されました。 [詳細を表示](../../designing/using/using-integrations.md#editing-content-in-dreamweaver)
 
-## Release 19.1 - February 2019 {#release-19-1---february-2019}
+## リリース19.1 - 2019年2月 {#release-19-1---february-2019}
 
 ### リリースに含まれる新機能 {#new-capabilities-included-in-the-release-1}
 
-Push Channel Reporting improvements - Read more[](../../reporting/using/push-notification-report.md)
+プッシュチャネルレポートの機能強化 — [詳細情報](../../reporting/using/push-notification-report.md)
 
 モバイルアプリの統合を開始 — 詳 [細情報](../../administration/using/configuring-a-mobile-application.md#using-adobe-experience-platform-sdk)
 
@@ -225,7 +229,7 @@ Adobe Campaignから直接利用できるコンテキストヘルプリンクの
 
 ファイル内の拒否を保持するオプションに関する情報を追加しました。 このオプションを使用して、リジェクトを含むファイルに後処理ステージを適用できるようになりました。 [詳細を表示](../../automating/using/load-file.md#configuration)
 
-Added a new section on how to duplicate workflow activities through copy-paste operations. [詳細を表示](../../automating/using/workflow-interface.md#duplicating-workflow-activities)
+コピー&amp;ペースト操作を使用してワークフローアクティビティを複製する方法に関する新しい節を追加しました。 [詳細を表示](../../automating/using/workflow-interface.md#duplicating-workflow-activities)
 
 クエリ(詳細を表示 [)アクティビティとセグメント化(詳細を表示](../../automating/using/query.md)[](../../automating/using/segmentation.md))アクティビティの新しいオプションに関する情報を追加しました。データが取得されない場合は、アクティビティの後にアウトバウンドトランジションを追加できます。
 
@@ -317,7 +321,7 @@ Creative Designerに完全に準拠するためのHTML属性のリストをこ�
 
 ### リリースに含まれる新機能 {#new-capabilities-included-in-the-release-5}
 
-APIドキュメントが更新され、履歴 **APIに関する情報が追加されました** 。 プロファイルに送信された配信のミラーページを取得する方法に関する使用例が追加されました。 [詳細を表示](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#how-to-retrieve-the-mirror-page-for-a-delivery-sent-to-a-profile)
+APIドキュメントが更新され、履歴 **APIに関する情報が追加されました** 。 プロファイルに送信された配信のミラーページを取得する方法に関する使用例が追加されました。 [詳細を表示](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#how-to-retrieve-the-mirror-page-for-a-delivery-sent-to-a-profile)
 
 ### リリースに伴うその他のドキュメントの更新 {#other-documentation-updates-coming-with-the-release-5}
 
@@ -331,7 +335,7 @@ APIドキュメントが更新され、履歴 **APIに関する情報が追加�
 
 クエリアクティビティの節に、配信内の特定のリンクをクリックしたプロファイルをターゲットにする方法のサンプルを追加しました。 [詳細を表示](../../automating/using/query.md#targeting-profiles-who-clicked-a-specific-link-)
 
-カスタムフィルターに関連するAPIドキュメントに節を追 **加しました**。 [詳細を表示](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#filtering)
+カスタムフィルターに関連するAPIドキュメントに節を追 **加しました**。 [詳細を表示](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#filtering)
 
 ## リリース18.5 - 2018年5月 {#release-18-5---may-2018}
 
@@ -381,7 +385,7 @@ EU GDPR(General Data Protection Regulation) — 詳細を [読む](https://docs.
 
 ### リリースに伴うその他のドキュメントの更新 {#other-documentation-updates-coming-with-the-release-7}
 
-GDPR APIは、GDPRリクエストの自動処理を可能にする機能を再グループ化します。 [詳細を表示](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#gdpr-api)
+GDPR APIは、GDPRリクエストの自動処理を可能にする機能を再グループ化します。 [詳細を表示](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#gdpr-api)
 
 受信者にブラックリストに記載する機能を提供するランディングページの設定方法に関する情報を追加しました。 [詳細を表示](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
 
@@ -455,7 +459,7 @@ SMS自動応答の使用方法に関する使用例を追加しました。 [詳
 
 タイムゾーンに最適化された配信 — 詳 [細情報](../../automating/using/scheduler.md)
 
-APIシグナルアクティビティのトリガー — [詳細情報](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#triggering-a-signal-activity)
+APIシグナルアクティビティのトリガー — [詳細情報](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#triggering-a-signal-activity)
 
 ### リリースに伴うその他のドキュメントの更新 {#other-documentation-updates-coming-with-the-release-9}
 
@@ -505,11 +509,11 @@ Adobe Campaign Standardのプッシュ通 [知を受け取るために](https://
 
 SMSのドキュメントが更新され、 [SMS自動返信の節に説明が追加されました](../../channels/using/managing-incoming-sms.md#managing-stop-sms) 。
 
-APIを使用したワークフロー管理に関する新しい節を追加しました。 [詳細を表示](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#workflows-and-api)
+APIを使用したワークフロー管理に関する新しい節を追加しました。 [詳細を表示](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#workflows-and-api)
 
-主キーに特化した新しいセクションと、APIでのキーとしてのビジネスIDの使用について説明します。 [詳細を表示](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#primary-key)
+主キーに特化した新しいセクションと、APIでのキーとしてのビジネスIDの使用について説明します。 [詳細を表示](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#primary-key)
 
-APIの単純なフィルターと複数のフィルターに関する情報を追加しました。 [詳細を表示](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#filtering)
+APIの単純なフィルターと複数のフィルターに関する情報を追加しました。 [詳細を表示](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#filtering)
 
 ## リリース17.9 - 2017年9月 {#release-17-9---september-2017}
 
@@ -659,7 +663,7 @@ REST APIのリンクされたリソース — 詳 [細情報](../../developing/u
 
 トリガー統合：2つの使用例が追加されました。 [詳細を表示](../../integrating/using/abandonment-triggers-use-cases.md)
 
-ユーザーエクスペリエンスを向上させるために、開発者APIドキュメントのデザインを新しい情報とコードスニペットで変更しました。 [詳細を表示](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
+ユーザーエクスペリエンスを向上させるために、開発者APIドキュメントのデザインを新しい情報とコードスニペットで変更しました。 [詳細を表示](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
 
 新しい読み取りオーディエンスと外部シグナル [ワークフローの](../../automating/using/read-audience.md)[例を見つけます](../../automating/using/external-signal.md) 。
 
@@ -669,7 +673,7 @@ REST APIのリンクされたリソース — 詳 [細情報](../../developing/u
 
 外部レポート用のログエクスポート — 詳 [細情報](../../automating/using/exporting-logs.md)
 
-トランザクションメッセージングAPI - [詳細情報](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
+トランザクションメッセージングAPI - [詳細情報](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
 
 トランザクションメッセージのマーケティング機能 — [詳細情報](../../channels/using/profile-transactional-messages.md)
 
@@ -693,7 +697,7 @@ URLの変更：Peopleコアサービス — [詳細情報](../../integrating/usi
 
 ユーザー権限について：使用例が追加されました。 また、ユーザー権限マ [トリックスも参照します](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)。
 
-APIの操作：api拡張 [の使用例が追加されました](../../developing/using/about-extending-the-api.md) 。 また、 [APIドキュメントも参照してくださ](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)い。
+APIの操作：api拡張 [の使用例が追加されました](../../developing/using/about-extending-the-api.md) 。 また、 [APIドキュメントも参照してくださ](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)い。
 
 キャンペーンエラーメッセージ：バージョンと言語でフィルターされた、Campaign v6とStandardの両方のエラーメッセージの完全なリストにアクセスします。 [詳細を表示](http://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
