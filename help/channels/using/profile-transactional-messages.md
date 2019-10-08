@@ -14,7 +14,7 @@ discoiquuid: dcb90afc-42c3-419e-8345-79cddf969e41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d9357481a567cb0d11eea43211abf08a6dcb07d6
+source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
 
 ---
 
@@ -36,7 +36,9 @@ source-git-commit: d9357481a567cb0d11eea43211abf08a6dcb07d6
 
 >[!NOTE]
 >
->トランザクションメッセージにアクセスするには、管理権限を持っているか、(mcExec)セキュリティグル **[!UICONTROL Message Center agents]** ープに表示されている必要があります。 疲労ルールは、プロファイルトランザクションメッセージと互換性があります。 疲労ル [ールを参照](../../administration/using/fatigue-rules.md)。
+>トランザクションメッセージにアクセスするには、セキュリティグループに属してい **[!UICONTROL Administrators (all units)]** る必要があります。
+>
+>疲労ルールは、プロファイルトランザクションメッセージと互換性があります。 疲労ル [ールを参照](../../administration/using/fatigue-rules.md)。
 
 ## プロファイルトランザクションメッセージの送信 {#sending-a-profile-transactional-message}
 
