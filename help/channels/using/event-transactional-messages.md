@@ -15,7 +15,7 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 443b374506d388009fbd43108577001d35f406ee
+source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
 
 ---
 
@@ -32,7 +32,9 @@ source-git-commit: 443b374506d388009fbd43108577001d35f406ee
 
 >[!NOTE]
 >
->トランザクションメッセージにアクセスするには、管理権限を持っているか、(mcExec)セキュリティグル **[!UICONTROL Message Center agents]** ープに表示されている必要があります。 イベントトランザクションメッセージにはプロファイル情報が含まれないので、（プロファイルを含むエンリッチメントの場合でも）疲労ルールとの互換性がありません。 疲労ル [ールを参照](../../administration/using/fatigue-rules.md#choosing-the-channel)。
+>トランザクションメッセージにアクセスするには、セキュリティグループに属してい **[!UICONTROL Administrators (all units)]** る必要があります。
+>
+>イベントトランザクションメッセージにはプロファイル情報が含まれないので、（プロファイルを含むエンリッチメントの場合でも）疲労ルールとの互換性がありません。 疲労ル [ールを参照](../../administration/using/fatigue-rules.md#choosing-the-channel)。
 
 ## トランザクションメッセージでのテストプロファイルの定義 {#defining-a-test-profile-in-a-transactional-message}
 
@@ -54,15 +56,15 @@ source-git-commit: 443b374506d388009fbd43108577001d35f406ee
 
    >[!NOTE]
    >
-   >また、プロファイルテーブルに関する情報を入力することもできます。 See [Enriching the transactional message content](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content).
+   >また、プロファイルテーブルに関する情報を入力することもできます。 詳しくは、ト [ランザクションメッセージコンテンツの強化を参照してくださ](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content)い。
 
-1. After having been created, the test profile will be pre-specified in the transactional message. メッセージ **[!UICONTROL Test profiles]** のブロックをクリックして、校正のターゲットを確認します。
+1. 作成後、テストプロファイルはトランザクションメッセージで事前に指定されます。 メッセージ **[!UICONTROL Test profiles]** のブロックをクリックして、校正のターゲットを確認します。
 
    ![](assets/message-center_5.png)
 
-### Creating a test profile outside the transactional message {#creating-a-test-profile-outside-the-transactional-----------message}
+### トランザクションメッセージの外部でのテストプロファイルの作成 {#creating-a-test-profile-outside-the-transactional-----------message}
 
-You can also create a new test profile or use one that already exists in the **[!UICONTROL Test profiles]** menu.
+また、新しいテストプロファイルを作成したり、メニューに既に存在するテストプロファイルを使用したりすることも **[!UICONTROL Test profiles]** できます。
 
 1. 左上隅 **[!UICONTROL Adobe Campaign]** のロゴをクリックし、/を選択し **[!UICONTROL Profiles & audiences]** ます **[!UICONTROL Test profiles]**。
 1. 選択し **[!UICONTROL Event]** たテストプロファイルのページのセクションで、作成したイベントを選択します。 この例では、「買い物かごの放棄(EVTcartAbaund)」を選択します。
@@ -109,7 +111,7 @@ You can also create a new test profile or use one that already exists in the **[
 
 1. このイベント用に定義したプロファイルを選択して、メッセージをプレビューします。
 
-   メッセージをプレビューする手順について詳しくは、「メッセージのプレビ [ュー](../../sending/using/preparing-the-send.md) 」を参照してください。
+   メッセージをプレビューする手順について詳しくは、「メッセージのプレビ [ュー](../../sending/using/previewing-messages.md) 」を参照してください。
 
    ![](assets/message-center_9.png)
 
@@ -258,7 +260,7 @@ You can also create a new test profile or use one that already exists in the **[
 
 例えば、メッセージに含まれるデータを変更するためのボタ **[!UICONTROL Pause]** ンを使用して、トランザクションメッセージの公開を中止できます。 そのため、イベントは処理されず、代わりにAdobe Campaignデータベースのキューに保持されます。
 
-キューに登録されたイベントは、REST API( [REST APIドキュメントを参照](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html))で定義された期間中、またはTriggersコアサービスを使用している場合はトリガーイベント(「 [CampaignとExperience Cloud Triggersの操作](../../integrating/using/about-adobe-experience-cloud-triggers.md)」を参照)で保持されます。
+キューに登録されたイベントは、REST API( [REST APIドキュメントを参照](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html))で定義された期間中、またはTriggersコアサービスを使用している場合はトリガーイベント(「 [CampaignとExperience Cloud Triggersの操作](../../integrating/using/about-adobe-experience-cloud-triggers.md)」を参照)で保持されます。
 
 ![](assets/message-center_pause.png)
 
