@@ -15,7 +15,7 @@ context-tags: service,wizard;service,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: da59fad19bcf35b63afdfc6389be527c27f21fc3
+source-git-commit: 60424543028fa4df548d6d5bcfb1e9acc4131132
 
 ---
 
@@ -41,7 +41,7 @@ source-git-commit: da59fad19bcf35b63afdfc6389be527c27f21fc3
    * **[!UICONTROL No message]**:このモードを使用すると、確認メッセージを表示せずにサービスを作成できます。
    * **[!UICONTROL Default message]**:このモードでは、デフォルトの購読または購読解除の確認トランザクションメッセージが使用されます。 デフォルトの確認メッセージは汎用で、デフォルトモードを使用するすべてのサービスで同じになります。
 
-      >[メモ]
+      >[!NOTE]
       >
       >デフォルトのメッセージを変更するには、セクション内のラベルをクリックす **[!UICONTROL Service properties]** るか、ボックスをオンにした後でAdobe Campaignトランザクションメッセージリストからメッセージを選択 **[!UICONTROL Show internal transactional messages]** します。
 
