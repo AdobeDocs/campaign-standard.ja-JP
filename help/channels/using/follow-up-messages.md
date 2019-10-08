@@ -14,7 +14,7 @@ discoiquuid: 9615e369-754f-4f6a-a1b1-14462f946666
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d9357481a567cb0d11eea43211abf08a6dcb07d6
+source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
 
 ---
 
@@ -49,7 +49,7 @@ source-git-commit: d9357481a567cb0d11eea43211abf08a6dcb07d6
 
 >[!NOTE]
 >
->トランザクションメッセージにアクセスするには、管理権限を持っているか、(mcExec)セキュリティグル **[!UICONTROL Message Center agents]** ープに表示されている必要があります。
+>トランザクションメッセージにアクセスするには、セキュリティグループに属してい **[!UICONTROL Administrators (all units)]** る必要があります。
 
 ## フォローアップメッセージの送信 {#sending-a-follow-up-message}
 
@@ -111,7 +111,7 @@ source-git-commit: d9357481a567cb0d11eea43211abf08a6dcb07d6
 
    ![](assets/message-center_follow-up-template.png)
 
-1. フォローアップメッセージのコンテンツでは、パーソナライゼーションフィールドを追加することで、イベントのコンテンツを利用できます。
+1. フォローアップメッセージのコンテンツでは、パーソナライゼーションフィールドを追加して、イベントのコンテンツを利用できます。
 
    ![](assets/message-center_follow-up-content.png)
 
