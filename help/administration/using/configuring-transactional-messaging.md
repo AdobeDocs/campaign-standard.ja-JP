@@ -14,7 +14,7 @@ discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e89bd70459c92ba9706bbec5c488cbb340b14651
+source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
 
 ---
 
@@ -186,7 +186,7 @@ Adobe Campaignデータベースの情報を使用してトランザクション
 
 「 [Transactional messaging operating principal](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle) 」セクションで説明した例では、買い物かごに製品を購入する前に、顧客の1人がWebサイトを離れるたびに「買い物かごの中断」イベントをトリガーする必要があります。 これを行うには、WebサイトのWeb開発者がAdobe Campaign Standard REST APIを使用する必要があります。
 
-詳しくは、 [REST APIドキュメントを参照してください](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#transactional-messages-api) 。
+詳しくは、 [REST APIドキュメントを参照してください](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#transactional-messages-api) 。
 
 ## トランザクションイベント固有の設定 {#transactional-event-specific-configurations}
 
