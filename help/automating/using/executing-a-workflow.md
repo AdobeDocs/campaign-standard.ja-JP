@@ -3,258 +3,258 @@ title: ワークフローの実行
 seo-title: ワークフローの実行
 description: ワークフローの実行
 seo-description: ワークフローを実行および監視する方法について説明します。
-page-status-flag: 常にアクティブ化されていない
-uuid: ff02b74e-53e8-49c6- bf8e-0c729eaa7d25
-contentOwner: サウビート
-products: SG_ CAMPAIGN/STANDARD
+page-status-flag: 非活性化の
+uuid: ff02b74e-53e8-49c6-bf8e-0c729eaa7d25
+contentOwner: ソビア
+products: SG_CAMPAIGN/STANDARD
 audience: 自動化
 content-type: 参照
-topic-tags: workflow- general- operation
-discoiquuid: 906c85ea-83b7-4268-86da- cd353f1dc591
-context-tags: ワークフロー、概要;ワークフロー、メイン
+topic-tags: workflow-general-operation
+discoiquuid: 906c85ea-83b7-4268-86da-cd353f1dc591
+context-tags: ワークフロー，概要；ワークフロー，メイン
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e33cbfbf6376dabfe81b9bd6f7cce817f35d1b75
+source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
 
 ---
 
 
-# Executing a workflow{#executing-a-workflow}
+# ワークフローの実行{#executing-a-workflow}
 
-## About workflow execution {#about-workflow-execution}
+## ワークフローの実行について {#about-workflow-execution}
 
-ワークフローは常に手動で開始されます。However, once started, it can remain inactive, depending on the information specified in a [Scheduler](../../automating/using/scheduler.md) activity.
+ワークフローは、必ず手動で開始します。ただし、開始した後は、スケジューラーアクティビティで指定された情報に応じて非アクティブのままに [なります](../../automating/using/scheduler.md) 。
 
 >[!CAUTION]
 >
-> アドビでは、ワークフローの実行に優先順位を付け、最大20個の同時ワークフロー実行を実行して、インスタンス全体でパフォーマンスを最大限に発揮させることを推奨しています。20以上の同時ワークフロー実行が計画されており、デフォルトでは順次実行されます。カスタマーケアにチケットを送信することで、同時ワークフロー実行の最大数のデフォルト設定を調整できます。
+> ワークフロー実行に優先順位を付け、最大20個の同時ワークフロー実行を実行して、インスタンス全体で最大のパフォーマンスを一貫して達成することをお勧めします。 20を超える同時ワークフロー実行が計画され、デフォルトで順番に実行されます。 チケットをカスタマーケアに送信することで、同時ワークフロー実行の最大数のデフォルト設定を調整できます。
 
-実行関連アクション（開始、停止、一時停止など）are **asynchronous** processes: the command is saved and will become effective once the server is available to apply it.
+実行関連のアクション（開始、停止、一時停止など）は非同期 **プロセス** です。コマンドは保存され、サーバが適用可能になると有効になります。
 
-ワークフローでは、一般に、各アクティビティの結果は、トランジションを介して次のアクティビティに送信され、矢印で表されます。
+ワークフローでは、各アクティビティの結果は、通常、矢印で表されるトランジションを介して次のアクティビティに送信されます。
 
-宛先アクティビティにリンクされていない場合、トランジションは終了しません。
+遷移は、宛先アクティビティにリンクされていない場合、終了されません。
 
 ![](assets/wkf_execution_1.png)
 
 >[!NOTE]
 >
->停止していないトランジションを含むワークフローは実行できます。警告メッセージが生成され、トランジションに到達するとワークフローが一時停止しますが、エラーは生成されません。デザインを完全に終了せずにワークフローを開始することもできます。これにより、作業を進めることができます。
+>未終了の遷移を含むワークフローは、引き続き実行できます。警告メッセージが生成され、ワークフローは移行に到達すると一時停止しますが、エラーは発生しません。 デザインを完全に完了せずにワークフローを開始し、進むにつれてワークフローを完了することもできます。
 
-アクティビティが実行されると、トランジションで送信されたレコードの数がその上に表示されます。
+アクティビティが実行されると、その遷移で送信されたレコードの数がその上に表示されます。
 
 ![](assets/wkf_transition_count.png)
 
-トランジションを開いて、ワークフローの実行中または実行後に送信されたデータが正しいことを確認できます。データおよびデータ構造を表示できます。
+ワークフローの実行中または実行後に、トランジションを開いて、送信されたデータが正しいかどうかを確認できます。 データとデータ構造を表示できます。
 
-デフォルトでは、ワークフローの最後の移行の詳細のみにアクセスできます。To be able to access the results of the preceding activities, you need to check the **[!UICONTROL Keep interim results]** option in the **[!UICONTROL Execution]** section of the workflow properties, before starting the workflow.
+デフォルトでは、ワークフローの最後の移行の詳細のみにアクセスできます。 前述のアクティビティの結果にアクセスするには、ワークフローを開始する前に、ワークフ **[!UICONTROL Keep interim results]** ロープロパティのセ **[!UICONTROL Execution]** クションのオプションを確認する必要があります。
 
 >[!NOTE]
 >
->このオプションには大量のメモリが使用されており、ワークフローの構築や、適切な設定と準備ができるように設計されています。実稼働インスタンスではオフにします。
+>このオプションは、大量のメモリを消費し、ワークフローを構築し、ワークフローが正しく設定され、動作することを確認するために設計されています。 実稼働インスタンスでは、このチェックボックスをオフのままにします。
 
-When a transition is open, you can edit its **[!UICONTROL Label]** or link a **[!UICONTROL Segment code]** to it. これを行うには、対応するフィールドを編集し、変更を確認します。
+トランジションを開いているときは、そのトランジションを編集したり、トラ **[!UICONTROL Label]** ンジションにリン **[!UICONTROL Segment code]** クしたりできます。 これを行うには、対応するフィールドを編集し、変更を確認します。
 
-## Controlling a workflow from the REST API {#controlling-a-workflow-from-the-rest-api}
+## REST APIからのワークフローの制御 {#controlling-a-workflow-from-the-rest-api}
 
-Using the REST API, you can **start**, **pause**, **resume** and **stop** a workflow.
+REST APIを使用すると、ワークフローを開始 **、一時停止**、再開 **、停止**&#x200B;す **ることがで****** きます。
 
-[APIドキュメントのREST呼び出しの詳細と例を確認できます。](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#controlling-a-workflow)
+REST呼び出しの詳細と例については、 [APIドキュメントを参照してください。](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#controlling-a-workflow)
 
-## Life cycle {#life-cycle}
+## ライフサイクル {#life-cycle}
 
-ワークフローのライフサイクルには3つの主要ステップがあり、各ステップがステータスと色にリンクされています。
+ワークフローのライフサイクルには3つの主な手順が含まれ、各手順はステータスと色にリンクされます。
 
 * **編集** （グレー）
 
-   This is the initial design phase of a workflow (refer to [Creating a workflow](../../automating/using/building-a-workflow.md#creating-a-workflow)). ワークフローはサーバーによってまだ処理されておらず、リスクなしで変更できます。
+   これは、ワークフローの初期設計段階です(「ワークフ [ローの作成](../../automating/using/building-a-workflow.md#creating-a-workflow)」を参照)。 ワークフローはまだサーバーで処理されておらず、リスクを伴わずに変更できます。
 
-* **進行中** （青）
+* **処理中** （青）
 
-   初期設計段階が完了すると、ワークフローを開始し、サーバーによって処理できます。
+   初期設計段階が完了すると、ワークフローを開始し、サーバーで処理できます。
 
-* **終了（** 緑）
+* **完成** （緑）
 
-   ワークフローは、進行中のタスクがなく、または演算子がインスタンスを明示的に停止したときに終了します。
+   進行中のタスクがなくなった場合、または演算子がインスタンスを明示的に停止した場合は、ワークフローが完了します。
 
-開始したワークフローには、次の2つのステータスがあります。
+開始したワークフローには、次の2つのステータスがある場合もあります。
 
 * **警告** （黄色）
 
-   The workflow could not finish or was paused using the ![](assets/pause_darkgrey-24px.png) or ![](assets/check_pause_darkgrey-24px.png) buttons.
+   ワークフローを完了できなかったか、またはボタンを使用して一時停止し ![](assets/pause_darkgrey-24px.png) ていま ![](assets/check_pause_darkgrey-24px.png) した。
 
 * **エラー** （赤）
 
-   ワークフローが実行されたときにエラーが発生しました。ワークフローが停止し、ユーザーがアクションを実行する必要がありました。To find out more about this error, use the ![](assets/printpreview_darkgrey-24px.png) button to access the workflow log (refer to [Monitoring](../../automating/using/executing-a-workflow.md#monitoring)).
+   ワークフローの実行中にエラーが発生しました。 ワークフローが停止され、ユーザーがアクションを実行する必要があります。 このエラーの詳細を確認するには、ボタンを使用し ![](assets/printpreview_darkgrey-24px.png) てワークフローログにアクセスします(「監視」を参 [照](../../automating/using/executing-a-workflow.md#monitoring))。
 
-マーケティングアクティビティのリストでは、すべてのワークフローとそのステータスを表示できます。For more on this, see [Managing marketing activities](../../start/using/marketing-activities.md#about-marketing-activities).
+マーケティングアクティビティのリストを使用すると、すべてのワークフローとそのステータスを表示できます。 詳しくは、「マーケティングアクティビティ [の管理」を参照してくださ](../../start/using/marketing-activities.md#about-marketing-activities)い。
 
 ![](assets/wkf_execution_3.png)
 
-## Execution commands {#execution-commands}
+## 実行コマンド {#execution-commands}
 
-アクションバーのアイコンを使用すると、ワークフローの実行を開始、追跡および変更できます。[アクションバー](../../automating/using/workflow-interface.md#action-bar)を参照してください。
+アクションバーのアイコンを使用して、ワークフローの実行を開始、追跡、および変更できます。 アクショ [ンバーを参照](../../automating/using/workflow-interface.md#action-bar)。
 
 ![](assets/wkf_execution_2.png)
 
-使用できるアクションは次のとおりです。
+利用可能なアクションを次に示します。
 
-**Start**
+**開始**
 
-![](assets/play_darkgrey-24px.png) ボタンでワークフローの実行が開始され、 **進行中** （青）のステータスが表示されます。ワークフローが一時停止された場合、そのワークフローは再開され、それ以外の場合は開始され、最初のアクティビティがアクティブ化されます。
+ボタ ![](assets/play_darkgrey-24px.png) ンはワークフローの実行を開始し、処理中 **** （青）の状態になります。 ワークフローが一時停止された場合は再開され、それ以外の場合は開始され、最初のアクティビティがアクティブ化されます。
 
 >[!NOTE]
 >
->開始は、非同期プロセスです。リクエストが保存され、ワークフロー実行エンジンによってできるだけ早く処理されます。
+>開始は非同期プロセスです。リクエストが保存され、ワークフロー実行エンジンによって可能な限り早く処理されます。
 
 **一時停止**
 
-![](assets/pause_darkgrey-24px.png) ボタンは実行を一時停止します。The workflow takes on the **Warning** (yellow) status. 新しいアクティビティは再開されるまでアクティブ化されませんが、処理中の操作は休止されません。
+ボタン ![](assets/pause_darkgrey-24px.png) は実行を一時停止します。 ワークフローは、警告 **** （黄色）の状態になります。 再開されるまで、新しいアクティビティはアクティブ化されませんが、進行中の操作は中断されません。
 
-**Stop**
+**停止**
 
-![](assets/stop_darkgrey-24px.png) ボタンによって実行中のワークフローが停止し、 **完了** （緑）のステータスになります。処理中の操作は可能であれば中断され、実行中のインポートまたはSQLクエリーは直ちにキャンセルされます。停止した場所と同じ場所から再開することはできません。
+このボ ![](assets/stop_darkgrey-24px.png) タンは、実行中のワークフローを停止し、完了（緑色）状態 **にな** ります。 進行中の操作は可能であれば中断され、進行中のインポートまたはSQLクエリは直ちにキャンセルされます。 ワークフローを停止した場所と同じ場所から再開することはできません。
 
-**再開**
+**再起動**
 
-![](assets/pauseplay_darkgrey-24px.png) このボタンを使用するには、停止してからワークフローを再起動します。ほとんどの場合、迅速に再起動できます。It can also be useful to automate restarting once stopping takes a certain amount of time, because the ![](assets/play_darkgrey-24px.png) button is only available when the stop is effective.
+このボタ ![](assets/pauseplay_darkgrey-24px.png) ンには、ワークフローの停止後、再開が含まれます。 ほとんどの場合、これにより、すばやく再起動できます。 また、停止が有効な場合にのみボタンを使用できるので、停止が一定時間かかったら再起動を自動化する ![](assets/play_darkgrey-24px.png) と便利です。
 
-ワークフロー内の1つまたは複数のアクティビティが選択されている場合、次のような他のアクションが実行できます。
+ワークフロー内の1つまたは複数のアクティビティを選択した場合、実行できる他のアクションは次のとおりです。
 
 **即時実行**
 
-![](assets/pending_darkgrey-24px.png) ボタンは、可能な限り早く選択されている保留中のアクティビティを開始します。
+このボタ ![](assets/pending_darkgrey-24px.png) ンは、選択された保留中のアクティビティをできるだけ早く開始します。
 
 **通常の実行**
 
-The ![](assets/check_darkgrey-24px.png) button reactivates any paused or deactivated activities.
+ボタンは、一 ![](assets/check_darkgrey-24px.png) 時停止したアクティビティまたは非アクティブ化したアクティビティを再度アクティブにします。
 
-**実行が停止されました**
+**実行が中断されました**
 
-The ![](assets/check_pause_darkgrey-24px.png) button pauses the workflow at the selected activity: this task as well as all those that follow it (in the same branch) are not executed.
+このボタン ![](assets/check_pause_darkgrey-24px.png) は、選択したアクティビティでワークフローを一時停止します。このタスクと、その後（同じブランチ内）に続くすべてのタスクは実行されません。
 
 **実行なし**
 
-![](assets/checkdisable.png) ボタンは選択した任意のアクティビティを非アクティブにします。
+選択したア ![](assets/checkdisable.png) クティビティを非アクティブにします。
 
 >[!NOTE]
 >
->クイックアクションを使用すると、特定のアクティビティに関する様々なアクションにアクセスし、アクティビティが選択されているときに表示されます。
+>クイックアクションを使用すると、特定のアクティビティに関する様々なアクションにアクセスし、アクティビティが選択されたときに表示されます。
 
-## Monitoring {#monitoring}
+## 監視 {#monitoring}
 
-The ![](assets/printpreview_darkgrey-24px.png) icon opens the workflow log and task menu.
+このアイコ ![](assets/printpreview_darkgrey-24px.png) ンをクリックすると、ワークフローログとタスクメニューが開きます。
 
-The workflow history is saved for the duration specified in the workflow execution options (refer to [Workflow properties](../../automating/using/executing-a-workflow.md#workflow-properties)). この間、再起動後もすべてのメッセージが保存されます。If you do not want to save the messages from a previous execution, you have to purge the history by clicking the ![](assets/delete_darkgrey-24px.png) button.
+ワークフローの履歴は、ワークフローの実行オプションで指定された期間だけ保存されます( [Workflowプロパティを参照](../../automating/using/executing-a-workflow.md#workflow-properties))。 この間、再起動後も、すべてのメッセージが保存されます。 以前の実行のメッセージを保存しない場合は、ボタンをクリックして履歴をクリアする必要があり ![](assets/delete_darkgrey-24px.png) ます。
 
-**[!UICONTROL Log]** タブには、すべてのアクティビティまたは選択したアクティビティの実行履歴が含まれます。このインデックスは、実行時に実行される操作および実行エラーを時系列で表します。
+このタ **[!UICONTROL Log]** ブには、すべてのアクティビティまたは選択したアクティビティの実行履歴が含まれます。 実行された操作と実行エラーを時系列順にインデックスします。
 
 ![](assets/wkf_execution_4.png)
 
-The **[!UICONTROL Tasks]** tab details the execution sequencing of the activities. タスクをクリックして詳細情報を取得します。
+タブで **[!UICONTROL Tasks]** は、アクティビティの実行順序が詳細に示されます。 詳細を表示するには、タスクをクリックします。
 
 ![](assets/wkf_execution_5.png)
 
-次の2つのリストにあります。
+次の2つのリストで、
 
-* カウンターをクリックすると、適用されたフィルターに従ってアクティビティの総数が表示されます。リスト内の要素数が30未満の場合、カウンターはデフォルトで表示されます。
-* **[!UICONTROL Configure list]** このボタンでは、表示される情報の選択、列の順番の定義、リストの並べ替えを行うことができます。
-* フィルターを使用すると、必要な情報を見つけることができます。検索フィールドを使用して、ワークフローアクティビティ名の特定のテキストを検索します（例:"query"）とログ。
+* 適用したフィルターに従ったアクティビティの合計数を表示するには、カウンターをクリックします。 リスト内の要素数が30未満の場合は、デフォルトでカウンターが表示されます。
+* このボ **[!UICONTROL Configure list]** タンを使用すると、表示する情報の選択、列の順序の定義、およびリストの並べ替えを行うことができます。
+* フィルターを使用すると、必要な情報をすばやく見つけることができます。 検索フィールドを使用して、ワークフローアクティビティ名の特定のテキストを検索します(例："query")とログを参照してください。
 
-## Error management {#error-management}
+## エラー管理 {#error-management}
 
-エラーが発生すると、ワークフローが一時停止され、エラーが発生したときに実行されたアクティビティが実行されます。
+エラーが発生すると、ワークフローが一時停止され、エラーが発生したときに実行されていたアクティビティが赤く点滅します。
 
-ワークフローのステータスが赤くなり、エラーがログに記録されます。
+ワークフローのステータスが赤に変わり、エラーがログに記録されます。
 
-このワークフローを設定して、エラーなく一時停止して実行を続行することができます。To do this, go to the workflow properties via the ![](assets/edit_darkgrey-24px.png) button and, in the **[!UICONTROL Execution]** section, select the **Ignore** option in the **In case of error** field.
+ワークフローを設定して、一時停止せず、エラーなく実行を続けることができます。 これを行うには、ボタンを使用してワークフローのプロパティに移動し、セクションで ![](assets/edit_darkgrey-24px.png) 「エラーの場合 **[!UICONTROL Execution]** 」フィールドの「無視 **」オプションを選択します****** 。
 
-この場合、誤ったタスクが中止されます。このモードは、後で操作を再試行するよう設計されたワークフローに特に適しています（定期的なアクション）。
+この場合、エラーのあるタスクは中止されます。 このモードは、後で操作を再試行する（定期的なアクション）ように設計されたワークフローに特に適しています。
 
 >[!NOTE]
 >
->この設定は、アクティビティごとに個別に適用できます。To do this, select an activity and open it using the quick action ![](assets/edit_darkgrey-24px.png). Then select the error management mode in the **Execution options** tab. [アクティビティの実行オプション](../../automating/using/executing-a-workflow.md#activity-execution-options)を参照してください。
+>この設定は、各アクティビティに個別に適用できます。これを行うには、アクティビティを選択し、クイックアクションを使用して開きま ![](assets/edit_darkgrey-24px.png)す。 次に、「実行オプション」タブでエラー管理モ **ードを選択し** ます。 アクティビティ [実行オプションを参照してくださ](../../automating/using/executing-a-workflow.md#activity-execution-options)い。
 
-The **[!UICONTROL Execution]** section of the workflow properties also allows you to define a number of **[!UICONTROL Consecutive errors]** that are authorized before the workflow execution is automatically suspended. この数値に達しない限り、誤った要素は無視され、他のワークフローのブランチは通常どおり実行されます。この数に達すると、ワークフローが停止し、ワークフローのスーパーバイザーに自動的に通知が送信されます（電子メールおよびアプリ内通知）。[ワークフロープロパティ](../../automating/using/executing-a-workflow.md#workflow-properties) および [Adobe Campaign通知](../../administration/using/sending-internal-notifications.md)を参照してください。
+また、ワ **[!UICONTROL Execution]** ークフローのプロパティのセクションでは、ワークフローの実行が自動的に中断さ **[!UICONTROL Consecutive errors]** れる前に許可される多数の権限を定義することもできます。 この数に達しない限り、エラーのある要素は無視され、他のワークフローブランチは通常どおり実行されます。 この数に達すると、ワークフローが中断され、ワークフローの管理者に自動的に通知されます（電子メールおよびアプリ内通知）。 ワークフ [ローのプロパティ](../../automating/using/executing-a-workflow.md#workflow-properties) 、 [Adobe Campaign通知を参照してください](../../administration/using/sending-internal-notifications.md)。
 
-スーパーバイザーは、ワークフローの実行プロパティで定義することもできます。
+また、スーパーバイザは、ワークフローの実行プロパティで定義することもできます。
 
-## Workflow properties {#workflow-properties}
+## ワークフローのプロパティ {#workflow-properties}
 
-To modify a workflow's execution options, use the ![](assets/edit_darkgrey-24px.png) button to access the workflow properties and select the **[!UICONTROL Execution]** section.
+ワークフローの実行オプションを変更するには、ボタンを使用し ![](assets/edit_darkgrey-24px.png) てワークフローのプロパティにアクセスし、セクションを選択 **[!UICONTROL Execution]** します。
 
-**[!UICONTROL Default affinity]** このフィールドを使用すると、特定のマシン上でワークフローまたはワークフローアクティビティを強制的に実行できます。
+このフ **[!UICONTROL Default affinity]** ィールドを使用すると、特定のマシン上でワークフローまたはワークフローアクティビティを強制的に実行できます。
 
-**[!UICONTROL History in days]** フィールド内で、履歴を削除する必要がある時間を指定します。
+このフィー **[!UICONTROL History in days]** ルドで、履歴を削除する必要がある期間を指定します。
 
-You can choose to check the **[!UICONTROL Save SQL queries in the log]** and **[!UICONTROL Execute in the engine (do not use in production)]** options if necessary.
+必要に応じて、とのオプションをチ **[!UICONTROL Save SQL queries in the log]** ェックす **[!UICONTROL Execute in the engine (do not use in production)]** ることができます。
 
-Check the **[!UICONTROL Keep interim results]** option if you would like to be able to view the detail of transitions. 警告:このオプションを選択すると、ワークフローの実行が大幅に遅くなる可能性があります。
+遷移の詳 **[!UICONTROL Keep interim results]** 細を表示する場合は、このオプションを選択します。 警告：このオプションを選択すると、ワークフローの実行が大幅に遅くなる可能性があります。
 
-**[!UICONTROL Severity]** このフィールドでは、Adobe Campaignインスタンスでワークフローを実行するための優先順位を指定できます。重要なワークフローが最初に実行されます。
+このフ **[!UICONTROL Severity]** ィールドでは、Adobe Campaignインスタンスでワークフローを実行する際の優先順位を指定できます。 重要なワークフローが最初に実行されます。
 
-The **[!UICONTROL Supervisors]** field is where you can define the group of people to notify (email and in-app notification) if the workflow encounters an error. グループが定義されていない場合、誰も通知されません。For more on Adobe Campaign notifications, refer to [Adobe Campaign notifications](../../administration/using/sending-internal-notifications.md).
+このフ **[!UICONTROL Supervisors]** ィールドでは、ワークフローでエラーが発生した場合に通知するユーザーのグループ（電子メールおよびアプリ内通知）を定義できます。 グループが定義されていない場合、誰も通知されません。 Adobe Campaign通知について詳しくは、 [Adobe Campaign通知を参照してください](../../administration/using/sending-internal-notifications.md)。
 
-**[!UICONTROL In case of error]** このフィールドでは、アクティビティでエラーが発生した場合に実行するアクションを指定できます。これには、次の2つのオプションがあります。
+このフ **[!UICONTROL In case of error]** ィールドでは、アクティビティでエラーが発生した場合に実行するアクションを指定できます。 これには、次の2つのオプションがあります。
 
-* **プロセス**&#x200B;の休止:ワークフローが自動的に停止されます。The workflow status is then **Erroneous** and the color associated turns red. 問題が解決したら、ワークフローを再起動します。
-* **無視**:アクティビティは実行されず、その結果として（同じブランチ内の）アクティビティのいずれも実行されません。これは、繰り返し実行する場合に便利です。ブランチがアップストリームを配置している場合、これは次の実行日でトリガーする必要があります。
+* **プロセスの中断**:ワークフローは自動的に中断されます。 次に、ワークフローのステータスが「エ **ラー** 」になり、関連付けられた色が赤に変わります。 問題が解決したら、ワークフローを再起動します。
+* **無視**:アクティビティは実行されず、その後に続く（同じブランチ内の）アクティビティも実行されません。 これは、定期的なタスクに役立つ場合があります。 ブランチにスケジューラがアップストリームに配置されている場合は、次の実行日にこのトリガーがトリガーされます。
 
-   By selecting this option, you can also define a number of **[!UICONTROL Consecutive errors]** that are authorized:
+   このオプションを選択すると、次の権限を持つ複数のユーザーを定 **[!UICONTROL Consecutive errors]** 義することもできます。
 
-   * If the number specified is **[!UICONTROL 0]**, or as long as the number specified is not reached, activities that encounter errors are ignored. 他のワークフローのブランチは通常どおり実行されます。
-   * If the number specified is reached, the whole of the workflow is suspended and becomes **[!UICONTROL Erroneous]**. スーパーバイザーが定義されている場合、ユーザーは電子メールで自動的に通知されます。
+   * 指定した数がである場合、ま **[!UICONTROL 0]**&#x200B;たは指定した数に達しない限り、エラーが発生したアクティビティは無視されます。 他のワークフローブランチは、通常どおり実行されます。
+   * 指定された数に達すると、ワークフロー全体が中断され、になりま **[!UICONTROL Erroneous]**&#x200B;す。 スーパーバイザーが定義されている場合は、電子メールで自動的に通知されます。
 
 ![](assets/wkf_execution_6.png)
 
-## Activity properties {#activity-properties}
+## アクティビティのプロパティ {#activity-properties}
 
-### General properties of an activity {#general-properties-of-an-activity}
+### アクティビティの一般プロパティ {#general-properties-of-an-activity}
 
-Each activity has a **[!UICONTROL Properties]** tab. このタブでは、アクティビティの一般的なパラメーター、特にラベルとIDを変更できます。このタブの設定はオプションです。
+各アクティビティにはタブがあ **[!UICONTROL Properties]** ります。 このタブでは、アクティビティの一般的なパラメーター（特にラベルとID）を変更できます。 このタブの設定はオプションです。
 
-### Managing an activity's outbound transitions {#managing-an-activity-s-outbound-transitions}
+### アクティビティのアウトバウンド遷移の管理 {#managing-an-activity-s-outbound-transitions}
 
-デフォルトでは、一部のアクティビティにはアウトバウンドトランジションがありません。**[!UICONTROL Transitions]** タブまたはアクティビティ **[!UICONTROL Properties]** のタブから1つを追加して、同じワークフローの訪問者に他のプロセスを適用できます。
+デフォルトでは、一部のアクティビティにはアウトバウンドトランジションがありません。 同じワークフロー内の訪問者に対し **[!UICONTROL Transitions]** て他のプロセスを適用するには、タ **[!UICONTROL Properties]** ブまたはアクティビティのタブから1つを追加します。
 
-アクティビティによっては、次のタイプのアウトバウンドトランジションを追加できます。
+アクティビティに応じて、次の複数のタイプのアウトバウンド遷移を追加できます。
 
-* 標準トランジション:アクティビティによって計算される母集団
-* 母集団のないトランジション:このタイプのアウトバウンドトランジションを追加してワークフローを続行し、システム上の不要なスペースを使用しない母集団を含まないようにすることができます。
-* 拒否:訪問者が拒否されました。例えば、アクティビティの受信データが不正解または不完全だったため処理できないとします。
-* 補数:訪問者がアクティビティの実行後に残ります。例えば、セグメンテーションアクティビティが、受信母集団の割合のみを保存するように設定されている場合などです。
+* 標準的な移行：活動によって計算された人口
+* 母集団なしの移行：このタイプのアウトバウンド移行は、ワークフローを続行するために追加でき、システム上の不要な領域を消費しない母集団を含まないことができます。
+* 拒否：拒否された母集団 例えば、アクティビティの受信データが正しくないか不完全であったために処理できなかった場合などです。
+* 補数：アクティビティの実行後に残っている母集団。 例えば、セグメント化アクティビティが、受信訪問者の割合のみを保存するように設定されている場合、
 
-If applicable, specify a **[!UICONTROL Segment code]** for the activity's outbound transition. このセグメントコードを使用すると、ターゲット母集団からのサブセットの位置を特定し、後でメッセージパーソナライゼーションの目的で提供することができます。
+該当する場合は、アクティビティ **[!UICONTROL Segment code]** のアウトバウンド遷移のを指定します。 このセグメントコードを使用すると、ターゲット母集団のサブセットがどこから来ているかを識別でき、後でメッセージパーソナライゼーションの目的で機能する場合があります。
 
-### Activity execution options {#activity-execution-options}
+### アクティビティの実行オプション {#activity-execution-options}
 
-In the activity's properties screen, there is an **[!UICONTROL Advanced options]** tab that lets you define the activity's execution mode and behavior in case of errors.
+アクティビティのプロパティ画面には、アクティビティの実行 **[!UICONTROL Advanced options]** モードとエラー発生時の動作を定義できるタブがあります。
 
-To access these options, select an activity in a workflow, then open it using the ![](assets/edit_darkgrey-24px.png) button from the action bar.
+これらのオプションにアクセスするには、ワークフローでアクティビティを選択し、アクションバーのボ ![](assets/edit_darkgrey-24px.png) タンを使用して開きます。
 
 ![](assets/wkf_advanced_parameters.png)
 
-**[!UICONTROL Execution]** このフィールドでは、タスクの開始時に実行するアクションを定義できます。これには次の3つのオプションがあります。
+このフ **[!UICONTROL Execution]** ィールドでは、タスクの開始時に実行するアクションを定義できます。 これには3つのオプションがあります。
 
 * **標準**:アクティビティは通常どおり実行されます。
-* **Enable but do not execute**:アクティビティが一時停止され、その結果として後続のプロセスが実行されます。これは、タスクを開始したときに表示される場合に便利です。
-* **有効**&#x200B;にしない:アクティビティは実行されず、結果として、（同じブランチ内の）すべてのアクティビティが実行されません。
+* **有効にするが実行しない**:アクティビティは一時停止され、その結果、後に続くすべてのプロセスも同様です。 これは、タスクの開始時に表示する場合に役立ちます。
+* **有効にしない**:アクティビティは実行されず、その結果、（同じブランチ内の）後続のすべてのアクティビティも実行されません。
 
-**[!UICONTROL In case of error]** このフィールドでは、アクティビティでエラーが発生した場合に実行するアクションを指定できます。これには、次の2つのオプションがあります。
+このフ **[!UICONTROL In case of error]** ィールドでは、アクティビティでエラーが発生した場合に実行するアクションを指定できます。 これには、次の2つのオプションがあります。
 
-* **プロセス**&#x200B;の休止:ワークフローが自動的に停止されます。The workflow status is then **Erroneous** and the color associated turns red. 問題が解決したら、ワークフローを再起動します。
-* **無視**:アクティビティは実行されず、その結果として（同じブランチ内の）アクティビティのいずれも実行されません。これは、繰り返し実行する場合に便利です。ブランチがアップストリームを配置している場合、これは次の実行日でトリガーする必要があります。
+* **プロセスの中断**:ワークフローは自動的に中断されます。 次に、ワークフローのステータスが「エ **ラー** 」になり、関連付けられた色が赤に変わります。 問題が解決したら、ワークフローを再起動します。
+* **無視**:アクティビティは実行されず、その後に続く（同じブランチ内の）アクティビティも実行されません。 これは、定期的なタスクに役立つ場合があります。 ブランチにスケジューラがアップストリームに配置されている場合は、次の実行日にこのトリガーがトリガーされます。
 
-**[!UICONTROL Behavior]** このフィールドでは、非同期タスクを使用する場合に従う手順を定義できます。これには、次の2つのオプションがあります。
+このフ **[!UICONTROL Behavior]** ィールドでは、非同期タスクを使用する場合に実行する手順を定義できます。 これには、次の2つのオプションがあります。
 
-* **認証され**&#x200B;た複数のタスク:複数のタスクは、最初のタスクが完了していない場合でも同時に実行できます。
-* **現在のタスクは優先**&#x200B;されます。タスクが進行中の場合は、優先されます。タスクがまだ進行中である限り、他のタスクは実行されません。
+* **複数のタスクが許可されました**:最初のタスクが完了していない場合でも、複数のタスクを同時に実行できます。
+* **現在のタスクの優先度**:タスクが進行中の場合は、これが優先されます。 1つのタスクが進行中の限り、他のタスクは実行されません。
 
-**[!UICONTROL Max. execution duration]** このフィールドでは、"30s"や"1h"などの期間を指定できます。指定された期間の経過後にアクティビティが終了しない場合は、アラートがトリガーされます。これは、ワークフローの機能には影響しません。
+このフ **[!UICONTROL Max. execution duration]** ィールドでは、「30秒」や「1h」などの期間を指定できます。 指定した期間の経過後にアクティビティが完了しない場合は、アラートがトリガーされます。 これは、ワークフローの機能には影響しません。
 
-**[!UICONTROL Affinity]** このフィールドを使用すると、特定のマシン上でワークフローまたはワークフローアクティビティを強制的に実行できます。これを行うには、該当するワークフローまたはアクティビティに対して1つまたは複数の親和性を指定する必要があります。
+このフ **[!UICONTROL Affinity]** ィールドを使用すると、特定のマシン上でワークフローまたはワークフローアクティビティを強制的に実行できます。 これを行うには、対象のワークフローまたはアクティビティの1つまたは複数の親和性を指定する必要があります。
 
-**[!UICONTROL Time zone]** このフィールドでは、アクティビティのタイムゾーンを選択できます。Adobe Campaignでは、同じインスタンス上の複数の国の時間差を管理できます。適用された設定は、インスタンスの作成時に設定されます。
+このフ **[!UICONTROL Time zone]** ィールドでは、アクティビティのタイムゾーンを選択できます。 Adobe Campaignでは、同じインスタンスで複数の国の時間差を管理できます。 適用される設定は、インスタンスの作成時に設定されます。
 
-**「コメント」** フィールドは、メモを追加するための無料フィールドです。
+The **Comment** field is a free field that allows you to add a note.
