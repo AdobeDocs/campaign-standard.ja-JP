@@ -2,44 +2,44 @@
 title: 統合された顧客プロファイル
 seo-title: 統合された顧客プロファイル
 description: 統合された顧客プロファイル
-seo-description: '"1つのビューですべての顧客インタラクションを追跡する:Adobe Campaign統合顧客プロファイルは、顧客のライフサイクル全体で更新されます」。'
-page-status-flag: 常にアクティブ化されていない
-uuid: da2eb13a-2268-4a99-939c- c6388f5d34f3
-contentOwner: サウビート
-products: SG_ CAMPAIGN/STANDARD
-audience: オーディエンス
+seo-description: 「すべての顧客インタラクションを単一のビューで追跡します。Adobe Campaign統合顧客プロファイルは、顧客のライフサイクル全体を通じて更新されます。」
+page-status-flag: 非活性化の
+uuid: da2eb13a-2268-4a99-939c-c6388f5d34f3
+contentOwner: ソビア
+products: SG_CAMPAIGN/STANDARD
+audience: audiences
 content-type: 参照
 topic-tags: 管理プロファイル
-discoiquuid: d44656e8- e652-45fc- a05c-0d5ffe456ecb
-context-tags: marketingHistory， main
+discoiquuid: d44656e8-e652-45fc-a05c-0d5ffe456ecb
+context-tags: marketingHistory,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c9e33f51ab497b8bd111dfc307670f2fde5d804f
+source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
 
 ---
 
 
-# Integrated customer profile{#integrated-customer-profile}
+# 統合された顧客プロファイル{#integrated-customer-profile}
 
-統合顧客プロファイルは、データベースの各連絡先に対して使用できます。このマーケティング履歴では、関連するすべてのマーケティング情報を、クライアントと1つのビューに関連付けることができます。その後、すべてのデジタル行動、オンラインおよびオフラインのトランザクションに、一元的にアクセスできます。連絡先情報、受信した電子メール、トラッキングログ、購読および購読解除など
+統合顧客プロファイルは、データベースの各連絡先に対して使用できます。 このマーケティング履歴は、顧客との連絡に関するすべての関連マーケティング情報を1つのビューにまとめます。 その後、すべてのデジタル動作、オンラインおよびオフラインのトランザクションに一元的にアクセスできます。連絡先情報、受信した電子メール、トラッキングログ、購読と購読解除など
 
-統合顧客プロファイルにアクセスするには、手順は次のとおりです。
+統合顧客プロファイルにアクセスする手順は次のとおりです。
 
-1. From the Adobe Campaign home page, click the **[!UICONTROL Customer profiles]** card or the **Profiles** tab.
+1. Adobe Campaignのホームページで、カードまたは「プロファイル **[!UICONTROL Customer profiles]** 」タブをクリッ **クします** 。
 1. 連絡先を選択します。
 
    ![](assets/mkt_hist_access.png)
 
-You can then access the **Marketing history** of this contact.
+その後、この連絡先のマーケテ **ィング履歴** にアクセスできます。
 
 ![](assets/mkt_hist_view.png)
 
-このページでは、プロファイルの主要情報とイベントのリストが収集されます。
+プロファイルに関する主要な情報は、このページとイベントのリストに収集されます。
 
-リスト内のイベントをクリックして開きます。送信されたメッセージや、プロファイルがサブスクライブしているサービスにアクセスできます。
+リスト内のイベントをクリックして開きます。送信されたメッセージや、プロファイルが登録されているサービスにアクセスできます。
 
 >[!NOTE]
 >
->マーケティング履歴は、Adobe Campaign Standard APIを使用してアクセスすることもできます。For more on this, refer to the [dedicated documentation](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#interacting-with-marketing-history) .
+>マーケティング履歴は、Adobe Campaign Standard APIを使用してアクセスすることもできます。 For more on this, refer to the [dedicated documentation](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#interacting-with-marketing-history) .
 
