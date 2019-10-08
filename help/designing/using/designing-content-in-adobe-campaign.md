@@ -1,49 +1,49 @@
 ---
-title: Adobe Campaignでのコンテンツの設計
-seo-title: Adobe Campaignでのコンテンツの設計
-description: Adobe Campaignでのコンテンツの設計
-seo-description: Adobe Campaignを使用して、コンテンツ内で定義できるすべての要素について説明します。
-page-status-flag: 未活性化の
+title: Adobe Campaignでのコンテンツのデザイン
+seo-title: Adobe Campaignでのコンテンツのデザイン
+description: Adobe Campaignでのコンテンツのデザイン
+seo-description: Adobe Campaignでコンテンツに定義できるすべての要素について説明します。
+page-status-flag: 非活性化の
 uuid: 8f73407f-ab90-46bc-aeb6-bd87fcb0404c
-contentOwner: サウビア
+contentOwner: ソビア
 products: SG_CAMPAIGN/STANDARD
 audience: 設計
 content-type: 参照
-topic-tags: 内容に関する設計
+topic-tags: about-content-design
 discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
-internal: 〜の
-snippet: イー
+internal: n
+snippet: y
 translation-type: tm+mt
-source-git-commit: 195e8db45609b8f92f0ec60c987cf6eadfd463eb
+source-git-commit: 159c33639ab7b53558dac2ce183c3801c15ccb0f
 
 ---
 
 
 # キャンペーン電子メールデザイナ{#designing-content-in-adobe-campaign}
 
-Adobe Campaignで電子メールを作成したら、その内容を定義する必要があります。
+Adobe Campaignで電子メールを作成したら、そのコンテンツを定義する必要があります。
 
 <!--The Email Designer has more features than the Legacy Editor and is backward compatible.-->
 
-* 電子メールコンテンツの作成方法については、「クイックスタート」を参 [照してくださ](../../designing/using/quick-start.md)い。
-* 電子メールデザイナの概要については、「電子メールデザイナ [の使用」を参照してください](../../designing/using/overview.md)。
-* コンテンツの構築に関する詳細は、次のとおりです。
-   * 最初から、「最初から電子メ [ールをデザインする」を参照してくださ](../../designing/using/designing-from-scratch.md)い。
-   * 既存のコンテンツを使用する方法については、「既存の [コンテンツを使用して設計する](../../designing/using/using-existing-content.md)」を参照。
-   * 統合の使用については、「 [Adobe Campaign統合の設計」を参照してくださ](../../designing/using/using-integrations.md)い。
-* 個人用設定の詳細については、「個人用設定」を参照し [てくださ](../../designing/using/personalization.md)い。
+* 電子メールコンテンツの作成方法については、クイックスタートを参 [照してくださ](../../designing/using/quick-start.md)い。
+* 電子メールデザイナーの概要については、「電子メールデザ [イナーの使用](../../designing/using/overview.md)」を参照してください。
+* コンテンツの作成の詳細：
+   * 新規での電子メールのデザ [インを参照してください](../../designing/using/designing-from-scratch.md)。
+   * 既存のコンテンツを使用する場合は、既存のコンテ [ンツを使用したデザインを参照してくださ](../../designing/using/using-existing-content.md)い。
+   * 統合の使用については、「Adobe Campaign [統合を使用したデザイン」を参照してくださ](../../designing/using/using-integrations.md)い。
+* パーソナライゼーションについて詳しくは、「パーソナライゼーション」を参 [照してくださ](../../designing/using/personalization.md)い。
 
-電子メールを作成する場合は、定義済みテンプレートを使用するか、別のソースから既存のコンテンツを読み込むかを選択できます。 既存のコ [ンテンツの選択を参照](../../designing/using/using-existing-content.md#selecting-an-existing-content)。
+電子メールを作成する際には、定義済みのテンプレートを使用するか、別のソースから既存のコンテンツを読み込むかを選択できます。 詳しくは、 [既存のコンテンツの選択を参照してください](../../designing/using/using-existing-content.md#selecting-an-existing-content)。
 
-マーケティングキャンペーンの効率を高めるには、コンテンツをカスタマイズします。 詳細は、「個 [人用設定フィールドの挿入](../../designing/using/personalization.md#inserting-a-personalization-field) 」および「コンテ [ンツ·ブロックの追加」を参照してくださ](../../designing/using/personalization.md#adding-a-content-block)い。
+マーケティングキャンペーンの効率を高めるには、コンテンツをパーソナライズします。 詳しくは、パーソ [ナライゼーションフィールドの挿入](../../designing/using/personalization.md#inserting-a-personalization-field) およびコン [テンツブロックの追加を参照してくださ](../../designing/using/personalization.md#adding-a-content-block)い。
 
-また、各プロファイルに応じて異なる動的コンテンツを定義することもできます。 「電子メ [ールでの動的コンテンツの定義](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) 」および「ランデ [ィング·ページでの動的コンテンツの定義」を参照してください](../../channels/using/defining-dynamic-content-in-a-landing-page.md)。
+また、各プロファイルに応じて異なる動的コンテンツを定義することもできます。 詳しくは、電 [子メールでの動的コンテンツの定義](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) およびランデ [ィングページでの動的コンテンツの定義を参照してください](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)。
 
-リンクや画像を使用して、メッセージやランディング·ページの機能を強化します。 「リン [クの挿入」および](../../designing/using/links.md#inserting-a-link) 「イメージ [の挿入」を参照](../../designing/using/images.md#inserting-images)。
+リンクや画像を使用して、メッセージやランディングページの効果を高めます。 詳しくは、 [リンクの挿入と](../../designing/using/links.md#inserting-a-link) 、画像の挿 [入を参照してください](../../designing/using/images.md#inserting-images)。
 
-**関連トピック**:
+**関連トピック**：
 
 * [電子メールの作成](../../channels/using/creating-an-email.md)
-* [ランディング·ページの設計](../../channels/using/designing-a-landing-page.md)
+* [ランディングページのデザイン](../../channels/using/designing-a-landing-page.md)
 * [SMSメッセージの作成](../../channels/using/creating-an-sms-message.md)
 * [プッシュ通知の作成と送信](../../channels/using/preparing-and-sending-a-push-notification.md)
