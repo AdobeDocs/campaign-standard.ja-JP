@@ -14,7 +14,7 @@ discoiquuid: 71a4d5d5d5-fe2a-4ce5-b22b-a4736f7add83
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
+source-git-commit: 22675ef3452aadca4ddb290832159298ebb76474
 
 ---
 
@@ -61,6 +61,14 @@ Adobe Campaignでは、製品を買い物かごに追加したサイトユーザ
 1. さらに、クライアントが買い物かごを放棄したときにイベントがトリガーされるには、このイベントをAdobe Campaign Standard REST APIを使用して会社のWebサイトから送信する必要があります。 サイトの統 [合を参照してください](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website)。
 
 これらの手順がすべて実行されると、ユーザーは買い物かごに商品を注文せずにサイトを離れると、自動的に通知電子メールを受け取ります。
+
+## トランザクションメッセージング発行プロセス {#transactional-messaging-pub-process}
+
+以下の表に、トランザクションメッセージングの発行プロセスを示します。
+
+![](assets/message-center_pub-process.png)
+
+イベントの設定手順について詳しくは、トランザクションメッセージ [の設定を参照してくださ](../../administration/using/configuring-transactional-messaging.md)い。
 
 ## トランザクションメッセージングの制限 {#transactional-messaging-limitations}
 
