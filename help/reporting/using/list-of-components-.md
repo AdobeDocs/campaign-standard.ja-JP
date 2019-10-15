@@ -2,454 +2,466 @@
 title: 'コンポーネントのリスト '
 seo-title: 'コンポーネントのリスト '
 description: 'コンポーネントのリスト '
-seo-description: 動的レポートで使用できるすべてのコンポーネントのリストとその定義を確認します。
-page-status-flag: 常にアクティブ化されていない
-uuid: a2403806-8df4-4bb1- bac2-2689dc584ae0
-contentOwner: サウビート
-products: SG_ CAMPAIGN/STANDARD
+seo-description: 動的レポートで使用できるすべてのコンポーネントとその定義を以下に示します。
+page-status-flag: 非活性化の
+uuid: a2403806-8df4-4bb1-bac2-2689dc584ae0
+contentOwner: ソビア
+products: SG_CAMPAIGN/STANDARD
 audience: レポート
 content-type: 参照
-topic-tags: about- reporting
-discoiquuid: 17cf126a-7ce1-4e11- bb5e-2bdce01cfsed
+topic-tags: 報告に関する
+discoiquuid: 17cf126a-7ce1-4e11-bb5e-2bdce01cfded
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 20b4d5dfb297cac4cd69fe6f945b4399abd7f06a
+source-git-commit: d3fca4c85f418a6a50bbf12f730990ad4b33a4cc
 
 ---
 
 
-# List of components {#list-of-components}
+# コンポーネントのリスト {#list-of-components}
 
-To learn more on compatibility between dimensions and metrics, refer to this [table](https://docs.campaign.adobe.com/doc/standard/en/Technotes/dynamic_report_compatibility.pdf). If two components are not compatible, the cell will display the value **None**.
+ディメンションと指標の互換性の詳細については、次の表を参照してく [ださい](https://docs.campaign.adobe.com/doc/standard/en/Technotes/dynamic_report_compatibility.pdf)。 2つのコンポーネントが互換性がない場合、セルに「なし」の値が表示さ **れます**。
 
 ![](assets/dynamic_report_compatibility.png)
 
-## Dimensions {#dimensions}
+## サイズ {#dimensions}
 
-以下の表に、レポートで使用するディメンションとその定義を示します。
+次の表に、レポートで使用されるディメンションとその定義を示します。
 
 <table> 
  <thead> 
   <tr> 
-   <th> Dimension<br /> </th> 
-   <th> Definition<br /> </th> 
+   <th> ディメンション<br /> </th> 
+   <th> 定義<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Browser<br /> </td> 
-   <td> Browser from which the message was opened or clicked on.<br /> </td> 
+   <td> ブラウザー<br /> </td> 
+   <td> メッセージが開かれた、またはクリックされたブラウザー。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Campaign<br /> </td> 
-   <td> Label and ID of your campaign.<br /> </td> 
+   <td> キャンペーン<br /> </td> 
+   <td> キャンペーンのラベルとID。<br /> </td> 
   </tr> 
   <tr> 
-   <td> City<br /> </td> 
-   <td> City registered in the recipient's profile.<br /> </td> 
+   <td> 市区町村<br /> </td> 
+   <td> 受取人のプロファイルに登録された市区町村。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Country<br /> </td> 
-   <td> Country registered in the recipient's profile.<br /> </td> 
+   <td> 国<br /> </td> 
+   <td> 受信者のプロファイルに登録された国。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Delivery<br /> </td> 
+   <td> 配信<br /> </td> 
    <td> Label and ID of the delivery.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Device<br /> </td> 
-   <td> Device from which the email/SMS/push notification was opened/viewed/clicked on.<br /> </td> 
+   <td> デバイス<br /> </td> 
+   <td> 電子メール/SMS/プッシュ通知が開かれ、表示、またはクリックされたデバイス。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Gender<br /> </td> 
-   <td> 男性や女性などの受信者の性別。If the gender field is empty in the recipient's profile, the value will be none.<br /> </td> 
+   <td> エラーの理由<br /> </td> 
+   <td> 各配信にバウンスを引き起こしたエラーのタイプ（例：ユーザー不明、無効なドメイン、メールボックスがいっぱい）。<br /> </td> 
   </tr> 
   <tr> 
-   <td> In-App message actions<br /> </td> 
-   <td> Actions on the In-App message delivered, e.g. actions on button 1 or 2 or dismissals.<br /> </td> 
+   <td> 性別<br /> </td> 
+   <td> 男性や女性など、受信者の性別。 受信者のプロファイルで性別フィールドが空の場合、値はnoneになります。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Message type<br /> </td> 
-   <td> Channel used for the delivery, such as email, SMS, push notification or In-App.<br /> </td> 
+   <td> アプリ内メッセージのアクション<br /> </td> 
+   <td> アプリ内メッセージに対するアクション（ボタン1や2のアクション、却下など）が配信されました。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Mobile App name<br /> </td> 
-   <td> Name of the mobile application<br /> </td> 
+   <td> メッセージタイプ<br /> </td> 
+   <td> 電子メール、SMS、プッシュ通知、アプリ内通知など、配信に使用するチャネル。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Platform<br /> </td> 
-   <td> Platform of the device from which the message was opened/viewed/clicked on.<br /> </td> 
+   <td> モバイルアプリ名<br /> </td> 
+   <td> モバイルアプリケーションの名前<br /> </td> 
   </tr> 
   <tr> 
-   <td> Profiles<br /> </td> 
-   <td> Regroups out-of-the-box and custom profile fields created during the profile resource extension, for more on this refer to this <a href="../../developing/using/key-steps-to-add-a-resource.md">page</a> or this <a href="../../reporting/using/creating-a-custom-profile-dimension.md">example</a>.<br /> このディメンションのデータは、プロファイルフィールドにリンクされているカスタムリソースが発行されるとすぐに取得されます。<br /> </td> 
+   <td> プラットフォーム<br /> </td> 
+   <td> メッセージの開封、表示、クリック元のデバイスのプラットフォーム。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Push platform<br /> </td> 
-   <td> Platform of the device from which the push notification was opened, such as iOS or Android.<br /> </td> 
+   <td> プロファイル<br /> </td> 
+   <td> プロファイルリソースの拡張時に作成される、標準搭載されたプロファイルフィールドとカスタムプロファイルフィールドを再グループ化します。このページ <a href="../../developing/using/key-steps-to-add-a-resource.md">または</a> この例を参照 <a href="../../reporting/using/creating-a-custom-profile-dimension.md">します</a>。<br /> このディメンションのデータは、プロファイルフィールドにリンクされたカスタムリソースが発行されるとすぐに取得されます。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Recipient domain<br /> </td> 
-   <td> Domain used to open the email.<br /> </td> 
+   <td> プッシュプラットフォーム<br /> </td> 
+   <td> プッシュ通知が開かれたデバイスのプラットフォーム（iOS、Androidなど）。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Recurring delivery<br /> </td> 
-   <td> Label and ID of the recurring delivery.<br /> </td> 
+   <td> 受信者ドメイン<br /> </td> 
+   <td> 電子メールを開くために使用するドメイン。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Sender domain<br /> </td> 
-   <td> Domain used to send the email.<br /> </td> 
+   <td> 繰り返し配信<br /> </td> 
+   <td> 定期的な配信のラベルとID。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Sender IP<br /> </td> 
-   <td> IP used to send the email.<br /> </td> 
+   <td> 送信者ドメイン<br /> </td> 
+   <td> 電子メールの送信に使用するドメイン。<br /> </td> 
   </tr> 
   <tr> 
-   <td> State<br /> </td> 
-   <td> State registered in the recipient's profile.<br /> </td> 
+   <td> 送信者IP<br /> </td> 
+   <td> 電子メールの送信に使用するIP。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Tracking URL<br /> </td> 
-   <td> URL that was clicked on by the user from the message.<br /> </td> 
+   <td> 都道府県<br /> </td> 
+   <td> 受信者のプロファイルに州が登録されました。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Tracking URL category<br /> </td> 
-   <td> Category assigned to the tracking URL.<br /> </td> 
+   <td> トラッキング URL<br /> </td> 
+   <td> ユーザーがメッセージからクリックしたURL。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Tracking URL label<br /> </td> 
-   <td> Label given to the URL, such as mirror page, contact us or open.<br /> </td> 
+   <td> 追跡URLカテゴリ<br /> </td> 
+   <td> 追跡URLに割り当てられたカテゴリ。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Transactional delivery<br /> </td> 
-   <td> Label and ID of the transactional delivery.<br /> </td> 
+   <td> 追跡URLラベル<br /> </td> 
+   <td> URLに付与されるラベル（ミラーページなど）は、お問い合わせいただくか、開いてください。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Variant<br /> </td> 
-   <td> Variant of the email in case of A/B testing.<br /> </td> 
+   <td> トランザクション配信<br /> </td> 
+   <td> トランザクション配信のラベルとID。<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> バリアント<br /> </td> 
+   <td> A/Bテストの場合の電子メールのバリアントです。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Metrics {#metrics}
+## 指標 {#metrics}
 
-以下の表に、レポートで使用する指標のリストと、配信タイプに応じた定義を示します。
+以下の表に、配信タイプに応じたレポートで使用される指標とその定義のリストを示します。
 
-### Email and SMS metrics {#email-and-sms-metrics}
+### 電子メールおよびSMS指標 {#email-and-sms-metrics}
 
 <table> 
  <thead> 
   <tr> 
-   <th> Metric<br /> </th> 
-   <th> Definition<br /> </th> 
+   <th> 指標<br /> </th> 
+   <th> 定義<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Blacklisted<br /> </td> 
-   <td> Number of recipients who have declared an email as spam or junk.<br /> </td> 
+   <td> ブラックリスト<br /> </td> 
+   <td> 電子メールをスパムまたは迷惑メールとして宣言した受信者の数です。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Blacklisted rate<br /> </td> 
-   <td> Percentage of deliveries marked as blacklisted.<br /> </td> 
+   <td> ブラックリスト記載率<br /> </td> 
+   <td> ブラックリストに記載された配信の割合。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Bounces + Errors<br /> </td> 
-   <td> Total of errors cumulated during delivery and automatic return processing in relation to the total number of sent messages.<br /> </td> 
+   <td> バウンス+エラー<br /> </td> 
+   <td> 送信されたメッセージの合計数に関して、配信および自動返信処理中に累積されたエラーの合計。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Bounce + Error rate<br /> </td> 
-   <td> Percentage of emails that bounced compared to email sent.<br /> </td> 
+   <td> 直帰率+エラー率<br /> </td> 
+   <td> 電子メール送信と比較してバウンスした電子メールの割合。<br /> </td> 
   </tr> 
   <tr> 
    <td> クリック<br /> </td> 
-   <td> Number of times a content was clicked in a delivery.<br /> </td> 
+   <td> 配信でコンテンツがクリックされた回数。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Click through rate<br /> </td> 
-   <td> Percentage of clicks in a delivery.<br /> </td> 
+   <td> クリックスルー率<br /> </td> 
+   <td> 配信のクリックの割合。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Delivered<br /> </td> 
-   <td> Number of messages successfully sent, in relation to the total number of sent messages.<br /> </td> 
+   <td> 配信済み<br /> </td> 
+   <td> 送信されたメッセージの合計数に関連して正常に送信されたメッセージの数。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Delivered rate<br /> </td> 
-   <td> Percentage of messages successfully sent.<br /> </td> 
+   <td> 配送率<br /> </td> 
+   <td> 正常に送信されたメッセージの割合。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Hard bounce<br /> </td> 
-   <td> Total number of permanent errors, such as a wrong email address.<br /> </td> 
+   <td> ハードバウンス<br /> </td> 
+   <td> 誤った電子メールアドレスなどの恒久的なエラーの合計数。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Hard bounce rate<br /> </td> 
-   <td> Percentage of deliveries that failed due to permanent errors.<br /> </td> 
+   <td> 直帰率<br /> </td> 
+   <td> 永続的なエラーが原因で失敗した配信の割合。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Mirror page<br /> </td> 
-   <td> Number of recipients who clicked on the mirror page link.<br /> </td> 
+   <td> ミラーページ<br /> </td> 
+   <td> ミラーページのリンクをクリックした受信者の数。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Mirror page rate<br /> </td> 
-   <td> Percentage of clicks on the mirror page link compared to the total delivery messages.<br /> </td> 
+   <td> ミラーページレート<br /> </td> 
+   <td> ミラーページリンクのクリック数と、合計配信メッセージ数の割合。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Offer clicks<br /> </td> 
-   <td> Number of time an offer was clicked on in a delivery.<br /> </td> 
+   <td> オファークリック数<br /> </td> 
+   <td> 配信でオファーがクリックされた回数。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Offer click rate<br /> </td> 
-   <td> Percentage of clicks on an offer.<br /> </td> 
+   <td> オファークリック率<br /> </td> 
+   <td> オファーのクリックの割合。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Open<br /> </td> 
-   <td> Number of times a message was opened in a delivery.<br /> </td> 
+   <td> 開封数<br /> </td> 
+   <td> 配信でメッセージが開かれた回数。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Open rate<br /> </td> 
-   <td> Percentage of opened messages.<br /> </td> 
+   <td> オープン率<br /> </td> 
+   <td> 開封済みメッセージの割合。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Processed/sent<br /> </td> 
-   <td> Total number of sends for the delivery.<br /> </td> 
+   <td> 処理済み/送信済み<br /> </td> 
+   <td> 配信の送信の合計数。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Quarantine<br /> </td> 
-   <td> Number of messages that bounced and resulted in the quarantine of the address.<br /> </td> 
+   <td> 強制隔離<br /> </td> 
+   <td> アドレスの検疫につながった、バウンスしたメッセージの数です。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Quarantine rate<br /> </td> 
-   <td> Percentage of quarantines compared to sent messages.<br /> </td> 
+   <td> 検疫率<br /> </td> 
+   <td> 送信されたメッセージと比較した検疫の割合。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Rejected<br /> </td> 
-   <td> Number of messages classified as spam by the SMTP servers.<br /> </td> 
+   <td> 却下<br /> </td> 
+   <td> SMTPサーバーによってスパムとして分類されたメッセージの数です。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Rejected rate<br /> </td> 
-   <td> Percentage of messages marked as rejected.<br /> </td> 
+   <td> 却下率<br /> </td> 
+   <td> 拒否済みとマークされたメッセージの割合。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Soft bounce<br /> </td> 
-   <td> Total number of temporary errors, such as a full inbox.<br /> </td> 
+   <td> ソフトバウンス<br /> </td> 
+   <td> 完全な受信トレイなどの一時エラーの合計数です。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Soft bounce rate<br /> </td> 
-   <td> Percentage of deliveries that failed due to temporary reason.<br /> </td> 
+   <td> ソフトバウンス率<br /> </td> 
+   <td> 一時的な理由により失敗した配信の割合。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Unique clicks<br /> </td> 
-   <td> Number of recipients who clicked on a content in a delivery.<br /> </td> 
+   <td> 個別クリック数<br /> </td> 
+   <td> 配信内のコンテンツをクリックした受信者の数。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Unique opens<br /> </td> 
-   <td> Number of recipients who opened the delivery.<br /> </td> 
+   <td> 個別オープン<br /> </td> 
+   <td> 配信を開いた受信者の数。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Unsubscribe rate<br /> </td> 
-   <td> Percentage of unsubscriptions by recipient compared to the delivered messages.<br /> </td> 
+   <td> 登録解除率<br /> </td> 
+   <td> 配信されたメッセージと比較した、受信者による購読解除の割合。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Unsubscribed<br /> </td> 
-   <td> Number of clicks on the unsubscription link.<br /> </td> 
+   <td> 購読解除済み<br /> </td> 
+   <td> 購読解除リンクのクリック数。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Push notification metrics {#push-notification-metrics}
+### プッシュ通知指標 {#push-notification-metrics}
 
 <table> 
  <thead> 
   <tr> 
-   <th> Metric<br /> </th> 
-   <th> Definition<br /> </th> 
+   <th> 指標<br /> </th> 
+   <th> 定義<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Bounces + Errors<br /> </td> 
-   <td> Total of errors cumulated during delivery in relation to the total number of sent messages, e.g. errors from MCPNS or provider.<br /> </td> 
+   <td> バウンス+エラー<br /> </td> 
+   <td> MCPNSやプロバイダーからのエラーなど、送信されたメッセージの合計数に関連して配信中に累積されたエラーの合計。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Bounce + Error rate<br /> </td> 
-   <td> Percentage of push notifications that bounced compared to push notifications sent.<br /> </td> 
+   <td> 直帰率+エラー率<br /> </td> 
+   <td> 送信されたプッシュ通知と比較してバウンスしたプッシュ通知の割合。<br /> </td> 
   </tr> 
   <tr> 
    <td> クリック<br /> </td> 
-   <td> プッシュ通知がデバイスに配信され、ユーザーがクリックした回数。The user either wanted to view the notification, which will then be moved to Push Open tracking, or dismiss it.<br /> </td> 
+   <td> プッシュ通知がデバイスに配信され、ユーザーがクリックした回数。 ユーザーが通知を表示し、その通知がプッシュオープン追跡に移動されるか、通知を閉じる必要があった。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Click through rate<br /> </td> 
-   <td> Percentage of users who interacted with the push notification.<br /> </td> 
+   <td> クリックスルー率<br /> </td> 
+   <td> プッシュ通知に対して何らかの操作を行ったユーザーの割合。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Delivered<br /> </td> 
-   <td> Number of push notifications successfully sent, in relation to the total number of sent push notifications.<br /> </td> 
+   <td> 配信済み<br /> </td> 
+   <td> 送信されたプッシュ通知の合計数に関連して正常に送信されたプッシュ通知の数です。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Delivered rate<br /> </td> 
-   <td> Percentage of push notifications successfully sent.<br /> </td> 
+   <td> 配送率<br /> </td> 
+   <td> 正常に送信されたプッシュ通知の割合。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Impressions<br /> </td> 
-   <td> プッシュ通知がデバイスに配信され、通知センターに戻された回数。ほとんどの場合、インプレッション数は配信された数値に似ています。This ensures that the device got the message and relayed that information back to the server.<br /> </td> 
+   <td> インプレッション<br /> </td> 
+   <td> プッシュ通知がデバイスに配信され、通知センターに何も操作されなかった回数です。 ほとんどの場合、インプレッション数は配信された数と同じになります。 これにより、デバイスはメッセージを受け取り、その情報をサーバーにリレーできます。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Processed/sent<br /> </td> 
-   <td> Total number of push notifications sent.<br /> </td> 
+   <td> 処理済み/送信済み<br /> </td> 
+   <td> 送信されたプッシュ通知の合計数です。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Open<br /> </td> 
-   <td> デバイスに配信され、ユーザーがクリックしたプッシュ通知の合計数が、アプリを開くことになります。This is similar to the Push Click except a Push Open will not be triggered if the notification was dismissed.<br /> </td> 
+   <td> 開封数<br /> </td> 
+   <td> デバイスに配信され、ユーザーがアプリを開くためにクリックしたプッシュ通知の合計数です。 これはプッシュクリックに似ていますが、通知が閉じられた場合に「プッシュ開く」がトリガーされない点が異なります。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Open rate<br /> </td> 
-   <td> Percentage of opened push notifications.<br /> </td> 
+   <td> オープン率<br /> </td> 
+   <td> 開かれているプッシュ通知の割合。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Unique click<br /> </td> 
-   <td> Number of times a unique user interacts with the push notification, e.g. clicks on the notification or button.<br /> </td> 
+   <td> 個別クリック<br /> </td> 
+   <td> 一意のユーザーがプッシュ通知を操作する回数（例：通知またはボタンのクリック）。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Unique impressions<br /> </td> 
-   <td> Number of impressions by recipient.<br /> </td> 
+   <td> 個別インプレッション数<br /> </td> 
+   <td> 受信者別のインプレッション数。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Unique Opens<br /> </td> 
-   <td> Number of recipients who opened the delivery.<br /> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-### In-App metrics {#in-app-metrics}
-
-<table> 
- <thead> 
-  <tr> 
-   <th> Metric<br /> </th> 
-   <th> Definition<br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> Delivered<br /> </td> 
-   <td> Total number of In-App messages delivered to the device by the service provider.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> Impressions<br /> </td> 
-   <td> Total of In-App messages seen by recipients depending on whether trigger criterion was met.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> In-App clicks <br /> </td> 
-   <td> Total number of recipients who clicked on Button 1 or Button 2.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> In-App click through rate<br /> </td> 
-   <td> Percentage of users who clicked on Button 1 or Button 2 compared to users who saw the message.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> In-App dismissal<br /> </td> 
-   <td> Total number of messages that recipients dismissed either by clicking the close button or auto-dismiss.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> In-App dismissal rate<br /> </td> 
-   <td> Percentage of In-App messages that recipients dismissed.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> Processed/sent<br /> </td> 
-   <td> Total number of In-App messages sent from Adobe Campaign as part of the delivery sent process.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> Unique impressions<br /> </td> 
-   <td> Number of impressions by a unique recipient.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> Unique In-App clicks<br /> </td> 
-   <td> Number of times recipients clicked on Button 1 or Button 2.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> Unique In-App dismissals<br /> </td> 
-   <td> Number of time recipients dismissed an In-App message.<br /> </td> 
+   <td> 個別オープン<br /> </td> 
+   <td> 配信を開いた受信者の数。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Segments {#segments}
-
-以下の表に、レポートで使用するセグメントとその定義を示します。
+### アプリ内指標 {#in-app-metrics}
 
 <table> 
  <thead> 
   <tr> 
-   <th> Segment<br /> </th> 
-   <th> Definition<br /> </th> 
+   <th> 指標<br /> </th> 
+   <th> 定義<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Age: Boomers 1<br /> </td> 
-   <td> Recipients born from 1946 to 1954.<br /> </td> 
+   <td> 配信済み<br /> </td> 
+   <td> サービスプロバイダーがデバイスに配信したアプリ内メッセージの合計数です。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Age: Boomers 2<br /> </td> 
-   <td> Recipients born from 1955 to 1965.<br /> </td> 
+   <td> インプレッション<br /> </td> 
+   <td> トリガー条件が満たされたかどうかに応じて、受信者が閲覧したアプリ内メッセージの合計です。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Age: From 18 to 25<br /> </td> 
-   <td> Recipients from 18 to 25 years old.<br /> </td> 
+   <td> アプリ内クリック数 <br /> </td> 
+   <td> ボタン1またはボタン2をクリックした受信者の合計数です。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Age: From 26 to 30<br /> </td> 
-   <td> Recipients from 26 to 30 years old.<br /> </td> 
+   <td> アプリ内クリックスルー率<br /> </td> 
+   <td> メッセージを表示したユーザーに対する、ボタン1またはボタン2をクリックしたユーザーの割合。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Age: From 31 to 40<br /> </td> 
-   <td> Recipients from 31 to 40 years old.<br /> </td> 
+   <td> アプリ内却下<br /> </td> 
+   <td> 受信者が閉じるボタンまたは自動的に閉じることで閉じたメッセージの総数です。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Age: From 41 to 50<br /> </td> 
-   <td> Recipients from 41 to 50 years old.<br /> </td> 
+   <td> アプリ内解雇率<br /> </td> 
+   <td> 受信者が却下したアプリ内メッセージの割合。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Age: Generation X<br /> </td> 
-   <td> Recipients born from 1966 to 1976.<br /> </td> 
+   <td> 処理済み/送信済み<br /> </td> 
+   <td> 配信送信プロセスの一環としてAdobe Campaignから送信されたアプリ内メッセージの合計数です。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Age: Generation Y (Millennials)<br /> </td> 
-   <td> Recipients born from 1977 to 1994.<br /> </td> 
+   <td> 個別インプレッション数<br /> </td> 
+   <td> 一意の受信者によるインプレッション数。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Age: Generation Z<br /> </td> 
-   <td> Recipients born from 1995 to today.<br /> </td> 
+   <td> 個別アプリ内クリック数<br /> </td> 
+   <td> 受信者がボタン1またはボタン2をクリックした回数です。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Age: Greater than 50<br /> </td> 
-   <td> Recipients whose age is greater than 50.<br /> </td> 
+   <td> 個別のアプリ内投稿の却下<br /> </td> 
+   <td> 受信者がアプリ内メッセージを閉じた回数です。<br /> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+## セグメント {#segments}
+
+>[!NOTE]
+>
+>デフォルトでは、レポート **[!UICONTROL Exclude proof]** をフィルターするためにセグメントが既に選択されていますが、必要に応じて変更できます。
+
+次の表に、レポートで使用されるセグメントとその定義のリストを示します。
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> セグメント<br /> </th> 
+   <th> 定義<br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> 年齢：ブーマー1<br /> </td> 
+   <td> 1946年から1954年に生まれた。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Age: Less than 25<br /> </td> 
-   <td> Recipients whose age is less than 25.<br /> </td> 
+   <td> 年齢：ブーマー2<br /> </td> 
+   <td> 1955年から1965年に生まれた。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Age: Less than 30<br /> </td> 
-   <td> Recipients whose age is less than 30.<br /> </td> 
+   <td> 年齢：18～25<br /> </td> 
+   <td> 18歳から25歳まで。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Age: Less than 40<br /> </td> 
-   <td> Recipients whose age is less than 40.<br /> </td> 
+   <td> 年齢：26～30<br /> </td> 
+   <td> 26歳から30歳まで受け取ります。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Age: Less than 50<br /> </td> 
-   <td> Recipients whose age is less than 50.<br /> </td> 
+   <td> 年齢：31～40<br /> </td> 
+   <td> 31歳から40歳まで受け取ります。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Age: Silent Generation<br /> </td> 
-   <td> Recipients born in 1945 or before.<br /> </td> 
+   <td> 年齢：41～50<br /> </td> 
+   <td> 41歳から50歳まで。<br /> </td> 
   </tr> 
   <tr> 
-   <td> All visits<br /> </td> 
-   <td> Every recipient<br /> </td> 
+   <td> 年齢：世代X<br /> </td> 
+   <td> 1966年から1976年まで生まれた。<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> 年齢：世代Y（ミレニアル世代）<br /> </td> 
+   <td> 受給者は1977年から1994年まで生まれました。<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> 年齢：世代Z<br /> </td> 
+   <td> 1995年から今日まで生まれた受給者。<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> 年齢：50より大きい<br /> </td> 
+   <td> 年齢が50歳を超える受信者。<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> 年齢：25未満<br /> </td> 
+   <td> 年齢が25歳未満の受信者。<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> 年齢：30未満<br /> </td> 
+   <td> 年齢が30才未満の受信者。<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> 年齢：40未満<br /> </td> 
+   <td> 年齢が40才未満の受信者。<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> 年齢：50未満<br /> </td> 
+   <td> 年齢が50才未満の受信者。<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> 年齢：無声生成<br /> </td> 
+   <td> 1945年以前に生まれた。<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> すべての訪問<br /> </td> 
+   <td> すべての受信者<br /> </td> 
+  </tr> 
+    <tr> 
+   <td> 校正の除外<br /> </td> 
+   <td> レポートから校正を除外する（Campaign 19.4リリース以降のみ）<br /> </td> 
   </tr> 
  </tbody> 
 </table>
