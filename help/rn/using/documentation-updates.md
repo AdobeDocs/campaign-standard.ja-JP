@@ -14,7 +14,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 57a0d20697461fb87b61c38dfd1779fadd565888
+source-git-commit: 6650d44a79b9f31d860ed60e3683bc7c4da0c020
 
 ---
 
@@ -26,6 +26,24 @@ Adobe Campaign Standardドキュメントの最新の更新について説明し
 このページには、Adobe Campaign Standardの各リリースに関するすべての新機能とドキュメントの更新の一覧が記載されています。
 
 また、『Adobe Campaignリリースノート』を参照する [こともできます](../../rn/using/release-notes.md)。
+
+## リリース19.4 - 2019年10月 {#release-19-4---october-2019}
+
+### リリースに含まれる新機能 {#new-capabilities-included-in-the-release-20}
+
+カリフォルニア消費者プライバシー法(CCPA) — 詳 [細情報](https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#ccpa)
+
+Microsoft Dynamics 365統合(GA) — 詳細情報を [表示](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
+
+### リリースに伴うその他のドキュメントの更新 {#other-documentation-updates-coming-with-the-release-18}
+
+Campaign StandardおよびClassicのエラーメッセージのリストが更新されました。 [詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+
+GDPR入門ガイドが改善され、強化されました。 GDPRやCCPAなどのプライバシー管理に関するドキュメントが提供されます。 [詳細を表示](https://helpx-internal.corp.adobe.com/content/help/en/campaign/kb/campaign-privacy.html)
+
+トランザクションメッセージング発行プロセスを示す新しいグラフが追加されました。 [詳細を表示](../../channels/using/about-transactional-messaging.md#transactional-messaging-pub-process)
+
+『配信のベストプラクティス集』ガイドが更新されました。 [詳細を表示](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
 
 ## ドキュメントの更新 — 2019年10月 {#doc-updates-october-2019}
 
