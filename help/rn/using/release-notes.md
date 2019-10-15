@@ -14,7 +14,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b43f43f300f14c9abe1cc471a74586e19841b6e1
+source-git-commit: 637cddaa2fb29554f7e6c8b6ae2e4076515488de
 
 ---
 
@@ -52,13 +52,14 @@ source-git-commit: b43f43f300f14c9abe1cc471a74586e19841b6e1
     <li><p>プライバシーリクエストを作成する際に、規制のタイプ（GDPRまたはCCPA）がプライバシーコアサービスに追加されました。 このメソッドは、すべてのアクセス要求と削除要求に使用する必要があるメソッドです。 アクセスおよび削除のリクエストに対するCampaign APIとインターフェイスの使用は廃止されました。 ただし、19.4でこれらのメソッドを引き続き使用する必要がある場合は、CampaignのインターフェイスとAPIに規制タイプが追加され、必須であることに注意してください。 インタフェースのデフォルト値はGDPRに設定される。 APIの場合は、ペイロードにこのフィールドを含める必要があります。 See the <a href="https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#privacy-management">API documentation</a>.</p></li>
     <li>Adobe Campaignユーザーが <strong>個人情報の販売をオプトアウトしたかどうかを追跡できるように、プロファイルリソースに「</strong> CCPAオプトアウト」フィールドが追加されました。 <a href="https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#ccpa">詳細情報</a></li>
   </ul>
+    <p>ハウツービ <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">デオを参照</a>。</p>
 </td> 
   </tr> 
   <tr> 
    <td> Microsoft Dynamics 365統合(GA)<br /> </td> 
    <td> 
     <p>Adobe Campaign StandardとMicrosoft Dynamics 365の統合が可能になりました。 Dynamics 365からCampaignに連絡先とカスタムエンティティレコードを転送し、CampaignからDynamics 365に電子メールイベントデータを取得して、販売/マーケティングの連携を改善できます。</p>
-    <p>この統合を設定するに <a href="https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html">は、詳細なドキュメント</a> を参照してください。</p>
+    <p>詳細なドキュメ <a href="https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html">ントを参照し</a> 、この統合を設定してハウツ <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/integrating/microsoft-dynamics365-connector/introduction.html">ービデオを確認します</a>。</p>
   </td>
   </tr> 
  </tbody> 
