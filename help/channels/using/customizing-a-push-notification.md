@@ -3,141 +3,165 @@ title: プッシュ通知のカスタマイズ
 seo-title: プッシュ通知のカスタマイズ
 description: プッシュ通知のカスタマイズ
 seo-description: 様々な高度なオプションを使用してプッシュ通知をカスタマイズする方法について説明します。
-page-status-flag: 常にアクティブ化されていない
-uuid: 8cf74CAD- b1ba-4aad-83bd-7289cb22d5f4
-contentOwner: サウビート
-products: SG_ CAMPAIGN/STANDARD
+page-status-flag: 非活性化の
+uuid: 8cf74cad-b1ba-4aad-83bd-7289cb22d5f4
+contentOwner: ソビア
+products: SG_CAMPAIGN/STANDARD
 audience: チャネル
 content-type: 参照
 topic-tags: プッシュ通知
-discoiquuid: dc944c85-2059-46df- b396-676fe3617dd1
-context-tags: delivery， mobileAppContent， back
+discoiquuid: dc944c85-2059-46df-b396-676fe3617dd1
+context-tags: delivery,mobileAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b0cf437ec97153b53bd4502171b24286abb25731
+source-git-commit: 12134f388c6406b1b7c5821a1ae49c2332ae33cb
 
 ---
 
 
-# Customizing a push notification{#customizing-a-push-notification}
+# プッシュ通知のカスタマイズ{#customizing-a-push-notification}
 
-Adobe Campaignでは、プッシュ通知を微調整するために、プッシュ通知を設計する際の高度なオプションのセットにアクセスできます。
+プッシュ通知を微調整するために、Adobe Campaignでは、プッシュ通知のデザイン中に一連の高度なオプションにアクセスできます。
 
-As an expert user, to configure mobile applications in Adobe Campaign, refer to the following technote [Understanding Campaign Standard Push Notifications Payload Structure](https://helpx.adobe.com/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html).
+エキスパートユーザーがAdobe Campaignでモバイルアプリケーションを設定するには、次のテクニカルノート「Understanding Campaign Standard Push Notifications Payload Structure [」を参照してください](https://helpx.adobe.com/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html)。
 
 ![](assets/push_notif_advanced.png)
 
-**関連コンテンツ:**
+**関連コンテンツ：**
 
 * [プッシュ通知レポート](../../reporting/using/push-notification-report.md)
 * [ワークフロー内でのプッシュ通知の送信](../../automating/using/push-notification-delivery.md)
 
-## Play a sound {#play-a-sound}
+## サウンドを再生 {#play-a-sound}
 
-The function **[!UICONTROL Play a sound]** gives the application the ability to play sounds on your device with the delivery of a push notification, when the app isn't running.
+この機能を使 **[!UICONTROL Play a sound]** 用すると、アプリケーションが実行されていない場合に、プッシュ通知を配信して、デバイス上でサウンドを再生できます。
 
-サウンドはプッシュ通知のユーザーに通知され、より視認性を高めることができます。モバイルアプリにサウンドを含めるには:
+サウンドは、プッシュ通知をユーザーに通知し、ユーザーの視認性を高めます。 モバイルアプリにサウンドを含めるには：
 
-1. Open the push notification and access the **[!UICONTROL Advanced options]** section.
-1. **[!UICONTROL Play a sound]** このフィールドに、通知の受信時にモバイルデバイスで再生される、拡張子なしのサウンドファイルのファイル名を入力します。
+1. プッシュ通知を開き、セクションにアクセス **[!UICONTROL Advanced options]** します。
+1. このフィ **[!UICONTROL Play a sound]** ールドに、通知を受信したときにモバイルデバイスが再生するサウンドファイルのファイル名（拡張子なし）を入力します。
 
-   For more information on supported media formats, refer to [Apple](https://support.apple.com/kb/PH16864?locale=en_US) and [Android](https://developer.android.com/guide/topics/media/media-formats.html) documentations.
+   サポートされるメディア形式について詳しくは、 [Apple](https://support.apple.com/kb/PH16864?locale=en_US) / [Androidのドキュメントを参照してください](https://developer.android.com/guide/topics/media/media-formats.html) 。
 
    ![](assets/push_notif_advanced_7.png)
 
-1. ファイルがモバイルアプリケーションのパッケージで定義されている場合、サウンドファイルは通知を配信するときに再生されます。それ以外の場合は、デバイスのデフォルトのサウンドが再生されます。
+1. ファイルがモバイルアプリケーションのパッケージで定義されている場合、サウンドファイルは通知の配信時に再生されます。 それ以外の場合は、デバイスのデフォルトのサウンドが再生されます。
 
-その後、ユーザーは、スマートフォンがミュートされていない場合にのみプッシュ通知とサウンドを受け取ります。
+ユーザーは、携帯電話がミュートされていない場合にのみ、プッシュ通知とサウンドを受信します。
 
-## Refresh the badge value {#refresh-the-badge-value}
+## バッジの値を更新 {#refresh-the-badge-value}
 
-バッジは、新しい未読情報の数がアプリアイコンに直接表示されます。ユーザーがアプリケーションから新しいコンテンツを開いたり読んだりすると、バッジの値はすぐに消えます。
+バッジは、新しい未読情報の数をアプリアイコンに直接表示するために使用されます。 ユーザーがアプリケーションから新しいコンテンツを開くか読むと、バッジの値がすぐに消えます。
 
-デバイスで通知を受信すると、関連アプリのバッジ値を更新または追加できます。サーバー側からバッジ値を送信するには:
+デバイスで通知を受け取ると、その通知を更新したり、関連アプリのバッジ値を追加したりできます。 サーバー側からバッジ値を送信するには：
 
-1. Open the push notification and access the **[!UICONTROL Advanced options]** section.
-1. バッジの値は整数である必要があり、更新する方法は異なります。
+1. プッシュ通知を開き、セクションにアクセス **[!UICONTROL Advanced options]** します。
+1. バッジの値は整数である必要があり、異なる方法で更新できます。
 
-   * To refresh the badge, enter 0 in the **[!UICONTROL Value of the badge]** field. これにより、アプリケーションアイコンからバッジが削除されます。
-   * To add a badge value, enter any number in the **[!UICONTROL Value of the badge]** field. ユーザーがプッシュ通知を受け取ると、この番号は自動的にバッジに表示されます。
-   * フィールドが空の場合、または整数を含まない場合、バッジの値は変更されません。
-   Here, we entered 1 in the **[!UICONTROL Value of the badge]** field to let the users know that they have a new information in their application.
+   * バッジを更新するには、フィールドに「0」と入力 **[!UICONTROL Value of the badge]** します。 これにより、アプリケーションアイコンからバッジが削除されます。
+   * バッジの値を追加するには、フィールドに任意の数を入力 **[!UICONTROL Value of the badge]** します。 この番号は、ユーザーがプッシュ通知を受け取るとすぐにバッジに自動的に表示されます。
+   * フィールドが空であるか、整数を含まない場合、バッジの値は変更されません。
+   ここでは、ユーザーがアプリケーシ **[!UICONTROL Value of the badge]** ョンに新しい情報を持っていることをユーザーに知らせるために、フィールドに「1」と入力します。
 
    ![](assets/push_notif_advanced_8.png)
 
-1. メッセージを送信すると、ユーザーはプッシュ通知を受け取り、そのアプリケーションに新しいバッジ値が自動的に表示されます。
+1. メッセージを送信した後、ユーザーはプッシュ通知を受け取り、そのユーザーのアプリケーションは新しいバッジ値を自動的に表示します。
 
    ![](assets/push_notif_advanced_1.png)
 
-## Add a deeplink {#add-a-deeplink}
+## ディープリンクの追加 {#add-a-deeplink}
 
-ディープリンクを使用すると、（Webブラウザーページを開くのではなく）アプリケーション内のコンテンツに直接ユーザーを移動できます。
+ディープリンクを使用すると、Webブラウザーページを開く代わりに、アプリケーション内のコンテンツにユーザーを直接移動できます。
 
-ディープリンクには、カスタムアプリ内エクスペリエンスのパーソナライゼーションデータを含めることができます。例えば、受信者の名は、アプリケーションが指定するページ上で自動的に入力されます。
+ディープリンクには、カスタムのアプリ内エクスペリエンスのパーソナライゼーションデータを含めることができます。 例えば、受信者の名は、アプリが送信するページに自動的に入力されます。
 
-プッシュ通知にディープリンクを追加するには:
+プッシュ通知にディープリンクを追加するには：
 
-1. Open the push notification and access the **[!UICONTROL Advanced options]** section.
-1. **[!UICONTROL Add a deeplink]** フィールドにリンクを入力します。
+1. プッシュ通知を開き、セクションにアクセス **[!UICONTROL Advanced options]** します。
+1. フィールドにリンクを入力 **[!UICONTROL Add a deeplink]** します。
 
    ![](assets/push_notif_advanced_3.png)
 
-1. メッセージを送信した後、ユーザーはプッシュ通知を受け取り、通知を操作してアプリ内の特定のページにアクセスします（例えば、アクションボタンをタップまたはクリックする）。
+1. メッセージを送信した後、ユーザーはプッシュ通知を受け取り、通知を操作して(例：「誘い文句（CTA：コールトゥアクション）」ボタンをタップまたはクリックする)、アプリ内の特定のページにアクセスします。
 
    ![](assets/push_notif_advanced_4.png)
 
-## Define an action {#define-an-action}
+## アクションの定義 {#define-an-action}
 
-モバイルアプリケーションで使用できる場合はカテゴリIDを追加し、アクションボタンを表示することができます。これらの通知を使用すると、アプリケーション内で開かずに通知に応答して、通知に応じて様々なタスクを実行できます。
+モバイルアプリケーションで使用できる場合はカテゴリIDを追加し、アクションボタンを表示できます。 これらの通知により、ユーザーは通知に応答して、アプリケーションを開いたり、アプリケーション内を移動したりすることなく、様々なタスクをより迅速に実行できます。
 
-ユーザーの電話に表示されるダイアログには、続行する決断が必要です。ユーザーがいずれかのアクションを選択すると、関連付けられたタスクを実行できるように、アプリケーションに通知されます。
+ユーザーの電話に表示されるダイアログでは、続行するかどうかを決定する必要があります。 ユーザーがアクションの1つを選択すると、関連するタスクを実行できるように、アプリケーションに通知されます。
 
-プッシュ通知にカテゴリを追加するには:
+プッシュ通知にカテゴリを追加するには：
 
-1. Open the push notification and access the **[!UICONTROL Advanced options]** section.
-1. Enter a predefined category name in the **[!UICONTROL Category]** field to display actionable buttons when the push notification is received.
+1. プッシュ通知を開き、セクションにアクセス **[!UICONTROL Advanced options]** します。
+1. プッシュ通知を受け取ったときに実行可能なボタンを表示す **[!UICONTROL Category]** るには、定義済みのカテゴリ名をフィールドに入力します。
 
-   モバイルアプリケーション開発者は、アプリケーションでカテゴリIDとボタンの予期される動作を定義する必要があります。For more on this, refer to the [Apple Developer documentation](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/SupportingNotificationsinYourApp.html) (**Configuring Categories and Actionable Notifications** section) or the [Android Developer documentation](https://developer.android.com/guide/topics/ui/notifiers/notifications.html).
+   モバイルアプリケーション開発者は、カテゴリIDと、アプリケーションでのボタンの期待される動作を定義する必要があります。 詳しくは、 [Apple Developerドキュメント](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/SupportingNotificationsinYourApp.html) (「カテゴリとアクショ&#x200B;**ン可能な通知の設定」の節** )または [Android Developerドキュメントを参照して](https://developer.android.com/guide/topics/ui/notifiers/notifications.html)ください。
 
    ![](assets/push_notif_advanced_9.png)
 
-1. プッシュ通知を送信すると、ユーザーはそれを受け取り、設定済みの実行可能なボタンでアクションを実行する必要があります。
+1. プッシュ通知を送信した後、ユーザーはプッシュ通知を受け取り、以前に設定したアクション可能なボタンを使用してアクションを実行する必要があります。
 
    ![](assets/push_notif_actionable_buttons.png)
 
-ユーザーのアクションに応じて、関連付けられたタスクを実行できるように、アプリケーションに通知が送信されます。
+ユーザーのアクションに応じて、関連するタスクを実行できるように、アプリケーションに通知されます。
 
-## Add custom fields {#add-custom-fields}
+## 有効期限の追加 {#add-expiration-date}
 
-カスタムフィールドを使用すると、ペイロードでカスタムデータをキー値ペアの形式で渡すことができます。このオプションを使用して、定義済みのキー以外のデータをアプリケーションに渡すことができます。
+>[!NOTE]
+>
+>これらの変更は、Campaign Standard 19.4リリース以降にのみ適用されます。
 
-そのためには、次の手順を実行します。
+有効期限をプッシュ通知に設定すると、Apple([APNS](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/sending_notification_requests_to_apns))またはAndroid([FCM](https://firebase.google.com/docs/cloud-messaging/concept-options))がメッセージを送信しなくなる特定の有効期限を設定できます。
 
-1. Open the push notification and access the **[!UICONTROL Advanced options]** section.
-1. **[!UICONTROL Custom fields]** カテゴリで、ボタンを **[!UICONTROL Add an element]** クリックします。
-1. Enter your **[!UICONTROL Keys]** then the **[!UICONTROL Values]** associated with each key.
+プッシュ通知に有効期限を追加するには：
+
+1. Check the **[!UICONTROL Expire message]** option.
+
+   >[!NOTE]
+   >
+   >このオプションを **[!UICONTROL Expire message]** 選択すると、期間が自動的に0に設定されます。 値を変更しない場合、APNSとFCMの両方がメッセージの送信を直ちに試みます。 失敗した場合、メッセージは再送されません。
+
+1. フィールド **[!UICONTROL Duration]** で、プッシュ通知の有効性を選択します。
+
+   ![](assets/push_expiration.png)
+
+1. プッシュ通知を送信した後、電話がオンになっていない、または信号がないためにユーザーがすぐに受信しなかった場合でも、プッシュは有効期限の時間帯内に送信されます。
+
+プッシュ通知は、有効期限より前に送信されていない場合は破棄されます。
+
+## カスタムフィールドの追加 {#add-custom-fields}
+
+カスタムフィールドを使用すると、キーと値のペアの形式でペイロードにカスタムデータを渡すことができます。 このオプションは、事前定義されたキー以外の追加のデータをアプリケーションに渡す場合に使用できます。
+
+これをおこなうには：
+
+1. プッシュ通知を開き、セクションにアクセス **[!UICONTROL Advanced options]** します。
+1. カテゴリ内 **[!UICONTROL Custom fields]** で、ボタンをクリック **[!UICONTROL Add an element]** します。
+1. 各キーに関 **[!UICONTROL Keys]** 連付けら **[!UICONTROL Values]** れたを入力します。
 
    ![](assets/push_notif_advanced_10.png)
 
-1. カスタムフィールドの処理と目的は、すべてモバイルアプリです。下のプッシュ通知では、アプリがカスタムフィールドを使用してプッシュ通知のボタンラベルを表示していました。
+1. カスタムフィールドの処理と目的は、モバイルアプリによって完全に決まります。 以下のプッシュ通知では、アプリがカスタムフィールドを使用して、プッシュ通知のボタンラベルを表示しています。
 
    ![](assets/push_notif_actionable_buttons.png)
 
-## Add rich media content {#add-rich-media-content}
+## リッチメディアコンテンツの追加 {#add-rich-media-content}
 
-リッチメディアコンテンツを使用すると、ユーザーのエンゲージメントを向上させることができ、ユーザーがプッシュ通知を開くことができます。
+リッチメディアコンテンツを使用すると、ユーザーエンゲージメントが向上し、ユーザーはプッシュ通知を開く傾向が強くなります。
 
-通知自体に再生する画像、GIF、オーディオまたはビデオファイルを含めることができます。アプリケーションのユーザーはアプリケーションを開く必要がありません。
+通知自体に再生または表示する画像、gif、オーディオまたはビデオファイルを含めることができます。 アプリを表示するためにアプリを開く必要はありません。
 
-プッシュ通知にリッチメディアを含めるには:
+プッシュ通知にリッチメディアを含めるには：
 
-1. Open the push notification and access the **[!UICONTROL Advanced options]** section.
-1. Enter the URL of your file in the **[!UICONTROL Rich media content URL]** field for each format: iOS and Android.
+1. プッシュ通知を開き、セクションにアクセス **[!UICONTROL Advanced options]** します。
+1. 各形式のフィールドにファイルのURL **[!UICONTROL Rich media content URL]** を入力します。iOSとAndroid。
 
-   iOS10以降では、画像、GIF、オーディオ、ビデオファイルを挿入できます。以前のiOSバージョンでは、リッチコンテンツなしでプッシュ通知が表示されます。For detailed steps on how to display an image from an Adobe Campaign push notification on an iOS device, refer to this [page](https://helpx.adobe.com/campaign/kb/display-image-push.html).
+   iOS 10以降では、画像、GIF、オーディオおよびビデオファイルを挿入できます。 以前のバージョンのiOSでは、プッシュ通知はリッチコンテンツなしで表示されます。 iOSデバイスでAdobe Campaignのプッシュ通知から画像を表示する方法について詳しくは、このページを参照してく [ださい](https://helpx.adobe.com/campaign/kb/display-image-push.html)。
 
-   Androidの場合、画像のみ含めることができます。
+   Androidの場合は、画像のみを含めることができます。
 
    ![](assets/push_notif_advanced_6.png)
 
@@ -145,28 +169,28 @@ The function **[!UICONTROL Play a sound]** gives the application the ability to 
 
    ![](assets/push_notif_advanced_2.png)
 
-## Change the notification behavior for iOS {#change-the-notification-behavior-for-ios}
+## iOSの通知動作の変更 {#change-the-notification-behavior-for-ios}
 
 ![](assets/push_notif_advanced_5.png)
 
-For iOS 10 or higher, two additional options are available in the **[!UICONTROL Advanced options]** section of push notifications: **[!UICONTROL Mutable content]** and **[!UICONTROL Content available]**.
+iOS 10以降では、プッシュ通知のセクションに次の2つの追加オプシ **[!UICONTROL Advanced options]** ョンが用意されています。 **[!UICONTROL Mutable content]** と **[!UICONTROL Content available]**。
 
-**[!UICONTROL Mutable content]** このオプションをオンまたはオフにすると、/またはリッチメディアコンテンツURLが追加されると、プッシュ通知コンテンツがプッシュペイロードで送信され、iOS SDKで提供される通知サービスアプリケーション拡張によってプッシュ通知コンテンツを変更できるようになります。For more on this, refer to [Apple developer documentation](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html).
+このオプシ **[!UICONTROL Mutable content]** ョンをオンにして、リッチメディアコンテンツURLが追加されると、可変コンテンツフラグがプッシュペイロードに送信され、iOS SDKで提供される通知サービスアプリケーション拡張によってプッシュ通知コンテンツを変更できます。 詳しくは、 [Apple開発者向けドキュメントを参照してください](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html)。
 
-その後、モバイルアプリの拡張機能を活用して、Adobe Campaignから送信されたプッシュ通知のコンテンツまたは提示方法をさらに変更できます。例えば、ユーザーは次のオプションを利用できます。
+その後、モバイルアプリの拡張機能を利用して、Adobe Campaignから送信される到着したプッシュ通知のコンテンツや表示をさらに変更できます。 例えば、ユーザーはこのオプションを次の目的で使用できます。
 
 * 暗号化された形式で配信されたデータの復号化
-* 画像またはその他のメディアファイルをダウンロードし、通知に添付ファイルとして追加
-* 通知の本文またはタイトルのテキストの変更
+* 画像または他のメディアファイルをダウンロードし、添付ファイルとして通知に追加する
+* 通知の本文またはタイトルテキストの変更
 * 通知へのスレッド識別子の追加
 
-**[!UICONTROL Content available]** このオプションをオンにすると、プッシュ通知を受信するとすぐにアプリケーションが呼び出されるようにプッシュペイロードでコンテンツの使用可能なフラグが送信されます。つまり、アプリケーションがペイロードデータにアクセスできるようになります。これは、アプリケーションがバックグラウンドで実行されていて、ユーザー操作（プッシュ通知をタップしている場合など）を必要としない場合でも動作しますが、アプリケーションが実行されていない場合はこの機能は適用されません。For more on this, refer to the [Apple developer documentation](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html).
+チェッ **[!UICONTROL Content available]** クすると、プッシュ通知を受け取るとすぐにアプリが起動するように、アプリがペイロードデータにアクセスできるように、コンテンツ使用可能フラグがプッシュペイロードに送信されます。 これは、アプリがバックグラウンドで実行され、ユーザーの操作（プッシュ通知のタップなど）が不要な場合でも機能しますが、アプリが実行されていない場合は適用されません。 For more on this, refer to the [Apple developer documentation](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html).
 
-## Change the notification behavior for Android {#change-the-notification-behavior-for-android}
+## Androidの通知動作の変更 {#change-the-notification-behavior-for-android}
 
-For Android, you can enter the URL of your file in the **Rich media content URL** field. iOSバージョンの場合、Android用には、GIF、オーディオ、ビデオファイルではなく、画像のみを含めることができます。
+Androidの場合は、「リッチメディアコンテンツのURL」フィールドにフ **ァイルのURLを入力できます** 。 iOSバージョンでは、Androidでは画像のみを含めることができ、gif、オーディオ、ビデオの各ファイルは含めることができません。
 
-**[!UICONTROL High priority]** このチェックボックスを使用すると、プッシュ通知に高い優先度または通常の優先度を設定できます。For more information on message priority, refer to the [Google developer documentation](https://firebase.google.com/docs/cloud-messaging/concept-options#setting-the-priority-of-a-message).
+このチ **[!UICONTROL High priority]** ェックボックスを使用すると、プッシュ通知の優先度を高く設定したり、通常に設定したりできます。 メッセージの優先順位の詳細については、 [Google開発者向けドキュメントを参照してください](https://firebase.google.com/docs/cloud-messaging/concept-options#setting-the-priority-of-a-message)。
 
 ![](assets/push_notif_advanced_11.png)
 
