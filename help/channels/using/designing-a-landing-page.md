@@ -15,7 +15,7 @@ context-tags: landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9380d7f624c051c42b61d88e39c85a216fb7caec
+source-git-commit: c216210e2cb279c87ba472d4ec6a02284aae7a74
 
 ---
 
@@ -368,7 +368,8 @@ You can add a **border** to the selected block.
 
 ## 権限の設定とデータのプリロード {#setting-permissions-and-pre-loading-data}
 
-ランディングページへのアクセスは、例えばキャンペーンから送信されるメッセージ内のリンクから来た、識別された訪問者に制限できます。 この場合、ランディングページでデータを事前に読み込むことができます。 手順は次のとおりです。
+ランディングページへのアクセスは、例えばキャンペーンから送信されるメッセージ内のリンクから来た、特定の組織単位に対して、識別された訪問者に制限できます。
+識別された訪問者の場合は、ランディングページでそのデータを事前に読み込むことができます。 手順は次のとおりです。
 
 1. ランディングページのダッシュボードのアイコンを使用し ![](assets/edit_darkgrey-24px.png) てアクセスしたランディングページのプロパティを編集し、パラメータを表示 **[!UICONTROL Access & loading]** します。
 
@@ -384,6 +385,26 @@ You can add a **border** to the selected block.
 
 * 次のオプションを使用して、URLパラメーターを使用して訪問者を識別 **[!UICONTROL Authorize visitor identification via URL parameters]** します。次に、読み込みキーを選択し、対応するURLのパラメーターを使用してフィルターパラメーターをマッピングする必要があります。
 * このオプションを使用して、すべての訪問者がランディングページにアクセスすることを許 **[!UICONTROL Authorize unidentified visitors]** 可します。
+
+ランディングページは、組織単位にリンクすることもできます。 これにより、様々なランディングページへのユーザーのアクセスが定義されます。 組織単位を割り当てるには：
+
+1. アイコンを使用してランディングページのプロパティにアク **[!UICONTROL Edit properties]** セスします。
+
+   ![](assets/lp_parameters_google3.png)
+
+1. を展開しま **[!UICONTROL Access authorization]**&#x200B;す。
+
+1. ドロップダウンメニューをクリックし、組織単位を選択します。 組織単位の作成方法の詳細については、このページを参照してく [ださい](../../administration/using/organizational-units.md)。
+
+   ![](assets/lp_org_unit_2.png)
+
+1. 、およ **[!UICONTROL Created by]**&#x200B;び各フ **[!UICONTROL Created]**&#x200B;ィー **[!UICONTROL Access authorization]** ルドが自 **[!UICONTROL Last modified]** 動的に入力されます。
+
+1. 「&gt;」をク **[!UICONTROL Confirm]** リックしま **[!UICONTROL Save]**&#x200B;す。
+
+これで、選択した組織単位内のユーザーのみがランディングページにアクセスし、管理できるようになります。
+
+![](assets/lp_org_unit_3.png)
 
 ## Google reCAPTCHAの設定 {#setting-google-recaptcha}
 
