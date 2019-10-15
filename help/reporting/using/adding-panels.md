@@ -2,79 +2,79 @@
 title: パネルの追加
 seo-title: パネルの追加
 description: パネルの追加
-seo-description: 動的レポートを使用すると、選択した期間に応じてデータをより絞り込むためにパネルを追加できます。
-page-status-flag: 常にアクティブ化されていない
-uuid: 8e76e837-5efc-4250-8192- dee1a0bd62fe
-contentOwner: サウビート
-products: SG_ CAMPAIGN/STANDARD
+seo-description: 動的レポートを使用すると、選択した期間に応じてデータをより適切にフィルタリングするためのパネルを追加できます。
+page-status-flag: 非活性化の
+uuid: 8e76e837-5efc-4250-8192-dee1a0bd62fe
+contentOwner: ソビア
+products: SG_CAMPAIGN/STANDARD
 audience: レポート
 content-type: 参照
-topic-tags: カスタマイズ-レポート
-discoiquuid: f4e1e676-5ca2-4a58-96d7- d378ff803710
+topic-tags: レポートのカスタマイズ
+discoiquuid: f4e1e676-5ca2-4a58-96d7-d378ff803710
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e9a4d99ddf311898c48b2b352fa13f5b59ed1fbe
+source-git-commit: d3fca4c85f418a6a50bbf12f730990ad4b33a4cc
 
 ---
 
 
-# Adding panels{#adding-panels}
+# パネルの追加{#adding-panels}
 
-## Adding a blank panel {#adding-a-blank-panel}
+## 空のパネルの追加 {#adding-a-blank-panel}
 
-レポートを開始するには、パネルのセットをデフォルトレポートまたはカスタムレポートに追加します。各パネルには異なるデータセットが含まれており、フリーフォームテーブルとビジュアライゼーションで構成されています。
+レポートを開始するには、あらかじめ用意されているパネルまたはカスタムレポートに一連のパネルを追加します。 各パネルには様々なデータセットが含まれ、フリーフォームテーブルとビジュアライゼーションで構成されています。
 
-このパネルでは、必要に応じてレポートを作成できます。レポートに必要な数のパネルを追加して、異なる期間にデータをフィルターできます。
+このパネルでは、必要に応じてレポートを作成できます。 様々な期間でデータをフィルターするために、レポートに任意の数のパネルを追加できます。
 
-1. **パネル** アイコンをクリックします。**「挿入»タブをクリック?し、?«空白のパネル?******
+1. Click the **Panels** icon. 「挿入」タブをクリックし、「新しい空白パネル」を選 **択して** 、パネルを追 **加することもできます**。
 
    ![](assets/dynamic_report_panel_1.png)
 
-1. **空のパネル** をダッシュボードにドラッグ&amp;ドロップします。
+1. 空のパネルをダッシュボ **ードにドラッグ** &amp;ドロップします。
 
    ![](assets/dynamic_report_panel.png)
 
-フリーフォームテーブルをパネルに追加して、ターゲットデータを開始できるようになりました。
+パネルにフリーフォームテーブルを追加して、データのターゲット設定を開始できるようになりました。
 
-## Adding a freeform table {#adding-a-freeform-table}
+## フリーフォームテーブルの追加 {#adding-a-freeform-table}
 
-Freeform tables allow you to create a table to analyze your data using the different metrics and dimensions available in the **Component** table.
+フリーフォームテーブルを使用すると、コンポーネントテーブルで使用できる様々な指標やディメンションを使用して、データを分析するテーブルを作 **成でき** ます。
 
-各テーブルとビジュアライゼーションはサイズ変更可能で、レポートをより適切にカスタマイズするために移動できます。
+各テーブルとビジュアライゼーションはサイズ変更が可能で、移動してレポートをより適切にカスタマイズできます。
 
-1. **パネル** アイコンをクリックします。
+1. Click the **Panels** icon.
 
    ![](assets/dynamic_report_panel_1.png)
 
-1. **フリーフォーム** アイテムをダッシュボードにドラッグ&amp;ドロップします。
+1. フリーフォームアイテムを **ダッシュボード** にドラッグ&amp;ドロップします。
 
-   **「挿入** 」タブをクリックして「新規フリーフォーム」を選択 **** するか、空のパネルで「フリーフォームテーブルを追加」をクリック **して、テーブルを追加** することもできます。
+   「挿入」タブをクリックして「新規フリーフォーム **」を選択するか、空のパネルで** 「フリ **ーフォームテーブルを追加****** 」をクリックして、テーブルを追加することもできます。
 
    ![](assets/dynamic_report_panel_2.png)
 
-1. If needed, drag and drop **[!UICONTROL Segments]** from the **[!UICONTROL Components]** tab into the top bar to filter your report depending on your recipient's age range.
+1. Campaign 19.4リリース以降、デフォルトでは **[!UICONTROL Exclude proof]** 既に選択されています。 必要に応じて、タブから上部バーにいずれかをドラッグ&amp;ドロ **[!UICONTROL Segments]** ップして、 **[!UICONTROL Components]** 変更することができます。
 
    ![](assets/dynamic_report_panel_3.png)
 
-1. **「コンポーネント」** タブから項目をドラッグ&amp;ドロップして、テーブルを作成します。
+1. 「コンポーネント」タブから列 **と行に** 、項目をドラッグ&amp;ドロップして表を作成します。
 
    ![](assets/dynamic_report_freeform_3.png)
 
-1. **設定** アイコンをクリックして、列にデータを表示する方法を変更します。
+1. 列でのデータ **** の表示方法を変更するには、設定アイコンをクリックします。
 
    ![](assets/dynamic_report_freeform_4.png)
 
-   The **[!UICONTROL Column settings]** is composed of:
+   は、次 **[!UICONTROL Column settings]** の要素で構成されます。
 
-   * **[!UICONTROL Number]**:を使用すると、列にサマリ番号を表示または非表示にすることができます。
-   * **[!UICONTROL Percent]**:列のパーセントを表示または非表示にできます。
-   * **[!UICONTROL Interpret zero as no value]**:値がゼロの場合は表示または非表示にできます。
-   * **[!UICONTROL Background]**:を使用すると、セル内の水平プログレスバーの表示/非表示を切り替えることができます。
-   * **[!UICONTROL Include retries]**:結果に再試行を含めることができます。This is only available for **[!UICONTROL Sent]** and **[!UICONTROL Bounces + Errors]**.
+   * **[!UICONTROL Number]**:列内の概要番号の表示/非表示を切り替えます。
+   * **[!UICONTROL Percent]**:列内の割合の表示/非表示を切り替えます。
+   * **[!UICONTROL Interpret zero as no value]**:値がゼロの場合に表示/非表示を切り替えます。
+   * **[!UICONTROL Background]**:セル内の水平プログレスバーの表示/非表示を切り替えます。
+   * **[!UICONTROL Include retries]**:結果に再試行を含めることができます。 これは、とでのみ使用で **[!UICONTROL Sent]** きま **[!UICONTROL Bounces + Errors]**&#x200B;す。
 
-1. Select one or multiple rows and click the **Visualize** icon. 選択した行を反映するビジュアライゼーションが追加されます。
+1. 1つまたは複数の行を選択し、「視覚化」アイコンをク **リックします** 。 選択した行を反映するビジュアライゼーションが追加されます。
 
    ![](assets/dynamic_report_freeform_5.png)
 
-必要な数だけコンポーネントを追加できるようになり、ビジュアライゼーションを追加してデータをグラフィカルに表現できるようになりました。
+必要な数のコンポーネントを追加でき、ビジュアライゼーションを追加してデータをグラフィカルに表示できるようになりました。
