@@ -5,7 +5,7 @@ solution: Campaign Standard
 title: Adobe Campaign Standard 製品ドキュメント
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 091f3176bcf063aaf908967ee36579d43638b644
+source-git-commit: 6912ca6dbf985518009b3e119f86298db52b6f5f
 
 ---
 
@@ -16,13 +16,13 @@ source-git-commit: 091f3176bcf063aaf908967ee36579d43638b644
 
 ## 新機能
 
-* **[電子メールデザイナー](channels/using/event-transactional-messages.md)**<br/>— トランザクションメッセージで電子メールデザイナーを使用します。
+* **[プライバシー管](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>理プライバシーコンプライアンスに役立つAdobe Campaignが提供するツールについて説明します。
 
-* **[ワークフローセグメ](reporting/using/creating-a-report-workflow-segment.md)**<br/>ントワークフローセグメントに基づくレポートを作成します。
+* **[配信のベストプラクティス](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)**<br/>配信のデザインと送信に関するベストプラクティスの詳細を確認します。
 
-* **[新しいワークフローの使用例](automating/using/workflow-created-query-with-complement.md)**<br/>ワークフロークエリの使用例を読みます。
+* **[電子メールデザイナ](designing/using/designing-content-in-adobe-campaign.md)**<br/>ー再編成された電子メールデザイナーのドキュメントを参照してください。
 
-* **[ファイルの読み込みアクティビティ](automating/using/load-file.md)**<br/>「ファイルの読み込み」アクティビティを使用して、追加のデータを含む電子メールを送信します。
+* **[ランディング](channels/using/main-steps-to-set-up-a-landing-page.md)**<br/>ページランディングページの設定方法の詳細を説明します。
 
 [更新情報についてはここをクリック](rn/using/documentation-updates.md)
 
