@@ -14,7 +14,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6650d44a79b9f31d860ed60e3683bc7c4da0c020
+source-git-commit: 0e6f85047179572131739659b8175f82c8a5f40e
 
 ---
 
@@ -44,6 +44,8 @@ GDPR入門ガイドが改善され、強化されました。 GDPRやCCPAなど�
 トランザクションメッセージング発行プロセスを示す新しいグラフが追加されました。 [詳細を表示](../../channels/using/about-transactional-messaging.md#transactional-messaging-pub-process)
 
 『配信のベストプラクティス集』ガイドが更新されました。 [詳細を表示](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
+
+新しいセクションが追加されました。 Campaign Standardデータベースを拡張するための様々な方法の概要を説明します。 [詳細を表示](../../start/using/enriching-campaign-database.md)
 
 ## ドキュメントの更新 — 2019年10月 {#doc-updates-october-2019}
 
