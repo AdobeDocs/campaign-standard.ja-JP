@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: エンドユーザー
 user-guide-title: Adobe Campaign Standardヘルプ
 translation-type: tm+mt
-source-git-commit: 9512ddb0b23b862b1a9b0ca5ee6e51436011bf66
+source-git-commit: ff0f9f46b0badbcd9a3b8febb49f8d76d949af6a
 
 ---
 
@@ -25,6 +25,7 @@ source-git-commit: 9512ddb0b23b862b1a9b0ca5ee6e51436011bf66
       + [動的でパーソナライズされたコンテンツ](start/using/dynamic-and-personalized-content.md)
       + [トラッキング、監視、およびレポート](start/using/tracking--monitoring-and-reporting.md)
       + [アドビソリューションとの統合](start/using/integrating-with-adobe-solutions.md)
+      + [キャンペーンデータベースの強化](start/using/enriching-campaign-database.md)
    + インターフェイスの検出 {#discovering-the-interface}
       + [インターフェイスについて](start/using/about-the-interface.md)
       + [インターフェイスの説明](start/using/interface-description.md)
