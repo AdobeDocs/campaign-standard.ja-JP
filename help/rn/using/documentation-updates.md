@@ -14,7 +14,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0e6f85047179572131739659b8175f82c8a5f40e
+source-git-commit: 8b4cf35fcbdee436ce3f9fa4aeb1b1fdd8609f50
 
 ---
 
@@ -37,7 +37,7 @@ Microsoft Dynamics 365統合(GA) — 詳細情報を [表示](https://helpx.adob
 
 ### リリースに伴うその他のドキュメントの更新 {#other-documentation-updates-coming-with-the-release-18}
 
-Campaign StandardおよびClassicのエラーメッセージのリストが更新されました。 [詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+Campaign StandardおよびCampaign Classicのエラーメッセージのリストが更新されました。 [詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
 GDPR入門ガイドが改善され、強化されました。 GDPRやCCPAなどのプライバシー管理に関するドキュメントが提供されます。 [詳細を表示](https://helpx-internal.corp.adobe.com/content/help/en/campaign/kb/campaign-privacy.html)
 
