@@ -14,7 +14,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a206521e458620c7b452f403353fec482fe18dee
+source-git-commit: 03fe22d7a209bb65b13149c04bd9ab4a432e6a5b
 
 ---
 
@@ -49,7 +49,7 @@ source-git-commit: a206521e458620c7b452f403353fec482fe18dee
    <p>Adobe Campaignで既に利用可能なプライバシー機能（同意管理、データ保持設定、ユーザーの役割など）に加え、CCPAの準備を促進するために、次のような追加機能を追加いたします。</p>
    <ul>
     <li>アクセス権と削除権：GDPR用に追加された機能を活用しています。 <a href="https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#righttoaccess">さらに詳しく</a> </li>
-    <li><p>プライバシーリクエストを作成する際に、規制のタイプ（GDPRまたはCCPA）がプライバシーコアサービスに追加されました。 このメソッドは、すべてのアクセス要求と削除要求に使用する必要があるメソッドです。 アクセスおよび削除のリクエストに対するCampaign APIとインターフェイスの使用は廃止されました。 ただし、19.4でこれらのメソッドを引き続き使用する必要がある場合は、CampaignのインターフェイスとAPIに規制タイプが追加され、必須であることに注意してください。 インタフェースのデフォルト値はGDPRに設定される。 APIの場合は、ペイロードにこのフィールドを含める必要があります。 See the <a href="https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#privacy-management">API documentation</a>.</p></li>
+    <li><p>プライバシーリクエストを作成する際に、規制のタイプ（GDPRまたはCCPA）がプライバシーコアサービスに追加されました。 このメソッドは、すべてのアクセス要求と削除要求に使用する必要があるメソッドです。 アクセスおよび削除のリクエストに対するCampaign APIとインターフェイスの使用は廃止されました。  廃止および削 <a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">除された機能の記事を参照してください</a>。</p></li>
     <li>Adobe Campaignユーザーが <strong>個人情報の販売をオプトアウトしたかどうかを追跡できるように、プロファイルリソースに「</strong> CCPAオプトアウト」フィールドが追加されました。 <a href="https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#ccpa">詳細情報</a></li>
   </ul>
     <p>ハウツービ <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">デオを参照</a>。</p>
