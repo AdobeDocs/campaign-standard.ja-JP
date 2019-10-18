@@ -14,7 +14,7 @@ discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: dec43f3646a775fb16c3751635087666fc3969fb
+source-git-commit: 8b4cf35fcbdee436ce3f9fa4aeb1b1fdd8609f50
 
 ---
 
@@ -56,7 +56,7 @@ Campaign Standardには、マーケティングデータベースの拡張に役
 ## Microsoft Dynamics 365からのプロファイルの同期
 
 Microsoft Dynamics 365とのCampaign Standardの統合により、Microsoft Dynamics 365からCampaignデータベースに連絡先データを渡すことができます。
-これらの連絡先はプロファイルリストに表示され、マーケティングキャンペーンでターゲット設定できます。
+これらの連絡先はリストに表示され、マーケテ **[!UICONTROL Profiles]** ィングキャンペーンのターゲット設定が可能になります。
 
 For more on this integration, refer to the [dedicated documentation](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html).
 
