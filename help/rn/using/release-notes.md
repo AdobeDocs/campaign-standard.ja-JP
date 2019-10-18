@@ -14,7 +14,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 637cddaa2fb29554f7e6c8b6ae2e4076515488de
+source-git-commit: a206521e458620c7b452f403353fec482fe18dee
 
 ---
 
@@ -27,7 +27,7 @@ source-git-commit: 637cddaa2fb29554f7e6c8b6ae2e4076515488de
 
 * [キャンペーンリリース計画](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
 * [最新のドキュメントの更新](../../rn/using/documentation-updates.md)
-* [廃止および削除された機能](https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html)
+* [廃止および削除された機能](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
 * [コントロールパネル](https://helpx.adobe.com/campaign/kb/control-panel.html)
 * 以前のリリースノート： [2018](../../rn/using/release-notes-2018.md), [2017](../../rn/using/release-notes-2017.md), [2015-2016](../../rn/using/release-notes-2015-2016.md)
 
