@@ -14,7 +14,7 @@ discoiquuid: bf718329-f181-46f7-80a2-b525a8dee46d
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f54c92b92524e2966aa8c1c8497c8a7dff1bcf9
+source-git-commit: 8b4cf35fcbdee436ce3f9fa4aeb1b1fdd8609f50
 
 ---
 
@@ -29,7 +29,7 @@ Adobe Campaignを使用すると、様々なAdobe Experience cloudアプリケ�
 統合では、次の2種類のAdobe Experience Cloud IDがサポートされます。
 
 * **訪問者ID**:このタイプのIDを使用すると、Adobe Experience cloudの訪問者をAdobe Campaignのプロファイルと紐付けることができます。
-* **宣言済みID**:このタイプのIDを使用すると、任意のタイプのデータをAdobe Campaignデータベース内のプロファイルと調整できます。 この統合は、正規の宣言ID、ハッシュ化された宣言ID、暗号化された宣言IDをサポートします。 For **[!UICONTROL Declared ID]** validity, refer to this [page](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md).
+* **宣言済みID**:このタイプのIDを使用すると、任意のタイプのデータをAdobe Campaignデータベース内のプロファイルと調整できます。 この統合は、正規の宣言ID、ハッシュ化された宣言ID、暗号化された宣言IDをサポートします。 有効性の詳細につい **[!UICONTROL Declared ID]** ては、このページを参照してく [ださい](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)。
 
    暗号化を使用すると、暗号化アルゴリズムを指定して、宣言されたIDを使用して、データソース（PIIなど）の暗号化されたデータを共有できます。
 
