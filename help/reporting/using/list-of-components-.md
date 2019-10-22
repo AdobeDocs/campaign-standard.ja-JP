@@ -14,7 +14,7 @@ discoiquuid: 17cf126a-7ce1-4e11-bb5e-2bdce01cfded
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d3fca4c85f418a6a50bbf12f730990ad4b33a4cc
+source-git-commit: c2eecf17e121f51d3e94362304738d0c0e75d2d0
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: d3fca4c85f418a6a50bbf12f730990ad4b33a4cc
 
 ディメンションと指標の互換性の詳細については、次の表を参照してく [ださい](https://docs.campaign.adobe.com/doc/standard/en/Technotes/dynamic_report_compatibility.pdf)。 2つのコンポーネントが互換性がない場合、セルに「なし」の値が表示さ **れます**。
 
-![](assets/dynamic_report_compatibility.png)
+[![画像](/help/reporting/using/assets/dynamic_report_compatibility.png)](https://docs.campaign.adobe.com/doc/standard/en/Technotes/dynamic_report_compatibility.pdf)
 
 ## サイズ {#dimensions}
 
@@ -50,7 +50,7 @@ source-git-commit: d3fca4c85f418a6a50bbf12f730990ad4b33a4cc
    <td> 受取人のプロファイルに登録された市区町村。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 国<br /> </td> 
+   <td> Country/region<br /> </td> 
    <td> 受信者のプロファイルに登録された国。<br /> </td> 
   </tr> 
   <tr> 
