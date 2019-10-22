@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: エンドユーザー
 user-guide-title: Adobe Campaign Standardヘルプ
 translation-type: tm+mt
-source-git-commit: 9291786739a8b2e5823abe32e5b2ad21603f7b88
+source-git-commit: 5b5784d6c80e96e3303bbb372e171889bbb29f99
 
 ---
 
@@ -136,7 +136,7 @@ source-git-commit: 9291786739a8b2e5823abe32e5b2ad21603f7b88
       + [テストプロファイルの管理と校正の送信](sending/using/managing-test-profiles-and-sending-proofs.md)
       + [電子メールの件名行のテスト](sending/using/testing-subject-line-email.md)
       + [E メールのレンダリング](sending/using/email-rendering.md)
-   + メッセージのスケジュール {#sheduling-messages}
+   + メッセージのスケジュール {#scheduling-messages}
       + [メッセージのスケジュールについて](sending/using/about-scheduling-messages.md)
       + [送信時間の最適化](sending/using/optimizing-the-sending-time.md)
       + [受信者のタイムゾーンでのメッセージの送信](sending/using/sending-messages-at-the-recipient-s-time-zone.md)
