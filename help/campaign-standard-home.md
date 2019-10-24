@@ -4,7 +4,7 @@ seo-title: Adobe Campaign Standard 製品ドキュメント
 solution: Campaign Standard
 title: Adobe Campaign Standard 製品ドキュメント
 topic: Premium
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6912ca6dbf985518009b3e119f86298db52b6f5f
 
 ---
@@ -14,15 +14,19 @@ source-git-commit: 6912ca6dbf985518009b3e119f86298db52b6f5f
 
 ![](start/using/assets/banner_acs_doc.jpg)
 
-## 新機能
+## 新着情報
 
-* **[プライバシー管](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>理プライバシーコンプライアンスに役立つAdobe Campaignが提供するツールについて説明します。
+* **[プライバシー管理](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy.html)**<br/>
+プライバシーコンプライアンスに役立つAdobe Campaignが提供するツールについて説明します。
 
-* **[配信のベストプラクティス](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)**<br/>配信のデザインと送信に関するベストプラクティスの詳細を確認します。
+* **[配信のベストプラクティス](https://helpx.adobe.com/jp/campaign/kb/delivery-best-practices.html)**<br/>
+配信のデザインと送信に関するベストプラクティスの詳細を確認します。
 
-* **[電子メールデザイナ](designing/using/designing-content-in-adobe-campaign.md)**<br/>ー再編成された電子メールデザイナーのドキュメントを参照してください。
+* **[電子メールデザイナー](designing/using/designing-content-in-adobe-campaign.md)**<br/>
+再編成された電子メールデザイナーのドキュメントを参照してください。
 
-* **[ランディング](channels/using/main-steps-to-set-up-a-landing-page.md)**<br/>ページランディングページの設定方法の詳細を説明します。
+* **[ランディングページ](channels/using/main-steps-to-set-up-a-landing-page.md)**<br/>
+ランディングページの設定方法の詳細を説明します。
 
 [更新情報についてはここをクリック](rn/using/documentation-updates.md)
 
@@ -37,7 +41,7 @@ source-git-commit: 6912ca6dbf985518009b3e119f86298db52b6f5f
     <div>
     <a href="administration/using/about-access-management.md"><strong>役割とセキュリティグループ</strong></a>
     </div>
-    <em></em>権限を定義し、Campaignユーザーにロールを割り当てる方法について説明します。
+    <em>権限を定義し、Campaignユーザーにロールを割り当てる方法について説明します。</em>
     <br>
   </td>
   <td valign="top">
@@ -47,7 +51,8 @@ source-git-commit: 6912ca6dbf985518009b3e119f86298db52b6f5f
     <div>
     <a href="designing/using/designing-content-in-adobe-campaign.md"><strong>電子メールのデザイン</strong></a>
     </div>
-    <em>電子メールデザイナーを使用して、レスポンシブでパーソナライズされた電子メールを作成する方法を説明します</em>。 <br>
+    <em>電子メールデザイナーを使用して、レスポンシブでパーソナライズされた電子メールを作成する方法を説明します。</em>
+ <br>
   </td>
   <td valign="top">
        <img alt="開発者" src="start/using/assets/dev.png" />
@@ -55,7 +60,7 @@ source-git-commit: 6912ca6dbf985518009b3e119f86298db52b6f5f
     <strong>開発者向けリソース</strong>
     </div>
     <p><em><a href="https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html">Adobe Campaign API</a></em></p>
-    <p><em><a href="integrating/using/about-adobe-experience-cloud-triggers.md">Adobe Experience Cloud Triggers</a></em></p>
+    <p><em><a href="integrating/using/about-adobe-experience-cloud-triggers.md">Adobe Experience Cloudトリガー</a></em></p>
     <br>
   </td>
 </tr>
@@ -66,10 +71,10 @@ source-git-commit: 6912ca6dbf985518009b3e119f86298db52b6f5f
 
 * [リリースノート](rn/using/release-notes.md)
 
-* [コントロールパネル](https://helpx.adobe.com/campaign/kb/control-panel.html)
+* [コントロールパネル](https://helpx.adobe.com/jp/campaign/kb/control-panel.html)
 
-* [ハウツービデオ](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)
+* [ハウツービデオ](https://docs.adobe.com/content/help/ja-JP/campaign-learn/campaign-standard-tutorials/overview.html)
 
-* [リリース計画ガイド](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
+* [リリース計画ガイド](https://helpx.adobe.com/jp/campaign/kb/acs-release-planning.html)
 
-* [廃止および削除された機能](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+* [廃止および削除された機能](https://helpx.adobe.com/jp/campaign/kb/acs-deprecated-and-removed-features.html)
