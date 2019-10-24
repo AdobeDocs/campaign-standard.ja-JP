@@ -14,7 +14,7 @@ discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4388d4f07e633651a4cad6ff6ec8b25b47111b83
+source-git-commit: cceab9f275a0e40804c548d127c54030b75b7cbc
 
 ---
 
@@ -88,8 +88,8 @@ Dynamic Reportingは、完全にカスタマイズ可能なリアルタイムレ
 
 | 地域 | 動的レポート | Microsoft Dynamics 365コネクタ |
 |---|---|---|
-| アメリカおよびAPAC（アジア太平洋） | **機能を利用できます**。 <br> ExternalIDを除き、標準搭載されたカスタムプロファイルおよびカスタムプロファイル情報は、米国のレポートセンターにプッシュされません。 | **機能を利用できます**。 <br>外部IDと受信者IDを除き、標準搭載のカスタムプロファイルフィールドまたはカスタムプロファイルフィールドはUSデータセンターに送信されません。 <br>ミラーページIDを除く、米国のデータセンターで処理されるすべてのAdobe Campaign Standardイベントフィールド。 |
-| EMEA（ヨーロッパ中東およびアフリカ） | **機能を利用できます**。 <br>ExternalIDを除き、EMEAレポートセンターに追加設定不要のプロファイルおよびカスタムプロファイル情報は送信されません。 | **機能を利用できます。** 外部ID <br>と受信者IDを除き、EMEAデータセンターには標準搭載されたカスタムプロファイルフィールドやカスタムプロファイルフィールドは送信されません。 <br>ミラーページIDを除き、EMEAデータセンターで処理されるすべてのAdobe Campaign Standardイベントフィールド。  <br>**[!UICONTROL Control data]** このIDには、米国のデータセンターで送信および保存される顧客エンドユーザーイベントのAdobe I/O登録データとIDが含まれます。 |
+| アメリカおよびAPAC（アジア太平洋） | **機能を利用できます**。 <br> ExternalIDを除き、標準搭載されたカスタムプロファイルおよびカスタムプロファイル情報は、米国のレポートセンターにプッシュされません。 | **機能を利用できます**。 <br>外部IDと受信者IDを除き、標準搭載のカスタムプロファイルフィールドまたはカスタムプロファイルフィールドはUSデータセンターに送信されません。 <br>セグメントコードとミラーページIDを除き、米国のデータセンターで処理されるすべてのAdobe Campaign Standardイベントフィールド。 |
+| EMEA（ヨーロッパ中東およびアフリカ） | **機能を利用できます**。 <br>ExternalIDを除き、EMEAレポートセンターに追加設定不要のプロファイルおよびカスタムプロファイル情報は送信されません。 | **機能を利用できます。** 外部ID <br>と受信者IDを除き、EMEAデータセンターには標準搭載されたカスタムプロファイルフィールドやカスタムプロファイルフィールドは送信されません。 <br>セグメントコードとミラーページIDを除き、EMEAデータセンターで処理されるすべてのAdobe Campaign Standardイベントフィールド。  <br>**[!UICONTROL Control data]** このIDには、米国のデータセンターで送信および保存される顧客エンドユーザーイベントのAdobe I/O登録データとIDが含まれます。 |
 
 この選択は最終的なものではありません。//を選択して、い **[!UICONTROL Enable PII data to be transferred to US region to use reporting on Profile data]** つでも **[!UICONTROL Administration]** 変更で **[!UICONTROL Application Settings]** きま **[!UICONTROL Options]**&#x200B;す。
 
