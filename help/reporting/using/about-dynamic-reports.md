@@ -14,7 +14,7 @@ discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ccd7e67dd8cf3cea827e0ada9e6f37b322eb8191
+source-git-commit: c606612b1bfb313e8eb20e45cf631609ec07aa84
 
 ---
 
@@ -67,13 +67,13 @@ Dynamic Reportingは、完全にカスタマイズ可能なリアルタイムレ
 
 >[!NOTE]
 >
->これらの変更は、Campaign Standard 19.4リリース以降にのみ適用されます。
+> Campaign Standard 19.4リリースから、Dynamic Reportingの同意ポップアップが更新され、Adobe Campaign StandardとMicrosoft Dynamics 365の統合が含まれるようになりました。
 
 動的レポートの使用許諾契約の目的は、データ処理のポップアップ同意として機能することです。 デフォルトでは、契約は表示されるだけで、管理権限を持つユーザーのみが承諾または拒否できます。
 
 次の3つのオプションを使用できます。
 
-* **[!UICONTROL Ask me later]**:[後で確認する]をクリックすると、ウィンドウの表示が24時間停止します。
+* **[!UICONTROL Ask me later]**:[後で確認 **する**]をクリックすると、ウィンドウの表示が24時間停止します。 契約に同意するか却下するまで、プロファイルディメンションはレポートに表示されず、顧客の個人ID情報は収集も送信もされません。
 * **[!UICONTROL Accept]**:本契約に同意することにより、お客様の個人ID情報を収集し、レポートやデータセンターに転送することをAdobe Campaignに許可します。
 * **[!UICONTROL Decline]**:契約を拒否すると、プロファイルディメンションはレポートに表示されず、顧客の個人ID情報は収集も送信もされません。 この場合も、externalIDは収集され、エンドユーザーの識別に使用されます。
 
@@ -88,11 +88,13 @@ Dynamic Reportingは、完全にカスタマイズ可能なリアルタイムレ
 
 | 地域 | 動的レポート | Microsoft Dynamics 365コネクタ |
 |---|---|---|
-| アメリカおよびAPAC（アジア太平洋） | **機能を利用できます**。 <br> ExternalIDを除き、標準搭載されたカスタムプロファイルおよびカスタムプロファイル情報は、米国のレポートセンターにプッシュされません。 | **機能を利用できます**。 <br>外部IDと受信者IDを除き、標準搭載のカスタムプロファイルフィールドまたはカスタムプロファイルフィールドはUSデータセンターに送信されません。 <br>ミラーページIDを除く、米国のデータセンターで処理されるすべてのAdobe Campaign Standardイベントフィールド。 |
-| EMEA（ヨーロッパ中東およびアフリカ） | **機能を利用できます**。 <br>ExternalIDを除き、EMEAレポートセンターに追加設定不要のプロファイルおよびカスタムプロファイル情報は送信されません。 | **機能を利用できます。** 外部ID <br>と受信者IDを除き、EMEAデータセンターには標準搭載されたカスタムプロファイルフィールドやカスタムプロファイルフィールドは送信されません。 <br>ミラーページIDを除き、EMEAデータセンターで処理されるすべてのAdobe Campaign Standardイベントフィールド。  <br>**[!UICONTROL Control data]** このIDには、米国のデータセンターで送信および保存される顧客エンドユーザーイベントのAdobe I/O登録データとIDが含まれます。 |
+| アメリカおよびAPAC（アジア太平洋） | **機能を利用できます**。 <br> ExternalIDを除き、標準搭載されたカスタムプロファイルおよびカスタムプロファイル情報は、米国のレポートセンターにプッシュされません。 | **機能を利用できます**。 <br>外部IDと受信者IDを除き、標準搭載のカスタムプロファイルフィールドまたはカスタムプロファイルフィールドはUSデータセンターに送信されません。 <br>ミラーページIDを除く、米国のデータセンターで処理されるすべてのAdobe Campaign Standardイベントフィールド。 <br>Microsoft Dynamics 365の統合の詳細については、このページを参照してく [ださい](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)。 |
+| EMEA（ヨーロッパ中東およびアフリカ） | **機能を利用できます**。 <br>ExternalIDを除き、EMEAレポートセンターに追加設定不要のプロファイルおよびカスタムプロファイル情報は送信されません。 | **機能を利用できます。** 外部ID <br>と受信者IDを除き、EMEAデータセンターには標準搭載されたカスタムプロファイルフィールドやカスタムプロファイルフィールドは送信されません。 <br>ミラーページIDを除き、EMEAデータセンターで処理されるすべてのAdobe Campaign Standardイベントフィールド。  <br>**[!UICONTROL Control data]** このIDには、米国のデータセンターで送信および保存される顧客エンドユーザーイベントのAdobe I/O登録データとIDが含まれます。<br>Microsoft Dynamics 365の統合の詳細については、このページを参照してく [ださい](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)。 |
 
 この選択は最終的なものではありません。//を選択して、い **[!UICONTROL Enable PII data to be transferred to US region to use reporting on Profile data]** つでも **[!UICONTROL Administration]** 変更で **[!UICONTROL Application Settings]** きま **[!UICONTROL Options]**&#x200B;す。
 
 この値は、いつでも変更できます。 値1は、、2および3 **[!UICONTROL Ask me later]**&#x200B;に対応 **[!UICONTROL Decline]** します **[!UICONTROL Accept]**。
+
+Adobe Campaign Standard 19.4より前のリリースでは、-1の値は0と1に対応し **[!UICONTROL Ask me later]**&#x200B;ているこ **[!UICONTROL Decline]** とに注意しま **[!UICONTROL Accept]**&#x200B;す。
 
 ![](assets/pii_window_2.png)
