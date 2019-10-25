@@ -14,7 +14,7 @@ discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e89bd70459c92ba9706bbec5c488cbb340b14651
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -59,7 +59,7 @@ source-git-commit: e89bd70459c92ba9706bbec5c488cbb340b14651
 
    ![](assets/optin_confirmlp_newelement.png)
 
-   このコンテキストにより、電子メールを送信できるように、ブラックリストフィールドが削除されます。 確認前に、最初のランディングページでこのフィールドが **** trueに設定され、未確認のプロファイルに電子メールが送信されないようにしています。 詳しくは、手順3を参照し [てください。獲得ランディングページを作成します](../../channels/using/setting-up-a-double-opt-in-process.md#step-3--create-the-acquisition-landing-page)。
+   このコンテキストにより、電子メールを送信できるように、ブラックリストフィールドが削除されます。 確認前に、最初のランディングページでこのフィールドが **** trueに設定され、未確認のプロファイルに電子メールが送信されないようにしています。 詳しくは、手順3を参照し [てください。獲得ランディングページを作成します](#step-3--create-the-acquisition-landing-page)。
 
 1. ランディングページのコンテンツをカスタマイズします。パーソナライズされたデータを表示し、確認ボタンのラベルを「ここをクリックして購読を確認」に変更できます。
 
@@ -96,7 +96,7 @@ source-git-commit: e89bd70459c92ba9706bbec5c488cbb340b14651
 1. ドロップ **[!UICONTROL Profile]** ダウンリスト **[!UICONTROL Targeting enrichment]** でを選択します。
 1. をクリック **[!UICONTROL Publish]** して、イベントを発行します。
 
-イベントの準備が整いました。 これで、電子メールテンプレートを設計できます。 このテンプレートには、前に作成した **** CONFIRMATIONランディングページへのリンクを含める必要があります。 詳しくは、「確認メッセージの [デザイン」を参照してください](../../channels/using/setting-up-a-double-opt-in-process.md#design-the-confirmation-message)。
+イベントの準備が整いました。 これで、電子メールテンプレートを設計できます。 このテンプレートには、前に作成した **** CONFIRMATIONランディングページへのリンクを含める必要があります。 詳しくは、「確認メッセージの [デザイン」を参照してください](#design-the-confirmation-message)。
 
 ### タイポロジルールの作成 {#create-the-typology-rule}
 
@@ -136,7 +136,7 @@ source-git-commit: e89bd70459c92ba9706bbec5c488cbb340b14651
 
    値を **trueに設定します**。
 
-   ブラックリストを強制的に使用し、契約を確認していない訪問者にメッセージを送信しないようにするには、このオプションが必須です。 CONFIRMATIONランディングページの検証では、確認後にこのフィールドが **falseに設定され** ます。 詳しくは、手順1を参照し [てください。確認ランディングページを作成します](../../channels/using/setting-up-a-double-opt-in-process.md#step-1--create-the-confirmation-landing-page)。
+   ブラックリストを強制的に使用し、契約を確認していない訪問者にメッセージを送信しないようにするには、このオプションが必須です。 CONFIRMATIONランディングページの検証では、確認後にこのフィールドが **falseに設定され** ます。 詳しくは、手順1を参照し [てください。確認ランディングページを作成します](#step-1--create-the-confirmation-landing-page)。
 
 1. 「&gt;」セクシ **[!UICONTROL Job]** ョンで、オ **[!UICONTROL Specific actions]** プションを選択しま **[!UICONTROL Start sending messages]**&#x200B;す。
 1. 関連するドロップダウンリストで、作成した **CONFIRM** （確認）トランザクションメッセージテンプレートを選択します。
