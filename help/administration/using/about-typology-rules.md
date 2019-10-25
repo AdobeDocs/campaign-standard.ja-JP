@@ -2,106 +2,106 @@
 title: タイポロジルールについて
 seo-title: タイポロジルールについて
 description: タイポロジルールについて
-seo-description: Adobe Campaignでタイポロジルールがどのように動作するかを確認します。
-page-status-flag: 常にアクティブ化されていない
-uuid: a98ebc36-172d-4f46- b6ee- b2636a1007c9
-contentOwner: サウビート
-products: SG_ CAMPAIGN/STANDARD
+seo-description: Adobe Campaignでのタイポロジルールの機能を確認します。
+page-status-flag: 非活性化の
+uuid: a98ebc36-172d-4f46-b6ee-b2636a1007c9
+contentOwner: ソビア
+products: SG_CAMPAIGN/STANDARD
 audience: 管理
 content-type: 参照
-topic-tags: working- with- typography- rules
-discoiquuid: 2590d94c-51ef-4c0f- b1ec- c2837e94da40
-context-tags: タイポロジ、概要;TypLogyRule， main;TypLogyRule、概要
+topic-tags: 活字体系ルール
+discoiquuid: 2590d94c-51ef-4c0f-b1ec-c2837e94da40
+context-tags: タイポロジ，概要；タイポロジルール，メイン；タイポロジルール，概要
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5e5532c0769fe33016eaee994bdaae9c70a7eaa5
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
 
-# About typology rules{#about-typology-rules}
+# タイポロジルールについて{#about-typology-rules}
 
-タイポロジは、メッセージの分析段階で実行される一連のルールです。これにより、ターゲット、コンテンツ、および次の要素の設定を検証できます。件名、URL、画像、購読解除リンク、配達確認のサイズなど
+タイポロジとは、メッセージ分析段階で実行される一連のルールで、以下の要素のターゲット、コンテンツおよび設定を検証できます。件名、URL、画像、購読解除リンク、校正サイズなど
 
-Adobe Campaignでは、各メッセージにタイポロジへのリンクが含まれています。This link is defined in the advanced parameters of the delivery template's properties (for more on this, refer to the [Preparation](../../administration/using/configuring-email-channel.md#preparation) section).
+Adobe Campaignでは、各メッセージにタイポロジへのリンクが含まれています。 このリンクは、配信テンプレートのプロパティの詳細パラメーターで定義されます(詳しくは、「準備」の節を参照 [して](../../administration/using/configuring-email-channel.md#preparation) )。
 
 >[!NOTE]
 >
->各メッセージには、1つのタイポロジのみ割り当てることができます。
+>各メッセージに割り当てることができるタイポロジは1つだけです。
 
-For each typology, the **[!UICONTROL Typology rules]** section lists the set of rules for this typology.
+ここでは、各タイポロジについ **[!UICONTROL Typology rules]** て、このタイポロジの一連のルールを示します。
 
 ![](assets/typology_typo-rule-list.png)
 
-## Managing typologies {#managing-typologies}
+## タイポロジの管理 {#managing-typologies}
 
-アプリには、いくつかのタイポロジがデフォルトで存在します。必要に応じて、独自のタイポロジを作成したり、既存のタイポロジを変更したりできます。
+アプリケーションには、デフォルトで複数のタイポロジが存在します。 ニーズに応じて、独自のタイポロジを作成したり、既存のタイポロジを変更したりできます。
 
-1. **[!UICONTROL List of typologies]****[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Typologies]** メニューからアクセスします。
-1. コンテンツとプロパティを変更するか、新しいプロパティを作成するかを選択します。
+1. //メニューか **[!UICONTROL List of typologies]** ら、を **[!UICONTROL Administration]** 選択し **[!UICONTROL Channels]** てアクセス **[!UICONTROL Typologies]** します。
+1. コンテンツとプロパティを変更するタイポロジを選択するか、新しいタイポロジを作成します。
 
    ![](assets/typology_list.png)
 
-1. タイポロジのタイプを定義します。タイポロジは、「標準」または「フィルター」のいずれかです。
-1. **[!UICONTROL Add an element]** ボタンを使用して必要なタイポロジルールを追加するか、使用しないものを削除します。
+1. タイポロジのタイプを定義します。 タイポロジは、標準またはフィルターのいずれかです。
+1. ボタンを使用して必要なタイポロジルールを追 **[!UICONTROL Add an element]** 加するか、使用しないタイポロジルールを削除します。
 
-   特定のタイポロジにルールが適用される順序を変更できます。これを行うには、要素を移動して、画面に表示される順序を変更します。実行順序に対応する数字が自動的に再計算されます。The rule application mode is presented in the [Typology rules execution order](../../administration/using/about-typology-rules.md#typology-rules-execution-order) section.
+   特定のタイポロジにルールが適用される順序を変更できます。 これを行うには、エレメントを移動して、画面に表示される順序を変更します。 その後、実行順序に対応する数値が自動的に再計算されます。 ルールの適用モードは、「タイポロジルールの実 [行順序」セクションに表示され](#typology-rules-execution-order) ます。
 
    この画面に表示されるルールは、読み取り専用モードでアクセスできます。
 
-タイポロジを使用できます。メッセージプロパティまたはメッセージテンプレートプロパティで選択できます。
+タイポロジを使用する準備が整いました。 メッセージのプロパティまたはメッセージテンプレートのプロパティで選択できます。
 
 >[!NOTE]
 >
->**[!UICONTROL IP affinity]** フィールドでは、設定に従って親和性を管理できます。これらはインスタンスの設定ファイルで定義されます。親和性を使用する場合は、管理者にお問い合わせください。
+>このフ **[!UICONTROL IP affinity]** ィールドでは、設定に従って親和性を管理できます。 これらは、インスタンスの設定ファイルで定義されます。 親和性を使用する場合は、管理者に問い合わせてください。
 
-## Typology rules {#typology-rules}
+## タイポロジルール {#typology-rules}
 
-タイポロジルールは、メッセージの準備中に適用されるビジネスルールです。これらは、メッセージが有効であり、品質条件を満たすかどうかを確認するために使用されます。また、ターゲットオーディエンスの各メンバーがメッセージを受信できるかどうかもチェックします。
+タイポロジルールは、メッセージの準備中に適用されるビジネスルールです。 メッセージが有効で、品質基準を満たしているかどうかを確認するために使用されます。 また、ターゲットオーディエンスの各メンバーがメッセージを受け取る資格があるかどうかも確認します。
 
-Typology rules are available under the **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Typologies]** &gt; **[!UICONTROL Typology rules]** menu.
+タイポロジルールは、//メニ **[!UICONTROL Administration]** ューで **[!UICONTROL Channels]** 使用 **[!UICONTROL Typologies]** でき **[!UICONTROL Typology rules]** ます。
 
-ルールには2種類あります。
+ルールには次の2種類があります。
 
-* **フィルタ** ルール:を使用すると、特定の数の電子メールを送信済みの隔離されたプロファイルやプロファイルなど、クエリで定義された条件に従って、メッセージターゲットの一部を除外できます。See [Filtering rules](../../administration/using/filtering-rules.md).
-* **疲労** ルール:を使用すると、プロファイルごとのメッセージの最大数を定義して、それらを過度に考慮することができなくなります。[疲労ルール](../../administration/using/fatigue-rules.md)を参照してください。
-* **制御** ルール:ユーザーが送信する前に、メッセージの有効性と品質（文字表示、SMSメッセージサイズ、アドレス形式など）を確認できます。See [Control rules](../../administration/using/control-rules.md).
+* **フィルタ** ールール：検疫済みのプロファイルや、特定の数の電子メールが既に送信されたプロファイルなど、クエリで定義された条件に従って、メッセージターゲットの一部を除外できます。 詳しくは、ル [ールのフィルタリングを参照してくださ](../../administration/using/filtering-rules.md)い。
+* **疲労ルール** :過剰要請を避けるために、プロファイルごとに最大メッセージ数を定義できます。 疲労ル [ールを参照](../../administration/using/fatigue-rules.md)。
+* **制御規則** :ユーザーは、メッセージが送信される前に、文字表示、SMSメッセージサイズ、アドレス形式などのメッセージの有効性と品質を確認できます。 制御ル [ールを参照](../../administration/using/control-rules.md)。
 
 タイポロジルールは、1つのチャネルまたはすべてのチャネルにのみ適用できます。
 
 ![](assets/typology_channel.png)
 
-**[!UICONTROL Properties]** タイポロジルールでは、その実行順を設定できます。複数のルールを適用する必要がある場合、各ルールの実行順によって、最初に処理する処理が決定されます。For more on this, refer to the [Typology rules execution order](../../administration/using/about-typology-rules.md#typology-rules-execution-order) section.
+タイポロジ **[!UICONTROL Properties]** ルールでは、実行順序を設定できます。 複数のルールを適用する必要がある場合、各ルールの実行順序によって、最初に処理するルールが決まります。 詳しくは、「タイポロジルールの実行順 [序」の節を参照してください](#typology-rules-execution-order) 。
 
 ![](assets/typology_rule-active.png)
 
-A typology rule can be deactivated through its **[!UICONTROL Properties]** if you do not want the rule to be applied at the moment that the messages concerned by the rule are analyzed.
+ルールに関連するメッセージを分析する際に、ル **[!UICONTROL Properties]** ールを適用しない場合は、ルールを使用してタイポロジルールを非アクティブ化できます。
 
 ![](assets/typology_rule-order.png)
 
-**[!UICONTROL Targeting context]** カテゴリでは、ターゲット設定するデータに応じて **ターゲットディメンション** と **フィルタリングディメンション** を選択できます。
+カテゴリ **[!UICONTROL Targeting context]** で、ターゲット化するデータに応じ **て** 、ターゲッ **** ト化ディメンションとフィルターディメンションを選択できます。
 
-By default, filtering is carried out on the **[!UICONTROL Profiles]**. For example, if the rule is aimed at a mobile application, the **[!UICONTROL Filtering dimension]** can be changed to **[!UICONTROL Subscriptions to an application]**.
+デフォルトでは、フィルタリングはに対して実行されま **[!UICONTROL Profiles]**&#x200B;す。 例えば、モバイルアプリケーションを対象としたルールの場合、をに変 **[!UICONTROL Filtering dimension]** 更することができま **[!UICONTROL Subscriptions to an application]**&#x200B;す。
 
 ![](assets/typology_rule-order_2.png)
 
-## Typology rules execution order {#typology-rules-execution-order}
+## タイポロジルールの実行順序 {#typology-rules-execution-order}
 
-タイポロジルールは、ターゲット設定、分析およびメッセージのパーソナライゼーションフェーズで指定された順序で実行されます。
+タイポロジルールは、ターゲット設定、分析およびメッセージパーソナライゼーションの各段階で指定された順序で実行されます。
 
-標準操作モードでは、ルールは次の順序で適用されます。
+標準の操作モードでは、ルールは次の順序で適用されます。
 
-1. 制御ルール（ターゲット設定の開始時に適用される場合）。
-1. フィルタルール:
+1. ターゲティングの開始時に適用されるコントロールルール
+1. フィルタールール：
 
-   * アドレス選定用のネイティブアプリケーションルール:アドレス/検証されていないアドレス/ブラックリストに記載されたアドレス/隔離アドレス/アドレスの品質。
-   * ユーザーによって定義されたフィルタールール。
+   * デフォルトで適用されるアドレス選定ルール（定義されたアドレス／検証されていないアドレス／ブラックリストに登録されたアドレス／強制隔離されたアドレス／アドレスの質）
+   * ユーザーによって定義されたフィルタールール
 
-1. ターゲットルールがターゲット設定の最後に適用されている場合は、ルールを制御します。
-1. 制御ルール（パーソナライゼーションの開始時に適用される場合）。
+1. ターゲティングの終了時に適用されるコントロールルール
+1. パーソナライゼーションの開始時に適用されるコントロールルール
 1. 制御ルール（パーソナライゼーションの最後に適用される場合）。
 
-ただし、各タイポロジで同じタイプのルールの実行順序を調整できます。実際には、同じメッセージ処理段階で複数のルールが実行された場合、適用される順序を選択できます。
+ただし、各タイポロジで同じタイプのルールの実行順序を適応させることはできます。 実際、同じメッセージ処理段階で複数のルールが実行される場合、適用する順序を選択できます。
 
-例えば、20の位置に実行注文が配置されているフィルタリングルールは、実行順序が30であるフィルタールールの前に実行されます。
+例えば、実行順序が20のフィルタリングルールは、実行順序が30のフィルタリングルールよりも前に実行されます。
