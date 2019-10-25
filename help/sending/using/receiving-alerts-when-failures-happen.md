@@ -2,282 +2,282 @@
 title: エラー発生時のアラートの受信
 seo-title: エラー発生時のアラートの受信
 description: エラー発生時のアラートの受信
-seo-description: アラート管理システムの使用方法について説明します。
-page-status-flag: 常にアクティブ化されていない
-uuid: a3ab733a- e3db-4adc- b930- cd4064b6dc1c
-contentOwner: サウビート
-products: SG_ CAMPAIGN/STANDARD
-audience: 送信中
+seo-description: アラート管理システムの使用方法を説明します。
+page-status-flag: 非活性化の
+uuid: a3ab733a-e3db-4adc-b930-cd4064b6dc1c
+contentOwner: ソビア
+products: SG_CAMPAIGN/STANDARD
+audience: 送信
 content-type: 参照
 topic-tags: 監視メッセージ
-discoiquuid: 0766bd57- c5f1-4f56- ac84- e5a04d3819ec
+discoiquuid: 0766bd57-c5f1-4f56-ac84-e5a04d3819ec
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 07c0b1b1ad6f9822e220e86f54dfa46475009132
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
 
-# Receiving alerts when failures happen{#receiving-alerts-when-failures-happen}
+# エラー発生時のアラートの受信{#receiving-alerts-when-failures-happen}
 
-## About delivery alerting {#about-delivery-alerting}
+## 配信アラートについて {#about-delivery-alerting}
 
-**配信の警告** 機能は、ユーザーグループが配信の実行に関する情報を含む通知を自動的に受信できるアラート管理システムです。
+配信ア **ラート機能は** 、ユーザーのグループが配信の実行に関する情報を含む通知を自動的に受け取れるようにするアラート管理システムです。
 
 送信される通知には、デフォルトで次の条件に基づくレポートが含まれます。
 
 * 配信失敗
 * 準備に失敗した配信
-* ソフトバウンスエラーの割合の配信配信
-* ハードバウンスのエラー率の高い配信
-* 保留中のステータスが通常よりも長い配信
+* ソフトバウンスエラー率の悪い配信
+* ハードバウンスエラー率の悪い配信
+* 保留状態の配信が通常より長い
 * 低スループットの配信
 * 配信中
 
-アラートの受信者は、Adobe Campaignによって処理されている配信を監視し、実行時に問題が発生した場合に適切なアクションを実行できます。
+アラートの受信者は、Adobe Campaignで処理されている配信を監視し、アラートの実行に問題がある場合に適切な処置をとることができます。
 
-これらの警告通知は、Adobe Campaignインターフェイスのダッシュボードによって定義される特定の警告条件に応じてカスタマイズできます。
+これらの警告通知は、Adobe Campaignインターフェイスのダッシュボードで定義される特定の警告条件に応じてカスタマイズできます。
 
 >[!NOTE]
 >
->通知通知は電子メールでのみ配信されます。
+>警告通知は電子メールでのみ配信されます。
 
-送信される通知には次のものがあります。
+送信される通知には、次の情報が含まれます。
 
-* A **[!UICONTROL Summary]** displaying the number of deliveries meeting the criteria that you defined and the label/color that you chose for each criterion.
-* **[!UICONTROL Details]** 該当するダッシュボードに対して定義されているすべての配信条件と、各条件に対するすべての配信条件を一覧表示するセクション。
+* 定義 **[!UICONTROL Summary]** した条件を満たす配信数と、各条件で選択したラベル/色を表示するもの。
+* 対応す **[!UICONTROL Details]** るダッシュボードに定義されたすべての配信条件と、各条件に対するすべての配信条件を一覧表示するセクション。
 
 ![](assets/delivery-alerting_notification.png)
 
-## Delivery alerting dashboards {#delivery-alerting-dashboards}
+## 配信警告ダッシュボード {#delivery-alerting-dashboards}
 
-### About delivery alerting dashboards {#about-delivery-alerting-dashboards}
+### 配信警告ダッシュボードについて {#about-delivery-alerting-dashboards}
 
-通知の受信者を管理し、アラートの条件を定義し、アラートの履歴にアクセスするには、ダッシュボードを使用する必要があります。
+通知の受信者を管理するには、アラート条件を定義し、アラートの履歴にアクセスするダッシュボードを使用する必要があります。
 
 >[!NOTE]
 >
->To access and configure the dashboards and the alerting criteria, you must have administration rights or appear in the **Delivery supervisors** security group. Standardのユーザーは、Adobe Campaignインターフェイスでダッシュボードにアクセスできません。アラート通知のみを受信できます。For more on users and security in Adobe Campaign, see [Types of users](../../administration/using/users-management.md) and [About security groups](../../administration/using/managing-groups-and-users.md#about-security-groups).
+>ダッシュボードとアラート条件にアクセスして設定するには、管理権限を持っているか、配信スーパーバイザーのセキュリティグループに表 **示される** 必要があります。 標準ユーザーは、Adobe Campaignインターフェイスでダッシュボードにアクセスできません。 通知を受け取ることができるのは、アラート通知のみです。 Adobe Campaignのユーザーとセキュリティについて詳しくは、「ユーザーのタイプ」お [よび「セキュリティグループ](../../administration/using/users-management.md) 」 [を参照してください](../../administration/using/managing-groups-and-users.md#about-security-groups)。
 
-Adobe Campaignインターフェイスでは、次のことができます。
+Adobe Campaignインターフェイスから、次の操作を行うことができます。
 
-* ダッシュボードを警告する配信を作成および管理します。See [Creating a delivery alerting dashboard](../../sending/using/receiving-alerts-when-failures-happen.md#creating-a-delivery-alerting-dashboard).
-* 各ダッシュボードの配信に関する基準条件を定義および管理します。例えば、準備に失敗した配信や低スループットのみの配信に基づいてアラートを構築できます。See [About alerting criteria](../../sending/using/receiving-alerts-when-failures-happen.md#about-alerting-criteria).
-* 各ダッシュボードの条件パラメーターを変更します。See [Criteria parameters](../../sending/using/receiving-alerts-when-failures-happen.md#criteria-parameters).
+* 配信アラートダッシュボードを作成し、管理します。 「配信アラ [ートダッシュボードの作成](#creating-a-delivery-alerting-dashboard)」を参照。
+* 各ダッシュボードの配信アラート条件を定義し、管理します。 例えば、準備に失敗した配信やスループットが低い配信に基づいてアラートを作成できます。 「アラート [条件について](#about-alerting-criteria)」を参照。
+* 各ダッシュボードの条件パラメータを変更します。 条件パラメ [ーターを参照してくださ](#criteria-parameters)い。
 * 各ダッシュボードの受信者のグループを定義します。
 
-   例えば、配信失敗の管理権限をユーザーに通知する場合などです。ただし、マーケティングユーザーが配信に関する情報を受信すると、ソフトバウンスの不正確なエラーとなります。したがって、2つの異なるダッシュボードを作成して、各受信者グループに必要な条件を定義する必要があります。
+   例えば、失敗した配信のみの管理権限を持つユーザーに通知するとします。 ただし、ソフトバウンス不良エラー率を持つ配信に関する情報をマーケティングユーザーに受け取ってもらいたい場合は、 したがって、2つの異なるダッシュボードを作成し、受信者の各グループに必要な条件を定義する必要があります。
 
-* 各ダッシュボードのすべての送信済みアラートの履歴にアクセスします。
+* 各ダッシュボードの送信済みすべてのアラートの履歴にアクセスします。
 
-   ダッシュボードを選択すると、このダッシュボードの最後に送信されたアラートがデフォルトで表示されます。送信されたアラートはすべて画面の左側に表示されます。Click an item in the **[!UICONTROL History]** list to access the corresponding alerts.
+   ダッシュボードを選択すると、このダッシュボードに対して最後に送信されたアラートがデフォルトで表示されます。 送信されたすべてのアラートが画面の左側に表示されます。 対応するアラートにアクセスするには、 **[!UICONTROL History]** リスト内のアイテムをクリックします。
 
 ![](assets/delivery-alerting_dashboard.png)
 
-### Creating a delivery alerting dashboard {#creating-a-delivery-alerting-dashboard}
+### 配信警告ダッシュボードの作成 {#creating-a-delivery-alerting-dashboard}
 
-特定の条件に基づいて通知を送信する場合は、複数のダッシュボードを使用する必要があります。新しいダッシュボードを作成するには:
+特定の条件に基づいて異なるユーザーグループに通知を送信する場合は、複数のダッシュボードを使用する必要があります。 新しいダッシュボードを作成するには：
 
 1. Go to **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Delivery alerting]**.
-1. Select **[!UICONTROL Delivery alerting dashboards]** and click **[!UICONTROL Create]**.
-1. **[!UICONTROL Enabled]** 現在のダッシュボードをアクティブにするには、該当のチェックボックスをオンにします。
+1. を選択し、 **[!UICONTROL Delivery alerting dashboards]** をクリックしま **[!UICONTROL Create]**&#x200B;す。
+1. 現在のダッシュボ **[!UICONTROL Enabled]** ードをアクティブにするには、このボックスをオンにします。
 
-   このオプションを無効にすると、このダッシュボードにリンクされている通知は送信されなくなります。このオプションはデフォルトで無効になっています。
+   このオプションを無効にすると、このダッシュボードにリンクされた通知は送信されなくなります。 このオプションはデフォルトでは無効です。
 
    ![](assets/delivery-alerting_dashboard_general.png)
 
-1. Select the group of recipients that you want to notify from the **[!UICONTROL Alert group]** drop-down list. To modify or create a group, see [Creating a security group and assigning users](../../administration/using/managing-groups-and-users.md#creating-a-security-group-and-assigning-users).
-1. **[!UICONTROL Delivery alerting criteria]** セクションから、をクリック **[!UICONTROL Create element]** して条件を追加します。See [About alerting criteria](../../sending/using/receiving-alerts-when-failures-happen.md#about-alerting-criteria).
-1. **[!UICONTROL Edit properties]** ボタンを選択します。**[!UICONTROL Criteria parameters]** タブで、条件の適用方法を定義します。See [Criteria parameters](../../sending/using/receiving-alerts-when-failures-happen.md#criteria-parameters).
-1. Click **[!UICONTROL Create]** to save the dashboard.
+1. 通知する受信者のグループをドロップダウンリスト **[!UICONTROL Alert group]** から選択します。 グループを変更または作成するには、「セキュリティグ [ループの作成とユーザーの割り当て」を参照してくださ](../../administration/using/managing-groups-and-users.md#creating-a-security-group-and-assigning-users)い。
+1. セクションで、 **[!UICONTROL Delivery alerting criteria]** をクリックして条 **[!UICONTROL Create element]** 件を追加します。 「アラート [条件について](#about-alerting-criteria)」を参照。
+1. ボタンを選択 **[!UICONTROL Edit properties]** します。 タブで、 **[!UICONTROL Criteria parameters]** 条件の適用方法を定義します。 条件パラメ [ーターを参照してくださ](#criteria-parameters)い。
+1. をクリック **[!UICONTROL Create]** して、ダッシュボードを保存します。
 
-現在は、配信がこのダッシュボードで定義した条件を満たすたびに、指定したユーザグループに警告通知が送信されます。
+現在は、配信がこのダッシュボードで定義した条件を満たすたびに、指定したユーザーのグループに警告通知が送信されます。
 
-## Delivery alerting criteria {#delivery-alerting-criteria}
+## 配信アラート条件 {#delivery-alerting-criteria}
 
-### About alerting criteria {#about-alerting-criteria}
+### アラート条件について {#about-alerting-criteria}
 
-To access the delivery alerting criteria, go to **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Delivery alerting]** and select **[!UICONTROL Delivery alerting criteria]**.
+配信アラート条件にアクセスするには、/ **[!UICONTROL Administration]** &gt;に移動 **[!UICONTROL Channels]** し、 **[!UICONTROL Delivery alerting]** を選択しま **[!UICONTROL Delivery alerting criteria]**&#x200B;す。
 
 ![](assets/delivery-alerting_criteria.png)
 
-次の条件は、ダッシュボードの警告ダッシュボードで使用できます。
+配信警告ダッシュボードでは、次の条件を使用できます。
 
-* **[!UICONTROL Deliveries failed]**:定義済みの範囲内でスケジュールされた配信で、ステータスが誤っている。
-* **[!UICONTROL Deliveries with preparation failed]**:定義された範囲内で変更された配信で、準備手順（ターゲットの計算とコンテンツ生成）が失敗します。For more on this, see [Preparing the send](../../sending/using/preparing-the-send.md).
-* **[!UICONTROL Delivery with bad error ratio for soft bounces]**:定義済みの範囲内でスケジュールされた配信（ステータスが少なくとも **[!UICONTROL In progress]**、定義済みの割合よりも大きい）。
-* **[!UICONTROL Delivery with bad error ratio for hard bounces]**:定義された範囲内でスケジュールされた配信（ステータスが少なく **[!UICONTROL In progress]**&#x200B;とも直帰率の高い）。
-* **[!UICONTROL Deliveries with long start pending]**:定義済みの範囲内でスケジュールされた配信で **[!UICONTROL Start pending]** 、定義された期間より長い状態で **[!UICONTROL Start pending]** 、メッセージがまだシステムによって考慮されていないことを意味します。
-* **[!UICONTROL Deliveries with low throughput]**:定義された一連のメッセージのうち、定義された割合よりも少ない配信が開始され、定義された値よりも少ないスループットが得られます。
-* **[!UICONTROL Deliveries in progress]**:定義済みの範囲内でスケジュールされた配信の **[!UICONTROL In progress]** 状態。
+* **[!UICONTROL Deliveries failed]**:定義された範囲内でスケジュールされた配信で、ステータスが誤っている。
+* **[!UICONTROL Deliveries with preparation failed]**:定義された範囲内で変更された配信で、準備手順（ターゲットの計算とコンテンツの生成）が失敗した場合。 詳しくは、「送信の準備」を [参照してください](../../sending/using/preparing-the-send.md)。
+* **[!UICONTROL Delivery with bad error ratio for soft bounces]**:少なくともステータスが定義済みの範囲内でスケジュールされた、ソフトバ **[!UICONTROL In progress]**&#x200B;ウンスエラー率が定義済みの割合を超える配信。
+* **[!UICONTROL Delivery with bad error ratio for hard bounces]**:定義された範囲内にスケジュールされた、少なくともステータスを持つ配信で、ハ **[!UICONTROL In progress]**&#x200B;ードバウンスエラー率が定義された割合を超えるもの。
+* **[!UICONTROL Deliveries with long start pending]**:定義された範囲内でスケジュールされた配信。ステータスは、 **[!UICONTROL Start pending]** 定義された期間より長く、メッセージはシステムによってまだ考慮されていな **[!UICONTROL Start pending]** いことを意味します。
+* **[!UICONTROL Deliveries with low throughput]**:定義された期間を超える配信が開始され、処理済みメッセージの定義された割合未満で、スループットが定義された値より低い。
+* **[!UICONTROL Deliveries in progress]**:定義した範囲内にスケジュールされた、ステータスを持つす **[!UICONTROL In progress]** べての配信。
 
 >[!NOTE]
 >
->上記の条件に適用されるすべてのパラメーターにデフォルト値があります。These values can be changed in the **[!UICONTROL Criteria parameters]** tab of the delivery alerting dashboards. See [Criteria parameters](../../sending/using/receiving-alerts-when-failures-happen.md#criteria-parameters).
+>上記の条件に適用するすべてのパラメーターには、デフォルト値が設定されています。 これらの値は、配信警告ダッシュボ **[!UICONTROL Criteria parameters]** ードのタブで変更できます。 条件パラメ [ーターを参照してくださ](#criteria-parameters)い。
 
-You can select any item from the **[!UICONTROL Delivery alerting criteria]** list to access its details.
+リストから任意の項目を選択して、その詳 **[!UICONTROL Delivery alerting criteria]** 細にアクセスできます。
 
 ![](assets/delivery-alerting_criteria_definition.png)
 
-各条件について、次の設定を定義できます。
+各条件に対して、次の設定を定義できます。
 
-* **[!UICONTROL Indicators to add in alerts]**&#x200B;を **[!UICONTROL Details]** 参照してください。
+* **[!UICONTROL Indicators to add in alerts]**&#x200B;を指定します。つまり、選択した条件に対応する配信に対して、通 **[!UICONTROL Details]** 知のセクションに表示される列です。
 
    ![](assets/delivery-alerting_notification_colums.png)
 
-* **[!UICONTROL Alert type]**&#x200B;とは、通知の概要の配信条件の横に表示されるラベルと色です。
+* **[!UICONTROL Alert type]**&#x200B;を指定します。つまり、通知の概要で配信条件の横に表示されるラベルと色を指定します。
 
    ![](assets/delivery-alerting_notification_labels.png)
 
-* **[!UICONTROL Criteria frequency]**:1つの配信に対して条件が満たされた場合、監視期間内に送信される通知ごとに繰り返されます。そうしないと、1回の配信のアラート条件によって1つのアラートのみが1つのアラートに送信されます。
+* **[!UICONTROL Criteria frequency]**:1回の配信に対して条件が満たされた場合、監視期間内に送信される各通知でその条件が繰り返されます。 それ以外の場合は、1回の配信に関するアラート条件別に、1日に1つのアラートのみが送信されます（最初のアラートの発生時）。
 
-   デフォルトでは、すべての条件の1日に1回このオプションが設定されます。
+   デフォルトでは、このオプションはすべての条件に対して1日に1回設定されています。
 
-**関連トピック:**
+**関連トピック：**
 
 * [ログの送信](../../sending/using/monitoring-a-delivery.md#sending-logs)
-* [警告頻度](../../sending/using/receiving-alerts-when-failures-happen.md#alerting-frequency)
+* [アラート頻度](#alerting-frequency)
 * [マーケティングアクティビティのアイコンとステータス](../../start/using/marketing-activities.md#marketing-activity-icons-and-statuses)
 
-### Creating a delivery alerting criterion {#creating-a-delivery-alerting-criterion}
+### 配信アラート条件の作成 {#creating-a-delivery-alerting-criterion}
 
-ニーズに合わせて、新しい配信基準を作成できます。
+ニーズに合わせて新しい配信アラート条件を作成できます。
 
-For example, you can create a new criterion enabling to send a notification listing all deliveries with a **[!UICONTROL Finished]** status.
+例えば、新しい条件を作成して、すべての配信のステータスを示す通知を送信でき **[!UICONTROL Finished]** ます。
 
-To do this, you first need to extend the **Delivery** resource and add a new filter allowing you to select only the deliveries with a **[!UICONTROL Finished]** status.
+これを行うには、まず配信リソースを拡張し **、新しいフィルターを追加して** 、ステータスの配信のみを選択できるようにする必要があ **[!UICONTROL Finished]** ります。
 
-1. **Adobe Campaign** / **管理** / **開発** / **カスタムリソースに移動** し、をクリック **[!UICONTROL Create]**&#x200B;します。
-1. Select **[!UICONTROL Extend an existing resource]**, select the **[!UICONTROL Delivery]** resource from the drop-down list and click **[!UICONTROL Create]** to edit it.
+1. Adobe Campaign/管理/開発 **** /カス **タムリソース** / **ク********[!UICONTROL Create]**&#x200B;リックに移動します。
+1. を選択 **[!UICONTROL Extend an existing resource]**&#x200B;し、ドロップダ **[!UICONTROL Delivery]** ウンリストからリソースを選択し、をクリック **[!UICONTROL Create]** して編集します。
 
    ![](assets/delivery-alerting_extend-delivery-cus.png)
 
-   For more on extending an existing resource, see [Define the resource](../../developing/using/creating-or-extending-the-resource.md).
+   既存のリソースの拡張について詳しくは、「リソースの定 [義」を参照してください](../../developing/using/creating-or-extending-the-resource.md)。
 
-1. **[!UICONTROL Delivery]** リソースでタブに **[!UICONTROL Filter definition]** 移動し、をクリック **[!UICONTROL Add an element]** してフィルターを作成します。
+1. リソース **[!UICONTROL Delivery]** で、タブに移動し、をク **[!UICONTROL Filter definition]** リックしてフ **[!UICONTROL Add an element]** ィルターを作成します。
 
    ![](assets/delivery-alerting_new-filter.png)
 
-1. Edit the new filter definition: in the **[!UICONTROL Filter definition]** window, drag and drop the **[!UICONTROL Status]** item into the workspace and select **[!UICONTROL Finished]** as the filter condition.
+1. 新しいフィルター定義を編集します。ウィンドウ **[!UICONTROL Filter definition]** で、アイテムをワークスペースにド **[!UICONTROL Status]** ラッグ&amp;ドロップし、フィル **[!UICONTROL Finished]** ター条件として選択します。
 
    ![](assets/delivery-alerting_filter-status.png)
 
-   For more on creating and editing custom filters, see [Define filters](../../developing/using/configuring-filter-definition.md).
+   カスタムフィルターの作成と編集について詳しくは、フィルターの定義を参 [照してくださ](../../developing/using/configuring-filter-definition.md)い。
 
-1. 変更を保存し、リソースを公開します。For more on this, see [Publishing a custom resource](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
+1. 変更を保存し、リソースを発行します。 詳しくは、「カスタムリソースの公 [開」を参照してください](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)。
 
-   フィルターが作成され、新しい配信条件で選択できるようになりました。
+   フィルターが作成され、新しい配信アラート条件で選択できるようになりました。
 
-1. **[!UICONTROL Administration]** &gt; **[!UICONTROL Channels]** &gt; **[!UICONTROL Delivery alerting]**&#x200B;に移動し、選択 **[!UICONTROL Delivery alerting criteria]** してクリック **[!UICONTROL Create]**&#x200B;します。
-1. **[!UICONTROL Delivery filter applied by this criterion]** ドロップダウンリストで、作成したフィルターを選択します。
+1. /に移動し **[!UICONTROL Administration]** 、を選 **[!UICONTROL Channels]** 択し **[!UICONTROL Delivery alerting]**&#x200B;てをクリ **[!UICONTROL Delivery alerting criteria]** ックしま **[!UICONTROL Create]**&#x200B;す。
+1. ドロップダ **[!UICONTROL Delivery filter applied by this criterion]** ウンリストで、作成したフィルターを選択します。
 
    ![](assets/delivery-alerting_cus-filter.png)
 
-   条件の設定は、デフォルトの条件と同じ方法で定義できます。See [About alerting criteria](../../sending/using/receiving-alerts-when-failures-happen.md#about-alerting-criteria).
+   既定の条件と同じ方法で条件の設定を定義できます。 「アラート [条件について](#about-alerting-criteria)」を参照。
 
-これらの条件を作成すると、他の条件と共に、ダッシュボードにアラートを追加できます。See [About delivery alerting dashboards](../../sending/using/receiving-alerts-when-failures-happen.md#about-delivery-alerting-dashboards).
+これらの条件を作成すると、配信警告ダッシュボードおよび他の条件に追加できます。 「配信警告ダ [ッシュボードについて](#about-delivery-alerting-dashboards)」を参照してください。
 
 ![](assets/delivery-alerting_new-criterion.png)
 
-**関連トピック:**
+**関連トピック：**
 
 [リソースの追加または拡張](../../developing/using/key-steps-to-add-a-resource.md)
 
-## Delivery alerting parameters {#delivery-alerting-parameters}
+## 配信警告パラメータ {#delivery-alerting-parameters}
 
-### Criteria parameters {#criteria-parameters}
+### 条件パラメーター {#criteria-parameters}
 
-In the **[!UICONTROL Criteria parameters]** tab of a [delivery alerting dashboard](../../sending/using/receiving-alerts-when-failures-happen.md#creating-a-delivery-alerting-dashboard), you can define the settings that apply to the criteria selected in this dashboard.
+配信アラートダ **[!UICONTROL Criteria parameters]** ッシュボ [ードのタブで](#creating-a-delivery-alerting-dashboard)、このダッシュボードで選択した条件に適用する設定を定義できます。
 
 ![](assets/delivery-alerting_dashboard_criteria-parameters.png)
 
-* **[!UICONTROL Delivery target minimum size]**:例えば、このフィールドに100と入力すると、ターゲットと100人以上の受信者の配信についてのみ通知が送信されます。このパラメーターはすべての条件に適用されます。
-* **[!UICONTROL Monitoring period before and after the contact date (in hours)]**:現在時間の前後の時間数。この時間範囲に連絡日を持つ配信のみが考慮されます。このパラメーターはすべての条件に適用されます。デフォルトでは、このフィールドの値は24時間に設定されています。
+* **[!UICONTROL Delivery target minimum size]**:例えば、このフィールドに100と入力した場合、ターゲットが100人以上の配信に対してのみ通知が送信されます。 このパラメーターは、すべての条件に適用されます。
+* **[!UICONTROL Monitoring period before and after the contact date (in hours)]**:現在の時刻の前後の時間数。 この時間範囲に連絡日を持つ配信のみが考慮されます。 このパラメーターは、すべての条件に適用されます。 デフォルトでは、このフィールドの値は24時間に設定されています。
 
-   For more information on the contact date, see [About the scheduling](../../sending/using/about-scheduling-messages.md).
+   連絡日の詳細については、「スケジュールにつ [いて](../../sending/using/about-scheduling-messages.md)」を参照してください。
 
-* **[!UICONTROL Maximum ratio of soft bounce errors]**:指定した値よりも大きいバウンスエラーの割合を持つすべての配信に対して通知が送信されます。デフォルトでは、このフィールドの値は0.05（5%）に設定されています。
+* **[!UICONTROL Maximum ratio of soft bounce errors]**:指定した値より大きいソフトバウンスエラー率を持つすべての配信に対して通知が送信されます。 デフォルトでは、このフィールドの値は0.05 (5%)に設定されています。
 
-   For more on soft bounce errors, see [Bounce mail qualification](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification) and [List of delivery failure types](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
+   ソフトバウンスエラーについて詳しくは、「バウンスメ [ールの資格](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification) 」と「配 [信失敗タイプのリスト](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)」を参照してください。
 
-* **[!UICONTROL Maximum ratio of hard bounce errors]**:指定した値よりも大きい直帰率のエラーを持つすべての配信に対して通知が送信されます。デフォルトでは、このフィールドの値は0.05（5%）に設定されています。
+* **[!UICONTROL Maximum ratio of hard bounce errors]**:ハードバウンスエラー率が指定値より大きいすべての配信に対して通知が送信されます。 デフォルトでは、このフィールドの値は0.05 (5%)に設定されています。
 
-   For more on hard bounce errors, see [Bounce mail qualification](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification) and [List of delivery failure types](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
+   ハードバウンスエラーについて詳しくは、「バウンスメ [ールの資格](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification) 」と「配 [信失敗タイプのリスト](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)」を参照してください。
 
-* **[!UICONTROL Minimum time threshold for delivery in 'Start pending' status (in minutes)]**:このフィールドで指定された期間より **[!UICONTROL Start pending]** 長い状態の配信がすべて送信され、 **[!UICONTROL Start pending]** そのメッセージがまだシステムによって考慮されていないことを意味します。
-* **[!UICONTROL Minimum time required for the computation of the throughput (in minutes)]**:指定した期間を **[!UICONTROL In progress]** 超える配信のみが **[!UICONTROL Deliveries with low throughput]** 、条件に応じて考慮されます。
-* **[!UICONTROL Maximum percentage of processed messages for the computation of the throughput]**:指定した割合より少ない処理されたメッセージに対する割合の配信のみが **[!UICONTROL Deliveries with low throughput]** 考慮されます。
-* **[!UICONTROL Minimum expected throughput (in sent messages per hour)]**:指定した値よりも少ないスループットの配信のみが **[!UICONTROL Deliveries with low throughput]** 考慮されます。
-* **[!UICONTROL Minimum processed ratio required for 'Deliveries in progress' criterion]**:指定した割合よりも大きい処理済みメッセージの割合を持つ配信のみが考慮されます。
+* **[!UICONTROL Minimum time threshold for delivery in 'Start pending' status (in minutes)]**:このフィールドで指定した期間より長いステータスを持つすべての配信に対して、通知が送信されます。つまり、 **[!UICONTROL Start pending]****[!UICONTROL Start pending]** statusは、メッセージがシステムによってまだ考慮されていないことを意味します。
+* **[!UICONTROL Minimum time required for the computation of the throughput (in minutes)]**:指定した期間を超え **[!UICONTROL In progress]** る配信が開始された（ステータスの）場合のみ、条件が考慮さ **[!UICONTROL Deliveries with low throughput]** れます。
+* **[!UICONTROL Maximum percentage of processed messages for the computation of the throughput]**:処理済みメッセージの割合が指定した割合より低い配信のみが、条件に考慮され **[!UICONTROL Deliveries with low throughput]** ます。
+* **[!UICONTROL Minimum expected throughput (in sent messages per hour)]**:指定した値より低いスループットを持つ配信のみが基準に考慮され **[!UICONTROL Deliveries with low throughput]** ます。
+* **[!UICONTROL Minimum processed ratio required for 'Deliveries in progress' criterion]**:処理済みメッセージの割合が指定した割合を超える配信のみが考慮されます。
 
-### Alerting frequency {#alerting-frequency}
+### アラート頻度 {#alerting-frequency}
 
-**[!UICONTROL Frequency of delivery alerting]** このオプションを使用すると、2つのアラートの条項間の遅延を定義できます。デフォルトでは、10分に設定されています。
+このオ **[!UICONTROL Frequency of delivery alerting]** プションを使用して、2つのアラート送信間の遅延を定義できます。 デフォルトでは、10分に設定されています。
 
-You can change this setting through the **[!UICONTROL Administration]** &gt; **[!UICONTROL Application settings]** &gt; **[!UICONTROL Options]** menu.
+この設定は、//メニューから **[!UICONTROL Administration]** 変更で **[!UICONTROL Application settings]** き **[!UICONTROL Options]** ます。
 
 >[!NOTE]
 >
->このオプションは、Adobe Campaignで定義されているすべてのダッシュボードに適用されます。ダッシュボードごとに特定の頻度を設定することはできません。
+>このオプションは、Adobe Campaignで定義されているすべてのダッシュボードに適用されます。 各ダッシュボードに特定の頻度を設定することはできません。
 
-## Delivery alerting reasons {#delivery-alerting-reasons}
+## 配信アラートの理由 {#delivery-alerting-reasons}
 
-**配信の警告** 機能により、電子メールやダッシュボード経由で、配信の実行ステータスについて自動的に通知されるAdobe Campaignユーザーがすべて保持されます。
+配信アラ **ート機能を使用すると** 、Adobe Campaignの関与するすべてのユーザーに対して、電子メールおよびダッシュボードを介して配信の実行ステータスが自動的に通知されます。
 
-ここでは、通知通知を受信する際に、できることに関するいくつかのヒントを紹介します。
+配信通知を受け取ったら、実行できる操作に関するヒントを以下に示します。
 
-First of all, check the delivery's **Log** tab to view all information relating to the delivery and proofs. 赤と黄色のアイコンを使用すると、エラーや警告を識別できます。赤のアイコンは、配信が開始されないようにする重大なエラーを示します。
+まず、配信の「ログ」タブを確認し **て** 、配信と校正に関するすべての情報を表示します。 赤と黄色のアイコンを使用して、エラーや警告を識別できます。 赤いアイコンは、配信を開始できない重大なエラーを示します。
 
-To view the history of every occurrence of a delivery, select the **[!UICONTROL Sending logs]** tab. 送信されたメッセージとそのステータスのリストが含まれます。There you can check the delivery status for each recipient ( **[!UICONTROL Sent]**, **[!UICONTROL Pending]**, **[!UICONTROL Failed]**, etc.). For more on this, see [Sending logs](../../sending/using/monitoring-a-delivery.md#sending-logs).
+配信のすべてのオカレンスの履歴を表示するには、タブを選択 **[!UICONTROL Sending logs]** します。 送信メッセージとそのステータスのリストが含まれます。 各受信者（、など）の配信ステータ **[!UICONTROL Sent]**&#x200B;スを **[!UICONTROL Pending]**&#x200B;確 **[!UICONTROL Failed]**&#x200B;認できます。 詳しくは、「ログの送信」を参照し [てください](../../sending/using/monitoring-a-delivery.md#sending-logs)。
 
-配信のために満たす条件に従って警告通知を受信する理由をいくつか考えてみましょう。
+配信の条件に従ってアラート通知を受信する場合、考えられる理由を以下に示します。
 
-* **[!UICONTROL Deliveries failed]**:この条件により、ステータスが誤っているすべての配信が通知されます。次のことが原因となります。
+* **[!UICONTROL Deliveries failed]**:この条件は、すべての配信のステータスを誤って知らせます。 次の原因が考えられます。
 
-   * 配信サーバー（MTA、Message Transfer Agent）に関する問題
-   * Adobe Campaign配信サーバーと受信サーバー間の接続タイムアウト
+   * 配信サーバー(MTA、Message Transfer Agent)に関する問題
+   * Adobe Campaign配信サーバーと受信側サーバー間の接続タイムアウト
    * 配信品質の問題
    * 誤ったワークフロー
-   ワークフローで配信がトリガーされた場合は、そのワークフローが正しく開始されているかどうかを確認してください。For more on this, see [Executing a workflow](../../automating/using/executing-a-workflow.md). それ以外の場合は、Adobe Campaign管理者と連絡して問題を解決してください。
+   配信がワークフローでトリガーされた場合は、そのワークフローが正しく開始されているかどうかを確認します。 詳しくは、「ワークフローの実 [行」を参照してください](../../automating/using/executing-a-workflow.md)。 それ以外の場合は、Adobe Campaign管理者に問い合わせて問題を解決します。
 
-* **[!UICONTROL Deliveries with preparation failed]**:次の場合、配信準備中にエラーが発生する可能性があります。
+* **[!UICONTROL Deliveries with preparation failed]**:配信の準備中に、次のような場合にエラーが発生する可能性があります。
 
    * 配信に件名がありません。
-   * パーソナライゼーションフィールドで構文が正しくありません。
-   * ターゲットがありません。
+   * パーソナライゼーションフィールドに誤った構文があります。
+   * ターゲットが見つかりません。
    * 配信がサイズ制限を超えています。
-   For more on this, see [Preparing the send](../../sending/using/preparing-the-send.md). ただし、これらのエラーはメッセージの分析中に一般的に示されます。See [Control rules](../../administration/using/control-rules.md).
+   詳しくは、「送信の準備」を [参照してください](../../sending/using/preparing-the-send.md)。 ただし、これらのエラーは通常、メッセージ分析中に発見されます。 制御ル [ールを参照](../../administration/using/control-rules.md)。
 
-* The possible causes for a **[!UICONTROL Delivery with bad error ratio for soft bounces]** alert can be:
+* アラートの原因として考えられ **[!UICONTROL Delivery with bad error ratio for soft bounces]** るのは、次のとおりです。
 
    * 受信者のサーバーがダウンしています。
    * 受信者のメールボックスがいっぱいです。
-   For more information, check the **[!UICONTROL Exclusion logs]** and **[!UICONTROL Exclusion causes]** tabs of the delivery logs. [除外ログを参照](../../sending/using/monitoring-a-delivery.md#exclusion-logs)してください。
+   詳しくは、配信ログのタ **[!UICONTROL Exclusion logs]** ブとタ **[!UICONTROL Exclusion causes]** ブを確認してください。 除外ロ [グを参照](../../sending/using/monitoring-a-delivery.md#exclusion-logs)。
 
-   The possible causes for a **[!UICONTROL Delivery with bad error ratio for hard bounces]** alert can be:
+   アラートの原因として考えられ **[!UICONTROL Delivery with bad error ratio for hard bounces]** るのは、次のとおりです。
 
-   * 受信者はブラックリストに登録されているため、連絡しなくても構いません。
+   * 受信者はブラックリストに記載されています。つまり、受信者に連絡を取りたくなくなります。
    * 受信者の電子メールアドレスが存在しません。
    * 受信者のドメインが存在しません。
    * 受信者のサーバーが配信をブロックしています。
-   ソフトおよびハードバウンドのエラーを回避するには、以下のベストプラクティスに従ってください。
+   ソフトバウンスとハードバウンスのエラーを回避するには、次のベストプラクティスに従ってください。
 
-   * 配信分析中にメッセージターゲットの一部を除外するようにフィルタータイポロジルールを構築します（隔離された受信者など）。See [Creating a filtering rule](../../administration/using/filtering-rules.md).
-   * 定期的に顧客データベースを更新して、堅牢な隔離管理プロセスを維持します。See [About quarantines](../../sending/using/understanding-quarantine-management.md#about-quarantines).
-   * 一般に、配信品質を向上させてください。See the Adobe Campaign v7 [Managing deliverability](http://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) detailed guide and contact your Adobe Campaign administrator for assistance.
+   * フィルタリングタイポロジルールを作成して、配信分析中にメッセージターゲットの一部（検疫済みの受信者など）を除外します。 See [Creating a filtering rule](../../administration/using/filtering-rules.md).
+   * 適切な検疫管理プロセスを維持するために、顧客データベースを定期的に更新します。 「隔離につ [いて」を参照してくださ](../../sending/using/understanding-quarantine-management.md#about-quarantines)い。
+   * 一般に、配信品質はできるだけ向上します。 『Adobe Campaign v7 [Managing deliveribility](http://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) 』詳細ガイドを参照し、Adobe Campaign管理者にお問い合わせください。
 
 
 
-* **[!UICONTROL Deliveries with long start pending]**:通常、MTA（Message Transfer Agent）レベルで問題が発生します。実行プロセスは、一部のリソースの可用性を待機しています。MTAが開始されていない可能性があります。
+* **[!UICONTROL Deliveries with long start pending]**:通常、これは、MTA(Message Transfer Agent)レベルで問題があることを意味します。 実行プロセスが、リソースが使用可能になるのを待っています。MTA が開始されていない可能性があります。
 
-   **[!UICONTROL Deliveries with low throughput]**:これは、MTAが遅すぎるという配信品質の問題です。
+   **[!UICONTROL Deliveries with low throughput]**:繰り返しますが、これは配信品質の問題で、MTAの速度が遅すぎます。
 
    これらの問題について詳しくは、Adobe Campaign管理者にお問い合わせください。
 
-**関連トピック:**
+**関連トピック：**
 
-* [配信エラーについて](../../sending/using/understanding-delivery-failures.md)
-* [強制隔離について](../../sending/using/understanding-quarantine-management.md)
+* [配信エラーの理解](../../sending/using/understanding-delivery-failures.md)
+* [強制隔離管理の理解](../../sending/using/understanding-quarantine-management.md)
 * [キャンペーンでのブラックリストの管理](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
