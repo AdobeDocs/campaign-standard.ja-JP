@@ -2,149 +2,149 @@
 title: リソースのデータ構造の設定
 seo-title: リソースのデータ構造の設定
 description: リソースのデータ構造の設定
-seo-description: データ構造を設定する方法について説明します。
-page-status-flag: 常にアクティブ化されていない
-uuid: 60fe80c0-9df6-4808- a432-60a1977216ea
-contentOwner: サウビート
-products: SG_ CAMPAIGN/STANDARD
+seo-description: データ構造の設定方法を説明します。
+page-status-flag: 非活性化の
+uuid: 60fe80c0-9df6-4808-a432-60a1977216ea
+contentOwner: ソビア
+products: SG_CAMPAIGN/STANDARD
 audience: 開発中
 content-type: 参照
-topic-tags: 追加または拡張するリソース
+topic-tags: リソースの追加または拡張
 discoiquuid: 4f22ee35-1d5f-4c75-95b4-3e38b85de26e
-context-tags: cusResource、main
+context-tags: cusResource,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 888cf4cd7bfa7f82bfe70c408f8c2785c51c36e2
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
 
 # リソースのデータ構造の設定{#configuring-the-resource-s-data-structure}
 
-新しいカスタムリソースを作成したら、データ構造を設定する必要があります。
+新しいカスタムリソースを作成した後、データ構造を設定する必要があります。
 
-リソースを編集する際、タブで **[!UICONTROL Data structure]** 追加できます。
+リソースを編集する際に、タブで **[!UICONTROL Data structure]** 次を追加できます。
 
-* [フィールド](../../developing/using/configuring-the-resource-s-data-structure.md#adding-fields-to-a-resource)
-* [識別キー](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)
-* [インデックス](../../developing/using/configuring-the-resource-s-data-structure.md#defining-indexes)
-* [リンク](../../developing/using/configuring-the-resource-s-data-structure.md#defining-links-with-other-resources)
-* [ログの送信](../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension)
+* [フィールド](#adding-fields-to-a-resource)
+* [識別キー](#defining-identification-keys)
+* [索引](#defining-indexes)
+* [リンク](#defining-links-with-other-resources)
+* [ログの送信](#defining-sending-logs-extension)
 
 ## リソースへのフィールドの追加 {#adding-fields-to-a-resource}
 
-リソースに新しいフィールドを追加して、デフォルトのデータモデルに含まれていないデータを保存することができます。
+既製のデータモデルに含まれていないデータを保存するために、リソースに新しいフィールドを追加できます。
 
-1. ボタンを **[!UICONTROL Create element]** 使用してフィールドを作成します。
-1. ラベル、ID、フィールドタイプを指定し、このフィールドに対して許可されている最大長を定義します。
+1. ボタンを使 **[!UICONTROL Create element]** 用してフィールドを作成します。
+1. ラベル、ID、フィールドタイプを指定し、このフィールドに許可される最大長を定義します。
 
-   **[!UICONTROL ID]** フィールドは必須で、追加されるフィールドごとに一意である必要があります。
+   このフ **[!UICONTROL ID]** ィールドは必須で、追加する各フィールドに対して一意である必要があります。
 
    >[!NOTE]
    >
-   >フィールドを **[!UICONTROL Label]** 空のままにすると、IDから自動的に完了します。
+   >フィールドを空のま **[!UICONTROL Label]** まにすると、IDから自動的に入力されます。
    >最大30文字を使用することをお勧めします。
 
    ![](assets/schema_extension_4.png)
 
-1. いずれかのフィールドを変更するには、ボタンを **[!UICONTROL Edit Properties]** チェックします。
+1. フィールドの1つを変更するには、ボタンをオンに **[!UICONTROL Edit Properties]** します。
 
    ![](assets/schema_extension_24.png)
 
-1. **[!UICONTROL Field definition]** 画面で、オーディエンスとターゲット設定に使用するカテゴリを定義することも、説明を追加することもできます。
+1. 画面で、 **[!UICONTROL Field definition]** オーディエンスとターゲットに使用するカテゴリを定義したり、説明を追加したりできます。
 
    ![](assets/schema_extension_5.png)
 
-1. ユーザーに提供する値（列挙値）を定義する必要がある場合は **[!UICONTROL Specify a list of authorized values]** 、このオプションを選択します。
+1. ユーザー **[!UICONTROL Specify a list of authorized values]** に提供する値（列挙値）を定義する必要がある場合は、このオプションを選択します。
 
-   次に、をクリック **[!UICONTROL Create element]** して、 **[!UICONTROL Label]** および **[!UICONTROL Value]**&#x200B;を指定します。必要な数だけ値を追加します。
+   次に、をクリッ **[!UICONTROL Create element]** クし、とを指定 **[!UICONTROL Label]** しま **[!UICONTROL Value]**&#x200B;す。 必要なだけ値を追加します。
 
-1. フィールドを追加したら **[!UICONTROL Add audit fields]** 、チェックボックスをオンにして、作成日の詳細、リソースを作成したユーザー、日付および最終変更者を含めます。
-1. **[!UICONTROL Add access authorization management fields]** このチェックボックスをオンにして、特定のリソースへのアクセス権を持つユーザーを含めます。
+1. フィールドを追加したら、作成日、リソースを作成したユーザ、 **[!UICONTROL Add audit fields]** 日付、および最終変更の作成者を詳細に示すフィールドを含めるチェックボックスをオンにします。
+1. 特定のリソー **[!UICONTROL Add access authorization management fields]** スに対するアクセス権を持つユーザーを示すフィールドを含める場合は、このチェックボックスをオンにします。
 
-   これらのフィールドは、データベースの更新が実行された後に表示できるデータおよびメタデータに表示されます。これについて詳しくは、「データベース構造の [更新」](../../developing/using/updating-the-database-structure.md) を参照してください。
+   これらのフィールドは、データベースの更新後に表示できるデータとメタデータに表示されます。 詳しくは、「データベース構造の更新 [」の節を参照してください](../../developing/using/updating-the-database-structure.md) 。
 
-1. フィールドを **[!UICONTROL Add automatic ID]** チェックしてIDを自動的に生成します。既存のエンティティは空のままです。
-1. リソース要素の名前をリストと作成手順に表示する方法を変更するには、ボックスを **[!UICONTROL Personalize the resource title]** チェックします。このリソース用に作成したフィールドを選択します。
+1. IDを自動的に生 **[!UICONTROL Add automatic ID]** 成するには、フィールドをチェックします。 既存のエンティティは空のままになることに注意してください。
+1. リストと作成手順でリソース要素の名前が表示される方法を変更するには、このボックスをオンにし **[!UICONTROL Personalize the resource title]** ます。 このリソース用に作成したフィールドからフィールドを選択します。
 
    ![](assets/schema_extension_18.png)
 
-リソースのフィールドが定義されるようになりました。
+これで、リソースのフィールドが定義されました。
 
-## IDキーの定義 {#defining-identification-keys}
+## 識別キーの定義 {#defining-identification-keys}
 
-各リソースには、少なくとも1つの一意のキーが必要です。例えば、2つの製品が購入テーブルに同じIDを持つことができないようにキーを指定できます。
+各リソースには、少なくとも1つの一意のキーが必要です。 例えば、2つの製品が1つの購入テーブルで同じIDを持つことができないようにキーを指定できます。
 
-1. 技術的なキーを自動的かつインクリメンタルに生成する場合は、ストレージのサイズの **[!UICONTROL Automatic primary key]** セクションで指定します。
+1. テクニカル・キーを **[!UICONTROL Automatic primary key]** 自動的に増分的に生成する場合は、このセクションでストレージのサイズを指定します。
 
    ![](assets/schema_extension_6.png)
 
-1. ボタンを **[!UICONTROL Create element]** 使用してキーを作成します。
+1. ボタンを使 **[!UICONTROL Create element]** 用してキーを作成します。
 
-   デフォルトでは、フィールド **[!UICONTROL Label]** は **[!UICONTROL ID]** 完了しますが、編集することもできます。
+   とのフィ **[!UICONTROL Label]** ールドは **[!UICONTROL ID]** デフォルトで入力されますが、編集することはできます。
 
    >[!NOTE]
    >
    >最大30文字を使用することをお勧めします。
 
-1. このキーを構成する要素を定義するには、このリソース用に作成したフィールドをクリック **[!UICONTROL Create element]** して選択します。
+1. このキーを構成する要素を定義するには、をクリックし **[!UICONTROL Create element]** て、このリソース用に作成したフィールドを選択します。
 
    ![](assets/schema_extension_7.png)
 
-   作成したキーが **[!UICONTROL Custom keys]** セクションに表示されます。
+   作成されたキーがセクションに表示さ **[!UICONTROL Custom keys]** れます。
 
-リソースのIDキーが作成されるようになりました。
+これで、リソースのIDキーが作成されます。
 
 ## インデックスの定義 {#defining-indexes}
 
-インデックスは、1つまたは複数のリソースフィールドを参照できます。インデックスを使用すると、データベースはレコードをソートして、より簡単に復元できます。SQLクエリーのパフォーマンスを最適化します。
+インデックスは、1つまたは複数のリソースフィールドを参照できます。 インデックスを使用すると、データベースでレコードをソートして、より簡単にリカバリできます。 SQLクエリのパフォーマンスを最適化します。
 
 インデックスの定義は推奨されますが、必須ではありません。
 
-1. インデックスを作成するには **[!UICONTROL Create element]** 、このボタンを使用します。
+1. 索引を作成す **[!UICONTROL Create element]** るには、ボタンを使用します。
 
    ![](assets/schema_extension_26.png)
 
-1. デフォルトでは、フィールド **[!UICONTROL Label]** は **[!UICONTROL ID]** 完了しますが、編集することもできます。
+1. とのフィ **[!UICONTROL Label]** ールドは **[!UICONTROL ID]** デフォルトで入力されますが、編集することはできます。
 
    >[!NOTE]
    >
    >最大30文字を使用することをお勧めします。
 
-1. このインデックスを構成する要素を定義するには、このリソース用に作成したフィールドを選択します。
+1. このインデックスを構成する要素を定義するには、このリソース用に作成したフィールドからフィールドを選択します。
 
    ![](assets/schema_extension_27.png)
 
-1. **[!UICONTROL Confirm]**&#x200B;をクリックします。
+1. Click **[!UICONTROL Confirm]**.
 
-作成されたインデックスは **[!UICONTROL Index]** 、セクション内のリストに表示されます。
+作成されたインデックスがセクションのリストに表示さ **[!UICONTROL Index]** れます。
 
-## 他のリソースによるリンクの定義 {#defining-links-with-other-resources}
+## 他のリソースとのリンクの定義 {#defining-links-with-other-resources}
 
-リンクは、1つのテーブルに他のテーブルとの関連付けを詳細に詳細に示します。
+リンクは、あるテーブルと他のテーブルとの関連付けの詳細を示します。
 
-1. ターゲットリソースへのリンクを作成するには **[!UICONTROL Create element]** 、このボタンを使用します。
-1. **[!UICONTROL Select a target resource]**&#x200B;をクリックします。
+1. ターゲットリ **[!UICONTROL Create element]** ソースへのリンクを作成するには、このボタンを使用します。
+1. Click **[!UICONTROL Select a target resource]**.
 
    ![](assets/schema_extension_28.png)
 
-1. リソースはアルファベット順に表示され、名前でフィルターできます。技術的な名前は括弧で囲まれて表示されます。
+1. リソースはアルファベット順に表示され、名前でフィルタリングできます。 技術名は角括弧で囲まれて表示されます。
 
-   リストから要素を選択し、をクリック **[!UICONTROL Confirm]**&#x200B;します。
+   リストから要素を選択し、をクリックしま **[!UICONTROL Confirm]**&#x200B;す。
 
    ![](assets/schema_extension_9.png)
 
-1. 基数に **[!UICONTROL Link type]** 従って選択します。選択した基数タイプに応じて、レコードが削除または複製された場合に動作が異なる可能性があります。
+1. 基数に従っ **[!UICONTROL Link type]** てを選択します。 選択した基数タイプによって、レコードが削除されたり重複したりした場合の動作が異なる場合があります。
 
-   様々なリンクタイプを次に示します。
+   次に、様々なリンクタイプを示します。
 
-   * **[!UICONTROL 1 cardinality simple link]**:ソーステーブルの1回のオカレンスには、ターゲットテーブルの対応するオカレンスを1つずつ含めることができます。
-   * **[!UICONTROL N cardinality collection link]**:ソーステーブルの1回のオカレンスは、ターゲットテーブルの複数の対応するオカレンスを持つことができますが、ターゲットテーブルの1つのオカレンスには、ソーステーブルの対応するオカレンスを1つずつ含めることができます。
-   * **[!UICONTROL 0 or 1 cardinality simple link]**:ソーステーブルの1回のオカレンスには、ターゲットテーブルの対応するオカレンスを1つだけ含めることも、なしにすることもできます。これに **[!UICONTROL Link type]** より、パフォーマンスの問題が発生する可能性があります。
+   * **[!UICONTROL 1 cardinality simple link]**:ソース・テーブルの1つのオカレンスは、ターゲット・テーブルの対応するオカレンスを最大1つ持つことができます。
+   * **[!UICONTROL N cardinality collection link]**:1つのソース・テーブルのオカレンスは、ターゲット・テーブルの対応するオカレンスを複数持つことができますが、1つのオカレンスは、ソース・テーブルの対応するオカレンスを最大1つ持つことができます。
+   * **[!UICONTROL 0 or 1 cardinality simple link]**:ソーステーブルの1つのオカレンスは、ターゲットテーブルの対応するオカレンスを1つだけ持つことができます。 この種の場合、パフォーマンスの問題 **[!UICONTROL Link type]** が発生する可能性があります。
    ![](assets/schema_extension_29.png)
 
-1. **[!UICONTROL New link]** 画面では、デフォルトでは **[!UICONTROL Label]****[!UICONTROL ID]** フィールドが完了しますが、編集することもできます。
+1. 画面では、 **[!UICONTROL New link]** フィールドはデ **[!UICONTROL Label]** フォ **[!UICONTROL ID]** ルトで入力されますが、編集することはできます。
 
    >[!NOTE]
    >
@@ -152,106 +152,106 @@ source-git-commit: 888cf4cd7bfa7f82bfe70c408f8c2785c51c36e2
 
    >[!CAUTION]
    >
-   >作成後にリンクの名前を変更することはできません。リンクの名前を変更するには、リンクを削除してから再度作成する必要があります。
+   >リンクの作成後にリンク名を変更することはできません。 リンクの名前を変更するには、リンクを削除して再び作成する必要があります。
 
-1. **[!UICONTROL Category for the audience and targeting]** このリストを使用すると、このリンクをカテゴリに割り当てて、クエリエディターツールにより多くの表示を表示できます。
-1. 必要に応じて **[!UICONTROL Reverse link definition]** 、対象のリソースにリソースのラベルとIDを表示することができます。
-1. **[!UICONTROL Behavior if deleted/duplicated]** セクション内のリンクによって参照されるレコードの動作を定義します。
+1. このリ **[!UICONTROL Category for the audience and targeting]** ンクをカテゴリに割り当てて、クエリーエディターツールで表示しやすくすることができます。
+1. 必要に応じて、このセ **[!UICONTROL Reverse link definition]** クションでは、対象のリソース内のリソースのラベルとIDを表示できます。
+1. セクション内のリンクで参照されるレコードの動作を定義し **[!UICONTROL Behavior if deleted/duplicated]** ます。
 
-   デフォルトでは、ターゲットレコードはリンクによって参照されなくなります。
+   デフォルトでは、リンクから参照されなくなったターゲットレコードは削除されます。
 
    ![](assets/schema_extension_16.png)
 
-1. **[!UICONTROL Join definition]** セクションでは、デフォルト **[!UICONTROL Use the primary keys to make the join]** のオプションが選択されていますが、次の2つのオプションを選択できます。
+1. このセクション **[!UICONTROL Join definition]** では、デフォルトのオ **[!UICONTROL Use the primary keys to make the join]** プションが選択されていますが、次の2つのオプションから選択できます。
 
-   * **[!UICONTROL Use the primary key to make the join]**:この結合定義を使用すると、プライマリキーを使用して購入のプライマリキーと調整できます。
-   * **[!UICONTROL Define specific join conditions]**:この結合定義を使用すると、両方のリソースに結合するフィールドを手動で選択できます。データが正しく設定されていない場合、 **購入** レコードは表示されません。
+   * **[!UICONTROL Use the primary key to make the join]**:この結合定義を使用すると、プロファイルの主キーを使用して、購入の主キーと調整できます。
+   * **[!UICONTROL Define specific join conditions]**:この結合定義を使用すると、両方のリソースを結合するフィールドを手動で選択できます。 データが正しく設定されていない場合、購入レコードは **表示されない** ことに注意してください。
    ![](assets/schema_extension_17.png)
 
-作成されたリンクは **[!UICONTROL Links]** セクション内のリストに表示されます。
+作成されたリンクは、セクションのリストに表示さ **[!UICONTROL Links]** れます。
 
-**例:作成したリソースを「プロファイル」リソースとリンク**
+**例：作成したリソースを'Profiles'リソースにリンクする**
 
-この例では、新しいリソース **購入** を **プロファイル** カスタムリソースとリンクします。
+この例では、新しいリソース **PurchaseをProfilesカスタムリソースとリン** クします **** 。
 
-1. **新しい購入** リソースを作成します。
-1. **プロファイル** カスタムリソースにリンクするには、タブの **[!UICONTROL Links]****[!UICONTROL Data structure]** セクションを展開して、をクリック **[!UICONTROL Create element]**&#x200B;します。
-1. ターゲットリソースを選択 **[!UICONTROL Profiles (profile)]**&#x200B;します。
-1. この例では、デフォルト **[!UICONTROL 1 cardinality simple link]** のリンクタイプを選択したままにします。
+1. 新しい購入リソー **スを作成** 。
+1. これをプロファイルカスタムリソ **ースとリンクするには** 、タブのセクシ **[!UICONTROL Links]** ョンを展開し、 **[!UICONTROL Data structure]** をクリックしま **[!UICONTROL Create element]**&#x200B;す。
+1. ターゲットリソースを選択しま **[!UICONTROL Profiles (profile)]**&#x200B;す。
+1. この例では、デフォルトのリンクタイプを選 **[!UICONTROL 1 cardinality simple link]** 択したままにします。
 
    ![](assets/custom_resource_link_to_profile_2.png)
 
-1. 結合定義を選択し、デフォルトを維持 **[!UICONTROL Use the primary key to make the join]**&#x200B;します。
+1. 結合定義を選択します。ここではデフォルトのままにしま **[!UICONTROL Use the primary key to make the join]**&#x200B;す。
 
    ![](assets/custom_resource_link_to_profile_3.png)
 
-1. 必要に応じて、購入を編集 **** してプロファイルにリンクするための詳細画面を定義できます。
+1. 必要に応じて、購入を編集してプロファイルにリンクできる詳細画面 **を定義できます** 。
 
-   **[!UICONTROL Detail screen configuration]** セクションを展開して **[!UICONTROL Define a detail screen]** 、リソースの各要素に対応する画面を設定します。このボックスを選択しない場合、このリソースの要素の詳細ビューにアクセスできません。
+   セクション **[!UICONTROL Detail screen configuration]** を展開し、リソースの各 **[!UICONTROL Define a detail screen]** 要素に対応する画面を設定するようにを確認します。 このチェックボックスをオフにすると、このリソースの要素の詳細ビューにアクセスできなくなります。
 
-1. **[!UICONTROL Create element]**&#x200B;をクリックします。
-1. リンクされているリソースを選択し、をクリック **[!UICONTROL Add]**&#x200B;します。
+1. Click **[!UICONTROL Create element]**.
+1. リンクされたリソースを選択し、をクリックしま **[!UICONTROL Add]**&#x200B;す。
 
-   新しいリソースは **[!UICONTROL Client data]** 、/ **[!UICONTROL Purchase]**&#x200B;を選択して詳細メニューで使用できます。
+   新しいリソースは、詳細メニューで/を選択して使用で **[!UICONTROL Client data]** きます **[!UICONTROL Purchase]**。
 
    ![](assets/custom_resource_link_to_profile_4.png)
 
-1. 設定が完了したら、をクリック **[!UICONTROL Confirm]**&#x200B;します。
+1. 設定が完了したら、をクリックしま **[!UICONTROL Confirm]**&#x200B;す。
 
    これで、新しいリソースを公開できます。
 
-このリンクを追加すると、/メニューからプロファイルの詳細画面に **「購入」** タブが追加 **[!UICONTROL Profiles & audiences]****[!UICONTROL Profiles]** されます。これは **[!UICONTROL Profile]** リソースに固有のものであることに注意してください。
+このリンクを追加すると、「購入 **」タブが/メニューからプロファイルの詳細画面に** 追加され **[!UICONTROL Profiles & audiences]****[!UICONTROL Profiles]** ます。 これはリソースに固有のものであることに注意してく **[!UICONTROL Profile]** ださい。
 
 ![](assets/custom_resource_link_to_profile.png)
 
-## ログ拡張の送信の定義 {#defining-sending-logs-extension}
+## 送信ログの拡張の定義 {#defining-sending-logs-extension}
 
-送信ログ拡張により、次のことができます。
+送信ログの拡張機能を使用すると、次のことができます。
 
-* プロファイルカスタムフィールドを追加して **動的レポート機能を拡張するには**
-* を拡張すると、セグメントコードとプロファイルデータを含む **データを送信します**
+* プロファイルカスタムフィールドを追加して動的レポ **ート機能を拡張するには**
+* セグメントコードとプロファイルデータを使用し **て送信ログデータを拡張するには**
 
-**セグメントコードを使用した拡張**
+**セグメントコードで拡張**
 
 ユーザーは、ワークフローエンジンからのセグメントコードを使用してログを拡張できます。
 
-セグメントコードはワークフローに定義する必要があります。
+セグメントコードは、ワークフロー内に定義する必要があります。
 
-この拡張機能をアクティブにするには、このオプションを選択 **[!UICONTROL Add segment code]**&#x200B;します。
+この拡張機能を有効にするには、オプションをオンにしま **[!UICONTROL Add segment code]**&#x200B;す。
 
 ![](assets/sendinglogsextension_1.png)
 
-セグメントコードについて詳しくは [、「セグメント化](../../automating/using/segmentation.md) 」セクションを参照してください。
+セグメントコードについて詳しくは、「セグメント化 [](../../automating/using/segmentation.md) 」を参照してください。
 
-**プロファイルフィールドで拡張**
+**プロファイルフィールドを使用して拡張**
 
 >[!NOTE]
 >
->管理者はカスタムフィールドでプロファイルリソースを拡張している必要があります。
+>管理者は、カスタムフィールドを使用してプロファイルリソースを拡張する必要があります。
 
 ![](assets/sendinglogsextension_2.png)
 
-プロファイルリソースから任意のカスタムフィールドをクリック **[!UICONTROL Add field]** して選択します。
+をクリック **[!UICONTROL Add field]** し、プロファイルリソースから任意のカスタムフィールドを選択します。
 
-プロファイルディメンションにリンクされた新しいサブディメンションを生成するには、オプションを **[!UICONTROL Add this field in Dynamic reporting as a new dimension]** チェックします。
+プロファイルディメンションにリンクされた新しいサブディメンションを生成するには、このオプションをオンに **[!UICONTROL Add this field in Dynamic reporting as a new dimension]** します。
 
 ![](assets/sendinglogsextension_3.png)
 
-動的レポートから、カスタムフィールドディメンションをフリーフォームテーブルにドラッグ&amp;ドロップできます。
+Dynamic Reportingから、カスタムフィールドディメンションをフリーフォームテーブルにドラッグ&amp;ドロップできます。
 
-動的レポートについて詳しくは、コンポーネントの [リスト](../../reporting/using/list-of-components-.md)を参照してください。
+Dynamic Reportingの詳細は、「コンポーネントのリスト」を参 [照してください](../../reporting/using/list-of-components-.md)。
 
 >[!CAUTION]
 >
->動的レポートに送信されるフィールドの数は20個に制限されています。
+>Dynamic Reportingに送信されるフィールドの数は20個に制限されています。
 
 ## リソースプロパティの編集 {#editing-resource-properties}
 
-カスタムリソース画面で、ペインは **[!UICONTROL Summary]** 新しく作成されたリソースのステータスを示します。アクセスおよびその全般的なプロパティを管理できます。
+カスタムリソース画面では、新しく作 **[!UICONTROL Summary]** 成されたリソースの状態がペインに表示されます。 アクセスとその一般的なプロパティを管理できます。
 
 ![](assets/schema_extension_3.png)
 
-1. ボタンを **[!UICONTROL Edit properties]** クリックして説明を追加します。
+1. ボタンをクリ **[!UICONTROL Edit properties]** ックして説明を追加します。
 
    ![](assets/schema_extension_30.png)
 
@@ -261,33 +261,33 @@ source-git-commit: 888cf4cd7bfa7f82bfe70c408f8c2785c51c36e2
    >
    >最大30文字を使用することをお勧めします。
 
-1. このリソースへのアクセスを特定の組織単位に制限する必要がある場合は、ここで指定します。アプリケーションでこのリソースを使用できるのは、許可されている数量のユーザーのみです。
+1. このリソースへのアクセスを特定の組織単位に制限する必要がある場合は、ここで指定します。 許可された単位数のユーザーのみが、アプリケーションでこのリソースを操作できます。
 1. 変更を保存します。
 
-変更が保存されます。リソースを適用するには、リソースを再度公開する必要があります。
+変更が保存されます。 リソースを適用するには、再度リソースを発行する必要があります。
 
-## プロファイルとカスタムリソースの一意のIDの生成 {#generating-a-unique-id-for-profiles-and-custom-resources}
+## プロファイルおよびカスタムリソースの一意のIDの生成 {#generating-a-unique-id-for-profiles-and-custom-resources}
 
-デフォルトでは、プロファイルおよびカスタムリソースには、作成時にビジネスIDがありません。要素の作成時に一意のIDを生成するオプションを有効にすることができます。このIDは次の目的に使用できます。
+デフォルトでは、プロファイルとカスタムリソースは、作成時にビジネスIDを持ちません。 要素の作成時に一意のIDを自動的に生成するオプションを有効にできます。 このIDは、次の目的で使用できます。
 
-* 書き出されたレコードを外部ツールで簡単に識別できます。
-* 別のアプリケーションで処理された更新データをインポートするときに、レコードを調整します。
+* 外部ツールでエクスポートされたレコードを簡単に識別できます。
+* 別のアプリケーションで処理された更新済みデータをインポートする際に、レコードを調整します。
 
-プロファイルおよびカスタムリソースのみで有効にできます。
+プロファイルとカスタムリソースに対してのみ有効にできます。
 
-1. プロファイルリソースに拡張子を作成するか、新しいリソースを作成します。
-1. データ構造定義で、セクションの下の **[!UICONTROL Add automatic ID field]** オプションをチェック **[!UICONTROL Fields]** します。
-1. リソースに加えた変更を保存して発行します。API経由で作成した要素にこのメカニズムを適用するには、APIを拡張するオプションを選択します。
+1. プロファイルリソースの拡張を作成するか、新しいリソースを作成します。
+1. データ構造の定義で、セクションの下にあ **[!UICONTROL Add automatic ID field]** るオプションを選択 **[!UICONTROL Fields]** します。
+1. リソースに対して行った変更を保存して発行します。 このメカニズムをAPIを介して作成されたエレメントに適用する場合は、APIを拡張するオプションを選択します。
 
-**[!UICONTROL ACS ID]** 新しい要素が手動で作成されたとき、APIから新しい要素が作成されたとき、またはインポートワークフローから挿入されたときに、フィールドが自動的に設定されます。ACS IDフィールドはUUIDフィールドで、インデックス化されています。
+新しい **[!UICONTROL ACS ID]** 要素を手動、APIから、または読み込みワークフローから挿入したときに、このフィールドが使用可能になり、自動的に設定されるようになりました。 ACS IDフィールドはUUIDフィールドで、インデックスが作成されます。
 
-プロファイルまたはカスタムリソースを書き出すときに、そのリソースに対して有効になっている場合は **[!UICONTROL ACS ID]** 、列を追加できるようになりました。外部ツールでこのIDを再利用して、レコードを識別できます。
+プロファイルやカスタムリソースを書き出す際に、そのリソースに対して列が有効になっ **[!UICONTROL ACS ID]** ている場合、列を追加できるようになりました。 このIDを外部ツールで再利用して、レコードを識別できます。
 
 ![](assets/export_id_field.png)
 
-別のアプリケーション（CRMなど）で処理または更新されたデータを再度インポートする場合、この一意のIDと簡単に調整できます。
+別のアプリケーション（CRMなど）で処理または更新されたデータを再インポートする場合、この一意のIDを使用して簡単に調整できます。
 
 >[!NOTE]
 >
->**[!UICONTROL ACS ID]** このフィールドは、オプションをアクティブ化する前に作成されたプロファイルまたは要素に対しては更新されません。新しいレコードのみがACS IDを持ちます。このフィールドは読み取り専用モードです。変更することはできません。
+>オプション **[!UICONTROL ACS ID]** を有効にする前に作成されたプロファイルまたは要素のフィールドは更新されません。 ACS IDを持つのは新しいレコードのみです。 このフィールドは読み取り専用モードです。 変更はできません。
 
