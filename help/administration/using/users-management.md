@@ -2,152 +2,152 @@
 title: ユーザー管理
 seo-title: ユーザー管理
 description: ユーザー管理
-seo-description: 'Adobe Campaignユーザーは特定の役割を保持します。メインユーザーのタイプを見つけます。 '
-page-status-flag: 常にアクティブ化されていない
-uuid: 8c4cc74a-815f-4815- af66- a7c21bc754f1
-contentOwner: サウビート
-products: SG_ CAMPAIGN/STANDARD
+seo-description: 'Adobe Campaignユーザーは特定の役割を持ちます。 メインユーザータイプを検出します。 '
+page-status-flag: 非活性化の
+uuid: 8c4cc74a-815f-4815-af66-a7c21bc754f1
+contentOwner: ソビア
+products: SG_CAMPAIGN/STANDARD
 audience: 管理
 content-type: 参照
-topic-tags: ユーザーおよびセキュリティ
+topic-tags: ユーザーとセキュリティ
 discoiquuid: 08c8712a-0066-4b8b-8471-2656b8fb23ed
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ab329af94dc4e28651aaef17f4588d894fb48b74
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
 
-# Users management{#users-management}
+# ユーザー管理{#users-management}
 
-## About users {#about-users}
+## ユーザーについて {#about-users}
 
-Adobe Campaignでは、ユーザーにロールのセットを割り当てて、アクセスできるインターフェイスの一部を定義できます。
+Adobe Campaignでは、ユーザーに一連のロールを割り当てて、ユーザーがアクセスできるインターフェイスの部分を定義できます。
 
-The specific roles and the corresponding authorizations are detailed in the following sections: [understanding roles](../../administration/using/list-of-roles.md) and [authorizations](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf).
+具体的な役割と対応する承認について、以下の節で詳しく説明します。役割 [と承認](../../administration/using/list-of-roles.md)[](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)。
 
-管理者は管理コンソールからユーザーを管理できます。ユーザーは自動的にAdobe Campaignと同期されます。For more on this, refer to the [Admin console](https://helpx.adobe.com/enterprise/using/users.html) documentation.
+管理者は、管理コンソールからユーザーを管理できます。 その後、ユーザーは自動的にAdobe Campaignと同期されます。 For more on this, refer to the [Admin console](https://helpx.adobe.com/enterprise/using/users.html) documentation.
 
-To view the users in Adobe Campaign, click the **[!UICONTROL Adobe Campaign]** logo, in the top left corner, then select **[!UICONTROL Administration > Users & Security > Users]**.
+Adobe Campaignでユーザーを表示するには、左上隅 **[!UICONTROL Adobe Campaign]** にあるロゴをクリックし、を選択します **[!UICONTROL Administration > Users & Security > Users]**。
 
-To access the user management interface from Adobe Campaign, click **[!UICONTROL User administration]**.
+Adobe Campaignからユーザー管理インターフェイスにアクセスするには、をクリックしま **[!UICONTROL User administration]**&#x200B;す。
 
 ![](assets/user_management_5.png)
 
-**関連トピック:**
+**関連トピック：**
 
-* [ユーザー権限](https://helpx.adobe.com/campaign/kt/acs/using/acs-user-access-rights-feature-video-use.html) のビデオの管理
+* [ユーザ権限の管理](https://helpx.adobe.com/campaign/kt/acs/using/acs-user-access-rights-feature-video-use.html) （ビデオ）
 * [ロールのリスト](../../administration/using/list-of-roles.md)
 * [承認のリスト](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)
 
-## Type of users {#type-of-users}
+## ユーザーのタイプ {#type-of-users}
 
-このユーザーセグメントは必須ではありません。Adobe Campaignの最も一般的な使用方法が示されています。
+このユーザーセグメントは必須ではなく、Adobe Campaignの最も一般的な使用方法を表したものに過ぎません。
 
-ここでは、Adobe Campaignユーザーの主なタイプについて説明します。ここでは、ユーザーが保持できる特定の役割（配信を開始、エクスポート、配信準備など）には移動しません。For more information on roles, refer to [List of roles](../../administration/using/list-of-roles.md) and [Managing groups and users](../../administration/using/managing-groups-and-users.md) pages.
+この節では、Adobe Campaignの主なユーザータイプを理解する際に役立ちます。 ここでは、ユーザーが保持できる特定の役割（配信の開始、エクスポート、配信の準備など）については説明しません。 ロールの詳細については、「ロールのリスト」お [よび](../../administration/using/list-of-roles.md) 「グループとユ [ーザーの管理」ページを参照してください](../../administration/using/managing-groups-and-users.md) 。
 
-Adobe Campaignの様々なタスクが、3つの主なユーザータイプ間でどのように分割されているかについて、以下に説明します。
+Adobe Campaignの様々なタスクを3つのメインユーザータイプに分割する方法に焦点を当てます。
 
-* [機能管理者](../../administration/using/users-management.md#functional-administrators):をすべての組織のユーザーにとって、最も技術的な作業です。
-* [上級ユーザー](../../administration/using/users-management.md#advanced-users):マーケティング担当者が配信を送信し監視する必要があるすべての要素をセットアップします。
-* [基本ユーザー](../../administration/using/users-management.md#basic-users):これらは、キャンペーンをカスタマイズ、配信、監視するマーケティング担当者です。
+* [機能管理者](#functional-administrators):組織のすべてのユーザーの中で、最も技術的なユーザーです。
+* [上級ユーザ](#advanced-users):マーケターが配信を送信および監視するために必要なすべての要素を設定します。
+* [基本ユーザ](#basic-users):キャンペーンをパーソナライズ、提供、監視するマーケターです。
 
 >[!NOTE]
 >
->機能管理者は、アドビのテクニカル管理者とは異なります。アドビのテクニカル管理者は、ユーザーが使用できるアドビ内部の役割を持っています。これらは、インスタンスプロビジョニング、ホスティング、インフラストラクチャ監視および監視、技術的トラブルシューティングを管理します。
+>機能管理者は、アドビの技術管理者とは異なります。 アドビの技術管理者は、アドビの内部的な役割を担っており、お客様はこの役割を利用できません。 インスタンスのプロビジョニング、ホスティング、インフラストラクチャの監視、技術的なトラブルシューティングを管理します。
 
-### Functional administrators {#functional-administrators}
+### 機能管理者 {#functional-administrators}
 
-機能管理者は、インターフェイスの最も技術的な部分にアクセスできるユーザーです。**[!UICONTROL Administration]** ロールを保持して、プラットフォームがすべて設定されていることを確認し、マーケティング担当者がキャンペーンの配信に集中できるようにします。
+機能管理者は、インターフェイスの最も技術的な部分にアクセスできるユーザーです。 この役割を持ち、マ **[!UICONTROL Administration]** ーケティング担当者がキャンペーンの配信に集中するだけで済むように、プラットフォームがすべて設定されていることを確認します。
 
-Functional administrators are the only users who can access the **[!UICONTROL Administration]** menu, in the Adobe Campaign interface. Since these users need to access technical resources, more advanced roles should be assigned to them, such as the **[!UICONTROL Administration]** and **[!UICONTROL Datamodel]** out-of-the-box roles. These roles are combined in the **[!UICONTROL Administrators]** out-of-the-box security group. For more on this, refer to this [section](../../administration/using/list-of-roles.md).
+機能管理者は、Adobe Campaignインターフェイスでメニューにア **[!UICONTROL Administration]** クセスできる唯一のユーザーです。 これらのユーザーは技術リソースにアクセスする必要があるので、あらかじめ用意されているロールやロールなど、より高度な **[!UICONTROL Administration]** ロールを **[!UICONTROL Datamodel]** 割り当てる必要があります。 これらの役割は、あらかじめ用意さ **[!UICONTROL Administrators]** れているセキュリティグループ内で組み合わされます。 詳しくは、[この節](../../administration/using/list-of-roles.md)を参照してください。
 
-実行できる主要なタスクは次のとおりです。
+実行できる主なタスクは次のとおりです。
 
-* [ユーザーと権限](../../administration/using/about-access-management.md)の管理:プラットフォーム（ユーザー、役割、セキュリティグループ、数量）へのアクセスを管理します。
-* [様々なチャネル](../../administration/using/about-channel-configuration.md)の設定:プラットフォームチャネルと、タイポロジおよび強制管理を設定します。
-* [一般的なアプリケーション設定](../../administration/using/external-accounts.md)を設定します。異なるアプリケーション要素（外部アカウント、オプション、テクニカルワークフロー）を設定します。
-* [新機能を強化し、次の機能](../../developing/using/data-model-concepts.md)を強化しました。カスタムリソースを管理し、診断ツールにアクセスします。
-* [インスタンスパラメーター](../../administration/using/branding.md)を設定します。異なるブランドを定義し、その設定（ロゴ、トラッキングの管理、ランディングページにアクセスするためのURLドメインなど）を設定します。
-* [データパッケージの書き出しと読み込み](../../automating/using/managing-packages.md):を使用して、様々なAdobe Campaignインスタンス間のリソースを構造化XMLファイルに交換できます。
-* [ログをエクスポート](../../automating/using/exporting-logs.md) し [、インポートテンプレート](../../automating/using/defining-import-templates.md)を定義します。
+* [ユーザーと権限の管理](../../administration/using/about-access-management.md):プラットフォーム（ユーザー、役割、セキュリティグループ、ユニット）へのアクセスを管理します。
+* [様々なチャネルを設定します](../../administration/using/about-channel-configuration.md)。様々なプラットフォームチャネル、タイポロジ、検疫管理を設定します。
+* [一般的なアプリケーション設定を設定します](../../administration/using/external-accounts.md)。様々なアプリケーション要素（外部アカウント、オプション、技術ワークフロー）を設定します。
+* [すぐに使える機能を強化する新機能を開発します](../../developing/using/data-model-concepts.md)。カスタムリソースを管理し、診断ツールにアクセスします。
+* [インスタンスパラメーターの設定](../../administration/using/branding.md):様々なブランドを定義し、その設定（ロゴ、トラッキングの管理、ランディングページにアクセスするためのURLドメインなど）を行います。
+* [データパッケージの書き出しと読み込み](../../automating/using/managing-packages.md):構造化XMLファイルを使用して、様々なAdobe Campaignインスタンス間でリソースを交換します。
+* [ログを書き出し](../../automating/using/exporting-logs.md) 、インポ [ートテンプレートを定義しま](../../automating/using/defining-import-templates.md)す。
 
-### Advanced users {#advanced-users}
+### 上級ユーザー {#advanced-users}
 
-上級ユーザーとは、Adobe Campaignの最も技術的な使用例を実行するマーケティングユーザーです。マーケティング担当者は、配信の送信および監視に使用するすべての要素を事前設定します。
+上級ユーザーとは、Adobe Campaignで最も技術的な使用例を実行するマーケティングユーザーです。 マーケターが配信の送信や監視に使用するすべての要素を事前設定します。
 
-このタイプのユーザーは、機能管理者よりも一般的な役割を必要としますが、技術的な操作を実行することができます。To do so, they should be assigned, for example, the **[!UICONTROL Export]**, **[!UICONTROL Generic import]** or **[!UICONTROL Workflow]** out-of-the-box roles. For more on this, refer to this [section](../../administration/using/list-of-roles.md).
+このタイプのユーザーには、機能管理者よりも一般的な役割が必要ですが、一部の技術的な操作を実行できる必要があります。 そのためには、（、など）既製のロールを割り **[!UICONTROL Export]**&#x200B;当て **[!UICONTROL Generic import]** る **[!UICONTROL Workflow]** 必要があります。 詳しくは、[この節](../../administration/using/list-of-roles.md)を参照してください。
 
-実行できる主要なタスクは次のとおりです。
+実行できる主なタスクは次のとおりです。
 
-* [複雑なデータ管理ワークフロー](../../automating/using/about-data-management-activities.md)の作成と実行:インポート、エンリッチメントおよび変換データを取り込み、データベースをフィードするか、外部ファイルで必要なデータをエクスポートして、独自のツールで処理します。
-* [テンプレートの管理](../../start/using/about-templates.md):テンプレートを管理して、ニーズに応じてマーケティングアクティビティの特定のパラメーターを事前設定します。
-* [クエリ](../../automating/using/editing-queries.md#about-query-editor) を作成し、 [オーディエンス](../../audiences/using/about-audiences.md)を管理します。クエリを手動で作成するか、専用ワークフローを使用して自動的にオーディエンスを作成します。
-* [高度なエクスプレッション編集](../../automating/using/editing-queries.md#about-query-editor)の実行:高度な関数を使用して、日付、文字列、数値フィールド、並べ替えなどの特定のクエリを実行するために使用する値を操作します。
-* [既存のインポートテンプレートを使用して、リスト](../../automating/using/exporting-lists.md) の書き出しと [データの読み込み](../../automating/using/importing-data-with-import-templates.md)を行います。
+* [複雑なデータ管理ワークフローの作成と実行](../../automating/using/about-data-management-activities.md):データの読み込み、拡張、変換を行ってデータベースにデータを埋め込んだり、必要なデータを外部ファイルに書き出して独自のツールで処理したりします。
+* [テンプレートの管理](../../start/using/about-templates.md):テンプレートを管理し、必要に応じてマーケティングアクティビティの特定のパラメーターを事前設定します。
+* [クエリの作成](../../automating/using/editing-queries.md#about-query-editor) 、オ [ーディエンスの管理](../../audiences/using/about-audiences.md):クエリを使用してオーディエンスを手動で作成するか、専用のワークフローを使用して自動的にオーディエンスを作成します。
+* [式の高度な編集を実行します](../../automating/using/editing-queries.md#about-query-editor)。高度な関数を使用して、日付、文字列、数値フィールド、並べ替えなどの特定のクエリを実行する際に使用する値を操作します。
+* [既存のインポートテンプレートを使用して](../../automating/using/exporting-lists.md) 、リスト [をエクスポートし、データをインポートします](../../automating/using/importing-data-with-import-templates.md)。
 
-### Basic users {#basic-users}
+### 基本ユーザ {#basic-users}
 
-機能管理者および上級ユーザーは、技術的な設定に気を遣うことなく、キャンペーンをカスタマイズ、配信、監視することができます。To do so, they should be assigned, for example, the **[!UICONTROL Prepare deliveries]**, **[!UICONTROL Workflow]** and **[!UICONTROL Start deliveries]** out-of-the-box roles. These roles are combined in the **[!UICONTROL Standard Users]** out-of-the-box security group. For more on this, refer to this [section](../../administration/using/list-of-roles.md).
+機能管理者や上級ユーザーのおかげで、マーケティング担当者は、技術的な設定を気にすることなく、キャンペーンをパーソナライズ、配信、監視できます。 そのためには、ロール、ロールなど、あらかじめ用意され **[!UICONTROL Prepare deliveries]**&#x200B;てい **[!UICONTROL Workflow]** るロ **[!UICONTROL Start deliveries]** ールを割り当てる必要があります。 これらの役割は、あらかじめ用意さ **[!UICONTROL Standard Users]** れているセキュリティグループ内で組み合わされます。 詳しくは、[この節](../../administration/using/list-of-roles.md)を参照してください。
 
-実行できる主要なタスクは次のとおりです。
+実行できる主なタスクは次のとおりです。
 
-* [プログラムとキャンペーン](../../start/using/programs-and-campaigns.md)の管理:様々なタイプのアクティビティ（電子メール、SMSメッセージ、プッシュ通知、ワークフロー、ランディングページ）を含むマーケティングキャンペーンを作成できます。
-* [プロファイル](../../audiences/using/about-profiles.md) と [テストプロファイル](../../sending/using/managing-test-profiles-and-sending-proofs.md)の管理:配信によってターゲット設定される特定の受信者およびテストの受信者を管理します。名、姓、連絡先情報、購読、電子メールなどの情報を追加します。
-* [メッセージ](../../sending/using/confirming-the-send.md)の作成と送信:メッセージを作成し、オーディエンスを選択して、メッセージコンテンツとそのパーソナライゼーションエレメントを定義し、配達確認を送信して、最終的なメッセージをオーディエンスに送信します。
-* [ランディングページの作成と公開](../../channels/using/about-landing-pages.md):購読または購読解除のフォームなど、クライアントに提供する一連のサービスを作成および管理します。
-* [キャンペーンワークフロー](../../automating/using/building-a-workflow.md)の作成と実行:ワークフローを使用してキャンペーンプロセスを自動化します。
-* [利用可能なレポートを通してマーケティング活動を監視](../../reporting/using/defining-the-report-period.md)します。
+* [プログラムとキャンペーンの管理](../../start/using/programs-and-campaigns.md):様々なタイプのアクティビティ（電子メール、SMSメッセージ、プッシュ通知、ワークフロー、ランディングページ）を含むマーケティングキャンペーンを作成します。
+* プロファ [イル](../../audiences/using/about-profiles.md) /テ [ストプロファイル](../../sending/using/managing-test-profiles-and-sending-proofs.md):配信によってターゲット設定される、特定された受信者およびテスト受信者を管理します。 名、姓、連絡先情報、購読、電子メールなどの情報を追加します。
+* [メッセージの作成と送信](../../sending/using/confirming-the-send.md):メッセージの作成、オーディエンスの選択、メッセージのコンテンツとパーソナライゼーション要素の定義、校正の送信、オーディエンスへの最終的なメッセージの送信を行います。
+* [ランディングページの作成と発行](../../channels/using/about-landing-pages.md):購読フォームや購読解除フォームなど、クライアントに提供する一連のサービスを作成し、管理します。
+* [キャンペーンワークフローの作成と実行](../../automating/using/building-a-workflow.md):ワークフローを使用してキャンペーンプロセスを自動化します。
+* 使用可能なレポートを使用してマーケティングア [クティビティを監視](../../reporting/using/defining-the-report-period.md)。
 
-## Creating a user {#creating-a-user}
+## ユーザーの作成 {#creating-a-user}
 
-ユーザーをインスタンスに追加するには、まず管理コンソールで作成してから、Adobe Campaign Standardで管理する必要があります。
+インスタンスにユーザーを追加するには、まず管理コンソールで作成してから、Adobe Campaign Standardで管理する必要があります。
 
-1. From the advanced menu, select **[!UICONTROL Administration > Users & Security > Users]** and click **[!UICONTROL User administration]** to access the admin console.
+1. 詳細メニューで、を選択し、をクリ **[!UICONTROL Administration > Users & Security > Users]** ックして管理 **[!UICONTROL User administration]** コンソールにアクセスします。
 
    ![](assets/user_management_5.png)
 
-1. In the **[!UICONTROL Admin Console]**, click on the **[!UICONTROL Users]** tab.
+1. で、タブ **[!UICONTROL Admin Console]**&#x200B;をクリックし **[!UICONTROL Users]** ます。
 
-1. **[!UICONTROL Add User]**&#x200B;をクリックします。
+1. Click **[!UICONTROL Add User]**.
 
    ![](assets/create_user_2.png)
 
-1. **[!UICONTROL User details]** タブから、電子メールアドレス、名前、姓などのユーザーの詳細を入力します。
+1. タブで、 **[!UICONTROL User details]** 電子メールアドレス、名前、姓などのユーザーの詳細を入力します。
 
    ![](assets/create_user_3.png)
 
-1. **[!UICONTROL Assign products]** タブから、1つまたは複数のセキュリティグループをユーザーに割り当てます。For more information on security groups, refer to this [page](../../administration/using/managing-groups-and-users.md).
+1. タブから、1 **[!UICONTROL Assign products]** つ以上のセキュリティグループをユーザーに割り当てます。 For more information on security groups, refer to this [page](../../administration/using/managing-groups-and-users.md).
 
-   Click **[!UICONTROL Save]** when done configuring.
+   設定が完了 **[!UICONTROL Save]** したら、をクリックします。
 
    ![](assets/create_user_4.png)
 
-ユーザーが作成され、ユーザーがパスワードを設定する必要がある次のウィンドウにリダイレクトされ、契約書の利用規約に同意する必要があります。このユーザーは、Adobe Campaign Standardインスタンスに接続できます。
+これでユーザーが作成され、次のウィンドウにリダイレクトする電子メールが届きます。このウィンドウで、ユーザーはパスワードを設定し、使用条件に同意する必要があります。 これで、このユーザーはAdobe Campaign Standardインスタンスに接続できるようになります。
 
 ![](assets/create_user_5.png)
 
-ユーザーがインスタンスにサインインすると、すぐにAdobe Campaign Standardに同期されます。
+ユーザーは、インスタンスにサインインするとすぐにAdobe Campaign Standardと同期されます。
 
-ユーザーがAdobe Campaignと正しく同期されているかどうかを確認できます。
+その後、ユーザーがAdobe Campaignと正しく同期されているかどうかを確認できます。
 
-1. From the advanced menu **[!UICONTROL Administration > Users & Security > Users]** select your previously created user.
+1. アドバンスメニューから、以 **[!UICONTROL Administration > Users & Security > Users]** 前に作成したユーザを選択します。
 
-1. Update the **[!UICONTROL Mobile]**, **[!UICONTROL Time zone]** or **[!UICONTROL Regional settings]** if needed.
+1. または必要に応じ **[!UICONTROL Mobile]**&#x200B;て、を **[!UICONTROL Time zone]** 更新 **[!UICONTROL Regional settings]** してください。
 
-1. ユーザーのセキュリティグループを確認します。Here, you can see that the user has been assigned the **[!UICONTROL Administrators]** security group.
+1. ユーザーのセキュリティグループを確認します。 ここでは、ユーザーにセキュリティ・グループが割り当てられているこ **[!UICONTROL Administrators]** とを示します。
 
-   >[!Ntoo]
+   >[!N注]
    >
-   >セキュリティグループは、管理コンソールのユーザーにのみ削除することも、追加することもできます。
+   >セキュリティグループは、管理コンソールでのみ削除またはユーザーに追加できます。
 
    ![](assets/create_user_6.png)
 
-1. Check **[!UICONTROL Account disabled]** if you want to deactivate this user.
+1. このユー **[!UICONTROL Account disabled]** ザーを非アクティブ化するかどうかを選択します。
 
-1. **[!UICONTROL Authorized connection zone]** フィールドで、ユーザーがこのインスタンスに接続する方法（内部ネットワークやVPNなど）を選択します。
+1. このフィ **[!UICONTROL Authorized connection zone]** ールドで、ユーザがこのインスタンスに接続する方法（例：内部ネットワーク、VPN）を選択します。
 
-1. **[!UICONTROL Save]**&#x200B;をクリックします。
+1. Click **[!UICONTROL Save]**.
 
-ユーザーがAdobe Campaign Standardを使用できるようになりました。
+これで、ユーザーはAdobe Campaign Standardを使用する準備が整いました。
