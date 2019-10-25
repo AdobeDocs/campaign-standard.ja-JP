@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: エンドユーザー
 user-guide-title: Adobe Campaign Standardヘルプ
 translation-type: tm+mt
-source-git-commit: ccd7e67dd8cf3cea827e0ada9e6f37b322eb8191
+source-git-commit: 1ccea1d142f0b1550c8891b2f31233af8c9d4e29
 
 ---
 
@@ -154,7 +154,7 @@ source-git-commit: ccd7e67dd8cf3cea827e0ada9e6f37b322eb8191
    + レポートについて {#about-reporting}
       + [動的レポートについて](reporting/using/about-dynamic-reports.md)
       + [レポートインターフェイス](reporting/using/reporting-interface.md)
-      + [コンポーネントのリスト ](reporting/using/list-of-components-.md)
+      + [コンポーネントのリスト](reporting/using/list-of-components-.md)
       + [指標の計算](reporting/using/indicator-calculation.md)
       + [トラブルシューティング](reporting/using/troubleshooting.md)
    + レポートのリスト {#list-of-reports}
