@@ -14,7 +14,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b1ba842c9cd05bbd152166346250443d12f21f10
+source-git-commit: 621b643fdbae077b494ea02274233de7ec99f288
 
 ---
 
@@ -39,7 +39,7 @@ Microsoft Dynamics 365統合(GA) — 詳細情報を [表示](https://helpx.adob
 
 Campaign StandardおよびCampaign Classicのエラーメッセージのリストが更新されました。 [詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
-GDPR入門ガイドが改善され、強化されました。 GDPRやCCPAなどのプライバシー管理に関するドキュメントが提供されます。 [詳細を表示](https://helpx-internal.corp.adobe.com/content/help/en/campaign/kb/campaign-privacy.html)
+GDPR入門ガイドが改善され、強化されました。 GDPRやCCPAなどのプライバシー管理に関するドキュメントが提供されます。 [詳細を表示](https://helpx.adobe.com/content/help/en/campaign/kb/campaign-privacy.html)
 
 トランザクションメッセージング発行プロセスを示す新しいグラフが追加されました。 [詳細を表示](../../channels/using/about-transactional-messaging.md#transactional-messaging-pub-process)
 
