@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7d044652c58c3fc66dac64f9d080852dbe29044d
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -30,7 +30,7 @@ source-git-commit: 7d044652c58c3fc66dac64f9d080852dbe29044d
 
 ### コンテンツテンプレート {#content-templates}
 
-電子メールデザイナーのホームページのタブで提供さ **[!UICONTROL Templates]** れるHTMLコンテ [ンツを管理できます](../../designing/using/overview.md) 。 様々なテンプレートは、複数の要素の様々な組み合わせを表します。 例えば、「Feather」テンプレートには余白があり、「Astro」テンプレートには余白がありません。 詳しくは、「コンテンツテンプレート」を参 [照してください](../../designing/using/using-reusable-content.md#content-templates)。
+電子メールデザイナーのホームページのタブで提供さ **[!UICONTROL Templates]** れるHTMLコンテ [ンツを管理できます](../../designing/using/overview.md) 。 様々なテンプレートは、複数の要素の様々な組み合わせを表します。 例えば、「Feather」テンプレートには余白があり、「Astro」テンプレートには余白がありません。 詳しくは、「コンテンツテンプレート」を参 [照してください](#content-templates)。
 
 ![](assets/template_content.png)
 
@@ -93,7 +93,7 @@ source-git-commit: 7d044652c58c3fc66dac64f9d080852dbe29044d
 
 電子メールデザイナーで電子メールテンプレートを作成できるようになりました。 コンテンツコンポーネントを使用して、電子メールの様々なセクションを反映し、元のニュースレターにできる限り近づくように設定を調整します。 最後に、作成したフラグメントを挿入します。
 
-1. 電子メールデザイナーを使用して、テンプレートを作成します。 詳しくは、「コンテンツテンプレート」を参 [照してください](../../designing/using/using-reusable-content.md#content-templates)。
+1. 電子メールデザイナーを使用して、テンプレートを作成します。 詳しくは、「コンテンツテンプレート」を参 [照してください](#content-templates)。
 1. テンプレートに、電子メールのヘッダー、フッター、本文に対応する構造コンポーネントを挿入します。 構造コンポーネントの追加について詳しくは、電子メールデザ [イナーを使用した電子メール構造の編集を参照してください](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
 1. 必要に応じてコンテンツコンポーネントを挿入し、ニュースレターの本文を作成します。 これは、毎月更新する電子メールの編集可能なコンテンツになります。
 
@@ -134,8 +134,8 @@ source-git-commit: 7d044652c58c3fc66dac64f9d080852dbe29044d
 
 電子メールデザイナーでフラグメントを最大限に活用するには：
 
-* 独自のフラグメントを作成します。 詳しくは、コ [ンテンツフラグメントの作成](../../designing/using/using-reusable-content.md#creating-a-content-fragment) 、コンテ [ンツをフラグメントとして保存を参照してくださ](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment)い。
-* 電子メールで必要な回数だけ使用します。 詳しくは、 [電子メールへの要素の挿入を参照してください](../../designing/using/using-reusable-content.md#inserting-elements-into-an-email)。
+* 独自のフラグメントを作成します。 詳しくは、コ [ンテンツフラグメントの作成](#creating-a-content-fragment) 、コンテ [ンツをフラグメントとして保存を参照してくださ](#saving-content-as-a-fragment)い。
+* 電子メールで必要な回数だけ使用します。 詳しくは、 [電子メールへの要素の挿入を参照してください](#inserting-elements-into-an-email)。
 * フラグメントを編集すると、変更が同期されます。フラグメントは、そのフラグメントを含むすべての電子メール（準備も送信も済んでいない場合）に自動的に反映されます。
 
 電子メールに追加したフラグメントは、デフォルトでロックされます。 特定の電子メールのフラグメントを変更する場合は、使用先の電子メールでロックを解除することで、元のフラグメントとの同期を中断できます。 変更は同期されなくなります。
@@ -150,7 +150,7 @@ source-git-commit: 7d044652c58c3fc66dac64f9d080852dbe29044d
 
 電子メールのコンテンツを定義するには、事前に配置した構造コンポーネントにコンテンツ要素を追加します。 「電子メ [ール構造の編集」を参照してください](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
 
-1. 左側の+アイコンを選択して、コンテ **ンツ要素** にアクセスします。 「フラグメ [ント](../../designing/using/using-reusable-content.md#about-fragments) 」または「コ [ンテンツ」を選択しま](../../designing/using/designing-from-scratch.md#about-content-components)す。
+1. 左側の+アイコンを選択して、コンテ **ンツ要素** にアクセスします。 「フラグメ [ント](#about-fragments) 」または「コ [ンテンツ」を選択しま](../../designing/using/designing-from-scratch.md#about-content-components)す。
 1. 追加するフラグメントのラベルまたはラベルの一部が既にわかっている場合は、それを検索できます。
 
    ![](assets/email_designer_fragmentsearch.png)
@@ -167,7 +167,7 @@ source-git-commit: 7d044652c58c3fc66dac64f9d080852dbe29044d
 
    >[!NOTE]
    >
-   >フラグメントは、電子メールに追加されるとデフォルトでロックされます。 特定の電子メールのフラグメントを変更する場合や、フラグメント内で直接変更する場合は、元のフラグメントとの同期を中断できます。 フラグメント [についてを参照してください](../../designing/using/using-reusable-content.md#about-fragments)。
+   >フラグメントは、電子メールに追加されるとデフォルトでロックされます。 特定の電子メールのフラグメントを変更する場合や、フラグメント内で直接変更する場合は、元のフラグメントとの同期を中断できます。 フラグメント [についてを参照してください](#about-fragments)。
 
 1. 電子メールに追加する必要のあるすべての要素に対して、この手順を繰り返します。
 1. 電子メールを保存します。
@@ -176,7 +176,7 @@ source-git-commit: 7d044652c58c3fc66dac64f9d080852dbe29044d
 
 >[!NOTE]
 >
->フラグメントが変更されると、その変更が使用されている電子メールに自動的に反映されます。 For more on this, see [About fragments](../../designing/using/using-reusable-content.md#about-fragments).
+>フラグメントが変更されると、その変更が使用されている電子メールに自動的に反映されます。 For more on this, see [About fragments](#about-fragments).
 
 ### コンテンツフラグメントの作成 {#creating-a-content-fragment}
 
@@ -213,7 +213,7 @@ source-git-commit: 7d044652c58c3fc66dac64f9d080852dbe29044d
 
 >[!NOTE]
 >
->フラグメント内にパーソナライゼーションフィールドを挿入するには、電子メールで使用し、ロックを解除する必要があります。 フラグメント [についてを参照してください](../../designing/using/using-reusable-content.md#about-fragments)。
+>フラグメント内にパーソナライゼーションフィールドを挿入するには、電子メールで使用し、ロックを解除する必要があります。 フラグメント [についてを参照してください](#about-fragments)。
 
 ### フラグメントとしてのコンテンツの保存 {#saving-content-as-a-fragment}
 
@@ -275,7 +275,7 @@ To save as a fragment some email content that you created, follow the steps belo
 
 これをおこなうには、以下の手順に従います。
 
-1. Adobe Campaignで、/に移動し、ヘッ **[!UICONTROL Resources]** ダーのフ **[!UICONTROL Content templates & fragments]** ラグメントを作成します。 詳しくは、「コンテンツフラグメントの [作成」を参照してください](../../designing/using/using-reusable-content.md#creating-a-content-fragment)。
+1. Adobe Campaignで、/に移動し、ヘッ **[!UICONTROL Resources]** ダーのフ **[!UICONTROL Content templates & fragments]** ラグメントを作成します。 詳しくは、「コンテンツフラグメントの [作成」を参照してください](#creating-a-content-fragment)。
 1. フラグメントに必要な数だけ構造コンポーネントを追加します。
 
 ![](assets/des_loading_compatible_fragment_1.png)
