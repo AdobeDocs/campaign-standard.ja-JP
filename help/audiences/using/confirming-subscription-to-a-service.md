@@ -14,7 +14,7 @@ discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a98c15b5c0f5f8714a09e709d4fa5259d3ce531e
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -32,8 +32,8 @@ source-git-commit: a98c15b5c0f5f8714a09e709d4fa5259d3ce531e
 * このメッセージは、デフォルトモードを使用するすべてのサービスで同じになります。
 
 特定のサービスに対して特定の確認電子メールを送信するには、カスタムメッセージを作成し、他のリソースからのパーソナライゼーションフィールドを利用することもできます。 これを行うには、トランザクションメッセージを作成し、設定する必要があります。 このメッセージは、次の場合に参照できます。
-* サービス自体から。 詳しくは、「サービスからの確認メ [ッセージの設定」を参照してください](../../audiences/using/confirming-subscription-to-a-service.md#configuring-confirmation-message-from-service)。
-* 購読のランディングページから。 詳しくは、「ランディングページか [らの確認メッセージの設定」を参照してください](../../audiences/using/confirming-subscription-to-a-service.md#configuring-confirmation-message-from-landing-page)。
+* サービス自体から。 詳しくは、「サービスからの確認メ [ッセージの設定」を参照してください](#configuring-confirmation-message-from-service)。
+* 購読のランディングページから。 詳しくは、「ランディングページか [らの確認メッセージの設定」を参照してください](#configuring-confirmation-message-from-landing-page)。
 
 ## サービスからの確認メッセージの設定 {#configuring-confirmation-message-from-service}
 
@@ -166,7 +166,7 @@ source-git-commit: a98c15b5c0f5f8714a09e709d4fa5259d3ce531e
 
 #### 確認メッセージの設計 {#design-the-confirmation-message-2}
 
-トランザクションメッセージの設計手順をこの節で説明 [します](../../audiences/using/confirming-subscription-to-a-service.md#design-the-confirmation-message-1)。
+トランザクションメッセージの設計手順をこの節で説明 [します](#design-the-confirmation-message-1)。
 
 ### 手順2:サービスの作成と設定 {#step-2--create-and-configure-the-service-2}
 
