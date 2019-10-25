@@ -14,14 +14,14 @@ discoiquuid: eb24f4ea-325f-433a-91a0-c45906320bcb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 90bb41ae78fe6fbcca0bd359c169adde4efd4b1b
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
 
 # Audience ManagerまたはPeopleコアサービスとの統合のプロビジョニングと設定{#provisioning-and-configuring-integration-with-audience-manager-or-people-core-service}
 
-Adobe CampaignのAudience ManagerとPeopleコアのプロビジョニングと設定には、次の2つの手順を実行します。アドビ [にリクエストを送信し](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#submitting-request-to-adobe) 、Adobe Campaign [で統合を設定します](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#configuring-the-integration-in-adobe-campaign)。
+Adobe CampaignのAudience ManagerとPeopleコアのプロビジョニングと設定には、次の2つの手順を実行します。アドビ [にリクエストを送信し](#submitting-request-to-adobe) 、Adobe Campaign [で統合を設定します](#configuring-the-integration-in-adobe-campaign)。
 
 ## アドビへの依頼の送信 {#submitting-request-to-adobe}
 
@@ -76,10 +76,10 @@ Peopleコアサービスの代わりにAdobe Audience Managerを使用してい�
 
 このリクエストを送信した後、アドビは統合のプロビジョニングに進み、お客様に連絡して、設定の最終決定に必要な詳細と情報を提供します。
 
-* [手順1:Adobe Campaignで外部アカウントを設定または確認する](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#step-1--configure-or-check-the-external-accounts-in-adobe-campaign)
-* [手順2:データソースの設定](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#step-2--configure-the-data-sources)
-* [手順3:キャンペーントラッキングサーバーの設定](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#step-3--configure-campaign-tracking-server)
-* [手順4:訪問者IDサービスの設定](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#step-4--configure-the-visitor-id-service)
+* [手順1:Adobe Campaignで外部アカウントを設定または確認する](#step-1--configure-or-check-the-external-accounts-in-adobe-campaign)
+* [手順2:データソースの設定](#step-2--configure-the-data-sources)
+* [手順3:キャンペーントラッキングサーバーの設定](#step-3--configure-campaign-tracking-server)
+* [手順4:訪問者IDサービスの設定](#step-4--configure-the-visitor-id-service)
 
 ### Step 1: Configure or check the external accounts in Adobe Campaign {#step-1--configure-or-check-the-external-accounts-in-adobe-campaign}
 
