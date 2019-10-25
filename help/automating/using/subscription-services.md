@@ -2,83 +2,83 @@
 title: 購読サービス
 seo-title: 購読サービス
 description: 購読サービス
-seo-description: 購読サービスアクティビティを使用すると、プロファイルを一括で取得してサービスに登録したり、サービスから登録解除したりできます。
-page-status-flag: 常にアクティブ化されていない
+seo-description: 購読サービスアクティビティでは、プロファイルを一括で取得し、サービスに登録したり、サービスから登録解除したりできます。
+page-status-flag: 非活性化の
 uuid: 56637024-15ab-4145-9c48-3fbd27ab8af8
-contentOwner: サウビート
-products: SG_ CAMPAIGN/STANDARD
+contentOwner: ソビア
+products: SG_CAMPAIGN/STANDARD
 audience: 自動化
 content-type: 参照
-topic-tags: data- management- activity
-discoiquuid: 74a6df0e- fd85-4404- a42c-9a7406512717
-context-tags: setOfService，ワークフロー，メイン
+topic-tags: データ管理活動
+discoiquuid: 74a6df0e-fd85-4404-a42c-9a7406512717
+context-tags: setOfService,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
 
-# Subscription Services{#subscription-services}
+# 購読サービス{#subscription-services}
 
 ## 説明 {#description}
 
 ![](assets/wf_subscription.png)
 
-**[!UICONTROL Subscription Services]** このアクティビティにより、プロファイルを一括で取得してサービスにサブスクライブしたり、サービスから登録解除したりできます。
+アクティビティ **[!UICONTROL Subscription Services]** では、プロファイルを一括して取得し、サービスに登録したり、サービスから登録を解除したりできます。
 
 >[!CAUTION]
 >
->ワークフローのコンテキストで管理される購読の場合、購読プロファイルまたは購読解除プロファイルはサービスプロパティで定義されている異なる確認電子メールを受信しません。
+>ワークフローのコンテキストで管理される購読の場合、購読プロファイルまたは未登録のプロファイルは、サービスプロパティで定義された異なる確認電子メールを受け取りません。
 
-## Context of use {#context-of-use}
+## 使用状況 {#context-of-use}
 
-**[!UICONTROL Subscription Services]** アクティビティはAdobe Campaignの唯一の機能です。これにより、1つのアクションで複数のプロファイルをサブスクライブしたり、サービスから登録解除したりできます。
+アクティビテ **[!UICONTROL Subscription Services]** ィは、1回の操作で複数のプロファイルをサービスに登録したり、サービスから登録を解除したりできる唯一のAdobe Campaign機能です。
 
-ターゲット設定を実行した後、または特定のデータを含むファイルをインポートした後で、このアクティビティを使用できます。
+このアクティビティは、ターゲット設定を実行した後、または識別されたデータを含むファイルを読み込んだ後に使用できます。
 
-特定の列を介してファイルに指定した場合、このアクティビティではアクション（サブスクライブまたはサブスクライブ解除）およびアクションを実行するサービスを選択することもできます。
+専用列を使用してファイル内で指定した場合、このアクティビティでは、アクション（購読または購読解除）と、アクションを実行するサービスも選択できます。
 
-## Configuration {#configuration}
+## 設定 {#configuration}
 
-1. Drag and drop a **[!UICONTROL Subscription Services]** activity into your workflow.
-1. クエリやインポートの後の紐付けなど、他のターゲットアクティビティの後に接続します。
-1. Select the activity, then open it using the ![](assets/edit_darkgrey-24px.png) button from the quick actions that appear.
-1. Select the **[!UICONTROL Service]** for which you would like to manage the subscriptions using one of the following options:
+1. アクティビティをワークフロー **[!UICONTROL Subscription Services]** にドラッグ&amp;ドロップします。
+1. インポート後のクエリや調整など、他のターゲティングアクティビティの後に接続します。
+1. アクティビティを選択し、表示されるクイックアクシ ![](assets/edit_darkgrey-24px.png) ョンのボタンを使用して開きます。
+1. 次のいず **[!UICONTROL Service]** れかのオプションを使用して、購読を管理する対象を選択します。
 
    * **[!UICONTROL Select a specific service]**:サービスを手動で選択します。
-   * **[!UICONTROL Select services from the inbound transition]**:サービスは、インバウンドトランジションで指定します。例えば、各行で管理するサービスを指定するファイルを読み込むことができます。If you choose this option, make sure a link has been created beforehand between the data and the **Service** resource, as shown in [this example](../../automating/using/subscription-services.md#example--updating-multiple-subscription-statuses-from-a-file).
+   * **[!UICONTROL Select services from the inbound transition]**:サービスは、受信移行で指定されます。 例えば、各行に対して管理するサービスを指定するファイルを読み込むことができます。 このオプションを選択する場合は、この例に示すように、データと **Service** リソースの間に事前にリンクが作成されていることを [確認します](#example--updating-multiple-subscription-statuses-from-a-file)。
 
-      操作を実行するサービスが、レコードごとに動的に選択されます。
+      次に、操作を実行するサービスが、レコードごとに動的に選択されます。
 
-1. Select the **[!UICONTROL Operation type]** to execute using one of the following options:
+1. 次のいずれかの **[!UICONTROL Operation type]** オプションを使用して、実行するを選択します。
 
-   * **[!UICONTROL Select a specific operation type]**: **[!UICONTROL Subscribe]** を手動で選択します。**[!UICONTROL Unsubscribe]**
-   * **[!UICONTROL Select an operation type from a path of inbound transition]**:各レコードに対して実行する操作を指定する受信データの列を選択します。
+   * **[!UICONTROL Select a specific operation type]**:プロファイルを手動で選択し **[!UICONTROL Subscribe]** ます **[!UICONTROL Unsubscribe]** 。
+   * **[!UICONTROL Select an operation type from a path of inbound transition]**:各レコードに対して実行する操作を指定する、受信データの列を選択します。
 
-      この列では、演算はブール値または整数値として指定する必要があります。Use **0** to unsubscribe a record and **1** to subscribe.
+      この列では、操作をブール値または整数で指定する必要があります。 レコー **ドの購読を解除するには** 0を、購読するには **1** を使用します。
 
-      In case the values contained in an imported file do not match the above requirements, you can still use the [Remapping of values](../../automating/using/load-file.md#column-format) option available in the **[!UICONTROL Load file]** activity
+      読み込んだファイルに含まれる値が上記の要件を満たさない場合でも、アクティビティで使用可能な「 [Remapping of values](../../automating/using/load-file.md#column-format) 」オプションを使用でき **[!UICONTROL Load file]** ます
 
-1. 受信データにサービスへのプロファイルの購読日に対応する列が含まれている場合は、それを選択します。ワークフローの実行時には、空のままにしておくことができますが、購読日は設定できません。
-1. 購読の起源を定義します。You can set it to one of the fields of the inbound data or to a constant value of your choice by checking the **[!UICONTROL Set a constant as origin]** option. ワークフローの実行時には、空のままにしておくことができますが、元のままにすることはできません。
-1. 必要に応じて、アウトバウンドトランジションを生成できます。このトランジションには、受信アクティビティとまったく同じデータが含まれます。
+1. 受信データに、サービスに対するプロファイルの購読日に対応する列が含まれている場合は、その列を選択します。 空のままにしてもかまいませんが、ワークフローの実行時に購読の日付が設定されていません。
+1. 購読の出所を定義します。 受信データのフィールドの1つ、または選択した定数値に設定するには、このオプションをオンにし **[!UICONTROL Set a constant as origin]** ます。 空のままにしてもかまいませんが、ワークフローの実行時に原点が設定されません。
+1. 必要に応じて、アウトバウンドトランジションを生成できます。 この移行には、受信アクティビティのデータとまったく同じデータが含まれます。
 1. アクティビティの設定を確認し、ワークフローを保存します。
 
-   これで実行できるようになりました。実行後、サービスの詳細に登録または登録解除したプロファイルを表示できます。
+   これで、実行する準備が整いました。 実行すると、サービスを購読したプロファイルや、サービスを購読解除したプロファイルを、サービスの詳細に表示できます。
 
-## Example: Subscribing profiles to a specific service after importing a file {#example--subscribing-profiles-to-a-specific-service-after-importing-a-file}
+## 例：ファイルの読み込み後の特定のサービスへのプロファイルのサブスクライブ {#example--subscribing-profiles-to-a-specific-service-after-importing-a-file}
 
-この例では、プロファイルを含むファイルを読み込み、それらを既存のサービスにサブスクライブする方法を示します。ファイルをインポートした後、インポートしたデータをプロファイルとして識別できるように、紐付けを実行する必要があります。ファイルに重複がないことを確認するために、重複除外アクティビティがデータで実行されます。
+次の例は、プロファイルを含むファイルをインポートし、既存のサービスに登録する方法を示しています。 ファイルをインポートした後、インポートしたデータをプロファイルとして識別できるように調整を行う必要があります。 ファイルに重複が含まれないように、データに対して重複除外アクティビティが実行されます。
 
-ワークフローは次のように表示されます。
+ワークフローは次のとおりです。
 
 ![](assets/subscription_activity_example1.png)
 
-* **[!UICONTROL Load file]** アクティビティは、プロファイルファイルを読み込み、インポートされた列の構造を定義します。
+* アクティビテ **[!UICONTROL Load file]** ィは、プロファイルファイルを読み込み、読み込まれた列の構造を定義します。
 
-   この例では、読み込まれたファイルは. csv形式で、次のデータが含まれています。
+   この例では、読み込まれるファイルは.csv形式で、次のデータが含まれています。
 
    ```
    lastname;firstname;email;birthdate;subdate
@@ -95,29 +95,29 @@ source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
 
    ![](assets/subscription_activity_example2.png)
 
-* **[!UICONTROL Reconciliation]** アクティビティは、Adobe Campaignデータベースのプロファイルディメンションに属するファイルからデータを識別します。Only the **[!UICONTROL Identification]** tab is configured. プロファイルの電子メールアドレスに従ってファイルデータを識別します。
+* アクティビテ **[!UICONTROL Reconciliation]** ィは、ファイルのデータがAdobe Campaignデータベースのプロファイルディメンションに属していることを識別します。 タブのみが設 **[!UICONTROL Identification]** 定されます。 プロファイルの電子メールアドレスに従ってファイルデータを識別します。
 
    ![](assets/subscription_activity_example3.png)
 
-* **[!UICONTROL Deduplication]** 一時リソースの **電子メール** フィールドに基づいて（紐付けによって生じる）すべての複製が識別されます。ファイルからインポートしたデータに重複が含まれている場合、サービスの購読はすべてのデータに対して失敗します。
+* (調整 **[!UICONTROL Deduplication]** の結果として **** )一時リソースの電子メールフィールドに基づいて、重複を識別します。 ファイルからインポートしたデータに重複が含まれている場合、サービスのサブスクリプションはすべてのデータに対して失敗します。
 
    ![](assets/subscription_activity_example5.png)
 
-* **[!UICONTROL Subscription Services]** アクティビティを使用すると、プロファイルを購読するサービス、購読日に対応するフィールド、購読の出典を選択できます。
+* アクテ **[!UICONTROL Subscription Services]** ィビティを使用すると、プロファイルを登録する必要があるサービス、購読日に対応するフィールド、および購読の開始日を選択できます。
 
    ![](assets/subscription_activity_example4.png)
 
-## Example: Updating multiple subscription statuses from a file {#example--updating-multiple-subscription-statuses-from-a-file}
+## 例：ファイルからの複数の購読ステータスの更新 {#example--updating-multiple-subscription-statuses-from-a-file}
 
-この例では、プロファイルを含むファイルを読み込む方法と、ファイルで指定されているいくつかのサービスのサブスクリプションを更新する方法について説明します。ファイルをインポートした後、インポートしたデータをサービスへのリンクとして識別できるように、紐付けを実行する必要があります。ファイルに重複がないことを確認するために、重複除外アクティビティがデータで実行されます。
+次の例は、プロファイルを含むファイルを読み込み、そのファイルで指定された複数のサービスに対して購読を更新する方法を示しています。 ファイルをインポートした後、インポートしたデータがサービスへのリンクを持つプロファイルとして識別できるように、調整を行う必要があります。 ファイルに重複が含まれないように、データに対して重複除外アクティビティが実行されます。
 
-ワークフローは次のように表示されます。
+ワークフローは次のとおりです。
 
 ![](assets/subscription_activity_example1.png)
 
-* **[!UICONTROL Load file]** アクティビティは、プロファイルファイルを読み込み、インポートされた列の構造を定義します。
+* アクティビテ **[!UICONTROL Load file]** ィは、プロファイルファイルを読み込み、読み込まれた列の構造を定義します。
 
-   この例では、読み込まれたファイルは. csv形式で、次のデータが含まれています。
+   この例では、読み込まれるファイルは.csv形式で、次のデータが含まれています。
 
    ```
    lastname;firstname;email;birthdate;service;operation
@@ -134,27 +134,27 @@ source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
 
    ![](assets/subscription_example_load_file.png)
 
-   この操作が認識されている場合は、ファイル内の操作が"sub"または"unsub"として指定されています。The system expects a **Boolean** or **Integer** value to recognize the operation to perform: "0" to unsubscribe and "1" to subscribe. この要件を満たすために、値の再マッピングが「操作」列の詳細で実行されます。
+   この操作は、ファイル内で「sub」または「unsub」として指定されています。 実行する操作を **Boolean** 値または **** Integer値で認識する必要があります。「0」を設定して購読を解除し、「1」を設定して購読を解除します。 この要件を満たすために、値のリマップは「operation」列の詳細で実行されます。
 
    ![](assets/subscription_example_remapping.png)
 
-   ファイルで既に"0"と"1"を使用して操作を識別する場合、これらの値を再マッピングする必要はありません。Only make sure that the column is processed as a **Boolean** or **Integer** in the **[!UICONTROL Column definition]** tab.
+   ファイルで操作を識別するために「0」と「1」が既に使用されている場合は、これらの値を再マップする必要はありません。 列が **Boolean** （ブール値）または **Integer（整数）として処理されていることを確認し****[!UICONTROL Column definition]** ます。
 
-* **[!UICONTROL Reconciliation]** アクティビティは、Adobe Campaignデータベースのプロファイルディメンションに属するファイルからデータを識別します。**[!UICONTROL Identification]** このタブから、ファイルの **電子メール** フィールドがプロファイルリソースの **電子メール** フィールドに一致します。
+* アクティビテ **[!UICONTROL Reconciliation]** ィは、ファイルのデータがAdobe Campaignデータベースのプロファイルディメンションに属していることを識別します。 このタブを使 **[!UICONTROL Identification]** 用して、フ **ァイルの** 「email」フィールドとプロファイルリソースの「email **** 」フィールドが照合されます。
 
    ![](assets/subscription_activity_example3.png)
 
-   **[!UICONTROL Relations]** タブでは、サービスリソースを使用してリンクが作成され、ファイルの **サービス** フィールドが認識されます。In this example, the values match the **name** field of the service resource.
+   このタブで **[!UICONTROL Relations]** は、サービスリソースを使用してリンクが作成され、ファイルのサ **ービス** ・フィールドを認識できます。 この例では、値はサービスリソースの **name** フィールドと一致します。
 
    ![](assets/subscription_example_service_relation.png)
 
-* **[!UICONTROL Deduplication]** 一時リソースの **電子メール** フィールドに基づいて（紐付けによって生じる）は、重複を識別します。重複の場合、サービスの購読はすべてのデータに対して失敗するので、重複を排除することが重要です。
+* (調整 **[!UICONTROL Deduplication]** の結果として **** )一時リソースの電子メールフィールドに基づいて、重複を識別します。 サービスのサブスクリプションで重複が発生した場合はすべてのデータが失敗するので、重複を排除することが重要です。
 
    ![](assets/subscription_activity_example5.png)
 
-* A **[!UICONTROL Subscription Services]** identifies the services to update as coming from the transition, through the link created in the **[!UICONTROL Reconciliation]** activity.
+* Aは、ア **[!UICONTROL Subscription Services]** クティビティで作成されたリンクを介して、移行からの移行で更新するサービスを識別 **[!UICONTROL Reconciliation]** します。
 
-   The **[!UICONTROL Operation type]** is identified as coming from the **operation** field of the file. ここで選択できるのは、ブール値または整数フィールドのみです。If the column of your file that contains the operation to perform does not appear in the list, make sure that you have correctly set your column format in the **[!UICONTROL Load file]** activity, as explained earlier in this example.
+   は、フ **[!UICONTROL Operation type]** ァイルの操作フィールドから **のもの** として識別されます。 ここで選択できるのは、ブール型または整数型のフィールドのみです。 実行する操作を含むファイルの列がリストに表示されない場合は、この例で前述したように、アクティビティに列の形式が正しく設定されていることを確 **[!UICONTROL Load file]** 認してください。
 
    ![](assets/subscription_activity_example_from_file.png)
 
