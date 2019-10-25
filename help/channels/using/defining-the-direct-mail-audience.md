@@ -1,47 +1,47 @@
 ---
-title: ダイレクトメール視聴者の定義
-seo-title: ダイレクトメール視聴者の定義
-description: ダイレクトメール視聴者の定義
+title: ダイレクトメールの対象ユーザーの定義
+seo-title: ダイレクトメールの対象ユーザーの定義
+description: ダイレクトメールの対象ユーザーの定義
 seo-description: ダイレクトメール配信のターゲットを定義する方法を説明します。
-page-status-flag: 決して活性化されていない
+page-status-flag: 非活性化の
 uuid: f843e368-5c07-4b53-8943-46f7bf45b62b
 contentOwner: ソビア
-products: SG_キャンペーン/標準
-audience: チャンネル
+products: SG_CAMPAIGN/STANDARD
+audience: チャネル
 content-type: 参照
 topic-tags: ダイレクトメール
 discoiquuid: f993d1b6-4b9a-4f95-81fc-60c126211bd2
-context-tags: 配信， DirectMailContent，背面
+context-tags: delivery,directMailContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 27447db9ee0dd387c39976c7bd4e157a4b7899b8
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
 
-# ダイレクトメール視聴者の定義{#defining-the-direct-mail-audience}
+# Defining the direct mail audience{#defining-the-direct-mail-audience}
 
-作成ウィザードで対象者を定義することも、配信ダッシュボードの **「対象者」** セクションをクリックすることもできます。
+オーディエンスは、作成ウィザードで定義するか、配信ダッシュボードの「オーディエ **ンス** 」セクションをクリックして定義できます。
 
 ![](assets/direct_mail_15.png)
 
 ## メインターゲットの定義 {#defining-the-main-target}
 
-ダイレクトメールの場合、ターゲットプロファイルは、ダイレクトメールプロバイダーに送信する抽出ファイルに含まれるプロファイルです。
+ダイレクトメールの場合、ターゲットプロファイルは、ダイレクトメールプロバイダに送信する抽出ファイルに含まれるプロファイルです。
 
-ターゲットプロファイルごとに、抽出ファイルに新しい行が追加されます。各受信者に含まれるプロファイル情報の量は、「定義 [の定義](../../channels/using/defining-the-direct-mail-content.md#defining-the-extraction) 」画面で定義されます。
+ターゲットプロファイルごとに、新しい行が抽出ファイルに追加されます。 各受信者に含まれるプロファイル情報の量は、抽出の定義画面 [で定義します](#defining-the-extraction) 。
 
 >[!CAUTION]
 >
->ダイレクトメールプロバイダーに必要な情報がプロファイルに含まれていることを確認してください。また、プロファイルの情報の **[!UICONTROL Address specified]** ボックスをチェックしたことを確認してください。[推奨](../../channels/using/about-direct-mail.md#recommendations)事項を参照してください。
+>この情報はダイレクトメールプロバイダーにとって重要なものなので、プロファイルに住所が含まれていることを確認してください。 また、プロファイルの情報のボックスが **[!UICONTROL Address specified]** オンになっていることを確認します。 Recommendationsを参 [照してください](../../channels/using/about-direct-mail.md#recommendations)。
 
-## テストプロファイルとトラッププロファイルの追加 {#adding-test-and-trap-profiles}
+## テストおよびトラッププロファイルの追加 {#adding-test-and-trap-profiles}
 
-少数のプロファイルでファイルをテストできるように、テストプロファイルを追加します。実際のファイルを準備する前に、ファイルサンプルをすばやく作成して、構造体をテストおよび検証することができます。「 [テストプロファイルの管理および証明書の送信」を参照](../../sending/using/managing-test-profiles-and-sending-proofs.md)してください。
+少数のプロファイルでファイルをテストできるように、テストプロファイルを追加します。 これにより、実際のファイルを準備する前に、ファイルサンプルをすばやく作成して構造をテストし、検証することができます。 詳しくは、テ [ストプロファイルの管理と校正の送信を参照してください](../../sending/using/managing-test-profiles-and-sending-proofs.md)。
 
-メール配信にはトラップの使用が不可欠です。ダイレクトメールプロバイダーが実際に通信を送信していることを確認し、クライアントリストを別のプロバイダーに送信していないことを確認します。トラップ [の使用を参照](../../sending/using/managing-test-profiles-and-sending-proofs.md#using-traps)してください。
+トラップの使用は、ダイレクトメール配信に不可欠です。 ダイレクトメールプロバイダーが実際に通信を送信していること、およびクライアントリストが別のプロバイダーに送信されていないことを確認できます。 トラップの [使用を参照してください](../../sending/using/managing-test-profiles-and-sending-proofs.md#using-traps)。
 
-ダイレクトメール配信の場合、トラップは抽出時に追加され、出力ドキュメントに混合されます。既定では、出力ファイルの並べ替え順序に挿入されますが、ファイルの末尾または先頭に挿入することもできます。対象者を定義するときに、 **[!UICONTROL Trap insertion mode]** タブから目的のオプションを選択します。
+ダイレクトメール配信の場合、抽出中にトラップが追加され、出力ドキュメントに混在します。 デフォルトでは、出力ファイルの並べ替え順に挿入されますが、ファイルの末尾または先頭に挿入するように選択できます。 オーディエンスを定義する際に、タブから目的のオプションを選択 **[!UICONTROL Trap insertion mode]** します。
 
 ![](assets/direct_mail_trap_insertion_mode.png)
