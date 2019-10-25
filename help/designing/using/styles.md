@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 45916918fc9e8008d4eb583a9c92886672c04b71
+source-git-commit: 55eb4f19691581e312224cb9008b9782196f37a4
 
 ---
 
@@ -49,16 +49,16 @@ source-git-commit: 45916918fc9e8008d4eb583a9c92886672c04b71
 1. 構造コンポーネントを選択します(電子メール内に直接、または左側のパレットにある構造ツリーを使 **用します**)。
 1. コンテキストツ **ールバーで**、をク **[!UICONTROL Select a column]** リックして目的の列を選択します。
 
-この節の例を参 [照します](../../designing/using/styles.md#example--adjusting-vertical-alignment-and-padding)。
+この節の例を参 [照します](#example--adjusting-vertical-alignment-and-padding)。
 
 ### スタイル設定の調整 {#adjusting-style-settings}
 
-1. 電子メール内の要素を選択します。 詳しくは、要素の選択を参 [照してください](../../designing/using/styles.md#selecting-an-element)。
+1. 電子メール内の要素を選択します。 詳しくは、要素の選択を参 [照してください](#selecting-an-element)。
 1. 必要に応じて設定を調整します。 選択した各要素には、異なる設定のセットがあります。
 
-   背景の挿入、サイズの変更、水平方向または垂直方向の位置揃えの変更、色の管理、パディング [やマージンの追加](../../designing/using/styles.md#selecting-an-element)などができます。
+   背景の挿入、サイズの変更、水平方向または垂直方向の位置揃えの変更、色の管理、パディング [やマージンの追加](#selecting-an-element)などができます。
 
-   これを行うには、パネルに表示されるオプションを使用するか、インラ **[!UICONTROL Settings]** インスタ [イル属性を追加します](../../designing/using/styles.md#adding-inline-styling-attributes)。
+   これを行うには、パネルに表示されるオプションを使用するか、インラ **[!UICONTROL Settings]** インスタ [イル属性を追加します](#adding-inline-styling-attributes)。
 
    ![](assets/des_settings_pane.png)
 
@@ -220,7 +220,7 @@ source-git-commit: 45916918fc9e8008d4eb583a9c92886672c04b71
 
 モバイルディスプレイ用のすべてのスタイルオプションを個別に編集することで、電子メールのレスポンシブデザインを微調整できます。 例えば、余白とパディングを調整したり、小さいフォントサイズまたは大きいフォントサイズを使用したり、ボタンを変更したり、電子メールのモバイルバージョンに固有の異なる背景色を適用したりできます。
 
-モバイルビューでは、すべてのスタイルオプションを使用できます。 電子メールデザイナーのスタイル設定は、「電子メールスタイルの編 [集」セクションに表示され](../../designing/using/styles.md) ます。
+モバイルビューでは、すべてのスタイルオプションを使用できます。 電子メールデザイナーのスタイル設定は、「電子メールスタイルの編 [集」セクションに表示され](#editing-email-styles) ます。
 
 1. 電子メールを作成し、コンテンツの編集を開始します。 詳しくは、「新規での電子メール [コンテンツのデザイン」を参照してください](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)。
 1. 専用のモバイルビューにアクセスするには、ボタンを選択 **[!UICONTROL Switch to mobile view]** します。
