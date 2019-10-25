@@ -2,71 +2,71 @@
 title: 購読の監視
 seo-title: 購読の監視
 description: 購読の監視
-seo-description: サブスクライバーを追跡し、ダッシュボードとレポートを使用してサービスの成功を測定する方法について説明します。
-page-status-flag: 常にアクティブ化されていない
-uuid: b0d8eb80- fa51-4518- a5e6-56de4046f6ff
-contentOwner: サウビート
-products: SG_ CAMPAIGN/STANDARD
-audience: オーディエンス
+seo-description: ダッシュボードとレポートを使用して、購読者を追跡し、サービスの成功を測定する方法について説明します。
+page-status-flag: 非活性化の
+uuid: b0d8eb80-fa51-4518-a5e6-56de4046f6ff
+contentOwner: ソビア
+products: SG_CAMPAIGN/STANDARD
+audience: audiences
 content-type: 参照
-topic-tags: 管理-購読
-discoiquuid: 36750524- eb54-47e8- aa1b- ae0b94f58cb1
+topic-tags: 購読の管理
+discoiquuid: 36750524-eb54-47e8-aa1b-ae0b94f58cb1
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
 
-# Monitoring subscriptions{#monitoring-subscriptions}
+# 購読の監視{#monitoring-subscriptions}
 
-Adobe Campaignインターフェイスを使用して、加入者を追跡し、サービスの成功を測定します。
+Adobe Campaignインターフェイスを使用して、購読者を追跡し、サービスの成功を測定します。
 
-購読の監視および購読解除のためのオプションがいくつかあります。
+購読の監視と購読の取り消しを行うには、次のいくつかのオプションがあります。
 
-* サービスを現在使用しているユーザーのリストをサービスダッシュボードから表示します。[サービスダッシュボード](../../audiences/using/monitoring-subscriptions.md#service-dashboard)を参照してください。
-* consult the history of subscriptions and unsubscriptions from the **Subscription history** tab in the service dashboard. See [Subscription history](../../audiences/using/monitoring-subscriptions.md#subscription-history).
-* display a report detailing the evolution of subscriptions and unsubscriptions in the service **Reports**. [サービスレポート](../../audiences/using/monitoring-subscriptions.md#service-reports)を参照してください。
-* **プロファイルから登録しているサービスのリストを検索**&#x200B;します。See [History of events linked to a profile](../../audiences/using/monitoring-subscriptions.md#history-of-events-linked-to-a-profile).
+* サービスのダッシュボードに、現在サービスを購読している人のリストを表示します。 「サービスダ [ッシュボード](#service-dashboard)」を参照。
+* 購読の履歴を確認し、サービスダッシュボードの「購読履 **歴** 」タブから購読を取り消します。 購読履 [歴を参照](#subscription-history)。
+* 購読の進化と購読の取り消しの詳細を示すレポートをサービスレポートに表示 **します**。 サービスレ [ポートを参照](#service-reports)。
+* 個人がプロファイルから登録したサービスのリストを検索 **します**。 詳しくは、プ [ロファイルにリンクされたイベントの履歴を参照してくださ](#history-of-events-linked-to-a-profile)い。
 
-## Service dashboard {#service-dashboard}
+## サービスダッシュボード {#service-dashboard}
 
-サービスをサブスクライブしている人のリストを表示するには:
+サービスを購読している人のリストを表示するには：
 
-1. Go to the list of services via the advanced menu **Profiles &amp; audiences** &gt; **Services**, which can be accessed from the Adobe Campaign logo.
+1. アドバンスメニューの **Profiles &amp;** Audiences **/** Services（Adobe Campaignロゴからアクセス可能）からサービスのリストに移動します。
 1. 選択したサービスを選択して、対応するダッシュボードを表示します。
-1. The list of people subscribed to the service can be found in the **Subscriptions** tab.
+1. サービスを購読している人のリストは、「購読」タブで確認で **きます** 。
 
 ![](assets/lp_monitoring_subscriptions_1.png)
 
-## Subscription history {#subscription-history}
+## 購読履歴 {#subscription-history}
 
-購読および購読解除の履歴を問い合わせるには:
+購読履歴と購読解除履歴を参照するには：
 
-1. Go to the list of services via the advanced menu **Profiles &amp; audiences** &gt; **Services**, which can be accessed from the Adobe Campaign logo.
+1. アドバンスメニューの **Profiles &amp;** Audiences **/** Services（Adobe Campaignロゴからアクセス可能）からサービスのリストに移動します。
 1. 選択したサービスを選択して、対応するダッシュボードを表示します。
-1. Select the **Subscription history** tab to display the dates on which each person subscribed and unsubscribed.
+1. 「購読履歴 **** 」タブを選択し、各ユーザーが購読および登録解除した日付を表示します。
 
 ![](assets/lp_monitoring_subscriptions_2.png)
 
-## Service reports {#service-reports}
+## サービスレポート {#service-reports}
 
-購読および購読解除の展開の詳細を示すレポートを表示するには:
+購読と非購読の進化を詳細に示すレポートを表示するには：
 
-1. Go to the list of services via the advanced menu **Profiles &amp; audiences** &gt; **Services**, which can be accessed from the Adobe Campaign logo.
+1. アドバンスメニューの **Profiles &amp;** Audiences **/** Services（Adobe Campaignロゴからアクセス可能）からサービスのリストに移動します。
 1. 選択したサービスを選択して、対応するダッシュボードを表示します。
-1. Click the **Reports** button in the action bar, then **Subscription monitoring** in the selection screen.
+1. アクション **バーの「Reports** 」ボタンをクリックし、選択画面で **「Subscription monitoring** 」をクリックします。
 
    ![](assets/lp_monitoring_subscriptions_3.png)
 
-1. **サービスサマリ** レポートには、購読の数、購読の全体的な展開、および経時的な進行状況を示す曲線が表示されます。
+1. サービ **スの概要レポートは** 、購読の数、購読の全体的な進化、および経時的な進行状況を示す曲線を表示します。
 
 ![](assets/lp_monitoring_subscriptions_4.png)
 
-## History of events linked to a profile {#history-of-events-linked-to-a-profile}
+## プロファイルにリンクされたイベントの履歴 {#history-of-events-linked-to-a-profile}
 
-連絡先が登録されているサービスのリストを確認するには、そのマーケティング履歴を問い合わせてください。For more on this, refer to the [Integrated customer profile](../../audiences/using/integrated-customer-profile.md) section.
+連絡先が登録したサービスのリストを参照するには、そのマーケティング履歴を参照します。 詳しくは、「統合顧客プロファイル」の節 [を参照してください](../../audiences/using/integrated-customer-profile.md) 。
 
 ![](assets/lp_monitoring_subscriptions_5.png)
 
