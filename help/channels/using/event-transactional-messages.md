@@ -15,7 +15,7 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -115,7 +115,7 @@ source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
 
    ![](assets/message-center_9.png)
 
-   パーソナライゼーションフィールドが、テストプロファイルに入力された情報と一致することを確認できます。 詳しくは、トランザクションメッセージで [のテストプロファイルの定義を参照してください](../../channels/using/event-transactional-messages.md#defining-a-test-profile-in-a-transactional-message)。
+   パーソナライゼーションフィールドが、テストプロファイルに入力された情報と一致することを確認できます。 詳しくは、トランザクションメッセージで [のテストプロファイルの定義を参照してください](#defining-a-test-profile-in-a-transactional-message)。
 
 ## トランザクションメッセージでの製品リストの使用 {#using-product-listings-in-a-transactional-message}
 
@@ -234,7 +234,7 @@ source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
 
    ![](assets/message-center_loop_test-profile_payload.png)
 
-   トランザクションメッセージでのテストプロファイルの定義について詳しくは、この節を参 [照してくださ](../../channels/using/event-transactional-messages.md#defining-a-test-profile-in-a-transactional-message)い。
+   トランザクションメッセージでのテストプロファイルの定義について詳しくは、この節を参 [照してくださ](#defining-a-test-profile-in-a-transactional-message)い。
 
 ## トランザクションメッセージのテスト {#testing-a-transactional-message}
 
@@ -274,9 +274,9 @@ source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
 
 >[!NOTE]
 >
->メッセージを再度発行するには、対応するイベント設定に戻って発行し、メッセージを発行する必要があります。 詳しくは、トランザクションメッセージの [公開を参照してください](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message)。
+>メッセージを再度発行するには、対応するイベント設定に戻って発行し、メッセージを発行する必要があります。 詳しくは、トランザクションメッセージの [公開を参照してください](#publishing-a-transactional-message)。
 
-一時停止したトランザクションメッセージの公開を取り消す場合は、再度公開するまでに最大24時間待たなければならない場合があります。 これは、キューに送信されたす **[!UICONTROL Database cleanup]** べてのイベントをワークフローでクリーンアップするためです。 メッセージを一時停止する手順について詳しくは、「トランザクションメッセ [ージの発行の停止](../../channels/using/event-transactional-messages.md#suspending-a-transactional-message-publication) 」を参照してください。
+一時停止したトランザクションメッセージの公開を取り消す場合は、再度公開するまでに最大24時間待たなければならない場合があります。 これは、キューに送信されたす **[!UICONTROL Database cleanup]** べてのイベントをワークフローでクリーンアップするためです。 メッセージを一時停止する手順について詳しくは、「トランザクションメッセ [ージの発行の停止](#suspending-a-transactional-message-publication) 」を参照してください。
 
 毎日 **[!UICONTROL Database cleanup]** 午前4時に実行されるワークフローは、 &gt; &gt;からアクセ **[!UICONTROL Administration]** スで **[!UICONTROL Application settings]** きます **[!UICONTROL Workflows]**。
 
@@ -288,7 +288,7 @@ source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
 
 * **トランザクションメッセージ**:トランザクションメッセージを削除するには、メッセージを一時停止せずに非公開にする必要があります。
 
-   トランザクションメッセージが未公開の場合は、別のトランザクションメッセージが対応するイベントにリンクされていない限り、トランザクションメッセージを正常に削除するために、イベント設定も非公開にする必要があります。 For more information on how to unpublish a transactional message, refer to this [section](../../channels/using/event-transactional-messages.md#unpublishing-a-transactional-message).
+   トランザクションメッセージが未公開の場合は、別のトランザクションメッセージが対応するイベントにリンクされていない限り、トランザクションメッセージを正常に削除するために、イベント設定も非公開にする必要があります。 For more information on how to unpublish a transactional message, refer to this [section](#unpublishing-a-transactional-message).
 
    >[!CAUTION]
    >
@@ -304,8 +304,8 @@ source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
 
 トランザクションメッセージの送信に失敗した場合は、2つの再試行システムがあります。
 
-* トランザクションメッセージングレベルでは、イベントが実行配信に割り当てられる前（つまり、イベント受信と配信準備との間）に、トランザクションメッセージが失敗する可能性があります。 イベント処 [理の再試行プロセスを参照してくださ](../../channels/using/event-transactional-messages.md#event-processing-retry-process)い。
-* 送信プロセスレベルでは、イベントが実行配信に割り当てられると、一時的なエラーが原因でトランザクションメッセージが失敗する場合があります。 詳しくは、メ [ッセージ送信再試行プロセスを参照してくださ](../../channels/using/event-transactional-messages.md#message-sending-retry-process)い。
+* トランザクションメッセージングレベルでは、イベントが実行配信に割り当てられる前（つまり、イベント受信と配信準備との間）に、トランザクションメッセージが失敗する可能性があります。 イベント処 [理の再試行プロセスを参照してくださ](#event-processing-retry-process)い。
+* 送信プロセスレベルでは、イベントが実行配信に割り当てられると、一時的なエラーが原因でトランザクションメッセージが失敗する場合があります。 詳しくは、メ [ッセージ送信再試行プロセスを参照してくださ](#message-sending-retry-process)い。
 
 ### イベント処理の再試行プロセス {#event-processing-retry-process}
 
