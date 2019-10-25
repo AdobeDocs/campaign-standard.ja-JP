@@ -15,7 +15,7 @@ context-tags: ワークフロー，概要；ワークフロー，メイン
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -86,7 +86,7 @@ REST呼び出しの詳細と例については、 [APIドキュメントを参�
 
 * **エラー** （赤）
 
-   ワークフローの実行中にエラーが発生しました。 ワークフローが停止され、ユーザーがアクションを実行する必要があります。 このエラーの詳細を確認するには、ボタンを使用し ![](assets/printpreview_darkgrey-24px.png) てワークフローログにアクセスします(「監視」を参 [照](../../automating/using/executing-a-workflow.md#monitoring))。
+   ワークフローの実行中にエラーが発生しました。 ワークフローが停止され、ユーザーがアクションを実行する必要があります。 このエラーの詳細を確認するには、ボタンを使用し ![](assets/printpreview_darkgrey-24px.png) てワークフローログにアクセスします(「監視」を参 [照](#monitoring))。
 
 マーケティングアクティビティのリストを使用すると、すべてのワークフローとそのステータスを表示できます。 詳しくは、「マーケティングアクティビティ [の管理」を参照してくださ](../../start/using/marketing-activities.md#about-marketing-activities)い。
 
@@ -146,7 +146,7 @@ REST呼び出しの詳細と例については、 [APIドキュメントを参�
 
 このアイコ ![](assets/printpreview_darkgrey-24px.png) ンをクリックすると、ワークフローログとタスクメニューが開きます。
 
-ワークフローの履歴は、ワークフローの実行オプションで指定された期間だけ保存されます( [Workflowプロパティを参照](../../automating/using/executing-a-workflow.md#workflow-properties))。 この間、再起動後も、すべてのメッセージが保存されます。 以前の実行のメッセージを保存しない場合は、ボタンをクリックして履歴をクリアする必要があり ![](assets/delete_darkgrey-24px.png) ます。
+ワークフローの履歴は、ワークフローの実行オプションで指定された期間だけ保存されます( [Workflowプロパティを参照](#workflow-properties))。 この間、再起動後も、すべてのメッセージが保存されます。 以前の実行のメッセージを保存しない場合は、ボタンをクリックして履歴をクリアする必要があり ![](assets/delete_darkgrey-24px.png) ます。
 
 このタ **[!UICONTROL Log]** ブには、すべてのアクティビティまたは選択したアクティビティの実行履歴が含まれます。 実行された操作と実行エラーを時系列順にインデックスします。
 
@@ -174,9 +174,9 @@ REST呼び出しの詳細と例については、 [APIドキュメントを参�
 
 >[!NOTE]
 >
->この設定は、各アクティビティに個別に適用できます。これを行うには、アクティビティを選択し、クイックアクションを使用して開きま ![](assets/edit_darkgrey-24px.png)す。 次に、「実行オプション」タブでエラー管理モ **ードを選択し** ます。 アクティビティ [実行オプションを参照してくださ](../../automating/using/executing-a-workflow.md#activity-execution-options)い。
+>この設定は、各アクティビティに個別に適用できます。これを行うには、アクティビティを選択し、クイックアクションを使用して開きま ![](assets/edit_darkgrey-24px.png)す。 次に、「実行オプション」タブでエラー管理モ **ードを選択し** ます。 アクティビティ [実行オプションを参照してくださ](#activity-execution-options)い。
 
-また、ワ **[!UICONTROL Execution]** ークフローのプロパティのセクションでは、ワークフローの実行が自動的に中断さ **[!UICONTROL Consecutive errors]** れる前に許可される多数の権限を定義することもできます。 この数に達しない限り、エラーのある要素は無視され、他のワークフローブランチは通常どおり実行されます。 この数に達すると、ワークフローが中断され、ワークフローの管理者に自動的に通知されます（電子メールおよびアプリ内通知）。 ワークフ [ローのプロパティ](../../automating/using/executing-a-workflow.md#workflow-properties) 、 [Adobe Campaign通知を参照してください](../../administration/using/sending-internal-notifications.md)。
+また、ワ **[!UICONTROL Execution]** ークフローのプロパティのセクションでは、ワークフローの実行が自動的に中断さ **[!UICONTROL Consecutive errors]** れる前に許可される多数の権限を定義することもできます。 この数に達しない限り、エラーのある要素は無視され、他のワークフローブランチは通常どおり実行されます。 この数に達すると、ワークフローが中断され、ワークフローの管理者に自動的に通知されます（電子メールおよびアプリ内通知）。 ワークフ [ローのプロパティ](#workflow-properties) 、 [Adobe Campaign通知を参照してください](../../administration/using/sending-internal-notifications.md)。
 
 また、スーパーバイザは、ワークフローの実行プロパティで定義することもできます。
 
