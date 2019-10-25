@@ -2,137 +2,137 @@
 title: パッケージの管理
 seo-title: パッケージの管理
 description: パッケージの管理
-seo-description: 管理者は、構造化XMLファイルを介して異なるAdobe Campaignインスタンス間のリソースを交換するパッケージを定義できます。
-page-status-flag: 常にアクティブ化されていない
-uuid: d041f549- bfc5-4e6b-87bf- a63c7c224bca
-contentOwner: サウビート
-products: SG_ CAMPAIGN/STANDARD
+seo-description: 管理者は、構造化XMLファイルを使用して、様々なAdobe Campaignインスタンス間でリソースを交換するパッケージを定義できます。
+page-status-flag: 非活性化の
+uuid: d041f549-bfc5-4e6b-87bf-a63c7c224bca
+contentOwner: ソビア
+products: SG_CAMPAIGN/STANDARD
 audience: 自動化
 content-type: 参照
-topic-tags: importing- and- exporting- data
+topic-tags: データのインポート/エクスポート
 discoiquuid: c3015cdc-8432-4e57-8ac0-43ae7827e3b0
-context-tags: packageDef， overview;packageInstall， main
+context-tags: packageDef,overview;packageInstall,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
 
-# Managing packages{#managing-packages}
+# パッケージの管理{#managing-packages}
 
-管理者は、構造化XMLファイルを介して異なるAdobe Campaignインスタンス間のリソースを交換するパッケージを定義できます。これらは、設定パラメーターまたはデータです。
+管理者は、構造化XMLファイルを使用して、様々なAdobe Campaignインスタンス間でリソースを交換するパッケージを定義できます。 設定パラメーターやデータを指定できます。
 
-これは、あるサーバーから別のサーバーにデータを転送したり、インスタンスの設定を複製したりする場合に便利です。
+これは、あるサーバから別のサーバにデータを転送したり、インスタンスの設定を複製する場合に役立ちます。
 
-Packages are available under the **[!UICONTROL Administration]** &gt; **[!UICONTROL Deployment]** &gt; **[!UICONTROL Package exports]** or **[!UICONTROL Package imports]** menus. 2つのメニューは同様に機能します。
+パッケージは、//メニュ **[!UICONTROL Administration]** ーか **[!UICONTROL Deployment]** ら入手 **[!UICONTROL Package exports]** でき **[!UICONTROL Package imports]** ます。 2つのメニューも同様に機能します。
 
-各リストの要素は、デフォルトで、変更日またはインストール日に応じて、最新から最も古いものに変更されます。
+各リストの要素は、変更日やインストール日に従って、デフォルトで最新から最新の順に表示されます。
 
 ![](assets/packages_1.png)
 
-要素のコンテンツを表示および変更するには、ラベルをクリックします。Refer to the [Exporting a package](../../automating/using/managing-packages.md#exporting-a-package) and [Importing a package](../../automating/using/managing-packages.md#importing-a-package) sections.
+要素のコンテンツを表示および変更するには、そのラベルをクリックします。 「パッケージの書き出し [」および「パッケージの読み込み](#exporting-a-package) 」の [項を参照してください](#importing-a-package) 。
 
-## Package exports {#package-exports}
+## パッケージのエクスポート {#package-exports}
 
-### Standard packages {#standard-packages}
+### 標準パッケージ {#standard-packages}
 
-**[!UICONTROL Platform]** と **[!UICONTROL Administration]** は2つのビルトインパッケージで、書き出されるリソースのリストがあらかじめ定義されています。読み取り専用モードで開くことができ、書き出しにのみ適しています。
+**[!UICONTROL Platform]** とは2つ **[!UICONTROL Administration]** の組み込みパッケージで、それぞれに、書き出すリソースの事前定義済みのリストが含まれています。 読み取り専用モードで開くことができ、書き出しにのみ適しています。
 
 ![](assets/packages_14.png)
 
 >[!CAUTION]
 >
->書き出したリソースにデフォルトIDがある場合、パッケージのエクスポートは許可されません。そのため、エクスポート可能なリソースのIDは、Adobe Campaign Standardの標準として提供されているテンプレートとは異なる名前を使用して変更する必要があります。例えば、テストプロファイルをエクスポートする場合、値"AST"または"dm"を含むIDを使用することはできません。デフォルトIDを含むパッケージをエクスポートしようとすると、次のようなエラーが表示されます。「ブランド（ブランド）のエンティティタイプは、パッケージの読み込み時に競合を引き起こす可能性のあるデフォルトのID（'BRRD1'）を使用します。この名前を変更して、操作を繰り返します」。
+>書き出したリソースにデフォルトのIDが含まれている場合、パッケージの書き出しは許可されません。 したがって、書き出し可能なリソースのIDは、Adobe Campaign Standardで標準として提供されているテンプレートとは異なる名前を使用して変更する必要があります。 例えば、テストプロファイルをエクスポートする場合、値「SDM」または「sdm」を含むIDは使用できません。 デフォルトのIDを含むパッケージを書き出そうとすると、次のようなエラーが表示されます。"'ブランド（ブランド）'エンティティタイプは、パッケージのインポート時に競合が発生する可能性のあるデフォルトのID ('BRD1')を使用します。 この名前を変更し、操作を繰り返します。」
 
-The package export steps are described in the [Exporting a package](../../automating/using/managing-packages.md#exporting-a-package) section.
+パッケージの書き出し手順は、「パッケージの書き出し [」の節で説明します](#exporting-a-package) 。
 
-* **[!UICONTROL Platform]** パッケージによって、技術的な設定で追加されたすべてのリソースが再グループ化されます。カスタムリソース、カスタムリソースセット、トリガー、 **[!UICONTROL System]** およびタイプを持つアプリケーションオプション。
-* **[!UICONTROL Administration]** パッケージにより、次のようなビジネス設定時に追加されたすべてのオブジェクトが再グループ化されます。キャンペーンテンプレート、コンテンツテンプレート、配信テンプレート、ランディングページテンプレート、プログラムテンプレート、ワークフローテンプレート
+* パッケージ **[!UICONTROL Platform]** は、技術的な設定時に追加されたすべてのリソースを再グループ化します。カスタムリソース、カスタムリソースセット、トリガー、およびアプリケーションオプションを、タイプと共に使 **[!UICONTROL System]** 用できます。
+* パッケー **[!UICONTROL Administration]** ジは、ビジネス設定時に追加された以下のオブジェクトをすべて再グループ化します。キャンペーンテンプレート、コンテンツテンプレート、配信テンプレート、ランディングページテンプレート、プログラムテンプレートおよびワークフローテンプレート。
 
-   It also includes the following objects: content blocks, target mappings, external accounts, organizational units, application options with the **[!UICONTROL User]** type, roles, typologies, typology rules and users.
+   また、次のオブジェクトも含まれます。コンテンツブロック、ターゲットマッピング、外部アカウント、組織単位、タイプ、役割、タイポロジ、タ **[!UICONTROL User]** イポロジルールおよびユーザーを含むアプリケーションオプション。
 
 >[!NOTE]
 >
->これら2つのパッケージのコンテンツは変更できません。一方、これらのパッケージには常に最新のデータが含まれています。You can [create your own packages](../../automating/using/managing-packages.md#creating-a-package) to export specific elements.
+>この2つのパッケージの内容は変更できません。 これに対し、これらのパッケージには常に最新のデータが含まれています。 独自のパッケ [ージを作成して、特定の要素を書き出す](#creating-a-package) ことができます。
 
-### Creating a package {#creating-a-package}
+### パッケージの作成 {#creating-a-package}
 
 特定のデータセットを書き出す必要がある場合は、パッケージを作成する必要があります。
 
-パッケージを作成するには、管理者権限が必要です。
+パッケージを作成するには、管理権限が必要です。
 
-1. From **[!UICONTROL Administration]** &gt; **[!UICONTROL Deployment]** &gt; **[!UICONTROL Package exports]**, click the **[!UICONTROL Create]** button in the list of package contents.
+1. //か **[!UICONTROL Administration]** ら、パッケ **[!UICONTROL Deployment]** ージのコンテン **[!UICONTROL Package exports]****[!UICONTROL Create]** ツのリストにあるボタンをクリックします。
 
-   要素はすぐに作成されます。作成をキャンセルするには、リストに戻り、対応するボックスをチェックして削除します。
+   要素が直ちに作成されます。 作成をキャンセルするには、リストに戻り、削除する対応するボックスをオンにします。
 
-1. パッケージのコンテンツ画面で、名前とIDを指定します。
-1. Click the **[!UICONTROL Edit properties]** button if you would like to add a description and restrict access to certain users.
+1. パッケージコンテンツ画面で、名前とIDを指定します。
+1. 説明を追加 **[!UICONTROL Edit properties]** し、特定のユーザーにアクセスを制限する場合は、このボタンをクリックします。
 
    ![](assets/packages_18.png)
 
-1. Use the **[!UICONTROL Create element]** button in the **[!UICONTROL Export content]** tab to select the resources you wish to export.
+1. タブのボ **[!UICONTROL Create element]** タンを使用し **[!UICONTROL Export content]** て、書き出すリソースを選択します。
 
    ![](assets/packages_2.png)
 
-1. リソースはアルファベット順に表示され、名前でフィルターできます。技術的な名前は括弧で囲まれて表示されます。リストから要素を選択し、確認します。
+1. リソースはアルファベット順に表示され、名前でフィルタリングできます。 技術名は角括弧で囲まれて表示されます。 リストから要素を選択し、確認します。
 
    ![](assets/packages_3.png)
 
-1. The resource name is displayed in the **[!UICONTROL Export content]** tab. To modify a resource, check the corresponding box and use the **[!UICONTROL Show detail of the element selected]** button.
+1. リソース名がタブに表示され **[!UICONTROL Export content]** ます。 リソースを変更するには、対応するボックスを選択し、ボタンを使用 **[!UICONTROL Show detail of the element selected]** します。
 
    ![](assets/packages_4.png)
 
-1. クエリーエディターを使用すると、エクスポートする要素をフィルタリングできます。For more on this, refer to the [Editing queries](../../automating/using/editing-queries.md#creating-queries) section.
+1. クエリーエディターを使用すると、エクスポートする要素をフィルタリングできます。 For more on this, refer to the [Editing queries](../../automating/using/editing-queries.md#creating-queries) section.
 
    ![](assets/packages_5.png)
 
    >[!NOTE]
    >
-   >リソースごとに最大5000個のオブジェクトを書き出すことができます。
+   >リソースあたり最大5,000個のオブジェクトを書き出すことができます。
 
-1. エクスポートするすべてのリソースを指定したら、選択を保存します。
+1. 書き出すすべてのリソースを指定したら、選択内容を保存します。
 
-パッケージが作成され、エクスポートできるようになりました。
+パッケージが作成され、書き出しの準備が整いました。
 
-### Exporting a package {#exporting-a-package}
+### パッケージの書き出し {#exporting-a-package}
 
-パッケージをエクスポートすると、同じインスタンス上の別のインスタンスまたは後で再読み込みできるリソースの特定の状態を保存できます。
+パッケージを書き出すと、リソースの特定の状態を保存し、同じインスタンス上の別のインスタンスまたは後で再読み込みできるようになります。
 
 >[!CAUTION]
 >
->書き出したリソースにあらかじめ用意されているIDがある場合、パッケージの書き出しは許可されません。そのため、エクスポート可能なリソースのIDは、Adobe Campaign Standardの標準として提供されているテンプレートとは異なる名前を使用して変更する必要があります。例えば、テストプロファイルをエクスポートする場合、値"AST"または"dm"を含むIDを使用することはできません。
+>書き出したリソースにあらかじめ用意されているIDが含まれている場合、パッケージの書き出しは許可されません。 したがって、書き出し可能なリソースのIDは、Adobe Campaign Standardで標準として提供されているテンプレートとは異なる名前を使用して変更する必要があります。 例えば、テストプロファイルをエクスポートする場合、値「SDM」または「sdm」を含むIDは使用できません。
 
-1. From **[!UICONTROL Administration]** &gt; **[!UICONTROL Deployment]** &gt; **[!UICONTROL Package exports]**, select a package to access its detail.
-1. パッケージに必要なデータが含まれていることを確認します。
+1. /から **[!UICONTROL Administration]** 詳細にア **[!UICONTROL Deployment]** クセス **[!UICONTROL Package exports]**&#x200B;するパッケージを選択します。
+1. 必要なデータがパッケージに含まれていることを確認します。
 1. Click the **[!UICONTROL Start export]** button.
 
-書き出されたファイルは、使用中のブラウザーのダウンロードフォルダーに保存されます。"package_xxx.xml"は自動的に「」という名前になり、パッケージIDに対応します。
+書き出したファイルは、使用中のブラウザのダウンロードフォルダに保存されます。 この名前は自動的に「package_xxx.xml」という名前になり、「xxx」はパッケージIDに対応します。
 
-操作が完了すると、いくつかのセクションが表示されます。
+操作が完了すると、次のセクションが表示されます。
 
-* **[!UICONTROL Export status]**:この節では、操作が正しく実行されているかどうかを示します。
+* **[!UICONTROL Export status]**:この節では、操作が正しく実行されたかどうかを示します。
 
    ![](assets/packages_6.png)
 
-* **[!UICONTROL Log]** タブを使用して、エクスポートの様々な手順を確認できます。これには、以前のすべてのエクスポートのステータスが含まれます。
+* タブを使用して、エクスポートの異なる手順を確認で **[!UICONTROL Log]** きます。 以前のすべてのエクスポートのステータスが含まれます。
 
    ![](assets/packages_7.png)
 
 >[!NOTE]
 >
->When selecting an element from the package content list that has already been exported, the **[!UICONTROL Log]** and **[!UICONTROL Last export]** tabs are still available.
+>既に書き出されているパッケージコンテンツリストから要素を選択する場合、タブとタブ **[!UICONTROL Log]** は引き **[!UICONTROL Last export]** 続き使用できます。
 
-## Package imports {#package-imports}
+## パッケージインポート {#package-imports}
 
-### System updates {#system-updates}
+### システムの更新 {#system-updates}
 
-上記のパッケージインポートリストには、アドビが実行したアップデートにリンクされた自動インポートが含まれています。
+上記のパッケージの読み込みリストには、アドビが実行したアップデートにリンクされた自動読み込みが含まれています。
 
 ![](assets/packages_15.png)
 
-**[!UICONTROL Execution logs]** このタブには、すべてのインポート手順が保存されます。サイドパネルには一般的な情報が表示されます。
+このタ **[!UICONTROL Execution logs]** ブには、すべての読み込み手順が格納されます。 サイドパネルには、一般情報が表示されます。
 
 ![](assets/packages_11.png)
 
@@ -140,38 +140,38 @@ The package export steps are described in the [Exporting a package](../../automa
 >
 >これらの要素は読み取り専用モードでアクセスできます。
 
-### Importing a package {#importing-a-package}
+### パッケージの読み込み {#importing-a-package}
 
-管理者は、Adobe Campaignインスタンスから以前に実行されたエクスポートからのパッケージを手動でインポートできます。For more on this, refer to the [Package exports](../../automating/using/managing-packages.md#package-exports) section.
+管理者は、Adobe Campaignインスタンスの以前に実行したエクスポートから作成されたパッケージを手動でインポートできます。 For more on this, refer to the [Package exports](#package-exports) section.
 
-手動パッケージのインポートは、次の2つの手順で構成されます。まず、ファイルをアップロードしてから、そのコンテンツをインポートすることができます。
+手動パッケージのインポートは、次の2つの手順で構成されます。まず、ファイルをアップロードし、その内容を読み込む必要があります。
 
-1. From **[!UICONTROL Administration]** &gt; **[!UICONTROL Deployment]** &gt; **[!UICONTROL Package imports]**, click the **[!UICONTROL Create]** button in the package import list.
+1. //か **[!UICONTROL Administration]** ら、パッケ **[!UICONTROL Deployment]** ージの **[!UICONTROL Package imports]**&#x200B;読み込みリス **[!UICONTROL Create]** トのボタンをクリックします。
 
-   要素はすぐに作成されます。作成をキャンセルするには、リストに戻り、対応するボックスをチェックして削除します。
+   要素が直ちに作成されます。 作成をキャンセルするには、リストに戻り、削除する対応するボックスをオンにします。
 
 1. 新しいインポートの名前とIDを指定します。
-1. Select the file you wish to upload by dragging and dropping it, or by clicking the **[!UICONTROL Select from folder]** link.
+1. アップロードするファイルをドラッグ&amp;ドロップするか、リンクをクリックして選択 **[!UICONTROL Select from folder]** します。
 
-   読み込まれたファイルは、XMLまたはZIP（XMLファイルを含む）形式である必要があります。
+   読み込むファイルは、XMLまたはZIP（XMLファイルを含む）形式である必要があります。
 
    ![](assets/packages_16.png)
 
    >[!NOTE]
    >
-   >アップロードしたドキュメントを置き換えるには、まずそのファイルを名前の右側にあるXアイコンから削除し、操作を繰り返します。
+   >アップロードしたドキュメントを置き換えるには、まず名前の右側にあるXアイコンを使用してファイルを削除し、操作を繰り返します。
 
-1. Once the file is uploaded, import its content into the database by using the **[!UICONTROL Start import]** button.
+1. ファイルがアップロードされたら、ボタンを使用してその内容をデータベースに読み込 **[!UICONTROL Start import]** みます。
 
    ![](assets/packages_19.png)
 
-操作が完了すると、いくつかのセクションが表示されます。
+操作が完了すると、次のセクションが表示されます。
 
-* **[!UICONTROL Import status]**:この節では、操作が正しく実行されているかどうかを示します。
-* **[!UICONTROL Execution logs]** タブを使用して、インポートの様々な手順を確認できます。これは、エラーを表示する際に特に重要です。
+* **[!UICONTROL Import status]**:この節では、操作が正しく実行されたかどうかを示します。
+* タブを使用して、読み込みの異なる手順を確認でき **[!UICONTROL Execution logs]** ます。 これは、エラーを表示する際に特に重要です。
 
    ![](assets/packages_20.png)
 
-パッケージが読み込まれたら、同じ要素から再読み込みすることはできません。ラベルとIDのみ変更できます。
+パッケージを読み込むと、同じ要素から再読み込みすることはできません。 変更できるのは、そのラベルとIDのみです。
 
-同じパッケージを再読み込みするには、パッケージの読み込みリストに戻り、要素を作成してから、選択したファイルを再度アップロードします。
+同じパッケージを再度読み込むには、パッケージの読み込みリストに戻り、要素を作成してから、選択したファイルを再度アップロードする必要があります。
