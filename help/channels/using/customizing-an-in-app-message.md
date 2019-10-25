@@ -15,7 +15,7 @@ context-tags: 配信，inAppContent，戻る
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6d74d310f69b8800a635c6ac71de66c51fd64f2d
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -26,8 +26,8 @@ source-git-commit: 6d74d310f69b8800a635c6ac71de66c51fd64f2d
 
 アプリ内コンテンツエディターでは、次の2つのアプリ内メッセージモードのいずれかを選択できます。
 
-* [Message Template](../../channels/using/customizing-an-in-app-message.md#customizing-with-a-message-template):このテンプレートを使用すると、画像やビデオ、アクションボタンを使用してアプリ内を完全にカスタマイズできます。
-* [Custom Message](../../channels/using/customizing-an-in-app-message.md#customizing-with-a-custom-html-message):このテンプレートを使用すると、カスタムHTMLを読み込むことができます。
+* [Message Template](#customizing-with-a-message-template):このテンプレートを使用すると、画像やビデオ、アクションボタンを使用してアプリ内を完全にカスタマイズできます。
+* [Custom Message](#customizing-with-a-custom-html-message):このテンプレートを使用すると、カスタムHTMLを読み込むことができます。
 
 ![](assets/inapp_customize_1.png)
 
@@ -61,7 +61,7 @@ source-git-commit: 6d74d310f69b8800a635c6ac71de66c51fd64f2d
 
 * **[!UICONTROL Local notification]**:このタイプのレイアウトは、バナーメッセージとして表示されます。
 
-   サウンド、テキスト、宛先のみをサポートできます。 ローカル通知の詳細については、「ローカル通知メッセージ [タイプのカスタマイズ」を参照してくださ](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)い。
+   サウンド、テキスト、宛先のみをサポートできます。 ローカル通知の詳細については、「ローカル通知メッセージ [タイプのカスタマイズ」を参照してくださ](#customizing-a-local-notification-message-type)い。
 
 各タイプのレイアウトは、スマートフォン、タブレット、プラットフォーム（Android、iOSなど）でプレビューでき、コンテンツエディターの右ウィンドウで縦置きや横置きなどの方向でプレビューできます。
 
@@ -125,7 +125,7 @@ source-git-commit: 6d74d310f69b8800a635c6ac71de66c51fd64f2d
 1. アクションを選択した場合は、Web URLまたはデ **[!UICONTROL Destination URL]** ィープリンクをフィールドに入力 **[!UICONTROL Redirect]** します。
 1. プレビューウィンドウで、または「プレビュー」ボタンをクリックして、メッセージの内容を確認します。
 
-   アプリ内メッセ [ージのプレビューページを参照](../../channels/using/customizing-an-in-app-message.md#previewing-the-in-app-message) 。
+   アプリ内メッセ [ージのプレビューページを参照](#previewing-the-in-app-message) 。
 
    ![](assets/inapp_customize_11.png)
 
