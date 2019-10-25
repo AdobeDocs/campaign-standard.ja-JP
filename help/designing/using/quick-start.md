@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8f63c039231a7028825981098e6f97eb3ebca67e
+source-git-commit: 8e070a4c364c8a5e23870e28add142b46edc8994
 
 ---
 
@@ -24,14 +24,14 @@ source-git-commit: 8f63c039231a7028825981098e6f97eb3ebca67e
 
 新規に開始する電子メールを作成できます。
 
-* 空白のキャンバスから電子メールを作成するには、構造やコンテンツコンポーネントを簡単に追加し、コンテンツをパーソナライズしてすばやく配信を送信します。 また、スタイル要素を完全に管理することもできます。 詳しくは、すばやく使い始める [か、完全なドキュメント](../../designing/using/quick-start.md#from-scratch-email) を参照 [してください](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)。
+* 空白のキャンバスから電子メールを作成するには、構造やコンテンツコンポーネントを簡単に追加し、コンテンツをパーソナライズしてすばやく配信を送信します。 また、スタイル要素を完全に管理することもできます。 詳しくは、すばやく使い始める [か、完全なドキュメント](#from-scratch-email) を参照 [してください](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)。
 
-* テンプレートを選択し、ここから新しい電子メールコンテンツを作成することで、標準搭載されたテンプレートから電子メールを作成できます。 [さらに詳しく](quick-start.md#building-content-from-an-out-of-the-box-template)
+* テンプレートを選択し、ここから新しい電子メールコンテンツを作成することで、標準搭載されたテンプレートから電子メールを作成できます。 [さらに詳しく](#building-content-from-an-out-of-the-box-template)
 
 また、既存のコンテンツを含む電子メールを作成することもできます。
 
-* 既存のHTMLコンテンツは、（外部で作成したり、レガシーエディターで作成した）変換できます。 [さらに詳しく](quick-start.md#converting-an-html-content)
-* 既存のHTMLコンテンツは、互換モードですぐに読み込むことができます。 [さらに詳しく](quick-start.md#compatibility-mode)
+* 既存のHTMLコンテンツは、（外部で作成したり、レガシーエディターで作成した）変換できます。 [さらに詳しく](#converting-an-html-content)
+* 既存のHTMLコンテンツは、互換モードですぐに読み込むことができます。 [さらに詳しく](#compatibility-mode)
 
 ## 既存のコンテンツなし {#without-existing-content}
 
