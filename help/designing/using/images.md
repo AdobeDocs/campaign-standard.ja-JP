@@ -14,7 +14,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c43a258734f3344fad8c9cbd5bd5774d7f37b4f6
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -31,7 +31,7 @@ source-git-commit: c43a258734f3344fad8c9cbd5bd5774d7f37b4f6
 * Adobe Experience cloudから共有される画像 — キャンペーンとアセ [ットのコアサービス](../../integrating/using/working-with-campaign-and-assets-core-service.md) /アセットオンデマンドの操作を参照
 * Adobe targetの動的な画像 — 「CampaignとTargetの [操作」を参照](../../integrating/using/about-campaign-target-integration.md)
 
-有効にした場合、Adobe Creative SDKを使用して画像を変更できます。 詳しく [は、Adobe Creative SDKを使用した画像の変更を参照してください](images.md#modifying-images-with-the-adobe-creative-sdk)。
+有効にした場合、Adobe Creative SDKを使用して画像を変更できます。 詳しく [は、Adobe Creative SDKを使用した画像の変更を参照してください](#modifying-images-with-the-adobe-creative-sdk)。
 
 >[!CAUTION]
 >
