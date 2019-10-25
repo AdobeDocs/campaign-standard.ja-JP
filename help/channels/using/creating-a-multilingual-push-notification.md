@@ -14,7 +14,7 @@ discoiquuid: f9bb2235-d388-4025-9ace-734beb0c1961
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 650be2faa35d7e6d1279c952e1207a995c3297c5
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
@@ -31,9 +31,9 @@ source-git-commit: 650be2faa35d7e6d1279c952e1207a995c3297c5
 
 プッシュ通知配信で多言語コンテンツバリアントを使用するには、次の手順に従います。
 
-* [手順1:多言語コンテンツバリアントのアップロード](../../channels/using/creating-a-multilingual-push-notification.md#step-1--upload-multilingual-content-variant)
-* [手順2:多言語コンテンツバリアントを使用したプッシュ通知のプレビューと最終処理](../../channels/using/creating-a-multilingual-push-notification.md#step-2--preview-and-finalize-a-push-notification-using-multilingual-content-variants)
-* [手順3:多言語プッシュ通知配信の送信と分析](../../channels/using/creating-a-multilingual-push-notification.md#step-3--send-and-analyze-multilingual-push-notification-delivery)
+* [手順1:多言語コンテンツバリアントのアップロード](#step-1--upload-multilingual-content-variant)
+* [手順2:多言語コンテンツバリアントを使用したプッシュ通知のプレビューと最終処理](#step-2--preview-and-finalize-a-push-notification-using-multilingual-content-variants)
+* [手順3:多言語プッシュ通知配信の送信と分析](#step-3--send-and-analyze-multilingual-push-notification-delivery)
 
 ## 手順1:多言語コンテンツバリアントのアップロード {#step-1--upload-multilingual-content-variant}
 
