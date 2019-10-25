@@ -3,69 +3,69 @@ title: 配信の監視
 seo-title: 配信の監視
 description: 配信の監視
 seo-description: 配信の監視方法を確認します。
-page-status-flag: 常にアクティブ化されていない
-uuid: 7772c607- deld-40fd-8322-4d49119979b4
-contentOwner: サウビート
-products: SG_ CAMPAIGN/STANDARD
-audience: 送信中
+page-status-flag: 非活性化の
+uuid: 7772c607-debd-40fd-8322-4d49119979b4
+contentOwner: ソビア
+products: SG_CAMPAIGN/STANDARD
+audience: 送信
 content-type: 参照
 topic-tags: 監視メッセージ
 discoiquuid: eb9fa216-4568-423a-9396-8f7b82181ae9
-context-tags: delivery， main
+context-tags: 配信，メイン
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cb6396228e42f99f7e184a82e6c894b09a164cd9
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
 
-# Monitoring a delivery{#monitoring-a-delivery}
+# 配信の監視{#monitoring-a-delivery}
 
 配信を監視し、その影響を測定するには、いくつかの方法があります。
 
-* **メッセージログ**:これらのログには、メッセージダッシュボードから直接アクセスできます。送信の詳細、除外されたターゲット、および開封やクリックなどのトラッキング情報が表示されます。
+* **メッセージログ**:これらのログは、メッセージダッシュボードから直接アクセスできます。 送信の詳細、ターゲットが除外された理由、および開封数やクリック数などの追跡情報が表示されます。
 
-   To view the message logs, click the icon at the bottom right of the **[!UICONTROL Deployment]** block.
+   メッセージログを表示するには、ブロックの右下にあるアイコンをクリックし **[!UICONTROL Deployment]** ます。
 
-   Several tabs contain information (if it exists) regarding the **[!UICONTROL Sending logs]**, **[!UICONTROL Exclusion logs]**, **[!UICONTROL Exclusion causes]**, **[!UICONTROL Tracking logs]** and **[!UICONTROL Tracked URLs]**. [配信ログ](../../sending/using/monitoring-a-delivery.md#delivery-logs)を参照してください。
+   いくつかのタブには、、、、およびに関する情報(存在する場 **[!UICONTROL Sending logs]**&#x200B;合)が **[!UICONTROL Exclusion logs]**&#x200B;含ま **[!UICONTROL Exclusion causes]**&#x200B;れて **[!UICONTROL Tracking logs]** いま **[!UICONTROL Tracked URLs]**&#x200B;す。 「配信 [ログ」を参照](#delivery-logs)。
 
    ![](assets/sending_delivery1.png)
 
-   ログには、配信と配達確認に関するすべてのメッセージが含まれています。特定のアイコンを使用すると、エラーや警告を特定できます。For more on this, see [Approving messages](../../sending/using/previewing-messages.md).
+   ログには、配信と校正に関するすべてのメッセージが含まれます。 特定のアイコンを使用すると、エラーや警告を識別できます。 詳しくは、「メッセージの承認」を参 [照してください](../../sending/using/previewing-messages.md)。
 
-   You can export the log by clicking the **[!UICONTROL Export list]** button.
+   ボタンをクリックしてログを書き出すことがで **[!UICONTROL Export list]** きます。
 
    ![](assets/sending_delivery2.png)
 
-* **配信アラート**:配信成功または失敗を追跡するために、Adobe Campaignは通知システムを提供して、重要なシステムアクティビティをユーザーに通知する通知を送信します。
-* **レポート**:メッセージダッシュボードから、この特定のメッセージに関する複数のレポートにアクセスできます。You also have a **[!UICONTROL Reports]** menu that allows you to access a complete list of built-in or custom reports that you can use to outline specific metrics related to your message or campaign.
-* 管理者は、独自のレポートまたはBIツールで処理できる別のファイルにログをエクスポートすることもできます。For more on this, see [Exporting logs](../../automating/using/exporting-logs.md).
+* **配信アラート**:配信の成功または失敗を追跡するために、Adobe Campaignは、重要なシステムアクティビティをユーザーに通知する通知を送信する電子メールアラートシステムを提供します。
+* **レポート**:メッセージダッシュボードから、この特定のメッセージに関する複数のレポートにアクセスできます。 また、組み込みレポ **[!UICONTROL Reports]** ートやカスタムレポートの完全なリストにアクセスできるメニューもあり、メッセージやキャンペーンに関連する特定の指標の概要を示すのに使用できます。
+* 管理者は、独自のレポートまたはBIツールで処理できる別のファイルにログをエクスポートすることもできます。 詳しくは、「ログの書き出し」を参照 [してください](../../automating/using/exporting-logs.md)。
 
-**関連トピック:**
+**関連トピック：**
 
 * [エラー発生時のアラートの受信](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [レポート](../../reporting/using/about-dynamic-reports.md)
 
-## Delivery logs {#delivery-logs}
+## 配信ログ {#delivery-logs}
 
-### Sending logs {#sending-logs}
+### ログの送信 {#sending-logs}
 
-**[!UICONTROL Sending logs]** このタブには、この配信のすべてのオカレンスの履歴が表示されます。送信されたメッセージとそのステータスは、ここに保存されます。これにより、各受信者の配信ステータスを表示できます。
+このタ **[!UICONTROL Sending logs]** ブには、この配信のすべての発生の履歴が表示されます。 送信されたメッセージとそのステータスのリストがここに保存されます。 各受信者の配信ステータスを表示できます。
 
-**[!UICONTROL Sent]** ステータスを持つプロファイルごとに **[!UICONTROL Date]** 、メッセージが送信されたときに列が表示されます。
+ステータスを持つ各プロファ **[!UICONTROL Sent]** イルに対して、 **[!UICONTROL Date]** この列にはメッセージの送信日時が表示されます。
 
 ![](assets/sending_delivery3.png)
 
-### Exclusion logs {#exclusion-logs}
+### 除外ログ {#exclusion-logs}
 
-**[!UICONTROL Exclusion logs]** タブには、送信されたターゲットから除外されたすべてのメッセージが一覧表示され、送信失敗の理由が指定されます。
+このタ **[!UICONTROL Exclusion logs]** ブには、送信されたターゲットから除外されたすべてのメッセージが一覧表示され、送信失敗の理由が示されます。
 
 ![](assets/sending_delivery4.png)
 
-### Exclusion causes {#exclusion-causes}
+### 除外の原因 {#exclusion-causes}
 
-**[!UICONTROL Exclusion causes]** このタブには、ターゲット送信から除外されたメッセージのボリューム（メッセージ数）が表示されます。
+タブ **[!UICONTROL Exclusion causes]** には、ターゲット送信から除外されたメッセージの量（メッセージ数）が表示されます。
 
 ![](assets/sending_delivery5.png)
 
