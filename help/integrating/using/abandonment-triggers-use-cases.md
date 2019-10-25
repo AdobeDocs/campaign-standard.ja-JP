@@ -1,74 +1,74 @@
 ---
-title: 廃棄トリガーの使用例
-seo-title: 廃棄トリガーの使用例
-description: 廃棄トリガーの使用例
-seo-description: Experience Cloud Triggersとこれらのさまざまなユースケースとの統合を使用する方法を説明します。
-page-status-flag: 未活性化の
+title: 中断トリガーの使用例
+seo-title: 中断トリガーの使用例
+description: 中断トリガーの使用例
+seo-description: Experience Cloud Triggers統合をこれらの様々な使用例と組み合わせて使用する方法を説明します。
+page-status-flag: 非活性化の
 uuid: 9e236165-afd5-4155-9151-c1941dc0af99
-contentOwner: サウビア
+contentOwner: ソビア
 products: SG_CAMPAIGN/STANDARD
-audience: 積分
+audience: 統合
 content-type: 参照
-topic-tags: キャンペーンと引き金を使った作業
-discoiquuid: 1b9aeec5-70bb-4d72-a3e9-12342abf08f7
-internal: 〜の
-snippet: イー
+topic-tags: キャンペーンとトリガーの連携
+discoiquuid: 1b9aec5-70bb-4d72-a3e9-12342abf08f7
+internal: n
+snippet: y
 translation-type: tm+mt
-source-git-commit: 4b69c92a8c877ecaf05e87b728009104066a38dc
+source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ---
 
 
-# 廃棄トリガーの使用例{#abandonment-triggers-use-cases}
+# 中断トリガーの使用例{#abandonment-triggers-use-cases}
 
-この節では、Adobe CampaignとExperience Cloud Triggerの統合を使用して実装できるさまざまなユースケースについて説明します。 次の2つの使用例があります。
+ここでは、Adobe CampaignとExperience Cloud Triggersの統合を使用して実装できる様々な使用例を示します。 使用例は2つあります。
 
-* [ブラウズ破棄トリガ](../../integrating/using/abandonment-triggers-use-cases.md#browse-abandonment-trigger):ウェブサイトでの訪問を断念したお客様に連絡を送る。
-* [検索破棄トリガ](../../integrating/using/abandonment-triggers-use-cases.md#search-abandonment-trigger):ウェブサイトで検索を行ったが、購入しなかった訪問者と再び契約を結びます。
+* [放棄トリガーの閲覧](#browse-abandonment-trigger):ウェブサイトでの訪問を中止した顧客にコミュニケーションを送信します。
+* [検索中断トリガ](#search-abandonment-trigger):ウェブサイトで検索を行ったが購入を行わなかった訪問者と再び関わりを持ちます。
 
 >[!NOTE]
 >
->このセクションで説明する使用例は、エクスペリエンスクラウドビジターIDに基づいています。 また、エクスペリエンスクラウド宣言IDを使用して実装することもできます。 ハッシュ化および暗号化された宣言済みIDもサポートされます。 暗号化された電子メールアドレス/携帯電話番号を直接復号化することで、キャンペーンに存在しないプロファイルに電子メール/SMSを送信できます。 しかし、この場合、プロファイルデータを使用した個人用設定は使用できません。
+>この節で説明する使用例は、Experience cloud訪問者IDに依存しています。 また、Experience cloud宣言済みIDを使用して実装することもできます。 ハッシュ化および暗号化された宣言済みIDもサポートされます。 暗号化された電子メールアドレス/携帯電話番号を直接復号化することで、Campaignに存在しないプロファイルに電子メール/SMSを送信できます。 ただし、この場合、プロファイルデータを使用したパーソナライゼーションは使用できません。
 
 ## 前提条件 {#pre-requisites}
 
-これらの使用例を実装するには、次のソリューション/コア·サービスにアクセスする必要があります。
+これらの使用例を実装するには、次のソリューション/コアサービスにアクセスできる必要があります。
 
-* アドビキャンペーン
-* Adobe Analytics Ultimate、Premium、Foundation、OD、選択、プライム、モバイルアプリ、選択、または標準。
-* Experience Cloudがコアサービスをトリガー
-* Experience Cloud DTM Core Service
-* 体験クラウドビジターIDと体験クラウドのPeopleコアサービス
+* Adobe Campaign
+* Adobe Analytics Ultimate、Premium、Foundation、OD、Select、Prime、Mobile Apps、SelectまたはStandard。
+* Experience Cloud Triggersコアサービス
+* Experience Cloud DTMコアサービス
+* Experience cloud訪問者IDとExperience cloud訪問者コアサービス
 
 また、作業中のWebサイトも必要です。
 
-詳細については、「ソリューションとサ [ービスの構成」を参照してください](../../integrating/using/configuring-triggers-in-experience-cloud.md#configuring-solutions-and-services)。
+詳しくは、「ソリューションおよびサービス [の設定」を参照してください](../../integrating/using/configuring-triggers-in-experience-cloud.md#configuring-solutions-and-services)。
 
-## ブラウズ破棄トリガ {#browse-abandonment-trigger}
+## 閲覧放棄トリガー {#browse-abandonment-trigger}
 
-この使用例では、クライアントがWebサイトへの訪問を放棄するたびに起動する簡単なトリガを作成します。 この例では、DTMがAdobe Analyticsにデータを収集してプッシュし、すべてのイベントを作成していることを前提としています。
+この使用例では、クライアントがWebサイトの訪問を中断するたびに実行する単純なトリガーを作成します。 この例では、データを収集してAdobe AnalyticsにプッシュするDTMが既に存在し、すべてのイベントが作成されていることを前提としています。
 
-### エクスペリエンスクラウドトリガーの作成 {#creating-an-experience-cloud-trigger}
+### Experience cloudトリガーの作成 {#creating-an-experience-cloud-trigger}
 
-1. Experience Cloud Activation Core Serviceメ **[!UICONTROL Manage Triggers]** ニューから選択します。
+1. Experience Cloud Activationコ **[!UICONTROL Manage Triggers]** アサービスメニューから選択します。
 
    ![](assets/trigger_uc_browse_1.png)
 
-1. トリガの種類を選択しま **[!UICONTROL Abandonment]** す（この使用例では）。
+1. トリガーのタイプを選択しま **[!UICONTROL Abandonment]** す（使用事例）。
 
    ![](assets/trigger_uc_browse_2.png)
 
-1. この使用例に対しては、簡単な廃棄トリガが必要です。 出張予約のWebサイトを閲覧する訪問者を特定し、「案件」のページを見て、旅行を予約しないことがビジネスの目的です。 このお客様を特定したら、短い時間で連絡を取り直したいと思います。 この例では、10分間後にトリガを送信するように選択します。
+1. この使用例では、単純な中断トリガーが必要です。 ビジネスの目的は、旅行予約Webサイトを閲覧し、「取引」ページを見ながら旅行を予約しない訪問者を識別することです。 このオーディエンスを特定したら、短い期間で再度訪問者に連絡します。 この例では、10分後にトリガーを送信するように選択します。
 
    ![](assets/trigger_uc_browse_3.png)
 
-### Adobe Campaignでのトリガの使用 {#using-the-trigger-in-adobe-campaign}
+### Adobe Campaignでのトリガーの使用 {#using-the-trigger-in-adobe-campaign}
 
-Experience Cloud Triggerを作成しました。Adobe Campaignで使用します。
+Experience cloudトリガーを作成したので、Adobe Campaignで使用しましょう。
 
-Adobe Campaignでは、エクスペリエンスクラウドで作成したトリガーにリンクしたトリガーを作成する必要があります。
+Adobe Campaignで、Experience cloudで作成したトリガーにリンクしたトリガーを作成する必要があります。
 
-1. Adobe CampaignでTriggerを作成するには、左上隅のロ **[!UICONTROL Adobe Campaign]** ゴをクリックし、 &gt; &gt;を選 **[!UICONTROL Marketing plans]** 択し **[!UICONTROL Transactional messages]** ます **[!UICONTROL Experience Cloud triggers]**。
+1. Adobe Campaignでトリガーを作成するには、左上隅 **[!UICONTROL Adobe Campaign]** のロゴをクリックし、//を選 **[!UICONTROL Marketing plans]** 択し **[!UICONTROL Transactional messages]** ます **[!UICONTROL Experience Cloud triggers]**。
 
    ![](assets/remarketing_1.png)
 
@@ -77,27 +77,27 @@ Adobe Campaignでは、エクスペリエンスクラウドで作成したトリ
 
    ![](assets/trigger_uc_browse_5.png)
 
-1. チャンネルとタ **[!UICONTROL Email]** ーゲット次元を選 **[!UICONTROL Real-time event]** 択し、をクリックしま **[!UICONTROL Create]**&#x200B;す。
+1. チャネルとターゲ **[!UICONTROL Email]** ットディメンション **[!UICONTROL Real-time event]** を選択し、をクリックしま **[!UICONTROL Create]**&#x200B;す。
 
    ![](assets/trigger_uc_browse_6bis.png)
 
-1. Adobe Campaignでトリガを公開します。 このプロセスは、トランザクションメッセージテンプレートを自動的に作成します。
+1. Adobe Campaignでのトリガーの公開を参照してください。 このプロセスは、トランザクションメッセージテンプレートを自動的に作成します。
 
    ![](assets/trigger_uc_browse_6.png)
 
-1. メッセージテンプレートを表示するには、 **[!UICONTROL More]** 右上のボタンをクリックし、をクリックしま **[!UICONTROL Trigger Transactional Template]**&#x200B;す。
+1. メッセージテンプレートを表示するには、右上 **[!UICONTROL More]** のボタンをクリックし、をクリックしま **[!UICONTROL Trigger Transactional Template]**&#x200B;す。
 
-1. コンテンツと送信者の詳細をカスタマイズします。
+1. コンテンツと送信者の詳細をパーソナライズします。
 
    ![](assets/trigger_uc_browse_8.png)
 
-1. メッセージテンプレートを発行します。 トリガは現在、有効で機能しています。
+1. メッセージテンプレートを公開します。 トリガーがライブになり、機能します。
 
    ![](assets/trigger_uc_browse_0.png)
 
 ### シナリオの実行 {#running-the-scenario}
 
-1. このユースケースは、Adobe Campaignを使用して初めてお客様に送信される電子メールから始まります。
+1. この使用例は、Adobe Campaignでオーディエンスに最初の電子メールが送信されるときに開始します。
 
    ![](assets/trigger_uc_browse_9.png)
 
@@ -105,15 +105,15 @@ Adobe Campaignでは、エクスペリエンスクラウドで作成したトリ
 
    ![](assets/trigger_uc_browse_10.png)
 
-1. リンクをクリックすると、Webサイトに移動します。 この例では、バナーを使用して、旅行予約Webサイトのホームページに受信者を表示します。
+1. 彼が貴社のウェブサイトに来るリンクをクリックします。 この例では、バナーを使用して、旅行予約Webサイトのホームページに受信者を移動します。
 
    ![](assets/trigger_uc_browse_11.png)
 
-1. 受取人は「案件」ページに行くが、突然訪問を中止する。 10分後、Adobe Campaignはトランザクションメッセージの送信をトリガーします。
+1. 受信者は「掘り出し物」ページに移動しますが、突然訪問を中止します。 10分後に、Adobe Campaignはトランザクションメッセージの送信をトリガーします。
 
    ![](assets/trigger_uc_browse_12.png)
 
-1. エクスペリエンスクラウドのログをいつでも確認して、トリガーが何回起動したかを確認できます。
+1. Experience cloudのログをいつでも確認して、トリガーが発生した回数を確認できます。
 
    ![](assets/trigger_uc_browse_13.png)
 
@@ -121,48 +121,48 @@ Adobe Campaignでは、エクスペリエンスクラウドで作成したトリ
 
    ![](assets/trigger_uc_browse_14.png)
 
-## 検索破棄トリガ {#search-abandonment-trigger}
+## 検索中断トリガー {#search-abandonment-trigger}
 
-この使用例では、旅行予約Webサイトに行き、目的地を探し、成功した結果が見つからず、その後何も予約しなかった訪問者と再会する引き金を作成します。 一般的なプロセスは、前の使用例と同じです(「Browse abbonding Trigger [」を参照](../../integrating/using/abandonment-triggers-use-cases.md#browse-abandonment-trigger))。 ここでは、リマーケティングのEメール·メッセージをパーソナライズする方法について説明します。
+この使用例では、旅行予約Webサイトを閲覧し、目的地を検索し、成功の結果を見つけず、それ以降は何も予約しなかった訪問者と再び関わるトリガーを作成します。 一般的なプロセスは、前の使用例と同じです(「中断トリガーの参照 [」を参照](#browse-abandonment-trigger))。 ここでは、リマーケティング用の電子メールメッセージをパーソナライズする方法に焦点を当てます。
 
-### エクスペリエンスクラウドトリガーの作成 {#creating-an-experience-cloud-trigger-1}
+### Experience cloudトリガーの作成 {#creating-an-experience-cloud-trigger-1}
 
-前の使用例で説明した手順に従って、Experience Cloud Triggerを作成します。 Creating an Experience Cloud Trigger [を参照してください](../../integrating/using/abandonment-triggers-use-cases.md#creating-an-experience-cloud-trigger)。 主な違いはトリガ定義です。
+前の使用例で説明した手順に従って、Experience cloudトリガーを作成します。 詳しくは、 [Experience cloudトリガーの作成を参照してください](#creating-an-experience-cloud-trigger)。 主な違いは、トリガーの定義です。
 
 ![](assets/trigger_uc_search_1.png)
 
-このセク **[!UICONTROL Include Meta Data]** ションでは、分析から収集されたデータをトリガーペイロードに渡すことができます。 この例では、ビジターが入力する検索語を収集するカスタムeVar（eVar 3など）を作成します。 この用語は、同じ訪問者に送信されるトランザクション電子メールメッセージで使用されます。
+このセ **[!UICONTROL Include Meta Data]** クションでは、Analyticsから収集したデータをトリガーペイロードに渡すことができます。 この例では、カスタムeVar（eVar 3など）を作成して、訪問者が入力した検索用語を収集します。 この用語は、同じ訪問者に送信されるトランザクション用の電子メールメッセージで使用されます。
 
-### Adobe Campaignでのトリガの使用 {#using-the-trigger-in-adobe-campaign-1}
+### Adobe Campaignでのトリガーの使用 {#using-the-trigger-in-adobe-campaign-1}
 
-1. 前の使用例で説明した手順に従って、Adobe Campaignでトリガーを作成します。 Adobe Campainのト [リガーの使用を参照してください](../../integrating/using/abandonment-triggers-use-cases.md#using-the-trigger-in-adobe-campaign)。 主な違いは、Adobe Campaignでは、Triggerペイロードにプッシュされたメタデータにアクセスし、使用する方法です。
-1. Adobe Campaignで作成した「Search Abbondant」トリガーで、アイコンをクリックして、Adobe Campaignにプ **[!UICONTROL Event content and enrichment]** ッシュされたペイロードを表示します。
+1. 前の使用例で説明した手順に従って、Adobe Campaignでトリガーを作成します。 詳しく [は、Adobe Campaignでのトリガーの使用を参照してください](#using-the-trigger-in-adobe-campaign)。 主な違いは、Adobe Campaignで、トリガーペイロードにプッシュされたメタデータにアクセスして使用する方法です。
+1. Adobe Campaignで作成した検索の中断トリガーで、アイコンをクリックして、Adobe Campaignに **[!UICONTROL Event content and enrichment]** プッシュされたペイロードを表示します。
 
    ![](assets/trigger_uc_search_2.png)
 
-1. このように、カスタムeVarはトリガペイロードに渡され、 **Event Context** (ctx)テーブルにマップされます。 これで、トランザクション·メッセージをパーソナライズできます。
+1. ご覧のように、カスタムeVarはトリガーペイロードで渡され、イベントコンテキストテーブル **** (ctx)にマッピングされます。 これで、トランザクションメッセージをパーソナライズすることができます。
 
    ![](assets/trigger_uc_search_3.png)
 
-1. この例では、宛先の検索語を件名行と電子メール本文に含めます。
+1. この例では、電子メールの本文と同様に件名行に宛先検索用語を含めます。
 
    ![](assets/trigger_uc_search_4.png)
 
-1. 個人用フィールドを選択する場合は、 **Transactional event** (rtEvent)テーブルでペイロードのメタデータを探し、次に **Eventコンテキスト** (ctx)サブテーブルでペイロードのメタデータを探します。
+1. パーソナライズされたフィールドを選択する場合は、 **Transactional event** (rtEvent)テーブルでペイロードメタデータを探し、次に **Eventコンテキスト** (ctx)サブテーブルでデータを探します。
 
    ![](assets/trigger_uc_search_5.png)
 
 ### シナリオの実行 {#running-the-scenario-1}
 
-1. 訪問者は旅行予約のWebサイトに行き、目的地を探します。 この例では、訪問者は日本への旅行を探しているが、何の結果も見つからない。 これは、この訪問者に連絡し、別の旅行計画を提案する機会です。
+1. 訪問者は旅行予約のWebサイトにアクセスし、目的地を検索します。 この例では、訪問者は日本への旅行を探していますが、結果は見つかりません。 これは、この訪問者に戻って、別の旅行計画を提案する機会です。
 
    ![](assets/trigger_uc_search_6.png)
 
    >[!NOTE]
    >
-   >この使用例では、同じWebサイトから送信された電子メールを訪問者/受信者が既に開いてクリックしたと仮定します。 これにより、VisitorIDを使用して収集し、受信者にマッピングできます。 1回だけだ。
+   >この使用例では、訪問者/受信者が同じWebサイトからの電子メールを既に開いてクリックしていると仮定します。 これにより、VisitorIDを使用して収集し、受信者にマッピングすることができます。 必要なのは1回だけです
 
-1. 数分後、同じ訪問者/受信者が再マーケティングメッセージを受け取ります。 メッセージには、最近検索した宛先が含まれます。
+1. しばらくすると、同じ訪問者/受信者がリマーケティングメッセージを受信します。 メッセージには、最近検索した宛先が含まれます。
 
    ![](assets/trigger_uc_search_7.png)
 
