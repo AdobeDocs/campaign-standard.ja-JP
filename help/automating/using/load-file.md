@@ -15,7 +15,7 @@ context-tags: fileImport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b93cde098641d14023cff1c476aed521d1a49900
+source-git-commit: 0c455e965d21996ffbadeddf336c6709ce8ee8f3
 
 ---
 
@@ -84,7 +84,7 @@ source-git-commit: b93cde098641d14023cff1c476aed521d1a49900
 
    例えば、列のラベルを変更し、そのタイプ（文字列、整数、日付など）を選択できます。 またはエラー処理を指定することもできます。
 
-   For more information, refer to the [Column format](../../automating/using/load-file.md#column-format) section.
+   For more information, refer to the [Column format](#column-format) section.
 
    ![](assets/wkf_file_loading4.png)
 
@@ -176,7 +176,7 @@ source-git-commit: b93cde098641d14023cff1c476aed521d1a49900
 
 ## 例2:強化フィールドを含む電子メールの送信 {#example-2-email-with-enriched-fields}
 
-<!--A new example showing how to send an email containing additional data retrieved from a load file activity has been added. [Read more](../../automating/using/load-file.md#example-2-email-with-enriched-fields)-->
+<!--A new example showing how to send an email containing additional data retrieved from a load file activity has been added. [Read more](example-2-email-with-enriched-fields)-->
 
 また、ファイルの読み込みアクティビティを使用すると、同じワークフロー内の外部ファイルから追加のデータを含む電子メールを送信できます。
 
