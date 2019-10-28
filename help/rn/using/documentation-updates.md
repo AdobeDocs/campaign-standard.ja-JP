@@ -14,7 +14,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 621b643fdbae077b494ea02274233de7ec99f288
+source-git-commit: fc20cc5d3dfb4ad03ea4f8c7ad0931b5e190a089
 
 ---
 
@@ -45,7 +45,9 @@ GDPR入門ガイドが改善され、強化されました。 GDPRやCCPAなど�
 
 『配信のベストプラクティス集』ガイドが更新されました。 [詳細を表示](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
 
-<!--A new section has been added. It provides an overview of the different methods that allow you to enrich Campaign Standard database. [Read more](../../start/using/enriching-campaign-database.md)-->
+新しいセクションが追加されました。 Campaign Standardデータベースを拡張するための様々な方法の概要を説明します。 [詳細を表示](../../start/using/enriching-campaign-database.md)
+
+電子メールデザイナーでリンクのスタイルを設定する方法を説明する新しい節が追加されました。 [詳細を表示](../../designing/using/styles.md#about-styling-links)
 
 ## ドキュメントの更新 — 2019年10月 {#doc-updates-october-2019}
 
@@ -56,6 +58,8 @@ GDPR入門ガイドが改善され、強化されました。 GDPRやCCPAなど�
 「トランザクションメッセージ」セクションは、電子メールデザイナでのコンテンツの編集など、最新のUIの更新によって変更されました。 [詳細を表示](../../channels/using/event-transactional-messages.md)
 
 ランディングページのチャプターが再編成されました。 また、ランディングページの設定手順を詳細に説明する新しいセクションが追加され、機能が強化されました。 [詳細を表示](../../channels/using/main-steps-to-set-up-a-landing-page.md)
+
+Audience Manager統合ページが更新され、宣言済みIDの変更が反 **映されまし** た。 [詳細を表示](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
 ## ドキュメントの更新 — 2019年9月 {#doc-updates-september-2019}
 
