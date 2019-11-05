@@ -1,8 +1,6 @@
 ---
 title: トランザクションメッセージの設定
-seo-title: トランザクションメッセージの設定
-description: トランザクションメッセージの設定
-seo-description: トランザクションメッセージングを設定する方法について説明します。
+description: トランザクションメッセージングを設定する方法について説明します。
 page-status-flag: 非活性化の
 uuid: 4caeadbe-f4a7-43ce-986d-e99fa9ca0d0d
 contentOwner: ソビア
@@ -14,7 +12,7 @@ discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -63,7 +61,7 @@ Adobe Campaignでトランザクションメッセージを送信するには、
 
 >[!NOTE]
 >
->多言語トランザクションメッセージを作成する場合は、 **[!UICONTROL AC_language]** IDを使用して追加のイベント属性を定義します。 これは、イベントトランザクションメッセージにのみ適用されます。 イベントが発行された後、多言語トランザクションメッセージのコンテンツを編集する手順は、多言語標準の電子メールの場合と同じです。 詳しくは、多 [言語電子メールの作成を参照してください](../../channels/using/creating-a-multilingual-email.md)。
+>多言語トランザクションメッセージを作成する場合は、 **[!UICONTROL AC_language]** IDを使用して追加のイベント属性を定義します。 これは、イベントトランザクションメッセージにのみ適用されます。 イベントが発行された後、多言語トランザクションメッセージのコンテンツを編集する手順は、多言語標準の電子メールの場合と同じです。 See [Creating a multilingual email](../../channels/using/creating-a-multilingual-email.md).
 
 ## データコレクションの定義 {#defining-data-collections}
 
@@ -160,7 +158,7 @@ Adobe Campaignデータベースの情報を使用してトランザクション
 >
 >イベントを変更するたびに、を再度クリックして、Web **[!UICONTROL Publish]** サイト開発者が使用する更新されたREST APIを生成する必要があります。
 
-イベントが発行されると、新しいイベントにリンクされたトランザクションメッセージが自動的に作成されます。 このイベントでトランザクションメッセージの送信をトリガーするには、作成したメッセージを変更して発行する必要があります。 イベントトラン [ザクションメッセージを参照してくださ](../../channels/using/event-transactional-messages.md)い。
+イベントが発行されると、新しいイベントにリンクされたトランザクションメッセージが自動的に作成されます。 このイベントでトランザクションメッセージの送信をトリガーするには、作成したメッセージを変更して発行する必要があります。 See [Event transactional messages](../../channels/using/event-transactional-messages.md).
 
 作成されたトランザクションメッセージには、左側の領域のリンクから直接アクセスできます。
 
