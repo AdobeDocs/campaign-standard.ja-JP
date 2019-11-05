@@ -1,8 +1,6 @@
 ---
 title: タイポロジルールについて
-seo-title: タイポロジルールについて
-description: タイポロジルールについて
-seo-description: Adobe Campaignでのタイポロジルールの機能を確認します。
+description: Adobe Campaignでのタイポロジルールの機能を確認します。
 page-status-flag: 非活性化の
 uuid: a98ebc36-172d-4f46-b6ee-b2636a1007c9
 contentOwner: ソビア
@@ -15,7 +13,7 @@ context-tags: タイポロジ，概要；タイポロジルール，メイン；
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -93,7 +91,7 @@ Adobe Campaignでは、各メッセージにタイポロジへのリンクが含
 標準の操作モードでは、ルールは次の順序で適用されます。
 
 1. ターゲティングの開始時に適用されるコントロールルール
-1. フィルタールール：
+1. フィルタールール:
 
    * デフォルトで適用されるアドレス選定ルール（定義されたアドレス／検証されていないアドレス／ブラックリストに登録されたアドレス／強制隔離されたアドレス／アドレスの質）
    * ユーザーによって定義されたフィルタールール
