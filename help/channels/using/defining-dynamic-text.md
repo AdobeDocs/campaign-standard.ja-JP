@@ -1,40 +1,38 @@
 ---
 title: ダイナミックテキストの定義
-seo-title: ダイナミックテキストの定義
-description: ダイナミックテキストの定義
-seo-description: Adobe Campaignで定義された条件に従って、ユーザーに対して異なるテキストを動的に表示する方法を説明します。
-page-status-flag: 未活性化の
+description: Adobe Campaignで定義された条件に従って、様々なテキストをユーザーに動的に表示する方法を説明します。
+page-status-flag: 非活性化の
 uuid: bbcd200c-4fb4-467b-ba39-09b8bee9bcaa
-contentOwner: サウビア
+contentOwner: ソビア
 products: SG_CAMPAIGN/STANDARD
 audience: 設計
 content-type: 参照
-topic-tags: 定義条件付きコンテンツ
+topic-tags: defining-conditional-content
 discoiquuid: 6bb6cee3-5674-4113-8073-5a9572b3e830
-internal: 〜の
-snippet: イー
+internal: n
+snippet: y
 translation-type: tm+mt
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
 # ダイナミックテキストの定義{#defining-dynamic-text}
 
-ダイナミックテキストは、ダイナミックコンテンツと同じ方法で定義されます。 「ダイナミックコンテ [ンツの定義](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) 」の項を参照。
+動的テキストは、動的コンテンツと同じ方法で定義されます。 動的コンテンツの [定義の節を参照](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) 。
 
 >[!NOTE]
 >
->SMSとプッシュの場合は、ダイナミックテキストのみを定義できます。 ランディング·ページで、動的なコンテンツとテキストの両方を定義できます。 電子メール·デザイナで動的テキストを定義する場合は [、電子メール内の動的](../../designing/using/overview.md)コンテンツの定義を参照してください [](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)。
+>SMSおよびプッシュの場合は、ダイナミックテキストのみを定義できます。 ランディングページでは、動的コンテンツとテキストの両方を定義できます。 電子メールデザイナーで動的テキストを定義する場合 [は](../../designing/using/overview.md)、電子メール内の動 [的コンテンツの定義を参照してください](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)。
 
 次の例は、SMSメッセージで動的テキストを定義する方法を示しています。
 
-1. メッセージまたはランディング·ページの本文内のテキストを選択します。
+1. メッセージまたはランディングページの本文のテキストを選択します。
 1. Click **[!UICONTROL Enable dynamic text]**.
 
    ![](assets/dynamic_text_sms_1.png)
 
-   このオプ **[!UICONTROL Dynamic text]** ションがパレットに表示されます。 動的なコンテンツと同じ方法で構成されます。
+   このオ **[!UICONTROL Dynamic text]** プションがパレットに表示されます。 動的コンテンツと同じ方法で設定されます。
 
 1. バリアントを選択します。
 
@@ -44,7 +42,7 @@ source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
 
    ![](assets/dynamic_text_sms_4.png)
 
-1つ以上のバリアントに対して条件が定義されると、ダイナミックテキストの周りに紫色のフレームが表示されます。
+1つ以上のバリアントに対して条件が定義されると、ダイナミックテキストの周囲に紫色のフレームが表示されます。
 
 ![](assets/dynamic_text_sms_3.png)
 
