@@ -1,8 +1,6 @@
 ---
-title: キャンペーンでのTriggersの使用
-seo-title: キャンペーンでのTriggersの使用
-description: キャンペーンでのTriggersの使用
-seo-description: null
+title: キャンペーンでのトリガーの使用
+description: null
 page-status-flag: 非活性化の
 uuid: d844d013-b38a-4e69-9df5-0edc01fa9c6e
 contentOwner: ソビア
@@ -14,12 +12,12 @@ discoiquuid: a524c700-bad6-4fcf-857a-c31bfae4d30c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# キャンペーンでのTriggersの使用{#using-triggers-in-campaign}
+# キャンペーンでのトリガーの使用{#using-triggers-in-campaign}
 
 ## Campaignでのマッピング済みトリガーの作成 {#creating-a-mapped-trigger-in-campaign}
 
