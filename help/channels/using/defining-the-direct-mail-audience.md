@@ -1,8 +1,6 @@
 ---
-title: ダイレクトメールの対象ユーザーの定義
-seo-title: ダイレクトメールの対象ユーザーの定義
-description: ダイレクトメールの対象ユーザーの定義
-seo-description: ダイレクトメール配信のターゲットを定義する方法を説明します。
+title: ダイレクトメールオーディエンスの定義
+description: ダイレクトメール配信のターゲットを定義する方法を説明します。
 page-status-flag: 非活性化の
 uuid: f843e368-5c07-4b53-8943-46f7bf45b62b
 contentOwner: ソビア
@@ -15,12 +13,12 @@ context-tags: delivery,directMailContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Defining the direct mail audience{#defining-the-direct-mail-audience}
+# ダイレクトメールオーディエンスの定義{#defining-the-direct-mail-audience}
 
 オーディエンスは、作成ウィザードで定義するか、配信ダッシュボードの「オーディエ **ンス** 」セクションをクリックして定義できます。
 
@@ -38,7 +36,7 @@ source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 ## テストおよびトラッププロファイルの追加 {#adding-test-and-trap-profiles}
 
-少数のプロファイルでファイルをテストできるように、テストプロファイルを追加します。 これにより、実際のファイルを準備する前に、ファイルサンプルをすばやく作成して構造をテストし、検証することができます。 詳しくは、テ [ストプロファイルの管理と校正の送信を参照してください](../../sending/using/managing-test-profiles-and-sending-proofs.md)。
+少数のプロファイルでファイルをテストできるように、テストプロファイルを追加します。 これにより、実際のファイルを準備する前に、ファイルサンプルをすばやく作成して構造をテストし、検証することができます。 See [Managing test profiles and sending proofs](../../sending/using/managing-test-profiles-and-sending-proofs.md).
 
 トラップの使用は、ダイレクトメール配信に不可欠です。 ダイレクトメールプロバイダーが実際に通信を送信していること、およびクライアントリストが別のプロバイダーに送信されていないことを確認できます。 トラップの [使用を参照してください](../../sending/using/managing-test-profiles-and-sending-proofs.md#using-traps)。
 
