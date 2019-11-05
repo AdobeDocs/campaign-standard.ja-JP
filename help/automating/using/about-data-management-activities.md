@@ -1,39 +1,37 @@
 ---
 title: データ管理アクティビティについて
-seo-title: データ管理アクティビティについて
-description: データ管理アクティビティについて
-seo-description: データ管理アクティビティは画面の左側から利用できます。
-page-status-flag: 常にアクティブ化されていない
-uuid: c377bdb6- ae4e-4f23- acb7- ba6b0e095241
-contentOwner: サウビート
-products: SG_ CAMPAIGN/STANDARD
+description: データ管理アクティビティは、画面の左側から利用できます。
+page-status-flag: 非活性化の
+uuid: c377bdb6-ae4e-4f23-acb7-ba6b0e095241
+contentOwner: ソビア
+products: SG_CAMPAIGN/STANDARD
 audience: 自動化
 content-type: 参照
-topic-tags: data- management- activity
-discoiquuid: 332bd6be-6ca3-4d38- b608-8a66c156d080
+topic-tags: データ管理活動
+discoiquuid: 332bd6be-6ca3-4d38-b608-8a66c156d080
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51154892b2d5bd5685272735cdd6e7d9474e09a6
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# About data management activities{#about-data-management-activities}
+# データ管理アクティビティについて{#about-data-management-activities}
 
-From the palette, on the left-hand side of the screen, unfold the **[!UICONTROL Data management (ETL)]** section.
+パレットの画面の左側で、セクションを展開し **[!UICONTROL Data management (ETL)]** ます。
 
-これらのアクティビティによってデータを操作できます。例えば、データをインポートしたり、データベースのフィールドに一括更新を実行したり、ファイルを受信または送信したり、識別不可能なデータを既存のリソースにリンクしたりできます。
+これらのアクティビティを使用して、データを操作できます。 例えば、データの読み込み、データベースフィールドの一括更新、ファイルの受信と送信、不明なデータの既存のリソースへのリンクを行うことができます。
 
 ![](assets/wkf_etl_activities.png)
 
-**[!UICONTROL Data management (ETL)]** この節では、次のアクティビティについて説明します。
+このセクシ **[!UICONTROL Data management (ETL)]** ョンでは、以下のアクティビティを提供します。
 
-* [データの更新](../../automating/using/update-data.md)
-* [ファイルの読み込み](../../automating/using/load-file.md)
-* [ファイルの転送](../../automating/using/transfer-file.md)
+* [データを更新](../../automating/using/update-data.md)
+* [ファイルを読み込み](../../automating/using/load-file.md)
+* [転送ファイル](../../automating/using/transfer-file.md)
 * [紐付け](../../automating/using/reconciliation.md)
 * [ファイルの抽出](../../automating/using/extract-file.md)
 * [購読サービス](../../automating/using/subscription-services.md)
 
-**[!UICONTROL Data management (ETL)]** アクティビティを使用すると、アウトバウンドトランジションの **セグメントコード** を定義できます。その後、マーケティングキャンペーンの効率を測定するために、これらのセグメントコードに基づいてレポートを作成できます。For more on this, refer to [this section](../../reporting/using/creating-a-report-workflow-segment.md).
+**[!UICONTROL Data management (ETL)]** アクティビティを使用すると、アウトバウ **ンド遷移のセグメント** コードを定義できます。 その後、これらのセグメントコードに基づいてレポートを作成し、マーケティングキャンペーンの効率を測定できます。 詳しくは、[この節](../../reporting/using/creating-a-report-workflow-segment.md)を参照してください。
