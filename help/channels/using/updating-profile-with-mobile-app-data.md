@@ -1,130 +1,128 @@
 ---
-title: モバイルアプリケーションデータに基づいたプロファイル情報の作成および更新
-seo-title: モバイルアプリケーションデータに基づいたプロファイル情報の作成および更新
-description: モバイルアプリケーションデータに基づいたプロファイル情報の作成および更新
-seo-description: モバイルアプリケーションデータに基づいてプロファイル情報を作成および更新する方法について説明します。
-page-status-flag: 決して活性化されていない
-uuid: 8cf74CAD- b1ba-4aad-83bd-7289cb2d5f4
-contentOwner: レモン
-products: SG_キャンペーン/標準
-audience: チャンネル
+title: モバイルアプリケーションデータに基づくプロファイル情報の作成と更新
+description: モバイルアプリケーションデータに基づいてプロファイル情報を作成および更新する方法について説明します。
+page-status-flag: 非活性化の
+uuid: 8cf74cad-b1ba-4aad-83bd-7289cb22d5f4
+contentOwner: レメイト
+products: SG_CAMPAIGN/STANDARD
+audience: チャネル
 content-type: 参照
 topic-tags: プッシュ通知
-discoiquuid: dc944c85-2059-46df- b396-676fe3617dd1
-context-tags: 配信， MobileAppContent，背面
+discoiquuid: dc944c85-2059-46df-b396-676fe3617dd1
+context-tags: delivery,mobileAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 64c7de127285ca56b6af398b0a0c3f1470756fe4
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# モバイルアプリケーションデータに基づいたプロファイル情報の作成および更新
+# モバイルアプリケーションデータに基づくプロファイル情報の作成と更新
 
 ## 概要
 
-このページでは、モバイルアプリケーションがPIIデータを収集してスケジュールベースで収集するワークフローを開発する手順について説明します。
+このページでは、モバイルアプリケーションがPIIデータの収集をスケジュールに基づいて送信した後にプロファイルデータを作成/更新するワークフローを作成する手順について説明します。
 
-* **PII** は「個人識別情報」の略である。たとえば、モバイル [ポイントの分析など、CampaignデータベースのProfileテーブルに表示されない情報など、任意のデータを使用](../../integrating/using/about-campaign-points-of-interest-data-integration.md)できます。PIIはモバイルアプリ開発者によって定義され、通常はマーケティング担当者によって定義されます。
-* **PIIの収集** は、モバイルアプリからのAdobe Campaign StandardのRest APIへのHTTP- POST操作です。
+* **PIIは** 、「個人を特定できる情報」の略です。 例えば、モバイル目標地点の分析など、Campaignデータベースからプロファイルテーブルに表示されない情報を含む、任意のデ [ータを指定できます](../../integrating/using/about-campaign-points-of-interest-data-integration.md)。 PIIは、モバイルアプリの開発者（通常はマーケティング担当者）が定義します。
+* **PIIの収集は** 、モバイルアプリからAdobe Campaign StandardのRest APIに対するHTTP-POST操作です。
 
-このユースケースの目的は、モバイルアプリケーションから返されるPIIデータにプロファイル関連のデータが含まれている場合に、キャンペーン標準プロファイルを作成または更新することです。
+この使用例の目標は、モバイルアプリケーションから返されるPIIデータにプロファイル関連のデータが含まれる場合に、キャンペーン標準プロファイルを作成または更新することです。
 
 ## 前提条件
 
-Mobile Appサブスクリプションデータに基づいてプロファイルを作成または更新する前に、Campaign Standardでプッシュ通知を有効にするために、いくつかの構成手順があります。
+モバイルアプリの購読データに基づいてプロファイルを作成または更新する前に、Campaign Standardでプッシュ通知を有効にするために従う必要がある設定手順はいくつかあります。
 
-1. [モバイルアプリケーションの作成](../../administration/using/configuring-a-mobile-application.md)
-1. [モバイルアプリケーションとAdobe Mobile SDKを統合](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html)します。
-1. [プッシュ通知を送信するようにAdobe Campaignを構成](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)します。
+1. [モバイルアプリの作成](../../administration/using/configuring-a-mobile-application.md)
+1. [Adobe Mobile SDKをモバイルアプリケーションと統合します](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html)。
+1. [プッシュ通知を送信するようにAdobe Campaignを設定します](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)。
 
-## ステップ1-プッシュ通知/サブスクリプションのプロファイルリソースを拡張する
+## 手順1 — プッシュ通知/購読用のプロファイルリソースを拡張する
 
-PIIデータを使用してプロファイルリソースを作成または更新できるようにするには、まず、必要なフィールドでプロファイルリソースを拡張する必要があります。これを行うには:
+PIIデータを使用してプロファイルリソースを作成または更新するには、まず目的のフィールドを使用してプロファイルリソースを拡張する必要があります。 手順は次のとおりです。
 
-* モバイルアプリケーションによって送信されるPIIフィールドを識別します。
-* 調整に使用するフィールドを指定して、PIIデータをプロファイルデータに関連付けます。
+* モバイルアプリケーションから送信されるPIIフィールドを識別します。
+* PIIデータをプロファイルデータに関連付けるために調整に使用するフィールドを指定します。
 
 ![](assets/update_profile1.png)
 
-この例では、セクション **[!UICONTROL Fields]** はモバイルアプリケーションから送信されたPIIデータを反映します。**[!UICONTROL Link to profiles]** このセクションは、PIIをプロファイルデータに関連付けるために使用するフィールドを示します。ここで **、CustEmail** は **@ emailにマップ**&#x200B;されます。
+この例では、この節はモバ **[!UICONTROL Fields]** イルアプリケーションから送信されるPIIデータを反映しています。 このセ **[!UICONTROL Link to profiles]** クションは、PIIをプロファイルデータに関連付けるために使用されるフィールドを示します。ここで、 **cusEmail** は@emailにマッ **プされます**。
 
-**[!UICONTROL Subscriptions to an Application]** リソースの拡張中にプロファイルデータのマッピングは読み取り専用です。調整に使用されます。プロファイルをPIIデータと照合するために必要なデータをシステムに入力する必要があります。この場合、調整を実行するには、プロファイルの電子メールアドレスがPII収集の電子メールと一致する必要があります。
+リソースの拡張中のプロファイルデータのマ **[!UICONTROL Subscriptions to an Application]** ッピングは読み取り専用です。 和解に使用されます。 プロファイルとPIIデータを調整するには、必要なデータを使用してプロファイルをシステムに入力する必要があります。 この場合、調整を行うには、プロファイルの電子メールアドレスがCollect PIIからの電子メールと一致する必要があります。
 
-* PIIを収集するには、Mobile Appから"Jane， Last Name is"Doe"および"Email address isjanedoe@doe.com"と入力します。
-* プロファイルの電子メールアドレスはjanedoe@doe.comである必要があります（たとえば、データは手動で入力する必要があります）。また、プロファイルの電子メールアドレスがである必要があります。
+* モバイルアプリから受け取ったPIIの収集(姓は「Jane」、姓は「Doe」、電子メールアドレスは「janedoe@doe.com」)を持つユーザー用です。
+* 別に、プロファイルの電子メールアドレスがjanedoe@doe.comである場合は、プロファイルデータが存在する必要があります（例えば、データを手動で入力するか、既に他のリソースから入手している必要があります）。
 
-**関連トピック:**
+**関連トピック：**
 
-* [アプリケーションリソースへのサブスクリプションの拡張](../../developing/using/extending-the-subscriptions-to-an-application-resource.md)。
-* [既存のリソース](../../developing/using/key-steps-to-add-a-resource.md)の作成または拡張
+* [アプリケーションリソースへの購読の拡張](../../developing/using/extending-the-subscriptions-to-an-application-resource.md).
+* [既存のリソースを作成または拡張します](../../developing/using/key-steps-to-add-a-resource.md)。
 
-## 手順2-ワークフローを作成する
+## 手順2 — ワークフローを作成する
 
-Campaign Standardでワークフローを使用すると、管理者はAppSubscription（サブスクライバー）データとプロファイルデータまたは受信者データ間のデータを一意に識別および同期できます。ワークフローベースの更新では、プロファイルデータはリアルタイムで同期されませんが、過度のデータベースロックやオーバーヘッドは発生しません。
+Campaign Standardのワークフローを使用すると、管理者はAppSubscription（購読者）データとプロファイルデータまたは受信者データの間でデータを一意に識別し、同期できます。 ワークフローベースの更新では、プロファイルデータがリアルタイムで同期されませんが、データベースの過度なロックやオーバーヘッドが発生することはありません。
 
 ワークフローを構築する主な手順は次のとおりです。
 
-1. 最新のサブスクリプションの一覧を取得するには、また **[!UICONTROL Query]** は **[!UICONTROL Incremental query]** アクティビティを使用します。
-1. **[!UICONTROL Reconciliation]** アクティビティを使用して、PIIデータをプロファイルにマップします。
+1. またはアクテ **[!UICONTROL Query]** ィビテ **[!UICONTROL Incremental query]** ィを使用して、最新の購読のリストを取得します。
+1. アクティビティ **[!UICONTROL Reconciliation]** を使用して、PIIデータをプロファイルにマッピングします。
 1. 検証プロセスを追加します。
-1. を **[!UICONTROL Update data]** 使用して、PIIデータでプロファイルを更新または作成します。
+1. PIIデータを使 **[!UICONTROL Update data]** 用してプロファイルを更新または作成するには、を使用します。
 
-このワークフローでは、次の要件が想定されます。
+このワークフローでは、次の要件を前提としています。
 
-* 拡張されたすべてのフィールドは、プロファイルテーブルの作成/更新に使用できます。
-* プロファイルテーブルは、ネイティブでサポートされていないフィールド（Tシャツサイズなど）をサポートするように拡張できます。
-* AppSubscriptionテーブルの任意のフィールドは、プロファイルテーブルでは更新しないでください。
-* AppSubscriptionテーブルで更新されたレコードはすべて、ワークフローの次の実行に含める必要があります。
+* 拡張されたすべてのフィールドを使用して、プロファイルテーブルを作成または更新できる必要があります。
+* プロファイルテーブルを拡張して、ネイティブでサポートされていないフィールド（例えば、Tシャツのサイズ）をサポートすることができます。
+* AppSubscriptionテーブルの空白のフィールドは、プロファイルテーブルで更新しないでください。
+* AppSubscriptionテーブルで更新されたレコードは、ワークフローの次回の実行に含める必要があります。
 
-ワークフローを構築するには、次の手順に従います。
+ワークフローを構築するには、以下の手順に従います。
 
-1. 次のアクティビティをワークスペースにドラッグアンドドロップし、一緒にリンクします。
+1. 次のアクティビティをワークスペースにドラッグ&amp;ドロップし、リンクします。
    1. **[!UICONTROL Start]**
    1. **[!UICONTROL Scheduler]**
    1. **[!UICONTROL Incremental query]**
    1. **[!UICONTROL Update data]**
    ![](assets/update_profile0.png)
 
-1. **[!UICONTROL Scheduler]** アクティビティを構成します。**[!UICONTROL General]** タブで、（ **[!UICONTROL Execution frequency]** 例:"Daily"）、（ **[!UICONTROL Time]** 例:"1:00:00AM»）、および（???«今日の日付&#x200B;**[!UICONTROL Start]**
+1. Configure the **[!UICONTROL Scheduler]** activity. タブ **[!UICONTROL General]** で、 **[!UICONTROL Execution frequency]** （例：「日別」）、 **[!UICONTROL Time]** （例：「1:00:00 AM」）および **[!UICONTROL Start]** （例：「今日の日付」）を設定します。
 
    ![](assets/update_profile2.png)
 
-1. **[!UICONTROL Incremental query]** アクティビティを構成します。
-   1. **[!UICONTROL Properties]** タブで、フィールドの **[!UICONTROL Select an element]** アイコン **[!UICONTROL Resource]** をクリックし、 **[!UICONTROL Subscriptions to an application (nms:appSubscriptionRcp:appSubscriptionRcpDetail)]** 要素を選択します。
+1. Configure the **[!UICONTROL Incremental query]** activity.
+   1. タブで、 **[!UICONTROL Properties]** フィールドのア **[!UICONTROL Select an element]** イコンをク **[!UICONTROL Resource]** リックし、要素を選択し **[!UICONTROL Subscriptions to an application (nms:appSubscriptionRcp:appSubscriptionRcpDetail)]** ます。
 
       ![](assets/update_profile3.png)
 
-   1. **[!UICONTROL Target]** タブで **[!UICONTROL Mobile application]** フィルタをドラッグし、モバイルアプリケーション名を選択します。
+   1. タブで、フ **[!UICONTROL Target]** ィルターをドラッグ **[!UICONTROL Mobile application]** し、モバイルアプリ名を選択します。
 
       ![](assets/update_profile4.png)
 
-   1. **[!UICONTROL Processed data]** タブで、を選択 **[!UICONTROL Use a date field]**&#x200B;し、フィールドをとして追加 **[!UICONTROL Last modified (lastModified)]****[!UICONTROL Path to the date field]**&#x200B;します。
+   1. タブで、 **[!UICONTROL Processed data]** を選択し、 **[!UICONTROL Use a date field]**&#x200B;フィールドを次のように **[!UICONTROL Last modified (lastModified)]** 追加しま **[!UICONTROL Path to the date field]**&#x200B;す。
 
       ![](assets/update_profile5.png)
 
-1. **[!UICONTROL Update data]** アクティビティを構成します。
-   1. **[!UICONTROL Identification]** タブで、フィールド **[!UICONTROL Dimension to update]** が「プロファイル（プロファイル）」に設定されていることを確認し、ボタン **[!UICONTROL Create element]** をクリックして調整条件としてフィールドを追加します。
+1. Configure the **[!UICONTROL Update data]** activity.
+   1. タブで、フ **[!UICONTROL Identification]** ィールドが「Profiles (profile)」に設定されていることを確認し、ボタンをクリックして、フィ **[!UICONTROL Dimension to update]****[!UICONTROL Create element]** ールドを調整条件として追加します。
 
       ![](assets/update_profile_createelement.png)
 
-   1. **[!UICONTROL Source]** フィールドで、AppSubScrsitionRCPテーブルから調整フィールドとしてフィールドを選択します。プロファイルの電子メール、CrmID、MarketingCloudIDなどになります。この例では、"Email（cusEmail）」フィールドを使用します。
-   1. **[!UICONTROL Destination]** フィールド内で、AppSubscriptionrCPテーブルからデータを調整するために、プロファイルテーブルからフィールドを選択します。プロファイルの電子メール、またはCRMid、MarketingCloudIDなどの拡張フィールドを使用できます。この例では、"Email（email）」フィールドを選択して、AppSubscriptionrCPテーブルから"Email（cusEmail）」フィールドにマッピングする必要があります。
+   1. フィールド **[!UICONTROL Source]** で、appSubscriptionRcpテーブルからフィールドを調整フィールドとして選択します。 プロファイルの電子メール、crmId、marketingCloudIdなどを指定できます。 この例では、「電子メール(cusEmail)」フィールドを使用します。
+   1. フィールド **[!UICONTROL Destination]** で、プロファイルテーブルからフィールドを選択し、appSubscriptionRcpテーブルのデータを調整します。 プロファイルの電子メール、またはcrmId、marketingCloudIdなどの拡張フィールドを指定できます。 この例では、「電子メール（電子メール）」フィールドを選択して、appSubscriptionRcpテーブルの「電子メール(cusEmail)」フィールドにマッピングする必要があります。
 
       ![](assets/update_profile7.png)
 
-   1. **[!UICONTROL Fields to update]** タブで **[!UICONTROL Create element]** ボタンをクリックし、AppSubscriptionrCPテーブル（フィールド&#x200B;**[!UICONTROL Source]** ）からのフィールドをProfileテーブル（**[!UICONTROL Destination]** フィールド）で更新するフィールドにマップします。
-   1. **[!UICONTROL Enabled if]** フィールドで、「プロファイル」（Profile）テーブルの対応するフィールドが値を含んでいる場合にのみ更新されるように、式を追加します。これを行うには、リストからフィールドを選択し、「」を追加します。=「」 expression（Sourceフィールドが `[target/@cusEmail]` Expressionエディタにある場合は、必ず入力 `[target/@cusEmail] != ''"`します）。
+   1. タブでボ **[!UICONTROL Fields to update]** タンをクリ **[!UICONTROL Create element]** ックし、appSubscriptionRcpテーブル（フィールド）から取得するフィールドを、プロファイルテーブル（フィールド）で更新するフィールドにマッピング&#x200B;**[!UICONTROL Source]****[!UICONTROL Destination]** します。
+   1. フィールド **[!UICONTROL Enabled if]** に式を追加し、ソースフィールドに値が含まれている場合にのみ、Profileテーブルの対応するフィールドが更新されるようにします。 これを行うには、リストからフィールドを選択し、「!="" expression(Sourceフィールドが式エディターにあ `[target/@cusEmail]` る場合は、必ず入力してくだ `[target/@cusEmail] != ''"`さい)。
 
       ![](assets/update_profile8.png)
 
       >[!NOTE]
       >
-      >この場合、ワークフローはUPERTを実行しますが、増分クエリデータは挿入されます。クエリを変更すると、挿入または更新されるデータに影響することがあります。
-      >また、「更新するフィールド」タブの設定によって、特定の条件下で挿入または更新されるフィールドが決まります。これらの設定は、アプリケーションまたは顧客ごとに一意です。AppSubscriptionrCPデータに基づいてプロファイル内のレコードを更新すると、検証が行われずに個人情報を変更できるので、これらの設定を構成する際には注意してください。
+      >この場合、ワークフローはUPSERTを実行しますが、インクリメンタルクエリデータに基づいているので、挿入されるのは挿入だけです。 クエリーを変更すると、挿入または更新するデータに影響を与える場合があります。
+      >さらに、「更新するフィールド」タブの設定によって、特定の条件で挿入または更新するフィールドが決まります。 これらの設定は、アプリケーションごとまたは顧客ごとに一意に指定できます。 appSubscriptionRcpデータに基づいてプロファイルのレコードを更新すると、ユーザーの個人情報が検証なしに変更される可能性があるので、これらの設定を行う場合は意図しない結果が生じる可能性があるので注意が必要です。
 
-   1. プロファイルに挿入/更新するすべてのフィールドを追加したら、をクリック **[!UICONTROL Confirm]**&#x200B;します。
+   1. プロファイルに挿入/更新するすべてのフィールドが追加されたら、をクリックしま **[!UICONTROL Confirm]**&#x200B;す。
 
       ![](assets/update_profile9.png)
 
