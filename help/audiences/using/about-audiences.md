@@ -1,39 +1,37 @@
 ---
 title: オーディエンスについて
-seo-title: オーディエンスについて
-description: オーディエンスについて
-seo-description: クエリー、リストまたはファイルからオーディエンスを構築する方法、およびAdobe Experience Cloudからのオーディエンスの読み込み方法について説明します。
-page-status-flag: 常にアクティブ化されていない
-uuid: b3996642-96ec-489e- b146- c8c2cb52aa32
-contentOwner: サウビート
-products: SG_ CAMPAIGN/STANDARD
-audience: オーディエンス
+description: クエリ、リストまたはファイルからオーディエンスを作成する方法と、Adobe Experience cloudからオーディエンスをインポートする方法について説明します。
+page-status-flag: 非活性化の
+uuid: b3996642-96ec-489e-b146-c8c2cb52aa32
+contentOwner: ソビア
+products: SG_CAMPAIGN/STANDARD
+audience: audiences
 content-type: 参照
-topic-tags: 管理-オーディエンス
-discoiquuid: 750prop8d-67a5-4180- bfec-2a8e3098c812
-context-tags: オーディエンス，ウィザード;オーディエンス、概要;配信、オーディエンス、戻る
+topic-tags: 管理対象
+discoiquuid: 750ecd8d-67a5-4180-bfec-2a8e3098c812
+context-tags: オーディエンス，ウィザード；オーディエンス，概要；配信，オーディエンス，戻る
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6a877d878f01fa1e541dc20b8b0941602113d15b
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# About audiences{#about-audiences}
+# オーディエンスについて{#about-audiences}
 
 オーディエンスは、ルールと属性に基づくプロファイルのリストです。
 
-Adobe Campaignでは、クエリを使用して手動でオーディエンスを作成したり、専用ワークフローを使用して自動的にオーディエンスを作成したりできます。Adobe Experience Cloudから共有オーディエンスを使用することもできます。All of the audiences are regrouped into a list that can be accessed via the **[!UICONTROL Audiences]** card on the Adobe Campaign home page or from the **[!UICONTROL Audiences]** link.
+Adobe Campaignでは、クエリを使用してオーディエンスを手動で作成したり、専用のワークフローを自動的に使用したりできます。 また、Adobe Experience cloudの共有オーディエンスを使用することもできます。 すべてのオーディエンスが、Adobe Campaignのホームページまたはリンクからカードを介し **[!UICONTROL Audiences]** てアクセスできるリストに再グループ化さ **[!UICONTROL Audiences]** れます。
 
 ![](assets/audience_1.png)
 
-Adobe Campaignでは、様々なオーディエンスタイプを操作できます。オーディエンスのタイプは、そのオーディエンスの作成方法に対応します。
+Adobe Campaignでは、様々なオーディエンスタイプを操作できます。 オーディエンスのタイプは、作成方法に対応します。
 
-* **[!UICONTROL Query]**:オーディエンスは、Adobe Campaignデータベースからのデータの [クエリー](../../automating/using/editing-queries.md#about-query-editor) からオーディエンスが作成されたことを示します。クエリによって定義されたオーディエンスは、それぞれの使用時に再計算されます。
-* **[!UICONTROL List]**:オーディエンスがプロファイルの固定リストであることを示します。These lists are created in a [workflow](../../automating/using/discovering-workflows.md), where the data dimension is known when saving the audience. For example, after targeting activities (especially **[!UICONTROL Query]** ) or after the reconciliation of data imported from a file.
-* **[!UICONTROL File]**:は、オーディエンスが [ファイルインポート](../../automating/using/load-file.md) ワークフローから直接作成され、オーディエンスを保存するときにデータディメンションが不明であることを示します。
-* **[!UICONTROL Experience Cloud]**:は、オーディエンスがAdobe Experience Cloudからインポートされたことを示します。このオプションは、オーディエンス共有機能が設定されている場合にのみ使用できます。For more information, see [Importing an audience from the Adobe Experience Cloud](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md#importing-an-audience).
+* **[!UICONTROL Query]**:オーディエンスが、オーディエンスのリストからAdobe Campaign [データベース](../../automating/using/editing-queries.md#about-query-editor) のデータに関するクエリから作成されたことを示します。 クエリによって定義されたオーディエンスは、それ以降の使用のたびに再計算されます。
+* **[!UICONTROL List]**:オーディエンスが固定されたプロファイルリストであることを示します。 これらのリストは、オーディエンスの保 [存時に](../../automating/using/discovering-workflows.md)、データディメンションが認識されるワークフローで作成されます。 例えば、アクティビティのターゲット設定(特に **[!UICONTROL Query]** )後、またはファイルからインポートされたデータの調整後などです。
+* **[!UICONTROL File]**:オーディエンスがファイルの読み込みワークフローから直接作成され [たこと](../../automating/using/load-file.md) 、およびオーディエンスの保存時にデータディメンションが不明であったことを示します。
+* **[!UICONTROL Experience Cloud]**:オーディエンスがAdobe Experience cloudから読み込まれたことを示します。 このオプションは、オーディエンス共有機能が設定されている場合にのみ使用できます。 詳しくは、Adobe Experience cloudからのオ [ーディエンスの読み込みを参照してください](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md#importing-an-audience)。
 
 ![](assets/audience_type_selection.png)
 
