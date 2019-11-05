@@ -1,32 +1,30 @@
 ---
-title: 開く
-seo-title: 開く
-description: 開く
-seo-description: '[開く]レポートで、さまざまな条件に従って最も多く閲覧された配信を確認します。'
-page-status-flag: 常にアクティブ化されていない
-uuid: fe5453b6- cac1-43be-860e- c65c8a5168d6
-contentOwner: サウビート
-products: SG_ CAMPAIGN/STANDARD
+title: 開封数
+description: '[開く]レポートでは、様々な条件に従って最も多く閲覧された配信を確認できます。'
+page-status-flag: 非活性化の
+uuid: fe5453b6-cac1-43be-860e-c65c8a5168d6
+contentOwner: ソビア
+products: SG_CAMPAIGN/STANDARD
 audience: レポート
 content-type: 参照
 topic-tags: レポートのリスト
-discoiquuid: c87188e8- kec7-4cc6- bef- b9788e5ec36b
-context-tags: DeliveryOpenRateReport， main;campaignOprateReport， main;programOpenRateReport， main
+discoiquuid: c87188e8-cea7-4cc6-becf-b9788e5ec36b
+context-tags: deliveryOpenRateReport,main;campaignOpenRateReport,main;programOpenRateReport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 77b0933bcd004cedc6a58f80717a4284b284e0cd
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Opens{#opens}
+# 開封数{#opens}
 
 **[!UICONTROL Opens]** レポートは、受信者が最も閲覧した配信を特定します。
 
 ![](assets/delivery_reports_opens.png)
 
-4つのテーブルとチャートにより、電子メールを開いた受信者の合計数が分類されます。
+次の4つの表とグラフで、電子メールを開いた受信者の合計数を示します。
 
 * ブラウザー
 * デバイス
