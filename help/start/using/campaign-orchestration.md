@@ -1,8 +1,6 @@
 ---
 title: キャンペーンオーケストレーション
-seo-title: キャンペーンオーケストレーション
-description: キャンペーンオーケストレーション
-seo-description: Adobe Campaignは、オンラインおよびオフラインの戦略を調整し、パーソナライズされた顧客エクスペリエンスを作成するのに役立つ、強力なクロスチャネルキャンペーン管理ツールです。
+description: Adobe Campaignは、オンラインおよびオフラインの戦略を調整し、パーソナライズされた顧客エクスペリエンスを作成するのに役立つ、強力なクロスチャネルキャンペーン管理ツールです。
 page-status-flag: 非活性化の
 uuid: 027f6787-d2ef-44ae-a40a-8facdfe2ae77
 contentOwner: ソビア
@@ -14,7 +12,7 @@ discoiquuid: aee81724-b425-47b4-af92-e55eff97836f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 159c33639ab7b53558dac2ce183c3801c15ccb0f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -40,5 +38,5 @@ Adobe Campaignの主な機能は次のとおりです。
 * **メッセージとコンテンツの作成** — このフェーズでは、通信チャネルの選択 [を行いま](../../channels/using/discovering-communication-channels.md)す。 また、ランディングページを設計し [て、プロファイルを取得](../../channels/using/about-landing-pages.md) 、更新し、データベースを拡張することもできます。 電子メ [ールの作成](../../channels/using/creating-an-email.md)、MSメ [ッセージの作成](../../channels/using/creating-an-sms-message.md)、プッシュ通知の作成 [、](../../channels/using/preparing-and-sending-a-push-notification.md)[](../../channels/using/about-in-app-messaging.md)[](../../channels/using/creating-the-direct-mail.md)Appメッセージの作成、Appメッセージの直接配信メールの作成を参照してください。
 * **テストと送信** — 実行フェーズでは、様々な検証手順（コンテンツ、ターゲット）を、特にプレビュー画面を使用して、送信前に承認者に証明を送信することで実行できます。 「テスト [と送信」を参照してください](../../sending/using/about-sending-messages-with-campaign.md)。
 * **監視とレポート** — キャンペーンが実行され、異なるメッセージが送信されると、この段階でユーザーは異なる送信のステータス、追跡と監視の情報を収集できます。 キャンペーンおよび配信レポートが生成され、キャンペーンと受信者のアクティビティの影響を追跡できます。 詳しくは、レ [ポートツールを参照してくださ](../../reporting/using/about-dynamic-reports.md)い。
-* **自動化** — この段階では、インポート/エクスポートメカニズムの実装方法、データ管理と更新モード、パーソナライゼーションデータの識別など、追加の要因が発生します。 が定義されている。 詳しくは、 [ワークフローとデータ管理を参照してください](../../automating/using/workflow-data-and-processes.md)。
+* **自動化** — この段階では、インポート/エクスポートメカニズムの実装方法、データ管理と更新モード、パーソナライゼーションデータの識別など、追加の要因が発生します。 が定義されている。 See [Workflows and data management](../../automating/using/workflow-data-and-processes.md).
 
