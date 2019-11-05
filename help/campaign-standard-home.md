@@ -1,11 +1,10 @@
 ---
 keywords: Campaign Standard;home;popular topics
-seo-title: Adobe Campaign Standard 製品ドキュメント
 solution: Campaign Standard
 title: Adobe Campaign Standard 製品ドキュメント
 topic: Premium
-translation-type: ht
-source-git-commit: 6912ca6dbf985518009b3e119f86298db52b6f5f
+translation-type: tm+mt
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -16,10 +15,10 @@ source-git-commit: 6912ca6dbf985518009b3e119f86298db52b6f5f
 
 ## 新着情報
 
-* **[プライバシー管理](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy.html)**<br/>
+* **[プライバシー管理](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>
 プライバシーコンプライアンスに役立つAdobe Campaignが提供するツールについて説明します。
 
-* **[配信のベストプラクティス](https://helpx.adobe.com/jp/campaign/kb/delivery-best-practices.html)**<br/>
+* **[配信のベストプラクティス](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)**<br/>
 配信のデザインと送信に関するベストプラクティスの詳細を確認します。
 
 * **[電子メールデザイナー](designing/using/designing-content-in-adobe-campaign.md)**<br/>
@@ -71,10 +70,10 @@ source-git-commit: 6912ca6dbf985518009b3e119f86298db52b6f5f
 
 * [リリースノート](rn/using/release-notes.md)
 
-* [コントロールパネル](https://helpx.adobe.com/jp/campaign/kb/control-panel.html)
+* [コントロールパネル](https://helpx.adobe.com/campaign/kb/control-panel.html)
 
-* [ハウツービデオ](https://docs.adobe.com/content/help/ja-JP/campaign-learn/campaign-standard-tutorials/overview.html)
+* [ハウツービデオ](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)
 
-* [リリース計画ガイド](https://helpx.adobe.com/jp/campaign/kb/acs-release-planning.html)
+* [リリース計画ガイド](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
 
-* [廃止および削除された機能](https://helpx.adobe.com/jp/campaign/kb/acs-deprecated-and-removed-features.html)
+* [廃止および削除された機能](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
