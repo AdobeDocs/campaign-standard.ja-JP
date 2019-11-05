@@ -1,8 +1,6 @@
 ---
 title: データベース構造の更新
-seo-title: データベース構造の更新
-description: データベース構造の更新
-seo-description: Adobe Campaignデータベースの更新方法を確認します。
+description: Adobe Campaignデータベースの更新方法を確認します。
 page-status-flag: 非活性化の
 uuid: 6c802f4f-d298-4ca4-acdb-09f2ad3865b9
 contentOwner: ソビア
@@ -15,7 +13,7 @@ context-tags: deploy,main;eventCusResource,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -34,7 +32,7 @@ source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
 >[!NOTE]
 >
->イベントで使用されているカスタムリソースのフィールドが変更または削除されると、対応するイベントは自動的に非公開になります。 トランザクショ [ンメッセージの設定を参照してくださ](../../administration/using/configuring-transactional-messaging.md)い。
+>イベントで使用されているカスタムリソースのフィールドが変更または削除されると、対応するイベントは自動的に非公開になります。 See [Configuring Transactional messaging](../../administration/using/configuring-transactional-messaging.md).
 
 1. アドバンスメニューで、Adobe Campaignロゴを使用して/を選 **[!UICONTROL Administration]** 択し、 **[!UICONTROL Development]**&#x200B;次に選択しま **[!UICONTROL Publishing]**&#x200B;す。
 1. デフォルトでは、このオ **[!UICONTROL Determine modifications since the last publication]** プションはオンになっており、最後の更新以降に実行された変更のみが適用されます。
