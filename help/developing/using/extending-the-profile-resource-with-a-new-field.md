@@ -1,8 +1,6 @@
 ---
 title: 新しいフィールドを使用したプロファイルリソースの拡張
-seo-title: 新しいフィールドを使用したプロファイルリソースの拡張
-description: 新しいフィールドを使用したプロファイルリソースの拡張
-seo-description: プロファイルリソースを拡張する方法を説明します。
+description: プロファイルリソースを拡張する方法を説明します。
 page-status-flag: 非活性化の
 uuid: 9b99e95c-93ff-4187-90f7-db0baf5369ad
 contentOwner: ソビア
@@ -14,7 +12,7 @@ discoiquuid: 1e0f8945-fc3c-46a9-a8e5-b181a1f5ffcb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
