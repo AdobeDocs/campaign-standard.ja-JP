@@ -1,8 +1,6 @@
 ---
 title: インターフェイスの説明
-seo-title: インターフェイスの説明
-description: インターフェイスの説明
-seo-description: 「Adobe Campaignワークスペースのナビゲーションと使用方法を説明します。ホームページ、トップバー、詳細メニューおよびアクションバー。」
+description: 「Adobe Campaignワークスペースのナビゲーションと使用方法を説明します。ホームページ、トップバー、詳細メニューおよびアクションバー。」
 page-status-flag: 非活性化の
 uuid: af9f0f1f-d24a-4dc7-b4a8-70290de6eb3f
 contentOwner: ソビア
@@ -14,7 +12,7 @@ discoiquuid: dafd9860-cd22-4c30-86b7-631b64db7b3f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -75,7 +73,7 @@ Adobe Campaignのすべての画面は、次の要素で構成されています
 
 このメニューを使用すると、特定の機能と設定に移動できます。
 
-### マーケティングプラン {#marketing-plans}
+### マーケティングプラン{#marketing-plans}
 
 このア **[!UICONTROL Marketing plans]** イコンを使用すると、次の機能にアクセスできます。
 
