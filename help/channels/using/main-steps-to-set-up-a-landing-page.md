@@ -1,8 +1,6 @@
 ---
 title: ランディングページを設定するための主な手順
-seo-title: ランディングページを設定するための主な手順
-description: ランディングページを設定するための主な手順
-seo-description: ランディングページを設定する主な手順を説明します。
+description: ランディングページを設定する主な手順を説明します。
 page-status-flag: 非活性化の
 uuid: b316bf47-7d98-46fa-ab4f-67ff50de8095
 contentOwner: レメイト
@@ -15,7 +13,7 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f100f6b041c6dbb298113b4ecc7830951714131
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
