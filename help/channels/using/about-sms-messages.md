@@ -1,8 +1,6 @@
 ---
-title: SMSメッセージについて
-seo-title: SMSメッセージについて
-description: SMSメッセージについて
-seo-description: Adobe CampaignのSMSチャネルの主な特性を確認します。
+title: SMS メッセージについて
+description: Adobe CampaignのSMSチャネルの主な特性を確認します。
 page-status-flag: 非活性化の
 uuid: 14dc7434-8171-4ad1-9540-52ca637659a9
 contentOwner: ソビア
@@ -15,12 +13,12 @@ delivercontext-tags: deliveryCreation,wizard;delivery,smsContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 96001355220a9dd0cd3851d3f7de9f4dc8ea2782
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# SMSメッセージについて{#about-sms-messages}
+# SMS メッセージについて{#about-sms-messages}
 
 Adobe Campaignでは、SMS(Short Message Service)メッセージを配信できます。
 
@@ -43,7 +41,7 @@ SMSメッセージは、メニュー、キャンペーン、 **[!UICONTROL Marke
 
 * [テンプレートの管理](../../start/using/about-templates.md)
 * [SMS設定](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing)
-* [SMSレポート](../../reporting/using/sms-report.md)
+* [SMS レポート](../../reporting/using/sms-report.md)
 
 ## SMS配信テンプレート {#sms-delivery-template}
 
