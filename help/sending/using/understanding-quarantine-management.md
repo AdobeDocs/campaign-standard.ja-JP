@@ -1,8 +1,6 @@
 ---
 title: 強制隔離管理の理解
-seo-title: 強制隔離管理の理解
-description: 強制隔離管理の理解
-seo-description: 検疫管理を使用して配信品質を最適化する方法を説明します。
+description: 検疫管理を使用して配信品質を最適化する方法を説明します。
 page-status-flag: 非活性化の
 uuid: 3c287865-1ada-4351-b205-51807ff9f7ed
 contentOwner: ソビア
@@ -14,7 +12,7 @@ discoiquuid: de3a50b6-ea8f-4521-996b-c49cc1f3c946
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
