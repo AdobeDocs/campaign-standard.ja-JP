@@ -1,8 +1,6 @@
 ---
 title: 外部シグナル
-seo-title: 外部シグナル
-description: 外部シグナル
-seo-description: 外部シグナルアクティビティは、別のワークフローで条件が満たされた場合にワークフローをトリガーします。
+description: 外部シグナルアクティビティは、別のワークフローで条件が満たされた場合にワークフローをトリガーします。
 page-status-flag: 非活性化の
 uuid: 884b6daf-bfd9-440b-8336-004b80c76def
 contentOwner: ソビア
@@ -15,7 +13,7 @@ context-tags: signal,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
