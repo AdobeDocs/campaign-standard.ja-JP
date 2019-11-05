@@ -1,40 +1,38 @@
 ---
-title: データのインポートとエクスポートについて
-seo-title: データのインポートとエクスポートについて
-description: データのインポートとエクスポートについて
-seo-description: Adobe Campaignでデータをインポートおよびエクスポートする様々な方法について説明します。
-page-status-flag: 常にアクティブ化されていない
+title: データインポートおよびエクスポートについて
+description: Adobe Campaignでデータをインポートおよびエクスポートする様々な方法について説明します。
+page-status-flag: 非活性化の
 uuid: f6810364-555c-4b72-8a9c-4ae2fcb2ba63
-contentOwner: サウビート
-products: SG_ CAMPAIGN/STANDARD
+contentOwner: ソビア
+products: SG_CAMPAIGN/STANDARD
 audience: 自動化
 content-type: 参照
-topic-tags: importing- and- exporting- data
-discoiquuid: 31215773-6c0c-48f1-9101- da0ea2a366da
+topic-tags: データのインポート/エクスポート
+discoiquuid: 31215773-6c0c-48f1-9101-da0ea2a366da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# About data import and export{#about-data-import-and-export}
+# データインポートおよびエクスポートについて{#about-data-import-and-export}
 
 ビジネスニーズに応じて、Adobe Campaignでデータをインポートおよびエクスポートする方法がいくつかあります。
 
-* **パッケージ**:パッケージとは、Adobe Campaignインスタンスの設定やデータセットを別のAdobe Campaignインスタンスにエクスポートして読み込むことができるXMLファイルのことです。システムのアップデートは、パッケージの読み込みによっても実行されます。
-* **リスト**:すべてのリスト画面を設定し、表示されたデータを別のファイルにエクスポートすることができます。
-* **ワークフロー**:ファイルからデータをインポートし、それを使用してデータベースを更新したり電子メールを送信したりします。ファイルにエクスポートするデータを選択することもできます。ワークフローは、プロファイルインポートなど、定期的な更新を自動化する最善の方法です。
+* **パッケージ**:パッケージは、Adobe Campaignインスタンスから別のインスタンスに設定とデータセットを書き出しおよび読み込むことができるXMLファイルです。 システムの更新は、パッケージのインポートによっても実行されます。
+* **リスト**:すべてのリスト画面を設定し、表示データを別のファイルに書き出すことができます。
+* **ワークフロー**:ファイルからデータをインポートし、それを使用してデータベースの更新や電子メールの送信を行います。 ファイルに書き出すデータを選択することもできます。 ワークフローは、プロファイルのインポートなど、定期的な更新を自動化する最適な方法です。
 
-インポートプロセスをデザインする場合は、ニーズに合わせて調整できるワークフローテンプレートを使用することをお勧めします。For more on how to set up a workflow template to import data, refer to [this use case](../../automating/using/importing-data.md#example--import-workflow-template).
+読み込みプロセスをデザインする場合は、ニーズに合わせて適応できるワークフローテンプレートを使用することをお勧めします。 データをインポートするワークフローテンプレートの設定方法について詳しくは、この使用例を [参照してくださ](../../automating/using/importing-data.md#example--import-workflow-template)い。
 
-Adobe Campaign also offers a simplified way to perform regular imports which consists in designing **import templates**. テンプレートの読み込みには、専用の画面から利用できる特別なワークフローテンプレートがあります。デザインが完了すると、インポートを実行するユーザーは、シンプルな表示でインポートするためにファイルをアップロードする必要があります。
+また、Adobe Campaignは、インポートテンプレートのデザインで構成される、通常のインポートを簡単に実行する方 **法も提供しま**&#x200B;す。 読み込みテンプレートは、専用の画面で利用できる専用のワークフローテンプレートです。 設計後は、読み込みを実行するユーザは、簡単なビューで読み込むためにファイルをアップロードするだけで済みます。
 
-**関連トピック**:
+**関連トピック**：
 
-* [インポートテンプレートを使用したデータの読み込み](../../automating/using/importing-data-with-import-templates.md)
+* [インポートテンプレートを使用したデータのインポート](../../automating/using/importing-data-with-import-templates.md)
 * [インポートテンプレートの定義](../../automating/using/defining-import-templates.md)
 * [パッケージの管理](../../automating/using/managing-packages.md)
-* [データの読み込み](../../automating/using/importing-data.md)
+* [データのインポート](../../automating/using/importing-data.md)
 
