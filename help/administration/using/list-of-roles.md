@@ -1,8 +1,6 @@
 ---
-title: ロールのリスト
-seo-title: ロールのリスト
-description: ロールのリスト
-seo-description: ユーザーに割り当て可能なロールのリストを確認します。
+title: 役割のリスト
+description: ユーザーに割り当て可能なロールのリストを確認します。
 page-status-flag: 非活性化の
 uuid: 128aaf9b-9b7d-49f3-9e1f-72e79a29baa0
 contentOwner: ソビア
@@ -15,12 +13,12 @@ context-tags: 役割，概要；役割，メイン
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c331937dcfef849798f1a5ed693da5f01759a1b8
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# ロールのリスト{#list-of-roles}
+# 役割のリスト{#list-of-roles}
 
 デフォルトでは、Adobe Campaignには一連のロールが用意されており、ユーザーおよびユーザーグループに割り当てられた一元的な承認を定義できます。 組織単位と組み合わせて、ユーザーはインターフェイスをフィルター表示し、様々な機能へのアクセスを定義できます。 詳しくは、「ロールと権限」の表 [を参照してください](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)。
 
