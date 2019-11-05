@@ -1,41 +1,39 @@
 ---
 title: ライセンス
-seo-title: ライセンス
-description: ライセンス
-seo-description: インスタンスにインストールされているライセンスについて詳しく説明します。
-page-status-flag: 常にアクティブ化されていない
-uuid: fea2ea2b- e036-4fe4-9db2-7ba25ec8fb3b
-contentOwner: サウビート
-products: SG_ CAMPAIGN/STANDARD
+description: インスタンスにインストールされたライセンスの詳細を表示します。
+page-status-flag: 非活性化の
+uuid: fea2ea2b-e036-4fe4-9db2-7ba25ec8fb3b
+contentOwner: ソビア
+products: SG_CAMPAIGN/STANDARD
 audience: 管理
 content-type: 参照
-topic-tags: ユーザーおよびセキュリティ
-discoiquuid: b0056f83-610e-4fdc-95cd- bb5ed9f5c483
+topic-tags: ユーザーとセキュリティ
+discoiquuid: b0056f83-610e-4fdc-95cd-bb5ed9f5c483
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a12df43de55dedf388a397fbf4670d99e3ea7f3d
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Licenses{#licenses}
+# ライセンス{#licenses}
 
-**[!UICONTROL Licenses]** このウィンドウでは、インスタンスにインストールされているライセンスを表示したり、ビルド番号、リリースバージョン、契約条項が受け入れられた場合や、誰によって承認されたかなどの情報を表示できます。
+このウ **[!UICONTROL Licenses]** ィンドウでは、インスタンスにインストールされたライセンスと、ビルド番号、リリースバージョン、契約条件に同意したかどうか、そのユーザーに関する異なる情報を表示できます。
 
 ![](assets/license_1.png)
 
-新しいビルドまたは新機能を使用すると、ライセンス用語が変更され、インスタンスの機能管理者が受け入れる必要があります。
+新しいビルドまたは新しい機能を使用すると、ライセンス条項が変更される場合があり、インスタンスの機能管理者が同意する必要があります。
 
-ログイン後、標準ユーザーに次のウィンドウが表示されます。アクションは必要ありません。They can still work on Adobe Campaign by clicking the **[!UICONTROL OK]** button.
+次のウィンドウは、ログイン後の標準ユーザーに対して表示され、ユーザー側での操作は不要です。 引き続き、ボタンをクリックしてAdobe Campaignを操作で **[!UICONTROL OK]** きます。
 
 ![](assets/license_2.png)
 
-An administrator has to read and confirm the new terms of agreement in the following 30 days of the build installation by checking **[!UICONTROL I accept the terms from the license agreement]** and clicking **[!UICONTROL Confirm]**.
+管理者は、ビルドのインストール後30日以内に、新しい契約条件を確認し、確認する必要があります。確認するには、をク **[!UICONTROL I accept the terms from the license agreement]** リックしま **[!UICONTROL Confirm]**&#x200B;す。
 
 ![](assets/license_3.png)
 
-契約が受け入れられない場合、これらの30日間が渡されると、ユーザーはこのインスタンスを使用できません。標準ユーザーはAdobe Campaign機能にアクセスできません。機能管理者が契約条項に同意するまで、次のメッセージのみが表示されます。
+契約が承認されない場合は、この30日を経過した後、このインスタンスを使用できるユーザーはいなくなります。 標準ユーザーはAdobe Campaignの機能にアクセスできず、機能管理者が契約条件に同意するまで、次のメッセージのみが表示されます。
 
 ![](assets/license_4.png)
 
