@@ -1,8 +1,6 @@
 ---
 title: トランザクションメッセージについて
-seo-title: トランザクションメッセージについて
-description: トランザクションメッセージについて
-seo-description: 送信できる様々なタイプのトランザクションメッセージと、Adobe Campaignでの使用方法を確認します。
+description: 送信できる様々なタイプのトランザクションメッセージと、Adobe Campaignでの使用方法を確認します。
 page-status-flag: 非活性化の
 uuid: 8470e9e2-ee17-456f-9e4c-460e69c78a2c
 contentOwner: ソビア
@@ -14,7 +12,7 @@ discoiquuid: 71a4d5d5d5-fe2a-4ce5-b22b-a4736f7add83
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 22675ef3452aadca4ddb290832159298ebb76474
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -57,7 +55,7 @@ Adobe Campaignでは、製品を買い物かごに追加したサイトユーザ
 これを配置する手順は次のとおりです。
 
 1. 「買い物かごの放棄」という名前を付け、このイベント設定を公開するイベントを設定し、トランザクションメッセージを自動的に作成します。 イベントの作成と発行は、「イベントトランザクションメッセージを送 [信するためのイベントの設定」の節に示され](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) 、
-1. トランザクションメッセージは、パーソナライズし、テストして、公開する必要があります。 イベントトラン [ザクションメッセージを参照してくださ](../../channels/using/event-transactional-messages.md)い。
+1. トランザクションメッセージは、パーソナライズし、テストして、公開する必要があります。 See [Event transactional messages](../../channels/using/event-transactional-messages.md).
 1. さらに、クライアントが買い物かごを放棄したときにイベントがトリガーされるには、このイベントをAdobe Campaign Standard REST APIを使用して会社のWebサイトから送信する必要があります。 サイトの統 [合を参照してください](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website)。
 
 これらの手順がすべて実行されると、ユーザーは買い物かごに商品を注文せずにサイトを離れると、自動的に通知電子メールを受け取ります。
@@ -81,7 +79,7 @@ Adobe Campaignでは、製品を買い物かごに追加したサイトユーザ
 トランザクションメッセージをデザインして公開する際に、実行する必要がある手順の一部を元に戻すことはできません。 次の制限事項に注意する必要があります。
 
 * 各イベント設定には1つのチャネルのみを使用できます。 イベント [の作成を参照してください](../../administration/using/configuring-transactional-messaging.md#creating-an-event)。
-* イベントが作成されると、チャネルを変更できなくなります。 したがって、メッセージが正常に送信されない場合は、ワークフローを使用して別のチャネルからメッセージを送信できるメカニズムを設計する必要があります。 詳しくは、ワ [ークフローデータとプロセスを参照してくださ](../../automating/using/workflow-data-and-processes.md)い。
+* イベントが作成されると、チャネルを変更できなくなります。 したがって、メッセージが正常に送信されない場合は、ワークフローを使用して別のチャネルからメッセージを送信できるメカニズムを設計する必要があります。 See [Workflow data and processes](../../automating/using/workflow-data-and-processes.md).
 * イベントの作成後にターゲットディメンシ **[!UICONTROL Real-time event]** ョン(ま **[!UICONTROL Profile]** たは)を変更することはできません。 イベント [の作成を参照してください](../../administration/using/configuring-transactional-messaging.md#creating-an-event)。
 * パブリケーションをロールバックすることはできませんが、イベントの公開を取り消すことはできます。この操作により、イベントと関連するトランザクションメッセージにアクセスできなくなります。 イベント [の非公開を参照してください](../../administration/using/configuring-transactional-messaging.md#unpublishing-an-event)。
 * イベントに関連付けることができる唯一のトランザクションメッセージは、イベントの発行時に自動的に作成されるメッセージです。 詳しくは、イ [ベントのプレビューと公開を参照してくださ](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)い。
@@ -92,14 +90,14 @@ Adobe Campaignでは、製品を買い物かごに追加したサイトユーザ
 
 **イベント・ベースのトランザクション・メッセージ**:
 
-* パーソナライゼーション情報は、イベント自体に含まれるデータから取得されます。 イベントトラン [ザクションメッセージを参照してくださ](../../channels/using/event-transactional-messages.md)い。
+* パーソナライゼーション情報は、イベント自体に含まれるデータから取得されます。 See [Event transactional messages](../../channels/using/event-transactional-messages.md).
 * イベントトランザクションメ **ッセージでは** 、購読解除リンクコンテンツブロックを使用できません。
 * イベントベースのトランザクションメッセージングは、送信されたイベント内のデータのみを使用して、受信者とメッセージコンテンツのパーソナライゼーションを定義する必要があります。 ただし、Adobe Campaignデータベースの情報を使用して、トランザクションメッセージのコンテンツを強化できます。 詳しくは、ト [ランザクションメッセージコンテンツの強化を参照してくださ](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content)い。
 * イベントトランザクションメッセージにはプロファイル情報が含まれないので、プロファイルを含むエンリッチメントの場合でも、疲労ルールとの互換性はありません。 疲労ル [ールを参照](../../administration/using/fatigue-rules.md)。
 
 **プロファイルベースのトランザクションメッセージ**:
 
-* パーソナライゼーション情報は、イベントに含まれるデータまたは調整済みプロファイルレコードから取得できます。 詳しくは、プロフ [ァイルトランザクションメッセージを参照してくださ](../../channels/using/profile-transactional-messages.md)い。
+* パーソナライゼーション情報は、イベントに含まれるデータまたは調整済みプロファイルレコードから取得できます。 See [Profile transactional messages](../../channels/using/profile-transactional-messages.md).
 * プロファイルトランザクシ **ョンメッセージで** 、購読解除リンクコンテンツブロックを使用できます。 詳しくは、コ [ンテンツブロックの追加を参照してくださ](../../designing/using/personalization.md#adding-a-content-block)い。
 * 疲労ルールは、プロファイルトランザクションメッセージと互換性があります。 疲労ル [ールを参照](../../administration/using/fatigue-rules.md)。
 
