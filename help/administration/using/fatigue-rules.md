@@ -1,8 +1,6 @@
 ---
 title: 疲労ルール
-seo-title: 疲労ルール
-description: 疲労ルール
-seo-description: 疲労ルールを作成して、プロファイルを使用した過剰なコミュニケーションを管理します。
+description: 疲労ルールを作成して、プロファイルを使用した過剰なコミュニケーションを管理します。
 page-status-flag: 非活性化の
 uuid: fa5e3ded-36c2-4f16-b97a-119b85adf679
 contentOwner: ソビア
@@ -14,7 +12,7 @@ discoiquuid: 4337a80b-0fb9-4a37-bce3-fe2121a66586
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
