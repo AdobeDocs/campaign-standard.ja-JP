@@ -1,78 +1,76 @@
 ---
 title: 送信の確認
-seo-title: 送信の確認
-description: 送信の確認
-seo-description: メッセージの準備を終える方法について説明します。
-page-status-flag: 常にアクティブ化されていない
-uuid: 1eab32- ffd2-45d0- a8b4- f97ee59a1bd
-contentOwner: サウビート
-products: SG_ CAMPAIGN/STANDARD
-audience: 送信中
+description: メッセージの準備を完了する方法を説明します。
+page-status-flag: 非活性化の
+uuid: 1eaecb32-ffd2-45d0-a8b4-f97bee59a1bd
+contentOwner: ソビア
+products: SG_CAMPAIGN/STANDARD
+audience: 送信
 content-type: 参照
-topic-tags: 送信および追跡メッセージ
-discoiquuid: 8bb160b1-7de9-4c1f- bb89- b2e5fubafed41
-context-tags: 配信，デプロイメント，戻る
+topic-tags: sending-and-tracking-messages
+discoiquuid: 8bb160b1-7de9-4c1f-bb89-b2e5fdafed41
+context-tags: 配信，デプロイ，戻る
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e9dd7c374903d0c57ac4881ed125c3215bd7fe11
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Confirming the send{#confirming-the-send}
+# 送信の確認{#confirming-the-send}
 
-メッセージの準備が完了し、承認手順が実行されたら、送信できます。For more on messages preparation, refer to [Preparing the send](../../sending/using/preparing-the-send.md).
+メッセージの準備が完了し、承認手順が完了したら、メッセージを送信できます。 メッセージの準備の詳細については、「送信の準備 [」を参照してください](../../sending/using/preparing-the-send.md)。
 
-**[!UICONTROL Start deliveries]** その役割を持つユーザーのみが送信を確認できます。For more on this, refer to the [List of roles](../../administration/using/list-of-roles.md) section.
+役割を持つユーザーのみ **[!UICONTROL Start deliveries]** が送信を確認できます。 詳しくは、「ロールのリスト」の節 [を参照してください](../../administration/using/list-of-roles.md) 。
 
 このロールを持たないユーザーには、次のメッセージが表示されます。
 
 ![](assets/confirm_delivery_2.png)
 
-To send your delivery, click the **[!UICONTROL Confirm send]** button found in the message's action bar.
+配信を送信するには、メッセージのアク **[!UICONTROL Confirm send]** ションバーにあるボタンをクリックします。
 
 ![](assets/confirm_delivery.png)
 
-**[!UICONTROL OK]** ボタンをクリックして送信を確定するように求められます。
+ボタンをクリックして、送信を完了するように求めら **[!UICONTROL OK]** れます。
 
 ![](assets/confirm_delivery1.png)
 
-メッセージが送信されています。
+メッセージを送信中です。
 
 >[!NOTE]
 >
->メッセージがスケジュールされている場合は、送信時に送信されます。For more on scheduling messages, refer to [this section](../../sending/using/about-scheduling-messages.md).
+>メッセージがスケジュールされている場合、送信時間に達すると送信されます。 For more on scheduling messages, refer to [this section](../../sending/using/about-scheduling-messages.md).
 
-集計期間のない定期配信を使用している場合は、配信の送信前に確認を要求できます。To do this, open the **[!UICONTROL Schedule]** block of the delivery dashboard, then activate the dedicated option.
+集計期間なしの定期配信を使用している場合は、配信が送信される前に確認をリクエストできます。 これを行うには、配信ダッシュボード **[!UICONTROL Schedule]** のブロックを開き、専用オプションをアクティブにします。
 
 ![](assets/confirmation_recurring_deliveries.png)
 
-**[!UICONTROL Deployment]** ブロックは送信の進行状況を示します。
+ブロッ **[!UICONTROL Deployment]** クは送信の進行状況を示します。
 
-Once the message is sent to the contacts, the **[!UICONTROL Deployment]** zone shows your KPIs (Key Performance Indicator) data , including:
+メッセージが連絡先に送信されると、ゾーンには次の **[!UICONTROL Deployment]** ようなKPI（主要業績評価指標）データが表示されます。
 
 * 配信するメッセージの数
-* 送信されるメッセージの数
-* 配信されるメッセージのパーセント
+* 送信されたメッセージの数
+* 配信されたメッセージの割合
 * バウンスとエラーの割合
-* 開くメッセージの割合
-* メッセージ内のクリック数のパーセント（電子メール用）
+* 開いているメッセージの割合
+* メッセージのクリックの割合（電子メール用）
 
    >[!NOTE]
    >
-   >The **[!UICONTROL Open rate]** and **[!UICONTROL Click-through rate]** are updated every hour.
+   >とは、 **[!UICONTROL Open rate]** 毎 **[!UICONTROL Click-through rate]** 時間更新されます。
 
 ![](assets/sending_delivery.png)
 
-If the KPIs take too long to update or don't take into account the results from the sending logs, click the **[!UICONTROL Compute stats]** button in the **[!UICONTROL Deployment]** window.
+KPIの更新に時間がかかりすぎる場合や、送信ログの結果を考慮に入れない場合は、ウィンドウのボタンを **[!UICONTROL Compute stats]** クリックし **[!UICONTROL Deployment]** ます。
 
 ![](assets/sending_delivery7.png)
 
-メッセージは、オーディエンスの一部を構成するクライアントプロファイルの履歴で表示できます。See [Integrated customer profile](../../audiences/using/integrated-customer-profile.md).
+メッセージは、オーディエンスの一部を構成するクライアントプロファイルの履歴に表示できます。 See [Integrated customer profile](../../audiences/using/integrated-customer-profile.md).
 
-メッセージが送信されると、受信者の行動を追跡し、その受信者の行動を測定するために監視できます。これについて詳しくは、以下のセクションを参照してください。
+メッセージが送信されたら、受信者の行動を追跡し、その影響を測定するためにメッセージを監視できます。 詳しくは、以下の節を参照してください。
 
-* [メッセージの追跡](../../sending/using/tracking-messages.md)
+* [メッセージのトラッキング](../../sending/using/tracking-messages.md)
 * [配信の監視](../../sending/using/monitoring-a-delivery.md)
 
