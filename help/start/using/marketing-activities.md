@@ -1,8 +1,6 @@
 ---
 title: マーケティング活動
-seo-title: マーケティング活動
-description: マーケティング活動
-seo-description: 「マーケティング活動を作成し、管理する方法を説明します。キャンペーン、電子メール、SMSおよびプッシュ通知の配信、ランディングページ、ワークフロー。 新しいアクティビティを簡単に設計し、既存のアクティビティを編集し、そのステータスと有効性を確認できます。」
+description: 「マーケティング活動を作成し、管理する方法を説明します。キャンペーン、電子メール、SMSおよびプッシュ通知の配信、ランディングページ、ワークフロー。 新しいアクティビティを簡単に設計し、既存のアクティビティを編集し、そのステータスと有効性を確認できます。」
 page-status-flag: 非活性化の
 uuid: 5d45a935-6d03-4b27-aabd-7c47c11241ba
 contentOwner: ソビア
@@ -15,7 +13,7 @@ context-tags: アクティビティ，概要
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
