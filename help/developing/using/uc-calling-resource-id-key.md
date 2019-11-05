@@ -1,15 +1,13 @@
 ---
-title: 複合IDキーを使用したリソースの呼び出し
-seo-title: 複合IDキーを使用したリソースの呼び出し
-description: 複合IDキーを使用したリソースの呼び出し
-seo-description: 複合IDキーを使用してリソースを呼び出す方法を説明します。
+title: 複合 ID キーを使用したリソースの呼び出し
+description: 複合IDキーを使用してリソースを呼び出す方法を説明します。
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 複合IDキーを使用したリソースの呼び出し{#calling-a-resource-using-a-composite-identification-key}
+# 複合 ID キーを使用したリソースの呼び出し{#calling-a-resource-using-a-composite-identification-key}
 
 場合によっては、2つのフィールドで構成される識別キーをリソースに対して定義する必要があります。 IDキーを設定したら、Campaign StandardインターフェイスまたはAPIからこのIDキーを使用してリソースを呼び出せるように、フィルター定義を設定する必要があります。
 
