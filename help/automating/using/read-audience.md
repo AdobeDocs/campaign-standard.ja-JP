@@ -1,66 +1,64 @@
 ---
-title: オーディエンスの読み取り
-seo-title: オーディエンスの読み取り
-description: オーディエンスの読み取り
-seo-description: オーディエンスの読み取りアクティビティを使用すると、既存のオーディエンスを取得し、追加のフィルター条件を適用して絞り込むことができます。
-page-status-flag: 常にアクティブ化されていない
-uuid: 58c54e71- f4a7-4ae9-80a3-33c379ab1db9
-contentOwner: サウビート
-products: SG_ CAMPAIGN/STANDARD
+title: オーディエンスの閲覧
+description: オーディエンスを読み取りアクティビティを使用すると、追加のフィルター条件を適用して、既存のオーディエンスを取得し、それを絞り込むことができます。
+page-status-flag: 非活性化の
+uuid: 58c54e71-f4a7-4ae9-80a3-33c379ab1db9
+contentOwner: ソビア
+products: SG_CAMPAIGN/STANDARD
 audience: 自動化
 content-type: 参照
-topic-tags: ターゲットアクティビティ
-discoiquuid: 674684e5-8830-4d2f- ba97-59ed4ba7422f
-context-tags: readAudience、main
+topic-tags: ターゲティング活動
+discoiquuid: 674684e5-8830-4d2f-ba97-59ed4ba7422f
+context-tags: readAudience,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0454dac1a7976c1be2838c2a846d33e77e60c3b3
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Read audience{#read-audience}
+# オーディエンスの閲覧{#read-audience}
 
 ## 説明 {#description}
 
 ![](assets/prefill.png)
 
-**[!UICONTROL Read audience]** このアクティビティにより、既存のオーディエンスを取得し、追加のフィルター条件を適用して絞り込むことができます。
+アクティビティ **[!UICONTROL Read audience]** を使用すると、既存のオーディエンスを取得し、追加のフィルター条件を適用して絞り込むことができます。
 
-## Context of use {#context-of-use}
+## 使用状況 {#context-of-use}
 
-**[!UICONTROL Read audience]** アクティビティは、既存のオーディエンスを選択するだけのケース向けに設計された、シンプルなバージョン **[!UICONTROL Query]** のアクティビティです。
+アクテ **[!UICONTROL Read audience]** ィビティは、既存のオーディエンスの選択 **[!UICONTROL Query]** のみが必要な場合に備えて設計された、アクティビティのよりシンプルなバージョンです。
 
-## Configuration {#configuration}
+## 設定 {#configuration}
 
-1. Drop a **[!UICONTROL Read audience]** activity into your workflow.
-1. Select the activity, then open it using the ![](assets/edit_darkgrey-24px.png) button from the quick actions that appear.
-1. Select the audience you want to retrieve from the **[!UICONTROL Properties]** tab.
+1. アクティビティをワ **[!UICONTROL Read audience]** ークフローにドロップします。
+1. アクティビティを選択し、表示されるクイックアクシ ![](assets/edit_darkgrey-24px.png) ョンのボタンを使用して開きます。
+1. タブから取得するオーディエンスを選択し **[!UICONTROL Properties]** ます。
 
-   You can retrieve audiences of the following types: **[!UICONTROL List]**, **[!UICONTROL Query]**, **[!UICONTROL File]** and **[!UICONTROL Experience Cloud]**. For more information on audience types, refer to the [Audiences](../../audiences/using/about-audiences.md) documentation.
+   次のタイプのオーディエンスを取得できます。 **[!UICONTROL List]**、 **[!UICONTROL Query]**、 **[!UICONTROL File]** 、 **[!UICONTROL Experience Cloud]**、 オーディエンスタイプについて詳しくは、オーディエンスのドキュメントを参 [照して](../../audiences/using/about-audiences.md) ください。
 
-   **[!UICONTROL Use a dynamic audience]** このオプションを使用すると、ワークフローのイベント変数に基づいてターゲットにするオーディエンスの名前を定義できます。For more on this, refer to the [Customizing activities with events variables](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables) section.
+   このオ **[!UICONTROL Use a dynamic audience]** プションでは、ワークフローのイベント変数に基づいてターゲット設定するオーディエンスの名前を定義できます。 詳しくは、「イベント変数を使用したアクティビティ [のカスタマイズ」の節を参照してくださ](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables) い。
 
    ![](assets/readaudience_activity1.png)
 
-1. If you want to apply additional filtering to the selected audience, add conditions via the **[!UICONTROL Source filtering]** tab of the activity.
+1. 選択したオーディエンスに追加のフィルターを適用する場合は、アクティビティのタブを使用し **[!UICONTROL Source filtering]** て条件を追加します。
 
-   For more information about creating filtering conditions, refer to the [Creating queries](../../automating/using/editing-queries.md#creating-queries) documentation.
+   フィルタリング条件の作成の詳細については、『クエリの作成 [](../../automating/using/editing-queries.md#creating-queries) 』ドキュメントを参照してください。
 
 1. アクティビティの設定を確認し、ワークフローを保存します。
 
-## Example: Reconcile a File audience with the database {#example--reconcile-a-file-audience-with-the-database}
+## 例：ファイルオーディエンスとデータベースとの調整 {#example--reconcile-a-file-audience-with-the-database}
 
-This example shows how to use the **[!UICONTROL Read audience]** activity to reconcile an audience directly created from a file import.
+この例では、アクティビティを使用して、フ **[!UICONTROL Read audience]** ァイルのインポートから直接作成されたオーディエンスを調整する方法を示します。
 
-ファイルの読み込みを実行すると、オーディエンスに直接コンテンツを保存できます。このオーディエンスはファイルのオーディエンスであり、そのデータはデータベースリソースにリンクされていません。
+ファイルの読み込みを実行する際に、オーディエンスにそのコンテンツを直接保存できます。 このオーディエンスはファイルオーディエンスで、そのデータはデータベースリソースにリンクされていません。
 
-インポートワークフローは次のように設計されています。
+読み込みワークフローは、次のように設計されています。
 
 ![](assets/readaudience_activity_example3.png)
 
-* [読み込みファイル](../../automating/using/load-file.md) アクティビティは、外部ツールから抽出されたプロファイルデータを含むファイルをアップロードします。
+* ファイル [の読み込みアクティビティは](../../automating/using/load-file.md) 、外部ツールから抽出されたプロファイルデータを含むファイルをアップロードします。
 
    次に例を示します。
 
@@ -78,28 +76,28 @@ This example shows how to use the **[!UICONTROL Read audience]** activity to rec
    Ross;Timothy;04/07/1986;timross@example.com;157643
    ```
 
-* [「保存するオーディエンス](../../automating/using/save-audience.md) 」アクティビティは、受信データをオーディエンスとして保存します。データがまだ紐付けされていない場合、オーディエンスはファイルのオーディエンスであり、そのデータはプロファイルデータとして認識されません。
+* オーディエ [ンスを保存アクティビティは](../../automating/using/save-audience.md) 、受信データをオーディエンスとして保存します。 データはまだ調整されていないので、オーディエンスはファイルオーディエンスで、そのデータはまだプロファイルデータとして認識されません。
 
-紐付けワークフローは次のように設計されています。
+調整ワークフローは次のように設計されています。
 
 ![](assets/readaudience_activity_example2.png)
 
-* **[!UICONTROL Read audience]** アクティビティは、インポートワークフローで作成されたファイルオーディエンスをアップロードします。オーディエンスデータは、まだAdobe Campaignデータベースと調整されません。
-* [紐付け](../../automating/using/reconciliation.md) アクティビティは **[!UICONTROL Identification]** 、そのタブを介して、受信データをプロファイルとして識別します。For example by using the **email** field as reconciliation criteria.
-* [更新データ](../../automating/using/update-data.md) アクティビティは、受信データを使用してデータベースのプロファイルリソースを挿入および更新します。As the data is already identified as profiles, you can select the **[!UICONTROL Directly using the targeting dimension]** option and select **[!UICONTROL Profiles]** in the **[!UICONTROL Identification]** tab of the activity. 次に、タブで更新する必要があるフィールドのリストを追加します。
+* アクティビティ **[!UICONTROL Read audience]** は、読み込みワークフローで作成されたファイルオーディエンスをアップロードします。 オーディエンスデータは、まだAdobe Campaignデータベースと調整されていません。
+* 調整ア [クティビティは](../../automating/using/reconciliation.md) 、受信データをタブでプロファイルとして識別 **[!UICONTROL Identification]** します。 例えば、電子メールフィールドを調 **整条件として** 使用する場合などです。
+* 「 [Update data](../../automating/using/update-data.md) 」アクティビティは、受信データを使用してデータベースのプロファイルリソースを挿入し、更新します。 データは既にプロファイルとして識別されているので、このオプションを **[!UICONTROL Directly using the targeting dimension]** 選択し、アクティビティ **[!UICONTROL Profiles]** のタ **[!UICONTROL Identification]** ブでを選択できます。 その後は、「分類」タブで更新する必要のあるフィールドのリストを追加するだけで済みます。
 
-## Example: Union on two refined audiences {#example--union-on-two-refined-audiences}
+## 例：2つの洗練されたオーディエンスに対する和集合 {#example--union-on-two-refined-audiences}
 
-The workflow defined in this example shows the union of two **[!UICONTROL Read audience]** activities. このワークフローの目的は、18才から30才までの金または銀の会員に電子メールを送信することです。
+この例で定義したワークフローは、2つのアクティビティの和集合を示し **[!UICONTROL Read audience]** ています。 このワークフローの目的は、18歳から30歳のゴールドメンバーまたはシルバーメンバーに電子メールを送信することです。
 
-特定のオーディエンスは、ゴールドおよびシルバーのメンバーを追跡するためにシステム内で既に作成されています。
+ゴールドメンバーとシルバーメンバーを追跡するために、システム内に特定のオーディエンスが既に作成されています。
 
 ワークフローは次のように設計されています。
 
 ![](assets/readaudience_activity_example1.png)
 
-* A first **[!UICONTROL Read audience]** activity that retrieves the Gold members audience and refines it by selecting only profiles that are between 18 and 30 years old.
-* A second **[!UICONTROL Read audience]** activity that retrieves the Silver members audience and refines it by selecting only profiles that are between 18 and 30 years old.
-* **[!UICONTROL Union]****[!UICONTROL Read audiences]** 両方のアクティビティから1人の最終母集団に訪問者を同化させるアクティビティ。
-* An **[!UICONTROL Email delivery]** activity that sends the email to the population coming from the **[!UICONTROL Union]** activity.
+* ゴールドメン **[!UICONTROL Read audience]** バーオーディエンスを取得する最初のアクティビティで、18 ～ 30年のプロファイルのみを選択して、オーディエンスを絞り込みます。
+* シルバーメ **[!UICONTROL Read audience]** ンバーのオーディエンスを取得し、18 ～ 30年のプロファイルのみを選択して絞り込む2番目のアクティビティです。
+* 両方の **[!UICONTROL Union]** アクティビティの訪問者を1つの最終訪 **[!UICONTROL Read audiences]** 問者に結合するアクティビティ。
+* アクテ **[!UICONTROL Email delivery]** ィビティからの訪問者に電子メールを送信するアクティビティ **[!UICONTROL Union]** です。
 
