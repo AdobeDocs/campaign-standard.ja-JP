@@ -1,41 +1,39 @@
 ---
-title: トラッキングインジケーター
-seo-title: トラッキングインジケーター
-description: トラッキングインジケーター
-seo-description: チェックインジケーターを使用して、顧客が電子メールメッセージを受信したときの行動を確認します。
-page-status-flag: 常にアクティブ化されていない
-uuid: b2df8846-4abc-45e6- a8ff- ee37655383c2
-contentOwner: サウビート
-products: SG_ CAMPAIGN/STANDARD
+title: トラッキング指標
+description: 追跡インジケーターは、そのまま使用できるレポートで、電子メールメッセージを受信した顧客の行動を確認できます。
+page-status-flag: 非活性化の
+uuid: b2df8846-4caf-45e6-a8ff-ee37655383c2
+contentOwner: ソビア
+products: SG_CAMPAIGN/STANDARD
 audience: レポート
 content-type: 参照
 topic-tags: レポートのリスト
-discoiquuid: 64abc885-2bold-423f- bf5b-5a623a16ca6d
-context-tags: DeliveryTrackingReports， main;campaignTrackingReport， main;ProgramTrackingReport， main
+discoiquuid: 64abc885-2aec-423f-bf5b-5a623a16ca6d
+context-tags: deliveryTrackingReports,main;campaignTrackingReport,main;programTrackingReport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 77b0933bcd004cedc6a58f80717a4284b284e0cd
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Tracking indicators{#tracking-indicators}
+# トラッキング指標{#tracking-indicators}
 
-**[!UICONTROL Tracking indicators]** このレポートには、電子メールメッセージを受信した後の行動を追跡するための主要指標が含まれています。
+このレポ **[!UICONTROL Tracking indicators]** ートには、電子メールメッセージの受信後の行動を追跡するための主要なインジケーターが含まれます。
 
 >[!NOTE]
 >
->このデータにアクセスするには、配信の準備時にトラッキングを有効にする必要があります。
+>このデータにアクセスするには、配信を準備する際に追跡を有効にする必要があります。
 
 ![](assets/delivery_reports_2.png)
 
-**[!UICONTROL Tracking indicators]** 表および **上位5件の配信** グラフには、電子メールトラッキングに使用できるデータが次のように含まれています。
+表とトッ **[!UICONTROL Tracking indicators]** プ5の配 **信グラフには** 、次のような電子メール追跡に使用できるデータが含まれます。
 
-* **[!UICONTROL Delivered]**:正常に送信されたメッセージの数。発生したエラー（バウンス）が考慮されます。ただし、苦情（スパム宣言）や、「不在」などの不在メッセージは考慮されません。
+* **[!UICONTROL Delivered]**:正常に送信されたメッセージの数です。 発生したエラー（バウンス）が考慮されます。 しかし、苦情（スパム申告）や「不在」などの不在メッセージは考慮されません。
 * **開く**:配信でメッセージが開かれた回数。
-* ****&#x200B;クリックします。配信でコンテンツがクリックされた回数。
-* **購読解除**:購読リンクのクリック数。
-* **スパム:** スパムとして電子メールを宣言した受信者の数です。
+* **クリック**:配信でコンテンツがクリックされた回数。
+* **登録解除**:購読リンクのクリック数。
+* **** スパム：電子メールをスパムとして宣言した受信者の数です。
 * **ミラーページ**:ミラーページリンクのクリック数。
 
