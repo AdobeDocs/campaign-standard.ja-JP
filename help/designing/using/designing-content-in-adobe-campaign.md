@@ -1,8 +1,6 @@
 ---
 title: Adobe Campaignでのコンテンツのデザイン
-seo-title: Adobe Campaignでのコンテンツのデザイン
-description: Adobe Campaignでのコンテンツのデザイン
-seo-description: Adobe Campaignでコンテンツに定義できるすべての要素について説明します。
+description: Adobe Campaignでコンテンツに定義できるすべての要素について説明します。
 page-status-flag: 非活性化の
 uuid: 8f73407f-ab90-46bc-aeb6-bd87fcb0404c
 contentOwner: ソビア
@@ -14,12 +12,12 @@ discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 159c33639ab7b53558dac2ce183c3801c15ccb0f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# キャンペーン電子メールデザイナ{#designing-content-in-adobe-campaign}
+# キャンペーン電子メールデザイナー{#designing-content-in-adobe-campaign}
 
 Adobe Campaignで電子メールを作成したら、そのコンテンツを定義する必要があります。
 
@@ -45,5 +43,5 @@ Adobe Campaignで電子メールを作成したら、そのコンテンツを定
 
 * [電子メールの作成](../../channels/using/creating-an-email.md)
 * [ランディングページのデザイン](../../channels/using/designing-a-landing-page.md)
-* [SMSメッセージの作成](../../channels/using/creating-an-sms-message.md)
+* [SMS メッセージの作成](../../channels/using/creating-an-sms-message.md)
 * [プッシュ通知の作成と送信](../../channels/using/preparing-and-sending-a-push-notification.md)
