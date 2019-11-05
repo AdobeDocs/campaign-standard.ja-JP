@@ -1,8 +1,6 @@
 ---
 title: プロファイルの編集
-seo-title: プロファイルの編集
-description: プロファイルの編集
-seo-description: 既存のプロファイルを編集し、連絡先情報、優先チャネル、トラッキングログ、購読などにアクセスする方法を説明します。
+description: 既存のプロファイルを編集し、連絡先情報、優先チャネル、トラッキングログ、購読などにアクセスする方法を説明します。
 page-status-flag: 非活性化の
 uuid: 6fcdb719-6149-48fc-b400-64c24a51487f
 contentOwner: ソビア
@@ -14,7 +12,7 @@ discoiquuid: 8d3ba7bf-90ae-4c6d-aeb-a48572a69f2f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -57,7 +55,7 @@ Profiles Editionは、Adobe Campaign Standard APIを使用しても可能です�
 
 ![](assets/profile_creation4.png)
 
-## ログの送信と追跡 {#sending-and-tracking-logs}
+## Sending and tracking logs {#sending-and-tracking-logs}
 
 タブと **[!UICONTROL Sending logs]** タブに **[!UICONTROL Tracking logs]** は、プロファイルに送信された配信のリストと、関連するすべての追跡データがグループ化されます。
 
