@@ -1,34 +1,32 @@
 ---
-title: ワークフローデータとプロセス
-seo-title: ワークフローデータとプロセス
-description: ワークフローデータとプロセス
-seo-description: Adobe Campaignで設定および自動化できるプロセスについて説明します。
-page-status-flag: 常にアクティブ化されていない
-uuid: d10f2adf-1b0d-4fe6-98d2- c4d59159f048
-contentOwner: サウビート
-products: SG_ CAMPAIGN/STANDARD
+title: ワークフローのデータとプロセス
+description: Adobe Campaignを使用して設定および自動化できるプロセスについて説明します。
+page-status-flag: 非活性化の
+uuid: d10f2adf-1b0d-4fe6-98d2-c4d59159f048
+contentOwner: ソビア
+products: SG_CAMPAIGN/STANDARD
 audience: 自動化
 content-type: 参照
-topic-tags: about- workflows- and- data- management
-discoiquuid: 4bb898a1-868e-40d3- b528-0ceee2ec2991
+topic-tags: about-workflows-and-data-management
+discoiquuid: 4bb898a1-868e-40d3-b528-0cee2ec2991
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Workflow data and processes{#workflow-data-and-processes}
+# ワークフローのデータとプロセス{#workflow-data-and-processes}
 
-Adobe Campaignでは、データのインポート、変換、フィルター、管理およびエクスポートが可能です。これらの操作は、ビジネスプロセスを設計および自動化するために実行できます。
+Adobe Campaignを使用すると、データのインポート、変換、フィルタリング、管理およびエクスポートを行うことができます。 これらの操作は、ビジネス・プロセスの設計と自動化を実行できます。
 
-* データベースの更新:パッケージをインストールするか、ファイルからデータをアップロードします。
-* プロセスの自動化:ワークフローを使用して、データを変換する独自のプロセスを設計したり、データベースを更新したり、メッセージを送信したりできます。
-* データのエクスポート:パッケージまたはデータセットを個別のファイルにエクスポートします。
+* データベースの更新：パッケージをインストールするか、ファイルからデータをアップロードします。
+* プロセスの自動化：ワークフローを通じて、独自のプロセスを設計し、データの変換、データベースの更新、メッセージの送信などを行うことができます。
+* データの書き出し：パッケージまたはデータセットを別々のファイルに書き出します。
 
-**関連トピック**:
+**関連トピック**：
 
-* [ワークフローの発見](../../automating/using/discovering-workflows.md)
-* [データのインポートとエクスポートについて](../../automating/using/about-data-import-and-export.md)
+* [ワークフローの検索](../../automating/using/discovering-workflows.md)
+* [データインポートおよびエクスポートについて](../../automating/using/about-data-import-and-export.md)
 
