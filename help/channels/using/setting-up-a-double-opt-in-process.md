@@ -1,8 +1,6 @@
 ---
 title: ダブルオプトインプロセスの設定
-seo-title: ダブルオプトインプロセスの設定
-description: ダブルオプトインプロセスの設定
-seo-description: Adobe Campaignのランディングページを使用してダブルオプトインプロセスを設定するには、次の手順に従います。
+description: Adobe Campaignのランディングページを使用してダブルオプトインプロセスを設定するには、次の手順に従います。
 page-status-flag: 非活性化の
 uuid: 23e6c4c2-e2c7-472f-b616-36a95225ac1d
 contentOwner: ソビア
@@ -14,7 +12,7 @@ discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
