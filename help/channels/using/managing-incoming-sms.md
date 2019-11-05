@@ -1,8 +1,6 @@
 ---
-title: 受信SMSの管理
-seo-title: 受信SMSの管理
-description: 受信SMSの管理
-seo-description: STOP SMSを管理し、受信SMSをAdobe Campaignに保存する方法を説明します。
+title: 受信 SMS の管理
+description: STOP SMSを管理し、受信SMSをAdobe Campaignに保存する方法を説明します。
 page-status-flag: 非活性化の
 uuid: f063052b-96ef-41b6-bf1b-4006de73f0b9
 contentOwner: ソビア
@@ -15,12 +13,12 @@ delivercontext-tags: delivery,smsContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 受信SMSの管理{#managing-incoming-sms}
+# 受信 SMS の管理{#managing-incoming-sms}
 
 ## 停止SMSの管理 {#managing-stop-sms}
 
