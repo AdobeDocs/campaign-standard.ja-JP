@@ -1,42 +1,40 @@
 ---
 title: アクセス管理について
-seo-title: アクセス管理について
-description: アクセス管理について
-seo-description: ロール、グループ、および組織単位を使用して、Adobe Campaignオペレータを管理します。
-page-status-flag: 決して活性化されていない
-uuid: 4f538452- cc67-4e2f-2d-2f-2d-2d9e7
+description: ロール、グループおよび組織単位を使用して、Adobe Campaign演算子を管理します。
+page-status-flag: 非活性化の
+uuid: 4f538452-cc67-4e03-9e2f-2d9eecc081c7
 contentOwner: ソビア
-products: SG_キャンペーン/標準
+products: SG_CAMPAIGN/STANDARD
 audience: 管理
 content-type: 参照
 topic-tags: ユーザーとセキュリティ
-discoiquuid: 54028f63- c9ca-4397- a079- e27e0cftv6
+discoiquuid: 54028f63-c9ca-4397-a079-e27e0cfdebf6
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 52547aedf10cfaf8e4edf0b496d6bf108e8c41f6
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
 # アクセス管理について{#about-access-management}
 
-Adobe Campaignでは、異なるユーザーに割り当てられたアクセス許可を定義および管理できます。アクセス許可は、インターフェイス内の特定の機能またはオブジェクトへのアクセスを承認または拒否する一連の権利と制限です。これらのアクセス許可は、2つの概念に基づいています。
+Adobe Campaignでは、様々なユーザーに割り当てる権限を定義および管理できます。 権限とは、インターフェイス内の特定の機能やオブジェクトへのアクセスを許可または拒否する権限と制限のセットです。 これらの権限は、2つの概念に基づいています。
 
-* **組織単位**:これにより、プラットフォームの異なるオブジェクト（Eメール、ワークフロー、テンプレート、ユーザー、プロファイルなど）に対するアクセス許可の階層を定義できます。「 [組織単位](../../administration/using/organizational-units.md) 」セクションを参照してください。
-* **ロール**:ユーザーおよびユーザー・グループに割り当てられた承認を定義できる一連のユニタリー権限。「ロール [のリスト」](../../administration/using/list-of-roles.md) セクションを参照してください。
+* **組織単位**:これにより、プラットフォームの様々なオブジェクト（電子メール、ワークフロー、テンプレート、ユーザー、プロファイルなど）に対する権限の階層を定義できます。 [組織単位]の項 [を参照](../../administration/using/organizational-units.md) 。
+* **役割**:ユーザーおよびユーザーグループに割り当てられた承認を定義できる一元的な権限のセット。 「役割のリス [ト」を参照](../../administration/using/list-of-roles.md) 。
 
-   組織単位との組み合わせにより、ユーザーは、インターフェイスのフィルター処理されたビューをユーザーに提供し、さまざまな機能へのアクセスを定義できます。詳細については [、"Authorization"テーブル](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)を参照してください。
+   組織単位と組み合わせて、ユーザーはインターフェイスをフィルター表示し、様々な機能へのアクセスを定義できます。 For more on this, refer to the [Authorizations table](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf).
 
 >[!CAUTION]
 >
->地理的ユニット機能は廃止されたことに注意してください。詳細については、この [ページを](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)参照してください。
+>地理的単位機能は廃止されました。 詳しくは、この[ページ](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)を参照してください。
 
-ロール、グループ、および組織単位は、メニュー **[!UICONTROL Administration > Users & Security]** の下にあるプラットフォームの機能管理者によって管理できます。
+役割、グループ、および組織単位は、プラットフォームの機能管理者がメニューの下で管理で **[!UICONTROL Administration > Users & Security]** きます。
 
 ![](assets/user_management_1.png)
 
-ユーザーは管理コンソールで管理されます（「グループおよびユーザーの [管理](../../administration/using/managing-groups-and-users.md) 」または「 [管理コンソールのドキュメント](https://helpx.adobe.com/enterprise/managing/user-guide.html)」を参照）。
+ユーザーは管理コンソールで管理します(「グループとユーザーの管理 [」の項または管理コンソ](../../administration/using/managing-groups-and-users.md) ールのドキュメ [ントを参照](https://helpx.adobe.com/enterprise/managing/user-guide.html))。
 
 ![](assets/user_management_6.png)
 
@@ -47,6 +45,6 @@ Adobe Campaignでは、異なるユーザーに割り当てられたアクセス
 **関連トピック**
 
 * [組織単位](../../administration/using/organizational-units.md)
-* [ロールの一覧](../../administration/using/list-of-roles.md)
-* [グループおよびユーザーの管理](../../administration/using/managing-groups-and-users.md)
+* [役割のリスト](../../administration/using/list-of-roles.md)
+* [グループとユーザーの管理](../../administration/using/managing-groups-and-users.md)
 
