@@ -1,75 +1,73 @@
 ---
 title: メッセージへのアクセス
-seo-title: メッセージへのアクセス
-description: メッセージへのアクセス
-seo-description: 「メッセージおよびその高度な機能について、作成、ターゲット設定、パーソナライゼーション、実行およびレポート」
-page-status-flag: 常にアクティブ化されていない
-uuid: 77e57ed3- bcd5-46b3- aee1-3d03f0df6c11
-contentOwner: サウビート
-products: SG_ CAMPAIGN/STANDARD
+description: メッセージとその高度な機能にアクセスする方法を説明します。作成、ターゲット設定、パーソナライゼーション、実行、レポート作成を行います。」
+page-status-flag: 非活性化の
+uuid: 77e57ed3-bcd5-46b3-aee1-3d03f0df6c11
+contentOwner: ソビア
+products: SG_CAMPAIGN/STANDARD
 audience: チャネル
 content-type: 参照
-topic-tags: about- communication- channel
-discoiquuid: 72a7bd19-4ac7-460e- b3ef- e570d8a802e1
+topic-tags: 通信路
+discoiquuid: 72a7bd19-4ac7-460e-b3ef-e570d8a802e1
 context-tags: アクティビティ，概要
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b0cf437ec97153b53bd4502171b24286abb25731
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Accessing messages{#accessing-messages}
+# メッセージへのアクセス{#accessing-messages}
 
-ターゲット設定、メッセージの作成、パーソナライズ、関連する運用レポートへの通信の実行など、高度な機能のセットにアクセスできます。
+ターゲット設定、メッセージの作成とパーソナライズ、通信の実行、関連する操作レポートなど、一連の高度な機能にアクセスできます。
 
-メッセージにアクセスするには、次の手順に従います。
+メッセージにアクセスできます。
 
-* キャンペーン内
-* （Adobe Campaignホームページ）
+* キャンペーン内で
+* Adobe Campaignホームページから
 * マーケティング活動のリストから
 
-## Accessing messages in campaigns {#accessing-messages-in-campaigns}
+## キャンペーン内のメッセージへのアクセス {#accessing-messages-in-campaigns}
 
-キャンペーンのマーケティングアクティビティのリストにアクセスするには:
+キャンペーンのマーケティングアクティビティのリストにアクセスするには：
 
-1. Go to **[!UICONTROL Marketing activities]** from the top navigation bar.
+1. 上部ナビゲー **[!UICONTROL Marketing activities]** ションバーからに移動します。
 1. Select **[!UICONTROL Marketing activities > Marketing plans > Programs & Campaigns]**.
 
-   You can also directly click the **[!UICONTROL Programs & Campaigns]** card from the home page. For more information on campaigns, refer to the [Programs and campaigns](../../start/using/programs-and-campaigns.md) section.
+   また、ホームページからカードを直 **[!UICONTROL Programs & Campaigns]** 接クリックすることもできます。 キャンペーンの詳細については、「プログラムとキャンペーン [」を参照してください](../../start/using/programs-and-campaigns.md) 。
 
 1. プログラムを選択し、キャンペーンを選択します。
 
    ![](assets/delivery_list_1.png)
 
-1. **[!UICONTROL Summary]** ドロップダウンリストをクリックします。
-1. Click **[!UICONTROL Search]** to filter the way messages are displayed (by name, date, or status).
+1. ドロップダウン **[!UICONTROL Summary]** リストをクリックします。
+1. メッセージ **[!UICONTROL Search]** の表示方法（名前、日付、ステータス）をフィルターするには、をクリックします。
 
-   定期的なメッセージをフィルタリングするには、対応するボックスをチェックします。
+   定期的なメッセージをフィルタリングするには、対応するボックスをオンにします。
 
-## Accessing the message list {#accessing-the-message-list}
+## メッセージリストへのアクセス {#accessing-the-message-list}
 
-結合されたすべてのキャンペーンのマーケティングアクティビティの完全なリストにアクセスするには:
+結合されたすべてのキャンペーンからマーケティングアクティビティの完全なリストにアクセスするには：
 
-1. Select **[!UICONTROL Marketing activities]** from the upper navigation bar.
+1. 上部ナビ **[!UICONTROL Marketing activities]** ゲーションバーからを選択します。
 
-   You can also access it from the **[!UICONTROL Marketing activities]** card on the home page. For more information on the list of marketing activities, refer to the [Managing marketing activities](../../start/using/marketing-activities.md#creating-a-marketing-activity) section.
+   ホームページのカードからもア **[!UICONTROL Marketing activities]** クセスできます。 マーケティングアクティビティのリストについて詳しくは、「マーケティングアクティビティの管 [理」の節を参照してくださ](../../start/using/marketing-activities.md#creating-a-marketing-activity) い。
 
-1. To filter the marketing activities (by name, date, status or activity type), use the **[!UICONTROL Search]** fields to the left of the list of marketing activities.
+1. マーケティングアクティビティを（名前、日付、ステータスまたはアクティビティタイプで）フィルタリングするには、マーケテ **[!UICONTROL Search]** ィングアクティビティのリストの左にあるフィールドを使用します。
 
 ![](assets/delivery_list_2.png)
 
-## Message life cycle {#message-life-cycle}
+## メッセージのライフサイクル {#message-life-cycle}
 
-メッセージのステータスは、リスト内の特定の色で表されます。可能なステータスは次のとおりです。
+メッセージのステータスは、リスト内の特定の色で表されます。 使用可能なステータスは次のとおりです。
 
-* **[!UICONTROL Editing]** （グレー）:メッセージが編集中です。
-* **[!UICONTROL In progress]** （青）:メッセージが送信されています。
-* **[!UICONTROL Finished]** （緑色）:送信がエラーなしで終了しました。
-* **[!UICONTROL Erroneous]** （赤）:送信がキャンセルされたか、メッセージの準備中または送信中にエラーが発生しました。
+* **[!UICONTROL Editing]** （グレー）:メッセージを編集中です。
+* **[!UICONTROL In progress]** （青）:メッセージを送信中です。
+* **[!UICONTROL Finished]** （緑）:送信がエラーなく終了しました。
+* **[!UICONTROL Erroneous]** （赤）:メッセージの準備中または送信中に送信がキャンセルされたか、エラーが発生しました。
 
    >[!NOTE]
    >
-   >メッセージの送信を確認する必要がある場合など、カードの上に黄色の通知バナーが表示される場合があります。
+   >アクションが必要な場合、例えばメッセージの送信を確認する必要がある場合などに、黄色の通知バナーがカードの上に表示されます。
 
