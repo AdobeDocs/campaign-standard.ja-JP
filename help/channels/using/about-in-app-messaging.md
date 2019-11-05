@@ -1,8 +1,6 @@
 ---
 title: アプリ内メッセージについて
-seo-title: アプリ内メッセージについて
-description: アプリ内メッセージについて
-seo-description: アプリ内メッセージを使用して、モバイルアプリ内でメッセージまたは警告を表示します。
+description: アプリ内メッセージを使用して、モバイルアプリ内でメッセージまたは警告を表示します。
 page-status-flag: 非活性化の
 uuid: 6784cdfc-6db9-41dd-9fbb-2e756a5bcb5f
 contentOwner: ソビア
@@ -15,7 +13,7 @@ context-tags: 配信，トリガー，戻る
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 96001355220a9dd0cd3851d3f7de9f4dc8ea2782
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
