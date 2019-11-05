@@ -1,8 +1,6 @@
 ---
 title: ファイルを読み込み
-seo-title: ファイルを読み込み
-description: ファイルを読み込み
-seo-description: 「ファイルを読み込み」アクティビティを使用すると、1つの構造化されたフォームにデータを読み込んで、このデータをAdobe Campaignで使用できます。
+description: 「ファイルを読み込み」アクティビティを使用すると、1つの構造化されたフォームにデータを読み込んで、このデータをAdobe Campaignで使用できます。
 page-status-flag: 非活性化の
 uuid: 69af12cc-6f82-4977-9f53-aa7bc26f5d7e
 contentOwner: ソビア
@@ -15,7 +13,7 @@ context-tags: fileImport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0c455e965d21996ffbadeddf336c6709ce8ee8f3
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
