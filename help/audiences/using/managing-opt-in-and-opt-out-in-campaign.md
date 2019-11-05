@@ -1,8 +1,6 @@
 ---
 title: キャンペーンのオプトインとオプトアウトの管理
-seo-title: キャンペーンのオプトインとオプトアウトの管理
-description: キャンペーンのオプトインとオプトアウトの管理
-seo-description: Adobe Campaignでのオプトインおよびオプトアウトの管理方法を説明します。
+description: Adobe Campaignでのオプトインおよびオプトアウトの管理方法を説明します。
 page-status-flag: 非活性化の
 uuid: aa1801ec-562b-420e-8d79-c07d066b7b1a
 contentOwner: ソビア
@@ -14,7 +12,7 @@ discoiquuid: 6b5680f2-bba9-453e-a0d5-8ca69dd02001
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
