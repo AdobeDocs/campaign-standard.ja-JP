@@ -1,8 +1,6 @@
 ---
 title: ホットクリック
-seo-title: ホットクリック
-description: ホットクリック
-seo-description: そのまま使用できるホットクリック数レポートを使用して、顧客が配信をクリックした場所を確認します。
+description: そのまま使用できるホットクリック数レポートを使用して、顧客が配信をクリックした場所を確認します。
 page-status-flag: 非活性化の
 uuid: 7ed49dd3-d7ee-466a-9a7b-d2aa16961667
 contentOwner: ソビア
@@ -15,7 +13,7 @@ context-tags: deliveryHotClicksReport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 159c33639ab7b53558dac2ce183c3801c15ccb0f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
