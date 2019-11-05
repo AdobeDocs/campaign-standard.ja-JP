@@ -1,8 +1,6 @@
 ---
-title: APIの拡張について
-seo-title: APIの拡張について
-description: APIの拡張について
-seo-description: null
+title: API の拡張について
+description: null
 page-status-flag: 非活性化の
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: ソビア
@@ -14,12 +12,12 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# APIの拡張について{#about-extending-the-api}
+# API の拡張について{#about-extending-the-api}
 
 この使用例は、パブリックプロファイルAPIのカスタムリソースプロファイルの拡張フィールドの詳細を示しています。 例えば、請求システムから生成されたプロモーションコードを使用して顧客のプロファイルを即時に更新する場合などです。
 
