@@ -1,8 +1,6 @@
 ---
 title: データベースの強化
-seo-title: データベースの強化
-description: データベースの強化
-seo-description: データベースを拡張する様々な方法について説明します。
+description: データベースを拡張する様々な方法について説明します。
 page-status-flag: 非活性化の
 uuid: 71f53808-0309-49f6-a4ee-3446eac9758a
 contentOwner: レメイト
@@ -14,7 +12,7 @@ discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2e114c4a9a6d6189c192ba72140a0e0b55f325ed
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
