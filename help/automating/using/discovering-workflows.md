@@ -1,8 +1,6 @@
 ---
 title: ワークフローの検索
-seo-title: ワークフローの検索
-description: ワークフローの検索
-seo-description: Adobe Campaignは、プロセスを設計および自動化するための包括的なグラフィカル環境を提供します。
+description: Adobe Campaignは、プロセスを設計および自動化するための包括的なグラフィカル環境を提供します。
 page-status-flag: 非活性化の
 uuid: 7c1e8cea-90d0-491f-ab8f-6cd69f8a6c3b
 contentOwner: ソビア
@@ -14,7 +12,7 @@ discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -39,7 +37,7 @@ Adobe Campaignは、セグメント化、キャンペ [ーンの実行](../../au
 **関連トピック：**
 
 * [ワークフローの運用原則](../../automating/using/workflow-operating-principles.md)
-* [データのインポートとエクスポートについて](../../automating/using/about-data-import-and-export.md)
+* [データインポートおよびエクスポートについて](../../automating/using/about-data-import-and-export.md)
 * [使用例：週に1回の電子メール配信の作成](../../automating/using/workflow-weekly-offer.md)
 * [使用例：場所でセグメント化された配信の作成](../../automating/using/workflow-segmentation-location.md)
 * [使用例：補完を含む配信の作成](../../automating/using/workflow-created-query-with-complement.md)
