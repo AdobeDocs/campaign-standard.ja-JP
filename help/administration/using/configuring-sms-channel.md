@@ -1,8 +1,6 @@
 ---
-title: SMSチャネルの設定
-seo-title: SMSチャネルの設定
-description: SMSチャネルの設定
-seo-description: 「SMSの構成手順を確認します。ルーティング、エンコード、形式および詳細なプロパティ。 "
+title: SMS チャネルの設定
+description: 「SMSの構成手順を確認します。ルーティング、エンコード、形式および詳細なプロパティ。 "
 page-status-flag: 非活性化の
 uuid: 5f13dbd5-9522-4199-8d9a-44c397cb2458
 contentOwner: ソビア
@@ -15,12 +13,12 @@ context-tags: extAccountMobile,overview;extAccount,main;delivery,smsContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0c455e965d21996ffbadeddf336c6709ce8ee8f3
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# SMSチャネルの設定{#configuring-sms-channel}
+# SMS チャネルの設定{#configuring-sms-channel}
 
 SMSメッセージを送信するには、管理者が[ &gt; ] &gt; [ ]メニューの下で1つまたは複数の外部アカウントを設 **[!UICONTROL Administration]** 定する **[!UICONTROL Channels]** 必要 **[!UICONTROL SMS]** があ **[!UICONTROL SMS accounts]** ります。
 
