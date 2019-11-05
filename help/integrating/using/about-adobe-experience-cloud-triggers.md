@@ -1,65 +1,63 @@
 ---
-title: Adobe Experience Cloud Triggersについて
-seo-title: Adobe Experience Cloud Triggersについて
-description: Adobe Experience Cloud Triggersについて
-seo-description: Adobe Analyticsの顧客から特定の行動を追跡することで、Adobe Campaignで顧客にパーソナライズされた電子メールを送信できるようになりました。
-page-status-flag: 常にアクティブ化されていない
-uuid: 0aa4bd6e-1bb5-4d0b-913b- eca93f050acd
-contentOwner: サウビート
-products: SG_ CAMPAIGN/STANDARD
+title: Adobe Experience Cloud Triggers について
+description: Adobe Analyticsを使用する顧客の特定の行動を追跡することで、Adobe Campaignで顧客にパーソナライズされた電子メールを送信できるようになりました。
+page-status-flag: 非活性化の
+uuid: 0aa4bd6e-1bb5-4d0b-913b-eca93f050acd
+contentOwner: ソビア
+products: SG_CAMPAIGN/STANDARD
 audience: 統合
 content-type: 参照
-topic-tags: working- with- campaign- and- trigger
-discoiquuid: e526b205-2d01-4a8b-9685- ba1d9a1a1f459f
-context-tags: トリガー、概要;トリガー、メイン
+topic-tags: キャンペーンとトリガーの連携
+discoiquuid: e526b205-2d01-4a8b-9685-ba1d9a1f459f
+context-tags: トリガー，概要；トリガー，メイン
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cb6396228e42f99f7e184a82e6c894b09a164cd9
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# About Adobe Experience Cloud Triggers{#about-adobe-experience-cloud-triggers}
+# Adobe Experience Cloud Triggers について{#about-adobe-experience-cloud-triggers}
 
 Integration between the Experience Cloud Activation core service **[!UICONTROL Triggers]** and Adobe Campaign allows you to send personalized emails to your customers as a reaction to specific behaviors that are tracked on your website by Adobe Analytics (within 15 minutes).
 
-Adobe Experience Cloudでは、様々なトリガー（例えば、Webサイトでの訪問を破棄した顧客、Webサイトでの訪問を破棄したが、購入しなかったクライアント、セッションが期限切れになったクライアントなど）を定義します。トリガーを作成するときに、トリガーの条件と、イベント（プロ広告）で送信されるデータをAdobe Campaignに定義します。
+Adobe Experience cloudでは、様々なトリガー（例えば、Webサイトでの訪問を放棄した顧客、Webサイトでの検索は行ったが購入は行わなかった顧客、セッションの期限が切れた顧客など）を定義します。 トリガーを作成する場合は、トリガーの条件と、イベントでAdobe Campaignに送信（アップロード）されるデータを定義します。
 
-Adobe Campaignでは、以前に作成したトリガーを選択し、イベントデータを使用してイベントデータを豊かにし、そのトリガーにリンクされているトランザクションメッセージテンプレートを定義します。例えば、クライアントがWebサイトに訪問したときに、イベントがAdobe Campaignに送信され、その後15分以内にクライアントに送信されるリマーケティング電子メール経由でこのイベントを利用できます。
+ Adobe Campaignでは、以前に作成したトリガーを選択し、イベントデータにデータマートデータを追加し、そのトリガーにリンクされたトランザクションメッセージテンプレートを定義します。 例えば、顧客がWebサイトでの訪問を中断した場合、イベントがAdobe Campaignに送信され、このイベントを利用できるリマーケティング用の電子メールがクライアントに送信されてから15分以内に発生します。
 
-**関連トピック:**
+**関連トピック：**
 
-* Learn about the different types of triggers: [Adobe Experience Cloud documentation](https://marketing.adobe.com/resources/help/en_US/mcloud/triggers.html).
-* Watch the [Trigger Remarketing Messages based on Site Activity](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two) video.
-* Discover our two [Abandonment Triggers use cases](../../integrating/using/abandonment-triggers-use-cases.md).
+* 様々なタイプのトリガーについて説明します。 [Adobe Experience cloudドキュメント](https://marketing.adobe.com/resources/help/en_US/mcloud/triggers.html)。
+* 「サイトアクティビティ [に基づくリマーケティングメッセージのトリガー](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two) 」のビデオをご覧ください。
+* 2つの中断トリガ [ーの使用例を発見します](../../integrating/using/abandonment-triggers-use-cases.md)。
 
-## Triggers user process {#triggers-user-process}
+## ユーザープロセスのトリガー {#triggers-user-process}
 
 >[!CAUTION]
 >
->メインユーザー手順を実行する前に、機能を設定する必要があります。For more on this refer to [Activating the functionality](../../integrating/using/configuring-triggers-in-experience-cloud.md#activating-the-functionality), [Configuring solutions and services](../../integrating/using/configuring-triggers-in-experience-cloud.md#configuring-solutions-and-services) and [Creating a mapped trigger in Campaign](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign).
+>メインユーザーの手順を実行する前に、機能を設定する必要があります。 この詳細については、「機能のアクテ [ィブ化](../../integrating/using/configuring-triggers-in-experience-cloud.md#activating-the-functionality)」、「ソリュ [ーションとサービスの設定](../../integrating/using/configuring-triggers-in-experience-cloud.md#configuring-solutions-and-services) 」、「Campaign [でのマッピングされたトリガーの作成](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign)」を参照してください。
 
-Adobe Campaignでは、ユーザープロセスの主な手順を次に示します。
+Adobe Campaignのユーザープロセスの主な手順は次のとおりです。
 
-1. 既存のAdobe Experience Cloudトリガーにリンクされているトリガーイベントを作成します。
+1. 既存のAdobe Experience cloudトリガーにリンクしたトリガーイベントを作成します。
 1. トリガーイベントを発行します。
 1. トランザクションメッセージテンプレートのコンテンツを定義します。
-1. テンプレートをテストします（テストプロファイルの作成と配達確認の送信）。
-1. トランザクションメッセージテンプレートを発行します。
+1. テンプレートをテストします（テストプロファイルを作成し、校正を送信します）。
+1. トランザクションメッセージテンプレートを公開します。
 
-Complete use cases are described in [this section](../../integrating/using/abandonment-triggers-use-cases.md).
+この節では、完全な使用例につ [いて説明します](../../integrating/using/abandonment-triggers-use-cases.md)。
 
-## Important notes {#important-notes}
+## 重要な注意事項 {#important-notes}
 
-Triggers- Campaign統合を使用する前に考慮すべき重要な注意事項を以下に示します。
+以下に、トリガー — Campaign統合を使用する前に考慮すべき重要な注意事項を示します。
 
-* プッシュ通知は、トリガーに対してはサポートされていません。電子メールとSMSのみがサポートされています。
-* 電子メールID、ページ名など、Analyticsでキャプチャされたメタデータを使用してトリガーを充実させることができます。
-* トリガーをキャンペーンStandardに保存されているプロファイルに調整し、プロファイルのフィールドを使用してメッセージをパーソナライズできます。
-* トリガーが受信されるとすぐに処理され、調整されて送信されます。受信トリガーの数（テンプレートで使用されるパーソナライゼーションフィールドの数）によって、約5~15分かかります。
+* プッシュ通知は、トリガーに対してはサポートされていません。 電子メールとSMSのみがサポートされます。
+* 電子メールID、ページ名など、Analyticsで取得したメタデータを使用して、トリガーを強化できます。
+* このトリガーをキャンペーン標準に保存されたプロファイルに調整し、プロファイルのフィールドを使用してメッセージをパーソナライズできます。
+* トリガーは、受け取るとすぐに処理され、調整され、送信されます。 受け取るトリガーの量、およびテンプレートで使用されるパーソナライゼーションフィールドの数に応じて、約5 ～ 15分かかります。
 
 >[!NOTE]
 >
->For more on best practices and technical limitations, refer to [Triggers best practices and limitations](../../integrating/using/configuring-triggers-in-experience-cloud.md#triggers-best-practices-and-limitations).
+>ベストプラクティスと技術的な制限の詳細については、「トリガーのベストプラク [ティスと制限」を参照してくださ](../../integrating/using/configuring-triggers-in-experience-cloud.md#triggers-best-practices-and-limitations)い。
 
