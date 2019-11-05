@@ -1,46 +1,44 @@
 ---
-title: Campaignとのメッセージの送信について
-seo-title: Campaignとのメッセージの送信について
-description: Campaignとのメッセージの送信について
-seo-description: 様々な手順を見つけて、メッセージをテストして送信します。
-page-status-flag: 常にアクティブ化されていない
-uuid: 58666444-6e7c-4049- b2d2-8b26eabf5a82
-contentOwner: サウビート
-products: SG_ CAMPAIGN/STANDARD
-audience: 送信中
+title: Campaign でのメッセージの送信について
+description: テストとメッセージの送信のための様々な手順を見つけます。
+page-status-flag: 非活性化の
+uuid: 5866644-6e7c-4049-b2d2-8b26eabf5a82
+contentOwner: ソビア
+products: SG_CAMPAIGN/STANDARD
+audience: 送信
 content-type: 参照
-topic-tags: about- sending- messages- with- campaign
-discoiquuid: ae2aba1c-24ad-4839- afa9-5a2975570d9b
+topic-tags: about-sending-messages-with-campaign
+discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# About sending messages with Campaign{#about-sending-messages-with-campaign}
+# Campaign でのメッセージの送信について{#about-sending-messages-with-campaign}
 
-ターゲットを定義し、メッセージのコンテンツを作成したら、テストして、メインターゲットに送信する前に承認する必要があります。これを行うには、次の手順に従います。
+ターゲットを定義し、メッセージのコンテンツを作成したら、メインターゲットに送信する前に、そのターゲットをテストして承認する必要があります。 手順は次のとおりです。
 
-* テストプロファイルを使用して、配信をプレビューします。
-* 送信のスケジュール設定:メッセージを送信するタイミングを定義します。
-* 送信の準備:この手順により、送信するメッセージの分析と準備を行うことができます。メッセージの準備によって、ターゲット、パーソナライゼーションおよびメッセージの有効性が分析されます。この手順中に検出されたエラーは、続行する前に修正する必要があります。メッセージの準備は必要な回数だけ開始できます。
+* テストプロファイルを使用して配信をプレビューします。
+* 送信のスケジュール：メッセージを送信するタイミングを定義します。
+* 送信の準備：この手順を使用すると、送信するメッセージの分析と準備に進むことができます。 メッセージ作成は、ターゲット、パーソナライゼーション、およびメッセージの妥当性を分析する。 この手順で検出されたエラーは、先に進む前に修正する必要があります。 メッセージの準備は、必要な回数だけ起動できます。
 
    >[!NOTE]
    >
-   >グローバルなクロスチャネルの疲労ルールを設定して、キャンペーンから余分なプロファイルを自動的に除外することができます。[疲労ルール](../../administration/using/fatigue-rules.md)を参照してください。
+   >キャンペーンから過剰に要求されるプロファイルを自動的に除外する、グローバルなチャネル間疲労ルールを設定できます。 疲労ル [ールを参照](../../administration/using/fatigue-rules.md)。
 
-* 送信をテストします。この手順により、配達確認を送信することでメッセージを承認できます。
-* 配信レンダリングの確認:様々なWebクライアント、Webメールおよびデバイスで、メッセージが最適な方法で表示されるようにしてください（強く推奨）。
-* メッセージを送信します。メッセージが準備されたら、送信を開始できます。その後、アクセスログとレポートを利用して、メッセージ配信を監視し、キャンペーンの成功を測定できます。Adobe Campaignでは、配信成功または失敗を追跡するための電子メール通知システムも提供しています。
+* 送信をテストします。この手順では、配達確認を送信してメッセージを承認できます。
+* 配信のレンダリングを確認します。様々なWebクライアント、Webメール、デバイスで最適な方法でメッセージが表示されるようにします（強くお勧めします）。
+* メッセージの送信：メッセージの準備が整ったら、送信を開始できます。 その後、アクセスログとレポートを使用して、メッセージ配信を監視し、キャンペーンの成功度を測定できます。 また、Adobe Campaignは、配信の成功または失敗を追跡する電子メールアラートシステムも提供します。
 
-**関連トピック**:
+**関連トピック**：
 
-* [メッセージのスケジュール設定について](../../sending/using/about-scheduling-messages.md)
+* [メッセージのスケジュールについて](../../sending/using/about-scheduling-messages.md)
 * [送信の準備](../../sending/using/preparing-the-send.md)
-* [テストプロファイルの管理と配達確認の送信](../../sending/using/managing-test-profiles-and-sending-proofs.md)
-* [電子メールレンダリング](../../sending/using/email-rendering.md)
+* [テストプロファイルの管理と校正の送信](../../sending/using/managing-test-profiles-and-sending-proofs.md)
+* [E メールのレンダリング](../../sending/using/email-rendering.md)
 * [エラー発生時のアラートの受信](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [配信品質の最適化](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_Deliverability.html)
 
