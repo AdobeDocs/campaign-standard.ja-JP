@@ -1,8 +1,6 @@
 ---
-title: Campaign-Audience ManagerまたはPeopleコアサービス統合について
-seo-title: Campaign-Audience ManagerまたはPeopleコアサービス統合について
-description: Campaign-Audience ManagerまたはPeopleコアサービス統合について
-seo-description: Audience ManagerとPeopleコアサービスの統合により、様々なAdobe Experience cloudソリューション内でオーディエンスやセグメントを共有できます。
+title: Campaign-Audience Manager または People コアサービス統合について
+description: Audience ManagerとPeopleコアサービスの統合により、様々なAdobe Experience cloudソリューション内でオーディエンスやセグメントを共有できます。
 page-status-flag: 非活性化の
 uuid: 39e3c78e-cccd-4823-afe9-abc7f8aef034
 contentOwner: ソビア
@@ -14,12 +12,12 @@ discoiquuid: bf718329-f181-46f7-80a2-b525a8dee46d
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8b4cf35fcbdee436ce3f9fa4aeb1b1fdd8609f50
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Campaign-Audience ManagerまたはPeopleコアサービス統合について{#about-campaign-audience-manager-or-people-core-service-integration}
+# Campaign-Audience Manager または People コアサービス統合について{#about-campaign-audience-manager-or-people-core-service-integration}
 
 Adobe Campaignを使用すると、様々なAdobe Experience cloudアプリケーションとオーディエンス/セグメントを交換および共有できます。 **Adobe Campaign** を **People コアサービス**（**Profiles &amp; Audiences コアサービス**&#x200B;とも呼ばれます）または Adobe Audience Manager と統合すると、次のことが可能になります。
 
