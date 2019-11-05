@@ -1,25 +1,23 @@
 ---
 title: プッシュ通知配信
-seo-title: プッシュ通知配信
-description: プッシュ通知配信
-seo-description: プッシュ通知配信アクティビティを使用すると、ワークフローで単一の送信プッシュ通知または定期的なプッシュ通知を送信できます。
-page-status-flag: 常にアクティブ化されていない
-uuid: 994d8fe3-29f0-4b5c-89ee- c6be7c60a31b
-contentOwner: サウビート
-products: SG_ CAMPAIGN/STANDARD
+description: プッシュ通知配信アクティビティを使用すると、ワークフロー内で1回の送信プッシュ通知または定期的なプッシュ通知を送信するように設定できます。
+page-status-flag: 非活性化の
+uuid: 994d8fe3-29f0-4b5c-89ee-c6be7c60a31b
+contentOwner: ソビア
+products: SG_CAMPAIGN/STANDARD
 audience: 自動化
 content-type: 参照
-topic-tags: チャネルアクティビティ
-discoiquuid: e61bdedee-4b48-4845- a2a5-574b577ea796
+topic-tags: チャネル活動
+discoiquuid: e61bdae-4b48-4845-a2a5-574b577ea796
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 36727e82d3aa73add6116fa2916752ff0e407d9d
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Push notification delivery{#push-notification-delivery}
+# プッシュ通知配信{#push-notification-delivery}
 
 ## 説明 {#description}
 
@@ -27,94 +25,94 @@ source-git-commit: 36727e82d3aa73add6116fa2916752ff0e407d9d
 
 ![](assets/recurrentpush.png)
 
-**[!UICONTROL Push notification]** アクティビティにより、ワークフローでプッシュ通知を送信することができます。This can be a **single send** notification and sent just once, or it can be a **recurring** notification.
+アクティビテ **[!UICONTROL Push notification]** ィを使用すると、ワークフローでプッシュ通知を送信するように設定できます。 1回の送信通知で1 **回だけ送信する** か **、繰り返し送信することがで** きます。
 
-単一の送信通知は、標準モバイルアプリプッシュ通知配信で、1回送信されます。
+単一送信通知は、1回送信される、標準的なモバイルアプリのプッシュ通知配信です。
 
-定期的な通知を使用すると、定義済みの期間にわたって、同じモバイルアプリプッシュ通知配信を複数回のターゲットに送信できます。期間ごとの配信を集計して、ニーズに対応するレポートを取得できます。
+定期的な通知を使用すると、同じモバイルアプリのプッシュ通知配信を、定義した期間に異なるターゲットに複数回送信できます。 ニーズに合ったレポートを取得するために、期間ごとに配信を集計できます。
 
-## Context of use {#context-of-use}
+## 使用状況 {#context-of-use}
 
-**[!UICONTROL Push notification]** このアクティビティは、通常、同じワークフローで計算されたターゲットに通知を送信するために使用されます。
+The **[!UICONTROL Push notification]** activity is generally used to automate sending a notification to a target calculated in the same workflow.
 
-スケジューラーにリンクすると、定期的なプッシュ通知を定義できます。
+スケジューラーにリンクされている場合、定期的なプッシュ通知を定義できます。
 
-クエリ、交差などのターゲットアクティビティを介して、同じワークフロー内のアクティビティのアップストリームが定義されます。
+受信者は、クエリー、交差などのターゲットアクティビティを介して、同じワークフロー内のアクティビティの上流に定義されます。
 
-メッセージの実行パラメーターに従ってメッセージの準備がトリガーされます。メッセージダッシュボードから、メッセージを送信するかどうかを手動で確認できます（デフォルトで必須）。ワークフローを手動で開始することも、ワークフローにスケジューラーアクティビティを配置して実行を自動化することもできます。
+メッセージ準備は、ワークフロー実行パラメータに従ってトリガされる。 メッセージダッシュボードから、手動でメッセージを送信する確認を要求するかどうかを選択できます（デフォルトでは必須）。 ワークフローは、手動で開始するかまたはワークフロー内にスケジューラーアクティビティを置いて自動的に実行させます。
 
-## Configuration {#configuration}
+## 設定 {#configuration}
 
-1. Drag and drop a **[!UICONTROL Push notification]** activity into your workflow.
-1. Select the activity, then open it using the ![](assets/edit_darkgrey-24px.png) button from the quick actions that appear.
+1. アクティビティをワークフロー **[!UICONTROL Push notification]** にドラッグ&amp;ドロップします。
+1. アクティビティを選択し、表示されるクイックアクシ ![](assets/edit_darkgrey-24px.png) ョンのボタンを使用して開きます。
 
    >[!NOTE]
    >
-   >You can access the general properties and advanced options of the activity (and not of the delivery itself) via the ![](assets/dlv_activity_params-24px.png) button from the activity's quick actions. This button is specific to the **[!UICONTROL Push notification]** activity. プッシュ通知のプロパティには、プッシュダッシュボードのアクションバーを使用してアクセスできます。
+   >アクティビティのクイックアクションのボタンを使用して、アクティビティの一般的なプロパティと詳細なオプション（配信自体ではなく） ![](assets/dlv_activity_params-24px.png) にアクセスできます。 このボタンは、アクティビティに固有 **[!UICONTROL Push notification]** です。 プッシュ通知のプロパティは、プッシュダッシュボードのアクションバーからアクセスできます。
 
 1. プッシュ通知送信モードを選択します。
 
-   * **[!UICONTROL Single notification]**:プッシュ通知が1回送信されます。アクティビティにアウトバウンドトランジションを追加するかどうかを指定できます。この手順の手順7では、様々な移行タイプについて説明しています。
-   * **[!UICONTROL Recurring notification]**:アクティビティに定義された頻度に応じて、プッシュ通知が数回送信 **[!UICONTROL Scheduler]** されます。送信の集計期間を選択します。This allows you to regroup all the sends that occur during the defined period in one single push notification that is also called **recurring execution** and can be accessed from the application's marketing activity list.
+   * **[!UICONTROL Single notification]**:プッシュ通知は1回だけ送信されます。 アクティビティにアウトバウンド遷移を追加するかどうかを指定できます。 異なる移行タイプについては、この手順の手順7で説明します。
+   * **[!UICONTROL Recurring notification]**:プッシュ通知は、アクティビティで定義された頻度に従って、複数回送信され **[!UICONTROL Scheduler]** ます。 送信の集計期間を選択します。 これにより、定義した期間に発生したすべての送信を、1回の単一のプッシュ通知で再グループ化できます。この通知は、繰り返し実行とも呼ばれ **** 、アプリのマーケティングアクティビティリストからアクセスできます。
 
-      例えば、定期的に誕生日の通知を送信する場合、毎月送信するように選択できます。これにより、毎日通知が送信されるのに対して、レポートを毎月配信することができます。
+      例えば、誕生日の通知を毎日繰り返し送信する場合、1か月あたりの送信を集計するように選択できます。 これにより、通知が毎日送信されるにもかかわらず、毎月配信されるレポートを受け取ることができます。
 
-1. 通知タイプを選択します。These types come from push notifications templates defined in the **[!UICONTROL Resources]** &gt; **[!UICONTROL Templates]** &gt; **[!UICONTROL Delivery templates]** menu.
-1. プッシュ通知の一般プロパティを入力します。既存のキャンペーンにも添付できます。ワークフローの配信アクティビティのラベルが、プッシュ通知ラベルで更新されます。
-1. プッシュ通知コンテンツを定義します。See [Creating a push notification](../../channels/using/preparing-and-sending-a-push-notification.md)
-1. By default, the **[!UICONTROL Push notification]** activity does not include any outbound transitions. If you would like to add an outbound transition to your **[!UICONTROL Push Notification]** activity, go to the **[!UICONTROL General]** tab of the advanced activity options ( ![](assets/dlv_activity_params-24px.png) button in the activity's quick actions) then check one of the following options:
+1. 通知タイプを選択します。 これらのタイプは、//メニューで定義されたプッシュ通知テ **[!UICONTROL Resources]** ンプレ **[!UICONTROL Templates]** ートにあ **[!UICONTROL Delivery templates]** ります。
+1. プッシュ通知の一般的なプロパティを入力します。 また、既存のキャンペーンに添付することもできます。 ワークフローの配信アクティビティのラベルがプッシュ通知ラベルで更新されます。
+1. プッシュ通知のコンテンツを定義します。 プッシュ [通知の作成を参照してください。](../../channels/using/preparing-and-sending-a-push-notification.md)
+1. デフォルトでは、アクティビティ **[!UICONTROL Push notification]** にはアウトバウンド遷移は含まれません。 アクティビティにアウトバウンド遷移を追加する場合は、アクティビティのアドバンスアクティビティオプション **[!UICONTROL Push Notification]** （アクティビティのクイックアクションのボタン）のタブに移動し、次のいず **[!UICONTROL General]**![](assets/dlv_activity_params-24px.png) れかのオプションをオンにします。
 
-   * **[!UICONTROL Add outbound transition without the population]**:これにより、インバウンドトランジションとまったく同じ訪問者を含むアウトバウンドトランジションを生成できます。
-   * **[!UICONTROL Add outbound transition with the population]**:これにより、通知が送信された母集団を含むアウトバウンドトランジションを生成できます。配信準備中に除外されたターゲットのメンバーは、この移行から除外されます。
+   * **[!UICONTROL Add outbound transition without the population]**:これにより、インバウンドトランジションと完全に同じ母集団を含むアウトバウンドトランジションを生成できます。
+   * **[!UICONTROL Add outbound transition with the population]**:これにより、通知の送信先の母集団を含むアウトバウンド移行を生成できます。 配信準備中に除外されたターゲットのメンバーは、この移行から除外されます。
 
 1. アクティビティの設定を確認し、ワークフローを保存します。
 
-アクティビティを再度開くと、プッシュ通知ダッシュボードに直接移動します。編集できるのはコンテンツのみです。
+アクティビティを再度開くと、プッシュ通知ダッシュボードに直接移動します。 編集できるのは、そのコンテンツのみです。
 
-デフォルトでは、配信ワークフローを開始すると、メッセージの準備のみが開始されます。ワークフローを開始した後でもワークフローから作成されたメッセージを送信する必要があります。But from the message dashboard, and only if the message was created from a workflow, you can disable the **[!UICONTROL Request confirmation before sending messages]** option. このオプションのチェックを解除すると、準備が完了すると、それ以上通知なしでメッセージが送信されます。
+デフォルトでは、配信ワークフローを開始すると、メッセージの準備のみがトリガーされます。 ワークフローを開始した後も、ワークフローから作成されたメッセージの送信を確認する必要があります。 ただし、メッセージのダッシュボードからは、メッセージがワークフローから作成された場合にのみ、このオプションを無効にで **[!UICONTROL Request confirmation before sending messages]** きます。 このオプションのチェックを外すと、準備が完了した後、通知なしでメッセージが送信されます。
 
 ## Remarks {#remarks}
 
-ワークフロー内で作成された配信は、アプリケーションのマーケティングアクティビティリストからアクセスできます。ダッシュボードを使用して、ワークフローの実行ステータスを表示できます。プッシュ通知サマリペインのリンクを使用すると、リンクされた要素（ワークフロー、キャンペーンなど）に直接アクセスできます。
+ワークフロー内で作成された配信は、アプリのマーケティングアクティビティリストでアクセスできます。 ダッシュボードを使用して、ワークフローの実行ステータスを表示できます。 プッシュ通知の概要ウィンドウ内のリンクを使用すると、リンクされた要素（ワークフロー、キャンペーンなど）に直接アクセスできます。
 
-In the parent deliveries, which can be accessed from the marketing activity list, you can view the total number of sends that have been processed (according to the aggregation period specified when the **[!UICONTROL Push notification]** activity was configured). To do this, open the detail view of the parent delivery's **[!UICONTROL Deployment]** block by selecting ![](assets/wkf_dlv_detail_button.png).
+マーケティングアクティビティリストからアクセスできる親配信では、（アクティビティの設定時に指定された集計期間に従って）処理された送信の総数を **[!UICONTROL Push notification]** 表示できます。 これを行うには、を選択して親配信のブロックの詳細ビュー **[!UICONTROL Deployment]** を開きます ![](assets/wkf_dlv_detail_button.png)。
 
-## Sending a recurring push notification with a workflow {#sending-a-recurring-push-notification-with-a-workflow}
+## ワークフローを使用した定期的なプッシュ通知の送信 {#sending-a-recurring-push-notification-with-a-workflow}
 
 ![](assets/wkf_push_example_1.png)
 
-この例では、パーソナライズされたプッシュ通知が、月の最初の日ごとに、タイムゾーンに応じてモバイルアプリケーションの購読者に送信されます。これを行うには、次の手順に従います。
+この例では、パーソナライズされたプッシュ通知が月の初日の午後8時に、タイムゾーンに応じてモバイルアプリケーションの購読者に送信されます。 手順は次のとおりです。
 
-1. **[!UICONTROL Scheduler]** このアクティビティでは、配信開始前のワークフロー日を開始して、指定したタイムゾーンにあるすべての加入者に通知を送信できます。
+1. アクティビテ **[!UICONTROL Scheduler]** ィを使用すると、配信開始前のワークフロー日数を開始し、任意のタイムゾーンの午後8時に各加入者に通知を送信できます。
 
-   * **[!UICONTROL Execution frequency]** フィールドで「毎月」を選択します。
-   * Select 8 pm in the **[!UICONTROL Time]** field.
-   * 毎月配信する日を選択します。
-   * ワークフローの開始日を少なくとも1日前に選択します。そうしないと、選択した時刻が既にタイムゾーンで渡されている場合、一部の受信者が1日後にメッセージを受信することがあります。
-   * **[!UICONTROL Execution options]** タブで、ワークフローがフィールドで **[!UICONTROL Time zone]** 開始するタイムゾーンを選択します。ここでは、例えば、ワークフローが午後8時の午後8時から1週間前に開始し、該当するタイムゾーンすべてに対して配信が作成されるまでに時間がかかることがあります。
+   * フィールド **[!UICONTROL Execution frequency]** で「月別」を選択します。
+   * フィールドで[午後8時]を選択 **[!UICONTROL Time]** します。
+   * 毎月の配信日を選択します。
+   * ワークフローの開始日を選択します。配信を開始する1日以上前の日付を選択します。 そうしないと、選択した時間が既にタイムゾーンに含まれている場合は、1日後にメッセージを受け取る受信者もいます。
+   * タブで、 **[!UICONTROL Execution options]** ワークフローを開始するタイムゾーンをフィールドで選択し **[!UICONTROL Time zone]** ます。 例えば、ワークフローは太平洋標準時の午後8時（月の初日の1週間前）に開始され、該当するすべてのタイムゾーンに対して配信を作成できる時間が与えられます。
    ![](assets/wkf_push_example_5.png)
 
-1. **クエリ** アクティビティを使用すると、20~30歳のユーザーをターゲットにし、モバイルアプリケーションを購読していて、送信した電子メールを開かなかったユーザーをターゲットにすることができます。
+1. **Query** アクティビティでは、20 ～ 30歳のVIP顧客（モバイルアプリケーションを購読し、送信した電子メールを開かなかった顧客）をターゲットに設定できます。
 
-   * オーディエンス（VIPユーザー）を選択し、年齢をフィルターします。
-   * Drag and drop the **Subscriptions to an application** element into the workspace. Select **Exists** and select the mobile application that you want to use.
+   * オーディエンス（VIPのお客様）を選択し、年齢に基づいてフィルターを適用します。
+   * 購読をアプリ要素にド **ラッグ&amp;ドロップし** 、ワークスペースに入れます。 「存 **在する** 」を選択し、使用するモバイルアプリケーションを選択します。
    * 顧客に送信した電子メールを選択します。
-   * **配信ログ（ログ）** エレメントをワークスペースにドラッグ&amp;ドロップし、 **「存在する」** を選択して電子メールを受信したすべての顧客をターゲットにします。
-   * **トラッキングログ（トラッキング）** エレメントをワークスペースにドラッグ&amp;ドロップし、電子メールを開かなかったすべての顧客をターゲットにするために「 **存在** しない」を選択します。
+   * 配信ログ（ログ）要素 **をワークスペースにドラッグ&amp;ドロップし****** 、「存在する」を選択して、電子メールを受け取ったすべての顧客をターゲットにします。
+   * 追跡ログ（追跡）要素 **をワークスペースにドラッグ&amp;ドロップし、「存在しない****** 」を選択して、電子メールを開かなかったすべての顧客をターゲットにします。
 
       ![](assets/wkf_push_example_2.png)
 
-1. **プッシュ通知** アクティビティでは、メッセージの内容を入力し、使用するパーソナライゼーションフィールドを選択できます。
+1. プッシュ **通知アクティビティでは** 、メッセージの内容を入力し、使用するパーソナライゼーションフィールドを選択できます。
 
-   * **[!UICONTROL Recurring notification]** このオプションを選択します。
-   * プッシュ通知コンテンツを定義します。For more information on push notification content, refer to this [section](../../channels/using/preparing-and-sending-a-push-notification.md).
-   * **[!UICONTROL Schedule]** ブロック内で、を選択 **[!UICONTROL Messages to be sent automatically on the time zone specified below]**&#x200B;します。Here, we chose the **[!UICONTROL Time zone of the contact date]** Pacific as in the workflow **[!UICONTROL Scheduler]**.
-   * **[!UICONTROL Optimize the sending time per recipient]** フィールドで、を選択 **[!UICONTROL Send at the recipient's time zone]**&#x200B;します。
+   * オプションを選 **[!UICONTROL Recurring notification]** 択します。
+   * プッシュ通知のコンテンツを定義します。 プッシュ通知の内容について詳しくは、この節を参照してく [ださい](../../channels/using/preparing-and-sending-a-push-notification.md)。
+   * ブロック内で、 **[!UICONTROL Schedule]** を選択しま **[!UICONTROL Messages to be sent automatically on the time zone specified below]**&#x200B;す。 ここでは、ワークフローで **[!UICONTROL Time zone of the contact date]** 「太平洋」を選択しま **[!UICONTROL Scheduler]**&#x200B;す。
+   * フィールド **[!UICONTROL Optimize the sending time per recipient]** で、を選択しま **[!UICONTROL Send at the recipient's time zone]**&#x200B;す。
 
       ![](assets/wkf_push_example_4.png)
 
-1. Click the **[!UICONTROL Start]** button to start your recurring workflow.
+1. ボタンをクリッ **[!UICONTROL Start]** クして、定期的なワークフローを開始します。
 
    ![](assets/wkf_push_example_3.png)
 
-ワークフローが実行されるようになりました。It will start at the chosen start date of the **[!UICONTROL Scheduler]** at 8 pm Pacific time, the recurring push will then be sent every first day of the month at 8 pm depending on the customers time zone.
+ワークフローが実行されています。 選択した開始日の太平洋標準時の午後8時に開始し、月の初日の午後8時に定期的なプッシュが顧客のタイムゾーンに応じて送信されます。 **[!UICONTROL Scheduler]**
