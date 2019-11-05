@@ -1,37 +1,35 @@
 ---
-title: プレーンテキストモードとHTMLモード
-seo-title: プレーンテキストモードとHTMLモード
-description: プレーンテキストモードとHTMLモード
-seo-description: プレーンテキストモードとHTMLモードの検出
-page-status-flag: 未活性化の
+title: プレーンテキストと HTML モード
+description: プレーンテキストモードとHTMLモードの確認
+page-status-flag: 非活性化の
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
-contentOwner: サウビア
+contentOwner: ソビア
 products: SG_CAMPAIGN/STANDARD
 audience: 設計
 content-type: 参照
-topic-tags: 編集，電子メールの内容
+topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
-internal: 〜の
-snippet: イー
+internal: n
+snippet: y
 translation-type: tm+mt
-source-git-commit: 2045c69398902a8e942e20c70287d7f3e9570837
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# プレーンテキストモードとHTMLモード {#plain-text-and-html-modes}
+# プレーンテキストと HTML モード {#plain-text-and-html-modes}
 
 ## 電子メールのテキストバージョンの生成 {#generating-a-text-version-of-the-email}
 
-既定では、電子メ **[!UICONTROL Plain text]** ールのバージョンは自動的に生成され、バージョンと同期さ **[!UICONTROL Edit]** れます。
+デフォルトでは、電子メ **[!UICONTROL Plain text]** ールのバージョンは自動的に生成され、バージョンと同期さ **[!UICONTROL Edit]** れます。
 
-また、HTMLバージョンに追加されたパーソナライズ·フィールドやコンテンツ·ブロックも、プレーン·テキスト·バージョンと同期されます。
+HTMLバージョンに追加されたパーソナライゼーションフィールドとコンテンツブロックもプレーンテキストバージョンと同期されます。
 
 >[!NOTE]
 >
->プレーンテキストバージョンのコンテンツブロックを使用するには、HTMLコードが含まれていないことを確認します。
+>プレーンテキストバージョンでコンテンツブロックを使用する場合は、HTMLコードが含まれていないことを確認します。
 
-HTMLバージョンとは異なるプレーンテキストバージョンを使用する場合は、電子メールのビューから切り替えをクリッ **[!UICONTROL Sync with HTML]** クして、この同期を **[!UICONTROL Plain text]** 無効にすることができます。
+HTMLバージョンとは異なるプレーンテキストバージョンを使用するには、電子メールの表示から切り替えボタンをクリックし **[!UICONTROL Sync with HTML]** て、この同期を無 **[!UICONTROL Plain text]** 効にすることができます。
 
 ![](assets/email_designer_textversion.png)
 
@@ -39,22 +37,22 @@ HTMLバージョンとは異なるプレーンテキストバージョンを使�
 
 >[!NOTE]
 >
->同期が無効になっ **[!UICONTROL Plain text]****[!UICONTROL Sync with HTML]** ている間にバージョンを編集する場合、次にこのオプションを有効にしたときに、プレーンテキストバージョンで行った変更はすべてHTMLバージョンに置き換えられます。 ビューで行った変 **[!UICONTROL Plain text]** 更は、ビューには反映され **[!UICONTROL HTML]** ません。
+>同期が無効な間に **[!UICONTROL Plain text]** バージョンを編集する場合、次回このオプションを有効にすると、プレーンテキストバージョンで行ったすべての変更が **[!UICONTROL Sync with HTML]** HTMLバージョンに置き換えられます。 ビューで行った変 **[!UICONTROL Plain text]** 更をビューに反映でき **[!UICONTROL HTML]** ません。
 
 ## HTMLでの電子メールコンテンツソースの編集 {#editing-an-email-content-source-in-html}
 
-最も高度なユーザーとデバッグを行う場合は、電子メールの内容をHTMLで直接表示および編集できます。
+最も上級のユーザーおよびデバッグの場合は、電子メールコンテンツをHTMLで直接表示および編集できます。
 
 電子メールのHTMLバージョンを編集するには、次の2つの方法があります。
 
-* 「&gt;」を選 **[!UICONTROL Edit]** 択し **[!UICONTROL HTML]** て、電子メール全体のHTMLバージョンを開きます。
+* /を選 **[!UICONTROL Edit]** 択し **[!UICONTROL HTML]** て、電子メール全体のHTMLバージョンを開きます。
 
    ![](assets/email_designer_html1.png)
 
-* WYSIWYGインタフェースから要素を選択し、アイコンをクリック **[!UICONTROL Source code]** します。
+* WYSIWYGインターフェイスで、要素を選択し、アイコンをクリック **[!UICONTROL Source code]** します。
 
-   選択した要素のソースのみが表示されます。 選択した要素がコンテンツコンポーネントの場合は、ソースコードを編 **[!UICONTROL HTML]** 集できます。 その他のコンポーネントは読み取り専用モードですが、電子メールの完全なHTMLバージョンで編集できます。
+   選択した要素のソースのみが表示されます。 選択した要素がコンテンツコンポーネントの場合は、ソースコードを編 **[!UICONTROL HTML]** 集できます。 その他のコンポーネントは読み取り専用モードですが、電子メールの完全なHTMLバージョンでは編集できます。
 
    ![](assets/email_designer_html2.png)
 
-コードをHTMLに変更すると、電子メールの応答性が失われる可能性があります。 ボタンを使って必ずテストしてく **[!UICONTROL Preview]** ださい。 メッセージのプ [レビューを参照してくださ](../../sending/using/previewing-messages.md)い。
+HTMLをコードに変更すると、電子メールの応答性が損なわれる可能性があります。 ボタンを使用してテストを行ってく **[!UICONTROL Preview]** ださい。 詳しくは、メッ [セージのプレビューを参照してくださ](../../sending/using/previewing-messages.md)い。
