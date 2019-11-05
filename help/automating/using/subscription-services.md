@@ -1,8 +1,6 @@
 ---
 title: 購読サービス
-seo-title: 購読サービス
-description: 購読サービス
-seo-description: 購読サービスアクティビティでは、プロファイルを一括で取得し、サービスに登録したり、サービスから登録解除したりできます。
+description: 購読サービスアクティビティでは、プロファイルを一括で取得し、サービスに登録したり、サービスから登録解除したりできます。
 page-status-flag: 非活性化の
 uuid: 56637024-15ab-4145-9c48-3fbd27ab8af8
 contentOwner: ソビア
@@ -15,7 +13,7 @@ context-tags: setOfService,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
