@@ -1,8 +1,6 @@
 ---
 title: エラー発生時のアラートの受信
-seo-title: エラー発生時のアラートの受信
-description: エラー発生時のアラートの受信
-seo-description: アラート管理システムの使用方法を説明します。
+description: アラート管理システムの使用方法を説明します。
 page-status-flag: 非活性化の
 uuid: a3ab733a-e3db-4adc-b930-cd4064b6dc1c
 contentOwner: ソビア
@@ -14,7 +12,7 @@ discoiquuid: 0766bd57-c5f1-4f56-ac84-e5a04d3819ec
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
