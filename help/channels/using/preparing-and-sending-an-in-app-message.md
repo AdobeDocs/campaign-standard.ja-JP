@@ -1,8 +1,6 @@
 ---
 title: アプリ内メッセージの準備と送信
-seo-title: アプリ内メッセージの準備と送信
-description: アプリ内メッセージの準備と送信
-seo-description: アプリ内メッセージを作成して、特定のコンテンツを持つアプリの購読者をターゲットにします。
+description: アプリ内メッセージを作成して、特定のコンテンツを持つアプリの購読者をターゲットにします。
 page-status-flag: 非活性化の
 uuid: a79b0466-8641-46cc-a70f-e4e839587bb2
 contentOwner: ソビア
@@ -15,7 +13,7 @@ context-tags: 配信，トリガー，戻る；配信の作成，ウィザード
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -126,7 +124,7 @@ Adobe Campaignでスタンドアロンのアプリ内メッセージを作成す
 
    ![](assets/inapp_creating_5.png)
 
-1. メッセージの内容を編集し、アドバンスオプションを定義します。 詳しくは、 [アプリ内メッセージのカスタマイズを参照してください](https://helpx.adobe.com/campaign/standard/channels/using/customizing-a-push-notification.html)。
+1. メッセージの内容を編集し、アドバンスオプションを定義します。 See [Customizing an In-App message](https://helpx.adobe.com/campaign/standard/channels/using/customizing-a-push-notification.html).
 
    ![](assets/inapp_creating_6.png)
 
