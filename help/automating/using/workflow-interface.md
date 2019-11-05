@@ -1,8 +1,6 @@
 ---
 title: ワークフローインターフェイス
-seo-title: ワークフローインターフェイス
-description: ワークフローインターフェイス
-seo-description: ワークフローを作成、編集、実行するためのインターフェイスとオプションについて説明します。
+description: ワークフローを作成、編集、実行するためのインターフェイスとオプションについて説明します。
 page-status-flag: 非活性化の
 uuid: aafe33ed-fa07-4dd9-825e-242099334f1a
 contentOwner: ソビア
@@ -15,7 +13,7 @@ context-tags: ワークフロー，メイン；ワークフロー，概要
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
