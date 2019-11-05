@@ -1,63 +1,61 @@
 ---
 title: リストの書き出し
-seo-title: リストの書き出し
-description: リストの書き出し
-seo-description: 'Adobe Campaignでは、リストとして表示されたデータを、将来使用できるようにファイル内で直接ファイルに書き出すことができます。 '
-page-status-flag: 常にアクティブ化されていない
-uuid: c64fe706- bd6e-4746-958e- f94226f4e2cb
-contentOwner: サウビート
-products: SG_ CAMPAIGN/STANDARD
+description: 'Adobe Campaignを使用すると、リストとして表示されたデータを概要画面から直接ファイルにエクスポートし、将来の使用に備えることができます。 '
+page-status-flag: 非活性化の
+uuid: c64fe706-bd6e-4746-958e-f94226f4e2cb
+contentOwner: ソビア
+products: SG_CAMPAIGN/STANDARD
 audience: 自動化
 content-type: 参照
-topic-tags: importing- and- exporting- data
-discoiquuid: 12c874da-435f-44b6- a3c8-873301e177cc
+topic-tags: データのインポート/エクスポート
+discoiquuid: 12c874da-435f-44b6-a3c8-873301e177cc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 36727e82d3aa73add6116fa2916752ff0e407d9d
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Exporting lists{#exporting-lists}
+# リストの書き出し{#exporting-lists}
 
-Adobe Campaignでは、後で使用するためにリストをファイル内で直接書き出すことができます。Exporting a list in a file generates a log entry in the **[!UICONTROL Export audits]** menu. For more information on export audits, refer to the [Auditing exports](../../administration/using/auditing-export-logs.md) section.
+Adobe Campaignでは、リストをファイルに直接エクスポートして、将来的に使用できます。 ファイル内のリストを書き出すと、メニューにログエントリが生成さ **[!UICONTROL Export audits]** れます。 エクスポート監査の詳細については、「エクスポートの監査 [](../../administration/using/auditing-export-logs.md) 」を参照してください。
 
-The export list option allows you to export a maximum of 100,000 lines by default and defined by the **Nms_ExportListLimit** option. This option can be managed by the functional administrator, under the **[!UICONTROL Administration]** &gt; **[!UICONTROL Application settings]** &gt; **[!UICONTROL Options]** menu.
+書き出しリストオプションを使用すると、デフォルトで100,000行まで書き出すことができ、 **Nms_ExportListLimit** オプションで定義できます。 このオプションは、機能管理者が//メニューの下で管 **[!UICONTROL Administration]** 理で **[!UICONTROL Application settings]** き **[!UICONTROL Options]** ます。
 
-Export list is available in all the screens that have a **List** mode view, for users with the **[!UICONTROL EXPORT (export)]** role.
+書き出しリストは、ロールを持つユーザーに対して、リス **トモード** ビューを持つすべての画面で使用で **[!UICONTROL EXPORT (export)]** きます。
 
-1. Go to your chosen **List** screen. For example, the test profile overview screen ( **[!UICONTROL Profiles & audiences]** &gt; **[!UICONTROL Test profiles]** ).
-1. Check that the screen is in **List** mode.
+1. 選択したリスト画面に **移動** 。 例えば、テストプロファイルの概要画面( **[!UICONTROL Profiles & audiences]** &gt; **[!UICONTROL Test profiles]** )。
+1. 画面がリストモードになっていることを **確認します** 。
 
    ![](assets/export_list_mode_switch.png)
 
-1. Organize the columns in the list in the order that you want to export them using the **[!UICONTROL Configure list]** button, in the top right corner. 設定済みの列に加えて、リソースのプライマリキーもエクスポートされます。
-1. 必要に応じて、フィルターを適用できます。これを行うには、左上隅のボタンをクリックして検索ペインを表示します。
+1. リストの列を、右上隅のボタンを使用して、書き出す **[!UICONTROL Configure list]** 順序に整理します。 設定済みの列に加えて、リソースの主キーもエクスポートされます。
+1. 必要に応じて、フィルターを適用できます。 これを行うには、左上隅のボタンをクリックして検索ペインを表示します。
 
-   異なるリソースを含むリストからエクスポートを実行する場合、リストに1つのリソースしか表示されないようにフィルターを適用する必要があります。
+   異なるリソースを含むリストからエクスポートする場合は、1種類のリソースのみがリストに表示されるようにフィルタを適用する必要があります。
 
 1. 必要に応じて、選択した列を並べ替えます。
-1. Select the export button ![](assets/exportlistbutton.png).
+1. 書き出しボタンを選択しま ![](assets/exportlistbutton.png)す。
 
-   エクスポートを確認するポップアップが表示されます。エクスポートを確認すると、ファイルが自動的にコンピューターにダウンロードされます。
+   書き出しを確認するポップアップが表示されます。 書き出しを確認すると、ファイルが自動的にコンピューターにダウンロードされます。
 
-ファイルはCSV形式で生成されますが、iOSではエクスポートが実行されます（この場合、ファイル生成はTXT形式になります）。エクスポートされたリソースとエクスポート日に従って名前が付けられます。次に例を示します。profileBase_20150426_120253. csvという名前は、2015年4月26日26日26日（12:02:53）のプロファイルエクスポートに適用されます。これはUTF-8形式でエンコードされます。
+iOSでエクスポートを実行しない限り、ファイルはCSV形式で生成されます。この場合、生成されるファイルはTXT形式です。 この名前は、エクスポートされたリソースとエクスポート日に従って付けられます。 例：profilebase_20150426_120253.csvという名前は、2015年4月26日の12:02:53に実行されるプロファイルエクスポートに適用されます。 UTF-8形式でエンコードされます。
 
-数値および日付は、エクスポートを実行するユーザーのローカル時間（ロケール）を考慮します。次に例を示します。DD- MM- YYYYまたはMM- DD- YYYY。
+数値と日付は、エクスポートを実行するユーザーのローカル時間（ロケール）を考慮に入れます。 例：DD-MM-YYYYまたはMM-DD-YYYY。
 
-これより大きいエクスポートを実行するには、専用ワークフローを作成する必要があります。[「ファイルの抽出](../../automating/using/extract-file.md) 」セクションを参照してください。
+これよりも大きい書き出しを実行するには、専用のワークフローを作成する必要があります。 「ファイルの抽出」の節 [を参照してください](../../automating/using/extract-file.md) 。
 
 **例**
 
-次に、以下に定義したプロファイルリストからエクスポートする例を示します。
+次の例は、以下に定義したプロファイルリストから実行されるエクスポートです。
 
-* 表示される列:姓、名、生年月日、電子メールアドレス。
+* 表示される列（順番）:姓、名、生年月日、電子メールアドレス。
 * 名前はアルファベット順に並べ替えられます。
 
 ![](assets/export_list_example1.png)
 
-生成されたファイルは、次のように表示されます（最初の10件のレコード）。
+生成されるファイルは、次のように表示されます（最初の10件のレコードに対して）。
 
 ```
 Last name;First name;Birth date;Email;Zip code
@@ -73,9 +71,9 @@ Adama;Pascal;22/01/1990 01:00:00;adapascal@mailtest.com;75012
 Adama;Henry;22/09/1992 02:00:00;henry.adama@mail.com;64120
 ```
 
-**関連トピック:**
+**関連トピック：**
 
 * [役割](../../administration/using/list-of-roles.md)
 * [リストのカスタマイズ](../../start/using/customizing-lists.md)
-* [リストのビデオの設定](https://helpx.adobe.com/campaign/kt/acs/using/acs-configuring-a-list-feature-video-setup.html)
+* [リストビデオの設定](https://helpx.adobe.com/campaign/kt/acs/using/acs-configuring-a-list-feature-video-setup.html)
 
