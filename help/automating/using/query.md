@@ -1,8 +1,6 @@
 ---
 title: クエリ
-seo-title: クエリ
-description: クエリ
-seo-description: Queryアクティビティを使用すると、Adobe Campaignデータベースから要素の母集団をフィルターおよび抽出できます。
+description: Queryアクティビティを使用すると、Adobe Campaignデータベースから要素の母集団をフィルターおよび抽出できます。
 page-status-flag: 非活性化の
 uuid: b3c629fa-370e-481c-b347-fcf9f5a5e847
 contentOwner: ソビア
@@ -15,12 +13,12 @@ context-tags: query,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# クエリ {#query}
+# クエリ{#query}
 
 ## 説明 {#description}
 
