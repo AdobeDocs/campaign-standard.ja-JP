@@ -1,8 +1,6 @@
 ---
 title: フォローアップメッセージ
-seo-title: フォローアップメッセージ
-description: フォローアップメッセージ
-seo-description: フォローアップメッセージを作成して公開する方法を説明します。
+description: フォローアップメッセージを作成して公開する方法を説明します。
 page-status-flag: 非活性化の
 uuid: d2a17da2-e935-420a-8531-78ed6a1fe68b
 contentOwner: ソビア
@@ -14,7 +12,7 @@ discoiquuid: 9615e369-754f-4f6a-a1b1-14462f946666
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -127,5 +125,5 @@ source-git-commit: fad149d30d06f285a89f13e4c8bff20932297695
 
 >[!NOTE]
 >
->イベント設定の作成時にタ **[!UICONTROL Profile]** ーゲティングディメンションを選択した場合、フォローアップメッセージでもAdobe Campaignマーケティングデータベースが利用されます。 詳しくは、プロフ [ァイルトランザクションメッセージを参照してくださ](../../channels/using/profile-transactional-messages.md)い。
+>イベント設定の作成時にタ **[!UICONTROL Profile]** ーゲティングディメンションを選択した場合、フォローアップメッセージでもAdobe Campaignマーケティングデータベースが利用されます。 See [Profile transactional messages](../../channels/using/profile-transactional-messages.md).
 
