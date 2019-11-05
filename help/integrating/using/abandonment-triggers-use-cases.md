@@ -1,8 +1,6 @@
 ---
 title: 中断トリガーの使用例
-seo-title: 中断トリガーの使用例
-description: 中断トリガーの使用例
-seo-description: Experience Cloud Triggers統合をこれらの様々な使用例と組み合わせて使用する方法を説明します。
+description: Experience Cloud Triggers統合をこれらの様々な使用例と組み合わせて使用する方法を説明します。
 page-status-flag: 非活性化の
 uuid: 9e236165-afd5-4155-9151-c1941dc0af99
 contentOwner: ソビア
@@ -14,7 +12,7 @@ discoiquuid: 1b9aec5-70bb-4d72-a3e9-12342abf08f7
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
