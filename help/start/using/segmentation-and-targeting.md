@@ -1,8 +1,6 @@
 ---
-title: セグメント化とターゲット化
-seo-title: セグメント化とターゲット化
-description: セグメント化とターゲット化
-seo-description: 「Campaignでのプロファイル、ターゲット設定、オーディエンスの作成について説明します。オーディエンスを作成し、連絡先をインポートして、Experience cloudソリューションとオーディエンスを共有し、マーケティングの疲れを避けます。」
+title: セグメント化とターゲティング
+description: 「Campaignでのプロファイル、ターゲット設定、オーディエンスの作成について説明します。オーディエンスを作成し、連絡先をインポートして、Experience cloudソリューションとオーディエンスを共有し、マーケティングの疲れを避けます。」
 page-status-flag: 非活性化の
 uuid: 71f53808-0309-49f6-a4ee-3446eac9758a
 contentOwner: ソビア
@@ -14,12 +12,12 @@ discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# セグメント化とターゲット化{#segmentation-and-targeting}
+# セグメント化とターゲティング{#segmentation-and-targeting}
 
 ## プロファイル {#profiles}
 
