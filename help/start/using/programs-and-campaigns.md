@@ -1,107 +1,105 @@
 ---
 title: プログラムとキャンペーン
-seo-title: プログラムとキャンペーン
-description: プログラムとキャンペーン
-seo-description: Adobe Campaign、プログラムおよびキャンペーンでは、様々なマーケティングアクティビティをグループ化して管理できます。プログラムおよびキャンペーンに関するレポートを使用すると、その影響を分析できます。
-page-status-flag: 常にアクティブ化されていない
-uuid: fe2812a8-196f-4aba- a739- fbbfffd754cb
-contentOwner: サウビート
-products: SG_ CAMPAIGN/STANDARD
-audience: start
+description: Adobe Campaignでは、プログラムとキャンペーンを使用して、リンクされている様々なマーケティングアクティビティをグループ化し、調整できます。 プログラムとキャンペーンに関するレポートを使用して、その影響を分析できます。
+page-status-flag: 非活性化の
+uuid: fe2812a8-196f-4aba-a739-fbbfffd754cb
+contentOwner: ソビア
+products: SG_CAMPAIGN/STANDARD
+audience: 開始
 content-type: 参照
-topic-tags: マーケティングプラン
-discoiquuid: 21b84028- d1a7-4ad6-891a-862a94565514
-context-tags: campaign， overview;CampaignExplorer、main
+topic-tags: マーケティング・プラン
+discoiquuid: 21b84028-d1a7-4ad6-891a-862a94565514
+context-tags: campaign,overview;campaignExplorer,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cb6396228e42f99f7e184a82e6c894b09a164cd9
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Programs and campaigns{#programs-and-campaigns}
+# プログラムとキャンペーン{#programs-and-campaigns}
 
-## About plans, programs and campaigns {#about-plans--programs-and-campaigns}
+## プラン、プログラムおよびキャンペーンについて {#about-plans--programs-and-campaigns}
 
-Adobe Campaignでは、様々なタイプのアクティビティを作成および管理できるマーケティングキャンペーンを計画できます。電子メール、SMSメッセージ、プッシュ通知、ワークフロー、ランディングページこれらのキャンペーンとそのコンテンツをプログラムに収集できます。
+Adobe Campaignでは、様々なタイプのアクティビティを作成および管理できるマーケティングキャンペーンを計画できます。電子メール、SMSメッセージ、プッシュ通知、ワークフロー、ランディングページ。 これらのキャンペーンとそのコンテンツは、プログラムに収集できます。
 
-プログラムとキャンペーンを使用すると、再グループ化して、それらにリンクされている様々なマーケティングアクティビティを表示できます。
+プログラムとキャンペーンを使用すると、リンクされている様々なマーケティング活動を再グループ化して表示できます。
 
-* **プログラム** には、キャンペーン、ワークフロー、ランディングページなど他のプログラムを含めることができます。これはタイムラインに表示され、マーケティング活動の整理に役立ちます。国別、ブランド別、ブランド別、その他別に分けることができます。
-* **キャンペーン** を使用すると、1つのエンティティで選択したすべてのマーケティングアクティビティを収集できます。キャンペーンには、電子メール、SMS、プッシュ通知、ダイレクトメール、ワークフロー、ランディングページなどがあります。
+* プログラム **には** 、キャンペーン、ワークフロー、ランディングページの他に、他のプログラムを含めることができます。 タイムラインに表示され、マーケティングアクティビティを整理するのに役立ちます。国別、ブランド別、単位別などで分けることができます。
+* キャンペーン **を使用すると** 、選択したすべてのマーケティング活動を1つのエンティティで収集できます。 キャンペーンには、電子メール、SMS、プッシュ通知、ダイレクトメール、ワークフロー、ランディングページが含まれる場合があります。
 
-マーケティングプランをより適切に整理するには、次の階層をお勧めします。プログラム/サブプログラム/キャンペーン/ワークフロー/配信
+マーケティングプランをより整理するため、アドビでは次の階層を推奨しています。プログラム/サブプログラム/キャンペーン/ワークフロー/配信。
 
-プログラムおよびキャンペーンに関するレポートを使用すると、その影響を分析できます。例えば、キャンペーンレベルでレポートを作成して、そのキャンペーンに含まれるすべての配信に関するデータを集計できます。
+プログラムとキャンペーンに関するレポートを使用して、その影響を分析できます。 例えば、キャンペーンレベルでレポートを作成して、そのキャンペーンに含まれるすべての配信に関するデータを集計できます。
 
-**関連トピック:**
+**関連トピック：**
 
 * [タイムライン](../../start/using/timeline.md)
 * [動的レポートについて](../../reporting/using/about-dynamic-reports.md)
 
-## Creating a program {#creating-a-program}
+## プログラムの作成 {#creating-a-program}
 
-プログラムは、最初のレベルの組織です。サブプログラム、キャンペーン、ワークフローまたはランディングページを含めることができます。
+そのプログラムは組織の第1レベルです。 サブプログラム、キャンペーン、ワークフロー、ランディングページを含めることができます。
 
-1. From the Adobe Campaign home page, select the **[!UICONTROL Programs & Campaigns]** card.
+1. Adobe Campaignのホームページで、カードを選択し **[!UICONTROL Programs & Campaigns]** ます。
 1. Click on the **[!UICONTROL Create]** button.
-1. **[!UICONTROL Creation mode]** 画面で、プログラムタイプを選択します。
+1. 画面で、プ **[!UICONTROL Creation mode]** ログラムの種類を選択します。
 
    ![](assets/programs_and_campaigns_2.png)
 
-   The program types available are based on templates defined in the **[!UICONTROL Resources]** &gt; **[!UICONTROL Templates]** &gt; **[!UICONTROL Program templates]** section. For more on this, refer to the [Managing templates](../../start/using/about-templates.md) section.
+   使用できるプログラムのタイプは、 &gt; &gt;セクションで定義されたテ **[!UICONTROL Resources]** ンプレ **[!UICONTROL Templates]** ートに基 **[!UICONTROL Program templates]** づきます。 For more on this, refer to the [Managing templates](../../start/using/about-templates.md) section.
 
-1. **[!UICONTROL Properties]** 画面で、プログラムの名前とIDを入力します。
+1. 画面で、 **[!UICONTROL Properties]** プログラムの名前とIDを入力します。
 
    ![](assets/programs_and_campaigns_3.png)
 
-1. プログラムの開始日と終了日を選択します。これらの日付はプログラム自体のみに適用されます。
+1. プログラムの開始日と終了日を選択します。 これらの日付は、プログラム自体にのみ適用されます。
 
-   親プログラム内でプログラムを作成できます。これを行うには、既存のプログラムから親プログラムを選択します。
+   親プログラム内にプログラムを作成できます。 これを行うには、既存のプログラムから親プログラムを選択します。
 
-1. Click on **[!UICONTROL Create]** to confirm the creation of the program.
+1. をクリックし **[!UICONTROL Create]** て、プログラムの作成を確認します。
 
-プログラムが作成され、表示されます。**[!UICONTROL Create]** サブプログラム、キャンペーン、ワークフローまたはランディングページを追加するには、このボタンを使用します。
+プログラムが作成され、表示されます。 サブプログラム、 **[!UICONTROL Create]** キャンペーン、ワークフローまたはランディングページを追加するには、このボタンを使用します。
 
 >[!NOTE]
 >
->マーケティングアクティビティのリストからプログラムを作成することもできます。
+>また、マーケティング活動のリストからプログラムを作成することもできます。
 
-## Creating a campaign {#creating-a-campaign}
+## キャンペーンの作成 {#creating-a-campaign}
 
-プログラムおよびサブプログラムでは、キャンペーンを追加できます。キャンペーンには、電子メール、SMS、プッシュ通知、ワークフロー、ランディングページなどのマーケティング活動を含めることができます。
+プログラムやサブプログラムでは、キャンペーンを追加できます。 キャンペーンには、電子メール、SMS、プッシュ通知、ワークフロー、ランディングページなどのマーケティングアクティビティを含めることができます。
 
-1. From the Adobe Campaign home page, select the **[!UICONTROL Programs & Campaigns]** card and access a program or sub-program.
-1. Click on the **[!UICONTROL Create]** button and select **[!UICONTROL Campaign]**.
-1. **[!UICONTROL Creation mode]** 画面で、キャンペーンタイプを選択します。
+1. Adobe Campaignのホームページで、カードを選択し、プ **[!UICONTROL Programs & Campaigns]** ログラムまたはサブプログラムにアクセスします。
+1. ボタンをクリック **[!UICONTROL Create]** し、を選択しま **[!UICONTROL Campaign]**&#x200B;す。
+1. 画面で、キ **[!UICONTROL Creation mode]** ャンペーンのタイプを選択します。
 
    ![](assets/programs_and_campaigns_7.png)
 
-   The campaign types available are based on templates defined in **[!UICONTROL Resources]** &gt; **[!UICONTROL Templates]** &gt; **[!UICONTROL Campaign templates]**. For more on this, refer to the [Managing templates](../../start/using/about-templates.md) section.
+   使用できるキャンペーンタイプは、 &gt; &gt;で定義されたテンプ **[!UICONTROL Resources]** レートに **[!UICONTROL Templates]** 基づきま **[!UICONTROL Campaign templates]**&#x200B;す。 For more on this, refer to the [Managing templates](../../start/using/about-templates.md) section.
 
-1. **[!UICONTROL Properties]** 画面で、キャンペーンの名前とIDを入力します。
-1. キャンペーンの開始日と終了日を選択します。これらの日付はキャンペーン自体のみに適用されます。
+1. 画面で、 **[!UICONTROL Properties]** キャンペーンの名前とIDを入力します。
+1. キャンペーンの開始日と終了日を選択します。 これらの日付は、キャンペーン自体にのみ適用されます。
 
    ![](assets/programs_and_campaigns_8.png)
 
-1. Click on **[!UICONTROL Create]** to confirm the creation of the campaign.
+1. をクリックし **[!UICONTROL Create]** て、キャンペーンの作成を確認します。
 
-キャンペーンが作成され、表示されます。Use the **[!UICONTROL Create]** button to add marketing activities to your campaign.
+キャンペーンが作成され、表示されます。 このボタンを使 **[!UICONTROL Create]** 用して、キャンペーンにマーケティング活動を追加します。
 
 >[!NOTE]
 >
->使用許諾契約によっては、これらのアクティビティの一部のみにアクセスできます。
+>使用許諾契約によっては、これらのアクティビティの一部にのみアクセスできます。
 
-マーケティングアクティビティリストからキャンペーンを作成することもできます。キャンペーンのプロパティウィンドウを使用して、マーケティングアクティビティを親プログラムまたはサブプログラムにリンクできます。
+また、マーケティングアクティビティリストからキャンペーンを作成することもできます。 キャンペーンのプロパティウィンドウを使用して、マーケティングアクティビティを親プログラムまたはサブプログラムにリンクするように選択できます。
 
-## Programs and campaigns icons and statuses {#programs-and-campaigns-icons-and-statuses}
+## プログラムとキャンペーンのアイコンとステータス {#programs-and-campaigns-icons-and-statuses}
 
-リスト内の各キャンペーンと各キャンペーンには視覚的な記号があり、色が実行ステータスを示すアイコンが表示されます。このステータスは、プログラムまたはキャンペーンの有効期間によって異なります。
+リスト内の各プログラムと各キャンペーンには、実行状態を示す視覚的な記号とアイコンが表示されます。 このステータスは、プログラムまたはキャンペーンの有効期間によって異なります。
 
-* Gray: the program/campaign has not yet started - **[!UICONTROL Editing]** status.
-* Blue: the program/campaign is in progress - **[!UICONTROL In progress]** status.
-* Green: the program/campaign has finished - **[!UICONTROL Finished]** status. By default, the current date is automatically shown as the validity start date and the end date is calculated according to the start date (**D+186 days**). これらの日付は、プログラムまたはキャンペーンのプロパティで変更できます。
+* グレー：プログラム/キャンペーンがまだ開始されていません — ステー **[!UICONTROL Editing]** タス。
+* 青：プログラム/キャンペーンが進行中です — ステータス **[!UICONTROL In progress]** です。
+* 緑：プログラム/キャンペーンが完了しました — ス **[!UICONTROL Finished]** テータス デフォルトでは、現在の日付が有効開始日として自動的に表示され、終了日は開始日(**D+186日**)に従って計算されます。 これらの日付は、プログラムまたはキャンペーンのプロパティで変更できます。
 
 ![](assets/programs_and_campaigns.png)
 
