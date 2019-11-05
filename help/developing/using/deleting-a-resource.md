@@ -1,59 +1,57 @@
 ---
 title: リソースの削除
-seo-title: リソースの削除
-description: リソースの削除
-seo-description: 'リソースの削除方法 '
-page-status-flag: 常にアクティブ化されていない
-uuid: 5de27589-6fa5-412c-8e5a- a4976de05715
-contentOwner: サウビート
-products: SG_ CAMPAIGN/STANDARD
+description: 'リソースを削除する方法 '
+page-status-flag: 非活性化の
+uuid: 5de27589-6fa5-412c-8e5a-a4976de05715
+contentOwner: ソビア
+products: SG_CAMPAIGN/STANDARD
 audience: 開発中
 content-type: 参照
-topic-tags: 追加または拡張するリソース
-discoiquuid: 0130733d-4e3f-40cd- b959-56381f2c8f44
+topic-tags: リソースの追加または拡張
+discoiquuid: 0130733d-4e3f-40cd-b959-56381f2c8f44
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a12df43de55dedf388a397fbf4670d99e3ea7f3d
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Deleting a resource{#deleting-a-resource}
+# リソースの削除{#deleting-a-resource}
 
-To delete a resource, the resource in question must be a **[!UICONTROL Draft]**. The resource is in **[!UICONTROL Draft]** status if:
+リソースを削除するには、対象のリソースがである必要がありま **[!UICONTROL Draft]**&#x200B;す。 次の場合、リソースはステ **[!UICONTROL Draft]** ータスになります。
 
 * 作成されたばかりで、まだ公開されていません。
-* 既に公開されている場合は、リソースを再作成する必要があります。
+* 既に公開されている場合は、そのリソースを再起草する必要があります。
 
 >[!CAUTION]
 >
->カスタムリソースの再編成と削除は、他のリソースに影響を与える可能性のある、機密性の高い操作です。これらのアクションは、エキスパートユーザーのみが実行する必要があります。
+>カスタムリソースの再作図と削除は、他のリソースに影響を与える可能性のある機密性の高い操作です。 これらの操作は、エキスパートユーザーのみが実行する必要があります。
 
-公開済みリソースを再ドラフトおよび削除するには:
+公開済みリソースを再ドラフトおよび削除するには：
 
 1. 再ドラフトするリソースを選択します。
-1. Click the **[!UICONTROL Re-draft]** button in the action bar.
+1. アクションバ **[!UICONTROL Re-draft]** ーのボタンをクリックします。
 
    ![](assets/schema_extension_uc26.png)
 
-1. **[!UICONTROL Ok]**&#x200B;をクリックします。
+1. Click **[!UICONTROL Ok]**.
 
    >[!CAUTION]
    >
-   >このアクションは確定的です。リソースのデータベーステーブルまたは列とデータは、変更が発行されると完全に削除され、その結果、他のカスタムリソースからのリンクが切断される可能性があります。リソース定義のみが使用可能になります。
+   >このアクションは次のとおりです。変更が発行されると、リソースのデータベーステーブルまたは列とそのデータが完全に削除され、その結果、他のカスタムリソースからのリンクが破損する可能性があります。 リソース定義のみが使用可能なままになります。
 
    ![](assets/schema_extension_uc27.png)
 
    >[!NOTE]
    >
-   >If you re-draft an extension of the out-of-the-box **Profiles (profile)** resource, you must also re-draft any **Test profile (seedMember)** extension you may have defined. For more on extending the profile resource, see [this section](../../developing/using/extending-the-profile-resource-with-a-new-field.md).
+   >標準搭載のプロファイル（プロファイル）リソースの拡張機能を再ドラフトする場合は、定義した **Testプロファイル(seedMember)拡張も再ドラフトする必要があります****** 。 プロファイルリソースの拡張の詳細については、この節を [参照してくださ](../../developing/using/extending-the-profile-resource-with-a-new-field.md)い。
 
-1. リソースを公開します。For more detailed steps, refer to [Publishing a custom resource](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
+1. リソースをパブリッシュ. 詳細な手順については、「カスタムリソースの [公開」を参照してください](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)。
 
-   The resource then goes into **Draft** mode and its activation status is **[!UICONTROL Inactive]**.
+   次に、リソースがドラフトモ **ードに入り** 、そのアクティブ化ステータスが **[!UICONTROL Inactive]**&#x200B;です。
 
-1. **[!UICONTROL List]** モードで、削除するリソースをチェックしてアイコンを ![](assets/delete_darkgrey-24px.png)**[!UICONTROL Delete element]** クリックします。
+1. モード **[!UICONTROL List]** で、削除するリソースを確認し、アイコンをクリック ![](assets/delete_darkgrey-24px.png) し **[!UICONTROL Delete element]** ます。
 
    ![](assets/schema_extension_uc28.png)
 
@@ -61,5 +59,5 @@ To delete a resource, the resource in question must be a **[!UICONTROL Draft]**.
 
 >[!NOTE]
 >
->イベントで使用されているカスタムリソースのフィールドが変更または削除されると、対応するイベントが自動的に非公開になります。[トランザクションメッセージ](../../administration/using/configuring-transactional-messaging.md)の設定を参照してください。
+>イベントで使用されているカスタムリソースのフィールドが変更または削除されると、対応するイベントは自動的に非公開になります。 See [Configuring transactional messaging](../../administration/using/configuring-transactional-messaging.md).
 
