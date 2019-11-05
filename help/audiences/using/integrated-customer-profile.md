@@ -1,8 +1,6 @@
 ---
 title: 統合された顧客プロファイル
-seo-title: 統合された顧客プロファイル
-description: 統合された顧客プロファイル
-seo-description: 「すべての顧客インタラクションを単一のビューで追跡します。Adobe Campaign統合顧客プロファイルは、顧客のライフサイクル全体を通じて更新されます。」
+description: 「すべての顧客インタラクションを単一のビューで追跡します。Adobe Campaign統合顧客プロファイルは、顧客のライフサイクル全体を通じて更新されます。」
 page-status-flag: 非活性化の
 uuid: da2eb13a-2268-4a99-939c-c6388f5d34f3
 contentOwner: ソビア
@@ -15,7 +13,7 @@ context-tags: marketingHistory,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
