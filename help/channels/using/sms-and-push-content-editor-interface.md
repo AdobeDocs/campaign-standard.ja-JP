@@ -1,8 +1,6 @@
 ---
-title: SMSおよびプッシュコンテンツエディタインターフェイス
-seo-title: SMSおよびプッシュコンテンツエディタインターフェイス
-description: SMSおよびプッシュコンテンツエディタインターフェイス
-seo-description: エディターの様々なセクションを使用してSMSを変更し、コンテンツをプッシュする方法を説明します。
+title: SMS およびプッシュコンテンツエディタインターフェイス
+description: エディターの様々なセクションを使用してSMSを変更し、コンテンツをプッシュする方法を説明します。
 page-status-flag: 非活性化の
 uuid: 4af5d247-555b-45c5-95a7-cb27f356b5a0
 contentOwner: ソビア
@@ -15,12 +13,12 @@ context-tags: delivery,smsContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# SMSおよびプッシュコンテンツエディタインターフェイス{#sms-and-push-content-editor-interface}
+# SMS およびプッシュコンテンツエディタインターフェイス{#sms-and-push-content-editor-interface}
 
 SMSおよびプッシュコンテンツエディターは、メッセージを表示および編集できる2つの異なるセクションに編成されています。
 
@@ -75,7 +73,7 @@ SMSおよびプッシュコンテンツエディターは、メッセージを�
    <td> <img height="21px" src="assets/dynamiccontent_24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">動的テキストの有効化</span><br /> </td> 
    <td> SMSとプッシュ<br /> </td> 
-   <td> コンテンツに動的テキストを挿入できます。 ダイナミック <a href="../../channels/using/defining-dynamic-text.md" target="_blank">テキストの定義を参照してくださ</a>い。<br /> </td> 
+   <td> コンテンツに動的テキストを挿入できます。 See <a href="../../channels/using/defining-dynamic-text.md" target="_blank">Defining dynamic text</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/dynamiccontentdisable_24px.png" /> <br /> </td> 
