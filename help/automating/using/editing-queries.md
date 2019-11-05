@@ -1,8 +1,6 @@
 ---
 title: クエリーの編集
-seo-title: クエリーの編集
-description: クエリーの編集
-seo-description: 定義済みのフィルターとルールを使用して、母集団を構築します。
+description: 定義済みのフィルターとルールを使用して、母集団を構築します。
 page-status-flag: 非活性化の
 uuid: a49c7739-a96c-45cb-9ac5-1ce299161a97
 contentOwner: ソビア
@@ -15,7 +13,7 @@ context-tags: queryFilter,overview;audience,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
