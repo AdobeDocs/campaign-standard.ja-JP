@@ -1,8 +1,6 @@
 ---
 title: 配信エラーの理解
-seo-title: 配信エラーの理解
-description: 配信エラーの理解
-seo-description: Campaignで配信エラーを管理する方法を説明します。
+description: Campaignで配信エラーを管理する方法を説明します。
 page-status-flag: 非活性化の
 uuid: 2735aa05-7b6f-47c9-98c4-a15cc33be39d
 contentOwner: ソビア
@@ -14,7 +12,7 @@ discoiquuid: 38452841-4cd4-4f92-a5c3-1dfd54ff6f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
