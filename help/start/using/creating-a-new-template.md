@@ -1,45 +1,43 @@
 ---
 title: 新しいテンプレートの作成
-seo-title: 新しいテンプレートの作成
-description: 新しいテンプレートの作成
-seo-description: Eメール、SMS、プッシュ通知配信などの既存の初期状態のアクティビティテンプレートから、新しいテンプレートを作成する方法を説明します。
-page-status-flag: 未活性化の
+description: 電子メール、SMS、プッシュ通知配信などの、既存の既存の既存のアクティビティテンプレートから新しいテンプレートを作成する方法を説明します。
+page-status-flag: 非活性化の
 uuid: 26e368ae-06e1-4c11-9899-c23cc727d398
-contentOwner: サウビア
+contentOwner: ソビア
 products: SG_CAMPAIGN/STANDARD
 audience: 開始
 content-type: 参照
-topic-tags: テンプレートの管理
+topic-tags: 管理テンプレート
 discoiquuid: d3e37141-1170-4332-a46c-66a847ed3531
-context-tags: campaignTemplate，概要；deliveryTemplate，概要；programTemplate，概要；workflowTemplate，概要；importTemplate，概要；
-internal: 〜の
-snippet: イー
+context-tags: campaignTemplate,overview;deliveryTemplate,overview;programTemplate,overview;workflowTemplate,overview;importTemplate,overview;
+internal: n
+snippet: y
 translation-type: tm+mt
-source-git-commit: ea825afe573959d95d0f7f3f6e79dd38ac5a678a
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
 # 新しいテンプレートの作成{#creating-a-new-template}
 
-メッセージ·テンプレートは、プラットフォームの機能管理者がメニューの下で管理で **[!UICONTROL Resources > Templates]** きます。 既存のテンプレートは変更または削除できません。 新しいテンプレートを作成するには、既存のテンプレートを複製する必要があります。
+メッセージテンプレートは、プラットフォームの機能管理者がメニューの下で管理で **[!UICONTROL Resources > Templates]** きます。 そのまま使用できるテンプレートは、変更または削除できません。 新しいテンプレートを作成するには、既存のテンプレートを複製する必要があります。
 
 1. 既存のテンプレートを選択します。 この例では、を選択しました **[!UICONTROL Delivery template]**。
 
    ![](assets/template_2.png)
 
-1. マウスでその上にカーソルを置き、オプションを選択 **[!UICONTROL Duplicate element]** します。
+1. マウスでマウスポインターを置き、オプションを選択 **[!UICONTROL Duplicate element]** します。
 
    ![](assets/template_3.png)
 
-1. 新しいマーケティング活動を最初から作成する場合と同様に、必要な [設定をすべて構成し](../../start/using/marketing-activities.md#creating-a-marketing-activity) ます。
+1. 新しいマーケティングアクティビティを最初から作成する場合と同 [様に、必要な設定を行います](../../start/using/marketing-activities.md#creating-a-marketing-activity) 。
 
    ![](assets/template_4.png)
 
-作成したテンプレートは、マーケティング活動の作成中に、ウィザードの最初の画面で標準ユーザーが選択できます。
+作成したテンプレートは、マーケティングアクティビティの作成時に、ウィザードの最初の画面で標準ユーザーが選択できます。
 
 **関連トピック：**
 
-* [ブランド化](../../administration/using/branding.md)
-* [コンテンツの設計](../../designing/using/overview.md)
+* [ブランディング](../../administration/using/branding.md)
+* [コンテンツのデザイン](../../designing/using/overview.md)
 
