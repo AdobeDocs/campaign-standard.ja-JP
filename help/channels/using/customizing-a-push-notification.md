@@ -1,8 +1,6 @@
 ---
 title: プッシュ通知のカスタマイズ
-seo-title: プッシュ通知のカスタマイズ
-description: プッシュ通知のカスタマイズ
-seo-description: 様々な高度なオプションを使用してプッシュ通知をカスタマイズする方法について説明します。
+description: 様々な高度なオプションを使用してプッシュ通知をカスタマイズする方法について説明します。
 page-status-flag: 非活性化の
 uuid: 8cf74cad-b1ba-4aad-83bd-7289cb22d5f4
 contentOwner: ソビア
@@ -15,7 +13,7 @@ context-tags: delivery,mobileAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 12134f388c6406b1b7c5821a1ae49c2332ae33cb
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
