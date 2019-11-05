@@ -1,8 +1,6 @@
 ---
 title: リンクの管理
-seo-title: リンクの管理
-description: 'リンクの管理 '
-seo-description: 電子メールデザイナーでのリンクの管理方法を確認します。
+description: 電子メールデザイナーでのリンクの管理方法を確認します。
 page-status-flag: 非活性化の
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: ソビア
@@ -14,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1ccea1d142f0b1550c8891b2f31233af8c9d4e29
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
