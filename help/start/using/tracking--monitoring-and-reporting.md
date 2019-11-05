@@ -1,34 +1,32 @@
 ---
-title: 追跡、監視およびレポート
-seo-title: 追跡、監視およびレポート
-description: 追跡、監視およびレポート
-seo-description: プロファイルデータを充実させることで、メッセージを追跡し、顧客の行動を理解する方法について説明します。Adobe Campaignでは、レポートツールおよび分析ツールを使用して、各新しいキャンペーンを大文字にします。
-page-status-flag: 常にアクティブ化されていない
-uuid: 09592947- e65f-4be4- b39f-1e0c9f6d014b
-contentOwner: サウビート
-products: SG_ CAMPAIGN/STANDARD
-audience: start
+title: トラッキング、監視、およびレポート
+description: メッセージを追跡し、プロファイルデータを豊富にして顧客の行動を把握する方法を説明します。 Adobe Campaignを使用すると、レポートおよび分析ツールを使用して、新しい各キャンペーンをフル活用できます。
+page-status-flag: 非活性化の
+uuid: 09592947-e65f-4be4-b39f-1e0c9f6d014b
+contentOwner: ソビア
+products: SG_CAMPAIGN/STANDARD
+audience: 開始
 content-type: 参照
-topic-tags: about- adobe- campaign
-discoiquuid: fc9b08e8-74e5-45f6- b484-90f6b3161030
+topic-tags: about-adobe-campaign
+discoiquuid: fc9b08e8-74e5-45f6-b484-90f6b3161030
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Tracking, monitoring and reporting{#tracking-monitoring-and-reporting}
+# トラッキング、監視、およびレポート{#tracking-monitoring-and-reporting}
 
-Adobe Campaignでは、強力な機能を備えた強力なレポートテンプレートに加えて、配信、キャンペーン、ユーザーまたはセグメントレベルでカスタムレポートを作成できます。プロフィールデータをプログレッシブに充実させることで、メッセージを追跡し、クライアントの行動を把握することができます。レポートツールおよび分析ツールを使用すると、各新規キャンペーンを活用し、マーケティングアクションのターゲットを絞ることができ、影響を最適化して投資利益率を向上できます。
+Adobe Campaignでは、そのまま使用できる強力なレポートテンプレートに加えて、配信、キャンペーン、ユーザーまたはセグメントレベルでカスタムレポートを作成できます。 メッセージを追跡し、プロファイルデータを徐々に充実させて、クライアントの行動を把握します。 レポート作成と分析ツールを使用すると、新しい各キャンペーンをフル活用し、マーケティング活動のターゲットを絞り込み、その効果と投資収益率を最適化できます。
 
-グラフィカルインターフェイスを使用すると、主要なインジケーターや配信統計にすばやく簡単にアクセスできます。
+グラフィカルインターフェイスは、主要指標と配信統計にすばやく簡単にアクセスできるようにします。
 
 ![](assets/dynamic_report_intro.png)
 
-キャンペーンレポートのユーザーインターフェイスを使用すると、動的レポートを作成できます。ドラッグ&amp;ドロップ変数を使用して、レポートをカスタマイズし、キャンペーンの成功を分析できます。クエリと計算の複雑さによっては、データをリスト表示にしたり、形式でアクセスしてマーケティング分析レポートを容易に生成したりできます。
+キャンペーンレポートのユーザーインターフェイスは、動的なレポートの作成を容易にします。 ドラッグ&amp;ドロップ変数を使用して、レポートをカスタマイズし、キャンペーンの成功を分析できます。 クエリと計算の複雑さに応じて、データをリストビューに集約したり、マーケティング分析レポートを簡単に生成できる形式でアクセスしたりできます。
 
-For more information on reports, refer to the [Accessing reports](../../reporting/using/about-dynamic-reports.md) section.
+レポートの詳細については、「レポートへのアクセス」の節を参 [照してくださ](../../reporting/using/about-dynamic-reports.md) い。
 
-Adobe Campaignでは、各配信を個別に監視して追跡できます。メッセージダッシュボードには、フォローアッププロセスやルールに対して専用ログが表示され、エラーと警告が表示されます。For more about delivery monitoring, refer to the [Monitoring a delivery](../../sending/using/monitoring-a-delivery.md) section. Tracking principles and capabilities are presented in the [Tracking messages](../../sending/using/tracking-messages.md) section.
+Adobe Campaignを使用すると、各配信を個別に監視および追跡できます。 メッセージダッシュボードには、フォローアッププロセス、ルール、考えられるエラーおよび警告を識別するための専用ログが表示されます。 配信の監視の詳細については、「配信の監視 [」の節を参照](../../sending/using/monitoring-a-delivery.md) 。 追跡の原則と機能は、「メッセージの追跡」セクシ [ョンに示され](../../sending/using/tracking-messages.md) ます。
