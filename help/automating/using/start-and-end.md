@@ -1,25 +1,23 @@
 ---
-title: 開始と終了
-seo-title: 開始と終了
-description: 開始と終了
-seo-description: 開始および終了アクティビティでは、ワークフローの開始と終了を明確にマークできます。
-page-status-flag: 常にアクティブ化されていない
+title: 開始および終了
+description: 開始と終了アクティビティでは、ワークフローの開始と終了を明確に示すことができます。
+page-status-flag: 非活性化の
 uuid: 146b6337-122c-453d-8ffd-5c157db29217
-contentOwner: サウビート
-products: SG_ CAMPAIGN/STANDARD
+contentOwner: ソビア
+products: SG_CAMPAIGN/STANDARD
 audience: 自動化
 content-type: 参照
-topic-tags: 実行アクティビティ
-discoiquuid: a0a8a725-8ede-4626-9798- b86924b58beb
+topic-tags: 実行活動
+discoiquuid: a0a8a725-8ede-4626-9798-b86924b58beb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6748e59aaeafce9dc6e77dc0664a9024a53c3e35
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Start and end{#start-and-end}
+# 開始および終了{#start-and-end}
 
 ## 説明 {#description}
 
@@ -27,29 +25,29 @@ source-git-commit: 6748e59aaeafce9dc6e77dc0664a9024a53c3e35
 
 ![](assets/end.png)
 
-**[!UICONTROL Start]****[!UICONTROL End]** また、ワークフローの開始と終了を明確に示すことができます。
+およびア **[!UICONTROL Start]** クティビティ **[!UICONTROL End]** を使用すると、ワークフローの開始と終了を明確に示すことができます。
 
-## Context of use {#context-of-use}
+## 使用状況 {#context-of-use}
 
-ワークフローの実行は、インバウンドトランジションのないアクティビティで開始され、進行中のタスクがなくても停止します。Nevertheless, you can add **[!UICONTROL Start]** and **[!UICONTROL End]** activities to clearly mark the starting and ending points of a workflow. これは、比較的複雑なワークフローに特に便利です。
+ワークフローの実行は、受信の移行を行わないアクティビティで開始され、進行中のタスクがなくなると停止します。 ただし、ワークフローの開始 **[!UICONTROL Start]** 点と終了点 **[!UICONTROL End]** を明確に示すアクティビティを追加することはできます。 これは、比較的複雑なワークフローで特に役立ちます。
 
-It is a best practice to use an **[!UICONTROL End]** activity instead of leaving the last transition of a workflow on its own to ensure that the workflow properly ends.
+ワークフローが正しく終了するように、ワ **[!UICONTROL End]** ークフローの最後の移行を独自に残す代わりに、アクティビティを使用することをお勧めします。
 
-## Configuration {#configuration}
+## 設定 {#configuration}
 
-1. Drag and drop a **[!UICONTROL Start]** or **[!UICONTROL End]** activity into your workflow.
-1. Put the **[!UICONTROL Start]** activity in front of other activities such as queries, and the **[!UICONTROL End]** activity after a series of activities.
-1. Select the activity, then open it using the ![](assets/edit_darkgrey-24px.png) button from the quick actions that appear.
-1. **終了** オブジェクトを設定して、完了していないすべてのワークフローの実行中のタスクを中断することができます。これを行うには、対応するオプションを選択します。
+1. またはアクティビティをワークフ **[!UICONTROL Start]** ローに **[!UICONTROL End]** ドラッグ&amp;ドロップします。
+1. クエリーな **[!UICONTROL Start]** どの他のアクティビティの前にアクティビティを配置し、一連のアクティビティ **[!UICONTROL End]** の後にアクティビティを配置します。
+1. アクティビティを選択し、表示されるクイックアクシ ![](assets/edit_darkgrey-24px.png) ョンのボタンを使用して開きます。
+1. Endオブジェクトを設 **定して** 、完了していないワークフローのタスクを含む、進行中のタスクをすべて中断するようにすることができます。 これを行うには、対応するオプションを選択します。
 1. アクティビティの設定を確認し、ワークフローを保存します。
 
-## Triggering another workflow {#triggering-another-workflow}
+## 別のワークフローのトリガー {#triggering-another-workflow}
 
-Using the **[!UICONTROL External signal]** tab of an **[!UICONTROL End]** activity, you can trigger another workflow. [「外部信号](../../automating/using/external-signal.md) 」セクションを参照してください。
+アクティビティ **[!UICONTROL External signal]** のタブを使用し **[!UICONTROL End]** て、別のワークフローをトリガーできます。 「外部シグナル [」の項を参照](../../automating/using/external-signal.md) 。
 
-## Example {#example}
+## 例 ：{#example}
 
-The following example shows how a complex workflow is executed with a **[!UICONTROL Start]** activity and several **[!UICONTROL End]** activities. **[!UICONTROL Stop all tasks in progress]** 最初 **[!UICONTROL End]** のアクティビティがチェックされました。Once the corresponding task is finished, the entire workflow will be stopped: it will have the same effect as if the ![](assets/stop_darkgrey-24px.png) button had been selected (refer to the [Action bar](../../automating/using/workflow-interface.md#action-bar) section).
+次の例は、1つのアクティビティと複数のアクティビティで複雑なワークフローを実 **[!UICONTROL Start]** 行する方法を示して **[!UICONTROL End]** います。 このボッ **[!UICONTROL Stop all tasks in progress]** クスは、最初のアクティビティに対してチェックさ **[!UICONTROL End]** れています。 対応するタスクが完了すると、ワークフロー全体が停止します。ボタンが選択されている場合と同じ効 ![](assets/stop_darkgrey-24px.png) 果が得られます(アクションバーの [節を参照](../../automating/using/workflow-interface.md#action-bar) )。
 
 ![](assets/wkf_start_end_example.png)
 
