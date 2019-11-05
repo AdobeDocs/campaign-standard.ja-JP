@@ -1,83 +1,81 @@
 ---
 title: フィルタールール
-seo-title: フィルタールール
-description: フィルタールール
-seo-description: フィルタールールを使用して、メッセージのオーディエンスを絞り込むことができます。
-page-status-flag: 常にアクティブ化されていない
-uuid: ed3eea62-3a47-4318- ae22- d82aa857448f
-contentOwner: サウビート
-products: SG_ CAMPAIGN/STANDARD
+description: フィルタリングルールを使用して、メッセージのオーディエンスを絞り込みます。
+page-status-flag: 非活性化の
+uuid: ed3eea62-3a47-4318-ae22-d82aa857448f
+contentOwner: ソビア
+products: SG_CAMPAIGN/STANDARD
 audience: 管理
 content-type: 参照
-topic-tags: working- with- typography- rules
-discoiquuid: 7ddaf36c-74e6-4501- b3eb-3d03f005aaa6
+topic-tags: 活字体系ルール
+discoiquuid: 7ddaf36c-74e6-4501-b3eb-3d03f005aaa6
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Filtering rules{#filtering-rules}
+# フィルタールール{#filtering-rules}
 
-フィルタールールを使用すると、特定の数の電子メールを送信済みの隔離されたプロファイルやプロファイルなど、クエリで定義された条件に従ってメッセージターゲットの一部を除外できます。
+フィルタリングルールを使用すると、隔離されたプロファイルや、特定の数の電子メールが既に送信されたプロファイルなど、クエリで定義された条件に従って、メッセージターゲットの一部を除外できます。
 
-例えば、ニュースレター購読者をフィルターして、18歳未満の購読者がコミュニケーションを受け取らないようにすることができます。
+例えば、18歳未満の購読者が通信を受け取らないように、ニュースレターの購読者をフィルターできます。
 
-## Creating a filtering rule {#creating-a-filtering-rule}
+## フィルタールールの作成 {#creating-a-filtering-rule}
 
-1. **すべての通信チャネルに適用できるフィルター** タイポロジルールを作成します。
+1. すべての通 **信チャネルに適用できるフィルタリング** ・タイポロジ・ルールを作成します。
 
    ![](assets/typology_create-rule.png)
 
-1. **[!UICONTROL Filtering criteria]** タブで **[!UICONTROL Subscription]** 、カテゴリ内の購読を選択します。
+1. タブで、 **[!UICONTROL Filtering criteria]** カテゴリ内の購読を選択し **[!UICONTROL Subscription]** ます。
 
    ![](assets/typology_create-rule-subscription.png)
 
-1. In the **[!UICONTROL Explorer]** tab of the query editor, drag and drop the **[!UICONTROL Subscriber]** node into the main part of the screen.
+1. クエリー **[!UICONTROL Explorer]** エディターのタブで、画面のメインパー **[!UICONTROL Subscriber]** ツにノードをドラッグ&amp;ドロップします。
 
    ![](assets/typology_create-rule-subscriber.png)
 
-1. Select the **[!UICONTROL Age]** field and define the filtering conditions so that the age of the subscribers is 18 or above.
+1. フィールド **[!UICONTROL Age]** を選択し、購読者の年齢が18才以上になるようにフィルター条件を定義します。
 
    ![](assets/typology_create-rule-age.png)
 
-1. **[!UICONTROL Typologies]** タブで、このルールをタイポロジにリンクします。
+1. タブで、こ **[!UICONTROL Typologies]** のルールをタイポロジにリンクします。
 
    ![](assets/typology_create-rule-typology.png)
 
-1. 使用する配信テンプレートで、対象の誤字が選択されていることを確認してください。
+1. 使用する配信テンプレートで、該当するタイポロジが選択されていることを確認します。
 
    ![](assets/typology_template.png)
 
    >[!NOTE]
    >
-   >To access the delivery templates, select **[!UICONTROL Resources]** &gt; **[!UICONTROL Templates]** in the navigation menu, which can be accessed via the Adobe Campaign logo.
+   >配信テンプレートにアクセスするには、ナビゲ **[!UICONTROL Resources]** ーションメ **[!UICONTROL Templates]** ニューで/を選択します。このメニューは、Adobe Campaignロゴを使用してアクセスできます。
 
-このルールがメッセージで使用されると、未成年者とみなされる購読者は自動的に除外されます。
+このルールをメッセージで使用する場合は、未成年と見なされるサブスクライバーが自動的に除外されます。
 
-## Restricting the applicability of a filtering rule {#restricting-the-applicability-of-a-filtering-rule}
+## フィルタリングルールの適用の制限 {#restricting-the-applicability-of-a-filtering-rule}
 
-送信するメッセージに応じて、フィルタリングルールの適用性を制限できます。
+送信するメッセージに従って、フィルタリングルールの適用を制限できます。
 
-1. In the typology rule's **[!UICONTROL Application criteria]** tab, uncheck the **[!UICONTROL Apply the rule on all deliveries]** option, which is enabled by default.
+1. タイポロジルールのタブで、オ **[!UICONTROL Application criteria]** プションをオフにしま **[!UICONTROL Apply the rule on all deliveries]** す。このオプションはデフォルトで有効です。
 
    ![](assets/typology_limit.png)
 
-1. クエリエディターを使用して、フィルターを定義します。例えば、ラベルが特定の単語で始まるメッセージまたは特定のレターがIDに含まれているメッセージのみにルールを適用できます。
+1. クエリーエディターを使用して、フィルターを定義します。 例えば、特定の単語で始まるラベルや、特定の文字を含むIDを持つメッセージに対してのみ、ルールを適用できます。
 
    ![](assets/typology_limit-rule.png)
 
 この場合、ルールは定義された条件に対応するメッセージにのみ適用されます。
 
-## Default deliverability exclusion rules {#default-deliverability-exclusion-rules}
+## デフォルトの配信性能除外ルール {#default-deliverability-exclusion-rules}
 
-Two filtering rules are available by default: **[!UICONTROL Exclusion of addresses]** ( **[!UICONTROL addressExclusions]** ) and **[!UICONTROL Exclusion of domains]** ( **[!UICONTROL domainExclusions]** ). 電子メール分析では、これらのルールは、受信者の電子メールアドレスと、配信品質インスタンスで管理される暗号化されたグローバル抑制リストに含まれているドメイン名またはドメイン名を比較します。一致がある場合、その受信者にメッセージは送信されません。
+Two filtering rules are available by default: **[!UICONTROL Exclusion of addresses]** ( **[!UICONTROL addressExclusions]** ) and **[!UICONTROL Exclusion of domains]** ( **[!UICONTROL domainExclusions]** ). 電子メールの分析時には、配信性能インスタンスで管理された暗号化グローバル抑止リストに含まれている禁止アドレスや禁止ドメイン名がこれらのルールによって照合され、受信者の電子メールアドレスが該当していないかどうかの確認処理が実行されます。該当した場合、その受信者宛てにはメッセージが送信されません。
 
-これは、悪意のあるアクティビティ（特にスパムの使用）のためブラックリストに記載されていることを防ぐためです。例えば、Webフォームの1つを介してスパムをサブスクライブするためにスパムトラッピングが使用されている場合、そのスパムに対して確認用の電子メールが自動的に送信され、これにより自動的にブラックリストに記載されます。
+これは、Spamtrap などの悪意あるアクティビティによってブラックリストに登録されることを防ぐためです。例えば、会社の Web フォーム経由で Spamtrap を使用して購読処理が実行されると、Spamtrap 宛てに確認メールが自動送信され、お使いのアドレスが自動的にブラックリスト登録される結果になります。
 
 >[!NOTE]
 >
->グローバル抑制リストに含まれるアドレスとドメイン名は非表示になります。除外された受信者数のみが配信分析ログに表示されます。
+>グローバル抑止リストに含まれているアドレスやドメイン名は非公開です。除外された受信者の数に関する情報だけが配信分析ログに記録されます。
 
