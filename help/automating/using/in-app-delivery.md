@@ -1,81 +1,79 @@
 ---
 title: アプリ内配信
-seo-title: アプリ内配信
-description: アプリ内配信
-seo-description: アプリ内配信アクティビティを使用すると、ワークフロー内でアプリ内メッセージを送信できます。
-page-status-flag: 常にアクティブ化されていない
-uuid: 528d9472- e447-47af- a6b2-3181aa5fb5ad
-contentOwner: サウビート
-products: SG_ CAMPAIGN/STANDARD
+description: アプリ内配信アクティビティを使用すると、ワークフロー内でのアプリ内メッセージの送信を設定できます。
+page-status-flag: 非活性化の
+uuid: 528d9472-e447-47af-a6b2-3181aa5fb5ad
+contentOwner: ソビア
+products: SG_CAMPAIGN/STANDARD
 audience: 自動化
 content-type: 参照
-topic-tags: チャネルアクティビティ
-discoiquuid: 19796aca-6e9e-4d3a-8917- ba660ec7993c
+topic-tags: チャネル活動
+discoiquuid: 19796aca-6e9e-4d3a-8917-ba660ec7993c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 36727e82d3aa73add6116fa2916752ff0e407d9d
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# In-App delivery{#in-app-delivery}
+# アプリ内配信{#in-app-delivery}
 
 ## 説明 {#description}
 
 ![](assets/wkf_in_app_1.png)
 
-**アプリ内配信** アクティビティを使用すると、ワークフロー内でアプリ内メッセージを送信できます。アプリ内メッセージを使用すると、ユーザーがアプリ内でアクティブになったときにメッセージを表示できます。For more information concerning the In-App delivery, refer to this [section](../../channels/using/about-in-app-messaging.md).
+アプリ **内配信アクティビティでは** 、ワークフロー内でのアプリ内メッセージの送信を設定できます。 アプリ内メッセージを使用すると、ユーザーがアプリ内でアクティブな場合にメッセージを表示できます。 アプリ内配信について詳しくは、この節を参照してく [ださい](../../channels/using/about-in-app-messaging.md)。
 
-## Context of use {#context-of-use}
+## 使用状況 {#context-of-use}
 
-**[!UICONTROL In-App delivery]** このアクティビティは、一般に、同じワークフローでターゲットオーディエンスにアプリ内メッセージを送信するための自動化に使用されます。
+The **[!UICONTROL In-App delivery]** activity is generally used to automate sending an In-App message to a target audience calculated in the same workflow.
 
-クエリ、交差などのターゲットアクティビティを介して、同じワークフロー内のアクティビティのアップストリームが定義されます。
+受信者は、クエリー、交差などのターゲットアクティビティを介して、同じワークフロー内のアクティビティの上流に定義されます。
 
-メッセージの実行パラメーターに従ってメッセージの準備がトリガーされます。メッセージダッシュボードから、メッセージを送信するかどうかを手動で確認できます（デフォルトで必須）。ワークフローを手動で開始することも、ワークフローにスケジューラーアクティビティを配置して実行を自動化することもできます。
+メッセージ準備は、ワークフロー実行パラメータに従ってトリガされる。 メッセージダッシュボードから、手動でメッセージを送信する確認を要求するかどうかを選択できます（デフォルトでは必須）。 ワークフローは、手動で開始するかまたはワークフロー内にスケジューラーアクティビティを置いて自動的に実行させます。
 
-## Configuration {#configuration}
+## 設定 {#configuration}
 
-1. Drag and drop a **[!UICONTROL Query]** activity to your workflow. Please note that the **[!UICONTROL Query]** activity targeting dimension in the **[!UICONTROL Properties]** tab needs to be updated according to the template chosen in Step 4:
+1. アクティビティをワークフロー **[!UICONTROL Query]** にドラッグ&amp;ドロップします。 手順4で選択したテンプ **[!UICONTROL Query]** レートに従って、タブ内のアクティビティ **[!UICONTROL Properties]** ターゲットディメンションを更新する必要があることに注意してください。
 
-   * Targeting dimension should be set to **[!UICONTROL mobileApp (mobileAppV5)]** for the **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]** template.
-   * Targeting dimension should be set to **[!UICONTROL profile (profile)]** for the **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]** template.
-   * Targeting dimension should be set to **[!UICONTROL subscriptions to an application (nms:appSubscriptionRcp:appSubscriptionRcpDetail)]** for the **[!UICONTROL Target users based on their Mobile profile (inApp)]** template.
+   * ターゲットディメンションは、テンプレートに対して **[!UICONTROL mobileApp (mobileAppV5)]** に設定する必要が **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]** あります。
+   * ターゲットディメンションは、テンプレートに対して **[!UICONTROL profile (profile)]** に設定する必要が **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]** あります。
+   * ターゲットディメンションは、テンプレートに対して **[!UICONTROL subscriptions to an application (nms:appSubscriptionRcp:appSubscriptionRcpDetail)]** に設定する必要が **[!UICONTROL Target users based on their Mobile profile (inApp)]** あります。
 
-1. Drag and drop a **[!UICONTROL In-App delivery]** activity into your workflow.
-1. Select the activity, then open it using the ![](assets/edit_darkgrey-24px.png) button from the quick actions that appear.
+1. アクティビティをワークフロー **[!UICONTROL In-App delivery]** にドラッグ&amp;ドロップします。
+1. アクティビティを選択し、表示されるクイックアクシ ![](assets/edit_darkgrey-24px.png) ョンのボタンを使用して開きます。
 
    >[!NOTE]
    >
-   >You can access the general properties and advanced options of the activity (and not of the delivery itself) via the ![](assets/dlv_activity_params-24px.png) button from the activity's quick actions.
+   >アクティビティのクイックアクションのボタンを使用して、アクティビティの一般的なプロパティと詳細なオプション（配信自体ではなく） ![](assets/dlv_activity_params-24px.png) にアクセスできます。
 
    ![](assets/wkf_in_app_3.png)
 
-1. アプリ内メッセージタイプを選択します。This will depend on the data targeted in your **[!UICONTROL Query]** activity.
+1. アプリ内メッセージの種類を選択します。 これは、アクティビティでターゲット設定されたデータに依存 **[!UICONTROL Query]** します。
 
-   * **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]**:このメッセージタイプを使用すると、モバイルアプリケーションをサブスクライブしているAdobe Campaignプロファイルをターゲットにしたり、キャンペーンで利用可能なプロファイル属性を使用してアプリ内メッセージをパーソナライズしたりできます。
-   * **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**:このメッセージタイプを使用すると、キャンペーンに既存のプロファイルがない場合でも、モバイルアプリケーションのすべてのユーザーにメッセージを送信できます。
-   * **[!UICONTROL Target users based on their Mobile profile (inApp)]**:このメッセージタイプを使用すると、既知または不明かどうかにかかわらず、モバイルデバイスから取得されたプロファイル属性を使用してアプリ内メッセージをカスタマイズするモバイルアプリのすべてのユーザーをターゲット設定できます。
+   * **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]**:このメッセージタイプを使用すると、モバイルアプリを登録したAdobe Campaignプロファイルをターゲットにし、Campaignで使用可能なプロファイル属性を使用してアプリ内メッセージをパーソナライズできます。
+   * **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**:このメッセージタイプを使用すると、Campaignに既存のプロファイルがない場合でも、モバイルアプリのすべてのユーザーにメッセージを送信できます。
+   * **[!UICONTROL Target users based on their Mobile profile (inApp)]**:このメッセージタイプを使用すると、Campaignにモバイルプロファイルがあるモバイルアプリのすべてのユーザーをターゲットにし、モバイルデバイスから取得したプロファイル属性を使用してアプリ内メッセージをパーソナライズできます。
    ![](assets/wkf_in_app_4.png)
 
-1. Enter your In-App message properties and select your mobile app in the **[!UICONTROL Associate a Mobile App to a delivery]** field.
-1. **[!UICONTROL Triggers]** タブで、メッセージをトリガーするイベントをドラッグ&amp;ドロップします。次の3つのイベントを使用できます。
-1. アプリ内コンテンツを定義します。Refer to the section concerning [In-App customization](../../channels/using/customizing-an-in-app-message.md).
-1. By default, the **[!UICONTROL In-App delivery]** activity does not include any outbound transitions. If you would like to add an outbound transition to your **[!UICONTROL In-App delivery]** activity, go to the **[!UICONTROL General]** tab of the advanced activity options ( ![](assets/dlv_activity_params-24px.png) button in the activity's quick actions) then check one of the following options:
+1. アプリ内メッセージのプロパティを入力し、フィールドでモバイルアプリを選択 **[!UICONTROL Associate a Mobile App to a delivery]** します。
+1. タブで、メ **[!UICONTROL Triggers]** ッセージをトリガーするイベントをドラッグ&amp;ドロップします。 次の3つのカテゴリのイベントを使用できます。
+1. アプリ内コンテンツを定義します。 アプリ内のカスタマイズに関す [る節を参照してください](../../channels/using/customizing-an-in-app-message.md)。
+1. デフォルトでは、アクティビティ **[!UICONTROL In-App delivery]** にはアウトバウンド遷移は含まれません。 アクティビティにアウトバウンド遷移を追加する場合は、アクティビティのアドバンスアクティビティオプション **[!UICONTROL In-App delivery]** （アクティビティのクイックアクションのボタン）のタブに移動し、次のいず **[!UICONTROL General]**![](assets/dlv_activity_params-24px.png) れかのオプションをオンにします。
 
-   * **[!UICONTROL Add outbound transition without the population]**:これにより、インバウンドトランジションとまったく同じ訪問者を含むアウトバウンドトランジションを生成できます。
-   * **[!UICONTROL Add outbound transition with the population]**:これにより、メッセージが送信された母集団を含むアウトバウンドトランジションを生成できます。配信準備中に除外されたターゲットのメンバーは、この移行から除外されます。
+   * **[!UICONTROL Add outbound transition without the population]**:これにより、インバウンドトランジションと完全に同じ母集団を含むアウトバウンドトランジションを生成できます。
+   * **[!UICONTROL Add outbound transition with the population]**:これにより、メッセージの送信先の母集団を含むアウトバウンド移行を生成できます。 配信準備中に除外されたターゲットのメンバーは、この移行から除外されます。
    ![](assets/wkf_in_app_5.png)
 
 1. アクティビティの設定を確認し、ワークフローを保存します。
 
-アクティビティを再度開くと、アプリ内ダッシュボードに直接移動します。編集できるのはコンテンツのみです。
+アクティビティを再度開くと、アプリ内ダッシュボードに直接移動します。 編集できるのは、そのコンテンツのみです。
 
-デフォルトでは、配信ワークフローを開始すると、メッセージの準備のみが開始されます。ワークフローを開始した後でもワークフローから作成されたメッセージを送信する必要があります。But from the message dashboard, and only if the message was created from a workflow, you can disable the **[!UICONTROL Request confirmation before sending messages]** option. このオプションのチェックを解除すると、準備が完了すると、それ以上通知なしでメッセージが送信されます。
+デフォルトでは、配信ワークフローを開始すると、メッセージの準備のみがトリガーされます。 ワークフローを開始した後も、ワークフローから作成されたメッセージの送信を確認する必要があります。 ただし、メッセージのダッシュボードからは、メッセージがワークフローから作成された場合にのみ、このオプションを無効にで **[!UICONTROL Request confirmation before sending messages]** きます。 このオプションのチェックを外すと、準備が完了した後、通知なしでメッセージが送信されます。
 
 ## Remarks {#remarks}
 
-ワークフロー内で作成された配信は、アプリケーションのマーケティングアクティビティリストからアクセスできます。ダッシュボードを使用して、ワークフローの実行ステータスを表示できます。プッシュ通知サマリペインのリンクを使用すると、リンクされた要素（ワークフロー、キャンペーンなど）に直接アクセスできます。
+ワークフロー内で作成された配信は、アプリのマーケティングアクティビティリストでアクセスできます。 ダッシュボードを使用して、ワークフローの実行ステータスを表示できます。 プッシュ通知の概要ウィンドウ内のリンクを使用すると、リンクされた要素（ワークフロー、キャンペーンなど）に直接アクセスできます。
 
-In the parent deliveries, which can be accessed from the marketing activity list, you can view the total number of sends that have been processed (according to the aggregation period specified when the **[!UICONTROL In-App delivery]** activity was configured). To do this, open the detail view of the parent delivery's **[!UICONTROL Deployment]** block by selecting ![](assets/wkf_dlv_detail_button.png).
+マーケティングアクティビティリストからアクセスできる親配信では、（アクティビティの設定時に指定された集計期間に従って）処理された送信の総数を **[!UICONTROL In-App delivery]** 表示できます。 これを行うには、を選択して親配信のブロックの詳細ビュー **[!UICONTROL Deployment]** を開きます ![](assets/wkf_dlv_detail_button.png)。
