@@ -1,8 +1,6 @@
 ---
 title: '新規での電子メールのデザイン '
-seo-title: '新規での電子メールのデザイン '
-description: '新規での電子メールのデザイン '
-seo-description: 電子メールデザイナーでゼロから電子メールをデザインする方法を確認します。
+description: 電子メールデザイナーでゼロから電子メールをデザインする方法を確認します。
 page-status-flag: 非活性化の
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: ソビア
@@ -14,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -32,7 +30,7 @@ source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 1. 構造コンポーネントにコンテンツコンポーネントとフラグメントを挿入します。 詳しくは、フラ [グメントとコンテンツコンポーネントの追加を参照してくださ](#defining-the-email-structure)い。
 1. 画像を追加し、電子メールのテキストを編集します。 詳しくは、イ [メージの挿入を参照してくださ](../../designing/using/images.md#inserting-images)い。
 1. パーソナライゼーションフィールドやリンクなどを追加して、電子メールをパーソナライズします。 詳しくは、 [パーソナライゼーション](../../designing/using/personalization.md#inserting-a-personalization-field)フィールドの挿入 [、リンクの挿入](../../designing/using/links.md#inserting-a-link) 、電子 [メールでの動的コンテンツの定義を参照してください](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)。
-1. 電子メールの件名行を定義します。 詳しくは、 [電子メールの件名行のパーソナライズを参照してください](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email)。
+1. 電子メールの件名行を定義します。 See [Personalizing the subject line of an email](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
 1. 電子メールをプレビューします。
 1. コンテンツを保存し、オーディエンスが定義され、送信が正しくスケジュールされていることを確認した後、メッセージを進めます。
 
