@@ -1,8 +1,6 @@
 ---
 title: 'コンポーネントのリスト '
-seo-title: 'コンポーネントのリスト '
-description: 'コンポーネントのリスト '
-seo-description: 動的レポートで使用できるすべてのコンポーネントとその定義を以下に示します。
+description: 動的レポートで使用できるすべてのコンポーネントとその定義を以下に示します。
 page-status-flag: 非活性化の
 uuid: a2403806-8df4-4bb1-bac2-2689dc584ae0
 contentOwner: ソビア
@@ -14,12 +12,12 @@ discoiquuid: 17cf126a-7ce1-4e11-bb5e-2bdce01cfded
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c2eecf17e121f51d3e94362304738d0c0e75d2d0
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# コンポーネントのリスト {#list-of-components}
+# コンポーネントのリスト{#list-of-components}
 
 ディメンションと指標の互換性の詳細については、次の表を参照してく [ださい](https://docs.campaign.adobe.com/doc/standard/en/Technotes/dynamic_report_compatibility.pdf)。 2つのコンポーネントが互換性がない場合、セルに「なし」の値が表示さ **れます**。
 
