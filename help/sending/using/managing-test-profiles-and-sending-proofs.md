@@ -1,8 +1,6 @@
 ---
 title: テストプロファイルの管理と校正の送信
-seo-title: テストプロファイルの管理と校正の送信
-description: テストプロファイルの管理と校正の送信
-seo-description: テストのプロファイルと校正を管理する方法について説明します。
+description: テストのプロファイルと校正を管理する方法について説明します。
 page-status-flag: 非活性化の
 uuid: eb4d893b-3724-4b15-9312-1ec74784368d
 contentOwner: ソビア
@@ -15,7 +13,7 @@ context-tags: seedMember,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -158,12 +156,12 @@ source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
 
    ![](assets/trap_select.png)
 
-1. メッセージの内容の準備が整ったら、ボタンをクリック **[!UICONTROL Prepare]** します。 詳しくは、 [送信の準備を参照してください](../../sending/using/preparing-the-send.md)。
+1. メッセージの内容の準備が整ったら、ボタンをクリック **[!UICONTROL Prepare]** します。 See [Preparing the send](../../sending/using/preparing-the-send.md).
    >[!NOTE]
    >
    >メインターゲットが選択されていることを確認します。 そうしないと、メッセージを送信できません。
 
-1. Click the **[!UICONTROL Confirm]** button. 「送信 [の確認](../../sending/using/confirming-the-send.md)」を参照。
+1. Click the **[!UICONTROL Confirm]** button. See [Confirming the send](../../sending/using/confirming-the-send.md).
 
    ![](assets/trap_confirm.png)
 
