@@ -1,8 +1,6 @@
 ---
 title: 配信の監視
-seo-title: 配信の監視
-description: 配信の監視
-seo-description: 配信の監視方法を確認します。
+description: 配信の監視方法を確認します。
 page-status-flag: 非活性化の
 uuid: 7772c607-debd-40fd-8322-4d49119979b4
 contentOwner: ソビア
@@ -15,7 +13,7 @@ context-tags: 配信，メイン
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
