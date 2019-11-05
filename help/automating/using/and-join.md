@@ -1,49 +1,47 @@
 ---
-title: AND- join
-seo-title: AND- join
-description: AND- join
-seo-description: AND- joinアクティビティを使用すると、ワークフローの複数の実行ブランチを同期できます。
-page-status-flag: 常にアクティブ化されていない
-uuid: 9b54fd4c-9915-400f- a494-74e52c329b8a
-contentOwner: サウビート
-products: SG_ CAMPAIGN/STANDARD
+title: AND 結合
+description: AND結合アクティビティを使用すると、ワークフローの複数の実行ブランチを同期できます。
+page-status-flag: 非活性化の
+uuid: 9b54fd4c-9915-400f-a494-74e52c329b8a
+contentOwner: ソビア
+products: SG_CAMPAIGN/STANDARD
 audience: 自動化
 content-type: 参照
-topic-tags: 実行アクティビティ
-discoiquuid: 4b55efa2-652e-4493- bfa7- eaee59b383ca
-context-tags: '& join， main'
+topic-tags: 実行活動
+discoiquuid: 4b55efa2-652e-4493-bfa7-eaee59b383ca
+context-tags: andjoin,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e384a0cef325bc01eb5ea050b0f3d926aea9a88f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# AND-join{#and-join}
+# AND 結合{#and-join}
 
 ## 説明 {#description}
 
 ![](assets/and_join.png)
 
-**[!UICONTROL AND-join]** アクティビティでは、ワークフローの複数の実行ブランチを同期できます。
+アクティビティ **[!UICONTROL AND-join]** を使用すると、ワークフローの複数の実行ブランチを同期できます。
 
-## Context of use {#context-of-use}
+## 使用状況 {#context-of-use}
 
-**[!UICONTROL AND-join]** このアクティビティでは、すべてのインバウンドトランジションがアクティブ化されると、送信トランジションがトリガーされます（つまり、前のすべてのアクティビティが完了した後）。
+アクティビティ **[!UICONTROL AND-join]** は、すべてのインバウンドトランジションがアクティブ化される（つまり、前のアクティビティがすべて完了する）と、アウトバウンドトランジションをトリガーするだけです。
 
-## Configuration {#configuration}
+## 設定 {#configuration}
 
-1. ワークフローにクエリなど複数のアクティビティをドロップして、少なくとも2つの異なる実行ブランチをフォームに送信します。
-1. Drag and drop an **[!UICONTROL AND-join]** activity into your workflow.
+1. クエリーなどの複数のアクティビティをワークフローにドロップし、少なくとも2つの異なる実行ブランチを形成します。
+1. アクティビティをワークフロー **[!UICONTROL AND-join]** にドラッグ&amp;ドロップします。
 1. 同期する2つの異なるブランチの後に接続します。
-1. Select the activity, then open it using the ![](assets/edit_darkgrey-24px.png) button from the quick actions that appear.
-1. アウトバウンドトランジションに保持するメインセットを選択します。セットを選択しない場合、ランダムな母集団がアクティビティから送信されます。
+1. アクティビティを選択し、表示されるクイックアクシ ![](assets/edit_darkgrey-24px.png) ョンのボタンを使用して開きます。
+1. アウトバウンドトランジションに保持するメインセットを選択します。 セットを選択しない場合、アクティビティからランダムな母集団が送信されます。
 1. アクティビティの設定を確認し、ワークフローを保存します。
 
-## Example {#example}
+## 例 ：{#example}
 
-The following example shows two workflow branches before they are joined with the **[!UICONTROL AND-join]** activity. File extraction can only take place when the three inbound transitions of the **[!UICONTROL AND-join]** activity are enabled.
+次の例は、アクティビティに結合される前の2つのワークフローブランチを示し **[!UICONTROL AND-join]** ています。 ファイルの抽出は、アクティビティの3つの受信遷移が有効な場合にのみ **[!UICONTROL AND-join]** 行われます。
 
 ![](assets/wkf_and-join_example.png)
 
