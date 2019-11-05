@@ -1,8 +1,6 @@
 ---
 title: パーソナライゼーション
-seo-title: パーソナライゼーション
-description: パーソナライゼーション
-seo-description: 電子メールデザイナーで電子メールをパーソナライズする方法を確認します。
+description: 電子メールデザイナーで電子メールをパーソナライズする方法を確認します。
 page-status-flag: 非活性化の
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: ソビア
@@ -14,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -26,7 +24,7 @@ Adobe Campaignが配信するメッセージのコンテンツと表示は、様
 * パーソナライゼーションフィールドの動的な挿入：See [Inserting a personalization field](#inserting-a-personalization-field).
 * 定義済みパーソナライゼーションブロックの挿入：詳しくは、コ [ンテンツブロックの追加を参照してくださ](#adding-a-content-block)い。
 * 電子メールの送信者をパーソナライズします。 詳しくは、送 [信者の個人設定を参照してください](#personalizing-the-sender)。
-* 電子メールの件名をパーソナライズします。 詳しくは、 [電子メールの件名行のパーソナライズを参照してください](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email)。
+* 電子メールの件名をパーソナライズします。 See [Personalizing the subject line of an email](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
 * 条件付きコンテンツの作成：詳しくは、電 [子メールでの動的コンテンツの定義を参照してください。](#defining-dynamic-content-in-an-email)
 
 ## 送信者の個人設定 {#personalizing-the-sender}
