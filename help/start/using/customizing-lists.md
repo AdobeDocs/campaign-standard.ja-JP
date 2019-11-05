@@ -1,63 +1,61 @@
 ---
 title: リストのカスタマイズ
-seo-title: リストのカスタマイズ
-description: リストのカスタマイズ
-seo-description: '"Adobe Campaign Standardのリスト画面の表示と操作をカスタマイズする方法について教えてください。要素の並べ替え、フィルタリング、削除または複製を行うことができます。画面には、1つまたは複数のリソースの要素が表示されます」。'
-page-status-flag: 常にアクティブ化されていない
-uuid: 3350583c-91ca-4ea5- ac14-6b6f11c4a64a
-contentOwner: サウビート
-products: SG_ CAMPAIGN/STANDARD
-audience: start
+description: 「Adobe Campaign Standardのリスト画面での表示と動作をカスタマイズする方法（要素の並べ替え、フィルタリング、削除、複製）について説明します。 画面には、1つまたは複数の特定のリソースの要素が表示されます。」
+page-status-flag: 非活性化の
+uuid: 3350583c-91ca-4ea5-ac14-6b6f11c4a64a
+contentOwner: ソビア
+products: SG_CAMPAIGN/STANDARD
+audience: 開始
 content-type: 参照
-topic-tags: Discover- the- interface
-discoiquuid: 4ba4f766- fdee-4ff0-8fe4-0612ed2b69a4
+topic-tags: 発見 — インターフェース
+discoiquuid: 4ba4f766-fdee-4ff0-8fe4-0612ed2b69a4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a12df43de55dedf388a397fbf4670d99e3ea7f3d
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Customizing lists{#customizing-lists}
+# リストのカスタマイズ{#customizing-lists}
 
 **リスト** 画面では、1つまたは複数のリソースの要素を表示できます。
 
 Adobe Campaignには、次の2種類のリストがあります。
 
-* **単一** のリスト（1つのタイプのリソースを含む）。例えば、プロファイルリストにプロファイルのみが含まれているとします。
-* **多様** なタイプのリソースを含む、多様なリストです。例えば、マーケティングアクティビティのリストにはランディングページ、ワークフロー、電子メール、SMSなどがあります。
+* 同種 **リスト** 。単一のタイプのリソースを含む場合です。 例えば、プロファイルリストにはプロファイルのみが含まれています。
+* 異種 **リスト** 。複数のタイプのリソースを含むリストです。 例えば、マーケティング活動のリストには、ランディングページ、ワークフロー、電子メール、SMSなどが含まれます。
 
-リストは列に表示されます。各列は、一度に1つずつ昇順または降順に並べ替えることができます。
+リストは列に表示されます。 各列は、昇順または降順で並べ替えることができます。
 
-リスト内の要素には、選択できるチェックボックスがあります。1つまたは複数の要素を選択することで、編集、複製、削除などの複数のアクションを実行できます。
+リスト内の要素には、選択できるチェックボックスがあります。 1つまたは複数の要素を選択することで、これらの要素の編集、複製、削除などの操作を実行できます。
 
-When hovering over an element in the list, **quick actions**. これらのアクションによって、ユーザーは、編集、選択、削除、詳細表示など、カーソルを合わせた要素に対して様々なアクションを実行できます。
+リスト内の要素の上にカーソルを置くと、クイックアク **ションが表示され**&#x200B;る。 これらのアクションを使用すると、ユーザーはカーソルを合わせた要素に対して、編集、選択、削除、詳細の表示など様々なアクションを実行できます。
 
 ![](assets/overview_list_quickactions.png)
 
-リスト内の列を表示するかどうかを設定することもできます。列を追加または削除するには:
+また、リスト内の列を表示するかどうかを設定することもできます。 列を追加または削除するには：
 
-1. Make sure that the screen is in **List** mode.
+1. 画面がリストモードになっていることを確 **認します** 。
 
    ![](assets/export_list_mode_switch.png)
 
-1. Go to the list configuration window by selecting the ![](assets/columnsettings.png) button in the action bar.
+1. アクションバーのボタンを選択して、リスト設 ![](assets/columnsettings.png) 定ウィンドウに移動します。
 
    ![](assets/list_configuration1.png)
 
-1. リストに含める列を追加します。To do this, select a column from the left-hand side of the window, then use the ![](assets/arrowright.png) button from the action bar to add a column.
+1. リストに含める列を追加します。 これを行うには、ウィンドウの左側で列を選択し、アクションバーのボ ![](assets/arrowright.png) タンを使用して列を追加します。
 
-   選択可能な列は、リストリソースに対応しています。
+   選択可能な列は、リストリソースに対応します。
 
-   列ごとに、デフォルトで並べ替えを適用するかどうかを指定します。
+   追加された各列に対して、デフォルトで並べ替えを適用するかどうかを指定します。
 
-   * **[!UICONTROL NO]**:列に並べ替えなし
-   * **[!UICONTROL ASC]**:列に昇順（昇順）を適用します
-   * **[!UICONTROL DESC]**:列に降順（降順）を適用します。
+   * **[!UICONTROL NO]**:列の並べ替えなし
+   * **[!UICONTROL ASC]**:列に昇順（昇順）の並べ替えを適用します
+   * **[!UICONTROL DESC]**:列に降順（降順）の並べ替えを適用します。
 
-1. 削除する列に対応するボックスをチェックして、表示しない列を削除します。Then, use the ![](assets/delete.png) button from the action bar to confirm deleting them.
-1. リストに正しい列が表示されたら、移動する列をチェックしてリストに表示される順序を変更できます。Then, use the ![](assets/arrowdown.png) and ![](assets/arrowup.png) arrows.
-1. Confirm your list configuration by selecting **[!UICONTROL OK]**.
+1. 削除する列に対応するボックスをオンにして、表示しない列を削除します。 次に、アクションバ ![](assets/delete.png) ーのボタンを使用して、削除を確認します。
+1. リストに正しい列が含まれている場合は、移動する列をチェックして、リストに表示される列の順序を変更できます。 次に、矢印と矢印を ![](assets/arrowdown.png) 使用し ![](assets/arrowup.png) ます。
+1. を選択して、リストの設定を確認しま **[!UICONTROL OK]**&#x200B;す。
 
-設定したとおりにリストが表示されるようになりました。
+リストは設定したとおりに表示されます。
