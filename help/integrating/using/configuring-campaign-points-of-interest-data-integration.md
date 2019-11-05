@@ -1,8 +1,6 @@
 ---
 title: キャンペーン目標地点データ統合の設定
-seo-title: キャンペーン目標地点データ統合の設定
-description: キャンペーン目標地点データ統合の設定
-seo-description: 購読者の場所に基づいてパーソナライズされたメッセージを送信するためのAdobe Campaignの目標地点データ機能の設定方法について説明します。
+description: 購読者の場所に基づいてパーソナライズされたメッセージを送信するためのAdobe Campaignの目標地点データ機能の設定方法について説明します。
 page-status-flag: 非活性化の
 uuid: 0689a06c-cc1a-442f-95b8-a07fcec85d79
 contentOwner: ソビア
@@ -14,7 +12,7 @@ discoiquuid: a967c6cc-c53b-41b4-866b-90860d78f463
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -218,4 +216,4 @@ Adobe Campaignで正常に作成されたアプリにアクセスするには：
 
 現在のプロファイルで収集された目標地点データが表示されます。 場所のデータは、6か月間Adobe Campaignデータベースに保存されます。
 
-プロファイルへのアクセスと編集について詳しくは、プロファイルを
+プロファイルへのアクセスと編集について詳しくは、プロファイルを参照し [てくださ](../../audiences/using/about-profiles.md)い。
