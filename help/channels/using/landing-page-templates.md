@@ -1,8 +1,6 @@
 ---
 title: ランディングページテンプレート
-seo-title: ランディングページテンプレート
-description: ランディングページテンプレート
-seo-description: ランディングページテンプレートの詳細。
+description: ランディングページテンプレートの詳細。
 page-status-flag: 非活性化の
 uuid: b316bf47-7d98-46fa-ab4f-67ff50de8095
 contentOwner: レメイト
@@ -15,7 +13,7 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9cdfafad7a2ac2db59b037962a84aa03568a55e6
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
