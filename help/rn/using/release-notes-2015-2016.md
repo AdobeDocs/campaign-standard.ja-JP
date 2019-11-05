@@ -1,8 +1,6 @@
 ---
-title: リリースノート2015-2016
-seo-title: リリースノート2015-2016
-description: リリースノート2015-2016
-seo-description: このページには、Adobe Campaign Standardの2015年リリースと2016年リリースがすべて一覧表示されます。
+title: リリースノート 2015 - 2016
+description: このページには、Adobe Campaign Standardの2015年リリースと2016年リリースがすべて一覧表示されます。
 page-status-flag: 非活性化の
 uuid: d5a0f6cc-0bed-46cf-8dff-1717fb624f8f
 contentOwner: ソビア
@@ -14,12 +12,12 @@ discoiquuid: a3ce6b80-1858-49d1-8880-3543181127f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 159c33639ab7b53558dac2ce183c3801c15ccb0f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Release Notes 2015-2016{#release-notes}
+# リリースノート 2015 - 2016{#release-notes}
 
 2015 ～ 2016年版のAdobe Campaign Standardリリースをお探しですか？
 
@@ -68,7 +66,7 @@ Adobe Campaign Standardの最新のドキ [ュメントの更新](../../rn/using
 * では、学習したサブジェクトラインモデルのデータの読み込み専用の新しい画面を利用できるようになりまし **[!UICONTROL Administration > Channels > Emails > Predictive Subject Line]** た。
 * 管理者以外のユーザーが電子メール設定画面で許可されたマスクを編集できる問題を修正しました。
 
-#### プッシュ通知 {#push-notifications}
+#### プッシュ通知{#push-notifications}
 
 * テンプレートを使用してプッシュ通知を送信した後、受信者に対してログとイベントログが表示されない問題を修正し **[!UICONTROL Send push on profiles]** ました。
 * 新しいモバイルアプリケーションが作成されない可能性がある問題を修正しました。
@@ -130,12 +128,12 @@ Adobe Campaign Standardの最新のドキ [ュメントの更新](../../rn/using
 
 * SMS外部アカウント設定画面( **[!UICONTROL Administration > Channels > SMS > SMS accounts]** )が改善されました。 「テキスト」フィールドのエラーコードをサ **[!UICONTROL SMSC specifics]** ポートするために、この節にいくつかのパラメータが追加されました。
 
-#### プッシュ通知 {#push-notifications-1}
+#### プッシュ通知{#push-notifications-1}
 
 * (mobileApp)テンプレートに基づくプッシュ通知のオーディエンスを編集する際に、事前定義済みのフィルターが表示されな **[!UICONTROL Send via push notification]** い問題を修正しました。
 * モバイルアプリケーション設定画面( **[!UICONTROL Administration > Channels > Push Notification > Mobile applications]** )に、iOSまたはAndroidプラットフォームが正常に作成されたことを示すメッセージが表示されるようになりました。
 
-#### ランディングページ {#landing-pages}
+#### ランディングページ{#landing-pages}
 
 * ランディングページフォームが送信された場合に確認電子メールが送信されない問題を修正しました。
 
@@ -316,7 +314,7 @@ Adobe Campaign Standardの最新のドキ [ュメントの更新](../../rn/using
 * データを追加する際に表示される集計定義ウィンドウが、使用中のデータと互換性のあるオプションのみを提供するように改善されました(例：平均の計算は、数値データに対してのみ可能です)。
 * 標準搭載の技術ワークフローの開始または再開は、管理者権限を持つユーザーのみが実行できるようになりました。
 
-#### ランディングページ {#landing-pages-1}
+#### ランディングページ{#landing-pages-1}
 
 * ランディングページのプロパティで32ビットAESコーディングキーが切り捨てられる可能性があるエラーを修正しました。
 * 表示条件を定義する場合や、ランディングページに動的コンテンツを追加する場合に、クエリエディターが正しく表示されないエラーを修正しました。
@@ -453,7 +451,7 @@ Adobe Campaign Standardの最新のドキ [ュメントの更新](../../rn/using
 * アクティビティの追加後にワークフローが保存されなかった場合に、パーソナライゼーションフィールドをワークフローの配信アクティビティに挿入できないエラーを修正しました。
 * 電子メール配信アクティビティの送信トランジションターゲットディメンションが表示されないエラーを修正しました。
 
-#### ランディングページ {#landing-pages-2}
+#### ランディングページ{#landing-pages-2}
 
 * ランディングページのローカライズ可能なコンテンツブロックで、パーソナライゼーションフィールドが正しく機能しないエラーを修正しました。
 
@@ -611,7 +609,7 @@ Adobe Campaign Standardの最新のドキ [ュメントの更新](../../rn/using
 
 * コンテンツの編集時に、アイコンや検索バーが不適切に表示される原因となるエラーを修正しました。
 
-#### ランディングページ {#landing-pages-3}
+#### ランディングページ{#landing-pages-3}
 
 * パッケージのインポートを使用してランディングページをインポートできないエラーを修正しました。
 
@@ -667,7 +665,7 @@ Adobe Campaign Standardの最新のドキ [ュメントの更新](../../rn/using
 * **フローティング** データは、カスタムリソースで正しく考慮されるようになりました。
 * 対応するテンプレートのステータスが変更された場合に発生する、実行された簡易インポートのリストの表示エラーを修正しました。
 
-#### ランディングページ {#landing-pages-4}
+#### ランディングページ{#landing-pages-4}
 
 * 英語のインスタンスでフランス語で誤って表示される可能性があるランディングページテンプレートの一部の要素を修正しました。
 
@@ -766,7 +764,7 @@ Adobe Campaign Standardの最新のドキ [ュメントの更新](../../rn/using
 * 特定のログの書き込みに15分の遅延が発生する可能性があるエラーを修正しました。
 * または列で並べ替えた場合にマーケティングアクティビティリストが表示されない可能性があるエラーを **[!UICONTROL Date]** 修正し **[!UICONTROL Indicators]** ました。
 
-#### ランディングページ {#landing-pages-5}
+#### ランディングページ{#landing-pages-5}
 
 * ランディングページをプレビューするためにテストプロファイルを選択する際に発生するエラーを修正しました。
 
@@ -839,7 +837,7 @@ Adobe Campaign Standardの最新のドキ [ュメントの更新](../../rn/using
 
 * ワークフロー実行ログの「メッ **セージ** 」列が正しくエクスポートされないエラーを修正しました。
 
-#### プロファイルとオーディエンス {#profiles-and-audiences}
+#### プロファイルとオーディエンス{#profiles-and-audiences}
 
 * 要素が複製または削除された日時を二重に確認するエラーを修正しました。 **Internet Explorer 11のみを使用するハイブリッドデバイス**。
 
@@ -913,7 +911,7 @@ Adobe Campaign Standardの最新のドキ [ュメントの更新](../../rn/using
 
 * 式エディターを使用して動的コンテンツが追加された場合に、電子メールを送信する前にJavaScript構文エラーを確認できないエラーを修正しました。
 
-#### ランディングページ {#landing-pages-6}
+#### ランディングページ{#landing-pages-6}
 
 * ランディングページをタブレットから編集できないエラーを修正しました。
 
@@ -992,7 +990,7 @@ Adobe Campaign Standardの最新のドキ [ュメントの更新](../../rn/using
 * Internet Explorer 11を使用するMicrosoft Surface Pro3 **[!UICONTROL Edit properties]** タブレッ **[!UICONTROL Show proofs]** トで、ボタンとボタンが使用できないエラーを修正しました。
 * 電子メールの送信ログが表示されない可能性があるエラーを修正しました。
 
-#### ランディングページ {#landing-pages-7}
+#### ランディングページ{#landing-pages-7}
 
 * ランディングページのコンテンツを編 **集する際に** 、ブランドロゴコンテンツブロックが使用できないエラーを修正しました。
 * ランディングページに有効日が指定されている場合に、マーケティングアクティビティリストにランディングページが表示されないエラーを修正しました。
