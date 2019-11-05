@@ -1,50 +1,48 @@
 ---
 title: 送信時間の最適化
-seo-title: 送信時間の最適化
-description: 送信時間の最適化
-seo-description: 送信時間を設定し、メッセージのオープンレートを向上させる方法について説明します。
-page-status-flag: 常にアクティブ化されていない
-uuid: c2c13934-9819-4e18- b5c7-60915c907f37
-contentOwner: サウビート
-products: SG_ CAMPAIGN/STANDARD
-audience: 送信中
+description: 送信時間を設定し、メッセージの開封率を改善する方法を説明します。
+page-status-flag: 非活性化の
+uuid: c2c13934-9819-4e18-b5c7-60915c907f37
+contentOwner: ソビア
+products: SG_CAMPAIGN/STANDARD
+audience: 送信
 content-type: 参照
-topic-tags: 削除されたドキュメント
-discoiquuid: 609355f6-9003-41b9-9981- ea787419fbf5
+topic-tags: スケジュール・メッセージ
+discoiquuid: 609355f6-9003-41b9-9981-ea787419fbf5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6a877d878f01fa1e541dc20b8b0941602113d15b
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Optimizing the sending time{#optimizing-the-sending-time}
+# 送信時間の最適化{#optimizing-the-sending-time}
 
-メッセージのオープンレートを向上させるために、受信者ごとに送信時間を手動で定義できます。可能な限り、各プロファイルは指定された日時にメッセージを受け取ります。
+メッセージの開封率を向上させるには、受信者1人あたりの送信時間を手動で定義します。 各プロファイルは、可能な限り、指定した日時にメッセージを受信します。
 
 送信時間の定義は、配信レベルで行うことも、ワークフローを使用することもできます。
 
-電子メールの場合、サーバーの負荷と再試行量に応じて、各受信者に対してスケジュールされた日時にメッセージを送信します。
+電子メールの場合、サーバーの読み込みと再試行の回数に応じて、各受信者に対してスケジュールされた日時にメッセージを送信するのに最善の方法が講じられます。
 
-* 再試行は、インターネットプロバイダーと評価によって異なります。最初の試行時にメッセージが受け入れられない場合があり、いくつかの再試行が実行される可能性があります。See [List of email channel parameters](../../administration/using/configuring-email-channel.md).
-* 帯域幅が不足していると、電子メールの受信時に遅延が発生することがあります。
+* 再試行は、インターネットプロバイダーと評判によって異なります。 最初の試行時にメッセージが受け入れられない場合があり、再試行がいくつか行われる場合があります。 詳しくは、電 [子メールチャネルパラメーターのリストを参照してくださ](../../administration/using/configuring-email-channel.md)い。
+* 帯域幅が不十分なため、電子メールの受信に遅延が生じる場合があります。
 
-You can view when the message was sent to each recipient in the [sending logs](../../sending/using/monitoring-a-delivery.md#sending-logs).
+送信ログで、各受信者にメッセージがいつ送信されたかを確 [認できます](../../sending/using/monitoring-a-delivery.md#sending-logs)。
 
-いくつかのオプションがあります。
+次のいくつかのオプションを使用できます。
 
 * **[!UICONTROL No optimization]**:メッセージはユーザーの時刻に送信されます。
 
-   For example, if your time zone is GMT+1 and if you enter 9:00 AM in the **[!UICONTROL Start sending from]** field, a recipient located in the GMT+3 time zone will receive the message at 11:00 AM local time for that recipient.
+   例えば、タイムゾーンがGMT+1で、フィールドに午前9:00を入力した場合、GMT+3タイムゾーンの受信者は、その受信者の現地時間の午前11:00時にメッセージを受信します。 **[!UICONTROL Start sending from]**
 
-* **[!UICONTROL Send at the recipient's time zone]**:すべての受信者は、タイムゾーンを考慮してメッセージを受け取ります。
+* **[!UICONTROL Send at the recipient's time zone]**:すべての受信者は、タイムゾーンを考慮したメッセージを受信します。
 
-   **[!UICONTROL Start sending from]** 例えば、フィールドに"9:00AM"と入力した場合、GMT+3タイムゾーンにある受信者は、その受信者の午前9:00の午前9時にメッセージを受け取ります。
+   例えば、フィールドに「9:00 AM」と入力した場合、GMT+3タイムゾーンの受信者は、その受信者の現地時間の午前9:00にメッセージを受信します。 **[!UICONTROL Start sending from]**
 
    See [Sending messages at the recipient's time zone](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md).
 
-* **[!UICONTROL Send at a custom date defined by a formula]**:各受信者は、指定した数式によって設定された日時にメッセージを受け取ります。
+* **[!UICONTROL Send at a custom date defined by a formula]**:各受信者は、指定した数式で設定された日時にメッセージを受信します。
 
    See [Computing the sending date](../../sending/using/computing-the-sending-date.md).
 
