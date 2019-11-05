@@ -1,36 +1,34 @@
 ---
 title: チャネルアクティビティについて
-seo-title: チャネルアクティビティについて
-description: チャネルアクティビティについて
-seo-description: チャネルアクティビティは画面の左側から利用できます。
-page-status-flag: 常にアクティブ化されていない
-uuid: 900e0580-2e56-4aaf- b584-58d8e9a408cf
-contentOwner: サウビート
-products: SG_ CAMPAIGN/STANDARD
+description: チャネルアクティビティは、画面の左側から利用できます。
+page-status-flag: 非活性化の
+uuid: 900e0580-2e56-4aaf-b584-58d8e9a408cf
+contentOwner: ソビア
+products: SG_CAMPAIGN/STANDARD
 audience: 自動化
 content-type: 参照
-topic-tags: チャネルアクティビティ
-discoiquuid: 4e665635-5f2a-4344- a924-4e6f6f848568
+topic-tags: チャネル活動
+discoiquuid: 4e665635-5f2a-4344-a924-4e6f6f848568
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# About channel activities{#about-channel-activities}
+# チャネルアクティビティについて{#about-channel-activities}
 
-From the palette, on the left-hand side of the screen, unfold the **[!UICONTROL Channels]** section.
+パレットの画面の左側で、セクションを展開し **[!UICONTROL Channels]** ます。
 
-これらのアクティビティは、使用可能な様々な通信チャネルを表します。組み合わせて、クロスチャネルワークフローを作成できます。
+これらのアクティビティは、様々な通信チャネルを表します。 これらを組み合わせて、クロスチャネルワークフローを作成できます。
 
 ![](assets/wkf_channels_activities.png)
 
-**[!UICONTROL Channels]** この節では、次のアクティビティについて説明します。
+このセクシ **[!UICONTROL Channels]** ョンでは、以下のアクティビティを提供します。
 
-* [電子メール配信](../../automating/using/email-delivery.md)
-* [SMS配信](../../automating/using/sms-delivery.md)
+* [E メール配信](../../automating/using/email-delivery.md)
+* [SMS 配信](../../automating/using/sms-delivery.md)
 * [プッシュ通知配信](../../automating/using/push-notification-delivery.md)
 * [ダイレクトメール配信](../../automating/using/direct-mail-delivery.md)
 * [アプリ内配信](../../automating/using/in-app-delivery.md)
