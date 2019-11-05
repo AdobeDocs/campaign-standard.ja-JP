@@ -1,56 +1,54 @@
 ---
 title: ファイルの抽出
-seo-title: ファイルの抽出
-description: ファイルの抽出
-seo-description: ファイルアクティビティを抽出すると、Adobe Campaignから外部ファイルの形式でデータを書き出すことができます。
-page-status-flag: 常にアクティブ化されていない
-uuid: 631f0fbd-9e8d-4f77- a338- fcb7f4fc1774
-contentOwner: サウビート
-products: SG_ CAMPAIGN/STANDARD
+description: 「ファイルの抽出」アクティビティを使用すると、外部ファイルの形式でAdobe Campaignからデータをエクスポートできます。
+page-status-flag: 非活性化の
+uuid: 631f0fbd-9e8d-4f77-a338-fcb7f4fc1774
+contentOwner: ソビア
+products: SG_CAMPAIGN/STANDARD
 audience: 自動化
 content-type: 参照
-topic-tags: data- management- activity
-discoiquuid: a06509f9-4731-4187- b43d-3bfa361284d3
-context-tags: fileExport、main
+topic-tags: データ管理活動
+discoiquuid: a06509f9-4731-4187-b43d-3bfa361284d3
+context-tags: fileExport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e384a0cef325bc01eb5ea050b0f3d926aea9a88f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Extract file{#extract-file}
+# ファイルの抽出{#extract-file}
 
 ## 説明 {#description}
 
 ![](assets/export.png)
 
-**[!UICONTROL Extract file]** アクティビティでは、Adobe Campaignから外部ファイルの形式でデータを書き出すことができます。
+このア **[!UICONTROL Extract file]** クティビティでは、外部ファイルの形式でAdobe Campaignからデータをエクスポートできます。
 
-## Context of use {#context-of-use}
+## 使用状況 {#context-of-use}
 
-データの抽出方法は、アクティビティの設定時に定義されます。
+データの抽出方法は、アクティビティを設定する際に定義します。
 
 >[!CAUTION]
 >
->**[!UICONTROL Extract file]** アクティビティを使用するには **[!UICONTROL Query]** 、アクティビティの後にアクティビティを配置する必要があります。
+>アクティビティ **[!UICONTROL Extract file]** を使用するには、アクティビティの後 **[!UICONTROL Query]** にアクティビティを配置する必要があります。
 
-## Configuration {#configuration}
+## 設定 {#configuration}
 
-1. Drag and drop an **[!UICONTROL Extract file]** activity into your workflow.
+1. アクティビティをワークフロー **[!UICONTROL Extract file]** にドラッグ&amp;ドロップします。
 
    ![](assets/wkf_data_export1.png)
 
-1. Select the activity, then open it using the ![](assets/edit_darkgrey-24px.png) button from the quick actions that appear.
-1. **出力ファイルのラベルを入力**&#x200B;します。ファイルのラベルは、一意になるように作成された日時で自動的に完了します。次に例を示します。recipients_20150815_081532.txtファイルの場合、2015年8月15日15時15:32になります。
+1. アクティビティを選択し、表示されるクイックアクシ ![](assets/edit_darkgrey-24px.png) ョンのボタンを使用して開きます。
+1. 出力ファイルのラベルを **入力します**。 ファイルのラベルは、一意になるように作成された日時と共に自動的に完成します。 例：ファイルのrecipients_20150815_081532.txtでは、2015年8月15日08:15:32に生成されました。
 
    >[!NOTE]
    >
-   >It is possible to use the **[!UICONTROL formatDate]** function in this field to specify the file name.
+   >このフィールドの関数を使 **[!UICONTROL formatDate]** 用して、ファイル名を指定できます。
 
-1. If you like, you can zip the output file by selecting **[!UICONTROL Compression]** in the **[!UICONTROL Add a pre-processing step]** field. 出力ファイルはGZIPファイル（.gz）に圧縮されます。
-1. Click the ![](assets/add_darkgrey-24px.png) or **[!UICONTROL Add an element]** button to add an output column.
+1. 必要に応じて、フィールド内のを選択して、出力ファイルのzip **[!UICONTROL Compression]** 圧縮を行い **[!UICONTROL Add a pre-processing step]** ます。 出力ファイルは圧縮されてGZIPファイル(.gz)になります。
+1. 出力列を追加す ![](assets/add_darkgrey-24px.png) るには、ま **[!UICONTROL Add an element]** たはボタンをクリックします。
 
    ![](assets/wkf_data_export2.png)
 
@@ -58,62 +56,62 @@ source-git-commit: e384a0cef325bc01eb5ea050b0f3d926aea9a88f
 
    ![](assets/wkf_data_export3.png)
 
-1. 式を入力します。To do this, you can select an existing expression or create a new one using the **expression editor**.
+1. 式を入力します。 これを行うには、既存の式を選択するか、式エディターを使用して新しい式を作 **成します**。
 1. 式を確認します。
 
-   式が出力列に追加されます。
+   出力列に式が追加されます。
 
-1. 必要な数の列を作成します。式とラベルをクリックして、列を編集できます。
+1. 必要な数の列を作成します。 列の式とラベルをクリックして、列を編集できます。
 
-   プロファイルをエクスポートし、外部ツールで使用する場合は、一意の識別子を書き出してください。デフォルトでは、データベースに追加される方法に応じて、すべてのプロファイルに一意の識別子があります。For more information, refer to the [Generating a unique ID for profiles](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources) section.
+   プロファイルを書き出して、外部ツールで使用する場合は、一意の識別子を書き出す必要があります。 デフォルトでは、すべてのプロファイルがデータベースに追加される方法に応じて一意の識別子を持つわけではありません。 詳しくは、「プロファイルの一意のID [の生成」の節を参照してください](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources) 。
 
-1. Click the **[!UICONTROL File structure]** tab to configure the output, date, and number formats for the file that will be exported.
+1. タブをク **[!UICONTROL File structure]** リックして、書き出すファイルの出力形式、日付形式、数値形式を設定します。
 
-   Check the **[!UICONTROL Export labels instead of internal values of enumerations]** option in case you export enumeration values. このオプションを使用すると、IDの代わりに理解しやすい短いラベルを取得できます。
+   列挙値をエクス **[!UICONTROL Export labels instead of internal values of enumerations]** ポートする場合は、このオプションを選択します。 このオプションを使用すると、IDの代わりに理解しやすい短いラベルを取得できます。
 
-1. In the **[!UICONTROL Properties]** tab, select the **[!UICONTROL Do not generate a file if the inbound transition is empty]** option to avoid creating and uploading empty files on SFTP servers if the inbound transition is empty.
+1. 受信トランジ **[!UICONTROL Properties]** ションが空の場合にSFTPサ **[!UICONTROL Do not generate a file if the inbound transition is empty]** ーバー上で空のファイルを作成してアップロードしないようにするには、タブでこのオプションを選択します。
 1. アクティビティの設定を確認し、ワークフローを保存します。
 
-## Example {#example}
+## 例 ：{#example}
 
-The following example illustrates how to configure an **[!UICONTROL Extract file]** activity after a **[!UICONTROL Query]** activity.
+次の例は、アクティビティの後にアクティビティを設 **[!UICONTROL Extract file]** 定する方法を示し **[!UICONTROL Query]** ています。
 
-このワークフローの目的は、プロファイルのリストを外部ファイル形式でエクスポートし、Adobe Campaign以外でデータを使用できるようにすることです。
+このワークフローの目的は、データをAdobe Campaignの外部で使用できるように、プロファイルのリストを外部ファイルの形式でエクスポートすることです。
 
-1. Drag and drop an **[!UICONTROL Extract file]** activity into your workflow and place it after the **[!UICONTROL Query]** activity.
+1. アクティビティをワークフ **[!UICONTROL Extract file]** ローにドラッグ&amp;ドロップし、アクティビティの後に配置 **[!UICONTROL Query]** します。
 
-   この例では、18~30歳のすべてのプロファイルでクエリーが実行されています。
+   この例では、18 ～ 30才のすべてのプロファイルに対してクエリが実行されます。
 
-1. ファイルアクティビティを抽出して編集します。
+1. ファイルの抽出アクティビティを開いて編集します。
 1. 出力ファイルに名前を付けます。
 1. 出力列を追加します。
 
-   この例では、電子メール、年齢、生年月日、プロファイルの姓と姓が出力列として追加されています。
+   この例では、プロファイルの電子メール、年齢、生年月日、名、姓が出力列として追加されます。
 
    ![](assets/wkf_data_export6.png)
 
-1. Click the **[!UICONTROL File structure]** tab to define:
+1. タブをクリッ **[!UICONTROL File structure]** クして次を定義します。
 
    * CSV出力形式
 
       ![](assets/wkf_data_export7.png)
 
-   * 日付形式
+   * 日付フォーマット
 
       ![](assets/wkf_data_export9.png)
 
 1. アクティビティを確認します。
-1. Drag and drop a **[!UICONTROL Transfer file]** activity after the **[!UICONTROL Extract file]** activity to recover the extract file on an external account.
-1. Open the activity and choose the **[!UICONTROL File upload]** action.
+1. アクティビティの後にアクテ **[!UICONTROL Transfer file]** ィビティをドラッグ&amp;ド **[!UICONTROL Extract file]** ロップし、外部アカウントの抽出ファイルを回復します。
+1. アクティビティを開き、アクションを選 **[!UICONTROL File upload]** 択します。
 
    ![](assets/wkf_data_export11.png)
 
-1. 外部アカウントを選択し、サーバー上のフォルダのパスを入力します。
+1. 外部アカウントを選択し、サーバー上のフォルダーのパスを入力します。
 
    ![](assets/wkf_data_export12.png)
 
 1. アクティビティを確認し、ワークフローを保存します。
 1. ワークフローを開始します。
 
-   ワークフローが正しく実行されると、抽出されたファイルが外部アカウントで使用できるようになります。
+   ワークフローが正しく実行されると、抽出されたファイルは外部アカウントで使用できます。
 
