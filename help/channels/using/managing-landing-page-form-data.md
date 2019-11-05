@@ -1,8 +1,6 @@
 ---
 title: ランディングページフォームデータの管理
-seo-title: ランディングページフォームデータの管理
-description: ランディングページフォームデータの管理
-seo-description: ランディングページのフォームデータを管理する方法を説明します。
+description: ランディングページのフォームデータを管理する方法を説明します。
 page-status-flag: 非活性化の
 uuid: 5b222ea2-6628-457f-a618-bfc0e5eb93dd
 contentOwner: レメイト
@@ -15,7 +13,7 @@ context-tags: landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9cdfafad7a2ac2db59b037962a84aa03568a55e6
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
