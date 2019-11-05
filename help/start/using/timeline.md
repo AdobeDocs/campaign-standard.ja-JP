@@ -1,68 +1,66 @@
 ---
 title: タイムライン
-seo-title: タイムライン
-description: タイムライン
-seo-description: Adobe Campaign Standardインターフェイスを使用して進行中のプログラムとそのコンテンツを視覚化する方法について説明します。
-page-status-flag: 常にアクティブ化されていない
-uuid: ffa0a63a-2e77-45c0-8e60-212f7aaeb447
-contentOwner: サウビート
-products: SG_ CAMPAIGN/STANDARD
-audience: start
+description: Adobe Campaign Standardインターフェイスを使用して、進行中のプログラムとそのコンテンツを視覚化する方法について説明します。
+page-status-flag: 非活性化の
+uuid: ffa0a63a-2e77-45c0-8e60-212f7aeb447
+contentOwner: ソビア
+products: SG_CAMPAIGN/STANDARD
+audience: 開始
 content-type: 参照
-topic-tags: マーケティングプラン
-discoiquuid: 53e3db10-5fed-4fc3- b41e-5226f1e05246
-context-tags: CampaignCalendar， main
+topic-tags: マーケティング・プラン
+discoiquuid: 53e3db10-5fed-4fc3-b41e-5226f1e05246
+context-tags: campaignCalendar,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 77b0933bcd004cedc6a58f80717a4284b284e0cd
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Timeline{#timeline}
+# タイムライン{#timeline}
 
-**[!UICONTROL Timeline]** これにより、進行中のプログラムとそのコンテンツを視覚化できます。
+では、 **[!UICONTROL Timeline]** 進行中のプログラムとそのコンテンツを視覚化できます。
 
 タイムラインにアクセスするには、ホームページから対応するカードをクリックします。
 
-デフォルトでは、タイムラインのみの詳細プログラムは、定義された開始日と終了日の間に時間的に表示されます。
+デフォルトでは、タイムラインにはプログラムの詳細のみが表示され、定義された開始日と終了日の間に時系列で表示されます。
 
-各プログラムは、対応するサムネールとラベルを含むボックスで表されます。画面サイズと表示する要素数によっては、ラベルをプログラムIDに置き換えることができます。
+各プログラムは、対応するサムネールとラベルを含むボックスで表されます。 画面サイズと表示する要素数に応じて、ラベルをプログラムIDに置き換えることができます。
 
 ![](assets/timeline_1.png)
 
-青色の縦線は、現在の日付をハイライトするための時間インジケーターです。デフォルトでは、画面の中央に表示されます。画面内で右または左にスクロールして、表示されている期間を変更できます。
+青い縦線は、現在の日付をハイライトする時系列のマーカーです。 デフォルトでは、画面の中央に表示されます。 画面内で右または左にスクロールして、表示される期間を変更できます。
 
-![](assets/timeline_zoom_in.png) また、 ![](assets/timeline_zoom_out.png) 周囲を拡大または縮小することもできます。![](assets/timeline_zoom_in.png) また、このボタンでは、期間が表示されるまで、より限定された期間の詳細レベルが高くなり、ボタンに ![](assets/timeline_zoom_out.png) よりより大きな期間を表示できます。
+およびボ ![](assets/timeline_zoom_in.png) タンを使 ![](assets/timeline_zoom_out.png) 用して、周長を拡大または縮小できます。 また、 ![](assets/timeline_zoom_in.png) 日が表示されるまで、より限定的な期間の詳細レベルが上がり、このボタンを使用すると、より大きな期間 ![](assets/timeline_zoom_out.png) を表示できるようになります。
 
-各プログラム名の右側にある矢印をクリックすると、対応するコンテンツが表示されます。プログラムには、サブプログラム、キャンペーン、ランディングページを含めることができます。キャンペーンはプログラムと同じ方法でデプロイされ、電子メール、SMSおよびランディングページを含めることができます。
+各プログラム名の右側の矢印をクリックして、対応するコンテンツを表示します。 プログラムには、サブプログラム、キャンペーン、ランディングページを含めることができます。 キャンペーンは、プログラムと同じ方法で展開され、電子メール、SMS、ランディングページを含めることができます。
 
 >[!NOTE]
 >
->ワークフローには特定の日付の概念がないので、タイムラインには表示されません。
+>ワークフローには日付に関する特定の概念がないので、タイムラインには表示されません。
 
-プログラムまたはキャンペーンのコンテンツが表示されると、対応するボックスが青色に変わり、右側の矢印が上下に反転します。矢印を再度クリックして、コンテンツを非表示にします。
+プログラムまたはキャンペーンのコンテンツが表示されている場合、対応するボックスが青に変わり、右側の矢印が逆になります。 矢印を再度クリックして、コンテンツを非表示にします。
 
 ![](assets/timeline_2.png)
 
-各要素には、それぞれのタイプに対応するアイコンがあります。
+各要素には、そのタイプに対応するアイコンがあります。
 
-* ![](assets/timeline_program_icon.png) :プログラム
-* ![](assets/timeline_campaign_icon.png) : Campaign
+* ![](assets/timeline_program_icon.png) : プログラム
+* ![](assets/timeline_campaign_icon.png) : キャンペーン
 * ![](assets/timeline_lp_icon.png) : ランディングページ
-* ![](assets/timeline_email_icon.png) :電子メール
-* ![](assets/timeline_sms_icon.png) :SMS
+* ![](assets/timeline_email_icon.png) : E メール
+* ![](assets/timeline_sms_icon.png) : SMS
 * ![](assets/timeline_push_icon.png) :プッシュ通知
 
-各ボックスの左の境界線にある色付きの線は、要素のステータスを示しています。
+各ボックスの左の境界線にある色付きの線は、該当する要素のステータスを示します。
 
-* 要素がまだ開始していない場合、線はグレーになります。
-* 要素が処理中の場合、線は青になります。
-* 要素が完成するとすぐに、線が緑色に変わります。
+* 要素がまだ開始していない場合、線はグレーで表示されます。
+* 要素が処理中の場合、線は青で表示されます。
+* 要素が完了すると、線が緑色に変わります。
 
-対応するカードを表示するプログラムまたはその他の要素をクリックします。次に、カードをクリックして要素のコンテンツに直接移動し、変更します。
+表示されたプログラムまたはその他の要素をクリックして、対応するカードを表示します。 カードをクリックすると、選択した要素の内容に直接移動し、変更できます。
 
 ![](assets/timeline_3.png)
 
-画面内の任意の場所をクリックして、カードを非表示にします。
+画面の任意の場所をクリックして、カードを非表示にします。
