@@ -1,36 +1,34 @@
 ---
 title: ワークフローデータの使用
-seo-title: ワークフローデータの使用
-description: ワークフローデータの使用
-seo-description: インポートまたはターゲット設定したデータを使用する様々な可能性について説明します。
-page-status-flag: 常にアクティブ化されていない
-uuid: 3dd66aaa-3a26-4214- b6a0-242c2b7fbc49
-contentOwner: サウビート
-products: SG_ CAMPAIGN/STANDARD
+description: 読み込んだデータやターゲット設定したデータを使用する様々な可能性について説明します。
+page-status-flag: 非活性化の
+uuid: 3dd66aeb-3a26-4214-b6a0-242c2b7fbc49
+contentOwner: ソビア
+products: SG_CAMPAIGN/STANDARD
 audience: 自動化
 content-type: 参照
-topic-tags: workflow- general- operation
-discoiquuid: 90b250f1- f32d-4256-83ea-4c0627628610
+topic-tags: workflow-general-operation
+discoiquuid: 90b250f1-f32d-4256-83ea-4c0627628610
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Using workflow data{#using-workflow-data}
+# ワークフローデータの使用{#using-workflow-data}
 
-データが識別され準備されたら、次のコンテキストで使用できます。
+識別され、準備されたデータは、次のコンテキストで使用できます。
 
-* **[!UICONTROL Update data]** このアクティビティにより、データベース内のフィールドの一括更新を実行できます。
-* **[!UICONTROL Save audience]** アクティビティにより、既存のオーディエンスを更新したり、ワークフローでアップストリームで計算された母集団から新しいオーディエンスを作成したりできます。The audiences created or updated from this activity are **List** or **File** audiences. また、このアクティビティでは、Adobe Experience Cloudオーディエンス/セグメントとしてプロファイルをエクスポートできます。
-* **[!UICONTROL Subscription Services]** このアクティビティにより、プロファイルを一括で取得してサービスにサブスクライブしたり、サービスから登録解除したりできます。
-* **[!UICONTROL Extract file]** アクティビティでは、Adobe Campaignから外部ファイルの形式でデータを書き出すことができます。
+* アクテ **[!UICONTROL Update data]** ィビティを使用すると、データベース内のフィールドに対して一括更新を実行できます。
+* アクティビティ **[!UICONTROL Save audience]** を使用すると、既存のオーディエンスを更新したり、ワークフローの上流で計算された訪問者から新しいオーディエンスを作成したりできます。 このアクティビティから作成または更新されるオーディエンスは **リスト** または **ファイル** オーディエンスです。 また、このアクティビティでは、プロファイルをAdobe Experience cloudオーディエンス/セグメントとしてエクスポートできます。
+* アクティビティ **[!UICONTROL Subscription Services]** では、プロファイルを一括して取得し、サービスに登録したり、サービスから登録を解除したりできます。
+* このア **[!UICONTROL Extract file]** クティビティでは、外部ファイルの形式でAdobe Campaignからデータをエクスポートできます。
 
-プロファイルターゲットを定義したら、いくつかのアクティビティを使用して配信を作成および送信できます。
+プロファイルターゲットを定義した後、複数のアクティビティを使用して配信を作成および送信できます。
 
-* **[!UICONTROL Email delivery]** アクティビティでは、ワークフローでの電子メールの送信を設定できます。This can be a **single send** email and sent just once, or it can be a **recurring** email.
-* **[!UICONTROL SMS delivery]** アクティビティでは、ワークフローでのSMSの送信を設定できます。This can be a **single send** SMS and sent just once, or it can be a **recurring** SMS.
-* **[!UICONTROL Mobile app delivery]** アクティビティにより、ワークフローでプッシュ通知を送信することができます。This can be a **single send** notification and sent just once, or it can be a **recurring** notification.
+* このア **[!UICONTROL Email delivery]** クティビティでは、ワークフローでの電子メールの送信を設定できます。 1回の送信電子メ **ールで** 1回だけ送信することも、繰り返し送信する電子メールでもかまい **ません** 。
+* アクティビティ **[!UICONTROL SMS delivery]** を使用すると、ワークフローでSMSを送信するように設定できます。 1回の送信SMSで1回 **送信するか** 、定期的なSMSで **す** 。
+* アクティビテ **[!UICONTROL Mobile app delivery]** ィを使用すると、ワークフローでプッシュ通知を送信するように設定できます。 1回の送信通知で1 **回だけ送信する** か **、繰り返し送信することがで** きます。
 
