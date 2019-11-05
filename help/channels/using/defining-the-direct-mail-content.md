@@ -1,46 +1,44 @@
 ---
-title: ダイレクトメールの内容の定義
-seo-title: ダイレクトメールの内容の定義
-description: ダイレクトメールの内容の定義
-seo-description: ダイレクトメール配信のコンテンツを定義する方法を説明します。
-page-status-flag: 未活性化の
+title: ダイレクトメールコンテンツの定義
+description: ダイレクトメール配信の内容を定義する方法を説明します。
+page-status-flag: 非活性化の
 uuid: c1234c06-4d22-46d7-ad1b-3c88660f9b06
-contentOwner: サウビア
+contentOwner: ソビア
 products: SG_CAMPAIGN/STANDARD
-audience: チャンネル
+audience: チャネル
 content-type: 参照
 topic-tags: ダイレクトメール
 discoiquuid: 9e73d6b5-41b4-474b-a880-a0cd599c2d1
-context-tags: 配信，directMailContent，戻る
-internal: 〜の
-snippet: イー
+context-tags: delivery,directMailContent,back
+internal: n
+snippet: y
 translation-type: tm+mt
-source-git-commit: 781904d58f520987e978ad5d1cdc9e34871ca876
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# ダイレクトメールの内容の定義{#defining-the-direct-mail-content}
+# ダイレクトメールコンテンツの定義{#defining-the-direct-mail-content}
 
-作成ウィザードの最後の画面でコンテンツを定義するか、配信ダッシュボードの「 **Content** 」セクションをクリックします。
+作成ウィザードの最後の画面でコンテンツを定義するか、配信ダッシュボードの「コンテ **ンツ** 」セクションをクリックします。
 
 ![](assets/direct_mail_6.png)
 
-定義画 **[!UICONTROL Content]** 面は、ダイレクトメールチャネルに固有です。 このタブは、次の4つのタブに分かれています。 **[!UICONTROL Extraction]**、 **[!UICONTROL File structure]**、 **[!UICONTROL Header]** と **[!UICONTROL Footer]**。
+定義画 **[!UICONTROL Content]** 面は、ダイレクトメールチャネルに固有の画面です。 次の4つのタブに分かれています。 **[!UICONTROL Extraction]**、 **[!UICONTROL File structure]**、 **[!UICONTROL Header]** 、 **[!UICONTROL Footer]**、
 
 ![](assets/direct_mail_11.png)
 
 ## 抽出の定義 {#defining-the-extraction}
 
-1. まず、書き出しファイルの名前を定義します。 フィールドの右にあるボタンをクリックし、目 **[!UICONTROL Output file]** 的のラベルを入力します。 パーソナライズ·フィールド、コンテンツ·ブロックおよびダイナミック·テキストを使用できます( [コンテンツの定義](../../designing/using/personalization.md#example-email-personalization)を参照)。 たとえば、ラベルに配信IDや抽出日を入力できます。
+1. まず、抽出ファイルの名前を定義します。 フィールドの右側のボタンをクリックし、 **[!UICONTROL Output file]** 目的のラベルを入力します。 パーソナライゼーションフィールド、コンテンツブロックおよび動的テキストを使用できます( [コンテンツの定義](../../designing/using/personalization.md#example-email-personalization))。 例えば、配信IDや抽出日を使用してラベルを完成させることができます。
 
    ![](assets/direct_mail_12.png)
 
-1. またはボタン **[!UICONTROL +]** をクリ **[!UICONTROL Add an element]** ックして、出力列を追加します。 では、 **[!UICONTROL Output columns]** 出力ファイルに書き出すプロファイル情報（列）を定義します。
+1. 出力列を追加す **[!UICONTROL +]** るには、ま **[!UICONTROL Add an element]** たはボタンをクリックします。 では、 **[!UICONTROL Output columns]** 出力ファイルに書き出すプロファイル情報（列）を定義できます。
 
    >[!CAUTION]
    >
-   >この情報はダイレクトメールプロバイダにとって重要なので、プロファイルに郵送先住所が含まれていることを確認してください。 また、プロファイルの情報のチェックボ **[!UICONTROL Address specified]** ックスがオンになっていることを確認します。 「推奨事項 [」を参照](../../channels/using/about-direct-mail.md#recommendations)。
+   >この情報はダイレクトメールプロバイダーにとって重要なものなので、プロファイルに住所が含まれていることを確認してください。 また、プロファイルの情報のボックスが **[!UICONTROL Address specified]** オンになっていることを確認します。 Recommendationsを参 [照してください](../../channels/using/about-direct-mail.md#recommendations)。
 
    ![](assets/direct_mail_13.png)
 
@@ -48,25 +46,25 @@ source-git-commit: 781904d58f520987e978ad5d1cdc9e34871ca876
 
 >[!NOTE]
 >
->出力列の定義の詳細については、「ファイルの抽出」ワークフローアクティビティ [の項を参照](../../automating/using/extract-file.md) してください。
+>出力列の定義の詳細については、「ファイル抽出ワークフロー [」の節](../../automating/using/extract-file.md) を参照してください。
 
 ## ファイル構造の定義 {#defining-the-file-structure}
 
-[フ **ァイル構造** ]タブでは、書き出すファイルの出力形式、日付形式、および数値形式を構成できます。
+「フ **ァイル構造** 」タブでは、書き出すファイルの出力形式、日付形式、数値形式を設定できます。
 
 ![](assets/direct_mail_14.png)
 
 >[!NOTE]
 >
->使用可能なオプションの詳細は、「ファイルの抽出」 [ワークフローアクティビティ](../../automating/using/extract-file.md) (Extract file workflow activity)セクションにあります。
+>使用可能なオプションについて詳しくは、「ファイル抽出 [ワークフロー](../../automating/using/extract-file.md) 」の節を参照してください。
 
 ## ヘッダーとフッターの定義 {#defining-the-header-and-footer}
 
-場合によっては、書き出しファイルの先頭または末尾に情報を追加する必要があります。 この場合は、構成画 **[!UICONTROL Header]** 面のと **[!UICONTROL Footer]** タブを使 **[!UICONTROL Content]** 用します。
+場合によっては、抽出ファイルの先頭または末尾に情報を追加する必要があります。 この場合は、設定画面の「 **[!UICONTROL Header]** 」タブ **[!UICONTROL Footer]** と「」タブを **[!UICONTROL Content]** 使用します。
 
 ![](assets/direct_mail_7.png)
 
-たとえば、ダイレクトメールプロバイダの場合、ファイルのヘッダに送信者情報を含めることができます。 配信のコンテキストで使用可能な情報を使用して、フッターとヘッダーをカスタマイズできます。 内容の定 [義を参照](../../designing/using/personalization.md#example-email-personalization)。
+例えば、ダイレクトメールプロバイダーの場合は、ファイルのヘッダーに送信者情報を含めることができます。 フッターとヘッダーを、配信のコンテキストで利用できる情報に合わせてパーソナライズすることができます。 詳しくは、コ [ンテンツの定義を参照してくださ](../../designing/using/personalization.md#example-email-personalization)い。
 
 送信者のアドレスは、ダイレクトメールのプ **[!UICONTROL Send]** ロパティのセクションまたはテンプレートレベルで定義されます。
 
