@@ -1,8 +1,6 @@
 ---
-title: Audience ManagerまたはPeopleコアサービスとの統合のプロビジョニングと設定
-seo-title: Audience ManagerまたはPeopleコアサービスとの統合のプロビジョニングと設定
-description: Audience ManagerまたはPeopleコアサービスとの統合のプロビジョニングと設定
-seo-description: '様々なAdobe Experience cloudソリューションでオーディエンスまたはセグメントの共有を開始するためのAudience Manager/Peopleコアサービス統合の設定方法について説明します。 '
+title: Audience Manager または People コアサービスとの統合のプロビジョニングと設定
+description: '様々なAdobe Experience cloudソリューションでオーディエンスまたはセグメントの共有を開始するためのAudience Manager/Peopleコアサービス統合の設定方法について説明します。 '
 page-status-flag: 非活性化の
 uuid: e7329644-0033-4729-b4a7-61bef137f4b5
 contentOwner: ソビア
@@ -14,12 +12,12 @@ discoiquuid: eb24f4ea-325f-433a-91a0-c45906320bcb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Audience ManagerまたはPeopleコアサービスとの統合のプロビジョニングと設定{#provisioning-and-configuring-integration-with-audience-manager-or-people-core-service}
+# Audience Manager または People コアサービスとの統合のプロビジョニングと設定{#provisioning-and-configuring-integration-with-audience-manager-or-people-core-service}
 
 Adobe CampaignのAudience ManagerとPeopleコアのプロビジョニングと設定には、次の2つの手順を実行します。アドビ [にリクエストを送信し](#submitting-request-to-adobe) 、Adobe Campaign [で統合を設定します](#configuring-the-integration-in-adobe-campaign)。
 
@@ -27,7 +25,7 @@ Adobe CampaignのAudience ManagerとPeopleコアのプロビジョニングと�
 
 Audience Manager(AAM)またはPeopleコアサービスの統合により、Adobe Campaignでオーディエンスやセグメントの読み込みと書き出しを行うことができます。
 
-この統合は、最初に設定する必要があります。 この統合のプロビジョニングをリクエストするには、次の情報と共に [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com) に電子メールを送信します。
+この統合を最初に設定する必要があります。 この統合のプロビジョニングを依頼するには、次の情報を記載のうえ、[Digital-Request@adobe.com](mailto:Digital-Request@adobe.com) まで E メールを送信します。
 
 <table> 
  <tbody> 
@@ -70,7 +68,7 @@ Audience Manager(AAM)またはPeopleコアサービスの統合により、Adobe
 
 Peopleコアサービスの代わりにAdobe Audience Managerを使用している場合は、すべての **[!UICONTROL Declared ID]** シナリオで機能します。
 
-プロビジョニングのリクエストを次 **[!UICONTROL Declared ID]** のアドレスに送信できます。Digital-Request@adobe.com [](mailto:Digital-Request@adobe.com).
+You can raise a request for **[!UICONTROL Declared ID]** provisioning to the following address: [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com).
 
 ## Adobe Campaignでの統合の設定 {#configuring-the-integration-in-adobe-campaign}
 
