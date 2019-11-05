@@ -1,33 +1,31 @@
 ---
-title: ワークフローの操作の原則
-seo-title: ワークフローの操作の原則
-description: ワークフローの操作の原則
-seo-description: ワークフローの主な側面を学びます。
-page-status-flag: 常にアクティブ化されていない
-uuid: 85755e85-617b-4a9b- bb30-96ba8333f4f0
-contentOwner: サウビート
-products: SG_ CAMPAIGN/STANDARD
+title: ワークフローの運用原則
+description: ワークフローの主な側面について説明します。
+page-status-flag: 非活性化の
+uuid: 85755e85-617b-4a9b-bb30-96ba8333f4f0
+contentOwner: ソビア
+products: SG_CAMPAIGN/STANDARD
 audience: 自動化
 content-type: 参照
-topic-tags: about- workflows- and- data- management
+topic-tags: about-workflows-and-data-management
 discoiquuid: 3a13785d-1ef7-4043-9927-2d495b83709f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Workflow operating principles{#workflow-operating-principles}
+# ワークフローの運用原則{#workflow-operating-principles}
 
-A workflow is a **sequence of configurable activities**. 各アクティビティには、プロセス内の特定のロールがあります。The result of each activity is forwarded to the following activity by a **transition**, represented by an arrow.
+ワークフローとは、設定可能 **なアクティビティのシーケンスで**&#x200B;す。 各アクティビティは、プロセス内で特定の役割を持ちます。 各アクティビティの結果は、矢印で表される遷移によって ****、次のアクティビティに転送されます。
 
-1つのアクティビティ間で交換されるデータのタイプは、次のアクティビティの設定方法に影響を与える可能性があります。例えば、電子メール配信アクティビティの前に訪問者が確立された場合、対象となる電子メールのターゲットとして機能できます。
+あるアクティビティと別のアクティビティとの間で交換されるデータのタイプは、次のアクティビティの設定方法に影響を与える可能性があります。 例えば、電子メール配信アクティビティの前に訪問者が設定されている場合、その訪問者は該当する電子メールのターゲットとして機能します。
 
-ワークフローの実行前または実行後に、アクティビティを開いたり、編集したりすることができます。
+ワークフローの実行前または実行後に、アクティビティを開いてパラメーターを確認または編集できます。
 
-トランジションを開いて、ワークフローの実行中または実行後に送信されたデータが正しいことを確認できます。To access the detail view of the transitions, you have to check the **[!UICONTROL Keep interim results]** option in the **[!UICONTROL Execution]** section of the workflow properties.
+ワークフローの実行中または実行後に、トランジションを開いて、送信されたデータが正しいかどうかを確認できます。 トランジションの詳細ビューにアクセスするには、ワークフロープロパティのセク **[!UICONTROL Keep interim results]** ションのオプションを **[!UICONTROL Execution]** オンにする必要があります。
 
 ![](assets/workflow_overview.png)
 
