@@ -1,8 +1,6 @@
 ---
 title: カスタムプロファイルディメンションの作成
-seo-title: カスタムプロファイルディメンションの作成
-description: カスタムプロファイルディメンションの作成
-seo-description: カスタムプロファイルデータに基づいてカスタムプロファイルディメンションを作成する方法について説明します。
+description: カスタムプロファイルデータに基づいてカスタムプロファイルディメンションを作成する方法について説明します。
 page-status-flag: 非活性化の
 uuid: f75e005b-5328-4c98-9e78-51d54fd0e246
 contentOwner: ソビア
@@ -14,7 +12,7 @@ discoiquuid: b6d3de63-3add-4881-8917-04a6f8b6be4d
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
