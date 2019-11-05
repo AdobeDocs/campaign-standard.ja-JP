@@ -1,106 +1,104 @@
 ---
-title: Analyticsのキャンペーンディメンションと指標
-seo-title: Analyticsのキャンペーンディメンションと指標
-description: Analyticsのキャンペーンディメンションと指標
-seo-description: Adobe Analyticsで、Adobe Campaignからの電子メール配信の追跡を開始するための様々なディメンションについて説明します。
-page-status-flag: 常にアクティブ化されていない
-uuid: effa1028-66b2-4bef- b5e4-7319dbb23d5d
-contentOwner: サウビート
-products: SG_ CAMPAIGN/STANDARD
+title: Analytics のキャンペーンディメンションと指標
+description: Adobe AnalyticsでAdobe Campaignからの電子メール配信の追跡を開始するための様々なディメンションについて説明します。
+page-status-flag: 非活性化の
+uuid: effa1028-66b2-4bef-b5e4-7319dbb23d5d
+contentOwner: ソビア
+products: SG_CAMPAIGN/STANDARD
 audience: 統合
 content-type: 参照
-topic-tags: working- with- campaign- and- analytics
-discoiquuid: eb3639f5-7246-46c4-8ddb- da9413b40c32
+topic-tags: キャンペーンと分析の連携
+discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Campaign dimensions and metrics in Analytics{#campaign-dimensions-and-metrics-in-analytics}
+# Analytics のキャンペーンディメンションと指標{#campaign-dimensions-and-metrics-in-analytics}
 
-Adobe CampaignとAdobe Analyticsの統合により、Adobe Analyticsで電子メール配信の成功を追跡できます。
+Adobe CampaignとAdobe Analyticsの統合により、電子メール配信の成功をAdobe Analyticsで直接追跡できます。
 
-Campaign **[!UICONTROL dimensions]** found in Analytics are listed below:
+Analyticsで見つ **[!UICONTROL dimensions]** かったキャンペーンを以下に示します。
 
 <table> 
  <thead> 
   <tr> 
-   <th> Dimension<br /> </th> 
-   <th> Definition<br /> </th> 
+   <th> ディメンション<br /> </th> 
+   <th> 定義<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Campaign ID<br /> </td> 
-   <td> Campaign's internal name as seen in Campaign<br /> </td> 
+   <td> キャンペーン ID<br /> </td> 
+   <td> Campaignで確認できるキャンペーンの内部名<br /> </td> 
   </tr> 
   <tr> 
-   <td> Campaign label<br /> </td> 
-   <td> Campaign's label as seen in Campaign<br /> </td> 
+   <td> キャンペーンラベル<br /> </td> 
+   <td> キャンペーンでのキャンペーンのラベル<br /> </td> 
   </tr> 
   <tr> 
-   <td> Delivery ID<br /> </td> 
-   <td> キャンペーンで表示される配信の内部名。<br /> 例えば、DM1は、子配信を毎週送信するようにスケジュールされた定期配信です。DM2、DM3およびDM4には最初の3週間が送信されます。The Delivery ID dimension will then display the results for every delivery, namely DM1 to DM4. <br /> </td> 
+   <td> 配信 ID<br /> </td> 
+   <td> Campaignで確認できる、配信の内部名。<br /> 例えば、DM1は繰り返し配信され、毎週子の配信がスケジュールされます。 DM2、DM3、DM4は最初の3週間で送信されます。 その後、配信IDディメンションは、すべての配信の結果(DM1 ～ DM4)を表示します。 <br /> </td> 
   </tr> 
   <tr> 
-   <td> Delivery label<br /> </td> 
-   <td> Delivery's label as seen in Campaign<br /> </td> 
+   <td> 配信ラベル<br /> </td> 
+   <td> キャンペーンでの配信のラベル<br /> </td> 
   </tr> 
   <tr> 
-   <td> Executed delivery ID<br /> </td> 
-   <td> キャンペーンで表示される配信の内部名。これは、キャンペーンでの実行の配信にのみ影響します。<br /> 例えば、DM1は、子配信を毎週送信するようにスケジュールされた定期配信です。DM2、DM3およびDM4には最初の3週間が送信されます。The Executed delivery ID dimension will then display the results for the executed deliveries, namely the child deliveries DM2, DM3 and DM4. <br /> </td> 
+   <td> 実行された配信ID<br /> </td> 
+   <td> Campaignで確認できる、配信の内部名。 これは、キャンペーンでの実行時の配信に関するだけです。<br /> 例えば、DM1は繰り返し配信され、毎週子の配信がスケジュールされます。 DM2、DM3、DM4は最初の3週間で送信されます。 次に、実行された配信IDディメンションは、実行された配信の結果、すなわち子配信DM2、DM3、DM4を表示します。 <br /> </td> 
   </tr> 
   <tr> 
-   <td> Executed delivery label<br /> </td> 
-   <td> キャンペーンで表示される配信のラベル。This only concerns delivery in execution in Campaign.<br /> </td> 
+   <td> 実行された配信ラベル<br /> </td> 
+   <td> キャンペーンでの配信のラベル。 これは、キャンペーンでの実行時の配信に関するだけです。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Campaign **[!UICONTROL metrics]** found in Analytics are listed below:
+Analyticsで見つ **[!UICONTROL metrics]** かったキャンペーンを以下に示します。
 
 <table> 
  <thead> 
   <tr> 
-   <th> Metric<br /> </th> 
-   <th> Definition<br /> </th> 
+   <th> 指標<br /> </th> 
+   <th> 定義<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Clicked<br /> </td> 
-   <td> Number of times a content was clicked in a delivery.<br /> </td> 
+   <td> クリック済み<br /> </td> 
+   <td> 配信でコンテンツがクリックされた回数。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Delivered<br /> </td> 
-   <td> Number of messages successfully sent, in relation to the total number of sent messages.<br /> </td> 
+   <td> 配信済み<br /> </td> 
+   <td> 送信されたメッセージの合計数に関連して正常に送信されたメッセージの数。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Opened<br /> </td> 
-   <td> Number of times a message was opened in a delivery.<br /> </td> 
+   <td> 開封済み<br /> </td> 
+   <td> 配信でメッセージが開かれた回数。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Sent<br /> </td> 
-   <td> Total number of sends for the delivery.<br /> </td> 
+   <td> 送信済み<br /> </td> 
+   <td> 配信の送信の合計数。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Total Bounces<br /> </td> 
-   <td> Total of errors cumulated during delivery and automatic return processing in relation to the total number of sent messages.<br /> </td> 
+   <td> 合計バウンス数<br /> </td> 
+   <td> 送信されたメッセージの合計数に関して、配信および自動返信処理中に累積されたエラーの合計。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Unique Open<br /> </td> 
-   <td> Number of recipients who opened the delivery.<br /> </td> 
+   <td> 個別オープン<br /> </td> 
+   <td> 配信を開いた受信者の数。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Unique Click<br /> </td> 
-   <td> Number of recipients who clicked on a content in a delivery.<br /> </td> 
+   <td> 個別クリック<br /> </td> 
+   <td> 配信内のコンテンツをクリックした受信者の数。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Unsubscribed<br /> </td> 
-   <td> Number of clicks on the unsubscription link.<br /> </td> 
+   <td> 購読解除済み<br /> </td> 
+   <td> 購読解除リンクのクリック数。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
