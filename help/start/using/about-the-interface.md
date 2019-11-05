@@ -1,32 +1,30 @@
 ---
 title: インターフェイスについて
-seo-title: インターフェイスについて
-description: インターフェイスについて
-seo-description: キャンペーンワークスペースは、すべてのAdobe Experience Cloudソリューションに共通の概念に基づいています。
-page-status-flag: 常にアクティブ化されていない
-uuid: ed9e631c-5ad1-49f1- be1e- b710bc64dc91
-contentOwner: サウビート
-products: SG_ CAMPAIGN/STANDARD
-audience: start
+description: Campaign Workspaceは、すべてのAdobe Experience cloudソリューションに共通の概念に基づいています。
+page-status-flag: 非活性化の
+uuid: ed9e631c-5ad1-49f1-be1e-b710bc64dc91
+contentOwner: ソビア
+products: SG_CAMPAIGN/STANDARD
+audience: 開始
 content-type: 参照
-topic-tags: Discover- the- interface
-discoiquuid: 5227ca05-3856-4e54- alit6-14444d6534e3
+topic-tags: 発見 — インターフェース
+discoiquuid: 5227ca05-3856-4e54-aec6-1444d6534e3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# About the interface{#about-the-interface}
+# インターフェイスについて{#about-the-interface}
 
-Adobe Campaignのユーザーインターフェイスは、すべてのAdobe Experience Cloudソリューションに共通の概念に基づいています。
+Adobe Campaignのユーザーインターフェイスは、すべてのAdobe Experience cloudソリューションに共通の概念に基づいています。
 
-このインターフェイスはWebブラウザーを使用します。これは完全にサイズ変更可能なので、使用するメディアに自動的に適合します。デスクトップコンピュータまたはタブレット。すべての要素は、マウスまたはタッチスクリーンの使用と互換性があります。
+このインターフェイスはWebブラウザーを対象としています。 これは完全にサイズ変更可能で、使用されるメディアに自動的に適応します。デスクトップコンピューターまたはタブレット。 すべての要素は、マウスまたはタッチスクリーンの使用と互換性があります。
 
-キャンペーンインターフェイス、機能およびアクセス可能なオプションは、契約およびユーザー権限によって異なります。
+キャンペーンのインターフェイス、機能およびオプションは、契約やユーザー権限によって異なる場合があります。
 
-様々な用途や新機能に対応するために、Adobe Campaignユーザーインターフェイスとそのすべての要素が定期的に更新されます。使用しているバージョンと、このドキュメントに表示されている画面の違いがあります。
+提供される様々な用途や新しい機能に対応するために、Adobe Campaignのユーザーインターフェイスとそのすべての要素が定期的に更新されます。 使用しているバージョンと、このドキュメントに表示される画面とで、いくつかの違いが見られる場合があります。
 
-ナビゲーション原則は、これらすべてのソリューションに共通です。
+ナビゲーションの原則は、これらのすべてのソリューションに共通です。
