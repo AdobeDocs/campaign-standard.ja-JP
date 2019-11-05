@@ -1,63 +1,61 @@
 ---
-title: 制御ルール
-seo-title: 制御ルール
-description: 制御ルール
-seo-description: 制御ルールを使用して、メッセージの品質チェックを強化する方法について説明します。
-page-status-flag: 常にアクティブ化されていない
-uuid: 33a1c90c-534e-4fe1-982c- f4e1858d4d2d
-contentOwner: サウビート
-products: SG_ CAMPAIGN/STANDARD
+title: コントロールルール
+description: 制御ルールを使用して、メッセージの品質チェックを強化する方法を説明します。
+page-status-flag: 非活性化の
+uuid: 33a1c90c-534e-4fe1-982c-f4e1858d4d2d
+contentOwner: ソビア
+products: SG_CAMPAIGN/STANDARD
 audience: 管理
 content-type: 参照
-topic-tags: working- with- typography- rules
-discoiquuid: 305cde-6424-4c6f- b11b-1e8bdbad6ef1
+topic-tags: 活字体系ルール
+discoiquuid: 305cadde-6424-4c6f-b11b-1e8bdbad6ef1
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5e5532c0769fe33016eaee994bdaae9c70a7eaa5
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Control rules{#control-rules}
+# コントロールルール{#control-rules}
 
-制御ルールを使用すると、ユーザーはメッセージの送信前にメッセージの有効性と品質（文字表示、SMSメッセージサイズ、アドレス形式など）を確認できます。
+制御ルールを使用すると、ユーザーは、メッセージが送信される前に、文字表示、SMSメッセージサイズ、アドレス形式などのメッセージの有効性と品質を確認できます。
 
-Adobe Campaignで使用できるデフォルトルールのセットにより、標準コントロールが確認されます。
+Adobe Campaignで使用できる一連のデフォルトルールは、次の標準的なコントロールを保証します。
 
-* **[!UICONTROL Check subject]** （電子メール）:件名および送信者のアドレスに、特定のメール転送エージェントで問題が発生する可能性がある特殊文字が含まれていないことを確認し、メッセージの件名が完了したことを確認します。
-* **[!UICONTROL Check URL labels]** （電子メール）:各トラッキングURLにラベルがあることを確認します。
-* **[!UICONTROL Check URLs]** （電子メール）:トラッキングURL（"&amp;"文字の存在）をチェックします。
-* **[!UICONTROL Check proof size]** （すべてのチャネル）:は、配達確認ターゲット母集団が100人を超えるとエラーメッセージを生成します。
-* **購読解除リンク** （電子メール）をチェック:は、各コンテンツに少なくとも1つの購読（オプトアウト） URLが存在するかどうかを確認します（HTMLおよびテキスト）。
-* **[!UICONTROL Check delivery size]** （すべてのチャネル）:メッセージのサイズをチェックします。
-* **[!UICONTROL Check social network sharing link]** （電子メール）:コンテンツにソーシャルネットワーク共有リンク（virallLinks）を含めるときにミラーページへのリンクが存在するかどうかをチェックします。
-* **[!UICONTROL A/B Test]**:テスト用母集団を抽出して、A/Bテストを使用して配信します。
+* **[!UICONTROL Check subject]** （電子メール）:件名と送信者のアドレスに、特定のメール転送エージェントで問題を引き起こす可能性のある特殊文字が含まれていないこと、およびメッセージの件名が完了していることを確認します。
+* **[!UICONTROL Check URL labels]** （電子メール）:各追跡URLにラベルが付いているかどうかを確認します。
+* **[!UICONTROL Check URLs]** （電子メール）:トラッキングURL（「&amp;」文字の存在）をチェックします。
+* **[!UICONTROL Check proof size]** （すべてのチャネル）:配達確認ターゲットの母集団が100人を超える場合にエラーメッセージを生成します。
+* **購読解除リンク** （電子メール）の確認：各コンテンツ（HTMLおよびテキスト）に少なくとも1つの購読解除（オプトアウト）URLが存在するかどうかを確認します。
+* **[!UICONTROL Check delivery size]** （すべてのチャネル）:メッセージのサイズを確認します。
+* **[!UICONTROL Check social network sharing link]** （電子メール）:コンテンツにソーシャルネットワーク共有リンク(ViralLinks)を含める場合に、ミラーページへのリンクが存在するかどうかを確認します。
+* **[!UICONTROL A/B Test]**:a/Bテストを使用した配信のテスト母集団を抽出します。
 
-配信のライフサイクルのいずれかの段階からルールを適用するタイミングを選択できます。Select the value to apply in the drop-down list from the **[!UICONTROL Phase]** field of the typology rule.
+配信のライフサイクルのいずれかの段階から、ルールを適用するタイミングを選択できます。 タイポロジルールのフィールドから、ドロップダウンリストに適用す **[!UICONTROL Phase]** る値を選択します。
 
 ![](assets/typology_phase.png)
 
-使用できる値は次のとおりです。
+次のような値を選択できます。
 
-* **ターゲット設定の開始時**
+* **ターゲティングの開始時**
 
-   このフェーズで制御ルールを適用すると、エラーが発生した場合にパーソナライゼーションステップが実行されないようになります。
+   この段階で制御ルールを適用し、エラーが発生した場合にパーソナライゼーションステップを実行しないようにすることができます。
 
-* **ターゲティング後**
+* **ターゲティングの終了時**
 
-   コントロールルールを適用するためにターゲットのボリュームを把握する必要がある場合は、この段階を選択します。
+   コントロールルールを適用する前にターゲットのボリュームを把握しておきたい場合は、このフェーズを選択します。
 
    For example, the **Check proof size** control rule applies after the targeting stage: this rule prevents the preparation of message personalization if there are too many proof recipients.
 
 * **パーソナライゼーションの開始時**
 
-   メッセージのパーソナライゼーションを承認するには、この段階を選択する必要があります。メッセージのパーソナライゼーションは、分析段階で実行されます。
+   チェックでメッセージのパーソナライゼーションの承認に関する問題が発生した場合は、このフェーズを選択する必要があります。 メッセージのパーソナライゼーションは、分析フェーズで実行されます。
 
-* **分析の最後**
+* **分析の終了時**
 
-   チェックにメッセージパーソナライゼーションが必要な場合は、この段階を選択します。
+   メッセージのパーソナライゼーションが完了している必要がある場合は、このフェーズを選択します。
 
 >[!NOTE]
 >
->セキュリティ上の理由から、コントロールルールのコンテンツを変更することはできません。**[!UICONTROL Code]** フィールドは読み取り専用です。
+>セキュリティ上の理由から、制御規則の内容を変更することはできません。 フィールド **[!UICONTROL Code]** は読み取り専用です。
