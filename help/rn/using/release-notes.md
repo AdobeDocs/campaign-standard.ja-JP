@@ -1,8 +1,6 @@
 ---
 title: リリースノート
-seo-title: リリースノート
-description: リリースノート
-seo-description: このページには、Adobe Campaign Standardの最新リリースがすべて表示されます。
+description: このページには、Adobe Campaign Standardの最新リリースがすべて表示されます。
 page-status-flag: 非活性化の
 uuid: 1cf2e40c-beca-43db-8261-a1820ee86ad3
 contentOwner: ソビア
@@ -14,12 +12,12 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 819f312b485494b87aec88952d23d933d43d5019
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Release Notes{#release-notes}
+# リリースノート{#release-notes}
 
 2019年リリースの新機能とパッチはすべて、このページに記載されています。 コントロールパネルの更新も含まれます。
 
