@@ -1,45 +1,43 @@
 ---
 title: 電子メールの件名行のテスト
-seo-title: 電子メールの件名行のテスト
-description: 電子メールの件名行のテスト
-seo-description: 電子メールデザイナーで電子メールの件名行を定義する方法を確認します。
+description: 電子メールデザイナーで電子メールの件名行を定義する方法を確認します。
 page-status-flag: 非活性化の
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: ソビア
 products: SG_CAMPAIGN/STANDARD
 audience: 送信
-content-type: reference
+content-type: 参照
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3fc0d9d7e90a31ffb34efc33d6f5c148ba5aac90
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
-# Testing the subject line of an email {#testing-a-subject}
+# 電子メールの件名行のテスト {#testing-a-subject}
 
 件名をテストするには、次の手順に従います。
 
-1. Create or open your email.
-1. Open the content and enter the subject of the email in the corresponding input field.
-1. Click the **[!UICONTROL Test subject]** button to access the **[!UICONTROL Test your subject line]** window. You can still edit the subject from this window.
-1. Select the correct model to be taken into account for the open rate prediction. Several models are available, each corresponding to a specific industry.
+1. 電子メールを作成するか、開きます。
+1. コンテンツを開き、対応する入力フィールドに電子メールの件名を入力します。
+1. ボタンをクリッ **[!UICONTROL Test subject]** クして、ウィンドウにアクセ **[!UICONTROL Test your subject line]** スします。 このウィンドウからは、件名を編集できます。
+1. オープンレート予測に考慮する正しいモデルを選択します。 特定の業界に対応するいくつかのモデルが用意されています。
 1. Click **[!UICONTROL Test]**.
 
-Your subject is then analyzed.
+その後、被験者が分析されます。
 
 >[!NOTE]
 >
->If the subject line is too short, it cannot be analyzed and an error message is displayed.
+>件名が短すぎると、分析できず、エラーメッセージが表示されます。
 
-Several indicators are calculated and a set of tools are displayed to help you:
+いくつかのインジケーターが計算され、以下の作業を行うのに役立つツールが表示されます。
 
-* **Predicted open rate: This chart gives you an idea of the open rate you can expect for the email with its current subject.**
-* **Subject length: This indicator lets you see if the current length of the subject is correct or whether it would need to be longer or shorter.**
-* **Colored words: When testing the subject, words highlighted in green are the words that contribute the most to increasing the open rate prediction.** Words highlighted in red are the words that contribute the least to increasing the open rate prediction. 件名内の単語を追加または削除すると、ハイライト表示されている単語が変更されます。
-* **サーチクエリ**:ウィンドウの下部には、選択したモデルに関連するカテゴリが多数表示されます。 これらのカテゴリは重要度の順に並べ替えられ、チェック記号を使用して関連付けられた単語が件名に含まれているかどうかを確認できます。 Each category contains a set of suggested words that could be used in your subject to make it more relevant and increase the open rate. これらの単語は、特定のカテゴリで最も頻繁に使用される単語です。
+* **予測開放率**:このグラフでは、現在の件名を含む電子メールの開封率を把握できます。
+* **件名の長さ**:このインジケーターを使用すると、対象の現在の長さが正しいか、長くする必要があるか短くする必要があるかを確認できます。
+* **色付きの単語**:サブジェクトをテストする場合、緑色でハイライトされている単語は、開放率予測の増加に最も貢献する単語です。 赤でハイライトされている単語は、開放率予測の増加に最も貢献していない単語です。 件名内の単語を追加または削除すると、ハイライト表示されている単語が変更されます。
+* **サーチクエリ**:ウィンドウの下部には、選択したモデルに関連するカテゴリが多数表示されます。 これらのカテゴリは重要度の順に並べ替えられ、チェック記号を使用して関連付けられた単語が件名に含まれているかどうかを確認できます。 各カテゴリには、より関連性を高め、開放率を上げるために、サブジェクトで使用できる推奨単語のセットが含まれています。 これらの単語は、特定のカテゴリで最も頻繁に使用される単語です。
 
 >[!NOTE]
 >
@@ -68,17 +66,17 @@ Several indicators are calculated and a set of tools are displayed to help you:
 
    その後、技術ワークフローは自動的に毎週モデルのトレーニングを続けます。
 
-* You can import pre-trained models that are specific to certain industries (medical, etc.) パッケージのイ [ンポート機能](../../automating/using/managing-packages.md) 。 これらのモデルはここで [入手でき](https://support.neolane.net/webApp/downloadCenter?__userConfig=psaDownloadCenter) 、トレーニングはできません。
+* 特定の業種（医療など）に特有のトレーニングを受けたモデルをインポートできます。パッケージのイ [ンポート機能](../../automating/using/managing-packages.md) 。 これらのモデルはここで [入手でき](https://support.neolane.net/webApp/downloadCenter?__userConfig=psaDownloadCenter) 、トレーニングはできません。
 
    モデルがアップロードされると、その機能が自動的にアクティブ化され、メッセージの件名行フィールドの横に新しいオプションが表示されます。
 
 >[!NOTE]
 >
->Importing and generating trained models can only be performed by an administrator.
+>トレーニングを受けたモデルのインポートと生成は、管理者のみが実行できます。
 
-The models that are available for use are:
+使用できるモデルは次のとおりです。
 
-* Cosmetic industry: subjectInsightCosmetic.xml
-* Supermarket industry: subjectInsightSupermarket.xml
-* Medical industry: subjectInsightMedical.xml
-* Model to train: subjectlineTraining.xml.
+* 化粧品業界：subjectInsightCosmetic.xml
+* スーパー業界：subjectInsightSuperpart.xml
+* 医療業界：subjectInsightMedical.xml
+* トレーニングするモデル：subjectlineTraining.xml。
