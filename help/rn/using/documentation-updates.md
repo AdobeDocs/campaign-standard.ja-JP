@@ -1,8 +1,6 @@
 ---
 title: ドキュメントの更新
-seo-title: ドキュメントの更新
-description: ドキュメントの更新
-seo-description: Adobe Campaign Standardドキュメントの最新の更新について説明します。
+description: Adobe Campaign Standardドキュメントの最新の更新について説明します。
 page-status-flag: 非活性化の
 uuid: 3bdc7d11-8421-4110-a5ba-7b1376a03dda
 contentOwner: ソビア
@@ -14,12 +12,12 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fc20cc5d3dfb4ad03ea4f8c7ad0931b5e190a089
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Documentation Updates{#documentation-updates}
+# ドキュメントの更新{#documentation-updates}
 
 Adobe Campaign Standardドキュメントの最新の更新について説明します。
 
