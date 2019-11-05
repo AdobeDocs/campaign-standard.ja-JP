@@ -1,8 +1,6 @@
 ---
 title: テンプレートについて
-seo-title: テンプレートについて
-description: テンプレートについて
-seo-description: 「Adobe Campaignテンプレートを使用すると、必要に応じて次のパラメーターを事前設定できます。テンプレートには、マーケティング活動の完全な設定または一部の設定を含めることができ、技術的でないエンドユーザー向けのAdobe Campaignの使用を簡素化できます。」
+description: 「Adobe Campaignテンプレートを使用すると、必要に応じて次のパラメーターを事前設定できます。テンプレートには、マーケティング活動の完全な設定または一部の設定を含めることができ、技術的でないエンドユーザー向けのAdobe Campaignの使用を簡素化できます。」
 page-status-flag: 非活性化の
 uuid: 018534b6-61a3-433e-bb60-49883c8b9386
 contentOwner: ソビア
@@ -14,7 +12,7 @@ discoiquuid: 95218ebe-5430-42a2-b900-1dadbc92d99
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
