@@ -1,8 +1,6 @@
 ---
-title: 購読の監視
-seo-title: 購読の監視
-description: 購読の監視
-seo-description: ダッシュボードとレポートを使用して、購読者を追跡し、サービスの成功を測定する方法について説明します。
+title: サブスクリプションの監視
+description: ダッシュボードとレポートを使用して、購読者を追跡し、サービスの成功を測定する方法について説明します。
 page-status-flag: 非活性化の
 uuid: b0d8eb80-fa51-4518-a5e6-56de4046f6ff
 contentOwner: ソビア
@@ -14,12 +12,12 @@ discoiquuid: 36750524-eb54-47e8-aa1b-ae0b94f58cb1
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 購読の監視{#monitoring-subscriptions}
+# サブスクリプションの監視{#monitoring-subscriptions}
 
 Adobe Campaignインターフェイスを使用して、購読者を追跡し、サービスの成功を測定します。
 
