@@ -1,8 +1,6 @@
 ---
 title: ワークフローの実行
-seo-title: ワークフローの実行
-description: ワークフローの実行
-seo-description: ワークフローを実行および監視する方法について説明します。
+description: ワークフローを実行および監視する方法について説明します。
 page-status-flag: 非活性化の
 uuid: ff02b74e-53e8-49c6-bf8e-0c729eaa7d25
 contentOwner: ソビア
@@ -15,7 +13,7 @@ context-tags: ワークフロー，概要；ワークフロー，メイン
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
