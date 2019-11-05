@@ -1,55 +1,53 @@
 ---
 title: 除外
-seo-title: 除外
-description: 除外
-seo-description: 除外アクティビティを使用すると、特定の条件に従って1つの母集団から要素を除外できます。
-page-status-flag: 常にアクティブ化されていない
-uuid: b79e7f73-37a0-4ec3- ac5a-5449dc1b1f22
-contentOwner: サウビート
-products: SG_ CAMPAIGN/STANDARD
+description: 除外アクティビティでは、特定の条件に従って1人の母集団から要素を除外できます。
+page-status-flag: 非活性化の
+uuid: b79e7f73-37a0-4ec3-ac5a-5449dc1b1f22
+contentOwner: ソビア
+products: SG_CAMPAIGN/STANDARD
 audience: 自動化
 content-type: 参照
-topic-tags: ターゲットアクティビティ
-discoiquuid: d5312fcd-43ad-428e- bde9-90f062e9358c
-context-tags: exclusion， main
+topic-tags: ターゲティング活動
+discoiquuid: d5312fcd-43ad-428e-bde9-90f062e9358c
+context-tags: exclusion,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e384a0cef325bc01eb5ea050b0f3d926aea9a88f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Exclusion{#exclusion}
+# 除外{#exclusion}
 
 ## 説明 {#description}
 
 ![](assets/exclusion.png)
 
-**[!UICONTROL Exclusion]** アクティビティでは、特定の条件に従って、ある母集団からの要素を除外できます。
+アクテ **[!UICONTROL Exclusion]** ィビティを使用すると、特定の条件に従って1つの訪問者から要素を除外できます。
 
-## Context of use {#context-of-use}
+## 使用状況 {#context-of-use}
 
-**[!UICONTROL Exclusion]** アクティビティは、受信移行母集団に対して追加のフィルターを実行するために使用されます。
+アクティビティ **[!UICONTROL Exclusion]** は、基本的に、インバウンド移行訪問者数に対して追加のフィルタリングを実行するために使用されます。
 
-メインセットは、インバウンドトランジション間で定義されます。他のインバウンドトランジションのメンバーは、プライマリセットから除外されます。除外アクティビティのアウトバウンドトランジションには、他のインバウンドトランジションで発生しなかったプライマリセットのメンバーのみが含まれます。
+プライマリセットは、インバウンド遷移で定義されます。 その他の受信移行のメンバーは、プライマリセットから除外されます。 除外アクティビティのアウトバウンド遷移には、他のインバウンド遷移で発生しなかったプライマリセットのメンバーのみが含まれます。
 
-## Configuration {#configuration}
+## 設定 {#configuration}
 
-1. Drag and drop an **[!UICONTROL Exclusion]** activity into your workflow.
-1. Select the activity, then open it using the ![](assets/edit_darkgrey-24px.png) button from the quick actions that appear.
-1. Select the **[!UICONTROL Primary set]** from the inbound transitions. これは、要素が除外されるセットです。もう1つは、プライマリセットから除外される前に要素に一致する要素です。
+1. アクティビティをワークフロー **[!UICONTROL Exclusion]** にドラッグ&amp;ドロップします。
+1. アクティビティを選択し、表示されるクイックアクシ ![](assets/edit_darkgrey-24px.png) ョンのボタンを使用して開きます。
+1. 受信遷移か **[!UICONTROL Primary set]** らを選択します。 これは、要素を除外するセットです。 他のセットは、プライマリセットから除外される前に要素と一致します。
 
    >[!NOTE]
    >
-   >インバウンドトランジションには、同じタイプの母集団を含める必要があります。例えば、プライマリセットにテストプロファイルが含まれる場合、他のトランジションにもテストプロファイルを含める必要があります。
+   >インバウンド遷移には、同じタイプの母集団を含める必要があります。 例えば、プライマリセットにテストプロファイルが含まれている場合、他のトランジションにもテストプロファイルが含まれている必要があります。
 
-1. If needed, manage the activity's [Transitions](../../automating/using/executing-a-workflow.md#managing-an-activity-s-outbound-transitions) to access the advanced options for the outbound population.
+1. 必要に応じて、アクティビティの遷移を管理し [て](../../automating/using/executing-a-workflow.md#managing-an-activity-s-outbound-transitions) 、アウトバウンド母集団のアドバンスオプションにアクセスします。
 1. アクティビティの設定を確認し、ワークフローを保存します。
 
-## Example {#example}
+## 例 ：{#example}
 
-次の例は、18才から27才までのAdobe Campaignデータベースからプロファイルをフィルターするように設定された2つのクエリーアクティビティを示しています。無効な電子メールアドレスを持つプロファイルは、最初のセットから除外されます。これにより、電子メールを送信できます。
+次の例は、18 ～ 27歳のAdobe Campaignデータベースから、無効な電子メールアドレスを持つプロファイルをフィルターするように設定された2つのクエリアクティビティを示しています。 その後、無効な電子メールアドレスを持つプロファイルが最初のセットから除外されます。 これにより、例えば電子メールを送信できます。
 
 ![](assets/wkf_exclusion_example.png)
 
