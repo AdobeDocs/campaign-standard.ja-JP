@@ -1,8 +1,6 @@
 ---
 title: パッケージの管理
-seo-title: パッケージの管理
-description: パッケージの管理
-seo-description: 管理者は、構造化XMLファイルを使用して、様々なAdobe Campaignインスタンス間でリソースを交換するパッケージを定義できます。
+description: 管理者は、構造化XMLファイルを使用して、様々なAdobe Campaignインスタンス間でリソースを交換するパッケージを定義できます。
 page-status-flag: 非活性化の
 uuid: d041f549-bfc5-4e6b-87bf-a63c7c224bca
 contentOwner: ソビア
@@ -15,7 +13,7 @@ context-tags: packageDef,overview;packageInstall,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
