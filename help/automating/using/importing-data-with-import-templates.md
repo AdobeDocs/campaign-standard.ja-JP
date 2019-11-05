@@ -1,47 +1,45 @@
 ---
-title: インポートテンプレートを使用したデータの読み込み
-seo-title: インポートテンプレートを使用したデータの読み込み
-description: インポートテンプレートを使用したデータの読み込み
-seo-description: キャンペーンデータベースをフィードするデータを収集する方法について説明します。
-page-status-flag: 常にアクティブ化されていない
-uuid: bfc03235-2032-448a- a9ed-21ff2a83fa09
-contentOwner: サウビート
-products: SG_ CAMPAIGN/STANDARD
+title: インポートテンプレートを使用したデータのインポート
+description: Campaignデータベースにフィードするデータを収集する方法を説明します。
+page-status-flag: 非活性化の
+uuid: bfc03235-2032-448a-a9ed-21ff2a83fa09
+contentOwner: ソビア
+products: SG_CAMPAIGN/STANDARD
 audience: 自動化
 content-type: 参照
-topic-tags: importing- and- exporting- data
-discoiquuid: fb511bb8-6be7-43f6-86ab-94d5cpa3efc9
+topic-tags: データのインポート/エクスポート
+discoiquuid: fb511bb8-6be7-43f6-86ab-94d5cfa3efc9
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b7df681c05c48dc1fc9873b1339fbc756e5e0f5f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Importing data with import templates{#importing-data-with-import-templates}
+# インポートテンプレートを使用したデータのインポート{#importing-data-with-import-templates}
 
-データをインポートすると、キャンペーンのデータベースをフィードするデータを収集できます。
+データをインポートすると、データを収集してキャンペーンのデータベースをフィードできます。
 
-[ワークフロー](../../automating/using/discovering-workflows.md)に加えて、Adobe Campaignでは、管理者によって定義された特定のタイプのインポートを管理するための簡易インポート機能を提供しています。
+また、 [Adobe Campaignには](../../automating/using/discovering-workflows.md)、管理者が定義した特定のタイプのインポートを管理できる、シンプルなインポート機能が用意されています。
 
-The operating principle is as follows: an **administrator** defines and manages import templates (see [Defining import templates](../../automating/using/defining-import-templates.md)). These import templates are then made available to users with simplified views under the **[!UICONTROL Profiles & audiences]** &gt; **[!UICONTROL Imports]** menu.
+運営原則は以下の通り。管理者は **、インポートテンプレート** (インポートテンプレート [の定義を参照](../../automating/using/defining-import-templates.md))を定義および管理します。 これらのインポートテンプレートは、&gt;メニューの簡略表示を使用するユーザが使用で **[!UICONTROL Profiles & audiences]** きるように **[!UICONTROL Imports]** なります。
 
-したがって、インポートするインポートのタイプを選択し、インポートするデータと共にファイルをアップロードする必要があります。管理者によって定義されたワークフローは、ユーザーに対して透過的に実行されます。ユーザーは、完了したらインポートの結果の詳細にアクセスできます。
+したがって、実行するインポートのタイプを選択し、インポートするデータと共にファイルをアップロードするだけで済みます。 管理者が定義したワークフローは、ユーザに対して透過的に実行され、インポートの完了後に結果の詳細にアクセスできます。
 
 >[!NOTE]
 >
 >Import data function can be managed by users with **[!UICONTROL GENERIC IMPORT (import)]** and **[!UICONTROL WORKFLOW (workflow)]** roles. ロールについて詳しくは、[この節](../../administration/using/list-of-roles.md)を参照してください。
 
-インポートは、実行元のテンプレート、実行日および実行ステータスに従って適用できます。
+インポートは、実行元のテンプレート、実行日、および実行ステータスに従ってフィルタリングできます。
 
-1. From the imports overview, click the **[!UICONTROL Create]** button. ウィザードが開きます。
-1. 実行するインポートのタイプを選択します。インポートタイプは、使用可能なインポートテンプレートに対応しています。
-1. 必要に応じて、テンプレートにリンクされているサンプルファイルをコンピューターにダウンロードして、読み込まれるファイル内のデータタイプを表示します。
-1. ウィザードで読み込むデータを含むファイルをダウンロードします。
-1. インポートを開始します。ウィザードが閉じ、使用するテンプレートで実行されたインポートのリストに戻ります。
-1. ページを更新し、実行したばかりのインポートを選択して、実行の詳細を表示します。
+1. インポートの概要で、ボタンをクリック **[!UICONTROL Create]** します。 ウィザードが開きます。
+1. 実行するインポートのタイプを選択します。 読み込みタイプは、使用可能な読み込みテンプレートに対応します。
+1. 必要に応じて、テンプレートにリンクされたサンプルファイルをコンピューターにダウンロードし、読み込むファイルに必要なデータタイプを表示します。
+1. インポートするデータを含むファイルをウィザードにダウンロードします。
+1. インポートを開始します。 ウィザードが閉じ、使用したテンプレートで実行されたインポートのリストに戻ります。
+1. ページを更新し、実行の詳細を表示するために実行したインポートを選択します。
 
    ![](assets/simplified_import1.png)
 
-インポートの実行の詳細が利用できるようになりました。読み込まれたファイルと、拒否されたデータ（インポートされなかったデータ）を含むファイルの両方をコンピュータにダウンロードできます。
+インポートの実行の詳細が利用できるようになりました。 インポートされたファイルと、拒否されたデータ（インポートされなかったデータ）を含むファイルの両方を、コンピューターにダウンロードできます。
