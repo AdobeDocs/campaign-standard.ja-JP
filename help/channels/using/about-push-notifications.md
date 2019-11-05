@@ -1,8 +1,6 @@
 ---
 title: プッシュ通知について
-seo-title: プッシュ通知について
-description: プッシュ通知について
-seo-description: Adobe Campaignのプッシュ通知チャネルの主な特性を確認します。
+description: Adobe Campaignのプッシュ通知チャネルの主な特性を確認します。
 page-status-flag: 非活性化の
 uuid: 961aeb5-6948-4fd2-b8d7-de4510c10566
 contentOwner: ソビア
@@ -15,7 +13,7 @@ context-tags: mobileApp，概要
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 96001355220a9dd0cd3851d3f7de9f4dc8ea2782
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
