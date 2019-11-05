@@ -1,108 +1,106 @@
 ---
 title: 画面定義の設定
-seo-title: 画面定義の設定
-description: 画面定義の設定
-seo-description: リソースデータ構造に基づいて新しいAdobe Campaign画面を定義する方法について説明します。
-page-status-flag: 常にアクティブ化されていない
-uuid: 40848197- b1a0-4018- bfc3-7df64fb83307
-contentOwner: サウビート
-products: SG_ CAMPAIGN/STANDARD
+description: リソースデータ構造に基づいて新しいAdobe Campaign画面を定義する方法について説明します。
+page-status-flag: 非活性化の
+uuid: 40848197-b1a0-4018-bfc3-7df64fb83307
+contentOwner: ソビア
+products: SG_CAMPAIGN/STANDARD
 audience: 開発中
 content-type: 参照
-topic-tags: 追加または拡張するリソース
-discoiquuid: 9dabb328- ac0c-49fd-8996-8d56341ee7ac
-context-tags: cusResource、main
+topic-tags: リソースの追加または拡張
+discoiquuid: 9dabb328-ac0c-49fd-8996-8d56341ee7ac
+context-tags: cusResource,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b3291f7c0cbede6a3180ad4a4ab8a365720f5031
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Configuring the screen definition{#configuring-the-screen-definition}
+# 画面定義の設定{#configuring-the-screen-definition}
 
-リソースを作成するとき、または既存のリソースに新しいフィールドを追加するときに、インターフェイスに表示する方法を定義できます。
+リソースを作成する場合、または既存のリソースに新しいフィールドを追加する場合、インターフェースに表示する方法を定義できます。
 
-ワークフロー、オーディエンス、REST APIを使用してデータを入力し、そのデータにアクセスすることができるので、この手順は必須ではありません。
+この手順は必須ではありません。この手順は、引き続き、ワークフロー、オーディエンスおよびREST APIを使用してリソースにデータを入力し、そのデータにアクセスできるためです。
 
-**[!UICONTROL Screen definition]** タブでは、次のことができます。
+このタブでは、次 **[!UICONTROL Screen definition]** の操作を実行できます。
 
-* ナビゲーションペインのカスタムリソースへのアクセス権の追加
-* リソースを構成する要素のリストが表示されるようにカスタマイズ
-* リソースの各要素の詳細ビューの表示方法の定義
+* ナビゲーションペインでのカスタムリソースへのアクセスの追加
+* リソースを構成する要素のリストを表示する方法をパーソナライズします。
+* リソースの各要素の詳細ビューの表示方法を定義します
 
-## Enabling access from the navigation menu {#enabling-access-from-the-navigation-menu}
+## ナビゲーションメニューからのアクセスの有効化 {#enabling-access-from-the-navigation-menu}
 
-リソースに専用の画面が表示されるようにするには、ナビゲーションメニューから使用できるようにします。
+リソースに専用の画面を設定する場合は、ナビゲーションメニューからその画面を使用できます。
 
-1. From the **[!UICONTROL Screen definition]** tab of the resource, unfold the **[!UICONTROL Navigation]** section.
-1. **[!UICONTROL Add an entry in the 'Client data' section]** このリソースへのアクセスをナビゲーションペインから許可するには、チェックボックスをオンにします。
+1. リソースのタ **[!UICONTROL Screen definition]** ブから、セクションを展開 **[!UICONTROL Navigation]** します。
+1. ナビゲーション **[!UICONTROL Add an entry in the 'Client data' section]** ウィンドウからこのリソースにアクセスできるようにするには、このボックスをオンにします。
 
    ![](assets/schema_extension_19.png)
 
-The resource will appear as a sub-entry within the **[!UICONTROL Client data]** section.
+リソースは、セクション内のサブエントリとして表示さ **[!UICONTROL Client data]** れます。
 
-## Defining the default list configuration {#defining-the-default-list-configuration}
+## デフォルトのリスト設定の定義 {#defining-the-default-list-configuration}
 
-The **[!UICONTROL List configuration]** section of the screen definition lets you define the columns and information that will be displayed by default in the overview of a resource.
+画面定 **[!UICONTROL List configuration]** 義のセクションでは、リソースの概要にデフォルトで表示される列と情報を定義できます。
 
-1. Check the **[!UICONTROL Customize the list configuration]** box to define the way the columns of the resource are displayed.
-1. Use the **[!UICONTROL Create element]** button to select a field from those that you have created.
-1. 作成されたフィールドがリストに表示されます。ラベルとその幅は編集できます。
+1. リソースの **[!UICONTROL Customize the list configuration]** 列の表示方法を定義するには、このボックスをオンにします。
+1. 作成したフ **[!UICONTROL Create element]** ィールドからフィールドを選択するには、このボタンを使用します。
+1. 作成されたフィールドがリストに表示されます。 ラベルと幅を編集できます。
 
    ![](assets/schema_extension_20.png)
 
-1. **[!UICONTROL Simple search]** セクションで、検索 **[!UICONTROL Specify the fields to be taken into account in the search]** に含めるフィールドを定義します。
+1. このセクシ **[!UICONTROL Simple search]** ョンで、検索に含め **[!UICONTROL Specify the fields to be taken into account in the search]** るフィールドを定義するには、を選択します。
 
    >[!CAUTION]
    >
-   >この設定は、デフォルトの検索で使用されるフィールドに置き換えられます。
+   >この設定は、デフォルトの検索で使用されるフィールドを置き換えます。
 
-1. **[!UICONTROL Advanced filtering]** このセクションで **[!UICONTROL Add search fields]** は、チェックボックスをオンにして、単純検索フィールド以外のフィールドを追加します。例えば、作成したフィールドから「日付」フィールドを選択した場合、ユーザーは日付のみを参照する検索を実行できます。
+1. セクションで、 **[!UICONTROL Advanced filtering]** このボックスにチェッ **[!UICONTROL Add search fields]** クマークを付けて、単純検索フィールドの後にフィールドを追加します。 例えば、作成したフィールドから「日付」フィールドを選択すると、その日付のみを参照する検索を実行できます。
 1. 2つの検索タイプのフィールドの順序を変更できます。
-1. アドバンス検索では、リンクされたリソースにリンクするフィールドを追加できます。These filters appear in the **[!UICONTROL Search]** menu of the generated screen.
+1. アドバンス検索では、リンクされたリソースにリンクするフィールドを追加できます。 これらのフィルターは、生成さ **[!UICONTROL Search]** れた画面のメニューに表示されます。
 
-リソースの概要画面が定義されるようになりました。
+これで、リソースの概要画面が定義されました。
 
-## Defining the detail screen configuration {#defining-the-detail-screen-configuration}
+## 詳細画面設定の定義 {#defining-the-detail-screen-configuration}
 
-The **[!UICONTROL Detail screen configuration]** section of the screen definition lets you define the columns and information that will be displayed in the detail screen of each element of the resource.
+画面 **[!UICONTROL Detail screen configuration]** 定義のセクションでは、リソースの各要素の詳細画面に表示される列と情報を定義できます。
 
-1. **[!UICONTROL Detail screen configuration]** セクションを展開して **[!UICONTROL Define a detail screen]** 、リソースの各要素に対応する画面を設定します。このボックスを選択しない場合、このリソースの要素の詳細ビューにアクセスできません。
-1. カスタムリソースからすべてのフィールドをワンクリックで追加できます。To do this, click the ![](assets/addallfieldsicon.png) icon or use the **[!UICONTROL Add an element]** button.
-1. このリソース用に作成した要素から要素を選択し、フィールドタイプを指定します。
+1. セクション **[!UICONTROL Detail screen configuration]** を展開し、リソースの各 **[!UICONTROL Define a detail screen]** 要素に対応する画面を設定するようにを確認します。 このチェックボックスをオフにすると、このリソースの要素の詳細ビューにアクセスできなくなります。
+1. カスタムリソースのすべてのフィールドは、1回のクリックで追加できます。 これを行うには、アイコンをクリック ![](assets/addallfieldsicon.png) するか、ボタンを使用 **[!UICONTROL Add an element]** します。
+1. このリソース用に作成された要素から要素を選択し、フィールドタイプを指定します。
 
    * **[!UICONTROL Input field]**:は編集可能なフィールドです。
    * **[!UICONTROL Value]**:は読み取り専用フィールドです。
-   * **[!UICONTROL List]**:はテーブルです。
-   * **[!UICONTROL Separator]**:エレメントをカテゴリに分割します。
+   * **[!UICONTROL List]**:は表です。
+   * **[!UICONTROL Separator]**:要素をカテゴリに分割します。
    ![](assets/schema_extension_23.png)
 
-1. 追加された要素がリストに表示されます。ラベルは編集できます。
+1. 追加された要素がリストに表示されます。 ラベルを編集できます。
 
    ![](assets/schema_extension_22.png)
 
-1. Add as many **[!UICONTROL Separator]** as needed to split your elements into different categories.
+1. 要素を様々なカ **[!UICONTROL Separator]** テゴリに分割するために必要な数だけ追加します。
 
-   これにより、区切りを表示してウィンドウをより適切に整理できます。
+   これにより、区切り文字を表示して、ウィンドウを整理しやすくなります。
 
    ![](assets/schema_extension_25.png)
 
-リソースの詳細画面が設定されるようになりました。
+これで、リソースの詳細画面が設定されました。
 
-## Actions on data section {#actions-on-data-section}
+## データセクションのアクション {#actions-on-data-section}
 
-これらの設定により、カスタムリソース画面にコントロールバーを表示できます。次の3つのオプションがあります。
+これらの設定により、カスタムリソース画面にコントロールバーを表示できます。 次の3つのオプションを使用できます。
 
 ![](assets/schema_extension_actions.png)
 
-* **[!UICONTROL Authorize creating]**:このオプションを使用すると、リソースの要素を作成できます。したがって、ユーザーは追加のレコードを追加できます。
+* **[!UICONTROL Authorize creating]**:このオプションを使用すると、リソースの作成要素をアクティブ化できます。 したがって、ユーザーはレコードを追加できます。
 
    >[!NOTE]
    >
-   >このオプションを使用できるようにするには、リソースにリンクされている詳細画面をアクティブにする必要があります。
+   >このオプションを有効にするには、まずリソースにリンクされた詳細画面をアクティブにする必要があります。
 
-* **[!UICONTROL Authorize duplicating]**:このオプションを使用すると、カスタムリソースにリンクされている重複レコードをアクティブ化できます。
-* **[!UICONTROL Authorize deleting]**:このオプションを使用すると、カスタムリソースにリンクされているレコードを削除できます。
+* **[!UICONTROL Authorize duplicating]**:このオプションを使用すると、カスタムリソースにリンクされた重複レコードをアクティブにできます。
+* **[!UICONTROL Authorize deleting]**:このオプションを使用すると、カスタムリソースにリンクされたレコードの削除をアクティブにできます。
 
