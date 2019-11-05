@@ -1,8 +1,6 @@
 ---
 title: 外部パラメーターを使用したワークフローの呼び出し
-seo-title: 外部パラメーターを使用したワークフローの呼び出し
-description: 外部パラメーターを使用したワークフローの呼び出し
-seo-description: この節では、外部パラメーターを使用してワークフローを呼び出す方法について説明します。
+description: この節では、外部パラメーターを使用してワークフローを呼び出す方法について説明します。
 page-status-flag: 非活性化の
 uuid: beccd1b6-8e6d-4504-9152-9ff537459c4a
 contentOwner: ソビア
@@ -14,7 +12,7 @@ discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -87,7 +85,7 @@ Campaign Standardでは、パラメーター（ターゲットとするオーデ
 
    ![](assets/extsignal_monitoring_3.png)
 
-## 外部パラメーターを使用したワークフローのカスタマイズ {#customizing-a-workflow-with-external-parameters}
+## Customizing a workflow with external parameters {#customizing-a-workflow-with-external-parameters}
 
 ワークフローがトリガーされると、パラメーターがイベント変数に取り込まれ、ワークフローのアクティビティをカスタマイズするために使用できます。
 
