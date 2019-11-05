@@ -1,91 +1,89 @@
 ---
 title: インポートテンプレートの定義
-seo-title: インポートテンプレートの定義
-description: インポートテンプレートの定義
-seo-description: テンプレートをインポートすると、必要な設定を減らしたり、データをすばやくインポートしたりできます。
-page-status-flag: 常にアクティブ化されていない
-uuid: 651eb57c- adac-4e3e- b454- b39aea1f0484
-contentOwner: サウビート
-products: SG_ CAMPAIGN/STANDARD
+description: テンプレートの読み込みを使用すると、必要な設定を減らし、データの読み込みを高速化できます。
+page-status-flag: 非活性化の
+uuid: 651eb57c-adac-4e3e-b454-b39aea1f0484
+contentOwner: ソビア
+products: SG_CAMPAIGN/STANDARD
 audience: 自動化
 content-type: 参照
-topic-tags: importing- and- exporting- data
-discoiquuid: 85d13147- fb31-446a-8476- f112c841fb82
+topic-tags: データのインポート/エクスポート
+discoiquuid: 85d13147-fb31-446a-8476-f112c841fb82
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 36727e82d3aa73add6116fa2916752ff0e407d9d
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Defining import templates{#defining-import-templates}
+# インポートテンプレートの定義{#defining-import-templates}
 
-テンプレートをインポートすると、管理者は特定の数の技術的なインポート設定を事前定義できます。これらのテンプレートは、標準ユーザーがファイルを実行してアップロードするために使用できます。
+インポートテンプレートを使用すると、管理者は特定の数の技術インポート設定を事前に定義できます。 これらのテンプレートは、標準ユーザがファイルの実行とアップロードを行えるようにすることができます。
 
-An import template is defined by the functional administrator and can be managed under the **[!UICONTROL Resources]** &gt; **[!UICONTROL Templates]** &gt; **[!UICONTROL Import templates]** menu.
+インポートテンプレートは、機能管理者が定義し、 &gt; &gt;メニューで管 **[!UICONTROL Resources]** 理で **[!UICONTROL Templates]** き **[!UICONTROL Import templates]** ます。
 
 ![](assets/import_template_list.png)
 
-デフォルトの読み取り専用テンプレートは3つあります。
+3つのデフォルトの読み取り専用テンプレートを使用できます。
 
-* **[!UICONTROL Update Direct mail quarantines and delivery logs]**:このテンプレートは、ダイレクトメールの隔離および配信ログを更新するための新しいインポートの基本として機能できます。テンプレートのワークフローには、次のアクティビティが含まれています。
-* **[!UICONTROL Import data]**:このテンプレートは、ファイルからデータベースにデータを挿入するための新しいインポートの基盤として機能できます。このテンプレートのワークフローには、次のアクティビティが含まれています。
+* **[!UICONTROL Update Direct mail quarantines and delivery logs]**:このテンプレートは、検疫およびダイレクトメールの配信ログを更新する新しいインポートの基盤として機能します。 テンプレートのワークフローには、次のアクティビティが含まれます。
+* **[!UICONTROL Import data]**:このテンプレートは、ファイルからデータベースにデータを挿入する新しいインポートの基盤となります。 このテンプレートのワークフローには、次のアクティビティが含まれます。
 
-   * **[!UICONTROL Load file]**:このアクティビティにより、Adobe Campaignサーバー上にファイルをアップロードできます。
-   * **[!UICONTROL Update data]**:このアクティビティを使用すると、ファイルからデータをデータベースに挿入できます。
+   * **[!UICONTROL Load file]**:このアクティビティにより、Adobe Campaignサーバーにファイルをアップロードできます。
+   * **[!UICONTROL Update data]**:このアクティビティを使用すると、ファイルからデータベースにデータを挿入できます。
 
-* **[!UICONTROL Import list]**:このテンプレートは、ファイル内のデータから **List** タイプのオーディエンスを作成するための新しいインポートの基盤として機能できます。このテンプレートのワークフローには、次のアクティビティが含まれています。
+* **[!UICONTROL Import list]**:このテンプレートは、ファイル内のデータから **List** typeオーディエンスを作成する新しいインポートの基盤として機能します。 このテンプレートのワークフローには、次のアクティビティが含まれます。
 
-   * **[!UICONTROL Load file]**:このアクティビティにより、Adobe Campaignサーバー上にファイルをアップロードできます。
-   * **[!UICONTROL Reconciliation]**:このアクティビティを使用すると、ターゲットディメンションをインポートしたデータにリンクできます。This then allows you to create a **List** type audience. If the targeting dimension of the imported data is not known, the audience is **File** type. See [Targeting dimensions and resources](../../automating/using/query.md#targeting-dimensions-and-resources).
-   * **[!UICONTROL Save audience]**:このアクティビティで **は、List** タイプのオーディエンスの形式でインポートされたデータを保存できます。保存されたオーディエンスの名前は、ユーザーによってインポートされたファイルの名前に対応し、インポートの日時を指定するサフィックスが追加されます。次に例を示します。"profiles_20150406_151448".
+   * **[!UICONTROL Load file]**:このアクティビティにより、Adobe Campaignサーバーにファイルをアップロードできます。
+   * **[!UICONTROL Reconciliation]**:このアクティビティを使用すると、インポートしたデータにターゲットディメンションをリンクできます。 これにより、リストタイプのオーディエンスを **作成でき** ます。 読み込んだデータのターゲットディメンションが不明な場合、オーディエンスは **File** typeです。 ディメンショ [ンとリソースのターゲット設定を参照してくださ](../../automating/using/query.md#targeting-dimensions-and-resources)い。
+   * **[!UICONTROL Save audience]**:このアクティビティでは、 **Listタイプのオーディエンスの形式でインポートしたデータを保存で** きます。 保存済みのオーディエンスの名前は、ユーザーが読み込んだファイルの名前に対応し、読み込みの日時を指定するサフィックスが追加されます。 例：'profiles_20150406_151448'.
 
-これらのデフォルトテンプレートは読み取り専用で、標準ユーザーには表示されません。ユーザーが使用できるテンプレートを作成するには、次の手順に従います。
+これらのデフォルトのテンプレートは読み取り専用で、標準ユーザーには表示されません。 ユーザーが使用できるテンプレートを作成するには、次の手順に従います。
 
-1. デフォルトテンプレートの複製複製されたテンプレートには3つのタブがあります。
+1. デフォルトのテンプレートを複製します。 複製されたテンプレートには3つのタブが含まれます。
 
-   * **[!UICONTROL Properties]**:インポートテンプレートの一般的なパラメーター。このタブでは、テンプレートを有効にしたり、サンプルファイルをアップロードしたりできます。
-   * **[!UICONTROL Workflow]**:インポートワークフローを参照してください。このタブでは、ワークフローアクティビティを定義できます。これらのアクティビティは、ユーザーが実行したシンプルなインポート中には表示されません。
-   * **[!UICONTROL Executed imports]**:インポートのリストは、このテンプレートを使用して実行します。このテンプレートを使用して実行された各インポートのステータス、詳細および結果を表示できます。このリストから、ワークフローに直接アクセス（ユーザーに対して透明な方法で実行）できます。
+   * **[!UICONTROL Properties]**:インポートテンプレートの一般パラメータ。 このタブでは、テンプレートを有効にし、サンプルファイルをアップロードできます。
+   * **[!UICONTROL Workflow]**:インポートワークフローを参照してください。 このタブでは、ワークフローアクティビティを定義できます。 これらのアクティビティは、ユーザーが実行したシンプルなインポートでは表示されません。
+   * **[!UICONTROL Executed imports]**:このテンプレートを使用して実行されたインポートのリストです。 このテンプレートを使用して実行された各インポートのステータス、詳細および結果を表示できます。 このリストから直接ワークフローにアクセスできます（ユーザーに対して透過的に実行されます）。
 
-1. **[!UICONTROL Properties]** タブから、テンプレートの名前を変更して説明を追加します。テンプレートが使用可能な場合、ユーザーは説明を表示できます。
+1. タブから、テ **[!UICONTROL Properties]** ンプレートの名前を変更し、説明を追加します。 テンプレートが使用可能になると、ユーザーは説明を表示できます。
 
    ![](assets/simplified_import_model1.png)
 
 1. Go to the **[!UICONTROL Workflow]** tab. ここから、ニーズに応じて新しいアクティビティを追加することで、デフォルトで提供されるワークフローを強化できます。
 
-   For more on how to configure the workflow activities, refer to the use case describe in this section: [Example: Import workflow template](../../automating/using/importing-data.md#example--import-workflow-template). この使用例は、Adobe Campaignデータベース内のCRMからのプロファイルをインポートするために再利用できるワークフローの設定に役立ちます。
+   ワークフローアクティビティの設定方法について詳しくは、この節で説明する使用例を参照してください。 [例：ワークフローテンプレートの読み込み](../../automating/using/importing-data.md#example--import-workflow-template)。 この使用例は、Adobe CampaignデータベースのCRMからのプロファイルのインポートで再利用できるワークフローの設定に役立ちます。
 
-1. ワークフローの設定が正しく考慮されるようにテンプレートを保存します。
-1. **[!UICONTROL Properties]** タブからサンプルファイルをアップロードします。アップロードされるファイルには、将来のインポートまたはサンプルデータに必要な列のみが含まれています。サンプルファイルのデータを使用すると、ワークフローが定義された後でシンプルなインポートをテストできます。
+1. ワークフローの設定が正しく考慮されるように、テンプレートを保存します。
+1. タブからサンプルファイルをアップロード **[!UICONTROL Properties]** します。 アップロードされたファイルには、今後のインポートやサンプルデータに必要な列のみを含めることができます。 ワークフローを定義すると、サンプルファイル内のデータを使用して、シンプル化されたインポートをテストできます。
 
    ![](assets/import_template_sample.png)
 
-   このサンプルファイルは、テンプレートを使用してインポートを実行するために使用できます。例えば、データをインポートして読み込むなど、コンピューターにダウンロードできます。サンプルファイルを追加する際には、これを考慮してください。
+   このサンプルファイルは、テンプレートを使用してインポートを実行するユーザーが使用できるようになります。 例えば、読み込むデータを入力するために、コンピューターにダウンロードできます。 サンプルファイルを追加する際は、この点を考慮してください。
 
-1. テンプレートを保存します。これで、サンプルファイルが考慮されます。At any moment you can download it to your computer to check the content, or modify it by checking the **[!UICONTROL Drop a new sample file]** option.
+1. テンプレートを保存します。 これでサンプルファイルが考慮されました。 コンピューターにダウンロードしてコンテンツを確認したり、オプションを選択して変更したりでき **[!UICONTROL Drop a new sample file]** ます。
 
    ![](assets/simplified_import_model2.png)
 
-1. **[!UICONTROL Workflow]** タブに戻り、アクティビティを **[!UICONTROL Load file]** 開き、前の手順でアップロードしたサンプルファイルの列設定を確認して調整します。
-1. ワークフローを開始してインポートをテストします。The sample file uploaded at step **5** has to contain data.
+1. タブに戻り、ア **[!UICONTROL Workflow]** クティビティを開 **[!UICONTROL Load file]** いて、前の手順でアップロードされたサンプルファイルの列設定を確認し、調整します。
+1. ワークフローを開始して、インポートをテストします。 手順 **5でアップロードしたサンプルファイルには** 、データが含まれている必要があります。
 
-   サンプルファイルのデータが純粋に読み込まれます。データベースが侵害されないように、使用するデータが小規模で架空であることを確認してください。
+   次に、サンプルファイルのデータが正しく読み込まれます。 使用するデータが小さく、架空のものであることを確認して、データベースに問題がないようにしてください。
 
-1. アクションバーにあるワークフロー実行ログに移動します。エラーが発生した場合は、アクティビティが正しく設定されていることを確認してください。
+1. アクションバーにあるワークフロー実行ログに移動します。 エラーが発生した場合は、アクティビティが正しく設定されていることを確認します。
 
    ![](assets/simplified_import_model3.png)
 
-1. **[!UICONTROL Properties]** タブで **[!UICONTROL Import template status]** 、"to **[!UICONTROL Available]**」を設定し、テンプレートを保存します。To stop using this template, you can set the **[!UICONTROL Import template status]** to **[!UICONTROL Archived]**.
+1. タブで、 **[!UICONTROL Properties]** をに設定し、テ **[!UICONTROL Import template status]** ンプ **[!UICONTROL Available]**&#x200B;レートを保存します。 このテンプレートの使用を停止するには、をに設定 **[!UICONTROL Import template status]** しま **[!UICONTROL Archived]**&#x200B;す。
 
-The template workflow can be modified by re-uploading the sample file and checking the **[!UICONTROL Load file]** configuration.
+テンプレートワークフローは、サンプルファイルを再度アップロードし、設定を確認することで変更で **[!UICONTROL Load file]** きます。
 
-これで、インポートテンプレートがユーザーに提供され、ファイルのアップロードに使用できます。
+これで、読み込みテンプレートがユーザに提供され、ファイルのアップロードに使用できるようになりました。
 
-**関連トピック:**
+**関連トピック：**
 
 * [ワークフロー](../../automating/using/discovering-workflows.md)
-* [データの読み込み](../../automating/using/importing-data.md)
-* [例:読み込みワークフローテンプレート](../../automating/using/importing-data.md#example--import-workflow-template)
+* [データのインポート](../../automating/using/importing-data.md)
+* [例：ワークフローテンプレートの読み込み](../../automating/using/importing-data.md#example--import-workflow-template)
 
