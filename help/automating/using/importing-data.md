@@ -1,8 +1,6 @@
 ---
 title: データのインポート
-seo-title: データのインポート
-description: データのインポート
-seo-description: ワークフローを使用してデータを読み込む方法を説明します。
+description: ワークフローを使用してデータを読み込む方法を説明します。
 page-status-flag: 非活性化の
 uuid: d909d26a-cf50-46af-ae09-f0fd7258ca27
 contentOwner: ソビア
@@ -14,7 +12,7 @@ discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
