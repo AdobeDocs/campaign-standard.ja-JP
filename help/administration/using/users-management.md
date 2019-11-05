@@ -1,8 +1,6 @@
 ---
 title: ユーザー管理
-seo-title: ユーザー管理
-description: ユーザー管理
-seo-description: 'Adobe Campaignユーザーは特定の役割を持ちます。 メインユーザータイプを検出します。 '
+description: 'Adobe Campaignユーザーは特定の役割を持ちます。 メインユーザータイプを検出します。 '
 page-status-flag: 非活性化の
 uuid: 8c4cc74a-815f-4815-af66-a7c21bc754f1
 contentOwner: ソビア
@@ -14,7 +12,7 @@ discoiquuid: 08c8712a-0066-4b8b-8471-2656b8fb23ed
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -38,7 +36,7 @@ Adobe Campaignからユーザー管理インターフェイスにアクセスす
 **関連トピック：**
 
 * [ユーザ権限の管理](https://helpx.adobe.com/campaign/kt/acs/using/acs-user-access-rights-feature-video-use.html) （ビデオ）
-* [ロールのリスト](../../administration/using/list-of-roles.md)
+* [役割のリスト](../../administration/using/list-of-roles.md)
 * [承認のリスト](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)
 
 ## ユーザーのタイプ {#type-of-users}
