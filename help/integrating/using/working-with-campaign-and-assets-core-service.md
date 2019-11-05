@@ -1,42 +1,40 @@
 ---
-title: キャンペーンと資産のコア·サービスの使用
-seo-title: キャンペーンと資産のコア·サービスの使用
-description: キャンペーンと資産のコア·サービスの使用
-seo-description: Assetsコアサービスの統合により、Adobe Experience cloud内で共有されているリソースをAdobe Campaignのメッセージとランディングページで使用できます。
-page-status-flag: 未活性化の
+title: Campaign と Assets コアサービスの使用
+description: Assetsコアサービスの統合により、Adobe Experience cloud内で共有されるリソースをAdobe Campaignメッセージおよびランディングページで使用できます。
+page-status-flag: 非活性化の
 uuid: 264a1260-33d6-412b-b2c8-0d57ca10d025
-contentOwner: サウビア
+contentOwner: ソビア
 products: SG_CAMPAIGN/STANDARD
-audience: 積分
+audience: 統合
 content-type: 参照
-topic-tags: キャンペーンと資産のコア·サービスとの連携
+topic-tags: キャンペーンと資産コアサービスの利用
 discoiquuid: e6fefe10-afd5-4628-8d9b-69eeb38070eb
-internal: 〜の
-snippet: イー
+internal: n
+snippet: y
 translation-type: tm+mt
-source-git-commit: 781904d58f520987e978ad5d1cdc9e34871ca876
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# キャンペーンと資産のコア·サービスの使用{#working-with-campaign-and-assets-core-service}
+# Campaign と Assets コアサービスの使用{#working-with-campaign-and-assets-core-service}
 
-Adobe CampaignとAssetsコアサービスまたはAssets on Demandを統合すると、Adobe Experience Cloud内で共有されるアセットをAdobe CampainのEメールおよびランディングページで使用できます。
+AssetsコアサービスまたはAssets on Demand（Adobe Experience cloud環境の設定に応じて異なる）をAdobe Campaignと統合すると、Adobe Experience cloud内で共有されるアセットをAdobe Campaignの電子メールおよびランディングページで使用できます。
 
-Adobe Experience cloudで共有するリソースは、E-メールやランディングページで使用できます。
+Adobe Experience cloudから共有されるリソースは、電子メールやランディングページで使用できます。
 
-1. 電子メールまたはランディング·ページのコンテンツを編集する場合は、イメージ·ブロックに移動し、コンテキスト·メ **[!UICONTROL Image shared from Adobe Experience Cloud]** ニューから選択します。
+1. 電子メールまたはランディングページのコンテンツを編集する場合は、画像ブロックに移動し、コンテキストメニ **[!UICONTROL Image shared from Adobe Experience Cloud]** ューを使用して選択します。
 
    ![](assets/dam_insert_image_dce.png)
 
-1. 開いた選択ウィンドウでイメージを選択し、確認します。
+1. 表示される選択ウィンドウで画像を選択し、確定します。
 
    ![](assets/dam_shared_image_selection.png)
 
-次に、イメージが挿入されます。 これで、必要に応じて配信をカスタマイズし、送信できます。
+画像が挿入されます。これで、必要に応じて配信をパーソナライズし、送信できるようになります。
 
 **関連トピック：**
 
-* [資産と共有](https://marketing.adobe.com/resources/help/en_US/mcloud/experience-cloud-assets.html)
-* [コンテンツエディタ](../../designing/using/personalization.md#example-email-personalization)
+* [アセットと共有](https://marketing.adobe.com/resources/help/en_US/mcloud/experience-cloud-assets.html)
+* [コンテンツエディター](../../designing/using/personalization.md#example-email-personalization)
 
