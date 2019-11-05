@@ -1,8 +1,6 @@
 ---
 title: E メールのレンダリング
-seo-title: E メールのレンダリング
-description: E メールのレンダリング
-seo-description: 電子メールレンダリング機能を見つけます。
+description: 電子メールレンダリング機能を見つけます。
 page-status-flag: 非活性化の
 uuid: c423e237-ad39-4797-ac3a-4320894a8f99
 contentOwner: ソビア
@@ -14,7 +12,7 @@ discoiquuid: 2b5b13c8-2e51-4985-a161-c1d7f0fc32b4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51d80fc9c683e39b9d08ba7d36b76b71a9dd1e8c
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
