@@ -1,38 +1,36 @@
 ---
 title: ダイレクトメールの作成
-seo-title: ダイレクトメールの作成
-description: ダイレクトメールの作成
-seo-description: Adobe Campaignでダイレクトメール配信を作成するには、次の手順に従います。
-page-status-flag: 常にアクティブ化されていない
+description: Adobe Campaignでダイレクトメール配信を作成するには、次の手順に従います。
+page-status-flag: 非活性化の
 uuid: 3b1365c4-4ea1-4434-818b-05ff0c9b42c1
-contentOwner: サウビート
-products: SG_ CAMPAIGN/STANDARD
+contentOwner: ソビア
+products: SG_CAMPAIGN/STANDARD
 audience: チャネル
 content-type: 参照
 topic-tags: ダイレクトメール
-discoiquuid: 5b02227f-9438-4001- bc2f-3d8661d173b3
-context-tags: delivery， directMailContent， back
+discoiquuid: 5b02227f-9438-4001-bc2f-3d8661d173b3
+context-tags: delivery,directMailContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b0cf437ec97153b53bd4502171b24286abb25731
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Creating the direct mail{#creating-the-direct-mail}
+# ダイレクトメールの作成{#creating-the-direct-mail}
 
-ダイレクトメール配信の作成は、通常の電子メールの作成と非常によく似ています。次の手順では、このチャネルに固有の設定について説明します。Refer to [Creating an email](../../channels/using/creating-an-email.md) for more information on other options.
+ダイレクトメール配信の作成は、通常の電子メールの作成と非常に似ています。 次の手順では、このチャネルに固有の設定について説明します。 その他のオプ [ションの詳細については](../../channels/using/creating-an-email.md) 、「電子メールの作成」を参照してください。
 
-1. 新しいダイレクトメール配信を作成します。You can create one from the Adobe Campaign [home page](../../start/using/interface-description.md#home-page), in a [campaign](../../start/using/marketing-activities.md#creating-a-marketing-activity) or in a [marketing activity list](../../start/using/programs-and-campaigns.md#creating-a-campaign).
+1. 新しいダイレクトメール配信を作成します。 Adobe Campaignホームページ、キャンペーンまたはマーケテ [ィングアクティビティリ](../../start/using/interface-description.md#home-page)ストから [1つ](../../start/using/marketing-activities.md#creating-a-marketing-activity) を作成できます [](../../start/using/programs-and-campaigns.md#creating-a-campaign)。
 
    >[!NOTE]
    >
-   >ワークフローでダイレクトメールアクティビティを追加することもできます。For more on this, refer to the [Workflows](../../automating/using/direct-mail-delivery.md) guide.
+   >また、ワークフローにダイレクトメール活動を追加することもできます。 詳しくは、[ワークフロー](../../automating/using/direct-mail-delivery.md)ガイドを参照してください。
 
    ![](assets/direct_mail_1.png)
 
-1. Choose either the out-of-the-box **[!UICONTROL Direct mail]** template or one of your own templates. For more information on templates, refer to the [Managing templates](../../start/using/about-templates.md) section.
+1. そのまま使用できるテンプレートまたは独自のテンプ **[!UICONTROL Direct mail]** レートのいずれかを選択します。 テンプレートの詳細については、「テンプレートの管理」を参 [照してくださ](../../start/using/about-templates.md) い。
 
    ![](assets/direct_mail_2.png)
 
@@ -40,65 +38,65 @@ source-git-commit: b0cf437ec97153b53bd4502171b24286abb25731
 
    ![](assets/direct_mail_3.png)
 
-1. 抽出ファイルに含めるオーディエンスとテストおよびトラッププロファイルを定義します。See [Defining the direct mail audience](../../channels/using/defining-the-direct-mail-audience.md).
+1. 抽出ファイルに含めるオーディエンスと、テストおよびトラッププロファイルを定義します。 See [Defining the direct mail audience](../../channels/using/defining-the-direct-mail-audience.md).
 
    ![](assets/direct_mail_4.png)
 
    >[!NOTE]
    >
-   >オーディエンスの定義は、通常の電子メールオーディエンスの定義と非常に似ています。See [Creating audiences](../../audiences/using/creating-audiences.md).
+   >オーディエンスの定義は、通常の電子メールオーディエンスの定義と非常に似ています。 オーディエ [ンスの作成を参照してくださ](../../audiences/using/creating-audiences.md)い。
 
-1. ファイルのコンテンツを編集します。列に、各プロファイル、ファイル構造、ヘッダーとフッターを含めることができます。See [Defining the direct mail content](../../channels/using/defining-the-direct-mail-content.md).
+1. ファイルの内容を編集します。各プロファイル、ファイル構造、ヘッダーおよびフッターに含める列。 See [Defining the direct mail content](../../channels/using/defining-the-direct-mail-content.md).
 
    ![](assets/direct_mail_5.png)
 
-1. Click on the **[!UICONTROL Schedule]** section of the delivery dashboard to define the contact date. ダイレクトメールの場合、連絡先日は必須です。For more information, refer to [Scheduling the send](../../sending/using/about-scheduling-messages.md).
+1. [配信]ダッシュボ **[!UICONTROL Schedule]** ードのセクションをクリックして、連絡日を定義します。 ダイレクトメールの場合、連絡先の日付は必須です。 詳しくは、送信のスケジュー [ルを参照してください](../../sending/using/about-scheduling-messages.md)。
 
    ![](assets/direct_mail_8.png)
 
-1. If you added test profiles (refer to [Adding test and trap profiles](../../channels/using/defining-the-direct-mail-audience.md#adding-test-and-trap-profiles)), you can test your delivery before preparing the final file. 選択したテストプロファイルのみを含むサンプルファイルを作成できます。
+1. テストプロファイルを追加した場合(「テス [トおよびトラッププロファイルの追加](../../channels/using/defining-the-direct-mail-audience.md#adding-test-and-trap-profiles)」を参照)は、最終ファイルを準備する前に配信をテストできます。 選択したテストプロファイルのみを含むサンプルファイルを作成できます。
 
-   Click on **[!UICONTROL Test]** to generate the sample file. Click on **[!UICONTROL Summary]**, in the top left corner, then select **[!UICONTROL Proofs]**. On the left part of the screen, select the proof and click on **[!UICONTROL Download file]**.
+   をクリックし **[!UICONTROL Test]** て、サンプルファイルを生成します。 左上隅 **[!UICONTROL Summary]**&#x200B;にあるをクリックし、を選択します **[!UICONTROL Proofs]**。 画面の左側で、校正を選択し、をクリックします **[!UICONTROL Download file]**。
 
    >[!NOTE]
    >
-   >**[!UICONTROL Export]** このロールは、Adobe Campaignがファイルをエクスポートしてダウンロードできるようにするために必要です。管理者に問い合わせてください。
+   >役割は、 **[!UICONTROL Export]** Adobe Campaignがファイルをエクスポートし、ダウンロード可能にするために必要です。 管理者に問い合わせてください。
 
    ![](assets/direct_mail_19.png)
 
-1. Once you have defined your delivery content, audience and contact date, click on the **[!UICONTROL Prepare]** button, on the delivery dashboard.
+1. 配信コンテンツ、オーディエンス、および連絡日を定義したら、配信ダッシュボードのボ **[!UICONTROL Prepare]** タンをクリックして選択します。
 
    ![](assets/direct_mail_16.png)
 
-   タイポロジルールが適用されます。例えば、すべての指定されていない住所はターゲットから除外されます。This is why you need to make sure you have checked the **[!UICONTROL Address specified]** box in your profiles' information (see [Recommendations](../../channels/using/about-direct-mail.md#recommendations)). If you have defined a **[!UICONTROL Maximum volume of message]** in the direct mail properties or at the template level, it will also be applied here.
+   タイポロジルールが適用されます。 例えば、指定されていないすべての住所はターゲットから除外されます。 これが、プロファイルの情報のボックスがオンになってい **[!UICONTROL Address specified]** ることを確認する必要がある理由で [す(Recommendations](../../channels/using/about-direct-mail.md#recommendations)を参照)。 ダイレクトメールのプロパティ **[!UICONTROL Maximum volume of message]** またはテンプレートレベルでを定義した場合は、ここでも適用されます。
 
    ![](assets/direct_mail_25.png)
 
    >[!NOTE]
    >
-   >グローバルなクロスチャネルの疲労ルールを設定して、キャンペーンから余分なプロファイルを自動的に除外することができます。[疲労ルール](../../administration/using/fatigue-rules.md)を参照してください。
+   >キャンペーンから過剰に要求されるプロファイルを自動的に除外する、グローバルなチャネル間疲労ルールを設定できます。 疲労ル [ールを参照](../../administration/using/fatigue-rules.md)。
 
-1. Click on **[!UICONTROL Explore file]** to preview the first 100 lines of the file.
+1. をクリック **[!UICONTROL Explore file]** して、ファイルの最初の100行をプレビューします。
 
    ![](assets/direct_mail_18.png)
 
-   画面の左部分では、完全なファイルにアクセスできます。Downloading the file generates a log entry in the **[!UICONTROL Export audits]** menu. For more information on export audits, refer to the [Auditing exports](../../administration/using/auditing-export-logs.md) section.
+   完全なファイルは、画面の左側からローカルでダウンロードできます。 ファイルをダウンロードすると、メニューにログエントリが生成 **[!UICONTROL Export audits]** されます。 エクスポート監査の詳細については、「エクスポートの監査 [](../../administration/using/auditing-export-logs.md) 」を参照してください。
 
    >[!NOTE]
    >
-   >**[!UICONTROL Export]** このロールは、Adobe Campaignがファイルをエクスポートしてダウンロードできるようにするために必要です。管理者に問い合わせてください。
+   >役割は、 **[!UICONTROL Export]** Adobe Campaignがファイルをエクスポートし、ダウンロード可能にするために必要です。 管理者に問い合わせてください。
 
-   If you need to change the delivery content, you only have to click on the **[!UICONTROL Regenerate file]** button to take the change into account. 準備をやり直す必要はありません。
+   配信コンテンツを変更する必要がある場合は、変更を考慮するためにボタンをク **[!UICONTROL Regenerate file]** リックするだけで済みます。 もう準備をしなくてもいい。
 
    ![](assets/direct_mail_21.png)
 
-1. To confirm that the file is final, click on **[!UICONTROL Confirm]** in the delivery dashboard.
+1. ファイルが最終版であることを確認するには、配信ダッシュボ **[!UICONTROL Confirm]** ードのをクリックします。
 
    ![](assets/direct_mail_20.png)
 
-これで、抽出ファイルをダイレクトメールプロバイダーに送信する準備が整いました。これには、いくつかのオプションがあります。
+これで、抽出ファイルをダイレクトメールプロバイダに送信する準備が整いました。 この場合、次のいくつかのオプションがあります。
 
-* ファイルを添付して通常の電子メールを送信
-* Send it via Campaign: perform your direct mail within a campaign [workflow](../../automating/using/direct-mail-delivery.md) and add a **[!UICONTROL Transfer file]** to send the file via FTP for example. See [Transfer file](../../automating/using/transfer-file.md).
+* 通常の電子メールでファイルを添付して送信
+* キャンペーン経由で送信：キャンペーンワークフロー内でダイレクトメ [ールを実行し](../../automating/using/direct-mail-delivery.md) 、例えばFTP経由で **[!UICONTROL Transfer file]** ファイルを送信するためのを追加します。 詳しくは、 [ファイルの転送を参照してくださ](../../automating/using/transfer-file.md)い。
 
-プロバイダーは、誤ったアドレスのリストを取得し、この情報をAdobe Campaignに送信して、誤ったアドレスを自動的にブラックリストに入れます。See [Return to sender](../../channels/using/return-to-sender.md).
+プロバイダーは、エラーのあるアドレスのリストを取得し、この情報をAdobe Campaignに送信します。Adobe Campaignは、エラーのあるアドレスを自動的にブラックリストします。 See [Return to sender](../../channels/using/return-to-sender.md).
