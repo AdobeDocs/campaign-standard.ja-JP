@@ -1,8 +1,6 @@
 ---
-title: 購読について
-seo-title: 購読について
-description: 購読について
-seo-description: null
+title: サブスクリプションについて
+description: null
 page-status-flag: 非活性化の
 uuid: b0263e40-f910-49f2-a138-0a1302aeec6
 contentOwner: ソビア
@@ -14,12 +12,12 @@ discoiquuid: 27de5a13-7b7c-4c91-bf26-3dfd324beb8f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 94c7649448aff859daaf2bbe9a4d17a5187ac71f
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# 購読について{#about-subscriptions}
+# サブスクリプションについて{#about-subscriptions}
 
 Adobe Campaignでは、一連のサービスを使用して、ニュースレターやチャネル間の通信を作成および管理で **きます**。メッセージは、サービスを購読しているプロファイル（オプトイン）にのみ送信できます。 これらのプロファイルは、メッセージを作成する際に専用のフィルターを使用して識別されます。
 
