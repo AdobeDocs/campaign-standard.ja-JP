@@ -1,67 +1,65 @@
 ---
-title: Adobeソリューションとの統合
-seo-title: Adobeソリューションとの統合
-description: Adobeソリューションとの統合
-seo-description: Adobe Experience cloudのコアサービスやAdobe AnalyticsやExperience Managerなどのソリューションとの統合により、深い洞察と便利なコンテンツ管理により、Adobe Campaign戦略を改善する方法を説明します。
-page-status-flag: 未活性化の
+title: アドビのソリューションとの統合について
+description: Adobe Experience cloudコアサービスおよびAdobe AnalyticsやExperience Managerなどのソリューションとの統合により、詳細なインサイトと便利なコンテンツ管理を使用してAdobe Campaign戦略を改善する方法について説明します。
+page-status-flag: 非活性化の
 uuid: e142e449-1cf4-4d3f-a318-6572d78e6f85
-contentOwner: サウビア
+contentOwner: ソビア
 products: SG_CAMPAIGN/STANDARD
 audience: 開始
 content-type: 参照
-topic-tags: アドビ活動について
+topic-tags: about-adobe-campaign
 discoiquuid: 3aebc89c-ed08-46ab-909c-e077ce2ab5da
-internal: 〜の
-snippet: イー
+internal: n
+snippet: y
 translation-type: tm+mt
-source-git-commit: 4084346b537bb483c5519c26d71880d3c57a7e44
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Adobeソリューションとの統合{#integrating-with-adobe-solutions}
+# アドビのソリューションとの統合について{#integrating-with-adobe-solutions}
 
-他のAdobe Experience cloudソリューションとの統合には、初期設定を適用する必要が生じる場合があります。 詳細については、Adobeテクニカル管理者に問い合わせてください。
+他のAdobe Experience cloudソリューションとの統合では、初期設定を適応させる必要が生じる場合があります。 詳しくは、アドビのテクニカル管理者にお問い合わせください。
 
-Adobe Experience CloudソリューションとAdobe Campaignを組み合わせると、次のことが可能になります。
+Adobe Experience cloudソリューションとAdobe Campaignを組み合わせると、次のことが可能になります。
 
-* Adobe Experience Managerから作成したコンテンツをAdobe Campaignメッセージで使用します。
+* Adobe Experience Managerで作成したコンテンツをAdobe Campaignメッセージで使用します。
 
-   詳細は、「キャンペーンとエクスペリエンスマネ [ージャの操作」を参照してください](../../integrating/using/integrating-with-experience-manager.md)。
+   詳しくは、「CampaignとExperience Managerの [使用」を参照してください](../../integrating/using/integrating-with-experience-manager.md)。
 
-* Adobe Campaignで使用するために、異なるExperience cloudソリューションの共有対象ユーザーをインポートし、Adobe Campaignの対象ユーザーをAdobe Experience cloudにエクスポートして、異なるソリューションで使用できるようにします。
+* 様々なExperience cloudソリューションから共有オーディエンスをインポートしてAdobe Campaignで使用し、Adobe CampaignオーディエンスをAdobe Experience cloudにエクスポートして、様々なソリューションで使用できるようにします。
 
-   詳細は、「キャンペーンとPeopleコアサ [ービスの操作」を参照してください](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)。
+   詳しくは、「キャンペーンとユーザーコ [アサービスの操作」を参照してください](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)。
 
-* Adobe Targetで生成されたダイナミックイメージをAdobe Campaignメッセージに挿入します。
+* Adobe targetによって生成された動的な画像をAdobe Campaignメッセージに挿入します。
 
-   詳細は、「キャンペーンとターゲット [の操作」を参照してください](../../integrating/using/about-campaign-target-integration.md)。
+   詳しくは、「CampaignとTargetの [操作」を参照してください](../../integrating/using/about-campaign-target-integration.md)。
 
-* Adobe Campaignのメッセージとランディングページで、Adobe Experience cloudから共有するリソースを使用します。
+* Adobe Experience cloudから共有されたリソースをAdobe Campaignのメッセージおよびランディングページで使用します。
 
-   詳細は、「キャンペーンと資産のコ [アサービスの使用」を参照してください](../../integrating/using/working-with-campaign-and-assets-core-service.md)。
+   詳しくは、「キャンペーンとアセットのコ [アサービスの使用」を参照してください](../../integrating/using/working-with-campaign-and-assets-core-service.md)。
 
-* Adobe Analyticsで電子メール配信の成功を直接追跡します。
+* 電子メール配信の成功をAdobe Analyticsで直接追跡します。
 
-   詳細は、「キャンペーンと分析の [使用」を参照してください](../../integrating/using/about-campaign-analytics-integration.md)。
+   詳しくは、「CampaignとAnalyticsの使 [用」を参照してください](../../integrating/using/about-campaign-analytics-integration.md)。
 
-* Adobe Analytics for Mobileとの統合を通じて、モバイルアプリケーションのサブスクライバから収集したPoints of Interestデータを使用して、個別のマーケティングメッセージを送信します。
+* Adobe Analytics for mobileとの統合により、モバイルアプリのサブスクリプションを購入した際に収集した目標地点データを使用して、パーソナライズされたマーケティングメッセージを送信します。
 
-   詳細は、「モバイル/関心事 [項データのキャンペーンと分析の使用」を参照してください](../../integrating/using/about-campaign-points-of-interest-data-integration.md)。
+   詳しくは、モバイル/目標地 [点データのキャンペーンと分析の操作を参照してください](../../integrating/using/about-campaign-points-of-interest-data-integration.md)。
 
-* Dreamweaverで電子メールのコンテンツを作成および変更します。
+* Dreamweaverで電子メールの内容を作成し、変更します。
 
-   詳細については、『Dreamweaverでのコンテ [ンツの編集』を参照してください](../../designing/using/using-integrations.md#editing-content-in-dreamweaver)。
+   この詳細については、『Dreamweaverでのコン [テンツの編集』を参照してください](../../designing/using/using-integrations.md#editing-content-in-dreamweaver)。
 
-* Adobe AnalyticsでWebサイトで追跡される特定の動作に対する反応として、Adobe Campaignで個人用に設定された電子メールを顧客に送信します。
+* Adobe AnalyticsがWebサイト上で追跡する特定の行動に対する反応として、Adobe Campaignで顧客にパーソナライズされた電子メールを送信します。
 
-   詳細については、「キャンペーン標準 [でのUse Experience Cloud Triggers」を参照してください](../../integrating/using/about-adobe-experience-cloud-triggers.md)。
+   この機能について詳しくは、「Campaign StandardでのExperience Cloud Triggers [の使用」を参照してください](../../integrating/using/about-adobe-experience-cloud-triggers.md)。
 
-* イメージを編集し、Adobe Creative SDKを使用して、コンテンツエディタでイメージを直接拡張する機能のセットを使用します
+* 画像を編集し、Adobe Creative SDKが提供する機能をすべて使用して、コンテンツエディターで直接画像を強調します
 
-   詳細については、「Adobe Creative SDKを使 [用したイメージの修正」を参照してください。](../../designing/using/images.md#modifying-images-with-the-adobe-creative-sdk)
+   詳しくは、Adobe Creative SDKを使用し [た画像の変更を参照してください](../../designing/using/images.md#modifying-images-with-the-adobe-creative-sdk)
 
-* Adobe Experience Platform SDKを使用して、Adobe CampaignのMobile App Propertyのアクティブ化プロセスを自動化します。
+* Adobe Experience Platform SDKを使用して、Adobe Campaignでのモバイルアプリのプロパティアクティベーションプロセスを自動化します。
 
-   詳細については、『エクスペリエンスプラットフォームSDKを使 [用したモバイルアプリケーションの設定』を参照してください。](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)
+   これについて詳しくは、Experience Platform SDKを使用し [たモバイルアプリケーションの設定を参照してください](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)
 
