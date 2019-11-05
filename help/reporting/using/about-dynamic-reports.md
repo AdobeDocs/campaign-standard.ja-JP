@@ -1,8 +1,6 @@
 ---
 title: 動的レポートについて
-seo-title: 動的レポートについて
-description: 動的レポートについて
-seo-description: 動的レポートを使用して、変数やディメンションをフリーフォーム環境にドラッグ&ドロップし、キャンペーンの成功を分析します。
+description: 動的レポートを使用して、変数やディメンションをフリーフォーム環境にドラッグ&ドロップし、キャンペーンの成功を分析します。
 page-status-flag: 非活性化の
 uuid: a84a18bd-4e33-466e-a6ce-d7008fe12746
 contentOwner: ソビア
@@ -14,7 +12,7 @@ discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c606612b1bfb313e8eb20e45cf631609ec07aa84
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
