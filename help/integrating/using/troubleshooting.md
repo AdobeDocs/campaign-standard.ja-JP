@@ -1,54 +1,52 @@
 ---
 title: トラブルシューティング
-seo-title: トラブルシューティング
-description: トラブルシューティング
-seo-description: リソースを共有する際の問題のトラブルシューティング方法について説明します。
-page-status-flag: 常にアクティブ化されていない
-uuid: 1c764dd8- e09f-4e8e-9pcb-88ab3d714284
-contentOwner: サウビート
-products: SG_ CAMPAIGN/STANDARD
+description: リソースを共有する際の問題のトラブルシューティング方法を説明します。
+page-status-flag: 非活性化の
+uuid: 1c764dd8-e09f-4e8e-9ccd-88ab3d714284
+contentOwner: ソビア
+products: SG_CAMPAIGN/STANDARD
 audience: 統合
 content-type: 参照
-topic-tags: working- with- campaign- and- audiences- manager- or- people- core- service
-discoiquuid: c28e1d90-8074-4127- a6fc- ed39d69cmdb19
+topic-tags: キャンペーンとオーディエンスの管理者または人々のコアサービスの利用
+discoiquuid: c28e1d90-8074-4127-a6fc-ed39d69cdb19
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 698466596fdacd005dc4d72b8071208c8c39f77d
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
 
-# Troubleshooting{#troubleshooting}
+# トラブルシューティング{#troubleshooting}
 
-Audience ManagerまたはPeopleコアサービスとの統合中にエラーが発生する可能性があります。
+Audience ManagerまたはPeopleコアサービスとの統合を使用中にエラーが発生する場合があります。
 
-この場合、次の要素が正しく構成されていることを確認してください。
+この場合、次の要素が正しく設定されていることを確認します。
 
 * **外部アカウント**
 
-   In **[!UICONTROL Administration]** &gt; **[!UICONTROL Application settings]** &gt; **[!UICONTROL External accounts]**, make sure that the following external S3 accounts are correctly configured. 前述のS3サーバーはプロビジョニング中に設定されている必要があります。
+   &gt; **[!UICONTROL Administration]** &gt;で、 **[!UICONTROL Application settings]** 次の外部S3ア **[!UICONTROL External accounts]**&#x200B;カウントが正しく設定されていることを確認します。 前述のS3サーバは、プロビジョニング中に設定する必要があります。
 
-   * **[!UICONTROL importSharedAudience]**:オーディエンスの読み込み専用のS3アカウント。
-   * **[!UICONTROL exportSharedAudience]**:オーディエンスのエクスポート専用のS3アカウント。
+   * **[!UICONTROL importSharedAudience]**:オーディエンスのインポート専用のS3アカウント。
+   * **[!UICONTROL exportSharedAudience]**:オーディエンスの書き出し専用のS3アカウント。
 
 * **共有データソース**
 
-   In **[!UICONTROL Administration]** &gt; **[!UICONTROL Application settings]** &gt; **[!UICONTROL Shared Data Sources]**, check that the shared data source is set properly.
+   // **[!UICONTROL Administration]** で、共 **[!UICONTROL Application settings]** 有デ **[!UICONTROL Shared Data Sources]**&#x200B;ータソースが正しく設定されていることを確認します。
 
-   **[!UICONTROL Priority]** は、複数のデータソースが定義されている場合に使用します。優先度によって、定義された順序で受け取ったエイリアスとの照合に使用されるデータソースが決定されます。**[!UICONTROL Priority]** は、Triggersの実装にのみ必要です。
+   **[!UICONTROL Priority]** は、複数のデータソースを定義している場合に使用します。 優先度は、定義された順序で受け取ったエイリアスとの照合に使用するデータソースを決定します。 **[!UICONTROL Priority]** は、Triggers実装でのみ必要です。
 
-   紐付けキーが正しいことを確認します。これは、オーディエンスの書き出しおよび読み込みに使用される、このフィールドのハッシュ/暗号化された値です。
+   調整キーが正しいことを確認します。 オーディエンスの書き出しおよび読み込みに使用される、このフィールドのハッシュ化/暗号化された値です。
 
-   宣言されたIDのハッシュまたは暗号化の場合、Webサイトで同じパラメーター/暗号化アルゴリズムが使用されていることを確認してください。
+   宣言済みIDをハッシュまたは暗号化する場合は、Webサイトで同じパラメーター/暗号化アルゴリズムが使用されていることを確認します。
 
-   サポートされる暗号化アルゴリズムは1つだけです。CBCモード（128、192または256ビット）のキーサイズ（PKCSパディングを含む）。
+   1つの暗号化アルゴリズムのみがサポートされます。キーサイズが128、192または256ビットのCBCモードのAES。PKCSパディングを使用します。
 
-   AES暗号化アルゴリズムが選択されている場合、以下の追加フィールドを正しく設定する必要があります。
+   AES暗号化アルゴリズムを選択する場合は、次の追加フィールドを正しく設定する必要があります。
 
-   * **AESの暗号化キー**
-   * **AES for AESのEncryption IV** （初期化ベクトル）
-   * **チャネル** （電子メール/SMS/その他）:このフィールドでは、電子メールアドレスとSMS番号を直接復号できます。Make sure that the reconciliation key matches the setting of the **Channel** field. 「その他」を選択すると、この特定の復号化は行われず、紐付けキーを使用してデータが調整されます。
-   技術ワークフローが停止または一時停止されているので、Experience Cloudオーディエンスが共有されていない可能性があります。Access the **[!UICONTROL Import shared audience]** workflow by clicking directly the **[!UICONTROL Show ImportShared Audience workflow]** option in your Data source.
+   * **Encryption Key** for AES
+   * **AES用のEncryption IV** (Initialization Vector)
+   * **チャネル** （電子メール/SMS/その他）:このフィールドでは、電子メールアドレスとSMS番号を直接復号化できます。 調整キーが「チャネル」フィールドの設定と一致することを確認 **します** 。 「その他」を選択した場合、この特定の復号は行われず、調整キーを使用してデータが調整されます。
+   技術ワークフローが停止または一時停止したため、Experience cloudオーディエンスが共有されない場合があります。 データソースのオ **[!UICONTROL Import shared audience]** プションを直接クリックして、ワ **[!UICONTROL Show ImportShared Audience workflow]** ークフローにアクセスします。
 
-Peopleコアサービスを介してオーディエンスを共有したり、オーディエンスをインポートしたりするときに、一部のデータが欠落する可能性があります。プロファイルディメンションとの紐付けが可能なID（「訪問者ID"または「宣言済みID"）のみが転送されます。Adobe Campaignで認識されないPeopleコアサービスセグメントからのIDはインポートされません。
+People コアサービス経由でオーディエンスを共有したり、オーディエンスをインポートしたりすると、データが一部失われることがあります。ID（「訪問者 ID」または「宣言済み ID」）をプロファイルディメンションに紐付けることができたレコードだけが転送されます。Adobe Campaign によって認識されない People コアサービスセグメントからの ID はインポートされません。
