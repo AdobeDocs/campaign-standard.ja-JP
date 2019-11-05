@@ -1,8 +1,6 @@
 ---
 title: パネルの追加
-seo-title: パネルの追加
-description: パネルの追加
-seo-description: 動的レポートを使用すると、選択した期間に応じてデータをより適切にフィルタリングするためのパネルを追加できます。
+description: 動的レポートを使用すると、選択した期間に応じてデータをより適切にフィルタリングするためのパネルを追加できます。
 page-status-flag: 非活性化の
 uuid: 8e76e837-5efc-4250-8192-dee1a0bd62fe
 contentOwner: ソビア
@@ -14,7 +12,7 @@ discoiquuid: f4e1e676-5ca2-4a58-96d7-d378ff803710
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d3fca4c85f418a6a50bbf12f730990ad4b33a4cc
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
