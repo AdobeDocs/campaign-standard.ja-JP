@@ -1,8 +1,6 @@
 ---
 title: トラブルシューティング
-seo-title: トラブルシューティング
-description: トラブルシューティング
-seo-description: 動的レポートに関するよくある質問を以下に示します。
+description: 動的レポートに関するよくある質問を以下に示します。
 page-status-flag: 非活性化の
 uuid: a84a18bd-4e33-466e-a6ce-d7008fe12746
 contentOwner: 楽しい
@@ -14,7 +12,7 @@ discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0ccb6df9b3de49baf1a230547c33f5d2246c0e85
+source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ---
 
@@ -39,7 +37,7 @@ P1では、最初の日に電子メールを2回開き、2日目には2回目の
  <thead> 
   <tr> 
    <th align="center"> <strong>日</strong><br /> </th> 
-   <th align="center"> <strong>開く</strong><br /> </th> 
+   <th align="center"> <strong>開封数</strong> <br /> </th> 
    <th align="center"> <strong>個別オープン</strong><br /> </th> 
   </tr> 
  </thead> 
@@ -67,7 +65,7 @@ P1では、最初の日に電子メールを2回開き、2日目には2回目の
  <thead> 
   <tr> 
    <th align="center"> <strong>日</strong><br /> </th> 
-   <th align="center"> <strong>開く</strong><br /> </th> 
+   <th align="center"> <strong>開封数</strong> <br /> </th> 
    <th align="center"> <strong>個別オープン</strong><br /> </th> 
   </tr> 
  </thead> 
@@ -123,7 +121,7 @@ Adobe Campaign Standard 19.2.1リリースより前のレポートは次のよ�
    <th align="center"> <strong>配信</strong><br /> </th> 
    <th align="center"> <strong>送信済</strong><br /> </th> 
    <th align="center"> <strong>配信済</strong><br /> </th>
-   <th align="center"> <strong>開く</strong><br /> </th> 
+   <th align="center"> <strong>開封数</strong> <br /> </th> 
    <th align="center"> <strong>個別オープン</strong><br /> </th>
   </tr> 
  </thead> 
@@ -167,7 +165,7 @@ Adobe Campaign Standard 19.2.1リリース以降のレポートは次のよう�
    <th align="center"> <strong>配信</strong><br /> </th> 
    <th align="center"> <strong>送信済</strong><br /> </th> 
    <th align="center"> <strong>配信済</strong><br /> </th>
-   <th align="center"> <strong>開く</strong><br /> </th> 
+   <th align="center"> <strong>開封数</strong> <br /> </th> 
    <th align="center"> <strong>個別オープン</strong><br /> </th>
   </tr> 
  </thead> 
