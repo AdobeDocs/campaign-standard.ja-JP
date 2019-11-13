@@ -12,16 +12,16 @@ discoiquuid: 17cf126a-7ce1-4e11-bb5e-2bdce01cfded
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: e7281dff9be97ededaa724552e64bffda3f26fa2
 
 ---
 
 
 # コンポーネントのリスト{#list-of-components}
 
-ディメンションと指標の互換性の詳細については、次の表を参照してく [ださい](https://docs.campaign.adobe.com/doc/standard/en/Technotes/dynamic_report_compatibility.pdf)。 2つのコンポーネントが互換性がない場合、セルに「なし」の値が表示さ **れます**。
+ディメンションと指標の互換性の詳細については、次の表を参照してく [ださい](/help/reporting/using/assets/dynamic_report_compatibility.pdf)。 2つのコンポーネントが互換性がない場合、セルに「なし」の値が表示さ **れます**。
 
-[![画像](/help/reporting/using/assets/dynamic_report_compatibility.png)](https://docs.campaign.adobe.com/doc/standard/en/Technotes/dynamic_report_compatibility.pdf)
+![](assets/dynamic_report_compatibility.png)
 
 ## サイズ {#dimensions}
 
