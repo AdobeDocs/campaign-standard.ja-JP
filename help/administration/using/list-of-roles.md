@@ -13,16 +13,16 @@ context-tags: 役割，概要；役割，メイン
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: c321545b2f5fdc3ed43b9b943601008ff31fba6a
 
 ---
 
 
 # 役割のリスト{#list-of-roles}
 
-デフォルトでは、Adobe Campaignには一連のロールが用意されており、ユーザーおよびユーザーグループに割り当てられた一元的な承認を定義できます。 組織単位と組み合わせて、ユーザーはインターフェイスをフィルター表示し、様々な機能へのアクセスを定義できます。 詳しくは、「ロールと権限」の表 [を参照してください](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)。
+デフォルトでは、Adobe Campaignには一連のロールが用意されており、ユーザーおよびユーザーグループに割り当てられた一元的な承認を定義できます。 組織単位と組み合わせて、ユーザーはインターフェイスをフィルター表示し、様々な機能へのアクセスを定義できます。 詳しくは、「ロールと権限」の表 [を参照してください](/help/administration/using/assets/acs_rights.pdf)。
 
-[![画像](/help/administration/using/assets/user_management_3.png)](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)
+![](assets/user_management_3.png)
 
 役割はメニューから管理でき **[!UICONTROL Administration > Users & Security > Roles]** ます。
 
