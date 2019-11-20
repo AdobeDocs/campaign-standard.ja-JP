@@ -1,18 +1,18 @@
 ---
 title: 指標の計算
 description: 各指標の数式のリストを使用して、レポートの結果を把握します。
-page-status-flag: 非活性化の
+page-status-flag: never-activated
 uuid: dfbc9d7e-62db-4e77-bb8e-0ac826ec7333
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: レポート
-content-type: 参照
-topic-tags: 報告に関する
+audience: reporting
+content-type: reference
+topic-tags: about-reporting
 discoiquuid: 45b11631-6b32-4074-8c8d-affd06407810
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 3033e2f15065685f3c0e7c1759e184738cb67d9c
 
 ---
 
@@ -131,7 +131,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
   </tr> 
   <tr> 
    <td> 開封数<br /> </td> 
-   <td> @opens<br /> </td> 
+   <td> @uniqueOpens<br /> </td> 
    <td> count(@trackingUrlType=2 + unique(@trackingUrlType=1,2,3,6,10,11) - unique(@trackingUrlType=2))<br /> </td> 
    <td> </td> 
   </tr> 
