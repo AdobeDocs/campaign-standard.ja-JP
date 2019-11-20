@@ -1,18 +1,18 @@
 ---
 title: Audience Manager または People コアサービスとの統合のプロビジョニングと設定
 description: '様々なAdobe Experience cloudソリューションでオーディエンスまたはセグメントの共有を開始するためのAudience Manager/Peopleコアサービス統合の設定方法について説明します。 '
-page-status-flag: 非活性化の
+page-status-flag: never-activated
 uuid: e7329644-0033-4729-b4a7-61bef137f4b5
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 統合
-content-type: 参照
-topic-tags: キャンペーンとオーディエンスの管理者または人々のコアサービスの利用
+audience: integrating
+content-type: reference
+topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 discoiquuid: eb24f4ea-325f-433a-91a0-c45906320bcb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b5dc0078bdc48a4c5c1ffc397f51db9222662477
 
 ---
 
@@ -25,7 +25,7 @@ Adobe CampaignのAudience ManagerとPeopleコアのプロビジョニングと�
 
 Audience Manager(AAM)またはPeopleコアサービスの統合により、Adobe Campaignでオーディエンスやセグメントの読み込みと書き出しを行うことができます。
 
-この統合を最初に設定する必要があります。 この統合のプロビジョニングを依頼するには、次の情報を記載のうえ、[Digital-Request@adobe.com](mailto:Digital-Request@adobe.com) まで E メールを送信します。
+この統合を最初に設定する必要があります。この統合のプロビジョニングを依頼するには、次の情報を記載のうえ、[Digital-Request@adobe.com](mailto:Digital-Request@adobe.com) まで E メールを送信します。
 
 <table> 
  <tbody> 
@@ -62,11 +62,13 @@ Audience Manager(AAM)またはPeopleコアサービスの統合により、Adobe
 
 *は、すべ **[!UICONTROL Declared ID]** ての共有オーディエンス統合で機能します。 Peopleコアサービスを使用している場合は、ソリューションに応じての使用 **[!UICONTROL Declared ID]** 方法が変わる可能性があります。
 
-* オーディエンスがAdobe CampaignからPeopleコアサービスを介してAdobe targetに共有されている場合は、プロビジョニン **[!UICONTROL Declared ID]** グを行うことができます。
+* オーディエンスがAdobe CampaignからPeopleコアサービスを介してAdobe targetに共有されている場合、プロビジョニン **[!UICONTROL Declared ID]** グを行うことができます。
 * オーディエンスがAdobe CampaignからAd cloudにPeopleコアサービスを介して共有される場合、オーディエンスの履歴バックフィルにプロビジョニ **[!UICONTROL Declared ID]** ングを使用することはできません。 また、オーディエンスの構築時に、遅延が発生する場合もあります。
 * オーディエンスがAdobe AnalyticsからPeopleコアサービスを介してAdobe Campaignに共有されている場合、セグメントはAdobe Campaignに入力されませ **[!UICONTROL Declared ID]**&#x200B;ん。
 
-Peopleコアサービスの代わりにAdobe Audience Managerを使用している場合は、すべての **[!UICONTROL Declared ID]** シナリオで機能します。
+>[!NOTE]
+>
+>Peopleコアサービスの代わりにAdobe Audience Managerを使用している場合は、すべての **[!UICONTROL Declared ID]** シナリオで機能します。
 
 You can raise a request for **[!UICONTROL Declared ID]** provisioning to the following address: [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com).
 
