@@ -1,18 +1,18 @@
 ---
 title: ドキュメントの更新
 description: Adobe Campaign Standardドキュメントの最新の更新について説明します。
-page-status-flag: 非活性化の
+page-status-flag: never-activated
 uuid: 3bdc7d11-8421-4110-a5ba-7b1376a03dda
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: rn
-content-type: 参照
+content-type: reference
 topic-tags: campaign-standard-releases
 discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: a44e6088b20318f3a0263dd0671e4d88bf126699
 
 ---
 
@@ -24,6 +24,10 @@ Adobe Campaign Standardドキュメントの最新の更新について説明し
 このページには、Adobe Campaign Standardの各リリースに関するすべての新機能とドキュメントの更新の一覧が記載されています。
 
 また、『Adobe Campaignリリースノート』を参照する [こともできます](../../rn/using/release-notes.md)。
+
+## ドキュメントの更新 — 2019年11月 {#doc-updates-november-2019}
+
+Campaign Standardのワークフローを使用してコントロールグループを作成する方法を説明する新しい使用例が追加されました。 [Read more](../../automating/using/workflow-control-group.md)
 
 ## リリース19.4 - 2019年10月 {#release-19-4---october-2019}
 
@@ -291,7 +295,7 @@ Microsoft Edge（最新バージョン）が、コンピューター用の互換
 
 受信移行が空の場合にファイルを生成できないようにする、ファイルの抽出アクティビティの新しいオプションに関する情報を追加しました。 [詳細を表示](../../automating/using/extract-file.md)
 
-「SDK V4を使用したモバイルアプリケーションの設定」の節は、ここに移動さ [れました](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)。
+「SDK V4を使用したモバイルアプリケーションの設定」の節は、こちらを参照して [ください](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)。
 
 「Adobe Experience Platform SDKを使用したモバイルアプリケーションの設定」の節は、こちらを参照して [ください](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)。
 
