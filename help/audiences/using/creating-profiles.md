@@ -1,18 +1,18 @@
 ---
 title: プロファイルの作成
 description: API、インポート機能、オンライン獲得、自動更新、または手動更新を使用して、プロファイルを作成し、連絡先のデータを収集する方法について説明します。
-page-status-flag: 非活性化の
+page-status-flag: never-activated
 uuid: a5f5a58a-e798-400f-8648-05dc843d5557
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
-content-type: 参照
-topic-tags: 管理プロファイル
+content-type: reference
+topic-tags: managing-profiles
 discoiquuid: 4ab8a984-f898-4fff-ad8c-ed8f95362f96
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -25,7 +25,7 @@ Campaignでプロファイルを作成または更新するには、次の操作
 
 * ワークフローを使用したファイルからのプロファイルリストの読み [込み](https://helpx.adobe.com/campaign/kt/acs/using/acs-importing-profiles-feature-video-using.html)
 * ランディングページを使用してオンラインで [データを収集](../../channels/using/about-landing-pages.md)
-* [REST APIを使用した一括作成](http://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
+* [REST APIを使用した一括作成](../../api/using/about-campaign-standard-apis.md)
 * [Microsoft Dynamicsからのプロファイルの同期](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
 * 以下に説明するように、グラフィカルインターフェイス画面を使用してデータを入力します
 
@@ -57,7 +57,7 @@ Campaignでプロファイルを作成または更新するには、次の操作
 
 >[!NOTE]
 >
->また、Adobe Campaign Standard APIを使用してプロファイルを作成することもできます。 For more on this, refer to the [dedicated documentation](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#creating-profiles) .
+>また、Adobe Campaign Standard APIを使用してプロファイルを作成することもできます。 For more on this, refer to the [dedicated documentation](../../api/using/managing-profiles.md).
 
 また、組織単位に応じてプロファイルをパーティションに分割することもできます。 プロファイルに組織フィールドを追加するには、 [Partitioning profilesの節を参照して](../../administration/using/organizational-units.md#partitioning-profiles) ください。
 
