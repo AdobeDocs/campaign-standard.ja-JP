@@ -1,18 +1,18 @@
 ---
 title: Campaign 統合について
 description: Adobe Campaignでは、他のアドビソリューションを使用し、様々な機能を組み合わせることができます。
-page-status-flag: 非活性化の
+page-status-flag: never-activated
 uuid: 59d7cd99-a6f7-47f1-9b5c-c50e27a2bef8
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 統合
-content-type: 参照
+audience: integrating
+content-type: reference
 topic-tags: about-campaign-integrations
 discoiquuid: 9633e9ca-3323-499b-8259-45165d59a4d0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -31,7 +31,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 組織とは、管理者がグループとユーザーを設定し、Experience Cloud でのシングルサインオンを制御できるエンティティのことです。組織は、すべての Experience Cloud 製品およびソリューションにまたがるログイン会社のように機能します。ほとんどの場合、組織は勤務先の会社名です。ただし、1 つの会社が多くの組織を持つことができます。ユーザーと組織の管理について詳しくは、 [Adobe Experience cloudヘルプポータルを参照してください](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html)。
 
-他のシステムのデータフローをAdobe Campaignと統合する場合は、 [APIドキュメントを参照してください](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)。
+他のシステムのデータフローをAdobe Campaignと統合する場合は、 [APIドキュメントを参照してください](../../api/using/about-campaign-standard-apis.md)。
 
 >[!NOTE]
 >
