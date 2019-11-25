@@ -1,19 +1,19 @@
 ---
 title: 統合された顧客プロファイル
 description: 「すべての顧客インタラクションを単一のビューで追跡します。Adobe Campaign統合顧客プロファイルは、顧客のライフサイクル全体を通じて更新されます。」
-page-status-flag: 非活性化の
+page-status-flag: never-activated
 uuid: da2eb13a-2268-4a99-939c-c6388f5d34f3
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
-content-type: 参照
-topic-tags: 管理プロファイル
+content-type: reference
+topic-tags: managing-profiles
 discoiquuid: d44656e8-e652-45fc-a05c-0d5ffe456ecb
 context-tags: marketingHistory,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: fcd14668fc862b0ef4e2b294acd544739508471d
 
 ---
 
@@ -39,5 +39,4 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 >[!NOTE]
 >
->マーケティング履歴は、Adobe Campaign Standard APIを使用してアクセスすることもできます。 For more on this, refer to the [dedicated documentation](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#interacting-with-marketing-history) .
-
+>マーケティング履歴は、Adobe Campaign Standard APIを使用してアクセスすることもできます。 For more on this, refer to the [dedicated documentation](../../api/using/interacting-with-marketing-history.md) .
