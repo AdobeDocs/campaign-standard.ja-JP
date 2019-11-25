@@ -1,18 +1,18 @@
 ---
 title: サブスクリプションについて
-description: null
-page-status-flag: 非活性化の
-uuid: b0263e40-f910-49f2-a138-0a1302aeec6
-contentOwner: ソビア
+description: Campaign Standardのサービスと購読についての詳細。
+page-status-flag: never-activated
+uuid: b0263e40-f910-49f2-a138-0a1302aeeec6
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
-content-type: 参照
-topic-tags: 購読の管理
+content-type: reference
+topic-tags: managing-subscriptions
 discoiquuid: 27de5a13-7b7c-4c91-bf26-3dfd324beb8f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -29,4 +29,4 @@ Adobe Campaignでは、一連のサービスを使用して、ニュースレタ
 * 購読/非購読の確認 **メカニズム**。
 * 購読履 **歴**。
 
-購読は、Adobe Campaign Standard APIを使用して管理することもできます。 For more on this, refer to the [dedicated documentation](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#managing-subscriptions) .
+購読は、Adobe Campaign Standard APIを使用して管理することもできます。 For more on this, refer to the [dedicated documentation](../../api/using/managing-services-and-subscriptions.md) .
