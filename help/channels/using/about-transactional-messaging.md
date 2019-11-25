@@ -1,18 +1,18 @@
 ---
 title: トランザクションメッセージについて
 description: 送信できる様々なタイプのトランザクションメッセージと、Adobe Campaignでの使用方法を確認します。
-page-status-flag: 非活性化の
+page-status-flag: never-activated
 uuid: 8470e9e2-ee17-456f-9e4c-460e69c78a2c
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: チャネル
-content-type: 参照
-topic-tags: トランザクションメッセージング
-discoiquuid: 71a4d5d5d5-fe2a-4ce5-b22b-a4736f7add83
+audience: channels
+content-type: reference
+topic-tags: transactional-messaging
+discoiquuid: 71a4d5d5-fe2a-4ce5-b22b-a4736f7add83
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -44,7 +44,7 @@ Adobe Campaignでは、次の2種類のトランザクションメッセージ�
 >
 >Adobe Campaignは、他の配信よりもトランザクションメッセージの処理を優先します。
 
-トランザクションメッセージングは、Adobe Campaign Standard APIからも利用できます。 For more on this, refer to the [dedicated documentation](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#about-transactional-messaging).
+トランザクションメッセージングは、Adobe Campaign Standard APIからも利用できます。 For more on this, refer to the [dedicated documentation](../../api/using/managing-transactional-messages.md).
 
 ## トランザクションメッセージングの動作原則 {#transactional-messaging-operating-principle}
 
@@ -91,7 +91,7 @@ Adobe Campaignでは、製品を買い物かごに追加したサイトユーザ
 **イベント・ベースのトランザクション・メッセージ**:
 
 * パーソナライゼーション情報は、イベント自体に含まれるデータから取得されます。 See [Event transactional messages](../../channels/using/event-transactional-messages.md).
-* イベントトランザクションメ **ッセージでは** 、購読解除リンクコンテンツブロックを使用できません。
+* イベントトランザクショ **ンメッセージでは** 、購読解除リンクコンテンツブロックを使用できません。
 * イベントベースのトランザクションメッセージングは、送信されたイベント内のデータのみを使用して、受信者とメッセージコンテンツのパーソナライゼーションを定義する必要があります。 ただし、Adobe Campaignデータベースの情報を使用して、トランザクションメッセージのコンテンツを強化できます。 詳しくは、ト [ランザクションメッセージコンテンツの強化を参照してくださ](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content)い。
 * イベントトランザクションメッセージにはプロファイル情報が含まれないので、プロファイルを含むエンリッチメントの場合でも、疲労ルールとの互換性はありません。 疲労ル [ールを参照](../../administration/using/fatigue-rules.md)。
 
