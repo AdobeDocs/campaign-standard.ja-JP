@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: e059232068d79a512afda98dcde60578809656b2
+source-git-commit: 02cf4f79f69eb1aef81c9e805204febd363af1a2
 
 ---
 
@@ -343,3 +343,28 @@ source-git-commit: e059232068d79a512afda98dcde60578809656b2
       + [内部通知の送信](administration/using/sending-internal-notifications.md)
       + [データリテンション](administration/using/data-retention.md)
       + [更新とメインテナンスの操作](administration/using/updates-and-maintenance-operations.md)
++ APIの操作 {#working-with-apis}
+   + キャンペーン標準APIについて {#about-campaign-standard-apis}
+      + [概要](api/using/about-campaign-standard-apis.md)
+      + [キャンペーン標準APIを使用する理由](api/using/why-using-campaign-standard-apis.md)
+      + [APIアクセスの設定](api/using/setting-up-api-access.md)
+   + グローバル概念 {#global-concepts}
+      + [必読](api/using/must-read.md)
+      + [エンドポイント](api/using/endpoints.md)
+      + [メタデータのメカニズム](api/using/metadata-mechanism.md)
+      + [動詞](api/using/verbs.md)
+      + その他の操作 {#additional-operations}
+         + [並べ替え](api/using/sorting.md)
+         + [フィルター](api/using/filtering.md)
+         + [カウント](api/using/counting.md)
+         + [ページ編集](api/using/pagination.md)
+      + [カスタムリソース](api/using/custom-resources.md)
+   + [プロファイルの管理](api/using/managing-profiles.md)
+   + [サービスと購読の管理](api/using/managing-services-and-subscriptions.md)
+   + [マーケティング履歴の操作](api/using/interacting-with-marketing-history.md)
+   + [プライバシー管理](api/using/privacy-management.md)
+   + [トランザクションメッセージの管理](api/using/managing-transactional-messages.md)
+   + [ワークフローの管理](api/using/managing-workflows.md)
+   + [組織単位の管理](api/using/managing-organizational-units.md)
+   + [地理的単位の管理](api/using/managing-geographical-units.md)
+   + [トラブルシューティング](api/using/troubleshooting.md)
