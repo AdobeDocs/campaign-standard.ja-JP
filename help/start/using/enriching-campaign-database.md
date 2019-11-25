@@ -1,18 +1,18 @@
 ---
 title: データベースの強化
 description: データベースを拡張する様々な方法について説明します。
-page-status-flag: 非活性化の
+page-status-flag: never-activated
 uuid: 71f53808-0309-49f6-a4ee-3446eac9758a
-contentOwner: レメイト
+contentOwner: lemaitre
 products: SG_CAMPAIGN/STANDARD
-audience: 開始
-content-type: 参照
+audience: start
+content-type: reference
 topic-tags: about-adobe-campaign
 discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -66,7 +66,7 @@ For more on this integration, refer to the [dedicated documentation](https://hel
 
 キャンペーン標準APIを使用すると、プロファイルやサービスの作成、更新、削除など、データベースを更新する操作を実行できます。
 
-For more on how to use the APIs, refer to the [dedicated documentation](https://docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html).
+For more on how to use the APIs, refer to the [dedicated documentation](../../api/using/about-campaign-standard-apis.md).
 
 >[!CAUTION]
 >
