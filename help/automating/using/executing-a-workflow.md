@@ -1,19 +1,19 @@
 ---
 title: ワークフローの実行
 description: ワークフローを実行および監視する方法について説明します。
-page-status-flag: 非活性化の
+page-status-flag: never-activated
 uuid: ff02b74e-53e8-49c6-bf8e-0c729eaa7d25
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 自動化
-content-type: 参照
+audience: automating
+content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 906c85ea-83b7-4268-86da-cd353f1dc591
-context-tags: ワークフロー，概要；ワークフロー，メイン
+context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -58,7 +58,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 REST APIを使用すると、ワークフローを開始 **、一時停止**、再開 **、停止**&#x200B;す **ることがで****** きます。
 
-REST呼び出しの詳細と例については、 [APIドキュメントを参照してください。](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#controlling-a-workflow)
+REST呼び出しの詳細と例については、 [APIドキュメントを参照してください。](../../api/using/managing-workflows.md)
 
 ## ライフサイクル {#life-cycle}
 
