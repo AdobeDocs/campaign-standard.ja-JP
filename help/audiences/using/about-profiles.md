@@ -1,19 +1,19 @@
 ---
 title: プロファイルについて
 description: 連絡先はCampaignデータベースにプロファイルとして保存され、ライフサイクル全体を通じて更新されます。
-page-status-flag: 非活性化の
+page-status-flag: never-activated
 uuid: 087f91a4-6e69-488e-9aa0-424d23d396ed
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
-content-type: 参照
-topic-tags: 管理プロファイル
+content-type: reference
+topic-tags: managing-profiles
 discoiquuid: a35e736c-a17b-420c-8411-0debc3c6275a
 context-tags: recipient,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -24,7 +24,7 @@ Adobe Campaignでは、連絡先をライフサイクル全体を通じて管理
 
 >[!NOTE]
 >
->プロファイルは、Adobe Campaign Standard APIを使用しても利用できます。 For more on this, refer to the [dedicated documentation](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#retrieving-profiles) .
+>プロファイルは、Adobe Campaign Standard APIを使用しても利用できます。 For more on this, refer to the [dedicated documentation](../../api/using/managing-profiles.md).
 
 ![](assets/marketing_history.png)
 
