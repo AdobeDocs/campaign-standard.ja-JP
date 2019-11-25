@@ -1,18 +1,18 @@
 ---
 title: ワークフローの検索
 description: Adobe Campaignは、プロセスを設計および自動化するための包括的なグラフィカル環境を提供します。
-page-status-flag: 非活性化の
+page-status-flag: never-activated
 uuid: 7c1e8cea-90d0-491f-ab8f-6cd69f8a6c3b
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 自動化
-content-type: 参照
+audience: automating
+content-type: reference
 topic-tags: about-workflows-and-data-management
 discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -32,7 +32,7 @@ Adobe Campaignは、セグメント化、キャンペ [ーンの実行](../../au
 * Campaignデータベースへのデータのインポートを参照してください。 詳しくは、「データの読み込みと書き出し」 [を参照してください](../../automating/using/about-data-import-and-export.md)。
 * データベースのクリーンアップ、追跡情報の回復などの技術的なプロセス 技術ワークフローについて詳 [しくは](../../administration/using/technical-workflows.md)、
 
-ワークフローは、Adobe Campaign Standard APIからもアクセスできます。 For more on this, refer to the [dedicated documentation](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#managing-workflows).
+ワークフローは、Adobe Campaign Standard APIからもアクセスできます。 For more on this, refer to the [dedicated documentation](../../api/using/managing-workflows.md).
 
 **関連トピック：**
 
