@@ -1,18 +1,18 @@
 ---
 title: API の拡張について
-description: null
-page-status-flag: 非活性化の
+description: パブリックプロファイルAPIでカスタムリソースプロファイルの拡張フィールドを公開する方法を説明します。
+page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 開発中
-content-type: 参照
-topic-tags: use-case—extending-the-api
+audience: developing
+content-type: reference
+topic-tags: use-case--extending-the-api
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -30,5 +30,4 @@ APIを公開するには、ロールが必要で **[!UICONTROL Datamodel]** す�
 **関連トピック：**
 
 * [カスタムリソースについて](../../developing/using/data-model-concepts.md)
-* [APIドキュメント](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
-
+* [APIドキュメント](../../api/using/about-campaign-standard-apis.md)
