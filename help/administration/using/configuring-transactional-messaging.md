@@ -1,18 +1,18 @@
 ---
 title: トランザクションメッセージの設定
 description: トランザクションメッセージングを設定する方法について説明します。
-page-status-flag: 非活性化の
+page-status-flag: never-activated
 uuid: 4caeadbe-f4a7-43ce-986d-e99fa9ca0d0d
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 管理
-content-type: 参照
-topic-tags: 設定チャネル
+audience: administration
+content-type: reference
+topic-tags: configuring-channels
 discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -184,7 +184,7 @@ Adobe Campaignデータベースの情報を使用してトランザクション
 
 「 [Transactional messaging operating principal](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle) 」セクションで説明した例では、買い物かごに製品を購入する前に、顧客の1人がWebサイトを離れるたびに「買い物かごの中断」イベントをトリガーする必要があります。 これを行うには、WebサイトのWeb開発者がAdobe Campaign Standard REST APIを使用する必要があります。
 
-詳しくは、 [REST APIドキュメントを参照してください](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#transactional-messages-api) 。
+詳しくは、 [REST APIドキュメントを参照してください](../../api/using/managing-transactional-messages.md) 。
 
 ## トランザクションイベント固有の設定 {#transactional-event-specific-configurations}
 
