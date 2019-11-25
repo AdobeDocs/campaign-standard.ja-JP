@@ -2,7 +2,7 @@
 title: 複合 ID キーを使用したリソースの呼び出し
 description: 複合IDキーを使用してリソースを呼び出す方法を説明します。
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 * [リソースの作成または拡張](../../developing/using/creating-or-extending-the-resource.md)
 * [識別キーの定義](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)
-* [キャンペーン標準REST API](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
+* [キャンペーン標準REST API](../../api/using/about-campaign-standard-apis.md)
 
 ## 手順1:IDキーの設定{#step-1-configure-the-identification-key}
 
@@ -104,4 +104,4 @@ GET /profileAndServicesExt/<resourceName>/by<filterName>?<param1_parameter>=<val
 GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byidentification_key?category_parameter=spring&crm_id_parameter=123456
 ```
 
-詳しくは、キャンペーン標準REST APIに関 [するドキュメントを参照してください](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#filtering)。
+詳しくは、キャンペーン標準REST APIに関 [するドキュメントを参照してください](../../api/using/filtering.md)。
