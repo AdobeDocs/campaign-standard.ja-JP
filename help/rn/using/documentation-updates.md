@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a44e6088b20318f3a0263dd0671e4d88bf126699
+source-git-commit: a3b81a62d6f4b58c1b88b4e50755dcb1e638f7be
 
 ---
 
@@ -28,6 +28,8 @@ Adobe Campaign Standardドキュメントの最新の更新について説明し
 ## ドキュメントの更新 — 2019年11月 {#doc-updates-november-2019}
 
 Campaign Standardのワークフローを使用してコントロールグループを作成する方法を説明する新しい使用例が追加されました。 [Read more](../../automating/using/workflow-control-group.md)
+
+APIドキュメントセットは、Campaign Standardドキュメントに統合されました。[詳細を表示](../../api/using/about-campaign-standard-apis.md)
 
 ## リリース19.4 - 2019年10月 {#release-19-4---october-2019}
 
@@ -50,6 +52,8 @@ GDPR入門ガイドが改善され、強化されました。 GDPRやCCPAなど�
 新しいセクションが追加されました。 Campaign Standardデータベースを拡張するための様々な方法の概要を説明します。 [詳細を表示](../../start/using/enriching-campaign-database.md)
 
 電子メールデザイナーでリンクのスタイルを設定する方法を説明する新しい節が追加されました。 [詳細を表示](../../designing/using/styles.md#about-styling-links)
+
+プライバシーに関する情報は、APIのドキュメントに追加されました。ここをクリ [ックしてください](../../api/using/privacy-management.md)
 
 ## ドキュメントの更新 — 2019年10月 {#doc-updates-october-2019}
 
@@ -167,7 +171,7 @@ Adobe Campaignから直接利用できるコンテキストヘルプリンクが
 
 ファイル転送アクティビティの新しい並べ替えオプションに **情報が追加さ** れました。 [詳細を表示](../../automating/using/transfer-file.md)
 
-REST APIドキ [ュメントが更新され](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html) ました。
+REST APIドキ [ュメントが更新され](../../api/using/about-campaign-standard-apis.md) ました。
 
 * キャンペーン標準REST APIを使用する理由に関する一般的な情報を含む新しい節が追加されました。
 * 一般的な使用例を表す、事前に設計されたAPIリクエストの集まりが利用可能になりました。
@@ -295,7 +299,7 @@ Microsoft Edge（最新バージョン）が、コンピューター用の互換
 
 受信移行が空の場合にファイルを生成できないようにする、ファイルの抽出アクティビティの新しいオプションに関する情報を追加しました。 [詳細を表示](../../automating/using/extract-file.md)
 
-「SDK V4を使用したモバイルアプリケーションの設定」の節は、こちらを参照して [ください](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)。
+「SDK V4を使用したモバイルアプリケーションの設定」の節は、ここに移動さ [れました](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)。
 
 「Adobe Experience Platform SDKを使用したモバイルアプリケーションの設定」の節は、こちらを参照して [ください](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)。
 
@@ -347,7 +351,7 @@ Creative Designerに完全に準拠するためのHTML属性のリストをこ�
 
 ### リリースに含まれる新機能 {#new-capabilities-included-in-the-release-5}
 
-APIドキュメントが更新され、履歴 **APIに関する情報が追加されました** 。 プロファイルに送信された配信のミラーページを取得する方法に関する使用例が追加されました。 [詳細を表示](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#how-to-retrieve-the-mirror-page-for-a-delivery-sent-to-a-profile)
+APIドキュメントが更新され、履歴 **APIに関する情報が追加されました** 。 プロファイルに送信された配信のミラーページを取得する方法に関する使用例が追加されました。 [詳細を表示](../../api/using/interacting-with-marketing-history.md)
 
 ### リリースに伴うその他のドキュメントの更新 {#other-documentation-updates-coming-with-the-release-5}
 
@@ -361,7 +365,7 @@ APIドキュメントが更新され、履歴 **APIに関する情報が追加�
 
 クエリアクティビティの節に、配信内の特定のリンクをクリックしたプロファイルをターゲットにする方法のサンプルを追加しました。 [詳細を表示](../../automating/using/query.md#targeting-profiles-who-clicked-a-specific-link-)
 
-カスタムフィルターに関連するAPIドキュメントに節を追 **加しました**。 [詳細を表示](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#filtering)
+カスタムフィルターに関連するAPIドキュメントに節を追 **加しました**。 [詳細を表示](../../api/using/filtering.md)
 
 ## リリース18.5 - 2018年5月 {#release-18-5---may-2018}
 
@@ -411,7 +415,7 @@ EU GDPR(General Data Protection Regulation) — 詳細を [読む](https://docs.
 
 ### リリースに伴うその他のドキュメントの更新 {#other-documentation-updates-coming-with-the-release-7}
 
-GDPR APIは、GDPRリクエストの自動処理を可能にする機能を再グループ化します。 [詳細を表示](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#gdpr-api)
+GDPR APIは、GDPRリクエストの自動処理を可能にする機能を再グループ化します。 [詳細を表示](../../api/using/privacy-management.md)
 
 受信者にブラックリストに記載する機能を提供するランディングページの設定方法に関する情報を追加しました。 [詳細を表示](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
 
@@ -485,7 +489,7 @@ SMS自動応答の使用方法に関する使用例を追加しました。 [詳
 
 タイムゾーンに最適化された配信 — 詳 [細情報](../../automating/using/scheduler.md)
 
-APIシグナルアクティビティのトリガー — [詳細情報](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#triggering-a-signal-activity)
+APIシグナルアクティビティのトリガー — [詳細情報](../../api/using/managing-workflows.md)
 
 ### リリースに伴うその他のドキュメントの更新 {#other-documentation-updates-coming-with-the-release-9}
 
@@ -535,11 +539,11 @@ Adobe Campaign Standardのプッシュ通 [知を受け取るために](https://
 
 SMSのドキュメントが更新され、 [SMS自動返信の節に説明が追加されました](../../channels/using/managing-incoming-sms.md#managing-stop-sms) 。
 
-APIを使用したワークフロー管理に関する新しい節を追加しました。 [詳細を表示](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#workflows-and-api)
+APIを使用したワークフロー管理に関する新しい節を追加しました。 [詳細を表示](../../api/using/managing-workflows.md)
 
-主キーに特化した新しいセクションと、APIでのキーとしてのビジネスIDの使用について説明します。 [詳細を表示](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#primary-key)
+主キーに特化した新しいセクションと、APIでのキーとしてのビジネスIDの使用について説明します。 [詳細を表示](../../api/using/about-campaign-standard-apis.md)
 
-APIの単純なフィルターと複数のフィルターに関する情報を追加しました。 [詳細を表示](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#filtering)
+APIの単純なフィルターと複数のフィルターに関する情報を追加しました。 [詳細を表示](../../api/using/filtering.md)
 
 ## リリース17.9 - 2017年9月 {#release-17-9---september-2017}
 
@@ -689,7 +693,7 @@ REST APIのリンクされたリソース — 詳 [細情報](../../developing/u
 
 トリガー統合：2つの使用例が追加されました。 [詳細を表示](../../integrating/using/abandonment-triggers-use-cases.md)
 
-ユーザーエクスペリエンスを向上させるために、開発者APIドキュメントのデザインを新しい情報とコードスニペットで変更しました。 [詳細を表示](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
+ユーザーエクスペリエンスを向上させるために、開発者APIドキュメントのデザインを新しい情報とコードスニペットで変更しました。 [詳細を表示](../../api/using/about-campaign-standard-apis.md)
 
 新しい読み取りオーディエンスと外部シグナル [ワークフローの](../../automating/using/read-audience.md)[例を見つけます](../../automating/using/external-signal.md) 。
 
@@ -699,7 +703,7 @@ REST APIのリンクされたリソース — 詳 [細情報](../../developing/u
 
 外部レポート用のログエクスポート — 詳 [細情報](../../automating/using/exporting-logs.md)
 
-トランザクションメッセージングAPI - [詳細情報](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)
+トランザクションメッセージングAPI - [詳細情報](../../api/using/about-campaign-standard-apis.md)
 
 トランザクションメッセージのマーケティング機能 — [詳細情報](../../channels/using/profile-transactional-messages.md)
 
@@ -723,7 +727,7 @@ URLの変更：Peopleコアサービス — [詳細情報](../../integrating/usi
 
 ユーザー権限について：使用例が追加されました。 また、ユーザー権限マ [トリックスも参照します](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)。
 
-APIの操作：api拡張 [の使用例が追加されました](../../developing/using/about-extending-the-api.md) 。 また、 [APIドキュメントも参照してくださ](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)い。
+APIの操作：api拡張 [の使用例が追加されました](../../developing/using/about-extending-the-api.md) 。 また、 [APIドキュメントも参照してくださ](../../api/using/about-campaign-standard-apis.md)い。
 
 キャンペーンエラーメッセージ：バージョンと言語でフィルターされた、Campaign v6とStandardの両方のエラーメッセージの完全なリストにアクセスします。 [詳細を表示](http://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
