@@ -1,18 +1,18 @@
 ---
 title: リリースノート 2018
 description: このページには、Adobe Campaign Standardの2018年リリースがすべて一覧表示されます。
-page-status-flag: 非活性化の
+page-status-flag: never-activated
 uuid: 99f92a54-4b3d-48b9-b08d-e98b24e75f62
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: rn
-content-type: 参照
+content-type: reference
 topic-tags: campaign-standard-releases
 discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -128,7 +128,7 @@ Adobe Campaign Standardの最新のドキ [ュメントの更新](../../rn/using
 ### 強化点 {#improvements-1}
 
 * Adobe CampaignとAdobe targetの統合で、Targetの権限機能を利用できるようになり [ました](https://marketing.adobe.com/resources/help/en_US/target/target/properties-overview.html) 。 Adobe targetからの動的な画像を電子メールに含める場合、Targetプロパティ（at_propertyコード）を指定できるようになりました。
-* プロファイル・リソースへのダウンコピー・リンクを持つカスタム・リソースは、GDPRプライバシー・アクセス/削除要求によって考慮されるようになった。 1基数単純リンクとN基数収集リンクの場合、カスタムリソースで「ターゲットレコードの削除/複製は、リンクによって参照されるレコードの削除/複製を意味します」を選択する必要があります。 基数が0または1の単純リンクの場合は、「レコードの削除/複製は、リンクによって参照されるターゲットレコードを削除または複製することを意味します」を選択します。
+* プロファイル・リソースへのダウンコピー・リンクを持つカスタム・リソースは、GDPRプライバシー・アクセス/削除要求で考慮されるようになった。 1基数単純リンクとN基数収集リンクの場合、カスタムリソースで「ターゲットレコードの削除/複製は、リンクによって参照されるレコードの削除/複製を意味します」を選択する必要があります。 基数が0または1の単純リンクの場合は、「レコードの削除/複製は、リンクによって参照されるターゲットレコードを削除または複製することを意味します」を選択します。
 
 ### その他の変更 {#other-changes-1}
 
@@ -157,7 +157,7 @@ Adobe Campaign Standardの最新のドキ [ュメントの更新](../../rn/using
 
 ### 強化点 {#improvements-2}
 
-* この **[!UICONTROL History]** APIはAdobe.IOに追加されました。 これにより、プロファイルのマーケティング履歴に関連する情報にアクセスできます。タッチポイント数、送信された配信数、ミラーページURLなど For more on this, refer to the [dedicated use case](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#how-to-retrieve-the-mirror-page-for-a-delivery-sent-to-a-profile) .
+* この **[!UICONTROL History]** APIはAdobe.IOに追加されました。 これにより、プロファイルのマーケティング履歴に関連する情報にアクセスできます。タッチポイント数、送信された配信数、ミラーページURLなど For more on this, refer to the [dedicated use case](../../api/using/interacting-with-marketing-history.md) .
 * 技術ワ **[!UICONTROL Database cleanup]** ークフローは、データベースのバックアップのパフォーマンスを向上させるために最適化されました。
 * 電子メール用のクリエイティブデザイナーが、フランス語とドイツ語でも利用できるようになりました。
 
@@ -243,7 +243,7 @@ Adobe Campaign Standardの最新のドキ [ュメントの更新](../../rn/using
 * 「sourceId」フィールドがトラッキングログリソース(nms:trackingLog)に表示されるようになりました。
 * 「合計開封数」と「合計クリック数」の値を、ワークフローを介してフラットファイルにエクスポートできるようになりました。 (CAMP-24186)
 * プロファイルの「優先言語」リストで「英語 — Danmark」が使用できるようになりました。 (CAMP-23728)
-* 「追加のデータ(targetData)」リンクを含むセグメント化アクティビティを使用する場合、データがワークフロー外で使用できないことを知らせるメッセージが表示されるようになりました。 このメッセージは、Segmentationアクティビティで「カウント」ボタンまたは「プレビュー」ボタンをクリックすると表示されます。 (CAMP-23651)
+* 「追加のデータ(targetData)」リンクを含むセグメント化アクティビティを使用する場合、ワークフロー外でデータを使用できないことを知らせるメッセージが表示されるようになりました。 このメッセージは、Segmentationアクティビティで「カウント」ボタンまたは「プレビュー」ボタンをクリックすると表示されます。 (CAMP-23651)
 * ワークフローで使用するディスク領域を最適化するための機能が強化されました。(CAMP-21979):「ファイルを読み込み」アクティビティで処理されたファイルは、デフォルトで削除されるようになりました。 オプションを使用すると、特定のニーズに合わせてそれらを保持できます。 ワークフローを削除すると、その専用フォルダーがサーバーディレクトリから自動的に抑制されます。
 
 ### パッチ {#patches-3}
@@ -479,7 +479,7 @@ Campaignインターフェイスからコンテキストヘルプリンクを使
   </tr> 
   <tr> 
    <td> APIシグナルアクティビティのトリガー<br /> </td> 
-   <td> Adobe Campaign Standard APIから直接、ワークフローのシグナルアクティビティをトリガーできるようになりました。<br /> 詳しくは、詳細なドキュメントを参照 <a class="anchorLink" href="https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html#triggering-a-signal-activity" target="_blank">してください</a> 。<br /> </td> 
+   <td> Adobe Campaign Standard APIから直接、ワークフローのシグナルアクティビティをトリガーできるようになりました。<br /> 詳しくは、詳細なドキュメントを参照 <a class="anchorLink" href="../../api/using/managing-workflows.md">してください</a> 。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
