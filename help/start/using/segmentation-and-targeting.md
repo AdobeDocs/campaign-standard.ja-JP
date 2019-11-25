@@ -1,18 +1,18 @@
 ---
 title: セグメント化とターゲティング
 description: 「Campaignでのプロファイル、ターゲット設定、オーディエンスの作成について説明します。オーディエンスを作成し、連絡先をインポートして、Experience cloudソリューションとオーディエンスを共有し、マーケティングの疲れを避けます。」
-page-status-flag: 非活性化の
+page-status-flag: never-activated
 uuid: 71f53808-0309-49f6-a4ee-3446eac9758a
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 開始
-content-type: 参照
+audience: start
+content-type: reference
 topic-tags: about-adobe-campaign
 discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: ba1e87b140a19967e67320cc4579ac025955ca23
 
 ---
 
@@ -29,7 +29,7 @@ Adobe Campaignプロファイルは、データベースに保存されている
 
 ![](assets/mkt_hist_view.png)
 
-Adobe Campaignでは、プロファイルの取得に関して様々なメカニズムを提案しています。ランディングページ、手動または自動インポートメカニズムを使用し [て](../../channels/using/about-landing-pages.md)、データをオンラインで収集する [(Adobe Campaignインターフェイスでの直接入力、](../../automating/using/about-data-import-and-export.md)[](../../audiences/using/creating-profiles.md)[](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html)Adobe Campaign APIを使用したバルク作成)。
+Adobe Campaignでは、プロファイルの取得に関して様々なメカニズムを提案しています。ランディングページ、手動または自動インポートメカニズムを使用し [て](../../channels/using/about-landing-pages.md)、データをオンラインで収集する [(Adobe Campaignインターフェイスでの直接入力、](../../automating/using/about-data-import-and-export.md)[](../../audiences/using/creating-profiles.md)[](../../api/using/about-campaign-standard-apis.md)Adobe Campaign APIを使用したバルク作成)。
 
 **関連トピック：**
 
