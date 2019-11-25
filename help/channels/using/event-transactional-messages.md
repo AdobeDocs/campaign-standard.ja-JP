@@ -1,19 +1,19 @@
 ---
 title: イベントトランザクションメッセージ
 description: イベントトランザクションメッセージを作成して公開する方法について説明します。
-page-status-flag: 非活性化の
+page-status-flag: never-activated
 uuid: d747feb5-58fb-4e12-a176-404f0eca5391
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: チャネル
-content-type: 参照
-topic-tags: トランザクションメッセージング
+audience: channels
+content-type: reference
+topic-tags: transactional-messaging
 discoiquuid: 4f6317a1-9dfe-4714-bc1c-393629d855cd
 context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 ---
 
@@ -258,7 +258,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 例えば、メッセージに含まれるデータを変更するためのボタ **[!UICONTROL Pause]** ンを使用して、トランザクションメッセージの公開を中止できます。 そのため、イベントは処理されず、代わりにAdobe Campaignデータベースのキューに保持されます。
 
-キューに登録されたイベントは、REST API( [REST APIドキュメントを参照](https://final-docs.campaign.adobe.com/doc/standard/en/api/ACS_API.html))で定義された期間中、またはTriggersコアサービスを使用している場合はトリガーイベント(「 [CampaignとExperience Cloud Triggersの操作](../../integrating/using/about-adobe-experience-cloud-triggers.md)」を参照)で保持されます。
+キューに登録されたイベントは、REST API( [REST APIのドキュメントを参照](../../api/using/about-campaign-standard-apis.md))で定義された期間中、またはTriggersコアサービスを使用している場合はトリガーイベント(「 [CampaignとExperience Cloud Triggersの操作」を参照](../../integrating/using/about-adobe-experience-cloud-triggers.md))で保持されます。
 
 ![](assets/message-center_pause.png)
 
