@@ -1,18 +1,18 @@
 ---
 title: ユーザー管理
 description: 'Adobe Campaignユーザーは特定の役割を持ちます。 メインユーザータイプを検出します。 '
-page-status-flag: 非活性化の
+page-status-flag: never-activated
 uuid: 8c4cc74a-815f-4815-af66-a7c21bc754f1
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 管理
-content-type: 参照
-topic-tags: ユーザーとセキュリティ
+audience: administration
+content-type: reference
+topic-tags: users-and-security
 discoiquuid: 08c8712a-0066-4b8b-8471-2656b8fb23ed
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -94,7 +94,7 @@ Adobe Campaignの様々なタスクを3つのメインユーザータイプに�
 * [プログラムとキャンペーンの管理](../../start/using/programs-and-campaigns.md):様々なタイプのアクティビティ（電子メール、SMSメッセージ、プッシュ通知、ワークフロー、ランディングページ）を含むマーケティングキャンペーンを作成します。
 * プロファ [イル](../../audiences/using/about-profiles.md) /テ [ストプロファイル](../../sending/using/managing-test-profiles-and-sending-proofs.md):配信によってターゲット設定される、特定された受信者およびテスト受信者を管理します。 名、姓、連絡先情報、購読、電子メールなどの情報を追加します。
 * [メッセージの作成と送信](../../sending/using/confirming-the-send.md):メッセージの作成、オーディエンスの選択、メッセージのコンテンツとパーソナライゼーション要素の定義、校正の送信、オーディエンスへの最終的なメッセージの送信を行います。
-* [ランディングページの作成と発行](../../channels/using/about-landing-pages.md):購読フォームや購読解除フォームなど、クライアントに提供する一連のサービスを作成し、管理します。
+* [ランディングページの作成と発行](../../channels/using/getting-started-with-landing-pages.md):購読フォームや購読解除フォームなど、クライアントに提供する一連のサービスを作成し、管理します。
 * [キャンペーンワークフローの作成と実行](../../automating/using/building-a-workflow.md):ワークフローを使用してキャンペーンプロセスを自動化します。
 * 使用可能なレポートを使用してマーケティングア [クティビティを監視](../../reporting/using/defining-the-report-period.md)。
 
