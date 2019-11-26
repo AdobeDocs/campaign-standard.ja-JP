@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 02cf4f79f69eb1aef81c9e805204febd363af1a2
+source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
 
 ---
 
@@ -108,12 +108,13 @@ source-git-commit: 02cf4f79f69eb1aef81c9e805204febd363af1a2
       + [トランザクションプッシュ通知](channels/using/transactional-push-notifications.md)
       + [フォローアップメッセージ](channels/using/follow-up-messages.md)
    + ランディングページ{#landing-pages}
-      + [ランディングページについて](channels/using/about-landing-pages.md)
-      + [ランディングページを設定するための主な手順](channels/using/main-steps-to-set-up-a-landing-page.md)
+      + [ランディングページについて](channels/using/getting-started-with-landing-pages.md)
+      + [ランディングページを設定するための主な手順](channels/using/getting-started-with-landing-pages.md)
       + [ランディングページテンプレートについて](channels/using/landing-page-templates.md)
+      + [ランディングページの設定](channels/using/configuring-landing-page.md)
       + [ランディングページのデザイン](channels/using/designing-a-landing-page.md)
       + [ランディングページフォームデータの管理](channels/using/managing-landing-page-form-data.md)
-      + [ランディングページの共有](channels/using/sharing-a-landing-page.md)
+      + [ランディングページのテストと公開](channels/using/testing-publishing-landing-page.md)
       + [ダブルオプトインプロセスの設定](channels/using/setting-up-a-double-opt-in-process.md)
 + 電子メールコンテンツのデザイン{#designing-content}
    + [キャンペーン電子メールデザイナー](designing/using/designing-content-in-adobe-campaign.md)
