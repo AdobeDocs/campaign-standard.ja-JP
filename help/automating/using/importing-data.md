@@ -1,18 +1,18 @@
 ---
 title: データのインポート
 description: ワークフローを使用してデータを読み込む方法を説明します。
-page-status-flag: 非活性化の
+page-status-flag: never-activated
 uuid: d909d26a-cf50-46af-ae09-f0fd7258ca27
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 自動化
-content-type: 参照
+audience: automating
+content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -88,6 +88,26 @@ Adobe Campaign データベースのデータの一貫性を維持するには�
 * 重複の作成を避けるために、トランザクションデータは、紐付けキーを持ち、既存のデータと紐付けされている必要があります。
 * **関連ファイルを順番どおりにインポートします**。お互いに依存する複数のファイルでインポートが構成されている場合、ワークフローでファイルが正しい順番でインポートされていることを確認する必要があります。あるファイルが失敗すると、他のファイルはインポートされません。
 * データをインポートする際には、**重複排除**&#x200B;し、紐付けし、一貫性を維持します。
+
+## 暗号化されたデータの管理 {#managing-encrypted-data}
+
+場合によっては、キャンペーンサーバーをインポートするデータが暗号化される必要がある場合があります。例えば、PIIデータが含まれている場合などです。
+
+暗号化されたファイルを読み込んだり書き出したりできるようにするには、まずアドビカスタマーケアに連絡して、必要な暗号化/復号化コマンドがインスタンスに提供されるようにする必要があります。
+
+これを行うには、次の内容を示すリクエストを送信します。
+
+* コマン **ドを使用するため** 、Campaignインターフェイスに表示されるラベル。 例えば、「ファイルを暗号化」。
+* インス **タンス** にインストールするコマンド。
+たとえば、PGPを使ってファイルを復号する場合、コマンドは次のようになります。
+
+   ```
+   <path-to_pgp_if-not_global_or_server/>pgp.exe --decrypt --input nl6/var/vp/import/filename.pgp --passphrase "your password" --recipient recipient @email.com --verbose --output nl6/var/vp/import/filename
+   ```
+
+要求が処理されると、およびアクティビティのフィールドで暗号化/復号化 **!UICONTROL Pre-processing stage]** コマンドを使用で **[!UICONTROL Data loading (file)]** きるようにな **[!UICONTROL Extracting data (file)]** ります。 読み込みまたは書き出しを行うファイルは、これらのファイルを使用して復号化または暗号化できます。
+
+![](assets/preprocessing-encryption.png)
 
 ## 例：ワークフローテンプレートの読み込み {#example--import-workflow-template}
 
@@ -197,4 +217,3 @@ Adobe Campaign データベースのデータの一貫性を維持するには�
 これで、テンプレートが使用できるようになり、すべての新規ワークフローに利用できます。All is needed is then to specify the file containing the data to import in the **[!UICONTROL Load file]** activity.
 
 ![](assets/import_template_example9.png)
-
