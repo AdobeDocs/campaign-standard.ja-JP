@@ -1,18 +1,18 @@
 ---
 title: サービスのサブスクリプションを確認
 description: Adobe Campaignでサービスを購読するプロファイルの確認メッセージを設定するには、次の手順に従います。
-page-status-flag: 非活性化の
+page-status-flag: never-activated
 uuid: 23e6c4c2-e2c7-472f-b616-36a95225ac1d
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
-content-type: 参照
-topic-tags: 購読の管理
+content-type: reference
+topic-tags: managing-subscriptions
 discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -179,7 +179,7 @@ Webサイトに公開する購読のランディングページを作成しま�
 
 このランディングページを作成して設定するには、次の手順に従います。
 
-1. テンプレート [に基づいて新しいランディング](../../channels/using/about-landing-pages.md) ページをデザイン **[!UICONTROL Subscription]** します。
+1. テンプレート [に基づいて新しいランディング](../../channels/using/getting-started-with-landing-pages.md) ページをデザイン **[!UICONTROL Subscription]** します。
 1. ランディングページのプロパティを編集します。 「&gt;」セクシ **[!UICONTROL Job]** ョンで、オ **[!UICONTROL Specific actions]** プションを選択 **[!UICONTROL Specific service]** し、先ほど作成したサービスをドロップダウンリストから選択します。
 
    ![](assets/confirmation_lp-specific-service.png)
@@ -190,7 +190,7 @@ Webサイトに公開する購読のランディングページを作成しま�
 
 1. ランディングページのコンテンツをカスタマイズします。
 
-1. [ランディングページをテスト](../../channels/using/sharing-a-landing-page.md) 、公開します。
+1. [ランディングページをテスト](../../channels/using/testing-publishing-landing-page.md) 、公開します。
 
 現在は、プロファイルがランディングページを送信してニュースレターを購読するたびに、サービスにマッピングされたパーソナライズされたフィールドで定義した確認メッセージを受け取ります。
 
