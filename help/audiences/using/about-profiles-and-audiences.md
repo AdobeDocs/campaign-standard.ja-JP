@@ -1,18 +1,18 @@
 ---
 title: プロファイルとオーディエンスについて
 description: 「Adobe Campaign内のプロファイルとオーディエンスの管理について説明します。ターゲット設定された訪問者の定義、オーディエンスの選択、受信者のフィルター、データの収集、プロファイルの更新を行います。」
-page-status-flag: 非活性化の
+page-status-flag: never-activated
 uuid: f4cb6c38-c8d1-44ec-93f0-d0f5f30a3d9a
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
-content-type: 参照
+content-type: reference
 topic-tags: about-profiles-and-audiences
 discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -31,7 +31,7 @@ Adobe Campaignは、リッチな顧客プロファイルをリアルタイムで
 
    ワークフローとクエリエディターを使用すると、マーケティングキャンペーンの情報、アクティビティ、およびマーケティング履歴に基づいて、マーケティングキャンペーンのターゲットを定めるオーディエンスを作成できます。 これにより、登録済みのプロファイル、サンプルまたはターゲットオーディエンスの作成を、無制限の数の条件でフィルターできます。
 
-連絡先へのメッセージの送信を開始する前に、その連絡先の権限を持っていることを確認する必要があります。 そうでない場合は、電子メールがスパムとしてマークされ、プラットフォームの配信品質に影響を与える可能性があります。 正常なプロファイルデータベースを確実に構築するには、最初の手順としてこの権限を保護します。 Campaignを使用する場合は、サービスやランディングページを通じた簡単なオプトインおよびオプトアウトメカニズムを使用して [](../../audiences/using/creating-a-service.md)[](../../channels/using/about-landing-pages.md) 、連絡先情報を更新し、データベースを拡張することをお勧めします。
+連絡先へのメッセージの送信を開始する前に、その連絡先の権限を持っていることを確認する必要があります。 そうでない場合は、電子メールがスパムとしてマークされ、プラットフォームの配信品質に影響を与える可能性があります。 正常なプロファイルデータベースを確実に構築するには、最初の手順としてこの権限を保護します。 Campaignを使用する場合は、サービスやランディングページを通じた簡単なオプトインおよびオプトアウトメカニズムを使用して [](../../audiences/using/creating-a-service.md)[](../../channels/using/getting-started-with-landing-pages.md) 、連絡先情報を更新し、データベースを拡張することをお勧めします。
 
 メッセージに購読解除リンクを指定すると、必要に応じてプロファイルをブラックリストに記載できるので、プラットフォームの配信品質を向上できます。 ブラックリストの詳細については、「Campaignでのオ [プトインとオプトアウトについて」を参照してください](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)。
 
