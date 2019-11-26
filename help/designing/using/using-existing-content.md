@@ -1,18 +1,18 @@
 ---
 title: '既存のコンテンツを使用した電子メールのデザイン '
 description: 電子メールデザイナーで既存のコンテンツの電子メールコンテンツを使用して電子メールをデザインする方法を確認します。
-page-status-flag: 非活性化の
+page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 設計
-content-type: 参照
+audience: designing
+content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -52,7 +52,7 @@ Adobe Campaignには、作業を開始する際に役立つ事前定義済みコ
 **関連トピック：**
 
 * [電子メールの作成](../../channels/using/creating-an-email.md)
-* [ランディングページの管理](../../channels/using/about-landing-pages.md)
+* [ランディングページの管理](../../channels/using/getting-started-with-landing-pages.md)
 
 ## 電子メールデザイナーによる既存のコンテンツの編集{#editing-existing-contents-with-the-email-designer}
 
@@ -143,7 +143,7 @@ URLから既存のコンテンツを取得するには、次の手順に従い�
 
 ### 互換性モード {#compatibility-mode}
 
-コンテンツをアップロードする場合、電子メールデザイナーのWYSIWYGエディターに完全に準拠し、編集可能な特定のタグ付けを含める必要があります。
+コンテンツをアップロードする場合、電子メールデザイナーのWYSIWYGエディターに完全に準拠し、編集可能な特定のタグがコンテンツに含まれている必要があります。
 
 アップロードされたHTMLのすべてまたは一部が期待されたタグ付けに準拠していない場合、コンテンツは「互換性モード」で読み込まれ、UIを使用した編集の可能性が制限されます。
 
