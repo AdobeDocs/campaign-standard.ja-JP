@@ -1,18 +1,18 @@
 ---
 title: ダブルオプトインプロセスの設定
 description: Adobe Campaignのランディングページを使用してダブルオプトインプロセスを設定するには、次の手順に従います。
-page-status-flag: 非活性化の
+page-status-flag: never-activated
 uuid: 23e6c4c2-e2c7-472f-b616-36a95225ac1d
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: チャネル
-content-type: 参照
-topic-tags: ランディングページ
+audience: channels
+content-type: reference
+topic-tags: landing-pages
 discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -41,7 +41,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 このランディングページを作成して設定するには、次の操作を行う必要があります。
 
-1. テンプレート [に基づいて新しいランディング](../../channels/using/about-landing-pages.md) ページをデザイン **[!UICONTROL Profile acquisition (acquisition)]** します。 「確認&#x200B;****」というラベルを入力します。
+1. テンプレート [に基づいて新しいランディング](../../channels/using/getting-started-with-landing-pages.md) ページをデザイン **[!UICONTROL Profile acquisition (acquisition)]** します。 「確認&#x200B;****」というラベルを入力します。
 
    サービスを使用する必要が [ある場合](../../audiences/using/about-subscriptions.md)、テンプレートも使用でき **[!UICONTROL Subscription (sub)]** ます。
 
@@ -67,7 +67,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    ![](assets/optin_confimlp_page2.png)
 
-1. [ランディングページをテスト](../../channels/using/sharing-a-landing-page.md) 、公開します。
+1. [ランディングページをテスト](../../channels/using/testing-publishing-landing-page.md) 、公開します。
 
 ## 手順2:確認電子メールの作成 {#step-2--create-the-confirmation-email}
 
@@ -127,7 +127,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 このランディングページを作成して設定するには、次の操作を行う必要があります。
 
-1. テンプレート [に基づいて新しいランディング](../../channels/using/about-landing-pages.md) ページをデザイン **[!UICONTROL Profile acquisition (acquisition)]** します。 ラベル'**ACQUISITION**'を入力します。
+1. テンプレート [に基づいて新しいランディング](../../channels/using/getting-started-with-landing-pages.md) ページをデザイン **[!UICONTROL Profile acquisition (acquisition)]** します。 ラベル'**ACQUISITION**'を入力します。
 1. ランディングページのプロパティを編集します。&gt;セクション **[!UICONTROL Job]** で、をク **[!UICONTROL Additional data]** リックし、次のコ **[!UICONTROL Add an element]** ンテキストパスを入力します。
 
    /context/profile/blackList
@@ -149,6 +149,6 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    ![](assets/optin_acquisition_page2.png)
 
-1. [ランディングページをテスト](../../channels/using/sharing-a-landing-page.md) 、公開します。
+1. [ランディングページをテスト](../../channels/using/testing-publishing-landing-page.md) 、公開します。
 
 ダブルオプトインメカニズムが設定されました。 このランディングページの公開URLから開始して、プロシージャを実行し、最後から最後までテストすること **[!UICONTROL ACQUISITION]** ができます。 このURLは、ランディングページのダッシュボードに表示されます。
