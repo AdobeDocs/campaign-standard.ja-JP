@@ -1,19 +1,19 @@
 ---
 title: マーケティング活動
 description: 「マーケティング活動を作成し、管理する方法を説明します。キャンペーン、電子メール、SMSおよびプッシュ通知の配信、ランディングページ、ワークフロー。 新しいアクティビティを簡単に設計し、既存のアクティビティを編集し、そのステータスと有効性を確認できます。」
-page-status-flag: 非活性化の
+page-status-flag: never-activated
 uuid: 5d45a935-6d03-4b27-aabd-7c47c11241ba
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 開始
-content-type: 参照
-topic-tags: マーケティング・プラン
+audience: start
+content-type: reference
+topic-tags: marketing-plans
 discoiquuid: 3ba165e1-420f-4d6f-b339-467b066b42d0
-context-tags: アクティビティ，概要
+context-tags: activity,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -88,7 +88,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 * [プッシュ通知の作成](../../channels/using/preparing-and-sending-a-push-notification.md)
 * [アプリ内メッセージの作成](../../channels/using/about-in-app-messaging.md)
 * [ワークフローの作成](../../automating/using/building-a-workflow.md#creating-a-workflow)
-* [ランディングページの作成](../../channels/using/about-landing-pages.md)
+* [ランディングページの作成](../../channels/using/getting-started-with-landing-pages.md)
 * [キャンペーンの作成](../../start/using/programs-and-campaigns.md#creating-a-campaign)
 * [プログラムの作成](../../start/using/programs-and-campaigns.md#creating-a-program)
 
