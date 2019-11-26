@@ -1,18 +1,18 @@
 ---
 title: サービスのプロモーション
 description: Adobe Campaignを使用して、専用のランディングページ、電子メール、またはWebサイト上で直接、サービスを促進し、顧客を惹きつけます。
-page-status-flag: 非活性化の
+page-status-flag: never-activated
 uuid: 2b71d2a1-3e48-4a21-ab21-4a360abc1d36
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
-content-type: 参照
-topic-tags: 購読の管理
+content-type: reference
+topic-tags: managing-subscriptions
 discoiquuid: 98650305-7abf-456f-8c91-cf0b61f53763
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -24,7 +24,11 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 キャンペーンを使用して、次の方法でサービスをプロモーションできます。
 
 * [サービスの購読または購読解除リンクを電子メールに挿入します](../../designing/using/links.md#inserting-a-link)。
-* 購読または購読解除のランディングページへのリンクを電子メールに挿入します。 この場合、サービスは、関連するランディングページの設定で直接参照する必要があります。
-* 購読または購読解除のランディングページをWebサイトで利用できるようにする。 ランディングページにアクセスするURLは、関連するサービスやアクセスするプロファイルIDなどのパラメーターを指定する必要があります。 このIDは、ランディングページのパラメーターで定義できます。
 
-詳しくは、「ランディングページ [内のサービスへのフォームのリンク」を参照してください](../../channels/using/designing-a-landing-page.md#linking-a-form-to-a-service)。
+* [購読または購読解除のランディングページへのリンクを電子メールに挿入](../../designing/using/links.md)。 この場合、サービスは関連するランディングページのプロパティで直接参照する必要があります(「ランディングペ [ージのサービスへのリンク](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)」を参照)。
+
+   >[!NOTE]
+   >
+   >また、購読者に購読を取り消す可能性を与えることも重要です。 これを行うには、新しい購読者および将来のニュースレター電子メールに自動的に送信される確認電子メール <b></b> （サービスプロパティで定義）にサービスの購読解除リンクを挿入します。
+
+* 購読または購読解除のランディングページをWebサイトで利用できるようにする。 ランディングページにアクセスするURLは、関連するサービスやアクセスするプロファイルIDなどのパラメーターを指定する必要があります。 このIDは、ランディングページのパラメーターで定義できます(「ランデ [ィングページの設定](../../channels/using/configuring-landing-page.md#)」を参照)。
