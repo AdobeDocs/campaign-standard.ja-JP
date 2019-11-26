@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Adobe Campaign Standard 製品ドキュメント
 topic: Premium
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 * **[電子メールデザイナー](designing/using/designing-content-in-adobe-campaign.md)**<br/>
 再編成された電子メールデザイナーのドキュメントを参照してください。
 
-* **[ランディングページ](channels/using/main-steps-to-set-up-a-landing-page.md)**<br/>
+* **[ランディングページ](channels/using/getting-started-with-landing-pages.md)**<br/>
 ランディングページの設定方法の詳細を説明します。
 
 [更新情報についてはここをクリック](rn/using/documentation-updates.md)
