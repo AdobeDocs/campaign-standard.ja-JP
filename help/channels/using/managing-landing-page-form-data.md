@@ -1,19 +1,19 @@
 ---
 title: ランディングページフォームデータの管理
 description: ランディングページのフォームデータを管理する方法を説明します。
-page-status-flag: 非活性化の
+page-status-flag: never-activated
 uuid: 5b222ea2-6628-457f-a618-bfc0e5eb93dd
-contentOwner: レメイト
+contentOwner: lemaitre
 products: SG_CAMPAIGN/STANDARD
-audience: チャネル
-content-type: 参照
-topic-tags: ランディングページ
+audience: channels
+content-type: reference
+topic-tags: landing-pages
 discoiquuid: 899c7152-f415-4df9-b4b4-5ff3470a4e32
 context-tags: landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -51,26 +51,6 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 >[!NOTE]
 >
 >組み込みのランディングページのデフォルトフィールドは事前に設定されています。 必要に応じて変更できます。
-
-## サービスへのフォームのリンク {#linking-a-form-to-a-service}
-
-フォームをサービスにリンクして、ランディングページを検証する際にプロファイルが特定のサービスに登録できるようにすることができます。
-
-ランディングページをリンクするパラメーターを使用すると、実行するアクションのタイプと、ランディングページが単一のサービスに具体的にリンクされているか、汎用であるかを指定できます。
-
-リンクするサービスを選択するには、次の操作を行う必要があります。
-
-1. ランディングページのダッシュボードのアイコンを使用し ![](assets/edit_darkgrey-24px.png) てアクセスしたランディングページのプロパティを編集し、パラメータを表示 **[!UICONTROL Job]** します。
-
-   ![](assets/lp_edit_properties_button.png)
-
-1. ドロッ **[!UICONTROL Subscription]** プダウンリスト **[!UICONTROL Specific actions]** からを選択します。
-
-   ![](assets/lp_parameters_5.png)
-
-1. ランディング **[!UICONTROL Specific service]** ページを単一のサービスにリンクする場合に選択します。 ランディングページで複数のサービスを使用する場合は、このオプションを選択しないでください。
-
-   このオプション **[!UICONTROL Specified service in the URL]** を使用して、ランディングページを複数のサービスで使用できるようにします。 したがって、サービスを設定する際は、ランディングページを参照する必要があります。
 
 ## データの保存と調整{#data-storage-and-reconciliation}
 
