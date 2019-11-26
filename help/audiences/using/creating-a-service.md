@@ -1,19 +1,19 @@
 ---
 title: サービスの作成
 description: 初めてのサービスを作成し、購読者に電子メールで確認を送信するように設定する方法について説明します。
-page-status-flag: 非活性化の
+page-status-flag: never-activated
 uuid: 0d95d852-0f22-4b7b-b301-8fb4844c3ca2
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
-content-type: 参照
-topic-tags: 購読の管理
+content-type: reference
+topic-tags: managing-subscriptions
 discoiquuid: 6b7788fe-fa6c-472a-97db-765595ce1589
 context-tags: service,wizard;service,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -54,5 +54,4 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 * [サービスと購読のビデオの管理](https://helpx.adobe.com/campaign/kt/acs/using/acs-services-and-subscriptions-feature-video-use.html) （英語のみ）
 * [サービスのプロモーション](../../audiences/using/promoting-a-service.md)
 * [購読者で構成されるオーディエンスの作成](../../audiences/using/creating-audiences.md#creating-list-audiences)
-* [ランディングページ内のサービスへのフォームのリンク](../../channels/using/designing-a-landing-page.md#linking-a-form-to-a-service)
-
+* [ランディングページのサービスへのリンク](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)
