@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a3b81a62d6f4b58c1b88b4e50755dcb1e638f7be
+source-git-commit: 72b55ce387355bf58a22c44388c884951f11b904
 
 ---
 
@@ -29,7 +29,17 @@ Adobe Campaign Standardドキュメントの最新の更新について説明し
 
 Campaign Standardのワークフローを使用してコントロールグループを作成する方法を説明する新しい使用例が追加されました。 [Read more](../../automating/using/workflow-control-group.md)
 
+ランディングページのプロパティに関する情報は、専用のセクションに移動されました。 [詳細を表示](../../channels/using/configuring-landing-page.md)
+
+コントロールパネルのドキュメントは、新しいコラボレーションドキュメントセットに統合されました。 [詳細を表示](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
+
+インジケ **ーターの計算** 表が更新されました。 [詳細を表示](../../reporting/using/indicator-calculation.md)
+
 APIドキュメントセットは、Campaign Standardドキュメントに統合されました。[詳細を表示](../../api/using/about-campaign-standard-apis.md)
+
+「Creating a personalized email getting guide」が移動および更新されました。 [詳細を表示](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html)
+
+『配信のベストプラクティス集』ガイドが更新されました。 [詳細を表示](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
 
 ## リリース19.4 - 2019年10月 {#release-19-4---october-2019}
 
@@ -47,7 +57,7 @@ GDPR入門ガイドが改善され、強化されました。 GDPRやCCPAなど�
 
 トランザクションメッセージング発行プロセスを示す新しいグラフが追加されました。 [詳細を表示](../../channels/using/about-transactional-messaging.md#transactional-messaging-pub-process)
 
-『配信のベストプラクティス集』ガイドが更新されました。 [詳細を表示](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
+『配信のベストプラクティス集』ガイドは移動および更新されました。 [詳細を表示](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
 
 新しいセクションが追加されました。 Campaign Standardデータベースを拡張するための様々な方法の概要を説明します。 [詳細を表示](../../start/using/enriching-campaign-database.md)
 
@@ -63,7 +73,7 @@ GDPR入門ガイドが改善され、強化されました。 GDPRやCCPAなど�
 
 「トランザクションメッセージ」セクションは、電子メールデザイナでのコンテンツの編集など、最新のUIの更新によって変更されました。 [詳細を表示](../../channels/using/event-transactional-messages.md)
 
-ランディングページのチャプターが再編成されました。 また、ランディングページの設定手順を詳細に説明する新しいセクションが追加され、機能が強化されました。 [詳細を表示](../../channels/using/main-steps-to-set-up-a-landing-page.md)
+ランディングページのチャプターが再編成されました。 また、ランディングページの設定手順を詳細に説明する新しいセクションが追加され、機能が強化されました。 [詳細を表示](../../channels/using/getting-started-with-landing-pages.md)
 
 Audience Manager統合ページが更新され、宣言済みIDの変更が反 **映されまし** た。 [詳細を表示](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
@@ -133,7 +143,7 @@ Campaign StandardおよびClassicのエラーメッセージのリストが更�
 
 ## ドキュメントの更新 — 2019年7月 {#doc-updates-2019}
 
-ランディングページの制限に関する新しいページを追加しました。 [詳細を表示](../../channels/using/about-landing-pages.md#landing-page-limitations)
+ランディングページの制限に関する新しいページを追加しました。 [詳細を表示](../../channels/using/getting-started-with-landing-pages.md#landing-page-limitations)
 
 複合IDキーを使用してプロファイルを呼び出す方法に関する使用例が追加されました。 [詳細を表示](../../developing/using/uc-calling-resource-id-key.md)
 
@@ -153,7 +163,7 @@ Campaign StandardおよびClassicのエラーメッセージのリストが更�
 
 ワークフローの強化 — 外部シグナルアクティビティにペイロードを追加 — 詳 [細情報](../../automating/using/calling-a-workflow-with-external-parameters.md)
 
-ランディングページの機能強化 — Google reCAPTCHA — 詳 [細情報](../../channels/using/designing-a-landing-page.md#setting-google-recaptcha)
+ランディングページの機能強化 — Google reCAPTCHA — 詳 [細情報](../../channels/using/configuring-landing-page.md#setting-google-recaptcha)
 
 ### リリースに伴うその他のドキュメントの更新 {#other-documentation-updates-coming-with-the-release}
 
