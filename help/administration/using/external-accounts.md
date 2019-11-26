@@ -1,19 +1,19 @@
 ---
 title: 外部アカウント
 description: 外部アカウントを設定して、SFTPサーバーなどの外部システムとの接続を設定します。
-page-status-flag: 非活性化の
+page-status-flag: never-activated
 uuid: 5d2e2e3d-5d1f-4466-97e5-842c50390146
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 管理
-content-type: 参照
+audience: administration
+content-type: reference
 topic-tags: application-settings
 discoiquuid: d5c6a3d4-f767-46c1-a8c0-3b9dc52dcea8
 internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -134,7 +134,7 @@ Adobe Experience Managerの外部アカウントは、CampaignとExperience Mana
 
 Google reCAPTCHAメカニズムを使用すると、ボットによるスパムや悪用からランディングページを保護できます。 顧客からのインタラクションは不要で、サイトでのインタラクションに基づいているので、顧客にとってこれは押し付けがましいものです。 サイトを登録するには、このページを参照してく [ださい](https://www.google.com/recaptcha/admin/create)。 V3 reCAPTCHAタイプを選択する必要があります。
 
-Google reCAPTCHA V3をランディングページに追加するには、まず外部アカウントでGoogle ReCAPTCHA V3を設定する必要があります。 ランディングページに追加する方法の詳細については、この節を参照してく [ださい](../../channels/using/designing-a-landing-page.md#setting-google-recaptcha)。
+Google reCAPTCHA V3をランディングページに追加するには、まず外部アカウントでGoogle ReCAPTCHA V3を設定する必要があります。 ランディングページに追加する方法の詳細については、この節を参照してく [ださい](../../channels/using/configuring-landing-page.md#setting-google-recaptcha)。
 
 Google reCAPTCHA V3外部アカウントの場合は、次の情報を入力します。
 
@@ -146,4 +146,3 @@ Google reCAPTCHA V3外部アカウントの場合は、次の情報を入力し�
    0.0の値は、ボッ **[!UICONTROL Threshold]** トの可能性が高く、1.0の場合は適切な相互作用を示します。 デフォルトでは、しきい値0.5を使用できます。
 
 ![](assets/external_accounts_3.png)
-
