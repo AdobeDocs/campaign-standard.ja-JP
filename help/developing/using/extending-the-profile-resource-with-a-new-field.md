@@ -1,18 +1,18 @@
 ---
 title: 新しいフィールドを使用したプロファイルリソースの拡張
 description: プロファイルリソースを拡張する方法を説明します。
-page-status-flag: 非活性化の
+page-status-flag: never-activated
 uuid: 9b99e95c-93ff-4187-90f7-db0baf5369ad
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 開発中
-content-type: 参照
-topic-tags: 使用事例
+audience: developing
+content-type: reference
+topic-tags: use-cases--extending-resources
 discoiquuid: 1e0f8945-fc3c-46a9-a8e5-b181a1f5ffcb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -147,7 +147,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ## 手順4:ワークフローを使用したプロファイルの更新とターゲット設定 {#step-4--update-and-target-profiles-with-a-workflow}
 
-新しいカスタムフィールドのデータを使用してプロファイルを更新するには、テンプレートを使用してランディングページを作成 **[!UICONTROL Profile acquisition]** します。 For more information on landing pages, refer to this [page](../../channels/using/about-landing-pages.md).
+新しいカスタムフィールドのデータを使用してプロファイルを更新するには、テンプレートを使用してランディングページを作成 **[!UICONTROL Profile acquisition]** します。 For more information on landing pages, refer to this [page](../../channels/using/getting-started-with-landing-pages.md).
 
 ここでは、このフィールドに入力されなかったワークフロープロファイルをターゲットにします。 個人向けニュースレターやオファーを受け取るためのプロファイルの更新を求める電子メールが届きます。 その後、選択した興味に応じて、個人向けのニュースレターが各プロファイルに送信されます。
 
