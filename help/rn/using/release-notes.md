@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
 
 ---
 
@@ -327,7 +327,7 @@ source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
   </tr> 
   <tr> 
    <td> ランディングページの機能強化 — Google reCAPTCHA<br /> </td> 
-   <td> <p>Google reCAPTCHAを利用して、顧客からの何の操作も必要とせずに、ランディングページのスパムを防止します。</p><p>詳しくは、<a href="../../channels/using/designing-a-landing-page.md#setting-google-recaptcha">詳細ドキュメント</a>を参照してください。</p></td> 
+   <td> <p>Google reCAPTCHAを利用して、顧客からの何の操作も必要とせずに、ランディングページのスパムを防止します。</p><p>詳しくは、<a href="../../channels/using/configuring-landing-page.md#setting-google-recaptcha">詳細ドキュメント</a>を参照してください。</p></td> 
   </tr> 
  </tbody> 
 </table>
