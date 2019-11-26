@@ -12,7 +12,7 @@ discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
 
 ---
 
@@ -49,7 +49,7 @@ Campaign Standardには、マーケティングデータベースの拡張に役
 * 各入力フィールドを、データベースの対応するフィールドにマップします。
 * ランディングページをWebサイト経由で、またはメッセージへの直接リンク経由でオンラインで使用できるようにします。
 
-ランディングページの詳細については、専用のドキュメントを参照 [してくださ](../../channels/using/about-landing-pages.md)い。
+ランディングページの詳細については、専用のドキュメントを参照 [してくださ](../../channels/using/getting-started-with-landing-pages.md)い。
 
 ## Microsoft Dynamics 365からのプロファイルの同期
 
