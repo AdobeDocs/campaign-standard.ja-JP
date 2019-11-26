@@ -12,7 +12,7 @@ discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ba1e87b140a19967e67320cc4579ac025955ca23
+source-git-commit: 13430243e8f2840ca85e557798168f6380a7b0fa
 
 ---
 
@@ -29,7 +29,7 @@ Adobe Campaignプロファイルは、データベースに保存されている
 
 ![](assets/mkt_hist_view.png)
 
-Adobe Campaignでは、プロファイルの取得に関して様々なメカニズムを提案しています。ランディングページ、手動または自動インポートメカニズムを使用し [て](../../channels/using/about-landing-pages.md)、データをオンラインで収集する [(Adobe Campaignインターフェイスでの直接入力、](../../automating/using/about-data-import-and-export.md)[](../../audiences/using/creating-profiles.md)[](../../api/using/about-campaign-standard-apis.md)Adobe Campaign APIを使用したバルク作成)。
+Adobe Campaignでは、プロファイルの取得に関して様々なメカニズムを提案しています。ランディングページ、手動または自動インポートメカニズムを使用し [て](../../channels/using/getting-started-with-landing-pages.md)、データをオンラインで収集する [(Adobe Campaignインターフェイスでの直接入力、](../../automating/using/about-data-import-and-export.md)[](../../audiences/using/creating-profiles.md)[](../../api/using/about-campaign-standard-apis.md)Adobe Campaign APIを使用したバルク作成)。
 
 **関連トピック：**
 
