@@ -1,18 +1,18 @@
 ---
 title: キャンペーンのオプトインとオプトアウトの管理
 description: Adobe Campaignでのオプトインおよびオプトアウトの管理方法を説明します。
-page-status-flag: 非活性化の
+page-status-flag: never-activated
 uuid: aa1801ec-562b-420e-8d79-c07d066b7b1a
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
-content-type: 参照
-topic-tags: 理解オプトイン/オプトアウトプロセス
+content-type: reference
+topic-tags: understanding-opt-in-and-opt-out-processes
 discoiquuid: 6b5680f2-bba9-453e-a0d5-8ca69dd02001
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ---
 
@@ -35,9 +35,9 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 >[!NOTE]
 >
->ランディングページは、サービスの購読を有効にするためにも使用できます。 詳しくは、[このページ](../../channels/using/designing-a-landing-page.md#linking-a-form-to-a-service)を参照してください。
+>ランディングページは、サービスの購読を有効にするためにも使用できます。 詳しくは、[このページ](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)を参照してください。
 
-1. ランディング **[!UICONTROL Profile acquisition]** ページを作成します( [この節を参照](../../channels/using/about-landing-pages.md))。
+1. ランディング **[!UICONTROL Profile acquisition]** ページを作成します( [この節を参照](../../channels/using/getting-started-with-landing-pages.md))。
 1. 目的の各チャネルのランディングページのコンテンツにチェックボックスを追加し、Campaignデータベースから対応するフィールドにリンクします。
 
    ![](assets/optin_landingpage_1.png)
@@ -53,7 +53,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ### すべての配信からオプトアウトするためのランディングページの設定 {#setting-up-a-landing-page-to-opt-out-from-all-deliveries}
 
-すべての配信からオプトアウトする機能をユーザーに提供するには、ランディングページを作成して公開する必要 **[!UICONTROL BlackList]** があります。 For more on landing pages creation, refer to [this page](../../channels/using/about-landing-pages.md).
+すべての配信からオプトアウトする機能をユーザーに提供するには、ランディングページを作成して公開する必要 **[!UICONTROL BlackList]** があります。 For more on landing pages creation, refer to [this page](../../channels/using/getting-started-with-landing-pages.md).
 
 ユーザーがランディングページのリンクをクリックすると、プロフ **[!UICONTROL No longer contact (by any channel)]** ァイルのオプションが自動的に選択されます。
 
