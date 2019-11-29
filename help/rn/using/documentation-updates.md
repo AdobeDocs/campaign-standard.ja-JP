@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 72b55ce387355bf58a22c44388c884951f11b904
+source-git-commit: 5c4d3fc9853bf9bad4efcefaea242fecc9c4c61f
 
 ---
 
@@ -40,6 +40,10 @@ APIドキュメントセットは、Campaign Standardドキュメントに統合
 「Creating a personalized email getting guide」が移動および更新されました。 [詳細を表示](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html)
 
 『配信のベストプラクティス集』ガイドが更新されました。 [詳細を表示](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
+
+データモデルは、Campaign Standardのドキュメントに統合されました。 [詳細を表示](../../developing/using/datamodel-audience.md)
+
+新しいAPIエンドポイン **ト** /customResourcesがAPIドキュメントに追加されました。[詳細を表示](../../api/using/interacting-with-custom-resources.md)
 
 ## リリース19.4 - 2019年10月 {#release-19-4---october-2019}
 
