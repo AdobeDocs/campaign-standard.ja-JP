@@ -12,13 +12,12 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 206bb19acfd4c1bcbc7e8839cdf2d13a6279642f
+source-git-commit: 5c4d3fc9853bf9bad4efcefaea242fecc9c4c61f
 
 ---
 
 
 # カスタムリソースの操作 {#interacting-with-custom-resources}
-
 
 /customResourcesエ **ンドポイントを使用すると** 、ACSカスタムエンティティをRESTで公開できます。 このAPIに基づいて、カスタムエンティティと外部エンドポイントの統合を利用できます。
 
