@@ -12,7 +12,7 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ---
 
@@ -285,7 +285,7 @@ Adobe Campaign Standardの最新のドキ [ュメントの更新](../../rn/using
 * 「送信済み」、「配信済み」、「バウンス」の各指標で、特定のメッセージが考慮されな **い**、問題 **を修正し******&#x200B;ました。
 * 配信サマリレポートで選択した時間範囲が長すぎる場合に **発生するエラー** を修正しました。
 
-#### Custom resources {#custom-resources}
+#### カスタムリソース {#custom-resources}
 
 * カスタムリソースの準備に失敗するエラーを修正しました。
 
@@ -479,7 +479,7 @@ Campaignインターフェイスからコンテキストヘルプリンクを使
   </tr> 
   <tr> 
    <td> APIシグナルアクティビティのトリガー<br /> </td> 
-   <td> Adobe Campaign Standard APIから直接、ワークフローのシグナルアクティビティをトリガーできるようになりました。<br /> 詳しくは、詳細なドキュメントを参照 <a class="anchorLink" href="../../api/using/managing-workflows.md">してください</a> 。<br /> </td> 
+   <td> Adobe Campaign Standard APIから直接、ワークフローのシグナルアクティビティをトリガーできるようになりました。<br /> 詳しくは、詳細なドキュメントを参照 <a class="anchorLink" href="../../api/using/triggering-a-signal-activity.md">してください</a> 。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
