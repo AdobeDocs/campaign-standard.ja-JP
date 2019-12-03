@@ -12,7 +12,7 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5c4d3fc9853bf9bad4efcefaea242fecc9c4c61f
+source-git-commit: ff05128d664db7afba57b020f59b9a98fc656f56
 
 ---
 
@@ -46,4 +46,5 @@ POST /customResources/<customResourceName>
 
 >[!NOTE]
 >プライバシーAPIエンドポイントとワークフロー(/privacy/privacyTool)は、プロファイルエンティティにリンクされていないカスタムリソースを管理していません。
->これらのカスタムリソースのPIIを管理し、クリーンアップする必要があります。 プライバシーツールの詳細については、ここをク [リックしてくださ](../../api/using/privacy-management.md)い。
+>これらのカスタムリソースのPIIを管理し、クリーンアップする必要があります。 プライバシーツールの詳細については、ここをク [リックしてくださ](../../api/using/creating-a-privacy-request.md)い。
+
