@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5c4d3fc9853bf9bad4efcefaea242fecc9c4c61f
+source-git-commit: ff05128d664db7afba57b020f59b9a98fc656f56
 
 ---
 
@@ -67,7 +67,7 @@ GDPR入門ガイドが改善され、強化されました。 GDPRやCCPAなど�
 
 電子メールデザイナーでリンクのスタイルを設定する方法を説明する新しい節が追加されました。 [詳細を表示](../../designing/using/styles.md#about-styling-links)
 
-プライバシーに関する情報は、APIのドキュメントに追加されました。ここをクリ [ックしてください](../../api/using/privacy-management.md)
+プライバシーに関する情報は、APIのドキュメントに追加されました。ここをクリ [ックしてください](../../api/using/creating-a-privacy-request.md)
 
 ## ドキュメントの更新 — 2019年10月 {#doc-updates-october-2019}
 
@@ -429,7 +429,7 @@ EU GDPR(General Data Protection Regulation) — 詳細を [読む](https://docs.
 
 ### リリースに伴うその他のドキュメントの更新 {#other-documentation-updates-coming-with-the-release-7}
 
-GDPR APIは、GDPRリクエストの自動処理を可能にする機能を再グループ化します。 [詳細を表示](../../api/using/privacy-management.md)
+GDPR APIは、GDPRリクエストの自動処理を可能にする機能を再グループ化します。 [詳細を表示](../../api/using/creating-a-privacy-request.md)
 
 受信者にブラックリストに記載する機能を提供するランディングページの設定方法に関する情報を追加しました。 [詳細を表示](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
 
@@ -503,7 +503,7 @@ SMS自動応答の使用方法に関する使用例を追加しました。 [詳
 
 タイムゾーンに最適化された配信 — 詳 [細情報](../../automating/using/scheduler.md)
 
-APIシグナルアクティビティのトリガー — [詳細情報](../../api/using/managing-workflows.md)
+APIシグナルアクティビティのトリガー — [詳細情報](../../api/using/triggering-a-signal-activity.md)
 
 ### リリースに伴うその他のドキュメントの更新 {#other-documentation-updates-coming-with-the-release-9}
 
@@ -553,7 +553,7 @@ Adobe Campaign Standardのプッシュ通 [知を受け取るために](https://
 
 SMSのドキュメントが更新され、 [SMS自動返信の節に説明が追加されました](../../channels/using/managing-incoming-sms.md#managing-stop-sms) 。
 
-APIを使用したワークフロー管理に関する新しい節を追加しました。 [詳細を表示](../../api/using/managing-workflows.md)
+APIを使用したワークフロー管理に関する新しい節を追加しました。 [詳細を表示](../../api/using/controlling-a-workflow.md)
 
 主キーに特化した新しいセクションと、APIでのキーとしてのビジネスIDの使用について説明します。 [詳細を表示](../../api/using/about-campaign-standard-apis.md)
 
