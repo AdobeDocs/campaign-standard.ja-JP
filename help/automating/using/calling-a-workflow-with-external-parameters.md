@@ -12,7 +12,7 @@ discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ---
 
@@ -49,7 +49,7 @@ Campaign Standardでは、パラメーター（ターゲットとするオーデ
 
 ## ワークフロー呼び出し時のパラメーターの定義 {#defining-the-parameters-when-calling-the-workflow}
 
-この節では、ワークフローを呼び出す際のパラメーターの定義方法について詳しく説明します。 API呼び出しからこの操作を実行する方法について詳しくは、REST APIのドキュメントを参照 [してください](../../api/using/managing-workflows.md)。
+この節では、ワークフローを呼び出す際のパラメーターの定義方法について詳しく説明します。 API呼び出しからこの操作を実行する方法について詳しくは、REST APIのドキュメントを参照 [してください](../../api/using/triggering-a-signal-activity.md)。
 
 パラメーターを定義する前に、次のことを確認します。
 
@@ -223,7 +223,7 @@ For more on how to use the activity, refer to the [dedicated section](../../auto
 
 ### 手順1:API呼び出しの設定 {#step-1--configuring-the-api-call}
 
-API呼び出しを行い、パラメーターを使用してワークフロー1をトリガーします。 API呼び出しの構文について詳しくは、『キャンペーン標準REST API [ドキュメント』を参照してください](../../api/using/managing-workflows.md)。
+API呼び出しを行い、パラメーターを使用してワークフロー1をトリガーします。 API呼び出しの構文について詳しくは、『キャンペーン標準REST API [ドキュメント』を参照してください](../../api/using/triggering-a-signal-activity.md)。
 
 この例では、以下のパラメーターを使用してワークフローを呼び出します。
 
