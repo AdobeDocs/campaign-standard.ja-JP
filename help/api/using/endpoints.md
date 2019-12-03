@@ -12,7 +12,7 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 554bf4a441a0fb4daea3c5eddd95b0197ca12ae6
+source-git-commit: f251e4b5187aa09f65a5d8d6215f208a09cd9159
 
 ---
 
@@ -24,8 +24,8 @@ Adobe Campaign REST APIで使用可能なエンドポイントは次のとおり
 * **/profileAndServices**:既製のフィールドを操作します。 このエンドポイントでは、拡張フィールドにアクセスできません。
 * **/profileAndServicesExt**:プロファイルまたはサービスのカスタムリソース拡張中に追加されたカスタムフィールドを操作します。 For more on custom resources, refer to [this section](../../api/using/custom-resources.md).
 * **/&lt;transactionalAPI&gt;**:トランザクションメッセージAPIとやり取りします（トランザクションメッセージAPIエンドポイントの名前は、インスタンスの設定によって異なります）。 詳しくは、[この節](../../api/using/managing-transactional-messages.md)を参照してください。
-* **/workflow/execution**:ワークフローとのやり取り 詳しくは、[この節](../../api/using/managing-workflows.md)を参照してください。
-* **/privacy/privacyTool**:プライバシーAPIを操作して、プライバシーリクエストの自動処理を許可します。 詳しくは、[この節](../../api/using/privacy-management.md)を参照してください。
+* **/workflow/execution**:ワークフローとのやり取り 詳しくは、[この節](../../api/using/controlling-a-workflow.md)を参照してください。
+* **/privacy/privacyTool**:プライバシーAPIを操作して、プライバシーリクエストの自動処理を許可します。 詳しくは、[この節](../../api/using/creating-a-privacy-request.md)を参照してください。
 * **/history**:プロファイルのマーケティング履歴を取得します。 Campaignの統合顧客プロファイルについて詳しくは、Campaignのドキュメントを参照 [してください](https://helpx.adobe.com/campaign/standard/audiences/using/integrated-customer-profile.html)。
 
 デフォルトでは、profileAndServices APIとprofileAndServicesExt APIで使用できる主なリソ **ースは** 、次 **** のとおりです。
