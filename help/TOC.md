@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 5c4d3fc9853bf9bad4efcefaea242fecc9c4c61f
+source-git-commit: ff05128d664db7afba57b020f59b9a98fc656f56
 
 ---
 
@@ -359,13 +359,32 @@ source-git-commit: 5c4d3fc9853bf9bad4efcefaea242fecc9c4c61f
          + [カウント](api/using/counting.md)
          + [ページ編集](api/using/pagination.md)
       + [カスタムリソース](api/using/custom-resources.md)
-   + [プロファイルの管理](api/using/managing-profiles.md)
-   + [サービスと購読の管理](api/using/managing-services-and-subscriptions.md)
-   + [マーケティング履歴の操作](api/using/interacting-with-marketing-history.md)
-   + [プライバシーの管理](api/using/privacy-management.md)
-   + [トランザクションメッセージの管理](api/using/managing-transactional-messages.md)
-   + [ワークフローの管理](api/using/managing-workflows.md)
    + [カスタムリソースの操作](api/using/interacting-with-custom-resources.md)
-   + [組織単位の管理](api/using/managing-organizational-units.md)
-   + [地理的単位の管理](api/using/managing-geographical-units.md)
+   + プロファイルの管理{#managing-profiles}
+      + [プロファイルの取得](api/using/retrieving-profiles.md)
+      + [プロファイルの更新](api/using/updating-profiles.md)
+      + [プロファイルの作成](api/using/creating-profiles.md)
+   + サービスと購読の管理 {#managing-services-and-subscriptiopns}
+      + [サービスの作成](api/using/creating-a-service.md)
+      + [購読の取得](api/using/retrieving-subscriptions.md)
+      + [購読の実行](api/using/perform-subscriptions.md)
+      + [購読の削除](api/using/deleting-subscriptions.md)
+   + [マーケティング履歴の操作](api/using/interacting-with-marketing-history.md)
+   + プライバシーの管理 {#privacy-management}
+      + [プライバシーリクエストの作成](api/using/creating-a-privacy-request.md)
+      + [プライバシーリクエストの監視](api/using/monitoring-a-privacy-request.md)
+      + [プライバシーデータファイルの取得](api/using/retrieving-privacy-data-files.md)
+      + [CCPAオプトアウトの管理](api/using/managing-ccpa-opt-out.md)
+   + [トランザクションメッセージの管理](api/using/managing-transactional-messages.md)
+   + ワークフローの管理 {#managing-workflows}
+      + [ワークフローの制御](api/using/controlling-a-workflow.md)
+      + [シグナルアクティビティのトリガ](api/using/triggering-a-signal-activity.md)
+   + 組織単位の管理 {#managing-organizational-units}
+      + [プロファイルの組織単位の取得](api/using/retrieving-an-organizational-unit.md)
+      + [プロファイルの組織単位の更新](api/using/updating-profile-organizational-unit.md)
+      + [組織単位の属性の更新](api/using/updating-organizational-unit-attributes.md)
+   + 地理的単位の管理 {#managing-geographical-units}
+      + [プロファイルの地理的単位の取得](api/using/retrieving-a-geographical-unit.md)
+      + [プロファイルの地理単位の更新](api/using/updating-a-geographical-unit.md)
+      + [地理的単位属性の更新](api/using/updating-geographical-unit-attributes.md)
    + [トラブルシューティング](api/using/troubleshooting.md)
