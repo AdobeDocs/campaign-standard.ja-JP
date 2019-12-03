@@ -13,7 +13,7 @@ context-tags: signal,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ---
 
@@ -30,7 +30,7 @@ source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 アクティビティ **[!UICONTROL External signal]** は、同じ顧客の様々なワークフローへの遍歴の一部である様々なプロセスを編成し、調整するために使用されます。 これにより、別のワークフローから開始でき、より複雑な顧客ジャーニーをサポートしながら、問題が発生した場合の監視と対応を改善できます。
 
-アクテ **[!UICONTROL External signal]** ィビティは、ワークフローの最初のアクティビティとして配置されるように設計されています。 別のワークフローのアクティビティ **[!UICONTROL End]** またはREST API呼び出しからトリガーできます(詳しくは、 [APIのドキュメントを参照](../../api/using/managing-workflows.md))。
+アクテ **[!UICONTROL External signal]** ィビティは、ワークフローの最初のアクティビティとして配置されるように設計されています。 別のワークフローのアクティビティ **[!UICONTROL End]** またはREST API呼び出しからトリガーできます(詳しくは、 [APIのドキュメントを参照](../../api/using/triggering-a-signal-activity.md))。
 
 トリガーされると、外部パラメーターを定義し、ワークフローイベント変数で使用できるようになります。 外部パラメーターを使用してワークフローを呼び出すプロセスについては、この節 [で説明しま](../../automating/using/calling-a-workflow-with-external-parameters.md)す。
 
@@ -56,7 +56,7 @@ source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
    >[!NOTE]
    >
-   >別のワークフローから宛先ワークフローをトリガーする場合は、次の手順に従います。 REST API呼び出しから宛先ワークフローをトリガーする場合は、 [APIドキュメントを参照し](../../api/using/managing-workflows.md) 、詳細を確認してください。
+   >別のワークフローから宛先ワークフローをトリガーする場合は、次の手順に従います。 REST API呼び出しから宛先ワークフローをトリガーする場合は、 [APIドキュメントを参照し](../../api/using/triggering-a-signal-activity.md) 、詳細を確認してください。
 
 1. ソースワークフローを開き、アクティビティを選 **[!UICONTROL End]** 択します。 使用できるアクティビティが **[!UICONTROL End]** ない場合は、ワークフローの分岐の最後のアクティビティの後に1つ追加します。
 
