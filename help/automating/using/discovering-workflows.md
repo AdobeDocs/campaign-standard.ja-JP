@@ -12,7 +12,7 @@ discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: f251e4b5187aa09f65a5d8d6215f208a09cd9159
 
 ---
 
@@ -32,7 +32,7 @@ Adobe Campaignは、セグメント化、キャンペ [ーンの実行](../../au
 * Campaignデータベースへのデータのインポートを参照してください。 詳しくは、「データの読み込みと書き出し」 [を参照してください](../../automating/using/about-data-import-and-export.md)。
 * データベースのクリーンアップ、追跡情報の回復などの技術的なプロセス 技術ワークフローについて詳 [しくは](../../administration/using/technical-workflows.md)、
 
-ワークフローは、Adobe Campaign Standard APIからもアクセスできます。 For more on this, refer to the [dedicated documentation](../../api/using/managing-workflows.md).
+ワークフローは、Adobe Campaign Standard APIからもアクセスできます。 For more on this, refer to the [dedicated documentation](../../api/using/controlling-a-workflow.md).
 
 **関連トピック：**
 
