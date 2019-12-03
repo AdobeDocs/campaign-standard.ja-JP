@@ -13,7 +13,7 @@ context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ---
 
@@ -58,7 +58,7 @@ source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 REST APIを使用すると、ワークフローを開始 **、一時停止**、再開 **、停止**&#x200B;す **ることがで****** きます。
 
-REST呼び出しの詳細と例については、 [APIドキュメントを参照してください。](../../api/using/managing-workflows.md)
+REST呼び出しの詳細と例については、 [APIドキュメントを参照してください。](../../api/using/controlling-a-workflow.md)
 
 ## ライフサイクル {#life-cycle}
 
