@@ -13,7 +13,7 @@ context-tags: recipient,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ---
 
@@ -24,7 +24,7 @@ Adobe Campaignでは、連絡先をライフサイクル全体を通じて管理
 
 >[!NOTE]
 >
->プロファイルは、Adobe Campaign Standard APIを使用しても利用できます。 For more on this, refer to the [dedicated documentation](../../api/using/managing-profiles.md).
+>プロファイルは、Adobe Campaign Standard APIを使用しても利用できます。 For more on this, refer to the [dedicated documentation](../../api/using/retrieving-profiles.md).
 
 ![](assets/marketing_history.png)
 
