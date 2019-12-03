@@ -12,7 +12,7 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ab5725b326de2f1cb4c5d15d0d3c0303a6bf0f06
+source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ---
 
@@ -89,7 +89,7 @@ Adobe.ioが無効なURIを宣言します。要求しているURIが有効でな
 
 * **作成後にプロファイルが表示されない**
 
-インスタンスの設定に応じて、作成したプロファイルをorgUnitに関連付ける必要があ **ります**。 作成時にこのフィールドを追加する方法については、この節を参照 [してください](../../api/using/managing-profiles.md)。
+インスタンスの設定に応じて、作成したプロファイルをorgUnitに関連付ける必要があ **ります**。 作成時にこのフィールドを追加する方法については、この節を参照 [してください](../../api/using/creating-profiles.md)。
 
 <!-- * (error duplicate key : quand tu crées un profile qui existe déjà , il faut faire un patch pour updater le profile plutôt qu’un POST)
 
