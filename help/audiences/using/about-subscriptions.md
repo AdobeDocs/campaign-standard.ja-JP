@@ -12,7 +12,7 @@ discoiquuid: 27de5a13-7b7c-4c91-bf26-3dfd324beb8f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ---
 
@@ -29,4 +29,4 @@ Adobe Campaignでは、一連のサービスを使用して、ニュースレタ
 * 購読/非購読の確認 **メカニズム**。
 * 購読履 **歴**。
 
-購読は、Adobe Campaign Standard APIを使用して管理することもできます。 For more on this, refer to the [dedicated documentation](../../api/using/managing-services-and-subscriptions.md) .
+購読は、Adobe Campaign Standard APIを使用して管理することもできます。 For more on this, refer to the [dedicated documentation](../../api/using/creating-a-service.md) .
