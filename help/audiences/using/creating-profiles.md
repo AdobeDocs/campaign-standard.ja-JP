@@ -12,7 +12,7 @@ discoiquuid: 4ab8a984-f898-4fff-ad8c-ed8f95362f96
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 13430243e8f2840ca85e557798168f6380a7b0fa
+source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ---
 
@@ -57,7 +57,7 @@ Campaignでプロファイルを作成または更新するには、次の操作
 
 >[!NOTE]
 >
->また、Adobe Campaign Standard APIを使用してプロファイルを作成することもできます。 For more on this, refer to the [dedicated documentation](../../api/using/managing-profiles.md).
+>また、Adobe Campaign Standard APIを使用してプロファイルを作成することもできます。 For more on this, refer to the [dedicated documentation](../../api/using/creating-profiles.md).
 
 また、組織単位に応じてプロファイルをパーティションに分割することもできます。 プロファイルに組織フィールドを追加するには、 [Partitioning profilesの節を参照して](../../administration/using/organizational-units.md#partitioning-profiles) ください。
 
