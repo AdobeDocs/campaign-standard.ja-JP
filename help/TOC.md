@@ -20,7 +20,7 @@ source-git-commit: ff05128d664db7afba57b020f59b9a98fc656f56
    + [ドキュメントの更新](rn/using/documentation-updates.md)
 + はじめに{#getting-started}
    + Adobe Campaign について{#about-adobe-campaign}
-      + [Campaign オーケストレーション](start/using/campaign-orchestration.md)
+      + [キャンペーンオーケストレーション](start/using/campaign-orchestration.md)
       + [セグメント化とターゲティング](start/using/segmentation-and-targeting.md)
       + [動的でパーソナライズされたコンテンツ](start/using/dynamic-and-personalized-content.md)
       + [トラッキング、監視、およびレポート](start/using/tracking--monitoring-and-reporting.md)
