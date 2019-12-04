@@ -16,7 +16,7 @@ source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
 ## 新着情報
 
 * **[プライバシー管理](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>
-プライバシーコンプライアンスに役立つAdobe Campaignが提供するツールについて説明します。
+プライバシーコンプライアンスに役立つ Adobe Campaign が提供するツールについて説明します。
 
 * **[配信のベストプラクティス](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)**<br/>
 配信のデザインと送信に関するベストプラクティスの詳細を確認します。
@@ -40,12 +40,12 @@ source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
     <div>
     <a href="administration/using/about-access-management.md"><strong>役割とセキュリティグループ</strong></a>
     </div>
-    <em>権限を定義し、Campaignユーザーにロールを割り当てる方法について説明します。</em>
+    <em>権限を定義し、Campaign ユーザーにロールを割り当てる方法について説明します。</em>
     <br>
   </td>
   <td valign="top">
     <a href="designing/using/designing-content-in-adobe-campaign.md">
-      <img alt="Designer" src="start/using/assets/design.png" />
+      <img alt="デザイナー" src="start/using/assets/design.png" />
     </a>
     <div>
     <a href="designing/using/designing-content-in-adobe-campaign.md"><strong>電子メールのデザイン</strong></a>
@@ -80,4 +80,4 @@ source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
 
 * [テクニカルノート](https://helpx.adobe.com/campaign/kb/acs-article-list.html)
 
-* [Adobe Campaign Standard導入ガイド](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html)
+* [Adobe Campaign Standard 実装ガイド](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html)
