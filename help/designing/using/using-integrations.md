@@ -1,22 +1,25 @@
 ---
 title: 'Adobe Campaign統合を使用した電子メールのデザイン '
 description: 電子メールデザイナーでAdobe Campaign統合を使用して電子メールをデザインする方法を確認します。
-page-status-flag: 非活性化の
+page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 設計
-content-type: 参照
+audience: designing
+content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 021bea88b69a85b9a9535143ec8d689858af517b
 
 ---
 
+
 # マルチソリューション電子メールデザイン {#multi-solution-email-design}
+
+Adobe Campaignには、複数の電子メールオーサリングオプションが用意されています。 Dreamweaverなどのソリューションを使用して、電子メールコンテンツを編集し、電子メールデザイナーでレスポンシブメッセージを作成できます。 また、Adobe Experience Managerでコンテンツを電子メールで送信し、Adobe Campaign Standardの電子メールで使用することもできます。
 
 ## Dreamweaverでのコンテンツの編集 {#editing-content-in-dreamweaver}
 
@@ -38,7 +41,7 @@ Adobe Campaign StandardとDreamweaverの統合により、Dreamweaverインタ�
 
 ## Experience Managerでのコンテンツの編集 {#editing-content-in-experience-manager}
 
-電子メールコンテンツはExperience Managerで編集し、Adobe Campaign Standardで1つまたは複数の電子メールメッセージに使用できます。 [このドキュメント](../../integrating/using/integrating-with-experience-manager.md)を参照してください。
+電子メールコンテンツはExperience Managerで編集し、Adobe Campaign Standardで1つまたは複数の電子メールメッセージに使用できます。 本書を参 [照](../../integrating/using/integrating-with-experience-manager.md)。
 
 ## 電子メールデザインオプションの比較 {#email-design-options-comparison}
 
@@ -48,7 +51,7 @@ Adobe Campaignには、複数の電子メールオーサリングオプション
  <thead> 
   <tr> 
    <th> </th> 
-   <th> 電子メールデザイナー<br /> </th> 
+   <th> Email Designer<br /> </th> 
    <th> Experience Manager<br /> </th> 
    <th> Dreamweaver<br /> </th> 
   </tr> 
@@ -99,22 +102,30 @@ Adobe Campaignには、複数の電子メールオーサリングオプション
   <tr> 
    <td> <strong>メリット</strong><br /> </td> 
    <td> 
-      — ドラッグ&amp;ドロップ操作で簡単に電子メールを作成できる<br/>— レガシーコンテンツエディターと同様の機能<br/>— フラグメントを含む再利用可能なコンテンツ
+     <p> — ドラッグアンドドロップ操作で簡単に電子メールを作成</p>
+     <p> — レガシーコンテンツエディターと同様の機能</p>
+     <p> — フラグメントを含む再利用可能なコンテンツ</p>
   </td> 
    <td> 
-     - webサイトのアセットを電子メールで再利用<br/>- Experience Managerの機能を電子メールコンテンツで活用
+     <p> — 電子メール内のWebサイトのアセットの再利用</p>
+     <p>- Experience Managerの機能を電子メールコンテンツで活用</p>
     </td> 
    <td> 
-     — 開発者が電子メールを直接コーディングする機能<br/>— 双方向同期<br/>- Dreamweaverでのオフラインでの編集と後での同期<br/>- Dreamweaverを使用したイメージのAdobe Campaignへのアップロード
+    <p> — 開発者が電子メールを直接コーディングする機能</p>
+    <p> — 双方向同期</p>
+    <p>- Dreamweaverでオフラインで編集し、後で同期する</p>
+    <p>- Dreamweaverを使用したAdobe Campaignへの画像のアップロード</p>
   </td> 
   </tr> 
   <tr> 
    <td> <strong>制限事項</strong><br /> </td> 
    <td> 
-      — フラグメント内に条件付きコンテンツがない<br/>- Experience Managerフラグメントを使用できません
+     <p> — フラグメント内に条件付きコンテンツがない</p>
+     <p>- Experience Managerフラグメントを使用できない</p>
   </td> 
    <td> 
-      — 導入が困難な高度なパーソナライゼーション<br/>- Adobe Campaignでテストを送信する必要がある
+     <p> — 導入が困難な高度なパーソナライゼーション</p>
+     <p>- Adobe Campaignでテストを送信する必要がある</p>
   </td> 
    <td> 動的コンテンツはサポートされていません<br /> </td> 
   </tr> 
@@ -126,9 +137,9 @@ Adobe Campaignには、複数の電子メールオーサリングオプション
   </tr> 
   <tr> 
    <td> <strong>詳細情報</strong><br /> </td> 
-   <td> 電子メー <a href="../../designing/using/overview.md">ルデザイナーについてを参照してください</a><br /> </td> 
-   <td> See <a href="../../integrating/using/integrating-with-experience-manager.md">Integrating with Experience Manager</a><br /> </td> 
-   <td> Dreamweaverと <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Campaignを参照し</a> 、このビデオをご覧く <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html">ださい</a><br /> </td> 
+   <td> 電子メー <a href="../../designing/using/overview.md">ルデザイナーについてを参照してくださ</a>い。<br /> </td> 
+   <td> See <a href="../../integrating/using/integrating-with-experience-manager.md">Integrating with Experience Manager</a>.<br /> </td> 
+   <td> 詳しくは、 <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">DreamweaverとCampaignを参照し</a> 、このビデオをご覧 <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html">ください</a>。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
