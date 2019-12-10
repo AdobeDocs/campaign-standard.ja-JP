@@ -1,27 +1,25 @@
 ---
 title: スタイルの管理
 description: 電子メールデザイナーでの電子メールスタイルの管理方法を確認します。
-page-status-flag: 非活性化の
+page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 設計
-content-type: 参照
+audience: designing
+content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 17264484102878d4eb58c0fe9d82d7d4f091179b
 
 ---
 
 
 # スタイルの管理 {#managing-styles}
 
-## 電子メールスタイルの編集{#editing-email-styles}
-
-### 要素の編集 {#editing-an-element}
+## 要素の編集 {#editing-an-element}
 
 電子メールデザイナーでは、要素を選択する際に、選択したコンテンツの種類に固有のオプションがペインに表示さ **[!UICONTROL Settings]** れます。 これらのオプションを使用すると、電子メールのスタイルを簡単に変更できます。
 
@@ -49,7 +47,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 この節の例を参 [照します](#example--adjusting-vertical-alignment-and-padding)。
 
-### スタイル設定の調整 {#adjusting-style-settings}
+## スタイル設定の調整 {#adjusting-style-settings}
 
 1. 電子メール内の要素を選択します。 詳しくは、要素の選択を参 [照してください](#selecting-an-element)。
 1. 必要に応じて設定を調整します。 選択した各要素には、異なる設定のセットがあります。
@@ -62,7 +60,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 1. コンテンツを保存します。
 
-### パディングとマージンについて {#about-padding-and-margin}
+## パディングとマージンについて {#about-padding-and-margin}
 
 電子メールデザイナーインターフェイスを使用すると、パディングとマージンの設定をすばやく調整できます。
 
@@ -70,7 +68,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ![](assets/des_padding.png)
 
-次に例を示します。
+例：
 
 * パディングを使用して、画像の左右の余白を設定します。
 * 上下のパディングを使用して、またはコンポーネントにさらに間隔 **[!UICONTROL Text]** を追加 **[!UICONTROL Divider]** します。
@@ -88,7 +86,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ![](assets/des_padding_lock_icon.png)
 
-### 整列について {#about-alignment}
+## スタイルの調整 {#about-alignment}
 
 * **テキスト揃え**:マウスのカーソルをテキスト上に置き、コンテキストツールバーを使用して整列します。
 
@@ -102,7 +100,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    ![](assets/des_set_vertical_alignment.png)
 
-### 背景について {#about-backgrounds}
+## 背景の設定 {#about-backgrounds}
 
 電子メールデザイナーで背景を設定する場合は、次の設定をお勧めします。
 
@@ -144,9 +142,9 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    また、列レベルで背景画像を設定することもできますが、ほとんど使用されません。
 
-#### 例：垂直方向の配置とパディングの調整 {#example--adjusting-vertical-alignment-and-padding}
+### 例：垂直方向の配置とパディングの調整 {#example--adjusting-vertical-alignment-and-padding}
 
-3つの列で構成される構造コンポーネント内で、パディングと垂直方向の配置を調整する場合。 これをおこなうには、以下の手順に従います。
+3つの列で構成される構造コンポーネント内で、パディングと垂直方向の配置を調整する場合。 これを行うには、次の手順に従います。
 
 1. 電子メール内で直接構造コンポーネントを選択するか、左のパレットで使用可能な構造ツリーを使用 **します**。
 1. コンテキ **ストツールバー**&#x200B;で **[!UICONTROL Select a column]** 、をクリックし、編集するツールを選択します。 構造ツリーから選択することもできます。
@@ -173,7 +171,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 1. 変更を保存します。
 
-### リンクのスタイル設定について {#about-styling-links}
+## リンクのスタイル設定 {#about-styling-links}
 
 >[!NOTE]
 >
@@ -201,7 +199,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 1. 変更を保存します。
 
-### インラインスタイル属性の追加 {#adding-inline-styling-attributes}
+## インラインスタイル属性の追加 {#adding-inline-styling-attributes}
 
 電子メールデザイナーインターフェイスで、要素を選択し、サイドパネルにその設定を表示する場合、特定の要素のインライン属性とその値をカスタマイズできます。
 
@@ -218,7 +216,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 モバイルディスプレイ用のすべてのスタイルオプションを個別に編集することで、電子メールのレスポンシブデザインを微調整できます。 例えば、余白とパディングを調整したり、小さいフォントサイズまたは大きいフォントサイズを使用したり、ボタンを変更したり、電子メールのモバイルバージョンに固有の異なる背景色を適用したりできます。
 
-モバイルビューでは、すべてのスタイルオプションを使用できます。 電子メールデザイナーのスタイル設定は、「電子メールスタイルの編 [集」セクションに表示され](#editing-email-styles) ます。
+モバイルビューでは、すべてのスタイルオプションを使用できます。 電子メールデザイナーのスタイル設定は、このページで事前に表示されています。
 
 1. 電子メールを作成し、コンテンツの編集を開始します。 詳しくは、「新規での電子メール [コンテンツのデザイン」を参照してください](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)。
 1. 専用のモバイルビューにアクセスするには、ボタンを選択 **[!UICONTROL Switch to mobile view]** します。
