@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: ff05128d664db7afba57b020f59b9a98fc656f56
+source-git-commit: 38fa758c32d1c38bd4200a720fea7f3ab2f444f3
 
 ---
 
@@ -117,15 +117,15 @@ source-git-commit: ff05128d664db7afba57b020f59b9a98fc656f56
       + [ダブルオプトインプロセスの設定](channels/using/setting-up-a-double-opt-in-process.md)
 + 電子メールコンテンツのデザイン{#designing-content}
    + [Campaign 電子メールデザイナー](designing/using/designing-content-in-adobe-campaign.md)
-   + [クイックスタート](designing/using/quick-start.md)
-   + [使用状況と推奨事項](designing/using/overview.md)
+   + [電子メールデザイナーの概要](designing/using/quick-start.md)
    + [件名行と送信者の定義](designing/using/subject-line.md)
-   + [新規での電子メールのデザイン](designing/using/designing-from-scratch.md)
-   + [既存のコンテンツを使用した電子メールのデザイン](designing/using/using-existing-content.md)
-   + [再利用可能なコンテンツを使用した電子メールのデザイン](designing/using/using-reusable-content.md)
-   + [マルチソリューション電子メールデザイン](designing/using/using-integrations.md)
-   + [パーソナライゼーション](designing/using/personalization.md)
-   + [プレーンテキストと HTML モード](designing/using/plain-text-html-modes.md)
+   + 電子メールコンテンツのデザイン{#designing-email-content}
+      + [新規での電子メールのデザイン](designing/using/designing-from-scratch.md)
+      + [既存のコンテンツを使用した電子メールのデザイン](designing/using/using-existing-content.md)
+      + [再利用可能なコンテンツを使用した電子メールのデザイン](designing/using/using-reusable-content.md)
+      + [複数ソリューション統合を使用した電子メールのデザイン](designing/using/using-integrations.md)
+      + [テキスト、HTML、モバイル電子メールの編集](designing/using/plain-text-html-modes.md)
+   + [電子メールコンテンツのパーソナライズ](designing/using/personalization.md)
    + [電子メールスタイルの管理](designing/using/styles.md)
    + [リンクの管理](designing/using/links.md)
    + [画像の管理](designing/using/images.md)
@@ -150,6 +150,15 @@ source-git-commit: ff05128d664db7afba57b020f59b9a98fc656f56
       + [エラー発生時のアラートの受信](sending/using/receiving-alerts-when-failures-happen.md)
       + [配信エラーの理解](sending/using/understanding-delivery-failures.md)
       + [強制隔離管理の理解](sending/using/understanding-quarantine-management.md)
+   + 配信品質の管理 {#managing-deliverability}
+      + [配信品質について](sending/using/about-deliverability.md)
+      + [新しいプラットフォームの起動](sending/using/starting-new-platform.md)
+      + [電子メールコンテンツの制御](sending/using/control-email-content.md)
+      + [評判の向上](sending/using/improving-reputation.md)
+      + [ホワイトリスト](sending/using/whitelists.md)
+      + [技術的な推奨事項](sending/using/technical-recommendations.md)
+      + [配信品質の監視](sending/using/monitor-deliverability.md)
+      + [トラブルシューティング](sending/using/troubleshooting.md)
 + レポート{#reporting}
    + レポートについて{#about-reporting}
       + [動的レポートについて](reporting/using/about-dynamic-reports.md)
