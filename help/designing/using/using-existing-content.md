@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
+source-git-commit: 9e17218048daa091538a09dea6e2eabca0814a5f
 
 ---
 
@@ -62,7 +62,7 @@ HTMLの全部または一部にこのタグが付いていない場合、コン�
 
 既存の外部コンテンツを電子メールデザイナー内で完全に編集できるようにするには、「既存のコンテンツを使用し [た電子メールのデザイン](../../designing/using/using-existing-content.md) 」を参照してください。
 
-## 読み込み {#importing}
+## 既存の電子メールコンテンツの読み込み {#importing}
 
 ### ファイルからのコンテンツの読み込み {#importing-content-from-a-file}
 
@@ -126,7 +126,7 @@ URLから既存のコンテンツを取得するには、次の手順に従い�
 
 1. 取得したURLコンテンツをプレビューするには、メッセージの作成後にメッセージを開き、ボタンをクリック **[!UICONTROL Preview]** します。
 
-コンテンツの取得元のリモートURLをパーソナライズすることができます。 これをおこなうには、以下の手順に従います。
+コンテンツの取得元のリモートURLをパーソナライズすることができます。 これを行うには、次の手順に従います。
 
 1. 画面の上部にある電子メールラベルをクリックして、「電子メールデザイナー」タブにアクセ **[!UICONTROL Properties]** スします。
 1. フィールドを探 **[!UICONTROL Remote URL]** します。
@@ -182,7 +182,7 @@ URLから既存のコンテンツを取得するには、次の手順に従い�
 
 電子メールデザイナーの外部で、元のHTMLが再利用可能なセクションに分割されていることを確認します。
 
-そうでない場合は、HTMLの異なるブロックを切り取ってください。 次に例を示します。
+そうでない場合は、HTMLの異なるブロックを切り取ってください。 例：
 
 ```
 <!-- 3 COLUMN w/CTA (SCALED) -->
@@ -207,15 +207,15 @@ URLから既存のコンテンツを取得するには、次の手順に従い�
 すべてのブロックを特定したら、電子メールデザイナで、既存の電子メールの各セクションに対して次の手順を繰り返します。
 
 1. 電子メールデザイナーを開いて、空の電子メールコンテンツを作成します。
-1. ボディレベルの属性を設定します。背景色、幅など For more on this, see [Editing email styles](../../designing/using/styles.md).
+1. ボディレベルの属性を設定します。背景色、幅など 詳しくは、「電子メールスタイルの編 [集」を参照してください](../../designing/using/styles.md)。
 1. 構造コンポーネントを追加します。 詳しくは、「電子メール構造の [編集」を参照してください](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
 1. HTMLコンポーネントを追加します。 詳しくは、フラグメントとコンポーネ [ントの追加を参照してください](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
 1. HTMLをそのコンポーネントにコピー&amp;ペーストします。
-1. モバイルビューに切り替えます。 For more on this, see [this section](../../designing/using/styles.md#switching-to-mobile-view).
+1. モバイルビューに切り替えます。 For more on this, see [this section](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view).
 
    CSSが見つからないので、レスポンシブビューが壊れています。
 
-1. これを修正するには、ソースコードモードに切り替えて、スタイルセクションを新しいスタイルセクションにコピー&amp;ペーストします。 次に例を示します。
+1. これを修正するには、ソースコードモードに切り替えて、スタイルセクションを新しいスタイルセクションにコピー&amp;ペーストします。 例：
 
    ```
    <style type="text/css">
@@ -228,6 +228,15 @@ URLから既存のコンテンツを取得するには、次の手順に従い�
 
    >[!NOTE]
    >
-   >電子メールデザイナーが生成したCSSは変更しないでください。 `<style acrite-template-css="true">` と `<style acrite-custom-styles="" type="text/css">`。 この後にスタイルを追加してください。
+   >この後に、別のカスタムスタイルタグでスタイルを追加してください。
+   >
+   >電子メールデザイナーが生成したCSSは変更しないでください。
+   >
+   >* `<style data-name="default" type="text/css">(##)</style>`
+   >* `<style data-name="supportIOS10" type="text/css">(##)</style>`
+   >* `<style data-name="mediaIOS8" type="text/css">(##)</style>`
+   >* `<style data-name="media-default-max-width-500px" type="text/css">(##)</style>`
+   >* `<style data-name="media-default--webkit-min-device-pixel-ratio-0" type="text/css">(##)</style>`
+
 
 1. モバイルビューに戻って、コンテンツが正しく表示されていることを確認し、変更を保存します。
