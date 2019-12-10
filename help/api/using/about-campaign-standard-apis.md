@@ -1,5 +1,5 @@
 ---
-title: キャンペーン標準APIについて
+title: Campaign Standard API について
 description: キャンペーン標準APIについて詳しく説明します。
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
@@ -12,12 +12,12 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 554bf4a441a0fb4daea3c5eddd95b0197ca12ae6
+source-git-commit: 4f7217a114454781b9e7cca261fd2d47717f3636
 
 ---
 
 
-# キャンペーン標準APIについて {#about-campaign-standard-apis}
+# Campaign Standard API について{#about-campaign-standard-apis}
 
 Campaign Standard APIは、Adobe Campaign Standardの統合を作成し、使用するテクノロジーのパネルとAdobe Campaign Standard ******** を連携させて独自のエコシステムを構築することを目的としています。
 
@@ -27,6 +27,10 @@ Adobe Campaign Standard APIを使用すると、次の機能にアクセスで�
 * サービスの購読を管理
 * トランザクションメッセージの送信
 * カスタマイズしたデータモデルからのデータの取得
+
+>[!NOTE]
+>
+>API呼び出しを実行する前に、使用許諾契約に対応するスケール制限を確認してください。 詳しくは、[このページ](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers)を参照してください。
 
 Campaign Standard APIを使用するには、Adobe I/Oアカウントが必要です。 これは、今後API機能を見つけるための必須の最初の手順です。
 詳しくは、[この節](../../api/using/setting-up-api-access.md)を参照してください。
