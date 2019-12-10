@@ -1,18 +1,18 @@
 ---
 title: '再利用可能なコンテンツの作成と使用 '
 description: 電子メールデザイナーを使用して、再利用可能な電子メールコンテンツの作成を開始します。
-page-status-flag: 非活性化の
+page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 設計
-content-type: 参照
+audience: designing
+content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: d0d5b19ad272c406f1081ed364193c7fb793de07
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 電子メールコンテンツの編集をマスターする方法について説明します。 電子メールデザイナーを使用すると、独自の定義済みコンテンツを使用してテンプレートとフラグメントを作成し、後で配信する際に再利用できます。
 
-## テンプレートを使用したデザイン {#designing-templates}
+## テンプレートを使用した電子メールのデザイン {#designing-templates}
 
 >[!NOTE]
 >
@@ -97,7 +97,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    ![](assets/des_loading_compatible_fragment_5.png)
 
-   HTMLコードに詳しい場合は、元の電子メールのより複雑な要素をコ **[!UICONTROL Html]** ピー&amp;ペーストできるコンポーネントの活用をお勧めします。 その他のコンポーネント(、な **[!UICONTROL Button]**&#x200B;ど) **[!UICONTROL Image]** を残 **[!UICONTROL Text]** りのコンテンツに使用します。 For more on this, see [About content components](../../designing/using/designing-from-scratch.md#about-content-components).
+   HTMLコードに詳しい場合は、元の電子メールのより複雑な要素をコ **[!UICONTROL Html]** ピー&amp;ペーストできるコンポーネントの活用をお勧めします。 その他のコンポーネント(、な **[!UICONTROL Button]**&#x200B;ど) **[!UICONTROL Image]** を残 **[!UICONTROL Text]** りのコンテンツに使用します。 詳しくは、コンテンツコンポーネントにつ [いてを参照してくださ](../../designing/using/designing-from-scratch.md#about-content-components)い。
 
    >[!NOTE]
    >
@@ -174,7 +174,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 >[!NOTE]
 >
->フラグメントが変更されると、その変更が使用されている電子メールに自動的に反映されます。 For more on this, see [About fragments](#about-fragments).
+>フラグメントが変更されると、その変更が使用されている電子メールに自動的に反映されます。 詳しくは、フラグメントについてを参照 [してください](#about-fragments)。
 
 ### コンテンツフラグメントの作成 {#creating-a-content-fragment}
 
@@ -203,7 +203,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
    >
    >空の構造コンポーネントを含むフラグメントコンテンツとして保存しないでください。 &gt;フラグメントを挿入すると、編集できなくなります。
    >
-   >モバイル [ビューは](../../designing/using/styles.md#switching-to-mobile-view) 、フラグメントでは使用できません。
+   >モバイル [ビューは](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view) 、フラグメントでは使用できません。
 
 1. 編集が完了したら、フラグメントを保存します。
 
@@ -249,7 +249,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 ![](assets/email_designer_save-as-fragment_in-new-email.png)
 
 >[!NOTE]
->モバイル [ビューは](../../designing/using/styles.md#switching-to-mobile-view) 、フラグメントでは使用できません。 電子メールモバイルビューを編集する場合は、コンテンツをフラグメントとして保存する前に行います。
+>モバイル [ビューは](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view) 、フラグメントでは使用できません。 電子メールモバイルビューを編集する場合は、コンテンツをフラグメントとして保存する前に行います。
 
 <!--You need to copy-paste the HTML corresponding to the section that you want to save into a new fragment.
 
@@ -271,7 +271,7 @@ To save as a fragment some email content that you created, follow the steps belo
 
 電子メールデザイナーを使用して、再利用可能な各セクションにフラグメントを作成します。 この例では、2つのフラグメントを作成します。1つはヘッダー用、もう1つはフッター用です。 その後、既存のコンテンツから関連部品をこれらのフラグメントにコピーできます。
 
-これをおこなうには、以下の手順に従います。
+これを行うには、次の手順に従います。
 
 1. Adobe Campaignで、/に移動し、ヘッ **[!UICONTROL Resources]** ダーのフ **[!UICONTROL Content templates & fragments]** ラグメントを作成します。 詳しくは、「コンテンツフラグメントの [作成」を参照してください](#creating-a-content-fragment)。
 1. フラグメントに必要な数だけ構造コンポーネントを追加します。
