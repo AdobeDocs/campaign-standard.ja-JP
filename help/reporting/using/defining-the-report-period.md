@@ -1,18 +1,18 @@
 ---
 title: レポート期間の定義
 description: レポートの期間を使用すると、選択した日付に応じてデータをフィルタリングできます。
-page-status-flag: 非活性化の
+page-status-flag: never-activated
 uuid: 8dfd1ae6-a5a0-4900-bd6f-7815749d0b60
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: レポート
-content-type: 参照
-topic-tags: レポートのリスト
+audience: reporting
+content-type: reference
+topic-tags: list-of-reports
 discoiquuid: 8ff74630-860c-4f1c-9aa7-21c3326e47da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 44049443f8028ed26089ee0d49944ebac6a62111
 
 ---
 
@@ -28,4 +28,3 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 フィルターが適用または変更されると、レポートが自動的に更新されます。 選択したレポート期間は、その間に作成された配信のデータセット全体ではなく、その期間に発生したイベントを制御します。例えば、配信が1月5日から1月2日までに実行された場合、部分的なデータが表示されます。 これは、配信の送信後1か月でも開く、またはクリックが発生する可能性があるので、開く/クリックのカウントに影響を与える可能性があります。
 
 ![](assets/campaign_reports_5.png)
-
