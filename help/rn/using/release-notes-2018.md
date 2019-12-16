@@ -12,7 +12,7 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -133,7 +133,7 @@ Adobe Campaign Standardの最新のドキ [ュメントの更新](../../rn/using
 ### その他の変更 {#other-changes-1}
 
 * レポート共有のタイムアウトが1分から4分に増加し、タイムアウトエラーが発生しないようになりました。
-* 電子メールのコンテンツを編集する場合、新しいクリエイティブデザイナーがデフォルトで開きます。 必要に応じて、変更を保存した後でもデフォルトのコンテンツエディターに戻ることができます。 For more on this, refer to the [detailed documentation](../../designing/using/overview.md).
+* 電子メールのコンテンツを編集する場合、新しいクリエイティブデザイナーがデフォルトで開きます。 必要に応じて、変更を保存した後でもデフォルトのコンテンツエディターに戻ることができます。 For more on this, refer to the [detailed documentation](../../designing/using/designing-content-in-adobe-campaign.md).
 * Creative Designerで、電子メールに新しいコンテンツコンポーネントを追加できるようになりました。カルーセル。 For more on this, refer to the [detailed documentation](../../designing/using/designing-from-scratch.md#about-content-components).
 * トランザクションメッセージのホットクリックレポートで、「 **Change profile** 」ボタンをクリックすると、トランザクションメッセージ用に定義したイベントにリンクされたテストプロファイルのみが表示されます。
 
@@ -317,7 +317,7 @@ Adobe Campaign Standardの最新のドキ [ュメントの更新](../../rn/using
      <li> 電子メールコンテンツテンプレートを作成して保存し、保存したテンプレートを活用して電子メールの作成を拡大・縮小します。 </li> 
      <li> コンテンツフラグメント（ヘッダー、フッター、記事など）を作成して保存します。コンテンツの作成を合理化し、ブランドの一貫性を確保する </li> 
      <li> ドラッグ&amp;ドロップインターフェイスでの作成と、ボタンのクリックで電子メールのHTMLを直接編集とをシームレスに切り替える </li> 
-    </ul> 電子メール用Creative Designerは英語でのみ利用できます。<br /> 詳しくは、詳細なドキュメントを参照し <a href="../../designing/using/overview.md">て、この</a> ビデオをご覧く <a href="https://www.youtube.com/watch?time_continue=1&amp;v=5S_6A4fsfms">ださい</a>。<br /> </td> 
+    </ul> 電子メール用Creative Designerは英語でのみ利用できます。<br /> 詳しくは、詳細なドキュメントを参照し <a href="../../designing/using/designing-content-in-adobe-campaign.md">て、この</a> ビデオをご覧く <a href="https://www.youtube.com/watch?time_continue=1&amp;v=5S_6A4fsfms">ださい</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 多言語プッシュ配信<br /> </td> 
