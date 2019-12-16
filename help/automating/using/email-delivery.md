@@ -1,19 +1,19 @@
 ---
 title: E メール配信
 description: 電子メール配信アクティビティでは、ワークフローで単一の送信電子メールまたは定期的な電子メールを送信するように設定できます。
-page-status-flag: 非活性化の
+page-status-flag: never-activated
 uuid: 7de53431-84ae-4d21-8361-2775ad314ed2
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 自動化
-content-type: 参照
-topic-tags: チャネル活動
+audience: automating
+content-type: reference
+topic-tags: channel-activities
 discoiquuid: 5f288cf6-f8ff-4ac9-9c1a-8010260554bb
-context-tags: 配信，ワークフロー，メイン
+context-tags: delivery,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -60,7 +60,7 @@ The **[!UICONTROL Email delivery]** activity is generally used to automate sendi
 
 1. 電子メールの種類を選択します。 電子メールのタイプは、//メニューで定義された電子メールテ **[!UICONTROL Resources]** ンプレート **[!UICONTROL Templates]** に基づ **[!UICONTROL Delivery templates]** きます。
 1. 電子メールの一般的なプロパティを入力します。 また、既存のキャンペーンに添付することもできます。 ワークフローの配信アクティビティのラベルが電子メールラベルで更新されます。
-1. 電子メールの内容を定義します。 コンテンツ編集に関する項 [を参照](../../designing/using/overview.md)。
+1. 電子メールの内容を定義します。 コンテンツ編集に関する項 [を参照](../../designing/using/designing-content-in-adobe-campaign.md)。
 1. デフォルトでは、アクティビティ **[!UICONTROL Email delivery]** にはアウトバウンド遷移は含まれません。 アクティビティにアウトバウンド遷移を追加する場合は、アクティビティのアドバンスアクティビティオプション **[!UICONTROL Email delivery]** （アクティビティのクイックアクションのボタン）のタブに移動し、次のいず **[!UICONTROL General]**![](assets/dlv_activity_params-24px.png) れかのオプションをオンにします。
 
    * **[!UICONTROL Add outbound transition without the population]**:これにより、インバウンドトランジションと完全に同じ母集団を含むアウトバウンドトランジションを生成できます。
