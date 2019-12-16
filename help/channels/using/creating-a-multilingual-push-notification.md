@@ -1,18 +1,18 @@
 ---
 title: 多言語プッシュ通知の作成
 description: 多言語のプッシュ通知を作成して、ユーザーの好みの言語と地域をターゲットにします。
-page-status-flag: 非活性化の
+page-status-flag: never-activated
 uuid: d4aff741-e969-47c6-bae8-787c6c673191
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: チャネル
-content-type: 参照
-topic-tags: プッシュ通知
+audience: channels
+content-type: reference
+topic-tags: push-notifications
 discoiquuid: f9bb2235-d388-4025-9ace-734beb0c1961
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ユーザーの好みの言語と地域に基づいてメッセージを送信し、プッシュ通知コンテンツをパーソナライズします。 多言語のプッシュ通知コンテンツバリアントをコンテンツエディターに直接読み込み、多言語のプッシュ通知を1回の配信で送信できます。
 
-この機能は、プッシュ通知に使用される配信テンプレートに応じて、受信者のプロファイルで指定された優先言語またはモバイルアプリサブスクリプションのシステム言語設定を利用します。 特定のユーザーに対して言語設定が設定されていない場合、システムは、多言語プッシュ通知の作成時に定義されたデフォルトのバリアントを使用します。 プロファイルとサブスクリプションの管理方法について詳しくは、このガイドを参照して [ください](../../audiences/using/about-profiles-and-audiences.md)。
+この機能は、プッシュ通知に使用される配信テンプレートに応じて、受信者のプロファイルで指定された優先言語またはモバイルアプリ購読者のシステム言語設定を利用します。 特定のユーザーに対して言語設定が設定されていない場合、システムは、多言語プッシュ通知の作成時に定義されたデフォルトのバリアントを使用します。 プロファイルとサブスクリプションの管理方法について詳しくは、このガイドを参照して [ください](../../audiences/using/about-profiles-and-audiences.md)。
 
 ![](assets/multivariant_push_1.png)
 
@@ -61,7 +61,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 1. ウィンドウで、 **[!UICONTROL Manage Content Variants]** ファイルをドラッグ&amp;ドロップするか、コンピューターからファイルを選択します。
 
-   ファイルはUTF8でエンコードされ、オプションをクリックすると見つかる特定のレイアウトを持つ必要があ **[!UICONTROL Download the sample file]** ります。 また、ロケールの値に対して正しい構文を使用する必要があります。 ファイル形式とサポートされているロケールについて詳しくは、このテクニカルノートを参照して [くださ](http://helpx.adobe.com/campaign/kb/acs-generate-csv-multilingual-push.html)い。
+   ファイルはUTF8でエンコードされ、オプションをクリックすると見つかる特定のレイアウトを持つ必要があ **[!UICONTROL Download the sample file]** ります。 また、ロケールの値に対して正しい構文を使用する必要があります。 ファイル形式とサポートされているロケールについて詳しくは、このテクニカルノートを参照して [くださ](https://helpx.adobe.com/campaign/kb/acs-generate-csv-multilingual-push.html)い。
 
    ![](assets/multivariant_push_4.png)
 
