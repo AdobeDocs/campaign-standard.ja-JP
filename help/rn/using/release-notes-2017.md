@@ -1,18 +1,18 @@
 ---
 title: リリースノート 2017
 description: このページには、Adobe Campaign Standardの2017年リリースがすべて一覧表示されます。
-page-status-flag: 非活性化の
+page-status-flag: never-activated
 uuid: d73f8186-e309-441b-969d-71d0a1c33cf4
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: rn
-content-type: 参照
+content-type: reference
 topic-tags: campaign-standard-releases
 discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 ---
 
@@ -99,7 +99,7 @@ Adobe Campaign Standardの最新のドキ [ュメントの更新](../../rn/using
 
 * Triggers用に作成された一部のデータソースが正しく表示され、選択されない可能性がある問題を修正しました。
 
-#### Custom resources {#custom-resources}
+#### カスタムリソース {#custom-resources}
 
 * リスト画面で、カスタムリソース行がデータなしで表示される問題を修正しました。
 * Boolean型のフィールドで「False」の値を持つフィールドがカスタムリソースに表示されない問題を修正しました。
