@@ -1,23 +1,23 @@
 ---
 title: 'コンポーネントのリスト '
 description: 動的レポートで使用できるすべてのコンポーネントとその定義を以下に示します。
-page-status-flag: 非活性化の
+page-status-flag: never-activated
 uuid: a2403806-8df4-4bb1-bac2-2689dc584ae0
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: レポート
-content-type: 参照
-topic-tags: 報告に関する
+audience: reporting
+content-type: reference
+topic-tags: about-reporting
 discoiquuid: 17cf126a-7ce1-4e11-bb5e-2bdce01cfded
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e7281dff9be97ededaa724552e64bffda3f26fa2
+source-git-commit: f78e101b8abea3640ad93db6ff53243a42e07086
 
 ---
 
 
-# コンポーネントのリスト{#list-of-components}
+# コンポーネントのリスト {#list-of-components}
 
 ディメンションと指標の互換性の詳細については、次の表を参照してく [ださい](/help/reporting/using/assets/dynamic_report_compatibility.pdf)。 2つのコンポーネントが互換性がない場合、セルに「なし」の値が表示さ **れます**。
 
@@ -459,7 +459,7 @@ source-git-commit: e7281dff9be97ededaa724552e64bffda3f26fa2
   </tr> 
     <tr> 
    <td> 校正の除外<br /> </td> 
-   <td> レポートから校正を除外する（Campaign 19.4リリース以降のみ）<br /> </td> 
+   <td> レポートからの校正の除外<br /> </td> 
   </tr> 
  </tbody> 
 </table>
