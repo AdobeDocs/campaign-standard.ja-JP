@@ -1,18 +1,18 @@
 ---
 title: ワークフローセグメントに基づくレポートの作成
 description: レポート内のワークフローのセグメントに応じて配信の成功を確認する方法について説明します。
-page-status-flag: 非活性化の
+page-status-flag: never-activated
 uuid: f75e005b-5328-4c98-9e78-51d54fd0e246
-contentOwner: 楽しい
+contentOwner: beneat
 products: SG_CAMPAIGN/STANDARD
-audience: レポート
-content-type: 参照
-topic-tags: レポートのカスタマイズ
+audience: reporting
+content-type: reference
+topic-tags: customizing-reports
 discoiquuid: b6d3de63-3add-4881-8917-04a6f8b6be4d
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -92,7 +92,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    ![](assets/report_segment_3.png)
 
-1. 様々なターゲット訪問者に応じて配信をパーソナライズします。 For more on email creation, refer to this [page](../../designing/using/overview.md).
+1. 様々なターゲット訪問者に応じて配信をパーソナライズします。 For more on email creation, refer to this [page](../../designing/using/designing-content-in-adobe-campaign.md).
 
 1. ワークフローを保存します。
 
