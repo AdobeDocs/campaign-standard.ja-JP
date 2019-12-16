@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 17264484102878d4eb58c0fe9d82d7d4f091179b
+source-git-commit: 59007b6379bc3c0656cc0a3e5d11e15ce15f805a
 
 ---
 
@@ -68,7 +68,7 @@ source-git-commit: 17264484102878d4eb58c0fe9d82d7d4f091179b
 
 ![](assets/des_padding.png)
 
-例：
+次に例を示します。
 
 * パディングを使用して、画像の左右の余白を設定します。
 * 上下のパディングを使用して、またはコンポーネントにさらに間隔 **[!UICONTROL Text]** を追加 **[!UICONTROL Divider]** します。
@@ -144,7 +144,7 @@ source-git-commit: 17264484102878d4eb58c0fe9d82d7d4f091179b
 
 ### 例：垂直方向の配置とパディングの調整 {#example--adjusting-vertical-alignment-and-padding}
 
-3つの列で構成される構造コンポーネント内で、パディングと垂直方向の配置を調整する場合。 これを行うには、次の手順に従います。
+3つの列で構成される構造コンポーネント内で、パディングと垂直方向の配置を調整する場合。 これをおこなうには、以下の手順に従います。
 
 1. 電子メール内で直接構造コンポーネントを選択するか、左のパレットで使用可能な構造ツリーを使用 **します**。
 1. コンテキ **ストツールバー**&#x200B;で **[!UICONTROL Select a column]** 、をクリックし、編集するツールを選択します。 構造ツリーから選択することもできます。
@@ -172,10 +172,6 @@ source-git-commit: 17264484102878d4eb58c0fe9d82d7d4f091179b
 1. 変更を保存します。
 
 ## リンクのスタイル設定 {#about-styling-links}
-
->[!NOTE]
->
->この機能は、Campaign Standard 19.4リリースから利用可能になります。
 
 電子メールデザイナーで、リンクに下線を引き、その色とターゲットを選択できます。
 
