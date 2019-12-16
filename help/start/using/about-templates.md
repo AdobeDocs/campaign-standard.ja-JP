@@ -1,18 +1,18 @@
 ---
 title: テンプレートについて
 description: 「Adobe Campaignテンプレートを使用すると、必要に応じて次のパラメーターを事前設定できます。テンプレートには、マーケティング活動の完全な設定または一部の設定を含めることができ、技術的でないエンドユーザー向けのAdobe Campaignの使用を簡素化できます。」
-page-status-flag: 非活性化の
+page-status-flag: never-activated
 uuid: 018534b6-61a3-433e-bb60-49883c8b9386
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 開始
-content-type: 参照
-topic-tags: 管理テンプレート
-discoiquuid: 95218ebe-5430-42a2-b900-1dadbc92d99
+audience: start
+content-type: reference
+topic-tags: managing-templates
+discoiquuid: 95218ebe-5430-42a2-b900-1dadbbc92d99
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -64,16 +64,16 @@ HTMLコンテンツテンプレートは、詳細メニューの/ **[!UICONTROL 
 
 ### 標準搭載の電子メールコンテンツテンプレート {#email-content-templates}
 
-電子メールデザイナーのホームページのタブで提供さ **[!UICONTROL Templates]** れるHTMLコンテ [ンツを管理できます](../../designing/using/overview.md) 。
+電子メールデザイナーのホームページのタブで提供さ **[!UICONTROL Templates]** れるHTMLコンテ [ンツを管理できます](../../designing/using/designing-content-in-adobe-campaign.md) 。
 
-標準搭載の電子メールコンテンツテンプレートには、モバイルに最適化された18種類のレイアウトと、Behanceのアーティストがデザインしたクラス最高の4つのレスポンシブテンプレートが含まれています。 これらは、お客様のお知らせメッセージ、ニュースレター、リエンゲージメント電子メールなど、最新の使用に対応しています。 ブランドのコンテンツを使用して簡単にカスタマイズでき、一から電子メールをデザインするプロセスを簡単に実行できます。
+標準搭載の電子メールコンテンツテンプレートには、モバイルに最適化された18種類のレイアウトと、Behanceのアーティストがデザインしたクラス最高の4つのレスポンシブテンプレートが含まれています。 これらは、お客様のお知らせメッセージ、ニュースレター、リエンゲージメント電子メールなど、最新の使用状況に対応しています。 ブランドのコンテンツを使用して簡単にカスタマイズでき、一から電子メールをデザインするプロセスを簡単に実行できます。
 
 ![](assets/content_templates.png)
 
 **関連トピック：**
 
 * このビデオでは、コンテンツテンプレートをパーソナラ [イズする方法を説明しま](https://helpx.adobe.com/campaign/kt/acs/using/acs-email_content_templates-feature-video-use.html)す。
-* コンテンツの編集について詳しくは、電子メールコンテンツデザ [インについてを参照してくださ](../../designing/using/overview.md)い。
+* コンテンツの編集について詳しくは、電子メールコンテンツデザ [インについてを参照してくださ](../../designing/using/designing-content-in-adobe-campaign.md)い。
 
 ### Creating a content template {#creating-a-content-template}
 
@@ -93,7 +93,7 @@ HTMLコンテンツテンプレートは、詳細メニューの/ **[!UICONTROL 
 
    ![](assets/email_designer_create-template_thumbnail.png)
 
-   このサムネールは、電子メールデザイナ **[!UICONTROL Templates]** ーのホームページの [タブに表示されます](../../designing/using/overview.md) 。
+   このサムネールは、電子メールデザイナ **[!UICONTROL Templates]** ーのホームページの [タブに表示されます](../../designing/using/designing-content-in-adobe-campaign.md) 。
 
 1. タブを閉じ **[!UICONTROL Properties]** て、メインのワークスペースに戻ります。
 1. 必要に応じてカスタマイズ可能な構造コンポーネントとコンテンツコンポーネントを追加します。
@@ -102,7 +102,7 @@ HTMLコンテンツテンプレートは、詳細メニューの/ **[!UICONTROL 
    > コンテンツテンプレート内にパーソナライゼーションフィールドや条件付きコンテンツを挿入することはできません。
 1. 編集が完了したら、テンプレートを保存します。
 
-このテンプレートは、電子メールデザイナーで作成された任意の電子メールで使用できるようになりました。 電子メールデザイナ **[!UICONTROL Templates]** ーのホームページ [のタブから](../../designing/using/overview.md) 選択します。
+このテンプレートは、電子メールデザイナーで作成された任意の電子メールで使用できるようになりました。 電子メールデザイナ **[!UICONTROL Templates]** ーのホームページ [のタブから](../../designing/using/designing-content-in-adobe-campaign.md) 選択します。
 
 ![](assets/content_template_new.png)
 
@@ -124,7 +124,7 @@ HTMLコンテンツテンプレートは、詳細メニューの/ **[!UICONTROL 
 
 1. 作成したテンプレートを探すには、/に移動し **[!UICONTROL Resources]** ます **[!UICONTROL Content templates & fragments]**。
 
-1. 新しいテンプレートを使用するには、電子メールデザイナ **[!UICONTROL Templates]** ーのホームページの [タブから](../../designing/using/overview.md) 、テンプレートを選択します。
+1. 新しいテンプレートを使用するには、電子メールデザイナ **[!UICONTROL Templates]** ーのホームページの [タブから](../../designing/using/designing-content-in-adobe-campaign.md) 、テンプレートを選択します。
 
    ![](assets/content_template_new.png)
 
