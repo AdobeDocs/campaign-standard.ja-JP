@@ -1,18 +1,18 @@
 ---
 title: パネルの追加
 description: 動的レポートを使用すると、選択した期間に応じてデータをより適切にフィルタリングするためのパネルを追加できます。
-page-status-flag: 非活性化の
+page-status-flag: never-activated
 uuid: 8e76e837-5efc-4250-8192-dee1a0bd62fe
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: レポート
-content-type: 参照
-topic-tags: レポートのカスタマイズ
+audience: reporting
+content-type: reference
+topic-tags: customizing-reports
 discoiquuid: f4e1e676-5ca2-4a58-96d7-d378ff803710
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: f78e101b8abea3640ad93db6ff53243a42e07086
 
 ---
 
@@ -51,7 +51,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    ![](assets/dynamic_report_panel_2.png)
 
-1. Campaign 19.4リリース以降、デフォルトでは **[!UICONTROL Exclude proof]** 既に選択されています。 必要に応じて、タブから上部バーにいずれかをドラッグ&amp;ドロ **[!UICONTROL Segments]** ップして、 **[!UICONTROL Components]** 変更することができます。
+1. セグメ **[!UICONTROL Exclude proof]** ントは既にデフォルトで選択されています。 必要に応じて、タブから上部バーにいずれかをドラッグ&amp;ドロ **[!UICONTROL Segments]** ップして、 **[!UICONTROL Components]** 変更することができます。
 
    ![](assets/dynamic_report_panel_3.png)
 
