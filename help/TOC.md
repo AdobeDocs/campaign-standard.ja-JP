@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 38fa758c32d1c38bd4200a720fea7f3ab2f444f3
+source-git-commit: 13e351225fe664e2d6e42cda86f2d7fbe17aa48c
 
 ---
 
@@ -152,7 +152,7 @@ source-git-commit: 38fa758c32d1c38bd4200a720fea7f3ab2f444f3
       + [強制隔離管理の理解](sending/using/understanding-quarantine-management.md)
    + 配信品質の管理 {#managing-deliverability}
       + [配信品質について](sending/using/about-deliverability.md)
-      + [新しいプラットフォームの起動](sending/using/starting-new-platform.md)
+      + [新しいプラットフォームの開始](sending/using/starting-new-platform.md)
       + [電子メールコンテンツの制御](sending/using/control-email-content.md)
       + [評判の向上](sending/using/improving-reputation.md)
       + [ホワイトリスト](sending/using/whitelists.md)
@@ -279,6 +279,7 @@ source-git-commit: 38fa758c32d1c38bd4200a720fea7f3ab2f444f3
       + [ログの書き出し](automating/using/exporting-logs.md)
       + [パッケージの管理](automating/using/managing-packages.md)
       + [リストの書き出し](automating/using/exporting-lists.md)
+      + [使用例：カスタムリソースの書き出し/読み込み](automating/using/exporting-importing-custom-resources.md)
    + 使用例：ワークフロー{#workflow-use-case}
       + [補完を含む配信の作成](automating/using/workflow-created-query-with-complement.md)
       + [作成日に配信を作成する](automating/using/workflow-creation-date-query.md)
