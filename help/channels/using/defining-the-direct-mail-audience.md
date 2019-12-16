@@ -1,19 +1,19 @@
 ---
 title: ダイレクトメールオーディエンスの定義
 description: ダイレクトメール配信のターゲットを定義する方法を説明します。
-page-status-flag: 非活性化の
+page-status-flag: never-activated
 uuid: f843e368-5c07-4b53-8943-46f7bf45b62b
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: チャネル
-content-type: 参照
-topic-tags: ダイレクトメール
+audience: channels
+content-type: reference
+topic-tags: direct-mail
 discoiquuid: f993d1b6-4b9a-4f95-81fc-60c126211bd2
 context-tags: delivery,directMailContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 32bcfd57dfe881fa07c8d8e5700d0ae3996a78ec
 
 ---
 
@@ -28,7 +28,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ダイレクトメールの場合、ターゲットプロファイルは、ダイレクトメールプロバイダに送信する抽出ファイルに含まれるプロファイルです。
 
-ターゲットプロファイルごとに、新しい行が抽出ファイルに追加されます。 各受信者に含まれるプロファイル情報の量は、抽出の定義画面 [で定義します](#defining-the-extraction) 。
+ターゲットプロファイルごとに、新しい行が抽出ファイルに追加されます。 各受信者に含まれるプロファイル情報の量は、抽出の定義画面 [で定義します](../../channels/using/defining-the-direct-mail-content.md#defining-the-extraction) 。
 
 >[!CAUTION]
 >
