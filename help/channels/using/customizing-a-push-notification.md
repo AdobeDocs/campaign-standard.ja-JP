@@ -1,19 +1,19 @@
 ---
 title: プッシュ通知のカスタマイズ
 description: 様々な高度なオプションを使用してプッシュ通知をカスタマイズする方法について説明します。
-page-status-flag: 非活性化の
+page-status-flag: never-activated
 uuid: 8cf74cad-b1ba-4aad-83bd-7289cb22d5f4
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: チャネル
-content-type: 参照
-topic-tags: プッシュ通知
+audience: channels
+content-type: reference
+topic-tags: push-notifications
 discoiquuid: dc944c85-2059-46df-b396-676fe3617dd1
 context-tags: delivery,mobileAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 78800930d78179c1e390313c35f70627b5df0769
 
 ---
 
@@ -107,10 +107,6 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 ユーザーのアクションに応じて、関連するタスクを実行できるように、アプリケーションに通知されます。
 
 ## 有効期限の追加 {#add-expiration-date}
-
->[!NOTE]
->
->これらの変更は、Campaign Standard 19.4リリース以降にのみ適用されます。
 
 有効期限をプッシュ通知に設定すると、Apple([APNS](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/sending_notification_requests_to_apns))またはAndroid([FCM](https://firebase.google.com/docs/cloud-messaging/concept-options))がメッセージを送信しなくなる特定の有効期限を設定できます。
 
