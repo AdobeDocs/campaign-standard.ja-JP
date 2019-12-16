@@ -13,7 +13,7 @@ context-tags: delivery,triggers,back;deliveryCreation,wizard
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 05743b8565720c0db6a35a493c66b8dad4ef5685
+source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 ---
 
@@ -118,7 +118,7 @@ Adobe Campaignでスタンドアロンのアプリ内メッセージを作成す
 
 1. トリガーを使用する場合、「配置」コ **[!UICONTROL Places]** ンテキストデータ、「配置」カスタムメタデータまたは「配置」イベントタイプは、Adobe Placesで作成されたすべてのライブラリと目標地点に基づいて自動的に設定されます。
 
-   このトリガーは、エクスペリエンスプラットフォームの起動の場所拡張で選択したライブラリからの目標地点に対してのみ、デバイスに適用されます。 Places拡張機能とそのインストール方法の詳細については、このドキュメントを参照してく [ださい](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/places-extension-1/places-extension)。
+   このトリガーは、エクスペリエンスプラットフォームの起動の場所拡張で選択したライブラリからの目標地点に対してのみ、デバイスに適用されます。 Places拡張機能とそのインストール方法の詳細については、このドキュメントを参照してく [ださい](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-extension/places-extension.html)。
 
 1. タブで **[!UICONTROL Frequency & duration]** 、トリガーの頻度、開始日と終了日、アプリ内メッセージがアクティブになる曜日と時間を選択します。
 
