@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 021bea88b69a85b9a9535143ec8d689858af517b
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -41,7 +41,7 @@ Adobe Campaign StandardとDreamweaverの統合により、Dreamweaverインタ�
 
 ## Experience Managerでのコンテンツの編集 {#editing-content-in-experience-manager}
 
-電子メールコンテンツはExperience Managerで編集し、Adobe Campaign Standardで1つまたは複数の電子メールメッセージに使用できます。 本書を参 [照](../../integrating/using/integrating-with-experience-manager.md)。
+電子メールコンテンツはExperience Managerで編集し、Adobe Campaign Standardで1つまたは複数の電子メールメッセージに使用できます。 [このドキュメント](../../integrating/using/integrating-with-experience-manager.md)を参照してください。
 
 ## 電子メールデザインオプションの比較 {#email-design-options-comparison}
 
@@ -137,7 +137,7 @@ Adobe Campaignには、複数の電子メールオーサリングオプション
   </tr> 
   <tr> 
    <td> <strong>詳細情報</strong><br /> </td> 
-   <td> 電子メー <a href="../../designing/using/overview.md">ルデザイナーについてを参照してくださ</a>い。<br /> </td> 
+   <td> 電子メー <a href="../../designing/using/designing-content-in-adobe-campaign.md">ルデザイナーについてを参照してくださ</a>い。<br /> </td> 
    <td> See <a href="../../integrating/using/integrating-with-experience-manager.md">Integrating with Experience Manager</a>.<br /> </td> 
    <td> 詳しくは、 <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">DreamweaverとCampaignを参照し</a> 、このビデオをご覧 <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html">ください</a>。<br /> </td> 
   </tr> 
