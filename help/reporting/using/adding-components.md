@@ -1,18 +1,18 @@
 ---
 title: コンポーネントの追加
 description: コンポーネントをフリーフォームテーブルにドラッグ&ドロッグして、データのフィルタリングとレポートの作成を開始します。
-page-status-flag: 非活性化の
+page-status-flag: never-activated
 uuid: a1aa880c-4ee8-4ffb-b3bf-45249e6d446f
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: レポート
-content-type: 参照
-topic-tags: レポートのカスタマイズ
+audience: reporting
+content-type: reference
+topic-tags: customizing-reports
 discoiquuid: a773b7a8-c290-4c81-bb52-48acc14fc89f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: f78e101b8abea3640ad93db6ff53243a42e07086
 
 ---
 
@@ -31,7 +31,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    * **ディメンション**:受信者のブラウザーやドメイン、配信の成功など、配信ログから詳細を取得します。
    * **指標**:メッセージの状態の詳細を取得します。 例えば、メッセージが配信され、ユーザーが開いたとします。
-   * **[!UICONTROL Segments]**:受信者の年齢範囲に応じてデータをフィルターします。 **[!UICONTROL Segments]** は、フリーフォームテーブル内またはパネルの上部バーに直接ドラッグ&amp;ドロップできます。 Campaign 19.4リリースからは、デフォルトで **[!UICONTROL Exclude proof]** は既に選択されていますが、必要に応じて変更できます。
+   * **[!UICONTROL Segments]**:受信者の年齢範囲に応じてデータをフィルターします。 **[!UICONTROL Segments]** は、フリーフォームテーブル内またはパネルの上部バーに直接ドラッグ&amp;ドロップできます。 デフォルトでは、セグメ **[!UICONTROL Exclude proof]** ントは既に選択されていますが、必要に応じて変更できます。
 
       このカテゴリは、画面に表示されるDynamic Reportingの使用許諾契約の条項を管理者が承認した場合にのみ使用できます。 管理者が契約を却下すると、セグメントはタブに表示されず、 **[!UICONTROL Components]** データは収集されません。
 
