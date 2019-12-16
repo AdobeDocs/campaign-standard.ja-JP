@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 385b566cfd893f6522de66a1c8307a1546c915fa
+source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 ---
 
@@ -143,7 +143,7 @@ Dynamic Reportingにトラブルシューティングが追加されました。
 
 余分な空白が電子メールコンテンツのレイアウトに与える影響に関する警告が追加されました。 [詳細を表示](../../designing/using/personalization.md#creating-custom-content-blocks)
 
-電子メールデザイナーの推奨される更新に関する新しい節が追加されました。 [詳細を表示](../../designing/using/overview.md#email-designer-updates)
+電子メールデザイナーの推奨される更新に関する新しい節が追加されました。 [詳細を表示](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-updates)
 
 <!-- A new section on how to send proofs using real customer data has been added. [Read more](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs-using-additional-data) -->
 
@@ -247,7 +247,7 @@ Dreamweaverの統合セクションが更新され、改善されました。 [�
 
 ### リリースに伴うその他のドキュメントの更新 {#other-documentation-updates-coming-with-the-release-1}
 
-電子メールコンテンツを作成する新しいオンボーディングエクスペリエンスと、電子メールデザイナーに対するその他の機能強化が、電子メールコンテンツの編集の章に追加されました。 [詳細を表示](../../designing/using/overview.md#email-designer-home-page)
+電子メールコンテンツを作成する新しいオンボーディングエクスペリエンスと、電子メールデザイナーに対するその他の機能強化が、電子メールコンテンツの編集の章に追加されました。 [詳細を表示](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-home-page)
 
 トランザクションメッセージングの制限に関する新しい節が追加されました。 [詳細を表示](../../channels/using/about-transactional-messaging.md#transactional-messaging-limitations)
 
@@ -293,7 +293,7 @@ Adobe Campaignから直接利用できるコンテキストヘルプリンクの
 
 ### リリースに含まれる新機能 {#new-capabilities-included-in-the-release-2}
 
-電子メールデザイナの一般リリース — [詳細情報](../../designing/using/overview.md)
+電子メールデザイナの一般リリース — [詳細情報](../../designing/using/designing-content-in-adobe-campaign.md)
 
 トランザクション電子メールの製品リスト — 詳 [細情報](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message)
 
@@ -303,7 +303,7 @@ Adobe Campaignから直接利用できるコンテキストヘルプリンクの
 
 ### リリースに伴うその他のドキュメントの更新 {#other-documentation-updates-coming-with-the-release-2}
 
-『Designing Content』ガイドが更新され、Email Designerの一般リリースと、非推奨の従来のEメールコンテンツエディターが反映されました。 [詳細を表示](../../designing/using/overview.md)
+『Designing Content』ガイドが更新され、Email Designerの一般リリースと、非推奨の従来のEメールコンテンツエディターが反映されました。 [詳細を表示](../../designing/using/designing-content-in-adobe-campaign.md)
 
 アプリ内通知 [とプッシュ通知のドキュメ](../../channels/using/about-in-app-messaging.md) ントを更新しました [](../../channels/using/about-push-notifications.md) 。
 
@@ -359,7 +359,7 @@ SMSコネクタのプロトコルと設定に関する新しいテクノテー�
 
 Experience ManagerとAdobe Campaignドキュメントの統合を更新しました。 [詳細を表示](../../reporting/using/creating-a-custom-profile-dimension.md)
 
-「コンテンツのデザイン」ガイドは、電子メール用のコンテンツをデザインできる2つのエディターを示すように、特に完全に再編成されました。 [詳細を表示](../../designing/using/overview.md)
+「コンテンツのデザイン」ガイドは、電子メール用のコンテンツをデザインできる2つのエディターを示すように、特に完全に再編成されました。 [詳細を表示](../../designing/using/designing-content-in-adobe-campaign.md)
 
 既存の電子メールからフラグメントを作成し、Creative SDKで外部コンテンツを完全に編集する方法を説明します。 [詳細を表示](../../designing/using/designing-from-scratch.md)
 
@@ -421,7 +421,7 @@ Analyticsで見つかったキャンペーン指標のリストを追加しま�
 
 Triggersとの統合でサポートされるAnalytics SKUのリストが更新されました。 [詳細を表示](../../integrating/using/configuring-triggers-in-experience-cloud.md#configuring-solutions-and-services)
 
-コンテンツエディターのドキュメントの一部のページが結合され、利用可能な様々なアクションをより包括的に表示できます。 [詳細を表示](../../designing/using/overview.md)
+コンテンツエディターのドキュメントの一部のページが結合され、利用可能な様々なアクションをより包括的に表示できます。 [詳細を表示](../../designing/using/designing-content-in-adobe-campaign.md)
 
 ## リリース18.3 - 2018年3月 {#release-18-3---march-2018}
 
@@ -429,7 +429,7 @@ Triggersとの統合でサポートされるAnalytics SKUのリストが更新�
 
 EU GDPR(General Data Protection Regulation) — 詳細を [読む](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html)
 
-電子メール用Creative Designer — 詳 [細情報](../../designing/using/overview.md)
+電子メール用Creative Designer — 詳 [細情報](../../designing/using/designing-content-in-adobe-campaign.md)
 
 多言語プッシュ配信 — [詳細](../../channels/using/creating-a-multilingual-push-notification.md)
 
@@ -443,7 +443,7 @@ GDPR APIは、GDPRリクエストの自動処理を可能にする機能を再�
 
 「トラ [ンザクションメッセージの設定](../../administration/using/configuring-transactional-messaging.md) 」セクションが再編成され、詳 [細な使用例が追加されました](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) 。
 
-プッシュ通知に使用する多言語CSVファイルの生成方法を学ぶためのテクノテートを追加しました。 [詳細を表示](http://helpx.adobe.com/campaign/kb/acs-generate-csv-multilingual-push.html).
+プッシュ通知に使用する多言語CSVファイルの生成方法を学ぶためのテクノテートを追加しました。 [詳細を表示](https://helpx.adobe.com/campaign/kb/acs-generate-csv-multilingual-push.html).
 
 [ダイレクトメールの強制隔離と配 **信ログの更新]インポートテンプレートに関する情報** を追加しました。 [詳細を表示](../../automating/using/defining-import-templates.md)
 
@@ -751,7 +751,7 @@ URLの変更：Peopleコアサービス — [詳細情報](../../integrating/usi
 
 APIの操作：api拡張 [の使用例が追加されました](../../developing/using/about-extending-the-api.md) 。 また、 [APIドキュメントも参照してくださ](../../api/using/about-campaign-standard-apis.md)い。
 
-キャンペーンエラーメッセージ：バージョンと言語でフィルターされた、Campaign v6とStandardの両方のエラーメッセージの完全なリストにアクセスします。 [詳細を表示](http://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+キャンペーンエラーメッセージ：バージョンと言語でフィルターされた、Campaign v6とStandardの両方のエラーメッセージの完全なリストにアクセスします。 [詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
 マルチブランディングの使用例 — 詳 [細情報](../../administration/using/branding.md)
 
