@@ -1,23 +1,23 @@
 ---
-title: Target 動的コンテンツの追加
+title: Target の動的コンテンツの追加
 description: Adobe targetの動的コンテンツをAdobe Campaignの配信の1つに追加する方法について説明します。
-page-status-flag: 非活性化の
+page-status-flag: never-activated
 uuid: b3cc045f-7924-480e-8c61-8246510f3adb
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 統合
-content-type: 参照
-topic-tags: キャンペーンとターゲットの連携
+audience: integrating
+content-type: reference
+topic-tags: working-with-campaign-and-target
 discoiquuid: 45ddf7b7-98f7-4fdd-bb4a-49ec8490e877
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 594b2d3c3dcc1ec13ab06ca6219ad59fe1a267d8
 
 ---
 
 
-# Target 動的コンテンツの追加{#adding-target-dynamic-content}
+# Target の動的コンテンツの追加{#adding-target-dynamic-content}
 
 Adobe targetの統合により、動的な画像を配信に追加して、エクスペリエンスに応じてコンテンツをパーソナライズできます。
 
@@ -26,8 +26,8 @@ Adobe targetの統合により、動的な画像を配信に追加して、エ�
 Adobe Campaignの画像にアクセスする前に、Adobe targetで次のタスクを実行する必要があります。
 
 * Create one or several [redirect offers](https://docs.adobe.com/content/help/en/target/using/experiences/offers/offer-redirect.html), in which you must specify the URL of the image you will be using.
-* 1 つ以上の[オーディエンス](https://marketing.adobe.com/resources/help/en_US/target/ov/c_about_segments.html)を作成します。アクティビティのターゲットをそこで定義します。
-* Create a [Form-based experience composer](https://marketing.adobe.com/resources/help/en_US/target/target/t_form_experience_composer.html) activity, in which you have to select a rawbox and specify several experiences, depending on the number of redirect offers created. 各エクスペリエンスに対して、作成したリダイレクトオファーの1つを選択する必要があります。
+* 1 つ以上の[オーディエンス](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/audiences.html)を作成します。アクティビティのターゲットをそこで定義します。
+* Create a [Form-based experience composer](https://docs.adobe.com/content/help/en/target/using/experiences/form-experience-composer.html) activity, in which you have to select a rawbox and specify several experiences, depending on the number of redirect offers created. 各エクスペリエンスに対して、作成したリダイレクトオファーの1つを選択する必要があります。
 * Adobe Campaignの情報を使用して、エクスペリエンスを指定してセグメントを作成します。 オファーの選択ルールで Adobe Campaign からのデータを使用するには、Adobe Target のローボックスでデータを指定する必要があります。
 
 1. E メール配信を作成します。
@@ -54,6 +54,6 @@ Adobe Campaignの画像にアクセスする前に、Adobe targetで次のタス
 **関連トピック：**
 
 * [Adobe Target Portal](https://marketing.adobe.com/resources/help/en_US/target/a4t/c_campaign_and_target.html)
-* [電子メールコンテンツデザインについて](../../designing/using/overview.md)
+* [電子メールコンテンツデザインについて](../../designing/using/designing-content-in-adobe-campaign.md)
 * [リアルタイムビデオでの電子メール画像のパーソナライズ](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html) （英語のみ）
 
