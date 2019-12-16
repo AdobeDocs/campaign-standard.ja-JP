@@ -12,7 +12,7 @@ discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
+source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 ---
 
@@ -39,7 +39,7 @@ Adobe Campaignは、リッチな顧客プロファイルをリアルタイムで
 
 >[!CAUTION]
 >
->Adobe Campaignの許容される使用ポリシ [ーを常に尊重する必要があります](http://www.adobe.com/legal/terms/aup.html)。
+>Adobe Campaignの許容される使用ポリシ [ーを常に尊重する必要があります](https://www.adobe.com/legal/terms/aup.html)。
 
 GDPR は欧州連合（EU）にて新しく施行されるプライバシー保護法律で、データ保護要件を現代の状況に合わせて整合化することを目的としています。GDPR は、EU に居住しているデータ主体のデータを保有している Adobe Campaign の顧客に適用されます。アドビは、Adobe Campaignで既に利用可能なプライバシー機能（同意管理、データ保持設定、ユーザーの役割など）に加え、追加の機能を含め、特定のGDPRリクエストに対するData Controllerとしての準備を促進するため、この機会をデータプロセッサーとして取り上げます。
 
@@ -50,5 +50,5 @@ GDPRに準拠するた [めに](https://docs.campaign.adobe.com/doc/standard/get
 * [オーディエンスの作成](../../audiences/using/creating-audiences.md)
 * [プロファイルの作成](../../audiences/using/creating-profiles.md)
 * [統合された顧客プロファイル](../../audiences/using/integrated-customer-profile.md)
-* [キャンペーンのオプトインとオプトアウトについて](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+* [Campaign のオプトインとオプトアウトについて](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
