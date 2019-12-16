@@ -12,7 +12,7 @@ discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 19c6a3d6f68ef0a96150c9e7f350abd92da8d7e1
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -32,7 +32,7 @@ Adobe Campaignで電子メールを作成したら、そのコンテンツを定
 <!--The Email Designer has more features than the Legacy Editor and is backward compatible.-->
 
 * 電子メールコンテンツの作成方法について詳しくは、電子メールデザ [イナーの使い始めに](../../designing/using/quick-start.md)。
-* 電子メールデザイナーの概要については、「電子メールデザ [イナーの使用](../../designing/using/overview.md)」を参照してください。
+* 電子メールデザイナーの概要については、「電子メールデザ [イナーの使用](../../designing/using/designing-content-in-adobe-campaign.md)」を参照してください。
 * コンテンツの作成の詳細：
    * 新規での電子メールのデザ [インを参照してください](../../designing/using/designing-from-scratch.md)。
    * 既存のコンテンツを使用する場合は、既存のコンテ [ンツを使用したデザインを参照してくださ](../../designing/using/using-existing-content.md)い。
@@ -117,7 +117,7 @@ Adobe Campaignで電子メールを作成したら、そのコンテンツを定
 
 * 電子メールコ **ンテンツの編集**:
 
-   メッセージを送信する前にプレビューします。 Adobe Campaignでは、Litmusを使用した電子メールのレンダリングをテストする方法を提供しています。 詳しくは、電子メールのレンダリングを参 [照してください](../../sending/using/email-rendering.md)。
+   メッセージを送信する前にプレビューします。 Adobe Campaignでは、Litmusを使用した電子メールのレンダリングをテストする方法を提供しています。 For more on this, see [Email rendering](../../sending/using/email-rendering.md).
 
 メッセージに関するより多くのデザインと一般的なベストプラクティスは、以下のAdobe Campaignのステップバイステップガイドに記載されています。Adobe Campaignの [配信のベストプラクティス](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html)。
 
@@ -152,7 +152,7 @@ CSSの衝突の問題などの問題を避けるため、コンテンツを最�
 * スタイルを編集する場合、ほとんどの電子メールクライアントが正式にサポートしているWebフォントのみが使用できます。
 * スタイルは、将来再利用するためにテーマとして保存できません。 ただし、CSSスタイルはコンテンツテンプレートまたは電子メールに保存できます。 スタイルについて詳しくは、この節を参 [照してください](../../designing/using/styles.md)。
 
-**関連トピック**:
+**関連トピック**：
 
 * [電子メールの作成](../../channels/using/creating-an-email.md)
 * [ランディングページのデザイン](../../channels/using/designing-a-landing-page.md)
