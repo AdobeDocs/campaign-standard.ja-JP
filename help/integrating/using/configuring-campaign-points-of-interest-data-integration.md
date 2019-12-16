@@ -1,23 +1,23 @@
 ---
-title: キャンペーン目標地点データ統合の設定
+title: Campaign と POI データの統合の設定
 description: 購読者の場所に基づいてパーソナライズされたメッセージを送信するためのAdobe Campaignの目標地点データ機能の設定方法について説明します。
-page-status-flag: 非活性化の
+page-status-flag: never-activated
 uuid: 0689a06c-cc1a-442f-95b8-a07fcec85d79
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 統合
-content-type: 参照
-topic-tags: キャンペーンと分析をモバイル用に活用
+audience: integrating
+content-type: reference
+topic-tags: working-with-campaign-and-analytics-for-mobile
 discoiquuid: a967c6cc-c53b-41b4-866b-90860d78f463
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 ---
 
 
-# キャンペーン目標地点データ統合の設定{#configuring-campaign-points-of-interest-data-integration}
+# Campaign と POI データの統合の設定{#configuring-campaign-points-of-interest-data-integration}
 
 ## Adobe Experience Platform SDKとのキャンペーン目標地点データ統合の設定 {#configuring-campaign-poi-aep-sdk}
 
@@ -29,14 +29,14 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 Adobe Experience Platform SDKで設定されたモバイルアプリケーションでAdobe Experience Platform Location Servicesを使用するには、次の操作を行う必要があります。
 
-1. Adobe Experience Platform Launchで、モ **[!UICONTROL Places]** バイルア **[!UICONTROL Places Monitor]** プリ設定に拡張機能と拡張機能を追加します。 Adobe Campaignでモバイルアプリを設定します。 詳しくは、 [Adobe Experience Platform LaunchへのPlaces拡張のインストール](https://placesdocs.com/places-services-by-adobe-documentation/configure-places-in-the-sdk/places-extension#install-the-places-extension-in-adobe-experience-platform-launch) およびExperience Platform LaunchへのPlaces Monitor拡 [張のインストールを参照してください](https://placesdocs.com/places-services-by-adobe-documentation/configure-places-in-the-sdk/places-monitor-extension/using-the-places-monitor-extension)。
+1. Adobe Experience Platform Launchで、モ **[!UICONTROL Places]** バイルア **[!UICONTROL Places Monitor]** プリ設定に拡張機能と拡張機能を追加します。 Adobe Campaignでモバイルアプリを設定します。 詳しくは、 [Adobe Experience Platform LaunchへのPlaces拡張のインストール](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-extension/places-extension.html#install-the-places-extension-in-adobe-experience-platform-launch) およびExperience Platform LaunchへのPlaces Monitor拡 [張のインストールを参照してください](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.html#install-the-places-monitor-extension-in-experience-platform-launch)。
 
 1. 拡張機能を設定したら、内にデータ要素を作成して、これらの拡 **[!UICONTROL Adobe Experience Platform Launch]** 張機能からデータを取得します。 データ要素を作成す [るには](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Step1Createdataelements) 、このページを参照してください。
 
 1. 次に、で目標地 **[!UICONTROL Adobe Experience Platform Launch]**&#x200B;点とAdobe Campaignの間のモバイルの使用例をサポートするルールを作成する必要があります。\
    このルールは、ユーザーが地域フェンスに入ったときにトリガーされま **[!UICONTROL Point of Interest]**&#x200B;す。 ルールを作成するに [は](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Locationpostback) 、このページを参照してください。
 
-1. 「場所」でユーザーを **[!UICONTROL Points of Interest]** 定義します。 目標地 [点の作成を参照してください](https://placesdocs.com/places-services-by-adobe-documentation/places-database-management-1/managing-pois-in-the-places-ui#create-a-poi)。
+1. 「場所」でユーザーを **[!UICONTROL Points of Interest]** 定義します。 目標地 [点の作成を参照してください](https://docs.adobe.com/content/help/en/places/using/poi-mgmt-ui/create-a-poi-ui.html)。
 
 1. Adobe Campaignで、モバイルアプリケーションと収集した場所のデータに必ずアクセスしてください。 場所デー [タの収集に使用するモバイルアプリへのアクセスおよび収集した場所](#accessing-mobile-apps-used-to-collect-location-data)[データへのアクセスを参照してくださ](#accessing-collected-location-data)い。
 
@@ -89,7 +89,7 @@ Adobe Campaignで設定したモバイルアプリのパラメーターに記載
 
 次の設定を行うには、Adobe Analyticsにアクセスできる必要があります。 Adobe Analyticsユーザーでない場合は、Adobe Campaign管理者に問い合わせてください。
 
-1. mobilemarketing. [adobe.comにログインします](http://mobilemarketing.adobe.com/)。
+1. mobilemarketing. [adobe.comにログインします](https://mobilemarketing.adobe.com/)。
 1. アプリを作成するか、既存のアプリを選択します。
 1. ページに移動し **[!UICONTROL Manage App Settings]** ます。
 1. 「訪問者IDサ **ービス** 」セクションで「有 **効にする** 」を選択し、ドロップダウンリストから組織を選択します。 「**保存**」をクリックします。
