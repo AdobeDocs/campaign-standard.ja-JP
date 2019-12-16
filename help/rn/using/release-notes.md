@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 32be3c4b3224d367fb0e7e5218fb2b30c2fdee34
+source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
 
 ---
 
@@ -70,7 +70,7 @@ source-git-commit: 32be3c4b3224d367fb0e7e5218fb2b30c2fdee34
 * 不明なコンテキストパラメーターを使用してトランザクションメッセージイベントが送信されると、Campaignが「500」ではなく「400」というエラーメッセージを返すようになりました。 (CAMP-28632)
 * 新しい「除外 **」の証明セグメントが** 、動的レポートに追加されました。 このセグメントはデフォルトで選択され、レポートをフィルタリングするようになりました。 [詳細を表示](../../reporting/using/list-of-components-.md#segments)
 * プッシュ **通知に** 、「メッセージの有効期限」オプションが追加されました。 Apple(APNS)またはAndroid(FCM)がメッセージを送信しなくなる有効期限を指定できます。 [詳細を表示](../../channels/using/customizing-a-push-notification.md#add-expiration-date)
-* ファイルの読み込みアクティビティ **が改善され** ました。ワークフローログは、ファイルの読み込みに失敗した場合に発生するエラーに関して、より明確で詳細な情報が得られるようになりました。 「ファイル内の拒否を保持」オプションを有効にし **た場合に生成される送信の移行は** 、「拒否」という名前に変更さ **れました**。 [詳細を表示](../../automating/using/load-file.md#load-files)
+* ファイルの読み込みアクティビティ **が改善され** ました。ワークフローログは、ファイルの読み込みに失敗した場合に発生するエラーに関して、より明確で詳細な情報が得られるようになりました。 「ファイル内の拒否を保持」オプションを有効にし **た場合に生成される送信の移行は** 、「拒否」という名前に変更さ **れました**。 [詳細を表示](../../automating/using/load-file.md)
 * アップロードされたCSVファイルに言語が見つからないことによる送信エラーをより深く理解するために、多言語関連のログが送信ログに追加されました。
 
 ### セキュリティの機能強化 {#security-enhancements-3}
@@ -469,7 +469,7 @@ source-git-commit: 32be3c4b3224d367fb0e7e5218fb2b30c2fdee34
 
 * アドビの新しいオンボーディングエクスペリエンスは、電子メールの作成を迅速に開始し、ドキュメントやチュートリアルに簡単にアクセスできるようにします。
 
-   詳しくは、[詳細ドキュメント](../../designing/using/overview.md#email-designer-home-page)を参照してください。
+   詳しくは、[詳細ドキュメント](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-home-page)を参照してください。
 
 * ニーズに応じて柔軟に列数と幅を設定できるようになりました。
 
@@ -548,7 +548,7 @@ source-git-commit: 32be3c4b3224d367fb0e7e5218fb2b30c2fdee34
      <li> 準備時にURLか <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">らコンテンツを自動的に取得する機能</a> </li> 
      <li> 標準搭載 <a href="../../designing/using/using-reusable-content.md#content-templates">のコンテンツテンプレートに完全に準拠</a>。 </li> 
     </ul> 
-    <p>詳しくは、<a href="../../designing/using/overview.md">詳細ドキュメント</a>および<a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-email-designer-tutorial.html">ハウツービデオ</a>を参照してください。機能強化および修正点を次に示します。</p><p>その結果、従来の電子メールコンテンツエディターは廃止されました。 詳しくは、この<a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">ページ</a>を参照してください。</p> </td> 
+    <p>詳しくは、<a href="../../designing/using/designing-content-in-adobe-campaign.md">詳細ドキュメント</a>および<a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-email-designer-tutorial.html">ハウツービデオ</a>を参照してください。機能強化および修正点を次に示します。</p><p>その結果、従来の電子メールコンテンツエディターは廃止されました。 詳しくは、この<a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">ページ</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td> トランザクション電子メールの製品リスト<br /> </td> 
