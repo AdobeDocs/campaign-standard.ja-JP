@@ -1,19 +1,19 @@
 ---
 title: アプリ内メッセージの準備と送信
 description: アプリ内メッセージを作成して、特定のコンテンツを持つアプリの購読者をターゲットにします。
-page-status-flag: 非活性化の
+page-status-flag: never-activated
 uuid: a79b0466-8641-46cc-a70f-e4e839587bb2
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: チャネル
-content-type: 参照
-topic-tags: アプリ内メッセージ
+audience: channels
+content-type: reference
+topic-tags: in-app-messaging
 discoiquuid: 18bf5297-a688-4302-abe4-e2fbcafdb515
-context-tags: 配信，トリガー，戻る；配信の作成，ウィザード
+context-tags: delivery,triggers,back;deliveryCreation,wizard
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 05743b8565720c0db6a35a493c66b8dad4ef5685
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 >[!NOTE]
 >
->アプリ内パーソナライゼーションは、通常、CRM IDやモバイルアプリログインIDであるリンケージフィールドに依存しています。 お客様は、Adobe Campaignとの関連で使用する場合、このリンケージフィールドを保護する責任を負います。 リンケージフィールドのセキュリティ保護を怠った場合は、パーソナライズされたメッセージが脆弱になる可能性があります。 お客様が安全なリンケージフィールドの構成、管理、および保護の慣行に従わない場合、アドビは、不正なアクセスまたはプロファイルデータの使用に起因する損害に対して責任を負いません。
+>アプリ内パーソナライゼーションは、通常、CRM IDやモバイルアプリログインIDであるリンケージフィールドに依存しています。 お客様は、Adobe Campaignとの関連で使用する場合、このリンケージフィールドを保護する責任を負います。 リンケージフィールドのセキュリティを保たないと、パーソナライズされたメッセージが脆弱になる可能性があります。 お客様が安全なリンケージフィールドの構成、管理、および保護の慣行に従わない場合、アドビは、不正なアクセスまたはプロファイルデータの使用に起因する損害に対して責任を負いません。
 
 Adobe Campaignでは、次の3種類のアプリ内メッセージを利用できます。
 
@@ -79,7 +79,7 @@ Adobe Campaignでスタンドアロンのアプリ内メッセージを作成す
    * **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**
    * **[!UICONTROL Target users based on their Mobile profile (inApp)]**
 
-1. アプリ内メッセージのプロパティを入力し、フィールドでモバイルアプリを選択 **[!UICONTROL Associate a Mobile App to a delivery]** します。
+1. アプリ内メッセージのプロパティを入力し、フィールドでモバイルアプリを選択 **[!UICONTROL Associate a Mobile App to a delivery]** します。 Adobe Campaign Standardでモバイルアプリを設定しなかった場合は、リストに表示されないことに注意してください。 For more information on mobile application configuration, refer to this [page](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign).
 
    ![](assets/inapp_creating_3.png)
 
