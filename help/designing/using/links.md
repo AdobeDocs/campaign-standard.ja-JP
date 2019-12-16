@@ -1,18 +1,18 @@
 ---
 title: リンクの管理
 description: 電子メールデザイナーでのリンクの管理方法を確認します。
-page-status-flag: 非活性化の
+page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 設計
-content-type: 参照
+audience: designing
+content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -27,7 +27,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 >[!NOTE]
 >
->次の画像は、電子メールデザイナーを使用した電子メール [へのリンクの挿入](../../designing/using/overview.md) 方法を示しています。
+>次の画像は、電子メールデザイナーを使用した電子メール [へのリンクの挿入](../../designing/using/designing-content-in-adobe-campaign.md) 方法を示しています。
 
 1. 要素を選択し、コンテキストツール **[!UICONTROL Insert link]** バーからをクリックします。
 
@@ -61,7 +61,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ![](assets/des_link_edit.png)
 
-電子メールデザイナーで電子メールを編集する場合 [](../../designing/using/overview.md)、電子メールに含まれるすべてのURLを一覧表示した表から、作成したリンクに簡単にアクセスして変更できます。 このリストを使用すると、一元的なビューを作成し、電子メールコンテンツ内の各URLを検索できます。 アクセスするには、追跡するURLにつ [いてを参照してください](#about-tracked-urls)。
+電子メールデザイナーで電子メールを編集する場合 [](../../designing/using/designing-content-in-adobe-campaign.md)、電子メールに含まれるすべてのURLを一覧表示した表から、作成したリンクに簡単にアクセスして変更できます。 このリストを使用すると、一元的なビューを作成し、電子メールコンテンツ内の各URLを検索できます。 アクセスするには、追跡するURLにつ [いてを参照してください](#about-tracked-urls)。
 
 ![](assets/des_link_list.png)
 
