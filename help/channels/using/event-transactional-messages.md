@@ -13,7 +13,7 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -121,11 +121,11 @@ source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
 
 >[!CAUTION]
 >
->製品リストは、 [Email Designerインターフェイスを使用してトランザクション用の電子メールメッセージを編集する場合にのみ使用できます](../../designing/using/overview.md#email-designer) 。
+>製品リストは、 [Email Designerインターフェイスを使用してトランザクション用の電子メールメッセージを編集する場合にのみ使用できます](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface) 。
 
 破棄された製品のリストをトランザクションメッセージに追加するには、次の手順に従います。
 
-また、トランザクション用の電子メールで製品リストを設定するために必要な手順を説明する一連のビデオを視聴することもできます。 詳しくは、このページを参照し [てください](https://helpx.adobe.com/campaign/kt/acs/using/acs-product-listings-in-transactional-emails-feature-video-setup.html)。
+また、トランザクション用の電子メールで製品リストを設定するために必要な手順を説明する一連のビデオを視聴することもできます。 For more on this, see [this page](https://helpx.adobe.com/campaign/kt/acs/using/acs-product-listings-in-transactional-emails-feature-video-setup.html).
 
 >[!NOTE]
 >
