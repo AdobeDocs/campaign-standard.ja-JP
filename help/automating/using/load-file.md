@@ -1,24 +1,24 @@
 ---
-title: ファイルを読み込み
+title: ファイル読み込み
 description: 「ファイルを読み込み」アクティビティを使用すると、1つの構造化されたフォームにデータを読み込んで、このデータをAdobe Campaignで使用できます。
-page-status-flag: 非活性化の
+page-status-flag: never-activated
 uuid: 69af12cc-6f82-4977-9f53-aa7bc26f5d7e
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 自動化
-content-type: 参照
-topic-tags: データ管理活動
+audience: automating
+content-type: reference
+topic-tags: data-management-activities
 discoiquuid: 584ff893-9b1b-46c9-9628-714ab349ab88
 context-tags: fileImport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
 
 ---
 
 
-# ファイルを読み込み{#load-file}
+# ファイル読み込み {#load-file}
 
 ## 説明 {#description}
 
@@ -80,7 +80,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    このタ **[!UICONTROL Column definition]** ブでは、エラーを含まないデータをインポート（例えば、null管理を使用）し、将来の操作のためにAdobe Campaignデータベースに既に存在するタイプと一致させるために、各列のデータ構造を正確に指定できます。
 
-   例えば、列のラベルを変更し、そのタイプ（文字列、整数、日付など）を選択できます。 またはエラー処理を指定することもできます。
+   例えば、列のラベルを変更し、そのタイプ（文字列、整数、日付など）を選択できます。またはエラー処理を指定することもできます。
 
    For more information, refer to the [Column format](#column-format) section.
 
