@@ -13,7 +13,7 @@ context-tags: landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -30,7 +30,7 @@ source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 >[!NOTE]
 >
->Adobe Campaign Standard 19.0リリースより前にインストールしたインスタンスでも、従来の電子メールコンテンツエディターにアクセスできます。 インターフェイス、使用、設定の原則は、ランディングページの場合に以下で説明するのとほとんど同じです。 ただし、19.0リリース以降では廃止される、レガシー電子メールコンテンツエディターでは、すべての機能を使用または維持できない場合があります。 拡張機能を備えたドラッグ&amp;ドロップインターフェイスで電子メールコンテンツをすばやく編集するには、電子メールデザ [イナーを使用しま](../../designing/using/overview.md)す。
+>Adobe Campaign Standard 19.0リリースより前にインストールしたインスタンスでも、従来の電子メールコンテンツエディターにアクセスできます。 インターフェイス、使用、設定の原則は、ランディングページの場合に以下で説明するのとほとんど同じです。 ただし、19.0リリース以降では廃止される、レガシー電子メールコンテンツエディターでは、すべての機能を使用または維持できない場合があります。 拡張機能を備えたドラッグ&amp;ドロップインターフェイスで電子メールコンテンツをすばやく編集するには、電子メールデザ [イナーを使用しま](../../designing/using/designing-content-in-adobe-campaign.md)す。
 
 このページでは、ランディングページのコンテンツエディターの特性について説明します。 1つ以上のマーケティングアクティビティに共通するアクションについて詳しくは、「電子メールコンテンツの設計」ガイドの次の節 **を参照してくださ** い。
 
@@ -38,7 +38,7 @@ source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 * [コンテンツブロックの追加](../../designing/using/personalization.md#adding-a-content-block)。
 * [リンクの挿入](../../designing/using/links.md#inserting-a-link).
 * [画像の挿入](../../designing/using/images.md).
-* [コンテンツデザインの一般的なベストプラクティス](../../designing/using/overview.md#content-design-best-practices)。
+* [コンテンツデザインの一般的なベストプラクティス](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices)。
 
 >[!NOTE]
 >HTML形式で既に定義済みのランディングページがある場合は、ボタンを使用して直接ランディングページを読み込むことがで **[!UICONTROL Change content]** きます。
