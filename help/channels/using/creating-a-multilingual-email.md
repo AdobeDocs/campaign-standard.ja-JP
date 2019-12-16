@@ -1,18 +1,18 @@
 ---
 title: 多言語電子メールの作成
 description: 様々な言語を使用する受信者を対象とした多言語電子メールを作成するには、次の手順に従います。
-page-status-flag: 非活性化の
+page-status-flag: never-activated
 uuid: e90f4ec8-14e3-4304-b5fc-bce0ba08a4ef
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: チャネル
-content-type: 参照
-topic-tags: 電子メールメッセージ
+audience: channels
+content-type: reference
+topic-tags: email-messages
 discoiquuid: 79231445-1d51-499a-adcf-0c0f6db1cfa3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -34,10 +34,10 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    ![](assets/multi_create4.png)
 
-   必要に応じて、ボタンを使用してバリアントを追 **[!UICONTROL Add an element]** 加します。 **[!UICONTROL Default]** バリアントは削除できません。 に設定すると、プロ **[!UICONTROL default]**&#x200B;ファイル [の優先言語を使用して](../../audiences/using/creating-profiles.md) 、バリアントが選択されます。 バリアントを他の言語に設 **[!UICONTROL Default]** 定することもできます。
+   必要に応じて、ボタンを使用してバリアントを追 **[!UICONTROL Add an element]** 加します。 **[!UICONTROL Default]** バリアントは削除できません。 に設定すると、プロ **[!UICONTROL default]**&#x200B;ファ [イルの優先言語を使用して](../../audiences/using/creating-profiles.md) 、バリアントが選択されます。 バリアントを他の言語に設 **[!UICONTROL Default]** 定することもできます。
 
 1. 電子メールの作成を確認：電子メールダッシュボードが表示されます。
-1. 各バリアントの電子メールコンテンツを定義します。 選択したテンプレートに応じて、複数の主題、複数の送信者名、または複数の異なるコンテンツを定義できます。 ドロップダウンメニューを使用して、要素の異なるバリエーション間を移動します。 詳しくは、「コンテンツエディター」の節 [を参照してくださ](../../designing/using/overview.md) い。
+1. 各バリアントの電子メールコンテンツを定義します。 選択したテンプレートに応じて、複数の主題、複数の送信者名、または複数の異なるコンテンツを定義できます。 ドロップダウンメニューを使用して、要素の異なるバリエーション間を移動します。 詳しくは、「コンテンツエディター」の節 [を参照してくださ](../../designing/using/designing-content-in-adobe-campaign.md) い。
 
    ![](assets/multi_selectcontent.png)
 
