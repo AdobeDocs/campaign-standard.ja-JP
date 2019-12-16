@@ -1,18 +1,18 @@
 ---
 title: ダイナミックテキストの定義
 description: Adobe Campaignで定義された条件に従って、様々なテキストをユーザーに動的に表示する方法を説明します。
-page-status-flag: 非活性化の
+page-status-flag: never-activated
 uuid: bbcd200c-4fb4-467b-ba39-09b8bee9bcaa
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 設計
-content-type: 参照
+audience: designing
+content-type: reference
 topic-tags: defining-conditional-content
 discoiquuid: 6bb6cee3-5674-4113-8073-5a9572b3e830
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 >[!NOTE]
 >
->SMSおよびプッシュの場合は、ダイナミックテキストのみを定義できます。 ランディングページでは、動的コンテンツとテキストの両方を定義できます。 電子メールデザイナーで動的テキストを定義する場合 [は](../../designing/using/overview.md)、電子メール内の動 [的コンテンツの定義を参照してください](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)。
+>SMSおよびプッシュの場合は、ダイナミックテキストのみを定義できます。 ランディングページでは、動的コンテンツとテキストの両方を定義できます。 電子メールデザイナーで動的テキストを定義する場合 [は](../../designing/using/designing-content-in-adobe-campaign.md)、電子メール内の動 [的コンテンツの定義を参照してください](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)。
 
 次の例は、SMSメッセージで動的テキストを定義する方法を示しています。
 
