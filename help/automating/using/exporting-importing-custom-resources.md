@@ -12,7 +12,7 @@ discoiquuid: a06509f9-4731-4187-b43d-3bfa361284d3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 71ee939b6ef256be8c693ec6e15d9609c7e80677
+source-git-commit: b10a4b3a81d676e279a9514530158286d58db813
 
 ---
 
@@ -36,7 +36,7 @@ source-git-commit: 71ee939b6ef256be8c693ec6e15d9609c7e80677
 * [パッケージの展開：運営原理](../../developing/using/data-model-concepts.md)
 * [リソースの追加または拡張](../../developing/using/key-steps-to-add-a-resource.md)
 
-## 手順1:構造の書き出し {#exporting-the-structure}
+## 構造の書き出し {#exporting-the-structure}
 
 この節では、カスタムリソースデータの物理構造の詳細を示す最初のパッケージエクスポートを行います。
 
