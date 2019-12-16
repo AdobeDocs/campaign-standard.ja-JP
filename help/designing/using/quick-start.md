@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 219f0ffeb11f1fda0d4c1c3b6f5dc7b67f9b0df0
+source-git-commit: f8b763ab70514563ab48b0233300e9dda0fba18c
 
 ---
 
@@ -33,8 +33,8 @@ source-git-commit: 219f0ffeb11f1fda0d4c1c3b6f5dc7b67f9b0df0
 
 | コンテンツなし | コンテンツあり |
 |---|---|
-| 新規での電子メールの作成 | 既存のHTMLコンテンツの変換 |
-| 標準搭載のテンプレートからのコンテンツの作成 | 既存のHTMLの読み込み |
+| [新規での電子メールの作成](#from-scratch-email) | [既存のHTMLコンテンツの変換](#converting-an-html-content) |
+| [標準搭載のテンプレートからのコンテンツの作成](#building-content-from-an-out-of-the-box-template) | [既存のHTMLの読み込み](#compatibility-mode) |
 
 ## エディターを使用した電子メールのデザイン {#without-existing-content}
 
@@ -90,11 +90,11 @@ source-git-commit: 219f0ffeb11f1fda0d4c1c3b6f5dc7b67f9b0df0
 1. 「 **Content Components**」で、HTMLを構造コンポーネントの1つにドラッグ&amp;ドロップします。
 1. 「ソース **コードを表示」をクリックします**。
 1. HTMLコンテンツを入力します。
-1. 「保存」をク **リックしま**&#x200B;す。
+1. 「**保存**」をクリックします。
 
 ![](assets/html-component-source-code.png)
 
-HTMLに詳しい場合は、コンテンツコンポーネントを使用して、元のフッターからHTMLコードをコピー&amp;ペースト **[!UICONTROL Html]** できます。 詳しくは、コンテンツコンポーネントにつ [いてを参照してくださ](../../designing/using/designing-from-scratch.md#about-content-components)い。
+HTMLに詳しい場合は、コンテンツコンポーネントを使用して、元のフッターからHTMLコードをコピー&amp;ペースト **[!UICONTROL Html]** できます。 For more on this, see [About content components](../../designing/using/designing-from-scratch.md#about-content-components).
 
 ![](assets/des_loading_compatible_fragment_9.png)
 
@@ -106,7 +106,7 @@ HTMLに詳しい場合は、コンテンツコンポーネントを使用して�
 1. 右側のパレットで「パディング」に移動し **ます**。
 1. 上下左右のパラメーターの同期を解除するには、ロックアイコンをクリックします。
 1. 必要に応 **じて** 、パディングを調整します。
-1. 「保存」をク **リックしま**&#x200B;す。
+1. 「**保存**」をクリックします。
 
 ![](assets/padding-quick-start.png)
 
@@ -118,7 +118,7 @@ HTMLに詳しい場合は、コンテンツコンポーネントを使用して�
 
 1. 電子メールを作成し、その内容を開きます。 詳しくは、「電子メールの作成」を [参照してください](../../channels/using/creating-an-email.md)。
 1. ホームアイコンをクリックして、ホームページに **[!UICONTROL Email Designer]** アクセスします。
-1. タブをクリック **[!UICONTROL Templates]** します。
+1. Click the **[!UICONTROL Templates]** tab.
 1. 標準搭載のHTMLテンプレートを選択します。
 様々なテンプレートは、複数の要素の様々な組み合わせを表します。 例えば、「Feather」テンプレートには余白があり、「Astro」テンプレートには余白がありません。 詳しくは、「コンテンツテンプレート」を参 [照してください](../../designing/using/using-reusable-content.md#content-templates)。
 1. 電子メールデ **[!UICONTROL Properties]** ザイナのホームページのタブ（ホームアイコンからアクセス可能）に移動し、セクションに入力 **[!UICONTROL Subject]** します。
@@ -126,7 +126,7 @@ HTMLに詳しい場合は、コンテンツコンポーネントを使用して�
 1. 左側の青い矢印を使用して要素を移動し、構造コンポーネントを別のコンポーネントの下または上にドラッグできます。 詳しくは、「電子メール構造の [編集」を参照してください](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
 1. また、コンポーネントを移動して、各構造要素の構成を変更することもできます。 詳しくは、フラグメントとコンポーネ [ントの追加を参照してください](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
 1. 必要に応じて、各要素の内容を変更します。画像、テキスト、リンク。
-1. 必要に応じて、スタイル設定オプションをコンテンツに合わせます。 詳しくは、「電子メールスタイルの編 [集」を参照してください](../../designing/using/styles.md)。
+1. 必要に応じて、スタイル設定オプションをコンテンツに合わせます。 For more on this, see [Editing email styles](../../designing/using/styles.md).
 
 ## 既存の電子メールコンテンツの使用 {#with-existing-content}
 
@@ -147,7 +147,7 @@ HTMLに詳しい場合は、コンテンツコンポーネントを使用して�
 電子メールデザイナーの外部で、元のHTMLが再利用可能なセクションに分割されていることを確認します。
 
 1. 電子メールデザイナーを開いて、空の電子メールコンテンツを作成します。
-1. ボディレベルの属性を設定します。背景色、幅など 詳しくは、「電子メールスタイルの編 [集」を参照してください](../../designing/using/styles.md)。
+1. ボディレベルの属性を設定します。背景色、幅など For more on this, see [Editing email styles](../../designing/using/styles.md).
 
 そうでない場合は、HTMLの異なるブロックを切り取ってください。 例えば、次の節は明確に識別されます。
 
@@ -180,7 +180,7 @@ HTMLに詳しい場合は、コンテンツコンポーネントを使用して�
 
    CSSが見つからないので、レスポンシブビューが壊れています。
 
-1. これを修正するには、ソースコードモードに切り替えて、スタイルセクションを新しいスタイルセクションにコピー&amp;ペーストします。 例：
+1. これを修正するには、ソースコードモードに切り替えて、スタイルセクションを新しいスタイルセクションにコピー&amp;ペーストします。 次に例を示します。
 
    ```
    <style type="text/css">
