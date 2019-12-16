@@ -12,7 +12,7 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 調整値に関連付けられたすべての情報を含むファイルを取得するには、次の3つの手順に従います。
 
-1. POSTリクエストを実行し **て、属性** type="access"で新しいリクエストを作成します **。詳しくは、「新しいプライバシーリク**&#x200B;エストの作成」を参照してください [](#creating-a-privacy-request)。
+1. POSTリクエストを実行し **て、属性** type="access"で新しいリクエストを作成します **。詳しくは、「新しいプライバシーリク**&#x200B;エストの作成」を参照してください [](../../api/using/creating-a-privacy-request.md)。
 
 1. リクエストに関す **る情報を取得するには、GET** リクエストを実行します。
 
