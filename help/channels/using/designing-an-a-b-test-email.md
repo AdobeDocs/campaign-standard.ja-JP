@@ -1,19 +1,19 @@
 ---
 title: A/B テスト用電子メールのデザイン
 description: A/Bテスト機能を発見し、次の手順に従って、Adobe CampaignのA/Bテストテンプレートから電子メールを作成します。
-page-status-flag: 非活性化の
+page-status-flag: never-activated
 uuid: 104f6973-68a7-4692-a90a-a5570a980ec7
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: チャネル
-content-type: 参照
-topic-tags: 電子メールメッセージ
+audience: channels
+content-type: reference
+topic-tags: email-messages
 discoiquuid: e249ba70-90d0-43f2-868c-ce9fdc7e642d
 context-tags: delivery,abTesting,back;deliveryCreation,wizard;delivery,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -57,7 +57,7 @@ A/Bテストの具体的なコンテキスト：
       すべてのトラッキングデータを収集し、勝者のバリアントを選択するために正しく考慮するには、テストが少なくとも1時間である必要があります。
    ![](assets/ab_parameters.png)
 
-1. A/Bテストパラメーターを定義したら、ウィザードの次の手順に進み、電子メールの内容を定義します。 選択したテンプレートに応じて、複数の主題、複数の送信者名、または複数の異なるコンテンツを定義できます。 カルーセルを使用して、要素の様々なバリエーション間を移動します。 詳しくは、「コンテンツエディター」の節 [を参照してくださ](../../designing/using/overview.md) い。
+1. A/Bテストパラメーターを定義したら、ウィザードの次の手順に進み、電子メールの内容を定義します。 選択したテンプレートに応じて、複数の主題、複数の送信者名、または複数の異なるコンテンツを定義できます。 カルーセルを使用して、要素の様々なバリエーション間を移動します。 詳しくは、「コンテンツエディター」の節 [を参照してくださ](../../designing/using/designing-content-in-adobe-campaign.md) い。
 
    ![](assets/create_ab_testing2.png)
 
