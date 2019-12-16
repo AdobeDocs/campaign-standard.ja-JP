@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d0d5b19ad272c406f1081ed364193c7fb793de07
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -28,7 +28,7 @@ source-git-commit: d0d5b19ad272c406f1081ed364193c7fb793de07
 
 ### コンテンツテンプレート {#content-templates}
 
-電子メールデザイナーのホームページのタブで提供さ **[!UICONTROL Templates]** れるHTMLコンテ [ンツを管理できます](../../designing/using/overview.md) 。 様々なテンプレートは、複数の要素の様々な組み合わせを表します。 例えば、「Feather」テンプレートには余白があり、「Astro」テンプレートには余白がありません。 詳しくは、「コンテンツテンプレート」を参 [照してください](#content-templates)。
+電子メールデザイナーのホームページのタブで提供さ **[!UICONTROL Templates]** れるHTMLコンテ [ンツを管理できます](../../designing/using/designing-content-in-adobe-campaign.md) 。 様々なテンプレートは、複数の要素の様々な組み合わせを表します。 例えば、「Feather」テンプレートには余白があり、「Astro」テンプレートには余白がありません。 詳しくは、「コンテンツテンプレート」を参 [照してください](#content-templates)。
 
 ![](assets/template_content.png)
 
@@ -52,7 +52,7 @@ source-git-commit: d0d5b19ad272c406f1081ed364193c7fb793de07
 
    ![](assets/email_designer_create-template_thumbnail.png)
 
-   このサムネールは、電子メールデザイナ **[!UICONTROL Templates]** ーのホームページの [タブに表示されます](../../designing/using/overview.md#about-the-email-designer) 。
+   このサムネールは、電子メールデザイナ **[!UICONTROL Templates]** ーのホームページの [タブに表示されます](../../designing/using/designing-content-in-adobe-campaign.md) 。
 
 1. タブを閉じ **[!UICONTROL Properties]** て、メインのワークスペースに戻ります。
 1. 必要に応じてカスタマイズ可能な構造コンポーネントとコンテンツコンポーネントを追加します。
@@ -61,7 +61,7 @@ source-git-commit: d0d5b19ad272c406f1081ed364193c7fb793de07
    > コンテンツテンプレート内にパーソナライゼーションフィールドや条件付きコンテンツを挿入することはできません。
 1. 編集が完了したら、テンプレートを保存します。
 
-このテンプレートは、電子メールデザイナーで作成された任意の電子メールで使用できるようになりました。 電子メールデザイナ **[!UICONTROL Templates]** ーのホームページ [のタブから](../../designing/using/overview.md#about-the-email-designer) 選択します。
+このテンプレートは、電子メールデザイナーで作成された任意の電子メールで使用できるようになりました。 電子メールデザイナ **[!UICONTROL Templates]** ーのホームページ [のタブから](../../designing/using/designing-content-in-adobe-campaign.md) 選択します。
 
 ![](assets/content_template_new.png)
 
@@ -83,7 +83,7 @@ source-git-commit: d0d5b19ad272c406f1081ed364193c7fb793de07
 
 1. 作成したテンプレートを探すには、/に移動し **[!UICONTROL Resources]** ます **[!UICONTROL Content templates & fragments]**。
 
-1. 新しいテンプレートを使用するには、電子メールデザイナ **[!UICONTROL Templates]** ーのホームページの [タブから](../../designing/using/overview.md#about-the-email-designer) 、テンプレートを選択します。
+1. 新しいテンプレートを使用するには、電子メールデザイナ **[!UICONTROL Templates]** ーのホームページの [タブから](../../designing/using/designing-content-in-adobe-campaign.md) 、テンプレートを選択します。
 
    ![](assets/content_template_new.png)
 
@@ -97,7 +97,7 @@ source-git-commit: d0d5b19ad272c406f1081ed364193c7fb793de07
 
    ![](assets/des_loading_compatible_fragment_5.png)
 
-   HTMLコードに詳しい場合は、元の電子メールのより複雑な要素をコ **[!UICONTROL Html]** ピー&amp;ペーストできるコンポーネントの活用をお勧めします。 その他のコンポーネント(、な **[!UICONTROL Button]**&#x200B;ど) **[!UICONTROL Image]** を残 **[!UICONTROL Text]** りのコンテンツに使用します。 詳しくは、コンテンツコンポーネントにつ [いてを参照してくださ](../../designing/using/designing-from-scratch.md#about-content-components)い。
+   HTMLコードに詳しい場合は、元の電子メールのより複雑な要素をコ **[!UICONTROL Html]** ピー&amp;ペーストできるコンポーネントの活用をお勧めします。 その他のコンポーネント(、な **[!UICONTROL Button]**&#x200B;ど) **[!UICONTROL Image]** を残 **[!UICONTROL Text]** りのコンテンツに使用します。 For more on this, see [About content components](../../designing/using/designing-from-scratch.md#about-content-components).
 
    >[!NOTE]
    >
@@ -170,11 +170,11 @@ source-git-commit: d0d5b19ad272c406f1081ed364193c7fb793de07
 1. 電子メールに追加する必要のあるすべての要素に対して、この手順を繰り返します。
 1. 電子メールを保存します。
 
-電子メールの構造が設定されたら、各コンテンツ要素のスタイルを編集できます。 詳しくは、 [要素の編集を参照してください](../../designing/using/styles.md#editing-an-element)。
+電子メールの構造が設定されたら、各コンテンツ要素のスタイルを編集できます。 詳しくは、 [要素の編集を参照してください](../../designing/using/styles.md)。
 
 >[!NOTE]
 >
->フラグメントが変更されると、その変更が使用されている電子メールに自動的に反映されます。 詳しくは、フラグメントについてを参照 [してください](#about-fragments)。
+>フラグメントが変更されると、その変更が使用されている電子メールに自動的に反映されます。 For more on this, see [About fragments](#about-fragments).
 
 ### コンテンツフラグメントの作成 {#creating-a-content-fragment}
 
@@ -271,7 +271,7 @@ To save as a fragment some email content that you created, follow the steps belo
 
 電子メールデザイナーを使用して、再利用可能な各セクションにフラグメントを作成します。 この例では、2つのフラグメントを作成します。1つはヘッダー用、もう1つはフッター用です。 その後、既存のコンテンツから関連部品をこれらのフラグメントにコピーできます。
 
-これを行うには、次の手順に従います。
+これをおこなうには、以下の手順に従います。
 
 1. Adobe Campaignで、/に移動し、ヘッ **[!UICONTROL Resources]** ダーのフ **[!UICONTROL Content templates & fragments]** ラグメントを作成します。 詳しくは、「コンテンツフラグメントの [作成」を参照してください](#creating-a-content-fragment)。
 1. フラグメントに必要な数だけ構造コンポーネントを追加します。
