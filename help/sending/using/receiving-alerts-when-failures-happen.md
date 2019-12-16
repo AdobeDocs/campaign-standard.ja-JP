@@ -1,18 +1,18 @@
 ---
 title: エラー発生時のアラートの受信
 description: アラート管理システムの使用方法を説明します。
-page-status-flag: 非活性化の
+page-status-flag: never-activated
 uuid: a3ab733a-e3db-4adc-b930-cd4064b6dc1c
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 送信
-content-type: 参照
-topic-tags: 監視メッセージ
+audience: sending
+content-type: reference
+topic-tags: monitoring-messages
 discoiquuid: 0766bd57-c5f1-4f56-ac84-e5a04d3819ec
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 ---
 
@@ -263,7 +263,7 @@ Adobe Campaignインターフェイスから、次の操作を行うことがで
 
    * フィルタリングタイポロジルールを作成して、配信分析中にメッセージターゲットの一部（検疫済みの受信者など）を除外します。 See [Creating a filtering rule](../../administration/using/filtering-rules.md).
    * 適切な検疫管理プロセスを維持するために、顧客データベースを定期的に更新します。 「隔離につ [いて」を参照してくださ](../../sending/using/understanding-quarantine-management.md#about-quarantines)い。
-   * 一般に、配信品質はできるだけ向上します。 『Adobe Campaign v7 [Managing deliveribility](http://docs.campaign.adobe.com/doc/AC/getting_started/EN/deliverability.html) 』詳細ガイドを参照し、Adobe Campaign管理者にお問い合わせください。
+   * 一般に、配信品質はできるだけ向上します。 Adobe Campaignの配信品質に関する詳細なドキ [ュメントを参照し](../../sending/using/about-deliverability.md) 、Adobe Campaign管理者にお問い合わせください。
 
 
 
