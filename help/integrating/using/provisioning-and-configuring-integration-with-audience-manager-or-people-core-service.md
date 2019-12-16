@@ -12,7 +12,7 @@ discoiquuid: eb24f4ea-325f-433a-91a0-c45906320bcb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b5dc0078bdc48a4c5c1ffc397f51db9222662477
+source-git-commit: 7e887fff76660dcb0369d4222e1ab3ac391c3a2d
 
 ---
 
@@ -47,7 +47,7 @@ Audience Manager(AAM)またはPeopleコアサービスの統合により、Adobe
   </tr> 
   <tr> 
    <td> <strong>AAM または People コアサービス</strong><br /> </td> 
-   <td> 例：Adobe Audience Manager </td> 
+   <td> 例：Adobe Audience Managerを参照してください。 プロビジョニングチームに、Audience Managerライセンスを所有しているかどうかに関わらず、必ず言及してください。</td> 
   </tr> 
   <tr> 
    <td> <strong>宣言済み ID または訪問者 ID</strong><br /> </td> 
@@ -59,18 +59,6 @@ Audience Manager(AAM)またはPeopleコアサービスの統合により、Adobe
   </tr> 
  </tbody> 
 </table>
-
-*は、すべ **[!UICONTROL Declared ID]** ての共有オーディエンス統合で機能します。 Peopleコアサービスを使用している場合は、ソリューションに応じての使用 **[!UICONTROL Declared ID]** 方法が変わる可能性があります。
-
-* オーディエンスがAdobe CampaignからPeopleコアサービスを介してAdobe targetに共有されている場合、プロビジョニン **[!UICONTROL Declared ID]** グを行うことができます。
-* オーディエンスがAdobe CampaignからAd cloudにPeopleコアサービスを介して共有される場合、オーディエンスの履歴バックフィルにプロビジョニ **[!UICONTROL Declared ID]** ングを使用することはできません。 また、オーディエンスの構築時に、遅延が発生する場合もあります。
-* オーディエンスがAdobe AnalyticsからPeopleコアサービスを介してAdobe Campaignに共有されている場合、セグメントはAdobe Campaignに入力されませ **[!UICONTROL Declared ID]**&#x200B;ん。
-
->[!NOTE]
->
->Peopleコアサービスの代わりにAdobe Audience Managerを使用している場合は、すべての **[!UICONTROL Declared ID]** シナリオで機能します。
-
-You can raise a request for **[!UICONTROL Declared ID]** provisioning to the following address: [Digital-Request@adobe.com](mailto:Digital-Request@adobe.com).
 
 ## Adobe Campaignでの統合の設定 {#configuring-the-integration-in-adobe-campaign}
 
