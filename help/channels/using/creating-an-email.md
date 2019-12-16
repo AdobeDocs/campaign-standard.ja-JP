@@ -1,18 +1,18 @@
 ---
 title: 電子メールの作成
 description: Adobe Campaignで単一送信電子メールを作成するには、次の手順に従います。
-page-status-flag: 非活性化の
-uuid: 74c7ef35-82c0-4bc4-b1f6-8e74fdcae3c
-contentOwner: ソビア
+page-status-flag: never-activated
+uuid: 74c7ef35-82c0-4bc4-b1f6-8e74fdcaea3c
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: チャネル
-content-type: 参照
-topic-tags: 電子メールメッセージ
+audience: channels
+content-type: reference
+topic-tags: email-messages
 discoiquuid: b27e0170-e73f-4782-8568-02927fb374f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -47,7 +47,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    ![](assets/email_creation_3.png)
 
-1. 電子メールデザイナーを使用して、メッセージの内容、送信者名、件名を定義し、パーソナラ [イズしま](../../designing/using/overview.md)す。 For more on this, see [About email content design](../../designing/using/overview.md).
+1. 電子メールデザイナーを使用して、メッセージの内容、送信者名、件名を定義し、パーソナラ [イズしま](../../designing/using/designing-content-in-adobe-campaign.md)す。 For more on this, see [About email content design](../../designing/using/designing-content-in-adobe-campaign.md).
 
    ![](assets/email_creation_4.png)
 
