@@ -1,18 +1,18 @@
 ---
 title: 動的レポートについて
 description: 動的レポートを使用して、変数やディメンションをフリーフォーム環境にドラッグ&ドロップし、キャンペーンの成功を分析します。
-page-status-flag: 非活性化の
+page-status-flag: never-activated
 uuid: a84a18bd-4e33-466e-a6ce-d7008fe12746
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: レポート
-content-type: 参照
-topic-tags: 報告に関する
+audience: reporting
+content-type: reference
+topic-tags: about-reporting
 discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: f78e101b8abea3640ad93db6ff53243a42e07086
 
 ---
 
@@ -63,10 +63,6 @@ Dynamic Reportingは、完全にカスタマイズ可能なリアルタイムレ
 
 ## 動的レポートの使用許諾契約 {#dynamic-reporting-usage-agreement}
 
->[!NOTE]
->
-> Campaign Standard 19.4リリースから、Dynamic Reportingの同意ポップアップが更新され、Adobe Campaign StandardとMicrosoft Dynamics 365の統合が含まれるようになりました。
-
 動的レポートの使用許諾契約の目的は、データ処理のポップアップ同意として機能することです。 デフォルトでは、契約は表示されるだけで、管理権限を持つユーザーのみが承諾または拒否できます。
 
 次の3つのオプションを使用できます。
@@ -92,7 +88,5 @@ Dynamic Reportingは、完全にカスタマイズ可能なリアルタイムレ
 この選択は最終的なものではありません。//を選択して、い **[!UICONTROL Enable PII data to be transferred to US region to use reporting on Profile data]** つでも **[!UICONTROL Administration]** 変更で **[!UICONTROL Application Settings]** きま **[!UICONTROL Options]**&#x200B;す。
 
 この値は、いつでも変更できます。 値1は、、2および3 **[!UICONTROL Ask me later]**&#x200B;に対応 **[!UICONTROL Decline]** します **[!UICONTROL Accept]**。
-
-Adobe Campaign Standard 19.4より前のリリースでは、-1の値は0と1に対応し **[!UICONTROL Ask me later]**&#x200B;ているこ **[!UICONTROL Decline]** とに注意しま **[!UICONTROL Accept]**&#x200B;す。
 
 ![](assets/pii_window_2.png)
