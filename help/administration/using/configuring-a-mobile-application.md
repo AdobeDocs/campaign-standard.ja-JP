@@ -1,25 +1,25 @@
 ---
 title: モバイルアプリケーションの設定
 description: SDK V4またはExperience Platform SDKを使用して、プッシュ通知またはアプリ内メッセージを送信するAdobe Campaignの設定方法を確認します。
-page-status-flag: 非活性化の
+page-status-flag: never-activated
 uuid: 63e1476a-7875-4f48-ba9e-97f1a0007e42
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 管理
-content-type: 参照
-topic-tags: 設定チャネル
+audience: administration
+content-type: reference
+topic-tags: configuring-channels
 discoiquuid: 2a14500f-5ede-4131-8b1a-b7fd65b7e3aa
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: bdec2b6937be17841be6254c6907556dddf1df40
 
 ---
 
 
 # モバイルアプリケーションの設定{#configuring-a-mobile-application}
 
-プッシュ通知またはアプリ内メッセージは、使用するチャネルに応じて、まずAdobe Mobile Servicesで設定する必要があるモバイルアプリケーションで受信されます。
+使用するチャネルに応じてAdobe Campaign Standardで設定する必要があるモバイルアプリケーションで、プッシュ通知またはアプリ内メッセージが受信されます。
 
 * アプリ内メッセージとプッシュ通知を送信するには、Adobe Experience Platform SDKを利用して、モバイルアプリケーションをAdobe Campaignで設定する必要があります。 詳しくは、 [Adobe Experience Platform SDKの使用を参照してください](#using-adobe-experience-platform-sdk)。
 
