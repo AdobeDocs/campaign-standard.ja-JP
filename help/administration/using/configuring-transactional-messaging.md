@@ -12,7 +12,7 @@ discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: 867215b295a7539d8499fa0bb1865605695da020
 
 ---
 
@@ -89,7 +89,7 @@ Adobe Campaignでトランザクションメッセージを送信するには、
 **関連トピック：**
 
 * [イベントのプレビューと公開](#previewing-and-publishing-the-event)
-* [トランザクションメッセージでの製品リストの使用](#using-product-listings-in-a-transactional-message)
+* [トランザクションメッセージでの製品リストの使用](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message)
 
 ## トランザクションメッセージコンテンツの強化 {#enriching-the-transactional-message-content}
 
