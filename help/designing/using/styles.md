@@ -12,18 +12,17 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 59007b6379bc3c0656cc0a3e5d11e15ce15f805a
+source-git-commit: ddbf8ea62c4f8bba4ea53dc1daa7064704c97db2
 
 ---
 
 
 # スタイルの管理 {#managing-styles}
 
-## 要素の編集 {#editing-an-element}
 
 電子メールデザイナーでは、要素を選択する際に、選択したコンテンツの種類に固有のオプションがペインに表示さ **[!UICONTROL Settings]** れます。 これらのオプションを使用すると、電子メールのスタイルを簡単に変更できます。
 
-### 要素の選択 {#selecting-an-element}
+## 要素の選択 {#selecting-an-element}
 
 電子メールデザイナーインターフェイスで要素を選択するには、次のいずれかを実行します。
 
