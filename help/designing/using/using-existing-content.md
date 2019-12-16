@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9e17218048daa091538a09dea6e2eabca0814a5f
+source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Campaignには、作業を開始する際に役立つ事前定義済みコ
 
 >[!NOTE]
 >
->次の画像は、電子メールデザイナーを使用して既存のコンテンツを読み込む方法 [を示していま](../../designing/using/overview.md)す。
+>次の画像は、電子メールデザイナーを使用して既存のコンテンツを読み込む方法 [を示していま](../../designing/using/designing-content-in-adobe-campaign.md)す。
 
 1. 電子メールまたはランディングページを作成したら、そのコンテンツを開きます。
 1. ホームアイコンをクリックして、ホームページに **[!UICONTROL Email Designer]** アクセスします。
@@ -47,7 +47,7 @@ Adobe Campaignには、作業を開始する際に役立つ事前定義済みコ
 
    >[!NOTE]
    >
-   >電子メー [ルデザイナーは](../../designing/using/overview.md) 、特定のタグ付けを使用します。 キャンペーンにアップロードされる標準HTMLコンテンツは、電子メールデザイナーで完全な互換性と編集が可能なタグと一致する必要があります。 一致しない場合、コンテンツは互換モードでアップ [ロードされます](#compatibility-mode)。 既存のコンテンツを互換性を持たせるには、この節を [参照してくださ](#editing-existing-contents-with-the-email-designer)い。
+   >電子メー [ルデザイナーは](../../designing/using/designing-content-in-adobe-campaign.md) 、特定のタグ付けを使用します。 キャンペーンにアップロードされる標準HTMLコンテンツは、電子メールデザイナーで完全な互換性と編集が可能なタグと一致する必要があります。 一致しない場合、コンテンツは互換モードでアップ [ロードされます](#compatibility-mode)。 既存のコンテンツを互換性を持たせるには、この節を [参照してくださ](#editing-existing-contents-with-the-email-designer)い。
 
 **関連トピック：**
 
@@ -56,7 +56,7 @@ Adobe Campaignには、作業を開始する際に役立つ事前定義済みコ
 
 ## 電子メールデザイナーによる既存のコンテンツの編集{#editing-existing-contents-with-the-email-designer}
 
-電子メールデザイナーの編集機能を最大限に活用するには [](../../designing/using/overview.md)、アップロードしたHTMLに、WYSIWYGエディターに準拠する特定のタグが含まれている必要があります。
+電子メールデザイナーの編集機能を最大限に活用するには [](../../designing/using/designing-content-in-adobe-campaign.md)、アップロードしたHTMLに、WYSIWYGエディターに準拠する特定のタグが含まれている必要があります。
 
 HTMLの全部または一部にこのタグが付いていない場合、コンテンツは「互換性モード [](#compatibility-mode)」に読み込まれます。
 
@@ -126,7 +126,7 @@ URLから既存のコンテンツを取得するには、次の手順に従い�
 
 1. 取得したURLコンテンツをプレビューするには、メッセージの作成後にメッセージを開き、ボタンをクリック **[!UICONTROL Preview]** します。
 
-コンテンツの取得元のリモートURLをパーソナライズすることができます。 これを行うには、次の手順に従います。
+コンテンツの取得元のリモートURLをパーソナライズすることができます。 これをおこなうには、以下の手順に従います。
 
 1. 画面の上部にある電子メールラベルをクリックして、「電子メールデザイナー」タブにアクセ **[!UICONTROL Properties]** スします。
 1. フィールドを探 **[!UICONTROL Remote URL]** します。
@@ -182,7 +182,7 @@ URLから既存のコンテンツを取得するには、次の手順に従い�
 
 電子メールデザイナーの外部で、元のHTMLが再利用可能なセクションに分割されていることを確認します。
 
-そうでない場合は、HTMLの異なるブロックを切り取ってください。 例：
+そうでない場合は、HTMLの異なるブロックを切り取ってください。 次に例を示します。
 
 ```
 <!-- 3 COLUMN w/CTA (SCALED) -->
@@ -207,7 +207,7 @@ URLから既存のコンテンツを取得するには、次の手順に従い�
 すべてのブロックを特定したら、電子メールデザイナで、既存の電子メールの各セクションに対して次の手順を繰り返します。
 
 1. 電子メールデザイナーを開いて、空の電子メールコンテンツを作成します。
-1. ボディレベルの属性を設定します。背景色、幅など 詳しくは、「電子メールスタイルの編 [集」を参照してください](../../designing/using/styles.md)。
+1. ボディレベルの属性を設定します。背景色、幅など For more on this, see [Editing email styles](../../designing/using/styles.md).
 1. 構造コンポーネントを追加します。 詳しくは、「電子メール構造の [編集」を参照してください](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
 1. HTMLコンポーネントを追加します。 詳しくは、フラグメントとコンポーネ [ントの追加を参照してください](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
 1. HTMLをそのコンポーネントにコピー&amp;ペーストします。
@@ -215,7 +215,7 @@ URLから既存のコンテンツを取得するには、次の手順に従い�
 
    CSSが見つからないので、レスポンシブビューが壊れています。
 
-1. これを修正するには、ソースコードモードに切り替えて、スタイルセクションを新しいスタイルセクションにコピー&amp;ペーストします。 例：
+1. これを修正するには、ソースコードモードに切り替えて、スタイルセクションを新しいスタイルセクションにコピー&amp;ペーストします。 次に例を示します。
 
    ```
    <style type="text/css">
