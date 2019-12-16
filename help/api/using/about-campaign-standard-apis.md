@@ -12,7 +12,7 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4f7217a114454781b9e7cca261fd2d47717f3636
+source-git-commit: 594b2d3c3dcc1ec13ab06ca6219ad59fe1a267d8
 
 ---
 
@@ -43,4 +43,4 @@ Campaign Standard APIを使用するには、Adobe I/Oアカウントが必要�
 
 このドキュメントでは、APIの操作、完全なAPIリファレンス、コード例、クイックスタートガイドに関する一般的なノーションを含む、すべてのエンドポイントについて詳しく説明しています。
 
-何か足りないものや間違っているものがあれば、コミュニティにお問い合わ [せくださ](http://help-forums.adobe.com/content/adobeforums/en/campaign-forum/adobe-campaign.html)い。
+何か足りないものや間違っているものがあれば、コミュニティにお問い合わ [せくださ](https://help-forums.adobe.com/content/adobeforums/en/campaign-forum/adobe-campaign.html)い。
