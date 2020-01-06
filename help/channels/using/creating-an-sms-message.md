@@ -1,19 +1,19 @@
 ---
 title: SMS メッセージの作成
 description: Adobe Campaignで単一送信SMSメッセージを作成するには、次の手順に従います。
-page-status-flag: 非活性化の
+page-status-flag: never-activated
 uuid: 591ae97e-2d19-4f93-be4b-d8d20f1d2d12
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: チャネル
-content-type: 参照
+audience: channels
+content-type: reference
 topic-tags: sms-messages
 discoiquuid: b27381a9-19e5-4b65-b194-c72f475ba54d
 delivercontext-tags: deliveryCreation,wizard
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
 
 ---
 
@@ -26,7 +26,7 @@ SMS配信の作成は、通常の電子メールの作成と非常に似てい�
 
 SMSメッセージを作成して携帯電話に送信するには、次の操作が必要です。
 
-* モード **[!UICONTROL Routing]** を使用してチャネルに設定 **[!UICONTROL Mobile (SMS)]** された外部アカウ **[!UICONTROL Bulk delivery]** ント。 For more on this, refer to the [Routing](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing) section.
+* モード **[!UICONTROL Routing]**を使用してチャネルに設定**[!UICONTROL Mobile (SMS)]** された外部アカウ **[!UICONTROL Bulk delivery]**ント。 For more on this, refer to the[Routing](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing)section.
 * この外部アカウントに正しくリンクされた配信テンプレート。
 
 1. SMS配信を作成します。 これは、Adobe Campaignホームページ、キャンペーン [またはマーケティングア](../../start/using/interface-description.md#home-page)クティビティ [リスト](../../start/using/marketing-activities.md#creating-a-marketing-activity) から実行できます [](../../start/using/programs-and-campaigns.md#creating-a-campaign)。
@@ -51,7 +51,7 @@ SMSメッセージを作成して携帯電話に送信するには、次の操�
 
    ![](assets/sms_creation_3.png)
 
-1. SMSにコンテンツを追加します。 また、SMSの作成が完了したら、配信ダッシュボ **[!UICONTROL Content]** ードのセクションをクリックして、コンテンツを定義することもできます。 SMSコンテンツ [デザインについてを参照してくださ](../../channels/using/about-sms-and-push-content-design.md)い。
+1. SMSにコンテンツを追加します。 また、SMSの作成が完了したら、配信ダッシュボ **[!UICONTROL Content]**ードのセクションをクリックして、コンテンツを定義することもできます。 SMSコンテンツ[デザインについてを参照してくださ](../../channels/using/about-sms-and-push-content-design.md)い。
 
    SMSメッセージのコンテンツにパーソナライゼーションフィールドまたは条件テキストを挿入した場合、メッセージの長さは受信者によって異なる場合があります。 実際、これらの要因によって、GSMエンコーディングで考慮されない文字が生じる可能性があります。 これは、パーソナライゼーションが実行された後にメッセージの長さを評価する必要がある理由です。 See [Personalizing SMS messages](../../channels/using/personalizing-sms-messages.md).
 
@@ -79,6 +79,6 @@ SMSメッセージを作成して携帯電話に送信するには、次の操�
 **関連トピック：**
 
 * [SMSとプッシュコンテンツエディションについて](../../channels/using/about-sms-and-push-content-design.md)
-* [テンプレートの管理](../../start/using/about-templates.md)
+* [テンプレートの管理](../../start/using/marketing-activity-templates.md)
 * [SMS配信ビデオの作成](https://helpx.adobe.com/campaign/kt/acs/using/acs-creating-a-sms-delivery-feature-video-use.html) （英語のみ）
 
