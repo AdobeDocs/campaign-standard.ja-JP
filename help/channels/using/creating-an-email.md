@@ -12,7 +12,7 @@ discoiquuid: b27e0170-e73f-4782-8568-02927fb374f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
+source-git-commit: c458acd74eae4be614336afcc2f1d2619563670a
 
 ---
 
@@ -23,13 +23,13 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 1. 電子メールマーケティングアクティビティの作成を開始したら、使用するテンプレートを選択します。
 
-   デフォルトでは、各マーケティングアクティビティに対して複数のテンプレートから選択できます。 これにより、ニーズに応じて特定のパラメーターを事前設定し、ブランドを配信に割り当てることができます。 詳しくは、「テンプレートの管理」を参 [照してください](../../start/using/about-templates.md)。
+   デフォルトでは、各マーケティングアクティビティに対して複数のテンプレートから選択できます。 これにより、ニーズに応じて特定のパラメーターを事前設定し、ブランドを配信に割り当てることができます。 詳しくは、「テンプレートの管理」を参 [照してください](../../start/using/marketing-activity-templates.md)。
 
    ![](assets/email_creation_1.png)
 
    >[!NOTE]
    >
-   >フォローアップおよびA/Bテストテンプレートは、デフォルトで非表示になっています。 表示する場合は、左側（横パネル） **[!UICONTROL Filter]** のチェックボックスをオンにします。
+   >フォローアップおよびA/Bテストテンプレートは、デフォルトで非表示になっています。 表示する場合は、左側（横パネル） **[!UICONTROL Filter]**のチェックボックスをオンにします。
 
 1. 電子メールの一般プロパティを入力します。 「ラベル」フィールドに名前を入力し **て** 、IDを編集できます。 アクティビティ名とそのIDは両方ともインターフェイスに表示されますが、メッセージの受信者には表示されません。
 
@@ -58,11 +58,11 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
    >[!NOTE]
    >
-   >電子メールを保存するには、まずコンテンツに編集を加える必要があります。 この時点でク **[!UICONTROL Cancel]** リックすると、ウィザードは完了せず、電子メールは作成されません。
+   >電子メールを保存するには、まずコンテンツに編集を加える必要があります。 この時点でク **[!UICONTROL Cancel]**リックすると、ウィザードは完了せず、電子メールは作成されません。
 
    電子メールダッシュボードが表示されます。 メッセージを確認し、送信を準 [備できます](../../sending/using/preparing-the-send.md)。
 
-   右上隅 **[!UICONTROL Edit properties]** のボタンを使用して、電子メールのプロパティを編集できます。 例えば、電子メールを設定して、配信の準備時にラベルが計算されるようにすることができます。  Available parameters are listed in [this section](../../administration/using/configuring-email-channel.md#list-of-email-properties).
+   右上隅 **[!UICONTROL Edit properties]**のボタンを使用して、電子メールのプロパティを編集できます。 例えば、電子メールを設定して、配信の準備時にラベルが計算されるようにすることができます。  Available parameters are listed in[this section](../../administration/using/configuring-email-channel.md#list-of-email-properties).
 
    ![](assets/delivery_dashboard_2.png)
 
