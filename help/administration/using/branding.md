@@ -1,19 +1,19 @@
 ---
 title: ブランディング
 description: ブランドIDを管理するために使用できるすべてのツールを見つけます。
-page-status-flag: 非活性化の
-uuid: d66ac5a2-2ae1-4870-b48e-7f276744fdd
-contentOwner: ソビア
+page-status-flag: never-activated
+uuid: d66ac5a2-2ae1-4870-b48e-7f276744ffdd
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 管理
-content-type: 参照
+audience: administration
+content-type: reference
 topic-tags: application-settings
 discoiquuid: cbb1dcec-3bc6-4013-87fa-27d0e5d32bf8
-context-tags: ブランド，概要；ブランド，メイン
+context-tags: branding,overview;branding,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
 
 ---
 
@@ -31,14 +31,14 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 ブランドの設定と使用の主な原則は、次のとおりです。
 
 1. ブランドの作成と設定 — この操作には特定の権限が必要で、Adobe Campaignテクニカル管理者が実行します。
-1. このブランド用に1つまたは複数の配信およびランディングページテンプレートを作成します。 詳しくは、「テンプレ [ートの作成](../../start/using/about-templates.md) 」を参照してください。
+1. このブランド用に1つまたは複数の配信およびランディングページテンプレートを作成します。 詳しくは、「テンプレ [ートの作成](../../start/using/marketing-activity-templates.md) 」を参照してください。
 1. このテンプレートに基づいてメッセージおよびランディングページを作成します。 「電子メールの作 [成」および「ランディン](../../channels/using/creating-an-email.md) グページの作成 [」の節を参照してください](../../channels/using/designing-a-landing-page.md) 。
 
 >[!CAUTION]
 >
 >ブランドはエンドユーザーが作成または変更できません。これらの操作は、Adobe Campaignテクニカル管理者が実行する必要があります。 ご要望はアドビカスタマーケアにお問い合わせください。 マルチブランドは、トランザクションメッセージングのコンテキストでは使用できません。 詳しくは、トランザクションメッセージとブラ [ンディングを参照してくださ](../../channels/using/about-transactional-messaging.md#permissions-and-branding)い。
 
-ブランドはメニューに表示され **[!UICONTROL Administration > Instance settings > Brand configuration]** ます。
+ブランドはメニューに表示され **[!UICONTROL Administration > Instance settings > Brand configuration]**ます。
 
 デフォルトでは、新しく作成されたブランドは、管理者によって対応する権限を持つユーザーにのみ表示されます。
 
@@ -53,7 +53,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
    * **ブランドのWebサ** イトURL **** 、Webサイトラベル
    * **ブランドロゴ**
 
-* **[!UICONTROL Header parameters of sent emails]** キャンペーンの受信者に表示される情報をパーソナライズします。 この節では、以下のフィールドについて説明します。
+* **[!UICONTROL Header parameters of sent emails]**キャンペーンの受信者に表示される情報をパーソナライズします。 この節では、以下のフィールドについて説明します。
 
    ![](assets/branding_04_header.png)
 
@@ -88,11 +88,11 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 >[!NOTE]
 >
->テンプレートの作成の詳細については、「テンプレートの作成」の節 [を参照してください](../../start/using/about-templates.md) 。
+>テンプレートの作成の詳細については、「テンプレートの作成」の節 [を参照してください](../../start/using/marketing-activity-templates.md) 。
 
 テンプレートを作成したら、ブランドにリンクできます。 手順は次のとおりです。
 
-1. ボタンをクリックし **[!UICONTROL Edit properties]** て、テンプレートのプロパティにアクセスします。
+1. ボタンをクリックし **[!UICONTROL Edit properties]**て、テンプレートのプロパティにアクセスします。
 
    ![](assets/branding_04.png)
 
@@ -100,11 +100,11 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    >[!NOTE]
    >
-   >デフォルトでは、が選 **[!UICONTROL Default brand (branding)]** 択されます。
+   >デフォルトでは、が選 **[!UICONTROL Default brand (branding)]**択されます。
 
    ![](assets/branding_05.png)
 
-   選択したブランドの構成を表示するには、アイコンをクリック **[!UICONTROL Navigate to the detail of the element selected]** します。
+   選択したブランドの構成を表示するには、アイコンをクリック **[!UICONTROL Navigate to the detail of the element selected]**します。
 
    ![](assets/branding_06.png)
 
@@ -122,7 +122,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 >
 >ブランド設定は、特定の権限と技術的な設定が必要なので、アドビによってのみ管理されます。
 
-1. Adobe Campaign管理者がでブランドを作成します **[!UICONTROL Administration > Instance settings > Brand configuration]**。 彼はアドバンスメ **ニューからトロピクス要素にバカンスを加え** 、ブランドの **[!UICONTROL ID]** 状況と **[!UICONTROL Header parameters of sent emails]** 状況を設定します。
+1. Adobe Campaign管理者がでブランドを作成します **[!UICONTROL Administration > Instance settings > Brand configuration]**。 彼はアドバンスメ**&#x200B;ニューからトロピクス要素にバカンスを加え&#x200B;**、ブランドの**[!UICONTROL ID]** 状況と **[!UICONTROL Header parameters of sent emails]**状況を設定します。
 
    ![](assets/branding_07.png)
 
@@ -138,7 +138,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 配信マネージャーは、新しいブランドを使用する配信テンプレートの作成を担当します。 これを行うには、次の手順に従います。
 
-1. アドバンスメニューで、組 **[!UICONTROL Resources > Templates > Delivery templates]**&#x200B;み込みのテンプレートを複製して、新しい配信テンプレートを設定します。
+1. アドバンスメニューで、組 **[!UICONTROL Resources > Templates > Delivery templates]**み込みのテンプレートを複製して、新しい配信テンプレートを設定します。
 
    ![](assets/branding_08.png)
 
@@ -157,11 +157,11 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ブランドにリンクした電子メールを作成するには、次の手順に従います。
 
-1. メニューから **[!UICONTROL Create]** ボタンをクリック **[!UICONTROL Marketing activities]** します。
+1. メニューから **[!UICONTROL Create]**ボタンをクリック**[!UICONTROL Marketing activities]** します。
 
    ![](assets/branding_14.png)
 
-1. アクティビティ **[!UICONTROL Email]** を選択し、新しいブランドにリンクされたテンプレートを選択します。
+1. アクティビティ **[!UICONTROL Email]**を選択し、新しいブランドにリンクされたテンプレートを選択します。
 
    ![](assets/branding_15.png)
 
