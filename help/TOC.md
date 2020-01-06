@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: bbc2986fe50948d88ed65b0d43ff61650132aad5
+source-git-commit: cb5cc55c431cbe6050699a35ef2fff270f869dee
 
 ---
 
@@ -34,12 +34,8 @@ source-git-commit: bbc2986fe50948d88ed65b0d43ff61650132aad5
    + マーケティングプラン{#marketing-plans}
       + [プログラムとキャンペーン](start/using/programs-and-campaigns.md)
       + [マーケティング活動](start/using/marketing-activities.md)
+      + [マーケティング活動テンプレート](start/using/marketing-activity-templates.md)
       + [タイムライン](start/using/timeline.md)
-   + テンプレートの管理{#managing-templates}
-      + [テンプレートについて](start/using/about-templates.md)
-      + [新しいテンプレートの作成](start/using/creating-a-new-template.md)
-      + [多言語テンプレートの作成](start/using/creating-a-multilingual-template.md)
-      + [テンプレートの使用](start/using/using-a-template.md)
    + チュートリアル{#tutorials}
       + [詳細な手順ガイド](start/using/step-by-step-guides.md)
       + [ハウツービデオ](start/using/how-to-videos.md)
