@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
+source-git-commit: db2495f66535ad5d1a64143f91e5db9cca54aca6
 
 ---
 
@@ -111,7 +111,7 @@ Adobe Experience Platform SDKを使用したモバ **イルアプリケーショ
 
 コンテンツテンプレートとフラグメントについて説明する節が更新されました。 [詳細を表示](../../designing/using/using-reusable-content.md#content-templates)
 
-電子メールデザイナーで電子メールコンテンツをテンプレートとして保存する方法に関する新しい節が追加されました。 [詳細を表示](../../start/using/about-templates.md#saving-content-as-template)
+電子メールデザイナーで電子メールコンテンツをテンプレートとして保存する方法に関する新しい節が追加されました。 [詳細を表示](../../designing/using/using-reusable-content.md#saving-content-as-template)
 
 ## リリース19.3 - 2019年7月 {#release-19-3---july-2019}
 
@@ -321,7 +321,7 @@ Microsoft Edge（最新バージョン）が、コンピューター用の互換
 
 受信移行が空の場合にファイルを生成できないようにする、ファイルの抽出アクティビティの新しいオプションに関する情報を追加しました。 [詳細を表示](../../automating/using/extract-file.md)
 
-「SDK V4を使用したモバイルアプリケーションの設定」の節は、ここに移動さ [れました](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)。
+「SDK V4を使用したモバイルアプリケーションの設定」の節は、こちらを参照して [ください](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)。
 
 「Adobe Experience Platform SDKを使用したモバイルアプリケーションの設定」の節は、こちらを参照して [ください](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)。
 
@@ -365,7 +365,7 @@ Experience ManagerとAdobe Campaignドキュメントの統合を更新しまし
 
 Creative Designerに完全に準拠するためのHTML属性のリストをこの節で利用できるようになり [ました](../../designing/using/using-existing-content.md#editing-existing-contents-with-the-email-designer)。
 
-多言語テンプレートのデフォルト言語に関する情報を追加しました。 [詳細を表示](../../start/using/creating-a-multilingual-template.md)
+多言語テンプレートのデフォルト言語に関する情報を追加しました。 [詳細を表示](../../channels/using/multilingual-messages-template.md)
 
 新しいCampaign Standardインスタンスの地理的単位機能の減少と、18.7リリース以降の地理的単位が作成されていない既存のインスタンスを反映するように、ユーザーとセキュリティガイドが更新されました。 [詳細を表示](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
 
@@ -473,15 +473,15 @@ CampaignとAdobeソリューションの統合のほとんどのURLが変更さ�
 
 リリースノートは2ページに編成し直され、すべてのリリースをよりグローバルに表示できるようになりました。最新のリリ [ースノート](../../rn/using/release-notes.md) および [以前のリリースノート](../../rn/using/release-notes-2015-2016.md)
 
-セクシ **[!UICONTROL Working with typologies]** ョンが更新され、視認性が向上しました。 [詳細を表示](../../administration/using/about-typology-rules.md)
+セクシ **[!UICONTROL Working with typologies]**ョンが更新され、視認性が向上しました。[詳細を表示](../../administration/using/about-typology-rules.md)
 
-に多くの追加データを定義する際にパフォーマンスを向上できる新しいオプションが使 **[!UICONTROL Query]** 用できるようになりました。 [詳細を表示](../../automating/using/query.md)
+に多くの追加データを定義する際にパフォーマンスを向上できる新しいオプションが使 **[!UICONTROL Query]**用できるようになりました。[詳細を表示](../../automating/using/query.md)
 
 プロファイルのインポートの例が更新され、プロファイルがダイレクトメールを受け取る準備ができるようになりました。 [詳細を表示](../../automating/using/importing-data.md)
 
-ワークフローで新しいアクティビティを使用できます。アクテ **[!UICONTROL Enrichment]** ィビティ [詳細を表示](../../automating/using/enrichment.md)
+ワークフローで新しいアクティビティを使用できます。アクテ **[!UICONTROL Enrichment]**ィビティ[詳細を表示](../../automating/using/enrichment.md)
 
-アクティビテ **[!UICONTROL Subscription Services]** ィが更新され、1つのファイルを使用して複数のサービスの購読を更新するなど、より多くの使用例をサポートするようになりました。 [詳細を表示](../../automating/using/subscription-services.md)
+アクティビテ **[!UICONTROL Subscription Services]**ィが更新され、1つのファイルを使用して複数のサービスの購読を更新するなど、より多くの使用例をサポートするようになりました。[詳細を表示](../../automating/using/subscription-services.md)
 
 配信の準備方法に関する使用例を追加しました。 [詳細を表示](../../sending/using/preparing-the-send.md)
 
@@ -491,7 +491,7 @@ SMS自動応答の使用方法に関する使用例を追加しました。 [詳
 
 定期的なワークフローでのユーザーのタイムゾーンに応じた配信の送信方法に関する情報を追加しました。 [詳細を表示](../../automating/using/push-notification-delivery.md#sending-a-recurring-push-notification-with-a-workflow)
 
-この節を **[!UICONTROL Customizing a push notification]** 手順を追った使用例で再編成しました。 [詳細を表示](../../channels/using/customizing-a-push-notification.md)
+この節を **[!UICONTROL Customizing a push notification]**手順を追った使用例で再編成しました。[詳細を表示](../../channels/using/customizing-a-push-notification.md)
 
 ブラックリスト管理に関する新しい節を追加しました。 [詳細を表示](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
