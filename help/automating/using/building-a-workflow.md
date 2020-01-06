@@ -1,19 +1,19 @@
 ---
 title: ワークフローの作成
 description: ここでは、新しいワークフローを作成する際の主な原則とベストプラクティスについて説明します。
-page-status-flag: 非活性化の
+page-status-flag: never-activated
 uuid: 11374f64-8d34-40da-937b-09f419250f4c
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 自動化
-content-type: 参照
+audience: automating
+content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: c26fcb0e-19d5-4bd5-b7d6-2d22ce92ad90
-context-tags: ワークフロー，ウィザード；ワークフロー，メイン
+context-tags: workflow,wizard;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
 
 ---
 
@@ -38,7 +38,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    >[!NOTE]
    >
-   >各マーケティングアクティビティには、デフォルトで複数のタイプがあります。 これにより、ニーズに合わせて特定のパラメーターを事前設定できます。 For more information, refer to the [Managing templates](../../start/using/about-templates.md) section.
+   >各マーケティングアクティビティには、デフォルトで複数のタイプがあります。 これにより、ニーズに合わせて特定のパラメーターを事前設定できます。 For more information, refer to the [Managing templates](../../start/using/marketing-activity-templates.md) section.
 
 1. ワークフローの一般的なプロパティを入力します。
 
@@ -95,7 +95,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ワークフローアクティビティをリンクしたら、選択したラベルを使用して、アクティビティ間の移行をパー **ソナライズ** できます。 これを行うには、トランジションをダブルクリックして、そのプロパティにアクセスします。
 
-さらに、アクティビティ **[!UICONTROL Targeting]** では、ア **[!UICONTROL Data management (ETL)]** ウトバウンド遷移のセグメ **ントコードを定義できます** 。 その後、これらのセグメントコードに基づいてレポートを作成し、マーケティングキャンペーンの効率を測定できます。 詳しくは、[この節](../../reporting/using/creating-a-report-workflow-segment.md)を参照してください。
+さらに、アクティビティ **[!UICONTROL Targeting]**では、ア**[!UICONTROL Data management (ETL)]** ウトバウンド遷移のセグメ **ントコードを定義できます** 。 その後、これらのセグメントコードに基づいてレポートを作成し、マーケティングキャンペーンの効率を測定できます。 詳しくは、[この節](../../reporting/using/creating-a-report-workflow-segment.md)を参照してください。
 
 **ワークフローの使用例：**
 
@@ -109,7 +109,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 デフォルトでは、アクティビティは設定されず、設定されていない場合はデータが正しく処理されません。 各アクティビティには、特定の設定およびアクティビティの汎用オプション（アウトバウンド遷移、ラベルなど）を管理するためのいくつかのタブが含まれています。
 
 1. すべてのアクティビティが正しく接続されていることを確認します。 一部のアクティビティでは、正しい設定オプションを提供するために、受信データの構造または性質を検出する必要があります。
-1. アクティビティをダブルクリックするか、選択し、コンテキストアクションをク **[!UICONTROL Edit]** リックして、設定ウィンドウを開きます。
+1. アクティビティをダブルクリックするか、選択し、コンテキストアクションをク **[!UICONTROL Edit]**リックして、設定ウィンドウを開きます。
 1. アクティビティのラベルを編集します。
 1. データの処理に必要なすべての様々なオプションを定義します。 各アクティビティで使用できるオプションについては、このドキュメントのアクティビティ固有の節を参照してください。
 1. アクティビティを保存し、ワークフローの各アクティビティに対してこれらの操作を繰り返します。
