@@ -13,7 +13,7 @@ context-tags: service,wizard;service,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
+source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
 
 ---
 
@@ -24,15 +24,15 @@ source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 サービスを設定するには：
 
-1. アドバンスメニュー/ **[!UICONTROL Profiles & audiences]** Adobe Campaign **[!UICONTROL Services]** ロゴを使用して、新しいサービスを追加するか、既存のサービスを選択します。 新しいサービスを作成する場合は、画面に表示される手順に従ってください。
+1. アドバンスメニュー/ **[!UICONTROL Profiles & audiences]**Adobe Campaign**[!UICONTROL Services]** ロゴを使用して、新しいサービスを追加するか、既存のサービスを選択します。 新しいサービスを作成する場合は、画面に表示される手順に従ってください。
 
-   デフォルトのサービステンプレートが使用可能です。 このテンプレートは、デフォルトのランディングページと確認電子メールで事前設定されています。 特定の設定を定義するための他のテンプレートを作成できます。 For more on this, refer to the [Managing templates](../../start/using/about-templates.md) section.
+   デフォルトのサービステンプレートが使用可能です。 このテンプレートは、デフォルトのランディングページと確認電子メールで事前設定されています。 特定の設定を定義するための他のテンプレートを作成できます。 For more on this, refer to the [Managing templates](../../start/using/marketing-activity-templates.md) section.
 
-1. サービスダッ **[!UICONTROL Service properties]** シュボードのボタンからア ![](assets/edit_darkgrey-24px.png) クセスできるセクションで、購読と購読解除の確認メッセージを設定します。
+1. サービスダッ **[!UICONTROL Service properties]**シュボードのボタンからア![](assets/edit_darkgrey-24px.png)クセスできるセクションで、購読と購読解除の確認メッセージを設定します。
 
    ![](assets/lp_service_parameters.png)
 
-1. Fill in the **[!UICONTROL Service label]** field. カスタム確認メッセージを使用する場合、サービスラベルは必須です。
+1. Fill in the **[!UICONTROL Service label]**field. カスタム確認メッセージを使用する場合、サービスラベルは必須です。
 
 1. 購読と購読解除の確認メッセージテンプレートを選択します。 次の3つのモードを使用できます。
 
@@ -41,9 +41,9 @@ source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
       >[!NOTE]
       >
-      >デフォルトのメッセージを変更するには、セクション内のラベルをクリックす **[!UICONTROL Service properties]** るか、ボックスをオンにした後でAdobe Campaignトランザクションメッセージリストからメッセージを選択 **[!UICONTROL Show internal transactional messages]** します。
+      >デフォルトのメッセージを変更するには、セクション内のラベルをクリックす **[!UICONTROL Service properties]**るか、ボックスをオンにした後でAdobe Campaignトランザクションメッセージリストからメッセージを選択**[!UICONTROL Show internal transactional messages]** します。
 
-   * **[!UICONTROL Custom message]**:このモードでは、各サービスに固有のカスタム確認メッセージを処理できます。 次に、特定のトランザクシ **[!UICONTROL Custom subscription event configuration]** ョンメッセージテンプレートに関連付け [られる](../../channels/using/about-transactional-messaging.md) 。 詳しくは、「サービスの購読の確 [認」を参照してください](../../audiences/using/confirming-subscription-to-a-service.md)。
+   * **[!UICONTROL Custom message]**:このモードでは、各サービスに固有のカスタム確認メッセージを処理できます。 次に、特定のトランザクシ**[!UICONTROL Custom subscription event configuration]** ョンメッセージテンプレートに関連付け [られる](../../channels/using/about-transactional-messaging.md) 。 詳しくは、「サービスの購読の確 [認」を参照してください](../../audiences/using/confirming-subscription-to-a-service.md)。
 
 1. サービスを保存します。 これで、使用する準備が整いました。
 
