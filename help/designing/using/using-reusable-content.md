@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
+source-git-commit: b26f83cd84d85d4794278af5df5d4308b2de467f
 
 ---
 
@@ -24,15 +24,30 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 >[!NOTE]
 >
-> Adobe Campaign Standardでは、リソース/テンプレートメニューからアクセスできる様々なタイプのテンプレ **ート** を作成 **できます** 。 電子メールデザイナーで使用されるテンプレートは、コンテンツテンプレートです。 詳しくは、テンプレートについてを参 [照してくださ](../../start/using/about-templates.md)い。
+> Adobe Campaign Standardでは、リソース/テンプレートメニューからアクセスできる様々なタイプのテンプレ **ート** を作成 **できます** 。 電子メールデザイナーで使用されるテンプレートは、コンテンツテンプレートです。 詳しくは、テンプレートについてを参 [照してくださ](../../start/using/marketing-activity-templates.md)い。
 
-### コンテンツテンプレート {#content-templates}
+### コンテンツテンプレートについて {#content-templates}
 
-電子メールデザイナーのホームページのタブで提供さ **[!UICONTROL Templates]** れるHTMLコンテ [ンツを管理できます](../../designing/using/designing-content-in-adobe-campaign.md) 。 様々なテンプレートは、複数の要素の様々な組み合わせを表します。 例えば、「Feather」テンプレートには余白があり、「Astro」テンプレートには余白がありません。 詳しくは、「コンテンツテンプレート」を参 [照してください](#content-templates)。
+電子メールデザイナーのホームページのタブで提供さ **[!UICONTROL Templates]**れるHTMLコンテ[ンツを管理できます](../../designing/using/designing-content-in-adobe-campaign.md)。
+
+標準搭載の電子メールコンテンツテンプレートには、モバイルに最適化された18種類のレイアウトと、Behanceのアーティストがデザインしたクラス最高の4つのレスポンシブテンプレートが含まれています。 これらは、お客様のお知らせメッセージ、ニュースレター、リエンゲージメント電子メールなど、最新の使用に対応しています。 ブランドのコンテンツを使用して簡単にカスタマイズでき、一から電子メールをデザインするプロセスを簡単に実行できます。
 
 ![](assets/template_content.png)
 
-標準搭載のテンプレートから電子メールを作成する方法については、電子メールデザイナーを参照し [てください](../../designing/using/quick-start.md#building-content-from-an-out-of-the-box-template)。
+HTMLコンテンツテンプレートは、詳細メニューの/ **[!UICONTROL Resources]**画面か**[!UICONTROL Content templates & fragments]** らアクセ [スできます](../../start/using/interface-description.md#advanced-menu)。 ここから、ランディングページのコンテンツテンプレート、電子メールコンテンツテンプレートおよびフラグメントを管理できます。
+
+![](assets/content_templates_list.png)
+
+そのまま使用できるコンテンツテンプレートは読み取り専用です。 いずれかのテンプレートを編集するには、まず目的のテンプレートを複製する必要があります。
+
+新しいテンプレートまたはフラグメントを作成し、独自のコンテンツを定義できます。 詳しくは、「コンテンツテンプレートの作 [成」および「コンテンツ](#creating-a-content-template) フラグメ [ントの作成」を参照してください](#creating-a-content-fragment)。
+
+電子メールデザイナーでコンテンツを編集する場合は、コンテンツをフラグメントまたはテンプレートとして保存して、コンテンツテンプレートを作成することもできます。 詳しくは、「コンテンツをテンプレートとし [て保存」および「コンテンツをフ](#saving-content-as-template) ラグメ [ントとして保存」を参照してくださ](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment)い。
+
+**関連トピック：**
+
+* このビデオでは、コンテンツテンプレートをパーソナラ [イズする方法を説明しま](https://helpx.adobe.com/campaign/kt/acs/using/acs-email_content_templates-feature-video-use.html)す。
+* コンテンツの編集について詳しくは、電子メールコンテンツデザ [インについてを参照してくださ](../../designing/using/designing-content-in-adobe-campaign.md)い。
 
 ### Creating a content template {#creating-a-content-template}
 
@@ -40,28 +55,28 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 次の例は、電子メールコンテンツテンプレートの作成方法を示しています。
 
-1. /に移動し、 **[!UICONTROL Resources]** をク **[!UICONTROL Content templates & fragments]** リックしま **[!UICONTROL Create]**&#x200B;す。
-1. 電子メールラベルをクリックして、電子メー **[!UICONTROL Properties]** ルデザイナーのタブにアクセスします。
+1. /に移動し、 **[!UICONTROL Resources]**をク**[!UICONTROL Content templates & fragments]** リックしま **[!UICONTROL Create]**す。
+1. 電子メールラベルをクリックして、電子メー **[!UICONTROL Properties]**ルデザイナーのタブにアクセスします。
 1. 認識可能なラベルを指定し、次のパラメーターを選択して、電子メールでこのテンプレートを使用できるようにします。
 
-   * ドロッ **[!UICONTROL Shared]** プダウン **[!UICONTROL Delivery]** リストから **[!UICONTROL Content type]** またはを選択します。
-   * ドロッ **[!UICONTROL Template]** プダウンリスト **[!UICONTROL HTML type]** から選択します。
+   * ドロッ **[!UICONTROL Shared]**プダウン**[!UICONTROL Delivery]** リストから **[!UICONTROL Content type]**またはを選択します。
+   * ドロッ **[!UICONTROL Template]**プダウンリスト**[!UICONTROL HTML type]** から選択します。
    ![](assets/email_designer_create-template.png)
 
-1. 必要に応じて、テンプレートのサムネールとして使用する画像を設定できます。 テンプレートプロパティの **[!UICONTROL Thumbnail]** タブから選択します。
+1. 必要に応じて、テンプレートのサムネールとして使用する画像を設定できます。 テンプレートプロパティの **[!UICONTROL Thumbnail]**タブから選択します。
 
    ![](assets/email_designer_create-template_thumbnail.png)
 
-   このサムネールは、電子メールデザイナ **[!UICONTROL Templates]** ーのホームページの [タブに表示されます](../../designing/using/designing-content-in-adobe-campaign.md) 。
+   このサムネールは、電子メールデザイナ **[!UICONTROL Templates]**ーのホームページの[タブに表示されます](../../designing/using/designing-content-in-adobe-campaign.md)。
 
-1. タブを閉じ **[!UICONTROL Properties]** て、メインのワークスペースに戻ります。
+1. タブを閉じ **[!UICONTROL Properties]**て、メインのワークスペースに戻ります。
 1. 必要に応じてカスタマイズ可能な構造コンポーネントとコンテンツコンポーネントを追加します。
    >[!NOTE]
    >
    > コンテンツテンプレート内にパーソナライゼーションフィールドや条件付きコンテンツを挿入することはできません。
 1. 編集が完了したら、テンプレートを保存します。
 
-このテンプレートは、電子メールデザイナーで作成された任意の電子メールで使用できるようになりました。 電子メールデザイナ **[!UICONTROL Templates]** ーのホームページ [のタブから](../../designing/using/designing-content-in-adobe-campaign.md) 選択します。
+このテンプレートは、電子メールデザイナーで作成された任意の電子メールで使用できるようになりました。 電子メールデザイナ **[!UICONTROL Templates]**ーのホームページ[のタブから](../../designing/using/designing-content-in-adobe-campaign.md)選択します。
 
 ![](assets/content_template_new.png)
 
@@ -73,17 +88,17 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 >
 >You cannot save as template a structure containing personalization fields or dynamic content.-->
 
-1. 電子メール **[!UICONTROL Save as template]** デザイナのメインツールバーから選択します。
+1. 電子メール **[!UICONTROL Save as template]**デザイナのメインツールバーから選択します。
 
    ![](assets/email_designer_save-as-template.png)
 
-1. 必要に応じてラベルと説明を追加し、をクリックしま **[!UICONTROL Save]**&#x200B;す。
+1. 必要に応じてラベルと説明を追加し、をクリックしま **[!UICONTROL Save]**す。
 
    ![](assets/email_designer_save-as-template_creation.png)
 
-1. 作成したテンプレートを探すには、/に移動し **[!UICONTROL Resources]** ます **[!UICONTROL Content templates & fragments]**。
+1. 作成したテンプレートを探すには、/に移動し **[!UICONTROL Resources]**ます**[!UICONTROL Content templates & fragments]**。
 
-1. 新しいテンプレートを使用するには、電子メールデザイナ **[!UICONTROL Templates]** ーのホームページの [タブから](../../designing/using/designing-content-in-adobe-campaign.md) 、テンプレートを選択します。
+1. 新しいテンプレートを使用するには、電子メールデザイナ **[!UICONTROL Templates]**ーのホームページの[タブから](../../designing/using/designing-content-in-adobe-campaign.md)、テンプレートを選択します。
 
    ![](assets/content_template_new.png)
 
@@ -97,11 +112,11 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
    ![](assets/des_loading_compatible_fragment_5.png)
 
-   HTMLコードに詳しい場合は、元の電子メールのより複雑な要素をコ **[!UICONTROL Html]** ピー&amp;ペーストできるコンポーネントの活用をお勧めします。 その他のコンポーネント(、な **[!UICONTROL Button]**&#x200B;ど) **[!UICONTROL Image]** を残 **[!UICONTROL Text]** りのコンテンツに使用します。 For more on this, see [About content components](../../designing/using/designing-from-scratch.md#about-content-components).
+   HTMLコードに詳しい場合は、元の電子メールのより複雑な要素をコ **[!UICONTROL Html]**ピー&amp;ペーストできるコンポーネントの活用をお勧めします。 その他のコンポーネント(、な**[!UICONTROL Button]**&#x200B;ど) **[!UICONTROL Image]**を残**[!UICONTROL Text]** りのコンテンツに使用します。 For more on this, see [About content components](../../designing/using/designing-from-scratch.md#about-content-components).
 
    >[!NOTE]
    >
-   >コンポーネントを使 **[!UICONTROL Html]** 用すると、限られたオプションで編集可能なコンポーネントが作成されます。 このコンポーネントを選択する前に、HTMLコードの処理方法を確認してください。
+   >コンポーネントを使 **[!UICONTROL Html]**用すると、限られたオプションで編集可能なコンポーネントが作成されます。 このコンポーネントを選択する前に、HTMLコードの処理方法を確認してください。
 
 1. コンテンツのコンポーネントを、元の電子メールにできる限り合うように調整します。
 
@@ -180,34 +195,34 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 独自のコンテンツフラグメントを作成し、1つ以上の電子メールで必要に応じて使用できます。
 
-1. /に移動し、 **[!UICONTROL Resources]** をク **[!UICONTROL Content templates & fragments]** リックしま **[!UICONTROL Create]**&#x200B;す。
-1. 電子メールラベルをクリックして、電子メー **[!UICONTROL Properties]** ルデザイナーのタブにアクセスします。
+1. /に移動し、 **[!UICONTROL Resources]**をク**[!UICONTROL Content templates & fragments]** リックしま **[!UICONTROL Create]**す。
+1. 電子メールラベルをクリックして、電子メー **[!UICONTROL Properties]**ルデザイナーのタブにアクセスします。
 1. 認識可能なラベルを指定し、次のパラメーターを選択して、電子メールコンテンツの編集時にフラグメントを検索します。
 
-   * フラグメントは電子メールとのみ互換性があるので、ドロ **[!UICONTROL Delivery]** ップダウンリスト **[!UICONTROL Content type]** から選択します。
-   * このコ **[!UICONTROL Fragment]** ンテンツを **[!UICONTROL HTML type]** フラグメントとして使用できるようにするには、ドロップダウンリストから選択します。
+   * フラグメントは電子メールとのみ互換性があるので、ドロ **[!UICONTROL Delivery]**ップダウンリスト**[!UICONTROL Content type]** から選択します。
+   * このコ **[!UICONTROL Fragment]**ンテンツを**[!UICONTROL HTML type]** フラグメントとして使用できるようにするには、ドロップダウンリストから選択します。
    ![](assets/email_designer_createfragment.png)
 
-1. 必要に応じて、フラグメントのサムネールとして使用する画像を設定できます。 テンプレートプロパティの **[!UICONTROL Thumbnail]** タブから選択します。
+1. 必要に応じて、フラグメントのサムネールとして使用する画像を設定できます。 テンプレートプロパティの **[!UICONTROL Thumbnail]**タブから選択します。
 
    ![](assets/email_designer_createfragment_thumbnail.png)
 
    このサムネールは、電子メールの編集時にフラグメントのラベルの横に表示されます。
 
-1. タブを閉じ **[!UICONTROL Properties]** て、メインのワークスペースに戻ります。
+1. タブを閉じ **[!UICONTROL Properties]**て、メインのワークスペースに戻ります。
 1. 必要に応じてカスタマイズ可能な構造コンポーネントとコンテンツコンポーネントを追加します。
 
    >[!CAUTION]
    >
    >フラグメントには、パーソナライゼーションフィールド、動的コンテンツ、別のフラグメントを含めることはできません。
    >
-   >空の構造コンポーネントを含むフラグメントコンテンツとして保存しないでください。 &gt;フラグメントを挿入すると、編集できなくなります。
+   >空の構造コンポーネントを含むフラグメントコンテンツとして保存しないでください。 >フラグメントを挿入すると、編集できなくなります。
    >
    >モバイル [ビューは](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view) 、フラグメントでは使用できません。
 
 1. 編集が完了したら、フラグメントを保存します。
 
-このフラグメントは、電子メールデザイナーで作成された任意の電子メールで使用できるようになりました。 パレットのセクションの **[!UICONTROL Fragments]** 下に表示されます。
+このフラグメントは、電子メールデザイナーで作成された任意の電子メールで使用できるようになりました。 パレットのセクションの **[!UICONTROL Fragments]**下に表示されます。
 
 >[!NOTE]
 >
@@ -221,7 +236,7 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 * 互いに隣接する構造のみを選択できます。
 <!-- - You cannot select an empty structure.-->
 
-1. 電子メールデザイナーで電子メールを編集する場合は、メインツ **[!UICONTROL Save as fragment]** ールバーからを選択します。
+1. 電子メールデザイナーで電子メールを編集する場合は、メインツ **[!UICONTROL Save as fragment]**ールバーからを選択します。
 
    ![](assets/email_designer_save-as-fragment.png)
 
@@ -234,13 +249,13 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
    >互いに隣接し、パーソナライゼーションフィールド、動的コンテンツ、別のフラグメントを含まない構造を選択してください。
    <!--You cannot select an empty structure.-->
 
-1. Click **[!UICONTROL Create]**.
+1. クリック **[!UICONTROL Create]**.
 
-1. 必要に応じてラベルと説明を追加し、をクリックしま **[!UICONTROL Save]**&#x200B;す。
+1. 必要に応じてラベルと説明を追加し、をクリックしま **[!UICONTROL Save]**す。
 
    ![](assets/email_designer_save-as-fragment_popup.png)
 
-1. 作成したフラグメントを探すには、/に移動 **[!UICONTROL Resources]** します **[!UICONTROL Content templates & fragments]**。
+1. 作成したフラグメントを探すには、/に移動 **[!UICONTROL Resources]**します**[!UICONTROL Content templates & fragments]**。
 
    ![](assets/email_designer_save-as-fragment_list.png)
 
@@ -273,7 +288,7 @@ To save as a fragment some email content that you created, follow the steps belo
 
 これをおこなうには、以下の手順に従います。
 
-1. Adobe Campaignで、/に移動し、ヘッ **[!UICONTROL Resources]** ダーのフ **[!UICONTROL Content templates & fragments]** ラグメントを作成します。 詳しくは、「コンテンツフラグメントの [作成」を参照してください](#creating-a-content-fragment)。
+1. Adobe Campaignで、/に移動し、ヘッ **[!UICONTROL Resources]**ダーのフ**[!UICONTROL Content templates & fragments]** ラグメントを作成します。 詳しくは、「コンテンツフラグメントの [作成」を参照してください](#creating-a-content-fragment)。
 1. フラグメントに必要な数だけ構造コンポーネントを追加します。
 
 ![](assets/des_loading_compatible_fragment_1.png)
