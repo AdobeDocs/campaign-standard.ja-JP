@@ -12,7 +12,7 @@ discoiquuid: 4ab8a984-f898-4fff-ad8c-ed8f95362f96
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: f7bf000a9191a73664b88f78cadff57d97a820af
 
 ---
 
@@ -23,7 +23,7 @@ Adobe Campaignでは、プロファイルはデフォルトでメッセージの
 
 Campaignでプロファイルを作成または更新するには、次の操作を行います。
 
-* ワークフローを使用したファイルからのプロファイルリストの読み [込み](https://helpx.adobe.com/campaign/kt/acs/using/acs-importing-profiles-feature-video-using.html)
+* ワークフローを使用したファイルからのプロファイルリストの読み [込み](../../automating/using/importing-data.md#example--import-workflow-template)
 * ランディングページを使用してオンラインで [データを収集](../../channels/using/getting-started-with-landing-pages.md)
 * [REST APIを使用した一括作成](../../api/using/about-campaign-standard-apis.md)
 * [Microsoft Dynamicsからのプロファイルの同期](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
@@ -35,7 +35,7 @@ Campaignでプロファイルを作成または更新するには、次の操作
 
    ![](assets/profile_creation_1.png)
 
-1. 次に、をクリックしま **[!UICONTROL Create]**&#x200B;す。
+1. 次に、をクリックしま **[!UICONTROL Create]**す。
 
    ![](assets/profile_creation.png)
 
@@ -44,14 +44,14 @@ Campaignでプロファイルを作成または更新するには、次の操作
    ![](assets/profile_creation1.png)
 
    * 連絡先情報(名、姓、性別、生年月日、写真、好みの言語(多言語電子メール用 [](../../channels/using/creating-a-multilingual-email.md))など)は、配信をよりパーソナライズするのに役立ちます。
-   * プロファイルのタイム **[!UICONTROL Time zone]** ゾーンで配信を送信する際に使用されます。 詳しくは、[この節](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md)を参照してください。
-   * 電子メ **[!UICONTROL Channels]** ールアドレス、携帯電話番号、オプトアウト情報を含むカテゴリでは、プロファイルに到達可能なチャネルを特定できます。
-   * プロフ **[!UICONTROL No longer contact]** ァイルがチャネルを購読解除すると、カテゴリが更新されます。
-   * カテゴリ **[!UICONTROL Address]** には、このプロファイルにダイレクトメールを送信するためのオプションと共に入 **[!UICONTROL Address specified]** 力する必要があ [る住所が含まれ](../../channels/using/about-direct-mail.md) ます。 このオプション **[!UICONTROL Address specified]** を選択しない場合、このプロファイルはすべてのダイレクトメール配信から除外されます。
-   * カテゴ **[!UICONTROL Access authorization]** リは、プロファイルの組織単位(権限を管理す [るため](../../administration/using/about-access-management.md))を示します。 プロファイルの分割も参 [照してください](../../administration/using/organizational-units.md#partitioning-profiles)。
-   * カテゴ **[!UICONTROL Traceability]** リは、プロファイルを作成または変更したユーザーに関する情報で自動的に更新されます。
+   * プロファイルのタイム **[!UICONTROL Time zone]**ゾーンで配信を送信する際に使用されます。 詳しくは、[この節](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md)を参照してください。
+   * 電子メ **[!UICONTROL Channels]**ールアドレス、携帯電話番号、オプトアウト情報を含むカテゴリでは、プロファイルに到達可能なチャネルを特定できます。
+   * プロフ **[!UICONTROL No longer contact]**ァイルがチャネルを購読解除すると、カテゴリが更新されます。
+   * カテゴリ **[!UICONTROL Address]**には、このプロファイルにダイレクトメールを送信するためのオプションと共に入**[!UICONTROL Address specified]** 力する必要があ [る住所が含まれ](../../channels/using/about-direct-mail.md) ます。 このオプション **[!UICONTROL Address specified]**を選択しない場合、このプロファイルはすべてのダイレクトメール配信から除外されます。
+   * カテゴ **[!UICONTROL Access authorization]**リは、プロファイルの組織単位(権限を管理す[るため](../../administration/using/about-access-management.md))を示します。 プロファイルの分割も参[照してください](../../administration/using/organizational-units.md#partitioning-profiles)。
+   * カテゴ **[!UICONTROL Traceability]**リは、プロファイルを作成または変更したユーザーに関する情報で自動的に更新されます。
 
-1. をクリック **[!UICONTROL Create]** して、プロファイルを保存します。
+1. をクリック **[!UICONTROL Create]**して、プロファイルを保存します。
 
 これで、プロファイルがリストに表示されます。
 
@@ -68,5 +68,4 @@ Campaignでプロファイルを作成または更新するには、次の操作
 **関連トピック：**
 
 * [ランディングページについて](../../channels/using/getting-started-with-landing-pages.md) 、ステップバイステップガイドを参照してください。
-* [プロファイルの読み込み](https://helpx.adobe.com/campaign/kt/acs/using/acs-importing-profiles-feature-video-using.html)
-
+* [プロファイルの読み込み](https://video.tv.adobe.com/v/24993?captions=jpn) 、ビデオ
