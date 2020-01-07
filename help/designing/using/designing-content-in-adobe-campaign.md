@@ -12,7 +12,7 @@ discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
+source-git-commit: 6881d3e0f22f3766d6a26af90ce3bcbd5e2293da
 
 ---
 
@@ -36,7 +36,7 @@ Adobe Campaignで電子メールを作成したら、そのコンテンツを定
 * コンテンツの作成の詳細：
    * 新規での電子メールのデザ [インを参照してください](../../designing/using/designing-from-scratch.md)。
    * 既存のコンテンツを使用する場合は、既存のコンテ [ンツを使用したデザインを参照してくださ](../../designing/using/using-existing-content.md)い。
-   * 統合の使用については、マルチソリュ [ーション電子メールデザインを参照してくださ](../../designing/using/using-integrations.md)い。
+   * Creative cloud統合の使用については、マルチソリューシ [ョン電子メールデザインを参照してください](../../designing/using/using-integrations.md)。
 * パーソナライゼーションについて詳しくは、「パーソナライゼーション」を参 [照してくださ](../../designing/using/personalization.md)い。
 
 電子メールを作成する場合は、定義済みのテンプレートを使用するか、別のソースから既存のコンテンツを読み込むかを選択できます。 詳しくは、 [既存のコンテンツの選択を参照してください](../../designing/using/using-existing-content.md#selecting-an-existing-content)。
@@ -69,27 +69,27 @@ Adobe Campaignで電子メールを作成したら、そのコンテンツを定
 
 ### 電子メールデザイナのホームページ {#email-designer-home-page}
 
-電子メ [ールを作成する場合](../../channels/using/creating-an-email.md)、電子メール **[!UICONTROL Email Designer]** コンテンツを選択すると、ホームページが自動的に表示されます。
+電子メ [ールを作成する場合](../../channels/using/creating-an-email.md)、電子メール **[!UICONTROL Email Designer]**コンテンツを選択すると、ホームページが自動的に表示されます。
 
 ![](assets/email_designer_home_page.png)
 
-このタ **[!UICONTROL Properties]** ブでは、ラベル、送信者の住所、名前、電子メールの件名などの電子メールの詳細を編集できます。 画面の上部にある電子メールラベルをクリックして、このタブにアクセスすることもできます。
+このタ **[!UICONTROL Properties]**ブでは、ラベル、送信者の住所、名前、電子メールの件名などの電子メールの詳細を編集できます。 画面の上部にある電子メールラベルをクリックして、このタブにアクセスすることもできます。
 
 ![](assets/email_designer_home_properties.png)
 
-このタ **[!UICONTROL Templates]** ブでは、標準搭載されたHTMLコンテンツや、作成済みのテンプレートから選択して、電子メールのデザインをすばやく開始できます。 コンテンツテ [ンプレートを参照してくださ](../../designing/using/using-reusable-content.md#content-templates)い。
+このタ **[!UICONTROL Templates]**ブでは、標準搭載されたHTMLコンテンツや、作成済みのテンプレートから選択して、電子メールのデザインをすばやく開始できます。 コンテンツテ[ンプレートを参照してくださ](../../designing/using/using-reusable-content.md#content-templates)い。
 
 ![](assets/email_designer_home_templates.png)
 
-このタ **[!UICONTROL Learn & support]** ブから、関連するドキュメントやチュートリアルに簡単にアクセスできます。
+このタ **[!UICONTROL Learn & support]**ブから、関連するドキュメントやチュートリアルに簡単にアクセスできます。
 
 ![](assets/email_designer_home_support.png)
 
 テンプレートを選択しない場合は、電子メールデザイナーのホームページで、コンテンツのデザインを開始する方法を選択することもできます。
 
-* 新しいコンテンツ **[!UICONTROL Create]** を最初から開始するには、このボタンをクリックします。 詳しくは、 [ゼロからの電子メールコンテンツのデザインを参照してくださ](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)い。
-* このボタンをクリ **[!UICONTROL Upload]** ックして、コンピュータからファイルをアップロードします。 詳しくは、 [ファイルからのコンテンツの読み込みを参照してくださ](../../designing/using/using-existing-content.md#importing-content-from-a-file)い。
-* URLから既存のコ **[!UICONTROL Import from URL]** ンテンツを取得するには、このボタンをクリックします。 URLから [のコンテンツの読み込みを参照してください](../../designing/using/using-existing-content.md#importing-content-from-a-url)。
+* 新しいコンテンツ **[!UICONTROL Create]**を最初から開始するには、このボタンをクリックします。 詳しくは、[ゼロからの電子メールコンテンツのデザインを参照してくださ](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)い。
+* このボタンをクリ **[!UICONTROL Upload]**ックして、コンピュータからファイルをアップロードします。 詳しくは、[ファイルからのコンテンツの読み込みを参照してくださ](../../designing/using/using-existing-content.md#importing-content-from-a-file)い。
+* URLから既存のコ **[!UICONTROL Import from URL]**ンテンツを取得するには、このボタンをクリックします。 URLから[のコンテンツの読み込みを参照してください](../../designing/using/using-existing-content.md#importing-content-from-a-url)。
 
 ## 用語 {#terminology}
 
@@ -105,7 +105,7 @@ Adobe Campaignで電子メールを作成したら、そのコンテンツを定
 
 電子メールデザイナーを適切に使用し、できるだけ簡単に最良の電子メールを作成するには、次の原則を適用することをお勧めします。
 
-* HTMLの&lt;head&gt;セクションでは、個別のCSSとCSSではなく、インラインスタイルを使用します。 インラインスタイルを使用すると、コンテンツフラグメントの保存と再利用を最適化できます。
+* HTMLの&lt;head>セクションでは、個別のCSSとCSSではなく、インラインスタイルを使用します。 インラインスタイルを使用すると、コンテンツフラグメントの保存と再利用を最適化できます。
 
    詳しくは、イ [ンラインスタイル属性の追加を参照してくださ](../../designing/using/styles.md#adding-inline-styling-attributes)い。
 
@@ -127,7 +127,7 @@ Adobe Campaignで電子メールを作成したら、そのコンテンツを定
 
 ![](assets/email_designer_fragment_patch_message.png)
 
-CSSの衝突の問題などの問題を避けるため、コンテンツを最新バージョンに更新することをお勧めします。 Click **[!UICONTROL Update now]**.
+CSSの衝突の問題などの問題を避けるため、コンテンツを最新バージョンに更新することをお勧めします。 クリック **[!UICONTROL Update now]**.
 
 コンテンツの更新中にエラーが発生した場合は、HTMLを確認して修正してから、この更新を再度実行してください。
 
