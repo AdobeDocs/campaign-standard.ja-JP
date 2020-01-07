@@ -1,18 +1,18 @@
 ---
 title: 関数のリスト
 description: クエリ編集ツールを使用すると、高度な関数を使用して複雑なフィルタリングを実行できます。
-page-status-flag: 非活性化の
+page-status-flag: never-activated
 uuid: fd50fc99-1e7a-479b-beb7-1f246b419d46
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 自動化
-content-type: 参照
+audience: automating
+content-type: reference
 topic-tags: filtering-data
 discoiquuid: 3cdbe962-1c59-4cd8-b29e-36aa2562fac6
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: fa9d2be71b4bbf5eceadbd1835db324618f9529c
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ## 関数について {#about-functions}
 
-クエリ編集ツールを使用すると、高度な関数を使用して複雑なフィルタリングを実行できます。 これを行うには、ワークスペースで使用で **[!UICONTROL Expression]** きる要素がツールパレットに含まれます。 この要素の詳細については、各節で説 [明します](../../automating/using/advanced-expression-editing.md)。
+クエリ編集ツールを使用すると、高度な関数を使用して複雑なフィルタリングを実行できます。 これを行うには、ワークスペースで使用で **[!UICONTROL Expression]**きる要素がツールパレットに含まれます。 この要素の詳細については、各節で説[明します](../../automating/using/advanced-expression-editing.md)。
 
 この要素を使用すると、手動で条件を入力できます。 ここでは、以下の節で定義した関数を使用できます。
 
@@ -82,7 +82,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
    <td> DateOnly(&lt;日付&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>日</strong><br /> </td> 
+   <td> <strong>Day</strong><br /> </td> 
    <td> 日付の日を表す数を返します<br /> </td> 
    <td> Day(&lt;日付&gt;)<br /> </td> 
   </tr> 
@@ -117,7 +117,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
    <td> GetDate()<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>時間</strong><br /> </td> 
+   <td> <strong>Hour</strong><br /> </td> 
    <td> 日付の時間を返します<br /> </td> 
    <td> Hour(&lt;日付&gt;)<br /> </td> 
   </tr> 
@@ -132,7 +132,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
    <td> LocalToUTC（&lt;日付&gt;, &lt;タイムゾーン&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>分</strong><br /> </td> 
+   <td> <strong>Minute</strong><br /> </td> 
    <td> 日付の分を返します<br /> </td> 
    <td> Minute(&lt;日付&gt;)<br /> </td> 
   </tr> 
@@ -142,7 +142,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
    <td> MinutesDiff(&lt;終了日&gt;, &lt;開始日&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>月</strong><br /> </td> 
+   <td> <strong>Month</strong><br /> </td> 
    <td> 日付の月を表す数を返します<br /> </td> 
    <td> Month(&lt;日付&gt;)<br /> </td> 
   </tr> 
@@ -162,7 +162,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
    <td> MonthsOld(&lt;日付&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>秒</strong><br /> </td> 
+   <td> <strong>Second</strong><br /> </td> 
    <td> 日付の秒を返します<br /> </td> 
    <td> Second(&lt;日付&gt;)<br /> </td> 
   </tr> 
@@ -202,12 +202,12 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
    <td> SubSeconds(&lt;日付&gt;, &lt;数値&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>サブ年</strong><br /> </td> 
+   <td> <strong>SubYears</strong><br /> </td> 
    <td> 日付から年数を引きます<br /> </td> 
    <td> SubYears(&lt;日付&gt;, &lt;数値&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>終了日</strong><br /> </td> 
+   <td> <strong>ToDate</strong><br /> </td> 
    <td> 日付 + 時間を日付に変換します<br /> </td> 
    <td> ToDate(&lt;日付 + 時刻&gt;)<br /> </td> 
   </tr> 
@@ -257,7 +257,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
    <td> WeekDay(&lt;日付&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>年</strong><br /> </td> 
+   <td> <strong>Year</strong><br /> </td> 
    <td> 日付の年を表す数を返します<br /> </td> 
    <td> Year(&lt;日付&gt;)<br /> </td> 
   </tr> 
@@ -291,7 +291,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
    <td> <strong>構文</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>距離</strong><br /> </td> 
+   <td> <strong>Distance</strong><br /> </td> 
    <td> Returns the distance in kilometers between two points defined by their longitude and latitude (expressed in degrees)<br /> </td> 
    <td> Distance(&lt;経度 A&gt;, &lt;緯度 A&gt;, &lt;経度 B&gt;, &lt;緯度 B&gt;)<br /> </td> 
   </tr> 
@@ -315,22 +315,22 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
    <td> Abs(&lt;数値&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>セイル</strong><br /> </td> 
+   <td> <strong>Ceil</strong><br /> </td> 
    <td> ある特定の数値以上の最小の整数を返します<br /> </td> 
    <td> Ceil(&lt;数値&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>床</strong><br /> </td> 
-   <td> ある特定の数値以上の最大の整数を返します<br /> </td> 
+   <td> <strong>Floor</strong><br /> </td> 
+   <td> Returns the greatest integer lower than or equal to a number<br /> </td> 
    <td> Floor(&lt;数値&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>最大</strong><br /> </td> 
+   <td> <strong>Greatest</strong><br /> </td> 
    <td> 2 つの数のうち大きい方を返します<br /> </td> 
    <td> Greatest(&lt;数値 1&gt;, &lt;数値 2&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>最小</strong><br /> </td> 
+   <td> <strong>Least</strong><br /> </td> 
    <td> 2 つの数のうち小さい方を返します<br /> </td> 
    <td> Least(&lt;数値 1&gt;, &lt;数値 2&gt;)<br /> </td> 
   </tr> 
@@ -340,22 +340,22 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
    <td> Mod（&lt;数値1&gt;, &lt;数値2&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>パーセント</strong><br /> </td> 
+   <td> <strong>Percent</strong><br /> </td> 
    <td> 割合で表される 2 つの数の比率を返します<br /> </td> 
    <td> Percent(&lt;数値 1&gt;, &lt;数値 2&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>ランダム</strong><br /> </td> 
+   <td> <strong>Random</strong><br /> </td> 
    <td> ランダムな値を返します<br /> </td> 
    <td> Random()<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>丸</strong><br /> </td> 
+   <td> <strong>Round</strong><br /> </td> 
    <td> 数値を n 桁に丸めます<br /> </td> 
    <td> TruncTime(&lt;数値&gt;, &lt;小数点以下の桁数&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>署名</strong><br /> </td> 
+   <td> <strong>Sign</strong><br /> </td> 
    <td> 数値の符号を返します<br /> </td> 
    <td> Sign(&lt;数値&gt;)<br /> </td> 
   </tr> 
@@ -375,7 +375,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
    <td> ToInteger(&lt;数値&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>トルンク</strong><br /> </td> 
+   <td> <strong>Trunc</strong><br /> </td> 
    <td> n1 を n2 の桁数に切り捨てます<br /> </td> 
    <td> Trunc(&lt;n1&gt;, &lt;n2&gt;)<br /> </td> 
   </tr> 
@@ -394,7 +394,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
    <td> <strong>構文</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>ケース</strong><br /> </td> 
+   <td> <strong>Case</strong><br /> </td> 
    <td> 条件が検証された場合、値1を返します。 それ以外の場合は、値2を返します。<br /> </td> 
    <td> (When(&lt;条件&gt;, &lt;値 1&gt;), Else(&lt;値 2&gt;))<br /> </td> 
   </tr> 
@@ -409,7 +409,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
    <td> Coalesce(&lt;値 1&gt;, &lt;値 2&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>デコード</strong><br /> </td> 
+   <td> <strong>Decode</strong><br /> </td> 
    <td> 戻り値3は値1 =値2、それ以外の場合は4<br /> </td> 
    <td> Decode(&lt;値 1&gt;, &lt;値 2&gt;, &lt;値 3&gt;, &lt;値 4&gt;)<br /> </td> 
   </tr> 
@@ -464,7 +464,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
    <td> ToBoolean(&lt;数値&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>タイミング</strong><br /> </td> 
+   <td> <strong>When</strong><br /> </td> 
    <td> 式が検証された場合、値1を返します。 Otherwise, returns value 2 (may only be used as a parameter of the case function)<br /> </td> 
    <td> When(&lt;条件&gt;, &lt;値 1&gt;)<br /> </td> 
   </tr> 
@@ -503,7 +503,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
    <td> Ascii(&lt;文字列&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>文字</strong><br /> </td> 
+   <td> <strong>Char</strong><br /> </td> 
    <td> ASCII コード「n」に対応する文字を返します<br /> </td> 
    <td> Char(&lt;数値&gt;)<br /> </td> 
   </tr> 
@@ -548,17 +548,17 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
    <td> LPad(&lt;文字列&gt;, &lt;数値&gt;, &lt;文字&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>左</strong><br /> </td> 
+   <td> <strong>Left</strong><br /> </td> 
    <td> 文字列の最初の n 文字を返します<br /> </td> 
    <td> Left(&lt;文字列&gt;, &lt;数値&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>長さ</strong><br /> </td> 
+   <td> <strong>Length</strong><br /> </td> 
    <td> 文字列の長さを返す<br /> </td> 
    <td> Length(&lt;文字列&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>下</strong><br /> </td> 
+   <td> <strong>Lower</strong><br /> </td> 
    <td> 文字列を小文字で返します<br /> </td> 
    <td> Lower(&lt;文字列&gt;)<br /> </td> 
   </tr> 
@@ -588,7 +588,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
    <td> Replace(&lt;String&gt;, &lt;String&gt;, &lt;String&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>右</strong><br /> </td> 
+   <td> <strong>Right</strong><br /> </td> 
    <td> 文字列の最後の n 文字を返します<br /> </td> 
    <td> Right(&lt;文字列&gt;)<br /> </td> 
   </tr> 
@@ -613,12 +613,12 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
    <td> Sha512Digest（&lt;文字列&gt;）<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>スマート</strong><br /> </td> 
+   <td> <strong>Smart</strong><br /> </td> 
    <td> 各単語の最初の文字を大文字にして文字列を返します<br /> </td> 
    <td> Smart(&lt;文字列&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>サブ文字列</strong><br /> </td> 
+   <td> <strong>Substring</strong><br /> </td> 
    <td> 文字列の n1 文字目から始まる長さ n2 文字の部分文字列を抽出します<br /> </td> 
    <td> Substring(&lt;文字列&gt;, &lt;オフセット&gt;, &lt;長さ&gt;)<br /> </td> 
   </tr> 
@@ -662,7 +662,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ## 集計 {#aggregates}
 
-集計関数は、ワークフローのアクティビティ [から追加のデータを](../../automating/using/query.md#enriching-data) 追加する場合にのみ使用で **[!UICONTROL Query]** きます。
+集計関数は、ワークフローのアクティビティ [から追加のデータを](../../automating/using/query.md#enriching-data) 追加する場合にのみ使用で **[!UICONTROL Query]**きます。
 
 集計関数は、値のセットに対して計算を実行するために使用されます。
 
