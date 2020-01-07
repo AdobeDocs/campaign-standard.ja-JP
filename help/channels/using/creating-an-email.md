@@ -12,7 +12,7 @@ discoiquuid: b27e0170-e73f-4782-8568-02927fb374f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c458acd74eae4be614336afcc2f1d2619563670a
+source-git-commit: c099527702ef3d9484a47a033f309f3194a70f17
 
 ---
 
@@ -91,7 +91,6 @@ source-git-commit: c458acd74eae4be614336afcc2f1d2619563670a
 **関連トピック**：
 
 * [電子メールビデオの作成](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-email-from-homepage-feature-video-use.html) （英語のみ）
-* [パーソナライズされた電子メール](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GettingStartedEmail.html) ・ステップ・バイ・ステップ・ガイドの作成
+* [パーソナライズされた電子メール](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html) ・ステップ・バイ・ステップ・ガイドの作成
 * [Adobe CampaignとDreamweaverの統合に関するビデオ](https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html) （英語のみ）
 * [Adobe Experience Managerとの連携](../../integrating/using/integrating-with-experience-manager.md)
-
