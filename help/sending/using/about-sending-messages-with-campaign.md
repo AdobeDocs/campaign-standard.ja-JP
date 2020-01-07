@@ -1,18 +1,18 @@
 ---
 title: Campaign でのメッセージの送信について
 description: テストとメッセージの送信のための様々な手順を見つけます。
-page-status-flag: 非活性化の
-uuid: 5866644-6e7c-4049-b2d2-8b26eabf5a82
-contentOwner: ソビア
+page-status-flag: never-activated
+uuid: 58666444-6e7c-4049-b2d2-8b26eabf5a82
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 送信
-content-type: 参照
+audience: sending
+content-type: reference
 topic-tags: about-sending-messages-with-campaign
 discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 8bd32e1ca93473c384a3e079362bb9afe978699d
 
 ---
 
@@ -40,5 +40,4 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 * [テストプロファイルの管理と校正の送信](../../sending/using/managing-test-profiles-and-sending-proofs.md)
 * [E メールのレンダリング](../../sending/using/email-rendering.md)
 * [エラー発生時のアラートの受信](../../sending/using/receiving-alerts-when-failures-happen.md)
-* [配信品質の最適化](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_Deliverability.html)
-
+* [配信品質の最適化](../../sending/using/about-deliverability.md)
