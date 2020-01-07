@@ -1,23 +1,23 @@
 ---
-title: 電子メール内の画像の管理
+title: 画像の操作
 description: 電子メールデザイナーで電子メールの画像を管理する方法を確認します。
-page-status-flag: 非活性化の
+page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 設計
-content-type: 参照
+audience: designing
+content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 7e300de836a74372e411b5b1d584851fac77aafe
 
 ---
 
 
-# 画像 {#images}
+# 画像の操作 {#images}
 
 ## 画像の挿入{#inserting-images}
 
@@ -33,16 +33,16 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 >[!CAUTION]
 >
->電子メールのHTMLバージョンを編集して画像を直接追加する場合は、HTMLページの&lt;script&gt;タグで外部ファ **イルを呼び出しては** なりません。 これらのファイルは、Adobe Campaign サーバーにインポートされません。
+>電子メールのHTMLバージョンを編集して画像を直接追加する場合は、HTMLページの&lt;script>タグで外部ファ **イルを呼び出しては** なりません。 これらのファイルは、Adobe Campaign サーバーにインポートされません。
 
 ### 電子メールへの画像の挿入 {#inserting-images-in-an-email}
 
 1. 構造コンポーネントを追加します。 詳しくは、「電子メール構造の [編集」を参照してください](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
-1. この構造コンポーネント内に、コンテンツコンポーネ **[!UICONTROL Image]** ントを追加します。
+1. この構造コンポーネント内に、コンテンツコンポーネ **[!UICONTROL Image]**ントを追加します。
 
    ![](assets/des_insert_images_1.png)
 
-1. Click **[!UICONTROL Browse]**. 画像をドラッグ&amp;ドロップするか、クリックしてコンピューターからファイルを選択します。
+1. クリック **[!UICONTROL Browse]**. 画像をドラッグ&amp;ドロップするか、クリックしてコンピューターからファイルを選択します。
 
    ![](assets/des_insert_images_2.png)
 
@@ -89,7 +89,7 @@ Adobe Creative SDKで画像を変更するには：
 
    ![](assets/email_designer_ccsdktoolbar.png)
 
-1. 変更が **[!UICONTROL Save]** 完了したら、をクリックします。 更新された画像がAdobe Campaignサーバーに保存され、使用できる状態になります。
+1. 変更が **[!UICONTROL Save]**完了したら、をクリックします。 更新された画像がAdobe Campaignサーバーに保存され、使用できる状態になります。
 
 >[!NOTE]
 画像エディターで提供されるツールはカスタマイズできません。
