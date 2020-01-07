@@ -1,18 +1,18 @@
 ---
 title: 通信チャネルの検出
 description: 様々なチャネルでパーソナライズされたメッセージを送信する方法と、受信者をより適切にターゲットにするためのクロスチャネルキャンペーンを作成する方法について説明します。
-page-status-flag: 非活性化の
+page-status-flag: never-activated
 uuid: 5d61d8df-8256-4f28-8dd3-e791891e312f
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: チャネル
-content-type: 参照
-topic-tags: 通信路
+audience: channels
+content-type: reference
+topic-tags: about-communication-channels
 discoiquuid: 5214becf-005b-42ac-97d2-2bce5ba2ecb5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 8bd32e1ca93473c384a3e079362bb9afe978699d
 
 ---
 
@@ -41,5 +41,4 @@ Adobe Campaignでは4つのメッセージングチャネルを使用できま�
 
 **関連トピック**：
 
-* [配信品質の最適化](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_Deliverability.html)
-
+* [配信品質の最適化](../../sending/using/about-deliverability.md)
