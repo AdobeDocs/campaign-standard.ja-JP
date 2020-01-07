@@ -1,19 +1,19 @@
 ---
 title: アプリ内メッセージについて
 description: アプリ内メッセージを使用して、モバイルアプリ内でメッセージまたは警告を表示します。
-page-status-flag: 非活性化の
+page-status-flag: never-activated
 uuid: 6784cdfc-6db9-41dd-9fbb-2e756a5bcb5f
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: チャネル
-content-type: 参照
-topic-tags: アプリ内メッセージ
+audience: channels
+content-type: reference
+topic-tags: in-app-messaging
 discoiquuid: a4168cfb-22bf-4ab3-b9d8-6e76e1bdc055
-context-tags: 配信，トリガー，戻る
+context-tags: delivery,triggers,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 501ba6f97a86076116d4d84f43df674536e12f6a
 
 ---
 
@@ -28,7 +28,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 Experience Platform SDKを利用したモバイルアプリケーションでアプリ内メッセージの送信を開始するには、次の前提条件を満たす必要があります。
 
-1. Adobe Campaignで、チャネルにアクセスできることを確認し **[!UICONTROL In-App]** ます。 これらのチャネルにアクセスできない場合は、アカウントチームにお問い合わせください。
+1. Adobe Campaignで、チャネルにアクセスできることを確認し **[!UICONTROL In-App]**ます。 これらのチャネルにアクセスできない場合は、アカウントチームにお問い合わせください。
 
 1. Experience Cloud SDKアプリケーションでAdobe Campaign Standardのモバイル使用例を活用するには、モバイルアプリをAdobe Experience Platform Launchで作成し、Adobe Campaign Standardで設定する必要があります。 詳細手順については、このページを参照してく [ださい](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)。
 
@@ -43,3 +43,4 @@ Experience Platform SDKを利用したモバイルアプリケーションでア
 * [アプリ内レポート](../../reporting/using/in-app-report.md)
 * [プッシュおよびアプリ内FAQ](https://helpx.adobe.com/campaign/kb/push_inapp_faq.html)
 * [Adobe Campaign Standardでサポートされるモバイルの使用例](https://helpx.adobe.com/campaign/kb/configure-launch-rules-acs-use-cases.html)
+* [キャンペーン標準モバイルガイド](https://helpx.adobe.com/campaign/kb/acs-mobile.html)
