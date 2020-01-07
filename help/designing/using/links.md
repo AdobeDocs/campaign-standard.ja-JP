@@ -1,5 +1,5 @@
 ---
-title: リンクの管理
+title: リンクの追加
 description: 電子メールデザイナーでのリンクの管理方法を確認します。
 page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
@@ -12,12 +12,12 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
+source-git-commit: 7642ae3d027351abe1c44e173d3db50b9568bfcd
 
 ---
 
 
-# リンク {#links}
+# リンクの追加 {#links}
 
 ## リンクの挿入 {#inserting-a-link}
 
@@ -29,7 +29,7 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 >
 >次の画像は、電子メールデザイナーを使用した電子メール [へのリンクの挿入](../../designing/using/designing-content-in-adobe-campaign.md) 方法を示しています。
 
-1. 要素を選択し、コンテキストツール **[!UICONTROL Insert link]** バーからをクリックします。
+1. 要素を選択し、コンテキストツール **[!UICONTROL Insert link]**バーからをクリックします。
 
    ![](assets/des_insert_link.png)
 
@@ -79,7 +79,7 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 Adobe Campaignを使用すると、電子メールに含まれるURLをクリックした受信者の行動を追跡できます。 トラッキングについて詳しくは、この節を [参照してくださ](../../sending/using/tracking-messages.md#about-tracking)い。
 
-アクシ **[!UICONTROL Links]** ョンバーのアイコンには、追跡されるコンテンツのすべてのURLのリストが自動的に表示されます。
+アクシ **[!UICONTROL Links]**ョンバーのアイコンには、追跡されるコンテンツのすべてのURLのリストが自動的に表示されます。
 
 ![](assets/des_links.png)
 
@@ -106,11 +106,11 @@ Adobe Campaignを使用すると、電子メールに含まれるURLをクリッ
 >
 >Adobe Campaignのデフォルトでは、ミラーページURLと購読解除リンクを除くすべ **てのコンテンツURL** が追 **跡されます** 。
 
-メッセージで使用されているURLに応じて、フ **[!UICONTROL Category]** ィールドを編集してURLを再グループ化できます。 These categories can be displayed reports, as for example in [URLs and click streams](../../reporting/using/urls-and-click-streams.md).
+メッセージで使用されているURLに応じて、フ **[!UICONTROL Category]**ィールドを編集してURLを再グループ化できます。 These categories can be displayed reports, as for example in[URLs and click streams](../../reporting/using/urls-and-click-streams.md).
 
 ![](assets/des_link_tracking_category.png)
 
-レポートを作成する際に、タブからリストを **[!UICONTROL Components]** 選択し、下にスク **[!UICONTROL Dimension]** ロールして追跡コンポーネントにアクセスします。 例えば、ワークスペースにドラッグ&amp;ド **[!UICONTROL Tracking URL Category]** ロップして、各クリックされたURLの追跡カテゴリに従って結果を表示します。
+レポートを作成する際に、タブからリストを **[!UICONTROL Components]**選択し、下にスク**[!UICONTROL Dimension]** ロールして追跡コンポーネントにアクセスします。 例えば、ワークスペースにドラッグ&amp;ド **[!UICONTROL Tracking URL Category]**ロップして、各クリックされたURLの追跡カテゴリに従って結果を表示します。
 
 ![](assets/des_link_tracking_report.png)
 
