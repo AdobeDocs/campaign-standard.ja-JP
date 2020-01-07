@@ -1,23 +1,23 @@
 ---
-title: Experience Manager との統合
+title: CampaignとExperience Managerの統合について
 description: Adobe Experience Managerの統合により、AEMで直接コンテンツを作成し、後でAdobe Campaignで使用できます。
-page-status-flag: 非活性化の
+page-status-flag: never-activated
 uuid: ed6c1b76-87f7-4d23-b5e2-0765297a905c
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 統合
-content-type: 参照
-topic-tags: キャンペーンとエクスペリエンスの管理職との連携
+audience: integrating
+content-type: reference
+topic-tags: working-with-campaign-and-experience-manager
 discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 85f4d6d7ea4bdf63505bb2c8b586de3a10073345
 
 ---
 
 
-# Experience Manager との統合{#integrating-with-experience-manager}
+# CampaignとExperience Managerの統合について{#integrating-with-experience-manager}
 
 Adobe Campaign StandardとAdobe Experience Managerの統合により、Adobe Experience Managerで作成されたコンテンツをAdobe Campaignの電子メールで使用できます。
 
@@ -29,46 +29,50 @@ Adobe Campaign StandardとAdobe Experience Managerの統合により、Adobe Exp
 
 Adobe Campaign Standardは、Adobe Experience Manager 6.1、6.2、6.3および6.4と互換性があります。以下の節では、実行できるアクションの概要を示します。 詳しくは、設定と統合の使用に関する節 [を参](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/campaignstandard.html) 照してください [](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/campaign.html) 。
 
-## 前提条件 {#prerequisites}
+## CampaignとExperience Managerの統合を使用する方法に関するヒント {#tips-aem}
 
-前もって次の要素があることを確認してください。
+* **統合で使用するテンプレートの確認**
 
-* An Adobe Experience Manager **authoring** instance
-* An Adobe Experience Manager **publishing** instance
-* Adobe Campaignインスタンス
+   電子メールテンプレートはAdobe Experience Manager内で編集できるので、Adobe Experience Managerでテンプレートを編集した方が簡単に見える場合があります。 ただし、特定のテンプレートは容易には収まりません。 1人の顧客に固有の個別化テンプレートは、この統合に対して推奨されないので、Adobe Campaign Standardで直接編集する必要があります。
 
-## 使用例 {#use-case}
+   For more information on templates, refer to this [page](https://docs.adobe.com/content/help/en/experience-manager-64/developing/platform/templates/templates.html).
 
-Adobe Experience Managerで電子メールコンテンツを作成するには：
+* **実装中にExternalizerが設定されていることを確認します**
 
-1. Adobe Campaign 向けに特別に作成されたテンプレートを使用して、E メールコンテンツを作成します。
-1. In the content properties, select the **[!UICONTROL Cloud Service]** corresponding to your Adobe Campaign instance.
-1. テキスト、画像、パーソナライゼーションなどを挿入して、コンテンツを編集します。
-1. コンテンツを検証します。
+   Experience Manager for Adobe Campaign Standardを実装する際にExternalizerを設定すると、リソースパスをURLに変換できます。 これにより、画像をページに表示できます。 Externalizerが正しく設定されていない場合、電子メールに壊れたイメージが含まれます。
 
-詳しくは、[詳細ドキュメント](https://docs.adobe.com/docs/en/aem/6-2/author/personalization/adobe-campaign/campaign.html)を参照してください。
+   Externalizerの設定方法については、このページを参照してくだ [さい](https://docs.adobe.com/content/help/en/experience-manager-64/developing/platform/externalizer.html)
 
-![](assets/aem_content.png)
+* **誤用を防ぐために、電子メールテンプレートを整理します。**
 
-Adobe Campaignでコンテンツを取得するには：
+   テンプレートを整理しておくと、適切なテンプレートが適切なフォルダーに配置され、誤って間違ったテンプレートを選択しないようになります。 導入時に、適切な場所にテンプレートを保存するためのパスを作成する必要があります。
 
-1. Adobe Experience Managerタイプのコンテンツテンプレートに基づいて電子メールを作成します。
-1. Adobe Campaign の E メールコンテンツ定義画面を使用して、作成したコンテンツを Adobe Experience Manager にリンクします。
+   For more information on templates, refer to this [page](https://docs.adobe.com/content/help/en/experience-manager-64/developing/platform/templates/templates.html#template-availability)
 
-![](assets/aem_linked_content.png)
+* **すぐに使用できるコンポーネントの概要**
 
-## 設定 {#configuration}
+   Adobe Experience Manager for Adobe Campaign Standardのあらかじめ用意されたコンポーネントを使用すると、テンプレートが複雑でない場合に、すばやく作業を開始できます。
+Experience Managerには、次の7つの標準コンポーネントが用意されています。
+   1. 見出し
+   1. 画像
+   1. リンク
+   1. Scene7画像テンプレート
+   1. ターゲット参照
+   1. テキストと画像
+   1. テキストとパーソナライゼーション
 
-2 つのソリューションを同時に使用するには、相互接続を設定する必要があります。
+* **電子メール用のHTMLがWeb用のHTMLと異なる**
 
-1. Adobe Campaign を設定します。手順は次のとおりです。
+   Webコンテンツで電子メールテンプレートに使用されているのと同じコンポーネントを使用することはできないことを理解することが重要です。 標準搭載のコンポーネントを使用すると、コンポーネントが電子メールとの互換性を保つことができます。
 
-   * Adobe Experience Managerタイプの外部アカウントを設定します。
-   * **AEMResourceTypeFilter** オプションを設定します。このオプションは、Adobe Experience Manager で作成された Adobe Campaign 用のコンテンツタイプを認識します。
-   * 電子メールテンプレートを作成し、Adobe Experience Managerコンテンツであることを指定して、以前に作成した外部アカウントをこのテンプレートにリンクします。
+* **テンプレートからコンテンツのリンクを解除し、何度も再利用します。**
 
-1. Adobe Experience Manager を設定します。手順は次のとおりです。
+   Campaign Standardで電子メールを設定し、Experience Managerテンプレートを選択する場合、別のキャンペーンにリンクされていない電子メールのみを選択できます。 そうしないと、1つのキャンペーンに対してAdobe Experience Managerのコンテンツを変更して更新すると、意図せず他のキャンペーンのコンテンツに影響を与える可能性があります。
+これを避けるには、テンプレートの使用が終了したら、テンプレートのリンクを解除して再び使用します。 テンプレートを選択してをクリックするだけで済みま **[!UICONTROL Delete the link with Adobe Experience Manager content]**す。
 
-   * Adobe Experience Manager のオーサーインスタンスとパブリッシュインスタンスの間でレプリケーションを設定します。
-   * Connect Adobe Experience Manager to Adobe Campaign by configuring a dedicated **[!UICONTROL Cloud Service]**.
+* **Adobe Experience Managerを使用して、Adobe Campaign Standard用の電子メールのバリエーションを作成します。**
 
+   この統合により、セグメント化により1つの電子メールを複数のバージョンに簡単に変更できます。
+Adobe Experience Managerでのセグメントの設定方法、およびターゲットコンテンツを使用した電子メールの作成方法については、このページを参照してく [ださい](https://docs.adobe.com/help/en/experience-manager-64/authoring/aem-adobe-campaign/target-adobe-campaign.html#setting-up-segmentation-in-aem)。
+
+* **同期を成功させるには、Experience Managerのセグメント名がCampaignのセグメント名と完全に一致する必要があります。**
