@@ -12,11 +12,11 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f8b763ab70514563ab48b0233300e9dda0fba18c
+source-git-commit: cc42e1ac6ed7570817163e2782e42258fa617a22
 
 ---
 
-# 電子メールデザイナーを使い始める {#quick-start}
+# 電子メールデザイナーの概要 {#quick-start}
 
 電子メールデザイナーでは、4つの方法で電子メールを作成できます。
 
@@ -38,17 +38,22 @@ source-git-commit: f8b763ab70514563ab48b0233300e9dda0fba18c
 
 ## エディターを使用した電子メールのデザイン {#without-existing-content}
 
+>[!NOTE]
+>
+>どちらの作成方法でも、電子メールを送信する前に件名を入力することが重要です。 件名行を追加す [る方法を説明します](#add-a-subject-line)。
+
 ### 新規での電子メールの作成 {#from-scratch-email}
 
 簡単に電子メールを作成し、コンポーネントを追加し、コンテンツをパーソナライズして、すばやく配信できます。 必要に応じて、コンテンツに合わせてスタイル設定オプションを調整できます。 スタイル設定とインライン属性の管理について詳しくは、「電子メールスタイルの編 [集」を参照してくださ](../../designing/using/styles.md)い。
+
+1. 電子メールを作成します。
+1. ホームページを閉じます。
 
 ### 件名行の追加 {#add-a-subject-line}
 
 件名は電子メールの送信時に必須です。 詳しくは、「電子メールの件 [名行の定義」を参照してください](../../designing/using/subject-line.md)。
 
-1. 電子メールを作成します。
-1. ホームページを閉じます。
-1. 電子メールデ **[!UICONTROL Properties]** ザイナのホームページのタブ（ホームアイコンからアクセス可能）に移動し、セクションに入力 **[!UICONTROL Subject]** します。
+1. 電子メールデ **[!UICONTROL Properties]**ザイナのホームページのタブ（ホームアイコンからアクセス可能）に移動し、セクションに入力**[!UICONTROL Subject]** します。
 
 ![](assets/subject-line-quick-start.png)
 
@@ -94,7 +99,7 @@ source-git-commit: f8b763ab70514563ab48b0233300e9dda0fba18c
 
 ![](assets/html-component-source-code.png)
 
-HTMLに詳しい場合は、コンテンツコンポーネントを使用して、元のフッターからHTMLコードをコピー&amp;ペースト **[!UICONTROL Html]** できます。 For more on this, see [About content components](../../designing/using/designing-from-scratch.md#about-content-components).
+HTMLに詳しい場合は、コンテンツコンポーネントを使用して、元のフッターからHTMLコードをコピー&amp;ペースト **[!UICONTROL Html]**できます。 For more on this, see[About content components](../../designing/using/designing-from-scratch.md#about-content-components).
 
 ![](assets/des_loading_compatible_fragment_9.png)
 
@@ -117,12 +122,12 @@ HTMLに詳しい場合は、コンテンツコンポーネントを使用して�
 お客様のお知らせメッセージ、ニュースレター、再契約の電子メールなど、すぐに使えるテンプレートから電子メールを作成し、それらをパーソナライズすることができます。
 
 1. 電子メールを作成し、その内容を開きます。 詳しくは、「電子メールの作成」を [参照してください](../../channels/using/creating-an-email.md)。
-1. ホームアイコンをクリックして、ホームページに **[!UICONTROL Email Designer]** アクセスします。
-1. Click the **[!UICONTROL Templates]** tab.
+1. ホームアイコンをクリックして、ホームページに **[!UICONTROL Email Designer]**アクセスします。
+1. タブをクリック **[!UICONTROL Templates]**します。
 1. 標準搭載のHTMLテンプレートを選択します。
 様々なテンプレートは、複数の要素の様々な組み合わせを表します。 例えば、「Feather」テンプレートには余白があり、「Astro」テンプレートには余白がありません。 詳しくは、「コンテンツテンプレート」を参 [照してください](../../designing/using/using-reusable-content.md#content-templates)。
-1. 電子メールデ **[!UICONTROL Properties]** ザイナのホームページのタブ（ホームアイコンからアクセス可能）に移動し、セクションに入力 **[!UICONTROL Subject]** します。
-1. これらの要素を組み合わせて、多くの電子メールバリアントを作成できます。 例えば、構造コンポーネントを選択し、コンテキストツールバーからをクリックして、電子メールセク **[!UICONTROL Duplicate]** ションを複製できます。
+1. 電子メールデ **[!UICONTROL Properties]**ザイナのホームページのタブ（ホームアイコンからアクセス可能）に移動し、セクションに入力**[!UICONTROL Subject]** します。
+1. これらの要素を組み合わせて、多くの電子メールバリアントを作成できます。 例えば、構造コンポーネントを選択し、コンテキストツールバーからをクリックして、電子メールセク **[!UICONTROL Duplicate]**ションを複製できます。
 1. 左側の青い矢印を使用して要素を移動し、構造コンポーネントを別のコンポーネントの下または上にドラッグできます。 詳しくは、「電子メール構造の [編集」を参照してください](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
 1. また、コンポーネントを移動して、各構造要素の構成を変更することもできます。 詳しくは、フラグメントとコンポーネ [ントの追加を参照してください](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
 1. 必要に応じて、各要素の内容を変更します。画像、テキスト、リンク。
@@ -208,7 +213,7 @@ HTMLに詳しい場合は、コンテンツコンポーネントを使用して�
 
 ### HTML電子メールの読み込みと編集 {#compatibility-mode}
 
-コンテンツをアップロードする場合、電子メールデザイナーのWYSIWYGエディターに完全に準拠し、編集可能な特定のタグがコンテンツに含まれている必要があります。
+コンテンツをアップロードする場合、電子メールデザイナーのWYSIWYGエディターに完全に準拠し、編集可能な特定のタグ付けを含める必要があります。
 
 アップロードされたHTMLのすべてまたは一部が期待されたタグ付けに準拠していない場合、コンテンツは「互換性モード」で読み込まれ、UIを使用した編集の可能性が制限されます。
 
