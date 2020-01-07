@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: db2495f66535ad5d1a64143f91e5db9cca54aca6
+source-git-commit: 6a13d0f642538b20d62b812b866e5a0f896a1ef9
 
 ---
 
@@ -24,6 +24,16 @@ Adobe Campaign Standardドキュメントの最新の更新について説明し
 このページには、Adobe Campaign Standardの各リリースに関するすべての新機能とドキュメントの更新の一覧が記載されています。
 
 また、『Adobe Campaignリリースノート』を参照する [こともできます](../../rn/using/release-notes.md)。
+
+## ドキュメントの更新 — 2020年1月 {#doc-updates-january-2020}
+
+「クロスチャネル配信ワークフローの作成」入門ガイドが更新され、コアドキュメントに含まれています。 [詳細を表示](../../automating/using/workflow-cross-channel-delivery.md)
+
+動的レポートのインジケーターの計算セクションが更新されました。 [詳細を表示](../../reporting/using/indicator-calculation.md)
+
+Adobe Campaign Standardでのモバイル配信に関する一般的なガイドラインに関する新しいページが追加されました。 [詳細を表示](https://helpx.adobe.com/campaign/kb/acs-mobile.html)
+
+CampaignとExperience Managerの統合の使用方法に関する新しい節のヒントが、「CampaignとExperience Managerの使用」 **ドキュメントに更新されました**。 [詳細を表示](../../integrating/using/integrating-with-experience-manager.md#tips-aem)
 
 ## ドキュメントの更新 — 2019年12月 {#doc-updates-december-2019}
 
