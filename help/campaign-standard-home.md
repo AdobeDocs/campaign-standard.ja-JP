@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Adobe Campaign Standard 製品ドキュメント
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
+source-git-commit: 501ba6f97a86076116d4d84f43df674536e12f6a
 
 ---
 
@@ -15,17 +15,13 @@ source-git-commit: 8303106438c7039160a778a728cd0b408f01978e
 
 ## 新着情報
 
-* **[プライバシー管理](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>
-プライバシーコンプライアンスに役立つ Adobe Campaign が提供するツールについて説明します。
+* **[プライバシー管理](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>プライバシーコンプライアンスに役立つ Adobe Campaign が提供するツールについて説明します。
 
-* **[配信のベストプラクティス](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)**<br/>
-配信のデザインと送信に関するベストプラクティスの詳細を確認します。
+* **[配信のベストプラクティス](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)**<br/>配信のデザインと送信に関するベストプラクティスの詳細を確認します。
 
-* **[電子メールデザイナー](designing/using/designing-content-in-adobe-campaign.md)**<br/>
-再編成された電子メールデザイナーのドキュメントを参照してください。
+* **[電子メールデザイナー](designing/using/designing-content-in-adobe-campaign.md)**<br/>再編成された電子メールデザイナーのドキュメントを参照してください。
 
-* **[ランディングページ](channels/using/getting-started-with-landing-pages.md)**<br/>
-ランディングページの設定方法の詳細を説明します。
+* **[Campaign Standard mobileガイドモバイル配信](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/>の一般的なガイドラインについて詳しく説明します。
 
 [更新情報についてはここをクリック](rn/using/documentation-updates.md)
 
