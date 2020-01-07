@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: cb5cc55c431cbe6050699a35ef2fff270f869dee
+source-git-commit: 5c6d5f307a5d0b90a4a616a73d17b540d115f041
 
 ---
 
@@ -117,9 +117,9 @@ source-git-commit: cb5cc55c431cbe6050699a35ef2fff270f869dee
    + [件名行と送信者の定義](designing/using/subject-line.md)
    + 電子メールコンテンツの作成{#building-email-content}
       + [新規での電子メールのデザイン](designing/using/designing-from-scratch.md)
-      + [既存のコンテンツを使用した電子メールのデザイン](designing/using/using-existing-content.md)
-      + [再利用可能なコンテンツを使用した電子メールのデザイン](designing/using/using-reusable-content.md)
-      + [複数ソリューション統合を使用した電子メールのデザイン](designing/using/using-integrations.md)
+      + [既存のコンテンツの使用](designing/using/using-existing-content.md)
+      + [再利用可能なコンテンツの操作](designing/using/using-reusable-content.md)
+      + [複数ソリューション統合の使用](designing/using/using-integrations.md)
       + [テキスト、HTML、モバイル電子メールの編集](designing/using/plain-text-html-modes.md)
    + [電子メールコンテンツのパーソナライズ](designing/using/personalization.md)
    + [電子メールスタイルの管理](designing/using/styles.md)
@@ -187,7 +187,8 @@ source-git-commit: cb5cc55c431cbe6050699a35ef2fff270f869dee
 + Adobe Cloud との統合{#integrating-with-adobe-cloud}
    + [Campaign 統合について](integrating/using/about-campaign-integrations.md)
    + Campaign と Experience Manager の使用{#working-with-campaign-and-experience-manager}
-      + [Experience Manager との統合](integrating/using/integrating-with-experience-manager.md)
+      + [CampaignとExperience Managerの統合について](integrating/using/integrating-with-experience-manager.md)
+      + [Adobe Experience Managerでの電子メールコンテンツの作成](integrating/using/creating-email-experience-manager.md)
       + [Experience Manager での Campaign フォームの作成](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
    + Campaign と Target の使用{#working-with-campaign-and-target}
       + [Campaign と Target の統合について](integrating/using/about-campaign-target-integration.md)
@@ -283,6 +284,7 @@ source-git-commit: cb5cc55c431cbe6050699a35ef2fff270f869dee
       + [場所でのセグメントの作成](automating/using/workflow-segmentation-location.md)
       + [メールを開封していないユーザーの再ターゲティング](automating/using/workflow-cross-channel-retargeting.md)
       + [コントロール母集団の作成](automating/using/workflow-control-group.md)
+      + [クロスチャネル配信の作成](automating/using/workflow-cross-channel-delivery.md)
 + 開発中{#developing}
    + カスタムリソースについて{#about-custom-resources}
       + [データモデルの概念](developing/using/data-model-concepts.md)
