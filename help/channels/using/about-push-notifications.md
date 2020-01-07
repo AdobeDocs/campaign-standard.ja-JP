@@ -1,19 +1,19 @@
 ---
 title: プッシュ通知について
 description: Adobe Campaignのプッシュ通知チャネルの主な特性を確認します。
-page-status-flag: 非活性化の
-uuid: 961aeb5-6948-4fd2-b8d7-de4510c10566
-contentOwner: ソビア
+page-status-flag: never-activated
+uuid: 961aaeb5-6948-4fd2-b8d7-de4510c10566
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: チャネル
-content-type: 参照
-topic-tags: プッシュ通知
+audience: channels
+content-type: reference
+topic-tags: push-notifications
 discoiquuid: 23b4212e-e878-4922-be20-50fb7fa88ae8
-context-tags: mobileApp，概要
+context-tags: mobileApp,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 501ba6f97a86076116d4d84f43df674536e12f6a
 
 ---
 
@@ -28,17 +28,17 @@ Adobe Campaignを使用すると、パーソナライズされたセグメント
 
 これらのメッセージは、Experience Cloud Mobile SDK V4またはExperience Platform SDKを利用して、Adobe Campaignで設定したモバイルアプリケーションで受信されます。 詳しくは、SDK V4を使用したモバイルアプリケーションの設定および [Adobe Experience Platform SDKを使用したモバ](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) イルアプリケーションの設定を参照してください [](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)。
 
-In Adobe Campaign, mobile profile attributes data sent from mobile device are stored in **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** resource which allows you to define the data that you want to collect from your applications' subscribers.
+In Adobe Campaign, mobile profile attributes data sent from mobile device are stored in **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]**resource which allows you to define the data that you want to collect from your applications&#39; subscribers.
 
 モバイルデバイスからAdobe Campaignに送信するデータを収集するには、このリソースを拡張する必要があります。 そのためには、詳細な手順につ [いては](../../developing/using/extending-the-subscriptions-to-an-application-resource.md) 、このページを参照してください。
 
 Adobe Campaignでは、次の2種類のプッシュ通知を使用できます。
 
-* **[!UICONTROL Alert/Message/Badge]** タイプ通知を使用すると、標準のテキストベースのメッセージに追加のコンテンツ（サウンド、バッジ、ディープリンクなど）を送信できます。」セクションで定義でき **[!UICONTROL Advanced options]** ます。
+* **[!UICONTROL Alert/Message/Badge]**タイプ通知を使用すると、標準のテキストベースのメッセージに追加のコンテンツ（サウンド、バッジ、ディープリンクなど）を送信できます。」セクションで定義でき**[!UICONTROL Advanced options]** ます。
 
-   この通知タイプを使用すると、タイトルとメッセージを追加して、パーソナライゼーションフィールドを使用できます。 メッセージをパーソナライズするには、テンプレートを選択していることを確認し **[!UICONTROL Send push on profiles]** ます。
+   この通知タイプを使用すると、タイトルとメッセージを追加して、パーソナライゼーションフィールドを使用できます。 メッセージをパーソナライズするには、テンプレートを選択していることを確認し **[!UICONTROL Send push on profiles]**ます。
 
-* **[!UICONTROL Silent push]** タイプ通知は、エンドユーザーに対するメッセージやコンテンツを一切通知せずに、アプリケーションに通知するために使用します。 このタイプのメッセージの一般的な使用例は、ダウンロードするサーバー上で利用可能なコンテンツがあることをアプリケーションに知らせることです。
+* **[!UICONTROL Silent push]**タイプ通知は、エンドユーザーに対するメッセージやコンテンツを一切通知せずに、アプリケーションに通知するために使用します。 このタイプのメッセージの一般的な使用例は、ダウンロードするサーバー上で利用可能なコンテンツがあることをアプリケーションに知らせることです。
 
 一部の特定の設定は、通知動作を定義するために設定できます。 詳しくは、[この節](../../channels/using/customizing-a-push-notification.md)を参照してください。
 
@@ -53,7 +53,7 @@ Adobe Campaignでは、次の2種類のプッシュ通知を使用できます�
 * [プッシュ通知の準備と送信](../../channels/using/preparing-and-sending-a-push-notification.md)
 * [多言語プッシュ通知の作成](../../channels/using/creating-a-multilingual-push-notification.md)
 * [プッシュ通知レポート](../../reporting/using/push-notification-report.md)
-* [プッシュおよびアプリ内FAQ](https://helpx.adobe.com/campaign/kb/push_inapp_faq.html)
+* [キャンペーン標準モバイルガイド](https://helpx.adobe.com/campaign/kb/acs-mobile.html)
 
 ## 前提条件 {#prerequisites}
 
@@ -65,7 +65,7 @@ Adobe Campaignでは、次の2種類のプッシュ通知を使用できます�
 
 プッシュ通知を送信する前に、次の操作を行う必要があります。
 
-1. Adobe Campaignでチャネルにアクセスできるこ **[!UICONTROL Mobile app]** とを確認してください。
+1. Adobe Campaignでチャネルにアクセスできるこ **[!UICONTROL Mobile app]**とを確認してください。
 1. モバイルアプリケーションの設定：
 
    * Adobe Campaign
