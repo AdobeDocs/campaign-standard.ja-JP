@@ -12,24 +12,24 @@ discoiquuid: d7088c18-7daf-4c30-b633-2f19496b1143
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f0580e1ab75d4250bfb1cb801ff08b31b91cdc5a
+source-git-commit: 667496c4a1bfeb78ff51762ffd6983df77cdd9c9
 
 ---
 
 
 # 詳細な手順ガイド{#step-by-step-guides}
 
-Adobe Campaignを使い始めるには、直観的なステップバイステップガイドを参照してください。
+Adobe Campaign の使用を開始する際は、アドビの詳細でわかりやすい手順ガイドを参照してください。
 
 * [パーソナライズされた電子メールの作成](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html):ターゲットのオーディエンスに対して、パーソナライズされた電子メールを作成して送信します。
 * [カスタムリソースのパッケージの書き出しと読み込み](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_ImportExport.html):カスタムリソースのパッケージを開発環境から実稼働環境に書き出して読み込みます。
-* [チャネル間メッセージワークフローの作成](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_WorkflowSegmentation.html):電子メール配信とSMS配信を送信する訪問者をセグメント化して、ワークフローを作成します。
+* [チャネル間メッセージワークフローの作成](../../automating/using/workflow-cross-channel-delivery.md):電子メール配信とSMS配信を送信する訪問者をセグメント化して、ワークフローを作成します。
 * [Experience ManagerとCampaignを使用した電子メールの作成](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_AEM.html):adobe Experience Managerで電子メールコンテンツを作成し、Adobe Campaign Standardで電子メールで使用します。
 * [Adobe Campaignでの提供](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html):作成とターゲット設定から送信と監視まで、Adobe Campaignでの提供に使用できるベストプラクティスの一部を見つけます。
 * [配信品質の最適化](../../sending/using/about-deliverability.md):配信品質に関する主要概念とベストプラクティス、および配信を最適化するためにAdobe Campaignが提供するツールについて説明します。
 * [一般的なデータ保護規制](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html):gdprに準拠するためにAdobe Campaignが提供するツールや機能、およびベストプラクティスを見つけます。
 
-Adobe Campaignの詳細については、次の使用例と例を参照してください。
+Adobe Campaign について詳しくは、以下の使用例と例を確認してください。
 
 * [ワークフローテンプレートの読み込み](../../automating/using/importing-data.md#example--import-workflow-template):ワークフローテンプレートを設定して、CRMから新しいクライアントプロファイルを定期的にインポートし、Campaignデータベースを更新します。
 * [メッセージを送信するための主な手順](../../channels/using/key-steps-to-send-a-message.md):メッセージを作成し、送信する手順を説明します。
