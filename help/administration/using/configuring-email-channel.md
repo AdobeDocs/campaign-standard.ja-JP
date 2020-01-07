@@ -13,7 +13,7 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
+source-git-commit: a3f760385da20a3aa39f96d955cfc2d77b708de2
 
 ---
 
@@ -240,7 +240,13 @@ SMTPの設定について詳しくは、「電子メールSMTPパラメーター
 
 セクション **[!UICONTROL Advanced parameters]**には複数のパラメーターが含まれます。
 
-最初の2つのフィールドには、電子メールメッセージヘッダー（返信アドレスと返信アドレスのテキスト）を入念に入力するために必要な情報を入力できます。 この情報はパーソナライズ可能です。これを行うには、変更するフィールドの右側のボタンをクリックし、パーソナライゼーションフィールドを追加します。 パーソナライゼーションフィールドの挿入と使用について詳しくは、「パーソナライゼ [ーションフィールドの挿入](../../designing/using/personalization.md#inserting-a-personalization-field) 」の節を参照してください。
+最初のフィールドでは、電子メールメッセージヘッダーを入念に入力するために必要な情報を入力できます。 ここでは、返信先のアドレスとテキスト、および送信者のアドレス（「送信者：」フィールドに入力）を管理できます。 この情報はパーソナライズ可能です。
+
+変更するフィールドの右側のボタンをクリックし、パーソナライゼーションフィールド、コンテンツブロックまたは動的テキストを追加します。
+
+![](assets/advancedparameters.png)
+
+パーソナライゼーションコンテンツの挿入と使用について詳しくは、「電子メールコンテ [ンツのパーソナライズ](../../designing/using/personalization.md) 」ドキュメントを参照してください。
 
 #### Targetコンテキスト {#target-context}
 
@@ -326,4 +332,3 @@ SMTPの設定について詳しくは、「電子メールSMTPパラメーター
 >[!NOTE]
 >
 >If the emails sent to the BCC address are opened and clicked through, this will be taken into account in the **[!UICONTROL Total opens]**and**[!UICONTROL Clicks]** from the send analysis, which could cause some miscalculations.
-
