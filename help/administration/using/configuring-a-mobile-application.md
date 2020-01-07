@@ -12,7 +12,7 @@ discoiquuid: 2a14500f-5ede-4131-8b1a-b7fd65b7e3aa
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bdec2b6937be17841be6254c6907556dddf1df40
+source-git-commit: 501ba6f97a86076116d4d84f43df674536e12f6a
 
 ---
 
@@ -33,6 +33,8 @@ Experience Cloud Mobile SDK V4またはExperience Platform SDKを利用してAdo
 
 モバイルアプリケーションの設定が完了すると、収集したPIIデータを取得して、データベースからプロファイルを作成または更新できます。 詳しくは、次の節を参照してください。モバイ [ルアプリケーションデータに基づくプロファイル情報の作成と更新](../../channels/using/updating-profile-with-mobile-app-data.md)。
 
+Adobe Campaign Standardでのモバイル配信の一般的なガイドラインについては、このページを参照してくだ [さい](https://helpx.adobe.com/campaign/kb/acs-mobile.html)
+
 ## Adobe Experience Platform SDKの使用 {#using-adobe-experience-platform-sdk}
 
 >[!N注]
@@ -43,16 +45,16 @@ Experience Platform SDKアプリケーションでプッシュ通知とアプリ
 
 次の手順に従って設定を開始します。
 
-1. チャネルにアクセスできることを確認し **[!UICONTROL Mobile]** ます。Adobe Campaignのプッシュ通知とアプリ内メッセージを参照してください。 そうでない場合は、アカウントチームにお問い合わせください。
+1. チャネルにアクセスできることを確認し **[!UICONTROL Mobile]**ます。Adobe Campaignのプッシュ通知とアプリ内メッセージを参照してください。 そうでない場合は、アカウントチームにお問い合わせください。
 
    ![](assets/launch_1.png)
 
 1. Mobileタイプのプロパティを作成して、Experience Platform Launchでモバイルアプリケーションを作成します。 詳しくは、 [Experience Platform Launchのドキュメントを参照](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#create-a-new-mobile-property) してください。
-1. Experience Platform Launchにモバ **[!UICONTROL Adobe Campaign Standard]** イルアプリケーション用の拡張機能をインストールします。
+1. Experience Platform Launchにモバ **[!UICONTROL Adobe Campaign Standard]**イルアプリケーション用の拡張機能をインストールします。
 
    拡張機能について詳しくは、『 [Experience Platform Launch』ドキュメントを参照してください](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard) 。
 
-1. Adobe Launchでのアプリケーションのルールの設定については、「Launchでのアプリケ [ーションの設定」を参照してください](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Step1Createdataelements)
+1. Adobe Launchでのアプリケーションのルールの設定については、「Launchでのアプリケ [ーションの設定」を参照してください。](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Step1Createdataelements)
 1. Adobe Campaign StandardでAdobe Launchアプリケーションを設定する方法については、「Adobe CampaignでのAdobe Launch [アプリケーションの設定」を参照してください](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#SettingupyourAdobeLaunchapplicationinAdobeCampaign)。
 1. モバイルアプリケーションの設定にチャネル固有の設定を追加します。詳しくは、Adobe Campaign [でのチャネル固有のアプリケーション設定を参照してください](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign)。
 
@@ -66,7 +68,7 @@ Experience Platform SDKアプリケーションでプッシュ通知とアプリ
 
 プッシュ通知を送信するには、次の操作を行う必要があります。
 
-1. Adobe Campaignでチャネルにアクセスできるこ **[!UICONTROL Mobile app]** とを確認してください。
+1. Adobe Campaignでチャネルにアクセスできるこ **[!UICONTROL Mobile app]**とを確認してください。
 1. モバイルアプリケーションの設定：
 
    * [Adobe Campaign](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html#SettingupamobileapplicationinAdobeCampaign).
@@ -82,11 +84,11 @@ Experience Platform SDKアプリケーションでプッシュ通知とアプリ
    詳しくは、この[ページ](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html#Collectingsubscribersdatafromamobileapplication)を参照してください。
 
 1. デバイスでモバイルアプリケーションを起動し、ログインして、設定が正常に完了していることを確認します。 通知の受信をオプトインしていることを確認します。
-1. 次に、Adobe Campaignのアドバンスメニューで//を選 **[!UICONTROL Administration]** 択し **[!UICONTROL Channels]** ます **[!UICONTROL Mobile app]**。
+1. 次に、Adobe Campaignのアドバンスメニューで//を選 **[!UICONTROL Administration]**択し**[!UICONTROL Channels]** ます **[!UICONTROL Mobile app]**。
 1. リストからモバイルアプリを選択し、そのプロパティを表示します。 購読情報が購読者リストの下に表示されます。
 
    ![](assets/push_notif_mobile_app.png)
 
-1. プロファイルが登録しているモバイルアプリケーションを確認するには、メニ **[!UICONTROL Profiles & Audiences > Profiles]** ューでプロファイルを選択し、右側のボタン **[!UICONTROL Edit profile properties]** をクリックします。 タブにモバイルアプリが表示さ **[!UICONTROL Mobile App Subscriptions]** れます。
+1. プロファイルが登録しているモバイルアプリケーションを確認するには、メニ **[!UICONTROL Profiles & Audiences > Profiles]**ューでプロファイルを選択し、右側のボタン**[!UICONTROL Edit profile properties]** をクリックします。 タブにモバイルアプリが表示さ **[!UICONTROL Mobile App Subscriptions]**れます。
 
    ![](assets/push_notif_subscriptions.png)
