@@ -1,18 +1,18 @@
 ---
 title: 電子メールの件名と送信者の定義
 description: 電子メールデザイナーで電子メールの件名と送信者を定義する方法を確認します。
-page-status-flag: 非活性化の
+page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 設計
-content-type: 参照
+audience: designing
+content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 259f7033310982298024462c0134989404c096f4
 
 ---
 
@@ -25,23 +25,17 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 >
 >件名行が空の場合は、メッセージダッシュボードと電子メールデザイナーに警告が表示されます。
 
-電子メールの件名を設定するには、電子メールデザ **[!UICONTROL Properties]** イナーのホームページのタブ（ホームアイコンからアクセス可能）に移動し、セクションに入力 **[!UICONTROL Subject]** します。
+電子メールの件名を設定するには、電子メールデザ **[!UICONTROL Properties]**イナーのホームページのタブ（ホームアイコンからアクセス可能）に移動し、セクションに入力**[!UICONTROL Subject]** します。
 
 **電子メールの件名行を定義するには**:
 
 1. 電子メールを作成します。
 1. ホームページを閉じます。
-1. 電子メールデ **[!UICONTROL Properties]** ザイナのホームページのタブ（ホームアイコンからアクセス可能）に移動し、セクションに入力 **[!UICONTROL Subject]** します。
+1. 電子メールデ **[!UICONTROL Properties]**ザイナのホームページのタブ（ホームアイコンからアクセス可能）に移動し、セクションに入力**[!UICONTROL Subject]** します。
 
 ![](assets/email_designer_subject.png)
 
 また、対応するアイコンをクリックして、パーソナライゼーションフィールド、コンテンツブロックおよび動的コンテンツを件名行に追加することもできます。
-
-**関連トピック：**
-
-* [パーソナライゼーションフィールドの挿入](../../designing/using/personalization.md#inserting-a-personalization-field)
-* [コンテンツブロックの追加](../../designing/using/personalization.md#adding-a-content-block)
-* [電子メールでの動的コンテンツの定義](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)
 
 ## 予測件名行 {#predictive-subject-line}
 
@@ -57,19 +51,19 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 * [電子メールの件名行のテスト](../../sending/using/testing-subject-line-email.md)
 
-## 電子メールの送信者 {#email-sender}
+## 電子メールの電子メール送信者の定義 {#email-sender}
 
-送信するメッセージのヘッダーに表示される送信者の名前を定義するには、電子メールデザイナーのホームページのタブに移動します( **[!UICONTROL Properties]** ホームアイコンからアクセスできます)。
+送信するメッセージのヘッダーに表示される送信者の名前を定義するには、電子メールデザイナーのホームページのタブに移動します( **[!UICONTROL Properties]**ホームアイコンからアクセスできます)。
 
 ![](assets/delivery_content_edition16.png)
 
-* このフ **[!UICONTROL From: name]** ィールドには、送信者名を入力できます。 デフォルトでは、デフォルトの **Sender name** blockが自動的にフィールドに入力されます。 Adobe Campaignは、（Adobe Campaignロゴを介して）電子メールチャネルの設定 **[!UICONTROL Administration > Channels > Email > Email accounts]** を参照し、この送信者を指定します。
+* このフ **[!UICONTROL From: name]**ィールドには、送信者名を入力できます。 デフォルトでは、デフォルトの** Sender name **blockが自動的にフィールドに入力されます。 デフォルトの送信者の電子メールアドレスと送信者名は、アドバンスメ**[!UICONTROL Brands]** ニューの下にあるAdobe Campaignロゴを使用してアクセス可能な形で定義されま **[!UICONTROL Administration > Instance settings > Brand configuration]**す。
 
    送信者名は、[送信者名]ブロックをクリックして **変更できます** 。 フィールドが編集可能になり、使用する名前を入力できます。
 
    このフィールドはパーソナライズできます。 これを行うには、送信者名の下のアイコンをクリックして、パーソナライゼーションフィールド、コンテンツブロックおよび動的コンテンツを追加します。
 
-* このセ **[!UICONTROL From: email address]** クションではフィールドを編集できません。 電子メールのプロパティをダッシュボードから編集することで変更できます。 詳しくは、電子メールの詳細パラ [メーターのリストを参照してください](../../administration/using/configuring-email-channel.md#advanced-parameters)。
+* このセ **[!UICONTROL From: email address]**クションではフィールドを編集できません。 電子メールのプロパティをダッシュボードから編集することで変更できます。 詳しくは、電子メールの詳細パラ[メーターのリストを参照してください](../../administration/using/configuring-email-channel.md#advanced-parameters)。
 
 >[!NOTE]
 >
