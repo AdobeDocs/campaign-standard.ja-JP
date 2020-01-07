@@ -12,12 +12,16 @@ discoiquuid: 45b11631-6b32-4074-8c8d-affd06407810
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3033e2f15065685f3c0e7c1759e184738cb67d9c
+source-git-commit: 6291862737c71b63d8107b03245d5207b6151e96
 
 ---
 
 
 # 指標の計算{#indicator-calculation}
+
+>[!NOTE]
+>
+>大量分析とリアルタイム分析をより適切に処理し、管理するために、動的レポートでは、明確な数の予測に対して近似集計を使用します。 近似値の集計は、制限付きのメモリ使用量を提供し、多くの場合、正確な計算よりも高速です。
 
 以下の表に、様々なレポートで使用されるインジケーターのリストと、配信タイプに応じた計算式を示します。
 
@@ -152,13 +156,7 @@ source-git-commit: 3033e2f15065685f3c0e7c1759e184738cb67d9c
    <td> @rateQuarantine<br /> </td> 
    <td> @quarantine/@sent<br /> </td> 
    <td> レート計算の分母は、送信回数（配信済み+バウンス）に基づきます。<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> 拒否<br /> </td> 
-   <td> @拒否<br /> </td> 
-   <td> count(@failureReason=20)<br /> </td> 
-   <td> </td> 
-  </tr> 
+  </tr>
   <tr> 
    <td> 却下<br /> </td> 
    <td> @rejected<br /> </td> 
