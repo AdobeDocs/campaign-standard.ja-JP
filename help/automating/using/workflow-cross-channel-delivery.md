@@ -13,7 +13,7 @@ context-tags: workflow,use-case,query,wait,delivery
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8f0460eeadb388fef2a3304623086afd36e68962
+source-git-commit: f959441647d1fea41ecce2fc41e3cad3cb536bac
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: 8f0460eeadb388fef2a3304623086afd36e68962
 Adobe Campaignで使用できるワークフローと様々なチャネルの詳細については、以下のドキュメントを参照してください。
 
 * [ワークフローの検索](../../automating/using/discovering-workflows.md)
-* [通信チャネル](../../channels/using/discovering-communication-channels.md)
+* [通信チャネルの検出](../../channels/using/discovering-communication-channels.md)
 
 ## ワークフローの作成 {#creating-workflow}
 
