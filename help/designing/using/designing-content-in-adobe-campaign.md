@@ -12,7 +12,7 @@ discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6881d3e0f22f3766d6a26af90ce3bcbd5e2293da
+source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
 
 ---
 
@@ -31,7 +31,7 @@ Adobe Campaignで電子メールを作成したら、そのコンテンツを定
 
 <!--The Email Designer has more features than the Legacy Editor and is backward compatible.-->
 
-* 電子メールコンテンツの作成方法について詳しくは、電子メールデザ [イナーの使い始めに](../../designing/using/quick-start.md)。
+* 電子メールコンテンツの作成方法については、「電子メールデザ [イナーの概要](../../designing/using/quick-start.md)」を参照してください。
 * 電子メールデザイナーの概要については、「電子メールデザ [イナーの使用](../../designing/using/designing-content-in-adobe-campaign.md)」を参照してください。
 * コンテンツの作成の詳細：
    * 新規での電子メールのデザ [インを参照してください](../../designing/using/designing-from-scratch.md)。
