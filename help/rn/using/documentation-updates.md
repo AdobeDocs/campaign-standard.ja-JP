@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
+source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 
 ---
 
@@ -117,7 +117,7 @@ Adobe Experience Platform SDKを使用したモバ **イルアプリケーショ
 
 「ログ」タブにSQLクエリを表示する方法に関するワークフローのトラブルシューティングの節に手順が追加されました。 [詳細を表示](../../automating/using/best-practices-workflows.md#troubleshooting-data-management-activities)
 
-新しいヘルプ記事が追加され、サブドメインと証明書の管理に関する情報がコントロールパネルに表示されました。 [詳細を表示](https://helpx.adobe.com/campaign/kb/control-panel-subdomains-certificates.html)
+新しいヘルプ記事が追加され、サブドメインと証明書の管理に関する情報がコントロールパネルに表示されました。 [詳細を表示](https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/subdomains-branding.html)
 
 コンテンツテンプレートとフラグメントについて説明する節が更新されました。 [詳細を表示](../../designing/using/using-reusable-content.md#content-templates)
 
@@ -179,7 +179,7 @@ Campaign StandardおよびClassicのエラーメッセージのリストが更�
 
 ### リリースに含まれる新機能 {#new-capabilities-included-in-the-release}
 
-コントロールパネル — 詳 [細情報](https://helpx.adobe.com/campaign/kb/control-panel.html)
+コントロールパネル — 詳 [細情報](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
 
 ローカル通知 — 詳 [細情報](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)
 
