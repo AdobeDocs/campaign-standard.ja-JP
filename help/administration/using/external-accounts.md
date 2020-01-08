@@ -13,7 +13,7 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
+source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 
 ---
 
@@ -36,7 +36,7 @@ source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 >
 >その他のタイプの外部アカウントは、製品のプロビジョニングプロセス中にアドビによって使用されます。 Campaign Standard 17.9リリースからは、FTP外部アカウントは引き続き定義できますが、新しいワークフローアクティビティでは使用できなくなりました。 既に接続が設定されている場合は、その接続は有効のままです。
 
-外部アカウントは、メニューの下の管理者が設定で **[!UICONTROL Administration > Application settings > External accounts]** きます。
+外部アカウントは、メニューの下の管理者が設定で **[!UICONTROL Administration > Application settings > External accounts]**きます。
 
 ## 外部アカウントの作成 {#creating-an-external-account}
 
@@ -44,7 +44,7 @@ Adobe Campaign には、事前定義済みの外部アカウントのセット�
 
 外部アカウントは、テクニカルワークフローやキャンペーンワークフロー等の技術プロセスで使用されます。ワークフローのファイル転送や、その他のアプリケーション（Adobe Target、Experience Manager など）とのデータ交換をセットアップする際には外部アカウントを選択する必要があります。
 
-1. Click the **[!UICONTROL Create]** button.
+1. ボタンをクリッ **[!UICONTROL Create]**クします。
 1. ラベルを入力します。 ワークフローで外部アカウントを選択する際に、ラベルとIDが使用されます。
 1. 作成するアカウントのタイプを選択します。
 1. 関連する場合は、資格情報、サーバーアドレス、ポート番号またはキーを指定して、アカウントへのアクセスを設定します。
@@ -84,12 +84,12 @@ ETL のためのファイルやデータを管理する際、これらのファ�
 
 また、SFTP 接続の開始の試行元になるパブリック IP は Campaign インスタンスのホワイトリストに登録されている必要があります。ホワイトリストへの IP アドレスの登録は、認証に使用する公開鍵の提供と同様に、[サポートチケット](https://support.neolane.net)によって依頼できます。
 
-SFTPサーバーは、コントロールパネルから管理できます。 For more information, refer to the [Control Panel documentation](https://helpx.adobe.com/campaign/kb/control-panel-sftp.html).
+SFTPサーバーは、コントロールパネルから管理できます。 For more information, refer to the [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/sftp-management/about-sftp-management.html).
 
 >[!NOTE]
 >
 >コントロールパネルは、AWSでホストされるお客様の管理者ユーザーのみが使用できます。
-インスタンスがAWSでホストされているかどうかを確認 [します](https://helpx.adobe.com/campaign/kb/control-panel-faq.html#IMSOrgID)。
+インスタンスがAWSでホストされているかどうかを確認 [します](https://docs.adobe.com/content/help/en/control-panel/using/faq.html#ims-org-id)。
 
 ## Amazon S3 external account {#amazon-s3-external-account}
 
@@ -99,24 +99,24 @@ Amazon S3サーバーのフィールドには、次のように入力します�
 <S3 bucket name>.s3.amazonaws.com/<s3 object path>
 ```
 
-ファイルをS3暗号化モードで保存するには、ボックスをオンに **[!UICONTROL Keep files in S3 encrypted]** します。
+ファイルをS3暗号化モードで保存するには、ボックスをオンに **[!UICONTROL Keep files in S3 encrypted]**します。
 
 ![](assets/external_accounts_2.png)
 
 必要な情報は通常、接続しているサーバーのプロバイダーから提供されます。
 
-エンドポイントに **[!UICONTROL AWS Region]** 関連付けられているを指定します。 サポートされている地域と署名のバージョンは、 [Amazon S3の公式ドキュメントで確認できます](https://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region)。
+エンドポイントに **[!UICONTROL AWS Region]**関連付けられているを指定します。 サポートされている地域と署名のバージョンは、[Amazon S3の公式ドキュメントで確認できます](https://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region)。
 
 >[!NOTE]
 >
->AWSリー **[!UICONTROL Receiver server]** ジョンを入力しないでお客様のURLに入力する必要があります。後で、URLに自動的に追加されます。
+>AWSリー **[!UICONTROL Receiver server]**ジョンを入力しないでお客様のURLに入力する必要があります。後で、URLに自動的に追加されます。
 
 ### Amazon S3アカウントの推奨事項 {#amazon-s3-account-recommendations}
 
 Amazon S3アカウントの設定を支援するため、以下の推奨事項に従うことをお勧めします。
 
 * S3バケットへのアクセスを制限する厳密なバケットポリシーを作成します。 バケットポリシーは、バケットの作成時に設定できます。 For more information, refer to the [Amazon S3 documentation](https://docs.aws.amazon.com/AmazonS3/latest/dev//example-bucket-policies.html).
-* 外部アカウントを作成する際に、このチェックボックスをオンにして、S3バケットに機密データを保存する暗号化を有効に **[!UICONTROL Keep files in S3 encrypted]** します。
+* 外部アカウントを作成する際に、このチェックボックスをオンにして、S3バケットに機密データを保存する暗号化を有効に **[!UICONTROL Keep files in S3 encrypted]**します。
 * バケット権限を付与して、バケット内のオブジェクトにアクセスできるユーザーを指定します。 バケット権限の詳細については、 [Amazon S3のドキュメントを参照してください](https://docs.aws.amazon.com/AmazonS3/latest/dev//access-control-overview.html)。
 
 ## Adobe Experience Manager の外部アカウント {#adobe-experience-manager-external-account}
@@ -142,11 +142,11 @@ Google reCAPTCHA V3をランディングページに追加するには、まず�
 
 Google reCAPTCHA V3外部アカウントの場合は、次の情報を入力します。
 
-* お客様 **[!UICONTROL Label]** の外部ア **[!UICONTROL ID]** カウントの
+* お客様 **[!UICONTROL Label]**の外部ア**[!UICONTROL ID]** カウントの
 * **[!UICONTROL Type]**: Google reCAPTCHA
-* お **[!UICONTROL Site key]** よび **[!UICONTROL Site secret]**
-* A **[!UICONTROL Threshold]** between 0 and 1
+* お **[!UICONTROL Site key]**よび**[!UICONTROL Site secret]**
+* A **[!UICONTROL Threshold]**between 0 and 1
 
-   0.0の値は、ボッ **[!UICONTROL Threshold]** トの可能性が高く、1.0の場合は適切な相互作用を示します。 デフォルトでは、しきい値0.5を使用できます。
+   0.0の値は、ボッ **[!UICONTROL Threshold]**トの可能性が高く、1.0の場合は適切な相互作用を示します。 デフォルトでは、しきい値0.5を使用できます。
 
 ![](assets/external_accounts_3.png)
