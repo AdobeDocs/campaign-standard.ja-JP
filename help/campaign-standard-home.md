@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Adobe Campaign Standard 製品ドキュメント
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 501ba6f97a86076116d4d84f43df674536e12f6a
+source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 501ba6f97a86076116d4d84f43df674536e12f6a
 
 * **[配信のベストプラクティス](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)**<br/>配信のデザインと送信に関するベストプラクティスの詳細を確認します。
 
-* **[電子メールデザイナー](designing/using/designing-content-in-adobe-campaign.md)**<br/>再編成された電子メールデザイナーのドキュメントを参照してください。
+* **[電子メールデザイナ](designing/using/designing-content-in-adobe-campaign.md)**<br/>ー再構成された電子メールデザイナーのドキュメントを参照してください。
 
 * **[Campaign Standard mobileガイドモバイル配信](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/>の一般的なガイドラインについて詳しく説明します。
 
@@ -46,8 +46,7 @@ source-git-commit: 501ba6f97a86076116d4d84f43df674536e12f6a
     <div>
     <a href="designing/using/designing-content-in-adobe-campaign.md"><strong>電子メールのデザイン</strong></a>
     </div>
-    <em>電子メールデザイナーを使用して、レスポンシブでパーソナライズされた電子メールを作成する方法を説明します。</em>
- <br>
+    <em>電子メールデザイナーを使用して、レスポンシブでパーソナライズされた電子メールを作成する方法を説明します</em>。 <br>
   </td>
   <td valign="top">
        <img alt="開発者" src="start/using/assets/dev.png" />
