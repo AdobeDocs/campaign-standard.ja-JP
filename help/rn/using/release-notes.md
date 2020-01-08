@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
+source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 
 ---
 
@@ -26,7 +26,7 @@ source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
 * [キャンペーンリリース計画](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
 * [最新のドキュメントの更新](../../rn/using/documentation-updates.md)
 * [廃止および削除された機能](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
-* [コントロールパネル](https://helpx.adobe.com/campaign/kb/control-panel.html)
+* [コントロールパネルのリリースノート](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)
 * 以前のリリースノート： [2018](../../rn/using/release-notes-2018.md), [2017](../../rn/using/release-notes-2017.md), [2015-2016](../../rn/using/release-notes-2015-2016.md)
 
 ## リリース19.4 - 2019年12月 {#release-19-4---october-2019}
@@ -317,7 +317,7 @@ source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
  <tbody> 
   <tr> 
    <td> コントロールパネル<br /> </td> 
-   <td> <p>管理者ユーザーとしての作業の効率を高めるために、容量を簡単に監視し、インスタンスの設定を管理できます（SFTPサーバー管理から始めます）。</p><p>詳しくは、<a href="https://helpx.adobe.com/campaign/kb/control-panel.html">詳細ドキュメント</a>および<a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-control-panel-video-use.html">ハウツービデオ</a>を参照してください。</p></td> 
+   <td> <p>管理者ユーザーとしての作業の効率を高めるために、容量を簡単に監視し、インスタンスの設定を管理できます（SFTPサーバー管理から始めます）。</p><p>詳しくは、<a href="https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html">詳細ドキュメント</a>および<a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-control-panel-video-use.html">ハウツービデオ</a>を参照してください。</p></td> 
   </tr> 
   <tr> 
    <td> ローカル通知<br /> </td> 
