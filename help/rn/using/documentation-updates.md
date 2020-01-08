@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6a13d0f642538b20d62b812b866e5a0f896a1ef9
+source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
 
 ---
 
@@ -109,7 +109,7 @@ GDPR入門ガイドが改善され、強化されました。 GDPRやCCPAなど�
 
 Adobe Experience Platform SDKを使用したモバ **イルアプリケーションの設定方法に関するページに、「** Launch_URL_Campaign」オプションに関するメモが追加されました。 [詳細を表示](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)
 
-電子メールデザイナーガイドが再編成されました。 [詳細を表示](../../designing/using/designing-content-in-adobe-campaign.md)
+電子メールデザイナーガイドの内容が変更されました。 [詳細を表示](../../designing/using/designing-content-in-adobe-campaign.md)
 
 ## ドキュメントの更新 — 2019年8月 {#doc-updates-august-2019}
 
