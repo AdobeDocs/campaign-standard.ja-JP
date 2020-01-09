@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 5c6d5f307a5d0b90a4a616a73d17b540d115f041
+source-git-commit: 646bd62d84c9c9b0bf8a6b3edfeafb435cb1d593
 
 ---
 
@@ -367,7 +367,6 @@ source-git-commit: 5c6d5f307a5d0b90a4a616a73d17b540d115f041
          + [カウント](api/using/counting.md)
          + [ページ編集](api/using/pagination.md)
       + [カスタムリソース](api/using/custom-resources.md)
-   + [カスタムリソースの操作](api/using/interacting-with-custom-resources.md)
    + プロファイルの管理{#managing-profiles}
       + [プロファイルの取得](api/using/retrieving-profiles.md)
       + [プロファイルの更新](api/using/updating-profiles.md)
@@ -377,6 +376,7 @@ source-git-commit: 5c6d5f307a5d0b90a4a616a73d17b540d115f041
       + [購読の取得](api/using/retrieving-subscriptions.md)
       + [購読の実行](api/using/perform-subscriptions.md)
       + [購読の削除](api/using/deleting-subscriptions.md)
+   + [カスタムリソースの操作](api/using/interacting-with-custom-resources.md)
    + [マーケティング履歴の操作](api/using/interacting-with-marketing-history.md)
    + プライバシーの管理 {#privacy-management}
       + [プライバシーリクエストの作成](api/using/creating-a-privacy-request.md)
