@@ -12,12 +12,12 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
+source-git-commit: 45334e2d64c31ee22f11030e19f313b3c1b49936
 
 ---
 
 
-# Managing transactional messages {#managing-transactional-messages}
+# トランザクションメッセージの管理 {#managing-transactional-messages}
 
 ## トランザクションメッセージについて
 
@@ -25,7 +25,7 @@ source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
 
 >[!NOTE]
 >
->イベントの作成と公開は、キャンペーンのドキュメ <a href="https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html">ントに記載されます</a>。
+>この節では、イベントの作成と公開について [説明します](../../administration/using/configuring-transactional-messaging.md)。
 
 例えば、顧客が買い物かごに製品を購入する前にWebサイトを離れるたびに「買い物かごの放棄」イベントをトリガーするとします。 これを行うには、Web開発者がREST Transactional Messages APIを使用する必要があります。
 
@@ -40,9 +40,9 @@ source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
 POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 ```
 
-* **&lt;組織&gt;**:個人の組織ID。 [この節](../../api/using/must-read.md)を参照してください。
+* **&lt;組織>**:個人の組織ID。 [この節](../../api/using/must-read.md)を参照してください。
 
-* **&lt;transactionalAPI&gt;**:トランザクションメッセージAPI endPoints。
+* **&lt;transactionalAPI>**:トランザクションメッセージAPI endPoints。
 
    トランザクションメッセージAPIエンドポイントの名前は、インスタンスの設定によって異なります。 これは、値「mc」に続けて個人の組織IDが続く値に対応します。 組織IDとして「geometrixx」を持つGeometrixx社の例を見てみましょう。 この場合、POSTリクエストは次のようになります。
 
@@ -50,7 +50,7 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
    （トランザクションメッセージAPIエンドポイントは、APIプレビュー時にも表示されます）。
 
-* **&lt;eventID&gt;**:送信するイベントのタイプ。 このIDは、イベント定義の作成時に生成されます。 Refer to the [Campaign documentation](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html).
+* **&lt;eventID>**:送信するイベントのタイプ。 このIDは、イベント定義の作成時に生成されます。 Refer to the [Campaign documentation](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html).
 
 ### POST要求ヘッダー
 
@@ -88,7 +88,7 @@ POST応答は、作成時のトランザクションイベントステータス�
 
 <br/>
 
-***サンプルリクエスト***
+***サンプルリクエスト&#x200B;***
 
 POSTリクエストを送信します。
 
