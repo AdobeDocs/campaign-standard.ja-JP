@@ -12,7 +12,7 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 45334e2d64c31ee22f11030e19f313b3c1b49936
+source-git-commit: d54f036c394db7abdba805ea2c21436c0ef5212c
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: 45334e2d64c31ee22f11030e19f313b3c1b49936
 
 >[!NOTE]
 >
->この節では、イベントの作成と公開について [説明します](../../administration/using/configuring-transactional-messaging.md)。
+>イベントの作成と公開は、キャンペーンのドキュメ <a href="https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html">ントに記載されます</a>。
 
 例えば、顧客が買い物かごに製品を購入する前にWebサイトを離れるたびに「買い物かごの放棄」イベントをトリガーするとします。 これを行うには、Web開発者がREST Transactional Messages APIを使用する必要があります。
 
