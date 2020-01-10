@@ -57,7 +57,7 @@ Adobe Experience Cloud（コアサービス）で事前に監視する動作を�
 
 このボ **[!UICONTROL Show Trigger in Experience Cloud]** タンを使用すると、Adobe Experience cloudでトリガーの定義を表示できます。
 
-イベントが公開されると、新しいイベントにリンクされたトランザクションテンプレートが自動的に作成されます。 その後、作成したテンプレートを変更して公開する必要があります。 詳しくは、「テンプレートの編集」の節 [を参照してください](../../start/using/about-templates.md) 。
+イベントが公開されると、新しいイベントにリンクされたトランザクションテンプレートが自動的に作成されます。 その後、作成したテンプレートを変更して公開する必要があります。 詳しくは、「テンプレートの編集」の節 [を参照してください](../../start/using/marketing-activity-templates.md) 。
 
 ## トランザクションメッセージテンプレートの編集 {#editing-the-transactional-message-template}
 
