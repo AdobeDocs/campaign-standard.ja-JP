@@ -12,25 +12,25 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ff05128d664db7afba57b020f59b9a98fc656f56
+source-git-commit: 538739417c4ed28ff2991186dac5fb69d1af3afd
 
 ---
 
 
 # カスタムリソースの操作 {#interacting-with-custom-resources}
 
-/customResourcesエ **ンドポイントを使用すると** 、ACSカスタムエンティティをRESTで公開できます。 このAPIに基づいて、カスタムエンティティと外部エンドポイントの統合を利用できます。
+/customResourcesエ **ンドポイントを使用すると** 、ACSカスタムリソースをRESTで公開できます。 このAPIに基づいて、カスタムエンティティと外部エンドポイントの統合を利用できます。
 
-/customResourcesの動作は、/profileAndServicesエンドポイントとまったく同じです。
+/customResourcesエンドポイントの動作は、/profileAndServicesエンドポイントとまったく同じです。
 
-このAPI内で公開されるカスタムエンティティは次のとおりです。
+このAPIで公開されるカスタムリソースは次のとおりです。
 
 * 縦断図形にリンクされたすべての図形
 * プロファイルエンティティの子にリンクされているすべてのエンティティ
 * 縦断にリンクされていないすべてのエンティティと、これらのエンティティの子と孫です。
 
 >[!NOTE]
->/profileAndServicesExtで使用できるカスタムエンティティは、/customResources APIに公開されません。
+>/profileAndServicesExtで使用できるカスタムリソースは、/customResources APIに公開されません。
 
 カスタムリソースからメタデータを取得する例を次に示します。
 
