@@ -1,5 +1,5 @@
 ---
-title: リリースノート
+title: 最新リリース
 description: このページには、Adobe Campaign Standardの最新リリースがすべて表示されます。
 page-status-flag: never-activated
 uuid: 1cf2e40c-beca-43db-8261-a1820ee86ad3
@@ -12,37 +12,27 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
+source-git-commit: 117577dbc1e36502c66eee6d901bdfbe0b698c06
 
 ---
 
 
-# リリースノート{#release-notes}
+# 最新リリース{#latest-release}
 
-2019年リリースの新機能とパッチはすべて、このページに記載されています。 コントロールパネルの更新も含まれます。
-
-その他のリソース：
-
-* [キャンペーンリリース計画](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
-* [最新のドキュメントの更新](../../rn/using/documentation-updates.md)
-* [廃止および削除された機能](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
-* [コントロールパネルのリリースノート](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)
-* 以前のリリースノート： [2018](../../rn/using/release-notes-2018.md), [2017](../../rn/using/release-notes-2017.md), [2015-2016](../../rn/using/release-notes-2015-2016.md)
+[リリース計画](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) | [コントロ[ールパネルのリリース](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) ]|ドキュ [メントの更新](../../rn/using/documentation-updates.md) |以前の [リリースノート](../../rn/using/release-notes-2018.md) |非推 [奨の機能](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
 
 ## リリース19.4 - 2019年12月 {#release-19-4---october-2019}
 
-### What&#39;s new? {#what-s-new-5}
+**新機能**
 
 <table> 
  <thead> 
   <tr> 
-   <th> 機能<br /> </th> 
-   <th> 説明<br /> </th> 
+   <th> <strong>カリフォルニア消費者プライバシー法(CCPA)</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> カリフォルニア消費者プライバシー法(CCPA)<br /> </td> 
    <td> <p>CCPAは、2020年1月1日に施行されるデータ保護要件を調和させ、最新化するカリフォルニア州の新しいプライバシー法です。 CCPAは、カリフォルニアに居住するデータサブジェクトのデータを保持するAdobe Campaignのお客様に適用されます。</p>
    <p>Adobe Campaignで既に利用可能なプライバシー機能（同意管理、データ保持設定、ユーザーの役割など）に加え、CCPAの準備を促進するために、次のような追加機能を追加いたします。</p>
    <ul>
@@ -53,8 +43,17 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
     <p>ハウツービ <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">デオを参照</a>。</p>
 </td> 
   </tr> 
+ </tbody> 
+</table>
+
+<table> 
+ <thead> 
   <tr> 
-   <td> Microsoft Dynamics 365統合(GA)<br /> </td> 
+   <th> <strong>Microsoft Dynamics 365統合(GA)</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
    <td> 
     <p>Adobe Campaign StandardとMicrosoft Dynamics 365の統合が可能になりました。 Dynamics 365からCampaignに連絡先とカスタムエンティティレコードを転送し、CampaignからDynamics 365に電子メールイベントデータを取得して、販売/マーケティングの連携を改善できます。</p>
     <p>詳細なドキュメ <a href="https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html">ントを参照し</a> 、この統合を設定してハウツ <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/integrating/microsoft-dynamics365-connector/introduction.html">ービデオを確認します</a>。</p>
@@ -63,7 +62,7 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
  </tbody> 
 </table>
 
-### 強化点 {#improvements-3}
+**強化点**
 
 * 動的レポートの同意ポップアップが更新され、Adobe Campaign StandardとMicrosoft Dynamics 365の統合が含まれるようになりました。 利用条件に同意すると、Adobe Campaign Standard/Microsoft Dynamics 365統合およびDynamic Reportingを使用する際に、プロファイルデータが含まれます。 [詳細情報](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement) (CAMP-29766)
 * 配信アラートを受け取る際に間違った連絡日が表示される問題を修正しました。
@@ -73,13 +72,13 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 * ファイルの読み込みアクティビティ **が改善され** ました。ワークフローログは、ファイルの読み込みに失敗した場合に発生するエラーに関して、より明確で詳細な情報が得られるようになりました。 「ファイル内の拒否を保持」オプションを有効にし **た場合に生成される送信の移行は** 、「拒否」という名前に変更さ **れました**。 [詳細を表示](../../automating/using/load-file.md)
 * アップロードされたCSVファイルに言語が見つからないことによる送信エラーをより深く理解するために、多言語関連のログが送信ログに追加されました。
 
-### セキュリティの機能強化 {#security-enhancements-3}
+**セキュリティの機能強化**
 
 * プライバシーリクエストを使用して量子化されたプロファイルの情報を削除すると、検疫リストの電子メールアドレスを除くすべてのデータが削除される問題を修正しました。
 * 電子メールヘッダーのインジェクションに対する保護のためにセキュリティが強化されました。
 * xtk式（電子メールHTML、テキストコンテンツ、件名、SMS、プッシュ通知コンテンツ）が使用できるSSRF攻撃に対するセキュリティが強化されました。
 
-### 電子メールデザイナーの機能強化 {#email-designer-enhancements-4}
+**電子メールデザイナーの機能強化**
 
 * 電子メールに挿入した場合に購読解除、購読、ランディングページのリンクが追跡されない問題を修正しました。 (CAMP-37809)
 * 新しい電子メールを作成し、テンプレートを選択する際にエラーが発生する可能性がある問題を修正しました。 (CAMP-38000)
@@ -106,7 +105,7 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 * テンプレートとフラグメントのボタンのサイズの問題を修正しました。
 * ボタンコンポーネントに挿入する際の画像のサイズの問題を修正しました。
 
-### その他の変更 {#other-changes-3}
+**その他の変更**
 
 * 配信KPIページと動的レポートページにデータが表示されるデフォルトの時間範囲が、レポート結果に相違が生じないように調整されました。 (CAMP-35148)
 * アプリケーション証明書の有効期限が切れたときに、ログにエラーメッセージが追加されました。
@@ -121,7 +120,7 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 * Campaign Standard APIでは、キー値がオリジンキーと異なる場合や、アドビが提供するURIではなく独自のビジネスキーをURIとして使用している場合、PATCH操作を使用してカスタムキーを変更することはできません。
 * 「アルバニア語 — マケドニア」言語が、優先言語ドロップダウンリストに追加されました。 (CAMP-35396)
 
-### パッチ {#patches-4}
+**パッチ**
 
 * 予定レポートを並べ替えたり検索したりできない問題を修正しました。
 * トリガーのルールで、ANDとORのルールが混在する問題を修正しました。
@@ -148,19 +147,9 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 * 配信が完了しても、配信の状態が「開始保留」のままになる可能性がある問題を修正しました。 (CAMP-35355)
 * 有効にしてからSQLログを無効にした場合に、ワークフローログが表示されない問題を修正しました。
 
-## コントロールパネルの更新 — 2019年8月 {#controlpanel-update---august-2019}
-
-### What&#39;s new? {#what-s-new-4}
-
-管理者ユーザーがお使いのドメインの SSL 証明書の期限が切れる前に通知を受け取る新機能を追加しました。詳しくは、[詳細ドキュメント](https://helpx.adobe.com/campaign/kb/control-panel-subdomains-certificates.html)を参照してください。
-
-さらに、管理者ユーザーは、SFTP サーバーにアクセスするために追加された SSH キーを削除できるようになりました。
-
-コントロールパネルは、AWS でホストされているお客様のみ使用できることに注意してください。これらの更新は8月26日に提供されます。
-
 ## リリース19.3 - 2019年7月 {#release-19-3---july-2019}
 
-### What&#39;s new? {#what-s-new-3}
+**新機能**
 
 <table> 
  <thead> 
@@ -181,11 +170,11 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
  </tbody> 
 </table>
 
-### セキュリティの機能強化 {#security-enhancements-2}
+**セキュリティの機能強化**
 
 * イメージを取得するための無効な要求に対するサービス拒否(DoS)攻撃を防ぐセキュリティの問題を修正しました。 (CAMP-33454)
 
-### 電子メールデザイナーの機能強化 {#email-designer-enhancements-3}
+**電子メールデザイナーの機能強化**
 
 * コンポーネントを追加するたびにHTMLスタイルタグをHTMLテンプレートに追加すると、テンプレートのサイズが大幅に大きくなる問題を修正しました。 (CAMP-34694)
 * 右上部のツールバーメニューオプションの一部を使用できない問題を修正しました。 (CAMP-34577)
@@ -212,7 +201,7 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 * 動的コンテンツを使用する際にバリアントを複製する際に発生していた問題を修正しました。
 * 不要なフィールドの一部が電子メールデザイナーの設定ペインから削除されました。
 
-### その他の改善点 {#other-improvements-3}
+**その他の改善点**
 
 * Adobe Experience Platform Location Servicesとの統合により、Adobe Campaignは、Experience Platform SDKを使用してモバイルアプリケーションのサブスクリプションに場所ベースのマーケティングメッセージを送信できるようになりました。 詳しくは、[詳細ドキュメント](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md)を参照してください。
 * レポート機能が改善され、より快適なエクスペリエンスを実現しました。 この機能を使用するには、Dynamic Reportingの使用許諾契約に同意する必要があります。 For more on this, refer to the [detailed documentation](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
@@ -224,7 +213,7 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 * 「ftp」オプションが外部アカウント設定インターフェイスから削除されました。 (CAMP-34472)
 * 各電子メールメッセージのSMTPテストモードオプションを有効または無効にできるようになりました。 For more on this, refer to the [detailed documentation](../../administration/using/configuring-email-channel.md#smtp-test-mode). (CAMP-34602)
 
-### その他の変更 {#other-changes-2}
+**その他の変更**
 
 * 配信プロパティインターフェイスに警告が追加されました。 これは、配信が集計期間に基づいて準備され、ワークフローを1日に複数回呼び出すように解凍することを指定します。配信に期間がないことを確認する必要があります。 (CAMP-34393)
 * カスタムリソース設定画面に警告が追加されました。 カスタムリソースIDには、最大30文字を使用することをお勧めします。 これは、カスタムリソースフィールド、キー、インデックス、およびリンクにも適用されます。
@@ -235,7 +224,7 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 * 「ファイルの転送」アクティビティを使用する場合、ファイルサイズが使用可能なディスク領域を超えると、エラーがログに記録されるようになりました。
 * アプリ内メッセージのセカンダリボタンに対して、「リンク先URLにリダイレクト」アクションを選択できなくなりました。
 
-### パッチ {#patches-3}
+**パッチ**
 
 * GDPRアクセス要求が失敗する可能性がある問題を修正。
 * 一意のプロファイルに対して複数のトリガーを受け取った場合に、トリガーが破棄される可能性がある問題を修正しました。
@@ -271,7 +260,7 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 
 ## リリース19.2.7 - 2019年7月 {#release-19-2-7---july-2019}
 
-### 強化点 {#improvements-2}
+**強化点**
 
 * GDPRの削除クエリが改善され、パフォーマンスが向上しました。
 * 19.2のアップグレード後にWebがクラッシュする可能性がある問題を修正しました。 (CAMP-34862)
@@ -280,20 +269,20 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 
 ## リリース19.2.4 - 2019年6月 {#release-19-2-4---june-2019}
 
-### Email Designer {#email-designer-2}
+**電子メールデザイナー**
 
 * HTMLで空のスタイルタグが使用されている場合に、ユーザーがフラグメントを編集できない問題を修正しました。 これは、19.2.3におけるCAMP-33778のフォローアップ修正です。
 
 ## リリース19.2.3 - 2019年6月 {#release-19-2-3---june-2019}
 
-### Email Designer {#email-designer-1}
+**電子メールデザイナー**
 
 19.2リリースでフラグメントを最適化するための一連の機能強化および修正が行われました。 新しく作成されたフラグメントはシームレスに機能します。 以前に作成されたフラグメントは灰色表示になっており、新しい形式に移行する必要があります。 これを行うには、各フラグメントをクリックし、新しい形式への移行を検証します。 すべてのフラグメントを移行する前に、いくつかのフラグメントをテストすることをお勧めします。
 
 * フラグメントのロックを解除した後に、フラグメントを編集できない問題を修正しました。 これは、19.2に更新する際に、既存のフラグメントに影響を与えていました。 (CAMP-33778)
 * 動的コンテンツを使用する際の問題を修正しました。 HTMLに余分なスペースが追加されました。
 
-### その他の改善点 {#other-improvements-2}
+**その他の改善点**
 
 * SMSコネクタの切断後にSMS送信が再開されない問題を修正しました。
 * TLSが有効な場合にSMPP接続を閉じる可能性がある問題を修正しました。
@@ -305,7 +294,7 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 
 ## リリース19.2 - 2019年5月 {#release-19-2---may-2019}
 
-### What&#39;s new? {#what-s-new-}
+**新機能**
 
 <table> 
  <thead> 
@@ -334,11 +323,11 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
  </tbody> 
 </table>
 
-### セキュリティの機能強化 {#security-enhancements}
+**セキュリティの機能強化**
 
 * レポートワークスペースで発生する可能性のあるクリックジャックセキュリティの問題を修正しました。
 
-### 電子メールデザイナーの機能強化 {#email-designer-enhancements}
+**電子メールデザイナーの機能強化**
 
 * フラグメントを複製し、電子メールデザイナーで使用しようとすると発生していた問題を修正しました。 (CAMP-33193)
 * 電子メールデザイナーインターフェイスでインライン要素を使用する際に不要なスペースが作成される問題を修正しました。 (CAMP-32163)
@@ -358,7 +347,7 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 * RGB値を使用して色を定義しようとすると、カラーピッカーで発生していた問題を修正しました。
 * モバイルで電子メールを受信すると、ミラーページがレスポンシブにならない問題を修正しました。
 
-### トランザクションメッセージングの強化 {#transactional-messaging-enhancements}
+**トランザクションメッセージングの強化**
 
 トランザクションメッセージングチャネルに、運用とパフォーマンスを最適化するためのいくつかの改善が加えられました。
 
@@ -370,7 +359,7 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 * イベント設定と関連するトランザクションメッセージを含むパッケージを読み込む際に発生していた問題を修正しました。 For more on this, refer to the [detailed documentation](../../channels/using/about-transactional-messaging.md#exporting-and-importing-transactional-messages).
 * 製品リストを含むトランザクションメッセージ用に作成されたテストプロファイルから収集データが削除される問題を修正しました。
 
-### その他の変更 {#other-changes}
+**その他の変更**
 
 * SMS外部アカウントに新しいオプションが追加されました。 SMSを送信するMTAプロセスの最大数を制限し、パラレル接続の数をより適切に制御できるようにします。 詳細については、 [SMSコネクタのプロトコルと設定テクノロジーを参照してください](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html) 。
 * API拡張を使用してリソースを公開する場合、APIが既に公開されていると、再び公開されるたびに自動的に更新されるようになりました。 以前は、このアクションは手動で、APIを更新できなかった場合、このAPIのプロファイルまたはサービスリソースが壊れる可能性がありました。 For more on this, refer to the [detailed documentation](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension).
@@ -386,7 +375,7 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 * カスタムリソースパブリケーションテストモードが改善されました。 最後のカスタムリソースのパブリケーションに失敗し、修正されていない場合に、ユーザーに警告メッセージが表示されるようになりました。 カスタムリソースのパブリケーションに失敗した場合は、最後の作業バージョンにロールバックできます。 詳しくは、[詳細ドキュメント](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)を参照してください。
 * ファイルの転送アクティビティに新しいオプションが追加されました。 SFTPモードで、ファイルのダウンロードアクションを使用する場合にファイルを並べ替えることができます。 詳しくは、[詳細ドキュメント](../../automating/using/transfer-file.md)を参照してください。(CAMP-33109)
 
-### パッチ {#patches}
+**パッチ**
 
 * SMS設定が再読み込みされた場合に、MTAにメモリリークが発生する可能性がある問題を修正しました。
 * 修復モードでデータベースの更新を発行できない可能性がある問題を修正しました。
@@ -409,13 +398,13 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 
 ## リリース19.1.3 - 2019年3月 {#release-19-1-3---march-2019}
 
-### 電子メールデザイナーの機能強化 {#email-designer-enhancements-1}
+**電子メールデザイナーの機能強化**
 
 * テンプレートを保存した後に変更できない問題を修正しました。
 * 以前に作成したテンプレートを電子メールで使用する際の様々な問題を修正。
 * 読み込んだテンプレートでコンポーネントが非表示にならない問題を修正しました。
 
-### その他の改善点 {#other-improvements}
+**その他の改善点**
 
 * タイポロジルールを表示する際のエラーを修正しました。 (CAMP-32059 &amp; CAMP-31849)
 * タイポロジルールを編集できない問題を修正しました。 (CAMP-31750)
@@ -423,7 +412,7 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 
 ## リリース19.1 - 2019年2月 {#release-19-1---february-2019}
 
-### What&#39;s new? {#what-s-new--1}
+**新機能**
 
 <table> 
  <thead> 
@@ -457,11 +446,11 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
  </tbody> 
 </table>
 
-### セキュリティの機能強化 {#security-enhancements-1}
+**セキュリティの機能強化**
 
 * 生成されたランディングページのHTMLコードが更新され、検索エンジンのインデックス付けが防止されました。
 
-### 電子メールデザイナーの機能強化 {#email-designer-enhancements-2}
+**電子メールデザイナーの機能強化**
 
 * Behanceのアーティストがデザインした、クラス最高の4つのレスポンシブ電子メールテンプレートのセットが利用できるようになりました。
 
@@ -488,7 +477,7 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 * YouTubeアイコンが **Socialコンテンツコンポーネントに追** 加されました。
 * リスト **表示は** 、電子メールデザイナーパレットに表示されるコンテンツコンポーネントとフラグメントに追加されました。
 
-### その他の改善点 {#other-improvements-1}
+**その他の改善点**
 
 * Adobe Campaignは、SDK V4とAEP SDKアプリの両方に対して完全にFCMに準拠するようになりました。
 * Adobe Campaignは、AndroidのOSの使用とAppleのwatchOSの使用に関するプッシュ通知をサポートしています。
@@ -499,12 +488,12 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 
    詳しくは、[詳細ドキュメント](../../developing/using/configuring-the-screen-definition.md#defining-the-detail-screen-configuration)を参照してください。
 
-### その他の変更 {#other-changes-1}
+**その他の変更**
 
 * Adobe CampaignとAdobe Experience cloudは、Microsoft Internet Explorer 11のサポートを2019年春から、Campaign Standard 19.2リリースに削除します。 Microsoft edgeまたはサポートされている別のブラウザーに切り替えてください。 廃止され [た機能および削除された機能のページを参照](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html) 。
 * プロフ **ァイルリソースの「国** 」コードフィールドの名前が「国/地域コード」 **に変更されました**。
 
-### パッチ {#patches-1}
+**パッチ**
 
 * テストプロファイルを電子メールトランザクションメッセージに追加する際に、メッセージが送信されない問題を修正しました。 (CAMP-29854)
 * すべてのチャネルからのメッセージ送信が同時にトリガされた場合に、1つのチャネルの送信が低いと、他のチャネルからのメッセージ送信が遅くなる問題を修正しました。
@@ -529,7 +518,7 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 
 ## リリース19.0 - 2019年1月 {#release-19-0---january-2019}
 
-### What&#39;s new? {#what-s-new--2}
+**新機能**
 
 <table> 
  <colgroup><col style="width: 30%"><col style="width: 70%"></colgroup>
@@ -571,7 +560,7 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
  </tbody> 
 </table>
 
-### 強化点 {#improvements}
+**強化点**
 
 * データの読み込みアクティビティの新しいオプションで、拒否されたレコードを含むファイルに後処理ステージを適用できるようになりました(例： Zip形式の圧縮を参照)。 (CAMP-24521)
 * データを更新アクティビティの新しいオプションで、アップロードするデータの最大バッチサイズを設定できるようになりました。 (CAMP-28400)
@@ -581,7 +570,7 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 * プロファイルの住所を定義する際に使用できる国のリストが強化されました。 (CAMP-26707)
 * 組み込みワークフローを読み込もうとすると、エラーメッセージが表示されるようになりました。
 
-### Email Designer {#email-designer}
+**電子メールデザイナー**
 
 * 電子メールテンプレートまたは電子メールデザイナーで作成されたコンテンツフラグメントの地理的単位機能が有効になっていたが、Adobe Campaignでこの機能が無効になっていたため、再度アクセスしようとするとテンプレートまたはフラグメントが使用できなくなる問題を修正しました。 (CAMP-28174)
 * 電子メールデザイナーでコンテンツを編集する際に動的コンテンツ条件を保存できない問題を修正しました。 (CAMP-27905)
@@ -597,7 +586,7 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 * 電子メールデザイナーを使用して、プロファイルトランザクションメッセージを作成できるようになりました。 (CAMP-28900)
 * 電子メールデザイナーで、URLからコンテンツを取得する際に、コンテンツをロックする必要があるのに対して、準備時に自動的にコンテンツを編集可能にするエラーを修正しました。
 
-### パッチ {#patches-2}
+**パッチ**
 
 * 動的レポートで誤った配信ログが表示される問題を修正しました。 (CAMP-23446)
 * バウンスの概要レポートの数値に影響を与える可能性がある問題を修正しました。(CAMP-28703)
