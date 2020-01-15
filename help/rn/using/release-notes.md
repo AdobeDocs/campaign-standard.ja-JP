@@ -12,14 +12,14 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 117577dbc1e36502c66eee6d901bdfbe0b698c06
+source-git-commit: a7dcfd1d3cd6996c6f4b435342eaaace42c706a8
 
 ---
 
 
 # 最新リリース{#latest-release}
 
-[リリース計画](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) | [コントロ[ールパネルのリリース](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) ]|ドキュ [メントの更新](../../rn/using/documentation-updates.md) |以前の [リリースノート](../../rn/using/release-notes-2018.md) |非推 [奨の機能](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+[リリース計画](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) |コント [ロールパネルのリリース](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) |ドキュ [メントの更新](../../rn/using/documentation-updates.md) |以前の [リリースノート](../../rn/using/release-notes-2018.md) |非推 [奨の機能](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
 
 ## リリース19.4 - 2019年12月 {#release-19-4---october-2019}
 
