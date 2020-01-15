@@ -1,18 +1,18 @@
 ---
 title: 電子メールの件名行のテスト
 description: 電子メールデザイナーで電子メールの件名行を定義する方法を確認します。
-page-status-flag: 非活性化の
+page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 送信
-content-type: 参照
+audience: sending
+content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 0bc487606fe3715b20452f3cf8eae52900539a32
 
 ---
 
@@ -22,9 +22,9 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 1. 電子メールを作成するか、開きます。
 1. コンテンツを開き、対応する入力フィールドに電子メールの件名を入力します。
-1. ボタンをクリッ **[!UICONTROL Test subject]** クして、ウィンドウにアクセ **[!UICONTROL Test your subject line]** スします。 このウィンドウからは、件名を編集できます。
+1. ボタンをクリッ **[!UICONTROL Test subject]**クして、ウィンドウにアクセ**[!UICONTROL Test your subject line]** スします。 このウィンドウからは、件名を編集できます。
 1. オープンレート予測に考慮する正しいモデルを選択します。 特定の業界に対応するいくつかのモデルが用意されています。
-1. Click **[!UICONTROL Test]**.
+1. クリック **[!UICONTROL Test]**.
 
 その後、被験者が分析されます。
 
@@ -52,7 +52,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 * 以前の電子メールメッセージのデータからローカルモデルをトレーニングできます。
 
    * 既にAdobe Campaignを使用している場合は、既に送信したメッセージに関するローカルモデルのトレーニングが自動的に実施されます。
-   * Adobe Campaignを初めて使用する場合は、4つの列を含むCSVファイルを以前のシステム/ESPから抽出できます。日付、件名、送信済み、開く。 それには、&gt; &gt; &gt;に移動し **[!UICONTROL Administration]** 、続く画 **[!UICONTROL Channels]****[!UICONTROL Email]****[!UICONTROL Subject Line Import]** 面に表示される指示に従います。 件名のアップロードが完了したら、以下の説明に従ってローカルモデルを読み込みます。 ローカルモデルは、アップロードしたデータを使用して自動的にトレーニングを受けます。
+   * Adobe Campaignを初めて使用する場合は、4つの列を含むCSVファイルを以前のシステム/ESPから抽出できます。日付、件名、開く、送信済み それには、> > >に移動し **[!UICONTROL Administration]**、続く画**[!UICONTROL Channels]****[!UICONTROL Email]****[!UICONTROL Subject Line Import]** 面に表示される指示に従います。 件名のアップロードが完了したら、以下の説明に従ってローカルモデルを読み込みます。 ローカルモデルは、アップロードしたデータを使用して自動的にトレーニングを受けます。
    * Adobe Campaignを初めて使用する場合で、上記のCSVファイルを取得できない場合は、事前にトレーニングされたモデルを使用するか、ローカルモデルをトレーニングするのに十分な配信データがシステムにあるまで待つことができます。 現在のデータセットに、パターンを認識し、モデルをトレーニングするのに十分なデータが含まれているかどうかを自動的に判断します。
 
       >[!NOTE]
@@ -60,7 +60,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
       >独自のモデルをトレーニングするために必要な件名行の数が定義されていません。 これを訓練するには、対象線を変え、重複を持たない必要があります。 処理に必要なデータがない場合、システムはモデルをトレーニングできません。 インスタンスには、トレーニングを受けたモデルを1つだけ持つことができます。
    ローカルモデルをトレーニングするには、ここからsubjectLineTraining.xmlをダウンロ [ードし](https://support.neolane.net/webApp/downloadCenter?__userConfig=psaDownloadCenter) 、パッケージのインポート機能を使用 [して](../../automating/using/managing-packages.md) 、Adobe Campaignインスタンスにアップロードします。 テクニカルワークフローが自動的にトレーニングを行います。
 
-   モデルを初めてトレーニングする場合、管理者は、 &gt; &gt;メニューから **[!UICONTROL SubjectLine Training workflow]** を強制的に開始す **[!UICONTROL Administration]** ること **[!UICONTROL Application settings]** ができ **[!UICONTROL Workflows]** ます。
+   モデルを初めてトレーニングする場合、管理者は、 > >メニューから **[!UICONTROL SubjectLine Training workflow]**を強制的に開始す**[!UICONTROL Administration]** ること **[!UICONTROL Application settings]**ができ**[!UICONTROL Workflows]** ます。
 
    モデルがアップロードされ、トレーニングされると、この機能が自動的にアクティブ化され、メッセージの件名行フィールドの横に新しいオプションが表示されます。
 
