@@ -12,14 +12,14 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: 538739417c4ed28ff2991186dac5fb69d1af3afd
 
 ---
 
 
-# Custom resources {#custom-resources}
+# カスタムリソース {#custom-resources}
 
-Adobe Campaignには、データが様々なリソースを介して定義される、定義済みのデータモデルが付属しています。 リソースを拡張して、購入テーブルや製品テーブルなどの独自のカスタムフィールドを追加することで、提供されるデータモデルを拡張できます。
+Adobe Campaignには、データが様々なリソースを介して定義される、定義済みのデータモデルが付属しています。 リソースを拡張して独自のカスタムフィールドやカスタムテーブル（購入テーブルや製品テーブルなど）を追加することで、提供されるデータモデルを拡張できます。
 
 カスタムリソースは、 **/profileAndServicesExtエンドポイントとカスタムリソ** ース名を使用して、APIを通じてアクセスできます。
 
@@ -37,7 +37,7 @@ Adobe Campaignには、データが様々なリソースを介して定義され
 
 <br/>
 
-***サンプルリクエスト***
+***サンプルリクエスト&#x200B;***
 
 拡張profileAndServicesExtリソースにアクセスするためのサンプルGET要求。
 
