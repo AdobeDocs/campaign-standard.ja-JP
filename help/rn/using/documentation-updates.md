@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
+source-git-commit: 663047d8d06218442b7530a0f290e3943123ebbc
 
 ---
 
@@ -34,6 +34,8 @@ Adobe Campaign Standardドキュメントの最新の更新について説明し
 Adobe Campaign Standardでのモバイル配信に関する一般的なガイドラインに関する新しいページが追加されました。 [詳細を表示](https://helpx.adobe.com/campaign/kb/acs-mobile.html)
 
 CampaignとExperience Managerの統合の使用方法に関する新しい節のヒントが、「CampaignとExperience Managerの使用」 **ドキュメントに更新されました**。 [詳細を表示](../../integrating/using/integrating-with-experience-manager.md#tips-aem)
+
+APIドキュメントのホームページが改善され、様々なトピックへのリダイレクトが行われました。 [詳細を表示](../../api/using/about-campaign-standard-apis.md)
 
 ## ドキュメントの更新 — 2019年12月 {#doc-updates-december-2019}
 
