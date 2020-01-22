@@ -13,16 +13,14 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
+source-git-commit: 02b8d847d4506eca96abfa27db1e2efadc2a68d2
 
 ---
 
 
 # 配信品質について{#about-deliverability}
 
-配信品質は、バウンスしたりスパムとしてマークされたりせずに受信者の受信ボックスに到達したかに基づいて、キャンペーンの成功を測定する方法です。
-
-Adobe Campaign の配信品質は、様々なオファーで提供される有料サービスです。配信品質または商用サービスにお問い合わせください。
+配信品質を使用すると、バウンスを発生させたりスパムとしてマークされたりすることなく、受信者の受信トレイに届くキャンペーンの成功を測定できます。
 
 配信品質の割合は、様々な要素に依存しますが、特に以下に依存します。
 
