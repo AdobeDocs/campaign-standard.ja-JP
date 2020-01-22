@@ -1,19 +1,19 @@
 ---
 title: テストプロファイルの管理と校正の送信
 description: テストのプロファイルと校正を管理する方法について説明します。
-page-status-flag: 非活性化の
+page-status-flag: never-activated
 uuid: eb4d893b-3724-4b15-9312-1ec74784368d
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 送信
-content-type: 参照
-topic-tags: 準備とテストのメッセージ
+audience: sending
+content-type: reference
+topic-tags: preparing-and-testing-messages
 discoiquuid: 37320ec5-196c-4260-8156-98932da3e4a5
 context-tags: seedMember,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 テストプロファイルを使用すると、定義したターゲット条件に一致しない追加の受信者をターゲットに設定できます。 受信者データベースの不正使用を検出したり、電子メールが受信トレイに確実に届くように、メッセージのオーディエンスに追加されます。
 
-テストプロファイルは、アドバンスメニューから管理できま **[!UICONTROL Profiles & audiences > Test profiles]**&#x200B;す。
+テストプロファイルは、アドバンスメニューから管理できま **[!UICONTROL Profiles & audiences > Test profiles]**す。
 
 テストプロファイルには架空の連絡先情報、または送信者によって制御される連絡先情報が含まれ、次のコンテキストでメッセージで使用できます。
 
@@ -34,7 +34,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
    電子メ **ールレンダリング** (Email rendering use)は読み取り専用です。 この使用を使用したテストプロファイルは、Adobe Campaignの標準でのみ使用できます。
 
 * トラッ **プ**:メッセージは、メインターゲットに送信されるのと同じように、テストプロファイルに送信されます。 トラップの [使用を参照してください](#using-traps)。
-* メッセージ **をプレビューするには** 、次の手順に従います。メッセージをプレビューする際にテストプロファイルを選択し、パーソナライゼーション要素をテストできます。 詳しくは、メッ [セージのプレビューを参照してくださ](/help/sending/using/previewing-messages.md)い。
+* メッセージ **をプレビューするには** 、次の手順に従います。メッセージをプレビューする際にテストプロファイルを選択して、パーソナライゼーション要素をテストできます。 詳しくは、メッ [セージのプレビューを参照してくださ](/help/sending/using/previewing-messages.md)い。
 
 ![](assets/test_profile.png)
 
@@ -46,7 +46,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    ![](assets/test_profile_creation_1.png)
 
-1. ダッシュボード **[!UICONTROL Test profiles]** で「作成」をクリ **ックしま**&#x200B;す。
+1. ダッシュボード **[!UICONTROL Test profiles]**で「作成」をクリ**&#x200B;ックしま&#x200B;**す。
 
    ![](assets/test_profile_creation_2.png)
 
@@ -58,20 +58,20 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    ![](assets/test_profile_creation_4.png)
 
-1. 必要に応じて、連絡先チ **[!UICONTROL Email, Telephone, Mobile, Mobile app]**&#x200B;ャネルとテストプロファイルのアドレスを入力します。
+1. 必要に応じて、連絡先チ **[!UICONTROL Email, Telephone, Mobile, Mobile app]**ャネルとテストプロファイルのアドレスを入力します。
 
    >[!NOTE]
    >
-   >好みの電子メール形式を定義できます。ま **[!UICONTROL Text]** た **[!UICONTROL HTML]**&#x200B;は
+   >好みの電子メール形式を定義できます。ま **[!UICONTROL Text]**た**[!UICONTROL HTML]**&#x200B;は
 
 1. このテストプロファイルをトランザクションメッセージのパーソナライゼーションのテストに使用する場合は、イベントタイプとこのイベントのデータを指定します。
-1. をクリック **[!UICONTROL Create]** して、テストプロファイルを保存します。
+1. をクリック **[!UICONTROL Create]**して、テストプロファイルを保存します。
 
 次に、テストプロファイルがプロファイルのリストに追加されます。
 
 **関連トピック：**
 
-[テストプロファイルビデオの作成](https://helpx.adobe.com/campaign/kt/acs/using/acs-test-profiles-feature-video-use.html) （英語のみ）
+[テストプロファイルビデオの作成](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/test-profiles.html) （英語のみ）
 
 ### テストプロファイルの編集 {#editing-test-profiles}
 
@@ -82,7 +82,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    ![](assets/test_profile_edit.png)
 
-1. 変更を **[!UICONTROL Save]** 入力した場合は、をクリックします。または、画面上部のセクションでテストプロファイルの名前を選択し、テストプロ **[!UICONTROL Test profiles]** ファイルダッシュボードに戻ります。
+1. 変更を **[!UICONTROL Save]**入力した場合は、をクリックします。または、画面上部のセクションでテストプロファイルの名前を選択し、テストプロ**[!UICONTROL Test profiles]** ファイルダッシュボードに戻ります。
 
 ## 配達確認の送信 {#sending-proofs}
 
@@ -94,13 +94,13 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 メッセージ内：
 
-1. Click the **[!UICONTROL Send a test]** button.
+1. ボタンをクリッ **[!UICONTROL Send a test]**クします。
 
    ![](assets/bat_select.png)
 
 1. 使用する校正の種類を選択します。
 
-   * **[!UICONTROL Email rendering]**:対象となるインボックスに従ってメッセージを受信する方法をテストする場合は、このオプションを選択します。 詳しくは、電子メールのレンダリングを参 [照してください](../../sending/using/email-rendering.md)。
+   * **[!UICONTROL Email rendering]**:対象となるインボックスに従ってメッセージを受信する方法をテストする場合は、このオプションを選択します。 詳しくは、電子メールのレンダリングを参[照してください](../../sending/using/email-rendering.md)。
    * **[!UICONTROL Proof]**:メインターゲットにメッセージを送信する前にメッセージをテストする場合は、このオプションを選択します。 配達確認の受信者は、コンテンツと形式の両方を確認して、配信を承認する責任を負います。
    * **[!UICONTROL Proof + Email rendering]**:このオプションは、前の2つのオプションを組み合わせます。
    ![](assets/bat_select1.png)
@@ -111,21 +111,21 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    ![](assets/bat_select2.png)
 
-1. ドロップダウンリストを使用して、校正 **[!UICONTROL Proofs]** を表示することができます。
+1. ドロップダウンリストを使用して、校正 **[!UICONTROL Proofs]**を表示することができます。
 
    ![](assets/bat_view.png)
 
-1. 概要にアクセスする校正を選択します。 電子メールの場合、校正タイプとして「電子メー **ルレンダリング** 」オプションを選択した場合は **[!UICONTROL Access email rendering]** 、校正ラベルの右側にアイコンが表示されます。 電子メール [レンダリングを参照](../../sending/using/email-rendering.md)。
+1. 概要にアクセスする校正を選択します。 電子メールの場合、校正タイプとして「電子メー **ルレンダリング** 」オプションを選択した場合は **[!UICONTROL Access email rendering]**、校正ラベルの右側にアイコンが表示されます。 電子メール[レンダリングを参照](../../sending/using/email-rendering.md)。
 
    ![](assets/bat_view2.png)
 
-配達確認を受け取った人からのコメントに応じて、配信のコンテンツを変更するように求められる場合があります。 変更が行われたら、電子メールの準備を再開し、証明を再送信する必要があります。 各新しい校正には、ボタンを使用してアクセスで **[!UICONTROL Show proofs]** きます。
+配達確認を受け取った人からのコメントに応じて、配信のコンテンツを変更するように求められる場合があります。 変更が行われたら、電子メールの準備を再開し、証明を再送信する必要があります。 各新しい校正には、ボタンを使用してアクセスで **[!UICONTROL Show proofs]**きます。
 
 配信内容が完成するまで、必要な数の証明書を送信する必要があります。 この処理が完了したら、配信をメインターゲットに送信し、承認サイクルを閉じることができます。
 
 **関連トピック：**
 
-[テストの送信、電子メールビデオの準備と送信](https://helpx.adobe.com/campaign/kt/acs/using/acs-sending-test-preparing-sending-email-feature-video-use.html) 。
+[テストの送信、電子メールビデオの準備と送信](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/sending-test-preparing-sending-email.html) 。
 
 ## トラップの使用 {#using-traps}
 
@@ -152,16 +152,16 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 メッセージのオーディエンスを定義する場合：
 
-1. タブから、テ **[!UICONTROL Test profiles]** ストプロファイルを選択します。 これが意図した用途であるこ **[!UICONTROL Trap]** とを確認してください。
+1. タブから、テ **[!UICONTROL Test profiles]**ストプロファイルを選択します。 これが意図した用途であるこ**[!UICONTROL Trap]** とを確認してください。
 
    ![](assets/trap_select.png)
 
-1. メッセージの内容の準備が整ったら、ボタンをクリック **[!UICONTROL Prepare]** します。 See [Preparing the send](../../sending/using/preparing-the-send.md).
+1. メッセージの内容の準備が整ったら、ボタンをクリック **[!UICONTROL Prepare]**します。 See[Preparing the send](../../sending/using/preparing-the-send.md).
    >[!NOTE]
    >
    >メインターゲットが選択されていることを確認します。 そうしないと、メッセージを送信できません。
 
-1. Click the **[!UICONTROL Confirm]** button. See [Confirming the send](../../sending/using/confirming-the-send.md).
+1. ボタンをクリッ **[!UICONTROL Confirm]**クします。 See[Confirming the send](../../sending/using/confirming-the-send.md).
 
    ![](assets/trap_confirm.png)
 
