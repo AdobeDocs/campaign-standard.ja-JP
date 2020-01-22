@@ -12,7 +12,7 @@ discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fbfc6cb0c17193abdf2faaf1b949ae88fed48be5
+source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
 
@@ -27,7 +27,7 @@ Adobe Campaignで電子メールを作成したら、そのコンテンツを定
 
 電子メールデザイナーを使用すると、電子メールコンテンツと電子メールコンテンツテンプレートを作成できます。 シンプルな電子メール、トランザクション電子メール、A/Bテスト電子メール、多言語電子メール、繰り返し電子メールと互換性があります。
 
-電子メールデザイナーを使い始めるには [、このビデオセットで電子メールデザイナーの一般的な機能と](https://helpx.adobe.com/campaign/kt/acs/using/acs-email-designer-tutorial.html#GettingStarted) 、最初から電子メールをデザインしたり、テンプレートを使用して電子メールをデザインしたりする方法を説明します。
+電子メールデザイナーを使い始めるには [、このビデオセットで電子メールデザイナーの一般的な機能と](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted) 、最初から電子メールをデザインしたり、テンプレートを使用して電子メールをデザインしたりする方法を説明します。
 
 <!--The Email Designer has more features than the Legacy Editor and is backward compatible.-->
 
