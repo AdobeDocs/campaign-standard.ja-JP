@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Adobe Campaign Standard 製品ドキュメント
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
+source-git-commit: f613b1456dbc66d584235856828e8ffdcf0d9874
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 9c04148a6c0eafdd909c461fc3e927ec8c8fbfed
 
 * **[配信のベストプラクティス](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)**<br/>配信のデザインと送信に関するベストプラクティスの詳細を確認します。
 
-* **[電子メールデザイナ](designing/using/designing-content-in-adobe-campaign.md)**<br/>ー再構成された電子メールデザイナーのドキュメントを参照してください。
+* **[電子メールデザイナ](designing/using/designing-content-in-adobe-campaign.md)**<br/>— 再構成された電子メールデザイナのドキュメントを参照してください。
 
 * **[Campaign Standard mobileガイドモバイル配信](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/>の一般的なガイドラインについて詳しく説明します。
 
