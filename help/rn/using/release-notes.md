@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a7dcfd1d3cd6996c6f4b435342eaaace42c706a8
+source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
 
@@ -306,7 +306,7 @@ source-git-commit: a7dcfd1d3cd6996c6f4b435342eaaace42c706a8
  <tbody> 
   <tr> 
    <td> コントロールパネル<br /> </td> 
-   <td> <p>管理者ユーザーとしての作業の効率を高めるために、容量を簡単に監視し、インスタンスの設定を管理できます（SFTPサーバー管理から始めます）。</p><p>詳しくは、<a href="https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html">詳細ドキュメント</a>および<a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-control-panel-video-use.html">ハウツービデオ</a>を参照してください。</p></td> 
+   <td> <p>管理者ユーザーとしての作業の効率を高めるために、容量を簡単に監視し、インスタンスの設定を管理できます（SFTPサーバー管理から始めます）。</p><p>詳しくは、<a href="https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html">詳細ドキュメント</a>および<a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/control-panel-overview.html">ハウツービデオ</a>を参照してください。</p></td> 
   </tr> 
   <tr> 
    <td> ローカル通知<br /> </td> 
@@ -314,7 +314,7 @@ source-git-commit: a7dcfd1d3cd6996c6f4b435342eaaace42c706a8
   </tr> 
   <tr> 
    <td> ワークフローの強化 — 外部の信号アクティビティにペイロードを追加<br /> </td> 
-   <td> <p>別のワークフローまたはREST API呼び出しから定義された条件が正常に満たされた場合に、ペイロードを使用してワークフローを開始し、外部システムと統合します。 また、この機能に対してテス <strong>トを実行できる</strong> 、新しいテストアクティビティも含まれます。</p><p>詳しくは、<a href="../../automating/using/calling-a-workflow-with-external-parameters.md">詳細ドキュメント</a>および<a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-external-signal-activity-feature-video-use.html">ハウツービデオ</a>を参照してください。</p></td> 
+   <td> <p>別のワークフローまたはREST API呼び出しから定義された条件が正常に満たされた場合に、ペイロードを使用してワークフローを開始し、外部システムと統合します。 また、この機能に対してテス <strong>トを実行できる</strong> 、新しいテストアクティビティも含まれます。</p><p>詳しくは、<a href="../../automating/using/calling-a-workflow-with-external-parameters.md">詳細ドキュメント</a>および<a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/execution-activities/external-signal-activity.html">ハウツービデオ</a>を参照してください。</p></td> 
   </tr> 
   <tr> 
    <td> ランディングページの機能強化 — Google reCAPTCHA<br /> </td> 
@@ -432,7 +432,7 @@ source-git-commit: a7dcfd1d3cd6996c6f4b435342eaaace42c706a8
   </tr> 
   <tr> 
    <td> モバイルアプリ内メッセージ<br /> </td> 
-   <td> <p>このリリースには、CampaignのApp内チャネルのGAバージョンが含まれています。 機能的な観点から見ると、ベータ版リリースには、アプリ内チャネル用の動的レポートと、Mobile SDKとMCIAS（アプリ内ルールをSDKに提供するMarketing cloudアプリ内メッセージサービス）間の安全なハンドシェイクが最も重要に追加されています。 安全なハンドシェイクを使用すると、ユーザーのPIIデータが悪意のある手に渡らないようにし、ユーザーがログアウトするたびにメッセージキャッシュを消去して、共有デバイスでユーザーのプライバシーを維持できます。</p><p>For more information, refer to the <a href="../../channels/using/about-in-app-messaging.md">detailed documentation</a> and the dedicated <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-in-app-message-tutorial.html">In-App tutorial</a>.</p> </td> 
+   <td> <p>このリリースには、CampaignのApp内チャネルのGAバージョンが含まれています。 機能的な観点から見ると、ベータ版リリースには、アプリ内チャネル用の動的レポートと、Mobile SDKとMCIAS（アプリ内ルールをSDKに提供するMarketing cloudアプリ内メッセージサービス）間の安全なハンドシェイクが最も重要に追加されています。 安全なハンドシェイクを使用すると、ユーザーのPIIデータが悪意のある手に渡らないようにし、ユーザーがログアウトするたびにメッセージキャッシュを消去して、共有デバイスでユーザーのプライバシーを維持できます。</p><p>For more information, refer to the <a href="../../channels/using/about-in-app-messaging.md">detailed documentation</a> and the dedicated <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/communication-channels/mobile/in-app/in-app-message-overview.html">In-App tutorial</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> ワークフローの強化<br /> </td> 
@@ -537,11 +537,11 @@ source-git-commit: a7dcfd1d3cd6996c6f4b435342eaaace42c706a8
      <li> 準備時にURLか <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">らコンテンツを自動的に取得する機能</a> </li> 
      <li> 標準搭載 <a href="../../designing/using/using-reusable-content.md#content-templates">のコンテンツテンプレートに完全に準拠</a>。 </li> 
     </ul> 
-    <p>詳しくは、<a href="../../designing/using/designing-content-in-adobe-campaign.md">詳細ドキュメント</a>および<a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-email-designer-tutorial.html">ハウツービデオ</a>を参照してください。機能強化および修正点を次に示します。</p><p>その結果、従来の電子メールコンテンツエディターは廃止されました。 詳しくは、この<a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">ページ</a>を参照してください。</p> </td> 
+    <p>詳しくは、<a href="../../designing/using/designing-content-in-adobe-campaign.md">詳細ドキュメント</a>および<a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html">ハウツービデオ</a>を参照してください。機能強化および修正点を次に示します。</p><p>その結果、従来の電子メールコンテンツエディターは廃止されました。 詳しくは、この<a href="https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html">ページ</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td> トランザクション電子メールの製品リスト<br /> </td> 
-   <td> <p>トランザクション用の電子メールメッセージで1つ以上の製品コレクションを参照できるようになりました。 例えば、ユーザーの買い物かごにあったすべての製品を一覧表示した買い物かご放棄の電子メールを、画像、価格、各製品へのリンクと共に自動的に送信できます。</p><p>詳しくは、<a href="../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message">詳細ドキュメント</a>および<a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-product-listings-in-transactional-emails-feature-video-setup.html">ハウツービデオ</a>を参照してください。</p> </td> 
+   <td> <p>トランザクション用の電子メールメッセージで1つ以上の製品コレクションを参照できるようになりました。 例えば、ユーザーの買い物かごにあったすべての製品を一覧表示した買い物かご放棄の電子メールを、画像、価格、各製品へのリンクと共に自動的に送信できます。</p><p>詳しくは、<a href="../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message">詳細ドキュメント</a>および<a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/product-listings-in-transactional-email.html">ハウツービデオ</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td> 電子メールデザイナーのモバイルビュー<br /> </td> 
