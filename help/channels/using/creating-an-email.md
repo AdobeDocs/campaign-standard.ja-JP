@@ -12,7 +12,7 @@ discoiquuid: b27e0170-e73f-4782-8568-02927fb374f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c099527702ef3d9484a47a033f309f3194a70f17
+source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
 
@@ -90,7 +90,7 @@ source-git-commit: c099527702ef3d9484a47a033f309f3194a70f17
 
 **関連トピック**：
 
-* [電子メールビデオの作成](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-email-from-homepage-feature-video-use.html) （英語のみ）
+* [電子メールビデオの作成](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/create-email-from-homepage.html) （英語のみ）
 * [パーソナライズされた電子メール](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html) ・ステップ・バイ・ステップ・ガイドの作成
-* [Adobe CampaignとDreamweaverの統合に関するビデオ](https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html) （英語のみ）
+* [Adobe CampaignとDreamweaverの統合に関するビデオ](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html) （英語のみ）
 * [Adobe Experience Managerとの連携](../../integrating/using/integrating-with-experience-manager.md)
