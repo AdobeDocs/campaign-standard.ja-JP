@@ -12,20 +12,24 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: 3c80adb087be0cf420503169f7edf06bd8ae33e0
 
 ---
 
 
 # API の拡張について{#about-extending-the-api}
 
-この使用例は、パブリックプロファイルAPIのカスタムリソースプロファイルの拡張フィールドの詳細を示しています。 例えば、請求システムから生成されたプロモーションコードを使用して顧客のプロファイルを即時に更新する場合などです。
+この使用例は、パブリックプロファイルAPIのカスタムリソースプロファイルの拡張フィールドの詳細を示します。 例えば、請求システムから生成されたプロモーションコードを使用して顧客のプロファイルを即時に更新する場合などです。
 
-APIを公開するには、ロールが必要で **[!UICONTROL Datamodel]** す。
+>[!NOTE]
+>
+>APIを公開するには、ロールがあることを確認してくだ **[!UICONTROL Datamodel]**さい。
 
-* Profilesカスタムリソースの拡張
-* 拡張機能の公開
-* 拡張フィールドがAPIで使用できることの確認
+パブリックAPIで拡張フィールドを公開する手順は次のとおりです。
+
+1. [プロファイルリソースに拡張機能フィールドを追加する](../../developing/using/step-1--add-extension-fields-to-the-profile-resource.md)
+1. [拡張機能の公開](../../developing/using/step-2--publish-the-extension.md)
+1. [新しい拡張フィールドがAPIで使用できることを確認します。](../../developing/using/step-3--verify-the-extension.md)
 
 **関連トピック：**
 
