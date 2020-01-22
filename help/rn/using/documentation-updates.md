@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 663047d8d06218442b7530a0f290e3943123ebbc
+source-git-commit: 957290fc6524d4eb7c69c914f9817414655a25fd
 
 ---
 
@@ -27,7 +27,9 @@ Adobe Campaign Standardドキュメントの最新の更新について説明し
 
 ## ドキュメントの更新 — 2020年1月 {#doc-updates-january-2020}
 
-「クロスチャネル配信ワークフローの作成」入門ガイドが更新され、コアドキュメントに含まれています。 [詳細を表示](../../automating/using/workflow-cross-channel-delivery.md)
+配信品質に関するドキュメントが更新され、IP認定に関する新しいセクションが追加されました。 [詳細を表示](../../sending/using/ip-certification.md)
+
+クロスチャネル配信ワークフローの作成方法を説明する新しい節を利用できます。 [詳細を表示](../../automating/using/workflow-cross-channel-delivery.md)
 
 動的レポートのインジケーターの計算セクションが更新されました。 [詳細を表示](../../reporting/using/indicator-calculation.md)
 
@@ -197,7 +199,7 @@ Campaign StandardおよびClassicのエラーメッセージのリストが更�
 
 Adobe Campaignから直接利用できるコンテキストヘルプリンクが更新されました。
 
-次のページ [は](https://helpx.adobe.com/campaign/kt/acs/index/acs-videos.html) 、Adobe Campaign Standardの公式ビデオページになります。
+次のページ [は](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) 、Adobe Campaign Standardの公式ビデオページになります。
 
 標準テーブルのデフォルトのリテンション値を含む、データリテンションに関する節を追加しました。 [詳細を表示](../../administration/using/data-retention.md)
 
@@ -337,7 +339,7 @@ Microsoft Edge（最新バージョン）が、コンピューター用の互換
 
 「Adobe Experience Platform SDKを使用したモバイルアプリケーションの設定」の節は、こちらを参照して [ください](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)。
 
-ビデオが更新され、ここに移動さ [れました](https://helpx.adobe.com/campaign/kt/acs/index/acs-videos.html)。
+ビデオが更新され、ここに移動さ [れました](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)。
 
 ユーザーのタイプセクションを更新しました。 [詳細を表示](../../administration/using/users-management.md)
 
@@ -685,7 +687,7 @@ Creative SDKによる拡張されたImage Edition機能 — 詳 [細情報](../.
 
 Amazon Simple Storage Service(S3)コネクタ — 詳細情報をご [覧ください](../../administration/using/external-accounts.md)
 
-Dreamweaverとの統合をライブにする — 詳 [細情報](https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html)
+Dreamweaverとの統合をライブにする — 詳 [細情報](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html)
 
 ### リリースに伴うその他のドキュメントの更新 {#other-documentation-updates-coming-with-the-release-14}
 
@@ -709,7 +711,7 @@ Adobe Analytics for Mobile（目標地点）との統合が更新され、設定
 
 動的レポート — 詳 [細情報](../../reporting/using/about-dynamic-reports.md)
 
-Dreamweaverの統合（ラボ） — 詳 [細情報](https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html)
+Dreamweaverの統合（ラボ） — 詳 [細情報](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html)
 
 手動送信時間の最適化 — 詳 [細情報](../../sending/using/optimizing-the-sending-time.md)
 
