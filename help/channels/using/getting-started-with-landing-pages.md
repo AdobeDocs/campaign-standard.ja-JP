@@ -13,7 +13,7 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
+source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
 
@@ -34,7 +34,7 @@ source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 **関連トピック：**
 
-* [ランディングページチュートリアルビデオの作成](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-edit-landing-page-feature-video-use.html) （英語のみ）
+* [ランディングページチュートリアルビデオの作成](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/communication-channels/landing-pages/landing-page-create-and-edit.html) （英語のみ）
 * [サービスの作成](../../audiences/using/creating-a-service.md)
 * [ダブルオプトインプロセスの設定](setting-up-a-double-opt-in-process.md)
 
@@ -44,12 +44,12 @@ source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 **データの書き込みと更新**
 
-* ランディングページは、およびリソ **[!UICONTROL Profile]** ースに **[!UICONTROL Subscription]** のみ制限されます。 レコードは、の購読/購読解除から **[!UICONTROL Profile]** 保存および更新できます **[!UICONTROL Service]**。
+* ランディングページは、およびリソ **[!UICONTROL Profile]**ースに**[!UICONTROL Subscription]** のみ制限されます。 レコードは、の購読/購読解除から **[!UICONTROL Profile]**保存および更新できます**[!UICONTROL Service]**。
 リソース設定の詳細については、「リソースの [データ構造の設定」を参照してください](../../developing/using/configuring-the-resource-s-data-structure.md)。
 
 >[!CAUTION]
 >
->ランディングページは、および以外のリソースのデータを表示または更新すること **[!UICONTROL Profile]** はできま **[!UICONTROL Subscription]**&#x200B;せん。
+>ランディングページは、および以外のリソースのデータを表示または更新すること **[!UICONTROL Profile]**はできま**[!UICONTROL Subscription]**&#x200B;せん。
 
 **プリロード**
 
@@ -79,7 +79,7 @@ source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ランディングページを設定する前に、最初の手順は、ニーズに対応したランディングページテンプレートを設定することです。 テンプレートの準備が整うと、それに基づくすべてのランディングページが、必要なパラメーターで事前設定されます。
 
-1. 詳細メニューのAdobe Campaignロゴで、 **[!UICONTROL Resources]** / **[!UICONTROL Templates]** /を選択 **[!UICONTROL Landing page templates]**&#x200B;し、使用するテンプレートを複製します。
+1. 詳細メニューのAdobe Campaignロゴで、 **[!UICONTROL Resources]**/**[!UICONTROL Templates]** /を選択 **[!UICONTROL Landing page templates]**し、使用するテンプレートを複製します。
 1. テンプレートプロパティで、ランディングページに共通する必要のあるすべてのパラメーターを指定します。 例：ターゲットディメンション、識別された訪問者または識別されなかった訪問者のページアクセスパラメーター、訪問者によるフォーム検証に固有のアクション、コンテンツで使用するブランド/ロゴなど。 ランディングページのプロパティの詳細については、この節を参照 [してください](../../channels/using/configuring-landing-page.md)
 1. 変更を保存します。
 
@@ -130,7 +130,7 @@ For more on landing page templates, refer to [this section](../../channels/using
 
 ## ランディングページの公開手順 {#publish-the-landing-page}
 
-テストが正常に完了したら、ダッシュボードのアクションバーのボタンを使用してラ **[!UICONTROL Publish]** ンディングページを公開できます。 監視ブロックは、パブリケーションの進行状況とステータスを示します。
+テストが正常に完了したら、ダッシュボードのアクションバーのボタンを使用してラ **[!UICONTROL Publish]**ンディングページを公開できます。 監視ブロックは、パブリケーションの進行状況とステータスを示します。
 
 ランディングページを公開すると、オンラインでアクセスできるようになります。 公開後は、いつでも更新できます。これを行うには、各変更後に再公開する必要があります。 また、ランディングページをいつでも非公開にして、使用できなくすることもできます。
 
