@@ -13,7 +13,7 @@ context-tags: delivery,abTesting,back;deliveryCreation,wizard;delivery,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
+source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
 
@@ -43,7 +43,7 @@ A/Bテストの具体的なコンテキスト：
 
    >[!NOTE]
    >
-   >フォローアップおよびA/Bテストテンプレートは、デフォルトで非表示になっています。 左側のA/Bテストボックス（横パネル）にチェッ **[!UICONTROL Filter]** クマークを付けて表示します。
+   >フォローアップおよびA/Bテストテンプレートは、デフォルトで非表示になっています。 左側のA/Bテストボックス（横パネル）にチェッ **[!UICONTROL Filter]**クマークを付けて表示します。
 
 1. 標準電子メールと同様に、電子メールの一般プロパティとターゲットオーディエンスを定義します。 「オーディエンスの作成 [」の節を参照](../../audiences/using/creating-audiences.md) 。
 1. 作成ウィザードの4番目の手順で、A/Bテストパラメーターを定義します。
@@ -63,7 +63,7 @@ A/Bテストの具体的なコンテキスト：
 
 1. 電子メールの作成を確認します。 電子メールダッシュボードが表示されます。
 1. 送信をスケジュールします。 定義された日付は、A/Bテストの開始を示します。
-1. ブロックに表示されているA/Bテストパラメータを確認し **[!UICONTROL A/B test parameters]** ます。 ブロックを選択して、テストの送信を確認する（手順9）まで変更できます。
+1. ブロックに表示されているA/Bテストパラメータを確認し **[!UICONTROL A/B test parameters]**ます。 ブロックを選択して、テストの送信を確認する（手順9）まで変更できます。
 
    ![](assets/create_ab_testing3.png)
 
@@ -71,13 +71,13 @@ A/Bテストの具体的なコンテキスト：
 1. A/Bテストを送信する前に、校正を送信して電子メールを確認します。
 1. 準備が完了したら、テストの送信を確認します。 確認後は、A/Bテストのパラメーターを変更できません。
 
-   A/Bテストは、で定義された日付に開始します。 **[!UICONTROL Schedule]**&#x200B;とのブロックを使用して進行状況を追 **[!UICONTROL A/B test]** 跡でき **[!UICONTROL Deployment]** ます。
+   A/Bテストは、で定義された日付に開始します。 **[!UICONTROL Schedule]**とのブロックを使用して進行状況を追**[!UICONTROL A/B test]** 跡でき **[!UICONTROL Deployment]**ます。
 
    テスト期間を短くする場合は、いつでも勝者のバリアントを手動で選択できます。
 
-   テストが完了すると、概要テーブルがブロックに表示され **[!UICONTROL A/B Test]** 、テストされた異なるバリアントに関する様々なインジケーターを表示できます。
+   テストが完了すると、概要テーブルがブロックに表示され **[!UICONTROL A/B Test]**、テストされた異なるバリアントに関する様々なインジケーターを表示できます。
 
-1. 送信方法として選択し **[!UICONTROL Send after confirmation]** た場合は、勝者のバリアントを手動で選択して、残りの訪問者への送信を開始する必要があります。 選択した場合、勝 **[!UICONTROL Automatic]**&#x200B;者のバリアントは、システムによって決定されるとすぐに残りの母集団に自動的に送信されます。
+1. 送信方法として選択し **[!UICONTROL Send after confirmation]**た場合は、勝者のバリアントを手動で選択して、残りの訪問者への送信を開始する必要があります。 選択した場合、勝**[!UICONTROL Automatic]**&#x200B;者のバリアントは、システムによって決定されるとすぐに残りの母集団に自動的に送信されます。
 
    >[!NOTE]
    >
@@ -87,10 +87,10 @@ A/Bテストの具体的なコンテキスト：
 
 **関連トピック**:
 
-[電子メールビデオの作成](https://helpx.adobe.com/campaign/kt/acs/using/acs-create-email-from-homepage-feature-video-use.html) （英語のみ）
+[電子メールビデオの作成](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/create-email-from-homepage.html) （英語のみ）
 
 ## A/Bテストインジケーターについて {#about-a-b-test-indicators}
 
 電子メールダッシュボードには、A/Bテストの測定に役立つ次のインジケーターがいくつか用意されています。クリック数、開く回数、バウンス数など。
 
-このインジケータ **[!UICONTROL Estimated recipient reactivity]** ーは、クリックした受信者の数と電子メールを開いた受信者の数とを比較した率です。 例えば、10人の受信者が電子メールを開き、5人の受信者が電子メールをクリックしたとします。 反応率は50%である。
+このインジケータ **[!UICONTROL Estimated recipient reactivity]**ーは、クリックした受信者の数と電子メールを開いた受信者の数とを比較した率です。 例えば、10人の受信者が電子メールを開き、5人の受信者が電子メールをクリックしたとします。 反応率は50%である。
