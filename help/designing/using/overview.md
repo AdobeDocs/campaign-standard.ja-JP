@@ -1,18 +1,18 @@
 ---
 title: 電子メールデザイナーの使用
 description: 電子メールデザイナーを見つけ、電子メールデザインコンテンツを有効にする方法を確認します。
-page-status-flag: 非活性化の
+page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 設計
-content-type: 参照
+audience: designing
+content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
 
@@ -23,31 +23,31 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 電子メールデザイナーを使用すると、電子メールコンテンツと電子メールコンテンツテンプレートを作成できます。 シンプルな電子メール、トランザクション電子メール、A/Bテスト電子メール、多言語電子メール、繰り返し電子メールと互換性があります。
 
-電子メールデザイナーを使い始めるには [、このビデオセットで電子メールデザイナーの一般的な機能と](https://helpx.adobe.com/campaign/kt/acs/using/acs-email-designer-tutorial.html#GettingStarted) 、最初から電子メールをデザインしたり、テンプレートを使用して電子メールをデザインしたりする方法を説明します。
+電子メールデザイナーを使い始めるには [、このビデオセットで電子メールデザイナーの一般的な機能と](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted) 、最初から電子メールをデザインしたり、テンプレートを使用して電子メールをデザインしたりする方法を説明します。
 
 ### 電子メールデザイナのホームページ {#email-designer-home-page}
 
-電子メ [ールを作成する場合](../../channels/using/creating-an-email.md)、電子メール **[!UICONTROL Email Designer]** コンテンツを選択すると、ホームページが自動的に表示されます。
+電子メ [ールを作成する場合](../../channels/using/creating-an-email.md)、電子メール **[!UICONTROL Email Designer]**コンテンツを選択すると、ホームページが自動的に表示されます。
 
 ![](assets/email_designer_home_page.png)
 
-このタ **[!UICONTROL Properties]** ブでは、ラベル、送信者の住所、名前、電子メールの件名などの電子メールの詳細を編集できます。 画面の上部にある電子メールラベルをクリックして、このタブにアクセスすることもできます。
+このタ **[!UICONTROL Properties]**ブでは、ラベル、送信者の住所、名前、電子メールの件名などの電子メールの詳細を編集できます。 画面の上部にある電子メールラベルをクリックして、このタブにアクセスすることもできます。
 
 ![](assets/email_designer_home_properties.png)
 
-このタ **[!UICONTROL Templates]** ブでは、標準搭載されたHTMLコンテンツや、作成済みのテンプレートから選択して、電子メールのデザインをすばやく開始できます。 コンテンツテ [ンプレートを参照してくださ](../../designing/using/using-reusable-content.md#content-templates)い。
+このタ **[!UICONTROL Templates]**ブでは、標準搭載されたHTMLコンテンツや、作成済みのテンプレートから選択して、電子メールのデザインをすばやく開始できます。 コンテンツテ[ンプレートを参照してくださ](../../designing/using/using-reusable-content.md#content-templates)い。
 
 ![](assets/email_designer_home_templates.png)
 
-このタ **[!UICONTROL Learn & support]** ブから、関連するドキュメントやチュートリアルに簡単にアクセスできます。
+このタ **[!UICONTROL Learn & support]**ブから、関連するドキュメントやチュートリアルに簡単にアクセスできます。
 
 ![](assets/email_designer_home_support.png)
 
 テンプレートを選択しない場合は、電子メールデザイナーのホームページで、コンテンツのデザインを開始する方法を選択することもできます。
 
-* 新しいコンテンツ **[!UICONTROL Create]** を最初から開始するには、このボタンをクリックします。 詳しくは、 [ゼロからの電子メールコンテンツのデザインを参照してくださ](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)い。
-* このボタンをクリ **[!UICONTROL Upload]** ックして、コンピュータからファイルをアップロードします。 詳しくは、 [ファイルからのコンテンツの読み込みを参照してくださ](../../designing/using/using-existing-content.md#importing-content-from-a-file)い。
-* URLから既存のコ **[!UICONTROL Import from URL]** ンテンツを取得するには、このボタンをクリックします。 URLから [のコンテンツの読み込みを参照してください](../../designing/using/using-existing-content.md#importing-content-from-a-url)。
+* 新しいコンテンツ **[!UICONTROL Create]**を最初から開始するには、このボタンをクリックします。 詳しくは、[ゼロからの電子メールコンテンツのデザインを参照してくださ](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)い。
+* このボタンをクリ **[!UICONTROL Upload]**ックして、コンピュータからファイルをアップロードします。 詳しくは、[ファイルからのコンテンツの読み込みを参照してくださ](../../designing/using/using-existing-content.md#importing-content-from-a-file)い。
+* URLから既存のコ **[!UICONTROL Import from URL]**ンテンツを取得するには、このボタンをクリックします。 URLから[のコンテンツの読み込みを参照してください](../../designing/using/using-existing-content.md#importing-content-from-a-url)。
 
 ### 電子メールデザイナーインターフェイス {#email-designer-interface}
 
@@ -83,7 +83,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 電子メールデザイナーを適切に使用し、できるだけ簡単に最良の電子メールを作成するには、次の原則を適用することをお勧めします。
 
-* HTMLの&lt;head&gt;セクションでは、個別のCSSとCSSではなく、インラインスタイルを使用します。 インラインスタイルを使用すると、コンテンツフラグメントの保存と再利用を最適化できます。
+* HTMLの&lt;head>セクションでは、個別のCSSとCSSではなく、インラインスタイルを使用します。 インラインスタイルを使用すると、コンテンツフラグメントの保存と再利用を最適化できます。
 
    詳しくは、イ [ンラインスタイル属性の追加を参照してくださ](../../designing/using/styles.md#adding-inline-styling-attributes)い。
 
@@ -112,7 +112,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ![](assets/email_designer_fragment_patch_message.png)
 
-CSSの衝突の問題などの問題を避けるため、コンテンツを最新バージョンに更新することをお勧めします。 Click **[!UICONTROL Update now]**.
+CSSの衝突の問題などの問題を避けるため、コンテンツを最新バージョンに更新することをお勧めします。 クリック **[!UICONTROL Update now]**.
 
 コンテンツの更新中にエラーが発生した場合は、HTMLを確認して修正してから、この更新を再度実行してください。
 
