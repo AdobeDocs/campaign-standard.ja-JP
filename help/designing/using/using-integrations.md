@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6881d3e0f22f3766d6a26af90ce3bcbd5e2293da
+source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
 
@@ -37,7 +37,7 @@ Adobe Campaign StandardとDreamweaverの統合により、Dreamweaverインタ�
 
    電子メール開発者は、データモデルのテーブルのようなテキストを追加したり、 `[[FIRSTNAME_PLACEHOLDER]]` 構文を調べたりする必要がなくなりました。 Dreamweaverのキャンペーンツールバーは、Campaignインスタンスのデータモデルに直接接続します。 つまり、名から住所へのパーソナライゼーションに必要な任意のデータを取り込むことができます。 キャンペーン内にコンテンツブロックを作成した場合は、Dreamweaverに直接コンテンツブロックを取り込むこともできます。
 
-この機能について詳しくは、Dreamweaverマニュアルを参照して [ください](https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html)。 デモビデ [オも](https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html) 、ご覧いただけます。
+この機能について詳しくは、Dreamweaverマニュアルを参照して [ください](https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html)。 デモビデ [オも](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html) 、ご覧いただけます。
 
 ## Experience Managerでのコンテンツの編集 {#editing-content-in-experience-manager}
 
@@ -139,7 +139,7 @@ Adobe Campaignには、複数の電子メールオーサリングオプション
    <td> <strong>詳細情報</strong><br /> </td> 
    <td> 電子メー <a href="../../designing/using/designing-content-in-adobe-campaign.md">ルデザイナーについてを参照してくださ</a>い。<br /> </td> 
    <td> See <a href="../../integrating/using/integrating-with-experience-manager.md">Integrating with Experience Manager</a>.<br /> </td> 
-   <td> 詳しくは、 <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">DreamweaverとCampaignを参照し</a> 、このビデオをご覧 <a href="https://helpx.adobe.com/campaign/kt/acs/using/acs-dreamweaver-integration-feature-video-use.html">ください</a>。<br /> </td> 
+   <td> 詳しくは、 <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">DreamweaverとCampaignを参照し</a> 、このビデオをご覧 <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">ください</a>。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
