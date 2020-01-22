@@ -1,36 +1,36 @@
 ---
 title: リストの書き出し
 description: 'Adobe Campaignを使用すると、リストとして表示されたデータを概要画面から直接ファイルにエクスポートし、将来の使用に備えることができます。 '
-page-status-flag: 非活性化の
+page-status-flag: never-activated
 uuid: c64fe706-bd6e-4746-958e-f94226f4e2cb
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 自動化
-content-type: 参照
-topic-tags: データのインポート/エクスポート
+audience: automating
+content-type: reference
+topic-tags: importing-and-exporting-data
 discoiquuid: 12c874da-435f-44b6-a3c8-873301e177cc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
 
 
 # リストの書き出し{#exporting-lists}
 
-Adobe Campaignでは、リストをファイルに直接エクスポートして、将来的に使用できます。 ファイル内のリストを書き出すと、メニューにログエントリが生成さ **[!UICONTROL Export audits]** れます。 エクスポート監査の詳細については、「エクスポートの監査 [](../../administration/using/auditing-export-logs.md) 」を参照してください。
+Adobe Campaignでは、リストをファイルに直接エクスポートして、将来的に使用できます。 ファイル内のリストを書き出すと、メニューにログエントリが生成さ **[!UICONTROL Export audits]**れます。 エクスポート監査の詳細については、「エクスポートの監査[](../../administration/using/auditing-export-logs.md)」を参照してください。
 
-書き出しリストオプションを使用すると、デフォルトで100,000行まで書き出すことができ、 **Nms_ExportListLimit** オプションで定義できます。 このオプションは、機能管理者が//メニューの下で管 **[!UICONTROL Administration]** 理で **[!UICONTROL Application settings]** き **[!UICONTROL Options]** ます。
+書き出しリストオプションを使用すると、デフォルトで100,000行まで書き出すことができ、 **Nms_ExportListLimit** オプションで定義できます。 このオプションは、機能管理者が//メニューの下で管 **[!UICONTROL Administration]**理で**[!UICONTROL Application settings]** き **[!UICONTROL Options]**ます。
 
-書き出しリストは、ロールを持つユーザーに対して、リス **トモード** ビューを持つすべての画面で使用で **[!UICONTROL EXPORT (export)]** きます。
+書き出しリストは、ロールを持つユーザーに対して、リス **トモード** ビューを持つすべての画面で使用で **[!UICONTROL EXPORT (export)]**きます。
 
-1. 選択したリスト画面に **移動** 。 例えば、テストプロファイルの概要画面( **[!UICONTROL Profiles & audiences]** &gt; **[!UICONTROL Test profiles]** )。
+1. 選択したリスト画面に **移動** 。 例えば、テストプロファイルの概要画面( **[!UICONTROL Profiles & audiences]**>**[!UICONTROL Test profiles]** )。
 1. 画面がリストモードになっていることを **確認します** 。
 
    ![](assets/export_list_mode_switch.png)
 
-1. リストの列を、右上隅のボタンを使用して、書き出す **[!UICONTROL Configure list]** 順序に整理します。 設定済みの列に加えて、リソースの主キーもエクスポートされます。
+1. リストの列を、右上隅のボタンを使用して、書き出す **[!UICONTROL Configure list]**順序に整理します。 設定済みの列に加えて、リソースの主キーもエクスポートされます。
 1. 必要に応じて、フィルターを適用できます。 これを行うには、左上隅のボタンをクリックして検索ペインを表示します。
 
    異なるリソースを含むリストからエクスポートする場合は、1種類のリソースのみがリストに表示されるようにフィルタを適用する必要があります。
@@ -75,5 +75,4 @@ Adama;Henry;22/09/1992 02:00:00;henry.adama@mail.com;64120
 
 * [役割](../../administration/using/list-of-roles.md)
 * [リストのカスタマイズ](../../start/using/customizing-lists.md)
-* [リストビデオの設定](https://helpx.adobe.com/campaign/kt/acs/using/acs-configuring-a-list-feature-video-setup.html)
-
+* [リストビデオの設定](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/configure-a-list.html)
