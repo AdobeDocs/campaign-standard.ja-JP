@@ -13,7 +13,7 @@ delivercontext-tags: deliveryCreation,wizard
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
+source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
 
@@ -80,5 +80,5 @@ SMSメッセージを作成して携帯電話に送信するには、次の操�
 
 * [SMSとプッシュコンテンツエディションについて](../../channels/using/about-sms-and-push-content-design.md)
 * [テンプレートの管理](../../start/using/marketing-activity-templates.md)
-* [SMS配信ビデオの作成](https://helpx.adobe.com/campaign/kt/acs/using/acs-creating-a-sms-delivery-feature-video-use.html) （英語のみ）
+* [SMS配信ビデオの作成](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/communication-channels/mobile/sms/sms-delivery.html) （英語のみ）
 
