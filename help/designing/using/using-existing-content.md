@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
+source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
 
@@ -29,16 +29,16 @@ Adobe Campaignには、作業を開始する際に役立つ事前定義済みコ
 >次の画像は、電子メールデザイナーを使用して既存のコンテンツを読み込む方法 [を示していま](../../designing/using/designing-content-in-adobe-campaign.md)す。
 
 1. 電子メールまたはランディングページを作成したら、そのコンテンツを開きます。
-1. ホームアイコンをクリックして、ホームページに **[!UICONTROL Email Designer]** アクセスします。
+1. ホームアイコンをクリックして、ホームページに **[!UICONTROL Email Designer]**アクセスします。
 
    ![](assets/des_loading_1.png)
 
 1. 読み込むコンテンツのソースを選択します。
 
-   * [コンテンツテンプレート](../../designing/using/using-reusable-content.md#content-templates):タブをクリック **[!UICONTROL Templates]** します。
-   * [最初から](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)、最初からボタンをクリッ **[!UICONTROL Create]** クします。
-   * [ZIPまたはHTMLファイル形式のコンテンツ](#importing-content-from-a-file):ボタンをクリッ **[!UICONTROL Upload]** クします。
-   * [既存のURLからのコンテンツ](#importing-content-from-a-url) （電子メールのみ）:ボタンをクリッ **[!UICONTROL Import from URL]** クします。
+   * [コンテンツテンプレート](../../designing/using/using-reusable-content.md#content-templates):タブをクリック **[!UICONTROL Templates]**します。
+   * [最初から](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)、最初からボタンをクリッ **[!UICONTROL Create]**クします。
+   * [ZIPまたはHTMLファイル形式のコンテンツ](#importing-content-from-a-file):ボタンをクリッ **[!UICONTROL Upload]**クします。
+   * [既存のURLからのコンテンツ](#importing-content-from-a-url) （電子メールのみ）:ボタンをクリッ **[!UICONTROL Import from URL]**クします。
    ![](assets/des_loading_2.png)
 
 1. コンテンツを読み込みます。 選択したコンテンツが現在のコンテンツを置き換えます。
@@ -66,7 +66,7 @@ HTMLの全部または一部にこのタグが付いていない場合、コン�
 
 ### ファイルからのコンテンツの読み込み {#importing-content-from-a-file}
 
-電子メールデザイナのホームページで、ボタンをクリックし **[!UICONTROL Upload]** てコンピューターからファイルをアップロードし、確認します。
+電子メールデザイナのホームページで、ボタンをクリックし **[!UICONTROL Upload]**てコンピューターからファイルをアップロードし、確認します。
 
 zipファイル構造には制約はありません。 ただし、HTMLファイルの参照はzipフォルダーのツリー構造を基準とした相対パスで行う必要があります。
 
@@ -84,7 +84,7 @@ zipファイル構造には制約はありません。 ただし、HTMLファイ
 URLからコンテンツを読み込む前に、次の要件に従っていることを確認します。
 
 * コンテンツは、このURLで公開されている必要があります。
-* セキュリティ上の理由から、で始まるURLのみを使 **[!UICONTROL https]** 用できます。
+* セキュリティ上の理由から、で始まるURLのみを使 **[!UICONTROL https]**用できます。
 * すべてのリソース（画像、CSS）が絶対リンクとHTTPSで設定されていることを確認します。 そうしないと、電子メールを送信した後で、ミラーページがリソースなしで表示されます。 次に、絶対リンク定義の例を示します。
 
    ```
@@ -97,16 +97,16 @@ URLからコンテンツを読み込む前に、次の要件に従っている�
 
 URLから既存のコンテンツを取得するには、次の手順に従います。
 
-1. 電子メールデザイナのホームページで、ボタンを選択 **[!UICONTROL Import from URL]** します。
+1. 電子メールデザイナのホームページで、ボタンを選択 **[!UICONTROL Import from URL]**します。
 
    ![](assets/email_designer_importfromurl.png)
 
 1. コンテンツの取得元となるURLを定義します。
-1. Click **[!UICONTROL Confirm]**.
+1. クリック **[!UICONTROL Confirm]**.
 
 **関連トピック：**
 
-[URLビデオからのコンテンツの読み込み](https://helpx.adobe.com/campaign/kt/acs/using/acs-email-designer-tutorial.html#Workingwithexistingcontent) 、
+[URLビデオからのコンテンツの読み込み](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#Workingwithexistingcontent) 、
 
 ### 準備時にURLからコンテンツを自動的に取得する {#retrieving-content-from-a-url-automatically-at-preparation-time}
 
@@ -114,7 +114,7 @@ URLから既存のコンテンツを取得するには、次の手順に従い�
 
 準備時にコンテンツを取得するには、次の手順に従います。
 
-1. オプションを選 **[!UICONTROL Content imported during preparation]** 択します。
+1. オプションを選 **[!UICONTROL Content imported during preparation]**択します。
 
    ![](assets/email_designer_importfromurl2.png)
 
@@ -124,18 +124,18 @@ URLから既存のコンテンツを取得するには、次の手順に従い�
    >
    >この手順では、コンテンツエディターでのHTML表示を考慮しないでください。 準備段階で取得されます。
 
-1. 取得したURLコンテンツをプレビューするには、メッセージの作成後にメッセージを開き、ボタンをクリック **[!UICONTROL Preview]** します。
+1. 取得したURLコンテンツをプレビューするには、メッセージの作成後にメッセージを開き、ボタンをクリック **[!UICONTROL Preview]**します。
 
 コンテンツの取得元のリモートURLをパーソナライズすることができます。 これをおこなうには、以下の手順に従います。
 
-1. 画面の上部にある電子メールラベルをクリックして、「電子メールデザイナー」タブにアクセ **[!UICONTROL Properties]** スします。
-1. フィールドを探 **[!UICONTROL Remote URL]** します。
+1. 画面の上部にある電子メールラベルをクリックして、「電子メールデザイナー」タブにアクセ **[!UICONTROL Properties]**スします。
+1. フィールドを探 **[!UICONTROL Remote URL]**します。
 
    ![](assets/email_designer_importfromurl4.png)
 
 1. 目的のパーソナライゼーションフィールド、コンテンツブロックまたは動的テキストを挿入します。
 
-   例え **[!UICONTROL Current date - YYYYMMDD]** ば、コンテンツブロックを使用して日付を挿入できます。
+   例え **[!UICONTROL Current date - YYYYMMDD]**ば、コンテンツブロックを使用して日付を挿入できます。
 
    >[!NOTE]
    >
@@ -143,7 +143,7 @@ URLから既存のコンテンツを取得するには、次の手順に従い�
 
 ### 互換性モード {#compatibility-mode}
 
-コンテンツをアップロードする場合、電子メールデザイナーのWYSIWYGエディターに完全に準拠し、編集可能な特定のタグがコンテンツに含まれている必要があります。
+コンテンツをアップロードする場合、電子メールデザイナーのWYSIWYGエディターに完全に準拠し、編集可能な特定のタグ付けを含める必要があります。
 
 アップロードされたHTMLのすべてまたは一部が期待されたタグ付けに準拠していない場合、コンテンツは「互換性モード」で読み込まれ、UIを使用した編集の可能性が制限されます。
 
