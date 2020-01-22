@@ -12,7 +12,7 @@ discoiquuid: 08c8712a-0066-4b8b-8471-2656b8fb23ed
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
+source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ---
 
@@ -35,7 +35,7 @@ Adobe Campaignからユーザー管理インターフェイスにアクセスす
 
 **関連トピック：**
 
-* [ユーザ権限の管理](https://helpx.adobe.com/campaign/kt/acs/using/acs-user-access-rights-feature-video-use.html) （ビデオ）
+* [ユーザ権限の管理](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/access-management.html) （ビデオ）
 * [役割のリスト](../../administration/using/list-of-roles.md)
 * [承認のリスト](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)
 
