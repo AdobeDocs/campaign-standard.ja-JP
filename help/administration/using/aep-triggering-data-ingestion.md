@@ -12,7 +12,7 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5f3bf4c2d0bba095182194ac28b3107eae2c54a6
+source-git-commit: 67223cf8eed46e2431c03674bd837262e37c7473
 
 ---
 
@@ -25,9 +25,7 @@ source-git-commit: 5f3bf4c2d0bba095182194ac28b3107eae2c54a6
 
 Adobe Campaign Standardでは、APIを使用してデータマッピングを直ちに取り込み、取り込みリクエストのステータスを取り出すことができます。
 
->[!NOTE]
->
->このページでは、データマッピングのインジェスト・ステータスをトリガし、取得する方法について説明します。 Campaign Standard APIのグローバル情報については、この節を参照 [してください](../../api/using/about-campaign-standard-apis.md)。
+このページでは、データマッピングのインジェスト・ステータスをトリガし、取得する方法について説明します。 Campaign Standard APIのグローバル情報については、この節を参照 [してください](../../api/using/about-campaign-standard-apis.md)。
 
 ## 前提条件 {#prerequisites}
 
@@ -38,7 +36,7 @@ APIを使用する前に、データマッピングを設定し、Campaign Stand
 
 データマッピングを作成したら、必要に応じてAPIからトリガーできるように、データマッピングの実行を停止する必要があります。 それには、次の手順に従います。
 
-1. Campaign Standardで、///メニューに **[!UICONTROL Administration]**移動し**[!UICONTROL Development]** ま **[!UICONTROL Platform]****!UICONTROL Status of data export to platform]**す。
+1. Campaign Standardで、///メニューに **[!UICONTROL Administration]**移動し**[!UICONTROL Development]** ま **[!UICONTROL Platform]****[!UICONTROL Status of data export to platform]** す。
 
 1. データマッピングをダブルクリックして開き、ボタンをクリック **[!UICONTROL Stop]**します。
 
