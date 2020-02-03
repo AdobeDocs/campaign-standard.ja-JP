@@ -13,7 +13,7 @@ context-tags: workflow,wizard;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
+source-git-commit: 41ba6fa44807541dd749f4effca44ae2b4d147ae
 
 ---
 
@@ -55,6 +55,10 @@ source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
    ワークフローには、適切な名前とラベルを付けることをお勧めします。そうすると、正常に機能していないワークフローを簡単に見つけてトラブルシューティングできるようになります。また、オペレーターが理解しやすいように、実行される処理の概要をワークフローの説明フィールドに記述してください。
 
 1. アクティビティの作成を確認し、そのアクティビティのダッシュボードが表示されます。 For more on this, refer to the [Workflow interface](../../automating/using/workflow-interface.md) section.
+
+1. ワークフローを設定する準備が整ったら、ボタンをクリックして追加のオプションにアクセスで **[!UICONTROL Edit properties]**きます。 例えば、すべてのワークフローのアクティビティでデフォルトで使用する特定のタイムゾーンを定義できます。 デフォルトでは、ワークフローのタイムゾーンは現在のキャンペーン演算子に対して定義されています。
+
+   ![](assets/workflow_properties.png)
 
 **関連トピック：**
 
