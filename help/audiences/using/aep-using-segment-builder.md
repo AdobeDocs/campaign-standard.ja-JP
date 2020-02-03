@@ -13,7 +13,7 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 17545fc4ea58e5220c66f90eafcbfcfca50bf661
+source-git-commit: e9d4239182a7ebdec61e85fece6ec49dca8f665a
 
 ---
 
@@ -77,6 +77,12 @@ source-git-commit: 17545fc4ea58e5220c66f90eafcbfcfca50bf661
 * **[!UICONTROL Events]**:「2週間に2回注文した顧客」など、会社の顧客タッチポイントと何らかのインタラクションを持つ顧客を識別するアクティビティ。 これは、Adobe Analyticsからストリーミングしたり、サードパーティのETLツールを使用してAdobe Experience Platformに直接取り込んだりできます。
 
    ![](assets/aep_audiences_eventstab.png)
+
+>[!NOTE]
+>
+>**複数エンティティのセグメント化により** 、製品、ストア、または他の非プロファイルクラスに基づく追加のデータを使用して、プロファイルデータを拡張できます。 接続すると、追加のクラスのデータは、プロファイルスキーマにネイティブであるかのように使用可能になります。
+>
+>For more on this, refer to the [dedicated documentation](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/tutorials/segmentation/multi_entity_segmentation.md).
 
 デフォルトでは、統合セグメントビルダーには、データが存在するフィールドが表示されます。 データが存在しないフィールドを含む完全なスキーマを表示するには、設定からこのオプ **[!UICONTROL Show full XDM schema]**ションを有効にします。
 
