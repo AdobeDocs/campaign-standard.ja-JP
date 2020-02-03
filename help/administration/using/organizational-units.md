@@ -13,7 +13,7 @@ context-tags: orgUnit,overview;orgUnit,main;geoUnit,overview;geoUnit,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
+source-git-commit: cc439572afc1a6ab90d4c95576e250af315fd14c
 
 ---
 
@@ -27,6 +27,8 @@ source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
 >[!CAUTION]
 >
 >ユーザーがどのユニットにもリンクされていない場合、そのユーザーはAdobe Campaignに接続できません。 特定のユーザーまたはユーザーのグループに対するアクセスを制限する場合は、ユニットにリンクしないでくだ **[!UICONTROL All]**さい。
+>
+>デフォルトでは、組織単 **[!UICONTROL All (all)]**位はセキュリティグループに割り**[!UICONTROL Administrators]** 当てられます。 読み取り専用で、変更できません。
 
 ユーザは、親単位内のすべてのオブジェクトに対して読み取り専用アクセス権を持ちます。 彼は、自分のユニットと子ユニットのすべてのオブジェクトに対する読み取りと書き込みのアクセス権を持っている。 ユーザーは並行ブランチのオブジェクトにアクセスできません。
 
