@@ -12,7 +12,7 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 60b6e0302b87e078fc7623d4613251abde3b1c50
+source-git-commit: 59405df2bbb51d7cd944a0630b2b82db864f3920
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: 60b6e0302b87e078fc7623d4613251abde3b1c50
 
 _lineCountパラ **メーターを使用すると** 、応答に一覧表示されるリソースの数を制限できます。  その後、次のノードを使 **用して** 、次の結果を表示できます。
 
->[!NOTE]>
+>[!NOTE]
 >
 >ページネーションリクエストを実行するには、必ず次 **のノード** に返されたURL値を使用します。
 >
