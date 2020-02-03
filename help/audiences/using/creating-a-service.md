@@ -13,7 +13,7 @@ context-tags: service,wizard;service,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
+source-git-commit: de16bef6cfd0afa3f664c98fe77484044aac6610
 
 ---
 
@@ -31,6 +31,12 @@ source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 1. サービスダッ **[!UICONTROL Service properties]**シュボードのボタンからア![](assets/edit_darkgrey-24px.png)クセスできるセクションで、購読と購読解除の確認メッセージを設定します。
 
    ![](assets/lp_service_parameters.png)
+
+1. このオプション **[!UICONTROL Subscriptions with an expiration date]**を選択して、購読の有効期間を設定します。
+
+   ![](assets/lp_service_expiration.png)
+
+セグメント化アクティビティの有効期限を使用して、期限切れでないサービスを購読しているプロファイルをターゲットに設定できます。
 
 1. Fill in the **[!UICONTROL Service label]**field. カスタム確認メッセージを使用する場合、サービスラベルは必須です。
 
