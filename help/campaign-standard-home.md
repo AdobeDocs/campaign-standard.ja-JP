@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Adobe Campaign Standard 製品ドキュメント
 topic: Premium
 translation-type: tm+mt
-source-git-commit: f613b1456dbc66d584235856828e8ffdcf0d9874
+source-git-commit: 859fa22e39233eb5d87475de3a2bf03492f1fe4b
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: f613b1456dbc66d584235856828e8ffdcf0d9874
 
 * **[電子メールデザイナ](designing/using/designing-content-in-adobe-campaign.md)**<br/>— 再構成された電子メールデザイナのドキュメントを参照してください。
 
-* **[Campaign Standard mobileガイドモバイル配信](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/>の一般的なガイドラインについて詳しく説明します。
+* **[Campaign Standard Mobile ガイド](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/>モバイル配信に関する一般的なガイドラインについて説明します。
 
 [更新情報についてはここをクリック](rn/using/documentation-updates.md)
 
@@ -44,9 +44,10 @@ source-git-commit: f613b1456dbc66d584235856828e8ffdcf0d9874
       <img alt="デザイナー" src="start/using/assets/design.png" />
     </a>
     <div>
-    <a href="designing/using/designing-content-in-adobe-campaign.md"><strong>電子メールのデザイン</strong></a>
+    <a href="designing/using/designing-content-in-adobe-campaign.md"><strong>E メールのデザイン</strong></a>
     </div>
-    <em>電子メールデザイナーを使用して、レスポンシブでパーソナライズされた電子メールを作成する方法を説明します</em>。 <br>
+    <em>E メールデザイナーを使用して、レスポンシブでパーソナライズされた E メールを作成する方法を説明します</em>
+    <br>
   </td>
   <td valign="top">
        <img alt="開発者" src="start/using/assets/dev.png" />
@@ -54,7 +55,7 @@ source-git-commit: f613b1456dbc66d584235856828e8ffdcf0d9874
     <strong>開発者向けリソース</strong>
     </div>
     <p><em><a href="api/using/about-campaign-standard-apis.md">Adobe Campaign API</a></em></p>
-    <p><em><a href="integrating/using/about-adobe-experience-cloud-triggers.md">Adobe Experience Cloudトリガー</a></em></p>
+    <p><em><a href="integrating/using/about-adobe-experience-cloud-triggers.md">Adobe Experience Cloud Triggers</a></em></p>
     <br>
   </td>
 </tr>
