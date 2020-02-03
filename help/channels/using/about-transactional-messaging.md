@@ -12,7 +12,7 @@ discoiquuid: 71a4d5d5-fe2a-4ce5-b22b-a4736f7add83
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b06edadfa963881403328c4ab37d25d701bc8237
+source-git-commit: 3c45cbbb261f18252689d0fc4f332b9f45137c85
 
 ---
 
@@ -45,6 +45,10 @@ Adobe Campaignでは、次の2種類のトランザクションメッセージ�
 >Adobe Campaignは、他の配信よりもトランザクションメッセージの処理を優先します。
 
 トランザクションメッセージングは、Adobe Campaign Standard APIからも利用できます。 For more on this, refer to the [dedicated documentation](../../api/using/managing-transactional-messages.md).
+
+>[!IMPORTANT]
+>
+>拡張MTAにアップグレードす [ると](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)、配信品質、スループット、バウンス処理を向上させるために、すべてのトランザクションメッセージがAdobe Campaign Enhanced MTAと共に送信されます。 すべての影響は標準のマーケティングメッセージと同じで、 [Adobe Campaign Enhanced MTAドキュメントで詳しく説明しています](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html) 。
 
 ## トランザクションメッセージングの動作原則 {#transactional-messaging-operating-principle}
 
@@ -80,7 +84,7 @@ Adobe Campaignでは、製品を買い物かごに追加したサイトユーザ
 
 * 各イベント設定には1つのチャネルのみを使用できます。 イベント [の作成を参照してください](../../administration/using/configuring-transactional-messaging.md#creating-an-event)。
 * イベントが作成されると、チャネルを変更できなくなります。 したがって、メッセージが正常に送信されない場合は、ワークフローを使用して別のチャネルからメッセージを送信できるメカニズムを設計する必要があります。 See [Workflow data and processes](../../automating/using/workflow-data-and-processes.md).
-* イベントの作成後にターゲットディメンシ **[!UICONTROL Real-time event]** ョン(ま **[!UICONTROL Profile]** たは)を変更することはできません。 イベント [の作成を参照してください](../../administration/using/configuring-transactional-messaging.md#creating-an-event)。
+* イベントの作成後にターゲットディメンシ **[!UICONTROL Real-time event]**ョン(ま**[!UICONTROL Profile]** たは)を変更することはできません。 イベント [の作成を参照してください](../../administration/using/configuring-transactional-messaging.md#creating-an-event)。
 * パブリケーションをロールバックすることはできませんが、イベントの公開を取り消すことはできます。この操作により、イベントと関連するトランザクションメッセージにアクセスできなくなります。 イベント [の非公開を参照してください](../../administration/using/configuring-transactional-messaging.md#unpublishing-an-event)。
 * イベントに関連付けることができる唯一のトランザクションメッセージは、イベントの発行時に自動的に作成されるメッセージです。 詳しくは、イ [ベントのプレビューと公開を参照してくださ](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)い。
 
@@ -105,17 +109,17 @@ Adobe Campaignでは、製品を買い物かごに追加したサイトユーザ
 
 ### 権限とブランド {#permissions-and-branding}
 
-ブランド管理に関しては、トランザ [クション](../../administration/using/branding.md) ・メッセージングは標準のメッセージングよりも柔軟性が低くなります。 アドビでは、トランザクションメッセージで使用されるすべてのブランドを組織単位にリンクす **[!UICONTROL All]** るこ [とを推奨しま](../../administration/using/organizational-units.md)す。 詳しくは、以下の詳細な説明を参照してください。
+ブランド管理に関しては、トランザ [クション](../../administration/using/branding.md) ・メッセージングは標準のメッセージングよりも柔軟性が低くなります。 アドビでは、トランザクションメッセージで使用されるすべてのブランドを組織単位にリンクす **[!UICONTROL All]**るこ[とを推奨しま](../../administration/using/organizational-units.md)す。 詳しくは、以下の詳細な説明を参照してください。
 
-トランザクションメッセージを編集する際に、そのメッセージをブランドにリンクして、ブランド名やブランドロゴなどのパラメーターを自動的に適用できます。 トランザクシ **[!UICONTROL Default brand]** ョンメッセージのプロパティでは、デフォルトでこのオプションが選択されます。
+トランザクションメッセージを編集する際に、そのメッセージをブランドにリンクして、ブランド名やブランドロゴなどのパラメーターを自動的に適用できます。 トランザクシ **[!UICONTROL Default brand]**ョンメッセージのプロパティでは、デフォルトでこのオプションが選択されます。
 
 ![](assets/message-center_branding.png)
 
-トランザクションメッセージで使用されるすべてのオブジェクト（ブランドを含む）は、組織単位で表示する必要があります。つまり、こ **[!UICONTROL Message Center]** れらのオブジェクトは、組織単位または組織単位で表 **[!UICONTROL Message Center]** 示する必 **[!UICONTROL All]** 要があります。
+トランザクションメッセージで使用されるすべてのオブジェクト（ブランドを含む）は、組織単位で表示する必要があります。つまり、こ **[!UICONTROL Message Center]**れらのオブジェクトは、組織単位または組織単位で表**[!UICONTROL Message Center]** 示する必 **[!UICONTROL All]**要があります。
 
 ただし、メッセージプロパティで選択したブランドが、またはと異なる組織単位にリンクされている場合は、エラーが発生し、トランザクションメッセージを送信できなくなります **[!UICONTROL Message Center]****[!UICONTROL All]**。
 
-したがって、トランザクションメッセージングのコンテキストでマルチブランドを使用する場合は、すべてのブランドを組織単位または組織単位 **[!UICONTROL Message Center]** にリンクする必要が **[!UICONTROL All]** あります。
+したがって、トランザクションメッセージングのコンテキストでマルチブランドを使用する場合は、すべてのブランドを組織単位または組織単位 **[!UICONTROL Message Center]**にリンクする必要が**[!UICONTROL All]** あります。
 
 ### トランザクションメッセージの書き出しと読み込み {#exporting-and-importing-transactional-messages}
 
