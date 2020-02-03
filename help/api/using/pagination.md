@@ -12,7 +12,7 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
+source-git-commit: 60b6e0302b87e078fc7623d4613251abde3b1c50
 
 ---
 
@@ -23,17 +23,15 @@ source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
 
 _lineCountパラ **メーターを使用すると** 、応答に一覧表示されるリソースの数を制限できます。  その後、次のノードを使 **用して** 、次の結果を表示できます。
 
->[!NOTE]&gt;
+>[!NOTE]>
 >
 >ページネーションリクエストを実行するには、必ず次 **のノード** に返されたURL値を使用します。
 >
 >**_lineStartリクエストが計算され** 、次のノードで返されるURL内で常に使用される必要が **あります** 。
 
-<!-- serverside pagination. quand table très longue (au delà de 100.000), on peut plus faire de next. doit utiliser à la place les trucs type lineStart etc. si false: voudra dirre que ça a atteint la limite-->
-
 <br/>
 
-***サンプルリクエスト***
+***サンプルリクエスト&#x200B;***
 
 プロファイルリソースの1レコードを表示するGET要求の例。
 
@@ -45,9 +43,7 @@ _lineCountパラ **メーターを使用すると** 、応答に一覧表示さ�
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-<!-- dans l'exemple, avoir le node "next"-->
-
-リクエストへの応答。
+次のノードを使用して **** 、リクエストに応答します。
 
 ```
 {
@@ -60,6 +56,24 @@ _lineCountパラ **メーターを使用すると** 、応答に一覧表示さ�
             ...
         }
     ],
+    "next": {
+        "href": "https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_lineCount=10&_
+        lineStart=@Qy2MRJCS67PFf8soTf4BzF7BXsq1Gbkp_e5lLj1TbE7HJKqc"
+    }
     ...
 }
 ```
+
+デフォルトでは、大量の **データを含む** 、テーブルを操作する場合は次のノードを使用できません。 ページネーションを実行するには、 **_forcePagination=trueパラメーターを呼び出しURLに追加する必要があります** 。
+
+```
+-X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile?_forcePagination=true \
+-H 'Content-Type: application/json' \
+-H 'Authorization: Bearer <ACCESS_TOKEN>' \
+-H 'Cache-Control: no-cache' \
+-H 'X-Api-Key: <API_KEY>'
+```
+
+>[!NOTE]
+>
+>テーブルが大きいと見なされるレコードの数は、キャンペーン標準のXtkBigTableThresholdオプションで定義さ **れます** 。 デフォルト値は100,000レコードです。
