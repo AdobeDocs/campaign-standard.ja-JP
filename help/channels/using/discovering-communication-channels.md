@@ -12,7 +12,7 @@ discoiquuid: 5214becf-005b-42ac-97d2-2bce5ba2ecb5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8bd32e1ca93473c384a3e079362bb9afe978699d
+source-git-commit: bc3f4285f6c5c0a7b7a374c26311358b73b30ba8
 
 ---
 
@@ -23,7 +23,7 @@ Adobe Campaignを使用すると、様々なチャネルに対してパーソナ
 
 また、チャネル間キャンペーンを作成して、より適切なターゲットを受けることもできます。
 
-Adobe Campaignでは4つのメッセージングチャネルを使用できます。
+Adobe Campaignでは、次の5つのメッセージングチャネルを利用できます。
 
 * 電子メール。「電子メールの作 [成」セクションに表示](../../channels/using/about-emails.md) 。
 * SMS。SMSメッセージの作 [成セクションに表示](../../channels/using/about-sms-messages.md) 。
