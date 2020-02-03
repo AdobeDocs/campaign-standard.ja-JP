@@ -12,7 +12,7 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 74e2e1e6cc9c045203f4cfbe37cab673b6761b89
+source-git-commit: 67223cf8eed46e2431c03674bd837262e37c7473
 
 ---
 
@@ -25,13 +25,10 @@ source-git-commit: 74e2e1e6cc9c045203f4cfbe37cab673b6761b89
 
 この節では、「キャンペーン標準」フィールドと「エクスペリエンスデータモデル(XDM)」フィールドをマッピングする方法について説明します。
 
->[!NOTE]
->
->このタスクを実行するための前提条件は次のとおりです。
->
-> * インターフェイスを介した、またはXDMに関連付けられたREST APIを使用したXDMスキーマ定義
-> * xdmスキーマ定義に基づくデータセットの作成
+このタスクを実行するための前提条件は次のとおりです。
 
+* インターフェイスを介した、またはXDMに関連付けられたREST APIを使用したXDMスキーマ定義
+* xdmスキーマ定義に基づくデータセットの作成
 
 1. //に移 **[!UICONTROL Administration]**動し**[!UICONTROL Development]** 、エ **[!UICONTROL Platform]**ントリを選択し**[!UICONTROL Data mappings]** ます。
 
@@ -78,8 +75,8 @@ XDM値がXDMスキーマの列挙として定義されている場合は、lif�
 
 XDMマッピングを編集するには、XDMマッピングを開き、必要な情報を変更して保存します。
 
+![](assets/aep_editmapping.png)
+
 >[!IMPORTANT]
 >
 >ここでは、セクションの値を編集し、フィールドの外側をクリ **[!UICONTROL Field mappings]**ックした場合、ボタンをクリックするまで変更はインターフェイスに表示され**[!UICONTROL Save]** ません。 この動作は、ページ上での編集が最初の編集で **[!UICONTROL Field Mappings]**ある場合に1回だけ発生します。
-
-![](assets/aep_editmapping.png)
