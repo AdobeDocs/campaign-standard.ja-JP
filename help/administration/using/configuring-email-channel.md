@@ -13,7 +13,7 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 28d92b0024576c78fc8d71e3f1b59ac4508f9c34
+source-git-commit: 8ee995d10620c41b61de25132fae7ee975e4330e
 
 ---
 
@@ -78,13 +78,9 @@ source-git-commit: 28d92b0024576c78fc8d71e3f1b59ac4508f9c34
 
 ### バウンスメール {#bounce-mails}
 
-電子メールが失敗すると、リモートメッセージサーバーは、アプリケーション設定で指定されたアドレスにバウンスエラーメッセージを返します。 Adobe Campaign は、各バウンスメールのコンテンツをルールのリストの文字列と比較して、3 つのエラータイプのいずれかを割り当てます。
+電子メールが失敗すると、リモートメッセージサーバーは、アプリケーション設定で指定されたアドレスにバウンスエラーメッセージを返します。
 
-ユーザーは独自のルールを作成できます。
-
->[!IMPORTANT]
->
->When importing a package and when updating data via the **Update for deliverability** workflow, the user-created rules are overwritten.
+Adobe Campaign は、各バウンスメールのコンテンツをルールのリストの文字列と比較して、3 つのエラータイプのいずれかを割り当てます。
 
 >[!IMPORTANT]
 >
@@ -92,9 +88,23 @@ source-git-commit: 28d92b0024576c78fc8d71e3f1b59ac4508f9c34
 >
 >Adobe Campaign拡張MTAについて詳しくは、このドキュメントを参照してく [ださい](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)。
 
+ユーザーは独自のルールを作成できます。
+
+>[!IMPORTANT]
+>
+>When importing a package and when updating data via the **Update for deliverability** workflow, the user-created rules are overwritten.
+
 ### 電子メールドメインの管理 {#managing-email-domains}
 
-ドメイン管理ルールを使用して、特定のドメインに送信される E メールのフローを規制します。このルールは、バウンスメッセージをサンプリングし、必要に応じて送信をブロックします。Adobe Campaign のメッセージングサーバーは、ドメイン独自のルールを適用します。一般的なケース用のルールは、ルールのリストにアスタリスクで表されます。
+ドメイン管理ルールを使用して、特定のドメインに送信される E メールのフローを規制します。このルールは、バウンスメッセージをサンプリングし、必要に応じて送信をブロックします。
+
+Adobe Campaign のメッセージングサーバーは、ドメイン独自のルールを適用します。一般的なケース用のルールは、ルールのリストにアスタリスクで表されます。
+
+>[!IMPORTANT]
+>
+>拡張MTAにアップグレードすると、DKIM(DomainKeys Identified Mail)電子メール認証の署名は拡張MTAによって行われます。 ネイティブCampaign MTAによるDKIM署名は、拡張MTAアップグレードの一 **[!UICONTROL Domain management]**環として、テーブル内で無効になります。
+>
+>Adobe Campaign拡張MTAについて詳しくは、このドキュメントを参照してく [ださい](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)。
 
 ドメイン管理ルールを設定するには、しきい値を設定して、特定の SMTP パラメーターを選択するだけです。**しきい値**&#x200B;とは、特定のドメイン宛てのメッセージをブロックする基準となるエラー率です。エラー率がこの値を超えると、特定のドメイン宛てのすべてのメッセージがブロックされます。
 
@@ -103,19 +113,7 @@ source-git-commit: 28d92b0024576c78fc8d71e3f1b59ac4508f9c34
 * 特定の識別標準や、**送信者 ID**、**DomainKeys**、**DKIM**、**S/MIME** などドメイン名をチェックするための暗号鍵を有効化するかどうかを選択できます。
 * **SMTP リレー**：特定のドメインのリレーサーバーの IP アドレスおよびポートを設定できます。
 
->[!IMPORTANT]
->
->拡張MTAにアップグレードすると、DKIM(DomainKeys Identified Mail)電子メール認証の署名は拡張MTAによって行われます。 ネイティブCampaign MTAによるDKIM署名は、拡張MTAアップグレードの一 **[!UICONTROL Domain management]**環として、テーブル内で無効になります。
->
->Adobe Campaign拡張MTAについて詳しくは、このドキュメントを参照してく [ださい](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)。
-
 ### MX 管理 {#mx-management}
-
->[!IMPORTANT]
->
->拡張MTAにアップグレードすると、Adobe Campaign **MX管理配信スループット** ・ルールは使用されなくなります。 拡張MTAは独自のMXルールを使用し、独自の履歴電子メールの評判や、電子メールを送信するドメインからのリアルタイムフィードバックに基づいて、ドメインごとにスループットをカスタマイズできます。
->
->Adobe Campaign拡張MTAについて詳しくは、このドキュメントを参照してく [ださい](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)。
 
 各ルールはMXのアドレスマスクを定義します。 したがって、このマスクと名前が一致するMXはすべて有効です。 マスクには、「*」と「?」を含めることができます。 汎用文字。
 
@@ -131,6 +129,12 @@ source-git-commit: 28d92b0024576c78fc8d71e3f1b59ac4508f9c34
 * ?.mx.yahoo.com
 
 次のルールが順に適用されます。mxマスクが対象のMXと互換性がある最初のルールが適用されます。
+
+>[!IMPORTANT]
+>
+>拡張MTAにアップグレードすると、Adobe Campaign **MX管理配信スループット** ・ルールは使用されなくなります。 拡張MTAは独自のMXルールを使用し、独自の履歴電子メールの評判や、電子メールを送信するドメインからのリアルタイムフィードバックに基づいて、ドメインごとにスループットをカスタマイズできます。
+>
+>Adobe Campaign拡張MTAについて詳しくは、このドキュメントを参照してく [ださい](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)。
 
 各ルールでは、次のパラメーターを使用できます。
 
@@ -238,7 +242,7 @@ SMTPの設定について詳しくは、「電子メールSMTPパラメーター
 
    >[!IMPORTANT]
    >
-   >拡張MTAにアップグレードした後は、キャンペーン配信の**[!UICONTROL Delivery duration] *パラメータ**は、3.5日以下に設定された場合にのみ使用されます。 3.5日を超える値を定義した場合、その値は考慮されません。 すべての影響について詳しくは、 [Adobe Campaign Enhanced MTAドキュメントを参照してください](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html) 。
+   >拡張MTAにアップグレードした後は、キャンペ **[!UICONTROL Delivery duration]**ーン配信のパラメーターは、3.5日以下に設定されている場合にのみ使用されます。 3.5日を超える値を定義した場合、その値は考慮されません。 すべての影響について詳しくは、[Adobe Campaign Enhanced MTAドキュメントを参照してください](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)。
 
 * **[!UICONTROL Resource validity duration]**:このフィールドは、主にミラーページと画像のアップロードされたリソースに使用されます。 ディスクスペースを節約するために、このページ上のリソースが有効な期間は限られています。
 * **[!UICONTROL Mirror page management]**:ミラーページは、Webブラウザを介してオンラインでアクセスできるHTMLページです。 その内容は電子メールの内容と同じです。 デフォルトでは、リンクがメールコンテンツに挿入されると、ミラーページが生成されます。 このフィールドでは、このページの生成方法を変更できます。
