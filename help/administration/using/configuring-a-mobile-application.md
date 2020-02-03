@@ -12,7 +12,7 @@ discoiquuid: 2a14500f-5ede-4131-8b1a-b7fd65b7e3aa
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 501ba6f97a86076116d4d84f43df674536e12f6a
+source-git-commit: aa1539a1fc5fd08e7cf4e081ae2517e39ddde121
 
 ---
 
@@ -21,9 +21,7 @@ source-git-commit: 501ba6f97a86076116d4d84f43df674536e12f6a
 
 使用するチャネルに応じてAdobe Campaign Standardで設定する必要があるモバイルアプリケーションで、プッシュ通知またはアプリ内メッセージが受信されます。
 
-* アプリ内メッセージとプッシュ通知を送信するには、Adobe Experience Platform SDKを利用して、モバイルアプリケーションをAdobe Campaignで設定する必要があります。 詳しくは、 [Adobe Experience Platform SDKの使用を参照してください](#using-adobe-experience-platform-sdk)。
-
-* プッシュ通知のみを送信するには、SDK V4を使用してAdobe CampaignとAdobe Mobile Serviceの統合を設定します。 SDK V4 [の使用を参照してください](#using-sdk-v4)。
+アプリ内メッセージとプッシュ通知を送信するには、Adobe Experience Platform SDKを利用して、モバイルアプリケーションをAdobe Campaignで設定する必要があります。 詳しくは、 [Adobe Experience Platform SDKの使用を参照してください](#using-adobe-experience-platform-sdk)。
 
 Experience Cloud Mobile SDK V4またはExperience Platform SDKを利用してAdobe Campaignでモバイルアプリを設定したら、/メニューで管理者が設定する必要があ [!UICONTROL Administration] り [!UICONTROL Channels] ま [!UICONTROL Mobile app] す。
 
@@ -59,36 +57,3 @@ Experience Platform SDKアプリケーションでプッシュ通知とアプリ
 1. モバイルアプリケーションの設定にチャネル固有の設定を追加します。詳しくは、Adobe Campaign [でのチャネル固有のアプリケーション設定を参照してください](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign)。
 
    ![](assets/launch_2.png)
-
-## SDK V4の使用 {#using-sdk-v4}
-
-アプリ内とは異なり、プッシュ通知はSDK V4およびAdobe Experience Platform SDKでサポートされます。 モバイルアプリでプッシュ通知を使用する詳しい手順については、このページを参照してく [ださい](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)。
-
-プッシュ通知を受信するモバイルアプリケーションは、管理者がAdobe Campaignインターフェイスで設定する必要があります。 Adobe CampaignとAdobe Mobile Servicesの両方を設定すると、モバイルアプリのデータをキャンペーンに使用できます。
-
-プッシュ通知を送信するには、次の操作を行う必要があります。
-
-1. Adobe Campaignでチャネルにアクセスできるこ **[!UICONTROL Mobile app]**とを確認してください。
-1. モバイルアプリケーションの設定：
-
-   * [Adobe Campaign](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html#SettingupamobileapplicationinAdobeCampaign).
-   * [Adobe Mobile Services](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html#ConfiguringamobileapplicationinAdobeMobileServices)。
-
-1. モバイルアプリケーション固有の設定を実行します。
-
-   * Adobe Mobile Servicesインターフェイスからダウンロードした設定ファイルをモバイルアプリケーションにパッケージ化します。
-   * Experience Cloud Mobile SDKをモバイルアプリケーションに統合します。
-
-1. アプリのサブスクリプションから収集するデータを定義します。 Adobe Campaignデータベースにプロファイルを持つモバイルアプリケーションのサブスクリプションは、定義した条件に基づいて調整されます。
-
-   詳しくは、この[ページ](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html#Collectingsubscribersdatafromamobileapplication)を参照してください。
-
-1. デバイスでモバイルアプリケーションを起動し、ログインして、設定が正常に完了していることを確認します。 通知の受信をオプトインしていることを確認します。
-1. 次に、Adobe Campaignのアドバンスメニューで//を選 **[!UICONTROL Administration]**択し**[!UICONTROL Channels]** ます **[!UICONTROL Mobile app]**。
-1. リストからモバイルアプリを選択し、そのプロパティを表示します。 購読情報が購読者リストの下に表示されます。
-
-   ![](assets/push_notif_mobile_app.png)
-
-1. プロファイルが登録しているモバイルアプリケーションを確認するには、メニ **[!UICONTROL Profiles & Audiences > Profiles]**ューでプロファイルを選択し、右側のボタン**[!UICONTROL Edit profile properties]** をクリックします。 タブにモバイルアプリが表示さ **[!UICONTROL Mobile App Subscriptions]**れます。
-
-   ![](assets/push_notif_subscriptions.png)
