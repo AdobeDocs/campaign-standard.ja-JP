@@ -1,6 +1,6 @@
 ---
-title: 電子メールチャネルの設定
-description: 電子メールチャネルの設定方法を説明します。
+title: Adobe Campaign Standardでの電子メールチャネルの設定
+description: Adobe Campaign Standardで電子メールチャネルを設定する方法を説明します。
 page-status-flag: never-activated
 uuid: 9fddb655-b445-41f3-9b02-5d356fc88aa1
 contentOwner: sauviat
@@ -13,12 +13,12 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a3f760385da20a3aa39f96d955cfc2d77b708de2
+source-git-commit: 28d92b0024576c78fc8d71e3f1b59ac4508f9c34
 
 ---
 
 
-# 電子メールチャネルの設定{#configuring-email-channel}
+# E メールチャネルの設定{#configuring-email-channel}
 
 ## 電子メールチャネルパラメーター {#email-channel-parameters}
 
@@ -70,34 +70,52 @@ source-git-commit: a3f760385da20a3aa39f96d955cfc2d77b708de2
 
 ## 電子メール処理ルール {#email-processing-rules}
 
+管理者 **[!UICONTROL Email processing rules]**は、メニューからアクセスで**[!UICONTROL Administration > Channels > Email]** きます。
+
 これらのルールには、リモートサーバーが返すことができ、エラー（**ハード**、**ソフト**&#x200B;または&#x200B;**無視**）を検証できる文字列のリストが含まれます。
 
 デフォルトのルールには次のものがあります。
 
-**バウンスメール**
+### バウンスメール {#bounce-mails}
 
 電子メールが失敗すると、リモートメッセージサーバーは、アプリケーション設定で指定されたアドレスにバウンスエラーメッセージを返します。 Adobe Campaign は、各バウンスメールのコンテンツをルールのリストの文字列と比較して、3 つのエラータイプのいずれかを割り当てます。
 
 ユーザーは独自のルールを作成できます。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >When importing a package and when updating data via the **Update for deliverability** workflow, the user-created rules are overwritten.
 
-**電子メールドメインの管理**
+>[!IMPORTANT]
+>
+>拡張MTAにアップグレードすると、キャンペーンテーブルのバウンス **[!UICONTROL Message qualification]**条件は使用されなくなります。 同期配信の失敗エラーメッセージの場合、拡張MTAはバウンスのタイプと資格を決定し、その情報をCampaignに返します。 非同期バウンスは、inMailプロセスでも認定されます。
+>
+>Adobe Campaign拡張MTAについて詳しくは、このドキュメントを参照してく [ださい](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)。
 
-ドメイン管理ルールを使用して、特定のドメインに送信される E メールのフローを規制します。このルールは、バウンスメッセージをサンプリングし、必要に応じて送信をブロックします。Adobe Campaign のメッセージングサーバーは、ドメイン独自のルールを適用します。一般的なケース用のルールは、ルールのリストにアスタリスクで表されます。デフォルトでは、Adobe Campaign で Hotmail ドメインと MSN ドメイン用のルールを使用できます。
+### 電子メールドメインの管理 {#managing-email-domains}
+
+ドメイン管理ルールを使用して、特定のドメインに送信される E メールのフローを規制します。このルールは、バウンスメッセージをサンプリングし、必要に応じて送信をブロックします。Adobe Campaign のメッセージングサーバーは、ドメイン独自のルールを適用します。一般的なケース用のルールは、ルールのリストにアスタリスクで表されます。
 
 ドメイン管理ルールを設定するには、しきい値を設定して、特定の SMTP パラメーターを選択するだけです。**しきい値**&#x200B;とは、特定のドメイン宛てのメッセージをブロックする基準となるエラー率です。エラー率がこの値を超えると、特定のドメイン宛てのすべてのメッセージがブロックされます。
-
-例えば一般的なケースでは、300 件以上のメッセージに対してエラー率が 90％に達すると、E メールの送信が 3 時間ブロックされます。
 
 **SMTP パラメーター**&#x200B;は、ブロッキングルールに適用されるフィルターの役割を果たします。
 
 * 特定の識別標準や、**送信者 ID**、**DomainKeys**、**DKIM**、**S/MIME** などドメイン名をチェックするための暗号鍵を有効化するかどうかを選択できます。
 * **SMTP リレー**：特定のドメインのリレーサーバーの IP アドレスおよびポートを設定できます。
 
-**MX 管理**
+>[!IMPORTANT]
+>
+>拡張MTAにアップグレードすると、DKIM(DomainKeys Identified Mail)電子メール認証の署名は拡張MTAによって行われます。 ネイティブCampaign MTAによるDKIM署名は、拡張MTAアップグレードの一 **[!UICONTROL Domain management]**環として、テーブル内で無効になります。
+>
+>Adobe Campaign拡張MTAについて詳しくは、このドキュメントを参照してく [ださい](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)。
+
+### MX 管理 {#mx-management}
+
+>[!IMPORTANT]
+>
+>拡張MTAにアップグレードすると、Adobe Campaign **MX管理配信スループット** ・ルールは使用されなくなります。 拡張MTAは独自のMXルールを使用し、独自の履歴電子メールの評判や、電子メールを送信するドメインからのリアルタイムフィードバックに基づいて、ドメインごとにスループットをカスタマイズできます。
+>
+>Adobe Campaign拡張MTAについて詳しくは、このドキュメントを参照してく [ださい](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)。
 
 各ルールはMXのアドレスマスクを定義します。 したがって、このマスクと名前が一致するMXはすべて有効です。 マスクには、「*」と「?」を含めることができます。 汎用文字。
 
@@ -127,7 +145,7 @@ source-git-commit: a3f760385da20a3aa39f96d955cfc2d77b708de2
 * **最大メッセージ数**:1つの接続で送信できるメッセージの最大数。 この金額が経過すると、接続が閉じられ、新しい接続が再び開かれます。
 * **[!UICONTROL Messages per hour]**:mxに対して、指定したアドレスを介して1時間で送信できるメッセージの最大数。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >* パラメーターを変更した場合は、配信サーバー（MTA）を再起動する必要があります。
 >* 管理ルールを変更または作成できるのは、エキスパートユーザーのみです。
@@ -153,7 +171,7 @@ source-git-commit: a3f760385da20a3aa39f96d955cfc2d77b708de2
 
 ![](assets/delivery_options_2.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >IDは一意である必要があります。
 
@@ -182,7 +200,7 @@ source-git-commit: a3f760385da20a3aa39f96d955cfc2d77b708de2
 * **受信者の環境設定** （デフォルトモード）を使用する：メッセージの形式は、受信者プロファイルに保存されたデータに従って定義され、デフォルトでは「 **Email format** 」フィールド(@emailFormat)に保存されます。 受信者が特定の形式でメッセージを受信することを希望していれば、メッセージはその形式で送信されます。フィールドが完了していない場合は、マルチパート代替メッセージが送信されます（以下を参照）。
 * **受信者のメールクライアントに最も適切な形式を選択させます（マルチパート代替）**。メッセージには両方の形式が含まれます。テキストとHTML。 受信時に表示される形式は、受信者のメールソフトウェアの設定によって異なります（マルチパート代替）。
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >このオプションには、両方のバージョンのメッセージが含まれます。 したがって、メッセージサイズが大きいので、配信スループットに影響します。
 
@@ -199,7 +217,7 @@ SMTPサーバーとの接続が確立されるまでメッセージが処理さ�
 
 電子メールテンプレートに対してSMTPテストモードオプションを有効にした場合、このテンプレートから作成されるすべての電子メールメッセージでこのオプションが有効になります。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >電子メールに対してこのオプションを有効にすると、オフになるまでメッセージは送信されません。
 >電子メールまたは電子メールテンプレートのダッシュボードに警告が表示されます。
@@ -208,14 +226,24 @@ SMTPの設定について詳しくは、「電子メールSMTPパラメーター
 
 ### 有効期間パラメーター {#validity-period-parameters}
 
-この節に **[!UICONTROL Validity]**は、次のパラメーターが含まれています。
+この節に **[!UICONTROL Validity period]**は、次のパラメーターが含まれています。
+
+![](assets/delivery-validity-period.png)
 
 * **[!UICONTROL Explicitly set validity dates]**:このチェックボックスをオフにした場合は、およびフィールドに期間を入力する必要**[!UICONTROL Delivery duration]** があ **[!UICONTROL Resource validity limit]**ります。 特定の日時を定義する場合は、このチェックボックスをオンにします。
+
+   ![](assets/delivery-set-explicit-dates.png)
+
 * **[!UICONTROL Delivery duration]**:Adobe Campaignは開始日から始まるメッセージを送信します。 このフィールドでは、メッセージを送信できる期間を指定できます。
+
+   >[!IMPORTANT]
+   >
+   >拡張MTAにアップグレードした後は、キャンペーン配信の**[!UICONTROL Delivery duration] *パラメータ**は、3.5日以下に設定された場合にのみ使用されます。 3.5日を超える値を定義した場合、その値は考慮されません。 すべての影響について詳しくは、 [Adobe Campaign Enhanced MTAドキュメントを参照してください](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html) 。
+
 * **[!UICONTROL Resource validity duration]**:このフィールドは、主にミラーページと画像のアップロードされたリソースに使用されます。 ディスクスペースを節約するために、このページ上のリソースが有効な期間は限られています。
 * **[!UICONTROL Mirror page management]**:ミラーページは、Webブラウザを介してオンラインでアクセスできるHTMLページです。 その内容は電子メールの内容と同じです。 デフォルトでは、リンクがメールコンテンツに挿入されると、ミラーページが生成されます。 このフィールドでは、このページの生成方法を変更できます。
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >ミラーページを作成する電子メールには、HTMLコンテンツを定義する必要があります。
 
@@ -226,7 +254,7 @@ SMTPの設定について詳しくは、「電子メールSMTPパラメーター
 
 >[!NOTE]
 >
->パラメー **[!UICONTROL Explicitly set validity dates]**ターとパ**[!UICONTROL Delivery duration]** ラメーターは、トランザクションメッセージには適用されません。 トランザクションメッセージングについて詳しくは、この節 [を参照してくださ](../../channels/using/about-transactional-messaging.md)い。
+>このパラ **[!UICONTROL Delivery duration]**メーターは、トランザクションメッセージには適用されません。 トランザクションメッセージングについて詳しくは、この節[を参照してくださ](../../channels/using/about-transactional-messaging.md)い。
 
 ### トラッキングパラメーター {#tracking-parameters}
 
@@ -284,7 +312,7 @@ SMTPの設定について詳しくは、「電子メールSMTPパラメーター
 * **[!UICONTROL Bounce mails]**:デフォルトでは、バウンスメールはプラットフォームのエラーインボックス(> >**[!UICONTROL Administration]** >画面で **[!UICONTROL Channels]**定義**[!UICONTROL Email]** )で受 **[!UICONTROL Configuration]**信されます。 電子メールの特定のエラーアドレスを定義するには、フィールドにアドレスを入力**[!UICONTROL Error address]** します。
 * **[!UICONTROL Additional SMTP headers]**:このオプションを使用すると、追加のSMTPヘッダーをメッセージに追加できます。 フィールドに入力するスクリ**[!UICONTROL Headers]** プトは、name:valueの形式で1行に1つのヘッダーを参照する必要 **があります**。 値は必要に応じて自動的にエンコードされます。
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >スクリプトを追加すると、挿入する SMTP ヘッダーを追加できます。これは高度な知識を持つユーザー向けに用意されています。スクリプトの構文は、このコンテンツタイプの要件を満たしている必要があります（不要なスペースや空行を含まないなど）。
 
