@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c0c85af1d7eebc59cba784a03803d23bef354dd8
+source-git-commit: 2b25b51d53f53adad6e6e327661b641c844be719
 
 ---
 
@@ -31,9 +31,7 @@ Adobe Campaign Standardドキュメントの最新の更新について説明し
 
 Adobe Experience Platform Data Connector（ベータ版） — 詳 [細情報](../../administration/using/aep-about-data-connector.md)
 
-Audience Destinationsサービス（ベータ）との統合 — 詳 [細情報](../../audiences/using/aep-about-audience-destinations-service.md)
-
-トランザクションメッセージング用のキャンペーン強化MTA - [詳細情報](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)
+オーディエンスの宛先（ベータ） — 詳 [細情報](../../audiences/using/aep-about-audience-destinations-service.md)
 
 ### リリースに伴うその他のドキュメントの更新
 
