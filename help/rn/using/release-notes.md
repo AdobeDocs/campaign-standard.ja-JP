@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e896206c371d6593d37201fddd24f59dad964ca7
+source-git-commit: d1af5ca520c56d593d1cffdca1e69f49d0c26c5d
 
 ---
 
@@ -34,9 +34,8 @@ source-git-commit: e896206c371d6593d37201fddd24f59dad964ca7
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>
-   Adobe Experience Platform Data Connectorは、Adobe Campaign Standardと統合されました。 XTKデータ（Campaignで取り込んだデータ）をAdobe Experience Platform Data Model(XDM)にマッピングすることで、Adobe Experience Platformでキャンペーンデータを利用できるようにできます。 </p>
-    <p>この機能と条件を有効にする方法の詳細については、詳細なドキュメントを参照し <a href="../../administration/using/aep-about-data-connector.md">てください</a>。</p>
+   <td> <p>Adobe Experience Platform Data Connectorは、Adobe Campaign Standardと統合されました。 XTKデータ（Campaignで取り込んだデータ）をAdobe Experience Platform Data Model(XDM)にマッピングすることで、Adobe Experience Platformでキャンペーンデータを利用できるようにできます。 </p>
+    <p>この機能は、Azureでホストされている顧客のみが使用できることに注意してください。 この機能と条件を有効にする方法の詳細については、詳細なドキュメントを参照し <a href="../../administration/using/aep-about-data-connector.md">てください</a>。</p>
    </td> 
   </tr> 
  </tbody> 
@@ -45,28 +44,13 @@ source-git-commit: e896206c371d6593d37201fddd24f59dad964ca7
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Audience Destinationサービス（ベータ版）との統合 </strong><br /> </th> 
+   <th> <strong>オーディエンスの宛先（ベータ） </strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Audience DestinationsサービスがAdobe Campaign Standardと統合されました。 大規模で複雑なデータセットに基づいて高度にターゲットを絞ったオーディエンスを構築し、他のAdobe Experience cloudソリューションとほぼリアルタイムにこれらのセグメントを共有できます。</p>
-    <p>この機能と条件を有効にする方法の詳細については、詳細なドキュメントを参照し <a href="../../audiences/using/aep-about-audience-destinations-service.md">てください</a>。</p>
-   </td> 
-  </tr> 
- </tbody> 
-</table>
-
-<table> 
- <thead> 
-  <tr> 
-   <th> <strong>トランザクションメッセージング用のキャンペーン強化MTA</strong><br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p>Adobe Campaign Enhanced MTAによってトランザクションメッセージが送信されるようになりました。このMTAは、配信性、スループット、バウンス処理を向上させるためのアップグレードされた送信インフラストラクチャを提供します。</p>
-    <p>詳しくは、<a href="https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html">詳細ドキュメント</a>を参照してください。</p>
+   <td> <p>オーディエンスの宛先を使用すると、Adobe Experience PlatformからAdobe Campaignにセグメントを共有できます。</p>
+    <p>この機能は、Azureでホストされている顧客のみが使用できることに注意してください。 この機能と条件を有効にする方法の詳細については、詳細なドキュメントを参照し <a href="../../audiences/using/aep-about-audience-destinations-service.md">てください</a>。</p>
    </td> 
   </tr> 
  </tbody> 
@@ -74,11 +58,13 @@ source-git-commit: e896206c371d6593d37201fddd24f59dad964ca7
 
 **強化点**
 
+* 拡張MTAのグローバルな可用性：メッセージ（トランザクションメッセージを含む）がAdobe Campaign Enhanced MTAによって送信されるようになりました。これにより、配信品質、スループットおよびバウンス処理を向上させるためのアップグレードされた送信インフラストラクチャが提供されます。 [詳細を表示](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)
+
 * タイムゾーン管理が強化されました。 ワークフロー全体に対して特定のタ [イムゾーンを定義で](../../automating/using/building-a-workflow.md) きるようになりました。 選択したタイムゾーンが、すべてのワークフローのアクティビティに適用されます。 オペレーターまたはサーバーに対して設定されたタイムゾーンに関する情報が、インターフェイスに（ログに）表示され、タイムゾーンを選択した後に)表示されるようになりました。 (CAMP-37672)
 
-* キャンペーン標準APIで、呼び出しURLにを追加することで、大きなテーブルを使用する場合にページネーションを実行で `_forcePagination=true parameter` きるようになりました。 [詳細を表示](../../api/using/pagination.md)
+* キャンペーン標準APIで、呼び出しURLにパラメーターを追加することで、大きなテーブルを使用する場合にページネーションを実 `_forcePagination=true` 行できるようになりました。 [詳細を表示](../../api/using/pagination.md)
 
-* 配信ログID（各ログの一意の識別子）が、すべてのターゲットディメンションの配信ログおよび追跡ログのリソースで使用できるようになりました。 これにより、例えば書き出し時に送信ログや追跡ログを識別できます。
+* 配信ログID（各ログの一意の識別子）が、すべてのターゲットディメンションの配信ログおよび追跡ログのリソースで使用できるようになりました。 これにより、例えば書き出し時に送信ログや追跡ログを識別できます。 [詳細を表示](../../automating/using/exporting-logs.md)
 
 **電子メールデザイナーの機能強化**
 
