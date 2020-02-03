@@ -13,7 +13,7 @@ context-tags: branding,overview;branding,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
+source-git-commit: 795f9b1d2d37f5e77af820318b6c980d702f54ad
 
 ---
 
@@ -34,7 +34,7 @@ source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
 1. このブランド用に1つまたは複数の配信およびランディングページテンプレートを作成します。 詳しくは、「テンプレ [ートの作成](../../start/using/marketing-activity-templates.md) 」を参照してください。
 1. このテンプレートに基づいてメッセージおよびランディングページを作成します。 「電子メールの作 [成」および「ランディン](../../channels/using/creating-an-email.md) グページの作成 [」の節を参照してください](../../channels/using/designing-a-landing-page.md) 。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >ブランドはエンドユーザーが作成または変更できません。これらの操作は、Adobe Campaignテクニカル管理者が実行する必要があります。 ご要望はアドビカスタマーケアにお問い合わせください。 マルチブランドは、トランザクションメッセージングのコンテキストでは使用できません。 詳しくは、トランザクションメッセージとブラ [ンディングを参照してくださ](../../channels/using/about-transactional-messaging.md#permissions-and-branding)い。
 
@@ -62,7 +62,7 @@ source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
    * **（電子メールアドレス）に** 、顧客が返信できる電子メールアドレスで返信します。
    * **（名前）にブランド名** で返信します。
    * **エラー（電子メールアドレス）** 。エラーが発生した場合に使用する電子メールアドレスを指定します。
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >電子メールのヘッダーパラメーターを更新した後、送信者の名前と電子メールアドレスがテンプレートから作成された電子メール内で変更されていない場合は、テンプレートの詳細設定を確認します。
 
@@ -73,6 +73,9 @@ source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
    * **作成した様々なランディングページのホスト** /アクセスに使用するアプリケーションサーバーの外部URL。
    * **配信中に追跡URLとして使用される** 、トラッキングサーバーの外部URL。
    * **配信でデフォルトのミラーページとして使用される** 、ミラーページサーバの外部URL。
+   >[!NOTE]
+   >
+   >アプリケーションサーバーとミラーページサーバーのURLがセキュリティで保護されていない場合(https://で始まらない場合)、ランディングページのプレビューとミラーページのレンダリングをCampaignユーザーインターフェイスから表示できません。
 
 * **[!UICONTROL Tracking URL configuration (Web Analytics)]**」をクリックします。
 
@@ -118,7 +121,7 @@ source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
 
 #### 新しいブランドの設定 {#configure-a-new-brand}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >ブランド設定は、特定の権限と技術的な設定が必要なので、アドビによってのみ管理されます。
 
