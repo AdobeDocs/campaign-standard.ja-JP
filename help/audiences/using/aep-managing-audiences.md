@@ -1,5 +1,5 @@
 ---
-title: オーディエンスの管理
+title: Adobe Experience Platformオーディエンスの管理
 description: Campaign Standard内でAdobe Experience Platformを管理する方法を説明します。
 page-status-flag: never-activated
 uuid: b3996642-96ec-489e-b146-c8c2cb52aa32
@@ -13,32 +13,34 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 19b22fa0780a0bf7c4b7a559270d7c8b32d89e38
+source-git-commit: 4b18f3b93394101eb569799bcfe362b4daf8f250
 
 ---
 
 
-# オーディエンスの管理{#about-audiences}
+# Adobe Experience Platformオーディエンスの管理 {#about-audiences}
 
 >[!IMPORTANT]
 >
 >Audience Destinations Serviceは現在ベータ版で、予告なく頻繁に更新される場合があります。 これらの機能にアクセスするには、Azureでホストする必要があります（現在、北米向けベータ版のみ）。 ご希望の場合は、アドビカスタマーケアにお問い合わせください。
 
-## オーディエンスへのアクセス
+## Adobe Experience Platformオーディエンスへのアクセス
 
-Adobe Experience Platformオーディエンスにアクセスするには、Campaign Standardのホ **[!UICONTROL Audiences]**ームページでカードを選択するか、リンクを選択**[!UICONTROL Audiences]** して、「」を選択しま **[!UICONTROL Adobe Experience Platform]**す。
+Adobe Experience Platformのセグメントビルダーにアクセスするには、Campaign Standardのホームページ（またはヘッダー内のリンク）のカ **[!UICONTROL Audiences]**ードに移動し、オプションを選択し**[!UICONTROL Audiences]****[!UICONTROL Adobe Experience Platform]**ます。
 
 ![](assets/aep_audiences_access.png)
 
-作成されたすべてのAdobe Experience Platformオーディエンスが表示されます。 目的のオーディエンスを見つけるのに役立つ検索バーとフィルターが用意されています。
+まず、Adobe Experience Platformのセグメントリストページが表示されます。このページでは、必要に応じて、既存のAdobe Experience Platformのセグメントにアクセスし、さらに編集できます。
+
+目的のAdobe Experience Platformセグメントを見つけるのに役立つ検索バーとフィルターが用意されています。
 
 ![](assets/aep_audiences_list.png)
 
-## オーディエンスの作成
+## Adobe Experience Platformオーディエンスの作成
 
-オーディエンスは、Adobe Experience Platformオーディエンスのリストから直接作成されます。 それには、次の手順に従います。
+Campaign StandardでAdobe Experience Platformオーディエンスを直接作成するには、次の手順に従います。
 
-1. オーディエンスのリストに移動し、ボタンをクリック **[!UICONTROL New audience]**します。
+1. Adobe Experience Platformのセグメントリストページで、右隅にあ **[!UICONTROL New audience]**るボタンをクリックします。
 
    ![](assets/aep_audiences_creation_create.png)
 
