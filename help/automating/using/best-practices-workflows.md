@@ -1,18 +1,18 @@
 ---
 title: ワークフローのベストプラクティス
 description: ワークフローに適用するベストプラクティスを説明します。
-page-status-flag: 非活性化の
+page-status-flag: never-activated
 uuid: ff02b74e-53e8-49c6-bf8e-0c729eaa7d25
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 自動化
-content-type: 参照
+audience: automating
+content-type: reference
 topic-tags: workflow-general-operation
-context-tags: ワークフロー，概要；ワークフロー，メイン
+context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: accc382ca1543d648e60d53cab338537fd9ea3ef
 
 ---
 
@@ -40,7 +40,7 @@ Adobe Campaignを使用すると、あらゆるタイプのワークフローを
 
 ## ワークフローの複製{#duplicating-workflows}
 
-ワークフローを複製できます。 で、ワークフ **[!UICONTROL Marketing Activities]**&#x200B;ローの上にカーソルを置いてをクリックしま **[!UICONTROL Duplicate element]**&#x200B;す。 複製後は、ワークフローの変更はワークフローのコピーに引き継がれません。 ワークフローのコピーを編集できます。
+ワークフローを複製できます。 で、ワークフ **[!UICONTROL Marketing Activities]**ローの上にカーソルを置いてをクリックしま**[!UICONTROL Duplicate element]**&#x200B;す。 複製後は、ワークフローの変更はワークフローのコピーに引き継がれません。 ワークフローのコピーを編集できます。
 
 ![](assets/duplicating_workflow.png)
 
@@ -66,13 +66,18 @@ Adobe Campaignを使用すると、あらゆるタイプのワークフローを
 
 詳しくは、「ワークフローの実行」を参 [照してください](../../automating/using//executing-a-workflow.md)。
 
+### タイムゾーン
+
+ワークフロープロパティを使用すると、すべてのアクティビティでデフォルトで使用される特定のタイムゾーンを定義できます。 デフォルトでは、ワークフローのタイムゾーンは現在のキャンペーン演算子に対して定義されています。
+
+
 ## アクティビティ{#activity}
 
 ### ワークフローデザイン
 
-ワークフローが正しく終了するようにするには、を使用しま **[!UICONTROL End activity]**&#x200B;す。 ワークフローの最後の移行をそのままにするのは避けてください。
+ワークフローが正しく終了するようにするには、を使用しま **[!UICONTROL End activity]**す。 ワークフローの最後の移行をそのままにするのは避けてください。
 
-遷移の詳細ビューにアクセスするには、ワークフロープロパティの「実 **[!UICONTROL Keep interim results]** 行」セクションにあるオプションをオンにします。
+遷移の詳細ビューにアクセスするには、ワークフロープロパティの「実 **[!UICONTROL Keep interim results]**行」セクションにあるオプションをオンにします。
 
 >[!CAUTION]
 >
@@ -91,9 +96,9 @@ Adobe Campaignを使用すると、あらゆるタイプのワークフローを
 
 ### スケジューラーアクティビティ{#acheduler-activity}
 
-When building your workflow, only use one **[!UICONTROL Scheduler activity]** per branch. ワークフローの同じ分岐に、相互にリンクされた複数のスケジューラーがある場合、実行タスクの数が指数関数的に増大するので、データベースに膨大な負荷がかかりかねません。
+When building your workflow, only use one **[!UICONTROL Scheduler activity]**per branch. ワークフローの同じ分岐に、相互にリンクされた複数のスケジューラーがある場合、実行タスクの数が指数関数的に増大するので、データベースに膨大な負荷がかかりかねません。
 
-次に10回実行するワークフローをプレビューするには、をクリックしま **[!UICONTROL Preview next executions]**&#x200B;す。
+次に10回実行するワークフローをプレビューするには、をクリックしま **[!UICONTROL Preview next executions]**す。
 
 ![](assets/preview_scheduler.png)
 
@@ -103,7 +108,7 @@ When building your workflow, only use one **[!UICONTROL Scheduler activity]** pe
 
 パラメーターの名前と数が、ワークフローの呼び出し時に定義されたものと同じであることを確認します(ワークフ [ローの呼び出し時のパラメーターの定義](../../automating/using/calling-a-workflow-with-external-parameters.md#defining-the-parameters-when-calling-the-workflow))。 パラメーターの型も、期待される値と一致している必要があります。
 
-内ですべてのパラメーターが宣言されていることを確認しま **[!UICONTROL External signal activity]**&#x200B;す。 それ以外の場合は、アクティビティの実行時にエラーが発生します。
+内ですべてのパラメーターが宣言されていることを確認しま **[!UICONTROL External signal activity]**す。 それ以外の場合は、アクティビティの実行時にエラーが発生します。
 
 詳しくは、「外部パラメーターを使用し [たワークフローの呼び出し」を参照してくださ](../../automating/using/calling-a-workflow-with-external-parameters.md)い。
 
@@ -114,8 +119,8 @@ When building your workflow, only use one **[!UICONTROL Scheduler activity]** pe
 
 ## リストの書き出し{#exporting-lists}
 
-書き出しリストオプションを使用すると、デフォルトで最大100,000行まで書き出すことができ、 **Nms_ExportListLimitオプションで定義できます**。 このオプションは、機能管理者が//で管理 **[!UICONTROL Administration]** でき **[!UICONTROL Application settings]** ます **[!UICONTROL Options]**。
-詳しくは、リストの書き出しを参 [照してください](../../automating/using/exporting-lists.md)。
+書き出しリストオプションを使用すると、デフォルトで最大100,000行まで書き出すことができ、 **Nms_ExportListLimitオプションで定義できます**。 このオプションは、機能管理者が//で管理 **[!UICONTROL Administration]**でき**[!UICONTROL Application settings]** ます **[!UICONTROL Options]**。
+詳しくは、リストの書き出しを参[照してください](../../automating/using/exporting-lists.md)。
 
 ## トラブルシューティング{#workflow-troubleshooting}
 
@@ -131,15 +136,15 @@ Adobe Campaignでは、ワークフローの問題をより深く理解するた
 
 SQLクエリは「ログ」タブで分析できます。
 
-1. ワークフローワークスペースで、をクリックしま **[!UICONTROL Edit properties]**&#x200B;す。
-1. /で、 **[!UICONTROL General]** とオ **[!UICONTROL Execution]**&#x200B;プションを **[!UICONTROL Save SQL queries in the log]** 確認し **[!UICONTROL Execute in the engine]** てをクリックしま **[!UICONTROL Confirm]**&#x200B;す。
+1. ワークフローワークスペースで、をクリックしま **[!UICONTROL Edit properties]**す。
+1. /で、 **[!UICONTROL General]**とオ**[!UICONTROL Execution]**&#x200B;プションを **[!UICONTROL Save SQL queries in the log]**確認し**[!UICONTROL Execute in the engine]** てをクリックしま **[!UICONTROL Confirm]**す。
 
 **SQLクエリをログに表示するには：**
-1. Click **[!UICONTROL Log and Tasks]**.
-1. タブで、 **[!UICONTROL Logs]** パネルを開き **[!UICONTROL Search]** ます。
-1. Check **[!UICONTROL Display SQL logs only]**.
+1. クリック **[!UICONTROL Log and Tasks]**.
+1. タブで、 **[!UICONTROL Logs]**パネルを開き**[!UICONTROL Search]** ます。
+1. 確認 **[!UICONTROL Display SQL logs only]**.
 
-クエリーがログの列に **[!UICONTROL Message]** 表示されます。
+クエリーがログの列に **[!UICONTROL Message]**表示されます。
 
 ### 配信ログの使用{#using-delivery-logs}
 
