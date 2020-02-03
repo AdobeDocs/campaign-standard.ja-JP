@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
+source-git-commit: 8515b336f52964eb716736d606de0d8440c7bc08
 
 ---
 
@@ -16,6 +16,7 @@ source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
 + リリースノート{#release-notes}
    + [最新リリース](rn/using/release-notes.md)
    + 以前のリリース {#previous-releases}
+      + [リリースノート 2019](rn/using/release-notes-2019.md)
       + [リリースノート 2018](rn/using/release-notes-2018.md)
       + [リリースノート 2017](rn/using/release-notes-2017.md)
 + はじめに{#getting-started}
@@ -61,17 +62,21 @@ source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
       + [Campaign のオプトインとオプトアウトについて](audiences/using/about-opt-in-and-opt-out-in-campaign.md)
       + [Campaign のオプトインとオプトアウトの管理](audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
       + [配信のオプトアウトプロファイルの識別](audiences/using/identifying-opt-out-profiles-for-a-delivery.md)
+   + Adobe Experience Platformの使用 {#working-with-adobe-experience-platform}
+      + [Audience Destinationsサービスについて](audiences/using/aep-about-audience-destinations-service.md)
+      + [Adobe Experience Platformオーディエンスの管理](audiences/using/aep-managing-audiences.md)
+      + [統合セグメントビルダーの使用](audiences/using/aep-using-segment-builder.md)
 + 通信チャネル{#communication-channels}
    + 通信チャネルについて{#about-communication-channels}
       + [通信チャネルの検出](channels/using/discovering-communication-channels.md)
       + [メッセージを送信するための主要な手順](channels/using/key-steps-to-send-a-message.md)
       + [メッセージへのアクセス](channels/using/accessing-messages.md)
       + [メッセージダッシュボード](channels/using/message-dashboard.md)
-   + 電子メールメッセージ{#email-messages}
-      + [電子メールについて](channels/using/about-emails.md)
-      + [電子メールの作成](channels/using/creating-an-email.md)
-      + [A/B テスト用電子メールのデザイン](channels/using/designing-an-a-b-test-email.md)
-      + [多言語電子メールの作成](channels/using/creating-a-multilingual-email.md)
+   + E メールメッセージ{#email-messages}
+      + [E メールについて](channels/using/about-emails.md)
+      + [E メールの作成](channels/using/creating-an-email.md)
+      + [A/B テスト用 E メールのデザイン](channels/using/designing-an-a-b-test-email.md)
+      + [多言語 E メールの作成](channels/using/creating-a-multilingual-email.md)
    + SMS メッセージ{#sms-messages}
       + [SMS メッセージについて](channels/using/about-sms-messages.md)
       + [SMS メッセージの作成](channels/using/creating-an-sms-message.md)
@@ -111,18 +116,18 @@ source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
       + [ランディングページフォームデータの管理](channels/using/managing-landing-page-form-data.md)
       + [ランディングページのテストと公開](channels/using/testing-publishing-landing-page.md)
       + [ダブルオプトインプロセスの設定](channels/using/setting-up-a-double-opt-in-process.md)
-+ 電子メールコンテンツのデザイン{#designing-content}
-   + [Campaign 電子メールデザイナー](designing/using/designing-content-in-adobe-campaign.md)
-   + [電子メールデザイナーの概要](designing/using/quick-start.md)
++ E メールコンテンツのデザイン{#designing-content}
+   + [Campaign E メールデザイナー](designing/using/designing-content-in-adobe-campaign.md)
+   + [E メールデザイナーの概要](designing/using/quick-start.md)
    + [件名行と送信者の定義](designing/using/subject-line.md)
-   + 電子メールコンテンツの作成{#building-email-content}
-      + [新規での電子メールのデザイン](designing/using/designing-from-scratch.md)
+   + E メールコンテンツの作成{#building-email-content}
+      + [新規での E メールのデザイン](designing/using/designing-from-scratch.md)
       + [既存のコンテンツの使用](designing/using/using-existing-content.md)
-      + [再利用可能なコンテンツの操作](designing/using/using-reusable-content.md)
-      + [複数ソリューション統合の使用](designing/using/using-integrations.md)
-      + [テキスト、HTML、モバイル電子メールの編集](designing/using/plain-text-html-modes.md)
-   + [電子メールコンテンツのパーソナライズ](designing/using/personalization.md)
-   + [電子メールスタイルの管理](designing/using/styles.md)
+      + [再利用可能なコンテンツの使用](designing/using/using-reusable-content.md)
+      + [マルチソリューション統合の使用](designing/using/using-integrations.md)
+      + [プレーンテキスト、HTML およびモバイル E メールの編集](designing/using/plain-text-html-modes.md)
+   + [E メールコンテンツのパーソナライズ](designing/using/personalization.md)
+   + [E メールスタイルの管理](designing/using/styles.md)
    + [リンクの管理](designing/using/links.md)
    + [画像の管理](designing/using/images.md)
 + テストと送信{#testing-and-sending}
@@ -131,7 +136,7 @@ source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
       + [メッセージのプレビュー](sending/using/previewing-messages.md)
       + [送信の準備](sending/using/preparing-the-send.md)
       + [テストプロファイルの管理と校正の送信](sending/using/managing-test-profiles-and-sending-proofs.md)
-      + [電子メールの件名行のテスト](sending/using/testing-subject-line-email.md)
+      + [E メールの件名行のテスト](sending/using/testing-subject-line-email.md)
       + [E メールのレンダリング](sending/using/email-rendering.md)
    + メッセージのスケジュール{#scheduling-messages}
       + [メッセージのスケジュールについて](sending/using/about-scheduling-messages.md)
@@ -149,8 +154,8 @@ source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
    + 配信品質の管理 {#managing-deliverability}
       + [配信品質について](sending/using/about-deliverability.md)
       + [新しいプラットフォームの開始](sending/using/starting-new-platform.md)
-      + [電子メールコンテンツの制御](sending/using/control-email-content.md)
-      + [評判の向上](sending/using/improving-reputation.md)
+      + [E メールコンテンツの制御](sending/using/control-email-content.md)
+      + [評価の向上](sending/using/improving-reputation.md)
       + [IP証明書](sending/using/ip-certification.md)
       + [技術的な推奨事項](sending/using/technical-recommendations.md)
       + [配信品質の監視](sending/using/monitor-deliverability.md)
@@ -178,6 +183,7 @@ source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
       + [購読解除](reporting/using/unsubscriptions.md)
       + [URL とクリックストリーム](reporting/using/urls-and-click-streams.md)
       + [ホットクリック](reporting/using/hot-clicks.md)
+      + [サービス概要](reporting/using/service-summary.md)
    + レポートのカスタマイズ{#customizing-reports}
       + [パネルの追加](reporting/using/adding-panels.md)
       + [ビジュアライゼーションの追加](reporting/using/adding-visualizations.md)
@@ -187,8 +193,8 @@ source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
 + Adobe Cloud との統合{#integrating-with-adobe-cloud}
    + [Campaign 統合について](integrating/using/about-campaign-integrations.md)
    + Campaign と Experience Manager の使用{#working-with-campaign-and-experience-manager}
-      + [CampaignとExperience Managerの統合について](integrating/using/integrating-with-experience-manager.md)
-      + [Adobe Experience Managerでの電子メールコンテンツの作成](integrating/using/creating-email-experience-manager.md)
+      + [Campaign-Experience Manager 統合について](integrating/using/integrating-with-experience-manager.md)
+      + [Adobe Experience Manager での E メールコンテンツの作成](integrating/using/creating-email-experience-manager.md)
       + [Experience Manager での Campaign フォームの作成](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
    + Campaign と Target の使用{#working-with-campaign-and-target}
       + [Campaign と Target の統合について](integrating/using/about-campaign-target-integration.md)
@@ -276,7 +282,7 @@ source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
       + [ログの書き出し](automating/using/exporting-logs.md)
       + [パッケージの管理](automating/using/managing-packages.md)
       + [リストの書き出し](automating/using/exporting-lists.md)
-      + [使用例：カスタムリソースの書き出し/読み込み](automating/using/exporting-importing-custom-resources.md)
+      + [使用例：カスタムリソースのエクスポート／インポート](automating/using/exporting-importing-custom-resources.md)
    + 使用例：ワークフロー{#workflow-use-case}
       + [補完を含む配信の作成](automating/using/workflow-created-query-with-complement.md)
       + [作成日に配信を作成する](automating/using/workflow-creation-date-query.md)
@@ -284,7 +290,10 @@ source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
       + [場所でのセグメントの作成](automating/using/workflow-segmentation-location.md)
       + [メールを開封していないユーザーの再ターゲティング](automating/using/workflow-cross-channel-retargeting.md)
       + [コントロール母集団の作成](automating/using/workflow-control-group.md)
-      + [クロスチャネル配信の作成](automating/using/workflow-cross-channel-delivery.md)
+      + [チャネル間配信の作成](automating/using/workflow-cross-channel-delivery.md)
+   + Adobe Experience Platformオーディエンスの操作{aepオーディエンスの操作}
+      + [Adobe Experience Platformオーディエンスのターゲット設定](automating/using/aep-targeting-audiences.md)
+      + [Adobe Experience Platform属性を使用したキャンペーンのパーソナライズ](automating/using/aep-personalizing-campaigns.md)
 + 開発中{#developing}
    + カスタムリソースについて{#about-custom-resources}
       + [データモデルの概念](developing/using/data-model-concepts.md)
@@ -308,6 +317,7 @@ source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
       + [新しいフィールドを使用したプロファイルリソースの拡張](developing/using/extending-the-profile-resource-with-a-new-field.md)
       + [アプリケーションリソースへの購読の拡張](developing/using/extending-the-subscriptions-to-an-application-resource.md)
    + データモデル{#datamodel}
+      + [はじめに](developing/using/datamodel-introduction.md)
       + [オーディエンス](developing/using/datamodel-audience.md)
       + [キャンペーン](developing/using/datamodel-campaign.md)
       + [配信](developing/using/datamodel-delivery.md)
@@ -333,7 +343,7 @@ source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
       + [ライセンス](administration/using/licenses.md)
    + チャネルの設定{#configuring-channels}
       + [チャネル設定について](administration/using/about-channel-configuration.md)
-      + [電子メールチャネルの設定](administration/using/configuring-email-channel.md)
+      + [E メールチャネルの設定](administration/using/configuring-email-channel.md)
       + [SMS チャネルの設定](administration/using/configuring-sms-channel.md)
       + [モバイルアプリケーションの設定](administration/using/configuring-a-mobile-application.md)
       + [トランザクションメッセージの設定](administration/using/configuring-transactional-messaging.md)
@@ -351,6 +361,12 @@ source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
       + [内部通知の送信](administration/using/sending-internal-notifications.md)
       + [データリテンション](administration/using/data-retention.md)
       + [更新とメンテナンスの操作](administration/using/updates-and-maintenance-operations.md)
+   + Adobe Experience Platform Data Connector {#mapping-campaign-and-aep-data}
+      + [Adobe Experience Platform Data Connectorについて](administration/using/aep-about-data-connector.md)
+      + [エクスペリエンスプラットフォームデータモデルの概要](administration/using/aep-data-model-overview.md)
+      + [マッピング定義](administration/using/aep-mapping-definition.md)
+      + [マッピングの有効化](administration/using/aep-mapping-activation.md)
+      + [APIを使用したデータ取り込みのトリガー](administration/using/aep-triggering-data-ingestion.md)
 + API の操作{#working-with-apis}
    + Campaign Standard API について{#about-campaign-standard-apis}
       + [概要](api/using/about-campaign-standard-apis.md)
@@ -382,17 +398,17 @@ source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
       + [プライバシーリクエストの作成](api/using/creating-a-privacy-request.md)
       + [プライバシーリクエストの監視](api/using/monitoring-a-privacy-request.md)
       + [プライバシーデータファイルの取得](api/using/retrieving-privacy-data-files.md)
-      + [CCPAオプトアウトの管理](api/using/managing-ccpa-opt-out.md)
+      + [CCPA オプトアウトの管理](api/using/managing-ccpa-opt-out.md)
    + [トランザクションメッセージの管理](api/using/managing-transactional-messages.md)
    + ワークフローの管理 {#managing-workflows}
       + [ワークフローの制御](api/using/controlling-a-workflow.md)
-      + [シグナルアクティビティのトリガ](api/using/triggering-a-signal-activity.md)
+      + [シグナルアクティビティのトリガー](api/using/triggering-a-signal-activity.md)
    + 組織単位の管理 {#managing-organizational-units}
       + [プロファイルの組織単位の取得](api/using/retrieving-an-organizational-unit.md)
       + [プロファイルの組織単位の更新](api/using/updating-profile-organizational-unit.md)
-      + [組織単位の属性の更新](api/using/updating-organizational-unit-attributes.md)
+      + [組織単位属性の更新](api/using/updating-organizational-unit-attributes.md)
    + 地理的単位の管理 {#managing-geographical-units}
       + [プロファイルの地理的単位の取得](api/using/retrieving-a-geographical-unit.md)
-      + [プロファイルの地理単位の更新](api/using/updating-a-geographical-unit.md)
+      + [プロファイルの地理的単位の更新](api/using/updating-a-geographical-unit.md)
       + [地理的単位属性の更新](api/using/updating-geographical-unit-attributes.md)
    + [トラブルシューティング](api/using/troubleshooting.md)
