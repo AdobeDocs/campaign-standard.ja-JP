@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 957290fc6524d4eb7c69c914f9817414655a25fd
+source-git-commit: c0c85af1d7eebc59cba784a03803d23bef354dd8
 
 ---
 
@@ -24,6 +24,36 @@ Adobe Campaign Standardドキュメントの最新の更新について説明し
 このページには、Adobe Campaign Standardの各リリースに関するすべての新機能とドキュメントの更新の一覧が記載されています。
 
 また、『Adobe Campaignリリースノート』を参照する [こともできます](../../rn/using/release-notes.md)。
+
+## リリース20.1 - 2019年2月 {#release-20-1---february-2020}
+
+### リリースに含まれる新機能
+
+Adobe Experience Platform Data Connector（ベータ版） — 詳 [細情報](../../administration/using/aep-about-data-connector.md)
+
+Audience Destinationsサービス（ベータ）との統合 — 詳 [細情報](../../audiences/using/aep-about-audience-destinations-service.md)
+
+トランザクションメッセージング用のキャンペーン強化MTA - [詳細情報](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)
+
+### リリースに伴うその他のドキュメントの更新
+
+プライバシー管理に関するドキュメントが更新され、カスタムプロファイルリソース用のCCPAオプトアウトフィールドの作成方法に関する情報が追加されました。 [詳細を表示](https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html)
+
+リリースノートは再編成され、改善されました。 [詳細を表示](../../rn/using/release-notes.md)
+
+Administratorsセキュリティグループに関連する情報が追加され、組織単位が割り当てら **[!UICONTROL All (all)]**れていて、変更できないことを指定しています。[詳細を表示](../../administration/using/managing-groups-and-users.md)
+
+ワークフローでデフォルトで使用する特定のタイムゾーンを定義する方法に関する情報が追加されました。 [詳細を表示](../../automating/using/building-a-workflow.md)
+
+新しい **_forcePagination=true** ()パラメーターに関する情報が『APIの操作』ガイドに追加され、大きなテーブルでページネーションを実行できるようになりました。 [詳細を表示](../../api/using/pagination.md)
+
+メッセージダッシュボードに表示できる警告について説明する新しいセクションを利用できます。 [詳細を表示](../../channels/using/message-dashboard.md#warnings)
+
+Adobe Campaign Enhanced MTAのドキュメントが利用できるようになりました。 [詳細情報](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)
+
+ランディングページとミラーページのプレビューをCampaignユーザーインターフェイスから表示するには、アプリケーションサーバーとミラーページサーバーのURLをセキュリティで保護する必要があることを示す注記が追加されました。 [詳細を表示](../../administration/using/branding.md#configuring-and-using-brands)
+
+[ログのエクスポート]セクションが更新され、[配信ログ]および[追跡ログ]リソースで配信ログIDが使用できるかどうかが反映されました。これにより、各ログの一意の識別子をエクスポートできます。 [詳細を表示](../../automating/using/exporting-logs.md)
 
 ## ドキュメントの更新 — 2020年1月 {#doc-updates-january-2020}
 
@@ -71,13 +101,13 @@ APIドキュメントセットは、Campaign Standardドキュメントに統合
 
 ## リリース19.4 - 2019年10月 {#release-19-4---october-2019}
 
-### リリースに含まれる新機能 {#new-capabilities-included-in-the-release-20}
+### リリースに含まれる新機能
 
 カリフォルニア消費者プライバシー法(CCPA) — 詳 [細情報](https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#ccpa)
 
 Microsoft Dynamics 365統合(GA) — 詳細情報を [表示](https://helpx.adobe.com/campaign/kb/acs-ms-dynamics.html)
 
-### リリースに伴うその他のドキュメントの更新 {#other-documentation-updates-coming-with-the-release-18}
+### リリースに伴うその他のドキュメントの更新
 
 Campaign StandardおよびCampaign Classicのエラーメッセージのリストが更新されました。 [詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
@@ -129,13 +159,13 @@ Adobe Experience Platform SDKを使用したモバ **イルアプリケーショ
 
 ## リリース19.3 - 2019年7月 {#release-19-3---july-2019}
 
-### リリースに含まれる新機能 {#new-capabilities-included-in-the-release-19}
+### リリースに含まれる新機能
 
 外部APIアクティビティ（パブリックベータ版） — 詳 [細情報](../../automating/using/external-api.md)
 
 ワークフローセグメントに関するレポート — [詳細情報](../../reporting/using/creating-a-report-workflow-segment.md)
 
-### リリースに伴うその他のドキュメントの更新 {#other-documentation-updates-coming-with-the-release-17}
+### リリースに伴うその他のドキュメントの更新
 
 『Campaign Standard導入ガイド』が公開されました。[詳細を表示](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html)
 
@@ -181,7 +211,7 @@ Campaign StandardおよびClassicのエラーメッセージのリストが更�
 
 ## リリース19.2 - 2019年5月 {#release-19-2---may-2019}
 
-### リリースに含まれる新機能 {#new-capabilities-included-in-the-release}
+### リリースに含まれる新機能
 
 コントロールパネル — 詳 [細情報](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
 
@@ -191,7 +221,7 @@ Campaign StandardおよびClassicのエラーメッセージのリストが更�
 
 ランディングページの機能強化 — Google reCAPTCHA — 詳 [細情報](../../channels/using/configuring-landing-page.md#setting-google-recaptcha)
 
-### リリースに伴うその他のドキュメントの更新 {#other-documentation-updates-coming-with-the-release}
+### リリースに伴うその他のドキュメントの更新
 
 ドメイン名委任記事が更新されました。 [詳細を表示](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html)
 
@@ -249,7 +279,7 @@ Dreamweaverの統合セクションが更新され、改善されました。 [�
 
 ## リリース19.1 - 2019年2月 {#release-19-1---february-2019}
 
-### リリースに含まれる新機能 {#new-capabilities-included-in-the-release-1}
+### リリースに含まれる新機能
 
 プッシュチャネルレポートの機能強化 — [詳細情報](../../reporting/using/push-notification-report.md)
 
@@ -259,7 +289,7 @@ Dreamweaverの統合セクションが更新され、改善されました。 [�
 
 ワークフローの強化 — 詳 [細はこちら](../../automating/using/workflow-interface.md#duplicating-workflow-activities)[、ここ](../../automating/using/load-file.md#configuration)
 
-### リリースに伴うその他のドキュメントの更新 {#other-documentation-updates-coming-with-the-release-1}
+### リリースに伴うその他のドキュメントの更新
 
 電子メールコンテンツを作成する新しいオンボーディングエクスペリエンスと、電子メールデザイナーに対するその他の機能強化が、電子メールコンテンツの編集の章に追加されました。 [詳細を表示](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-home-page)
 
@@ -305,7 +335,7 @@ Adobe Campaignから直接利用できるコンテキストヘルプリンクの
 
 ## リリース19.0 - 2019年1月 {#release-19-0---january-2019}
 
-### リリースに含まれる新機能 {#new-capabilities-included-in-the-release-2}
+### リリースに含まれる新機能
 
 電子メールデザイナの一般リリース — [詳細情報](../../designing/using/designing-content-in-adobe-campaign.md)
 
@@ -315,7 +345,7 @@ Adobe Campaignから直接利用できるコンテキストヘルプリンクの
 
 アプリ内メッセージベータ版の改善 — 詳 [細情報](../../channels/using/about-in-app-messaging.md)
 
-### リリースに伴うその他のドキュメントの更新 {#other-documentation-updates-coming-with-the-release-2}
+### リリースに伴うその他のドキュメントの更新
 
 『Designing Content』ガイドが更新され、Email Designerの一般リリースと、非推奨の従来のEメールコンテンツエディターが反映されました。 [詳細を表示](../../designing/using/designing-content-in-adobe-campaign.md)
 
@@ -345,13 +375,13 @@ Microsoft Edge（最新バージョン）が、コンピューター用の互換
 
 ## リリース18.9 - 2018年9月 {#release-18-9---september-2018}
 
-### リリースに含まれる新機能 {#new-capabilities-included-in-the-release-3}
+### リリースに含まれる新機能
 
 アプリ内メッセージ（ベータ） — 詳 [細情報](../../channels/using/about-in-app-messaging.md)
 
 モバイルアプリ（ベータ版）用Adobe Launch統合 — 詳 [細情報](../../administration/using/about-typology-rules.md#typology-rules)
 
-### リリースに伴うその他のドキュメントの更新 {#other-documentation-updates-coming-with-the-release-3}
+### リリースに伴うその他のドキュメントの更新
 
 プッシュ通知ガイドが更新され、インターフェイスの変更が反映されました。 [詳細を表示](../../channels/using/about-push-notifications.md)
 
@@ -361,13 +391,13 @@ Microsoft Edge（最新バージョン）が、コンピューター用の互換
 
 ## リリース18.7 - 2018年7月 {#release-18-7---july-2018}
 
-### リリースに含まれる新機能 {#new-capabilities-included-in-the-release-4}
+### リリースに含まれる新機能
 
 [モバイルアプリの購読者用の](../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android) 、優 [先度の高いフラグ](../../administration/using/about-typology-rules.md#typology-rules) とタイポロジフィルター。
 
 準備時にURLからのコンテンツのインポートを自動化。 [詳細を表示](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time)
 
-### リリースに伴うその他のドキュメントの更新 {#other-documentation-updates-coming-with-the-release-4}
+### リリースに伴うその他のドキュメントの更新
 
 SMSコネクタのプロトコルと設定に関する新しいテクノテートが追加されました。 [詳細を表示](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html)
 
@@ -385,11 +415,11 @@ Creative Designerに完全に準拠するためのHTML属性のリストをこ�
 
 ## リリース18.6 - 2018年6月 {#release-18-6---june-2018}
 
-### リリースに含まれる新機能 {#new-capabilities-included-in-the-release-5}
+### リリースに含まれる新機能
 
 APIドキュメントが更新され、履歴 **APIに関する情報が追加されました** 。 プロファイルに送信された配信のミラーページを取得する方法に関する使用例が追加されました。 [詳細を表示](../../api/using/interacting-with-marketing-history.md)
 
-### リリースに伴うその他のドキュメントの更新 {#other-documentation-updates-coming-with-the-release-5}
+### リリースに伴うその他のドキュメントの更新
 
 トリガー — キャンペーンの統合に関するドキュメントが更新され、再構成されました。 [詳細を表示](../../integrating/using/about-adobe-experience-cloud-triggers.md)
 
@@ -405,7 +435,7 @@ APIドキュメントが更新され、履歴 **APIに関する情報が追加�
 
 ## リリース18.5 - 2018年5月 {#release-18-5---may-2018}
 
-### リリースに含まれる新機能 {#new-capabilities-included-in-the-release-6}
+### リリースに含まれる新機能
 
 GDPR:コアサービスの統合 — 詳 [細情報](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html)
 
@@ -415,7 +445,7 @@ GDPR:コアサービスの統合 — 詳 [細情報](https://docs.campaign.adobe
 
 カスタムプロファイルデータを使用した動的レポート — [詳細情報](../../channels/using/creating-a-multilingual-push-notification.md)
 
-### リリースに伴うその他のドキュメントの更新 {#other-documentation-updates-coming-with-the-release-6}
+### リリースに伴うその他のドキュメントの更新
 
 Analyticsで見つかったキャンペーン指標のリストを追加しました。 [詳細を表示](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
 
@@ -439,7 +469,7 @@ Triggersとの統合でサポートされるAnalytics SKUのリストが更新�
 
 ## リリース18.3 - 2018年3月 {#release-18-3---march-2018}
 
-### リリースに含まれる新機能 {#new-capabilities-included-in-the-release-7}
+### リリースに含まれる新機能
 
 EU GDPR(General Data Protection Regulation) — 詳細を [読む](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html)
 
@@ -449,7 +479,7 @@ EU GDPR(General Data Protection Regulation) — 詳細を [読む](https://docs.
 
 トランザクションメッセージングでのカスタムリソースの使用 — 詳 [細情報](../../administration/using/configuring-transactional-messaging.md)
 
-### リリースに伴うその他のドキュメントの更新 {#other-documentation-updates-coming-with-the-release-7}
+### リリースに伴うその他のドキュメントの更新
 
 GDPR APIは、GDPRリクエストの自動処理を可能にする機能を再グループ化します。 [詳細を表示](../../api/using/creating-a-privacy-request.md)
 
@@ -471,13 +501,13 @@ Campaign Standardの製品内コンテキストヘルプを更新しました。
 
 ## リリース18.2 - 2018年2月 {#release-18-2---february-2018}
 
-### リリースに含まれる新機能 {#new-capabilities-included-in-the-release-8}
+### リリースに含まれる新機能
 
 購読 — 複数のサービスのプロファイルのリストを購読または購読解除 — 詳 [細情報](../../automating/using/subscription-services.md)
 
 エンリッチメントアクティビティ — 以前の移行に基づくデータの拡充 — [詳細情報](../../automating/using/enrichment.md)
 
-### リリースに伴うその他のドキュメントの更新 {#other-documentation-updates-coming-with-the-release-8}
+### リリースに伴うその他のドキュメントの更新
 
 CampaignとAdobeソリューションの統合のほとんどのURLが変更されました。 ブックマークを確認します。 [詳細を表示](../../integrating/using/about-campaign-integrations.md)
 
@@ -485,7 +515,7 @@ CampaignとAdobeソリューションの統合のほとんどのURLが変更さ�
 
 配信でのメッセージの準備方法に関する情報を追加しました。詳 [細情報](../../sending/using/preparing-the-send.md)
 
-リリースノートは2ページに編成し直され、すべてのリリースをよりグローバルに表示できるようになりました。最新のリリ [ースノート](../../rn/using/release-notes.md) および [以前のリリースノート](../../rn/using/release-notes-2015-2016.md)
+リリースノートは、すべての異なるリリースをよりグローバルに表示できるように、いくつかのページに整理されました。
 
 セクシ **[!UICONTROL Working with typologies]**ョンが更新され、視認性が向上しました。[詳細を表示](../../administration/using/about-typology-rules.md)
 
@@ -515,7 +545,7 @@ SMS自動応答の使用方法に関する使用例を追加しました。 [詳
 
 ## リリース18.1 - 2018年1月 {#release-18-1---january-2018}
 
-### リリースに含まれる新機能 {#new-capabilities-included-in-the-release-9}
+### リリースに含まれる新機能
 
 疲労管理のレポート — 詳 [細情報](../../administration/using/fatigue-rules.md#viewing-the-fatigue-rule-summary-report)
 
@@ -527,7 +557,7 @@ SMS自動応答の使用方法に関する使用例を追加しました。 [詳
 
 APIシグナルアクティビティのトリガー — [詳細情報](../../api/using/triggering-a-signal-activity.md)
 
-### リリースに伴うその他のドキュメントの更新 {#other-documentation-updates-coming-with-the-release-9}
+### リリースに伴うその他のドキュメントの更新
 
 サービス作成セクションを更新しました。 [詳細を表示](../../audiences/using/creating-a-service.md)
 
@@ -543,13 +573,13 @@ Audience ManagerまたはPeopleコアサービスとの統合を設定する手�
 
 ## リリース17.10 - 2017年10月 {#release-17-10---october-2017}
 
-### リリースに含まれる新機能 {#new-capabilities-included-in-the-release-10}
+### リリースに含まれる新機能
 
 疲労管理 — 詳 [細](../../administration/using/fatigue-rules.md)
 
 コンテンツの作成：URLからのインポート — 詳 [細情報](../../designing/using/using-existing-content.md#importing-content-from-a-url)
 
-### リリースに伴うその他のドキュメントの更新 {#other-documentation-updates-coming-with-the-release-10}
+### リリースに伴うその他のドキュメントの更新
 
 更新されたA/Bテストサンプル。 [詳細を表示](../../channels/using/designing-an-a-b-test-email.md)
 
@@ -583,7 +613,7 @@ APIの単純なフィルターと複数のフィルターに関する情報を�
 
 ## リリース17.9 - 2017年9月 {#release-17-9---september-2017}
 
-### リリースに含まれる新機能 {#new-capabilities-included-in-the-release-11}
+### リリースに含まれる新機能
 
 電子メールのライブラリテンプレート — [詳細情報](../../designing/using/using-reusable-content.md#content-templates)
 
@@ -591,7 +621,7 @@ APIの単純なフィルターと複数のフィルターに関する情報を�
 
 一括購読の機能強化 — 詳 [細情報](../../automating/using/subscription-services.md)
 
-### リリースに伴うその他のドキュメントの更新 {#other-documentation-updates-coming-with-the-release-11}
+### リリースに伴うその他のドキュメントの更新
 
 動的レポートで使用可能な各コンポーネントと、式の一部の変更点の詳細リストです。 [詳細を表示](../../reporting/using/list-of-components-.md)
 
@@ -623,7 +653,7 @@ ACS IDに追加されたドキュメント。 [詳細を表示](../../developing
 
 ## リリース17.7 - 2017年7月 {#release-17-7---july-2017}
 
-### リリースに含まれる新機能 {#new-capabilities-included-in-the-release-12}
+### リリースに含まれる新機能
 
 多言語配信（電子メール&amp;SMS） — 詳 [細情報](../../channels/using/creating-a-multilingual-email.md)
 
@@ -637,7 +667,7 @@ Adobe Campaign通知 — 詳 [細](../../administration/using/sending-internal-n
 
 ダイレクトメールチャネル — 送信者に戻る、詳 [細情報](../../channels/using/return-to-sender.md)
 
-### リリースに伴うその他のドキュメントの更新 {#other-documentation-updates-coming-with-the-release-12}
+### リリースに伴うその他のドキュメントの更新
 
 はじ [めにガイド](../../start/using/step-by-step-guides.md) とハウツ [ービデオは](../../start/using/how-to-videos.md) 、専用のセクションに再グループ化されました。
 
@@ -655,13 +685,13 @@ Adobe Campaign通知 — 詳 [細](../../administration/using/sending-internal-n
 
 ## リリース17.5 - 2017年5月 {#release-17-5---may-2017}
 
-### リリースに含まれる新機能 {#new-capabilities-included-in-the-release-13}
+### リリースに含まれる新機能
 
 ダイレクトメール — [詳細情報](../../channels/using/about-direct-mail.md)
 
 電子メールBCC — 詳 [細情報](../../administration/using/configuring-email-channel.md#archiving-emails)
 
-### リリースに伴うその他のドキュメントの更新 {#other-documentation-updates-coming-with-the-release-13}
+### リリースに伴うその他のドキュメントの更新
 
 「配信」ガイドが再編成され、「チャネル」に名前が変更されました。 [詳細を表示](../../channels/using/discovering-communication-channels.md)
 
@@ -677,7 +707,7 @@ Adobe Campaignから直接利用できるコンテキストヘルプリンクの
 
 ## リリース17.4 - 2017年4月 {#release-17-4---april-2017}
 
-### リリースに含まれる新機能 {#new-capabilities-included-in-the-release-14}
+### リリースに含まれる新機能
 
 Creative SDKによる拡張されたImage Edition機能 — 詳 [細情報](../../designing/using/images.md#modifying-images-with-the-adobe-creative-sdk)
 
@@ -689,7 +719,7 @@ Amazon Simple Storage Service(S3)コネクタ — 詳細情報をご [覧くだ�
 
 Dreamweaverとの統合をライブにする — 詳 [細情報](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html)
 
-### リリースに伴うその他のドキュメントの更新 {#other-documentation-updates-coming-with-the-release-14}
+### リリースに伴うその他のドキュメントの更新
 
 様々なタイプのAdobe Campaignユーザーに関する節を追加しました。 [詳細を表示](../../administration/using/users-management.md)
 
@@ -707,7 +737,7 @@ Adobe Analytics for Mobile（目標地点）との統合が更新され、設定
 
 ## リリース17.2 - 2017年3月 {#release-17-2---march-2017}
 
-### リリースに含まれる新機能 {#new-capabilities-included-in-the-release-15}
+### リリースに含まれる新機能
 
 動的レポート — 詳 [細情報](../../reporting/using/about-dynamic-reports.md)
 
@@ -725,7 +755,7 @@ Dreamweaverの統合（ラボ） — 詳 [細情報](https://docs.adobe.com/cont
 
 REST APIのリンクされたリソース — 詳 [細情報](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension)
 
-### リリースに伴うその他のドキュメントの更新 {#other-documentation-updates-coming-with-the-release-15}
+### リリースに伴うその他のドキュメントの更新
 
 トリガー統合：2つの使用例が追加されました。 [詳細を表示](../../integrating/using/abandonment-triggers-use-cases.md)
 
@@ -735,7 +765,7 @@ REST APIのリンクされたリソース — 詳 [細情報](../../developing/u
 
 ## リリース17.1 - 2017年1月 {#release-17-1---january-2017}
 
-### リリースに含まれる新機能 {#new-capabilities-included-in-the-release-16}
+### リリースに含まれる新機能
 
 外部レポート用のログエクスポート — 詳 [細情報](../../automating/using/exporting-logs.md)
 
@@ -743,7 +773,7 @@ REST APIのリンクされたリソース — 詳 [細情報](../../developing/u
 
 トランザクションメッセージのマーケティング機能 — [詳細情報](../../channels/using/profile-transactional-messages.md)
 
-### リリースに伴うその他のドキュメントの更新 {#other-documentation-updates-coming-with-the-release-16}
+### リリースに伴うその他のドキュメントの更新
 
 増分クエリワークフローアクティビティ：新しいインクリメンタルモード — [詳細情報](../../automating/using/incremental-query.md)
 
@@ -755,58 +785,3 @@ URLの変更：Peopleコアサービス — [詳細情報](../../integrating/usi
 
 プロファイルとオーディエンスガイドが再編成されました。 [詳細を表示](../../audiences/using/about-profiles-and-audiences.md)
 
-## リリース16.11 - 2016年11月 {#release-16-11---november-2016}
-
-### リリースに伴うドキュメントの更新 {#documentation-updates-coming-with-the-release}
-
-新しいドキュメントホームページと新しいルック＆フィール.
-
-ユーザー権限について：使用例が追加されました。 また、ユーザー権限マ [トリックスも参照します](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)。
-
-APIの操作：api拡張 [の使用例が追加されました](../../developing/using/about-extending-the-api.md) 。 また、 [APIドキュメントも参照してくださ](../../api/using/about-campaign-standard-apis.md)い。
-
-キャンペーンエラーメッセージ：バージョンと言語でフィルターされた、Campaign v6とStandardの両方のエラーメッセージの完全なリストにアクセスします。 [詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
-
-マルチブランディングの使用例 — 詳 [細情報](../../administration/using/branding.md)
-
-電子メール送信パラメーターとSMTPに関する情報が追加されました。 [詳細を表示](../../administration/using/configuring-email-channel.md#email-channel-parameters)
-
-新しい件名行データのインポートインターフェイス — [詳細情報](../../designing/using/subject-line.md#predictive-subject-line)
-
-ワークフローでのプッシュ通知配信の作成 — 詳 [細情報](../../automating/using/push-notification-delivery.md)
-
-『統合ガイド』の互換表が更新されました。 [詳細を表示](../../integrating/using/about-campaign-integrations.md)
-
-新しい役割が「ユーザーとセキュリティ」セクションに追加されました。 [詳細を表示](../../administration/using/list-of-roles.md)
-
-プッシュ通知テンプレート — [詳細情報](../../channels/using/preparing-and-sending-a-push-notification.md)
-
-SMS配信セクションは、インターフェイスの変更を反映するように更新されました。 [詳細を表示](../../channels/using/creating-an-sms-message.md)
-
-プッシュ通知配信がタイムラインに追加されました。 [詳細を表示](../../start/using/timeline.md)
-
-## リリース16.10 - 2016年10月 {#release-16-10---october-2016}
-
-### リリースに含まれる新機能 {#new-capabilities-included-in-the-release-17}
-
-電子メールの予測件名行 — 詳 [細情報](../../designing/using/subject-line.md#predictive-subject-line)
-
-SMSトランザクションメッセージング — [詳細情報](../../administration/using/configuring-transactional-messaging.md#creating-an-event)
-
-トランザクションメッセージのフォローアップメッセージ — [詳細情報](../../channels/using/follow-up-messages.md)
-
-Extended Profile &amp; Services API — 詳 [細](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension)
-
-## リリース16.9 - 2016年9月 {#release-16-9---september-2016}
-
-### リリースに含まれる新機能 {#new-capabilities-included-in-the-release-18}
-
-Marketing Cloud Triggers — 詳 [細](../../integrating/using/about-adobe-experience-cloud-triggers.md)
-
-トランザクションメッセージ：一時停止/非公開 — 詳 [細情報](../../channels/using/event-transactional-messages.md#unpublishing-a-transactional-message)
-
-マルチブランド — [詳細](../../administration/using/branding.md)
-
-レスポンシブ電子メールデザインのプレビュー — [詳細情報](../../sending/using/previewing-messages.md)
-
-プッシュ通知 — 詳 [細情報](../../channels/using/about-push-notifications.md)
