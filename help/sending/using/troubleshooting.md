@@ -13,7 +13,7 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
+source-git-commit: 33d4704d664a809073790e47ab6bb84e9c2b07d5
 
 ---
 
@@ -33,9 +33,9 @@ source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
 
 **ブラックリストに登録された E メールアドレスと強制隔離 E メールアドレスの違いについて教えてください。**
 
-The status **[!UICONTROL Blacklisted]** is a result of a feedback loop (when a person reports a message as spam).
+The status **[!UICONTROL Blacklisted]**is a result of a feedback loop (when a person reports a message as spam).
 
-The status **[!UICONTROL Quarantined]** is a result of a soft or hard bounce.
+The status **[!UICONTROL Quarantined]**is a result of a soft or hard bounce.
 
 **様々な強制隔離エラーの原因は何を意味しますか。**
 
@@ -46,7 +46,7 @@ The status **[!UICONTROL Quarantined]** is a result of a soft or hard bounce.
 **受信者の 1 人が誤ってブラックリストに登録されました。メッセージの送信を再開できるように、ブラックリスト登録を解除するにはどうすればよいですか。**
 
 * 移動 **[!UICONTROL Administration > Channels > Quarantines > Addresses]**.
-* In the details of the corresponding record, set the value of the **[!UICONTROL Status]** field to **[!UICONTROL Valid]**.
+* In the details of the corresponding record, set the value of the **[!UICONTROL Status]**field to**[!UICONTROL Valid]**.
 * レコードを保存します。
 
 **IP のいずれかがブラックリストに登録されているかどうかを確認するにはどうすればよいですか。IP のブラックリスト登録を解除するにはどうすればよいですか。**
@@ -54,7 +54,7 @@ The status **[!UICONTROL Quarantined]** is a result of a soft or hard bounce.
 IP アドレスがブラックリストに登録されているかどうかを確認するには、以下のような様々な Web サイトを使用して検証できます。
 * https://mxtoolbox.com/
 * https://whatismyipaddress.com/blacklist-check
-* http://www.blacklistalert.org/
+* https://www.blacklistalert.org/
 
 一般に、IPアドレスのチェックの結果は、ブラックリストの詳細と、そのIPアドレスをブラックリストに記載したWebサイトの名前を含むリストを返します。
 
