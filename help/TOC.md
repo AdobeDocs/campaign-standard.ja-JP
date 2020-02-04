@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 8515b336f52964eb716736d606de0d8440c7bc08
+source-git-commit: 2acc79812b692024af590927fd9b5f019af20c52
 
 ---
 
@@ -72,6 +72,7 @@ source-git-commit: 8515b336f52964eb716736d606de0d8440c7bc08
       + [メッセージを送信するための主要な手順](channels/using/key-steps-to-send-a-message.md)
       + [メッセージへのアクセス](channels/using/accessing-messages.md)
       + [メッセージダッシュボード](channels/using/message-dashboard.md)
+      + [多言語メッセージテンプレート](channels/using/multilingual-messages-template.md)
    + E メールメッセージ{#email-messages}
       + [E メールについて](channels/using/about-emails.md)
       + [E メールの作成](channels/using/creating-an-email.md)
