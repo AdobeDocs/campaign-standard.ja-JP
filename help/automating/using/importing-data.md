@@ -12,7 +12,7 @@ discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
+source-git-commit: ff3b41589f47e7697a69bb68824aefd4d9036793
 
 ---
 
@@ -23,10 +23,10 @@ source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ファイルからデータを収集して処理したり、Adobe Campaignデータベースにインポートしたりできます。
 
-* アクティビティ **[!UICONTROL Load file]** を使用すると、1つの構造化されたフォームにデータをインポートして、Adobe Campaignでこのデータを使用できます。 データが一時的にインポートされ、Adobe Campaignデータベースに統合するには、別のアクティビティが必要です。
-* このア **[!UICONTROL Transfer file]** クティビティでは、ファイルの受信や送信、Adobe Campaign内のファイルの有無のテスト、ファイルのリスト表示を行うことができます。
+* アクティビティ **[!UICONTROL Load file]**を使用すると、1つの構造化されたフォームにデータをインポートして、Adobe Campaignでこのデータを使用できます。 データが一時的にインポートされ、Adobe Campaignデータベースに統合するには、別のアクティビティが必要です。
+* このア **[!UICONTROL Transfer file]**クティビティでは、ファイルの受信や送信、Adobe Campaign内のファイルの有無のテスト、ファイルのリスト表示を行うことができます。
 
-   外部ソースからファイルを取得する必要が **[!UICONTROL Load file]** ある場合に備えて、このアクティビティを外部ソースの前に使用できます。
+   外部ソースからファイルを取得する必要が **[!UICONTROL Load file]**ある場合に備えて、このアクティビティを外部ソースの前に使用できます。
 
 ## ベストプラクティスのインポート {#import-best-practices}
 
@@ -34,11 +34,11 @@ source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ### インポートテンプレートの使用 {#using-import-templates}
 
-Most import workflows should contain the following activities: **[!UICONTROL Load file]**, **[!UICONTROL Reconciliation]**, **[!UICONTROL Segmentation]**, **[!UICONTROL Deduplication]**, **[!UICONTROL Update data]**.
+Most import workflows should contain the following activities: **[!UICONTROL Load file]**,**[!UICONTROL Reconciliation]**, **[!UICONTROL Segmentation]**,**[!UICONTROL Deduplication]**, **[!UICONTROL Update data]**.
 
 インポートテンプレートを使用すると、同様のインポートを準備したり、データベース内のデータの一貫性を確保したりするのに非常に便利です。
 
-In many projects, imports are built without **[!UICONTROL Deduplication]** activity because the files used in the project do not have duplicates. 複数のファイルをインポートすると、重複が発生する場合があります。そうなると、重複排除は困難になります。そのため、すべてのインポートワークフローで重複排除ステップを設けることは、優れた予防措置となります。
+In many projects, imports are built without **[!UICONTROL Deduplication]**activity because the files used in the project do not have duplicates. 複数のファイルをインポートすると、重複が発生する場合があります。そうなると、重複排除は困難になります。そのため、すべてのインポートワークフローで重複排除ステップを設けることは、優れた予防措置となります。
 
 受信データは一貫性があり正しいとか、IT 部門や Adobe Campaign スーパーバイザーが対処するとは思わないでください。プロジェクトの間、データクレンジングに留意してください。データをインポートする際には、重複排除し、紐付けし、一貫性を維持します。
 
@@ -71,7 +71,7 @@ Durance;Allison;15/12/1978;allison.durance@example.com;120987
 
 ### 圧縮の使用 {#using-compression}
 
-可能であれば、インポートおよびエクスポートに zip 形式のファイルを使用します。GZIPはデフォルトでサポートされています。 ファイルの読み込み時に前処理を追加したり、データ抽出時に後処理を追加したりできます。これらの処理は、それぞれワークフ **[!UICONTROL Load file]** ローアクティビティ **[!UICONTROL Extract file]** で行います。
+可能であれば、インポートおよびエクスポートに zip 形式のファイルを使用します。GZIPはデフォルトでサポートされています。 ファイルの読み込み時に前処理を追加したり、データ抽出時に後処理を追加したりできます。これらの処理は、それぞれワークフ **[!UICONTROL Load file]**ローアクティビティ**[!UICONTROL Extract file]** で行います。
 
 ### 差分モードでのインポート {#importing-in-delta-mode}
 
@@ -105,7 +105,7 @@ Adobe Campaign データベースのデータの一貫性を維持するには�
    <path-to_pgp_if-not_global_or_server/>pgp.exe --decrypt --input nl6/var/vp/import/filename.pgp --passphrase "your password" --recipient recipient @email.com --verbose --output nl6/var/vp/import/filename
    ```
 
-要求が処理されると、およびアクティビティのフィールドで暗号化/復号化 **!UICONTROL Pre-processing stage]** コマンドを使用で **[!UICONTROL Data loading (file)]** きるようにな **[!UICONTROL Extracting data (file)]** ります。 読み込みまたは書き出しを行うファイルは、これらのファイルを使用して復号化または暗号化できます。
+要求が処理されると、およびアクティビティのフィールドで暗号化/復号化 **!UICONTROL Pre-processing stage]** コマンドを使用で **[!UICONTROL Data loading (file)]**きるようにな**[!UICONTROL Extracting data (file)]** ります。 読み込みまたは書き出しを行うファイルは、これらのファイルを使用して復号化または暗号化できます。
 
 ![](assets/preprocessing-encryption.png)
 
@@ -122,7 +122,7 @@ Adobe Campaign データベースのデータの一貫性を維持するには�
 
       >[!NOTE]
       >
-      >1つのファイルからのみデータをインポートできます。 ワークフローに複数のアクティビティ **[!UICONTROL Load file]** が含まれる場合は、毎回同じファイルが使用されます。
+      >1つのファイルからのみデータをインポートできます。 ワークフローに複数のアクティビティ **[!UICONTROL Load file]**が含まれる場合は、毎回同じファイルが使用されます。
 
    * **[!UICONTROL Reconciliation]**:インポートしたデータをデータベースデータと調整します。
    * **[!UICONTROL Segmentation]**:レコードを調整できるかどうかに応じて、レコードを処理するフィルターを作成します。
@@ -130,7 +130,7 @@ Adobe Campaign データベースのデータの一貫性を維持するには�
    * **[!UICONTROL Update data]**:インポートしたプロファイルでデータベースを更新します。
    ![](assets/import_template_example0.png)
 
-1. Configure the **[!UICONTROL Load file]** activity:
+1. アクティビティの **[!UICONTROL Load file]**設定：
 
    * サンプルファイルをアップロードすることで、求められる構造を定義します。サンプルファイルには、インポートに必要なすべての列と、いくつかの行のみが含まれている必要があります。ファイルフォーマットをチェックおよび編集して、各列のタイプが正しく設定されていることを確認します（テキスト、日付、整数など）。次に例を示します。
 
@@ -139,29 +139,29 @@ Adobe Campaign データベースのデータの一貫性を維持するには�
       Smith;Hayden;23/05/1989;hayden.smith@mailtest.com;123456
       ```
 
-   * セクション **[!UICONTROL File to load]** で、フィールド **[!UICONTROL Upload a new file from the local machine]** を選択し、空白のままにします。 このテンプレートから新しいワークフローを作成するたびに、ここで、定義された構造に対応するファイルを指定できます。
+   * セクション **[!UICONTROL File to load]**で、フィールド**[!UICONTROL Upload a new file from the local machine]** を選択し、空白のままにします。 このテンプレートから新しいワークフローを作成するたびに、ここで、定義された構造に対応するファイルを指定できます。
 
-      任意のオプションを使用できますが、それに応じてテンプレートを修正する必要があります。For example, if you select **[!UICONTROL Use the file specified in the inbound transition]**, you can add a **[!UICONTROL Transfer file]** activity before to retrieve the file to import from a FTP/SFTP server.
+      任意のオプションを使用できますが、それに応じてテンプレートを修正する必要があります。For example, if you select **[!UICONTROL Use the file specified in the inbound transition]**, you can add a**[!UICONTROL Transfer file]** activity before to retrieve the file to import from a FTP/SFTP server.
 
-      読み込み中に発生したエラーを含むファイルをユーザーがダウンロードできるようにするには、このオプションをオン **[!UICONTROL Keep the rejects in a file]** にして、を指定しま **[!UICONTROL File name]**&#x200B;す。
+      読み込み中に発生したエラーを含むファイルをユーザーがダウンロードできるようにするには、このオプションをオン **[!UICONTROL Keep the rejects in a file]**にして、を指定しま**[!UICONTROL File name]**&#x200B;す。
 
       ![](assets/import_template_example1.png)
 
-1. Configure the **[!UICONTROL Reconciliation]** activity. ここでのこのアクティビティの目的は、受信データを識別することです。
+1. アクティビティを設 **[!UICONTROL Reconciliation]**定します。 ここでのこのアクティビティの目的は、受信データを識別することです。
 
-   * タブで、読み込 **[!UICONTROL Relations]** んだデータと **[!UICONTROL Create element]** 受信者のターゲットディメンションとの間のリンクを選択して定義します(ディメンションとリソ [ースのターゲット設定を参照](../../automating/using/query.md#targeting-dimensions-and-resources))。 この例では、結合条件の作成に **CRM ID** カスタムフィールドが使用されています。一意のレコードを識別できる限り、必要なフィールドまたはフィールドの組み合わせを使用します。
-   * タブで、こ **[!UICONTROL Identification]** のオプションはオフのまま **[!UICONTROL Identify the document from the working data]** にします。
+   * タブで、読み込 **[!UICONTROL Relations]**んだデータと**[!UICONTROL Create element]** 受信者のターゲットディメンションとの間のリンクを選択して定義します(ディメンションとリソ [ースのターゲット設定を参照](../../automating/using/query.md#targeting-dimensions-and-resources))。 この例では、結合条件の作成に **CRM ID** カスタムフィールドが使用されています。一意のレコードを識別できる限り、必要なフィールドまたはフィールドの組み合わせを使用します。
+   * タブで、こ **[!UICONTROL Identification]**のオプションはオフのまま**[!UICONTROL Identify the document from the working data]** にします。
    ![](assets/import_template_example2.png)
 
-1. Configure the **[!UICONTROL Segmentation]** activity to retrieve reconciled recipients in one transition and recipients that could not be reconciled but who have enough data in a second transition.
+1. Configure the **[!UICONTROL Segmentation]**activity to retrieve reconciled recipients in one transition and recipients that could not be reconciled but who have enough data in a second transition.
 
    紐付けされた受信者を含むトランジションは、データベースを更新するために使用できます。不明な受信者を含むトランジションは、ファイルで最小限の情報が利用できる場合、データベースに新しい受信者エントリを作成するために使用できます。
 
    紐付けできず、十分なデータを持たない受信者は、補集合アウトバウンドトランジションで選択され、別のファイルにエクスポートしたり、単純に無視したりできます。
 
-   * アクティビティ **[!UICONTROL General]** のタブで、をに設定し、タ **[!UICONTROL Resource type]** ーゲッ **[!UICONTROL Temporary resource]** トセットと **[!UICONTROL Reconciliation]** して選択します。
-   * In the **[!UICONTROL Advanced options]** tab, check the **[!UICONTROL Generate complement]** option to be able to see if any record cannot be inserted in the database. 必要に応じて、補完データのさらなる処理（ファイルエクスポート、リスト更新など）を適用できます。
-   * In the first segment of the **[!UICONTROL Segments]** tab, add a filtering condition on the inbound population to select only records for which the profile's CRM ID is not equal to 0. これにより、データベースのプロファイルと調整されたファイルのデータが、そのサブセット内で選択されます。
+   * アクティビティ **[!UICONTROL General]**のタブで、をに設定し、タ**[!UICONTROL Resource type]** ーゲッ **[!UICONTROL Temporary resource]**トセットと**[!UICONTROL Reconciliation]** して選択します。
+   * In the **[!UICONTROL Advanced options]**tab, check the**[!UICONTROL Generate complement]** option to be able to see if any record cannot be inserted in the database. 必要に応じて、補完データのさらなる処理（ファイルエクスポート、リスト更新など）を適用できます。
+   * In the first segment of the **[!UICONTROL Segments]**tab, add a filtering condition on the inbound population to select only records for which the profile&#39;s CRM ID is not equal to 0. これにより、データベースのプロファイルと調整されたファイルのデータが、そのサブセット内で選択されます。
 
       ![](assets/import_template_example3.png)
 
@@ -171,49 +171,49 @@ Adobe Campaign データベースのデータの一貫性を維持するには�
 
    * All records that are not selected in the first two subsets are selected in the **[!UICONTROL Complement]**.
 
-1. Configure the **[!UICONTROL Update data]** activity located after the first outbound transition of the **[!UICONTROL Segmentation]** activity configured previously.
+1. Configure the **[!UICONTROL Update data]**activity located after the first outbound transition of the**[!UICONTROL Segmentation]** activity configured previously.
 
-   * Select **[!UICONTROL Update]** as **[!UICONTROL Operation type]** since the inbound transition only contains recipients already present in the database.
-   * タブで、 **[!UICONTROL Identification]** 「 - Profiles **[!UICONTROL Using reconciliation criteria]** in this case」とアクティビティで作成さ **[!UICONTROL Dimension to update]** れたリンクの間のキーを選択して定義し **[!UICONTROL Reconciliation]** ます。 この例では、**CRM ID** カスタムフィールドが使用されています。
+   * Select **[!UICONTROL Update]**as**[!UICONTROL Operation type]** since the inbound transition only contains recipients already present in the database.
+   * タブで、 **[!UICONTROL Identification]**「 - Profiles**[!UICONTROL Using reconciliation criteria]** in this case」とアクティビティで作成さ **[!UICONTROL Dimension to update]**れたリンクの間のキーを選択して定義し**[!UICONTROL Reconciliation]** ます。 この例では、**CRM ID** カスタムフィールドが使用されています。
 
       ![](assets/import_template_example6.png)
 
-   * In the **[!UICONTROL Fields to update]** tab, indicate the fields from the Profiles dimension to update with the value of the corresponding column from the file. ファイル列の名前が受信者ディメンションフィールドの名前と同一またはほとんど同じ場合、自動選択ボタンを使用して、異なるフィールドを自動的に一致させることができます。
+   * In the **[!UICONTROL Fields to update]**tab, indicate the fields from the Profiles dimension to update with the value of the corresponding column from the file. ファイル列の名前が受信者ディメンションフィールドの名前と同一またはほとんど同じ場合、自動選択ボタンを使用して、異なるフィールドを自動的に一致させることができます。
 
       ![](assets/import_template_example6_2.png)
 
       >[!NOTE]
       >
-      >これらのプロファイルにダイレクトメールを送信する場合は、ダイレクトメールプロバイダーにとって重要な情報であるので、必ず住所を含めてください。 また、プロファイルの情報の **[!UICONTROL Address specified]** ボックスがチェック済みであることを確認します。 ワークフローからこのオプションを更新するには、更新するフィールドに要素を追加し、 **1** を指定し **[!UICONTROL Source]** て、「postalAddress/@addrDefined **」フィールドを「** 」として選択します **[!UICONTROL Destination]**。 ダイレクトメールの詳細とオプションの使用方法については、こ **[!UICONTROL Address specified]** のドキュメントを参 [照してくださ](../../channels/using/about-direct-mail.md#recommendations)い。
+      >これらのプロファイルにダイレクトメールを送信する場合は、ダイレクトメールプロバイダーにとって重要な情報であるので、必ず住所を含めてください。 また、プロファイルの情報の **[!UICONTROL Address specified]**ボックスがチェック済みであることを確認します。 ワークフローからこのオプションを更新するには、更新するフィールドに要素を追加し、** 1 **を指定し**[!UICONTROL Source]** て、フィールドをと **`postalAddress/@addrDefined`**して選択しま**[!UICONTROL Destination]**&#x200B;す。 ダイレクトメールの詳細とオプションの使用方法については、こ **[!UICONTROL Address specified]**のドキュメントを参[照してくださ](../../channels/using/about-direct-mail.md#recommendations)い。
 
-1. Configure the **[!UICONTROL Deduplication]** activity located after the transition containing unreconciled profiles:
+1. Configure the **[!UICONTROL Deduplication]**activity located after the transition containing unreconciled profiles:
 
-   * タブで、 **[!UICONTROL Properties]** をワークフローのア **[!UICONTROL Resource type]** クティビティから生成された一時リ **[!UICONTROL Reconciliation]** ソースに設定します。
+   * タブで、 **[!UICONTROL Properties]**をワークフローのア**[!UICONTROL Resource type]** クティビティから生成された一時リ **[!UICONTROL Reconciliation]**ソースに設定します。
 
       ![](assets/import_template_example4.png)
 
    * この例では、一意のプロファイルを見つけるために、E メールフィールドが使用されています。入力されていることがわかっており、一意の組み合わせを構成する任意のフィールドを使用できます。
-   * を選択しま **[!UICONTROL Deduplication method]**&#x200B;す。 この場合、重複する場合にどのレコードを保持するかはアプリケーションによって自動的に決定されます。
+   * を選択しま **[!UICONTROL Deduplication method]**す。 この場合、重複する場合にどのレコードを保持するかはアプリケーションによって自動的に決定されます。
    ![](assets/import_template_example7.png)
 
-1. Configure the **[!UICONTROL Update data]** activity located after the **[!UICONTROL Deduplication]** activity configured previously.
+1. 前に設定したア **[!UICONTROL Update data]**クティビティの後に配置さ**[!UICONTROL Deduplication]** れるアクティビティを設定します。
 
-   * Select **[!UICONTROL Insert only]** as **[!UICONTROL Operation type]** since the inbound transition only contains profiles not present in the database.
-   * タブで、 **[!UICONTROL Identification]** 「 - Profiles **[!UICONTROL Using reconciliation criteria]** in this case」とアクティビティで作成さ **[!UICONTROL Dimension to update]** れたリンクの間のキーを選択して定義し **[!UICONTROL Reconciliation]** ます。 この例では、**CRM ID** カスタムフィールドが使用されています。
+   * Select **[!UICONTROL Insert only]**as**[!UICONTROL Operation type]** since the inbound transition only contains profiles not present in the database.
+   * タブで、 **[!UICONTROL Identification]**「 - Profiles**[!UICONTROL Using reconciliation criteria]** in this case」とアクティビティで作成さ **[!UICONTROL Dimension to update]**れたリンクの間のキーを選択して定義し**[!UICONTROL Reconciliation]** ます。 この例では、**CRM ID** カスタムフィールドが使用されています。
 
       ![](assets/import_template_example6.png)
 
-   * In the **[!UICONTROL Fields to update]** tab, indicate the fields from the Profiles dimension to update with the value of the corresponding column from the file. ファイル列の名前が受信者ディメンションフィールドの名前と同一またはほとんど同じ場合、自動選択ボタンを使用して、異なるフィールドを自動的に一致させることができます。
+   * In the **[!UICONTROL Fields to update]**tab, indicate the fields from the Profiles dimension to update with the value of the corresponding column from the file. ファイル列の名前が受信者ディメンションフィールドの名前と同一またはほとんど同じ場合、自動選択ボタンを使用して、異なるフィールドを自動的に一致させることができます。
 
       ![](assets/import_template_example6_2.png)
 
       >[!NOTE]
       >
-      >これらのプロファイルにダイレクトメールを送信する場合は、ダイレクトメールプロバイダーにとって重要な情報であるので、必ず住所を含めてください。 また、プロファイルの情報の **[!UICONTROL Address specified]** ボックスがチェック済みであることを確認します。 ワークフローからこのオプションを更新するには、更新するフィールドに要素を追加し、 **1** を指定し **[!UICONTROL Source]** て、「postalAddress/@addrDefined **[」フィールドを「]** 」として選択します **[!UICONTROL Destination]**。 ダイレクトメールの詳細とオプションの使用方法については、こ **[!UICONTROL Address specified]** のドキュメントを参 [照してくださ](../../channels/using/about-direct-mail.md#recommendations)い。
+      >これらのプロファイルにダイレクトメールを送信する場合は、ダイレクトメールプロバイダーにとって重要な情報であるので、必ず住所を含めてください。 また、プロファイルの情報の **[!UICONTROL Address specified]**ボックスがチェック済みであることを確認します。 ワークフローからこのオプションを更新するには、更新するフィールドに要素を追加し、** 1 **を指定し**[!UICONTROL Source]** て、「postalAddress/@addrDefined **[」フィールドを「]**」として選択します**[!UICONTROL Destination]**。 ダイレクトメールの詳細とオプションの使用方法については、こ **[!UICONTROL Address specified]**のドキュメントを参[照してくださ](../../channels/using/about-direct-mail.md#recommendations)い。
 
-1. After the third transition of the **[!UICONTROL Segmentation]** activity, add a **[!UICONTROL Extract file]** activity and a **[!UICONTROL Transfer file]** activity if you want to keep track of data not inserted in the database. これらのアクティビティを設定して、必要な列をエクスポートし、ファイルを取得可能な FTP または SFTP サーバーにファイルを転送します。
-1. Add an **[!UICONTROL End]** activity and save the workflow template.
+1. After the third transition of the **[!UICONTROL Segmentation]**activity, add a**[!UICONTROL Extract file]** activity and a **[!UICONTROL Transfer file]**activity if you want to keep track of data not inserted in the database. これらのアクティビティを設定して、必要な列をエクスポートし、ファイルを取得可能な FTP または SFTP サーバーにファイルを転送します。
+1. Add an **[!UICONTROL End]**activity and save the workflow template.
 
-これで、テンプレートが使用できるようになり、すべての新規ワークフローに利用できます。All is needed is then to specify the file containing the data to import in the **[!UICONTROL Load file]** activity.
+これで、テンプレートが使用できるようになり、すべての新規ワークフローに利用できます。All is needed is then to specify the file containing the data to import in the **[!UICONTROL Load file]**activity.
 
 ![](assets/import_template_example9.png)
