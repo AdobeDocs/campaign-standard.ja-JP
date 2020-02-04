@@ -1,19 +1,19 @@
 ---
 title: 役割のリスト
 description: ユーザーに割り当て可能なロールのリストを確認します。
-page-status-flag: 非活性化の
+page-status-flag: never-activated
 uuid: 128aaf9b-9b7d-49f3-9e1f-72e79a29baa0
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 管理
-content-type: 参照
-topic-tags: ユーザーとセキュリティ
+audience: administration
+content-type: reference
+topic-tags: users-and-security
 discoiquuid: ceaa3c94-9e1a-4271-b443-b00b4068929f
-context-tags: 役割，概要；役割，メイン
+context-tags: role,overview;role,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c321545b2f5fdc3ed43b9b943601008ff31fba6a
+source-git-commit: e31e8c63fa94d190211c7a51e7f1091657c9f479
 
 ---
 
@@ -24,21 +24,21 @@ source-git-commit: c321545b2f5fdc3ed43b9b943601008ff31fba6a
 
 ![](assets/user_management_3.png)
 
-役割はメニューから管理でき **[!UICONTROL Administration > Users & Security > Roles]** ます。
+役割はメニューから管理でき **[!UICONTROL Administration > Users & Security > Roles]**ます。
 
 デフォルトの権限は次のとおりです。
 
 * **[!UICONTROL Administration]**:汎用管理権限。
 * **[!UICONTROL Datamodel]**:パブリケーションを実行し、カスタムリソースを作成する権限。
 * **[!UICONTROL Export]**: データのエクスポート権限.
-* **[!UICONTROL Generic import]**:データに対して汎用インポートを実行する権限。 これを機能させるには、ロールをロールにリン **[!UICONTROL Generic import]** クする必要があ **[!UICONTROL Workflow]** ります。
+* **[!UICONTROL Generic import]**:データに対して汎用インポートを実行する権限。 これを機能させるには、ロールをロールにリン**[!UICONTROL Generic import]** クする必要があ **[!UICONTROL Workflow]**ります。
 * **[!UICONTROL Prepare deliveries]**:配信の作成、変更、準備および削除を行う権限。 このロールを持つユーザーは、配信を準備できますが、送信することはできません。
 * **[!UICONTROL Start deliveries]**:配信の作成、変更、準備、送信および削除を行う権限。
 * **[!UICONTROL Workflow]**:ワークフローの作成、変更、開始および削除を行う権限です。 このロールを持つユーザーは、ワークフロー内でも配信を送信できません。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
->、、、 **[!UICONTROL Deliverability]**&#x200B;および **[!UICONTROL Command execution]**&#x200B;役割 **[!UICONTROL Export]**&#x200B;は、 **[!UICONTROL File access]** アドビ **[!UICONTROL Message Center push]** 管理者の内部使用のみを目的としています。 ユーザに与えるべきではありません。
+>、、、 **[!UICONTROL Deliverability]**および**[!UICONTROL Command execution]**&#x200B;役割 **[!UICONTROL Export]**は、**[!UICONTROL File access]** アドビ **[!UICONTROL Message Center push]**管理者の内部使用のみを目的としています。 ユーザに与えるべきではありません。
 
 **関連トピック：**
 
