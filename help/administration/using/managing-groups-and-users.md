@@ -13,7 +13,7 @@ context-tags: user,overview;user,main;security,overview;security,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cc439572afc1a6ab90d4c95576e250af315fd14c
+source-git-commit: e31e8c63fa94d190211c7a51e7f1091657c9f479
 
 ---
 
@@ -46,7 +46,7 @@ source-git-commit: cc439572afc1a6ab90d4c95576e250af315fd14c
 
 ## セキュリティグループの作成とユーザーの割り当て {#creating-a-security-group-and-assigning-users}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >管理コンソールでは、セキュリティグループはプロファイルと呼ばれます。
 
@@ -139,7 +139,7 @@ source-git-commit: cc439572afc1a6ab90d4c95576e250af315fd14c
 
 これで、ユーザーはセキュリティグループに割り当てられ、Adobe Campaignに接続できます。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >ユーザーが管理コンソールでセキュリティグループから削除されると、そのユーザーはAdobe Campaignセキュリティグループの一部となり、Adobe Campaignにログインできなくなります。 この場合、ユーザーが機密情報を受け取らないように、管理コンソールでユーザーの電子メールアドレスを削除します。
 
