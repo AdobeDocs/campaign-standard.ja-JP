@@ -13,7 +13,7 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e9d4239182a7ebdec61e85fece6ec49dca8f665a
+source-git-commit: ff3b41589f47e7697a69bb68824aefd4d9036793
 
 ---
 
@@ -24,13 +24,13 @@ source-git-commit: e9d4239182a7ebdec61e85fece6ec49dca8f665a
 >
 >Audience Destinationsサービスは現在ベータ版で、予告なく頻繁に更新される場合があります。 これらの機能にアクセスするには、Azureでホストする必要があります（現在、北米向けベータ版のみ）。 ご希望の場合は、アドビカスタマーケアにお問い合わせください。
 
-Adobe Experience Platform [](https://www.adobe.io/apis/experienceplatform/home.html) (AEP)を活用して、大規模で複雑なデータセットに基づいて、ターゲットを絞ったオーディエンスを構築することで、ユーザーエクスペリエンスを強化します。 Adobe Experience Platformは、Adobe Analyticsを含むオンラインおよびオフラインのソースにわたるプロファイル、行動およびマルチエンティティのデータを統合し、顧客の360ビューを構築して、顧客体験を効果的に管理できるようにします。
+Adobe Experience Platform [](https://www.adobe.io/apis/experienceplatform/home.html) (AEP)を活用して、大規模で複雑なデータセットに基づいて、ターゲットを絞ったオーディエンスを構築することで、ユーザーエクスペリエンスを強化します。 Adobe Experience Platformは、Adobe Analyticsを含むオンラインおよびオフラインのソースにわたるプロファイル、行動およびマルチエンティティのデータを統合し、顧客の360°Cビューを構築し、顧客体験を効果的に管理できます。
 
 その後、Adobe Campaign Standardは **Audience Destinations** サービスを使用して、複数手順のキャンペーンプログラムやクロスチャネルキャンペーンプログラムの **Audiences**（オーディエンス）と呼ばれるプロファイルのコレクションをAEPから取得します。
 
 **オーディエンス******&#x200B;は、AEPから顧客プロファイル内の事実上すべての変数（プロファイル、イベント、マルチエンティティデータなど）に基づいた一連のルールである、最初にセグメントを作成して、多次元ターゲットを作成します。 Unified Profile &amp; Segmentation Servicesに関するグローバル概念は、これらの専用ドキュメントで [参照できます](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation.html)。
 
-セグメントが作成されると、 [Campaign Standardワークフローで配信のオーディエンスとしてアクティブ化できます](../../automating/using/aep-targeting-audiences.md)。 また、必要に応じて、Adobe Experience Platformのコンテキストデータを使用して、動的なコ [ンテンツを](../../automating/using/aep-personalizing-campaigns.md) パーソナライズし、キャンペーンに追加することもできます。
+セグメントが作成されると、 [Campaign Standardワークフローで、そのセグメントを配信のオーディエンスとしてアクティブ化できます](../../automating/using/aep-targeting-audiences.md)。 また、必要に応じて、Adobe Experience Platformのコンテキストデータを使用して、動的なコ [ンテンツを](../../automating/using/aep-personalizing-campaigns.md) パーソナライズし、キャンペーンに追加することもできます。
 
 デモビデオはこの節でもご [覧いただけます](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html)。
 
