@@ -1,18 +1,18 @@
 ---
 title: アクセス管理について
 description: ロール、グループおよび組織単位を使用して、Adobe Campaign演算子を管理します。
-page-status-flag: 非活性化の
+page-status-flag: never-activated
 uuid: 4f538452-cc67-4e03-9e2f-2d9eecc081c7
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 管理
-content-type: 参照
-topic-tags: ユーザーとセキュリティ
+audience: administration
+content-type: reference
+topic-tags: users-and-security
 discoiquuid: 54028f63-c9ca-4397-a079-e27e0cfdebf6
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: e31e8c63fa94d190211c7a51e7f1091657c9f479
 
 ---
 
@@ -26,11 +26,11 @@ Adobe Campaignでは、様々なユーザーに割り当てる権限を定義お
 
    組織単位と組み合わせて、ユーザーはインターフェイスをフィルター表示し、様々な機能へのアクセスを定義できます。 For more on this, refer to the [Authorizations table](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf).
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >地理的単位機能は廃止されました。 詳しくは、この[ページ](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)を参照してください。
 
-役割、グループ、および組織単位は、プラットフォームの機能管理者がメニューの下で管理で **[!UICONTROL Administration > Users & Security]** きます。
+役割、グループ、および組織単位は、プラットフォームの機能管理者がメニューの下で管理で **[!UICONTROL Administration > Users & Security]**きます。
 
 ![](assets/user_management_1.png)
 
@@ -38,7 +38,7 @@ Adobe Campaignでは、様々なユーザーに割り当てる権限を定義お
 
 ![](assets/user_management_6.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >管理権限を持つユーザーのみがユーザー管理にアクセスできます。
 
