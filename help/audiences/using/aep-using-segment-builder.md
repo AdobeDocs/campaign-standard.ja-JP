@@ -13,7 +13,7 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e9d4239182a7ebdec61e85fece6ec49dca8f665a
+source-git-commit: ff3b41589f47e7697a69bb68824aefd4d9036793
 
 ---
 
@@ -48,7 +48,7 @@ source-git-commit: e9d4239182a7ebdec61e85fece6ec49dca8f665a
 
 1. 設定ウィンドウで目的の結合ポリシーが選択されていることを確認します。
 
-   結合ポリシーの詳細については、『セグメントビルダーユーザーガイド』の専用の節 [を参照してください。](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segment-builder-guide.md)
+   結合ポリシーの詳細については、『セグメントビルダーユーザーガイド』の専用 [の節を参照してください](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segment-builder-guide.md)。
 
    ![](assets/aep_audiences_mergepolicy.png)
 
@@ -66,7 +66,7 @@ source-git-commit: e9d4239182a7ebdec61e85fece6ec49dca8f665a
 
 左側のペインには、ルールの作成に使用できるすべての属性、イベントおよびオーディエンスが表示されます。
 
-表示されるフィールドは、会社によってキャプチャされた属性で、 [Experience Data Model(XDM)Systemを通じて使用できます](https://www.adobe.io/apis/experienceplatform/home/xdm.html)。
+表示されるフィールドは、会社によってキャプチャされた属性で、 [Experience Data Model(XDM)Systemを通じて使用できるようになっています](https://www.adobe.io/apis/experienceplatform/home/xdm.html)。
 
 フィールドはタブに整理されます。
 
@@ -138,7 +138,7 @@ source-git-commit: e9d4239182a7ebdec61e85fece6ec49dca8f665a
 
    ![](assets/aep_audiences_comparing_2.png)
 
-1. 必要に応じて、2つのフィールド間の演算子を設定します。 この例では、セグメントで、自宅住所の郵便番号が勤務先住所1と等しくないことが必要です。
+1. 必要に応じて、2つのフィールド間の演算子を設定します。 この例では、セグメントで勤務先とは異なる自宅住所を持つプロファイルをターゲットにします。
 
    ![](assets/aep_audiences_comparing_3.png)
 
