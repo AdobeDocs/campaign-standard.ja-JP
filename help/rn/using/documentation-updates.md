@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2b25b51d53f53adad6e6e327661b641c844be719
+source-git-commit: 370e8e1221198e09089669ee28cf9847ffb4bd63
 
 ---
 
@@ -47,7 +47,7 @@ Administratorsセキュリティグループに関連する情報が追加され
 
 メッセージダッシュボードに表示できる警告について説明する新しいセクションを利用できます。 [詳細を表示](../../channels/using/message-dashboard.md#warnings)
 
-Adobe Campaign Enhanced MTAのドキュメントが利用できるようになりました。 [詳細情報](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)
+アップグレードされた送信インフラストラクチャを示すAdobe Campaign Enhanced MTAのドキュメントが、配信品質、スループット、バウンス処理を向上させるために提供されます。 [詳細情報](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)
 
 ランディングページとミラーページのプレビューをCampaignユーザーインターフェイスから表示するには、アプリケーションサーバーとミラーページサーバーのURLをセキュリティで保護する必要があることを示す注記が追加されました。 [詳細を表示](../../administration/using/branding.md#configuring-and-using-brands)
 
