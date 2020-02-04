@@ -12,7 +12,7 @@ discoiquuid: 2a14500f-5ede-4131-8b1a-b7fd65b7e3aa
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aa1539a1fc5fd08e7cf4e081ae2517e39ddde121
+source-git-commit: e31e8c63fa94d190211c7a51e7f1091657c9f479
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: aa1539a1fc5fd08e7cf4e081ae2517e39ddde121
 
 Experience Cloud Mobile SDK V4またはExperience Platform SDKを利用してAdobe Campaignでモバイルアプリを設定したら、/メニューで管理者が設定する必要があ [!UICONTROL Administration] り [!UICONTROL Channels] ま [!UICONTROL Mobile app] す。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >プッシュ通知とアプリ内実装は、エキスパートユーザーが実行する必要があります。 支援が必要な場合は、アドビアカウントエグゼクティブまたはプロフェッショナルサービスパートナーにお問い合わせください。
 
