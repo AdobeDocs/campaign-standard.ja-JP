@@ -13,7 +13,7 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4b18f3b93394101eb569799bcfe362b4daf8f250
+source-git-commit: ff3b41589f47e7697a69bb68824aefd4d9036793
 
 ---
 
@@ -52,7 +52,7 @@ Campaign StandardでAdobe Experience Platformオーディエンスを直接作�
 
 1. セグメントを正しく作成するには、このセグメントのマーケティング **目的に一致する** 、マージポリシーを選択する必要があります。
 
-   設定ウィンドウで、「プラットフォームのデフォルトの結合ポリシー」が選択されます。 結合ポリシーの詳細については、『セグメントビルダーユーザーガイド』の専用の節 [を参照してください。](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segment-builder-guide.md)
+   設定ウィンドウで、「プラットフォームのデフォルトの結合ポリシー」が選択されます。 結合ポリシーの詳細については、『セグメントビルダーユーザーガイド』の専用 [の節を参照してください](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/technical_overview/segmentation/segment-builder-guide.md)。
 
    ![](assets/aep_audiences_mergepolicy.png)
 
