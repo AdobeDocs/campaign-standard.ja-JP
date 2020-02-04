@@ -13,7 +13,7 @@ context-tags: orgUnit,overview;orgUnit,main;geoUnit,overview;geoUnit,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cc439572afc1a6ab90d4c95576e250af315fd14c
+source-git-commit: e31e8c63fa94d190211c7a51e7f1091657c9f479
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: cc439572afc1a6ab90d4c95576e250af315fd14c
 
 プラットフォームの各オブジェクトおよびユーザは、組織単位にリンクされる。 このユニットは、ユーザにフィルタされたビューを与えるために階層構造を定義することを可能にします。 ユーザーのユニットは、異なるプラットフォームオブジェクトに対するアクセスレベルを定義します。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >ユーザーがどのユニットにもリンクされていない場合、そのユーザーはAdobe Campaignに接続できません。 特定のユーザーまたはユーザーのグループに対するアクセスを制限する場合は、ユニットにリンクしないでくだ **[!UICONTROL All]**さい。
 >
@@ -103,7 +103,7 @@ Geometrixx組織単位のプロファイルは読み取り専用ですが、ユ�
 
 組織単位のないプロファイルは、ユーザーはアクセスできません。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >プロファイルをインポートする前に、このオプションを追加することをお勧めします。 顧客データベースを既にインポート済みの場合は、既にインポート済みのプロファイルに組織単位の値を設定するために更新が必要です。
 
