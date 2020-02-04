@@ -13,7 +13,7 @@ context-tags: landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
+source-git-commit: d762c73e6816011340a85a3cf2aaa35f05ee0541
 
 ---
 
@@ -41,13 +41,13 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 * [コンテンツデザインの一般的なベストプラクティス](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices)。
 
 >[!NOTE]
->HTML形式で既に定義済みのランディングページがある場合は、ボタンを使用して直接ランディングページを読み込むことがで **[!UICONTROL Change content]** きます。
+>HTML形式で既に定義済みのランディングページがある場合は、ボタンを使用して直接ランディングページを読み込むことがで **[!UICONTROL Change content]**きます。
 >
 >Adobe CampaignでHTMLページをインポートする前に、HTMLページが開いて様々なブラウザーで正しく表示されていることを確認してください。 HTML ページに JavaScript スクリプトが含まれている場合、エディターの外部でエラーなしで実行する必要があります。一般に、電子メールクライアントが正しく処理されるように、メッセージコンテンツにスクリプトを使用しないでください。
 
 ## ランディングページコンテンツエディターのインターフェイス{#landing-page-content-editor-interface}
 
-ランディングページのコンテンツエディターを使用すると、Adobe Campaignでコンテンツを簡単に定義、変更およびパーソナライズできます。 このページにアクセスするには、ランディングペ **[!UICONTROL Content]** ージのダッシュボードのブロックをクリックします。
+ランディングページのコンテンツエディターを使用すると、Adobe Campaignでコンテンツを簡単に定義、変更およびパーソナライズできます。 このページにアクセスするには、ランディングペ **[!UICONTROL Content]**ージのダッシュボードのブロックをクリックします。
 
 コンテンツエディターは3つのセクションに分かれています。 これらのセクションでは、コンテンツを表示および編集できます。
 
@@ -135,13 +135,13 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
    <td> Adobe Campaignのランディングページへのアクセスを許可します。 リンクの設定方法の詳細については、「リンクの挿入」セクシ <a href="../../designing/using/links.md#inserting-a-link">ョンを参照してくださ</a> い。<br /> </td> 
   </tr> 
   <tr> 
-   <td> <img height="21px" src="assets/link_subscribe_darkgrey-24px.png" /> <br /> </td> 
+   <td> <img height="21px" src="assets/link_Subscribe_darkgrey-24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">購読リンク</span><br /> </td> 
    <td> 任意の要素<br /> </td> 
    <td> サービス購読リンクを挿入できます。 リンクの設定方法の詳細については、「リンクの挿入」セクシ <a href="../../designing/using/links.md#inserting-a-link">ョンを参照してくださ</a> い。<br /> </td> 
   </tr> 
   <tr> 
-   <td> <img height="21px" src="assets/link_unsubscribe_darkgrey-24px.png" /> <br /> </td> 
+   <td> <img height="21px" src="assets/link_unSubscribe_darkgrey-24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">購読解除リンク</span> <br /> </td> 
    <td> 任意の要素<br /> </td> 
    <td> サービスの購読解除リンクを挿入できます。 リンクの設定方法の詳細については、「リンクの挿入」セクシ <a href="../../designing/using/links.md#inserting-a-link">ョンを参照してくださ</a> い。<br /> </td> 
@@ -243,7 +243,7 @@ source-git-commit: 1b70e18be29fd48d102313f6d741e9ffe053cc34
 
 ### コンテンツエディタでのブロックの管理 {#managing-blocks-in-the-content-editor}
 
-異なるHTMLコンテンツ要素は、 **&lt;div&gt;** &lt;/div&gt;タグに対応するブロックとしてランディングページに表示されます **** 。 操作するブロックを選択します。 その後、青い箱に囲まれます。
+異なるHTMLコンテンツ要素は、 **&lt;div>** &lt;/div>タグに対応するブロックとしてランディングページに表示されます **** 。 操作するブロックを選択します。 その後、青い箱に囲まれます。
 
 ![](assets/des_lp_content_1.png)
 
@@ -281,20 +281,20 @@ You can add a **border** to the selected block.
 
 ![](assets/des_lp_content_7.png)
 
-* **左揃え**:テキストを選択したブロックの左に揃えます(style="text-align:left;")。
-* **中心**:選択したブロック内のテキストを中央揃えにします(style="text-align:center;")。
-* **右揃え**:テキストを選択したブロックの右に揃えます(style="text-align:right;").
+* **左揃え**:テキストを選択したブロックの左に揃えます(style=&quot;text-align:left;&quot;)。
+* **中心**:選択したブロック内のテキストを中央揃えにします(style=&quot;text-align:center;&quot;)。
+* **右揃え**:テキストを選択したブロックの右に揃えます(style=&quot;text-align:right;&quot;).
 
 また、ツールバーを使用してフォント属性を変更することもできます。フォントサイズを調整し、テキストを太字または斜体にしたり、下線を引いたり、テキストの色を変更したりします。 [この節](../../channels/using/designing-a-landing-page.md#landing-page-content-editor-interface)を参照してください。
 
 ### ランディングページへのイメージの挿入 {#inserting-images-in-a-landing-page}
 
 1. ランディングページのコンテンツで、画像を含むブロックを選択します。
-1. ボタンを選択 **[!UICONTROL Insert]** します。
+1. ボタンを選択 **[!UICONTROL Insert]**します。
 
    ![](assets/des_insert_images_lp_1.png)
 
-1. コンテキスト **[!UICONTROL Local image]** ツールバーからを選択します。
+1. コンテキスト **[!UICONTROL Local image]**ツールバーからを選択します。
 
    ![](assets/des_insert_images_lp_2.png)
 
@@ -336,7 +336,7 @@ You can add a **border** to the selected block.
 
    ![](assets/dynamic_content_lp_3.png)
 
-1. ブロックに適用されたすべての条件を削除するには、そのブロックを選択し、アイコンをクリック **[!UICONTROL Disable dynamic content]** します。
+1. ブロックに適用されたすべての条件を削除するには、そのブロックを選択し、アイコンをクリック **[!UICONTROL Disable dynamic content]**します。
 1. 保持する動的コンテンツを選択します。
 
    ![](assets/dynamic_content_lp_5.png)
