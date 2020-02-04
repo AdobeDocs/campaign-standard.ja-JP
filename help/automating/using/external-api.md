@@ -1,16 +1,16 @@
 ---
 title: 外部 API
 description: null
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 自動化
-content-type: 参照
-topic-tags: ターゲティング活動
+audience: automating
+content-type: reference
+topic-tags: targeting-activities
 context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 6f7f4f3d81f4e6a540b3317f283c1e2311ccc65a
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ![](assets/wf_externalAPI.png)
 
-このア **[!UICONTROL External API]** クティビティは、 **REST API呼び出しを介して外部システム** から **、ワークフローにデータを取り込みます** 。
+このア **[!UICONTROL External API]**クティビティは、** REST API呼び出しを介して外部システム&#x200B;**から**、ワークフローにデータを取り込みます&#x200B;**。
 
 RESTエンドポイントは、顧客管理システム、 [Adobe I/O Runtimeインスタンス](https://www.adobe.io/apis/experienceplatform/runtime.html) 、Experience Cloud RESTエンドポイント（Data Platform、Target、Analytics、Campaignなど）のいずれかです。
 
@@ -29,9 +29,9 @@ RESTエンドポイントは、顧客管理システム、 [Adobe I/O Runtimeイ
 >
 >セキュリティ上の理由から、JSSPの使用はCampaign Standardではサポートされていません。 コードを実行する必要がある場合は、External APIアクティビティを介してAdobe I/O Runtimeインスタンスを呼び出すことができます。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
->この機能は現在パブリックベータ版です。 External APIアクティビティの使用を開始する前に、使用許諾契約に同意する必要があります。 このパブリックベータ版機能はアドビがまだ市販していないので、Adobe ClientCareではサポートされていないので、エラーが含まれ、他のリリースされた機能と同様に機能しない場合があります。
+>この機能は現在ベータ版です。 External APIアクティビティの使用を開始する前に、使用許諾契約に同意する必要があります。 このベータ版機能はアドビがまだ市販していないので、Adobe clientCareではサポートされていないので、エラーが含まれ、他のリリースされた機能と同様に機能しない場合があります。
 
 このアクティビティの主な特徴は次のとおりです。
 
@@ -45,7 +45,7 @@ RESTエンドポイントは、顧客管理システム、 [Adobe I/O Runtimeイ
 * リクエストのタイムアウトは60秒です
 * HTTPリダイレクトは許可されません
 * HTTPS以外のURLは拒否されます
-* 「受け入れ：application/json」リクエストヘッダーと「Content-Type:application/json"応答ヘッダーを使用できます
+* 「受け入れ：application/json」リクエストヘッダーと「Content-Type:application/json&quot;応答ヘッダーを使用できます
 
 >[!CAUTION]
 >
@@ -53,7 +53,7 @@ RESTエンドポイントは、顧客管理システム、 [Adobe I/O Runtimeイ
 
 ## 設定 {#configuration}
 
-アクティビティをワークフロー **[!UICONTROL External API]** にドラッグ&amp;ドロップし、アクティビティを開いて設定を開始します。
+アクティビティをワークフロー **[!UICONTROL External API]**にドラッグ&amp;ドロップし、アクティビティを開いて設定を開始します。
 
 ### 受信マッピング
 
