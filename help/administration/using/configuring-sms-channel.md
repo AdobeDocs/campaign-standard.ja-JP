@@ -13,7 +13,7 @@ context-tags: extAccountMobile,overview;extAccount,main;delivery,smsContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3325194881662dee94648ae3d5a03b2bdb6b41ba
+source-git-commit: e31e8c63fa94d190211c7a51e7f1091657c9f479
 
 ---
 
@@ -92,7 +92,7 @@ GSM エンコードを使用する SMS メッセージは 160 文字以内に制
 * 表記変換が&#x200B;**許可されている**&#x200B;場合、標準に準じていない文字はメッセージの送信時に GSM 文字に置き換えられます。例えば、「ë」は「e」に置き換えられます。そのため、メッセージは若干改変されますが、文字制限は同じです。
 * 表記変換が&#x200B;**許可されていない**&#x200B;場合、標準に準じていない文字があるメッセージはバイナリフォーマット（Unicode）で送信されます。そのため、すべての文字がそのまま送信されます。ただし、Unicode を使用する SMS メッセージは 70 文字以内に制限されています。複数の部分に分けて送信されるメッセージの場合は、SMS 1 件につき 67 文字以内です。文字数が上限を超えると、メッセージは複数に分かれて送信されますが、追加料金が発生する場合があります。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >パーソナライゼーションフィールドを SMS メッセージのコンテンツに入れると、GSM エンコードに対応していない文字が含まれる場合があります。コンテンツの例は、「SMSメッセージの個人 [化」の節にあります](../../channels/using/personalizing-sms-messages.md) 。
 
@@ -335,13 +335,13 @@ SMSメッセージを送信するための特定のパラメータは、およ�
 
    ![](assets/sms_smpp.png)
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >送信者の住所の変更に関しては、お住まいの国の法律をご確認ください。 また、SMSサービスプロバイダにこの機能が提供されているかどうかを確認する必要があります。
 
 * このオ **[!UICONTROL Maximum number of SMS per message]**プションを使用すると、メッセージの送信に使用するSMSメッセージの数を定義できます。 この数を超えると、メッセージは送信されません。
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >SMSメッセージの内容にパーソナライゼーションフィールドまたは条件テキストを挿入した場合、メッセージの長さと、送信するSMSメッセージの数が受信者によって異なる可能性があります。 For more on this, refer to the [Personalizing SMS messages](../../channels/using/personalizing-sms-messages.md) section.
 
@@ -350,4 +350,3 @@ SMSメッセージを送信するための特定のパラメータは、およ�
    * **[!UICONTROL Saved on SIM card]**:受信者の電話SIMカードにメッセージが保存されます。
    * **[!UICONTROL Saved on mobile]**:メッセージは電話の内部メモリに保存されます。
    * **[!UICONTROL Flash]**:このメッセージは、受信者の携帯電話に通知として表示され、保存されずに表示されなくなります。
-
