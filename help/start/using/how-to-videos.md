@@ -12,7 +12,7 @@ discoiquuid: 524ff9a2-fdaa-46bd-bfe6-f03a50461247
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
+source-git-commit: 33d4704d664a809073790e47ab6bb84e9c2b07d5
 
 ---
 
@@ -38,4 +38,4 @@ source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 * [リストの設定](https://video.tv.adobe.com/v/25288?captions=jpn):adobe Campaignでリストを設定します。
 * [レポートの作成](https://video.tv.adobe.com/v/25264?captions=jpn):独自の動的レポートを作成します。
 
-これらの短く詳しいビデオに加えて、アドビの Web サイトで、[トレーニングコース](https://training.adobe.com/training/courses.html)や[プレゼンテーションビデオ](http://www.adobe.com/training/video.html)を利用することもできます。
+これらの短く詳しいビデオに加えて、アドビの Web サイトで、[トレーニングコース](https://training.adobe.com/training/courses.html)や[プレゼンテーションビデオ](https://www.adobe.com/training/video.html)を利用することもできます。
