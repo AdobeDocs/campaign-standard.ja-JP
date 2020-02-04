@@ -12,7 +12,7 @@ discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
+source-git-commit: 33d4704d664a809073790e47ab6bb84e9c2b07d5
 
 ---
 
@@ -329,7 +329,7 @@ _プッシュ通知_
   </tr> 
   <tr> 
    <td> Dreamweaverとの統合をライブにする<br /> </td> 
-   <td> Adobe CampaignとDreamweaverの統合が実行されました。 Dreamweaverの正式な最終リリースバージョン(17.0.2)で動作するようになりました。<br /> これには、次の場所からAdobe Campaign Integration Extensionをインストールする必要があります。詳し <a href="http://adobe.ly/acdw_addon">くは</a><br /> 、このビデオを参照してく <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">ださい</a>。<br /> </td> 
+   <td> Adobe CampaignとDreamweaverの統合が実行されました。 Dreamweaverの正式な最終リリースバージョン(17.0.2)で動作するようになりました。<br /> これには、次の場所からAdobe Campaign Integration Extensionをインストールする必要があります。詳し <a href="https://adobe.ly/acdw_addon">くは</a><br /> 、このビデオを参照してく <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">ださい</a>。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
