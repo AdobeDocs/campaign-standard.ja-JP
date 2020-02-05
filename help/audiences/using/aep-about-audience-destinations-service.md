@@ -13,7 +13,7 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ff3b41589f47e7697a69bb68824aefd4d9036793
+source-git-commit: 2ef524d1d276abb1ff0a7149462452cafe8e5cd3
 
 ---
 
@@ -28,11 +28,11 @@ Adobe Experience Platform [](https://www.adobe.io/apis/experienceplatform/home.h
 
 その後、Adobe Campaign Standardは **Audience Destinations** サービスを使用して、複数手順のキャンペーンプログラムやクロスチャネルキャンペーンプログラムの **Audiences**（オーディエンス）と呼ばれるプロファイルのコレクションをAEPから取得します。
 
-**オーディエンス******&#x200B;は、AEPから顧客プロファイル内の事実上すべての変数（プロファイル、イベント、マルチエンティティデータなど）に基づいた一連のルールである、最初にセグメントを作成して、多次元ターゲットを作成します。 Unified Profile &amp; Segmentation Servicesに関するグローバル概念は、これらの専用ドキュメントで [参照できます](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation.html)。
+**オーディエンス******&#x200B;は、AEPから顧客プロファイル内の事実上すべての変数（プロファイル、イベント、マルチエンティティデータなど）に基づいた一連のルールである、最初にセグメントを作成して、多次元ターゲットを作成します。 Unified Profile &amp; Segmentation Servicesに関するグローバル概念は、これらの専用ドキュメ [ントで参照します](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation.html)。
 
-セグメントが作成されると、 [Campaign Standardワークフローで、そのセグメントを配信のオーディエンスとしてアクティブ化できます](../../automating/using/aep-targeting-audiences.md)。 また、必要に応じて、Adobe Experience Platformのコンテキストデータを使用して、動的なコ [ンテンツを](../../automating/using/aep-personalizing-campaigns.md) パーソナライズし、キャンペーンに追加することもできます。
+セグメントが作成されると、 [Campaign Standardワークフローで、そのセグメントを配信のオーディエンスとしてアクティブ化できます](../../automating/using/aep-targeting-audiences.md)。 さらに、Adobe Experience Platformのコンテキストデータを使用して、パーソナライズし [たり](../../automating/using/aep-personalizing-campaigns.md) 、キャンペーンに動的なコンテンツを追加したりできます。
 
-デモビデオはこの節でもご [覧いただけます](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html)。
+ハウツービデオはこの節でもご [覧いただけます](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html)。
 
 以下の節で使用する用語：
 
