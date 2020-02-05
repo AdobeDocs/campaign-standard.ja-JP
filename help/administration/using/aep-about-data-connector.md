@@ -12,7 +12,7 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1059b840d9a2d0c89a6cbd1808b645862747a76c
+source-git-commit: 8ea3340e9ffb8b438c781aeff1a8554c9160474f
 
 ---
 
@@ -30,6 +30,8 @@ Adobe Experience Platform Data Connectorは、XTKデータ（Campaignで取り�
 Adobe Experience Platform Data Connectorは、Adobe Campaign Standardのカスタムリソースを理解し、顧客の全体的なデータスキーマをAdobe Experience Platform内でどのように扱うべきかを理解しているデータエンジニアを対象としています。 ****
 
 以下の節では、Campaign StandardとAdobe Experience Platformの間でデータマッピングを実行するための主要な手順について説明します。 これは、XDMスキーマとデータセットの作成から始まります。
+
+ハウツービデオはこのページでもご [覧いただけます](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html)。
 
 >[!NOTE]
 >Adobe Experience Platform Data Connectorを設定し、データがAdobe Experience Platformに正常に取り込まれたら、データセットを有効にして、リアルタイムカスタマープロファイルにデータが含まれるようにする必要があります。
