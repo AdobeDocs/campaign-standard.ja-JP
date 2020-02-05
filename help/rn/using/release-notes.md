@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d1af5ca520c56d593d1cffdca1e69f49d0c26c5d
+source-git-commit: e119ee1dc605b4f0ca48cd79fcdf2ad38d6b1440
 
 ---
 
@@ -35,7 +35,7 @@ source-git-commit: d1af5ca520c56d593d1cffdca1e69f49d0c26c5d
  <tbody> 
   <tr> 
    <td> <p>Adobe Experience Platform Data Connectorは、Adobe Campaign Standardと統合されました。 XTKデータ（Campaignで取り込んだデータ）をAdobe Experience Platform Data Model(XDM)にマッピングすることで、Adobe Experience Platformでキャンペーンデータを利用できるようにできます。 </p>
-    <p>この機能は、Azureでホストされている顧客のみが使用できることに注意してください。 この機能と条件を有効にする方法の詳細については、詳細なドキュメントを参照し <a href="../../administration/using/aep-about-data-connector.md">てください</a>。</p>
+    <p>この機能は、Azureでホストされている顧客のみが使用できることに注意してください。 この機能とアクティブ化の条件について詳しくは、詳細なドキュメント <a href="../../administration/using/aep-about-data-connector.md">とハウツー</a> ・ビデオ <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html">を参照してください</a>。</p>
    </td> 
   </tr> 
  </tbody> 
@@ -50,7 +50,7 @@ source-git-commit: d1af5ca520c56d593d1cffdca1e69f49d0c26c5d
  <tbody> 
   <tr> 
    <td> <p>オーディエンスの宛先を使用すると、Adobe Experience PlatformからAdobe Campaignにセグメントを共有できます。</p>
-    <p>この機能は、Azureでホストされている顧客のみが使用できることに注意してください。 この機能と条件を有効にする方法の詳細については、詳細なドキュメントを参照し <a href="../../audiences/using/aep-about-audience-destinations-service.md">てください</a>。</p>
+    <p>この機能は、Azureでホストされている顧客のみが使用できることに注意してください。 この機能とアクティブ化の条件について詳しくは、詳細なドキュメント <a href="../../audiences/using/aep-about-audience-destinations-service.md">とハウツー</a> ・ビデオ <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html">を参照してください</a>。 </p>
    </td> 
   </tr> 
  </tbody> 
@@ -87,6 +87,7 @@ source-git-commit: d1af5ca520c56d593d1cffdca1e69f49d0c26c5d
 
 **パッチ**
 
+* プライバシーの削除要求を実行すると、ユーザーデータが除外ログで削除されない問題を修正しました。 (CAMP-39003)
 * コンテナ要素内のテキストのサイズを変更するとアクセシビリティの問題が発生する問題を修正しました。
 * マーケティングアクティビティでカーソルを合わせたときに表示されるカレンダーポップアップをユーザーが閉じられない問題を修正しました。
 * データが変更されていない場合で **[!UICONTROL External API]**もボタンが表示されるア**[!UICONTROL Confirm]** クティビティの問題を修正しました。
