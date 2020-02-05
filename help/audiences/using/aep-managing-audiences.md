@@ -13,7 +13,7 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ff3b41589f47e7697a69bb68824aefd4d9036793
+source-git-commit: 2ef524d1d276abb1ff0a7149462452cafe8e5cd3
 
 ---
 
@@ -26,11 +26,11 @@ source-git-commit: ff3b41589f47e7697a69bb68824aefd4d9036793
 
 ## Adobe Experience Platformオーディエンスへのアクセス
 
-Adobe Experience Platformのセグメントビルダーにアクセスするには、Campaign Standardのホームページ（またはヘッダー内のリンク）のカ **[!UICONTROL Audiences]**ードに移動し、オプションを選択し**[!UICONTROL Audiences]****[!UICONTROL Adobe Experience Platform]**ます。
+Adobe Experience Platformのセグメントビルダーにアクセスするには、Campaign Standardのホームページ（またはヘッダーのリンク）のカ **[!UICONTROL Audiences]**ードに移動し、環境を選択し**[!UICONTROL Audiences]****[!UICONTROL Adobe Experience Platform]**ます。
 
 ![](assets/aep_audiences_access.png)
 
-まず、Adobe Experience Platformのセグメントリストページが表示されます。このページでは、必要に応じて、既存のAdobe Experience Platformのセグメントにアクセスし、さらに編集できます。
+最初に、Adobe Experience Platformのセグメントリストページが表示されます。このページで、既存のAdobe Experience Platformセグメントにアクセスして、さらに編集できます。
 
 目的のAdobe Experience Platformセグメントを見つけるのに役立つ検索バーとフィルターが用意されています。
 
