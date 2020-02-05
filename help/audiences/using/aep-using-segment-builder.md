@@ -13,7 +13,7 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ff3b41589f47e7697a69bb68824aefd4d9036793
+source-git-commit: 2ef524d1d276abb1ff0a7149462452cafe8e5cd3
 
 ---
 
@@ -84,7 +84,7 @@ source-git-commit: ff3b41589f47e7697a69bb68824aefd4d9036793
 >
 >For more on this, refer to the [dedicated documentation](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation/profile-identity-segmentation-services.html#!api-specification/markdown/narrative/tutorials/segmentation/multi_entity_segmentation.md).
 
-デフォルトでは、統合セグメントビルダーには、データが存在するフィールドが表示されます。 データが存在しないフィールドを含む完全なスキーマを表示するには、設定からこのオプ **[!UICONTROL Show full XDM schema]**ションを有効にします。
+デフォルトでは、統合セグメントビルダーには、既にデータが存在するフィールドが表示されます。 データが存在しないフィールドを含む完全なスキーマを表示するには、設定からこのオプ **[!UICONTROL Show full XDM schema]**ションを有効にします。
 
 ![](assets/aep_audiences_populatedfields.png)
 
@@ -116,7 +116,7 @@ source-git-commit: ff3b41589f47e7697a69bb68824aefd4d9036793
 
    適切なプロファイルをターゲットにするために、必要な数だけルールを追加できます。
 
-   コンテナにルールを追加する場合、AND演算子を使用して既存のルールに追加されます。 演算子をクリックして、ORに変更するオプションにアクセスします。
+   コンテナにルールを追加すると、AND論理演算子を持つ既存のルールに追加されます。 必要に応じて、論理演算子をクリックして変更します。
 
    ![](assets/aep_audiences_andoperator.png)
 
