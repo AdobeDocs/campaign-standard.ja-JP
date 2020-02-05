@@ -292,7 +292,7 @@ source-git-commit: 2acc79812b692024af590927fd9b5f019af20c52
       + [メールを開封していないユーザーの再ターゲティング](automating/using/workflow-cross-channel-retargeting.md)
       + [コントロール母集団の作成](automating/using/workflow-control-group.md)
       + [チャネル間配信の作成](automating/using/workflow-cross-channel-delivery.md)
-   + Adobe Experience Platformオーディエンスの操作{aepオーディエンスの操作}
+   + Adobe Experience Platformオーディエンスの操作{#working-with-aep-audiences}
       + [Adobe Experience Platformオーディエンスのターゲット設定](automating/using/aep-targeting-audiences.md)
       + [Adobe Experience Platform属性を使用したキャンペーンのパーソナライズ](automating/using/aep-personalizing-campaigns.md)
 + 開発中{#developing}
