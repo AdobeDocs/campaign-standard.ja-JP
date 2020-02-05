@@ -51,7 +51,7 @@ source-git-commit: 6f7f4f3d81f4e6a540b3317f283c1e2311ccc65a
 
    次に、リソースがドラフトモ **ードに入り** 、そのアクティブ化ステータスが **[!UICONTROL Inactive]**です。
 
-1. モード **[!UICONTROL List]**で、削除するリソースを確認し、アイコンをクリック![](assets/delete_darkgrey-24px.png)し**[!UICONTROL Delete element]** ます。
+1. モード **[!UICONTROL List]**&#x200B;で、削除するリソースを確認し、アイコンをクリック![](assets/delete_darkgrey-24px.png)し&#x200B;**[!UICONTROL Delete element]** ます。
 
    ![](assets/schema_extension_uc28.png)
 
