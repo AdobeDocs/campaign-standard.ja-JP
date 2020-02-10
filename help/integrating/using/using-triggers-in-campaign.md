@@ -1,27 +1,27 @@
 ---
-title: キャンペーンでのトリガーの使用
+title: Campaign でのトリガーの使用
 description: null
-page-status-flag: 非活性化の
+page-status-flag: never-activated
 uuid: d844d013-b38a-4e69-9df5-0edc01fa9c6e
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 統合
-content-type: 参照
-topic-tags: キャンペーンとトリガーの連携
+audience: integrating
+content-type: reference
+topic-tags: working-with-campaign-and-triggers
 discoiquuid: a524c700-bad6-4fcf-857a-c31bfae4d30c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
 
 ---
 
 
-# キャンペーンでのトリガーの使用{#using-triggers-in-campaign}
+# Campaign でのトリガーの使用{#using-triggers-in-campaign}
 
 ## Campaignでのマッピング済みトリガーの作成 {#creating-a-mapped-trigger-in-campaign}
 
-Adobe Experience Cloud（コアサービス）で事前に監視する動作を定義しておく必 **[!UICONTROL Triggers]** 要があります。 For more on this, refer to the [Adobe Experience Cloud documentation](https://marketing.adobe.com/resources/help/en_US/mcloud/triggers.html). トリガーを定義する場合は、エイリアスを有効にする必要があります。 各動作（閲覧/フォームの中断、製品の追加/削除、セッションの有効期限切れなど）に対して、Adobe Experience cloudに新しいトリガーを追加する必要があります。
+Adobe Experience Cloud（コアサービス）で事前に監視する動作を定義しておく必 **[!UICONTROL Triggers]** 要があります。 詳しくは、 [Adobe Experience cloudのドキュメントを参照してください](https://marketing.adobe.com/resources/help/en_US/mcloud/triggers.html)。 トリガーを定義する場合は、エイリアスを有効にする必要があります。 各動作（閲覧/フォームの中断、製品の追加/削除、セッションの有効期限切れなど）に対して、Adobe Experience cloudに新しいトリガーを追加する必要があります。
 
 既存のAdobe Experience cloudトリガーに基づいて、Adobe Campaignでトリガーイベントを作成する必要があります。
 
@@ -33,7 +33,7 @@ Adobe Experience Cloud（コアサービス）で事前に監視する動作を�
 
    ![](assets/remarketing_1.png)
 
-1. Click the **[!UICONTROL Create]** button. 作成ウィザードが開き、Adobe Experience cloudで定義されているすべてのトリガーのリストが表示されます。 この列 **[!UICONTROL Fired by Analytics]** には、Adobe Experience cloudトリガーによってCampaignに送信されたイベントの数が表示されます。 これは、Experience cloudインターフェイスで作成されたトリガーのマッピングです。
+1. ボタンをクリッ **[!UICONTROL Create]** クします。 作成ウィザードが開き、Adobe Experience cloudで定義されているすべてのトリガーのリストが表示されます。 この列 **[!UICONTROL Fired by Analytics]** には、Adobe Experience cloudトリガーによってCampaignに送信されたイベントの数が表示されます。 これは、Experience cloudインターフェイスで作成されたトリガーのマッピングです。
 
    ![](assets/remarketing_2.png)
 
