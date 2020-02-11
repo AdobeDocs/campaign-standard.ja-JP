@@ -12,7 +12,7 @@ discoiquuid: f7d4bb71-f957-4f86-97c7-8ac0a0030026
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aa92475c1f8b37f995ebdc74c4a1f43692a53c21
+source-git-commit: 54612511de07edc3e6f3eea34ef095c26b35f4af
 
 ---
 
@@ -27,7 +27,7 @@ source-git-commit: aa92475c1f8b37f995ebdc74c4a1f43692a53c21
 
 ランディングページがプラットフォームとデータに影響を与えるので、実行を慎重にテストする必要があります。 手順は次のとおりです。
 
-1. ランディング **[!UICONTROL Test]**ページのアクションバーのボタンをクリックします。
+1. ランディング **[!UICONTROL Test]** ページのアクションバーのボタンをクリックします。
 1. テスト画面で、テストプロファイルを選択し、ランディングページで購読を管理する場合はテストサービスを選択します。
 
    ![](assets/lp_test_2.png)
@@ -45,7 +45,7 @@ source-git-commit: aa92475c1f8b37f995ebdc74c4a1f43692a53c21
 
 >[!NOTE]
 >
->アプリケーションサーバーのURLがセキュリティで保護されていない場合(https://で始まらない場合)は、Campaignユーザーインターフェイスからランディングページのプレビューを表示できません。 このサーバは、ブランドの設定時 [に定義されます](../../administration/using/branding.md#configuring-and-using-brands)。
+>Campaignユーザーインターフェイスにランディングページのプレビューを表示するには、アプリケーションサーバーのURLがセキュリティで保護されている必要があります。 この場合、ブランドの設定時に、http://ではなくhttps://を使用してこのURL [を設定します](../../administration/using/branding.md#configuring-and-using-brands)。
 
 ## 有効性パラメーターの設定 {#setting-up-validity-parameters}
 
@@ -55,7 +55,7 @@ source-git-commit: aa92475c1f8b37f995ebdc74c4a1f43692a53c21
 
    ![](assets/lp_edit_properties_button.png)
 
-1. セクションで有効期限の日時を設定し **[!UICONTROL Publication]**ます。ランディングページは指定した日付に自動的に非公開になるので、使用できなくなります。
+1. セクションで有効期限の日時を設定し **[!UICONTROL Publication]** ます。ランディングページは指定した日付に自動的に非公開になるので、使用できなくなります。
 
    この日時を考慮するタイムゾーンを選択できます。
 
@@ -71,4 +71,4 @@ source-git-commit: aa92475c1f8b37f995ebdc74c4a1f43692a53c21
 
 ランディングページを公開すると、ライブになり、訪問者がアクセスできます。
 
-ランディングページは、ボタンを使用して、いつでも非公開または更新および再公開で **[!UICONTROL Publish]**きます。 ただし、再公開に失敗し、ランディングページを未公開にした場合、最初のバージョンはオンラインのままになります。
+ランディングページは、ボタンを使用して、いつでも非公開または更新および再公開で **[!UICONTROL Publish]** きます。 ただし、再公開に失敗し、ランディングページを未公開にした場合、最初のバージョンはオンラインのままになります。
