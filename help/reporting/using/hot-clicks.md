@@ -1,19 +1,19 @@
 ---
 title: ホットクリック
 description: そのまま使用できるホットクリック数レポートを使用して、顧客が配信をクリックした場所を確認します。
-page-status-flag: 非活性化の
+page-status-flag: never-activated
 uuid: 7ed49dd3-d7ee-466a-9a7b-d2aa16961667
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: レポート
-content-type: 参照
-topic-tags: レポートのリスト
+audience: reporting
+content-type: reference
+topic-tags: list-of-reports
 discoiquuid: ecbc1ade-63d9-4ac2-9828-380a1aa95094
 context-tags: deliveryHotClicksReport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -47,7 +47,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 25を超える受信者のクリック数を表示するには、ボタンをク **[!UICONTROL Change profile]** リックし、生年月日がこの条件に一致するテストプロファイルを選択します。
 
-テストプロファイルについて詳しくは、テストプロファイ [ルについてを参照してくださ](../../sending/using/managing-test-profiles-and-sending-proofs.md#about-test-profiles)い。
+テストプロファイルについて詳しくは、テストプロファイ [ルについてを参照してくださ](../../audiences/using/managing-test-profiles.md)い。
 
 >[!NOTE]
 >
