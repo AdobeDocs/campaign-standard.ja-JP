@@ -13,7 +13,7 @@ delivercontext-tags: deliveryCreation,wizard
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -26,7 +26,7 @@ SMS配信の作成は、通常の電子メールの作成と非常に似てい�
 
 SMSメッセージを作成して携帯電話に送信するには、次の操作が必要です。
 
-* モード **[!UICONTROL Routing]**を使用してチャネルに設定**[!UICONTROL Mobile (SMS)]** された外部アカウ **[!UICONTROL Bulk delivery]**ント。 For more on this, refer to the[Routing](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing)section.
+* モード **[!UICONTROL Routing]** を使用してチャネルに設定 **[!UICONTROL Mobile (SMS)]** された外部アカウ **[!UICONTROL Bulk delivery]** ント。 For more on this, refer to the [Routing](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing) section.
 * この外部アカウントに正しくリンクされた配信テンプレート。
 
 1. SMS配信を作成します。 これは、Adobe Campaignホームページ、キャンペーン [またはマーケティングア](../../start/using/interface-description.md#home-page)クティビティ [リスト](../../start/using/marketing-activities.md#creating-a-marketing-activity) から実行できます [](../../start/using/programs-and-campaigns.md#creating-a-campaign)。
@@ -51,7 +51,7 @@ SMSメッセージを作成して携帯電話に送信するには、次の操�
 
    ![](assets/sms_creation_3.png)
 
-1. SMSにコンテンツを追加します。 また、SMSの作成が完了したら、配信ダッシュボ **[!UICONTROL Content]**ードのセクションをクリックして、コンテンツを定義することもできます。 SMSコンテンツ[デザインについてを参照してくださ](../../channels/using/about-sms-and-push-content-design.md)い。
+1. SMSにコンテンツを追加します。 また、SMSの作成が完了したら、配信ダッシュボ **[!UICONTROL Content]** ードのセクションをクリックして、コンテンツを定義することもできます。 SMSコンテンツ [デザインについてを参照してくださ](../../channels/using/about-sms-and-push-content-design.md)い。
 
    SMSメッセージのコンテンツにパーソナライゼーションフィールドまたは条件テキストを挿入した場合、メッセージの長さは受信者によって異なる場合があります。 実際、これらの要因によって、GSMエンコーディングで考慮されない文字が生じる可能性があります。 これは、パーソナライゼーションが実行された後にメッセージの長さを評価する必要がある理由です。 See [Personalizing SMS messages](../../channels/using/personalizing-sms-messages.md).
 
@@ -67,7 +67,7 @@ SMSメッセージを作成して携帯電話に送信するには、次の操�
    >
    >キャンペーンから過剰に要求されるプロファイルを自動的に除外する、グローバルなチャネル間疲労ルールを設定できます。 疲労ル [ールを参照](../../administration/using/fatigue-rules.md)。
 
-1. 校正を送信して、メッセージを確認および検証し、インボックスのレンダリングを監視します。 「証明の送信」 [の節を参照してください](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs) 。
+1. 校正を送信して、メッセージを確認および検証し、インボックスのレンダリングを監視します。 「証明の送信」 [の節を参照してください](../../sending/using/sending-proofs.md) 。
 1. メッセージの送信を確認します。 定義したスケジュールに従って送信が開始されます。
 
    ![](assets/sms_creation_7.png)
