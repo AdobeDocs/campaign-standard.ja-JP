@@ -12,7 +12,7 @@ discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8bd32e1ca93473c384a3e079362bb9afe978699d
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -37,7 +37,7 @@ source-git-commit: 8bd32e1ca93473c384a3e079362bb9afe978699d
 
 * [メッセージのスケジュールについて](../../sending/using/about-scheduling-messages.md)
 * [送信の準備](../../sending/using/preparing-the-send.md)
-* [テストプロファイルの管理と校正の送信](../../sending/using/managing-test-profiles-and-sending-proofs.md)
-* [E メールのレンダリング](../../sending/using/email-rendering.md)
+* [配達確認の送信](../../sending/using/sending-proofs.md)
+* [電子メールのレンダリング](../../sending/using/email-rendering.md)
 * [エラー発生時のアラートの受信](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [配信品質の最適化](../../sending/using/about-deliverability.md)
