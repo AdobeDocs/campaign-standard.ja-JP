@@ -3,8 +3,8 @@ product: adobe campaign
 sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
-translation-type: ht
-source-git-commit: 2acc79812b692024af590927fd9b5f019af20c52
+translation-type: tm+mt
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -48,6 +48,7 @@ source-git-commit: 2acc79812b692024af590927fd9b5f019af20c52
       + [プロファイルの編集](audiences/using/editing-profiles.md)
       + [統合された顧客プロファイル](audiences/using/integrated-customer-profile.md)
       + [アクティブなプロファイル](audiences/using/active-profiles.md)
+      + [テストプロファイルの管理](audiences/using/managing-test-profiles.md)
    + オーディエンスの管理{#managing-audiences}
       + [オーディエンスについて](audiences/using/about-audiences.md)
       + [オーディエンスの作成](audiences/using/creating-audiences.md)
@@ -136,9 +137,10 @@ source-git-commit: 2acc79812b692024af590927fd9b5f019af20c52
    + メッセージの準備とテスト{#preparing-and-testing-messages}
       + [メッセージのプレビュー](sending/using/previewing-messages.md)
       + [送信の準備](sending/using/preparing-the-send.md)
-      + [テストプロファイルの管理と校正の送信](sending/using/managing-test-profiles-and-sending-proofs.md)
+      + [配達確認の送信](sending/using/sending-proofs.md)
       + [電子メールの件名行のテスト](sending/using/testing-subject-line-email.md)
       + [電子メールのレンダリング](sending/using/email-rendering.md)
+      + [トラップの使用](sending/using/using-traps.md)
    + メッセージのスケジュール{#scheduling-messages}
       + [メッセージのスケジュールについて](sending/using/about-scheduling-messages.md)
       + [送信時間の最適化](sending/using/optimizing-the-sending-time.md)
