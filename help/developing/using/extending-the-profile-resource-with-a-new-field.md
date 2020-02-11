@@ -12,7 +12,7 @@ discoiquuid: 1e0f8945-fc3c-46a9-a8e5-b181a1f5ffcb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -40,7 +40,7 @@ source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 * [カスタムリソースについて](../../developing/using/data-model-concepts.md)
 * [プロファイルの管理](../../audiences/using/about-profiles.md)
-* [テストプロファイルの管理](../../sending/using/managing-test-profiles-and-sending-proofs.md#managing-test-profiles)
+* [テストプロファイルの管理](../../audiences/using/managing-test-profiles.md)
 
 ## 手順1:プロファイルリソースの拡張 {#step-1--extend-the-profile-resource}
 
@@ -50,7 +50,7 @@ source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 1. リソースをまだ拡張していない場合 **[!UICONTROL Profiles]** は、をクリックしま **[!UICONTROL Create]**&#x200B;す。
 1. オプションを選 **[!UICONTROL Extend an existing resource]** 択します。
 1. リソースを選択 **[!UICONTROL Profile (profile)]** します。
-1. Click **[!UICONTROL Create]**.
+1. クリック **[!UICONTROL Create]**.
 
    ![](assets/schema_extension_uc5.png)
 
@@ -66,7 +66,7 @@ source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
    ![](assets/schema_extension_uc9.png)
 
-1. フィールドを設定するには、「**[!UICONTROL Data structure]** ドロップダウンの下にある「**[!UICONTROL Fields]**」タブで、![](assets/schema_extension_uc8.png) をクリックしてから、以前作成したフィールドの ![](assets/schema_extension_uc7.png) をクリックします。
+1. フィールドを設定するには、**[!UICONTROL Data structure]** ドロップダウンの下にある「**[!UICONTROL Fields]**」タブで、![](assets/schema_extension_uc8.png) をクリックしてから、以前作成したフィールドの ![](assets/schema_extension_uc7.png) をクリックします。
 1. この例では、特定の値を追加し、クリックします **[!UICONTROL Specify a list of authorized values]**。
 
    ![](assets/schema_extension_uc10.png)
@@ -104,7 +104,7 @@ source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 1. リソースをまだ拡張していない場合 **[!UICONTROL Profiles]** は、をクリックしま **[!UICONTROL Create]**&#x200B;す。
 1. オプションを選 **[!UICONTROL Extend an existing resource]** 択します。
 1. リソースを選択 **[!UICONTROL Test profile (seedMember)]** します。
-1. Click **[!UICONTROL Create]**.
+1. クリック **[!UICONTROL Create]**.
 
    ![](assets/schema_extension_uc13.png)
 
@@ -117,7 +117,7 @@ source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
    ![](assets/schema_extension_uc16.png)
 
 1. 手順11 ～ 13と同じ手順を、上の延長プロファイルのチュートリアルと同じ手順で、このフィールドを画面に追加 **[!UICONTROL Test profile]** します。
-1. Click **[!UICONTROL Save]**.
+1. クリック **[!UICONTROL Save]**.
 
 これで、プロファイルとテストプロファイルの両方で新しいフィールドが使用できるようになります。 正しく設定するには、カスタムリソースを発行する必要があります。
 
@@ -155,7 +155,7 @@ source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 1. からをクリ **[!UICONTROL Marketing activities]**&#x200B;ックし、を **[!UICONTROL Create]** 選択しま **[!UICONTROL Landing page]**&#x200B;す。
 1. ランディングページのタイプを選択します。 ここで、プロファイルを更新するので、を選択しま **[!UICONTROL Profile acquisition]**&#x200B;す。
-1. Click **[!UICONTROL Create]**.
+1. クリック **[!UICONTROL Create]**.
 1. ブロックをク **[!UICONTROL Content]** リックして、ランディングページのコンテンツの編集を開始します。
 
    ![](assets/schema_extension_uc21.png)
@@ -186,7 +186,7 @@ source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
    ![](assets/schema_extension_uc24.png)
 
-1. Click **[!UICONTROL Save]**. 電子メールの準備が整いました。ワークフローに戻ることができます。
+1. クリック **[!UICONTROL Save]**. 電子メールの準備が整いました。ワークフローに戻ることができます。
 1. プロファイル **[!UICONTROL Wait]** がランディングページに表示されるまでの時間を確保するためのアクティビティを追加します。
 1. アクティビティ **[!UICONTROL Segmentation]** を追加して、関心事に応じてアウトバウンド移行を分割 **します**。
 1. 各関心に対してアウトバウンドセグメントを作 **成します**。
