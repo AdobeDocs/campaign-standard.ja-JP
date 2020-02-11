@@ -12,7 +12,7 @@ discoiquuid: b27e0170-e73f-4782-8568-02927fb374f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
    >[!NOTE]
    >
-   >フォローアップおよびA/Bテストテンプレートは、デフォルトで非表示になっています。 表示する場合は、左側（横パネル） **[!UICONTROL Filter]**のチェックボックスをオンにします。
+   >フォローアップおよびA/Bテストテンプレートは、デフォルトで非表示になっています。 表示する場合は、左側（横パネル） **[!UICONTROL Filter]** のチェックボックスをオンにします。
 
 1. 電子メールの一般プロパティを入力します。 「ラベル」フィールドに名前を入力し **て** 、IDを編集できます。 アクティビティ名とそのIDは両方ともインターフェイスに表示されますが、メッセージの受信者には表示されません。
 
@@ -43,7 +43,7 @@ source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 1. ビジネスの基準に基づいてメッセージのターゲットを定義します。 詳しくは、プ [ロファイルの管理を参照してくださ](../../audiences/using/about-profiles.md)い。
 
-   また、メッセージを検証するテストプロファイルを定義することもできます。 詳しくは、テ [ストプロファイルの管理を参照してくださ](../../sending/using/managing-test-profiles-and-sending-proofs.md#managing-test-profiles)い。
+   また、メッセージを検証するテストプロファイルを定義することもできます。 詳しくは、テ [ストプロファイルの管理を参照してくださ](../../audiences/using/managing-test-profiles.md)い。
 
    ![](assets/email_creation_3.png)
 
@@ -58,11 +58,11 @@ source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
    >[!NOTE]
    >
-   >電子メールを保存するには、まずコンテンツに編集を加える必要があります。 この時点でク **[!UICONTROL Cancel]**リックすると、ウィザードは完了せず、電子メールは作成されません。
+   >電子メールを保存するには、まずコンテンツに編集を加える必要があります。 この時点でク **[!UICONTROL Cancel]** リックすると、ウィザードは完了せず、電子メールは作成されません。
 
    電子メールダッシュボードが表示されます。 メッセージを確認し、送信を準 [備できます](../../sending/using/preparing-the-send.md)。
 
-   右上隅 **[!UICONTROL Edit properties]**のボタンを使用して、電子メールのプロパティを編集できます。 例えば、電子メールを設定して、配信の準備時にラベルが計算されるようにすることができます。  Available parameters are listed in[this section](../../administration/using/configuring-email-channel.md#list-of-email-properties).
+   右上隅 **[!UICONTROL Edit properties]** のボタンを使用して、電子メールのプロパティを編集できます。 例えば、電子メールを設定して、配信の準備時にラベルが計算されるようにすることができます。  Available parameters are listed in [this section](../../administration/using/configuring-email-channel.md#list-of-email-properties).
 
    ![](assets/delivery_dashboard_2.png)
 
@@ -78,7 +78,7 @@ source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
    >
    >キャンペーンから過剰に要求されるプロファイルを自動的に除外する、グローバルなチャネル間疲労ルールを設定できます。 詳しくは、疲労ルールを参照し [てください](../../administration/using/fatigue-rules.md)。
 
-1. 校正を送信して、メッセージを確認および検証し、インボックスのレンダリングを監視します。 「証明 [の送信」を参照](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs)。
+1. 校正を送信して、メッセージを確認および検証し、インボックスのレンダリングを監視します。 「証明 [の送信」を参照](../../sending/using/sending-proofs.md)。
 
    ![](assets/bat_select.png)
 
