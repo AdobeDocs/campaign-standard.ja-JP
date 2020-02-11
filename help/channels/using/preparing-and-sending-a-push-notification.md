@@ -13,7 +13,7 @@ context-tags: delivery,mobileAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: c26f98c8edd832beeedfedafb8ad27730cc30d25
 
 Adobe Campaignでプッシュ通知を作成する手順は次のとおりです。
 
-1. ウィンドウから、 **[!UICONTROL Marketing activities]** 新しいマ[ーケティングアクティビティを作成します](../../start/using/marketing-activities.md#creating-a-marketing-activity)。
+1. ウィンドウから、 **[!UICONTROL Marketing activities]** 新しいマ [ーケティングアクティビティを作成します](../../start/using/marketing-activities.md#creating-a-marketing-activity)。
 
    単一のプッシュ通知は、キャンペーンまたはAdobe Campaignホームペ [ージ](../../start/using/marketing-activities.md#creating-a-marketing-activity) からも作成で [きます](../../start/using/interface-description.md#home-page)。
 
@@ -37,7 +37,7 @@ Adobe Campaignでプッシュ通知を作成する手順は次のとおりです
 
    デフォルトでは、次の2つのテンプレートのうち1つを選択できます。
 
-   * **[!UICONTROL Send push to Campaign profiles]**:このテンプレートを使用して、モバイルアプリケーションを購読し、プッシュ通知の受信を希望するオプトインを持つAdobe Campaign CRMプロファイルをターゲットに設定します。 受信者の名な[ど](../../designing/using/personalization.md#inserting-a-personalization-field)、個人設定フィールドをプッシュ通知に挿入できます。
+   * **[!UICONTROL Send push to Campaign profiles]**:このテンプレートを使用して、モバイルアプリケーションを購読し、プッシュ通知の受信を希望するオプトインを持つAdobe Campaign CRMプロファイルをターゲットに設定します。 受信者の名な [ど](../../designing/using/personalization.md#inserting-a-personalization-field) 、個人設定フィールドをプッシュ通知に挿入できます。
    * **[!UICONTROL Send push to app subscribers]**:このテンプレートを使用して、アプリからの通知の受信をオプトインしている既知の匿名モバイルアプリユーザーにプッシュ通知を送信します。 モバイルアプリケーションから収集したデータを使用して、これらのメッセージをパーソナライズできます。
    また、多言語テンプレートを選択することもできます。 詳しくは、多言語プッシュ通 [知の作成を参照してください](../../channels/using/creating-a-multilingual-push-notification.md)。
 
@@ -71,7 +71,7 @@ Adobe Campaignでプッシュ通知を作成する手順は次のとおりです
 
 1. 通知を送信する前に、テストプロファイルを使用して通知をテストし、配信を送信する前に受信者に表示される内容を正確に確認できます。 配信サマ **[!UICONTROL Audiences]** リから選択し、タブをクリック **[!UICONTROL Test profiles]** します。
 
-   テストの送信について詳しくは、テストプロファイルを参 [照してください](../../sending/using/managing-test-profiles-and-sending-proofs.md)。
+   テストの送信について詳しくは、テストプロファイルを参 [照してください](../../sending/using/sending-proofs.md)。
 
 1. テストプロファイルを選択し、をクリック **[!UICONTROL Preview]** して通知を表示します。コンテンツは、テストプロファイルデータを使用してパーソナライズされます。
 1. 別のデバイスでのプッシュ通知レイアウトの確認：レンダリングをプレビューするには、「iPhone」、「Android phone」、「iPad」または「Androidタブレット」を選択します。
@@ -92,7 +92,7 @@ Adobe Campaignでプッシュ通知を作成する手順は次のとおりです
 
    ![](assets/push_send_1.png)
 
-1. Once the preparation has finished successfully, the **[!UICONTROL Deployment]** window presents the following KPIs:**[!UICONTROL Target]** and **[!UICONTROL To deliver]**. Note that the **[!UICONTROL To deliver]** count is lower than the **[!UICONTROL Targeted]** one due to exclusions which can be viewed by clicking![](assets/lp_link_properties.png)button at the bottom of the **[!UICONTROL Deployment]** window.
+1. Once the preparation has finished successfully, the **[!UICONTROL Deployment]** window presents the following KPIs: **[!UICONTROL Target]** and **[!UICONTROL To deliver]**. Note that the **[!UICONTROL To deliver]** count is lower than the **[!UICONTROL Targeted]** one due to exclusions which can be viewed by clicking ![](assets/lp_link_properties.png) button at the bottom of the **[!UICONTROL Deployment]** window.
 
    ![](assets/push_send_2.png)
 
