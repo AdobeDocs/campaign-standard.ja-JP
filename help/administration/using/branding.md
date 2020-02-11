@@ -13,7 +13,7 @@ context-tags: branding,overview;branding,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 795f9b1d2d37f5e77af820318b6c980d702f54ad
+source-git-commit: 54612511de07edc3e6f3eea34ef095c26b35f4af
 
 ---
 
@@ -38,7 +38,7 @@ source-git-commit: 795f9b1d2d37f5e77af820318b6c980d702f54ad
 >
 >ブランドはエンドユーザーが作成または変更できません。これらの操作は、Adobe Campaignテクニカル管理者が実行する必要があります。 ご要望はアドビカスタマーケアにお問い合わせください。 マルチブランドは、トランザクションメッセージングのコンテキストでは使用できません。 詳しくは、トランザクションメッセージとブラ [ンディングを参照してくださ](../../channels/using/about-transactional-messaging.md#permissions-and-branding)い。
 
-ブランドはメニューに表示され **[!UICONTROL Administration > Instance settings > Brand configuration]**ます。
+ブランドはメニューに表示され **[!UICONTROL Administration > Instance settings > Brand configuration]** ます。
 
 デフォルトでは、新しく作成されたブランドは、管理者によって対応する権限を持つユーザーにのみ表示されます。
 
@@ -53,7 +53,7 @@ source-git-commit: 795f9b1d2d37f5e77af820318b6c980d702f54ad
    * **ブランドのWebサ** イトURL **** 、Webサイトラベル
    * **ブランドロゴ**
 
-* **[!UICONTROL Header parameters of sent emails]**キャンペーンの受信者に表示される情報をパーソナライズします。 この節では、以下のフィールドについて説明します。
+* **[!UICONTROL Header parameters of sent emails]** キャンペーンの受信者に表示される情報をパーソナライズします。 この節では、以下のフィールドについて説明します。
 
    ![](assets/branding_04_header.png)
 
@@ -75,7 +75,7 @@ source-git-commit: 795f9b1d2d37f5e77af820318b6c980d702f54ad
    * **配信でデフォルトのミラーページとして使用される** 、ミラーページサーバの外部URL。
    >[!NOTE]
    >
-   >アプリケーションサーバーとミラーページサーバーのURLがセキュリティで保護されていない場合(https://で始まらない場合)、ランディングページのプレビューとミラーページのレンダリングをCampaignユーザーインターフェイスから表示できません。
+   >ランディングページのプレビューとミラーページのレンダリングをCampaignユーザーインターフェイスに表示するには、アプリケーションサーバーとミラーページサーバーのURLをセキュリティで保護する必要があります。 この場合、これらのURLを設定する際は、http://ではなくhttps://を使用します。
 
 * **[!UICONTROL Tracking URL configuration (Web Analytics)]**」をクリックします。
 
@@ -95,7 +95,7 @@ source-git-commit: 795f9b1d2d37f5e77af820318b6c980d702f54ad
 
 テンプレートを作成したら、ブランドにリンクできます。 手順は次のとおりです。
 
-1. ボタンをクリックし **[!UICONTROL Edit properties]**て、テンプレートのプロパティにアクセスします。
+1. ボタンをクリックし **[!UICONTROL Edit properties]** て、テンプレートのプロパティにアクセスします。
 
    ![](assets/branding_04.png)
 
@@ -103,11 +103,11 @@ source-git-commit: 795f9b1d2d37f5e77af820318b6c980d702f54ad
 
    >[!NOTE]
    >
-   >デフォルトでは、が選 **[!UICONTROL Default brand (branding)]**択されます。
+   >デフォルトでは、が選 **[!UICONTROL Default brand (branding)]** 択されます。
 
    ![](assets/branding_05.png)
 
-   選択したブランドの構成を表示するには、アイコンをクリック **[!UICONTROL Navigate to the detail of the element selected]**します。
+   選択したブランドの構成を表示するには、アイコンをクリック **[!UICONTROL Navigate to the detail of the element selected]** します。
 
    ![](assets/branding_06.png)
 
@@ -125,7 +125,7 @@ source-git-commit: 795f9b1d2d37f5e77af820318b6c980d702f54ad
 >
 >ブランド設定は、特定の権限と技術的な設定が必要なので、アドビによってのみ管理されます。
 
-1. Adobe Campaign管理者がでブランドを作成します **[!UICONTROL Administration > Instance settings > Brand configuration]**。 彼はアドバンスメ**&#x200B;ニューからトロピクス要素にバカンスを加え&#x200B;**、ブランドの**[!UICONTROL ID]** 状況と **[!UICONTROL Header parameters of sent emails]**状況を設定します。
+1. Adobe Campaign管理者がでブランドを作成します **[!UICONTROL Administration > Instance settings > Brand configuration]**。 彼はアドバンスメ **ニューからトロピクス要素にバカンスを加え** 、ブランドの **[!UICONTROL ID]** 状況と **[!UICONTROL Header parameters of sent emails]** 状況を設定します。
 
    ![](assets/branding_07.png)
 
@@ -141,7 +141,7 @@ source-git-commit: 795f9b1d2d37f5e77af820318b6c980d702f54ad
 
 配信マネージャーは、新しいブランドを使用する配信テンプレートの作成を担当します。 これを行うには、次の手順に従います。
 
-1. アドバンスメニューで、組 **[!UICONTROL Resources > Templates > Delivery templates]**み込みのテンプレートを複製して、新しい配信テンプレートを設定します。
+1. アドバンスメニューで、組 **[!UICONTROL Resources > Templates > Delivery templates]**&#x200B;み込みのテンプレートを複製して、新しい配信テンプレートを設定します。
 
    ![](assets/branding_08.png)
 
@@ -160,11 +160,11 @@ source-git-commit: 795f9b1d2d37f5e77af820318b6c980d702f54ad
 
 ブランドにリンクした電子メールを作成するには、次の手順に従います。
 
-1. メニューから **[!UICONTROL Create]**ボタンをクリック**[!UICONTROL Marketing activities]** します。
+1. メニューから **[!UICONTROL Create]** ボタンをクリック **[!UICONTROL Marketing activities]** します。
 
    ![](assets/branding_14.png)
 
-1. アクティビティ **[!UICONTROL Email]**を選択し、新しいブランドにリンクされたテンプレートを選択します。
+1. アクティビティ **[!UICONTROL Email]** を選択し、新しいブランドにリンクされたテンプレートを選択します。
 
    ![](assets/branding_15.png)
 
