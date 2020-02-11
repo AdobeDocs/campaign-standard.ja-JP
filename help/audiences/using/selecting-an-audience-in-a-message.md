@@ -1,19 +1,19 @@
 ---
 title: メッセージ内のオーディエンスの選択
 description: 「電子メールのオーディエンスを選択するためのステップ・バイ・ステップ手順：メインターゲットの訪問者数とテストプロファイル」
-page-status-flag: 非活性化の
+page-status-flag: never-activated
 uuid: 7d8f8446-f2e0-49c1-83f6-9667b29bc228
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
-content-type: 参照
-topic-tags: 管理対象
+content-type: reference
+topic-tags: managing-audiences
 discoiquuid: 158da6ff-8899-4e7b-b925-8a42c3de46a1
 context-tags: deliveryCreation,wizard;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -50,7 +50,7 @@ Adobe Campaignでは、メッセージのオーディエンス内に複数のプ
 
 1. 電子メ **[!UICONTROL Test profiles]** ールに使用するを定義します。 テストプロファイルには、メインターゲットに電子メールを送信する前に、電子メールをテストする前に送信できる校正が含まれます。
 
-   テストプロファイルの設定の詳細については、「テストプロファイル」の節を参 [照してくださ](../../sending/using/managing-test-profiles-and-sending-proofs.md) い。
+   テストプロファイルの設定の詳細については、「テストプロファイル」の節を参 [照してくださ](../../audiences/using/managing-test-profiles.md) い。
 
 次に、オーディエンスブロックが更新され、対象の電子メールに対してターゲットプロファイルとテストプロファイルが選択されていることを示します。
 
