@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: eaba1e77be1c79bb079f6a210f332ba0c8b64b5f
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -39,7 +39,7 @@ Adobe Experience Platform Data Connector（ベータ版） — 詳 [細情報](.
 
 リリースノートは再編成され、改善されました。 [詳細を表示](../../rn/using/release-notes.md)
 
-Administratorsセキュリティグループに関連する情報が追加され、組織単位が割り当てら **[!UICONTROL All (all)]**れていて、変更できないことを指定しています。[詳細を表示](../../administration/using/managing-groups-and-users.md)
+Administratorsセキュリティグループに関連する情報が追加され、組織単位が割り当てら **[!UICONTROL All (all)]** れていて、変更できないことを指定しています。 [詳細を表示](../../administration/using/managing-groups-and-users.md)
 
 ワークフローでデフォルトで使用する特定のタイムゾーンを定義する方法に関する情報が追加されました。 [詳細を表示](../../automating/using/building-a-workflow.md)
 
@@ -137,7 +137,7 @@ GDPR入門ガイドが改善され、強化されました。 GDPRやCCPAなど�
 
 ロードファイルアクティビティから取得した追加のデータを含む電子メールの送信方法を示す新しい例が追加されました。 [詳細を表示](../../automating/using/load-file.md#example-2-email-with-enriched-fields)
 
-トラップの使用方法に関する新しいセクションが追加されました。 [詳細を表示](../../sending/using/managing-test-profiles-and-sending-proofs.md#using-traps).
+トラップの使用方法に関する新しいセクションが追加されました。 [詳細を表示](../../sending/using/using-traps.md).
 
 Adobe Experience Platform SDKを使用したモバ **イルアプリケーションの設定方法に関するページに、「** Launch_URL_Campaign」オプションに関するメモが追加されました。 [詳細を表示](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)
 
@@ -515,15 +515,15 @@ CampaignとAdobeソリューションの統合のほとんどのURLが変更さ�
 
 リリースノートは、すべての異なるリリースをよりグローバルに表示できるように、いくつかのページに整理されました。
 
-セクシ **[!UICONTROL Working with typologies]**ョンが更新され、視認性が向上しました。[詳細を表示](../../administration/using/about-typology-rules.md)
+セクシ **[!UICONTROL Working with typologies]** ョンが更新され、視認性が向上しました。 [詳細を表示](../../administration/using/about-typology-rules.md)
 
-に多くの追加データを定義する際にパフォーマンスを向上できる新しいオプションが使 **[!UICONTROL Query]**用できるようになりました。[詳細を表示](../../automating/using/query.md)
+に多くの追加データを定義する際にパフォーマンスを向上できる新しいオプションが使 **[!UICONTROL Query]** 用できるようになりました。 [詳細を表示](../../automating/using/query.md)
 
 プロファイルのインポートの例が更新され、プロファイルがダイレクトメールを受け取る準備ができるようになりました。 [詳細を表示](../../automating/using/importing-data.md)
 
-ワークフローで新しいアクティビティを使用できます。アクテ **[!UICONTROL Enrichment]**ィビティ[詳細を表示](../../automating/using/enrichment.md)
+ワークフローで新しいアクティビティを使用できます。アクテ **[!UICONTROL Enrichment]** ィビティ [詳細を表示](../../automating/using/enrichment.md)
 
-アクティビテ **[!UICONTROL Subscription Services]**ィが更新され、1つのファイルを使用して複数のサービスの購読を更新するなど、より多くの使用例をサポートするようになりました。[詳細を表示](../../automating/using/subscription-services.md)
+アクティビテ **[!UICONTROL Subscription Services]** ィが更新され、1つのファイルを使用して複数のサービスの購読を更新するなど、より多くの使用例をサポートするようになりました。 [詳細を表示](../../automating/using/subscription-services.md)
 
 配信の準備方法に関する使用例を追加しました。 [詳細を表示](../../sending/using/preparing-the-send.md)
 
@@ -533,7 +533,7 @@ SMS自動応答の使用方法に関する使用例を追加しました。 [詳
 
 定期的なワークフローでのユーザーのタイムゾーンに応じた配信の送信方法に関する情報を追加しました。 [詳細を表示](../../automating/using/push-notification-delivery.md#sending-a-recurring-push-notification-with-a-workflow)
 
-この節を **[!UICONTROL Customizing a push notification]**手順を追った使用例で再編成しました。[詳細を表示](../../channels/using/customizing-a-push-notification.md)
+この節を **[!UICONTROL Customizing a push notification]** 手順を追った使用例で再編成しました。 [詳細を表示](../../channels/using/customizing-a-push-notification.md)
 
 ブラックリスト管理に関する新しい節を追加しました。 [詳細を表示](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
