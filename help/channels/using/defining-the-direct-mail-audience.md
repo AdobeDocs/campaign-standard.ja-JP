@@ -13,7 +13,7 @@ context-tags: delivery,directMailContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 32bcfd57dfe881fa07c8d8e5700d0ae3996a78ec
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -36,9 +36,9 @@ source-git-commit: 32bcfd57dfe881fa07c8d8e5700d0ae3996a78ec
 
 ## テストおよびトラッププロファイルの追加 {#adding-test-and-trap-profiles}
 
-少数のプロファイルでファイルをテストできるように、テストプロファイルを追加します。 これにより、実際のファイルを準備する前に、ファイルサンプルをすばやく作成して構造をテストし、検証することができます。 See [Managing test profiles and sending proofs](../../sending/using/managing-test-profiles-and-sending-proofs.md).
+少数のプロファイルでファイルをテストできるように、テストプロファイルを追加します。 これにより、実際のファイルを準備する前に、ファイルサンプルをすばやく作成して構造をテストし、検証することができます。 詳しくは、テ [ストプロファイルの管理を参照してくださ](../../audiences/using/managing-test-profiles.md)い。
 
-トラップの使用は、ダイレクトメール配信に不可欠です。 ダイレクトメールプロバイダーが実際に通信を送信していること、およびクライアントリストが別のプロバイダーに送信されていないことを確認できます。 トラップの [使用を参照してください](../../sending/using/managing-test-profiles-and-sending-proofs.md#using-traps)。
+トラップの使用は、ダイレクトメール配信に不可欠です。 ダイレクトメールプロバイダーが実際に通信を送信していること、およびクライアントリストが別のプロバイダーに送信されていないことを確認できます。 トラップの [使用を参照してください](../../sending/using/using-traps.md)。
 
 ダイレクトメール配信の場合、抽出中にトラップが追加され、出力ドキュメントに混在します。 デフォルトでは、出力ファイルの並べ替え順に挿入されますが、ファイルの末尾または先頭に挿入するように選択できます。 オーディエンスを定義する際に、タブから目的のオプションを選択 **[!UICONTROL Trap insertion mode]** します。
 
