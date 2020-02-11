@@ -1,23 +1,23 @@
 ---
-title: E メールのレンダリング
+title: 電子メールのレンダリング
 description: 電子メールレンダリング機能を見つけます。
-page-status-flag: 非活性化の
+page-status-flag: never-activated
 uuid: c423e237-ad39-4797-ac3a-4320894a8f99
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 送信
-content-type: 参照
-topic-tags: 準備とテストのメッセージ
+audience: sending
+content-type: reference
+topic-tags: preparing-and-testing-messages
 discoiquuid: 2b5b13c8-2e51-4985-a161-c1d7f0fc32b4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
 
-# E メールのレンダリング{#email-rendering}
+# 電子メールのレンダリング{#email-rendering}
 
 Before hitting the **[!UICONTROL Send]** button, make sure that your message will be displayed in an optimal way on a variety of web clients, web mails and devices.
 
@@ -33,7 +33,7 @@ E メール配信を作成し、そのコンテンツとターゲット母集団
 
    ![](assets/email_rendering_05.png)
 
-1. クエリエディターを使用して、 **Emailレンダリングで使用するテストプロファイルなど、使用するテストプロファイルを定** 義します。 テストプロ [ファイルについてを参照してくださ](../../sending/using/managing-test-profiles-and-sending-proofs.md#about-test-profiles)い。
+1. クエリエディターを使用して、 **Emailレンダリングで使用するテストプロファイルなど、使用するテストプロファイルを定** 義します。 テストプロ [ファイルについてを参照してくださ](../../audiences/using/managing-test-profiles.md)い。
 
    ![](assets/email_rendering_06.png)
 
@@ -48,7 +48,7 @@ E メール配信を作成し、そのコンテンツとターゲット母集団
 
    >[!NOTE]
    >
-   >このオ **[!UICONTROL Proof + Email rendering]** プションを使用すると、校正を送信し、電子メールレンダリング機能を同時に使用できます。 メッセージを配達確認の受信者によって承認させると同時に、対象となる受信トレイに応じて、メッセージの受信方法をテストできます。 この場合は、「Proof test profiles」も選択する必要があります。 テストプロ [ファイルについてを参照してくださ](../../sending/using/managing-test-profiles-and-sending-proofs.md#about-test-profiles)い。
+   >このオ **[!UICONTROL Proof + Email rendering]** プションを使用すると、校正を送信し、電子メールレンダリング機能を同時に使用できます。 メッセージを配達確認の受信者によって承認させると同時に、対象となる受信トレイに応じて、メッセージの受信方法をテストできます。 この場合は、「Proof test profiles」も選択する必要があります。 テストプロ [ファイルについてを参照してくださ](../../audiences/using/managing-test-profiles.md)い。
 
    テスト配信が送信されます。
 
@@ -65,7 +65,7 @@ E メール配信を作成し、そのコンテンツとターゲット母集団
 **関連トピック**：
 
 * [電子メールの作成](../../channels/using/creating-an-email.md)
-* [テストプロファイルの管理と校正の送信](../../sending/using/managing-test-profiles-and-sending-proofs.md)
+* [配達確認の送信](../../sending/using/sending-proofs.md)
 * [クエリエディター](../../automating/using/editing-queries.md#about-query-editor)
 
 ## 電子メールレンダリングレポートの説明 {#email-rendering-report-description}
