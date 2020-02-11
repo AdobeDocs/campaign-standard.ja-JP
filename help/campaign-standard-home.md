@@ -3,7 +3,7 @@ keywords: Campaign Standard;home;popular topics
 solution: Campaign Standard
 title: Adobe Campaign Standard 製品ドキュメント
 topic: Premium
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 859fa22e39233eb5d87475de3a2bf03492f1fe4b
 
 ---
@@ -15,13 +15,16 @@ source-git-commit: 859fa22e39233eb5d87475de3a2bf03492f1fe4b
 
 ## 新着情報
 
-* **[プライバシー管理](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>プライバシーコンプライアンスに役立つ Adobe Campaign が提供するツールについて説明します。
+* **[プライバシー管理](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy.html)**<br/>
+プライバシーコンプライアンスに役立つ Adobe Campaign が提供するツールについて説明します。
 
-* **[配信のベストプラクティス](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)**<br/>配信のデザインと送信に関するベストプラクティスの詳細を確認します。
+* **[配信のベストプラクティス](https://helpx.adobe.com/jp/campaign/kb/delivery-best-practices.html)**<br/>
+配信のデザインと送信に関するベストプラクティスの詳細を確認します。
 
-* **[電子メールデザイナ](designing/using/designing-content-in-adobe-campaign.md)**<br/>— 再構成された電子メールデザイナのドキュメントを参照してください。
+* **[電子メールデザイナー](designing/using/designing-content-in-adobe-campaign.md)**<br/>再編成された電子メールデザイナーのドキュメントを参照してください。
 
-* **[Campaign Standard Mobile ガイド](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/>モバイル配信に関する一般的なガイドラインについて説明します。
+* **[Campaign Standard Mobile ガイド](https://helpx.adobe.com/jp/campaign/kb/acs-mobile.html)**<br/>
+モバイル配信に関する一般的なガイドラインについて説明します。
 
 [更新情報についてはここをクリック](rn/using/documentation-updates.md)
 
@@ -44,9 +47,9 @@ source-git-commit: 859fa22e39233eb5d87475de3a2bf03492f1fe4b
       <img alt="デザイナー" src="start/using/assets/design.png" />
     </a>
     <div>
-    <a href="designing/using/designing-content-in-adobe-campaign.md"><strong>E メールのデザイン</strong></a>
+    <a href="designing/using/designing-content-in-adobe-campaign.md"><strong>電子メールのデザイン</strong></a>
     </div>
-    <em>E メールデザイナーを使用して、レスポンシブでパーソナライズされた E メールを作成する方法を説明します</em>
+    <em>電子メールデザイナーを使用して、レスポンシブでパーソナライズされた電子メールを作成する方法を説明します</em>
     <br>
   </td>
   <td valign="top">
@@ -66,14 +69,14 @@ source-git-commit: 859fa22e39233eb5d87475de3a2bf03492f1fe4b
 
 * [リリースノート](rn/using/release-notes.md)
 
-* [コントロールパネル](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
+* [コントロールパネル](https://docs.adobe.com/content/help/ja-JP/control-panel/using/control-panel-home.translate.html)
 
 * [ハウツービデオ](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)
 
-* [リリース計画ガイド](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
+* [リリース計画ガイド](https://helpx.adobe.com/jp/campaign/kb/acs-release-planning.html)
 
-* [廃止および削除された機能](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+* [廃止および削除された機能](https://helpx.adobe.com/jp/campaign/kb/acs-deprecated-and-removed-features.html)
 
-* [テクニカルノート](https://helpx.adobe.com/campaign/kb/acs-article-list.html)
+* [テクニカルノート](https://helpx.adobe.com/jp/campaign/kb/acs-article-list.html)
 
-* [Adobe Campaign Standard 実装ガイド](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html)
+* [Adobe Campaign Standard 実装ガイド](https://helpx.adobe.com/jp/campaign/kb/campaign-standard-implementation-guide.html)
