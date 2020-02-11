@@ -12,7 +12,7 @@ discoiquuid: a51351ee-e3b6-4996-9e68-b7d5157b8207
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -32,7 +32,7 @@ source-git-commit: fc9c6371732aa0eba9e675d2709cd62c25b27b96
    >
    >キャンペーンから過剰に要求されるプロファイルを自動的に除外する、グローバルなチャネル間疲労ルールを設定できます。 疲労ル [ールを参照](../../administration/using/fatigue-rules.md)。
 
-1. 校正を送信します。 詳しくは、「校正 [の送信」を参照](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs)。
+1. 校正を送信します。 詳しくは、「校正 [の送信」を参照](../../sending/using/sending-proofs.md)。
 1. メッセージを送信し、配信を確認します。 メッセージの送 [信を参照](../../sending/using/confirming-the-send.md)。
 1. 専用の配信レポートを確認します。 詳しくは、レポートへ [のアクセスを参照してくださ](../../reporting/using/about-dynamic-reports.md)い。
 
