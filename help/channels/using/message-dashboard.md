@@ -13,7 +13,7 @@ context-tags: delivery,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0fe16001c57d3ccc2e7d42b94bc14e73d8b47ddb
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: 0fe16001c57d3ccc2e7d42b94bc14e73d8b47ddb
 グレーのバーは、メッセージにリンクされた様々なアイコンを再グループ化します。
 
 * **[!UICONTROL Summary]**:メッセージに関するメイン情報の表示/非表示を切り替えます。
-* **[!UICONTROL Edit properties]**:メッセージの詳細パラメータを編[集できます](../../administration/using/configuring-email-channel.md#list-of-email-properties)。
+* **[!UICONTROL Edit properties]**:メッセージの詳細パラメータを編 [集できます](../../administration/using/configuring-email-channel.md#list-of-email-properties)。
 * **[!UICONTROL Reports]**:メッセージに関連するレポートにアクセスできます。
 
 **関連トピック：**
@@ -47,21 +47,21 @@ source-git-commit: 0fe16001c57d3ccc2e7d42b94bc14e73d8b47ddb
 
 * **[!UICONTROL Show proofs]**:送信された校正が存在する場合は、その一覧を表示/非表示にします。 このボタンは、校正を送信した後にのみ有効になります。
 
-   校正について詳しくは、「テストプロフ [ァイルの管理と校正の送信」を参照してください](../../sending/using/managing-test-profiles-and-sending-proofs.md)。
+   校正について詳しくは、「校正を送信する」を [参照してくださ](../../sending/using/sending-proofs.md)い。
 
-* **[!UICONTROL Send a test]**:使用する承認モードを選択できます。電子メ**[!UICONTROL Email rendering]**&#x200B;ールの場 **[!UICONTROL Proof]**合は、またはその両方を指定します。 テストプロファイルについて詳しくは、「校正の送信」を[参照してくださ](../../sending/using/managing-test-profiles-and-sending-proofs.md#sending-proofs)い。
+* **[!UICONTROL Send a test]**:使用する承認モードを選択できます。電子メ **[!UICONTROL Email rendering]**&#x200B;ールの場 **[!UICONTROL Proof]** 合は、またはその両方を指定します。 テストプロファイルについて詳しくは、「校正の送信」を [参照してくださ](../../sending/using/sending-proofs.md)い。
 
    このボタンは、テストプロファイルを確立した後にのみ有効になります。
 
    >[!NOTE]
    >
-   >SMSメッセージの場合は、他に選択肢はありません。自動的に実行されま **[!UICONTROL Proof]**す。
+   >SMSメッセージの場合は、他に選択肢はありません。自動的に実行されま **[!UICONTROL Proof]**&#x200B;す。
 
-* **[!UICONTROL Prepare send]**:送信の準備を開始します。 ブロッ**[!UICONTROL Deployment]** クが表示され、準備の結果が表示されます。 このボタンは、ターゲットが入力された後にのみ表示されます。 対応するボタンを使用して、いつでも準備を停止できます。
+* **[!UICONTROL Prepare send]**:送信の準備を開始します。 ブロッ **[!UICONTROL Deployment]** クが表示され、準備の結果が表示されます。 このボタンは、ターゲットが入力された後にのみ表示されます。 対応するボタンを使用して、いつでも準備を停止できます。
 
    メッセージの準備について詳しくは、 [送信の準備を参照](../../sending/using/preparing-the-send.md)。
 
-* **[!UICONTROL Confirm send]**:メッセージの送信を確認します。 送信統計がブロックに表示され**[!UICONTROL Deployment]** ます。 このボタンは、送信の準備が完了した後にのみ表示されます。 送信を停止ボタンと停止ボタンを使用して、いつでも送信を停 **止または一時停止で** き **[!UICONTROL Pause]**ます。
+* **[!UICONTROL Confirm send]**:メッセージの送信を確認します。 送信統計がブロックに表示され **[!UICONTROL Deployment]** ます。 このボタンは、送信の準備が完了した後にのみ表示されます。 送信を停止ボタンと停止ボタンを使用して、いつでも送信を停 **止または一時停止で** き **[!UICONTROL Pause]** ます。
 
    送信の確認について詳しくは、「メッセージの送信」を [参照してくださ](../../sending/using/confirming-the-send.md)い。
 
@@ -71,10 +71,10 @@ source-git-commit: 0fe16001c57d3ccc2e7d42b94bc14e73d8b47ddb
 
 ![](assets/delivery_dashboard_3.png)
 
-* **[!UICONTROL Deployment]**:メッセージの準備または送信の進行状況を追跡できます。 このブロックの右下にあるボタンをクリックして、送信および分析ログにアクセスします。 このブロックは、送信の準備が完了した後にのみ表示されます。 詳しくは、 送信の確[認を参照してください](../../sending/using/confirming-the-send.md)。
-* **[!UICONTROL Audience]**:メッセージのメインターゲットとテストプロファイルを確立できます。 オーディエ[ンスの作成を参照してくださ](../../audiences/using/creating-audiences.md)い。
-* **[!UICONTROL Schedule]**:メッセージの送信日を指定できます。 スケジュール[を参照](../../sending/using/about-scheduling-messages.md)。
-* **[!UICONTROL Content]**:メッセージの内容を定義し、プレビューできます。 See[Key steps to send a message](../../channels/using/key-steps-to-send-a-message.md).
+* **[!UICONTROL Deployment]**:メッセージの準備または送信の進行状況を追跡できます。 このブロックの右下にあるボタンをクリックして、送信および分析ログにアクセスします。 このブロックは、送信の準備が完了した後にのみ表示されます。 詳しくは、 送信の確 [認を参照してください](../../sending/using/confirming-the-send.md)。
+* **[!UICONTROL Audience]**:メッセージのメインターゲットとテストプロファイルを確立できます。 オーディエ [ンスの作成を参照してくださ](../../audiences/using/creating-audiences.md)い。
+* **[!UICONTROL Schedule]**:メッセージの送信日を指定できます。 スケジュール [を参照](../../sending/using/about-scheduling-messages.md)。
+* **[!UICONTROL Content]**:メッセージの内容を定義し、プレビューできます。 See [Key steps to send a message](../../channels/using/key-steps-to-send-a-message.md).
 
 ## 警告 {#warnings}
 
