@@ -1,19 +1,19 @@
 ---
 title: アプリ内メッセージのカスタマイズ
 description: 様々なオプションを使用してアプリ内メッセージをカスタマイズする方法について説明します。
-page-status-flag: 非活性化の
+page-status-flag: never-activated
 uuid: 1d9c08ed-4de5-440d-bf51-4a437eec67d5
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: チャネル
-content-type: 参照
-topic-tags: アプリ内メッセージ
+audience: channels
+content-type: reference
+topic-tags: in-app-messaging
 discoiquuid: c9c3e033-e319-447b-8d87-ff7dd4941876
-context-tags: 配信，inAppContent，戻る
+context-tags: delivery,inAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 ---
 
@@ -190,11 +190,11 @@ HTMLを読み込むと、プレビューウィンドウの様々なデバイス�
 
 アプリ内メッセージを送信する前に、テストプロファイルを使用してテストを行い、配信を受け取ったターゲットのオーディエンスに対して表示される内容を確認できます。
 
-1. Click the **[!UICONTROL Preview]** button.
+1. ボタンをクリッ **[!UICONTROL Preview]** クします。
 
    ![](assets/inapp_sending_2.png)
 
-1. ボタンをクリッ **[!UICONTROL Select a test profile]** クし、テストプロファイルの1つを選択して、配信のプレビューを開始します。 For more information on test profiles, refer to this [section](../../sending/using/managing-test-profiles-and-sending-proofs.md).
+1. ボタンをクリッ **[!UICONTROL Select a test profile]** クし、テストプロファイルの1つを選択して、配信のプレビューを開始します。 For more information on test profiles, refer to this [section](../../audiences/using/managing-test-profiles.md).
 1. Android、iPhone、タブレットなど、様々なデバイスでメッセージを確認します。 また、パーソナライゼーションフィールドが正しいデータを取得しているかどうかを確認することもできます。
 
    ![](assets/inapp_sending_3.png)
