@@ -1,18 +1,18 @@
 ---
 title: 疲労ルール
 description: 疲労ルールを作成して、プロファイルを使用した過剰なコミュニケーションを管理します。
-page-status-flag: 非活性化の
+page-status-flag: never-activated
 uuid: fa5e3ded-36c2-4f16-b97a-119b85adf679
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 管理
-content-type: 参照
-topic-tags: 活字体系ルール
+audience: administration
+content-type: reference
+topic-tags: working-with-typology-rules
 discoiquuid: 4337a80b-0fb9-4a37-bce3-fe2121a66586
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 5f4a7f249a47def6776d8787b066e3d8256c3528
 
 ---
 
@@ -56,7 +56,7 @@ To create and configure a **[!UICONTROL Fatigue]** typology rule, apply the foll
 
    ![](assets/fatigue5.png)
 
-1. タブで、プ **[!UICONTROL General]** ロファイルごとの最大メッセージ数の計算方法を定義します。 一定のしきい値または変数を選択できます。 また、プロファイルと配信のしきい値を調整することもできます。 詳しくは、しきい値の定義を参照 [してください](#defining-the-threshold)。
+1. タブで、プ **[!UICONTROL General]** ロファイルごとの最大メッセージ数の計算方法を定義します。 一定のしきい値または変数を選択できます。 また、プロファイルと配信のしきい値を調整することもできます。 For more on this, refer to [Defining the threshold](#defining-the-threshold).
 
    ![](assets/fatigue2.png)
 
@@ -82,7 +82,7 @@ To create and configure a **[!UICONTROL Fatigue]** typology rule, apply the foll
 
 ![](assets/fatigue16.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >疲労ルールを機能させるには、搬送の連絡日を定義する必要があります。 メッセージをすぐに送信する場合は、疲労ルールは適用されません。
 
@@ -101,7 +101,7 @@ To create and configure a **[!UICONTROL Fatigue]** typology rule, apply the foll
 * ダイレクトメール
 * モバイルアプリケーション：このチャネルを使用すると、プッシュ通知をプロファイルやアプリのサブスクリプションに送信できます。 プロファイルに通知を送信する場合は、複数チャネルの疲労ルールと互換性があります。
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >疲労ルールは、アプリの購読者に送信されるプッシュ通知と互換性がありません。 アプリの購読者にメッセージを送信する場合、疲労ルールは適用されません。
 
