@@ -13,7 +13,7 @@ context-tags: delivery,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aa92475c1f8b37f995ebdc74c4a1f43692a53c21
+source-git-commit: 54612511de07edc3e6f3eea34ef095c26b35f4af
 
 ---
 
@@ -24,20 +24,20 @@ source-git-commit: aa92475c1f8b37f995ebdc74c4a1f43692a53c21
 
 * **メッセージログ**:これらのログは、メッセージダッシュボードから直接アクセスできます。 送信の詳細、ターゲットが除外された理由、および開封数やクリック数などの追跡情報が表示されます。
 
-   メッセージログを表示するには、ブロックの右下にあるアイコンをクリックし **[!UICONTROL Deployment]**ます。
+   メッセージログを表示するには、ブロックの右下にあるアイコンをクリックし **[!UICONTROL Deployment]** ます。
 
-   いくつかのタブには、、、、およびに関する情報(存在する場 **[!UICONTROL Sending logs]**合)が**[!UICONTROL Exclusion logs]**&#x200B;含ま **[!UICONTROL Exclusion causes]**れて**[!UICONTROL Tracking logs]** いま **[!UICONTROL Tracked URLs]**す。 「配信[ログ」を参照](#delivery-logs)。
+   いくつかのタブには、、、、およびに関する情報(存在する場 **[!UICONTROL Sending logs]**&#x200B;合)が **[!UICONTROL Exclusion logs]**&#x200B;含ま **[!UICONTROL Exclusion causes]**&#x200B;れて **[!UICONTROL Tracking logs]** いま **[!UICONTROL Tracked URLs]**&#x200B;す。 「配信 [ログ」を参照](#delivery-logs)。
 
    ![](assets/sending_delivery1.png)
 
    ログには、配信と校正に関するすべてのメッセージが含まれます。 特定のアイコンを使用すると、エラーや警告を識別できます。 詳しくは、「メッセージの承認」を参 [照してください](../../sending/using/previewing-messages.md)。
 
-   ボタンをクリックしてログを書き出すことがで **[!UICONTROL Export list]**きます。
+   ボタンをクリックしてログを書き出すことがで **[!UICONTROL Export list]** きます。
 
    ![](assets/sending_delivery2.png)
 
 * **配信アラート**:配信の成功または失敗を追跡するために、Adobe Campaignは、重要なシステムアクティビティをユーザーに通知する通知を送信する電子メールアラートシステムを提供します。
-* **レポート**:メッセージダッシュボードから、この特定のメッセージに関する複数のレポートにアクセスできます。 また、組み込みレポ **[!UICONTROL Reports]**ートやカスタムレポートの完全なリストにアクセスできるメニューもあり、メッセージやキャンペーンに関連する特定の指標の概要を示すのに使用できます。
+* **レポート**:メッセージダッシュボードから、この特定のメッセージに関する複数のレポートにアクセスできます。 また、組み込みレポ **[!UICONTROL Reports]** ートやカスタムレポートの完全なリストにアクセスできるメニューもあり、メッセージやキャンペーンに関連する特定の指標の概要を示すのに使用できます。
 * 管理者は、独自のレポートまたはBIツールで処理できる別のファイルにログをエクスポートすることもできます。 詳しくは、「ログの書き出し」を参照 [してください](../../automating/using/exporting-logs.md)。
 
 **関連トピック：**
@@ -49,9 +49,9 @@ source-git-commit: aa92475c1f8b37f995ebdc74c4a1f43692a53c21
 
 ### ログの送信 {#sending-logs}
 
-このタ **[!UICONTROL Sending logs]**ブには、この配信のすべての発生の履歴が表示されます。 送信されたメッセージとそのステータスのリストがここに保存されます。 各受信者の配信ステータスを表示できます。
+このタ **[!UICONTROL Sending logs]** ブには、この配信のすべての発生の履歴が表示されます。 送信されたメッセージとそのステータスのリストがここに保存されます。 各受信者の配信ステータスを表示できます。
 
-ステータスを持つ各プロファ **[!UICONTROL Sent]**イルに対して、**[!UICONTROL Date]** この列にはメッセージの送信日時が表示されます。
+ステータスを持つ各プロファ **[!UICONTROL Sent]** イルに対して、 **[!UICONTROL Date]** この列にはメッセージの送信日時が表示されます。
 
 ![](assets/sending_delivery3.png)
 
@@ -65,16 +65,16 @@ source-git-commit: aa92475c1f8b37f995ebdc74c4a1f43692a53c21
 
 >[!NOTE]
 >
->ミラーページサーバのURLがセキュリティで保護されていない場合(https://で始まらない場合)、Campaignユーザーインターフェイスからミラーページのレンダリングを表示できません。 このサーバは、ブランドの設定時 [に定義されます](../../administration/using/branding.md#configuring-and-using-brands)。
+>ミラーページのレンダリングをCampaignユーザーインターフェイスに表示するには、ミラーページサーバーのURLがセキュリティで保護されている必要があります。 この場合、ブランドの設定時に、http://ではなくhttps://を使用してこのURL [を設定します](../../administration/using/branding.md#configuring-and-using-brands)。
 
 ### 除外ログ {#exclusion-logs}
 
-このタ **[!UICONTROL Exclusion logs]**ブには、送信されたターゲットから除外されたすべてのメッセージが一覧表示され、送信失敗の理由が示されます。
+このタ **[!UICONTROL Exclusion logs]** ブには、送信されたターゲットから除外されたすべてのメッセージが一覧表示され、送信失敗の理由が示されます。
 
 ![](assets/sending_delivery4.png)
 
 ### 除外の原因 {#exclusion-causes}
 
-タブ **[!UICONTROL Exclusion causes]**には、ターゲット送信から除外されたメッセージの量（メッセージ数）が表示されます。
+タブ **[!UICONTROL Exclusion causes]** には、ターゲット送信から除外されたメッセージの量（メッセージ数）が表示されます。
 
 ![](assets/sending_delivery5.png)
