@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e119ee1dc605b4f0ca48cd79fcdf2ad38d6b1440
+source-git-commit: 8b02b81ef27c8415bc5bcce41178dfbfc90670cf
 
 ---
 
@@ -20,6 +20,12 @@ source-git-commit: e119ee1dc605b4f0ca48cd79fcdf2ad38d6b1440
 # 最新リリース{#latest-release}
 
 [リリース計画](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) |コント [ロールパネルのリリース](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) |ドキュ [メントの更新](../../rn/using/documentation-updates.md) |以前の [リリースノート](../../rn/using/release-notes-2019.md) |非推 [奨の機能](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+
+## リリース20.1.2 - 2020年2月 {#release-20-1-2---february-2020}
+
+**電子メールデザイナーの機能強化**
+
+パッチを適用してコンテンツを保存する際に、古いフラグメントにHTMLタグ要素が追加される問題を修正しました。 (CAMP-40685)動的コンテンツを使用する場合にスペースが追加される問題を修正しました。 (CAMP-40605)トランザクション電子メールテンプレートを設定する際の問題を修正しました。 (CAMP-40604)
 
 ## リリース20.1 - 2020年2月 {#release-20-1---february-2020}
 
@@ -90,9 +96,9 @@ source-git-commit: e119ee1dc605b4f0ca48cd79fcdf2ad38d6b1440
 * プライバシーの削除要求を実行すると、ユーザーデータが除外ログで削除されない問題を修正しました。 (CAMP-39003)
 * コンテナ要素内のテキストのサイズを変更するとアクセシビリティの問題が発生する問題を修正しました。
 * マーケティングアクティビティでカーソルを合わせたときに表示されるカレンダーポップアップをユーザーが閉じられない問題を修正しました。
-* データが変更されていない場合で **[!UICONTROL External API]**もボタンが表示されるア**[!UICONTROL Confirm]** クティビティの問題を修正しました。
-* 異なるターゲットディメンションを持つクエリ **[!UICONTROL Union]**ーでアクティビティを使用する場合の問題を修正しました。 移行データには、メインセットのターゲットディメンションのレコードのみが表示されました。 (CAMP-36831)
-* 特定のコンテキストでアクティビティを使用する場合、例えば2つの受信アクティビティを使用する場合に、そのうち1つが除外アクティビティであるというエラーが発生する可能性がある問題を修正しました。 **[!UICONTROL Reconciliation]**(CAMP-37490)
+* データが変更されていない場合で **[!UICONTROL External API]** もボタンが表示されるア **[!UICONTROL Confirm]** クティビティの問題を修正しました。
+* 異なるターゲットディメンションを持つクエリ **[!UICONTROL Union]** ーでアクティビティを使用する場合の問題を修正しました。 移行データには、メインセットのターゲットディメンションのレコードのみが表示されました。 (CAMP-36831)
+* 特定のコンテキストでアクティビティを使用する場合、例えば2つの受信アクティビティを使用する場合に、そのうち1つが除外アクティビティであるというエラーが発生する可能性がある問題を修正しました。 **[!UICONTROL Reconciliation]** (CAMP-37490)
 * テストプロファイルを選択して更新する際に発生する可能性があるパフォーマンスの問題を修正しました。 (CAMP-37976)
 * ランディングページを購読または購読解除する際にエラーページが表示される問題を修正しました。 (CAMP-37771)
 * HTMLで参照されているPNGファイルを大文字で拡張子と共にZIP形式でコンテンツをアップロードする際に発生していた問題を修正しました。 (CAMP-37913)
