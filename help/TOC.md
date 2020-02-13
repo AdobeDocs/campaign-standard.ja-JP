@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+source-git-commit: f0d2f7af6510443ea42d21e57a9648ed99bb00c1
 
 ---
 
@@ -294,7 +294,7 @@ source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
       + [メールを開封していないユーザーの再ターゲティング](automating/using/workflow-cross-channel-retargeting.md)
       + [コントロール母集団の作成](automating/using/workflow-control-group.md)
       + [チャネル間配信の作成](automating/using/workflow-cross-channel-delivery.md)
-   + Adobe Experience Platform オーディエンスの使用 {working-with-aep-audiences}
+   + Adobe Experience Platform オーディエンスの使用 {#working-with-aep-audiences}
       + [Adobe Experience Platform オーディエンスのターゲティング](automating/using/aep-targeting-audiences.md)
       + [Adobe Experience Platform 属性を使用したキャンペーンのパーソナライズ](automating/using/aep-personalizing-campaigns.md)
 + 開発中{#developing}
