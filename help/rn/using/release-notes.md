@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51408477f18725e95d3c2bd48394e776fbbe3d1d
+source-git-commit: 9e6648af4f0918904fc232e407a1cb6f237efcbc
 
 ---
 
@@ -20,6 +20,10 @@ source-git-commit: 51408477f18725e95d3c2bd48394e776fbbe3d1d
 # 最新リリース{#latest-release}
 
 [リリース計画](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) |コント [ロールパネルのリリース](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) |ドキュ [メントの更新](../../rn/using/documentation-updates.md) |以前の [リリースノート](../../rn/using/release-notes-2019.md) |非推 [奨の機能](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+
+## リリース20.1.3 - 2020年2月 {#release-20-1-3---february-2020}
+
+* 20.1でCAMP-39273によって導入された、ループホールを使用するお客様の回帰の問題を修正しました。 39273年、キャンプを取り消した。
 
 ## リリース20.1.2 - 2020年2月 {#release-20-1-2---february-2020}
 
@@ -116,3 +120,4 @@ source-git-commit: 51408477f18725e95d3c2bd48394e776fbbe3d1d
 * 動的レポートで、購読解除数に相違が生じる問題を修正しました。 (CAMP-39949)
 * アプリ内メッセージを送信する際に、アドレスがログの送信画面に表示されない問題を修正しました。
 * SMS送信ログが正しいバウンス数で更新されない問題を修正しました。 (CAMP-38395)
+* アプリケーションのサブスクリプションPOST呼び出しでプッシュ通知トークンを更新できるループホールを修正しました。 (CAMP-39273)
