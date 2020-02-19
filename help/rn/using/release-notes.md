@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9e6648af4f0918904fc232e407a1cb6f237efcbc
+source-git-commit: 4a3a6930609ab27949d77ccc8a73d9a3a62edb98
 
 ---
 
@@ -89,6 +89,8 @@ source-git-commit: 9e6648af4f0918904fc232e407a1cb6f237efcbc
 * テキストエディターからテキストをコピーして貼り付けできない問題を修正しました。 (CAMP-39028)
 * サーチクエリが表示されない問題を修正しました。 (CAMP-38970)
 * ユーザーがフラグメントを保存できない問題を修正しました。 (ATU-2447)
+* 動的構造を複製できない問題を修正しました。 (CAMP-38367)
+* 動的コンテンツを複製した場合に、条件が保持されない問題を修正しました。 (CAMP-39051)
 
 **その他の変更**
 
