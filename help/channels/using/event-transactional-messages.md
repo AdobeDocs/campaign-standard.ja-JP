@@ -95,7 +95,7 @@ source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
 
 1. この例では、イベントの作成時に定義した3つのフィールドを追 [加します](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message)。名前、最後に問い合わせた製品、買い物かごの合計金額。 これを行うには、メッセージ [コンテンツにパーソナライゼーション](../../designing/using/personalization.md#inserting-a-personalization-field) フィールドを挿入します。
 
-1. > >の順に選択して、該当するフ **[!UICONTROL Context]** ィールド **[!UICONTROL Real-time event]** を探しま **[!UICONTROL Event context]**&#x200B;す。
+1. &#x200B;> >の順に選択して、該当するフ **[!UICONTROL Context]** ィールド **[!UICONTROL Real-time event]** を探しま **[!UICONTROL Event context]**&#x200B;す。
 
    ![](assets/message-center_7.png)
 
