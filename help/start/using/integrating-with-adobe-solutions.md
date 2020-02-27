@@ -1,18 +1,18 @@
 ---
 title: アドビのソリューションとの統合について
 description: Adobe Experience cloudコアサービスおよびAdobe AnalyticsやExperience Managerなどのソリューションとの統合により、詳細なインサイトと便利なコンテンツ管理を使用してAdobe Campaign戦略を改善する方法について説明します。
-page-status-flag: 非活性化の
+page-status-flag: never-activated
 uuid: e142e449-1cf4-4d3f-a318-6572d78e6f85
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 開始
-content-type: 参照
+audience: start
+content-type: reference
 topic-tags: about-adobe-campaign
 discoiquuid: 3aebc89c-ed08-46ab-909c-e077ce2ab5da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 3cbb1b6e1697384be2eae3187fd89359628cd8da
 
 ---
 
@@ -54,10 +54,6 @@ Adobe Experience cloudソリューションとAdobe Campaignを組み合わせ�
 * Adobe AnalyticsがWebサイト上で追跡する特定の行動に対する反応として、Adobe Campaignで顧客にパーソナライズされた電子メールを送信します。
 
    この機能について詳しくは、「Campaign StandardでのExperience Cloud Triggers [の使用」を参照してください](../../integrating/using/about-adobe-experience-cloud-triggers.md)。
-
-* 画像を編集し、Adobe Creative SDKが提供する機能をすべて使用して、コンテンツエディターで直接画像を強調します
-
-   詳しくは、Adobe Creative SDKを使用し [た画像の変更を参照してください](../../designing/using/images.md#modifying-images-with-the-adobe-creative-sdk)
 
 * Adobe Experience Platform SDKを使用して、Adobe Campaignでのモバイルアプリのプロパティアクティベーションプロセスを自動化します。
 
