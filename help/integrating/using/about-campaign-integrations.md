@@ -12,7 +12,7 @@ discoiquuid: 9633e9ca-3323-499b-8259-45165d59a4d0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
+source-git-commit: 3cbb1b6e1697384be2eae3187fd89359628cd8da
 
 ---
 
@@ -96,11 +96,6 @@ source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
    <td> 
     <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">Dreamweaverビデオを使用したパーソナライズされた電子メ</a> ールの作成 <br/>、Dreamweaver用Campaign拡 <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">張機能の使用</a> 
   </td> 
-  </tr> 
-  <tr> 
-   <td> Creative SDK<br /> </td> 
-   <td> 画像を編集し、Adobe Creative SDKを利用した機能セットを使用して、コンテンツエディターで直接画像を拡張できます。<br /> </td> 
-   <td> <a href="../../designing/using/images.md#modifying-images-with-the-adobe-creative-sdk">Adobe Creative SDKを使用した画像の変更</a><br /> </td> 
   </tr> 
   <tr> 
    <td> エクスペリエンスプラットフォームSDK<br /> </td> 
