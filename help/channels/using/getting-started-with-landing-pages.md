@@ -13,7 +13,7 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
+source-git-commit: c71c207d724dac914935b3667527a3ce4403dd63
 
 ---
 
@@ -44,12 +44,12 @@ source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 **データの書き込みと更新**
 
-* ランディングページは、およびリソ **[!UICONTROL Profile]**ースに**[!UICONTROL Subscription]** のみ制限されます。 レコードは、の購読/購読解除から **[!UICONTROL Profile]**保存および更新できます**[!UICONTROL Service]**。
+* ランディングページは、およびリソ **[!UICONTROL Profile]** ースに **[!UICONTROL Subscription]** のみ制限されます。 レコードは、の購読/購読解除から **[!UICONTROL Profile]** 保存および更新できます **[!UICONTROL Service]**。
 リソース設定の詳細については、「リソースの [データ構造の設定」を参照してください](../../developing/using/configuring-the-resource-s-data-structure.md)。
 
 >[!CAUTION]
 >
->ランディングページは、および以外のリソースのデータを表示または更新すること **[!UICONTROL Profile]**はできま**[!UICONTROL Subscription]**&#x200B;せん。
+>ランディングページは、および以外のリソースのデータを表示または更新すること **[!UICONTROL Profile]** はできま **[!UICONTROL Subscription]**&#x200B;せん。
 
 **プリロード**
 
@@ -79,7 +79,7 @@ source-git-commit: 2d8a46a53f2abd453aaf0ff8322b7f9b942ec1c6
 
 ランディングページを設定する前に、最初の手順は、ニーズに対応したランディングページテンプレートを設定することです。 テンプレートの準備が整うと、それに基づくすべてのランディングページが、必要なパラメーターで事前設定されます。
 
-1. 詳細メニューのAdobe Campaignロゴで、 **[!UICONTROL Resources]**/**[!UICONTROL Templates]** /を選択 **[!UICONTROL Landing page templates]**し、使用するテンプレートを複製します。
+1. 詳細メニューのAdobe Campaignロゴで、 **[!UICONTROL Resources]** / **[!UICONTROL Templates]** /を選択 **[!UICONTROL Landing page templates]**&#x200B;し、使用するテンプレートを複製します。
 1. テンプレートプロパティで、ランディングページに共通する必要のあるすべてのパラメーターを指定します。 例：ターゲットディメンション、識別された訪問者または識別されなかった訪問者のページアクセスパラメーター、訪問者によるフォーム検証に固有のアクション、コンテンツで使用するブランド/ロゴなど。 ランディングページのプロパティの詳細については、この節を参照 [してください](../../channels/using/configuring-landing-page.md)
 1. 変更を保存します。
 
@@ -128,9 +128,9 @@ For more on landing page templates, refer to [this section](../../channels/using
 
 ランディングページのテスト方法の詳細については、この節を参照 [してください](../../channels/using/testing-publishing-landing-page.md#testing-the-landing-page-)。
 
-## ランディングページの公開手順 {#publish-the-landing-page}
+## 手順5 — ランディングページを公開する {#publish-the-landing-page}
 
-テストが正常に完了したら、ダッシュボードのアクションバーのボタンを使用してラ **[!UICONTROL Publish]**ンディングページを公開できます。 監視ブロックは、パブリケーションの進行状況とステータスを示します。
+テストが成功したら、ダッシュボードのアクションバーのボタンを使用してラ **[!UICONTROL Publish]** ンディングページを公開できます。 監視ブロックは、パブリケーションの進行状況とステータスを示します。
 
 ランディングページを公開すると、オンラインでアクセスできるようになります。 公開後は、いつでも更新できます。これを行うには、各変更後に再公開する必要があります。 また、ランディングページをいつでも非公開にして、使用できなくすることもできます。
 
