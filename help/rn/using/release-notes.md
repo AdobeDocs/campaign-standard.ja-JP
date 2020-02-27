@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4a3a6930609ab27949d77ccc8a73d9a3a62edb98
+source-git-commit: 14f764b92fef81c06551fb0f13b11b41e94095f0
 
 ---
 
@@ -98,6 +98,8 @@ source-git-commit: 4a3a6930609ab27949d77ccc8a73d9a3a62edb98
 * Administratorsセキュリティグループの組織単位は変更できなくなりました。
 * プロファイルを作成する場合は、「組織単位」フィールドに入力する必要があります。
 * Experience cloudトリガーは、イベントと、そのイベントにリンクされているトランザクションテンプレートの両方が削除された場合にのみ削除できるようになりました。
+* Adobe Creative SDKは廃止されました。 Campaign Standardでは廃止されました。 廃止および削 [除された機能のページを参照](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)。
+
 
 **パッチ**
 
