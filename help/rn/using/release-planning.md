@@ -12,12 +12,12 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6ffbf03a7eb4fc1b5bfbd523c0c5342d41cfd211
+source-git-commit: 184a878f7be573a6b45a3a2853c07029432392f0
 
 ---
 
 
-# キャンペーン標準リリース計画 {#release-planning}
+# リリース計画 {#release-planning}
 
 アドビは、新しい機能、拡張機能および修正を追加して、ソリューションを継続的に強化しています。
 
@@ -29,7 +29,7 @@ source-git-commit: 6ffbf03a7eb4fc1b5bfbd523c0c5342d41cfd211
 
 Adobe Experience cloudの最新リリ [ースの詳細を受信トレイに直接入手するには](https://www.adobe.com/subscription/priority-product-update.html) 、リリース通知を受信するように登録してください。
 
-## リリース20.1.3 - 2月のリリースアップデート {#release-20-1-3---february-release-update}
+## リリース20.1.4 - 2月のリリースアップデート {#release-20-1-4---february-release-update}
 
 環境の更新は、次に示す時間枠内で波状に発生します。 このリリースに関する詳細は、リリースノートを参照 [してください](../../rn/using/release-notes.md)。 その他のご質問は、 [Adobe ClientCareにお問い合わせください](https://support.neolane.net/webApp/extranetLogin)。
 
