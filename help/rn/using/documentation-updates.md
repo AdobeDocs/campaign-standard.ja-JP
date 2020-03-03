@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+source-git-commit: 09a41719e7c857c87607a29a08bc819752d88fd2
 
 ---
 
@@ -24,6 +24,18 @@ Adobe Campaign Standardドキュメントの最新の更新について説明し
 このページには、Adobe Campaign Standardの各リリースに関するすべての新機能とドキュメントの更新の一覧が記載されています。
 
 また、『Adobe Campaignリリースノート』を参照する [こともできます](../../rn/using/release-notes.md)。
+
+## ドキュメントの更新 — 2020年3月 {#doc-updates-march-2020}
+
+SDK V4の減価償却を反映して、モバイルアプリケーションの設定に関するドキュメントと関連ページが更新されました。 [詳細を表示](https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq)
+
+Adobe Campaign Standard/Adobe Experience Manager統合ドキュメントが更新され、改善されました。 [詳細を表示](../../integrating/using/configure-experience-manager.md)
+
+キャンペーン電子メールデザイナーのドキュメントと関連ページが更新され、Adobe Creative SDKの減価償却が反映されました。 [詳細を表示](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+
+キャンペーン標準データモデルのベストプラクティスに関する新しいセクションが提供されました。 [詳細を表示](../../developing/using/data-model-best-practices.md)
+
+すぐに使用できる右側に **[!UICONTROL Workflow]** 情報が追加されました。 [詳細を表示](../../administration/using/list-of-roles.md)
 
 ## リリース20.1 - 2019年2月 {#release-20-1---february-2020}
 
