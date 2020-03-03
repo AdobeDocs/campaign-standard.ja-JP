@@ -13,35 +13,38 @@ context-tags: role,overview;role,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e31e8c63fa94d190211c7a51e7f1091657c9f479
+source-git-commit: 88d0f67683c5209ccf25d1ceae1ab23b3ac14e06
 
 ---
 
 
 # 役割のリスト{#list-of-roles}
 
-デフォルトでは、Adobe Campaignには一連のロールが用意されており、ユーザーおよびユーザーグループに割り当てられた一元的な承認を定義できます。 組織単位と組み合わせて、ユーザーはインターフェイスをフィルター表示し、様々な機能へのアクセスを定義できます。 詳しくは、「ロールと権限」の表 [を参照してください](/help/administration/using/assets/acs_rights.pdf)。
+デフォルトでは、Adobe Campaignには一連のロールが用意されており、ユーザーおよびユーザーグループに割り当てられた一元的な承認を定義できます。
+
+組織単位と組み合わせて、ユーザーはインターフェイスをフィルター表示し、様々な機能へのアクセスを定義できます。
+
+詳しくは、「ロールと権限」( [Roles and permissions](/help/administration/using/assets/acs_rights.pdf))テーブルを参照してください。このテーブルには、選択した承認に応じて、インターフェイスで使用できる機能の詳細が表示されます。
 
 ![](assets/user_management_3.png)
 
-役割はメニューから管理でき **[!UICONTROL Administration > Users & Security > Roles]**ます。
+役割はメニューから管理でき **[!UICONTROL Administration > Users & Security > Roles]** ます。
 
 デフォルトの権限は次のとおりです。
 
 * **[!UICONTROL Administration]**:汎用管理権限。
 * **[!UICONTROL Datamodel]**:パブリケーションを実行し、カスタムリソースを作成する権限。
 * **[!UICONTROL Export]**: データのエクスポート権限.
-* **[!UICONTROL Generic import]**:データに対して汎用インポートを実行する権限。 これを機能させるには、ロールをロールにリン**[!UICONTROL Generic import]** クする必要があ **[!UICONTROL Workflow]**ります。
+* **[!UICONTROL Generic import]**:データに対して汎用インポートを実行する権限。 これを機能させるには、ロールをロールにリン **[!UICONTROL Generic import]** クする必要があ **[!UICONTROL Workflow]** ります。
 * **[!UICONTROL Prepare deliveries]**:配信の作成、変更、準備および削除を行う権限。 このロールを持つユーザーは、配信を準備できますが、送信することはできません。
 * **[!UICONTROL Start deliveries]**:配信の作成、変更、準備、送信および削除を行う権限。
-* **[!UICONTROL Workflow]**:ワークフローの作成、変更、開始および削除を行う権限です。 このロールを持つユーザーは、ワークフロー内でも配信を送信できません。
+* **[!UICONTROL Workflow]**:ワークフローの実行を管理する権利（開始、停止、一時停止など）。 このロールを持つユーザーは、ワークフロー内でも配信を送信できません。
 
 >[!IMPORTANT]
 >
->、、、 **[!UICONTROL Deliverability]**および**[!UICONTROL Command execution]**&#x200B;役割 **[!UICONTROL Export]**は、**[!UICONTROL File access]** アドビ **[!UICONTROL Message Center push]**管理者の内部使用のみを目的としています。 ユーザに与えるべきではありません。
+>、、、 **[!UICONTROL Deliverability]**&#x200B;および **[!UICONTROL Command execution]**&#x200B;役割 **[!UICONTROL Export]**&#x200B;は、 **[!UICONTROL File access]** アドビ **[!UICONTROL Message Center push]** 管理者の内部使用のみを目的としています。 ユーザに与えるべきではありません。
 
 **関連トピック：**
 
 * [アクセス管理について](../../administration/using/about-access-management.md)
 * [グループとユーザーの管理](../../administration/using/managing-groups-and-users.md)
-
