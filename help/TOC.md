@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 1eef92e12050a9d08f897cf737a967532cd85ff9
+source-git-commit: 941ecc3acf1478dfea25f0e85059a3421888ae29
 
 ---
 
@@ -94,6 +94,7 @@ source-git-commit: 1eef92e12050a9d08f897cf737a967532cd85ff9
       + [プッシュ通知の準備と送信](channels/using/preparing-and-sending-a-push-notification.md)
       + [プッシュ通知のカスタマイズ](channels/using/customizing-a-push-notification.md)
       + [多言語プッシュ通知の作成](channels/using/creating-a-multilingual-push-notification.md)
+      + [多言語プッシュ通知用のCSVファイルの生成](channels/using/generating-csv-multilingual-push.md)
       + [モバイルアプリケーションデータに基づくプロファイル情報の作成と更新](channels/using/updating-profile-with-mobile-app-data.md)
    + アプリ内メッセージ{#in-app-messaging}
       + [アプリ内メッセージについて](channels/using/about-in-app-messaging.md)
@@ -199,6 +200,7 @@ source-git-commit: 1eef92e12050a9d08f897cf737a967532cd85ff9
    + [Campaign 統合について](integrating/using/about-campaign-integrations.md)
    + Campaign と Experience Manager の使用{#working-with-campaign-and-experience-manager}
       + [Campaign-Experience Manager 統合について](integrating/using/integrating-with-experience-manager.md)
+      + [Campaign-Experience Manager統合の設定](integrating/using/configure-experience-manager.md)
       + [Adobe Experience Manager での電子メールコンテンツの作成](integrating/using/creating-email-experience-manager.md)
       + [Experience Manager での Campaign フォームの作成](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
    + Campaign と Target の使用{#working-with-campaign-and-target}
@@ -214,7 +216,7 @@ source-git-commit: 1eef92e12050a9d08f897cf737a967532cd85ff9
       + [Audience Manager または People コアサービスとの統合のプロビジョニングと設定](integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
       + [トラブルシューティング](integrating/using/troubleshooting.md)
       + [Audience Manager または People コアサービスのオーディエンスを共有](integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
-   + [Campaign と Assets コアサービスの使用](integrating/using/working-with-campaign-and-assets-core-service.md)
+      + [Campaign と Assets コアサービスの使用](integrating/using/working-with-campaign-and-assets-core-service.md)
    + Mobile 用の Campaign と Analytics の使用{#working-with-campaign-and-analytics-for-mobile}
       + [Campaign と POI データの統合について](integrating/using/about-campaign-points-of-interest-data-integration.md)
       + [Campaign と POI データの統合の設定](integrating/using/configuring-campaign-points-of-interest-data-integration.md)
@@ -304,6 +306,7 @@ source-git-commit: 1eef92e12050a9d08f897cf737a967532cd85ff9
       + [データモデルの概念](developing/using/data-model-concepts.md)
       + [リソースのステータス](developing/using/resource-statuses.md)
       + [データモデルの変更の監視](developing/using/monitoring-data-model-changes.md)
+      + [データモデルのベストプラクティス](developing/using/data-model-best-practices.md)
    + リソースの追加または拡張{#adding-or-extending-a-resource}
       + [リソースを追加するための主要な手順](developing/using/key-steps-to-add-a-resource.md)
       + [リソースの作成または拡張](developing/using/creating-or-extending-the-resource.md)
