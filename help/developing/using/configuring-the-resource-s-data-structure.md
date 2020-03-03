@@ -1,19 +1,19 @@
 ---
 title: リソースのデータ構造の設定
 description: データ構造の設定方法を説明します。
-page-status-flag: 非活性化の
+page-status-flag: never-activated
 uuid: 60fe80c0-9df6-4808-a432-60a1977216ea
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 開発中
-content-type: 参照
-topic-tags: リソースの追加または拡張
+audience: developing
+content-type: reference
+topic-tags: adding-or-extending-a-resource
 discoiquuid: 4f22ee35-1d5f-4c75-95b4-3e38b85de26e
 context-tags: cusResource,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: bd83bb520a9822ffa9669076f90e6dc3397c6480
 
 ---
 
@@ -41,8 +41,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    >[!NOTE]
    >
-   >フィールドを空のま **[!UICONTROL Label]** まにすると、IDから自動的に入力されます。
-   >最大30文字を使用することをお勧めします。
+   >最大30文字を使用します。
 
    ![](assets/schema_extension_4.png)
 
@@ -63,10 +62,14 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    これらのフィールドは、データベースの更新後に表示できるデータとメタデータに表示されます。 詳しくは、「データベース構造の更新 [」の節を参照してください](../../developing/using/updating-the-database-structure.md) 。
 
-1. IDを自動的に生 **[!UICONTROL Add automatic ID]** 成するには、フィールドをチェックします。 既存のエンティティは空のままになることに注意してください。
-1. リストと作成手順でリソース要素の名前が表示される方法を変更するには、このボックスをオンにし **[!UICONTROL Personalize the resource title]** ます。 このリソース用に作成したフィールドからフィールドを選択します。
+1. IDを自動的に生 **[!UICONTROL Add automatic ID]** 成するには、フィールドをチェックします。 既存のエンティティは空のままになることに注意してください。 詳しくは、プロファイルおよびカスタムリソ [ースの一意のIDの生成を参照してください](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)。
+1. リストと作成手順でリソース要素の名前が表示される方法を変更するには、このボックスをオンにし **[!UICONTROL Customize the title of the resource elements]** ます。 このリソース用に作成したフィールドからフィールドを選択します。
 
    ![](assets/schema_extension_18.png)
+
+   >[!NOTE]
+   >
+   >このオプションを選択しない場合、このテーブルのすべてのエンティティを一覧表示する際に、自動主キー（エンティティがテーブルに追加されるたびに自動的に作成される）が使用されます。
 
 これで、リソースのフィールドが定義されました。
 
@@ -84,7 +87,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    >[!NOTE]
    >
-   >最大30文字を使用することをお勧めします。
+   >最大30文字を使用します。
 
 1. このキーを構成する要素を定義するには、をクリックし **[!UICONTROL Create element]** て、このリソース用に作成したフィールドを選択します。
 
@@ -93,6 +96,10 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
    作成されたキーがセクションに表示さ **[!UICONTROL Custom keys]** れます。
 
 これで、リソースのIDキーが作成されます。
+
+>[!NOTE]
+>
+>IDキーを作成する際のベストプラクティスについては、この節を参照して [くださ](../../developing/using/data-model-best-practices.md#keys)い。
 
 ## インデックスの定義 {#defining-indexes}
 
@@ -108,22 +115,26 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    >[!NOTE]
    >
-   >最大30文字を使用することをお勧めします。
+   >最大30文字を使用します。
 
 1. このインデックスを構成する要素を定義するには、このリソース用に作成したフィールドからフィールドを選択します。
 
    ![](assets/schema_extension_27.png)
 
-1. Click **[!UICONTROL Confirm]**.
+1. クリック **[!UICONTROL Confirm]**.
 
 作成されたインデックスがセクションのリストに表示さ **[!UICONTROL Index]** れます。
+
+>[!NOTE]
+>
+>インデックス作成時のベストプラクティスについては、この節を参照して [くださ](../../developing/using/data-model-best-practices.md#indexes)い。
 
 ## 他のリソースとのリンクの定義 {#defining-links-with-other-resources}
 
 リンクは、あるテーブルと他のテーブルとの関連付けの詳細を示します。
 
 1. ターゲットリ **[!UICONTROL Create element]** ソースへのリンクを作成するには、このボタンを使用します。
-1. Click **[!UICONTROL Select a target resource]**.
+1. クリック **[!UICONTROL Select a target resource]**.
 
    ![](assets/schema_extension_28.png)
 
@@ -146,7 +157,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    >[!NOTE]
    >
-   >最大30文字を使用することをお勧めします。
+   >最大30文字を使用します。
 
    >[!CAUTION]
    >
@@ -168,7 +179,11 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 作成されたリンクは、セクションのリストに表示さ **[!UICONTROL Links]** れます。
 
-**例：作成したリソースを'Profiles'リソースにリンクする**
+>[!NOTE]
+>
+>インデックス作成時のベストプラクティスについては、この節を参照して [くださ](../../developing/using/data-model-best-practices.md#links)い。
+
+**例：作成したリソースを&#39;Profiles&#39;リソースにリンクする**
 
 この例では、新しいリソース **PurchaseをProfilesカスタムリソースとリン** クします **** 。
 
@@ -187,7 +202,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    セクション **[!UICONTROL Detail screen configuration]** を展開し、リソースの各 **[!UICONTROL Define a detail screen]** 要素に対応する画面を設定するようにを確認します。 このチェックボックスをオフにすると、このリソースの要素の詳細ビューにアクセスできなくなります。
 
-1. Click **[!UICONTROL Create element]**.
+1. クリック **[!UICONTROL Create element]**.
 1. リンクされたリソースを選択し、をクリックしま **[!UICONTROL Add]**&#x200B;す。
 
    新しいリソースは、詳細メニューで/を選択して使用で **[!UICONTROL Client data]** きます **[!UICONTROL Purchase]**。
@@ -198,7 +213,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
    これで、新しいリソースを公開できます。
 
-このリンクを追加すると、「購入 **」タブが/メニューからプロファイルの詳細画面に** 追加され **[!UICONTROL Profiles & audiences]****[!UICONTROL Profiles]** ます。 これはリソースに固有のものであることに注意してく **[!UICONTROL Profile]** ださい。
+このリンクを追加すると、「購入 **」タブが/メニューからプロファイルの詳細画面に** 追加さ **[!UICONTROL Profiles & audiences]****[!UICONTROL Profiles]** れます。 これはリソースに固有のものであることに注意してく **[!UICONTROL Profile]** ださい。
 
 ![](assets/custom_resource_link_to_profile.png)
 
@@ -257,7 +272,7 @@ Dynamic Reportingの詳細は、「コンポーネントのリスト」を参 [�
 
    >[!NOTE]
    >
-   >最大30文字を使用することをお勧めします。
+   >最大30文字を使用します。
 
 1. このリソースへのアクセスを特定の組織単位に制限する必要がある場合は、ここで指定します。 許可された単位数のユーザーのみが、アプリケーションでこのリソースを操作できます。
 1. 変更を保存します。
@@ -275,6 +290,13 @@ Dynamic Reportingの詳細は、「コンポーネントのリスト」を参 [�
 
 1. プロファイルリソースの拡張を作成するか、新しいリソースを作成します。
 1. データ構造の定義で、セクションの下にあ **[!UICONTROL Add automatic ID field]** るオプションを選択 **[!UICONTROL Fields]** します。
+
+   ![](assets/option_id_field.png)
+
+   >[!NOTE]
+   >
+   >ACS IDを持つのは新しいレコードのみです。 このオプ **[!UICONTROL ACS ID]** ションを有効にする前に作成されたプロファイルまたは要素のフィールドは空のままです。
+
 1. リソースに対して行った変更を保存して発行します。 このメカニズムをAPIを介して作成されたエレメントに適用する場合は、APIを拡張するオプションを選択します。
 
 新しい **[!UICONTROL ACS ID]** 要素を手動、APIから、または読み込みワークフローから挿入したときに、このフィールドが使用可能になり、自動的に設定されるようになりました。 ACS IDフィールドはUUIDフィールドで、インデックスが作成されます。
@@ -287,5 +309,6 @@ Dynamic Reportingの詳細は、「コンポーネントのリスト」を参 [�
 
 >[!NOTE]
 >
->オプション **[!UICONTROL ACS ID]** を有効にする前に作成されたプロファイルまたは要素のフィールドは更新されません。 ACS IDを持つのは新しいレコードのみです。 このフィールドは読み取り専用モードです。 変更はできません。
-
+>オプション **[!UICONTROL ACS ID]** を有効にする前に作成されたプロファイルまたは要素に対して、このフィールドは更新されません。 ACS IDを持つのは新しいレコードのみです。
+>
+>このフィールドは読み取り専用モードです。 変更はできません。
