@@ -21,6 +21,10 @@ source-git-commit: 14f764b92fef81c06551fb0f13b11b41e94095f0
 
 [リリース計画](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) |コント [ロールパネルのリリース](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) |ドキュ [メントの更新](../../rn/using/documentation-updates.md) |以前の [リリースノート](../../rn/using/release-notes-2019.md) |非推 [奨の機能](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
 
+## リリース20.1.4 - 2020年2月 {#release-20-1-4---february-2020}
+
+* 既存のワークフローでオーディエンスを読み取 **りアクティビティ** を開く際の問題を修正しました。 (CAMP-41002)
+
 ## リリース20.1.3 - 2020年2月 {#release-20-1-3---february-2020}
 
 * 20.1でCAMP-39273によって導入された、ループホールを使用するお客様の回帰の問題を修正しました。 39273年、キャンプを取り消した。
