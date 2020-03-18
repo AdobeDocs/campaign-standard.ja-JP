@@ -13,7 +13,7 @@ context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e8302a8d3ba914781bd332bc318b65d88afc6d94
+source-git-commit: b71d19672efe24040d676bbcff3f90177b3fbcae
 
 ---
 
@@ -209,7 +209,7 @@ source-git-commit: e8302a8d3ba914781bd332bc318b65d88afc6d94
 
 * **[!UICONTROL Save SQL queries in the log]**:ワークフローのSQLクエリをログに保存できます。
 
-* ***[!UICONTROL Keep interim results]**:トランジションの詳細を表示する場合は、このオプションを選択します。 警告：このオプションをチェックすると、ワークフローの実行が大幅に遅くなる可能性があります。
+* **[!UICONTROL Keep interim results]**:トランジションの詳細を表示する場合は、このオプションを選択します。 警告：このオプションをチェックすると、ワークフローの実行が大幅に遅くなる可能性があります。
 
 * **[!UICONTROL Execute in the engine (do not use in production)]**:開発環境のテスト用に、ワークフローをローカルで実行できます。
 
