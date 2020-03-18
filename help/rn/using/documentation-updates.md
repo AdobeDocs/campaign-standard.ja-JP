@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f49668c8ad878764b2a15c53efdcab797dd91724
+source-git-commit: ffe6b34ec8d7a31ffcce1e725364a6ecf00f70a8
 
 ---
 
@@ -27,7 +27,7 @@ Adobe Campaign Standardドキュメントの最新の更新をすべて紹介し
 
 ## ドキュメントの更新 — 2020年3月 {#doc-updates-march-2020}
 
-拡張MTAに関する詳細な情報は、特に電子メール処理ルールやバウンスメールの資格に関するコアドキュメントに追加されました。詳 [細情報](../../administration/using/configuring-email-channel.md#email-processing-rules)
+拡張MTAに関するより詳細な情報が、特に電子メール処理ルールやバウンスメールの資格に関するコアドキュメントに追加されました。 [詳細を表示](../../administration/using/configuring-email-channel.md#email-processing-rules)
 
 電子メールBCCを使用したアーカイブに関するセクションが移動され、更新されました。 [詳細を表示](../../sending/using/archiving.md)
 
@@ -541,7 +541,7 @@ CampaignとAdobeソリューションの統合のほとんどのURLが変更さ�
 
 ワークフローで新しいアクティビティを使用できます。アクティビテ **[!UICONTROL Enrichment]** ィを示します。 [詳細を表示](../../automating/using/enrichment.md)
 
-アクティビテ **[!UICONTROL Subscription Services]** ィが更新され、1つのファイルを使用して複数のサービスの購読を更新するなど、より多くの使用例をサポートするようになりました。 [詳細を表示](../../automating/using/subscription-services.md)
+アクティビテ **[!UICONTROL Subscription Services]** ィが更新され、より多くの使用例をサポートするようになりました。例えば、1つのファイルを使用して複数のサービスの購読を更新するなどです。 [詳細を表示](../../automating/using/subscription-services.md)
 
 配信の準備方法に関する使用例を順を追って追加しました。 [詳細を表示](../../sending/using/preparing-the-send.md)
 
@@ -579,7 +579,7 @@ APIシグナルアクティビティのトリガー — [詳細](../../api/using
 
 セキュリティグループとユニットをより深く理解するための使用例を追加しました。 [詳細を表示](../../administration/using/organizational-units.md)
 
-動的レポートのディメンション、指標およびセグメントの定義と計算を改善。 [詳細を表示](../../reporting/using/list-of-components-.md)
+動的レポートのディメンション、指標、セグメントの定義と計算を改善。 [詳細を表示](../../reporting/using/list-of-components-.md)
 
 ワークフローでの着信SMSメッセージの取得に関する情報を追加しました。 [詳細を表示](../../administration/using/configuring-sms-channel.md)
 
