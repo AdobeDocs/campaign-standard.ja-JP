@@ -1,18 +1,18 @@
 ---
 title: 強制隔離管理の理解
 description: 検疫管理を使用して配信品質を最適化する方法を説明します。
-page-status-flag: 非活性化の
+page-status-flag: never-activated
 uuid: 3c287865-1ada-4351-b205-51807ff9f7ed
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 送信
-content-type: 参照
-topic-tags: 監視メッセージ
+audience: sending
+content-type: reference
+topic-tags: monitoring-messages
 discoiquuid: de3a50b6-ea8f-4521-996b-c49cc1f3c946
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: f7e361d10d039718c421a3684c518347af2be951
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ## 強制隔離について {#about-quarantines}
 
-メールボックスがいっぱいの場合や、アドレスが存在しない場合など、電子メールアドレスや電話番号を隔離できます。
+メールボックスがいっぱいになった場合や、アドレスが存在しない場合など、電子メールアドレスや電話番号を隔離できます。
 
 In any case, the quarantine procedure complies with specific rules described in this [section](#conditions-for-sending-an-address-to-quarantine).
 
@@ -45,7 +45,7 @@ The profiles whose email addresses or phone number are in quarantine are automat
 
 >[!NOTE]
 >
->SMS 配信からのオプトアウトのために「STOP」のようなキーワードを使ってユーザーが SMS メッセージに返信しても、そのユーザーのプロファイルは、E メールのオプトアウトプロセスのようにはブラックリストに登録されません。プロファイル電話番号は、状態の検疫に送信さ **[!UICONTROL Blacklisted]** れます。 このステータスは電話番号のみを表し、プロファイルはブラックリストに記載されていないので、ユーザーは電子メールメッセージを引き続き受信します。 詳しくは、[この節](../../channels/using/managing-incoming-sms.md#managing-stop-sms)を参照してください。
+>SMS 配信からのオプトアウトのために「STOP」のようなキーワードを使ってユーザーが SMS メッセージに返信しても、そのユーザーのプロファイルは、E メールのオプトアウトプロセスのようにはブラックリストに登録されません。プロファイルの電話番号が、状態の検疫に送信さ **[!UICONTROL Blacklisted]** れます。 このステータスは電話番号のみを表し、プロファイルはブラックリストに記載されていないので、ユーザーは電子メールメッセージを受信し続けます。 詳しくは、[この節](../../channels/using/managing-incoming-sms.md#managing-stop-sms)を参照してください。
 
 ## 強制隔離アドレスの識別 {#identifying-quarantined-addresses}
 
@@ -63,7 +63,7 @@ Quarantined addresses for a specific delivery are listed during the delivery pre
 
 ### プラットフォーム全体の強制隔離アドレスの識別 {#identifying-quarantined-addresses-for-the-entire-platform}
 
-管理者は、メニューからプラットフォーム全体の検疫済みアドレスをリストで **[!UICONTROL Administration > Channels > Quarantines > Addresses]** きます。
+管理者は、メニューからプラットフォーム全体の検疫済みのアドレスを一覧表示で **[!UICONTROL Administration > Channels > Quarantines > Addresses]** きます。
 
 >[!NOTE]
 >
@@ -73,24 +73,24 @@ Quarantined addresses for a specific delivery are listed during the delivery pre
 
 >[!NOTE]
 >
->検疫数の増加は、データベースの「摩耗と裂傷」に関連する通常の効果です。 例えば、電子メールアドレスの有効期間が3年と見なされ、受信者テーブルが年に50%増加した場合、検疫の増加は次のように計算できます。1年目の終わり：(1*0.33)/(1+0.5)=22% 2年目の終わり：((1.22*0.33)+0.33)/(1.5+0.75)=32.5%
+>検疫の数の増加は、データベースの「損耗」に関連する通常の効果です。 例えば、電子メールアドレスの有効期間が3年と見なされ、受信者のテーブルが毎年50%増加する場合、検疫の増加は次のように計算されます。1年目の終わり：(1*0.33)/(1+0.5)=22%。 2年目の終わり：(1.22*0.33)+0.33)/(1.5+0.75)=32.5%.
 
 ## アドレスを強制隔離する条件 {#conditions-for-sending-an-address-to-quarantine}
 
-Adobe Campaignは、配信失敗のタイプとエラーメッセージの認定中に割り当てられた理由に従って検疫を管理します(配信失敗のタイプと理由 [、バウン](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons) スのメール認定を参照 [](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification))。
+Adobe Campaignは、配信失敗のタイプと、エラーメッセージの検証中に割り当てられた理由に従って検疫を管理します( [配信失敗のタイプと理由](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons) 、バウ [ンスのメール資格を参照](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification))。
 
 * **無視のエラー**：アドレスを強制隔離しません。
 * **ハードエラー**：対応する E メールアドレスがただちに強制隔離されます。
-* **ソフトエラー**：ただちにアドレスが強制隔離されることはありませんが、エラーカウンターがインクリメントされます。エラーカウンターが制限しきい値に達すると、アドレスが強制隔離されます。デフォルトの設定では、しきい値はエラー 5 回に設定されています。2 つのエラーは、24 時間以上間隔を開けて発生する場合に意味を持ちます。6 回目のエラー発生時にアドレスが強制隔離されます。エラーカウンターのしきい値は変更できます。詳しくは、この[ページ](../../administration/using/configuring-email-channel.md#email-channel-parameters)を参照してください。
+* **ソフトエラー**：ただちにアドレスが強制隔離されることはありませんが、エラーカウンターがインクリメントされます。エラーカウンターが制限しきい値に達すると、アドレスが強制隔離されます。デフォルトの設定では、しきい値はエラー 5 回に設定されています。2 つのエラーは、24 時間以上間隔を開けて発生する場合に意味を持ちます。5回目の誤りで住所が検疫中です。 エラーカウンターのしきい値は変更できます。詳しくは、この[ページ](../../administration/using/configuring-email-channel.md#email-channel-parameters)を参照してください。
 
    再試行後に配信が成功すると、成功前は強制隔離されていたアドレスのエラーカウンターが再初期化されます。The address status changes to **[!UICONTROL Valid]** and it is deleted from the list of quarantines after two days by the **[!UICONTROL Database cleanup]** workflow.
 
-If a user qualifies an email as a spam (**Feedback loop**), the message is automatically redirected towards a technical mailbox managed by Campaign. その後、ユーザーの電子メールアドレスが自動的にステータスと共に検疫に送信さ **[!UICONTROL Blacklisted]** れます。 この状態はアドレスのみを表し、プロファイルはブラックリストに記載されていないので、ユーザーはSMSメッセージとプッシュ通知を受信し続けます。
+If a user qualifies an email as a spam (**Feedback loop**), the message is automatically redirected towards a technical mailbox managed by Campaign. The user&#39;s email address is then automatically sent to quarantine with the **[!UICONTROL Blacklisted]** status. このステータスはアドレスのみを表し、プロファイルはブラックリストに記載されていないので、ユーザーはSMSメッセージやプッシュ通知を受信し続けます。
 
 >[!NOTE]
-Adobe Campaignでの検疫では、大文字と小文字が区別されます。 後で再ターゲット設定されないように、電子メールアドレスは小文字でインポートしてください。
+Adobe Campaignでの検疫では、大文字と小文字が区別されます。 後で再ターゲットされないように、電子メールアドレスは小文字でインポートしてください。
 
-検疫済みアドレスのリスト(「隔離済みアド [レスの識別(プラットフォーム全体での検疫済みアドレスの識別](#identifying-quarantined-addresses-for-the-entire-platform)) **[!UICONTROL Error reason]** 」を参照)で、選択したアドレスが検疫に含まれた理由を示します。
+検疫済みアドレスの一覧(「隔離済みアド [レスの識別」を参照](#identifying-quarantined-addresses-for-the-entire-platform))で、選択したアドレスが検 **[!UICONTROL Error reason]** 疫に含まれていた理由を示します。
 
 ![](assets/quarantines2.png)
 
