@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 941ecc3acf1478dfea25f0e85059a3421888ae29
+source-git-commit: 2bf1f8acb581645a6f89f50443a8d9a49d8acaf1
 
 ---
 
@@ -152,6 +152,7 @@ source-git-commit: 941ecc3acf1478dfea25f0e85059a3421888ae29
    + メッセージの送信とトラッキング{#sending-and-tracking-messages}
       + [送信の確認](sending/using/confirming-the-send.md)
       + [メッセージのトラッキング](sending/using/tracking-messages.md)
+      + [電子メールBCCでのアーカイブ](sending/using/archiving.md)
    + メッセージの監視{#monitoring-messages}
       + [配信の監視](sending/using/monitoring-a-delivery.md)
       + [エラー発生時のアラートの受信](sending/using/receiving-alerts-when-failures-happen.md)
@@ -200,7 +201,7 @@ source-git-commit: 941ecc3acf1478dfea25f0e85059a3421888ae29
    + [Campaign 統合について](integrating/using/about-campaign-integrations.md)
    + Campaign と Experience Manager の使用{#working-with-campaign-and-experience-manager}
       + [Campaign-Experience Manager 統合について](integrating/using/integrating-with-experience-manager.md)
-      + [Campaign-Experience Manager統合の設定](integrating/using/configure-experience-manager.md)
+      + [CampaignとExperience Managerの統合の設定](integrating/using/configure-experience-manager.md)
       + [Adobe Experience Manager での電子メールコンテンツの作成](integrating/using/creating-email-experience-manager.md)
       + [Experience Manager での Campaign フォームの作成](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
    + Campaign と Target の使用{#working-with-campaign-and-target}
