@@ -12,7 +12,7 @@ discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4ca603abd9b4ef1a9272a89acb62dee545b76114
+source-git-commit: b71d19672efe24040d676bbcff3f90177b3fbcae
 
 ---
 
@@ -131,7 +131,7 @@ Adobe Campaign データベースのデータの一貫性を維持するには�
 * [ファイル読み込み](../../automating/using/load-file.md)
 * [ファイル抽出](../../automating/using/extract-file.md)
 
-## データを読み込むワークフローテンプレートの作成 {#example--import-workflow-template}
+## データを読み込むためのワークフローテンプレートの作成 {#example--import-workflow-template}
 
 同じ構造のファイルを頻繁にインポートする必要がある場合、インポートテンプレートを使用することをお勧めします。
 
@@ -206,7 +206,7 @@ Adobe Campaign データベースのデータの一貫性を維持するには�
 
       >[!NOTE]
       >
-      >これらのプロファイルにダイレクトメールを送信する場合は、必ず住所を含めてください。この情報はダイレクトメールプロバイダにとって重要な情報です。 また、プロファイルの情報のボ **[!UICONTROL Address specified]** ックスがチェックされていることを確認します。 ワークフローからこのオプションを更新するには、更新するフィールドに要素を追加し、 **1** asを指定してフ **[!UICONTROL Source]** ィールドをと `postalAddress/@addrDefined` して選択しま **[!UICONTROL Destination]**&#x200B;す。 ダイレクトメールの詳細とオプションの使用方法につい **[!UICONTROL Address specified]** ては、このドキュメントを [参照してくださ](../../channels/using/about-direct-mail.md#recommendations)い。
+      >これらのプロファイルにダイレクトメールを送信する場合は、必ず住所を含めてください。この情報はダイレクトメールプロバイダにとって重要な情報です。 また、プロファイルの情報のボ **[!UICONTROL Address specified]** ックスがチェックされていることを確認します。 ワークフローからこのオプションを更新するには、更新するフィールドに要素を追加し、 **1** を指定し **[!UICONTROL Source]** て「postalAddress/@addrDefined **」フィールドを「** 」として選択します **[!UICONTROL Destination]**。 ダイレクトメールの詳細とオプションの使用方法につい **[!UICONTROL Address specified]** ては、このドキュメントを [参照してくださ](../../channels/using/about-direct-mail.md#recommendations)い。
 
 1. Configure the **[!UICONTROL Deduplication]** activity located after the transition containing unreconciled profiles:
 
