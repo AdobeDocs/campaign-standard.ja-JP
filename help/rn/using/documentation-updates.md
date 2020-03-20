@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ffe6b34ec8d7a31ffcce1e725364a6ecf00f70a8
+source-git-commit: 73fd120c79130c3a4eff43bb080bde8dabe58032
 
 ---
 
@@ -24,6 +24,34 @@ Adobe Campaign Standardドキュメントの最新の更新をすべて紹介し
 このページには、Adobe Campaign Standardの各リリースの新機能とドキュメントの更新の一覧が記載されています。
 
 また、Adobe Campaignリリースノートを参照するこ [ともできます](../../rn/using/release-notes.md)。
+
+## リリース20.2 - 2020年3月 {#release-20-2---march-2020}
+
+**リリースに含まれる新機能**
+
+Azure Blob統合 — 詳細を [読む](../../administration/using/external-accounts.md#microsoft-azure-external-account)
+
+Unified Experience Cloudのインターフェイスとドメイン — 詳 [細情報](../../start/using/interface-description.md#top-bar)
+
+ターゲットプロファイルを使用した電子メールテスト — [詳細情報](../../sending/using/testing-messages-using-target.md)
+
+**リリースに伴うその他のドキュメントの更新**
+
+アプリ内メッセージのレンダリングに制限が追加されました。 [詳細を表示](../../channels/using/customizing-an-in-app-message.md)
+
+アクティビティでの集計の使用方法に関する情報が追加され **[!UICONTROL Query]** ました。 [詳細を表示](../../automating/using/query.md#adding-an-aggregate)
+
+モバイルアプリケーションの設定時に、MCPNSに制限が追加されました。 [詳細を表示](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)
+
+新しい設定ガイドラインの節が管理ガイドに追加されました。 互換性のあるブラウザーとオペレーティングシステムに関する節が、「はじめに」ガイドからこの節に移りました。 Campaign Standardのネットワークエンドポイントのテクノロジーもこの節に追加されました。 [詳細を表示](../../administration/using/about-configuration-guidelines.md)
+
+イベント設定の削除方法を説明する新しいセクションが利用できるようになりました。 [詳細を表示](../../administration/using/configuring-transactional-messaging.md#deleting-an-event)
+
+電子メールの件名行をテストして開放率を予測する方法を説明するページが更新され、新しいトラブルシューティングセクションを含めて改善さ [れ](../../sending/using/testing-subject-line-email.md#troubleshooting) ました。 [詳細を表示](../../sending/using/testing-subject-line-email.md#troubleshooting)
+
+トランザクションメッセージングセクションが更新され、複数のユーザーインターフェイスに関するわずかな更新と改善が反映されました。 [詳細を表示](../../channels/using/about-transactional-messaging.md)
+
+External APIアクティビティのガードレールに関する情報が更新されました。 [詳細を表示](../../automating/using/external-api.md)
 
 ## ドキュメントの更新 — 2020年3月 {#doc-updates-march-2020}
 
@@ -43,7 +71,7 @@ Adobe Creative SDKの減価償却を反映して、キャンペーン電子メ�
 
 ワークフローのプロパティで使用可能な **[!UICONTROL History in days field]** に関する情報が追加されました。 [詳細を表示](../../automating/using/executing-a-workflow.md)
 
-## リリース20.1 - 2019年2月 {#release-20-1---february-2020}
+## リリース20.1 - 2020年2月 {#release-20-1---february-2020}
 
 **リリースに含まれる新機能**
 
@@ -281,7 +309,7 @@ REST APIドキ [ュメントが更新さ](../../api/using/about-campaign-standar
 
 「API拡張を使用したリソースの公開」の節が明確になり、最新のUIの変更で更新されました。 [詳細を表示](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension)
 
-「電子メールのアーカイブ」セクションの名前が変更され、再編成されました。 [詳細を表示](../../administration/using/configuring-email-channel.md#archiving-emails)
+「電子メールのアーカイブ」セクションの名前が変更され、再編成されました。 [詳細を表示](../../sending/using/archiving.md)
 
 「電子メールの作成」セクションが更新され、最新のインターフェイスの変更が反映されました。 [詳細を表示](../../channels/using/creating-an-email.md)
 
@@ -315,7 +343,7 @@ Adobe Campaignの様々な電子メールオーサリングオプションを比
 
 「カスタムコンテンツブロックの作成」の節が強化され、ターゲットディメンションの詳細が追加されました。 [詳細を表示](../../designing/using/personalization.md#creating-custom-content-blocks)
 
-電子メールデザイナーがInternet Explorer 11をサポートしていないことを示す警告が追加されました。 [詳細を表示](../../start/using/compatible-browsers.md)
+電子メールデザイナーがInternet Explorer 11をサポートしていないことを示す警告が追加されました。 [詳細を表示](../../administration/using/compatible-browsers.md)
 
 再作図の影響に関する警告が、「リソースの削除」セクションに追加されました。 [詳細を表示](../../developing/using/deleting-a-resource.md)
 
@@ -377,7 +405,7 @@ Adobe Campaignの様々なタイプのオーディエンスに関する情報を
 
 URLドキュメント [からのコンテンツの読み込みを](../../designing/using/using-existing-content.md#importing-content-from-a-url) 、電子メールデザイナーに関する情報と共に更新しました。
 
-Microsoft Edge（最新バージョン）が、コンピューターの互換性のあるブラウザーのリストに追加されました。 [詳細を表示](../../start/using/compatible-browsers.md)
+Microsoft Edge（最新バージョン）が、コンピューターの互換性のあるブラウザーのリストに追加されました。 [詳細を表示](../../administration/using/compatible-browsers.md)
 
 受信側の移行が空の場合にファイルを生成できないようにする、ファイルの抽出アクティビティの新しいオプションに関する情報を追加しました。 [詳細を表示](../../automating/using/extract-file.md)
 
@@ -541,7 +569,7 @@ CampaignとAdobeソリューションの統合のほとんどのURLが変更さ�
 
 ワークフローで新しいアクティビティを使用できます。アクティビテ **[!UICONTROL Enrichment]** ィを示します。 [詳細を表示](../../automating/using/enrichment.md)
 
-アクティビテ **[!UICONTROL Subscription Services]** ィが更新され、より多くの使用例をサポートするようになりました。例えば、1つのファイルを使用して複数のサービスの購読を更新するなどです。 [詳細を表示](../../automating/using/subscription-services.md)
+アクティビテ **[!UICONTROL Subscription Services]** ィが更新され、1つのファイルを使用して複数のサービスの購読を更新するなど、より多くの使用例をサポートするようになりました。 [詳細を表示](../../automating/using/subscription-services.md)
 
 配信の準備方法に関する使用例を順を追って追加しました。 [詳細を表示](../../sending/using/preparing-the-send.md)
 
@@ -579,7 +607,7 @@ APIシグナルアクティビティのトリガー — [詳細](../../api/using
 
 セキュリティグループとユニットをより深く理解するための使用例を追加しました。 [詳細を表示](../../administration/using/organizational-units.md)
 
-動的レポートのディメンション、指標、セグメントの定義と計算を改善。 [詳細を表示](../../reporting/using/list-of-components-.md)
+動的レポートのディメンション、指標およびセグメントの定義と計算を改善。 [詳細を表示](../../reporting/using/list-of-components-.md)
 
 ワークフローでの着信SMSメッセージの取得に関する情報を追加しました。 [詳細を表示](../../administration/using/configuring-sms-channel.md)
 
