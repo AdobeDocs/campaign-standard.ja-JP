@@ -13,7 +13,7 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 04709dd9a754ea616f3e695ada072137b9ecce6a
+source-git-commit: 130eaa44dc89a3b013038660d8e3790f05299136
 
 ---
 
@@ -309,6 +309,10 @@ SMTPの設定について詳しくは、「 [List of email SMTP parameters](#lis
    また、ワークフローの外部シグナルアクティビティに宣言されたイベント変数を使用して、配信ラベルをパーソナライズすることもできます。 詳しくは、[この節](../../automating/using/calling-a-workflow-with-external-parameters.md)を参照してください。
 
 * **[!UICONTROL Save SQL queries in the log]**:このオプションを使用すると、準備段階でSQLクエリログをジャーナルに追加できます。
+
+#### 配達確認設定 {#proof-settings}
+
+このセクションでは、校正の件名行に使用するデフォルトのプレフィックスを設定できます。 For more in this, refer to [this section](../../sending/using/sending-proofs.md).
 
 ### 電子メールのSMTPパラメーターのリスト {#list-of-email-smtp-parameters}
 
