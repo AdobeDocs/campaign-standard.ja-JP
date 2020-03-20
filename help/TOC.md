@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: 2bf1f8acb581645a6f89f50443a8d9a49d8acaf1
+source-git-commit: ddccab05af415fe3ddab7b75db7118fa94552565
 
 ---
 
@@ -16,6 +16,7 @@ source-git-commit: 2bf1f8acb581645a6f89f50443a8d9a49d8acaf1
 + リリースノート{#release-notes}
    + [最新リリース](rn/using/release-notes.md)
    + 以前のリリース {#previous-releases}
+      + [リリースノート 2020](rn/using/release-notes-2020.md)
       + [リリースノート 2019](rn/using/release-notes-2019.md)
       + [リリースノート 2018](rn/using/release-notes-2018.md)
       + [リリースノート 2017](rn/using/release-notes-2017.md)
@@ -32,7 +33,6 @@ source-git-commit: 2bf1f8acb581645a6f89f50443a8d9a49d8acaf1
    + インターフェイスの検出{#discovering-the-interface}
       + [インターフェイスについて](start/using/about-the-interface.md)
       + [インターフェイスの説明](start/using/interface-description.md)
-      + [互換性のあるブラウザー](start/using/compatible-browsers.md)
       + [リストのカスタマイズ](start/using/customizing-lists.md)
    + マーケティングプラン{#marketing-plans}
       + [プログラムとキャンペーン](start/using/programs-and-campaigns.md)
@@ -141,6 +141,7 @@ source-git-commit: 2bf1f8acb581645a6f89f50443a8d9a49d8acaf1
       + [メッセージのプレビュー](sending/using/previewing-messages.md)
       + [送信の準備](sending/using/preparing-the-send.md)
       + [配達確認の送信](sending/using/sending-proofs.md)
+      + [ターゲットプロファイルを使用した電子メールメッセージのテスト](sending/using/testing-messages-using-target.md)
       + [電子メールの件名行のテスト](sending/using/testing-subject-line-email.md)
       + [電子メールのレンダリング](sending/using/email-rendering.md)
       + [トラップの使用](sending/using/using-traps.md)
@@ -342,6 +343,10 @@ source-git-commit: 2bf1f8acb581645a6f89f50443a8d9a49d8acaf1
       + [訪問者](developing/using/datamodel-visitor.md)
 + 管理{#administrating}
    + [Adobe Campaign の管理について](administration/using/about-administrating-adobe-campaign.md)
+   + 設定のガイドライン {#configuration-guidelines}
+      + [設定のガイドラインについて](administration/using/about-configuration-guidelines.md)
+      + [互換性のあるブラウザー](administration/using/compatible-browsers.md)
+      + [キャンペーン標準のネットワークエンドポイント](administration/using/campaign-standard-network-endpoints.md)
    + ユーザーとセキュリティ{#users-and-security}
       + [アクセス管理について](administration/using/about-access-management.md)
       + [ユーザー管理](administration/using/users-management.md)
