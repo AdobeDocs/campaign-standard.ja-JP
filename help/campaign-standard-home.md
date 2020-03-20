@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Adobe Campaign Standard 製品ドキュメント
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 3fa3fac1ae34c5e53195ad1605be5d4e25f11318
+source-git-commit: 14f3ce8641785e88fc2b566c62089833713aa82e
 
 ---
 
@@ -15,11 +15,9 @@ source-git-commit: 3fa3fac1ae34c5e53195ad1605be5d4e25f11318
 
 ## 新着情報
 
+* **[ターゲットプロファイルを使用した電子メール](sending/using/testing-messages-using-target.md)**テスト実際のターゲットプロファイルで電子メールをテストする方法を説明します。
+
 * **[プライバシー管理](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>プライバシーコンプライアンスに役立つ Adobe Campaign が提供するツールについて説明します。
-
-* **[配信のベストプラクティス](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)**<br/>配信のデザインと送信に関するベストプラクティスの詳細を確認します。
-
-* **[電子メールデザイナー](designing/using/designing-content-in-adobe-campaign.md)**<br/>再編成された電子メールデザイナーのドキュメントを参照してください。
 
 * **[Campaign Standard Mobile ガイド](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/>モバイル配信に関する一般的なガイドラインについて説明します。
 
