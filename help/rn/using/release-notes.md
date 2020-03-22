@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b22d6ae9e7ccd305d437d5d4390e1d95393e6344
+source-git-commit: 65a902acd672248339ea871fd73c0d3455b1471d
 
 ---
 
@@ -43,12 +43,12 @@ source-git-commit: b22d6ae9e7ccd305d437d5d4390e1d95393e6344
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Unified Experience Cloudのインターフェイスとドメイン</strong><br /> </th> 
+   <th> <strong>Unified Experience Cloudインターフェイス</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>インターフェイスの上部バーが強化され、すべてのExperience Cloudアプリケーションでエクスペリエンスが向上しました。 ソリューションへのアクセスは、次のURLと統合されました。experience.adobe.com/&lt;application name&gt;を参照してください。 ヘッダーを使用すると、ソリューションを簡単に切り替えて、改善されたヘルプと通知を表示できるようになりました。</p>
+   <td> <p>インターフェイスの上部バーが強化され、すべてのExperience Cloudアプリケーションでエクスペリエンスが向上しました。 ヘッダーを使用すると、ソリューションを簡単に切り替えて、改善されたヘルプと通知を表示できるようになりました。</p>
     <p>詳しくは、<a href="../../start/using/interface-description.md#top-bar">詳細ドキュメント</a>を参照してください。 </p>
    </td> 
   </tr> 
