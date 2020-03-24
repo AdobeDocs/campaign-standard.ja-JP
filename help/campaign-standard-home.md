@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Adobe Campaign Standard 製品ドキュメント
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 14f3ce8641785e88fc2b566c62089833713aa82e
+source-git-commit: a6e81927aad7bf06eca6d0dc7436c4dc2a1c21c5
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 14f3ce8641785e88fc2b566c62089833713aa82e
 
 ## 新着情報
 
-* **[ターゲットプロファイルを使用した電子メール](sending/using/testing-messages-using-target.md)**テスト実際のターゲットプロファイルで電子メールをテストする方法を説明します。
+* **[ターゲットプロファイルを使用した電子メール](sending/using/testing-messages-using-target.md)**<br/>テスト実際のターゲットプロファイルで電子メールをテストする方法を説明します。
 
 * **[プライバシー管理](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>プライバシーコンプライアンスに役立つ Adobe Campaign が提供するツールについて説明します。
 
