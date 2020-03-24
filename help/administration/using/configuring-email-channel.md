@@ -13,7 +13,7 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 130eaa44dc89a3b013038660d8e3790f05299136
+source-git-commit: b85633e278e3824a58390ee538b4a6e6954785af
 
 ---
 
@@ -105,7 +105,7 @@ The **SMTP parameters** act as filters applied for a blocking rule.
 >
 >拡張MTAにアップグレードすると、Adobe Campaignルールは **[!UICONTROL Domain management]** 使用されなくなります。
 
-**DKIM(DomainKeys Identified Mail)電子メール認証の署名は** 、すべてのドメインを持つすべてのメッセージに対して拡張MTAによって行われます。 拡張TAレベルで指定しない限り、 **Sender ID**、 **DomainKeys**、 **DKIM**、 **** S/MIME MTAを使用して署名することはできません。
+**DKIM(DomainKeys Identified Mail)電子メール認証の署名は** 、すべてのドメインを持つすべてのメッセージに対して拡張MTAによって行われます。 拡張MTAレベルで特に指定され **ていない限り、** Sender ID **、** DomainKeys **、** S/MIMEを使用して署名することはできません。
 
 Adobe Campaign拡張MTAについて詳しくは、このドキュメントを参照してく [ださい](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)。
 
