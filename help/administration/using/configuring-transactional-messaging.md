@@ -170,8 +170,8 @@ Adobe Campaignでトランザクションメッセージを送信するには、
 また、このトリガーイベントをWebサイトに統合する必要があります。 詳しくは、 [Webサイトでのイベントのトリガーの統合を参照してください](#integrating-the-triggering-of-the-event-in-a-website)。
 
 <!-->>[!NOTE]
->前のパブリケーションが存在する場合は、そのパブ **[!UICONTROL Latest transactional events]** リケーションを参照す **[!UICONTROL History]** るには、左側の領域のセクションの下のリンクをクリックします。—>
->
+>前のパブリケーションが存在する場合は、そのパブ **[!UICONTROL Latest transactional events]** リケーションを参照す **[!UICONTROL History]** るには、左側の領域のセクションの下のリンクをクリックします。-->
+
 ### イベントの非公開 {#unpublishing-an-event}
 
 このボ **[!UICONTROL Unpublish]** タンを使用すると、イベントの発行をキャンセルできます。これにより、以前に作成したイベントに対応するリソースがREST APIから削除されます。 現在は、Webサイトを通じてイベントがトリガーされても、対応するメッセージは送信されず、データベースには保存されません。
