@@ -13,7 +13,7 @@ context-tags: seedMember,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f7f90991ed4c7323e3a2f8ac7d38da9ff165ef76
+source-git-commit: a6e81927aad7bf06eca6d0dc7436c4dc2a1c21c5
 
 ---
 
@@ -36,6 +36,8 @@ source-git-commit: f7f90991ed4c7323e3a2f8ac7d38da9ff165ef76
 1. （オプション）各プロファイルに対して、校正の **件名行に** 追加する接頭辞を定義します。
 1. **電子メール** ・デザイナで、プロファイルに対するメッセージの表示方法をプレビューします。
 1. 校正を送りなさい。
+
+グローバルプロセスについて詳しくは、こちらのチュートリアルビデオを参照して [ください](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html)。
 
 >[!IMPORTANT]
 >
@@ -254,6 +256,6 @@ source-git-commit: f7f90991ed4c7323e3a2f8ac7d38da9ff165ef76
 
    ![](assets/substitution_uc_sendproof.png)
 
-1. 校正は、[!UICONTROL **Profile suptitutions[]タブで設定した内容に従って送信さ&#x200B;]**れます。
+1. 校正は、タブで設定した内容に従って送信され **[!UICONTROL Profile substitutions]** ます。
 
    ![](assets/substitution_uc_proofs.png)
