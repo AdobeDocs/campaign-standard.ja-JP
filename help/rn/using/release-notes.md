@@ -1,6 +1,6 @@
 ---
 title: 最新リリース
-description: このページには、Adobe Campaign Standardの最新リリースがすべて表示されます。
+description: このページには、Adobe Campaign Standardの最新リリースがすべてリストされています。
 page-status-flag: never-activated
 uuid: 1cf2e40c-beca-43db-8261-a1820ee86ad3
 contentOwner: sauviat
@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 65a902acd672248339ea871fd73c0d3455b1471d
+source-git-commit: c4500832b87e986cdbbbf72b9b8c0591f64f7da8
 
 ---
 
@@ -33,7 +33,7 @@ source-git-commit: 65a902acd672248339ea871fd73c0d3455b1471d
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Azure BLOBストレージコネクタを使用して、ファイル転送ワークフローアクティビティを使用して、Adobe Campaignにデータをインポートまたはエクスポ <strong>ートで</strong> きるようになりました。 </p>
+   <td> <p>Azure BLOBストレージコネクタを使用して、ファイル転送ワークフローアクティビティを使用して、Adobe Campaignにデータをインポートまたはエクスポ <strong>ートでき</strong> ます。 </p>
     <p>詳しくは、<a href="../../administration/using/external-accounts.md#microsoft-azure-external-account">詳細ドキュメント</a>を参照してください。</p>
    </td> 
   </tr> 
@@ -43,27 +43,12 @@ source-git-commit: 65a902acd672248339ea871fd73c0d3455b1471d
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Unified Experience Cloudインターフェイス</strong><br /> </th> 
+   <th> <strong>ターゲットを設定したプロファイル</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>インターフェイスの上部バーが強化され、すべてのExperience Cloudアプリケーションでエクスペリエンスが向上しました。 ヘッダーを使用すると、ソリューションを簡単に切り替えて、改善されたヘルプと通知を表示できるようになりました。</p>
-    <p>詳しくは、<a href="../../start/using/interface-description.md#top-bar">詳細ドキュメント</a>を参照してください。 </p>
-   </td> 
-  </tr> 
- </tbody> 
-</table>
-
-<table> 
- <thead> 
-  <tr> 
-   <th> <strong>ターゲットプロファイルを使用した電子メールテスト</strong><br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p>テストプロファイルに加えて、実際のターゲットプロファイルに関する電子メールをテストできるようになりました。 これにより、プロファイルが受け取るメッセージを正確に表示できます。カスタムフィールド、ワークフローなどの追加データを含む動的およびパーソナライズされた情報。 </p>
+   <td> <p>テストプロファイルに加えて、実際のターゲット設定されたプロファイルで電子メールをテストできます。 これにより、メッセージが受信される正確なメッセージをプロファイルが取得できます。カスタムフィールド、動的なパーソナライズされた情報(ワークフローなどの追加データを含む) </p>
     <p>For more information, refer to the <a href="../../sending/using/testing-messages-using-target.md">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html">tutorial video</a>. </p>
    </td> 
   </tr> 
@@ -72,13 +57,13 @@ source-git-commit: 65a902acd672248339ea871fd73c0d3455b1471d
 
 >[!NOTE]
 >
->4月に、Google TXTレコード管理、データベース領域の監視、電子メール通知など、キャンペーンコントロールパネルに新しい機能がリリースされます。 これらの機能の詳細については、「コントロールパネルのリリ [ースノート」を参照してくださ](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)い。
+>4月に、Google TXTレコード管理、キャンペーン領域の監視、電子メール通知など、データベースコントロールパネルに新しい機能がリリースされます。 これらの機能の詳細については、「コントロールパネルのリリ [ースノート」を参照してくださ](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)い。
 
 **強化点**
 
 * トランザクションメッセージングのユーザーエクスペリエンスが強化され、インターフェイスの一貫性が向上しました。 [詳細を表示](../../channels/using/about-transactional-messaging.md)
-* キャンペーン標準では、ワークフローの追加のデータを使用してテストプロファイルに校正を送信できるようになりました。
-* External APIアクティビティのガードレールが更新されました。 [詳細を表示](../../automating/using/external-api.md)
+* Campaign Standardでは、配達確認から追加のデータを使用して、テストプロファイルにワークフローを送信できます。
+* 外部APIアクティビティのガードレールが更新されました。 [詳細を表示](../../automating/using/external-api.md)
 
 **電子メールデザイナーの機能強化**
 
@@ -93,7 +78,7 @@ source-git-commit: 65a902acd672248339ea871fd73c0d3455b1471d
 * Microsoft Outlookで、電子メールのフッターが左に移動するHTMLインデントの問題を修正しました。 (CAMP-40987)
 * プレーンテキストモードに切り替えると、HTMLで定義されたコレクション属性をターゲットとするパーソナライゼーションフィールドがプレーンテキストコンテンツ内でコピーされる問題を修正しました。 (CAMP-40365)
 * 選択したテキストセグメントにリンクが挿入されない問題を修正しました。 (CAMP-41406)
-* クエリエディターでタイムゾーンを選択すると日付が変更される問題を修正しました。 (CAMP-38277)
+* タイムゾーンエディターでタイムゾーンを選択すると日付が変更される問題をクエリしました。 (CAMP-38277)
 
 **その他の変更**
 
@@ -104,18 +89,18 @@ source-git-commit: 65a902acd672248339ea871fd73c0d3455b1471d
 
 >[!NOTE]
 >
->Campaign StandardのAdobe Experience Platform機能は現在ベータ版で、予告なく頻繁に更新される場合があります。 詳細なドキュメントを参照してください。Experience Platform Data Connector [、オーディエ](../../administration/using/aep-about-data-connector.md)[ンスの宛先](../../audiences/using/aep-about-audience-destinations-service.md)
+>Campaign StandardのAdobe Experience Platform機能は現在ベータ版で、予告なく頻繁に更新される場合があります。 詳細なドキュメントを参照してください。Experience Platform Data Connector [、](../../administration/using/aep-about-data-connector.md)[オーディエンス先](../../audiences/using/aep-about-audience-destinations-service.md)
 
-* ワークフローログで、10分ごとに、Campaignには、現在実行中のジョブによって処理済みのレコードの数が表示されるようになりました。
+* ワークフローログで、10分ごとに、キャンペーンは、現在実行中のジョブによって処理済みのレコード数を表示するようになりました。
 * データベースから削除されたAdobe Experience Platformプロファイルを読み込む際に発生する可能性がある問題を修正しました。
 * ワークフローログで、インポートされたレコードの合計数に対して誤った結果が表示される問題を修正しました。
 
 **パッチ**
 
-* エイリアスフィールドにスペースを追加し **て新しい行項目を作成した場合に発生する可能性があ** る **** 、エンリッチメントワークフローアクティビティの問題を修正しました。 (CAMP-39229)
-* 配達確認メッセージを送信する際にすべてのテストプロファイルをターゲットにできる問題を修正しました。
-* イベント設定の非公開および削除後に発生していた問題を修正しました。 [詳細を表示](../../administration/using/configuring-transactional-messaging.md#deleting-an-event)
-* ワークフローに変更を加えると **「保存** 」ボタンが消える問題を修正しました。
-* Campaignでプライバシーリクエストの処理後に手動で削除すると、クリーンアップ後もリクエストに関連付けられたデータが削除されない問題を修正しました。
+* 「 **Alias** 」フィールドにスペースを追加し、新しい行項目を作成した場合に発生する可能性がある **エンリッチメント** ・ワークフローのアクティビティの問題を修正。 (CAMP-39229)
+* メッセージの送信時にすべてのテストプロファイルをターゲットにできる問題を配達確認しました。
+* 公開の取り消しと削除の後に発生していたイベント設定の問題を修正。 [詳細を表示](../../administration/using/configuring-transactional-messaging.md#deleting-an-event)
+* ワークフローを変更すると「保存 **** 」ボタンが消える問題を修正しました。
+* プライバシー要求を処理した後にキャンペーンで手動で削除すると、クリーンアップ後も要求に関連付けられたデータが削除されない問題を修正しました。
 * Adobe Experience Managerから特殊文字を含むメッセージをプレビューまたは送信する際に発生する可能性がある問題を修正しました。
-* 複数のインバウンドトランジションを含むアクティビティを実行する場合に、ワークフローで発生する可能性がある問題を修正しました。
+* 複数の受信トランジションを使用してワークフローを実行するとアクティビティが発生する問題を修正しました。
