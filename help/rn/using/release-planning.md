@@ -1,6 +1,6 @@
 ---
-title: キャンペーン標準リリース計画
-description: このページには、Adobe Campaign Standardの今後のリリースの一覧が表示されます。
+title: Campaign Standardリリース計画
+description: このページリストは、Adobe Campaign Standardの今後のリリースです。
 page-status-flag: never-activated
 uuid: null
 contentOwner: sauviat
@@ -12,7 +12,7 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8e614bb3e3e559a02ee5e94d9dc21e85d1b4dbd2
+source-git-commit: 7cd5f11ab22d0bb3b6864670cd61007e39ebf543
 
 ---
 
@@ -31,7 +31,7 @@ Adobe Experience Cloudの最新リリ [ースの詳細を受信するには](htt
 
 ## リリース20.2.1 - 4月のリリース {#release-20-2-april-release}
 
-環境の更新は、次の指定された時間枠の間、波状に発生します。 このリリースに関する詳細は、リリースノートを参照 [してください](../../rn/using/release-notes.md)。 その他のご質問は、 [Adobe ClientCareにお問い合わせください](https://support.neolane.net/webApp/extranetLogin)。
+環境の更新は、ウェーブで、以下に示す時間枠内に発生します。 このリリースに関する詳細は、リリースノートを参照 [してください](../../rn/using/release-notes.md)。 その他のご質問は、 [Adobe ClientCareにお問い合わせください](https://support.neolane.net/webApp/extranetLogin)。
 
 <table> 
  <thead> 
@@ -43,11 +43,11 @@ Adobe Experience Cloudの最新リリ [ースの詳細を受信するには](htt
  <tbody> 
   <tr> 
    <td> ステージ<br /> </td> 
-   <td> 2020年3月23日～24日<br /> </td> 
+   <td> 2020年4月1日～2日<br /> </td> 
   </tr> 
   <tr> 
    <td> Production（本番）<br /> </td> 
-   <td> 2020年3月31日～4月6日<br /> </td> 
+   <td> 2020年4月6日～9日<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,7 +58,7 @@ Adobe Experience Cloudの最新リリ [ースの詳細を受信するには](htt
 
 **質問：影響は？**
 
-A:変更点は、関連ドキュメン [トへのリンクを含め](../../rn/using/release-notes.md)、リリースノートに記載されています。 また、廃止および削除された機能のペ [ージを参照することをお勧めします](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)。 これらのページは、Stage環境のアップグレード日に新しいリリースで利用できます。
+A:変更点は、関連ドキュメン [トへのリンクを含め](../../rn/using/release-notes.md)、リリースノートに記載されています。 また、廃止および削除された機能のペ [ージを参照することをお勧めします](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)。 これらのページは、Stage環境のアップグレード日に公開されます。
 
 **質問：検証プロセスとは**
 
@@ -72,9 +72,9 @@ A:いいえ。 インスタンスのアップグレード中、数分間はデ�
 
 A:いいえ。 数分間はメッセージは送信されません。 アップグレードが完了すると、プロセスが自動的に再起動されます。
 
-**質問：ワークフローは引き続き実行され、配信が送信されますか。**
+**質問：ワークフローは引き続き実行され、配信を送信しますか？**
 
-A:いいえ。 ビルドのアップグレード中に、ワークフローサーバーとMTAの両方が停止します。 つまり、ワークフローは実行されず、数分間配信も送信されません。 必要なアクションはありません。ワークフローは、インスタンスがアップグレードされるとすぐに再開されます。
+A:いいえ。 ビルドのアップグレード中に、ワークフローサーバーとMTAの両方が停止します。 つまり、ワークフローは実行されず、配信は数分間送信されません。 必要なアクションはありません。ワークフローは、インスタンスがアップグレードされるとすぐに開始し直します。
 
 **質問：アップグレード中も、メッセージ内のリンクの追跡は引き続き機能しますか。**
 
@@ -82,6 +82,6 @@ A:はい、彼らは働きます。 アップグレードの間、新しい E �
 
 **質問：アップグレードが完了したことを確認する方法を教えてください。**
 
-A:Campaignにログオンすると、最新バージョンのリリース通知ポップアップが表示されます。
+A:キャンペーンにログオンすると、リリース通知ポップアップが最新バージョンと共に表示されます。
 
 その他のご質問は、 [Adobe ClientCareにお問い合わせください](https://support.neolane.net/webApp/extranetLogin)。
