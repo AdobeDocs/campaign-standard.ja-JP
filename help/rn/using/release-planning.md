@@ -43,7 +43,7 @@ Adobe Experience Cloudの最新リリ [ースの詳細を受信するには](htt
  <tbody> 
   <tr> 
    <td> ステージ<br /> </td> 
-   <td> 2020年4月1日～2日<br /> </td> 
+   <td> 2020年3月31日～4月1日<br /> </td> 
   </tr> 
   <tr> 
    <td> Production（本番）<br /> </td> 
