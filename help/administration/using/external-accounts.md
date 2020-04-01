@@ -13,7 +13,7 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 7d31d92197a6bf26b7530b8e8ff42c0dc7f25359
+source-git-commit: 5b53f210bc8fc211b1f48f5b6ff8694bcaf41622
 
 ---
 
@@ -27,15 +27,15 @@ source-git-commit: 7d31d92197a6bf26b7530b8e8ff42c0dc7f25359
 次のタイプの外部アカウントをセットアップできます。
 
 * SFTP. 詳しくは、[この節](#sftp-external-account)を参照してください。
-* Amazon Storage Service(S3)。 詳しくは、[この節](#amazon-s3-external-account)を参照してください。
+* Amazonストレージサービス(S3)。 詳しくは、[この節](#amazon-s3-external-account)を参照してください。
 * Adobe Experience Manager. 詳しくは、[この節](#adobe-experience-manager-external-account)を参照してください。
 * Adobe Analytics。 詳しくは、[この節](../../integrating/using/configure-campaign-analytics-integration.md)を参照してください。
 * Google reCAPTCHA. 詳しくは、[この節](#google-recaptcha-external-account)を参照してください。
-* Microsoft Azure BLOBストレージ。 詳しくは、[この節](#microsoft-azure-external-account)を参照してください。
+* Microsoft Azure Blobストレージ。 詳しくは、[この節](#microsoft-azure-external-account)を参照してください。
 
 >[!NOTE]
 >
->その他のタイプの外部アカウントは、製品のプロビジョニングプロセスでアドビが使用します。 Campaign Standard 17.9リリースからは、FTP外部アカウントは引き続き定義できますが、新しいワークフローアクティビティでは使用できなくなりました。 既に接続が設定されている場合は、その接続は有効です。
+>その他のタイプの外部アカウントは、製品のプロビジョニングプロセスでアドビが使用します。 Campaign Standard17.9リリースからは、FTP外部アカウントは引き続き定義できますが、新しいワークフローアクティビティでは使用できなくなりました。 既に接続が設定されている場合は、その接続は有効です。
 
 外部アカウントは、管理者がメニューの下で設定で **[!UICONTROL Administration > Application settings > External accounts]** きます。
 
@@ -46,7 +46,7 @@ Adobe Campaign には、事前定義済みの外部アカウントのセット�
 外部アカウントは、テクニカルワークフローやキャンペーンワークフロー等の技術プロセスで使用されます。ワークフローのファイル転送や、その他のアプリケーション（Adobe Target、Experience Manager など）とのデータ交換をセットアップする際には外部アカウントを選択する必要があります。
 
 1. ボタンをクリッ **[!UICONTROL Create]** クします。
-1. ラベルを入力します。 ワークフローで外部アカウントを選択する際に、ラベルとIDが使用されます。
+1. ラベルを入力します。 ラベルとIDは、オプションで外部アカウントを選択する際に使用されます。
 1. 作成するアカウントのタイプを選択します。
 1. 関連する場合は、資格情報、サーバーアドレス、ポート番号、またはキーを指定して、アカウントへのアクセスを設定します。
 
@@ -58,9 +58,9 @@ Adobe Campaign には、事前定義済みの外部アカウントのセット�
 
 ## SFTP 外部アカウント {#sftp-external-account}
 
-外部アカウントの種類ごとに異なる情報を指定する必要があります。
+異なる外部アカウントタイプを指定するには、異なる情報を指定する必要があります。
 
-SFTP外部アカウントの場合は、次の詳細を入力します。
+SFTP外部アカウントの場合、次の詳細を入力します。
 
 * サーバーアドレス. 例： **ftp.domain.com**。
 * ポート番号。 For example, **22**.
@@ -122,14 +122,14 @@ Amazon S3アカウントの設定を支援するため、以下の推奨事項�
 
 ## Adobe Experience Manager の外部アカウント {#adobe-experience-manager-external-account}
 
-Adobe Experience Managerの外部アカウントは、CampaignとExperience Managerを統合する際に使用されます。
+Adobe Experience Managerの外部アカウントは、Experience Managerとキャンペーンを統合する際に使用します。
 
-このドキュメントでは、この統合に関連するプロセスと要件を [説明します](../../integrating/using/about-campaign-integrations.md)。
+この統合に関連するプロセスと要件は、このドキュメントで [使用できま](../../integrating/using/about-campaign-integrations.md)す。
 
 この新規外部アカウントを設定する際には、次の情報を提供する必要があります。
 
 * サーバー：adobe Experience ManagerサーバーのURLを入力します。 例えば、 **http://aem.domain.com:4502**。
-* AEMアカウントの資格情報：adobe Experience Managerインスタンスにアクセスするアカウントを使用します。 Experience Managerのキャンペーンリモートグループのアカウントの一部にする必要があります。
+* AEMアカウントの資格情報：adobe Experience Managerインスタンスにアクセスするアカウントを使用します。 Experience Managerのアカウントは、キャンペーンリモートグループの一部です。
 
 ## Google reCAPTCHA外部アカウント {#google-recaptcha-external-account}
 
@@ -137,13 +137,13 @@ Adobe Experience Managerの外部アカウントは、CampaignとExperience Mana
 >
 >Google reCAPTCHAの設定にはGoogleアカウントが必要です。
 
-Google reCAPTCHAメカニズムを使用すると、ボットによるスパムや悪用からランディングページを保護できます。 顧客からのインタラクションは不要で、サイトでのインタラクションに基づいているので、顧客にとっては侵入しないことです。 サイトを登録するには、このページを参照して [ください](https://www.google.com/recaptcha/admin/create)。 V3 reCAPTCHAタイプを選択する必要があります。
+Google reCAPTCHAメカニズムを使用すると、ボットによるランディングページのスパムや悪用を防ぐことができます。 顧客からのインタラクションは不要で、サイトでのインタラクションに基づいているので、顧客にとっては侵入しないことです。 サイトを登録するには、このページを参照して [ください](https://www.google.com/recaptcha/admin/create)。 V3 reCAPTCHAタイプを選択する必要があります。
 
-Google reCAPTCHA V3をランディングページに追加するには、まず外部アカウントで設定する必要があります。 ランディングページに追加する方法の詳細については、このセクションを参照してく [ださい](../../channels/using/configuring-landing-page.md#setting-google-recaptcha)。
+Google reCAPTCHA V3をランディングページに追加するには、まず外部アカウントで設定する必要があります。 ランディングページに追加する方法の詳細については、この節を参照してく [ださい](../../channels/using/configuring-landing-page.md#setting-google-recaptcha)。
 
-Google reCAPTCHA V3外部アカウントの場合は、次の詳細を入力します。
+Google reCAPTCHA V3外部アカウントの場合、次の詳細を入力します。
 
-* お客様 **[!UICONTROL Label]** の外部ア **[!UICONTROL ID]** カウントの
+* お客様 **[!UICONTROL Label]** の **[!UICONTROL ID]** 外部アカウント
 * **[!UICONTROL Type]**: Google reCAPTCHA
 * およ **[!UICONTROL Site key]** び **[!UICONTROL Site secret]**
 * A **[!UICONTROL Threshold]** - 0 ～ 1
@@ -152,26 +152,28 @@ Google reCAPTCHA V3外部アカウントの場合は、次の詳細を入力し�
 
 ![](assets/external_accounts_3.png)
 
-## Microsoft Azure BLOBストレージ外部アカウント {#microsoft-azure-external-account}
+## Microsoft Azure Blobストレージ外部アカウント {#microsoft-azure-external-account}
 
 >[!NOTE]
 >
->Adobe Campaign Standardで外部アカウントを構成するために必要な情報は、Azure Portalで、>を選択して参照で **[!UICONTROL Settings]** きます **[!UICONTROL Access keys]**。
+>Adobe Campaign Standardで外部アカウントを構成するために必要な情報は、Azure Portalで、>を選択して確認で **[!UICONTROL Settings]** きます **[!UICONTROL Access keys]**。
 
-Microsoft Azure BLOBストレージ外部アカウントの場合は、次の詳細を入力します。
+Azure BLOBストレージコネクタは、転送ファイルのワークフローアクティビティを使用して、Adobe Campaignにデータをインポートまたはエク **[!UICONTROLTスポートする]** ために使用できます。 詳しくは、[この節](../../automating/using/transfer-file.md#azure-blob-configuration-wf)を参照してください。
 
-* お客様 **[!UICONTROL Label]** の外部ア **[!UICONTROL ID]** カウントの
+Microsoft Azure BLOBストレージ外部アカウントの場合、次の詳細を入力します。
+
+* お客様 **[!UICONTROL Label]** の **[!UICONTROL ID]** 外部アカウント
 * **[!UICONTROL Type]**:Microsoft Azure Blobストレージ
 * お前 **[!UICONTROL Account name]** と **[!UICONTROL Account key]**。 To know where to find your account name and key, refer to this [page](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage).
 * あなた **[!UICONTROL Endpoint suffix]**&#x200B;の。 Azure Portalのメニュー **[!UICONTROL Connection string]** 内にあ **[!UICONTROL Access keys]** ります。 詳しくは、この[ページ](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage)を参照してください。
-* お名 **[!UICONTROL Container]** 前。 複数のコンテナを使用する場合は、コンテナと同じ数の外部アカウントを作成する必要があります。
+* お名 **[!UICONTROL Container]** 前。 複数のコンテナを使用する場合は、外部アカウントと同じ数のコンテナを作成します。
 * このオ **[!UICONTROL Concurrency]** プションを使用すると、ファイル転送の速度を微調整できます。
 
 ![](assets/external_accounts_4.png)
 
 構成が完了したら、クリ **[!UICONTROL Test connection]** ックしてAdobe CampaignをMicrosoft Azure Blobストレージにリンクします。
 
-### Microsoft Azure BLOBストレージの推奨事項 {#azure-blob-recommendations}
+### Microsoft Azure Blobストレージの推奨 {#azure-blob-recommendations}
 
 **暗号化**
 
@@ -179,7 +181,7 @@ Adobe Campaignは、セキュリティで保護された接続(HTTPS)を使用�
 
 **アカウントキー**
 
-外部アカウントを構成する場合は、Azure Portalで使用可能ないずれかの **[!UICONTROL Account key]** アカウントを使用する必要があります。 アカウントキーの検索場所の詳細については、このページを参照してく [ださい](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage#view-access-keys-and-connection-string)。
+外部アカウントを構成する際は、Azure Portalで使用可能ないず **[!UICONTROL Account key]** れかを使用する必要があります。 For more information on where to find your account keys, refer to this [page](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage#view-access-keys-and-connection-string).
 
 **ファイル転送速度の最適化**
 
@@ -190,9 +192,9 @@ Adobe Campaignは、セキュリティで保護された接続(HTTPS)を使用�
 
 **再試行**
 
-既定では、Azure Blobのファイル転送には最大4回の再試行が含まれます。  Azure Storageサービスが503 （サーバービジー）や500 （操作のタイムアウト）などのエラーコードを返す場合は、ストレージアカウントのスケーラビリティに近づいているか、それを超えている可能性があります。 これは、新しいアカウントを使用する場合や、テストを実行する場合に発生する可能性があります。
+既定では、Azure Blobのファイル転送には最大4つの再試行が含まれます。  Azureストレージサービスが503 （サーバービジー）や500 （操作のタイムアウト）などのエラーコードを返した場合、ストレージアカウントのスケーラビリティに近づいているか、それを超えている可能性があります。 これは、新しいアカウントを使用する場合や、テストを実行する場合に発生する可能性があります。
 
-エラーが引き続き発生する場合は、詳細メニュー/[ ]>[ ]の下のオプションを作成して、再試行回数を増や **[!UICONTROL Administration]** すことが **[!UICONTROL Application Settings]** できま **[!UICONTROL Options]**&#x200B;す。
+エラーが引き続き発生する場合は、詳細メニュー//の下にオプションを作成して、再試行数を増や **[!UICONTROL Administration]** すことが **[!UICONTROL Application Settings]** できま **[!UICONTROL Options]**&#x200B;す。
 
 実装する場合は、次のようにオプションを作成する必要があります。
 
