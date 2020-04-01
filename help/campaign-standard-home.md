@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Adobe Campaign Standard 製品ドキュメント
 topic: Premium
 translation-type: tm+mt
-source-git-commit: a6e81927aad7bf06eca6d0dc7436c4dc2a1c21c5
+source-git-commit: 7e7bd906982e71e8ba29339998fa3bf8c65c620b
 
 ---
 
@@ -59,19 +59,13 @@ source-git-commit: a6e81927aad7bf06eca6d0dc7436c4dc2a1c21c5
 </tr>
 </table>
 
-
 ## その他のリソース
 
-* [リリースノート](rn/using/release-notes.md)
-
-* [コントロールパネル](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
-
-* [ハウツービデオ](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)
-
-* [リリース計画ガイド](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
-
-* [廃止および削除された機能](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
-
-* [テクニカルノート](https://helpx.adobe.com/campaign/kb/acs-article-list.html)
-
-* [Adobe Campaign Standard 実装ガイド](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html)
+| 役に立つページ | 開発者向けリソース |
+|---|---|
+| [リリースノート](rn/using/release-notes.md) | [実装ガイド](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html) |
+| [コントロールパネルのドキュメント](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html) | [APIドキュメント](api/using/about-campaign-standard-apis.md) |
+| [ハウツービデオ](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) | [エラーリスト](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
+| [リリース計画ガイド](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) | [Campaign Standardデータモデル](developing/using/datamodel-introduction.md) |
+| [廃止および削除された機能](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html) | [Campaign 統合](integrating/using/about-campaign-integrations.md) |
+| [はじめにCampaign Standard](start/using/campaign-orchestration.md) | [テクニカルノート](https://helpx.adobe.com/campaign/kb/acs-article-list.html) |
