@@ -13,7 +13,7 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b85633e278e3824a58390ee538b4a6e6954785af
+source-git-commit: d68dbc3e9579f044b7ac1f76ac729548057bb6ec
 
 ---
 
@@ -22,13 +22,13 @@ source-git-commit: b85633e278e3824a58390ee538b4a6e6954785af
 
 ## 電子メールチャネルパラメータ {#email-channel-parameters}
 
-電子メール設定画面では、電子メールチャネルのパラメータを定義できます。
+電子メール設定画面では、電子メールパラメーターを定義できます。チャネル
 
 ![](assets/channels_1.png)
 
 * **送信された電子メールのヘッダーパラメーター**
 
-   このセクションでは、送信者のアドレスとエ **[!UICONTROL masks]** ラーのアドレスに対して認証された情報を指定できます。 必要に応じて、これらのマスクをコンマで区切ることができます。 この設定はオプションです。 これらのフィールドを入力すると、メッセージの準備段階で、Adobe Campaignは入力されたアドレスが有効であることを確認します。 このオペレーティングモードを使用すると、配信品質の問題を引き起こす可能性のあるアドレスが使用されなくなります。 配信アドレスは、配信サーバーで設定する必要があります。
+   このセクションでは、送信者のアドレスとエ **[!UICONTROL masks]** ラーのアドレスに対して認証された情報を指定できます。 必要に応じて、これらのマスクをコンマで区切ることができます。 この設定はオプションです。 これらのフィールドを入力すると、メッセージの準備段階で、Adobe Campaignは入力されたアドレスが有効であることを確認します。 このオペレーティングモードを使用すると、配信品質の問題を引き起こす可能性のあるアドレスが使用されなくなります。 配信アドレスは、サーバー上で設定する必要があります。
 
 * **配信品質**
 
@@ -36,21 +36,21 @@ source-git-commit: b85633e278e3824a58390ee538b4a6e6954785af
 
 * **配信パラメーター**
 
-   開始日に開始するメッセージがAdobe Campaignによって送信されます。 このフ **[!UICONTROL Message delivery duration]** ィールドでは、メッセージを送信できる期間を指定できます。
+   Adobe Campaignは、メッセージの開始日にメッセージを開始します。 このフ **[!UICONTROL Message delivery duration]** ィールドでは、メッセージを送信できる期間を指定できます。
 
    The **[!UICONTROL Online resources validity duration]** field is used for uploaded resources, mainly for the mirror page and images. ディスクスペースを節約するために、このページ上のリソースが有効な期間は限られています。
 
 * **再試行**
 
-   一時的に配信できなかったメッセージは、自動再試行の対象となります。この節では、送信開始後の1日の再試行回数(再試行回数&#x200B;**)と、再試行間隔の最小遅延(再試**&#x200B;行期間&#x200B;****)を示します。
+   一時的に配信できなかったメッセージは、自動再試行の対象となります。この節では、送信開始後の日に実行する再試行の数(再試行数&#x200B;**)と再試行間の最小遅延(再試行期間**)を示&#x200B;**します**。
 
-   デフォルトでは、最小1時間の間隔で最初の日に5回の再試行がスケジュールされ、その日の24時間にわたって配分されます。 One retry per day is programmed after that and until the delivery deadline, which is defined in the **[!UICONTROL Delivery parameters]** section.
+   デフォルトでは、最小間隔が1時間の最初の日に5人の再試行がスケジュールされ、その日の24時間にわたって配分されます。 One retry per day is programmed after that and until the delivery deadline, which is defined in the **[!UICONTROL Delivery parameters]** section.
 
 * **E メール強制隔離のパラメーター**
 
    このフィー **[!UICONTROL Time between two significant errors]** ルドに、エラーが発生した場合にエラーカウンターを増やすまでのアプリケーションの待機時間を定義する値を入力します。 デフォルト値：「 **1d」**（1日）
 
-   値に達する **[!UICONTROL Maximum number of errors before quarantine]** と、電子メールアドレスが隔離されます。 デフォルト値： **&quot;5&quot;**:アドレスは6番目のエラーで隔離されます。 これは、その連絡先が以降の配信から自動的に除外されることを意味します。
+   値に達する **[!UICONTROL Maximum number of errors before quarantine]** と、電子メールアドレスが隔離されます。 デフォルト値： **&quot;5&quot;**:アドレスは6番目のエラーで隔離されます。 これは、連絡先が後続の配信から自動的に除外される。
 
 **関連トピック**:
 
@@ -58,11 +58,11 @@ source-git-commit: b85633e278e3824a58390ee538b4a6e6954785af
 
 ## 電子メールルーティングアカウント {#email-routing-accounts}
 
-外部アカ **[!UICONTROL Integrated email routing]** ウントはデフォルトで提供されます。 アプリケーションが電子メールを送信するための技術的なパラメーターが含まれます。
+この **[!UICONTROL Integrated email routing]** 外部アカウントはデフォルトで提供されます。 アプリケーションが電子メールを送信するための技術的なパラメーターが含まれます。
 
 ![](assets/channels_2.png)
 
-アカウントタイプは常ににに、チャネル **[!UICONTROL Routing]**&#x200B;はに、配信モードはに **[!UICONTROL Email]** 設定されている必要がありま **[!UICONTROL Bulk delivery]**&#x200B;す。
+アカウントタイプは常ににに、 **[!UICONTROL Routing]**&#x200B;チャネルはに、配信モード **[!UICONTROL Email]** はに設定する必要がありま **[!UICONTROL Bulk delivery]**&#x200B;す。
 
 **関連トピック**:
 
@@ -78,13 +78,13 @@ source-git-commit: b85633e278e3824a58390ee538b4a6e6954785af
 
 ### バウンスメール {#bounce-mails}
 
-同期配信の失敗エラーメッセージの場合、拡張MTAはバウンスのタイプと資格を決定し、その情報をCampaignに返します。 Adobe Campaign拡張MTAについて詳しくは、このドキュメントを参照してく [ださい](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)。
+同期配信障害のエラーメッセージの場合、拡張MTAはバウンスのタイプと条件を決定し、その情報をキャンペーンに返します。 Adobe Campaign Enhanced MTA について詳しくは、この[ドキュメント](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)を参照してください。
 
-非同期バウンスは、引き続きルールを通じてCampaign inMailプロセスで認定さ **[!UICONTROL Bounce mails]** れます。
+非同期バウンスは、引き続きルールを通じてinMailキャンペーンによって認証さ **[!UICONTROL Bounce mails]** れます。
 
 >[!IMPORTANT]
 >
->拡張MTAにアップグレードすると、キャンペーン表のバウンス **[!UICONTROL Message qualification]** 条件は使用されなくなります。 バウンスメールの資格について詳しくは、この節を参照して [ください](../../sending/using/understanding-delivery-failures.md)。
+>拡張MTAにアップグレードすると、キャンペーン表の直帰 **[!UICONTROL Message qualification]** 条件は使用されなくなります。 バウンスメールの資格について詳しくは、この節を参照して [ください](../../sending/using/understanding-delivery-failures.md)。
 
 <!--The user can create his own rules.
 
@@ -107,7 +107,7 @@ The **SMTP parameters** act as filters applied for a blocking rule.
 
 **DKIM(DomainKeys Identified Mail)電子メール認証の署名は** 、すべてのドメインを持つすべてのメッセージに対して拡張MTAによって行われます。 拡張MTAレベルで特に指定され **ていない限り、** Sender ID **、** DomainKeys **、** S/MIMEを使用して署名することはできません。
 
-Adobe Campaign拡張MTAについて詳しくは、このドキュメントを参照してく [ださい](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)。
+Adobe Campaign Enhanced MTA について詳しくは、この[ドキュメント](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)を参照してください。
 
 ### MX 管理 {#mx-management}
 
@@ -121,9 +121,9 @@ To configure MX management rules, simply set a threshold and select certain SMTP
 >
 >拡張MTAにアップグレードすると、Adobe Campaignの配信スループッ **[!UICONTROL MX management]** トルールは使用されなくなります。
 
-拡張MTAは独自のMXルールを使用し、独自の履歴電子メールの評判や、電子メールを送信するドメインからのリアルタイムのフィードバックに基づいて、ドメイン別にスループットをカスタマイズできます。
+Enhanced MTA は独自の MX ルールを使用します。これにより、独自の E メールレピュテーション履歴および E メールを送信しているドメインから送信されるリアルタイムのフィードバックに基づいて、スループットをドメインごとにカスタマイズすることができます。
 
-Adobe Campaign拡張MTAについて詳しくは、このドキュメントを参照してく [ださい](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)。
+Adobe Campaign Enhanced MTA について詳しくは、この[ドキュメント](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)を参照してください。
 
 <!--Each rule defines an address mask for the MX. Any MX whose name matches this mask is therefore eligible. The mask can contain "&#42;" and "?" generic characters.
 
@@ -159,9 +159,9 @@ The following parameters are available for each rule:
 >* The delivery server (MTA) must be restarted if the parameters have been changed. 
 >* The modification or creation of management rules is for expert users only. -->
 
-## 電子メールのプロパティのリスト {#list-of-email-properties}
+## 電子メールプロパティのリスト {#list-of-email-properties}
 
-この節では、電子メールまたは電子メールテンプレートのプロパティ画面で使用できるパラメータのリストについて説明します。
+この節では、電子メールまたは電子メールリストのプロパティ画面で使用できるパラメーターのテンプレートについて説明します。
 
 >[!NOTE]
 >
@@ -173,7 +173,7 @@ The following parameters are available for each rule:
 
 ### 一般パラメーター {#general-parameters}
 
-電子メールパラメータ画面の上部で、およびフィールドを使用して電子メールを **[!UICONTROL Label]** 識別 **[!UICONTROL ID]** します。 この情報はインターフェイスに表示されますが、メッセージの受信者には表示されません。
+電子メールパラメータ画面の上部で、およびフィールドを使用して電子メールを **[!UICONTROL Label]** 識別 **[!UICONTROL ID]** します。 この情報はインターフェイスに表示されますが、メッセージ受信者には表示されません。
 
 ![](assets/delivery_options_2.png)
 
@@ -181,34 +181,34 @@ The following parameters are available for each rule:
 >
 >IDは一意である必要があります。
 
-このフ **[!UICONTROL Brand]** ィールドでは、配信にリンクされたブランドを選択できます。 ブランドの使用と設定について詳しくは、「ブランド」の節を参照して [ください](../../administration/using/branding.md) 。
+このフ **[!UICONTROL Brand]** ィールドを使用すると、ブランドを選択できます。配信。 ブランドの使用と設定について詳しくは、「ブランド」の節を参照して [ください](../../administration/using/branding.md) 。
 
-このフィ **[!UICONTROL Campaign]** ールドを使用すると、電子メールにリンクされたキャンペーンを入力できます。
+このフィ **[!UICONTROL Campaign]** ールドには、電子メールにリンクされたキャンペーンを入力できます。
 
-対応するフィールドにを追加 **[!UICONTROL Description]** し、リスト内の電子メールサムネールに表示される画像を編集することもできます。
+対応するフィールドに画像を追 **[!UICONTROL Description]** 加し、画像内の電子メールサムネールに表示される画像を編集することもできます。リスト
 
 ### 送信パラメーター {#sending-parameters}
 
 このセクシ **[!UICONTROL Send]** ョンは、電子メールテンプレートでのみ使用できます。 次のパラメーターが含まれます。
 
-#### Retriesパラメーター {#retries-parameters}
+#### 再試行パラメータ {#retries-parameters}
 
-一時的に配信できなかったメッセージは、自動再試行の対象となります。この節では、送信開始後の1日に実行する再試行の回数( **[!UICONTROL Max. number of retries]** )と、再試行間の最小遅延( **[!UICONTROL Retry period]** )を示します。
+一時的に配信できなかったメッセージは、自動再試行の対象となります。この節では、送信開始後の日に実行する再試行の数( )と、再試行間の最 **[!UICONTROL Max. number of retries]** 小遅延( **[!UICONTROL Retry period]** )を示します。
 
-デフォルトでは、最小1時間の間隔で最初の日に5回の再試行がスケジュールされ、その日の24時間にわたって配分されます。 One retry per day is programmed after that and until the delivery deadline, which is defined in the [Validity period parameters](#validity-period-parameters) section.
+デフォルトでは、最小間隔が1時間の最初の日に5人の再試行がスケジュールされ、その日の24時間にわたって配分されます。 One retry per day is programmed after that and until the delivery deadline, which is defined in the [Validity period parameters](#validity-period-parameters) section.
 
-再試行の回数は、グローバルに（アドビのテクニカル管理者に問い合わせて）、または各配信または配信テンプレートに対して変更できます。
+再試行の数は、グローバルに（アドビのテクニカル管理者に問い合わせて）、または各配信や配信テンプレートに対して変更できます
 
-#### 電子メール形式パラメーター {#email-format-parameters}
+#### E メールフォーマットパラメータ {#email-format-parameters}
 
 送信する電子メールの形式を設定できます。 次の3つのオプションを使用できます。
 
-* **受信者の環境設定** （デフォルトモード）を使用：メッセージの形式は、受信者プロファイルに保存されたデータに従って定義され、デフォルトでは「 **Email format** 」フィールド(@emailFormat)に保存されます。 受信者が特定の形式でメッセージを受信することを希望していれば、メッセージはその形式で送信されます。フィールドが完了していない場合は、マルチパート代替メッセージが送信されます（以下を参照）。
-* **受信者のメールクライアントに最適な形式（マルチパート代替形式）を選択させます**。メッセージには、両方の形式が含まれます。テキストとHTML。 受信時に表示される形式は、受信者のメールソフトウェアの設定（マルチパート代替）によって異なります。
+* **受信者の環境設定** （デフォルトモード）を使用します。メッセージの形式は、受信者プロファイルに格納されたデータに従って定義され、デフォルトでは **E メールフォーマット** (@emailFormat)フィールドに格納されます。 受信者が特定の形式でメッセージを受信することを希望していれば、メッセージはその形式で送信されます。フィールドが未入力の場合は、マルチパート/オルタナティブメッセージが送信されます（以下を参照）。
+* **受信者メールクライアントが最も適切な形式を選択できるようにします(マルチパート/オルタナティブ)**。メッセージには、両方の形式が含まれます。テキストとHTML。 受信時に表示される形式は、受信者のメールソフトウェア(マルチパート/オルタナティブ)の設定によって異なります。
 
    >[!IMPORTANT]
    >
-   >このオプションには、両方のバージョンのメッセージが含まれます。 したがって、メッセージサイズが大きいので、配信のスループットに影響します。
+   >このオプションには、両方のバージョンのメッセージが含まれます。 したがって、メッセージサイズが大きいので、配信のスループットに影響を与えます。
 
 * **すべてのメッセージをテキスト形式で送信**:メッセージはテキスト形式で送信されます。 HTML形式は送信されませんが、受信者がメッセージ内のリンクをクリックした場合にのみミラーページに使用されます。
 
@@ -226,9 +226,9 @@ SMTPサーバーとの接続が確立されるまでメッセージは処理さ�
 >[!IMPORTANT]
 >
 >電子メールに対してこのオプションを有効にすると、オフになるまでメッセージは送信されません。
->電子メールまたは電子メールテンプレートのダッシュボードに警告が表示されます。
+>警告が電子メールまたは電子メールテンプレートダッシュボードに表示されます。
 
-SMTPの設定について詳しくは、「 [List of email SMTP parameters](#list-of-email-smtp-parameters) 」を参照してください。
+SMTPの設定について詳しくは、「電子メールSMTPパラメータの [リスト」の節を参照してください](#list-of-email-smtp-parameters) 。
 
 ### 有効期間パラメーター {#validity-period-parameters}
 
@@ -240,27 +240,27 @@ SMTPの設定について詳しくは、「 [List of email SMTP parameters](#lis
 
    ![](assets/delivery-set-explicit-dates.png)
 
-* **[!UICONTROL Delivery duration]**:開始日に開始するメッセージがAdobe Campaignによって送信されます。 このフィールドでは、メッセージを送信できる期間を指定できます。
+* **[!UICONTROL Delivery duration]**:Adobe Campaignは、メッセージの開始日にメッセージを開始します。 このフィールドでは、メッセージを送信できる期間を指定できます。
 
    >[!IMPORTANT]
    >
-   >拡張MTAにアップグレードした後は、 **[!UICONTROL Delivery duration]** キャンペーン配信のパラメーターは、3.5日以下に設定された場合にのみ使用されます。 3.5日を超える値を定義した場合、この値は考慮されません。 影響の詳細については、『 [Adobe Campaign Enhanced MTA](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html) 』ドキュメントを参照してください。
+   >拡張MTAにアップグレードした後は、キャンペーン **[!UICONTROL Delivery duration]** 配信内のパラメーターは、3.5日以下に設定された場合にのみ使用されます。 3.5 日を超える値を定義した場合、その値は考慮されません。すべての影響について詳しくは、[Adobe Campaign Enhanced MTA](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html) ドキュメントを参照してください。
 
-* **[!UICONTROL Resource validity duration]**:このフィールドは、主にミラーページや画像など、アップロードされたリソースに使用されます。 ディスクスペースを節約するために、このページ上のリソースが有効な期間は限られています。
-* **[!UICONTROL Mirror page management]**:ミラーページは、Webブラウザを介してオンラインでアクセスできるHTMLページです。 内容は電子メールの内容と同じです。 デフォルトでは、リンクがメールコンテンツに挿入されると、ミラーページが生成されます。 このフィールドでは、このページの生成方法を変更できます。
+* **[!UICONTROL Resource validity duration]**:このフィールドは、主にリソースと画像のアップロード済みリソースに使用されるミラーページです。 ディスクスペースを節約するために、このページ上のリソースが有効な期間は限られています。
+* **[!UICONTROL Mirror page management]**:ミラーページは、Webブラウザーを介してオンラインでアクセスできるHTMLページです。 内容は電子メールの内容と同じです。 デフォルトでは、ミラーページは、リンクがメールコンテンツに挿入された場合に生成されます。 このフィールドでは、このページの生成方法を変更できます。
 
    >[!IMPORTANT]
    >
-   >ミラーページを作成する電子メールには、HTMLコンテンツを定義する必要があります。
+   >電子メールを作成するには、HTMLコンテンツが定義されている必要があります。ミラーページを作成するには、
 
-   * **[!UICONTROL Generate the mirror page if a mirror link appears in the email content]** （デフォルトモード）:リンクがメールコンテンツに挿入されると、ミラーページが生成されます。
-   * **ミラーページの生成を強制**:ミラーページへのリンクがメッセージに挿入されていない場合でも、ミラーページが作成されます。
-   * **ミラーページを生成しない**:リンクがメッセージ内にある場合でも、ミラーページは生成されません。
-   * **次のメッセージIDのみを使用して、アクセス可能なミラーページを生成します**。このオプションを使用すると、パーソナライゼーション情報を含むミラーページのコンテンツに配信ログウィンドウでアクセスできます。
+   * **[!UICONTROL Generate the mirror page if a mirror link appears in the email content]** （デフォルトモード）:ミラーページは、リンクがメールコンテンツに挿入された場合に生成されます。
+   * **生成を強制するミラーページ**:メッセージにミラーページへのリンクが挿入されていない場合でも、ミラーページが作成されます。
+   * **生成しないミラーページ**:リンクがメッセージ内にある場合でも、ミラーページは生成されません。
+   * **次のメッセージIDのみを使用してミラーページをアクセス可能にします**。このオプションを使用すると、パーソナライゼーション情報を使用して、ミラーページのコンテンツに配信ログウィンドウでアクセスできます。
 
 >[!NOTE]
 >
->このパラメ **[!UICONTROL Delivery duration]** ーターは、トランザクションメッセージには適用されません。 トランザクションメッセージングについて詳しくは、この節を [参照してくださ](../../channels/using/about-transactional-messaging.md)い。
+>このパラメ **[!UICONTROL Delivery duration]** ーターは、トランザクションメッセージには適用されません。 For more on transactional messaging, see [this section](../../channels/using/about-transactional-messaging.md).
 
 ### トラッキングパラメーター {#tracking-parameters}
 
@@ -282,17 +282,17 @@ SMTPの設定について詳しくは、「 [List of email SMTP parameters](#lis
 
 パーソナライゼーションコンテンツの挿入と使用について詳しくは、電子メールコン [テンツのパーソナライズドキュメン](../../designing/using/personalization.md) トを参照してください。
 
-#### Targetコンテキスト {#target-context}
+#### ターゲット文脈 {#target-context}
 
-ターゲット設定コンテキストを使用すると、電子メールのターゲット設定（オーディエンス定義画面）およびパーソナライゼーション（HTMLコンテンツエディターでのパーソナライゼーションフィールドの定義）に使用する一連のテーブルを定義できます。
+ターゲット設定コンテキストを使用すると、電子メールのターゲット設定(オーディエンス定義画面)およびパーソナライゼーション(HTMLコンテンツエディターでのパーソナライゼーションフィールドの定義)に使用される一連のテーブルを定義できます。
 
 #### ルーティング {#routing}
 
-このフィールドは、使用されるルーティングモードを示します。 外部アカウントを参照します。 例えば、特定のブランド設定を含む外部アカウントを使用する場合に使用できます。
+このフィールドは、使用されるルーティングモードを示します。 これは外部アカウントを参照 例えば、特定のブランド設定を含む外部アカウントを使用する場合に使用できます。
 
 >[!NOTE]
 >
->外部アカウントにアクセスするには、管理/ア **プリケー** ション設定 **/外部アカウ** ントメニューを使用 **します** 。
+>外部アカウントには、管理/アプリケ **ーション設定** / **外部アカウントメニューからア** クセスできます **** 。
 
 #### 準備 {#preparation}
 
@@ -304,29 +304,29 @@ SMTPの設定について詳しくは、「 [List of email SMTP parameters](#lis
    >
    >//メニューからアクセスできるタ **[!UICONTROL Administration]** イポロ **[!UICONTROL Channels]** ジは **[!UICONTROL Typologies]** 、「タイポロジ」セクションに表 [示され](../../administration/using/about-typology-rules.md) ます。
 
-* **[!UICONTROL Compute the label during delivery preparation]**:パーソナライゼーションフィールド、コンテンツブロックおよびダイナミックテキストを使用して、メッセージの準備段階での電子メールのラベル値を計算できます。
+* **[!UICONTROL Compute the label during delivery preparation]**:メッセージ、コンテンツブロック、ダイナミックテキストを使用して、メッセージの準備段階での電子メールのパーソナライゼーションフィールド値を計算できます。
 
-   また、ワークフローの外部シグナルアクティビティに宣言されたイベント変数を使用して、配信ラベルをパーソナライズすることもできます。 詳しくは、[この節](../../automating/using/calling-a-workflow-with-external-parameters.md)を参照してください。
+   また、ワークフローの外部シグナル配信に宣言されたイベント変数を使用して、ワークフローラベルをパーソナライズすることもできます。 詳しくは、[この節](../../automating/using/calling-a-workflow-with-external-parameters.md)を参照してください。
 
 * **[!UICONTROL Save SQL queries in the log]**:このオプションを使用すると、準備段階でSQLクエリログをジャーナルに追加できます。
 
 #### 配達確認設定 {#proof-settings}
 
-このセクションでは、校正の件名行に使用するデフォルトのプレフィックスを設定できます。 For more in this, refer to [this section](../../sending/using/sending-proofs.md).
+このセクションでは、件名行で使用するデフォルトのプレフィックスを配達確認に設定できます。 For more in this, refer to [this section](../../sending/using/sending-proofs.md).
 
-### 電子メールのSMTPパラメーターのリスト {#list-of-email-smtp-parameters}
+### 電子メールSMTPパラメータのリスト {#list-of-email-smtp-parameters}
 
 この節では、 **[!UICONTROL SMTP]** 次のパラメーターについて説明します。
 
 * **[!UICONTROL Character encoding]**:メッセージ **[!UICONTROL Force encoding]** のエンコーディングを強制する場合は、チェックボックスをオンにし、使用するエンコーディングを選択します。
 * **[!UICONTROL Bounce mails]**:デフォルトでは、バウンスメールはプラットフォームのエラーインボックス(> > **[!UICONTROL Administration]** >画面で **[!UICONTROL Channels]** 定義 **[!UICONTROL Email]** )で受信さ **[!UICONTROL Configuration]** れます。 電子メールの特定のエラーアドレスを定義するには、フィールドにアドレスを入力 **[!UICONTROL Error address]** します。
-* **[!UICONTROL Additional SMTP headers]**:このオプションを使用すると、追加のSMTPヘッダーをメッセージに追加できます。 フィールドに入力するス **[!UICONTROL Headers]** クリプトは、1行に1つのヘッダーをname:valueの形式で参照する必要 **があります**。 値は必要に応じて自動的にエンコードされます。
+* **[!UICONTROL Additional SMTP headers]**:このオプションを使用すると、追加のSMTPヘッダーをメッセージに追加できます。 The script entered in the **[!UICONTROL Headers]** field must reference one header per line, in the form of **name:value**. 値は必要に応じて自動的にエンコードされます。
 
    >[!IMPORTANT]
    >
    >スクリプトを追加すると、挿入する SMTP ヘッダーを追加できます。これは高度な知識を持つユーザー向けに用意されています。スクリプトの構文は、このコンテンツタイプの要件を満たしている必要があります（不要なスペースや空行を含まないなど）。
 
-### アクセス承認パラメーターのリスト {#list-of-access-authorization-parameters}
+### アクセス許可リストのパラメータ {#list-of-access-authorization-parameters}
 
 この節では、 **[!UICONTROL Access authorization]** 次のパラメーターについて説明します。
 
