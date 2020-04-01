@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: ddccab05af415fe3ddab7b75db7118fa94552565
+source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
 
 ---
 
@@ -50,7 +50,7 @@ source-git-commit: ddccab05af415fe3ddab7b75db7118fa94552565
       + [プロファイルの編集](audiences/using/editing-profiles.md)
       + [統合された顧客プロファイル](audiences/using/integrated-customer-profile.md)
       + [アクティブなプロファイル](audiences/using/active-profiles.md)
-      + [テストプロファイルの管理](audiences/using/managing-test-profiles.md)
+      + [テストプロファイル](audiences/using/managing-test-profiles.md)
    + オーディエンスの管理{#managing-audiences}
       + [オーディエンスについて](audiences/using/about-audiences.md)
       + [オーディエンスの作成](audiences/using/creating-audiences.md)
@@ -141,7 +141,7 @@ source-git-commit: ddccab05af415fe3ddab7b75db7118fa94552565
       + [メッセージのプレビュー](sending/using/previewing-messages.md)
       + [送信の準備](sending/using/preparing-the-send.md)
       + [配達確認の送信](sending/using/sending-proofs.md)
-      + [ターゲットプロファイルを使用した電子メールメッセージのテスト](sending/using/testing-messages-using-target.md)
+      + [ターゲットを設定したメッセージを使用した電子メールプロファイル](sending/using/testing-messages-using-target.md)
       + [電子メールの件名行のテスト](sending/using/testing-subject-line-email.md)
       + [電子メールのレンダリング](sending/using/email-rendering.md)
       + [トラップの使用](sending/using/using-traps.md)
@@ -198,37 +198,47 @@ source-git-commit: ddccab05af415fe3ddab7b75db7118fa94552565
       + [コンポーネントの追加](reporting/using/adding-components.md)
       + [カスタムプロファイルディメンションの作成](reporting/using/creating-a-custom-profile-dimension.md)
       + [ワークフローセグメントに基づくレポートの作成](reporting/using/creating-a-report-workflow-segment.md)
-+ Adobe Cloud との統合{#integrating-with-adobe-cloud}
++ 他のソリューションとの統合 {#integrating-with-adobe-cloud}
    + [Campaign 統合について](integrating/using/about-campaign-integrations.md)
-   + Campaign と Experience Manager の使用{#working-with-campaign-and-experience-manager}
+   + キャンペーンとExperience Manager {#working-with-campaign-and-experience-manager}
       + [Campaign-Experience Manager 統合について](integrating/using/integrating-with-experience-manager.md)
-      + [CampaignとExperience Managerの統合の設定](integrating/using/configure-experience-manager.md)
+      + [Experience Manager統合のキャンペーン設定](integrating/using/configure-experience-manager.md)
       + [Adobe Experience Manager での電子メールコンテンツの作成](integrating/using/creating-email-experience-manager.md)
       + [Experience Manager での Campaign フォームの作成](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
-   + Campaign と Target の使用{#working-with-campaign-and-target}
+   + キャンペーンとターゲット {#working-with-campaign-and-target}
       + [Campaign と Target の統合について](integrating/using/about-campaign-target-integration.md)
       + [Campaign と Target 統合の設定](integrating/using/configuring-the-campaign-target-integration.md)
       + [Target の動的コンテンツの追加](integrating/using/adding-target-dynamic-content.md)
-   + Campaign と Analytics の使用{#working-with-campaign-and-analytics}
+   + キャンペーンと解析 {#working-with-campaign-and-analytics}
       + [Campaign と Analytics の統合について](integrating/using/about-campaign-analytics-integration.md)
       + [Campaign と Analytics の統合の設定](integrating/using/configure-campaign-analytics-integration.md)
       + [Analytics での Campaign のディメンションと指標](integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
-   + Campaign と Audience Manager または People コアサービスの使用{#working-with-campaign-and-audience-manager-or-people-core-service}
+   + Campaign and Audience Manager or People core service {#working-with-campaign-and-audience-manager-or-people-core-service}
       + [Campaign と Audience Manager または People コアサービス統合について](integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
       + [Audience Manager または People コアサービスとの統合のプロビジョニングと設定](integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
       + [トラブルシューティング](integrating/using/troubleshooting.md)
       + [Audience Manager または People コアサービスのオーディエンスを共有](integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
       + [Campaign と Assets コアサービスの使用](integrating/using/working-with-campaign-and-assets-core-service.md)
-   + Mobile 用の Campaign と Analytics の使用{#working-with-campaign-and-analytics-for-mobile}
+   + キャンペーンとモバイルの分析 {#working-with-campaign-and-analytics-for-mobile}
       + [Campaign と POI データの統合について](integrating/using/about-campaign-points-of-interest-data-integration.md)
       + [Campaign と POI データの統合の設定](integrating/using/configuring-campaign-points-of-interest-data-integration.md)
       + [POI データを使用した Campaign メッセージのパーソナライズ](integrating/using/personalizing-campaign-messages-with-point-of-interest-data.md)
-   + Campaign でのトリガーの使用{#working-with-campaign-and-triggers}
+   + キャンペーンとトリガー {#working-with-campaign-and-triggers}
       + [Adobe Experience Cloud Triggers について](integrating/using/about-adobe-experience-cloud-triggers.md)
       + [Experience Cloud でのトリガーの設定](integrating/using/configuring-triggers-in-experience-cloud.md)
       + [Campaign でのトリガーの使用](integrating/using/using-triggers-in-campaign.md)
       + [トリガーのテスト](integrating/using/testing-your-triggers.md)
       + [中断トリガーの使用例](integrating/using/abandonment-triggers-use-cases.md)
+   + キャンペーンとMicrosoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
+      + [Microsoft Dynamics 365統合用のAdobe IOの設定](integrating/using/configure-adobe-io-for-ms-dynamic.md)
+      + [Campaign StandardとMicrosoft Dynamics 365の操作]{#configuring-acs-ms-dynamics}
+         + [Campaign StandardとMicrosoft Dynamics 365の操作](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+         + [通知と推奨事項](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
+         + [Microsoft Dynamics 365とCampaign Standard統合の要求と設定](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
+         + [Microsoft Dynamics 365とCampaign Standard統合の使用](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
+      + [Microsoft Dynamics 365をキャンペーン統合用に構成](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
+      + [Microsoft Dynamics 365統合用のUnifiの構成](integrating/using/configure-unifi-for-microsoft-dynamics-365-integration.md)
+      + [キャンペーンのカスタムリソースとDynamics 365カスタムエンティティのマッピング](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
 + プロセスとデータの管理{#managing-processes-and-data}
    + ワークフローとデータ管理について{#about-workflows-and-data-management}
       + [ワークフローのデータとプロセス](automating/using/workflow-data-and-processes.md)
@@ -346,7 +356,7 @@ source-git-commit: ddccab05af415fe3ddab7b75db7118fa94552565
    + 設定のガイドライン {#configuration-guidelines}
       + [設定のガイドラインについて](administration/using/about-configuration-guidelines.md)
       + [互換性のあるブラウザー](administration/using/compatible-browsers.md)
-      + [キャンペーン標準のネットワークエンドポイント](administration/using/campaign-standard-network-endpoints.md)
+      + [Campaign Standardネットワークエンドポイント](administration/using/campaign-standard-network-endpoints.md)
    + ユーザーとセキュリティ{#users-and-security}
       + [アクセス管理について](administration/using/about-access-management.md)
       + [ユーザー管理](administration/using/users-management.md)
