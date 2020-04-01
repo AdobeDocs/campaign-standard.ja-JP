@@ -12,7 +12,7 @@ discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ce55c5193e7944c65e0d9e6cc791ed2bc13b3509
+source-git-commit: 34f4bbf7b7913cfb1833379c963b590961f7de73
 
 ---
 
@@ -119,7 +119,7 @@ Adobe Campaignデータベースの情報を使用してトランザクション
 
    ![](assets/message-center_enrichment-join-fields.png)
 
-   また、リソースを使用してトランザクションメッセージの内容を強化することも **[!UICONTROL Service]** できます。 サービスについて詳しくは、この節を参照して [ください](../../audiences/using/creating-a-service.md)。
+   また、リソースを使用してトランザクションメッセージの内容を強化することも **[!UICONTROL Service]** できます。 For more on services, see this [section](../../audiences/using/creating-a-service.md).
 
 1. プロファイルベースのイベントを作成または編集する場合は、「」セクションで、配信の実行時にメッセ **[!UICONTROL Targeting enrichment]** ージターゲットとして使用するエンリッチメントを選択します。
 
@@ -156,24 +156,25 @@ Adobe Campaignデータベースの情報を使用してトランザクション
 
    ![](assets/message-center_logs.png)
 
+   >[!IMPORTANT]
+   >
+   >イベントを変更するたびに、を再度クリックして、Web **[!UICONTROL Publish]** サイト開発者が使用する更新されたREST APIを生成する必要があります。
 
->[!NOTE]
->
->イベントを変更するたびに、を再度クリックして、Web **[!UICONTROL Publish]** サイト開発者が使用する更新されたREST APIを生成する必要があります。
+   イベントが公開されると、新しいトランザクションメッセージにリンクされたイベントが自動的に作成されます。
 
-イベントが公開されると、新しいトランザクションメッセージにリンクされたイベントが自動的に作成されます。 このイベントがトランザクションメッセージの送信をトリガーするには、作成したメッセージを変更して発行する必要があります。 See [Event transactional messages](../../channels/using/event-transactional-messages.md).
+1. このトランザクションメッセージには、左側の領域にあるリンクを通じて直接アクセスできます。
 
-作成されたトランザクションメッセージには、左側の領域のリンクから直接アクセスできます。
+   ![](assets/message-center_messagegeneration.png)
 
-![](assets/message-center_messagegeneration.png)
+イベントがメッセージの送信をトリガーするには、トランザクションメッセージを変更し、作成したメッセージを公開する必要があります。 See [Event transactional messages](../../channels/using/event-transactional-messages.md).
 
 また、このトリガーイベントをWebサイトに統合する必要があります。 詳しくは、 [Webサイトでのイベントのトリガーの統合を参照してください](#integrating-the-triggering-of-the-event-in-a-website)。
 
-<!--
->[!NOTE]
->
->To consult the previous publications if any, click the **[!UICONTROL Latest transactional events]** link under the **[!UICONTROL History]** section in the left-hand side area.
--->
+Adobe Campaign開始がこのイベント設定に関連するイベントを受け取ると、「」セクションの下のリンクを使用して、サードパーティのサービスによって送信され、Adobe Campaignで処理される最新の **[!UICONTROL Latest transactional events]****[!UICONTROL History]** イベントにアクセスできます。
+
+![](assets/message-center_latest-events.png)
+
+イベント（JSON形式）は、最新から最も古い順に表示されます。 このリストを使用すると、コンテンツやイベントのステータスなどのデータをチェックし、制御やデバッグを行うことができます。
 
 ### 公開の取り消しイベント {#unpublishing-an-event}
 
@@ -198,7 +199,7 @@ Adobe Campaignデータベースの情報を使用してトランザクション
 
    >[!NOTE]
    >
-   >イベントの設定がステータスを持っ **[!UICONTROL Draft]** ていることを確認してください。そうしないと、削除できなくなります。 ステータス **[!UICONTROL Draft]** は、まだ公開されていないイベント、または未公開の画像に適用さ [れます](#unpublishing-an-event)。
+   >イベントの設定がステータスを持っ **[!UICONTROL Draft]** ていることを確認してください。そうしないと、削除できなくなります。 ステータス **[!UICONTROL Draft]** は、まだ公開されていないイベント、または未公開のユーザーに適用さ [れます](#unpublishing-an-event)。
 
 1. ボタンをクリッ **[!UICONTROL Confirm]** クします。
 
@@ -328,7 +329,7 @@ Adobe Campaignデータベースの情報を使用してトランザクション
 
 ## 使用例：送信するイベントの設定トランザクションメッセージ {#use-case--configuring-an-event-to-send-a-transactional-message}
 
-この例では、Webサイトでの各購入後に次の前提条件を満たして確認メッセージを送信するようにイベントを設定します。
+この例では、Webサイトでの各購入の後に次の前提条件を満たして確認メッセージを送信するようにイベントを設定します。
 
 このCRM IDを使用してクライアントを識別するには、まず、この新しいフィールドを使用してリソ **[!UICONTROL Profile]** ースが拡張されていることを確認します。
 
@@ -345,7 +346,7 @@ Adobe Campaignデータベースの情報を使用してトランザクション
 
    ![](assets/message-center_usecase2.png)
 
-1. 以前にメッセージに追加した「製品識別子」フィールドと、リソースの対応するフィールドとの結合条件を作成しま **[!UICONTROL Purchase]** す。
+1. 以前にメッセージに追加した「製品識別子」フィールドと、リソースの対応するフィールドとの間に結合条件を作成し **[!UICONTROL Purchase]** ます。
 
    ![](assets/message-center_usecase3.png)
 
