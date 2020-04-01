@@ -12,7 +12,7 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7cd5f11ab22d0bb3b6864670cd61007e39ebf543
+source-git-commit: 451c7d15bfe206912fd1f8db8bf8c3d7ec83616d
 
 ---
 
@@ -27,7 +27,7 @@ source-git-commit: 7cd5f11ab22d0bb3b6864670cd61007e39ebf543
 
 すべてのリリース日は変更される可能性があります。このページを定期的に訪問して、更新を確認することをお勧めします。
 
-Adobe Experience Cloudの最新リリ [ースの詳細を受信するには](https://www.adobe.com/subscription/priority-product-update.html) 、購読を行ってリリース通知を受信してください。
+Adobe Experience Cloudの最新リリ [ースの詳細を受信するには](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) 、購読を行ってリリース通知を受信してください。
 
 ## リリース20.2.1 - 4月のリリース {#release-20-2-april-release}
 
