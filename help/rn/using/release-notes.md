@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c4500832b87e986cdbbbf72b9b8c0591f64f7da8
+source-git-commit: ce0ddc11c239dd72f14ace56ad008717ebaa47de
 
 ---
 
@@ -20,6 +20,8 @@ source-git-commit: c4500832b87e986cdbbbf72b9b8c0591f64f7da8
 # 最新リリース{#latest-release}
 
 [リリース計画](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) |コント [ロールパネルのリリース](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) |ドキュメ [ントの更新](../../rn/using/documentation-updates.md) |以前の [リリースノート](../../rn/using/release-notes-2019.md) |非推 [奨の機能](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+
+[リリース通知を購読するには](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) 、ここをクリックします。また、最新のAdobe Experience Cloudリリースの詳細を受信トレイに直接表示するには、ここをクリックします。
 
 ## リリース20.2 - 2020年3月 {#release-20-2---march-2020}
 
@@ -49,7 +51,7 @@ source-git-commit: c4500832b87e986cdbbbf72b9b8c0591f64f7da8
  <tbody> 
   <tr> 
    <td> <p>テストプロファイルに加えて、実際のターゲット設定されたプロファイルで電子メールをテストできます。 これにより、メッセージが受信される正確なメッセージをプロファイルが取得できます。カスタムフィールド、動的なパーソナライズされた情報(ワークフローなどの追加データを含む) </p>
-    <p>For more information, refer to the <a href="../../sending/using/testing-messages-using-target.md">detailed documentation</a> and the <a href="https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html">tutorial video</a>. </p>
+    <p>詳しくは、<a href="../../sending/using/testing-messages-using-target.md">詳細ドキュメント</a>および<a href="https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html">チュートリアルビデオ</a>を参照してください。 </p>
    </td> 
   </tr> 
  </tbody> 
