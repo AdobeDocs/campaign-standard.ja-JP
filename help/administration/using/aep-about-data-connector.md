@@ -1,6 +1,6 @@
 ---
-title: Adobe Experience Platform Data Connectorについて
-description: XDMスキーマを管理して、Adobe Experience PlatformでCampaign Standardデータを利用できるようにします。
+title: Adobe Experience Platform Data Connector について
+description: XDMスキーマを管理し、Campaign StandardデータをAdobe Experience Platformで利用できるようにします。
 page-status-flag: never-activated
 uuid: 867b1c4b-4c79-4c52-9d0a-ef71993e50a2
 contentOwner: sauviat
@@ -12,64 +12,68 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8ea3340e9ffb8b438c781aeff1a8554c9160474f
+source-git-commit: 2d4140982ee772eda9eecb01a55748c1d439150e
 
 ---
 
 
-# Adobe Experience Platform Data Connectorについて {#about-aep-data-connector}
+# Adobe Experience Platform Data Connector について {#about-aep-data-connector}
 
 >[!IMPORTANT]
 >
->Adobe Experience Platform Data Connectorは現在ベータ版で、予告なく頻繁に更新される場合があります。 これらの機能にアクセスするには、Azureでホストする必要があります（現在、北米向けベータ版のみ）。 ご希望の場合は、アドビカスタマーケアにお問い合わせください。
+>Adobe Experience Platform Data Connectorは現在ベータ版で、予告なく頻繁に更新される場合があります。 これらの機能にアクセスするには、お客様はAzureでホストされる必要があります（現在、北米の場合のみベータ版）。 ご利用になりたい場合は、アドビカスタマーケアにお問い合わせください。
 
-Adobe Experience Platform Data Connectorは、XTKデータ（Campaignで取り込んだデータ）をAdobe Experience PlatformのExperience Data Model(XDM)データにマッピングすることで、既存のお客様がAdobe Experience Platformでデータを利用できるようにするの支援を行います。
+Adobe Experience Platform Data Connectorは、XTKデータ(キャンペーンで取り込んだデータ)をAdobe Experience PlatformのExperience Data Model(XDM)データにマッピングすることで、既存のお客様がデータをAdobe Experience Platformで利用できるようにするのに役立ちます。
 
-コネクターは一方向で **あり** 、データをAdobe Campaign StandardからAdobe Experience Platformに送信します。 データはAdobe Experience PlatformからAdobe Campaign Standardに送信されません。
+コネクタは一方向で、Adobe Campaign Standard **から** Adobe Experience Platformにデータを送信します。 データは、Adobe Experience PlatformからAdobe Campaign Standardに送信されません。
 
-Adobe Experience Platform Data Connectorは、Adobe Campaign Standardのカスタムリソースを理解し、顧客の全体的なデータスキーマをAdobe Experience Platform内でどのように扱うべきかを理解しているデータエンジニアを対象としています。 ****
+Adobe Experience Platform Data Connectorは、Adobe Campaign Standardのカスタムリソースを理解し、顧客の全体的なデータスキーマがAdobe Experience Platform内でどのように行われるかを理解しているデータエンジニアを対象としています。 ****
 
-以下の節では、Campaign StandardとAdobe Experience Platformの間でデータマッピングを実行するための主要な手順について説明します。 これは、XDMスキーマとデータセットの作成から始まります。
+以下の節では、Adobe Experience Platformとの間でデータマッピングを実行するための重要なCampaign Standard手順について説明します。 この開始は、XDMデータセットとスキーマセットの作成に関連しています。
 
-ハウツービデオはこのページでもご [覧いただけます](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html)。
+ハウツービデオもこのページで視聴 [できます](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html)。
 
 >[!NOTE]
->Adobe Experience Platform Data Connectorを設定し、データがAdobe Experience Platformに正常に取り込まれたら、データセットを有効にして、リアルタイムカスタマープロファイルにデータが含まれるようにする必要があります。
+>Adobe Experience Platform Data Connectorを設定し、データがAdobe Experience Platformに正常に取り込まれたら、データセットを有効にして、データがリアルタイム顧客プロファイルに含まれるようにする必要があります。
 >
 >これは、APIまたはAdobe Experience Platformインターフェイスを通じて実行できます。 詳しくは、次の専用ドキュメントを参照してください。
 >
->* [リアルタイム顧客プロファイルのデータセットの有効化](https://www.adobe.io/apis/experienceplatform/home/tutorials/alltutorials.html#!api-specification/markdown/narrative/tutorials/data_ingestion_tutorial/data_ingestion_tutorial.md)
->* [APIを使用したReal-time Customer Profile and Identity Serviceのデータセットの設定](https://www.adobe.io/apis/experienceplatform/home/tutorials/alltutorials.html#!api-specification/markdown/narrative/tutorials/unified_profile_dataset_tutorial/unified_profile_dataset_api_tutorial.md)
+>* [リアルタイム顧客データセットの有効化プロファイル](https://www.adobe.io/apis/experienceplatform/home/tutorials/alltutorials.html#!api-specification/markdown/narrative/tutorials/data_ingestion_tutorial/data_ingestion_tutorial.md)
+>* [APIを使用したリアルタイム顧客プロファイルおよびIDサービスのデータセットの設定](https://www.adobe.io/apis/experienceplatform/home/tutorials/alltutorials.html#!api-specification/markdown/narrative/tutorials/unified_profile_dataset_tutorial/unified_profile_dataset_api_tutorial.md)
 
 
 ## 重要な概念 {#key-concepts}
 
-* デフォルトのデフォルトのマッピングは、Campaign Standardでデフォルトで提供されるフィールドに対してのみ使用できます。 すべてのカスタムフィールドとリソースを取り込む場合は、各顧客が独自のマッピングを定義する必要があります。
+* デフォルトの「初期設定のマッピング」は、デフォルトでフィールドに対してのみCampaign Standardできます。 すべてのカスタムフィールドとリソースを取り込む場合、各顧客は独自のマッピングを定義する必要があります。
 
-* Adobe Experience Platform Data Connectorは、一定の間隔でプラットフォームを通じてプロファイルデータをプッシュしま&#x200B;す。間隔の長さは15分です。 この値は変更できません。
+* Adobe Experience Platform Data Connectorは、一定の間隔でプロファイルデータをプラットフォーム経由でプッシュし&#x200B;ます。間隔の長さは15分です。 この値は、 [Adobe Experience Platform APIを使用して変更できます](https://www.adobe.io/apis/experienceplatform/home/tutorials/alltutorials.html#!api-specification/markdown/narrative/tutorials/authenticate_to_acp_tutorial/authenticate_to_acp_tutorial.md)。
 
-   >[!NOTE]
-   >
-   >この期間は、 [Adobe Experience Platform APIを使用して変更できます](https://www.adobe.io/apis/experienceplatform/home/tutorials/alltutorials.html#!api-specification/markdown/narrative/tutorials/authenticate_to_acp_tutorial/authenticate_to_acp_tutorial.md)。
+* データエンジニアは、マッピングをAdobe Experience Platformに公開、変更およびキャンペーンできます。
 
-* データエンジニアは、CampaignからAdobe Experience Platformへのマッピングを公開、変更および一時停止できます。
+* 任意のターゲティングディメンションをマップできます。 単一のマッピングで、すべてのフィールドに対して1つのマッピングを設定することをお勧めします。ターゲティングディメンション
 
-* 任意のターゲットディメンションをマッピングできます。 単一のターゲットディメンション内のすべてのフィールドに対して、1つのマッピングを設定することをお勧めします。
-
-* チャネルオプトインやオプトアウトを含むすべてのプロファイルの更新は、バッチ更新の一部です。
+* プロファイルのオプトインやオプトアウトを含むすべてのチャネルのアップデートは、バッチアップデートの一部です。
 
 * Adobe Campaign StandardまたはXDMスキーマの変更は、手動で再マッピングする必要がありま&#x200B;す。
 
-* 追跡ログとブロードローグデータは、エクスペリエンスイベントとしてAdobe Experience Platformに自動的に取り込まれます。 このインジェストは、Adobe Experience Platformにリアルタイムでストリーミングされます。
+* 追跡ログとブロードログデータは、エクスペリエンスイベントとしてAdobe Experience Platformに自動的に取り込まれます。 この取り込みは、リアルタイムでAdobe Experience Platformにストリーミングされます。
+
+* Experience Cloud IDサービス(ECID)は、デフォルトでエクスペリエンスのイベントと共に送信されるデバイス識別子です。
+
+   これは、訪問者に割り当てられた一意で永続的なIDで、Platform Identity Serviceで同じ訪問者とそのデータを異なるExperience Cloudソリューションで識別するために使用できます。 詳しくは、 [Experience Cloud Identity Serviceヘルプを参照してください](https://docs.adobe.com/content/help/en/id-service/using/home.html)。
+
+   >[!NOTE]
+   >
+   >2つ以上のプロファイルが同じデバイスを共有する場合、ECIDはUnified Idサービスのこれら2つのプロファイルに対して同じになることに注意してください。
 
 ## 制限事項 {#limitations}
 
-* 購読イベントの既製の転送はサポートされていません。 購読イベントを転送するには、Adobe Experience Platformで対応するXDMとデータセットを作成し、これらのデータに対するカスタムデータマッピングを設定します。
+* すぐに使用できる購読イベントの転送はサポートされません。 購読イベントを転送するには、対応するXDMとデータセットをAdobe Experience Platformで作成し、これらのデータに対するカスタムデータマッピングを設定します。
 
-* プライバシーリクエストに関しては、顧客は、アクセスおよび削除の両方のアクションに対して、CampaignコアプライバシーサービスとAdobe Experience Platformに対して別々のリクエストを行う必要があります。
+* プライバシーリクエストに関しては、キャンペーンコアプライバシーサービスとAdobe Experience Platformに対して、アクセスと削除の両方のアクションに対して個別のリクエストを送信する必要があります。
 
 * XDMフィールドごとに、DULEのラベル付けはAdobe Experience Platformで行う必要があります。 これは、DULEラベルを適用するお客様の責任です。
 
 * マーケティングアクションに関する制限は、Adobe Experience PlatformでDULEラベルが適用された後にのみ適用されます。 その前に、すべてのタイプのマーケティングアクションですべてのデータを使用できます。
 
-* バッチジョブは15分ごとに実行され、最新のバッチ以降に変更されたレコードを識別します。 すべてのレコードが同じタイムスタンプで変更されると、すべてのプロファイルの取り込みを管理するためのパフォーマンスのボトルネックが発生する可能性があります。
+* バッチジョブは15分ごとに実行され、最新のバッチ以降に変更されたレコードを識別します。 すべてのレコードが同じタイムスタンプで変更されると、パフォーマンスのボトルネックが発生し、すべてのプロファイルの取り込みを管理
