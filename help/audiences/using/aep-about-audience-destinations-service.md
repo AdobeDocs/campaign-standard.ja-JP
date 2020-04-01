@@ -1,6 +1,6 @@
 ---
 title: Audience Destinations サービスについて
-description: Audience Destinationsサービスについて詳しく説明します。
+description: Destinationsサービスの詳細オーディエンスを表示します。
 page-status-flag: never-activated
 uuid: b3996642-96ec-489e-b146-c8c2cb52aa32
 contentOwner: sauviat
@@ -13,7 +13,7 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 77ceb5e5ca05fc3ee350d8e50fe0c957dec6ea26
+source-git-commit: e1fa546313e8d543685ef30a072ae2d97c5bf236
 
 ---
 
@@ -22,28 +22,31 @@ source-git-commit: 77ceb5e5ca05fc3ee350d8e50fe0c957dec6ea26
 
 >[!IMPORTANT]
 >
->Audience Destinationsサービスは現在ベータ版で、予告なく頻繁に更新される場合があります。 これらの機能にアクセスするには、Azureでホストする必要があります（現在、北米向けベータ版のみ）。 ご希望の場合は、アドビカスタマーケアにお問い合わせください。
+>オーディエンスの宛先サービスは現在ベータ版で、予告なく頻繁に更新される場合があります。 これらの機能にアクセスするには、お客様はAzureでホストされる必要があります（現在、北米の場合のみベータ版）。 ご利用になりたい場合は、アドビカスタマーケアにお問い合わせください。
 
-Adobe Experience Platformを活用して、大規模で複雑なデータセットに基づいて [](https://www.adobe.io/apis/experienceplatform/home.html) 、ターゲットを絞ったオーディエンスを構築することで、ユーザーエクスペリエンスを強化します。 Adobe Experience Platformは、Adobe Analyticsを含むオンラインおよびオフラインのソースにわたるプロファイル、行動およびマルチエンティティのデータを統合し、顧客の360°Cビューを構築し、顧客体験を効果的に管理できます。
+大規模で複雑なデータセットに基づいて高度にターゲットを絞った [オーディエンスを構築するために](https://docs.adobe.com/content/help/en/experience-platform/landing/home.html) 、Adobe Experience Platformを活用することで、顧客エクスペリエンスを強化します。 Adobe Experience Platformは、Adobe Analyticsを含むオンラインおよびオフラインのソース全体のプロファイル、行動および複数エンティティのデータを統合し、顧客の360度の表示を構築し、顧客体験を効果的に管理できるようにします。
 
-その後、Adobe Campaign Standardは **Audience Destinations** サービスを使用して、複数手順のキャンペーンプログラムやクロスチャネルキャンペーンプログラム用の **** Adobe Experience Platformから「オーディエンス」と呼ばれるプロファイルのコレクションを取得します。
+次に、Adobe Campaign Standardは、 **オーディエンスの宛先** ( **オーディエンス**)サービスを使用して、複数手順のプロファイルやチャネル間のキャンペーンプログラムを行うための、Adobe Experience Platformからと呼ばれるのコレクションを取得します。
 
-**オーディエンス******&#x200B;は、最初にセグメントを作成することで作成されます。これは、Adobe Experience Platformから多次元ターゲットを作成するために、顧客プロファイル内の事実上すべての変数（プロファイル、イベント、マルチエンティティデータなど）に基づく一連のルールです。 Unified Profile &amp; Segmentation Servicesに関するグローバル概念は、これらの専用ドキュメ [ントで参照します](https://www.adobe.io/apis/experienceplatform/home/profile-identity-segmentation.html)。
+**オーディエンス** は、最初にセグメントを作成し **ます**。これは、多次元ターゲットを作成するために、Adobe Experience Platformの顧客プロファイル内で実質的に任意の変数(プロファイル、イベント、マルチエンティティデータなど)に基づく一連のルールです。 Unified Concepts &amp; Segmentation Servicesに関するグローバルプロファイルは、次の専用ドキュメントで参照されます。
 
-セグメントが作成されると、 [Campaign Standardワークフローで、そのセグメントを配信のオーディエンスとしてアクティブ化できます](../../automating/using/aep-targeting-audiences.md)。 さらに、Adobe Experience Platformのコンテキストデータを使用して、パーソナライズし [たり](../../automating/using/aep-personalizing-campaigns.md) 、キャンペーンに動的なコンテンツを追加したりできます。
+* [リアルタイム顧客プロファイルの概要](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html)
+* [Segmentation Serviceの概要](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html)
 
-ハウツービデオはこの節でもご [覧いただけます](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html)。
+セグメントを作成したら、配信のオーディエンスとして、セグメントをアクティブ化で [きます](../../automating/using/aep-targeting-audiences.md)。 さらに、Adobe Experience Platformのコンテキストデータを使用して、個人設定を行い [](../../automating/using/aep-personalizing-campaigns.md) 、動的なコンテンツをキャンペーンに追加できます。
 
-以下の節で使用する用語：
+ハウツービデオは、この節でもご覧 [いただけます](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html)。
 
-* **プロファイル**:プロファイルは、コンシューマーの属性を定義するために使用されるエクスペリエンスプラットフォームの標準データモデルです。 また、プロファイルは、個人やデバイスに関連するイベントデータと属性の集合でも構いません。
+以下の節で使用される用語：
+
+* **プロファイル**:プロファイルは、コンシューマーの属性を定義するために使用されるエクスペリエンスプラットフォームの標準データモデルです。 プロファイルはまた、個人やイベントに関連する集計データや属性のデータでもよい。
 
    例：「ジョン・ドウは55歳の男です」
 
-* **セグメント**:属性とイベントデータの両方を使用して、データベースからプロファイルのサブセットを定義する一連のルール。
+* **セグメント**:属性とデータベースデータの両方を使用して、プロファイルのサブセットを定義する一連のルールイベント。
 
    例：「男性50歳以上」
 
-* **オーディエンス**:セグメントルールを満たすプロファイルの集まり。
+* **オーディエンス**:セグメントルールを満たすプロファイルのコレクション。
 
-   例：データベース内の50歳以上の男性に対応するプロファイルのリストです。
+   例：リストプロファイル内の男性50歳を超える男性に対応するデータベース。
