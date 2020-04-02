@@ -12,7 +12,7 @@ discoiquuid: 9633e9ca-3323-499b-8259-45165d59a4d0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
+source-git-commit: 03009c47a66aa1a62c05f632e2a60141a98639d8
 
 ---
 
@@ -65,7 +65,7 @@ source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
    <td> Analytics<br /> Standard、Premium <br /> </td> 
    <td> 電子メール配信の成功をAdobe Analyticsで直接追跡できます。<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-campaign-analytics-integration.md">キャンペーンデータをAnalyticsと共有</a><br/>、統合さ <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">れたキャンペーンレポートビデオのKPIを共有</a> （手順1）
+    <a href="../../integrating/using/about-campaign-analytics-integration.md">キャンペーンデータをAnalyticsと共有</a><br/>、統合 <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">キャンペーンレポートビデオのKPIを共有</a> （手順1）
     </td> 
   </tr> 
   <tr> 
