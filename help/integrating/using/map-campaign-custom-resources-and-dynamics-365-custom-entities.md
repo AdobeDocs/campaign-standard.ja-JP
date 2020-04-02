@@ -12,7 +12,7 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
+source-git-commit: 4dd1ada05b6681a4e2f7676b177747bdfb0e9bff
 
 ---
 
@@ -60,21 +60,21 @@ Adobe Campaign StandardとMicrosoft Dynamics 365の統合のコンテキスト�
 
 Dynamics 365のこの顧客のカスタムエンティティは、Dynamics 365の横のドロップダウンをクリックして、Salesダッシュボードで表示できます。  この顧客のカスタムエンティティは、の下にグループ化されま **[!UICONTROL Extensions]**&#x200B;す。
 
-(../assets/SalesDashboard.png)
+![](assets/SalesDashboard.png)
 
 車両のデータは、カスタムエンティティをクリックすることで表 **[!UICONTROL vehicle]** 示できます。  下記の車のリストを参照。
 
-(../assets/VehicleCustomEntity.png)
+![](assets/VehicleCustomEntity.png)
 
 エンティティとエンテ **[!UICONTROL vehicle]** ィティの関 **[!UICONTROL Contact]** 係は以下のとおりです。 **[!UICONTROL Parental]** が選択されました **[!UICONTROL Type of Behavior]**。
 
-(../assets/ContactToVehicle.png)
+![](assets/ContactToVehicle.png)
 
 ### Campaign Standard
 
 キャンペーンでは、左上隅のをクリックし、を選択することで、顧客 **[!UICONTROL Adobe Campaign]** のカスタムリソースを表示できま **[!UICONTROL Client data]**&#x200B;す。
 
-(../assets/ClientDataMenu.png)
+![](assets/ClientDataMenu.png)
 
 ### カスタムリソースとカスタムエンティティのマッピング
 
@@ -82,14 +82,14 @@ Dynamics 365のこの顧客のカスタムエンティティは、Dynamics 365�
 
 左上隅 **[!UICONTROL Adobe Campaign]** のをクリックし、をクリックします **[!UICONTROL Administration > Development > Custom Resources]**。
 
-(../assets/CustomRes.png)
+![](assets/CustomRes.png)
 
 1. をクリックしま **[!UICONTROL Custom Resources]**&#x200B;す。
 1. ボタンをクリッ **[!UICONTROL Create]** クします。  ポップアップウィンドウが開きます。
 1. を選択 **[!UICONTROL Create a new resource]** し、ラベ **[!UICONTROL Vehicle]** ルとIDとして入力します。
 1. クリック **[!UICONTROL Create]** .
 
-(../assets/CreateAcusRes.png)
+![](assets/CreateAcusRes.png)
 
 キャンペーンは、データ構造とリンクページを表示します。  複数のフィールドが追加されていることがわかります。
 
@@ -97,23 +97,23 @@ Dynamics 365のこの顧客のカスタムエンティティは、Dynamics 365�
 * 関連プロファイルは、車両レコードがリンクされているプロファイルのIDです。リンクすると、リンクテーブルのフィールドにリ **[!UICONTROL externalId]** ンクされます。
 * VINと車両名は、車両に関する情報を取り込むためのフィールドです。
 
-(../assets/CusResConfig.png)
+![](assets/CusResConfig.png)
 
 >[!CAUTION]
 >
 >各カスタムリソースには、externalId（正確に）のIDを持つ一意のフィールドが必要です。  このフィールドは、Dynamics 365のカスタムリソースのIDフィールドにマップされます（以下を参照）。
 
-(../assets/FieldsInDynamics.png)
+![](assets/FieldsInDynamics.png)
 
 ### 識別キーの定義
 
 次の手順は、識別キーを定義することです。  まず、以下に示すように、IDキーを作成します。
 
-(../assets/IDkeys.png)
+![](assets/IDkeys.png)
 
 キー定義画面で、フィールドを選択します。 **[!UICONTROL externalId]**
 
-(../assets/KeyDefinition.png)
+![](assets/KeyDefinition.png)
 
 >[!CAUTION]
 >
@@ -127,11 +127,11 @@ Dynamics 365のこの顧客のカスタムエンティティは、Dynamics 365�
 ラベルとIDに名前を付けま **[!UICONTROL ExternalId]**す。
 クリック **[!UICONTROL Add]** .
 
-(../assets/FilterDefinition.png)
+![](assets/FilterDefinition.png)
 
 次に、新しく追加されたフィルター要素の「編集」をクリックし、以下の画像に基づいてフィルターを設定します。  フィールドに **[!UICONTROL externalId]** 入力し、プ **[!UICONTROL Parameters]** ラス記号をクリックすると、が **[!UICONTROL externalId_parameter]** 表示されます。  パラメーターとして選択します。
 
-(../assets/EditArule.png)
+![](assets/EditArule.png)
 
 ### リンクの定義
 
@@ -143,13 +143,13 @@ Dynamics 365のこの顧客のカスタムエンティティは、Dynamics 365�
 1. でを選 **[!UICONTROL Join Definitions]**&#x200B;択します **[!UICONTROL Define specific join conditions]**。
 1. 次に、をクリックしま **[!UICONTROL Add an element]**&#x200B;す。
 
-(../assets/LinkConfiguration.png)
+![](assets/LinkConfiguration.png)
 
 結合定義の場合、以下に値を入力します。
 
 エントリはプロファイル **[!UICONTROL @externalId]** テーブルのexternalIdフィールドで、エントリは乗物のカスタ **[!UICONTROL ProfileExternalId]** ムリソースの対応するフィールドのIDです。  プロファイルレコードのexternalId値が車両レコードのフィー **[!UICONTROL ProfileExternalId]** ルドに入力されると、2つのレコードがリンクされます。
 
-(../assets/JoinDefinition.png)
+![](assets/JoinDefinition.png)
 
 変更を確認し、カスタムエンティティを保存します。
 
@@ -161,21 +161,21 @@ Dynamics 365のこの顧客のカスタムエンティティは、Dynamics 365�
 1. デフォルトのオプションを維持します。 **[!UICONTROL Determine modifications since the last publication]**.
 1. をクリ **[!UICONTROL Prepare Publication]** ックし、完了するまで待ちます。
 
-(../assets/PublishModifications.png)
+![](assets/PublishModifications.png)
 
 次に、をク **[!UICONTROL Publish]** リックし、完了するまで待ちます。
 
-(../assets/Publish.png)
+![](assets/Publish.png)
 
 ### Unifi入力スケジュール
 
 顧客がDynamics 365で既に車両のカスタムエンティティを設定し、Unifiが車両のカスタムエンティティのジョブとスケジュールを設定している場合、顧客は車両エンティティの入力スケジュールを開始できる必要があります。
 
-(../assets/Schedule.png)
+![](assets/Schedule.png)
 
 入力ジョブが完了した後、車両データは、新たに入力されたカスタムリソース内でキャンペーンに **[!UICONTROL Vehicle]** 表示されます。
 
-(../assets/ACSUpdate.png)
+![](assets/ACSUpdate.png)
 
 **関連トピック**
 
