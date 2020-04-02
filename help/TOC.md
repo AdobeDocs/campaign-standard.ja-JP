@@ -4,7 +4,7 @@ sub-product: adobe campaign standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard Help
 translation-type: tm+mt
-source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
+source-git-commit: 8561d57629b359e2bf0cd1f190b45c6be1ae0185
 
 ---
 
@@ -231,7 +231,7 @@ source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
       + [中断トリガーの使用例](integrating/using/abandonment-triggers-use-cases.md)
    + キャンペーンとMicrosoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
       + [Microsoft Dynamics 365統合用のAdobe IOの設定](integrating/using/configure-adobe-io-for-ms-dynamic.md)
-      + [Campaign StandardとMicrosoft Dynamics 365の操作]{#configuring-acs-ms-dynamics}
+      + Campaign StandardとMicrosoft Dynamics 365の操作 {#working-with-campaign-standard-and-ms-dynamics}
          + [Campaign StandardとMicrosoft Dynamics 365の操作](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
          + [通知と推奨事項](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
          + [Microsoft Dynamics 365とCampaign Standard統合の要求と設定](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
