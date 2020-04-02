@@ -12,7 +12,7 @@ discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
+source-git-commit: 4dd1ada05b6681a4e2f7676b177747bdfb0e9bff
 
 ---
 
@@ -45,7 +45,7 @@ OAuthアクセストークンを使用すると、Microsoft Dynamics 365イン�
 
 主な手順を以下のビデオで説明します。
 
-**ビデオ**
+>[!VIDEO](https://video.tv.adobe.com/v/27637)
 
 OAuthアクセストークンを生成するには、次の手順に従います。
 
@@ -57,12 +57,12 @@ OAuthアクセストークンを生成するには、次の手順に従います
 
 1. 画面の **[!UICONTROL New registration]** 上部にあるをクリックします。
 
-![](assets/MSdynACSIntegration-7.png)
+   ![](assets/MSdynACSIntegration-7.png)
 
-アプリの登録画面に入力します。
+1. アプリの登録画面に入力します。
 
-* 名前：アドビキャンペーン
-* サポートされるアカウントの種類： **[!UICONTROL Accounts in this organizational directory only]** （デフォルト値）
+   * 名前：アドビキャンペーン
+   * サポートされるアカウントの種類： **[!UICONTROL Accounts in this organizational directory only]** （デフォルト値）
 
 For more information about creating a new application, refer to [this section](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app).
 
@@ -104,25 +104,24 @@ For more information about creating a new application, refer to [this section](h
 
 1. Dynamics 365インスタンスに移動し、管理者としてログインします。
 
-1. 右上隅の歯車アイコンをクリックし、「**[!UICONTROL Advanced Setting]*s」をクリックします。上部のバナーで、の横のドロップダウンをクリックし、「 **[!UICONTROL Settings]**&#x200B;オン」をクリックしま **[!UICONTROL Security > Users]**&#x200B;す。
+1. 右上隅の歯車アイコンをクリックし、をクリックします **[!UICONTROL Advanced Settings]**。 上部のバナーで、の横のドロップダウンをクリックし、「 **[!UICONTROL Settings]**&#x200B;オン」をクリックしま **[!UICONTROL Security > Users]**&#x200B;す。
 
 1. ドロップダウンメニューをクリックして、に移動しま **[!UICONTROL Application Users]**&#x200B;す。 クリック **[!UICONTROL New]** .
 
 1. ユーザーアイコンの横にあるドロップダウンを確認しま **[!UICONTROL USER:APPLICATION USER]**&#x200B;す。
 
-新しいユーザーの画面に入力します。  パラメーターの提案：
+   新しいユーザーの画面に入力します。  パラメーターの提案：
 
-* **[!UICONTROL User Name]** （電子メール）:adobeapi@`<hostname>`。は、 `<hostname>` Dynamics 365インスタンスのホスト名です。
-* **[!UICONTROL Application ID]**:Azure ADに登録したアプリケーションのID（必須）
-* 空白のままにして、 **[!UICONTROL Application ID URI]** および **[!UICONTROL Azure AD Object ID]**
-* **[!UICONTROL Full Name]**:Adobe API
-* **[!UICONTROL Email]**:と同じ **[!UICONTROL User Name]** （必要に応じて管理者の電子メール）
-
-アプリのユーザー作成について詳しくは、この節を参照 [してください](https://docs.microsoft.com/en-gb/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user)。
+   * **[!UICONTROL User Name]** （電子メール）:adobeapi@`<hostname>`。は、 `<hostname>` Dynamics 365インスタンスのホスト名です。
+   * **[!UICONTROL Application ID]**:Azure ADに登録したアプリケーションのID（必須）
+   * 空白のままにして、 **[!UICONTROL Application ID URI]** および **[!UICONTROL Azure AD Object ID]**
+   * **[!UICONTROL Full Name]**:Adobe API
+   * **[!UICONTROL Email]**:と同じ **[!UICONTROL User Name]** （必要に応じて管理者の電子メール）
+   アプリのユーザー作成について詳しくは、この節を参照 [してください](https://docs.microsoft.com/en-gb/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user)。
 
 1. ユーザーアイコンをクリックし、Adobe Campaignアイコンをアップロードします。これは、Dynamics 365で新しいAdobeイベントが表示されたときに、タイムライン表示に表示されるアイコンです。
 
-***getfile***
+<!-- ***getfile*** adobe campaign logo-->
 
 1. 上部のリボンのをクリックして、リスト **[!UICONTROL MANAGE ROLES]** の役割のユーザを開きます。
 
