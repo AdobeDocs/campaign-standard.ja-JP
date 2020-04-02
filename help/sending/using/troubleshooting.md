@@ -13,7 +13,7 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b4ba56e5cd639c547a7060be9c60985f5564160d
+source-git-commit: 87168dca3604073d8a540c579448ab65f07cd976
 
 ---
 
@@ -39,7 +39,8 @@ source-git-commit: b4ba56e5cd639c547a7060be9c60985f5564160d
 
    * The status **[!UICONTROL Blacklisted]** is a result of a feedback loop (when a person reports a message as spam).
 
-   * The status **[!UICONTROL Quarantined]** is a result of a soft or hard bounce. For more on this, see this [section](../../sending/using/understanding-quarantine-management.md).
+   * The status **[!UICONTROL Quarantined]** is a result of a soft or hard bounce.
+   For more on this, see this [section](../../sending/using/understanding-quarantine-management.md#quarantine-vs-blacklisting).
 
 * **様々な強制隔離エラーの原因は何を意味しますか。**
 
