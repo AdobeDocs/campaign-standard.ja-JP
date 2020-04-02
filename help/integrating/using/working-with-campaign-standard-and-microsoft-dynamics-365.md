@@ -12,7 +12,7 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 74cc176a1b93a7983629ccccb1fea00628241952
+source-git-commit: 03009c47a66aa1a62c05f632e2a60141a98639d8
 
 ---
 
@@ -60,4 +60,3 @@ Adobe CampaignをDynamics 365と統合すると、CRMシステム内から各連
 >[!CAUTION]
 >
 >連絡先の同期の場合、この統合ではDynamics 365を真の原因と見なします。  同期された連絡先属性に対する変更は、Dynamics 365で行う必要があります。キャンペーンでは行いません。  変更がキャンペーンで行われると、同期中に上書きされる可能性があります。
-
