@@ -12,7 +12,7 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d4140982ee772eda9eecb01a55748c1d439150e
+source-git-commit: 327d0e4f862b39c60fb3943d1128f4f42828bc0d
 
 ---
 
@@ -38,15 +38,15 @@ Adobe Experience Platform Data Connectorは、Adobe Campaign Standardのカス�
 >
 >これは、APIまたはAdobe Experience Platformインターフェイスを通じて実行できます。 詳しくは、次の専用ドキュメントを参照してください。
 >
->* [リアルタイム顧客データセットの有効化プロファイル](https://www.adobe.io/apis/experienceplatform/home/tutorials/alltutorials.html#!api-specification/markdown/narrative/tutorials/data_ingestion_tutorial/data_ingestion_tutorial.md)
->* [APIを使用したリアルタイム顧客プロファイルおよびIDサービスのデータセットの設定](https://www.adobe.io/apis/experienceplatform/home/tutorials/alltutorials.html#!api-specification/markdown/narrative/tutorials/unified_profile_dataset_tutorial/unified_profile_dataset_api_tutorial.md)
+>* [リアルタイム顧客データセットの有効化プロファイル](https://docs.adobe.com/content/help/en/experience-platform/rtcdp/datasets/dataset.html)
+>* [APIを使用したリアルタイム顧客プロファイルおよびIDサービスのデータセットの設定](https://docs.adobe.com/content/help/en/experience-platform/catalog/api/getting-started.html)
 
 
 ## 重要な概念 {#key-concepts}
 
 * デフォルトの「初期設定のマッピング」は、デフォルトでフィールドに対してのみCampaign Standardできます。 すべてのカスタムフィールドとリソースを取り込む場合、各顧客は独自のマッピングを定義する必要があります。
 
-* Adobe Experience Platform Data Connectorは、一定の間隔でプロファイルデータをプラットフォーム経由でプッシュし&#x200B;ます。間隔の長さは15分です。 この値は、 [Adobe Experience Platform APIを使用して変更できます](https://www.adobe.io/apis/experienceplatform/home/tutorials/alltutorials.html#!api-specification/markdown/narrative/tutorials/authenticate_to_acp_tutorial/authenticate_to_acp_tutorial.md)。
+* Adobe Experience Platform Data Connectorは、一定の間隔でプロファイルデータをプラットフォーム経由でプッシュし&#x200B;ます。間隔の長さは15分です。 この値は、 [Adobe Experience Platform APIを使用して変更できます](https://docs.adobe.com/content/help/en/experience-platform/ingestion/home.html)。
 
 * データエンジニアは、マッピングをAdobe Experience Platformに公開、変更およびキャンペーンできます。
 
