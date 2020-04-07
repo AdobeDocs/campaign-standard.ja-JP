@@ -1,6 +1,6 @@
 ---
 title: プッシュ通知について
-description: Adobe Campaignのプッシュ通知チャネルの主な特性を確認します。
+description: プッシュ通知チャネルの主な特性を検出します。Adobe Campaign。
 page-status-flag: never-activated
 uuid: 961aaeb5-6948-4fd2-b8d7-de4510c10566
 contentOwner: sauviat
@@ -13,7 +13,7 @@ context-tags: mobileApp,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5ed46987a3778dfa100639de8be9b6d5ac5348b4
+source-git-commit: 8111dfd2fd3cf254f73d0b01917d606b0a70aa84
 
 ---
 
@@ -30,19 +30,19 @@ Adobe Campaignを使用すると、パーソナライズされたセグメント
 
 In Adobe Campaign, mobile profile attributes data sent from mobile device are stored in **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** resource which allows you to define the data that you want to collect from your applications&#39; subscribers.
 
-このリソースは、モバイルデバイスからAdobe Campaignに送信するデータを収集するために拡張する必要があります。 これを行うには、このページで詳 [細な手順](../../developing/using/extending-the-subscriptions-to-an-application-resource.md) を参照してください。
+このリソースは、モバイルデバイスからデバイスに送信するデータを収集するために拡張する必要があります。Adobe Campaign これを行うには、このページで詳 [細な手順](../../developing/using/extending-the-subscriptions-to-an-application-resource.md) を参照してください。
 
-Adobe Campaignでは、次の2種類のプッシュ通知を使用できます。
+プッシュ通知には、次の2種類がAdobe Campaignで使用できます。
 
 * **[!UICONTROL Alert/Message/Badge]** タイプ通知を使用すると、標準のテキストベースのメッセージに追加のコンテンツ（サウンド、バッジ、ディープリンクなど）を送信できます。を定義でき **[!UICONTROL Advanced options]** ます。
 
-   この通知タイプを使用すると、タイトルとメッセージを追加して、パーソナライゼーションフィールドを使用できます。 メッセージをパーソナライズするには、テンプレートを選択していることを確認し **[!UICONTROL Send push on profiles]** てください。
+   この通知タイプを使用すると、タイトルとメッセージを追加して、メッセージを使用できます。パーソナライゼーションフィールド メッセージをパーソナライズするには、テンプレートを選択していることを確認し **[!UICONTROL Send push on profiles]** てください。
 
 * **[!UICONTROL Silent push]** タイプ通知は、エンドユーザーに対するメッセージや内容を一切通知せずに、アプリケーションに通知するために使用されます。 このタイプのメッセージの一般的な使用例は、ダウンロードするサーバー上で利用可能なコンテンツがあることをアプリケーションに知らせることです。
 
 通知動作を定義するために、いくつかの特定の設定を設定できます。 詳しくは、[この節](../../channels/using/customizing-a-push-notification.md)を参照してください。
 
-エキスパートユーザーは、これらの設定を定義する際に、モバイルアプリのテクノロジを参照し [てくださ](https://helpx.adobe.com/campaign/kb/acs-article-list.html)い。
+エキスパートユーザーは、これらの設定を定義する際に、モバイルアプリのテクノロジを参照し [てくださ](https://helpx.adobe.com/jp/campaign/kb/acs-article-list.html)い。
 
 >[!NOTE]
 >
@@ -53,29 +53,26 @@ Adobe Campaignでは、次の2種類のプッシュ通知を使用できます�
 * [プッシュ通知の準備と送信](../../channels/using/preparing-and-sending-a-push-notification.md)
 * [多言語プッシュ通知の作成](../../channels/using/creating-a-multilingual-push-notification.md)
 * [プッシュ通知レポート](../../reporting/using/push-notification-report.md)
-* [キャンペーン標準モバイルガイド](https://helpx.adobe.com/campaign/kb/acs-mobile.html)
+* [Campaign Standardモバイルガイド](https://helpx.adobe.com/jp/campaign/kb/acs-mobile.html)
 
 ## 前提条件 {#prerequisites}
 
 >[!NOTE]
->Campaignのプッシュ通知機能を利用するには、パスワードなしで.pem形式の有効なプッシュ証明書を提供する必要があります。
+>キャンペーンのプッシュ通知機能を利用するには、パスワードなしで.pem形式の有効なプッシュ証明書を指定する必要があります。
 有効なp12証明書がある場合は、オンラインリソースを使用して簡単に.pemファイルに変換できます。
-
-まず、プッシュ通知の送信を開始するには、Experience Platform SDKを使用してモバイルアプリケーションを設定する必要があります。 詳しくは、この[ページ](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)を参照してください。
 
 プッシュ通知を送信する前に、次の操作を行う必要があります。
 
-1. Adobe Campaignのチャネルにアクセスでき **[!UICONTROL Mobile app]** ることを確認します。
-1. 次の場所でモバイルアプリを設定します。
+1. Adobe Campaignで、アクセスできることを確認し **[!UICONTROL Push notification]** ます。 これらのアカウントにアクセスできない場合は、チャネルチームにお問い合わせください。
 
-   * Adobe Campaign
-   * Adobe Mobile Servicesインターフェイス
+1. ユーザーがPlatform StandardおよびExperience Platform Launchで必要な権限を持っていることをAdobe Campaignに確認します。
 
-1. モバイルアプリケーション固有の設定を実行します。
+1. エクスペリエンスプラットフォームの起動で、モバイルプロパティを作成します。 詳しくは、モバイルプロパテ [ィの設定を参照してください](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property)。
 
-   * Adobe Mobile Servicesインターフェイスからダウンロードした設定ファイルをモバイルアプリケーションにパッケージ化します。
-   * Experience Cloud Mobile SDKをモバイルアプリケーションに統合します。
+1. Experience Platform Launchで、拡張機能をインストール **[!UICONTROL Adobe Campaign Standard]** します。
 
-1. アプリのサブスクライバーから収集するデータを定義します。 Adobe Campaignデータベースにプロファイルを持つモバイルアプリケーションの購読者は、定義した条件に基づいて調整されます。
+1. Adobe Campaign標準で、Experience Platform Launchで作成したモバイルプロパティを設定します。 詳しくは、「Experience Platform Launchアプリケ [ーションの設定」を参照してください](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#SettingupyourAdobeExperiencePlatformLaunchapplicationinAdobeCampaign)。
 
-モバイルアプリの設定後、アプリ内メッセージの準備と送信を開始できます。 詳しくは、プッシュ通知の準備と送 [信を参照してください](../../channels/using/preparing-and-sending-a-push-notification.md)。
+1. 追加チャネル固有の設定をモバイルアプリケーションの設定に適用します。 詳しくは、「アプリケーション固有の [チャネル設定」を参照してください](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign)。
+
+1. モバイル用途の実装をサポートするには、Adobe Experience Platform SDKを使用してAdobe Campaign標準でサポートされている拡張機能、Experience Platform Launchルール、 [MobileのSDK実装に関する詳細な手順を参照してください](https://helpx.adobe.com/campaign/kb/configure-launch-rules-acs-use-cases.html)。
