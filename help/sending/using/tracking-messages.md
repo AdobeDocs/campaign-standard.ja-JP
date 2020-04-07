@@ -1,18 +1,18 @@
 ---
 title: メッセージのトラッキング
-description: 配信受信者の行動を追跡する方法について説明します。
-page-status-flag: 非活性化の
+description: 動作を追跡する方法を配信受信者。
+page-status-flag: never-activated
 uuid: c3721647-0663-4614-a9c9-3b3a40af328a
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 送信
-content-type: 参照
+audience: sending
+content-type: reference
 topic-tags: sending-and-tracking-messages
-discoiquuid: 6fa50f0d-3dcf-4a9e-bcc-1ecda2bfb449
+discoiquuid: 6fa50f0d-3dcf-4a9e-bccc-1ecda2bfb449
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 2926b916ac8e8a2605694758407c48b1db359c60
 
 ---
 
@@ -21,49 +21,80 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ## 追跡について {#about-tracking}
 
-Adobe Campaignでは、その追跡機能により、配信受信者の行動を追跡できます。 そのために、Adobe Campaign ではセッション Cookie および永続 Cookie を使用します。
+追跡機能により、Adobe Campaignを使用して、ユーザーの配信受信者を追跡できます。 そのために、Adobe Campaign ではセッション Cookie および永続 Cookie を使用します。
 
-認証リクエスト（例えば、ページ上に表示される）を通じてサイトにWebトラッキングツールが備わっていることをユーザーに通知し、cookieの使用を許可するチェックボックスを付けたり、最初のページの上部にバナーを追加したりできます。 ポップアップウィンドウはブラウザーでブロックされることが多いので、避ける必要があります。
+認証リクエスト（ページ上に表示されるなど）を介してサイトにWebトラッキングツールが備わっていることをユーザーに通知し、cookieの使用を許可するチェックボックスを付けたり、ランディングページの先頭にバナーを追加したりできます。 ポップアップウィンドウはブラウザーでブロックされることが多いので、避ける必要があります。
+
+追跡情報は、データベースのの各連絡先に対して使用できま **[!UICONTROL integrated customer profiles]**&#x200B;す。 詳しくは、[この節](../../audiences/using/integrated-customer-profile.md)を参照してください。
 
 Adobe Campaign は、次の 2 つのタイプの Cookie を使用します。
 
-* セッションcookie（無効）。 連絡先に送信される電子メールの識別子(broadlogId)とメッセージテンプレートの識別子(deliveryId)が含まれます。 Adobe Campaign が送信した E メールに含まれている URL を連絡先のユーザーがクリックすると追加され、この連絡先での Web 上の行動をトラッキングできるようになります。このセッション Cookie は、ブラウザーが閉じられると自動的に消去されます。連絡先のユーザーは、Cookie を拒否するようにブラウザーを設定できます。
-* Adobe Experience cloudソリューション間で共有されるcookie。 これにより、Experience cloudソリューションとやり取りするユーザーを、Webサイトにアクセスする際に識別できます。 このcookieの説明は、次のURLから入手できます。https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_mc.html [](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_mc.html).
+* セッションcookie（無効）。 連絡先に送信される電子メールの識別子(broadlogId)と、メッセージテンプレートの識別子(deliveryId)が含まれます。 Adobe Campaign が送信した E メールに含まれている URL を連絡先のユーザーがクリックすると追加され、この連絡先での Web 上の行動をトラッキングできるようになります。このセッション Cookie は、ブラウザーが閉じられると自動的に消去されます。連絡先のユーザーは、Cookie を拒否するようにブラウザーを設定できます。
+* Adobe Experience Cloudソリューション間で共有されるcookie。 これにより、Webサイトを訪問したときにExperience Cloudソリューションとやり取りするユーザーを特定できます。 このcookieの説明は、次のURLから入手できます。 [https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_mc.html](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_mc.html)。
 
-追跡情報は、データベースの各連絡先に対して使用できま **[!UICONTROL integrated customer profiles]**&#x200B;す。 詳しくは、[この節](../../audiences/using/integrated-customer-profile.md)を参照してください。
+Adobe Campaign標準を使用した追跡では、次の機能にアクセスできます。
+
+<table>
+<tr>
+    <td valign="top">
+        <a href="../../administration/using/configuring-email-channel.md#tracking-parameters"><img width="60px" alt="conditions" src="assets/icon_email_parameters.png"/></a>
+    </td>
+    <td valign="top">
+        <a href="https://helpx.adobe.com/campaign/kb/push-tracking.html"><img width="60px" alt="conditions" src="assets/icon_push_parameters.png"/></a>
+    </td>
+    <td valign="top">
+        <a href="../../designing/using/links.md#about-tracked-urls"><img width="60px" alt="conditions" src="assets/icon_url.png"/></a>
+    </td>
+        <td valign="top">
+          <a href="../../sending/using/tracking-messages.md#tracking-logs"><img width="60px" alt="conditions" src="assets/icon_log.png"/></a>
+    </td>
+    </td>
+    <td valign="top">
+          <a href="../../reporting/using/tracking-indicators.md"><img width="60px" alt="conditions" src="assets/icon_report.png"/></a>
+
+</tr>
+<tr>
+<td>E メールトラッキング</td>
+<td>プッシュ追跡</td>
+<td>トラッキングされる URL</td>
+<td>トラッキングログ</td>
+<td>追跡レポート</td>
+</tr>
+
+</table>
 
 ## トラッキングログ {#tracking-logs}
 
-The **[!UICONTROL Tracking logs]** tab lists the tracking history for this delivery. このタブには、Adobe Campaignで追跡されているすべてのURLなど、送信されたメッセージの追跡情報が表示されます。 このタブの追跡情報は、10分ごとに更新されます。
+The **[!UICONTROL Tracking logs]** tab lists the tracking history for this delivery. このタブには、送信されたメッセージの追跡情報（メッセージ別に追跡されたすべてのURLなど）が表示されます。Adobe Campaign このタブの追跡情報は、10分ごとに更新されます。
 
 >[!NOTE]
 >
->配信の追跡が有効になっていない場合、このタブは表示されません。 トラッキングログは、電子メールおよびプ **ッシュ通** 知チャネルでのみ **** 使用できます。
+>追跡が配信に対して有効でない場合、このタブは表示されません。 トラッキングログは、電子メールおよびプ **ッシュ通** 知 **** チャネルでのみ使用できます。
 
 ![](assets/tracking_logs.png)
 
-上記の例では、受信者は次のようになります。
+上の例では、次の受信者です。
 
 * メッセージを開きました。
-* 「詳細情報」カスタムリンクをクリックしました。
-* 購読解除とミラーページのリンクをクリックしました。
+* 「詳細情報」のカスタムリンクをクリックしました。
+* 購読解除とミラーページリンク
 
-この列の **[!UICONTROL Type]** 値は次のとおりです。
+この列で **[!UICONTROL Type]** は、次の値を指定できます。
 
 * **[!UICONTROL Email click]**:受信者がカスタムリンクをクリックしました。
-* **[!UICONTROL Mirror page]**:受信者がミラーページへのリンクをクリックしました。
-* **[!UICONTROL Open]**:受信者が電子メールを開きました。
-* **[!UICONTROL Opt-out]**:受信者が購読解除リンクをクリックしました。
+* **[!UICONTROL Mirror page]**:受信者がリンクをクリックしました。ミラーページ
+* **[!UICONTROL Open]**:受信者が電子メールを開いた。
+* **[!UICONTROL Opt-out]**:受信者がリンクをクリックしました。
 
 >[!NOTE]
 >
->プッシュ通 **知チャネルでは** 、モバイル通知のクリックのみが追跡されます。 この場合、値は次のようになります **[!UICONTROL Click on mobile notification]**。
+>プッシュ通知 **チャネルの場合** 、モバイル通知のクリックのみが追跡されます。 この場合、値は次のようになります **[!UICONTROL Click on mobile notification]**。
 
 トラッキングリンクの挿入方法について詳しくは、このページを参照 [してください](../../designing/using/links.md#inserting-a-link)。
 
 ## トラッキングされる URL {#tracked-urls}
 
-このタ **[!UICONTROL Tracked URLs]** ブでは、送信されたメッセージに含まれるURLが、URLタイプとソースURLと共に再グループ化されます。
+このタ **[!UICONTROL Tracked URLs]** ブでは、送信されたメッセージに含まれるURLを、URLタイプとソースURLを含めて再グループ化します。
 
 ![](assets/sending_delivery6.png)
 
