@@ -1,10 +1,10 @@
 ---
 product: adobe campaign
-sub-product: adobe campaign standard
+sub-product: Adobe Campaign Standard
 audience: end-user
-user-guide-title: Adobe Campaign Standard Help
+user-guide-title: Adobe Campaign Standard ヘルプ
 translation-type: tm+mt
-source-git-commit: 8561d57629b359e2bf0cd1f190b45c6be1ae0185
+source-git-commit: 7895e526732a4e1b4051c907f95ea1cf1222878d
 
 ---
 
@@ -168,6 +168,13 @@ source-git-commit: 8561d57629b359e2bf0cd1f190b45c6be1ae0185
       + [技術的な推奨事項](sending/using/technical-recommendations.md)
       + [配信品質の監視](sending/using/monitor-deliverability.md)
       + [トラブルシューティング](sending/using/troubleshooting.md)
+   + タイポロジルールの使用{#working-with-typology-rules}
+      + [タイポロジとタイポロジルール](sending/using/about-typology-rules.md)
+      + [タイポロジの管理](sending/using/managing-typologies.md)
+      + [タイポロジルール](sending/using/managing-typology-rules.md)
+      + [フィルタールール](sending/using/filtering-rules.md)
+      + [疲労ルール](sending/using/fatigue-rules.md)
+      + [コントロールルール](sending/using/control-rules.md)
 + レポート{#reporting}
    + レポートについて{#about-reporting}
       + [動的レポートについて](reporting/using/about-dynamic-reports.md)
@@ -230,12 +237,12 @@ source-git-commit: 8561d57629b359e2bf0cd1f190b45c6be1ae0185
       + [トリガーのテスト](integrating/using/testing-your-triggers.md)
       + [中断トリガーの使用例](integrating/using/abandonment-triggers-use-cases.md)
    + キャンペーンとMicrosoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
-      + [Microsoft Dynamics 365統合用のAdobe IOの設定](integrating/using/configure-adobe-io-for-ms-dynamic.md)
       + Campaign StandardとMicrosoft Dynamics 365の操作 {#working-with-campaign-standard-and-ms-dynamics}
          + [Campaign StandardとMicrosoft Dynamics 365の操作](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
          + [通知と推奨事項](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
          + [Microsoft Dynamics 365とCampaign Standard統合の要求と設定](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
          + [Microsoft Dynamics 365とCampaign Standard統合の使用](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
+      + [Microsoft Dynamics 365統合用のAdobe IOの設定](integrating/using/configure-adobe-io-for-ms-dynamic.md)
       + [Microsoft Dynamics 365をキャンペーン統合用に構成](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
       + [Microsoft Dynamics 365統合用のUnifiの構成](integrating/using/configure-unifi-for-microsoft-dynamics-365-integration.md)
       + [キャンペーンのカスタムリソースとDynamics 365カスタムエンティティのマッピング](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
@@ -371,11 +378,6 @@ source-git-commit: 8561d57629b359e2bf0cd1f190b45c6be1ae0185
       + [SMS チャネルの設定](administration/using/configuring-sms-channel.md)
       + [モバイルアプリケーションの設定](administration/using/configuring-a-mobile-application.md)
       + [トランザクションメッセージの設定](administration/using/configuring-transactional-messaging.md)
-   + タイポロジルールの使用{#working-with-typology-rules}
-      + [タイポロジルールについて](administration/using/about-typology-rules.md)
-      + [フィルタールール](administration/using/filtering-rules.md)
-      + [疲労ルール](administration/using/fatigue-rules.md)
-      + [コントロールルール](administration/using/control-rules.md)
    + アプリケーション設定{#application-settings}
       + [Adobe Campaign Standard 設定について](administration/using/about-campaign-standard-settings.md)
       + [外部アカウント](administration/using/external-accounts.md)
