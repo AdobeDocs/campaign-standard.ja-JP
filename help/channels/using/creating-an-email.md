@@ -60,7 +60,7 @@ source-git-commit: 155ed7e50e207e4c4dc0569e5e96b24e712e4be8
    >
    >電子メールを保存するには、まずコンテンツを編集する必要があります。 この時点でをク **[!UICONTROL Cancel]** リックしても、ウィザードは完了せず、電子メールは作成されません。
 
-   電子メールダッシュボードが表示されます。 メッセージを確認し、送信の準 [備をします](../../sending/using/preparing-the-send.md)。
+   電子メールダッシュボードが表示されます。 メッセージを確認し、送信の準備を [行うことができます](../../sending/using/preparing-the-send.md)。
 
    右上隅 **[!UICONTROL Edit properties]** のボタンを使用して、電子メールのプロパティを編集できます。 例えば、電子メールのラベルが配信の準備時に計算されるように、電子メールを設定できます。  Available parameters are listed in [this section](../../administration/using/configuring-email-channel.md#list-of-email-properties).
 
