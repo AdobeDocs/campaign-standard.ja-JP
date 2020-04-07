@@ -12,18 +12,18 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4dd1ada05b6681a4e2f7676b177747bdfb0e9bff
+source-git-commit: b0bc6c45127f58b00ba89f66da159c8f212db80a
 
 ---
 
 
 # キャンペーンのカスタムリソースとDynamics 365カスタムエンティティのマッピング
 
-Adobe Campaign StandardとMicrosoft Dynamics 365の統合のコンテキストで、カスタムリソースとカスタムエンティティをマッピングする方法を説明します。
+Adobe Campaign標準とMicrosoft Dynamics 365の統合のコンテキストで、カスタムリソースとカスタムエンティティをマッピングする方法を説明します。
 
 ## 前提条件
 
-新しいバージョンの [Microsoft Dynamics 365とAdobe Campaign Standardの統合により](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md) 、カスタムエンティティがサポートされます。  これにより、Dynamics 365のカスタムエンティティを、対応するカスタムリソースにキャンペーンで複製できます。
+新しいバージョンの [Microsoft Dynamics 365-](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md) Microsoft Standard統合は、カスタムエンティティのAdobe Campaignをサポートします。  これにより、Dynamics 365のカスタムエンティティを、対応するカスタムリソースにキャンペーンで複製できます。
 
 複製が完了すると、カスタムリソースの新しいデータは、セグメント化やパーソナライゼーションなど、複数の目的で使用できます。
 
@@ -137,7 +137,7 @@ Dynamics 365のこの顧客のカスタムエンティティは、Dynamics 365�
 
 次に、カスタムリソースのリンクを指定します。  この場合、を使用して、カスタムエンティティ（ソース） **[!UICONTROL Vehicles]** からプロファイルエンティティ(ターゲット)にリンクすることを選択しま **[!UICONTROL 1 cardinality simple link]**&#x200B;す。
 
-(../assets/DefineTheLink.png)
+![](assets/DefineTheLink.png)
 
 1. 画面で、削 **[!UICONTROL Link definitions]** 除オプションを選択します。 **[!UICONTROL Deleting the target record implies deleting records referenced by the link]**. このオプションを選択すると、プロファイルを削除すると、そのプロファイルにリ **[!UICONTROL Vehicle]** ンクされているレコードもすべて削除されます。
 1. でを選 **[!UICONTROL Join Definitions]**&#x200B;択します **[!UICONTROL Define specific join conditions]**。
@@ -179,5 +179,5 @@ Dynamics 365のこの顧客のカスタムエンティティは、Dynamics 365�
 
 **関連トピック**
 
-* Adobe Campaign Standardの使用 — Microsoft Dynamics 365
+* Adobe Campaign標準の使用 — Microsoft Dynamics 365
 * カスタムリソースを追加するための主要な手順をキャンペーン
