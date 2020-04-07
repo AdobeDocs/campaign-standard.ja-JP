@@ -1,6 +1,6 @@
 ---
 title: ドキュメントの更新
-description: Adobe Campaign Standardドキュメントの最新の更新をすべて紹介します。
+description: Adobe Campaign標準のドキュメントの最新の更新をすべて紹介します。
 page-status-flag: never-activated
 uuid: 3bdc7d11-8421-4110-a5ba-7b1376a03dda
 contentOwner: sauviat
@@ -12,22 +12,22 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 34a478b73ba458d0509639dfbb4641bc63b2aa1a
+source-git-commit: 240e8738fab8f0eaa8398de1b74e22d292536908
 
 ---
 
 
 # ドキュメントのアップデート{#documentation-updates}
 
-Adobe Campaign Standardドキュメントの最新の更新をすべて紹介します。
+Adobe Campaign標準のドキュメントの最新の更新をすべて紹介します。
 
-このページでは、Adobe Campaign Standardの各リリースのすべての新機能とドキュメントの更新をリストします。
+このページでは、リスト標準の各リリースの新機能とドキュメントの更新をすべてAdobe Campaignします。
 
 You can also consult the Adobe Campaign [Release Notes](../../rn/using/release-notes.md).
 
 ## ドキュメントの更新 — 2020年4月 {#doc-updates-april-2020}
 
-Adobe Campaign StandardドキュメントとのMicrosoft Dynamics 365の統合は、他のソリューションとの統合ガイドのコアドキュメントに統合されました。 [詳細を表示](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+Microsoft Dynamics 365とAdobe Campaign標準のドキュメントの統合は、他のソリューションとの統合ガイドのコアドキュメントに統合されました。 [詳細を表示](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
 その他のリソースがドキュメントホームページに追加されました。 [詳細を表示](../../campaign-standard-home.md)
 
@@ -35,6 +35,13 @@ Experience Cloud IDサービス(ECID)に関する情報が、Adobe Experience Pl
 
 トランザクションメッセージの設定の節が改善され、最新のトランザクションメッセージと更新されたスクリーンショットへのアクセスイベントが追加されました。 [詳細を表示](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)
 
+タイポロジとタイポロジルールに関する節が改善され、追加情報が追加され、更新されました。すぐに使用できるタイポロジルールです。 [詳細を表示](../../sending/using/about-typology-rules.md)
+
+情報が追加されまし **[!UICONTROL Transfer file]****!UICONTROL File listing]** た。 [詳細を表示](../../automating/using/transfer-file.md)
+
+配信の一時的な障害後の再試行に関するドキュメントが更新され、拡張MTAにアップグレードした後の再試行の管理方法の詳細が追加されました。 [詳細を表示](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)
+
+「削除」トランザクションメッセージの節が強化され、明確になりました。 [詳細を表示](../../channels/using/event-transactional-messages.md#deleting-a-transactional-message)
 
 ## リリース20.2 - 2020年3月 {#release-20-2---march-2020}
 
@@ -70,9 +77,9 @@ Azure Blob統合 — 詳細を [読む](../../administration/using/external-acco
 
 SDK V4の減価償却を反映して、モバイルアプリケーションの設定に関するドキュメントと関連ページが更新されました。 [詳細を表示](https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq)
 
-Adobe Campaign Standard/Adobe Experience Manager統合ドキュメントが更新され、改善されました。 [詳細を表示](../../integrating/using/configure-experience-manager.md)
+Adobe Campaign標準/Adobe Experience Manager統合ドキュメントが更新され、改善されました。 [詳細を表示](../../integrating/using/configure-experience-manager.md)
 
-キャンペーンの電子メールデザイナーのドキュメントと関連ページが、Adobe Creative SDKの減価償却を反映するように更新されました。 [詳細を表示](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+キャンペーンの電子メールデザイナーのドキュメントと関連ページが、Adobe Creative SDKの減価償却を反映するように更新されました。 [詳細を表示](https://helpx.adobe.com/jp/campaign/kb/acs-deprecated-and-removed-features.html)
 
 Campaign Standardデータモデルのベストプラクティスに関する新しいセクションが提供されました。 [詳細を表示](../../developing/using/data-model-best-practices.md)
 
@@ -90,7 +97,7 @@ Adobe Experience Platform Data Connector（ベータ版） — 詳し [くは](.
 
 **リリースに伴うその他のドキュメントのアップデート**
 
-プライバシー管理のドキュメントが更新され、カスタムリソース用のCCPAオプトアウトフィールドの作成方法に関する情報が追加されました。プロファイル管理のドキュメント。 [詳細を表示](https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html)
+プライバシー管理のドキュメントが更新され、カスタムリソース用のCCPAオプトアウトフィールドの作成方法に関する情報が追加されました。プロファイル管理のドキュメント。 [詳細を表示](https://helpx.adobe.com/content/help/jp/campaign/kb/acs-privacy.html)
 
 リリースノートの構成が変更され、改善されました。 [詳細を表示](../../rn/using/release-notes.md)
 
@@ -102,7 +109,7 @@ Adobe Experience Platform Data Connector（ベータ版） — 詳し [くは](.
 
 メッセージメッセージメッセージに表示できる警告を説明する新しいダッシュボードを利用できます。 [詳細を表示](../../channels/using/message-dashboard.md#warnings)
 
-アップグレードされた送信インフラストラクチャを示すAdobe Campaign Enhanced MTAのドキュメントが、配信品質、スループット、バウンス処理を向上させるために提供されます。 [詳細情報](https://helpx.adobe.com/campaign/kb/campaign-enhanced-mta.html)
+Adobe Campaign拡張MTAのドキュメントが公開され、配信品質、スループット、バウンス処理を向上させるアップグレードされた送信インフラストラクチャについて説明しています。 [詳細情報](https://helpx.adobe.com/jp/campaign/kb/campaign-enhanced-mta.html)
 
 ランディングページとミラーページのプレビューをキャンペーンのユーザーインターフェイスから表示するには、アプリケーションサーバーとミラーページサーバーのURLがセキュリティで保護されている必要があることを示す注記が追加されました。 [詳細を表示](../../administration/using/branding.md#configuring-and-using-brands)
 
@@ -116,7 +123,7 @@ Adobe Experience Platform Data Connector（ベータ版） — 詳し [くは](.
 
 動的レポートのインジケーターの計算セクションが更新されました。 [詳細を表示](../../reporting/using/indicator-calculation.md)
 
-Adobe Campaign Standardのモバイル配信の一般的なガイドラインに関する新しいページが追加されました。 [詳細を表示](https://helpx.adobe.com/campaign/kb/acs-mobile.html)
+Mobile Standardのモバイル配信の一般的なガイドラインに関する新しいページがAdobe Campaignに追加されました。 [詳細を表示](https://helpx.adobe.com/jp/campaign/kb/acs-mobile.html)
 
 キャンペーンとExperience Managerの使用に関するドキュメントが更新され、キャンペーンとExperience Managerの統合の使 **用方法に関する新しい節のヒントが追加されました**。 [詳細を表示](../../integrating/using/integrating-with-experience-manager.md#tips-aem)
 
@@ -138,7 +145,7 @@ S3の設定の外部アカウントドキュメントが更新されました。
 
 ランディングページのプロパティに関する情報は、専用のセクションに移動されました。 [詳細を表示](../../channels/using/configuring-landing-page.md)
 
-コントロールパネルのドキュメントは、新しいコラボレーションドキュメントセットに統合されました。[詳細を表示](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
+コントロールパネルのドキュメントは、新しいコラボレーションドキュメントセットに統合されました。[詳細を表示](https://docs.adobe.com/content/help/ja-JP/control-panel/using/control-panel-home.translate.html)
 
 インジケ **ーターの計算** 表が更新されました。 [詳細を表示](../../reporting/using/indicator-calculation.md)
 
@@ -146,7 +153,7 @@ APIドキュメントセットは、Campaign Standardドキュメントに統合
 
 「Creating a personalized email getting guide」が移動され、更新されました。 [詳細を表示](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html)
 
-配信のベストプラクティス入門ガイドが更新されました。[詳細を表示](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
+配信のベストプラクティス入門ガイドが更新されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/delivery-best-practices.html)
 
 データモデルは、データドキュメントに統合されてCampaign Standardになりました。 [詳細を表示](../../developing/using/datamodel-audience.md)
 
@@ -164,11 +171,11 @@ Microsoft Dynamics 365統合(GA) — 詳細を読み [ます](../../integrating/
 
 Campaign Standard および Campaign Classic のエラーメッセージのリストが更新されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
-GDPR の入門ガイドが改善され、強化されました。GDPR や CCPA を含む、プライバシー管理に関するドキュメントになりました。[詳細を表示](https://helpx.adobe.com/content/help/en/campaign/kb/campaign-privacy.html)
+GDPR の入門ガイドが改善され、強化されました。GDPR や CCPA を含む、プライバシー管理に関するドキュメントになりました。[詳細を表示](https://helpx.adobe.com/content/help/jp/campaign/kb/campaign-privacy.html)
 
 トランザクションメッセージングの発行プロセスを示す新しいグラフが追加されました。 [詳細を表示](../../channels/using/about-transactional-messaging.md#transactional-messaging-pub-process)
 
-配信のベストプラクティス入門ガイドが移動され、更新されました。[詳細を表示](https://helpx.adobe.com/campaign/kb/delivery-best-practices.html)
+配信のベストプラクティス入門ガイドが移動され、更新されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/delivery-best-practices.html)
 
 新しいセクションが追加されました。 データベースを拡張する様々な方法の概要を示します。 [詳細を表示](../../start/using/enriching-campaign-database.md)
 
@@ -204,7 +211,7 @@ Adobe Experience Platform SDKを使用してモバ **イルキャンペーンを
 
 「ログ」タブにSQLクエリを表示する方法に関する手順が、ワークフローのトラブルシューティングの節に追加されました。 [詳細を表示](../../automating/using/best-practices-workflows.md#troubleshooting-data-management-activities)
 
-コントロールパネル内のサブドメインと証明書の管理に関する情報と共に、新しいヘルプ記事が追加されました。 [詳細を表示](https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/subdomains-branding.html)
+コントロールパネル内のサブドメインと証明書の管理に関する情報と共に、新しいヘルプ記事が追加されました。 [詳細を表示](https://docs.adobe.com/content/help/ja-JP/control-panel/using/subdomains-and-certificates/subdomains-branding.html)
 
 コンテンツテンプレートとフラグメントについて説明する節が更新されました。 [詳細を表示](../../designing/using/using-reusable-content.md#content-templates)
 
@@ -220,7 +227,7 @@ Adobe Experience Platform SDKを使用してモバ **イルキャンペーンを
 
 **リリースに伴うその他のドキュメントのアップデート**
 
-Campaign Standard導入ガイドが公開されました。[詳細を表示](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html)
+Campaign Standard導入ガイドが公開されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/campaign-standard-implementation-guide.html)
 
 Microsoft Dynamics 365コネクタの実装と使用に関する新しいヘルプ記事のセットが作成されました。 この機能は現在、利用可能な限りになっています。[詳細を表示](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
@@ -228,7 +235,7 @@ Microsoft Dynamics 365コネクタの実装と使用に関する新しいヘル�
 
 配信の外部シグナルアクティビティで宣言されたイベント変数を使用して、ワークフローのラベルをパーソナライズする方法に関する情報が追加されました。 [詳細を表示](../../automating/using/external-signal.md)
 
-Adobe Campaign Standardでのユーザーの作成方法の詳細を説明する新しい節が追加されました。 [詳細を表示](../../administration/using/users-management.md)
+ユーザ標準でユーザを作成する方法の詳細を説明する新しいセクションが追加されました。Adobe Campaign標準 [詳細を表示](../../administration/using/users-management.md)
 
 製品ドキュメントやチュートリアルビデオへのリンクなど、マーケティングキャンペーンを簡素化するためのヒントが新しい記事に追加されました。[詳細を表示](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html)
 
@@ -266,7 +273,7 @@ Adobe Campaign Standardでのユーザーの作成方法の詳細を説明する
 
 **リリースに含まれる新機能**
 
-コントロールパネル - [詳細を表示](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
+コントロールパネル - [詳細を表示](https://docs.adobe.com/content/help/ja-JP/control-panel/using/control-panel-home.translate.html)
 
 ローカル通知 — 詳 [細情報](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)
 
@@ -276,13 +283,13 @@ Adobe Campaign Standardでのユーザーの作成方法の詳細を説明する
 
 **リリースに伴うその他のドキュメントのアップデート**
 
-ドメイン名の委任の記事が更新されました。 [詳細を表示](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html)
+ドメイン名の委任の記事が更新されました。 [詳細を表示](https://helpx.adobe.com/jp/campaign/kb/domain-name-delegation.html)
 
-リリース計画の新しい記事が公開され、今後のリリース日を共有できるようになりました。 [詳細を表示](https://helpx.adobe.com/campaign/kb/acs-release-planning.html)
+リリース計画の新しい記事が公開され、今後のリリース日を共有できるようになりました。 [詳細を表示](https://helpx.adobe.com/jp/campaign/kb/acs-release-planning.html)
 
-Adobe Campaignから直接利用できるコンテキストヘルプリンクが更新されました。
+コンテキストヘルプリンクが更新され、Adobe Campaignから直接利用できます。
 
-次のページ [は](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) 、Adobe Campaign Standardの公式のビデオページになります。
+次のページ [は](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) 、Video Standardの公式のビデオページになります。
 
 標準テーブルのデフォルトの保持値を含む、データ保持に関する節を追加しました。 [詳細を表示](../../administration/using/data-retention.md)
 
@@ -294,7 +301,7 @@ REST APIドキ [ュメントが更新さ](../../api/using/about-campaign-standar
 
 * Campaign StandardREST APIを使用する一般的な情報を含む新しい節が追加されました。
 * 一般的な使用例を表す、事前に設計されたAPIリクエストの集まりが利用可能になりました。
-* 組織単位の管理方法に関する新しい節が追加されました。
+* 組織単位の管理方法に関する新しいセクションが追加されました。
 * サービスの作成方法に関する情報が追加されました。
 * パラメーターを使用してワークフローを呼び出す方法に関する情報が追加されました。
 
@@ -322,11 +329,11 @@ REST APIドキ [ュメントが更新さ](../../api/using/about-campaign-standar
 
 「電子メールの作成」セクションが更新され、最新のインターフェイスの変更が反映されました。 [詳細を表示](../../channels/using/creating-an-email.md)
 
-SMPPプロバイダに接続できる [MTAインスタンスの数を制限するため、](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html) SMSコネクタプロトコルと設定のナレッジベースの記事が更新され、SMS外部アカウントに新しいオプションが追加されました。
+SMPPプロバイダに接続できる [MTAインスタンスの数を制限するため、](https://helpx.adobe.com/jp/campaign/kb/sms-connector-protocol-and-settings.html) SMSコネクタプロトコルと設定のナレッジベースの記事が更新され、SMS外部アカウントに新しいオプションが追加されました。
 
 入門ガイドは強化され、再編成されました。 [詳細を表示](../../start/using/campaign-orchestration.md)
 
-廃止および削除された機能ページが更新されました。 [詳細を表示](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+廃止および削除された機能ページが更新されました。 [詳細を表示](https://helpx.adobe.com/jp/campaign/kb/acs-deprecated-and-removed-features.html)
 
 Dreamweaverの統合の節が更新され、改善されました。 [詳細を表示](../../designing/using/using-integrations.md#editing-content-in-dreamweaver)
 
@@ -348,7 +355,7 @@ Dreamweaverの統合の節が更新され、改善されました。 [詳細を�
 
 トランザクションメッセージングの制限に関する新しい節が追加されました。 [詳細を表示](../../channels/using/about-transactional-messaging.md#transactional-messaging-limitations)
 
-Adobe Campaignの様々な電子メールオーサリングオプションを比較した新しい節が追加されました。 [詳細を表示](../../designing/using/using-integrations.md#email-design-options-comparison)
+Adobe Campaignの異なる電子メールオーサリングオプションを比較する新しい節が追加されました。 [詳細を表示](../../designing/using/using-integrations.md#email-design-options-comparison)
 
 「カスタムコンテンツブロックの作成」セクションが強化され、コンテンツに関する詳細が追加されました。ターゲティングディメンション [詳細を表示](../../designing/using/personalization.md#creating-custom-content-blocks)
 
@@ -362,7 +369,7 @@ Adobe Campaignの様々な電子メールオーサリングオプションを比
 
 カスタムリソースをリンクする方法に関する情報を追加しました。 [詳細を表示](../../developing/using/configuring-the-resource-s-data-structure.md#defining-links-with-other-resources)
 
-Adobe Campaign Standardのプッシュ通知から画像を表示する方法に関する新しいテクノチャーが追加されました。 [詳細を表示](https://helpx.adobe.com/content/help/en/campaign/kb/display-image-push.html)
+Adobe Campaign標準のプッシュ通知の画像を表示する方法に関する新しいテクノチャが追加されました。 [詳細を表示](https://helpx.adobe.com/content/help/en/campaign/kb/display-image-push.html)
 
 プッシュトラッキングの実装に関する新しいテクノロジーが追加されました。 [詳細を表示](https://helpx.adobe.com/content/help/en/campaign/kb/push-tracking.html)
 
@@ -370,7 +377,7 @@ Adobe Campaign Standardのプッシュ通知から画像を表示する方法に
 
 トリガー —キャンペーン統合に関するドキュメントが更新されました。 [詳細を表示](../../integrating/using/about-adobe-experience-cloud-triggers.md)
 
-Adobe Campaignから直接利用できるコンテキストヘルプリンクの更新。
+コンテキストヘルプリンクの更新をAdobe Campaignから
 
 拒否を含むファイルの名前にタイムスタンプを追加する際の注意を追加しました。 [詳細を表示](../../automating/using/load-file.md#configuration)
 
@@ -404,7 +411,7 @@ Email Designerの一般リリースと、非推奨の従来の電子メールコ
 
 アプリ内およ [びプッシュ通知のドキュメ](../../channels/using/about-in-app-messaging.md) ントを更新しました [](../../channels/using/about-push-notifications.md) 。
 
-Adobe Campaignの様々なタイプのオーディエンスに関する情報を追加しました。 [詳細を表示](../../audiences/using/about-audiences.md)
+様々なタイプのオーディエンスに関する情報を追加しました。 [詳細を表示](../../audiences/using/about-audiences.md)
 
 ユーザとセキュリティの章を更新し、地理的単位の減少を反映しました。 [詳細を表示](../../administration/using/organizational-units.md)
 
@@ -432,7 +439,7 @@ Microsoft Edge（最新バージョン）が、コンピューター用の互換
 
 アプリ内メッセージ（ベータ） — 詳 [細情報](../../channels/using/about-in-app-messaging.md)
 
-モバイルアプリ（ベータ版）用Adobe Launch統合 — 詳 [細情報](../../administration/using/about-typology-rules.md#typology-rules)
+モバイルアプリ（ベータ版）用Adobe Launch統合 — 詳 [細情報](../../sending/using/about-typology-rules.md#typology-rules)
 
 **リリースに伴うその他のドキュメントのアップデート**
 
@@ -446,15 +453,15 @@ Microsoft Edge（最新バージョン）が、コンピューター用の互換
 
 **リリースに含まれる新機能**
 
-[モバイルアプリの購読者用の](../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android) 、優先度 [の高いフラグ](../../administration/using/about-typology-rules.md#typology-rules) とタイポロジフィルター。
+[モバイルアプリの購読者用の](../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android) 、優先度 [の高いフラグ](../../sending/using/about-typology-rules.md#typology-rules) とタイポロジフィルター。
 
 準備時にURLからのコンテンツのインポートを自動化。 [詳細を表示](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time)
 
 **リリースに伴うその他のドキュメントのアップデート**
 
-SMSコネクタのプロトコルと設定に関する新しいテクノチュートを追加しました。 [詳細を表示](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html)
+SMSコネクタのプロトコルと設定に関する新しいテクノチュートを追加しました。 [詳細を表示](https://helpx.adobe.com/jp/campaign/kb/sms-connector-protocol-and-settings.html)
 
-Experience ManagerとAdobe Campaignドキュメントの統合を更新しました。 [詳細を表示](../../reporting/using/creating-a-custom-profile-dimension.md)
+Experience Managerとの統合を更新し、Adobe Campaignドキュメント。 [詳細を表示](../../reporting/using/creating-a-custom-profile-dimension.md)
 
 「コンテンツのデザイン」ガイドは、電子メールのコンテンツをデザインする2つのエディターを示すように、特に完全に再編成されました。 [詳細を表示](../../designing/using/designing-content-in-adobe-campaign.md)
 
@@ -464,7 +471,7 @@ Creative Designerに完全に準拠するためのHTML属性のリストが、�
 
 多言語テンプレートのデフォルト言語に関する情報を追加しました。 [詳細を表示](../../channels/using/multilingual-messages-template.md)
 
-新しいCampaign Standardインスタンスの地理的な単位機能の低下と、18.7リリース以降の地理的な単位が作成されていない既存のインスタンスを反映するように、『ユーザとセキュリティ』ガイドが更新されました。 [詳細を表示](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+新しいCampaign Standardインスタンスの地理的な単位機能の低下と、18.7リリース以降の地理的な単位が作成されていない既存のインスタンスを反映するように、『ユーザとセキュリティ』ガイドが更新されました。 [詳細を表示](https://helpx.adobe.com/jp/campaign/kb/acs-deprecated-and-removed-features.html)
 
 ## リリース18.6 - 2018年6月 {#release-18-6---june-2018}
 
@@ -570,7 +577,7 @@ GDPR APIは、GDPRリクエストの自動処理を可能にする機能を再�
 
 リリースノートは、すべての異なるリリースのよりグローバルな表示を得るために、いくつかのページで再編成されました。
 
-セクション **[!UICONTROL Working with typologies]** が更新され、表示が改善されました。 [詳細を表示](../../administration/using/about-typology-rules.md)
+セクション **[!UICONTROL Working with typologies]** が更新され、表示が改善されました。 [詳細を表示](../../sending/using/about-typology-rules.md)
 
 に多数の追加データを定義する際にパフォーマンスを向上できる新しいオプションが **[!UICONTROL Query]** 利用できるようになりました。 [詳細を表示](../../automating/using/query.md)
 
@@ -600,7 +607,7 @@ SMS自動応答の使用方法に関する使用例を順を追って追加し�
 
 **リリースに含まれる新機能**
 
-レポートによる疲労管理 — 詳 [細](../../administration/using/fatigue-rules.md#viewing-the-fatigue-rule-summary-report)
+レポートによる疲労管理 — 詳 [細](../../sending/using/fatigue-rules.md#viewing-the-fatigue-rule-summary-report)
 
 レポートの共有 — [詳細](../../reporting/using/reporting-interface.md#share-tab)
 
@@ -628,7 +635,7 @@ APIシグナルアクティビティのトリガー — [詳細](../../api/using
 
 **リリースに含まれる新機能**
 
-疲労管理 — 詳 [細](../../administration/using/fatigue-rules.md)
+疲労管理 — 詳 [細](../../sending/using/fatigue-rules.md)
 
 コンテンツの作成：URLから読み込み — 詳 [細情報](../../designing/using/using-existing-content.md#importing-content-from-a-url)
 
@@ -650,7 +657,7 @@ A/Bテストのサンプルを更新しました。 [詳細を表示](../../chan
 
 「カスタムリソース」の節が、リソースの定義方法の詳細な手順で明確にな [りました](../../developing/using/configuring-filter-definition.md)。
 
-Adobe Marketing Cloud Mobile SDKをモバ [イルアプリと統合し](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html) 、Adobe Campaign Standardのプッシュ通知を受信する方法に関するテクノチャーを更新し、明確にしました。
+Adobe Campaign標準のプッシュ通 [知を受け取るために](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html) 、Adobe Marketing Cloud Mobile SDKをモバイルアプリと統合する方法に関するテクノチャーを更新し、明確にしました。
 
 モバイルアプリで受け取るペイロードの構造を説明するテクノテートを追加しました。 [詳細を表示.](https://helpx.adobe.com/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html)
 
@@ -710,7 +717,7 @@ ACS IDに関するドキュメントが追加されました。 [詳細を表示
 
 多言語配信（電子メール&amp;SMS） — 詳 [細情報](../../channels/using/creating-a-multilingual-email.md)
 
-Adobe Campaign通知 — 詳 [細](../../administration/using/sending-internal-notifications.md)
+Adobe Campaign通知 — [詳細](../../administration/using/sending-internal-notifications.md)
 
 配信警告 — [詳細](../../sending/using/receiving-alerts-when-failures-happen.md)
 
@@ -752,11 +759,11 @@ Adobe Campaign通知 — 詳 [細](../../administration/using/sending-internal-n
 
 新しいテクノロジーが提供されました。「Adobe Mobile SDKとモバイルアプリの統合」を参照してください。 [詳細を表示](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html)
 
-PeopleコアサービスまたはAdobe Campaignとのオーディエンスマネージャー統合の設定手順が更新されました。 [詳細を表示](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
+PeopleコアサービスまたはPeople Managerとオーディエンスの統合を設定する手順が更新されました。 [詳細を表示](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
 特定の役割の機能を明確にするために、認証の表を改訂しました。 [詳細を表示](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)
 
-Adobe Campaignから直接利用できるコンテキストヘルプリンクの更新。
+コンテキストヘルプリンクの更新をAdobe Campaignから
 
 ## リリース17.4 - 2017年4月 {#release-17-4---april-2017}
 
@@ -774,13 +781,13 @@ Dreamweaverとの統合をライブに — 詳 [細情報](https://docs.adobe.co
 
 **リリースに伴うその他のドキュメントのアップデート**
 
-様々なタイプのAdobe Campaignユーザーに関する節を追加しました。 [詳細を表示](../../administration/using/users-management.md)
+様々なタイプのユーザーに関するセクションをAdobe Campaignしました。 [詳細を表示](../../administration/using/users-management.md)
 
 ワークフローガイドが再構成され、拡張されました。ワークフローの[作成](../../automating/using/building-a-workflow.md)および[実行](../../automating/using/executing-a-workflow.md)方法、データの[ターゲティング](../../automating/using/targeting-data.md)および[管理](../../automating/using/targeting-data.md#enriching-data)方法、データの[インポート](../../automating/using/importing-data.md)[](../../automating/using/using-workflow-data.md)方法、およびデータベースを更新または配信を送信するためのワークフローデータの使用方法が簡単に見つかります。
 
 レポートインジケーターの計算が、詳細な説明や計算式などの動的なレポートで使用できるようになりました。 [詳細を表示](../../reporting/using/indicator-calculation.md)
 
-Adobe Campaignでプッシュ通知と目標地点データを使用するための、Adobe Mobile Servicesの設定に関する新しい専用の節です。 [詳細を表示](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)
+プッシュ通知と目標地点データをAdobe Campaignで使用するための、Adobe Mobile Servicesの設定に関する専用の節を新設しました。 [詳細を表示](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)
 
 モバイルアプリの設定と導入の節が更新され、プッシュ通知を設定および送信するためのより詳細な手順が含まれています。 [詳細を表示](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)
 
