@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 240e8738fab8f0eaa8398de1b74e22d292536908
+source-git-commit: 876f12d5256ef991741c35b17eff666dedc99d73
 
 ---
 
@@ -37,7 +37,7 @@ Experience Cloud IDサービス(ECID)に関する情報が、Adobe Experience Pl
 
 タイポロジとタイポロジルールに関する節が改善され、追加情報が追加され、更新されました。すぐに使用できるタイポロジルールです。 [詳細を表示](../../sending/using/about-typology-rules.md)
 
-情報が追加されまし **[!UICONTROL Transfer file]****!UICONTROL File listing]** た。 [詳細を表示](../../automating/using/transfer-file.md)
+情報が追加されまし **[!UICONTROL Transfer file]****[!UICONTROL File listing]** た。 [詳細を表示](../../automating/using/transfer-file.md)
 
 配信の一時的な障害後の再試行に関するドキュメントが更新され、拡張MTAにアップグレードした後の再試行の管理方法の詳細が追加されました。 [詳細を表示](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)
 
@@ -191,7 +191,7 @@ Campaign Standard設定に関連する新しいセクションが追加されま
 
 「トランザクションメッセージ」セクションは、電子メールデザイナでのコンテンツの編集など、最新のUIの更新によって変更されました。 [詳細を表示](../../channels/using/event-transactional-messages.md)
 
-「ランディングページ」チャプターが再編成されました。 また、ランディングページの設定手順を詳しく説明する新しいセクションが追加されました。 [詳細を表示](../../channels/using/getting-started-with-landing-pages.md)
+「ランディングページ」チャプターが再編成されました。 また、ランディングページの設定手順を詳しく説明する新しいセクションが追加され、強化されました。 [詳細を表示](../../channels/using/getting-started-with-landing-pages.md)
 
 ## ドキュメントの更新 — 2019年9月 {#doc-updates-september-2019}
 
@@ -301,7 +301,7 @@ REST APIドキ [ュメントが更新さ](../../api/using/about-campaign-standar
 
 * Campaign StandardREST APIを使用する一般的な情報を含む新しい節が追加されました。
 * 一般的な使用例を表す、事前に設計されたAPIリクエストの集まりが利用可能になりました。
-* 組織単位の管理方法に関する新しい節が追加されました。
+* 組織単位の管理方法に関する新しいセクションが追加されました。
 * サービスの作成方法に関する情報が追加されました。
 * パラメーターを使用してワークフローを呼び出す方法に関する情報が追加されました。
 
