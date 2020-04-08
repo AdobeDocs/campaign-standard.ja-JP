@@ -12,7 +12,7 @@ discoiquuid: 7ddaf36c-74e6-4501-b3eb-3d03f005aaa6
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ec0af8c06e36f51ddaf6e3d4190fa6acd56d2da6
+source-git-commit: 396084934a41d103eecd6fe141c700c118000f75
 
 ---
 
@@ -26,7 +26,7 @@ source-git-commit: ec0af8c06e36f51ddaf6e3d4190fa6acd56d2da6
 次の表に、標準搭載のフィルタールールとその関連チャネルを示します。
 
 | ラベル | チャネル | 説明 |
----------|----------|---------|---------
+---------|----------|---------
 | **[!UICONTROL Address not specified]** | すべて | 指定したターゲット（電子メール、住所など）のないアドレスを含む訪問者を除外します。 をチャネル)。 |
 | **[!UICONTROL Blacklisted address]** | すべて | ブラックリスト登録済みアドレスを除外します。 |
 | **[!UICONTROL Duplicate]** | すべて | 重複母集団フィールドに基づいてターゲットを除外 **[!UICONTROL Address]** します。 |
