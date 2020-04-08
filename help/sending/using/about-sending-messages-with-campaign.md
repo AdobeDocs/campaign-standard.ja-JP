@@ -12,7 +12,7 @@ discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e6c43770755e59bf2a2d49540a052ac0bd2a2438
+source-git-commit: c49fcd793cbb13d26ccf3a47af145de7acd697e7
 
 ---
 
@@ -43,7 +43,6 @@ source-git-commit: e6c43770755e59bf2a2d49540a052ac0bd2a2438
 | 役に立つページ | その他のリソース |
 |---|---|
 | [配信品質の最適化](../../sending/using/about-deliverability.md) | [疲労管理](../../sending/using/fatigue-rules.md) |
-| [配信の監視](../../audiences/using/creating-profiles.md) | [A/Bテスト電子メールの設計](../../channels/using/designing-an-a-b-test-email.md) |
+| [配信スループットの制御](../../reporting/using/delivery-throughput.md) | [A/Bテスト電子メールの設計](../../channels/using/designing-an-a-b-test-email.md) |
 | [エラー発生時の通知の受信](../../sending/using/receiving-alerts-when-failures-happen.md) | [配信の監視](../../sending/using/monitoring-a-delivery.md) |
-| [コントロール母集団の作成](../../automating/using/workflow-control-group.md) | [エラー発生時の通知の受信](../../sending/using/receiving-alerts-when-failures-happen.md) |
-| [配信スループットの制御](../../reporting/using/delivery-throughput.md) | [配信の監視](../../sending/using/monitoring-a-delivery.md) |
+| [コントロール母集団の作成](../../automating/using/workflow-control-group.md) | [フォローアップメッセージの送信](../../channels/using/follow-up-messages.md) |
