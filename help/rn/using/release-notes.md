@@ -1,6 +1,6 @@
 ---
 title: 最新リリース
-description: このページには、Adobe Campaign Standardの最新リリースがすべてリストされています。
+description: このページでは、リスト標準の最新リリースすべてをAdobe Campaignします。
 page-status-flag: never-activated
 uuid: 1cf2e40c-beca-43db-8261-a1820ee86ad3
 contentOwner: sauviat
@@ -12,18 +12,18 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ce0ddc11c239dd72f14ace56ad008717ebaa47de
+source-git-commit: 2646aa9ad60805a4dedc6b8a1f91c16f6e1b438d
 
 ---
 
 
 # 最新リリース{#latest-release}
 
-[リリース計画](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) |コント [ロールパネルのリリース](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html) |ドキュメ [ントの更新](../../rn/using/documentation-updates.md) |以前の [リリースノート](../../rn/using/release-notes-2019.md) |非推 [奨の機能](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)
+[リリース計画](https://helpx.adobe.com/jp/campaign/kb/acs-release-planning.html) |コント [ロールパネルのリリース](https://docs.adobe.com/content/help/ja-JP/control-panel/using/release-notes.html) |ドキュメ [ントの更新](../../rn/using/documentation-updates.md) |以前の [リリースノート](../../rn/using/release-notes-2019.md) |非推 [奨の機能](https://helpx.adobe.com/jp/campaign/kb/acs-deprecated-and-removed-features.html)
 
 [リリース通知を購読するには](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) 、ここをクリックします。また、最新のAdobe Experience Cloudリリースの詳細を受信トレイに直接表示するには、ここをクリックします。
 
-## リリース20.2 - 2020年3月 {#release-20-2---march-2020}
+## リリース20.2 - 2020年4月 {#release-20-2---april-2020}
 
 **新機能?**
 
@@ -35,7 +35,7 @@ source-git-commit: ce0ddc11c239dd72f14ace56ad008717ebaa47de
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Azure BLOBストレージコネクタを使用して、ファイル転送ワークフローアクティビティを使用して、Adobe Campaignにデータをインポートまたはエクスポ <strong>ートでき</strong> ます。 </p>
+   <td> <p>Azure BLOBストレージコネクタを使用して、ファイル転送ワークフローを使用してAdobe Campaignにデータをインポートまたはエクスポートで <strong>きる</strong> アクティビティ。 </p>
     <p>詳しくは、<a href="../../administration/using/external-accounts.md#microsoft-azure-external-account">詳細ドキュメント</a>を参照してください。</p>
    </td> 
   </tr> 
@@ -59,7 +59,7 @@ source-git-commit: ce0ddc11c239dd72f14ace56ad008717ebaa47de
 
 >[!NOTE]
 >
->4月に、Google TXTレコード管理、キャンペーン領域の監視、電子メール通知など、データベースコントロールパネルに新しい機能がリリースされます。 これらの機能の詳細については、「コントロールパネルのリリ [ースノート」を参照してくださ](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)い。
+>4月に、Google TXTレコード管理、キャンペーン領域の監視、電子メール通知など、データベースコントロールパネルに新しい機能がリリースされます。 これらの機能の詳細については、「コントロールパネルのリリ [ースノート」を参照してくださ](https://docs.adobe.com/content/help/ja-JP/control-panel/using/release-notes.html)い。
 
 **強化点**
 
@@ -85,7 +85,7 @@ source-git-commit: ce0ddc11c239dd72f14ace56ad008717ebaa47de
 **その他の変更**
 
 * Adobe Analytics **** （標準搭載）とのKPIの調整は、現在の日付まで実行され、1日のみ実行されるのではなく、実行されるようになりました。
-* MCPNSは、APNSとAPNS-SANDBOXの両方をアプリ内のプラットフォームとして追加する機能をサポートしていません。 Adobe Campaign Standardで証明書を正常に追加すると、MCPNSアプリに追加できるAPNSプラットフォーム（実稼動またはサンドボックス）が1つだけなので、設定を変更できなくなります。
+* MCPNSは、APNSとAPNS-SANDBOXの両方をアプリ内のプラットフォームとして追加する機能をサポートしていません。 Adobe Campaign標準で証明書を正常に追加すると、MCPNSアプリに追加できるAPNSプラットフォーム（実稼動またはサンドボックス）が1つだけなので、設定を変更できなくなります。
 
 **エクスペリエンスプラットフォームの統合**
 
