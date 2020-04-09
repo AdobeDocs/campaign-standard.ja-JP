@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 876f12d5256ef991741c35b17eff666dedc99d73
+source-git-commit: 2646aa9ad60805a4dedc6b8a1f91c16f6e1b438d
 
 ---
 
@@ -43,7 +43,7 @@ Experience Cloud IDサービス(ECID)に関する情報が、Adobe Experience Pl
 
 「削除」トランザクションメッセージの節が強化され、明確になりました。 [詳細を表示](../../channels/using/event-transactional-messages.md#deleting-a-transactional-message)
 
-## リリース20.2 - 2020年3月 {#release-20-2---march-2020}
+## リリース20.2 - 2020年4月 {#release-20-2---april-2020}
 
 **リリースに含まれる新機能**
 
@@ -191,7 +191,7 @@ Campaign Standard設定に関連する新しいセクションが追加されま
 
 「トランザクションメッセージ」セクションは、電子メールデザイナでのコンテンツの編集など、最新のUIの更新によって変更されました。 [詳細を表示](../../channels/using/event-transactional-messages.md)
 
-「ランディングページ」チャプターが再編成されました。 また、ランディングページの設定手順を詳しく説明する新しいセクションが追加され、強化されました。 [詳細を表示](../../channels/using/getting-started-with-landing-pages.md)
+「ランディングページ」チャプターが再編成されました。 また、ランディングページの設定手順を詳しく説明する新しいセクションが追加されました。 [詳細を表示](../../channels/using/getting-started-with-landing-pages.md)
 
 ## ドキュメントの更新 — 2019年9月 {#doc-updates-september-2019}
 
