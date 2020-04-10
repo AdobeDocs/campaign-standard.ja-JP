@@ -1,6 +1,6 @@
 ---
 title: Campaign Standardリリース計画
-description: このページリストは、Adobe Campaign Standardの今後のリリースです。
+description: このページでは、リスト標準の今後のリリースをAdobe Campaignします。
 page-status-flag: never-activated
 uuid: null
 contentOwner: sauviat
@@ -12,7 +12,7 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 451c7d15bfe206912fd1f8db8bf8c3d7ec83616d
+source-git-commit: a71af00e606d78c4ff8b39da1b9f032c0dcf0fc6
 
 ---
 
@@ -21,15 +21,15 @@ source-git-commit: 451c7d15bfe206912fd1f8db8bf8c3d7ec83616d
 
 アドビは、新しい機能、機能強化および修正を追加することで、ソリューションを引き続き強化しています。
 
-すべてのAdobe Campaign Standardインスタンスは、新しいリリースのたびにアップグレードされます。 アップグレードの際には、何も行う必要はありません。
+すべてのAdobe Campaign標準インスタンスは、新しいリリースのたびにアップグレードされます。 アップグレードの際には、何も行う必要はありません。
 
 アップグレードは2段階で導入されます。 まず、Stageインスタンスがアップグレードされ、お客様が新しい機能をテストし、必要に応じて設定を適応できるようになります。 その後、実稼働インスタンスがアップグレードされます。
 
 すべてのリリース日は変更される可能性があります。このページを定期的に訪問して、更新を確認することをお勧めします。
 
-Adobe Experience Cloudの最新リリ [ースの詳細を受信するには](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) 、購読を行ってリリース通知を受信してください。
+**新機能！** 今後のリリー [スの詳細を受信トレイで](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) 、Campaign Standardのリリース通知を購読して取得します。
 
-## リリース20.2.1 - 4月のリリース {#release-20-2-april-release}
+## リリース20.3.1 - 5月のリリース {#release-20-3-may-release}
 
 環境の更新は、ウェーブで、以下に示す時間枠内に発生します。 このリリースに関する詳細は、リリースノートを参照 [してください](../../rn/using/release-notes.md)。 その他のご質問は、 [Adobe ClientCareにお問い合わせください](https://support.neolane.net/webApp/extranetLogin)。
 
@@ -43,11 +43,11 @@ Adobe Experience Cloudの最新リリ [ースの詳細を受信するには](htt
  <tbody> 
   <tr> 
    <td> ステージ<br /> </td> 
-   <td> 2020年3月31日～4月1日<br /> </td> 
+   <td> April 27 - 28, 2020<br /> </td> 
   </tr> 
   <tr> 
    <td> Production（本番）<br /> </td> 
-   <td> 2020年4月6日～9日<br /> </td> 
+   <td> 2020年5月4日～11日<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,7 +58,7 @@ Adobe Experience Cloudの最新リリ [ースの詳細を受信するには](htt
 
 **質問：影響は？**
 
-A:変更点は、関連ドキュメン [トへのリンクを含め](../../rn/using/release-notes.md)、リリースノートに記載されています。 また、廃止および削除された機能のペ [ージを参照することをお勧めします](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html)。 これらのページは、Stage環境のアップグレード日に公開されます。
+A:変更点は、関連ドキュメン [トへのリンクを含め](../../rn/using/release-notes.md)、リリースノートに記載されています。 また、廃止および削除された機能のペ [ージを参照することをお勧めします](https://helpx.adobe.com/jp/campaign/kb/acs-deprecated-and-removed-features.html)。 これらのページは、Stage環境のアップグレード日に公開されます。
 
 **質問：検証プロセスとは**
 
