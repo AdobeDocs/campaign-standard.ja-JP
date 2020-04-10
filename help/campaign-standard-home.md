@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Adobe Campaign Standard 製品ドキュメント
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 7e7bd906982e71e8ba29339998fa3bf8c65c620b
+source-git-commit: 7d359430748eea1210b04c151b4a89b6e99f0c11
 
 ---
 
@@ -17,9 +17,11 @@ source-git-commit: 7e7bd906982e71e8ba29339998fa3bf8c65c620b
 
 * **[ターゲットプロファイルを使用した電子メール](sending/using/testing-messages-using-target.md)**<br/>テスト実際のターゲットプロファイルで電子メールをテストする方法を説明します。
 
-* **[プライバシー管理](https://helpx.adobe.com/campaign/kb/campaign-privacy.html)**<br/>プライバシーコンプライアンスに役立つ Adobe Campaign が提供するツールについて説明します。
+* **[プライバシー管理](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy.html)**<br/>
+プライバシーコンプライアンスに役立つ Adobe Campaign が提供するツールについて説明します。
 
-* **[Campaign Standard Mobile ガイド](https://helpx.adobe.com/campaign/kb/acs-mobile.html)**<br/>モバイル配信に関する一般的なガイドラインについて説明します。
+* **[Campaign Standard Mobile ガイド](https://helpx.adobe.com/jp/campaign/kb/acs-mobile.html)**<br/>
+モバイル配信に関する一般的なガイドラインについて説明します。
 
 [更新情報についてはここをクリック](rn/using/documentation-updates.md)
 
@@ -63,9 +65,9 @@ source-git-commit: 7e7bd906982e71e8ba29339998fa3bf8c65c620b
 
 | 役に立つページ | 開発者向けリソース |
 |---|---|
-| [リリースノート](rn/using/release-notes.md) | [実装ガイド](https://helpx.adobe.com/campaign/kb/campaign-standard-implementation-guide.html) |
-| [コントロールパネルのドキュメント](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html) | [APIドキュメント](api/using/about-campaign-standard-apis.md) |
+| [リリースノート](rn/using/release-notes.md) | [実装ガイド](https://helpx.adobe.com/jp/campaign/kb/campaign-standard-implementation-guide.html) |
+| [コントロールパネルのドキュメント](https://docs.adobe.com/content/help/ja-JP/control-panel/using/control-panel-home.translate.html) | [キャンペーンAPI](api/using/about-campaign-standard-apis.md) |
 | [ハウツービデオ](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) | [エラーリスト](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
-| [リリース計画ガイド](https://helpx.adobe.com/campaign/kb/acs-release-planning.html) | [Campaign Standardデータモデル](developing/using/datamodel-introduction.md) |
-| [廃止および削除された機能](https://helpx.adobe.com/campaign/kb/acs-deprecated-and-removed-features.html) | [Campaign 統合](integrating/using/about-campaign-integrations.md) |
-| [はじめにCampaign Standard](start/using/campaign-orchestration.md) | [テクニカルノート](https://helpx.adobe.com/campaign/kb/acs-article-list.html) |
+| [リリース計画](rn/using/release-planning.md) | [キャンペーンデータモデル](developing/using/datamodel-introduction.md) |
+| [廃止および削除された機能](https://helpx.adobe.com/jp/campaign/kb/acs-deprecated-and-removed-features.html) | [マルチソリューションガイド](integrating/using/about-campaign-integrations.md) |
+| [はじめにCampaign Standard](start/using/campaign-orchestration.md) | [テクニカルノート](https://helpx.adobe.com/jp/campaign/kb/acs-article-list.html) |
