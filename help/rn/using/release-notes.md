@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2646aa9ad60805a4dedc6b8a1f91c16f6e1b438d
+source-git-commit: 66e480e957d12275d2ce5575c99b0808462588f9
 
 ---
 
@@ -94,7 +94,7 @@ source-git-commit: 2646aa9ad60805a4dedc6b8a1f91c16f6e1b438d
 >Campaign StandardのAdobe Experience Platform機能は現在ベータ版で、予告なく頻繁に更新される場合があります。 詳細なドキュメントを参照してください。Experience Platform Data Connector [、](../../administration/using/aep-about-data-connector.md)[オーディエンス先](../../audiences/using/aep-about-audience-destinations-service.md)
 
 * ワークフローログで、10分ごとに、キャンペーンは、現在実行中のジョブによって処理済みのレコード数を表示するようになりました。
-* データベースから削除されたAdobe Experience Platformプロファイルを読み込む際に発生する可能性がある問題を修正しました。
+* データベースから削除されたAdobe Experience Platformデータベースを読み込む際に発生するプロファイルの問題を修正しました。
 * ワークフローログで、インポートされたレコードの合計数に対して誤った結果が表示される問題を修正しました。
 
 **パッチ**
@@ -106,3 +106,4 @@ source-git-commit: 2646aa9ad60805a4dedc6b8a1f91c16f6e1b438d
 * プライバシー要求を処理した後にキャンペーンで手動で削除すると、クリーンアップ後も要求に関連付けられたデータが削除されない問題を修正しました。
 * Adobe Experience Managerから特殊文字を含むメッセージをプレビューまたは送信する際に発生する可能性がある問題を修正しました。
 * 複数の受信トランジションを使用してワークフローを実行するとアクティビティが発生する問題を修正しました。
+* 標準ユーザーがワークフロークエリまたは配信で、「購読からアプリへのアプリケーション」をターゲットディメンションとして使用できない問題を修正しました。 (CAMP-37618)
