@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2646aa9ad60805a4dedc6b8a1f91c16f6e1b438d
+source-git-commit: a09d82ae6fa77bb94550e533aa8fb63b463cd28c
 
 ---
 
@@ -42,6 +42,8 @@ Experience Cloud IDサービス(ECID)に関する情報が、Adobe Experience Pl
 配信の一時的な障害後の再試行に関するドキュメントが更新され、拡張MTAにアップグレードした後の再試行の管理方法の詳細が追加されました。 [詳細を表示](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)
 
 「削除」トランザクションメッセージの節が強化され、明確になりました。 [詳細を表示](../../channels/using/event-transactional-messages.md#deleting-a-transactional-message)
+
+「プレビュー **配信** 」の節は更新され、モバイル配信の例が追加されました。[詳細を表示](../../sending/using/previewing-messages.md)
 
 ## リリース20.2 - 2020年4月 {#release-20-2---april-2020}
 
@@ -597,7 +599,7 @@ SMS自動応答の使用方法に関する使用例を順を追って追加し�
 
 この節を **[!UICONTROL Customizing a push notification]** 手順を追って再構成しました。 [詳細を表示](../../channels/using/customizing-a-push-notification.md)
 
-ブラックリスト管理に関する新しいセクション。 [詳細を表示](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+ブラックリスト管理に関する新しい節を追加しました。 [詳細を表示](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 エラーと配信に関する情報を更新しました。 [詳細を表示](../../sending/using/monitoring-a-delivery.md)
 
