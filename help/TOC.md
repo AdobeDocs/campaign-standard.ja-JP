@@ -4,7 +4,7 @@ sub-product: Adobe Campaign Standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard ヘルプ
 translation-type: tm+mt
-source-git-commit: 7895e526732a4e1b4051c907f95ea1cf1222878d
+source-git-commit: 79dcfb4f2e58314f3c2eafb9443d5e3da2028203
 
 ---
 
@@ -138,7 +138,7 @@ source-git-commit: 7895e526732a4e1b4051c907f95ea1cf1222878d
 + テストと送信{#testing-and-sending}
    + [Campaign でのメッセージの送信について](sending/using/about-sending-messages-with-campaign.md)
    + メッセージの準備とテスト{#preparing-and-testing-messages}
-      + [メッセージのプレビュー](sending/using/previewing-messages.md)
+      + [プレビュー配信](sending/using/previewing-messages.md)
       + [送信の準備](sending/using/preparing-the-send.md)
       + [配達確認の送信](sending/using/sending-proofs.md)
       + [ターゲットを設定したメッセージを使用した電子メールプロファイル](sending/using/testing-messages-using-target.md)
