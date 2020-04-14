@@ -13,7 +13,7 @@ context-tags: seedMember,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f0df05a08cc07b7c2a5b8e175177006360e7e7d
+source-git-commit: 4a8fa27d816dade8a7eb26bb5b66e3ebfbec4b51
 
 ---
 
@@ -125,11 +125,11 @@ Campaign Standardを使用すると、テストに使用できるオーディエ
 
 1. ボタンをクリッ **[!UICONTROL Import]** クします。 メッセージプロファイルに対応するオーディエンスのターゲットがタブに追加され、 **[!UICONTROL Profile substitution]** 関連する置換アドレスと接頭辞が追加されます。
 
->[!NOTE]
->
->同じオーディエンスを別の置換アドレスや接頭辞を使用して再度読み込むと、プロファイルは以前の読み込みのに加えてリストに追加されます。
+   ![](assets/substitution_audience_added.png)
 
-![](assets/substitution_audience_added.png)
+   >[!NOTE]
+   >
+   >同じオーディエンスを別の置換アドレスや接頭辞を使用して再度読み込むと、プロファイルは以前の読み込みのに加えてリストに追加されます。
 
 ## ターゲットを設定したメッセージのプレビュープロファイル
 
@@ -196,7 +196,7 @@ Campaign Standardを使用すると、テストに使用できるオーディエ
 
 ### 手順2:ワークフローを作成してターゲットプロファイルに送信する
 
-1. およ **[!UICONTROL Query]** び **[!UICONTROL Email delivery]** アクティビティを設定し、必要に応じて設定します(「 [クエリ](../../automating/using/query.md) 」と「電子メー [ル配信](../../automating/using/email-delivery.md) 」を参照)。
+1. およ **[!UICONTROL Query]** び **[!UICONTROL Email delivery]** アクティビティを設定し、必要に応じて設定します(「 [クエリ](../../automating/using/query.md) 」と「電子メ [ール配信](../../automating/using/email-delivery.md) 」を参照)。
 
    ![](assets/substitution_uc4.png)
 
