@@ -12,7 +12,7 @@ discoiquuid: 71a4d5d5-fe2a-4ce5-b22b-a4736f7add83
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 155ed7e50e207e4c4dc0569e5e96b24e712e4be8
+source-git-commit: 72366d56e21933bcd79e907e5f8d5a9ad5281725
 
 ---
 
@@ -48,7 +48,7 @@ Adobe Campaignを使用すると、この機能を情報システムに統合し
 
 >[!IMPORTANT]
 >
->拡張MTAにアップグレ [ードすると](https://helpx.adobe.com/jp/campaign/kb/campaign-enhanced-mta.html)、すべてのトランザクションメッセージがAdobe Campaign拡張MTAと共に送信され、配信品質、スループット、バウンス処理が向上します。 すべての影響は標準のマーケティングメッセージと同じです。詳しくは、[Adobe Campaign Enhanced MTA](https://helpx.adobe.com/jp/campaign/kb/campaign-enhanced-mta.html) ドキュメントを参照してください。
+>すべてのトランザクションメッセージは、配信品質、スループット、バウンス処理を向上させるために、Adobe Campaign拡張MTAと共に送信されるようになりました。 すべての影響は、標準のマーケティングメッセージと同じです。
 
 ## トランザクションメッセージングの動作原則 {#transactional-messaging-operating-principle}
 
@@ -62,7 +62,7 @@ Adobe Campaignを使用すると、買い物かごに製品を追加したサイ
 1. このトランザクションメッセージは、パーソナライズ、テスト、公開が必要です。 See [Event transactional messages](../../channels/using/event-transactional-messages.md).
 1. さらに、クライアントが買い物かごを放棄したときにイベントがトリガーされるようにするには、このイベントを会社のWebサイトからAdobe Campaign標準のREST APIを使用して送信する必要があります。 サイトの統 [合を参照してください](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website)。
 
-これらの手順がすべて完了すると、ユーザーが買い物かごに商品を注文せずにサイトを離れるとすぐに、通知電子メールが自動的に送信されます。
+これらの手順がすべて完了すると、ユーザーは買い物かごに商品を注文せずにサイトを離れるとすぐに、通知電子メールを自動的に受信します。
 
 ## トランザクションメッセージング発行プロセス {#transactional-messaging-pub-process}
 
@@ -109,7 +109,7 @@ Adobe Campaignを使用すると、買い物かごに製品を追加したサイ
 
 ### 権限とブランディング {#permissions-and-branding}
 
-ブランド管理に関しては、トランザク [ション](../../administration/using/branding.md) ・メッセージングは標準のメッセージングよりも柔軟性が低くなります。 アドビでは、組織単位にトランザクションメッセージで使用されているすべてのブランドをリン **[!UICONTROL All]** クするこ [とを推奨しま](../../administration/using/organizational-units.md)す。 詳しくは、以下の詳細な説明を参照してください。
+ブランド管理に関しては、トランザク [ション](../../administration/using/branding.md) ・メッセージングを使用すると、標準的なメッセージングよりも柔軟性が低くなります。 アドビでは、組織単位にトランザクションメッセージで使用されているすべてのブランドをリン **[!UICONTROL All]** クするこ [とを推奨しま](../../administration/using/organizational-units.md)す。 詳しくは、以下の詳細な説明を参照してください。
 
 トランザクションメッセージの編集時に、ブランドにリンクして、ブランド名やブランドロゴなどの一部のパラメーターを自動的に適用できます。 デフォル **[!UICONTROL Default brand]** トでは、このオプションはトランザクションメッセージプロパティで選択されます。
 
