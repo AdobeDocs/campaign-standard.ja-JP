@@ -13,12 +13,24 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6c7dc7927a7652efab20d976a8c5d0db8a33a66f
+source-git-commit: 9b632bdd9d2546b40fd00cc4ef8800dd88fa55de
 
 ---
 
 
 # 電子メールチャネルの設定{#configuring-email-channel}
+
+キャンペーン管理者 [は](../../administration/using/about-administrating-adobe-campaign.md)、電子メールチャネル設定を行えます。 これらの詳細設定には、一般的な電子メールチャネルパラメーター、電子メールルーティングアカウント、電子メール処理ルールおよび電子メールプロパティが含まれます。 このページでは、一般的な電子メールのデフォルト値を編集し、パラメーターを送信する方法について説明します。
+
+一部の電子メール設定は、拡張MTAAdobe Campaignで管理されます。 したがって、
+* キャンペーンユーザーインターフェイスの一部の設定が適用されなくなりました。
+   * 設定メ **[!UICONTROL Retries]** ニューと電子メ [ールプロパ](#email-channel-parameters) ティの [Sending](#retries-parameters) パラメーターの設定。
+   * 電子メ **[!UICONTROL MX management]** ール処 **[!UICONTROL Domain management]** 理ルールメニ [ューのルールとルール](#email-processing-rules)。
+
+* 拡張MTAでは、他のパラメーターが部分的に管理され、一部の設定は引き続きキャンペーン内で行えます。 影響を受ける設定は次のとおりです。
+   * メニュ **[!UICONTROL Message delivery duration]** ー内のパラメー **[!UICONTROL Configuration]** ター。 詳しくは、[この節](#email-channel-parameters)を参照してください。
+   * セクシ **[!UICONTROL Delivery duration]** ョンの **[!UICONTROL Validity limit for sending messages]** またはパラメー **[!UICONTROL Validity period]** ター。 詳しくは、[この節](#validity-period-parameters)を参照してください。
+   * のル **[!UICONTROL Bounce mails]** ールです **[!UICONTROL Email processing rules]**。 詳しくは、[この節](#email-processing-rules)を参照してください。
 
 ## 電子メールチャネルパラメータ {#email-channel-parameters}
 
@@ -28,11 +40,11 @@ source-git-commit: 6c7dc7927a7652efab20d976a8c5d0db8a33a66f
 
 * **送信された電子メールのヘッダーパラメーター**
 
-   このセクションでは、送信者のアドレスとエ **[!UICONTROL masks]** ラーのアドレスに対して認証された情報を指定できます。 必要に応じて、これらのマスクをコンマで区切ることができます。 この設定はオプションです。 これらのフィールドを入力すると、メッセージの準備段階で、Adobe Campaignは入力されたアドレスが有効であるかどうかを確認します。 このオペレーティングモードを使用すると、配信品質の問題を引き起こす可能性のあるアドレスが使用されなくなります。 配信アドレスは、サーバー上で設定する必要があります。
+   このセクションでは、送信者のアドレスとエ **[!UICONTROL masks]** ラーのアドレスに対して認証された情報を指定できます。 複数のマスクを使用する場合は、コンマで区切る必要があります。 これらのフィールドにデータが入力されると、Adobe Campaignは、入力されたアドレスがメッセージの準備段階で有効であるかどうかを確認します。 このオペレーティングモードを使用すると、配信品質の問題を引き起こす可能性のあるアドレスが使用されなくなります。 送信者アドレスとエラーアドレスの両方がアドビによって設定されます。 更新するには、アドビカスタマーケアチームに問い合わせる必要があります。
 
 * **配信品質**
 
-   このIDはサポートによって提供されます。 配信品質レポートが正しく機能するために必要です。
+   このIDは、アドビカスタマーケアチームによって提供されます。 配信品質レポートが正しく機能するためには必須です。
 
 * **配信パラメーター**
 
@@ -40,7 +52,7 @@ source-git-commit: 6c7dc7927a7652efab20d976a8c5d0db8a33a66f
 
    >[!IMPORTANT]
    >
-   >Adobe Campaign拡張MTAにアップグレ [ードした後は](https://helpx.adobe.com/jp/campaign/kb/campaign-enhanced-mta.html)、キャンペーン配信 **[!UICONTROL Message delivery duration]** のパラメーターは、3.5日以下に設定した場合にのみ使用されます。 3.5 日を超える値を定義した場合、その値は考慮されません。
+   >**このキャンペーンーのパラメーターは、3.5日以下に設定した場合にのみ使用されるようになりました。** 3.5日を超える値を定義した場合、この値はAdobe Campaign拡張MTAで管理されるようになったので、考慮されません。
 
    The **[!UICONTROL Online resources validity duration]** field is used for uploaded resources, mainly for the mirror page and images. ディスクスペースを節約するために、このページ上のリソースが有効な期間は限られています。
 
@@ -48,9 +60,9 @@ source-git-commit: 6c7dc7927a7652efab20d976a8c5d0db8a33a66f
 
    一時的に配信できなかったメッセージは、自動再試行の対象となります。For more on this, see [Retries after a delivery temporary failure](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
-   >[!IMPORTANT]
+   >[!NOTE]
    >
-   >拡張MTAの [Adobe Campaignにアップグレード](https://helpx.adobe.com/jp/campaign/kb/campaign-enhanced-mta.html)すると、 **再試行の** キャンペーン設定は無視されます。 IPの **[!UICONTROL Number of retries]** 再試行(送信開始後の日に実行する再試行の数)と **[!UICONTROL Retry period]** （ドメイン間の最小遅延）は、特定のドメインでのIPのパフォーマンスに基づいて、拡張MTAによって管理されます。
+   >実行する再試行の最大数と再試行間の最小遅延は、IPが特定のドメインでどの程度履歴的に、現在どの程度のパフォーマンスを発揮しているかに基づいて、Adobe Campaign拡張MTAで管理されるようになりました。 **再試行** 設定は無視されます。
 
    <!--This section indicates how many retries should be performed the day after the send is started (**Number of retries**) and the minimum delay between retries (**Retry period**). By default, five retries are scheduled for the first day with a minimum interval of one hour, spread out over the 24 hours of the day. One retry per day is programmed after that and until the delivery deadline, which is defined in the **[!UICONTROL Delivery parameters]** section.-->
 
@@ -78,92 +90,35 @@ source-git-commit: 6c7dc7927a7652efab20d976a8c5d0db8a33a66f
 
 管理者 **[!UICONTROL Email processing rules]** は、メニューからアクセスで **[!UICONTROL Administration > Channels > Email]** きます。
 
-これらのルールには、リモートサーバーが返すことができ、エラー（**ハード**、**ソフト**&#x200B;または&#x200B;**無視**）を検証できる文字列のリストが含まれます。
-
-デフォルトのルールは次のとおりです。
+電子メールドメインとMXルールは、拡張MTAAdobe Campaignで管理されます。
+* **DKIM(DomainKeys Identified Mail)電子メール認証の署名は** 、すべてのドメインを持つすべてのメッセージに対して拡張MTAによって行われます。 拡張MTAレベルで特に指定され **ていない限り、** Sender ID **、** DomainKeys **、** S/MIMEを使用して署名することはできません。
+* 拡張MTAは独自のMXルールを使用し、独自の履歴電子メールの評判や、電子メールを送信するドメインからのリアルタイムのフィードバックに基づいて、ドメイン別にスループットをカスタマイズできます。
 
 ### バウンスメール {#bounce-mails}
 
-同期配信障害のエラーメッセージの場合、拡張MTAはバウンスのタイプと条件を決定し、その情報をキャンペーンに返します。 Adobe Campaign Enhanced MTA について詳しくは、この[ドキュメント](https://helpx.adobe.com/jp/campaign/kb/campaign-enhanced-mta.html)を参照してください。
-
 非同期バウンスは、引き続きルールを通じてinMailキャンペーンによって認証さ **[!UICONTROL Bounce mails]** れます。
 
->[!IMPORTANT]
+This rule contains the list of character strings which can be returned by remote servers and which let you qualify the error (**Hard**, **Soft** or **Ignored**).
+
+>[!NOTE]
 >
->拡張MTAにアップグレードすると、キャンペーン表の直帰 **[!UICONTROL Message qualification]** 条件は使用されなくなります。 バウンスメールの資格について詳しくは、この節を参照して [ください](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification)。
+>同期配信障害のエラーメッセージの場合、Adobe Campaign拡張MTAはバウンスのタイプと条件を決定し、その情報をキャンペーンに返します。
 
-<!--The user can create his own rules.
+バウンスメールの資格について詳しくは、この節を参照して [ください](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification)。
 
->[!IMPORTANT]
->
->When importing a package and when updating data via the **Update for deliverability** workflow, the user-created rules are overwritten.-->
+<!--Because they are now managed by the Enhanced MTA, the bounce qualifications in the Campaign **[!UICONTROL Message qualification]** table are no longer used. For more on bounce mail qualification, see this [section](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification).
 
-### E メールドメインの管理 {#managing-email-domains}
+### Management of email domains {#managing-email-domains}
 
-<!--The Adobe Campaign messaging server applies rules specific to the domains, and then the rules for the general case represented by an asterisk in the list of rules.
+The email domains are now managed by the Adobe Campaign Enhanced MTA. The Adobe Campaign **[!UICONTROL Domain management]** rules are no longer used.
 
-The **SMTP parameters** act as filters applied for a blocking rule.
+**DKIM (DomainKeys Identified Mail)** email authentication signing is done by the Enhanced MTA for all messages with all domains. It does not sign with **Sender ID**, **DomainKeys**, or **S/MIME** unless otherwise specified at the Enhanced MTA level.
 
-* You can choose whether or not to activate certain identification standards and encryption keys to check the domain name, such as **Sender ID**, **DomainKeys**, **DKIM**, and **S/MIME**.
-* **SMTP relay**: lets you configure the IP address and the port of a relay server for a particular domain.-->
+### MX management {#mx-management}
 
->[!IMPORTANT]
->
->拡張MTAにアップグレードすると、Adobe Campaignル **[!UICONTROL Domain management]** ールは使用されなくなります。
+The MX rules are now managed by the Adobe Campaign Enhanced MTA. The Adobe Campaign **[!UICONTROL MX management]** delivery throughput rules are no longer used.
 
-**DKIM(DomainKeys Identified Mail)電子メール認証の署名は** 、すべてのドメインを持つすべてのメッセージに対して拡張MTAによって行われます。 拡張MTAレベルで特に指定され **ていない限り、** Sender ID **、** DomainKeys **、** S/MIMEを使用して署名することはできません。
-
-Adobe Campaign Enhanced MTA について詳しくは、この[ドキュメント](https://helpx.adobe.com/jp/campaign/kb/campaign-enhanced-mta.html)を参照してください。
-
-### MX 管理 {#mx-management}
-
-<!--The MX management rules are used to regulate the flow of outgoing emails for a specific domain. They sample the bounce messages and block sending where appropriate.
-
-The Adobe Campaign messaging server applies rules specific to the domains, and then the rules for the general case represented by an asterisk in the list of rules.
-
-To configure MX management rules, simply set a threshold and select certain SMTP parameters. A **threshold** is a limit calculated as an error percentage beyond which all messages towards a specific domain are blocked.-->
-
->[!IMPORTANT]
->
->拡張MTAにアップグレードすると、Adobe Campaign **[!UICONTROL MX management]** 配信のスループットルールは使用されなくなります。
-
-Enhanced MTA は独自の MX ルールを使用します。これにより、独自の E メールレピュテーション履歴および E メールを送信しているドメインから送信されるリアルタイムのフィードバックに基づいて、スループットをドメインごとにカスタマイズすることができます。
-
-Adobe Campaign Enhanced MTA について詳しくは、この[ドキュメント](https://helpx.adobe.com/jp/campaign/kb/campaign-enhanced-mta.html)を参照してください。
-
-<!--Each rule defines an address mask for the MX. Any MX whose name matches this mask is therefore eligible. The mask can contain "&#42;" and "?" generic characters.
-
-For example, the following addresses:
-
-* a.mx.yahoo.com 
-* b.mx.yahoo.com 
-* c.mx.yahoo.com
-
-are compatible with the following masks:
-
-* &#42;.yahoo.com
-* ?.mx.yahoo.com
-
-These rules are applied in sequence: the first rule whose MX mask is compatible with the targeted MX is applied.
-
-The following parameters are available for each rule:
-
-* **[!UICONTROL Range of IDs]**: this option lets you indicate the ranges of identifiers (publicId) for which the rule applies. You can specify:
-
-    * A number: the rule will only apply to this publicId.
-    * A range of numbers (number1-number2): the rule will apply to all publicIds between these two numbers.
-
-  If the field is empty, the rule applies to all IDs.
-
-* **[!UICONTROL Shared]**: this option indicates that the highest number of messages per hour and of connections applies to all MXs linked to this rule. 
-* **[!UICONTROL Maximum number of connections]**: maximum number of simultaneous connections to an MX from a given address. 
-* **Maximum number of messages**: maximum number of messages that can be sent by one connection. After this amount, the connection is closed and a new one is reopened. 
-* **[!UICONTROL Messages per hour]**: maximum number of messages that can be sent in one hour for an MX via a given address.
-
->[!IMPORTANT]
->
->* The delivery server (MTA) must be restarted if the parameters have been changed. 
->* The modification or creation of management rules is for expert users only. -->
+The Enhanced MTA uses its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you are sending emails.-->
 
 ## 電子メールプロパティのリスト {#list-of-email-properties}
 
@@ -201,9 +156,9 @@ The following parameters are available for each rule:
 
 一時的に配信できなかったメッセージは、自動再試行の対象となります。For more on this, see [Retries after a delivery temporary failure](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
->[!IMPORTANT]
+>[!NOTE]
 >
->拡張MTAの [Adobe Campaignにアップグレード](https://helpx.adobe.com/jp/campaign/kb/campaign-enhanced-mta.html)すると、 **再試行の** キャンペーン設定は無視されます。 IPの **[!UICONTROL Retry period]****[!UICONTROL Max. number of retries]** 再試行(再試行間の最小遅延)と拡張MTA（送信開始後の1日の最小遅延）は、IPの動作履歴と現在の動作状況に基づいて、拡張MTAによって管理されます。
+>再試行間の最小遅延時間と実行される再試行の最大数は、IPが特定のドメインでどの程度履歴的に、現在どの程度のパフォーマンスを発揮しているかに基づいて、Adobe Campaign拡張MTAで管理されるようになりました。 キャンペーン **再試行** の設定は無視されます。
 
 <!--This section indicates how many retries should be performed the day after the send is started ( **[!UICONTROL Max. number of retries]** ) and the minimum delay between retries ( **[!UICONTROL Retry period]** ).
 
@@ -211,7 +166,7 @@ By default, five retries are scheduled for the first day with a minimum interval
 
 The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template.-->
 
-Momentumは、キャンペーンで( [Validity period parametersセクションで定義される](#validity-period-parameters) )配信期間設定を順守しますが、最大3.5日間です。 この時点で、再試行キュー内のメッセージがキューから削除され、バウンスとして返されます。 配信障害の詳細については、この節を参照し [てくださ](../../sending/using/understanding-delivery-failures.md#about-delivery-failures)い。
+キャンペーン **で設定した配信期間** ( [Validity periods](#validity-period-parameters) ( **Validity perameters)セクションで定義)は、引き続き適用されますが、3.5日までです**。 この時点で、再試行キュー内のメッセージがキューから削除され、バウンスとして返されます。 配信障害の詳細については、この節を参照し [てくださ](../../sending/using/understanding-delivery-failures.md#about-delivery-failures)い。
 
 #### E メールフォーマットパラメータ {#email-format-parameters}
 
@@ -260,7 +215,7 @@ SMTPの設定について詳しくは、「電子メールSMTPパラメータの
 
    >[!IMPORTANT]
    >
-   >Adobe Campaign拡張MTAにアップグレ [ードした後は](https://helpx.adobe.com/jp/campaign/kb/campaign-enhanced-mta.html)、キャンペーン配信 **[!UICONTROL Delivery duration]** のパラメーターは、3.5日以下に設定した場合にのみ使用されます。 3.5 日を超える値を定義した場合、その値は考慮されません。
+   >このパラメーターは、拡張MTAAdobe Campaignで管理されます。 **3.5日までの値を定義する必要があります。** 3.5 日を超える値を定義した場合、その値は考慮されません。
 
 * **[!UICONTROL Resource validity duration]** / **[!UICONTROL Validity limit date for resources]**:このフィールドは、主にリソースと画像のアップロード済みリソースに使用されるミラーページです。 ディスクスペースを節約するために、このページ上のリソースが有効な期間は限られています。
 * **[!UICONTROL Mirror page management]**:ミラーページは、Webブラウザーを介してオンラインでアクセスできるHTMLページです。 内容は電子メールの内容と同じです。 デフォルトでは、ミラーページは、リンクがメールコンテンツに挿入された場合に生成されます。 このフィールドでは、このページの生成方法を変更できます。
