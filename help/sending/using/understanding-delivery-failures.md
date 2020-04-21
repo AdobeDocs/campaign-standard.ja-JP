@@ -12,7 +12,7 @@ discoiquuid: 38452841-4cd4-4f92-a5c3-1dfdd54ff6f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f1db8c886e560fe3f57d589b7fc2f2c2c1656f76
+source-git-commit: c1287a360cdd1750996b47a27b85a11e90b29df0
 
 ---
 
@@ -25,7 +25,9 @@ source-git-commit: f1db8c886e560fe3f57d589b7fc2f2c2c1656f76
 
 >[!NOTE]
 >
->**電子メール** エラーメッセージ（「バウンス」）は、拡張MTA（同期バウンス）またはinMailプロセス（非同期バウンス）で修飾されます。 **SMS エラーメッセージ（ステータスレポートを表す「SR」）は MTA プロセスによって評価されます。**
+>**電子メール** エラーメッセージ（「バウンス」）は、拡張MTA（同期バウンス）またはinMailプロセス（非同期バウンス）で修飾されます。
+>
+>**SMS エラーメッセージ（ステータスレポートを表す「SR」）は MTA プロセスによって評価されます。**
 
 アドレスが強制隔離されているか、プロファイルがブラックリストに登録されている場合、配信準備の際にメッセージを除外することもできます。除外されたメッセージは、配信 **[!UICONTROL Exclusion logs]** ダッシュボードのタブに表示さ [れます](../../sending/using/monitoring-a-delivery.md#exclusion-logs)。
 
@@ -80,13 +82,13 @@ source-git-commit: f1db8c886e560fe3f57d589b7fc2f2c2c1656f76
 
 無視タイプの一時的なエラーが原因でメッセージが失敗し **た場合** 、再試行期間中に配信が実行されます。 エラーのタイプについて詳しくは、「 [配信エラーのタイプと理由](#delivery-failure-types-and-reasons)」を参照してください。
 
-拡張MTAの [Adobe Campaignにアップグレード](https://helpx.adobe.com/jp/campaign/kb/campaign-enhanced-mta.html)すると、 **再試行の** キャンペーン設定は無視されます。 再試行の数(送信開始後の1日に実行する再試行の数)と再試行間の最小遅延は、IPが特定のドメインで過去に実行され、現在どの程度のパフォーマンスを示しているかに基づいて、拡張MTAで管理されます。
+再試行の数(送信開始後の1日に実行する再試行の数)と再試行間の最小遅延は、IPが特定のドメインでどの程度過去に実行され、現在どの程度のパフォーマンスを示しているかに基づいて、Adobe Campaign拡張MTAで管理されるようになりました。 **再試行** 設定は無視されます。
 
 配信の期間を変更するには、配信または配信テンプレートの詳細パラメーターに移動し、「有効期間」セクシ **[!UICONTROL Delivery duration]** ョンのフィールド [を編集し](../../administration/using/configuring-email-channel.md#validity-period-parameters) ます。
 
 >[!IMPORTANT]
 >
->Adobe Campaign拡張MTAにアップグレ [ードした後は](https://helpx.adobe.com/jp/campaign/kb/campaign-enhanced-mta.html)、キャンペーン配信 **[!UICONTROL Delivery duration]** のパラメーターは、3.5日以下に設定した場合にのみ使用されます。 3.5 日を超える値を定義した場合、その値は考慮されません。
+>**キャンペーン&#x200B;**[!UICONTROL Delivery duration]**配信内のパラメーターは、3.5日以下に設定した場合にのみ使用されるようになりました。** 3.5日を超える値を定義した場合、この値はAdobe Campaign拡張MTAで管理されるようになったので、考慮されません。
 
 例えば、配信の再試行を1日後に停止する場合、配信期間を **1d**&#x200B;に設定すると、拡張MTAは1日後に再試行キュー内のメッセージを削除することで、この設定を受け入れます。
 
@@ -105,19 +107,13 @@ source-git-commit: f1db8c886e560fe3f57d589b7fc2f2c2c1656f76
 
 ## バウンスメール強制隔離 {#bounce-mail-qualification}
 
-<!--Delivery failure error messages (or "SMTP bounce responses") are picked up by the Adobe Campaign platform and then processed and qualified as **Hard**, **Soft**, or **Ignored** using the **[!UICONTROL Delivery log qualification]** database.
-
-//Delivery failure error messages (or "bounces") are picked up by the Adobe Campaign platform and qualified by the inMail process to enrich the list of email management rules.(applies to asynchronous (out-of-band) bounces)
-
-This list is available to administrators only and contains all the rules used by Adobe Campaign to qualify delivery failures.-->
-
->[!IMPORTANT]
->
->拡張MTAにアップグレードすると、キャンペーン表の直帰 **[!UICONTROL Message qualification]** 条件は使用されなくなります。
-
-同期配信障害のエラーメッセージの場合、拡張MTAはバウンスのタイプと条件を決定し、その情報をキャンペーンに返します。 Adobe Campaign Enhanced MTA について詳しくは、この[ドキュメント](https://helpx.adobe.com/jp/campaign/kb/campaign-enhanced-mta.html)を参照してください。
+同期配信障害のエラーメッセージの場合、拡張MTAはバウンスのタイプと条件を決定し、その情報をキャンペーンに返します。
 
 非同期バウンスは、inMailプロセスでもルールを通じて認定さ **[!UICONTROL Inbound email]** れます。 これらのルールにアクセスするに **[!UICONTROL Adobe Campaign]** は、左上のロゴをクリックし、を選択 **[!UICONTROL Administration > Channels > Email > Email processing rules]** して選択しま **[!UICONTROL Bounce mails]**&#x200B;す。 For more on this rule, refer to this [section](../../administration/using/configuring-email-channel.md#email-processing-rules).
+
+>[!NOTE]
+>
+>バウンスのメールの資格は、拡張MTAAdobe Campaignで管理されました。 キャンペーンテーブルの直帰 **[!UICONTROL Message qualification]** 条件は使用されなくなりました。
 
 <!--Bounces can have the following qualification statuses:
 
