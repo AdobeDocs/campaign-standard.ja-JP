@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a09d82ae6fa77bb94550e533aa8fb63b463cd28c
+source-git-commit: 09c7f365969fe415f1bcdcc57e7cfbb9ed99b521
 
 ---
 
@@ -44,6 +44,10 @@ Experience Cloud IDサービス(ECID)に関する情報が、Adobe Experience Pl
 「削除」トランザクションメッセージの節が強化され、明確になりました。 [詳細を表示](../../channels/using/event-transactional-messages.md#deleting-a-transactional-message)
 
 「プレビュー **配信** 」の節は更新され、モバイル配信の例が追加されました。[詳細を表示](../../sending/using/previewing-messages.md)
+
+トランザクションメッセージングと未使用のリアルタイムメッセージの削除に関するベストプラクティスが追加されました。イベント [詳細を表示](../../administration/using/configuring-transactional-messaging.md#creating-an-event)
+
+「電子メールチャネルの設定」セクションが更新され、拡張MTAAdobe Campaignで管理されるすべての電子メール設定についての説明が追加されました。 [詳細を表示](../../administration/using/configuring-email-channel.md)
 
 ## リリース20.2 - 2020年4月 {#release-20-2---april-2020}
 
