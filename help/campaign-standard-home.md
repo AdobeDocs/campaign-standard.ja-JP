@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Adobe Campaign Standard 製品ドキュメント
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 7d359430748eea1210b04c151b4a89b6e99f0c11
+source-git-commit: 5b6eff73d0abd9601b7ac1ca4d63bd8e78d8493b
 
 ---
 
@@ -50,12 +50,11 @@ source-git-commit: 7d359430748eea1210b04c151b4a89b6e99f0c11
     <br>
   </td>
   <td valign="top">
-       <img alt="開発者" src="start/using/assets/dev.png" />
-    <div>
-    <strong>開発者向けリソース</strong>
+       <img alt="サポート" src="start/using/assets/do-not-localize/help.jpeg" />
+    <div><a href="https://helpx.adobe.com/campaign/kb/ac-support.html">
+    サポー <strong>トを受ける</strong></a>
     </div>
-    <p><em><a href="api/using/about-campaign-standard-apis.md">Adobe Campaign API</a></em></p>
-    <p><em><a href="integrating/using/about-adobe-experience-cloud-triggers.md">Adobe Experience Cloud Triggers</a></em></p>
+    <p><em>FAQ、ベストプラクティス、ヘルプリソース、およびキャンペーンエキスパートとの連絡</em></p>
     <br>
   </td>
 </tr>
@@ -65,9 +64,9 @@ source-git-commit: 7d359430748eea1210b04c151b4a89b6e99f0c11
 
 | 役に立つページ | 開発者向けリソース |
 |---|---|
-| [リリースノート](rn/using/release-notes.md) | [実装ガイド](https://helpx.adobe.com/jp/campaign/kb/campaign-standard-implementation-guide.html) |
+| [リリースノート](rn/using/release-notes.md) | [Experience Cloudトリガー](integrating/using/about-adobe-experience-cloud-triggers.md) |
 | [コントロールパネルのドキュメント](https://docs.adobe.com/content/help/ja-JP/control-panel/using/control-panel-home.translate.html) | [キャンペーンAPI](api/using/about-campaign-standard-apis.md) |
-| [ハウツービデオ](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) | [エラーリスト](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
+| [実装ガイド](https://helpx.adobe.com/jp/campaign/kb/campaign-standard-implementation-guide.html) | [エラーリスト](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [リリース計画](rn/using/release-planning.md) | [キャンペーンデータモデル](developing/using/datamodel-introduction.md) |
 | [廃止および削除された機能](https://helpx.adobe.com/jp/campaign/kb/acs-deprecated-and-removed-features.html) | [マルチソリューションガイド](integrating/using/about-campaign-integrations.md) |
 | [はじめにCampaign Standard](start/using/campaign-orchestration.md) | [テクニカルノート](https://helpx.adobe.com/jp/campaign/kb/acs-article-list.html) |
