@@ -4,7 +4,7 @@ sub-product: Adobe Campaign Standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard ヘルプ
 translation-type: tm+mt
-source-git-commit: 79dcfb4f2e58314f3c2eafb9443d5e3da2028203
+source-git-commit: e92cb80e6a3a37578899081d601654eb64a6dfed
 
 ---
 
@@ -96,6 +96,9 @@ source-git-commit: 79dcfb4f2e58314f3c2eafb9443d5e3da2028203
       + [多言語プッシュ通知の作成](channels/using/creating-a-multilingual-push-notification.md)
       + [多言語プッシュ通知用のCSVファイルの生成](channels/using/generating-csv-multilingual-push.md)
       + [モバイルアプリケーションデータに基づくプロファイル情報の作成と更新](channels/using/updating-profile-with-mobile-app-data.md)
+      + [プッシュ追跡の実装](channels/using/push-tracking.md)
+      + [画像標準のプッシュ通知からのAdobe Campaignの表示](channels/using/image-push-notification.md)
+      + [Campaign Standardプッシュ通知のペイロード構造について](channels/using/push-payload.md)
    + アプリ内メッセージ{#in-app-messaging}
       + [アプリ内メッセージについて](channels/using/about-in-app-messaging.md)
       + [アプリ内メッセージの準備と送信](channels/using/preparing-and-sending-an-in-app-message.md)
