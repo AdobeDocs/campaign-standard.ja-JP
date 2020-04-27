@@ -13,7 +13,7 @@ context-tags: seedMember,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d5476cc6a93aac9805a3b471923bfffa8043a876
+source-git-commit: b44e4e7e6b48ebc5c618b014eacfc9909bc2661e
 
 ---
 
@@ -69,6 +69,10 @@ source-git-commit: d5476cc6a93aac9805a3b471923bfffa8043a876
 
    特定のプレフィックスを配達確認の件名行に追加する場合は、フィールドに入力し **[!UICONTROL Subject line prefix]** ます。
 
+   >[!NOTE]
+   >
+   >件名行のプレフィックスは500文字まで含めることができます。
+
    ![](assets/substitution_address.png)
 
    プレフィックスは次のように表示されます。
@@ -116,6 +120,10 @@ Campaign Standardを使用すると、テストに使用できるオーディエ
    ![](assets/substitution_audience_import.png)
 
 1. 使用するオーディエンスを選択し、置換アドレスと、オーディエンスに送信する配達確認の接頭辞を入力します。
+
+   >[!NOTE]
+   >
+   >件名行のプレフィックスは500文字まで含めることができます。
 
    ![](assets/substitution_audience_define.png)
 
