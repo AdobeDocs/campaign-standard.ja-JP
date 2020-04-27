@@ -12,7 +12,7 @@ discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 546c79b4b9a2b1fdeeee69aee2ed85fa00279609
+source-git-commit: 50991e9b376be5e706d2e8d8dcfa8c3677651281
 
 ---
 
@@ -49,7 +49,7 @@ Adobe Campaignは、豊富な顧客プロファイルをリアルタイムで作
 
 ## プライバシーコンプライアンス
 
-Adobe Campaignオファーは、GDPR、CCPA、その他のプライバシーに関する法律に関するプライバシー・コンプライアンスを支援するツールのセットです。 この記事では、プライバシー [管理](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy.html) 、およびアクセス権、忘れ去られる権利、同意、データ保持、ユーザーの役割を管理するために提供される機能について詳しく説明します。 また、アドビのサービスを利用する際にプライバシーコンプライアンスに関するベストプラクティスもご覧いただけます。
+Adobe Campaignオファーは、GDPR、CCPA、その他のプライバシーに関する法律に関するプライバシー・コンプライアンスを支援するツールのセットです。 この記事では、プライバシー [管理](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy.html) 、およびアクセス権、忘れ去られる権利、同意、データ保持、ユーザーの役割を管理するために提供される機能について詳しく説明します。 また、アドビのサービスを利用する際に、プライバシーコンプライアンスに関するベストプラクティスもご覧いただけます。
 
 ## 関連トピック
 
