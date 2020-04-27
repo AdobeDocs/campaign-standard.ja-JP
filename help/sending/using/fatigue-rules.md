@@ -12,7 +12,7 @@ discoiquuid: 4337a80b-0fb9-4a37-bce3-fe2121a66586
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3b40a9bba79d04f1635b7522cfc99f9e7566c3c0
+source-git-commit: bebe6df66c9a87db882d03b36c72ebdae3085245
 
 ---
 
@@ -32,8 +32,8 @@ source-git-commit: 3b40a9bba79d04f1635b7522cfc99f9e7566c3c0
 関連トピック：
 
 * [準備](../../administration/using/configuring-email-channel.md#preparation)
-* [タイポロジの管理](../../sending/using/about-typology-rules.md#managing-typologies)
-* [タイポロジルール](../../sending/using/about-typology-rules.md#typology-rules)
+* [タイポロジの管理](../../sending/using/managing-typologies.md)
+* [タイポロジルール](../../sending/using/managing-typology-rules.md)
 * [接触疲労を防ぐための通信頻度の最適化](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
 
 ## Creating a fatigue rule {#creating-a-fatigue-rule}
@@ -166,7 +166,7 @@ To create and configure a **[!UICONTROL Fatigue]** typology rule, apply the foll
 
 例えば、48時間の期間を定義した場合、連絡日の48時間前と **48時間後** が表示さ **れます**。 したがって、選択した期間が2倍になり、今後の期間と以前の配信との統合が可能になります。
 
-考慮する配信を2週間の期間に制限するには、「引 **違い期間** 」セクションに **「日」と「7週間」または「1週間****** 」と入力します。 配信は、配信日の7日前までに送信され、ルールが適用される配信日の7日後までにスケジュールされます。
+考慮する配信を2週間の期間に制限するには、「 **Sliding** period **」セクションに「Day** 」と「 **7** 」または「1週間」と入力します。 配信は、配信日の7日前までに送信され、ルールが適用される配信日の7日後までにスケジュールされます。
 
 ## 疲労結果の表示 {#viewing-the-fatigue-results}
 
@@ -247,7 +247,7 @@ Adobe Campaignには、疲労ルールがどのようにキャンペーンに適
 
 * 疲労ルールを作成し、しきい値 **を絞り込みます** (プロファイルと配信)。
 
-   [スコア]フィールドを使用してプロファイルリソースを拡張し、[タイプ]フィールドを使用して配信リソースを拡張しました。 一定のしきい値を3に定義し、「アラート」または「ブラックフライデー」タイプのすべての配信と、スコアが10を超えるすべてのプロファイルをカウントから除外する場合。 ルールを実行すると、過去の配信とスケジュールされた配信の中で、スコアが10未満のプロファイルに送信された「アラート」または「黒金曜日」以外のすべてのがカウントされます。
+   [スコア]フィールドを使用してプロファイルリソースを拡張し、[タイプ]フィールドを使用して配信リソースを拡張しました。 一定のしきい値を3に定義し、「アラート」または「黒金曜日」タイプのすべての配信と、スコアが10より大きいすべてのプロファイルをカウントから除外する場合。 ルールを実行すると、過去の配信とスケジュールされた配信の中で、スコアが10未満のプロファイルに送信された「アラート」または「黒金曜日」以外のすべてのがカウントされます。
 
    ![](assets/fatigue26.png)
 
