@@ -1,6 +1,6 @@
 ---
 title: データモデルの概要
-description: Adobe Campaignデータモデルについて説明します。
+description: データモデルについてAdobe Campaignします。
 uuid: cacd563f-6936-4b3e-83e3-5d4ae31d44e8
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
@@ -11,19 +11,29 @@ context-tags: cusResource,overview;eventCusResource,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51a3faaf839a678aeb99c533f0f67f103c7913d6
+source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
 
 ---
 
 
-# データモデルの概要{#data-model-introduction}
+# データモデルの説明{#data-model-introduction}
 
 Adobe Campaignには、事前定義されたデータモデルが付属しています。
 
-Adobe Campaign Standardデータモデルには、一連のマーケティング関連リソースのSQL構造があらかじめ用意されています。
+Adobe Campaign標準データモデルには、マーケティング関連の一連のリソースの組み込みのSQL構造が表示されます。
 
-このコンテンツは、コンサルタントサービスまたは開発者を対象としています。
+このセクションは、キャンペーンの専門家または開発者を対象としています。
 
-各リソースに対して、テーブルには、内部名、タイプ、および列挙の詳細など、使用可能な特性を持つSQLフィールドが表示されます。 第2部では、リソースに関連付けられた標準のフィルタを導入します。 各フィルターには、パラメーターリストが付属しています。
+各リソースのサブページには、次のような使用可能な特性を持つSQLフィールドをリストするテーブルがあります。内部名、タイプ、定義済みリストの詳細 リソースに関連付けられた組み込みフィルターも表示されます。 各フィルターには、パラメーターリストがあります。
 
-このデータモデルは、既存のリソースに [新しい](../../administration/using/users-management.md#functional-administrators) 、または拡張機能を追加できる管理者が変更できます。
+>[!NOTE]
+>キャンペーンデータモデルは、管理者のみが [変更で](../../administration/using/users-management.md#functional-administrators) きます。
+
+## 関連トピック{#data-model-related}
+
+| 役に立つページ | その他のリソース |
+|---|---|
+| [データモデルの概要](data-model-concepts.md) | [プロファイルリソース](extending-the-profile-resource-with-a-new-field.md) |
+| [データモデルのベストプラクティス](data-model-best-practices.md) | [購読リソース](extending-the-subscriptions-to-an-application-resource.md) |
+| [追加新資源](key-steps-to-add-a-resource.md) | [プロファイルAPIの拡張](about-extending-the-api.md) |
+| [リソースの作成または拡張](creating-or-extending-the-resource.md) | [複合キーを使用してリソースを呼び出す](uc-calling-resource-id-key.md) |
