@@ -1,6 +1,6 @@
 ---
 title: データモデルの概念
-description: Adobe Campaignデータモデルとその変更方法について説明します。
+description: Adobe Campaignデータモデルとその変更方法を説明します。
 page-status-flag: never-activated
 uuid: cacd563f-6936-4b3e-83e3-5d4ae31d44e8
 contentOwner: sauviat
@@ -13,31 +13,31 @@ context-tags: cusResource,overview;eventCusResource,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1deeead4ad311fd3ba3a5e9d27a67d3a1dadf3d2
+source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
 
 ---
 
 
 # データモデルの概念{#data-model-concepts}
 
-Adobe Campaignには、事前定義されたデータモデルが付属しています。 このデータモデルは、既存のリソースに [新しいリソース](../../administration/using/users-management.md#functional-administrators) や拡張機能を追加できる管理者が変更できます。
+Adobe Campaignには、事前定義されたデータモデルが付属しています。 このデータモデルは、既存のリソースに [新しい](../../administration/using/users-management.md#functional-administrators) 、または拡張機能を追加できる管理者が変更できます。
 
 >[!CAUTION]
 >
->リソースの作成と変更は機密性の高い操作で、エキスパートユーザーのみが実行する必要があります。
+>リソースの作成と変更は、機密性の高い操作で、エキスパートユーザーのみが実行する必要があります。
 
-Adobe Campaignロゴを介してアクセスする **[!UICONTROL Administration]**>**[!UICONTROL Development]** > **>**（メニュー）を使用すると、カスタムリソースの管理 **、発行** 、診断ツ ****&#x200B;ールへのアクセスが可能です。
+Adobe Campaign **[!UICONTROL Administration]** のロゴを **[!UICONTROL Development]** 介してアクセスする>メニューを使用すると、カスタムリソースの管理、公開 ******、診断ツールへのアク******&#x200B;セスが可能です。
 
-Adobe Campaignで使用されるデータは、様々なリソースを通じて定義されます。 独自のカス **タムリソース(購入表や製品表** )を作成することで提供されるデータテンプレートを拡張できます。
+Adobe Campaignが使用するデータは、様々なリソースを通じて定義されます。 独自のカス **タムリソース(購入表** 、製品表など)を作成することで提供されるデータテンプレートを拡張できます。
 
-そのまま使用できるリソース（キャンペーン、電子メール、オーディエンスなど）は変更できません。 ただし、カスタムリソースを拡張して新しいフィールドを追加することはできます。
+組み込みリソース(キャンペーン、電子メール、オーディエンスなど)は変更できません。 ただし、カスタムリソースを拡張して新しいフィールドを追加することはできます。
 
-拡張機能フィールドは、あらかじめ用意されているフィールドと競合しないように、プレフィックス付きで生成されます。
+拡張フィールドは、組み込みフィールドと競合しないように、プレフィックス付きで生成されます。
 
 >[!NOTE]
 >
->あらかじめ用意されているリソースのデータモデル表現は、こちらで確認で [きます](../../developing/using/datamodel-introduction.md)。
+>このページには、組み込みリソースのデータモデル表現が表 [示されます](../../developing/using/datamodel-introduction.md)。
 
-また、作成したリソ **ースに対応する画面で** 、ナビゲーションを設定することもできます。
+また、作成したリ [ソースに対応する](configuring-the-screen-definition.md) 画面でナビゲーションを設定することもできます。
 
-例えば、開発環境から実 **稼働環境へのカスタム** ・リソースのエクスポートやインポートが可能です。 詳しくは、この使用例 [を参照してください](../../automating/using/exporting-importing-custom-resources.md)。
+カスタムリソースの書き **出しや読み込みは** 、例えば開発から実稼働環境へと行えます。 詳しくは、この使用例 [を参照してください](../../automating/using/exporting-importing-custom-resources.md)。
