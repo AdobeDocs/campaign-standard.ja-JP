@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 86302762a46a814ecc9b14a5fe1bfe1a4a4e0437
+source-git-commit: b4cbc56973a57cde8af6cefa9ff89c7d29ab7b79
 
 ---
 
@@ -70,6 +70,9 @@ source-git-commit: 86302762a46a814ecc9b14a5fe1bfe1a4a4e0437
 
 * ターゲットプロファイルを使用してメッセージをテストする **ために** 、「プレフィックス」フ [ィールドで使用できる文字数が](../../sending/using/testing-messages-using-target.md) 、32文字から500文字に増えました。
 * インスタンスに対して発行できるリアルタイムイベントの最大数が350から2000に増加しました。 (CAMP-41608)
+* Adobe LaunchとCampaign Standardの同期が、syncWithLaunch技術ワークフローを使用して改善されました。 このワークフローを使用すると、Adobe LaunchのすべてのモバイルプロパティをAdobe Standardに自動的にインポートするAdobe Campaignが可能です。 詳しくは、[このページ](../../administration/using/technical-workflows.md)を参照してください。
+
+   お使いのキャンペーンインスタンスでsyncWithLaunch技術ワークフローを有効にするには、チケットを（直接またはアドビの担当者を通じて）アドビカスタマーケアに送信する必要があります。 (CAMP-40082)
 
 **電子メールデザイナーの機能強化**
 
