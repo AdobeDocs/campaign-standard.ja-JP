@@ -1,6 +1,6 @@
 ---
 title: 設定のガイドラインについて
-description: Campaign Standardの設定ガイドラインについて説明します。
+description: Campaign Standard設定のガイドライン
 page-status-flag: never-activated
 uuid: 64c34729-5c98-4db0-9131-af6dd0e78fb4
 contentOwner: sauviat
@@ -12,15 +12,15 @@ discoiquuid: 5587530a-2308-4be1-9f56-19eeb7a924d5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d5a77a681a20d5e7bea73b52c994137d4a61f78d
+source-git-commit: 3cd089751423d9e165b1d44425b1fdfd20b62546
 
 ---
 
 
 # 設定のガイドラインについて{#about-configuration-guidelines}
 
-この節では、Adobe Campaign Standardの様々な設定ガイドラインを再度グループ化します。
+この節では、Adobe Campaign標準の様々な設定ガイドラインをまとめます。
 
-キャンペーン標準と互換性のあるブラウザーと、タブレット用にサポートされている各種オペレーティングシステムを確認します。
+どのブラウザーがタブレット用にサポートされているCampaign Standardーと互換性があるか、および各種のオペレーティングシステムを確認します。 詳しくは、[この節](../../administration/using/compatible-browsers.md)を参照してください。
 
-また、キャンペーン標準で使用される様々なエンドポイントについても説明します。
+また、使用される様々なエンドポイントについてもCampaign Standardします。 詳しくは、[この節](../../administration/using/campaign-standard-network-endpoints.md)を参照してください。
