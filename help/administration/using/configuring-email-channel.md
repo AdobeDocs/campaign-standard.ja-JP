@@ -13,14 +13,14 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9b632bdd9d2546b40fd00cc4ef8800dd88fa55de
+source-git-commit: 3cd089751423d9e165b1d44425b1fdfd20b62546
 
 ---
 
 
 # 電子メールチャネルの設定{#configuring-email-channel}
 
-キャンペーン管理者 [は](../../administration/using/about-administrating-adobe-campaign.md)、電子メールチャネル設定を行えます。 これらの詳細設定には、一般的な電子メールチャネルパラメーター、電子メールルーティングアカウント、電子メール処理ルールおよび電子メールプロパティが含まれます。 このページでは、一般的な電子メールのデフォルト値を編集し、パラメーターを送信する方法について説明します。
+キャンペーン管理者 [は](../../administration/using/users-management.md#functional-administrators)、電子メールチャネル設定を行えます。 これらの詳細設定には、一般的な電子メールチャネルパラメーター、電子メールルーティングアカウント、電子メール処理ルールおよび電子メールプロパティが含まれます。 このページでは、一般的な電子メールのデフォルト値を編集し、パラメーターを送信する方法について説明します。
 
 一部の電子メール設定は、拡張MTAAdobe Campaignで管理されます。 したがって、
 * キャンペーンユーザーインターフェイスの一部の設定が適用されなくなりました。
@@ -273,7 +273,7 @@ SMTPの設定について詳しくは、「電子メールSMTPパラメータの
 
    >[!NOTE]
    >
-   >//メニューからアクセスできるタ **[!UICONTROL Administration]** イポロ **[!UICONTROL Channels]** ジは **[!UICONTROL Typologies]** 、「タイポロジ」セクションに表 [示され](../../sending/using/about-typology-rules.md) ます。
+   >この節では、>/メニューからア **[!UICONTROL Administration]** クセス **[!UICONTROL Channels]** で **[!UICONTROL Typologies]** きるタイポロジを示 [します](../../sending/using/about-typology-rules.md)。
 
 * **[!UICONTROL Compute the label during delivery preparation]**:メッセージ、コンテンツブロック、ダイナミックテキストを使用して、メッセージの準備段階での電子メールのパーソナライゼーションフィールド値を計算できます。
 
