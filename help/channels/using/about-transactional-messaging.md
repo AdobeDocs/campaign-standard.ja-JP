@@ -12,7 +12,7 @@ discoiquuid: 71a4d5d5-fe2a-4ce5-b22b-a4736f7add83
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 72366d56e21933bcd79e907e5f8d5a9ad5281725
+source-git-commit: f0f7441f06b51f9bd2d5a1b3c26f031d4eb1e4c1
 
 ---
 
@@ -46,9 +46,9 @@ Adobe Campaignを使用すると、この機能を情報システムに統合し
 
 トランザクションメッセージングは、Adobe Campaign標準APIからも利用できます。 For more on this, refer to the [dedicated documentation](../../api/using/managing-transactional-messages.md).
 
->[!IMPORTANT]
+>[!NOTE]
 >
->すべてのトランザクションメッセージは、配信品質、スループット、バウンス処理を向上させるために、Adobe Campaign拡張MTAと共に送信されるようになりました。 すべての影響は、標準のマーケティングメッセージと同じです。
+>すべてのトランザクションメッセージは、配信品質、スループット、バウンス処理を向上させるために、Adobe Campaign拡張MTAと共に送信されるようになりました。 すべての影響は、標準のマーケティングメッセージと同じです。 For more on this, see this [section](../../administration/using/configuring-email-channel.md).
 
 ## トランザクションメッセージングの動作原則 {#transactional-messaging-operating-principle}
 
@@ -109,7 +109,7 @@ Adobe Campaignを使用すると、買い物かごに製品を追加したサイ
 
 ### 権限とブランディング {#permissions-and-branding}
 
-ブランド管理に関しては、トランザク [ション](../../administration/using/branding.md) ・メッセージングを使用すると、標準的なメッセージングよりも柔軟性が低くなります。 アドビでは、組織単位にトランザクションメッセージで使用されているすべてのブランドをリン **[!UICONTROL All]** クするこ [とを推奨しま](../../administration/using/organizational-units.md)す。 詳しくは、以下の詳細な説明を参照してください。
+ブランド管理に関しては、トランザク [ション](../../administration/using/branding.md) ・メッセージングは標準のメッセージングよりも柔軟性が低くなります。 アドビでは、組織単位にトランザクションメッセージで使用されているすべてのブランドをリン **[!UICONTROL All]** クするこ [とを推奨しま](../../administration/using/organizational-units.md)す。 詳しくは、以下の詳細な説明を参照してください。
 
 トランザクションメッセージの編集時に、ブランドにリンクして、ブランド名やブランドロゴなどの一部のパラメーターを自動的に適用できます。 デフォル **[!UICONTROL Default brand]** トでは、このオプションはトランザクションメッセージプロパティで選択されます。
 
