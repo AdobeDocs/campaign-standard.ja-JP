@@ -12,7 +12,7 @@ discoiquuid: 7ddaf36c-74e6-4501-b3eb-3d03f005aaa6
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 396084934a41d103eecd6fe141c700c118000f75
+source-git-commit: ba1fcca02ce9582d85e57bde815ccf3f551ac7a3
 
 ---
 
@@ -60,7 +60,7 @@ source-git-commit: 396084934a41d103eecd6fe141c700c118000f75
 
 1. ルールタイプ **[!UICONTROL Filtering]** を選択し、目的のチャネルを指定します。
 
-1. 「 **[!UICONTROsLフィルタ条件]** 」タブで、購読を選択し **[!UICONTROL Subscription]** ます。
+1. タブで、 **[!UICONTROL Filtering criteria]** カテゴリ内のオプションを選択し **[!UICONTROL Subscription]** ます。
 
    ![](assets/typology_create-rule-subscription.png)
 
