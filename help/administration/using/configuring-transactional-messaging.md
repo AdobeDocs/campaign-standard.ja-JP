@@ -12,7 +12,7 @@ discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b47399a6867e636910e862f9cdcae638d6f9b4eb
+source-git-commit: 3cd089751423d9e165b1d44425b1fdfd20b62546
 
 ---
 
@@ -21,19 +21,21 @@ source-git-commit: b47399a6867e636910e862f9cdcae638d6f9b4eb
 
 トランザクションメッセージをAdobe Campaignと共に送信するには、まずデータの構造を記述する必要があります。
 
-イベントの設定は、次の手順に従っ **て** 、管理者が実行する必要があります。
+イベントの設定は、次の手順に従っ [て](../../administration/using/users-management.md#functional-administrators) 、管理者が行う必要があります。
 
-設定は、送信するトランザクションメッセージの種類によって異なります。 詳しくは、トランザクションイベント固有の設定 [を参照してください。](#transactional-event-specific-configurations)
+>[!NOTE]
+>
+>設定は、送信するトランザクションメッセージの種類によって異なります。 詳しくは、トランザクションイベント固有の設定 [を参照してください](#transactional-event-specific-configurations)。
 
 イベントが公開されると、対応するトランザクションメッセージが自動的に作成されます。 For more on transactional messaging, refer to [this page](../../channels/using/about-transactional-messaging.md).
 
 ## イベント {#creating-an-event}
 
-開始を作成します。
+作業を開始するには、ニーズに応じてイベントを作成します。
 
 >[!NOTE]
 >
->作成されたリアルタイムイベントの数は、プラットフォームに影響を与えます。 最適なパフォーマンスを得るために、不要になったリアルタイムイベントを必ず削除してください。 詳しくは、 [イベントの削除](../../administration/using/configuring-transactional-messaging.md#deleting-an-event)。
+>役割を持ち、組織単位の **[!UICONTROL Administration]** 一部であるユーザーのみが **[!UICONTROL All]**[](../../administration/using/organizational-units.md) 、ユーザー設定を作成する適切な権限を持っています。
 
 1. 左上隅 **[!UICONTROL Adobe Campaign]** のロゴをクリックし、//を **[!UICONTROL Marketing plans]** 選択し **[!UICONTROL Transactional messages]** ます **[!UICONTROL Event configuration]**。
 1. ボタンをクリッ **[!UICONTROL Create]** クします。
@@ -55,6 +57,10 @@ source-git-commit: b47399a6867e636910e862f9cdcae638d6f9b4eb
 
    イベントベースのトランザクションメッセージターゲットデータはイベント自体に含まれ、プロファイルベースのトランザクションメッセージターゲットデータはAdobe Campaignデータベースに含まれます。 詳しくは、トランザクションイベント固有の設定 [を参照してください](#transactional-event-specific-configurations)。
 
+>[!NOTE]
+>
+>作成されたリアルタイムイベントの数は、プラットフォームに影響を与えます。 最適なパフォーマンスを得るために、不要になったリアルタイムイベントを必ず削除してください。 詳しくは、 [イベントの削除](#deleting-an-event)。
+
 ## イベント属性の定義 {#defining-the-event-attributes}
 
 このセクシ **[!UICONTROL Fields]** ョンで、イベントコンテンツに統合され、トランザクションメッセージのパーソナライズに使用できる属性を定義します。
@@ -71,7 +77,7 @@ source-git-commit: b47399a6867e636910e862f9cdcae638d6f9b4eb
 
 要素のコレクションをイベントのコンテンツに追加し、各要素自体に複数の属性を含めることができます。
 
-このコレクションは、トランザクション用の電子メールで使用し、製品のリスト（価格、参照番号、数量など）をメッセージの内容に追加できます。 をリストの
+このコレクションは、トランザクション用の電子メールで [使用し](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message) 、製品のリスト（価格、参照番号、数量など）をメッセージの内容に追加できます。 をリストの
 
 1. セクション **[!UICONTROL Collections]** で、ボタンをクリック **[!UICONTROL Create element]** します。
 
@@ -84,6 +90,12 @@ source-git-commit: b47399a6867e636910e862f9cdcae638d6f9b4eb
 
    ![](assets/message-center_collection_fields.png)
 
+1. このタ **[!UICONTROL Enrichment]** ブでは、コレクションの各項目をリッチできます。 これにより、対応する製品リストの要素を、Adobe Campaignデータベースや作成した他のリソースの情報と共にパーソナライズできます。
+
+>[!NOTE]
+>
+>コレクションの要素を豊富にする手順は、「コレクションの豊富化」の節で説 [明した手順と同じです](#enriching-the-transactional-message-content) 。 コレクションを豊富にすると、イベントを豊富にすることはできません。セクション内のコレクション自体にエンリッチメントを追加する必要があ **[!UICONTROL Collections]** ります。
+
 イベントとメッセージが公開されると、このコレクションを自分のトランザクションメッセージで使用できます。
 
 次に、この例のAPIプレビューを示します。
@@ -95,9 +107,9 @@ source-git-commit: b47399a6867e636910e862f9cdcae638d6f9b4eb
 * [プレビューと公開イベント](#previewing-and-publishing-the-event)
 * [製品リストのトランザクションメッセージ](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message)
 
-## トランザクションメッセージ内容の強化 {#enriching-the-transactional-message-content}
+## イベント {#enriching-the-transactional-message-content}
 
-メッセージデータベースのトランザクションメッセージ内容をAdobe Campaignできるようにして、メッセージをパーソナライズできます。 例えば、各受信者の姓またはCRM IDから、住所や生年月日などのデータや、プロファイルテーブルに追加された他のカスタムフィールドなどのデータを回復して、送信する情報をパーソナライズできます。
+メッセージをパーソナライズするために、トランザクションメッセージのコンテンツをAdobe Campaignデータベースの情報で拡張できます。 例えば、各受信者の姓またはCRM IDから、住所や生年月日などのデータや、プロファイルテーブルに追加された他のカスタムフィールドなどのデータを回復して、送信する情報をパーソナライズできます。
 
 拡張された情報でトランザクションメッセージの内容を拡張できま **[!UICONTROL Profile and services Ext API]**&#x200B;す。 詳しくは、APIの拡張を参照 [してください。拡張機能の公開](../../developing/using/step-2--publish-the-extension.md)
 
