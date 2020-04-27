@@ -12,7 +12,7 @@ discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a1bc9d23163d12517c4501a572fc92aac6aacbc6
+source-git-commit: 50991e9b376be5e706d2e8d8dcfa8c3677651281
 
 ---
 
@@ -31,7 +31,7 @@ Campaign Standardオファーは、マーケティングデータベースの拡
 
 次の2種類のテンプレートを設定できます。
 
-* **ワークフローテンプレート**:これらは事前設定済みのワークフローで、必要に応じて1回設定すれば、データを読み込んでデータベースを更新するたびに再利用できます。
+* **ワークフローテンプレート**:これらは、必要に応じて一度設定し、データを読み込んでデータベースを更新するたびに再利用できる事前設定ワークフローです。
 
    データをインポートするワークフローテンプレートの例をこの節で [詳しく説明しま](../../automating/using/importing-data.md#example--import-workflow-template)す。
 
