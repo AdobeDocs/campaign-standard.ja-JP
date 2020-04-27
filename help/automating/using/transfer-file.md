@@ -13,7 +13,7 @@ context-tags: fileTransfer,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7f203ff0e635faf802a5577f761dc308dae4ab66
+source-git-commit: 3e90acaa1c2b3de2240f01e5dc3440be44e65eba
 
 ---
 
@@ -25,6 +25,11 @@ source-git-commit: 7f203ff0e635faf802a5577f761dc308dae4ab66
 ![](assets/file_transfer.png)
 
 この **[!UICONTROL Transfer file]** アクティビティを使用すると、ファイルの受信や送信、ファイルの有無のテスト、リストファイルのAdobe Campaign。
+
+>[!CAUTION]
+>
+>20.3リリース以降、アクティビティと共にダウンロードされたファイルは、 **[!UICONTROL Transfer File]** X日後に削除されます。Xは、Workflowプロパティのメニューの下のフ **[!UICONTROL History in days]** ィールド **[!UICONTROL Execution]** によって決定されます。
+
 
 ## 使用状況 {#context-of-use}
 
