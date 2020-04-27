@@ -12,7 +12,7 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b0bc6c45127f58b00ba89f66da159c8f212db80a
+source-git-commit: 37e86c6143c52841e69d610fa9db35dff70a3587
 
 ---
 
@@ -35,7 +35,7 @@ Adobe Campaign標準とMicrosoft Dynamics 365の統合のコンテキストで�
 
 カスタムエンティティの統合を設定するには、adobe-support@unifisoftware.comにアクセスし [て](mailto:adobe-support@unifisoftware.com) 、この処理をリクエストします。  Unifiでは、両方のシステムのカスタムエンティティテーブルの名前と、必要な属性マッピングが必要です。  その後、Unifiは対応するジョブとスケジュールを作成します。
 
-カスタムエンティティのサポートの使用例は、「使用事例」の節に [示されています](../../integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md#UC)。
+カスタムエンティティのサポートの使用例を以下に示します。
 
 >[!CAUTION]
 >
@@ -44,7 +44,6 @@ Adobe Campaign標準とMicrosoft Dynamics 365の統合のコンテキストで�
 
 
 ## 使用例
-
 
 ### 開始状態
 
@@ -179,5 +178,5 @@ Dynamics 365のこの顧客のカスタムエンティティは、Dynamics 365�
 
 **関連トピック**
 
-* Adobe Campaign標準の使用 — Microsoft Dynamics 365
-* カスタムリソースを追加するための主要な手順をキャンペーン
+* [Adobe Campaign標準の使用 — Microsoft Dynamics 365](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+* [カスタムリソースを追加するための主要な手順をキャンペーン](../../developing/using/key-steps-to-add-a-resource.md)
