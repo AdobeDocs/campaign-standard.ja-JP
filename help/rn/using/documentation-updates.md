@@ -12,22 +12,32 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 09c7f365969fe415f1bcdcc57e7cfbb9ed99b521
+source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
 
 ---
 
 
 # ドキュメントのアップデート{#documentation-updates}
 
-Adobe Campaign標準のドキュメントの最新の更新をすべて紹介します。
+このページでは、Adobe Campaign [リリースノートに加え](../../rn/using/release-notes.md)、App Standardのドキュメントの新しい更新をすべてリストしています。Adobe Campaign標準のドキュメント。
 
-このページでは、リスト標準の各リリースの新機能とドキュメントの更新をすべてAdobe Campaignします。
+## リリース20.3 - 2020年5月 {#release-20-3---may-2020}
 
-You can also consult the Adobe Campaign [Release Notes](../../rn/using/release-notes.md).
+**リリースに含まれる新機能**
+
+タイの個人データ保護法(PDPA) — 詳 [細情報](https://helpx.adobe.com/content/help/jp/campaign/kb/acs-privacy.html)
+
+外部APIアクティビティ(GA) — 詳細を [読む](../../automating/using/external-api.md)
+
+**リリースに伴うその他のドキュメントのアップデート**
+
+* フィールドに情報が追加され、ワークフロー **[!UICONTROL History in days]** のプロパティに、アクティビティがダウンロードしたファイルが含まれるようにな **[!UICONTROL Transfer file]** りました。 [詳細を表示](../../automating/using/executing-a-workflow.md)
+
+* 件名行のプレフィックスの500プロファイルの制限に関する情報が、「文字の置き換え」セクションに追加されました。 [詳細を表示](../../sending/using/testing-messages-using-target.md)
 
 ## ドキュメントの更新 — 2020年4月 {#doc-updates-april-2020}
 
-Microsoft Dynamics 365とAdobe Campaign標準のドキュメントの統合は、他のソリューションとの統合ガイドのコアドキュメントに統合されました。 [詳細を表示](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+Microsoft Dynamics 365とAdobe Campaign標準のドキュメントの統合が、コアドキュメントで利用できるようになりました。 [詳細を表示](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
 その他のリソースがドキュメントホームページに追加されました。 [詳細を表示](../../campaign-standard-home.md)
 
@@ -35,7 +45,7 @@ Experience Cloud IDサービス(ECID)に関する情報が、Adobe Experience Pl
 
 トランザクションメッセージの設定の節が改善され、最新のトランザクションメッセージと更新されたスクリーンショットへのアクセスイベントが追加されました。 [詳細を表示](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)
 
-タイポロジとタイポロジルールに関する節が改善され、追加情報が追加され、更新されました。すぐに使用できるタイポロジルールです。 [詳細を表示](../../sending/using/about-typology-rules.md)
+組み込みタイポロジルールに関する追加情報で、タイポロジとドキュメントが改善され、更新されました。タイポロジルール [詳細を表示](../../sending/using/about-typology-rules.md)
 
 情報が追加されまし **[!UICONTROL Transfer file]****[!UICONTROL File listing]** た。 [詳細を表示](../../automating/using/transfer-file.md)
 
@@ -48,6 +58,8 @@ Experience Cloud IDサービス(ECID)に関する情報が、Adobe Experience Pl
 トランザクションメッセージングと未使用のリアルタイムメッセージの削除に関するベストプラクティスが追加されました。イベント [詳細を表示](../../administration/using/configuring-transactional-messaging.md#creating-an-event)
 
 「電子メールチャネルの設定」セクションが更新され、拡張MTAAdobe Campaignで管理されるすべての電子メール設定についての説明が追加されました。 [詳細を表示](../../administration/using/configuring-email-channel.md)
+
+イベント設定の編集に必要な権限およびトランザクションでのコレクションの強化方法に関する詳細情報が、「トランザクショントランザクションメッセージの設定」セクションに更新されました。 [詳細を表示](../../administration/using/configuring-transactional-messaging.md).
 
 ## リリース20.2 - 2020年4月 {#release-20-2---april-2020}
 
@@ -89,7 +101,7 @@ Adobe Campaign標準/Adobe Experience Manager統合ドキュメントが更新�
 
 Campaign Standardデータモデルのベストプラクティスに関する新しいセクションが提供されました。 [詳細を表示](../../developing/using/data-model-best-practices.md)
 
-すぐに使用できる右側に **[!UICONTROL Workflow]** 情報が追加されました。 [詳細を表示](../../administration/using/list-of-roles.md)
+組み込み権限に情報が追 **[!UICONTROL Workflow]** 加されました。 [詳細を表示](../../administration/using/list-of-roles.md)
 
 情報は、ワークフローのプロパティで使用で **[!UICONTROL History in days field]** きるに追加されました。 [詳細を表示](../../automating/using/executing-a-workflow.md)
 
@@ -197,7 +209,7 @@ Campaign Standard設定に関連する新しいセクションが追加されま
 
 「トランザクションメッセージ」セクションは、電子メールデザイナでのコンテンツの編集など、最新のUIの更新によって変更されました。 [詳細を表示](../../channels/using/event-transactional-messages.md)
 
-「ランディングページ」チャプターが再編成されました。 また、ランディングページの設定手順を詳しく説明する新しいセクションが追加されました。 [詳細を表示](../../channels/using/getting-started-with-landing-pages.md)
+「ランディングページ」チャプターが再編成されました。 また、ランディングページの設定手順を詳しく説明する新しいセクションが追加され、強化されました。 [詳細を表示](../../channels/using/getting-started-with-landing-pages.md)
 
 ## ドキュメントの更新 — 2019年9月 {#doc-updates-september-2019}
 
@@ -453,7 +465,7 @@ Microsoft Edge（最新バージョン）が、コンピューター用の互換
 
 削除方法に関する情報を追加しました。オーディエンス [詳細を表示](../../audiences/using/creating-audiences.md#deleting-audiences)
 
-プッシュ通知のレポートセクションを更新しました。 [詳細を表示](../../reporting/using/push-notification-report.md)
+プッシュ通知の組み込みレポートセクションを更新しました。 [詳細を表示](../../reporting/using/push-notification-report.md)
 
 ## リリース18.7 - 2018年7月 {#release-18-7---july-2018}
 
@@ -577,7 +589,7 @@ GDPR APIは、GDPRリクエストの自動処理を可能にする機能を再�
 
 キャンペーンとアドビソリューションの統合のほとんどのURLが変更されました。 ブックマークを確認します。 [詳細を表示](../../integrating/using/about-campaign-integrations.md)
 
-データモデルv1は、SQL構造を使用して、あらかじめ用意されたリソースを利用できるようになりました。詳 [細情報](https://docs.campaign.adobe.com/doc/standard/en/datamodel/datamodel.html)
+データモデルv1は、組み込みリソースのSQL構造で使用できるようになりました。詳しく [は、](https://docs.campaign.adobe.com/doc/standard/en/datamodel/datamodel.html)
 
 メッセージを準備する方法に関する情報を追加しました。詳 [細情報](../../sending/using/preparing-the-send.md)
 
@@ -603,7 +615,7 @@ SMS自動応答の使用方法に関する使用例を順を追って追加し�
 
 この節を **[!UICONTROL Customizing a push notification]** 手順を追って再構成しました。 [詳細を表示](../../channels/using/customizing-a-push-notification.md)
 
-ブラックリスト管理に関する新しい節を追加しました。 [詳細を表示](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+ブラックリスト管理に関する新しいセクション。 [詳細を表示](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 エラーと配信に関する情報を更新しました。 [詳細を表示](../../sending/using/monitoring-a-delivery.md)
 
@@ -653,7 +665,7 @@ A/Bテストのサンプルを更新しました。 [詳細を表示](../../chan
 
 新しいエクスポート追跡機能に関する節を追加しました。 [詳細を表示](../../administration/using/auditing-export-logs.md)
 
-そのまま使用できるパッケージの書き出しの精度を追加しました。 [詳細を表示](../../automating/using/managing-packages.md)
+組み込みパッケージの書き出しの精度を追加しました。 [詳細を表示](../../automating/using/managing-packages.md)
 
 外部アカウント定義とサンプルを更新しました。 [詳細を表示](../../administration/using/external-accounts.md)
 
