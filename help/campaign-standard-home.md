@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Adobe Campaign Standard 製品ドキュメント
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 5b6eff73d0abd9601b7ac1ca4d63bd8e78d8493b
+source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
 
 ---
 
@@ -15,13 +15,11 @@ source-git-commit: 5b6eff73d0abd9601b7ac1ca4d63bd8e78d8493b
 
 ## 新着情報
 
-* **[ターゲットプロファイルを使用した電子メール](sending/using/testing-messages-using-target.md)**<br/>テスト実際のターゲットプロファイルで電子メールをテストする方法を説明します。
+* **[ターゲットプロファイルを使用した電子メール](sending/using/testing-messages-using-target.md)**<br/>のテスト実際のターゲットプロファイルで電子メールをテストする方法を説明します。
 
-* **[プライバシー管理](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy.html)**<br/>
-プライバシーコンプライアンスに役立つ Adobe Campaign が提供するツールについて説明します。
+* **[プライバシー管理](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy.html)**<br/> Adobe Campaignが提供するツールについて説明します。
 
-* **[Campaign Standard Mobile ガイド](https://helpx.adobe.com/jp/campaign/kb/acs-mobile.html)**<br/>
-モバイル配信に関する一般的なガイドラインについて説明します。
+* **[Campaign Standardモバイルガイド](https://helpx.adobe.com/jp/campaign/kb/acs-mobile.html)**<br/>&#x200B;モバイル配信の一般的なガイドラインの詳細
 
 [更新情報についてはここをクリック](rn/using/documentation-updates.md)
 
@@ -36,8 +34,7 @@ source-git-commit: 5b6eff73d0abd9601b7ac1ca4d63bd8e78d8493b
     <div>
     <a href="administration/using/about-access-management.md"><strong>役割とセキュリティグループ</strong></a>
     </div>
-    <em>権限を定義し、Campaign ユーザーにロールを割り当てる方法について説明します。</em>
-    <br>
+    <em>権限を定義し、ロールを割り当てる方法をキャンペーン</em><br>
   </td>
   <td valign="top">
     <a href="designing/using/designing-content-in-adobe-campaign.md">
@@ -54,7 +51,7 @@ source-git-commit: 5b6eff73d0abd9601b7ac1ca4d63bd8e78d8493b
     <div><a href="https://helpx.adobe.com/campaign/kb/ac-support.html">
     サポー <strong>トを受ける</strong></a>
     </div>
-    <p><em>FAQ、ベストプラクティス、ヘルプリソース、およびキャンペーンエキスパートとの連絡</em></p>
+    <p><em>FAQ、ベストプラクティス、ヘルプリソース、およびエキスパートとの連絡</em></p>
     <br>
   </td>
 </tr>
