@@ -1,49 +1,49 @@
 ---
-title: アプリケーションリソースへの購読の拡張
+title: アプリケーションリソースへのサブスクリプションの拡張
 description: null
-page-status-flag: 非活性化の
+page-status-flag: never-activated
 uuid: 8879b427-b31b-4311-bf54-258a91b1fb78
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 開発中
-content-type: 参照
-topic-tags: 使用事例
+audience: developing
+content-type: reference
+topic-tags: use-cases--extending-resources
 discoiquuid: 59faa74e-86fc-42d3-90da-f48580b5ec13
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
 
 ---
 
 
-# アプリケーションリソースへの購読の拡張{#extending-the-subscriptions-to-an-application-resource}
+# アプリケーションリソースへのサブスクリプションの拡張{#extending-the-subscriptions-to-an-application-resource}
 
-In Adobe Campaign, mobile profile attributes data sent from mobile device are stored in **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** resource which allows you to define the data that you want to collect from your applications' subscribers. For more information on custom resources, refer to this [page](../../developing/using/key-steps-to-add-a-resource.md).
+In Adobe Campaign, mobile profile attributes data sent from mobile device are stored in **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** resource which allows you to define the data that you want to collect from your applications&#39; subscribers. For more information on custom resources, refer to [this page](../../developing/using/key-steps-to-add-a-resource.md).
 
-このリソースを拡張して、モバイルデバイスからAdobe Campaignに送信するデータを収集できます。
+このリソースは、モバイルデバイスからデバイスに送信するデータを収集するために拡張できます。Adobe Campaign
 
-1. アドバンスメニューで、Adobe Campaignロゴを使用して/を選 **[!UICONTROL Administration]** 択し、 **[!UICONTROL Development]**&#x200B;次に選択しま **[!UICONTROL Custom resources]**&#x200B;す。
-1. をクリック **[!UICONTROL Create]** し、オプションを選択 **[!UICONTROL Extend an existing resource]** します。
+1. 詳細メニューのAdobe Campaignロゴから/を選 **[!UICONTROL Administration]** 択し、 **[!UICONTROL Development]**&#x200B;を選択しま **[!UICONTROL Custom resources]**&#x200B;す。
+1. をクリック **[!UICONTROL Create]** し、オプションを選 **[!UICONTROL Extend an existing resource]** 択します。
 1. リソースを選択 **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** し、をクリックしま **[!UICONTROL Create]**&#x200B;す。
 
    ![](assets/in_app_personal_data_4.png)
 
-1. タブのカ **[!UICONTROL Fields]** テゴリで、ボ **[!UICONTROL Data structure]** タンをクリックして、モバイルアプリケーションから取得する顧客データを定義し **[!UICONTROL Add field]** ます。
+1. タブの **[!UICONTROL Fields]** カテゴリ **[!UICONTROL Data structure]** で、ボタンをクリックして、モバイルアプリから取得する顧客データを定義し **[!UICONTROL Add field]** ます。
 
    >[!NOTE]
    >
-   >複数のモバイルアプリケーションを管理している場合は、すべてのアプリケーションで使用されるすべてのフィールドを一覧表示する必要があります。 iOSまたはAndroidのcollect PII呼び出しは、各アプリケーションで取り込まれるフィールドを定義します。
+   >複数のモバイルアプリケーションを管理している場合は、すべてのアプリケーションで使用されるすべてのフィールドを一覧表示する必要があります。 iOSまたはAndroidの収集PII呼び出しは、各アプリケーションで取り込まれるフィールドを定義します。
 
    ![](assets/in_app_personal_data.png)
 
-1. 新しいフィ **[!UICONTROL Label]** ールドにお **[!UICONTROL ID]** よびを追加します。 フィールドの値を選択しま **[!UICONTROL Type]**&#x200B;す。
+1. 新しいフ追加ィールドに対す **[!UICONTROL Label]****[!UICONTROL ID]** るaおよびa。 フィールドのを選択しま **[!UICONTROL Type]**&#x200B;す。
 
    ![](assets/schema_extension_uc9.png)
 
-1. カテゴリ **[!UICONTROL Link to profiles]** で、Adobe Campaignデータベースのプロファイルを電子メールなどのアプリケーションの購読者にリンクするために使用する調整キーを設定します。
+1. カテゴリで、 **[!UICONTROL Link to profiles]** Adobe Campaignデータベースのプロファイルを電子メールなどのアプリケーションの購読者にリンクするために使用する紐付けキーを設定します。
 
-   アプリ内メッセージで定義できる調整キーは、すべてのモバイルアプリに対して1つだけです。
+   アプリ内メッセージでは、すべてのモバイルアプリに対して1つの紐付けキーのみを定義できます。
 
    ![](assets/in_app_personal_data_3.png)
 
