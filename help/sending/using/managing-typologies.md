@@ -13,7 +13,7 @@ context-tags: typology,overview;typologyRule,main;typologyRule,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ec0af8c06e36f51ddaf6e3d4190fa6acd56d2da6
+source-git-commit: ba1fcca02ce9582d85e57bde815ccf3f551ac7a3
 
 ---
 
@@ -44,7 +44,7 @@ source-git-commit: ec0af8c06e36f51ddaf6e3d4190fa6acd56d2da6
 
 1. 類型のリストが表示されます。 ボタンをクリッ **[!UICONTROL Create]** クします。
 
-   ![](assets/typologies-list.png)
+   ![](assets/typologies-create.png)
 
 1. タイポロジを定義 **[!UICONTROL Label]**&#x200B;し、ボタンをク **[!UICONTROL Add an element]** リックして、含めるタイポロジルールを選択します。 For more on typology rules, refer to [this section](../../sending/using/managing-typology-rules.md).
 
@@ -66,7 +66,7 @@ source-git-commit: ec0af8c06e36f51ddaf6e3d4190fa6acd56d2da6
 
 メッセージにタイポロジをリンクするには、次の手順に従います。
 
-1. メッセージのプロパティにアクセスします。 メッセージテンプレートは、/ナビゲーションメニューからアク **[!UICONTROL Resources]** セスでき **[!UICONTROL Templates]** ることに注意してください。
+1. メッセージのプロパティにアクセスします。 メッセージテンプレートは、/ナビゲーションメニューからア **[!UICONTROL Resources]** クセスでき **[!UICONTROL Templates]** ることに注意してください。
 
 1. 「/」セク **[!UICONTROL Advanced parameters]** ション **[!UICONTROL Prearation]** で、メッセージにリンクするタイポロジを選択します。
 
