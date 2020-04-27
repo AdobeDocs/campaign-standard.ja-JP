@@ -13,7 +13,7 @@ context-tags: typology,overview;typologyRule,main;typologyRule,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c5b1882e143924f94530c166b6af61a1bce30d72
+source-git-commit: ba1fcca02ce9582d85e57bde815ccf3f551ac7a3
 
 ---
 
@@ -42,21 +42,21 @@ source-git-commit: c5b1882e143924f94530c166b6af61a1bce30d72
 
 1. / **[!UICONTROL Administration]** / **[!UICONTROL Channels]** /メニューにア **[!UICONTROL Typologies]** クセ **[!UICONTROL Typology rules]** スし、をクリックしま **[!UICONTROL Create]**&#x200B;す。
 
-![](assets/typology_create-rule.png)
+   ![](assets/typology_create-rule.png)
 
 1. タイポロジを入力 **[!UICONTROL Label]**&#x200B;し、ルールを適 **[!UICONTROL Channel]** 用する対象を指定します。
 
-![](assets/typology-rule-label.png)
+   ![](assets/typology-rule-label.png)
 
 1. タイポロジルールを **[!UICONTROL Type]**&#x200B;指定し、必要に応じて設定します。 タイポロジルールの設定はタイプによって異なります。 詳しくは、「フィルタリングルール」および「疲 **[労ルール](../../sending/using/filtering-rules.md)**」の節を**[&#x200B;参照してください](../../sending/using/fatigue-rules.md)** 。
 
 1. 新しいルールを含めるタイポロジを選択します。 これを行うには、タブを選択し **[!UICONTROL Typologies]** て、ボタンをクリック **[!UICONTROL Create element]** します。
 
-![](assets/typology-typologies-tab.png)
+   ![](assets/typology-typologies-tab.png)
 
 1. 目的のタイポロジを選択し、をクリックしま **[!UICONTROL Confirm]**&#x200B;す。
 
-![](assets/typology-link.png)
+   ![](assets/typology-link.png)
 
 1. すべてのタイポロジを選択したら、をクリックし **[!UICONTROL Create]** てタイポロジの作成をタイポロジルールします。
 
