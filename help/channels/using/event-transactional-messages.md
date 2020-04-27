@@ -13,7 +13,7 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: be6751f2f966f99d2b986aeba0b3720d2e8c4599
+source-git-commit: efb1f14e0094e200d186423f98bfad65d25cfab2
 
 ---
 
@@ -221,7 +221,7 @@ source-git-commit: be6751f2f966f99d2b986aeba0b3720d2e8c4599
 
    ![](assets/message-center_loop_fallback_show.png)
 
-1. 1つ以上のコンテンツコンポーネントをドラッグし、必要に応じて編集します。
+1. 1つまたは複数のコンテンツコンポーネントをドラッグし、必要に応じて編集します。
 
    ![](assets/message-center_loop_fallback.png)
 
