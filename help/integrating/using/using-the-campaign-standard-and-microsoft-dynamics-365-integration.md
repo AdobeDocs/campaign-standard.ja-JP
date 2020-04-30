@@ -1,5 +1,5 @@
 ---
-title: Microsoft Dynamics 365とCampaign Standard統合の使用
+title: Microsoft Dynamics 365統合の使用
 description: Microsoft Dynamics 365とCampaign Standard統合の使い方
 page-status-flag: never-activated
 uuid: ed6c1b76-87f7-4d23-b5e2-0765297a905c
@@ -12,12 +12,12 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bff3b8f8f58c491e4010d24132b0fa3e93c3a7ab
+source-git-commit: de048c06ea2af0c988e97a37ebf945906069935e
 
 ---
 
 
-# Microsoft Dynamics 365とCampaign Standard統合の使用
+# Microsoft Dynamics 365統合の使用
 
 この統合で実行されるジョブはいくつかあります。
 
@@ -32,13 +32,13 @@ source-git-commit: bff3b8f8f58c491e4010d24132b0fa3e93c3a7ab
 >
 >イベント **表示の場合**、出力ジョブがUnifiで実行されるたびに、最大10,000個のイベントが取得されます。
 
-## Adobe Campaign Standardのユーザーエクスペリエンス
+## Adobe Campaign標準のユーザーエクスペリエンス
 
 連絡先がDynamics 365で新規に作成されたり変更されたりすると、連絡先の同期が実行された後、キャンペーンに同期されます。  これらの連絡先は、キャンペーンのプロファイル画面に表示され、マーケティングキャンペーンでターゲット設定できます。  下のプロファイル画面を参照してください。
 
 ![](assets/MSdynamicsACS-usage1.png)
 
-Dynamics 365で連絡先が削除されると、キャンペーンの対応するプロファイルが、キャンペーンのプライバシー要求画面のプライバシーサービス削除キューに追加されます。  キャンペーンで適用されるデータプライバシー法に準拠するために必要なサブジェクト削除リクエストの実行について詳しくは、Adobe Campaign Standardの法的に義務付けられた削除リクエストの実行方法を参照してください。
+Dynamics 365で連絡先が削除されると、キャンペーンの対応するプロファイルがキャンペーンのプライバシー要求画面のプライバシーサービス削除キューに追加されます。  キャンペーンで適用されるデータプライバシー法に準拠するために必要なサブジェクト削除リクエストの実行について詳しくは、Adobe Campaign標準で法的に義務付けられた削除リクエストを実行する方法を参照してください。
 
 ![](assets/MSdynamicsACS-usage2.png)
 
@@ -76,9 +76,9 @@ Dynamics 365で連絡先が削除されると、キャンペーンの対応す�
 
 * Adobe Campaign電子メール送信
 
-* Adobe Campaign電子メールオープン
+* Adobe Campaignの電子メールを開く
 
-* Adobe Campaign電子メールのURLをクリック
+* Adobe Campaignの電子メールURLのクリック
 
 * Adobe Campaignの電子メールバウンス
 
@@ -86,27 +86,27 @@ Dynamics 365で連絡先が削除されると、キャンペーンの対応す�
 
 >[!NOTE]
 >
->これらのイベントを表示するには、AppSourceのDynamics 365アプリ用Adobe CampaignがDynamics 365インスタンスにインストールされている必要があります。
+>これらのAdobe Campaignを表示するには、AppSourceのDynamics 365アプリのイベントがDynamics 365インスタンスにインストールされている必要があります。
 
 下に、「Dynamics User」の連絡先画面のスナップショットが表示されます。  タイムライン表示で、Dynamics Userがキャンペーン名「2019LoyaltyCamp」と配信名「DM190」に関連付けられた電子メールを送信したことがわかります。  Dynamicsユーザーが電子メールを開き、電子メール内のURLもクリックしました。これらの両方のアクションによってイベントが作成され、以下にも表示されます。  右隅を見ると、Relationship Assistant(RA)カードが表示されます。現在、クリックされたURLを追跡するタスクが含まれています。
 
-![](assets/MSdynamicsACS-usage4.png)
+![](assets/do-not-localize/MSdynamicsACS-usage4.png)
 
 Dynamics Userのタイムライン表示の終了点については、以下を参照してください。
 
-![](assets/MSdynamicsACS-usage5.png)
+![](assets/do-not-localize/MSdynamicsACS-usage5.png)
 
 以下に、Relationship Assistant(RA)カードのクローズアップを示します。  AppSourceアプリには、Adobe電子メールURLのクリックワークフローを監視するイベントが含まれます。  このイベントが発生すると、タスクが作成され、期限が設定されます。  これにより、タスクがRAカードに表示され、表示がさらに向上します。  アドビの電子メールバウンスイベントにも同様のワークフローがあり、無効な電子メールアドレスを調整するタスクを追加します。  これらのワークフローは、ソリューションでオフにできます。
 
-![](assets/MSdynamicsACS-usage6.png)
+![](assets/do-not-localize/MSdynamicsACS-usage6.png)
 
 送信イベントの件名をクリックすると、次のようなフォームが表示されます。  開くフォームとバウンスイベントは似ています。
 
-![](assets/mirror_page_url_send.png)
+![](assets/do-not-localize/mirror_page_url_send.png)
 
 電子メールURLのクリックイベントのフォームに、クリックされたURLの属性が追加されます。
 
-![](assets/mirror_page_url_click.png)
+![](assets/do-not-localize/mirror_page_url_click.png)
 
 属性と説明のリストを次に示します。
 
