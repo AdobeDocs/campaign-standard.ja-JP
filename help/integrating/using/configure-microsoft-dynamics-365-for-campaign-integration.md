@@ -1,5 +1,5 @@
 ---
-title: Microsoft Dynamics 365をキャンペーン統合用に構成
+title: Campaign 統合用の Microsoft Dynamics 365 の設定
 description: Microsoft Dynamics 365を統合用に構成する方法についてキャンペーンします。
 page-status-flag: never-activated
 uuid: effa1028-66b2-4bef-b5e4-7319dbb23d5d
@@ -12,28 +12,28 @@ discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4dd1ada05b6681a4e2f7676b177747bdfb0e9bff
+source-git-commit: 4e05dafb087c43a13c60d6bb2f54d0e44455ea8d
 
 ---
 
 
-# Microsoft Dynamics 365をキャンペーン統合用に構成
+# Campaign 統合用の Microsoft Dynamics 365 の設定
 
-Microsoft Dynamics 365統合を設定し、Adobe Campaign Standardとのクロスチャネル通信でCRMデータをアクティブにする方法を説明します。
+Microsoft Dynamics 365統合を構成し、Microsoft Standardとのクロスチャネル通信でCRMデータをアクティブにする方法を説明します。
 
 ## 概要
 
-Adobe Campaign Standard - Microsoft Dynamics 365の統合については、このページで説 [明します](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)。
+Adobe Campaign標準 — Microsoft Dynamics 365の統合については、このページで説 [明します](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)。
 
 この統合用にプロビジョニングする必要がある3つのシステム：
 
-1. Adobe Campaign Standard — 詳 [細](../../integrating/using/configure-adobe-io-for-ms-dynamic.md)
+1. Adobe Campaign標準 — [詳細](../../integrating/using/configure-adobe-io-for-ms-dynamic.md)
 1. Microsoft Dynamics 365 for Sales — 以下の説明
 1. Unifi — 詳細 [情報](../../integrating/using/configure-unifi-for-microsoft-dynamics-365-integration.md)
 
 プロビジョニングが完了したら、管理者がこれらのシステムを設定する必要があります。
 
-この記事では、プロビジョニング後に顧客がAdobe Campaign StandardのMicrosoft Dynamics 365統合を使用できるようにするために必要な、Microsoft Dynamics 365側の手順について説明します。
+この記事では、ユーザーがAdobe Campaign標準 — Microsoft Dynamics 365統合を使用できるように、プロビジョニング後に必要なMicrosoft Dynamics 365側の手順について説明します。
 
 ## 前提条件
 
@@ -57,7 +57,7 @@ OAuthアクセストークンを生成するには、次の手順に従います
 
 1. 画面の **[!UICONTROL New registration]** 上部にあるをクリックします。
 
-   ![](assets/MSdynACSIntegration-7.png)
+   ![](assets/do-not-localize/MSdynACSIntegration-7.png)
 
 1. アプリの登録画面に入力します。
 
@@ -74,7 +74,7 @@ For more information about creating a new application, refer to [this section](h
 
 1. アプリの概要画面の左側のサブメニューで、 **[!UICONTROL Certificates and Secrets > New client secret]**
 
-   ![](assets/MSdynACSIntegration-8.png)
+   ![](assets/do-not-localize/MSdynACSIntegration-8.png)
 
 1. 説明を入力し、期間を設定して、をクリックしま **[!UICONTROL OK]**&#x200B;す。
 
@@ -90,11 +90,11 @@ For more information about creating a new application, refer to [this section](h
 
 1. この画面またはアプリの概要画面で、左側のサ **[!UICONTROL API permissions]** ブメニューのをクリックします。  をクリック **[!UICONTROL Add a permission]**&#x200B;した後、メニュー内でを選択 **[!UICONTROL Dynamics CRM]** する必要があります。
 
-   ![](assets/MSdynACSIntegration-9.png)
+   ![](assets/do-not-localize/MSdynACSIntegration-9.png)
 
 1. 次に、のチェックボックスをオ **[!UICONTROL user_impersonation]**&#x200B;ンにして、ボタンをクリッ **[!UICONTROL Add permissions]** クします。
 
-   ![](assets/MSdynACSIntegration-10.png)
+   ![](assets/do-not-localize/MSdynACSIntegration-10.png)
 
 権限の設定の詳細については、この節を参照し [てください](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-configure-app-access-web-apis#add-permissions-to-access-web-apis)。
 
@@ -119,7 +119,7 @@ For more information about creating a new application, refer to [this section](h
    * **[!UICONTROL Email]**:と同じ **[!UICONTROL User Name]** （必要に応じて管理者の電子メール）
    アプリのユーザー作成について詳しくは、この節を参照 [してください](https://docs.microsoft.com/en-gb/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user)。
 
-1. ユーザーアイコンをクリックし、Adobe Campaignアイコンをアップロードします。これは、Dynamics 365で新しいAdobeイベントが表示されたときに、タイムライン表示に表示されるアイコンです。
+1. ユーザーアイコンをクリックし、ユーザーアイコンをAdobe Campaignします。これは、Dynamics 365で新しいAdobeイベントが表示されたときに、タイムライン表示に表示されるアイコンです。
 
 <!-- ***getfile*** adobe campaign logo-->
 
@@ -137,8 +137,8 @@ For more information about creating a new application, refer to [this section](h
 
 Dynamics 365アプリをCampaign Standard環境に統合するには、次の手順に従います。
 
-1. 次のリンクに移動します。検索 [バーで](https://appsource.microsoft.com/en-us/marketplace/apps) https://appsource.microsoft.com/en-us/marketplace/apps _365向け_ Adobe Campaignを検索します。
-または、このリンクに移動で [きます](https://appsource.microsoft.com/en-us/product/dynamics-365/adobecampaign.re4snj-a4n7-5t6y-a14br-d5d1b?flightCodes=adobesignhide&tab=Overview)。
+1. 次のリンクに移動します。検索バ [ーで](https://appsource.microsoft.com/en-us/marketplace/apps) 、https://appsource.microsoft.com/en-us/marketplace/apps _365の_ Adobe Campaignを検索します。
+または、このリンクに移動で [きます](https://appsource.microsoft.com/en-us/product/dynamics-365/adobecampaign.re4snj-a4n7-5t6y-a14br-d5d1b?flightCodes=adobesignhide&amp;tab=Overview)。
 1. 手順に従って、Dynamics 365インスタンス用のアプリをインストールします。
 1. インストールが完了したら、Dynamics 365インスタンスに移動し、管理者としてログインします。
 1. 右上隅の歯車アイコンをクリックし、をクリックします **[!UICONTROL Advanced Settings]**。 上部のバナーで、の横のドロップダウンをクリックし、 **[!UICONTROL Settings]**&#x200B;の下のをクリッ **[!UICONTROL Processes]** クしま **[!UICONTROL Process Center]**&#x200B;す。
@@ -156,5 +156,5 @@ Dynamics 365アプリをCampaign Standard環境に統合するには、次の手
 **関連トピック**
 
 * [Campaign Standard- Microsoft Dynamics 365の統合](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
-* [Microsoft Dynamics 365統合用のAdobe IOの設定](../../integrating/using/configure-adobe-io-for-ms-dynamic.md)
+* [Microsoft Dynamics 365 統合用の Adobe IO の設定](../../integrating/using/configure-adobe-io-for-ms-dynamic.md)
 * [キャンペーン用のUnifiの構成 — Microsoft Dynamics 365統合](../../integrating/using/configure-unifi-for-microsoft-dynamics-365-integration.md)
