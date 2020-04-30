@@ -1,5 +1,5 @@
 ---
-title: '"Campaign StandardとMicrosoft Dynamics 365の操作：通知と推奨事項」'
+title: Microsoft Dynamics 365統合について
 description: Campaign StandardとMicrosoft Dynamics 365の使い方に関する注意事項と推奨事項を説明します。
 page-status-flag: never-activated
 uuid: ed6c1b76-87f7-4d23-b5e2-0765297a905c
@@ -12,12 +12,12 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 620be6615d162672948c3dccdae2752b8c999c47
+source-git-commit: 277663c4cf0e810f691eeebfade17bf8dd73698e
 
 ---
 
 
-# Campaign StandardとMicrosoft Dynamics 365の操作：通知と推奨事項
+# Microsoft Dynamics 365統合について
 
 ## 地域のサポート
 
@@ -27,13 +27,13 @@ EMEAまたはAPAC地域にお住まいの場合、一部のデータは、この
 
 ## 一方向の連絡先同期の真実のソース
 
-連絡先エンティティとカスタムエンティティの同期の場合、この統合はDynamics 365を真実のソースとして扱います。同期された属性に対する変更は、Adobe Campaign Standardではなく、Microsoft Dynamics 365で行う必要があります。変更がキャンペーンで行われると、同期中にキャンペーンで上書きされる可能性があります。これは、同期が一方向に行われるためです。  さらに、連絡先同期は、Microsoft Dynamics 365でアクティブまたは非アクティブに設定されているすべての連絡先レコードを取り込むように設計されています。
+連絡先エンティティとカスタムエンティティの同期の場合、この統合はDynamics 365を真実のソースとして扱います。同期された属性に対する変更は、Microsoft Dynamics 365で行う必要があります。Microsoft Dynamics 365では、Adobe Campaign標準ではありません。変更がキャンペーンで行われると、同期中にキャンペーンで上書きされる可能性があります。これは、同期が一方向に行われるためです。  さらに、連絡先同期は、Microsoft Dynamics 365でアクティブまたは非アクティブに設定されているすべての連絡先レコードを取り込むように設計されています。
 
 ## プライバシーリクエストの管理
 
-この統合は、エンドユーザーデータ（エンドユーザーデータに個人情報が含まれる場合は、個人情報を含む）をMicrosoft Dynamics 365とAdobe Campaign Standardの間で転送するように設計されています。  お客様の会社は、お客様の個人データの収集と使用に適用されるプライバシーに関する法令を遵守する責任を負います。
+この統合は、エンドユーザーデータ（エンドユーザーデータに個人情報が含まれる場合は、個人情報を含む）をMicrosoft Dynamics 365とAdobe Campaign標準の間で転送するように設計されています。  お客様の会社は、お客様の個人データの収集と使用に適用されるプライバシーに関する法令を遵守する責任を負います。
 
-この統合では、各システムの各データ・サブジェクト・リクエストを個別に処理して、両方のデータベースに変更を反映する必要があります。 変更は、最初にMicrosoft Dynamics 365で実行され、次にAdobe Campaign Standardで実行されます。 唯一の例外は、Dynamics 365で連絡先が削除されると、Campaign Standardのプライバシー関連の削除要求がプライバシーツールキューに追加される点です。
+この統合では、各システムの各データ・サブジェクト・リクエストを個別に処理して、両方のデータベースに変更を反映する必要があります。 変更は、最初にMicrosoft Dynamics 365で実行され、次にMicrosoft Standardで実行される必要があります。Adobe Campaign標準では、 唯一の例外は、Dynamics 365で連絡先が削除されると、Campaign Standardのプライバシー関連の削除要求がプライバシーツールキューに追加される点です。
 
 次のリンクは、各システムにアクセスを実装したり、プライバシー関連のリクエストを削除したりする際に役立ちます。
 
@@ -49,7 +49,7 @@ Dynamics 365で連絡先が削除されると、統合はプライバシー関�
 
 ただし、2ステップのプロセスが有効な場合は、プライバシーテクニカルワークフローの実行後に、プライバシーリクエスト/ツール画面に移動し、レコードが削除されても問題ないかどうかを確認する必要があります。  その場合にのみ、キャンペーンが削除を処理します。
 
-詳しくは、Adobe Campaign Standardの「プライバシー関 [連の削除リクエストを実行する方法」を参照してください。](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/privacy/execute-privacy-requests.html)
+詳しくは、「プライバシー関連の削除 [リクエストを実行する方法(Adobe Campaign標準)」を参照してください。](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/privacy/execute-privacy-requests.html)
 
 >[!CAUTION]
 >
@@ -85,7 +85,7 @@ Dynamics 365とキャンペーンのオプトアウト属性の違い、およ�
 
 >[!NOTE]
 >
->必要に応じて、ここで変更を行う前に、Adobe Campaignのデフォルトおよび特定のタイポロジルールを確認し、変更がすべての発信通信に正しく適用されることを確認してください。 例えば、オプトアウトの環境設定に対するマッピングは、受信者の意図/コミュニケーションの選択を正確に反映し、顧客の注文の確認など、関係やトランザクションメッセージの配信を誤って中断しないようにしてください。
+>必要に応じて、Adobe Campaignのデフォルトのタイポロジルールと具体的な情報を確認し、変更を加える前に、すべての発信通信にその変更が正しく適用されるように更新してください。 例えば、オプトアウトの環境設定に対するマッピングは、受信者の意図/コミュニケーションの選択を正確に反映し、顧客の注文の確認など、関係やトランザクションメッセージの配信を誤って中断しないようにしてください。
 
 ## 既存のキャンペーンデータ
 
