@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d68dbc3e9579f044b7ac1f76ac729548057bb6ec
+source-git-commit: 6aa48a9f36e0716b036288862d1a0064e489be92
 
 ---
 
@@ -22,14 +22,14 @@ source-git-commit: d68dbc3e9579f044b7ac1f76ac729548057bb6ec
 
 電子メールデザイナーで、 [新規に電子メールを作成できます](#without-existing-content)。
 
-* 空白のキャンバスから電子メールを作成するには、構造やコンテンツのコンポーネントを簡単に追加し、コンテンツをパーソナライズして、すばやく配信を送信します。 また、スタイル要素を完全に管理することもできます。 詳しくは、すばやく使い始め [るか](#from-scratch-email) 、完全なドキュメントを参 [照してください](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)。
+1. 空白のキャン **バスから電子メールを作成するには** 、構造とコンテンツコンポーネントを簡単に追加し、コンテンツをパーソナライズして配信を迅速に送信します。 また、スタイル要素を完全に管理することもできます。 詳しくは、すばやく使い始め [るか](#from-scratch-email) 、完全なドキュメントを参 [照してください](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)。
 
-* テンプレートを選択し、ここから新しい電子メールコンテンツを作成することで、あらかじめ用意されているテンプレートから電子メールを作成できます。 [さらに詳しく](#building-content-from-an-out-of-the-box-template)
+1. テンプレート **を選択し、ここから新しい電子メールコンテンツを作成することで** 、標準搭載のテンプレートから電子メールを作成できます。 [さらに詳しく](#building-content-from-an-out-of-the-box-template)
 
 また、既存のコンテンツを使用して電子メ [ールを作成できます](#with-existing-content)。
 
-* 既存のHTMLコンテンツを（外部で作成したり、レガシーエディターで作成した）変換できます。 [さらに詳しく](#converting-an-html-content)
-* 既存のHTMLコンテンツは、互換モードで直接読み込むことができます。 [さらに詳しく](#compatibility-mode)
+1. 既存のHTMLコ **ンテンツ(外部で作成した** 、またはレガシーエディターで作成した)を変換できます。 [さらに詳しく](#converting-an-html-content)
+1. 既存のHTMLコ **ンテンツは互換モードで** 、すぐに読み込むことができます。 [さらに詳しく](#compatibility-mode)
 
 | コンテンツなし | コンテンツあり |
 |---|---|
@@ -139,7 +139,7 @@ HTMLに詳しい場合は、コンテンツコンポーネントを使用して�
 
 ### HTMLコンテンツの変換 {#converting-an-html-content}
 
-この使用例では、オファーがHTML電子メールを電子メールデザイナーのコンポーネントに変換する簡単な方法を使用します。
+この使用例では、オファーがHTML電子メールを電子メールデザイナーのコンポーネントに変換する簡単な方法を使用します。 このトピックについて詳しくは、HTMLコンテンツの変 [換を参照してください](../../designing/using/using-existing-content.md#converting-an-html-content)。
 
 >[!CAUTION]
 >
@@ -149,84 +149,9 @@ HTMLに詳しい場合は、コンテンツコンポーネントを使用して�
 >
 >互換性モードと同様に、HTMLコンポーネントは、次の制限付きオプションで編集できます。インプレースエディションのみ実行できます。
 
-電子メールデザイナーの外部で、元のHTMLが再利用可能なセクションに分割されていることを確認します。
-
-1. 電子メールデザイナーを開いて、空の電子メールコンテンツを作成します。
-1. ボディレベルの属性を設定します。背景色、幅など For more on this, see [Editing email styles](../../designing/using/styles.md).
-
-そうでない場合は、HTMLの異なるブロックを切り取ります。 例えば、次のセクションは明確に識別されます。
-
-```
-<!-- 3 COLUMN w/CTA (SCALED) -->
-<table width="100%" align="center" cellspacing="0" cellpadding="0" border="0" role="presentation" style="max-width:680px;">
-<tbody>
-<tr>
-<td class="padh10" align="center" valign="top" style="padding:0 5px 20px 5px;">
-<table width="100%" cellspacing="0" cellpadding="0" border="0" role="presentation">
-<tbody>
-<tr>
-...
-</tr>
-</tbody>
-</table>
-</td>
-</tr>
-</tbody>
-</table>
-<!-- //3 COLUMN w/CTA (SCALED) -->
-```
-
-すべてのブロックを特定したら、電子メールデザイナで、既存の電子メールの各セクションに対して次の手順を繰り返します。
-
-1. 構追加造コンポーネント。 詳しくは、「電子メール構造の [編集」を参照してください](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
-1. 追加HTMLコンポーネント。 詳しくは、フラグメントとコンポーネ [ントの追加を参照してください](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
-1. HTMLをそのコンポーネントにコピー&amp;ペーストします。
-1. モバイル表示 詳しくは、[この節](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)を参照してください。
-
-   レスポンシブ表示は、CSSが見つからないので壊れています。
-
-1. これを修正するには、ソースコードモードに切り替えて、スタイルセクションを新しいスタイルセクションにコピー&amp;ペーストします。 次に例を示します。
-
-   ```
-   <style type="text/css">
-   a {text-decoration:none;}
-   body {min-width:100% !important; margin:0 auto !important; padding:0 !important;}
-   img {line-height:100%; text-decoration:none; -ms-interpolation-mode:bicubic;}
-   ...
-   </style>
-   ```
-
-   >[!NOTE]
-   >
-   >この後に、別のカスタムスタイルタグでスタイルを追加してください。
-   >
-   >電子メールデザイナーで生成されたCSSは変更しないでください。
-   >
-   >* `<style data-name="default" type="text/css">(##)</style>`
-   >* `<style data-name="supportIOS10" type="text/css">(##)</style>`
-   >* `<style data-name="mediaIOS8" type="text/css">(##)</style>`
-   >* `<style data-name="media-default-max-width-500px" type="text/css">(##)</style>`
-   >* `<style data-name="media-default--webkit-min-device-pixel-ratio-0" type="text/css">(##)</style>`
-
-
-1. モバイル表示に戻って、コンテンツが正しく表示されていることを確認し、変更を保存します。
 
 ### HTML電子メールの読み込みと編集 {#compatibility-mode}
 
 コンテンツをアップロードする場合、電子メールデザイナーのWYSIWYGエディターで完全に準拠し、編集できるように、特定のタグが含まれている必要があります。
 
-アップロードされたHTMLのすべてまたは一部が期待されたタグ付けに準拠していない場合、コンテンツは「互換性モード」で読み込まれ、UIを使用した編集の可能性が制限されます。
-
-コンテンツが互換モードで読み込まれた場合でも、インターフェイスを通じて次の変更を実行できます（使用できないアクションは非表示になります）。
-
-* テキストの変更または画像の変更
-* リンクとパーソナライゼーションフィールド
-* 選択したHTMLブロックの一部のスタイル設定オプションの編集
-* 条件付きコンテンツの定義
-
-![](assets/email_designer_compatibility.png)
-
-電子メールに新しいセクションを追加したり、高度なスタイルを設定したりするなど、その他の変更は、電子メールのソースコードでHTMLモードを使用して直接行う必要があります。
-互換性モードではドラッグ&amp;ドロップを使用できませんが、レガシーエディターと同じ機能セットが保証されます。
-
-既存の電子メールを電子メールデザイナー互換の電子メールに変換する方法について詳しくは、この節を参 [照してくださ](../../designing/using/using-existing-content.md)い。
+既存の電子メールを電子メールデザイナー互換の電子メールに変換する方法について詳しくは、この節を参 [照してくださ](../../designing/using/using-existing-content.md#compatibility-mode)い。
