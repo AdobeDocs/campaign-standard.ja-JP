@@ -12,7 +12,7 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 327d0e4f862b39c60fb3943d1128f4f42828bc0d
+source-git-commit: 9388df151eabbc6f63461e854d0276c14d9ef93d
 
 ---
 
@@ -25,9 +25,9 @@ source-git-commit: 327d0e4f862b39c60fb3943d1128f4f42828bc0d
 
 Adobe Experience Platform Data Connectorは、XTKデータ(キャンペーンで取り込んだデータ)をAdobe Experience PlatformのExperience Data Model(XDM)データにマッピングすることで、既存のお客様がデータをAdobe Experience Platformで利用できるようにするのに役立ちます。
 
-コネクタは一方向で、Adobe Campaign Standard **から** Adobe Experience Platformにデータを送信します。 データは、Adobe Experience PlatformからAdobe Campaign Standardに送信されません。
+コネクタは単方向であり、 **Adobe Campaign** StandardからAdobe Experience Platformにデータを送信します。 データは、Adobe Experience PlatformからAdobe Standardに送信されることはありません。Adobe Campaign標準。
 
-Adobe Experience Platform Data Connectorは、Adobe Campaign Standardのカスタムリソースを理解し、顧客の全体的なデータスキーマがAdobe Experience Platform内でどのように行われるかを理解しているデータエンジニアを対象としています。 ****
+Adobe Experience Platform Data Connectorは、Adobe Campaign標準のカスタムリソースを理解し **** 、顧客の全体的なデータスキーマがAdobe Experience Platform内でどのように行われるかを理解しているデータエンジニアを対象としています。
 
 以下の節では、Adobe Experience Platformとの間でデータマッピングを実行するための重要なCampaign Standard手順について説明します。 この開始は、XDMデータセットとスキーマセットの作成に関連しています。
 
@@ -54,7 +54,7 @@ Adobe Experience Platform Data Connectorは、Adobe Campaign Standardのカス�
 
 * プロファイルのオプトインやオプトアウトを含むすべてのチャネルのアップデートは、バッチアップデートの一部です。
 
-* Adobe Campaign StandardまたはXDMスキーマの変更は、手動で再マッピングする必要がありま&#x200B;す。
+* Adobe Campaign標準またはXDMスキーマの変更は、手動で再マッピングする必要があり&#x200B;ます。
 
 * 追跡ログとブロードログデータは、エクスペリエンスイベントとしてAdobe Experience Platformに自動的に取り込まれます。 この取り込みは、リアルタイムでAdobe Experience Platformにストリーミングされます。
 
@@ -70,7 +70,7 @@ Adobe Experience Platform Data Connectorは、Adobe Campaign Standardのカス�
 
 * すぐに使用できる購読イベントの転送はサポートされません。 購読イベントを転送するには、対応するXDMとデータセットをAdobe Experience Platformで作成し、これらのデータに対するカスタムデータマッピングを設定します。
 
-* プライバシーリクエストに関しては、キャンペーンコアプライバシーサービスとAdobe Experience Platformに対して、アクセスと削除の両方のアクションに対して個別のリクエストを送信する必要があります。
+* プライバシーリクエスト（アクセスと削除の両方のアクション）に関して、顧客は別々のリクエストを作成する必要があります。1つはプライバシーコアサービスの統合(この節を [参照](https://helpx.adobe.com/campaign/kb/acs-privacy.html#righttoaccess))を介したキャンペーン用で、もう1つはプライバシーサービスを介したAdobe Experience Platform用 [です](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ccpa)。 アクセスおよび削除のリクエストについて詳しくは、このページを [参照してくださ](https://helpx.adobe.com/campaign/kb/acs-privacy.html#righttoaccess)い。
 
 * XDMフィールドごとに、DULEのラベル付けはAdobe Experience Platformで行う必要があります。 これは、DULEラベルを適用するお客様の責任です。
 
