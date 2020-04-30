@@ -10,7 +10,7 @@ context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e545e0ffba80f6165242f6974adf0e4c4abafff4
+source-git-commit: c59faa935663bf803ed97f30e45f9b4276b448b8
 
 ---
 
@@ -39,7 +39,9 @@ source-git-commit: e545e0ffba80f6165242f6974adf0e4c4abafff4
 
 Campaign Standard20.3リリースでは、外部API機能により、ベータ版がGA (General Availability)に移行しました。
 
-その結果、ベータ版External APIアクティビティを使用していた場合は、すべてのワークフローでそれらをGA External APIアクティビティに置き換える必要があります。  ワークフローがベータ版のExternal APIを使用している場合、20.3リリース以降は動作しなくなります。
+>[!CAUTION]
+>
+>その結果、ベータ版External APIアクティビティを使用していた場合は、すべてのワークフローでそれらをGA External APIアクティビティに置き換える必要があります。  ワークフローがベータ版のExternal APIを使用している場合、20.3リリース以降は動作しなくなります。
 
 外部APIアクティビティを置き換える場合は、新しい外部APIアクティビティをワークフローに追加し、設定の詳細を手動でコピーしてから、古いアクティビティを削除します。
 
