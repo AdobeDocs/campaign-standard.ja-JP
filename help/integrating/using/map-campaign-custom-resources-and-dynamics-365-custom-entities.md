@@ -12,12 +12,12 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 37e86c6143c52841e69d610fa9db35dff70a3587
+source-git-commit: 4e05dafb087c43a13c60d6bb2f54d0e44455ea8d
 
 ---
 
 
-# キャンペーンのカスタムリソースとDynamics 365カスタムエンティティのマッピング
+# Campaign のカスタムリソースと Dynamics 365 カスタムエンティティのマッピング
 
 Adobe Campaign標準とMicrosoft Dynamics 365の統合のコンテキストで、カスタムリソースとカスタムエンティティをマッピングする方法を説明します。
 
@@ -59,15 +59,15 @@ Adobe Campaign標準とMicrosoft Dynamics 365の統合のコンテキストで�
 
 Dynamics 365のこの顧客のカスタムエンティティは、Dynamics 365の横のドロップダウンをクリックして、Salesダッシュボードで表示できます。  この顧客のカスタムエンティティは、の下にグループ化されま **[!UICONTROL Extensions]**&#x200B;す。
 
-![](assets/SalesDashboard.png)
+![](assets/do-not-localize/SalesDashboard.png)
 
 車両のデータは、カスタムエンティティをクリックすることで表 **[!UICONTROL vehicle]** 示できます。  下記の車のリストを参照。
 
-![](assets/VehicleCustomEntity.png)
+![](assets/do-not-localize/VehicleCustomEntity.png)
 
 エンティティとエンテ **[!UICONTROL vehicle]** ィティの関 **[!UICONTROL Contact]** 係は以下のとおりです。 **[!UICONTROL Parental]** が選択されました **[!UICONTROL Type of Behavior]**。
 
-![](assets/ContactToVehicle.png)
+![](assets/do-not-localize/ContactToVehicle.png)
 
 ### Campaign Standard
 
@@ -102,7 +102,7 @@ Dynamics 365のこの顧客のカスタムエンティティは、Dynamics 365�
 >
 >各カスタムリソースには、externalId（正確に）のIDを持つ一意のフィールドが必要です。  このフィールドは、Dynamics 365のカスタムリソースのIDフィールドにマップされます（以下を参照）。
 
-![](assets/FieldsInDynamics.png)
+![](assets/do-not-localize/FieldsInDynamics.png)
 
 ### 識別キーの定義
 
@@ -170,7 +170,7 @@ Dynamics 365のこの顧客のカスタムエンティティは、Dynamics 365�
 
 顧客がDynamics 365で既に車両のカスタムエンティティを設定し、Unifiが車両のカスタムエンティティのジョブとスケジュールを設定している場合、顧客は車両エンティティの入力スケジュールを開始できる必要があります。
 
-![](assets/Schedule.png)
+![](assets/do-not-localize/Schedule.png)
 
 入力ジョブが完了した後、車両データは、新たに入力されたカスタムリソース内でキャンペーンに **[!UICONTROL Vehicle]** 表示されます。
 
