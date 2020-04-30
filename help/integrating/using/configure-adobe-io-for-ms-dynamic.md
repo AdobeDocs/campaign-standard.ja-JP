@@ -1,5 +1,5 @@
 ---
-title: Microsoft Dynamics 365統合用のAdobe IOの設定
+title: Microsoft Dynamics 365 統合用の Adobe IO の設定
 description: Microsoft Dynamics 365統合用のAdobe IOの設定方法を説明します。
 page-status-flag: never-activated
 uuid: effa1028-66b2-4bef-b5e4-7319dbb23d5d
@@ -12,18 +12,18 @@ discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4dd1ada05b6681a4e2f7676b177747bdfb0e9bff
+source-git-commit: 4e05dafb087c43a13c60d6bb2f54d0e44455ea8d
 
 ---
 
 
-# Microsoft Dynamics 365統合用のAdobe IOの設定
+# Microsoft Dynamics 365 統合用の Adobe IO の設定
 
 クロスチャネル通信でのCRMデータのアクティブ化：microsoft Dynamics 365用の新しい統合を作成するために、プロビジョニング後に必要な手順を説明します。
 
 ## 概要
 
-Adobe Campaign Standard - Microsoft Dynamics 365の統合については、このページで説 [明します](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)。
+Adobe Campaign標準 — Microsoft Dynamics 365の統合については、このページで説 [明します](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)。
 
 この記事のプロビジョニング後の手順を実行する前に、既にプロビジョニング済みで、組織のCampaign Standardインスタンスに対する管理者アクセス権を持っていることを前提としています。  この問題が発生しない場合は、アドビカスタマーケアに連絡して、アドビのプロビジョニングを完了する必要があります。キャンペーンのプロビジョニング
 
@@ -53,7 +53,7 @@ APIアクセスを設定し、Unifi用の新しい統合を設定する必要が
 
 1. を選択し、 **[!UICONTROL Access an API]** をクリックしま **[!UICONTROL Continue]**&#x200B;す。
 
-1. セクション _から「_ Adobe Campaign **[!UICONTROL Experience Cloud]** 」を **[!UICONTROL Continue]**&#x200B;選択し、をクリックします。
+1. セクション __ から「 **[!UICONTROL Experience Cloud]** Adobe Campaign」を選択し、をクリックしま **[!UICONTROL Continue]**&#x200B;す。
 
 1. 証明書とキーを生成します。
 
@@ -136,7 +136,7 @@ If you enter '.', the field will be left blank.
 
 をクリックしま **[!UICONTROL Create Integration]**&#x200B;す。
 
-![](assets/MSdynACSIntegration-4B.png)
+![](assets/do-not-localize/MSdynACSIntegration-4B.png)
 
 ### 統合の詳細の設定
 
@@ -144,13 +144,13 @@ If you enter '.', the field will be left blank.
 
 統合の詳細を確認します。  Unifiのプロビジョニング後の手順を実行する場合は、再度参照する必要があります。
 
-![](assets/MSdynACSIntegration-5.png)
+![](assets/do-not-localize/MSdynACSIntegration-5.png)
 
 1. タブをクリックし、 **[!UICONTROL Services]** サービスを追 **[!UICONTROL I/O Events]** 加し **[!UICONTROL I/O Management API]** ます。  サービスを追加するには、ラジオボタンをクリックし、次に **[!UICONTROL Add service]**。  これは、各サービスに対して個別に行います。
 
 完了したら、次の図のようにサービスの上部が表示されます。 JWTとアクセストークンの生成時に、a-onセクションを完了する必要はありません。
 
-![](assets/MSdynACSIntegration-6.png)
+![](assets/do-not-localize/MSdynACSIntegration-6.png)
 
 現在は、キャンペーンでの後処理が完了しています。  Microsoft Dynamics 365のプロビ [ジョニング後の手順を実行します](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)。
 
