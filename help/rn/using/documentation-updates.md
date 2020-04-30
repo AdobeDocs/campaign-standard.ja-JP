@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
+source-git-commit: 5d4560a26c0f5c6d3e8710caf51d4a82fbf80174
 
 ---
 
@@ -31,9 +31,15 @@ source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
 
 **リリースに伴うその他のドキュメントのアップデート**
 
-* フィールドに情報が追加され、ワークフロー **[!UICONTROL History in days]** のプロパティに、アクティビティがダウンロードしたファイルが含まれるようにな **[!UICONTROL Transfer file]** りました。 [詳細を表示](../../automating/using/executing-a-workflow.md)
+フィールドに情報が追加され、ワークフロー **[!UICONTROL History in days]** のプロパティに、アクティビティがダウンロードしたファイルが含まれるようにな **[!UICONTROL Transfer file]** りました。 [詳細を表示](../../automating/using/executing-a-workflow.md)
 
-* 件名行のプレフィックスの500プロファイルの制限に関する情報が、「文字の置き換え」セクションに追加されました。 [詳細を表示](../../sending/using/testing-messages-using-target.md)
+件名行のプレフィックスの500プロファイルの制限に関する情報が、「文字の置き換え」セクションに追加されました。 [詳細を表示](../../sending/using/testing-messages-using-target.md)
+
+プライバシーと同意に関する新しいセクションがコアドキュメントに追加されました。 [詳細を表示](../../start/using/privacy.md)
+
+* レガシーエディターの電子メールを電子メールデザイナーに変換できる使用例が追加されました。 [詳細を表示](../../designing/using/converting-emails-from-legacy-editor.md)
+
+* 電子メールデザイナーに関するよくある質問の節が追加されました。 [詳細を表示](../../designing/using/faq-email-designer.md)
 
 ## ドキュメントの更新 — 2020年4月 {#doc-updates-april-2020}
 
@@ -209,7 +215,7 @@ Campaign Standard設定に関連する新しいセクションが追加されま
 
 「トランザクションメッセージ」セクションは、電子メールデザイナでのコンテンツの編集など、最新のUIの更新によって変更されました。 [詳細を表示](../../channels/using/event-transactional-messages.md)
 
-「ランディングページ」チャプターが再編成されました。 また、ランディングページの設定手順を詳しく説明する新しいセクションが追加され、強化されました。 [詳細を表示](../../channels/using/getting-started-with-landing-pages.md)
+「ランディングページ」チャプターが再編成されました。 また、ランディングページの設定手順を詳しく説明する新しいセクションが追加されました。 [詳細を表示](../../channels/using/getting-started-with-landing-pages.md)
 
 ## ドキュメントの更新 — 2019年9月 {#doc-updates-september-2019}
 
@@ -319,7 +325,7 @@ REST APIドキ [ュメントが更新さ](../../api/using/about-campaign-standar
 
 * Campaign StandardREST APIを使用する一般的な情報を含む新しい節が追加されました。
 * 一般的な使用例を表す、事前に設計されたAPIリクエストの集まりが利用可能になりました。
-* 組織単位の管理方法に関する新しいセクションが追加されました。
+* 組織単位の管理方法に関する新しい節が追加されました。
 * サービスの作成方法に関する情報が追加されました。
 * パラメーターを使用してワークフローを呼び出す方法に関する情報が追加されました。
 
