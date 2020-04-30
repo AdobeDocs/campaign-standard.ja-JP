@@ -1,5 +1,5 @@
 ---
-title: Microsoft Dynamics 365とCampaign Standard統合の要求と設定
+title: Microsoft Dynamics 365統合の要求と構成
 description: Microsoft Dynamics 365とCampaign Standard統合をリクエストおよび設定する方法
 page-status-flag: never-activated
 uuid: ed6c1b76-87f7-4d23-b5e2-0765297a905c
@@ -12,16 +12,16 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4dd1ada05b6681a4e2f7676b177747bdfb0e9bff
+source-git-commit: 277663c4cf0e810f691eeebfade17bf8dd73698e
 
 ---
 
 
-# Campaign Standard統合でMicrosoft Dynamics 365を要求しています
+# Microsoft Dynamics 365統合の要求と構成
 
 この統合をプロビジョニングするには、次の手順に従う必要があります。
 
-この統合では、サードパーティのプロバイダーであるUnifiが使用されています。  サポートの要請に関連して、Adobe Campaignのインスタンス情報をUnifiと共有する必要が生じる場合があります。
+この統合では、サードパーティのプロバイダーであるUnifiが使用されています。  サポートの要請に関連して、UnifiとAdobe Campaignインスタンス情報を共有する必要がある場合があります。
 
 統合をリクエストおよび設定するには、以下のフローチャートとフローチャートの詳細に従ってください。
 
@@ -63,11 +63,11 @@ Unifiの予想応答時間：1営業日（月～金、祝日を除く）
 
 **Unifiを設定する際は、Unifiまたはアドビのコンサルティング（アドビのアカウントチームにお問い合わせください）を利用することをお勧めします。**
 
-Adobe Campaign StandardとMicrosoft Dynamics 365の統合を有効にするには、このドキュメントで説明するように、サードパーティプロバイダーのUnifiを使用してユーザーアカウントを作成する必要があります。   Unifiシステムのエンドユーザーは、Unifiシステム内の顧客が開始したデータ要求に関する問い合わせについて、Unifiシステムに問い合わせる必要があります。
+Adobe Campaign標準とMicrosoft Dynamics 365の統合を有効にするには、このドキュメントで説明するように、サードパーティプロバイダーのUnifiを使用してユーザーアカウントを作成する必要があります。   Unifiシステムのエンドユーザーは、Unifiシステム内の顧客が開始したデータ要求に関する問い合わせについて、Unifiシステムに問い合わせる必要があります。
 
 ## この統合の設定
 
-この統合には、次の3つのシステムをプロビジョニングし、設定する必要があります。Adobe Campaign Standard、Microsoft Dynamics 365 for Sales、Unifi。 設定の記事は以下にリンクされています。
+この統合には、次の3つのシステムをプロビジョニングし、設定する必要があります。Adobe Campaign標準、Microsoft Dynamics 365 for Sales、Unifi。 設定の記事は以下にリンクされています。
 
 >[!CAUTION]
 >
@@ -89,4 +89,4 @@ Unifiの予想応答時間：米国の通常の営業時間（月曜～金曜の
 
 >[!CAUTION]
 >
->サポートの要請に関連して、Adobe Campaignのインスタンス情報をUnifiと共有する必要がある場合があります。
+>サポートの要請に関連して、UnifiとAdobe Campaignインスタンス情報を共有する必要がある場合があります。
