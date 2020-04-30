@@ -12,7 +12,7 @@ discoiquuid: 6fa50f0d-3dcf-4a9e-bccc-1ecda2bfb449
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 50aeb40d891f6a089a556ef25eba87e568a88e94
+source-git-commit: b8c3569fc3965f463a06ae8375a623553037e248
 
 ---
 
@@ -30,7 +30,7 @@ source-git-commit: 50aeb40d891f6a089a556ef25eba87e568a88e94
 Adobe Campaign は、次の 2 つのタイプの Cookie を使用します。
 
 * セッションcookie（無効）。 連絡先に送信される電子メールの識別子(broadlogId)と、メッセージテンプレートの識別子(deliveryId)が含まれます。 Adobe Campaign が送信した E メールに含まれている URL を連絡先のユーザーがクリックすると追加され、この連絡先での Web 上の行動をトラッキングできるようになります。このセッション Cookie は、ブラウザーが閉じられると自動的に消去されます。連絡先のユーザーは、Cookie を拒否するようにブラウザーを設定できます。
-* Adobe Experience Cloudソリューション間で共有されるcookie。 これにより、Webサイトを訪問したときにExperience Cloudソリューションとやり取りするユーザーを特定できます。 このcookieの説明は、次のURLから入手できます。 [https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_mc.html](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_mc.html)。
+* Adobe Experience Cloudソリューション間で共有されるcookie。 これにより、Webサイトを訪問したときにExperience Cloudソリューションとやり取りするユーザーを特定できます。 このcookieの説明は、ここで参照で [きます](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_mc.html)。
 
 Adobe Campaign標準を使用した追跡では、次の機能にアクセスできます。
 
