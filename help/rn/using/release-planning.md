@@ -12,7 +12,7 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0c9f465ac3df39fd5df1266c2f993c0b08d3d4fd
+source-git-commit: 412fc89b8d0a075da8b0c458e2265abc5a4d4fbc
 
 ---
 
@@ -43,11 +43,11 @@ source-git-commit: 0c9f465ac3df39fd5df1266c2f993c0b08d3d4fd
  <tbody>
   <tr>
    <td>ステージ<br /> </td>
-   <td><s>2020年4月27日～28日</s> （遅れ）<br /> </td>
+   <td>遅延<br /> </td>
   </tr>
   <tr>
    <td> Production（本番）<br /> </td>
-   <td><s>2020年5月4日～11日</s> （遅れ）<br /> </td>
+   <td>遅延<br /> </td>
   </tr>
  </tbody>
 </table>
