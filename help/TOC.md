@@ -4,7 +4,7 @@ sub-product: Adobe Campaign Standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard ヘルプ
 translation-type: tm+mt
-source-git-commit: 381803b39527e175efc9a0d0ef8f4a427697db2d
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -389,7 +389,7 @@ source-git-commit: 381803b39527e175efc9a0d0ef8f4a427697db2d
       + [データリテンション](administration/using/data-retention.md)
       + [更新とメンテナンスの操作](administration/using/updates-and-maintenance-operations.md)
 + API の操作{#working-with-apis}
-   + [Campaign StandardAPIの概要](api/using/about-campaign-standard-apis.md)
+   + [Campaign StandardAPIの概要](api/using/get-started-apis.md)
    + Campaign Standard API について{#about-campaign-standard-apis}
       + [Campaign Standard API を使用する理由](api/using/why-using-campaign-standard-apis.md)
       + [API アクセスの設定](api/using/setting-up-api-access.md)
