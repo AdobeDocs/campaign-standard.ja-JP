@@ -12,7 +12,7 @@ discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aeaddca2188e2bdeda71bd35299ccd14398f3c52
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -61,7 +61,7 @@ Campaign Standardを使用すると、事前定義されたデータモデルを
 
 <img src="assets/do-not-localize/icon_api.svg" width="60px">
 
-Campaign StandardAPIを使用して、Adobe Campaign標準の統合を作成し、使用するテクノロジーのパネルとキャンペーンを連携させて独自のエコシステムを構築します。 [Campaign StandardREST APIの概要](../../api/using/about-campaign-standard-apis.md)
+Campaign StandardAPIを使用して、Adobe Campaign標準の統合を作成し、使用するテクノロジーのパネルとキャンペーンを連携させて独自のエコシステムを構築します。 [Campaign StandardREST APIの概要](../../api/using/get-started-apis.md)
 
 ## その他のリソース
 
