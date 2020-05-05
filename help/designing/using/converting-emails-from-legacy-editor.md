@@ -1,6 +1,6 @@
 ---
-title: 'レガシーエディターの電子メールの電子メールデザイナーへの変換 '
-description: レガシーエディターの電子メールで作成した電子メールを電子メールデザイナーに送信する方法を確認します。
+title: 'レガシーエディター電子メールの電子メールデザイナーへの変換 '
+description: レガシーエディター電子メールで作成した電子メールを電子メールデザイナーに送信する方法を確認します。
 page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
 contentOwner: sauviat
@@ -12,43 +12,43 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1de0f5362f3c77fec4b66e330a2d2723f4a0f212
+source-git-commit: caab111b583534cc2e52aa9e45d9fd37c770783c
 
 ---
 
 
 # レガシーエディターの電子メールコンテンツの変換 {#converting-an-html-content}
 
-開始は、電子メールデザイナーで作業し、レガシーエディターで作成した電子メールのHTMLから、再利用可能なテンプレートやフラグメントを作成します。
+電子メールデザイナーで作業する際に開始が発生した場合は、レガシーエディターで作成した電子メールHTMLから、再利用可能なテンプレートやフラグメントを作成してください。
+
+>[!IMPORTANT]
+>
+>この節は、HTMLコードに詳しい上級ユーザー向けです。
 
 この使用例では、HTML電子メールを使用して電子メールデザイナーテンプレートを作成し、電子メールデザイナーでHTMLコンポーネントに分割できます。
 
->[!CAUTION]
->
->この節は、HTMLコードに詳しい上級ユーザーを対象としています。
-
 >[!NOTE]
 >
->互換性モードと同様に、HTMLコンポーネントは、次の制限付きオプションで編集できます。インプレースエディションのみ実行できます。
+>互換モードと同様に、HTMLコンポーネントは次の制限付きオプションで編集できます。 インプレースエディションのみ実行できます。
 
-## 電子メールの内容の準備
+## 電子メールコンテンツの準備
 
 1. HTML電子メールを選択します。
 1. HTML電子メールを分割するセクションを指定します。
-1. HTMLの様々なブロックを切り抜きます。
+1. HTMLから異なるブロックを切り取ります。
 
-## 電子メールの構造を作成する
+## 電子メール構造の作成
 
-1. を開いて、空 **[!UICONTROL Email Designer]** の電子メールコンテンツを作成します。
-1. ボディレベルの属性を設定します。背景色、幅など For more on this, see [Editing email styles](../../designing/using/styles.md).
-1. 断追加面と同じ数の構造コンポーネント 詳しくは、「電子メール構造の [編集」を参照してください](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
+1. を開き、空の電子メールコンテンツ **[!UICONTROL Email Designer]** を作成します。
+1. ボディレベルの属性を設定します。 背景色、幅など For more on this, see [Editing email styles](../../designing/using/styles.md).
+1. 断追加面を持つ構造コンポーネントの数と同じ数 詳しくは、「電子メール構造の [編集](../../designing/using/designing-from-scratch.md#defining-the-email-structure)」を参照してください。
 
 ## 追加HTMLコンテンツ
 
-1. 各構追加造コンポーネントのHTMLコンポーネント。 詳しくは、フラグメントとコンポーネ [ントの追加を参照してください](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
+1. 各構造コンポ追加ーネントに対するHTMLコンポーネント。 詳しくは、「フラグメントとコンポーネントの [追加](../../designing/using/designing-from-scratch.md#defining-the-email-structure)」を参照してください。
 1. HTMLをすべてのコンポーネントにコピー&amp;ペーストします。
 
-## 電子メールのスタイルを管理します {#manage-the-style-of-your-email}
+## 電子メールのスタイルの管理 {#manage-the-style-of-your-email}
 
 1. Switch to **[!UICONTROL Mobile view]**. 詳しくは、[この節](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)を参照してください。
 
@@ -67,7 +67,7 @@ source-git-commit: 1de0f5362f3c77fec4b66e330a2d2723f4a0f212
    >
    >この後に、別のカスタムスタイルタグでスタイルを追加してください。
    >
-   >電子メールデザイナーで生成されたCSSは変更しないでください。
+   >電子メールデザイナで生成されたCSSは変更しないでください。
    >
    >* `<style data-name="default" type="text/css">(##)</style>`
    >* `<style data-name="supportIOS10" type="text/css">(##)</style>`
@@ -80,7 +80,7 @@ source-git-commit: 1de0f5362f3c77fec4b66e330a2d2723f4a0f212
 
 ## 使用例
 
-レガシーエディターで作成したこの電子メールをテンプレートに変換してみま **[!UICONTROL Email Designer]** しょう。
+レガシーエディターで作成したこの電子メールをテン **[!UICONTROL Email Designer]** プレートに変換してみましょう。
 
 ## 電子メールのセクションを特定する
 
@@ -92,25 +92,25 @@ HTMLのどのセクションかを識別するために、要素を選択でき�
 
 ![](assets/breadcrumbs.png)
 
-電子メールのHTMLバージョンを表示するには、をクリックしま **[!UICONTROL Show source]**&#x200B;す。
+電子メールのHTMLバージョンを表示するには、をクリックし **[!UICONTROL Show source]**&#x200B;ます。
 
-### 電子メールテンプレートとその構造を作成する
+### 電子メールテンプレートとその構造の作成
 
-1. 電子メールのレイアウト **[!UICONTROL Structure Components]** を反映してドラッグ&amp;ドロップします。
+1. 電子メールのレイアウトを **[!UICONTROL Structure components]** 反映してドラッグ&amp;ドロップします。
 
-11個の構造部品を作る必要があります
+1. 必要な回数だけ繰り返します。 11個の構造コンポーネントを作る必要があります
 
-![](assets/structure-components-migration.png)
+   ![](assets/structure-components-migration.png)
 
 ### HTMLコンテンツコンポーネントの挿入
 
-1. の各内にを **[!UICONTROL HTML component]** 挿入しま **[!UICONTROL structure component]** す。
+1. の各ファイル **[!UICONTROL HTML component]** にを挿入し **[!UICONTROL Structure component]** ます。
 
-![](assets/html-components.png)
+   ![](assets/html-components.png)
 
-1. 各セクションのをクリックしま **[!UICONTROL Show source code]** す。
+1. 各セクションで、をクリックし **[!UICONTROL Show source code]** ます。
 
-![](assets/show-source-code.png)
+   ![](assets/show-source-code.png)
 
 1. HTMLセクションを挿入します。
 
@@ -120,12 +120,12 @@ HTMLのどのセクションかを識別するために、要素を選択でき�
 
 ![](assets/migrated-email-result.png)
 
-### モバイル表示
+### モバイル表示に合わせたスタイルの管理
 
-CSS要素を挿入して、電子メールがモバイル表示に適していることを確認します。
+1. CSS要素を挿入して、電子メールがモバイル表示に適していることを確認します。
 
 1. ソースコードに切り替え、スタイルセクションを新しいスタイルセクションにコピー&amp;ペーストします。
 
-詳しくは、「電子メールのスタイ [ルの管理」を参照してください](#manage-the-style-of-your-email)。
+詳しくは、「電子メールのスタイルの [管理](#manage-the-style-of-your-email)」を参照してください。
 
 従来の電子メールが電子メールデザイナーで使用できるようになりました。
