@@ -12,7 +12,7 @@ discoiquuid: 9633e9ca-3323-499b-8259-45165d59a4d0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a73cbdd1af2ce134e10222ab07709639ba419ebe
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -31,7 +31,7 @@ source-git-commit: a73cbdd1af2ce134e10222ab07709639ba419ebe
 
 組織とは、管理者がグループとユーザーを設定し、Experience Cloud でのシングルサインオンを制御できるエンティティのことです。組織は、すべての Experience Cloud 製品およびソリューションにまたがるログイン会社のように機能します。ほとんどの場合、組織は勤務先の会社名です。ただし、1 つの会社が多くの組織を持つことができます。ユーザーと組織の管理について詳しくは、 [Adobe Experience Cloudヘルプポータルを参照してください](https://marketing.adobe.com/resources/help/ja_JP/mcloud/organizations.html)。
 
-他のシステムのデータフローをAdobe Campaignと統合する場合は、 [APIのドキュメントをご覧ください](../../api/using/about-campaign-standard-apis.md)。
+他のシステムのデータフローをAdobe Campaignと統合する場合は、 [APIのドキュメントをご覧ください](../../api/using/get-started-apis.md)。
 
 >[!NOTE]
 >
@@ -80,7 +80,7 @@ source-git-commit: a73cbdd1af2ce134e10222ab07709639ba419ebe
   </tr> 
   <tr> 
    <td> 目標地点(Analytics for Mobile)<br /> </td> 
-   <td> モバイルアプリのサブスクリプションから目標地点データを収集し、パーソナライズされたマーケティングメッセージをAdobe Campaignと共に送信できます。<br /> </td> 
+   <td> モバイルアプリの購読者から目標地点データを収集して、パーソナライズされたマーケティングメッセージとAdobe Campaignを送信できます。<br /> </td> 
    <td> <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">場所ベースのマーケティングメッセージとキャンペーンおよび目標地点データの送信</a> (Analytics for Mobile)<br /> </td> 
   </tr> 
   <tr> 
