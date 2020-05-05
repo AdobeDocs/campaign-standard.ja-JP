@@ -4,7 +4,7 @@ solution: Campaign Standard
 title: Adobe Campaign Standard 製品ドキュメント
 topic: Premium
 translation-type: tm+mt
-source-git-commit: a73cbdd1af2ce134e10222ab07709639ba419ebe
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -65,7 +65,7 @@ source-git-commit: a73cbdd1af2ce134e10222ab07709639ba419ebe
 | 便利なページ | 開発者向けリソース |
 |---|---|
 | [リリースノート](rn/using/release-notes.md) | [Experience Cloud のトリガー](integrating/using/about-adobe-experience-cloud-triggers.md) |
-| [コントロールパネルのドキュメント](https://docs.adobe.com/content/help/ja-JP/control-panel/using/control-panel-home.translate.html) | [Campaign API](api/using/about-campaign-standard-apis.md) |
+| [コントロールパネルのドキュメント](https://docs.adobe.com/content/help/ja-JP/control-panel/using/control-panel-home.translate.html) | [Campaign API](api/using/get-started-apis.md) |
 | [実装ガイド](https://helpx.adobe.com/jp/campaign/kb/campaign-standard-implementation-guide.html) | [エラーメッセージのリスト](https://docs.adobe.com/content/help/ja-JP/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [リリース計画](rn/using/release-planning.md) | [Campaign データモデル](developing/using/datamodel-introduction.md) |
 | [廃止および削除された機能](https://helpx.adobe.com/jp/campaign/kb/acs-deprecated-and-removed-features.html) | [マルチソリューションガイド](integrating/using/get-started-campaign-integrations.md) |
