@@ -13,7 +13,7 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7af424d2b2ce29811dc0deb015113de2de0124c0
+source-git-commit: faddcc870adcf9e71e50004a69a219b16ddc044f
 
 ---
 
@@ -44,7 +44,7 @@ source-git-commit: 7af424d2b2ce29811dc0deb015113de2de0124c0
    * 送信者アドレスとエラーアドレスの両方はアドビが設定します。 これらのフィールドは空にできません。
    * これらのフィールドは編集できません。 住所を更新する場合は、アドビカスタマーケアチームにお問い合わせください。
    * 別のアドレスを追加する場合は、 [コントロールパネルを使用して新しいサブドメインを設定するか](https://docs.adobe.com/content/help/ja-JP/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html) 、アドビカスタマーケアチームにお問い合わせください。 複数のマスクを使用する場合は、コンマで区切ります。
-   * **@yourdomain.comのような星形を使用してアドレスを設定することをお勧めします*。 サブドメイン名で終わる任意のアドレスを使用できます。
+   * *@yourdomain.comのような星形を使用してアドレスを設定することをお勧めします。 サブドメイン名で終わる任意のアドレスを使用できます。
 
 * **配信品質**
 
