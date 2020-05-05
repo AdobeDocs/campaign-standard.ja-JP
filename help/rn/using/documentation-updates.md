@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 62b1f9bb452c229b879f735830b330d0fda5ea3c
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -157,7 +157,7 @@ Adobe Campaign標準のモバイル配信の一般的なガイドラインに関
 
 キャンペーンとExperience Managerの使用に関するドキュメントが更新され、キャンペーンとExperience Managerの統合の使用方法に関する **ヒントの節が新たに追加されました**。 [詳細を表示](../../integrating/using/integrating-with-experience-manager.md#tips-aem)
 
-APIドキュメントのホームページが、様々なトピックへのリダイレクトにより改善されました。 [詳細を表示](../../api/using/about-campaign-standard-apis.md)
+APIドキュメントのホームページが、様々なトピックへのリダイレクトにより改善されました。 [詳細を表示](../../api/using/get-started-apis.md)
 
 ## ドキュメントの更新 — 2019年12月 {#doc-updates-december-2019}
 
@@ -179,7 +179,7 @@ Campaign Standard内のワークフローを使用してコントロール母集
 
 イン **ジケーターの計算** 表が更新されました。 [詳細を表示](../../reporting/using/indicator-calculation.md)
 
-APIドキュメントセットは、Campaign Standardドキュメントに統合されました。[詳細を表示](../../api/using/about-campaign-standard-apis.md)
+APIドキュメントセットは、Campaign Standardドキュメントに統合されました。[詳細を表示](../../api/using/get-started-apis.md)
 
 Creating a personalized email getting guide has been moved and updated. [詳細を表示](https://helpx.adobe.com/campaign/kb/acs-get-started-with-emails.html)
 
@@ -327,7 +327,7 @@ Adobe Campaignから直接利用できるコンテキストヘルプリンクが
 
 ファイルの **転送** アクティビティの新しい並べ替えオプションに情報が追加されました。 [詳細を表示](../../automating/using/transfer-file.md)
 
-REST APIドキュメント [が更新され](../../api/using/about-campaign-standard-apis.md) ました。
+REST APIドキュメント [が更新され](../../api/using/get-started-apis.md) ました。
 
 * Campaign StandardREST APIを使用する理由に関する一般的な情報を含む新しい節が追加されました。
 * 一般的な使用例を表す、事前設計されたAPIリクエストの集まりが利用可能になりました。
@@ -697,7 +697,7 @@ SMSドキュメントは更新され、 [SMS自動返信](../../channels/using/m
 
 APIを介したワークフロー管理に関する新しい節です。 [詳細を表示](../../api/using/controlling-a-workflow.md)
 
-主キーと、APIでのビジネスIDのキーとしての使用に特化した新しい節が追加されました。 [詳細を表示](../../api/using/about-campaign-standard-apis.md)
+主キーと、APIでのビジネスIDのキーとしての使用に特化した新しい節が追加されました。 [詳細を表示](../../api/using/get-started-apis.md)
 
 APIの単純なフィルターと複数のフィルターに関する情報を追加しました。 [詳細を表示](../../api/using/filtering.md)
 
@@ -849,7 +849,7 @@ REST APIでのリンクされたリソース — [詳細情報](../../developing
 
 Triggers統合： 2つの使用例が追加されました。 [詳細を表示](../../integrating/using/abandonment-triggers-use-cases.md)
 
-開発者APIドキュメントのデザインを一新し、新しい情報とコードスニペットを追加し、ユーザーエクスペリエンスを向上しました。 [詳細を表示](../../api/using/about-campaign-standard-apis.md)
+開発者APIドキュメントのデザインを一新し、新しい情報とコードスニペットを追加し、ユーザーエクスペリエンスを向上しました。 [詳細を表示](../../api/using/get-started-apis.md)
 
 新しい [読み取りオーディエンス](../../automating/using/read-audience.md) 、 [外部シグナル](../../automating/using/external-signal.md) ・ワークフロー・アクティビティの例を見つけます。
 
@@ -859,7 +859,7 @@ Triggers統合： 2つの使用例が追加されました。 [詳細を表示](
 
 外部レポート用のログエクスポート — [詳細情報](../../automating/using/exporting-logs.md)
 
-トランザクションメッセージングAPI - [詳細](../../api/using/about-campaign-standard-apis.md)
+トランザクションメッセージングAPI - [詳細](../../api/using/get-started-apis.md)
 
 トランザクションメッセージ向けのマーケティング機能 — [詳細](../../channels/using/profile-transactional-messages.md)
 
