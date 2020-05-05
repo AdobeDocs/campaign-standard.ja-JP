@@ -12,7 +12,7 @@ discoiquuid: aee81724-b425-47b4-af92-e55eff97836f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 40bb454d13de14658bfc30a6454a1a896bf3ad70
+source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 ---
 
@@ -78,10 +78,10 @@ Adobe Campaign標準は、オンラインとオフラインの戦略を調整し
 
 **独自のフィールドとリソースを使用してCampaign Standardデータモデル** を拡張し、すべてのデータモデルの変更を1つの表示に監視します。 [Campaign Standardデータモデルの概要](../../developing/using/get-started-data-model.md)
 
-**REST APIを利用して** 、様々な操作を実行し、Campaign Standardを独自のエコシステムに統合します。 [Campaign StandardREST APIの概要](../../api/using/about-campaign-standard-apis.md)
+**REST APIを利用して** 、様々な操作を実行し、Campaign Standardを独自のエコシステムに統合します。 [Campaign StandardREST APIの概要](../../api/using/get-started-apis.md)
 
 **1つの表示からキャンペーン** を管理： インスタンスを監視し、ユーザーの権限を管理します。 外部サーバーを設定してインスタンスに接続し、通信チャネルのパラメーターを設定します。 [Campaign Standard管理の概要](../../administration/using/get-started-campaign-administration.md)
 
 **Campaign Standardデータ管理機能を使用して** 、データの読み込みと書き出しを簡単に行うことができます。 [プロセスとデータ管理の概要](../../automating/using/get-started-workflows.md)
 
-**キャンペーン機能を他のソリューションと組み合わせて** 、最適なマーケティングキャンペーンを構築できます。 [Campaign Standard統合の概要](../../integrating/using/get-started-campaign-integrations.md)
+**キャンペーン機能を他のソリューションと組み合わせて** 、最適なマーケティングキャンペーンを構築します。 [Campaign Standard統合の概要](../../integrating/using/get-started-campaign-integrations.md)
