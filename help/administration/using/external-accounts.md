@@ -1,6 +1,6 @@
 ---
 title: 外部アカウント
-description: 外部アカウントを設定して、SFTPサーバーなどの外部システムとの接続を設定します。
+description: 外部アカウントを設定し、SFTPサーバーなどの外部システムとの接続を設定します。
 page-status-flag: never-activated
 uuid: 5d2e2e3d-5d1f-4466-97e5-842c50390146
 contentOwner: sauviat
@@ -13,7 +13,7 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 5b53f210bc8fc211b1f48f5b6ff8694bcaf41622
+source-git-commit: a73cbdd1af2ce134e10222ab07709639ba419ebe
 
 ---
 
@@ -27,7 +27,7 @@ source-git-commit: 5b53f210bc8fc211b1f48f5b6ff8694bcaf41622
 次のタイプの外部アカウントをセットアップできます。
 
 * SFTP. 詳しくは、[この節](#sftp-external-account)を参照してください。
-* Amazonストレージサービス(S3)。 詳しくは、[この節](#amazon-s3-external-account)を参照してください。
+* アマゾンストレージサービス(S3)。 詳しくは、[この節](#amazon-s3-external-account)を参照してください。
 * Adobe Experience Manager. 詳しくは、[この節](#adobe-experience-manager-external-account)を参照してください。
 * Adobe Analytics。 詳しくは、[この節](../../integrating/using/configure-campaign-analytics-integration.md)を参照してください。
 * Google reCAPTCHA. 詳しくは、[この節](#google-recaptcha-external-account)を参照してください。
@@ -35,9 +35,9 @@ source-git-commit: 5b53f210bc8fc211b1f48f5b6ff8694bcaf41622
 
 >[!NOTE]
 >
->その他のタイプの外部アカウントは、製品のプロビジョニングプロセスでアドビが使用します。 Campaign Standard17.9リリースからは、FTP外部アカウントは引き続き定義できますが、新しいワークフローアクティビティでは使用できなくなりました。 既に接続が設定されている場合は、その接続は有効です。
+>他の種類の外部アカウントは、製品のプロビジョニングプロセス中にアドビが使用します。 Campaign Standard17.9リリースからは、FTP外部アカウントは引き続き定義できますが、新しいワークフローアクティビティでは使用できなくなりました。 既に接続が設定されている場合、接続は有効のままです。
 
-外部アカウントは、管理者がメニューの下で設定で **[!UICONTROL Administration > Application settings > External accounts]** きます。
+外部アカウントは、 **[!UICONTROL Administration > Application settings > External accounts]** メニューの下の管理者が設定できます。
 
 ## 外部アカウントの作成 {#creating-an-external-account}
 
@@ -45,8 +45,8 @@ Adobe Campaign には、事前定義済みの外部アカウントのセット�
 
 外部アカウントは、テクニカルワークフローやキャンペーンワークフロー等の技術プロセスで使用されます。ワークフローのファイル転送や、その他のアプリケーション（Adobe Target、Experience Manager など）とのデータ交換をセットアップする際には外部アカウントを選択する必要があります。
 
-1. ボタンをクリッ **[!UICONTROL Create]** クします。
-1. ラベルを入力します。 ラベルとIDは、オプションで外部アカウントを選択する際に使用されます。
+1. ボタンをクリックし **[!UICONTROL Create]** ます。
+1. ラベルを入力します。 ワークフローで外部アカウントを選択する場合、ラベルとIDが使用されます。
 1. 作成するアカウントのタイプを選択します。
 1. 関連する場合は、資格情報、サーバーアドレス、ポート番号、またはキーを指定して、アカウントへのアクセスを設定します。
 
@@ -58,13 +58,13 @@ Adobe Campaign には、事前定義済みの外部アカウントのセット�
 
 ## SFTP 外部アカウント {#sftp-external-account}
 
-異なる外部アカウントタイプを指定するには、異なる情報を指定する必要があります。
+外部アカウントの種類ごとに異なる情報を指定する必要があります。
 
-SFTP外部アカウントの場合、次の詳細を入力します。
+SFTP外部アカウントの場合は、次の詳細を入力します。
 
-* サーバーアドレス. 例： **ftp.domain.com**。
+* サーバーアドレス. 例えば、 **ftp.domain.com**。
 * ポート番号。 For example, **22**.
-* SFTPサーバー資格情報：サーバーへの接続に使用するアカウント名とパスワード。
+* SFTPサーバー資格情報： サーバーへの接続に使用するアカウント名とパスワード。
 
 ### アドビがホストするSFTPサーバーの推奨事項 {#adobe-hosted-sftp-server-recommendations}
 
@@ -85,70 +85,70 @@ ETL のためのファイルやデータを管理する際、これらのファ�
 
 また、SFTP 接続の開始の試行元になるパブリック IP は Campaign インスタンスのホワイトリストに登録されている必要があります。ホワイトリストへの IP アドレスの登録は、認証に使用する公開鍵の提供と同様に、[サポートチケット](https://support.neolane.net)によって依頼できます。
 
-SFTPサーバーは、コントロールパネルから管理できます。 For more information, refer to the [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/sftp-management/about-sftp-management.html).
+SFTPサーバーは、コントロールパネルから管理できます。 For more information, refer to the [Control Panel documentation](https://docs.adobe.com/content/help/ja-JP/control-panel/using/sftp-management/about-sftp-management.html).
 
 >[!NOTE]
 >
 >コントロールパネルは、AWSでホストされるお客様の管理者ユーザーのみが使用できます。
-インスタンスがAWSでホストされているかどうかを確認 [します](https://docs.adobe.com/content/help/en/control-panel/using/faq.html#ims-org-id)。
+インスタンスがAWSでホストされているかどうかを確認 [します](https://docs.adobe.com/content/help/ja-JP/control-panel/using/faq.html#ims-org-id)。
 
 ## Amazon S3 external account {#amazon-s3-external-account}
 
-Amazon S3サーバーのフィールドには、次のように入力します。
+「Amazon S3 server」フィールドには、次のように入力する必要があります。
 
 ```
 <S3 bucket name>.s3.amazonaws.com/<s3 object path>
 ```
 
-ファイルをS3暗号化モードで保存するには、ボックスをオンに **[!UICONTROL Keep files in S3 encrypted]** します。
+ファイルをS3暗号化モードで保存するには、ボックスをオンにし **[!UICONTROL Keep files in S3 encrypted]** ます。
 
 ![](assets/external_accounts_2.png)
 
 必要な情報は通常、接続しているサーバーのプロバイダーから提供されます。
 
-エンドポイントに **[!UICONTROL AWS Region]** 関連付けられているを指定します。 サポートされる地域と署名のバージョンは、 [Amazon S3の公式ドキュメントで確認できます](https://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region)。
+エンドポイントに **[!UICONTROL AWS Region]** 関連付けるを指定します。 サポートされている地域と署名のバージョンについては、 [Amazon S3の公式ドキュメントを参照してください](https://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region)。
 
 >[!NOTE]
 >
->AWSリー **[!UICONTROL Receiver server]** ジョンを入力しないで、後でURLに自動的に追加されます。
+>AWSリージョン **[!UICONTROL Receiver server]** を入力しない場合は、後でURLに自動的に追加されます。
 
 ### Amazon S3アカウントの推奨事項 {#amazon-s3-account-recommendations}
 
-Amazon S3アカウントの設定を支援するため、以下の推奨事項に従うことをお勧めします。
+Amazon S3アカウントの設定を支援するため、次の推奨事項に従うことをお勧めします。
 
 * S3バケットへのアクセスを制限する厳密なバケットポリシーを作成します。 バケットポリシーは、バケットの作成時に設定できます。 For more information, refer to the [Amazon S3 documentation](https://docs.aws.amazon.com/AmazonS3/latest/dev//example-bucket-policies.html).
-* 外部アカウントの作成時に、このチェックボックスをオンにして、機密データをS3バケットに保存する暗号化を有効に **[!UICONTROL Keep files in S3 encrypted]** します。
+* 外部アカウントを作成する際に、このボックスをオンにして、S3バケットに機密データを格納する暗号化を有効にし **[!UICONTROL Keep files in S3 encrypted]** ます。
 * バケットの権限を付与して、バケット内のオブジェクトにアクセスできるユーザーを指定します。 バケット権限の詳細については、 [Amazon S3のドキュメントを参照してください](https://docs.aws.amazon.com/AmazonS3/latest/dev//access-control-overview.html)。
 
 ## Adobe Experience Manager の外部アカウント {#adobe-experience-manager-external-account}
 
-Adobe Experience Managerの外部アカウントは、Experience Managerとキャンペーンを統合する際に使用します。
+Adobe Experience Manager外部アカウントは、キャンペーンとExperience Managerを統合する際に使用します。
 
-この統合に関連するプロセスと要件は、このドキュメントで [使用できま](../../integrating/using/about-campaign-integrations.md)す。
+この統合に関連するプロセスと要件は、 [このドキュメントで利用できます](../../integrating/using/get-started-campaign-integrations.md)。
 
 この新規外部アカウントを設定する際には、次の情報を提供する必要があります。
 
-* サーバー：adobe Experience ManagerサーバーのURLを入力します。 例えば、 **http://aem.domain.com:4502**。
-* AEMアカウントの資格情報：adobe Experience Managerインスタンスにアクセスするアカウントを使用します。 Experience Managerのアカウントは、キャンペーンリモートグループの一部です。
+* サーバー： Adobe Experience ManagerサーバーのURLを入力します。 例えば、http://aem.domain.com:4502 **です**。
+* AEMアカウントの資格情報： Adobe Experience Managerインスタンスにアクセスするアカウントを使用します。 Experience Managerのキャンペーンリモートグループのアカウントに含める必要があります。
 
 ## Google reCAPTCHA外部アカウント {#google-recaptcha-external-account}
 
 >[!NOTE]
 >
->Google reCAPTCHAの設定にはGoogleアカウントが必要です。
+>Google reCAPTCHA設定にはGoogleアカウントが必要です。
 
-Google reCAPTCHAメカニズムを使用すると、ボットによるランディングページのスパムや悪用を防ぐことができます。 顧客からのインタラクションは不要で、サイトでのインタラクションに基づいているので、顧客にとっては侵入しないことです。 サイトを登録するには、このページを参照して [ください](https://www.google.com/recaptcha/admin/create)。 V3 reCAPTCHAタイプを選択する必要があります。
+GoogleのreCAPTCHAメカニズムを使用すると、ボットによるスパムや悪用からランディングページを保護できます。 これは、顧客からのインタラクションが不要で、サイトでのインタラクションに基づいているので、顧客にとって押し付けがましいものではありません。 サイトを登録するには、この [ページを参照してください](https://www.google.com/recaptcha/admin/create)。 V3 reCAPTCHAタイプを選択する必要があります。
 
-Google reCAPTCHA V3をランディングページに追加するには、まず外部アカウントで設定する必要があります。 ランディングページに追加する方法の詳細については、この節を参照してく [ださい](../../channels/using/configuring-landing-page.md#setting-google-recaptcha)。
+Google reCAPTCHA V3をランディングページに追加するには、まず外部アカウントでGoogle ReCAPTCHA V3を設定する必要があります。 ランディングページに追加する方法の詳細については、この [節を参照してください](../../channels/using/configuring-landing-page.md#setting-google-recaptcha)。
 
-Google reCAPTCHA V3外部アカウントの場合、次の詳細を入力します。
+Google reCAPTCHA V3外部アカウントの場合は、次の詳細を入力します。
 
-* お客様 **[!UICONTROL Label]** の **[!UICONTROL ID]** 外部アカウント
+* お客様 **[!UICONTROL Label]** の外部アカウント **[!UICONTROL ID]** の
 * **[!UICONTROL Type]**: Google reCAPTCHA
-* およ **[!UICONTROL Site key]** び **[!UICONTROL Site secret]**
-* A **[!UICONTROL Threshold]** - 0 ～ 1
+* お **[!UICONTROL Site key]** よび **[!UICONTROL Site secret]**
+* 0 ～ 1 **[!UICONTROL Threshold]** の範囲のA
 
-   値が0.0の場合、ボ **[!UICONTROL Threshold]** ットである可能性が高く、1.0の場合は適切な操作である可能性が高くなります。 デフォルトでは、しきい値0.5を使用できます。
+   0.0の **[!UICONTROL Threshold]** 値は、ボットの可能性が高く、1.0が適切な操作である可能性が高いことを意味します。 デフォルトでは、0.5のしきい値を使用できます。
 
 ![](assets/external_accounts_3.png)
 
@@ -156,24 +156,24 @@ Google reCAPTCHA V3外部アカウントの場合、次の詳細を入力しま�
 
 >[!NOTE]
 >
->Adobe Campaign Standardで外部アカウントを構成するために必要な情報は、Azure Portalで、>を選択して確認で **[!UICONTROL Settings]** きます **[!UICONTROL Access keys]**。
+>Adobe Campaign標準で外部アカウントを構成するために必要な情報は、Azure Portalで[ **[!UICONTROL Settings]** >]を選択して参照してください **[!UICONTROL Access keys]**。
 
-Azure BLOBストレージコネクタは、転送ファイルのワークフローアクティビティを使用して、Adobe Campaignにデータをインポートまたはエク **[!UICONTROLTスポートする]** ために使用できます。 詳しくは、[この節](../../automating/using/transfer-file.md#azure-blob-configuration-wf)を参照してください。
+Azure BLOBストレージコネクタは、転送ファイル **[!UICONTROLTワークフローAdobe Campaignを使用して、データをアクティビティにインポートまたはエクスポートするために使用できます]** 。 詳しくは、[この節](../../automating/using/transfer-file.md#azure-blob-configuration-wf)を参照してください。
 
-Microsoft Azure BLOBストレージ外部アカウントの場合、次の詳細を入力します。
+Microsoft Azure Blobストレージ外部アカウントの場合は、次の詳細を入力します。
 
-* お客様 **[!UICONTROL Label]** の **[!UICONTROL ID]** 外部アカウント
-* **[!UICONTROL Type]**:Microsoft Azure Blobストレージ
-* お前 **[!UICONTROL Account name]** と **[!UICONTROL Account key]**。 To know where to find your account name and key, refer to this [page](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage).
-* あなた **[!UICONTROL Endpoint suffix]**&#x200B;の。 Azure Portalのメニュー **[!UICONTROL Connection string]** 内にあ **[!UICONTROL Access keys]** ります。 詳しくは、この[ページ](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage)を参照してください。
-* お名 **[!UICONTROL Container]** 前。 複数のコンテナを使用する場合は、外部アカウントと同じ数のコンテナを作成します。
-* このオ **[!UICONTROL Concurrency]** プションを使用すると、ファイル転送の速度を微調整できます。
+* お客様 **[!UICONTROL Label]** の外部アカウント **[!UICONTROL ID]** の
+* **[!UICONTROL Type]**: Microsoft Azure Blobストレージ
+* お **[!UICONTROL Account name]** よび **[!UICONTROL Account key]**。 To know where to find your account name and key, refer to this [page](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage).
+* あなたの **[!UICONTROL Endpoint suffix]**。 Azure Portalの **[!UICONTROL Connection string]****[!UICONTROL Access keys]** メニュー内にあります。 詳しくは、この[ページ](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage)を参照してください。
+* お **[!UICONTROL Container]** 名前。 複数のコンテナを使用する予定がある場合は、コンテナ数と同じ数の外部アカウントを作成する必要があります。
+* この **[!UICONTROL Concurrency]** オプションを使用すると、ファイル転送の速度を微調整できます。
 
 ![](assets/external_accounts_4.png)
 
-構成が完了したら、クリ **[!UICONTROL Test connection]** ックしてAdobe CampaignをMicrosoft Azure Blobストレージにリンクします。
+構成が完了したら、クリック **[!UICONTROL Test connection]** してAdobe CampaignをMicrosoft Azure Blobストレージにリンクします。
 
-### Microsoft Azure Blobストレージの推奨 {#azure-blob-recommendations}
+### Microsoft Azure Blobストレージの推奨事項 {#azure-blob-recommendations}
 
 **暗号化**
 
@@ -181,20 +181,20 @@ Adobe Campaignは、セキュリティで保護された接続(HTTPS)を使用�
 
 **アカウントキー**
 
-外部アカウントを構成する際は、Azure Portalで使用可能ないず **[!UICONTROL Account key]** れかを使用する必要があります。 For more information on where to find your account keys, refer to this [page](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage#view-access-keys-and-connection-string).
+外部アカウントを構成する際は、Azure Portalで **[!UICONTROL Account key]** 使用可能ないずれかを使用する必要があります。 For more information on where to find your account keys, refer to this [page](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage#view-access-keys-and-connection-string).
 
 **ファイル転送速度の最適化**
 
-このオ **[!UICONTROL Concurrency]** プションを使用すると、ファイル転送の速度を微調整できます。
-ファイル転送の実行に使用されるスレッドの数を表します。 これらの各スレッドは、約1 MBの部分をBLOBからダウンロードします。 その後、ディスクに書き込むためのキューに格納されます。 スレッドの数を増やすと、ファイル転送中にアプリケーションが使用するリソースの負荷も増えます。
+この **[!UICONTROL Concurrency]** オプションを使用すると、ファイル転送の速度を微調整できます。
+ファイル転送の実行に使用されるスレッド数を表します。 これらの各スレッドは、約1 MBの部分をBLOBからダウンロードします。 その後、ディスクに書き込むためのキューに格納されます。 スレッドの数を増やすと、ファイル転送中にアプリケーションが使用するリソースの負荷も増えることに注意してください。
 
 ファイル転送の完了後は、ワークフローログにパフォーマンス指標が表示されます。
 
 **再試行**
 
-既定では、Azure Blobのファイル転送には最大4つの再試行が含まれます。  Azureストレージサービスが503 （サーバービジー）や500 （操作のタイムアウト）などのエラーコードを返した場合、ストレージアカウントのスケーラビリティに近づいているか、それを超えている可能性があります。 これは、新しいアカウントを使用する場合や、テストを実行する場合に発生する可能性があります。
+既定では、Azure Blobのファイル転送には最大4つの再試行が含まれます。  Azureストレージサービスが503 （サーバービジー）や500 （操作タイムアウト）などのエラーコードを返す場合は、ストレージアカウントのスケーラビリティに近づいているか、それを超えている可能性があります。 これは、新しいアカウントを使用している場合や、テストを実行している場合に発生する可能性があります。
 
-エラーが引き続き発生する場合は、詳細メニュー//の下にオプションを作成して、再試行数を増や **[!UICONTROL Administration]** すことが **[!UICONTROL Application Settings]** できま **[!UICONTROL Options]**&#x200B;す。
+エラーが解決しない場合は、詳細メニュー **[!UICONTROL Administration]** / **[!UICONTROL Application Settings]** >の下にオプションを作成して、再試行数を増やすことができ **[!UICONTROL Options]**&#x200B;ます。
 
 実装する場合は、次のようにオプションを作成する必要があります。
 
