@@ -4,7 +4,7 @@ sub-product: Adobe Campaign Standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard ヘルプ
 translation-type: tm+mt
-source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
+source-git-commit: 381803b39527e175efc9a0d0ef8f4a427697db2d
 
 ---
 
@@ -23,28 +23,19 @@ source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
    + [リリース計画](rn/using/release-planning.md)
    + [廃止された機能](rn/using/deprecated-features.md)
 + はじめに{#getting-started}
-   + Adobe Campaign について{#about-adobe-campaign}
-      + [キャンペーンオーケストレーション](start/using/campaign-orchestration.md)
-      + [プライバシーと同意](start/using/privacy.md)
-      + [セグメント化とターゲティング](start/using/segmentation-and-targeting.md)
-      + [動的でパーソナライズされたコンテンツ](start/using/dynamic-and-personalized-content.md)
-      + [トラッキング、監視、およびレポート](start/using/tracking--monitoring-and-reporting.md)
-      + [アドビのソリューションとの統合について](start/using/integrating-with-adobe-solutions.md)
-      + [Campaign データベースの強化](start/using/enriching-campaign-database.md)
+   + [Adobe Campaign標準について](start/using/about-campaign-standard.md)
+   + [プライバシーと同意](start/using/privacy.md)
    + インターフェイスの検出{#discovering-the-interface}
       + [インターフェイスについて](start/using/about-the-interface.md)
       + [インターフェイスの説明](start/using/interface-description.md)
       + [リストのカスタマイズ](start/using/customizing-lists.md)
-   + マーケティングプラン{#marketing-plans}
+   + マーケティングアクティビティの使用 {#marketing-plans}
       + [プログラムとキャンペーン](start/using/programs-and-campaigns.md)
       + [マーケティング活動](start/using/marketing-activities.md)
       + [マーケティング活動テンプレート](start/using/marketing-activity-templates.md)
       + [タイムライン](start/using/timeline.md)
-   + チュートリアル{#tutorials}
-      + [詳細な手順ガイド](start/using/step-by-step-guides.md)
-      + [ハウツービデオ](start/using/how-to-videos.md)
 + プロファイルとオーディエンス{#profiles-and-audiences}
-   + [プロファイルとオーディエンスについて](audiences/using/about-profiles-and-audiences.md)
+   + [プロファイルとオーディエンスの使用を開始する](audiences/using/get-started-profiles-and-audiences.md)
    + プロファイルの管理{#managing-profiles}
       + [プロファイルについて](audiences/using/about-profiles.md)
       + [プロファイルの作成](audiences/using/creating-profiles.md)
@@ -52,6 +43,7 @@ source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
       + [統合された顧客プロファイル](audiences/using/integrated-customer-profile.md)
       + [アクティブなプロファイル](audiences/using/active-profiles.md)
       + [テストプロファイルの管理](audiences/using/managing-test-profiles.md)
+      + [Campaign データベースの強化](audiences/using/enriching-campaign-database.md)
    + オーディエンスの管理{#managing-audiences}
       + [オーディエンスについて](audiences/using/about-audiences.md)
       + [オーディエンスの作成](audiences/using/creating-audiences.md)
@@ -71,8 +63,8 @@ source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
       + [Adobe Experience Platform オーディエンスの管理](audiences/using/aep-managing-audiences.md)
       + [統合セグメントビルダーの使用](audiences/using/aep-using-segment-builder.md)
 + 通信チャネル{#communication-channels}
+   + [コミュニケーションチャネルを使い始める](channels/using/get-started-communication-channels.md)
    + 通信チャネルについて{#about-communication-channels}
-      + [通信チャネルの検出](channels/using/discovering-communication-channels.md)
       + [メッセージを送信するための主要な手順](channels/using/key-steps-to-send-a-message.md)
       + [メッセージへのアクセス](channels/using/accessing-messages.md)
       + [メッセージダッシュボード](channels/using/message-dashboard.md)
@@ -135,14 +127,14 @@ source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
       + [再利用可能なコンテンツの使用](designing/using/using-reusable-content.md)
       + [マルチソリューション統合の使用](designing/using/using-integrations.md)
       + [プレーンテキスト、HTML およびモバイル電子メールの編集](designing/using/plain-text-html-modes.md)
-      + [レガシーエディターの電子メールの電子メールデザイナーへの変換](designing/using/converting-emails-from-legacy-editor.md)
+      + [レガシーエディターから電子メールデザイナーへの電子メールの変換](designing/using/converting-emails-from-legacy-editor.md)
    + [電子メールコンテンツのパーソナライズ](designing/using/personalization.md)
    + [電子メールスタイルの管理](designing/using/styles.md)
    + [リンクの管理](designing/using/links.md)
    + [画像の管理](designing/using/images.md)
    + [よくある質問](designing/using/faq-email-designer.md)
 + テストと送信{#testing-and-sending}
-   + [Campaign でのメッセージの送信について](sending/using/about-sending-messages-with-campaign.md)
+   + [テストと送信を開始する](sending/using/get-started-sending-messages.md)
    + メッセージの準備とテスト{#preparing-and-testing-messages}
       + [プレビュー配信](sending/using/previewing-messages.md)
       + [送信の準備](sending/using/preparing-the-send.md)
@@ -182,6 +174,7 @@ source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
       + [疲労ルール](sending/using/fatigue-rules.md)
       + [コントロールルール](sending/using/control-rules.md)
 + レポート{#reporting}
+   + [動的レポートの概要](reporting/using/get-started-reporting.md)
    + レポートについて{#about-reporting}
       + [動的レポートについて](reporting/using/about-dynamic-reports.md)
       + [レポートインターフェイス](reporting/using/reporting-interface.md)
@@ -212,7 +205,7 @@ source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
       + [カスタムプロファイルディメンションの作成](reporting/using/creating-a-custom-profile-dimension.md)
       + [ワークフローセグメントに基づくレポートの作成](reporting/using/creating-a-report-workflow-segment.md)
 + 他のソリューションとの統合 {#integrating-with-adobe-cloud}
-   + [Campaign 統合について](integrating/using/about-campaign-integrations.md)
+   + [キャンペーン統合の概要](integrating/using/get-started-campaign-integrations.md)
    + Campaign と Experience Manager {#working-with-campaign-and-experience-manager}
       + [Campaign-Experience Manager 統合について](integrating/using/integrating-with-experience-manager.md)
       + [Campaign-Experience Manager 統合の設定](integrating/using/configure-experience-manager.md)
@@ -243,29 +236,27 @@ source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
       + [トリガーのテスト](integrating/using/testing-your-triggers.md)
       + [中断トリガーの使用例](integrating/using/abandonment-triggers-use-cases.md)
    + Campaign と Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
+      + [Microsoft Dynamics 365 統合用の Adobe IO の設定](integrating/using/configure-adobe-io-for-ms-dynamic.md)
       + Campaign Standard と Microsoft Dynamics 365 の操作 {#working-with-campaign-standard-and-ms-dynamics}
          + [Microsoft Dynamics 365統合の概要](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
          + [Microsoft Dynamics 365統合について](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
-         + [Microsoft Dynamics 365統合の要求と構成](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
-         + [Microsoft Dynamics 365統合の使用](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
+         + [Microsoft Dynamics 365統合を要求し、構成します](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
+         + [Microsoft Dynamics 365統合を使用する](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
       + [Microsoft Dynamics 365 統合用の Adobe IO の設定](integrating/using/configure-adobe-io-for-ms-dynamic.md)
       + [Campaign 統合用の Microsoft Dynamics 365 の設定](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
       + [Microsoft Dynamics 365 統合用の Unifi の設定](integrating/using/configure-unifi-for-microsoft-dynamics-365-integration.md)
       + [Campaign のカスタムリソースと Dynamics 365 カスタムエンティティのマッピング](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
 + プロセスとデータの管理{#managing-processes-and-data}
-   + ワークフローとデータ管理について{#about-workflows-and-data-management}
-      + [ワークフローのデータとプロセス](automating/using/workflow-data-and-processes.md)
-      + [ワークフローの検索](automating/using/discovering-workflows.md)
-      + [ワークフローの運用原則](automating/using/workflow-operating-principles.md)
-      + [ワークフローインターフェイス](automating/using/workflow-interface.md)
+   + [データとプロセスの管理の概要](automating/using/get-started-workflows.md)
    + ワークフローの一般操作{#workflow-general-operation}
+      + [ワークフローインターフェイス](automating/using/workflow-interface.md)
       + [ワークフローの作成](automating/using/building-a-workflow.md)
       + [データのターゲティング](automating/using/targeting-data.md)
       + [データのインポート](automating/using/importing-data.md)
       + [ワークフローデータの使用](automating/using/using-workflow-data.md)
       + [ワークフローの実行](automating/using/executing-a-workflow.md)
-      + [外部パラメーターを使用したワークフローの呼び出し](automating/using/calling-a-workflow-with-external-parameters.md)
       + [ワークフローのベストプラクティス](automating/using/best-practices-workflows.md)
+   + [外部パラメーターを使用したワークフローの呼び出し](automating/using/calling-a-workflow-with-external-parameters.md)
    + ターゲティングアクティビティ{#targeting-activities}
       + [ターゲティングアクティビティについて](automating/using/about-targeting-activities.md)
       + [クエリ](automating/using/query.md)
@@ -327,6 +318,7 @@ source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
       + [Adobe Experience Platform オーディエンスのターゲティング](automating/using/aep-targeting-audiences.md)
       + [Adobe Experience Platform 属性を使用したキャンペーンのパーソナライズ](automating/using/aep-personalizing-campaigns.md)
 + 開発中{#developing}
+   + [Campaign Standardデータモデルの概要](developing/using/get-started-data-model.md)
    + カスタムリソースについて{#about-custom-resources}
       + [データモデルの概念](developing/using/data-model-concepts.md)
       + [リソースのステータス](developing/using/resource-statuses.md)
@@ -364,12 +356,15 @@ source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
       + [トラッキングログ](developing/using/datamodel-tracking.md)
       + [サブスクリプション解除イベント](developing/using/datamodel-unsubscription.md)
       + [訪問者](developing/using/datamodel-visitor.md)
+   + Adobe Experience Platform Data Connector {#mapping-campaign-and-aep-data}
+      + [Adobe Experience Platform Data Connector について](developing/using/aep-about-data-connector.md)
+      + [Experience Platform データモデルの概要](developing/using/aep-data-model-overview.md)
+      + [マッピング定義](developing/using/aep-mapping-definition.md)
+      + [マッピングの有効化](developing/using/aep-mapping-activation.md)
+      + [API によるデータ取り込みのトリガー](developing/using/aep-triggering-data-ingestion.md)
 + 管理{#administrating}
-   + [Adobe Campaign の管理について](administration/using/about-administrating-adobe-campaign.md)
-   + 設定のガイドライン {#configuration-guidelines}
-      + [設定のガイドラインについて](administration/using/about-configuration-guidelines.md)
-      + [互換性のあるブラウザー](administration/using/compatible-browsers.md)
-      + [Campaign Standard ネットワークエンドポイント](administration/using/campaign-standard-network-endpoints.md)
+   + [Campaign Standard管理の概要](administration/using/get-started-campaign-administration.md)
+   + [設定のガイドライン](administration/using/about-configuration-guidelines.md)
    + ユーザーとセキュリティ{#users-and-security}
       + [アクセス管理について](administration/using/about-access-management.md)
       + [ユーザー管理](administration/using/users-management.md)
@@ -393,15 +388,9 @@ source-git-commit: f61820a49677698c02fab7e4f2be72195dd965c9
       + [内部通知の送信](administration/using/sending-internal-notifications.md)
       + [データリテンション](administration/using/data-retention.md)
       + [更新とメンテナンスの操作](administration/using/updates-and-maintenance-operations.md)
-   + Adobe Experience Platform Data Connector {#mapping-campaign-and-aep-data}
-      + [Adobe Experience Platform Data Connector について](administration/using/aep-about-data-connector.md)
-      + [Experience Platform データモデルの概要](administration/using/aep-data-model-overview.md)
-      + [マッピング定義](administration/using/aep-mapping-definition.md)
-      + [マッピングの有効化](administration/using/aep-mapping-activation.md)
-      + [API によるデータ取り込みのトリガー](administration/using/aep-triggering-data-ingestion.md)
 + API の操作{#working-with-apis}
+   + [Campaign StandardAPIの概要](api/using/about-campaign-standard-apis.md)
    + Campaign Standard API について{#about-campaign-standard-apis}
-      + [概要](api/using/about-campaign-standard-apis.md)
       + [Campaign Standard API を使用する理由](api/using/why-using-campaign-standard-apis.md)
       + [API アクセスの設定](api/using/setting-up-api-access.md)
    + グローバルな概念{#global-concepts}
