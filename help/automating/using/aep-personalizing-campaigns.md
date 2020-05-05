@@ -1,6 +1,6 @@
 ---
-title: Adobe Experience Platform属性を使用したキャンペーンのパーソナライズ
-description: Adobe Experience Platform属性を使用してキャンペーンをパーソナライズする方法について説明します。
+title: Adobe Experience Platform 属性を使用したキャンペーンのパーソナライズ
+description: Adobe Experience Platform属性を使用してキャンペーンをパーソナライズする方法を説明します。
 page-status-flag: never-activated
 uuid: 528d9472-e447-47af-a6b2-3181aa5fb5ad
 contentOwner: sauviat
@@ -12,38 +12,38 @@ discoiquuid: 19796aca-6e9e-4d3a-8917-ba660ec7993c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4b18f3b93394101eb569799bcfe362b4daf8f250
+source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 ---
 
 
-# Adobe Experience Platform属性を使用したキャンペーンのパーソナライズ {#personalizing-campaigns-using-aep-attributes}
+# Adobe Experience Platform 属性を使用したキャンペーンのパーソナライズ {#personalizing-campaigns-using-aep-attributes}
 
 >[!IMPORTANT]
 >
->Audience Destinationsサービスは現在ベータ版で、予告なく頻繁に更新される場合があります。 これらの機能にアクセスするには、Azureでホストする必要があります（現在、北米向けベータ版のみ）。 ご希望の場合は、アドビカスタマーケアにお問い合わせください。
+>オーディエンス宛先サービスは現在ベータ版で、予告なく頻繁に更新される可能性があります。 これらの機能にアクセスするには、お客様はAzureでホストされる必要があります（現在、北米向けベータ版のみ）。 アドビカスタマーケアにお問い合わせの際は、アドビカスタマーケアにご連絡ください。
 >
->**Adobe Experience Platformのコ** ンテキストデータを使用したパーソナライゼーションでは **** 、プッシュチャネルとアプリ内チャネルはまだ利用できません。
+>**Adobe Experience** Platformのコンテキストデータを使用したパーソナライゼーションでは **、プッシュ** チャネルとアプリ内プラットフォームはまだ使用できません。
 
-ワークフローが [Adobe Experience Platformオーディエンスを使用して設定されると](../../audiences/using/aep-about-audience-destinations-service.md)、エクスペリエンスデータモデル(XDM)にのみ存在するプロファイル属性を使用してメッセージをパーソナライズできます。
+ワークフローが [Adobe Experience Platformオーディエンスを使用して設定されたら](../../audiences/using/aep-about-audience-destinations-service.md)、Experience Data Model(XDM)専用のプロファイル属性を使用してメッセージをパーソナライズできます。
 
-これを行うには、次の属性をアクティビティに追加する必要があ **[!UICONTROL Read audience]**ります。
+これを行うには、次の属性を **[!UICONTROL Read audience]** アクティビティに追加する必要があります。
 
-1. Open the **[!UICONTROL Read audience]**activity. タブで、ボ**[!UICONTROL Additional data]** タンをクリックし **[!UICONTROL Create element]**ます。
+1. Open the **[!UICONTROL Read audience]** activity. タブで、 **[!UICONTROL Additional data]** ボタンをクリックし **[!UICONTROL Create element]** ます。
 
-   このタブは、Adobe Experience Platform **[!UICONTROL Additional data]**オーディエンスが選択された後でのみ使用できます。
+   この **[!UICONTROL Additional data]** タブは、Adobe Experience Platformオーディエンスを選択した後でのみ使用できます。
 
    ![](assets/aep_wkf_readaudience_attributes.png)
 
    >[!NOTE]
    >
-   >この機能では、配列とマップのデータ型はサポートされていません。 また、ユニオンスキーマのデータのみがピッカーに表示されます。
+   >この機能では、配列とマップのデータ型はサポートされていません。 また、和集合スキーマのデータのみがピッカーに表示されます。
 
-1. リストから目的のXDMフィールドを選択し、をクリックしま **[!UICONTROL Confirm]**す。
+1. リストから目的のXDMフィールドを選択し、をクリックし **[!UICONTROL Confirm]**&#x200B;ます。
 
    ![](assets/aep_wkf_readaudience_perso1.png)
 
-1. ボタンをク **[!UICONTROL Add]**リックして、追加データのリストに追加します。
+1. ボタンをクリックし **[!UICONTROL Add]** て、追加データのリストに追加します。
 
    ![](assets/aep_wkf_readaudience_perso3.png)
 
@@ -51,12 +51,12 @@ source-git-commit: 4b18f3b93394101eb569799bcfe362b4daf8f250
 
    >[!NOTE]
    >
-   >アクティビティに追加できるXDMフィールドの数は最大20個 **[!UICONTROL Read audience]**です。
+   >1つの **[!UICONTROL Read audience]** アクティビティに追加できるXDMフィールドの数は最大20個です。
 
-1. すべてのフィールドを追加したら、ボタンをクリック **[!UICONTROL Confirm]**して変更を保存します。 これで、配信をパーソナライズできるようになります。
+1. すべてのフィールドを追加したら、 **[!UICONTROL Confirm]** ボタンをクリックして変更を保存します。 これで、配信をパーソナライズできるようになります。
 
-配信を作成およびパーソナライズする方法について詳しくは、キャンペーン標準のドキュメントを参照してください。
+配信を作成およびパーソナライズする方法について詳しくは、Campaign Standardのドキュメントを参照してください。
 
-* [通信チャネルの検出](../../channels/using/discovering-communication-channels.md)
+* [通信チャネルの検出](../../channels/using/get-started-communication-channels.md)
 * [チャネルアクティビティについて](../../automating/using/about-channel-activities.md)
 * [配信のパーソナライゼーション](../../designing/using/personalization.md)
