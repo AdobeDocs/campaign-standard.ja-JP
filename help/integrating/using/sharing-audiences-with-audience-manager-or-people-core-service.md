@@ -1,18 +1,18 @@
 ---
 title: Audience Manager または People コアサービスのオーディエンスを共有
-description: 様々なAdobe Experience cloudソリューション内でオーディエンスを読み込むまたは書き出す方法について説明します。
-page-status-flag: 非活性化の
+description: 様々なAdobe Experience Cloudソリューション内でオーディエンスを読み込んだり書き出したりする方法について説明します。
+page-status-flag: never-activated
 uuid: a3701e72-5846-4241-afee-d713b499a27a
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 統合
-content-type: 参照
-topic-tags: キャンペーンとオーディエンスの管理者または人々のコアサービスの利用
+audience: integrating
+content-type: reference
+topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 discoiquuid: 77af0772-52b5-46bc-a964-675b45965524
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 ---
 
@@ -21,65 +21,65 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ## オーディエンスのインポート {#importing-an-audience}
 
-Peopleコアサービスの統合により、技術的なワークフローを介してAdobe Campaignにオーディエンスを直接インポートし、データベースを強化できます。 For more information on audience sharing in People core service, refer to this [documentation](https://marketing.adobe.com/resources/help/en_US/mcloud/t_publish_audience_segment.html).
+Peopleコアサービスの統合により、技術的なワークフローを介してオーディエンスをAdobe Campaignに直接インポートし、データベースを拡張できます。 For more information on audience sharing in People core service, refer to this [documentation](https://marketing.adobe.com/resources/help/ja_JP/mcloud/t_publish_audience_segment.html).
 
-Adobe CampaignのPeopleコアサービスからのオーディエンス/セグメントのインポートは、IMS（Adobe IDによる認証）を介して接続され **[!UICONTROL Audiences]** たユーザーのみがメニューから実行できます。
+Adobe CampaignのPeopleコアサービスからオーディエンス/セグメントを読み込む操作は、IMS（Adobe IDを使用した認証）を介して接続されているユーザーのみが **[!UICONTROL Audiences]** メニューから実行できます。
 
-1. メニューに移動 **[!UICONTROL Audiences]** します。
-1. アクションバーで、オーディエ **[!UICONTROL Create]** ンスを作成する画面に移動するよう選択します。
+1. メニューに移動し **[!UICONTROL Audiences]** ます。
+1. アクションバーで、オーディエンスを作成す **[!UICONTROL Create]** る画面に移動することを選択します。
 1. 新しいオーディエンスのラベルを指定します。
-1. オーディエンスを **[!UICONTROL Type]** 設定して、 **[!UICONTROL Experience Cloud]** 作成するオーディエンスがPeopleコアサービスから読み込まれたオーディエンスであることを示します。
-1. フィールドか **[!UICONTROL Name of the shared audience]** ら、読み込むオーディエンスを選択します。 インポートできるのはセグメントのみです。キーと値のペア、特徴、ルールなどの詳細データはサポートされません。
+1. オーディエンス **[!UICONTROL Type]****[!UICONTROL Experience Cloud]** をに設定し、作成するオーディエンスがPeopleコアサービスから読み込まれたオーディエンスであることを示します。
+1. フィールドから、読み込むオーディエンスを選択し **[!UICONTROL Name of the shared audience]** ます。 インポートできるのはセグメントのみです。キーと値のペア、特徴、ルールなどの詳細データはサポートされません。
 
    ![](assets/aam_import_audience.png)
 
-1. 対応するを選択しま **[!UICONTROL Shared Data Source]**&#x200B;す。
+1. 対応するを選択し **[!UICONTROL Shared Data Source]**&#x200B;ます。
 
-   選択したデータソースが暗号化アルゴリズムを使用するように設定されている場合は、追加のオプションを使用して暗号化を行うことができま **[!UICONTROL Force reconciliation with a profile]**&#x200B;す。 データソースのフィールドが電子メ **[!UICONTROL Channel]** ールまたはモバイル(SMS)に設定されていて、プロファイルデータを利用する場合は、このオプションを選択します。
+   選択したデータソースで暗号化アルゴリズムを使用するように設定されている場合は、他のオファーも使用でき **[!UICONTROL Force reconciliation with a profile]**&#x200B;ます。 データソースの **[!UICONTROL Channel]** フィールドが電子メールまたはモバイル(SMS)に設定されていて、プロファイルデータを活用する場合は、このオプションを選択します。
 
-   を選択せず、AMCデータソースで電 **[!UICONTROL Force reconciliation with a profile]** 子メールま **[!UICONTROL Channel]** たはモバイル(SMS)に設定した場合は、暗号化された宣言済みIDがすべて復号化されます。 すべての電子メールア **ドレス** /携帯電話番号のリストを持つファイルタイプのオーディエンスが作成/更新されます。 これにより、この統合を通じて共有オーディエンスをインポートする際に、そのプロファイルがCampaignに存在しない場合でも、電子メールアドレスや携帯電話番号が失われることはありません。 このタイプのオーディエンスは、ワークフローを使用して手動で調整する必要があるので、直接使用することはできません。
+   を選択しない場合 **[!UICONTROL Force reconciliation with a profile]** 、およびがAMCデータソースで電子メールまたはモバイル(SMS)に設定さ **[!UICONTROL Channel]** れている場合は、暗号化された宣言済みIDがすべて復号化されます。 すべての電子メールアドレス/携帯電話番号のリストを持つ **File** （ファイル）タイプのオーディエンスが作成/更新されます。 これにより、この統合を通じて共有オーディエンスを読み込む際に、そのプロファイルがキャンペーンに存在しない場合でも、電子メールアドレスや携帯電話番号が失われることはありません。 この種のオーディエンスは、ワークフローを使用して手動で調整する必要があるので、直接使用することはできません。
 
-1. オーディエンスの作成を確認します。
+1. 確認してオーディエンスを作成します。
 
-   オーディエンスは、次に技術的なワークフローを介してインポートされます。 これは、ID（「訪問者ID」または「宣言済みID」）をプロファイルディメンションと調整できたレコードで構成されます。 Adobe Campaign によって認識されない People コアサービスセグメントからの ID はインポートされません。
+   次に、オーディエンスを技術的なワークフローを介してインポートします。 これは、ID(「訪問者ID」または「宣言済みID」)をプロファイルディメンションと調整できたレコードで構成されます。 Adobe Campaign によって認識されない People コアサービスセグメントからの ID はインポートされません。
 
 これで、オーディエンスがAdobe Campaignデータベースにインポートされました。 インポートプロセスで、People コアサービスまたは Audience Manager からセグメントを直接インポートする場合は、同期に 24～36 時間かかります。同期が終了すると、Adobe Campaign で新しいオーディエンスを検索したり、使用したりできます。
 
 >[!NOTE]
 >
->Adobe AnalyticsからAdobe Campaignにオーディエンスをインポートする場合は、まずPeopleコアサービスまたはAudience Managerでオーディエンスを共有する必要があります。 このプロセスには 12～24 時間を要し、Campaign との同期にはさらに 24～36 時間が必要です。場合により、オーディエンスの共有プロセスは最大 60 時間に及ぶことがあります。People コアサービスと Audience Manager での Adobe Analytics オーディエンスの共有について詳しくは、この[ドキュメント](https://marketing.adobe.com/resources/help/en_US/mcloud/t_publish_audience_segment.html)を参照してください。
+>Adobe AnalyticsからAdobe Campaignにオーディエンスをインポートする場合、これらのオーディエンスを最初にPeopleコアサービスまたはオーディエンスマネージャーで共有する必要があります。 このプロセスには 12～24 時間を要し、Campaign との同期にはさらに 24～36 時間が必要です。場合により、オーディエンスの共有プロセスは最大 60 時間に及ぶことがあります。People コアサービスと Audience Manager での Adobe Analytics オーディエンスの共有について詳しくは、この[ドキュメント](https://marketing.adobe.com/resources/help/ja_JP/mcloud/t_publish_audience_segment.html)を参照してください。
 
 ## オーディエンスのエクスポート {#exporting-an-audience}
 
-オーディエンスは、ワークフローとアクティビティを使用して、Adobe CampaignからAudience ManagerまたはPeopleコアサービスにエクスポートで **[!UICONTROL Save audience]** きます。
+ワークフローと **[!UICONTROL Save audience]** アクティビティを使用して、オーディエンスをAdobe CampaignからオーディエンスマネージャーまたはPeopleコアサービスにエクスポートできます。
 
 新しいワークフローで実行でき、IMS（Adobe IDによる認証）を介して接続されたユーザーのみが実行できます。
 
-1. プログラム、キャンペーンまたはマーケティングアクティビティのリストから新しいワークフローを作成します。
-1. 利用可能な様々なアクティビティを使用して、一連のプロファイルをターゲット設定します。
-1. ターゲット設定後、アクティビティをワークフ **[!UICONTROL Save audience]** ローにドラッグ&amp;ドロップして開きます。
-1. Select **[!UICONTROL Share in Adobe Experience Cloud]**.
+1. プログラム、キャンペーン、またはマーケティングアクティビティのリストから新しいワークフローを作成します。
+1. 様々なアクティビティを使用して、一連のプロファイルをターゲットします。
+1. ターゲット設定の後、ワークフローに **[!UICONTROL Save audience]** アクティビティをドラッグ&amp;ドロップしてから開きます。
+1. 選択 **[!UICONTROL Share in Adobe Experience Cloud]**.
 
    ![](assets/aam_save_audience_activity.png)
 
-1. フィールドを使用してオーディエンスを指 **[!UICONTROL Shared audience]** 定します。 開いたウィンドウで、既存のオーディエンスを選択するか、新しいオーディエンスを作成するかを選択できます。
+1. フィールドを使用してオーディエンスを指定し **[!UICONTROL Shared audience]** ます。 開いたウィンドウで、既存のオーディエンスを選択するか、新しいオーディエンスを作成するかを選択できます。
 
    * 既存オーディエンスを選択した場合、新規レコードだけがオーディエンスに追加されます。
    * To export your profile list into a new audience, complete the **[!UICONTROL Segment name]** field then click **[!UICONTROL Create]** before selecting the newly created audience.
    ![](assets/aam_save_audience_segment_picker.png)
 
-   調整して交換するには、レコードにAdobe Experience Cloud ID（「訪問者ID」または「宣言済みID」）が含まれている必要があります。 オーディエンスのインポートおよびエクスポート時に、非調整レコードは無視されます。
+   調整して交換するには、レコードにAdobe Experience Cloud ID(「訪問者ID」または「宣言済みID」)が含まれている必要があります。 オーディエンスの読み込みおよび書き出し時に、非調整レコードは無視されます。
 
 1. 終了するには、画面の右上にあるチェックマークをクリックします。
-1. 対応するを選択しま **[!UICONTROL Shared Data Source]**&#x200B;す。
-1. 必要に応じて、書き出されたプロ **[!UICONTROL Generate an outbound transition]** ファイルを使用するチェックボックスをオンにします。 調整可能なプロファイルのみがエクスポートされます。
+1. 対応するを選択し **[!UICONTROL Shared Data Source]**&#x200B;ます。
+1. 必要に応じて、書き出されたプロファイルを使用する **[!UICONTROL Generate an outbound transition]** ボックスをオンにします。 調整可能なプロファイルのみがエクスポートされます。
 1. アクティビティの設定を確認し、ワークフローを保存します。
-1. ワークフローを開始して、オーディエンスを書き出します。 Adobe CampaignとPeopleコアサービス間の同期には数時間かかる場合があります
+1. オーディエンスを書き出すためのワークフローを開始します。 Adobe CampaignとPeopleコアサービス間の同期には数時間かかる場合があります
 
-Adobe Campaign と People コアサービス間の同期には、24～36 時間かかります。同期が終了すると、People コアサービスで新しいオーディエンスを検索できるようになり、そのオーディエンスを他の Adobe Experience Cloud ソリューションで再利用することができます。Adobe People コアサービスで Adobe Campaign の共有オーディエンスを使用する方法について詳しくは、この[ドキュメント](https://marketing.adobe.com/resources/help/en_US/mcloud/t_audience_create.html)を参照してください。
+Adobe Campaign と People コアサービス間の同期には、24～36 時間かかります。同期が終了すると、People コアサービスで新しいオーディエンスを検索できるようになり、そのオーディエンスを他の Adobe Experience Cloud ソリューションで再利用することができます。Adobe People コアサービスで Adobe Campaign の共有オーディエンスを使用する方法について詳しくは、この[ドキュメント](https://marketing.adobe.com/resources/help/ja_JP/mcloud/t_audience_create.html)を参照してください。
 
 **関連トピック：**
 
-* [ワークフロー](../../automating/using/workflow-data-and-processes.md)
+* [ワークフロー](../../automating/using/get-started-workflows.md)
 * [オーディエンス](../../audiences/using/about-audiences.md)
 
