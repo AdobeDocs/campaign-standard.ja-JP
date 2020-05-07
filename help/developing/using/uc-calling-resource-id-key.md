@@ -3,6 +3,9 @@ title: 複合 ID キーを使用したリソースの呼び出し
 description: 複合IDキーを使用してリソースを呼び出す方法を学習します。
 translation-type: tm+mt
 source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
