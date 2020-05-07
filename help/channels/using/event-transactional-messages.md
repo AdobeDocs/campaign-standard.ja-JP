@@ -14,6 +14,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+workflow-type: tm+mt
+source-wordcount: '2479'
+ht-degree: 0%
 
 ---
 
@@ -335,7 +338,7 @@ source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 
 **ログの更新を送信中**
 
-再試行プロセスでは、新しい実行配信の送信ログは直ちに更新されません（更新はスケジュールされたワークフローを介して実行されます）。 つまり、トランザクションイベントが新しい実行配信で処理されている場合でも、メッセージが **[!UICONTROL Pending]** ステータスになる可能性があります。
+再試行プロセスでは、新しい実行配信の送信ログは直ちに更新されません（更新はスケジュールされたワークフローを介して実行されます）。 つまり、トランザクションイベントが新しい実行配信で処理されている場合でも、メッセージの **[!UICONTROL Pending]** ステータスが変わる可能性があります。
 
 **失敗した実行配信**
 
