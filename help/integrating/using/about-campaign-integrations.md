@@ -13,6 +13,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -80,7 +83,7 @@ source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
   </tr> 
   <tr> 
    <td> 目標地点(Analytics for Mobile)<br /> </td> 
-   <td> モバイルアプリのサブスクリプションから目標地点データを収集し、パーソナライズされたマーケティングメッセージをAdobe Campaignと共に送信できます。<br /> </td> 
+   <td> モバイルアプリの購読者から目標地点データを収集して、パーソナライズされたマーケティングメッセージとAdobe Campaignを送信できます。<br /> </td> 
    <td> <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">場所ベースのマーケティングメッセージとキャンペーンおよび目標地点データの送信</a> (Analytics for Mobile)<br /> </td> 
   </tr> 
   <tr> 
