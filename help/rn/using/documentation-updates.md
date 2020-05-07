@@ -12,7 +12,10 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: 0c91c22bf181607ae35297532562e20b63771e4a
+workflow-type: tm+mt
+source-wordcount: '5775'
+ht-degree: 19%
 
 ---
 
@@ -717,7 +720,7 @@ APIの単純なフィルターと複数のフィルターに関する情報を�
 
 Adobe Analyticsと共有されるKPIの詳細リスト。 [詳細を表示](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
 
-新しい動的レポートのビデオ。 [詳細を表示](../../start/using/how-to-videos.md)
+新しい動的レポートのビデオ。
 
 S3アカウントの推奨事項を追加しました。 [詳細を表示](../../administration/using/external-accounts.md#amazon-s3-account-recommendations)
 
@@ -759,7 +762,7 @@ Adobe Campaign通知 — [詳細情報](../../administration/using/sending-inter
 
 **リリースに伴うその他のドキュメントのアップデート**
 
-入門 [ガイド](../../start/using/step-by-step-guides.md) と使い方のビデオ [](../../start/using/how-to-videos.md) は、専用のセクションにまとめられました。
+入門ガイドと使い方に関するビデオは、専用のセクションに再グループ化されました。
 
 電子メールレンダリングドキュメントが更新されました。 [詳細を表示](../../sending/using/email-rendering.md)
 
