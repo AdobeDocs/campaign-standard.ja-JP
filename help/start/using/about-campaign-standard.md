@@ -13,6 +13,9 @@ internal: n
 snippet: y
 translation-type: tm+mt
 source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -84,4 +87,4 @@ Adobe Campaign標準は、オンラインとオフラインの戦略を調整し
 
 **Campaign Standardデータ管理機能を使用して** 、データの読み込みと書き出しを簡単に行うことができます。 [プロセスとデータ管理の概要](../../automating/using/get-started-workflows.md)
 
-**キャンペーン機能を他のソリューションと組み合わせて** 、最適なマーケティングキャンペーンを構築します。 [Campaign Standard統合の概要](../../integrating/using/get-started-campaign-integrations.md)
+**キャンペーン機能を他のソリューションと組み合わせて** 、最適なマーケティングキャンペーンを構築できます。 [Campaign Standard統合の概要](../../integrating/using/get-started-campaign-integrations.md)
