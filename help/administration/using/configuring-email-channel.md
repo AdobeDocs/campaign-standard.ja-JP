@@ -13,7 +13,10 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: faddcc870adcf9e71e50004a69a219b16ddc044f
+source-git-commit: e2303055b3370efab204adbdb1b9f567a555a23f
+workflow-type: tm+mt
+source-wordcount: '2331'
+ht-degree: 10%
 
 ---
 
@@ -40,7 +43,7 @@ source-git-commit: faddcc870adcf9e71e50004a69a219b16ddc044f
 
 * **許可されたマスクフィールド**
 
-   受信者（送信者のアドレス）に電子メールを送信し、エラー（エラーアドレス）を通知するために使用できる、認証された電子メールアドレスのリスト。 **[!UICONTROL Header parameters of sent emails]**  Adobe Campaignは、入力されたアドレスがメッセージ準備段階で有効であるかどうかを確認します。 このオペレーティングモードでは、配信品質の問題を引き起こす可能性のあるアドレスを一切使用しないようにします。
+   この **[!UICONTROL Header parameters of sent emails]** セクションには、承認された電子メールアドレスがリストされます。この電子メールアドレスを使用して、受信者に電子メールを送信したり、非同期バウンス、不在返信などの自動返信を送信したりできます。 (エラーアドレス).  Adobe Campaignは、入力されたアドレスがメッセージ準備段階で有効であるかどうかを確認します。 このオペレーティングモードでは、配信品質の問題を引き起こす可能性のあるアドレスを一切使用しないようにします。
    * 送信者アドレスとエラーアドレスの両方はアドビが設定します。 これらのフィールドは空にできません。
    * これらのフィールドは編集できません。 住所を更新する場合は、アドビカスタマーケアチームにお問い合わせください。
    * 別のアドレスを追加する場合は、 [コントロールパネルを使用して新しいサブドメインを設定するか](https://docs.adobe.com/content/help/ja-JP/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html) 、アドビカスタマーケアチームにお問い合わせください。 複数のマスクを使用する場合は、コンマで区切ります。
@@ -53,7 +56,7 @@ source-git-commit: faddcc870adcf9e71e50004a69a219b16ddc044f
 
 * **配信パラメーター**
 
-   Adobe Campaignは、開始日に開始するメッセージを送信します。 この **[!UICONTROL Message delivery duration]** フィールドでは、メッセージを送信できる期間を指定できます。
+   Adobe Campaignは、開始日に開始するメッセージを送信します。 この **[!UICONTROL Message delivery duration]** フィールドでは、一時的なエラーまたはソフトバウンスが発生した配信内のメッセージを再試行する時間枠を指定できます。
 
    >[!IMPORTANT]
    >
@@ -73,7 +76,7 @@ source-git-commit: faddcc870adcf9e71e50004a69a219b16ddc044f
 
 * **E メール強制隔離のパラメーター**
 
-   この **[!UICONTROL Time between two significant errors]** フィールドに値を入力し、エラーが発生した場合にエラーカウンターを増やすまでの待機時間を定義します。 デフォルト値は「1d」 **で、1日**&#x200B;です。
+   この **[!UICONTROL Time between two significant errors]** フィールドに値を入力して、ソフトバウンスのエラーが発生した場合にエラーカウンターを増やすまでのアプリケーションの待機時間を定義します。 デフォルト値は「1d」 **で、1日**&#x200B;です。
 
    値に達すると、電子メールアドレスが隔離されます。 **[!UICONTROL Maximum number of errors before quarantine]** デフォルト値は **&quot;5&quot;**: アドレスは5番目のエラーで隔離されます。 これは、連絡先が後続の配信から自動的に除外されることを意味します。
    <!--Actually the way ACS works is that the address is already on the quarantine list on the first bounce, but with a different status meaning that the error count has started.-->
@@ -102,9 +105,9 @@ source-git-commit: faddcc870adcf9e71e50004a69a219b16ddc044f
 
 ### バウンスメール {#bounce-mails}
 
-非同期バウンスは、引き続き、 **[!UICONTROL Bounce mails]** ルールを介してinMailプロセスのキャンペーンによって修飾されます。
+Asynchronous bounces are still qualified by the Campaign inMail process through the **[!UICONTROL Bounce mails]** rules.
 
-This rule contains the list of character strings which can be returned by remote servers and which let you qualify the error (**Hard**, **Soft** or **Ignored**).
+これらのルールには、リモートサーバーが返すことができ、エラー（**ハード**、**ソフト**&#x200B;または&#x200B;**無視**）を検証できる文字列のリストが含まれます。
 
 >[!NOTE]
 >
