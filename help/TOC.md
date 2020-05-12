@@ -6,8 +6,8 @@ user-guide-title: Adobe Campaign Standard ヘルプ
 translation-type: tm+mt
 source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1441'
+ht-degree: 93%
 
 ---
 
@@ -139,10 +139,10 @@ ht-degree: 0%
 + テストと送信{#testing-and-sending}
    + [テストと送信を開始する](sending/using/get-started-sending-messages.md)
    + メッセージの準備とテスト{#preparing-and-testing-messages}
-      + [プレビュー配信](sending/using/previewing-messages.md)
+      + [配信メッセージのプレビュー](sending/using/previewing-messages.md)
       + [送信の準備](sending/using/preparing-the-send.md)
       + [配達確認の送信](sending/using/sending-proofs.md)
-      + [ターゲットを設定したプロファイルを使用した電子メールメッセージのテスト](sending/using/testing-messages-using-target.md)
+      + [ターゲットプロファイルを使用した電子メールメッセージのテスト](sending/using/testing-messages-using-target.md)
       + [電子メールの件名行のテスト](sending/using/testing-subject-line-email.md)
       + [電子メールのレンダリング](sending/using/email-rendering.md)
       + [トラップの使用](sending/using/using-traps.md)
@@ -154,7 +154,7 @@ ht-degree: 0%
    + メッセージの送信とトラッキング{#sending-and-tracking-messages}
       + [送信の確認](sending/using/confirming-the-send.md)
       + [メッセージのトラッキング](sending/using/tracking-messages.md)
-      + [電子メール BCC でのアーカイブ](sending/using/archiving.md)
+      + [電子メール BCC を使用したアーカイブ](sending/using/archiving.md)
    + メッセージの監視{#monitoring-messages}
       + [配信の監視](sending/using/monitoring-a-delivery.md)
       + [エラー発生時のアラートの受信](sending/using/receiving-alerts-when-failures-happen.md)
@@ -210,25 +210,25 @@ ht-degree: 0%
 + 他のソリューションとの統合 {#integrating-with-adobe-cloud}
    + [キャンペーン統合の概要](integrating/using/get-started-campaign-integrations.md)
    + Campaign と Experience Manager {#working-with-campaign-and-experience-manager}
-      + [Campaign-Experience Manager 統合について](integrating/using/integrating-with-experience-manager.md)
-      + [Campaign-Experience Manager 統合の設定](integrating/using/configure-experience-manager.md)
+      + [Campaign と Experience Manager の統合について](integrating/using/integrating-with-experience-manager.md)
+      + [Campaign と Experience Manager の統合の設定](integrating/using/configure-experience-manager.md)
       + [Adobe Experience Manager での電子メールコンテンツの作成](integrating/using/creating-email-experience-manager.md)
       + [Experience Manager での Campaign フォームの作成](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
    + Campaign と Target {#working-with-campaign-and-target}
       + [Campaign と Target の統合について](integrating/using/about-campaign-target-integration.md)
-      + [Campaign と Target 統合の設定](integrating/using/configuring-the-campaign-target-integration.md)
+      + [Campaign と Target の統合の設定](integrating/using/configuring-the-campaign-target-integration.md)
       + [Target の動的コンテンツの追加](integrating/using/adding-target-dynamic-content.md)
    + Campaign と Analytics {#working-with-campaign-and-analytics}
       + [Campaign と Analytics の統合について](integrating/using/about-campaign-analytics-integration.md)
       + [Campaign と Analytics の統合の設定](integrating/using/configure-campaign-analytics-integration.md)
       + [Analytics での Campaign のディメンションと指標](integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
    + Campaign と Audience Manager または People コアサービス{#working-with-campaign-and-audience-manager-or-people-core-service}
-      + [Campaign と Audience Manager または People コアサービス統合について](integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
+      + [Campaign と Audience Manager または People コアサービスの統合について](integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
       + [Audience Manager または People コアサービスとの統合のプロビジョニングと設定](integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
       + [トラブルシューティング](integrating/using/troubleshooting.md)
       + [Audience Manager または People コアサービスのオーディエンスを共有](integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
       + [Campaign と Assets コアサービスの使用](integrating/using/working-with-campaign-and-assets-core-service.md)
-   + モバイル用 Campaign および Analytics{#working-with-campaign-and-analytics-for-mobile}
+   + Campaign とモバイル用 Analytics{#working-with-campaign-and-analytics-for-mobile}
       + [Campaign と POI データの統合について](integrating/using/about-campaign-points-of-interest-data-integration.md)
       + [Campaign と POI データの統合の設定](integrating/using/configuring-campaign-points-of-interest-data-integration.md)
       + [POI データを使用した Campaign メッセージのパーソナライズ](integrating/using/personalizing-campaign-messages-with-point-of-interest-data.md)
@@ -240,7 +240,7 @@ ht-degree: 0%
       + [中断トリガーの使用例](integrating/using/abandonment-triggers-use-cases.md)
    + Campaign と Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
       + [Microsoft Dynamics 365 統合用の Adobe IO の設定](integrating/using/configure-adobe-io-for-ms-dynamic.md)
-      + Campaign Standard と Microsoft Dynamics 365 の操作 {#working-with-campaign-standard-and-ms-dynamics}
+      + Campaign Standard と Microsoft Dynamics 365 の連携 {#working-with-campaign-standard-and-ms-dynamics}
          + [Microsoft Dynamics 365統合の概要](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
          + [Microsoft Dynamics 365統合について](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
          + [Microsoft Dynamics 365統合を要求し、構成します](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
