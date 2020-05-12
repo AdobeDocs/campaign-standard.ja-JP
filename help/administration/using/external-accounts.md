@@ -13,7 +13,10 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: a73cbdd1af2ce134e10222ab07709639ba419ebe
+source-git-commit: fef25718906ba52158ebe4d53bbadc799cd5dd88
+workflow-type: tm+mt
+source-wordcount: '1551'
+ht-degree: 34%
 
 ---
 
@@ -158,7 +161,7 @@ Google reCAPTCHA V3外部アカウントの場合は、次の詳細を入力し�
 >
 >Adobe Campaign標準で外部アカウントを構成するために必要な情報は、Azure Portalで[ **[!UICONTROL Settings]** >]を選択して参照してください **[!UICONTROL Access keys]**。
 
-Azure BLOBストレージコネクタは、転送ファイル **[!UICONTROLTワークフローAdobe Campaignを使用して、データをアクティビティにインポートまたはエクスポートするために使用できます]** 。 詳しくは、[この節](../../automating/using/transfer-file.md#azure-blob-configuration-wf)を参照してください。
+Azure BLOBストレージコネクタは、ワークフローアクティビティを使用してAdobe Campaignにデータをインポートまたはエクスポートするために使用でき **[!UICONTROL Transfer file]** ます。 詳しくは、[この節](../../automating/using/transfer-file.md#azure-blob-configuration-wf)を参照してください。
 
 Microsoft Azure Blobストレージ外部アカウントの場合は、次の詳細を入力します。
 
