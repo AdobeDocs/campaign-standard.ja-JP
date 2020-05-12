@@ -6,8 +6,8 @@ topic: Premium
 translation-type: tm+mt
 source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '197'
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 * **[ターゲットプロファイルを使用した電子メールのテスト](sending/using/testing-messages-using-target.md)**<br/>実際のターゲットプロファイルで電子メールをテストする方法を説明します。
 
 * **[プライバシー管理](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy.html)**<br/>
-プライバシーコンプライアンスに役立つ Adobe Campaign が提供するツールについて説明します。
+プライバシーコンプライアンスに役立つ Adobe Campaign ツールについて説明します。
 
 * **[Campaign Standard Mobile ガイド](https://helpx.adobe.com/jp/campaign/kb/acs-mobile.html)**<br/>
 モバイル配信に関する一般的なガイドラインについて説明します。
@@ -69,7 +69,7 @@ ht-degree: 0%
 |---|---|
 | [リリースノート](rn/using/release-notes.md) | [Experience Cloud のトリガー](integrating/using/about-adobe-experience-cloud-triggers.md) |
 | [コントロールパネルのドキュメント](https://docs.adobe.com/content/help/ja-JP/control-panel/using/control-panel-home.translate.html) | [Campaign API](api/using/get-started-apis.md) |
-| [実装ガイド](https://helpx.adobe.com/jp/campaign/kb/campaign-standard-implementation-guide.html) | [エラーメッセージのリスト](https://docs.adobe.com/content/help/ja-JP/campaign-classic/technicalresources/error_messages/error_codes.html) |
+| [実装ガイド](https://helpx.adobe.com/jp/campaign/kb/campaign-standard-implementation-guide.html) | [エラーメッセージのリスト](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [リリース計画](rn/using/release-planning.md) | [Campaign データモデル](developing/using/datamodel-introduction.md) |
 | [廃止および削除された機能](https://helpx.adobe.com/jp/campaign/kb/acs-deprecated-and-removed-features.html) | [マルチソリューションガイド](integrating/using/get-started-campaign-integrations.md) |
-| [Campaign Standard を使い始める](start/using/about-campaign-standard.md) | [テクニカルノート](https://helpx.adobe.com/jp/campaign/kb/acs-article-list.html) |
+| [Campaign Standard の基礎知識](start/using/about-campaign-standard.md) | [テクニカルノート](https://helpx.adobe.com/jp/campaign/kb/acs-article-list.html) |
