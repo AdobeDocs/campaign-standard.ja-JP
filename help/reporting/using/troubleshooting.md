@@ -1,6 +1,6 @@
 ---
 title: トラブルシューティング
-description: 動的なレポートに関するよくある質問を見つけます。
+description: 動的なレポートに関するよくある質問を以下に示します。
 page-status-flag: never-activated
 uuid: a84a18bd-4e33-466e-a6ce-d7008fe12746
 contentOwner: beneat
@@ -12,33 +12,36 @@ discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 001fc2df11e32bdcc31dfe917884460b4d3de541
+source-git-commit: a894e72bb02fbecb86d43c6d2a13adf7ab10f73e
+workflow-type: tm+mt
+source-wordcount: '665'
+ht-degree: 5%
 
 ---
 
 
 # トラブルシューティング{#troubleshooting}
 
-この節では、動的なレポートに関するよくある質問を示します。
+動的なレポートに関するよくある質問は、この節で確認できます。
 
 ## 個別オープン数と個別クリック数の場合、集計行のカウントが個々の行のカウントと一致しません {#unique-open-clicks-no-match}
 
 これは期待された動作です。
-この動作を説明するには、次の例を使用します。
+この動作について、次の例で説明します。
 
-電子メールがプロファイルP1,P2に送信される。
+プロファイルP1,P2に電子メールを送る。
 
-P1は最初の日に電子メールを2回開き、2日目には2回目の電子メールをツリーします。
+P1では、最初の日に2回電子メールを開き、2日目には2回目の電子メールを開きます。
 
 一方、P2は最初の日に1回電子メールを開き、次の日に再度開くことはありません。
-送信された電子メールとのプロファイルのインタラクションを視覚的に示します。
+以下に、送信された電子メールとプロファイルのインタラクションを視覚的に示します。
 
 <table> 
  <thead> 
   <tr> 
    <th align="center"> <strong>Day</strong> <br /> </th> 
    <th align="center"> <strong>開封数</strong> <br /> </th> 
-   <th align="center"> <strong>個別オープン</strong><br /> </th> 
+   <th align="center"> <strong>個別オープン</strong> <br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -55,9 +58,9 @@ P1は最初の日に電子メールを2回開き、2日目には2回目の電子
  </tbody> 
 </table>
 
-ユニークオープンの総数を把握するには、行数を合計し、値3 **[!UICONTROL Unique Opens]** を得る必要があります。 ただし、電子メールのターゲットは2プロファイルのみなので、開封率は150%と表示されます。
+個別オープンの総数を把握するには、行数を合計し、値3を求め **[!UICONTROL Unique Opens]** る必要があります。 ただし、電子メールが2プロファイルしかターゲットにされていないので、開始率は150%と表示されます。
 
-100を超える割合を取得しない場合、の定義は、開か **[!UICONTROL Unique Opens]** れた一意のブロードログの数に維持されます。 この場合、P1が1日目と2日目に電子メールを開いた場合でも、ユニークオープンは1となります。
+100を超える割合を取得しないように、の定義は、開かれた一意のブロードログの数 **[!UICONTROL Unique Opens]** に維持されます。 この場合、P1が1日目と2日目に電子メールを開いたとしても、その個別オープンは1となります。
 
 次の表が表示されます。
 
@@ -66,7 +69,7 @@ P1は最初の日に電子メールを2回開き、2日目には2回目の電子
   <tr> 
    <th align="center"> <strong>Day</strong> <br /> </th> 
    <th align="center"> <strong>開封数</strong> <br /> </th> 
-   <th align="center"> <strong>個別オープン</strong><br /> </th> 
+   <th align="center"> <strong>個別オープン</strong> <br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -85,42 +88,93 @@ P1は最初の日に電子メールを2回開き、2日目には2回目の電子
 
 >[!NOTE]
 >
->ユニーク数はHLLベースのスケッチに基づいているので、大きな数に関しては若干の不正確さが生じる可能性があります。
+>ユニーク数は、HLLベースのスケッチに基づいているため、大きな数に関してわずかな不正確な情報が生じる場合があります。
 
 ## オープン数がデータベース数と一致しません {#open-counts-no-match-database}
 
-これは、アクションを追跡できない場合でも、開封を追跡するために、ヒューリスティクスが動的レポートで使用されることが原因の可能性があ **[!UICONTROL Open]** ります。
+これは、アクションを追跡できない場合でも、開封を追跡するために動的レポートでヒューリスティックが使用されていることが原因である可能性があり **[!UICONTROL Open]** ます。
 
-例えば、ユーザーがクライアントで画像を無効にし、電子メール内のリンクをクリックした場合、データベースでは追跡さ **[!UICONTROL Open]** れない場合がありますが、その場合は追跡され **[!UICONTROL Click]** ません。
+例えば、ユーザーがクライアントでイメージを無効にし、電子メール内のリンクをクリックした場合、データベースではイメージが追跡され **[!UICONTROL Open]** ない場合がありますが、 **[!UICONTROL Click]** ウィルでは追跡されません。
 
-したがって、トラッキングログ数 **[!UICONTROL Open]** がデータベース内で同じ数でない場合があります。
+したがって、 **[!UICONTROL Open]** トラッキングログ数がデータベース内で同じ数でない場合があります。
 
-このような回数は、「電子メールのク **リックは電子メールを開くことを意味します」として追加されま**&#x200B;す。
+このような回数は、「電子メールのクリックは電子メールを開くことを意味する」 **として追加され**&#x200B;ます。
 
 >[!NOTE]
 >
->ユニーク数はHLLベースのスケッチに基づくので、カウント間にわずかな矛盾が生じる可能性があります。
+>ユニーク数はHLLベースのスケッチに基づくので、カウント間にわずかな不一致が生じる可能性があります。
 
-## 私の報告書の表の中の色の意味は何ですか？ {#reports-color-signification}
+## 定期的/トランザクション配信のカウントはどのように計算されますか。 {#counts-recurring-deliveries}
 
-レポートに表示される色はランダム化され、パーソナライズできません。 レポート内で最大値に達した場合に強調表示され、進捗バーが表示されます。
+定期的な配信とトランザクションの配信を扱う場合、カウントは親要素と子の両方に関連付けられます。
+毎日1日(RC1)、2日目(RC2)、3日目(RC3)に実行する **R1** という名前の反復配信の例を見てみましょう。
+1人の人が子配信を何度も開いたとします。 この場合、繰り返し子配信の個々には、それぞれ1として **[!UICONTROL Open]** 数えられます。
+ただし、同じ人がすべての配信をクリックしたので、親の定期的な配信にも1が割り当てら **[!UICONTROL Unique open]** れます。
+
+レポートは次のようになります。
+
+<table> 
+ <thead> 
+  <tr> 
+   <th align="center"> <strong>配信</strong> <br /> </th> 
+   <th align="center"> <strong>送信済み</strong> <br /> </th> 
+   <th align="center"> <strong>配信済み</strong> <br /> </th>
+   <th align="center"> <strong>開封数</strong> <br /> </th> 
+   <th align="center"> <strong>個別オープン</strong> <br /> </th>
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td align="center"> <strong>R1<br/> </td> 
+   <td align="center"> <strong>100<br/> </td> 
+   <td align="center"> <strong>90<br/> </td> 
+   <td align="center"> <strong>10<br/> </td> 
+   <td align="center"> <strong>3<br/> </td> 
+  </tr> 
+  <tr> 
+   <td align="center"> RC1<br/> </td> 
+   <td align="center"> 20<br /> </td> 
+   <td align="center"> 20<br /> </td> 
+   <td align="center"> 6<br /> </td> 
+   <td align="center"> 1<br /> </td> 
+  </tr>
+    <tr> 
+   <td align="center"> RC2<br /> </td> 
+   <td align="center"> 40<br /> </td> 
+   <td align="center"> 30<br /> </td> 
+   <td align="center"> 2<br /> </td> 
+   <td align="center"> 1<br /> </td> 
+  </tr> 
+    <tr> 
+   <td align="center"> RC3<br /> </td> 
+   <td align="center"> 40<br /> </td> 
+   <td align="center"> 40<br /> </td> 
+   <td align="center"> 2<br /> </td> 
+   <td align="center"> 1<br /> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+## 私のレポートの表には色の意味が何色で示されていますか。 {#reports-color-signification}
+
+レポートに表示される色はランダム化され、パーソナライズできません。 これらは進行状況バーを表し、レポート内で最大値に達した箇所を強調表示しやすくします。
 
 次の例では、値が100%なので、セルの色は同じです。
 
 ![](assets/troubleshooting_1.png)
 
-を「カスタム」に変 **[!UICONTROL Conditional formatting]** 更すると、値が上限に達すると、セルの色が変わります。 一方、下限に達すると、値が低くなります。
+を「カスタム」 **[!UICONTROL Conditional formatting]** に変更すると、値が上限に達した場合、セルの色が変化します。 一方、下限に達すると、値は低くなります。
 
-例えば、ここではを500に設定し、 **[!UICONTROL Upper limit]** を0に設定 **[!UICONTROL Lower limit]** します。
+例えば、ここでは、を500に、 **[!UICONTROL Upper limit]** を0に設定 **[!UICONTROL Lower limit]** します。
 
 ![](assets/troubleshooting_2.png)
 
-## 値N/Aがレポートに表示されるのはなぜですか。
+## レポートに該当なしという値が表示されるのはなぜですか。
 
 ![](assets/troubleshooting_3.png)
 
-値 **N/Aは、動的レ** ポートに表示されることがあります。 これは、次の2つの理由で表示されます。
+値 **N/A** は、動的レポートに表示される場合があります。 これは、次の2つの理由で表示される場合があります。
 
-* 配信が削除され、結果に不一致が生じないように **N/A** （該当なし）と表示されます。
-* ディメンションをレポー **[!UICONTROL Transactional Delivery]** トにドラッグ&amp;ドロップすると、 **N/A** という値が結果として表示されます。 これは、動的レポートがトランザクションでない場合でも、すべての配信を取得するためです。
-これは、ディメンションをレポートにドラッグ&amp;ドロ **[!UICONTROL Delivery]** ップした場合にも発生する可能性がありますが、この場合、 **** N/A値はトランザクション配信を表します。
+* 配信が削除され、結果に食い違いが生じないように **N/A** と表示されます。
+* ディメンションをレポートにドラッグ&amp;ドロップすると **[!UICONTROL Transactional Delivery]** 、結果として値 **N/A** が表示される場合があります。 これは、動的レポートがトランザクションでない場合でもすべての配信を取得するためです。
+これは、ディメンションをレポートにドラッグ&amp;ドロップした場合にも発生する可能性があり **[!UICONTROL Delivery]** ますが、この場合、 **該当なし** 値はトランザクション配信を表します。
