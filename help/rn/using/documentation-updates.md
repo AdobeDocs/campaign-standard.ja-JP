@@ -12,10 +12,10 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0c91c22bf181607ae35297532562e20b63771e4a
+source-git-commit: 72d27b33d6e69af47b34cc6bfeae7b34911e8d10
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '5807'
+ht-degree: 19%
 
 ---
 
@@ -29,6 +29,8 @@ ht-degree: 0%
 Campaign Standardの概要ページが強化され、主題に関するトピックに再構成されました。 [詳細を表示](../../start/using/about-campaign-standard.md)
 
 「電子メールチャネルのパラメーター」セクションが明確になり、許可されたマスクフィールドと配信レポートIDに関する詳細情報が表示されました。 [詳細を表示](../../administration/using/configuring-email-channel.md)
+
+Adobe Experience Platform SDKを使用したモバイルアプリの設定が、LaunchテクニカルワークフローのSync MobileアプリAEPSDKに関する詳細情報と共に、コアドキュメントで使用できるようになりました。 [詳細を表示](../../administration/using/configuring-a-mobile-application.md)
 
 ## リリース20.3 - 2020年5月 {#release-20-3---may-2020}
 
