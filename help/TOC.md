@@ -4,10 +4,10 @@ sub-product: Adobe Campaign Standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard ヘルプ
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: 9a8b9f522e5f9ea5d7ea59701cd03878599d97c1
 workflow-type: tm+mt
-source-wordcount: '1441'
-ht-degree: 93%
+source-wordcount: '1451'
+ht-degree: 92%
 
 ---
 
@@ -239,7 +239,6 @@ ht-degree: 93%
       + [トリガーのテスト](integrating/using/testing-your-triggers.md)
       + [中断トリガーの使用例](integrating/using/abandonment-triggers-use-cases.md)
    + Campaign と Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
-      + [Microsoft Dynamics 365 統合用の Adobe IO の設定](integrating/using/configure-adobe-io-for-ms-dynamic.md)
       + Campaign Standard と Microsoft Dynamics 365 の連携 {#working-with-campaign-standard-and-ms-dynamics}
          + [Microsoft Dynamics 365統合の概要](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
          + [Microsoft Dynamics 365統合について](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
@@ -257,8 +256,14 @@ ht-degree: 93%
       + [データのターゲティング](automating/using/targeting-data.md)
       + [データのインポート](automating/using/importing-data.md)
       + [ワークフローデータの使用](automating/using/using-workflow-data.md)
-      + [ワークフローの実行](automating/using/executing-a-workflow.md)
       + [ワークフローのベストプラクティス](automating/using/best-practices-workflows.md)
+   + [ワークフローの実行]{#executing-a-workflow}
+      + [ワークフローの実行について](automating/using/about-workflow-execution.md)
+      + [ワークフローのライフサイクル](automating/using/workflow-life-cycle.md)
+      + [実行コマンド](automating/using/execution-commands.md)
+      + [監視ワークフローの実行](automating/using/monitoring-workflow-execution.md)
+      + [実行オプションの管理](automating/using/managing-execution-options.md)
+      + [アクティビティのプロパティの管理](automating/using/activity-properties.md)
    + [外部パラメーターを使用したワークフローの呼び出し](automating/using/calling-a-workflow-with-external-parameters.md)
    + ターゲティングアクティビティ{#targeting-activities}
       + [ターゲティングアクティビティについて](automating/using/about-targeting-activities.md)
