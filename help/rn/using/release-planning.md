@@ -12,7 +12,7 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b032807bc0a6572691d6f6d2e49ce7a1a58dd21a
+source-git-commit: 292f4f65f2e0597ff4dc36ab3222551ab40cbafb
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 9%
@@ -46,11 +46,11 @@ ht-degree: 9%
  <tbody>
   <tr>
    <td>ステージ<br /> </td>
-   <td>2020年5月13日～14日<br /> </td>
+   <td>2020年5月25日～26日<br /> </td>
   </tr>
   <tr>
    <td> Production（本番）<br /> </td>
-   <td>2020年5月18日～6月1日<br /> </td>
+   <td>2020年5月28日～6月1日<br /> </td>
   </tr>
  </tbody>
 </table>
