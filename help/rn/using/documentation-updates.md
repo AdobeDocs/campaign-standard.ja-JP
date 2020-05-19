@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 72d27b33d6e69af47b34cc6bfeae7b34911e8d10
+source-git-commit: 422f5eb7011dfcc1d923079e7346394a64934a9a
 workflow-type: tm+mt
 source-wordcount: '5807'
 ht-degree: 19%
@@ -42,7 +42,7 @@ External APIアクティビティ(GA) - [詳細情報](../../automating/using/ex
 
 **リリースに伴うその他のドキュメントのアップデート**
 
-ワークフローのプロパティの **[!UICONTROL History in days]** フィールドに情報が追加され、 **[!UICONTROL Transfer file]** アクティビティがダウンロードしたファイルが含まれるようになりました。 [詳細を表示](../../automating/using/executing-a-workflow.md)
+ワークフローのプロパティの **[!UICONTROL History in days]** フィールドに情報が追加され、 **[!UICONTROL Transfer file]** アクティビティがダウンロードしたファイルが含まれるようになりました。 [詳細を表示](../../automating/using/managing-execution-options.md)
 
 プロファイルの置き換えの節に、件名行のプレフィックスの500文字の制限に関する情報が追加されました。 [詳細を表示](../../sending/using/testing-messages-using-target.md)
 
@@ -120,7 +120,7 @@ Campaign Standardデータモデルのベストプラクティスに関する新
 
 情報が **[!UICONTROL Workflow]** 組み込み権限に追加されました。 [詳細を表示](../../administration/using/list-of-roles.md)
 
-ワークフローのプロパティで **[!UICONTROL History in days field]** 使用できるについての情報が追加されました。 [詳細を表示](../../automating/using/executing-a-workflow.md)
+ワークフローのプロパティで **[!UICONTROL History in days field]** 使用できるについての情報が追加されました。 [詳細を表示](../../automating/using/about-workflow-execution.md)
 
 ## リリース20.1 - 2020年2月 {#release-20-1---february-2020}
 
@@ -818,7 +818,7 @@ Dreamweaverとの統合をライブにする — [詳細情報](https://docs.ado
 
 様々なタイプのAdobe Campaignユーザーに関する節を追加しました。 [詳細を表示](../../administration/using/users-management.md)
 
-ワークフローガイドが再構成され、拡張されました。ワークフローの[作成](../../automating/using/building-a-workflow.md)および[実行](../../automating/using/executing-a-workflow.md)方法、データの[ターゲティング](../../automating/using/targeting-data.md)および[管理](../../automating/using/targeting-data.md#enriching-data)方法、データの[インポート](../../automating/using/importing-data.md)[](../../automating/using/using-workflow-data.md)方法、およびデータベースを更新または配信を送信するためのワークフローデータの使用方法が簡単に見つかります。
+ワークフローガイドが再構成され、拡張されました。ワークフローの[作成](../../automating/using/building-a-workflow.md)および[実行](../../automating/using/about-workflow-execution.md)方法、データの[ターゲティング](../../automating/using/targeting-data.md)および[管理](../../automating/using/targeting-data.md#enriching-data)方法、データの[インポート](../../automating/using/importing-data.md)[](../../automating/using/using-workflow-data.md)方法、およびデータベースを更新または配信を送信するためのワークフローデータの使用方法が簡単に見つかります。
 
 詳細な説明や計算式を含む、動的なレポートでレポートインジケーターの計算が可能になりました。 [詳細を表示](../../reporting/using/indicator-calculation.md)
 
