@@ -4,7 +4,7 @@ sub-product: Adobe Campaign Standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard ヘルプ
 translation-type: tm+mt
-source-git-commit: 9a8b9f522e5f9ea5d7ea59701cd03878599d97c1
+source-git-commit: 4e5bb76be743fb44a464ebedb466927b87e21584
 workflow-type: tm+mt
 source-wordcount: '1451'
 ht-degree: 92%
@@ -257,7 +257,7 @@ ht-degree: 92%
       + [データのインポート](automating/using/importing-data.md)
       + [ワークフローデータの使用](automating/using/using-workflow-data.md)
       + [ワークフローのベストプラクティス](automating/using/best-practices-workflows.md)
-   + [ワークフローの実行]{#executing-a-workflow}
+   + ワークフローの実行 {#executing-a-workflow}
       + [ワークフローの実行について](automating/using/about-workflow-execution.md)
       + [ワークフローのライフサイクル](automating/using/workflow-life-cycle.md)
       + [実行コマンド](automating/using/execution-commands.md)
