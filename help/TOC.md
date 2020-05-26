@@ -4,9 +4,9 @@ sub-product: Adobe Campaign Standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard ヘルプ
 translation-type: tm+mt
-source-git-commit: 4e5bb76be743fb44a464ebedb466927b87e21584
+source-git-commit: a9a6fc70fe8fe4ffa3560c725b7753b001d8e928
 workflow-type: tm+mt
-source-wordcount: '1451'
+source-wordcount: '1453'
 ht-degree: 92%
 
 ---
@@ -253,9 +253,6 @@ ht-degree: 92%
    + ワークフローの一般操作{#workflow-general-operation}
       + [ワークフローインターフェイス](automating/using/workflow-interface.md)
       + [ワークフローの作成](automating/using/building-a-workflow.md)
-      + [データのターゲティング](automating/using/targeting-data.md)
-      + [データのインポート](automating/using/importing-data.md)
-      + [ワークフローデータの使用](automating/using/using-workflow-data.md)
       + [ワークフローのベストプラクティス](automating/using/best-practices-workflows.md)
    + ワークフローの実行 {#executing-a-workflow}
       + [ワークフローの実行について](automating/using/about-workflow-execution.md)
@@ -308,8 +305,10 @@ ht-degree: 92%
       + [関数のリスト](automating/using/list-of-functions.md)
    + データのインポートおよびエクスポート{#importing-and-exporting-data}
       + [データインポートおよびエクスポートについて](automating/using/about-data-import-and-export.md)
+      + [ベストプラクティスのインポート](automating/using/import-best-practices.md)
       + [インポートテンプレートを使用したデータのインポート](automating/using/importing-data-with-import-templates.md)
-      + [インポートテンプレートの定義](automating/using/defining-import-templates.md)
+      + [データを読み込むためのワークフローテンプレートの作成](automating/using/creating-import-workflow-templates.md)
+      + [暗号化されたデータの管理](automating/using/managing-encrypted-data.md)
       + [ログの書き出し](automating/using/exporting-logs.md)
       + [パッケージの管理](automating/using/managing-packages.md)
       + [リストの書き出し](automating/using/exporting-lists.md)
