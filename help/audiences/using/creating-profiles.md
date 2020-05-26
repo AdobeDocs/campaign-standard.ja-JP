@@ -12,10 +12,10 @@ discoiquuid: 4ab8a984-f898-4fff-ad8c-ed8f95362f96
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '367'
+ht-degree: 3%
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Campaignでは、プロファイルはデフォルトでメッセージの
 
 キャンペーンでプロファイルを作成または更新するには、次の操作を行います。
 
-* ワークフローを使用したファイルからのプロファイルリストの読み込み [](../../automating/using/importing-data.md#example--import-workflow-template)
+* ワークフローを使用したファイルからのプロファイルリストの読み込み [](../../automating/using/creating-import-workflow-templates.md)
 * [ランディングページを介してオンラインでデータを収集](../../channels/using/getting-started-with-landing-pages.md)
 * [REST APIを使用した一括作成](../../api/using/get-started-apis.md)
 * [Microsoft Dynamicsのプロファイルの同期](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
