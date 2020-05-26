@@ -12,7 +12,10 @@ discoiquuid: 85d13147-fb31-446a-8476-f112c841fb82
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
+source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+workflow-type: tm+mt
+source-wordcount: '787'
+ht-degree: 1%
 
 ---
 
@@ -53,7 +56,7 @@ source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 1. Go to the **[!UICONTROL Workflow]** tab. 必要に応じて新しいアクティビティを追加することで、デフォルトで提供されるワークフローをここから拡張できます。
 
-   ワークフローアクティビティを設定する方法の詳細については、この節の使用例を参照してください。 [例： ワークフローテンプレートの読み込み](../../automating/using/importing-data.md#example--import-workflow-template)。 この使用例は、Adobe CampaignデータベースのCRMから来たプロファイルをインポートする際に再利用できるワークフローを設定する場合に役立ちます。
+   ワークフローアクティビティを設定する方法の詳細については、この節の使用例を参照してください。 [例： ワークフローテンプレートの読み込み](../../automating/using/creating-import-workflow-templates.md)。 この使用例は、Adobe CampaignデータベースのCRMから来たプロファイルをインポートする際に再利用できるワークフローを設定する場合に役立ちます。
 
 1. ワークフローの設定が正しく考慮されるように、テンプレートを保存します。
 1. タブからサンプルファイルをアップロードし **[!UICONTROL Properties]** ます。 アップロードされたファイルには、今後のインポートやサンプルデータに必要な列のみを含めることができます。 サンプルファイルのデータを使用すると、ワークフローを定義した後、シンプル化されたインポートをテストできます。
@@ -84,6 +87,6 @@ source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 **関連トピック：**
 
 * [ワークフロー](../../automating/using/get-started-workflows.md)
-* [データのインポート](../../automating/using/importing-data.md)
-* [例： ワークフローテンプレートの読み込み](../../automating/using/importing-data.md#example--import-workflow-template)
+* [データのインポートおよびエクスポート](../../automating/using/about-data-import-and-export.md)
+* [例： ワークフローテンプレートの読み込み](../../automating/using/creating-import-workflow-templates.md)
 
