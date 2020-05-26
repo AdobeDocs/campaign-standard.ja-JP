@@ -12,10 +12,10 @@ discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '447'
+ht-degree: 1%
 
 ---
 
@@ -28,7 +28,7 @@ Campaign Standardオファーは、マーケティングデータベースの拡
 
 ワークフローを使用すると、データを収集し、 [**[!UICONTROL Data management]**](../../automating/using/about-data-management-activities.md) アクティビティを使用してキャンペーンデータベースにインポートできます。
 
-ワークフローを介してデータをインポートする場合の一般的な情報とベストプラクティスについては、 [この節で説明し](../../automating/using/importing-data.md)ます。
+ワークフローを介してデータをインポートする場合の一般的な情報とベストプラクティスについては、 [この節で説明し](../../automating/using/about-data-import-and-export.md)ます。
 
 また、データを読み込むためのテンプレートを設定することもできます。 同じ構造を持つファイルを定期的に読み込む必要がある場合は、インポートテンプレートの使用をお勧めします。
 
@@ -36,7 +36,7 @@ Campaign Standardオファーは、マーケティングデータベースの拡
 
 * **ワークフローテンプレート**: これらは事前設定済みのワークフローで、必要に応じて一度設定すれば、データを読み込んでデータベースを更新するたびに再利用できます。
 
-   データを読み込むためのワークフローテンプレートの例について [この節で詳しく説明します](../../automating/using/importing-data.md#example--import-workflow-template)。
+   データを読み込むためのワークフローテンプレートの例について [この節で詳しく説明します](../../automating/using/creating-import-workflow-templates.md)。
 
 * **データテンプレートの読み込み**: ワークフローテンプレートと同様、テンプレートはワークフローに基づくテンプレートで、データベースを更新するためにファイルをアップロードするように設定されます。 設定が完了すると、 **[!UICONTROL Profile & audiences]** /メニューのシンプルな表示を使用してユーザーが使用できるようになり **[!UICONTROL Imports]** ます。
 
