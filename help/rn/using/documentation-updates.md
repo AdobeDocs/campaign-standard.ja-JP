@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 422f5eb7011dfcc1d923079e7346394a64934a9a
+source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
 workflow-type: tm+mt
-source-wordcount: '5807'
+source-wordcount: '5809'
 ht-degree: 19%
 
 ---
@@ -584,7 +584,7 @@ GDPR APIは、GDPRリクエストの自動処理を可能にする機能を再�
 
 プッシュ通知に使用する多言語のCSVファイルを生成する方法を学習するテクノロジーが追加されました。 [詳細を表示](https://helpx.adobe.com/campaign/kb/acs-generate-csv-multilingual-push.html)。
 
-「ダイレクトメール強制隔離と **配信ログ** 」インポートテンプレートに関する情報を追加しました。 [詳細を表示](../../automating/using/defining-import-templates.md)
+「ダイレクトメール強制隔離と **配信ログ** 」インポートテンプレートに関する情報を追加しました。 [詳細を表示](../../automating/using/importing-data-with-import-templates.md#setting-up-import-templates)
 
 技術的なワークフローのリストを更新しました。 [詳細を表示](../../administration/using/technical-workflows.md)
 
@@ -616,7 +616,7 @@ GDPR APIは、GDPRリクエストの自動処理を可能にする機能を再�
 
 に多数の追加データを定義する際にパフォーマンスを向上できる新しいオプション **[!UICONTROL Query]** が提供されました。 [詳細を表示](../../automating/using/query.md)
 
-プロファイルのインポートの例を更新し、プロファイルがダイレクトメールを受信できる状態になるようにいくつかのヒントを追加しました。 [詳細を表示](../../automating/using/importing-data.md)
+プロファイルのインポートの例を更新し、プロファイルがダイレクトメールを受信できる状態になるようにいくつかのヒントを追加しました。 [詳細を表示](../../automating/using/about-data-import-and-export.md)
 
 ワークフローで新しいアクティビティを使用できます。 アクティビティ **[!UICONTROL Enrichment]** 。 [詳細を表示](../../automating/using/enrichment.md)
 
@@ -818,7 +818,7 @@ Dreamweaverとの統合をライブにする — [詳細情報](https://docs.ado
 
 様々なタイプのAdobe Campaignユーザーに関する節を追加しました。 [詳細を表示](../../administration/using/users-management.md)
 
-ワークフローガイドが再構成され、拡張されました。ワークフローの[作成](../../automating/using/building-a-workflow.md)および[実行](../../automating/using/about-workflow-execution.md)方法、データの[ターゲティング](../../automating/using/targeting-data.md)および[管理](../../automating/using/targeting-data.md#enriching-data)方法、データの[インポート](../../automating/using/importing-data.md)[](../../automating/using/using-workflow-data.md)方法、およびデータベースを更新または配信を送信するためのワークフローデータの使用方法が簡単に見つかります。
+ワークフローガイドが再構成され、拡張されました。Easily find how to [build](../../automating/using/building-a-workflow.md) and [execute](../../automating/using/about-workflow-execution.md) a workflow, how to [target](../../automating/using/about-targeting-activities.md) and [manage](../../automating/using/about-targeting-activities.md#enriching-data) your data, how to [import and export](../../automating/using/about-data-import-and-export.md) data, and how to use workflow data to update the database or to send deliveries.
 
 詳細な説明や計算式を含む、動的なレポートでレポートインジケーターの計算が可能になりました。 [詳細を表示](../../reporting/using/indicator-calculation.md)
 
