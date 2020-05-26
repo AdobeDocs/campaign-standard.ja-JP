@@ -12,7 +12,10 @@ discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 381803b39527e175efc9a0d0ef8f4a427697db2d
+source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+workflow-type: tm+mt
+source-wordcount: '603'
+ht-degree: 9%
 
 ---
 
@@ -91,5 +94,5 @@ Adobe Campaign offers a set of tools to help you with your **Privacy Compliance*
 * [オーディエンス送信先サービスの使用](../../audiences/using/aep-about-audience-destinations-service.md)
 * [Microsoft Dynamics 365の操作](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 * [アドビ共有オーディエンス](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
-* [ワークフローを使用したプロファイルの読み込み](../../automating/using/importing-data.md)
+* [ワークフローを使用したプロファイルの読み込み](../../automating/using/creating-import-workflow-templates.md)
 * [プロファイルとオーディエンスのビデオ](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html)
