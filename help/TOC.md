@@ -4,10 +4,10 @@ sub-product: Adobe Campaign Standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard ヘルプ
 translation-type: tm+mt
-source-git-commit: a9a6fc70fe8fe4ffa3560c725b7753b001d8e928
+source-git-commit: c7bac40fc736c107dcdbc910ab35b9eb53a915f6
 workflow-type: tm+mt
-source-wordcount: '1453'
-ht-degree: 92%
+source-wordcount: '1403'
+ht-degree: 93%
 
 ---
 
@@ -239,15 +239,7 @@ ht-degree: 92%
       + [トリガーのテスト](integrating/using/testing-your-triggers.md)
       + [中断トリガーの使用例](integrating/using/abandonment-triggers-use-cases.md)
    + Campaign と Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
-      + Campaign Standard と Microsoft Dynamics 365 の連携 {#working-with-campaign-standard-and-ms-dynamics}
-         + [Microsoft Dynamics 365統合の概要](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
-         + [Microsoft Dynamics 365統合について](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
-         + [Microsoft Dynamics 365統合を要求し、構成します](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
-         + [Microsoft Dynamics 365統合を使用する](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
-      + [Microsoft Dynamics 365 統合用の Adobe IO の設定](integrating/using/configure-adobe-io-for-ms-dynamic.md)
-      + [Campaign 統合用の Microsoft Dynamics 365 の設定](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
-      + [Microsoft Dynamics 365 統合用の Unifi の設定](integrating/using/configure-unifi-for-microsoft-dynamics-365-integration.md)
-      + [Campaign のカスタムリソースと Dynamics 365 カスタムエンティティのマッピング](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
+      + [Microsoft Dynamics 365統合の概要](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 + プロセスとデータの管理{#managing-processes-and-data}
    + [データとプロセスの管理の概要](automating/using/get-started-workflows.md)
    + ワークフローの一般操作{#workflow-general-operation}
