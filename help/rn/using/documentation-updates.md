@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+source-git-commit: e89218b584f0d621ca700d4ee2a4866555d00679
 workflow-type: tm+mt
-source-wordcount: '5809'
+source-wordcount: '5842'
 ht-degree: 19%
 
 ---
@@ -23,6 +23,10 @@ ht-degree: 19%
 # ドキュメントのアップデート{#documentation-updates}
 
 このページでは、Adobe Campaign [リリースノートに加えて](../../rn/using/release-notes.md)、Adobe Campaign標準ドキュメントの新しい更新をすべてリストしています。
+
+## ドキュメントの更新 — 2020年6月 {#doc-updates-june-2020}
+
+Campaign Standard- Microsoft Dynamics 365の統合は現在使用できません。 新しいコネクターが開発中で、今後利用できる予定です。 詳しくは、アドビのセールス担当者にお問い合わせください。
 
 ## ドキュメントの更新 — 2020年5月 {#doc-updates-may-2020}
 
@@ -176,7 +180,7 @@ S3外部アカウントの設定に関するドキュメントが更新されま
 
 ## ドキュメントの更新 — 2019年11月 {#doc-updates-november-2019}
 
-Campaign Standard内のワークフローを使用してコントロール母集団を構築する方法を説明する新しい使用例が追加されました。 [詳細を表示](../../automating/using/workflow-control-group.md)
+Campaign Standard内のワークフローを使用してコントロール母集団を構築する方法を説明する新しい使用例が追加されました。[詳細を表示](../../automating/using/workflow-control-group.md)
 
 ランディングページのプロパティに関する情報は、専用のセクションに移動されました。 [詳細を表示](../../channels/using/configuring-landing-page.md)
 
