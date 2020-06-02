@@ -12,7 +12,10 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: caab111b583534cc2e52aa9e45d9fd37c770783c
+source-git-commit: bb83fb3b24af0102dc3745517e8604fdac82ee19
+workflow-type: tm+mt
+source-wordcount: '438'
+ht-degree: 2%
 
 ---
 
@@ -21,15 +24,15 @@ source-git-commit: caab111b583534cc2e52aa9e45d9fd37c770783c
 
 電子メールデザイナーで作業する際に開始が発生した場合は、レガシーエディターで作成した電子メールHTMLから、再利用可能なテンプレートやフラグメントを作成してください。
 
->[!IMPORTANT]
->
->この節は、HTMLコードに詳しい上級ユーザー向けです。
-
 この使用例では、HTML電子メールを使用して電子メールデザイナーテンプレートを作成し、電子メールデザイナーでHTMLコンポーネントに分割できます。
 
 >[!NOTE]
 >
 >互換モードと同様に、HTMLコンポーネントは次の制限付きオプションで編集できます。 インプレースエディションのみ実行できます。
+
+>[!IMPORTANT]
+>
+>この節は、HTMLコードに詳しい上級ユーザー向けです。
 
 ## 電子メールコンテンツの準備
 
