@@ -12,7 +12,10 @@ discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: faddcc870adcf9e71e50004a69a219b16ddc044f
+source-git-commit: 26760a118f87676afe3d359c8db3513c1a190d35
+workflow-type: tm+mt
+source-wordcount: '1479'
+ht-degree: 3%
 
 ---
 
@@ -83,7 +86,7 @@ Adobe Experience Cloudのプライバシーについて詳しくは、 [この�
 
 したがって、個人データを収集し共有する会社として、お客様はData Controllerであり、お客様のクライアントはData Subjectsであり、Adobe Campaignは、お客様の指示に従って個人データを処理する際に、Data Processorとして機能します。 データサブジェクトとの関係( [プライバシー要求の管理など)は、データコントローラとしてお客様の責任で処理する必要があります](#privacy-requests)。
 
-オーディエンスを [オーディエンス先サービス、](../../audiences/using/aep-about-audience-destinations-service.md)Adobe Analytics [、](../../integrating/using/about-campaign-analytics-integration.md)オーディエンスマネージャー [、Peopleコアサービスなど、別のシステムにキャンペーンを移行できる他のExperience Cloudソリューションとの統合時には、個人データ保護のための特別な支援が必要](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)[](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)です。
+オーディエンスを [オーディエンス先サービス、](../../audiences/using/aep-about-audience-destinations-service.md)Adobe Analytics [、](../../integrating/using/about-campaign-analytics-integration.md)オーディエンスマネージャー [、Peopleコアサービスなど、別のシステムにキャンペーンを移行できる他のExperience Cloudソリューションとの統合時には、個人データ保護のための特別な支援が必要](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)[](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)です。
 
 ## データの取得 {#data-acquisition}
 
