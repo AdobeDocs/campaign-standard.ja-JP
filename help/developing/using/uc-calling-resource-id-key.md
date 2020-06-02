@@ -2,10 +2,10 @@
 title: 複合 ID キーを使用したリソースの呼び出し
 description: 複合IDキーを使用してリソースを呼び出す方法を学習します。
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: 1e1e1f5f9dd239e45d83330aed74a951a7b332d4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '589'
+ht-degree: 6%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 1. IDキーを使用してプロファイルリソースを呼び出せるように、フィルター定義を設定します。
 1. プロファイルリソースをインターフェイスまたはAPから呼び出します。
 
-関連トピック：
+関連トピック:
 
 * [リソースの作成または拡張](../../developing/using/creating-or-extending-the-resource.md)
 * [識別キーの定義](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)
@@ -99,7 +99,7 @@ GET /profileAndServicesExt/<resourceName>/by<filterName>?<param1_parameter>=<val
 ```
 
 >[!NOTE]
->顧客フィルターを呼び出すには、 [手順2でフィルター定義を設定する際に定義したフィルター名の後に、「by」プレフィックスを使用し](../../developing/using/uc-calling-resource-id-key.md#step-2-configure-the-filter-definition)ます。
+>カスタムフィルターを呼び出すには、 [手順2でフィルター定義を設定する際に定義したフィルター名の後に、「by」プレフィックスを使用し](../../developing/using/uc-calling-resource-id-key.md#step-2-configure-the-filter-definition)ます。
 
 この例では、「123456」CRM IDを持つ「spring」カテゴリからプロファイルを取得する構文は次のようになります。
 
