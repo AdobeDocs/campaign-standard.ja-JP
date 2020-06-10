@@ -12,9 +12,9 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fb865ae08a4b0db42b71e58895976a973a2ed6b7
+source-git-commit: c7ed307e982e3fe41b2e3a7d0de7de356338bc08
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '458'
 ht-degree: 9%
 
 ---
@@ -32,9 +32,9 @@ ht-degree: 9%
 
 **新規！** Campaign Standardのリリース通知を購読する [](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) 、今後のリリースに関する詳細を受信トレイに直接表示できます。
 
-## リリース20.3.1 - 5月のリリース {#release-20-3-may-release}
+## リリース20.4 - 10月のリリース {#release-20-4-oct-release}
 
-環境の更新は、以下に示す時間枠内にウェーブで発生します。 このリリースに関する詳細は、 [リリースノートを参照してください](../../rn/using/release-notes.md)。 その他のご質問は、 [Adobe Client Careにお問い合わせください](https://support.neolane.net/webApp/extranetLogin)。
+環境の更新は、以下に示す時間枠内にウェーブで発生します。 このリリースに関する詳細は、 [リリースノートを参照してください](../../rn/using/release-notes.md)。 その他のご質問は、 [Adobe Client Careにお問い合わせください](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)。
 
 <table>
  <thead>
@@ -46,11 +46,11 @@ ht-degree: 9%
  <tbody>
   <tr>
    <td>ステージ<br /> </td>
-   <td>2020年5月26日～27日<br /> </td>
+   <td>2020年9月21日～22日<br /> </td>
   </tr>
   <tr>
    <td> Production（本番）<br /> </td>
-   <td>2020年5月28日～6月1日<br /> </td>
+   <td>2020年9月28日～10月5日<br /> </td>
   </tr>
  </tbody>
 </table>
@@ -65,7 +65,7 @@ A: 変更点は [リリースノートに記載されており](../../rn/using/r
 
 **Q: 検証プロセスとは**
 
-A: ステージングインスタンスがアップグレードされると、アドビでは、プロセスおよび使用例がこの新しいバージョンで正しく動作していることを検証し、問題があれば [Adobe Client Careに報告することをお勧めします](https://support.neolane.net/webApp/extranetLogin)。
+A: ステージングインスタンスがアップグレードされると、アドビでは、プロセスおよび使用例がこの新しいバージョンで正しく動作していることを検証し、問題があれば [Adobe Client Careに報告することをお勧めします](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)。
 
 **Q: アップグレードプロセス中に、インスタンスにアクセスできますか。**
 
@@ -87,4 +87,4 @@ A: はい、彼らは働きます。 アップグレードの間、新しい E �
 
 A: キャンペーンにログオンすると、リリース通知ポップアップが表示され、最新バージョンが表示されます。
 
-その他のご質問は、 [Adobe Client Careにお問い合わせください](https://support.neolane.net/webApp/extranetLogin)。
+その他のご質問は、 [Adobe Client Careにお問い合わせください](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)。
