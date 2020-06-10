@@ -13,9 +13,9 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: fef25718906ba52158ebe4d53bbadc799cd5dd88
+source-git-commit: 343ea01229779a32919bd68fd15e0c7ff6863353
 workflow-type: tm+mt
-source-wordcount: '1551'
+source-wordcount: '1554'
 ht-degree: 34%
 
 ---
@@ -86,7 +86,7 @@ ETL のためのファイルやデータを管理する際、これらのファ�
 * 時々 SFTP にログインして、問題がないか直接確認します。
 * SFTP のディスク管理は、基本的に管理者の責任となります。
 
-また、SFTP 接続の開始の試行元になるパブリック IP は Campaign インスタンスのホワイトリストに登録されている必要があります。ホワイトリストへの IP アドレスの登録は、認証に使用する公開鍵の提供と同様に、[サポートチケット](https://support.neolane.net)によって依頼できます。
+また、SFTP 接続の開始の試行元になるパブリック IP は Campaign インスタンスのホワイトリストに登録されている必要があります。ホワイトリストへの IP アドレスの登録は、認証に使用する公開鍵の提供と同様に、[サポートチケット](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)によって依頼できます。
 
 SFTPサーバーは、コントロールパネルから管理できます。 For more information, refer to the [Control Panel documentation](https://docs.adobe.com/content/help/ja-JP/control-panel/using/sftp-management/about-sftp-management.html).
 
@@ -184,7 +184,7 @@ Adobe Campaignは、セキュリティで保護された接続(HTTPS)を使用�
 
 **アカウントキー**
 
-外部アカウントを構成する際は、Azure Portalで **[!UICONTROL Account key]** 使用可能ないずれかを使用する必要があります。 For more information on where to find your account keys, refer to this [page](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage#view-access-keys-and-connection-string).
+外部アカウントを構成する際は、Azure Portalで **[!UICONTROL Account key]** 使用可能ないずれかを使用する必要があります。 アカウントキーの検索場所の詳細については、この [ページを参照してください](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage#view-access-keys-and-connection-string)。
 
 **ファイル転送速度の最適化**
 
