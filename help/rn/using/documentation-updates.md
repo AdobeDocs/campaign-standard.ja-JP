@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 15570e42a345e0b8df2fe59d5ce06877e2ac7cf3
+source-git-commit: babbf78d91d3cab9569eab3b15da50f64a91a560
 workflow-type: tm+mt
-source-wordcount: '5842'
+source-wordcount: '5876'
 ht-degree: 19%
 
 ---
@@ -25,6 +25,10 @@ ht-degree: 19%
 このページでは、Adobe Campaign [リリースノートに加えて](../../rn/using/release-notes.md)、Adobe Campaign標準ドキュメントの新しい更新をすべてリストしています。
 
 ## ドキュメントの更新 — 2020年6月 {#doc-updates-june-2020}
+
+従来のサポートWebサイトへの参照は、新しいURLに置き換えられました。 [詳細情報](https://helpx.adobe.com/campaign/kb/ac-support.html#acs-support-req)。
+
+インボックスレンダリング機能からカスタムLitmusアカウント構成が削除されました。 [詳細を表示](../../sending/using/email-rendering.md)
 
 Campaign Standard- Microsoft Dynamics 365の統合は現在使用できません。 新しいコネクターが開発中で、今後利用できる予定です。 関連するヘルプページは削除されました。 [詳細を表示](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
