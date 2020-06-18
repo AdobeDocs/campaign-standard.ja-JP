@@ -12,10 +12,10 @@ discoiquuid: 38452841-4cd4-4f92-a5c3-1dfdd54ff6f4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d05d2692607117e056c360e81d85b7d64c4077a3
+source-git-commit: ecb57ccc4cafa609f7ddccb5f934aa3ab2368dde
 workflow-type: tm+mt
-source-wordcount: '1279'
-ht-degree: 28%
+source-wordcount: '1289'
+ht-degree: 27%
 
 ---
 
@@ -32,14 +32,14 @@ ht-degree: 28%
 >
 >**SMS エラーメッセージ（ステータスレポートを表す「SR」）は MTA プロセスによって評価されます。**
 
-アドレスが強制隔離されているか、プロファイルがブラックリストに登録されている場合、配信準備の際にメッセージを除外することもできます。除外されたメッセージは、配信ダッシュボードの **[!UICONTROL Exclusion logs]** タブに表示されます( [この節を参照](../../sending/using/monitoring-a-delivery.md#exclusion-logs))。
+アドレスが隔離された場合やブロックリスト上にプロファイルがある場合は、配信の準備中にメッセージを除外することもできます。 除外されたメッセージは、配信ダッシュボードの **[!UICONTROL Exclusion logs]** タブに表示されます( [この節を参照](../../sending/using/monitoring-a-delivery.md#exclusion-logs))。
 
 ![](assets/exclusion_logs.png)
 
 **関連トピック：**
 
 * [強制隔離管理の理解](../../sending/using/understanding-quarantine-management.md)
-* [キャンペーンでのブラックリストの管理](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+* [Campaign のオプトインとオプトアウトについて](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 ## メッセージの配信エラーの識別 {#identifying-delivery-failures-for-a-message}
 
@@ -69,8 +69,8 @@ ht-degree: 28%
 | **[!UICONTROL Refused]** | ソフト／ハード | アドレスは、スパムレポートであるというセキュリティフィードバックが原因で強制隔離されました。プロバイダーから返されたエラーに応じて、アドレスは強制隔離に直接送信されるか、配信はキャンペーンが強制隔離ステータスを正当化するエラーを受け取るか、エラー数が5に達するまで再試行されます。 |
 | **[!UICONTROL Duplicate]** | 無視 | アドレスは既にセグメントで検出されています。 |
 | **[!UICONTROL Not defined]** | ソフト | エラーはまだ増加していないので、アドレスは認定対象です。 このタイプのエラーは、サーバーが新しいエラーメッセージを送信すると発生します。単独のエラーである可能性もありますが、再度発生した場合はエラーカウンターがインクリメントされ、テクニカルチームに警告されます。 |
-| **[!UICONTROL Error ignored]** | 無視 | このアドレスはホワイトリストにあり、場合によっては電子メールが送信されます。 |
-| **[!UICONTROL Blacklisted address]** | ハード | 住所は送信時のブラックリスト登録済みでした。 |
+| **[!UICONTROL Error ignored]** | 無視 | 許可リストのアドレスには電子メールが送信されます。 |
+| **[!UICONTROL Address on block list]** | ハード | 送信時にブロックリストにアドレスが追加されました。 |
 | **[!UICONTROL Account disabled]** | ソフト／ハード | インターネットアクセスプロバイダ(IAP)が長時間の無操作状態を検出した場合、ユーザーのアカウントを閉じる可能性があります。 その場合、ユーザーのアドレスへの配信は不可能になります。 「ソフト」(Soft)または「ハード」(Hard)タイプは、受け取ったエラーの種類に応じて異なります。 6か月間操作が行われなかったためにアカウントが一時的に無効になっていて、アクティブ化できる場合は、ステータスが割り当てら **[!UICONTROL Erroneous]** れ、配信が再試行されます。 アカウントが完全に非アクティブ化されるというシグナルを受け取ったエラーは、強制隔離に直接送信されます。 |
 | **[!UICONTROL Not connected]** | 無視 | プロファイルの携帯電話は、メッセージの送信時にオフになるか、ネットワークに接続されません。 |
 | **[!UICONTROL Invalid domain]** | ソフト | E メールアドレスのドメインが正しくないか、存在しません。このプロファイルは、エラーカウントが 5 にならない限り、再びターゲットになります。その後、レコードは強制隔離ステータスに設定され、以降は再試行されなくなります。 |
