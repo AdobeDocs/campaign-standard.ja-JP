@@ -13,7 +13,10 @@ context-tags: delivery,smsContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+workflow-type: tm+mt
+source-wordcount: '1727'
+ht-degree: 7%
 
 ---
 
@@ -49,7 +52,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
       </tr>
       <tr>
          <td>allowNonIdentifiedTarget</td>
-         <td>不明な訪問者を許可する</td>
+         <td>不明な訪問者の許可</td>
          <td>boolean </td>
          <td> </td>
       </tr>
@@ -72,14 +75,14 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
          <td> </td>
       </tr>
       <tr>
-         <td>campaign (campaignBase)</td>
+         <td>キャンペーン(campaignBase)</td>
          <td>キャンペーン</td>
          <td>link </td>
          <td> </td>
       </tr>
       <tr>
          <td>closedLog</td>
-         <td>'ランディングページが閉じられました'ログ</td>
+         <td>'ランディングページが終了しました'ログ</td>
          <td>文字列 </td>
          <td> </td>
       </tr>
@@ -110,7 +113,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
       <tr>
          <td>defaultLanguage</td>
          <td>デフォルト言語</td>
-         <td>列挙（文字列） (255)</td>
+         <td>定義済みリスト（文字列） (255)</td>
          <td>
             <ul>
                <li>ギリシャ語 — el - el</li>
@@ -133,7 +136,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
                <li>スペイン語 — es - es</li>
                <li>ロシア語 — ru - ru</li>
                <li>オランダ語 — nl - nl</li>
-               <li>ワロンワワワワ</li>
+               <li>ワロン — ワ — ワ</li>
                <li>ポルトガル語 — pt - pt</li>
                <li>フランス語（ベルギー） - fr_BE - fr_BE</li>
                <li>ラトビア語 — lv - lv</li>
@@ -145,7 +148,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
                <li>ドイツ語 — de - de</li>
                <li>デンマーク語 — da - da</li>
                <li>フィンランド語 — fi - fi</li>
-               <li>ハンガリー語 — hu - hu</li>
+               <li>ハンガリー語 — 胡 — 胡</li>
                <li>スウェーデン語（フィンランド） - sv_FI - sv_FI</li>
                <li>日本語 — ja - ja</li>
                <li>ヘブライ語 — 彼 — 彼</li>
@@ -156,13 +159,13 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
                <li>マルタ語 — mt - mt</li>
                <li>イタリア語（スイス） - it_CH - it_CH</li>
                <li>ポーランド語 — pl - pl</li>
-               <li>スロベネ — sl - sl</li>
+               <li>スロベン — sl - sl</li>
                <li>無効な値 — __Invalid_value__ - __Invalid_value__</li>
             </ul>
          </td>
       </tr>
       <tr>
-         <td>defaultOrigin（配信）</td>
+         <td>defaultOrigin(配信)</td>
          <td>トラフィックソース</td>
          <td>link </td>
          <td> </td>
@@ -176,7 +179,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
       <tr>
          <td>designLanguage</td>
          <td>デザイン言語</td>
-         <td>列挙（文字列） (255)</td>
+         <td>定義済みリスト（文字列） (255)</td>
          <td>
             <ul>
                <li>ギリシャ語 — el - el</li>
@@ -199,7 +202,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
                <li>スペイン語 — es - es</li>
                <li>ロシア語 — ru - ru</li>
                <li>オランダ語 — nl - nl</li>
-               <li>ワロンワワワワ</li>
+               <li>ワロン — ワ — ワ</li>
                <li>ポルトガル語 — pt - pt</li>
                <li>フランス語（ベルギー） - fr_BE - fr_BE</li>
                <li>ラトビア語 — lv - lv</li>
@@ -211,7 +214,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
                <li>ドイツ語 — de - de</li>
                <li>デンマーク語 — da - da</li>
                <li>フィンランド語 — fi - fi</li>
-               <li>ハンガリー語 — hu - hu</li>
+               <li>ハンガリー語 — 胡 — 胡</li>
                <li>スウェーデン語（フィンランド） - sv_FI - sv_FI</li>
                <li>日本語 — ja - ja</li>
                <li>ヘブライ語 — 彼 — 彼</li>
@@ -222,7 +225,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
                <li>マルタ語 — mt - mt</li>
                <li>イタリア語（スイス） - it_CH - it_CH</li>
                <li>ポーランド語 — pl - pl</li>
-               <li>スロベネ — sl - sl</li>
+               <li>スロベン — sl - sl</li>
                <li>無効な値 — __Invalid_value__ - __Invalid_value__</li>
             </ul>
          </td>
@@ -313,7 +316,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
       </tr>
       <tr>
          <td>loadingFilter (queryFilterBase)</td>
-         <td>ロード中キー</td>
+         <td>キーの読み込み中</td>
          <td>link </td>
          <td> </td>
       </tr>
@@ -326,12 +329,12 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
       <tr>
          <td>logicalStatus</td>
          <td>実行ステータス</td>
-         <td>列挙（文字列） (255)</td>
+         <td>定義済みリスト（文字列） (255)</td>
          <td>
             <ul>
                <li>進行中 — 開始 — 開始</li>
                <li>編集 — エディション — エディション</li>
-               <li>完了 — 完了 — 完了</li>
+               <li>終了 — 終了 — 終了</li>
                <li>警告 — 警告 — 警告</li>
                <li>エラー — エラー — エラー</li>
                <li>無効な値 — __Invalid_value__ - __Invalid_value__</li>
@@ -340,7 +343,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
       </tr>
       <tr>
          <td>messageAction</td>
-         <td>メッセージの送信を開始</td>
+         <td>開始送信メッセージ</td>
          <td>boolean </td>
          <td> </td>
       </tr>
@@ -375,14 +378,14 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
          <td> </td>
       </tr>
       <tr>
-         <td>program (programBase)</td>
+         <td>プログラム(programBase)</td>
          <td>プログラム</td>
          <td>link </td>
          <td> </td>
       </tr>
       <tr>
          <td>publicUrl</td>
-         <td>公開URL</td>
+         <td>パブリックURL</td>
          <td>文字列 </td>
          <td> </td>
       </tr>
@@ -400,18 +403,18 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
       </tr>
       <tr>
          <td>reconciliationFilterMapping</td>
-         <td>調整キーパラメーター</td>
+         <td>紐付けキーパラメーター</td>
          <td>コレクション </td>
          <td> </td>
       </tr>
       <tr>
          <td>reconciliationUpdateStrategy</td>
          <td>更新方法</td>
-         <td>列挙（バイト） </td>
+         <td>定義済みリスト（バイト） </td>
          <td>
             <ul>
                <li>更新 — updateTarget - 1</li>
-               <li>未承認 — 0</li>
+               <li>未承認 — 未承認 — 0</li>
                <li>無効な値 — __Invalid_value__ - __Invalid_value__</li>
             </ul>
          </td>
@@ -425,14 +428,14 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
       <tr>
          <td>specificAction</td>
          <td>特定のアクション</td>
-         <td>列挙（バイト） </td>
+         <td>定義済みリスト（バイト） </td>
          <td>
             <ul>
-               <li>ブラックリスト — blackList - 3</li>
+               <li>ブロックリスト-ブロックリスト- 3</li>
                <li>特定のアクションなし — なし — 0</li>
-               <li>購読解除 — 購読解除 — 2</li>
+               <li>購読解除-購読解除- 2</li>
                <li>無効な値 — __Invalid_value__ - __Invalid_value__</li>
-               <li>購読 — 購読 — 1</li>
+               <li>購読-購読- 1</li>
             </ul>
          </td>
       </tr>
@@ -445,7 +448,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
       <tr>
          <td>state</td>
          <td>ステータス</td>
-         <td>列挙（バイト） </td>
+         <td>定義済みリスト（バイト） </td>
          <td>
             <ul>
                <li>編集中 — 編集中 — 0</li>
@@ -483,38 +486,38 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
       <tr>
          <td>timezone</td>
          <td>タイムゾーン</td>
-         <td>列挙（文字列） (64)</td>
+         <td>定義済みリスト（文字列） (64)</td>
          <td>
             <ul>
                <li>(GMT-02:00)中央大西洋 — Atlantic_South_Georgia - Atlantic/South_Georgia</li>
-               <li>(GMT+02:00)アンマン — Asia_Amman - Asia/Amman</li>
+               <li>(GMT+02:00)アンマン — Asia_Amman — アジア/アンマン</li>
                <li>(GMT-03:00)ブラジ — America_Sao_Paulo - America/Sao_Paulo</li>
                <li>(GMT+06:00)アスタナ、ダッカ — Asia_Dhaka - Asia/Dhaka</li>
                <li>(GMT+06:00)ノボシビルスク — Asia_Novosibirsk - Asia/Novosibirsk</li>
-               <li>(GMT+02:00)ウィントホーク — Africa_Windhoek - Africa/Windhoek</li>
+               <li>(GMT+02:00)ウィンドウェク — Africa_Windhoek - Africa/Windhoek</li>
                <li>(GMT+04:00)コーカサス、エレバン — Asia_Yerevan - Asia/Yerevan</li>
                <li>(GMT-04:00)マナウス — America_Manaus - America/Manaus</li>
-               <li>(GMT+03:30)テヘラン — Asia_Tehran - Asia/Theran</li>
+               <li>(GMT+03:30)テヘラン — Asia_Tehran - Asia/Tehran</li>
                <li>(GMT+12:00)オークランド、ウェリントン — Pacific_Auckland - Pacific/Auckland</li>
                <li>(GMT+02:00)エルサレム — Asia_Jerusalem - Asia/Jerusalem</li>
-               <li>(GMT+03:00)モスクワ、サンクトペテルブルグ、ボルゴグラード — Europe_Moscow - Europe/Moscow</li>
-               <li>(GMT+09:30)アデレード — Australia_Adelaide - Australia/Adelaide</li>
+               <li>(GMT+03:00)モスクワ、セントペテルブルク、ボルゴグラード — Europe_Moscow - Europe/Moscow</li>
+               <li>(GMT+09:30)アデレイド — Australia_Adelaide - Australia/Adelaide</li>
                <li>(GMT+10:00)キャンベラ、メルボルン、シドニー — Australia_Canberra - Australia/Canberra</li>
                <li>(GMT+08:00)パース — オーストラリア_パース — オーストラリア/パース</li>
                <li>(GMT+09:00)ヤクーツク — Asia_Yakutsk — アジア/ヤクーツク</li>
-               <li>(GMT-10:00)ハワイ — Pacific_Honolulu - Pacific/Honolulu</li>
+               <li>(GMT-10:00) Hawai - Pacific_Honolulu - Pacific/Honolulu</li>
                <li>(GMT+04:00)バクー — アジアバクー — アジア/バクー</li>
-               <li>(GMT+10:00)ウラジオストク — Asia_Vladivostok - Asia/Vladivostok</li>
-               <li>(GMT+09:00)ソウル — アジア_ソウル — アジア/ソウル</li>
+               <li>(GMT+10:00)ウラジオストク — Asia_Vladivostok - Asia/Vladiostok</li>
+               <li>(GMT+09:00)ソウル — Asia_Seoul - Asia/Seoul</li>
                <li>(GMT+01:00)サラエボ、スコプリエ、ソフィア、ワルシャワ、ザグレブ — Europe_Sarajevo - Europe/Sarajevo</li>
                <li>サーバーのタイムゾーン — _server_ - _server_</li>
                <li>(GMT+04:00)アブダビ、マスカット — Asia_Muscat - Asia/Muscat</li>
                <li>(GMT+08:00)クアラルンプール、シンガポール — Asia_Kuala_Lumpur - Asia/Kuala_Lumpur</li>
                <li>(GMT+09:00)大阪、札幌、東京 — Asia_Tokyo — アジア/東京</li>
-               <li>(GMT+10:00)ブリスベン — オーストラリア_ブリスベン — オーストラリア/ブリスベン</li>
+               <li>(GMT+10:00)ブリスベン — Australia_Brisbane - Australia/Brisbane</li>
                <li>(GMT+05:30)スリジャヤワルデネプラ — Asia_Colombo - Asia/Colombo</li>
-               <li>(GMT+02:00)ハラレ、プレトリア — Africa_Harare - Africa/Harare</li>
-               <li>(GMT+08:00)ウランバトル — Asia_Ulan_Bator - Asia/Ulan_Bator</li>
+               <li>(GMT+02:00)ハラレ、プレトリア — Africa_Harre - Africa/Harare</li>
+               <li>(GMT+08:00)Oulan-Bator - Asia_Ulan_Bator - Asia/Ulan_Bator</li>
                <li>(GMT-02:00)グリニッジ標準時 — 2時間 — Gmt_m2 - Etc/GMT+2</li>
                <li>(GMT-03:00)グリニッジ標準時 — 3時間 — Gmt_m3 - Etc/GMT+3</li>
                <li>(GMT-01:00)グリニッジ標準時 — 1時間 — Gmt_m1 - Etc/GMT+1</li>
@@ -531,32 +534,32 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
                <li>(GMT-04:30)カラカス — America_Caracas - America/Caracas</li>
                <li>(GMT+01:00)アムステルダム、ベルリン、ベルン、ローマ、ストックホルム、ウィーン — Europe_Berlin - Europe/Berlin</li>
                <li>(GMT-07:00)チワワ、ラパス、マサトラン — America_Chihuahua - America/Chihuahua</li>
-               <li>(GMT+03:00)ナイロビ — アフリカ_ナイロビ — アフリカ/ナイロビ</li>
+               <li>(GMT+03:00)ナイロビ — Africa_Nairobi - Africa/Nairobi</li>
                <li>(GMT-04:00)アスンシオン — America_Asuncion - America/Asuncion</li>
                <li>(GMT+03:00)バグダッド — Asia_Baghdad - Asia/Baghdad</li>
-               <li>(GMT-10:00)グリニッジ標準時 — 10時間 — Gmt_m10 - Etc/GMT+10</li>
+               <li>(GMT-10:00)グリニッジ標準時 — 10時間を引いた値 — Gmt_m10 - Etc/GMT+10</li>
                <li>(GMT-03:00)グリーンランド — America_Godthab - America/Godthab</li>
                <li>(GMT+02:00)ダマス — Asia_Damascus - Asia/Damascus</li>
                <li>(GMT-11:00)サモア — Pacific_Samoa - Pacific/Samoa</li>
                <li>(GMT-05:00)ボゴタ、リマ、キト — America_Bogota - America/Bogota</li>
-               <li>(GMT+01:00)ブリュッセル、コペンハーゲン、マドリッド、パリ — Europe_Paris - Europe/Paris</li>
-               <li>(GMT+08:00)北京、重慶、香港、ウルムチ — Asia_Shanghai - Asia/Shanghai</li>
-               <li>(GMT+12:00)フィジー — パシフィック_フィジ — 太平洋/フィジ</li>
-               <li>(GMT+02:00)アテネ、イスタンブール、ミンスク — ヨーロッパ_アテネ — ヨーロッパ/アテネ</li>
+               <li>(GMT+01:00)ブリュッセル、コペンハーゲン、マドリード、パリ — Europe_Paris - Europe/Paris</li>
+               <li>(GMT+08:00)北京、重慶、香港、ウルムチ — Asia_Shangai - Asia/Shanghai</li>
+               <li>(GMT+12:00)フィジー — Pacific_Fiji — 太平洋/フィジー</li>
+               <li>(GMT+02:00)アテネ、イスタンブール、ミンスク — Europe_Athens - Europe/Athens</li>
                <li>(GMT+04:00)トビリシ — Asia_Tbilisi - Asia/Tbilisi</li>
                <li>無効な値 — __Invalid_value__ - __Invalid_value__</li>
                <li>(GMT+05:45)カトマンズ — Asia_Katmandu - Asia/Katmandu</li>
                <li>(GMT-05:00)インディアナ（東部） - America_Indianapolis - America/Indianapolis</li>
                <li>(GMT-01:00)カーボベルデ諸島 — Atlantic_Cape_Verde - Atlantic/Cape_Verde</li>
-               <li>(GMT+04:00)ポートルイス — Indian_Mauritius - Indian/Mauritius</li>
+               <li>(GMT+04:00)ポートルイ — Indian_Mauritius - Indian/Mauritius</li>
                <li>(GMT+08:00)台北 — Asia_Taipei - Asia/Taipei</li>
                <li>データベースのタイムゾーン — _wdbc_ - _wdbc_</li>
-               <li>(GMT+06:30)ラングーン — Asia_Rangeon - Asia/Rangeon</li>
+               <li>(GMT+06:30)ラングーン — Asia_Rangoon - Asia/Rangoon</li>
                <li>(GMT+11:00)マガダン、ソロモン諸島、ニューカレドニア — Pacific_Guadalcanal - Pacific/Guadalcanal</li>
                <li>(GMT+02:00)カイロ — Africa_Cairo - Africa/Cairo</li>
-               <li>(GMT+05:00)イーカテリンブルグ — Asia_Yekaterinburg - Asia/Yekaterinburg</li>
+               <li>(GMT+05:00)イーカテリンブルク — Asia_Yekaterinburg - Asia/Yekaterinburg</li>
                <li>(GMT+08:00)イルコーツク — Asia_Irkutsk - Asia/Irkutsk</li>
-               <li>(GMT+10:00)グアム、ポートモレスビー — パシフィック_グアム — パシフィック/グアム</li>
+               <li>(GMT+10:00)グアム、ポートモレスビー — Pacific_Guam - Pacific/Guam</li>
                <li>(GMT-04:00)大西洋標準時（カナダ） — America_Halifax - America/Halifax</li>
                <li>(GMT)グリニッジ標準時 — GMT - GMT</li>
                <li>(GMT-04:00)ラパス — America_La_Paz - America/La_Paz</li>
@@ -566,14 +569,14 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
                <li>(GMT-05:00)東部（米国およびカナダ） — America_New_York - America/New_York</li>
                <li>(GMT-05:00)グリニッジ標準時 — 5時間 — Gmt_m5 - Etc/GMT+5</li>
                <li>(GMT+05:00)イスラマバード、カラチ、タケント — Asia_Karachi - Asia/Karachi</li>
-               <li>(GMT+03:00)Koweyt、Riyad - Asia_Riyadh - Asia/Riyadh</li>
+               <li>(GMT+03:00)Koweyut、Riyad - Asia_Riyadh - Asia/Riyadh</li>
                <li>(GMT-08:00)グリニッジ標準時 — 8時間 — Gmt_m8 - Etc/GMT+8</li>
                <li>(GMT-01:00)アゾレス諸島 — Atlantic_Azores - Atlantic/Azores</li>
                <li>(GMT+07:00)バンコク、ハノイ、ジャカルタ — Asia_Bangkok - Asia/Bangkok</li>
                <li>(GMT)モンロビア — Africa_Monrovia - Africa/Monrovia</li>
                <li>(GMT-09:00)アラスカ — America_Anchorage - America/Anchorage</li>
-               <li>(GMT+01:00)ベオグラード、ブラチスラバ、ブダペスト、リュブリャナ、プラハ — ヨーロッパ_ベオグラード — ヨーロッパ/ベオグラード</li>
-               <li>(GMT) Reykjavik - Atlantic_Reykjavik - Atlantic/Reykjavik</li>
+               <li>(GMT+01:00)ベオグラード、ブラチスラバ、ブダペスト、リュブリャナ、プラハ — Europe_Belgrade - Europe/Belgrade</li>
+               <li>(GMT)Reykjavik - Atlantic_Reykjavik - Atlantic/Reykjavik</li>
                <li>(GMT+02:00)ブカレスト — Europe_Bucharest - Europe/Bucharest</li>
                <li>(GMT+05:00)グリニッジ標準時+ 5時間 — Gmt_p5 - Etc/GMT-5</li>
                <li>(GMT+04:00)グリニッジ標準時+ 4時間 — Gmt_p4 - Etc/GMT-4</li>
@@ -585,14 +588,14 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
                <li>(GMT+07:00)クラスノヤルスク — Asia_Krasnoyarsk - Asia/Krasnoyarsk</li>
                <li>(GMT+09:00)グリニッジ標準時+ 9時間 — Gmt_p9 - Etc/GMT-9</li>
                <li>(GMT+08:00)グリニッジ標準時+ 8時間 — Gmt_p8 - Etc/GMT-8</li>
-               <li>(GMT+10:00)ホバート — オーストラリア_ホバート — オーストラリア/ホバート</li>
+               <li>(GMT+10:00)ホバート — Australia_Hobart - Australia/Hobart</li>
                <li>(GMT+13:00)ヌクアロファ — Pacific_Tongatapu - Pacific/Tongatapu</li>
                <li>(GMT-06:00)中央アメリカ — America_Regina - America/Regina</li>
-               <li>(GMT-03:00)ブエノスアイレス、ケイエン、フォルタレザ — America_Buenos_Aires - America/Buenos_Aires</li>
+               <li>(GMT-03:00)ブエノスアイレス、ケイエン、フォタレザ — America_Buenos_Aires - America/Buenos_Aires</li>
                <li>(GMT-07:00)ロッキー山脈（米国およびカナダ） — America_Denver - America/Denver</li>
                <li>(GMT+01:00)中央アフリカ — 西 — Africa_Luanda - Africa/Luanda</li>
-               <li>(GMT+02:00)ヘルシンキ、キエフ、リガ、ソフィア、タリン、ビリニウス — Europe_Helsinki - Europe/Helsinki</li>
-               <li>(GMT)グリニッジ標準時：ダブリン、エジンバラ、リスボン、ロンドン — Europe_London - Europe/London</li>
+               <li>(GMT+02:00)ヘルシンキ、キエフ、リガ、ソフィア、タリン、ビルニウス — Europe_Helsinki - Europe/Helsinki</li>
+               <li>(GMT)グリニッジ標準時： ダブリン、エジンバラ、リスボン、ロンドン — Europe_London - Europe/London</li>
                <li>(GMT-07:00)アリゾナ — America_Phoenix - America/Phoenix</li>
                <li>(GMT+02:00)ベイルート — Asia_Beirut - Asia/Beirut</li>
                <li>(GMT+04:30)カブール — Asia_Kabul — アジア/カブール</li>
@@ -603,7 +606,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
                <li>(GMT+12:00)グリニッジ標準時+ 12時間 — Gmt_p12 - Etc/GMT-12</li>
                <li>(GMT-04:00)サンティアゴ — America_Santiago - America/Santiago</li>
                <li>(GMT-03:00)モンテビデオ — America_Montevideo - America/Montevideo</li>
-               <li>(GMT-04:00)クイアバ — アメリカ_クイアバ — アメリカ/クイアバ</li>
+               <li>(GMT-04:00)クイアバ — America_Cuiaba - America/Cuiaba</li>
             </ul>
          </td>
       </tr>
@@ -628,15 +631,15 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
       <tr>
          <td>type</td>
          <td>タイプ</td>
-         <td>列挙（バイト） </td>
+         <td>定義済みリスト（バイト） </td>
          <td>
             <ul>
                <li>汎用 — 汎用 — 0</li>
-               <li>サービスの購読解除 — 購読解除 — 3</li>
-               <li>ブラックリスト — blackList - 4</li>
+               <li>サービスからの購読解除-購読解除- 3</li>
+               <li>ブロックリスト-ブロックリスト- 4</li>
                <li>無効な値 — __Invalid_value__ - __Invalid_value__</li>
                <li>獲得 — 獲得 — 1</li>
-               <li>サービスの購読 — 購読 — 2</li>
+               <li>サービスへの購読-購読- 2</li>
             </ul>
          </td>
       </tr>
@@ -656,7 +659,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
 
 ## フィルター
 
-論理ステータス別(byLogicalStatus)
+論理ステータス(byLogicalStatus)
 
 <table>
     <tr>
@@ -665,7 +668,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
     </tr>
     <tr>
     <td>state</td>
-    <td>列挙</td>
+    <td>定義済みリスト</td>
     </tr>
 </table>
 
@@ -682,7 +685,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
     </tr>
 </table>
 
-状態別(byState)
+ステータス別(byState)
 
 <table>
     <tr>
@@ -691,11 +694,11 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
     </tr>
     <tr>
     <td>state</td>
-    <td>列挙</td>
+    <td>定義済みリスト</td>
     </tr>
 </table>
 
-リソースをターゲット設定する(byTargetResource)
+ターゲットリソース(byTargetResource)
 
 <table>
 <tr>
@@ -708,7 +711,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
 </tr>
 </table>
 
-高度なランディングページを含める（Advancedを使用）
+高度なランディングページを含める(withAdvanced)
 
 <table>
     <tr>
@@ -716,12 +719,12 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
     <th>タイプ</th>
     </tr>
     <tr>
-    <td>高度な</td>
+    <td>advanced</td>
     <td>boolean</td>
     </tr>
 </table>
 
-異種リストからの継続的な配信を含める(withContinuous)
+異種リストからの連続配信を含める（連続）
 
 <table>
         <tr>
@@ -734,7 +737,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
         </tr>
     </table>
 
-指定期間中に存在する（カレンダー別）
+特定の期間(byCalendar)に存在する
 
 <table>
         <tr>
