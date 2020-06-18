@@ -1,6 +1,6 @@
 ---
-title: キャンペーンのオプトインとオプトアウトの管理
-description: Adobe Campaignでのオプトインおよびオプトアウトの管理方法を説明します。
+title: Campaign のオプトインとオプトアウトの管理
+description: オプトインおよびオプトアウトのAdobe Campaign管理方法を理解します。
 page-status-flag: never-activated
 uuid: aa1801ec-562b-420e-8d79-c07d066b7b1a
 contentOwner: sauviat
@@ -12,50 +12,53 @@ discoiquuid: 6b5680f2-bba9-453e-a0d5-8ca69dd02001
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+workflow-type: tm+mt
+source-wordcount: '309'
+ht-degree: 8%
 
 ---
 
 
-# キャンペーンのオプトインとオプトアウトの管理{#managing-opt-in-and-opt-out-in-campaign}
+# Campaign のオプトインとオプトアウトの管理{#managing-opt-in-and-opt-out-in-campaign}
 
-## プロファイルのオプトインとオプトアウトの管理 {#managing-opt-in-and-opt-out-from-a-profile}
+## プロファイルからのオプトインおよびオプトアウトの管理 {#managing-opt-in-and-opt-out-from-a-profile}
 
-ユーザーは、プロファイルタブから直接、オペレーターによってオプトインまたはオプトアウトで **[!UICONTROL General]** きます。
+プロファイルは、「ユーザー」 **[!UICONTROL General]** タブから演算子で直接オプトインまたはオプトアウトできます。
 
-このセクション **[!UICONTROL No longer contact (blacklist)]** では、選択したチェックボックスは、ユーザがオプトアウトを選択したチャネルに対応しています。 ユーザーのニーズに応じてチャネルを選択します。
+このセクションでは、選択したチェックボックスは、ユーザが選択したチャネルに対応しオプトアウトています。 **[!UICONTROL No longer contact (on block list)]** ユーザーのニーズに応じてチャネルを選択します。
 
 ![](assets/optin_landingpage_3.png)
 
 ## オプトインおよびオプトアウトランディングページの設定 {#setting-up-opt-in-and-opt-out-landing-pages}
 
-ユーザーがオプトインまたはオプトアウトできるようにするには、ランディングページを作成して公開する必要 **[!UICONTROL Profile acquisition]** があります。 その後、必要に応じてチャネルを選択できます。 これを行うには、次の手順に従います。
+ユーザーに対してオプトイン、または権限を与えるには、 **[!UICONTROL Profile acquisition]** ランディングページを作成して公開する必要があります。 その後、必要に応じてチャネルを選択できます。 それには、次の手順に従います。
 
-また、ランディングページを設定して、ユ **[!UICONTROL BlackList]** ーザーがすべての配信をオプトアウトできるようにすることもできます。 詳しくは、「すべての配信をオプトア [ウトするためのランディングページの設定」を参照してください](#setting-up-a-landing-page-to-opt-out-from-all-deliveries)。
+また、すべての配信からのアクセスを許可する **[!UICONTROL Block List]** ランディングページを設定すオプトアウトることもできます。 詳しくは、「すべての配信からのランディングページの [設定」を参照してくだオプトアウトさい](#setting-up-a-landing-page-to-opt-out-from-all-deliveries)。
 
 >[!NOTE]
 >
 >ランディングページは、サービスの購読を有効にするためにも使用できます。 詳しくは、[このページ](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)を参照してください。
 
-1. ランディング **[!UICONTROL Profile acquisition]** ページを作成します( [この節を参照](../../channels/using/getting-started-with-landing-pages.md))。
-1. 目的の各チャネルのランディングページのコンテンツにチェックボックスを追加し、Campaignデータベースから対応するフィールドにリンクします。
+1. **[!UICONTROL Profile acquisition]** ランディングページを作成します( [この節を参照](../../channels/using/getting-started-with-landing-pages.md))。
+1. 必要な各ランディングページのキャンペーンコンテンツ内のチェックボックス追加を選択し、チャネルデータベースの対応するフィールドにリンクします。
 
    ![](assets/optin_landingpage_1.png)
 
-1. ランディングページを保存して発行します。
-1. ランディングページでは、プロファイルタブに従ってチェックボックスが既に選択され **[!UICONTROL General]** ています。 ユーザーは、必要に応じてチャネルを選択または選択解除し、フォームを送信できます。
+1. ランディングページを保存して公開します。
+1. ランディングページでは、[プロファイル] **[!UICONTROL General]** タブに従ってチェックボックスが既に選択されています。 ユーザーは、必要に応じてチャネルを選択または選択解除し、フォームを送信できます。
 
    ![](assets/optin_landingpage_2.png)
 
-1. フォームが送信されると、ユーザーの選 **[!UICONTROL General]** 択に従って「プロファイル」タブが更新されます。
+1. フォームが送信されると、ユーザーの選択に従って「プロファイル」 **[!UICONTROL General]** タブが更新されます。
 
    ![](assets/optin_landingpage_3.png)
 
-### すべての配信からオプトアウトするためのランディングページの設定 {#setting-up-a-landing-page-to-opt-out-from-all-deliveries}
+### すべての配信からにオプトアウトランディングページを設定する {#setting-up-a-landing-page-to-opt-out-from-all-deliveries}
 
-すべての配信からオプトアウトする機能をユーザーに提供するには、ランディングページを作成して公開する必要 **[!UICONTROL BlackList]** があります。 For more on landing pages creation, refer to [this page](../../channels/using/getting-started-with-landing-pages.md).
+すべての配信からアクセスできオプトアウトるようにするには、 **[!UICONTROL Block list]** ランディングページを作成して公開する必要があります。 For more on landing pages creation, refer to [this page](../../channels/using/getting-started-with-landing-pages.md).
 
-ユーザーがランディングページのリンクをクリックすると、プロフ **[!UICONTROL No longer contact (by any channel)]** ァイルのオプションが自動的に選択されます。
+ランディングページのリンクをクリックすると、プロファイルの **[!UICONTROL No longer contact (by any channel)]** オプションが自動的に選択されます。
 
-![](assets/blacklisting_allchannels.png)
+![](assets/blocklisting_allchannels.png)
 
