@@ -1,6 +1,6 @@
 ---
 title: ドキュメントの更新
-description: Adobe Campaign標準ドキュメントの最新の更新について説明します。
+description: Adobe Campaign Standardドキュメントの最新の更新について説明します。
 page-status-flag: never-activated
 uuid: 3bdc7d11-8421-4110-a5ba-7b1376a03dda
 contentOwner: sauviat
@@ -12,19 +12,21 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: babbf78d91d3cab9569eab3b15da50f64a91a560
+source-git-commit: 017e1e80657a3145a97c6ab62a577a9a2164cc99
 workflow-type: tm+mt
-source-wordcount: '5876'
-ht-degree: 19%
+source-wordcount: '5923'
+ht-degree: 18%
 
 ---
 
 
 # ドキュメントのアップデート{#documentation-updates}
 
-このページでは、Adobe Campaign [リリースノートに加えて](../../rn/using/release-notes.md)、Adobe Campaign標準ドキュメントの新しい更新をすべてリストしています。
+このページでは、Adobe Campaign [リリースノートに加えて、Adobe Campaign Standardドキュメントの新しい更新をすべてリストしています](../../rn/using/release-notes.md)。
 
 ## ドキュメントの更新 — 2020年6月 {#doc-updates-june-2020}
+
+「ホワイトリスト」と「ブラックリスト」の両方の用語がAdobe Campaignドキュメントから削除されました。 これらの用語の一部は、製品UI、オプション名、内部コードにまだ存在する場合がありますが、今後のキャンペーンリリースでは「ブロックリスト」と「許可リスト」に置き換えられます。
 
 従来のサポートWebサイトへの参照は、新しいURLに置き換えられました。 [詳細情報](https://helpx.adobe.com/campaign/kb/ac-support.html#acs-support-req)。
 
@@ -38,7 +40,7 @@ Campaign Standardの概要ページが強化され、主題に関するトピッ
 
 「電子メールチャネルのパラメーター」セクションが明確になり、許可されたマスクフィールドと配信レポートIDに関する詳細情報が表示されました。 [詳細を表示](../../administration/using/configuring-email-channel.md)
 
-Adobe Experience Platform SDKを使用したモバイルアプリの設定が、LaunchテクニカルワークフローのSync MobileアプリAEPSDKに関する詳細情報と共に、コアドキュメントで使用できるようになりました。 [詳細を表示](../../administration/using/configuring-a-mobile-application.md)
+Adobe Experience PlatformSDKを使用したモバイルアプリの設定が、LaunchテクニカルワークフローのSync MobileアプリAEPSDKに関する詳細情報と共に、コアドキュメントで利用できるようになりました。 [詳細を表示](../../administration/using/configuring-a-mobile-application.md)
 
 ## リリース20.3 - 2020年5月 {#release-20-3---may-2020}
 
@@ -62,11 +64,11 @@ External APIアクティビティ(GA) - [詳細情報](../../automating/using/ex
 
 ## ドキュメントの更新 — 2020年4月 {#doc-updates-april-2020}
 
-Microsoft Dynamics 365とAdobe Campaign標準ドキュメントの統合が、コアドキュメントで利用できるようになりました。 [詳細を表示](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+Adobe Campaign StandardドキュメントとMicrosoft Dynamics 365の統合が、コアドキュメントで利用できるようになりました。 [詳細を表示](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
 追加のリソースがドキュメントホームページに追加されました。[詳細を表示](../../campaign-standard-home.md)
 
-Experience Cloud IDサービス(ECID)の情報は、Adobe Experience Platform Data Connectorのドキュメントに追加されました。 [詳細を表示](../../developing/using/aep-about-data-connector.md#key-concepts)
+Experience CloudIDサービス(ECID)に関する情報が、Adobe Experience Platformデータコネクタのドキュメントに追加されました。 [詳細を表示](../../developing/using/aep-about-data-connector.md#key-concepts)
 
 トランザクションメッセージの設定の節が改善され、最新のトランザクションイベントへのアクセス方法と更新されたスクリーンショットに関する情報が追加されました。 [詳細を表示](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)
 
@@ -120,7 +122,7 @@ Enhanced MTAの詳細は、特に電子メール処理ルールやバウンス�
 
 V4の減価償却費を反映して、モバイルアプリケーションのドキュメントと関連ページの設定が更新されました。 [詳細を表示](https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq)
 
-Adobe Campaign標準/Adobe Experience Manager統合ドキュメントが更新され、改善されました。 [詳細を表示](../../integrating/using/configure-experience-manager.md)
+Adobe Campaign Standard/Adobe Experience Managerの統合に関するドキュメントが更新され、改善されました。 [詳細を表示](../../integrating/using/configure-experience-manager.md)
 
 Adobe Creative SDKの減少を反映するように、キャンペーンの電子メールデザイナーのドキュメントおよび関連ページが更新されました。 [詳細を表示](https://helpx.adobe.com/jp/campaign/kb/acs-deprecated-and-removed-features.html)
 
@@ -134,7 +136,7 @@ Campaign Standardデータモデルのベストプラクティスに関する新
 
 **リリースに含まれる新機能**
 
-Adobe Experience Platform Data Connector（ベータ版） - [詳細情報](../../developing/using/aep-about-data-connector.md)
+Adobe Experience Platformデータコネクタ（ベータ版） - [詳細情報](../../developing/using/aep-about-data-connector.md)
 
 オーディエンスの宛先（ベータ版） - [詳細情報](../../audiences/using/aep-about-audience-destinations-service.md)
 
@@ -166,9 +168,9 @@ Adobe Campaign向上MTAに関するドキュメント（アップグレードさ
 
 動的レポートのインジケーターの計算セクションが更新されました。 [詳細を表示](../../reporting/using/indicator-calculation.md)
 
-Adobe Campaign標準のモバイル配信の一般的なガイドラインに関する新しいページが追加されました。 [詳細を表示](https://helpx.adobe.com/jp/campaign/kb/acs-mobile.html)
+Adobe Campaign Standard内のモバイル配信の一般的なガイドラインに関する新しいページが追加されました。 [詳細を表示](https://helpx.adobe.com/jp/campaign/kb/acs-mobile.html)
 
-キャンペーンとExperience Managerの使用に関するドキュメントが更新され、キャンペーンとExperience Managerの統合の使用方法に関する **ヒントの節が新たに追加されました**。 [詳細を表示](../../integrating/using/integrating-with-experience-manager.md#tips-aem)
+キャンペーンとExperience Managerの使用に関するドキュメントが更新され、キャンペーンとExperience Managerの統合の使い方に関する **ヒントの節が新しくなりました**。 [詳細を表示](../../integrating/using/integrating-with-experience-manager.md#tips-aem)
 
 APIドキュメントのホームページが、様々なトピックへのリダイレクトにより改善されました。 [詳細を表示](../../api/using/get-started-apis.md)
 
@@ -244,7 +246,7 @@ Campaign Standard設定に関連する新しいセクションが追加されま
 
 トラップの使用方法に関する新しいセクションが追加されました。 [詳細を表示](../../sending/using/using-traps.md)。
 
-Adobe Experience Platform SDKを使用したモバイルキャンペーンの設定方法に関するページに、 **Launch_URL_** (Launch_URL_Platform)に関する注意が追加されました。 [詳細を表示](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)
+Adobe Experience PlatformSDKを使用したモバイルアプリの設定方法に関するページに、 **Launch_URL_キャンペーン** (Launch_URL_Application)に関するメモが追加されました。 [詳細を表示](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)
 
 『電子メールデザイナ』ガイドの内容が変更されました。 [詳細を表示](../../designing/using/designing-content-in-adobe-campaign.md)
 
@@ -278,7 +280,7 @@ Microsoft Dynamics 365コネクタの実装と使用に関する新しいヘル�
 
 ワークフローの外部シグナルアクティビティで宣言されたイベント変数を使用して、配信のラベルをパーソナライズする方法に関する情報が追加されました。 [詳細を表示](../../automating/using/external-signal.md)
 
-Adobe Campaign標準でユーザを作成する方法の詳細を説明する新しい節が追加されました。 [詳細を表示](../../administration/using/users-management.md)
+Adobe Campaign Standardでのユーザの作成方法の詳細を説明する新しい節が追加されました。 [詳細を表示](../../administration/using/users-management.md)
 
 新しい記事に、製品ドキュメントやチュートリアルビデオへのリンクなど、マーケティングキャンペーンを簡素化するためのヒントが追加されました。[詳細を表示](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html)
 
@@ -332,7 +334,7 @@ Adobe Campaign標準でユーザを作成する方法の詳細を説明する新
 
 Adobe Campaignから直接利用できるコンテキストヘルプリンクが更新されました。
 
-次の [ページは](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) 、Adobe Campaign標準の公式ビデオページになります。
+次の [ページは](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html) 、Adobe Campaign Standard用の公式ビデオページになります。
 
 標準テーブルのデフォルトの保持率を含む、データ保持に関する節を追加しました。 [詳細を表示](../../administration/using/data-retention.md)
 
@@ -412,7 +414,7 @@ Adobe Campaignの様々な電子メールオーサリングオプションを比
 
 カスタムリソースをリンクする方法に関する情報を追加しました。 [詳細を表示](../../developing/using/configuring-the-resource-s-data-structure.md#defining-links-with-other-resources)
 
-Adobe Campaign標準のプッシュ通知で画像を表示する方法に関する新しいテクノレートが追加されました。 [詳細を表示](https://helpx.adobe.com/content/help/en/campaign/kb/display-image-push.html)
+Adobe Campaign Standardのプッシュ通知から画像を表示する方法に関する新しいテクノレートが追加されました。 [詳細を表示](https://helpx.adobe.com/content/help/en/campaign/kb/display-image-push.html)
 
 プッシュトラッキングの導入に関する新しいテクノチドが追加されました。 [詳細を表示](https://helpx.adobe.com/content/help/en/campaign/kb/push-tracking.html)
 
@@ -470,7 +472,7 @@ Microsoft Edge（最新バージョン）が、コンピューター用の互換
 
 「SDK V4を使用したモバイルアプリケーションの設定」の節は、 [ここに移動しました](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)。
 
-「Adobe Experience Platform SDKを使用したモバイルアプリの設定」の節は、 [ここに移動しました](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)。
+「Adobe Experience PlatformSDKを使用したモバイルアプリの設定」の節は、 [ここに移動しました](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)。
 
 ビデオが更新され、 [ここに移動されました](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)。
 
@@ -528,7 +530,7 @@ APIドキュメントは、 **履歴** APIに関する情報で更新されま�
 
 カスタムプロファイルディメンションの作成方法に関する使用例を順を追って追加しました。 [詳細を表示](../../reporting/using/creating-a-custom-profile-dimension.md)
 
-「キャンペーンとオーディエンスの操作」または「ユーザー」コアサービスドキュメントを再編成しました。 [詳細を表示](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
+「キャンペーンとAudience Managerまたは人のコアサービスの使用」ドキュメントを再編成しました。 [詳細を表示](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
 
 配信準備ロールの定義を更新しました。 [詳細を表示](../../administration/using/list-of-roles.md)
 
@@ -550,7 +552,7 @@ GDPR: コアサービスの統合 — [詳細情報](https://docs.campaign.adobe
 
 **リリースに伴うその他のドキュメントのアップデート**
 
-Analyticsのキャンペーン指標のリストを追加しました。 [詳細を表示](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
+Analyticsにあるキャンペーン指標のリストを追加しました。 [詳細を表示](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
 
 [管理]メニューの[ライセンス]オプションに関する情報を追加しました。 [詳細を表示](../../administration/using/licenses.md)
 
@@ -562,11 +564,11 @@ Analyticsのキャンペーン指標のリストを追加しました。 [詳細
 
 「クエリアクティビティ」セクションは、クエリサンプルで更新されました。 [詳細を表示](../../automating/using/query.md#query-samples)
 
-ブラックリストに関するセクションの名称を「オプトインおよびオプトアウトプロセスについて」に変更しました。 特定のチャネルに対するオプトインの管理方法、およびオプトインとオプトアウトを管理するランディングページの設定方法に関する情報が更新されました。 [詳細を表示](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+ブロックリスト専用の節は、「オプトインおよびオプトアウトプロセスについて」という名称に変更されました。 特定のチャネルに対するオプトインの管理方法、およびオプトインとオプトアウトを管理するランディングページの設定方法に関する情報が更新されました。 [詳細を表示](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 アドビがホストするSFTPサーバーを使用する際のベストプラクティスについて説明します。 [詳細を表示](../../administration/using/external-accounts.md#sftp-external-account)
 
-Triggersとの統合でサポートされるAnalytics SKUのリストが更新されました。 [詳細を表示](../../integrating/using/configuring-triggers-in-experience-cloud.md#configuring-solutions-and-services)
+Triggersとの統合でサポートされるAnalyticsSKUのリストが更新されました。 [詳細を表示](../../integrating/using/configuring-triggers-in-experience-cloud.md#configuring-solutions-and-services)
 
 コンテンツエディターのドキュメントの一部のページは、利用可能な様々なアクションのより包括的な表示をオファーに結合しました。 [詳細を表示](../../designing/using/designing-content-in-adobe-campaign.md)
 
@@ -586,7 +588,7 @@ EU 一般データ保護規則（GDPR） - [詳細を表示](https://docs.campai
 
 GDPR APIは、GDPRリクエストの自動処理を可能にする機能を再グループ化します。 [詳細を表示](../../api/using/creating-a-privacy-request.md)
 
-受信者にブラックリスト登録済み機能を与えるランディングページの設定方法に関する情報を追加しました。 [詳細を表示](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
+受信者にブロックリストへの追加機能を与えるランディングページの設定方法に関する情報を追加しました。 [詳細を表示](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
 
 「 [トランザクションメッセージの](../../administration/using/configuring-transactional-messaging.md) 設定 [」セクションが再編成され、使用事例](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message) （手順別）が追加されました。
 
@@ -640,7 +642,7 @@ SMS自動応答の使用方法に関する使用例を追加しました。 [詳
 
 この節を順を追った使用例 **[!UICONTROL Customizing a push notification]** に合わせて再編成しました。 [詳細を表示](../../channels/using/customizing-a-push-notification.md)
 
-ブラックリスト管理に関する新しい節です。 [詳細を表示](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+ブロックリスト管理に関する新しい節を追加しました。 [詳細を表示](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 配信の失敗と強制隔離に関する情報を更新しました。 [詳細を表示](../../sending/using/monitoring-a-delivery.md)
 
@@ -672,7 +674,7 @@ APIシグナルアクティビティトリガー — [詳細](../../api/using/tr
 
 ファイル転送アクティビティの履歴化設定に関する情報を追加しました。 [詳細を表示](../../automating/using/transfer-file.md)
 
-オーディエンスマネージャーまたはPeopleコアサービスとの統合を設定する手順が更新されました。 [詳細を表示](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
+Audience ManagerまたはPeopleコアサービスとの統合を設定する手順が更新されました。 [詳細を表示](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
 ## リリース17.10 - 2017年10月 {#release-17-10---october-2017}
 
@@ -700,7 +702,7 @@ A/Bテストのサンプルを更新しました。 [詳細を表示](../../chan
 
 「カスタムリソース」の節は、フィルターの [定義方法に関するより詳細な手順で明確になりました](../../developing/using/configuring-filter-definition.md)。
 
-Adobe Campaign標準のプッシュ通知を受信するためのAdobe Marketing Cloud Mobile SDKとモバイルアプリの統合方法に関する [技術](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html) （技術）を更新し明確にしました。
+Adobe Campaign Standardのプッシュ通知を受信するためのAdobe Marketing CloudMobile SDKとモバイルアプリの統合方法に関する [技術](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html) （技術）を更新し明確にしました。
 
 モバイルアプリで受け取るペイロードの構造を説明するテクノテートを追加しました。 [詳細を表示.](https://helpx.adobe.com/campaign/kb/understanding-campaign-standard-push-notifications-payload-struc.html)
 
@@ -728,7 +730,7 @@ APIの単純なフィルターと複数のフィルターに関する情報を�
 
 動的レポートで使用可能なすべてのコンポーネントの詳細リストと、数式の一部の変更。 [詳細を表示](../../reporting/using/list-of-components-.md)
 
-Adobe Analyticsと共有されるKPIの詳細リスト。 [詳細を表示](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
+アドビのAnalyticsと共有されるKPIの詳細リスト。 [詳細を表示](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
 
 新しい動的レポートのビデオ。
 
@@ -802,7 +804,7 @@ Adobe Campaign通知 — [詳細情報](../../administration/using/sending-inter
 
 新しいテクノロジーが提供されます。 「Adobe Mobile SDKとモバイルアプリの統合」を参照してください。 [詳細を表示](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html)
 
-PeopleコアサービスまたはオーディエンスマネージャーとAdobe Campaignhavget-started-communication-communicationsとの統合を設定する手順を説明します。mdegrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
+PeopleコアサービスまたはAudience Manager統合をAdobe Campaignhavget-started-communication-communicationsと設定する手順を説明します。mdegrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
 特定のロールの機能を明確にするために、承認テーブルが改訂されました。 [詳細を表示](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)
 
@@ -836,7 +838,7 @@ Adobe Campaignでプッシュ通知と目標地点データを使用するため
 
 キャンペーンでの画像の操作方法に関する節を更新しました。 [詳細を表示](../../designing/using/images.md#setting-up-image-properties)
 
-設定手順や使用例を含む、Adobe Analytics for Mobile（目標地点）との統合が更新されました。 [詳細を表示](../../integrating/using/about-campaign-points-of-interest-data-integration.md)
+モバイル（目標地点）向けのAdobeAnalyticsとの統合が更新されました。設定手順や使用例が含まれます。 [詳細を表示](../../integrating/using/about-campaign-points-of-interest-data-integration.md)
 
 ## リリース17.2 - 2017年3月 {#release-17-2---march-2017}
 
