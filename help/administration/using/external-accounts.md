@@ -13,10 +13,10 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 343ea01229779a32919bd68fd15e0c7ff6863353
+source-git-commit: 017e1e80657a3145a97c6ab62a577a9a2164cc99
 workflow-type: tm+mt
-source-wordcount: '1554'
-ht-degree: 34%
+source-wordcount: '1561'
+ht-degree: 31%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 34%
 * SFTP. 詳しくは、[この節](#sftp-external-account)を参照してください。
 * アマゾンストレージサービス(S3)。 詳しくは、[この節](#amazon-s3-external-account)を参照してください。
 * Adobe Experience Manager. 詳しくは、[この節](#adobe-experience-manager-external-account)を参照してください。
-* Adobe Analytics。 詳しくは、[この節](../../integrating/using/configure-campaign-analytics-integration.md)を参照してください。
+* アドビAnalytics。 詳しくは、[この節](../../integrating/using/configure-campaign-analytics-integration.md)を参照してください。
 * Google reCAPTCHA. 詳しくは、[この節](#google-recaptcha-external-account)を参照してください。
 * Microsoft Azure Blobストレージ。 詳しくは、[この節](#microsoft-azure-external-account)を参照してください。
 
@@ -86,7 +86,7 @@ ETL のためのファイルやデータを管理する際、これらのファ�
 * 時々 SFTP にログインして、問題がないか直接確認します。
 * SFTP のディスク管理は、基本的に管理者の責任となります。
 
-また、SFTP 接続の開始の試行元になるパブリック IP は Campaign インスタンスのホワイトリストに登録されている必要があります。ホワイトリストへの IP アドレスの登録は、認証に使用する公開鍵の提供と同様に、[サポートチケット](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)によって依頼できます。
+また、SFTP接続を開始しようとするパブリックIPは、キャンペーンインスタンスの許可リストに追加する必要があります。 Adding IP addresses to the allow list can be requested via a [support ticket](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html), along with providing the public key to use for authentication.
 
 SFTPサーバーは、コントロールパネルから管理できます。 For more information, refer to the [Control Panel documentation](https://docs.adobe.com/content/help/ja-JP/control-panel/using/sftp-management/about-sftp-management.html).
 
@@ -132,7 +132,7 @@ Adobe Experience Manager外部アカウントは、キャンペーンとExperien
 この新規外部アカウントを設定する際には、次の情報を提供する必要があります。
 
 * サーバー： Adobe Experience ManagerサーバーのURLを入力します。 例えば、http://aem.domain.com:4502 **です**。
-* AEMアカウントの資格情報： Adobe Experience Managerインスタンスにアクセスするアカウントを使用します。 Experience Managerのキャンペーンリモートグループのアカウントに含める必要があります。
+* AEMアカウントの資格情報： Adobe Experience Managerインスタンスにアクセスするアカウントを使用します。 Experience Manager内のキャンペーンリモートグループのアカウントにする必要があります。
 
 ## Google reCAPTCHA外部アカウント {#google-recaptcha-external-account}
 
@@ -159,7 +159,7 @@ Google reCAPTCHA V3外部アカウントの場合は、次の詳細を入力し�
 
 >[!NOTE]
 >
->Adobe Campaign標準で外部アカウントを構成するために必要な情報は、Azure Portalで[ **[!UICONTROL Settings]** >]を選択して参照してください **[!UICONTROL Access keys]**。
+>Adobe Campaign Standardで外部アカウントを構成するために必要な情報は、Azure Portalで **[!UICONTROL Settings]** >を選択して確認でき **[!UICONTROL Access keys]**&#x200B;ます。
 
 Azure BLOBストレージコネクタは、ワークフローアクティビティを使用してAdobe Campaignにデータをインポートまたはエクスポートするために使用でき **[!UICONTROL Transfer file]** ます。 詳しくは、[この節](../../automating/using/transfer-file.md#azure-blob-configuration-wf)を参照してください。
 
