@@ -1,6 +1,6 @@
 ---
-title: Adobe Campaign Standardのホワイトリスト
-description: Adobe Campaign Standardでホワイトリストを最適化する方法を説明します。
+title: Adobe Campaign Standardの許可リスト
+description: Adobe Campaign Standardを使用して許可リストを最適化する方法を説明します。
 page-status-flag: never-activated
 uuid: 286fceee-65a9-4cb9-b205-9ce5d024675c
 contentOwner: sauviat
@@ -13,32 +13,35 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0c6ac8db34c3d8d68ccd3326f26912661598c6dc
+source-git-commit: c89973e2c733d9c0b1c4434e77ef51103ccde0fa
+workflow-type: tm+mt
+source-wordcount: '330'
+ht-degree: 67%
 
 ---
 
 
-# IP証明書 {#ip-certification}
+# IP 証明書 {#ip-certification}
 
-IP証明書は、スパム対策フィルターや他の電子メールブロックシステムによってブロックされることなく、電子メールを確実に受信できるようにするためのホワイトリストおよび送信プラクティスプログラムです。
+IP Certificationは、送信のベストプラクティスプログラムです。スパム対策フィルターや他の電子メールブロッキングシステムによってブロックされることなく、電子メールを確実に受信できるようにします。
 
-現在、2つのプロバイダーがIP証明書を提供しています。リターンパスと認定送信者同盟を参照してください。
+現在、2 社のプロバイダーが IP 証明書を提供しています。Return Path および Certified Senders Alliance です。
 
-認証された送信者は、グローバルメールボックスプロバイダーや電子メールセキュリティ会社が使用する電子メールホワイトリストに追加されます。 これらの商用ホワイトリストは、送信者がスパム対策フィルターを完全に回避したり、システムに入る際に増分ポイントを割り当てることを可能にするシステムに基づいています。
+認証済みの送信者は、グローバルメールボックスプロバイダーや電子メールセキュリティ会社で使用される電子メール許可リストに追加されます。 これらの商用許可リストは、送信者がスパム対策フィルターを完全に回避したり、システムに入る際に増分ポイントを割り当てることを可能にするシステムに基づいています。
 
-Return Path Certification [（リターンパス証明）プログラムには](https://www.validity.com/products/returnpath/certification/) 、次のような多くの利点があります。
-* Microsoft、AOL、Yahoo、Gmail、Comcast、Orange、Mail.ruなど、トップのメールボックスプロバイダでのインボックスの配置が大幅に増加
-* Cloudmark、SpamAssicin、Cisco Ironportなどの重要なフィルターでの評判と治療
-* 24時間365日の監視に専念したコンプライアンス・チームが、セキュリティ・アラートを提供し、妥協の解決を通じてお客様と協力
-* KPI、配置、および証明書のパフォーマンスに関する詳細情報を提供するメールボックスプロバイダのデータ
-* IPの温調化をシンプル化し、高速化。新しいIPアドレスを移行または取得する際の評判と認識の強化を含む。
+[Return Path Certification](https://www.validity.com/products/returnpath/certification/) プログラムには、次のような多くの利点があります。
+* Microsoft、AOL、Yahoo、Gmail、Comcast、Orange、Mail.ru など、大手メールボックスプロバイダーにおける受信ボックスへの配置率が大幅に向上
+* Cloudmark、SpamAssassin および Cisco Ironport など、重要なフィルターでの有利な評判と扱い
+* 24 時間 365 日の監視をおこなう専門のコンプライアンスチームが、セキュリティアラートを提供し、あらゆるセキュリティ侵害の解決のために協力
+* KPI、配置および証明書パフォーマンスに関する詳細情報を提供する、メールボックスプロバイダーのデータ
+* 新しい IP アドレスへの移行または取得の際の評判と認知度の強化を含む、シンプルで高速な IP ウォームアップ
 
-認定送 [信者同盟認定は](https://certified-senders.org/certification-process/) 、次のようなメリットを提供します。
-* 高品質な標準に準拠できる商用電子メールの送信者の認証
-* 商用電子メールの配信と配信性を改善し、インボックスの配置率を上げ、スパムフィルターを削減
-* 法的基準に完全に準拠して法的リスクや金融リスクから保護
-* CSA苦情・オフィスと日次スパム・トラップ・レポートから早期警告を受け、評判を保護
+[Certified Senders Alliance](https://certified-senders.org/certification-process/) 証明書には、以下のような利点があります。
+* 高品質な基準に準拠できる商用 E メール送信者の認証
+* 商用 E メールの配信と配信品質を改善し、受信ボックスへの配置率を上げ、スパム対策フィルターにかかる割合を削減
+* 法的基準に完全に準拠して、法的リスクや経済的リスクから保護
+* CSA Complaints Office からの早期警告および毎日のスパムトラップレポートにより、評判を保護
 
-ISP は、これらのサービスを自由に使用するので、ISP の数はホワイトリストによって異なる可能性があります。
+ISPはこれらのサービスを無料で使用でき、ISPの数は許可リストによって異なります。
 
-ただし、IP証明書を使用すると、受信トレイの所有者の行動に基づいてスパム対策フィルターを構築するISPが増えているので、受信トレイの配置や配信の保証にはなりません。
+ただし、メッセージコンテンツの分析よりも受信ボックス所有者の行動に基づいてスパム対策フィルターを構築する ISP が増えているため、IP 証明書を使用すれば受信ボックスへ配置や配信が保証されるわけではありません。
