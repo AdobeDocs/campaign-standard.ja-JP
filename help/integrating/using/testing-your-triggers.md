@@ -12,9 +12,9 @@ discoiquuid: f67e69f2-09fb-4f33-b2c3-c67a060743e3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3aa987c423181180a5c20bcca04cde04a2bf6086
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '446'
 ht-degree: 1%
 
 ---
@@ -36,11 +36,11 @@ Triggers -キャンペーン統合がアクティブ化されているかどう�
 
 「キャンペーンでのマッピングされたトリガーの [作成](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign) 」で説明されている手順に従って、トリガーを作成します。
 
-トリガーが作成された場合は、次の手順に進みます。 そうでない場合は、トリガーの終点の接続に失敗したことを意味します。 TriggersがExperience Cloud(アクティベーションサービス)でプロビジョニングされているかどうかを確認します。 ログインしていない場合は、アドビのアカウントエグゼクティブまたはプロフェッショナルサービスパートナーにお問い合わせください。 次の情報が必要です。
+トリガーが作成された場合は、次の手順に進みます。 そうでない場合は、トリガーの終点の接続に失敗したことを意味します。 TriggersがExperience Cloudでプロビジョニングされているかどうかを確認します(アクティベーションサービス)。 ログインしていない場合は、アドビのアカウントエグゼクティブまたはプロフェッショナルサービスパートナーにお問い合わせください。 次の情報が必要です。
 
 * Marketing Cloud会社名
 * IMS ORG ID
-* Analyticsログイン会社(Marketing Cloud会社名と同じにできます)
+* Analyticsログイン会社(Marketing Cloud会社名と同じ名前を使用できます)
 
 **トリガーを公開してみる**
 
@@ -52,11 +52,11 @@ Triggers -キャンペーン統合がアクティブ化されているかどう�
 
 トランザクションテンプレートを編集および公開するには、 [トランザクションメッセージテンプレートの編集](../../integrating/using/using-triggers-in-campaign.md#editing-the-transactional-message-template) （英語のみ）に記載されている手順に従います。 次に、Webサイトからのトリガーの生成をテストします。
 
-トリガーがAnalyticsで受け取られた場合は、次の手順に進みます。 そうでない場合は、次の項目を確認します。
+トリガーがAnalyticsによって受け取られた場合は、次のステップに進みます。 そうでない場合は、次の項目を確認します。
 
-* トリガーはAnalyticsで有効です
-* MCIDとAnalyticsを使用するWebサイトがDTMで有効になっている
-* トリガーの作成時には、正しいAnalyticsレポートスイートが使用されます。
+* トリガーはAnalyticsに対して有効です
+* MCIDとAnalyticsを使用するWebサイトがDTMで有効になっています
+* トリガーの作成時には、正しいAnalyticsレポートスイートが使用されます
 
 **トリガーはキャンペーンが受け取ったか。**
 
@@ -77,7 +77,7 @@ Triggers -キャンペーン統合がアクティブ化されているかどう�
 そうでない場合は、次の手順に進みます。 該当する場合は、次のガイドラインに従います。
 
 * トランザクションテンプレートが公開されていることを確認します。
-* プロファイルがブラックリスト登録済みでないことを確認します。
+* プロファイルがブロックリスト上にないことを確認します。
 * タイポロジルールの適用を確認します。
 * トランザクションメッセージのログを確認します。
 
