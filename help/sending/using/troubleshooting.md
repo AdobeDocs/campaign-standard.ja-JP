@@ -1,6 +1,6 @@
 ---
 title: Adobe Campaign Standardでの配信品質の問題のトラブルシューティング
-description: Adobe Campaign Standardで配信品質の問題が発生した場合の対処方法を説明します。
+description: 配信品質の問題がAdobe Campaign Standardで発生した場合の対処方法を説明します。
 page-status-flag: never-activated
 uuid: 286fceee-65a9-4cb9-b205-9ce5d024675c
 contentOwner: sauviat
@@ -13,16 +13,19 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 87168dca3604073d8a540c579448ab65f07cd976
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+workflow-type: tm+mt
+source-wordcount: '473'
+ht-degree: 45%
 
 ---
 
 
 # トラブルシューティング{#troubleshooting}
 
-配信品質で問題が発生した場合は、解決策はこちらで見つかるかもしれません。
+配信品質で問題が発生した場合は、以下のソリューションを参照してください。
 
-## ISPに対する同じエラーメッセージ {#same-error-for-an-isp}
+## ISP に対する同じエラーメッセージ {#same-error-for-an-isp}
 
 **特定の ISP でいつも同じエラーメッセージが表示されるのはなぜですか。**
 
@@ -33,40 +36,39 @@ source-git-commit: 87168dca3604073d8a540c579448ab65f07cd976
 
 問題が解決されない場合は、商用または配信品質サービス、あるいは Adobe Campaign サポートにお問い合わせください。
 
-## ブラックリストと強制隔離 {#blacklisting-versus-quarantine}
+## ブロックリストと強制隔離 {#block-list-versus-quarantine}
 
-* **ブラックリストに登録された E メールアドレスと強制隔離 E メールアドレスの違いについて教えてください。**
+* **ブロックリスト上の電子メールアドレスと検疫済みの電子メールアドレスの違いは何ですか。**
 
-   * The status **[!UICONTROL Blacklisted]** is a result of a feedback loop (when a person reports a message as spam).
+   * The status **[!UICONTROL On block list]** is a result of a feedback loop (when a person reports a message as spam).
 
    * The status **[!UICONTROL Quarantined]** is a result of a soft or hard bounce.
-   For more on this, see this [section](../../sending/using/understanding-quarantine-management.md#quarantine-vs-blacklisting).
+   For more on this, see this [section](../../sending/using/understanding-quarantine-management.md#quarantine-vs-block-list).
 
 * **様々な強制隔離エラーの原因は何を意味しますか。**
 
-   次の 10 個の原因が考えられます。未定義、不明なユーザー、無効なドメイン、ブラックリストに登録されたアドレス、拒否、無視されたエラー、未到達、無効なアカウント、メールボックス容量超過、未接続。
+   考えられる理由は10つあります。 未定義、ユーザー不明、無効なドメイン、ブロックリスト上のアドレス、拒否、エラー無視、未到達、アカウント無効、メールボックスがいっぱい、未接続
 
-   詳しくは、「強制隔離管理について」を参 [照してください](../../sending/using/understanding-quarantine-management.md)。
+   詳しくは、[強制隔離管理の理解](../../sending/using/understanding-quarantine-management.md)を参照してください。
 
-## ブラックリストの解除 {#unblacklisting}
+## ブロックリストからの削除 {#removing-from-block-list}
 
-* **受信者の 1 人が誤ってブラックリストに登録されました。メッセージの送信を再開できるように、ブラックリスト登録を解除するにはどうすればよいですか。**
+* **私の受信者の1つが誤ってブロックリストに追加された。 メッセージを再度送信する際に開始を使用できるように、ブロックリストからメッセージを削除する方法を教えてください。**
 
    * 移動 **[!UICONTROL Administration > Channels > Quarantines > Addresses]**.
    * In the details of the corresponding record, set the value of the **[!UICONTROL Status]** field to **[!UICONTROL Valid]**.
    * レコードを保存します。
 
-* **IP のいずれかがブラックリストに登録されているかどうかを確認するにはどうすればよいですか。IP のブラックリスト登録を解除するにはどうすればよいですか。**
+* **IPの1つがブロックリスト上にあるかどうかを調べるにはどうすればよいですか。 IPをブロックリストから削除する方法を教えてください。**
 
-   IP アドレスがブラックリストに登録されているかどうかを確認するには、以下のような様々な Web サイトを使用して検証できます。
-   * https://mxtoolbox.com/
-   * https://whatismyipaddress.com/blacklist-check
-   * https://www.blacklistalert.org/
-   一般に、IPアドレスのチェックの結果、ブラックリストの詳細と、IPアドレスをブラックリスト登録済みするWebサイトの名前を含むリストが返されます。
+   IPアドレスがブロックリスト上にあるかどうかを確認するには、次のような様々なWebサイトを使用して確認します。
+   * [MX Toolbox](https://mxtoolbox.com/)
+   * [IPアドレスは何か](https://whatismyipaddress.com)
+   通常、IPアドレスの確認の結果、ブロックリストの詳細と、IPアドレスをブロックしたWebサイトの名前を含むリストが返されます。
 
-   対応するリンクをクリックすると、Webサイトの詳細にアクセスできます。
+   対応するリンクをクリックすると、Web サイトの詳細にアクセスできます。
 
-   次に、IP アドレスがブラックリストに登録された Web サイトのリストから Web サイトを削除するようリクエストできます。
+   その後、IPアドレスをブロックリストに追加したWebサイトのリストからWebサイトを削除するように要求できます。
 
    >[!NOTE]
    >
