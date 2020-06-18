@@ -12,10 +12,10 @@ discoiquuid: 0766bd57-c5f1-4f56-ac84-e5a04d3819ec
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+source-git-commit: c89973e2c733d9c0b1c4434e77ef51103ccde0fa
 workflow-type: tm+mt
-source-wordcount: '2026'
-ht-degree: 2%
+source-wordcount: '2031'
+ht-degree: 3%
 
 ---
 
@@ -240,7 +240,7 @@ Adobe Campaignインターフェイスから、次の操作を実行できます
    * Adobe Campaign配信サーバと受信サーバとの接続タイムアウト
    * 配信品質の問題
    * 誤ったワークフロー
-   ワークフローで配信がトリガーされる場合は、そのワークフローが正しく開始されているかどうかを確認します。 詳しくは、「ワークフローの [実行](../../automating/using/about-workflow-execution.md)」を参照してください。 それ以外の場合は、Adobe Campaign管理者に問い合わせて問題を解決してください。
+   ワークフローで配信がトリガーされる場合は、そのワークフローが正しく開始されているかどうかを確認します。 For more on this, see [Executing a workflow](../../automating/using/about-workflow-execution.md). それ以外の場合は、Adobe Campaign管理者に問い合わせて問題を解決してください。
 
 * **[!UICONTROL Deliveries with preparation failed]**: 次の場合、配信の準備中にエラーが発生する可能性があります。
 
@@ -258,7 +258,7 @@ Adobe Campaignインターフェイスから、次の操作を実行できます
 
    アラートの原因として考えられるのは、次の **[!UICONTROL Delivery with bad error ratio for hard bounces]** とおりです。
 
-   * 受信者はブラックリスト登録済みです。つまり、もう連絡を取りたくないということです。
+   * 受信者はブロックリスト上にあり、もう連絡を受けたくない。
    * 受信者の電子メールアドレスが存在しません。
    * 受信者のドメインが存在しません。
    * 受信者のサーバーが配信をブロックしています。
@@ -280,5 +280,5 @@ Adobe Campaignインターフェイスから、次の操作を実行できます
 
 * [配信エラーの理解](../../sending/using/understanding-delivery-failures.md)
 * [強制隔離管理の理解](../../sending/using/understanding-quarantine-management.md)
-* [キャンペーンでのブラックリストの管理](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+* [Campaign のオプトインとオプトアウトについて](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
