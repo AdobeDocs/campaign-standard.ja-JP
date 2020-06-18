@@ -12,9 +12,9 @@ discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '609'
 ht-degree: 9%
 
 ---
@@ -66,7 +66,7 @@ Adobe Campaignはリッチな顧客プロファイルをリアルタイムで作
 
 キャンペーンにより、 **サービスを通じて** 簡単にオプトインおよびオプトアウトできる仕組みを使用し [、](../../audiences/using/creating-a-service.md)[](../../channels/using/getting-started-with-landing-pages.md) ランディングページに連絡先情報を更新してデータベースを拡張させることをお勧めします。
 
-メッセージに **購読解除リンクを指定すると** 、必要に応じてプロファイルをブラックリスト登録済みでき、プラットフォームの配信品質を向上できます。 ブラックリストについて詳しくは、キャンペーンでのオプトインとオプトアウトに [ついてを参照してください](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)。
+メッセージに **購読解除リンクを指定すると** 、必要に応じてプロファイルをブロックリストに追加できるので、プラットフォームの配信品質が向上します。 ブロックリスト管理について詳しくは、キャンペーンでのオプトインとオプトアウトに [ついてを参照してください](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)。
 
 >[!IMPORTANT]
 >
