@@ -1,5 +1,5 @@
 ---
-title: Campaign Standard を使い始める
+title: Campaign Standard の基礎知識
 description: Adobe Campaignは、オンラインとオフラインの戦略を調整して、パーソナライズされた顧客体験を作り出すのに役立つ強力なクロスチャネルキャンペーン管理ツールです。
 page-status-flag: never-activated
 uuid: 027f6787-d2ef-44ae-a40a-8facdfe2ae77
@@ -12,17 +12,17 @@ discoiquuid: aee81724-b425-47b4-af92-e55eff97836f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: d7846c33f0bc3730fc63a8659c8afc1c868064e0
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '793'
+ht-degree: 1%
 
 ---
 
 
 # Get Started with Campaign Standard {#about-campaign-standard}
 
-Adobe Campaign標準は、オンラインとオフラインの戦略を調整して、パーソナライズされたチャネルエクスペリエンスを作り出すのに役立つ、強力なクロスキャンペーン管理ツールです。
+Adobe Campaign Standardは、オンラインとオフラインの戦略を調整して、パーソナライズされた顧客体験を作り出すのに役立つ強力なクロスチャネルキャンペーン管理ツールです。
 
 チャネル間のキャンペーンの作成、実行、追跡のプロセス全体を制御し、クライアントのプロファイル、行動、環境設定、ニーズに応じてパーソナライズされたメッセージを送信します。 マーケティングプロセス全体を容易に調整、モデル化、自動化し、他のアドビソリューションと統合できます。
 
@@ -56,7 +56,7 @@ Adobe Campaign標準は、オンラインとオフラインの戦略を調整し
 
 テストやレスポンシブデザイン戦略を通じて、複数のデバイス向けの電子メール配信の最適化など、オンラインおよびオフラインの通信チャネルでメッセージをデザインし、送信します。
 
-**キャンペーンのコミュニケーションチャネル** を活用して、適切な場所にマーケティングキャンペーンを提供します。 電子メール、SMS、プッシュ通知、アプリ内メッセージ、ダイレクトメール、ランディングページ。 あらゆる種類のメッセージ（トランザクション、定期的、多言語のメッセージ）用のテンプレートを作成することで、メッセージング戦略全体で時間と一貫性を確保できます。 A/Bテストを実行し、パーソナライズ機能と動的コンテンツ機能を使用してオーディエンスの興味を引き出します。 [コミュニケーションチャネルを使い始める](../../channels/using/get-started-communication-channels.md)
+**キャンペーンのコミュニケーションチャネル** を活用して、適切な場所にマーケティングキャンペーンを提供します。 電子メール、SMS、プッシュ通知、アプリ内メッセージ、ダイレクトメール、ランディングページ。 あらゆる種類のメッセージ（トランザクション、定期的、多言語のメッセージ）用のテンプレートを作成することで、メッセージング戦略全体で時間と一貫性を確保できます。 パーソナライゼーションおよび動的コンテンツ機能を使用して、A/Bテストを実行し、オーディエンスの興味を引き付けます。 [コミュニケーションチャネルを使い始める](../../channels/using/get-started-communication-channels.md)
 
 **キャンペーンのEメール・デザイナを使用して** 、個別にカスタマイズした魅力的なEメール・メッセージを作成できます。 新規に開始するか、組み込みのコンテンツフラグメントまたはテンプレートを活用して、レスポンシブデザインに最適化されたHTML形式を使用して電子メールをデザインします。 [電子メールコンテンツのデザインを開始する](../../designing/using/designing-content-in-adobe-campaign.md)
 
@@ -87,4 +87,4 @@ Adobe Campaign標準は、オンラインとオフラインの戦略を調整し
 
 **Campaign Standardデータ管理機能を使用して** 、データの読み込みと書き出しを簡単に行うことができます。 [プロセスとデータ管理の概要](../../automating/using/get-started-workflows.md)
 
-**キャンペーン機能を他のソリューションと組み合わせて** 、最適なマーケティングキャンペーンを構築できます。 [Campaign Standard統合の概要](../../integrating/using/get-started-campaign-integrations.md)
+**キャンペーン機能を他のソリューションと組み合わせて** 、最適なマーケティングキャンペーンを構築します。 [Campaign Standard統合の概要](../../integrating/using/get-started-campaign-integrations.md)
