@@ -12,7 +12,7 @@ discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+source-git-commit: b4d0aa1a9f116f022890d5eccd87730a7a513103
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 74%
@@ -34,7 +34,7 @@ In many projects, imports are built without **[!UICONTROL Deduplication]** activ
 
 受信データは一貫性があり正しいとか、IT 部門や Adobe Campaign スーパーバイザーが対処するとは思わないでください。プロジェクトの間、データクレンジングに留意してください。データをインポートする際には、重複排除し、紐付けし、一貫性を維持します。
 
-データのインポート用に設計された汎用ワークフローテンプレートの例を [例で示します。 ワークフローテンプレートのインポート](#example--import-workflow-template) 」セクション。
+データのインポート用に設計された汎用ワークフローテンプレートの例を [例で示します。 ワークフローテンプレートのインポート](../../automating/using/creating-import-workflow-templates.md) 」セクション。
 
 >[!NOTE]
 >
