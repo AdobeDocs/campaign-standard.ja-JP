@@ -1,6 +1,6 @@
 ---
 title: Adobe Experience Platform オーディエンスのターゲティング
-description: ワークフロー内でAdobe Experience Platformオーディエンスをターゲットする方法を説明します。
+description: ワークフロー内のAdobe Experience Platformオーディエンスをターゲットする方法を説明します。
 page-status-flag: never-activated
 uuid: 528d9472-e447-47af-a6b2-3181aa5fb5ad
 contentOwner: sauviat
@@ -12,7 +12,10 @@ discoiquuid: 19796aca-6e9e-4d3a-8917-ba660ec7993c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
+source-git-commit: be7ab90583e9c6472fd2c86082e832432d0a32b9
+workflow-type: tm+mt
+source-wordcount: '404'
+ht-degree: 5%
 
 ---
 
@@ -23,9 +26,9 @@ source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 >
 >オーディエンス宛先サービスは現在ベータ版で、予告なく頻繁に更新される可能性があります。 これらの機能にアクセスするには、お客様はAzureでホストされる必要があります（現在、北米向けベータ版のみ）。 アドビカスタマーケアにお問い合わせの際は、アドビカスタマーケアにご連絡ください。
 
-統合プロファイルセグメントビルダーを使用して [Adobe Experience Platformオーディエンスを作成したら](../../audiences/using/aep-about-audience-destinations-service.md) 、ワークフロー内のキャンペーンオーディエンスと同じ方法でメッセージをパーソナライズして送信できます。
+セグメントビルダーを使用して [Adobe Experience Platformオーディエンスを作成したら](../../audiences/using/aep-about-audience-destinations-service.md) 、ワークフロー内のキャンペーンオーディエンスと同じ方法でメッセージをパーソナライズし、送信できます。
 
-ワークフローにAdobe Experience Platformオーディエンスをアクティベートするには、次の手順に従います。
+ワークフローに対してAdobe Experience Platformオーディエンスをアクティブ化するには、次の手順に従います。
 
 1. ワークフロー追加の **[!UICONTROL Read audience]** アクティビティを開きます。
 
@@ -35,9 +38,9 @@ source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 1. （オプション）オーディエンスを選択したら、目のボタンをクリックして、セグメント定義を確認または編集できます（変更を再度保存してください）。
 
-   目のボタンをクリックすると、キャンペーン内で選択したオーディエンスに関連付けられた統合セグメントビルダー（別のタブ）に移動します。
+   目のボタンをクリックすると、キャンペーン内で選択したオーディエンスに関連付けられたセグメントビルダー（別のタブ）に移動します。
 
-1. 要素を選択し、選択したAdobe Experience Platformオーディエンスに必要なターゲティングディメンションを指定します。 **[!UICONTROL Platform data mapping]**
+1. 要素を選択し、選択した **[!UICONTROL Platform data mapping]** Adobe Experience Platformオーディエンスに対して目的のターゲティングディメンションを指定します。
 
    デフォルトでは、調整に使用される主キー(プロファイルテーブルのiRecipientID、AppSubscriptionテーブルのiAppSubscriptionIDなど)は、ドロップダウンリストから自動的に使用できます。 主キー以外でターゲットするには、カスタム **名前空間を作成する必要があります**。
 
@@ -47,7 +50,7 @@ source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
    ![](assets/aep_wkf_readaudience_namespace.png)
 
-   このリストには、インスタンスに設定されたすべてのエクスペリエンスデータモデル(XDM)マッピングが含まれています。 Adobe Experience Platform Data Connectorについて詳しくは、 [この専用ドキュメントを参照してください](../../developing/using/aep-about-data-connector.md)。
+   このリストには、インスタンスに設定されたすべてのエクスペリエンスデータモデル(XDM)マッピングが含まれています。 Adobe Experience Platformデータコネクタの詳細については、 [この専用ドキュメントを参照してください](../../developing/using/aep-about-data-connector.md)。
 
    ![](assets/aep_wkf_readaudience_namespace2.png)
 
@@ -59,7 +62,7 @@ source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 >[!NOTE]
 >
->Campaign Standardを使用すると、Adobe Experience Platformオーディエンスをすべての配信チャネル内でターゲットできます。 電子メール、SMSメッセージ、ダイレクトメールメッセージ、プッシュ通知、アプリ内メッセージ。
+>Campaign Standardを使用すると、すべての配信チャネル内でAdobe Experience Platformオーディエンスをターゲットできます。 電子メール、SMSメッセージ、ダイレクトメールメッセージ、プッシュ通知、アプリ内メッセージ。
 >
 >*注意： すべてのプッシュメッセージおよびアプリ内メッセージで、Campaign Standardは既知のプロファイルの配信のみをサポートします。
 
