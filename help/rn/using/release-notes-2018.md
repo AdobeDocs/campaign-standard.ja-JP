@@ -12,9 +12,9 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 50c3188e1bc0eb92fd52637988834ce8538335a3
+source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
 workflow-type: tm+mt
-source-wordcount: '5399'
+source-wordcount: '5401'
 ht-degree: 5%
 
 ---
@@ -130,7 +130,7 @@ Adobe Campaign Standardに関する最新の [ドキュメント更新の表示]
 
 **強化点**
 
-* Adobe CampaignとAdobe Targetの統合により、Targetの [権限](https://marketing.adobe.com/resources/help/ja_JP/target/target/properties-overview.html) 機能を利用できるようになりました。 Adobe Targetの動的な画像を電子メールに含める場合、Targetプロパティ（at_propertyコード）を指定できるようになりました。
+* Adobe CampaignとAdobe Targetの統合により、Targetの [権限](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/properties-overview.html) 機能を利用できるようになりました。 Adobe Targetの動的な画像を電子メールに含める場合、Targetプロパティ（at_propertyコード）を指定できるようになりました。
 * プロファイル・リソースへのダウンコピー・リンクを持つカスタム・リソースは、GDPRのプライバシー・アクセス/削除要求によって考慮されるようになった。 1基の基数単純リンクとN基数収集リンクの場合、カスタムリソースで「ターゲットレコードの削除/複製は、リンクによって参照されるレコードを削除/複製することを意味します」を選択する必要があります。 0または1の基数単純リンクの場合は、「レコードの削除/複製は、リンクから参照されるターゲットレコードを削除または複製することを意味します」を選択します。
 
 **その他の変更**
