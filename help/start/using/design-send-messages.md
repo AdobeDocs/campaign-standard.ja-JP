@@ -1,6 +1,6 @@
 ---
 title: リストのカスタマイズ
-description: 「Adobe Campaign標準の要素画面での表示をカスタマイズし、動作をカスタマイズする方法：リストの並べ替え、フィルタリング、削除または複製を行う方法について説明します。 リスト画面には、1つまたは複数の特定のリソースの要素が表示されます。」
+description: 「Adobe Campaign Standardのリスト画面での表示をカスタマイズし、動作をカスタマイズする方法：要素の並べ替え、フィルタリング、削除または複製を行う方法について説明します。 リスト画面には、1つまたは複数の特定のリソースの要素が表示されます。」
 page-status-flag: never-activated
 uuid: 3350583c-91ca-4ea5-ac14-6b6f11c4a64a
 contentOwner: sauviat
@@ -12,7 +12,10 @@ discoiquuid: 4ba4f766-fdee-4ff0-8fe4-0612ed2b69a4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 49d76d7a1c0e12369ab1c533adca9f3da19946a8
+source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
+workflow-type: tm+mt
+source-wordcount: '586'
+ht-degree: 6%
 
 ---
 
@@ -79,7 +82,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. 無悪魔のサピエ�
 * メッセージに [動的パーソナライゼーションフィールドを挿入](../../designing/using/personalization.md#inserting-a-personalization-field)
 * Insert [predefined personalization blocks](../../designing/using/personalization.md#adding-a-content-block)
 * [電子メールまたはSMSの送信者](../../designing/using/subject-line.md) をカスタマイズする
-* [電子メールの件名行をパーソナライズするか](../../designing/using/subject-line.md) 、 [予測の件名行](../../designing/using/subject-line.md#predictive-subject-line) 機能を使用して最適化します。
+* [電子メールの件名行をパーソナライズするか](../../designing/using/subject-line.md) 、 [予測件名行](../../designing/using/subject-line.md#subject-line) 機能を使用して最適化します。
 * 電子メールまたは [ランディングページでの](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) 条件付きコンテンツの作成 [](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)
 * SMSメッセージまたはプッシュ通知に [動的テキストを挿入する](../../channels/using/defining-dynamic-text.md)
 
