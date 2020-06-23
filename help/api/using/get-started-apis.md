@@ -12,19 +12,19 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '224'
+ht-degree: 17%
 
 ---
 
 
 # Get started with Campaign Standard APIs {#get-started-apis}
 
-Campaign StandardAPIは、Adobe Campaign標準の **統合を** 作成し、標準を使用するテクノロジパネルと連携させて独自のエコシステム **(Adobe Campaign標準)を** 構築することを目的としています。
+Campaign StandardAPIは、使用するテクノロジーのパネルとのAdobe Campaign Standardをインターフェイスすることで、Adobe Campaign Standard **用の統合を** 作成し **、独自のエコシステムを** 構築することを目的としています。
 
-Adobe Campaign標準APIを使用すると、次の機能にアクセスできます。
+Adobe Campaign StandardAPIを使用して、次の機能にアクセスできます。
 
 <table><tr>
  <td valign="top"><a href="../../api/using/retrieving-profiles.md"><img width="60px" alt="conditions" src="assets/icon_profile.svg"/></a><p><a href="../../api/using/retrieving-profiles.md">プロファイル</a></p></td>
@@ -54,4 +54,4 @@ Campaign StandardAPIを使用するには、Adobe I/Oアカウントが必要で
 
 すべてのエンドポイントについて、このドキュメントで詳しく説明します。APIの操作に関する一般的な節、完全なAPIリファレンス、コード例、クイック開始ガイドが含まれています。
 
-何か足りない場合や間違っている場合は、 [コミュニティに問い合わせてください](https://help-forums.adobe.com/content/adobeforums/en/campaign-forum/adobe-campaign.html)。
+何か足りない場合や間違っている場合は、 [コミュニティに問い合わせてください](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)。
