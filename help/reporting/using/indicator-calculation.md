@@ -12,10 +12,10 @@ discoiquuid: 45b11631-6b32-4074-8c8d-affd06407810
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 85dc2b3ba9a781483f88238fbf5a9208a0c18c37
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 10%
+source-wordcount: '731'
+ht-degree: 9%
 
 ---
 
@@ -193,7 +193,7 @@ ht-degree: 10%
   <tr> 
    <td> ユニーククリック数<br /> </td> 
    <td> @uniqueclicks<br /> </td> 
-   <td> 個別クリック数は、ThetaSketchの概念を使用して計算されます。<br /> </td> 
+   <td> 個別クリック数は、ThetaSketchの概念を使用して計算されます。 For more on this, refer to this <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">example</a>.<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -273,7 +273,7 @@ ht-degree: 10%
   <tr> 
    <td> Unique opens<br /> </td> 
    <td> @uniqueopens<br /> </td> 
-   <td> 一意の開きは、ThetaSketchの一意のRecipientIdの概念を使用して計算されます。<br /> </td> 
+   <td> 一意の開きは、ThetaSketchの一意のRecipientIdの概念を使用して計算されます。 For more on this, refer to this <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">example</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> インプレッション<br /> </td> 
@@ -293,7 +293,7 @@ ht-degree: 10%
   <tr> 
    <td> ユニーククリック数<br /> </td> 
    <td> @uniqueclicks<br /> </td> 
-   <td> 個別クリック数は、ThetaSketchの概念を使用して計算されます。<br /> </td> 
+   <td> 個別クリック数は、ThetaSketchの概念を使用して計算されます。 For more on this, refer to this <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">example</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Click through rate<br /> </td> 
