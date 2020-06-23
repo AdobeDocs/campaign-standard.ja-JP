@@ -1,6 +1,6 @@
 ---
 title: 役割のリスト
-description: ユーザーに割り当て可能なリストのロールを確認します。
+description: ユーザーに割り当てることができるロールのリストを確認します。
 page-status-flag: never-activated
 uuid: 128aaf9b-9b7d-49f3-9e1f-72e79a29baa0
 contentOwner: sauviat
@@ -13,31 +13,34 @@ context-tags: role,overview;role,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 18db1b8cade7d88294ef2609dd4fad95c55fbd37
+source-git-commit: c65cce2168219b3cd8cbd6704bdd0b6f3f55e3e6
+workflow-type: tm+mt
+source-wordcount: '207'
+ht-degree: 7%
 
 ---
 
 
 # 役割のリスト{#list-of-roles}
 
-デフォルトでは、Adobe Campaignオファーはロールのセットを管理し、ユーザーおよびユーザーグループに割り当てられた一元的な承認を定義できます。
+デフォルトでは、Adobe Campaignオファーは一連のロールを使用して、ユーザーおよびユーザーグループに割り当てられる一元認証を定義できます。
 
-組織単位と組み合わせて、ロールを使用すると、ユーザーはインターフェイスのフィルタされた表示を提供し、様々な機能へのアクセスを定義できます。
+組織単位と組み合わせて、ロールを使用すると、ユーザーはインターフェイスのフィルタされた表示を利用でき、様々な機能へのアクセスを定義できます。
 
-詳しくは、「ロールと権限」の表を参照し [てください](/help/administration/using/assets/acs_rights.pdf)。この表では、選択した承認に応じて、インターフェイスで使用できる機能の詳細を説明しています。
+この詳細については、「 [ロールと権限」の表を参照してください](/help/administration/using/assets/acs_rights.pdf)。この表には、選択した承認に応じて、インターフェイスで使用できる機能の詳細が示されています。
 
-![](assets/user_management_3.png)
+[![image](assets/user_management_3.png](https://docs.adobe.com/content/help/en/campaign-standard/using/administrating/users-and-security/assets/acs_rights.pdf)
 
-役割はメニューから管理で **[!UICONTROL Administration > Users & Security > Roles]** きます。
+ロールは、メニューから管理でき **[!UICONTROL Administration > Users & Security > Roles]** ます。
 
 デフォルトの権限は次のとおりです。
 
-* **[!UICONTROL Administration]**:汎用管理権。
-* **[!UICONTROL Datamodel]**:パブリケーションを実行し、カスタムリソースを作成する権限。
-* **[!UICONTROL Generic import]**:データに対する汎用インポートを実行する権限。 これを機能させるには、ロールをロールにリン **[!UICONTROL Generic import]** クする必要があ **[!UICONTROL Workflow]** ります。
-* **[!UICONTROL Prepare deliveries]**:配信の作成、変更、準備および削除 このロールを持つユーザーは、配信を準備できますが、送信できません。
-* **[!UICONTROL Start deliveries]**:配信の作成、変更、準備、送信、削除を行う権限。
-* **[!UICONTROL Workflow]**:ワークフロー(開始、停止、一時停止など)の実行を管理する権利 このロールを持つユーザーは、ワークフロー内でも配信を送信できません。
+* **[!UICONTROL Administration]**: 汎用管理権限。
+* **[!UICONTROL Datamodel]**: パブリケーションの実行とカスタムリソースの作成を行う権限。
+* **[!UICONTROL Generic import]**: データに対する一般的なインポートを実行する権限。 これを機能させるには、ロールをロールにリンク **[!UICONTROL Generic import]** する必要があり **[!UICONTROL Workflow]** ます。
+* **[!UICONTROL Prepare deliveries]**: 配信の作成、変更、準備および削除を行う権限。 このロールを持つユーザーは、配信を準備できますが、送信することはできません。
+* **[!UICONTROL Start deliveries]**: 配信の作成、変更、準備、送信、削除を行う権限。
+* **[!UICONTROL Workflow]**: ワークフローの実行を管理する権利(開始、停止、一時停止など) このロールを持つユーザーは、ワークフロー内でも配信を送信できません。
 
 **関連トピック：**
 
