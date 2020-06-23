@@ -12,9 +12,9 @@ discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: adc5e92183b891a70cac4aa7a6ed96148d104a20
+source-git-commit: 26f8f7855a30fe90dbfee4bb2b5ee55c7bf4e02b
 workflow-type: tm+mt
-source-wordcount: '879'
+source-wordcount: '878'
 ht-degree: 7%
 
 ---
@@ -26,9 +26,13 @@ ht-degree: 7%
 
 場合によっては、キャンペーンサーバーにPIIデータが含まれている場合など、暗号化サーバーを読み込むデータを暗号化する必要があります。
 
-暗号化されたファイルを読み込んだり書き出したりするには、まずアドビカスタマーケアに連絡して、インスタンスに必要な暗号化/復号化コマンドが提供されるようにする必要があります。
+送信データを暗号化したり、受信データを復号化したりするには、 [コントロールパネルを使用してGPGキーを管理する必要があります](https://docs.adobe.com/content/help/en/control-panel/using/instances-settings/gpg-keys-management.html)。
 
-これを行うには、次のことを示すリクエストを送信します。
+>[!NOTE]
+>
+>コントロールパネルは、AWSでホストされるすべてのお客様が利用できます（自分のマーケティングインスタンスをオンプレミスでホストするお客様を除く）。
+
+コントロールパネルを使用する資格がない場合は、アドビカスタマーケアに問い合わせて、インスタンスに必要な暗号化/復号化コマンドを提供するように依頼する必要があります。 これを行うには、次のことを示すリクエストを送信します。
 
 * コマンドを使用するためにキャンペーンインタフェースに表示される **ラベル** 。 例えば、「ファイルを暗号化」などです。
 * インスタンスにインストールする **コマンド** 。
@@ -36,12 +40,6 @@ ht-degree: 7%
 要求が処理されると、暗号化/復号化コマンドは、 **[!UICONTROL Pre-processing stage]** フィールド内の、およびの **[!UICONTROL Load file]****[!UICONTROL Extract file]** アクティビティから使用できます。 読み込みまたは書き出しを行うファイルは、これらを使用して復号化または暗号化できます。
 
 ![](assets/preprocessing-encryption.png)
-
->[!NOTE]
->
->GPGキーは、AWSでホストするすべてのお客様が利用できるコントロールパネルを使用して、インスタンスに追加できます（自分のマーケティングインスタンスをオンプレミスでホストするお客様を除く）。
->
->For more on this, refer to [Control Panel documentation](https://docs.adobe.com/content/help/ja-JP/control-panel/using/control-panel-home.html).
 
 **関連トピック：**
 
