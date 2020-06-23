@@ -12,7 +12,10 @@ discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c1b7d2210647a87693d93e325a4c888cb23e5f3a
+source-git-commit: 2df909256b910e5e26e0fdac7e150edd0603c8ab
+workflow-type: tm+mt
+source-wordcount: '576'
+ht-degree: 10%
 
 ---
 
@@ -40,7 +43,7 @@ Campaign Standard **メッセージ作成** :ターゲット、パーソナラ�
 
 **次の様々な機能を使用して** 、メッセージのプレビューとテストを行います。 プロファイルやタグ付きプロファイルをテストする配達確認を送信し、電子メールの件名をテストし、メッセージのレンダリングがWebクライアント、Webメール、デバイスに最適に表示されるかどうかを確認します。
 
-キャンペーンスケジュール機能$$を使用して、メッセージを送信するタイミングを定義します。 例えば、受信者のタイムゾーンで送信を適応させたり、送信時間を最適化したり、送信日を計算したりできます。
+キャンペーンスケジュール機能を活用して、メッセージを送信するタイミングを定義します。 例えば、受信者のタイムゾーンで送信を適応させたり、送信時間を最適化したり、送信日を計算したりできます。
 
 タイ **ポロジ** を使用して、メッセージが有効で、疲労、制御およびターゲットルールを通じて品質基準を満たしているかどうかを準備中に確認します。 例えば、電子メールに常に件名行が含まれているかどうかを確認したり、メッセージ受信者から非購読者を除外したりする場合です。
 
@@ -67,7 +70,7 @@ Campaign Standard **メッセージ作成** :ターゲット、パーソナラ�
 
 * [送信の確認](../../sending/using/confirming-the-send.md)
 * [メッセージのトラッキング](../../sending/using/tracking-messages.md)
-* [電子メール BCC でのアーカイブ](../../sending/using/archiving.md)
+* [電子メール BCC を使用したアーカイブ](../../sending/using/archiving.md)
 * [配信の監視](../../sending/using/monitoring-a-delivery.md)
 * [配信エラーの理解](../../sending/using/understanding-delivery-failures.md)
 * [強制隔離管理の理解](../../sending/using/understanding-quarantine-management.md)
