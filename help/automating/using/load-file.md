@@ -13,9 +13,9 @@ context-tags: fileImport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+source-git-commit: 2a8cb9aa0d018fec9d5b256beba079c5ec3afaf0
 workflow-type: tm+mt
-source-wordcount: '1771'
+source-wordcount: '1799'
 ht-degree: 4%
 
 ---
@@ -98,6 +98,9 @@ ht-degree: 4%
       ![](assets/wkf_file_loading1.png)
 
 1. データの読み込み元のファイルが圧縮されてGZIPファイル(.gz)になっている場合は、フィールドで **[!UICONTROL Decompression]** オプションを選択し **[!UICONTROL Add a pre-processing step]** ます。 これにより、データを読み込む前にファイルを解凍できます。 このオプションは、ファイルがアクティビティの受信トランジションから送信された場合にのみ使用できます。
+
+   また、この **[!UICONTROL Add a pre-processing step]** フィールドでは、ファイルをデータベースにインポートする前に、そのファイルを復号化することもできます。 暗号化されたファイルを使用する方法について詳しくは、 [この節を参照してください](../../automating/using/managing-encrypted-data.md)
+
 1. この **[!UICONTROL Keep the rejects in a file]** オプションを使用すると、読み込み中に発生したエラーを含むファイルをダウンロードし、後処理段階でそのファイルに適用できます。 このオプションを有効にすると、送信トランジションの名前が「拒否」に変更されます。
 
    >[!NOTE]
@@ -205,13 +208,13 @@ ht-degree: 4%
 
    <!--![](assets/load_file_enrichment_additional_data.png)-->
 
-   詳しくは、「 [エンリッチメント](../../automating/using/enrichment.md) 」を参照してください。
+   For more on this, see the [Enrichment](../../automating/using/enrichment.md) section.
 
 1. ワークフロー内に **[!UICONTROL Segmentation]** アクティビティをドラッグ&amp;ドロップして開き、メインターゲットを絞り込みます。
 
    ![](assets/load_file_segmentation.png)
 
-   詳しくは、「 [セグメント化](../../automating/using/segmentation.md) 」の節を参照してください。
+   For more on this, see the [Segmentation](../../automating/using/segmentation.md) section.
 
 1. ワークフロー内に **[!UICONTROL Email delivery]** アクティビティをドラッグ&amp;ドロップして開きます。
 
