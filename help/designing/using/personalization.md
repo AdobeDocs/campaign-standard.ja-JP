@@ -12,7 +12,7 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
 workflow-type: tm+mt
 source-wordcount: '2536'
 ht-degree: 4%
@@ -34,7 +34,7 @@ Adobe Campaignが配信するメッセージの内容と表示は、様々な方
 
 送信されるメッセージのヘッダーに表示される送信者の名前を定義するには、電子メールデザイナーホームページの **[!UICONTROL Properties]** タブに移動します（ホームアイコンからアクセスできます）。 詳しくは、「電子メールの送信者の [定義](../../designing/using/subject-line.md#email-sender)」を参照してください。
 
-送信者名は、 **送信者名** ブロックをクリックして変更できます。 フィールドが編集可能になり、使用する名前を入力できます。
+送信者の名前は、 **送信者の名前** ブロックをクリックして変更できます。 フィールドが編集可能になり、使用する名前を入力できます。
 
 このフィールドはパーソナライズできます。 これを行うには、送信者名の下のアイコンをクリックして、パーソナライゼーションフィールド、コンテンツブロックおよび動的コンテンツを追加します。
 
@@ -201,7 +201,7 @@ Adobe Campaignを使用すると、特定の条件に従ってメッセージ内
 
    >[!NOTE]
    >
-   >ドメイン名(http://mydomain.com)はパーソナライズできないので、手動で入力する必要があります。 残りのURLはパーソナライズできます。 次に例を示します。 http://mydomain.com/`[Gender]`.jpg
+   >ドメイン名(http://mydomain.com)はパーソナライズできないので、手動で入力する必要があります。 残りのURLはパーソナライズできます。 次に例を示します。 http://mydomain.com/ `[Gender]` .jpg
 
 1. 変更を確認します。
 
