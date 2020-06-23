@@ -4,10 +4,10 @@ sub-product: Adobe Campaign Standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard ヘルプ
 translation-type: tm+mt
-source-git-commit: c7bac40fc736c107dcdbc910ab35b9eb53a915f6
+source-git-commit: d487600fc4f3004804e93347b83edfe4e01cceeb
 workflow-type: tm+mt
-source-wordcount: '1403'
-ht-degree: 93%
+source-wordcount: '1402'
+ht-degree: 92%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 93%
    + [リリース計画](rn/using/release-planning.md)
    + [廃止された機能](rn/using/deprecated-features.md)
 + はじめに{#getting-started}
-   + [Adobe Campaign標準について](start/using/about-campaign-standard.md)
+   + [Adobe Campaign Standardについて](start/using/about-campaign-standard.md)
    + [プライバシーと同意](start/using/privacy.md)
    + インターフェイスの検出{#discovering-the-interface}
       + [インターフェイスについて](start/using/about-the-interface.md)
@@ -64,7 +64,7 @@ ht-degree: 93%
    + Adobe Experience Platform の使用{#working-with-adobe-experience-platform}
       + [Audience Destinations サービスについて](audiences/using/aep-about-audience-destinations-service.md)
       + [Adobe Experience Platform オーディエンスの管理](audiences/using/aep-managing-audiences.md)
-      + [統合セグメントビルダーの使用](audiences/using/aep-using-segment-builder.md)
+      + [セグメントビルダーの使用](audiences/using/aep-using-segment-builder.md)
 + 通信チャネル{#communication-channels}
    + [コミュニケーションチャネルを使い始める](channels/using/get-started-communication-channels.md)
    + 通信チャネルについて{#about-communication-channels}
