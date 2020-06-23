@@ -13,7 +13,7 @@ context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 422f5eb7011dfcc1d923079e7346394a64934a9a
+source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 0%
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 * **[!UICONTROL History in days]**: 履歴を削除する必要がある日数を指定します。 履歴には、ワークフローに関連する要素が含まれます。 ログ、タスク、イベント（ワークフロー操作にリンクされた技術オブジェクト）、および **[!UICONTROL Transfer file]** アクティビティがダウンロードしたファイル。 デフォルト値は、あらかじめ用意されたワークフローテンプレートの30日です。
 
-   履歴のクリアは、Database cleanup technical workflowが実行します。これは、デフォルトで毎日実行されます(テクニカルワークフローの [リストを参照](../../administration/using/technical-workflows.md))。
+   履歴の削除は、Database cleanup technical workflowが実行します。これは、デフォルトで毎日実行されます(テクニカルワークフローの [リストを参照](../../administration/using/technical-workflows.md))。
 
    >[!IMPORTANT]
    >
@@ -47,4 +47,4 @@ ht-degree: 0%
 
 * **[!UICONTROL Severity]**: Adobe Campaignインスタンスでワークフローを実行する際の優先度を指定できます。 重要なワークフローが最初に実行されます。
 
-この **[!UICONTROL Error management]** 節では、エラーが発生した場合のワークフローの動作を管理するための追加のオプションを提供します。 これらのオプションの詳細については、「 [エラー管理](#error-management) 」の節を参照してください。
+この **[!UICONTROL Error management]** 節では、エラーが発生した場合のワークフローの動作を管理するための追加のオプションを提供します。 これらのオプションの詳細については、「 [エラー管理](../../automating/using/monitoring-workflow-execution.md#error-management) 」の節を参照してください。
