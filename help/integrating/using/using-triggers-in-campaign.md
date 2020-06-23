@@ -12,9 +12,9 @@ discoiquuid: a524c700-bad6-4fcf-857a-c31bfae4d30c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3aa987c423181180a5c20bcca04cde04a2bf6086
+source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: '656'
 ht-degree: 2%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 2%
 
 ## キャンペーンでのマッピングされたトリガーの作成 {#creating-a-mapped-trigger-in-campaign}
 
-Adobe Experience Cloud( **[!UICONTROL Triggers]** コアサービス)では、事前に監視する動作を定義する必要があります。 詳しくは、 [Adobe Experience Cloudのドキュメントを参照してください](https://marketing.adobe.com/resources/help/en_US/mcloud/triggers.html)。 トリガーを定義する場合は、エイリアスを有効にする必要があります。 各動作（閲覧/フォームの中断、製品の追加/削除、セッションの有効期限切れなど）について、Adobe Experience Cloudに新しいトリガーを追加する必要があります。
+Adobe Experience Cloud( **[!UICONTROL Triggers]** コアサービス)では、事前に監視する動作を定義する必要があります。 詳しくは、 [Adobe Experience Cloudのドキュメントを参照してください](https://docs.adobe.com/content/help/en/core-services/interface/activation/triggers.html)。 トリガーを定義する場合は、エイリアスを有効にする必要があります。 各動作（閲覧/フォームの中断、製品の追加/削除、セッションの有効期限切れなど）について、Adobe Experience Cloudに新しいトリガーを追加する必要があります。
 
 既存のAdobe Experience Cloudのトリガーを基にして、Adobe Campaignでトリガーイベントを作成する必要があります。
 
@@ -46,7 +46,7 @@ Adobe Experience Cloud( **[!UICONTROL Triggers]** コアサービス)では、�
 
    ![](assets/remarketing_3.png)
 
-1. この **[!UICONTROL Transactional message validity duration]** フィールドで、Analyticsからイベントが送信された後、メッセージが有効である期間を定義します。 期間を2日と定義した場合、その期間が過ぎると、メッセージは送信されなくなります。 複数のメッセージを保留にすると、一定期間後に再開した場合に、これらのメッセージは送信されません。
+1. この **[!UICONTROL Transactional message validity duration]** フィールドで、イベントがAnalyticsから送信された後にメッセージが有効である期間を定義します。 期間を2日と定義した場合、その期間が過ぎると、メッセージは送信されなくなります。 複数のメッセージを保留にすると、一定期間後に再開した場合に、これらのメッセージは送信されません。
 
    ![](assets/remarketing_4.png)
 
@@ -71,7 +71,7 @@ Adobe Experience Cloud( **[!UICONTROL Triggers]** コアサービス)では、�
 >
 >テンプレートの公開を取り消すと、トリガーイベントの公開が自動的に取り消されます。
 
-コンテンツを編集する際、Analyticsトリガーから送信される情報に基づいてパーソナライゼーションフィールドを追加できます。 イベントデータをAdobe Campaignプロファイルデータと共に拡張する場合、この情報に基づいてメッセージをパーソナライズできます。 メッセージをパーソナライズするには、 **[!UICONTROL Transactional event]** /を選択 **[!UICONTROL Event context]** し、フィールドを選択します。
+コンテンツを編集する場合、Analyticsトリガーから送信された情報に基づいてパーソナライゼーションフィールドを追加できます。 イベントデータをAdobe Campaignプロファイルデータと共に拡張する場合、この情報に基づいてメッセージをパーソナライズできます。 メッセージをパーソナライズするには、 **[!UICONTROL Transactional event]** /を選択 **[!UICONTROL Event context]** し、フィールドを選択します。
 
 ![](assets/remarketing_8.png)
 
@@ -81,7 +81,7 @@ Adobe Experience Cloud( **[!UICONTROL Triggers]** コアサービス)では、�
 
 ![](assets/remarketing_9.png)
 
-このレポートには、処理されたイベントの数とAnalyticsから送信されたイベントの数が表示されます。 また、最近実行したすべてのトリガーのリストも表示されます。
+このレポートには、処理されたイベントの数が、Analyticsから送信されたイベントの数と比較されて表示されます。 また、最近実行したすべてのトリガーのリストも表示されます。
 
 ![](assets/trigger_uc_browse_14.png)
 
