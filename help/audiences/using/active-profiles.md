@@ -1,31 +1,35 @@
 ---
 title: アクティブなプロファイル
-description: 顧客指標に関する専用レポートにアクセスし、Campaignデータベース内のアクティブなプロファイルを視覚化できます。
-page-status-flag: 非活性化の
+description: 顧客指標に関する専用レポートにアクセスし、キャンペーンデータベースでアクティブなプロファイルを視覚化できます。
+page-status-flag: never-activated
 uuid: ee8ac493-c297-49ca-aed4-3976d8a685a4
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
 audience: audiences
-content-type: 参照
-topic-tags: 管理プロファイル
+content-type: reference
+topic-tags: managing-profiles
 discoiquuid: e029213f-0b65-41b1-8adf-34fa813b0c70
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 4575c1152f1a33ff18b2200151346cc6e56b45fa
+workflow-type: tm+mt
+source-wordcount: '173'
+ht-degree: 19%
 
 ---
 
 
 # アクティブなプロファイル{#active-profiles}
 
-Adobe Campaignは、アクティブなプロファイルの数を表示するレポートを提供します。 このレポートは単なる情報であり、請求に直接影響を与えません。 このレポートにアクセスできるのは管理者のみで **[!UICONTROL Administration > Customer metrics]**&#x200B;す。
+Adobe Campaignは、アクティブなプロファイルの数を表示するレポートを提供します。 このレポートは情報を提供するだけで、請求に直接影響しません。 このレポートにアクセスできるのは、管理者のみです。 **[!UICONTROL Administration > Customer metrics]**
 
 ![](assets/audience_active_profiles1.png)
 
-技術ワ **[!UICONTROL Billing]** ークフローは、過去12か月の周期中にターゲットにしたアクティブなプロファイルの数を含むレポートを毎月生成します。
+テクニカル **[!UICONTROL Billing]** ワークフローは、毎月、過去12か月の周期中にターゲットにされたアクティブなプロファイルの数を含むレポートを生成します。
 
-配信の準備中に（タイポロジルール、強制隔離によって）除外されたプロファイルは、考慮されません。プロファイルは、複数の配信のターゲットになっていても一度しかカウントされません。レポートの下部に、各ターゲットディメンションのアクティブなプロファイルのリストが表示されます。
+配信の準備中に（タイポロジルール、強制隔離によって）除外されたプロファイルは、考慮されません。プロファイルは、複数の配信のターゲットになっていても一度しかカウントされません。レポートの下部には、各ターゲティングディメンションのアクティブなプロファイルのリストが表示されます。
 
 ![](assets/audience_active_profiles2.png)
 
+AWSでホストし、ビルド10368のCampaign Standardを使用している場合は、コントロールパネルから直接、インスタンスで使用されるアクティブなプロファイルの数を監視することもできます。 For more on this, refer to the [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
