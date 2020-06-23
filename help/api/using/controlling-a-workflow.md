@@ -12,35 +12,38 @@ discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
+workflow-type: tm+mt
+source-wordcount: '96'
+ht-degree: 10%
 
 ---
 
 
 # ワークフローの制御 {#controlling-a-workflow}
 
-ワークフローIDと必要な実行コマンドを含むPOSTリクエストを使用して、REST APIから直接ワークフローを制御できます。
+ワークフローIDと必要な実行コマンドを含むPOST要求を介して、REST APIから直接ワークフローを制御できます。
 
 `POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>/commands`
 
 >[!CAUTION]
 >
->ワークフローIDがAdobe Campaignで変更された場合、APIリクエストは機能しなくなります。
+>ワークフローIDがAdobe Campaignで変更された場合、APIリクエストは動作しなくなります。
 
-ワークフローを制御するために、次の4つの実行コマンドを使用できます。
+ワークフローの制御には、次の4つの実行コマンドを使用できます。
 
 * 開始
 * 一時停止
 * 再開
 * 停止
 
-実行コマンドの詳細については、Campaignのドキュメントを参照し [てください](https://helpx.adobe.com/campaign/standard/automating/using/executing-a-workflow.html)。
+実行コマンドの詳細については、 [キャンペーンのマニュアルを参照してください](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/executing-a-workflow/about-workflow-execution.html)。
 
 <br/>
 
-***リクエストの例***
+***リクエストのサンプル***
 
-* ワークフローを開始します。
+* ワークフローの開始
 
    ```
    -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>/commands \
