@@ -13,7 +13,7 @@ context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3ed78fd610b0d134cd1e60f34c93161cb1e5c50f
+source-git-commit: 4cda0d3a3e65959091cd24bec8af434ab07519f6
 workflow-type: tm+mt
 source-wordcount: '577'
 ht-degree: 2%
@@ -27,7 +27,7 @@ ht-degree: 2%
 
 ワークフローログとタスクメニューが ![](assets/printpreview_darkgrey-24px.png) 開きます。
 
-ワークフローの履歴は、ワークフローの実行オプションで指定された期間、保存されます( [ワークフローのプロパティを参照](#workflow-properties))。 この間、再起動後も、すべてのメッセージが保存されます。 以前の実行のメッセージを保存したくない場合は、ボタンをクリックして履歴を削除する必要があり ![](assets/delete_darkgrey-24px.png) ます。
+ワークフローの履歴は、ワークフローの実行オプションで指定された期間、保存されます( [ワークフローのプロパティを参照](../../automating/using/managing-execution-options.md))。 この間、再起動後も、すべてのメッセージが保存されます。 以前の実行のメッセージを保存したくない場合は、ボタンをクリックして履歴を削除する必要があり ![](assets/delete_darkgrey-24px.png) ます。
 
 この **[!UICONTROL Log]** タブには、すべてのアクティビティまたは選択したアクティビティの実行履歴が含まれます。 実行された操作と実行エラーのインデックスを時系列順に作成します。
 
@@ -55,9 +55,9 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->この設定は、各アクティビティに個別に適用できます。これを行うには、アクティビティを選択し、クイックアクションを使用して開き ![](assets/edit_darkgrey-24px.png)ます。 次に、「 **実行オプション** 」タブでエラー管理モードを選択します。 「 [アクティビティ実行オプション](#activity-execution-options)」を参照してください。
+>この設定は、各アクティビティに個別に適用できます。これを行うには、アクティビティを選択し、クイックアクションを使用して開き ![](assets/edit_darkgrey-24px.png)ます。 次に、「 **実行オプション** 」タブでエラー管理モードを選択します。 「 [アクティビティ実行オプション](../../automating/using/activity-properties.md)」を参照してください。
 
-ワークフ [ローのプロパティには](#workflow-properties)、エラー管理に関連する追加のオプションが表示されます。
+ワークフ [ローのプロパティに](../../automating/using/managing-execution-options.md)、エラー管理に関連する追加のオプションが使用できます。
 
 ![](assets/wkf_execution_error.png)
 
