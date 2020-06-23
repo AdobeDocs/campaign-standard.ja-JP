@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 017e1e80657a3145a97c6ab62a577a9a2164cc99
+source-git-commit: 58c69b6f6efdac8be5d05fe723bbf9ff54d186ee
 workflow-type: tm+mt
-source-wordcount: '5923'
+source-wordcount: '5941'
 ht-degree: 18%
 
 ---
@@ -25,6 +25,8 @@ ht-degree: 18%
 このページでは、Adobe Campaign [リリースノートに加えて、Adobe Campaign Standardドキュメントの新しい更新をすべてリストしています](../../rn/using/release-notes.md)。
 
 ## ドキュメントの更新 — 2020年6月 {#doc-updates-june-2020}
+
+コントロールパネルとキャンペーンワークフローを使用した [データの暗号化](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt) / [](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt) 復号化の方法に関する使用例が追加されました。
 
 「ホワイトリスト」と「ブラックリスト」の両方の用語がAdobe Campaignドキュメントから削除されました。 これらの用語の一部は、製品UI、オプション名、内部コードにまだ存在する場合がありますが、今後のキャンペーンリリースでは「ブロックリスト」と「許可リスト」に置き換えられます。
 
@@ -484,7 +486,7 @@ Microsoft Edge（最新バージョン）が、コンピューター用の互換
 
 アプリ内メッセージ（ベータ版） - [詳細情報](../../channels/using/about-in-app-messaging.md)
 
-モバイルアプリ（ベータ版）用Adobe Launchの統合 — [詳細情報](../../sending/using/about-typology-rules.md#typology-rules)
+モバイルアプリ（ベータ版）用Adobe Launchの統合 — [詳細情報](../../sending/using/managing-typologies.md)
 
 **リリースに伴うその他のドキュメントのアップデート**
 
@@ -498,7 +500,7 @@ Microsoft Edge（最新バージョン）が、コンピューター用の互換
 
 **リリースに含まれる新機能**
 
-[モバイルアプリの購読者向けの優先度の高いフラグ](../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android)[](../../sending/using/about-typology-rules.md#typology-rules) と文字体裁フィルター。
+[モバイルアプリの購読者向けの優先度の高いフラグ](../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android)[](../../sending/using/managing-typologies.md) と文字体裁フィルター。
 
 準備時にURLからのコンテンツインポートを自動化。 [詳細を表示](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time)
 
@@ -794,7 +796,7 @@ Adobe Campaign通知 — [詳細情報](../../administration/using/sending-inter
 
 ダイレクトメール- [詳細情報](../../channels/using/about-direct-mail.md)
 
-電子メールBCC - [詳細情報](../../administration/using/configuring-email-channel.md#archiving-emails)
+電子メールBCC - [詳細情報](../../sending/using/archiving.md)
 
 **リリースに伴うその他のドキュメントのアップデート**
 
