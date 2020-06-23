@@ -4,10 +4,10 @@ solution: Campaign Standard
 title: Adobe Campaign Standard 製品ドキュメント
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: 01fed9b50964ae15a2127a1a2f9a3ebca944d6b1
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 100%
+source-wordcount: '196'
+ht-degree: 93%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 ## 新着情報
 
-* **[ターゲットプロファイルを使用した電子メールのテスト](sending/using/testing-messages-using-target.md)**<br/>実際のターゲットプロファイルで電子メールをテストする方法を説明します。
+* 「ホワイトリスト」と「ブラックリスト」の両方の用語がAdobe Campaignドキュメントから削除されました。 [詳細を表示](rn/using/documentation-updates.md)
 
 * **[プライバシー管理](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy.html)**<br/>
 プライバシーコンプライアンスに役立つ Adobe Campaign ツールについて説明します。
