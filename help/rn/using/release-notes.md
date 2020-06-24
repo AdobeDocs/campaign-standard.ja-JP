@@ -12,9 +12,9 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c70d7172af12c2ccad0468f0afdba87bcf4ac839
+source-git-commit: 04bc32a9abb2939823f18165e1fe46d9f2315cce
 workflow-type: tm+mt
-source-wordcount: '1060'
+source-wordcount: '1054'
 ht-degree: 6%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 6%
 
 [リリースの計画](../../rn/using/release-planning.md) | [コントロールパネルのリリース](https://docs.adobe.com/content/help/ja-JP/control-panel/using/release-notes.html) | [ドキュメントの更新](../../rn/using/documentation-updates.md) | [以前のリリースノート](../../rn/using/release-notes-2020.md) | [非推奨の機能](../../rn/using/deprecated-features.md)
 
-![](assets/do-not-localize/cp-icon.png) **新しいコントロールパネル6月のリリース** 。アクティブなプロファイルの監視、サブドメイン配信品質の監査、GPGキー管理が含まれます。 See [Control Panel Release Notes](https://docs.adobe.com/content/help/ja-JP/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **新しいコントロールパネル6月のリリース** 。アクティブなプロファイルの監視、サブドメイン配信品質の監査、GPGキー管理が含まれます。 [詳細情報](https://docs.adobe.com/content/help/ja-JP/control-panel/using/release-notes.html)。
 
 ## リリース20.3 - 2020年5月 {#release-20-3---may-2020}
 
@@ -71,7 +71,7 @@ ht-degree: 6%
 </tbody> 
 </table>
 
-![](assets/do-not-localize/cp-icon.png) **新しいコントロールパネルがリリースされると** 、CNAMEサブドメインの証明書が更新されます。 See [Control Panel Release Notes](https://docs.adobe.com/content/help/ja-JP/control-panel/using/release-notes.html).
+![](assets/do-not-localize/cp-icon.png) **新しいコントロールパネルがリリースされると** 、CNAMEサブドメインの証明書が更新されます。 [詳細情報](https://docs.adobe.com/content/help/ja-JP/control-panel/using/release-notes.html)。
 
 **強化点**
 
@@ -92,7 +92,7 @@ ht-degree: 6%
 
 **その他の変更**
 
-* カスタムリソースのパブリケーションインターフェイスが改善され、より明確なエラーメッセージが表示されるようになりました。
+* エラーメッセージがより明確に表示され、カスタムリソースのパブリケーションインターフェイスが改善されました。
 * 未使用の配信マッピングはインターフェイスから削除されました。
 * 不要な管理者の役割がインターフェイスから削除されました。
 * ランディングページでチェックボックスを必須にできるようになりました。
