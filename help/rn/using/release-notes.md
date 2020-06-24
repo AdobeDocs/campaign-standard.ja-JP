@@ -1,6 +1,6 @@
 ---
 title: 最新リリース
-description: このページでは、Adobe Campaign標準の最新リリースをすべてリストしています。
+description: このページでは、Adobe Campaign Standardの最新リリースをすべてリストします。
 page-status-flag: never-activated
 uuid: 1cf2e40c-beca-43db-8261-a1820ee86ad3
 contentOwner: sauviat
@@ -12,10 +12,10 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e59562bd4f258c4259b8e8e5d9648397d5718792
+source-git-commit: c70d7172af12c2ccad0468f0afdba87bcf4ac839
 workflow-type: tm+mt
-source-wordcount: '1039'
-ht-degree: 5%
+source-wordcount: '1060'
+ht-degree: 6%
 
 ---
 
@@ -23,6 +23,8 @@ ht-degree: 5%
 # 最新リリース{#latest-release}
 
 [リリースの計画](../../rn/using/release-planning.md) | [コントロールパネルのリリース](https://docs.adobe.com/content/help/ja-JP/control-panel/using/release-notes.html) | [ドキュメントの更新](../../rn/using/documentation-updates.md) | [以前のリリースノート](../../rn/using/release-notes-2020.md) | [非推奨の機能](../../rn/using/deprecated-features.md)
+
+![](assets/do-not-localize/cp-icon.png) **新しいコントロールパネル6月のリリース** 。アクティブなプロファイルの監視、サブドメイン配信品質の監査、GPGキー管理が含まれます。 See [Control Panel Release Notes](https://docs.adobe.com/content/help/ja-JP/control-panel/using/release-notes.html).
 
 ## リリース20.3 - 2020年5月 {#release-20-3---may-2020}
 
@@ -39,7 +41,7 @@ ht-degree: 5%
 <td> <p>タイの個人データ保護法(PDPA)は、タイのデータ保護に関する要件を調和・近代化する新しいプライバシー法です。 本規則は、本国に居住するデータ・サブジェクトのデータを保持するAdobe Campaignのお客様に適用されます。</p>
 <p>Adobe Campaignで既に利用可能なプライバシー機能（同意管理、データ保持設定、ユーザーの役割など）に加え、PDPAの準備を容易にするための追加機能を追加する予定です。</p>
 <ul>
-<li>アクセス権と削除権： GDPRとCCPAに追加された機能を活用しています。 <a href="https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#righttoaccess">さらに詳しく</a> </li>
+<li>アクセス権と削除権： GDPRとCCPAに追加された機能を活用しています。 <a href="https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#righttoaccess">詳細情報</a>。 </li>
 <li><p>プライバシー要求を作成する際に、PDPA規制タイプがプライバシーコアサービスに追加されました。 このメソッドは、すべてのアクセスおよび削除リクエストに対して使用する必要があるメソッドです。 アクセス要求および削除要求に対するキャンペーンAPIとインターフェイスの使用は廃止されました。  廃止された機能と <a href="../../rn/using/deprecated-features.md">削除された機能の記事を参照してください</a>。</p></li>
 </ul>
 <p>使い方のビデオ <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">を参照してください</a>。</p>
@@ -69,15 +71,13 @@ ht-degree: 5%
 </tbody> 
 </table>
 
->[!NOTE]
->
->CNAMEサブドメインの証明書の更新は、5月にキャンペーンのコントロールパネルでリリースされます。 詳しくは、「 [コントロールパネルリリースノート](https://docs.adobe.com/content/help/ja-JP/control-panel/using/release-notes.html)」を参照してください。
+![](assets/do-not-localize/cp-icon.png) **新しいコントロールパネルがリリースされると** 、CNAMEサブドメインの証明書が更新されます。 See [Control Panel Release Notes](https://docs.adobe.com/content/help/ja-JP/control-panel/using/release-notes.html).
 
 **強化点**
 
 * ターゲットプロファイルを使用してメッセージを **テストする際に、「** プレフィックス [](../../sending/using/testing-messages-using-target.md) 」フィールドで使用できる文字数が32文字から500文字に増えました。
 * インスタンスに発行できるリアルタイムイベントの最大数が350から2000に増えました。 (CAMP-41608)
-* Adobe LaunchとCampaign Standardの同期が、syncWithLaunchテクニカルワークフローを使用して改善されました。 このワークフローにより、Adobe LaunchのすべてのモバイルプロパティをAdobe Campaign標準に自動インポートできます。 詳しくは、[このページ](../../administration/using/technical-workflows.md)を参照してください。
+* Adobe LaunchとCampaign Standardの同期が、syncWithLaunchテクニカルワークフローを使用して改善されました。 このワークフローにより、Adobe LaunchのすべてのモバイルプロパティをAdobe Campaign Standardに自動インポートできます。 詳しくは、[このページ](../../administration/using/technical-workflows.md)を参照してください。
 
    お使いのキャンペーンインスタンスでsyncWithLaunchテクニカルワークフローを有効にするには、チケットをアドビカスタマーケアに（直接またはアドビの担当者を通じて）送信する必要があります。 (CAMP-40082)
 
@@ -100,9 +100,9 @@ ht-degree: 5%
 * 多言語電子メールの標準リストにES-US言語が追加されました。 (CAMP-42279)
 * 「ファイルの転送」アクティビティでダウンロードされたファイルは、X日後に削除されるようになりました。Xは、Workflowプロパティの「 **Execution****（実行）** 」メニューの「History in days（履歴）」フィールドによって決定されます。 [詳細を表示](../../automating/using/managing-execution-options.md)
 
-**エクスペリエンスプラットフォームの統合**
+**Experience Platform統合**
 
-* 読み取りオーディエンス [アクティビティからのAdobe](../../automating/using/aep-targeting-audiences.md)**** Experience Platformオーディエンスのアクティベーションが向上し、パフォーマンスと安定性が向上しました。 さらに、アクティベーションジョブに関するワークフローログがより明確で詳細になり、Adobe Experience Platformオーディエンスを読む際の監視とトラブルシューティングが容易になりました。
+* パフォーマンスと安定性が向上するために、 [読み取りオーディエンス](../../automating/using/aep-targeting-audiences.md) ( **** 読み取り)アクティビティからのAdobeExperience Platformオーディエンスのアクティベーションが改善されました。 また、ワークフローログはアクティベーションジョブに関する情報をより明確に、より詳細に記録し、Adobe Experience Platformオーディエンスを読む際の監視とトラブルシューティングを容易にしています。
 
 **パッチ**
 
