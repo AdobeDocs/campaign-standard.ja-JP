@@ -12,10 +12,10 @@ discoiquuid: 5f7607a1-5f71-4d66-9688-3e5a1774f1b4
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 17%
+source-wordcount: '434'
+ht-degree: 18%
 
 ---
 
@@ -70,9 +70,6 @@ Adobe Campaign では、インバウンドデータをセットで処理でき�
 * 集計
 * コレクション
 
-**関連トピック**
+**関連トピック：**
 
-* [使用例： 週に1回の電子メール配信の作成](../../automating/using/workflow-weekly-offer.md)
-* [使用例： 場所でセグメント化された配信の作成](../../automating/using/workflow-segmentation-location.md)
-* [使用例： 補完的な配信の作成](../../automating/using/workflow-created-query-with-complement.md)
-* [使用例： 非開封者に新しい配信を送信する再ターゲティングワークフロー](../../automating/using/workflow-cross-channel-retargeting.md)
+* [使用例： 電子メールと追加データのパーソナライズ](../../automating/using/personalizing-email-with-additional-data.md)
