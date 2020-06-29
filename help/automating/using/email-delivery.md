@@ -13,9 +13,9 @@ context-tags: delivery,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6e87dc8f299f0c9fbb33e5e56c0a76cfef0aa9a6
+source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
 workflow-type: tm+mt
-source-wordcount: '993'
+source-wordcount: '857'
 ht-degree: 2%
 
 ---
@@ -45,6 +45,14 @@ The **[!UICONTROL Email delivery]** activity is generally used to automate sendi
 
 メッセージ作成は、ワークフロー実行パラメータに従ってトリガされる。 メッセージダッシュボードから、手動で確認を行ってメッセージを送信するかどうかを選択できます（デフォルトでは必須）。 ワークフローは、手動で開始するかまたはワークフロー内にスケジューラーアクティビティを置いて自動的に実行させます。
 
+**関連トピック：**
+
+* [使用例： 週に1回の電子メール配信の作成](../../automating/using/workflow-weekly-offer.md)
+* [使用例： 場所でセグメント化された配信の作成](../../automating/using/workflow-segmentation-location.md)
+* [使用例： 補完的な配信の作成](../../automating/using/workflow-created-query-with-complement.md)
+* [使用例： 非開封者に新しい配信を送信する再ターゲティングワークフロー](../../automating/using/workflow-cross-channel-retargeting.md)
+* [使用例： 誕生日配信](../../automating/using/birthday-delivery.md)
+
 ## 設定 {#configuration}
 
 1. ワークフローに **[!UICONTROL Email delivery]** アクティビティをドラッグ&amp;ドロップします。
@@ -59,7 +67,7 @@ The **[!UICONTROL Email delivery]** activity is generally used to automate sendi
    * **[!UICONTROL Email]**: 電子メールは1回送信されます。 外部トランジションをアクティビティに追加するかどうかを指定できます。 様々なトランジションタイプについては、この手順の手順7で説明します。
    * **[!UICONTROL Recurring email]**: 電子メールは、 **[!UICONTROL Scheduler]** アクティビティで定義されている頻度に従って、複数回送信されます。 送信の集計期間を選択します。 これにより、1つの電子メールの中で定義した期間に発生したすべての送信を再グループ化できます。この電子メールは **定期的な実行** とも呼ばれ、アプリのマーケティングアクティビティリストからアクセスできます。
 
-      例えば、誕生日の電子メールを毎日送信する場合は、1か月あたりの送信を集計できます。 これにより、電子メールは毎日送信されますが、配信のレポートを毎月受信できます。
+      例えば、誕生日の電子メールを毎日送信する場合は、1か月あたりの送信を集計できます。 これにより、電子メールは毎日送信されますが、配信のレポートを毎月受け取ることができます。
    >[!NOTE]
    >
    >反復配信は、 **集計期間に基づいて作成される**。 たとえば、集計期間が「日別」の場合、配信は1日に1回のみ再準備されます。 このワークフローを1日に複数回呼び出す場合は、を使用し [!UICONTROL No aggregation]ます。
@@ -91,28 +99,3 @@ The **[!UICONTROL Email delivery]** activity is generally used to automate sendi
 マーケティングアクティビティリストから、または関連する繰り返し実行を介して直接アクセスできる親配信では、処理された送信の総数を表示できます( **[!UICONTROL Email delivery]** アクティビティの設定時に指定した集計期間に従います)。 これを行うには、を選択して親配信の **[!UICONTROL Deployment]** ブロックの詳細表示を開き ![](assets/wkf_dlv_detail_button.png)ます。
 
 ![](assets/wkf_display_recurrent_executions_3.png)
-
-## 例 ：{#example}
-
-![](assets/wkf_delivery_example_1.png)
-
-次の例は、誕生日のワークフローです。 毎日、その日の誕生日を持つプロファイルに電子メールが送られます。 手順は次のとおりです。
-
-* では、毎日午前8時にワークフローの開始を行うことができます。 **[!UICONTROL Scheduler]**
-
-   ![](assets/wkf_delivery_example_2.png)
-
-* この **[!UICONTROL Query]** アクティビティを使用すると、ワークフローが実行されるたびに、電子メールを提供したプロファイルと、その誕生日が現在の日に含まれているユーザーを計算できます。 誕生日の計算は、クエリ編集ツールのパレットにある定義済みのフィルターを使用して実行されます。
-
-   ![](assets/wkf_delivery_example_3.png)
-
-* こ **[!UICONTROL Email]** れが繰り返し起こっている。 送信は月別に集計されます。 1か月の間に送信されるすべての電子メールは、1つの表示に集計されます。 したがって、1年後には365個の配信が実行されますが、Adobe Campaignインターフェイスでは12個の表示( **繰り返し実行**)に再グループ化されます。 履歴とレポートの詳細は毎月表示され、送信ごとには表示されません。
-
-   ![](assets/wkf_delivery_example_4.png)
-
-**関連トピック**
-
-* [使用例： 週に1回の電子メール配信の作成](../../automating/using/workflow-weekly-offer.md)
-* [使用例： 場所でセグメント化された配信の作成](../../automating/using/workflow-segmentation-location.md)
-* [使用例： 補完的な配信の作成](../../automating/using/workflow-created-query-with-complement.md)
-* [使用例： 非開封者に新しい配信を送信する再ターゲティングワークフロー](../../automating/using/workflow-cross-channel-retargeting.md)
