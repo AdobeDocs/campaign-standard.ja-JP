@@ -13,10 +13,10 @@ context-tags: fileImport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2a8cb9aa0d018fec9d5b256beba079c5ec3afaf0
+source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
 workflow-type: tm+mt
-source-wordcount: '1799'
-ht-degree: 4%
+source-wordcount: '1341'
+ht-degree: 5%
 
 ---
 
@@ -41,6 +41,13 @@ ht-degree: 4%
 
 * ファイル構造を使用して、別のファイルのデータに適用する( **[!UICONTROL Transfer file]** アクティビティを使用してリカバリする)か、
 * ファイルの構造とデータを使用して、Adobe Campaignに読み込みます。
+
+**関連トピック：**
+
+* [使用例： 外部データを使用したデータベースの更新](../../automating/using/update-database-file.md)
+* [使用例： ファイルの自動ダウンロードに基づくデータの更新](../../automating/using/update-data-automatic-download.md)
+* [使用例： 強化されたフィールドを含む電子メールの送信](../../automating/using/sending-email-enriched-fields.md)
+* [使用例： ファイルオーディエンスとデータベースとの調整](../../automating/using/reconcile-file-audience-with-database.md)
 
 ## 設定 {#configuration}
 
@@ -157,75 +164,3 @@ ht-degree: 4%
    * **[!UICONTROL Generate an error for numerical fields]**: 数値フィールドに対してのみエラーを生成します。それ以外の場合は、NULL値を挿入します。
    * **[!UICONTROL Insert NULL in the corresponding field]**: は空の値を許可します。 したがって、null 値が挿入されます。
    * **[!UICONTROL Generate an error]**: 値が空の場合にエラーを生成します。
-
-## 例1: データベースの更新 {#example-1-update-the-database}
-
-ロードファイルアクティビティは、転送ファイルアクティビティからのデータを主に構成し、既存のデータに統合する。
-
-次の例は、転送ファイルアクティビティを介して自動的にダウンロードされたファイルの読み込みアクティビティの後に、更新データアクティビティが続く結果を示しています。 このワークフローでは、Adobe Campaignデータベースを新しいプロファイルで拡張したり、読み込んだファイルから回復したデータを使用して既存のプロファイルを更新したりします。
-
-![](assets/load_file_workflow_ex1.png)
-
-1. ワークフローに **[!UICONTROL Transfer file]** アクティビティをドラッグ&amp;ドロップし、希望のファイルが回復されるように設定します。
-1. ワークフロー内に **[!UICONTROL Load file]** アクティビティをドラッグ&amp;ドロップし、アクティビティの後に配置し **[!UICONTROL Transfer file]** ます。
-1. アクティビティを選択し、表示されるクイックアクションの ![](assets/edit_darkgrey-24px.png) ボタンを使用して開きます。
-1. タブの **[!UICONTROL File to load]** セクションで、オプションをオンにし **[!UICONTROL Execution]** ま **[!UICONTROL Use the file specified in the inbound transition]** す。
-
-   ![](assets/wkf_file_loading8.png)
-
-1. 前の手順に従って、アクティビティを設定します。
-1. ワークフロー内に **[!UICONTROL Update data]** アクティビティをドラッグ&amp;ドロップし、アクティビティの後に配置して、 **[!UICONTROL Load file]** を設定します。 Refer to [Update data](../../automating/using/update-data.md).
-
-ワークフローが開始されると、アップロードされたファイルのデータが抽出され、Adobe Campaignデータベースの拡張に使用されます。
-
-## 例2: 強化されたフィールドを含む電子メールの送信 {#example-2-email-with-enriched-fields}
-
-<!--A new example showing how to send an email containing additional data retrieved from a load file activity has been added. [Read more](example-2-email-with-enriched-fields)-->
-
-ロードファイルアクティビティを使用すると、同じワークフロー内の外部ファイルから追加データを追加してリンチされた電子メールを送信することもできます。
-
-次の例は、ロードファイルアクティビティを介して外部ファイルから取得した追加データを使用して電子メールを送信する方法を示しています。 この例では、外部ファイルにプロファイルのリストと関連するアカウント番号が含まれています。 このデータをインポートして、各プロファイルにアカウント番号と共に電子メールを送信する場合。
-
-![](assets/load_file_workflow_ex2.png)
-
-1. ワークフロー内に **[!UICONTROL Query]** アクティビティをドラッグ&amp;ドロップし、開いてメインターゲットを定義します。
-
-   <!--The Query activity is presented in the [Query](../../automating/using/query.md) section.-->
-
-1. プロファイルにデータを割り当てるには、 **[!UICONTROL Load file]** アクティビティをドラッグ&amp;ドロップします。 この例では、データベースの一部のプロファイルに対応するアカウント番号を含むファイルを読み込みます。
-
-   ![](assets/load_file_activity.png)
-
-1. ワークフローに **[!UICONTROL Enrichment]** アクティビティをドラッグ&amp;ドロップし、ファイルを読み込み、クエリアクティビティをそのワークフローにリンクします。
-
-1. エンリッチメントアクティビティの **[!UICONTROL Advanced relations]** タブで、調整に使用するフィールドを選択 **[!UICONTROL 0 or 1 cardinality simple link]** し、定義します。 ここでは、姓を使用してデータをデータベースプロファイルと調整します。
-
-   ![](assets/load_file_enrichment_relation.png)
-
-1. タブで、電子メールに使用する要素を選択し **[!UICONTROL Additional data]** ます。 次に、アカウント番号(ファイルの読み込みアクティビティから取得したファイルの列)を選択します。
-
-   ![](assets/load_file_enrichment_select_element.png)
-
-   <!--![](assets/load_file_enrichment_additional_data.png)-->
-
-   For more on this, see the [Enrichment](../../automating/using/enrichment.md) section.
-
-1. ワークフロー内に **[!UICONTROL Segmentation]** アクティビティをドラッグ&amp;ドロップして開き、メインターゲットを絞り込みます。
-
-   ![](assets/load_file_segmentation.png)
-
-   For more on this, see the [Segmentation](../../automating/using/segmentation.md) section.
-
-1. ワークフロー内に **[!UICONTROL Email delivery]** アクティビティをドラッグ&amp;ドロップして開きます。
-
-   <!--The Email delivery activity is presented in the [Email delivery](../../automating/using/email-delivery.md) section.-->
-
-1. パーソナライゼーション追加フィールドを選択し、エンリッチメントアクティビティ（ここでは「アカウント番号」）で定義された追加データを **[!UICONTROL Additional data (targetData)]** ノードから選択します。 これにより、電子メールコンテンツ内の各プロファイルのアカウント番号を動的に取得できます。
-
-   ![](assets/load_file_perso_field.png)
-
-1. 電子メールと開始をワークフローに保存します。
-
-電子メールがターゲットに送信されます。 各プロファイルは、対応するアカウント番号を持つ電子メールを受信します。
-
-![](assets/load_file_email.png)
