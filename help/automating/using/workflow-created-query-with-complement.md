@@ -1,77 +1,74 @@
 ---
-title: 「ワークフローの使用例：補完的な配信の作成」
-description: 「ワークフローの使用例：補完的な配信の作成」
-page-status-flag: 非活性化の
+title: 補完を含む配信の作成
+description: この使用例は、補数を持つ配信の作成方法を示します。
+page-status-flag: never-activated
 uuid: 396a3de1-6ffa-4385-ac9f-15fdeae5a366
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 自動化
-content-type: 参照
-topic-tags: 実行活動
+audience: automating
+content-type: reference
+topic-tags: execution-activities
 discoiquuid: 377821e6-69f8-41cc-a1ad-8a2f5ed4d409
 context-tags: workflow,use-case,segmentation
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
+workflow-type: tm+mt
+source-wordcount: '239'
+ht-degree: 5%
 
 ---
 
 
-# ワークフローの使用例：補完を含む配信の作成 {#deliveries-with-complement}
+# 補完を含む配信の作成 {#deliveries-with-complement}
 
-顧客に電子メールを送信できます。1年前に作成されたクライアント用、1年前に作成されたクライアント用。
+顧客に電子メールを送信できます。 1年前に作成されたクライアント用、1年前に作成されたクライアント用。
 
-1. で、を **[!UICONTROL Marketing Activities]**&#x200B;クリックし **[!UICONTROL Create]** てを選択しま **[!UICONTROL Workflow]**&#x200B;す。
-1. ワークフロー **[!UICONTROL New Workflow]** タイプとして選択し、をクリックしま **[!UICONTROL Next]**&#x200B;す。
-1. ワークフローのプロパティを入力し、をクリックしま **[!UICONTROL Create]**&#x200B;す。
+1. で、 **[!UICONTROL Marketing Activities]**&#x200B;をクリック **[!UICONTROL Create]** してを選択し **[!UICONTROL Workflow]**&#x200B;ます。
+1. ワークフローのタイプ **[!UICONTROL New Workflow]** として選択し、をクリックし **[!UICONTROL Next]**&#x200B;ます。
+1. ワークフローのプロパティを入力し、をクリックし **[!UICONTROL Create]**&#x200B;ます。
 
-## Queryアクティビティの作成 {#create-a-query-activity}
+## クエリアクティビティの作成 {#create-a-query-activity}
 
-1. &gt;で、 **[!UICONTROL Activities]** をド **[!UICONTROL Targeting]**&#x200B;ラッグ&amp;ドロップしま **[!UICONTROL Query activity]**![](assets/query.png)す。
-1. アクティビティをダブルクリックします。
-1. で、演 **[!UICONTROL Shortcuts]**&#x200B;算子を使用してドラッ **[!UICONTROL Profiles]** グ&amp;ドロ **[!UICONTROL email]** ップして選択しま **[!UICONTROL is not empty]**&#x200B;す。
-1. で、 **[!UICONTROL Shortcuts]**&#x200B;値を使用してドラッグ&amp;ド **[!UICONTROL Profiles]** ロップ **[!UICONTROL no longer contact by email]** し、選択します **[!UICONTROL no]**。
-1. Click **[!UICONTROL Confirm]**.
+1. /で、 **[!UICONTROL Activities]** クエリ **[!UICONTROL Targeting]**[](../../automating/using/query.md) アクティビティをドラッグ&amp;ドロップします。
+1. アクティビティを重複クリックします。
+1. で、演算子 **[!UICONTROL Shortcuts]**&#x200B;を使用 **[!UICONTROL Profiles]** してドラッグ&amp;ドロップ **[!UICONTROL email]** し、選択し **[!UICONTROL is not empty]**&#x200B;ます。
+1. で、値 **[!UICONTROL Shortcuts]**&#x200B;をドラッグ&amp;ドロップ **[!UICONTROL Profiles]** し、値 **[!UICONTROL no longer contact by email]** で選択し **[!UICONTROL no]**&#x200B;ます。
+1. クリック **[!UICONTROL Confirm]** .
 
 ![](assets/wf-complement-query.png)
 
-## セグメント化アクティビティの作成 {#create-a-segmentation-activity}
+## セグメントアクティビティの作成 {#create-a-segmentation-activity}
 
-1. &gt;で、ア **[!UICONTROL Activities]** クティビティ **[!UICONTROL Targeting]**&#x200B;をドラッグ&amp;ドロ **[!UICONTROL Segmentation]** ップし、ダブルクリックします。
-1. セグメントの上にマウスポインターを置き、をクリ ![](assets/edit_darkgrey-24px.png) ックして、データベースに今年追加された顧客をターゲットにします。
-1. ドラッグ&amp;ドロッ **[!UICONTROL Profiles]** プし、フィ **[!UICONTROL Created]** ルタータイプで選択しま **[!UICONTROL Relative]**&#x200B;す。
-1. をに変更し **[!UICONTROL Level of precision]** 、を **[!UICONTROL Year]** 選択しま **[!UICONTROL This year]**&#x200B;す。
-1. を2回クリ **[!UICONTROL Confirm]** ックします。
-1. で、残り **[!UICONTROL Advanced Options]**&#x200B;の受信者を **[!UICONTROL Generate complement]** ターゲットにしたセグメントを作成する場合に選択します。
-1. Click **[!UICONTROL Confirm]**.
-1. Click **[!UICONTROL Save]**.
+1. >で、 **[!UICONTROL Activities]** セグメント **[!UICONTROL Targeting]**[](../../automating/using/segmentation.md) アクティビティをドラッグ&amp;ドロップし、重複クリックします。
+1. セグメントの上にマウスポインターを置き、「To Database」をクリックして、ターゲットに年内に追加した顧客 ![](assets/edit_darkgrey-24px.png) を選択します。
+1. フィルタータイプ **[!UICONTROL Profiles]** でドラッグ&amp;ドロップ **[!UICONTROL Created]** して選択 **[!UICONTROL Relative]**&#x200B;します。
+1. をに変更 **[!UICONTROL Level of precision]** し、を選択 **[!UICONTROL Year]** し **[!UICONTROL This year]**&#x200B;ます。
+1. 2回クリック **[!UICONTROL Confirm]** します。
+1. で、残り **[!UICONTROL Advanced Options]**&#x200B;の受信者 **[!UICONTROL Generate complement]** をターゲットにしたセグメントを作成する場合にオンにします。
+1. クリック **[!UICONTROL Confirm]** .
+1. クリック **[!UICONTROL Save]** .
 
 ![](assets/wf-complement-segmentation.png)
 
 >[!NOTE]
 >
->ルールの構造を確認するには、をクリックしま **[!UICONTROL Advanced Mode]**&#x200B;す。
+>ルールの構造を確認するには、をクリックし **[!UICONTROL Advanced Mode]**&#x200B;ます。
 
 ## Creating an Email delivery {#create-an-email-delivery}
 
-1. &gt;で、各 **[!UICONTROL Activities]** セグメ **[!UICONTROL Channels]**&#x200B;ントの後に電子メール配信をドラッグ&amp;ドロップします。
-1. アクティビティをクリックし、編集する ![](assets/edit_darkgrey-24px.png) 対象を選択します。
-1. を選択し、 **[!UICONTROL Single send email]** をクリックしま **[!UICONTROL Next]**&#x200B;す。
-1. 電子メールテンプレートを選択し、をクリックしま **[!UICONTROL Next]**&#x200B;す。
-1. 電子メールのプロパティを入力し、をクリックしま **[!UICONTROL Next]**&#x200B;す。
-1. 電子メールのレイアウトを作成するには、[オン]をクリックしま **[!UICONTROL Email Designer]**&#x200B;す。
+1. / **[!UICONTROL Activities]** で、 **[!UICONTROL Channels]**&#x200B;各セグメントの後に [電子メール配信](../../automating/using/email-delivery.md) アクティビティをドラッグ&amp;ドロップします。
+1. アクティビティをクリックし、「編集」 ![](assets/edit_darkgrey-24px.png) を選択します。
+1. を選択 **[!UICONTROL Single send email]** し、をクリックし **[!UICONTROL Next]**&#x200B;ます。
+1. 電子メールテンプレートを選択し、をクリックし **[!UICONTROL Next]**&#x200B;ます。
+1. 電子メールのプロパティを入力し、をクリックし **[!UICONTROL Next]**&#x200B;ます。
+1. 電子メールのレイアウトを作成するには、[オン]をクリックし **[!UICONTROL Email Designer]**&#x200B;ます。
 1. 要素を挿入するか、既存のテンプレートを選択します。
 1. 各配信に固有のオファーを使用して、電子メールをパーソナライズします。
 1. をクリック **[!UICONTROL Preview]** して、レイアウトを確認します。
-1. Click **[!UICONTROL Save]**.
+1. クリック **[!UICONTROL Save]** .
 
-詳しくは、「電子メールのデザ [イン」を参照してください](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)。
+詳しくは、「電子メールの [設計](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)」を参照してください。
 
 ![](assets/wf-deliveries-with-a-complement.png)
-
-**関連トピック：**
-
-* [クエリ](../../automating/using/query.md)
-* [分類アクティビティ](../../automating/using/segmentation.md)
-* [E メール配信](../../automating/using/email-delivery.md)
