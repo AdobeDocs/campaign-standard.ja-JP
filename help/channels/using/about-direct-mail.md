@@ -13,7 +13,10 @@ context-tags: delivery,directMailContent,back;deliveryCreation,wizard
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
+source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
+workflow-type: tm+mt
+source-wordcount: '455'
+ht-degree: 32%
 
 ---
 
@@ -38,13 +41,17 @@ Adobe Campaignのユーザープロセスは次のとおりです。
 1. 連絡日の設定
 1. ファイルの生成
 
+**関連トピック：**
+
+* [使用例： 電子メールとダイレクトメールの配信の結合](../../automating/using/coupling-email-direct-mail.md)
+
 ## 推奨事項 {#recommendations}
 
 ### ダイレクトメールプロバイダ {#direct-mail-providers}
 
 まず、ダイレクトメールプロバイダーに連絡して、推奨事項を収集する必要があります。 抽出ファイルに含める必要があるプロファイル情報を識別して、コミュニケーションをパーソナライズし、オーディエンスに送信できるようにします。 例えば、姓と名、住所、プロモーションコードなど。 これらのフィールドは、ダイレクトメールのコンテンツの [[抽出](../../channels/using/defining-the-direct-mail-content.md#defining-the-extraction) ]タブで追加するフィールドです。
 
-プロファイルの情報の **[!UICONTROL Address specified]** ボックスがオンになっていることを確認します。 このオプションを有効にすると、プロファイルがターゲットに追加されます。 準備段階では、タイポロジルールによって除外されません(ダイレクトメールの [作成を参照](../../channels/using/creating-the-direct-mail.md))。 プロファイルのインポート中に、このフィールドを更新するのを忘れないでください。
+プロファイルの情報の **[!UICONTROL Address specified]** ボックスがオンになっていることを確認します。 このオプションを有効にすると、プロファイルがターゲットに追加されます。 準備段階では、タイポロジルールによって除外されません(ダイレクトメールの [作成を参照](../../channels/using/creating-the-direct-mail.md))。 プロファイルのインポート中に、このフィールドを更新することを忘れないでください。
 
 ![](assets/direct_mail_22.png)
 
@@ -57,4 +64,3 @@ Adobe Campaignオファーには、最も一般的な住所の標準化に従っ
 An address can contain up to six lines by default: the first calculated field (**[!UICONTROL Line 1]** contains the first name and last name, the next lines contain the postal address (road etc.), and the last line contains the ZIP/Postal code and town or city.
 
 ![](assets/direct_mail_23.png)
-
