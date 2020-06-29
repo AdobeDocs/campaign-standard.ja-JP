@@ -13,10 +13,10 @@ context-tags: dedup,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
 workflow-type: tm+mt
-source-wordcount: '1103'
-ht-degree: 2%
+source-wordcount: '567'
+ht-degree: 4%
 
 ---
 
@@ -38,6 +38,11 @@ ht-degree: 2%
 したがって、重複排除 - 重複が受信トランジションを1つだけ持つようにお勧めします。 これを行うには、和集合アクティビティ、交差点アクティビティなど、ターゲット設定のニーズに対応したアクティビティを使用して、様々なクエリを組み合わせます。 次に例を示します。
 
 ![](assets/dedup_bonnepratique.png)
+
+**関連トピック**
+
+* [使用例： 配信前の重複の識別](../../automating/using/identifying-duplicated-before-delivery.md)
+* [使用例： 読み込んだファイルからのデータの重複を除外する](../../automating/using/deduplicating-data-imported-file.md)
 
 ## 設定 {#configuration}
 
@@ -79,72 +84,3 @@ ht-degree: 2%
 
 1. 必要に応じて、アクティビティの [トランジションを管理し](../../automating/using/activity-properties.md) 、アウトバウンド母集団のアドバンスオプションにアクセスします。
 1. アクティビティの設定を確認し、ワークフローを保存します。
-
-## 例1: 配信前の重複の識別 {#example-1--identifying-duplicates-before-a-delivery}
-
-次の例は、電子メールを送信する前にターゲットの重複を除外する重複排除 - 重複を示しています。 つまり、同じプロファイルに対して複数回通信を送信するのを避けることができます。
-
-ワークフローは次の要素で構成されます。
-
-![](assets/deduplication_example_workflow.png)
-
-* 電子メ **[!UICONTROL Query]** ールのターゲットを定義できる。 このワークフローでは、18歳から25歳のプロファイルのうち、1年以上クライアントデータベースに属しているすべてのターゲットがされます。
-
-   ![](assets/deduplication_example_query.png)
-
-* 前の **[!UICONTROL Deduplication]** アクティビティから来た重複を識別できるクエリ。 この例では、各重複に保存されるレコードは1つだけです。 重複は電子メールアドレスを使用して識別されます。 つまり、ターゲティングに存在する電子メールアドレスごとに1回だけ電子メール配信を送信できます。
-
-   選択した重複排除 - 重複方法はで **[!UICONTROL Non-empty value]**&#x200B;す。 これにより、重複の場合に記録されるレコードの中で、 **名が指定されているレコードを優先します** 。 これにより、電子メールコンテンツのパーソナライゼーションフィールドで名が使用される場合に、一貫性が向上します。
-
-   また、重複を保持し、リストを行うためのトランジションも追加されます。
-
-   ![](assets/deduplication_example_dedup.png)
-
-* 重複排除 - 重複のメインの送信トランジションの後に **[!UICONTROL Email delivery]** 配置される。 電子メール配信の設定について詳しくは、「 [電子メール配信](../../automating/using/email-delivery.md) 」の節を参照してください。
-* 重複を **[!UICONTROL Save audience]** 重複 **** オーディエンスに保存するために、重複排除 - 重複の追加トランジションの後に配置されるアクティビティ。 このオーディエンスは、各電子メール配信からそのメンバーを直接除外するために再利用できます。
-
-## 例2: 読み込んだファイルからのデータの重複を除外する {#example-2--deduplicating-the-data-from-an-imported-file}
-
-この例では、データをデータベースにロードする前にインポートしたファイルからデータの重複除外を行う方法を示します。 この手順により、データベースに読み込まれるデータの品質が向上します。
-
-ワークフローは次の要素で構成されます。
-
-![](assets/deduplication_example2_workflow.png)
-
-* プロファイルのリストを含むファイルは、 **[!UICONTROL Load file]** アクティビティを使用して読み込まれます。 この例では、インポートされるファイルは.csv形式で、10プロファイルが含まれています。
-
-   ```
-   lastname;firstname;dateofbirth;email
-   Smith;Hayden;23/05/1989;hayden.smith@example.com
-   Mars;Daniel;17/11/1987;dannymars@example.com
-   Smith;Clara;08/02/1989;hayden.smith@example.com
-   Durance;Allison;15/12/1978;allison.durance@example.com
-   Lucassen;Jody;28/03/1988;jody.lucassen@example.com
-   Binder;Tom;19/01/1982;tombinder@example.com
-   Binder;Tommy;19/01/1915;tombinder@example.com
-   Connor;Jade;10/10/1979;connor.jade@example.com
-   Mack;Clarke;02/03/1985;clarke.mack@example.com
-   Ross;Timothy;04/07/1986;timross@example.com
-   ```
-
-   このファイルは、列の形式を検出および定義するためのサンプルファイルとしても使用できます。 タブから、読み込んだファイルの各列が正しく設定されていることを確認し **[!UICONTROL Column definition]** ます。
-
-   ![](assets/deduplication_example2_fileloading.png)
-
-* アクティビティ **[!UICONTROL Deduplication]** 。 重複排除 - 重複は、ファイルのインポート後、およびデータベースにデータを挿入する前に、直接実行されます。 したがって、この値は **[!UICONTROL Temporary resource]****[!UICONTROL Load file]** アクティビティの値に基づく必要があります。
-
-   この例では、ファイルに含まれる一意の電子メールアドレスごとに1つのエントリを保持します。 したがって、重複識別は、一時リソースの **email** 列で行われます。 ただし、2つの電子メールアドレスがファイル内に2回出現します。 したがって、2行が重複と見なされます。
-
-   ![](assets/deduplication_example2_dedup.png)
-
-* アクティビティを使用すると、重複排除 - 重複プロセスから保持されたデータをに挿入できます。 **[!UICONTROL Update data]** インポートされたデータがプロファイルディメンションに属していると識別されるのは、データが更新された場合のみです。
-
-   ここでは、データベースにまだ存在し **[!UICONTROL Insert only]** ないプロファイルを使用します。 これを行うには、ファイルの電子メール列と **プロファイル** ディメンションの電子メールフィールドを紐付けキーとして使用します。
-
-   ![](assets/deduplication_example2_writer1.png)
-
-   データの挿入元となるファイルの列と、 **[!UICONTROL Fields to update]** タブのデータベースフィールドとの間のマッピングを指定します。
-
-   ![](assets/deduplication_example2_writer2.png)
-
-次に、ワークフローを開始します。 次に、重複排除 - 重複プロセスから保存されたレコードがデータベース内のプロファイルに追加されます。
