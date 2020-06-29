@@ -12,7 +12,10 @@ discoiquuid: 5214becf-005b-42ac-97d2-2bce5ba2ecb5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c1b7d2210647a87693d93e325a4c888cb23e5f3a
+source-git-commit: 2d994d85f126951215f1227301599c554c1f12c8
+workflow-type: tm+mt
+source-wordcount: '521'
+ht-degree: 14%
 
 ---
 
@@ -103,3 +106,4 @@ Adobe Campaignを使用すると、あらゆるチャネルでキャンペーン
 * [AEMコンテンツの読み込み](../../integrating/using/creating-email-experience-manager.md)
 * [ワークフローを含むメッセージの送信](../../automating/using/about-channel-activities.md)
 * [コミュニケーションチャネルのチュートリアルビデオ](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/create-email-from-homepage.html)
+* [使用例： チャネル間の配信の作成](../../automating/using/workflow-cross-channel-delivery.md)
