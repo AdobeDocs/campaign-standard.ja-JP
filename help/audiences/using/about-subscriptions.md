@@ -12,21 +12,30 @@ discoiquuid: 27de5a13-7b7c-4c91-bf26-3dfd324beb8f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
+workflow-type: tm+mt
+source-wordcount: '146'
+ht-degree: 4%
 
 ---
 
 
 # サブスクリプションについて{#about-subscriptions}
 
-Adobe Campaignでは、一連のサービスを使用して、ニュースレターやチャネル間の通信を作成および管理で **きます**。メッセージは、サービスを購読しているプロファイル（オプトイン）にのみ送信できます。 これらのプロファイルは、メッセージを作成する際に専用のフィルターを使用して識別されます。
+Adobe Campaignでは、一連のサー **ビスを通じて、ニュースレターやチャネル間の通信を作成および管理できます**。 メッセージは、サービスを購読しているプロファイル（オプトイン）にのみ送信できます。 これらのプロファイルは、メッセージを作成する際に、専用のフィルターを使用して識別されます。
 
-購読メカニズムを設定して、顧客が電子メールやランディングページを含め、これらのサービスを購読する機会を提 **供で** きる **ようにします**。
+購読メカニズムは、特に **電子メールや** ランディングページを含め、顧客がこれらのサービスを購読する機会をオファーするように設定できます ****。
 
 各サービスには次の機能が付属しています。
 
-* **購読** （オプトイン）と **[!UICONTROL Unsubscription]** （オプトアウト）のメカニズム
-* 購読/非購読の確認 **メカニズム**。
-* 購読履 **歴**。
+* **購読** （オプトイン）および **[!UICONTROL Unsubscription]** （オプトアウト）メカニズム
+* 購読および/または購読解除 **確認メカニズム**。
+* 購読 **履歴**。
 
-購読は、Adobe Campaign Standard APIを使用して管理することもできます。 For more on this, refer to the [dedicated documentation](../../api/using/creating-a-service.md) .
+購読は、Adobe Campaign StandardAPIを使用して管理することもできます。 For more on this, refer to the [dedicated documentation](../../api/using/creating-a-service.md) .
+
+**関連トピック**
+
+* [使用例： サービスの購読者の増分処理クエリ](../../automating/using/incremental-query-on-subscribers.md)
+* [使用例： ファイルからの複数の購読ステータスの更新](../../automating/using/updating-subscriptions-from-file.md)
+* [ファイルの読み込み後に特定のサービスにプロファイルを登録する](../../automating/using/subscribing-profiles-from-file.md)
