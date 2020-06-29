@@ -13,9 +13,9 @@ context-tags: segmentation,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 740de9fe4666bf12fc97cfa434414668d9394504
+source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
 workflow-type: tm+mt
-source-wordcount: '993'
+source-wordcount: '860'
 ht-degree: 0%
 
 ---
@@ -33,9 +33,18 @@ ht-degree: 0%
 >
 >デフォルトでは、インバウンド母集団のメンバーは1つのセグメントにのみ属することができます。 フィルターは、アクティビティ内のセグメントの順序に従って適用されます。
 
+**関連トピック：**
+* [使用例： 場所のセグメント化](../../automating/using/workflow-segmentation-location.md)
+* [使用例： コントロール母集団の作成](../../automating/using/workflow-control-group.md)
+* [使用例： 年齢層別の分類](../../automating/using/segmentation-age-groups.md)
+
 ## 使用状況 {#context-of-use}
 
 通常、 **[!UICONTROL Segmentation]** アクティビティは、アクティビティ(クエリ、交差点、和集合、除外など)をターゲット化した後に配置されます。 を使用して、セグメントの形成基準となる標準母集団を定義する必要があります。
+
+**関連トピック**
+
+* [使用例： プロファイルを年齢層に応じてセグメント化する](../../automating/using/segmentation-age-groups.md)。
 
 ## 設定 {#configuration}
 
@@ -91,31 +100,6 @@ ht-degree: 0%
 
    * 受信訪問者のメンバーを同時に複数のセグメントに属させる場合は、この **[!UICONTROL Enable overlapping of outbound populations]** オプションを選択します。 アクティビティのアウトバウンド母集団がインバウンド母集団を超える可能性があります。
    * 受信母集団に保持するセグメントコードが既に割り当てられている場合は、この **[!UICONTROL Concatenate the code of each segment]** オプションを選択します。 アクティビティで指定されたセグメントコードが、最初のセグメントコードに追加されます。
-   * 残りの訪問者を活用する場合は、この **[!UICONTROL Generate complement]** オプションを選択します。
+   * 残りの訪問者を活用する場合は、この **[!UICONTROL Generate complement]** オプションを選択します。 詳しくは、 [使用事例を参照してください。 補数を使用した配信の作成](../../automating/using/workflow-created-query-with-complement.md)。
 
 1. アクティビティの設定を確認し、ワークフローを保存します。
-
-## 例 ：{#example}
-
-次の例は、データベースプロファイルを年齢グループに従って分類する例です。 このワークフローの目的は、各年齢層に対して特定の電子メールを送信することです。 このワークフローがテストキャンペーンの一部であることを考慮すると、制限があり、同時に表示するオーディエンスを使用するために、各セグメントには最大100個のプロファイルしか含めることができません。
-
-![](assets/wkf_segment_example_4.png)
-
-ワークフローは、次の要素で構成されています。
-
-* ワークフローの実行日を指定する **[!UICONTROL Scheduler]** アクティビティです。 Refer to the [Scheduler](../../automating/using/scheduler.md) section.
-* 誕生日と電子メールアドレスが入力された人のターゲットプロファイルへの **[!UICONTROL Query]** アクティビティです。 Refer to the [Query](../../automating/using/query.md) section.
-* 異なるアウトバウンドトランジションに分割された3つのセグメントを作成する **[!UICONTROL Segmentation]** アクティビティ: 18-25歳、26-32歳、32歳以上のプロファイル。 セグメントは、次のパラメーターに従って定義します。
-
-   ![](assets/wkf_segment_example_3.png)
-
-   * セグメントの年齢グループを定義する年齢に関するフィルター
-
-      ![](assets/wkf_segment_new_segment.png)
-
-   * 制限値100にリンクされた **[!UICONTROL Random sampling]** 種類 **[!UICONTROL Maximum size]** 制限
-
-      ![](assets/wkf_segment_example_1.png)
-
-* セグメントごとの **[!UICONTROL Email delivery]** アクティビティ。 Refer to the [Email delivery](../../automating/using/email-delivery.md) section.
-
