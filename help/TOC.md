@@ -4,10 +4,10 @@ sub-product: Adobe Campaign Standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard ヘルプ
 translation-type: tm+mt
-source-git-commit: d487600fc4f3004804e93347b83edfe4e01cceeb
+source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
 workflow-type: tm+mt
-source-wordcount: '1402'
-ht-degree: 92%
+source-wordcount: '1524'
+ht-degree: 84%
 
 ---
 
@@ -105,7 +105,6 @@ ht-degree: 92%
       + [ダイレクトメールの作成](channels/using/creating-the-direct-mail.md)
       + [ダイレクトメールオーディエンスの定義](channels/using/defining-the-direct-mail-audience.md)
       + [ダイレクトメールコンテンツの定義](channels/using/defining-the-direct-mail-content.md)
-      + [ワークフロー内のダイレクトメールの例](channels/using/example-of-direct-mail-in-a-workflow.md)
    + トランザクションメッセージング{#transactional-messaging}
       + [トランザクションメッセージについて](channels/using/about-transactional-messaging.md)
       + [イベントトランザクションメッセージ](channels/using/event-transactional-messages.md)
@@ -305,14 +304,38 @@ ht-degree: 92%
       + [パッケージの管理](automating/using/managing-packages.md)
       + [リストの書き出し](automating/using/exporting-lists.md)
       + [使用例：カスタムリソースのエクスポート／インポート](automating/using/exporting-importing-custom-resources.md)
-   + 使用例：ワークフロー{#workflow-use-case}
-      + [補完を含む配信の作成](automating/using/workflow-created-query-with-complement.md)
-      + [作成日に配信を作成する](automating/using/workflow-creation-date-query.md)
-      + [週次配信の作成](automating/using/workflow-weekly-offer.md)
-      + [場所でのセグメントの作成](automating/using/workflow-segmentation-location.md)
-      + [メールを開封していないユーザーの再ターゲティング](automating/using/workflow-cross-channel-retargeting.md)
-      + [コントロール母集団の作成](automating/using/workflow-control-group.md)
-      + [チャネル間配信の作成](automating/using/workflow-cross-channel-delivery.md)
+   + 使用例 {#workflow-use-case}
+      + 配信 {#deliveries}
+         + [補完を含む配信の作成](automating/using/workflow-created-query-with-complement.md)
+         + [プロファイルの作成日に対する配信の作成](automating/using/workflow-creation-date-query.md)
+         + [週次配信の作成](automating/using/workflow-weekly-offer.md)
+         + [チャネル間配信の作成](automating/using/workflow-cross-channel-delivery.md)
+         + [配信前の重複の識別](automating/using/identifying-duplicated-before-delivery.md)
+         + [誕生日配信](automating/using/birthday-delivery.md)
+         + [電子メールとダイレクトメールの配信の結合](automating/using/coupling-email-direct-mail.md)
+         + [強化されたフィールドを含む電子メールの送信](automating/using/sending-email-enriched-fields.md)
+         + [電子メールと追加データのパーソナライズ](automating/using/personalizing-email-with-additional-data.md)
+      + セグメント化とターゲティング {#segmentation-targeting}
+         + [クエリのサンプル](automating/using/query-samples.md)
+         + [2つの洗練されたオーディエンスの和集合](automating/using/union-on-two-refined-audiences.md)
+         + [場所でのセグメントの作成](automating/using/workflow-segmentation-location.md)
+         + [メールを開封していないユーザーの再ターゲティング](automating/using/workflow-cross-channel-retargeting.md)
+         + [サービスの購読者の増分処理クエリ](automating/using/incremental-query-on-subscribers.md)
+         + [年齢層別の分類](automating/using/segmentation-age-groups.md)
+         + [ターゲティングディメンションとは異なるリソースの使用](automating/using/using-resources-different-from-targeting-dimensions.md)
+         + [コントロール母集団の作成](automating/using/workflow-control-group.md)
+      + データ管理 {#data-management}
+         + [ファイルオーディエンスとデータベースとの調整](automating/using/reconcile-file-audience-with-database.md)
+         + [読み込んだファイルからのデータの重複を除外する](automating/using/deduplicating-data-imported-file.md)
+         + [ファイルに含まれるデータをプロファイルデータに含める](automating/using/enriching-profile-data-file.md)
+         + [外部信号のアクティビティとデータのインポート](automating/using/external-signal-data-import.md)
+         + [外部データを使用したデータベースの更新](automating/using/update-database-file.md)
+         + [ファイルの自動ダウンロードに基づくデータの更新](automating/using/update-data-automatic-download.md)
+         + [関係を使用したデータ調整](automating/using/reconciliation-using-relations.md)
+         + [調整を使用したデータ更新](automating/using/data-update-reconciliation.md)
+         + [外部ファイル内のプロファイルの書き出し](automating/using/exporting-profiles-in-file.md)
+         + [ファイルからの複数の購読ステータスの更新](automating/using/updating-subscriptions-from-file.md)
+         + [ファイルから特定のサービスへのプロファイルのサブスクライブ](automating/using/subscribing-profiles-from-file.md)
    + Adobe Experience Platform オーディエンスの使用 {#working-with-aep-audiences}
       + [Adobe Experience Platform オーディエンスのターゲティング](automating/using/aep-targeting-audiences.md)
       + [Adobe Experience Platform 属性を使用したキャンペーンのパーソナライズ](automating/using/aep-personalizing-campaigns.md)
