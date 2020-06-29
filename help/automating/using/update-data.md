@@ -13,9 +13,9 @@ context-tags: writer,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '472'
 ht-degree: 1%
 
 ---
@@ -32,6 +32,11 @@ ht-degree: 1%
 ## 使用状況 {#context-of-use}
 
 「 **Update data** 」アクティビティは、ファイルのインポート後に使用して、リカバリされたデータをAdobe Campaign・データベースに挿入できます。 いくつかのオプションを使用して、データの更新をパーソナライズできます。
+
+**関連トピック：**
+
+* [使用例： ファイルに基づくデータの更新](../../automating/using/update-database-file.md)
+* [ファイルの自動ダウンロードに基づくデータの更新](../../automating/using/update-data-automatic-download.md)
 
 ## 設定 {#configuration}
 
@@ -71,29 +76,3 @@ ht-degree: 1%
    を選択した場合、インポートするデータ **[!UICONTROL Insert only]** に既にデータベースに存在するレコードが含まれている可能性がある場合は、このチェックボックスをオンにしてエラーを回避し **[!UICONTROL Generate an outbound transition for the rejects]** ます。
 
 1. アクティビティの設定を確認し、ワークフローを保存します。
-
-## 例 ：{#example}
-
-次のアクティビティは、 **[!UICONTROL Update data]** アクティビティ後の **[!UICONTROL Load file]** アクティビティの設定を示しています。 このワークフローの目的は、ファイルから回復したデータを使用して、Adobe Campaignデータベースにプロファイルを追加または更新することです。 使用する紐付けキーは、電子メールアドレスです。
-
-読み込まれるファイルは、 **.txt** 形式のファイルで、次のデータ例が含まれています。
-
-```
-lastname;firstname;email;birthdate
-jackman;megan;megan.jackman@testmail.com;07/08/1975
-phillips;edward;phillips@testmail.com;09/03/1986
-weaver;justin;justin_w@testmail.com;11/15/1990
-martin;babeth;babeth_martin@testmail.net;11/25/1964
-reese;richard;rreese@testmail.com;02/08/1987
-cage;nathalie;cage.nathalie227@testmail.com;07/03/1989
-xiuxiu;andrea;andrea.xiuxiu@testmail.com;09/12/1992
-grimes;daryl;daryl_890@testmail.com;12/06/1979
-tycoon;tyreese;tyreese_t@testmail.net;10/08/1971
-```
-
-この **[!UICONTROL Update data]** アクティビティは次のように設定します。
-
-![](assets/deduplication_example2_writer1.png)
-
-![](assets/deduplication_example2_writer2.png)
-
