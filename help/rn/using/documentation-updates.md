@@ -12,10 +12,10 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 58c69b6f6efdac8be5d05fe723bbf9ff54d186ee
+source-git-commit: 446bacfa42fcbc70c7a7c006fa185cdec004c264
 workflow-type: tm+mt
-source-wordcount: '5941'
-ht-degree: 18%
+source-wordcount: '5954'
+ht-degree: 19%
 
 ---
 
@@ -26,9 +26,11 @@ ht-degree: 18%
 
 ## ドキュメントの更新 — 2020年6月 {#doc-updates-june-2020}
 
+ワークフローの使用例が更新され、主題の節に再構成されました。[詳細を表示](../../automating/using/about-workflow-use-cases.md)
+
 コントロールパネルとキャンペーンワークフローを使用した [データの暗号化](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt) / [](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt) 復号化の方法に関する使用例が追加されました。
 
-「ホワイトリスト」と「ブラックリスト」の両方の用語がAdobe Campaignドキュメントから削除されました。 これらの用語の一部は、製品UI、オプション名、内部コードにまだ存在する場合がありますが、今後のキャンペーンリリースでは「ブロックリスト」と「許可リスト」に置き換えられます。
+「ホワイトリスト」と「ブラックリスト」の両方の用語が Adobe Campaign ドキュメントから削除されました。これらの用語は、製品 UI、オプション名、内部コードにまだ存在する場合がありますが、今後の Campaign リリースでは「ブロックリスト」と「許可リスト」に置き換えられます。
 
 従来のサポートWebサイトへの参照は、新しいURLに置き換えられました。 [詳細情報](https://helpx.adobe.com/campaign/kb/ac-support.html#acs-support-req)。
 
