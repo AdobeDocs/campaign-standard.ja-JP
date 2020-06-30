@@ -4,9 +4,9 @@ sub-product: Adobe Campaign Standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard ヘルプ
 translation-type: tm+mt
-source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
+source-git-commit: 49fdf317bdb73c83c9ddc9e0948ab91e1f60bd18
 workflow-type: tm+mt
-source-wordcount: '1524'
+source-wordcount: '1528'
 ht-degree: 84%
 
 ---
@@ -305,6 +305,7 @@ ht-degree: 84%
       + [リストの書き出し](automating/using/exporting-lists.md)
       + [使用例：カスタムリソースのエクスポート／インポート](automating/using/exporting-importing-custom-resources.md)
    + 使用例 {#workflow-use-case}
+      + [ワークフローの使用例について](automating/using/about-workflow-use-cases.md)
       + 配信 {#deliveries}
          + [補完を含む配信の作成](automating/using/workflow-created-query-with-complement.md)
          + [プロファイルの作成日に対する配信の作成](automating/using/workflow-creation-date-query.md)
