@@ -12,9 +12,9 @@ discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+source-git-commit: a9fbf0479019dfbe2964c517a0370f015d0f380a
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '522'
 ht-degree: 8%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 8%
 <td><img src="assets/do-not-localize/icon_manage.svg" width="60px"><p><a href="#import-export-data">データの読み込み/書き出し</a></p></td></tr>
 </table>
 
-Adobe Campaignオファーは、セグメント化、キャンペーン実行、ファイル処理、承認などの複雑なプロセスを設計できる包括的なグラフィカル環境です。 例えば、ワークフローを使用して、サーバーからファイルをダウンロードし、圧縮を解除してから、そのレコードをAdobe Campaignデータベースにインポートできます。
+Adobe Campaignオファーは、セグメント化、キャンペーン実行、ファイル処理などの複雑なプロセスを設計できる包括的なグラフィカル環境です。 例えば、ワークフローを使用して、サーバーからファイルをダウンロードし、圧縮を解除してから、そのレコードをAdobe Campaignデータベースにインポートできます。
 
 ワークフローには、ユーザーを割り当てたり、実行されたタスクをタスクに承認させたりすることで、ユーザーを関与させることもできます。 つまり、1人または複数のタスクに対して、コンテンツの操作やターゲットの指定を行ったり、配達確認を承認した後でメッセージを送信したりできます。
 
