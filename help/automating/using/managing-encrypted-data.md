@@ -12,10 +12,10 @@ discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 26f8f7855a30fe90dbfee4bb2b5ee55c7bf4e02b
+source-git-commit: e58ac301d82a360d7065be7c1e3490a2a1821344
 workflow-type: tm+mt
-source-wordcount: '878'
-ht-degree: 7%
+source-wordcount: '938'
+ht-degree: 9%
 
 ---
 
@@ -46,9 +46,11 @@ ht-degree: 7%
 * [ファイル読み込み](../../automating/using/load-file.md)
 * [ファイル抽出](../../automating/using/extract-file.md)
 
-## 使用例： コントロールパネルで生成されたキーを使用して暗号化されたデータの読み込み {#use-case-gpg-decrypt}
+## 使用例：コントロールパネルで生成されたキーを使用して暗号化されたデータの読み込み {#use-case-gpg-decrypt}
 
 この使用例では、外部システムで暗号化されたデータを読み込むために、コントロールパネルで生成されたキーを使用してワークフローを構築します。
+
+GPGキーを使用してデータを復号化する方法を示すチュートリアルビデオも [この節で説明します](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/decrypting-data.html)。
 
 この使用例を実行する手順は次のとおりです。
 
@@ -56,6 +58,7 @@ ht-degree: 7%
 
    * 公開鍵は外部システムと共有され、外部システムはこのキーを使用して Campaign に送信するデータを暗号化します。
    * 秘密鍵は、受信する暗号化されたデータを復号化するために Campaign で使用されます。
+
    ![](assets/gpg_generate.png)
 
 1. 外部システムでは、コントロールパネルからダウンロードした公開鍵を使用して、Campaign Standardにインポートするデータを暗号化します。
@@ -89,9 +92,11 @@ ht-degree: 7%
 
 1. これで、ワークフローを実行できます。
 
-## 使用例： コントロールパネルにインストールされたキーを使用して、データを暗号化およびエクスポートする {#use-case-gpg-encrypt}
+## 使用例：コントロールパネルにインストールされたキーを使用したデータの暗号化および書き出し {#use-case-gpg-encrypt}
 
 この場合、コントロールパネルにインストールされたキーを使用してデータを暗号化およびエクスポートするためのワークフローを構築します。
+
+GPGキーを使用してデータを暗号化する方法を示すチュートリアルビデオも [この節で説明します](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/using-a-gpg-key-to-encrypt-data.html)。
 
 この使用例を実行する手順は次のとおりです。
 
