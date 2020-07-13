@@ -4,9 +4,9 @@ sub-product: Adobe Campaign Standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard ヘルプ
 translation-type: tm+mt
-source-git-commit: 49fdf317bdb73c83c9ddc9e0948ab91e1f60bd18
+source-git-commit: 4bf004b035c10ccbdb1ff9dc3fb51ddfdef54777
 workflow-type: tm+mt
-source-wordcount: '1528'
+source-wordcount: '1530'
 ht-degree: 84%
 
 ---
@@ -143,6 +143,7 @@ ht-degree: 84%
       + [配達確認の送信](sending/using/sending-proofs.md)
       + [ターゲットプロファイルを使用した電子メールメッセージのテスト](sending/using/testing-messages-using-target.md)
       + [電子メールの件名行のテスト](sending/using/testing-subject-line-email.md)
+      + [AIを利用した電子メール](sending/using/predictive.md)
       + [電子メールのレンダリング](sending/using/email-rendering.md)
       + [トラップの使用](sending/using/using-traps.md)
    + メッセージのスケジュール{#scheduling-messages}
