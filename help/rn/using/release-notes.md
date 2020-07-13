@@ -12,10 +12,10 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 04bc32a9abb2939823f18165e1fe46d9f2315cce
+source-git-commit: f45985c030c3d5059bfef444287c10b842298f49
 workflow-type: tm+mt
-source-wordcount: '1054'
-ht-degree: 6%
+source-wordcount: '1160'
+ht-degree: 9%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 6%
 
 [リリースの計画](../../rn/using/release-planning.md) | [コントロールパネルのリリース](https://docs.adobe.com/content/help/ja-JP/control-panel/using/release-notes.html) | [ドキュメントの更新](../../rn/using/documentation-updates.md) | [以前のリリースノート](../../rn/using/release-notes-2020.md) | [非推奨の機能](../../rn/using/deprecated-features.md)
 
-![](assets/do-not-localize/cp-icon.png) **新しいコントロールパネル6月のリリース** 。アクティブなプロファイルの監視、サブドメイン配信品質の監査、GPGキー管理が含まれます。 [詳細情報](https://docs.adobe.com/content/help/ja-JP/control-panel/using/release-notes.html)。
+![](assets/do-not-localize/cp-icon.png) **新しいコントロールパネル 6 月のリリース** - アクティブなプロファイルの監視、サブドメイン配信品質の監査、GPG キー管理。[詳細情報](https://docs.adobe.com/content/help/ja-JP/control-panel/using/release-notes.html)。
 
 ## リリース20.3 - 2020年5月 {#release-20-3---may-2020}
 
@@ -41,7 +41,7 @@ ht-degree: 6%
 <td> <p>タイの個人データ保護法(PDPA)は、タイのデータ保護に関する要件を調和・近代化する新しいプライバシー法です。 本規則は、本国に居住するデータ・サブジェクトのデータを保持するAdobe Campaignのお客様に適用されます。</p>
 <p>Adobe Campaignで既に利用可能なプライバシー機能（同意管理、データ保持設定、ユーザーの役割など）に加え、PDPAの準備を容易にするための追加機能を追加する予定です。</p>
 <ul>
-<li>アクセス権と削除権： GDPRとCCPAに追加された機能を活用しています。 <a href="https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#righttoaccess">詳細情報</a>。 </li>
+<li>アクセス権と削除権：GDPR および CCPA 用に追加された機能を活用します。<a href="https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html#righttoaccess">詳細情報</a>。 </li>
 <li><p>プライバシー要求を作成する際に、PDPA規制タイプがプライバシーコアサービスに追加されました。 このメソッドは、すべてのアクセスおよび削除リクエストに対して使用する必要があるメソッドです。 アクセス要求および削除要求に対するキャンペーンAPIとインターフェイスの使用は廃止されました。  廃止された機能と <a href="../../rn/using/deprecated-features.md">削除された機能の記事を参照してください</a>。</p></li>
 </ul>
 <p>使い方のビデオ <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">を参照してください</a>。</p>
@@ -71,7 +71,10 @@ ht-degree: 6%
 </tbody> 
 </table>
 
-![](assets/do-not-localize/cp-icon.png) **新しいコントロールパネルがリリースされると** 、CNAMEサブドメインの証明書が更新されます。 [詳細情報](https://docs.adobe.com/content/help/ja-JP/control-panel/using/release-notes.html)。
+**その他の機能** （7月13日より開始）
+
+* **AIを利用した送信時間の最適化とプロファイルスコアリング** — お客様のジャーニーの設計と配信を最適化して、個々の関与の優先度を予測できるようになりました。 Adobe Campaignは、遍歴AIを基にして、過去の関与指標に基づいて、オープン率、最適な送信時間および確率変化を分析し、予測できます。 [詳細情報](../../sending/using/predictive.md)。
+* **ブラジルの新しいプライバシー規制** -キャンペーンで既に提供されているプライバシー機能に加え、アドビは、ブラジルのLei Geral de Proteçao de Datos(LGPD)の準備を支援します。 プライバシー要求を作成する際、LGPD規則がアドビのプライバシーコアサービスに追加されました。 [詳細情報](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy-overview.html)。
 
 **強化点**
 
@@ -123,3 +126,6 @@ ht-degree: 6%
 * トランザクション電子メールでパーソナライゼーションを使用すると、データに食い違いが生じる問題を修正しました。 (CAMP-41842)
 * プッシュ通知配信のカスタムフィールドを削除する際に発生していた問題を修正しました。 (CAMP-37586)
 * ユーザーがレポートを変更できないエラーを修正しました。 (CAMP-42505)
+
+
+![](assets/do-not-localize/cp-icon.png) **新しいコントロールパネルがリリースされると** 、CNAMEサブドメインの証明書が更新されます。 [詳細情報](https://docs.adobe.com/content/help/ja-JP/control-panel/using/release-notes.html)。
