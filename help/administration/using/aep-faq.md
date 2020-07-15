@@ -1,0 +1,99 @@
+---
+title: Adobe Experience PlatformSDKとAdobe Campaign統合FAQ
+description: Adobe Experience PlatformSDKとAdobe Campaign統合FAQ
+page-status-flag: never-activated
+uuid: 867b1c4b-4c79-4c52-9d0a-ef71993e50a2
+contentOwner: sauviat
+products: SG_CAMPAIGN/STANDARD
+audience: administration
+content-type: reference
+topic-tags: configuring-channels
+discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: d0a0c59763af8babc9701206cc39fe41b98e0cd4
+workflow-type: tm+mt
+source-wordcount: '758'
+ht-degree: 0%
+
+---
+
+
+# Adobe Experience PlatformSDKとAdobe Campaign統合FAQ {#aep-faq}
+
+## Adobe Experience PlatformSDKの統合は、Adobe Campaign StandardとAdobe Campaignの両方で利用できますか？ {#aep-validity}
+
+はい、 [!DNL Adobe Experience Platform SDK] Adobe Campaign StandardとAdobe Campaignの両方で統合を利用できます。 統合を有効にするには、対応する **[!UICONTROL Extension]** ををインストール [!DNL Adobe Launch] する必要があります。
+
+詳しくは、この [ページのCampaign Classicを参照し](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaignclassic) 、Campaign Standardに関する [ページを参照してください](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard) 。
+
+## Adobe Experience PlatformSDKを統合すると、どのような機能がAdobe Campaignを容易にしますか。 {#aep-capabilities}
+
+これらの機能の詳細については、次の表を参照してください。
+
+![](assets/faq.png)
+
+>[!N注意]
+>
+>[!DNL Places] 統合には、アプリ内メッセージのトリガーとして配置イベントが含まれます（プッシュ通知の場合は除く）。データとローカル通知のサポートによってプロファイルを強化し [!DNL Places] ます。 Refer to this [page](../../channels/using/preparing-and-sending-an-in-app-message.md) for more information. <br>[!DNL Places] 制限付き統合には、 [!DNL Places] データをプロファイルに富化する機能が含まれます。
+
+## Adobe Experience PlatformSDKの統合によってAdobe Campaign Standardが容易になる使用例を教えてください。 {#aep-use-cases}
+
+次の使用例がサポートされています。
+
+* キャンペーン **[!UICONTROL Mobile Profile]** を取得する(「ECID」(「>>> **[!UICONTROL Administration]** > **[!UICONTROL Channels]** 」 **[!UICONTROL Mobile app (AEP SDK)]****[!UICONTROL Mobile Application subscribers]** タブで識別)
+* Adobe Campaign **[!UICONTROL Mobile Profile]** を拡張する(appSubscriberRcpテーブル **[!UICONTROL Custom resource Extension]** が必要)
+* プッシュメッセージを送信するためのプッシュトークンの取得（プッシュメッセージを受信するには、ユーザーのオプトインが必要）
+* プッシュメッセージとアプリ内メッセージの送信
+* プッシュメッセージおよびアプリ内メッセージに対するユーザーのインタラクションを追跡し、それに関するレポートを提供します
+
+## キャンペーンでモバイルプロファイルを取得するには、何をする必要がありますか？ {#mobile-profile-campaign}
+
+これを行うには、次の手順に従います。
+
+1. でを設定 **[!UICONTROL Mobile property]** し [!DNL Launch]ます。
+1. Adobe Campaign Standard拡張機能をインストールします。 Adobe Campaign Standard拡張機能には、 **[!UICONTROL Mobile Core]**&#x200B;およびの拡張機能も必要です。これらの拡張機能は、デフォルトでにインストールされ **[!UICONTROL Profile]****[!UICONTROL Lifecycle]**[!DNL Launch]&#x200B;ます。
+   * ライフサイクルイベントの頻度に影響を及ぼす **[!UICONTROL Mobile Core]** 拡張機能で、セッションタイムアウトを設定する必要があります。
+   * 拡張機能を設定したら、iOS用のCocopodsとAndroid用のGradleを使用して、モバイルアプリに適切な依存関係を追加する必要があります。 指示に従っ [てください](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard)。
+   * 常に最新バージョンのライブラリを使用してください。
+   * Mobile Appで、登録、登録、 **[!UICONTROL Campaign]****[!UICONTROL UserProfile]**&#x200B;および **[!UICONTROL Identity]**&#x200B;拡張機能を使用し **[!UICONTROL Lifecycle]****[!UICONTROL Signal]** ます。 指示に従っ [てください](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#register-the-campaign-standard-extension-with-mobile-core)。
+   * 拡張機能が登録されると、開始ACPCoreが起動します。 Androidの場合は、setApplication onCreate()を必ず指定します。 「起動」の「モバイルプロパティのモバイルインストール手順」に記載されている手順に従います。
+   * 以下のSDK APIも必要です。 ライフサイクル開始APIと一時停止APIを実装します。詳しくは、 [ここ](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/lifecycle/lifecycle-extension-in-android) （Androidの場合）およびiOSの場合を参照してください。
+1. Adobe Campaign Standard **[!UICONTROL Mobile Property]** 内のを設定します。 手順は [ここで説明し](../../administration/using/configuring-a-mobile-application.md#channel-specific-config)ます。
+
+## モバイルプロファイルをキャンペーンに拡張するには、何をする必要がありますか？ {#enrich-mobile-profile}
+
+CollectPIIポストバックを設定し(この [ページを参照](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#PIIpostback))、SDKからCollectPII APIを実装する必要があります(この [ページを参照](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#collect-pii))。
+
+## CollectPII呼び出しを呼び出す頻度はどのくらいですか。 {#collect-pii}
+
+CollectPII呼び出しの目的は、モバイルプロファイルをキャンペーンに拡張することです。 使用事例やビジネスニーズに応じて、お客様がプロファイルに追加したいと思う新しい意味のある情報がある場合は必ず発行してください。
+
+## 複数のトリガーイベントに応答してCollectPII呼び出しを実行できますか。 {#collect-pii-calls}
+
+はい。 ビジネスのニーズに応じて、アプリ内のユーザーログに応じて、または何か、ライフサイクルイベントを購入したり、ジオフェンスに入るユーザーに応じて、CollectPII呼び出しを実行できます。 要約すると、プロファイルのエンリッチメントに使用したい情報を生成するアプリとのユーザーの対話です。
+
+## すべてのモバイルイベントに対してCollectPII呼び出しを実行できますか。 {#collect-pii-events}
+
+CollectPII呼び出しの頻度と設計は、ビジネスニーズに応じて決定される必要があり、DBに余分な負荷が発生するので、計画的に実行する必要はありません。
+
+### キャンペーンまたは起動でAdobe Experience Platformアプリにアクセスしようとすると、プロパティが利用できないというエラーが表示されることがあります。 {#aep-error}
+
+これは既知の問題で、トークンの有効期限が切れたために発生します。 ログアウトしてから、ログインしてみてください。
+
+## Adobe Experience Platformの起動で設定されたモバイルプロパティについて詳しく学習するために役立つリソースの推奨事項は何ですか？ {#resource-mobile-property}
+
+以下のリソースを確認します。
+
+* 起動/モバイル [の概要ビデオ](https://www.adobe.com/experience-platform/launch.html#acpl-mobile-video)
+* 起動/モバイル [のヒントとテクニックガイド](https://www.adobe.com/content/dam/www/us/en/experience-platform/launch-tag-manager/pdfs/adobe-cloud-platform-launch-tips-and-tricks-sheet.pdf)
+
+## Adobe Experience PlatformSDK（旧称SDK V5）について詳しく学習するために役立つリソースの推奨事項を教えてください。{#resource-aep}
+
+以下のリソースを確認します。
+
+* Experience PlatformSDK [ドキュメント](https://aep-sdks.gitbook.io/docs/)
+* 起動とExperience PlatformSDKに関する [ドキュメントの概要](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property)
+* Experience PlatformSDK [ドキュメントへのアップグレード](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep)
+* GithubExperience PlatformSDK [ドキュメント](https://github.com/Adobe-Marketing-Cloud/acp-sdks/)
