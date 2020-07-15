@@ -10,9 +10,9 @@ context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
+source-git-commit: cad3a63d3e0dd94e4e308110996ed15c75beb904
 workflow-type: tm+mt
-source-wordcount: '1703'
+source-wordcount: '1699'
 ht-degree: 1%
 
 ---
@@ -56,10 +56,10 @@ Campaign Standard20.3リリースでは、外部API機能により、tromベー�
 
 ### 制限とガードレール {#guardrails}
 
-このアクティビティでは、次のガードレールが設置されています。
+このアクティビティには、次のガードレールが適用されます。
 
-* 50MB HTTP応答のデータサイズ制限
-* 要求のタイムアウトは10分です
+* 5MB http応答データサイズ制限
+* 要求のタイムアウトは1分です
 * HTTPリダイレクトは許可されません
 * HTTPS以外のURLは拒否されます
 * 「受け入れ： application/json」リクエストヘッダーと「Content-Type: application/json&quot;の応答ヘッダーを許可
