@@ -12,7 +12,7 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 85dc2b3ba9a781483f88238fbf5a9208a0c18c37
+source-git-commit: b7775e1d95e6a7e08b38fc65b44a061eda7ff079
 workflow-type: tm+mt
 source-wordcount: '7626'
 ht-degree: 5%
@@ -22,7 +22,7 @@ ht-degree: 5%
 
 # リリースノート 2019{#release-notes-2019}
 
-[リリースの計画](https://helpx.adobe.com/jp/campaign/kb/acs-release-planning.html) | [コントロールパネルのリリース](https://docs.adobe.com/content/help/ja-JP/control-panel/using/release-notes.html) | [ドキュメントの更新](../../rn/using/documentation-updates.md) | [最新リリースノート](../../rn/using/release-notes.md) | [非推奨の機能](https://helpx.adobe.com/jp/campaign/kb/acs-deprecated-and-removed-features.html)
+[リリースの計画](https://helpx.adobe.com/jp/campaign/kb/acs-release-planning.html) | [Campaign コントロールパネルリリース](https://docs.adobe.com/content/help/ja-JP/control-panel/using/release-notes.html) | [ドキュメントの更新](../../rn/using/documentation-updates.md) | [最新リリースノート](../../rn/using/release-notes.md) | [非推奨の機能](https://helpx.adobe.com/jp/campaign/kb/acs-deprecated-and-removed-features.html)
 
 ## リリース19.4 - 2019年12月 {#release-19-4---october-2019}
 
@@ -85,7 +85,7 @@ ht-degree: 5%
 
 * 購読解除、購読、ランディングページのリンクを電子メールに挿入した場合に追跡できない問題を修正しました。 (CAMP-37809)
 * 新しい電子メールを作成し、テンプレートを選択する際にエラーが発生する可能性がある問題を修正しました。 (CAMP-38000)
-* 電子メールデザイナーでリンクを編集する場合に、「 **下線** 」リンクオプションを使用できるようになりました。 また、 **Target** ・プロパティが追加され、デフォルト値が「 **なし**」に設定されています。 [詳細を表示](../../designing/using/styles.md#about-styling-links)
+* 電子メールデザイナーを使用してリンクを編集する場合、「 **下線」リンク** オプションを使用できるようになりました。 また、 **Target** ・プロパティが追加され、デフォルト値が「 **なし**」に設定されています。 [詳細を表示](../../designing/using/styles.md#about-styling-links)
 * 電子メールの本文にあるテキストコンポーネント内のリンクの色の問題を修正しました。 (CAMP-37330)
 * 画像を削除すると、関連付けられたリンクが削除されない問題を修正しました。 (CAMP-37234)
 * 条件内の動的コンテンツの **順序** 設定の変更を保存できない問題を修正しました。 (CAMP-36883)
@@ -237,7 +237,7 @@ ht-degree: 5%
 * ハードバウンスの電子メールアドレスが強制隔離にならないエラーを修正しました。 (CAMP-24587)
 * タイポロジを保存する前にタイポロジルールを追加し、削除した場合に発生していた問題を修正しました。 (CAMP-32789)
 * 動的コンテンツを無効にした場合に、ランディングページコンテンツが表示されない可能性がある問題を修正しました。 (CAMP-32924)
-* マスター配信の属性でパーソナライゼーションを使用すると発生していた定期的な配信の問題を修正しました。 (CAMP-32983)
+* プライマリ配信の属性でパーソナライゼーションを使用すると発生していた定期的な配信の問題を修正しました。 (CAMP-32983)
 * ワークフローで、受信したSMSメッセージデータを含むトランジションから結果を読み取れない問題を修正しました。 (CAMP-33134)
 * フォークと除外のアクティビティを組み合わせてオーディエンスを作成すると発生するワークフローの問題を修正しました。 (CAMP-33401)
 * ミラーページのコンテンツが表示されず、配達確認の配信が定期的に送信されない可能性がある問題を修正しました。 (CAMP-33413)
@@ -364,7 +364,7 @@ ht-degree: 5%
 
 **その他の変更**
 
-* SMS外部アカウントに新しいオプションが追加されました。 SMSを送信するMTAプロセスの最大数を制限して、並列接続の数をより適切に制御できるようにします。 詳細については、「 [SMSコネクタのプロトコルと設定](https://helpx.adobe.com/jp/campaign/kb/sms-connector-protocol-and-settings.html) 」を参照してください。
+* SMS外部アカウントに新しいオプションが追加されました。 SMSを送信するMTAプロセスの最大数を制限し、並列接続の数をより適切に制御できるようにします。 詳細については、「 [SMSコネクタのプロトコルと設定](https://helpx.adobe.com/jp/campaign/kb/sms-connector-protocol-and-settings.html) 」を参照してください。
 * API拡張を使用してリソースを公開する場合、APIが既に公開されている場合、再び公開されるたびに自動的に更新されるようになりました。 以前は、この操作は手動で行われ、APIを更新できなかった場合、このAPIのプロファイルまたはサービスリソースが壊れる可能性がありました。 For more on this, refer to the [detailed documentation](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension).
 * 動的レポートから郵便番号のディメンションが削除されました。 代わりに、City、Country、Stateの各ディメンションを使用することをお勧めします。
 * アプリ内メッセージの「初回起動」のライフサイクルイベントトリガーが削除されました。
