@@ -1,6 +1,6 @@
 ---
-title: Adobe Campaign標準のデータモデルのベストプラクティス
-description: Adobe Campaign標準データモデルを設計する際のベストプラクティスについて説明します。
+title: Adobe Campaign Standardのデータモデルのベストプラクティス
+description: Adobe Campaign Standardデータモデルを設計する際のベストプラクティスについて説明します。
 page-status-flag: never-activated
 uuid: cacd563f-6936-4b3e-83e3-5d4ae31d44e8
 contentOwner: sauviat
@@ -13,10 +13,10 @@ context-tags: cusResource,overview;eventCusResource,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: b7775e1d95e6a7e08b38fc65b44a061eda7ff079
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1556'
+ht-degree: 1%
 
 ---
 
@@ -40,7 +40,7 @@ Adobe Campaignシステムは非常に柔軟性が高く、最初の実装以外
 
 ## データモデルのアーキテクチャ {#data-model-architecture}
 
-Adobe Campaign標準は、オンラインとオフラインの戦略を調整して、パーソナライズされたチャネルエクスペリエンスを作り出すのに役立つ強力なクロスキャンペーン管理システムです。
+Adobe Campaign Standardは、オンラインとオフラインの戦略を調整して、パーソナライズされた顧客体験を作り出すのに役立つ、強力なクロスチャネルキャンペーン管理システムです。
 
 ### 顧客中心アプローチ {#customer-centric-approach}
 
@@ -56,11 +56,11 @@ Adobe Campaign標準は、オンラインとオフラインの戦略を調整し
 
 <!--### What is a customer? {#customer-definition}
 
-If you have customer data in more than one system, you need to determine which solution will allow you to identify records as one person. This work might require rules, eventually a match and merge processes to determine the master record. This master record should be the one sent to Adobe Campaign.
+If you have customer data in more than one system, you need to determine which solution will allow you to identify records as one person. This work might require rules, eventually a match and merge processes to determine the primary record. This primary record should be the one sent to Adobe Campaign.
 
 While some of this data cleansing might be performed in Adobe Campaign, the recommendation is to run these processes outside and only import clean data in Adobe Campaign. You should keep Campaign as a marketing solution more than a data cleansing tool.
 
-Be able to provide a master customer record which will be sent to Adobe Campaign.-->
+Be able to provide a primary customer record which will be sent to Adobe Campaign.-->
 
 ### Adobe Campaign用データ {#data-for-campaign}
 
@@ -68,7 +68,7 @@ Adobe Campaignに送信するデータ マーケティングアクティビテ�
 
 >[!NOTE]
 >
->Adobe CampaignはData Warehouseではありません。 したがって、可能な顧客とその関連情報をすべてAdobe Campaignにインポートしないでください。
+>Adobe Campaignはdata warehouseではありません。 したがって、可能な顧客とその関連情報をすべてAdobe Campaignにインポートしないでください。
 
 属性をAdobe Campaignに必要とするかどうかを決定するには、属性が次のいずれかのカテゴリに該当するかどうかを決定します。
 * セグメント化に使用する **属性**
@@ -100,7 +100,7 @@ Adobe Campaignリソースには3つの識別子があり、別の識別子を�
 
 | 表示名 | 技術名 | 説明 | ベストプラクティス |
 |--- |--- |--- |--- |
-|  | PKey | <ul><li>PKeyは、Adobe Campaignテーブルの物理的な主キーです。</li><li>このIDは、通常、特定のAdobe Campaignインスタンスに対して一意です。</li><li>Adobe Campaign標準では、この値はエンドユーザーに対しては表示されません（URLを除く）。</li></ul> | <ul><li>APIシステムを介して [](../../api/using/get-started-apis.md)、PKey値（物理キーではなく生成/ハッシュ値）を取得できます。</li><li>APIを使用したレコードの取得、更新、削除以外の目的で使用することはお勧めしません。</li></ul> |
+|  | PKey | <ul><li>PKeyは、Adobe Campaignテーブルの物理的な主キーです。</li><li>このIDは、通常、特定のAdobe Campaignインスタンスに対して一意です。</li><li>Adobe Campaign Standardでは、この値はエンドユーザーに対して表示されません（URLを除く）。</li></ul> | <ul><li>APIシステムを介して [](../../api/using/get-started-apis.md)、PKey値（物理キーではなく生成/ハッシュ値）を取得できます。</li><li>APIを使用したレコードの取得、更新、削除以外の目的で使用することはお勧めしません。</li></ul> |
 | ID | nameまたはinternalName | <ul><li>この情報は、テーブル内のレコードの一意の識別子です。 この値は手動で更新できます。</li><li>このIDは、別のAdobe Campaignインスタンスにデプロイする場合に値を保持します。 パッケージを介してエクスポートできるように、生成された値とは異なる名前を付ける必要があります。</li><li>これは、テーブルの実際の主キーではありません。</li></ul> | <ul><li>スペース&quot;&quot;、セミコラム&quot;:&quot;、ハイフン&quot;-&quot;などの特殊文字は使用しないでください。</li><li>これらの文字はすべて、アンダースコア「_」に置き換えられます（許可されている文字）。 例えば、&quot;abc-def&quot;と&quot;abc:def&quot;は&quot;abc_def&quot;として保存され、互いに上書きされます。</li></ul> |
 | ラベル | label | <ul><li>ラベルは、Adobe Campaign内のオブジェクトまたはレコードのビジネス識別子です。</li><li>このオブジェクトでは、スペースと特殊文字を使用できます。</li><li>レコードの一意性を保証するものではありません。</li></ul> | <ul><li>オブジェクトのラベルの構造を決定することをお勧めします。</li><li>これは、Adobe Campaignユーザーのレコードまたはオブジェクトを識別するための、最も使いやすいソリューションです。</li></ul> |
 | ACS ID | acsId | <ul><li>追加の識別子を生成できます。 ACS ID [](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)。</li><li>PKeyはAdobe Campaignユーザーインターフェイスでは使用できないので、プロファイルレコードの挿入時に生成される一意の値を取得するソリューションです。</li><li>この値は、レコードがAdobe Campaignに挿入される前にリソースでこのオプションが有効になっている場合にのみ、自動的に生成されます。</li></ul> | <ul><li>このUUIDは紐付けキーとして使用できます。</li><li>自動生成されたACS IDは、ワークフロー内またはパッケージ定義内の参照として使用できません。</li><li>この値は、Adobe Campaignインスタンスに固有です。</li></ul> |
