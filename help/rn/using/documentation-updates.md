@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 06dde80beee2d13956f26a9f6ab8eae130fa83ff
+source-git-commit: c4cfd36d54044b5988ec2160ba695921fc9d9920
 workflow-type: tm+mt
-source-wordcount: '6084'
+source-wordcount: '6092'
 ht-degree: 19%
 
 ---
@@ -27,6 +27,8 @@ ht-degree: 19%
 ## ドキュメントの更新 — 2020年7月 {#doc-updates--july-2020}
 
 Campaign Standardの監視に関するガイドラインを含む新しい節を追加しました。 [詳細を表示](../../administration/using/monitoring-guidelines.md)
+
+外部APIガードレールが更新されました。[詳細を表示](../../automating/using/external-api.md)
 
 「プライバシー管理の概要」ページが更新され、タイの個人データ保護法(PDPA)とブラジルのレイジェラル・デ・プロテソ(LGPD)に関する情報が含まれるようになりました。 [詳細を表示](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
 
