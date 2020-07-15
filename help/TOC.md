@@ -4,10 +4,10 @@ sub-product: Adobe Campaign Standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard ヘルプ
 translation-type: tm+mt
-source-git-commit: 4bf004b035c10ccbdb1ff9dc3fb51ddfdef54777
+source-git-commit: 06dde80beee2d13956f26a9f6ab8eae130fa83ff
 workflow-type: tm+mt
-source-wordcount: '1530'
-ht-degree: 84%
+source-wordcount: '1557'
+ht-degree: 83%
 
 ---
 
@@ -92,9 +92,6 @@ ht-degree: 84%
       + [多言語プッシュ通知の作成](channels/using/creating-a-multilingual-push-notification.md)
       + [多言語プッシュ通知用の CSV ファイルの生成](channels/using/generating-csv-multilingual-push.md)
       + [モバイルアプリケーションデータに基づくプロファイル情報の作成と更新](channels/using/updating-profile-with-mobile-app-data.md)
-      + [プッシュトラッキングの実装](channels/using/push-tracking.md)
-      + [Adobe Campaign Standard のプッシュ通知からの画像の表示](channels/using/image-push-notification.md)
-      + [Campaign Standard プッシュ通知のペイロード構造について](channels/using/push-payload.md)
    + アプリ内メッセージ{#in-app-messaging}
       + [アプリ内メッセージについて](channels/using/about-in-app-messaging.md)
       + [アプリ内メッセージの準備と送信](channels/using/preparing-and-sending-an-in-app-message.md)
@@ -317,6 +314,7 @@ ht-degree: 84%
          + [電子メールとダイレクトメールの配信の結合](automating/using/coupling-email-direct-mail.md)
          + [強化されたフィールドを含む電子メールの送信](automating/using/sending-email-enriched-fields.md)
          + [電子メールと追加データのパーソナライズ](automating/using/personalizing-email-with-additional-data.md)
+         + [定期的なプッシュ通知の送信](automating/using/recurring-push-notifications.md)
       + セグメント化とターゲティング {#segmentation-targeting}
          + [クエリのサンプル](automating/using/query-samples.md)
          + [2つの洗練されたオーディエンスの和集合](automating/using/union-on-two-refined-audiences.md)
@@ -388,6 +386,7 @@ ht-degree: 84%
       + [API によるデータ取り込みのトリガー](developing/using/aep-triggering-data-ingestion.md)
 + 管理{#administrating}
    + [Campaign Standard管理の概要](administration/using/get-started-campaign-administration.md)
+   + [監視のガイドライン](administration/using/monitoring-guidelines.md)
    + [設定のガイドライン](administration/using/about-configuration-guidelines.md)
    + ユーザーとセキュリティ{#users-and-security}
       + [アクセス管理について](administration/using/about-access-management.md)
@@ -403,6 +402,13 @@ ht-degree: 84%
       + [SMS チャネルの設定](administration/using/configuring-sms-channel.md)
       + [モバイルアプリケーションの設定](administration/using/configuring-a-mobile-application.md)
       + [トランザクションメッセージの設定](administration/using/configuring-transactional-messaging.md)
+   + モバイルチャネルの設定 {#configuring-mobile}
+      + [プッシュトラッキングの実装](administration/using/push-tracking.md)
+      + [Adobe Campaign Standard のプッシュ通知からの画像の表示](administration/using/image-push-notification.md)
+      + [Campaign Standard プッシュ通知のペイロード構造について](administration/using/push-payload.md)
+      + [ローカル通知追跡の実装](administration/using/local-tracking.md)
+      + [SyncWithLaunch技術的なワークフローFAQ](administration/using/syncwithlaunch-faq.md)
+      + [Adobe Experience PlatformSDKとAdobe Campaign統合FAQ](administration/using/aep-faq.md)
    + アプリケーション設定{#application-settings}
       + [Adobe Campaign Standard 設定について](administration/using/about-campaign-standard-settings.md)
       + [外部アカウント](administration/using/external-accounts.md)
