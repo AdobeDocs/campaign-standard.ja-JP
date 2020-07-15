@@ -12,10 +12,10 @@ discoiquuid: eb24f4ea-325f-433a-91a0-c45906320bcb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
+source-git-commit: bd74905985734412b4fb11ad11d70faf9fcc9ca6
 workflow-type: tm+mt
 source-wordcount: '726'
-ht-degree: 40%
+ht-degree: 37%
 
 ---
 
@@ -42,7 +42,7 @@ Audience Manager(AAM)またはPeopleコアサービスの統合により、オ�
   </tr> 
   <tr> 
    <td> <strong>IMS Org ID</strong><br /> </td> 
-   <td> 組織の IMS Org ID.<br> IMS Org ID は、Adobe Experience Cloud の管理メニューで確認できます。これは、Adobe Experience Cloud への初回接続時に付与されるものです。 </td> 
+   <td> IMS組織ID。 <br> IMS組織IDは、Experience Cloudの管理メニューで確認できます。 これは、Adobe Experience Cloud への初回接続時に付与されるものです。 </td> 
   </tr> 
   <tr> 
    <td> <strong>環境：</strong><br /> </td> 
