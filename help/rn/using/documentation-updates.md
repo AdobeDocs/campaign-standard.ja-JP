@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c4cfd36d54044b5988ec2160ba695921fc9d9920
+source-git-commit: 979ddba984bd564bf60b42973c857f2b896eeaf6
 workflow-type: tm+mt
-source-wordcount: '6092'
+source-wordcount: '6089'
 ht-degree: 19%
 
 ---
@@ -24,11 +24,11 @@ ht-degree: 19%
 
 このページでは、Adobe Campaign [リリースノートに加えて、Adobe Campaign Standardドキュメントの新しい更新をすべてリストしています](../../rn/using/release-notes.md)。
 
-## ドキュメントの更新 — 2020年7月 {#doc-updates--july-2020}
+## ドキュメントの更新 — 2020年7月 {#doc-updates-july-2020}
 
 Campaign Standardの監視に関するガイドラインを含む新しい節を追加しました。 [詳細を表示](../../administration/using/monitoring-guidelines.md)
 
-外部APIガードレールが更新されました。[詳細を表示](../../automating/using/external-api.md)
+外部APIガードレールが更新されました。 [詳細を表示](../../automating/using/external-api.md)
 
 「プライバシー管理の概要」ページが更新され、タイの個人データ保護法(PDPA)とブラジルのレイジェラル・デ・プロテソ(LGPD)に関する情報が含まれるようになりました。 [詳細を表示](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
 
@@ -36,9 +36,7 @@ Campaign Standardの監視に関するガイドラインを含む新しい節を
 
 Campaign Standardのプライバシー管理ページが更新されました。プライバシーコアサービスの統合を通じてプライバシー要求を管理する方法を明確にする必要があります。 [詳細を表示](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)
 
-## ドキュメントの更新 — 2020年7月 {#doc-updates-july-2020}
-
-AIを利用した新しい電子メール機能： 送信時刻の最適化とプロファイルスコアリング [詳細情報](../../sending/using/predictive.md)
+AIを利用した新しい電子メール機能： 時間の最適化とプロファイルスコアリングを送信します。 [詳細を表示](../../sending/using/predictive.md)
 
 ## ドキュメントの更新 — 2020年6月 {#doc-updates-june-2020}
 
