@@ -12,10 +12,10 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4bf004b035c10ccbdb1ff9dc3fb51ddfdef54777
+source-git-commit: 06dde80beee2d13956f26a9f6ab8eae130fa83ff
 workflow-type: tm+mt
-source-wordcount: '5969'
-ht-degree: 20%
+source-wordcount: '6084'
+ht-degree: 19%
 
 ---
 
@@ -23,6 +23,16 @@ ht-degree: 20%
 # ドキュメントのアップデート{#documentation-updates}
 
 このページでは、Adobe Campaign [リリースノートに加えて、Adobe Campaign Standardドキュメントの新しい更新をすべてリストしています](../../rn/using/release-notes.md)。
+
+## ドキュメントの更新 — 2020年7月 {#doc-updates--july-2020}
+
+Campaign Standardの監視に関するガイドラインを含む新しい節を追加しました。 [詳細を表示](../../administration/using/monitoring-guidelines.md)
+
+「プライバシー管理の概要」ページが更新され、タイの個人データ保護法(PDPA)とブラジルのレイジェラル・デ・プロテソ(LGPD)に関する情報が含まれるようになりました。 [詳細を表示](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
+
+『モバイルチャネル』ガイドは再編成され、改善されました。 モバイルチャネルの設定に関する新しいガイドと、モバイル設定に関する技術ドキュメントが追加されました。 [詳細を表示](../../administration/using/push-tracking.md)
+
+Campaign Standardのプライバシー管理ページが更新されました。プライバシーコアサービスの統合を通じてプライバシー要求を管理する方法を明確にする必要があります。 [詳細を表示](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)
 
 ## ドキュメントの更新 — 2020年7月 {#doc-updates-july-2020}
 
@@ -264,7 +274,7 @@ Adobe Experience PlatformSDKを使用したモバイルアプリの設定方法�
 
 「ログ」タブにSQLクエリを表示する方法に関するワークフローのトラブルシューティングの節に手順が追加されました。 [詳細を表示](../../automating/using/best-practices-workflows.md#troubleshooting-data-management-activities)
 
-コントロールパネル内のサブドメインと証明書の管理に関する情報を含む、新しいヘルプ記事が追加されました。 [詳細を表示](https://docs.adobe.com/content/help/ja-JP/control-panel/using/subdomains-and-certificates/subdomains-branding.html)
+Campaign コントロールパネル内のサブドメインと証明書の管理に関する情報が記載された、新しいヘルプ記事が追加されました。 [詳細を表示](https://docs.adobe.com/content/help/ja-JP/control-panel/using/subdomains-and-certificates/subdomains-branding.html)
 
 コンテンツテンプレートとフラグメントについて説明する節が更新されました。 [詳細を表示](../../designing/using/using-reusable-content.md#content-templates)
 
@@ -812,7 +822,7 @@ Adobe Campaign通知 — [詳細情報](../../administration/using/sending-inter
 
 新しいテクノロジーが提供されます。 「Adobe Mobile SDKとモバイルアプリの統合」を参照してください。 [詳細を表示](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html)
 
-PeopleコアサービスまたはAudience Manager統合をAdobe Campaignhavget-started-communication-communicationsと設定する手順を説明します。mdegrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
+PeopleコアサービスまたはAdobe CampaignとのAudience Manager統合を設定する手順が追加されました。 [詳細を表示](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
 特定のロールの機能を明確にするために、承認テーブルが改訂されました。 [詳細を表示](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)
 
