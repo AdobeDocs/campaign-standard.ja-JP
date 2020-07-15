@@ -12,7 +12,7 @@ discoiquuid: f67e69f2-09fb-4f33-b2c3-c67a060743e3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: bd74905985734412b4fb11ad11d70faf9fcc9ca6
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 1%
@@ -39,7 +39,7 @@ Triggers -キャンペーン統合がアクティブ化されているかどう�
 トリガーが作成された場合は、次の手順に進みます。 そうでない場合は、トリガーの終点の接続に失敗したことを意味します。 TriggersがExperience Cloudでプロビジョニングされているかどうかを確認します(アクティベーションサービス)。 ログインしていない場合は、アドビのアカウントエグゼクティブまたはプロフェッショナルサービスパートナーにお問い合わせください。 次の情報が必要です。
 
 * Marketing Cloud会社名
-* IMS ORG ID
+* IMS組織ID
 * Analyticsログイン会社(Marketing Cloud会社名と同じ名前を使用できます)
 
 **トリガーを公開してみる**
