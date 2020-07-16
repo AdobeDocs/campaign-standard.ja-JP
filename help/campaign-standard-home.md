@@ -4,10 +4,10 @@ solution: Campaign Standard
 title: Adobe Campaign Standard 製品ドキュメント
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 7ceca9dbdd33d3186f476be8ecb5871e5c1d9c9c
+source-git-commit: ddf585def583acefbb25e7a48318966cd2af49a7
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 91%
+source-wordcount: '212'
+ht-degree: 80%
 
 ---
 
@@ -18,13 +18,14 @@ ht-degree: 91%
 
 ## 新着情報
 
+* **[AI電子メール](sending/using/predictive.md)**<br/>AI電子メールを使用してデザインと配信を最適化
+
 * **[プライバシー管理](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy.html)**<br/>
 プライバシーコンプライアンスに役立つ Adobe Campaign ツールについて説明します。
 
 * **[外部API](automating/using/external-api.md)**<br/>外部APIアクティビティを使用して、外部システムからデータをワークフローに取り込む
 
-* **[Campaign Standard Mobile ガイド](https://helpx.adobe.com/jp/campaign/kb/acs-mobile.html)**<br/>
-モバイル配信に関する一般的なガイドラインについて説明します。
+* **[モバイル配信の使用を開始する](https://helpx.adobe.com/jp/campaign/kb/acs-mobile.html)**<br/>&#x200B;モバイル配信（SMS、プッシュ、アプリ内）の一般的なガイドラインの詳細
 
 [更新情報についてはここをクリック](rn/using/documentation-updates.md)
 
