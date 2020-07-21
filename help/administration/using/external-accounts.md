@@ -13,7 +13,7 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 85dc2b3ba9a781483f88238fbf5a9208a0c18c37
+source-git-commit: f00c5cd2f6642048ebd056dcaf5a156f8cf7ca18
 workflow-type: tm+mt
 source-wordcount: '1559'
 ht-degree: 31%
@@ -88,11 +88,11 @@ ETL のためのファイルやデータを管理する際、これらのファ�
 
 また、SFTP接続を開始しようとするパブリックIPは、キャンペーンインスタンスの許可リストに追加する必要があります。 Adding IP addresses to the allow list can be requested via a [support ticket](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html), along with providing the public key to use for authentication.
 
-SFTPサーバーは、コントロールパネルから管理できます。 For more information, refer to the [Control Panel documentation](https://docs.adobe.com/content/help/ja-JP/control-panel/using/sftp-management/about-sftp-management.html).
+SFTPサーバーは、Campaign コントロールパネルから管理できます。 For more information, refer to the [Control Panel documentation](https://docs.adobe.com/content/help/ja-JP/control-panel/using/sftp-management/about-sftp-management.html).
 
 >[!NOTE]
 >
->コントロールパネルは、AWSでホストされるお客様の管理者ユーザーのみが使用できます。
+>Campaign コントロールパネルは、AWSでホストされるお客様の管理者ユーザーのみが使用できます。
 インスタンスがAWSでホストされているかどうかを確認 [します](https://docs.adobe.com/content/help/ja-JP/control-panel/using/faq.html#ims-org-id)。
 
 ## Amazon S3 external account {#amazon-s3-external-account}
@@ -133,7 +133,9 @@ Adobe Experience Manager外部アカウントは、キャンペーンとExperien
 
 * サーバー： Adobe Experience ManagerサーバーのURLを入力します。 次に例を示します。
 
-   ``` http://aem.domain.com:4502 ```
+   ```
+   http://aem.domain.com:4502
+   ```
 
 * AEMアカウントの資格情報： Adobe Experience Managerインスタンスにアクセスするアカウントを使用します。 Experience Manager内のキャンペーンリモートグループのアカウントにする必要があります。
 
