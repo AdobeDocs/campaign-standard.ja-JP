@@ -4,10 +4,10 @@ sub-product: Adobe Campaign Standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard ヘルプ
 translation-type: tm+mt
-source-git-commit: 06dde80beee2d13956f26a9f6ab8eae130fa83ff
+source-git-commit: 91cb524e104fbaa7f3334578d82b3878cc15fc9b
 workflow-type: tm+mt
-source-wordcount: '1557'
-ht-degree: 83%
+source-wordcount: '1550'
+ht-degree: 82%
 
 ---
 
@@ -331,16 +331,16 @@ ht-degree: 83%
          + [外部信号のアクティビティとデータのインポート](automating/using/external-signal-data-import.md)
          + [外部データを使用したデータベースの更新](automating/using/update-database-file.md)
          + [ファイルの自動ダウンロードに基づくデータの更新](automating/using/update-data-automatic-download.md)
-         + [関係を使用したデータ調整](automating/using/reconciliation-using-relations.md)
+         + [Data reconciliation using relations](automating/using/reconciliation-using-relations.md)
          + [調整を使用したデータ更新](automating/using/data-update-reconciliation.md)
-         + [外部ファイル内のプロファイルの書き出し](automating/using/exporting-profiles-in-file.md)
-         + [ファイルからの複数の購読ステータスの更新](automating/using/updating-subscriptions-from-file.md)
-         + [ファイルから特定のサービスへのプロファイルのサブスクライブ](automating/using/subscribing-profiles-from-file.md)
+         + [Exporting profiles in an external file](automating/using/exporting-profiles-in-file.md)
+         + [Updating multiple subscription statuses from a file](automating/using/updating-subscriptions-from-file.md)
+         + [Subscribing profiles from a file to a specific service](automating/using/subscribing-profiles-from-file.md)
    + Adobe Experience Platform オーディエンスの使用 {#working-with-aep-audiences}
       + [Adobe Experience Platform オーディエンスのターゲティング](automating/using/aep-targeting-audiences.md)
       + [Adobe Experience Platform 属性を使用したキャンペーンのパーソナライズ](automating/using/aep-personalizing-campaigns.md)
 + 開発中{#developing}
-   + [Campaign Standardデータモデルの概要](developing/using/get-started-data-model.md)
+   + [Get started with Campaign Standard data model](developing/using/get-started-data-model.md)
    + カスタムリソースについて{#about-custom-resources}
       + [データモデルの概念](developing/using/data-model-concepts.md)
       + [リソースのステータス](developing/using/resource-statuses.md)
@@ -402,13 +402,13 @@ ht-degree: 83%
       + [SMS チャネルの設定](administration/using/configuring-sms-channel.md)
       + [モバイルアプリケーションの設定](administration/using/configuring-a-mobile-application.md)
       + [トランザクションメッセージの設定](administration/using/configuring-transactional-messaging.md)
-   + モバイルチャネルの設定 {#configuring-mobile}
+   + Configuring mobile channels {#configuring-mobile}
       + [プッシュトラッキングの実装](administration/using/push-tracking.md)
-      + [Adobe Campaign Standard のプッシュ通知からの画像の表示](administration/using/image-push-notification.md)
-      + [Campaign Standard プッシュ通知のペイロード構造について](administration/using/push-payload.md)
+      + [Adding images and videos iOS](administration/using/image-push-notification.md)
+      + [プッシュ通知ペイロード構造について](administration/using/push-payload.md)
       + [ローカル通知追跡の実装](administration/using/local-tracking.md)
-      + [SyncWithLaunch技術的なワークフローFAQ](administration/using/syncwithlaunch-faq.md)
-      + [Adobe Experience PlatformSDKとAdobe Campaign統合FAQ](administration/using/aep-faq.md)
+      + [SyncWithLaunch technical workflow FAQ](administration/using/syncwithlaunch-faq.md)
+      + [Get Started with Adobe Experience Platform SDK and Campaign](administration/using/aep-faq.md)
    + アプリケーション設定{#application-settings}
       + [Adobe Campaign Standard 設定について](administration/using/about-campaign-standard-settings.md)
       + [外部アカウント](administration/using/external-accounts.md)
