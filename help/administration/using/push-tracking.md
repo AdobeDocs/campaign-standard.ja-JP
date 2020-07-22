@@ -13,10 +13,10 @@ context-tags: mobileApp,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 02fa55789449efe03af75779892303941b8a2871
+source-git-commit: 6c5cf90211451587537b9a6121430fc4f352384c
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 1%
+source-wordcount: '819'
+ht-degree: 2%
 
 ---
 
@@ -26,8 +26,10 @@ ht-degree: 1%
 ## プッシュ追跡について {#about-push-tracking}
 
 プッシュ通知が完全に開発されたことを確認するには、トラッキング部分が正しく実装されていることを確認する必要があります。
+ここでは、プッシュ通知の実装の最初の部分が既に実装済みであることを前提としています。
 
-以下の手順に従うと、プッシュ追跡が正しく実装されていることを確認できます。 ここでは、プッシュ通知の実装の最初の部分が既に実装済みであることを前提としています。 アプリユーザーの登録とプッシュ通知メッセージの処理を行います。
+* アプリユーザーの登録
+* プッシュ通知メッセージの処理
 
 プッシュトラッキングは3つのタイプに分かれています。
 
@@ -37,7 +39,7 @@ ht-degree: 1%
 
 * **プッシュ開く** — プッシュ通知がデバイスに配信され、ユーザーが通知をクリックした場合にアプリが開きます。  これはプッシュクリックと似ていますが、通知が閉じられた場合にプッシュ開くはトリガーされません。
 
-Campaign Standardのためのトラッキングを導入するには、モバイルアプリにMobile SDKを含める必要があります。 これらのSDKは、Adobe Mobile Servicesで使用できます。
+Campaign Standardのためのトラッキングを導入するには、モバイルアプリにMobile SDKを含める必要があります。 これらのSDKは、Adobe Mobile Servicesで使用できます。 詳しくは、この[ページ](../../administration/using/configuring-a-mobile-application.md)を参照してください。
 
 トラッキング情報を送信するには、3つの変数を送信する必要があります。 Campaign Standardから受け取ったデータの一部である2つの変数と、それが **Impression**、 **Click** 、 **Open**&#x200B;のどちらであるかを指示するアクション変数です。
 
@@ -51,7 +53,7 @@ Campaign Standardのためのトラッキングを導入するには、モバイ
 
 ### プッシュインプレッション追跡の実装方法 {#push-impression-tracking-android}
 
-インプレッションの追跡では、trackAction()関数を呼び出す際に、アクションの値&quot;7&quot;を送信する必要があります。
+インプレッションの追跡では、関数を呼び出す際に、アクションの値&quot;7&quot;を送信する必要があり **[!UICONTROL trackAction()]** ます。
 
 ```
 @Override
@@ -73,7 +75,7 @@ public void onMessageReceived(RemoteMessage remoteMessage) {
 
 ### クリック追跡の実装方法 {#push-click-tracking-android}
 
-クリック追跡の場合、trackAction()関数を呼び出す際に、アクションの値&quot;2&quot;を送信する必要があります。
+クリック追跡では、 **[!UICONTROL trackAction()]** 関数を呼び出す際に、アクションの値&quot;2&quot;を送信する必要があります。
 
 クリックを追跡するには、次の2つのシナリオを処理する必要があります。
 
@@ -82,7 +84,7 @@ public void onMessageReceived(RemoteMessage remoteMessage) {
 
 これを処理するには、2つのインテントを使用する必要があります。 1つは通知をクリックするためのもので、もう1つは通知を閉じるためのものです。
 
-MyFirebaseMessagingService.java
+**[!UICONTROL MyFirebaseMessagingService.java]**
 
 ```
 private void sendNotification(Map<String, String> data) {
@@ -111,7 +113,7 @@ private void sendNotification(Map<String, String> data) {
 }
 ```
 
-BroadcastReceiverが動作するようにするには、AndroidManifest.xmlに登録する必要があります
+が動作す **[!UICONTROL BroadcastReceiver]** るためには、 **[!UICONTROL AndroidManifest.xml]**
 
 ```
 <manifest>
@@ -152,7 +154,7 @@ public class NotificationDismissedReceiver extends BroadcastReceiver {
 
 開いている状態を追跡するには、「インテント」を作成する必要があります。 インテントオブジェクトを使用すると、特定の操作が実行されたときにAndroid OSからメソッドを呼び出すことができます。 この場合、通知をクリックしてアプリを開きます。
 
-このコードは、クリックインプレッショントラッキングの導入に基づいています。 インテントを設定した状態で、追跡情報をキャンペーンに戻す必要があります。 この場合、「開くインテント」をアプリ内の特定の表示に開くように設定する必要があります。これにより、インテントオブジェクトの通知データと共にonResumeメソッドが呼び出されます。
+このコードは、クリックインプレッショントラッキングの導入に基づいています。 を **[!UICONTROL Intent]** 設定したら、追跡情報をAdobe Campaign Standardに送信する必要があります。 この場合、アプリ内の特定の表示を開くようにを設定する必要 **[!UICONTROL Open Intent]** があります。これにより、の通知データを使用してonResumeメソッドが呼び出され **[!UICONTROL Intent Object]**&#x200B;ます。
 
 ```
 @Override
@@ -194,7 +196,7 @@ private void handleTracking() {
 
 ### プッシュインプレッション追跡の実装方法 {#push-impression-tracking-iOS}
 
-インプレッションの追跡では、trackAction()関数を呼び出す際に、アクションの値&quot;7&quot;を送信する必要があります。
+インプレッションの追跡では、関数を呼び出す際に、アクションの値&quot;7&quot;を送信する必要があり **[!UICONTROL trackAction()]** ます。
 
 iOS通知の動作方法を理解するには、アプリの3つの状態を詳しく説明する必要があります。
 
@@ -204,7 +206,7 @@ iOS通知の動作方法を理解するには、アプリの3つの状態を詳�
 
 アプリが閉じられた場合、Appleは、アプリが再起動されるまでアプリを呼び出しません。 つまり、iOSで通知が受信された時点を知ることはできません。
 
-アプリがバックグラウンドにある間もImpressionの追跡を引き続き機能させるには、 **Content-Available** （利用可能なコンテンツ）を送信して、追跡が必要であることをアプリに通知する必要があります。
+アプリがバックグラウンドにある間も **[!UICONTROL Impression]** 追跡機能を動作させるには、追跡が必要なこ **[!UICONTROL Content-Available]** とをアプリに知らせるために送信する必要があります。
 
 >[!CAUTION]
 >
@@ -250,7 +252,7 @@ func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent noti
 
 ### クリック追跡の実装方法 {#push-click-tracking-iOS}
 
-クリック追跡の場合、trackAction()関数を呼び出す際に、アクションの値&quot;2&quot;を送信する必要があります。
+クリック追跡では、 **[!UICONTROL trackAction()]** 関数を呼び出す際に、アクションの値&quot;2&quot;を送信する必要があります。
 
 ```
 // AppDelegate.swift
@@ -291,7 +293,7 @@ func registerForPushNotifications() {
 
 ![](assets/tracking_push.png)
 
-次に、Dismissを処理して追跡情報を送信するには、以下を追加する必要があります。
+次に、トラッキング情報を処理 **[!UICONTROL Dismiss]** して送信するには、以下を追加する必要があります。
 
 ```
 func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
