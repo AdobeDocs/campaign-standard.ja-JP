@@ -12,10 +12,10 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 7622018bff9c8b8573dae139372bea697815849f
+source-git-commit: 2d4b1ba38a7aa33d1fff3415d71080e370cb80f4
 workflow-type: tm+mt
-source-wordcount: '589'
-ht-degree: 37%
+source-wordcount: '587'
+ht-degree: 38%
 
 ---
 
@@ -70,7 +70,7 @@ Campaign Standard機能の差し迫った取り外し/交換を伝えるため�
    <td> <p>キャンペーン19.4リリース以降、アクセス要求および削除要求に対するキャンペーンAPIおよびインターフェイスの使用は廃止されました。 2段階のプロファイルの削除は使用できません。 アド <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">ビのプライバシーコアサービスを使用します</a>。</p></br>
    <p>「Campaign Standardの <a href="https://helpx.adobe.com/campaign/kb/acs-privacy.html">プライバシー管理</a>」も参照してください。</p>
   <p> 
-  <em>Targetの削除バージョン： キャンペーン20.4リリース</em></p>
+  <em>削除予定日：2021 年</em></p>
    </td> 
   </tr> 
  </tbody> 
@@ -87,7 +87,7 @@ Campaign Standard機能の差し迫った取り外し/交換を伝えるため�
    <td> <p>キャンペーン19.0リリース以降、レガシー電子メールエディターは非推奨となりました。 新しい電子メ <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">ールデザイナーを使用して</a> 、電子メールコンテンツを作成し、パーソナライズします。 </p></br>
    <p>この節では <a href="https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/designing-content/building-email-content/using-existing-content.html"></a> 、新しいエディター用に電子メールテンプレートを適応させる方法について説明します。</p></br>
   <p> 
-  <em>Targetの削除バージョン： 2021</em></p>
+  <em>削除予定日：2021 年</em></p>
    </td> 
   </tr> 
  </tbody> 
