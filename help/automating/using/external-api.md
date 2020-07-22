@@ -10,9 +10,9 @@ context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bb023ce5f716ffca0f94922de86cda5a8878d470
+source-git-commit: 3bd2fdb56fc94cef4e9c21466a33cdad7ac825d2
 workflow-type: tm+mt
-source-wordcount: '1748'
+source-wordcount: '1754'
 ht-degree: 1%
 
 ---
@@ -66,7 +66,7 @@ Campaign Standard20.3リリースでは、外部API機能により、tromベー�
 
 >[!NOTE]
 >
->キャンペーン20.4リリース以降、http応答データのサイズ制限とガードレールは5 MBと1分に下げられます。  この変更は新しい外部APIアクティビティにのみ影響しますが、ベストプラクティスに従うために、現在のExternal APIアクティビティの実装をこれらの新しいガードレールと整合させることをお勧めします。
+>キャンペーン20.4のリリース以降、http応答データのサイズ制限と応答タイムアウトのガードレールは、それぞれ5MBと1分に下げられます。  この変更は新しい外部APIアクティビティにのみ影響しますが、ベストプラクティスに従うために、現在のExternal APIアクティビティの実装とこれらの新しいガードレールの整合性をとることを強くお勧めします。
 
 JSON用に特定のガードレールが配置されました。
 
