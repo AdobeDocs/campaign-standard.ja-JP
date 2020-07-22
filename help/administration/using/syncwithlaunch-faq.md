@@ -1,6 +1,6 @@
 ---
-title: アクセス管理について
-description: ロール、グループ、および組織単位を使用して、Adobe Campaign演算子を管理します。
+title: 起動の技術的なワークフローと同期FAQ
+description: 技術ワークフローの開始に関するよくある質問です。
 page-status-flag: never-activated
 uuid: 4f538452-cc67-4e03-9e2f-2d9eecc081c7
 contentOwner: sauviat
@@ -12,19 +12,19 @@ discoiquuid: 54028f63-c9ca-4397-a079-e27e0cfdebf6
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d0a0c59763af8babc9701206cc39fe41b98e0cd4
+source-git-commit: 6c5cf90211451587537b9a6121430fc4f352384c
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 2%
+source-wordcount: '513'
+ht-degree: 0%
 
 ---
 
 
-# SyncWithLaunch技術的なワークフローFAQ {#syncwithlaunch-faq}
+# 起動の技術的なワークフローと同期FAQ {#syncwithlaunch-faq}
 
-この **[!UICONTROL Sync with Launch]** ワークフローにより、Adobe LaunchのすべてのモバイルプロパティをAdobe Campaign Standardに自動インポートできます。
+Adobe Launchモバイルプロパティは、 **[!UICONTROL Sync with Launch]** 専用の技術的なワークフローを通じてAdobe Campaign Standardに読み込むことができます。 For more information, refer to this [page](../../administration/using/technical-workflows.md)
 
-これについて詳しくは、この[ページ](../../administration/using/technical-workflows.md)を参照してください。
+以下の節では、この同期に関してよくある質問をリストします。
 
 >[!NOTE]
 >
