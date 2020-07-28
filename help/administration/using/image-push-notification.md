@@ -13,9 +13,9 @@ context-tags: mobileApp,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 6c5cf90211451587537b9a6121430fc4f352384c
+source-git-commit: cf43edcacbab9f1f33ce29e23c0957d8bfa64e7d
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '428'
 ht-degree: 8%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 8%
 
 Adobe CampaignとAdobe Mobile Servicesの両方を設定すると、モバイルアプリのデータをキャンペーンに使用できるようになります。 詳しくは、この[ページ](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)を参照してください。
 
-Experience CloudSDKアプリケーションでプッシュ通知を送信するには、モバイルアプリをAdobe Experience Platform起動で設定し、Adobe Campaignで設定する必要があります。 詳しくは、この[ページ](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign)を参照してください。
+Experience CloudSDKアプリケーションでプッシュ通知を送信するには、モバイルアプリがAdobe Experience Platform Launchで設定され、Adobe Campaignで設定されている必要があります。 詳しくは、この[ページ](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign)を参照してください。
 
 ## 手順2: Adobe Campaignでのプッシュ通知のカスタマイズ {#customize-push}
 
@@ -64,9 +64,9 @@ Adobe Campaignでプッシュ通知をカスタマイズした後、デバイス
 
 アプリケーションがインストールされている場合 [!DNL Swift]は、次の手順に従います。
 
-1. [DNL Xcode] プロジェクトを開きます。
+1. プ [!DNL Xcode] ロジェクトを開きます。
 
-1. [DNL Xcode] プロジェクトで、 **[!UICONTROL File]** / **[!UICONTROL New]** >を選択しま **[!UICONTROL Target]**&#x200B;す。
+1. プ [!DNL Xcode] ロジェクトで、 **[!UICONTROL File]** / **[!UICONTROL New]** を選択し **[!UICONTROL Target]**&#x200B;ます。
 
 1. 選択 **[!UICONTROL Notification Service Extension]**.
 
