@@ -13,9 +13,9 @@ context-tags: fileImport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
+source-git-commit: 9a4c2219d5f8b312deb476d852cf5db9cd19afcb
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: '1364'
 ht-degree: 5%
 
 ---
@@ -24,6 +24,10 @@ ht-degree: 5%
 # ファイル読み込み {#load-file}
 
 ## 説明 {#description}
+
+>[!CAUTION]
+>
+>この機能を使用する際は、Adobe Campaign契約に従って、SFTPストレージ、DBストレージ、アクティブなプロファイルの制限に留意してください。
 
 ![](assets/data_loading.png)
 
@@ -154,6 +158,7 @@ ht-degree: 5%
    * **[!UICONTROL Use a default value]**: エラーの原因となる値を、 **[!UICONTROL Default value]** フィールドに定義されているデフォルト値に置き換えます。
    * **[!UICONTROL Use a default value in case the value is not remapped]**: エラーの原因となる値を、エラーのある値に対してマッピングが定義されていない限り、 **[!UICONTROL Default value]** フィールドで定義されているデフォルト値に置き換えます(上の **[!UICONTROL Remapping of values]** オプションを参照)。
    * **[!UICONTROL Reject the line when there is no remapping value]**: エラー値に対してマッピングが定義されていない場合、行全体は処理されません(上の **[!UICONTROL Remapping of values]** オプションを参照)。
+
    >[!NOTE]
    >
    >**[!UICONTROL Error processing]** インポートしたファイルの値に関するエラーが発生しています。 例えば、障害のあるデータタイプ（「整数」列の文字のすべてに「4」が含まれる）、許可された最大文字数より多い文字を含む文字列、区切り文字の不具合のある日付など。 ただし、このオプションは、空の値管理によって生成されるエラーには関係しません。
