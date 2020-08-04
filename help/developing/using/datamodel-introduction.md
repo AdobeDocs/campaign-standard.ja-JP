@@ -1,6 +1,6 @@
 ---
 title: データモデルの概要
-description: データモデルについてAdobe Campaignします。
+description: Adobe Campaign データモデルについて説明します。
 uuid: cacd563f-6936-4b3e-83e3-5d4ae31d44e8
 contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
@@ -10,30 +10,33 @@ discoiquuid: 4e0468da-3052-4ce5-8174-45aba1f5c4ed
 context-tags: cusResource,overview;eventCusResource,overview
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
+workflow-type: ht
+source-wordcount: '142'
+ht-degree: 100%
 
 ---
 
 
 # データモデルの説明{#data-model-introduction}
 
-Adobe Campaignには、事前定義されたデータモデルが付属しています。
+Adobe Campaign には、事前定義済みのデータモデルが付属します。
 
-Adobe Campaign標準データモデルには、マーケティング関連の一連のリソースの組み込みのSQL構造が表示されます。
+Adobe Campaign Standard データモデルには、一連のマーケティング関連リソースの組み込みの SQL 構造が表示されます。
 
-このセクションは、キャンペーンの専門家または開発者を対象としています。
+この節は、Campaign の専門家または開発者を対象としています。
 
-各リソースのサブページには、次のような使用可能な特性を持つSQLフィールドをリストするテーブルがあります。内部名、タイプ、定義済みリストの詳細 リソースに関連付けられた組み込みフィルターも表示されます。 各フィルターには、パラメーターリストがあります。
+各リソースについて、サブページに SQL フィールドの一覧表が表示されます。この一覧表には内部名、タイプ、定義済みリストの詳細などの使用可能な特性も表示されます。また、リソースに関連付けられている組み込みフィルターも表示されます。各フィルターには、固有のパラメーターリストがあります。
 
 >[!NOTE]
->キャンペーンデータモデルは、管理者のみが [変更で](../../administration/using/users-management.md#functional-administrators) きます。
+>Campaign データモデルは、[管理者](../../administration/using/users-management.md#functional-administrators)のみが変更できます。
 
 ## 関連トピック{#data-model-related}
 
-| 役に立つページ | その他のリソース |
+| 便利なページ | その他のリソース |
 |---|---|
-| [データモデルの概要](data-model-concepts.md) | [プロファイルリソース](extending-the-profile-resource-with-a-new-field.md) |
-| [データモデルのベストプラクティス](data-model-best-practices.md) | [購読リソース](extending-the-subscriptions-to-an-application-resource.md) |
-| [追加新資源](key-steps-to-add-a-resource.md) | [プロファイルAPIの拡張](about-extending-the-api.md) |
-| [リソースの作成または拡張](creating-or-extending-the-resource.md) | [複合キーを使用してリソースを呼び出す](uc-calling-resource-id-key.md) |
+| [データモデルの概要](data-model-concepts.md) | [プロファイルリソースの拡張](extending-the-profile-resource-with-a-new-field.md) |
+| [データモデルのベストプラクティス](data-model-best-practices.md) | [サブスクリプションリソースの拡張](extending-the-subscriptions-to-an-application-resource.md) |
+| [新しいリソースの追加](key-steps-to-add-a-resource.md) | [プロファイル API の拡張](about-extending-the-api.md) |
+| [リソースの作成または拡張](creating-or-extending-the-resource.md) | [複合キーを使用したリソースの呼び出し](uc-calling-resource-id-key.md) |
