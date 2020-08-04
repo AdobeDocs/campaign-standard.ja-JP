@@ -12,34 +12,37 @@ discoiquuid: f993d1b6-4b9a-4f95-81fc-60c126211bd2
 context-tags: delivery,directMailContent,back
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
+workflow-type: ht
+source-wordcount: '278'
+ht-degree: 100%
 
 ---
 
 
 # ダイレクトメールオーディエンスの定義{#defining-the-direct-mail-audience}
 
-オーディエンスは、作成ウィザードで定義するか、配信ダッシュボードの「オーディエ **ンス** 」セクションをクリックして定義できます。
+ダイレクトメールオーディエンスは、作成ウィザードを使用するか、配信ダッシュボードの「**Audience**」セクションをクリックして定義できます。
 
 ![](assets/direct_mail_15.png)
 
 ## メインターゲットの定義 {#defining-the-main-target}
 
-ダイレクトメールの場合、ターゲットプロファイルは、ダイレクトメールプロバイダに送信する抽出ファイルに含まれるプロファイルです。
+ダイレクトメールのターゲットプロファイルは、ダイレクトメールプロバイダに送信する抽出ファイルに含まれるプロファイルです。
 
-ターゲットプロファイルごとに、新しい行が抽出ファイルに追加されます。 各受信者に含まれるプロファイル情報の量は、抽出の定義画面 [で定義します](../../channels/using/defining-the-direct-mail-content.md#defining-the-extraction) 。
+ターゲットプロファイルごとに、新しい行が抽出ファイルに追加されます。各受信者のプロファイル情報の量は、[Defining the extraction](../../channels/using/defining-the-direct-mail-content.md#defining-the-extraction)画面で定義します。
 
 >[!CAUTION]
 >
->この情報はダイレクトメールプロバイダーにとって重要なものなので、プロファイルに住所が含まれていることを確認してください。 また、プロファイルの情報のボックスが **[!UICONTROL Address specified]** オンになっていることを確認します。 Recommendationsを参 [照してください](../../channels/using/about-direct-mail.md#recommendations)。
+>住所はダイレクトメールプロバイダーにとって重要なものなので、プロファイルに住所が含まれていることを確認してください。また、プロファイル情報の「**[!UICONTROL Address specified]**」ボックスがオンになっていることも確認してください。[推奨事項](../../channels/using/about-direct-mail.md#recommendations)を参照してください。
 
 ## テストおよびトラッププロファイルの追加 {#adding-test-and-trap-profiles}
 
-少数のプロファイルでファイルをテストできるように、テストプロファイルを追加します。 これにより、実際のファイルを準備する前に、ファイルサンプルをすばやく作成して構造をテストし、検証することができます。 詳しくは、テ [ストプロファイルの管理を参照してくださ](../../audiences/using/managing-test-profiles.md)い。
+テストプロファイルを追加して、少数のプロファイルを対象にファイルをテストできるようにします。テストプロファイルを使用すると、実際のファイルを準備する前にファイルサンプルをすばやく作成して構造を検証できます。[テストプロファイルの管理](../../audiences/using/managing-test-profiles.md)を参照してください。
 
-トラップの使用は、ダイレクトメール配信に不可欠です。 ダイレクトメールプロバイダーが実際に通信を送信していること、およびクライアントリストが別のプロバイダーに送信されていないことを確認できます。 トラップの [使用を参照してください](../../sending/using/using-traps.md)。
+トラップの使用は、ダイレクトメール配信に不可欠です。ダイレクトメールプロバイダが実際に通信を送信していること、また、クライアントリストが別のプロバイダに転送されていないことを確認できます。[トラップの使用](../../sending/using/using-traps.md)を参照してください。
 
-ダイレクトメール配信の場合、抽出中にトラップが追加され、出力ドキュメントに混在します。 デフォルトでは、出力ファイルの並べ替え順に挿入されますが、ファイルの末尾または先頭に挿入するように選択できます。 オーディエンスを定義する際に、タブから目的のオプションを選択 **[!UICONTROL Trap insertion mode]** します。
+ダイレクトメール配信の場合、抽出中にトラップが追加され、出力ドキュメントに織り込まれます。デフォルトでは出力ファイルの並べ替え順に従って挿入されますが、ファイルの冒頭または末尾に挿入するように選択できます。オーディエンスを定義する際に、「**[!UICONTROL Trap insertion mode]**」タブから目的のオプションを選択します。
 
 ![](assets/direct_mail_trap_insertion_mode.png)
