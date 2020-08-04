@@ -1,31 +1,34 @@
 ---
-title: SMS およびプッシュコンテンツエディタインターフェイス
-description: エディターの様々なセクションを使用してSMSを変更し、コンテンツをプッシュする方法を説明します。
-page-status-flag: 非活性化の
+title: SMS およびプッシュコンテンツエディターインターフェイス
+description: エディターの各セクションを使用して SMS やプッシュコンテンツを変更する方法について説明します。
+page-status-flag: never-activated
 uuid: 4af5d247-555b-45c5-95a7-cb27f356b5a0
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 設計
-content-type: 参照
+audience: designing
+content-type: reference
 topic-tags: editing-sms-and-push-content
 discoiquuid: 4e214eb9-d299-4095-b786-8d1de9b1c8a2
 context-tags: delivery,smsContent,back
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+workflow-type: ht
+source-wordcount: '330'
+ht-degree: 100%
 
 ---
 
 
-# SMS およびプッシュコンテンツエディタインターフェイス{#sms-and-push-content-editor-interface}
+# SMS およびプッシュコンテンツエディターインターフェイス{#sms-and-push-content-editor-interface}
 
-SMSおよびプッシュコンテンツエディターは、メッセージを表示および編集できる2つの異なるセクションに編成されています。
+SMS およびプッシュコンテンツエディターは、メッセージの表示と編集が可能な 2 つのセクションに分かれています。
 
-1. アクシ **ョンバーに** 、ページの一般的なオプションが表示されます。 ここから、パーソナライゼーションフィールドやコンテンツブロックの挿入、条件テキストの追加、SMSコンテンツのプレビューを行うことができます。 詳しくは、 [SMSおよびプッシュコンテンツエディタのアクションバーを参照してくださ](#sms-and-push-content-editor-action-bar)い。
-1. 画面の **編集領域では** 、テキストメッセージを直接入力し、パーソナライゼーションを挿入する場所を選択できます。 詳しくは、 [SMSおよびプッシュコンテンツ編集モードを参照してくださ](#sms-and-push-content-edition-modes)い。
+1. **アクションバー**&#x200B;には、ページの一般的なオプションが含まれています。ここから、パーソナライゼーションフィールドやコンテンツブロックの挿入、条件付きテキストの追加、SMS コンテンツのプレビューをおこなうことができます。[SMS とプッシュコンテンツエディターのアクションバー](#sms-and-push-content-editor-action-bar)を参照してください。
+1. 画面の&#x200B;**編集領域**&#x200B;では、テキストメッセージを直接入力し、パーソナライゼーションを挿入する場所を選択できます。[SMS およびプッシュコンテンツ編集モード](#sms-and-push-content-edition-modes)を参照してください。
 
-## SMSおよびプッシュコンテンツエディタのアクションバー {#sms-and-push-content-editor-action-bar}
+## SMS とプッシュコンテンツエディターのアクションバー {#sms-and-push-content-editor-action-bar}
 
 アクションバーには、作成中のコンテンツを操作するための様々なボタンが含まれています。
 
@@ -41,56 +44,56 @@ SMSおよびプッシュコンテンツエディターは、メッセージを�
  <tbody> 
   <tr> 
    <td> <img height="21px" src="assets/viewon_darkgrey-24px.png" /> <br /> </td> 
-   <td> <span class="uicontrol">プレビュー</span><br /> </td> 
-   <td> SMSのみ<br /> </td> 
-   <td> 受信者に対する電子メールのレンダリング方法を表示できます。 詳しくは、メッ <a href="../../sending/using/previewing-messages.md">セージのプレビューを参照してくださ</a>い。<br /> </td> 
+   <td> <span class="uicontrol">Preview</span> <br /> </td> 
+   <td> SMS のみ<br /> </td> 
+   <td> 受信者の E メールがどのようにレンダリングされるかを表示できます。<a href="../../sending/using/previewing-messages.md">メッセージのプレビュー</a>を参照してください。<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/undo_darkgrey-24px.png" /> <br /> </td> 
-   <td> <span class="uicontrol">元に戻す</span><br /> </td> 
-   <td> SMSとプッシュ<br /> </td> 
+   <td> <span class="uicontrol">Undo</span> <br /> </td> 
+   <td> SMS とプッシュ<br /> </td> 
    <td> 最後に実行された操作をキャンセルします。<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/redo_darkgrey-24px.png" /> <br /> </td> 
-   <td> <span class="uicontrol">やり直し</span><br /> </td> 
-   <td> SMSとプッシュ<br /> </td> 
-   <td> 最後に取り消した操作をやり直します。<br /> </td> 
+   <td> <span class="uicontrol">Redo</span> <br /> </td> 
+   <td> SMS とプッシュ<br /> </td> 
+   <td> 最後にキャンセルした操作をやり直します。<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/personalization_field_darkgrey-24px.png" /> <br /> </td> 
-   <td> <span class="uicontrol">パーソナライゼーションフィールドを挿入</span> <br /> </td> 
-   <td> SMSとプッシュ<br /> </td> 
-   <td> データベースからコンテンツにフィールドを追加できます。 See <a href="../../designing/using/personalization.md#inserting-a-personalization-field" target="_blank">Inserting a personalization field</a>.<br /> </td> 
+   <td> <span class="uicontrol">Insert personalization field</span> <br /> </td> 
+   <td> SMS とプッシュ<br /> </td> 
+   <td> データベースからコンテンツにフィールドを追加できます。<a href="../../designing/using/personalization.md#inserting-a-personalization-field" target="_blank">パーソナライゼーションフィールドの挿入</a><br />を参照してください。 </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/personalization_block_darkgrey-24px.png" /> <br /> </td> 
-   <td> <span class="uicontrol">コンテンツブロックの挿入</span><br /> </td> 
-   <td> SMSとプッシュ<br /> </td> 
-   <td> コンテンツにパーソナライゼーションブロックを追加できます。 詳しくは、コ <a href="../../designing/using/personalization.md#adding-a-content-block" target="_blank">ンテンツブロックの追加を参照してくださ</a>い。<br /> </td> 
+   <td> <span class="uicontrol">Insert content block</span> <br /> </td> 
+   <td> SMS とプッシュ<br /> </td> 
+   <td> コンテンツにパーソナライゼーションブロックを追加できます。<a href="../../designing/using/personalization.md#adding-a-content-block" target="_blank">コンテンツブロックの追加</a>を参照してください。<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/dynamiccontent_24px.png" /> <br /> </td> 
-   <td> <span class="uicontrol">動的テキストの有効化</span><br /> </td> 
-   <td> SMSとプッシュ<br /> </td> 
-   <td> コンテンツに動的テキストを挿入できます。 See <a href="../../channels/using/defining-dynamic-text.md" target="_blank">Defining dynamic text</a>.<br /> </td> 
+   <td> <span class="uicontrol">Enable dynamic text</span> <br /> </td> 
+   <td> SMS とプッシュ<br /> </td> 
+   <td> コンテンツにダイナミックテキストを挿入できます。<a href="../../channels/using/defining-dynamic-text.md" target="_blank">ダイナミックテキストの定義</a>を参照してください。<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/dynamiccontentdisable_24px.png" /> <br /> </td> 
-   <td> <span class="uicontrol">動的テキストの無効化</span><br /> </td> 
-   <td> SMSとプッシュ<br /> </td> 
+   <td> <span class="uicontrol">Disable dynamic text</span> <br /> </td> 
+   <td> SMS とプッシュ<br /> </td> 
    <td> ダイナミックテキストを削除できます。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## SMSおよびプッシュコンテンツ編集モード {#sms-and-push-content-edition-modes}
+## SMS およびプッシュコンテンツ編集モード {#sms-and-push-content-edition-modes}
 
-SMSおよびプッシュコンテンツエディターには、次の機能が用意されています。
+SMS およびプッシュコンテンツエディターでは、次の機能を使用できます。
 
-* テキストを入力します。
-* パーソナライゼーションフィールドの追加詳しくは、「パーソナライゼーションフィールド [の挿入」を参照してくださ](../../designing/using/personalization.md#inserting-a-personalization-field)い。
-* コンテンツブロックを追加します。 詳しくは、「コンテンツブロックの追 [加」を参照してください](../../designing/using/personalization.md#adding-a-content-block)。
-* ダイナミックテキストの追加 詳しくは、ダイナミックテキストの定義 [を参照してください](../../channels/using/defining-dynamic-text.md)。
-* SMS送信者の名前をパーソナライズします（SMSのみ）。 詳細については、「 [SMSの設定」を参照してください](../../administration/using/configuring-sms-channel.md#configuring-sms-properties)。
+* テキストの入力。
+* パーソナライゼーションフィールドの追加。詳しくは、[パーソナライゼーションフィールドの挿入](../../designing/using/personalization.md#inserting-a-personalization-field)を参照してください。
+* コンテンツブロックの追加。詳しくは、[コンテンツブロックの追加](../../designing/using/personalization.md#adding-a-content-block)を参照してください。
+* ダイナミックテキストの追加。詳しくは、[ダイナミックテキストの定義](../../channels/using/defining-dynamic-text.md)を参照してください。
+* SMS 送信者の名前のパーソナライズ（SMS のみ）。詳しくは、[SMS の設定](../../administration/using/configuring-sms-channel.md#configuring-sms-properties)を参照してください。
 
