@@ -1,6 +1,6 @@
 ---
 title: 強制隔離管理の理解
-description: 強制隔離管理を使用して配信品質を最適化する方法を学びます。
+description: 強制隔離管理を使用して配信品質を最適化する方法について説明します。
 page-status-flag: never-activated
 uuid: 3c287865-1ada-4351-b205-51807ff9f7ed
 contentOwner: sauviat
@@ -15,7 +15,7 @@ translation-type: tm+mt
 source-git-commit: 121ec37cef6193d3a7085b6d0296b6a2e7cafa06
 workflow-type: tm+mt
 source-wordcount: '801'
-ht-degree: 45%
+ht-degree: 81%
 
 ---
 
@@ -24,9 +24,9 @@ ht-degree: 45%
 
 ## 強制隔離について {#about-quarantines}
 
-メールボックスがいっぱいの場合や、アドレスが存在しない場合など、電子メールアドレスや電話番号を隔離できます。
+例えば、メールボックスの容量が超過している場合や、アドレスが存在しない場合などに、E メールアドレスや電話番号を強制隔離できます。
 
-In any case, the quarantine procedure complies with specific rules described in this [section](#conditions-for-sending-an-address-to-quarantine).
+どのような場合でも、強制隔離手順は、この[節](#conditions-for-sending-an-address-to-quarantine)で説明する特定のルールに従います。
 
 ### 強制隔離による配信の最適化 {#optimizing-your-delivery-through-quarantines}
 
@@ -36,7 +36,7 @@ E メールアドレスまたは電話番号が強制隔離されているプロ
 
 また、強制隔離は、誤りのある電話番号を配信から除外することで、SMS の送信コスト削減にも役立ちます。
 
-配信を保護および最適化するベストプラクティスについて詳しくは、[このページ](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_DeliveryBestPractices.html)を参照してください。
+配信を保護および最適化するベストプラクティスについて詳しくは、[このページ](https://helpx.adobe.com/jp/campaign/kb/delivery-best-practices.html)を参照してください。
 
 ### 強制隔離とブロックリスト {#quarantine-vs-block-list}
 
@@ -48,7 +48,7 @@ Being on the **block list**, on the other hand, will result in the profile no lo
 
 >[!NOTE]
 >
->ユーザがSMS配信からオプトアウトするために「STOP」などのキーワードを持つSMSメッセージに返信した場合、電子メールオプトアウト処理のように、ブロックリストにプロファイルは追加されません。 プロファイルの電話番号は、ステータスと共に強制隔離に送信され **[!UICONTROL On block list]** ます。 このステータスは電話番号のみを表し、プロファイルはブロックリスト上にないので、ユーザーは電子メールメッセージの受信を続行します。 詳しくは、[この節](../../channels/using/managing-incoming-sms.md#managing-stop-sms)を参照してください。
+>ユーザがSMS配信からオプトアウトするために「STOP」などのキーワードを持つSMSメッセージに返信した場合、電子メールオプトアウト処理のように、ブロックリストにプロファイルは追加されません。 プロファイルの電話番号は「**[!UICONTROL On block list]**」ステータスになり、強制隔離されます。このステータスは電話番号のみを表し、プロファイルはブロックリスト上にないので、ユーザーは電子メールメッセージの受信を続行します。 詳しくは、[この節](../../channels/using/managing-incoming-sms.md#managing-stop-sms)を参照してください。
 
 ## 強制隔離アドレスの識別 {#identifying-quarantined-addresses}
 
@@ -56,17 +56,17 @@ Being on the **block list**, on the other hand, will result in the profile no lo
 
 >[!NOTE]
 >
->強制隔離から住所を削除する必要がある場合は、テクニカル管理者に問い合わせてください。
+>強制隔離からアドレスを削除する必要がある場合は、技術管理者にお問い合わせください。
 
 ### 配信用の強制隔離アドレスの識別 {#identifying-quarantined-addresses-for-a-delivery}
 
-Quarantined addresses for a specific delivery are listed during the delivery preparation phase, in the **[!UICONTROL Exclusion logs]** tab of the delivery dashboard (see [this section](../../sending/using/monitoring-a-delivery.md#exclusion-logs)). For more on delivery preparation, refer to [this section](../../sending/using/preparing-the-send.md).
+特定の配信について強制隔離されたアドレスのリストは、配信準備フェーズの途中で、配信ダッシュボードの「**[!UICONTROL Exclusion logs]**」タブに記録されます（[この節](../../sending/using/monitoring-a-delivery.md#exclusion-logs)を参照）。配信準備について詳しくは、[この節](../../sending/using/preparing-the-send.md)を参照してください。
 
 ![](assets/exclusion_logs.png)
 
 ### プラットフォーム全体の強制隔離アドレスの識別 {#identifying-quarantined-addresses-for-the-entire-platform}
 
-管理者は、 **[!UICONTROL Administration > Channels > Quarantines > Addresses]** メニューからプラットフォーム全体のアドレスを強制隔離してリストできます。
+管理者は、**[!UICONTROL Administration > Channels > Quarantines > Addresses]** メニューからプラットフォーム全体の強制隔離されたアドレスをリスト表示できます。
 
 >[!NOTE]
 >
@@ -76,24 +76,24 @@ Quarantined addresses for a specific delivery are listed during the delivery pre
 
 >[!NOTE]
 >
->強制隔離数の増加は、データベースの「損耗」に関連する通常の効果です。 例えば、電子メールアドレスの有効期間が3年と見なされ、受信者表の値が年に50%増加する場合、強制隔離数の増加は次のように計算できます。 1年目の終わり： (1*0.33)/(1+0.5)=22% 2 年目の終了時：((1.22*0.33)+0.33)/(1.5+0.75)=32.5%
+>強制隔離数の増加は、データベースの「老朽化」に関連する、正常な影響です。例えば、E メールアドレスの寿命が 3 年と考えられ、受信者テーブルが毎年 50％増加する場合、強制隔離の増加は次のように計算できます。1 年目の終了時：(1*0.33)/(1+0.5)=22%、2 年目の終了時：((1.22*0.33)+0.33)/(1.5+0.75)=32.5%
 
 ## アドレスを強制隔離する条件 {#conditions-for-sending-an-address-to-quarantine}
 
-Adobe Campaignは、強制隔離の失敗タイプとエラーメッセージの資格時に割り当てられた理由に従って配信を管理します( [配信の失敗タイプと理由](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons) 、 [バウンスのメール資格](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification))。
+Adobe Campaign は、エラーメッセージの選定時に割り当てられた配信エラーのタイプと理由に従って強制隔離を管理します（[配信エラーのタイプと理由](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)および[バウンスメールの選定](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification)を参照）。
 
 * **無視のエラー**：アドレスを強制隔離しません。
 * **ハードエラー**：対応する E メールアドレスがただちに強制隔離されます。
 * **ソフトエラー**：ただちにアドレスが強制隔離されることはありませんが、エラーカウンターがインクリメントされます。エラーカウンターが制限しきい値に達すると、アドレスが強制隔離されます。デフォルトの設定では、しきい値はエラー 5 回に設定されています。2 つのエラーは、24 時間以上間隔を開けて発生する場合に意味を持ちます。5 回目のエラー発生時にアドレスが強制隔離されます。エラーカウンターのしきい値は変更できます。詳しくは、この[ページ](../../administration/using/configuring-email-channel.md#email-channel-parameters)を参照してください。
 
-   再試行後に配信が成功すると、成功前は強制隔離されていたアドレスのエラーカウンターが再初期化されます。The address status changes to **[!UICONTROL Valid]** and it is deleted from the list of quarantines after two days by the **[!UICONTROL Database cleanup]** workflow.
+   再試行後に配信が成功すると、成功前は強制隔離されていたアドレスのエラーカウンターが再初期化されます。アドレスのステータスが「**[!UICONTROL Valid]**」に変わり、**[!UICONTROL Database cleanup]** ワークフローによって、2 日後に強制隔離のリストから削除されます。
 
-If a user qualifies an email as a spam (**Feedback loop**), the message is automatically redirected towards a technical mailbox managed by Campaign. The user&#39;s email address is then automatically sent to quarantine with the **[!UICONTROL On block list]** status. この状態はアドレスのみを表し、プロファイルはブロックリスト上にないので、SMSメッセージやプッシュ通知を受信し続けます。
+ユーザーが E メールをスパム（**フィードバックループ**）と評価した場合、メッセージは Campaign が管理するテクニカルメールボックスに自動的にリダイレクトされます。さらに、その E メールアドレスは自動的に強制隔離され、ステータスが「**[!UICONTROL On block list]**」となります。この状態はアドレスのみを表し、プロファイルはブロックリスト上にないので、SMSメッセージやプッシュ通知を受信し続けます。
 
 >[!NOTE]
 Adobe Campaign の強制隔離では、大文字と小文字が区別されます。後から再度ターゲットされることのないよう、E メールアドレスは必ず小文字でインポートしてください。
 
-隔離されたアドレスのリスト(プラットフォーム全体の隔離されたアドレスの [識別を参照](#identifying-quarantined-addresses-for-the-entire-platform))で、 **[!UICONTROL Error reason]** フィールドは選択したアドレスが強制隔離に配置された理由を示します。
+隔離されたアドレスのリスト（[プラットフォーム全体の強制隔離されたアドレスの識別](#identifying-quarantined-addresses-for-the-entire-platform)を参照）の「**[!UICONTROL Error reason]**」フィールドは、選択したアドレスが強制隔離された理由を示します。
 
 ![](assets/quarantines2.png)
 
