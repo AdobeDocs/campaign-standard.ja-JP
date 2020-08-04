@@ -1,6 +1,6 @@
 ---
 title: アプリ内メッセージの準備と送信
-description: アプリ内メッセージを作成して、特定のコンテンツを持つアプリの購読者をターゲットします。
+description: アプリ内メッセージを作成して、アプリケーション購読者を対象に特定のコンテンツを提供します。
 page-status-flag: never-activated
 uuid: a79b0466-8641-46cc-a70f-e4e839587bb2
 contentOwner: sauviat
@@ -16,7 +16,7 @@ translation-type: tm+mt
 source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
 workflow-type: tm+mt
 source-wordcount: '1274'
-ht-degree: 5%
+ht-degree: 99%
 
 ---
 
@@ -25,113 +25,113 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->アプリ内パーソナライゼーションは、通常、CRM IDやモバイルアプリログインIDのリンケージフィールドに依存します。 Adobe Campaignに関連して使用する場合は、このリンケージフィールドを保護する責任を負います。 リンケージフィールドを安全に保たないと、パーソナライズされたメッセージが脆弱になる可能性があります。 お客様が安全なリンケージフィールドの構成、管理、および保護の慣行に従わない場合、不正なアクセスまたはプロファイルデータの使用に起因する損害に対して、アドビは責任を負いません。
+>アプリ内パーソナライゼーションは、リンケージフィールドに基づいています。リンケージフィールドは通常、CRM の ID やモバイルアプリのログイン ID になります。リンケージフィールドを Adobe Campaign と連携して使用する場合は、このフィールドのセキュリティはユーザー自身が確保する必要があります。リンケージフィールドのセキュリティが確保されないと、パーソナライズされたメッセージが脆弱になる可能性があります。お客様がセキュリティで保護されたリンケージフィールドの構成、管理、および保護に伴う慣行を順守されない場合、不正なアクセスまたはプロファイルデータの使用に起因する損害に対して、アドビでは責任を負いかねます。
 
-Adobe Campaignでは、次の3種類のアプリ内メッセージを使用できます。
+Adobe Campaign では、次の 3 つのタイプのアプリ内メッセージを使用できます。
 
-* **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]**: このメッセージタイプを使用すると、モバイルアプリケーションを購読しているターゲットAdobe Campaignプロファイル(CRMプロファイル)を使用できます。 このメッセージタイプは、Adobe Campaignで使用可能なすべてのプロファイル属性を使用してパーソナライズできますが、個人情報と機密情報を含むメッセージが権限のあるユーザーのみに使用されるように、モバイルSDKとキャンペーンのアプリ内メッセージサービスとの間で安全なハンドシェイクが必要です。
+* **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]**：このメッセージタイプでは、モバイルアプリケーションを購読している Adobe Campaign プロファイル（CRM プロファイル）をターゲットとして設定できます。このメッセージタイプは、Adobe Campaign で使用可能なすべてのプロファイル属性を使用してパーソナライズできますが、Mobile SDK と Campaign のアプリ内メッセージングの間でセキュリティ保護されたハンドシェイクを使用する必要があります。これは、個人情報や機密情報を含んだメッセージの使用を、許可されたユーザーのみに制限するために必要になります。
 
-   このメッセージタイプをユーザーのデバイスにダウンロードするには、モバイルSDKは、モバイルプロファイルをAdobe CampaignのCRMプロファイルに接続するために使用するリンケージフィールドを送信する必要があります。 アプリ内をサポートするために必要なSDK APIについて詳しくは、この [ページを参照してください](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference)。
+   このメッセージタイプをユーザーのデバイスにダウンロードするには、Mobile SDK が、モバイルプロファイルを Adobe Campaign 内の CRM プロファイルに接続するためのリンケージフィールドを送信する必要があります。アプリ内メッセージのサポートに必要な SDK API について詳しくは、この[ページ](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference)を参照してください。
 
-* **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**: このメッセージタイプを使用すると、Adobe Campaignに既存のプロファイルがない場合でも、モバイルアプリのすべてのユーザー（現在または将来）にメッセージを送信できます。 したがって、Adobe Campaignにユーザプロファイルが存在しない場合でも、メッセージをカスタマイズする場合は、パーソナライゼーションは不可能です。
-* **[!UICONTROL Target users based on their Mobile profile (inApp)]**: このメッセージタイプを使用すると、モバイルプロファイルをAdobe Campaignに持つモバイルアプリの既知ユーザーまたは匿名ユーザー全員をターゲットできます。 このメッセージタイプは、個人属性と機密属性のみを使用してパーソナライズでき、モバイルSDKとAdobe Campaignのアプリ内メッセージサービス間の安全なハンドシェイクは必要ありません。
+* **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**：このメッセージタイプでは、Adobe Campaign にプロファイルが存在していない場合でも、モバイルアプリケーションの全ユーザー（現在のユーザーも将来のユーザーも含む）にメッセージを送信できるようになります。したがって、メッセージのカスタマイズ時には、Adobe Campaign にユーザープロファイルが存在しない可能性があるので、パーソナライゼーションができません。
+* **[!UICONTROL Target users based on their Mobile profile (inApp)]**：このメッセージタイプでは、Adobe Campaign にモバイルプロファイルを持つモバイルアプリケーションの既知のユーザーや匿名ユーザーすべてをターゲットにすることができます。このメッセージタイプは、個人情報も機密性も含まない属性のみを使用してパーソナライズできるので、Mobile SDK と Adobe Campaign のアプリ内メッセージングサービスの間にセキュリティで保護されたハンドシェイクは必要ありません。
 
-   個人データと機密データの処理方法の詳細については、「モバイルプロファイルフィールドの個人データと機密データの [処理](#handling-mobile-profile-fields-with-personal-and-sensitive-data)」を参照してください。
+   個人データと機密データの扱い方について詳しくは、[個人データと機密データを含んだモバイルプロファイルフィールドの扱い方](#handling-mobile-profile-fields-with-personal-and-sensitive-data)の節を参照してください。
 
 ![](assets/diagram_inapp.png)
 
-## 個人データおよび機密データを使用したモバイルプロファイルフィールドの処理 {#handling-mobile-profile-fields-with-personal-and-sensitive-data}
+## 個人データと機密データを含んだモバイルプロファイルフィールドの扱い方 {#handling-mobile-profile-fields-with-personal-and-sensitive-data}
 
-In Adobe Campaign, mobile profile attributes data sent from mobile device are stored in **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** resource which allows you to define the data that you want to collect from your applications&#39; subscribers.
+Adobe Campaign では、モバイルデバイスから送信されたモバイルプロファイル属性データは、アプリケーション購読者から収集するデータを定義できる「**[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]**」リソースに保存されます。
 
-モバイルデバイスからAdobe Campaignに送信するデータを収集するには、このリソースを拡張する必要があります。 これを行うには、この [ページで詳細な手順を参照してください](../../developing/using/extending-the-subscriptions-to-an-application-resource.md) 。
+モバイルデバイスから Adobe Campaign に送信するデータを収集するには、このリソースを拡張する必要があります。その詳しい手順については、この[ページ](../../developing/using/extending-the-subscriptions-to-an-application-resource.md)を参照してください。
 
-アプリ内メッセージのパーソナライズ機能をより安全に有効にするには、このリソースのモバイルプロファイルフィールドを適宜設定する必要があります。In your **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]**, when creating your new mobile profiles fields, check **[!UICONTROL Personal and Sensitive]** to make them unavailable during In-App messages personalization.
+アプリ内メッセージのパーソナライゼーション機能をより安全に有効にするには、このリソースのモバイルプロファイルフィールドを適宜設定する必要があります。「**[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]**」では、新しいモバイルプロファイルフィールドを作成する際に「**[!UICONTROL Personal and Sensitive]**」をオンにして、アプリ内メッセージのパーソナライズ時に使用できないようにします。
 
 >[!NOTE]
 >
->この表に、カスタムリソース拡張機能を持つ既存の実装がある場合、アプリ内メッセージのパーソナライズ用にフィールドを活用する前に、フィールドに適切なラベルを付けることをお勧めします。
+>カスタムリソースを拡張した実装がこのテーブルに既に存在する場合は、各フィールドに適切なラベルを付けてから、アプリ内メッセージのパーソナライズに利用することをお勧めします。
 
 ![](assets/in_app_personal_data_2.png)
 
-Once your **[!UICONTROL Subscriptions to an application]** custom resource is configured and published, you can start preparing your In-App delivery using the **[!UICONTROL Target users based on their Mobile profile (inApp)]** template. Only non-personal and non-sensitive fields will be available from **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** resource for personalization.
+「**[!UICONTROL Subscriptions to an application]**」カスタムリソースが設定されて公開されると、「**[!UICONTROL Target users based on their Mobile profile (inApp)]**」テンプレートを使用してアプリ内配信の準備を開始できます。パーソナライズのために「**[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]**」リソースで利用できるフィールドは、個人情報も機密性も含まないフィールドに限られます。
 
-If you require personalization with **Personal and Sensitive** fields, we recommend using the **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]** template which has additional security mechanism to ensure that your users&#39; PII data remains secure.
+**個人情報や機密性を含むフィールド**&#x200B;を使用したパーソナライズが必要な場合は、ユーザーの PII データを保護するためのセキュリティメカニズムが強化された「**[!UICONTROL Target users based on their Campaign profile (inAppProfile)]**」テンプレートの使用をお勧めします。
 
 ## アプリ内メッセージの準備 {#preparing-your-in-app-message}
 
-Adobe Campaignを含むスタンドアロンのアプリ内メッセージを作成する手順は、次のとおりです。
+Adobe Campaign を使用してスタンドアロンのアプリ内メッセージを作成する手順は次のとおりです。
 
-1. Adobe Campaignホームページで、カードをクリックし **[!UICONTROL In-App messaging]** ます。
+1. Adobe Campaign ホームページで「**[!UICONTROL In-App messaging]**」カードをクリックします。
 
-   ボタンをクリックして、「 **マーケティングアクティビティ** 」タブからアプリ内を作成することもでき **[!UICONTROL Create]** ます。
+   またアプリ内メッセージは、「**[!UICONTROL Create]**」ボタンをクリックして「**Marketing activities**」タブから作成することもできます。
 
-   アプリ内メッセージは、キャンペーン、Adobe Campaignホームページ、またはワークフローからも作成できます。
+   アプリ内メッセージは、キャンペーン、または Adobe Campaign ホームページから、あるいはワークフローの内部でも作成できます。
 
-1. 「 **アプリ内メッセージ**」を選択します。
+1. 「**In-App message**」を選択します。
 
    ![](assets/inapp_creating.png)
 
-1. オーディエンスのターゲット設定に関するニーズに応じて、適切なテンプレートを選択します。
+1. オーディエンスターゲティングのニーズに応じたテンプレートを選択します。
 
    ![](assets/inapp_creating_2.png)
 
-   デフォルトでは、次の3つのあらかじめ用意されているテンプレートのいずれかを選択できます。
+   デフォルトでは、次の 3 つの既製テンプレートのいずれかを選択できます。
 
    * **[!UICONTROL Target users based on their Campaign CRM profile (inAppProfile)]**
    * **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**
    * **[!UICONTROL Target users based on their Mobile profile (inApp)]**
 
-1. アプリ内メッセージのプロパティを入力し、フィールドでモバイルアプリを選択し **[!UICONTROL Associate a Mobile App to a delivery]** ます。 モバイルアプリをAdobe Campaign Standardと共に設定しなかった場合、モバイルアプリはリストに表示されないことに注意してください。 For more information on mobile application configuration, refer to this [page](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign).
+1. アプリ内メッセージのプロパティを入力し、「**[!UICONTROL Associate a Mobile App to a delivery]**」フィールドでモバイルアプリを選択します。モバイルアプリが Adobe Campaign Standard と連携するように設定されていない場合、リストには表示されません。モバイルアプリケーションの設定について詳しくは、この[ページ](https://helpx.adobe.com/jp/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign)を参照してください。
 
    ![](assets/inapp_creating_3.png)
 
-1. アプリ内メッセージのターゲット対象オーディエンスを選択します。 オーディエンスは、この配信に関連付けられているモバイルアプリケーションに応じて、事前にフィルタリングされます。
+1. アプリ内メッセージのターゲットに設定するオーディエンスを選択します。オーディエンスは、この配信に関連付けられているモバイルアプリケーションに応じて、事前にフィルタリングされます。
 
-   この手順は、モバイルアプリケーションのすべてのユーザーをターゲットするので、と一緒に行う必要はありま **[!UICONTROL Broadcast an In-App message (inAppBroadcast)]** せん。
+   「**[!UICONTROL Broadcast an In-App message (inAppBroadcast)]**」では、モバイルアプリケーションのすべてのユーザーがターゲットになるので、この手順は必要はありません。
 
    ![](assets/inapp_creating_8.png)
 
-1. タブで、メッセージをトリガーするイベントをドラッグ&amp;ドロップし **[!UICONTROL Triggers]** ます。 トリガーを選択すると、アプリ内メッセージが表示される原因となるユーザーが行うアクションを選択できます。
+1. 「**[!UICONTROL Triggers]**」タブで、メッセージのトリガーとして使用するイベントをドラッグ＆ドロップします。トリガーを選択することにより、アプリ内メッセージを表示するきっかけとなるユーザーアクションを指定できます。
 
-   次の4つのカテゴリのイベントを使用できます。
+   次の 4 つのカテゴリーのイベントを使用できます。
 
-   * **[!UICONTROL Mobile Application events]**: モバイルアプリケーションに実装されるカスタムイベント。
+   * **[!UICONTROL Mobile Application events]**：モバイルアプリケーションに実装されたカスタムイベント。
 
-      For more on events creations, refer to this [page](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html).
+      イベント作成について詳しくは、この[ページ](https://helpx.adobe.com/jp/campaign/kb/configuring-app-sdk.html)を参照してください。
 
-   * **[!UICONTROL Life Cycle events]**: Adobe Mobile SDKでサポートされ、すぐに使用できるライフサイクルイベントです。
+   * **[!UICONTROL Life Cycle events]**：Adobe Mobile SDK でサポートされる既製のライフサイクルイベント。
 
-      ライフサイクルイベントの詳細については、この [ページを参照してください](https://docs.adobe.com/content/help/en/mobile-services/android/metrics.html)。
+      ライフサイクルイベントについて詳しくは、この[ページ](https://docs.adobe.com/content/help/en/mobile-services/android/metrics.html)を参照してください。
 
-   * **[!UICONTROL Analytics Events]**: モバイルアプリで実装されるカテゴリに応じて、以下の3つの実装がサポートされます。 アドビAnalytics、コンテキストデータまたは表示状態。
+   * **[!UICONTROL Analytics Events]**：モバイルアプリに実装されている機能に応じて、Adobe Analytics、コンテキストデータ、画面遷移のいずれかのカテゴリがサポートされます。
 
-      これらのイベントは、アドビAnalyticsのライセンスをお持ちの場合にのみ利用できます。
+      これらのイベントは、Adobe Analytics のライセンスをお持ちの場合にのみ利用できます。
 
-   * **[!UICONTROL Places]**: 次の3つのカテゴリは、リアルタイムの場所データを利用して、文脈上関連のあるモバイルエクスペリエンスを配信します。 コンテキストデータを配置、カスタムメタデータを配置、または配置イベントタイプを配置します。
+   * **[!UICONTROL Places]**：Places コンテキストデータ、Places カスタムメタデータ、Places イベントタイプの 3 つのカテゴリでリアルタイムの位置情報データを利用して、コンテキストに応じたモバイルエクスペリエンスを提供します。
 
-      Adobe Placesの詳細については、Placesのドキュメントを参照して [ください](https://placesdocs.com/)。
+      Adobe Places について詳しくは、[Places のドキュメント](https://placesdocs.com/)を参照してください。
    ![](assets/inapp_creating_4.png)
 
-1. コンテキストデータイベントを手動で追加する必要があるのに対し、Adobe Experience Platformの起動でAnalyticsの拡張機能に設定されたレポートスイートに基づいて、アドビのAnalytics州と表示州のイベントが自動的に設定されます。 **[!UICONTROL Analytics Events]**
+1. 「**[!UICONTROL Analytics Events]**」を使用する場合、Adobe Analytics イベントおよび画面遷移イベントには、Adobe Experience Platform Launch の Analytics 拡張機能で設定されたレポートスイートに基づいて、自動的に入力がおこなわれます。これに対して、コンテキストデータイベントは手動で追加する必要があります。
 
-   これらのイベントは、アドビAnalyticsのライセンスをお持ちの場合にのみ利用できます。
+   これらのイベントは、Adobe Analytics のライセンスをお持ちの場合にのみ利用できます。
 
    ![](assets/inapp_creating_7.png)
 
-1. トリガーを使用する場合、「配置」コンテキストデータ、「配置」カスタムメタデータまたは「配置」イベントタイプは、Adobe Placesで作成されたすべてのライブラリと目標地点に基づいて自動的に設定されます。 **[!UICONTROL Places]**
+1. **[!UICONTROL Places]** トリガーを使用すると、Places コンテキストデータ、Places カスタムメタデータ、Places イベントタイプのいずれかには、すべてのライブラリと Adobe Places で作成されたライブラリ目標点データに従って自動的に入力がおこなわれます。
 
-   このトリガは、Experience Platform Launchの場所拡張で選択したライブラリの目標地点に対してのみ、デバイスに適用されることに注意してください。 Places拡張機能とそのインストール方法の詳細については、この [ドキュメントを参照してください](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-extension/places-extension.html)。
+   なお、デバイスでは、このトリガーは、Experience Platform Launch の Places 拡張機能で選択されたライブラリの目標地点データにのみ適用されます。Places 拡張機能とそのインストール方法について詳しくは、この[ドキュメント](https://docs.adobe.com/content/help/ja-JP/places/using/places-ext-aep-sdks/places-extension/places-extension.html)を参照してください。
 
-1. タブで、トリガーの頻度、開始日、終了日、曜日、アプリ内メッセージをアクティブにする時間を選択し **[!UICONTROL Frequency & duration]** ます。
+1. 「**[!UICONTROL Frequency & duration]**」タブで、トリガーの頻度、開始日と終了日、曜日、アプリ内メッセージを有効にする時刻帯を選択します。
 
    ![](assets/inapp_creating_5.png)
 
-1. メッセージの内容を編集し、アドバンスオプションを定義します。 See [Customizing an In-App message](https://helpx.adobe.com/campaign/standard/channels/using/customizing-a-push-notification.html).
+1. メッセージの内容を編集し、詳細設定オプションを指定します。[アプリ内メッセージのカスタマイズ](https://helpx.adobe.com/jp/campaign/standard/channels/using/customizing-a-push-notification.html)を参照してください。
 
    ![](assets/inapp_creating_6.png)
 
-1. クリック **[!UICONTROL Create]** .
+1. 「**[!UICONTROL Create]**」をクリックします。
 
 これで、アプリ内メッセージをターゲットオーディエンスに送信する準備が整いました。
 
@@ -145,27 +145,27 @@ Adobe Campaignを含むスタンドアロンのアプリ内メッセージを作
 
 配信の準備が完了し、承認手順が完了したら、メッセージを送信できます。
 
-1. をクリック **[!UICONTROL Prepare]** してターゲットを計算し、メッセージを生成します。
+1. 「**[!UICONTROL Prepare]**」をクリックして、ターゲットを計算し、メッセージを生成します。
 
    ![](assets/inapp_sending_4.png)
 
 1. 準備が完了したら、**Deployment** ウィンドウに **Target** および **To deliver** の KPI が表示されます。
 
-   配信内の潜在的な除外やエラーの ![](assets/lp_link_properties.png) ボタンをクリックして、デプロイメントウィンドウを確認できます。
+   Deployment ウィンドウで ![](assets/lp_link_properties.png) ボタンをクリックすれば、配信中に除外やエラーが生じていないかを確認できます。
 
    ![](assets/inapp_sending_5.png)
 
-1. アプリ内メッセージ **[!UICONTROL Confirm]** の送信開始をクリックします。
+1. 「**[!UICONTROL Confirm]**」をクリックして、アプリ内メッセージの送信を開始します。
 
    ![](assets/inapp_sending_6.png)
 
-1. メッセージダッシュボードとログで配信のステータスを確認します。 詳しくは、[この節](../../sending/using/monitoring-a-delivery.md)を参照してください。
+1. 配信のステータスは、メッセージダッシュボードとログで確認できます。詳しくは、[この節](../../sending/using/monitoring-a-delivery.md)を参照してください。
 
-   **[!UICONTROL Delivered]** および **[!UICONTROL Sent]** KPIの数は、キャンペーンからメッセージ配信サービスに正常に送信されたものに基づきます。 これらのKPIは、メッセージ配信サービスからメッセージを正常に受信またはダウンロードしたモバイルデバイスの数を示すものではありません。
+   「**[!UICONTROL Delivered]**」と「**[!UICONTROL Sent]**」の KPI 値は、Campaign からメッセージ配信サービスに正常に送信された内容に基づいて算出されます。なお、これらの KPI は、メッセージ配信サービスからメッセージを正常に受信またはダウンロードしたモバイルデバイスの数を示すものではありません。
 
    ![](assets/inapp_sending_7.png)
 
-1. 配信レポートを使用して、アプリ内メッセージの影響を測定します。 For more on reporting, refer to [this section](../../reporting/using/in-app-report.md).
+1. 配信レポートを使用して、アプリ内メッセージの影響を測定します。レポートについて詳しくは、[この節](../../reporting/using/in-app-report.md)を参照してください。
 
 **関連トピック：**
 
