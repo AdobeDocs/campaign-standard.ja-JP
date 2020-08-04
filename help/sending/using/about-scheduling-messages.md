@@ -1,19 +1,22 @@
 ---
 title: メッセージのスケジュールについて
-description: メッセージをスケジュールする方法を説明します。
-page-status-flag: 非活性化の
-uuid: 286fcee-65a9-4cb9-b205-9ce5d024675c
-contentOwner: ソビア
+description: メッセージのスケジュールを設定する方法を説明します。
+page-status-flag: never-activated
+uuid: 286fceee-65a9-4cb9-b205-9ce5d024675c
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 送信
-content-type: 参照
-topic-tags: スケジュール・メッセージ
+audience: sending
+content-type: reference
+topic-tags: sheduling-messages
 discoiquuid: 9c7fd670-bba9-4f3c-8cb1-87397a1acd27
-context-tags: 配信，スケジュール，戻る
+context-tags: delivery,schedule,back
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+workflow-type: ht
+source-wordcount: '268'
+ht-degree: 100%
 
 ---
 
@@ -22,31 +25,31 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 >[!CAUTION]
 >
->配信のスケジュールを変更する場合は、「 **Confirm** 」をクリックする前に「 **Prepare**」ボタンをクリックして配信の準備をし直す必要があります。
+>配信のスケジュールを変更する場合は、必ず「**Prepare**」ボタンをクリックして配信を準備し直してから、「**Confirm**」をクリックする必要があります。
 
-メッセージダッシュボードでは、ブ **[!UICONTROL Schedule]** ロックを使用して、メッセージ（電子メール、SMS、またはプッシュ通知）を送信するタイミングを定義できます。
+メッセージダッシュボードの **[!UICONTROL Schedule]** ブロックを使用すると、メッセージ（E メール、SMS、プッシュ通知）を送信するタイミングを定義できます。
 
 ![](assets/delivery_dashboard.png)
 
-このプロ **[!UICONTROL Schedule]** パティを使用すると、電子メール、SMS、またはプッシュ通知の送信オプションを設定できます。
+**[!UICONTROL Schedule]** プロパティを使用すると、E メール、SMS、プッシュ通知の送信オプションを設定できます。
 
-* **[!UICONTROL Messages to be sent once confirmed]**:メッセージは、送信が確認されるとすぐに送信されます。 See [Confirming the send](../../sending/using/confirming-the-send.md).
+* **[!UICONTROL Messages to be sent once confirmed]**：メッセージは、送信が確認されるとすぐに送信されます。[送信の確認](../../sending/using/confirming-the-send.md)を参照してください。
 
    ![](assets/delivery_planning_1.png)
 
-* **[!UICONTROL Messages to be sent automatically on the date specified below]**:メッセージは後で送信されます。 「送信開始 **日」フィー** ルドに連絡日を指定し **** ます。
+* **[!UICONTROL Messages to be sent automatically on the date specified below]**：メッセージは、後で送信されます。「**Start sending from**」フィールドに&#x200B;**連絡日時**&#x200B;を指定します。
 
-   送信の準備と確認はできますが、メッセージは選択した日時からのみ送信されます。 送信の準備と確認については、「送信の準備 [」と「送信の確](../../sending/using/preparing-the-send.md) 認」の節を参照 [](../../sending/using/confirming-the-send.md) 。
+   送信の準備と確認はできますが、メッセージは選択した日時まで送信されません。送信の準備と確認は、[送信の準備](../../sending/using/preparing-the-send.md)および[送信の確認](../../sending/using/confirming-the-send.md)の節に記載されています。
 
-   このド **[!UICONTROL Time zone of the contact date]** ロップダウンリストを使用すると、送信時刻を考慮するタイムゾーンを変更できます。 例えば、フィールドに「9:00 AM」と入力し、ドロップダウンリストで「Brussels, Copenhagen, Madrid, Paris (GMT+1)」を選択した場合、すべての受信者は午前9:00 AMのパリ時にメッセージを受け取ります。 **[!UICONTROL Start sending from]****[!UICONTROL Time zone of the contact date]** したがって、モスクワにいる受信者(GMT+3)は、モスクワ時間の午前11時にメッセージを受け取ります。
+   **[!UICONTROL Time zone of the contact date]** ドロップダウンリストを使用すると、送信時間のタイムゾーンを変更できます。例えば、「**[!UICONTROL Start sending from]**」フィールドに「9:00 AM」と入力して **[!UICONTROL Time zone of the contact date]** ドロップダウンリストで「Brussels, Copenhagen, Madrid, Paris (GMT+1)」を選択した場合、すべての受信者はパリ時間の午前 9 時にメッセージを受信します。したがって、モスクワの受信者はモスクワ時間（GMT+3）の午前 11 時にメッセージを受信します。
 
-   手動で送信を確認する場合は、このオプションを選択し **[!UICONTROL Request confirmation before sending messages]** ます。 このオプションはデフォルトで有効になっています。
+   手動で送信を確認する場合は、「**[!UICONTROL Request confirmation before sending messages]**」オプションをオンにします。このオプションは、デフォルトでは有効になっています。
 
    ![](assets/delivery_planning.png)
 
 >[!CAUTION]
 >
->配信を複製する場合、すべてのスケジュール設定が削除されます。 新しい連絡日をスケジュールしない限り、重複した配信は送信が確認され次第送信されます。
+>配信を複製すると、すべてのスケジュール設定が削除されます。新しい連絡日付をスケジュール設定しない限り、重複した配信は、送信が確認されるとすぐに送信されます。
 
 **関連トピック**：
 
