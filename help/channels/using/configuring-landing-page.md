@@ -1,6 +1,6 @@
 ---
 title: ランディングページの設定
-description: ランディングページのプロパティを設定する方法を説明します。
+description: ランディングページのプロパティを設定する方法について説明します。
 page-status-flag: never-activated
 uuid: 5b222ea2-6628-457f-a618-bfc0e5eb93dd
 contentOwner: lemaitre
@@ -12,8 +12,11 @@ discoiquuid: 899c7152-f415-4df9-b4b4-5ff3470a4e32
 context-tags: landingPage,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
+workflow-type: ht
+source-wordcount: '687'
+ht-degree: 100%
 
 ---
 
@@ -22,100 +25,100 @@ source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 ## ランディングページの送信の確認 {#confirm-a-landing-page-submission}
 
-訪問者がランディングページを送信した場合、トリガーされるアクションを設定できます。 手順は次のとおりです。
+訪問者がランディングページを送信した場合に、アクションをトリガーするように設定できます。手順は次のとおりです。
 
-1. ランディングページのダッシュボードのアイコンを使用し ![](assets/edit_darkgrey-24px.png) てアクセスしたランディングページのプロパティを編集し、パラメータを表示 **[!UICONTROL Job]** します。
+1. ランディングページダッシュボードの ![](assets/edit_darkgrey-24px.png) アイコンを使用してアクセスするランディングページのプロパティを編集し、「**[!UICONTROL Job]**」パラメーターを表示します。
 
    ![](assets/lp_edit_properties_button.png)
 
-1. 「」セクシ **[!UICONTROL Specific actions]** ョンで、自動メ **[!UICONTROL Start sending message]** ッセージの送信を決定する場合に選択します。例えば、サービスの購読を確認します。 その後、電子メール配信テンプレートを選択する必要があります。
+1. 自動メッセージを送信するよう指定する場合（サービスのサブスクリプションを確認する場合など）、「**[!UICONTROL Specific actions]**」セクションで「**[!UICONTROL Start sending message]**」を選択します。その後、E メール配信テンプレートを選択する必要があります。
 
-   確認メッセージが既にサービスレベルで設定されている場合は、この画面で確認メッセージを1つ選択しないでください。 「サービス [の設定」を参照](../../audiences/using/creating-a-service.md)。
+   確認メッセージがサービスレベルで既に設定されている場合は、複数の確認メッセージが送信されないように、この画面では確認メッセージを選択しないでください。「[サービスの設定](../../audiences/using/creating-a-service.md)」を参照してください。
 
-1. ランディング **[!UICONTROL Additional data]** ページの送信時に追加のデータを保存できるように作成します。 このデータは、ページを訪問した人には表示されません。 定数値のみが考慮されます。
+1. ランディングページの送信時に追加のデータを保存できるようにするには、**[!UICONTROL Additional data]** を作成します。このデータは、ページの訪問者には表示されません。定数値のみが使用できます。
 
    ![](assets/lp_parameters_6.png)
 
 ## ランディングページのサービスへのリンク {#linking-a-landing-page-to-a-service}
 
-フォームをサービスにリンクして、ランディングページを検証する際にプロファイルが特定のサービスに登録できるようにすることができます。
+フォームをサービスにリンクして、ランディングページの検証時にプロファイルが特定のサービスに登録できるようにすることができます。
 
-ランディングページをリンクするパラメーターを使用すると、実行するアクションのタイプと、ランディングページが単一のサービスに具体的にリンクされているか、汎用であるかを指定できます。
+ランディングページをリンクするためのパラメーターを使用すると、実行するアクションのタイプと、ランディングページを特定のサービスにリンクするか、汎用にするかを指定できます。
 
-リンクするサービスを選択するには、次の操作を行う必要があります。
+リンクするサービスを選択するには、次の操作が必要です。
 
-1. ランディングページのダッシュボードのアイコンを使用し ![](assets/edit_darkgrey-24px.png) てアクセスしたランディングページのプロパティを編集し、パラメータを表示 **[!UICONTROL Job]** します。
+1. ランディングページダッシュボードの ![](assets/edit_darkgrey-24px.png) アイコンを使用してアクセスするランディングページのプロパティを編集し、「**[!UICONTROL Job]**」パラメーターを表示します。
 
    ![](assets/lp_edit_properties_button.png)
 
-1. ドロッ **[!UICONTROL Subscription]** プダウンリスト **[!UICONTROL Specific actions]** からを選択します。
+1. 「**[!UICONTROL Specific actions]**」ドロップダウンリストで「**[!UICONTROL Subscription]**」を選択します。
 
    ![](assets/lp_parameters_5.png)
 
-1. ランディング **[!UICONTROL Specific service]** ページを単一のサービスにリンクする場合に選択します。 ランディングページで複数のサービスを使用する場合は、このオプションを選択しないでください。
+1. ランディングページを 1 件のサービスにリンクする場合は「**[!UICONTROL Specific service]**」を選択します。ランディングページで複数のサービスを使用する場合は、このオプションを選択しないでください。
 
-   このオプション **[!UICONTROL Specified service in the URL]** を使用して、ランディングページを複数のサービスで使用できるようにします。 したがって、サービスを設定する際は、ランディングページを参照する必要があります。
+   ランディングページを複数のサービスで使用する場合は、「**[!UICONTROL Specified service in the URL]**」オプションを使用します。そのため、サービスを設定する際はランディングページを参照する必要があります。
 
 ## 権限の設定とデータのプリロード {#setting-permissions-and-pre-loading-data}
 
-ランディングページへのアクセスは、例えばキャンペーンから送信されるメッセージ内のリンクから来た、特定の組織単位に対して、識別された訪問者に制限できます。
-識別された訪問者の場合は、ランディングページでそのデータを事前に読み込むことができます。 手順は次のとおりです。
+ランディングページにアクセスできる人は、特定の訪問者（例えば、Campaign から送信されるメッセージ内のリンクからの訪問者）や特定の組織単位に限定することができます。
+特定の訪問者に限定する場合は、ランディングページでその訪問者のデータをプリロードできます。手順は次のとおりです。
 
-1. ランディングページのダッシュボードのアイコンを使用し ![](assets/edit_darkgrey-24px.png) てアクセスしたランディングページのプロパティを編集し、パラメータを表示 **[!UICONTROL Access & loading]** します。
+1. ランディングページダッシュボードの ![](assets/edit_darkgrey-24px.png) アイコンを使用してアクセスするランディングページのプロパティを編集し、「**[!UICONTROL Access & loading]**」パラメーターを表示します。
 
    ![](assets/lp_edit_properties_button.png)
 
-1. Select **[!UICONTROL Preload visitor data]**.
+1. 「**[!UICONTROL Preload visitor data]**」を選択します。
 
-   ページの訪問者がデータベース内のプロファイルに対応する場合、そのデータはデータベースデータにマップされたフォームのフィールドに表示され、ランディングページのパーソナライゼーション要素が考慮されます。
+   ページの訪問者がデータベース内のプロファイルに該当する場合、データベースのデータがマップされているフォームのフィールドにその訪問者のデータが表示され、ランディングページのパーソナライゼーション要素が適用されます。
 
    ![](assets/lp_parameters_3.png)
 
 また、次のこともできます。
 
-* 次のオプションを使用して、URLパラメーターを使用して訪問者を識別 **[!UICONTROL Authorize visitor identification via URL parameters]** します。次に、読み込みキーを選択し、対応するURLのパラメーターを使用してフィルターパラメーターをマッピングする必要があります。
-* このオプションを使用して、すべての訪問者がランディングページにアクセスすることを許 **[!UICONTROL Authorize unidentified visitors]** 可します。
+* 「**[!UICONTROL Authorize visitor identification via URL parameters]**」オプションを選択し、URL パラメーターを使用して訪問者を識別します。次に、読み込みキーを選択し、フィルターパラメーターを対応する URL のパラメーターとマッピングする必要があります。
+* 「**[!UICONTROL Authorize unidentified visitors]**」オプションを使用して、ランディングページにアクセスするすべての訪問者を認証します。
 
-ランディングページは、組織単位にリンクすることもできます。 これにより、様々なランディングページへのユーザーのアクセスが定義されます。 組織単位を割り当てるには：
+ランディングページは、組織単位にリンクすることもできます。これにより、各種のランディングページへのユーザーのアクセスが定義されます。組織単位を割り当てるには、次の手順に従います。
 
-1. アイコンを使用してランディングページのプロパティにアク **[!UICONTROL Edit properties]** セスします。
+1. 「**[!UICONTROL Edit properties]**」アイコンからランディングページのプロパティにアクセスします。
 
    ![](assets/lp_parameters_google3.png)
 
-1. を展開しま **[!UICONTROL Access authorization]**&#x200B;す。
+1. 「**[!UICONTROL Access authorization]**」を展開します。
 
-1. ドロップダウンメニューをクリックし、組織単位を選択します。 組織単位の作成方法の詳細については、このページを参照してく [ださい](../../administration/using/organizational-units.md)。
+1. ドロップダウンメニューをクリックし、組織単位を選択します。組織単位の作成方法の詳細については、この[ページ](../../administration/using/organizational-units.md)を参照してください。
 
    ![](assets/lp_org_unit_2.png)
 
-1. 、およ **[!UICONTROL Created by]**&#x200B;び各フ **[!UICONTROL Created]**&#x200B;ィー **[!UICONTROL Access authorization]** ルドが自 **[!UICONTROL Last modified]** 動的に入力されます。
+1. 「**[!UICONTROL Created by]**」、「**[!UICONTROL Created]**」、「**[!UICONTROL Access authorization]**」、「**[!UICONTROL Last modified]**」の各フィールドは自動的に入力されます。
 
-1. 「&gt;」をク **[!UICONTROL Confirm]** リックしま **[!UICONTROL Save]**&#x200B;す。
+1. 「**[!UICONTROL Confirm]**」、「**[!UICONTROL Save]**」の順にクリックします。
 
-これで、選択した組織単位内のユーザーのみがランディングページにアクセスし、管理できるようになります。
+これで、選択した組織単位内のユーザーのみがランディングページにアクセスして管理できるようになります。
 
 ![](assets/lp_org_unit_3.png)
 
-## Google reCAPTCHAの設定 {#setting-google-recaptcha}
+## Google reCAPTCHA の設定 {#setting-google-recaptcha}
 
-ランディングページにGoogle reCAPTCHA V3を設定して、ボットによるスパムや悪用からGoogle ReCAPTCHA V3を保護できます。 ランディングページでこのページを使用するには、まず外部アカウントを作成する必要があります。 設定方法の詳細については、この節を参照してく [ださい](../../administration/using/external-accounts.md#google-recaptcha-external-account)。
+ランディングページで Google reCAPTCHA V3 を設定すると、ボットによるスパムや悪用からランディングページを保護できます。ランディングページで使用するには、まず外部アカウントを作成する必要があります。設定方法について詳しくは、この[節](../../administration/using/external-accounts.md#google-recaptcha-external-account)を参照してください。
 
-Google reCAPTCHA V3外部アカウントが設定されたら、それをランディングページに追加できます。
+設定した Google reCAPTCHA V3 外部アカウントは、ランディングページに追加できます。
 
-1. ランディングページを公開する前に、ランディングページのダッシュボードからアイコンを使用してアク ![](assets/edit_darkgrey-24px.png) セスしたページのプロパティにアクセスします。
+1. ランディングページを公開する前に、ランディングページダッシュボードの ![](assets/edit_darkgrey-24px.png) アイコンを使用してページのプロパティにアクセスします。
 
    ![](assets/lp_parameters_google3.png)
 
-1. メニューを展開 **[!UICONTROL Access & loading]** します。
-1. Check the **[!UICONTROL Use reCAPTCHA to protect your site from spam and abuse]** option.
-1. 以前に作成したGoogle reCAPTCHA外部アカウントを選択します。
+1. **[!UICONTROL Access & loading]** メニューを展開します。
+1. 「**[!UICONTROL Use reCAPTCHA to protect your site from spam and abuse]**」オプションをオンにします。
+1. 作成した Google reCAPTCHA 外部アカウントを選択します。
 
    ![](assets/lp_parameters_google.png)
 
-1. Click **[!UICONTROL Confirm]**.
+1. 「**[!UICONTROL Confirm]**」をクリックします。
 
-これで、ランディングページがGoogle reCAPTCHAで設定され、ページの下部に表示されます。
+ランディングページに Google reCAPTCHA が設定され、ページの下部に表示されます。
 
 ![](assets/lp_parameters_google2.png)
 
-その後、Google reCAPTCHAは、ユーザーのページでのインタラクションに基づいてスコアを返します。 スコアを確認するには、 [Google管理コンソールに接続します](https://g.co/recaptcha/admin)。
+その後、Google reCAPTCHA は、ページでのユーザーのインタラクションに基づいてスコアを返します。スコアを確認するには、[Google 管理コンソール](https://g.co/recaptcha/admin)に接続します。
