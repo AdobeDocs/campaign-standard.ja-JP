@@ -1,6 +1,6 @@
 ---
-title: カスタムリソースの書き出し/読み込み
-description: このチュートリアルでは、カスタムリソースのパッケージを書き出しおよび読み込みする方法について説明します。
+title: カスタムリソースのエクスポートとインポート
+description: このチュートリアルでは、カスタムリソースのパッケージのエクスポートとインポートの方法について説明します。
 page-status-flag: never-activated
 uuid: 631f0fbd-9e8d-4f77-a338-fcb7f4fc1774
 contentOwner: sauviat
@@ -11,77 +11,80 @@ topic-tags: data-management-activities
 discoiquuid: a06509f9-4731-4187-b43d-3bfa361284d3
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b10a4b3a81d676e279a9514530158286d58db813
+workflow-type: ht
+source-wordcount: '629'
+ht-degree: 100%
 
 ---
 
 
-# カスタムリソースの書き出し/読み込み {#exporting-importing-custom-resources}
+# カスタムリソースのエクスポートとインポート {#exporting-importing-custom-resources}
 
-このチュートリアルでは、カスタムリソースのパッケージを開発環境から実稼働環境に書き出し、読み込む方法について説明します。
+このチュートリアルでは、カスタムリソースのパッケージを開発環境からエクスポートして実稼働環境にインポートする方法を説明します。
 
-この例は、Adobe Campaignにリンクされた機能管理者を対象としています。
+この例は、Adobe Campaign にリンクされている機能管理者を対象としています。
 
-前提条件は次のとおりです。
+前提は次のとおりです。
 
-* **使用可能で公開されている** 1つ以上のカスタムリソース。
+* **1 つ以上のカスタムリソース**：使用可能で公開されていること。
 
-   また、自動主キーはパッケージにエクスポートされないので、これらのリソースの固有キーを定義する必要があります。 したがって、リソースは主キーと追加の一意キーを持ち、レコードの一意性を保証できます。
-* **パッケージを作成** 、書き出すために必要な権限。
+   また、自動プライマリキーはエクスポートされたパッケージに含まれていないので、一意のキーを定義しておく必要があります。そうすることで、リソースのレコードの一意性を、プライマリキーと追加される一意キーによって保証できます。
+* パッケージの作成とエクスポートに&#x200B;**必要な権限**。
 
 その他のリソース：
 
 * [パッケージの管理](../../automating/using/managing-packages.md)
-* [パッケージの展開：運営原理](../../developing/using/data-model-concepts.md)
+* [パッケージのデプロイ：動作の仕組み](../../developing/using/data-model-concepts.md)
 * [リソースの追加または拡張](../../developing/using/key-steps-to-add-a-resource.md)
 
-## 構造の書き出し {#exporting-the-structure}
+## 構造のエクスポート {#exporting-the-structure}
 
-この節では、カスタムリソースデータの物理構造の詳細を示す最初のパッケージエクスポートを行います。
+この節では、カスタムリソースデータの物理構造の詳細を示す最初のパッケージをエクスポートします。
 
-この例には2つのカスタムリソースがあります。製 **品** 、 **注文**。
+この例には&#x200B;**製品**&#x200B;と&#x200B;**注文**&#x200B;の 2 つのカスタムリソースがあります。
 
-1. / /メニューに **[!UICONTROL Administration]** 移動し **[!UICONTROL Deployment]** てく **[!UICONTROL Package exports]** ださい。
+1. **[!UICONTROL Administration]**／**[!UICONTROL Deployment]**／**[!UICONTROL Package exports]**&#x200B;メニューに移動します。
 
-   2つのカスタムリソース「製品」と「注文件数」でフィルタ **[!UICONTROL Custom resource (cusResource)]** ーされたをエクスポートする新しいパッケージを作成します。
+   ここでは、「製品」と「注文」の 2 つのカスタムリソースでフィルタリングした&#x200B;**[!UICONTROL Custom resource (cusResource)]**&#x200B;をエクスポートするための新しいパッケージを作成します。
 
-1. ページで、を **[!UICONTROL Package exports]** クリックして新し **[!UICONTROL Create]** いパッケージを作成します。
-1. ラベルに情報を入力し、をクリックしま **[!UICONTROL Create element]**&#x200B;す。
+1. **[!UICONTROL Package exports]**&#x200B;ページで、「**[!UICONTROL Create]**」をクリックして新しいパッケージを作成します。
+1. ラベルに情報を入力し、「**[!UICONTROL Create element]**」をクリックします。
 
    ![](assets/cusresources_export1.png)
 
-1. を検索し、選択します **[!UICONTROL Custom resource (cusResource)]**。
+1. 「**[!UICONTROL Custom resource (cusResource)]**」を検索して選択します。
 
    ![](assets/cusresources_export2.png)
 
-1. フィルター条件で「製品」と「注文 **[!UICONTROL Custom resource]** 」の2つのリソースを選択し **て** 、の詳細を設定します ****。
+1. **[!UICONTROL Custom resource]**&#x200B;の詳細を、フィルター条件で「**製品**」と「**注文**」の 2 つのリソースを選択して設定します。
 
-   論理演算子を変更するのを忘れないでください。 製品リソースと注文リソースの構造がパッケージに統合されるように、この値を **OR** （論理和）に設定する必要があります。
+   注意：論理演算子を変更することを忘れないでください。製品リソースと注文リソースの構造がパッケージに統合されるように、値を **OR** に設定する必要があります。
 
    ![](assets/cusresources_export3.png)
 
 1. パッケージ定義を確認して保存します。
 
-これで、をクリックできま **[!UICONTROL Start export]**&#x200B;す。
+これで、「**[!UICONTROL Start export]**」をクリックできます。
 
 ![](assets/cusresources_export4.png)
 
-生成されたパッケージは、Downloadsフォルダーで入手できます。 zipファイルの名前がランダムに生成されます。 名前は変更できます。
+生成されたパッケージは、ダウンロードフォルダーから入手できます。zip ファイルの名前はランダムに生成されます。この名前は変更できます。
 
-## データの書き出し {#exporting-the-data}
+## データのエクスポート {#exporting-the-data}
 
-この2回目のエクスポートでは、製品と注文のカスタムリソースからデ **ータを** エクス **ポートできます** 。
+次のエクスポートでは、**製品**&#x200B;と&#x200B;**注文**&#x200B;のカスタムリソースからデータをエクスポートします。
 
-構造エクスポートと同じタイプのエクスポートに基づいて、データを含む2つ目のパッケージを作成します。
+構造のエクスポートと同じタイプのエクスポートに基づいて、データを含んだ 2 つ目のパッケージを作成します。
 
-1. ページで、を **[!UICONTROL Package exports]** クリックして新し **[!UICONTROL Create]** いパッケージを作成します。
-1. を使用してラベルに記入し、 **[!UICONTROL Export data of my resources]** タブ内のを **[!UICONTROL Create element]** クリック **[!UICONTROL Export content]** します。
-1. 製品リソースを検索して選 **択します** 。
+1. **[!UICONTROL Package exports]**&#x200B;ページで、「**[!UICONTROL Create]**」をクリックして新しいパッケージを作成します。
+1. 「**[!UICONTROL Export data of my resources]**」というラベルを入力して、「**[!UICONTROL Create element]**」を「**[!UICONTROL Export content]**」タブでクリックします。
+1. **製品**&#x200B;リソースを検索して選択します。
 
    ![](assets/cusresources_exportdata1.png)
 
-1. 「 **@Label IS NOT NULL」を使用し** て **、アドバンスフィルタ**&#x200B;ー条件を設定します。
+1. **@Label IS NOT NULL** を使用して高度な&#x200B;**フィルター条件**&#x200B;を設定します。
 
    ![](assets/cusresources_exportdata2.png)
 
@@ -89,57 +92,57 @@ source-git-commit: b10a4b3a81d676e279a9514530158286d58db813
 
    ![](assets/cusresources_exportdata3.png)
 
-1. Ordersカスタムリソースに対して同じ操 **作を繰り返し** ます。
+1. **注文**&#x200B;のカスタムリソースに対しても同じ操作を繰り返します。
 
    ![](assets/cusresources_exportdata4.png)
 
 1. パッケージ定義を確認して保存します。
 
-これで、をクリックできま **[!UICONTROL Start export]**&#x200B;す。
+これで、「**[!UICONTROL Start export]**」をクリックできます。
 
 ![](assets/cusresources_exportdata5.png)
 
-生成されたパッケージは、Downloadsフォルダーで入手できます。 zipファイルの名前がランダムに生成されます。 名前は変更できます。
+生成されたパッケージは、ダウンロードフォルダーから入手できます。zip ファイルの名前はランダムに生成されます。この名前は変更できます。
 
-## 構造の読み込み {#importing-the-structure}
+## 構造のインポート {#importing-the-structure}
 
-### パッケージの読み込み {#importing-the-structure-package}
+### パッケージのインポート {#importing-the-structure-package}
 
-1. 新しく作成したパ **ッケージの読み込み先の** 、ターゲットインスタンスに接続します。
-1. / **[!UICONTROL Administration]** /メニューに移動 **[!UICONTROL Deployment]** し **[!UICONTROL Package imports]** て、新しいパッケージを作成し、最初の書き出しからファイルを読み込みます。
-1. この目的で指定したゾ **ーンに** 、構造ファイルをドラッグ&amp;ドロップします。 使用できる形式はZIPまたはXMLです。
+1. 新しく作成したパッケージのインポート先となる&#x200B;**ターゲットインスタンス**&#x200B;に接続します。
+1. **[!UICONTROL Administration]**／**[!UICONTROL Deployment]**／**[!UICONTROL Package imports]**&#x200B;メニューに移動して、新しいパッケージを作成し、最初のエクスポートからファイルをインポートします。
+1. インポートファイル用のゾーンに&#x200B;**構造ファイル**&#x200B;をドラッグ＆ドロップします。使用できる形式は ZIP または XML です。
 
    ![](assets/cusresources_import2.png)
 
-1. ラベルを変更し(例：「構造を読み込み **」)、**「」をクリックしま **[!UICONTROL Save]**&#x200B;す。
-1. Click **[!UICONTROL Start import]**.
+1. ラベルを変更し（例えば「**Import structure**」など）、「**[!UICONTROL Save]**」をクリックします。
+1. 「**[!UICONTROL Start import]**」をクリックします。
 
    ![](assets/cusresources_import3.png)
 
-### パブリッシュ {#publish-structure}
+### 公開 {#publish-structure}
 
-1. / /メニューに **[!UICONTROL Administration]** 移動し **[!UICONTROL Development]** てく **[!UICONTROL Publication]** ださい。
-1. 「&gt;」を **[!UICONTROL Prepare publication]** クリック **[!UICONTROL Publish]** し、新しいカスタムリソースのデータでインスタンスを更新します。
-1. インストールされたパッケージに対応するメニューエントリがメニューに挿入さ **[!UICONTROL Client data]** れます。
+1. **[!UICONTROL Administration]**／**[!UICONTROL Development]**／**[!UICONTROL Publication]**&#x200B;メニューに移動します。
+1. 「**[!UICONTROL Prepare publication]**」、「**[!UICONTROL Publish]**」を順にクリックすると、新しいカスタムリソースのデータでインスタンスが更新されます。
+1. インストールされたパッケージに対応するメニューエントリが&#x200B;**[!UICONTROL Client data]**&#x200B;メニューに挿入されます。
 
    ![](assets/cusresources_import1.png)
 
 ## データのインポート {#importing-the-data}
 
-この節では、前の手順でインスタンスにイ **ンストールされたパッケージに** 、リンクされたデータをインポートします。
+この節では、前の手順でインスタンスにインストールしたパッケージにリンクされている&#x200B;**データをインポート**&#x200B;します。
 
-前の手順と同様に、次の2つの部分に分割されます。パッケージの読み込みと公開を参照してください。
+前の手順と同様に、2 つの部分（パッケージのインポートと公開）に分けられます。
 
-### パッケージの読み込み {#importing-the-data-package}
+### パッケージのインポート {#importing-the-data-package}
 
-1. / **[!UICONTROL Administration]** /メニューに移動し **[!UICONTROL Deployment]** て、 **[!UICONTROL Package imports]** 新しいパッケージを作成し、データを含むファイルを読み込みます。
-1. データファイルを、この目的で指定したゾーンにドラッグ&amp;ドロップします。 使用できる形式はZIPまたはXMLです。
-1. 「データのインポート」などのラベルを変更し、をクリックしま **[!UICONTROL Save]**&#x200B;す。
-1. Click **[!UICONTROL Start import]**.
+1. **[!UICONTROL Administration]**／**[!UICONTROL Deployment]**／**[!UICONTROL Package imports]**&#x200B;メニューに移動して、新しいパッケージを作成し、データを含んだファイルをインポートします。
+1. インポートファイル用のゾーンにデータファイルをドラッグ＆ドロップします。使用できる形式は ZIP または XML です。
+1. 「Import data」などとラベルを変更し、「**[!UICONTROL Save]**」をクリックします。
+1. 「**[!UICONTROL Start import]**」をクリックします。
 
    ![](assets/cusresources_importdata.png)
 
-### パブリッシュ {#publish-data}
+### 公開 {#publish-data}
 
-1. / /メニューに **[!UICONTROL Administration]** 移動し **[!UICONTROL Development]** てく **[!UICONTROL Publication]** ださい。
-1. 「次へ」を **[!UICONTROL Prepare publication]** クリック **[!UICONTROL Publish]** して、カスタムリソースのデータでインスタンスを更新します。
+1. **[!UICONTROL Administration]**／**[!UICONTROL Development]**／**[!UICONTROL Publication]**&#x200B;メニューに移動します。
+1. 「**[!UICONTROL Prepare publication]**」、「**[!UICONTROL Publish]**」を順にクリックすると、カスタムリソースのデータでインスタンスが更新されます。
