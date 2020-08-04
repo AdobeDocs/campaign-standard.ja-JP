@@ -1,41 +1,44 @@
 ---
 title: SMS とプッシュコンテンツのデザインについて
-description: Adobe CampaignでSMSメッセージの内容やプッシュ通知の変更に使用するエディターについて説明します。
-page-status-flag: 非活性化の
+description: Adobe Campaign で SMS メッセージとプッシュ通知のコンテンツを変更するために使用されるエディターについて説明します。
+page-status-flag: never-activated
 uuid: 99277e46-e4f7-49a9-ba27-b878780f90da
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 設計
-content-type: 参照
+audience: designing
+content-type: reference
 topic-tags: editing-sms-and-push-content
 discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
 context-tags: delivery,smsContent,back
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+workflow-type: ht
+source-wordcount: '165'
+ht-degree: 100%
 
 ---
 
 
 # SMS とプッシュコンテンツのデザインについて{#about-sms-and-push-content-design}
 
-コンテンツエディターを使用して、Adobe CampaignでSMSメッセージやプッシュ通知のコンテンツを定義、変更、パーソナライズします。
+コンテンツエディターを使用して、Adobe Campaign で SMS メッセージとプッシュ通知のコンテンツを定義、変更、およびパーソナライズします。
 
-ここでは、 [SMSとプッシュコンテンツエディタインターフェイスを含む、SMSとプッシュコンテンツエディタの特性について説明します](../../channels/using/sms-and-push-content-editor-interface.md)。
+ここでは、[SMS およびプッシュコンテンツエディターインターフェイス](../../channels/using/sms-and-push-content-editor-interface.md)を含む、SMS およびプッシュコンテンツエディターの特性について説明します。
 
-1つ以上のマーケティングアクティビティに共通するアクションを、以下の節に示します。
+1 つ以上のマーケティングアクティビティに共通するアクションについては、次の節で示します。
 
-* SMSまたはプッシュ通知コンテンツの個人設定の詳細については、「個人設定フィ [ールドの挿入](../../designing/using/personalization.md#inserting-a-personalization-field) 」および「コンテ [ンツブロックの追加](../../designing/using/personalization.md#adding-a-content-block)」を参照してください。
-* SMSメッセージまたはプッシュ通知での条件テキストの定義について詳しくは、「動的テキストの定義」 [を参照してくださ](../../channels/using/defining-dynamic-text.md)い。
+* SMS またはプッシュ通知コンテンツの個人設定については、[パーソナライゼーションフィールドの挿入](../../designing/using/personalization.md#inserting-a-personalization-field)および[コンテンツブロックの 追加](../../designing/using/personalization.md#adding-a-content-block)を参照してください。
+* SMS メッセージまたはプッシュ通知での条件テキストの定義について詳しくは、[動的テキストの定義](../../channels/using/defining-dynamic-text.md)を参照してください。
 
-SMSおよびプッシュコンテンツエディタにアクセスするには：
+SMS およびプッシュコンテンツエディターにアクセスするには：
 
-* SMSダッシュボー **[!UICONTROL Content]** ドのブロックをクリックします。
+* SMS ダッシュボードの「**[!UICONTROL Content]**」ブロックをクリックします。
 
    ![](assets/des_sms_content.png)
 
-* プッシュ通知ダッシュボードのフィールド **[!UICONTROL Message body]** の横にある鉛筆をクリックします。
+* プッシュ通知ダッシュボードの「**[!UICONTROL Message body]**」フィールドの横にある鉛筆アイコンをクリックします。
 
    ![](assets/des_push_body.png)
 
