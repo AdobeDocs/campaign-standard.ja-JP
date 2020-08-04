@@ -1,6 +1,6 @@
 ---
 title: ランディングページフォームデータの管理
-description: フォームデータのランディングページを管理する方法。
+description: ランディングページフォームデータを管理する方法について説明します。
 page-status-flag: never-activated
 uuid: 5b222ea2-6628-457f-a618-bfc0e5eb93dd
 contentOwner: lemaitre
@@ -12,53 +12,56 @@ discoiquuid: 899c7152-f415-4df9-b4b4-5ff3470a4e32
 context-tags: landingPage,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8c24e048c698f7ad699e83a753c114fcfd25f6a0
+workflow-type: ht
+source-wordcount: '394'
+ht-degree: 100%
 
 ---
 
 
 # ランディングページフォームデータの管理{#managing-landing-page-form-data}
 
-## フォームデータのランディングページプロパティの変更{#changing-a-landing-page-form-data-properties}
+## ランディングページフォームデータプロパティの変更{#changing-a-landing-page-form-data-properties}
 
-データベースフィールドは、入力ゾーン、ラジオボタン、チェックボックスタイプブロックにリンクできます。 これを行うには、ブロックを選択し、パレットにを **[!UICONTROL Form data]** 入力します。
+データベースフィールドを入力ゾーン、ラジオボタンまたはチェックボックスタイプのブロックにリンクできます。これをおこなうには、ブロックを選択し、パレットに **[!UICONTROL Form data]** を入力します。
 
 ![](assets/delivery_content_9.png)
 
-* **Field** Inputゾーンを使用すると、フォームフィールドにリンクするデータベースフィールドを選択できます。
-* The **Mandatory** option lets you only authorize the page&#39;s submission if the user has filled in the field. 必須フィールドが入力されていない場合は、エラーメッセージが表示されます。
+* **Field** 入力ゾーンを使用すると、フォームフィールドとリンクするためのデータベースフィールドを選択できます。
+* 「**Mandatory**」オプションを使用すると、ユーザーがフィールドに入力した場合にのみページの送信を承認します。必須フィールドに入力されていない場合、エラーメッセージが表示されます。
 
 ## フォームフィールドのマッピング {#mapping-form-fields}
 
-入力フィールドは、データベースにデータを格納または更新するキャンペーンです。 この場合、データベースフィールドを入力ゾーン、ラジオボタンまたはチェックボックスタイプブロックにリンクする必要があります。 手順は次のとおりです。
+入力フィールドは、Campaign データベースにデータを格納または更新するために使用します。これをおこなうには、データベースフィールドを入力ゾーン、ラジオボタンまたはチェックボックスタイプのブロックにリンクする必要があります。手順は次のとおりです。
 
-1. ブロックを選択します。ランディングページ内で
-1. パレットのパ **[!UICONTROL Form data]** ーツを完成させます。
+1. ランディングページでブロックを選択します。
+1. パレットの **[!UICONTROL Form data]** 部分を完成させます。
 
    ![](assets/editing_lp_content_4.png)
 
-1. データベースフィールドを選択し、選択ゾーンのフォームフィールドとリン **[!UICONTROL Field]** クします。 ランディングページは **プロファイルとのみマップできます**。
+1. データベースフィールドを選択し、**[!UICONTROL Field]** 選択ゾーンのフォームフィールドとリンクします。ランディングページとマッピングできるのは **Profiles** のみです。
 
-1. 必要に応じて、このオ **[!UICONTROL Mandatory]** プションを選択します。 ページは、ユーザーがこのフィールドを完了した場合にのみ送信できます。 必須フィールドが未入力の場合は、ユーザーがページを検証する際にエラーメッセージが表示されます。
+1. 必要に応じて、「**[!UICONTROL Mandatory]**」オプションを選択します。ページは、ユーザーがこのフィールドに入力した場合にのみ送信できます。必須フィールドが未入力の場合、ユーザーがページを検証するとエラーメッセージが表示されます。
 
-1. フィールドの種類を定義するには、例えば、 **[!UICONTROL Text]**&#x200B;または **[!UICONTROL Number]**&#x200B;選択領域 **[!UICONTROL Date]** でを選択 **[!UICONTROL HTML type of the field]** します。
-必須を選択する場合は、そ **[!UICONTROL Checkbox]**&#x200B;のタイプであることを確認し **[!UICONTROL Field]** ます。
+1. フィールドのタイプを定義するには、**[!UICONTROL HTML type of the field]** 選択領域で、「**[!UICONTROL Text]**」、「**[!UICONTROL Number]**」、「**[!UICONTROL Date]**」などを選択します。
+必須の **[!UICONTROL Checkbox]** を選択する場合は、そのタイプが **[!UICONTROL Field]** であることを確認します。
 
 >[!NOTE]
 >
->組み込みフィールドのデフォルトのランディングページは事前に設定されています。 必要に応じて変更できます。
+>組み込みランディングページのデフォルトのフィールドは事前に設定されています。必要に応じて変更できます。
 
-## データのストレージと調整{#data-storage-and-reconciliation}
+## データのストレージと紐付け{#data-storage-and-reconciliation}
 
-データ調整パラメーターを使用すると、ランディングページに入力されたデータを、ユーザーが送信した後で管理する方法を定義できます。
+データ紐付けパラメーターを使用すると、ランディングページに入力されたデータが送信された後の管理方法を定義できます。
 
 手順は次のとおりです。
 
-1. アイコンを使用してアクセスするランディングページ ![](assets/edit_darkgrey-24px.png) のプロパティを編集し、ランディングページダッシュボードを表示 **[!UICONTROL Job]** します。
+1. ランディングページダッシュボードの ![](assets/edit_darkgrey-24px.png) アイコンを使用してアクセスするランディングページのプロパティを編集し、「**[!UICONTROL Job]**」パラメーターを表示します。
 
    ![](assets/lp_parameters_4.png)
 
-1. 以下を選択しま **[!UICONTROL Reconciliation key]**&#x200B;す。これらのデータベースフィールド(例：電子メール、名、姓)は、訪問者に既知のプロファイルがあるかどうかを判断するために使用されます。 これにより、定義された更新方法のプロファイルに従って、戦略を更新または作成できます。
-1. 次を定義しま **[!UICONTROL Form parameter mapping]**&#x200B;す。この節では、ランディングページフィールドパラメーターと、そのパラメーターで使用されるパラメーターをマッピングできます。紐付けキー
-1. 以下を選択しま **[!UICONTROL Update strategy]**&#x200B;す。紐付けキーが既存のデータベースプロファイルを回復した場合は、このプロファイルをフォームに入力されたデータで更新するか、この更新を行わないかを選択できます。
+1. **[!UICONTROL Reconciliation key]** を選択：これらのデータベースフィールド（例：E メール、名、姓）は、Adobe Campaign データベース内に訪問者のプロファイルが既に存在するかどうかを判断するために使用されます。これにより、定義した更新方法のパラメーターに従って、プロファイルを更新または作成できます。
+1. **[!UICONTROL Form parameter mapping]** を定義：このセクションでは、ランディングページフィールドのパラメーターと、紐付けキーで使用するパラメーターをマップできます。
+1. **[!UICONTROL Update strategy]** を選択：紐付けキーが既存のデータベースプロファイルを回復した場合、フォームに入力されたデータを使用してこのプロファイルを更新するか、この更新を実行しないかを選択できます。
