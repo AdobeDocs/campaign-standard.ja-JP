@@ -1,19 +1,22 @@
 ---
 title: 高度な式の編集
-description: Query Editionウィザードを使用すると、高度な式を定義できます。
-page-status-flag: 非活性化の
+description: クエリ編集ウィザードでは、高度な式を定義できます。
+page-status-flag: never-activated
 uuid: a635f999-27ce-41e0-a88c-8a3882e31efe
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 自動化
-content-type: 参照
+audience: automating
+content-type: reference
 topic-tags: filtering-data
 discoiquuid: 4375153c-0621-4d4c-bfcc-66d157f04f6c
 context-tags: queryFilter,overview;audience,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+workflow-type: ht
+source-wordcount: '1091'
+ht-degree: 100%
 
 ---
 
@@ -22,43 +25,43 @@ source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
 
 ## 高度な式の編集について {#about-advanced-expression-editing}
 
-式を編集する場合は、手動で条件を入力してルールを作成します。
+式を編集する場合は、条件を手動で入力してルールを作成します。
 
-このモードでは、高度な機能を使用できます。 これらの関数を使用すると、日付、文字列、数値フィールド、並べ替えなどの特定のクエリを実行する際に使用する値を操作できます。
+このモードでは、高度な関数を使用できます。これらの関数を使用すると、日付、文字列、数値の各フィールドの操作や並べ替えなど、具体的なクエリの実行に使用する値を操作できます。
 
-また、式の編集時にイベント変数を使用することもできます。 詳しくは、「イベント変数を使用したアクティビティ [のカスタマイズ」の節を参照してくださ](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables) い。
+また、式の編集時にイベント変数を使用することもできます。詳しくは、[イベント変数を使用したアクティビティのカスタマイズ](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables)の節を参照してください。
 
-式は次の目的で編集できます。
+式は、次の目的で使用できます。
 
-* ルールの追加時に使用できるオ **[!UICONTROL Advanced mode]** プションを使用して、クエリを定義します。
+* ルールの追加時に使用できる「**[!UICONTROL Advanced mode]**」オプションでクエリを定義する。
 
    ![](assets/expression_editor_2.png)
 
-* ワークフロー内の式を編集します。 例えば、アクティビティに追加のデータを追加する場合です。
-* 表示条件を編集して、HTMLコンテンツエディターでのブロックの表示方法を定義します。 この場合、式はJavaScript形式で編集され、標準として高度な関数を使用することはできません。
+* ワークフロー内で式を編集する。例えば、アクティビティにデータを追加する場合などです。
+* 表示条件を編集して、HTML コンテンツエディターでブロックがどう表示されるかを定義する。この場合、式は JavaScript 形式で編集され、標準では高度な関数を使用できません。
 
 ## 式の編集 {#edit-an-expression}
 
-Advanced expression editionでは、ニーズに合った式を手動で定義できます。
+高度な式の編集では、具体的な要件に応じて式を手動で定義することができます。
 
-式の編集は、電子メールの作成時にオーディエンスウィンドウで使用したり、ワークフローの作成時にクエリアクティビティで使用したりできます。
+式の編集は、E メールの作成時にオーディエンスウィンドウで、また、ワークフローの作成時に「クエリ」アクティビティで使用することができます。
 
-1. 「高度な式の編集について」で詳しく説明している方法の1つを使用して、式の [編集ウィンドウにアクセスします](../../automating/using/advanced-expression-editing.md#about-advanced-expression-editing) 。 次の要素が含まれます。
+1. [高度な式の編集について](../../automating/using/advanced-expression-editing.md#about-advanced-expression-editing)の節で説明した方法のいずれかで、式の編集ウィンドウにアクセスします。このウィンドウには次の要素が含まれています。
 
-   * 式が定義されている入力フィールド。
-   * 式で使用でき、クエリーのターゲットディメンションに対応する、使用可能なフィールドのリストです(ディメンションとリソ [ースのターゲット](../../automating/using/query.md#targeting-dimensions-and-resources))。
-   * カテゴリ別に並べ替えた、使用可能な関数のリスト。
+   * 式を定義するための入力フィールド。
+   * 式で使用でき、かつクエリのターゲティングディメンションに対応するフィールドの一覧（[ターゲティングディメンションとリソース](../../automating/using/query.md#targeting-dimensions-and-resources)を参照）。
+   * 使用可能な関数のカテゴリ別一覧。
    ![](assets/expression_editor_1.png)
 
-1. 式を編集するには、対応するフィールドに式を直接入力するか、使用可能なフィールドと関数のリストを使用します。
+1. 対応する入力フィールドに式を直接入力するか、使用可能なフィールドや関数の一覧を使用して、式を編集します。
 
-   フィールドまたは式をダブルクリックすると、カーソルが置かれた式に追加されます。
+   フィールドまたは関数をダブルクリックすると、式のカーソル位置に、そのフィールドまたは関数が追加されます。
 
-   ワークフローのイベント変数を使用して式を作成できます。 詳しくは、「イベント変数を使用したアクティビティ [のカスタマイズ」の節を参照してくださ](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables) い。
+   ワークフローのイベント変数を使用して式を作成できます。詳しくは、[イベント変数を使用したアクティビティのカスタマイズ](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables)の節を参照してください。
 
-1. 必要に応じて、ルールに特定の名前を付けます。 入力した名前は、クエリエディターワークスペースにルール名として表示されます。
+1. 必要に応じて、ルールに具体的な名前を付けます。入力した名前は、クエリエディターワークスペースにルール名として表示されます。
 
-式を編集すると、必要に応じて訪問者をターゲット設定するために、オーディエンス式をパーソナライズできます。
+式を編集すると、オーディエンス式をパーソナライズして、母集団を必要に応じてターゲットにすることができます。
 
 **関連トピック：**
 
@@ -69,71 +72,71 @@ Advanced expression editionでは、ニーズに合った式を手動で定義�
 
 ### 標準構文 {#standard-syntax}
 
-標準式は、次の構文要素を考慮した1つまたは複数の条件で構成されます。
+標準の式は、次の構文要素に従った 1 つまたは複数の条件で構成されます。
 
-* 各条件は、&lt;value1&gt; &lt;comparison operator&gt; **&lt;value2&gt;の形式で、次のようになります** 。
+* それぞれの条件は、**&lt;値 1>&lt;比較演算子> &lt;値 2>**&#x200B;の形式で記述します。
 
-   * **&lt;value1&gt;はフィールド** または関数です。 例えば、 **プロファイルが作成された日付の場合は** 「@created」、プロファイルが作成された年の場合は「 **Year(@created)** 」です。
-   * **&lt;comparison operator&gt;は** 、比較演算子の節に示す演算子の1 [つです](../../automating/using/advanced-expression-editing.md#comparison-operators) 。 この演算子は、&lt;value1&gt;と **&lt;value2&gt;の間の比較** 方法 **を定義します**。
-   * **&lt;value2&gt;は** 、手動で入力したフィールド、関数、または値です。
+   * **&lt;値 1>** はフィールドまたは関数です。例えば、プロファイルの作成日を表す **@created**、またはプロファイルの作成年を表す **Year(@created)**。
+   * **&lt;比較演算子>** は、[比較演算子](../../automating/using/advanced-expression-editing.md#comparison-operators)の節に記載されている演算子の 1 つです。**&lt;値 1>** と **&lt;値 2>** の間の比較方法をこの演算子で定義します。
+   * **&lt;値 2>** は、手動で入力したフィールド、関数、値のいずれかです。
    >[!NOTE]
    >
-   >&lt;value1&gt; **と&lt;value2&gt;の型のデ** ータは同じである必要があります **** 。 例えば、&lt;value1&gt;が **日付の場合** 、 **&lt;value2&gt;も日付である必要があります** 。
+   >**&lt;値 1>** と **&lt;値 2>** は同じデータ型でなければなりません。例えば、**&lt;値 1>** が日付の場合は、**&lt;値 2>** も日付である必要があります。
 
 * 複数の条件を使用する場合は、論理演算子を使用して組み合わせることができます。
 
-   * **[!UICONTROL AND]**:2つの条件が交差します。
-   * **[!UICONTROL OR]**:2つの条件が組み合わされます。
+   * **[!UICONTROL AND]**：2 つの条件の積集合を取ります。
+   * **[!UICONTROL OR]**：2 つの条件の和集合を取ります。
 
-次に例を示します。
+例：
 
 ```
 Year(@created) = Year(GetDate()) AND Month(@created) = Month(GetDate())
 ```
 
-この例では、作成日が現在の月と年に設定されているプロファイルがターゲットになります。
+この例では、作成日が現在の月と年に該当するプロファイルがターゲットになります。
 
-### JavaScript構文 {#javascript-syntax}
+### JavaScript 構文{#javascript-syntax}
 
-HTMLコンテンツエディターのテキストタイプブロックの表示条件を定義する場合は、式とJavaScriptタイプ構文を使用する必要があります。
+HTML コンテンツエディターでテキストタイプのブロックの表示条件を定義する場合は、JavaScript タイプ構文に従った式を使用する必要があります。
 
-JavaScript式は1つ以上の条件で構成され、次の構文要素を使用します。
+JavaScript 式は 1 つ以上の条件で構成され、次の構文要素を使用します。
 
-* 各条件は、&lt;context&gt; &lt;comparison operator&gt; **&lt;value2&gt;の形式で、次のようになります** 。
+* それぞれの条件は、**&lt;コンテキスト> &lt;比較演算子> &lt;値 2**> の形式で記述します。
 
-   * **&lt;context&gt;は** 、コンテキストを指定できるフィールドまたは関数です。 例えば、 **context.profileとします。プロファイルの** 電子メールアドレスの場合は@email、プロファイルの名の文字数の場合は **context.profile.firstName.length()** 。
-   * **&lt;comparison operator&gt;は** 、比較演算子の節に示す演算子の1 [つです](../../automating/using/advanced-expression-editing.md#comparison-operators) 。 この演算子は、&lt;context&gt;と **&lt;value** 2&gt;の間の比較方法 **を定義します**。
-   * **&lt;value2&gt;は** 、手動で入力したフィールド、関数、または値です。
+   * ここで、**&lt;コンテキスト>** はコンテキストを指定できるフィールドまたは関数です。例えば、プロファイルの E メールアドレスを表す **context.profile.@email** や、プロファイルの名の文字数を表す **context.profile.firstName.length()** を指定します。
+   * **&lt;比較演算子>** は、[比較演算子](../../automating/using/advanced-expression-editing.md#comparison-operators)の節に記載されている演算子の 1 つです。**&lt;コンテキスト>** と **&lt;値 2>** の間の比較方法をこの演算子で定義します。
+   * **&lt;値 2>** は、手動で入力したフィールド、関数、値のいずれかです。
    >[!NOTE]
-   &lt;context&gt; **と&lt;value2&gt;の型のデー** タは同じでなければなりません **** 。 例えば、&lt;context&gt;が日 **付の場合** 、 **&lt;value2&gt;も日付である必要があります** 。
+   **&lt;コンテキスト>** と **&lt;値 2>** は同じデータ型でなければなりません。例えば、**&lt;コンテキスト>** が日付の場合は、**&lt;値 2>** も日付である必要があります。
 
 * 複数の条件を使用する場合は、論理演算子を使用して組み合わせることができます。
 
-   * **[!UICONTROL &&]**:2つの条件が交差します。
-   * **[!UICONTROL ||]**:2つの条件が組み合わされます。
+   * **[!UICONTROL &&]**：2 つの条件の積集合を取ります。
+   * **[!UICONTROL ||]**：2 つの条件の和集合を取ります。
 
-次に例を示します。
+例：
 
 ```
 context.profile.age > 21 && context.profile.firstName.length() > 0
 ```
 
-この例では、21歳を超え、名が指定されているプロファイル( **firstName** フィールドに少なくとも1文字含まれていることを示します)。
+この例では、年齢が 21 歳より上で、かつ名が指定されている（**firstName** フィールドに 1 文字以上記入されている）プロファイルを条件としています。
 
 ## 比較演算子 {#comparison-operators}
 
-一部のルールでは、クエリーエディターで値を選択して条件を定義できます。
+ルールによっては、クエリエディターで値を選択して条件を定義できるものがあります。
 
-条件は、次の演算子のいずれかを使用して値にリンクする必要があります。
+条件は、次のいずれかの演算子を使用して値にリンクする必要があります。
 
 <table> 
  <thead> 
   <tr> 
    <th> 演算子<br /> </th> 
    <th> 標準構文<br /> </th> 
-   <th> JavaScript構文<br /> </th> 
+   <th> JavaScript 構文<br /> </th> 
    <th> 説明<br /> </th> 
-   <th> 例 ：<br /> </th> 
+   <th> 例<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -141,71 +144,71 @@ context.profile.age > 21 && context.profile.firstName.length() > 0
    <td> <span class="uicontrol">次と等しい</span> <br /> </td> 
    <td> =<br /> </td> 
    <td> ==<br /> </td> 
-   <td> 最初の値は、2番目の値と完全に同じである必要があります。<br /> </td> 
-   <td> <strong>@lastName = Martinは</strong> 、姓が「Martin」で、これらの同一の文字のみを含むプロファイルを取得します。<br /> </td> 
+   <td> 1 つ目の値と 2 つ目の値は完全に同一でなければなりません。<br /> </td> 
+   <td> <strong>@lastName = Martin</strong> は、姓が「Martin」と同一の文字列のプロファイルを検索します。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">より大きい</span> <br /> </td> 
    <td> &gt;<br /> </td> 
    <td> &gt;<br /> </td> 
-   <td> 最初の値は、分類的に2番目の値より大きい必要があります。<br /> </td> 
-   <td> <strong>@age &gt; 50</strong> は、「50」より古いプロファイル、「51」、「52」などを取得します。<br /> </td> 
+   <td> 最初の値は、2 番目の値より大きくなければなりません。<br /> </td> 
+   <td> <strong>@age &gt; 50</strong> は、年齢が「50」より上、つまり「51」、「52」などのプロファイルを検索します。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">より小さい</span> <br /> </td> 
    <td> &lt;<br /> </td> 
    <td> &lt;<br /> </td> 
-   <td> 最初の値は、分類的に2番目の値より小さい必要があります。<br /> </td> 
-   <td> <strong>@created &lt; DaysAgo(100)は、100日前にデータベースで作成されたすべてのプロファイルを取得します。</strong><br /> </td> 
+   <td> 最初の値は、2 番目の値より小さくなければなりません。<br /> </td> 
+   <td> <strong>@created &lt; DaysAgo(100)</strong> は、過去 100 日以内にデータベースに作成されたすべてのプロファイルを検索します。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">次よりも大きいか等しい</span> <br /> </td> 
    <td> &gt;=<br /> </td> 
    <td> &gt;=<br /> </td> 
-   <td> 1つ目の値は2つ目の値以上である必要があります。<br /> </td> 
-   <td> <strong>@age &gt;= 30は</strong> 、30歳以上のプロファイルを取得します。<br /> </td> 
+   <td> 最初の値は、2 番目の値より大きいか等しくなければなりません。<br /> </td> 
+   <td> <strong>@age &gt;= 30</strong> は、年齢が 30 歳以上のプロファイルを検索します。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">次よりも小さいか等しい</span> <br /> </td> 
    <td> &lt;=<br /> </td> 
    <td> &lt;=<br /> </td> 
-   <td> 1つ目の値は2つ目の値以下である必要があります。<br /> </td> 
-   <td> <strong>@age &lt;= 60の場合、60歳以下の</strong> プロファイルが取得されます。<br /> </td> 
+   <td> 最初の値は、2 番目の値より小さいか等しくなければなりません。<br /> </td> 
+   <td> <strong>@age &lt;= 60</strong> は、年齢が 60 歳以下のプロファイルを検索します。<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">異な </span> る <br /> </td> 
+   <td> <span class="uicontrol">異なる</span><br /> </td> 
    <td> !=<br /> </td> 
    <td> !=<br /> </td> 
-   <td> 1つ目の値は2つ目の値とは異なる必要があります。<br /> </td> 
-   <td> <strong>@language !=英語</strong> ：英語として定義されていないプロファイルを取得します。<br /> </td> 
+   <td> 最初の値は、2 番目の値と異なっていなければなりません。<br /> </td> 
+   <td> <strong>@language ! = English</strong> は、英語を母語とする人として定義されていないプロファイルを検索します。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">次を含む</span><br /> </td> 
    <td> IN<br /> </td> 
-   <td> なし<br /> </td> 
-   <td> 最初の値には2番目の値が含まれている必要があります。<br /> </td> 
-   <td> <strong>@domain IN mail</strong>。 ここで、'mail'値を持つすべてのドメイン名が結果に返されます。 その結果、返される結果の一部は「gmail.com」ドメイン名で構成されます。<br /> </td> 
+   <td> 該当なし<br /> </td> 
+   <td> 最初の値に、2 番目の値が含まれていなければなりません。<br /> </td> 
+   <td> <strong>@domain IN mail</strong>。この場合、「mail」の値を含むすべてのドメイン名が結果として返されます。したがって、返される結果の一部には、「gmail.com」というドメイン名が含まれます。<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">いいね</span> ! <br /> </td> 
+   <td> <span class="uicontrol">次に類似</span> <br /> </td> 
    <td> LIKE<br /> </td> 
-   <td> なし<br /> </td> 
-   <td> 「<span class="uicontrol">次に類似</span>」は、「<span class="uicontrol">次を含む</span>」演算子と非常によく似ています。検索する値に <span class="uicontrol">%</span> ワイルドカード文字を挿入できます。<br /> </td> 
-   <td> <strong>@lastName LIKEマート%n</strong>. ここで、置換文字 <strong>%</strong> は「冗談」として、スペルが正しくないという仮定の場合に「Martin」という名前を見つけます。<br /> </td> 
+   <td> 該当なし<br /> </td> 
+   <td> 「<span class="uicontrol">次に類似</span>」は、「<span class="uicontrol">次を含む</span>」演算子とよく似ています。検索対象の値にワイルドカード文字 <span class="uicontrol">%</span> を挿入することができます。<br /> </td> 
+   <td> <strong>@lastName LIKE Mart%n</strong>。この場合、置換文字 <strong>%</strong> は「ジョーカー」として機能するので、仮にスペルが間違っていても「Martin」という名前を検索できます。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">次に類似しない</span> <br /> </td> 
-   <td>  NOT<br /> </td> 
-   <td> なし<br /> </td> 
-   <td> 「<span class="uicontrol">次に類似</span>」と似ています。入力した値を元に戻すことはできません。 この演算子でも、入力した値に <span class="uicontrol">％</span> ワイルドカード文字が含まれている必要があります。<br /> </td> 
-   <td> <strong>@lastName NOT Smi%h</strong>。 ここで、受信者は「Smi%h」という名前に対応します（Smithなど）。が返されない場合、<br /> </td> 
+   <td> NOT<br /> </td> 
+   <td> 該当なし<br /> </td> 
+   <td> 「<span class="uicontrol">次に類似</span>」と似ています。入力した値を除外することができます。この演算子でも、入力した値にワイルドカード文字 <span class="uicontrol">%</span> が含まれている必要があります。<br /> </td> 
+   <td> <strong>@lastName NOT Smi%h</strong>。この場合、「Smi%h」に該当する名前（Smith など）の受信者は、結果として返されません。<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">空である</span> <br /> </td> 
+   <td> <span class="uicontrol">空である</span><br /> </td> 
    <td> IS NULL<br /> </td> 
-   <td> なし<br /> </td> 
-   <td> 最初の値は空の値に対応している必要があります。<br /> </td> 
-   <td> <strong>@mobilePhone IS NULLは、携帯電話番号が指定されていないすべてのプロファイルを取得します。</strong><br /> </td> 
+   <td> 該当なし<br /> </td> 
+   <td> 最初の値は、空の値に対応している必要があります。<br /> </td> 
+   <td> <strong>@mobilePhone IS NULL</strong> は、携帯電話番号が入力されていないすべてのプロファイルを検索します。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
