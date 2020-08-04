@@ -1,6 +1,6 @@
 ---
 title: テクニカルワークフロー
-description: テクニカルワークフロー は、標準搭載のワークフローで、Adobe Campaignのバックグラウンド技術プロセスを処理し、プラットフォームの正しい動作を保証します。
+description: テクニカルワークフローは、Adobe Campaign のバックグラウンド技術プロセスを処理し、プラットフォームを正しく動作させるために設計された、標準搭載のワークフローです。
 page-status-flag: never-activated
 uuid: 6e763dc1-e1d3-4d94-bc0b-ef5b1703d8e5
 contentOwner: sauviat
@@ -11,29 +11,32 @@ topic-tags: application-settings
 discoiquuid: e9f147bd-6a5b-4b82-b9bb-311e38e22c62
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b4cbc56973a57cde8af6cefa9ff89c7d29ab7b79
+workflow-type: ht
+source-wordcount: '678'
+ht-degree: 100%
 
 ---
 
 
 # テクニカルワークフロー{#technical-workflows}
 
-テクニカルワークフローはすぐに配信され、Adobe Campaign。 テクニカルワークフローとは、サーバー上で定期的に実行されるようにスケジュールされた操作またはジョブのことです。
+テクニカルワークフローは、Adobe Campaign に標準搭載されています。テクニカルワークフローは、サーバー上で定期的に実行されるようにスケジュールされた処理またはジョブです。
 
-データベースのメンテナンス操作を実行し、配信の追跡情報を利用して、配信の暫定ジョブを更新できます。
+データベースの保守作業を実行し、配信の追跡情報を利用して、配信上の仮ジョブを更新できます。
 
-機能管理者は、メニューのテクニカルワークフローにアクセスで **[!UICONTROL Administration > Application settings > Workflows]** きます。
+機能管理者は、**[!UICONTROL Administration > Application settings > Workflows]** メニューからテクニカルワークフローにアクセスできます。
 
 >[!NOTE]
 >
->機能管理者は、テクニカルワークフローを再起動または一時停止し、プロパティと構造を変更できます。
+>機能管理者は、テクニカルワークフローを再起動または一時停止したり、プロパティと構造を変更することができます。
 
 ![](assets/technical_workflows.png)
 
 ## テクニカルワークフローのリスト {#list-of-technical-workflows}
 
-テクニカルワークフローは、セルフトリガーのバックグラウンドおよび技術的なプロセスをAdobe Campaignで処理します。
+テクニカルワークフローは、Adobe Campaign でセルフトリガーのバックグラウンドプロセスと技術的プロセスの処理に使用されます。
 
 <table> 
  <tbody> 
@@ -43,85 +46,85 @@ source-git-commit: b4cbc56973a57cde8af6cefa9ff89c7d29ab7b79
    <td> <strong>説明</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">A/Bテスト</span><br /> </td> 
-   <td> <span class="uicontrol">abTesting</span><br /> </td> 
-   <td> このワークフローは、各バリアントのトラッキングログを分析します。 A/Bテスト期間の終わりに、勝者のバリアントが自動的に計算されます。 デフォルトでは、毎日開始されます。<br /> </td> 
+   <td> <span class="uicontrol">A/B テスト</span> <br /> </td> 
+   <td> <span class="uicontrol">abTesting</span> <br /> </td> 
+   <td> このワークフローは、各バリアントのトラッキングログを分析します。A/B テスト期間の終了時に、最も効果が高いバリアントを自動的に計算します。デフォルトでは、毎日実行されます。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">請求</span> <br /> </td> 
    <td> <span class="uicontrol">billing</span> <br /> </td> 
-   <td> このワークフローは、システムアクティビティレポートを電子メールで「請求」ユーザーに送信します。 デフォルトでは、毎日午前1時に自動的に開始されます。<br /> </td> 
+   <td> システムアクティビティレポートを「請求」ユーザーにメールで送信します。デフォルトでは、毎日午前 1 時に自動的に実行されます。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">データベースのクリーンアップ</span> <br /> </td> 
    <td> <span class="uicontrol">cleanup</span> <br /> </td> 
-   <td> このワークフローは、データベースのメンテナンスワークフローです。異なる統計とプロセスを実行し、定義された設定に従って古いデータをデータベースから削除します。 デフォルトでは、毎日午前4時に自動的に開始されます。<br /> </td> 
+   <td> このワークフローは、データベースのメンテナンスワークフローです。各種の統計とプロセスを実行し、定義された設定に従って、古いデータをデータベースから削除します。デフォルトでは、毎日午前 4 時に自動的に実行されます。<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">予測</span><br /> </td> 
+   <td> <span class="uicontrol">予測</span> <br /> </td> 
    <td> <span class="uicontrol">forecasting</span> <br /> </td> 
-   <td> このワークフローは、仮予測に格納された配信の分析（仮ログの作成）を実行します。 By default, it is started every day at 1am. <br /> </td> 
+   <td> このワークフローは、暫定予測に保存されている配信の分析を実行します（暫定ログの作成）。デフォルトでは、毎週月曜日の午前 1 時に実行されます。<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">共有オーディエンスをインポート</span> <br /> </td> 
-   <td> <span class="uicontrol">importSharedAudience：</span> <br /> </td> 
-   <td> このワークフローは、読み込まれたAdobe Experience CloudオーディエンスデータをAdobe Campaignします。 デフォルトでは、毎時開始されます。<br /> </td> 
+   <td> <span class="uicontrol">共有オーディエンスのインポート</span> <br /> </td> 
+   <td> <span class="uicontrol">importSharedAudience</span> <br /> </td> 
+   <td> このワークフローは、Adobe Campaign にインポートされた Adobe Experience Cloud オーディエンスデータを同期します。デフォルトでは、1 時間ごとに実行されます。<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">インスタントレポートの共有</span> (Instant Report Sharing) <br /> </td> 
-   <td> <span class="uicontrol">reportSendingNow</span><br /> </td> 
-   <td> このワークフローは、レポートの送信がスケジュールされるとすぐに開始されます。 レポートがPDFファイルに変換され、ターゲットのユーザーに電子メールで送信されます。受信者<br /> </td> 
+   <td> <span class="uicontrol">即時レポート共有</span> <br /> </td> 
+   <td> <span class="uicontrol">reportSendingNow</span> <br /> </td> 
+   <td> このワークフローは、レポートの送信がスケジュールされるとすぐに実行されます。レポートは PDF ファイルに変換され、ターゲットの受信者に電子メールで送信されます。<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Adobe AnalyticsとのKPIの調整</span><br /> </td> 
-   <td> <span class="uicontrol">kpiReconciliation</span><br /> </td> 
-   <td> このワークフローは、KPIを1日1回レポートサービスから取得し、Adobe Analyticsのデータと調整します。 必要に応じて、差が押し出されます。 By default, it is started every day at 4.20am.<br /> </td> 
+   <td> <span class="uicontrol">KPI と Adobe Analytics との紐付け</span> <br /> </td> 
+   <td> <span class="uicontrol">kpiReconciliation</span> <br /> </td> 
+   <td> このワークフローは、レポートサービスから KPI を 1 日 1 回取得し、Adobe Analytics のデータと紐付けます。必要に応じて差異がプッシュされます。デフォルトでは、毎週月曜日の午前 4 時にトリガーされます。<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">NMACオプトアウトの管理</span><br /> </td> 
+   <td> <span class="uicontrol">NMAC オプトアウトの管理</span> <br /> </td> 
    <td> <span class="uicontrol">mobileAppOptOutMgt</span> <br /> </td> 
-   <td> このワークフローは、購読解除をモバイルデバイスの通知に更新します。 デフォルトでは、午前1時から午前0時の間に6時間ごとに開始されます。<br /> </td> 
+   <td> このワークフローは、モバイルデバイスの通知の購読解除を更新します。デフォルトでは、午前 1 時から午前 0 時の間に、6 時間ごとにトリガーされます。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Message Center のローカルアーカイブ</span> <br /> </td> 
-   <td> <span class="uicontrol">mcSynch_local</span><br /> </td> 
-   <td> このワークフローは、リアルタイムイベントを履歴テーブルにアーカイブします。 デフォルトでは、毎時開始されます。<br /> </td> 
+   <td> <span class="uicontrol">mcSynch_local</span> <br /> </td> 
+   <td> このワークフローは、リアルタイムイベントを履歴テーブルにアーカイブします。デフォルトでは、1 時間ごとに実行されます。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">レポート集計</span> <br /> </td> 
    <td> <span class="uicontrol">reportingAggregates</span> <br /> </td> 
-   <td> このワークフローは、レポートで使用される集計を更新します。 デフォルトでは、午前2時に自動的に開始されます。<br /> </td> 
+   <td> レポートで使用される集計を更新します。デフォルトでは、午前 2 時に自動的に実行されます。<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">KPIをAdobe Analyticsと共有</span><br /> </td> 
-   <td> <span class="uicontrol">kpiSharing</span><br /> </td> 
-   <td> このワークフローは、KPIデータをAdobe StandardからAdobe Analyticsに15分ごとにAdobe Campaignします。<br /> </td> 
+   <td> <span class="uicontrol">KPI を Adobe Analytics と共有</span> <br /> </td> 
+   <td> <span class="uicontrol">kpiSharing</span> <br /> </td> 
+   <td> このワークフローは、KPI データを Adobe Campaign Standard から Adobe Analytics に 15 分ごとにプッシュします。<br /> </td> 
   </tr> 
     </tr> 
    <tr> 
-   <td> <span class="uicontrol">起動と同期</span><br /> </td> 
-   <td> <span class="uicontrol">SyncWithLaunch</span><br /> </td> 
-   <td> このワークフローは、Adobe Standardで読み込まれたAdobe LaunchモバイルプロパティをAdobe Campaignします。 15分ごとに開始されます。<br /> </td> 
+   <td> <span class="uicontrol">Launch と同期</span> <br /> </td> 
+   <td> <span class="uicontrol">SyncWithLaunch</span> <br /> </td> 
+   <td> このワークフローは、Adobe Campaign Standard にインポートした Adobe Experience Platform Launch のモバイルプロパティを同期します。これは 15 分ごとに実行されます。<br /> </td> 
   </tr>
   <tr> 
-   <td> <span class="uicontrol">更新配信の実行</span><br /> </td> 
-   <td> <span class="uicontrol">updateDeliveryExecInfo</span><br /> </td> 
-   <td> このワークフローは、配信の追跡を更新します。 デフォルトでは、10分ごとに開始されます。<br /> </td> 
+   <td> <span class="uicontrol">配信実行情報の更新</span> <br /> </td> 
+   <td> <span class="uicontrol">updateDeliveryExecInfo</span> <br /> </td> 
+   <td> このワークフローは、配信の追跡情報を更新します。デフォルトでは、10 分ごとに実行されます。<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">配信指標の更新</span><br /> </td> 
-   <td> <span class="uicontrol">updateDeliveryIndicators</span><br /> </td> 
-   <td> このワークフローは、配信のKPI（主要業績評価指標）を更新します。 デフォルトでは、毎時開始されます。<br /> </td> 
+   <td> <span class="uicontrol">配信インジケーターの更新</span> <br /> </td> 
+   <td> <span class="uicontrol">updateDeliveryIndicators</span> <br /> </td> 
+   <td> このワークフローは、配信の KPI（主要業績評価指標）を更新します。デフォルトでは、1 時間ごとに実行されます。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">イベントステータスを更新</span> <br /> </td> 
    <td> <span class="uicontrol">updateEventsStatus</span> <br /> </td> 
-   <td> このワークフローを使用すると、ステータスをワークフローに属性付けすることができます。イベント 次のイベントステータスを使用できます。<br /><strong>保留</strong>:イベントはキューに入っています。 イベントにはまだメッセージテンプレートが割り当てられていません。<br /> 保留 <span class="uicontrol">配信</span> :イベントはキューにあり、メッセージテンプレートが割り当てられ、メッセージによって処理されています。配信<br /> 送 <strong>信</strong>:このステータスは、配信ログからコピーされます。 それは配信が送られた。<br /> 無視 <strong>配信</strong>:このステータスは、配信ログからコピーされます。 配信が無視されたことを意味しています。<br /> <strong>配信</strong>:このステータスは、配信ログからコピーされます。 配信が失敗したことを意味しています。<br /> <span class="uicontrol">イベントが考慮されない</span> :イベントをメッセージテンプレートにリンクできませんでした。 イベントの処理はおこなわれません。<br /> </td> 
+   <td> このワークフローでは、ステータスをイベントに関連付けることができます。次のイベントステータスを使用できます。<br /> <strong>保留</strong>：イベントはキューに入っています。イベントにはまだメッセージテンプレートが割り当てられていません。<br /><span class="uicontrol">配信待ち</span>：イベントはキューに入っていて、メッセージテンプレートが割り当てられ、配信による処理中です。<br /><strong>送信済み</strong>：このステータスは配信ログからコピーされます。これは配信が送信されたことを意味しています。<br /><strong>配信で無視</strong>：このステータスは配信ログからコピーされます。これは配信が無視されたことを意味しています。<br /><strong>配信に失敗</strong>：このステータスは配信ログからコピーされます。これは配信が失敗したことを意味しています。<br /><span class="uicontrol">処理不可なイベント</span>：イベントをメッセージテンプレートにリンクすることができませんでした。イベントの処理はおこなわれません。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">配信品質の更新</span> <br /> </td> 
    <td> <span class="uicontrol">deliverabilityUpdate</span> <br /> </td> 
-   <td> このワークフローを使用すると、バウンスルールの資格ルールのリストと、プラットフォーム内のドメインとMXのリストを作成できます。 このワークフローは、HTTPSが開いている場合にのみ機能します。 デフォルトでは、午前2時に自動的に開始されます。<br /> </td> 
+   <td> バウンスルールの選定ルールのリスト、ドメインのリスト、プラットフォームの MX のリストを作成できます。このワークフローは、HTTPS が開かれている場合にのみ機能します。デフォルトでは、午前 2 時に自動的に実行されます。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
