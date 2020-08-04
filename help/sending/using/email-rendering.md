@@ -1,6 +1,6 @@
 ---
-title: 電子メールのレンダリング
-description: 電子メールレンダリング機能を検出します。
+title: E メールのレンダリング
+description: E メールレンダリング機能を学習します。
 page-status-flag: never-activated
 uuid: c423e237-ad39-4797-ac3a-4320894a8f99
 contentOwner: sauviat
@@ -15,75 +15,75 @@ translation-type: tm+mt
 source-git-commit: b43e6be265ff2d8ce357ef44672a755028e2e5af
 workflow-type: tm+mt
 source-wordcount: '435'
-ht-degree: 30%
+ht-degree: 100%
 
 ---
 
 
-# 電子メールのレンダリング{#email-rendering}
+# E メールのレンダリング{#email-rendering}
 
-Before hitting the **[!UICONTROL Send]** button, make sure that your message will be displayed in an optimal way on a variety of web clients, web mails and devices.
+「**[!UICONTROL Send]**」ボタンを押す前に、さまざまな Web クライアント、Web メールおよびデバイスでメッセージの表示が最適化されていることを確認してください。
 
 この確認のために、Adobe Campaign ではレンダリングをキャプチャして専用のレポートで利用できるようにしています。これにより、異なるコンテキストで受信される可能性のある送信済みのメッセージをプレビューできます。
 
-The mobile, messaging and webmail clients available for **Email rendering** in Adobe Campaign are listed on the Litmus [website](https://litmus.com/email-testing) (click **View all email clients**).
+Adobe Campaign の「**E メールのレンダリング**」で使用できるモバイル、メッセージングおよび Web メールクライアントは、Litmus の [Web サイト](https://litmus.com/email-testing)に記載されています（「**View all email clients**」をクリックしてください）。
 
-## 電子メールレンダリングレポートの確認 {#checking-the-email-rendering-report}
+## E メールのレンダリングレポートの確認{#checking-the-email-rendering-report}
 
 E メール配信を作成し、そのコンテンツとターゲット母集団を定義したら、以下の手順に従います。
 
-1. 「 **オーディエンス** 」をクリックして **[!UICONTROL Test profiles]** タブにアクセスします。
+1. 「**Audience**」をクリックして「**[!UICONTROL Test profiles]**」タブにアクセスします。
 
    ![](assets/email_rendering_05.png)
 
-1. クエリエディターを使用して、 **電子メールレンダリング** 使用用のテストプロファイルなど、使用するテストプロファイルを定義します。 テストプロファイル [についてを参照してください](../../audiences/using/managing-test-profiles.md)。
+1. クエリエディターを使用して、「**E メールのレンダリング**」用のテストプロファイルなど、使用するテストプロファイルを定義します。[テストプロファイル](../../audiences/using/managing-test-profiles.md)についてを参照してください。
 
    ![](assets/email_rendering_06.png)
 
-1. クエリを確認し、変更を保存します。
-1. アクションバーの **[!UICONTROL Test]** ボタンをクリックします。
+1. クエリを確認して、変更を保存します。
+1. アクションバーの「**[!UICONTROL Test]**」ボタンをクリックします。
 
    ![](assets/email_rendering_07.png)
 
-1. この **[!UICONTROL Email rendering]** オプションを選択し、をクリックし **[!UICONTROL OK]**&#x200B;ます。
+1. この「**[!UICONTROL Email rendering]**」オプションを選択し、「**[!UICONTROL OK]**」をクリックします。
 
    ![](assets/email_rendering_08.png)
 
    >[!NOTE]
    >
-   >この **[!UICONTROL Proof + Email rendering]** オプションを使用すると、配達確認を送信し、電子メールレンダリング機能を同時に使用できます。 メッセージを配達確認受信者に承認してもらうと同時に、対象となる受信トレイに応じてメッセージの受信方法をテストできます。 この場合は、配達確認テストプロファイルも選択する必要があります。 テストプロファイル [についてを参照してください](../../audiences/using/managing-test-profiles.md)。
+   >この「**[!UICONTROL Proof + Email rendering]**」オプションを使用すると、配達確認を送信し、E メールのレンダリング機能を同時に使用できます。メッセージを配達確認の受信者に承認してもらうと同時に、対象となる受信トレイに応じてメッセージの受信方法をテストできます。この場合は、配達確認テストプロファイルも選択する必要があります。[テストプロファイル](../../audiences/using/managing-test-profiles.md)についてを参照してください。
 
    テスト配信が送信されます。
 
-1. メッセージの送信後、数分後にレンダリングサムネールが使用可能になります。 これらにアクセスするには、ドロップダウン **[!UICONTROL Proofs]****[!UICONTROL Summary]** リストでを選択します。
+1. メッセージの送信後、数分後にレンダリングのサムネールが使用可能になります。これらにアクセスするには、「**[!UICONTROL Summary]**」ドロップダウンリストの「**[!UICONTROL Proofs]**」を選択します。
 
    ![](assets/email_rendering_03.png)
 
-1. リストで、アイコンをクリックし **[!UICONTROL Proofs]****[!UICONTROL Access email rendering]** ます。
+1. 「**[!UICONTROL Proofs]**」リストで、「**[!UICONTROL Access email rendering]**」アイコンをクリックします。
 
    ![](assets/email_rendering_04.png)
 
-専用の電子メールレンダリングレポートが表示されます。 「 [電子メールレンダリングレポートの説明](#email-rendering-report-description)」を参照してください。
+専用の E メールのレンダリングレポートが表示されます。[E メールのレンダリングレポートの説明](#email-rendering-report-description)を参照してください。
 
 **関連トピック**：
 
-* [電子メールの作成](../../channels/using/creating-an-email.md)
+* [E メールの作成](../../channels/using/creating-an-email.md)
 * [配達確認の送信](../../sending/using/sending-proofs.md)
 * [クエリエディター](../../automating/using/editing-queries.md#about-query-editor)
 
-## 電子メールレンダリングレポートの説明 {#email-rendering-report-description}
+## E メールのレンダリングレポートの説明{#email-rendering-report-description}
 
-このレポートは、受信者に表示される電子メールレンダリングを表示します。 電子メールのレンダリングは、受信者が電子メール配信を開く方法によって異なる場合があります。 （ブラウザー、モバイルデバイスまたは電子メールアプリケーション経由）。
+このレポートは、受信者に表示される E メールのレンダリングを示します。E メールのレンダリングは、ブラウザー、モバイルデバイス、メールアプリケーションなど、受信者がどの方法で E メール配信を開くかによって異なります。
 
 >[!NOTE]
 >
->使用できるレンダリングの数は、ライセンス契約に記載されています。Each delivery with **Email rendering** enabled decreases your available renderings (known as tokens) by one.
+>使用できるレンダリングの数は、ライセンス契約に記載されています。「**E メールのレンダリング**」が有効な配信ごとに、使用可能なレンダリング（トークン）の数が 1 つ減ります。
 
 レポート概要には、受信済みメッセージ、不要なメッセージ（スパム）、受信されていないメッセージまたは受信が保留されているメッセージの数が表示されます。
 
 ![](assets/inbox_rendering_report.png)
 
-The report is divided into three parts: **[!UICONTROL Mobile]**, **[!UICONTROL Messaging clients]**, and **[!UICONTROL Webmails]**. レポートを下へスクロールすると、これらの 3 つのカテゴリにグループ化されたすべてのレンダリングが表示されます。
+レポートは、3 つの部分に分かれています：**[!UICONTROL Mobile]**、**[!UICONTROL Messaging clients]**、および **[!UICONTROL Webmails]**。レポートを下へスクロールすると、これらの 3 つのカテゴリにグループ化されたすべてのレンダリングが表示されます。
 
 ![](assets/inbox_rendering_report_3.png)
 
@@ -91,4 +91,4 @@ The report is divided into three parts: **[!UICONTROL Mobile]**, **[!UICONTROL M
 
 ![](assets/inbox_rendering_report_2.png)
 
-この **[!UICONTROL Technical data]** タブでは、受信日や取得日、電子メールの完全なヘッダーなどの詳細情報を取得できます。
+この「**[!UICONTROL Technical data]**」タブでは、E メールの受信日や取得日、完全なヘッダーなどの詳細情報を取得できます。
