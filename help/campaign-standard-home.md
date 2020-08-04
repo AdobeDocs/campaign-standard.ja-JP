@@ -69,7 +69,7 @@ ht-degree: 80%
 | 便利なページ | 開発者向けリソース |
 |---|---|
 | [リリースノート](rn/using/release-notes.md) | [Experience Cloud のトリガー](integrating/using/about-adobe-experience-cloud-triggers.md) |
-| [コントロールパネルのドキュメント](https://docs.adobe.com/content/help/ja-JP/control-panel/using/control-panel-home.translate.html) | [Campaign API](api/using/get-started-apis.md) |
+| [コントロールパネルのドキュメント](https://docs.adobe.com/content/help/ja-JP/control-panel/using/control-panel-home.html) | [Campaign API](api/using/get-started-apis.md) |
 | [実装ガイド](https://helpx.adobe.com/jp/campaign/kb/campaign-standard-implementation-guide.html) | [エラーメッセージのリスト](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [リリース計画](rn/using/release-planning.md) | [Campaign データモデル](developing/using/datamodel-introduction.md) |
 | [廃止および削除された機能](https://helpx.adobe.com/jp/campaign/kb/acs-deprecated-and-removed-features.html) | [マルチソリューションガイド](integrating/using/get-started-campaign-integrations.md) |
