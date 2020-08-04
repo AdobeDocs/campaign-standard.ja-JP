@@ -1,6 +1,6 @@
 ---
 title: サブスクリプションについて
-description: Campaign Standardのサービスと購読についての詳細。
+description: Campaign Standard のサービスとサブスクリプションについての詳細。
 page-status-flag: never-activated
 uuid: b0263e40-f910-49f2-a138-0a1302aeeec6
 contentOwner: sauviat
@@ -15,24 +15,24 @@ translation-type: tm+mt
 source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
 workflow-type: tm+mt
 source-wordcount: '146'
-ht-degree: 4%
+ht-degree: 80%
 
 ---
 
 
 # サブスクリプションについて{#about-subscriptions}
 
-Adobe Campaignでは、一連のサー **ビスを通じて、ニュースレターやチャネル間の通信を作成および管理できます**。 メッセージは、サービスを購読しているプロファイル（オプトイン）にのみ送信できます。 これらのプロファイルは、メッセージを作成する際に、専用のフィルターを使用して識別されます。
+Adobe Campaign では、一連の&#x200B;**サービス**&#x200B;を通じて、ニュースレターやチャネル間の通信を作成および管理できます。メッセージは、サービスを購入（オプトイン）しているプロファイルにのみ送信できます。これらのプロファイルは、メッセージを作成する際に、専用のフィルターを使用して特定されます。
 
-購読メカニズムは、特に **電子メールや** ランディングページを含め、顧客がこれらのサービスを購読する機会をオファーするように設定できます ****。
+サブスクリプションメカニズムの設定により、顧客がこれらのサービスを（特に **E メール**&#x200B;と&#x200B;**ランディングページ**&#x200B;から）購読できるようにすることができます。
 
-各サービスには次の機能が付属しています。
+各サービスには次の機能があります。
 
-* **購読** （オプトイン）および **[!UICONTROL Unsubscription]** （オプトアウト）メカニズム
-* 購読および/または購読解除 **確認メカニズム**。
-* 購読 **履歴**。
+* **サブスクリプション**（オプトイン）および **[!UICONTROL Unsubscription]**（オプトアウト）メカニズム。
+* 購読と購読解除の&#x200B;**確認メカニズム**。
+* サブスクリプションの&#x200B;**履歴**。
 
-購読は、Adobe Campaign StandardAPIを使用して管理することもできます。 For more on this, refer to the [dedicated documentation](../../api/using/creating-a-service.md) .
+サブスクリプションは、Adobe Campaign Standard API を使用して管理することもできます。詳しくは、[該当するドキュメント](../../api/using/creating-a-service.md)を参照してください。
 
 **関連トピック**
 
