@@ -1,6 +1,6 @@
 ---
 title: セグメント化
-description: セグメント化アクティビティを使用すると、ワークフローの前のページに配置されたアクティビティによって計算された訪問者から、1つまたは複数のセグメントを作成できます。
+description: 「Segmentation」アクティビティを使用すると、ワークフローで既に配置されているアクティビティによって計算された母集団から、1 つまたは複数のセグメントを作成できます。
 page-status-flag: never-activated
 uuid: 77796f18-cad5-4e7a-9d7b-4ed0dd8943bf
 contentOwner: sauviat
@@ -16,7 +16,7 @@ translation-type: tm+mt
 source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
 workflow-type: tm+mt
 source-wordcount: '860'
-ht-degree: 0%
+ht-degree: 94%
 
 ---
 
@@ -27,11 +27,11 @@ ht-degree: 0%
 
 ![](assets/segmentation.png)
 
-この **[!UICONTROL Segmentation]** アクティビティでは、ワークフローの前のバージョンに配置されたアクティビティによって計算された訪問者から、1つまたは複数のセグメントを作成できます。 アクティビティの最後に、1つのトランジションまたは異なるトランジションで処理できます。
+「**[!UICONTROL Segmentation]**」アクティビティを使用すると、ワークフローで既に配置されているアクティビティによって計算された母集団から、1 つまたは複数のセグメントを作成できます。アクティビティの最後に、1 つのトランジションまたは複数のトランジションで処理できます。
 
 >[!NOTE]
 >
->デフォルトでは、インバウンド母集団のメンバーは1つのセグメントにのみ属することができます。 フィルターは、アクティビティ内のセグメントの順序に従って適用されます。
+>デフォルトでは、インバウンド母集団のメンバーは 1 つのセグメントにのみ属することができます。フィルターは、アクティビティのセグメントの順序に従って適用されます。
 
 **関連トピック：**
 * [使用例： 場所のセグメント化](../../automating/using/workflow-segmentation-location.md)
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 ## 使用状況 {#context-of-use}
 
-通常、 **[!UICONTROL Segmentation]** アクティビティは、アクティビティ(クエリ、交差点、和集合、除外など)をターゲット化した後に配置されます。 を使用して、セグメントの形成基準となる標準母集団を定義する必要があります。
+通常、「**[!UICONTROL Segmentation]**」アクティビティは、セグメントが形成される基準となる標準母集団を定義するために、ターゲティングアクティビティ（クエリ、積集合、和集合、除外など）の後に配置されます。
 
 **関連トピック**
 
@@ -48,58 +48,60 @@ ht-degree: 0%
 
 ## 設定 {#configuration}
 
-1. ワークフローに **[!UICONTROL Segmentation]** アクティビティをドラッグ&amp;ドロップします。
+1. ワークフローに「**[!UICONTROL Segmentation]**」アクティビティをドラッグ＆ドロップします。
 1. アクティビティを選択し、表示されるクイックアクションの ![](assets/edit_darkgrey-24px.png) ボタンを使用して開きます。
-1. タブで、セグメ **[!UICONTROL General]** ント化を実行 **[!UICONTROL Resource type]** する必要がある対象を選択します。
+1. In the **[!UICONTROL General]** tab, select the **[!UICONTROL Resource type]** on which the segmentation has to be carried out:
 
-   * **[!UICONTROL Database resource]** データベースに既に存在するデータに対してセグメント化が実行される場合。 セグメント化するデータ **[!UICONTROL Filtering dimension]** に応じて、を選択します。 デフォルトでは、 **プロファイルでセグメントが実行されます**。
-   * **[!UICONTROL Temporary resource]** ワークフローの一時データでセグメント化が実行される場合： セグメント化するデータ **[!UICONTROL Targeted set]** を含むを選択します。 この使用例は、ファイルのインポート後、またはデータベース内のデータがリンチされた場合に発生する可能性があります。
+   * データベースに既に存在するデータに対してセグメント化が実行される場合は **[!UICONTROL Database resource]** を選択します。セグメント化するデータに応じて、**[!UICONTROL Filtering dimension]** を選択します。デフォルトでは、セグメント化は&#x200B;**プロファイル**&#x200B;で実行されます。
+   * ワークフローの一時データでセグメント化が実行される場合は **[!UICONTROL Temporary resource]** を選択します。セグメント化するデータを含む **[!UICONTROL Targeted set]** を選択します。この使用例は、ファイルのインポート後、またはデータベース内のデータがエンリッチメントされた場合に発生する可能性があります。
 
 1. 使用するアウトバウンドトランジションの種類を選択します。
 
-   * **[!UICONTROL Generate one transition per segment]**: アクティビティの最後に、設定済みのセグメントごとに1つのアウトバウンドトランジションが追加されます。
-   * **[!UICONTROL Generate all segments in one transition]**: 設定済みのすべてのセグメントは、1つのアウトバウンドトランジションに再グループ化されます。 トランジションのラベルを指定します。 各セグメントのメンバーは、割り当てられたセグメントコードを保持します。
+   * **[!UICONTROL Generate one transition per segment]**：アクティビティの最後に、設定済みのセグメントごとに 1 つのアウトバウンドトランジションが追加されます。
+   * **[!UICONTROL Generate all segments in one transition]**：設定済みのすべてのセグメントは、1 つのアウトバウンドトランジションに再グループ化されます。トランジションのラベルを指定します。各セグメントのメンバーは、割り当てられたセグメントコードを保持します。
 
-1. ![](assets/add_darkgrey-24px.png) または **[!UICONTROL Add an element]** ボタンを使用して、次の標準プロパティを指定し追加てセグメントを作成します。
+1. ![](assets/add_darkgrey-24px.png) または「**[!UICONTROL Add an element]**」ボタンを使用してセグメントを追加し、標準プロパティを指定します。
 
-   * **[!UICONTROL Do not activate the transition if the population is empty]**: セグメントは、データが取得された場合にのみ有効になります。
-   * **[!UICONTROL Filter initial population (query)]**: このセグメントの母集団をフィルターできます。
-   * **[!UICONTROL Limit segment population]**: セグメントのサイズを制限できます。
-   * **[!UICONTROL Filter and limit segment population]**: セグメント母集団をフィルターしてサイズを制限できます。
-   * **[!UICONTROL Label]**: セグメントラベル。
-   * **[!UICONTROL Segment code]**: コードをセグメントの母集団に割り当てます。このセグメントコードは、標準の式変数とイベント変数を使用してパーソナライズできます(イベント変数を使用したアクティビティの [カスタマイズを参照](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables))。
-   * **[!UICONTROL Exclude segment from population]**: 指定したセグメントをアクティビティのアウトバウンド訪問者から除外できます。 このオプションは、この **[!UICONTROL Generate all segments in the same transition]** オプションが選択されている場合にのみ使用できます。
+   * **[!UICONTROL Do not activate the transition if the population is empty]**：セグメントは、データが取得された場合にのみ有効になります。
+   * **[!UICONTROL Filter initial population (query)]**：このセグメントの母集団をフィルターできます。
+   * **[!UICONTROL Limit segment population]**：セグメントのサイズを制限できます。
+   * **[!UICONTROL Filter and limit segment population]**：セグメント母集団をフィルターしてサイズを制限できます。
+   * **[!UICONTROL Label]**：セグメントラベル。
+   * **[!UICONTROL Segment code]**：コードをセグメントの母集団に割り当てます。このセグメントコードは、標準の式とイベント変数を使用してパーソナライズできます（[イベント変数を使用したアクティビティのカスタマイズ](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables)を参照）。
+   * **[!UICONTROL Exclude segment from population]**：指定したセグメントをアクティビティのアウトバウンド母集団から除外できます。このオプションは、「**[!UICONTROL Generate all segments in the same transition]**」オプションが選択されている場合にのみ使用できます。
+
    ![](assets/wkf_segment_new_segment.png)
 
-1. セグメントの詳細表示を開き、後者の設定オプションにアクセスします。 これを行うには、アクティビティのセグメントリストの関連するボックスをオンにして、を選択し ![](assets/wkf_segment_parameters_24px.png)ます。
-1. 初期母集団をフィルターするオプションがオンになっている場合は、 **[!UICONTROL Filter]** タブを開き、セグメントの母集団を指定します。 フィルターは、手順4で選択したフィルタリングディメンションに基づきます。 母集団のフィルタリングの詳細については、「 [クエリの編集](../../automating/using/editing-queries.md) 」の節を参照してください。
+1. セグメントの詳細表示を開き、後者の設定オプションにアクセスします。これをおこなうには、アクティビティのセグメントリストの関連するチェックボックスをオンにして、![](assets/wkf_segment_parameters_24px.png) を選択します。
+1. 初期母集団をフィルターするオプションがオンになっている場合は、「**[!UICONTROL Filter]**」タブを開き、セグメントの母集団を指定します。フィルターは、手順 4 で選択したフィルタリングディメンションに基づきます。母集団のフィルタリングについて詳しくは、[クエリの編集](../../automating/using/editing-queries.md)の節を参照してください。
 
-   一時的なリソースに対してセグメント化が実行された場合、このタブでは母集団の数とプレビューは使用できません。
+   一時的なリソースに対してセグメント化を実行する場合、このタブでは母集団の数とプレビューは使用できません。
 
-1. セグメントサイズを制限するオプションがオンになっている場合は、 **[!UICONTROL Limitation]** タブを開きます。
+1. セグメントサイズを制限するオプションがオンになっている場合は、「**[!UICONTROL Limitation]**」タブを開きます。
 
-   最初に、使用す **[!UICONTROL Type of limit]** る
+   まず、使用する **[!UICONTROL Type of limit]** を選択します。
 
-   * **[!UICONTROL Random sampling]**: 必要に応じて、 **[!UICONTROL Filter]** タブの設定を考慮して、セグメントの母集団がランダムに選択されます。
-   * **[!UICONTROL Ordered sampling]**: セグメントの母集団は、順序に従って選択されます。 その結果、考慮する列と適用する並べ替えの種類を指定する必要があります。 例えば、 **Age** ( **[!UICONTROL Descending sort]** 年齢)フィールドを並べ替え列として選択し、制限値を100に設定した場合、最も年長の上位100人のプロファイルのみが保持されます。
+   * **[!UICONTROL Random sampling]**：必要に応じて、セグメントの母集団が「**[!UICONTROL Filter]**」タブの設定を考慮してランダムに選択されます。
+   * **[!UICONTROL Ordered sampling]**：セグメントの母集団は、順序に従って選択されます。したがって、考慮する列と適用する並べ替えの種類を指定する必要があります。例えば、「**Age**」フィールドを並べ替え列として選択して **[!UICONTROL Descending sort]** を適用し、制限値を 100 に設定した場合、最年長の上位 100 人のプロファイルのみが保持されます。
+
    次に、セグメントのサイズ **[!UICONTROL Limit]** を指定します。
 
-   * **[!UICONTROL Size (as a % of the initial population)]**: アクティビティの初期母集団に対する割合を使用して、セグメントのサイズを指定します。
-   * **[!UICONTROL Maximum size]**: セグメント母集団の最大メンバー数を指定します。
-   * **[!UICONTROL By data grouping]**: インバウンド母集団の特定のフィールドの値に従って、セグメント母集団を制限できます。 グループ化するフィールドを選択し、使用する値を指定します。
-   * **[!UICONTROL By data grouping (as a %)]**: 割合を使用して、特定の受信母集団フィールドの値に従ってセグメント母集団を制限できます。 グループ化を適用するフィールドを選択し、使用する値を指定します。
+   * **[!UICONTROL Size (as a % of the initial population)]**：アクティビティの初期母集団に対する割合を使用して、セグメントのサイズを指定します。
+   * **[!UICONTROL Maximum size]**：セグメント母集団の最大メンバー数を指定します。
+   * **[!UICONTROL By data grouping]**：インバウンド母集団の特定のフィールドの値に従って、セグメント母集団を制限できます。グループ化するフィールドを選択し、使用する値を指定します。
+   * **[!UICONTROL By data grouping (as a %)]**：割合を使用して、インバウンド母集団の特定のフィールドの値に従って、セグメント母集団を制限できます。グループ化を適用するフィールドを選択し、使用する値を指定します。
 
       >[!NOTE]
       >
-      >値ごとに異なる制限を使用できます。 例えば、フィールドのグループを指定して、メンバーを含む母集団を10人に制限し、メンバーを含む母集団を30人に制限することが **[!UICONTROL Gender]****[!UICONTROL Male]****[!UICONTROL Female]** できます。 複数のデータグループ化フィールドを使用する場合は、すべてのグループのサイズを同じにする必要があります。
+      >値ごとに異なる制限を使用できます。例えば、「**[!UICONTROL Gender]**」フィールドのグループを指定して、**[!UICONTROL Male]** メンバーを含む母集団を 10 人に制限し、**[!UICONTROL Female]** メンバーを含む母集団を 30 人に制限することができます。複数のデータグループ化フィールドを使用する場合は、すべてのグループのサイズを同じにする必要があります。
    ![](assets/wkf_segment_limit_by_grouping.png)
 
 1. セグメントの設定を確認します。
-1. 手順6 ～ 10追加を繰り返して、必要な数のセグメントを作成します。
-1. 必要に応じて、 **[!UICONTROL Advanced options]** タブのパラメーターを編集します。
+1. 手順 6～10 を繰り返して、必要な数のセグメントを追加します。
+1. 必要に応じて、「**[!UICONTROL Advanced options]**」タブのパラメーターを編集します。
 
-   * 受信訪問者のメンバーを同時に複数のセグメントに属させる場合は、この **[!UICONTROL Enable overlapping of outbound populations]** オプションを選択します。 アクティビティのアウトバウンド母集団がインバウンド母集団を超える可能性があります。
-   * 受信母集団に保持するセグメントコードが既に割り当てられている場合は、この **[!UICONTROL Concatenate the code of each segment]** オプションを選択します。 アクティビティで指定されたセグメントコードが、最初のセグメントコードに追加されます。
-   * 残りの訪問者を活用する場合は、この **[!UICONTROL Generate complement]** オプションを選択します。 詳しくは、 [使用事例を参照してください。 補数を使用した配信の作成](../../automating/using/workflow-created-query-with-complement.md)。
+   * インバウンド母集団のメンバーを同時に複数のセグメントに割り当てる場合は、「**[!UICONTROL Enable overlapping of outbound populations]**」オプションを選択します。アクティビティのアウトバウンド母集団がインバウンド母集団を超える可能性があります。
+   * 保持したいセグメントコードがインバウンド母集団に既に割り当てられている場合は、「**[!UICONTROL Concatenate the code of each segment]**」オプションを選択します。アクティビティで指定されたセグメントコードが、最初のセグメントコードに追加されます。
+   * 残りの母集団を活用する場合は、「**[!UICONTROL Generate complement]**」オプションを選択します。See [Use case: Creating deliveries with a complement](../../automating/using/workflow-created-query-with-complement.md).
 
 1. アクティビティの設定を確認し、ワークフローを保存します。
