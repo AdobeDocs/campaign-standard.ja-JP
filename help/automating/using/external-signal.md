@@ -1,6 +1,6 @@
 ---
 title: 外部シグナル
-description: 外部シグナルアクティビティは、別のワークフローで一部の条件が満たされた場合にワークフローをトリガします。
+description: 「外部シグナル」アクティビティは、別のワークフロー内で特定の条件が満足された場合にワークフローの実行をトリガーします。
 page-status-flag: never-activated
 uuid: 884b6daf-bfd9-440b-8336-004b80c76def
 contentOwner: sauviat
@@ -16,7 +16,7 @@ translation-type: tm+mt
 source-git-commit: 16afc307df6902584624d6457954a472b11c5129
 workflow-type: tm+mt
 source-wordcount: '600'
-ht-degree: 4%
+ht-degree: 96%
 
 ---
 
@@ -27,21 +27,21 @@ ht-degree: 4%
 
 ![](assets/signal.png)
 
-アクティビティは、別のワークフローで、またはREST API呼び出しで、一部の条件が正常に満たされた場合にワークフローをトリガーします。 **[!UICONTROL External signal]**
+「**[!UICONTROL External signal]**」アクティビティでは、別のワークフローで特定の条件が満足されたときに、または REST API 呼び出しからワークフローをトリガーします。
 
 ## 使用状況 {#context-of-use}
 
-この **[!UICONTROL External signal]** アクティビティは、同じ顧客遍歴の一部である異なるプロセスを別々のワークフローに編成および調整するために使用します。 ワークフローを別のワークフローから開始でき、より複雑な顧客の遍歴をサポートしながら、問題が発生した場合の監視と対応を改善できます。
+「**[!UICONTROL External signal]**」アクティビティは、同じカスタマージャーニーの構成要素である様々なプロセスを様々なワークフローに編成する場合に使用します。このアクティビティでは、あるワークフローを別のワークフローから起動できるので、さらに複雑なカスタマージャーニーをサポートできる一方、問題が発生した場合の監視と対応を改善することができます。
 
-この **[!UICONTROL External signal]** アクティビティは、ワークフローの最初のアクティビティとして配置されるように設計されています。 別のワークフローの **[!UICONTROL End]** アクティビティまたはREST API呼び出しからトリガーされる場合があります(詳しくは、 [APIのドキュメントを参照](../../api/using/triggering-a-signal-activity.md))。
+「**[!UICONTROL External signal]**」アクティビティは、あるワークフローの最初のアクティビティとして配置するように設計されています。このアクティビティは、別のワークフローの「**[!UICONTROL End]**」アクティビティから、または REST API 呼び出しからトリガーできます（REST API 呼び出しについて詳しくは、[API のドキュメント](../../api/using/triggering-a-signal-activity.md)を参照してください）。
 
-トリガーされた場合、外部パラメーターを定義し、ワークフローイベント変数で使用できます。 外部パラメーターを使用してワークフローを呼び出すプロセスについて詳し [くは、この節](../../automating/using/calling-a-workflow-with-external-parameters.md)。
+トリガーする際に外部パラメーターを定義し、ワークフローイベント変数で使用することができます。外部パラメーターを指定してワークフローを呼び出す方法について詳しくは、[こちらの節](../../automating/using/calling-a-workflow-with-external-parameters.md)を参照してください。
 
 >[!NOTE]
 >
->アクティビティは、10分に1回より頻繁にトリガーされることはありません。
+>このアクティビティは、10 分未満の間隔でトリガーすることはできません。
 
-アクティビティは、複数の異なるイベントからトリガーされる場合があることに注意してください。 **[!UICONTROL External signal]** この場合、ソースワークフロー **[!UICONTROL External signal]** の1つまたはAPI呼び出しが実行されるとすぐに、がトリガーされます。 すべてのソースワークフローを終了する必要はありません。
+なお、「**[!UICONTROL External signal]**」アクティビティは、別の複数のイベントからトリガーできます。その場合、「**[!UICONTROL External signal]**」アクティビティは、いずれか 1 つのソースワークフローまたは API 呼び出しが実行されるとすぐにトリガーされます。すべてのソースワークフローが完了している必要はありません。
 
 **関連トピック**
 
@@ -50,42 +50,42 @@ ht-degree: 4%
 
 ## 設定 {#configuration}
 
-外部信号を設定する場合、まず、宛先ワークフローで **[!UICONTROL External signal]** アクティビティを設定することが重要です。 この設定が完了すると、このワークフローの **[!UICONTROL External signal]** アクティビティを使用して、ソースワークフローの **[!UICONTROL End]** アクティビティを設定できるようになります。
+外部シグナルを設定する場合は，まず宛先ワークフローに［**[!UICONTROL External signal]**］アクティビティを設定することが重要です。設定が完了したら、このワークフローの「**[!UICONTROL External signal]**」アクティビティを使用してソースワークフローの「**[!UICONTROL End]**」アクティビティを設定できるようになります。
 
-1. 目的のワークフローに **[!UICONTROL External signal]** アクティビティをドラッグ&amp;ドロップします。
+1. 宛先ワークフローに「**[!UICONTROL External signal]**」アクティビティをドラッグ＆ドロップします。
 1. アクティビティを選択し、表示されるクイックアクションの ![](assets/edit_darkgrey-24px.png) ボタンを使用して開きます。
-1. アクティビティのラベルを編集します。 このラベルは、をトリガーするソースワークフローを設定する場合に必要で **[!UICONTROL External signal]**&#x200B;す。
+1. アクティビティのラベルを編集します。このラベルは、「**[!UICONTROL External signal]**」をトリガーするソースワークフローを設定するときに必要になります。
 
-   パラメーターを使用してワークフローを呼び出す場合は、 **[!UICONTROL Parameters]** 領域を使用して宣言します。 詳しくは、[この節](../../automating/using/calling-a-workflow-with-external-parameters.md#declaring-the-parameters-in-the-external-signal-activity)を参照してください。
+   パラメーターを指定してワークフローを呼び出す場合は、「**[!UICONTROL Parameters]**」エリアを使用してパラメーターを宣言します。詳しくは、[この節](../../automating/using/calling-a-workflow-with-external-parameters.md#declaring-the-parameters-in-the-external-signal-activity)を参照してください。
 
    ![](assets/external_signal_configuration.png)
 
-1. アクティビティの設定を確認し、必要なその他のアクティビティを追加して、ワークフローを保存します。
+1. アクティビティの設定を確認し、その他必要なアクティビティを追加して、ワークフローを保存します。
 
    >[!NOTE]
    >
-   >別のワークフローから宛先ワークフローをトリガーする場合は、次の手順に進みます。 REST API呼び出しから宛先ワークフローをトリガーする場合は、 [APIドキュメント](../../api/using/triggering-a-signal-activity.md) を参照して詳細を確認してください。
+   >別のワークフローから宛先ワークフローをトリガーする場合は、次の手順に進みます。また、REST API 呼び出しから宛先ワークフローをトリガーする場合は、[API のドキュメント](../../api/using/triggering-a-signal-activity.md)を参照して詳細を確認してください。
 
-1. ソースワークフローを開き、 **[!UICONTROL End]** アクティビティを選択します。 使用できる **[!UICONTROL End]** アクティビティがない場合は、ワークフローの最後のアクティビティの後に1つ追加します。
+1. ソースワークフローを開き、「**[!UICONTROL End]**」アクティビティを選択します。使用できる「**[!UICONTROL End]**」アクティビティがない場合は、ワークフローの分岐の最終アクティビティの後に追加します。
 
-   一部のアクティビティには、デフォルトでアウトバウンドトランジションが設定されていません。 これらのアクティビティの **[!UICONTROL Properties]** タブから、アウトバウンドトランジションを追加できます。
+   アクティビティによっては、デフォルトでアウトバウンドトランジションがない場合があります。こうしたアクティビティについては、「**[!UICONTROL Properties]**」タブでアウトバウンドトランジションを追加できます。
 
-   例えば、 **[!UICONTROL Update data]** アクティビティの場合は、 **[!UICONTROL Transitions]** タブに移動し、 **[!UICONTROL Add an outbound transition without the population]** オプションを選択します。 このオプションを使用すると、データを含まず、システム上の不要な領域を消費しないトランジションを追加できます。 これは、宛先ワークフローをトリガーする追加の **[!UICONTROL End]** アクティビティを接続するために使用されます。
+   例えば、「**[!UICONTROL Update data]**」アクティビティの場合は、「**[!UICONTROL Transitions]**」タブに移動して、「**[!UICONTROL Add an outbound transition without the population]**」オプションをオンにします。このオプションを使用すると、データを含んでいないトランジションを追加できるので、システムの領域を不必要に消費せずに済みます。このオプションを使用するだけで宛先ワークフローをトリガーする追加の「**[!UICONTROL End]**」アクティビティを接続できます。
 
    ![](assets/external_signal_empty_transition.png)
 
-1. ワークフローの **[!UICONTROL External signal]** タブで、 **[!UICONTROL End]** アクティビティ内でトリガーする宛先ワークフローと **[!UICONTROL External signal]** アクティビティを選択します。
+1. 「**[!UICONTROL End]**」アクティビティの「**[!UICONTROL External signal]**」タブで、宛先ワークフローと、このワークフロー内でトリガーする「**[!UICONTROL External signal]**」アクティビティを選択します。
 
-   別のワークフローをトリガーする **[!UICONTROL End]** アクティビティを設定すると、そのアイコンは追加のシグナル記号で更新されます。
+   別のワークフローをトリガーする「**[!UICONTROL End]**」アクティビティを設定すると、そのアイコンにシグナルシンボルが追加されます。
 
-   パラメーターを使用してワークフローを呼び出す場合は、 **[!UICONTROL Parameters and values]** 領域を使用します。 詳しくは、[この節](../../automating/using/calling-a-workflow-with-external-parameters.md#defining-the-parameters-when-calling-the-workflow)を参照してください。
+   パラメーターを指定してワークフローを呼び出す場合は、「**[!UICONTROL Parameters and values]**」エリアを使用します。詳しくは、[この節](../../automating/using/calling-a-workflow-with-external-parameters.md#defining-the-parameters-when-calling-the-workflow)を参照してください。
 
    ![](assets/external_signal_end.png)
 
 1. ソースワークフローを保存します。
 
-ソースワークフローまたはREST API呼び出しの **[!UICONTROL End]** アクティビティが実行されると、宛先ワークフローは **[!UICONTROL External signal]** アクティビティから自動的にトリガーされます。
+ソースワークフローの「**[!UICONTROL End]**」アクティビティ、または REST API 呼び出しが実行されると、「**[!UICONTROL External signal]**」アクティビティから宛先ワークフローが自動的にトリガーされます。
 
 >[!NOTE]
 >
->宛先ワークフローをトリガーするには、その前に手動で開始する必要があります。 を起動すると、がアクティブ化 **[!UICONTROL External activity]** され、ソースワークフローからの信号を待ちます。
+>宛先ワークフローをトリガーするには、その前に手動で開始しておく必要があります。開始すると、**[!UICONTROL External activity]**&#x200B;が有効になり、ソースワークフローからシグナルが送られるのを待機します。
