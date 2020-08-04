@@ -1,6 +1,6 @@
 ---
 title: グループとユーザーの管理
-description: セキュリティグループの作成方法とユーザーの管理方法を説明します。
+description: セキュリティグループの作成方法とユーザーの管理方法について説明します。
 page-status-flag: never-activated
 uuid: b3a3a2e3-9d69-4231-b724-8f37419f7a61
 contentOwner: sauviat
@@ -16,7 +16,7 @@ translation-type: tm+mt
 source-git-commit: 09a6e062be32b78fda6b0eb83a6d11ac249b3168
 workflow-type: tm+mt
 source-wordcount: '926'
-ht-degree: 1%
+ht-degree: 97%
 
 ---
 
@@ -27,9 +27,9 @@ ht-degree: 1%
 
 セキュリティグループとは、組織内で同じ役割および権限を共有するユーザーのセットです。
 
-ユーザーは常にセキュリティグループにリンクされている必要があります。 これにより、特定の役割や組織単位を割り当てることができます。
+ユーザーは、常にセキュリティグループにリンクされている必要があります。これにより、ユーザーに特定の役割や組織単位を割り当てることができます。
 
-ロールの詳細については、次のページの表に、ユーザーのロールに応じて使用できる様々な操作を示します。 [Adobe Campaign Standardの承認](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)。
+役割について詳しくは、[Adobe Campaign Standard 認証](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)ページの各表に、ユーザーの役割に応じて使用できる様々な操作を示します。
 
 デフォルトのセキュリティグループは次のとおりです。
 
@@ -39,99 +39,99 @@ ht-degree: 1%
 * **[!UICONTROL Standard Users]**
 * **[!UICONTROL Workflow supervisors]**
 
-ユーザーがどのセキュリティグループにもリンクされていない場合、Adobe Campaignにアクセスできません。
+どのセキュリティグループにもリンクされていないユーザーは、Adobe Campaign にアクセスできません。
 
-ユーザーのアクセスを制限するには、Campaign Standardをユーザーグループに追加しないでください。ユーザーは **[!UICONTROL All]** 組織単位にリンクされます。
+Campaign Standard ユーザーグループは **[!UICONTROL All]** 組織単位にリンクされているので、ユーザーのアクセスを制限するにはユーザーを追加しないでください。
 
 >[!NOTE]
 >
->既定では、 **[!UICONTROL All (all)]** 組織単位は **[!UICONTROL Administrators]** セキュリティグループに割り当てられます。 読み取り専用で、変更できません。
+>デフォルトでは、**[!UICONTROL All (all)]** 組織単位は **[!UICONTROL Administrators]** セキュリティグループに割り当てられます。これは読み取り専用で、変更できません。
 
 ## セキュリティグループの作成とユーザーの割り当て {#creating-a-security-group-and-assigning-users}
 
 >[!IMPORTANT]
 >
->管理コンソールでは、セキュリティグループはプロファイルと呼ばれます。
+>Admin Console では、セキュリティグループはプロファイルと呼ばれます。
 
-既製のグループでユーザーを管理するのに十分でない場合は、独自のセキュリティグループを作成できます。 管理者は、Adobe Campaign管理メニューと管理コンソールの両方にアクセスできる管理者が管理できます。 管理コンソールについて詳しくは、この [ドキュメントを参照してください](https://helpx.adobe.com/jp/enterprise/managing/user-guide.html)。
+標準グループでユーザーを適切に管理できない場合は、独自のセキュリティグループを作成できます。独自のセキュリティグループは、Adobe Campaign 管理メニューと Admin Console の両方にアクセスできる管理者が管理できます。Admin Console について詳しくは、この[ドキュメント](https://helpx.adobe.com/jp/enterprise/managing/user-guide.html)を参照してください。
 
-ここでは、最初に、StandardユーザーとAdministratorの2つの既製のグループをユーザーに割り当てる必要があります。 次のセキュリティグループは、Adobe Campaign機能の一部を制限します。 「標準ユーザー」では基本的なAdobe Campaignアクセス権を持ちますが、「管理者」では管理メニューなどにアクセスできます。
+ここでは、最初に 2 つの標準グループ（Standard Users と Administrators）をユーザーに割り当てる必要があります。これらのセキュリティグループは、Adobe Campaign 機能の一部を制限します。Standard Users には基本的な Adobe Campaign アクセス権がある一方、Administrators は管理メニューなどにアクセスできます。
 
-管理コンソールでセキュリティグループに対して行った変更は、Adobe Campaignがユーザーにログインするとすぐに同期されます。
+Admin Console でセキュリティグループに対しておこなった変更は、ユーザーが Adobe Campaign にログインするとすぐに同期されます。
 
-次に、Standardのユーザーと管理者の組織単位に応じて一部のアクセスを制限するセキュリティグループGeometrixxとGeometrixx衣類のセットを作成します。
+次に、Geometrixx と Geometrixx Clothes セキュリティグループを作成し、Standard Users と Administrators の組織単位に応じて一部のアクセスが制限されるようにします。
 
 ![](assets/ootb_security_group_1.png)
 
-最初に、あらかじめ用意されているセキュリティグループの1つをユーザーに割り当てる必要があります。
+最初に、標準セキュリティグループの 1 つをユーザーに割り当てる必要があります。
 
-1. 管理コンソールで、インスタンスを選択し、「 **ユーザー** 」タブをクリックします。
+1. Admin Console で、インスタンスを選択し、「**Users**」タブをクリックします。
 
    ![](assets/manage_security_group_2.png)
 
-1. ボタンをクリックし **[!UICONTROL Add user]** て、ユーザーの電子メールアドレスを入力します。
-1. タブで、インスタンスを選択し、ドロップダウン **[!UICONTROL Assign Products]** リストから **[!UICONTROL Administrators]** そのまま使用できるセキュリティグループを選択します。 これにより、ユーザーは管理メニューにアクセスし、次のセキュリティグループを作成できます。
+1. 「**[!UICONTROL Add user]**」ボタンをクリックして、ユーザーの E メールアドレスを入力します。
+1. 「**[!UICONTROL Assign Products]**」タブで、インスタンスを選択し、ドロップダウンリストから標準の **[!UICONTROL Administrators]** セキュリティグループを選択します。これにより、ユーザーは管理メニューにアクセスし、次のセキュリティグループを作成できます。
 
    ![](assets/ootb_security_group_2.png)
 
-1. をクリック **[!UICONTROL Save]** し、同じ手順に従って、あらかじめ用意され **[!UICONTROL Standard Users]** ているセキュリティグループを新しいユーザーに割り当てます。
+1. 「**[!UICONTROL Save]**」をクリックし、同じ手順に従って標準の **[!UICONTROL Standard Users]** セキュリティグループを新しいユーザーに割り当てます。
 
    ![](assets/ootb_security_group_3.png)
 
-ユーザーにロールを割り当て **[!UICONTROL Administrators]** るセキュリティグループと既製のセキュリティグループに2人のユーザーを関連付けると、管理者ユーザーは、既製のセキュリティグループに加えて、組織単位をユーザーに割り当てる2つのセキュリティグループ **[!UICONTROL Standard users]** Geometrixx **と** Geometrixx服 **** を作成できます。
+ユーザーに役割を割り当てるために標準の **[!UICONTROL Administrators]** セキュリティグループと **[!UICONTROL Standard users]** セキュリティグループに 2 人のユーザーを割り当てると、Administrators ユーザーは **Geometrixx** と **Geometrixx Clothes** の 2 つのセキュリティグループを作成して、標準セキュリティグループに加えて組織単位をユーザーに割り当てることができます。
 
-1. 管理コンソールで、インスタンスを選択し、「 **製品** 」タブをクリックします。
-1. 「 **新規プロファイル** 」ボタンをクリックして、 **Geometrixx** ・セキュリティ・グループを作成します。
+1. Admin Console で、インスタンスを選択し、「**Products**」タブをクリックします。
+1. 「**New Profile**」ボタンをクリックして、**Geometrixx** セキュリティグループを作成します。
 
    ![](assets/create_security_1.png)
 
-1. 次の構文 **[!UICONTROL Profile name]** に従って、を入力します。 **[!UICONTROL Campaign Standard- instance name - ID of the security group]** をクリックし **[!UICONTROL Done]**&#x200B;ます。
+1. 構文「**[!UICONTROL Campaign Standard- instance name - ID of the security group]**」に従って **[!UICONTROL Profile name]** を入力し、「**[!UICONTROL Done]**」をクリックします。
 
-   選択したIDは、Adobe Campaignでセキュリティグループを作成する際に使用されます。
+   選択した ID は、Adobe Campaign でセキュリティグループを作成する際に使用されます。
 
    >[!NOTE]
    >
-   >上記の構文が古いインスタンスで動作しないように見える場合は、を置き換える必要があり **[!UICONTROL Campaign - instance name - ID of the security group]**&#x200B;ます。
+   >上記の構文が古いインスタンスで動作しない場合は、**[!UICONTROL Campaign - instance name - ID of the security group]** で置き換えてください。
 
    ![](assets/manage_security_group_1.png)
 
-1. 次に、同じ手順に従って、 **Geometrixx衣料** (Data Cloases)セキュリティグループを作成します。
-1. タブを選択して、セキュリティグループをユーザーに割り当て **[!UICONTROL Users]** ます。
+1. 次に、同じ手順に従って **Geometrixx Clothes** セキュリティグループを作成します。
+1. 「**[!UICONTROL Users]**」タブを選択して、セキュリティグループをユーザーに割り当てます。
 
    ![](assets/manage_security_group_2.png)
 
-1. 以前に作成したユーザーをクリックし、 ![](assets/managing_security_group_10.png) カテゴリ内の **[!UICONTROL Products]** アイコンをクリックします。
+1. 以前に作成したユーザーをクリックし、**[!UICONTROL Products]** カテゴリ内の ![](assets/managing_security_group_10.png) アイコンをクリックします。
 
-   開始 **[!UICONTROL Edit products assigned directly]** に新しいセキュリティグループを割り当てる場合に選択します。
+   「**[!UICONTROL Edit products assigned directly]**」を選択して、新しいセキュリティグループを割り当て始めます。
 
    ![](assets/manage_security_group_8.png)
 
-1. タブで、インスタンスを選択し、次に、ドロップダウンリストから以前に作成したセキュリティグループGeometrixxを選択して、管理者ユーザーに割り当てます。 **[!UICONTROL Assign Products]**
+1. 「**[!UICONTROL Assign Products]**」タブでインスタンスを選択し、ドロップダウンリストから以前に作成したセキュリティグループ Geometrixx を選択して、Administrators ユーザーに割り当てます。
 
-   クリック **[!UICONTROL Save]** .
+   「**[!UICONTROL Save]**」をクリックします。
 
    ![](assets/manage_security_group_3.png)
 
    ユーザーが複数のグループに属する場合：
 
-   * 様々なグループの役割が累積されます。 ここでは、ユーザーは2つの異なるグループに分けられます。 ユニットの役割を果たす1つ。
-   * 使用される階層の中で最も高い単位です(「 [組織単位](../../administration/using/organizational-units.md) 」の項の例を参照)。
-   * ユニットのレベルが同じで、階層内の並列分岐にある場合、ユーザーは接続できなくなります。
+   * 異なるグループの役割は累積されます。ここでは、ユーザーは 2 つの異なるグループに属しています。1 つは役割ベースで、もう 1 つは単位ベースです。
+   * 単位は使用される階層の中で最高のものです（[組織単位](../../administration/using/organizational-units.md)の節の例を参照）。
+   * 単位のレベルが同じで、階層内の並列分岐にある場合、ユーザーは接続できなくなります。
 
-1. 同じ手順に従って、StandardGeometrixxにData Choosesセキュリティグループを割り当てます。
+1. 同じ手順に従って、Geometrixx Clothes セキュリティグループを Standard Users ユーザーに割り当てます。
 
    ![](assets/manage_security_group_9.png)
 
-新しく作成されたセキュリティグループが管理コンソールに作成されます。 完全に同期するには、Adobe Campaignで作成する必要もあります。
+新しく作成されたセキュリティグループが Admin Console に作成されます。セキュリティグループを完全に同期するには、Adobe Campaign でもセキュリティグループを作成する必要があります。
 
-管理者ユーザーは、組織単位の割り当てに使用するセキュリティグループのセットを作成する必要があります。 GeometrixxとGeometrixxの服 組織単位の作成方法については、「ユニットの [作成と管理](../../administration/using/organizational-units.md#creating-and-managing-units) 」を参照してください。
+Administrators ユーザーは、組織単位の割り当てに使用する Geometrixx および Geometrixx Clothes セキュリティグループのセットを作成する必要があります。組織単位の作成方法については、[単位の作成と管理](../../administration/using/organizational-units.md#creating-and-managing-units)を参照してください。
 
-1. 左上隅の **[!UICONTROL Adobe Campaign]** ロゴをクリックし、を選択し **[!UICONTROL Administration > Users & Security > Security groups]**&#x200B;ます。
-1. 新しいセキュリティグループを作成し、そのグループ **[!UICONTROL Label]** とを指定し **[!UICONTROL ID]**&#x200B;ます。
+1. 左上隅の **[!UICONTROL Adobe Campaign]** ロゴをクリックし、**[!UICONTROL Administration > Users & Security > Security groups]** を選択します。
+1. 新しいセキュリティグループを作成し、**[!UICONTROL Label]** と **[!UICONTROL ID]** を指定します。
 
-   このIDは、管理コンソールで選択したIDと同じである必要があります。
+   この ID は、Admin Console で選択した ID と同じである必要があります。
 
-1. この **[!UICONTROL User access]** フィールドで、組織単位を割り当てます。 ここでは、Geometrixxセキュリティグループに **[!UICONTROL All]** 組織単位が割り当てられます。
+1. 「**[!UICONTROL User access]**」フィールドで、組織単位を割り当てます。ここでは、Geometrixx セキュリティグループに **[!UICONTROL All]** 組織単位が割り当てられます。
 
    >[!NOTE]
    >
@@ -139,14 +139,14 @@ ht-degree: 1%
 
    ![](assets/manage_security_group_6.png)
 
-1. ロールをセキュリティグループに割り当てることもできます。 この場合、この手順は不要です。これは、あらかじめ用意されているセキュリティグループ **[!UICONTROL Administrators]** と、ロールの割り当て **[!UICONTROL Standard users]** に使用されるためです。
-1. 同じ手順に従って、最後のセキュリティGeometrixx衣料品を作成し、Geometrixx衣料品の組織単位を割り当てます。
+1. 役割をセキュリティグループに割り当てることもできます。その場合、標準の **[!UICONTROL Administrators]** セキュリティグループと **[!UICONTROL Standard users]** セキュリティグループが役割の割り当てに使用されるので、この手順は不要です。
+1. 同じ手順で、最後のセキュリティ Geometrixx Clothes を作成し、Geometrixx Clothes の組織単位を割り当てます。
 
    ![](assets/manage_security_group_7.png)
 
-ユーザーはセキュリティグループに割り当てられ、Adobe Campaignに接続できるようになりました。
+これで、ユーザーはセキュリティグループに割り当てられ、Adobe Campaign に接続できるようになります。
 
 >[!IMPORTANT]
 >
->管理コンソールでセキュリティグループから削除されたユーザーは、Adobe Campaignセキュリティグループに引き続き属し、Adobe Campaignにログインできなくなります。 この場合、ユーザーが機密情報を受け取らないように、管理コンソールでユーザーの電子メールアドレスを削除します。
+>Admin Console でセキュリティグループから削除されたユーザーは、Adobe Campaign セキュリティグループに引き続き属しますが、Adobe Campaign にログインできなくなります。この場合、ユーザーが機密情報を受け取らないように、Admin Console でユーザーの E メールアドレスを削除します。
 
