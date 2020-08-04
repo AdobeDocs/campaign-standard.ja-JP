@@ -1,6 +1,6 @@
 ---
-title: Campaign Standardリリースの計画
-description: このページでは、Adobe Campaign標準の今後のリリースリストを紹介します。
+title: Campaign Standard のリリース計画
+description: このページでは、Adobe Campaign Standard の今後のリリースを紹介します。
 page-status-flag: never-activated
 uuid: null
 contentOwner: sauviat
@@ -15,26 +15,26 @@ translation-type: tm+mt
 source-git-commit: c7ed307e982e3fe41b2e3a7d0de7de356338bc08
 workflow-type: tm+mt
 source-wordcount: '458'
-ht-degree: 9%
+ht-degree: 98%
 
 ---
 
 
 # リリース計画 {#release-planning}
 
-アドビは、新しい機能、拡張機能および修正を追加することで、ソリューションを継続的に強化しています。
+アドビでは、新しい機能、機能強化および修正を加えてソリューションを継続的に改善しています。
 
-すべてのAdobe Campaign標準インスタンスは、新しいリリースのたびにアップグレードされます。 アップグレードに対するアクションは必要ありません。
+すべての Adobe Campaign Standard インスタンスは、新しいリリースのたびにアップグレードされます。アップグレードに必要なアクションはありません。
 
-アップグレードは2段階で導入されます。 最初に、Stageインスタンスがアップグレードされ、お客様が新しい機能をテストし、必要に応じて設定を調整できるようになりました。 その後、実稼働インスタンスがアップグレードされます。
+アップグレードは 2 段階でデプロイされます。まず、ステージング用インスタンスがアップグレードされて、お客様が新しい機能をテストしたり、必要に応じて設定を調整したりできるようになります。その後、本番用インスタンスがアップグレードされます。
 
-すべてのリリース日は変更される可能性があります。 このページを定期的に訪問して、更新を確認することをお勧めします。
+すべてのリリース日は変更される可能性があります。このページに定期的にアクセスして、アップデートを確認することをお勧めします。
 
-**新規！** Campaign Standardのリリース通知を購読する [](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU) 、今後のリリースに関する詳細を受信トレイに直接表示できます。
+**新規：**[Campaign Standard のリリース通知](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU)をご購読いただくと、今後のリリースの詳細が E メールで通知されます。
 
 ## リリース20.4 - 10月のリリース {#release-20-4-oct-release}
 
-環境の更新は、以下に示す時間枠内にウェーブで発生します。 このリリースに関する詳細は、 [リリースノートを参照してください](../../rn/using/release-notes.md)。 その他のご質問は、 [Adobe Client Careにお問い合わせください](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)。
+環境のアップデートは、以下に示す期間に順次おこなわれます。このリリースについて詳しくは、[リリースノート](../../rn/using/release-notes.md)を参照してください。その他のご質問については、[アドビクライアントケア](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)にお問い合わせください。
 
 <table>
  <thead>
@@ -45,11 +45,11 @@ ht-degree: 9%
  </thead>
  <tbody>
   <tr>
-   <td>ステージ<br /> </td>
+   <td>ステージング<br /> </td>
    <td>2020年9月21日～22日<br /> </td>
   </tr>
   <tr>
-   <td> Production（本番）<br /> </td>
+   <td> 本番<br /> </td>
    <td>2020年9月28日～10月5日<br /> </td>
   </tr>
  </tbody>
@@ -59,32 +59,32 @@ ht-degree: 9%
 
 ## 質問と回答 {#questions-and-answers}
 
-**Q: 影響は？**
+**Q：どのような影響がありますか？**
 
-A: 変更点は [リリースノートに記載されており](../../rn/using/release-notes.md)、関連ドキュメントへのリンクも含まれています。 また、 [廃止/削除された機能のページを参照することをお勧めします](https://helpx.adobe.com/jp/campaign/kb/acs-deprecated-and-removed-features.html)。 これらのページは、Stage環境のアップグレード日に、新しいリリースで利用できます。
+A：変更点は[リリースノート](../../rn/using/release-notes.md)に記載されています。リリースには、関連ドキュメントへのリンクも含まれています。また、[廃止および削除された機能](https://helpx.adobe.com/jp/campaign/kb/acs-deprecated-and-removed-features.html)のページを参照することもお勧めします。新しいリリースについてのこれらのページは、ステージング環境のアップグレード日に利用可能になります。
 
-**Q: 検証プロセスとは**
+**Q：検証プロセスとは何ですか？**
 
-A: ステージングインスタンスがアップグレードされると、アドビでは、プロセスおよび使用例がこの新しいバージョンで正しく動作していることを検証し、問題があれば [Adobe Client Careに報告することをお勧めします](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)。
+A：ステージング用インスタンスがアップグレードされたら、お客様のプロセスとユースケースがこの新しいバージョンで正しく動作することを検証し、問題があれば[アドビクライアントケア](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)に報告することをお勧めします。
 
-**Q: アップグレードプロセス中に、インスタンスにアクセスできますか。**
+**Q：アップグレード中にインスタンスにアクセスできますか？**
 
-A: いいえ。 インスタンスのアップグレード中、数分間はデータベースにアクセスできない場合があります。 すべてのプロセスが自動的に再起動します。
+A：いいえ。インスタンスのアップグレード中は、数分間データベースにアクセスできない可能性があります。すべてのプロセスが自動的に再起動します。
 
-**Q: メッセージは引き続き送信されますか？**
+**Q：メッセージは引き続き送信されますか？**
 
-A: いいえ。 数分間はメッセージは送信されません。 アップグレードが完了すると、プロセスは自動的に再起動されます。
+A：いいえ。メッセージは、数分間送信されません。アップグレードが完了するとすぐに、プロセスは自動的に再起動されます。
 
-**Q: ワークフローは引き続き実行され、配信を送信しますか？**
+**Q：ワークフローは引き続き実行され、配信を送信しますか？**
 
-A: いいえ。 ビルドのアップグレード中に、ワークフローサーバーとMTAの両方が停止します。 つまり、ワークフローは実行されず、数分間は配信は送信されません。 必要なアクションはありません。 ワークフローは、インスタンスがアップグレードされるとすぐに再び開始します。
+A：いいえ。ビルドのアップグレード中は、ワークフローサーバーと MTA の両方が停止します。つまり、数分間、ワークフローは実行されず、配信は送信されません。ユーザー側で必要なアクションはありません。ワークフローは、インスタンスがアップグレードされるとすぐに再開します。
 
-**Q: アップグレード中も、メッセージ内のリンクの追跡は引き続き機能しますか。**
+**Q：アップグレード中も、メッセージ内のトラッキングリンクは機能しますか？**
 
-A: はい、彼らは働きます。 アップグレードの間、新しい E メールは送信できませんが、既に送信されている E メールに含まれるトラッキングリンクは機能します。
+A：はい。アップグレード中に新しい E メールは送信できませんが、既に送信されている E メールに含まれるトラッキングリンクは機能します。
 
-**Q: アップグレードが完了したことを確認する方法**
+**Q：アップグレードが完了したことを確認する方法がありますか？**
 
-A: キャンペーンにログオンすると、リリース通知ポップアップが表示され、最新バージョンが表示されます。
+A：Campaign にログオンすると、リリース通知ポップアップが表示され、最新バージョンが表示されます。
 
-その他のご質問は、 [Adobe Client Careにお問い合わせください](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)。
+その他のご質問については、[アドビクライアントケア](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)にお問い合わせください。
