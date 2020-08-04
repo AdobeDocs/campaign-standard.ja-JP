@@ -15,30 +15,30 @@ translation-type: tm+mt
 source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
 workflow-type: tm+mt
 source-wordcount: '367'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
 
 # プロファイルの作成{#creating-profiles}
 
-Adobe Campaignでは、プロファイルはデフォルトでメッセージのメインターゲットの定義に使用されます。
+Adobe Campaign では、メッセージのメインターゲットを定義する際に、プロファイルがデフォルトで使用されます。
 
-キャンペーンでプロファイルを作成または更新するには、次の操作を行います。
+Campaign でプロファイルを作成または更新するには、次の操作をおこないます。
 
-* ワークフローを使用したファイルからのプロファイルリストの読み込み [](../../automating/using/creating-import-workflow-templates.md)
-* [ランディングページを介してオンラインでデータを収集](../../channels/using/getting-started-with-landing-pages.md)
-* [REST APIを使用した一括作成](../../api/using/get-started-apis.md)
-* [Microsoft Dynamicsのプロファイルの同期](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
-* 以下に説明するように、グラフィカルインターフェイス画面を使用してデータを入力します
+* [ワークフロー](../../automating/using/creating-import-workflow-templates.md)を使用してプロファイルのリストをインポートする
+* [ランディングページ](../../channels/using/getting-started-with-landing-pages.md)からオンラインでデータを収集する
+* [REST API](../../api/using/get-started-apis.md) を使用して一括作成する
+* [Microsoft Dynamics](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md) からプロファイルを同期する
+* 以下に説明するように、グラフィカルインターフェイス画面からデータを入力する
 
-例えば、ユーザーインターフェイスに直接新しいプロファイルを作成するには、次の手順に従います。
+例えば、ユーザーインターフェイスで直接新しいプロファイルを作成するには、次の手順に従います。
 
-1. Adobe Campaignホームページで、「 **プロファイル** 」カードまたは「 **プロファイル** 」タブをクリックして、プロファイルのリストにアクセスします。
+1. Adobe Campaign ホームページで、「**顧客プロファイル**」カードまたは「**プロファイル**」タブをクリックして、プロファイルのリストにアクセスします。
 
    ![](assets/profile_creation_1.png)
 
-1. 次に、をクリックし **[!UICONTROL Create]**&#x200B;ます。
+1. 次に、「**[!UICONTROL Create]**」をクリックします。
 
    ![](assets/profile_creation.png)
 
@@ -46,29 +46,29 @@ Adobe Campaignでは、プロファイルはデフォルトでメッセージの
 
    ![](assets/profile_creation1.png)
 
-   * 姓、姓、性別、生年月日、写真、好みの言語( [多言語電子メールの場合](../../channels/using/creating-a-multilingual-email.md))などの連絡先配信を使用すると、情報をパーソナライズしやすくなります。
-   * プロファイルのタイムゾーン **[!UICONTROL Time zone]** で配信を送信するには、プロファイルのタイムゾーンが使用されます。 詳しくは、[この節](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md)を参照してください。
-   * 電子メールアドレス、携帯電話番号、オプトアウト情報を含む **[!UICONTROL Channels]** カテゴリは、プロファイルに到達可能なチャネルを通知します。
-   * プロファイルがチャネルを登録解除すると、 **[!UICONTROL No longer contact]** カテゴリはすぐに更新されます。
-   * この **[!UICONTROL Address]** カテゴリには、このプロファイルにダイレクトメールを送信するためのオプションと共に、入力する必要がある **[!UICONTROL Address specified]** 住所が含まれています [](../../channels/using/about-direct-mail.md) 。 この **[!UICONTROL Address specified]** オプションを選択しない場合、このプロファイルはすべてのダイレクトメール配信から除外されます。
-   * カテゴリは、プロファイルの組織単位(権限の **[!UICONTROL Access authorization]** 管理 [](../../administration/using/about-access-management.md))を示します。 プロファイルの [分割も参照してください](../../administration/using/organizational-units.md#partitioning-profiles)。
-   * カテゴリは、プロファイルの作成または変更を行ったユーザに関する情報で自動的に更新されます。 **[!UICONTROL Traceability]**
+   * 姓、名、性別、生年月日、写真、優先言語（[多言語 E メールの場合](../../channels/using/creating-a-multilingual-email.md)）などの連絡先情報を使用すると、配信をパーソナライズしやすくなります。
+   * プロファイルの **[!UICONTROL Time zone]** を設定すると、配信がプロファイルのタイムゾーンに従って送信されます。詳しくは、[この節](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md)を参照してください。
+   * E メールアドレス、携帯電話番号、オプトアウト情報などの **[!UICONTROL Channels]** カテゴリを使用すると、プロファイルにリーチ可能なチャネルを把握できます。
+   * プロファイルでチャネルが購読解除されると、**[!UICONTROL No longer contact]** カテゴリはただちに更新されます。
+   * **[!UICONTROL Address]** カテゴリには住所の欄があり、このプロファイルに[ダイレクトメール](../../channels/using/about-direct-mail.md)を送る場合は「**[!UICONTROL Address specified]**」オプションと合わせて入力する必要があります。「**[!UICONTROL Address specified]**」オプションを選択しない場合、このプロファイルはすべてのダイレクトメール送付から除外されます。
+   * 「**[!UICONTROL Access authorization]**」カテゴリは、プロファイルの組織単位（[権限の管理](../../administration/using/about-access-management.md)に使用）を表します。[プロファイルの分割](../../administration/using/organizational-units.md#partitioning-profiles)も参照してください。
+   * 「**[!UICONTROL Traceability]**」カテゴリは、プロファイルの作成または変更をおこなったユーザーに関する情報により自動的に更新されます。
 
-1. をクリック **[!UICONTROL Create]** して、プロファイルを保存します。
+1. 「**[!UICONTROL Create]**」をクリックして、プロファイルを保存します。
 
 プロファイルがリストに表示されます。
 
 >[!NOTE]
 >
->プロファイルの作成は、Adobe Campaign標準APIを使用しても可能です。 For more on this, refer to the [dedicated documentation](../../api/using/creating-profiles.md).
+>プロファイルの作成は、Adobe Campaign Standard API を使用しても可能です。詳しくは、[該当するドキュメント](../../api/using/creating-profiles.md)を参照してください。
 
-プロファイルは、組織単位に応じて分割することもできます。 組織のフィールドをプロファイルに追加するには、「 [プロファイルの](../../administration/using/organizational-units.md#partitioning-profiles) 分割」の項を参照してください。
+プロファイルは、組織単位に応じて分割することもできます。組織関連のフィールドをプロファイルに追加するには、[プロファイルの分割](../../administration/using/organizational-units.md#partitioning-profiles)の節を参照してください。
 
 >[!NOTE]
 >
->多言語メッセージを送信する際に、言語を選択する際に優先言語フィールドを使用します。 多言語メッセージの詳細については、このページ [を参照してください](../../channels/using/creating-a-multilingual-email.md)。
+>優先言語フィールドは、多言語メッセージを送信する際に言語を選択するために使用します。多言語メッセージの詳細については、[このページ](../../channels/using/creating-a-multilingual-email.md)を参照してください。
 
 **関連トピック：**
 
-* [ランディングページ](../../channels/using/getting-started-with-landing-pages.md) — ステップバイステップガイド
-* [プロファイル](https://video.tv.adobe.com/v/24993?captions=jpn) ・ビデオの読み込み
+* [ランディングページについて](../../channels/using/getting-started-with-landing-pages.md) - ステップバイステップガイド
+* [プロファイルのインポート](https://video.tv.adobe.com/v/24993?captions=jpn) - ビデオ
