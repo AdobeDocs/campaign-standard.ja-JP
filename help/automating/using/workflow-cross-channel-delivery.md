@@ -16,7 +16,7 @@ translation-type: tm+mt
 source-git-commit: 68e689e6bc362f4e948593c3b251f3825aab20ac
 workflow-type: tm+mt
 source-wordcount: '862'
-ht-degree: 17%
+ht-degree: 86%
 
 ---
 
@@ -25,48 +25,48 @@ ht-degree: 17%
 
 このドキュメントでは、標準的な使用例を基に Adobe Campaign のクロスチャネル配信ワークフロー作成機能を紹介します。
 
-ここでの目的は、データベースの受信者からオーディエンスを選択し、2つの異なるグループにセグメント化することです。これは、最初のグループに電子メールを送信し、2番目のグループにSMSメッセージを送信することを目的としています。
+ここでは、1 つのグループに E メールを送信し、もう 1 つのグループに SMS メッセージを送信することを目的に、データベースの受信者からオーディエンスを選択し、2 つの別々のグループにセグメント化します。
 
 ![](assets/wkf_segment_overview.png)
 
-Adobe Campaignで使用できるワークフローと様々なチャネルの詳細については、次のドキュメントを参照してください。
+Adobe Campaign で使用できるワークフローと様々なチャネルの詳細については、次のドキュメントを参照してください。
 
-* [ワークフローの検索](../../automating/using/get-started-workflows.md)
+* [ワークフローの検出](../../automating/using/get-started-workflows.md)
 * [通信チャネルの検出](../../channels/using/get-started-communication-channels.md)
 
-## ワークフローの作成 {#creating-workflow}
+## ワークフローの作成{#creating-workflow}
 
 任意のグループに 2 つの異なる配信を送信するには、まずターゲットを定義する必要があります。
 
 そのためには、受信者を特定するクエリを作成しなければならないので、ワークフローを作成する必要があります。
 
-プログラムまたは任意のキャンペーンで新しいワークフローを作成します。
+プログラムとキャンペーンのどちらかで新しいワークフローを作成します。
 
-1. で、 **[!UICONTROL Marketing Activities]**&#x200B;をクリック **[!UICONTROL Create]** してを選択し **[!UICONTROL Workflow]**&#x200B;ます。
-1. ワークフローのタイプ **[!UICONTROL New Workflow]** として選択し、をクリックし **[!UICONTROL Next]**&#x200B;ます。
-1. ワークフローのプロパティを入力し、をクリックし **[!UICONTROL Create]**&#x200B;ます。
+1. 「**[!UICONTROL Marketing Activities]**」で、「**[!UICONTROL Create]**」をクリックして「**[!UICONTROL Workflow]**」を選択します。
+1. ワークフローのタイプとして「**[!UICONTROL New Workflow]**」を選択し、「**[!UICONTROL Next]**」をクリックします。
+1. ワークフローのプロパティを入力し、「**[!UICONTROL Create]**」をクリックします。
 
-ワークフローを作成する詳細な手順については、「ワークフローの [構築](../../automating/using/building-a-workflow.md) 」の節を参照してください。
+ワークフローを作成する詳細な手順については、[ワークフローの作成](../../automating/using/building-a-workflow.md)の節を参照してください。
 
-## Creating a Query activity {#creating-query-activity}
+## クエリアクティビティの作成{#creating-query-activity}
 
 ワークフローを作成したら、そのインターフェイスにアクセスできます。
 
-ワークフローにクエリアクティビティを挿入して、配信を受け取るプロファイルをターゲットします。
+クエリアクティビティをワークフローに挿入し、配信を受信するプロファイルをターゲティングします。
 
 1. /で、 **[!UICONTROL Activities]** クエリ **[!UICONTROL Targeting]**[](../../automating/using/query.md) アクティビティをドラッグ&amp;ドロップします。
-1. アクティビティを重複クリックします。
-1. タブでショートカットを参照し **[!UICONTROL Target]** 、 [オーディエンスの1つを選択します](../../audiences/using/about-audiences.md)。
-1. ショートカットを編集領域にドラッグ&amp;ドロップします。 選択したショートカットの種類に応じて、ウィンドウが表示されます。
-1. ターゲットエレメントを設定し、クエリを確認します。
+1. アクティビティをダブルクリックします。
+1. 「**[!UICONTROL Target]**」タブでショートカットを参照し、[オーディエンス](../../audiences/using/about-audiences.md)の 1 つを選択します。
+1. ショートカットを編集領域にドラッグ＆ドロップします。選択したショートカットの種類に応じて、ウィンドウが表示されます。
+1. ターゲティング要素を設定し、クエリを確認します。
 
 ![](assets/wkf_segment_query.png)
 
-1つまたは複数の要素に対してクエリを作成できます。
+1 つまたは複数の要素に対してクエリを作成できます。
 
-ボタンを使用して、クエリのターゲットプロファイル数の予測を表示します。 **[!UICONTROL Count]**
+「**[!UICONTROL Count]**」ボタンを使用して、クエリのターゲットプロファイル数の予測を表示します。
 
-## セグメントアクティビティの作成 {#creating-segmentation-activity}
+## Segmentation アクティビティの作成{#creating-segmentation-activity}
 
 クエリアクティビティでターゲットを特定したら、ターゲットを 2 つの別々の母集団にセグメント化する条件を選択する必要があります。一方は E メールを受信し、もう一方は SMS を受信します。
 
@@ -76,87 +76,87 @@ You have to use a [Segmentation](../../automating/using/segmentation.md) activit
 
 **E メール**&#x200B;グループでは、E メールアドレスが定義されているが、携帯電話番号がない受信者をターゲットにします。**SMS** グループには、携帯電話番号がプロファイルに保存されている受信者が含まれます。
 
-最初のトランジション（電子メール）を設定するには：
+最初のトランジション（E メール）を設定するには：
 
-1. デフォルトでは、 **[!UICONTROL Segments]** タブに最初のセグメントが表示されます。 プロパティを編集して、そのセグメントを設定します。
+1. デフォルトでは、「**[!UICONTROL Segments]**」タブに最初のセグメントが表示されます。プロパティを編集して、そのセグメントを設定します。
 
    ![](assets/wkf_segment_properties.png)
 
-1. フィルター条件 **[!UICONTROL Email]** としてプロファイルを選択します。
+1. フィルター条件としてプロファイルの「**[!UICONTROL Email]**」を選択します。
 
    ![](assets/wkf_segment_email.png)
 
-1. 画面に表示される新しいウィンドウで、 **[!UICONTROL Is not empty]** 演算子を選択します。
+1. 画面に表示される新しいウィンドウで、「**[!UICONTROL Is not empty]**」演算子を選択します。
 
    ![](assets/wkf_segment_email_not_empty.png)
 
-1. 2追加つ目のフィルタ条件、 **[!UICONTROL Mobile]**&#x200B;および演算子の選択を行い **[!UICONTROL Is empty]**&#x200B;ます。
+1. 2 番目のフィルター条件、「**[!UICONTROL Mobile]**」を追加し、演算子「**[!UICONTROL Is empty]**」を選択します。
 
    ![](assets/wkf_segment_mobile_empty.png)
 
-   電子メールが定義されているが、携帯電話番号が定義されていないクエリからのプロファイルはすべて、このトランジションに含まれます。
+   E メールが定義されているが、携帯電話番号が定義されていないクエリからのプロファイルはすべて、このトランジションに含まれます。
 
-1. ワークフローをより明確にするために、トランジションラベルを編集できます。 変更を確認します。
+1. ワークフローをより明確にするために、トランジションラベルを編集できます。変更を確認します。
 
    ![](assets/wkf_segment_transition_label.png)
 
-最初のトランジションが設定されます。 2番目のトランジション(SMS)を構成するには：
+最初のトランジションが設定されます。2 番目のトランジション（SMS）を構成するには：
 
-1. 新しいトランジションを追加するには、 **[!UICONTROL Add an element]** ボタンをクリックします。
-1. 携帯電話番号が入力されたすべてのプロファイルを取得できる条件を定義します。 これを行うには、 **[!UICONTROL Mobile]****[!UICONTROL Is not empty]** 論理演算子を使用してフィールドにルールを作成します。
+1. 新規トランジションを追加するには、「**[!UICONTROL Add an element]**」ボタンをクリックします。
+1. 携帯電話番号が入力されたすべてのプロファイルを取得できる条件を定義します。これをおこなうには、「**[!UICONTROL Mobile]**」論理演算子を使用して「**[!UICONTROL Is not empty]**」フィールドにルールを作成します。
 
    ![](assets/wkf_segment_mobile_not_empty.png)
 
    携帯電話番号が定義されているクエリからのプロファイルはすべて、このトランジションに含まれます。
 
-1. トランジションのラベルを編集できます。 変更を確認します。
+1. トランジションのラベルを編集できます。変更を確認します。
 
-2番目のトランジションも設定されます。
+これで 2 番目のトランジションも設定されました。
 
 ![](assets/wkf_segment_transitions.png)
 
-## 配信の作成 {#creating-deliveries}
+## 配信の作成{#creating-deliveries}
 
-2つのトランジションが既に作成されているので、セグメントアクティビティのアウトバウンドトランジションに2種類の配信を追加する必要があります。 電子 [メール配信](../../automating/using/email-delivery.md) アクティビティと [SMS配信](../../automating/using/sms-delivery.md) アクティビティ。
+As two transitions were already created, you must now add two types of deliveries to the outbound transitions of the Segmentation activity: an [Email delivery](../../automating/using/email-delivery.md) activity and an [SMS delivery](../../automating/using/sms-delivery.md) activity.
 
-Adobe Campaignを使用すると、ワークフローに配信を追加できます。 これを行うには、ワークフローの配信パレットの **[!UICONTROL Channels]** カテゴリからアクティビティを選択します。
+Adobe Campaign を使用すると、ワークフローに配信を追加できます。これをおこなうには、ワークフローのアクティビティパレットの「**[!UICONTROL Channels]**」カテゴリから配信を選択します。
 
 ![](assets/wkf_segment_deliveries1.png)
 
-電子メール配信を作成するには：
+E メール配信を作成するには：
 
 1. 最初のセグメントの後に [電子メール配信](../../automating/using/email-delivery.md) アクティビティをドラッグ&amp;ドロップします。
-1. アクティビティを編集するには、重複をクリックします。
-1. 選択 **[!UICONTROL Simple email]**.
-1. を選択 **[!UICONTROL Add an outbound transition with the population]** し、をクリックし **[!UICONTROL Next]**&#x200B;ます。
+1. アクティビティを編集するには、ダブルクリックします。
+1. 「**[!UICONTROL Simple email]**」を選択します。
+1. 「**[!UICONTROL Add an outbound transition with the population]**」を選択し、「**[!UICONTROL Next]**」をクリックします。
 
    ![](assets/wkf_segment_deliveries2.png)
 
-   アウトバウンドトランジションでは、母集団とトラッキングログを回復できます。 例えば、これを使用して、最初のメールをクリックしなかったユーザーに2番目のメールを送信できます。
+   送信トランジションでは、母集団とトラッキングログを回復できます。例えば、これを使用して、最初のメールをクリックしなかったユーザーに 2 番目のメールを送信できます。
 
-1. 電子メールテンプレートを選択し、をクリックし **[!UICONTROL Next]**&#x200B;ます。
-1. 電子メールのプロパティを入力し、をクリックし **[!UICONTROL Next]**&#x200B;ます。
-1. 電子メールのレイアウトを作成するには、を選択し **[!UICONTROL Use the Email Designer]**&#x200B;ます。
+1. E メールテンプレートを選択し、「**[!UICONTROL Next]**」をクリックします。
+1. E メールのプロパティを入力し、「**[!UICONTROL Next]**」をクリックします。
+1. E メールのレイアウトを作成するには、「**[!UICONTROL Use the Email Designer]**」を選択します。
 1. コンテンツを編集して保存します。
-1. メッセージダッシュボードの **[!UICONTROL Schedule]** セクションで、[!UICONTROL要求確認]を選択解除してから、 **[!UICONTROL要求確認メッセージを送信する** ]オプションを選択します。
+1. メッセージダッシュボードの「**[!UICONTROL Schedule]**」セクションで、**「メッセージを送信する前に確認を要求する」**&#x200B;オプションの選択を解除します。
 
-SMS配信を作成するには：
+SMS 配信を作成するには：
 
 1. 他のセグメントの後に [SMS配信](../../automating/using/sms-delivery.md) アクティビティをドラッグ&amp;ドロップします。
-1. アクティビティを編集するには、重複をクリックします。
-1. を選択 **[!UICONTROL SMS]** し、をクリックし **[!UICONTROL Next]**&#x200B;ます。
-1. SMSテンプレートを選択し、をクリックし **[!UICONTROL Next]**&#x200B;ます。
-1. SMSプロパティを入力し、をクリックし **[!UICONTROL Next]**&#x200B;ます。
+1. アクティビティを編集するには、ダブルクリックします。
+1. 「**[!UICONTROL SMS]**」を選択し、「**[!UICONTROL Next]**」をクリックします。
+1. SMS テンプレートを選択し、「**[!UICONTROL Next]**」をクリックします。
+1. SMS のプロパティを入力し、「**[!UICONTROL Next]**」をクリックします。
 1. コンテンツを編集して保存します。
 
-配信の作成と編集が完了したら、ワークフローを開始できる状態になります。
+配信の作成と編集が完了したら、ワークフローを開始する準備ができました。
 
 ![](assets/wkf_segment_deliveries.png)
 
-## ワークフローの実行 {#running-the-workflow}
+## ワークフローの実行{#running-the-workflow}
 
-ワークフローが開始されると、 **[!UICONTROL Query]** アクティビティが対象とする訪問者がセグメント化され、電子メールまたはSMS配信を受信します。
+Once the workflow is started, the population targeted by the **[!UICONTROL Query]** activity will be segmented to receive an Email or SMS delivery.
 
-To execute your workflow, click the **[!UICONTROL Start]** button from the action bar.
+ワークフローを実行するには、アクションバーの「**[!UICONTROL Start]**」ボタンをクリックします。
 
-You can access your deliveries from the **[!UICONTROL Marketing plans]** > **[!UICONTROL Marketing activities]** advanced menu via the Adobe Campaign logo. Click the delivery then the **[!UICONTROL Reports]** button to access the [delivery reports](../../reporting/using/about-dynamic-reports.md#accessing-dynamic-reports), such as the delivery summary, the open rate or the email rendering according to the recipients&#39; message inbox.
+Adobe Campaign ロゴの、**[!UICONTROL Marketing plans]**／**[!UICONTROL Marketing activities]** 詳細設定メニューから、配信にアクセスできます。配信をクリックし、「**[!UICONTROL Reports]**」ボタンをクリックすると、配信の概要、開封率、受信者の受信ボックスに基づく E メールのレンダリングなどの[配信レポート](../../reporting/using/about-dynamic-reports.md#accessing-dynamic-reports)にアクセスできます。
