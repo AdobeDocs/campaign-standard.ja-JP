@@ -1,6 +1,6 @@
 ---
-title: マーケティング活動
-description: 「マーケティング活動を作成し、管理する方法を説明します。キャンペーン、電子メール、SMSおよびプッシュ通知の配信、ランディングページ、ワークフロー。 新しいアクティビティを簡単に設計し、既存のアクティビティを編集し、そのステータスと有効性を確認できます。」
+title: マーケティングアクティビティ
+description: 「マーケティングアクティビティを作成および管理する方法を学びます。キャンペーン、E メール、SMS、プッシュ通知配信、ランディングページ、ワークフローが含まれます。新規アクティビティを簡単に設計し、既存のアクティビティを編集し、そのステータスと有効性を確認できます。」
 page-status-flag: never-activated
 uuid: 5d45a935-6d03-4b27-aabd-7c47c11241ba
 contentOwner: sauviat
@@ -12,68 +12,71 @@ discoiquuid: 3ba165e1-420f-4d6f-b339-467b066b42d0
 context-tags: activity,overview
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
+workflow-type: ht
+source-wordcount: '472'
+ht-degree: 100%
 
 ---
 
 
-# マーケティング活動{#marketing-activities}
+# マーケティングアクティビティ{#marketing-activities}
 
-## マーケティング活動について {#about-marketing-activities}
+## マーケティングアクティビティについて {#about-marketing-activities}
 
-マーケティングアクティビティは、所属するプログラムやキャンペーンから、またはマーケティングアクティビティのリストから作成および管理できます。
+マーケティングアクティビティは、そのユーザーが属するプログラムやキャンペーンから、またはマーケティングアクティビティのリストを介して作成および管理できます。
 
-マーケティングアクティビティリストは、作成されたプログラムやキャンペーンに関係なく、すべてのアクティビティを集中化します。 プログラム、キャンペーン、配信（電子メール、SMSメッセージ、プッシュ通知）、ランディングページ、ワークフローは、特定の階層順序で項目化されます。
+マーケティングアクティビティリストを使用すると、アクティビティが作成されたプログラムやキャンペーンが何であっても、すべてのアクティビティを一元化できます。そのため、プログラム、キャンペーン、配信（E メール、SMS メッセージ、プッシュ通知）、ランディングページ、ワークフローは、特定の階層順に編成されるわけではありません。
 
-マーケティングアクティビティリストにアクセスするには、上部 **[!UICONTROL Marketing activities]** バーからリンクを選択します。
+マーケティングアクティビティリストにアクセスするには、上部バーから「**[!UICONTROL Marketing activities]**」リンクを選択します。
 
 >[!NOTE]
 >
->マーケティング活動は、ホームページからカードを選択してア **[!UICONTROL Marketing activities]** クセスすることもできます。
+>また、マーケティングアクティビティは、ホームページから&#x200B;**[!UICONTROL Marketing activities]**&#x200B;カードを選択してアクセスすることもできます。
 
 ![](assets/marketing_activities_1.png)
 
-このペ **[!UICONTROL Search]** インでは、様々な条件に従って要素をフィルタリングできます。名前（ラベルとID）、日付、ステータスまたはアクティビティタイプ。 デフォルトでは、プログラムを除くすべてのアクティビティタイプが選択されます。
+**[!UICONTROL Search]**&#x200B;パネルでは、名前（ラベルと ID）、日付、ステータス、アクティビティタイプなどの様々な条件に従って要素をフィルタリングできます。デフォルトでは、プログラムを除くすべてのアクティビティタイプが選択されます。
 
-各アクティビティのコンテンツに直接アクセスするには、リストからいずれかの要素を選択します。
+各アクティビティのコンテンツに直接アクセスするには、リストから要素の 1 つを選択します。
 
-このボ **[!UICONTROL Create]** タンを使用して、新しいアクティビティを作成できます。 For more on this, refer to the [Creating a marketing activity](#creating-a-marketing-activity) section.
+「**[!UICONTROL Create]**」ボタンを使用して、アクティビティを新規作成できます。詳しくは、[マーケティングアクティビティの作成](#creating-a-marketing-activity)の節を参照してください。
 
 ## マーケティングアクティビティのアイコンとステータス {#marketing-activity-icons-and-statuses}
 
 メインゾーンでは、リスト内のアクティビティの各タイプにアイコンが表示されます。
 
-* ![](assets/marketing_program_icon.png) : プログラム
-* ![](assets/marketing_campaign_icon.png) : キャンペーン
-* ![](assets/marketing_email_icon.png) : E メール
-* ![](assets/marketing_sms_icon.png) : SMS
-* ![](assets/marketing_push_icon.png) :プッシュ通知
-* ![](assets/marketing_lp_icon.png) :アプリ内メッセージ
-* ![](assets/marketing_lp_icon.png) : ランディングページ
-* ![](assets/marketing_workflow_icon.png) : ワークフロー
+* ![](assets/marketing_program_icon.png)：プログラム
+* ![](assets/marketing_campaign_icon.png)：キャンペーン
+* ![](assets/marketing_email_icon.png)：E メール
+* ![](assets/marketing_sms_icon.png)：SMS
+* ![](assets/marketing_push_icon.png)：プッシュ通知
+* ![](assets/marketing_lp_icon.png)：アプリ内メッセージ
+* ![](assets/marketing_lp_icon.png)：ランディングページ
+* ![](assets/marketing_workflow_icon.png)：ワークフロー
 
-有効期間とステータスに応じて、このアイコンに関連付けられる色は、対応するアクティビティの実行ステータスを示します。
+有効期間とステータスに応じて、このアイコンに関連付けられる色が、対応するアクティビティの実行ステータスを示します。
 
-* グレー：アクティビティはまだ開始されていません — ステータス **[!UICONTROL Editing]** です。
-* 青：アクティビティは進行中 — ステータス **[!UICONTROL In progress]** です。
-* 緑：アクティビティが完了しました — ス **[!UICONTROL Finished]** テータス
-* 黄色：アクティビティが警告を受け取りました — 状態 **[!UICONTROL Warning]** です。
-* 赤：エラーが発生しました — 状態 **[!UICONTROL Erroneous]** 。
+* グレー：アクティビティはまだ開始されていません - **[!UICONTROL Editing]**&#x200B;ステータス。
+* 青：アクティビティが進行中です - **[!UICONTROL In progress]**&#x200B;ステータス。
+* 緑：アクティビティが完了しました - **[!UICONTROL Finished]**&#x200B;ステータス。
+* 黄：アクティビティが警告を受け取りました - **[!UICONTROL Warning]**&#x200B;ステータス。
+* 赤：エラーが発生しました - **[!UICONTROL Erroneous]**&#x200B;ステータス。
 
 ## マーケティングアクティビティの作成 {#creating-a-marketing-activity}
 
-既存のキャンペーンから、様々なタイプのメッセージ(電子メール&#x200B;**、** SMS **、プ**&#x200B;ッシュ通知 ****&#x200B;など)、ワークフロー、ランディングページを作成できます。
+既存のキャンペーンから、様々な種類のメッセージ（**E メール**、**SMS**、**プッシュ通知**&#x200B;など）、ワークフローおよびランディングページを作成できます。
 
 既存のプログラムから、他のプログラム、キャンペーン、ワークフローおよびランディングページを作成できます。
 
 >[!NOTE]
 >
->キャンペーン内で直接ワークフローを作成することを検討します。 プログラム内でワークフローを作成した場合、後でそのワークフローをキャンペーンに移動することはできません。
+>キャンペーン内に直接ワークフローを作成することを検討してください。ワークフロー内にワークフローを作成した場合、後でプログラムをキャンペーンに移動することはできません。
 
-プログラムとキャンペーンは、「プログラムとキ [ャンペーン](../../start/using/programs-and-campaigns.md) 」セクションに表示されます。
+プログラムとキャンペーンについては、[プログラムとキャンペーン](../../start/using/programs-and-campaigns.md)の節を参照してください。
 
-1. プログラムまたはキャンペーンのダッシュボードで、ボタンを使用して新しいマーケティングアクティビティを作 **[!UICONTROL Create]** 成します。
+1. プログラムまたはキャンペーンのダッシュボードで、「**[!UICONTROL Create]**」ボタンを使用してマーケティングアクティビティを新規作成します。
 
    ![](assets/marketing_activiy_creation_1.png)
 
@@ -81,10 +84,10 @@ source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
    ![](assets/marketing_activiy_creation_2.png)
 
-コンテキストに応じて、次の操作を実行できます。
+コンテキストに応じて、以下をおこなうことができます。
 
-* [電子メールの作成](../../channels/using/creating-an-email.md)
-* [SMSの作成](../../channels/using/creating-an-sms-message.md)
+* [E メールの作成](../../channels/using/creating-an-email.md)
+* [SMS の作成](../../channels/using/creating-an-sms-message.md)
 * [プッシュ通知の作成](../../channels/using/preparing-and-sending-a-push-notification.md)
 * [アプリ内メッセージの作成](../../channels/using/about-in-app-messaging.md)
 * [ワークフローの作成](../../automating/using/building-a-workflow.md#creating-a-workflow)
@@ -94,5 +97,5 @@ source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
 
 >[!NOTE]
 >
->また、マーケティングアクティビティリストからマーケティングアクティビティを作成することもできます。 この場合、任意のタイプのアクティビティを作成できます。 アクティビティのプロパティを使用して、マーケティングアクティビティを親キャンペーン（またはプログラムを作成した場合は親プログラム）にリンクするように選択できます。
+>また、マーケティングアクティビティリストからマーケティングアクティビティを作成することもできます。この場合、任意のタイプのアクティビティを作成できます。アクティビティのプロパティを通じて、マーケティングアクティビティを親キャンペーン（またはプログラムを作成する場合は親プログラム）にリンクするように選択できます。
 
