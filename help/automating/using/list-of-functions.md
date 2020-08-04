@@ -11,8 +11,11 @@ topic-tags: filtering-data
 discoiquuid: 3cdbe962-1c59-4cd8-b29e-36aa2562fac6
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fa9d2be71b4bbf5eceadbd1835db324618f9529c
+workflow-type: ht
+source-wordcount: '1912'
+ht-degree: 100%
 
 ---
 
@@ -21,14 +24,14 @@ source-git-commit: fa9d2be71b4bbf5eceadbd1835db324618f9529c
 
 ## 関数について {#about-functions}
 
-クエリ編集ツールを使用すると、高度な関数を使用して複雑なフィルタリングを実行できます。 これを行うには、ワークスペースで使用で **[!UICONTROL Expression]**きる要素がツールパレットに含まれます。 この要素の詳細については、各節で説[明します](../../automating/using/advanced-expression-editing.md)。
+クエリ編集ツールを使用すると、高度な関数を使用して複雑なフィルタリングを実行できます。このために、ツールパレットにはワークスペースで使用できる&#x200B;**[!UICONTROL Expression]**&#x200B;要素が含まれています。この要素について詳しくは、[こちらの節](../../automating/using/advanced-expression-editing.md)を参照してください。
 
-この要素を使用すると、手動で条件を入力できます。 ここでは、以下の節で定義した関数を使用できます。
+この要素では、条件を手動で入力できます。ここでは、以降の節で説明する関数を使用できます。
 
-目的の結果と操作データのタイプに応じて、次の関数タイプを使用できます。
+目的とする結果や操作するデータのタイプに応じて、次のいくつかの関数タイプを使用できます。
 
 * 日付
-* Geomarketing
+* ジオマーケティング
 * 数値
 * その他の関数
 * 集計
@@ -37,7 +40,7 @@ source-git-commit: fa9d2be71b4bbf5eceadbd1835db324618f9529c
 
 ## 日付 {#dates}
 
-日付関数は、日付や時間の値を操作するために使用します。
+日付関数は、日付や時刻の値を操作する場合に使用します。
 
 <table> 
  <tbody> 
@@ -78,7 +81,7 @@ source-git-commit: fa9d2be71b4bbf5eceadbd1835db324618f9529c
   </tr> 
   <tr> 
    <td> <strong>DateOnly</strong><br /> </td> 
-   <td> 日付のみを返します（時刻は 0:00）<br /> </td> 
+   <td> 日付のみを返します（時刻は 00:00）<br /> </td> 
    <td> DateOnly(&lt;日付&gt;)<br /> </td> 
   </tr> 
   <tr> 
@@ -98,7 +101,7 @@ source-git-commit: fa9d2be71b4bbf5eceadbd1835db324618f9529c
   </tr> 
   <tr> 
    <td> <strong>DaysAgoInt</strong><br /> </td> 
-   <td> 現在の日付 - n 日を (整数 yyyymmdd として) 返します<br /> </td> 
+   <td> 現在の日付 - n 日を（整数 yyyymmdd として）返します<br /> </td> 
    <td> DaysAgoInt(&lt;数値&gt;)<br /> </td> 
   </tr> 
   <tr> 
@@ -128,8 +131,8 @@ source-git-commit: fa9d2be71b4bbf5eceadbd1835db324618f9529c
   </tr> 
   <tr> 
    <td> <strong>LocalToUTC</strong><br /> </td> 
-   <td> 現地の日時をUTCに変換します。<br /> </td> 
-   <td> LocalToUTC（&lt;日付&gt;, &lt;タイムゾーン&gt;）<br /> </td> 
+   <td> 現地の日時を UTC に変換します<br /> </td> 
+   <td> LocalToUTC(&lt;日付&gt;, &lt;タイムゾーン&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Minute</strong><br /> </td> 
@@ -167,9 +170,9 @@ source-git-commit: fa9d2be71b4bbf5eceadbd1835db324618f9529c
    <td> Second(&lt;日付&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>古い</strong><br /> </td> 
-   <td> 最も古い日付を返します。 </td> 
-   <td> 最も古い（&lt;日付&gt;, &lt;日付&gt;）<br /> </td> 
+   <td> <strong>Oldest</strong><br /> </td> 
+   <td> 最も古い日付を返します </td> 
+   <td> Oldest(&lt;日付&gt;, &lt;日付&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>SecondsDiff</strong><br /> </td> 
@@ -218,8 +221,8 @@ source-git-commit: fa9d2be71b4bbf5eceadbd1835db324618f9529c
   </tr> 
   <tr> 
    <td> <strong>ToDateTimeWithTimezone</strong><br /> </td> 
-   <td> 文字列を日付+タイムゾーンに変換します。<br /> 例：ToDateTimeWithTimezone ("2019-02-19 08:09:00", "Asia/Theran")<br /> </td> 
-   <td> ToDateTimeWithTimezone（&lt;文字列&gt;）<br /> </td> 
+   <td> 文字列を日付 + タイムゾーンに変換します<br />例：ToDateTimeWithTimezone("2019-02-19 08:09:00", "Asia/Tehran")<br /> </td> 
+   <td> ToDateTimeWithTimezone(&lt;文字列&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>TruncDate</strong><br /> </td> 
@@ -279,9 +282,9 @@ source-git-commit: fa9d2be71b4bbf5eceadbd1835db324618f9529c
  </tbody> 
 </table>
 
-## Geomarketing {#geomarketing}
+## ジオマーケティング {#geomarketing}
 
-ジオマーケティング関数は、地理的な値を操作するために使用します。
+ジオマーケティング関数は、地理に関する値を操作する場合に使用します。
 
 <table> 
  <tbody> 
@@ -292,7 +295,7 @@ source-git-commit: fa9d2be71b4bbf5eceadbd1835db324618f9529c
   </tr> 
   <tr> 
    <td> <strong>Distance</strong><br /> </td> 
-   <td> Returns the distance in kilometers between two points defined by their longitude and latitude (expressed in degrees)<br /> </td> 
+   <td> 経度と緯度（度単位）で定義された2 点間の距離をキロメートル単位の値で返します<br /> </td> 
    <td> Distance(&lt;経度 A&gt;, &lt;緯度 A&gt;, &lt;経度 B&gt;, &lt;緯度 B&gt;)<br /> </td> 
   </tr> 
  </tbody> 
@@ -300,7 +303,7 @@ source-git-commit: fa9d2be71b4bbf5eceadbd1835db324618f9529c
 
 ## 数値 {#numerical}
 
-数値関数は、テキストを数値に変換するために使用します。
+数値関数は、テキストを数値に変換する場合に使用します。
 
 <table> 
  <tbody> 
@@ -321,7 +324,7 @@ source-git-commit: fa9d2be71b4bbf5eceadbd1835db324618f9529c
   </tr> 
   <tr> 
    <td> <strong>Floor</strong><br /> </td> 
-   <td> Returns the greatest integer lower than or equal to a number<br /> </td> 
+   <td> 指定された数値以下の最大の整数を返します<br /> </td> 
    <td> Floor(&lt;数値&gt;)<br /> </td> 
   </tr> 
   <tr> 
@@ -337,7 +340,7 @@ source-git-commit: fa9d2be71b4bbf5eceadbd1835db324618f9529c
   <tr> 
    <td> <strong>Mod</strong><br /> </td> 
    <td> 整数の割り算 n1 ÷ n2 の余りを返します<br /> </td> 
-   <td> Mod（&lt;数値1&gt;, &lt;数値2&gt;）<br /> </td> 
+   <td> Mod(&lt;数値 1&gt;, &lt;数値 2&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Percent</strong><br /> </td> 
@@ -352,7 +355,7 @@ source-git-commit: fa9d2be71b4bbf5eceadbd1835db324618f9529c
   <tr> 
    <td> <strong>Round</strong><br /> </td> 
    <td> 数値を n 桁に丸めます<br /> </td> 
-   <td> TruncTime(&lt;数値&gt;, &lt;小数点以下の桁数&gt;)<br /> </td> 
+   <td> Round(&lt;数値&gt;, &lt;小数点以下の桁数&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Sign</strong><br /> </td> 
@@ -382,9 +385,9 @@ source-git-commit: fa9d2be71b4bbf5eceadbd1835db324618f9529c
  </tbody> 
 </table>
 
-## その他 {#others}
+## その他{#others}
 
-この表には、使用可能な残りの関数が含まれています。
+以下の表には、上記以外の使用可能な関数が記載されています。
 
 <table> 
  <tbody> 
@@ -395,8 +398,8 @@ source-git-commit: fa9d2be71b4bbf5eceadbd1835db324618f9529c
   </tr> 
   <tr> 
    <td> <strong>Case</strong><br /> </td> 
-   <td> 条件が検証された場合、値1を返します。 それ以外の場合は、値2を返します。<br /> </td> 
-   <td> (When(&lt;条件&gt;, &lt;値 1&gt;), Else(&lt;値 2&gt;))<br /> </td> 
+   <td> 条件が成り立つ場合は、値 1 を返します。それ以外の場合は、値 2 を返します。<br /> </td> 
+   <td> Case(When(&lt;条件&gt;, &lt;値 1&gt;), Else(&lt;値 2&gt;))<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>ClearBit</strong><br /> </td> 
@@ -410,7 +413,7 @@ source-git-commit: fa9d2be71b4bbf5eceadbd1835db324618f9529c
   </tr> 
   <tr> 
    <td> <strong>Decode</strong><br /> </td> 
-   <td> 戻り値3は値1 =値2、それ以外の場合は4<br /> </td> 
+   <td> 値 1 = 値 2 であれば 3 を返し、それ以外の場合は 4 を返します<br /> </td> 
    <td> Decode(&lt;値 1&gt;, &lt;値 2&gt;, &lt;値 3&gt;, &lt;値 4&gt;)<br /> </td> 
   </tr> 
   <tr> 
@@ -420,7 +423,7 @@ source-git-commit: fa9d2be71b4bbf5eceadbd1835db324618f9529c
   </tr> 
   <tr> 
    <td> <strong>GetEmailDomain</strong><br /> </td> 
-   <td> Extracts the domain from an email address<br /> </td> 
+   <td> E メールアドレスからドメインを抽出します<br /> </td> 
    <td> GetEmailDomain(&lt;値&gt;)<br /> </td> 
   </tr> 
   <tr> 
@@ -430,7 +433,7 @@ source-git-commit: fa9d2be71b4bbf5eceadbd1835db324618f9529c
   </tr> 
   <tr> 
    <td> <strong>Iif</strong><br /> </td> 
-   <td> 式がtrueの場合は値1を返し、それ以外の場合は値2を返します<br /> </td> 
+   <td> 式が true の場合は値 1 を返し、それ以外の場合は値 2 を返します<br /> </td> 
    <td> Iif(&lt;条件&gt;, &lt;値 1&gt;, &lt;値 2&gt;)<br /> </td> 
   </tr> 
   <tr> 
@@ -440,8 +443,8 @@ source-git-commit: fa9d2be71b4bbf5eceadbd1835db324618f9529c
   </tr> 
   <tr> 
    <td> <strong>IsEmptyString</strong><br /> </td> 
-   <td> Returns value 2 if the string is empty, otherwise returns value 3<br /> </td> 
-   <td> IsEmptyString(&lt;string&gt;, &lt;value 2&gt;, &lt;value 3&gt;)<br /> </td> 
+   <td> 文字列が空の場合は値 2 を返し、それ以外の場合は値 3 を返します<br /> </td> 
+   <td> IsEmptyString(&lt;文字列&gt;, &lt;値 2&gt;, &lt;値 3&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>NoNull</strong><br /> </td> 
@@ -465,20 +468,20 @@ source-git-commit: fa9d2be71b4bbf5eceadbd1835db324618f9529c
   </tr> 
   <tr> 
    <td> <strong>When</strong><br /> </td> 
-   <td> 式が検証された場合、値1を返します。 Otherwise, returns value 2 (may only be used as a parameter of the case function)<br /> </td> 
+   <td> 式が成り立つ場合は、値 1 を返します。それ以外の場合は、値 2 を返します（ケース関数のパラメーターとしてのみ使用できます）<br /> </td> 
    <td> When(&lt;条件&gt;, &lt;値 1&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>newUUID</strong><br /> </td> 
-   <td> 新しいUUIDを返します。<br /> </td> 
+   <td> 新しい UUID を返します<br /> </td> 
    <td> newUUID<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 文字列 {#string}
+## 文字列{#string}
 
-文字列関数は、一連の文字列を操作するために使用されます。
+文字列関数は、一連の文字列を操作する場合に使用します。
 
 <table> 
  <tbody> 
@@ -499,7 +502,7 @@ source-git-commit: fa9d2be71b4bbf5eceadbd1835db324618f9529c
   </tr> 
   <tr> 
    <td> <strong>ASCII</strong><br /> </td> 
-   <td> Returns the ASCII value of the first character in the string<br /> </td> 
+   <td> 文字列の最初の文字の ASCII 値を返します<br /> </td> 
    <td> Ascii(&lt;文字列&gt;)<br /> </td> 
   </tr> 
   <tr> 
@@ -514,8 +517,8 @@ source-git-commit: fa9d2be71b4bbf5eceadbd1835db324618f9529c
   </tr> 
   <tr> 
    <td> <strong>DataLength</strong><br /> </td> 
-   <td> 文字列内の文字数を返します。<br /> </td> 
-   <td> DataLength(&lt;String&gt;)<br /> </td> 
+   <td> 文字列に含まれる文字数を返します<br /> </td> 
+   <td> DataLength(&lt;文字列&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>GetLine</strong><br /> </td> 
@@ -524,7 +527,7 @@ source-git-commit: fa9d2be71b4bbf5eceadbd1835db324618f9529c
   </tr> 
   <tr> 
    <td> <strong>IfEquals</strong><br /> </td> 
-   <td> 最初の 2 つのパラメーターが等しい場合は 3 番目のパラメーターを返し、それ以外の場合は最後のパラメーターを返します<br /> </td> 
+   <td> 最初の 2 つのパラメーターが等しい場合は第 3 パラメーターを返し、それ以外の場合は最後のパラメーターを返します<br /> </td> 
    <td> IfEquals(&lt;文字列&gt;, &lt;文字列&gt;, &lt;文字列&gt;, &lt;文字列&gt;)<br /> </td> 
   </tr> 
   <tr> 
@@ -534,13 +537,13 @@ source-git-commit: fa9d2be71b4bbf5eceadbd1835db324618f9529c
   </tr> 
   <tr> 
    <td> <strong>JuxtWords</strong><br /> </td> 
-   <td> パラメーターとして渡された2つの文字列を含めます。 戻り値の各文字列の間にスペースが追加されます。<br /> </td> 
+   <td> パラメーターとして渡された 2 つの文字列を連結します。戻り値に含まれる各文字列の間にスペースが追加されます<br /> </td> 
    <td> JuxtWords(&lt;文字列&gt;, &lt;文字列&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>JuxtWords3</strong><br /> </td> 
-   <td> パラメーターとして渡された3つの文字列を含めます。 戻り値の各文字列の間にスペースが追加されます。<br /> </td> 
-   <td> JuxtWords3(&lt;string&gt;, &lt;string&gt;, &lt;string&gt;)<br /> </td> 
+   <td> パラメーターとして渡された 3 つの文字列を連結します。戻り値に含まれる各文字列の間にスペースが追加されます<br /> </td> 
+   <td> JuxtWords3(&lt;文字列&gt;, &lt;文字列&gt;, &lt;文字列&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>LPad</strong><br /> </td> 
@@ -554,7 +557,7 @@ source-git-commit: fa9d2be71b4bbf5eceadbd1835db324618f9529c
   </tr> 
   <tr> 
    <td> <strong>Length</strong><br /> </td> 
-   <td> 文字列の長さを返す<br /> </td> 
+   <td> 文字列の長さを返します<br /> </td> 
    <td> Length(&lt;文字列&gt;)<br /> </td> 
   </tr> 
   <tr> 
@@ -584,8 +587,8 @@ source-git-commit: fa9d2be71b4bbf5eceadbd1835db324618f9529c
   </tr> 
   <tr> 
    <td> <strong>置換</strong><br /> </td> 
-   <td> 文字列（1番目のパラメータ）内で指定した文字列（2番目のパラメータ）値を別の文字列値（3番目のパラメータ）に置き換えます。<br /> </td> 
-   <td> Replace(&lt;String&gt;, &lt;String&gt;, &lt;String&gt;)<br /> </td> 
+   <td> ある文字列（第 1 パラメーター）について、指定された文字列値（第 2 パラメーター）が出現する箇所をすべて別の文字列値（第 3 パラメーター）に置き換えます。<br /> </td> 
+   <td> Replace(&lt;文字列&gt;, &lt;文字列&gt;, &lt;文字列&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Right</strong><br /> </td> 
@@ -599,18 +602,18 @@ source-git-commit: fa9d2be71b4bbf5eceadbd1835db324618f9529c
   </tr> 
   <tr> 
    <td> <strong>Sha256Digest</strong><br /> </td> 
-   <td> 指定されたUTF8文字 <strong>列の標準SHA256</strong> ハッシュを計算します<br /> </td> 
+   <td> 指定された UTF8 文字列の標準の <strong>SHA256</strong> ハッシュを計算します<br /> </td> 
    <td> Sha256Digest(&lt;String&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Sha384Digest</strong><br /> </td> 
-   <td> 指定されたUTF8文字 <strong>列の標準SHA384</strong> ハッシュを計算します<br /> </td> 
-   <td> Sha384Digest(&lt;String&gt;)<br /> </td> 
+   <td> 指定された UTF8 文字列の標準の <strong>SHA384</strong> ハッシュを計算します<br /> </td> 
+   <td> Sha384Digest(&lt;文字列&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Sha512Digest</strong><br /> </td> 
-   <td> 指定されたUTF8文字 <strong>列の標準SHA512</strong> ハッシュを計算します<br /> </td> 
-   <td> Sha512Digest（&lt;文字列&gt;）<br /> </td> 
+   <td> 指定された UTF8 文字列の標準の <strong>SHA512</strong> ハッシュを計算します<br /> </td> 
+   <td> Sha512Digest(&lt;文字列&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Smart</strong><br /> </td> 
@@ -625,7 +628,7 @@ source-git-commit: fa9d2be71b4bbf5eceadbd1835db324618f9529c
   <tr> 
    <td> <strong>ToIntlString</strong><br /> </td> 
    <td> 数値を文字列に変換します<br /> </td> 
-   <td> ToIntlString（&lt;数値&gt;）<br /> </td> 
+   <td> ToIntlString(&lt;数値&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>ToString</strong><br /> </td> 
@@ -649,22 +652,22 @@ source-git-commit: fa9d2be71b4bbf5eceadbd1835db324618f9529c
   </tr> 
   <tr> 
    <td> <strong>encryption_aescbcDecrypt</strong><br /> </td> 
-   <td> 暗号化された値を16進数形式（2番目のパラメーター）で<strong>x</strong>(x)プレフィックスを付け、初期化ベクトルを16進数形式（3番目のパラメーター）で復号します。<br /> </td> 
-   <td> encryption_aescbcDecrypt(&lt;String&gt;, &lt;String&gt;, &lt;String&gt;)<br /> </td> 
+   <td> 暗号化された値を 16 進数形式で復号化します。その際に、プレフィックスとして「<strong>x</strong>」（第 1 パラメーター）を付け、16 進数形式のキー（第 2 パラメーター）と 16 進数形式の初期化ベクター（第 3 パラメーター）を使用します<br /> </td> 
+   <td> encryption_aescbcDecrypt(&lt;文字列&gt;, &lt;文字列&gt;, &lt;文字列&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>encryption_aescbcEncrypt</strong><br /> </td> 
-   <td> AESアルゴリズム（CBCブロックモード）を使用して暗号化します。文字列（第1パラメータ）とキー（第2パラメータ）および初期化ベクトル（第3パラメータ）を使用します。 キーと初期化ベクトルは、( <strong>\x</strong>)16進数で示す必要があります。 結果は、 <strong>\xを含まない16進数で表されます</strong>。<br /> キーサイズは128ビット、192ビット、256ビット（16、24、32文字の16進数）でもかまいませんが、キーと同じ長さのランダム化IVを使用することをお勧めします。<br /> </td> 
-   <td> encryption_aescbcEncrypt(&lt;String&gt;, &lt;String&gt;, &lt;String&gt;)<br /> 。例：encryption_aescbcEncrypt(johndoe@example.com, "<strong>\x0123456789ABCDEF0123456789ABCDEF</strong>", "<strong>\x0123456789ABCDEFFba9876543210</strong>”)<br /> </td> 
+   <td> AES アルゴリズム（CBC ブロックモード）に基づき、キー（第 2 パラメーター）と初期化ベクター（第 3 パラメーター）を使用して、文字列（第 1 パラメーター）を暗号化します。キーと初期化ベクターは、16 進数表現（<strong>\x</strong> で始まる形式）で指定する必要があります。結果は、<strong>\x</strong> を除いた 16 進数で表されます。<br />キーのサイズには、128 ビット、192 ビット、256 ビット（16 進数文字で順に 16、24、32）のいずれかを指定できますが、256 ビット、およびキーと同じ長さのランダム化初期化ベクターを使用することをお勧めします<br /> </td> 
+   <td> encryption_aescbcEncrypt(&lt;文字列&gt;, &lt;文字列&gt;, &lt;文字列&gt;)<br /> 例えば、encryption_aescbcEncrypt(johndoe@example.com, "<strong>\x0123456789ABCDEF0123456789ABCDEF</strong>", "<strong>\x0123456789ABCDEFFEDCBA9876543210</strong>")<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 集計 {#aggregates}
 
-集計関数は、ワークフローのアクティビティ [から追加のデータを](../../automating/using/query.md#enriching-data) 追加する場合にのみ使用で **[!UICONTROL Query]**きます。
+集計関数は、ワークフローの「**[!UICONTROL Query]**」アクティビティから[さらにデータを追加](../../automating/using/query.md#enriching-data)する場合にのみ使用できます。
 
-集計関数は、値のセットに対して計算を実行するために使用されます。
+集計関数は、一連の値に対して計算を実行する場合に使用します。
 
 <table> 
  <tbody> 
@@ -674,46 +677,46 @@ source-git-commit: fa9d2be71b4bbf5eceadbd1835db324618f9529c
    <td> <strong>構文</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Avg</strong>、Average<br /> </td> 
-   <td> 数値列の平均を返します。<br /> </td> 
+   <td> <strong>Avg</strong><br /> </td> 
+   <td> 数値列の平均値を返します<br /> </td> 
    <td> Avg(&lt;値&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Count</strong>、Count（NULLを除く）<br /> </td> 
-   <td> Counts the non-null values in a column.<br /> </td> 
+   <td> <strong>Count</strong><br /> </td> 
+   <td> 列内の null 以外の値をカウントします<br /> </td> 
    <td> Count(&lt;値&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>CountAll</strong>、Count all<br /> </td> 
-   <td> すべての値（null値と重複を含む）をカウントします。<br /> </td> 
+   <td> <strong>CountAll</strong><br /> </td> 
+   <td> すべての値（null 値および重複値も含め）をカウントします<br /> </td> 
    <td> CountAll()<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Countdistinct</strong>, Distinct count<br /> </td> 
-   <td> 列内のnull以外の個別の値をカウントします。<br /> </td> 
+   <td> <strong>Countdistinct</strong><br /> </td> 
+   <td> 列内の null 以外のユニーク値をカウントします<br /> </td> 
    <td> Countdistinct(&lt;値&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>最大</strong>、最大<br /> </td> 
-   <td> 数値、文字列、または日付列の最大値を返します。<br /> </td> 
+   <td> <strong>Max</strong><br /> </td> 
+   <td> 数値、文字列、日付のいずれかの列における最大値を返します<br /> </td> 
    <td> Max(&lt;値&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>最小</strong>、最小<br /> </td> 
-   <td> 数値、文字列、または日付列の最小値を返します。<br /> </td> 
+   <td> <strong>Min</strong><br /> </td> 
+   <td> 数値、文字列、日付のいずれかの列における最小値を返します<br /> </td> 
    <td> Min(&lt;値&gt;)<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Sum</strong>、Sum<br /> </td> 
-   <td> 数値列の値の合計を返します。<br /> </td> 
+   <td> <strong>Sum</strong><br /> </td> 
+   <td> 数値列の値の合計を返します<br /> </td> 
    <td> Sum(&lt;値&gt;)<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 表示域 {#representation}
+## 表現 {#representation}
 
-表現関数は、値の順序付けに使用されます。
+表現関数は、値を並べ替える場合に使用します。
 
 <table> 
  <tbody> 
@@ -739,7 +742,7 @@ source-git-commit: fa9d2be71b4bbf5eceadbd1835db324618f9529c
   </tr> 
   <tr> 
    <td> <strong>RowNum</strong><br /> </td> 
-   <td> テーブルのパーティションと並べ替えシーケンスに基づいてライン番号を生成しますこの関数はMySQLではサポートされていません<br /> </td> 
+   <td> テーブルのパーティションと並べ替えシーケンスに基づいて行番号を生成します。この関数は MySQL ではサポートされていません<br /> </td> 
    <td> RowNum(PartitionBy(&lt;値 1&gt;), OrderBy(&lt;値 1&gt;))<br /> </td> 
   </tr> 
  </tbody> 
