@@ -1,6 +1,6 @@
 ---
 title: アプリ内メッセージについて
-description: アプリ内メッセージを使用して、モバイルアプリ内でメッセージまたは警告を表示します。
+description: アプリ内メッセージを使用して、モバイルアプリ内でメッセージまたはアラートを表示します。
 page-status-flag: never-activated
 uuid: 6784cdfc-6db9-41dd-9fbb-2e756a5bcb5f
 contentOwner: sauviat
@@ -16,36 +16,36 @@ translation-type: tm+mt
 source-git-commit: 4efc42fd6b656c7723ed52f704c801113f9b3817
 workflow-type: tm+mt
 source-wordcount: '930'
-ht-degree: 2%
+ht-degree: 29%
 
 ---
 
 
 # アプリ内メッセージについて{#about-in-app-messaging}
 
-アプリ内メッセージとは、モバイルアプリ内でユーザーがアクティブな場合にメッセージを表示できるメッセージングチャネルです。 このメッセージタイプは、ユーザーの電話の通知センターに配信されるプッシュ通知を優先します。 For more information on the push notification channel, refer to this [section](../../channels/using/about-push-notifications.md).
+アプリ内メッセージとは、モバイルアプリケーション内でユーザーがアクティブな場合にメッセージを表示できるメッセージングチャネルです。このメッセージタイプは、ユーザーの電話機の通知センターに配信されるプッシュ通知に適しています。プッシュ通知チャネルについて詳しくは、この[節](../../channels/using/about-push-notifications.md)を参照してください。
 
-このチャネルを使用するには、モバイルアプリケーションがAdobe Experience PlatformSDKと統合されている必要があります。 これらのアプリは、アプリ内配信のAdobe Campaignで使用する前に、Adobe Experience Platformの起動でアクティベートする必要があります。
+このチャネルを使用するには、モバイルアプリケーションが Adobe Experience Platform SDK と統合されている必要があります。これらのアプリをアプリ内配信のために Adobe Campaign で使用するには、Adobe Experience Platform Launch で有効にする必要があります。
 
 ![](assets/launch_campaign.png)
 
-Experience PlatformSDKを利用するモバイルアプリケーションでアプリ内メッセージを開始送信するには、次の前提条件を満たす必要があります。
+Experience Platform SDK を利用したモバイルアプリケーションでアプリ内メッセージを送信するには、次の前提条件を満たす必要があります。
 
-1. Adobe Campaignで、 **[!UICONTROL In-App]** チャネルにアクセスできることを確認します。 これらのチャネルにアクセスできない場合は、アカウントチームにお問い合わせください。
+1. Adobe Campaign で、**[!UICONTROL In-App]** チャネルにアクセスできることを確認します。これらのチャネルにアクセスできない場合は、アカウントチームにお問い合わせください。
 
-1. Experience CloudSDKアプリとのAdobe Campaign Standardでモバイルの使用例を活用するには、モバイルアプリをAdobe Experience Platformの起動で作成し、Adobe Campaign Standardで設定する必要があります。 ステップバイステップガイドについては、この [ページを参照してください](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)。
+1. Experience Cloud SDK アプリケーションを使用して Adobe Campaign Standard のモバイル機能を活用するには、モバイルアプリを Adobe Experience Platform Launch で作成し、Adobe Campaign Standard で設定する必要があります。ステップバイステップガイドについては、この[ページ](https://helpx.adobe.com/jp/campaign/kb/configuring-app-sdk.html)を参照してください。
 
-1. 設定が完了すると、アプリ内メッセージを準備できるようになります。 詳しくは、この[ページ](../../channels/using/preparing-and-sending-an-in-app-message.md#preparing-your-in-app-message)を参照してください。
+1. 設定が完了すると、アプリ内メッセージを準備できるようになります。詳しくは、この[ページ](../../channels/using/preparing-and-sending-an-in-app-message.md#preparing-your-in-app-message)を参照してください。
 
-1. その後、アプリ [内メッセージを送信するか](../../channels/using/customizing-an-in-app-message.md) 、ローカル通知メッセージタイプを [カスタマイズするかを決定できます](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)。
+1. その後、[アプリ内メッセージ](../../channels/using/customizing-an-in-app-message.md)を送信するか、[ローカル通知メッセージタイプをカスタマイズする](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)かを決定します。
 
-1. これで、配信を送信する準備が整いました。 To learn more, refer to this [page](../../channels/using/preparing-and-sending-an-in-app-message.md#sending-your-in-app-message).
+1. 配信の送信準備が整いました。詳しくは、こちらの[ページ](../../channels/using/preparing-and-sending-an-in-app-message.md#sending-your-in-app-message)を参照してください。
 
-**関連コンテンツ：**
+**関連するコンテンツ：**
 
 * [アプリ内レポート](../../reporting/using/in-app-report.md)
-* [Adobe Campaign Standardでサポートされるモバイルの使用例](https://helpx.adobe.com/campaign/kb/configure-launch-rules-acs-use-cases.html)
-* [Campaign Standardモバイルガイド](https://helpx.adobe.com/jp/campaign/kb/acs-mobile.html)
+* [Adobe Campaign Standard でサポートされるモバイルの使用例](https://helpx.adobe.com/jp/campaign/kb/configure-launch-rules-acs-use-cases.html)
+* [Campaign Standard モバイルガイド](https://helpx.adobe.com/jp/campaign/kb/acs-mobile.html)
 
 ## アプリ内FAQ {#in-app-faq}
 
@@ -53,7 +53,7 @@ Experience PlatformSDKを利用するモバイルアプリケーションでア�
 
 以下のリソースを確認します。
 
-* [ビデオチュートリアル](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/mobile/in-app/in-app-message-overview.html)
+* [ビデオTutorials](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/mobile/in-app/in-app-message-overview.html)
 * [ブログ投稿](https://theblog.adobe.com/get-more-out-of-the-new-in-app-message-channel-from-adobe-campaign/)
 * [コミュニティページ](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
