@@ -1,6 +1,6 @@
 ---
 title: テストプロファイルの管理
-description: テストプロファイルの管理方法を説明します。
+description: テストプロファイルを管理する方法を説明します。
 page-status-flag: never-activated
 uuid: eb4d893b-3724-4b15-9312-1ec74784368d
 contentOwner: sauviat
@@ -12,8 +12,11 @@ discoiquuid: 37320ec5-196c-4260-8156-98932da3e4a5
 context-tags: seedMember,overview
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 767d4233236019213003961aae1abb317198e581
+workflow-type: ht
+source-wordcount: '433'
+ht-degree: 100%
 
 ---
 
@@ -22,62 +25,62 @@ source-git-commit: 767d4233236019213003961aae1abb317198e581
 
 ## テストプロファイルについて {#about-test-profiles}
 
-テストプロファイルを使用すると、定義したターゲット条件に一致しない追加の受信者をターゲットに設定できます。 受信者データベースの不正な使用を検出したり、電子メールが受信トレイに確実に届くように、メッセージのオーディエンスに追加されます。
+テストプロファイルを使用すると、定義済みのターゲティング条件に一致しない追加の受信者をターゲットにすることができます。テストプロファイルは、受信者データベースの不正使用を検出したり、E メールがインボックスに確実に届くようにしたりするために、メッセージのオーディエンスに追加されます。
 
-テストプロファイルは、アドバンスメニューから管理できま **[!UICONTROL Profiles & audiences > Test profiles]**&#x200B;す。
+テストプロファイルは、アドバンスメニュー&#x200B;**[!UICONTROL Profiles & audiences > Test profiles]**&#x200B;から管理できます。
 
-テストプロファイルには、架空の連絡先情報、または送信者によって制御される連絡先情報が含まれており、次のコンテキストでメッセージ内で使用できます。
+テストプロファイルには架空の連絡先情報または送信者が制御できる連絡先情報が含まれています。その情報をメッセージで使用できるコンテキストは次のいずれかです。
 
-* 校正を送 **信する**:配達確認は、受信者に最終的な配信を送信する前にメッセージを確認するために使用される特定のメッセージです。 配信の内容と形式に関して、配信の確認は、校正テストプロファイルが担当します。 詳しくは、 [校正の送信を参照してくださ](../../sending/using/sending-proofs.md)い。
-* 電子メー **ルのレンダリング**:電子メールレンダリングテストプロファイルは、メッセージを受信したメッセージインボックスに従ってメッセージがどのように表示されるかを確認するために使用されます。 例えば、Webメール、メッセージサービス、モバイルなど。 電子メールの [レンダリングを参照](../../sending/using/email-rendering.md)。
+* **配達確認**&#x200B;の送信のため：配達確認は、受信者に最終的な配信を送信する前にメッセージを確認するための特定のメッセージです。配達確認テストプロファイルには、配信の内容や形式をチェックする役割があります。詳しくは、[配達確認の送信](../../sending/using/sending-proofs.md)を参照してください。
+* **E メールのレンダリング**&#x200B;のため：E メールレンダリングテストプロファイルは、メッセージを受信したメッセージインボックスに応じたメッセージの表示方法を確認するために使用します。例えば、Web メール、メッセージサービス、モバイルなどです。[E メールのレンダリング](../../sending/using/email-rendering.md)を参照してください。
 
-   電子メー **ルのレンダリング** (Email rendering use)は読み取り専用です。 この使用によるテストプロファイルは、Adobe Campaignの標準でのみ使用できます。
+   **E メールレンダリング**&#x200B;の使用は読み取り専用です。Adobe Campaign でそのまま使用できるのは、この用途のテストプロファイルのみです。
 
-* トラップと **して**:メッセージは、メインターゲットに送信されるのと同じように、テストプロファイルに送信されます。 トラップの使 [用を参照してくださ](../../sending/using/using-traps.md)い。
-* メッセージ **をプレビューする** には：メッセージをプレビューする際にテストプロファイルを選択し、パーソナライゼーション要素をテストできます。 メッセージのプ [レビューを参照してくださ](/help/sending/using/previewing-messages.md)い。
+* **トラップ**&#x200B;として：メッセージは、メインターゲットに送信される場合と同じように、テストプロファイルに送信されます。[トラップの使用](../../sending/using/using-traps.md)を参照してください。
+* メッセージの&#x200B;**プレビュー**&#x200B;のため：メッセージのプレビュー時にテストプロファイルを選択して、パーソナライゼーション要素をテストできます。[メッセージのプレビュー](/help/sending/using/previewing-messages.md)を参照してください。
 
 ![](assets/test_profile.png)
 
 ## テストプロファイルの作成 {#creating-test-profiles}
 
-1. アドバンスメニューのAdobe Campaignロゴから、 **Profiles &amp; audiences/Test profilesを選択して** 、テストプロファイルのリストにアクセスします。
+1. Adobe Campaign のロゴをクリックし、詳細設定メニューから **Profiles &amp; audiences／Test profiles** を選択して、テストプロファイルのリストにアクセスします。
 
    ![](assets/test_profile_creation_1.png)
 
-1. ダッシュボード **[!UICONTROL Test profiles]** で、「作成」をクリ **ックしま**&#x200B;す。
+1. **[!UICONTROL Test profiles]**&#x200B;ダッシュボードで、「**Create**」をクリックします。
 
    ![](assets/test_profile_creation_2.png)
 
-1. このプロファイルのデータを入力します。
+1. このプロファイルに関するデータを入力します。
 
    ![](assets/test_profile_creation_3.png)
 
-1. テストプロファイルに使用する用途を選択します。
+1. テストプロファイルの用途を選択します。
 
    ![](assets/test_profile_creation_4.png)
 
-1. 必要に応じて、連絡先チ **[!UICONTROL Email, Telephone, Mobile, Mobile app]**&#x200B;ャネルとテストプロファイルの住所を入力します。
+1. 必要に応じて、配信チャネル（**[!UICONTROL Email, Telephone, Mobile, Mobile app]**）とテストプロファイルのアドレスを入力します。
 
    >[!NOTE]
    >
-   >次のように、好みの電子メール形式を定義できます。ま **[!UICONTROL Text]** た **[!UICONTROL HTML]**&#x200B;は
+   >望ましい E メールフォーマットを「**[!UICONTROL Text]**」か「**[!UICONTROL HTML]**」のいずれかで指定できます。
 
-1. トランザクションメッセージのパーソナライゼーションのテストにこのテストプロファイルを使用する場合は、イベントタイプとこのイベントのデータを指定します。
-1. をクリック **[!UICONTROL Create]** して、テストプロファイルを保存します。
+1. このテストプロファイルをトランザクションメッセージのパーソナライゼーションのテストに使用する場合は、このイベントのイベントタイプとデータを指定します。
+1. 「**[!UICONTROL Create]**」をクリックして、テストプロファイルを保存します。
 
-その後、テストプロファイルがプロファイルのリストに追加されます。
+このテストプロファイルがプロファイルのリストに追加されます。
 
 **関連トピック：**
 
-[テストプロファイルビデオの作成](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/test-profiles.html) （英語）
+[テストプロファイルの作成](https://docs.adobe.com/content/help/ja-JP/campaign-standard-learn/tutorials/profiles-and-audiences/test-profiles.translate.html)（ビデオ）
 
 ## テストプロファイルの編集 {#editing-test-profiles}
 
-テストプロファイルを編集し、そのプロファイルにリンクされているデータを参照するか、変更するには：
+テストプロファイルを編集したり、テストプロファイルにリンクされているデータを参照または変更するには、次の手順に従います。
 
-1. 画像をクリックして、編集するテストプロファイルを選択します。
-1. フィールドを確認または変更します。
+1. 編集するテストプロファイルを、画像をクリックして選択します。
+1. フィールドを参照または変更します。
 
    ![](assets/test_profile_edit.png)
 
-1. 変更を **[!UICONTROL Save]** 入力した場合は、をクリックします。または、画面の上部にあるセクションでテストプロファイルの名前を選択し、テス **[!UICONTROL Test profiles]** トプロファイルのダッシュボードに戻ります。
+1. 変更内容を入力した場合は、「**[!UICONTROL Save]**」をクリックします。または、テストプロファイルの名前を選択した後、画面上部のセクションで「**[!UICONTROL Test profiles]**」を選択して、テストプロファイルダッシュボードに戻ります。
