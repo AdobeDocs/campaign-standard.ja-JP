@@ -1,6 +1,6 @@
 ---
 title: フィルター定義の設定
-description: 大きなデータセットを管理するフィルター機能を見つけます。
+description: 大きなデータセットを管理するためのフィルター機能について説明します。
 page-status-flag: never-activated
 uuid: c9db95fe-e9aa-40f8-9c0a-e74bb21ac14b
 contentOwner: sauviat
@@ -16,73 +16,73 @@ translation-type: tm+mt
 source-git-commit: cabe064632c9c2e3de93bc1cff6fa217b4fdf3e6
 workflow-type: tm+mt
 source-wordcount: '541'
-ht-degree: 1%
+ht-degree: 95%
 
 ---
 
 
 # フィルター定義の設定{#configuring-filter-definition}
 
-この **[!UICONTROL Filter definition]** タブでは、オーディエンスを定義する場合など、複雑なクエリを作成する場合に、ユーザーが直接アクセスできる高度なフィルターを作成できます。
+「**[!UICONTROL Filter definition]**」タブでは、オーディエンスを定義する場合など、複雑なクエリを作成する場合に、ユーザーが直接アクセスできる詳細フィルターを作成できます。
 
-ワークフロー、オーディエンスおよびREST APIを使用して、リソースに値を設定し、そのデータにアクセスできるので、この手順は必須ではありません。
+ワークフロー、オーディエンスおよび REST API を使用して、リソースに値を設定し、そのデータにアクセスできるので、この手順は必須ではありません。
 
 ![](assets/custom_resource_filter-definition.png)
 
-これらのフィルターは、クエリエディターで事前設定されたルールの形式で使用されます。 必要な設定を得るために必要な手順の数を制限できるので、繰り返しのセグメント化に特に有益です。
+これらのフィルターは、クエリエディターで事前設定されたルールの形式で使用されます。設定に必要な手順を合理化できるので、特に繰り返しのセグメント化をおこなう際に役立ちます。
 
-例えば、過去3か月間に特定の金額を超えるすべてのトランザクションを選択できるフィルターを作成できます。
+例えば、過去 3 ヶ月間に特定の金額を超えるすべてのトランザクションを選択できるフィルターを作成できます。
 
-これを行うには、 **[!UICONTROL Profiles]** リソースを拡張し、（以前に作成した）トランザクションテーブルにリンクするフィルタを定義し、トランザクション価格が特定のパラメータ以上で、トランザクション日が過去3か月に対応する範囲内にあることを示すルールを使用します。
+これをおこなうには、**[!UICONTROL Profiles]** リソースを拡張し、（以前に作成した）トランザクションテーブルにリンクするフィルターを定義し、トランザクション価格が特定のパラメーター以上で、トランザクション日が過去 3 ヶ月に対応する範囲内にあることを示すルールを使用します。
 
-1. トランザクションテーブルは必ず作成して発行してください。 See [Creating or extending the resource](../../developing/using/creating-or-extending-the-resource.md).
+1. トランザクションテーブルを必ず作成して公開してください。[リソースの作成または拡張](../../developing/using/creating-or-extending-the-resource.md)を参照してください。
 
    >[!NOTE]
    >
-   >この手順では、カスタムトランザクションテーブルの例を使用します。 お客様の場合は、ビジネスニーズに合わせて調整してください。
+   >この手順では、カスタムトランザクションテーブルの例を使用します。ご自身のビジネスニーズに合わせて調整してください。
 
-1. リ **[!UICONTROL Profiles]** ソースのトランザクションテーブルに関連するフィルタを定義する前に、このテーブルへのリンクを定義し、変更を発行してください。 「他のリソースを使用したリンクの [定義](../../developing/using/configuring-the-resource-s-data-structure.md#defining-links-with-other-resources) 」および「データベース構造の [更新」を参照してください](../../developing/using/updating-the-database-structure.md)。
-1. 新しいフィルタの定義画面の **[!UICONTROL Definition]** タブで、トランザクションテーブルを選択します。
+1. **[!UICONTROL Profiles]** リソースのトランザクションテーブルに関連するフィルターを定義する前に、このテーブルへのリンクを定義し、変更を公開してください。[その他のリソースを使用したリンクの定義](../../developing/using/configuring-the-resource-s-data-structure.md#defining-links-with-other-resources)および[データベース構造の更新](../../developing/using/updating-the-database-structure.md)を参照してください。
+1. 新しいフィルターの定義画面の「**[!UICONTROL Definition]**」タブで、トランザクションテーブルを選択します。
 
    ![](assets/custom_resource_filter-definition_example-empty.png)
 
-1. ウィンドウで、トランザクションテーブルをワークスペースにドラッグ&amp;ドロップします。 **[!UICONTROL Add a rule - Profiles/Transactions]** 次に表示されるウィンドウで、使用するフィールドを選択します。
+1. **[!UICONTROL Add a rule - Profiles/Transactions]** ウィンドウで、ワークスペースにトランザクションテーブルをドラッグ＆ドロップします。次に表示されるウィンドウで、使用するフィールドを選択します。
 
    ![](assets/custom_resource_filter-definition_example-field.png)
 
-1. ウィンドウ **[!UICONTROL Optional parameter settings]** の下部にある **[!UICONTROL Add a rule - Transactions]** チェック **[!UICONTROL Switch to parameters]** ボックスをオンにします。
+1. **[!UICONTROL Add a rule - Transactions]** ウィンドウの **[!UICONTROL Optional parameter settings]** で、「**[!UICONTROL Switch to parameters]**」チェックボックスをオンにします。
 
-   で、 **[!UICONTROL Filter conditions]****[!UICONTROL Greater than or equal to]** 演算子を選択します。 フィールドに名前を入力し、プラス記号をクリックして新しいパラメータを作成します。 **[!UICONTROL Parameters]**
+   **[!UICONTROL Filter conditions]** で、**[!UICONTROL Greater than or equal to]** 演算子を選択します。「**[!UICONTROL Parameters]**」フィールドに名前を入力し、プラス記号をクリックして新しいパラメーターを作成します。
 
    ![](assets/custom_resource_filter-definition_example-parameter.png)
 
-1. 変更を確認します。 この定義は、クエリを実行するために後で入力する必要がある設定可能なフィールドに対応します。
+1. 変更を確認します。この定義は、クエリを実行するために後で入力する必要がある設定可能なフィールドに対応します。
 
    ![](assets/custom_resource_filter-definition_ex_edit-rule.png)
 
-1. このルールを別のルールと組み合わせて、取引日が過去3か月間に対応する範囲内にある必要があることを指定します。
+1. このルールを別のルールと組み合わせて、トランザクション日が過去 3 ヶ月間に対応する範囲内にある必要があることを指定します。
 
    ![](assets/custom_resource_filter-definition_example.png)
 
-1. フィルタを表示するカテゴリを選択します。
+1. フィルターを表示するカテゴリを選択します。
 
    ![](assets/custom_resource_filter-definition_category.png)
 
-1. フィルター定義画面の **[!UICONTROL Parameters]** タブで、説明とラベルを変更し、フィルターの対象をユーザーに明確に示します。 この情報は、クエリエディターに表示されます。
+1. フィルター定義画面の「**[!UICONTROL Parameters]**」タブで、説明とラベルを変更し、フィルターの対象をユーザーに明示します。この情報は、クエリエディターに表示されます。
 
    ![](assets/custom_resource_filter-definition_parameters.png)
 
    複数の設定可能なフィールドを定義する場合は、インターフェイスに表示される順序を変更できます。
 
-1. 変更を保存し、リソースを発行します。 For more on this, refer to the [Updating the database structure](../../developing/using/updating-the-database-structure.md) section.
+1. 変更を保存し、リソースを公開します。詳しくは、[データベース構造の更新](../../developing/using/updating-the-database-structure.md)の節を参照してください。
 
-リ **[!UICONTROL Profiles]** ソース拡張機能が公開されると、 [クエリエディターインターフェイスの「ショートカット」タブにこのフィルターが表示されます](../../automating/using/editing-queries.md) 。
+**[!UICONTROL Profiles]** リソース拡張が公開されると、[クエリエディター](../../automating/using/editing-queries.md)インターフェイスのショートカットタブにこのフィルターが表示されます。
 
-これにより、過去3か月間に一定金額以上を支払ったすべての顧客に送信する電子メールを作成する際に、オーディエンスを簡単に定義できます。
+これにより、過去 3 ヶ月間に一定金額以上を支払ったすべてのクライアントに送信する E メールを作成する際に、オーディエンスを容易に定義できます。
 
 ![](assets/custom_resource_filter-definition_email-audience.png)
 
-単に自分で設定するのではなく、表示されるダイアログボックスに必要な量を入力するだけです。
+自分で設定するのではなく、表示されるダイアログボックスに必要な量を入力するだけです。
 
 ![](assets/custom_resource_filter-definition_email-audience_filter.png)
 
