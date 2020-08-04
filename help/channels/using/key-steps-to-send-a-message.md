@@ -1,6 +1,6 @@
 ---
 title: メッセージを送信するための主要な手順
-description: メッセージを作成して送信するには、次の手順に従います。Adobe Campaign
+description: Adobe Campaign でメッセージを作成して送信するには、次の手順に従います。
 page-status-flag: never-activated
 uuid: d3fbb1e6-6444-4b56-b9d6-ae39bd8d4804
 contentOwner: sauviat
@@ -11,29 +11,32 @@ topic-tags: about-communication-channels
 discoiquuid: a51351ee-e3b6-4996-9e68-b7d5157b8207
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 155ed7e50e207e4c4dc0569e5e96b24e712e4be8
+workflow-type: ht
+source-wordcount: '180'
+ht-degree: 100%
 
 ---
 
 
 # メッセージを送信するための主要な手順{#key-steps-to-send-a-message}
 
-配信のベストプラクティスを学ぶには、はじめに [配信のベストプラクティス](https://helpx.adobe.com/jp/campaign/kb/delivery-best-practices.html) を参照してください。
+配信のベストプラクティスについては、[配信のベストプラクティス](https://helpx.adobe.com/jp/campaign/kb/delivery-best-practices.html)を参照してください。
 
 メッセージの作成と送信の手順は次のとおりです。
 
-1. 、、、、ま **[!UICONTROL Email]**&#x200B;たはマ **[!UICONTROL SMS]**&#x200B;ーケティング **[!UICONTROL direct mail]** アクティビティを作 **[!UICONTROL push notification]** 成します。 詳しくは、 [Creating an email](../../channels/using/creating-an-email.md), [Creating a SMS](../../channels/using/creating-an-sms-message.md), [Creating a direct mail](../../channels/using/creating-the-direct-mail.md) 配信 [,](../../channels/using/preparing-and-sending-a-push-notification.md)Creating a push notification Creatingを参照してください。
-1. メッセージのオーディエンスを選択します。 Refer to [Creating audiences](../../audiences/using/creating-audiences.md).
-1. メッセージの内容とパーソナライゼーション要素を定義します。 電子メールや他の [チャネル](../../designing/using/designing-content-in-adobe-campaign.md) 向けの特定のコンテンツについては、コンテンツエディターを参照します。
-1. 開始を準備し、ターゲット母集団を計算し、メッセージの内容を生成します。 「メッセージの [承認」を参照](../../sending/using/preparing-the-send.md)。
+1. 「**[!UICONTROL Email]**」、「**[!UICONTROL SMS]**」、「**[!UICONTROL direct mail]**」、または「**[!UICONTROL push notification]**」マーケティングアクティビティを作成します。[E メールの作成](../../channels/using/creating-an-email.md)、[SMS の作成](../../channels/using/creating-an-sms-message.md)、[ダイレクトメール配信の作成](../../channels/using/creating-the-direct-mail.md)、[プッシュ通知の作成](../../channels/using/preparing-and-sending-a-push-notification.md)を参照してください。
+1. メッセージのオーディエンスを選択します。[オーディエンスの作成](../../audiences/using/creating-audiences.md)を参照してください。
+1. メッセージのコンテンツとパーソナライゼーション要素を定義します。E メールの場合は[コンテンツエディター](../../designing/using/designing-content-in-adobe-campaign.md)、その他のチャネルの場合は特定のコンテンツを参照します。
+1. 送信の準備を開始して、ターゲット母集団を計算し、メッセージのコンテンツを生成します。[メッセージの承認](../../sending/using/preparing-the-send.md)を参照してください。
 
    >[!NOTE]
    >
-   >訪問者から過剰訪問のプロファイルを自動的に除外する、チャネル間の疲労ルールをグローバルに設定できます。 疲労ルー [ルを参照してくださ](../../sending/using/fatigue-rules.md)い。
+   >過剰に配信を受けているプロファイルをキャンペーンから自動的に除外するグローバルなクロスチャネル疲労ルールを設定できます。[疲労ルール](../../sending/using/fatigue-rules.md)を参照してください。
 
-1. 送信配達確認。 詳しくは、送信 [配達確認](../../sending/using/sending-proofs.md)。
-1. メッセージを送信し、メッセージを確認します。配信。 メッセージの送 [信を参照](../../sending/using/confirming-the-send.md)。
-1. 専用の配信レポート。 詳しくは、レポートへ [のアクセスを参照してくださ](../../reporting/using/about-dynamic-reports.md)い。
+1. 配達確認の送信[配達確認の送信](../../sending/using/sending-proofs.md)を参照してください。
+1. メッセージを送信して、配信を確認します。[メッセージの送信](../../sending/using/confirming-the-send.md)を参照してください。
+1. 該当する配信レポートを確認します。[レポートへのアクセス](../../reporting/using/about-dynamic-reports.md)を参照してください。
 
-詳細なメッセージパラメーターについては、「メッセージの設 [定」のチャネル](../../administration/using/about-channel-configuration.md) 「」を参照してください。
+詳細なメッセージパラメーターについて詳しくは、[チャネルの設定](../../administration/using/about-channel-configuration.md)の節を参照してください。
