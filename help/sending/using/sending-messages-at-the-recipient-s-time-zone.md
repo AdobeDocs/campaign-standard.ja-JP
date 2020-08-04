@@ -1,59 +1,62 @@
 ---
 title: 受信者のタイムゾーンでのメッセージの送信
-description: 受信者のタイムゾーンでメッセージを送信する方法を説明します。
-page-status-flag: 非活性化の
+description: 受信者のタイムゾーンでのメッセージの送信について説明します。
+page-status-flag: never-activated
 uuid: 70228c07-451f-4ddb-8d26-92a5a4814e3a
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: 送信
-content-type: 参照
-topic-tags: スケジュール・メッセージ
+audience: sending
+content-type: reference
+topic-tags: sheduling-messages
 discoiquuid: daa980ba-8c7c-4673-a68f-379d63e4b8bd
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+workflow-type: ht
+source-wordcount: '375'
+ht-degree: 100%
 
 ---
 
 
 # 受信者のタイムゾーンでのメッセージの送信{#sending-messages-at-the-recipient-s-time-zone}
 
-日時が重要なキャンペーンを管理する場合は、各受信者のローカル時間を考慮に入れて配信をスケジュールできます。電子メール、SMS、またはプッシュ通知は、スケジュールした日時に、それぞれ独自のタイムゾーンで受信されます。
+日時が重要なキャンペーンのために、各受信者のローカル時間を考慮に入れて配信をスケジュールできます。電子メールや SMS、またはプッシュ通知が、スケジュールした日時にそれぞれのタイムゾーンで受信されます。
 
 >[!NOTE]
 >
->この機能を使用するには、配信の対象となるすべてのプロファイルのプロパティのセクションでタイムゾーンが指定されている **[!UICONTROL Address]** ことを確認します。 プロファイルプロパティへのアクセスの詳細については、この節を参照して [くださ](../../audiences/using/editing-profiles.md)い。
+>この機能を使用するには、配信先となるすべてのプロファイルのタイムゾーンがプロパティの[**[!UICONTROL Address]**]セクションで指定されていることを確認してください。プロファイルプロパティへのアクセスについて詳しくは、[こちらの節](../../audiences/using/editing-profiles.md)を参照してください。
 
-受信者のタイムゾーンで配信を送信する場合は、ワークフローでアクティビティを **[!UICONTROL Scheduler]** 使用することもできます。 詳しくは、この[ページ](../../automating/using/scheduler.md)を参照してください。
+受信者のタイムゾーンで配信を送信する場合は、ワークフローで「**[!UICONTROL Scheduler]**」アクティビティを使用することもできます。詳しくは、この[ページ](../../automating/using/scheduler.md)を参照してください。
 
-次の例では、バレンタインデーでのみ有効なプロモーションコードを世界中のすべての顧客に送信します。 1日の間に十分な時間を割くために、すべての顧客は、2月14日の午前8時に、自分のタイムゾーンに応じてメッセージを受け取る必要があります。
+次の例では、バレンタインデーでのみ有効なプロモーションコードを世界中のすべての顧客に送信します。当日、時間的に余裕を持ってコードを利用できるように、すべての顧客が自分のタイムゾーンの 2 月 14 日午前 8 時にメッセージを受け取る必要があります。
 
-1. この場合 **[!UICONTROL Marketing activities]** は、タブで配信の作成を開始します。 配信の作成の詳細については、この節を参照してく [ださい](../../channels/using/creating-an-email.md)。
-1. バレンタインデーの電子メールをデザインしたら、をクリックして配 **[!UICONTROL Create]** 信ダッシュボードにアクセスします。 For more on email designing, refer to this [page](../../designing/using/personalization.md#example-email-personalization).
+1. 「**[!UICONTROL Marketing activities]**」タブで、配信（この例では E メール）の作成を開始します。配信の作成について詳しくは、[こちらの節](../../channels/using/creating-an-email.md)を参照してください。
+1. バレンタインデーの E メールをデザインしたら、「**[!UICONTROL Create]**」をクリックして配信ダッシュボードにアクセスします。E メールのデザインについて詳しくは、[こちらのページ](../../designing/using/personalization.md#example-email-personalization)を参照してください。
 
    ![](assets/send-time_opt_valentine_1.png)
 
-1. 配信ダッシュボードで、ブロックを選択 **[!UICONTROL Schedule]** します。
+1. 配信ダッシュボードで、「**[!UICONTROL Schedule]**」ブロックを選択します。
 
    ![](assets/send-time_opt_valentine_2.png)
 
-1. 以下で指定した **[!UICONTROL Messages to be sent automatically on the date]** オプションを選択します。 次に、このフ **[!UICONTROL Start sending from]** ィールドで、2月14日の午前8時に連絡日を設定し、すべての受信者がバレンタインデーに受け取るようにします。
+1. 以下に示した「**[!UICONTROL Messages to be sent automatically on the date]**」オプションを選択します。次に、「**[!UICONTROL Start sending from]**」フィールドで、コンタクト日を 2 月 14 日午前 8 時に設定して、すべての受信者がバレンタインデーに受信するようにします。
 
    ![](assets/send-time_opt_valentine.png)
 
-1. このフィー **[!UICONTROL Time zone of the contact date]** ルドで、配信をデフォルトで送信するタイムゾーンを選択します。
+1. 「**[!UICONTROL Time zone of the contact date]**」フィールドで、デフォルトの送信タイムゾーンを選択します。
 
-   プロファイルを「」のままにし **[!UICONTROL Time zone]** た場合、受信者は **[!UICONTROL Default]**&#x200B;ここで選択したタイムゾーンに応じて配信を受け取ります。
+   プロファイルの「**[!UICONTROL Time zone]**」を「**[!UICONTROL Default]**」のままにしておくと、受信者はここで選択されたタイムゾーンで配信を受け取ります。
 
-1. ドロップダウ **[!UICONTROL Optimize the sending time per recipient]** ンメニューから、を選択しま **[!UICONTROL Send at the recipient's time zone]**&#x200B;す。 これにより、受信者はタイムゾーンに応じて2月14日にバレンタインデーの電子メールを受け取ることができます。
+1. ドロップダウンメニュー&#x200B;**[!UICONTROL Optimize the sending time per recipient]**&#x200B;から、「**[!UICONTROL Send at the recipient's time zone]**」を選択します。これで、受信者は自分のタイムゾーンの 2 月 14 日にバレンタインデーの E メールを受け取ることができます。
 
    ![](assets/send-time_opt_valentine_3.png)
 
-1. 配信のスケジュールを確認したら、ボタンをクリックし **[!UICONTROL Prepare]** てから配 **[!UICONTROL Confirm]** 信を行います。
+1. 配信のスケジュールを確認したら、まず「**[!UICONTROL Prepare]**」ボタンをクリックし、次に「**[!UICONTROL Confirm]**」をクリックして配信を確定します。
 
-   少なくとも24時間前に送信を確認してください。 そうでないと、場所によっては、実際のバレンタインデーイベントの前に配信を受け取る受信者もいます。
+   少なくとも 24 時間前に送信を確定してください。24 時間以前に送信を確定しないと、受信者の所在地によっては、実際のバレンタインデーイベントの前に配信が届く場合もあります。
 
    ![](assets/send-time_opt_valentine_4.png)
 
-場所に関係なく、2月14日の午前8時に、すべての受信者にメッセージが届きます。
+受信者の所在地に関係なく、現地時間の 2 月 14 日午前 8 時にすべての受信者にメッセージが届きます。
