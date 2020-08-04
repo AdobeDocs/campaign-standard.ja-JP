@@ -16,95 +16,95 @@ translation-type: tm+mt
 source-git-commit: 4efc42fd6b656c7723ed52f704c801113f9b3817
 workflow-type: tm+mt
 source-wordcount: '1080'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
 
 # アプリ内メッセージのカスタマイズ{#customizing-an-in-app-message}
 
-アプリ内メッセージを微調整するために、Adobe Campaignでは、アプリ内メッセージのデザイン中に、一連の高度なオプションにアクセスできます。
+Adobe Campaign では、アプリ内メッセージのデザイン中に、一連の詳細設定オプションにアクセスしてアプリ内メッセージを微調整できます。
 
-アプリ内コンテンツエディターでは、アプリ内メッセージモードを2つ選択できます。
+アプリ内コンテンツエディターでは、アプリ内メッセージモードを次のいずれかに選択できます。
 
-* [メッセージテンプレート](#customizing-with-a-message-template): このテンプレートを使用すると、画像やビデオ、アクションボタンを含むアプリ内を完全にカスタマイズできます。
-* [Custom Message](#customizing-with-a-custom-html-message): このテンプレートを使用して、カスタムHTMLを読み込むことができます。
+* [メッセージテンプレート](#customizing-with-a-message-template)：このテンプレートを使用すると、画像やビデオ、アクションボタンを含むアプリ内メッセージを完全にカスタマイズできます。
+* [カスタムメッセージ](#customizing-with-a-custom-html-message)：このテンプレートを使用すると、カスタム HTML をインポートできます。
 
 ![](assets/inapp_customize_1.png)
 
 >[!NOTE]
 >
-> アプリ内メッセージのレンダリングは、Android API 19以降のバージョンでのみサポートされます。
+> アプリ内メッセージのレンダリングは、Android API 19 以降のバージョンでのみサポートされます。
 
 **関連トピック：**
 
 * [アプリ内メッセージの送信](../../channels/using/preparing-and-sending-an-in-app-message.md#sending-your-in-app-message)
 * [アプリ内レポート](../../reporting/using/in-app-report.md)
-* [ローカル通知追跡の実装](../../administration/using/local-tracking.md)
+* [ローカル通知トラッキングの実装](../../administration/using/local-tracking.md)
 
-## メッセージテンプレートでのカスタマイズ {#customizing-with-a-message-template}
+## メッセージテンプレートを使用したカスタマイズ {#customizing-with-a-message-template}
 
 ### レイアウト {#layout}
 
-ドロップダウン **[!UICONTROL Layout]** には、メッセージングのニーズに応じて、次の4つの選択肢が用意されています。
+**[!UICONTROL Layout]**&#x200B;ドロップダウンには、メッセージングのニーズに応じて、次の 4 つの選択肢が用意されています。
 
-* **[!UICONTROL Full page]**: このタイプのレイアウトは、オーディエンスデバイスの画面全体に適用されます。
-
-   メディア（画像、ビデオ）、テキストおよびボタンのコンポーネントをサポートします。
-
-* **[!UICONTROL Large modal]**: このレイアウトは、大きなアラートスタイルのウィンドウに表示されます。アプリはバックグラウンドに表示されたままです。
+* **[!UICONTROL Full page]**：このタイプのレイアウトは、オーディエンスデバイスの画面全体に適用されます。
 
    メディア（画像、ビデオ）、テキストおよびボタンのコンポーネントをサポートします。
 
-* **[!UICONTROL Small modal]**: このレイアウトは、小さなアラートタイプのウィンドウとして表示されます。アプリケーションはバックグラウンドで表示されます。
+* **[!UICONTROL Large modal]**：このレイアウトは、大きなアラートスタイルのウィンドウに表示されます。アプリケーションはバックグラウンドに表示されます。
 
    メディア（画像、ビデオ）、テキストおよびボタンのコンポーネントをサポートします。
 
-* **[!UICONTROL Alert]**: この種のレイアウトは、ネイティブのOS警告メッセージとして表示されます。
+* **[!UICONTROL Small modal]**：このレイアウトは、小さなアラートタイプのウィンドウとして表示されます。アプリケーションはバックグラウンドで表示されます。
+
+   メディア（画像、ビデオ）、テキストおよびボタンのコンポーネントをサポートします。
+
+* **[!UICONTROL Alert]**：このタイプのレイアウトは、ネイティブの OS アラートメッセージとして表示されます。
 
    サポートできるのは、テキストコンポーネントとボタンコンポーネントのみです。
 
-* **[!UICONTROL Local notification]**: このタイプのレイアウトは、バナーメッセージとして表示されます。
+* **[!UICONTROL Local notification]**：このタイプのレイアウトは、バナーメッセージとして表示されます。
 
-   サウンド、テキスト、宛先のみをサポートします。 ローカル通知の詳細については、「ローカル通知メッセージタイプの [カスタマイズ](#customizing-a-local-notification-message-type)」を参照してください。
+   サウンド、テキスト、宛先のみをサポートします。ローカル通知の詳細については、[ローカル通知メッセージタイプのカスタマイズ](#customizing-a-local-notification-message-type)を参照してください。
 
-各タイプのレイアウトは、スマートフォン、タブレット、プラットフォーム（Android、iOSなど）別々のデバイスでプレビューでき、方向（横置き、縦置きなど）はコンテンツエディターの右側のウィンドウで確認できます。
+コンテンツエディターの右側のウィンドウでは、様々なデバイス（スマートフォンやタブレットなど）、様々なプラットフォーム（Android、iOS など）、異なる向き（横置きと縦置き）での各タイプのレイアウトをプレビューできます。
 
 ![](assets/inapp_customize_4.png)
 
-### メディア {#media}
+### メディア{#media}
 
-このドロップダウン **[!UICONTROL Media]** を使用すると、アプリ内メッセージにメディアを追加して、エンドユーザーを説得力のある体験を作成できます。
+**[!UICONTROL Media]**&#x200B;ドロップダウンを使用すると、アプリ内メッセージにメディアを追加して、エンドユーザーにとって魅力的なエクスペリエンスを作成できます。
 
-1. 画像とビデオ **[!UICONTROL Media Type]** の間で目的の画像を選択します。
-1. メディアタイプについては、サポートされている形式に基づいて、URLを **[!UICONTROL Image]****[!UICONTROL Media URL]** フィールドに入力します。
+1. 「**[!UICONTROL Media Type]**」で「Image」か「Video」のどちらかを選択します。
+1. メディアタイプが&#x200B;**[!UICONTROL Image]**&#x200B;の場合は、サポートされている形式に基づいて、URL を「**[!UICONTROL Media URL]**」フィールドに入力します。
 
-   必要に応じて、デバイスがオフラインの場合に使用でき **[!UICONTROL Bundled image]** る、のパスを入力することもできます。
+   必要に応じて、デバイスがオフラインの場合に使用できる、**[!UICONTROL Bundled image]**&#x200B;のパスを入力することもできます。
 
    ![](assets/inapp_customize_5.png)
 
-1. メディアタイプの場合は、 **[!UICONTROL Video]** フィールドにURLを入力し **[!UICONTROL Media URL]** ます。
+1. メディアタイプが&#x200B;**[!UICONTROL Video]**&#x200B;の場合は、「**[!UICONTROL Media URL]**」フィールドに URL を入力します。
 
-   次に、ビデオがオーディエンスデバイス **[!UICONTROL Video poster]** でダウンロード中のとき、またはユーザーが再生ボタンをタップするまで、使用するユーザーを入力します。
+   次に、ビデオがオーディエンスデバイスでダウンロード中に、またはユーザーが再生ボタンをタップするまで使用する&#x200B;**[!UICONTROL Video poster]**&#x200B;を入力します。
 
    ![](assets/inapp_customize_6.png)
 
 ### テキスト {#text}
 
-必要に応じて、アプリ内メッセージにメッセージのタイトルとコンテンツを追加することもできます。 アプリ内メッセージをパーソナライズするために、様々なパーソナライゼーションフィールド、コンテンツブロックおよび動的テキストをコンテンツに追加できます。
+必要に応じて、アプリ内メッセージにメッセージのタイトルとコンテンツを追加することもできます。また、様々なパーソナライゼーションフィールド、コンテンツブロック、動的テキストをコンテンツに追加して、アプリ内メッセージをさらにパーソナライズすることができます。
 
-1. ドロップダウンリストで、 **[!UICONTROL Text]** フィールドにタイトルを追加し **[!UICONTROL Message title]** ます。
+1. **[!UICONTROL Text]**&#x200B;ドロップダウンで、「**[!UICONTROL Message title]**」フィールドにタイトルを追加します。
 
    ![](assets/inapp_customize_9.png)
 
-1. フィ追加ールド内のコンテンツ。 **[!UICONTROL Message content]**
-1. テキストをさらにパーソナライズするには、 ![](assets/edit_darkgrey-24px.png) アイコンをクリックしてパーソナライゼーションフィールドを追加します。
+1. 「**[!UICONTROL Message content]**」フィ―ルドにコンテンツを追加します。
+1. テキストをさらにパーソナライズするには、![](assets/edit_darkgrey-24px.png) アイコンをクリックしてパーソナライゼーションフィールドを追加します。
 
    ![](assets/inapp_customize_8.png)
 
 1. メッセージの内容を入力し、必要に応じてパーソナライゼーションフィールドを追加します。
 
-   For more information on personalization field, refer to this [section](../../designing/using/personalization.md#inserting-a-personalization-field).
+   パーソナライゼーションフィールドについて詳しくは、[こちら](../../designing/using/personalization.md#inserting-a-personalization-field)を参照してください。
 
    ![](assets/inapp_customize_10.png)
 
@@ -114,97 +114,96 @@ ht-degree: 1%
 
 ### ボタン {#buttons}
 
-アプリ内メッセージには、最大2つのボタンを追加できます。
+アプリ内メッセージには、最大 2 つのボタンを追加できます。
 
-1. ドロップダウンリストで、 **[!UICONTROL Buttons]****[!UICONTROL Primary]** カテゴリの最初のボタンのテキストを入力します。
+1. **[!UICONTROL Buttons]**&#x200B;ドロップダウンで、「**[!UICONTROL Primary]**」カテゴリの最初のボタンのテキストを入力します。
 
    ![](assets/inapp_customize_12.png)
 
-1. 2つの操作のうちどれを主ボタン **[!UICONTROL Dismiss]** に割り当て **[!UICONTROL Redirect]** るかを選択します。
-1. 必要に応じて、 **[!UICONTROL Secondary]** カテゴリでテキストを入力し、アプリ内に2つ目のボタンを追加します。
-1. 2つ目のボタンに関連付けられているアクションを選択します。
-1. アクションを選択した場合は、Web URLまたはディープリンクを **[!UICONTROL Redirect]** フィールドに入力し **[!UICONTROL Destination URL]** ます。
+1. **[!UICONTROL Dismiss]**&#x200B;と&#x200B;**[!UICONTROL Redirect]**&#x200B;のアクションのうち、どちらかを選択してプライマリボタンに割り当てます。
+1. 必要に応じて、「**[!UICONTROL Secondary]**」カテゴリでテキストを入力し、アプリ内メッセージに 2 つ目のボタンを追加します。
+1. 2 つ 目のボタンに関連付けるアクションを選択します。
+1. **[!UICONTROL Redirect]**&#x200B;アクションを選択した場合は、「**[!UICONTROL Destination URL]**」フィールドに Web URL またはディープリンクを入力します。
 
    ![](assets/inapp_customize_13.png)
 
-1. Web URLを入力するか、フィールドにリンクを入力します(アク **[!UICONTROL Destination URL]****[!UICONTROL Redirect]** ションを選択した場合)。
+1. **[!UICONTROL Redirect]**&#x200B;アクションを選択した場合は、「**[!UICONTROL Destination URL]**」フィールドに Web URL またはディープリンクを入力します。
 1. プレビューウィンドウで、またはプレビューボタンをクリックして、メッセージの内容を確認します。
 
-   「アプリ内メッセージの [プレビュー](#previewing-the-in-app-message) 」ページを参照してください。
+   [アプリ内メッセージのプレビュー](#previewing-the-in-app-message)を参照してください。
 
    ![](assets/inapp_customize_11.png)
 
 ### 設定 {#settings}
 
-1. カテゴリで、明るい色と暗い色の間の背景色を選択し **[!UICONTROL Settings]** ます。
-1. アプリ内メッセージを閉じる方法をユーザーに提供する **[!UICONTROL Show close button]** オプションを持つ閉じるボタンを表示するかどうかを選択します。
-1. このオプションを使用して、ボタンの配置を水平または垂直にするかどうかを選択し **[!UICONTROL Button alignment]** ます。
-1. アプリ内メッセージを自動終了するか、数秒後に閉じないかを選択します。
+1. 「**[!UICONTROL Settings]**」カテゴリでは、明るい色または暗い色の背景色を選択します。
+1. アプリ内メッセージを閉じるボタンを表示するかどうかを「**[!UICONTROL Show close button]**」オプションで選択します。
+1. 「**[!UICONTROL Button alignment]**」オプションを使用して、ボタンの配置を水平または垂直に設定します。
+1. アプリ内メッセージを数秒後に自動的に閉じるかどうかを選択します。
 
    ![](assets/inapp_customize_7.png)
 
 ## ローカル通知メッセージタイプのカスタマイズ {#customizing-a-local-notification-message-type}
 
-ローカル通知は、特定の時間およびイベントに応じて、アプリによってのみトリガーされます。 ユーザーは、インターネットにアクセスできなくても、アプリで何かが起きていることをユーザーに通知します。
-ローカル通知の追跡方法については、この [ページを参照してください](../../administration/using/local-tracking.md)。
+ローカル通知は、特定の時間に、またはイベントに応じて、アプリでのみトリガーできます。ユーザーがインターネットにアクセスしなくても、アプリで何かが起きていることが通知されます。ローカル通知の追跡方法については、[こちら](../../administration/using/local-tracking.md)を参照してください。
 
 ローカル通知をカスタマイズするには：
 
-1. ページから **[!UICONTROL Content]** 、 **[!UICONTROL Local notification]** カテゴリでを選択 **[!UICONTROL Layout]** します。
+1. **[!UICONTROL Content]**&#x200B;ページで、「**[!UICONTROL Layout]**」カテゴリから「**[!UICONTROL Local notification]**」を選択します。
 
    ![](assets/inapp_customize_17.png)
 
-1. カテゴリの下で、およびを入力し **[!UICONTROL Text]** ま **[!UICONTROL Message title]****[!UICONTROL Message content]**&#x200B;す。
+1. 「**[!UICONTROL Text]**」カテゴリで「**[!UICONTROL Message title]**」と「**[!UICONTROL Message content]**」を入力します。
 
    ![](assets/inapp_customize_18.png)
 
-1. 「 **[!UICONTROL Advanced option]****[!UICONTROL Wait to display]** カテゴリ」の下のフィールドで、イベントがトリガされた後にローカル通知が画面に表示される時間（秒）を選択します。
-1. この **[!UICONTROL Sound]** フィールドに、ローカル通知を受信したときにモバイルデバイスが再生するサウンドファイルのファイル名と拡張子を入力します。
+1. 「**[!UICONTROL Advanced option]**」カテゴリの「**[!UICONTROL Wait to display]**」フィールドで、イベントがトリガーされてからローカル通知が画面に表示されるまでの時間（秒）を選択します。
+1. 「**[!UICONTROL Sound]**」フィールドには、ローカル通知を受信したときにモバイルデバイスが再生するサウンドファイルのファイル名（拡張子付き）を入力します。
 
-   サウンドファイルがモバイルアプリケーションのパッケージに定義されている場合、サウンドファイルは通知の配信時に再生されます。 それ以外の場合は、デバイスのデフォルトのサウンドが再生されます。
+   サウンドファイルがモバイルアプリケーションのパッケージに定義されている場合は、そのファイルが通知の配信時に再生されます。それ以外の場合は、デバイスのデフォルトのサウンドが再生されます。
 
    ![](assets/inapp_customize_19.png)
 
-1. フィールドでローカル通知を操作する際に、ユーザーをリダイレクトする先を指定し **[!UICONTROL Deeplink URL]** ます。
-1. キーと値のペアの形式でペイロード内のカスタムデータを渡すには、カスタムフィールドをローカル通知に追加します。 カテゴリで、 **[!UICONTROL Custom fields]** ボタンをクリックし **[!UICONTROL Create an element]** ます。
-1. キーを入力 **[!UICONTROL Keys]** し、各キーに **[!UICONTROL Values]** 関連付けられているを入力します。
+1. ユーザーがローカル通知とやり取りする場合のリダイレクト先を「**[!UICONTROL Deeplink URL]**」フィールドに指定します。
+1. キーと値のペアの形式でペイロード内のカスタムデータを渡すには、カスタムフィールドをローカル通知に追加します。「**[!UICONTROL Custom fields]**」カテゴリで、「**[!UICONTROL Create an element]**」ボタンをクリックします。
+1. 「**[!UICONTROL Keys]**」を入力し、各キーに関連付けられている「**[!UICONTROL Values]**」を入力します。
 
-   カスタムフィールドの処理と目的は、モバイルアプリによって完全に決まります。
+   カスタムフィールドの扱い方と目的はモバイルアプリによって異なることに注意してください。
 
-1. Appleのモバイルアプリケーションで使用可能な場合は、 **[!UICONTROL Apple options]** カテゴリの **[!UICONTROL Category]** フィールドに入力し、カスタムアクションのカテゴリIDを追加します。
+1. Apple のモバイルアプリケーションで使用可能な場合は、「**[!UICONTROL Apple options]**」カテゴリの「**[!UICONTROL Category]**」フィールドにカスタムアクションのカテゴリ ID を入力して追加します。
 
-## カスタムHTMLメッセージでのカスタマイズ {#customizing-with-a-custom-html-message}
+## カスタム HTML メッセージを使用したカスタマイズ {#customizing-with-a-custom-html-message}
 
 >[!NOTE]
 >
->カスタムHTMLメッセージは、コンテンツのパーソナライゼーションをサポートしていません。
+>カスタム HTML メッセージでは、コンテンツのパーソナライゼーションをサポートしていません。
 
-この **[!UICONTROL Custom message]** モードでは、事前設定済みのHTMLメッセージの1つを直接読み込むことができます。
+**[!UICONTROL Custom message]**&#x200B;モードでは、事前設定済みの HTML メッセージを 1 つ直接インポートすることができます。
 
-これを行うには、コンピューターからファイルをドラッグ&amp;ドロップまたは選択する必要があります。
+ファイルをドラッグ＆ドロップするかコンピューターから選択するだけで、インポートできます。
 
-ファイルには、「サンプルファイルを **ダウンロード** 」オプションをクリックして見つけられる特定のレイアウトが必要です。
+ファイルには、特定のレイアウトが必要です。そのレイアウトを表示するには、「**サンプルファイルをダウンロード**」オプションをクリックしてください。
 
 ![](assets/inapp_customize_16.png)
 
-また、Adobe Campaignでの読み込みを成功させるためのカスタムHTML要件のリストも確認できます。
+また、Adobe Campaign に正常にインポートするためのカスタム HTML 要件のリストも確認できます。
 
 ![](assets/inapp_customize_3.png)
 
-HTMLを読み込むと、プレビューーウィンドウの異なるデバイスにファイルのプレビューが表示されます。
+HTML をインポートすると、様々なデバイスでのファイルのプレビューがプレビューウィンドウに表示されます。
 
-## Previewing the In-App message {#previewing-the-in-app-message}
+## アプリ内メッセージのプレビュー{#previewing-the-in-app-message}
 
-アプリ内メッセージを送信する前に、テストプロファイルを使用してテストを実行し、配信を受け取ったターゲットオーディエンスに何が表示されるかを確認できます。
+アプリ内メッセージを送信する前に、テストプロファイルにテスト送信して、ターゲットオーディエンスでの受信時にメッセージがどのように表示されるかを確認できます。
 
-1. ボタンをクリックし **[!UICONTROL Preview]** ます。
+1. 「**[!UICONTROL Preview]**」ボタンをクリックします。
 
    ![](assets/inapp_sending_2.png)
 
-1. ボタンをクリックし、テストプロファイルの1つを選択して、配信のプレビューを開始できます。 **[!UICONTROL Select a test profile]** For more information on test profiles, refer to this [section](../../audiences/using/managing-test-profiles.md).
-1. Android、iPhone、タブレットなど、別のデバイスでメッセージを確認します。 また、パーソナライゼーションフィールドが適切なデータを取得しているかどうかを確認することもできます。
+1. 「**[!UICONTROL Select a test profile]**」ボタンをクリックし、テストプロファイルを 1 つ選択して、配信のプレビューを開始します。テスプロファイルについて詳しくは、[こちら](../../audiences/using/managing-test-profiles.md)を参照してください。
+1. Android、iPhone、タブレットなど、様々なデバイスでのメッセージを確認します。また、パーソナライゼーションフィールドが適切なデータを取得しているかどうかも確認できます。
 
    ![](assets/inapp_sending_3.png)
 
-1. これで、メッセージを送信し、配信レポートの影響を測定できます。 For more on reporting, refer to [this section](../../reporting/using/in-app-report.md).
+1. これで、メッセージを送信し、配信レポートを使用して影響を測定できるようになりました。レポートについて詳しくは、[この節](../../reporting/using/in-app-report.md)を参照してください。
 
