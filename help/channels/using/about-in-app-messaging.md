@@ -49,7 +49,7 @@ Experience Platform SDK を利用したモバイルアプリケーションで�
 
 ## アプリ内FAQ {#in-app-faq}
 
-### Adobe Campaign Standardでのアプリ内チャネルについて詳しく学習するために役立つリソースの推奨事項は何ですか？ {#resources-inapp}
+### Adobe Campaign Standardのアプリ内チャネルについて詳しく学ぶために役立つリソースの推奨事項は何ですか？ {#resources-inapp}
 
 以下のリソースを確認します。
 
