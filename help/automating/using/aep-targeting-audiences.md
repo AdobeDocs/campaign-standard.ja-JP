@@ -1,6 +1,6 @@
 ---
 title: Adobe Experience Platform オーディエンスのターゲティング
-description: ワークフロー内のAdobe Experience Platformオーディエンスをターゲットする方法を説明します。
+description: ワークフロー内でAdobe Experience Platformオーディエンスをターゲットする方法を説明します。
 page-status-flag: never-activated
 uuid: 528d9472-e447-47af-a6b2-3181aa5fb5ad
 contentOwner: sauviat
@@ -12,7 +12,7 @@ discoiquuid: 19796aca-6e9e-4d3a-8917-ba660ec7993c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: be7ab90583e9c6472fd2c86082e832432d0a32b9
+source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 5%
@@ -24,11 +24,11 @@ ht-degree: 5%
 
 >[!IMPORTANT]
 >
->オーディエンス宛先サービスは現在ベータ版で、予告なく頻繁に更新される可能性があります。 これらの機能にアクセスするには、お客様はAzureでホストされる必要があります（現在、北米向けベータ版のみ）。 アドビカスタマーケアにお問い合わせの際は、アドビカスタマーケアにご連絡ください。
+>オーディエンス宛先サービスは現在ベータ版で、予告なく頻繁に更新される可能性があります。 これらの機能にアクセスするには、お客様はAzureでホストされる必要があります（現在、北米向けベータ版のみ）。 ご利用になる場合は、Adobeカスタマーケアにお問い合わせください。
 
 セグメントビルダーを使用して [Adobe Experience Platformオーディエンスを作成したら](../../audiences/using/aep-about-audience-destinations-service.md) 、ワークフロー内のキャンペーンオーディエンスと同じ方法でメッセージをパーソナライズし、送信できます。
 
-ワークフローに対してAdobe Experience Platformオーディエンスをアクティブ化するには、次の手順に従います。
+ワークフローでAdobe Experience Platformオーディエンスをアクティブ化するには、次の手順に従います。
 
 1. ワークフロー追加の **[!UICONTROL Read audience]** アクティビティを開きます。
 
@@ -40,7 +40,7 @@ ht-degree: 5%
 
    目のボタンをクリックすると、キャンペーン内で選択したオーディエンスに関連付けられたセグメントビルダー（別のタブ）に移動します。
 
-1. 要素を選択し、選択した **[!UICONTROL Platform data mapping]** Adobe Experience Platformオーディエンスに対して目的のターゲティングディメンションを指定します。
+1. 要素を選択し、選択したAdobe Experience Platform **[!UICONTROL Platform data mapping]** オーディエンスに必要なターゲティングディメンションを指定します。
 
    デフォルトでは、調整に使用される主キー(プロファイルテーブルのiRecipientID、AppSubscriptionテーブルのiAppSubscriptionIDなど)は、ドロップダウンリストから自動的に使用できます。 主キー以外でターゲットするには、カスタム **名前空間を作成する必要があります**。
 
@@ -64,11 +64,11 @@ ht-degree: 5%
 >
 >Campaign Standardを使用すると、すべての配信チャネル内でAdobe Experience Platformオーディエンスをターゲットできます。 電子メール、SMSメッセージ、ダイレクトメールメッセージ、プッシュ通知、アプリ内メッセージ。
 >
->*注意： すべてのプッシュメッセージおよびアプリ内メッセージで、Campaign Standardは既知のプロファイルの配信のみをサポートします。
+>*注意： すべてのプッシュメッセージおよびアプリ内メッセージに対して、Campaign Standardは既知のプロファイルに対する配信のみをサポートします。
 
 ワークフローと配信の使用方法について詳しくは、次の節を参照してください。
 
-* [ワークフローの検索](../../automating/using/get-started-workflows.md)
+* [ワークフローの検出](../../automating/using/get-started-workflows.md)
 * [ワークフローの作成](../../automating/using/building-a-workflow.md)
 * [通信チャネルの検出](../../channels/using/get-started-communication-channels.md)
 * [チャネルアクティビティについて](../../automating/using/about-channel-activities.md)
