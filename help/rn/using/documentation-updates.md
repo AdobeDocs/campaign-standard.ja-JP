@@ -12,7 +12,7 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a1f15808bd892305282b838bebbc8fa1ce58283e
+source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
 workflow-type: tm+mt
 source-wordcount: '6092'
 ht-degree: 95%
@@ -472,7 +472,7 @@ E メールデザイナーのモバイル表示- [詳細を表示](../../designi
 
 コンテンツのデザインガイドが更新され、E メールデザイナーの一般提供と、従来の E メールコンテンツエディターの廃止が反映されました。[詳細を表示](../../designing/using/designing-content-in-adobe-campaign.md)
 
-[アプリ内](../../channels/using/about-in-app-messaging.md)通知および[プッシュ通知](../../channels/using/about-push-notifications.md)のドキュメントを更新しました。
+Updated the [In-App](../../channels/using/about-in-app-messaging.md) and [Push notification](../../channels/using/about-push-notifications.md) documentation.
 
 Adobe Campaign の各種のオーディエンスに関する詳細を追加しました。[詳細を表示](../../audiences/using/about-audiences.md)
 
