@@ -4,10 +4,10 @@ sub-product: Adobe Campaign Standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard ヘルプ
 translation-type: tm+mt
-source-git-commit: 91cb524e104fbaa7f3334578d82b3878cc15fc9b
+source-git-commit: 95a7397092f6e07c84967d90908469f630f7a170
 workflow-type: tm+mt
-source-wordcount: '1550'
-ht-degree: 89%
+source-wordcount: '1564'
+ht-degree: 88%
 
 ---
 
@@ -407,8 +407,10 @@ ht-degree: 89%
       + [画像とビデオのiOSへの追加](administration/using/image-push-notification.md)
       + [プッシュ通知ペイロード構造について](administration/using/push-payload.md)
       + [ローカル通知トラッキングの実装](administration/using/local-tracking.md)
-      + [SyncWithLaunch技術的なワークフローFAQ](administration/using/syncwithlaunch-faq.md)
-      + [Adobe Experience PlatformSDKとキャンペーンの概要](administration/using/aep-faq.md)
+      + [Adobe起動同期のFAQ](administration/using/syncwithlaunch-faq.md)
+      + [Experience PlatformSDK統合FAQ](administration/using/aep-faq.md)
+      + [Adobe Campaign Standardの使用例をサポートするための起動ルールの設定](administration/using/configuring-rules-launch.md)
+      + [Adobe Campaign Standard でサポートされるモバイルの使用例](administration/using/supported-mobile-use-cases.md)
    + アプリケーション設定{#application-settings}
       + [Adobe Campaign Standard 設定について](administration/using/about-campaign-standard-settings.md)
       + [外部アカウント](administration/using/external-accounts.md)
@@ -421,7 +423,7 @@ ht-degree: 89%
 + API の操作{#working-with-apis}
    + [Campaign Standard API の概要](api/using/get-started-apis.md)
    + Campaign Standard API について {#about-campaign-standard-apis}
-      + [Campaign Standard API を使用する理由](api/using/why-using-campaign-standard-apis.md)
+      + [Campaign StandardAPIを使用する理由](api/using/why-using-campaign-standard-apis.md)
       + [API アクセスの設定](api/using/setting-up-api-access.md)
    + グローバルな概念{#global-concepts}
       + [必読](api/using/must-read.md)
