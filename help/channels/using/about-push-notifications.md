@@ -133,7 +133,7 @@ openssl pkcs12 -in pushcert.p12 -out pushcert.pem -nodes -clcerts
 
 Androidの場合、キャンペーンーは、通知ペイロードではなく、Dataペイロードのみをサポートします
 
-### Adobe Campaign Standardの「管理」セクションでアプリを設定したが、配信のプロパティでモバイルアプリを使用できない。 {#mobile-app-unavailable}
+### Adobe Campaign Standardの「管理」セクションでアプリを設定したが、配信のプロパティでMobile Appを使用できない。 {#mobile-app-unavailable}
 
 配信のプロパティでアプリを有効にするには、有効なプッシュ証明書もアップロードする必要があります。
 
