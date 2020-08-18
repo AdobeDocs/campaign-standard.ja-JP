@@ -4,7 +4,7 @@ sub-product: Adobe Campaign Standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard ヘルプ
 translation-type: tm+mt
-source-git-commit: 95a7397092f6e07c84967d90908469f630f7a170
+source-git-commit: b9fbcbd7d6ea206ae3ed1faca89f4000052f97dc
 workflow-type: tm+mt
 source-wordcount: '1564'
 ht-degree: 88%
@@ -136,13 +136,13 @@ ht-degree: 88%
    + [テストと送信の概要](sending/using/get-started-sending-messages.md)
    + メッセージの準備とテスト {#preparing-and-testing-messages}
       + [配信メッセージのプレビュー](sending/using/previewing-messages.md)
-      + [送信の準備](sending/using/preparing-the-send.md)
       + [配達確認の送信](sending/using/sending-proofs.md)
       + [ターゲットプロファイルを使用した E メールメッセージのテスト](sending/using/testing-messages-using-target.md)
       + [E メールの件名行のテスト](sending/using/testing-subject-line-email.md)
       + [AIを利用した電子メール](sending/using/predictive.md)
       + [E メールのレンダリング](sending/using/email-rendering.md)
       + [トラップの使用](sending/using/using-traps.md)
+      + [送信の準備](sending/using/preparing-the-send.md)
    + メッセージのスケジュール{#scheduling-messages}
       + [メッセージのスケジュールについて](sending/using/about-scheduling-messages.md)
       + [送信時間の最適化](sending/using/optimizing-the-sending-time.md)
