@@ -13,10 +13,10 @@ context-tags: workflow,use-case,query,segmentation,delivery
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 68e689e6bc362f4e948593c3b251f3825aab20ac
+source-git-commit: 73a91344ada17d6eb0da0335e08ea27a1019b4fb
 workflow-type: tm+mt
-source-wordcount: '763'
-ht-degree: 2%
+source-wordcount: '757'
+ht-degree: 14%
 
 ---
 
@@ -48,28 +48,28 @@ ht-degree: 2%
    ![](assets/wkf_control-group-profile-field-screen.png)
 
 1. 変更を保存します。
-1. データベース構造を更新して、 **[!UICONTROL Profile]** 拡張リソースを発行します。 詳しくは、カスタムリソースの [公開を参照してください](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)。
+1. データベース構造を更新して、 **[!UICONTROL Profile]** 拡張リソースを発行します。 See [Publishing a custom resource](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
 
 カスタムリソースの拡張について詳しくは、「リソースを追加する [主な手順](../../developing/using/key-steps-to-add-a-resource.md)」を参照してください。
 
 ## ワークフローの作成 {#creating-a-workflow}
 
-1. で、 **[!UICONTROL Marketing Activities]**&#x200B;をクリック **[!UICONTROL Create]** してを選択し **[!UICONTROL Workflow]**&#x200B;ます。
-1. ワークフローのタイプ **[!UICONTROL New Workflow]** として選択し、をクリックし **[!UICONTROL Next]**&#x200B;ます。
-1. ワークフローのプロパティを入力し、をクリックし **[!UICONTROL Create]**&#x200B;ます。
+1. 「**[!UICONTROL Marketing Activities]**」で、「**[!UICONTROL Create]**」をクリックして「**[!UICONTROL Workflow]**」を選択します。
+1. ワークフローのタイプとして「**[!UICONTROL New Workflow]**」を選択し、「**[!UICONTROL Next]**」をクリックします。
+1. ワークフローのプロパティを入力し、「**[!UICONTROL Create]**」をクリックします。
 
-ワークフローを作成する詳細な手順については、「ワークフローの [構築](../../automating/using/building-a-workflow.md) 」の節を参照してください。
+ワークフローを作成する詳細な手順については、[ワークフローの作成](../../automating/using/building-a-workflow.md)の節を参照してください。
 
-## Creating a Query activity {#create-a-query-activity}
+## クエリアクティビティの作成{#create-a-query-activity}
 
 1. /で、 **[!UICONTROL Activities]** クエリ **[!UICONTROL Targeting]**[](../../automating/using/query.md) アクティビティをドラッグ&amp;ドロップします。
 1. アクティビティを重複クリックして、ターゲットを定義します。
 1. 例えば、で、ドラッグ&amp;ドロップ **[!UICONTROL Shortcuts]**&#x200B;し **[!UICONTROL Profile]**&#x200B;て、演算子 **[!UICONTROL Age]** を使用してを選択し、 **[!UICONTROL Greater than]****[!UICONTROL Value]** フィールドに「25」と入力します。
-1. クリック **[!UICONTROL Confirm]** .
+1. 「**[!UICONTROL Confirm]**」をクリックします。
 
-## セグメントアクティビティの作成 {#creating-a-segmentation-activity}
+## Segmentation アクティビティの作成{#creating-a-segmentation-activity}
 
-1. セグメント [アクティビティをドラッグ&amp;ドロップし](../../automating/using/segmentation.md) 、重複を押しながらクリックします。
+1. Drag and drop a [Segmentation](../../automating/using/segmentation.md) activity and double-click it.
 1. タブで、編集するセグメントを選択し **[!UICONTROL Segments]** ます。
 1. そのセグメントの **[!UICONTROL Configuration]** タブで、オプ **[!UICONTROL Limit the population of this segment]** ションを選択します。
 
@@ -84,25 +84,25 @@ ht-degree: 2%
 
    ![](assets/wkf_control-segment-advanced.png)
 
-1. クリック **[!UICONTROL Confirm]** .
+1. 「**[!UICONTROL Confirm]**」をクリックします。
 
 ## Creating an Email activity {#creating-an-email-activity}
 
 1. >で、メ **[!UICONTROL Activities]** インアクティビティセグメントの後に **[!UICONTROL Channels]**&#x200B;電子メール配信 [](../../automating/using/email-delivery.md) ターゲットをドラッグ&amp;ドロップします。
-1. アクティビティをクリックし、選択して編集 ![](assets/edit_darkgrey-24px.png) します。
-1. を選択 **[!UICONTROL Single send email]** し、をクリックし **[!UICONTROL Next]**&#x200B;ます。
-1. 電子メールテンプレートを選択し、をクリックし **[!UICONTROL Next]**&#x200B;ます。
-1. 電子メールのプロパティを入力し、をクリックし **[!UICONTROL Next]**&#x200B;ます。
-1. 電子メールのレイアウトを作成するには、[オン]をクリックし **[!UICONTROL Use the Email Designer]**&#x200B;ます。
+1. Click the activity and select ![](assets/edit_darkgrey-24px.png) to edit it.
+1. 「**[!UICONTROL Single send email]**」を選択し、「**[!UICONTROL Next]**」をクリックします。
+1. E メールテンプレートを選択し、「**[!UICONTROL Next]**」をクリックします。
+1. E メールのプロパティを入力し、「**[!UICONTROL Next]**」をクリックします。
+1. E メールのレイアウトを作成するには、「**[!UICONTROL Use the Email Designer]**」をクリックします。
 1. コンテンツを編集して保存します。
-1. メッセージダッシュボードの **[!UICONTROL Schedule]** セクションで、[!UICONTROL要求確認]を選択解除してから、 **[!UICONTROL要求確認メッセージを送信する** ]オプションを選択します。
+1. メッセージダッシュボードの **[!UICONTROL Schedule]** セクションで、 **[!UICONTROL Request confirmation before sending messages]** オプションの選択を解除します。
 
 ## 更新データアクティビティの作成 {#creating-update-data-activity}
 
 1. コントロール母集団セグメントの後に「 [データを更新](../../automating/using/update-data.md) 」アクティビティをドラッグ&amp;ドロップします。
 1. アクティビティを選択し、表示されるクイックアクションの ![](assets/edit_darkgrey-24px.png) ボタンを使用して開きます。
 1. タブで、ドロッ **[!UICONTROL General]** プダウンリスト **[!UICONTROL Update]** から **[!UICONTROL Operation type]** 選択します。
-1. タブで、 **[!UICONTROL Identification]** オプションを選択し **[!UICONTROL Directly using the targeting dimension]** ます。
+1. In the **[!UICONTROL Identification]** tab, select the **[!UICONTROL Directly using the targeting dimension]** option.
 1. 更新するディメンションとして以前に拡張した **[!UICONTROL Profile]** リソースを選択します。
 
    ![](assets/wkf_control-update-identification.png)
@@ -111,15 +111,15 @@ ht-degree: 2%
 
    ![](assets/wkf_control-update-fields-to-update.png)
 
-1. クリック **[!UICONTROL Confirm]** .
+1. 「**[!UICONTROL Confirm]**」をクリックします。
 
-## ワークフローの実行 {#running-the-workflow}
+## ワークフローの実行{#running-the-workflow}
 
 をクリック **[!UICONTROL Start]** して、ワークフローを実行します。
 
 ワークフローが実行されると、コントロール母集団の母集団が除外され、残りのメインターゲットにメッセージが送信されます。
 
-リ **[!UICONTROL Profile]** ソースは次のように更新されます。 コントロール母集団内にプロファイルがあった場合は、対応するフィールドがチェックされます。
+リ **[!UICONTROL Profile]** ソースは次のように更新されます。コントロール母集団内にプロファイルがあった場合は、対応するフィールドがチェックされます。
 
 ![](assets/wkf_control-group-profile-checked.png)
 
