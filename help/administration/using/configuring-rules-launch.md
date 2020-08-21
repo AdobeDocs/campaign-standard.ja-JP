@@ -13,9 +13,9 @@ context-tags: mobileApp,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2b8a25a90ea253666fb71c3f7aaf830d736e6c5b
+source-git-commit: 3bace60da0b3cdbbc693507a03cbfb6886b15b4e
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '914'
 ht-degree: 0%
 
 ---
@@ -128,15 +128,15 @@ PIIデータをに送信するに [!DNL Adobe Campaign Standard]は、次の場�
 
    また、イベントトリガーに応じて、ライフサイクルデータをCollect PIIポストバックに渡したり、別のポストバックに渡したりすることもできます。 ライフサイクルデータJSONの例を次に示します。
 
-       &quot;
-    {
-    &quot;marketingCloudId&quot;:&quot;{%%mcid%%}&quot;,
-    &quot;cusDayslastlaunch&quot;: &quot;{%%DaysSinceLastUse%%}&quot;,
-    &quot;cusDaysfirstlaunch&quot;: &quot;{%%DaysSinceFirstUse%%}&quot;,
-    &quot;cusLaunches&quot;: &quot;{%%起動回数%}&quot;
-    }
-    &quot;
-   
+   ```
+   {
+   "marketingCloudId":"{%%mcid%%}",
+   "cusDayslastlaunch": "{%%DaysSinceLastUse%%}", 
+   "cusDaysfirstlaunch": "{%%DaysSinceFirstUse%%}", 
+   "cusLaunches": "{%%Launches%%}"
+   }
+   ```
+
    で定義するデータ要素は、%%mcid%%のように重複の割合で囲み、アプリのコンテキスト変数は、%contextdata.email%のように1つの割合で囲む必要があります。 [!DNL Experience Platform Launch]
 
 1. 「 **[!UICONTROL Content Type]** application/json **」と入力します**。
