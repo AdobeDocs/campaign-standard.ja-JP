@@ -12,9 +12,9 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2b04a5efdde3153d3ede0ad8bc4f56cd4a5fa1df
+source-git-commit: 762700893c913d9aea884d00438c84b39a800188
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '812'
 ht-degree: 2%
 
 ---
@@ -43,7 +43,7 @@ Adobe Experience PlatformSDKとCampaign Standardの統合について詳しく�
 
 はい、 [!DNL Adobe Experience Platform SDK] Adobe Campaign StandardとAdobe Campaign Classicの両方で統合が可能です。 統合を有効にするには、対応する **[!UICONTROL Extension]** ををインストール [!DNL Adobe Launch] する必要があります。
 
-詳しくは、この [ページのCampaign Classicを参照し](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaignclassic) 、Campaign Standardに関する [ページを参照してください](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard) 。
+詳しくは、この [ページのCampaign Classicを参照し](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaignclassic) 、Campaign Standardに関する [ページ](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard) 。
 
 ## Adobe Experience PlatformSDKを統合すると、どのような機能がAdobe Campaignを容易にしますか？ {#aep-capabilities}
 
@@ -51,7 +51,7 @@ Adobe Experience PlatformSDKとCampaign Standardの統合について詳しく�
 
 ![](assets/faq.png)
 
->[!N注：]
+>[!NOTE]
 >
 >[!DNL Places] 統合には、アプリ内メッセージのトリガーとして配置イベントが含まれます（プッシュ通知の場合は除く）。データとローカル通知のサポートによってプロファイルを強化し [!DNL Places] ます。 Refer to this [page](../../channels/using/preparing-and-sending-an-in-app-message.md) for more information. <br>[!DNL Places] 制限付き統合には、 [!DNL Places] データをプロファイルに富化する機能が含まれます。
 
@@ -70,7 +70,7 @@ Adobe Experience PlatformSDKとCampaign Standardの統合について詳しく�
 これをおこなうには、以下の手順に従います。
 
 1. でを設定 **[!UICONTROL Mobile property]** し [!DNL Launch]ます。
-1. Adobe Campaign Standard拡張機能をインストールします。 また、Adobe Campaign Standardの拡張機能には、 **[!UICONTROL Mobile Core]**&#x200B;およびの拡張機能も必要です。これらの拡張機能は、デフォルトでにインストールされ **[!UICONTROL Profile]****[!UICONTROL Lifecycle]**[!DNL Launch]&#x200B;ます。
+1. Adobe Campaign Standard拡張機能をインストールします。 また、Adobe Campaign Standardの拡張機能には、および **[!UICONTROL Mobile Core]**&#x200B;の拡張機能も必要です。これらの拡張機能は、デフォルトでにインストールされ **[!UICONTROL Profile]****[!UICONTROL Lifecycle]**[!DNL Launch]&#x200B;ます。
    * ライフサイクルイベントの頻度に影響を及ぼす **[!UICONTROL Mobile Core]** 拡張機能で、セッションタイムアウトを設定する必要があります。
    * 拡張機能を設定したら、iOS用のCocopodsとAndroid用のGradleを使用して、モバイルアプリに適切な依存関係を追加する必要があります。 指示に従っ [てください](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard)。
    * 常に最新バージョンのライブラリを使用してください。
