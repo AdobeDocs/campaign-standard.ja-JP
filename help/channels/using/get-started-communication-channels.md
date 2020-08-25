@@ -1,5 +1,5 @@
 ---
-title: コミュニケーションチャネルを使い始める
+title: 通信チャネルの概要
 description: 様々なチャネルでパーソナライズされたメッセージを送信する方法と、チャネル間のキャンペーンを作成して受信者のターゲットを向上させる方法について説明します。
 page-status-flag: never-activated
 uuid: 5d61d8df-8256-4f28-8dd3-e791891e312f
@@ -12,15 +12,15 @@ discoiquuid: 5214becf-005b-42ac-97d2-2bce5ba2ecb5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2d994d85f126951215f1227301599c554c1f12c8
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 14%
+source-wordcount: '526'
+ht-degree: 17%
 
 ---
 
 
-# コミュニケーションチャネルを使い始める {#discovering-communication-channels}
+# 通信チャネルの概要 {#discovering-communication-channels}
 
 <table>
 <tr>
@@ -47,13 +47,13 @@ Adobe Campaignを使用すると、あらゆるチャネルでキャンペーン
 * [メッセージへのアクセス](../../channels/using/accessing-messages.md)
 * [メッセージダッシュボード](../../channels/using/message-dashboard.md)
 * [多言語メッセージテンプレート](../../channels/using/multilingual-messages-template.md)
-* [マーケティング活動テンプレート](../../start/using/marketing-activity-templates.md)
+* [マーケティングアクティビティテンプレート](../../start/using/marketing-activity-templates.md)
 
 ## 通信チャネル{#available-communication-channels}
 
 <img src="assets/do-not-localize/icon_channels.svg"  width="60px">
 
-**Adobe Campaignでは、次の5つの通信チャネルを使用できます** 。 電子メール、SMSメッセージ、プッシュ通知、アプリ内メッセージ、ダイレクトメール配信。
+**Adobe Campaignでは、次の5つの通信チャネルを使用できます** 。電子メール、SMSメッセージ、プッシュ通知、アプリ内メッセージ、ダイレクトメール配信。
 
 各チャネルに対して、特定の機能を使用できます。 例えば、電子メールチャネルでは、最大3バージョンの電子メールメッセージをテストするためにA/Bテストを実行できます。 SMSチャネルを使用して、STOP SMSメッセージを管理し、受信者からの着信SMSをデータベースに格納します。
 
@@ -71,13 +71,14 @@ Adobe Campaignを使用すると、あらゆるチャネルでキャンペーン
 
 <img src="assets/do-not-localize/icon_transactional.svg" width="60px">
 
-**個々の固有のメッセージを顧客にリアルタイムで送信** : ウェルカムメッセージ、発送確認、パスワードの変更など
+**個々の固有のメッセージを顧客にリアルタイムで送信** :ウェルカムメッセージ、発送確認、パスワードの変更など
 
 トランザクションメッセージは、オプションに応じて、電子メール、SMS、プッシュ通知チャネルで使用できます。 メッセージには次の2種類があります。 **イベントトランザクションメッセージ** :プロファイル情報のないイベントをターゲットに設定したと、データベースのプロファイルをターゲットに設定した **プロファイルトランザクションメッセージ** 。
 
 詳しくは、以下を参照してください。
 
-* [トランザクションメッセージについて](../../channels/using/about-transactional-messaging.md)
+* [トランザクションメッセージについて](../../channels/using/getting-started-with-transactional-msg.md)
+* [トランザクションメッセージの概要](../../channels/using/getting-started-with-transactional-msg.md)
 * [イベントトランザクションメッセージ](../../channels/using/event-transactional-messages.md)
 * [プロファイルトランザクションメッセージ](../../channels/using/profile-transactional-messages.md)
 * [トランザクションプッシュ通知](../../channels/using/transactional-push-notifications.md)
@@ -106,4 +107,4 @@ Adobe Campaignを使用すると、あらゆるチャネルでキャンペーン
 * [AEMコンテンツの読み込み](../../integrating/using/creating-email-experience-manager.md)
 * [ワークフローを含むメッセージの送信](../../automating/using/about-channel-activities.md)
 * [コミュニケーションチャネルのチュートリアルビデオ](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/create-email-from-homepage.html)
-* [使用例： チャネル間の配信の作成](../../automating/using/workflow-cross-channel-delivery.md)
+* [使用例：チャネル間の配信の作成](../../automating/using/workflow-cross-channel-delivery.md)
