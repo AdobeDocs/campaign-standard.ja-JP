@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
 workflow-type: tm+mt
 source-wordcount: '1825'
 ht-degree: 99%
@@ -64,7 +64,7 @@ ht-degree: 99%
 
 **強化点**
 
-* トランザクションメッセージングのユーザーエクスペリエンスが強化され、インターフェイスの一貫性が向上しました。[詳細を表示](../../channels/using/about-transactional-messaging.md)
+* トランザクションメッセージングのユーザーエクスペリエンスが強化され、インターフェイスの一貫性が向上しました。[詳細を表示](../../channels/using/getting-started-with-transactional-msg.md)
 * Campaign Standard で、ワークフローの追加データを使用して配達確認をテストプロファイルに送信できるようになりました。
 * 「外部 API」アクティビティのガードレールが更新されました。[詳細を表示](../../automating/using/external-api.md)
 
