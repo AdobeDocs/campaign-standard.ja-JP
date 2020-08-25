@@ -11,9 +11,9 @@ topic-tags: managing-subscriptions
 discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 95e01eb33097fc76caac3f4dd5f5591461b887cf
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+workflow-type: tm+mt
 source-wordcount: '1322'
 ht-degree: 100%
 
@@ -46,7 +46,7 @@ ht-degree: 100%
 
 ### 手順 1：確認 E メールの作成 {#step-1--create-the-confirmation-email-1}
 
-ニュースレターを（ランディングページなどの方法で）購読した各プロファイルに、確認の E メールが自動的に送信されます。このサブスクリプションはイベントと見なされます。また、この E メールはサービスを購読した各プロファイルを対象とする[トランザクションメッセージ](../../channels/using/about-transactional-messaging.md)です。
+ニュースレターを（ランディングページなどの方法で）購読した各プロファイルに、確認の E メールが自動的に送信されます。このサブスクリプションはイベントと見なされます。また、この E メールはサービスを購読した各プロファイルを対象とする[トランザクションメッセージ](../../channels/using/getting-started-with-transactional-msg.md)です。
 
 確認 E メールを作成する手順を以下に示します。トランザクションメッセージはサービスで参照されるので、最初に作成する必要があります。
 
@@ -135,13 +135,13 @@ ht-degree: 100%
 
 ### 手順 1：確認 E メールの作成 {#step-1--create-the-confirmation-email-2}
 
-ニュースレターにランディングページから購読した各プロファイルに、確認 E メールが自動的に送信されます。このサブスクリプションはイベントと見なされます。また、この E メールはサービスを購読した各プロファイルを対象とする[トランザクションメッセージ](../../channels/using/about-transactional-messaging.md)です。
+ニュースレターにランディングページから購読した各プロファイルに、確認 E メールが自動的に送信されます。このサブスクリプションはイベントと見なされます。また、この E メールはサービスを購読した各プロファイルを対象とする[トランザクションメッセージ](../../channels/using/getting-started-with-transactional-msg.md)です。
 
 これらの要素を作成する手順を以下に示します。トランザクションメッセージはランディングページで参照されるので、最初に作成する必要があります。
 
 #### イベントの作成 {#create-the-event-2}
 
-確認 E メールは、イベント（サービスのサブスクリプション）に反応する[トランザクションメッセージ](../../channels/using/about-transactional-messaging.md)です。このメッセージは、ニュースレターのサブスクリプションを確認するために送信されます。
+確認 E メールは、イベント（サービスのサブスクリプション）に反応する[トランザクションメッセージ](../../channels/using/getting-started-with-transactional-msg.md)です。このメッセージは、ニュースレターのサブスクリプションを確認するために送信されます。
 
 1. イベントを作成するには、Adobe Campaign のロゴから **[!UICONTROL Marketing plans]**／**[!UICONTROL Transactional messages]**／**[!UICONTROL Event configuration]** メニューにアクセスします。
 1. ラベルを入力し、ターゲティングディメンションを選択して「**[!UICONTROL Create]**」をクリックします。
