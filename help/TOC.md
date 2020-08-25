@@ -4,9 +4,9 @@ sub-product: Adobe Campaign Standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard ヘルプ
 translation-type: tm+mt
-source-git-commit: b9fbcbd7d6ea206ae3ed1faca89f4000052f97dc
+source-git-commit: 7a647878a711777dffd83a8f8dccacf9d9238ba6
 workflow-type: tm+mt
-source-wordcount: '1564'
+source-wordcount: '1569'
 ht-degree: 88%
 
 ---
@@ -103,7 +103,8 @@ ht-degree: 88%
       + [ダイレクトメールオーディエンスの定義](channels/using/defining-the-direct-mail-audience.md)
       + [ダイレクトメールのコンテンツの定義](channels/using/defining-the-direct-mail-content.md)
    + トランザクションメッセージング{#transactional-messaging}
-      + [トランザクションメッセージについて](channels/using/about-transactional-messaging.md)
+      + [トランザクションメッセージの概要](channels/using/getting-started-with-transactional-msg.md)
+      + [トランザクションメッセージの制限](channels/using/transactional-messaging-limitations.md)
       + [イベントトランザクションメッセージ](channels/using/event-transactional-messages.md)
       + [プロファイルトランザクションメッセージ](channels/using/profile-transactional-messages.md)
       + [トランザクションプッシュ通知](channels/using/transactional-push-notifications.md)
