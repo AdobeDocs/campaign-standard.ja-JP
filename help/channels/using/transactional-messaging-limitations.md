@@ -1,0 +1,85 @@
+---
+title: トランザクションメッセージの制限
+description: Adobe Campaign Standardのトランザクションメッセージに関する主な制限事項と推奨事項について説明します。
+page-status-flag: never-activated
+uuid: b316bf47-7d98-46fa-ab4f-67ff50de8095
+contentOwner: lemaitre
+products: SG_CAMPAIGN/STANDARD
+audience: channels
+content-type: reference
+topic-tags: landing-pages
+discoiquuid: ca8d1698-6e8a-4f5a-b017-74a152e14286
+context-tags: landingPage,wizard;landingPage,overview;landingPage,main
+internal: n
+snippet: y
+translation-type: tm+mt
+source-git-commit: 0b6607afe05e762c87a95fd88bda0196baa57f1e
+workflow-type: tm+mt
+source-wordcount: '640'
+ht-degree: 87%
+
+---
+
+
+# トランザクションメッセージの制限 {#transactional-messaging-limitations}
+
+<table>
+<tr>
+<td><img src="assets/do-not-localize/icon_concepts.svg" width="60px"></td>
+<td><p>以下の節では、トランザクションメッセージを作成する前に考慮すべき制限事項についてリストします。</p></td>
+</tr>
+</table>
+
+トランザクションメッセージの設定方法や作成方法など、詳しくは、トランザクションメッセージの使用の手引きを参照して [ください](../../channels/using/getting-started-with-transactional-msg.md)。
+
+>[!NOTE]
+>
+>トランザクションメッセージにアクセスするには、管理者権限が必要です。
+
+## デザインと公開 {#design-and-publication}
+
+トランザクションメッセージをデザインして公開する際、実行する必要がある手順の一部は元に戻すことができません。次の制限事項に留意してください。
+
+* 各イベント設定で使用できるチャネルは 1 つだけです。詳しくは、[イベントの作成](../../administration/using/configuring-transactional-messaging.md#creating-an-event)を参照してください。
+* イベントを作成した後は、チャネルを変更できません。したがって、メッセージが正常に送信されない場合は、ワークフローを使用して別のチャネルからメッセージを送信できるメカニズムを設計する必要があります。[ワークフローのデータとプロセス](../../automating/using/get-started-workflows.md).
+* イベントの作成後にターゲティングディメンション（**[!UICONTROL Real-time event]** または **[!UICONTROL Profile]**）を変更することはできません。詳しくは、[イベントの作成](../../administration/using/configuring-transactional-messaging.md#creating-an-event)を参照してください。
+* 公開をロールバックすることはできませんが、イベントを非公開にすることは可能です。この操作により、イベントとそれに関連するトランザクションメッセージにアクセスできなくなります。詳しくは、[イベントの非公開](../../administration/using/configuring-transactional-messaging.md#unpublishing-an-event)を参照してください。
+* イベントに関連付けることができる唯一のトランザクションメッセージは、そのイベントの公開時に自動的に作成されるメッセージです。詳しくは、[イベントのプレビューと公開](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)を参照してください。
+
+## パーソナライゼーション {#personalization}
+
+メッセージの内容をパーソナライズする方法は、トランザクションメッセージの種類によって異なります。具体的な内容は以下の通り。
+
+### イベントベースのトランザクションメッセージ
+
+* パーソナライゼーションに関する情報は、イベント自体に含まれるデータから取得されます。[イベントトランザクションメッセージ](../../channels/using/event-transactional-messages.md)を参照してください。
+* You **cannot** use **[!UICONTROL Unsubscription link]** content blocks in an event transactional message.
+* イベントベースのトランザクションメッセージでは、受信者とメッセージコンテンツのパーソナライゼーションを定義するために、送信イベント内のデータのみを使用することが想定されています。ただし、Adobe Campaign データベースの情報を使用して、トランザクションメッセージの内容をエンリッチメントすることができます。詳しくは、[トランザクションメッセージコンテンツのエンリッチメント](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content)を参照してください。
+* イベントトランザクションメッセージにはプロファイル情報が含まれないので、プロファイルのエンリッチメントの場合でも、疲労ルールとの互換性はありません。[疲労ルール](../../sending/using/fatigue-rules.md)を参照してください。
+
+### プロファイルベースのトランザクションメッセージ
+
+* パーソナライゼーションに関する情報は、イベントに含まれるデータ、または紐付け済みのプロファイルレコードから取得できます。[プロファイルトランザクションメッセージ](../../channels/using/profile-transactional-messages.md)を参照してください。
+* You **can** use **[!UICONTROL Unsubscription link]** content blocks in a profile transactional message. [コンテンツブロックの追加](../../designing/using/personalization.md#adding-a-content-block)を参照してください。
+* 疲労ルールは、プロファイルトランザクションメッセージと互換性があります。[疲労ルール](../../sending/using/fatigue-rules.md)を参照してください。
+
+製品リストは、トランザクション用の E メールメッセージでのみ利用できます。詳しくは、[トランザクションメッセージでの製品リストの使用](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message)を参照してください。
+
+## 権限とブランディング {#permissions-and-branding}
+
+[ブランディング](../../administration/using/branding.md)管理の場合、トランザクションメッセージは標準のメッセージよりも柔軟性が低くなります。トランザクションメッセージで使用されるすべてのブランドを&#x200B;**[!UICONTROL All]**[&#x200B;組織単位](../../administration/using/organizational-units.md)にリンクすることをお勧めします。詳しくは、以下の詳細を参照してください。
+
+トランザクションメッセージを編集する際に、ブランドにリンクして、ブランド名やブランドロゴなどのパラメーターを自動的に適用できます。トランザクションメッセージプロパティでは、デフォルトで **[!UICONTROL Default brand]** が選択されています。
+
+![](assets/message-center_branding.png)
+
+トランザクションメッセージで使用されるすべてのオブジェクト（ブランドを含む）は **[!UICONTROL Message Center]** 組織単位で表示されている必要があります。つまり、これらのオブジェクトは **[!UICONTROL Message Center]** 組織単位または **[!UICONTROL All]** 組織単位に属する必要があります。
+
+ただし、メッセージプロパティで選択したブランドが、**[!UICONTROL Message Center]** または **[!UICONTROL All]** とは異なる組織単位にリンクされている場合、これはエラーの原因となり、トランザクションメッセージを送信できなくなります。
+
+したがって、トランザクションメッセージのコンテキストでマルチブランディングを使用する場合は、すべてのブランドを **[!UICONTROL Message Center]** 組織単位または **[!UICONTROL All]** 組織単位にリンクする必要があります。
+
+## トランザクションメッセージのエクスポートとインポート {#exporting-and-importing-transactional-messages}
+
+* トランザクションメッセージをエクスポートするには、[パッケージのエクスポートを作成](../../automating/using/managing-packages.md#creating-a-package)する際に、対応するイベント設定を含める必要があります。
+* トランザクションメッセージが[パッケージからインポートされる](../../automating/using/managing-packages.md#importing-a-package)と、トランザクションメッセージリストには表示されなくなります。関連するトランザクションメッセージを使用可能にするには、イベント設定を[公開](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)する必要があります。
