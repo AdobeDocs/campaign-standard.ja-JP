@@ -13,7 +13,7 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 762700893c913d9aea884d00438c84b39a800188
+source-git-commit: fe9b2156a80f973045a2a7860dac4ac3a1d899e7
 workflow-type: tm+mt
 source-wordcount: '2478'
 ht-degree: 100%
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 イベントをターゲットにしたイベントトランザクションメッセージを送信できます。この種類のトランザクションメッセージには、プロファイル情報が含まれません。配信ターゲットは、イベント自体に含まれるデータによって定義されます。
 
-イベントを作成して公開すると（[この節](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle)で説明する買い物かごの放棄）、対応するトランザクションメッセージが自動的に作成されます。
+イベントを作成して公開すると（[この節](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle)で説明する買い物かごの放棄）、対応するトランザクションメッセージが自動的に作成されます。
 
 設定手順は、[トランザクションメッセージを送信するためのイベントの設定](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message)の節に記載されています。
 
