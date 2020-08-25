@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+source-git-commit: b588366b0697d9cf7aea77b7c9c8ec876b9e0579
 workflow-type: tm+mt
-source-wordcount: '6092'
+source-wordcount: '6119'
 ht-degree: 95%
 
 ---
@@ -24,19 +24,25 @@ ht-degree: 95%
 
 このページでは、Adobe Campaign の[リリースノート](../../rn/using/release-notes.md)に加えて、Adobe Campaign Standard のドキュメントの新しいアップデートをすべて紹介します。
 
+## ドキュメントのアップデート - 2020 年 8 月 {#doc-updates-august-2020}
+
+トランザクションメッセージの使い始めに関する新しい更新セクションが提供されます。 [詳細を表示](../../channels/using/getting-started-with-transactional-msg.md)
+
+トランザクションメッセージの制限に関する節は移動されました。 [詳細を表示](../../channels/using/transactional-messaging-limitations.md)
+
 ## ドキュメントのアップデート - 2020 年 7 月 {#doc-updates-july-2020}
 
 Campaign Standardの監視に関するガイドラインを含む新しい節を追加しました。 [詳細を表示](../../administration/using/monitoring-guidelines.md)
 
 外部APIガードレールと制限の節が更新されました。[詳細を表示](../../automating/using/external-api.md#guardrails)
 
-「プライバシー管理の概要」ページが更新され、タイの個人データ保護法(PDPA)とブラジルのレイジェラル・デ・プロテソ(LGPD)に関する情報が含まれるようになりました。 [詳細を表示](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
+「プライバシー管理の概要」ページが更新され、タイの個人データ保護法（PDPA）とブラジルの Lei Geral de Proteção de Dados（LGPD）に関する情報が含まれるようになりました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
 
 『モバイルチャネル』ガイドは再編成され、改善されました。 モバイルチャネルの設定に関する新しいガイドと、モバイル設定に関する技術ドキュメントが追加されました。 [詳細を表示](../../administration/using/push-tracking.md)
 
 Campaign Standardのプライバシー管理ページが更新されました。プライバシーコアサービスの統合を通じてプライバシー要求を管理する方法を明確にする必要があります。 [詳細を表示](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)
 
-AIを利用した新しい電子メール機能： 時間の最適化とプロファイルスコアリングを送信します。 [詳細を表示](../../sending/using/predictive.md)
+AIを利用した新しい電子メール機能：時間の最適化とプロファイルスコアリングを送信します。 [詳細を表示](../../sending/using/predictive.md)
 
 ## ドキュメントの更新 — 2020年6月 {#doc-updates-june-2020}
 
@@ -46,7 +52,7 @@ AIを利用した新しい電子メール機能： 時間の最適化とプロ�
 
 「ホワイトリスト」と「ブラックリスト」の両方の用語が Adobe Campaign ドキュメントから削除されました。これらの用語は、製品 UI、オプション名、内部コードにまだ存在する場合がありますが、今後の Campaign リリースでは「ブロックリスト」と「許可リスト」に置き換えられます。
 
-従来のサポートWebサイトへの参照は、新しいURLに置き換えられました。 [さらに詳しく](https://helpx.adobe.com/campaign/kb/ac-support.html#acs-support-req)
+従来のサポートWebサイトへの参照は、新しいURLに置き換えられました。 [詳細情報](https://helpx.adobe.com/campaign/kb/ac-support.html#acs-support-req)
 
 インボックスレンダリング機能からカスタムLitmusアカウント構成が削除されました。 [詳細を表示](../../sending/using/email-rendering.md)
 
@@ -128,7 +134,7 @@ Azure Blob 統合 - [詳細情報](../../administration/using/external-accounts.
 
 E メールの件名行をテストして開封率を予測する方法を説明するページが更新および改訂され、新しく[トラブルシューティング](../../sending/using/testing-subject-line-email.md#troubleshooting)の節が追加されました。[詳細を表示](../../sending/using/testing-subject-line-email.md)
 
-トランザクションメッセージの節が更新され、複数のユーザーインターフェイスに関するいくつかの更新と改善が反映されました。[詳細を表示](../../channels/using/about-transactional-messaging.md)
+トランザクションメッセージの節が更新され、複数のユーザーインターフェイスに関するいくつかの更新と改善が反映されました。[詳細を表示](../../channels/using/getting-started-with-transactional-msg.md)
 
 外部 API アクティビティガードレールに関する情報が更新されました。[詳細を表示](../../automating/using/external-api.md)
 
@@ -236,7 +242,7 @@ Campaign Standard および Campaign Classic のエラーメッセージのリ�
 
 GDPR の入門ガイドが改善され、強化されました。GDPR や CCPA を含む、プライバシー管理に関するドキュメントになりました。[詳細を表示](https://helpx.adobe.com/content/help/jp/campaign/kb/campaign-privacy.html)
 
-トランザクションメッセージングの公開プロセスを示す新しいチャートが追加されました。[詳細を表示](../../channels/using/about-transactional-messaging.md#transactional-messaging-pub-process)
+トランザクションメッセージングの公開プロセスを示す新しいチャートが追加されました。[詳細を表示](../../administration/using/configuring-transactional-messaging.md#transactional-messaging-pub-process)
 
 配信のベストプラクティス入門ガイドが移動され、更新されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/delivery-best-practices.html)
 
@@ -416,7 +422,7 @@ Dreamweaver の統合に関する節が更新および改訂されました。[�
 
 E メールコンテンツを作成する新しいオンボードエクスペリエンスと、E メールデザイナーのその他の機能強化が、E メールの内容の編集の章に追加されました。[詳細を表示](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-home-page)
 
-トランザクションメッセージの制限に関する新しい節を追加しました。[詳細を表示](../../channels/using/about-transactional-messaging.md#transactional-messaging-limitations)
+トランザクションメッセージの制限に関する新しい節を追加しました。[詳細を表示](../../channels/using/transactional-messaging-limitations.md)
 
 Adobe Campaign の各種の E メールオーサリングオプションを比較した新しい節を追加しました。[詳細を表示](../../designing/using/using-integrations.md#email-design-options-comparison)
 
