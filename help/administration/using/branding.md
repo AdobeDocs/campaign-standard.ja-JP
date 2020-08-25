@@ -12,9 +12,9 @@ discoiquuid: cbb1dcec-3bc6-4013-87fa-27d0e5d32bf8
 context-tags: branding,overview;branding,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: e18407ab4bf70caa417b16bbc645fd2c6ba1818b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+workflow-type: tm+mt
 source-wordcount: '983'
 ht-degree: 100%
 
@@ -41,7 +41,7 @@ ht-degree: 100%
 >
 >ブランドは、エンドユーザーが作成または変更することはできません。これらの操作は、Adobe Campaign の技術管理者が実行する必要があります。ご要望がある場合は、アドビカスタマーケアにお問合せください。
 >
->マルチブランディングは、トランザクションメッセージングのコンテキストでは使用できません。詳しくは、[トランザクションメッセージとブランディング](../../channels/using/about-transactional-messaging.md#permissions-and-branding)を参照してください。
+>マルチブランディングは、トランザクションメッセージングのコンテキストでは使用できません。詳しくは、[トランザクションメッセージとブランディング](../../channels/using/transactional-messaging-limitations.md#permissions-and-branding)を参照してください。
 
 ブランドは&#x200B;**[!UICONTROL Administration > Instance settings > Brand configuration]**&#x200B;メニューに表示されます。
 
@@ -67,6 +67,7 @@ ht-degree: 100%
    * **Reply to (email address)**：ユーザーからの返信先の E メールアドレスです。
    * ブランド名を含む&#x200B;**Reply to (name)**：ユーザーからの返信先（ブランド）の名前です。
    * **）Error (email address)**：エラーの場合に使用する E メールアドレスです。
+
    >[!IMPORTANT]
    >
    >E メールのヘッダーパラメーターを更新した後、送信者の名前と E メールアドレスが、テンプレートから作成された E メール内で変更されていない場合は、テンプレートの詳細設定を確認します。
@@ -78,6 +79,7 @@ ht-degree: 100%
    * **External URL of the application server**：作成する様々なランディングページのホスティングとアクセスに使用します。
    * **External URL of the tracking server**：配信時のトラッキング URL として使用します。
    * **External URL of the mirror page server**：配信のデフォルトのミラーページとして使用します。
+
    >[!NOTE]
    >
    >ランディングページのプレビューとミラーページのレンダリングを Campaign ユーザーインターフェイスに表示するには、アプリケーションサーバーとミラーページサーバーの URL をセキュリティで保護する必要があります。この場合、これらの URL の設定時には、http:// ではなく https:// を使用してください。
