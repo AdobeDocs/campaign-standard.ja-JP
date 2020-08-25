@@ -12,7 +12,7 @@ discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
 workflow-type: tm+mt
 source-wordcount: '1157'
 ht-degree: 89%
@@ -80,7 +80,7 @@ ht-degree: 89%
 
 ### イベントの作成 {#create-the-event}
 
-確認 E メールは、「フォームの検証」イベントに反応するので、[トランザクションメッセージ](../../channels/using/about-transactional-messaging.md)になります。最初にイベントを作成し、次にトランザクションメッセージのテンプレートを作成する必要があります。
+確認 E メールは、「フォームの検証」イベントに反応するので、[トランザクションメッセージ](../../channels/using/getting-started-with-transactional-msg.md)になります。最初にイベントを作成し、次にトランザクションメッセージのテンプレートを作成する必要があります。
 
 1. Adobe Campaign のロゴからアクセスできる&#x200B;**[!UICONTROL Marketing plans]**／**[!UICONTROL Transactional messages]**／**[!UICONTROL Event configuration]**&#x200B;メニューからイベントを作成し、ラベルを「**CONFIRM**」と入力します。
 1. 「**[!UICONTROL Profile]**」ターゲティングディメンションを選択し、「**[!UICONTROL Create]**」をクリックします。
