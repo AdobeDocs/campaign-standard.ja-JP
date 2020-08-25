@@ -1,6 +1,6 @@
 ---
-title: Campaign Standardを使用した多言語プッシュ通知用のCSVファイルの生成
-description: CSVファイルをアップロードして配信用のコンテンツを生成する機能は、多言語プッシュ通知をサポートするために使用されます。
+title: Campaign Standardを含む多言語プッシュ通知用のCSVファイルの生成
+description: 配信用のコンテンツを生成するためにCSVファイルをアップロードする機能は、多言語のプッシュ通知をサポートするために使用される機能です。
 page-status-flag: never-activated
 uuid: e90f4ec8-14e3-4304-b5fc-bce0ba08a4ef
 contentOwner: sauviat
@@ -12,18 +12,21 @@ discoiquuid: 79231445-1d51-499a-adcf-0c0f6db1cfa3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c6df07dd78de6b15971937d574429d3ba5dc1a15
+source-git-commit: 772393c135b96374cb510a3d96e3c781274e857e
+workflow-type: tm+mt
+source-wordcount: '1127'
+ht-degree: 1%
 
 ---
 
 
-# 多言語プッシュ通知用のCSVファイルの生成{#generating-csv-multilingual-push}
+# 多言語プッシュ通知用の CSV ファイルの生成{#generating-csv-multilingual-push}
 
-CSVファイルをアップロードして配信用のコンテンツを生成する機能は、多言語のプッシュ通知をサポートするために使用されます。 ファイルのアップロードを成功させ、その結果配信を作成できるようにするには、CSVファイルの形式が特定のガイドラインに従っている必要があります。 以下の節では、ファイル形式とその考慮事項について説明します。
+配信用のコンテンツを生成するためにCSVファイルをアップロードする機能は、多言語のプッシュ通知をサポートするために使用される機能です。 ファイルを正常にアップロードでき、配信を作成するには、CSVファイルの形式を特定のガイドラインに従う必要があります。 次の節では、ファイル形式とその考慮事項について説明します。
 
 ## ファイルのフォーマット {#file-format}
 
-多言語プッシュには、CSVファイルに14列が必要です。
+多言語のプッシュには、CSVファイルに14列必要です。
 
 * タイトル
 * messageBody
@@ -44,35 +47,35 @@ CSVファイルをアップロードして配信用のコンテンツを生成�
 
 ウィンドウのをクリックして、CSVサンプル **[!UICONTROL Download a sample file]** を確認し **[!UICONTROL Manage Content Variants]** ます。 For more on this, refer to the this [section](../../channels/using/creating-a-multilingual-push-notification.md).
 
-* **title, messageBody, sound, badge, deeplinkURI, category, iosMediaAttachmentURL, androidMediaAttachmentURL**:通常のプッシュペイロードのコンテンツ。 この情報は、プッシュ配信を作成する場合と同じ方法で提供する必要があります。
-* **Custom Fields**: カスタムフィールドにJSON形式を使用します（例：&quot;{&quot;&quot;key1&quot;:&quot;&quot;value1&quot;&quot;,&quot;&quot;key2&quot;&quot;:&quot;&quot;value2&quot;&quot;}&quot;）。 カスタムフィールドの例については、上記のサンプルファイルを参照してください。
-* **isContentAvailable**:「使用可能なコンテンツ」チェックのフラグ、値1はtrue、値0はfalseを示します。 デフォルト値は0です。 この列を空白にすると、値は0と見なされます。
-* **isMutableContent**:可変コンテンツのフラグ、値1はtrue、値0はfalseを示します。 デフォルト値は0です。 この列を空白にすると、値は0と見なされます。
-* **locale**:localeは言語バリアントのフィールドです。例えば、US-Englishの場合は「en_us」、フランス — フランス語の場合は「fr_fr」。
+* **title, messageBody, sound, badge, deeplinkURI,カテゴリ, iosMediaAttachmentURL, androidMediaAttachmentURL**:通常のプッシュペイロードのコンテンツ。 この情報は、プッシュ配信を作成する場合と同じ方法で提供する必要があります。
+* **カスタムフィールド**: カスタムフィールドにはJSON形式を使用します。例： `{"key1":"value1","key2":"value2"}`. カスタムフィールドの例については、上記のサンプルファイルを参照してください。
+* **isContentAvailable**:フラグが「使用可能なコンテンツ」チェックに設定されている場合、値1はtrueを意味し、値0はfalseを意味します。 デフォルト値は0です。 この列を空白のままにすると、値は0と見なされます。
+* **isMutableContent**:フラグに「可変コンテンツ」と表示する場合、値1はtrueを意味し、値0はfalseを意味します。 デフォルト値は0です。 この列を空白のままにすると、値は0と見なされます。
+* **locale**:localeは、言語バリアントのフィールドです(例：US-Englishの場合は「en_us」、フランス — フランスの場合は「fr_fr」です。
 * **language**:ロケールに関連付けられている言語の名前。 例えば、ロケールが「en_us」の場合、言語の名前は「English-United States」にする必要があります。
-* **silentPush**:プッシュ通知タイプのフラグ。 通常のプッシュ通知の場合、値は0にする必要があります。 サイレントプッシュの場合、値は1にする必要があります。 デフォルト値は0です。 この列を空白にすると、値は0と見なされます。
+* **silentPush**:プッシュ通知タイプのフラグ。 通常のプッシュ通知の場合、値は0にする必要があります。 サイレントプッシュの場合、値は1にする必要があります。 デフォルト値は0です。 この列を空白のままにすると、値は0と見なされます。
 
 ## CSVファイル作成の制約とガイドライン {#constraints-guideline-csv}
 
-**各列の名前は固定されます**。
+**各列の名前は固定されています**。
 CSVファイルに各列の名前を含める必要があります。コンテンツに列を使用しない場合は、空白のままにします。
 
 **「locale」列と「language」列は必須で、値は各行で一意です。**
 この列に空白の値を指定すると、ファイルのアップロードに失敗します。
 
-**列の順序は重要です**。 アップロードされたファイルの列の順序は、サンプルファイルと同じ形式に従う必要があります。
+**列の順序は重要です**。 アップロードされたファイル内の列の順序は、サンプルファイルと同じ形式に従う必要があります。
 
-**列の内容を引用**。 これはCSV（コンマ区切り値）ファイルなので、コンマ(,)を含む列のコンテンツはすべて引用符で囲む必要があります。 例えば、「Hello, Tom!」と入力します。
+**見積もり列の内容**。 これはCSV（コンマ区切り値）ファイルなので、コンマ(,)を含む列のコンテンツは引用符で囲む必要があります。 例えば、「Hello, Tom!」と入力します。
 
 **国際文字にはUTF-8エンコードが必要です。**
 
 **プレーンテキストでファイルを生成する場合は、各列を「,」で区切ります。**
 
-**バリアントの不一致** 特定の言語のコンテンツブロックとターゲットオーディエンスを使用する場合は、CSVファイルにターゲット言語をすべてリストする必要があります。リストしないと、配信の送信時にエラーが発生します。
+**バリアントの不一致** 特定の言語のコンテンツブロックおよびターゲットオーディエンスを使用する場合は、CSVファイルでターゲット言語をすべてリストする必要があります。すべての言語をしないと、配信を送信する際にエラーが発生します。
 
 ## CSVファイルへのパーソナライゼーションフィールドの挿入 {#personalization-field-csv}
 
-パーソナライゼーションフィールドを使用する場合は、ファイルにタ <span> グを含める必要があります。
+パーソナライゼーションフィールドを使用する場合は、ファイルに <span> タグを含める必要があります。
 
 「firstName」パーソナライゼーションフィールドをmessageBodyに挿入するには、次のメッセージが必要です。
 
@@ -80,17 +83,17 @@ CSVファイルに各列の名前を含める必要があります。コンテ�
  "Hello <span class="nl-dce-field nl-dce-done"  data-nl-expr="/context/profile/firstName">First name</span>, this is message".
 ```
 
-「firstName」フィールドは、次のように表されます。
+「firstName」フィールドは、次の式で表されます。
 
 ```
  <span class="nl-dce-field nl-dce-done" data-nl-expr="/context/profile/firstName">First name</span>
 ```
 
-スパンには、次の2つの必須属性があります。
+スパンには、2つの必須属性があります。
 
-* 一つは静的なクラスです。 どのパーソナライゼーションフィールドを使用する場合でも、常にclass=&quot;nl-dce-field nl-dce-done&quot;になります。
+* 1つは静的なクラスです。 どのパーソナライゼーションフィールドを使用する場合でも、常にclass=&quot;nl-dce-field nl-dce-done&quot;になります。
 
-* もう1つはdata-nl-exprで、これはパーソナライゼーションフィールドのパスです。 例えば、UIから「firstName」パーソナライゼーションフィールドを挿入すると、ナビゲーションパスは> > **[!UICONTROL Context (context)]** >と **[!UICONTROL Profile (profile)]****[!UICONTROL First name (firstName)]** なります（下の画像を参照）。 この場合、パスは
+* もう1つはdata-nl-exprで、これはパーソナライゼーションフィールドのパスです。 例えば、UIから「firstName」パーソナライゼーションフィールドを挿入した場合、ナビゲーションパスは **[!UICONTROL Context (context)]** > **[!UICONTROL Profile (profile)]** > **[!UICONTROL First name (firstName)]** になります（下の画像を参照）。 この場合、パスは
 
    ```
    /context/profile/firstName. data-nl-expr="/context/profile/firstName".
@@ -129,7 +132,7 @@ CSVファイルに各列の名前を含める必要があります。コンテ�
 | ca_es | カタルーニャ語 — スペイン |
 | zh_cn | 中国語（簡体字） — 中国 |
 | zh_sg | 中国語（簡体字） — シンガポール |
-| zh_hk | 中国語（繁体字） — 中国香港特別行政区 |
+| zh_hk | 中国語（繁体字） — 香港、中国 |
 | zh_tw | 中国語（繁体字） — 台湾地域 |
 | hr_hr | クロアチア語 — クロアチア |
 | cs_cz | チェコ語 — チェコ |
@@ -142,7 +145,7 @@ CSVファイルに各列の名前を含める必要があります。コンテ�
 | en_in | 英語 — インド |
 | en_ie | 英語 — アイルランド |
 | en_jm | 英語 — ジャマイカ |
-| en_nz | 英語 — ニュージーランド |
+| fr_nz | 英語 — ニュージーランド |
 | en_ph | 英語 — フィリピン |
 | en_za | 英語 — 南アフリカ |
 | en_tt | 英語 — トリニダード・トバゴ |
@@ -154,15 +157,15 @@ CSVファイルに各列の名前を含める必要があります。コンテ�
 | fr_be | フランス語 — ベルギー |
 | fr_ca | フランス語 — カナダ |
 | fr_fr | フランス語 — フランス |
-| fr_lu | フランス語 — ルクセンブルク |
+| dr_lu | フランス語 — ルクセンブルク |
 | fr_ch | フランス語 — スイス |
-| de_at | ドイツ語 — オーストリア |
+| ニア | ドイツ語 — オーストリア |
 | de_de | ドイツ語 — ドイツ |
-| de_lu | ドイツ語 — ルクセンブルグ |
+| de_lu | ドイツ語 — ルクセンブルク |
 | de_ch | ドイツ語 — スイス |
 | el_cy | ギリシャ語 — キプロス |
 | el_gr | ギリシャ語 — ギリシャ |
-| gu_in | グジャラティ — インド |
+| gu_in | グジャラーティ — インド |
 | he_il | ヘブライ語 — イスラエル |
 | hi_in | ヒンディー語 — インド |
 | hu_hu | ハンガリー語 — ハンガリー |
@@ -178,12 +181,12 @@ CSVファイルに各列の名前を含める必要があります。コンテ�
 | lt_lt | リトアニア語 — リトアニア |
 | mk_mk | マケドニア語 — マケドニア |
 | ms_my | マレー語 — マレーシア |
-| mr_in | マラーティ語 — インド |
+| mr_in | マラーティ — インド |
 | no_no | ノルウェー語 — ノルウェー |
 | pl_pl | ポーランド語 — ポーランド |
 | pt_br | ポルトガル語 — ブラジル |
 | pt_pt | ポルトガル語 — ポルトガル |
-| pa_in | パンジャビ語 — インド |
+| pa_in | パンジャビ — インド |
 | ro_md | ルーマニア語 — モルドバ |
 | ro_ro | ルーマニア語 — ルーマニア |
 | ru_kz | ロシア語 — カザフスタン |
@@ -217,7 +220,7 @@ CSVファイルに各列の名前を含める必要があります。コンテ�
 | sv_fi | スウェーデン語 — フィンランド |
 | sv_se | スウェーデン語 — スウェーデン |
 | ta_in | タミル語 — インド |
-| tt_ru | タタール語 — ロシア語 |
+| tt_ru | タタール — ロシア語 |
 | te_in | テルグ語 — インド |
 | th_th | タイ語 — タイ |
 | tr_cy | トルコ語 — キプロス |
