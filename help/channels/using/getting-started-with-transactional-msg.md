@@ -13,7 +13,7 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f85da747cc4e6226172d2ccda452aadb131daa99
+source-git-commit: 284b177ef6d687cafaf92c50aa2050b8109ac30d
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 28%
@@ -25,13 +25,10 @@ ht-degree: 28%
 
 ## 概要
 
-<table>
-<tr>
-<td class="noborder"><img src="assets/do-not-localize/icon_transactional.svg" width="60px"></td>
-<td class="noborder"><p>トランザクションメッセージングを使用すると、個別のメッセージや個別のメッセージを <b></b> 、顧客にリアルタイムで送信できます。</p></td>
-<td class="noborder"><p>ウェルカムメッセージ、発送確認書、パスワードの変更などがあります。</p></td>
-</tr>
-</table>
+
+<img src="assets/do-not-localize/icon_transactional.svg" width="60px">
+
+トランザクションメッセージングを使用すると、個別のメッセージや個別のメッセージを <b></b> 、顧客にリアルタイムで送信できます。 ウェルカムメッセージ、発送確認書、パスワードの変更などがあります。
 
 Adobe Campaignを使用すると、この機能を、カスタムトランザクションメッセージに変換するイベントを送信する情報システムに統合できます。
 
@@ -51,26 +48,22 @@ Adobe Campaignを使用すると、この機能を、カスタムトランザク
 
 <table>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_concepts.svg" width="60px"></td>
-<td align="center"><br><p><b>トランザクションメッセージとは</b></p></td>
+<td align="center"><img src="assets/do-not-localize/icon_concepts.svg" width="60px"><br><p><b>トランザクションメッセージとは</b></p></td>
 <td><p>これは、Webサイトなどのプロバイダーから送信される個別で固有の通信です。</p></td>
 <td><p>受信者が確認または確認したい重要な情報が含まれているので、特に期待されます。</p></td>
 </tr>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_channels.svg" width="60px"></td>
-<td align="center"><p><b>いつになる？</b></p></td>
+<td align="center"><img src="assets/do-not-localize/icon_channels.svg" width="60px"><br><p><b>いつになる？</b></p></td>
 <td><p> このメッセージには重要な情報が含まれているので、ユーザーはこの情報がリアルタイムで送信されることを期待しています。</p></td>
 <td><p>したがって、トリガーされるイベントとメッセージの到着との間の遅延は非常に短くなる必要があります。</p></td>
 </tr>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_important.svg" width="60px"></td>
-<td align="center"><p><b>なぜ重要なのか？</b></p></td>
+<td align="center"><img src="assets/do-not-localize/icon_important.svg" width="60px"><br><p><b>なぜ重要なのか？</b></p></td>
 <td><p>一般的に、トランザクションメッセージの開放率は高い。 そのため、注意深く設計する必要があります。</p></td>
 <td><p>実際、顧客の関係を定義するので、顧客の行動に強い影響を与える可能性があります。</p></td>
 </tr>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_example.svg" width="60px"></td>
-<td align="center"><b>例えば？</b></td>
+<td align="center"><img src="assets/do-not-localize/icon_example.svg" width="60px"><br><b>例えば？</b></td>
 <td><p>アカウント作成後のお知らせメッセージ、注文の発送確認、請求書などが表示される場合があります。</p></td>
 <td><p>また、パスワードの変更を確認するメッセージや、顧客がWebサイトを閲覧した後の通知を指定することもできます。</p></td>
 </tr>
@@ -84,21 +77,16 @@ Adobe Campaign では、2 つのトランザクションメッセージを使用
 
 <table>
 <tr>
-<td align="center"><a href="../../channels/using/event-transactional-messages.md">イベントトランザクション</a><br>メッセージで、 <b>イベントをターゲット化します</b>。</td>
-<td align="center"><img src="assets/do-not-localize/icon_event.svg" width="60px"></td>
+<td align="center"><img src="assets/do-not-localize/icon_event.svg" width="60px"><br><a href="../../channels/using/event-transactional-messages.md">イベントトランザクション</a><br>メッセージで、 <b>イベントをターゲット化します</b>。</td>
 <td><p><ul><li>プロファイル情報は含まれません。</li><li>これらは <a href="../../sending/using/fatigue-rules.md">疲労ルールとは互換性がありません</a> (プロファイルとのエンリッチメントの場合でも)。</li><li>配信ターゲットは、イベント自体に含まれるデータによって定義されます。</li></ul></p></td>
+</tr>
+<tr>
+<td align="center"><img src="assets/do-not-localize/icon_profile.svg" width="60px"><br><a href="../../channels/using/profile-transactional-messages.md">プロファイルのトランザクション</a><br>メッセージのターゲット設定プロファイルをAdobe Campaignのマーケティングデータベース <b></b>から取得します。</td>
+<td><p>プロファイルトランザクションメッセージを使用すると、次のことができます。<ul><li>ブロックリスト上の <b>住所や</b> 疲労ルールなどのマーケティングタイポロジルールを適用します <a href="../../sending/using/fatigue-rules.md"></a>。</li><li>メッセージ内に購読解除リンクを含める。</li><li>グローバル配信レポートにトランザクションメッセージを追加する。</li><li>カスタマージャーニーでトランザクションメッセージを活用する。</li></ul></p></td>
 </tr>
 </table>
 
 <!--[Profile transactional messages](../../channels/using/profile-transactional-messages.md) targeting **profiles from the Adobe Campaign marketing database**. You can use information from the Adobe Campaign database to send a transactional message based on customer marketing profiles.-->
-
-<table>
-<tr>
-<td align="center"><a href="../../channels/using/profile-transactional-messages.md">プロファイルのトランザクション</a><br>メッセージのターゲット設定プロファイルをAdobe Campaignのマーケティングデータベース <b></b>から取得します。</td>
-<td align="center"><img src="assets/do-not-localize/icon_profile.svg" width="60px"></td>
-<td><p>プロファイルトランザクションメッセージを使用すると、次のことができます。<ul><li>ブロックリスト上の <b>住所や</b> 疲労ルールなどのマーケティングタイポロジルールを適用します <a href="../../sending/using/fatigue-rules.md"></a>。</li><li>メッセージ内に購読解除リンクを含める。</li><li>グローバル配信レポートにトランザクションメッセージを追加する。</li><li>カスタマージャーニーでトランザクションメッセージを活用する。</li></ul></p></td>
-</tr>
-</table>
 
 メッセージタイプは、トランザクションメッセージに変換されるイベントを設定する際に定義されます。[トランザクションメッセージの設定](../../administration/using/configuring-transactional-messaging.md)を参照してください。
 
@@ -148,7 +136,7 @@ RESTトランザクションメッセージAPIを使用して、イベントをW
 
 <!--Once all of these steps have been carried out, the message can be delivered:-->
 
-<img src="assets/do-not-localize/icon_notification.svg" width="60px">
+<img src="assets/do-not-localize/icon_notification.svg" width="40px">
 
 ユーザーが買い物かごに商品を注文せずにサイトを離れるとすぐに、通知電子メールを自動的に受信します。
 
