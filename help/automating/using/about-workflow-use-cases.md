@@ -12,17 +12,17 @@ discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 314321c42094b945eba95540375eeeabacb84e64
+source-git-commit: 1043f69841a5a4ddaecc37289c9cfb1c1b5f7f34
 workflow-type: tm+mt
 source-wordcount: '238'
-ht-degree: 36%
+ht-degree: 41%
 
 ---
 
 
 # ワークフローのユースケースについて {#about-workflow-use-cases}
 
-キャンペーンワークフロー機能を活用するさまざまな使用例については、で説明します。
+この節では、Campaign ワークフロー機能を活用する様々なユースケースを示します。
 
 ワークフローを使用できる様々なコンテキストを見つけ、ニーズに応えるのに役立ちます。
 
