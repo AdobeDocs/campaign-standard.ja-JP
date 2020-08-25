@@ -12,7 +12,7 @@ discoiquuid: dcb90afc-42c3-419e-8345-79cddf969e41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 94%
@@ -29,7 +29,7 @@ ht-degree: 94%
 * グローバル配信レポートにトランザクションメッセージを追加する。
 * カスタマージャーニーでトランザクションメッセージを活用する。
 
-イベントを作成して公開すると（上の[例](../../channels/using/about-transactional-messaging.md#transactional-messaging-operating-principle)では買い物かごが放棄された場合）、対応するトランザクションメッセージが自動的に作成されます。
+イベントを作成して公開すると（上の[例](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle)では買い物かごが放棄された場合）、対応するトランザクションメッセージが自動的に作成されます。
 
 設定手順については、[プロファイルトランザクションメッセージを送信するためのイベントの設定](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message)の節を参照してください。
 
