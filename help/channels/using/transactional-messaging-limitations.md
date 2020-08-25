@@ -13,7 +13,7 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0b6607afe05e762c87a95fd88bda0196baa57f1e
+source-git-commit: 6c768132a297d324f6aec87c215222b3587091c6
 workflow-type: tm+mt
 source-wordcount: '640'
 ht-degree: 87%
@@ -23,16 +23,13 @@ ht-degree: 87%
 
 # トランザクションメッセージの制限 {#transactional-messaging-limitations}
 
-<table>
-<tr>
-<td><img src="assets/do-not-localize/icon_concepts.svg" width="60px"></td>
-<td><p>以下の節では、トランザクションメッセージを作成する前に考慮すべき制限事項についてリストします。</p></td>
-</tr>
-</table>
+<img src="assets/do-not-localize/icon_concepts.svg" width="60px">
+
+以下の節では、トランザクションメッセージを作成する前に考慮すべき制限事項についてリストします。
 
 トランザクションメッセージの設定方法や作成方法など、詳しくは、トランザクションメッセージの使用の手引きを参照して [ください](../../channels/using/getting-started-with-transactional-msg.md)。
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >トランザクションメッセージにアクセスするには、管理者権限が必要です。
 
