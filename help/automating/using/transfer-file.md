@@ -41,7 +41,7 @@ ht-degree: 99%
 
 **関連トピック：**
 
-* [使用例： ファイルの自動ダウンロードに基づくデータの更新](../../automating/using/update-data-automatic-download.md)
+* [使用例：ファイルの自動ダウンロードに基づくデータの更新](../../automating/using/update-data-automatic-download.md)
 
 ## 設定 {#configuration}
 
