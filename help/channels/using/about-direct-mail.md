@@ -43,7 +43,7 @@ Adobe Campaign のユーザープロセスは次のとおりです。
 
 **関連トピック：**
 
-* [使用例： 電子メールとダイレクトメールの配信の結合](../../automating/using/coupling-email-direct-mail.md)
+* [使用例：電子メールとダイレクトメールの配信の結合](../../automating/using/coupling-email-direct-mail.md)
 
 ## 推奨事項 {#recommendations}
 
