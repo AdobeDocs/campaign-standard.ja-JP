@@ -51,9 +51,9 @@ ht-degree: 95%
 
 **関連トピック：**
 
-* [使用例： 関係を使用したデータ調整](../../automating/using/reconciliation-using-relations.md)
-* [使用例： 調整を使用したデータ更新](../../automating/using/data-update-reconciliation.md)
-* [使用例： ファイルオーディエンスとデータベースとの調整](../../automating/using/reconcile-file-audience-with-database.md)
+* [使用例：関係を使用したデータ調整](../../automating/using/reconciliation-using-relations.md)
+* [使用例：調整を使用したデータ更新](../../automating/using/data-update-reconciliation.md)
+* [使用例：ファイルオーディエンスとデータベースとの調整](../../automating/using/reconcile-file-audience-with-database.md)
 
 ## 設定 {#configuration}
 
