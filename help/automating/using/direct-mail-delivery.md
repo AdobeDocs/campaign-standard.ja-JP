@@ -47,7 +47,7 @@ ht-degree: 99%
 
 **関連トピック：**
 
-* [使用例： 電子メールとダイレクトメールの配信の結合](../../automating/using/coupling-email-direct-mail.md)
+* [使用例：電子メールとダイレクトメールの配信の結合](../../automating/using/coupling-email-direct-mail.md)
 * [ダイレクトメールについて](../../channels/using/about-direct-mail.md)
 
 ## 設定 {#configuration}
