@@ -41,8 +41,8 @@ ht-degree: 97%
 
 **関連トピック：**
 
-* [使用例： プロファイルの作成日に対する配信の作成](../../automating/using/workflow-creation-date-query.md)
-* [使用例： 毎週火曜日に電子メール配信を作成する](../../automating/using/workflow-weekly-offer.md)
+* [使用例：プロファイルの作成日に対する配信の作成](../../automating/using/workflow-creation-date-query.md)
+* [使用例：毎週火曜日に電子メール配信を作成する](../../automating/using/workflow-weekly-offer.md)
 
 ## 設定 {#configuration}
 
