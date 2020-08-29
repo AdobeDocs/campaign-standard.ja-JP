@@ -41,8 +41,8 @@ ht-degree: 97%
 
 **関連トピック**
 
-* [使用例： 配信前の重複の識別](../../automating/using/identifying-duplicated-before-delivery.md)
-* [使用例： 読み込んだファイルからのデータの重複を除外する](../../automating/using/deduplicating-data-imported-file.md)
+* [使用例：配信前の重複の識別](../../automating/using/identifying-duplicated-before-delivery.md)
+* [使用例：読み込んだファイルからのデータの重複を除外する](../../automating/using/deduplicating-data-imported-file.md)
 
 ## 設定 {#configuration}
 
