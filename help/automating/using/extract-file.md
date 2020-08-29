@@ -39,7 +39,7 @@ ht-degree: 91%
 
 **関連トピック：**
 
-* [使用例： 外部ファイル内のプロファイルの書き出し](../../automating/using/exporting-profiles-in-file.md)
+* [使用例：外部ファイル内のプロファイルの書き出し](../../automating/using/exporting-profiles-in-file.md)
 
 ## 設定 {#configuration}
 
