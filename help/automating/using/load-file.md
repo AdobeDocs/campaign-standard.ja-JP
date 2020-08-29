@@ -48,10 +48,10 @@ ht-degree: 93%
 
 **関連トピック：**
 
-* [使用例： 外部データを使用したデータベースの更新](../../automating/using/update-database-file.md)
-* [使用例： ファイルの自動ダウンロードに基づくデータの更新](../../automating/using/update-data-automatic-download.md)
-* [使用例： 強化されたフィールドを含む電子メールの送信](../../automating/using/sending-email-enriched-fields.md)
-* [使用例： ファイルオーディエンスとデータベースとの調整](../../automating/using/reconcile-file-audience-with-database.md)
+* [使用例：外部データを使用したデータベースの更新](../../automating/using/update-database-file.md)
+* [使用例：ファイルの自動ダウンロードに基づくデータの更新](../../automating/using/update-data-automatic-download.md)
+* [使用例：強化されたフィールドを含む電子メールの送信](../../automating/using/sending-email-enriched-fields.md)
+* [使用例：ファイルオーディエンスとデータベースとの調整](../../automating/using/reconcile-file-audience-with-database.md)
 
 ## 設定 {#configuration}
 
