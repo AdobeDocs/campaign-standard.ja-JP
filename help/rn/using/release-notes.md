@@ -73,8 +73,8 @@ ht-degree: 90%
 
 **その他の機能** （7月13日より開始）
 
-* **AIを利用した送信時間の最適化とプロファイルスコアリング** — お客様のジャーニーの設計と配信を最適化して、個々の関与の優先度を予測できるようになりました。 Adobe Campaignは、遍歴AIを基にして、過去の関与指標に基づいて、オープン率、最適な送信時間および確率変化を分析し、予測できます。 [さらに詳しく](../../sending/using/predictive.md)
-* **ブラジルの新しいプライバシー規制** -キャンペーンで既に提供されているプライバシー機能に加え、AdobeはブラジルのLei Geral de Proteçao de Datos (LGPD)に対する準備を促進します。 プライバシーの要請を作成する際、LGPD規則がAdobeプライバシーコアサービスに追加されました。 [さらに詳しく](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy-overview.html)
+* **AIを利用した送信時間の最適化とプロファイルスコアリング** — お客様のジャーニーの設計と配信を最適化して、個々の関与の優先度を予測できるようになりました。 Adobe Campaignは、遍歴AIを基にして、過去の関与指標に基づいて、オープン率、最適な送信時間および確率変化を分析し、予測できます。 [詳細情報](../../sending/using/predictive.md)
+* **ブラジルの新しいプライバシー規制** -キャンペーンで既に提供されているプライバシー機能に加え、AdobeはブラジルのLei Geral de Proteçao de Datos (LGPD)に対する準備を促進します。 プライバシーの要請を作成する際、LGPD規則がAdobeプライバシーコアサービスに追加されました。 [詳細情報](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy-overview.html)
 
 **強化点**
 
