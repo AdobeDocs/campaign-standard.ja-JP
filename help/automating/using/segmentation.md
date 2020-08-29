@@ -34,9 +34,9 @@ ht-degree: 94%
 >デフォルトでは、インバウンド母集団のメンバーは 1 つのセグメントにのみ属することができます。フィルターは、アクティビティのセグメントの順序に従って適用されます。
 
 **関連トピック：**
-* [使用例： 場所のセグメント化](../../automating/using/workflow-segmentation-location.md)
-* [使用例： コントロール母集団の作成](../../automating/using/workflow-control-group.md)
-* [使用例： 年齢層別の分類](../../automating/using/segmentation-age-groups.md)
+* [使用例：場所のセグメント化](../../automating/using/workflow-segmentation-location.md)
+* [使用例：コントロール母集団の作成](../../automating/using/workflow-control-group.md)
+* [使用例：年齢層別の分類](../../automating/using/segmentation-age-groups.md)
 
 ## 使用状況 {#context-of-use}
 
@@ -44,7 +44,7 @@ ht-degree: 94%
 
 **関連トピック**
 
-* [使用例： プロファイルを年齢層に応じてセグメント化する](../../automating/using/segmentation-age-groups.md)。
+* [使用例：プロファイルを年齢層に応じてセグメント化する](../../automating/using/segmentation-age-groups.md)。
 
 ## 設定 {#configuration}
 
