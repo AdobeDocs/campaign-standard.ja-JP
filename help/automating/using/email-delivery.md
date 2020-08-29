@@ -51,7 +51,7 @@ E メール受信者は、「クエリ」や「積集合」などのターゲテ
 * [ユースケース：ロケーション別にセグメント化した配信の作成](../../automating/using/workflow-segmentation-location.md)
 * [ユースケース：補集合を使用した配信の作成](../../automating/using/workflow-created-query-with-complement.md)
 * [ユースケース：メールを開封していないユーザーに新しい配信を送信する再ターゲティングワークフロー](../../automating/using/workflow-cross-channel-retargeting.md)
-* [使用例： 誕生日配信](../../automating/using/birthday-delivery.md)
+* [使用例：誕生日配信](../../automating/using/birthday-delivery.md)
 
 ## 設定 {#configuration}
 
