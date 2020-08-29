@@ -35,8 +35,8 @@ ht-degree: 92%
 
 **関連トピック**
 
-* [使用例： 2つの洗練されたオーディエンスの和集合](../../automating/using/union-on-two-refined-audiences.md)
-* [使用例： ファイルオーディエンスとデータベースとの調整](../../automating/using/reconcile-file-audience-with-database.md)
+* [使用例：2つの洗練されたオーディエンスの和集合](../../automating/using/union-on-two-refined-audiences.md)
+* [使用例：ファイルオーディエンスとデータベースとの調整](../../automating/using/reconcile-file-audience-with-database.md)
 
 ## 設定 {#configuration}
 
