@@ -39,8 +39,8 @@ ht-degree: 96%
 
 **関連トピック**
 
-* [使用例： プロファイルデータをファイルに含まれるデータで富化します](../../automating/using/enriching-profile-data-file.md)。
-* [使用例： 強化されたフィールドを含む電子メールの送信](../../automating/using/sending-email-enriched-fields.md)
+* [使用例：プロファイルデータをファイルに含まれるデータで富化します](../../automating/using/enriching-profile-data-file.md)。
+* [使用例：強化されたフィールドを含む電子メールの送信](../../automating/using/sending-email-enriched-fields.md)
 
 ## 設定 {#configuration}
 
