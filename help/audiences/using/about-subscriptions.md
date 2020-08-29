@@ -36,6 +36,6 @@ Adobe Campaign では、一連の&#x200B;**サービス**&#x200B;を通じて、
 
 **関連トピック**
 
-* [使用例： サービスの購読者の増分処理クエリ](../../automating/using/incremental-query-on-subscribers.md)
-* [使用例： ファイルからの複数の購読ステータスの更新](../../automating/using/updating-subscriptions-from-file.md)
+* [使用例：サービスの購読者の増分処理クエリ](../../automating/using/incremental-query-on-subscribers.md)
+* [使用例：ファイルからの複数の購読ステータスの更新](../../automating/using/updating-subscriptions-from-file.md)
 * [ファイルの読み込み後に特定のサービスにプロファイルを登録する](../../automating/using/subscribing-profiles-from-file.md)
