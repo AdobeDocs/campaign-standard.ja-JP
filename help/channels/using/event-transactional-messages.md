@@ -13,10 +13,10 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: fe9b2156a80f973045a2a7860dac4ac3a1d899e7
+source-git-commit: e8f8755acdc0b778b74e2bfcd4dc898ceff82b90
 workflow-type: tm+mt
-source-wordcount: '2478'
-ht-degree: 100%
+source-wordcount: '2492'
+ht-degree: 93%
 
 ---
 
@@ -29,58 +29,26 @@ ht-degree: 100%
 
 設定手順は、[トランザクションメッセージを送信するためのイベントの設定](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message)の節に記載されています。
 
-イベントがトランザクションメッセージの送信をトリガーするには、メッセージをパーソナライズし、テストして公開する必要があります。
-
 >[!NOTE]
->
->トランザクションメッセージにアクセスするには、**[!UICONTROL Administrators (all units)]**&#x200B;セキュリティグループに属している必要があります。
 >
 >イベントトランザクションメッセージにはプロファイル情報が含まれないので、（プロファイルとのエンリッチメントの場合でも）疲労ルールとの互換性はありません。[疲労ルール](../../sending/using/fatigue-rules.md#choosing-the-channel)を参照してください。
 
-## トランザクションメッセージでのテストプロファイルの定義{#defining-a-test-profile-in-a-transactional-message}
+イベントがトランザクションメッセージの送信をトリガーするには、メッセージをパーソナライズし、テストして公開する必要があります。
 
-メッセージをプレビューし、配達確認を送信して確認できる、適応したテストプロファイルを定義します。
+## トランザクションメッセージへのアクセス {#accessing-transactional-messages}
 
-### トランザクションメッセージ内でのテストプロファイルの作成{#creating-a-test-profile-within-the-transactional-----------message}
+作成したトランザクションメッセージにアクセスするには：
 
-1. 作成したメッセージにアクセスするには、**[!UICONTROL Adobe Campaign]** ロゴをクリックし、左上隅にある **[!UICONTROL Marketing plans]**／**[!UICONTROL Transactional messages]**／**[!UICONTROL Transactional messages]** を選択します。
+1. Click the **[!UICONTROL Adobe Campaign]** logo, in the top left corner.
+1. Select **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**.
 
    ![](assets/message-center_4.png)
 
-1. イベントにリンクするテストプロファイルを作成します。
+1. 編集するには、選択したメッセージをクリックします。
 
-   ![](assets/message-center_test-profile.png)
-
-1. JSON 形式で送信する情報を「**[!UICONTROL Event data used for personalization]**」セクションに指定します。これは、メッセージをプレビューするとき、およびテストプロファイルが配達確認を受け取るときに使用されるコンテンツです。
-
-   ![](assets/message-center_event-data.png)
-
-   >[!NOTE]
-   >
-   >プロファイルテーブルに関連する情報を入力することもできます。詳しくは、[トランザクションメッセージコンテンツのエンリッチメント](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content)を参照してください。
-
-1. 作成後、テストプロファイルはトランザクションメッセージで事前に指定されます。配達確認のターゲットを確認するには、メッセージの「**[!UICONTROL Test profiles]**」ブロックをクリックします。
-
-   ![](assets/message-center_5.png)
-
-### トランザクションメッセージ外でのテストプロファイルの作成{#creating-a-test-profile-outside-the-transactional-----------message}
-
-新規テストプロファイルを作成するか、既に「**[!UICONTROL Test profiles]**」メニューにあるテストを使用することもできます。
-
-1. 左上隅の **[!UICONTROL Adobe Campaign]** ロゴをクリックし、**[!UICONTROL Profiles & audiences]**／**[!UICONTROL Test profiles]** を選択します。
-1. 選択したテストプロファイルのページの「**[!UICONTROL Event]**」セクションで、先ほど作成したイベントを選択します。この例では、「買い物かごの放棄（EVTcartAbandant）」を選択します。
-1. JSON 形式で送信する情報を「**[!UICONTROL Event data]**」テキストボックスに指定します。
-
-   ![](assets/message-center_3.png)
-
-1. 変更を保存します。
-
-これで、作成したメッセージにアクセスし、更新されたテストプロファイルを選択できます。
-
-**関連トピック：**
-
-* [テストプロファイルの管理](../../audiences/using/managing-test-profiles.md)
-* [オーディエンスの定義](../../audiences/using/creating-audiences.md)
+>[!IMPORTANT]
+>
+>トランザクションメッセージにアクセスするには、**[!UICONTROL Administrators (all units)]**&#x200B;セキュリティグループに属している必要があります。
 
 ## トランザクションメッセージのパーソナライズ機能{#personalizing-a-transactional-message}
 
@@ -240,7 +208,47 @@ ht-degree: 100%
 
 ## トランザクションメッセージのテスト{#testing-a-transactional-message}
 
-トランザクションメッセージを保存すると、配達確認を送信してテストできるようになります。
+まず、トランザクションメッセージを正しく確認できる特定のテストプロファイルを作成する必要があります。
+
+### 特定のテストプロファイルの定義 {#defining-specific-test-profile}
+
+メッセージをプレビューし、関連配達確認を送信できるように、イベントにリンクするテストプロファイルを定義します。
+
+1. From the transactional message dashboard, click the **[!UICONTROL Create test profile]** button.
+
+   ![](assets/message-center_test-profile.png)
+
+1. JSON 形式で送信する情報を「**[!UICONTROL Event data used for personalization]**」セクションに指定します。これは、メッセージをプレビューするとき、およびテストプロファイルが配達確認を受け取るときに使用されるコンテンツです。
+
+   ![](assets/message-center_event-data.png)
+
+   >[!NOTE]
+   >
+   >プロファイルテーブルに関連する情報を入力することもできます。詳しくは、[トランザクションメッセージコンテンツのエンリッチメント](../../administration/using/configuring-transactional-messaging.md#enriching-the-transactional-message-content)を参照してください。
+
+1. 作成したテストプロファイルは、トランザクションメッセージで事前に指定されます。 配達確認のターゲットを確認するには、メッセージの「**[!UICONTROL Test profiles]**」ブロックをクリックします。
+
+   ![](assets/message-center_5.png)
+
+新規テストプロファイルを作成するか、既に「**[!UICONTROL Test profiles]**」メニューにあるテストを使用することもできます。手順は次のとおりです。
+
+1. 左上隅の **[!UICONTROL Adobe Campaign]** ロゴをクリックし、**[!UICONTROL Profiles & audiences]**／**[!UICONTROL Test profiles]** を選択します。
+1. セクションで、先ほど作成したイベントを選択し **[!UICONTROL Event]** ます。 この例では、「買い物かごの放棄（EVTcartAbandant）」を選択します。
+1. JSON 形式で送信する情報を「**[!UICONTROL Event data]**」テキストボックスに指定します。
+
+   ![](assets/message-center_3.png)
+
+1. 変更を保存します。
+1. 作成したメッセージにアクセスし、更新したテストプロファイルを選択します。
+
+**関連トピック：**
+
+* [テストプロファイルの管理](../../audiences/using/managing-test-profiles.md)
+* [オーディエンスの定義](../../audiences/using/creating-audiences.md)
+
+### 配達確認の送信 {#sending-proof}
+
+1つ以上の特定のテストプロファイルを作成し、トランザクションメッセージを保存したら、配達確認を送信してテストできます。
 
 ![](assets/message-center_10.png)
 
@@ -258,7 +266,7 @@ ht-degree: 100%
 
 ![](assets/message-center_13.png)
 
-## トランザクションメッセージ公開の一時停止{#suspending-a-transactional-message-publication}
+### トランザクションメッセージ公開の一時停止{#suspending-a-transactional-message-publication}
 
 トランザクションメッセージに含まれるデータを変更する場合など、「**[!UICONTROL Pause]**」ボタンを使用してメッセージの公開を中止できます。したがって、イベントは処理されず、Adobe Campaign データベースのキューに保持されます。
 
@@ -268,7 +276,7 @@ ht-degree: 100%
 
 「**[!UICONTROL Resume]**」をクリックすると、キューに格納されているすべてのイベント（期限切れでない場合）が処理されます。テンプレートのパブリケーションが停止されている間に実行されたすべての変更が含まれています。
 
-## トランザクションメッセージの非公開{#unpublishing-a-transactional-message}
+### トランザクションメッセージの非公開{#unpublishing-a-transactional-message}
 
 「**[!UICONTROL Unpublish]**」をクリックすると、トランザクションメッセージの公開をキャンセルするだけでなく、対応するイベントの公開もキャンセルします。これにより、REST API から、以前に作成したイベントに対応するリソースが削除されます。
 
@@ -286,7 +294,7 @@ ht-degree: 100%
 
 毎日午前 4 時に実行される「**[!UICONTROL Database cleanup]**」ワークフローは、**[!UICONTROL Administration]**／**[!UICONTROL Application settings]**／**[!UICONTROL Workflows]** からアクセスできます。
 
-## トランザクションメッセージの削除{#deleting-a-transactional-message}
+### トランザクションメッセージの削除{#deleting-a-transactional-message}
 
 トランザクションメッセージが非公開になっている場合、またはトランザクションメッセージがまだ公開されていない場合は、トランザクションメッセージリストから削除できます。手順は次のとおりです。
 
@@ -333,9 +341,9 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->イベントが実行配信に割り当てられると、そのイベントはこの実行配信の送信ログに今回のみ表示されます。失敗した配信は、トランザクションメッセージの「**[!UICONTROL Execution list]**」タブに表示されます。
+>イベントが実行配信に割り当てられると、そのイベントはこの実行配信の送信ログに今回のみ表示されます。The failed deliveries are displayed in the **[!UICONTROL Execution list]** tab of the transactional message sending logs.
 
-### 制限事項{#limitations}
+### 再試行プロセスの制限 {#limitations}
 
 **ログの更新を送信中**
 
