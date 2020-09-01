@@ -13,9 +13,9 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 434be1d237e1ce5bd47552d371d2df4670e82f44
+source-git-commit: 429142610b969f3bd1460a8ba401c7e83acb7dea
 workflow-type: tm+mt
-source-wordcount: '729'
+source-wordcount: '753'
 ht-degree: 28%
 
 ---
@@ -81,7 +81,7 @@ Adobe Campaign では、2 つのトランザクションメッセージを使用
 <td><p><ul><li>プロファイル情報は含まれません。</li><li>これらは <a href="../../sending/using/fatigue-rules.md">疲労ルールとは互換性がありません</a> (プロファイルとのエンリッチメントの場合でも)。</li><li>配信ターゲットは、イベント自体に含まれるデータによって定義されます。</li></ul></p></td>
 </tr>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_profile.svg" width="60px"><br><a href="../../channels/using/profile-transactional-messages.md"><p>Profile transactional messages</a><br>targeting <b>profiles from the Adobe Campaign marketing database</b></p></td>
+<td align="center"><img src="assets/do-not-localize/icon_profile.svg" width="60px"><br><p><a href="../../channels/using/profile-transactional-messages.md">プロファイルマーケティングデータベースからのAdobe Campaignトランザクション</a><br>メッセージターゲット <b>プロファイル</b></p></td>
 <td><p>プロファイルトランザクションメッセージを使用すると、次のことができます。<ul><li>ブロックリスト上の <b>住所や</b> 疲労ルールなどのマーケティングタイポロジルールを適用します <a href="../../sending/using/fatigue-rules.md"></a>。</li><li>メッセージ内に購読解除リンクを含める。</li><li>グローバル配信レポートにトランザクションメッセージを追加する。</li><li>カスタマージャーニーでトランザクションメッセージを活用する。</li></ul></p></td>
 </tr>
 </table>
@@ -106,39 +106,67 @@ Adobe Campaign を使用すると、買い物かごに商品を追加したサ�
 
 ### 手順1 -イベント設定を作成して公開する {#create-event-configuration}
 
-<img src="assets/do-not-localize/icon_config.svg" width="60px">
+<!--<img src="assets/do-not-localize/icon_config.svg" width="60px">
 
-「買い物かごの放棄」という名前のイベントを設定し、このイベント設定を公開します。
+Configure an event that will be named "Cart abandonment" and publish this event configuration.
 
-Webサイト開発者が使用するAPIがデプロイされ、トランザクションメッセージが自動的に作成されます。
+The API that will be used by your website developer is deployed and a transactional message is automatically created.-->
+
+<table>
+<tr>
+<td align="center"><img src="assets/do-not-localize/icon_config.svg" width="60px"><br><p>「買い物かごの放棄」という名前のイベントを設定し、このイベント設定を公開します。</p></td>
+<td>Webサイト開発者が使用するAPIがデプロイされ、トランザクションメッセージが自動的に作成されます。</td>
+</tr>
+</table>
 
 イベントの作成と公開については、[イベントトランザクションメッセージを送信するためのイベントの設定](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message)の節を参照してください。
 
 ### 手順2 -トランザクションメッセージを編集して公開する {#create-transactional-message}
 
-<img src="assets/do-not-localize/icon_transactional.svg" width="60px">
+<!--<img src="assets/do-not-localize/icon_transactional.svg" width="60px">
 
-トランザクションメッセージを編集してパーソナライズし、テストして公開します。
+Edit and personalize the transactional message, test it, and then publish it.-->
+
+<table>
+<tr>
+<td align="center"><img src="assets/do-not-localize/icon_notification.svg" width="45px"><br><p>トランザクションメッセージを編集してパーソナライズし、テストして公開します。</p></td>
+<td>トランザクションメッセージを送信する準備が整います。</td>
+</tr>
+</table>
 
 For more on editing and publishing a transactional message, see [Event transactional messages](../../channels/using/event-transactional-messages.md).
 
 ### 手順3 -イベントトリガーを統合する {#integrate-event-trigger}
 
-<img src="assets/do-not-localize/icon_api.svg" width="60px">
+<!--<img src="assets/do-not-localize/icon_api.svg" width="60px">
 
-RESTトランザクションメッセージAPIを使用して、イベントをWebサイトに統合します。
+Use the REST Transactional Messages API to integrate the event into your website.
 
-イベントは、クライアントが買い物かごを放棄した場合にトリガーされます。
+The event will be triggered when a client abandons their cart.-->
+
+<table>
+<tr>
+<td align="center"><img src="assets/do-not-localize/icon_api.svg" width="60px"><br><p>RESTトランザクションメッセージAPIを使用して、イベントをWebサイトに統合します。</p></td>
+<td>イベントは、クライアントが買い物かごを放棄した場合にトリガーされます。</td>
+</tr>
+</table>
 
 イベントをWebサイトに統合する方法について詳しくは、 [サイト統合を参照してください](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website)。
 
 ### 手順4 — メッセージ配信 {#message-delivery}
 
-<!--Once all of these steps have been carried out, the message can be delivered:-->
+<!--Once all of these steps have been carried out, the message can be delivered:
 
 <img src="assets/do-not-localize/icon_notification.svg" width="40px">
 
-ユーザーが買い物かごに商品を注文せずにサイトを離れるとすぐに、通知電子メールを自動的に受信します。
+As soon as a user leaves the site without ordering the products in their cart, they automatically receive a notification email.-->
+
+<table>
+<tr>
+<td align="center"><img src="assets/do-not-localize/icon_channels.svg" width="60px"><br><p>これらの手順がすべて実行されると、メッセージを配信できます。</p></td>
+<td>ユーザーが買い物かごに商品を注文せずにサイトを離れるとすぐに、通知電子メールを自動的に受信します。</td>
+</tr>
+</table>
 
 ## 主な手順 {#key-steps}
 
