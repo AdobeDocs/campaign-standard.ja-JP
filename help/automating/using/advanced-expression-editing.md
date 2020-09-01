@@ -12,11 +12,11 @@ discoiquuid: 4375153c-0621-4d4c-bfcc-66d157f04f6c
 context-tags: queryFilter,overview;audience,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
-workflow-type: ht
-source-wordcount: '1091'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 51e98bb6212ad96d9c11b848df9dcad25b3f1b61
+workflow-type: tm+mt
+source-wordcount: '1092'
+ht-degree: 98%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 このモードでは、高度な関数を使用できます。これらの関数を使用すると、日付、文字列、数値の各フィールドの操作や並べ替えなど、具体的なクエリの実行に使用する値を操作できます。
 
-また、式の編集時にイベント変数を使用することもできます。詳しくは、[イベント変数を使用したアクティビティのカスタマイズ](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables)の節を参照してください。
+また、式の編集時にワークフローのイベント変数を使用することもできます。 詳しくは、[イベント変数を使用したアクティビティのカスタマイズ](../../automating/using/customizing-workflow-external-parameters.md)の節を参照してください。
 
 式は、次の目的で使用できます。
 
@@ -51,13 +51,14 @@ ht-degree: 100%
    * 式を定義するための入力フィールド。
    * 式で使用でき、かつクエリのターゲティングディメンションに対応するフィールドの一覧（[ターゲティングディメンションとリソース](../../automating/using/query.md#targeting-dimensions-and-resources)を参照）。
    * 使用可能な関数のカテゴリ別一覧。
+
    ![](assets/expression_editor_1.png)
 
 1. 対応する入力フィールドに式を直接入力するか、使用可能なフィールドや関数の一覧を使用して、式を編集します。
 
    フィールドまたは関数をダブルクリックすると、式のカーソル位置に、そのフィールドまたは関数が追加されます。
 
-   ワークフローのイベント変数を使用して式を作成できます。詳しくは、[イベント変数を使用したアクティビティのカスタマイズ](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables)の節を参照してください。
+   ワークフローのイベント変数を使用して式を作成できます。詳しくは、[イベント変数を使用したアクティビティのカスタマイズ](../../automating/using/customizing-workflow-external-parameters.md)の節を参照してください。
 
 1. 必要に応じて、ルールに具体的な名前を付けます。入力した名前は、クエリエディターワークスペースにルール名として表示されます。
 
@@ -79,6 +80,7 @@ ht-degree: 100%
    * **&lt;値 1>** はフィールドまたは関数です。例えば、プロファイルの作成日を表す **@created**、またはプロファイルの作成年を表す **Year(@created)**。
    * **&lt;比較演算子>** は、[比較演算子](../../automating/using/advanced-expression-editing.md#comparison-operators)の節に記載されている演算子の 1 つです。**&lt;値 1>** と **&lt;値 2>** の間の比較方法をこの演算子で定義します。
    * **&lt;値 2>** は、手動で入力したフィールド、関数、値のいずれかです。
+
    >[!NOTE]
    >
    >**&lt;値 1>** と **&lt;値 2>** は同じデータ型でなければなりません。例えば、**&lt;値 1>** が日付の場合は、**&lt;値 2>** も日付である必要があります。
@@ -107,6 +109,7 @@ JavaScript 式は 1 つ以上の条件で構成され、次の構文要素を使
    * ここで、**&lt;コンテキスト>** はコンテキストを指定できるフィールドまたは関数です。例えば、プロファイルの E メールアドレスを表す **context.profile.@email** や、プロファイルの名の文字数を表す **context.profile.firstName.length()** を指定します。
    * **&lt;比較演算子>** は、[比較演算子](../../automating/using/advanced-expression-editing.md#comparison-operators)の節に記載されている演算子の 1 つです。**&lt;コンテキスト>** と **&lt;値 2>** の間の比較方法をこの演算子で定義します。
    * **&lt;値 2>** は、手動で入力したフィールド、関数、値のいずれかです。
+
    >[!NOTE]
    **&lt;コンテキスト>** と **&lt;値 2>** は同じデータ型でなければなりません。例えば、**&lt;コンテキスト>** が日付の場合は、**&lt;値 2>** も日付である必要があります。
 
