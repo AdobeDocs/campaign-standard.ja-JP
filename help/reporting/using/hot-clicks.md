@@ -13,9 +13,9 @@ context-tags: deliveryHotClicksReport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+source-git-commit: 694fd5802578001ba80b35f0983a068a0a630dd0
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '477'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 * デフォルトでは、トランザクションメッセージの場合は月に1回、トランザクションメッセージを編集して再度公開するたびに使用されます。
 
-   トランザクションメッセージについて詳しくは、トランザクションメッセージ [についてを参照してください](../../channels/using/getting-started-with-transactional-msg.md)。
+   トランザクションメッセージについて詳しくは、トランザクションメッセージの使用 [の手引きを参照してください](../../channels/using/getting-started-with-transactional-msg.md)。
 
 >[!NOTE]
 >
