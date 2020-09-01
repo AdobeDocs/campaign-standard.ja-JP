@@ -13,10 +13,10 @@ context-tags: segmentation,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 15e5aebdd67e8f5ddee89506c0469a101d94d2e8
+source-git-commit: eed3474c133645a3b9fe8001c21360bba4a363e4
 workflow-type: tm+mt
-source-wordcount: '860'
-ht-degree: 94%
+source-wordcount: '855'
+ht-degree: 92%
 
 ---
 
@@ -67,7 +67,7 @@ ht-degree: 94%
    * **[!UICONTROL Limit segment population]**：セグメントのサイズを制限できます。
    * **[!UICONTROL Filter and limit segment population]**：セグメント母集団をフィルターしてサイズを制限できます。
    * **[!UICONTROL Label]**：セグメントラベル。
-   * **[!UICONTROL Segment code]**：コードをセグメントの母集団に割り当てます。このセグメントコードは、標準の式とイベント変数を使用してパーソナライズできます（[イベント変数を使用したアクティビティのカスタマイズ](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables)を参照）。
+   * **[!UICONTROL Segment code]**:コードを割り当てます。セグメントコードは、標準の式変数とイベント変数を使用してパーソナライズできます(参照 [](../../automating/using/customizing-workflow-external-parameters.md))。
    * **[!UICONTROL Exclude segment from population]**：指定したセグメントをアクティビティのアウトバウンド母集団から除外できます。このオプションは、「**[!UICONTROL Generate all segments in the same transition]**」オプションが選択されている場合にのみ使用できます。
 
    ![](assets/wkf_segment_new_segment.png)
