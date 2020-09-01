@@ -4,9 +4,9 @@ sub-product: Adobe Campaign Standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard ヘルプ
 translation-type: tm+mt
-source-git-commit: 3cb37426410eeb8be04c9c75afa4505894b15140
+source-git-commit: 99e0189e8cfe97eb328e9eb69dbcf3a9772c7792
 workflow-type: tm+mt
-source-wordcount: '1596'
+source-wordcount: '1597'
 ht-degree: 87%
 
 ---
@@ -252,6 +252,7 @@ ht-degree: 87%
       + [実行オプションの管理](automating/using/managing-execution-options.md)
       + [アクティビティのプロパティの管理](automating/using/activity-properties.md)
    + 外部パラメーターを使用したワークフローの呼び出し {#calling-workflow-external-parameters}
+      + [概要](automating/using/calling-a-workflow-with-external-paraleters.md)
       + [外部シグナルアクティビティでのパラメータの宣言](automating/using/declaring-parameters-external-signal.md)
       + [ワークフロー呼び出し時のパラメーターの定義](automating/using/defining-parameters-calling-workflow.md)
       + [イベント変数の監視](automating/using/monitoring-events-variables.md)
