@@ -12,11 +12,11 @@ discoiquuid: 2650bf1f-0bce-4049-a226-2369f6666b95
 context-tags: jstest,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
-workflow-type: ht
-source-wordcount: '176'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 51e98bb6212ad96d9c11b848df9dcad25b3f1b61
+workflow-type: tm+mt
+source-wordcount: '170'
+ht-degree: 91%
 
 ---
 
@@ -52,11 +52,10 @@ ht-degree: 100%
 
    「**[!UICONTROL Condition]**」フィールドの編集時に、2 つのボタンを使用してイベント変数を呼び出し、変数と関数を組み合わせた式を編集できます。
 
-   * ![](assets/extsignal_picker.png)：ワークフローで使用可能なすべての変数の中からイベント変数を選択します（[外部パラメーターを使用したワークフローのカスタマイズ](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-a-workflow-with-external-parameters)を参照）。
+   * ![](assets/extsignal_picker.png):ワークフローで使用可能なすべての変数の中からイベント変数を選択します(を参照 [](../../automating/using/customizing-workflow-external-parameters.md))。
 
       ![](assets/wkf_test_activity_variables.png)
 
    * ![](assets/extsignal_expression_editor.png)：変数と関数を組み合わせた式を編集します。式エディターについて詳しくは、[この節](../../automating/using/advanced-expression-editing.md)を参照してください。
 
       ![](assets/wkf_test_activity_variables_expression.png)
-
