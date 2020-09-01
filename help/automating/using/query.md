@@ -13,10 +13,10 @@ context-tags: query,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
+source-git-commit: 3cb37426410eeb8be04c9c75afa4505894b15140
 workflow-type: tm+mt
-source-wordcount: '1725'
-ht-degree: 98%
+source-wordcount: '1720'
+ht-degree: 97%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 98%
 
 1. 「**[!UICONTROL Transition]**」タブの「**[!UICONTROL Enable an outbound transition]**」オプションを使用すると、クエリアクティビティがデータを取得しない場合でも、このアクティビティの後にアウトバウンドトランジションを追加できます。
 
-   アウトバウンドトランジションのセグメントコードは、標準の式とイベント変数を使用してパーソナライズできます（[イベント変数を使用したアクティビティのカスタマイズ](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables)を参照）。
+   The outbound transition&#39;s segment code can be personalized using a standard expression and events variables (see [](../../automating/using/customizing-workflow-external-parameters.md)).
 
 1. アクティビティの設定を確認し、ワークフローを保存します。
 
