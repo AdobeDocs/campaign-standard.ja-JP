@@ -13,10 +13,10 @@ context-tags: fileTransfer,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 175709a41607bb9d64da7fac77dd749fa84f7360
+source-git-commit: eed3474c133645a3b9fe8001c21360bba4a363e4
 workflow-type: tm+mt
-source-wordcount: '1075'
-ht-degree: 99%
+source-wordcount: '1070'
+ht-degree: 98%
 
 ---
 
@@ -142,7 +142,7 @@ Microsoft Azure Blob プロトコルを使用すると、Microsoft Azure Blob St
 メタ文字、ワイルドカード（* や ? など）を使用して、ファイルをフィルターできます。
 
 必要に応じて「**[!UICONTROL Define a file path]**」または「**[!UICONTROL Use a dynamic file path]**」を選択します。
-「**[!UICONTROL Use a dynamic file path]**」オプションを選択すると、標準の式やイベント変数を使用して、転送するファイルの名前をパーソナライズできます。詳しくは、[イベント変数を使用したアクティビティのカスタマイズ](../../automating/using/calling-a-workflow-with-external-parameters.md#customizing-activities-with-events-variables)の節を参照してください。
+「**[!UICONTROL Use a dynamic file path]**」オプションを選択すると、標準の式やイベント変数を使用して、転送するファイルの名前をパーソナライズできます。For more on this, refer to this section: [](../../automating/using/customizing-workflow-external-parameters.md).
 
 パスは、Adobe Campaign サーバーのストレージスペースディレクトリを基準とした相対パスである必要があります。ファイルは、**sftp&lt;インスタンス名>/** ディレクトリにあります。また、ストレージ領域より上のディレクトリを参照することもできません。次に例を示します。
 
