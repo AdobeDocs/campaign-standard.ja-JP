@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b588366b0697d9cf7aea77b7c9c8ec876b9e0579
+source-git-commit: cbc9114b1179fe6fc0f87a9b9b55397ef60d3cb9
 workflow-type: tm+mt
-source-wordcount: '6119'
+source-wordcount: '6144'
 ht-degree: 95%
 
 ---
@@ -24,11 +24,17 @@ ht-degree: 95%
 
 このページでは、Adobe Campaign の[リリースノート](../../rn/using/release-notes.md)に加えて、Adobe Campaign Standard のドキュメントの新しいアップデートをすべて紹介します。
 
+## ドキュメントのアップデート - 2020 年 9 月 {#doc-updates-september-2020}
+
+「イベントトランザクションメッセージ」節の内容が整理され、明確になりました。 [詳細を表示](../../channels/using/event-transactional-messages.md)
+
 ## ドキュメントのアップデート - 2020 年 8 月 {#doc-updates-august-2020}
 
 トランザクションメッセージの使い始めに関する新しい更新セクションが提供されます。 [詳細を表示](../../channels/using/getting-started-with-transactional-msg.md)
 
 トランザクションメッセージの制限に関する節は移動されました。 [詳細を表示](../../channels/using/transactional-messaging-limitations.md)
+
+送信の準備セクションが移動しました。 [詳細を表示](../../sending/using/preparing-the-send.md)
 
 ## ドキュメントのアップデート - 2020 年 7 月 {#doc-updates-july-2020}
 
