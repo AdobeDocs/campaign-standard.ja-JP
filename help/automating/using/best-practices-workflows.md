@@ -11,11 +11,11 @@ topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 21faea89b3b38f3e667ed6c4de0be6d07f0b7197
-workflow-type: ht
-source-wordcount: '1046'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 51e98bb6212ad96d9c11b848df9dcad25b3f1b61
+workflow-type: tm+mt
+source-wordcount: '1039'
+ht-degree: 98%
 
 ---
 
@@ -108,7 +108,7 @@ Adobe Campaign を使用すると、あらゆる種類のワークフローを�
 
 ## パラメーターを使用したワークフローの呼び出し{#workflow-with-parameters}
 
-パラメーターの名前と数が、定義されたワークフロー呼び出し時のパラメーターと同じであることを確認してください（[ワークフロー呼び出し時のパラメーターを定義する](../../automating/using/calling-a-workflow-with-external-parameters.md#defining-the-parameters-when-calling-the-workflow)を参照）。また、パラメーターのタイプは、想定される値と一致する必要があります。
+名前とパラメータ数が、ワークフローの呼び出し時に定義されたものと同じであることを確認します（を参照） [](../../automating/using/defining-parameters-calling-workflow.md)。 また、パラメーターのタイプは、想定される値と一致する必要があります。
 
 **[!UICONTROL External signal activity]**&#x200B;内ですべてのパラメーターが宣言されていることを確認します。それ以外の場合は、アクティビティの実行時にエラーが発生します。
 
