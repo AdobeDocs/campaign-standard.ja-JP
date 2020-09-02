@@ -13,7 +13,7 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 429142610b969f3bd1460a8ba401c7e83acb7dea
+source-git-commit: 07adae5bac947df794520e48361fd3c20eba5ff8
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 28%
@@ -28,7 +28,12 @@ ht-degree: 28%
 
 <img src="assets/do-not-localize/icon_transactional.svg" width="60px">
 
-トランザクションメッセージングを使用すると、個別のメッセージや個別のメッセージを <b></b> 、顧客にリアルタイムで送信できます。 ウェルカムメッセージ、発送確認書、パスワードの変更などがあります。
+<table>
+<tr>
+<td ><br><p>トランザクションメッセージングを使用すると、個別のメッセージや個別のメッセージを <b></b> 、顧客にリアルタイムで送信できます。</p></td>
+<td>ウェルカムメッセージ、発送確認書、パスワードの変更などがあります。</td>
+</tr>
+</table>
 
 Adobe Campaignを使用すると、この機能を、カスタムトランザクションメッセージに変換するイベントを送信する情報システムに統合できます。
 
@@ -112,9 +117,11 @@ Configure an event that will be named "Cart abandonment" and publish this event 
 
 The API that will be used by your website developer is deployed and a transactional message is automatically created.-->
 
+<img src="assets/do-not-localize/icon_config.svg" width="60px">
+
 <table>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_config.svg" width="60px"><br><p>「買い物かごの放棄」という名前のイベントを設定し、このイベント設定を公開します。</p></td>
+<td><br><p>「買い物かごの放棄」という名前のイベントを設定し、このイベント設定を公開します。</p></td>
 <td>Webサイト開発者が使用するAPIがデプロイされ、トランザクションメッセージが自動的に作成されます。</td>
 </tr>
 </table>
@@ -127,9 +134,11 @@ The API that will be used by your website developer is deployed and a transactio
 
 Edit and personalize the transactional message, test it, and then publish it.-->
 
+<img src="assets/do-not-localize/icon_notification.svg" width="45px">
+
 <table>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_notification.svg" width="45px"><br><p>トランザクションメッセージを編集してパーソナライズし、テストして公開します。</p></td>
+<td><br><p>トランザクションメッセージを編集してパーソナライズし、テストして公開します。</p></td>
 <td>トランザクションメッセージを送信する準備が整います。</td>
 </tr>
 </table>
@@ -144,9 +153,11 @@ Use the REST Transactional Messages API to integrate the event into your website
 
 The event will be triggered when a client abandons their cart.-->
 
+<img src="assets/do-not-localize/icon_api.svg" width="60px">
+
 <table>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_api.svg" width="60px"><br><p>RESTトランザクションメッセージAPIを使用して、イベントをWebサイトに統合します。</p></td>
+<td><br><p>RESTトランザクションメッセージAPIを使用して、イベントをWebサイトに統合します。</p></td>
 <td>イベントは、クライアントが買い物かごを放棄した場合にトリガーされます。</td>
 </tr>
 </table>
@@ -161,9 +172,11 @@ The event will be triggered when a client abandons their cart.-->
 
 As soon as a user leaves the site without ordering the products in their cart, they automatically receive a notification email.-->
 
+<img src="assets/do-not-localize/icon_channels.svg" width="60px">
+
 <table>
 <tr>
-<td align="center"><img src="assets/do-not-localize/icon_channels.svg" width="60px"><br><p>これらの手順がすべて実行されると、メッセージを配信できます。</p></td>
+<td><br><p>これらの手順がすべて実行されると、メッセージを配信できます。</p></td>
 <td>ユーザーが買い物かごに商品を注文せずにサイトを離れるとすぐに、通知電子メールを自動的に受信します。</td>
 </tr>
 </table>
