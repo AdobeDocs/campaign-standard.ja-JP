@@ -12,7 +12,7 @@ discoiquuid: 6b5680f2-bba9-453e-a0d5-8ca69dd02001
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 8%
@@ -26,7 +26,7 @@ ht-degree: 8%
 
 プロファイルは、「ユーザー」 **[!UICONTROL General]** タブから演算子で直接オプトインまたはオプトアウトできます。
 
-このセクションでは、選択したチェックボックスは、ユーザが選択したチャネルに対応しオプトアウトています。 **[!UICONTROL No longer contact (on block list)]** ユーザーのニーズに応じてチャネルを選択します。
+このセクションでは、選択したチェックボックスは、ユーザが選択したチャネルに対応しオプトアウトています。 **[!UICONTROL No longer contact (denylisted)]** ユーザーのニーズに応じてチャネルを選択します。
 
 ![](assets/optin_landingpage_3.png)
 
@@ -34,7 +34,7 @@ ht-degree: 8%
 
 ユーザーに対してオプトイン、または権限を与えるには、 **[!UICONTROL Profile acquisition]** ランディングページを作成して公開する必要があります。 その後、必要に応じてチャネルを選択できます。 それには、次の手順に従います。
 
-また、すべての配信からのアクセスを許可する **[!UICONTROL Block List]** ランディングページを設定すオプトアウトることもできます。 詳しくは、「すべての配信からのランディングページの [設定」を参照してくだオプトアウトさい](#setting-up-a-landing-page-to-opt-out-from-all-deliveries)。
+また、すべての配信からのアクセスを許可する **[!UICONTROL Denylist]** ランディングページを設定すオプトアウトることもできます。 詳しくは、「すべての配信からのランディングページの [設定」を参照してくだオプトアウトさい](#setting-up-a-landing-page-to-opt-out-from-all-deliveries)。
 
 >[!NOTE]
 >
@@ -56,7 +56,7 @@ ht-degree: 8%
 
 ### すべての配信からにオプトアウトランディングページを設定する {#setting-up-a-landing-page-to-opt-out-from-all-deliveries}
 
-すべての配信からアクセスできオプトアウトるようにするには、 **[!UICONTROL Block list]** ランディングページを作成して公開する必要があります。 For more on landing pages creation, refer to [this page](../../channels/using/getting-started-with-landing-pages.md).
+すべての配信からアクセスできオプトアウトるようにするには、 **[!UICONTROL Denylist]** ランディングページを作成して公開する必要があります。 For more on landing pages creation, refer to [this page](../../channels/using/getting-started-with-landing-pages.md).
 
 ランディングページのリンクをクリックすると、プロファイルの **[!UICONTROL No longer contact (by any channel)]** オプションが自動的に選択されます。
 
