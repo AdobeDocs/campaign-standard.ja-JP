@@ -1,6 +1,6 @@
 ---
-title: Adobe Campaign Standardによる評判の向上
-description: 重複の電子メールアドレスと強制隔離を管理し、Adobe Campaign Standardでの評判を向上させる方法を学びます。
+title: Adobe Campaign Standardでの評判の向上
+description: 重複の電子メールアドレスと強制隔離を管理して、Adobe Campaign Standardでの評判を高める方法を学びます。
 page-status-flag: never-activated
 uuid: 286fceee-65a9-4cb9-b205-9ce5d024675c
 contentOwner: sauviat
@@ -13,17 +13,17 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 121ec37cef6193d3a7085b6d0296b6a2e7cafa06
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 69%
+source-wordcount: '455'
+ht-degree: 70%
 
 ---
 
 
 # 評価の向上{#improving-reputation}
 
-受信者を疲弊させるのを避けるために、重複した E メールアドレスをターゲットから削除します。この手順は、送信レピュテーションを保護し、適切な強制隔離管理をおこなうためのものです。Adobe Campaignオファーは、これらの推奨事項を実装し、ISPがブロックリストに追加するリスクを回避するために必要なツールを提供します。
+受信者を疲弊させるのを避けるために、重複した E メールアドレスをターゲットから削除します。この手順は、送信レピュテーションを保護し、適切な強制隔離管理をおこなうためのものです。Adobe Campaignオファーは、これらの推奨を実装し、ISPブロックリストに加えるが発生するリスクを回避するために必要なツールを提供します。
 
 以下に重複および強制隔離の管理の詳細を示します。
 
