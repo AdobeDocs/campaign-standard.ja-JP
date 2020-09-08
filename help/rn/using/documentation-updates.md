@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cbc9114b1179fe6fc0f87a9b9b55397ef60d3cb9
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '6144'
+source-wordcount: '6097'
 ht-degree: 95%
 
 ---
@@ -55,8 +55,6 @@ AIを利用した新しい電子メール機能：時間の最適化とプロフ
 ワークフローの使用例が更新され、主題の節に再構成されました。[詳細を表示](../../automating/using/about-workflow-use-cases.md)
 
 コントロールパネルと Campaign ワークフローを使用したデータの[暗号化](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt)および[](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt)復号化の方法に関する使用例が追加されました。
-
-「ホワイトリスト」と「ブラックリスト」の両方の用語が Adobe Campaign ドキュメントから削除されました。これらの用語は、製品 UI、オプション名、内部コードにまだ存在する場合がありますが、今後の Campaign リリースでは「ブロックリスト」と「許可リスト」に置き換えられます。
 
 従来のサポートWebサイトへの参照は、新しいURLに置き換えられました。 [詳細情報](https://helpx.adobe.com/campaign/kb/ac-support.html#acs-support-req)
 
@@ -594,7 +592,7 @@ Administration メニューの「ライセンス」オプションに関する�
 
 「クエリ」アクティビティの節が更新され、クエリの例が追加されました。[詳細を表示](../../automating/using/query.md#query-samples)
 
-ブロックリスト専用の節は、「オプトインおよびオプトアウトプロセスについて」という名称に変更されました。 特定のチャネルに対するオプトインの管理方法、およびオプトインとオプトアウトを管理するランディングページの設定方法に関する情報が更新されました。[詳細を表示](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+専用の節は、「オプトインおよびオプトアウトプロセスについて」という名称に変更されました。 特定のチャネルに対するオプトインの管理方法、およびオプトインとオプトアウトを管理するランディングページの設定方法に関する情報が更新されました。[詳細を表示](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 アドビがホストする SFTP サーバーを使用する際のベストプラクティスについて説明します。[詳細を表示](../../administration/using/external-accounts.md#sftp-external-account)
 
@@ -618,7 +616,7 @@ E メール用 Creative Designer - [詳細を表示](../../designing/using/desig
 
 GDPR API は、GDPR リクエストの自動処理を可能にする機能を再グループ化します。[詳細を表示](../../api/using/creating-a-privacy-request.md)
 
-受信者にブロックリストへの追加機能を与えるランディングページの設定方法に関する情報を追加しました。 [詳細を表示](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
+受信者に機能を与えるランディングページの設定方法に関する情報を追加しブロックリストに加えるました。 [詳細を表示](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
 
 [トランザクションメッセージの設定](../../administration/using/configuring-transactional-messaging.md)の節の構成が変更され、[ステップバイステップの使用例](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message)が追加されました。
 
@@ -672,7 +670,7 @@ SMS 自動返信に関するステップバイステップの使用例を追加�
 
 **[!UICONTROL Customizing a push notification]** の節の構成が変更され、ステップバイステップの使用例が追加されました。[詳細を表示](../../channels/using/customizing-a-push-notification.md)
 
-ブロックリスト管理に関する新しい節を追加しました。 [詳細を表示](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+新しいセクションは、ブロックリスト管理に関するセクションです。 [詳細を表示](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 配信の失敗と強制隔離に関する情報を更新しました。[詳細を表示](../../sending/using/monitoring-a-delivery.md)
 
