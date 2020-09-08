@@ -12,10 +12,10 @@ discoiquuid: 45b11631-6b32-4074-8c8d-affd06407810
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 85dc2b3ba9a781483f88238fbf5a9208a0c18c37
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
 source-wordcount: '731'
-ht-degree: 9%
+ht-degree: 10%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 9%
 
 次の表に、様々なレポートで使用されるインジケータのリストと、配信のタイプに応じたその計算式を示します。
 
-## 電子メール配信 {#email-delivery}
+## E メール配信 {#email-delivery}
 
 <table> 
  <thead> 
@@ -47,15 +47,15 @@ ht-degree: 9%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> ブロックリスト<br /> </td> 
-   <td> @blocklisted<br /> </td> 
+   <td> ブロックリスト登録済み<br /> </td> 
+   <td> @blacklisted<br /> </td> 
    <td> count(@failureReason=8, @failureType=2)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> ブロックリスト・レート<br /> </td> 
-   <td> @rateBlocklisted<br /> </td> 
-   <td> @blocklisted/@sent<br /> </td> 
+   <td> Denylist rate<br /> </td> 
+   <td> @rateBlacklisted<br /> </td> 
+   <td> @ブラックリスト登録済み/@sent<br /> </td> 
    <td> レート計算の分母は、送信回数（配信済み+バウンス）に基づきます。<br /> </td> 
   </tr> 
   <tr> 
@@ -337,7 +337,7 @@ ht-degree: 9%
    <td> Unique impressions<br /> </td> 
    <td> @uniqueimpressions<br /> </td> 
    <td> @unique(@count(status=表示))<br /> </td> 
-   <td> キャンペーンプロファイル(inAppProfile) <span class="uicontrol"></span> Targetに基づく受信者ユーザーの場合は、user = template Idです。<br /> モバイルアプリ(inAppBroadcast) <span class="uicontrol">および</span> Targetユーザーのすべてのユーザーをモバイルプロファイル(inApp) <span class="uicontrol"></span> テンプレートに基づいてTargetする場合は、user = MC Idまたはユーザー、モバイルアプリ、デバイスの一意の組み合わせを表す同等のユーザー。<br /> </td> 
+   <td> キャンペーンプロファイル(inAppProfile) <span class="uicontrol"></span> ターゲットに基づく受信者ユーザーの場合は、user = template Idです。<br /> モバイルアプリ(inAppBroadcast) <span class="uicontrol">および</span> ターゲットユーザーのすべてのユーザーをモバイルプロファイル(inApp) <span class="uicontrol"></span> テンプレートに基づいてターゲットする場合は、user = MC Idまたはユーザー、モバイルアプリ、デバイスの一意の組み合わせを表す同等のユーザー。<br /> </td> 
   </tr> 
   <tr> 
    <td> In-App clicks <br /> </td> 
@@ -349,7 +349,7 @@ ht-degree: 9%
    <td> 個別アプリ内クリック数<br /> </td> 
    <td> @uniqueinapp<br /> </td> 
    <td> @unique(@count (status=clicks))<br /> </td> 
-   <td> キャンペーンプロファイル(inAppProfile) <span class="uicontrol"></span> Targetに基づく受信者ユーザーの場合は、user = template Idです。<br /> モバイルアプリ(inAppBroadcast) <span class="uicontrol">および</span> Targetユーザーのすべてのユーザーをモバイルプロファイル(inApp) <span class="uicontrol"></span> テンプレートに基づいてTargetする場合は、user = MC Idまたはユーザー、モバイルアプリ、デバイスの一意の組み合わせを表す同等のユーザー。<br /> </td> 
+   <td> キャンペーンプロファイル(inAppProfile) <span class="uicontrol"></span> ターゲットに基づく受信者ユーザーの場合は、user = template Idです。<br /> モバイルアプリ(inAppBroadcast) <span class="uicontrol">および</span> ターゲットユーザーのすべてのユーザーをモバイルプロファイル(inApp) <span class="uicontrol"></span> テンプレートに基づいてターゲットする場合は、user = MC Idまたはユーザー、モバイルアプリ、デバイスの一意の組み合わせを表す同等のユーザー。<br /> </td> 
   </tr> 
   <tr> 
    <td> In-App click through rate<br /> </td> 
@@ -367,7 +367,7 @@ ht-degree: 9%
    <td> 個別のアプリ内課金<br /> </td> 
    <td> @uniqueejounce<br /> </td> 
    <td> @unique(@count (status=close))<br /> </td> 
-   <td> キャンペーンプロファイル(inAppProfile) <span class="uicontrol"></span> Targetに基づく受信者ユーザーの場合は、user = template Idです。<br /> モバイルアプリ(inAppBroadcast) <span class="uicontrol">および</span> Targetユーザーのすべてのユーザーをモバイルプロファイル(inApp) <span class="uicontrol"></span> テンプレートに基づいてTargetする場合は、user = MC Idまたはユーザー、モバイルアプリ、デバイスの一意の組み合わせを表す同等のユーザー。<br /> </td> 
+   <td> キャンペーンプロファイル(inAppProfile) <span class="uicontrol"></span> ターゲットに基づく受信者ユーザーの場合は、user = template Idです。<br /> モバイルアプリ(inAppBroadcast) <span class="uicontrol">および</span> ターゲットユーザーのすべてのユーザーをモバイルプロファイル(inApp) <span class="uicontrol"></span> テンプレートに基づいてターゲットする場合は、user = MC Idまたはユーザー、モバイルアプリ、デバイスの一意の組み合わせを表す同等のユーザー。<br /> </td> 
   </tr> 
   <tr> 
    <td> In-App dismissal rate<br /> </td> 
