@@ -12,9 +12,9 @@ discoiquuid: 0766bd57-c5f1-4f56-ac84-e5a04d3819ec
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c89973e2c733d9c0b1c4434e77ef51103ccde0fa
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '2031'
+source-wordcount: '2028'
 ht-degree: 3%
 
 ---
@@ -81,7 +81,7 @@ Adobe Campaignインターフェイスから、次の操作を実行できます
 特定の条件に基づいて異なるユーザーグループに通知を送信する場合は、複数のダッシュボードを使用する必要があります。 新しいダッシュボードを作成するには：
 
 1. 移動 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Delivery alerting]**.
-1. を選択 **[!UICONTROL Delivery alerting dashboards]** し、をクリックし **[!UICONTROL Create]**&#x200B;ます。
+1. 「**[!UICONTROL Delivery alerting dashboards]**」を選択し、「**[!UICONTROL Create]**」をクリックします。
 1. 現在のダッシュボードをアクティブにするには、 **[!UICONTROL Enabled]** チェックボックスをオンにします。
 
    このオプションを無効にすると、このダッシュボードにリンクされている通知は送信されなくなります。 このオプションはデフォルトでは無効です。
@@ -90,8 +90,8 @@ Adobe Campaignインターフェイスから、次の操作を実行できます
 
 1. 通知する受信者のグループを **[!UICONTROL Alert group]** ドロップダウンリストから選択します。 グループを変更または作成するには、「セキュリティグループの [作成とユーザーの割り当て](../../administration/using/managing-groups-and-users.md#creating-a-security-group-and-assigning-users)」を参照してください。
 1. セクションで、をクリックして条件 **[!UICONTROL Delivery alerting criteria]****[!UICONTROL Create element]** を追加します。 「アラート条件 [について](#about-alerting-criteria)」を参照してください。
-1. ボタンを選択し **[!UICONTROL Edit properties]** ます。 タブで、条件の適用方法を定義し **[!UICONTROL Criteria parameters]** ます。 詳しくは、 [条件パラメーター](#criteria-parameters)を参照してください。
-1. をクリック **[!UICONTROL Create]** して、ダッシュボードを保存します。
+1. 「**[!UICONTROL Edit properties]**」ボタンをクリックします。タブで、条件の適用方法を定義し **[!UICONTROL Criteria parameters]** ます。 詳しくは、 [条件パラメーター](#criteria-parameters)を参照してください。
+1. Click **[!UICONTROL Create]** to save the dashboard.
 
 現在は、配信がこのダッシュボードで定義した基準を満たすたびに、指定したユーザーのグループに警告通知が送信されます。
 
@@ -105,13 +105,13 @@ Adobe Campaignインターフェイスから、次の操作を実行できます
 
 配信の警告ダッシュボードでは、次の基準を使用できます。
 
-* **[!UICONTROL Deliveries failed]**: 定義された範囲内でスケジュールされた配信。ステータスに誤りがあります。
-* **[!UICONTROL Deliveries with preparation failed]**: 定義された範囲内で変更された配信で、準備手順(ターゲットの計算とコンテンツの生成)が失敗した場合。 詳しくは、「送信の [準備](../../sending/using/preparing-the-send.md)」を参照してください。
-* **[!UICONTROL Delivery with bad error ratio for soft bounces]**: 定義した範囲内にスケジュールされ、少なくともステータスが「ソフトバウンス誤差」の割合が **[!UICONTROL In progress]**、定義した割合を超える配信。
-* **[!UICONTROL Delivery with bad error ratio for hard bounces]**: 定義した範囲内にスケジュールされた配信(少なくともステータス **[!UICONTROL In progress]**、ハードバウンス誤差率が定義した割合を超える)。
-* **[!UICONTROL Deliveries with long start pending]**: 定義された範囲内でスケジュールされた配信(定義された期間より長い **[!UICONTROL Start pending]** ステータスを持つ)。 **[!UICONTROL Start pending]** ステータスは、メッセージがまだシステムによって考慮されていないことを意味します。
-* **[!UICONTROL Deliveries with low throughput]**: 配信が定義された長さを超えて開始され、処理されたメッセージの割合が定義された割合を下回り、定義された値より低いスループットを持ちます。
-* **[!UICONTROL Deliveries in progress]**: 定義した範囲内でスケジュールされた配信( **[!UICONTROL In progress]** ステータス)。
+* **[!UICONTROL Deliveries failed]**:定義された範囲内でスケジュールされた配信。ステータスに誤りがあります。
+* **[!UICONTROL Deliveries with preparation failed]**:定義された範囲内で変更された配信で、準備手順(ターゲットの計算とコンテンツの生成)が失敗した場合。 詳しくは、「送信の [準備](../../sending/using/preparing-the-send.md)」を参照してください。
+* **[!UICONTROL Delivery with bad error ratio for soft bounces]**:定義した範囲内にスケジュールされ、少なくともステータスが「ソフトバウンス誤差」の割合が **[!UICONTROL In progress]**、定義した割合を超える配信。
+* **[!UICONTROL Delivery with bad error ratio for hard bounces]**:定義した範囲内にスケジュールされた配信(少なくともステータス **[!UICONTROL In progress]**、ハードバウンス誤差率が定義した割合を超える)。
+* **[!UICONTROL Deliveries with long start pending]**:定義された範囲内でスケジュールされた配信(定義された期間より長い **[!UICONTROL Start pending]** ステータスを持つ)。 **[!UICONTROL Start pending]** ステータスは、メッセージがまだシステムによって考慮されていないことを意味します。
+* **[!UICONTROL Deliveries with low throughput]**:配信が定義された長さを超えて開始され、処理されたメッセージの割合が定義された割合を下回り、定義された値より低いスループットを持ちます。
+* **[!UICONTROL Deliveries in progress]**:定義した範囲内でスケジュールされた配信( **[!UICONTROL In progress]** ステータス)。
 
 >[!NOTE]
 >
@@ -131,7 +131,7 @@ Adobe Campaignインターフェイスから、次の操作を実行できます
 
    ![](assets/delivery-alerting_notification_labels.png)
 
-* **[!UICONTROL Criteria frequency]**: 1つの配信に対して条件が満たされた場合、監視期間内に送信される各通知でその条件が繰り返されます。 それ以外の場合は、1つの配信に対するアラート条件に基づき、1日（最初の発生時）に1つのアラートのみが送信されます。
+* **[!UICONTROL Criteria frequency]**:1つの配信に対して条件が満たされた場合、監視期間内に送信される各通知でその条件が繰り返されます。 それ以外の場合は、1つの配信に対するアラート条件に基づき、1日（最初の発生時）に1つのアラートのみが送信されます。
 
    デフォルトでは、すべての条件に対して、このオプションは1日に1回に設定されています。
 
@@ -160,13 +160,13 @@ Adobe Campaignインターフェイスから、次の操作を実行できます
 
    ![](assets/delivery-alerting_new-filter.png)
 
-1. 新しいフィルター定義を編集します。 ウィン **[!UICONTROL Filter definition]** ドウで、アイテムをワークスペースにドラッグ&amp;ドロップし、フィルター条件 **[!UICONTROL Status]****[!UICONTROL Finished]** として選択します。
+1. 新しいフィルター定義を編集します。ウィン **[!UICONTROL Filter definition]** ドウで、アイテムをワークスペースにドラッグ&amp;ドロップし、フィルター条件 **[!UICONTROL Status]****[!UICONTROL Finished]** として選択します。
 
    ![](assets/delivery-alerting_filter-status.png)
 
    カスタムフィルターの作成と編集について詳しくは、「フィルターの [定義](../../developing/using/configuring-filter-definition.md)」を参照してください。
 
-1. 変更を保存し、リソースを発行します。 詳しくは、「カスタムリソースの [公開](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)」を参照してください。
+1. 変更を保存し、リソースを発行します。 For more on this, see [Publishing a custom resource](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
 
    フィルタが作成され、新しい配信アラート条件で選択できるようになります。
 
@@ -181,7 +181,7 @@ Adobe Campaignインターフェイスから、次の操作を実行できます
 
 ![](assets/delivery-alerting_new-criterion.png)
 
-**関連トピック:**
+**関連トピック：**
 
 [リソースの追加または拡張](../../developing/using/key-steps-to-add-a-resource.md)
 
@@ -193,24 +193,24 @@ Adobe Campaignインターフェイスから、次の操作を実行できます
 
 ![](assets/delivery-alerting_dashboard_criteria-parameters.png)
 
-* **[!UICONTROL Delivery target minimum size]**: 例えば、このフィールドに100と入力した場合、100受信者以上のターゲットを持つ配信に対してのみ通知が送信されます。 このパラメーターはすべての条件に適用されます。
-* **[!UICONTROL Monitoring period before and after the contact date (in hours)]**: 現在時刻の前後の時間数。 この時間範囲の連絡日を持つ配信のみが考慮されます。 このパラメーターはすべての条件に適用されます。 デフォルトでは、このフィールドの値は24時間に設定されています。
+* **[!UICONTROL Delivery target minimum size]**:例えば、このフィールドに100と入力した場合、100受信者以上のターゲットを持つ配信に対してのみ通知が送信されます。 このパラメーターはすべての条件に適用されます。
+* **[!UICONTROL Monitoring period before and after the contact date (in hours)]**:現在時刻の前後の時間数。 この時間範囲の連絡日を持つ配信のみが考慮されます。 このパラメーターはすべての条件に適用されます。 デフォルトでは、このフィールドの値は24時間に設定されています。
 
    連絡日の詳細については、「スケジュールにつ [いて](../../sending/using/about-scheduling-messages.md)」を参照してください。
 
-* **[!UICONTROL Maximum ratio of soft bounce errors]**: 指定した値より大きいソフトバウンスエラーの比率を持つすべての配信に対して通知が送信されます。 デフォルトでは、このフィールドの値は0.05(5%)に設定されています。
+* **[!UICONTROL Maximum ratio of soft bounce errors]**:指定した値より大きいソフトバウンスエラーの比率を持つすべての配信に対して通知が送信されます。 デフォルトでは、このフィールドの値は0.05(5%)に設定されています。
 
    ソフトバウンスエラーについて詳しくは、「 [バウンスメールの資格](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification) 、配信の失敗タイプの [リスト](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)」を参照してください。
 
-* **[!UICONTROL Maximum ratio of hard bounce errors]**: ハードバウンスエラーの割合が指定値より大きいすべての配信に対して通知が送信されます。 デフォルトでは、このフィールドの値は0.05(5%)に設定されています。
+* **[!UICONTROL Maximum ratio of hard bounce errors]**:ハードバウンスエラーの割合が指定値より大きいすべての配信に対して通知が送信されます。 デフォルトでは、このフィールドの値は0.05(5%)に設定されています。
 
    ハードバウンスのエラーについて詳しくは、「 [バウンスメールの資格](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification) 、配信の失敗タイプの [リスト](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)」を参照してください。
 
-* **[!UICONTROL Minimum time threshold for delivery in 'Start pending' status (in minutes)]**: このフィールドで指定した期間より長い **[!UICONTROL Start pending]** ステータスを持つすべての配信( **[!UICONTROL Start pending]** ステータス)に対して、メッセージがまだシステムで考慮されていないことを示す通知が送信されます。
-* **[!UICONTROL Minimum time required for the computation of the throughput (in minutes)]**: 指定した期間より長い期間に対して開始された( **[!UICONTROL In progress]** ステータスの)配信のみが、 **[!UICONTROL Deliveries with low throughput]** 基準に考慮されます。
-* **[!UICONTROL Maximum percentage of processed messages for the computation of the throughput]**: 処理された配信の割合が指定した割合より低い場合のみ、 **[!UICONTROL Deliveries with low throughput]** 基準が考慮されます。
-* **[!UICONTROL Minimum expected throughput (in sent messages per hour)]**: 基準は、指定された値より低いスループットを持つ配信のみが考慮され **[!UICONTROL Deliveries with low throughput]** ます。
-* **[!UICONTROL Minimum processed ratio required for 'Deliveries in progress' criterion]**: 処理済み配信の割合が指定した割合を超えるメッセージのみが考慮されます。
+* **[!UICONTROL Minimum time threshold for delivery in 'Start pending' status (in minutes)]**:このフィールドで指定した期間より長い **[!UICONTROL Start pending]** ステータスを持つすべての配信( **[!UICONTROL Start pending]** ステータス)に対して、メッセージがまだシステムで考慮されていないことを示す通知が送信されます。
+* **[!UICONTROL Minimum time required for the computation of the throughput (in minutes)]**:指定した期間より長い期間に対して開始された( **[!UICONTROL In progress]** ステータスの)配信のみが、 **[!UICONTROL Deliveries with low throughput]** 基準に考慮されます。
+* **[!UICONTROL Maximum percentage of processed messages for the computation of the throughput]**:処理された配信の割合が指定した割合より低い場合のみ、 **[!UICONTROL Deliveries with low throughput]** 基準が考慮されます。
+* **[!UICONTROL Minimum expected throughput (in sent messages per hour)]**:指定した値より低いスループットを持つ配信のみが、 **[!UICONTROL Deliveries with low throughput]** 基準に考慮されます。
+* **[!UICONTROL Minimum processed ratio required for 'Deliveries in progress' criterion]**:処理済み配信の割合が指定した割合を超えるメッセージのみが考慮されます。
 
 ### 警告頻度 {#alerting-frequency}
 
@@ -230,38 +230,42 @@ Adobe Campaignインターフェイスから、次の操作を実行できます
 
 まず、配信の「 **Log** 」タブで、配信と配達確認に関するすべての情報を表示します。 赤と黄色のアイコンを使用すると、エラーや警告を識別できます。 赤いアイコンは、配信を起動できない重大なエラーを示します。
 
-配信のすべてのオカレンスの履歴を表示するには、タブを選択し **[!UICONTROL Sending logs]** ます。 送信されたメッセージのリストと、そのステータスが含まれます。 各受信者(、 **[!UICONTROL Sent]**、な **[!UICONTROL Pending]****[!UICONTROL Failed]**&#x200B;ど)の配信ステータスを確認できます。 詳しくは、「ログの [送信](../../sending/using/monitoring-a-delivery.md#sending-logs)」を参照してください。
+配信のすべてのオカレンスの履歴を表示するには、タブを選択し **[!UICONTROL Sending logs]** ます。 送信されたメッセージのリストと、そのステータスが含まれます。 各受信者(、 **[!UICONTROL Sent]**、な **[!UICONTROL Pending]****[!UICONTROL Failed]**&#x200B;ど)の配信ステータスを確認できます。 For more on this, see [Sending logs](../../sending/using/monitoring-a-delivery.md#sending-logs).
 
 配信で満たされた基準に従ってアラート通知を受信する理由は、次のとおりです。
 
-* **[!UICONTROL Deliveries failed]**: この条件は、誤ったステータスのすべての配信を通知します。 次の原因が考えられます。
+* **[!UICONTROL Deliveries failed]**:この条件は、誤ったステータスのすべての配信を通知します。 次の原因が考えられます。
 
    * 配信サーバー(MTA、Message Transfer Agent)の問題
    * Adobe Campaign配信サーバと受信サーバとの接続タイムアウト
    * 配信品質の問題
    * 誤ったワークフロー
-   ワークフローで配信がトリガーされる場合は、そのワークフローが正しく開始されているかどうかを確認します。 For more on this, see [Executing a workflow](../../automating/using/about-workflow-execution.md). それ以外の場合は、Adobe Campaign管理者に問い合わせて問題を解決してください。
 
-* **[!UICONTROL Deliveries with preparation failed]**: 次の場合、配信の準備中にエラーが発生する可能性があります。
+   ワークフローで配信がトリガーされる場合は、そのワークフローが正しく開始されているかどうかを確認します。 詳しくは、「ワークフローの [実行](../../automating/using/about-workflow-execution.md)」を参照してください。 それ以外の場合は、Adobe Campaign管理者に問い合わせて問題を解決してください。
+
+* **[!UICONTROL Deliveries with preparation failed]**:次の場合、配信の準備中にエラーが発生する可能性があります。
 
    * 配信に件名がありません。
    * パーソナライゼーションフィールドに誤った構文があります。
    * ターゲットが見つかりません。
    * 配信がサイズ制限を超えています。
+
    詳しくは、「送信の [準備](../../sending/using/preparing-the-send.md)」を参照してください。 ただし、これらのエラーは通常、メッセージの分析中に発見されます。 「 [制御ルール](../../sending/using/control-rules.md)」を参照してください。
 
 * アラートの原因として考えられるのは、次の **[!UICONTROL Delivery with bad error ratio for soft bounces]** とおりです。
 
    * 受信者のサーバーがダウンしています。
    * 受信者のメールボックスがいっぱいです。
+
    詳しくは、配信ログの「」 **[!UICONTROL Exclusion logs]** と「」 **[!UICONTROL Exclusion causes]** タブを確認してください。 「 [除外ログ](../../sending/using/monitoring-a-delivery.md#exclusion-logs)」を参照してください。
 
    アラートの原因として考えられるのは、次の **[!UICONTROL Delivery with bad error ratio for hard bounces]** とおりです。
 
-   * 受信者はブロックリスト上にあり、もう連絡を受けたくない。
+   * 受信者ブロックリストに加えるは、もはや連絡を取りたくないということです。
    * 受信者の電子メールアドレスが存在しません。
    * 受信者のドメインが存在しません。
    * 受信者のサーバーが配信をブロックしています。
+
    ソフトバウンスとハードバウンスのエラーを回避するには、次のベストプラクティスに従ってください。
 
    * 配信分析中にメッセージターゲットの一部(検疫済み受信者など)を除外するフィルタータイポロジルールを作成します。 See [Creating a filtering rule](../../sending/using/filtering-rules.md).
@@ -270,9 +274,9 @@ Adobe Campaignインターフェイスから、次の操作を実行できます
 
 
 
-* **[!UICONTROL Deliveries with long start pending]**: 通常、これは、MTA(Message Transfer Agent)レベルに問題があることを意味します。 実行プロセスが、リソースが使用可能になるのを待っています。MTA が開始されていない可能性があります。
+* **[!UICONTROL Deliveries with long start pending]**:通常、これは、MTA(Message Transfer Agent)レベルに問題があることを意味します。 実行プロセスが、リソースが使用可能になるのを待っています。MTA が開始されていない可能性があります。
 
-   **[!UICONTROL Deliveries with low throughput]**: 繰り返しますが、これは配信品質の問題で、MTAの速度が遅すぎます。
+   **[!UICONTROL Deliveries with low throughput]**:繰り返しますが、これは配信品質の問題で、MTAの速度が遅すぎます。
 
    これらの問題の詳細については、Adobe Campaign管理者にお問い合わせください。
 
