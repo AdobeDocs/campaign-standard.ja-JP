@@ -13,10 +13,10 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 07adae5bac947df794520e48361fd3c20eba5ff8
+source-git-commit: a5c5c11a3f29e83f7ec3b36087f9455c58a819e1
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 28%
+source-wordcount: '818'
+ht-degree: 25%
 
 ---
 
@@ -25,21 +25,16 @@ ht-degree: 28%
 
 ## 概要
 
-
-<img src="assets/do-not-localize/icon_transactional.svg" width="60px">
-
 <table>
 <tr>
+<td align="center"><img src="assets/do-not-localize/icon_transactional.svg" width="60px"><br><p>トランザクションメッセージの概念の <b>概要</b></p></td>
 <td ><br><p>トランザクションメッセージングを使用すると、個別のメッセージや個別のメッセージを <b></b> 、顧客にリアルタイムで送信できます。</p></td>
 <td>ウェルカムメッセージ、発送確認書、パスワードの変更などがあります。</td>
+<td>Adobe Campaignを使用すると、この機能を、カスタムトランザクションメッセージに変換するイベントを送信する情報システムに統合できます。</td>
 </tr>
 </table>
 
-Adobe Campaignを使用すると、この機能を、カスタムトランザクションメッセージに変換するイベントを送信する情報システムに統合できます。
-
->[!NOTE]
->
->トランザクションメッセージは、オプションに応じて、E メール、SMS、またはプッシュ通知で送信できます。使用許諾契約書を確認してください。
+トランザクションメッセージは、オプションに応じて、E メール、SMS、またはプッシュ通知で送信できます。使用許諾契約書を確認してください。
 
 Adobe Campaignは、他の配信よりも処理トランザクションメッセージを優先します。
 
@@ -78,28 +73,22 @@ Adobe Campaignは、他の配信よりも処理トランザクションメッセ
 
 Adobe Campaign では、2 つのトランザクションメッセージを使用できます。
 
-<!--[Event transactional messages](../../channels/using/event-transactional-messages.md) targeting an **event**. The data contained in the event itself is used to define the delivery target.-->
-
 <table>
 <tr>
 <td align="center"><img src="assets/do-not-localize/icon_event.svg" width="60px"><br><p><a href="../../channels/using/event-transactional-messages.md">イベントトランザクション</a><br>メッセージのターゲット設定と <b>イベント</b></p></td>
-<td><p><ul><li>プロファイル情報は含まれません。</li><li>これらは <a href="../../sending/using/fatigue-rules.md">疲労ルールとは互換性がありません</a> (プロファイルとのエンリッチメントの場合でも)。</li><li>配信ターゲットは、イベント自体に含まれるデータによって定義されます。</li></ul></p></td>
+<td><p><ul><li>イベントトランザクションメッセージにはプロファイル情報が含まれません。</li><li>これらは <a href="../../sending/using/fatigue-rules.md">疲労ルールとは互換性がありません</a> (プロファイルとのエンリッチメントの場合でも)。</li><li>配信ターゲットは、イベント自体に含まれるデータによって定義されます。</li></ul></p></td>
 </tr>
 <tr>
 <td align="center"><img src="assets/do-not-localize/icon_profile.svg" width="60px"><br><p><a href="../../channels/using/profile-transactional-messages.md">プロファイルマーケティングデータベースからのAdobe Campaignトランザクション</a><br>メッセージターゲット <b>プロファイル</b></p></td>
-<td><p>プロファイルトランザクションメッセージを使用すると、次のことができます。<ul><li>ブロックリスト上の <b>住所や</b> 疲労ルールなどのマーケティングタイポロジルールを適用します <a href="../../sending/using/fatigue-rules.md"></a>。</li><li>メッセージ内に購読解除リンクを含める。</li><li>グローバル配信レポートにトランザクションメッセージを追加する。</li><li>カスタマージャーニーでトランザクションメッセージを活用する。</li></ul></p></td>
+<td><p>プロファイルトランザクションメッセージを使用すると、次のことができます。<ul><li><b>住所</b> 、 <a href="../../sending/using/fatigue-rules.md">疲労ルールなどのマーケティングタイポロジルールを適用します</a>。</li><li>メッセージ内に購読解除リンクを含める。</li><li>グローバル配信レポートにトランザクションメッセージを追加する。</li><li>カスタマージャーニーでトランザクションメッセージを活用する。</li></ul></p></td>
 </tr>
 </table>
-
-<!--[Profile transactional messages](../../channels/using/profile-transactional-messages.md) targeting **profiles from the Adobe Campaign marketing database**. You can use information from the Adobe Campaign database to send a transactional message based on customer marketing profiles.-->
 
 メッセージタイプは、トランザクションメッセージに変換されるイベントを設定する際に定義されます。[トランザクションメッセージの設定](../../administration/using/configuring-transactional-messaging.md)を参照してください。
 
 >[!IMPORTANT]
 >
 >To access all transactional messages, you must be part of the **[!UICONTROL Administrators (all units)]** security group.
-
-<!--Event transactional messages do not contain profile information, therefore they are not compatible with fatigue rules (even in the case of an enrichment with profiles). However, profile transactional messages are compatible. For more on fatigue rules, see [this section](../../sending/using/fatigue-rules.md#choosing-the-channel).-->
 
 ## トランザクションメッセージの動作原則 {#transactional-messaging-operating-principle}
 
@@ -111,18 +100,12 @@ Adobe Campaign を使用すると、買い物かごに商品を追加したサ�
 
 ### 手順1 -イベント設定を作成して公開する {#create-event-configuration}
 
-<!--<img src="assets/do-not-localize/icon_config.svg" width="60px">
-
-Configure an event that will be named "Cart abandonment" and publish this event configuration.
-
-The API that will be used by your website developer is deployed and a transactional message is automatically created.-->
-
-<img src="assets/do-not-localize/icon_config.svg" width="60px">
-
 <table>
 <tr>
+<td align="center"><img src="assets/do-not-localize/icon_config.svg" width="60px"><br><p><b>トランザクションイベントの設定</b></p></td>
 <td><br><p>「買い物かごの放棄」という名前のイベントを設定し、このイベント設定を公開します。</p></td>
 <td>Webサイト開発者が使用するAPIがデプロイされ、トランザクションメッセージが自動的に作成されます。</td>
+<td>この手順は、 <a href="../../administration/using/users-management.md#functional-administrators">管理権限を持つユーザーが実行する必要があります</a>。</td>
 </tr>
 </table>
 
@@ -130,16 +113,12 @@ The API that will be used by your website developer is deployed and a transactio
 
 ### 手順2 -トランザクションメッセージを編集して公開する {#create-transactional-message}
 
-<!--<img src="assets/do-not-localize/icon_transactional.svg" width="60px">
-
-Edit and personalize the transactional message, test it, and then publish it.-->
-
-<img src="assets/do-not-localize/icon_notification.svg" width="45px">
-
 <table>
 <tr>
+<td align="center"><img src="assets/do-not-localize/icon_notification.svg" width="40px"><br><p><b>トランザクションメッセージ版</b></p></td>
 <td><br><p>トランザクションメッセージを編集してパーソナライズし、テストして公開します。</p></td>
 <td>トランザクションメッセージを送信する準備が整います。</td>
+<td>この手順は、 <a href="../../administration/using/users-management.md#basic-users">基本アクセス権を持つ任意のマーケティングユーザーが実行できます</a>。
 </tr>
 </table>
 
@@ -147,18 +126,12 @@ For more on editing and publishing a transactional message, see [Event transacti
 
 ### 手順3 -イベントトリガーを統合する {#integrate-event-trigger}
 
-<!--<img src="assets/do-not-localize/icon_api.svg" width="60px">
-
-Use the REST Transactional Messages API to integrate the event into your website.
-
-The event will be triggered when a client abandons their cart.-->
-
-<img src="assets/do-not-localize/icon_api.svg" width="60px">
-
 <table>
 <tr>
+<td align="center"><img src="assets/do-not-localize/icon_api.svg" width="55px"><br><p><b>イベントトリガー統合</b></p></td>
 <td><br><p>RESTトランザクションメッセージAPIを使用して、イベントをWebサイトに統合します。</p></td>
 <td>イベントは、クライアントが買い物かごを放棄した場合にトリガーされます。</td>
+<td>この手順は、Webサイトの開発者が実行します。
 </tr>
 </table>
 
@@ -166,18 +139,12 @@ The event will be triggered when a client abandons their cart.-->
 
 ### 手順4 — メッセージ配信 {#message-delivery}
 
-<!--Once all of these steps have been carried out, the message can be delivered:
-
-<img src="assets/do-not-localize/icon_notification.svg" width="40px">
-
-As soon as a user leaves the site without ordering the products in their cart, they automatically receive a notification email.-->
-
-<img src="assets/do-not-localize/icon_channels.svg" width="60px">
-
 <table>
 <tr>
+<td align="center"><img src="assets/do-not-localize/icon_channels.svg" width="60px"><br><p><b>Webサイトからの外部イベント</b></p></td>
 <td><br><p>これらの手順がすべて実行されると、メッセージを配信できます。</p></td>
-<td>ユーザーが買い物かごに商品を注文せずにサイトを離れるとすぐに、通知電子メールを自動的に受信します。</td>
+<td>ユーザーが買い物かごに商品を注文せずにサイトを離れるとすぐに、対応するキャンペーンイベントがトリガーされます。</td>
+<td>その後、ユーザーは通知電子メールを自動的に受信します。</td>
 </tr>
 </table>
 
@@ -186,6 +153,11 @@ As soon as a user leaves the site without ordering the products in their cart, t
 Adobe Campaignでパーソナライズされたトランザクションメッセージを作成し管理する際の主な手順を、以下の表にまとめます。
 
 ![](assets/message-center-overview.png)
+
+**関連トピック：**
+
+* [メッセージを送信するための主要な手順](../../channels/using/key-steps-to-send-a-message.md)
+* [通信チャネルの概要](../../channels/using/get-started-communication-channels.md)
 
 <!--## Transactional messaging publication process {#transactional-messaging-pub-process}
 
@@ -197,13 +169,7 @@ For more on the event configuration steps, see [Transactional messaging configur
 
 Read more:
 
-* [About transactional messaging](../../channels/using/about-transactional-messaging.md)
 * [Event transactional messages](../../channels/using/event-transactional-messages.md)
 * [Profile transactional messages](../../channels/using/profile-transactional-messages.md)
 * [Transactional push notifications](../../channels/using/transactional-push-notifications.md)
 * [Follow-up messages](../../channels/using/follow-up-messages.md)-->
-
-**関連トピック：**
-
-* [メッセージを送信するための主要な手順](../../channels/using/key-steps-to-send-a-message.md)
-* [通信チャネルの概要](../../channels/using/get-started-communication-channels.md)
