@@ -1,6 +1,6 @@
 ---
 title: リリースノート 2017
-description: このページでは、2017年リリースのAdobe Campaign Standardをすべてリストしています。
+description: このページでは、Adobe Campaign Standard の 2017 年の全リリースを紹介します。
 page-status-flag: never-activated
 uuid: d73f8186-e309-441b-969d-71d0a1c33cf4
 contentOwner: sauviat
@@ -12,23 +12,23 @@ discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 50c3188e1bc0eb92fd52637988834ce8538335a3
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '4631'
-ht-degree: 5%
+source-wordcount: '4623'
+ht-degree: 7%
 
 ---
 
 
 # リリースノート 2017{#release-notes}
 
-2017年のAdobe Campaign Standardの特定リリースをお探しですか？
+2017年のAdobe Campaign Standardのリリースを探していますか？
 
 各リリースには、新機能とパッチが付属しています。 リリースをクリックして、その内容を表示します。
 
-Adobe Campaign Standardに関する最新の [ドキュメント更新の表示](../../rn/using/documentation-updates.md) 。 新しいリリースを探している場合は、この [ページを参照してください](../../rn/using/release-notes.md)。
+Adobe Campaign Standardの最新 [ドキュメント更新表示](../../rn/using/documentation-updates.md) 。 新しいリリースを探している場合は、この [ページを参照してください](../../rn/using/release-notes.md)。
 
-## リリース17.10 - 2017年10月 {#release-17-10---october-2017}
+## リリース 17.10 - 2017 年 10 月 {#release-17-10---october-2017}
 
 **新機能**
 
@@ -45,7 +45,7 @@ Adobe Campaign Standardに関する最新の [ドキュメント更新の表示]
    <td> 疲労管理では、疲労ルールを作成して、プロファイルとの過剰なやり取りを管理できます。 疲労ルールは簡単に作成できますが、複数のチャネル(トランザクションメッセージを含む)でのメッセージのカウント、特定の配信のカウント、特定のプロファイルへのルールの適用などの機能で、非常に柔軟性が高くなります。<br /> 詳しくは、 <a href="../../sending/using/fatigue-rules.md">詳細なドキュメントを参照してください</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> コンテンツの作成： URLからの読み込み<br /> </td> 
+   <td> Content creation: Import from a URL<br /> </td> 
    <td> URLから読み込むと、クリエイティブなコンテンツをWebサイトからすばやく取得して、あらゆる配信向けの電子メールを作成できます。 さらに、サードパーティがURLを使用して直接コンテンツを共有できるようにすることで、クリエイティブプロセスを合理化できます。 読み込んだコンテンツは、1つの配信の一部として、またはテンプレートレベルで柔軟に使用でき、ワークフローベースのキャンペーンでもトランザクションメッセージベースのテストでも、A/Bテストや多変量テストでも、すべての関連のブランドの一貫性を確保できます。 「URLから読み込み」は、すべてのリンクを自動的に変換および追跡し、動的なレポートを使用して電子メールのパフォーマンスを監視します。<br /> 詳しくは、 <a href="../../designing/using/using-existing-content.md#importing-content-from-a-url">詳細なドキュメントを参照してください</a>。<br /> </td> 
   </tr> 
  </tbody> 
@@ -56,10 +56,10 @@ Adobe Campaign Standardに関する最新の [ドキュメント更新の表示]
 _プラットフォーム_
 
 * サイズの大きい圧縮ファイルを正しく解凍できない問題を修正しました。
-* ブランド管理のセキュリティが改善されました。 ブランド名と送信者のアドレスの変更は、アドビの技術管理者のために予約されています。
+* ブランド管理のセキュリティが改善されました。 ブランド名と送信者のアドレスの変更は、Adobeの技術管理者のために予約されています。
 * セキュリティの向上を図るため、ユーザ生成コンテンツ(画像、ミラーページ、ランディングページなど) をadobe.comドメインから提供できなくなりました。 ブランドを使用してこれらのリソースを処理するには、独自のドメインを使用する必要があるようになりました。
 * マーケティングアクティビティを表示およびフィルタリングする際のインターフェイスの問題を修正しました。
-* POST REST API呼び出しで購読日フィールドが更新されない問題を修正しました。
+* POSTREST API呼び出しで購読日フィールドが更新されない問題を修正しました。
 
 _電子メール、SMSメッセージ、ダイレクトメール_
 
@@ -75,12 +75,12 @@ _プッシュ通知_
 * GCMとFCM対応のAndroidモバイルアプリケーションの両方でプッシュ通知がサポートされるようになりました。
 * プッシュ通知テンプレートを複製する場合に、コンテンツが保存されないエラーを修正しました。
 * モバイルアプリのユーザーのデータを調整して、Adobe Campaignプロファイルからデータベースを作成または更新できるようになりました。
-* Adobe Campaignでは、標準のプッシュ通知よりもトランザクションプッシュ通知の処理が優先されるようになりました。
+* Adobe Campaignでは、標準的なプッシュ通知よりもトランザクションプッシュ通知の処理が優先されるようになりました。
 
 _レポート_
 
 * ホットクリックの割合が電子メールコンテンツに表示されない問題を修正しました。
-* ブロックリスト指標がバウンスではなくハードバウンスとしてカウントされていた問題を修正しました。
+* バウンスではなくブロックリストハードバウンスとしてカウントされた指標の問題を修正しました。
 * サマリデータに負の数が表示される問題を修正しました。
 * 間違った年齢セグメントのプロファイルがカウントされる問題を修正しました。
 * ソフトバウンスとハードバウンスの計算式が変更されました。
@@ -107,7 +107,7 @@ _カスタムリソース_
 * リスト画面で、カスタムリソース行がデータなしで表示される問題を修正しました。
 * Boolean型のフィールドで、「False」値が設定されていると、カスタムリソースに表示されない問題を修正しました。
 
-## リリース17.9 - 2017年9月 {#release-17-9---september-2017}
+## リリース 17.9 - 2017 年 9 月 {#release-17-9---september-2017}
 
 **新機能**
 
@@ -171,7 +171,7 @@ _ワークフロー_
 
 _統合_
 
-* Analyticsとキャンペーンの統合で、eVarとイベントがサポートされるようになりました。
+* eVarとイベントがAnalyticsとキャンペーンの統合でサポートされるようになりました。
 * 放棄された買い物かごのコンテンツを含む電子メールを送信する場合、買い物かごから削除された要素のペイロードパラメーターはオプションになりました。
 
 _プロファイルとオーディエンス_
@@ -179,7 +179,7 @@ _プロファイルとオーディエンス_
 * Adobe Campaignに、アクティブなプロファイルの数を表示するレポートが提供されるようになりました。 このレポートは情報を提供するだけで、請求に直接影響しません。 詳しくは、[詳細ドキュメント](../../audiences/using/active-profiles.md)を参照してください。
 * プロファイルおよびサービスAPIを使用する場合に、プロファイルがサービスにサブスクライブできない問題を修正しました。
 
-## リリース17.7 - 2017年7月 {#release-17-7---july-2017}
+## リリース 17.7 - 2017 年 7 月 {#release-17-7---july-2017}
 
 **新機能**
 
@@ -193,7 +193,7 @@ _プロファイルとオーディエンス_
  <tbody> 
   <tr> 
    <td> 多言語の電子メールおよびSMS配信<br /> </td> 
-   <td> お客様の好みの言語を自動的にセグメント化した単一の配信で、多言語のEメールおよびSMS配信を定義し、実行します。 各配信のパフォーマンスを、言語と個々のレベルまでレポートします。<br /> 国内外で成長するにつれて、複数の言語でコンテンツを配信するという課題に直面する会社が増えています。 したがって、ローカライズされたメッセージ配信の合理化は、多国籍会社にとって効果的な顧客コミュニケーション戦略の重要な部分です。 複数の言語を持つ国の会社 お客様の居住地にかかわらず、言語レベルでコンテンツをさらにパーソナライズしたい会社もいます。 詳しくは、<a href="../../channels/using/creating-a-multilingual-email.md">詳細ドキュメント</a>を参照してください。<br /> </td> 
+   <td> お客様の好みの言語を自動的にセグメント化した単一の配信で、多言語のEメールおよびSMS配信を定義し、実行します。 各配信のパフォーマンスを、言語レベルと個人レベルでレポートにまとめます。<br /> 国内外で成長するにつれて、複数の言語でコンテンツを配信するという課題に直面する会社が増えています。 したがって、ローカライズされたメッセージ配信の合理化は、多国籍会社にとって効果的な顧客コミュニケーション戦略の重要な部分です。複数の言語を持つ国の会社お客様の居住地にかかわらず、言語レベルでコンテンツをさらにパーソナライズしたい会社もいます。 詳しくは、<a href="../../channels/using/creating-a-multilingual-email.md">詳細ドキュメント</a>を参照してください。<br /> </td> 
   </tr> 
   <tr> 
    <td> Adobe Campaign通知<br /> </td> 
@@ -201,18 +201,18 @@ _プロファイルとオーディエンス_
   </tr> 
   <tr> 
    <td> 配信警告<br /> </td> 
-   <td> Adobe Campaignは、通知をAdobe Campaign Standardで直接表示するだけでなく、重要なシステムアクティビティに関するユーザーや外部の関係者に対する電子メールの警告をトリガーする電子メール通知システムも提供するようになりました。 配信の成功または失敗を追跡するために、カスタマイズ可能なアラートとダッシュボードを作成、管理、受信します。<br /> Adobe Campaign配信アラート機能は、会社内のすべての関与するAdobe Campaignユーザーに電子メールおよびダッシュボード経由で、配信の実行状況を自動的に通知し続けることで、効率を向上させます。 詳しくは、<a href="../../sending/using/receiving-alerts-when-failures-happen.md">詳細ドキュメント</a>を参照してください。<br /> </td> 
+   <td> Adobe Campaignは、Adobe Campaign Standardで直接通知を表示するだけでなく、重要なシステムアクティビティに関するユーザーや外部の関係者に対する電子メールアラートをトリガーする電子メールアラートシステムも提供するようになりました。 配信の成功または失敗を追跡するために、カスタマイズ可能なアラートとダッシュボードを作成、管理、受信します。<br /> Adobe Campaign配信アラート機能は、会社内のすべての関与するAdobe Campaignユーザーに電子メールおよびダッシュボード経由で、配信の実行状況を自動的に通知し続けることで、効率を向上させます。 詳しくは、<a href="../../sending/using/receiving-alerts-when-failures-happen.md">詳細ドキュメント</a>を参照してください。<br /> </td> 
   </tr> 
   <tr> 
    <td> データソース内の暗号化された宣言済みID<br /> </td> 
-   <td> 暗号化された連絡先プロファイル（電子メールアドレスまたは電話番号）を宣言済みIDとして使用することで、キャンペーン内の既存の情報を必要とせずに電子メールおよびSMSトリガーを送信できます。 暗号化された宣言済みIDはAdobe Campaign Standardでデコードできるので、キャンペーンは、以前は不明な連絡先を含む他のExperience Cloudソリューションからオーディエンスを受信する場合に、新しいマーケティング可能なプロファイルを作成できるようになりました。<br /> Targetのお客様と不明な見込み客をEメールとSMSの両方を通じてリアルタイムに計測し、既存のお客様の忠誠度を向上させ、新規のお客様をそれぞれ獲得します。 見込み客がAdobe Campaignでこれらのインサイトを認証し、活用したら、(Adobe Audience Manager*の)ファーストパーティcookieデータを最大限に活用します。 <br /> *Adobe Audience Managerが必要です。 詳しくは、<a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">詳細ドキュメント</a>を参照してください。<br /> </td> 
+   <td> 暗号化された連絡先プロファイル（電子メールアドレスまたは電話番号）を宣言済みIDとして使用することで、キャンペーン内の既存の情報を必要とせずに電子メールおよびSMSトリガーを送信できます。 暗号化された宣言済みIDはAdobe Campaign Standardでデコードできるので、キャンペーンは、以前は不明な連絡先を含む他のExperience Cloudソリューションからオーディエンスを受信する場合に、新しいマーケティング可能なプロファイルを作成できるようになりました。<br /> ターゲットのお客様と不明な見込み客をEメールとSMSの両方を通じてリアルタイムに計測し、既存のお客様の忠誠度を向上させ、新規のお客様をそれぞれ獲得します。 見込み客がAdobe Campaignでこれらのインサイトを認証し、活用したら、(Adobe Audience Manager*の)ファーストパーティCookieデータを最大限に活用します。 <br /> *Adobe Audience Managerは必須。 詳しくは、<a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">詳細ドキュメント</a>を参照してください。<br /> </td> 
   </tr> 
   <tr> 
-   <td> キャンペーンからAnalyticsへのKPI共有<br /> </td> 
-   <td> アドビのAnalyticsとキャンペーンデータを共有し、コンバージョンを通じて他のマーケティングや広告の取り組みと共にキャンペーンから電子メールマーケティング指標を測定し、クリック前とクリック後の行動を統一します。<br /> 全体的なパフォーマンスを直接追跡し、Analyticsの外部プログラムとの間のシナリーを明らかにします。 この統合された表示の学習内容をキャンペーンに反映し、 最終的にオープン、クリックスルー、コンバージョン率を改善することで、売上高と全体的なキャンペーンパフォーマンスが向上します。 <br /> アドビAnalyticsが必要です。 詳しくは、<a href="../../integrating/using/about-campaign-analytics-integration.md">詳細ドキュメント</a>を参照してください。<br /> </td> 
+   <td> KPI sharing from Campaign to Analytics<br /> </td> 
+   <td> キャンペーンデータをAdobe Analyticsと共有して、コンバージョンを通じて他のマーケティングや広告の取り組みと共にキャンペーンから電子メールマーケティング指標を測定し、クリック前とクリック後の行動を統一します。<br /> 全体的なパフォーマンスを直接追跡し、Analyticsの外部プログラムとのシナリーを明らかにします。 この統合された表示の学習内容をキャンペーンに反映し、最終的にオープン、クリックスルー、コンバージョン率を改善することで、売上高と全体的なキャンペーンパフォーマンスが向上します。 <br /> Adobe Analyticsは必須です。 詳しくは、<a href="../../integrating/using/about-campaign-analytics-integration.md">詳細ドキュメント</a>を参照してください。<br /> </td> 
   </tr> 
   <tr> 
-   <td> ダイレクトメールチャネル — 送信者に戻る<br /> </td> 
+   <td> Direct Mail Channel - Return To Sender<br /> </td> 
    <td> 「Return to Sender」情報を組み込んだダイレクトメールプロバイダとのフラットなファイル交換がサポートされるようになりました。 このダイレクトメールチャネルの強化により、対応する住所を今後の通信から除外できるようになりました。<br /> これにより、マーケターは、間違った住所を通知され、他のチャネルを通じて顧客と連絡を取ったり、住所の更新を促したりできます。 また、マーケターが誤ったアドレスにメールを送信しないようにするため、マーケティングに費やされる費用も減ります。 <br /> ダイレクトメールはアドオンチャネルとして使用できます。 詳しくは、<a href="../../channels/using/return-to-sender.md">詳細ドキュメント</a>を参照してください。<br /> </td> 
   </tr> 
  </tbody> 
@@ -255,7 +255,7 @@ _ワークフロー_
 * 定期的な配信の作成ウィザードでアウトバウンドトランジションを設定できない問題を修正しました。
 * 多数の値を持つ定義済みリストを含むカスタムリソースフィールドに基づくワークフロークエリアクティビティを使用する場合に発生していた問題を修正しました
 
-## リリース17.5 - 2017年5月 {#release-17-5---may-2017}
+## リリース 17.5 - 2017 年 5 月 {#release-17-5---may-2017}
 
 **新機能**
 
@@ -269,7 +269,7 @@ _ワークフロー_
  <tbody> 
   <tr> 
    <td> ダイレクトメール<br /> </td> 
-   <td> デジタルの壁を突破し、Adobe Campaign Standard初のオフラインチャネル、ダイレクトメールで物理的な世界に接続します。 この機能を使用すると、ダイレクトメールプロバイダーが必要とするファイルをパーソナライズし、チャネル間のキャンペーンの一部として生成できます。 ダイレクトメールを活用して、顧客を再び惹きつけたり、強制的な触覚タッチポイントによって顧客体験を強化したりして、顧客をアプリ、Webサイト、ストアに誘導します。<br /> 詳しくは、 <a href="../../channels/using/about-direct-mail.md">詳細なドキュメントを参照してください</a>。<br /> </td> 
+   <td> デジタルの壁を突破し、Adobe Campaign Standard初のオフラインチャネル、ダイレクトメールで物理的な世界に接続。 この機能を使用すると、ダイレクトメールプロバイダーが必要とするファイルをパーソナライズし、チャネル間のキャンペーンの一部として生成できます。 ダイレクトメールを活用して、顧客を再び惹きつけたり、強制的な触覚タッチポイントによって顧客体験を強化したりして、顧客をアプリ、Webサイト、ストアに誘導します。<br /> 詳しくは、 <a href="../../channels/using/about-direct-mail.md">詳細なドキュメントを参照してください</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> E メールの BCC<br /> </td> 
@@ -302,7 +302,7 @@ _プッシュ通知_
 * プロファイルのマーケティング履歴ーでプッシュイベントをクリックできない問題を修正しました。
 * ワークフローでのプッシュ通知の使用が改善されました。
 
-## リリース17.4 - 2017年4月 {#release-17-4---april-2017}
+## リリース 17.4 - 2017 年 4 月 {#release-17-4---april-2017}
 
 **新機能**
 
@@ -315,12 +315,12 @@ _プッシュ通知_
  </thead> 
  <tbody> 
   <tr> 
-   <td> Creative SDKによる拡張されたImage Edition機能<br /> </td> 
-   <td> 電子メールやランディングページの編集時に、Creative SDKが提供する一連の機能にアクセスして、コンテンツエディターで直接画像を拡張できます。<br /> この機能では、追加のCreative Cloudソリューションを購入する必要はありません。<br /> 詳しくは、 <a href="../../designing/using/images.md#modifying-images-with-the-adobe-creative-sdk">詳細なドキュメントを参照してください</a>。<br /> </td> 
+   <td> Enhanced Image edition capabilities with the Creative SDK<br /> </td> 
+   <td> 電子メールやランディングページの編集時に、Creative SDKが提供する一連の機能にアクセスして、コンテンツエディターで直接画像を拡張できます。<br /> この機能では、追加のCreative Cloudソリューションを取得する必要はありません。<br /> 詳しくは、 <a href="../../designing/using/images.md#modifying-images-with-the-adobe-creative-sdk">詳細なドキュメントを参照してください</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> トランザクションプッシュ通知<br /> </td> 
-   <td> モバイルアプリケーションチャネルは、Adobe Campaignのトランザクションメッセージング機能に追加されました。 トランザクションメッセージで次の3つのチャネルがサポートされるようになりました。 電子メール、SMS、プッシュ通知。<br /> 詳しくは、 <a href="../../channels/using/transactional-push-notifications.md">詳細なドキュメントを参照してください</a>。<br /> </td> 
+   <td> モバイルアプリケーションチャネルは、Adobe Campaignのトランザクションメッセージング機能に追加されました。 トランザクションメッセージで次の3つのチャネルがサポートされるようになりました。電子メール、SMS、プッシュ通知。<br /> 詳しくは、 <a href="../../channels/using/transactional-push-notifications.md">詳細なドキュメントを参照してください</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 定期的なプッシュ通知<br /> </td> 
@@ -331,8 +331,8 @@ _プッシュ通知_
    <td> Amazon Simple Storage Service（S3）コネクタを使用して Adobe Campaign との間でデータのインポートまたはエクスポートをおこなえるようになりました。コネクタのセットアップはワークフローアクティビティでおこなえます。設定は外部アカウントでおこないます。<br /> 詳しくは、 <a href="../../administration/using/external-accounts.md">詳細なドキュメントを参照してください</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Dreamweaverとの統合をライブにする<br /> </td> 
-   <td> Adobe CampaignとDreamweaverの統合が実稼働します。 Dreamweaverの正式な最終リリース版(17.0.2)で動作するようになりました。<br /> これには、次の場所からAdobe Campaign統合拡張機能をインストールする必要があります。 <a href="https://adobe.ly/acdw_addon">https://adobe.ly/acdw_addon</a><br /> 詳しくは、この <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">ビデオを参照してください</a>。<br /> </td> 
+   <td> Dreamweaver統合生活<br /> </td> 
+   <td> 今、Adobe CampaignとDreamweaverの統合は実行中です。 現在は、Dreamweaverの正式な最終リリース版(17.0.2)で動作しています。<br /> これには、次の場所からAdobe Campaign統合拡張機能をインストールする必要があります。 <a href="https://adobe.ly/acdw_addon">https://adobe.ly/acdw_addon</a><br /> 詳しくは、この <a href="https://docs.adobe.com/content/help/ja-JP/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.translate.html">ビデオを参照してください</a>。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -370,7 +370,7 @@ _ワークフロー_
 
 _統合_
 
-* 目標地点データ： 場所のサブスクライバーをカウントする際に発生するエラーを修正しました。
+* 目標地点データ：場所のサブスクライバーをカウントする際に発生するエラーを修正しました。
 
 _オーディエンスとクエリ_
 
@@ -387,7 +387,7 @@ _プッシュ通知_
 * MCPNSでの作成に失敗したモバイルアプリにリンクされたAndroidアプリを作成すると、エラーメッセージが表示されない問題を修正しました。
 * ユーザーがサイレント通知にサウンドを追加できる問題を修正しました。
 
-## リリース17.2 - 2017年3月 {#release-17-2---march-2017}
+## リリース 17.2 - 2017 年 3 月 {#release-17-2---march-2017}
 
 **新機能**
 
@@ -404,8 +404,8 @@ _プッシュ通知_
    <td> 動的なレポートは、完全にカスタマイズ可能なリアルタイムのビジネスレポートを新世代で提供します。 視覚的な動的ピボットテーブルとグラフィックに基づいて、この機能を使用すると、変数とディメンションをドラッグ&amp;ドロップして、マーケティングキャンペーンの効率と効果を分析できます。 また、動的なレポートを使用すると、独自のビジネスレポートをゼロから作成して保存し、後で使用できるようにすることができます。<br /> 詳しくは、 <a href="../../reporting/using/about-dynamic-reports.md">詳細なドキュメントを参照してください</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Dreamweaverの統合（ラボ）<br /> </td> 
-   <td> Adobe CampaignとDreamweaverの統合により、アドビのソリューションで電子メールキャンペーンを作成するための統合プロセスが可能になりました。<br /> DreamweaverでAdobe Campaign電子メールを編集し、コンテンツを両方のソリューション間でシームレスに同期させることができます。<br /> 最初のリリースでは、この統合は「ラボ」機能として利用でき、Dreamweaverプレリリースベータ版でのみ機能します。 ライセンス認証を行う場合は、AC-DW-integration@adobe.comにお問い合わせください。<br /> 詳しくは、この <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">ビデオを参照してください</a>。<br /> </td> 
+   <td> Dreamweaver統合（研究所）<br /> </td> 
+   <td> Adobe CampaignとDreamweaverの統合により、Adobeソリューションを使用して電子メールキャンペーンを作成するための統合プロセスが実現しました。<br /> DreamweaverでAdobe Campaignの電子メールを編集し、コンテンツを両方のソリューション間でシームレスに同期させることができます。<br /> 最初のリリースでは、この統合は「ラボ」機能として利用でき、Dreamweaverプレリリースベータ版でのみ機能します。 ライセンス認証を行う場合は、AC-DW-integration@adobe.comにお問い合わせください。<br /> 詳しくは、この <a href="https://docs.adobe.com/content/help/ja-JP/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.translate.html">ビデオを参照してください</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 手動送信時間の最適化<br /> </td> 
@@ -427,20 +427,20 @@ _プッシュ通知_
     </ul> 詳しくは、<a href="../../channels/using/about-push-notifications.md">詳細ドキュメント</a>を参照してください。<br /> </td> 
   </tr> 
   <tr> 
-   <td> ワークフロー: 新しい信号アクティビティ<br /> </td> 
+   <td> ワークフロー:新しい信号アクティビティ<br /> </td> 
    <td> 新しい <span class="uicontrol">Signal</span> アクティビティを使用して、別のワークフローからワークフローをトリガします。<br /> あるワークフローを別のワークフローから開始できるので、より複雑なカスタマージャーニーをサポートできるようになりました。 問題が発生した場合に備えて、お客様のジャーニーをより良く監視し、対応することができます。<br /> ワークフローアクティビティの一部が更新されました。<br /> 
     <ul> 
-     <li> <span class="uicontrol">終了アクティビティ</span> : 新しいタブを使用して、このアクティビティの実行後にトリガーするワークフローを指定できます。 </li> 
-     <li> <span class="uicontrol">Update data</span> アクティビティ: 新しい空の送信トランジションを使用して、別のワークフローをトリガーする <strong>End</strong> アクティビティを追加します。 空の送信トランジションはデータを送信せず、システム上の不要な領域を消費しません </li> 
+     <li> <span class="uicontrol">終了アクティビティ</span> :新しいタブを使用して、このアクティビティの実行後にトリガーするワークフローを指定できます。 </li> 
+     <li> <span class="uicontrol">Update data</span> アクティビティ:新しい空の送信トランジションを使用して、別のワークフローをトリガーする <strong>End</strong> アクティビティを追加します。 空の送信トランジションはデータを送信せず、システムの不要な領域を消費しません </li> 
     </ul> 詳しくは、<a href="../../automating/using/external-signal.md">詳細ドキュメント</a>を参照してください。<br /> </td> 
   </tr> 
   <tr> 
-   <td> ワークフロー: 新しい読み取りオーディエンスアクティビティ<br /> </td> 
+   <td> ワークフロー:新しい読み取りオーディエンスアクティビティ<br /> </td> 
    <td> ターゲット設定プロセスを既存のオーディエンスと開始し、1つのアクティビティで簡単に選択および絞り込みを行うことができます。<br /> 詳しくは、 <a href="../../automating/using/read-audience.md">詳細なドキュメントを参照してください</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> 目標地点データ<br /> </td> 
-   <td> 目標地点データは、MobileのアドビのAnalyticsとAdobe Campaignを統合します。 ブランドは、ユーザーがブランドのアプリを開いたときに、 <strong>目標地点</strong> (POI)と呼ばれるユーザーのモバイルの場所からデータを収集できます。 これにより、ブランドはAdobe Campaignのワークフローを活用して、ユーザーの場所に基づいてパーソナライズされたメッセージを送信できます。 このチャネルは、MobileコアサービスのSDKを利用します。<br /> この機能を使用するには、有料ソリューションであるMobileのAnalyticsが必要になることに注意してください。<br /> 詳しくは、 <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">詳細なドキュメントを参照してください</a>。<br /> </td> 
+   <td> 目標地点データは、MobileのAdobe AnalyticsとのAdobe Campaignを統合します。 ブランドは、ユーザーがブランドのアプリを開いたときに、 <strong>目標地点</strong> (POI)と呼ばれるユーザーのモバイルの場所からデータを収集できます。 これにより、ブランドはAdobe Campaignのワークフローを活用して、ユーザーの場所に基づいてパーソナライズされたメッセージを送信できます。 このチャネルは、MobileコアサービスのSDKを利用します。<br /> この機能を使用するには、有料ソリューションであるAnalytics for Mobileが必要になることに注意してください。<br /> 詳しくは、 <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">詳細なドキュメントを参照してください</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> REST API<br /> </td> 
@@ -470,7 +470,7 @@ _ワークフロー_
 * アクティビティの拒否トランジションの内容を読み取れない可能性がある問題を修正しました。 **[!UICONTROL Load file]**
 * アクティビティの設定時に、入れ替えた列が正しく考慮されない問題を修正しました。 **[!UICONTROL Load file]**
 
-## リリース17.1 - 2017年1月 {#release-17-1---january-2017}
+## リリース 17.1 - 2017 年 1 月 {#release-17-1---january-2017}
 
 **新機能**
 
@@ -488,24 +488,24 @@ _ワークフロー_
     <ul> 
      <li> <span class="uicontrol">増分処理クエリ</span> では、日付フィールドを使用して、新しいデータや更新されたデータを取得できるようになりました。 以前は、前回の実行以降に更新された場合でも、以前の実行の結果はすべて自動的に除外されていました。 </li> 
      <li> <span class="uicontrol">定義済みリスト値のラベルをIDではなく書き出せるようになりました</span> 。 </li> 
-    </ul> これらのアクティビティは、すべての地域および組織のユニットにアクセスできる管理者が使用できます。<br /> ログのエクスポートの詳細については、 <a href="../../automating/using/exporting-logs.md">詳細なドキュメントを参照してください</a>。<br /> </td> 
+    </ul> これらのアクティビティは、すべての地域および組織の単位にアクセスできる管理者が使用できます。<br /> ログのエクスポートの詳細については、 <a href="../../automating/using/exporting-logs.md">詳細なドキュメントを参照してください</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> トランザクションメッセージ向けマーケティング機能<br /> </td> 
    <td> マーケターは、顧客のマーケティングプロファイルに基づいてトランザクションメッセージを送信できるようになりました。 これにより、次のことが可能になります。<br /> 
     <ul> 
-     <li> 「ブロックリストの <span class="uicontrol">住所」などのマーケティングタイポロジルールを適用します</span> 。 </li> 
-     <li> メッセージ内に購読解除リンクを含めます。 </li> 
-     <li> グローバル追加配信レポートへのトランザクションメッセージ。 </li> 
-     <li> お客様の遍歴でトランザクションメッセージを活用します。 </li> 
+     <li> <span class="uicontrol">ブロックリストに加える住所などのマーケティングタイポロジルールを適用します</span> 。 </li> 
+     <li> メッセージ内に購読解除リンクを含める。 </li> 
+     <li> グローバル配信レポートにトランザクションメッセージを追加する。 </li> 
+     <li> カスタマージャーニーでトランザクションメッセージを活用する。 </li> 
     </ul> 詳しくは、<a href="../../channels/using/profile-transactional-messages.md">詳細ドキュメント</a>を参照してください。<br /> </td> 
   </tr> 
   <tr> 
    <td> トランザクションメッセージングAPI<br /> </td> 
-   <td> トランザクションメッセージングAPIが <a href="https://docs.campaign.adobe.com/doc/standard/en/adobeio.html">adobe.ioを通じて使用できるようになり</a>、使いやすくなり、監視も容易になりました。<br /> 
+   <td> トランザクションメッセージングAPIが <a href="https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/developing/adding-or-extending-a-resource/updating-the-database-structure.translate.html">adobe.ioを通じて使用できるようになり</a>、使いやすくなり、監視も容易になりました。<br /> 
     <ul> 
      <li> adobe.ioプラットフォームのレポート機能と監視機能が役に立ちます。 </li> 
-     <li> 認証は、IP認証の代わりにadobe.ioトークンベースの許可リストを使用して実行されるようになり、セキュリティプロセスがより簡単になりました。 </li> 
+     <li> 認証は、IP許可リストの代わりにadobe.ioトークンベースの認証を使用して実行されるようになり、セキュリティプロセスがより簡単になりました。 </li> 
      <li> すべてのAPIが単一のプラットフォームに統合され、プロファイルおよびサービスAPIを既にサポートしている場合は、統合にトランザクションメッセージング機能を追加するのを従来よりも簡単に実行できます。 </li> 
     </ul> </td> 
   </tr> 
@@ -530,7 +530,7 @@ _プッシュ通知_
 * アプリケーションからAdobe Campaignサーバーへのポストバックができない可能性がある問題を修正しました。
 * Androidで考慮できず、考慮されない問題 **[!UICONTROL Play a sound]** を修正し **[!UICONTROL Custom fields]** ました。
 * 絵文字に使用されるUnicode文字に余分なエスケープ文字が追加される問題を修正しました。
-* 加入者の登録トークンがブロックリストに追加されると、対応するステータスが、Adobe Campaign内の加入者のリスト内で直ちに更新されるようになりました。
+* 加入者の登録トークンがブロックリストに加えるされると、対応するステータスが、Adobe Campaign内の加入者のアプリケーションリストで直ちに更新されるようになりました。
 
 _ワークフロー_
 
@@ -543,6 +543,6 @@ _ワークフロー_
 _統合_
 
 * Adobe Campaignにイベントトリガーを展開する際にエラーが発生する可能性がある問題を修正しました。 このエラーは、「30日後に再来訪する可能性」メタデータがAdobe Marketing Cloudの放棄トリガーに追加された場合に発生していました。
-* 技術ワークフローで、Peopleコアサービスからオーディエンスをインポートする際に、Targetディメンションフィールドがクリアされる可能性がある問題を修正しました。 以降のクエリは、読み込んだオーディエンスを取得できませんでした。
+* Peopleコアサービスからオーディエンスをインポートする際に、技術ワークフローでターゲットのDimensionフィールドがクリアされる可能性がある問題を修正しました。 以降のクエリは、読み込んだオーディエンスを取得できませんでした。
 * オプションをチェックすると、ワークフローの **[!UICONTROL Save audience]** アクティビティが失敗する可能性がある問題を修正し **[!UICONTROL Share in Adobe Marketing Cloud]** ました。
 
