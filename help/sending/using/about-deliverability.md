@@ -13,9 +13,9 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 121ec37cef6193d3a7085b6d0296b6a2e7cafa06
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '662'
 ht-degree: 86%
 
 ---
@@ -48,15 +48,15 @@ E メール配信品質とは、期待される品質のコンテンツとフォ
 まず、Campaign Standardと共に提供される配信品質ツールに関するドキュメントを参照し、開始を行います。
 * [配信のベストプラクティス](https://helpx.adobe.com/jp/campaign/kb/delivery-best-practices.html)
 * [送信者名の個人設定](../../designing/using/personalization.md#personalizing-the-sender)
-* [電子メールの件名行のテスト](../../sending/using/testing-subject-line-email.md)
+* [E メールの件名行のテスト](../../sending/using/testing-subject-line-email.md)
 * [送信時間の最適化](../../sending/using/optimizing-the-sending-time.md)
 * [メッセージのプレビュー](../../sending/using/previewing-messages.md)
-* [電子メールのレンダリング](../../sending/using/email-rendering.md)
+* [E メールのレンダリング](../../sending/using/email-rendering.md)
 * [配信の監視](../../sending/using/monitoring-a-delivery.md)
 * [エラー発生時のアラートの受信](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [配信エラーの理解](../../sending/using/understanding-delivery-failures.md)
 * [強制隔離管理の理解](../../sending/using/understanding-quarantine-management.md)
-* [強制隔離とブロックリスト](../../sending/using/understanding-quarantine-management.md#quarantine-vs-block-list)
+* [強制隔離ブロックリスト対](../../sending/using/understanding-quarantine-management.md#quarantine-vs-block-list)
 * [動的レポート](../../reporting/using/about-dynamic-reports.md)
 
 ## ネットワーク設定の確認 {#network-configuration}
