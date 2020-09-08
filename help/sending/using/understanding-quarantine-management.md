@@ -12,10 +12,10 @@ discoiquuid: de3a50b6-ea8f-4521-996b-c49cc1f3c946
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 121ec37cef6193d3a7085b6d0296b6a2e7cafa06
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 81%
+source-wordcount: '786'
+ht-degree: 83%
 
 ---
 
@@ -32,23 +32,23 @@ ht-degree: 81%
 
 E メールアドレスまたは電話番号が強制隔離されているプロファイルは、メッセージ準備の際に自動的に除外されます（[配信用の強制隔離アドレスの識別](#identifying-quarantined-addresses-for-a-delivery)を参照）。これによって配信が迅速になります。エラー率は配信の速度に大きく影響するからです。
 
-一部のインターネットアクセスプロバイダーは、無効なアドレスの割合が高すぎる場合、E メールを自動的にスパムとみなします。したがって、強制隔離を使用すると、これらのプロバイダーによってブロックリストに追加されるのを回避できます。
+一部のインターネットアクセスプロバイダーは、無効なアドレスの割合が高すぎる場合、E メールを自動的にスパムとみなします。したがって、強制隔離を使用すると、これらのプロバイダーブロックリストに加えるによる存在を回避できます。
 
 また、強制隔離は、誤りのある電話番号を配信から除外することで、SMS の送信コスト削減にも役立ちます。
 
 配信を保護および最適化するベストプラクティスについて詳しくは、[このページ](https://helpx.adobe.com/jp/campaign/kb/delivery-best-practices.html)を参照してください。
 
-### 強制隔離とブロックリスト {#quarantine-vs-block-list}
+### 強制隔離ブロックリスト対 {#quarantine-vs-denylist}
 
 **強制隔離**&#x200B;は、プロファイル自体ではなく、アドレスのみに適用されます。つまり、2 つのプロファイルに同じ E メールアドレスがある場合、そのアドレスが強制隔離されると、両方のプロファイルが影響を受けます。
 
 同様に、E メールアドレスが強制隔離されているプロファイルは、プロファイルを更新して新しいアドレスを入力できるので、再び配信アクションのターゲットになる可能性があります。
 
-Being on the **block list**, on the other hand, will result in the profile no longer being targeted by any delivery, for example after an unsubscription (opt-out). ブロックリストプロセスについて詳しくは、キャンペーンでのオプトインとオプトアウトに [ついてを参照してください](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)。
+Being on the **Denylist**, on the other hand, will result in the profile no longer being targeted by any delivery, for example after an unsubscription (opt-out). キャンペーンプロセスについて詳しくは、ブロックリストでのオプトインおよびオプトアウトについてを参照してください [](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)。
 
 >[!NOTE]
 >
->ユーザがSMS配信からオプトアウトするために「STOP」などのキーワードを持つSMSメッセージに返信した場合、電子メールオプトアウト処理のように、ブロックリストにプロファイルは追加されません。 プロファイルの電話番号は「**[!UICONTROL On block list]**」ステータスになり、強制隔離されます。このステータスは電話番号のみを表し、プロファイルはブロックリスト上にないので、ユーザーは電子メールメッセージの受信を続行します。 詳しくは、[この節](../../channels/using/managing-incoming-sms.md#managing-stop-sms)を参照してください。
+>ユーザがSMS配信からオプトアウトするために「STOP」などのキーワードを含むSMSメッセージに返信する場合、プロファイルは電子メールオプトアウト処理とは異なブロックリストに加えるります。 プロファイルの電話番号は「**[!UICONTROL Denylisted]**」ステータスになり、強制隔離されます。このステータスは電話番号のみを表し、プロファイルは電子メールの受信を続けブロックリストに加えるるため、ユーザーは電話番号を表します。 詳しくは、[この節](../../channels/using/managing-incoming-sms.md#managing-stop-sms)を参照してください。
 
 ## 強制隔離アドレスの識別 {#identifying-quarantined-addresses}
 
@@ -88,7 +88,7 @@ Adobe Campaign は、エラーメッセージの選定時に割り当てられ�
 
    再試行後に配信が成功すると、成功前は強制隔離されていたアドレスのエラーカウンターが再初期化されます。アドレスのステータスが「**[!UICONTROL Valid]**」に変わり、**[!UICONTROL Database cleanup]** ワークフローによって、2 日後に強制隔離のリストから削除されます。
 
-ユーザーが E メールをスパム（**フィードバックループ**）と評価した場合、メッセージは Campaign が管理するテクニカルメールボックスに自動的にリダイレクトされます。さらに、その E メールアドレスは自動的に強制隔離され、ステータスが「**[!UICONTROL On block list]**」となります。この状態はアドレスのみを表し、プロファイルはブロックリスト上にないので、SMSメッセージやプッシュ通知を受信し続けます。
+ユーザーが E メールをスパム（**フィードバックループ**）と評価した場合、メッセージは Campaign が管理するテクニカルメールボックスに自動的にリダイレクトされます。さらに、その E メールアドレスは自動的に強制隔離され、ステータスが「**[!UICONTROL Denylisted]**」となります。この状態はアドレスのみを表し、プロファイルはブロックリスト上にないので、SMSメッセージやプッシュ通知を受け取り続けます。
 
 >[!NOTE]
 Adobe Campaign の強制隔離では、大文字と小文字が区別されます。後から再度ターゲットされることのないよう、E メールアドレスは必ず小文字でインポートしてください。
