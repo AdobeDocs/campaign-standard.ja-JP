@@ -12,7 +12,7 @@ discoiquuid: 2ea51543-fe4d-462b-b47e-9ccaa1d68dfa
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: da4be48018128a766c749e30301c3c86e9fcf9e9
+source-git-commit: 3534fb2cf9f77168eb3ca0021f4121a44a57916d
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 6%
@@ -38,5 +38,5 @@ Adobe Analyticsのコアサービス **Triggers** とAdobe Campaignの統合も�
 **関連トピック：**
 
 * [AnalyticsとのCampaign Standardの概要](https://docs.adobe.com/content/help/en/analytics/integration/adobe-campaign.html)
-* [Campaign Standard統合の設定] (https://docs.adobe.com/content/help/en/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-analytics/configure-campaign-analytics-integration.html)
+* [Campaign Standard統合の設定](https://docs.adobe.com/content/help/en/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-analytics/configure-campaign-analytics-integration.html)
 * [Analytics での Campaign のディメンションと指標](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
