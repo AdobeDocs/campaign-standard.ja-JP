@@ -13,7 +13,7 @@ context-tags: delivery,smsContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
 source-wordcount: '1727'
 ht-degree: 7%
@@ -94,7 +94,7 @@ ht-degree: 7%
       </tr>
       <tr>
          <td>created</td>
-         <td>作成済み</td>
+         <td>作成日時</td>
          <td>日付 </td>
          <td> </td>
       </tr>
@@ -431,7 +431,7 @@ ht-degree: 7%
          <td>定義済みリスト（バイト） </td>
          <td>
             <ul>
-               <li>ブロックリスト-ブロックリスト- 3</li>
+               <li>ブラックリスト — blackList - 3</li>
                <li>特定のアクションなし — なし — 0</li>
                <li>購読解除-購読解除- 2</li>
                <li>無効な値 — __Invalid_value__ - __Invalid_value__</li>
@@ -595,7 +595,7 @@ ht-degree: 7%
                <li>(GMT-07:00)ロッキー山脈（米国およびカナダ） — America_Denver - America/Denver</li>
                <li>(GMT+01:00)中央アフリカ — 西 — Africa_Luanda - Africa/Luanda</li>
                <li>(GMT+02:00)ヘルシンキ、キエフ、リガ、ソフィア、タリン、ビルニウス — Europe_Helsinki - Europe/Helsinki</li>
-               <li>(GMT)グリニッジ標準時： ダブリン、エジンバラ、リスボン、ロンドン — Europe_London - Europe/London</li>
+               <li>(GMT)グリニッジ標準時：ダブリン、エジンバラ、リスボン、ロンドン — Europe_London - Europe/London</li>
                <li>(GMT-07:00)アリゾナ — America_Phoenix - America/Phoenix</li>
                <li>(GMT+02:00)ベイルート — Asia_Beirut - Asia/Beirut</li>
                <li>(GMT+04:30)カブール — Asia_Kabul — アジア/カブール</li>
@@ -636,7 +636,7 @@ ht-degree: 7%
             <ul>
                <li>汎用 — 汎用 — 0</li>
                <li>サービスからの購読解除-購読解除- 3</li>
-               <li>ブロックリスト-ブロックリスト- 4</li>
+               <li>ブラックリスト — blackList - 4</li>
                <li>無効な値 — __Invalid_value__ - __Invalid_value__</li>
                <li>獲得 — 獲得 — 1</li>
                <li>サービスへの購読-購読- 2</li>
