@@ -10,7 +10,7 @@ discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
 source-wordcount: '1204'
 ht-degree: 11%
@@ -48,43 +48,43 @@ ht-degree: 11%
                   <td> </td>
                </tr>
                <tr>
-                  <td>ブロックリスト</td>
+                  <td>blackList</td>
                   <td>今後の連絡は不要 (すべてのチャネル)</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blockListEmail</td>
+                  <td>blackListEmail</td>
                   <td>今後の E メールによる連絡は不要</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blockListFax</td>
+                  <td>blackListFax</td>
                   <td>今後の FAX による連絡は不要</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blockListMobile</td>
+                  <td>blackListMobile</td>
                   <td>今後の SMS による連絡は不要</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blockListPhone</td>
+                  <td>blackListPhone</td>
                   <td>今後の電話による連絡は不要</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blockListPostalMail</td>
+                  <td>blackListPostalMail</td>
                   <td>今後のダイレクトメールによる連絡は不要</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>blockListPushnotification</td>
+                  <td>blackListPushnotification</td>
                   <td>プッシュ通知による連絡がなくなりました</td>
                   <td>boolean </td>
                   <td> </td>
@@ -115,7 +115,7 @@ ht-degree: 11%
                </tr>
                <tr>
                   <td>created</td>
-                  <td>作成済み</td>
+                  <td>作成日時</td>
                   <td>日付 </td>
                   <td> </td>
                </tr>
@@ -145,7 +145,7 @@ ht-degree: 11%
                </tr>
                <tr>
                   <td>email</td>
-                  <td>E メール</td>
+                  <td>電子メール</td>
                   <td>文字列(128)</td>
                   <td> </td>
                </tr>
@@ -201,7 +201,7 @@ ht-degree: 11%
                <tr>
                   <td>lastName</td>
                   <td>姓</td>
-                  <td>文字列(30)</td>
+                  <td>文字列(50)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -373,7 +373,7 @@ ht-degree: 11%
                         <li>(GMT-07:00)ロッキー山脈（米国およびカナダ） — America_Denver - America/Denver</li>
                         <li>(GMT+01:00)中央アフリカ — 西 — Africa_Luanda - Africa/Luanda</li>
                         <li>(GMT+02:00)ヘルシンキ、キエフ、リガ、ソフィア、タリン、ビルニウス — Europe_Helsinki - Europe/Helsinki</li>
-                        <li>(GMT)グリニッジ標準時： ダブリン、エジンバラ、リスボン、ロンドン — Europe_London - Europe/London</li>
+                        <li>(GMT)グリニッジ標準時：ダブリン、エジンバラ、リスボン、ロンドン — Europe_London - Europe/London</li>
                         <li>(GMT-07:00)アリゾナ — America_Phoenix - America/Phoenix</li>
                         <li>(GMT+02:00)ベイルート — Asia_Beirut - Asia/Beirut</li>
                         <li>(GMT+04:30)カブール — Asia_Kabul — アジア/カブール</li>
