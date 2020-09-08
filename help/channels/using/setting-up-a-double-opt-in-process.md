@@ -12,10 +12,10 @@ discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '1157'
-ht-degree: 89%
+source-wordcount: '1146'
+ht-degree: 90%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 89%
 
 この設定をおこなうには、次の操作が必要です。
 
-1. 訪問者が登録して購読できるように、ランディングページを作成して公開します。このランディングページは Web サイトから利用可能になります。Visitors who fill in and submit this landing page will be stored in the database but added to the block list, in order not to receive any communication before the final validation (see [Block list management in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)).
+1. 訪問者が登録して購読できるように、ランディングページを作成して公開します。このランディングページは Web サイトから利用可能になります。Visitors who fill in and submit this landing page will be stored in the database but added to the denylist, in order not to receive any communication before the final validation (see [Denylist management in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)).
 1. 確認リンクを含んだオプトイン E メールを作成し自動的に送信します。この E メールは、ランディングページを送信した訪問者をターゲットにしますが、「オプトアウト」プロファイルをターゲットにできる E メールテンプレートに基づいて作成されます。
 1. 確認ランディングページにリダイレクトします。この最後のランディングページでは確認ボタンが表示されるので、訪問者はそれをクリックして確認する必要があります。確認した訪問者に送信される「ようこそ」メールをデザインしたり、例えば新しい受信者向けの特別なオファーを E メールに追加したりできます。
 
@@ -54,13 +54,13 @@ ht-degree: 89%
 
 1. **[!UICONTROL Job]**／「**[!UICONTROL Additional data]**」セクションで「**[!UICONTROL Add an element]**」をクリックし、次のコンテキストパスを入力します。
 
-   /context/ブロックリストプロファイル/
+   /context/profile/blackList
 
    値を **false** に設定し、「**[!UICONTROL Add]**」をクリックします。
 
    ![](assets/optin_confirmlp_newelement.png)
 
-   このコンテキストでは、電子メールを送信できるように、「ブロックリスト時」フィールドが削除されます。 後で説明がありますが、最初のランディングページでは、確認前、このフィールドを **true** と設定し、未確認のプロファイルに E メールが送信されないようにしてありました。詳しくは、 [手順3：獲得ランディングページの作成](#step-3--create-the-acquisition-landing-page)を参照してください。
+   このコンテキストでは、電子メールを送信できるように、「ブロックリストに加える」フィールドが削除されます。 後で説明がありますが、最初のランディングページでは、確認前、このフィールドを **true** と設定し、未確認のプロファイルに E メールが送信されないようにしてありました。詳しくは、 [手順3：獲得ランディングページの作成](#step-3--create-the-acquisition-landing-page)を参照してください。
 
 1. ランディングページのコンテンツをカスタマイズします。例えば、パーソナライズされたデータを表示し、確認ボタンのラベルを「ここをクリックして購読を確認」などに変更できます。
 
@@ -101,12 +101,12 @@ ht-degree: 89%
 
 ### タイポロジの作成 {#create-the-typology-rule}
 
-標準搭載の[タイポロジ](../../sending/using/about-typology-rules.md)を複製して、特定のタイポロジを作成する必要があります。タイポロジを使用すると、契約をまだ確認しておらず、まだブロックリスト中のプロファイルにメッセージを送信できます。 デフォルトでは、タイポロジによってオプトアウト(ブロックリスト時など)プロファイルが除外されます。 このタイポロジを作成するには、次の手順に従います。
+標準搭載の[タイポロジ](../../sending/using/about-typology-rules.md)を複製して、特定のタイポロジを作成する必要があります。タイポロジを使用すると、契約をまだ確認しておらず、まだ承認していないプロファイルにメッセージを送信できます。 デフォルトでは、タイポロジによってオプトアウト(ブロックリストに加える例：)プロファイルが除外されます。 このタイポロジを作成するには、次の手順に従います。
 
 1. Adobe Campaign のロゴから、**[!UICONTROL Administration]**／**[!UICONTROL Channels]**／**[!UICONTROL Typologies]**&#x200B;を選択し、「**[!UICONTROL Typologies]**」をクリックします。
 1. 標準搭載のタイポロジ「**[!UICONTROL Transactional message on profile (mcTypologyProfile)]**」を複製します。
 1. 複製が確認されたら、新しいタイポロジを編集し、ラベルを「**TYPOLOGY_PROFILE**」と入力します。
-1. 「ブロックリスト時の **住所** 」の規則を削除します。
+1. Remove the **Denylisted address** rule.
 1. 「**[!UICONTROL Save]**」をクリックします。
 
 これで、このタイポロジを確認 E メールに関連付けることができるようになりました。
@@ -133,11 +133,11 @@ ht-degree: 89%
 1. [新しいランディングページ](../../channels/using/getting-started-with-landing-pages.md)を「**[!UICONTROL Profile acquisition (acquisition)]**」テンプレートに基づいてデザインします。ラベルを「**ACQUISITION**」と入力します。
 1. ランディングページのプロパティを編集します。**[!UICONTROL Job]** ／「**[!UICONTROL Additional data]**」セクションで「**[!UICONTROL Add an element]**」をクリックし、次のコンテキストパスを入力します。
 
-   /context/ブロックリストプロファイル/
+   /context/profile/blackList
 
    値を **true** に設定します。
 
-   ブロックリストに追加を強制し、契約を確認していない訪問者にメッセージを送信しないようにするには、このオプションが必須です。 確認ランディングページの検証が確認されると、このフィールドが **false** に設定されます。この点について詳しくは、[手順 1：確認ランディングページの作成](#step-1--create-the-confirmation-landing-page)を参照してください。
+   これは、訪問者に追加を強制し、契約を確認していないにメッセージを送信しないようにするために必須です。 確認ランディングページの検証が確認されると、このフィールドが **false** に設定されます。この点について詳しくは、[手順 1：確認ランディングページの作成](#step-1--create-the-confirmation-landing-page)を参照してください。
 
 1. **[!UICONTROL Job]**／「**[!UICONTROL Specific actions]**」セクションで、「**[!UICONTROL Start sending messages]**」オプションを選択します。
 1. 関連するドロップダウンリストで、作成した **CONFIRM** トランザクションメッセージテンプレートを選択します。
