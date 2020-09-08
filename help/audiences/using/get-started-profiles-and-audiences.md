@@ -1,6 +1,6 @@
 ---
-title: プロファイルとオーディエンスの使用を開始する
-description: 「Adobe Campaign内でのプロファイルとオーディエンスの管理について説明します。 ターゲット母集団の定義、オーディエンスの選択、受信者のフィルター、データの収集、プロファイルの更新を行います。」
+title: プロファイルとオーディエンスの概要
+description: 「Adobe Campaign内でのプロファイルとオーディエンスの管理について説明します。ターゲット母集団の定義、オーディエンスの選択、受信者のフィルター、データの収集、プロファイルの更新を行います。」
 page-status-flag: never-activated
 uuid: f4cb6c38-c8d1-44ec-93f0-d0f5f30a3d9a
 contentOwner: sauviat
@@ -12,15 +12,15 @@ discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '609'
-ht-degree: 9%
+source-wordcount: '607'
+ht-degree: 11%
 
 ---
 
 
-# プロファイルとオーディエンスの使用を開始する{#about-profiles-and-audiences}
+# プロファイルとオーディエンスの概要{#about-profiles-and-audiences}
 
 <table>
 <tr>
@@ -45,7 +45,7 @@ ht-degree: 9%
 
 Adobe Campaignはリッチな顧客プロファイルをリアルタイムで作成し、顧客の好みが変化した場合に、より関連性の高いパーソナライズされたオファーを提供できます。 さらに、Adobe Campaignは、高度な分析、データ管理、およびターゲット設定機能を統合してオーディエンスを構築します。
 
-**プロファイル** は、データベースに格納されている個々の連絡先です。 各プロファイルはデータベース内の1つのエントリに対応し、そのプロファイルがターゲット設定され、資格を持ち、個別に追跡されるために必要な情報が格納されます。 Adobe Campaignは、オンラインとオフラインの両方のチャネルからすべてのインタラクションを追跡し、それを1つのプロファイルに統合できます。
+**プロファイル** は、データベースに格納されている個々の連絡先です。 各プロファイルはデータベース内の1つのエントリに対応し、そのプロファイルがターゲット設定され、資格を持ち、個別に追跡されるために必要な情報が格納されます。Adobe Campaignは、オンラインとオフラインの両方のチャネルからすべてのインタラクションを追跡し、それを1つのプロファイルに統合できます。
 
 **オーディエンス** とは、特定の条件または条件のセットに基づいて作成されたプロファイルのリストです。 ワークフローとクエリエディターを使用すると、マーケティングキャンペーンが対象とするオーディエンスを構築できます。アクティビティ、マーケティング履歴に関する情報に応じて、その情報が表示されます。 これにより、登録済みのプロファイルをフィルタリング、サンプル、またはターゲットオーディエンスを無制限の数の条件で作成できます。
 
@@ -66,7 +66,7 @@ Adobe Campaignはリッチな顧客プロファイルをリアルタイムで作
 
 キャンペーンにより、 **サービスを通じて** 簡単にオプトインおよびオプトアウトできる仕組みを使用し [、](../../audiences/using/creating-a-service.md)[](../../channels/using/getting-started-with-landing-pages.md) ランディングページに連絡先情報を更新してデータベースを拡張させることをお勧めします。
 
-メッセージに **購読解除リンクを指定すると** 、必要に応じてプロファイルをブロックリストに追加できるので、プラットフォームの配信品質が向上します。 ブロックリスト管理について詳しくは、キャンペーンでのオプトインとオプトアウトに [ついてを参照してください](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)。
+メッセージに **購読解除リンクを指定すると** 、必要に応じてプロファイルをに追加できるので、プラットフォームの配信品質が向上します。 For more on denylist management, refer to [About opt-in and opt-out in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
 >[!IMPORTANT]
 >
@@ -93,6 +93,6 @@ Adobe Campaign offers a set of tools to help you with your **Privacy Compliance*
 
 * [オーディエンス送信先サービスの使用](../../audiences/using/aep-about-audience-destinations-service.md)
 * [Microsoft Dynamics 365の操作](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
-* [アドビ共有オーディエンス](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
+* [Adobe共有オーディエンス](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
 * [ワークフローを使用したプロファイルの読み込み](../../automating/using/creating-import-workflow-templates.md)
 * [プロファイルとオーディエンスのビデオ](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html)
