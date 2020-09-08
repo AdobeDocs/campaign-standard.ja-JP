@@ -13,10 +13,10 @@ context-tags: delivery,directMailContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 95%
+source-wordcount: '594'
+ht-degree: 96%
 
 ---
 
@@ -102,4 +102,4 @@ ht-degree: 95%
 * ファイルを添付して通常の E メールで送信
 * Campaign で送信：キャンペーン[ワークフロー](../../automating/using/direct-mail-delivery.md)内でダイレクトメールアクティビティを実行し「**[!UICONTROL Transfer file]**」を追加して、例えば FTP でファイルを送信します。詳しくは、[ファイル転送](../../automating/using/transfer-file.md)を参照してください。
 
-プロバイダは、誤ったアドレスのリストを検索し、この情報をAdobe Campaignに送信し、ブロックリストに対して、誤ったアドレスを自動的に付加する。 [送信者に返信](../../channels/using/return-to-sender.md)を参照してください。
+プロバイダは、誤ったアドレスのリストを検索し、この情報をAdobe Campaignに送信し、誤ったアドレスブロックリストを自動的にする。 [送信者に返信](../../channels/using/return-to-sender.md)を参照してください。
