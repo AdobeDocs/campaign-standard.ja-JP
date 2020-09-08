@@ -1,6 +1,6 @@
 ---
 title: Adobe Campaign Standardの許可リスト
-description: Adobe Campaign Standardを使用して許可リストを最適化する方法を説明します。
+description: Adobe Campaign Standardで許可リストを最適化する方法を学びます。
 page-status-flag: never-activated
 uuid: 286fceee-65a9-4cb9-b205-9ce5d024675c
 contentOwner: sauviat
@@ -13,10 +13,10 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c89973e2c733d9c0b1c4434e77ef51103ccde0fa
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 67%
+source-wordcount: '322'
+ht-degree: 68%
 
 ---
 
@@ -27,7 +27,7 @@ IP Certificationは、送信のベストプラクティスプログラムです�
 
 現在、2 社のプロバイダーが IP 証明書を提供しています。Return Path および Certified Senders Alliance です。
 
-認証済みの送信者は、グローバルメールボックスプロバイダーや電子メールセキュリティ会社で使用される電子メール許可リストに追加されます。 これらの商用許可リストは、送信者がスパム対策フィルターを完全に回避したり、システムに入る際に増分ポイントを割り当てることを可能にするシステムに基づいています。
+認証済みの送信者は、グローバルメールボックスプロバイダーや電子メールセキュリティ会社で使用される許可リストに表示されます。 これらの商用許可リストは、送信者がスパム対策フィルターを完全に回避したり、システムに入る際に増分ポイントを割り当てることを可能にするシステムに基づいています。
 
 [Return Path Certification](https://www.validity.com/products/returnpath/certification/) プログラムには、次のような多くの利点があります。
 * Microsoft、AOL、Yahoo、Gmail、Comcast、Orange、Mail.ru など、大手メールボックスプロバイダーにおける受信ボックスへの配置率が大幅に向上
