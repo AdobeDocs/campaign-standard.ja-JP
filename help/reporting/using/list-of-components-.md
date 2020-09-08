@@ -12,9 +12,9 @@ discoiquuid: 17cf126a-7ce1-4e11-bb5e-2bdce01cfded
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a373eb6546cb3c726e8b6807f6b47b14b3e520e6
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '1277'
+source-wordcount: '1273'
 ht-degree: 5%
 
 ---
@@ -152,12 +152,12 @@ ht-degree: 5%
  </thead> 
  <tbody> 
   <tr> 
-   <td> ブロックリスト時<br /> </td> 
+   <td> ブロックリスト登録済み<br /> </td> 
    <td> 電子メールをスパムまたは迷惑メールとして宣言した受信者の数です。<br /> </td> 
   </tr> 
   <tr> 
-   <td> ブロックリスト率<br /> </td> 
-   <td> ブロックリストでマークされた配信の割合。<br /> </td> 
+   <td> Denylist rate<br /> </td> 
+   <td> 配信にマークされブロックリストているの割合。<br /> </td> 
   </tr> 
   <tr> 
    <td> バウンス数 + エラー数<br /> </td> 
