@@ -13,9 +13,9 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: f00c5cd2f6642048ebd056dcaf5a156f8cf7ca18
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '1559'
+source-wordcount: '1557'
 ht-degree: 96%
 
 ---
@@ -86,7 +86,7 @@ ETL のためのファイルやデータを管理する際、これらのファ�
 * 時々 SFTP にログインして、問題がないか直接確認します。
 * SFTP のディスク管理は、基本的に管理者の責任となります。
 
-また、SFTP接続を開始しようとするパブリックIPは、キャンペーンインスタンスの許可リストに追加する必要があります。 Adding IP addresses to the allow list can be requested via a [support ticket](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html), along with providing the public key to use for authentication.
+また、SFTP接続を開始しようとするパブリックIPは、キャンペーンインスタンスの許可リストに追加する必要があります。 Adding IP addresses to the allowlist can be requested via a [support ticket](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html), along with providing the public key to use for authentication.
 
 SFTP サーバーは、コントロールパネルから管理できます。詳しくは、[コントロールパネルのドキュメント](https://docs.adobe.com/content/help/ja-JP/control-panel/using/sftp-management/about-sftp-management.html)を参照してください。
 
