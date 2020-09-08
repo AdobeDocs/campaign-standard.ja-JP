@@ -13,10 +13,10 @@ delivercontext-tags: delivery,smsContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 012546e109b085b7ed968bcefa8f76482656ae0d
+source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 2%
+source-wordcount: '594'
+ht-degree: 8%
 
 ---
 
@@ -25,13 +25,13 @@ ht-degree: 2%
 
 ## 停止SMSの管理 {#managing-stop-sms}
 
-プロファイルがキャンペーン経由で送信されたSMSメッセージに返信する場合、自動的に返信されるメッセージや、実行するアクションを設定できます。
+プロファイルが Campaign 経由で送信された SMS メッセージに返信する場合、自動的に返信されるメッセージや、実行するアクションを設定できます。
 
 この構成は、 **[!UICONTROL Automatic reply sent to the MO]** SMSルーティング外部アカウントの [セクションで定義されます](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing)。 MOは「Mobile Originated」を表し、SMSを送信したモバイルに対して自動応答を設定できます。
 
-これをおこなうには：
+それには、次の手順に従います。
 
-1. 詳細メニューで、Adobe Campaignのロゴを使用して、 **[!UICONTROL Administration > Application settings > External accounts]****[!UICONTROL SMS routing via SMPP]** 外部アカウントを選択します。
+1. From the advanced menu, via the Adobe Campaign logo, select **[!UICONTROL Administration > Application settings > External accounts]** then the **[!UICONTROL SMS routing via SMPP]** external account.
 1. [ **[!UICONTROL Automatic reply sent to the MO]** カテゴリ]で、自動返信を設定する開始 **[!UICONTROL Create element]** に移動します。
 
    ![](assets/sms_mo_1.png)
@@ -57,7 +57,8 @@ ht-degree: 2%
    * この **[!UICONTROL Send to quarantine]** 操作により、プロファイルの電話番号が自動的に強制隔離されます。
    * 強制隔離からプロファイルの電話番号が削除され **[!UICONTROL Remove from quarantine]** ます。
    * この **[!UICONTROL None]** 操作により、受信者にメッセージを送信するだけで、操作を実行する必要はありません。
-   例えば、以下の設定では、受信者がキーワード「STOP」を送信すると、購読解除の確認メッセージが自動的に送信され、電話番号が **[!UICONTROL On block list]** ステータスと共に強制隔離に送信されます。 このステータスは電話番号のみを示し、プロファイルはブロックリストに追加されないので、ユーザーは電子メールメッセージの受信を続行します。
+
+   例えば、以下の設定では、受信者がキーワード「STOP」を送信すると、購読解除の確認メッセージが自動的に送信され、電話番号が **[!UICONTROL Denylisted]** ステータスと共に強制隔離に送信されます。 このステータスは電話番号のみを表し、プロファイルは電子メールの受信をブロックリストに加える続けるようにします。
 
    ![](assets/sms_mo.png)
 
@@ -73,19 +74,19 @@ ht-degree: 2%
 
 カテゴリ **[!UICONTROL Store incoming MO in the database]****[!UICONTROL SMPP channel settings]** をチェックインすると、すべてのSMSがinSMSテーブルに保存され、ワークフロー内のクエリアクティビティを介して取得できます。
 
-これをおこなうには：
+それには、次の手順に従います。
 
-1. フィールドでチェック **[!UICONTROL SMPP channel settings]** を入れ **[!UICONTROL Store incoming MO in the database]**&#x200B;ます。
+1. In the **[!UICONTROL SMPP channel settings]** field, check **[!UICONTROL Store incoming MO in the database]**.
 
    ![](assets/sms_config_mo_2.png)
 
-1. タブでをクリックし、を選択 **[!UICONTROL Marketing activities]** し **[!UICONTROL Create]****[!UICONTROL Workflow]**&#x200B;ます。
+1. In the **[!UICONTROL Marketing activities]** tab, click **[!UICONTROL Create]** then select **[!UICONTROL Workflow]**.
 
    ![](assets/sms_config_mo_3.png)
 
 1. ワークフローのタイプを選択します。
 1. ワークフローのプロパティを編集し、をクリックし **[!UICONTROL Create]**&#x200B;ます。 For more on workflows creation, refer to this [section](../../automating/using/building-a-workflow.md).
-1. アクティビティをドラッグ&amp;ドロップし、重複を押しながら **[!UICONTROL Query]** アクティビティをクリックします。
+1. Drag and drop a **[!UICONTROL Query]** activity and double-click the activity.
 1. クエリの **[!UICONTROL Properties]** タブで、フィールド **[!UICONTROL Incoming SMS (inSMS)]** のを選択し **[!UICONTROL Resource]** ます。
 
    ![](assets/sms_config_mo_4.png)
@@ -94,7 +95,7 @@ ht-degree: 2%
 
    ![](assets/sms_config_mo_5.png)
 
-1. ここでは、前日からのすべての受信メッセージをターゲットします。 カテゴリでを選択し **[!UICONTROL Field]** ま **[!UICONTROL Creation date (created)]**&#x200B;す。
+1. ここでは、前日からのすべての受信メッセージをターゲットします。 In the **[!UICONTROL Field]** category, select **[!UICONTROL Creation date (created)]**.
 1. でを選択 **[!UICONTROL Filter type]**&#x200B;し、 **[!UICONTROL Relative]** でを選択し **[!UICONTROL Level of precision]**&#x200B;ま **[!UICONTROL Day]**&#x200B;す。
 
    ![](assets/sms_config_mo_6.png)
