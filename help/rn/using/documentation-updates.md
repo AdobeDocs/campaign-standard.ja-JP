@@ -12,10 +12,10 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 99edde2738ebf9d2a742aa467b049d6ec7761cc1
 workflow-type: tm+mt
-source-wordcount: '6097'
-ht-degree: 95%
+source-wordcount: '6128'
+ht-degree: 94%
 
 ---
 
@@ -28,19 +28,23 @@ ht-degree: 95%
 
 「イベントトランザクションメッセージ」節の内容が整理され、明確になりました。 [詳細を表示](../../channels/using/event-transactional-messages.md)
 
+ログアクセスに関連する権限制限についてユーザーに警告するための注意事項が追加されました。 [詳細を表示](../../administration/using/users-management.md)
+
+新しいブランドを作成するプロセスの詳細を説明する新しい節が追加されました。 [詳細を表示](../../administration/using/branding.md#creating-a-brand)
+
 ## ドキュメントのアップデート - 2020 年 8 月 {#doc-updates-august-2020}
 
 トランザクションメッセージの使い始めに関する新しい更新セクションが提供されます。 [詳細を表示](../../channels/using/getting-started-with-transactional-msg.md)
 
-トランザクションメッセージの制限に関する節は移動されました。 [詳細を表示](../../channels/using/transactional-messaging-limitations.md)
+「 **トランザクションメッセージの制限** 」の節は、 [ここに移動しました。](../../channels/using/transactional-messaging-limitations.md)
 
-送信の準備セクションが移動しました。 [詳細を表示](../../sending/using/preparing-the-send.md)
+「送信 **の準備中** 」セクションは [ここに移動しました](../../sending/using/preparing-the-send.md)
 
 ## ドキュメントのアップデート - 2020 年 7 月 {#doc-updates-july-2020}
 
 Campaign Standardの監視に関するガイドラインを含む新しい節を追加しました。 [詳細を表示](../../administration/using/monitoring-guidelines.md)
 
-外部APIガードレールと制限の節が更新されました。[詳細を表示](../../automating/using/external-api.md#guardrails)
+外部APIガードレールと制限の節が更新されました。 [詳細を表示](../../automating/using/external-api.md#guardrails)
 
 「プライバシー管理の概要」ページが更新され、タイの個人データ保護法（PDPA）とブラジルの Lei Geral de Proteção de Dados（LGPD）に関する情報が含まれるようになりました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
 
