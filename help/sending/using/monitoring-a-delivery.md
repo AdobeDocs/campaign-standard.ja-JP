@@ -12,18 +12,21 @@ discoiquuid: eb9fa216-4568-423a-9396-8f7b82181ae9
 context-tags: delivery,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 54612511de07edc3e6f3eea34ef095c26b35f4af
-workflow-type: ht
-source-wordcount: '412'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 3895755aa2eeceb837f78f591bb6504d3eadec1f
+workflow-type: tm+mt
+source-wordcount: '461'
+ht-degree: 86%
 
 ---
 
 
 # 配信の監視{#monitoring-a-delivery}
 
-配信を監視し、その影響を測定するには、いくつかの方法があります。
+配信を監視し、その影響を測定する方法はいくつかあります。 機能管理者は、メッセージログと配信ログにアクセスできます。
+>[!CAUTION]
+>
+>役割と [すべてのユニットへのアクセス権を持つ機能](../../administration/using/users-management.md#functional-administrators)管理者 **[!UICONTROL Administration]** ( **** 役割を持つ)のみが、送信ログ、メッセージログ、トラッキングログ、除外ログ、または購読ログにアクセスできます。 管理者以外のユーザーは、これらのログにターゲットできますが、リンクされたテーブル(プロファイル、配信)から開始できます。
 
 * **メッセージログ**：これらのログは、メッセージダッシュボードから直接アクセスできます。送信の詳細、除外されたターゲットとその理由、および開封数やクリック数などの追跡情報が表示されます。
 
