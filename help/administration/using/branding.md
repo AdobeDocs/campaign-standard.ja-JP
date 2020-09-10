@@ -13,10 +13,10 @@ context-tags: branding,overview;branding,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+source-git-commit: 4f16f4b36fd77e79ade10b4fe39db737e0de9f4c
 workflow-type: tm+mt
-source-wordcount: '983'
-ht-degree: 100%
+source-wordcount: '1252'
+ht-degree: 80%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 
 ブランドの設定と使用に関する主な原則は次のとおりです。
 
-1. ブランドを作成して設定します。この操作には特定の権限が必要で、実行者は Adobe Campaign の技術管理者です。
+1. ブランドを作成して設定します。この操作には特定の権限が必要で、実行者は Adobe Campaign の技術管理者です。キャンペーンで新しいブランドを獲得する手順については、こ [の節で詳しく説明します](#creating-a-brand)。
 1. ブランドの配信とランディングページテンプレートを 1 つまたは複数作成します。[テンプレートの作成](../../start/using/marketing-activity-templates.md)の節を参照してください。
 1. このテンプレートに基づいてメッセージとランディングページを作成します。[E メールの作成](../../channels/using/creating-an-email.md)と[ランディングページの作成](../../channels/using/designing-a-landing-page.md)の節を参照してください。
 
@@ -89,6 +89,26 @@ ht-degree: 100%
    Web 分析ツール（例：Adobe Analytics や Google Analytics）などの外部システムでリンクを追跡するための追加パラメーターをここで定義します。
 
    ![](assets/branding_05.png)
+
+## Creating a new brand {#creating-a-brand}
+
+組織の新しいエンティティをキャンペーンに追加したり、別のサブドメインの下に送信する必要がある新しいタイプの電子メールを作成したりできます。 これを実行するには、次の手順に従います。
+
+1. **新しいサブドメインの委任** -Adobeが新しいサブドメインを使用する場合は、最初の手順でそのサブドメインを委任します。 この作業は、 [キャンペーンCampaign コントロールパネルを通じて行うことも](https://docs.adobe.com/content/help/ja-JP/control-panel/using/subdomains-and-certificates/subdomains-branding.html) 、Adobeのテクニカルコンタクトに連絡することもできます。 Learn more about subdomain delegation [in this article](https://helpx.adobe.com/jp/campaign/kb/domain-name-delegation.html).
+
+1. **チケットの作成** — サブドメインが委任されたら、Adobeは実稼働環境でチケットを設定する必要があります。 このリクエストを行うには、次の情報を含むClientCare [(Client Care)へのチケットを](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html) 作成します。
+
+   * 件名： [ACS] New Brandがセットアップされました
+
+   * コンテンツ：新しいドメインがAdobeに委任されました。ACSプラットフォームで設定します
+
+   * ドメイン：XXX
+
+   * 本番用URL:XXX.キャンペーン.adobe.com
+
+1. **配信テンプレートの作成** — 新しいブランドが利用可能になったら、ベストプラクティスは、この新しいブランドを参照する新しい空白の配信テンプレートを少なくとも1つ作成することです。 詳しくは、[こちら](#linking-a-brand-to-a-template)を参照してください。
+
+1. **配信品質のガイドラインの確認** — 新しいドメインを使用する前に、Adobeの配信品質チームに問い合わせる必要があります。 例えば、ドメイン間でIPを分割する新しいアフィニティを作成する場合や、ランプアップ計画を定義する場合など、ベストプラクティスを定義するのに役立ちます。 配信品質のベストプラクティスにつ [いて詳しくは、この節を参照してください](../../sending/using/about-deliverability.md)。
 
 ## E メールへのブランドの割り当て {#assigning-a-brand-to-an-email}
 
