@@ -13,7 +13,7 @@ context-tags: mobileApp,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3bace60da0b3cdbbc693507a03cbfb6886b15b4e
+source-git-commit: 2112f93fba368435850957e6e90b7c7c88ddf248
 workflow-type: tm+mt
 source-wordcount: '914'
 ht-degree: 0%
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 1. ドロップダウンから **[!UICONTROL Extension]** を選択し **[!UICONTROL Mobile Core]**&#x200B;ます。 次 **[!UICONTROL Experience Cloud ID]** に、「 **[!UICONTROL Data element]** タイプ」ドロップダウンで、
 
-   ![](assets/rules_1.png)
+   ![](assets/do-not-localize/rules_1.png)
 
 1. Pkeyデータ要素を作成するには、をクリックし **[!UICONTROL Add data element]**&#x200B;ます。
 
@@ -143,7 +143,7 @@ PIIデータをに送信するに [!DNL Adobe Campaign Standard]は、次の場�
 
 1. In **[!UICONTROL Timeout]**, select 0.
 
-   ![](assets/rules_2.png)
+   ![](assets/do-not-localize/rules_2.png)
 
 これで、ユーザーデータがキャンペーンに送信されるように設定されました。
 
@@ -179,7 +179,7 @@ PIIデータをに送信するに [!DNL Adobe Campaign Standard]は、次の場�
 
 1. In **[!UICONTROL Timeout]**, select 0.
 
-   ![](assets/rules_3.png)
+   ![](assets/do-not-localize/rules_3.png)
 
 ### プッシュ通知追跡ポストバック {#push-tracking-postback}
 
@@ -225,7 +225,7 @@ PIIデータをに送信するに [!DNL Adobe Campaign Standard]は、次の場�
 
 1. In the **[!UICONTROL Events]** section, click **[!UICONTROL Add]**.
 
-1. 例えば、POIと入力する、POIと入力する、POIと入力するなどのイベントを作成します。 ドロップダウンから **[!UICONTROL Extension]** 、 **Places - Beta**&#x200B;を選択します。 次に、ドロップダウンにPOI **** または **Exit POI****[!UICONTROL Event type]** と入力します。
+1. 例えば、POIと入力する、POIと入力する、POIと入力するなどのイベントを作成します。 ドロップダウンから **[!UICONTROL Extension]** 、 **[Places - Beta**]を選択します。 次に、ドロップダウンにPOI **** または **Exit POI****[!UICONTROL Event type]** と入力します。
 
 1. 名前を入力します(例： **Places - Beta - Enter POI** 、 **Exit POI**)。
 
@@ -264,4 +264,4 @@ PIIデータをに送信するに [!DNL Adobe Campaign Standard]は、次の場�
 
 1. In **[!UICONTROL Timeout]**, select 5.
 
-   ![](assets/rules_4.png)
+   ![](assets/do-not-localize/rules_4.png)
