@@ -12,11 +12,11 @@ discoiquuid: 4e0468da-3052-4ce5-8174-45aba1f5c4ed
 context-tags: cusResource,overview;eventCusResource,overview
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
-workflow-type: ht
-source-wordcount: '207'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 3895755aa2eeceb837f78f591bb6504d3eadec1f
+workflow-type: tm+mt
+source-wordcount: '244'
+ht-degree: 84%
 
 ---
 
@@ -44,3 +44,7 @@ Adobe Campaign が使用するデータは、様々なリソースを通じて�
 また、作成したリソースに対応する画面で[ナビゲーションを設定](configuring-the-screen-definition.md)することもできます。
 
 開発環境から実稼働環境へのカスタムリソースの&#x200B;**エクスポートとインポート**&#x200B;が可能です。詳しくは、この[ステップバイステップの使用例](../../automating/using/exporting-importing-custom-resources.md)を参照してください。
+
+>[!CAUTION]
+>
+>役割と [すべてのユニットへのアクセス権を持つ機能](../../administration/using/users-management.md#functional-administrators)管理者 **[!UICONTROL Administration]** ( **** 役割を持つ)のみが、送信ログ、メッセージログ、トラッキングログ、除外ログ、または購読ログにアクセスできます。 管理者以外のユーザーは、これらのログにターゲットできますが、リンクされたテーブル(プロファイル、配信)から開始できます。
