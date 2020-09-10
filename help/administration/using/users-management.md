@@ -12,10 +12,10 @@ discoiquuid: 08c8712a-0066-4b8b-8471-2656b8fb23ed
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 762700893c913d9aea884d00438c84b39a800188
+source-git-commit: 99edde2738ebf9d2a742aa467b049d6ec7761cc1
 workflow-type: tm+mt
-source-wordcount: '1143'
-ht-degree: 100%
+source-wordcount: '1183'
+ht-degree: 96%
 
 ---
 
@@ -61,6 +61,10 @@ Adobe Campaign からユーザー管理インターフェイスにアクセス�
 ### 機能管理者 {#functional-administrators}
 
 機能管理者は、インターフェイスの技術面において最高レベルのアクセス権限を持つユーザーです。機能管理者は **[!UICONTROL Administration]** の役割を持ち、マーケターがキャンペーンの配信に専念できるように、プラットフォームのあらゆる設定を確認します。
+
+>[!CAUTION]
+>
+>役割と **[!UICONTROL Administration]** 全ユニットへのアクセス権を持つ機能的な管理者のみが、送信ログ、メッセージログ、トラッキングログ、除外ログ、提案ログ、購読ログにアクセスできます **** 。 管理者以外のユーザーは、これらのログにターゲットできますが、リンクされたテーブル(プロファイル、配信)から開始できます。
 
 Adobe Campaign インターフェイスで **[!UICONTROL Administration]** メニューにアクセスできるのは、機能管理者のみです。これらのユーザーは技術リソースにアクセスする必要があるので、標準の役割（**[!UICONTROL Administration]** および **[!UICONTROL Datamodel]**）など、より高度な役割を割り当てる必要があります。これらの役割は、標準の **[!UICONTROL Administrators]** セキュリティグループで組み合わされます。詳しくは、[この節](../../administration/using/list-of-roles.md)を参照してください。
 
