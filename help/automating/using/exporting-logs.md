@@ -12,7 +12,10 @@ discoiquuid: ca8a95d8-523f-4085-a2fc-e1d8262cfbae
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
+source-git-commit: 3895755aa2eeceb837f78f591bb6504d3eadec1f
+workflow-type: tm+mt
+source-wordcount: '597'
+ht-degree: 14%
 
 ---
 
@@ -21,9 +24,13 @@ source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 ログデータは、配信と購読のどちらに関連するものであっても、単純なワークフローを通してエクスポートできます。 独自のレポートまたはBIツールでキャンペーンの結果を分析できます。
 
+>[!CAUTION]
+>
+>役割と [すべてのユニットへのアクセス権を持つ機能](../../administration/using/users-management.md#functional-administrators)管理者 **[!UICONTROL Administration]** ( **** 役割を持つ)のみが、送信ログ、メッセージログ、トラッキングログ、除外ログ、または購読ログにアクセスできます。 管理者以外のユーザーは、これらのログにターゲットできますが、リンクされたテーブル(プロファイル、配信)から開始できます。
+
 ワークフローを実行するたび **[!UICONTROL Incremental query]** に新しいログのみを取得するURLと、出力列を定義する単純な **[!UICONTROL Extract file]** アクティビティを使用すると、必要な形式とすべてのデータを含むファイルを取得できます。 次に、 **[!UICONTROL Transfer file]** アクティビティを使用して最終ファイルを取得します。 各ワークフローの実行は、によって計画され **[!UICONTROL Scheduler]**&#x200B;ます。
 
-エクスポートログ操作は、標準ユーザーが実行できます。 次のようなプライベートリソース。 ブロードログ、トラッキングログ、除外ログ購読ログ、 **プロファイルの購読履歴ログは、機能管理者のみが管理できます** 。
+エクスポートログ操作は、標準ユーザーが実行できます。 次のようなプライベートリソース。ブロードログ、トラッキングログ、除外ログ購読ログ、 **プロファイルの購読履歴ログは、機能管理者のみが管理できます** 。
 
 1. この節で詳しく説明するように、新しいワークフロー [を作成します](../../automating/using/building-a-workflow.md#creating-a-workflow)。
 1. 追加 **[!UICONTROL Scheduler]** アクティビティを作成し、必要に応じて設定します。 月別の実行例を以下に示します。
@@ -44,7 +51,7 @@ source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
       ![](assets/export_logs_query_processeddata.png)
 
-      ワークフローの最初の実行後、このタブには、次の実行に使用される最後の実行日が表示されます。 ワークフローが実行されるたびに、自動的に更新されます。 必要に応じて新しい値を手動で入力することで、この値を上書きできます。
+      ワークフローの初回実行後は、このタブに表示される最後の実行日が次回の実行に使用されます。この日付は、ワークフローが実行されるたびに、自動的に更新されます。それでも、必要に応じて手動で別の値を入力すれば、この値を上書きすることはできます。
 
 1. クエリーを追加行ったデータをファイルにエクスポートするアクティビティ: **[!UICONTROL Extract file]**
 
@@ -62,7 +69,7 @@ source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
    * タブで、必要に応じて出力ファイルの形式を定義し **[!UICONTROL File structure]** ます。
 
-      定義済みリストの値を書き出す場合は、この **[!UICONTROL Export labels instead of internal values of enumerations]** オプションを選択します。 このオプションを使用すると、短いラベルを取得して、IDの代わりにわかりやすくすることができます。
+      定義済みリストの値を書き出す場合は、「**[!UICONTROL Export labels instead of internal values of enumerations]**」オプションを選択します。このオプションを使用すると、ID の代わりに短くてわかりやすいラベルを取得できます。
 
 1. 追加 **[!UICONTROL Transfer file]** アクティビティを作成し、新しく作成したファイルを、Adobe Campaignサーバーから、SFTPサーバーなど、アクセス可能な別の場所に転送するように設定します。
 
@@ -75,6 +82,6 @@ source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 これで、ワークフローを実行し、外部サーバーで出力ファイルを取得できます。
 
-**関連トピック:**
+**関連トピック：**
 
 [ワークフロー](../../automating/using/get-started-workflows.md)
