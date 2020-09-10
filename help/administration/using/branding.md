@@ -13,7 +13,7 @@ context-tags: branding,overview;branding,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4f16f4b36fd77e79ade10b4fe39db737e0de9f4c
+source-git-commit: fc1dc9ca876a0f18b2dad0e02331cfc05a799aad
 workflow-type: tm+mt
 source-wordcount: '1252'
 ht-degree: 80%
@@ -98,9 +98,9 @@ ht-degree: 80%
 
 1. **チケットの作成** — サブドメインが委任されたら、Adobeは実稼働環境でチケットを設定する必要があります。 このリクエストを行うには、次の情報を含むClientCare [(Client Care)へのチケットを](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html) 作成します。
 
-   * 件名： [ACS] New Brandがセットアップされました
+   * 件名：ACS新しいブランドがセットアップされました
 
-   * コンテンツ：新しいドメインがAdobeに委任されました。ACSプラットフォームで設定します
+   * コンテンツ：新しいドメインがAdobeに委任されました。キャンペーンプラットフォームでドメインを設定します
 
    * ドメイン：XXX
 
