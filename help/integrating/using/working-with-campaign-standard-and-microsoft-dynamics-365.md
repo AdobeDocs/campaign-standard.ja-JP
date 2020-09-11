@@ -1,5 +1,5 @@
 ---
-title: Microsoft Dynamics 365統合の概要
+title: Microsoft Dynamics 365 統合の概要
 description: Microsoft Dynamics 365統合の使用を開始する方法を説明します
 page-status-flag: never-activated
 uuid: ed6c1b76-87f7-4d23-b5e2-0765297a905c
@@ -12,39 +12,38 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 21135f27fd1d8297edd3dd067446d09c39de9f4f
+source-git-commit: 3590fd42e4692df6bba21ac721568ae60dfcdd65
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 0%
+source-wordcount: '431'
+ht-degree: 3%
 
 ---
 
 
-# Microsoft Dynamics 365統合の概要
+# Microsoft Dynamics 365 統合の概要
 
->[!IMPORTANT]
+チャネル間の通信に関するCRMデータをアクティブにします。Microsoft Dynamics 365の連絡先をAdobe Campaignに渡し、キャンペーンパフォーマンスデータ（送信、開く、クリック、およびバウンス）をAdobe CampaignからMicrosoft Dynamics 365に共有する方法を説明します。
+
+この節では、サポートされ [るバージョンを示します](#support-software-versions)。
+
+>[!CAUTION]
 >
->この統合は現在使用できません。 新しいコネクターが開発中で、今後利用できる予定です。 詳しくは、アドビのセールス担当者にお問い合わせください。
-
-チャネル間の通信に関するCRMデータをアクティブにします。 Microsoft Dynamics 365の連絡先をAdobe Campaignに渡し、キャンペーンパフォーマンスデータ（送信、開く、クリック、およびバウンス）をAdobe CampaignからMicrosoft Dynamics 365に共有する方法を説明します。
-
->[!NOTE]
->
->Microsoft Dynamics 365 /Adobe Campaign標準統合は、 **Microsoft Dynamics 365 Salesアプリの** みをサポートします。
+>この機能は、製品の一部として初期状態では使用できません。 導入には、Adobeコンサルティングが関与している必要があります。 詳細については、Adobeの担当者にお問い合わせください。
 
 ## 原則
 
-Adobe CampaignとMicrosoft Dynamics 365の統合により、CRMシステムで使用可能なすべての連絡先データを同期でき、関連するすべての連絡先データをキャンペーンアクティビティで使用できるようになります。
+Adobe CampaignとMicrosoft Dynamics 365の統合により、CRMシステム内の使用可能なすべての連絡先データを同期でき、関連するすべての連絡先データをキャンペーンアクティビティで使用できるようになります。
 
-逆に、Adobe Campaign内のプロファイルがメッセージとやり取りする場合、そのデータ(例： 送信、開く、クリック、バウンス)が自動的にMicrosoft Dynamics 365に流れ込み、連絡先の記録がマーケティングアクティビティと共に完全に保たれます。
+逆に、Adobe Campaign内のプロファイルがメッセージとやり取りする場合、そのデータ(例：送信、開く、クリック、バウンス)が自動的にMicrosoft Dynamics 365に流れ込み、マーケティングアクティビティとの連絡記録も完全に保ちます。
 
-また、最新リリースの統合では、カスタムエンティティのサポートも追加され、Dynamics 365のカスタムエンティティをキャンペーン内の対応するカスタムエンティティに同期できます。
+この統合は、カスタムエンティティもサポートし、Dynamics 365の [カスタムエンティティ](../../integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md) をキャンペーン内の対応するカスタムエンティティと同期できます。
 
-この統合は、主に次の3つの使用例をサポートするように設計されています。
+この統合は、主に次の4つの使用例をサポートするように設計されています。
 
-1. Dynamics 365の連絡先をキャンペーンに同期して、マーケティングキャンペーンでターゲット設定できるようにします
-1. キャンペーンからDynamics 365に電子メールマーケティングイベント（送信、開く、クリック、バウンス）を送信し、Dynamics 365インターフェイスの販売リポジトリに表示します
+1. Dynamics 365からキャンペーンに連絡先を同期して、マーケティングキャンペーンでターゲット設定できるようにします
 1. Dynamics 365のカスタムエンティティをキャンペーンに同期して、セグメント化とパーソナライゼーションに使用できるようにします
+1. キャンペーンからDynamics 365に電子メールマーケティングイベント（送信、開く、クリック、バウンス）を送信し、Dynamics 365インターフェイスの販売リポジトリに表示します
+1. Dynamics 365とACS間でオプトアウト（電子メール送信しないなど）ステータスを同期して、顧客のプライバシー設定を維持します。
 
 ## 主なメリット
 
@@ -54,12 +53,20 @@ Adobe CampaignとMicrosoft Dynamics 365の統合により、顧客のインサ�
 
 * すべての見込み客と顧客データの全体的な表示
 
-Adobe CampaignをDynamics 365と統合すると、CRMシステム内から各連絡先の電子メールマーケティング履歴を共有し、アクセスできます。
+Adobe CampaignをDynamics 365と統合することで、CRMシステム内から各連絡先の電子メールマーケティング履歴を共有し、アクセスすることができます。
 
 * 任意のチャネル上のDynamics 365データをアクティブにする
 
-連絡先データがAdobe Campaignに同期されている場合、通信は、任意のオンラインまたはオフラインチャネルで、モバイルプッシュ、アプリ内、電子メール、ダイレクトメールなどのキャンペーンと共に送信できます。 各連絡先の希望チャネルに関係なく、キャンペーンが対象としています。
+連絡先データがAdobe Campaignに同期されている場合、通信は、任意のオンラインまたはオフラインチャネルで、モバイルプッシュ、アプリ内、電子メール、ダイレクトメールなどのキャンペーンと共に送信できます。 各連絡先の好みのチャネルに関係なく、キャンペーンが対象とします。
 
 >[!CAUTION]
 >
->連絡先の同期の場合、この統合ではDynamics 365を真のソースと見なします。  同期された連絡先属性に対する変更は、キャンペーンではなくDynamics 365で行う必要があります。  キャンペーンで変更を行うと、同期中に上書きされる場合があります。
+>連絡先エンティティとカスタムエンティティの同期の場合、この統合ではDynamics 365を真の原因と見なします。  同期された属性に対する変更は、キャンペーンではなくDynamics 365で行う必要があります。  キャンペーンで変更を行うと、同期中に上書きされる場合があります。
+
+## サポートソフトウェアバージョン {#support-software-versions}
+
+この統合には、次のソフトウェアバージョンが必要です。
+
+* Microsoft Dynamics 365 for Sales Onlineのみ、最新バージョン
+
+* Adobe Campaign Standard最新版
