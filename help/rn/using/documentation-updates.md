@@ -12,9 +12,9 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 99edde2738ebf9d2a742aa467b049d6ec7761cc1
+source-git-commit: ec32aa2a955486362f100382f3a78004fdae4a4f
 workflow-type: tm+mt
-source-wordcount: '6128'
+source-wordcount: '6140'
 ht-degree: 94%
 
 ---
@@ -31,6 +31,8 @@ ht-degree: 94%
 ログアクセスに関連する権限制限についてユーザーに警告するための注意事項が追加されました。 [詳細を表示](../../administration/using/users-management.md)
 
 新しいブランドを作成するプロセスの詳細を説明する新しい節が追加されました。 [詳細を表示](../../administration/using/branding.md#creating-a-brand)
+
+新しいCampaign Standard- Microsoft Dynamics 365統合が利用できるようになりました。 [詳細を表示](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
 ## ドキュメントのアップデート - 2020 年 8 月 {#doc-updates-august-2020}
 
