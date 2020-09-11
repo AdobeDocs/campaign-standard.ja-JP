@@ -12,9 +12,9 @@ discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0ce73bf7e250c5e88bbb525854e81ef27662ab06
+source-git-commit: 60a67adf51881b785ad2f0b40ff544a0b9988afd
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '499'
 ht-degree: 3%
 
 ---
@@ -44,53 +44,51 @@ Adobe Campaign Standard- Microsoft Dynamics 365の統合については、 [こ�
 
 1. 「 [AdobeI/Oコンソール](https://console.adobe.io/home#) 」に移動し、画面の右上にあるドロップダウンメニューからAdobeIMS組織IDを選択します。
 
-1. 次に、の **[!UICONTROL Create new project]** 下のをクリックし **[!UICONTROL Quick Start]**&#x200B;ます。
+1. 次に、 **[!UICONTROL Create new project]** の下をクリックし **[!UICONTROL Quick Start]**&#x200B;ます。
 
-![](assets/adobeIO1.png)
+   ![](assets/adobeIO1.png)
 
-1. で、 **[!UICONTROL Get started with your new project]**&#x200B;をクリックし **[!UICONTROL Add API]**&#x200B;ます。
+1. の下 **[!UICONTROL Get started with your new project]**&#x200B;のをクリックし **[!UICONTROL Add API]**&#x200B;ます。
 
-![](assets/adobeIO2.png)
+   ![](assets/adobeIO2.png)
 
-1. Adobe CampaignAPIを選択し（下にスクロールする必要がある場合があります）、「Next」をクリックします。
+1. Adobe CampaignAPIを選択し（下にスクロールする必要がある場合があります）、をクリックし **[!UICONTROL Next]**&#x200B;ます。
 
-![](assets/adobeIO3.png)
+   ![](assets/adobeIO3.png)
 
-1. 次の画面では、独自の公開鍵をアップロードするか、AdobeI/Oで鍵ペアを生成するかを選択できます。 これらの手順は、後者のオプションに従います。 AdobeI/Oでキーペアを生成する場合は、オプション1をクリックします。次に、「キーペアを生成」ボタンをクリックします。
+1. 次の画面では、独自の公開鍵をアップロードするか、AdobeI/Oで鍵ペアを生成するかを選択できます。 これらの手順は、後者のオプションに従います。 AdobeI/Oでキーペアを生成する場合は、オプション1をクリックします。次に、 **[!UICONTROL Generate keypair]** ボタンをクリックします。
 
-![](assets/adobeIO4.png)
+   ![](assets/adobeIO4.png)
 
 1. 次の画面で、キーペアzipファイルのダウンロード先を指定し、名前を付けて選択するよう求められます。
 
 ダウンロードしたファイルを解凍すると、公開鍵と秘密鍵が表示されます。 AdobeI/Oは既にAdobeI/Oプロジェクトに公開鍵を適用しています。 秘密鍵は後で保持する必要があります。秘密鍵は、統合ツールの統合前の設定時に使用されます。
 
-1. 「次へ」をクリックして続行します
+1. クリック **[!UICONTROL Next]** して続行
 
-![](assets/adobeIO5.png)
+   ![](assets/adobeIO5.png)
 
-1. 次の画面で、このプロジェクトに関連付ける製品プロファイルを選択します。
+1. 次の画面で、このプロジェクトに関連付ける製品プロファイルを選択します。 タイトルに含まれる製品プロファイルを選択します。キャンペーンインスタンスのテナントID - [!UICONTROL Administrators]
 
-1. タイトルに含まれる製品プロファイルを選択します。キャンペーンインスタンスのテナントID - [!UICONTROL Administrators] — 例：Campaign Standard-キャンペーン — テナントID — 管理者
+   例：Campaign Standard-キャンペーン — テナントID — 管理者
 
-1. をクリックし [!UICONTROL Save configured API]ます。
+1. 「**[!UICONTROL Save configured API]**」をクリックします。
 
-![](assets/adobeIO6.png)
+   ![](assets/adobeIO6.png)
 
-1. 次の画面に、新しいAdobeI/Oプロジェクトの詳細が表示されます。
+1. 次の画面に、新しいAdobeI/Oプロジェクトの詳細が表示されます。 画面 **[!UICONTROL Add to Project]** の左上にあるをクリックし、ドロップダウンから **API** を選択します。
 
-1. 画面の左上にある「プロジェクトへ追加」をクリックし、ドロップダウンから「API」を選択します。
+   ![](assets/adobeIO7.png)
 
-![](assets/adobeIO7.png)
+1. 次の画面で、I/OイベントAPIを選択し、をクリックし **[!UICONTROL Next]**&#x200B;ます。
 
-1. 次の画面で、I/OイベントAPIを選択し、[次へ]をクリックする必要があります。
+1. 次の画面でをクリックし **[!UICONTROL Save the configured API]**&#x200B;ます。  プロジェクトの詳細画面に戻ります。
 
-1. 次の画面で、「Save configured API」をクリックします。  プロジェクトの詳細画面に戻ります。
+1. 画面の左上 **[!UICONTROL Add to Project]** にあるをクリックし、前と同様に、ドロップダウンから **API** を選択します。
 
-1. 画面の左上にある「プロジェクトへ追加」をクリックし、ドロップダウンから「API」を選択します。
+1. 次の画面で、I/O Management APIを選択し、をクリックする必要があり **[!UICONTROL Next]**&#x200B;ます。
 
-1. 次の画面で、I/O Management APIを選択し、[次へ]をクリックする必要があります。
-
-1. 次の画面で、「Save configured API」をクリックします。
+1. 次の画面でをクリックし **[!UICONTROL Save the configured API]**&#x200B;ます。
 
 キャンペーンでの統合前の設定が完了しました。  Microsoft Dynamics 365の [統合前のセットアップを完了します](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)。
 
