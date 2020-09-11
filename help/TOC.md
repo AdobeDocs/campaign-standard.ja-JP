@@ -4,10 +4,10 @@ sub-product: Adobe Campaign Standard
 audience: end-user
 user-guide-title: Adobe Campaign Standard ヘルプ
 translation-type: tm+mt
-source-git-commit: 92c743c707412f25160ca31ab1da04210ad40816
+source-git-commit: ec32aa2a955486362f100382f3a78004fdae4a4f
 workflow-type: tm+mt
-source-wordcount: '1597'
-ht-degree: 87%
+source-wordcount: '1628'
+ht-degree: 85%
 
 ---
 
@@ -237,7 +237,14 @@ ht-degree: 87%
       + [トリガーのテスト](integrating/using/testing-your-triggers.md)
       + [中断トリガーの使用例](integrating/using/abandonment-triggers-use-cases.md)
    + Campaign と Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
-      + [Microsoft Dynamics 365 統合の概要](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+      + [ Dynamics 365 統合の概要](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+      + [キャンペーンとDynamics 365間のデータの管理](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
+      + [統合のリクエスト](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
+      + [AdobeI/Oの構成](integrating/using/configure-adobe-io-for-ms-dynamic.md)
+      + [Campaign 統合用の Dynamics 365 の設定](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
+      + [キャンペーンのカスタムリソースとDynamics 365カスタムエンティティのマップ](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
+      + [ Dynamics 365 統合の使用](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
+      + [統合ガードレール](integrating/using/ms-dynamics-365-integration-guardrails.md)
 + プロセスとデータの管理 {#managing-processes-and-data}
    + [データとプロセスの管理の概要](automating/using/get-started-workflows.md)
    + ワークフローの一般操作 {#workflow-general-operation}
