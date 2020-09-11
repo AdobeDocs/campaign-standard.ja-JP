@@ -12,7 +12,7 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ca6b418351cfbe539da9f1f4a542c2d7014dfc24
+source-git-commit: cd1cbf907eb160b6bbc1a2a2d3dd1c601ac13635
 workflow-type: tm+mt
 source-wordcount: '1186'
 ht-degree: 1%
@@ -105,7 +105,8 @@ Dynamics Userのタイムライン表示を閉じる方法については、以�
 >電子メールミラーページの有効期限は、対応するキャンペーン電子メールチャネルアクティビティの設定画面で変更できます( [有効期間パラメーター](../../administration/using/configuring-email-channel.md#validity-period-parameters))。
 
 >[!NOTE]
-オプトアウトの場合、Dynamics 365でオプトアウト属性を変更すると、Dynamics 365からキャンペーンへの設定または双方向のオプトアウト設定を選択し、その属性が正しくマッピングされている場合、キャンペーンに反映されます。
+>
+>オプトアウトの場合、Dynamics 365でオプトアウト属性を変更すると、Dynamics 365からキャンペーンへの設定または双方向のオプトアウト設定を選択し、その属性が正しくマッピングされている場合、キャンペーンに反映されます。
 
 ## データフロー {#data-flows}
 
@@ -124,7 +125,8 @@ Dynamics Userのタイムライン表示を閉じる方法については、以�
 キャンペーンプロファイルテーブルの属性externalIdには、連絡先の入力が機能するように、Dynamics 365連絡先属性contactIdを設定する必要があります。 キャンペーンのカスタムエンティティにもDynamics 365の一意のID属性を設定する必要があります。ただし、この属性は、キャンペーンのカスタムエンティティ属性に格納できます（externalIdである必要はありません）。
 
 >[!NOTE]
-カスタムエンティティの入力の場合、同期されたカスタムエンティティに対してDynamics 365内で変更追跡を有効にする必要があります。
+>
+>カスタムエンティティの入力の場合、同期されたカスタムエンティティに対してDynamics 365内で変更追跡を有効にする必要があります。
 
 ### 電子メールマーケティングイベントのフロー
 
