@@ -12,7 +12,7 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e90f878814e65a9a61ee4013d94fd0bf3b1f7875
+source-git-commit: 0ce73bf7e250c5e88bbb525854e81ef27662ab06
 workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 3%
@@ -61,12 +61,12 @@ MICROSOFT DYNAMICS 365では、新しいアプリ登録を作成し、アプリ�
 
 統合データフローに関する問題の場合は、問題の説明の一部にレポートスイートを含め、次の情報を必ず含めてください。
 
-* プロセスの所有者：エンジニアリングアーキテクト
+* **Process Owner**:エンジニアリングアーキテクト
 
-* ES Process ID: [オンボーディングプロセス中に提供されます。]
+* **ES Process ID**:オンボーディングプロセス中に提供されます。
 
-* プロセスのタイトル：Dynamics 365 /Adobe Campaign Standard統合
+* **プロセスタイトル**:Dynamics 365 /Adobe Campaign Standard統合
 
-* 問題の説明： [問題の説明]
+* **問題の説明**:問題の説明
 
 現在、統合サポートは24時間365日体制です(月～金、Adobeの休日および休憩時間を除く)。
