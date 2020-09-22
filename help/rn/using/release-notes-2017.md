@@ -12,9 +12,9 @@ discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '4623'
+source-wordcount: '4627'
 ht-degree: 7%
 
 ---
@@ -494,7 +494,7 @@ _ワークフロー_
    <td> トランザクションメッセージ向けマーケティング機能<br /> </td> 
    <td> マーケターは、顧客のマーケティングプロファイルに基づいてトランザクションメッセージを送信できるようになりました。 これにより、次のことが可能になります。<br /> 
     <ul> 
-     <li> <span class="uicontrol">ブロックリストに加える住所などのマーケティングタイポロジルールを適用します</span> 。 </li> 
+     <li> 「 <span class="uicontrol">住所をタイポロジルールにブロックリスト適用」などのマーケティングを適用します</span> 。 </li> 
      <li> メッセージ内に購読解除リンクを含める。 </li> 
      <li> グローバル配信レポートにトランザクションメッセージを追加する。 </li> 
      <li> カスタマージャーニーでトランザクションメッセージを活用する。 </li> 
@@ -530,7 +530,7 @@ _プッシュ通知_
 * アプリケーションからAdobe Campaignサーバーへのポストバックができない可能性がある問題を修正しました。
 * Androidで考慮できず、考慮されない問題 **[!UICONTROL Play a sound]** を修正し **[!UICONTROL Custom fields]** ました。
 * 絵文字に使用されるUnicode文字に余分なエスケープ文字が追加される問題を修正しました。
-* 加入者の登録トークンがブロックリストに加えるされると、対応するステータスが、Adobe Campaign内の加入者のアプリケーションリストで直ちに更新されるようになりました。
+* 加入者の登録トークンがリストに追加されブロックリストると、対応するステータスが、Adobe Campaign内の加入者のアプリケーションで直ちに更新されるようになりました。
 
 _ワークフロー_
 
