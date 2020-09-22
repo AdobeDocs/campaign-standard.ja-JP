@@ -13,10 +13,10 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d5d9d50474142306457a8c76a24388c3c574791d
+source-git-commit: b80197491b45cff46273e1a41e3dfb7a939f96c5
 workflow-type: tm+mt
 source-wordcount: '400'
-ht-degree: 92%
+ht-degree: 93%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 92%
 
 配達確認を送信すると、オプトアウトリンクやミラーページ、その他のリンクの確認、メッセージの検証、画像の表示の確認、エラーの検出などをおこなうことができます。また、様々なデバイス上でデザインとレンダリングを確認することもできます。
 
-Learn more [[in this section](../../sending/using/sending-proofs.md).
+詳しくは、[この節](../../sending/using/sending-proofs.md)を参照してください。
 
 ## 配信の A/B テストの設定 {#a-b-testing-deliveries}
 
