@@ -13,7 +13,7 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e8f8755acdc0b778b74e2bfcd4dc898ceff82b90
+source-git-commit: df70a2165c5d3a4b553565d9a91ec3f8da1b44aa
 workflow-type: tm+mt
 source-wordcount: '2492'
 ht-degree: 93%
@@ -84,7 +84,7 @@ ht-degree: 93%
 
    ![](assets/message-center_9.png)
 
-   パーソナライゼーションフィールドがテストプロファイルに入力された情報と一致しているかどうかを確認できます。詳しくは、[トランザクションメッセージでのテストプロファイルの定義](#defining-a-test-profile-in-a-transactional-message)を参照してください。
+   パーソナライゼーションフィールドがテストプロファイルに入力された情報と一致しているかどうかを確認できます。詳しくは、[トランザクションメッセージでのテストプロファイルの定義](../../channels/using/event-transactional-messages.md#defining-specific-test-profile)を参照してください。
 
 ## トランザクションメッセージでの製品リストの使用{#using-product-listings-in-a-transactional-message}
 
@@ -204,7 +204,7 @@ ht-degree: 93%
 
    ![](assets/message-center_loop_test-profile_payload.png)
 
-   トランザクションメッセージでのテストプロファイルの定義について詳しくは、[この節](#defining-a-test-profile-in-a-transactional-message)を参照してください。
+   トランザクションメッセージでのテストプロファイルの定義について詳しくは、[この節](../../channels/using/event-transactional-messages.md#defining-specific-test-profile)を参照してください。
 
 ## トランザクションメッセージのテスト{#testing-a-transactional-message}
 
