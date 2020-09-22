@@ -13,10 +13,10 @@ context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8ebded956ef52bb742160d62ebbd8095c390d51c
+source-git-commit: 813f74458bef5e80e24cc0125ddd8d7de6252196
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 2%
+source-wordcount: '264'
+ht-degree: 13%
 
 ---
 
@@ -41,7 +41,11 @@ ht-degree: 2%
 
 * **[!UICONTROL Save SQL queries in the log]**:ワークフローのSQLクエリをログに保存できます。
 
-* **[!UICONTROL Keep interim results]**:トランジションの詳細を表示できるようにするには、このオプションを選択します。 警告：このオプションを選択すると、ワークフローの実行が大幅に遅くなる可能性があります。
+* **[!UICONTROL Keep interim results]**:トランジションの詳細を表示できるようにするには、このオプションを選択します。
+
+   >[!CAUTION]
+   >
+   >このオプションは、多くのディスク領域を消費しますが、ワークフローの作成と適切な設定および動作の確保に役立つように設計されています。実稼働インスタンスでは、このチェックボックスをオフのままにします。
 
 * **[!UICONTROL Execute in the engine (do not use in production)]**:開発環境のテスト用に、ワークフローをローカルで実行できます。
 
