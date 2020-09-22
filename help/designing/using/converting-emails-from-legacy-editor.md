@@ -12,10 +12,10 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: bb83fb3b24af0102dc3745517e8604fdac82ee19
+source-git-commit: b95a1990cfd8b4ce667c7cb2905af33a261c574b
 workflow-type: tm+mt
 source-wordcount: '438'
-ht-degree: 2%
+ht-degree: 8%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->互換モードと同様に、HTMLコンポーネントは次の制限付きオプションで編集できます。 インプレースエディションのみ実行できます。
+>互換モードと同様に、HTMLコンポーネントは次の制限付きオプションで編集できます。インプレースエディションのみ実行できます。
 
 >[!IMPORTANT]
 >
@@ -43,19 +43,19 @@ ht-degree: 2%
 ## 電子メール構造の作成
 
 1. を開き、空の電子メールコンテンツ **[!UICONTROL Email Designer]** を作成します。
-1. ボディレベルの属性を設定します。 背景色、幅など For more on this, see [Editing email styles](../../designing/using/styles.md).
-1. 断追加面を持つ構造コンポーネントの数と同じ数 詳しくは、「電子メール構造の [編集](../../designing/using/designing-from-scratch.md#defining-the-email-structure)」を参照してください。
+1. ボディレベルの属性を設定します。背景色、幅など 詳しくは、[メールスタイルの編集](../../designing/using/styles.md)を参照してください。
+1. 断追加面を持つ構造コンポーネントの数と同じ数 詳しくは、[メール構造の編集](../../designing/using/designing-from-scratch.md#defining-the-email-structure)を参照してください。
 
 ## 追加HTMLコンテンツ
 
-1. 各構造コンポ追加ーネントに対するHTMLコンポーネント。 詳しくは、「フラグメントとコンポーネントの [追加](../../designing/using/designing-from-scratch.md#defining-the-email-structure)」を参照してください。
+1. 各構造コンポ追加ーネントに対するHTMLコンポーネント。 詳しくは、[フラグメントとコンポーネントの追加](../../designing/using/designing-from-scratch.md#defining-the-email-structure)を参照してください。
 1. HTMLをすべてのコンポーネントにコピー&amp;ペーストします。
 
 ## 電子メールのスタイルの管理 {#manage-the-style-of-your-email}
 
 1. Switch to **[!UICONTROL Mobile view]**. 詳しくは、[この節](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)を参照してください。
 
-1. これを修正するには、ソースコードモードに切り替えて、スタイルセクションを新しいスタイルセクションにコピー&amp;ペーストします。 次に例を示します。
+1. これを修正するには、ソースコードモードに切り替えて、スタイルセクションを新しいスタイルセクションにコピー&amp;ペーストします。 例：
 
    ```
    <style type="text/css">
@@ -85,7 +85,7 @@ ht-degree: 2%
 
 レガシーエディターで作成したこの電子メールをテン **[!UICONTROL Email Designer]** プレートに変換してみましょう。
 
-## 電子メールのセクションを特定する
+### 電子メールのセクションを特定する
 
 この電子メールの11のセクションを特定できます。
 
@@ -117,7 +117,7 @@ HTMLのどのセクションかを識別するために、要素を選択でき�
 
 1. HTMLセクションを挿入します。
 
-1. クリック **[!UICONTROL Save]** .
+1. 「**[!UICONTROL Save]**」をクリックします。
 
 これで、電子メールのレンダリングを確認できます。
 
