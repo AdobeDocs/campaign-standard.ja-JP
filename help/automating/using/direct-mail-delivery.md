@@ -13,7 +13,7 @@ context-tags: directMail,workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
+source-git-commit: eac45f6e5491703a39c19a4787be6f285e841e14
 workflow-type: tm+mt
 source-wordcount: '914'
 ht-degree: 99%
@@ -29,11 +29,10 @@ ht-degree: 99%
 
 ![](assets/recurrentpaper.png)
 
-「**[!UICONTROL Direct mail delivery]**」アクティビティでは、ダイレクトメールキャンペーンに使用するプロファイルデータを含んだファイルを設定および準備することができます。これは、1 回だけ使用するダイレクトメールでも、**繰り返し**&#x200B;ダイレクトメールでもかまいません。
+「**[!UICONTROL Direct mail delivery]**」アクティビティでは、ダイレクトメールキャンペーンに使用するプロファイルデータを含んだファイルを設定および準備することができます。これは、1 回だけ使用するダイレクトメールでも、繰り返しダイレクトメールでもかまいません。
 
-標準的なダイレクトメールは 1 回だけ送信されます。
-
-繰り返しメールでは、定義済みの期間中に同じダイレクトメールを異なるターゲットに何度も送信できます。期間ごとの配信を集計して、ニーズに応じたレポートを取得できます。
+* **標準的なダイレクトメールは 1 回だけ送信されます。**
+* **繰り返しメールでは、定義済みの期間中に同じダイレクトメールを異なるターゲットに何度も送信できます。**&#x200B;期間ごとの配信を集計して、ニーズに応じたレポートを取得できます。
 
 ## 使用状況 {#context-of-use}
 
