@@ -12,10 +12,10 @@ context-tags: workflow,overview;workflow,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51e98bb6212ad96d9c11b848df9dcad25b3f1b61
+source-git-commit: c4373c444ed51e03c16be05363e9e4128a6f4a58
 workflow-type: tm+mt
-source-wordcount: '1039'
-ht-degree: 98%
+source-wordcount: '1069'
+ht-degree: 93%
 
 ---
 
@@ -72,12 +72,15 @@ Adobe Campaign を使用すると、あらゆる種類のワークフローを�
 
 ワークフローのプロパティを使用すると、すべてのアクティビティでデフォルトで使用される特定のタイムゾーンを定義できます。デフォルトでは、現在の Campaign オペレーターに指定されたタイムゾーンがワークフローのタイムゾーンになります。
 
-
 ## アクティビティ{#activity}
+
+### ワークフローあたりのアクティビティ数 {#number-activities}
+
+最大100人のアクティビティを1つのワークフローに使用することをお勧めします。 100を超えるアクティビティでは、ワークフローの設計と設定時に、パフォーマンスの問題が発生する場合があります。
 
 ### ワークフローデザイン
 
-ワークフローが正しく終了するようにするには、**[!UICONTROL End activity]**&#x200B;を使用します。ワークフローの最後のトランジションを単独で残さないようにします。
+ワークフローが正しく終了するように、ワークフローの最後のトランジションを単独で残さないように、を使用し **[!UICONTROL End activity]**&#x200B;ます。
 
 トランジションの詳細表示にアクセスするには、ワークフロープロパティの「Execution」セクションで「**[!UICONTROL Keep interim results]**」オプションを選択します。
 
