@@ -13,7 +13,7 @@ context-tags: sms,main;delivery,smsContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 16afc307df6902584624d6457954a472b11c5129
+source-git-commit: eac45f6e5491703a39c19a4787be6f285e841e14
 workflow-type: tm+mt
 source-wordcount: '784'
 ht-degree: 100%
@@ -29,11 +29,10 @@ ht-degree: 100%
 
 ![](assets/recurrentsms.png)
 
-「**[!UICONTROL SMS delivery]**」アクティビティでは、ワークフローでの SMS の送信を設定できます。これは、1 回だけ送信する&#x200B;**単一送信** SMS か、**繰り返し送信** SMS のどちらかです。
+「**[!UICONTROL SMS delivery]**」アクティビティでは、ワークフローでの SMS の送信を設定できます。これは、1 回だけ送信する単一送信 SMS か、繰り返し送信 SMS のどちらかです。
 
-単一送信の SMS メッセージは、1 回だけ送信される標準の SMS です。
-
-繰り返し送信の SMS メッセージでは、一定の期間にわたって様々なターゲットに向けて同じ SMS を何度も送信することができます。期間ごとの配信を集計して、ニーズに応じたレポートを取得できます。
+* **単一送信の SMS メッセージは、1 回だけ送信される標準の SMS です。**
+* **繰り返し送信の SMS メッセージでは、一定の期間にわたって様々なターゲットに向けて同じ SMS を何度も送信することができます。**&#x200B;期間ごとの配信を集計して、ニーズに応じたレポートを取得できます。
 
 ## 使用状況 {#context-of-use}
 
