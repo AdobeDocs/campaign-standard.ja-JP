@@ -12,7 +12,7 @@ discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+source-git-commit: c1147c4512b1485ae5d927a32970adcd41b540e7
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 1%
@@ -26,7 +26,7 @@ Campaign Standardオファーは、マーケティングデータベースの拡
 
 ## ワークフローを介したデータの読み込み {#importing-data-through-workflows}
 
-ワークフローを使用すると、データを収集し、 [**[!UICONTROL Data management]**](../../automating/using/about-data-management-activities.md) アクティビティを使用してキャンペーンデータベースにインポートできます。
+ワークフローを使用すると、データを収集し、 [[!UICONTROL Data management]](../../automating/using/about-data-management-activities.md) アクティビティを使用してキャンペーンデータベースにインポートできます。
 
 ワークフローを介してデータをインポートする場合の一般的な情報とベストプラクティスについては、 [この節で説明し](../../automating/using/about-data-import-and-export.md)ます。
 
@@ -34,11 +34,11 @@ Campaign Standardオファーは、マーケティングデータベースの拡
 
 次の2種類のテンプレートを設定できます。
 
-* **ワークフローテンプレート**: これらは事前設定済みのワークフローで、必要に応じて一度設定すれば、データを読み込んでデータベースを更新するたびに再利用できます。
+* **ワークフローテンプレート**:これらは事前設定済みのワークフローで、必要に応じて一度設定すれば、データを読み込んでデータベースを更新するたびに再利用できます。
 
    データを読み込むためのワークフローテンプレートの例について [この節で詳しく説明します](../../automating/using/creating-import-workflow-templates.md)。
 
-* **データテンプレートの読み込み**: ワークフローテンプレートと同様、テンプレートはワークフローに基づくテンプレートで、データベースを更新するためにファイルをアップロードするように設定されます。 設定が完了すると、 **[!UICONTROL Profile & audiences]** /メニューのシンプルな表示を使用してユーザーが使用できるようになり **[!UICONTROL Imports]** ます。
+* **データテンプレートの読み込み**:ワークフローテンプレートと同様、テンプレートはワークフローに基づくテンプレートで、データベースを更新するためにファイルをアップロードするように設定されます。 設定が完了すると、 **[!UICONTROL Profile & audiences]** /メニューのシンプルな表示を使用してユーザーが使用できるようになり **[!UICONTROL Imports]** ます。
 
    データテンプレートの読み込みについて詳しくは、 [専用のドキュメントを参照してください](../../automating/using/importing-data-with-import-templates.md)。
 
@@ -52,7 +52,7 @@ Campaign Standardオファーは、マーケティングデータベースの拡
 * 各入力フィールドを、データベースの対応するフィールドにマップします。
 * Webサイトまたはメッセージへの直接リンクを介して、ランディングページをオンラインで利用できるようにします。
 
-ランディングページについて詳しくは、 [専用ドキュメントを参照してください](../../channels/using/getting-started-with-landing-pages.md)。
+For more on landing pages, refer to the [dedicated documentation](../../channels/using/getting-started-with-landing-pages.md).
 
 ## Microsoft Dynamics 365からのプロファイルの同期
 
@@ -71,6 +71,6 @@ Campaign StandardAPIを使用すると、プロファイルやサービスの作
 
 For more on how to use the APIs, refer to the [dedicated documentation](../../api/using/get-started-apis.md).
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >API呼び出しを使用してプロファイルの一括作成または更新を実行する前に、使用許諾契約に対応するスケール制限を確認してください。 詳しくは、[このページ](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers)を参照してください。
