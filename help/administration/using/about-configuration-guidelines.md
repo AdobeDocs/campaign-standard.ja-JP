@@ -12,20 +12,23 @@ discoiquuid: 5587530a-2308-4be1-9f56-19eeb7a924d5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c2ed4b3c85ceef3b604a8f68d924c7e5d9fad900
+source-git-commit: cd2d38ec65ecc0ee5d6d60ce2ae46eb21da6cd45
+workflow-type: tm+mt
+source-wordcount: '117'
+ht-degree: 13%
 
 ---
 
 
 # 設定のガイドライン {#about-configuration-guidelines}
 
-## 互換性のあるブラウザー{#compatible-browsers}
+## 対応ブラウザー{#compatible-browsers}
 
-Adobe Campaign標準は、コンピューターのほとんどのブラウザーと、タブレット用の主なオペレーティングシステムとの互換性があります。
+Adobe Campaign Standardは、コンピューターのほとんどのブラウザーと、タブレット用の主なオペレーティングシステムと互換性があります。
 
-Adobe Campaign標準は、タブレットでの表示モードとして横置きのみサポートします。
+Adobe Campaign Standardはタブレットでの表示モードとして横置きのみサポートします。
 
-以下は、Adobe Campaign標準と互換性のあるブラウザーのリストです。
+以下は、Adobe Campaign Standardと互換性のあるブラウザのリストです。
 
 **コンピュータ：**
 
@@ -34,7 +37,7 @@ Adobe Campaign標準は、タブレットでの表示モードとして横置き
 * Safari（最新バージョン）
 * Microsoft Edge（最新バージョン）
 
-**タブレット：**
+**タブレット:**
 
 * iOS（バージョン7以降）
 * Android（バージョン4.4以降）
@@ -49,8 +52,7 @@ Campaign Standardで使用されるエンドポイントは次のとおりです
 | IMS | `https://adobeid-na1.services.adobe.com`<br>`https://*.adobelogin.com` |
 | Experience Cloud | `https://experiencecloud.adobe.com` |
 | トラッキング | `https://*.adobedtm.com`<br>`https://*.demdex.net`<br>`https://*.omtrdc.net` |
-| Creative SDK for Image Editor | `https://dme0ih8comzn4.cloudfront.net`<br>`https://d42hh4005hpu.cloudfront.net/`<br>`https://cdn-creativesdk.adobe.io/`<br>`https://api-ag.aviary.com/`<br>`https://feather-client-files-aviary-prod-us-east-1.s3.amazonaws.com/` |
 | アセットの統合 | `https://*.marketing-assets.adobe.com` |
-| アドビの内部サービス | `https://*.adobe.io` |
+| 内部Adobeサービス | `https://*.adobe.io` |
 | 調査 | `https://adobe.allegiancetech.com` |
 | デフォルトのブランドURL（クライアント設定前） | `https://*.adobe-campaign.com` |
