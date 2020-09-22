@@ -12,9 +12,9 @@ discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: f26fb6bd8b6d103e25bfaedb02d4d1d9342752bf
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '613'
 ht-degree: 11%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 11%
 
 キャンペーンやメッセージを作成する場合は、キャンペーンデータベースの連絡先から選択するか、単純または詳細な条件を使用するか、オーディエンスを選択して、配信のターゲットを指定できます。
 
-顧客プロファイルと **カスタマイズされたセグメントを** 統合して、すべてのチャネルにわたって顧客をより効果的に特定 ****。 顧客、興味、人口統計およびチャネルの環境設定を把握している場合は、気付かれるパーソナライズされたエクスペリエンスを簡単に作成できます。
+顧客プロファイル **、**&#x200B;カスタマイズされたセグメント **、** コントロール母集団を統合して、すべてのチャネルにわたって、より効果的に顧客を特定できます ****。 顧客、興味、人口統計およびチャネルの環境設定を把握している場合は、気付かれるパーソナライズされたエクスペリエンスを簡単に作成できます。
 
 Adobe Campaignはリッチな顧客プロファイルをリアルタイムで作成し、顧客の好みが変化した場合に、より関連性の高いパーソナライズされたオファーを提供できます。 さらに、Adobe Campaignは、高度な分析、データ管理、およびターゲット設定機能を統合してオーディエンスを構築します。
 
@@ -57,6 +57,7 @@ Adobe Campaignはリッチな顧客プロファイルをリアルタイムで作
 * [Campaign データベースの強化](../../audiences/using/enriching-campaign-database.md)
 * [オーディエンスについて](../../audiences/using/about-audiences.md)
 * [メッセージ内のオーディエンスの選択](../../audiences/using/selecting-an-audience-in-a-message.md)
+* [コントロール母集団の追加](../../sending/using/control-group.md)
 
 ## 許可及び同意 {#permission}
 
@@ -85,9 +86,7 @@ Adobe Campaign offers a set of tools to help you with your **Privacy Compliance*
 
 この記事では、プライバシー管理 [と](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy.html) 、アクセス権、忘れ去られる権利、同意、データ保持、ユーザーの役割を管理するために提供される機能について詳しく説明します。
 
-キャンペーンに関するプライバシーと同意、およびそれらの管理方法については、 [この節に記載し](../../start/using/privacy.md)ます。
-
-また、アドビのサービスを利用する際にプライバシーの順守に役立つベストプラクティスもご覧いただけます。
+キャンペーンに関するプライバシーと同意、およびそれらの管理方法については、 [この節に記載し](../../start/using/privacy.md)ます。 また、アドビのサービスを利用する際にプライバシーの順守に役立つベストプラクティスもご覧いただけます。
 
 ## その他のリソース
 
