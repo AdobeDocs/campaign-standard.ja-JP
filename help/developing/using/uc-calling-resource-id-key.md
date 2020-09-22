@@ -2,10 +2,10 @@
 title: 複合 ID キーを使用したリソースの呼び出し
 description: 複合IDキーを使用してリソースを呼び出す方法を学習します。
 translation-type: tm+mt
-source-git-commit: 1e1e1f5f9dd239e45d83330aed74a951a7b332d4
+source-git-commit: 81612f8158a19853e4b3ca05866fa335af493f67
 workflow-type: tm+mt
-source-wordcount: '589'
-ht-degree: 6%
+source-wordcount: '588'
+ht-degree: 7%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 6%
 
 場合によっては、2つのフィールドで構成される識別キーをリソースに対して定義する必要があります。 IDキーを設定したら、Campaign StandardインターフェイスまたはAPIからこのIDキーを使用してリソースを呼び出せるように、フィルター定義を設定する必要があります。
 
-この使用例では、 **プロファイル** リソースがカスタムの「CRM ID **」と「** カテゴリ」 **** フィールドを使用して拡張されています。 この2つのフィールドで構成されるプロファイルリソースのIDキーを作成します。 次に、IDキーを使用してプロファイルリソースにアクセスできるように、フィルター定義を設定します。
+この使用例では、 **プロファイル** リソースがカスタムの「CRM ID **」フィールドと「** カテゴリ」 **** フィールドを使用して拡張されています。 この2つのフィールドで構成されるプロファイルリソースのIDキーを作成します。 次に、IDキーを使用してプロファイルリソースにアクセスできるように、フィルター定義を設定します。
 
 この使用例の主な手順は次のとおりです。
 
@@ -22,13 +22,13 @@ ht-degree: 6%
 1. IDキーを使用してプロファイルリソースを呼び出せるように、フィルター定義を設定します。
 1. プロファイルリソースをインターフェイスまたはAPから呼び出します。
 
-関連トピック:
+関連トピック ： 
 
 * [リソースの作成または拡張](../../developing/using/creating-or-extending-the-resource.md)
 * [識別キーの定義](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)
 * [Campaign StandardREST API](../../api/using/get-started-apis.md)
 
-## 手順1: IDキーの設定{#step-1-configure-the-identification-key}
+## 手順1:IDキーの設定{#step-1-configure-the-identification-key}
 
 >[!NOTE]
 > IDキーを設定する際のグローバルな概念について詳し [くは、この節](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)。
@@ -39,7 +39,7 @@ ht-degree: 6%
 
    ![](assets/uc_idkey1.png)
 
-1. セクションで、 **[!UICONTROL Identification keys]** ボタンをクリックし **[!UICONTROL Create element]** ます。
+1. In the **[!UICONTROL Identification keys]** section, click the **[!UICONTROL Create element]** button.
 
    ![](assets/uc_idkey2.png)
 
@@ -52,7 +52,7 @@ ht-degree: 6%
 
 1. これで、フィルター定義のIDキーを使用してリソースを呼び出せるようにフィルター定義を設定できます。
 
-## 手順2: フィルター定義の設定{#step-2-configure-the-filter-definition}
+## 手順2:フィルター定義の設定{#step-2-configure-the-filter-definition}
 
 >[!NOTE]
 > フィルター定義を設定する際のグローバル概念について詳し [くは、この節](../../developing/using/configuring-filter-definition.md)。
@@ -76,7 +76,7 @@ ht-degree: 6%
    ![](assets/uc_idkey7.png)
 
    >[!NOTE]
-   > プラスボタンをクリックすると、パラメーター名が自動的に生成されます。 この情報は、APIのフィルタを使用する必要があるので、注意してください。
+   > 「 **+」** ボタンをクリックすると、パラメーター名が自動的に生成されます。 この情報は、APIのフィルタを使用する必要があるので、注意してください。
 
 1. IDキー(「カテゴリ」)を構成するすべてのフィールドに対して上記の手順を繰り返し、変更を保存します。
 
@@ -84,7 +84,7 @@ ht-degree: 6%
 
 1. これで、フィルター定義が設定されます。 リソースを公開して、フィルターを使用できます。
 
-## 手順3: 識別キーに基づいてリソースを呼び出す{#step-3-call-the-resource-based-on-its-identification-key}
+## 手順3:識別キーに基づいてリソースを呼び出す{#step-3-call-the-resource-based-on-its-identification-key}
 
 IDキーとそのフィルター定義が設定されたら、それらを使用して、キャンペーン標準インターフェイスまたはREST APIからリソースを呼び出すことができます。
 
