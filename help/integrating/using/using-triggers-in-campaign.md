@@ -12,10 +12,10 @@ discoiquuid: a524c700-bad6-4fcf-857a-c31bfae4d30c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
+source-git-commit: dddd147d01f935ec6f1513c5f92bddf6e789abb1
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 98%
+source-wordcount: '725'
+ht-degree: 86%
 
 ---
 
@@ -50,14 +50,31 @@ Adobe Experience Cloud（**[!UICONTROL Triggers]** コアサービス）では�
 
    ![](assets/remarketing_4.png)
 
-1. トリガーイベントの公開を開始するには、「**[!UICONTROL Publish]**」ボタンをクリックします。
+1. これで、トリガーを公開できます。 詳しくは、「キャンペーンでのトリガーの [公開](../../integrating/using/using-triggers-in-campaign.md#publishing-trigger-in-campaign)」を参照してください。
+
+## キャンペーンでのトリガーの公開 {#publishing-trigger-in-campaign}
+
+既存のAdobe Experience Cloudトリガーに基づいてAdobe Campaignでトリガーイベントを作成した後、公開する必要があります。
+
+1. 以前に作成したトリガーから、ボタンをクリックして、トリガーイベントの公開を開始します。 **[!UICONTROL Publish]**
+
+   ![](assets/trigger_publish_1.png)
+
+1. トリガー発行の進行状況は、で確認でき **[!UICONTROL Publication]**&#x200B;ます。
+
+   ![](assets/trigger_publish_2.png)
+
+1. 発行が完了すると、の下に次のメッセージが表示され **[!UICONTROL Publication]**&#x200B;ます。
+
+   ![](assets/trigger_publish_3.png)
+
 1. トリガーイベントを公開した後でもトリガースキーマに変更を加える必要がある場合は、「**[!UICONTROL Update schema]**」ボタンをクリックして最新の変更を取得します。
 
    この操作により、トリガーとトランザクションメッセージが非公開になり、後で再公開する必要があります。
 
-   ![](assets/remarketing_11.png)
+   ![](assets/trigger_publish_4.png)
 
-この「**[!UICONTROL Show Trigger in Experience Cloud]**」ボタンを使用すると、Adobe Experience Cloud でトリガー定義を表示できます。
+1. Click **[!UICONTROL Show Trigger in Experience Cloud]** button allows you to view the trigger definition in Adobe Experience Cloud.
 
 イベントが公開されると、新規イベントにリンクされたトランザクションテンプレートが自動的に作成されます。その後、作成したテンプレートを変更して公開する必要があります。詳しくは、[テンプレートの編集](../../start/using/marketing-activity-templates.md)の節を参照してください。
 
