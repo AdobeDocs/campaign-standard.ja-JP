@@ -12,27 +12,34 @@ discoiquuid: 6bb6cee3-5674-4113-8073-5a9572b3e830
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5ed46987a3778dfa100639de8be9b6d5ac5348b4
+source-git-commit: 564613ecc2879be87d1f85f9f15e675697690139
+workflow-type: tm+mt
+source-wordcount: '213'
+ht-degree: 3%
 
 ---
 
 
 # ダイナミックテキストの定義{#defining-dynamic-text}
 
-ダイナミックテキストは、ダイナミックコンテンツと同じ方法で定義されます。 動的コンテンツの定 [義の節を参照してください](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) 。
+動的テキストは、動的コンテンツと同じ方法で定義されます。 「動的コンテンツの [定義](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) 」の節を参照してください。
 
 >[!NOTE]
 >
->SMSとプッシュの場合は、ダイナミックテキストのみを定義できます。 ランディングページでは、動的コンテンツとテキストの両方を定義できます。 電子メールデザイナーで動的テキストを定義する場合 [は](../../designing/using/designing-content-in-adobe-campaign.md)、電子メール内の動 [的コンテンツの定義を参照してください](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)。
+>SMSおよびプッシュの場合は、ダイナミックテキストのみを定義できます。 動的なコンテンツとテキストの両方をランディングページに定義できます。 電子メールデザイナで動的テキストを定義する場合は、 [電子メール内の動的コンテンツの](../../designing/using/designing-content-in-adobe-campaign.md)定義を参照してください [](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)。
 
-次の例は、SMSメッセージでダイナミックテキストを定義する方法を示しています。
+サロゲートペア（Unicode文字セットの基本多言語面に含まれない文字）は、2バイト（16ビット）で格納できず、2つのUTF-16文字にエンコードする必要があることに注意してください。 これらの文字には、CJKイデオグラフ、ほとんどの絵文字、一部の言語が含まれます。
+<br>これらの文字は、動的テキストで非互換性の問題の原因となる場合があります。 メッセージを送信する前に、強力なテストを実行する必要があります。
+
+
+次の例は、SMSメッセージで動的テキストを定義する方法を示しています。
 
 1. メッセージまたはランディングページの本文のテキストを選択します。
-1. クリック **[!UICONTROL Enable dynamic text]**.
+1. 「**[!UICONTROL Enable dynamic text]**」をクリックします。
 
    ![](assets/dynamic_text_sms_1.png)
 
-   このオプ **[!UICONTROL Dynamic text]** ションがパレットに表示されます。 動的コンテンツと同じ方法で設定されます。
+   この **[!UICONTROL Dynamic text]** オプションはパレットに表示されます。 動的コンテンツと同じ方法で設定します。
 
 1. バリアントを選択します。
 
@@ -42,7 +49,7 @@ source-git-commit: 5ed46987a3778dfa100639de8be9b6d5ac5348b4
 
    ![](assets/dynamic_text_sms_4.png)
 
-1つ以上のバリアントに対して条件が定義されると、ダイナミックテキストの周囲に紫のフレームが表示されます。
+1つ以上のバリアントに対して条件を定義すると、ダイナミックテキストの周囲に紫の枠が表示されます。
 
 ![](assets/dynamic_text_sms_3.png)
 
