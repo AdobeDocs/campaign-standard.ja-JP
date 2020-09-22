@@ -12,10 +12,10 @@ discoiquuid: 4ab8a984-f898-4fff-ad8c-ed8f95362f96
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+source-git-commit: c1147c4512b1485ae5d927a32970adcd41b540e7
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 100%
+source-wordcount: '352'
+ht-degree: 97%
 
 ---
 
@@ -23,6 +23,10 @@ ht-degree: 100%
 # プロファイルの作成{#creating-profiles}
 
 Adobe Campaign では、メッセージのメインターゲットを定義する際に、プロファイルがデフォルトで使用されます。
+
+>[!NOTE]
+>
+>プロファイルの作成は、Adobe Campaign Standard API を使用しても可能です。詳しくは、[該当するドキュメント](../../api/using/creating-profiles.md)を参照してください。
 
 Campaign でプロファイルを作成または更新するには、次の操作をおこないます。
 
@@ -38,7 +42,7 @@ Campaign でプロファイルを作成または更新するには、次の操�
 
    ![](assets/profile_creation_1.png)
 
-1. 次に、「**[!UICONTROL Create]**」をクリックします。
+1. 「**[!UICONTROL Create]**」をクリックします。
 
    ![](assets/profile_creation.png)
 
@@ -51,7 +55,7 @@ Campaign でプロファイルを作成または更新するには、次の操�
    * E メールアドレス、携帯電話番号、オプトアウト情報などの **[!UICONTROL Channels]** カテゴリを使用すると、プロファイルにリーチ可能なチャネルを把握できます。
    * プロファイルでチャネルが購読解除されると、**[!UICONTROL No longer contact]** カテゴリはただちに更新されます。
    * **[!UICONTROL Address]** カテゴリには住所の欄があり、このプロファイルに[ダイレクトメール](../../channels/using/about-direct-mail.md)を送る場合は「**[!UICONTROL Address specified]**」オプションと合わせて入力する必要があります。「**[!UICONTROL Address specified]**」オプションを選択しない場合、このプロファイルはすべてのダイレクトメール送付から除外されます。
-   * 「**[!UICONTROL Access authorization]**」カテゴリは、プロファイルの組織単位（[権限の管理](../../administration/using/about-access-management.md)に使用）を表します。[プロファイルの分割](../../administration/using/organizational-units.md#partitioning-profiles)も参照してください。
+   * The **[!UICONTROL Access authorization]** category indicates the profile&#39;s organizational units to [manage permissions](../../administration/using/about-access-management.md). 組織関連のフィールドをプロファイルに追加するには、[プロファイルの分割](../../administration/using/organizational-units.md#partitioning-profiles)の節を参照してください。
    * 「**[!UICONTROL Traceability]**」カテゴリは、プロファイルの作成または変更をおこなったユーザーに関する情報により自動的に更新されます。
 
 1. 「**[!UICONTROL Create]**」をクリックして、プロファイルを保存します。
@@ -59,13 +63,6 @@ Campaign でプロファイルを作成または更新するには、次の操�
 プロファイルがリストに表示されます。
 
 >[!NOTE]
->
->プロファイルの作成は、Adobe Campaign Standard API を使用しても可能です。詳しくは、[該当するドキュメント](../../api/using/creating-profiles.md)を参照してください。
-
-プロファイルは、組織単位に応じて分割することもできます。組織関連のフィールドをプロファイルに追加するには、[プロファイルの分割](../../administration/using/organizational-units.md#partitioning-profiles)の節を参照してください。
-
->[!NOTE]
->
 >優先言語フィールドは、多言語メッセージを送信する際に言語を選択するために使用します。多言語メッセージの詳細については、[このページ](../../channels/using/creating-a-multilingual-email.md)を参照してください。
 
 **関連トピック：**
