@@ -13,7 +13,7 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: df70a2165c5d3a4b553565d9a91ec3f8da1b44aa
 workflow-type: tm+mt
 source-wordcount: '662'
 ht-degree: 86%
@@ -56,7 +56,7 @@ E メール配信品質とは、期待される品質のコンテンツとフォ
 * [エラー発生時のアラートの受信](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [配信エラーの理解](../../sending/using/understanding-delivery-failures.md)
 * [強制隔離管理の理解](../../sending/using/understanding-quarantine-management.md)
-* [強制隔離ブロックリスト対](../../sending/using/understanding-quarantine-management.md#quarantine-vs-block-list)
+* [強制隔離ブロックリスト対](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist)
 * [動的レポート](../../reporting/using/about-dynamic-reports.md)
 
 ## ネットワーク設定の確認 {#network-configuration}
