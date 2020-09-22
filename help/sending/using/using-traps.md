@@ -13,7 +13,7 @@ context-tags: seedMember,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+source-git-commit: df70a2165c5d3a4b553565d9a91ec3f8da1b44aa
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 2%
@@ -67,4 +67,4 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->テストプロファイルをトラップとして使用する場合、メッセージ内のリッチフィールドに対して、対応する追加データが実際のターゲットプロファイルからランダムに選択され、トラップテストプロファイルに割り当てられます。 エンリッチメントについて詳しくは、 [次の例を参照してください](../../automating/using/enrichment.md#example--enriching-profile-data-with-data-contained-in-a-file)。
+>テストプロファイルをトラップとして使用する場合、メッセージ内のリッチフィールドに対して、対応する追加データが実際のターゲットプロファイルからランダムに選択され、トラップテストプロファイルに割り当てられます。 エンリッチメントについて詳しくは、 [次の例を参照してください](../../automating/using/enriching-profile-data-file.md)。
