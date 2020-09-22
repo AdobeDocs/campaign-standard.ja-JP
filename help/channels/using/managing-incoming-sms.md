@@ -13,9 +13,9 @@ delivercontext-tags: delivery,smsContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '593'
 ht-degree: 8%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 8%
    * 強制隔離からプロファイルの電話番号が削除され **[!UICONTROL Remove from quarantine]** ます。
    * この **[!UICONTROL None]** 操作により、受信者にメッセージを送信するだけで、操作を実行する必要はありません。
 
-   例えば、以下の設定では、受信者がキーワード「STOP」を送信すると、購読解除の確認メッセージが自動的に送信され、電話番号が **[!UICONTROL Denylisted]** ステータスと共に強制隔離に送信されます。 このステータスは電話番号のみを表し、プロファイルは電子メールの受信をブロックリストに加える続けるようにします。
+   例えば、以下の設定では、受信者がキーワード「STOP」を送信すると、購読解除の確認メッセージが自動的に送信され、電話番号が **[!UICONTROL On denylist]** ステータスと共に強制隔離に送信されます。 このステータスは電話番号のみを表し、プロファイルは電子メールの受信を続けるようにします。
 
    ![](assets/sms_mo.png)
 
