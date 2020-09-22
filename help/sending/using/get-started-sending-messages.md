@@ -12,9 +12,9 @@ discoiquuid: ae2eba1c-24ad-4839-afa9-5a2975570d9b
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d90de8255f7b08da2187bb8d1b16624d0d94bd80
+source-git-commit: 5b99fb9fbf8bdac506aeb8a35f30a7ef33aaa7e6
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '575'
 ht-degree: 13%
 
 ---
@@ -97,5 +97,5 @@ Campaign Standardには、正常に配信されたメッセージの数を改善
 * [テストの送信、準備、電子メールの送信（ビデオ）](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/sending-test-preparing-sending-email.html)
 * [電子メール配信とレポートの確認（ビデオ）](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/reviewing-personalized-email-delivery-and-reports.html)
 * [電子メールの使い始めに](https://helpx.adobe.com/jp/campaign/kb/acs-get-started-with-emails.html)
-* [配信のベストプラクティス](https://helpx.adobe.com/jp/campaign/kb/delivery-best-practices.html)
+* [配信のベストプラクティス](../../sending/using/delivery-best-practices.md)
 * [コントロール母集団の追加](../../sending/using/control-group.md)
