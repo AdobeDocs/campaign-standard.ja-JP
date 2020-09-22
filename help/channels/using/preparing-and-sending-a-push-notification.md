@@ -13,9 +13,9 @@ context-tags: delivery,mobileAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: c300f50ce83d67be7c8a16f857eb46fb1ce89166
 workflow-type: tm+mt
-source-wordcount: '852'
+source-wordcount: '854'
 ht-degree: 5%
 
 ---
@@ -102,7 +102,7 @@ Adobe Campaignを使用してプッシュ通知を作成する手順は、次の
 
 1. タブでは、送信されたターゲットから除外されたすべてのリストのメッセージと、この除外の原因を確認できます。 **[!UICONTROL Exclusion logs]**
 
-   ここでは、アドレスがプロファイルであったためにモバイルアプリのサブスクライバーの1人が除外されブロックリストに加える、他のサブスクライバーが重複であったために除外されたことがわかります。
+   ここでは、アドレスがプロファイルにあったためにモバイルアプリのサブスクライバーの1人が除外されブロックリスト、他のサブスクライバーが重複にあったために除外されたことがわかります。
 
    ![](assets/push_send_5.png)
 
@@ -117,7 +117,7 @@ Adobe Campaignを使用してプッシュ通知を作成する手順は、次の
 
    ![](assets/push_send_4.png)
 
-1. ウィンドウで **[!UICONTROL Deployment]** 、 **[!UICONTROL Sending logs]** タブをクリックして、送信されたプッシュ通知のリストとそのステータスにアクセスします。 この配信では、1つのプッシュ通知が正常に送信されたのに対し、もう1つのプッシュ通知は、デバイストークンの不良が原因で失敗しました。 次に、この加入者は、さらなる配信から密度に追加されます。
+1. ウィンドウで **[!UICONTROL Deployment]** 、 **[!UICONTROL Sending logs]** タブをクリックして、送信されたプッシュ通知のリストとそのステータスにアクセスします。 この配信では、1つのプッシュ通知が正常に送信されたのに対し、もう1つのプッシュ通知は、デバイストークンの不良が原因で失敗しました。 その後、このサブスクライバは、さらに別の配信からブロックリストに追加されます。
 
    >[!NOTE]
    >
