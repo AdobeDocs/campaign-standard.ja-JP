@@ -12,10 +12,10 @@ discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 51e98bb6212ad96d9c11b848df9dcad25b3f1b61
+source-git-commit: ed920a9b08eb664c2825ba785c75092eb0f2be1e
 workflow-type: tm+mt
-source-wordcount: '645'
-ht-degree: 5%
+source-wordcount: '797'
+ht-degree: 1%
 
 ---
 
@@ -51,41 +51,45 @@ $(vars/@parameterName)
 
    ![](assets/wkf_test_activity_variables.png)
 
-* ![](assets/extsignal_expression_editor.png)：変数と関数を組み合わせた式を編集します。式エディターについて詳しくは、[この節](../../automating/using/advanced-expression-editing.md)を参照してください。
+* ![](assets/extsignal_expression_editor.png):変数と関数を組み合わせた式の編集(を参照 [](../../automating/using/advanced-expression-editing.md))。
 
    ![](assets/wkf_test_activity_variables_expression.png)
 
-**関連トピック：**
+   このリストは、複雑なフィルタリングを実行できる関数を提供します。 これらの機能については、 [この節で説明します](../../automating/using/list-of-functions.md)。
 
-* [式の編集](../../automating/using/advanced-expression-editing.md#edit-an-expression)
-* [標準構文](../../automating/using/advanced-expression-editing.md#standard-syntax)
-* [関数のリスト](../../automating/using/list-of-functions.md)
+   また、次の関数を使用できます。これらの関数は、外部パラメーターを使用してワークフローを呼び出した後にイベント変数を使用できるすべてのアクティビティで使用できます(を参照 [](../../automating/using/customizing-workflow-external-parameters.md#customizing-activities-with-events-variables))。
+
+   | 名前 | 説明 | 構文 |
+   ---------|----------|---------
+   | EndWith | 文字列（最初のパラメータ）が特定の文字列（2番目のパラメータ）で終わるかどうかを示します。 | EndWith(&lt;String>,&lt;String>) |
+   | startWith | 特定の文字列（2番目のパラメータ）を持つ文字列（第1のパラメータ）開始かどうかを示します。 | startWith(&lt;String>,&lt;String>) |
+   | 抽出 | 区切り文字を使用して、文字列の最初の文字を返します。 | Extract（&lt;文字列>,&lt;区切り文字>） |
+   | ExtractRight | 区切り文字を使用して、文字列の最後の文字を返します。 | ExtractRight（&lt;文字列>,&lt;区切り文字>） |
+   | DateFormat | 2番目のパラメーターで指定された形式を使用して日付を書式設定します(例： &#39;%4Y%2M%2D&#39;) | DateFormat（&lt;日付>,&lt;形式>） |
+   | ファイル名 | ファイルパスの名前を返します。 | FileName（&lt;文字列>） |
+   | FileExt | ファイルパスの拡張子を返します。 | FileExt(&lt;String>) |
+   | IsNull | 文字列または日付がnullかを示します。 | IsNull（&lt;文字列/日付>） |
+   | UrlUtf8Encode | URLをUTF8でエンコードします。 | UrlUtf8Encode(&lt;String>) |
 
 ## イベント変数を使用したアクティビティのカスタマイズ {#customizing-activities-with-events-variables}
 
 イベント変数は、次の節に示すように、複数のアクティビティをカスタマイズするために使用できます。 アクティビティから変数を呼び出す方法について詳しくは、 [この節を参照してください](../../automating/using/customizing-workflow-external-parameters.md#using-events-variables)。
 
-**[!UICONTROL Read audience]** アクティビティ:イベント変数に基づいてターゲットへのオーディエンスを定義します。
-
-For more on how to use the activity, refer to the [dedicated section](../../automating/using/read-audience.md).
+**[!UICONTROL Read audience]** アクティビティ:イベント変数に基づいてターゲットへのオーディエンスを定義します。 For more on how to use the activity, refer to [this section](../../automating/using/read-audience.md).
 
 ![](assets/extsignal_activities_audience.png)
 
-**[!UICONTROL Test]** アクティビティ:イベント変数に基づいて条件を作成します。
-
-For more on how to use the activity, refer to the [dedicated section](../../automating/using/test.md).
+**[!UICONTROL Test]** アクティビティ:イベント変数に基づいて条件を作成します。 For more on how to use the activity, refer to [this section](../../automating/using/test.md).
 
 ![](assets/extsignal_activities_test.png)
 
-**[!UICONTROL Transfer file]** アクティビティ:イベント変数に基づいて転送するファイルをカスタマイズします。
-
-For more on how to use the activity, refer to the [dedicated section](../../automating/using/transfer-file.md).
+**[!UICONTROL Transfer file]** アクティビティ:イベント変数に基づいて転送するファイルをカスタマイズします。 For more on how to use the activity, refer to [this section](../../automating/using/transfer-file.md).
 
 ![](assets/extsignal_activities_transfer.png)
 
 **[!UICONTROL Query]** アクティビティ:パラメーター変数と関数を組み合わせた式を使用して、クエリーでイベントーを参照できます。 これを行うには、ルールを追加し、リンクをクリックして式編集ウィンドウにアクセスします( **[!UICONTROL Advanced mode]** 詳細式編集を参照 [](../../automating/using/advanced-expression-editing.md))。
 
-For more on how to use the activity, refer to the [dedicated section](../../automating/using/query.md).
+For more on how to use the activity, refer to [this section](../../automating/using/query.md).
 
 ![](assets/extsignal_activities_query.png)
 
