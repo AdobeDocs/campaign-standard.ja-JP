@@ -12,10 +12,10 @@ discoiquuid: 5214becf-005b-42ac-97d2-2bce5ba2ecb5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+source-git-commit: 67fbf66d8ad358ae5d2caaec5b90beb6304047e6
 workflow-type: tm+mt
-source-wordcount: '526'
-ht-degree: 17%
+source-wordcount: '521'
+ht-degree: 16%
 
 ---
 
@@ -102,7 +102,7 @@ Adobe Campaignを使用すると、あらゆるチャネルでキャンペーン
 ## その他のリソース
 
 * [配信品質の最適化](../../sending/using/about-deliverability.md)
-* [配信のベストプラクティス](https://helpx.adobe.com/jp/campaign/kb/delivery-best-practices.html)
+* [配信のベストプラクティス](../../sending/using/delivery-best-practices.md)
 * [電子メールコンテンツのデザイン](../../designing/using/designing-content-in-adobe-campaign.md)
 * [AEMコンテンツの読み込み](../../integrating/using/creating-email-experience-manager.md)
 * [ワークフローを含むメッセージの送信](../../automating/using/about-channel-activities.md)
