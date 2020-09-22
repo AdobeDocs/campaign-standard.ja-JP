@@ -12,11 +12,11 @@ discoiquuid: 158da6ff-8899-4e7b-b925-8a42c3de46a1
 context-tags: deliveryCreation,wizard;delivery,audience,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 07d68b5bf8d800ebd95919f491e98f1b7a015705
-workflow-type: ht
-source-wordcount: '294'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: e725ef966bcd6df84ed0c82e17fad65f289fd013
+workflow-type: tm+mt
+source-wordcount: '364'
+ht-degree: 83%
 
 ---
 
@@ -39,6 +39,7 @@ Adobe Campaign を使用すると、メッセージのオーディエンス内�
 
    * ターゲット
    * テストプロファイル
+
    ![](assets/delivery_audience_definition_2.png)
 
 1. 電子メールのメイン **[!UICONTROL Target]** を定義します。これは、電子メールの通常のターゲットオーディエンスです。
@@ -54,6 +55,10 @@ Adobe Campaign を使用すると、メッセージのオーディエンス内�
 1. E メールに使用する **[!UICONTROL Test profiles]** を定義します。テストプロファイルは、メインターゲットに E メールを送信する前に E メールのテスト用にあらかじめ送信される配達確認を受信します。
 
    テストプロファイルの設定の詳細については、[テストプロファイル](../../audiences/using/managing-test-profiles.md)の節を参照してください。
+
+1. 必要に応じて、対応するタブを使用してコントロール母集団を定義できます。 これにより、ターゲットから一部のプロファイルを取り消して、メッセージを受け取らないようにすることができます。 For more on this, see [Adding a control group](../../sending/using/control-group.md).
+
+1. また、代替アドレスを使用して、プロファイルが受信するメッセージの正確な表現を取得することもできます。  詳しくは、[ターゲットプロファイルを使用した電子メールメッセージのテスト](../../sending/using/testing-messages-using-target.md)を参照してください。
 
 その後、オーディエンスブロックが更新され、該当する E メールに対してターゲットプロファイルとテスト要素が選択されたことが示されます。
 
