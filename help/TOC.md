@@ -5,7 +5,7 @@ audience: end-user
 user-guide-title: Adobe Campaign Standard ヘルプ
 breadcrumb-title: Campaign Standard Guide
 translation-type: tm+mt
-source-git-commit: 5884730b7319e9ee456882e66c8b515458e53e86
+source-git-commit: f26fb6bd8b6d103e25bfaedb02d4d1d9342752bf
 workflow-type: tm+mt
 source-wordcount: '1628'
 ht-degree: 85%
@@ -143,6 +143,7 @@ ht-degree: 85%
       + [E メールの件名行のテスト](sending/using/testing-subject-line-email.md)
       + [AIを利用した電子メール](sending/using/predictive.md)
       + [E メールのレンダリング](sending/using/email-rendering.md)
+      + [コントロール母集団の追加](sending/using/control-group.md)
       + [トラップの使用](sending/using/using-traps.md)
       + [送信の準備](sending/using/preparing-the-send.md)
    + メッセージのスケジュール{#scheduling-messages}
@@ -338,7 +339,6 @@ ht-degree: 85%
          + [サービスの購読者の増分処理クエリ](automating/using/incremental-query-on-subscribers.md)
          + [年齢層別の分類](automating/using/segmentation-age-groups.md)
          + [ターゲティングディメンションとは異なるリソースの使用](automating/using/using-resources-different-from-targeting-dimensions.md)
-         + [コントロール母集団の作成](automating/using/workflow-control-group.md)
       + データ管理 {#data-management}
          + [ファイルオーディエンスとデータベースとの調整](automating/using/reconcile-file-audience-with-database.md)
          + [読み込んだファイルからのデータの重複を除外する](automating/using/deduplicating-data-imported-file.md)
