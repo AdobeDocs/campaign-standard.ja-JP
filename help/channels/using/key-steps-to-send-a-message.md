@@ -11,18 +11,18 @@ topic-tags: about-communication-channels
 discoiquuid: a51351ee-e3b6-4996-9e68-b7d5157b8207
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 155ed7e50e207e4c4dc0569e5e96b24e712e4be8
-workflow-type: ht
-source-wordcount: '180'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 67fbf66d8ad358ae5d2caaec5b90beb6304047e6
+workflow-type: tm+mt
+source-wordcount: '174'
+ht-degree: 93%
 
 ---
 
 
 # メッセージを送信するための主要な手順{#key-steps-to-send-a-message}
 
-配信のベストプラクティスについては、[配信のベストプラクティス](https://helpx.adobe.com/jp/campaign/kb/delivery-best-practices.html)を参照してください。
+To learn the delivery best practices, consult the [Delivery best practices](../../sending/using/delivery-best-practices.md) section.
 
 メッセージの作成と送信の手順は次のとおりです。
 
