@@ -12,9 +12,9 @@ discoiquuid: f67e69f2-09fb-4f33-b2c3-c67a060743e3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 6078a16c679d368dd85cecbb8b715e2de3da805a
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '443'
 ht-degree: 2%
 
 ---
@@ -77,7 +77,7 @@ Triggers -キャンペーン統合がアクティブ化されているかどう�
 そうでない場合は、次の手順に進みます。 該当する場合は、次のガイドラインに従います。
 
 * トランザクションテンプレートが公開されていることを確認します。
-* プロファイルが正しくないことを確認ブロックリストに加えるします。
+* プロファイルがブロックリストにないことを確認します。
 * タイポロジルールの適用を確認します。
 * トランザクションメッセージのログを確認します。
 
