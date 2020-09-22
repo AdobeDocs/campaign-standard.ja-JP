@@ -12,9 +12,9 @@ discoiquuid: 37320ec5-196c-4260-8156-98932da3e4a5
 context-tags: seedMember,overview
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: f7f90991ed4c7323e3a2f8ac7d38da9ff165ef76
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: a07ccaf864c3aef881cb02042b5e00a43c48f0a9
+workflow-type: tm+mt
 source-wordcount: '592'
 ht-degree: 100%
 
@@ -60,6 +60,7 @@ ht-degree: 100%
    * **[!UICONTROL Email rendering]**：このオプションは、ターゲットのインボックスに応じてメッセージを受信する方法をテストする場合に選択します。詳しくは、[E メールのレンダリング](../../sending/using/email-rendering.md)を参照してください。
    * **[!UICONTROL Proof]**：このオプションは、メッセージをメインターゲットに送信する前にテストする場合に選択します。配達確認受信者は、配信の内容と形式の両方を確認して、承認をおこないます。
    * **[!UICONTROL Proof + Email rendering]**：このオプションは、前の 2 つのオプションを組み合わせたものです。
+
    ![](assets/bat_select1.png)
 
    >[!NOTE]
@@ -108,7 +109,7 @@ ht-degree: 100%
 **関連トピック：**
 
 * [テストの送信、E メールの準備と送信](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/sending-test-preparing-sending-email.html)（ビデオ）
-* [ターゲットプロファイルを使用した電子メールメッセージのテスト](../../sending/using/testing-messages-using-target.md)
+* [ターゲットプロファイルを使用した E メールメッセージのテスト](../../sending/using/testing-messages-using-target.md)
 * [テストプロファイルの管理](../../audiences/using/managing-test-profiles.md)
 * [メッセージのプレビュー](../../sending/using/previewing-messages.md)
 * [E メールチャネルの設定](../../administration/using/configuring-email-channel.md)
