@@ -12,10 +12,10 @@ discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1043f69841a5a4ddaecc37289c9cfb1c1b5f7f34
+source-git-commit: 72d8c46bab80e572a55488eeb5b6a924c0a9e900
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 41%
+source-wordcount: '234'
+ht-degree: 40%
 
 ---
 
@@ -52,7 +52,6 @@ ht-degree: 41%
 * [サービスの購読者の増分処理クエリ](../../automating/using/incremental-query-on-subscribers.md)
 * [年齢層別の分類](../../automating/using/segmentation-age-groups.md)
 * [ターゲティングディメンションとは異なるリソースの使用](../../automating/using/using-resources-different-from-targeting-dimensions.md)
-* [コントロール母集団の作成](../../automating/using/workflow-control-group.md)
 
 ## データ管理 {#management}
 
