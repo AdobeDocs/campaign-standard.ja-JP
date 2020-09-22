@@ -12,9 +12,9 @@ discoiquuid: 2a14500f-5ede-4131-8b1a-b7fd65b7e3aa
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+source-git-commit: 3161226c9ab28f8d519f55a408022284919954f6
 workflow-type: tm+mt
-source-wordcount: '1341'
+source-wordcount: '1283'
 ht-degree: 8%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 8%
 
 # モバイルアプリケーションの設定{#configuring-a-mobile-application}
 
-## Adobe Experience PlatformSDKを使用したモバイルアプリの設定 {#using-adobe-experience-platform-sdk}
+## Configuring a mobile application using Adobe Experience Platform SDKs {#using-adobe-experience-platform-sdk}
 
 >[!IMPORTANT]
 >
@@ -57,7 +57,7 @@ Adobe Experience PlatformSDKを使用してAdobe Campaign Standardでサポー�
 
 1. Experience Platform Launchで、 **[!UICONTROL Extensions]** タブをクリックし、に移動して、 **[!UICONTROL Catalog]****[!UICONTROL Adobe Campaign Standard]** 拡張子を検索します。 詳細は [Adobe Campaign Standardを参照](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard)。
 
-1. Campaign Standardでの場所の使用例をサポートするには、拡張機能と拡張機能をインスト **[!UICONTROL Places]** ールし **[!UICONTROL Places Monitor]** ます。
+1. Campaign Standardでの場所の使用例をサポートするには、拡張機能と拡張機能 **[!UICONTROL Places]** をインストールし **[!UICONTROL Places Monitor]** ます。
    * Experience Platform Launchに **[!UICONTROL Places]** 拡張機能をインストールします。 この[ページ](https://docs.adobe.com/content/help/ja-JP/places/using/places-ext-aep-sdks/places-extension/places-extension.html)を参照してください。
    * Experience Platform Launchに **[!UICONTROL Places Monitor]** 拡張機能をインストールします。 この[ページ](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.html)を参照してください。
 
@@ -69,10 +69,6 @@ Adobe Experience PlatformSDKを使用してAdobe Campaign Standardでサポー�
 詳しくは、「Experience Platform Launchアプリケーションの [削除](../../administration/using/configuring-a-mobile-application.md#delete-app)」を参照してください。
 
 ## テクニカルワークフローの起動からのMobileアプリAEPSDKの同期 {#aepsdk-workflow}
-
->[!IMPORTANT]
->
->この機能は、リリース20.3以降のAdobe Campaignでのベータ版機能です。Adobe Campaignインスタンスで **[!UICONTROL sync Mobile app AEPSDK from Launch]** 技術ワークフローを有効にするには、Adobeカスタマーケアにチケットを(直接またはAdobeの担当者を通じて)送信する必要があります。
 
 Experience Platform Launchでモバイルプロパティを作成および設定した後、 **[!UICONTROL Sync Mobile app AEPSDK from Launch]** 技術ワークフローは、Adobe Campaign Standardで読み込んだAdobe起動モバイルプロパティを同期します。
 
@@ -95,9 +91,9 @@ Experience Platform Launchでモバイルプロパティを作成および設定
 
 キャンペーンでExperience Platform Launchモバイルプロパティを使用するには、Adobe Campaignでこのプロパティを設定する必要もあります。 Adobe Campaignで、IMSユーザーがStandard UserおよびAdministratorの製品プロファイルの一部であることを確認します。
 
-「テクニカルワークフロー機能の起動からMobileアプリAEPSDKを同期」フラグが有効になっているユーザーは、テクニカルワークフローが実行されるのを待ち、モバイルの起動プロパティをAdobe Campaignに同期する必要があります。 その後、Adobe Campaignで設定できます。
+テクニカルワークフローが実行され、モバイルの起動プロパティをAdobe Campaignに同期するまで待つ必要があります。 その後、Adobe Campaignで設定できます。
 
-「テクニカルワークフロー機能の起動」のフラグから、モバイルアプリAEPSDKを同期に関する情報について詳しくは、この [節を参照してください](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow)。
+技術的なワークフローの開始からのモバイルアプリAEPSDKの同期について詳しくは、この [節を参照してください](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow)。
 
 >[!NOTE]
 >
