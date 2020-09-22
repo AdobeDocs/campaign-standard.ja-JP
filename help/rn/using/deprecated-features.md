@@ -12,10 +12,10 @@ discoiquuid: null
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5203f3b3c520f38d91627df2159a90ab5912e6b6
+source-git-commit: 5b99fb9fbf8bdac506aeb8a35f30a7ef33aaa7e6
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 35%
+source-wordcount: '664'
+ht-degree: 34%
 
 ---
 
@@ -134,7 +134,7 @@ Campaign Standard機能の差し迫った取り外し/交換を伝えるため�
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Creative SDK は廃止されました。その結果、Campaign Standardの電子メールでCreative SDKを使用するImage Editionは、キャンペーン20.2リリース以降では使用できなくなります。</p></br>
+   <td> <p>[!DNLAdobeクリエイティブSDK]は廃止されました。 その結果、Campaign Standardの電子メール内の[!DNL Creative SDK]を使用したImage Editionは、キャンペーン20.2リリース以降では使用できなくなりました。</p></br>
    </td> 
   </tr> 
  </tbody> 
