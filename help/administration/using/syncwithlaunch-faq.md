@@ -12,9 +12,9 @@ discoiquuid: 54028f63-c9ca-4397-a079-e27e0cfdebf6
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 95a7397092f6e07c84967d90908469f630f7a170
+source-git-commit: 5396772ca53740c78c5a7df3ef75d27b838de8a0
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '483'
 ht-degree: 0%
 
 ---
@@ -25,10 +25,6 @@ ht-degree: 0%
 専用の技術的なワークフローを使用して、Adobeの起動モバイルのプロパティをAdobe Campaign Standardにインポートでき **[!UICONTROL Sync with Launch]** ます。 For more information, refer to this [page](../../administration/using/technical-workflows.md)
 
 以下の節では、この同期に関してよくある質問をリストします。
-
->[!NOTE]
->
->You will need to submit a ticket to Adobe Customer Care (either directly or through your Adobe contact) to have the **[!UICONTROL syncWithLaunch]** technical workflow enabled in your Campaign instance.
 
 ## I created a property in [!DNL Launch] （組織単位ALLの非管理者） アプリケーションがAdobe Campaign中に「設定準備完了」状態になっていますが、開く/設定できません。 {#configuring-property}
 
