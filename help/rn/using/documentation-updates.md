@@ -12,10 +12,10 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 23e3b1c3105fd99ec0cd67cb4a3ca5e565604449
+source-git-commit: 5eab422b797e1d486fded57cb64f94fb709d6681
 workflow-type: tm+mt
-source-wordcount: '6228'
-ht-degree: 93%
+source-wordcount: '6215'
+ht-degree: 92%
 
 ---
 
@@ -39,6 +39,8 @@ Jarney AIとの連携 — [詳細情報](../../sending/using/predictive.md)
 外部パラメータを使用したワークフローの呼び出し方法に関するセクションは、式エディタで利用できる新しい関数で強化されました。 [詳細を表示](../../automating/using/customizing-workflow-external-parameters.md)
 
 ワークフローごとに使用するアクティビティ数に関するワークフローのベストプラクティスにレコメンデーションが追加されました。 [詳細を表示](../../automating/using/best-practices-workflows.md#number-activities)
+
+配信のベストプラクティスに関する新しい節を追加しました。 [詳細を表示](../../sending/using/delivery-best-practices.md)
 
 ## ドキュメントのアップデート - 2020 年 9 月 {#doc-updates-september-2020}
 
@@ -176,7 +178,7 @@ E メール BCC でのアーカイブに関する節が移動され、更新さ�
 
 Adobe Campaign Standard／Adobe Experience Manager の統合に関するドキュメントが更新され、改訂されました。[詳細を表示](../../integrating/using/configure-experience-manager.md)
 
-Campaign E メールデザイナーのドキュメントと関連ページが更新され、Adobe Creative SDK が非推奨になっていることが反映されています。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/acs-deprecated-and-removed-features.html)
+The Campaign Email Designer documentation and related pages have been updated to reflect [!DNL Adobe Creative SDK] depreciation. [詳細を表示](https://helpx.adobe.com/jp/campaign/kb/acs-deprecated-and-removed-features.html)
 
 Campaign Standard データモデルのベストプラクティスに関する新しい節が追加されました。[詳細を表示](../../developing/using/data-model-best-practices.md)
 
@@ -248,9 +250,9 @@ Campaign Standard 内のワークフローを使用してコントロール母�
 
 API ドキュメントセットは、Campaign Standard ドキュメントに統合されました。[詳細を表示](../../api/using/get-started-apis.md)
 
-パーソナライズされた E メールの作成の入門ガイドが移動され、更新されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/acs-get-started-with-emails.html)
+「はじめに」の節は、移動および更新されました。 [詳細を表示](https://helpx.adobe.com/jp/campaign/kb/acs-get-started-with-emails.html)
 
-配信のベストプラクティス入門ガイドが更新されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/delivery-best-practices.html)
+配信のベストプラクティス入門ガイドが更新されました。[詳細を表示](../../sending/using/delivery-best-practices.md)
 
 データモデルは、Campaign Standard ドキュメントに統合されました。[詳細を表示](../../developing/using/datamodel-audience.md)
 
@@ -266,13 +268,13 @@ Microsoft Dynamics 365 統合（GA） - [詳細情報](../../integrating/using/w
 
 **リリースに伴うその他のドキュメントのアップデート**
 
-Campaign Standard および Campaign Classic のエラーメッセージのリストが更新されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+Adobe Campaignのエラーメッセージのリストが更新されました。 [詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
 GDPR の入門ガイドが改善され、強化されました。GDPR や CCPA を含む、プライバシー管理に関するドキュメントになりました。[詳細を表示](https://helpx.adobe.com/content/help/jp/campaign/kb/campaign-privacy.html)
 
 トランザクションメッセージングの公開プロセスを示す新しいチャートが追加されました。[詳細を表示](../../administration/using/configuring-transactional-messaging.md#transactional-messaging-pub-process)
 
-配信のベストプラクティス入門ガイドが移動され、更新されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/delivery-best-practices.html)
+配信のベストプラクティス入門ガイドが移動され、更新されました。[詳細を表示](../../sending/using/delivery-best-practices.md)
 
 新しい節が追加されました。Campaign Standard データベースを拡張する各種の方法の概要を説明しています。[詳細を表示](../../audiences/using/enriching-campaign-database.md)
 
@@ -610,7 +612,7 @@ Administration メニューの「ライセンス」オプションに関する�
 
 プッシュ通知でのカスタムフィールドの使用方法に関する情報を追加しました。[詳細を表示](../../channels/using/customizing-a-push-notification.md#add-custom-fields)
 
-配信のベストプラクティスのステップバイステップガイドを更新しました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/delivery-best-practices.html)
+配信のベストプラクティスのステップバイステップガイドを更新しました。[詳細を表示](../../sending/using/delivery-best-practices.md)
 
 トラッキングログのタイプに関する情報を追加しました。[詳細を表示](../../sending/using/tracking-messages.md#tracking-logs)
 
