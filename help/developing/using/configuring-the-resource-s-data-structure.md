@@ -12,9 +12,9 @@ discoiquuid: 4f22ee35-1d5f-4c75-95b4-3e38b85de26e
 context-tags: cusResource,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 6cf00f9b9bafdd54d8424a353b33dc689c0f59aa
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 81612f8158a19853e4b3ca05866fa335af493f67
+workflow-type: tm+mt
 source-wordcount: '1657'
 ht-degree: 100%
 
@@ -154,6 +154,7 @@ ht-degree: 100%
    * **[!UICONTROL 1 cardinality simple link]**：ソーステーブルの 1 つの出現に対応するターゲットテーブルの出現を最大 1 つに制限するリンクです。
    * **[!UICONTROL N cardinality collection link]**：ソーステーブルの 1 つの出現に対応するターゲットテーブルの複数の出現が可能ですが、ターゲットテーブルの 1 つの出現に対応するソーステーブルの出現は最大 1 つに制限されます。
    * **[!UICONTROL 0 or 1 cardinality simple link]**：ソーステーブルの 1 つの出現に対応するターゲットテーブルの出現が最大 1 つまたはゼロに制限されます。この種の&#x200B;**[!UICONTROL Link type]**&#x200B;は、パフォーマンス低下の原因になることがあります。
+
    ![](assets/schema_extension_29.png)
 
 1. **[!UICONTROL New link]**&#x200B;画面で、「**[!UICONTROL Label]**」と「**[!UICONTROL ID]**」のフィールドは、デフォルトで入力されますが、編集は可能です。
@@ -161,8 +162,6 @@ ht-degree: 100%
    >[!NOTE]
    >
    >最大 30 文字です。
-
-   >[!IMPORTANT]
    >
    >リンクの作成後にリンク名を変更することはできません。リンク名を変更するには、いったんリンクを削除した後、再び作成する必要があります。
 
@@ -178,6 +177,7 @@ ht-degree: 100%
 
    * **[!UICONTROL Use the primary key to make the join]**：この結合定義により、プロファイルのプライマリキーを使用して、購入のプライマリキーに紐付けできるようになります。
    * **[!UICONTROL Define specific join conditions]**：この結合定義により、両方のリソースを結合するフィールドを手動で選択できるようになります。データが正しく設定されていないと、**Purchase** レコードが表示されません。
+
    ![](assets/schema_extension_17.png)
 
 作成したリンクは、「**[!UICONTROL Links]**」セクションのリストに表示されます。
