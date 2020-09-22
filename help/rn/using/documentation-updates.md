@@ -12,10 +12,10 @@ discoiquuid: dcee9711-7fa6-4773-ba21-1d54cda20c05
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ec32aa2a955486362f100382f3a78004fdae4a4f
+source-git-commit: 23e3b1c3105fd99ec0cd67cb4a3ca5e565604449
 workflow-type: tm+mt
-source-wordcount: '6140'
-ht-degree: 94%
+source-wordcount: '6228'
+ht-degree: 93%
 
 ---
 
@@ -23,6 +23,22 @@ ht-degree: 94%
 # ドキュメントのアップデート{#documentation-updates}
 
 このページでは、Adobe Campaign の[リリースノート](../../rn/using/release-notes.md)に加えて、Adobe Campaign Standard のドキュメントの新しいアップデートをすべて紹介します。
+
+## リリース 20.4 - 2020 年 10 月 {#release-20-4---october-2020}
+
+**リリースに含まれる新機能**
+
+Control groups - [Read More](../../sending/using/control-group.md)
+
+外部API （OAuthのサポート） - [詳細情報](../../automating/using/external-api.md)
+
+Jarney AIとの連携 — [詳細情報](../../sending/using/predictive.md)
+
+**リリースに伴うその他のドキュメントのアップデート**
+
+外部パラメータを使用したワークフローの呼び出し方法に関するセクションは、式エディタで利用できる新しい関数で強化されました。 [詳細を表示](../../automating/using/customizing-workflow-external-parameters.md)
+
+ワークフローごとに使用するアクティビティ数に関するワークフローのベストプラクティスにレコメンデーションが追加されました。 [詳細を表示](../../automating/using/best-practices-workflows.md#number-activities)
 
 ## ドキュメントのアップデート - 2020 年 9 月 {#doc-updates-september-2020}
 
@@ -33,6 +49,8 @@ ht-degree: 94%
 新しいブランドを作成するプロセスの詳細を説明する新しい節が追加されました。 [詳細を表示](../../administration/using/branding.md#creating-a-brand)
 
 新しいCampaign Standard- Microsoft Dynamics 365統合が利用できるようになりました。 [詳細を表示](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+
+アクティブなプロファイルレポートの匿名ソースに情報が追加されました。 [詳細を表示](../../audiences/using/active-profiles.md)
 
 ## ドキュメントのアップデート - 2020 年 8 月 {#doc-updates-august-2020}
 
@@ -220,7 +238,7 @@ E メールコンテンツのデザインの節の構成を変更しました。
 
 ## ドキュメントのアップデート - 2019 年 11 月 {#doc-updates-november-2019}
 
-Campaign Standard 内のワークフローを使用してコントロール母集団を構築する方法を説明する新しい使用例が追加されました。[詳細を表示](../../automating/using/workflow-control-group.md)
+Campaign Standard 内のワークフローを使用してコントロール母集団を構築する方法を説明する新しい使用例が追加されました。
 
 ランディングページのプロパティに関する情報が、専用の節に移動されました。[詳細を表示](../../channels/using/configuring-landing-page.md)
 
@@ -276,7 +294,7 @@ Campaign Standard 設定に関連する新しい節が追加されました。[�
 
 モバイルアプリケーションの登録データに基づくプロファイル情報の作成および更新の方法について、「プッシュ通知」の節に新しい節が追加されました。[詳細を表示](../../channels/using/updating-profile-with-mobile-app-data.md)
 
-「ファイル読み込み」アクティビティから取得した追加データが含まれる E メールの送信方法を示す新しい例が追加されました。[詳細を表示](../../automating/using/load-file.md#example-2-email-with-enriched-fields)
+「ファイル読み込み」アクティビティから取得した追加データが含まれる E メールの送信方法を示す新しい例が追加されました。[詳細を表示](../../automating/using/sending-email-enriched-fields.md)
 
 トラッピングの使用方法に関する新しい節が追加されました。[詳細を表示](../../sending/using/using-traps.md)
 
@@ -466,7 +484,7 @@ Adobe Campaign から直接利用できるコンテキストヘルプリンク�
 
 コピーと貼り付けによるワークフローアクティビティの複製方法に関する節を新しく追加しました。[詳細を表示](../../automating/using/workflow-interface.md#duplicating-workflow-activities)
 
-「クエリ」アクティビティ（[詳細を表示](../../automating/using/query.md)）と「セグメント化」アクティビティ（[詳細を表示](../../automating/using/segmentation.md)）の新しいオプションに関する情報を追加しました。アクティビティでデータが取得されなかった場合、アクティビティの後で送信トランジションを追加できます。
+「クエリ」アクティビティ（[詳細を表示](../../automating/using/query-samples.md)）と「セグメント化」アクティビティ（[詳細を表示](../../automating/using/segmentation.md)）の新しいオプションに関する情報を追加しました。アクティビティでデータが取得されなかった場合、アクティビティの後で送信トランジションを追加できます。
 
 「データ更新」アクティビティの節に新しい「バッチサイズ」フィールドに関する情報を追加しました。このフィールドではアップロードするデータの最大バッチサイズを定義できます。[詳細を表示](../../automating/using/update-data.md#configuration)
 
@@ -568,7 +586,7 @@ Campaign と Audience Manager または People コアサービスの使用ドキ
 
 「配信役割の定義の準備」を更新しました。[詳細を表示](../../administration/using/list-of-roles.md)
 
-「クエリ」アクティビティの節に、配信内の特定のリンクをクリックしたプロファイルをターゲットにする方法についての例を追加しました。[詳細を表示](../../automating/using/query.md#targeting-profiles-who-clicked-a-specific-link-)
+「クエリ」アクティビティの節に、配信内の特定のリンクをクリックしたプロファイルをターゲットにする方法についての例を追加しました。[詳細を表示](../../automating/using/query-samples.md#targeting-profiles-who-clicked-a-specific-link-)
 
 API ドキュメントに、**カスタムフィルター**&#x200B;に関連する節を追加しました。[詳細を表示](../../api/using/filtering.md)
 
@@ -622,7 +640,7 @@ E メール用 Creative Designer - [詳細を表示](../../designing/using/desig
 
 GDPR API は、GDPR リクエストの自動処理を可能にする機能を再グループ化します。[詳細を表示](../../api/using/creating-a-privacy-request.md)
 
-受信者に機能を与えるランディングページの設定方法に関する情報を追加しブロックリストに加えるました。 [詳細を表示](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
+受信者にランディングページを設定する方法に関する情報を追加しブロックリストました。 [詳細を表示](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
 
 [トランザクションメッセージの設定](../../administration/using/configuring-transactional-messaging.md)の節の構成が変更され、[ステップバイステップの使用例](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message)が追加されました。
 
@@ -658,7 +676,7 @@ Campaign とアドビソリューションの統合のほとんどの URL が変
 
 **[!UICONTROL Working with typologies]** の節が更新され、可視性が向上しました。[詳細を表示](../../sending/using/about-typology-rules.md)
 
-**[!UICONTROL Query]** で多数の追加データを定義する際にパフォーマンスを向上できる新しいオプションが使用できるようになりました。[詳細を表示](../../automating/using/query.md)
+**[!UICONTROL Query]** で多数の追加データを定義する際にパフォーマンスを向上できる新しいオプションが使用できるようになりました。[詳細を表示](../../automating/using/query-samples.md)
 
 プロファイルのインポートの例が更新され、プロファイルがダイレクトメールを受け取れるようにするためのヒントが追加されました。[詳細を表示](../../automating/using/about-data-import-and-export.md)
 
@@ -672,7 +690,7 @@ Campaign とアドビソリューションの統合のほとんどの URL が変
 
 SMS 自動返信に関するステップバイステップの使用例を追加しました。[詳細を表示](../../channels/using/managing-incoming-sms.md#managing-stop-sms)
 
-反復ワークフローでユーザーのタイムゾーンに応じて配信を送信する方法に関する情報を追加しました。[詳細を表示](../../automating/using/push-notification-delivery.md#sending-a-recurring-push-notification-with-a-workflow)
+反復ワークフローでユーザーのタイムゾーンに応じて配信を送信する方法に関する情報を追加しました。[詳細を表示](../../automating/using/recurring-push-notifications.md)
 
 **[!UICONTROL Customizing a push notification]** の節の構成が変更され、ステップバイステップの使用例が追加されました。[詳細を表示](../../channels/using/customizing-a-push-notification.md)
 
