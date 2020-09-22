@@ -12,10 +12,10 @@ discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: df70a2165c5d3a4b553565d9a91ec3f8da1b44aa
+source-git-commit: 5b99fb9fbf8bdac506aeb8a35f30a7ef33aaa7e6
 workflow-type: tm+mt
-source-wordcount: '812'
-ht-degree: 2%
+source-wordcount: '798'
+ht-degree: 3%
 
 ---
 
@@ -43,7 +43,7 @@ Adobe Experience PlatformSDKとCampaign Standardの統合について詳しく�
 
 はい、 [!DNL Adobe Experience Platform SDK] Adobe Campaign StandardとAdobe Campaign Classicの両方で統合が可能です。 統合を有効にするには、対応する **[!UICONTROL Extension]** ををインストール [!DNL Adobe Launch] する必要があります。
 
-詳しくは、この [ページのCampaign Classicを参照し](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaignclassic) 、Campaign Standardに関する [ページ](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard) 。
+詳しくは、この[ページ](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard)を参照してください。
 
 ## Adobe Experience PlatformSDKを統合すると、どのような機能がAdobe Campaignを容易にしますか？ {#aep-capabilities}
 
