@@ -12,9 +12,9 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 0b82a9dc86ec9e48e25f1ffe53188ba916a9d074
+source-git-commit: 5b99fb9fbf8bdac506aeb8a35f30a7ef33aaa7e6
 workflow-type: tm+mt
-source-wordcount: '2951'
+source-wordcount: '2948'
 ht-degree: 95%
 
 ---
@@ -296,7 +296,7 @@ ht-degree: 95%
 * 管理者セキュリティグループの組織単位は変更できなくなりました。
 * プロファイルの作成時に、「Organizational unit」フィールドへの入力が必須になりました。
 * Experience Cloud のトリガーを削除できるのは、トリガーにリンクされたイベントとトランザクションテンプレートの両方を削除する場合に限られるようになりました。
-* Adobe Creative SDK は廃止されました。Campaign Standard では廃止されています。[廃止および削除された機能](https://helpx.adobe.com/jp/campaign/kb/acs-deprecated-and-removed-features.html)のページを参照してください。
+* [!DNL Adobe Creative SDK] は廃止されました。 Campaign Standard では廃止されています。[廃止および削除された機能](https://helpx.adobe.com/jp/campaign/kb/acs-deprecated-and-removed-features.html)のページを参照してください。
 
 
 **パッチ**
