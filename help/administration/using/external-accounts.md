@@ -13,10 +13,10 @@ internal: n
 snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 9ba56ca09a1ae948b6d4b1945085f59db1ade973
 workflow-type: tm+mt
-source-wordcount: '1557'
-ht-degree: 96%
+source-wordcount: '1774'
+ht-degree: 85%
 
 ---
 
@@ -35,6 +35,7 @@ ht-degree: 96%
 * Adobe Analytics。詳しくは、[この節](../../integrating/using/configure-campaign-analytics-integration.md)を参照してください。
 * Google reCAPTCHA。詳しくは、[この節](#google-recaptcha-external-account)を参照してください。
 * Microsoft Azure Blob ストレージ。詳しくは、[この節](#microsoft-azure-external-account)を参照してください。
+* OAuth 2.0. For more on this, refer to [this section](#oauth-account).
 
 >[!NOTE]
 >
@@ -93,6 +94,23 @@ SFTP サーバーは、コントロールパネルから管理できます。詳
 >[!NOTE]
 >
 >コントロールパネルは、AWS でホストされるお客様の管理者ユーザーだけが使用できます。インスタンスが AWS でホストされているかどうかの確認については、[こちら](https://docs.adobe.com/content/help/ja-JP/control-panel/using/faq.html#ims-org-id)を参照してください。
+
+## OAuth 2.0アカウント {#oauth-account}
+
+OAuth 2.0外部アカウントの場合は、次の詳細を入力します。
+
+* 援助金 **のタイプ**:サポートされるのは **クライアント資格情報** のみです。
+* Secure **API URL**:認証エンドポイントを入力します。
+* **OAuth 2.0の機密資格情報**:このセクションは、本質的に機密性の高い資格情報を対象としています。 秘密鍵証明書の値は、追加された後に画面上でマスクされます。この時点では、読み取りや編集ができなくなります。 認証エンドポイントで、POSTのbodyパラメーターの代わりに特定の秘密鍵証明書をHTTP認証ヘッダーに挿入する必要がある場合は、その秘密鍵証明書の「ヘッダーに含める」オプションを選択できます。
+* **OAuth 2.0の機密でない資格情報**:このセクションは、本質的に機密性の低い資格情報を対象としています。 秘密鍵証明書の値は、追加された後、画面に表示されます。また、これらは編集可能になります。  認証エンドポイントで、POSTのbodyパラメーターの代わりに特定の秘密鍵証明書をHTTP認証ヘッダーに挿入する必要がある場合は、その秘密鍵証明書の「ヘッダーに含める」オプションを選択できます。
+
+設定の終わりに達したら、「 **Test connector** 」をクリックして、外部アカウントが正しく設定されていることを確認します。
+
+![](assets/external_accounts_OAuth.png)
+
+>[!NOTE]
+>
+>秘密鍵証明書「Content-Type:application/x-www-form-urlencoded&quot;と&quot;grant_type=client_credentials&quot;は、自動的にAPI呼び出しに追加されます。したがって、資格情報セクションに追加する必要はありません。
 
 ## Amazon S3 外部アカウント {#amazon-s3-external-account}
 
