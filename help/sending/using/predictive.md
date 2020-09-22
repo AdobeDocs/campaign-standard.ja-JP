@@ -12,9 +12,9 @@ discoiquuid: 609355f6-9003-41b9-9981-ea787419fbf5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: acaa07b3e40d0bcbf7c44f866ede141b992015a1
+source-git-commit: c277a6cb18e9a1d83f8a2632049e7cea36414052
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1061'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Adobe Campaign Standardオファーは、2つの新しい機械学習モデル�
 >[!CAUTION]
 >この機能は、製品の一部として初期状態では使用できません。 導入には、Adobeコンサルティングが関与している必要があります。 詳細については、Adobeの担当者にお問い合わせください。
 >
->別に、この機能には、お客様が提供する必要のあるAzureストレージの使用が必要でした。
+>この機能を使用するには、お客様が提供する必要のあるAzureストレージを使用する必要があります。
 
 ## 予測送信時間の最適化{#predictive-send-time}
 
