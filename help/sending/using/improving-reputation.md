@@ -13,9 +13,9 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '458'
 ht-degree: 70%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 70%
 
 # 評価の向上{#improving-reputation}
 
-受信者を疲弊させるのを避けるために、重複した E メールアドレスをターゲットから削除します。この手順は、送信レピュテーションを保護し、適切な強制隔離管理をおこなうためのものです。Adobe Campaignオファーは、これらの推奨を実装し、ISPブロックリストに加えるが発生するリスクを回避するために必要なツールを提供します。
+受信者を疲弊させるのを避けるために、重複した E メールアドレスをターゲットから削除します。この手順は、送信レピュテーションを保護し、適切な強制隔離管理をおこなうためのものです。Adobe Campaignオファーは、これらの推奨を実装し、ISPがブロックリストに追加するリスクを回避するために必要なツールを提供します。
 
 以下に重複および強制隔離の管理の詳細を示します。
 
