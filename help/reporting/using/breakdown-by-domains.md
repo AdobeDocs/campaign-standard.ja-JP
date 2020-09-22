@@ -13,9 +13,9 @@ context-tags: deliveryDomainBreakdownReport,main;campaignDomainBreakdownReport,m
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '235'
 ht-degree: 3%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 3%
 
 # ドメイン別の分類{#breakdown-by-domains}
 
-このレポートには、電子メール配信のオーディエンスに表示される各ドメインのパフォーマンスデータが含まれます。 キャンペーンレポートまたはプログラムレポートの場合は、パフォーマンスデータを複数のオーディエンスで使用できます。 このデータを使用すると、特定のイベントに対する各ドメインの動作を分析できます。 例えば、リンク表示、ブロックリストに加えるURLなど
+このレポートには、電子メール配信のオーディエンスに表示される各ドメインのパフォーマンスデータが含まれます。 キャンペーンレポートまたはプログラムレポートの場合は、パフォーマンスデータを複数のオーディエンスで使用できます。 このデータを使用すると、特定のイベントに対する各ドメインの動作を分析できます。 例えば、リンク表示、ブロックリスト上のURLなど。
 
 ![](assets/delivery_reports_6.png)
 
@@ -42,5 +42,5 @@ ht-degree: 3%
 * **クリック**:配信内のコンテンツがクリックされた回数。
 * **登録解除**:購読リンクのクリック数。
 * **ミラーページ**:ミラーページリンクのクリック数。
-* **ブロックリストに加える**:電子メールをスパムまたは迷惑メールとして宣言した受信者の数です。 [詳細情報](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+* **ブロックリスト時**:電子メールをスパムまたは迷惑メールとして宣言した受信者の数です。 [詳細情報](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
