@@ -13,10 +13,10 @@ context-tags: query,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3cb37426410eeb8be04c9c75afa4505894b15140
+source-git-commit: eac45f6e5491703a39c19a4787be6f285e841e14
 workflow-type: tm+mt
-source-wordcount: '1720'
-ht-degree: 97%
+source-wordcount: '1708'
+ht-degree: 96%
 
 ---
 
@@ -71,9 +71,7 @@ ht-degree: 97%
 
 ターゲティングディメンションとリソースを使用すると、配信のターゲットを指定するためにクエリで使用する要素を定義できます。
 
-ターゲティングディメンションはターゲットマッピングで定義されます。詳しくは、[この節](../../administration/using/target-mappings-in-campaign.md)を参照してください。
-
-ターゲティングディメンションとリソースは、「Query」アクティビティの「**[!UICONTROL Properties]**」タブでワークフローを作成するときに定義されます。
+これらは [ターゲットマッピングで設定され](../../administration/using/target-mappings-in-campaign.md)、ワークフローの作成時に、クエリアクティビティの **[!UICONTROL Properties]** タブで定義されます。
 
 >[!NOTE]
 >
