@@ -12,11 +12,11 @@ discoiquuid: ca8d1698-6e8a-4f5a-b017-74a152e14286
 context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 0dd69cbad3e05a5a7eb36da80264e6eb6aae0e34
-workflow-type: ht
-source-wordcount: '1007'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: c300f50ce83d67be7c8a16f857eb46fb1ce89166
+workflow-type: tm+mt
+source-wordcount: '1006'
+ht-degree: 99%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 
 **関連トピック：**
 
-* [ランディングページの作成チュートリアルビデオ](https://docs.adobe.com/content/help/ja-JP/campaign-standard-learn/tutorials/communication-channels/landing-pages/landing-page-create-and-edit.translate.html)（ビデオ）
+* [ランディングページチュートリアルビデオの作成](https://docs.adobe.com/content/help/ja-JP/campaign-standard-learn/tutorials/communication-channels/landing-pages/landing-page-create-and-edit.translate.html)
 * [サービスの作成](../../audiences/using/creating-a-service.md)
 * [ダブルオプトインプロセスの設定](setting-up-a-double-opt-in-process.md)
 
