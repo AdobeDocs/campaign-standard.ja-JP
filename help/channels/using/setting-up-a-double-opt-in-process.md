@@ -12,9 +12,9 @@ discoiquuid: 1a24504e-7f9d-4297-b39e-c5f085b0f388
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '1146'
+source-wordcount: '1150'
 ht-degree: 90%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 90%
 
    ![](assets/optin_confirmlp_newelement.png)
 
-   このコンテキストでは、電子メールを送信できるように、「ブロックリストに加える」フィールドが削除されます。 後で説明がありますが、最初のランディングページでは、確認前、このフィールドを **true** と設定し、未確認のプロファイルに E メールが送信されないようにしてありました。詳しくは、 [手順3：獲得ランディングページの作成](#step-3--create-the-acquisition-landing-page)を参照してください。
+   このコンテキストでは、電子メールを送信できるように、「オンブロックリスト」フィールドが削除されます。 後で説明がありますが、最初のランディングページでは、確認前、このフィールドを **true** と設定し、未確認のプロファイルに E メールが送信されないようにしてありました。詳しくは、 [手順3：獲得ランディングページの作成](#step-3--create-the-acquisition-landing-page)を参照してください。
 
 1. ランディングページのコンテンツをカスタマイズします。例えば、パーソナライズされたデータを表示し、確認ボタンのラベルを「ここをクリックして購読を確認」などに変更できます。
 
@@ -101,12 +101,12 @@ ht-degree: 90%
 
 ### タイポロジの作成 {#create-the-typology-rule}
 
-標準搭載の[タイポロジ](../../sending/using/about-typology-rules.md)を複製して、特定のタイポロジを作成する必要があります。タイポロジを使用すると、契約をまだ確認しておらず、まだ承認していないプロファイルにメッセージを送信できます。 デフォルトでは、タイポロジによってオプトアウト(ブロックリストに加える例：)プロファイルが除外されます。 このタイポロジを作成するには、次の手順に従います。
+標準搭載の[タイポロジ](../../sending/using/about-typology-rules.md)を複製して、特定のタイポロジを作成する必要があります。タイポロジを使用すると、契約をまだ確認しておらず、まだプロファイル中のにメッセージを送信できます。 デフォルトでは、タイポロジによってオプトアウト(ブロックリスト例：)プロファイルが除外されます。 このタイポロジを作成するには、次の手順に従います。
 
 1. Adobe Campaign のロゴから、**[!UICONTROL Administration]**／**[!UICONTROL Channels]**／**[!UICONTROL Typologies]**&#x200B;を選択し、「**[!UICONTROL Typologies]**」をクリックします。
 1. 標準搭載のタイポロジ「**[!UICONTROL Transactional message on profile (mcTypologyProfile)]**」を複製します。
 1. 複製が確認されたら、新しいタイポロジを編集し、ラベルを「**TYPOLOGY_PROFILE**」と入力します。
-1. Remove the **Denylisted address** rule.
+1. 「 **** 住所(ブロックリスト上)」の規則を削除します。
 1. 「**[!UICONTROL Save]**」をクリックします。
 
 これで、このタイポロジを確認 E メールに関連付けることができるようになりました。
