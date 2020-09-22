@@ -12,7 +12,7 @@ discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: cd1cbf907eb160b6bbc1a2a2d3dd1c601ac13635
+source-git-commit: 6078a16c679d368dd85cecbb8b715e2de3da805a
 workflow-type: tm+mt
 source-wordcount: '1186'
 ht-degree: 1%
@@ -157,13 +157,13 @@ D365には、次のイベント属性が表示されます。
 また、システム間のオプトアウト同期を別のプロセスで管理する場合は、統合のオプトアウトデータフローを無効にできます。
 
 オプトアウトフローマッピングは、会社間でビジネス要件が異なる場合があるので、顧客が指定します。  キャンペーン側では、OOTBオプトアウト属性のみがオプトアウトマッピングに使用できます。
-* blockList
-* blockListEmail
-* blockListFax
-* blockListMobile
-* blockListPhone
-* blockListPostalMail
-* blockListPushnotification
+* ブロックリスト
+* denyListEmail
+* denyListFax
+* denyListMobile
+* denyListPhone
+* denyListPostalMail
+* denyListPushnotification
 * ccpaOptOut
 
 Dynamics 365では、ほとんどのオプトアウトフィールドには「ドノット」プレフィックスが付きます。ただし、データタイプに互換性がある場合は、他の属性をオプトアウト目的に使用することもできます。
