@@ -13,9 +13,9 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 331769e7f1c1c30e3b7ff340252052c5aaa2eac9
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '459'
 ht-degree: 48%
 
 ---
@@ -38,30 +38,30 @@ ht-degree: 48%
 
 ## ブロックリスト対強制隔離 {#denylist-versus-quarantine}
 
-* **電子メールアドレスと隔離されたブロックリストに加える電子メールアドレスの違いを教えてください。**
+* **上の電子メールアドレスと隔離された電子メールアドレスの違いについて教えてください。**
 
-   * The status **[!UICONTROL Denylisted]** is a result of a feedback loop (when a person reports a message as spam).
+   * The status **[!UICONTROL On denylist]** is a result of a feedback loop (when a person reports a message as spam).
 
    * The status **[!UICONTROL Quarantined]** is a result of a soft or hard bounce.
-   詳しくは、[こちらの節](../../sending/using/understanding-quarantine-management.md#quarantine-vs-block-list)を参照してください。
+   詳しくは、[こちらの節](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist)を参照してください。
 
 * **様々な強制隔離エラーの原因は何を意味しますか。**
 
-   考えられる理由は10つあります。未定義、ユーザー不明、無効なドメイン、ブロックリストに加えるアドレス、拒否、エラー無視、未到達、アカウント無効、メールボックスフル、接続なし
+   考えられる理由は10つあります。未定義、ユーザー不明、無効なドメイン、ブロックリスト上のアドレス、拒否、エラー無視、未到達、アカウント無効、メールボックスフル、未接続
 
    詳しくは、[強制隔離管理の理解](../../sending/using/understanding-quarantine-management.md)を参照してください。
 
 ## ブロックリストからの削除 {#removing-from-denylist}
 
-* **私の受信者の一つはブロックリストに加える間違っていた。 How do I remove them from the denylist so that I can start sending them messages again?**
+* **私の受信者の1つが誤ってブロックリストに追加された。 How do I remove them from the denylist so that I can start sending them messages again?**
 
    * 移動 **[!UICONTROL Administration > Channels > Quarantines > Addresses]**.
    * In the details of the corresponding record, set the value of the **[!UICONTROL Status]** field to **[!UICONTROL Valid]**.
    * レコードを保存します。
 
-* **IPの1つが存在するかどうかを調べるにはどうブロックリストに加えるしますか。 IPをから削除する方法を教えてブロックリストください。**
+* **IPの1つがブロックリストにあるかどうかを調べるにはどうしますか。 IPをから削除する方法を教えてブロックリストください。**
 
-   IPアドレスがブロックリストに加える確認するには、次のような様々なWebサイトを使用して確認します。
+   IPアドレスがブロックリスト上にあるかどうかを確認するには、次のような様々なWebサイトを使用して確認します。
    * [MX Toolbox](https://mxtoolbox.com/)
    * [IPアドレスは何か](https://whatismyipaddress.com)
 
