@@ -13,7 +13,7 @@ context-tags: fileImport,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9a4c2219d5f8b312deb476d852cf5db9cd19afcb
+source-git-commit: eac45f6e5491703a39c19a4787be6f285e841e14
 workflow-type: tm+mt
 source-wordcount: '1364'
 ht-degree: 93%
@@ -37,14 +37,14 @@ ht-degree: 93%
 
 データの抽出方法は、アクティビティの設定時に定義されます。読み込むファイルとしては、例えば連絡先のリストなどがあります。
 
->[!CAUTION]
->
->.txt、.csv などの「フラット」な構造のファイルのみが対象となります。
-
 次の操作をおこなうことができます。
 
 * ファイル構造を使用して、別のファイルのデータ（「**[!UICONTROL Transfer file]**」アクティビティを使用して回復したもの）に適用するか、
 * ファイルの構造とデータを使用して、Adobe Campaign にインポートします。
+
+>[!IMPORTANT]
+>
+>.txt、.csv などの「フラット」な構造のファイルのみが対象となります。
 
 **関連トピック：**
 
@@ -110,7 +110,7 @@ ht-degree: 93%
 
 1. データの読み込み元のファイルが圧縮されて GZIP ファイル（.gz）になっている場合は、「**[!UICONTROL Add a pre-processing step]**」フィールドで「**[!UICONTROL Decompression]**」オプションを選択します。これにより、データを読み込む前にファイルを解凍できます。このオプションは、ファイルがアクティビティの受信トランジションから送信されている場合にのみ使用できます。
 
-   また、この **[!UICONTROL Add a pre-processing step]** フィールドでは、ファイルをデータベースにインポートする前に、そのファイルを復号化することもできます。 暗号化されたファイルを使用する方法について詳しくは、 [この節を参照してください](../../automating/using/managing-encrypted-data.md)
+   また、この **[!UICONTROL Add a pre-processing step]** フィールドでは、ファイルをデータベースにインポートする前に、そのファイルを復号化することもできます。 For more on how to work with encrypted files, refer to [this section](../../automating/using/managing-encrypted-data.md)
 
 1. 「**[!UICONTROL Keep the rejects in a file]**」オプションを使用すると、インポート中に発生したエラーが含まれるファイルをダウンロードし、後処理段階でそのファイルに適用することができます。このオプションを有効にすると、送信トランジションの名前が「却下」に変更されます。
 
