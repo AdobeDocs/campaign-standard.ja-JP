@@ -12,9 +12,9 @@ discoiquuid: c3015cdc-8432-4e57-8ac0-43ae7827e3b0
 context-tags: packageDef,overview;packageInstall,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: eac45f6e5491703a39c19a4787be6f285e841e14
+workflow-type: tm+mt
 source-wordcount: '1053'
 ht-degree: 100%
 
@@ -43,9 +43,11 @@ ht-degree: 100%
 
 ![](assets/packages_14.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
->書き出されるリソースにデフォルトの ID が含まれている場合、パッケージの書き出しは許可されません。したがって、書き出し可能なリソースの ID は、Adobe Campaign Standard で標準として提供されているテンプレートとは異なる名前に変更する必要があります。例えば、テスト用プロファイルを書き出すには、「SDM」または「sdm」を含む ID は使用しないでください。デフォルトの ID を使用しているパッケージを書き出そうとすると、次のようなエラーが表示されます。「&#39;Brands (branding)&#39; エンティティタイプにはデフォルトの ID（&#39;BRD1&#39;）が使用されているため、パッケージのインポート時に競合が発生する可能性があります。この名前を変更し、操作を繰り返します。」
+>書き出されるリソースにデフォルトの ID が含まれている場合、パッケージの書き出しは許可されません。したがって、書き出し可能なリソースの ID は、Adobe Campaign Standard で標準として提供されているテンプレートとは異なる名前に変更する必要があります。例えば、テスト用プロファイルを書き出すには、「SDM」または「sdm」を含む ID は使用しないでください。
+>
+>デフォルトの ID を使用しているパッケージを書き出そうとすると、次のようなエラーが表示されます。「&#39;Brands (branding)&#39; エンティティタイプにはデフォルトの ID（&#39;BRD1&#39;）が使用されているため、パッケージのインポート時に競合が発生する可能性があります。この名前を変更し、操作を繰り返します。」
 
 パッケージの書き出し手順については、[パッケージの書き出し](#exporting-a-package)の節で説明します。
 
