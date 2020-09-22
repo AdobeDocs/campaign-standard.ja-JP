@@ -11,11 +11,11 @@ topic-tags: filtering-data
 discoiquuid: 3cdbe962-1c59-4cd8-b29e-36aa2562fac6
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: fa9d2be71b4bbf5eceadbd1835db324618f9529c
-workflow-type: ht
-source-wordcount: '1912'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: ed920a9b08eb664c2825ba785c75092eb0f2be1e
+workflow-type: tm+mt
+source-wordcount: '1940'
+ht-degree: 98%
 
 ---
 
@@ -37,6 +37,10 @@ ht-degree: 100%
 * 集計
 * 文字列操作
 * 並べ替え
+
+>[!NOTE]
+>
+>外部パラメーターを使用してワークフローを呼び出した後、イベント変数を使用できるすべてのアクティビティーに、追加の関数が用意されています。 詳しくは、[この節](../../automating/using/customizing-workflow-external-parameters.md)を参照してください。
 
 ## 日付 {#dates}
 
@@ -677,7 +681,7 @@ ht-degree: 100%
    <td> <strong>構文</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Avg</strong><br /> </td> 
+   <td> <strong>Avg</strong>, Average<br /> </td> 
    <td> 数値列の平均値を返します<br /> </td> 
    <td> Avg(&lt;値&gt;)<br /> </td> 
   </tr> 
@@ -692,7 +696,7 @@ ht-degree: 100%
    <td> CountAll()<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Countdistinct</strong><br /> </td> 
+   <td> <strong>Countdistinct</strong>, Distinct count<br /> </td> 
    <td> 列内の null 以外のユニーク値をカウントします<br /> </td> 
    <td> Countdistinct(&lt;値&gt;)<br /> </td> 
   </tr> 
