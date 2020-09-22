@@ -13,10 +13,10 @@ context-tags: typology,overview;typologyRule,main;typologyRule,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '551'
-ht-degree: 97%
+source-wordcount: '552'
+ht-degree: 96%
 
 ---
 
@@ -72,7 +72,7 @@ ht-degree: 97%
 1. ターゲティングの開始時に適用されるコントロールルール
 1. フィルタールール:
 
-   * 住所資格のネイティブアプリケーションルール：定義されたアドレス/未確認のアドレス/ブロックリストに加えるアドレス/隔離されたアドレス/アドレスの質。
+   * 住所資格のネイティブアプリケーションルール：定義されたアドレス/確認されていないアドレス/ブロックリスト上のアドレス/隔離されたアドレス/アドレスの質。
    * ユーザーによって定義されたフィルタールール
 
 1. ターゲティングの終了時に適用されるコントロールルール
