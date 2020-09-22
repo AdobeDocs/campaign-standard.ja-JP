@@ -12,10 +12,10 @@ discoiquuid: dafd9860-cd22-4c30-86b7-631b64db7b3f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+source-git-commit: 9f33ca4e8b6326fce5fd301587b15ce706750c6e
 workflow-type: tm+mt
 source-wordcount: '1144'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -43,7 +43,7 @@ Campaign ホームページは、主な Adobe Campaign 機能にすばやくア�
 * 「**[!UICONTROL Create an SMS]**」カードを選択すると、SMS 作成アシスタントが表示されます。このアシスタントでは、SMS のタイプの選択、メッセージ受信者の選択、コンテンツの定義をおこなうことができます。[SMS の作成](../../channels/using/creating-an-sms-message.md)の節を参照してください。
 * 「**[!UICONTROL Create a Direct mail]**」カードを選択すると、ダイレクトメール作成アシスタントが表示されます。[ダイレクトメールの作成](../../channels/using/creating-the-direct-mail.md)を参照してください。
 * 「**[!UICONTROL Create a push notification]**」カードを選択すると、通知作成アシスタントが表示されます。このアシスタントではプッシュ通知のタイプの選択、メッセージ受信者の選択、コンテンツの定義をおこなうことができます。[プッシュ通知の作成](../../channels/using/preparing-and-sending-a-push-notification.md)を参照してください。
-* 「**[!UICONTROL Create an InApp message]**」カードを選択すると、アプリ内メッセージ作成アシスタントが表示されます。このアシスタントでは、作成するアプリ内メッセージのタイプを選択し、そのプロパティ、オーディエンス、コンテンツを定義できます。[アプリ内メッセージの作成](../../channels/using/about-in-app-messaging.md)の節を参照してください。
+* The **[!UICONTROL Create an In-App message]** card takes you to the In-App creation assistant. このアシスタントでは、作成するアプリ内メッセージのタイプを選択し、そのプロパティ、オーディエンスおよびコンテンツを定義できます。 Refer to the [Creating an In-App message](../../channels/using/about-in-app-messaging.md) section.
 * 「**[!UICONTROL Marketing activities]**「」カードを選択すると、すべてのアクティビティ、プログラムおよびキャンペーン、特に E メール、SMS、ワークフロー、ランディングページの一覧が表示されます。ここから、名前、日付、ステータスまたはアクティビティタイプで検索して、要素をフィルタリングできます。詳しくは、[マーケティングアクティビティリスト](../../start/using/marketing-activities.md#about-marketing-activities)の節を参照してください。
 * 「**[!UICONTROL Programs & campaigns]**」カードを選択すると、キャンペーンを作成、管理できるプログラムのリストに移動します。[プログラムリスト](../../start/using/programs-and-campaigns.md#about-plans--programs-and-campaigns)を参照してください。
 * 「**[!UICONTROL Timeline]**」カードを使用すると、マーケティングアクティビティのインタラクティブなタイムラインに直接移動し、進行中のプログラムとそのコンテンツを参照することができます。[タイムライン](../../start/using/timeline.md)を参照してください。
