@@ -5,10 +5,10 @@ audience: end-user
 user-guide-title: Adobe Campaign Standard ヘルプ
 breadcrumb-title: Campaign Standard Guide
 translation-type: tm+mt
-source-git-commit: f26fb6bd8b6d103e25bfaedb02d4d1d9342752bf
+source-git-commit: f83259801fee2709aad48d364d16b4affe041a6d
 workflow-type: tm+mt
-source-wordcount: '1628'
-ht-degree: 85%
+source-wordcount: '1651'
+ht-degree: 86%
 
 ---
 
@@ -73,6 +73,14 @@ ht-degree: 85%
       + [メッセージへのアクセス](channels/using/accessing-messages.md)
       + [メッセージダッシュボード](channels/using/message-dashboard.md)
       + [多言語メッセージテンプレート](channels/using/multilingual-messages-template.md)
+   + 配信のベストプラクティス {#delivery-bestpractices}
+      + [ベストプラクティスを学ぶ](sending/using/delivery-best-practices.md)
+      + [配信の最適化](sending/using/optimize-delivery.md)
+      + [テンプレートの使用](sending/using/use-templates.md)
+      + [パーソナライズされたコンテンツの作成](sending/using/design-and-personalize.md)
+      + [適切なオーディエンスの定義](sending/using/define-the-right-audience.md)
+      + [送信前の確認](sending/using/check-before-sending.md)
+      + [トラッキングと監視](sending/using/track-and-monitor.md)
    + E メールメッセージ{#email-messages}
       + [E メールについて](channels/using/about-emails.md)
       + [E メールの作成](channels/using/creating-an-email.md)
