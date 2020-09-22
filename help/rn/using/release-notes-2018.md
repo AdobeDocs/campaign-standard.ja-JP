@@ -12,9 +12,9 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '5398'
+source-wordcount: '5400'
 ht-degree: 7%
 
 ---
@@ -89,7 +89,7 @@ Adobe Campaign Standardの最新 [ドキュメント更新表示](../../rn/using
 * カメラからアップロードした画像や、ポートレイトモードで撮影した画像が、不要な回転位置に表示される問題を修正しました。
 * Creative Designerでクエリエディターインターフェイスを使用すると、選択内容が不明確に表示される問題を修正しました。
 * Creative Designerでクエリエディターインターフェイスを使用する場合に、要素を正しく複製できない問題を修正しました。
-* SMSメッセージが、非登録ユーザーに対して自動応答で登録解除された場合でも配信され続ける問題を修正しました。 （CAMP-27128）
+* SMSメッセージが、自動応答で登録解除された場合でも、ブロックリスト受信者上のに配信され続けていた問題を修正しました。 （CAMP-27128）
 * 「 **データベースクリーンアップ** 」ワークフローが失敗する原因となったエラーを表示できない問題を修正しました。 （CAMP-26876）
 * プッシュ通知定義のカスタムフィールドを削除できない可能性がある問題を修正しました。 （CAMP-25588）
 
@@ -170,7 +170,7 @@ Adobe Campaign Standardの最新 [ドキュメント更新表示](../../rn/using
 * 「 **配信品質** （すぐに使用できる状態）の更新」の技術ワークフローで、機能管理者が「ルールの更新 **** 」JavaScriptアクティビティで無視する連続エラー数を定義できるようになりました。 デフォルトでは、このフィールドの値は0に設定されており、すべてのエラーが無視されます。
 * ユニットアクセス制限条件の管理時に生成されるSQLが最適化されました。
 * アクティビティで、購読に関連するデータ（nms:appSubscriptionRcpテーブル）の追加、更新または削除ができるようになりました。 **[!UICONTROL Update]**
-* パフォーマンスを最適化するため、 **[!UICONTROL Update delivery execution]** 技術的なワークフローは2つのワークフローに分かれています。- **[!UICONTROL Update delivery execution]**:配信の追跡を更新します。 デフォルトでは、10分ごとに開始されます。 **[!UICONTROL Update delivery indicators]**:配信のKPIを更新します。既定では、1時間ごとに開始されます。 For more on technical workflows, refer to this [section](../../administration/using/technical-workflows.md#list-of-technical-workflows).
+* パフォーマンスを最適化するため、 **[!UICONTROL Update delivery execution]** 技術的なワークフローは2つのワークフローに分かれています。- **[!UICONTROL Update delivery execution]**:配信の追跡を更新します。 デフォルトでは、10分ごとに開始されます。 **[!UICONTROL Update delivery indicators]**:配信のKPIを更新します。既定では、1時間ごとに開始されます。 テクニカルワークフローの詳細については、この [節を参照してください](../../administration/using/technical-workflows.md#list-of-technical-workflows)。
 * 配信がメッセージを送信している場合、セクションのステータスに次の2つの値を設定できるようにな **[!UICONTROL Deployment]** りました。 **[!UICONTROL Sending]**:メッセージが送信されています。 **[!UICONTROL Sending (retry)]**:再試行パスが進行中です。
 * これで、そのロールを持つユーザーは **[!UICONTROL Delivery preparation]** 配達確認を送信できるようになります。 （CAMP-24313）
 * SMPP **外部アカウントを介してSMSルーティングに「TLS over SMPP****** 」オプションが追加されました。 詳しくは、この[節](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing)を参照してください。
