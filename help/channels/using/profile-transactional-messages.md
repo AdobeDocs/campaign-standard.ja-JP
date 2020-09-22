@@ -12,9 +12,9 @@ discoiquuid: dcb90afc-42c3-419e-8345-79cddf969e41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '385'
 ht-degree: 95%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 95%
 
 顧客マーケティングプロファイルに基づいてトランザクションメッセージを送信すると、次のことができます。
 
-* **[!UICONTROL Denylisted address]** または[疲労ルール](../../sending/using/fatigue-rules.md)などのマーケティングタイポロジルールを適用する。
+* **[!UICONTROL Address on denylist]** または[疲労ルール](../../sending/using/fatigue-rules.md)などのマーケティングタイポロジルールを適用する。
 * メッセージ内に購読解除リンクを含める。
 * グローバル配信レポートにトランザクションメッセージを追加する。
 * カスタマージャーニーでトランザクションメッセージを活用する。
@@ -74,11 +74,11 @@ ht-degree: 95%
 
    ![](assets/message-center_marketing_sending_logs.png)
 
-1. Select the **[!UICONTROL Exclusions logs]** tab to view recipients who have been excluded from the message target, such as denylisted addresses.
+1. Select the **[!UICONTROL Exclusions logs]** tab to view recipients who have been excluded from the message target, such as addresses on denylist.
 
    ![](assets/message-center_marketing_exclusion_logs.png)
 
-オプトアウトしたプロファイルの場合、**[!UICONTROL Denylisted address]** タイポロジルールは対応する受信者を除外します。
+オプトアウトしたプロファイルの場合、**[!UICONTROL Address on denylist]** タイポロジルールは対応する受信者を除外します。
 
 このルールは、**[!UICONTROL Profile]** テーブルに基づくすべてのトランザクションメッセージに適用される特定のタイポロジの一部です。
 
