@@ -12,9 +12,9 @@ discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '7622'
+source-wordcount: '7624'
 ht-degree: 9%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 9%
    <ul>
     <li>アクセス権と削除権：GDPR 用に追加された機能を活用します。<a href="https://helpx.adobe.com/content/help/jp/campaign/kb/acs-privacy.html#righttoaccess">詳細情報</a> </li>
     <li><p>プライバシー要求を作成する際に、プライバシーコアサービスに規則の種類（GDPRまたはCCPA）が追加されました。 すべてのアクセス要求と削除要求に対して、このメソッドを使用する必要があります。アクセス要求および削除要求に対する Campaign API およびインターフェイスの使用は廃止されています。<a href="https://helpx.adobe.com/jp/campaign/kb/acs-deprecated-and-removed-features.html">廃止および削除された機能の記事</a>を参照してください。</p></li>
-    <li>プロファイルリソースに <strong>CCPAオプトアウト</strong> (CCPA Opt-Out)フィールドが追加され、個人情報の販売に対して消費者がオプトアウトしたかどうかをAdobe Campaignユーザーが追跡できるようになりました。 <a href="https://helpx.adobe.com/jp/campaign/kb/acs-privacy.html#ccpa">詳細情報</a>。</li>
+    <li>プロファイルリソースに <strong>CCPAオプトアウト</strong> (CCPA Opt-Out)フィールドが追加され、個人情報の販売に対して消費者がオプトアウトしたかどうかをAdobe Campaignユーザーが追跡できるようになりました。 詳しくは、<a href="https://helpx.adobe.com/jp/campaign/kb/acs-privacy.html#ccpa">こちら</a>を参照してください。</li>
   </ul>
     <p><a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">ハウツービデオ</a>を参照してください。</p>
 </td> 
@@ -617,7 +617,7 @@ ht-degree: 9%
 * クエリエディターで、rtEventのブロードローグと追跡ログの結合条件に関する問題を修正しました。 （CAMP-28780）
 * 「特定のアクション」ランディングページオプションに対する変更が保存されない問題を修正しました。 （CAMP-29422）
 * ワークフロー内のイベントのペイロードをエクスポートできない問題を修正しました。 （CAMP-29029）
-* SMSメッセージでブロックリストに加えるSMS番号が除外されない問題を修正しました。 （CAMP-28898）
+* SMSメッセージで、上のSMS番号が除外さブロックリストれない問題を修正しました。 （CAMP-28898）
 * 着信メッセージの処理中にエラーが発生した場合にSMPPプロバイダーに通知されない問題を修正しました。 （CAMP-29804）
 * 関連する配信を持つ外部アカウントを削除できる問題を修正しました。 （CAMP-29738）
 * SMSメッセージの送信スループットが向上し、安定しました。
