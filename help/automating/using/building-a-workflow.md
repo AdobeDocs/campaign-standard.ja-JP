@@ -12,10 +12,10 @@ discoiquuid: c26fcb0e-19d5-4bd5-b7d6-2d22ce92ad90
 context-tags: workflow,wizard;workflow,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 422f5eb7011dfcc1d923079e7346394a64934a9a
-workflow-type: ht
-source-wordcount: '929'
+translation-type: tm+mt
+source-git-commit: bbb059c2094558ec02661cb6f41d50a91038d58b
+workflow-type: tm+mt
+source-wordcount: '958'
 ht-degree: 100%
 
 ---
@@ -34,6 +34,10 @@ ht-degree: 100%
 ワークフローの実行前または実行後にアクティビティを開いて、パラメーターを確認または編集することができます。
 
 ワークフローの実行中または実行後にトランジションを開いて、送信されたデータが正しいかどうかを確認できます。トランジションの詳細表示にアクセスするには、ワークフロープロパティの「**[!UICONTROL Execution]**」セクションで「**[!UICONTROL Keep interim results]**」オプションをオンにする必要があります。
+
+>[!CAUTION]
+>
+>このオプションは、多くのディスク領域を消費しますが、ワークフローの作成と適切な設定および動作の確保に役立つように設計されています。実稼働インスタンスでは、このチェックボックスをオフのままにします。
 
 ![](assets/workflow_overview.png)
 
@@ -96,7 +100,7 @@ ht-degree: 100%
 
 1. パレットからアクティビティをドラッグしダイアグラムにドロップして、アクティビティを追加します。
 
-   例えば、ダイアグラムに「**[Start](../../automating/using/start-and-end.md)**」アクティビティを追加した後、「**[ Email delivery](../../automating/using/email-delivery.md)**」アクティビティを追加します。
+   例えば、ダイアグラムに「**[Start](../../automating/using/start-and-end.md)**」アクティビティを追加した後、「**[Email delivery](../../automating/using/email-delivery.md)**」アクティビティを追加します。
 
 1. 「**Start**」アクティビティトランジションをドラッグして「**Email delivery**」アクティビティにドロップすることで、2 つのアクティビティをリンクします。
 
