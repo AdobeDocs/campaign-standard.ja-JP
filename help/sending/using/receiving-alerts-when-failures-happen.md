@@ -12,9 +12,9 @@ discoiquuid: 0766bd57-c5f1-4f56-ac84-e5a04d3819ec
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '2028'
+source-wordcount: '2031'
 ht-degree: 3%
 
 ---
@@ -261,7 +261,7 @@ Adobe Campaignインターフェイスから、次の操作を実行できます
 
    アラートの原因として考えられるのは、次の **[!UICONTROL Delivery with bad error ratio for hard bounces]** とおりです。
 
-   * 受信者ブロックリストに加えるは、もはや連絡を取りたくないということです。
+   * 受信者がブロックリストに追加されます。つまり、ユーザーに連絡を取りたくなくなります。
    * 受信者の電子メールアドレスが存在しません。
    * 受信者のドメインが存在しません。
    * 受信者のサーバーが配信をブロックしています。
