@@ -13,9 +13,9 @@ context-tags: delivery,schedule,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '323'
 ht-degree: 68%
 
 ---
@@ -27,7 +27,7 @@ IP Certificationは、送信のベストプラクティスプログラムです�
 
 現在、2 社のプロバイダーが IP 証明書を提供しています。Return Path および Certified Senders Alliance です。
 
-認証済みの送信者は、グローバルメールボックスプロバイダーや電子メールセキュリティ会社で使用される許可リストに表示されます。 これらの商用許可リストは、送信者がスパム対策フィルターを完全に回避したり、システムに入る際に増分ポイントを割り当てることを可能にするシステムに基づいています。
+認証済みの送信者は、グローバルメールボックスプロバイダーや電子メールセキュリティ会社で使用される許可リスト上に存在します。 これらの商用許可リストは、送信者がスパム対策フィルターを完全に回避したり、システムに入る際に増分ポイントを割り当てることを可能にするシステムに基づいています。
 
 [Return Path Certification](https://www.validity.com/products/returnpath/certification/) プログラムには、次のような多くの利点があります。
 * Microsoft、AOL、Yahoo、Gmail、Comcast、Orange、Mail.ru など、大手メールボックスプロバイダーにおける受信ボックスへの配置率が大幅に向上
