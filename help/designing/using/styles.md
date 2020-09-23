@@ -12,10 +12,10 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 796490350855213578808651cd18df24b1d3f2d1
+source-git-commit: 40199be7858dba4660a941fc6b960f20fac9f9e5
 workflow-type: tm+mt
-source-wordcount: '1028'
-ht-degree: 2%
+source-wordcount: '1052'
+ht-degree: 1%
 
 ---
 
@@ -107,7 +107,8 @@ ht-degree: 2%
 >[!CONTEXTUALHELP]
 >id="ac_edition_backgroundimage"
 >title="背景の設定"
->abstract="電子メールデザイナーでは、コンテンツの背景色や背景画像をパーソナライズできます。"
+>abstract="電子メールデザイナでは、コンテンツの背景色や背景画像をパーソナライズできます。背景画像は、すべての電子メールクライアントでサポートされているわけではありません。"
+>additional-url="https://docs.google.com/spreadsheets/d/1TLo62YKm3tThUWDOIliCQFWs3dpNjpDfw6DdTr1oGOw/edit#gid=0" text="追加情報"
 
 電子メールデザイナで背景を設定する場合は、次の操作をAdobeが推奨します。
 
