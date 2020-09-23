@@ -12,10 +12,10 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b95a1990cfd8b4ce667c7cb2905af33a261c574b
+source-git-commit: 40199be7858dba4660a941fc6b960f20fac9f9e5
 workflow-type: tm+mt
-source-wordcount: '1185'
-ht-degree: 7%
+source-wordcount: '1241'
+ht-degree: 6%
 
 ---
 
@@ -46,12 +46,12 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ac_structure_components"
 >title="構造コンポーネントについて"
->abstract="電子メールのレイアウトを定義する構造要素。"
+>abstract="構造コンポーネントは電子メールのレイアウトを定義します。"
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_columns"
 >title="電子メール列の定義"
->abstract="電子メールデザイナを使用すると、電子メールの列構造を簡単に定義できます。"
+>abstract="電子メールデザイナを使用すると、列構造を定義することで、電子メールのレイアウトを簡単に定義できます。"
 
 電子メールデザイナーを使用すると、電子メールの構造を簡単に定義できます。 単純なドラッグ&amp;ドロップ操作で構造要素を追加したり移動したりすることで、電子メールの形状を数秒以内でデザインできます。
 
@@ -111,7 +111,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ac_content_components"
 >title="コンテンツコンポーネントについて"
->abstract="コンテンツコンポーネントは生の空のコンポーネントで、一度電子メールに配置すれば編集できます。"
+>abstract="コンテンツコンポーネントは空のコンテンツプレースホルダーで、電子メールを作成するために編集できます。"
 
 コンテンツコンポーネントは生の空のコンポーネントで、一度電子メールに配置すれば編集できます。
 
@@ -164,7 +164,9 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ac_edition_video"
 >title="ビデオ設定"
->abstract="このコンポーネントを使用して、ビデオを電子メールに挿入します。"
+>abstract="このコンポーネントを使用して、ビデオを電子メールに挿入します。 ビデオは、すべての電子メールクライアントで機能するわけではありません。 フォールバックイメージを設定することをお勧めします。"
+>additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="追加情報"
+
 
 電子メールの構造コンポーネントにビデオコンポーネントを挿入し、にビデオリンクを入力し **[!UICONTROL Component Settings]**&#x200B;ます。
 
@@ -187,7 +189,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ac_edition_carousel"
 >title="カルーセル設定"
->abstract="コンテンツにカルーセルを挿入し、設定する方法を説明します。"
+>abstract="コンテンツにカルーセルを挿入および設定する方法を説明します。カルーセルはすべての電子メールクライアントで機能しません。サポートされていない場合は、フォールバック画像が表示されます。"
 
 1. 構造コンポーネント内にコンポー **[!UICONTROL Carousel]** ネントをドラッグ&amp;ドロップします。
 1. コンピューターから画像を参照して選択します。
