@@ -12,9 +12,9 @@ discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8e4f25a1d9ad2aa8fb74a6ddd096bda696f502da
+source-git-commit: 40199be7858dba4660a941fc6b960f20fac9f9e5
 workflow-type: tm+mt
-source-wordcount: '2570'
+source-wordcount: '2573'
 ht-degree: 5%
 
 ---
@@ -231,7 +231,7 @@ Adobe Campaignを使用すると、特定の条件に従ってメッセージ内
 >[!CONTEXTUALHELP]
 >id="ac_dynamic_content"
 >title="動的コンテンツの定義"
->abstract="式エディターで定義したルールに従って、受信者に対して様々なコンテンツを定義します。"
+>abstract="一部のプロファイルに表示される異なるコンテンツを、定義する条件に従ってのみ定義します。"
 
 電子メールでは、式エディターで定義した条件に従って受信者に動的に表示される様々なコンテンツを定義できます。 例えば、同じ電子メールから、各プロファイルが年齢の範囲に応じて異なるメッセージを受け取るように設定できます。
 
@@ -338,7 +338,7 @@ Adobe Campaignを使用すると、特定の条件に従ってメッセージ内
 >[!CONTEXTUALHELP]
 >id="ac_dynamic_image"
 >title="動的画像の管理"
->abstract="式エディターで定義されたルールに従って、動的な画像で電子メールをパーソナライズします。"
+>abstract="定義する条件に従って、電子メールを動的な画像でパーソナライズします。"
 
 この例では、画像に適用する動的コンテンツを次のように設定します。
 
