@@ -12,9 +12,9 @@ discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+source-git-commit: 8d55a92deeccabcb6970de6cce4b5e297bc431d8
 workflow-type: tm+mt
-source-wordcount: '3059'
+source-wordcount: '3169'
 ht-degree: 7%
 
 ---
@@ -201,12 +201,6 @@ Adobe Campaign開始がこのイベント設定に関連するイベントを受
 
 イベント（JSON形式）は、最新のものから最も古いものへと順に表示されます。 このリストを使用すると、イベントの内容やステータスなどのデータを調べ、制御およびデバッグの目的で確認できます。
 
-### トランザクションメッセージの公開プロセス {#transactional-messaging-pub-process}
-
-次の図は、トランザクションメッセージの公開プロセスを示しています。
-
-![](assets/message-center_pub-process.png)
-
 ### イベントの非公開 {#unpublishing-an-event}
 
 この **[!UICONTROL Unpublish]** ボタンをクリックすると、イベントの公開をキャンセルできます。これにより、以前に作成したイベントに対応するリソースがREST APIから削除されます。 これで、Web サイトを通じてイベントがトリガーされた場合でも、対応するメッセージは送信されなくなり、データベースには保存されません。
@@ -218,6 +212,14 @@ Adobe Campaign開始がこのイベント設定に関連するイベントを受
 >対応するトランザクションメッセージを既に公開している場合は、トランザクションメッセージの公開もキャンセルされます。 See [Unpublishing a transactional message](../../channels/using/event-transactional-messages.md#unpublishing-a-transactional-message).
 
 ボタンをクリックして、新しいREST APIを生成します。 **[!UICONTROL Publish]**
+
+### トランザクションメッセージの公開プロセス {#transactional-messaging-pub-process}
+
+次の図は、トランザクションメッセージの公開プロセスを示しています。
+
+![](assets/message-center_pub-process.png)
+
+トランザクションメッセージの公開、一時停止、非公開について詳しくは、 [この節を参照してください](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message)。
 
 ### イベントの削除 {#deleting-an-event}
 
@@ -240,13 +242,31 @@ Adobe Campaign開始がこのイベント設定に関連するイベントを受
 >
 >公開済みで既に使用されているイベント設定を削除すると、対応するトランザクションメッセージとその送信およびトラッキングログも削除されます。
 
+## トランザクションイベントの検索 {#searching-transactional-events}
+
+作成済みのトランザクションイベントにアクセスして検索するには、次の手順に従います。
+
+1. 左上隅の **[!UICONTROL Adobe Campaign]** ロゴをクリックし、**[!UICONTROL Marketing plans]**／**[!UICONTROL Transactional messages]**／**[!UICONTROL Event configuration]** を選択します。
+1. 「**[!UICONTROL Show search]**」ボタンをクリックします。
+
+   ![](assets/message-center_search-events.png)
+
+1. をフィルターでき **[!UICONTROL Publication status]**&#x200B;ます。 これにより、例えば、公開済みのイベントのみを表示できます。
+1. また、を使用してイベントをフィルタリングすることもでき **[!UICONTROL Last event received]**&#x200B;ます。 例えば、10と入力した場合、最後に受け取ったイベントが10日以上前にイベントされた設定のみが表示されます。 これにより、特定の期間非アクティブだったイベントを表示できます。
+
+   ![](assets/message-center_last-event-received.png)
+
+   >[!NOTE]
+   >
+   >デフォルト値は0です。 すべてのイベントが表示されます。
+
 ## Webサイトでのイベントのトリガーの統合 {#integrating-the-triggering-of-the-event-in-a-website}
 
 イベントを作成したら、このイベントのトリガーをWebサイトに組み込む必要があります。
 
 「 [トランザクションメッセージングの動作原則](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) 」の節で説明した例では、「買い物かごに製品を購入する前に、顧客の1人がWebサイトを離れたときに常に「買い物かごの放棄」イベントをトリガーする必要があります。 これを行うには、WebサイトのWeb開発者がAdobe Campaign StandardREST APIを使用する必要があります。
 
-詳しくは、 [REST APIドキュメントを参照してください](../../api/using/managing-transactional-messages.md) 。
+詳しくは、 [REST APIドキュメントを参照してください](../../api/using/managing-transactional-messages.md)。
 
 ## トランザクションイベント固有の設定 {#transactional-event-specific-configurations}
 
