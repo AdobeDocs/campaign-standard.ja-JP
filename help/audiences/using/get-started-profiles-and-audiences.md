@@ -1,6 +1,6 @@
 ---
 title: プロファイルとオーディエンスの概要
-description: 「Adobe Campaign内でのプロファイルとオーディエンスの管理について説明します。ターゲット母集団の定義、オーディエンスの選択、受信者のフィルター、データの収集、プロファイルの更新を行います。」
+description: Adobe Campaign内でのプロファイルとオーディエンスの管理について説明します。 ターゲット母集団の定義、オーディエンスの選択、受信者のフィルター、データの収集、プロファイルの更新を行います。
 page-status-flag: never-activated
 uuid: f4cb6c38-c8d1-44ec-93f0-d0f5f30a3d9a
 contentOwner: sauviat
@@ -12,7 +12,7 @@ discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f26fb6bd8b6d103e25bfaedb02d4d1d9342752bf
+source-git-commit: 1a7e6bf967cb1745ea357ad7ee054dc42397f6e2
 workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 11%
