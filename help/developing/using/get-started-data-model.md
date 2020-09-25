@@ -1,6 +1,6 @@
 ---
-title: Campaign Standardデータモデルの概要
-description: 独自のフィールドとリソースを使用してCampaign Standardデータモデルを拡張し、すべてのデータモデルの変更を1つの表示に監視します。
+title: Campaign Standard データモデルの概要
+description: 組み込みのデータモデルの説明にアクセスし、カスタムフィールドとリソースを使用してCampaign Standardデータモデルを拡張し、すべてのデータモデルの変更を1つの表示に監視します。
 page-status-flag: never-activated
 uuid: 7c1e8cea-90d0-491f-ab8f-6cd69f8a6c3b
 contentOwner: sauviat
@@ -12,15 +12,15 @@ discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 816d550d8bd0de085a47f97c1f6cc2fbb5e7acb9
+source-git-commit: e67a173c5409d7693a3d7dab8f8ca3b03aeb886f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '357'
+ht-degree: 15%
 
 ---
 
 
-# Campaign Standardデータモデルの概要 {#get-started-data-model}
+# Campaign Standard データモデルの概要 {#get-started-data-model}
 
 <table>
 <tr>
@@ -34,9 +34,9 @@ ht-degree: 0%
 
 <img src="assets/do-not-localize/icon_datamodel.svg" width="60px">
 
-キャンペーンが使用するデータは、 **事前定義されたデータモデルで定義された異なるリソースを通じて定義され**&#x200B;ます。 データモデルには、一連のマーケティング関連リソースの標準搭載されたSQL構造が表示されます。 配信、オーディエンス、ランディングページ、プロファイル等 各リソースには関連するフィルターが付属し、各リソース間を移動できます。
+キャンペーンが使用するデータは、 **事前定義されたデータモデルで定義された異なるリソースを通じて定義され**&#x200B;ます。 データモデルには、一連のマーケティング関連リソースの標準搭載されたSQL構造が表示されます。配信、オーディエンス、ランディングページ、プロファイル等 各リソースには関連するフィルターが付属し、各リソース間を移動できます。
 
-[ **診断** ]メニューを使用すると、Campaign Standardによって生成される技術的なオブジェクトをリストできます。 データスキーマ、Webページ、フィルターなど。データモデルおよび変更を監視できます。
+[ **診断** ]メニューを使用すると、Campaign Standardによって生成される技術的なオブジェクトをリストできます。データスキーマ、Webページ、フィルターなど。データモデルおよび変更を監視できます。
 
 詳しくは、以下を参照してください。
 
@@ -57,17 +57,17 @@ Campaign Standardを使用すると、事前定義されたデータモデルを
 
 * [リソースの追加または拡張](../../developing/using/key-steps-to-add-a-resource.md)
 * [APIの拡張](../../developing/using/about-extending-the-api.md)
-* [使用例： 新しいフィールドを使用してプロファイルリソースを拡張する](../../developing/using/extending-the-profile-resource-with-a-new-field.md)
-* [使用例： アプリケーションリソースへの購読の拡張](../../developing/using/extending-the-subscriptions-to-an-application-resource.md)
+* [使用例：新しいフィールドを使用してプロファイルリソースを拡張する](../../developing/using/extending-the-profile-resource-with-a-new-field.md)
+* [使用例：アプリケーションリソースへの購読の拡張](../../developing/using/extending-the-subscriptions-to-an-application-resource.md)
 
 ## APIの使用 {#apis}
 
 <img src="assets/do-not-localize/icon_api.svg" width="60px">
 
-Campaign StandardAPIを使用して、Adobe Campaign標準の統合を作成し、使用するテクノロジーのパネルとキャンペーンを連携させて独自のエコシステムを構築します。 [Campaign StandardREST APIの概要](../../api/using/get-started-apis.md)
+Campaign StandardAPIを使用して、Adobe Campaign Standard向けの統合を作成し、使用するテクノロジーのパネルとキャンペーンを連携させて独自のエコシステムを構築します。 [Campaign StandardREST APIの概要](../../api/using/get-started-apis.md)
 
 ## その他のリソース
 
 * [Adobe Experience Platform Data Connector について](../../developing/using/aep-about-data-connector.md)
 * [カスタムリソースの作成（ビデオ）](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/developing/custom-resources-develop/creating-custom-resources.html)
-* [カスタムリソースの書き出し/読み込み](https://helpx.adobe.com/campaign/kb/acs-get-started-with-cusres.html)
+* [カスタムリソースのエクスポートとインポート](https://helpx.adobe.com/campaign/kb/acs-get-started-with-cusres.html)
