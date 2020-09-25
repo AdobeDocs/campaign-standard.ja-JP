@@ -1,6 +1,6 @@
 ---
 title: プロセスとデータ管理の概要
-description: Adobe Campaignオファーは、プロセスの設計と自動化を可能にする包括的なグラフィカル環境です。
+description: Adobe Campaignのワークフロー機能を活用し、強力な包括的なグラフィカル環境を通じてプロセスを自動化します。 データの読み込み、オーディエンスの管理、メッセージの送信、データ管理サイクルの実装、技術プロセスの自動化などの方法について説明します。
 page-status-flag: never-activated
 uuid: 7c1e8cea-90d0-491f-ab8f-6cd69f8a6c3b
 contentOwner: sauviat
@@ -12,10 +12,10 @@ discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: a9fbf0479019dfbe2964c517a0370f015d0f380a
+source-git-commit: 1a7e6bf967cb1745ea357ad7ee054dc42397f6e2
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 8%
+source-wordcount: '539'
+ht-degree: 9%
 
 ---
 
@@ -61,7 +61,7 @@ Adobe Campaignオファーは、セグメント化、キャンペーン実行、
 
 <img src="assets/do-not-localize/icon_filter.svg" width="60px">
 
-データベースからデータをフィルターし、 **クエリのターゲットを高めるための母集団を作成するには、受信者エディターを使用します** 。 クエリエディターでは、Campaign Standardで次のいくつかの操作を実行できます。 クエリタイプオーディエンスを作成し、配信ターゲットまたはワークフローアクティビティ内の母集団を定義します。
+データベースからデータをフィルターし、 **クエリのターゲットを高めるための母集団を作成するには、受信者エディターを使用します** 。 クエリエディターでは、Campaign Standardで次のいくつかの操作を実行できます。クエリタイプオーディエンスを作成し、配信ターゲットまたはワークフローアクティビティ内の母集団を定義します。
 
 クエリエディターには、すばやく簡単にフィルタリングできる **定義済みフィルターとルールが付属しています** 。 ただし、 **高度な式編集** 機能を使用することもできます。 これにより、手動で条件を入力し、関数を使用して独自のルールを作成できます。
 
@@ -96,4 +96,4 @@ Campaign Standardには、データの読み込みと書き出しを行う **デ
 
 * [プロセスとデータ管理のチュートリアルビデオ](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/getting-started/create-workflow.html)
 * [テクニカルワークフロー](../../administration/using/technical-workflows.md)
-* [Campaign Standardデータモデルの概要](../../developing/using/get-started-data-model.md)
+* [Campaign Standard データモデルの概要](../../developing/using/get-started-data-model.md)
