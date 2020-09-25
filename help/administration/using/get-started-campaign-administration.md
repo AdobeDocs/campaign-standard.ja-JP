@@ -1,6 +1,6 @@
 ---
 title: Campaign Standard の管理の概要
-description: Adobe Campaignには、完全な管理ツールが用意されています。 ユーザーを管理し、チャネルを設定する方法を説明します。
+description: ユーザーの管理、ロールの定義、権限の付与の方法を見つけます。監視のガイドライン、チャネル固有の設定、およびターゲットマッピング、テクニカルワークフロー、ブランディング、データ保持などのアプリケーション設定について説明します。
 page-status-flag: never-activated
 uuid: 64c34729-5c98-4db0-9131-af6dd0e78fb4
 contentOwner: sauviat
@@ -12,9 +12,9 @@ discoiquuid: 5587530a-2308-4be1-9f56-19eeb7a924d5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+source-git-commit: 12674de42a9c6f4439a485b67a9aa0fecd32ba25
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '666'
 ht-degree: 14%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 14%
 <td><img src="assets/do-not-localize/icon_settings.svg" width="60px"><p><a href="#application-settings">アプリケーション設定</a></p></td></tr>
 </table>
 
-クラウドベースのソリューションでは、Adobe Campaignオファー管理者は様々な方法でアプリを設定します。 インフラストラクチャの設定はAdobeが行いますが、機能の管理者は、以下に説明する様々な設定操作を実行できます。
+クラウドベースのソリューションでは、Adobe Campaignオファー管理者は様々な方法でアプリを設定します。 インフラストラクチャの設定はAdobeが実行しますが、機能の管理者は、以下に説明する様々な設定操作を実行できます。
 
 >[!NOTE]
 >
@@ -43,14 +43,14 @@ ht-degree: 14%
 
 使用できるメニューは次のとおりです。
 
-* [ユーザーとセキュリティ](../../administration/using/about-access-management.md): このメニューを使用すると、プラットフォーム（ユーザー、役割、セキュリティグループ、ユニット）へのアクセスを管理できます。
-* [チャネル](../../administration/using/about-channel-configuration.md): このメニューは、様々なプラットフォームチャネル（電子メール、SMS）にリンクされている技術パラメータ、およびタイポロジと強制隔離の管理を再グループ化します。
-* [アプリケーション設定](../../administration/using/external-accounts.md): このメニューを使用すると、様々なアプリ要素(外部アカウント、オプション、テクニカルワークフロー)を設定できます。
-* [開発](../../developing/using/data-model-concepts.md): このメニューを使用すると、カスタムリソースを管理し、診断ツールにアクセスできます。
-* [インスタンス設定](../../administration/using/branding.md): このメニューでは、様々なブランドを定義し、設定(ロゴ、追跡の管理、ランディングページにアクセスするためのURLドメインなど)を指定します。
-* [導入](../../automating/using/managing-packages.md): このメニューは、パッケージの読み込みと書き出しのオプションを再グループ化します。
-* [顧客指標](../../audiences/using/active-profiles.md): Adobe Campaignは、アクティブなプロファイルの数を表示するレポートを提供します。 このレポートは情報を提供するだけで、請求に直接影響しません。
-* [プライバシーツール](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy.html): このメニューを使用すると、GDPRへのアクセスとリクエストの削除を作成し、その進化を追跡できます。
+* [ユーザーとセキュリティ](../../administration/using/about-access-management.md):このメニューを使用すると、プラットフォーム（ユーザー、役割、セキュリティグループ、ユニット）へのアクセスを管理できます。
+* [チャネル](../../administration/using/about-channel-configuration.md):このメニューでは、様々なプラットフォームチャネル（電子メール、モバイル）にリンクされている技術パラメーター、およびタイポロジーと強制隔離管理を再グループ化します。
+* [アプリケーション設定](../../administration/using/external-accounts.md):このメニューを使用すると、様々なアプリ要素(外部アカウント、オプション、テクニカルワークフロー)を設定できます。
+* [開発](../../developing/using/data-model-concepts.md):このメニューを使用すると、カスタムリソースを管理し、診断ツールにアクセスできます。
+* [インスタンス設定](../../administration/using/branding.md):このメニューでは、様々なブランドを定義し、設定(ロゴ、追跡の管理、ランディングページにアクセスするためのURLドメインなど)を指定します。
+* [導入](../../automating/using/managing-packages.md):このメニューは、パッケージの読み込みと書き出しのオプションを再グループ化します。
+* [顧客指標](../../audiences/using/active-profiles.md):Adobe Campaignは、アクティブなプロファイルの数を表示するレポートを提供します。 このレポートは情報を提供するだけで、請求に直接影響しません。
+* [プライバシーツール](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy.html):このメニューを使用すると、GDPRへのアクセスとリクエストの削除を作成し、その進化を追跡できます。
 
 ## ユーザーとセキュリティ{#users-security}
 
@@ -75,7 +75,7 @@ ht-degree: 14%
 
 Adobe Campaign内のすべての通信チャネルは、メッセージを効果的に送信できるように正しく構成する必要があります。 **[!UICONTROL Channel]** メニューを使用すると、異なるチャネルにリンクされた技術的なパラメータを管理できます。
 
-様々な **電子メール** パラメーターを設定します。 バウンス、強制隔離、電子メールのプロパティ、ルーティングパラメーター（通常はルール）の処理ルール。 SMS **** チャネルのルーティング構成とプロパティ、およびSMSのエンコードと形式を定義します。
+様々な **電子メール** パラメーターを設定します。バウンス、強制隔離、電子メールのプロパティ、ルーティングパラメーター（通常はルール）の処理ルール。 SMS **** チャネルのルーティング構成とプロパティ、およびSMSのエンコードと形式を定義します。
 
 Adobe Experience PlatformSDKを使用してアプリ内メッセージとプッシュ通知を送信できるように **モバイルアプリを設定し** 、イベントを作成して設定することで **トランザクションメッセージを設定します** 。
 
