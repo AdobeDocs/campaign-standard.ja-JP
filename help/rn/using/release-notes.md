@@ -12,7 +12,7 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 893cd3a07063f8349dfeeae0f3274a6f54bf04f7
+source-git-commit: 8d55a92deeccabcb6970de6cce4b5e297bc431d8
 workflow-type: tm+mt
 source-wordcount: '2441'
 ht-degree: 4%
@@ -116,7 +116,7 @@ ht-degree: 4%
 * カスタムリソースを公開する際、準備後に確認ポップアップが表示されるようになりました。
 * カスタムリソースの失敗時に表示されるポップアップメッセージが改善され、より明確になりました。
 * ワークフローの式エディターが改善され、実行エラーが発生しないようになりました。 [新しい関数](../../automating/using/customizing-workflow-external-parameters.md) :これらは、外部パラメーターを使用してワークフローを呼び出した後にイベント変数を使用できるすべてのアクティビティで使用できます。 また、式エディタに関数の説明と共にツールチップが表示されるようになりました。
-* トランザクションイベントのリストに新しいフィルターが追加されました。 これにより、イベント設定を、そのステータスと最後にイベントを受け取ったときの情報に基づいてフィルタリングできます。
+* [新しいフィルター](../../administration/using/configuring-transactional-messaging.md#searching-transactional-events) は、トランザクションイベントのリストに追加されました。 これにより、イベント設定を、そのステータスと最後にイベントを受け取ったときの情報に基づいてフィルタリングできます。
 * パッケージの書き出し時に表示されるログは、エラーが発生した場合に発生したエラーに関する詳細を含む詳細な情報を提供しています。
 * メッセージを送信した後、 [追跡対象URLのリストを検索、フィルタリングおよび書き出せるようになりました](../../sending/using/tracking-messages.md)。
 * 起動とキャンペーン間の自動 [同期がGAになり](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow) 、デフォルトで有効になりました。
