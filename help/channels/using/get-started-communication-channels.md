@@ -1,6 +1,6 @@
 ---
 title: 通信チャネルの概要
-description: 様々なチャネルでパーソナライズされたメッセージを送信する方法と、チャネル間のキャンペーンを作成して受信者のターゲットを向上させる方法について説明します。
+description: 様々なチャネル（電子メール、プッシュ通知、inApp、SMS、ダイレクトメール）でパーソナライズされたメッセージを作成する方法を説明します。 テンプレートの使用方法やランディングページの作成方法、配信のベストプラクティスの確認方法について説明します。
 page-status-flag: never-activated
 uuid: 5d61d8df-8256-4f28-8dd3-e791891e312f
 contentOwner: sauviat
@@ -12,9 +12,9 @@ discoiquuid: 5214becf-005b-42ac-97d2-2bce5ba2ecb5
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 67fbf66d8ad358ae5d2caaec5b90beb6304047e6
+source-git-commit: 1a7e6bf967cb1745ea357ad7ee054dc42397f6e2
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '532'
 ht-degree: 16%
 
 ---
