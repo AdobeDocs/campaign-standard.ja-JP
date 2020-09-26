@@ -1,6 +1,6 @@
 ---
 title: Adobe Campaignでのコンテンツのデザイン
-description: キャンペーンの電子メール・デザイナを使用して、ドラッグ・アンド・ドロップ・インターフェースを通じて、個々にカスタマイズされた魅力的な電子メールを作成できます。 空白のスレートから始めるか、既存のコンテンツフラグメントやテンプレートを活用して、すべての電子メールのすべてのコンテンツをデザインおよび調整します。
+description: キャンペーンの電子メールデザイナーを使用して、空白のスレートから始めるか、既存のコンテンツのフラグメントやテンプレートを活用して電子メールコンテンツを作成します。
 page-status-flag: never-activated
 uuid: 8f73407f-ab90-46bc-aeb6-bd87fcb0404c
 contentOwner: sauviat
@@ -12,9 +12,9 @@ discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 3859c91e4aa083d897c02769495113f62e071f3c
+source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
 workflow-type: tm+mt
-source-wordcount: '1162'
+source-wordcount: '1145'
 ht-degree: 4%
 
 ---
@@ -58,7 +58,7 @@ Adobe Campaignで電子メールを作成したら、その内容を定義する
 
 ![](assets/email_designer_overview.png)
 
-「 **パレット** (1)」で使用可能な要素から、構造コンポーネントとコンテンツフラグメントをメインの **ワークスペース** (2)にドラッグ&amp;ドロップします。 **Workspace** (2)でコンポーネントまたは要素を選択し、 **Settings** (3)ウィンドウから主なスタイルおよび表示特性をカスタマイズします。
+「 **パレット** (1)」で使用可能な要素から、構造コンポーネントとコンテンツフラグメントをメインの **ワークスペース** (2)にドラッグ&amp;ドロップします。 **Workspace** (2)でコンポーネントまたは要素を選択し、 **** 設定ペイン(3)から主なスタイルおよび表示特性をカスタマイズします。
 
 メイン **ツールバー** (4)から、より一般的なオプションや設定にアクセスできます。
 
