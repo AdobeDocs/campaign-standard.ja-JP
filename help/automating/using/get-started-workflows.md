@@ -1,6 +1,6 @@
 ---
 title: プロセスとデータ管理の概要
-description: Adobe Campaignのワークフロー機能を活用し、強力な包括的なグラフィカル環境を通じてプロセスを自動化します。 データの読み込み、オーディエンスの管理、メッセージの送信、データ管理サイクルの実装、技術プロセスの自動化などの方法について説明します。
+description: ワークフローによるプロセスの自動化、データの読み込み、オーディエンスの管理、メッセージの送信、データ管理サイクルの実装、技術プロセスの自動化などが可能です。
 page-status-flag: never-activated
 uuid: 7c1e8cea-90d0-491f-ab8f-6cd69f8a6c3b
 contentOwner: sauviat
@@ -12,9 +12,9 @@ discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1a7e6bf967cb1745ea357ad7ee054dc42397f6e2
+source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '526'
 ht-degree: 9%
 
 ---
