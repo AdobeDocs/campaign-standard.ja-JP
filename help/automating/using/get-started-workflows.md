@@ -1,6 +1,6 @@
 ---
 title: プロセスとデータ管理の概要
-description: ワークフローによるプロセスの自動化、データの読み込み、オーディエンスの管理、メッセージの送信、データ管理サイクルの実装、技術プロセスの自動化などが可能です。
+description: ワークフローを使用してプロセスを自動化し、データとオーディエンスを管理し、メッセージを送信するなど、様々な機能を備えています。
 page-status-flag: never-activated
 uuid: 7c1e8cea-90d0-491f-ab8f-6cd69f8a6c3b
 contentOwner: sauviat
@@ -12,9 +12,9 @@ discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
+source-git-commit: 5636b2ab5a673b0a52158b1a5411e090e4b45ca7
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '519'
 ht-degree: 9%
 
 ---
