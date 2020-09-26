@@ -1,6 +1,6 @@
 ---
 title: Campaign 統合の概要
-description: Adobe Campaignの高度なキャンペーン管理機能と、Adobe Analytics、Experience Manager、ターゲット、Dreamweaverなどのユーザーエクスペリエンスをパーソナライズするために作成された一連のソリューションを組み合わせる方法を説明します。
+description: 他のAdobeソリューションを使用して、キャンペーンとさまざまな機能を組み合わせます。
 page-status-flag: never-activated
 uuid: 59d7cd99-a6f7-47f1-9b5c-c50e27a2bef8
 contentOwner: sauviat
@@ -12,10 +12,10 @@ discoiquuid: 9633e9ca-3323-499b-8259-45165d59a4d0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1a7e6bf967cb1745ea357ad7ee054dc42397f6e2
+source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 21%
+source-wordcount: '632'
+ht-degree: 22%
 
 ---
 
