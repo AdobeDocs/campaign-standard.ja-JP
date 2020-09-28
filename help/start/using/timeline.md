@@ -12,11 +12,11 @@ discoiquuid: 53e3db10-5fed-4fc3-b41e-5226f1e05246
 context-tags: campaignCalendar,main
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
-workflow-type: ht
-source-wordcount: '380'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: b6d6d0449638ff7c0513180079ccc56b9676f637
+workflow-type: tm+mt
+source-wordcount: '372'
+ht-degree: 91%
 
 ---
 
@@ -35,7 +35,10 @@ ht-degree: 100%
 
 青い縦線は、現在の日付をハイライト表示する時系列マーカーです。デフォルトでは、画面の中央に置かれます。画面上で左右にスクロールすると、表示期間を変更することができます。
 
-![](assets/timeline_zoom_in.png) ボタンと ![](assets/timeline_zoom_out.png) ボタンを使用すると、境界を広げたり、狭めたりすることができます。![](assets/timeline_zoom_in.png) ボタンは、期間を限定しながら、日にち単位が表示されるまで詳細レベルを上げます。一方、![](assets/timeline_zoom_out.png) ボタンではより長い期間を表示することができます。
+アイコンは次の目的に使用します。
+
+* ![](assets/timeline_zoom_in.png) 日が表示されるまで、枠を狭くするか、より限定的な期間の詳細レベルを高くします。
+* ![](assets/timeline_zoom_out.png) 周長を長くするか、より大きな時間枠を表示する
 
 各プログラム名の右にある矢印をクリックして、対応するコンテンツを表示します。プログラムには、サブプログラム、キャンペーン、ランディングページを含めることができます。キャンペーンは、プログラムと同じ方法でデプロイされ、内部に E メール、SMS、ランディングページを組み込むことができます。
 
@@ -49,12 +52,12 @@ ht-degree: 100%
 
 各要素には、それぞれのタイプに対応するアイコンがあります。
 
-* ![](assets/timeline_program_icon.png)：プログラム
-* ![](assets/timeline_campaign_icon.png)：キャンペーン
-* ![](assets/timeline_lp_icon.png)：ランディングページ
-* ![](assets/timeline_email_icon.png)：E メール
-* ![](assets/timeline_sms_icon.png)：SMS
-* ![](assets/timeline_push_icon.png)：プッシュ通知
+* ![](assets/timeline_program_icon.png) プログラム
+* ![](assets/timeline_campaign_icon.png) キャンペーン
+* ![](assets/timeline_lp_icon.png) ランディングページ
+* ![](assets/timeline_email_icon.png) E メール
+* ![](assets/timeline_sms_icon.png) SMS
+* ![](assets/timeline_push_icon.png) プッシュ通知
 
 各ボックスの左の境界線にある色付きの線は、関連する要素のステータスを示しています。
 
