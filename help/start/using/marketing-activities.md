@@ -13,10 +13,10 @@ context-tags: activity,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e4ba42c5bf0dd952690178b7d5070100c7ddf13d
+source-git-commit: b6d6d0449638ff7c0513180079ccc56b9676f637
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 99%
+source-wordcount: '487'
+ht-degree: 83%
 
 ---
 
@@ -47,14 +47,14 @@ ht-degree: 99%
 
 メインゾーンでは、リスト内のアクティビティの各タイプにアイコンが表示されます。
 
-* ![](assets/marketing_program_icon.png)：プログラム
-* ![](assets/marketing_campaign_icon.png)：キャンペーン
-* ![](assets/marketing_email_icon.png)：E メール
-* ![](assets/marketing_sms_icon.png)：SMS
-* ![](assets/marketing_push_icon.png)：プッシュ通知
-* ![](assets/marketing_lp_icon.png)：アプリ内メッセージ
-* ![](assets/marketing_lp_icon.png)：ランディングページ
-* ![](assets/marketing_workflow_icon.png)：ワークフロー
+* ![](assets/marketing_program_icon.png) プログラム
+* ![](assets/marketing_campaign_icon.png) キャンペーン
+* ![](assets/marketing_email_icon.png) E メール
+* ![](assets/marketing_sms_icon.png) SMS
+* ![](assets/marketing_push_icon.png) プッシュ通知
+* ![](assets/marketing_lp_icon.png) アプリ内メッセージ
+* ![](assets/marketing_lp_icon.png) ランディングページ
+* ![](assets/marketing_workflow_icon.png) ワークフロー
 
 有効期間とステータスに応じて、このアイコンに関連付けられる色が、対応するアクティビティの実行ステータスを示します。
 
@@ -86,16 +86,16 @@ ht-degree: 99%
 
 コンテキストに応じて、以下をおこなうことができます。
 
-* [E メールの作成](../../channels/using/creating-an-email.md)
-* [SMS の作成](../../channels/using/creating-an-sms-message.md)
-* [プッシュ通知の作成](../../channels/using/preparing-and-sending-a-push-notification.md)
-* [アプリ内メッセージの作成](../../channels/using/about-in-app-messaging.md)
-* [ワークフローの作成](../../automating/using/building-a-workflow.md#creating-a-workflow)
-* [ランディングページの作成](../../channels/using/getting-started-with-landing-pages.md)
-* [キャンペーンの作成](../../start/using/programs-and-campaigns.md#creating-a-campaign)
-* [プログラムの作成](../../start/using/programs-and-campaigns.md#creating-a-program)
+* 電子メールの作成 — [詳細](../../channels/using/creating-an-email.md)
+* SMSの作成 — [詳細](../../channels/using/creating-an-sms-message.md)
+* プッシュ通知の作成 — [詳細](../../channels/using/preparing-and-sending-a-push-notification.md)
+* アプリ内メッセージの作成 — [詳細](../../channels/using/about-in-app-messaging.md)
+* ワークフローの作成 — [詳細](../../automating/using/building-a-workflow.md#creating-a-workflow)
+* ランディングページの作成 — [詳細](../../channels/using/getting-started-with-landing-pages.md)
+* キャンペーンの作成 — [詳細](../../start/using/programs-and-campaigns.md#creating-a-campaign)
+* プログラムの作成 — [詳細](../../start/using/programs-and-campaigns.md#creating-a-program)
 
 >[!NOTE]
 >
->また、マーケティングアクティビティリストからマーケティングアクティビティを作成することもできます。この場合、任意のタイプのアクティビティを作成できます。アクティビティのプロパティを通じて、マーケティングアクティビティを親キャンペーン（またはプログラムを作成する場合は親プログラム）にリンクするように選択できます。
+>また、マーケティングアクティビティリストからマーケティングアクティビティを作成することもできます。この場合、任意のタイプのアクティビティを作成し、アクティビティのプロパティを介してマーケティングアクティビティを親キャンペーン(プログラムを作成する場合は親プログラム)にリンクさせることができます。
 
