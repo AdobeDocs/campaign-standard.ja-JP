@@ -12,10 +12,10 @@ discoiquuid: 27de5a13-7b7c-4c91-bf26-3dfd324beb8f
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 87e0611fae0560aca276caa3c4cf793e9c095d72
+source-git-commit: b6d6d0449638ff7c0513180079ccc56b9676f637
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 80%
+source-wordcount: '222'
+ht-degree: 53%
 
 ---
 
@@ -34,8 +34,18 @@ Adobe Campaign では、一連の&#x200B;**サービス**&#x200B;を通じて、
 
 サブスクリプションは、Adobe Campaign Standard API を使用して管理することもできます。詳しくは、[該当するドキュメント](../../api/using/creating-a-service.md)を参照してください。
 
-**関連トピック**
+## 購読の設定と管理の主な手順
+
+次の手順に従って、購読メカニズムを作成します。
+
+1. **サービスの作成** -購読サービスを作成するに [は、この節](../../audiences/using/creating-a-service.md) で説明する手順に従います。
+1. **リンクを共有** — このページでサービスをプロモーションおよび共有する方法 [を説明します。](../../audiences/using/promoting-a-service.md)
+1. **購読の監視** — この節では、サービスへの購読を監視する方法をいくつか [見つけます。](../../audiences/using/monitoring-subscriptions.md)
+1. **購読の確認** - [このチュートリアルに従って](../../audiences/using/confirming-subscription-to-a-service.md) 、購読確認メッセージを送信します。
+
+## その他のリソース
 
 * [使用例：サービスの購読者の増分処理クエリ](../../automating/using/incremental-query-on-subscribers.md)
 * [使用例：ファイルからの複数の購読ステータスの更新](../../automating/using/updating-subscriptions-from-file.md)
 * [ファイルの読み込み後に特定のサービスにプロファイルを登録する](../../automating/using/subscribing-profiles-from-file.md)
+* [キャンペーンでのオプトインとオプトアウト](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
