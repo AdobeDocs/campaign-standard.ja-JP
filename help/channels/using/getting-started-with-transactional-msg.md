@@ -13,10 +13,10 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
+source-git-commit: b6d6d0449638ff7c0513180079ccc56b9676f637
 workflow-type: tm+mt
 source-wordcount: '814'
-ht-degree: 25%
+ht-degree: 27%
 
 ---
 
@@ -25,14 +25,14 @@ ht-degree: 25%
 
 ## 概要
 
-<table>
-<tr>
-<td align="center"><img src="assets/do-not-localize/icon_transactional.svg" width="60px"><br><p>トランザクションメッセージの概念の <b>概要</b></p></td>
-<td ><br><p>トランザクションメッセージングを使用すると、個別のメッセージや個別のメッセージを <b></b> 、顧客にリアルタイムで送信できます。</p></td>
-<td>ウェルカムメッセージ、発送確認書、パスワードの変更などがあります。</td>
-<td>Adobe Campaignを使用すると、この機能を、カスタムトランザクションメッセージに変換するイベントを送信する情報システムに統合できます。</td>
-</tr>
-</table>
+<img src="assets/do-not-localize/icon_transactional.svg" width="60px">
+
+トランザクションメッセージの概念の **概要**
+
+トランザクションメッセージングを使用すると、個別のメッセージを顧客にリアルタイムで送信できます。
+
+ウェルカムメッセージ、発送確認、パスワードの更新などがあります。
+Adobe Campaignを使用すると、この機能を、カスタムトランザクションメッセージに変換するイベントを送信する情報システムに統合できます。
 
 トランザクションメッセージは、オプションに応じて、E メール、SMS、またはプッシュ通知で送信できます。使用許諾契約書を確認してください。
 
@@ -73,16 +73,30 @@ Adobe Campaignは、他の配信よりも処理トランザクションメッセ
 
 Adobe Campaign では、2 つのトランザクションメッセージを使用できます。
 
-<table>
-<tr>
-<td align="center"><img src="assets/do-not-localize/icon_event.svg" width="60px"><br><p><a href="../../channels/using/event-transactional-messages.md">イベントトランザクション</a><br>メッセージのターゲット設定と <b>イベント</b></p></td>
-<td><p><ul><li>イベントトランザクションメッセージにはプロファイル情報が含まれません。</li><li>これらは <a href="../../sending/using/fatigue-rules.md">疲労ルールとは互換性がありません</a> (プロファイルとのエンリッチメントの場合でも)。</li><li>配信ターゲットは、イベント自体に含まれるデータによって定義されます。</li></ul></p></td>
-</tr>
-<tr>
-<td align="center"><img src="assets/do-not-localize/icon_profile.svg" width="60px"><br><p><a href="../../channels/using/profile-transactional-messages.md">プロファイルマーケティングデータベースからのAdobe Campaignトランザクション</a><br>メッセージターゲット <b>プロファイル</b></p></td>
-<td><p>プロファイルトランザクションメッセージを使用すると、次のことができます。<ul><li>Apply marketing <a href="../../sending/using/managing-typology-rules.md">typology rules</a> or <a href="../../sending/using/fatigue-rules.md">fatigue rules</a>.</li><li>メッセージ内に購読解除リンクを含める。</li><li>グローバル配信レポートにトランザクションメッセージを追加する。</li><li>カスタマージャーニーでトランザクションメッセージを活用する。</li></ul></p></td>
-</tr>
-</table>
+<img src="assets/do-not-localize/icon_event.svg" width="60px">
+
+イベントをターゲットとする[イベントトランザクションメッセージ](../../channels/using/event-transactional-messages.md)。
+
+* イベントトランザクションメッセージにはプロファイル情報が含まれません。
+
+* これらは [疲労ルールとは互換性がありません](../../sending/using/fatigue-rules.md) (プロファイルとのエンリッチメントの場合でも)。
+
+* 配信ターゲットは、イベント自体に含まれるデータによって定義されます。
+
+
+<img src="assets/do-not-localize/icon_profile.svg" width="60px">
+
+ Campaign マーケティングデータベースのプロファイルをターゲットとする[プロファイルトランザクションメッセージ](../../channels/using/profile-transactional-messages.md)。
+
+プロファイルトランザクションメッセージを使用すると、次のことができます。
+
+* Apply [marketing typology rules](../../sending/using/managing-typology-rules.md) or [fatigue rules](../../sending/using/fatigue-rules.md)
+
+* メッセージ内に購読解除リンクを含める。
+
+* グローバル配信レポートにトランザクションメッセージを追加する。
+
+* カスタマージャーニーでトランザクションメッセージを活用する。
 
 メッセージタイプは、トランザクションメッセージに変換されるイベントを設定する際に定義されます。[トランザクションメッセージの設定](../../administration/using/configuring-transactional-messaging.md)を参照してください。
 
@@ -100,53 +114,57 @@ Adobe Campaign を使用すると、買い物かごに商品を追加したサ�
 
 ### 手順1 -イベント設定を作成して公開する {#create-event-configuration}
 
-<table>
-<tr>
-<td align="center"><img src="assets/do-not-localize/icon_config.svg" width="60px"><br><p><b>トランザクションイベントの設定</b></p></td>
-<td><br><p>「買い物かごの放棄」という名前のイベントを設定し、このイベント設定を公開します。</p></td>
-<td>Webサイト開発者が使用するAPIがデプロイされ、トランザクションメッセージが自動的に作成されます。</td>
-<td>この手順は、 <a href="../../administration/using/users-management.md#functional-administrators">管理権限を持つユーザーが実行する必要があります</a>。</td>
-</tr>
-</table>
+<img src="assets/do-not-localize/icon_config.svg" width="60px">
+
+**トランザクションイベント設定**:
+
+* 「買い物かごの放棄」という名前のイベントを設定し、このイベント設定を公開します。
+
+* Webサイト開発者が使用するAPIがデプロイされ、トランザクションメッセージが自動的に作成されます。
+
+* この手順は、 [管理権限を持つユーザーが実行する必要があります](../../administration/using/users-management.md#functional-administrators)。
 
 イベントの作成と公開については、[イベントトランザクションメッセージを送信するためのイベントの設定](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message)の節を参照してください。
 
 ### 手順2 -トランザクションメッセージを編集して公開する {#create-transactional-message}
 
-<table>
-<tr>
-<td align="center"><img src="assets/do-not-localize/icon_notification.svg" width="40px"><br><p><b>トランザクションメッセージ版</b></p></td>
-<td><br><p>トランザクションメッセージを編集してパーソナライズし、テストして公開します。</p></td>
-<td>トランザクションメッセージを送信する準備が整います。</td>
-<td>この手順は、 <a href="../../administration/using/users-management.md#basic-users">基本アクセス権を持つ任意のマーケティングユーザーが実行できます</a>。
-</tr>
-</table>
+<img src="assets/do-not-localize/icon_notification.svg" width="40px">
+
+**トランザクションメッセージ版**
+
+* トランザクションメッセージを編集してパーソナライズし、テストして公開します。
+
+* トランザクションメッセージを送信する準備が整います。
+
+* この手順は、 [標準的なユーザーアクセス権限を持つ任意のマーケティングユーザーが実行できます](../../administration/using/users-management.md#basic-users)。
 
 For more on editing and publishing a transactional message, see [Event transactional messages](../../channels/using/event-transactional-messages.md).
 
 ### 手順3 -イベントトリガーを統合する {#integrate-event-trigger}
 
-<table>
-<tr>
-<td align="center"><img src="assets/do-not-localize/icon_api.svg" width="55px"><br><p><b>イベントトリガー統合</b></p></td>
-<td><br><p>RESTトランザクションメッセージAPIを使用して、イベントをWebサイトに統合します。</p></td>
-<td>イベントは、クライアントが買い物かごを放棄した場合にトリガーされます。</td>
-<td>この手順は、Webサイトの開発者が実行します。
-</tr>
-</table>
+<img src="assets/do-not-localize/icon_api.svg" width="55px">
+
+**イベントトリガー統合**
+
+* RESTトランザクションメッセージAPIを使用して、イベントをWebサイトに統合します。&lt;
+
+* イベントは、クライアントが買い物かごを放棄した場合にトリガーされます。
+
+* この手順は、Webサイトの開発者が実行します。
 
 イベントをWebサイトに統合する方法について詳しくは、 [サイト統合を参照してください](../../administration/using/configuring-transactional-messaging.md#integrating-the-triggering-of-the-event-in-a-website)。
 
 ### 手順4 — メッセージ配信 {#message-delivery}
 
-<table>
-<tr>
-<td align="center"><img src="assets/do-not-localize/icon_channels.svg" width="60px"><br><p><b>Webサイトからの外部イベント</b></p></td>
-<td><br><p>これらの手順がすべて実行されると、メッセージを配信できます。</p></td>
-<td>ユーザーが買い物かごに商品を注文せずにサイトを離れるとすぐに、対応するキャンペーンイベントがトリガーされます。</td>
-<td>その後、ユーザーは通知電子メールを自動的に受信します。</td>
-</tr>
-</table>
+<img src="assets/do-not-localize/icon_channels.svg" width="60px">
+
+**Webサイトからの外部イベント**
+
+* これらの手順がすべて実行されると、メッセージを配信できます。
+
+* ユーザーが買い物かごに商品を注文せずにサイトを離れるとすぐに、対応するキャンペーンイベントがトリガーされます。
+
+* その後、ユーザーは通知電子メールを自動的に受信します。
 
 ## 主な手順 {#key-steps}
 
@@ -154,7 +172,7 @@ Adobe Campaignでパーソナライズされたトランザクションメッセ
 
 ![](assets/message-center-overview.png)
 
-**関連トピック：**
+## 関連トピック
 
 * [メッセージを送信するための主要な手順](../../channels/using/key-steps-to-send-a-message.md)
 * [通信チャネルの概要](../../channels/using/get-started-communication-channels.md)
