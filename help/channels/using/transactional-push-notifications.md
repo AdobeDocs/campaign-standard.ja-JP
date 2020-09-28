@@ -12,7 +12,7 @@ discoiquuid: e645d4b9-001f-47d9-8a0f-b4696c75c5d3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+source-git-commit: b6d6d0449638ff7c0513180079ccc56b9676f637
 workflow-type: tm+mt
 source-wordcount: '740'
 ht-degree: 13%
@@ -72,6 +72,7 @@ The configuration steps are presented in the [Configuring an event to send a tra
    プッシュ通知の内容の編集について詳しくは、プッシュ通知の [作成を参照してください](../../channels/using/preparing-and-sending-a-push-notification.md)。
 
 1. 変更を保存し、メッセージを公開します。[トランザクションメッセージの公開](../../channels/using/event-transactional-messages.md#publishing-a-transactional-message)を参照してください。
+
 1. Adobe Campaign StandardREST APIを使用して、搭載データを含むAndroid(gcm)上のモバイルアプリケーション(WeFlight)を使用して、イベントを登録トークン(ABCDEF123456789)に送信します。
 
    ```
@@ -114,13 +115,9 @@ The configuration steps are presented in the [Configuring an event to send a tra
 
 1. 作成したトランザクションメッセージに移動して編集します。[イベントトランザクションメッセージ](../../channels/using/event-transactional-messages.md)を参照してください。
 
-   <!--![](assets/message-center_push_message_profile.png)-->
-
 1. Click the **[!UICONTROL Content]** block to modify your message&#39;s title and body.
 
    リアルタイムイベントに基づく設定とは異なり、すべてのプロファイル情報に直接アクセスして、メッセージをパーソナライズできます。 [パーソナライゼーションフィールドの挿入](../../designing/using/personalization.md#inserting-a-personalization-field)を参照してください。
-
-   <!--![](assets/message-center_push_content_profile.png)-->
 
    プッシュ通知コンテンツの編集に関する詳細。 プッシュ通知の [作成を参照してください](../../channels/using/preparing-and-sending-a-push-notification.md)。
 
@@ -142,4 +139,3 @@ The configuration steps are presented in the [Configuring an event to send a tra
    >[!NOTE]
    >
    >登録トークン、アプリケーション、プッシュプラットフォームのフィールドはありません。 この例では、電子メールフィールドを使用して調整が実行されます。
-
