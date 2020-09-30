@@ -12,10 +12,10 @@ discoiquuid: 20800cde-50ad-4d2b-a2f9-812258bec665
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5636b2ab5a673b0a52158b1a5411e090e4b45ca7
+source-git-commit: 97760e8b5fe0eb4905dcae69e8bbbefa837a461f
 workflow-type: tm+mt
-source-wordcount: '1138'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -154,6 +154,8 @@ Adobeでは、CSSの衝突の問題などの問題を回避するために、コ
 
 * スタイルを編集する場合、ほとんどの電子メールクライアントで正式にサポートされているWebフォントのみが使用できます。
 * スタイルは、後で再利用するためにテーマとして保存することはできません。 ただし、CSSスタイルは、コンテンツテンプレートまたは電子メールに保存できます。 For more on styles, see [this section](../../designing/using/styles.md).
+* 転送者のmetaタグは電子メールデザイナーではサポートされていません。
+* サロゲートペア（Unicode文字セットの基本多言語面に含まれない文字）は、2バイト（16ビット）で格納できず、2つのUTF-16文字にエンコードする必要があります。 これらの文字には、CJKイデオグラフ、ほとんどの絵文字、一部の言語が含まれます。<br>これらの文字は、動的テキストで非互換性の問題の原因となる場合があります。 メッセージを送信する前に、強力なテストを実行する必要があります。
 
 **関連トピック**
 
