@@ -12,7 +12,7 @@ discoiquuid: 9633e9ca-3323-499b-8259-45165d59a4d0
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
+source-git-commit: d425e4b96604133fbdfc66fde38e4ca5c84baccd
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 22%
@@ -54,21 +54,21 @@ ht-degree: 22%
    <td> Experience Manager<br /> 6.1, 6.2, 6.3, 6.4, 6.5<br /> </td> 
    <td> E メールコンテンツや Adobe Campaign データベースにマッピングされたフォームを Adobe Experience Manager で直接作成することができます。<br /> </td> 
    <td> 
-     <a href="../../integrating/using/integrating-with-experience-manager.md">キャンペーンとExperience Managerの操作</a><br/>、 <a href="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/campaignstandard.html">Experience ManagerとCampaign Standardの</a> 統合 <br/>、Experience Managerとキャンペーンを含む電子メールの <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_AEM.html">作成</a> 
+     <a href="../../integrating/using/integrating-with-experience-manager.md">キャンペーンとExperience Managerの操作</a>、 <a href="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/campaignstandard.html">Experience ManagerとCampaign Standardの</a>統合 <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_AEM.html">、Experience Managerとキャンペーンを含む電子メールの作成</a> 
     </td> 
   </tr> 
   <tr> 
    <td> ターゲット<br /> クラシック、標準<br /> </td> 
    <td> Allows you to insert images that are dynamically computed by Adobe Target when an email created and sent by Adobe Campaign is opened.<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-campaign-target-integration.md">キャンペーンとターゲットの使用</a> 、キャンペーンとターゲットの <br/>統合 <a href="https://docs.adobe.com/content/help/en/target/using/integrate/campaign-and-target.html">、リアルタイムビデオでの電子メール画像のパーソナライズ</a><br/><a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html"></a> （手順3）
+    <a href="../../integrating/using/about-campaign-target-integration.md">キャンペーンとターゲットの使用</a>、キャンペーンとターゲットの <a href="https://docs.adobe.com/content/help/en/target/using/integrate/campaign-and-target.html">統合</a>、Personalize Email Images in Real-Time <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html"></a> video（手順3）
     </td> 
   </tr> 
   <tr> 
    <td> Analytics<br /> Standard, Premium <br /> </td> 
    <td> 電子メール配信の成功をAdobe Analyticsで直接追跡できます。<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-campaign-analytics-integration.md">Analyticsとキャンペーンデータを共有</a><br/>、統合キャンペーンレポートビデオの <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">KPIを</a> 共有（手順1）
+    <a href="../../integrating/using/about-campaign-analytics-integration.md">Analyticsとキャンペーンデータを共有</a>、統合キャンペーンレポートビデオの <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">KPIを</a> 共有（手順1）
     </td> 
   </tr> 
   <tr> 
@@ -90,14 +90,14 @@ ht-degree: 22%
    <td> Experience Cloud Triggers<br /> </td> 
    <td> Adobe AnalyticsによってWebサイト上で追跡される特定の行動に対する反応として、Adobe Campaignで顧客にパーソナライズした電子メールを送信できます。<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-adobe-experience-cloud-triggers.md">Campaign StandardでのExperience Cloudトリガーの使用</a><br/>、 <a href="../../integrating/using/abandonment-triggers-use-cases.md">放棄トリガー —キャンペーンの使用例</a><br/>、サイトアクティビティビデオに基づくリマーケティングメッセージの <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html"></a> トリガー（手順2）
+    <a href="../../integrating/using/about-adobe-experience-cloud-triggers.md">Campaign StandardでのExperience Cloudトリガーの使用</a>、 <a href="../../integrating/using/abandonment-triggers-use-cases.md">放棄トリガー —キャンペーンの使用例</a>、サイトアクティビティビデオに基づくリマーケティングメッセージの <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html"></a> トリガー（手順2）
     </td> 
   </tr> 
   <tr> 
    <td> Dreamweaver<br /> </td> 
    <td> Dreamweaverからの電子メールコンテンツを編集し、Adobe Campaignと同期できます。<br /> </td> 
    <td> 
-    <a href="https://docs.adobe.com/content/help/ja-JP/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.translate.html">Dreamweaver</a> ・ビデオ <br/>、Dreamweaver用キャンペーン拡張機能の <a href="https://helpx.adobe.com/jp/dreamweaver/using/working-with-dreamweaver-and-campaign.html">使用</a> 
+    <a href="https://docs.adobe.com/content/help/ja-JP/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.translate.html">Dreamweaver</a> ・ビデオを使用したパーソナライズされた電子メールの作成、Dreamweaver向けキャンペーン拡張の <a href="https://helpx.adobe.com/jp/dreamweaver/using/working-with-dreamweaver-and-campaign.html">使用</a> 
   </td> 
   </tr> 
   <tr> 
