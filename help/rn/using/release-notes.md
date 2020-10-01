@@ -12,10 +12,10 @@ discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 97760e8b5fe0eb4905dcae69e8bbbefa837a461f
+source-git-commit: 7168162baa26c960475d8c9c613989d0338f95c2
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2387'
+ht-degree: 4%
 
 ---
 
@@ -89,7 +89,6 @@ ht-degree: 0%
 * **ワークフロー実行の改善** （ベータ版）:ワークフローに関するグローバルイニシアチブの観点から、メモリ管理の安定化、遅延の削減、実行時のワークフローの消費メモリの最適化を目的として、いくつかの大きな改善が進められています。 これらの改善点は現在ベータ版であり、お客様一式のみご利用いただけます。 2021年の初めには一般公開が予定されています。
 * セキュリティを強化するために、キャンペーンでは、電子メール内のリンクの追跡に **署名メカニズム** が使用されるようになりました。
 * iOS証明書またはAndroidキーをアップロードする際のエラーメッセージが **明確になるので** 、モバイルアプリの設定が改善されました。
-* トランザクションプッシュメッセージのターゲットプロファイルで **新しい配信マッピング** (mapRtEventAppSubRcp)を使用できるようになりました。 これらの配信の配信、除外およびトラッキングログは、broadLogAppSubRcp、excludeLogAppSubRcpおよびtrackingLogAppSubRcpの各テーブルで使用できるようになりました。 これにより、 **プロファイル** ターゲットディメンションを使用してトランザクションプッシュメッセージを送信する際に、配信分析が失敗する問題を解決しました。
 * **SMSエラー管理** が改善され、強制隔離リストに追加できるプロファイル数が多くなりすぎないようになりました。 既定では、SMSエラーは、ハードエラーではなくソフトエラーとして構成されるようになりました。 [このページ](https://helpx.adobe.com/jp/campaign/kb/sms-connector-protocol-and-settings.html)を参照してください。
 
 **E メールデザイナーの機能強化**
