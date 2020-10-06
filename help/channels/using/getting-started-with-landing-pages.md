@@ -13,7 +13,7 @@ context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c300f50ce83d67be7c8a16f857eb46fb1ce89166
+source-git-commit: 32f3b8ac0108bbce10e443c39f1f766ddf97db84
 workflow-type: tm+mt
 source-wordcount: '1006'
 ht-degree: 99%
@@ -95,9 +95,9 @@ ht-degree: 99%
 
    ![](assets/lp-steps3.png)
 
-   >[!NOTE]
-   >
-   >変更は、編集中のランディングページに対してのみ有効です。これらの変更を他のランディングページに適用する場合は、該当するテンプレートを変更し、そのテンプレートから他のランディングページを作成できます。
+>[!NOTE]
+>
+>変更は、編集中のランディングページに対してのみ有効です。これらの変更を他のランディングページに適用する場合は、該当するテンプレートを変更し、そのテンプレートから他のランディングページを作成できます。
 
 ## 手順 3 - ランディングページのデザイン {#design-the-landing-page}
 
