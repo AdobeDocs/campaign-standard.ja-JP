@@ -15,7 +15,7 @@ translation-type: tm+mt
 source-git-commit: 8d55a92deeccabcb6970de6cce4b5e297bc431d8
 workflow-type: tm+mt
 source-wordcount: '6247'
-ht-degree: 92%
+ht-degree: 98%
 
 ---
 
@@ -28,17 +28,17 @@ ht-degree: 92%
 
 **リリースに含まれる新機能**
 
-Control groups - [Read More](../../sending/using/control-group.md)
+コントロール母集団 - [詳細を表示](../../sending/using/control-group.md)
 
-外部API （OAuthのサポート） - [詳細情報](../../automating/using/external-api.md)
+外部 API（OAuth のサポート）- [詳細を表示](../../automating/using/external-api.md)
 
-Jarney AIとの連携 — [詳細情報](../../sending/using/predictive.md)
+ジャーニー AI との統合 - [詳細を表示](../../sending/using/predictive.md)
 
 **リリースに伴うその他のドキュメントのアップデート**
 
-外部パラメータを使用したワークフローの呼び出し方法に関するセクションは、式エディタで利用できる新しい関数で強化されました。 [詳細を表示](../../automating/using/customizing-workflow-external-parameters.md)
+外部パラメーターを使用したワークフローの呼び出し方法に関する節に、式エディターで利用できる新しい関数が追加されました。[詳細を表示](../../automating/using/customizing-workflow-external-parameters.md)
 
-ワークフローごとに使用するアクティビティ数に関するワークフローのベストプラクティスにレコメンデーションが追加されました。 [詳細を表示](../../automating/using/best-practices-workflows.md#number-activities)
+ワークフローのベストプラクティスに、1 つのワークフローで使用するアクティビティ数に関する推奨事項が追加されました。[詳細を表示](../../automating/using/best-practices-workflows.md#number-activities)
 
 配信のベストプラクティスに関する新しい節を追加しました。 [詳細を表示](../../sending/using/delivery-best-practices.md)
 
@@ -46,49 +46,49 @@ Jarney AIとの連携 — [詳細情報](../../sending/using/predictive.md)
 
 ## ドキュメントのアップデート - 2020 年 9 月 {#doc-updates-september-2020}
 
-「イベントトランザクションメッセージ」節の内容が整理され、明確になりました。 [詳細を表示](../../channels/using/event-transactional-messages.md)
+イベントトランザクションメッセージの節が改訂され、明確になりました。[詳細を表示](../../channels/using/event-transactional-messages.md)
 
-ログアクセスに関連する権限制限についてユーザーに警告するための注意事項が追加されました。 [詳細を表示](../../administration/using/users-management.md)
+ログのアクセスに関連する権限制限についてユーザーに警告するための注意事項が追加されました。[詳細を表示](../../administration/using/users-management.md)
 
-新しいブランドを作成するプロセスの詳細を説明する新しい節が追加されました。 [詳細を表示](../../administration/using/branding.md#creating-a-brand)
+新しいブランドを作成するプロセスに関する新しい節が追加されました。[詳細を表示](../../administration/using/branding.md#creating-a-brand)
 
-新しいCampaign Standard- Microsoft Dynamics 365統合が利用できるようになりました。 [詳細を表示](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+Campaign Standard と Microsoft Dynamics 365 の統合を新たに利用できるようになりました。[詳細を表示](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
-アクティブなプロファイルレポートの匿名ソースに情報が追加されました。 [詳細を表示](../../audiences/using/active-profiles.md)
+アクティブなプロファイルレポートの匿名ソースに関する情報が追加されました。[詳細を表示](../../audiences/using/active-profiles.md)
 
 ## ドキュメントのアップデート - 2020 年 8 月 {#doc-updates-august-2020}
 
-トランザクションメッセージの使い始めに関する新しい更新セクションが提供されます。 [詳細を表示](../../channels/using/getting-started-with-transactional-msg.md)
+トランザクションメッセージの概要に関する節が更新されました。[詳細を表示](../../channels/using/getting-started-with-transactional-msg.md)
 
-「 **トランザクションメッセージの制限** 」の節は、 [ここに移動しました。](../../channels/using/transactional-messaging-limitations.md)
+**トランザクションメッセージの制限**&#x200B;の節が、[こちら](../../channels/using/transactional-messaging-limitations.md)に移動しました。
 
-「送信 **の準備中** 」セクションは [ここに移動しました](../../sending/using/preparing-the-send.md)
+**送信の準備**&#x200B;の節が、[こちら](../../sending/using/preparing-the-send.md)に移動しました。
 
 ## ドキュメントのアップデート - 2020 年 7 月 {#doc-updates-july-2020}
 
-Campaign Standardの監視に関するガイドラインを含む新しい節を追加しました。 [詳細を表示](../../administration/using/monitoring-guidelines.md)
+Campaign Standard の監視に関するガイドラインを含む新しい節が追加されました。[詳細を表示](../../administration/using/monitoring-guidelines.md)
 
-外部APIガードレールと制限の節が更新されました。 [詳細を表示](../../automating/using/external-api.md#guardrails)
+外部 API ガードレールと制限の節が更新されました。[詳細を表示](../../automating/using/external-api.md#guardrails)
 
 「プライバシー管理の概要」ページが更新され、タイの個人データ保護法（PDPA）とブラジルの Lei Geral de Proteção de Dados（LGPD）に関する情報が含まれるようになりました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
 
-『モバイルチャネル』ガイドは再編成され、改善されました。 モバイルチャネルの設定に関する新しいガイドと、モバイル設定に関する技術ドキュメントが追加されました。 [詳細を表示](../../administration/using/push-tracking.md)
+モバイルチャネルガイドが、構成を変更して改訂されました。新しいモバイルチャネルの設定ガイドと、モバイル設定に関するテクニカルドキュメントが追加されました。[詳細を表示](../../administration/using/push-tracking.md)
 
-Campaign Standardのプライバシー管理ページが更新されました。プライバシーコアサービスの統合を通じてプライバシー要求を管理する方法を明確にする必要があります。 [詳細を表示](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)
+Campaign Standard のプライバシー管理ページが更新され、プライバシーコアサービスの統合を通じてプライバシーリクエストを管理する方法が明確になりました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)
 
-AIを利用した新しい電子メール機能：時間の最適化とプロファイルスコアリングを送信します。 [詳細を表示](../../sending/using/predictive.md)
+AI を利用した新しい E メール機能（送信時間の最適化とプロファイルスコアリング）が導入されました。[詳細を表示](../../sending/using/predictive.md)
 
-## ドキュメントの更新 — 2020年6月 {#doc-updates-june-2020}
+## ドキュメントのアップデート - 2020 年 6 月 {#doc-updates-june-2020}
 
 ワークフローの使用例が更新され、主題の節に再構成されました。[詳細を表示](../../automating/using/about-workflow-use-cases.md)
 
 コントロールパネルと Campaign ワークフローを使用したデータの[暗号化](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt)および[](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt)復号化の方法に関する使用例が追加されました。
 
-従来のサポートWebサイトへの参照は、新しいURLに置き換えられました。 [詳細情報](https://helpx.adobe.com/campaign/kb/ac-support.html#acs-support-req)
+従来のサポート Web サイトへの参照は、新しい URL に置き換えられました。[詳細情報](https://helpx.adobe.com/jp/campaign/kb/ac-support.html#acs-support-req)
 
-インボックスレンダリング機能からカスタムLitmusアカウント構成が削除されました。 [詳細を表示](../../sending/using/email-rendering.md)
+インボックスレンダリング機能からカスタム Litmus アカウント設定が削除されました。[詳細を表示](../../sending/using/email-rendering.md)
 
-Campaign Standard- Microsoft Dynamics 365の統合は現在使用できません。 新しいコネクターが開発中で、今後利用できる予定です。 関連するヘルプページは削除されました。 [詳細を表示](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+Campaign Standard と Microsoft Dynamics 365 の統合は、現在使用できません。新しいコネクタが開発中で、今後利用できる予定です。関連するヘルプページは削除されました。[詳細を表示](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
 
 ## ドキュメントのアップデート - 2020 年 5 月 {#doc-updates-may-2020}
 
@@ -510,7 +510,7 @@ E メールデザイナーのモバイル表示- [詳細を表示](../../designi
 
 コンテンツのデザインガイドが更新され、E メールデザイナーの一般提供と、従来の E メールコンテンツエディターの廃止が反映されました。[詳細を表示](../../designing/using/designing-content-in-adobe-campaign.md)
 
-Updated the [In-App](../../channels/using/about-in-app-messaging.md) and [Push notification](../../channels/using/about-push-notifications.md) documentation.
+[アプリ内](../../channels/using/about-in-app-messaging.md)および[プッシュ通知](../../channels/using/about-push-notifications.md)に関するドキュメントを更新しました。
 
 Adobe Campaign の各種のオーディエンスに関する詳細を追加しました。[詳細を表示](../../audiences/using/about-audiences.md)
 
@@ -620,7 +620,7 @@ Administration メニューの「ライセンス」オプションに関する�
 
 「クエリ」アクティビティの節が更新され、クエリの例が追加されました。[詳細を表示](../../automating/using/query.md#query-samples)
 
-専用の節は、「オプトインおよびオプトアウトプロセスについて」という名称に変更されました。 特定のチャネルに対するオプトインの管理方法、およびオプトインとオプトアウトを管理するランディングページの設定方法に関する情報が更新されました。[詳細を表示](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+ブロックリストに関する節の名称を「オプトインおよびオプトアウトプロセスについて」に変更しました。特定のチャネルに対するオプトインの管理方法、およびオプトインとオプトアウトを管理するランディングページの設定方法に関する情報が更新されました。[詳細を表示](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 アドビがホストする SFTP サーバーを使用する際のベストプラクティスについて説明します。[詳細を表示](../../administration/using/external-accounts.md#sftp-external-account)
 
@@ -644,7 +644,7 @@ E メール用 Creative Designer - [詳細を表示](../../designing/using/desig
 
 GDPR API は、GDPR リクエストの自動処理を可能にする機能を再グループ化します。[詳細を表示](../../api/using/creating-a-privacy-request.md)
 
-受信者にランディングページを設定する方法に関する情報を追加しブロックリストました。 [詳細を表示](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
+受信者をブロックリストに登録できるようにランディングページを設定する方法に関する情報を追加しました。[詳細を表示](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
 
 [トランザクションメッセージの設定](../../administration/using/configuring-transactional-messaging.md)の節の構成が変更され、[ステップバイステップの使用例](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message)が追加されました。
 
@@ -698,7 +698,7 @@ SMS 自動返信に関するステップバイステップの使用例を追加�
 
 **[!UICONTROL Customizing a push notification]** の節の構成が変更され、ステップバイステップの使用例が追加されました。[詳細を表示](../../channels/using/customizing-a-push-notification.md)
 
-新しいセクションは、ブロックリスト管理に関するセクションです。 [詳細を表示](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+ブロックリスト管理に関する新しい節が追加されました。[詳細を表示](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 配信の失敗と強制隔離に関する情報を更新しました。[詳細を表示](../../sending/using/monitoring-a-delivery.md)
 
@@ -860,7 +860,7 @@ E メール BCC - [詳細を表示](../../sending/using/archiving.md)
 
 新しいテクニカルノート「Adobe Mobile SDK とモバイルアプリの統合」が発表されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/integrate-mobile-sdk.html)
 
-PeopleコアサービスまたはAdobe CampaignとのAudience Manager統合を設定する手順が追加されました。 [詳細を表示](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
+People コアサービスまたは Audience Manager と Adobe Campaign の統合を設定する手順が追加されました。[詳細を表示](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
 特定の役割の機能を明確にするために、認証表が改訂されました。[詳細を表示](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)
 
@@ -884,7 +884,7 @@ Dreamweaver との統合（実稼働） - [詳細を表示](https://docs.adobe.c
 
 Adobe Campaign ユーザーの様々なタイプに関する節を追加しました。[詳細を表示](../../administration/using/users-management.md)
 
-ワークフローガイドが再構成され、拡張されました。Easily find how to [build](../../automating/using/building-a-workflow.md) and [execute](../../automating/using/about-workflow-execution.md) a workflow, how to [target](../../automating/using/about-targeting-activities.md) and [manage](../../automating/using/about-targeting-activities.md#enriching-data) your data, how to [import and export](../../automating/using/about-data-import-and-export.md) data, and how to use workflow data to update the database or to send deliveries.
+ワークフローガイドが再構成され、拡張されました。ワークフローの[作成](../../automating/using/building-a-workflow.md)および[実行](../../automating/using/about-workflow-execution.md)、データの[ターゲティング](../../automating/using/about-targeting-activities.md)および[管理](../../automating/using/about-targeting-activities.md#enriching-data)、データの[読み込みおよびび書き出し](../../automating/using/about-data-import-and-export.md)、ワークフローデータを使用したデータベースの更新または配信をおこなう方法を容易に確認できます。
 
 動的レポートでレポートインジケーター計算が使用できるようになり、完全な説明や計算式を参照できます。[詳細を表示](../../reporting/using/indicator-calculation.md)
 
