@@ -13,10 +13,10 @@ context-tags: mobileApp,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: f9632e88b49c2280c76e709376cfb7a7a27abc1f
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
 workflow-type: tm+mt
-source-wordcount: '1280'
-ht-degree: 50%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -164,5 +164,5 @@ Androidの場合、キャンペーンーは、通知ペイロードではなく�
 
 はい、プッシュメッセージではディープリンクがサポートされます。 ディープリンクには次のものを含める必要があります。
 
-* ディープリンクを機能させるために配信追跡を無効にする必要があることを示す言語。
+* ディープリンクを機能させるために配信追跡を無効にする必要があることを示す言語です。
 * ディープリンクの追跡を行うパートナーとしてBranchを持つAppsflier。 ブランチとAdobe Campaign Standardの統合の詳細については、この [ページを参照してください](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1)。
