@@ -13,10 +13,10 @@ context-tags: delivery,mobileAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
 workflow-type: tm+mt
 source-wordcount: '1494'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -116,11 +116,7 @@ Adobe Campaign では、プッシュ通知のデザイン中に一連の詳細�
 
 プッシュ通知に有効期限を追加するには、次の手順に従います。
 
-1. 「**[!UICONTROL Expire message]**」オプションをオンにします。
-
-   >[!NOTE]
-   >
-   >「**[!UICONTROL Expire message]**」オプションを選択すると、期間が自動的に 0 に設定されます。値を変更しない場合、APNS も FCM もメッセージの送信を直ちに試みます。失敗した場合、メッセージは再送信されません。
+1. Check the **[!UICONTROL Expire message]** option: by selecting the **[!UICONTROL Expire message]** option, the duration is automatically set to 0. 値を変更しない場合、APNS も FCM もメッセージの送信を直ちに試みます。失敗した場合、メッセージは再送信されません。
 
 1. 「**[!UICONTROL Duration]**」フィールドで、プッシュ通知の有効期限を選択します。
 
@@ -191,4 +187,3 @@ Android の場合は、「**Rich media content URL**」フィールドにファ�
 「**[!UICONTROL High priority]**」チェックボックスでは、プッシュ通知の優先度を高くするかどうかを設定できます。メッセージの優先度について詳しくは、[Google 開発者向けドキュメント](https://firebase.google.com/docs/cloud-messaging/concept-options#setting-the-priority-of-a-message)を参照してください。
 
 ![](assets/push_notif_advanced_11.png)
-
