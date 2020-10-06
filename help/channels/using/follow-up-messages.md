@@ -12,7 +12,7 @@ discoiquuid: 9615e369-754f-4f6a-a1b1-14462f946666
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
 workflow-type: tm+mt
 source-wordcount: '722'
 ht-degree: 5%
@@ -129,4 +129,3 @@ The configuration steps are presented in the [Configuring an event to send a fol
 >[!NOTE]
 >
 >イベント設定の作成時に **[!UICONTROL Profile]** ターゲティングディメンションを選択した場合は、Adobe Campaignのマーケティングデータベースもフォローアップメッセージとして使用されます。 [プロファイルトランザクションメッセージ](../../channels/using/profile-transactional-messages.md)を参照してください。
-
