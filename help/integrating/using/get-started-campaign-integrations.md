@@ -15,30 +15,30 @@ translation-type: tm+mt
 source-git-commit: d425e4b96604133fbdfc66fde38e4ca5c84baccd
 workflow-type: tm+mt
 source-wordcount: '632'
-ht-degree: 22%
+ht-degree: 90%
 
 ---
 
 
 # Campaign 統合について{#get-started-campaign-integrations}
 
-この節では、Adobe Campaignの現在のバージョンと他のソリューションおよびサービスとの間で使用できる機能統合について説明します。
+この節では、Adobe Campaign の現在のバージョンと他のソリューションおよびサービスとの間で使用できる機能統合について説明します。
 
-以下に示す様々な統合により、Adobe Campaignの配信機能と高度なキャンペーン管理機能を組み合わせて、ユーザ体験をパーソナライズできるように作成された一連のソリューションを使用できます。
-
->[!NOTE]
->
-> デフォルトでは、Adobe Campaignは既にAdobe Experience Cloudアカウントにリンクされています。
-
-環境に応じて、他のソリューションもAdobe Experience Cloudにリンクできます。 組織（テナントとも呼ばれる）としてリンクされます。
-
-組織とは、管理者がグループとユーザーを設定し、Experience Cloud でのシングルサインオンを制御できるエンティティのことです。組織は、すべての Experience Cloud 製品およびソリューションにまたがるログイン会社のように機能します。ほとんどの場合、組織は勤務先の会社名です。ただし、1 つの会社が多くの組織を持つことができます。ユーザーと組織の管理について詳しくは、 [Adobe Experience Cloudのヘルプポータルを参照してください](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html)。
-
-他のシステムのデータフローをAdobe Campaignと統合する場合は、 [APIのドキュメントをご覧ください](../../api/using/get-started-apis.md)。
+次に示す各統合では、Adobe Campaign の配信と詳細なキャンペーン管理機能を、一連のソリューションと組み合わせることで、ユーザーエクスペリエンスをパーソナライズできます。
 
 >[!NOTE]
 >
->Adobe Campaign StandardはMicrosoft Dynamics 365にも接続できます。この統合により、CRMシステムで使用可能なすべての連絡先データを同期でき、関連するすべての連絡先データをキャンペーンアクティビティに提供できます。 この統合の詳細については、「キャンペーンとDynamics 365の [操作」を参照してください](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)。
+> デフォルトでは、Adobe Campaign は既に Adobe Experience Cloud アカウントにリンクされています。
+
+環境によっては、Adobe Experience Cloud に他のソリューションをリンクすることができます。これらは組織（テナントとも呼ばれます）としてリンクされます。
+
+組織とは、管理者がグループとユーザーを設定し、Experience Cloud でのシングルサインオンを制御できるエンティティのことです。組織は、すべての Experience Cloud 製品およびソリューションにまたがるログイン会社のように機能します。ほとんどの場合、組織は勤務先の会社名です。ただし、1 つの会社が多くの組織を持つことができます。ユーザーと組織の管理について詳しくは、[Adobe Experience Cloud ヘルプポータル](https://docs.adobe.com/content/help/ja-JP/core-services/interface/manage-users-and-products/organizations.html)を参照してください。
+
+他のシステムのデータフローを Adobe Campaign と統合する場合は、[API のドキュメント](../../api/using/get-started-apis.md)を参照してください。
+
+>[!NOTE]
+>
+>Adobe Campaign Standard は、Microsoft Dynamics 365 にも接続できます。この統合により、CRM システムで利用可能なすべての連絡先データを同期でき、関連するすべての連絡先データをキャンペーンアクティビティで利用できます。この統合について詳しくは、[Campaign と Dynamics 365 の使用](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)を参照してください。
 
 
 <table> 
@@ -46,64 +46,64 @@ ht-degree: 22%
   <tr> 
    <th> ソリューション<br /> </th> 
    <th> 使用例<br /> </th> 
-   <th> <br />を参照してください。 </th> 
+   <th> 参照<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Experience Manager<br /> 6.1, 6.2, 6.3, 6.4, 6.5<br /> </td> 
+   <td> Experience Manager<br /> 6.1、6.2、6.3、6.4、6.5<br /> </td> 
    <td> E メールコンテンツや Adobe Campaign データベースにマッピングされたフォームを Adobe Experience Manager で直接作成することができます。<br /> </td> 
    <td> 
-     <a href="../../integrating/using/integrating-with-experience-manager.md">キャンペーンとExperience Managerの操作</a>、 <a href="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/campaignstandard.html">Experience ManagerとCampaign Standardの</a>統合 <a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_AEM.html">、Experience Managerとキャンペーンを含む電子メールの作成</a> 
+     <a href="../../integrating/using/integrating-with-experience-manager.md">キャンペーンとExperience Managerの操作</a>、 <a href="https://helpx.adobe.com/jp/experience-manager/6-4/sites/administering/using/campaignstandard.html">Experience ManagerとCampaign Standardの</a>統合 <a href="https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-experience-manager/creating-email-experience-manager.html">、Experience Managerとキャンペーンを含む電子メールの作成</a> 
     </td> 
   </tr> 
   <tr> 
-   <td> ターゲット<br /> クラシック、標準<br /> </td> 
-   <td> Allows you to insert images that are dynamically computed by Adobe Target when an email created and sent by Adobe Campaign is opened.<br /> </td> 
+   <td> Target<br /> Classic、Standard<br /> </td> 
+   <td> Adobe Campaign で作成、送信された E メールが開封されたときに Adobe Target が動的に自動生成した画像を挿入することができます。<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-campaign-target-integration.md">キャンペーンとターゲットの使用</a>、キャンペーンとターゲットの <a href="https://docs.adobe.com/content/help/en/target/using/integrate/campaign-and-target.html">統合</a>、Personalize Email Images in Real-Time <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html"></a> video（手順3）
+    <a href="../../integrating/using/about-campaign-target-integration.md">キャンペーンとターゲットの使用</a>、キャンペーンとターゲットの <a href="https://docs.adobe.com/content/help/ja-JP/target/using/integrate/campaign-and-target.html">統合</a>、Personalize Email Images in Real-Time <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html"></a> video（手順3）
     </td> 
   </tr> 
   <tr> 
-   <td> Analytics<br /> Standard, Premium <br /> </td> 
-   <td> 電子メール配信の成功をAdobe Analyticsで直接追跡できます。<br /> </td> 
+   <td> Analytics<br /> Standard、Premium <br /> </td> 
+   <td> E メール配信の成功を Adobe Analytics で直接追跡できます。<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-campaign-analytics-integration.md">Analyticsとキャンペーンデータを共有</a>、統合キャンペーンレポートビデオの <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">KPIを</a> 共有（手順1）
+    <a href="../../integrating/using/about-campaign-analytics-integration.md">Analytics との Campaign データの共有</a>、<a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">Campaign で統合レポートを作成するための KPI の共有</a>ビデオ（手順 1）
     </td> 
   </tr> 
   <tr> 
-   <td> Adobe Audience Managerと人々のコアサービス(プロファイルとオーディエンス)<br /> </td> 
-   <td> Allow you to exchange audiences with the different Adobe Experience Cloud applications that you use.<br /> </td> 
-   <td> <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">Peopleコアサービス(プロファイルとオーディエンス)</a><br /> </td> 
+   <td> Adobe Audience Manager と People コアサービス（プロファイルとオーディエンス）<br /> </td> 
+   <td> お使いの Adobe Experience Cloud の各アプリケーションとオーディエンスを交換できます。<br /> </td> 
+   <td> <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">People コアサービス（プロファイルとオーディエンス）</a><br /> </td> 
   </tr> 
   <tr> 
-   <td> Asset core service and Assets On Demand<br /> </td> 
+   <td> Assets コアサービスと Assets On Demand<br /> </td> 
    <td> Adobe Campaign で作成した E メールとランディングページに Adobe Experience Cloud ライブラリからアセットを挿入することができます。<br /> </td> 
-   <td> <a href="../../integrating/using/working-with-campaign-and-assets-core-service.md">Assetsコアサービス</a> 、またはAssets On Demand<br /> </td> 
+   <td> <a href="../../integrating/using/working-with-campaign-and-assets-core-service.md">Assets コアサービス</a>と Assets On Demand<br /> </td> 
   </tr> 
   <tr> 
-   <td> 目標地点(Analytics for Mobile)<br /> </td> 
-   <td> モバイルアプリのサブスクリプションから目標地点データを収集し、パーソナライズされたマーケティングメッセージをAdobe Campaignと共に送信できます。<br /> </td> 
-   <td> <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">場所ベースのマーケティングメッセージとキャンペーンおよび目標地点データの送信</a> (Analytics for Mobile)<br /> </td> 
+   <td> Points of Interest（Analytics for Mobile）<br /> </td> 
+   <td> モバイルアプリケーションの購読者から Points of Interest データを収集し、Adobe Campaign を使用してパーソナライズされたマーケティングメッセージを送信できます。<br /> </td> 
+   <td> <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">Campaign および Points of Interest データを利用した位置情報マーケティングメッセージの送信</a>（Analytics for Mobile）<br /> </td> 
   </tr> 
   <tr> 
    <td> Experience Cloud Triggers<br /> </td> 
-   <td> Adobe AnalyticsによってWebサイト上で追跡される特定の行動に対する反応として、Adobe Campaignで顧客にパーソナライズした電子メールを送信できます。<br /> </td> 
+   <td> Adobe Analytics によって Web サイト上で追跡される特定の行動に応じて、Adobe Campaign を使用して顧客にパーソナライズされた E メールを送信できます。<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-adobe-experience-cloud-triggers.md">Campaign StandardでのExperience Cloudトリガーの使用</a>、 <a href="../../integrating/using/abandonment-triggers-use-cases.md">放棄トリガー —キャンペーンの使用例</a>、サイトアクティビティビデオに基づくリマーケティングメッセージの <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html"></a> トリガー（手順2）
+    <a href="../../integrating/using/about-adobe-experience-cloud-triggers.md">Campaign Standard での Experience Cloud Triggers の使用</a>、<a href="../../integrating/using/abandonment-triggers-use-cases.md">離脱トリガー（Campaign の使用例）</a>、<a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">サイトアクティビティに基づくリマーケティングメッセージのトリガー</a>ビデオ（手順 2）
     </td> 
   </tr> 
   <tr> 
    <td> Dreamweaver<br /> </td> 
-   <td> Dreamweaverからの電子メールコンテンツを編集し、Adobe Campaignと同期できます。<br /> </td> 
+   <td> Dreamweaver で E メールコンテンツを編集し、Adobe Campaign と同期できます。<br /> </td> 
    <td> 
     <a href="https://docs.adobe.com/content/help/ja-JP/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.translate.html">Dreamweaver</a> ・ビデオを使用したパーソナライズされた電子メールの作成、Dreamweaver向けキャンペーン拡張の <a href="https://helpx.adobe.com/jp/dreamweaver/using/working-with-dreamweaver-and-campaign.html">使用</a> 
   </td> 
   </tr> 
   <tr> 
-   <td> Experience PlatformSDK<br /> </td> 
-   <td> Experience PlatformSDKを使用したAdobe Campaignでのモバイルアプリのプロパティアクティベーションプロセスの自動化を可能にします。<br /> </td> 
-   <td> <a href="https://helpx.adobe.com/jp/campaign/kb/configuring-app-sdk.html">Experience PlatformSDKを使用したモバイルアプリの設定</a><br /> </td> 
+   <td> Experience Platform SDK<br /> </td> 
+   <td> Experience PlatformSDK を使用して、Adobe Campaign でのモバイルアプリケーションプロパティのアクティベーションプロセスを自動化できます。<br /> </td> 
+   <td> <a href="https://helpx.adobe.com/jp/campaign/kb/configuring-app-sdk.html">Experience Platform SDK を使用したモバイルアプリケーションの設定</a><br /> </td> 
   </tr> 
  </tbody> 
 </table>
