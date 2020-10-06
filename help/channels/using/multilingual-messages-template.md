@@ -11,9 +11,9 @@ topic-tags: managing-templates
 discoiquuid: 064c5c4a-f579-4bab-adf3-51c92eb4518f
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: efb1f14e0094e200d186423f98bfad65d25cfab2
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
+workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 100%
 
@@ -41,6 +41,7 @@ SMS や E メールのテンプレート作成を実行するには、次の手�
    >また、テンプレートプロパティの「**[!UICONTROL Initialize content variant]**」ボタンをクリックして、多言語テンプレート内の既存の標準テンプレートを変更することもできます。
 
 1. プロパティを変更して、ラベルやトラッキングなどをカスタマイズします。
+
 1. バリアントの数を変更するには、バリアントタイルをクリックします。バリアントウィンドウが表示されます。
 
    ![](assets/multi_template_variants.png)
@@ -54,6 +55,7 @@ SMS や E メールのテンプレート作成を実行するには、次の手�
    >「default」バリアントは、指定された優先言語パラメーターがないプロファイルに送信されるバリアントなので、削除しないでください。
 
 1. 必要に応じてラベルのバリアントをカスタマイズし、「**[!UICONTROL Confirm]**」をクリックします。
+
 1. 各バリアントのコンテンツを直接追加することもできます。
 
 これで、この多言語テンプレートに基づく E メールまたは SMS メッセージを作成する準備ができました。
