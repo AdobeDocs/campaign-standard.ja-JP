@@ -13,9 +13,9 @@ context-tags: delivery,main
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1efcd646f4af86175b3b09b53185c792cb4cf7dd
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '587'
 ht-degree: 5%
 
 ---
@@ -52,21 +52,11 @@ ht-degree: 5%
 
    配達確認について詳しくは、「配達確認の [送信](../../sending/using/sending-proofs.md)」を参照してください。
 
-* **[!UICONTROL Send a test]**:使用する承認モードを選択できます。 **[!UICONTROL Email rendering]**、 **[!UICONTROL Proof]** または両方（電子メールの場合）。 テストプロファイルについて詳しくは、「配達確認の [送信](../../sending/using/sending-proofs.md)」を参照してください。
+* **[!UICONTROL Send a test]**:使用する承認モードを選択できます。 **[!UICONTROL Email rendering]** （電子メールのみ） **[!UICONTROL Proof]** またはその両方。 テストプロファイルについて詳しくは、「配達確認の [送信](../../sending/using/sending-proofs.md)」を参照してください。 このボタンは、テストプロファイルを作成した場合にのみ有効になります。
 
-   このボタンは、テストプロファイルを確立した後にのみ有効になります。
+* **[!UICONTROL Prepare send]**:送信を準備する開始。 ブロックが表示され、準備の結果が表示されます。 **[!UICONTROL Deployment]** このボタンは、ターゲットを入力した場合にのみ表示されます。 対応するボタンを使用すると、いつでも準備を停止できます。 For more on message preparation, refer to [Preparing the send](../../sending/using/preparing-the-send.md).
 
-   >[!NOTE]
-   >
-   >SMSメッセージに対しては、他に選択肢はありません。それは自動的に行われ **[!UICONTROL Proof]**&#x200B;ます。
-
-* **[!UICONTROL Prepare send]**:送信を準備する開始。 ブロックが表示され、準備の結果が表示されます。 **[!UICONTROL Deployment]** このボタンは、ターゲットを入力した場合にのみ表示されます。 対応するボタンを使用すると、いつでも準備を停止できます。
-
-   メッセージの準備の詳細については、「送信の [準備](../../sending/using/preparing-the-send.md)」を参照してください。
-
-* **[!UICONTROL Confirm send]**:メッセージの送信を確認します。 送信統計が **[!UICONTROL Deployment]** ブロック内に表示されます。 このボタンは、送信の準備が完了した後にのみ表示されます。 「送信を停止 **」ボタンと「送信を停止** 」 **[!UICONTROL Pause]** ボタンを使用すると、いつでも送信を停止または一時停止できます。
-
-   送信の確認について詳しくは、「メッセージの [送信](../../sending/using/confirming-the-send.md)」を参照してください。
+* **[!UICONTROL Confirm send]**:メッセージの送信を確認します。 送信統計が **[!UICONTROL Deployment]** ブロック内に表示されます。 このボタンは、送信の準備が完了した後にのみ表示されます。 「送信を停止 **」ボタンと「送信を停止** 」 **[!UICONTROL Pause]** ボタンを使用すると、いつでも送信を停止または一時停止できます。 送信の確認について詳しくは、「メッセージの [送信](../../sending/using/confirming-the-send.md)」を参照してください。
 
 ## ブロック {#blocks}
 
@@ -97,7 +87,7 @@ ht-degree: 5%
 
 * *&quot;現在のIPアフィニティは送信プロセスで処理されないため、メッセージを送信できません。&quot;*
 
-   このメッセージが表示される場合は、IPアフィニティ定義レベルまたは送信プロセスレベルで問題が発生しています。 Adobe管理者に問い合わせてください。
+   このメッセージが表示される場合は、IPアフィニティ定義レベルまたは送信プロセスレベルで問題が発生しています。 Adobe 管理者にお問い合わせください。
 
 * *「これは既製のトランザクションメッセージテンプレートです 変更したい場合は、重複してコピー作業を行う必要があります。」*
 
