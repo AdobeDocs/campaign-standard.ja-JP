@@ -15,7 +15,7 @@ translation-type: tm+mt
 source-git-commit: 5b99fb9fbf8bdac506aeb8a35f30a7ef33aaa7e6
 workflow-type: tm+mt
 source-wordcount: '2948'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 95%
 <li>アクセス権と削除権：GDPR および CCPA 用に追加された機能を活用します。<a href="https://helpx.adobe.com/content/help/jp/campaign/kb/acs-privacy.html#righttoaccess">さらに詳しく</a> </li>
 <li><p>プライバシーリクエストを作成する際に、PDPA 規制タイプが Privacy コアサービスに追加されました。すべてのアクセス要求と削除要求に対して、このメソッドを使用する必要があります。アクセス要求および削除要求に対する Campaign API およびインターフェイスの使用は廃止されています。<a href="../../rn/using/deprecated-features.md">廃止および削除された機能の記事</a>を参照してください。</p></li>
 </ul>
-<p><a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">ハウツービデオ</a>を参照してください。</p>
+<p><a href="https://docs.adobe.com/content/help/ja-JP/campaign-standard-learn/tutorials/privacy/privacy-overview.html">ハウツービデオ</a>を参照してください。</p>
 </td> 
 </tr> 
 </tbody> 
@@ -65,16 +65,16 @@ ht-degree: 95%
 <li>オブジェクトに「data」という名前を付けたり、最上位レベルに配置したりする必要なく、JSON から配列オブジェクトを選択して使用する。</li>
 </ul>
 <p><strong>注意：</strong><strong>すべてのベータ版外部 API アクティビティを、ワークフロー内の GA 外部 API アクティビティで置き換える必要があります</strong>。ベータ版の外部 API を使用するワークフローは、20.3 以降では動作しなくなります。</p>
-<p>詳しくは、<a href="../../automating/using/external-api.md">詳細ドキュメント</a>および<a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">ハウツービデオ</a>を参照してください。</p>
+<p>詳しくは、<a href="../../automating/using/external-api.md">詳細ドキュメント</a>および<a href="https://docs.adobe.com/content/help/ja-JP/campaign-standard-learn/tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">ハウツービデオ</a>を参照してください。</p>
 </td> 
 </tr> 
 </tbody> 
 </table>
 
-**その他の機能** （7月13日より開始）
+**その他の機能**（7 月 13 日より開始）
 
-* **AIを利用した送信時間の最適化とプロファイルスコアリング** — お客様のジャーニーの設計と配信を最適化して、個々の関与の優先度を予測できるようになりました。 Adobe Campaignは、遍歴AIを基にして、過去の関与指標に基づいて、オープン率、最適な送信時間および確率変化を分析し、予測できます。 [詳細情報](../../sending/using/predictive.md)
-* **ブラジルの新しいプライバシー規制** -キャンペーンで既に提供されているプライバシー機能に加え、AdobeはブラジルのLei Geral de Proteçao de Datos (LGPD)に対する準備を促進します。 プライバシーの要請を作成する際、LGPD規則がAdobeプライバシーコアサービスに追加されました。 [詳細情報](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy-overview.html)
+* **AI を利用した送信時間の最適化とプロファイルスコアリング** - カスタマージャーニーの設計と配信を最適化して、各ユーザーのエンゲージメントの傾向を予測できるようになりました。Adobe Campaign は、ジャーニー AI を活用して、過去のエンゲージメント指標に基づいて開封率や最適な送信時間、顧客離れの可能性を分析および予測できます。[詳細情報](../../sending/using/predictive.md)
+* **ブラジルの新しいプライバシー規制** - Campaign で既に提供されているプライバシー機能に加えて、アドビはブラジルの Lei Geral de Proteçao de Datos（LGPD）に対する準備を進めています。プライバシーリクエストを作成する際に、LGPD 規制が Adobe Privacy コアサービスに追加されました。[詳細情報](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy-overview.html)
 
 **強化点**
 
@@ -105,7 +105,7 @@ ht-degree: 95%
 
 **Experience Platform との統合**
 
-* 「**Read audience**」アクティビティからの Adobe [Experience Platform オーディエンス](../../automating/using/aep-targeting-audiences.md)のアクティベーションが改善され、パフォーマンスと安定性が向上しました。さらに、アクティベーションジョブに関するワークフローログがより明確で詳細になり、Adobe Experience Platform オーディエンスを閲覧する際の監視とトラブルシューティングが容易になりました。
+* 「**オーディエンスの閲覧**」アクティビティからの Adobe [Experience Platform オーディエンス](../../automating/using/aep-targeting-audiences.md)のアクティベーションが改善され、パフォーマンスと安定性が向上しました。さらに、アクティベーションジョブに関するワークフローログがより明確で詳細になり、Adobe Experience Platform オーディエンスを閲覧する際の監視とトラブルシューティングが容易になりました。
 
 **パッチ**
 
@@ -128,7 +128,7 @@ ht-degree: 95%
 * ユーザーがレポートを変更できないエラーを修正しました。（CAMP-42505）
 
 
-![](assets/do-not-localize/cp-icon.png) **新しいCampaign コントロールパネル5月** 、CNAMEサブドメインの証明書の更新を含む 詳しくは、[こちら](https://docs.adobe.com/content/help/ja-JP/control-panel/using/release-notes.html)を参照してください。
+![](assets/do-not-localize/cp-icon.png) **Campaign コントロールパネルの 5 月の新しいリリース**&#x200B;で、CNAME サブドメインの証明書を更新できるようになりました。詳しくは、[こちら](https://docs.adobe.com/content/help/ja-JP/control-panel/using/release-notes.html)を参照してください。
 
 ## リリース 20.2 - 2020 年 4 月{#release-20-2---april-2020}
 
@@ -192,7 +192,7 @@ ht-degree: 95%
 **その他の変更**
 
 * そのまま使用できる「**KPIs Reconciliation with Adobe Analytics**」（Adobe Analytics との KPI 紐付け）ワークフローが、1 日だけでなく現在の日付まで実行されるようになりました。
-* MCPNS では、APNS と APNS-SANDBOX の両方をプラットフォームとしてアプリに追加することはできません。Adobe Campaign Standard に証明書が正常に追加された後は、設定を元に戻すことはできなくなりました。MCPNS アプリに追加できるのは、1 つの APNSプラットフォーム（実稼動またはサンドボックス）に限られるからです。
+* MCPNS では、APNS と APNS-SANDBOX の両方をプラットフォームとしてアプリに追加することはできません。Adobe Campaign Standard に証明書が正常に追加された後は、設定を元に戻すことはできなくなりました。MCPNS アプリに追加できるのは、1 つの APNS プラットフォーム（実稼動またはサンドボックス）に限られるからです。
 
 **Experience Platform との統合**
 
