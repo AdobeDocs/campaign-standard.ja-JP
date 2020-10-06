@@ -12,9 +12,9 @@ discoiquuid: 4e214eb9-d299-4095-b786-8d1de9b1c8a2
 context-tags: delivery,smsContent,back
 internal: n
 snippet: y
-translation-type: ht
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
+workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 100%
 
@@ -96,4 +96,3 @@ SMS およびプッシュコンテンツエディターでは、次の機能を�
 * コンテンツブロックの追加。詳しくは、[コンテンツブロックの追加](../../designing/using/personalization.md#adding-a-content-block)を参照してください。
 * ダイナミックテキストの追加。詳しくは、[ダイナミックテキストの定義](../../channels/using/defining-dynamic-text.md)を参照してください。
 * SMS 送信者の名前のパーソナライズ（SMS のみ）。詳しくは、[SMS の設定](../../administration/using/configuring-sms-channel.md#configuring-sms-properties)を参照してください。
-
