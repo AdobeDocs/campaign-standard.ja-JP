@@ -13,10 +13,10 @@ context-tags: deliveryTransactionalTemplate,overview
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: df70a2165c5d3a4b553565d9a91ec3f8da1b44aa
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
 workflow-type: tm+mt
-source-wordcount: '2492'
-ht-degree: 93%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -52,7 +52,9 @@ ht-degree: 93%
 
 ## トランザクションメッセージのパーソナライズ機能{#personalizing-a-transactional-message}
 
-トランザクションメッセージでパーソナライズ機能を設定するには、次の手順に従います。
+この例では、イベントの [作成時に定義した3つのフィールドを追加して、トランザクションメッセージをパーソナライズする方法を学習します](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message)。名、最後に問い合わせた製品、買い物かごの総数
+
+To do this, you will [insert a personalization field](../../designing/using/personalization.md#inserting-a-personalization-field) in the message content.
 
 1. 「**[!UICONTROL Content]**」ブロックをクリックして、メッセージの件名と内容を変更します。この例では、画像とテキストを含む任意のテンプレートを選択します。メールコンテンツのテンプレートについて詳しくは、[テンプレートを使用したデザイン](../../designing/using/using-reusable-content.md#designing-templates)を参照してください。
 
@@ -64,9 +66,7 @@ ht-degree: 93%
    >
    >放棄された買い物かごへのリンクは、ユーザーを買い物かごにリダイレクトする外部 URL へのリンクです。このパラメーターは、Adobe Campaign では管理されません。
 
-1. この例では、[イベントの作成時](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message)に定義した、次の 3 つのフィールドを追加します。最初の名前、最後に問い合わせた製品、買い物かごの総数。これをおこなうには、メッセージコンテンツに[パーソナライゼーションフィールド](../../designing/using/personalization.md#inserting-a-personalization-field)を挿入します。
-
-1. **[!UICONTROL Context]**／**[!UICONTROL Real-time event]**／**[!UICONTROL Event context]** を順に選択して、該当するフィールドを表示します。
+1. > **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** >を閲覧して、パーソナライゼーションフィールド **[!UICONTROL Event context]** を取得します。名、最後に問い合わせた製品、買い物かごの総数
 
    ![](assets/message-center_7.png)
 
@@ -90,19 +90,17 @@ ht-degree: 93%
 
 トランザクション用メールコンテンツ内の 1 つ以上のデータコレクションを参照する製品リストを作成できます。例えば、買い物かごの放棄に関するメールでは、ユーザーが Web サイトを離れたときにユーザの買い物かごに含まれていたすべての製品リストを、画像、価格、各製品へのリンクと共に含めることができます。
 
+Learn more in [this video](https://docs.adobe.com/content/help/ja-JP/campaign-learn/campaign-standard-tutorials/designing-content/product-listings-in-transactional-email.html).
+
 >[!IMPORTANT]
 >
 >製品リストは、[E メールデザイナー](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface)インターフェイスを通じてトランザクションのメールメッセージを編集する場合にのみ使用できます。
-
-トランザクションメッセージに放棄された製品のリストを追加するには、次の手順に従います。
-
-また、トランザクション用メールで製品リストを設定するために必要な手順を説明する一連のビデオを視聴することもできます。詳しくは、[このページ](https://docs.adobe.com/content/help/ja-JP/campaign-learn/campaign-standard-tutorials/designing-content/product-listings-in-transactional-email.html)を参照してください。
-
->[!NOTE]
 >
 >Adobe Campaign は入れ子になった製品リストをサポートしていません。つまり、別の製品リストに製品を含めることはできません。
 
-### 製品リストの定義{#defining-a-product-listing}
+次の例では、破棄された商品のリストをトランザクションメッセージに追加する手順を学習します。
+
+### 手順1:製品リストの定義 {#defining-a-product-listing}
 
 トランザクションメッセージ内の製品リストを使用する前に、表示するリストの各製品のリストとフィールドをイベントレベルで定義する必要があります。詳しくは、[データコレクションの定義](../../administration/using/configuring-transactional-messaging.md#defining-data-collections)を参照してください。
 
@@ -144,7 +142,7 @@ ht-degree: 93%
    >
    >リストの要素を垂直に表示する場合（**[!UICONTROL Column]**）は、選択した構造コンポーネント（2、3、4 列）に応じて、アイテムの最大数が制限されます。構造コンポーネントの選択について詳しくは、[メール構造の編集](../../designing/using/designing-from-scratch.md#defining-the-email-structure)を参照してください。
 
-### 製品リストへの入力{#populating-the-product-listing}
+### 手順2:製品リストへの入力 {#populating-the-product-listing}
 
 トランザクションメールにリンクされたイベントからの製品のリストを表示するには、次の手順に従います。
 
