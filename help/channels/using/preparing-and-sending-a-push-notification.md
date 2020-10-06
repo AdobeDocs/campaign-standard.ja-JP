@@ -1,5 +1,5 @@
 ---
-title: プッシュ通知の準備と送信
+title: プッシュ通知の作成と送信
 description: Adobe Campaignで単一送信プッシュ通知を作成するには、次の手順に従います。
 page-status-flag: never-activated
 uuid: 01997725-ca0a-420c-9e81-5ea801652f87
@@ -13,10 +13,10 @@ context-tags: delivery,mobileAppContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: c300f50ce83d67be7c8a16f857eb46fb1ce89166
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 5%
+source-wordcount: '856'
+ht-degree: 4%
 
 ---
 
@@ -86,7 +86,9 @@ Adobe Campaignを使用してプッシュ通知を作成する手順は、次の
 
    >[!CAUTION]
    >
-   >ペイロードのサイズが4 KBの制限を超える場合、メッセージは配信されません。 パーソナライゼーションデータは、メッセージのサイズに影響します。
+   >ペイロードのサイズが4 KBの制限を超える場合、メッセージは配信されません。
+
+パーソナライゼーションデータは、メッセージのサイズに影響します。
 
 ## 通知の送信 {#sending-the-notification}
 
@@ -131,4 +133,3 @@ Adobe Campaignを使用してプッシュ通知を作成する手順は、次の
 
 * [プッシュ通知レポート](../../reporting/using/push-notification-report.md)
 * [ワークフロー内でのプッシュ通知の送信](../../automating/using/push-notification-delivery.md)
-
