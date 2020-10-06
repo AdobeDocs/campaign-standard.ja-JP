@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: e67a173c5409d7693a3d7dab8f8ca3b03aeb886f
 workflow-type: tm+mt
 source-wordcount: '232'
-ht-degree: 73%
+ht-degree: 97%
 
 ---
 
@@ -21,14 +21,15 @@ ht-degree: 73%
 
 * **[コントロール母集団](sending/using/control-group.md)**<br/>オーディエンスの一部を除外して、キャンペーンの影響を測定します。
 
-* **[AI電子メール](sending/using/predictive.md)**<br/>AI電子メールを使用してデザインと配信を最適化
+* **[AI を利用した E メール](sending/using/predictive.md)**<br/>AI を利用して E メールの設計と配信を最適化します。
 
 * **[プライバシー管理](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy.html)**<br/>
 プライバシーコンプライアンスに役立つ Adobe Campaign ツールについて説明します。
 
-* **[外部API](automating/using/external-api.md)**<br/>外部APIアクティビティを使用して、外部システムからデータをワークフローに取り込む
+* **[外部 API](automating/using/external-api.md)**<br/>外部 API アクティビティを使用して、外部システムからデータをワークフローに取り込みます。
 
-* **[モバイル配信の使用を開始する](https://helpx.adobe.com/jp/campaign/kb/acs-mobile.html)**<br/>&#x200B;モバイル配信（SMS、プッシュ、アプリ内）の一般的なガイドラインの詳細
+* **[モバイル配信の概要](https://helpx.adobe.com/jp/campaign/kb/acs-mobile.html)**<br/>
+モバイル配信（SMS、プッシュ、アプリ内）の一般的なガイドラインについて説明します。
 
 [更新情報についてはここをクリック](rn/using/documentation-updates.md)
 
