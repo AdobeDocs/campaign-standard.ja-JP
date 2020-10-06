@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: b6d6d0449638ff7c0513180079ccc56b9676f637
 workflow-type: tm+mt
 source-wordcount: '1652'
-ht-degree: 85%
+ht-degree: 99%
 
 ---
 
@@ -149,7 +149,7 @@ ht-degree: 85%
       + [配達確認の送信](sending/using/sending-proofs.md)
       + [ターゲットプロファイルを使用した E メールメッセージのテスト](sending/using/testing-messages-using-target.md)
       + [E メールの件名行のテスト](sending/using/testing-subject-line-email.md)
-      + [AIを利用した電子メール](sending/using/predictive.md)
+      + [AI を利用した E メール](sending/using/predictive.md)
       + [E メールのレンダリング](sending/using/email-rendering.md)
       + [コントロール母集団の追加](sending/using/control-group.md)
       + [トラップの使用](sending/using/using-traps.md)
@@ -248,11 +248,11 @@ ht-degree: 85%
       + [中断トリガーの使用例](integrating/using/abandonment-triggers-use-cases.md)
    + Campaign と Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
       + [ Dynamics 365 統合の概要](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
-      + [キャンペーンとDynamics 365間のデータの管理](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
+      + [Campaign と Dynamics 365 間のデータの管理](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
       + [統合のリクエスト](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
-      + [AdobeI/Oの構成](integrating/using/configure-adobe-io-for-ms-dynamic.md)
+      + [Adobe I/O の設定](integrating/using/configure-adobe-io-for-ms-dynamic.md)
       + [Campaign 統合用の Dynamics 365 の設定](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
-      + [キャンペーンのカスタムリソースとDynamics 365カスタムエンティティのマップ](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
+      + [Campaign のカスタムリソースと Dynamics 365 カスタムエンティティのマッピング](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
       + [ Dynamics 365 統合の使用](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
       + [統合ガードレール](integrating/using/ms-dynamics-365-integration-guardrails.md)
 + プロセスとデータの管理 {#managing-processes-and-data}
@@ -270,7 +270,7 @@ ht-degree: 85%
       + [アクティビティのプロパティの管理](automating/using/activity-properties.md)
    + 外部パラメーターを使用したワークフローの呼び出し {#calling-workflow-external-parameters}
       + [概要](automating/using/calling-a-workflow-with-external-parameters.md)
-      + [外部シグナルアクティビティでのパラメータの宣言](automating/using/declaring-parameters-external-signal.md)
+      + [外部シグナルアクティビティでのパラメーターの宣言](automating/using/declaring-parameters-external-signal.md)
       + [ワークフロー呼び出し時のパラメーターの定義](automating/using/defining-parameters-calling-workflow.md)
       + [イベント変数の監視](automating/using/monitoring-events-variables.md)
       + [外部パラメーターを使用したワークフローのカスタマイズ](automating/using/customizing-workflow-external-parameters.md)
@@ -330,35 +330,35 @@ ht-degree: 85%
       + [ワークフローの使用例について](automating/using/about-workflow-use-cases.md)
       + 配信 {#deliveries}
          + [補完を含む配信の作成](automating/using/workflow-created-query-with-complement.md)
-         + [プロファイルの作成日に対する配信の作成](automating/using/workflow-creation-date-query.md)
+         + [プロファイルの作成日の配信作成](automating/using/workflow-creation-date-query.md)
          + [週次配信の作成](automating/using/workflow-weekly-offer.md)
-         + [チャネル間配信の作成](automating/using/workflow-cross-channel-delivery.md)
-         + [配信前の重複の識別](automating/using/identifying-duplicated-before-delivery.md)
+         + [クロスチャネル配信の作成](automating/using/workflow-cross-channel-delivery.md)
+         + [配信前の重複の特定](automating/using/identifying-duplicated-before-delivery.md)
          + [誕生日配信](automating/using/birthday-delivery.md)
-         + [電子メールとダイレクトメールの配信の結合](automating/using/coupling-email-direct-mail.md)
-         + [強化されたフィールドを含む電子メールの送信](automating/using/sending-email-enriched-fields.md)
-         + [電子メールと追加データのパーソナライズ](automating/using/personalizing-email-with-additional-data.md)
-         + [定期的なプッシュ通知の送信](automating/using/recurring-push-notifications.md)
+         + [E メールとダイレクトメールの配信の結合](automating/using/coupling-email-direct-mail.md)
+         + [フィールドがエンリッチメントされた E メールの送信](automating/using/sending-email-enriched-fields.md)
+         + [追加データによる E メールのパーソナライズ](automating/using/personalizing-email-with-additional-data.md)
+         + [繰り返しプッシュ通知の送信](automating/using/recurring-push-notifications.md)
       + セグメント化とターゲティング {#segmentation-targeting}
          + [クエリのサンプル](automating/using/query-samples.md)
-         + [2つの洗練されたオーディエンスの和集合](automating/using/union-on-two-refined-audiences.md)
+         + [2 つの絞り込まれたオーディエンスの和集合](automating/using/union-on-two-refined-audiences.md)
          + [場所でのセグメントの作成](automating/using/workflow-segmentation-location.md)
-         + [メールを開封していないユーザーの再ターゲティング](automating/using/workflow-cross-channel-retargeting.md)
-         + [サービスの購読者の増分処理クエリ](automating/using/incremental-query-on-subscribers.md)
-         + [年齢層別の分類](automating/using/segmentation-age-groups.md)
+         + [メールを開封していないユーザーのリターゲティング](automating/using/workflow-cross-channel-retargeting.md)
+         + [サービス購読者に対する増分処理クエリ](automating/using/incremental-query-on-subscribers.md)
+         + [年齢層別のセグメント化](automating/using/segmentation-age-groups.md)
          + [ターゲティングディメンションとは異なるリソースの使用](automating/using/using-resources-different-from-targeting-dimensions.md)
       + データ管理 {#data-management}
-         + [ファイルオーディエンスとデータベースとの調整](automating/using/reconcile-file-audience-with-database.md)
-         + [読み込んだファイルからのデータの重複を除外する](automating/using/deduplicating-data-imported-file.md)
-         + [ファイルに含まれるデータをプロファイルデータに含める](automating/using/enriching-profile-data-file.md)
-         + [外部信号のアクティビティとデータのインポート](automating/using/external-signal-data-import.md)
+         + [ファイルオーディエンスとデータベースの紐付け](automating/using/reconcile-file-audience-with-database.md)
+         + [インポートされたファイルからのデータの重複排除](automating/using/deduplicating-data-imported-file.md)
+         + [ファイルに含まれるデータによるプロファイルデータのエンリッチメント](automating/using/enriching-profile-data-file.md)
+         + [外部シグナルのアクティビティとデータのインポート](automating/using/external-signal-data-import.md)
          + [外部データを使用したデータベースの更新](automating/using/update-database-file.md)
          + [ファイルの自動ダウンロードに基づくデータの更新](automating/using/update-data-automatic-download.md)
-         + [関係を使用したデータ調整](automating/using/reconciliation-using-relations.md)
-         + [調整を使用したデータ更新](automating/using/data-update-reconciliation.md)
+         + [関係を使用したデータの紐付け](automating/using/reconciliation-using-relations.md)
+         + [紐付けを使用したデータの更新](automating/using/data-update-reconciliation.md)
          + [外部ファイル内のプロファイルの書き出し](automating/using/exporting-profiles-in-file.md)
          + [ファイルからの複数の購読ステータスの更新](automating/using/updating-subscriptions-from-file.md)
-         + [ファイルから特定のサービスへのプロファイルのサブスクライブ](automating/using/subscribing-profiles-from-file.md)
+         + [ファイルから特定のサービスへのプロファイルの購読](automating/using/subscribing-profiles-from-file.md)
    + Adobe Experience Platform オーディエンスの使用 {#working-with-aep-audiences}
       + [Adobe Experience Platform オーディエンスのターゲティング](automating/using/aep-targeting-audiences.md)
       + [Adobe Experience Platform 属性を使用したキャンペーンのパーソナライズ](automating/using/aep-personalizing-campaigns.md)
@@ -427,12 +427,12 @@ ht-degree: 85%
       + [トランザクションメッセージの設定](administration/using/configuring-transactional-messaging.md)
    + モバイルチャネルの設定 {#configuring-mobile}
       + [プッシュトラッキングの実装](administration/using/push-tracking.md)
-      + [画像とビデオのiOSへの追加](administration/using/image-push-notification.md)
-      + [プッシュ通知ペイロード構造について](administration/using/push-payload.md)
+      + [画像とビデオの追加（iOS）](administration/using/image-push-notification.md)
+      + [プッシュ通知のペイロード構造について](administration/using/push-payload.md)
       + [ローカル通知トラッキングの実装](administration/using/local-tracking.md)
-      + [Adobe起動同期のFAQ](administration/using/syncwithlaunch-faq.md)
-      + [Experience PlatformSDK統合FAQ](administration/using/aep-faq.md)
-      + [Adobe Campaign Standardの使用例をサポートするための起動ルールの設定](administration/using/configuring-rules-launch.md)
+      + [Adobe Launch 同期 FAQ](administration/using/syncwithlaunch-faq.md)
+      + [Experience Platform SDK 統合 FAQ](administration/using/aep-faq.md)
+      + [Adobe Campaign Standard の使用例をサポートするための Launch ルールの設定](administration/using/configuring-rules-launch.md)
       + [Adobe Campaign Standard でサポートされるモバイルの使用例](administration/using/supported-mobile-use-cases.md)
    + アプリケーション設定{#application-settings}
       + [Adobe Campaign Standard 設定について](administration/using/about-campaign-standard-settings.md)
@@ -446,7 +446,7 @@ ht-degree: 85%
 + API の操作{#working-with-apis}
    + [Campaign Standard API の概要](api/using/get-started-apis.md)
    + Campaign Standard API について {#about-campaign-standard-apis}
-      + [Campaign StandardAPIを使用する理由](api/using/why-using-campaign-standard-apis.md)
+      + [Campaign Standard API を使用する理由](api/using/why-using-campaign-standard-apis.md)
       + [API アクセスの設定](api/using/setting-up-api-access.md)
    + グローバルな概念{#global-concepts}
       + [必読](api/using/must-read.md)
