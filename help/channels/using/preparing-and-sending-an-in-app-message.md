@@ -13,10 +13,10 @@ context-tags: delivery,triggers,back;deliveryCreation,wizard
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: df70a2165c5d3a4b553565d9a91ec3f8da1b44aa
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
 workflow-type: tm+mt
-source-wordcount: '1274'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -171,4 +171,3 @@ Adobe Campaign を使用してスタンドアロンのアプリ内メッセー�
 
 * [アプリ内レポート](../../reporting/using/in-app-report.md)
 * [ワークフロー内でのアプリ内メッセージの送信](../../automating/using/in-app-delivery.md)
-
