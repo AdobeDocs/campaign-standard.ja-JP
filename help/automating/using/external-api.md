@@ -9,11 +9,11 @@ topic-tags: targeting-activities
 context-tags: externalAPI,workflow,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9a8e3087ef6a0cf2f1d68cb145a67af3c05d27ec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2269'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -40,17 +40,17 @@ ht-degree: 64%
 
 ### 下位互換性に関する注意 {#from-beta-to-ga}
 
-Campaign Standard20.4リリースでは、HTTP応答データのサイズ制限と応答タイムアウトのガードレールが下がり、ベストプラクティスに合わせて調整されました（「制限事項とガードレール」の節を参照）。 これらのガードレールの変更は、既存の外部APIアクティビティには影響しません。したがって、既存の外部APIアクティビティを、すべてのワークフローの新しいバージョンで置き換えることをお勧めします。
+Campaign Standard 20.4 リリースでは、HTTP 応答データのサイズ制限と応答タイムアウトのガードレールが下がり、ベストプラクティスに合わせて調整されました（「制限事項とガードレール」の節を参照）。これらのガードレールの変更は、既存の外部 API アクティビティには影響しません。したがって、既存の外部 API アクティビティを、すべてのワークフローの新しいバージョンで置き換えることをお勧めします。
 
-Campaign Standard20.2（またはそれ以前）からアップグレードする場合は、External API機能により、Campaign Standard20.3リリースでベータ版が一般リリース(GA)に移行されたことに注意してください。
+Campaign Standard 20.2（またはそれ以前）からアップグレードする場合は、外部 API 機能により、Campaign Standard 20.3 リリースでベータ版が一般リリース（GA）に移行されたことに注意してください。
 
-それに伴い、今までベータ版の「外部 API」アクティビティを使用していた場合は、すべてのワークフローで GA 版の「外部 API」アクティビティに置き換える必要があります。  ベータ版のExternal APIを使用するワークフローは、Campaign Standard20.3リリース以降は動作しません。
+それに伴い、今までベータ版の「外部 API」アクティビティを使用していた場合は、すべてのワークフローで GA 版の「外部 API」アクティビティに置き換える必要があります。  ベータ版の外部 API を使用するワークフローは、Campaign Standard 20.3 リリース以降は動作しません。
 
 「外部 API」アクティビティを置き換える場合は、新しい「外部 API」アクティビティをワークフローに追加し、設定の詳細を手動でコピーしてから、古いアクティビティを削除します。
 
 >[!NOTE]
 >
->アクティビティ内でマスクされるので、アクティビティ固有のヘッダー値をコピーすることはできません。
+>アクティビティ固有のヘッダー値はアクティビティ内でマスクされているので、コピーすることはできません。
 
 次に、ワークフローでベータ版「外部 API」アクティビティのデータを参照／使用している他のアクティビティを、新しい「外部 API」アクティビティのデータを参照／使用するように再設定します。アクティビティの例：E メール配信（パーソナライゼーションフィールド）、エンリッチメントアクティビティなど
 
@@ -58,21 +58,21 @@ Campaign Standard20.2（またはそれ以前）からアップグレードす�
 
 このアクティビティには、次のガードレールが適用されます。
 
-* 5MB http応答データサイズ制限(注意：これは、前のリリースの50 MBの制限からの変更です)。
-* リクエストのタイムアウトは1分です(注意：これは、前のリリースの10分のタイムアウトからの変更です)。
+* 5 MB HTTP 応答データサイズ制限（注：これは、前のリリースの 50 MB の制限からの変更です）
+* 要求のタイムアウトは 1 分です（注：これは、前のリリースの 10 分のタイムアウトからの変更です）
 * HTTP リダイレクト：禁止
 * HTTPS 以外の URL：却下
-* 「Accept： application/json」リクエストヘッダーと「Content-Type: application/json」の応答ヘッダー：許可
+* 「Accept: application/json」リクエストヘッダーと「Content-Type: application/json」の応答ヘッダー：許可
 
 特定のガードレールが配置されました。
 
-* **JSON の最大深度**：JSON のカスタムネストの処理可能な深さを最大 10 レベルに制限
+* **JSON の最大深度**：JSON のカスタムネストの処理可能な深さを最大 10 レベルに制限。
 * **JSON の最大キー長**：生成される内部キーの最大長を 255 に制限。このキーは列 ID に関連付けられています。
-* **JSON 最大重複キーの許可**：列 IDとして使用される重複 JSON プロパティ名の合計数の上限は 150。
+* **JSON 最大重複キーの許可**：列 ID として使用される重複 JSON プロパティ名の合計数の上限は 150。
 
 >[!CAUTION]
 >
->External APIアクティビティは、キャンペーン全体のデータ(最新のオファーセット、最新のスコアなど)を取得する目的で使用され、各プロファイルの特定の情報を取得する目的では使用されません。取得したデータ量が多い場合に限ります。 プロファイル関連のデータ取得が必要な場合は、「[ファイル転送](../../automating/using/transfer-file.md)」アクティビティを使用することをお勧めします。
+>外部 API アクティビティは、キャンペーン全体のデータ（最新のオファーセット、最新のスコアなど）を取得するためのものであり、各プロファイルの特定の情報を取得するためのものではありません（大量のデータが転送される可能性があるため）。プロファイル関連のデータ取得が必要な場合は、「[ファイル転送](../../automating/using/transfer-file.md)」アクティビティを使用することをお勧めします。
 
 ## 設定 {#configuration}
 
@@ -122,13 +122,13 @@ JSON パーサーは、標準の JSON 構造パターンタイプに対応する
 
 ### 「EXECUTION」タブ
 
-このタブでは、接続エンドポイントを定義できます。 この **[!UICONTROL URL]** フィールドでは、ACSにデータを送信する **HTTPSエンドポイント** を定義できます。
+このタブでは、接続エンドポイントを定義できます。「**[!UICONTROL URL]**」フィールドでは、ACS にデータを送信する **HTTPS エンドポイント**&#x200B;を定義できます。
 
-エンドポイントで必要な場合、次の2種類の認証方法を使用できます。
+エンドポイントで必要な場合、次の 2 種類の認証方法を使用できます。
 
-* 基本認証：フィールドにユーザ名/パスワード情報を入力し **[!UICONTROL Request Header(s)]** ます。
+* 基本認証：「**[!UICONTROL Request Header(s)]**」フィールドにユーザー名／パスワード情報を入力します。
 
-* OAuth認証：をクリックする **[!UICONTROL Use connection parameters defined in an external account]**&#x200B;と、OAuth認証が定義されている外部アカウントを選択できます。 For more information, refer to the [External accounts](../../administration/using/external-accounts.md) section.
+* OAuth 認証：**[!UICONTROL Use connection parameters defined in an external account]** をクリックすると、OAuth 認証が定義されている外部アカウントを選択できます。詳しくは、「[外部アカウント](../../administration/using/external-accounts.md)」の節を参照してください。
 
 ![](assets/externalAPI-execution.png)
 
@@ -180,36 +180,36 @@ JSON パーサーは、標準の JSON 構造パターンタイプに対応する
  </thead> 
  <tbody> 
   <tr> 
-   <td> API URL 「%s」を呼び出しています。</td> 
+   <td> Invoking API URL '%s'.</td> 
    <td> <p>API URL「https://example.com/api/v1/web-coupon?count=2」を呼び出しています。</p></td> 
   </tr> 
   <tr> 
-   <td> %s （%dミリ秒）のため、API URL '%s'を再試行しています。 %dを試みてください。</td> 
-   <td> <p>API URL 'https://example.com/api/v1/web-coupon?count=0''を2,364 msでHTTP - 401で再試行しています。2を試してください。</p></td>
+   <td> Retrying API URL '%s' due to %s in %d ms, attempt %d.</td> 
+   <td> <p>HTTP - 401 のため、API URL「https://example.com/api/v1/web-coupon?count=0」を 2,364 ミリ秒後に再試行します (試行 2)。</p></td>
   </tr> 
   <tr> 
-   <td> 「%s」からコンテンツを転送しています (%s/%s)。</td> 
-   <td> <p>「https://example.com/api/v1/web-coupon?count=2」からコンテンツを転送しています (1234/1234)。</p></td> 
+   <td> Transferring content from '%s' (%s / %s).</td> 
+   <td> <p>「Https://example.com/api/v1/web-coupon?count=2」からコンテンツを転送しています (1234/1234)。</p></td> 
   </tr>
   <tr> 
-   <td> プロバイダID '%s'にキャッシュされたアクセストークンを使用しています。</td> 
-   <td> <p>プロバイダーID 'EXT25'にキャッシュされたアクセストークンを使用しています。 注意： EXT25は、外部アカウントのID（または名前）です。 </p></td> 
+   <td> Using cached access token for provider ID '%s'.</td> 
+   <td> <p>プロバイダー ID「EXT25」にキャッシュされたアクセストークンを使用しています。注：EXT25 は、外部アカウントの ID（または名前）です。 </p></td> 
   </tr>
   <tr> 
-   <td> プロバイダID '%s'のアクセストークンをサーバからフェッチしました。</td> 
-   <td> <p>プロバイダID 'EXT25'のアクセストークンをサーバーから取得しました。 注意：EXT25は、外部アカウントのID（または名前）です。</p></td> 
+   <td> Fetched access token from server for provider ID '%s'.</td> 
+   <td> <p>プロバイダー ID「EXT25」のアクセストークンをサーバーから取得しました。注：EXT25 は、外部アカウントの ID（または名前）です。</p></td> 
   </tr>
   <tr> 
-   <td> エラーが発生したため、OAuthアクセストークンを更新しています(HTTP:'%d')。</td> 
-   <td> <p>エラーが発生したため、OAuthアクセストークンを更新しています(HTTP:'401')。</p></td> 
+   <td> Refreshing OAuth access token due to error (HTTP: '%d').</td> 
+   <td> <p>エラー (HTTP : 「401」) が発生したため、OAuth アクセストークンを更新しています。</p></td> 
   </tr>
   <tr> 
-   <td> OAuthアクセストークンの更新中にエラーが発生しました(エラー：'%d')。 </td> 
-   <td> <p>OAuthアクセストークンの更新中にエラーが発生しました(エラー：'404')。</p></td> 
+   <td> Error refreshing OAuth access token (error: '%d'). </td> 
+   <td> <p>OAuth アクセストークンの更新中にエラーが発生しました (エラー : 「404」)。</p></td> 
   </tr>
   <tr> 
-   <td> 指定された外部アカウントを使用してOAuthアクセストークンを取得できませんでした。試行%dで、%dミリ秒後に再試行します。</td> 
-   <td> <p>試行1で指定された外部アカウントを使用してOAuthアクセストークンを取得できませんでした。1,387 msで再試行します。</p></td> 
+   <td> Failed to fetch the OAuth access token using the specified external account on attempt %d, retrying in %d ms.</td> 
+   <td> <p>試行 1 で指定された外部アカウントを使用して OAuth アクセストークンを取得できませんでした。1,387 ミリ秒後に再試行します。</p></td> 
   </tr>
  </tbody> 
 </table>
@@ -227,93 +227,93 @@ JSON パーサーは、標準の JSON 構造パターンタイプに対応する
  </thead> 
  <tbody> 
   <tr> 
-   <td> WKF-560250 - API リクエスト本文が制限を超えました (制限 : 「%d」)。</td> 
+   <td> WKF-560250 - API request body exceeded limit (limit: '%d').</td> 
    <td> <p>API リクエスト本文が制限を超えました (制限 : 「5242880」)。</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560239 - API 応答が制限を超えました (制限 : 「%d」)。</td> 
+   <td> WKF-560239 -  API response exceeded limit (limit: '%d').</td> 
    <td> <p>API 応答が制限を超えました (制限 : 「5242880」)。</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560245 - API URL を解析できませんでした (エラー : 「%d」)。</td> 
+   <td> WKF-560245 - API URL could not be parsed (error: '%d').</td> 
    <td> <p>API URL を解析できませんでした (エラー : 「2010」)。</p>
    <p> 注意：このエラーは、API URL が検証ルールに失敗した場合に記録されます。</p></td>
   </tr> 
   <tr>
-   <td> WKF-560244 - API URL ホストは「localhost」または IP アドレスリテラル (URL ホスト : 「%s」) でないことが必要です。</td> 
+   <td> WKF-560244 - API URL host must not be 'localhost', or IP address literal (URL host: '%s').</td> 
    <td> <p>API URL ホストは「localhost」または IP アドレスリテラル (URL ホスト : 「localhost」) でないことが必要です。</p>
     <p>API URL ホストは「localhost」または IP アドレスリテラル (URL ホスト : 「192.168.0.5」) でないことが必要です。</p>
     <p>API URL ホストは「localhost」または IP アドレスリテラル (URL ホスト : 「[2001]」) でないことが必要です。</p></td>
   </tr> 
   <tr> 
-   <td> WKF-560238 - API URL は、セキュリティで保護された URL (https) である必要があります (要求された URL : 「%s」)。</td> 
+   <td> WKF-560238 - API URL must be a secure URL (https) (requested URL: '%s').</td> 
    <td> <p>API URL は、セキュリティで保護された URL (https) である必要があります (要求された URL : 「https://example.com/api/v1/web-coupon?count=2」)。</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560249 - JSON リクエスト本文を作成できませんでした。「%s」を追加中にエラーが発生しました。</td> 
+   <td> WKF-560249 - Failed to create request body JSON.「%s」を追加中にエラーが発生しました。</td> 
    <td> <p>JSON リクエスト本文を作成できませんでした。「params」を追加中にエラーが発生しました。</p>
     <p>JSON リクエスト本文を作成できませんでした。「data」を追加中にエラーが発生しました。</p></td>
   </tr> 
   <tr> 
-   <td> WKF-560246 - HTTP ヘッダーキーが正しくありません (ヘッダーキー : 「%s」)。</td> 
+   <td> WKF-560246 - HTTP header key is bad (header key: '%s').</td> 
    <td> <p>HTTP ヘッダーキーが正しくありません (ヘッダーキー : 「%s」)。</p>
    <p> 注意：このエラーは、カスタムヘッダーキーが <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a> に従った検証に失敗した場合に記録されます。</p></td> 
   </tr>
  <tr> 
-   <td> WKF-560248 - HTTP ヘッダーキーが使用できません (ヘッダーキー : 「%s」)。</td> 
+   <td> WKF-560248 - HTTP header key is not allowed (header key: '%s').</td> 
    <td> <p>HTTP ヘッダーキーが使用できません (ヘッダーキー : 「Accept」)。</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560247 - HTTPヘッダ値が正しくありません(ヘッダ値：'%s')。</td> 
+   <td> WKF-560247 -  A HTTP header value is bad (header value: '%s').</td> 
    <td> <p>HTTP ヘッダー値が正しくありません (ヘッダー値 : 「%s」)。 </p>
     <p>注意：このエラーは、カスタムヘッダー値が <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a> に従った検証に失敗した場合に記録されます。</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560240 - JSON ペイロードに不正なプロパティ「%s」があります。</td> 
+   <td> WKF-560240 - JSON payload has bad property '%s'.</td> 
    <td> <p>JSON ペイロードに不正なプロパティ「blah」があります。</p></td>
   </tr> 
   <tr>
-   <td> WKF-560241 - 無効な形式の JSON または受け入れられない形式です。</td> 
+   <td> WKF-560241 - Malformed JSON or unacceptable format.</td> 
    <td> <p>無効な形式の JSON または受け入れられない形式です。</p>
    <p>注意：このメッセージは、「外部 API」からの応答本文の解析にのみ適用され、応答本文がこのアクティビティで必須の JSON 形式に準拠しているかどうかを検証しようとしたときに記録されます。</p></td>
   </tr>
   <tr> 
-   <td> WKF-560246 - アクティビティに失敗しました (理由 : 「%s」)。</td> 
+   <td> WKF-560246 - Activity failed (reason: '%s').</td> 
    <td> <p>HTTP 401 エラー応答が原因でアクティビティに失敗した場合：アクティビティに失敗しました (理由 : 「HTTP - 401」)。</p>
         <p>内部呼び出しの失敗によりアクティビティが失敗した場合：アクティビティに失敗しました (理由 : 「iRc - -Nn」)。</p>
         <p>Content-Type ヘッダーが無効なためアクティビティが失敗した場合：アクティビティに失敗しました (理由 : 「Content-Type - application/html」)。</p></td> 
   </tr>
   <tr> 
-   <td> WKF-560278 - "OAuthヘルパーの初期化中にエラーが発生しました(エラー：'%d')"を参照してください。</td> 
-   <td> <p>このエラーは、アクティビティが内部OAuth2.0ヘルパーファシリティを初期化できなかったことを示します。これは、外部アカウントで設定された属性を使用してヘルパーを初期化する際のエラーが原因です。</p></td>
+   <td> WKF-560278 - "Error initializing OAuth helper (error: '%d')" .</td> 
+   <td> <p>このエラーは、アクティビティが内部 OAuth 2.0 ヘルパーファシリティを初期化できなかったことを示します。これは、外部アカウントで設定された属性を使用してヘルパーを初期化する際のエラーが原因です。</p></td>
   </tr>
   <tr> 
-   <td> WKF-560279 - "HTTPヘッダーキーは使用できません(ヘッダーキー：'%s')。"</td> 
-   <td> <p>この警告（エラーではない）メッセージは、OAuth 2.0外部アカウントが秘密鍵証明書をHTTPヘッダーとして追加するように設定されているが、使用されるヘッダーキーは予約済みのヘッダーキーであるため、許可されていないことを示します。</p></td>
+   <td> WKF-560279 - "HTTP header key is not allowed (header key: '%s')."</td> 
+   <td> <p>この警告（エラーではない）メッセージは、OAuth 2.0 外部アカウントが秘密鍵証明書を HTTP ヘッダーとして追加するように設定されているが、使用されるヘッダーキーは予約済みのヘッダーキーであるため、許可されていないことを示します。</p></td>
   </tr>
   <tr> 
-   <td> WKF-560280 - '%s' IDの外部アカウントが見つかりません。</td> 
-   <td> <p>'EXT25' IDの外部アカウントが見つかりません。  注意：このエラーは、アクティビティが外部アカウントを使用するように設定されているが、見つからなくなったことを示します。 これは、アカウントがDBから削除された場合に最も多く発生し、通常の動作環境では発生しない可能性があるためです。</p></td>
+   <td> WKF-560280 - External account of '%s' ID cannot be found.</td> 
+   <td> <p>ID「EXT25」の外部アカウントが見つかりません。注：このエラーは、アクティビティが外部アカウントを使用するように設定されているが、見つからなくなったことを示します。これは、アカウントが DB から削除された場合に最も多く発生し、通常の動作環境では発生する可能性が低いです。</p></td>
   </tr>
   <tr> 
-   <td> WKF-560281 - '%s' IDの外部アカウントが無効です。</td> 
-   <td> <p>'EXT25' IDの外部アカウントが無効です。 注意：このエラーは、アクティビティが外部アカウントを使用するように設定されているが、そのアカウントが無効になっている（または非アクティブになっている）ことを示します。</p></td>
+   <td> WKF-560281 - External account of '%s' ID is disabled.</td> 
+   <td> <p>ID「EXT25」の外部アカウントが無効です。注：このエラーは、アクティビティが外部アカウントを使用するように設定されているが、そのアカウントが無効になっている（または非アクティブになっている）ことを示します。</p></td>
   </tr>
   <tr> 
-   <td> WKF-560282 — プロトコルはサポートされていません。</td> 
-   <td> <p>このエラーは、アクティビティに関連付けられている外部アカウントがOAuth2.0外部アカウントでないことを示します。 したがって、アクティビティ設定に何らかの破損や手動の変更がない限り、このエラーは発生しません。</p></td>
+   <td> WKF-560282 - Protocol not supported.</td> 
+   <td> <p>このエラーは、アクティビティに関連付けられている外部アカウントが OAuth 2.0 外部アカウントではないことを示します。したがって、アクティビティ設定に何らかの破損や手動の変更がない限り、このエラーは発生しません。</p></td>
   </tr>
   <tr> 
-   <td> WKF-560283 - OAuthアクセストークンを取得できませんでした。</td> 
-   <td> <p>このエラーの最も一般的な原因は、外部アカウントの設定ミスです(例： 外部アカウントの使用（接続が成功したかどうかをテストせず）。 外部アカウント上のURL/資格情報が変更される可能性があります。</p></td>
+   <td> WKF-560283 - Failed to fetch the OAuth access token.</td> 
+   <td> <p>このエラーの最も一般的な原因は、外部アカウントの構成の誤りです（例えば、接続が成功したことをテストせずに外部アカウントを使用した場合など）。外部アカウント上の URL／資格情報が変更される可能性があります。</p></td>
   </tr>
   <tr> 
-   <td> CRL-290199 — 次の場所でページに到達できません：%s。</td> 
-   <td> <p>このエラーメッセージは、OAuth用に設定する際に、外部アカウントのUI画面に表示されます。 これは、外部認証サーバーのURLが、サーバーからの誤った/変更/応答が「ページが見つかりません」であることを意味します。</p></td>
+   <td> CRL-290199 - Cannot reach page at: %s.</td> 
+   <td> <p>このエラーメッセージは、外部アカウントを OAuth 用に設定する際にそのアカウントの UI 画面に表示されます。これは、外部認証サーバーの URL が、サーバーからの誤った／変更された／応答が「ページが見つかりません」であることを意味します。</p></td>
   </tr>
   <tr> 
-   <td> CRL-290200 — 秘密鍵証明書が不完全か、正しくありません。</td> 
-   <td> <p>このエラーメッセージは、OAuth用に設定する際に、外部アカウントのUI画面に表示されます。 これは、資格情報が正しくないか、認証サーバーに接続するために必要な資格情報が他にいくつか見つからないことを意味します。
+   <td> CRL-290200 - Incomplete/Incorrect credentials.</td> 
+   <td> <p>このエラーメッセージは、外部アカウントを OAuth 用に設定する際にそのアカウントの UI 画面に表示されます。これは、資格情報が正しくないか、認証サーバーに接続するために必要な資格情報が他にいくつか見つからないことを意味します。
 </p></td>
   </tr>
  </tbody> 
