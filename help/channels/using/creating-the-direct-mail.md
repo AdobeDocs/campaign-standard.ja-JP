@@ -13,10 +13,10 @@ context-tags: delivery,directMailContent,back
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1f15e28bed22e3defb29f16875fcf4c07f4af5a3
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -25,11 +25,11 @@ ht-degree: 96%
 
 ダイレクトメール配信の作成方法は、通常の E メールの作成方法とよく似ています。次の手順では、このチャネルに固有の設定について説明します。その他のオプションについて詳しくは、[E メールの作成](../../channels/using/creating-an-email.md)を参照してください。
 
-1. 新しいダイレクトメール配信を作成します。新しいダイレクトメール配信は、Adobe Campaign [ホームページ](../../start/using/interface-description.md#home-page)、[キャンペーン](../../start/using/marketing-activities.md#creating-a-marketing-activity)、[マーケティングアクティビティリスト](../../start/using/programs-and-campaigns.md#creating-a-campaign)のいずれかから作成できます。
+>[!NOTE]
+>
+>ワークフローにダイレクトメールアクティビティを追加することもできます。詳しくは、[ワークフロー](../../automating/using/direct-mail-delivery.md)ガイドを参照してください。
 
-   >[!NOTE]
-   >
-   >ワークフローにダイレクトメールアクティビティを追加することもできます。詳しくは、[ワークフロー](../../automating/using/direct-mail-delivery.md)ガイドを参照してください。
+1. 新しいダイレクトメール配信を作成します。新しいダイレクトメール配信は、Adobe Campaign [ホームページ](../../start/using/interface-description.md#home-page)、[キャンペーン](../../start/using/marketing-activities.md#creating-a-marketing-activity)、[マーケティングアクティビティリスト](../../start/using/programs-and-campaigns.md#creating-a-campaign)のいずれかから作成できます。
 
    ![](assets/direct_mail_1.png)
 
