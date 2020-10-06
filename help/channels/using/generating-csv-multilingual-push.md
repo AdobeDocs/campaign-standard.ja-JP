@@ -12,10 +12,10 @@ discoiquuid: 79231445-1d51-499a-adcf-0c0f6db1cfa3
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 772393c135b96374cb510a3d96e3c781274e857e
+source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
 workflow-type: tm+mt
-source-wordcount: '1127'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -28,22 +28,20 @@ ht-degree: 1%
 
 多言語のプッシュには、CSVファイルに14列必要です。
 
-* タイトル
-* messageBody
-* 音
-* バッジ
-* deeplinkURI
-* category
-* iosMediaAttachmentURL
-* androidMediaAttachmentURL
-* isContentAvailable
-* isMutableContent
-* customFields
-* locale
-* language
-* silentPush
-
-![](assets/multilingual_push_1.png)
+1. タイトル
+1. messageBody
+1. 音
+1. adge
+1. deeplinkURI
+1. category
+1. iosMediaAttachmentURL
+1. androidMediaAttachmentURL
+1. isContentAvailable
+1. isMutableContent
+1. customFields
+1. locale
+1. language
+1. silentPush
 
 ウィンドウのをクリックして、CSVサンプル **[!UICONTROL Download a sample file]** を確認し **[!UICONTROL Manage Content Variants]** ます。 For more on this, refer to the this [section](../../channels/using/creating-a-multilingual-push-notification.md).
 
@@ -125,8 +123,8 @@ CSVファイルに各列の名前を含める必要があります。コンテ�
 | ar_ae | アラビア語 — アラブ首長国連邦 |
 | ar_ye | アラビア語 — イエメン |
 | hy_am | アルメニア語 — アルメニア |
-| az_az | アゼリ語 — アゼルバイジャン |
-| be_by | ベラルーシ語 — ベラルーシ |
+| bez_az | アゼリ語 — アゼルバイジャン |
+| シアル | ベラルーシ語 — ベラルーシ |
 | bs_ba | ボスニア語 — ボスニア |
 | bg_bg | ブルガリア語 — ブルガリア |
 | ca_es | カタルーニャ語 — スペイン |
@@ -135,17 +133,17 @@ CSVファイルに各列の名前を含める必要があります。コンテ�
 | zh_hk | 中国語（繁体字） — 香港、中国 |
 | zh_tw | 中国語（繁体字） — 台湾地域 |
 | hr_hr | クロアチア語 — クロアチア |
-| cs_cz | チェコ語 — チェコ |
+| en_cs | チェコ語 — チェコ |
 | da_dk | デンマーク語 — デンマーク |
 | nl_be | オランダ語 — ベルギー |
 | nl_nl | オランダ語 — オランダ |
-| en_au | 英語 — オーストラリア |
+| an_au | 英語 — オーストラリア |
 | en_bz | 英語 — ベリーズ |
 | en_ca | 英語 — カナダ |
 | en_in | 英語 — インド |
 | en_ie | 英語 — アイルランド |
 | en_jm | 英語 — ジャマイカ |
-| fr_nz | 英語 — ニュージーランド |
+| en_nz | 英語 — ニュージーランド |
 | en_ph | 英語 — フィリピン |
 | en_za | 英語 — 南アフリカ |
 | en_tt | 英語 — トリニダード・トバゴ |
@@ -157,9 +155,9 @@ CSVファイルに各列の名前を含める必要があります。コンテ�
 | fr_be | フランス語 — ベルギー |
 | fr_ca | フランス語 — カナダ |
 | fr_fr | フランス語 — フランス |
-| dr_lu | フランス語 — ルクセンブルク |
+| fr_lu | フランス語 — ルクセンブルク |
 | fr_ch | フランス語 — スイス |
-| ニア | ドイツ語 — オーストリア |
+| de_at | ドイツ語 — オーストリア |
 | de_de | ドイツ語 — ドイツ |
 | de_lu | ドイツ語 — ルクセンブルク |
 | de_ch | ドイツ語 — スイス |
