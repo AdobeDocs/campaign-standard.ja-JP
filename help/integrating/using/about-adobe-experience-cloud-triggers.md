@@ -12,11 +12,11 @@ discoiquuid: e526b205-2d01-4a8b-9685-ba1d9a1f459f
 context-tags: trigger,overview;trigger,main
 internal: n
 snippet: y
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1e790f550f6eb84954f199caeda88a8fd90dfd85
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '475'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -29,13 +29,13 @@ Adobe Experience Cloud では、様々なトリガー、つまり、監視した
 
 Adobe Campaign では、以前に作成したトリガーを選択し、データマートのデータを使用してイベントデータのエンリッチメントをおこない、そのトリガーにリンクされたトランザクションメッセージテンプレートを定義します。例えば、ある顧客が Web サイトでの訪問を放棄した場合、イベントが Adobe Campaign に送信され、15 分以内にクライアントに送信されるリマーケティング E メールを介してこのイベントを活用できます。
 
-次の図は、この統合の動作の詳細を示しています。
+次の図は、この統合の仕組みについて詳しく説明しています。
 
 ![](assets/triggers_diagram.png)
 
 **関連トピック：**
 
-* トリガーの様々なタイプについて詳しくは、[Adobe Experience Cloud ドキュメント](https://docs.adobe.com/content/help/en/core-services/interface/activation/triggers.html)を参照してください。
+* トリガーの様々なタイプについて詳しくは、[Adobe Experience Cloud ドキュメント](https://docs.adobe.com/content/help/ja-JP/core-services/interface/activation/triggers.html)を参照してください。
 * [サイトアクティビティに基づくリマーケティングメッセージのトリガー](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two)に関するビデオを参照してください。
 * 2 つの[放棄トリガーの使用例](../../integrating/using/abandonment-triggers-use-cases.md)を参照してください。
 
