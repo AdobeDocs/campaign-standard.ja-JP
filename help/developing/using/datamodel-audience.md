@@ -7,15 +7,16 @@ products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '207'
+ht-degree: 36%
 
 ---
 
 
-# オーディエンス(nms:audience)
+# オーディエンス(nms:オーディエンス)
 
 ## オブジェクトの説明
 
@@ -46,7 +47,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
                </tr>
                <tr>
                   <td>audienceData</td>
-                  <td>選択した母集団のプレビュー</td>
+                  <td>プレビュー選択母集団</td>
                   <td>コレクション </td>
                   <td> </td>
                </tr>
@@ -71,7 +72,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
                <tr>
                   <td>count</td>
                   <td>Count</td>
-                  <td>整数 </td>
+                  <td>integer </td>
                   <td> </td>
                </tr>
                <tr>
@@ -88,7 +89,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
                </tr>
                <tr>
                   <td>created</td>
-                  <td>作成済み</td>
+                  <td>作成日時</td>
                   <td>日付 </td>
                   <td> </td>
                </tr>
@@ -113,7 +114,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
                <tr>
                   <td>errorLimit</td>
                   <td>中止前の最大エラー数</td>
-                  <td>整数 </td>
+                  <td>integer </td>
                   <td> </td>
                </tr>
                <tr>
@@ -136,7 +137,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
                </tr>
                <tr>
                   <td>isAMC</td>
-                  <td>Adobe Marketing cloudオーディエンス</td>
+                  <td>Adobe Marketing Cloudオーディエンス</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
@@ -203,7 +204,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
                <tr>
                   <td>sourceId</td>
                   <td>ソース ID</td>
-                  <td>整数 </td>
+                  <td>integer </td>
                   <td> </td>
                </tr>
                <tr>
@@ -215,12 +216,12 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
                <tr>
                   <td>type</td>
                   <td>タイプ</td>
-                  <td>列挙（文字列） (100)</td>
+                  <td>定義済みリスト（文字列） (100)</td>
                   <td>
                      <ul>
-                        <li>クエリ — クエリ — クエリ</li>
-                        <li>リスト — リスト — リスト</li>
-                        <li>ファイル→ファイル→ファイル</li>
+                        <li>クエリ-クエリ-クエリ</li>
+                        <li>リスト-リスト-リスト</li>
+                        <li>ファイル — ファイル — ファイル</li>
                         <li>無効な値 — __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
@@ -241,7 +242,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
 
 ## フィルター
 
-ディメンションのフィルタリング(byFilteringResource)
+フィルタリングディメンション別(byFilteringResource)
 
 <table>
     <tr>
@@ -276,7 +277,7 @@ source-git-commit: 18d9b33e36db628ef1fc014e4abe6a4a7eef48b3
     </tr>
     <tr>
     <td>type</td>
-    <td>列挙</td>
+    <td>定義済みリスト</td>
     </tr>
     <tr>
     <td>isAMC</td>
