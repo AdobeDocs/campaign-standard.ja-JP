@@ -9,13 +9,11 @@ audience: channels
 content-type: reference
 topic-tags: email-messages
 discoiquuid: b27e0170-e73f-4782-8568-02927fb374f4
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: e1e092249a447039c0d845f143be532f845ca1dc
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '549'
-ht-degree: 19%
+ht-degree: 20%
 
 ---
 
@@ -54,7 +52,7 @@ ht-degree: 19%
 
    ![](assets/email_creation_4.png)
 
-   定義済みのコンテンツテンプレートを使用して、またはDreamweaverやAdobe Experience Managerを使用して、メッセージを直接デザインできます。 デザイナーに似ていない場合は、用意済みのコンテンツをアップロードするか、URLから既存のコンテンツを読み込むこともできます。 詳しくは、既存のコンテンツの [選択を参照してください](../../designing/using/using-existing-content.md)。
+   定義済みのコンテンツテンプレートを使用して、またはDreamweaverやAdobe Experience Managerを使用して、メッセージを直接デザインできます。 デザイナーに似ていない場合は、用意済みのコンテンツをアップロードするか、URLから既存のコンテンツを読み込むこともできます。 詳しくは、[既存のコンテンツの選択](../../designing/using/using-existing-content.md)を参照してください。
 
 1. メッセージのプレビュー. [メッセージのプレビュー](../../sending/using/previewing-messages.md)を参照してください。
 1. E メールの作成を確認します。
