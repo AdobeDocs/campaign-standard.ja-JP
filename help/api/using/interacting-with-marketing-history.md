@@ -9,26 +9,27 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: e60ec7790da46d234b66baf4c3db23815056b9fb
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '147'
+ht-degree: 10%
 
 ---
 
 
 # マーケティング履歴の操作 {#interacting-with-marketing-history}
 
-履歴エ **ンドポイント** では、プロファイルのマーケティング履歴を操作できます。
+**履歴** エンドポイントを使用すると、プロファイルのマーケティング履歴を操作できます。
 これにより、例えば、プロファイルに送信された配信のミラーページを簡単に取得できます。 これをおこなうには、以下の手順に従います。
 
-1. 履歴エンドポイントとプロ **ファイルの** プライマリキーを使用してGETを実行します。
-1. 返されたイベントhrefに対してGET **要求を** 実行します。
-1. mirrorPageノード内のミラーページへのリンクを持つプロファイルのイベントのリストを返 **します** 。
+1. **** 履歴エンドポイントとプロファイルのプライマリキーを使用してGETを実行します。
+1. 返された **イベント** hrefに対してGETリクエストを実行します。
+1. mirrorPage **** ノード内のミラーページへのリンクを持つプロファイルのイベントのリストを返します。
 
 <br/>
 
-***サンプルリクエスト&#x200B;***
+***サンプルリクエスト***
 
 GETリクエストを使用して、プロファイルのマーケティング履歴を取得します。
 
@@ -40,7 +41,7 @@ GETリクエストを使用して、プロファイルのマーケティング�
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-「events」ノードは、プロファイル上のイベントにアクセスできるURLを返します。
+「イベント」ノードは、プロファイル上のイベントへのアクセスを提供するURLを返します。
 
 ```
 {
@@ -55,7 +56,7 @@ GETリクエストを使用して、プロファイルのマーケティング�
 }
 ```
 
-返されたイベントhrefに対してGET要求を実行します。
+返されたイベントhrefに対してGETリクエストを実行します。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/history/<PKEY>/events \
