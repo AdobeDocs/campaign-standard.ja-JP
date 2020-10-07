@@ -9,10 +9,8 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 discoiquuid: 2a14500f-5ede-4131-8b1a-b7fd65b7e3aa
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 3161226c9ab28f8d519f55a408022284919954f6
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '1283'
 ht-degree: 8%
@@ -109,7 +107,8 @@ Experience Platform Launchでモバイルプロパティを作成および設定
    >[!NOTE]
    >
    >デフォルトでは、「Adobeの起動」で作成されたモバイルアプリケーションのリストを取得するために、Campaign StandardはNmsServer_URLオプションで定義された値を使用して、一致するプロパティを探します。
-場合によっては、モバイルアプリケーションのキャンペーンエンドポイントがNmsServer_URLで定義されているエンドポイントと異なることがあります。 その場合は、「Launch_URL_キャンペーン」オプションでエンドポイントを定義します。 キャンペーンは、このオプションの値を使用して、「Adobeの起動」で一致するプロパティを探します。
+   >
+   >場合によっては、モバイルアプリケーションのキャンペーンエンドポイントがNmsServer_URLで定義されているエンドポイントと異なることがあります。 その場合は、「Launch_URL_キャンペーン」オプションでエンドポイントを定義します。 キャンペーンは、このオプションの値を使用して、「Adobeの起動」で一致するプロパティを探します。
 
    ![](assets/launch_4.png)
 
