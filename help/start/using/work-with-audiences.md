@@ -9,13 +9,11 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: 4ba4f766-fdee-4ff0-8fe4-0612ed2b69a4
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: d4ac80810a77c0a6b512b3ed4c925fa0fb8a219c
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '788'
-ht-degree: 10%
+ht-degree: 12%
 
 ---
 
@@ -49,7 +47,7 @@ ht-degree: 10%
 
 <img width="60px" alt="conditions" src="assets/icon_profile.svg"/>
 
-Adobe Campaignプロファイルは、データベースに格納されているすべての連絡先を表します。 各プロファイルはデータベース内の1つのエントリに対応し、そのプロファイルがターゲット設定され、資格を持ち、個別に追跡されるために必要な情報が格納されます。 つまり、プロファイルは次のことが可能です。 組織に応じた顧客、見込み客、ニュースレターを購読している個人、受信者、ユーザー、またはその他の名称。
+Adobe Campaignプロファイルは、データベースに格納されているすべての連絡先を表します。 各プロファイルはデータベース内の1つのエントリに対応し、そのプロファイルがターゲット設定され、資格を持ち、個別に追跡されるために必要な情報が格納されます。 つまり、プロファイルは次のことが可能です。組織に応じた顧客、見込み客、ニュースレターを購読している個人、受信者、ユーザー、またはその他の名称。
 
 **詳細を表示**
 
@@ -68,9 +66,9 @@ Campaign Standardオファーは、マーケティングデータベースの拡
 
 また、データを読み込むためのテンプレートを設定することもできます。 同じ構造を持つファイルを定期的に読み込む必要がある場合は、インポートテンプレートの使用をお勧めします。 次の2種類のテンプレートを設定できます。
 
-* **ワークフローテンプレート**: これらは事前設定済みのワークフローで、必要に応じて一度設定すれば、データの読み込みとデータベースの更新を行うたびに再利用できます。 データを読み込むためのワークフローテンプレートの例について [この節で詳しく説明します](../../automating/using/creating-import-workflow-templates.md)。
+* **ワークフローテンプレート**:これらは事前設定済みのワークフローで、必要に応じて一度設定すれば、データの読み込みとデータベースの更新を行うたびに再利用できます。 データを読み込むためのワークフローテンプレートの例について [この節で詳しく説明します](../../automating/using/creating-import-workflow-templates.md)。
 
-* **データテンプレートの読み込み**: ワークフローテンプレートと同様、テンプレートはワークフローに基づくテンプレートで、データベースを更新するためにファイルをアップロードするように設定されます。 設定が完了すると、 **[!UICONTROL Profile & audiences]** /メニューのシンプルな表示を使用してユーザーが使用できるようになり **[!UICONTROL Imports]** ます。 データテンプレートの読み込みについて詳しくは、 [専用のドキュメントを参照してください](../../automating/using/importing-data-with-import-templates.md)。
+* **データテンプレートの読み込み**:ワークフローテンプレートと同様、テンプレートはワークフローに基づくテンプレートで、データベースを更新するためにファイルをアップロードするように設定されます。 設定が完了すると、 **[!UICONTROL Profile & audiences]** /メニューのシンプルな表示を使用してユーザーが使用できるようになり **[!UICONTROL Imports]** ます。 データテンプレートの読み込みについて詳しくは、 [専用のドキュメントを参照してください](../../automating/using/importing-data-with-import-templates.md)。
 
 ### ランディングページからのデータの収集 {#collecting-data-from-landing-pages}
 
@@ -80,7 +78,7 @@ Campaign Standardオファーは、マーケティングデータベースの拡
 * 各入力フィールドを、データベースの対応するフィールドにマップします。
 * Webサイトまたはメッセージへの直接リンクを介して、ランディングページをオンラインで利用できるようにします。
 
-ランディングページについて詳しくは、 [専用ドキュメントを参照してください](../../channels/using/getting-started-with-landing-pages.md)。
+For more on landing pages, refer to the [dedicated documentation](../../channels/using/getting-started-with-landing-pages.md).
 
 **詳細を表示**
 
@@ -107,7 +105,7 @@ Campaign StandardAPIを使用すると、プロファイルやサービスの作
 
 >[!CAUTION]
 >
->API呼び出しを使用してプロファイルの一括作成または更新を実行する前に、使用許諾契約に対応するスケール制限を確認してください。 詳しくは、[このページ](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers)を参照してください。
+>API呼び出しを使用してプロファイルの一括作成または更新を実行する前に、使用許諾契約に対応するスケール制限を確認してください。 詳しくは、[このページ](https://helpx.adobe.com/jp/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers)を参照してください。
 
 **詳細を表示**
 
@@ -133,7 +131,7 @@ Campaign StandardAPIを使用すると、プロファイルやサービスの作
 
 GDPR は欧州連合（EU）にて新しく施行されるプライバシー保護法律で、データ保護要件を現代の状況に合わせて整合化することを目的としています。GDPR は、EU に居住しているデータ主体のデータを保有している Adobe Campaign の顧客に適用されます。Adobe Campaignで既に利用可能なプライバシー機能（同意管理、データ保持設定、ユーザの役割など）に加えて、Data Processorとしての役割で、特定のGDPR要求に対するData Controllerとしての準備を容易にするために、この機会を利用します。
 
-GDPRに準拠するためにAdobe Campaignが提供するツールと機能の詳細については、この [ガイドを参照してください](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html) 。
+GDPRに準拠するためにAdobe Campaignが提供するツールと機能の詳細については、この [ガイドを参照してください](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy.html) 。
 
 **詳細を表示**
 
