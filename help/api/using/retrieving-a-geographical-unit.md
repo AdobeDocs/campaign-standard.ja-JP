@@ -1,6 +1,6 @@
 ---
 title: プロファイルの地理的単位の取得
-description: APIを使用してプロファイルの地理単位を取得する方法を説明します。
+description: APIを使用してプロファイルの地理的単位を取得する方法を説明します。
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
@@ -9,17 +9,18 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '80'
+ht-degree: 12%
 
 ---
 
 
 # プロファイルの地理的単位の取得 {#retrieving-geographical-unit}
 
-1. プロファイルPKeyに対してGET要求を実行し、geoUnit **** URLを取得します。
+1. プロファイルPKeyに対してGETリクエストを実行し、 **geoUnit** URLを取得します。
 1. URLに対してGETリクエストを実行し、地理的単位に関する詳細を取得します。
 
 <br/>
