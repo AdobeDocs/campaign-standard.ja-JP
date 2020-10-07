@@ -9,36 +9,37 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 538739417c4ed28ff2991186dac5fb69d1af3afd
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '183'
+ht-degree: 3%
 
 ---
 
 
 # カスタムリソースの操作 {#interacting-with-custom-resources}
 
-/customResourcesエ **ンドポイントを使用すると** 、ACSカスタムリソースをRESTで公開できます。 このAPIに基づいて、カスタムエンティティと外部エンドポイントの統合を利用できます。
+**/customResources** エンドポイントを使用すると、ACSカスタムリソースをRESTで公開できます。 このAPIに基づき、カスタムエンティティと外部エンドポイントの統合を利用できます。
 
 /customResourcesエンドポイントの動作は、/profileAndServicesエンドポイントとまったく同じです。
 
 このAPIで公開されるカスタムリソースは次のとおりです。
 
-* 縦断図形にリンクされたすべての図形
+* プロファイルエンティティにリンクされているすべてのエンティティ
 * プロファイルエンティティの子にリンクされているすべてのエンティティ
-* 縦断にリンクされていないすべてのエンティティと、これらのエンティティの子と孫です。
+* プロファイルにリンクされていないすべてのエンティティと、その子と孫です。
 
 >[!NOTE]
 >/profileAndServicesExtで使用できるカスタムリソースは、/customResources APIに公開されません。
 
-カスタムリソースからメタデータを取得する例を次に示します。
+次に、カスタムリソースからメタデータを取得する例を示します。
 
 ```
 GET /customResources/resourceType/<customResourceName>
 ```
 
-作成、更新、または削除を行うには、GET、POST、PATCH、DELETEが使用されます。
+作成、更新または削除を行うには、GET、POST、PATCH、DELETEを使用します。
 
 ```
 POST /customResources/<customResourceName>
@@ -46,5 +47,5 @@ POST /customResources/<customResourceName>
 
 >[!NOTE]
 >プライバシーAPIエンドポイントとワークフロー(/privacy/privacyTool)は、プロファイルエンティティにリンクされていないカスタムリソースを管理していません。
->これらのカスタムリソースのPIIを管理し、クリーンアップする必要があります。 プライバシーツールの詳細については、ここをク [リックしてくださ](../../api/using/creating-a-privacy-request.md)い。
+>これらのカスタムリソースのPIIを管理およびクリーンアップする責任はあります。 プライバシーツールの詳細については、 [ここをクリックしてください](../../api/using/creating-a-privacy-request.md)。
 
