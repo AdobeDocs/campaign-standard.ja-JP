@@ -1,6 +1,6 @@
 ---
 title: プロファイルの作成
-description: APIを使用したプロファイルの作成方法について詳しく説明します。
+description: APIを使用したプロファイルの作成方法を詳しく説明します。
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
@@ -9,29 +9,30 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '104'
+ht-degree: 3%
 
 ---
 
 
 # プロファイルの作成 {#creating-profiles}
 
-プロファイルの作成は、プロファイルリソ **ースに対して** POST要求を使用して実行されます。
+プロファイルの作成は、プロファイルリソースに対する **POST** 要求を使用して実行されます。
 
 >[!CAUTION]
 >
->作成したプロファイルに <b>orgUnit</b> を関連付ける場合は、このフィールドを使用してプロファイルリソースを拡張し、拡張の公開後に、ProfileAndServicesExtエンドポイントでPOST要求を実行する必要があ <b>ります</b> 。
+>作成したプロファイルに <b>orgUnit</b> を関連付ける場合は、プロファイルリソースをこのフィールドに拡張し、拡張機能の発行後に、 <b>ProfileAndServicesExt</b> エンドポイントでPOST要求を実行する必要があります。
 >
->プロファイルのリソース拡張機能について詳しくは、 <a href="https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles">Campaignのドキュメントを参照してください</a>。
+>プロファイルのリソース拡張機能について詳しくは、 <a href="https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles">キャンペーンのドキュメントを参照してください</a>。
 
 <br/>
 
 ***サンプルリクエスト***
 
-電子メール「john.doe@mail.com」を含むプロファイルを作成するためのPOSTリクエストの例。
+電子メール「john.doe@mail.com」を含むプロファイルを作成するためのサンプルPOSTリクエスト。
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
@@ -43,7 +44,7 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 -d '{"email":"john.doe@mail.com"}'
 ```
 
-新しく作成されたプロファイルを、「john.doe@mail.com」電子メールアドレスで返します。
+新しく作成されたプロファイルと、「john.doe@mail.com」電子メールアドレスが返されます。
 
 ```
 {
