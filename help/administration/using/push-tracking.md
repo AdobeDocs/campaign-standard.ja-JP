@@ -10,10 +10,8 @@ content-type: reference
 topic-tags: push-notifications
 discoiquuid: 23b4212e-e878-4922-be20-50fb7fa88ae8
 context-tags: mobileApp,overview
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 6c5cf90211451587537b9a6121430fc4f352384c
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '819'
 ht-degree: 2%
@@ -39,7 +37,7 @@ ht-degree: 2%
 
 * **プッシュ開く** — プッシュ通知がデバイスに配信され、ユーザーが通知をクリックした場合にアプリが開きます。  これはプッシュクリックと似ていますが、通知が閉じられた場合にプッシュ開くはトリガーされません。
 
-Campaign Standardのためのトラッキングを導入するには、モバイルアプリにMobile SDKを含める必要があります。 これらのSDKは、Adobe Mobile Servicesで使用できます。 詳しくは、この[ページ](../../administration/using/configuring-a-mobile-application.md)を参照してください。
+Campaign Standardのためのトラッキングを導入するには、モバイルアプリにMobile SDKを含める必要があります。 これらのSDKは、AdobeのMobile Servicesで使用できます。 詳しくは、この[ページ](../../administration/using/configuring-a-mobile-application.md)を参照してください。
 
 トラッキング情報を送信するには、3つの変数を送信する必要があります。 Campaign Standardから受け取ったデータの一部である2つの変数と、それが **Impression**、 **Click** 、 **Open**&#x200B;のどちらであるかを指示するアクション変数です。
 
@@ -82,7 +80,7 @@ public void onMessageReceived(RemoteMessage remoteMessage) {
 * ユーザーは通知を表示しますが、クリアします。
 * ユーザーは通知を表示し、クリックして、開いている追跡に変換します。
 
-これを処理するには、2つのインテントを使用する必要があります。 1つは通知をクリックするためのもので、もう1つは通知を閉じるためのものです。
+これを処理するには、2つのインテントを使用する必要があります。1つは通知をクリックするためのもので、もう1つは通知を閉じるためのものです。
 
 **[!UICONTROL MyFirebaseMessagingService.java]**
 
@@ -154,7 +152,7 @@ public class NotificationDismissedReceiver extends BroadcastReceiver {
 
 開いている状態を追跡するには、「インテント」を作成する必要があります。 インテントオブジェクトを使用すると、特定の操作が実行されたときにAndroid OSからメソッドを呼び出すことができます。 この場合、通知をクリックしてアプリを開きます。
 
-このコードは、クリックインプレッショントラッキングの導入に基づいています。 を **[!UICONTROL Intent]** 設定したら、追跡情報をAdobe Campaign Standardに送信する必要があります。 この場合、アプリ内の特定の表示を開くようにを設定する必要 **[!UICONTROL Open Intent]** があります。これにより、の通知データを使用してonResumeメソッドが呼び出され **[!UICONTROL Intent Object]**&#x200B;ます。
+このコードは、クリックインプレッショントラッキングの導入に基づいています。 を **[!UICONTROL Intent]** 設定したら、追跡情報をAdobe Campaign Standardに送り返す必要があります。 この場合、アプリ内の特定の表示を開くようにを設定する必要 **[!UICONTROL Open Intent]** があります。これにより、の通知データを使用してonResumeメソッドが呼び出され **[!UICONTROL Intent Object]**&#x200B;ます。
 
 ```
 @Override
@@ -200,9 +198,9 @@ private void handleTracking() {
 
 iOS通知の動作方法を理解するには、アプリの3つの状態を詳しく説明する必要があります。
 
-* **前景**: アプリが現在アクティブで、現在画面（前景）にあるとき。
-* **背景**: isアプリが画面に表示されず、プロセスが閉じられない場合。 ホームボタンを重複クリックすると、通常はバックグラウンドにあるすべてのアプリが表示されます。
-* **オフ/クローズ**: プロセスが終了したアプリ。
+* **前景**:アプリが現在アクティブで、現在画面（前景）にあるとき。
+* **背景**:isアプリが画面に表示されず、プロセスが閉じられない場合。 ホームボタンを重複クリックすると、通常はバックグラウンドにあるすべてのアプリが表示されます。
+* **オフ/クローズ**:プロセスが終了したアプリ。
 
 アプリが閉じられた場合、Appleは、アプリが再起動されるまでアプリを呼び出しません。 つまり、iOSで通知が受信された時点を知ることはできません。
 
