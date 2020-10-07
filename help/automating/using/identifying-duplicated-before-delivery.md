@@ -1,6 +1,6 @@
 ---
-title: 配信前の重複の識別
-description: 次の例は、電子メールを送信する前にターゲットの重複を除外する重複排除 - 重複を示しています。 つまり、同じプロファイルに対して複数回通信を送信するのを避けることができます。
+title: 配信前の重複の特定
+description: 次に、E メールを送信する前にターゲットの重複を除外する重複排除の例を示します。同じプロファイルに対して同じ通信を複数回送信することを回避できます。
 page-status-flag: never-activated
 uuid: 11a22a9c-3bfe-4953-8a52-2f4e93c128fb
 contentOwner: sauviat
@@ -10,36 +10,34 @@ content-type: reference
 topic-tags: targeting-activities
 discoiquuid: e7a5e1e7-4680-46c7-98b8-0a47bb7be2b8
 context-tags: dedup,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 7ffa48365875883a98904d6b344ac005afe26e18
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '285'
-ht-degree: 0%
+ht-degree: 78%
 
 ---
 
 
-# 配信前の重複の識別 {#identifying-duplicates-before-a-delivery}
+# 配信前の重複の特定 {#identifying-duplicates-before-a-delivery}
 
-次の例は、電子メールを送信する前にターゲットの重複を除外する重複排除 - 重複を示しています。 つまり、同じプロファイルに対して複数回通信を送信するのを避けることができます。
+次に、E メールを送信する前にターゲットの重複を除外する重複排除の例を示します。同じプロファイルに対して同じ通信を複数回送信することを回避できます。
 
-ワークフローは次の要素で構成されます。
+このワークフローは次の要素で構成されます。
 
 ![](assets/deduplication_example_workflow.png)
 
-* 電子メールのターゲットを定義できる [クエリ](../../automating/using/query.md) 。 このワークフローでは、18歳から25歳のプロファイルのうち、1年以上クライアントデータベースに属しているすべてのターゲットがされます。
+* A [Query](../../automating/using/query.md) which allows you to define the target of the email. このワークフローでは、18 歳から 25 歳までのプロファイルのうち、1 年以上クライアントデータベースに存在しているすべてのプロファイルがターゲットになります。
 
    ![](assets/deduplication_example_query.png)
 
-* 前の [重複排除 - 重複からの重複を識別できる](../../automating/using/deduplication.md) クエリ。 この例では、各重複に保存されるレコードは1つだけです。 重複は電子メールアドレスを使用して識別されます。 つまり、ターゲティングに存在する電子メールアドレスごとに1回だけ電子メール配信を送信できます。
+* A [Deduplication](../../automating/using/deduplication.md) activity, which allows you to identify the duplicates that come from the preceding query. この例では、保存されるレコードは重複ごとに 1 つだけです。重複は E メールアドレスを使用して識別されます。つまり、ターゲティングに存在する E メールアドレスごとに 1 回しか E メール配信を送信できません。
 
-   選択した重複排除 - 重複方法はで **[!UICONTROL Non-empty value]**&#x200B;す。 これにより、重複の場合に記録されるレコードの中で、 **名が指定されているレコードを優先します** 。 これにより、電子メールコンテンツのパーソナライゼーションフィールドで名が使用される場合に、一貫性が向上します。
+   選択する重複排除方法は「**[!UICONTROL Non-empty value]**」です。これにより、重複が識別された場合、**名前（名）**&#x200B;が含まれているレコードを優先して保持することができます。E メールコンテンツのパーソナライゼーションフィールドで名が使用されている場合に一貫性が向上する方法です。
 
-   また、重複を保持し、リストを行うためのトランジションも追加されます。
+   また、重複を保持し一覧表示するために、トランジションが追加されています。
 
    ![](assets/deduplication_example_dedup.png)
 
-* 重複排除 - 重複のメインの送信トランジションの後に配置される [電子メール配信](../../automating/using/email-delivery.md) 。
-* オーディエンスを [重複](../../automating/using/save-audience.md) オーディエンスに保存するために、重複排除 - 重複の追加トランジションの後に配置される「 **重複を保存** 」アクティビティ。 このオーディエンスは、各電子メール配信からそのメンバーを直接除外するために再利用できます。
+* An [Email delivery](../../automating/using/email-delivery.md) placed after the main outbound transition of the deduplication.
+* A [Save audience](../../automating/using/save-audience.md) activity placed after the additional transition of the deduplication to save the duplicates in a **Duplicates** audience. このオーディエンスを再利用して、E メール配信のたびにオーディエンスのメンバーを直接除外することができます。
