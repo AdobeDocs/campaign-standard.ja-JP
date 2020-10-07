@@ -1,6 +1,6 @@
 ---
 title: Adobe Experience Platform オーディエンスの管理
-description: Campaign Standard内のAdobe Experience Platformを管理する方法を説明します。
+description: Campaign Standard内でAdobe Experience Platformを管理する方法を学ぶ。
 page-status-flag: never-activated
 uuid: b3996642-96ec-489e-b146-c8c2cb52aa32
 contentOwner: sauviat
@@ -10,13 +10,11 @@ content-type: reference
 topic-tags: managing-audiences
 discoiquuid: 750ecd8d-67a5-4180-bfec-2a8e3098c812
 context-tags: audience,wizard;audience,overview;delivery,audience,back
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: d487600fc4f3004804e93347b83edfe4e01cceeb
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '389'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -25,7 +23,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->オーディエンス宛先サービスは現在ベータ版で、予告なく頻繁に更新される場合があります。 これらの機能にアクセスするには、お客様はAzureでホストされる必要があります（現在、北米向けベータ版のみ）。 アドビカスタマーケアにお問い合わせの際は、アドビカスタマーケアにご連絡ください。
+>オーディエンス宛先サービスは現在ベータ版で、予告なく頻繁に更新される場合があります。 これらの機能にアクセスするには、お客様はAzureでホストされる必要があります（現在、北米向けベータ版のみ）。 ご利用になる場合は、Adobeカスタマーケアにお問い合わせください。
 
 ## Adobe Experience Platformオーディエンスへのアクセス
 
@@ -33,7 +31,7 @@ Adobe Experience Platformセグメントビルダーにアクセスするには�
 
 ![](assets/aep_audiences_access.png)
 
-最初に、Adobe Experience Platformセグメントのリストページが表示されます。このページでは、既存のAdobe Experience Platformセグメントにアクセスして、さらに編集できます。
+最初に、Adobe Experience Platformセグメントリストページが表示されます。このページでは、既存のAdobe Experience Platformセグメントにアクセスして、さらに編集できます。
 
 目的のAdobe Experience Platformセグメントを見つけるのに役立つ検索バーとフィルターが用意されています。
 
@@ -43,11 +41,11 @@ Adobe Experience Platformセグメントビルダーにアクセスするには�
 
 Campaign Standardで直接Adobe Experience Platformオーディエンスを作成するには、次の手順に従います。
 
-1. Adobe Experience Platformセグメントのリストページで、右隅にある **[!UICONTROL New audience]** ボタンをクリックします。
+1. [Adobe Experience Platformセグメントリスト]ページで、右隅にある **[!UICONTROL New audience]** ボタンをクリックします。
 
    ![](assets/aep_audiences_creation_create.png)
 
-1. セグメントビルダーがワークスペースに表示されます。 オーディエンスの作成に使用されるAdobe Experience Platformのデータを使用してセグメントを作成できます。
+1. セグメントビルダーがワークスペースに表示されます。 これにより、最終的にオーディエンスの作成に使用されるAdobe Experience Platformのデータを使用してセグメントを作成できます。
 
 1. 右側のパネルでセグメントに名前を付け、説明を入力します（オプション）。
 
@@ -55,7 +53,7 @@ Campaign Standardで直接Adobe Experience Platformオーディエンスを作�
 
 1. セグメントを正しく作成するには、このセグメントのマーケティング目的に合った **マージポリシー** を選択する必要があります。
 
-   設定ウィンドウで、Platformの既定の結合ポリシーが選択されます。 結合ポリシーの詳細については、『 [セグメントビルダーユーザーガイド』の専用の節を参照してください](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html)。
+   設定ウィンドウで、「Platform default merge policy」が選択されます。 結合ポリシーの詳細については、『 [セグメントビルダーユーザーガイド』の専用の節を参照してください](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html)。
 
    ![](assets/aep_audiences_mergepolicy.png)
 
@@ -65,7 +63,7 @@ Campaign Standardで直接Adobe Experience Platformオーディエンスを作�
 
    ![](assets/aep_audiences_creation_query.png)
 
-これでオーディエンスをアクティブ化する準備が整い、キャンペーンのターゲットとして使用できます( [Adobe Experience Platformオーディエンスのターゲット設定を参照](../../automating/using/aep-targeting-audiences.md))。
+オーディエンスをアクティブ化する準備が整いました。これをキャンペーンのターゲットとして使用できます(「Adobe Experience Platformオーディエンスの [ターゲット設定](../../automating/using/aep-targeting-audiences.md)」を参照)。
 
 ## オーディエンスの編集
 
