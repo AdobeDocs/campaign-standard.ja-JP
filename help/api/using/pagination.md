@@ -9,10 +9,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 59405df2bbb51d7cd944a0630b2b82db864f3920
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '157'
+ht-degree: 1%
 
 ---
 
@@ -21,19 +22,19 @@ source-git-commit: 59405df2bbb51d7cd944a0630b2b82db864f3920
 
 デフォルトでは、25個のリソースがリストに読み込まれます。
 
-_lineCountパラ **メーターを使用すると** 、応答に一覧表示されるリソースの数を制限できます。  その後、次のノードを使 **用して** 、次の結果を表示できます。
+**_lineCount** パラメーターを使用すると、応答に含めるリソースの数を制限できます。  その後、 **次のノードを使用して** 、次の結果を表示できます。
 
 >[!NOTE]
 >
->ページネーションリクエストを実行するには、必ず次 **のノード** に返されたURL値を使用します。
+>ページネーションリクエストを実行するには、 **次のノードで返されたURL値を常に使用します** 。
 >
->**_lineStartリクエストが計算され** 、次のノードで返されるURL内で常に使用される必要が **あります** 。
+>**_lineStart** リクエストが計算され、常に **** 次のノードで返されるURL内で使用される必要があります。
 
 <br/>
 
-***サンプルリクエスト&#x200B;***
+***サンプルリクエスト***
 
-プロファイルリソースの1レコードを表示するGET要求の例。
+プロファイルリソースの1レコードを表示するサンプルGETリクエスト。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile?_lineCount=1 \
@@ -43,7 +44,7 @@ _lineCountパラ **メーターを使用すると** 、応答に一覧表示さ�
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-次のノードを使用して **** 、リクエストに応答します。
+ページネーションを実行する **次のノードを含む、リクエストに対する応答** 。
 
 ```
 {
@@ -64,7 +65,7 @@ _lineCountパラ **メーターを使用すると** 、応答に一覧表示さ�
 }
 ```
 
-デフォルトでは、大量の **データを含む** 、テーブルを操作する場合は次のノードを使用できません。 ページネーションを実行するには、 **_forcePagination=trueパラメーターを呼び出しURLに追加する必要があります** 。
+デフォルトでは、大量のデータを含むテーブルを操作する場合、 **次のノードは使用できません** 。 ページネーションを実行するには、 **_forcePagination=true** パラメーターを呼び出しURLに追加する必要があります。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile?_forcePagination=true \
@@ -76,4 +77,4 @@ _lineCountパラ **メーターを使用すると** 、応答に一覧表示さ�
 
 >[!NOTE]
 >
->テーブルが大きいと見なされるレコードの数は、キャンペーン標準のXtkBigTableThresholdオプションで定義さ **れます** 。 デフォルト値は100,000レコードです。
+>テーブルが大きいと見なされるレコードの数は、Campaign Standard **XtkBigTableThreshold** オプションで定義されます。 デフォルト値は100,000レコードです。
