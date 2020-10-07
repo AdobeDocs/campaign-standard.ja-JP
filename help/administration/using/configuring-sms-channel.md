@@ -10,10 +10,8 @@ content-type: reference
 topic-tags: configuring-channels
 discoiquuid: 356d4d4f-3d5a-468c-bff8-96767cd8fff6
 context-tags: extAccountMobile,overview;extAccount,main;delivery,smsContent,back
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 10339aa3a5d16bb995a763b6d846e234c5f1325a
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '1625'
 ht-degree: 99%
@@ -333,7 +331,7 @@ SMS メッセージを送信するための特定のパラメーターは、「*
 
 ![](assets/sms_options.png)
 
-次の節を **[!UICONTROL Advanced parameters]** 参照してください。
+From the **[!UICONTROL Advanced parameters]** section:
 
 * 「**[!UICONTROL From]**」オプションを使用すると、文字列を使用して SMS メッセージの送信者名をパーソナライズできます。これは、受信者の携帯電話で SMS メッセージの送信者名として表示される名前です。
 
