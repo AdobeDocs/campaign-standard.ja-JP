@@ -9,13 +9,11 @@ audience: channels
 content-type: reference
 topic-tags: email-messages
 discoiquuid: 79231445-1d51-499a-adcf-0c0f6db1cfa3
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 9c812b0b622b82ba7aa382f04edb7a2a3f717cd4
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1127'
+ht-degree: 1%
 
 ---
 
@@ -123,8 +121,8 @@ CSVファイルに各列の名前を含める必要があります。コンテ�
 | ar_ae | アラビア語 — アラブ首長国連邦 |
 | ar_ye | アラビア語 — イエメン |
 | hy_am | アルメニア語 — アルメニア |
-| bez_az | アゼリ語 — アゼルバイジャン |
-| シアル | ベラルーシ語 — ベラルーシ |
+| az_az | アゼリ語 — アゼルバイジャン |
+| be_by | ベラルーシ語 — ベラルーシ |
 | bs_ba | ボスニア語 — ボスニア |
 | bg_bg | ブルガリア語 — ブルガリア |
 | ca_es | カタルーニャ語 — スペイン |
@@ -133,11 +131,11 @@ CSVファイルに各列の名前を含める必要があります。コンテ�
 | zh_hk | 中国語（繁体字） — 香港、中国 |
 | zh_tw | 中国語（繁体字） — 台湾地域 |
 | hr_hr | クロアチア語 — クロアチア |
-| en_cs | チェコ語 — チェコ |
+| cs_cz | チェコ語 — チェコ |
 | da_dk | デンマーク語 — デンマーク |
 | nl_be | オランダ語 — ベルギー |
 | nl_nl | オランダ語 — オランダ |
-| an_au | 英語 — オーストラリア |
+| en_au | 英語 — オーストラリア |
 | en_bz | 英語 — ベリーズ |
 | en_ca | 英語 — カナダ |
 | en_in | 英語 — インド |
