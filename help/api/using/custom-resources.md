@@ -9,37 +9,38 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 538739417c4ed28ff2991186dac5fb69d1af3afd
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '204'
+ht-degree: 5%
 
 ---
 
 
 # カスタムリソース {#custom-resources}
 
-Adobe Campaignには、データが様々なリソースを介して定義される、定義済みのデータモデルが付属しています。 リソースを拡張して独自のカスタムフィールドやカスタムテーブル（購入テーブルや製品テーブルなど）を追加することで、提供されるデータモデルを拡張できます。
+Adobe Campaignには定義済みのデータモデルが付属しており、データは様々なリソースを介して定義されます。 独自のカスタムフィールドやカスタムテーブル（購入テーブルや製品テーブルなど）を追加するためにリソースを拡張することで、提供されるデータモデルを拡張できます。
 
-カスタムリソースは、 **/profileAndServicesExtエンドポイントとカスタムリソ** ース名を使用して、APIを通じてアクセスできます。
+カスタムリソースは、 **/profileAndServicesExt** エンドポイントとカスタムリソース名を使用して、APIを介してアクセスできます。
 
 `https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/<resourceName>/`
 
 >[!NOTE]
 >
->標準搭載されていないリソースの場合は、リソース名の前に必ず「 <b>cus</b> 」プレフィックスを付けてください。
+>リソースがすぐに使用できない場合は、リソース名の前に必ず「 <b>cus</b> 」プレフィックスを付けてください。
 
-カスタムリソースがプロファイルテーブルにリンクされている限り、任意の操作を実行できます。 例えば、次の表の構造を考えてみましょう。
+カスタムリソースがプロファイルテーブルにリンクされている限り、任意の操作を実行できます。 例えば、次のテーブル構造を考えてみましょう。
 
 ![代替テキスト](assets/cusresources.png)
 
-この場合、 **Transaction**、 **TransactionDetails** 、 **Product** の各表のリソースは、ProfileTableにリンクされている限り使用 **** できます。
+この場合、 **Transaction**、TransactionDetails **、** Product **表のリソースは、****** プロファイル表にリンクされている限り、すべて使用できます。
 
 <br/>
 
-***サンプルリクエスト&#x200B;***
+***サンプルリクエスト***
 
-拡張profileAndServicesExtリソースにアクセスするためのサンプルGET要求。
+拡張profileAndServicesExtリソースにアクセスするためのサンプルGETリクエスト。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/\
@@ -74,7 +75,7 @@ Adobe Campaignには、データが様々なリソースを介して定義され
 }
 ```
 
-データモデルの拡張機能について詳しくは、Campaignのドキュメントを参照してください。
+データモデル拡張の詳細については、次のキャンペーンドキュメントを参照してください。
 
 * [データモデルの概念](../../developing/using/data-model-concepts.md)
 * [APIの拡張](../../developing/using/about-extending-the-api.md)
