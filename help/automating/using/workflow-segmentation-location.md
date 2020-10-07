@@ -10,10 +10,8 @@ content-type: reference
 topic-tags: execution-activities
 discoiquuid: 377821e6-69f8-41cc-a1ad-8a2f5ed4d409
 context-tags: workflow,use-case,query,segmentation,delivery
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 83%
@@ -31,7 +29,7 @@ ht-degree: 83%
 
 ## E メールで連絡可能な受信者の選択{#selecting-recipients-contactable-via-email}
 
-1. /で、 **[!UICONTROL Activities]** クエリ **[!UICONTROL Targeting]**&#x200B;アクティビティをドラッグ&amp;ドロップ [](../../automating/using/query.md)![](assets/query.png)します。
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, drag and drop a [Query](../../automating/using/query.md) activity ![](assets/query.png).
 1. アクティビティをダブルクリックします。
 1. 「**[!UICONTROL Shortcuts]**」で、「**[!UICONTROL Profiles]**」をドラッグ＆ドロップし、演算子「**[!UICONTROL email]**」を使用してフィールド「**[!UICONTROL is not empty]**」を選択します。
 1. 「**[!UICONTROL Shortcuts]**」で、「**[!UICONTROL Profiles]**」をドラッグ＆ドロップして、値「**[!UICONTROL no longer contact by email]**」を含むフィールド「**[!UICONTROL no]**」を選択します。
