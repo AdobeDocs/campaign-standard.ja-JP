@@ -9,27 +9,28 @@ audience: administration
 content-type: reference
 topic-tags: application-settings
 discoiquuid: d5c6a3d4-f767-46c1-a8c0-3b9dc52dcea8
-internal: n
-snippet: y
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: e31e8c63fa94d190211c7a51e7f1091657c9f479
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '132'
+ht-degree: 9%
 
 ---
 
 
 # Adobe Campaign Standard 設定について{#about-campaign-standard-settings}
 
-[!DNL Campaign] Standardには、ニーズに合わせて設定できる様々なアプリケーションエレメントが付属しています。 例えば、次のように指定できます。
+[!DNL Campaign] Standardには、ニーズに合わせて設定できる様々なアプリケーション要素が付属しています。 例えば、次の操作を行うことができます。
 
 * 外部アカウントの設定、
-* 配信の送信に必要な技術的な設定を管理するためのターゲットマッピングの設定、
-* アプリケーション内での内部通知の設定など
+* 配信の送信に必要な技術的な設定を管理するようにターゲットマッピングを設定する、
+* アプリケーション内などで内部通知を設定します。
 
-これらの設定は/メニューから **[!UICONTROL Administration]**利用で**[!UICONTROL Application settings]** きます。
+これらの設定は、 **[!UICONTROL Administration]** / **[!UICONTROL Application settings]** メニューから利用できます。
 
-さらに、メニューには技術的なオプションが用意さ **[!UICONTROL Options]**れており、より具体的にアプリケーションを設定できます。 一部はCampaignのインストール時に組み込まれ、残りは必要に応じて手動で追加できます（使用可能なオプションは、インスタンスと共にインストールされるパッケージによって異なります）。
+また、メニューには技術的なオプションが用意されており、これによりアプリケーションをより具体的に設定できます。 **[!UICONTROL Options]** 一部はキャンペーンのインストール時に組み込まれ、他のものは必要に応じて手動で追加できます（使用できるオプションは、インスタンスと共にインストールされるパッケージによって異なります）。
 
 >[!IMPORTANT]
 >
->これらのオプションは、Campaignのインストール時に既に設定されているので、上級ユーザーのみが変更する必要があります。 ご質問やご要望がある場合は、アドビの担当者にお問い合わせください。
+>これらのオプションはキャンペーンのインストール時に既に設定されているので、上級ユーザーのみが変更する必要があります。 ご質問やご要望がある場合は、Adobeの担当者にお問い合わせください。
