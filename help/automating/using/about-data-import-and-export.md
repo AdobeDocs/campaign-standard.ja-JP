@@ -9,13 +9,11 @@ audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
 discoiquuid: 31215773-6c0c-48f1-9101-da0ea2a366da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 0deabe17442b679a340a4497945837b83b4c9207
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '324'
-ht-degree: 6%
+ht-degree: 24%
 
 ---
 
@@ -24,12 +22,12 @@ ht-degree: 6%
 
 ビジネスニーズに応じて、Adobe Campaignと共にデータをインポートおよびエクスポートする方法はいくつかあります。
 
-* **パッケージ**: パッケージは、Adobe Campaignインスタンスから別のインスタンスへの設定やデータセットの書き出しと読み込みを可能にするXMLファイルです。 システムの更新は、パッケージの読み込みによっても実行されます。
-* **リスト**: すべてのリスト画面を設定し、表示データを別のファイルに書き出すことができます。
-* **ワークフロー**: ファイルからデータをインポートし、それを使用してデータベースを更新したり電子メールを送信したりします。 ファイル内に書き出すデータを選択することもできます。 ワークフローは、プロファイルの読み込みなど、定期的な更新を自動化する最善の方法です。
+* **パッケージ**:パッケージは、Adobe Campaignインスタンスから別のインスタンスへの設定やデータセットの書き出しと読み込みを可能にするXMLファイルです。 システムの更新は、パッケージの読み込みによっても実行されます。
+* **リスト**:すべてのリスト画面を設定し、表示データを別のファイルに書き出すことができます。
+* **ワークフロー**:ファイルからデータをインポートし、それを使用してデータベースを更新したり電子メールを送信したりします。 ファイル内に書き出すデータを選択することもできます。 ワークフローは、プロファイルの読み込みなど、定期的な更新を自動化する最善の方法です。
 
-   * この **[!UICONTROL Load file]** アクティビティを使用すると、1つの構造化されたフォームにデータを読み込んで、このデータをAdobe Campaignで使用できます。 データは一時的にインポートされ、Adobe Campaignデータベースに確実に統合するには別のアクティビティが必要です。 For more on how to use this activity, refer to [this section](../../automating/using/load-file.md).
-   * この **[!UICONTROL Transfer file]** アクティビティを使用すると、ファイルの受信や送信、ファイルの存在のテスト、Adobe Campaign内のリストファイルの送信が可能です。 外部ソースからファイルを取得する必要がある場合 **[!UICONTROL Load file]** に備えて、このアクティビティを外部ソースの前に使用できます。 For more on how to use this activity, refer to [this section](../../automating/using/transfer-file.md).
+   * 「**[!UICONTROL Load file]**」アクティビティを使用すると、1 つの構造化されたフォームにデータをインポートして、Adobe Campaign で使用することができます。データは一時的にインポートされます。このデータを Adobe Campaign データベースに確実に統合するには別のアクティビティが必要です。For more on how to use this activity, refer to [this section](../../automating/using/load-file.md).
+   * 「**[!UICONTROL Transfer file]**」アクティビティを使用すると、ファイルの送受信、ファイルの有無のテスト、Adobe Campaign 内のファイルの一覧表示ができます。外部ソースからファイルを取得する必要がある場合 **[!UICONTROL Load file]** に備えて、このアクティビティを外部ソースの前に使用できます。 For more on how to use this activity, refer to [this section](../../automating/using/transfer-file.md).
 
 読み込みプロセスを設計する際は、必要に応じて適応できるワークフローテンプレートを使用することをお勧めします。 データをインポートするワークフローテンプレートの設定方法について詳しくは、 [この使用例を参照してください](../../automating/using/creating-import-workflow-templates.md)。
 
