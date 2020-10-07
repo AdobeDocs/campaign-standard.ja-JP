@@ -1,5 +1,5 @@
 ---
-title: 購読の削除
+title: サブスクリプションの削除
 description: APIを使用して購読を削除する方法を説明します。
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
@@ -9,19 +9,20 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '233'
+ht-degree: 1%
 
 ---
 
 
-# 購読の削除 {#mdeleting-subscriptions}
+# サブスクリプションの削除 {#mdeleting-subscriptions}
 
 ## 特定のプロファイルのサービス購読の削除
 
-これは3つの手順で構成されます。
+これは3つの手順から成る手順です。
 
 1. 目的のプロファイルの購読URLを取得します。
 1. 購読URLでGETリクエストを実行します。
@@ -33,7 +34,7 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ***サンプルリクエスト***
 
-以下のサンプルペイロードは、サービスからプロファイルを登録解除する方法を示しています。 最初に、GETリクエストを実行して、プロファイルを取得します。
+以下のサンプルペイロードでは、サービスからプロファイルを登録解除する方法を示します。 最初に、GETリクエストを実行してプロファイルを取得します。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -66,7 +67,7 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-選択したプロファイルの購読のリストを、サブスクライブされた各サービスのURLと共に返します。
+選択したプロファイルの購読のリストと、サブスクライブされた各サービスのURLを返します。
 
 ```
 ...
@@ -94,9 +95,9 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 
 ## 特定のプロファイルのサービス購読の削除
 
-これは3つの手順で構成されます。
+これは3つの手順から成る手順です。
 
-1. 目的のサービスとその購読URLを取得します。
+1. 目的のサービスと購読URLを取得します。
 1. 購読URLに対してGETリクエストを実行し、すべてのプロファイル購読を取得します。
 1. 目的のプロファイル購読URLに対してDELETEリクエストを実行します。
 
@@ -143,7 +144,7 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-選択したサービスの購読のリストを、各プロファイル購読のURL (href)と共に返します。
+選択したサービスの購読のリストと、各プロファイル購読のURL (href)を返します。
 
 ```
 {
