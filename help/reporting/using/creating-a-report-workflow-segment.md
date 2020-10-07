@@ -9,10 +9,8 @@ audience: reporting
 content-type: reference
 topic-tags: customizing-reports
 discoiquuid: b6d3de63-3add-4881-8917-04a6f8b6be4d
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '617'
 ht-degree: 2%
@@ -25,19 +23,19 @@ ht-degree: 2%
 ワークフローを作成し、訪問者を様々なターゲットオーディエンスにフィルタリングした後、このターゲット設定ワークフローで定義されたセグメントに基づいて、マーケティングキャンペーンの効率を測定できます。
 レポートにこれらのセグメントをターゲットするには：
 
-* [手順1: セグメントを含むプロファイルのカスタムリソースの更新](#step-1--update-profiles-custom-resource-segments)
-* [手順2: セグメントを使用したワークフローの作成](#step-2--create-a-workflow-segments)
-* [手順3: セグメントをフィルターする動的レポートの作成](#step-3--create-a-dynamic-report-filter-segments)
+* [手順1:セグメントを含むプロファイルのカスタムリソースの更新](#step-1--update-profiles-custom-resource-segments)
+* [手順2:セグメントを使用したワークフローの作成](#step-2--create-a-workflow-segments)
+* [手順3:セグメントをフィルターする動的レポートの作成](#step-3--create-a-dynamic-report-filter-segments)
 
 >[!CAUTION]
 >動的なレポートの使用許諾契約は、これらのデータを収集する開始に対して受け入れられる必要があります。
 >For more on this agreement, refer to this [page](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
 
-## 手順1: セグメントを含むプロファイルのカスタムリソースの更新{#step-1--update-profiles-custom-resource-segments}
+## 手順1:セグメントを含むプロファイルのカスタムリソースの更新{#step-1--update-profiles-custom-resource-segments}
 
 セグメントコードにレポートする前に、セグメントコードが保存されるように **[!UICONTROL Profiles]** カスタムリソースを更新する必要があります。
 
-1. 詳細設定メニューのAdobe Campaignロゴで、 **[!UICONTROL Administration]** / **[!UICONTROL Development]** /を選択し **[!UICONTROL Custom resources]**、リソースを選択し **[!UICONTROL Profile (profile)]** ます。
+1. From the advanced menu, via the Adobe Campaign logo, select **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom resources]**, then select the **[!UICONTROL Profile (profile)]** resource.
 1. タブの **[!UICONTROL Sending logs extension]** メニューで、ターゲットワークフローからセグメントコードをストレージし、動的レポートに送信できるようにするかどうかをチェック **[!UICONTROL Data structure]****[!UICONTROL Add segment code]** します。
 
    こ **[!UICONTROL Segment code]****[!UICONTROL Profile]** れで、レポートのディメンションセクションでこのレポートを使用できるようになります。
@@ -57,16 +55,16 @@ ht-degree: 2%
 
 セグメントコードは、でセグメントコードを有効にするとすぐに収集され **[!UICONTROL Sending logs extension]**&#x200B;ます。
 
-## 手順2: セグメントを使用したワークフローの作成 {#step-2--create-a-workflow-segments}
+## 手順2:セグメントを使用したワークフローの作成 {#step-2--create-a-workflow-segments}
 
 >[!NOTE]
 >電子メール配信の入力トランジションが空の場合、デフォルトでは、前のトランジションのセグメントコードが追加されます。
 
-まず、異なるターゲット母集団のワークフローを作成する必要があります。 ここでは、オーディエンスの年齢に応じてパーソナライズされた電子メールを送信します。 1人は20歳から30歳のプロファイルの配信で、もう1人は30歳から40歳のプロファイルの人です。
+まず、異なるターゲット母集団のワークフローを作成する必要があります。 ここでは、オーディエンスの年齢に応じてパーソナライズされた電子メールを送信します。1人は20歳から30歳のプロファイルの配信で、もう1人は30歳から40歳のプロファイルの人です。
 
 1. ワークフローを作成します。 For more details on how to create your workflow, refer to this [page](../../automating/using/building-a-workflow.md).
 
-1. パレット追加からドラッグし、ワークスペースにドロップすることで、アクティビティを指定します。 **[!UICONTROL Query]**
+1. Add a **[!UICONTROL Query]** activity by dragging it from the palette and dropping it in the workspace.
 
 1. 20歳から40歳のターゲットプロファイルが、それらをより的を絞った集団に分類します。
 
@@ -91,7 +89,7 @@ ht-degree: 2%
 
    ![](assets/report_segment_9.png)
 
-1. セグメントの後に **[!UICONTROL Email delivery]** アクティビティをドラッグ&amp;ドロップします。
+1. Drag and drop an **[!UICONTROL Email delivery]** activity after your segments.
 
    ![](assets/report_segment_3.png)
 
@@ -103,7 +101,7 @@ ht-degree: 2%
 
 これで、レポートにアクセスしてセグメントコードを追跡できるようになります。
 
-## 手順3: セグメントをフィルターする動的レポートの作成 {#step-3--create-a-dynamic-report-filter-segments}
+## 手順3:セグメントをフィルターする動的レポートの作成 {#step-3--create-a-dynamic-report-filter-segments}
 
 ワークフローで配信を送信した後、ワークフローのセグメントコードを使用してレポートを分類できます。
 
@@ -114,7 +112,7 @@ ht-degree: 2%
 
    ![](assets/report_segment_5.png)
 
-1. 様々な指標（データのフィルタリングに使用する指標や指標）をテーブルにドラッグ&amp;ドロップ **[!UICONTROL Open]** し、 **[!UICONTROL Click]** 開始に適用します。
+1. 様々な指標（データのフィルタリングに使用する指標や指標など）をテーブルにドラッグ&amp;ドロップ **[!UICONTROL Open]** し、 **[!UICONTROL Click]** 開始に適用します。
 1. カテゴリ内で、ディメンションをクリックし、ワークフローの配信にディメンションをドラッグ&amp;ドロップして、ターゲットとなる訪問者に基づく電子メール配信の成功を測定します。 **[!UICONTROL Dimensions]****[!UICONTROL Profile]****[!UICONTROL Segment code]**
 
    ![](assets/report_segment_6.png)
