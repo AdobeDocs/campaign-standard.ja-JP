@@ -9,10 +9,8 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics-for-mobile
 discoiquuid: bc10c650-80cd-4146-ae82-c5981fc62bec
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 6%
@@ -22,9 +20,9 @@ ht-degree: 6%
 
 # Campaign と POI データの統合について{#about-campaign-points-of-interest-data-integration}
 
-お客様のオンラインプレゼンスをトラッキングするだけでなく、物理的な場所を活用することもできます。 MobileのアドビAnalyticsとの統合により、Adobe Campaignを使用して、場所ベースのマーケティングメッセージをモバイルアプリの購読者に送信できます。
+お客様のオンラインプレゼンスをトラッキングするだけでなく、物理的な場所を活用することもできます。 モバイル用Adobe Analyticsとの統合により、Adobe Campaignを使用して、場所ベースのマーケティングメッセージをモバイルアプリのサブスクリプションを購入したユーザーに送信できます。
 
-目標地点は、ラベルに関連付けられた緯度、経度、半径で構成されます。 これらは [Adobe Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) インターフェイスで定義されます。
+目標地点は、ラベルに関連付けられた緯度、経度、半径で構成されます。 これらは、 [AdobeMobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) インターフェイスで定義されます。
 
 購読者がモバイルアプリケーションを開くと、その場所が目標地点と一致する場合、Adobe CampaignはExperience CloudモバイルSDKを使用してデータをキャプチャします。 この情報を使用して、ユーザーの場所（電子メール、プッシュ通知、SMSメッセージなど）に基づいてパーソナライズされたメッセージを送信できます。
 
