@@ -9,31 +9,32 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '96'
+ht-degree: 4%
 
 ---
 
 
 # プロファイルの更新 {#updating-profiles}
 
-プロファイルの更新は **PATCH要求で実行され** ます。
+プロファイルの更新は、 **PATCH** 要求を使用して実行されます。
 
 `https://mc.adobe.io/<ORGANIZATION>/campaign/<apiName>/<resourceName>/<PKEY>`
 
-1. 最初の手順は、プロファ **イルを取得します**。
+1. 最初の手順は、プロファイルを **取得することです**。
 
-1. 2番目のリクエストでは、ペイロード内の完 **了した情報を使用して** 、プロファイルに対してPATCHリクエストを実行します。
+1. 2つ目のリクエストでは、ペイロード内の完了した情報を使用して、プロファイル上で **PATCHリクエスト** を実行します。
 
-1. PATCHリクエストがプロファイルを更新したかどうかを確認するために、最終的なGETリクエストを実行できます。
+1. PATCH要求がプロファイルを更新したかどうかを確認するために、最終的なGET要求を実行できます。
 
 <br/>
 
 ***サンプルリクエスト***
 
-プロファイルを取得するためのGETリクエストの例。
+プロファイルを取得するためのサンプルGETリクエスト。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>\
@@ -43,7 +44,7 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-リクエストへの応答。
+リクエストに対する応答。
 
 ```
 {
@@ -59,7 +60,7 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 }
 ```
 
-「phone」属性を更新するためのPATCHリクエスト。
+「phone」属性を更新するためのPATCH要求です。
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -70,7 +71,7 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 -d '{"phone":"3301020304"}'
 ```
 
-更新されたプロファイルを取得するためのPKEYとURLを返します。
+PKEYとURLを返し、更新されたプロファイルを取得します。
 
 ```
 {
