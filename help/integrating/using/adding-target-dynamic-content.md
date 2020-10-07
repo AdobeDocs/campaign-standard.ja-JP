@@ -1,6 +1,6 @@
 ---
 title: Target の動的コンテンツの追加
-description: Adobe Campaign配信の1つでAdobe Targetの動的コンテンツを追加する方法を説明します。
+description: Adobe Campaign配信の1つにAdobe Targetの動的コンテンツを追加する方法を説明します。
 page-status-flag: never-activated
 uuid: b3cc045f-7924-480e-8c61-8246510f3adb
 contentOwner: sauviat
@@ -9,24 +9,22 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-target
 discoiquuid: 45ddf7b7-98f7-4fdd-bb4a-49ec8490e877
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '454'
-ht-degree: 27%
+ht-degree: 29%
 
 ---
 
 
 # Target の動的コンテンツの追加{#adding-target-dynamic-content}
 
-Adobe Targetの統合により、動的な画像を配信に追加して、エクスペリエンスに応じてコンテンツをパーソナライズできます。
+Adobe Targetとの統合により、配信に動的な画像を追加して、エクスペリエンスに応じてコンテンツをパーソナライズできます。
 
-電子メールの編集中に、Adobe Targetから動的な受信者を挿入できます。この画像は、画像に応じて変化します。
+電子メールの編集中に、受信者に応じて変化する動的な画像をAdobe Targetから挿入できます。
 
-Adobe Campaign内の画像にアクセスする前に、まずAdobe Targetで次のタスクを実行する必要があります。
+Adobe Campaignの画像にアクセスする前に、まずAdobe Targetで次のタスクを実行する必要があります。
 
 * Create one or several [redirect offers](https://docs.adobe.com/content/help/en/target/using/experiences/offers/offer-redirect.html), in which you must specify the URL of the image you will be using.
 * 1 つ以上の[オーディエンス](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/audiences.html)を作成します。アクティビティのターゲットをそこで定義します。
@@ -50,13 +48,13 @@ Adobe Campaign内の画像にアクセスする前に、まずAdobe Targetで次
 
    ![](assets/tar_additional_decisionning_parameters.png)
 
-1. 電子メールをプレビューして、異なるプロファイルを選択する場合、挿入されるAdobe Targetが、Adobe Campaignアクティビティとで指定されたパラメータに応じて変化するかどうかを確認します。
+1. 別のプロファイルを選択する際に、挿入するイメージが、Adobe TargetアクティビティとAdobe Campaignで指定したパラメータに応じて変わるかどうかを電子メールにプレビューします。
 
-これで、動的な画像を含む配信を送信できます。 その結果はAdobe Targetで確認できる。
+これで、動的な画像を含む配信を送信できます。 その結果はAdobe Targetで見られる。
 
 **関連トピック：**
 
-* [Adobe Targetポータル](https://docs.adobe.com/content/help/en/target/using/integrate/campaign-and-target.html)
-* [電子メールコンテンツのデザインについて](../../designing/using/designing-content-in-adobe-campaign.md)
+* [Adobe Targetポータル](https://docs.adobe.com/content/help/ja-JP/target/using/integrate/campaign-and-target.html)
+* [E メールコンテンツデザインについて](../../designing/using/designing-content-in-adobe-campaign.md)
 * [リアルタイムビデオでの電子メール画像のパーソナライズ](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html) （英語のみ）
 
