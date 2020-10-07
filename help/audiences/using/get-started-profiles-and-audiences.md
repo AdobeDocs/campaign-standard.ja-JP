@@ -9,13 +9,11 @@ audience: audiences
 content-type: reference
 topic-tags: about-profiles-and-audiences
 discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '604'
-ht-degree: 11%
+ht-degree: 21%
 
 ---
 
@@ -29,11 +27,11 @@ ht-degree: 11%
 <td><img src="assets/do-not-localize/icon_privacy.svg" width="60px"><p><a href="#privacy">プライバシーコンプライアンス</a></p></td></tr>
 </table>
 
-キャンペーン統合顧客プロファイルを使用すると、1つの表示内ですべてのチャネルにわたる顧客とのすべての対話を追跡でき、顧客に関連性の高いパーソナライズされたメッセージを配信できます。
+Campaign の統合された顧客プロファイルにより、単一ビューであらゆるチャネルにまたがる顧客とのインタラクションを追跡し、顧客のニーズに応じてパーソナライズされたメッセージを配信できます。
 
-データベースをオーディエンスにセグメント化して、マーケティングキャンペーンのターゲットを最適化します。
+データベースをオーディエンスとしてセグメント化し、マーケティングキャンペーンのターゲットを最適化します。
 
-サービスとランディングページを使用して、容易なオプトインおよびオプトアウトメカニズムを設定するための、お客様の権限および同意を管理します。
+顧客の権限および同意を管理し、サービスとランディングページを使用して、容易なオプトインおよびオプトアウトメカニズムを設定します。
 
 ## セグメント化とターゲット設定 {#segmenting-targeting}
 
