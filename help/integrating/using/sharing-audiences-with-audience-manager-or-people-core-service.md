@@ -1,6 +1,6 @@
 ---
 title: Audience Manager または People コアサービスのオーディエンスを共有
-description: 様々なAdobe Experience Cloudソリューション内でオーディエンスを読み込んだり書き出したりする方法について説明します。
+description: 様々なAdobe Experience Cloudソリューション内でのオーディエンスの読み込みまたは書き出し方法を説明します。
 page-status-flag: never-activated
 uuid: a3701e72-5846-4241-afee-d713b499a27a
 contentOwner: sauviat
@@ -9,10 +9,8 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 discoiquuid: 77af0772-52b5-46bc-a964-675b45965524
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: f7adb7a4725129727010c2486ca34bbc2021c539
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '807'
 ht-degree: 26%
@@ -28,7 +26,7 @@ Peopleコアサービスの統合により、技術的なワークフローを�
 
 Adobe CampaignのPeopleコアサービスからオーディエンス/セグメントを読み込むことは、IMS(Adobe ID経由の認証)を使用して接続しているユーザーのみが **[!UICONTROL Audiences]** メニューから実行できます。
 
-1. メニューに移動し **[!UICONTROL Audiences]** ます。
+1. Go to the **[!UICONTROL Audiences]** menu.
 1. アクションバーで、オーディエンスを作成す **[!UICONTROL Create]** る画面に移動することを選択します。
 1. 新しいオーディエンスのラベルを指定します。
 1. オーディエンス **[!UICONTROL Type]****[!UICONTROL Experience Cloud]** をに設定し、作成するオーディエンスがPeopleコアサービスから読み込まれたオーディエンスであることを示します。
@@ -50,18 +48,18 @@ Adobe CampaignのPeopleコアサービスからオーディエンス/セグメ�
 
 >[!NOTE]
 >
->アドビのAnalyticsからAdobe Campaignにオーディエンスを読み込む場合、これらのオーディエンスは、最初にPeopleコアサービスまたはAudience Managerで共有する必要があります。 このプロセスには 12～24 時間を要し、Campaign との同期にはさらに 24～36 時間が必要です。場合により、オーディエンスの共有プロセスは最大 60 時間に及ぶことがあります。People コアサービスと Audience Manager での Adobe Analytics オーディエンスの共有について詳しくは、この[ドキュメント](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-publish.html)を参照してください。
+>Adobe AnalyticsからAdobe Campaignにオーディエンスを読み込む場合、これらのオーディエンスは、まずPeopleコアサービスまたはAudience Managerで共有する必要があります。 このプロセスには 12～24 時間を要し、Campaign との同期にはさらに 24～36 時間が必要です。場合により、オーディエンスの共有プロセスは最大 60 時間に及ぶことがあります。People コアサービスと Audience Manager での Adobe Analytics オーディエンスの共有について詳しくは、この[ドキュメント](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-publish.html)を参照してください。
 
 ## オーディエンスのエクスポート {#exporting-an-audience}
 
 ワークフローと **[!UICONTROL Save audience]** アクティビティを使用して、オーディエンスをAdobe CampaignからAudience Managerにエクスポートしたり、Peopleコアサービスにエクスポートしたりできます。
 
-新しいワークフローで実行でき、IMS(Adobe IDを介した認証)を介して接続されたユーザーのみが実行できます。
+新しいワークフローで実行でき、IMS(Adobe ID経由の認証)を介して接続されたユーザーのみが実行できます。
 
 1. プログラム、キャンペーン、またはマーケティングアクティビティのリストから新しいワークフローを作成します。
 1. 様々なアクティビティを使用して、一連のプロファイルをターゲットします。
 1. ターゲット設定の後、ワークフローに **[!UICONTROL Save audience]** アクティビティをドラッグ&amp;ドロップしてから開きます。
-1. 選択 **[!UICONTROL Share in Adobe Experience Cloud]**.
+1. 「**[!UICONTROL Share in Adobe Experience Cloud]**」を選択します。
 
    ![](assets/aam_save_audience_activity.png)
 
@@ -69,9 +67,10 @@ Adobe CampaignのPeopleコアサービスからオーディエンス/セグメ�
 
    * 既存オーディエンスを選択した場合、新規レコードだけがオーディエンスに追加されます。
    * To export your profile list into a new audience, complete the **[!UICONTROL Segment name]** field then click **[!UICONTROL Create]** before selecting the newly created audience.
+
    ![](assets/aam_save_audience_segment_picker.png)
 
-   調整して交換するには、レコードにAdobe Experience Cloud ID(「訪問者ID」または「宣言済みID」)が含まれている必要があります。 オーディエンスの読み込みおよび書き出し時に、非調整レコードは無視されます。
+   調整して交換するには、レコードにAdobe Experience CloudID(「訪問者ID」または「宣言済みID」)が含まれている必要があります。 オーディエンスの読み込みおよび書き出し時に、非調整レコードは無視されます。
 
 1. 終了するには、画面の右上にあるチェックマークをクリックします。
 1. 対応するを選択し **[!UICONTROL Shared Data Source]**&#x200B;ます。
