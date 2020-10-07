@@ -1,5 +1,5 @@
 ---
-title: Campaign StandardAPIを使用する理由
+title: Campaign Standard API を使用する理由?
 description: Campaign StandardAPIとそれらを使用する理由について詳しく説明します。
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
@@ -9,13 +9,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 87f65e6225f7f22ab347aac33ea9d769af299030
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '491'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -65,7 +63,7 @@ Campaign StandardAPIリクエストについて理解を深めるために、一
 
    ![代替テキスト](assets/postman_collection.png)
 
-1. 「 **プロファイル** リクエストの **作成」を選択し、POSTリクエストと「** ヘッダー」タブを更新して、独自の情報(&lt;ORGANIZATION>、&lt;API_KEY>、&lt;ACCESS_TOKEN>)を入力します。 詳しくは、[こちら](../../api/using/setting-up-api-access.md)を参照してください。
+1. 「 **プロファイル** リクエストの **作成」を選択し、POSTリクエストと「** ヘッダー」タブを更新して、独自の情報(&lt;ORGANIZATION>、&lt;API_KEY>、&lt;ACCESS_TOKEN>)を入力します。 詳しくは、[この節](../../api/using/setting-up-api-access.md)を参照してください。
 
    ![代替テキスト](assets/postman_uc1.png)
 
