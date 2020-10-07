@@ -1,6 +1,6 @@
 ---
 title: Audience Manager または People コアサービスとの統合のプロビジョニングと設定
-description: '様々なAdobe Experience Cloudソリューションで開始共有オーディエンスやセグメントにAudience Manager/ユーザーコアサービスを統合する方法を説明します。 '
+description: 'Adobe Experience Cloudの様々なソリューションで開始共有オーディエンスやセグメントにAudience Manager/ユーザーコアサービスを統合する方法について説明します。 '
 page-status-flag: never-activated
 uuid: e7329644-0033-4729-b4a7-61bef137f4b5
 contentOwner: sauviat
@@ -9,24 +9,22 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 discoiquuid: eb24f4ea-325f-433a-91a0-c45906320bcb
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: bd74905985734412b4fb11ad11d70faf9fcc9ca6
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '726'
-ht-degree: 37%
+ht-degree: 40%
 
 ---
 
 
 # Audience Manager または People コアサービスとの統合のプロビジョニングと設定{#provisioning-and-configuring-integration-with-audience-manager-or-people-core-service}
 
-Adobe CampaignのAudience ManagerとPeopleコアのプロビジョニングと設定には、2つの手順があります。 [Adobe Campaignでの統合の](#submitting-request-to-adobe) 設定に関するリクエストの送信を参照してください [](#configuring-the-integration-in-adobe-campaign)。
+Adobe CampaignのAudience ManagerとPeopleコアのプロビジョニングと設定には、2つの手順があります。 [Adobeにリクエストを送信し](#submitting-request-to-adobe) 、Adobe Campaignで統合を [設定する](#configuring-the-integration-in-adobe-campaign)。
 
 ## アドビへの依頼の送信 {#submitting-request-to-adobe}
 
-Audience Manager(AAM)またはPeopleコアサービスの統合により、オーディエンスやセグメントのAdobe Campaignでの読み込みと書き出しが可能になります。
+Audience Manager(AAM)またはPeopleコアサービスの統合により、オーディエンスやセグメントの読み込みと書き出しをAdobe Campaignで実行できます。
 
 この統合を最初に設定する必要があります。この統合のプロビジョニングをリクエストするには、次の情報を記載のうえ、[Digital-Request@adobe.com](mailto:Digital-Request@adobe.com) まで E メールを送信します。
 
@@ -42,7 +40,7 @@ Audience Manager(AAM)またはPeopleコアサービスの統合により、オ�
   </tr> 
   <tr> 
    <td> <strong>IMS Org ID</strong><br /> </td> 
-   <td> IMS組織ID。 <br> IMS組織IDは、Experience Cloudの管理メニューで確認できます。 これは、Adobe Experience Cloud への初回接続時に付与されるものです。 </td> 
+   <td> 所属する組織の IMS 組織 ID。<br> IMS 組織 ID は、Adobe Experience Cloud の管理メニューで確認できます。これは、Adobe Experience Cloud への初回接続時に付与されるものです。 </td> 
   </tr> 
   <tr> 
    <td> <strong>環境：</strong><br /> </td> 
@@ -65,18 +63,18 @@ Audience Manager(AAM)またはPeopleコアサービスの統合により、オ�
 
 ## Adobe Campaignでの統合の設定 {#configuring-the-integration-in-adobe-campaign}
 
-このリクエストを送信した後、アドビは統合のプロビジョニングに進み、お客様に連絡して、設定の最終決定に必要な詳細と情報を提供します。
+このリクエストを提出した後、Adobeは統合のプロビジョニングに進み、お客様に連絡して、設定の最終決定に必要な詳細と情報を提供します。
 
 * [手順 1：Adobe Campaign での外部アカウントの設定または確認](#step-1--configure-or-check-the-external-accounts-in-adobe-campaign)
-* [手順2: データソースの設定](#step-2--configure-the-data-sources)
+* [手順2:データソースの設定](#step-2--configure-the-data-sources)
 * [手順 3：キャンペーントラッキングサーバーの設定](#step-3--configure-campaign-tracking-server)
 * [手順 4：訪問者 ID サービスの設定](#step-4--configure-the-visitor-id-service)
 
 ### 手順 1：Adobe Campaign での外部アカウントの設定または確認 {#step-1--configure-or-check-the-external-accounts-in-adobe-campaign}
 
-まず、Adobe Campaign中の外部アカウントを設定または確認する必要があります。 これらのアカウントはアドビが設定し、必要な情報がお客様に伝えられているはずです。
+まず、Adobe Campaign中の外部アカウントを設定または確認する必要があります。 これらのアカウントはAdobeが設定し、必要な情報がお客様に伝えている必要があります。
 
-これをおこなうには：
+それには、次の手順に従います。
 
 1. 詳細設定メニューで、 **管理/アプリケーション設定/外部アカウントを選択します**。
 
@@ -91,35 +89,35 @@ Audience Manager(AAM)またはPeopleコアサービスの統合により、オ�
 
 ### Step 2: Configure the Data Sources {#step-2--configure-the-data-sources}
 
-次の2つのデータソースがオーディエンスマネージャー内に作成されます。 Adobe Campaign(MID)とAdobe Campaign(DeclaredId)。 同時に、次の2つのデータソースをAdobe Campaignで使用できます。
+次の2つのデータソースがオーディエンスマネージャー内に作成されます。Adobe Campaign(MID)とAdobe Campaign(DeclaredId)。 同時に、次の2つのデータソースをAdobe Campaignで使用できます。
 
-* **[!UICONTROL Recipient - Visitor ID (Defaultdatasources)]**: これは、デフォルトで訪問者IDに設定される、すぐに使用できるデータソースです。 Campaign から作成されたセグメントは、このデータソースの一部になります。
-* **宣言済みID** データソース： このデータソースを作成し、Audience Managerの **[!UICONTROL DeclaredId]** データソース定義にマッピングする必要があります。
+* **[!UICONTROL Recipient - Visitor ID (Defaultdatasources)]**:これは、デフォルトで訪問者IDに設定される、すぐに使用できるデータソースです。 Campaign から作成されたセグメントは、このデータソースの一部になります。
+* **宣言済みID** データソース：このデータソースを作成し、Audience Managerの **[!UICONTROL DeclaredId]** データソース定義にマッピングする必要があります。
 
 異なるドメインを持つ複数のWebサイトの場合、Adobe CampaignはECIDに基づく調整をサポートしません。
 
 To configure the **[!UICONTROL Recipient - Visitor ID (Defaultdatasources)]** data source:
 
-1. > **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Shared Data Sources]**&#x200B;でを選択し **[!UICONTROL Recipient - Visitor ID (Defaultdatasources)]**&#x200B;ます。
+1. In **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Shared Data Sources]**, select **[!UICONTROL Recipient - Visitor ID (Defaultdatasources)]**.
 
    ![](assets/integration_aam_2.png)
 
-1. ドロップダウン **[!UICONTROL Adobe Campaign]** からを選択 **[!UICONTROL Data Source/ Alias]** します。
-1. アドビが **[!UICONTROL AAM Destination ID]** 提供するを入力します。
+1. Choose **[!UICONTROL Adobe Campaign]** in the **[!UICONTROL Data Source/ Alias]** drop-down.
+1. Adobeが **[!UICONTROL AAM Destination ID]** 提供するを入力します。
 
    ![](assets/integration_aam_3.png)
 
 1. カテゴリでは、調整条件を変更せず、常に調整条件を使用することをお勧めし **[!UICONTROL Reconciliation process]****[!UICONTROL Visitor ID]**&#x200B;ます。
-1. クリック **[!UICONTROL Save]** .
+1. 「**[!UICONTROL Save]**」をクリックします。
 
 データソースを作成するには、次の手順を実行し **[!UICONTROL Declared ID]** ます。
 
 1. > **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Shared Data Sources]**&#x200B;で、 **[!UICONTROL Create]** ボタンをクリックします。
 1. データソース **[!UICONTROL Label]** のを編集します。
 1. ドロップダウンリストで、Audience Managerのデータソースに対応する **[!UICONTROL Data Source/ Alias]****[!UICONTROL DeclaredID]** データソースを選択します。
-1. アドビから提供されるおよびを入力して、データソース **[!UICONTROL Data Source / Alias]****[!UICONTROL AAM Destination ID]** を設定します。
+1. Adobeが提供するおよびを入力して、データソース **[!UICONTROL Data Source / Alias]** を設定しま **[!UICONTROL AAM Destination ID]** す。
 1. 必要に応じてを設定 **[!UICONTROL Reconciliation process]** します。
-1. クリック **[!UICONTROL Save]** .
+1. 「**[!UICONTROL Save]**」をクリックします。
 
 >[!NOTE]
 >
