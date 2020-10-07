@@ -1,6 +1,6 @@
 ---
-title: CCPAオプトアウトの管理
-description: APIを使用したCCPAオプトアウトの管理方法を説明します。
+title: CCPA オプトアウトの管理
+description: APIを使用したCCPAオプトアウトの管理方法
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
@@ -9,32 +9,33 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '153'
+ht-degree: 3%
 
 ---
 
 
-# CCPAオプトアウトの管理 {#managing-ccpa-optout}
+# CCPA オプトアウトの管理 {#managing-ccpa-optout}
 
-プロファイルのCCPAオプトアウトステータスは、 **ccpaOptOut** profile属性と「true」または「false」値を使用して監視および管理できます。
+プロファイルのCCPAオプトアウトステータスは、ccpaOptOut **** プロファイル属性と「true」または「false」値を使用して監視および管理できます。
 
 `"ccpaOptOut": <value>`
 
-* **true**: 個人情報の販売を禁止する。
+* **true**: 個人情報の販売を禁じる。
 * **false**:個人情報の販売を許可します。
 
 >[!CAUTION]
 >
->「CCPAオプトアウト」属性は、19.4からのみ使用できます。19.3環境の場合は、Profilesリソースを拡張し、ブール型フィールドを追加する必要があります。 このフィールドは、選択したラベルと共にAPIに追加されます。 「CCPAのオプトアウト」を使用することをお勧めします。
+>「CCPAオプトアウト」属性は、19.4からのみ使用できます。19.3環境の場合は、プロファイルリソースを拡張し、ブール値フィールドを追加する必要があります。 このフィールドは、選択したラベルと共にAPIに追加されます。 「CCPAのオプトアウト」を使用することをお勧めします。
 >
 >For more on this, refer to the [Privacy management documentation](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ccpa).
 
 <br/>
 
-***リクエストの例***
+***リクエストのサンプル***
 
 * プロファイルのCCPAオプトアウトステータスを取得するためのGETリクエストの例。
 
@@ -46,7 +47,7 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
    -H 'Content-Type: application/json;charset=utf-8'
    ```
 
-   GET要求への応答。
+   GETリクエストへの応答。
 
    ```
    {
@@ -58,7 +59,7 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
    }
    ```
 
-* CCPAオプトアウト用のプロファイルをマークするPOSTリクエストの例。
+* プロファイルにCCPAオプトアウトのマークを付けるPOSTリクエストの例。
 
    ```
    -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/ \
@@ -75,7 +76,7 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
    -d }'
    ```
 
-   GET要求への応答。
+   GETリクエストへの応答。
 
    ```
    {
@@ -88,7 +89,7 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
    }
    ```
 
-* CCPAオプトアウト用のプロファイルを更新するためのPATCHリクエストの例。
+* CCPAオプトアウト用にプロファイルを更新するためのPATCHリクエストの例。
 
    ```
    -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/<PKEY> \
@@ -102,7 +103,7 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
    -d }'
    ```
 
-   GET要求への応答。
+   GETリクエストへの応答。
 
    ```
    {
