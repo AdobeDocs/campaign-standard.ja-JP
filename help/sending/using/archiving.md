@@ -1,6 +1,6 @@
 ---
-title: メッセージのアーカイブ(Adobe Campaign標準)
-description: BCC電子メールアドレスを使用して、Adobe Campaign標準の電子メールをアーカイブする方法を説明します。
+title: Adobe Campaign Standardでのメッセージのアーカイブ
+description: BCC電子メールアドレスを使用して、Adobe Campaign Standardとの電子メールをアーカイブする方法を説明します。
 page-status-flag: never-activated
 uuid: c3721647-0663-4614-a9c9-3b3a40af328a
 contentOwner: sauviat
@@ -9,49 +9,50 @@ audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
 discoiquuid: 6fa50f0d-3dcf-4a9e-bccc-1ecda2bfb449
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 72366d56e21933bcd79e907e5f8d5a9ad5281725
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '367'
+ht-degree: 28%
 
 ---
 
 
-# 電子メールBCCでのアーカイブ{#archiving-emails}
+# E メール BCC を使用したアーカイブ{#archiving-emails}
 
-プラットフォームから送信されたAdobe Campaignのコピーを電子メールBCC経由で保持するように、プラットフォームを設定できます。
+プラットフォームから電子メールBCCを通じて送信される電子メールのコピーを保持するようにAdobe Campaignを設定できます。
 
-特に、組織がコンプライアンスのためにすべての送信電子メールメッセージをアーカイブする必要がある場合は、この機能を有効にできます。 対応する送信メッセージの完全に隠されたコピーを、指定する必要のあるBCC電子メールアドレス(配信受信者には見えない)に送信できます。
+特に、組織で、アウトバウンド電子メールメッセージをすべてアーカイブして準拠する必要がある場合は、この機能を有効にできます。 対応する送信メッセージの完全に隠されたコピーを、指定する必要のあるBCC電子メールアドレス(配信受信者には見えない)に送信できます。
 
-有効にしたら、電子メール配信テンプレートのオプションから電子メールBCC **[!UICONTROL Archive emails]** をアクティブにします。
+有効にした後は、電子メール配信テンプレートの **[!UICONTROL Archive emails]** オプションで電子メールBCCを有効にする必要があります。
 
 >[!NOTE]
 >
->Adobe Campaign自体はアーカイブされたファイルを管理しません。 選択したメッセージを専用のアドレスに送信し、外部システムを使用して処理およびアーカイブできます。
+>Adobe Campaign自体では、アーカイブされたファイルは管理されません。 これにより、選択したメッセージを専用のアドレスに送信し、外部システムを使用して処理およびアーカイブできます。
 
-## 推奨事項と制限事項 {#recommendations-and-limitations}
+## Recommendationsと限界 {#recommendations-and-limitations}
 
 * この機能はオプションです。この機能を有効にするには、ライセンス契約を確認したうえで、アカウント担当者にお問い合わせください。
-* 選択したBCCアドレスは、アドビのチームに提供され、アドビのチームがお客様に代わって設定します。
+* 選択したBCCアドレスは、ユーザーに対して設定を行うAdobeチームに提供する必要があります。
 * BCC電子メールアドレスは1つだけ使用できます。
-* 正常に送信された電子メールのみが考慮されます。 バウンスはありません。
-* プライバシー上の理由から、BCC電子メールは、個人を安全に識別できる情報(PII)を保存できるアーカイブシステムで処理する必要があります。
-* 新しい配信テンプレートを作成する場合、オプションが購入されていても、電子メールBCCはデフォルトで有効になっていません。 使用する各配信テンプレートで手動で有効にする必要があります。
+* 正常に送信された電子メールのみが考慮されます。バウンスはありません。
+* プライバシー上の理由から、BCC電子メールは、個人の身元を特定できる情報(PII)を安全に保存できるアーカイブシステムで処理する必要があります。
+* 新しい配信テンプレートを作成する場合、購入済みの場合でも、電子メールBCCはデフォルトで有効になっていません。 使用する各配信テンプレートで手動で有効にする必要があります。
 
 >[!NOTE]
 >
->現在、拡張MTAにアップグレード済みの場合でも、Adobe Campaign拡張MTAでアーカイブ済みの電子メールを送信することはできません。
+>現在、拡張MTAに既にアップグレード済みの場合でも、Adobe Campaign拡張MTAでアーカイブ済みの電子メールを送信することはできません。
 
 ## 電子メールアーカイブのアクティブ化 {#activating-email-archiving}
 
-電子メールBCCは、有効になると、次の専用オプションを使用して、電 [子メールテンプレー](../../start/using/marketing-activity-templates.md)トでアクティブになります。
+電子メールBCCは、有効にすると、次の専用のオプションを通じて、 [電子メールテンプレート](../../start/using/marketing-activity-templates.md)(BCC)内でアクティブになります。
 
 1. **リソース**／**テンプレート**／**配信テンプレート**&#x200B;に移動します。
-1. 重複を追加する必要があ **[!UICONTROL Send via email]** ります。
+1. すぐに使用できる **[!UICONTROL Send via email]** テンプレートの重複
 1. 複製したテンプレートを選択します。
-1. テンプレートの **[!UICONTROL Edit properties]** プロパティを編集するには、ボタンをクリックします。
-1. セクションを展 **[!UICONTROL Send]** 開します。
-1. このテンプレ **[!UICONTROL Archive emails]** ートに基づいて各メッセージの送信済みメッセージのコピーを保持する場合は、この配信を選択します。
+1. Click the **[!UICONTROL Edit properties]** button to edit the template&#39;s properties.
+1. セクションを展開し **[!UICONTROL Send]** ます。
+1. このテンプレートに基づいて各配信のすべての送信メッセージのコピーを保持するには、この **[!UICONTROL Archive emails]** チェックボックスをオンにします。
 
    ![](assets/email_archiving.png)
 
