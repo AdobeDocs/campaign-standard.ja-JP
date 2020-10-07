@@ -1,5 +1,5 @@
 ---
-title: マッピングの有効化
+title: マッピングのアクティベーション
 description: データマッピングをアクティブにする方法を説明します。
 page-status-flag: never-activated
 uuid: 867b1c4b-4c79-4c52-9d0a-ef71993e50a2
@@ -9,23 +9,24 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c2ed4b3c85ceef3b604a8f68d924c7e5d9fad900
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '382'
+ht-degree: 1%
 
 ---
 
 
-# マッピングの有効化 {#mapping-activation}
+# マッピングのアクティベーション {#mapping-activation}
 
 >[!IMPORTANT]
 >
->Adobe Experience Platform Data Connectorは、現在ベータ版です。この機能は、予告なく頻繁にアップデートされる場合があります。 これらの機能にアクセスするには、お客様はAzureでホストされる必要があります（現在、北米向けベータ版のみ）。 アドビカスタマーケアにお問い合わせの際は、アドビカスタマーケアにご連絡ください。
+>Adobe Experience Platformデータコネクタは現在ベータ版で、予告なく頻繁に更新される可能性があります。 これらの機能にアクセスするには、お客様はAzureでホストされる必要があります（現在、北米向けベータ版のみ）。 ご利用になる場合は、Adobeカスタマーケアにお問い合わせください。
 
-マッピングの定義が完了したら、マッピングを公開できます。 デプロイメント手順の後、Campaign StandardとAdobe Experience Platform間のデータレプリケーションが自動的に開始されます。 ボタンをクリックすると、いつでもレプリケーションを停止でき **[!UICONTROL Stop]** ます。
+マッピングの定義が完了したら、マッピングを公開できます。 導入手順の後、Campaign StandardとAdobe Experience Platform間のデータ・レプリケーションが自動的に開始されます。 ボタンをクリックすると、いつでもレプリケーションを停止でき **[!UICONTROL Stop]** ます。
 
-マッピングの変更に応じて、すべてのレコードをAdobe Experience Platformに再送信するように選択できます。
+マッピングの変更に応じて、すべてのレコードをAdobe Experience Platformに再送信するよう選択できます。
 
 ![](assets/aep_publishmapping.png)
 
@@ -33,7 +34,7 @@ source-git-commit: c2ed4b3c85ceef3b604a8f68d924c7e5d9fad900
 
 ![](assets/aep_publog.png)
 
-タブで、公開済みマッピングの書き出しジョブを監視でき **[!UICONTROL Export jobs]** ます。
+タブで、公開済みのマッピングの書き出しジョブを監視でき **[!UICONTROL Export jobs]** ます。
 
 ![](assets/aep_jobstatus.png)
 
@@ -43,7 +44,7 @@ source-git-commit: c2ed4b3c85ceef3b604a8f68d924c7e5d9fad900
 
 データ取り込みジョブのステータス：
 
-* **[!UICONTROL Created]**: データ取り込みジョブが作成され、データ取り込みが進行中です。
-* **[!UICONTROL Failed]**: データ取り込みジョブが失敗しました。 理由フィールドには、失敗の理由が表示されます。 失敗は一時的なものでも、永久的なものでもかまいません。 一時的なエラーが発生した場合は、設定された間隔の後に新しい取り込みジョブが作成されます。 トラブルシューティングの最初の手順として、ユーザーは失敗の理由フィールドを確認できます。 理由によってユーザーがAdobe Experience Platform UIにリダイレクトされた場合、ユーザーはAdobe Experience Platformにログインし、データセット内のバッチステータスを確認して、正確な失敗理由を判断できます。
-* **[!UICONTROL Uploaded]**: バッチは最初にAdobe Experience Platformで作成され、次にデータがバッチに取り込まれます。 バッチIDフィールドには、Adobe Experience Platform内のバッチのバッチIDが表示されます。 また、Adobe Experience Platformは、バッチに対する後の検証も実行します。 バッチは、Adobe Experience Platformが検証後の手順を完了するまで、最初にアップロード済みとしてマークされます。 ジョブは、アップロード後もAdobe Experience Platformのステータスをポーリングし続けます。 バッチは、Adobe Experience Platformでの検証後、「失敗」または「成功」の状態になります。
-* **[!UICONTROL Success]**: バッチがAdobe Experience Platformにアップロードされた後、設定された間隔の後にジョブのステータス（プラットフォームでの後検証）がチェックされます。 ステータス「成功」により、Adobe Experience Platformでデータが正常に取り込まれたことが確認されました。
+* **[!UICONTROL Created]**:データ取り込みジョブが作成され、データ取り込みが進行中です。
+* **[!UICONTROL Failed]**:データ取り込みジョブが失敗しました。 理由フィールドには、失敗の理由が表示されます。 失敗は一時的なものでも、永久的なものでもかまいません。 一時的なエラーが発生した場合は、設定された間隔の後に新しい取り込みジョブが作成されます。 トラブルシューティングの最初の手順として、ユーザーは失敗の理由フィールドを確認できます。 理由によってユーザーがAdobe Experience PlatformUIにリダイレクトされた場合、ユーザーはAdobe Experience Platformにログインし、データセット内のバッチステータスを確認して、正確な失敗理由を判断できます。
+* **[!UICONTROL Uploaded]**:まず、バッチをAdobe Experience Platformで作成し、次に、データをバッチに取り込む。 バッチIDフィールドには、Adobe Experience PlatformのバッチのバッチIDが表示されます。 また、Adobe Experience Platformはバッチに対する後の検証も実行します。 バッチは、Adobe Experience Platformが検証後の手順を完了するまで、最初にアップロード済みとしてマークされます。 ジョブは、アップロード後にバッチのステータスをAdobe Experience Platformにポーリングし続けます。 バッチは、Adobe Experience Platformでの検証後、失敗または成功状態にすることができます。
+* **[!UICONTROL Success]**:バッチがAdobe Experience Platformにアップロードされた後、設定された間隔の後にジョブのステータス（プラットフォームでの後処理の検証）がチェックされます。 ステータス「Success」により、Adobe Experience Platformでのデータの取り込みが成功していることが確認されました。
