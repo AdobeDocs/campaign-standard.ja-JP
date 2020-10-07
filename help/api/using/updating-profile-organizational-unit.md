@@ -9,18 +9,19 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '96'
+ht-degree: 10%
 
 ---
 
 
 # プロファイルの組織単位の更新 {#managing-organizational-units}
 
-1. orgUnitBaseリソースに対してGET要求を実 **行し** 、組織単位PKeyを取得します
-1. ペイロード内の目的の組織単位PKeyを使用して、プロファイルPKeyに対してPATCH要求を実行します。
+1. orgUnitBase **** リソースに対してGET要求を実行し、組織単位PKeyを取得します
+1. プロファイルPKeyに対して、目的の組織単位PKeyをペイロードでPATCH要求を実行します。
 
 <br/>
 
@@ -36,7 +37,7 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-すべての組織単位を返します。 プロファイルを割り当てるユニットのPKeyを取得します。
+すべての組織単位(OU)を返します。 プロファイルを割り当てるユニットのPKeyを取得します。
 
 ```
 {
@@ -52,7 +53,7 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 },
 ```
 
-ペイロード内の目的の組織単位のPKeyを使用して、プロファイルに対してPATCHリクエストを実行します。
+ペイロード内の目的の組織単位のPKeyを使用して、プロファイルに対するPATCH要求を実行します。
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/<PKEY> \
