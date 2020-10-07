@@ -1,6 +1,6 @@
 ---
 title: Adobe Campaign Standardのデータモデルのベストプラクティス
-description: Adobe Campaign Standardデータモデルを設計する際のベストプラクティスについて説明します。
+description: Adobe Campaign Standardのデータモデルを設計する際のベストプラクティスについて説明します。
 page-status-flag: never-activated
 uuid: cacd563f-6936-4b3e-83e3-5d4ae31d44e8
 contentOwner: sauviat
@@ -10,10 +10,8 @@ content-type: reference
 topic-tags: about-custom-resources
 discoiquuid: 4e0468da-3052-4ce5-8174-45aba1f5c4ed
 context-tags: cusResource,overview;eventCusResource,overview
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: b7775e1d95e6a7e08b38fc65b44a061eda7ff079
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '1556'
 ht-degree: 1%
@@ -40,7 +38,7 @@ Adobe Campaignシステムは非常に柔軟性が高く、最初の実装以外
 
 ## データモデルのアーキテクチャ {#data-model-architecture}
 
-Adobe Campaign Standardは、オンラインとオフラインの戦略を調整して、パーソナライズされた顧客体験を作り出すのに役立つ、強力なクロスチャネルキャンペーン管理システムです。
+Adobe Campaign Standardは、オンラインとオフラインの戦略を調整して、パーソナライズされた顧客体験を作り出すのに役立つ強力なクロスチャネルキャンペーン管理システムです。
 
 ### 顧客中心アプローチ {#customer-centric-approach}
 
@@ -68,7 +66,7 @@ Adobe Campaignに送信するデータ マーケティングアクティビテ�
 
 >[!NOTE]
 >
->Adobe Campaignはdata warehouseではありません。 したがって、可能な顧客とその関連情報をすべてAdobe Campaignにインポートしないでください。
+>Adobe CampaignはData Warehouseではありません。 したがって、可能な顧客とその関連情報をすべてAdobe Campaignにインポートしないでください。
 
 属性をAdobe Campaignに必要とするかどうかを決定するには、属性が次のいずれかのカテゴリに該当するかどうかを決定します。
 * セグメント化に使用する **属性**
@@ -81,7 +79,7 @@ Adobe Campaignに送信するデータ マーケティングアクティビテ�
 ### データタイプ {#data-types}
 
 システムのアーキテクチャとパフォーマンスを確実に保つには、次のベストプラクティスに従ってAdobe Campaignでデータを設定します。
-* 文字列フィールドの長さは、常に列で定義する必要があります。 デフォルトでは、Adobe Campaignの最大長は255文字ですが、サイズが短くならないことが既にわかっている場合は、フィールドの長さを短くすることをお勧めします。
+* 文字列フィールドの長さは、常に列で定義する必要があります。 デフォルトでは、Adobe Campaignの最大長は255文字ですが、サイズが短くならないことが既にわかっている場合は、Adobeでフィールドの長さを短くすることをお勧めします。
 * ソース・システムのサイズが過大評価されていて、サイズに達しないことが確実な場合は、ソース・システムのAdobe Campaignよりもフィールドの方が短い場合でも構いません。 Adobe Campaignが短い文字列か、それより小さい整数を意味する場合があります。
 
 ## データ構造の設定 {#configuring-data-structure}
@@ -100,10 +98,10 @@ Adobe Campaignリソースには3つの識別子があり、別の識別子を�
 
 | 表示名 | 技術名 | 説明 | ベストプラクティス |
 |--- |--- |--- |--- |
-|  | PKey | <ul><li>PKeyは、Adobe Campaignテーブルの物理的な主キーです。</li><li>このIDは、通常、特定のAdobe Campaignインスタンスに対して一意です。</li><li>Adobe Campaign Standardでは、この値はエンドユーザーに対して表示されません（URLを除く）。</li></ul> | <ul><li>APIシステムを介して [](../../api/using/get-started-apis.md)、PKey値（物理キーではなく生成/ハッシュ値）を取得できます。</li><li>APIを使用したレコードの取得、更新、削除以外の目的で使用することはお勧めしません。</li></ul> |
+|  | PKey | <ul><li>PKeyは、Adobe Campaignテーブルの物理的な主キーです。</li><li>このIDは、通常、特定のAdobe Campaignインスタンスに対して一意です。</li><li>Adobe Campaign Standardでは、この値はエンドユーザーに対しては表示されません（URLを除く）。</li></ul> | <ul><li>APIシステムを介して [](../../api/using/get-started-apis.md)、PKey値（物理キーではなく生成/ハッシュ値）を取得できます。</li><li>APIを使用したレコードの取得、更新、削除以外の目的で使用することはお勧めしません。</li></ul> |
 | ID | nameまたはinternalName | <ul><li>この情報は、テーブル内のレコードの一意の識別子です。 この値は手動で更新できます。</li><li>このIDは、別のAdobe Campaignインスタンスにデプロイする場合に値を保持します。 パッケージを介してエクスポートできるように、生成された値とは異なる名前を付ける必要があります。</li><li>これは、テーブルの実際の主キーではありません。</li></ul> | <ul><li>スペース&quot;&quot;、セミコラム&quot;:&quot;、ハイフン&quot;-&quot;などの特殊文字は使用しないでください。</li><li>これらの文字はすべて、アンダースコア「_」に置き換えられます（許可されている文字）。 例えば、&quot;abc-def&quot;と&quot;abc:def&quot;は&quot;abc_def&quot;として保存され、互いに上書きされます。</li></ul> |
 | ラベル | label | <ul><li>ラベルは、Adobe Campaign内のオブジェクトまたはレコードのビジネス識別子です。</li><li>このオブジェクトでは、スペースと特殊文字を使用できます。</li><li>レコードの一意性を保証するものではありません。</li></ul> | <ul><li>オブジェクトのラベルの構造を決定することをお勧めします。</li><li>これは、Adobe Campaignユーザーのレコードまたはオブジェクトを識別するための、最も使いやすいソリューションです。</li></ul> |
-| ACS ID | acsId | <ul><li>追加の識別子を生成できます。 ACS ID [](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)。</li><li>PKeyはAdobe Campaignユーザーインターフェイスでは使用できないので、プロファイルレコードの挿入時に生成される一意の値を取得するソリューションです。</li><li>この値は、レコードがAdobe Campaignに挿入される前にリソースでこのオプションが有効になっている場合にのみ、自動的に生成されます。</li></ul> | <ul><li>このUUIDは紐付けキーとして使用できます。</li><li>自動生成されたACS IDは、ワークフロー内またはパッケージ定義内の参照として使用できません。</li><li>この値は、Adobe Campaignインスタンスに固有です。</li></ul> |
+| ACS ID | acsId | <ul><li>追加の識別子を生成できます。ACS ID [](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)。</li><li>PKeyはAdobe Campaignユーザーインターフェイスでは使用できないので、プロファイルレコードの挿入時に生成される一意の値を取得するソリューションです。</li><li>この値は、レコードがAdobe Campaignに挿入される前にリソースでこのオプションが有効になっている場合にのみ、自動的に生成されます。</li></ul> | <ul><li>このUUIDは紐付けキーとして使用できます。</li><li>自動生成されたACS IDは、ワークフロー内またはパッケージ定義内の参照として使用できません。</li><li>この値は、Adobe Campaignインスタンスに固有です。</li></ul> |
 
 ### 識別キー {#keys}
 
@@ -124,11 +122,11 @@ IDキーは、ワークフローで参照として使用しないでください
 
 <!--For more on defining identification keys, see [this section](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys).-->
 
-### 索引 {#indexes}
+### インデックス {#indexes}
 
 Adobe Campaignは、リソースに定義されているすべての主キーと内部キーに [インデックス](../../developing/using/configuring-the-resource-s-data-structure.md#defining-indexes) を自動的に追加します。
 
-* パフォーマンスが向上する可能性があるので、追加のインデックスを定義することをお勧めします。
+* Adobeでは、パフォーマンスが向上する可能性があるので、追加のインデックスを定義することをお勧めします。
 * ただし、インデックスの追加数は、データベース上の領域を使用するため、多くにしないでください。 多数のインデックスがある場合も、パフォーマンスに悪影響を及ぼす可能性があります。
 * 定義する必要のあるインデックスを慎重に選択します。
 
@@ -140,9 +138,9 @@ When you are performing an initial import with very high volumes of data insert 
 
 他のリソースを使用したリンクの定義については、 [この節で説明します](../../developing/using/configuring-the-resource-s-data-structure.md#defining-links-with-other-resources)。
 
-* ワークフロー内の任意のテーブルを結合できますが、リソース間の共通リンクをデータ構造の定義で直接定義することをお勧めします。
+* ワークフロー内の任意のテーブルを結合できますが、Adobeでは、リソース間の共通リンクをデータ構造の定義に直接定義することをお勧めします。
 * リンクは、テーブル内の実際のデータと整列して定義する必要があります。 誤った定義は、予期せぬレコードの複製など、リンクを介して取得したデータに影響を与える可能性があります。
-* リソース名を使用して、リンクに一貫した名前を付けます。 リンク名は、遠隔テーブルの内容を理解するのに役立ちます。
+* リソース名を使用して、リンクに一貫した名前を付けます。リンク名は、遠隔テーブルの内容を理解するのに役立ちます。
 * 「id」をサフィックスとして含むリンクの名前を付けないでください。 例えば、「transactionId」ではなく「transaction」という名前を付けます。
 
 <!--For more on defining links with other resources, see [this section](../../developing/using/configuring-the-resource-s-data-structure.md#defining-links-with-other-resources).-->
