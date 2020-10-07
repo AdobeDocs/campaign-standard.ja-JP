@@ -9,17 +9,18 @@ audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
 discoiquuid: 8dc45c37-6908-407e-8e41-4a4188cba2b3
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '153'
+ht-degree: 11%
 
 ---
 
 
 # リソースの作成または拡張{#creating-or-extending-the-resource}
 
-組み込みデータモデルに含まれていないデータを操作する必要がある場合、管理者は、新しいリソースを最初から作成したり、既存のリソースの拡張を作成したりできます。
+組み込みのデータモデルに含まれないデータを操作する必要がある場合は、管理者は、新しいリソースを最初から作成するか、既存のリソースの拡張を作成することができます。
 
 拡張できる組み込みリソースは次のとおりです。
 
@@ -35,21 +36,21 @@ source-git-commit: 8852adb5edeb42eba1acf2911c988071104f1401
 
 リソースを作成または拡張するには：
 
-1. //か **[!UICONTROL Administration]** ら、 **[!UICONTROL Development]** ボタン **[!UICONTROL Custom Resources]**&#x200B;をクリック **[!UICONTROL Create]** します。
+1. > **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom Resources]**&#x200B;から、 **[!UICONTROL Create]** ボタンをクリックします。
 1. 実行するアクションを選択します。
 
-   * **[!UICONTROL Create a new resource]**:およびフィールド **[!UICONTROL Label]** を入力 **[!UICONTROL ID]** します。 このフィ **[!UICONTROL ID]** ールドは必須です。 「ラベル」フィールドを空のままにすると、IDから自動的にラベルが入力されます。
+   * **[!UICONTROL Create a new resource]**:との各 **[!UICONTROL Label]** フィールドを入力し **[!UICONTROL ID]** ます。 「**[!UICONTROL ID]**」フィールドは必須です。「ラベル」フィールドを空のままにすると、IDから自動的に入力されます。
 
       ![](assets/schema_extension_2.png)
 
       >[!NOTE]
       >
-      >最大30文字を使用します。
+      >最大 30 文字です。
 
    * **[!UICONTROL Extend an existing resource]**:拡張するリソースを選択します。
 
       ![](assets/schema_extension_10.png)
 
-1. をクリ **[!UICONTROL Create]** ックしてリソースを作成します。新しいリソースの場 **[!UICONTROL Draft]** 合はステータス、拡張の場合はス **[!UICONTROL Editing]** テータスになります。
+1. をクリック **[!UICONTROL Create]** してリソースを作成します。新しいリソースの場合は **[!UICONTROL Draft]** 状態、拡張の場合は **[!UICONTROL Editing]** 状態が適用されます。
 
-新しいリソースが作成され、設定できるようになります。 リソースの設定の詳細については、 [Configuring the resource&#39;s data structureを参照してください](../../developing/using/configuring-the-resource-s-data-structure.md)。
+新しいリソースが作成され、設定できるようになります。 リソース設定の詳細については、「リソースのデータ構造の [設定](../../developing/using/configuring-the-resource-s-data-structure.md)」を参照してください。
