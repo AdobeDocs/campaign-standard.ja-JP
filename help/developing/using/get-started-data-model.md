@@ -9,13 +9,11 @@ audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
 discoiquuid: 40503917-7a53-4d99-96a4-57aa9e98ec87
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '350'
-ht-degree: 16%
+ht-degree: 24%
 
 ---
 
@@ -28,7 +26,7 @@ ht-degree: 16%
 <td><img src="assets/do-not-localize/icon_custom.svg" width="60px"><p><a href="#custom-resources">カスタムリソース</a></p></td><td><img src="assets/do-not-localize/icon_api.svg" width="60px"><p><a href="#custom-resources">APIの使用</a></p></td></tr>
 </table>
 
-独自のフィールドとリソースを使用してCampaign Standardデータモデルを拡張し、すべてのデータモデルの変更を1つの表示に監視します。
+独自のフィールドとリソースを使用して Campaign Standard データモデルを拡張し、あらゆるデータモデルの変更を単一ビューで監視します。
 
 ## データモデル {#data-model}
 
@@ -64,7 +62,7 @@ Campaign Standardを使用すると、事前定義されたデータモデルを
 
 <img src="assets/do-not-localize/icon_api.svg" width="60px">
 
-Campaign StandardAPIを使用して、Adobe Campaign Standard向けの統合を作成し、使用するテクノロジーのパネルとキャンペーンを連携させて独自のエコシステムを構築します。 [Campaign StandardREST APIの概要](../../api/using/get-started-apis.md)
+Campaign StandardAPIを使用して、Adobe Campaign Standard向けの統合を作成し、使用するテクノロジーのパネルとキャンペーンを連携させて独自のエコシステムを構築します。 [Campaign Standard REST API の概要](../../api/using/get-started-apis.md)
 
 ## その他のリソース
 
