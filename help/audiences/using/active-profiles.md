@@ -9,10 +9,8 @@ audience: audiences
 content-type: reference
 topic-tags: managing-profiles
 discoiquuid: e029213f-0b65-41b1-8adf-34fa813b0c70
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c1147c4512b1485ae5d927a32970adcd41b540e7
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 11%
@@ -30,7 +28,7 @@ Adobe Campaignは、アクティブなプロファイルの数を表示するレ
 >
 >AWSでホストし、ビルド10368のCampaign Standardを使用している場合は、インスタンスで使用されるアクティブなプロファイルの数をCampaign コントロールパネルから直接監視することもできます。 詳しくは、[コントロールパネルのドキュメント](https://docs.adobe.com/content/help/ja-JP/control-panel/using/performance-monitoring/active-profiles-monitoring.html)を参照してください。
 >
->「アクティブなプロファイル」指標は使用可能で、 **マーケティングインスタンスにのみ関連します** 。 MID（ミッドソーシング）およびRT(Message Center/Real-time messaging)インスタンスを意味する、実行インスタンスには適用されず、使用できません。
+>Note that Active profiles metric is available and relevant for **Marketing instances** only. MID（ミッドソーシング）およびRT(Message Center/Real-time messaging)インスタンスを意味する、実行インスタンスには適用されず、使用できません。
 
 
 配信の準備中に除外されたプロファイル(タイポロジルール、強制隔離、コントロール母集団)は考慮されません。 プロファイルは、複数の配信のターゲットになっていても一度しかカウントされません。レポートの下部には、各ターゲティングディメンションのアクティブなプロファイルのリストが表示されます。
