@@ -1,6 +1,6 @@
 ---
 title: SMS メッセージについて
-description: Adobe CampaignのSMSチャネルの主な特性を確認します。
+description: Adobe Campaign内のSMSチャネルの主な特殊性を見つける。
 page-status-flag: never-activated
 uuid: 14dc7434-8171-4ad1-9540-52ca637659a9
 contentOwner: sauviat
@@ -10,17 +10,18 @@ content-type: reference
 topic-tags: sms-messages
 discoiquuid: 6134fe72-77de-4fd0-b794-4d966effaccf
 delivercontext-tags: deliveryCreation,wizard;delivery,smsContent,back
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 501ba6f97a86076116d4d84f43df674536e12f6a
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '269'
+ht-degree: 32%
 
 ---
 
 
 # SMS メッセージについて{#about-sms-messages}
 
-Adobe Campaignでは、SMS(Short Message Service)メッセージを配信できます。
+Adobe Campaignを使用すると、SMS (Short Message Service)メッセージを配信できます。
 
 >[!NOTE]
 >
@@ -28,31 +29,31 @@ Adobe Campaignでは、SMS(Short Message Service)メッセージを配信でき�
 
 SMS メッセージの場合、テキスト形式のメッセージのみを作成、変更およびパーソナライズできます。SMS メッセージは、送信前にプレビューすることもできます。
 
-SMSメッセージがGSMエンコードの場合は160文字に制限され、Unicodeの場合は70文字に制限されます。 ただし、特定の特殊文字がメッセージの長さに影響を与える可能性があります。 For more on this, refer to the [SMS encoding](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration) section.
+SMSメッセージがGSMエンコーディングの場合は160文字に制限され、Unicodeの場合は70文字に制限されます。 ただし、特定の特殊文字を使用すると、メッセージの長さに影響を与える場合があります。 For more on this, refer to the [SMS encoding](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration) section.
 
-SMSメッセージは、メニュー、キャンペーン、 **[!UICONTROL Marketing activities]**またはワークフローから作成できます。「SMSメッセージの作成」を[参照してください](../../channels/using/creating-an-sms-message.md)。
+SMSメッセージは、 **[!UICONTROL Marketing activities]** メニュー、キャンペーン、またはワークフローから作成できます。「SMSメッセージの [作成](../../channels/using/creating-an-sms-message.md)」を参照してください。
 
-携帯電話にSMSメッセージを配信するには、次の手順を実行する必要があります。
+SMSメッセージを携帯電話に配信するには、次の手順を実行します。
 
-* モード **[!UICONTROL Routing]**を使用してチャネルに設定**[!UICONTROL Mobile (SMS)]** された外部アカウ **[!UICONTROL Bulk delivery]**ント。 For more on this, refer to the[Routing](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing)section.
-* この外部アカウントに正しくリンクされた配信テンプレート。
+* **[!UICONTROL Bulk delivery]**&#x200B;モードで&#x200B;**[!UICONTROL Mobile (SMS)]**&#x200B;チャネルに設定された&#x200B;**[!UICONTROL Routing]**&#x200B;外部アカウント。詳しくは、[ルーティング](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing)の節を参照してください。
+* この外部アカウントに正しくリンクされている配信テンプレート。
 
 **関連トピック：**
 
 * [テンプレートの管理](../../start/using/marketing-activity-templates.md)
-* [SMS設定](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing)
+* [SMS構成](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing)
 * [SMS レポート](../../reporting/using/sms-report.md)
-* [キャンペーン標準モバイルガイド](https://helpx.adobe.com/campaign/kb/acs-mobile.html)
+* [Campaign Standard モバイルガイド](https://helpx.adobe.com/jp/campaign/kb/acs-mobile.html)
 
 ## SMS配信テンプレート {#sms-delivery-template}
 
-Adobe Campaignには、モバイルデバイス用の配信テンプレートが用意されています。 このテンプレートは、チャネルに使用する外部アカウントに正しくリンクされている必要が **[!UICONTROL Mobile (SMS)]**あります。 アクセスして変更するには：
+Adobe Campaignオファーは、モバイルデバイスの配信テンプレートです。 このテンプレートは、 **[!UICONTROL Mobile (SMS)]** チャネルに使用される外部アカウントに正しくリンクされている必要があります。 アクセスして変更するには：
 
-1. アドバンス **[!UICONTROL Resources]**メニュー**[!UICONTROL Templates]** から/ **[!UICONTROL Delivery templates]**/を選択します。
-1. マウスでテンプレート **[!UICONTROL Send via SMS]**の上にカーソルを置き、「要素を複製」オ**&#x200B;プションを選択し&#x200B;**ます。
+1. アドバンスメニュー **[!UICONTROL Resources]** から/ **[!UICONTROL Templates]** / **[!UICONTROL Delivery templates]** を選択します。
+1. マウスで **[!UICONTROL Send via SMS]** テンプレートの上にカーソルを置き、「 **重複要素** 」オプションを選択します。
 1. 新しいテンプレートを選択します。
-1. ボタンをクリッ **[!UICONTROL Edit properties]**クします。
-1. テンプレートプ **[!UICONTROL Advanced parameters]**ロパティのセクションで、テンプレートが、SMSの配信に使用する外部アカウントにリンクされていることを確認します。
+1. 「**[!UICONTROL Edit properties]**」ボタンをクリックします。
+1. テンプレートプロパティの **[!UICONTROL Advanced parameters]** セクションで、テンプレートが、SMSの配信に使用する外部アカウントにリンクされていることを確認します。
 
    ![](assets/sms_template.png)
 
