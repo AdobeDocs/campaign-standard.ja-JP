@@ -1,5 +1,5 @@
 ---
-title: 電子メールとダイレクトメールの配信の結合
+title: E メールとダイレクトメールの配信の結合
 description: この使用例は、ワークフローからの電子メールおよびダイレクトメール送信の例を示します。
 page-status-flag: never-activated
 uuid: 1db691b8-c072-4e99-b2fa-27844a179c55
@@ -10,28 +10,26 @@ content-type: reference
 topic-tags: direct-mail
 discoiquuid: 141fa646-5260-4450-bafb-431ef7736c73
 context-tags: delivery,directMailContent,back
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '119'
-ht-degree: 4%
+ht-degree: 84%
 
 ---
 
 
-# 電子メールとダイレクトメールの配信の結合 {#coupling-email-direct-mail}
+# E メールとダイレクトメールの配信の結合 {#coupling-email-direct-mail}
 
-マーケティング担当者は、ダイレクトメールでカタログを送信する必要がある場合があります。 ペーパーカタログでは、特定のページオファーには、Webサイトで商品を購入するためのプロモーションコードとリンクを使用した10%割引が適用されます。
+マーケターは、ダイレクトメールでカタログを送信する場合があります。ペーパーカタログでは、特定のページで、Web サイトでの商品購入に使用できるプロモーションコードとリンクを使用した 10％の割引が紹介されています。
 
-オフラインとオンラインの組み合わせは面白い。一部のクライアントはオンラインで注文したがるが、紙面での表示製品の提供を好むからである。
+オフラインとオンラインの組み合わせは注目すべきものです。一部のクライアントは、注文はオンラインですることが多いですが、商品の紹介を見るのは紙面の方がよいと考えているからです。
 
 使用できるダイレクトメールテンプレートの例を以下に示します。
 
 ![](assets/direct_mail_9.png)
 
-次に、ダイレクトメールと電子メールのチャネルを混在させるワークフローの例を示します。
+ダイレクトメールと E メールのチャネルを併用するワークフローの例を以下に示します。
 
 ![](assets/direct_mail_10.png)
 
