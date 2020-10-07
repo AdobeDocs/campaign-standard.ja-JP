@@ -1,6 +1,6 @@
 ---
-title: GET / POST / PATCH / DELETE VERBS
-description: キャンペーン標準APIで使用される動詞について詳しく説明します。
+title: GET/POST/PATCH/DELETE動詞
+description: Campaign StandardAPIで使用される動詞について詳しく説明します。
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
@@ -9,30 +9,31 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '129'
+ht-degree: 0%
 
 ---
 
 
-# GET / POST / PATCH / DELETE VERBS {#verbs}
+# GET/POST/PATCH/DELETE動詞 {#verbs}
 
 リソースに対して操作を実行するために使用できる動詞は次のとおりです。
 
 * `GET`:1つの要素または要素のコレクションを取得します
 * `POST`:パラメータを持つリソースを作成します。
-* `PATCH`:リソースをパラメータで更新します。
+* `PATCH`:パラメーターを使用してリソースを更新します。
 * `DELETE`:リソースを削除します。
 
 <!-- ajouter codes retour -->
 
 <br/>
 
-***リクエストの例***
+***リクエストのサンプル***
 
-* プロファイルコレクションに対するGETリクエストのサンプル。
+* プロファイル収集でのサンプルGETリクエスト。
 
 
    ```
@@ -94,7 +95,7 @@ source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
    }
    ```
 
-* プロファイルを作成するためのPOSTリクエストの例。
+* プロファイルを作成するためのサンプルPOSTリクエスト。
 
 
    ```
@@ -118,7 +119,7 @@ source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
    }
    ```
 
-* プロファイルを更新するためのPATCHリクエストの例。
+* プロファイルを更新するためのPATCHリクエストのサンプル。
 
    ```
    -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -129,7 +130,7 @@ source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
    -d '{"firstName":"Mark"',"lastName":"Smith"}'
    ```
 
-   更新されたプロファイルを取得するためのPKEYとURLを返します。
+   PKEYとURLを返し、更新されたプロファイルを取得します。
 
    ```
    {
@@ -138,7 +139,7 @@ source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
    }
    ```
 
-* プロファイルを削除するDELETEリクエストの例。
+* プロファイルを削除するためのサンプルDELETEリクエスト。
 
    ```
    -X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
