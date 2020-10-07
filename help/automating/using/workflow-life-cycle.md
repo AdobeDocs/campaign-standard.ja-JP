@@ -10,10 +10,8 @@ content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 906c85ea-83b7-4268-86da-cd353f1dc591
 context-tags: workflow,overview;workflow,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: b4d0aa1a9f116f022890d5eccd87730a7a513103
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 3%
@@ -47,6 +45,6 @@ ht-degree: 3%
 
    ワークフローの実行中にエラーが発生しました。 ワークフローが停止され、ユーザーが操作を実行する必要があります。 このエラーの詳細を確認するには、 ![](assets/printpreview_darkgrey-24px.png) ボタンを使用してワークフローログにアクセスします( [監視を参照](../../automating/using/monitoring-workflow-execution.md))。
 
-マーケティングアクティビティのリストにより、すべてのワークフローとステータスを表示できます。 詳しくは、「マーケティングアクティビティの [管理](../../start/using/marketing-activities.md#about-marketing-activities)」を参照してください。
+マーケティングアクティビティのリストにより、すべてのワークフローとステータスを表示できます。 For more on this, see [Managing marketing activities](../../start/using/marketing-activities.md#about-marketing-activities).
 
 ![](assets/wkf_execution_3.png)
