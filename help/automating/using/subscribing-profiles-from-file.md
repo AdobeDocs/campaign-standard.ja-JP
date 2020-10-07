@@ -1,5 +1,5 @@
 ---
-title: ファイルから特定のサービスへのプロファイルのサブスクライブ
+title: ファイルから特定のサービスへのプロファイルの購読
 description: この使用例では、プロファイルを含むファイルをインポートし、既存のサービスに登録する方法を示します。
 page-status-flag: never-activated
 uuid: 56637024-15ab-4145-9c48-3fbd27ab8af8
@@ -10,28 +10,26 @@ content-type: reference
 topic-tags: data-management-activities
 discoiquuid: 74a6df0e-fd85-4404-a42c-9a7406512717
 context-tags: setOfService,workflow,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '238'
-ht-degree: 0%
+ht-degree: 53%
 
 ---
 
 
-# ファイルの読み込み後に特定のサービスにプロファイルを登録する {#subscribing-profiles-to-a-specific-service-after-importing-a-file}
+# Subscribing profiles to a specific service after importing a file {#subscribing-profiles-to-a-specific-service-after-importing-a-file}
 
-次の例は、プロファイルを含むファイルをインポートし、既存のサービスに登録する方法を示します。 ファイルをインポートした後、インポートしたデータをプロファイルとして識別できるように調整を行う必要があります。 ファイルに重複が含まれていないことを確認するために、重複排除 - 重複アクティビティがデータに対して実行されます。
+次の例では、プロファイルを含んだファイルをインポートし、これらのプロファイルを既存のサービスに購読登録する方法を示します。ファイルをインポートした後で、インポートしたデータをプロファイルとして識別できるように紐付けをおこなう必要があります。ファイルに重複が含まれていないことを確認するために、データに対して「重複排除 - 重複」アクティビティが実行されます。
 
 ワークフローは次のとおりです。
 
 ![](assets/subscription_activity_example1.png)
 
-* ファイルの [ロード](../../automating/using/load-file.md) アクティビティは、プロファイルファイルをロードし、インポートされた列の構造を定義します。
+* A [Load file](../../automating/using/load-file.md) activity loads the profile file and defines the structure of the imported columns.
 
-   この例では、読み込まれるファイルは.csv形式で、次のデータが含まれています。
+   この例では、読み込まれるファイルは .csv 形式で、次のデータが含まれています。
 
    ```
    lastname;firstname;email;birthdate;subdate
@@ -48,14 +46,14 @@ ht-degree: 0%
 
    ![](assets/subscription_activity_example2.png)
 
-* 「 [調整](../../automating/using/reconciliation.md) 」アクティビティは、ファイルのデータをAdobe Campaignデータベースのプロファイルディメンションに属するものとして識別します。 タブのみが設定さ **[!UICONTROL Identification]** れます。 プロファイルの電子メールアドレスに従ってファイルデータを識別します。
+* A [Reconciliation](../../automating/using/reconciliation.md) activity identifies the data from the file as belonging to the profile dimension of the Adobe Campaign database. 「**[!UICONTROL Identification]**」タブのみ設定します。プロファイルの E メールアドレスに従って、ファイルデータを識別します。
 
    ![](assets/subscription_activity_example3.png)
 
-* （調整の結果生じる）一時的なリソースの [電子メール](../../automating/using/deduplication.md) フィールドに基づく **** 重複排除 - 重複は、重複を識別します。 ファイルからインポートしたデータに重複が含まれている場合、サービスへの購読はすべてのデータで失敗します。
+* A [Deduplication](../../automating/using/deduplication.md) based on the **email** field of the temporary resource (resulting from the reconciliation) identifies any duplicates. ファイルからインポートしたデータに重複が含まれている場合、サービスへの購読登録はすべてのデータで失敗します。
 
    ![](assets/subscription_activity_example5.png)
 
-* 「 [購読サービス](../../automating/using/subscription-services.md) 」アクティビティを使用すると、プロファイルを登録する必要があるサービス、購読日に対応するフィールド、購読の接触チャネルを選択できます。
+* A [Subscription Services](../../automating/using/subscription-services.md) activity lets you select the service to which the profiles must be subscribed, the field corresponding to the subscription date, and the origin of the subscription.
 
    ![](assets/subscription_activity_example4.png)
