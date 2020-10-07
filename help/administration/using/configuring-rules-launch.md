@@ -10,18 +10,16 @@ content-type: reference
 topic-tags: push-notifications
 discoiquuid: 23b4212e-e878-4922-be20-50fb7fa88ae8
 context-tags: mobileApp,overview
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 2112f93fba368435850957e6e90b7c7c88ddf248
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '914'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Adobe Campaign Standardの使用例をサポートするための起動ルールの設定 {#configuring-rules-launch}
+# Adobe Campaign Standard の使用例をサポートするための Launch ルールの設定 {#configuring-rules-launch}
 
 で [!DNL Adobe Experience Platform Launch]は、PIIやその他のデータをモバイルアプリケーションからに送信するデータ要素とルールを作成する必要があり [!DNL Adobe Campaign Standard]ます。
 
@@ -53,7 +51,7 @@ ht-degree: 0%
 
 1. 例えば、 **[!UICONTROL Name]** フィールドに「 **mcid**」と入力します。
 
-1. ドロップダウンから **[!UICONTROL Extension]** を選択し **[!UICONTROL Mobile Core]**&#x200B;ます。 次 **[!UICONTROL Experience Cloud ID]** に、「 **[!UICONTROL Data element]** タイプ」ドロップダウンで、
+1. From the **[!UICONTROL Extension]** drop-down, select **[!UICONTROL Mobile Core]**. 次 **[!UICONTROL Experience Cloud ID]** に、「 **[!UICONTROL Data element]** タイプ」ドロップダウンで、
 
    ![](assets/do-not-localize/rules_1.png)
 
@@ -61,13 +59,13 @@ ht-degree: 0%
 
 1. 例えば、 **[!UICONTROL Name]** フィールドに「 **pkey**」と入力します。
 
-1. ドロップダウンから **[!UICONTROL Extension]** を選択し **[!UICONTROL Adobe Campaign Standard]**&#x200B;ます。 次 **[!UICONTROL pkey]** に、「 **[!UICONTROL Data element]** タイプ」ドロップダウンで、
+1. From the **[!UICONTROL Extension]** drop-down, select **[!UICONTROL Adobe Campaign Standard]**. 次 **[!UICONTROL pkey]** に、「 **[!UICONTROL Data element]** タイプ」ドロップダウンで、
 
 1. キャンペーンサーバーのデータ要素を作成するには、をクリックし **[!UICONTROL Add data element]**&#x200B;ます。
 
 1. フィールドに名前を入力します(例： **[!UICONTROL Name]** camp-server ****)。
 
-1. ドロップダウンから **[!UICONTROL Extension]** を選択し **[!UICONTROL Adobe Campaign Standard]**&#x200B;ます。 次 **[!UICONTROL Campaign Server]** に、「 **[!UICONTROL Data element]** タイプ」ドロップダウンリストで、
+1. From the **[!UICONTROL Extension]** drop-down, select **[!UICONTROL Adobe Campaign Standard]**. 次 **[!UICONTROL Campaign Server]** に、「 **[!UICONTROL Data element]** タイプ」ドロップダウンリストで、
 
 ## ルールの作成 {#creating-rules}
 
@@ -92,13 +90,13 @@ PIIデータをに送信するに [!DNL Adobe Campaign Standard]は、次の場�
 
 1. In the **[!UICONTROL Events]** section, click **[!UICONTROL Add]**.
 
-1. ドロップダウンから **[!UICONTROL Extension]** を選択し **[!UICONTROL Mobile Core]**&#x200B;ます。 次 **[!UICONTROL Collect PII]** に、ドロッ **[!UICONTROL Event type]** プダウン内です。
+1. From the **[!UICONTROL Extension]** drop-down, select **[!UICONTROL Mobile Core]**. 次 **[!UICONTROL Collect PII]** に、ドロッ **[!UICONTROL Event type]** プダウン内です。
 
 1. 「**[!UICONTROL Keep changes]**」をクリックします。
 
 1. In the **[!UICONTROL Actions]** section, click **[!UICONTROL Add]**.
 
-1. ドロップダウンから **[!UICONTROL Extension]** を選択し **[!UICONTROL Mobile Core]**&#x200B;ます。 次 **[!UICONTROL Send PII]** に、ドロッ **[!UICONTROL Action type]** プダウン内です。
+1. From the **[!UICONTROL Extension]** drop-down, select **[!UICONTROL Mobile Core]**. 次 **[!UICONTROL Send PII]** に、ドロッ **[!UICONTROL Action type]** プダウン内です。
 
 1. に、次 **[!UICONTROL URL]**&#x200B;のURLを入力します。
 
@@ -157,13 +155,13 @@ PIIデータをに送信するに [!DNL Adobe Campaign Standard]は、次の場�
 
 1. In the **[!UICONTROL Events]** section, click **[!UICONTROL Add]**.
 
-1. ドロップダウンから **[!UICONTROL Extension]** を選択し **[!UICONTROL Adobe Campaign Standard]**&#x200B;ます。 次 **[!UICONTROL In-App click tracking]** に、ドロッ **[!UICONTROL Event type]** プダウン内です。
+1. From the **[!UICONTROL Extension]** drop-down, select **[!UICONTROL Adobe Campaign Standard]**. 次 **[!UICONTROL In-App click tracking]** に、ドロッ **[!UICONTROL Event type]** プダウン内です。
 
 1. 「**[!UICONTROL Keep changes]**」をクリックします。
 
 1. In the **[!UICONTROL Actions]** section, click **[!UICONTROL Add]**.
 
-1. ドロップダウンから **[!UICONTROL Extension]** を選択し **[!UICONTROL Mobile Core]**&#x200B;ます。 次 **[!UICONTROL Send postback]** に、ドロッ **[!UICONTROL Event type]** プダウン内です。
+1. From the **[!UICONTROL Extension]** drop-down, select **[!UICONTROL Mobile Core]**. 次 **[!UICONTROL Send postback]** に、ドロッ **[!UICONTROL Event type]** プダウン内です。
 
 1. に、次 **[!UICONTROL URL]**&#x200B;のURLを入力します。
 
@@ -195,13 +193,13 @@ PIIデータをに送信するに [!DNL Adobe Campaign Standard]は、次の場�
 
 1. In the **[!UICONTROL Events]** section, click **[!UICONTROL Add]**.
 
-1. ドロップダウンから **[!UICONTROL Extension]** を選択し **[!UICONTROL Mobile Core]**&#x200B;ます。 次 **[!UICONTROL Track Action]** に、ドロッ **[!UICONTROL Event type]** プダウン内です。
+1. From the **[!UICONTROL Extension]** drop-down, select **[!UICONTROL Mobile Core]**. 次 **[!UICONTROL Track Action]** に、ドロッ **[!UICONTROL Event type]** プダウン内です。
 
 1. ドロップダウンから、 **[!UICONTROL Action]** を選択し **[!UICONTROL Action]**、を選択し **[!UICONTROL equals]**&#x200B;て、 **追跡を入力します**。
 
 1. 「**[!UICONTROL Keep changes]**」をクリックします。次に、 **[!UICONTROL Actions]** セクションでをクリックし **[!UICONTROL Add]**&#x200B;ます。
 
-1. ドロップダウンから **[!UICONTROL Extension]** を選択し **[!UICONTROL Mobile Core]**&#x200B;ます。 次 **[!UICONTROL Send postback]** に、ドロッ **[!UICONTROL Action type]** プダウン内です。
+1. From the **[!UICONTROL Extension]** drop-down, select **[!UICONTROL Mobile Core]**. 次 **[!UICONTROL Send postback]** に、ドロッ **[!UICONTROL Action type]** プダウン内です。
 
 1. に、次 **[!UICONTROL URL]**&#x200B;のURLを入力します。
 
@@ -231,7 +229,7 @@ PIIデータをに送信するに [!DNL Adobe Campaign Standard]は、次の場�
 
 1. In the **[!UICONTROL Actions]** section, click **[!UICONTROL Add]**.
 
-1. ドロップダウンから **[!UICONTROL Extension]** を選択し **[!UICONTROL Mobile Core]**&#x200B;ます。 次 **[!UICONTROL Send postback]** に、ドロップダウン **[!UICONTROL Action type]** から。
+1. From the **[!UICONTROL Extension]** drop-down, select **[!UICONTROL Mobile Core]**. 次 **[!UICONTROL Send postback]** に、ドロップダウン **[!UICONTROL Action type]** から。
 
 1. 名前を入力します(例： **Mobile Core - Send Location Postback**)。
 
