@@ -1,5 +1,5 @@
 ---
-title: Adobe Campaign Standard向けの配信品質に関する技術的推奨事項
+title: Adobe Campaign Standard向けの配信品質に関する技術推奨事項
 description: Adobe Campaign Standardでの配信品質を向上させるための技術的な推奨事項をご覧ください。
 page-status-flag: never-activated
 uuid: 286fceee-65a9-4cb9-b205-9ce5d024675c
@@ -10,10 +10,11 @@ content-type: reference
 topic-tags: sheduling-messages
 discoiquuid: 9c7fd670-bba9-4f3c-8cb1-87397a1acd27
 context-tags: delivery,schedule,back
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 41502fb6574879d3e69440f49a20fbc1c76ff26c
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '465'
+ht-degree: 90%
 
 ---
 
@@ -40,4 +41,4 @@ DMARC は、250ok が生成したレポートを活用できます。
 
 **SMTP**（Simple Mail Transfer Protocol）は、E メール送信のインターネット標準です。
 
-**専用IP**:アドビは、評判を高め、配信のパフォーマンスを最適化するために、各顧客に専用のIP戦略を提供します。
+**専用IP**:Adobeは、評判を確立し、配信パフォーマンスを最適化するために、各顧客に専用のIP戦略を提供し、ランプアップIPを提供します。
