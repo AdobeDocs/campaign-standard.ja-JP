@@ -1,6 +1,6 @@
 ---
 title: 組織単位
-description: 組織単位を使用して、ユーザーのアクセスレベルを定義します。
+description: 組織単位(OU)を使用して、ユーザーのアクセスレベルを定義します。
 page-status-flag: never-activated
 uuid: 8c82ffea-cef4-4a89-b823-d8b7bae1db4f
 contentOwner: sauviat
@@ -10,10 +10,11 @@ content-type: reference
 topic-tags: users-and-security
 discoiquuid: 6f60c653-1d12-4d27-9bc8-ce8c19bca466
 context-tags: orgUnit,overview;orgUnit,main;geoUnit,overview;geoUnit,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: e31e8c63fa94d190211c7a51e7f1091657c9f479
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '807'
+ht-degree: 5%
 
 ---
 
@@ -22,101 +23,101 @@ source-git-commit: e31e8c63fa94d190211c7a51e7f1091657c9f479
 
 ## 単位について {#about-units}
 
-プラットフォームの各オブジェクトおよびユーザは、組織単位にリンクされる。 このユニットは、ユーザにフィルタされたビューを与えるために階層構造を定義することを可能にします。 ユーザーのユニットは、異なるプラットフォームオブジェクトに対するアクセスレベルを定義します。
+プラットフォームの各オブジェクトおよびユーザは、組織単位にリンクされる。 このユニットは、フィルタされた表示をユーザに与えるために階層構造を定義することを可能にします。 ユーザーのユニットは、異なるプラットフォームオブジェクトに対するアクセスレベルを定義します。
 
 >[!IMPORTANT]
 >
->ユーザーがどのユニットにもリンクされていない場合、そのユーザーはAdobe Campaignに接続できません。 特定のユーザーまたはユーザーのグループに対するアクセスを制限する場合は、ユニットにリンクしないでくだ **[!UICONTROL All]**さい。
+>ユーザーがどのユニットにもリンクされていない場合、そのユーザーはAdobe Campaignに接続できません。 特定のユーザーまたはユーザーのグループに対するアクセスを制限する場合は、そのユニットにリンクしないでくだ **[!UICONTROL All]** さい。
 >
->デフォルトでは、組織単 **[!UICONTROL All (all)]**位はセキュリティグループに割り**[!UICONTROL Administrators]** 当てられます。 読み取り専用で、変更できません。
+>デフォルトでは、**[!UICONTROL All (all)]** 組織単位は **[!UICONTROL Administrators]** セキュリティグループに割り当てられます。これは読み取り専用で、変更できません。
 
-ユーザは、親単位内のすべてのオブジェクトに対して読み取り専用アクセス権を持ちます。 彼は、自分のユニットと子ユニットのすべてのオブジェクトに対する読み取りと書き込みのアクセス権を持っている。 ユーザーは並行ブランチのオブジェクトにアクセスできません。
+ユーザは、親単位のすべてのオブジェクトに対して読み取り専用アクセス権を持ちます。 彼は、自分のユニットと子ユニットのすべてのオブジェクトに対して読み取りと書き込みのアクセス権を持っている。 ユーザーは、並列ブランチ内のオブジェクトにアクセスできません。
 
-デフォルトでは、使用でき **[!UICONTROL All]**るのは単位のみです。
+デフォルトでは、 **[!UICONTROL All]** 単位のみ使用できます。
 
-ユーザーに組織単位が割り当てられると、この単位は、ユーザーが作成したオブジェクトに常に適用されます。
+ユーザーに組織単位が割り当てられると、このユニットは常にユーザーが作成したオブジェクトに適用されます。
 
 ![](assets/user_management_2.png)
 
 >[!NOTE]
 >
->ユーザーが複数のグループに属し、異なるユニットにリンクされている場合、特定のルールが適用されます。 詳しくは、「グループとユーザーの管 [理」の節を参照してください](../../administration/using/managing-groups-and-users.md) 。
+>1人のユーザーが複数のグループに属し、異なるユニットにリンクされている場合、特定のルールが適用されます。 詳細については、「グループとユーザーの [管理](../../administration/using/managing-groups-and-users.md) 」を参照してください。
 
-## ユニットの作成と管理 {#creating-and-managing-units}
+## Creating and managing units {#creating-and-managing-units}
 
-組織単位では、ユーザーがリンクされている組織に応じてインスタンスをフィルターできます。 このユニットは、地域、国、またはインスタンス内のブランドを表すことができます。
+組織単位では、ユーザーがリンクされている組織に応じてインスタンスをフィルターできます。 このユニットは、インスタンス内の地域、国、またはブランドを表すことができます。
 
-ここでは、2人のユーザーに対して異なる役割を持つセキュリティグループを以前に作成しました。1人のユーザーに「管理者」と「Geometrixx」というセキュリティグループが割り当てられ、もう1人のユーザーは「Standard」ユーザーと「Geometrixx Chooges」セキュリティグループに属します。詳しくは、「セキュリテ [ィグループの作成と完全な例のユーザーの割り当て](../../administration/using/managing-groups-and-users.md#creating-a-security-group-and-assigning-users) 」を参照してください。
+ここでは、2人のユーザーに対して異なる役割を持つセキュリティグループを以前に作成しました。1人のユーザーに「管理者」と「Geometrixx」のセキュリティグループが割り当てられ、もう1人のユーザーは「標準」のセキュリティグループに属します。「Geometrixx服」は、「セキュリティグループの [作成と](../../administration/using/managing-groups-and-users.md#creating-a-security-group-and-assigning-users) 、完全な例のユーザーの割り当て」を参照してください。
 
-次に、Geometrixx CloashsとGeometrixxセキュリティグループの組織単位を作成する必要があります。
+次に、Geometrixx衣類とGeometrixxセキュリティグループの組織単位を作成する必要があります。
 
-1. Adobe campaignのアドバンスメニューで、// **[!UICONTROL Administration]**を選**[!UICONTROL Users & security]** 択しま **[!UICONTROL Organizational units]**す。
-1. をクリッ **[!UICONTROL Create]**クして、組織単位の設定を開始します。
+1. Adobeキャンペーンのアドバンスメニューで、 **[!UICONTROL Administration]** / **[!UICONTROL Users & security]** /を選択し **[!UICONTROL Organizational units]**&#x200B;ます。
+1. 組織単位 **[!UICONTROL Create]** の設定に関する開始をクリックします。
 
    ![](assets/manage_units_1.png)
 
-1. デフォルトの「」と「Geometrixx」 **[!UICONTROL Label]**を変**[!UICONTROL ID]** 更します。
+1. デフォルトの「」 **[!UICONTROL Label]** と「」を「Geometrixx」 **[!UICONTROL ID]** に変更します。
 1. 次に、このユニットを親ユニットにリンクします。 ここで選んだ **[!UICONTROL All]**。
 
    ![](assets/manage_units_2.png)
 
-1. 最後に、をクリックし **[!UICONTROL Create]**て、新しい組織単位のセキュリティグループへの割り当てを開始します。
-1. Geometrixx Choosesユニットに対しても同じ手順を実行しますが、親ユニットは以前に作成したユニットGeometrixxである必要があります。
+1. 最後に、新しい組織単位 **[!UICONTROL Create]** をセキュリティグループに割り当てる開始をクリックします。
+1. 同じ手順で、Geometrixx衣類ユニットも同じです。ただし、親ユニットは、以前に作成したユニット、Geometrixxである必要があります。
 
    ![](assets/manage_units_3.png)
 
-異なるセキュリティグループに異なる単位を割り当てた場合の影響を確認するために、管理者グループとGeometrixxグループに割り当てたユーザーは2つの電子メールテンプレートを作成し、Standard UserおよびGeometrixx Choosesに割り当てた他のユーザーがアクセスできるかどうかを確認します。
+異なるセキュリティグループに異なるユニットを割り当てた場合の影響を確認するために、管理者とGeometrixxグループに割り当てたユーザーは2つの電子メールテンプレートを作成し、標準ユーザーとGeometrixx服に割り当てたユーザーがアクセスできるかどうかを確認します。
 
-1. アドバンスメニューで、// **[!UICONTROL Resources]**を選**[!UICONTROL Templates]** 択しま **[!UICONTROL Delivery Templates]**す。
-1. 既存のテンプレートを複製し、必要に応じてパーソナライズします。 For more on this, refer to the [About templates](../../start/using/marketing-activity-templates.md) section.
-1. テンプレートを作成したら、アイコンを選択し **[!UICONTROL Edit properties]**て、テンプレートに単位を割り当てます。
+1. 詳細設定メニューで、/ **[!UICONTROL Resources]** /を選択し **[!UICONTROL Templates]** ま **[!UICONTROL Delivery Templates]**&#x200B;す。
+1. 既存のテンプレートを重複し、必要に応じてパーソナライズします。 詳しくは、[テンプレートについて](../../start/using/marketing-activity-templates.md)の節を参照してください。
+1. テンプレートを作成したら、 **[!UICONTROL Edit properties]** アイコンを選択して、テンプレートに単位を割り当てます。
 
    ![](assets/manage_units_6.png)
 
-1. ドロップダウ **[!UICONTROL Access authorization]**ンメニューで、組織単位を選択します。
+1. ドロップダウンメニューで、組織単位を選択し **[!UICONTROL Access authorization]** ます。
 
    ここでは、以前に作成した組織単位Geometrixxを使用して1つのテンプレートを作成します。
 
    ![](assets/manage_units_5.png)
 
-1. 同じ手順で、以前に作成したGeometrixx Choognes組織単位に割り当てた2番目のテンプレートを作成します。
+1. 同じ手順に従って、以前に作成したGeometrixx衣料品の組織単位に割り当てられた2番目のテンプレートを作成します。
 
-「Standard User」グループと「Geometrixx Chooses」グループに割り当てられたユーザーは、両方のテンプレートを表示できます。 組織単位の階層構造により、Geometrixx Chooses単位にリンクされたテンプレートに対する読み取りと書き込みのアクセス権を持ち、Geometrixx単位にリンクされたテンプレートに対する読み取り専用のアクセス権のみを持ちます。
+Standard UserグループとData Clousesグループに割り当てられたユーザーは、両方のテンプレートを表示できます。 組織単位の階層構造により、Geometrixx服ユニットにリンクされたテンプレートに対する読み取りと書き込みのアクセス権と、Geometrixxユニットにリンクされたテンプレートに対する読み取り専用のアクセス権のみを持ちます。
 
 ![](assets/manage_units_7.png)
 
-Geometrixx ChoogesのユニットはGeometrixxの子ユニットなので、ユーザーがGeometrixxテンプレートを変更しようとすると、次のメッセージが表示されます。
+Geometrixx衣類ユニットはGeometrixxの子ユニットなので、ユーザーがGeometrixxテンプレートを変更しようとすると次のメッセージが表示されます。
 
 ![](assets/manage_units_8.png)
 
-組織単位は、プロファイルなどの様々な機能へのアクセスを制限できます。 例えば、Geometrixx Choogesのユーザーがタブにアクセスすると、 **[!UICONTROL Profiles]**Geometrixx Choogesの組織単位でプロファイルに完全にアクセスし、変更を加えることができます。
+組織単位は、プロファイルなどの異なる機能にアクセスを制限できます。 例えば、Geometrixx服のユーザーがタブにアクセスすると、プロファイル服の組織単位でGeometrixxに完全にアクセスし、を変更できます。 **[!UICONTROL Profiles]**
 
-Geometrixx組織単位のプロファイルは読み取り専用ですが、ユーザーが1つのプロファイルを変更しようとすると、次のエラーが表示されます。 **[!UICONTROL You do not have the rights needed to modify the 'profile' resource of ID]**.
+Geometrixxの組織単位を持つプロファイルは読み取り専用になりますが、1つのプロファイルを変更しようとすると次のエラーが表示されます。 **[!UICONTROL You do not have the rights needed to modify the 'profile' resource of ID]**.
 
 ![](assets/manage_units_10.png)
 
 ## 分割プロファイル {#partitioning-profiles}
 
-組織が様々なブランドから連絡を受けたプロファイルを分離する必要がある場合は、組織単位でプロファイルを分割できます。
+組織で、各ブランドから連絡を受けるプロファイルを分離する必要がある場合は、組織単位でプロファイルを分割できます。
 
-デフォルトでは、プロファイルで組織単位フィールドを使用できないので、追加する必要があります。
+デフォルトでは、組織単位(OU)フィールドはプロファイルで使用できないので、追加する必要があります。
 
 組織単位のないプロファイルは、ユーザーはアクセスできません。
 
 >[!IMPORTANT]
 >
->プロファイルをインポートする前に、このオプションを追加することをお勧めします。 顧客データベースを既にインポート済みの場合は、既にインポート済みのプロファイルに組織単位の値を設定するために更新が必要です。
+>プロファイルをインポートする前に、このオプションを追加することをお勧めします。 顧客データベースを既にインポート済みの場合は、既にインポート済みのプロファイルに組織単位の値を設定するために、更新が必要です。
 
-1. アドバンスメニューのAdobe Campaignロゴから、管理/開発/カスタム **リソースを選択します**。
-1. 「 **Profile** 」を選択するか、新しいカスタムリソースを作成してプロファイルを拡張します。
-1. プロファイル拡 **張子に組織単位を追加するには、「アクセス許可管理フィールドを追加** 」ボックスをオン **にします** 。
+1. 詳細設定メニューのAdobe Campaignロゴから、 **管理/開発/カスタムリソースを選択します**。
+1. 「 **プロファイル** 」を選択するか、新しいカスタムリソースを作成してプロファイルを拡張します。
+1. 組織単位を **プロファイル** 拡張に追加するには、[ **アクセス許可管理フィールド** ]ボックスにチェックマークを付けます。
 
    ![](assets/user_management_9.png)
 
-1. クリック **[!UICONTROL Save]**.
-1. カスタムリソースを再公開して構造を更新します。 発行プロセスの詳細については、「構造の更新」を [参照してください](../../developing/using/data-model-concepts.md) 。
+1. 「**[!UICONTROL Save]**」をクリックします。
+1. カスタムリソースを再公開して構造を更新します。 発行プロセスの詳細については、「構造の [更新](../../developing/using/data-model-concepts.md) 」を参照してください。
 
-セクション内のプロファイルに組織単位フィールドが追加さ **[!UICONTROL Access authorization]**れます。
+セクション内のプロファイルに[組織単位]フィールドが追加され **[!UICONTROL Access authorization]** ます。
 
 ![](assets/user_management_10.png)
 
