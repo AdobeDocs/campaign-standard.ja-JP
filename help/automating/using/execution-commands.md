@@ -10,13 +10,11 @@ content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 906c85ea-83b7-4268-86da-cd353f1dc591
 context-tags: workflow,overview;workflow,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 3ed78fd610b0d134cd1e60f34c93161cb1e5c50f
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '317'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -35,7 +33,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->開始は非同期プロセスです。 要求は保存され、ワークフローの実行エンジンによって可能な限り早く処理されます。
+>開始は非同期プロセスです。要求は保存され、ワークフローの実行エンジンによって可能な限り早く処理されます。
 
 **一時停止**
 
@@ -61,7 +59,7 @@ ht-degree: 3%
 
 **実行が中断されました**
 
-この ![](assets/check_pause_darkgrey-24px.png) ボタンを押すと、選択したアクティビティでワークフローが一時停止されます。 このタスクとそれに続く（同じブランチ内の）すべての操作は実行されません。
+この ![](assets/check_pause_darkgrey-24px.png) ボタンを押すと、選択したアクティビティでワークフローが一時停止されます。このタスクとそれに続く（同じブランチ内の）すべての操作は実行されません。
 
 **実行なし**
 
