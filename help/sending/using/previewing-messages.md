@@ -9,13 +9,11 @@ audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
 discoiquuid: 8428f8ac-8ef5-46cd-9d93-10ec0ecd3ded
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: ad110413fd325894405b421999baccda2c7cef4a
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '624'
-ht-degree: 15%
+ht-degree: 16%
 
 ---
 
@@ -38,7 +36,7 @@ Campaign Standardを使用すると、メッセージを送信する前にプレ
 
    デスクトップ表示と電子メールのレスポンシブモバイル表示が並べて表示されます。
 
-1. 各プレビュー中に自動的にアンチスパムチェックを行う。 警告の詳細を調べるには、 **[!UICONTROL Anti-spam analysis]** ボタンをクリックします。
+1. 各プレビュー中にスパム対策チェックが自動的に実行されます。Click the **[!UICONTROL Anti-spam analysis]** button to find out more about the warning.
 
    ![](assets/sending_anti-spam_analysis.png)
 
