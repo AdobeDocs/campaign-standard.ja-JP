@@ -10,38 +10,36 @@ content-type: reference
 topic-tags: data-management-activities
 discoiquuid: a06509f9-4731-4187-b43d-3bfa361284d3
 context-tags: fileExport,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '227'
-ht-degree: 2%
+ht-degree: 68%
 
 ---
 
 
 # 外部ファイル内のプロファイルの書き出し {#exporting-profiles-external-file}
 
-次の例は、 **[!UICONTROL Extract file]** アクティビティ後に **[!UICONTROL Query]** アクティビティを設定する方法を示しています。
+次の例は、「**[!UICONTROL Query]**」アクティビティの後に「**[!UICONTROL Extract file]**」アクティビティを設定する方法を示しています。
 
-このワークフローの目的は、プロファイルのリストを外部ファイルの形式で書き出し、Adobe Campaign外でデータを使用できるようにすることです。
+このワークフローの目的は、プロファイルのリストを外部ファイルの形式で書き出し、Adobe Campaign 外でデータを使用できるようにすることです。
 
-1. 「 [ファイルの](../../automating/using/extract-file.md) 抽出 [」アクティビティをワークフローにドラッグ&amp;ドロップし、クエリ](../../automating/using/query.md) アクティビティの後に配置します。
+1. Drag and drop an [Extract file](../../automating/using/extract-file.md) activity into your workflow and place it after the [Query](../../automating/using/query.md) activity.
 
-   この例では、クエリは18 ～ 30歳のすべてのプロファイルで実行されます。
+   この例では、クエリは 18～30 歳のすべてのプロファイルで実行されます。
 
-1. アクティビティを開いて編集します。 **[!UICONTROL Extract file]**
+1. Open the **[!UICONTROL Extract file]** activity to edit it.
 1. 出力ファイルに名前を付けます。
-1. 追加出力列
+1. 出力列を追加します。
 
-   この例では、プロファイルの電子メール、年齢、生年月日、名、姓が出力列として追加されます。
+   この例では、プロファイルの E メール、年齢、生年月日、名、姓が出力列として追加されます。
 
    ![](assets/wkf_data_export6.png)
 
-1. タブをクリックして次を定義し **[!UICONTROL File structure]** ます。
+1. 「**[!UICONTROL File structure]**」タブをクリックして次を定義します。
 
-   * CSV出力形式
+   * CSV 出力形式
 
       ![](assets/wkf_data_export7.png)
 
@@ -50,8 +48,8 @@ ht-degree: 2%
       ![](assets/wkf_data_export9.png)
 
 1. アクティビティを確認します。
-1. アクティビティの後に[ [転送ファイル](../../automating/using/transfer-file.md)**[!UICONTROL Extract file]** ]アクティビティをドラッグ&amp;ドロップして、抽出ファイルを外部アカウントに回復します。
-1. アクティビティを開き、 **[!UICONTROL File upload]** 操作を選択します。
+1. Drag and drop a [Transfer file](../../automating/using/transfer-file.md) activity after the **[!UICONTROL Extract file]** activity to recover the extract file on an external account.
+1. アクティビティを開き、**[!UICONTROL File upload]** アクションを選択します。
 
    ![](assets/wkf_data_export11.png)
 
@@ -62,4 +60,4 @@ ht-degree: 2%
 1. アクティビティを確認し、ワークフローを保存します。
 1. ワークフローを開始します。
 
-   ワークフローが正しく実行されると、抽出されたファイルが外部アカウントーで利用できるようになります。
+   ワークフローが正しく実行されると、抽出したファイルが外部アカウントで利用できるようになります。
