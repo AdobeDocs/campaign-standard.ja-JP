@@ -1,6 +1,6 @@
 ---
-title: 読み込んだファイルからのデータの重複を除外する
-description: この例では、データをデータベースにロードする前にインポートしたファイルからデータの重複除外を行う方法を示します。
+title: インポートされたファイルからのデータの重複排除
+description: この例は、データをデータベースに読み込む前に、インポートしたファイルからデータの重複を除外する方法を示します。
 page-status-flag: never-activated
 uuid: 11a22a9c-3bfe-4953-8a52-2f4e93c128fb
 contentOwner: sauviat
@@ -10,26 +10,24 @@ content-type: reference
 topic-tags: targeting-activities
 discoiquuid: e7a5e1e7-4680-46c7-98b8-0a47bb7be2b8
 context-tags: dedup,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 7ffa48365875883a98904d6b344ac005afe26e18
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '328'
-ht-degree: 0%
+ht-degree: 89%
 
 ---
 
 
-# 読み込んだファイルからのデータの重複を除外する {#deduplicating-the-data-from-an-imported-file}
+# インポートされたファイルからのデータの重複排除 {#deduplicating-the-data-from-an-imported-file}
 
-この例では、データをデータベースにロードする前にインポートしたファイルからデータの重複除外を行う方法を示します。 この手順により、データベースに読み込まれるデータの品質が向上します。
+この例は、データをデータベースに読み込む前に、インポートしたファイルからデータの重複を除外する方法を示します。このプロセスにより、データベースに読み込まれたデータの品質が向上します。
 
-ワークフローは次の要素で構成されます。
+このワークフローは次の要素で構成されます。
 
 ![](assets/deduplication_example2_workflow.png)
 
-* プロファイルのリストを含むファイルは、 [Load file](../../automating/using/load-file.md) アクティビティを使用して読み込みます。 この例では、インポートされるファイルは.csv形式で、10プロファイルが含まれています。
+* A file that contains a list of profiles is imported using a [Load file](../../automating/using/load-file.md) activity. この例では、インポートされるファイルは .csv 形式で、10 個のプロファイルを含んでいます。
 
    ```
    lastname;firstname;dateofbirth;email
@@ -45,24 +43,24 @@ ht-degree: 0%
    Ross;Timothy;04/07/1986;timross@example.com
    ```
 
-   このファイルは、列の形式を検出および定義するためのサンプルファイルとしても使用できます。 タブから、読み込んだファイルの各列が正しく設定されていることを確認し **[!UICONTROL Column definition]** ます。
+   このファイルは、列の形式を検出および定義するためのサンプルファイルとしても使用できます。「**[!UICONTROL Column definition]**」タブで、インポートしたファイルの各列が正しく設定されていることを確認します。
 
    ![](assets/deduplication_example2_fileloading.png)
 
-* [重複排除 - 重複](../../automating/using/deduplication.md) アクティビティ。 重複排除 - 重複は、ファイルのインポート後、およびデータベースにデータを挿入する前に、直接実行されます。 したがって、この値は **[!UICONTROL Temporary resource]****[!UICONTROL Load file]** アクティビティの値に基づく必要があります。
+* [重複排除 - 重複](../../automating/using/deduplication.md) アクティビティ。 ファイルをインポートした後、データベースにデータを挿入する前に重複排除が直接実行されます。したがって、「**[!UICONTROL Load file]**」アクティビティの「**[!UICONTROL Temporary resource]**」に基づいている必要があります。
 
-   この例では、ファイルに含まれる一意の電子メールアドレスごとに1つのエントリを保持します。 したがって、重複識別は、一時リソースの **email** 列で行われます。 ただし、2つの電子メールアドレスがファイル内に2回出現します。 したがって、2行が重複と見なされます。
+   この例では、ファイルに含まれている一意の E メールアドレスごとに 1 つのエントリを保持します。そのため、重複の識別は一時リソースの **email** 列に対しておこなわれます。ただし、2 つの E メールアドレスがファイルに 2 回出現します。したがって、2 行が重複と見なされます。
 
    ![](assets/deduplication_example2_dedup.png)
 
-* 「 [Update data](../../automating/using/update-data.md) 」アクティビティを使用すると、重複排除 - 重複プロセスから保持されたデータをデータベースに挿入できます。 インポートされたデータがプロファイルディメンションに属していると識別されるのは、データが更新された場合のみです。
+* An [Update data](../../automating/using/update-data.md) activity allows you to insert the data kept from the deduplication process into the database. インポートされたデータがプロファイルディメンションに属していると識別されるのは、データの更新時のみです。
 
-   ここでは、データベースにまだ存在し **[!UICONTROL Insert only]** ないプロファイルを使用します。 これを行うには、ファイルの電子メール列と **プロファイル** ディメンションの電子メールフィールドを紐付けキーとして使用します。
+   ここでは、「**[!UICONTROL Insert only]**」を指定して、データベースにまだ存在しないプロファイルだけを挿入します。それには、ファイルの email 列と&#x200B;**プロファイル**&#x200B;ディメンションの E メールフィールドを紐付けキーとして使用します。
 
    ![](assets/deduplication_example2_writer1.png)
 
-   データの挿入元となるファイルの列と、 **[!UICONTROL Fields to update]** タブのデータベースフィールドとの間のマッピングを指定します。
+   データの挿入元となるファイル列と「**[!UICONTROL Fields to update]**」タブのデータベースフィールドとのマッピングを指定します。
 
    ![](assets/deduplication_example2_writer2.png)
 
-次に、ワークフローを開始します。 次に、重複排除 - 重複プロセスから保存されたレコードがデータベース内のプロファイルに追加されます。
+そのあと、ワークフローを開始します。重複排除プロセスで保存されたレコードがデータベース内のプロファイルに追加されます。
