@@ -10,10 +10,8 @@ content-type: reference
 topic-tags: push-notifications
 discoiquuid: 23b4212e-e878-4922-be20-50fb7fa88ae8
 context-tags: mobileApp,overview
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: d0a0c59763af8babc9701206cc39fe41b98e0cd4
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '726'
 ht-degree: 2%
@@ -35,9 +33,9 @@ ht-degree: 2%
 
 * **Local open** — ローカル通知がデバイスに配信され、ユーザーが通知をクリックした場合にアプリケーションが開きます。 これはローカルクリックと似ていますが、通知が閉じられた場合にローカルで開く操作はトリガーされません。
 
-Adobe Campaign Standardのためのトラッキングを導入するには、モバイルアプリケーションにMobile SDKを含める必要があります。 これらのSDKは、で使用でき [!DNL Adobe Mobile Services]ます。
+Adobe Campaign Standardのトラッキングを導入するには、モバイルアプリケーションにMobile SDKを含める必要があります。 これらのSDKは、で使用でき [!DNL Adobe Mobile Services]ます。
 
-トラッキング情報を送信するには、3つの変数を送信する必要があります。 2つはAdobe Campaignから受け取ったデータの一部で、もう1つはインプレッション、クリック、または開くかどうかを指示するアクション変数です。
+トラッキング情報を送信するには、3つの変数を送信する必要があります。2つはAdobe Campaignから受け取ったデータの一部で、もう1つはインプレッション、クリック、または開くかどうかを指示するアクション変数です。
 
 | 変数 | 値 |
 | :-: | :-: |
@@ -57,11 +55,11 @@ Adobe Experience PlatformモバイルSDKは、ローカル通知をトリガー�
 
 インプレッション追跡の導入方法を説明するには、アプリケーションの3つの状態を理解する必要があります。
 
-* **前景**: アプリが現在アクティブで、前景の画面に表示されたとき。
+* **前景**:アプリが現在アクティブで、前景の画面に表示されたとき。
 
-* **背景**: アプリが画面に表示されていないが、プロセスも閉じられていない場合。 重複がホームボタンをクリックすると、通常はバックグラウンドのすべてのアプリケーションが表示されます。
+* **背景**:アプリが画面に表示されず、プロセスも閉じられない場合。 重複がホームボタンをクリックすると、通常はバックグラウンドのすべてのアプリケーションが表示されます。
 
-* **オフ/閉じる**: アプリケーションのプロセスが終了したとき。 アプリケーションが閉じられた場合、Appleはアプリケーションが再起動されるまでアプリケーションを呼び出しません。 つまり、iOSで通知が受信されたタイミングを実際には把握できないということです。
+* **オフ/閉じる**:アプリケーションのプロセスが終了したとき。 アプリケーションが閉じられた場合、Appleはアプリケーションが再起動されるまでアプリケーションを呼び出しません。 つまり、iOSで通知が受信されたタイミングを実際には把握できないということです。
 
 アプリがバックグラウンドにある間もインプレッションの追跡を引き続き機能させるには、「Content-Available」を送信して、追跡を行う必要があることをアプリに知らせる必要があります。
 
@@ -73,7 +71,7 @@ Adobe Experience PlatformモバイルSDKは、ローカル通知をトリガー�
 
 ## クリック追跡の導入 {#implementing-click-tracking}
 
-クリック追跡の場合、collectMessageInfo()関数またはtrackAction()関数を呼び出す際に、アクションの値&quot;2&quot;を送信する必要があります。
+クリック追跡の場合、collectMessageInfo()関数またはtrackAction()関数を呼び出す際に、アクションに値&quot;2&quot;を送信する必要があります。
 
 ### Android の場合 {#implement-click-tracking-android}
 
