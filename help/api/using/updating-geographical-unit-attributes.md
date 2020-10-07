@@ -1,6 +1,6 @@
 ---
 title: 地理的単位属性の更新
-description: APIを使用して地理的単位属性を更新する方法について説明します。
+description: APIを使用して地理単位属性を更新する方法について説明します
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
@@ -9,18 +9,19 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '86'
+ht-degree: 11%
 
 ---
 
 
 # 地理的単位属性の更新 {#managing-geographical-units}
 
-1. 地理単位PKeyを取得するには、geoUnitBase **** リソースに対してGET要求を実行します。
-1. ペイロード内で更新する属性を使用して、地理的単位でPATCHリクエストを実行します。
+1. GeoUnitBase **リソースでGET要求を実行して、Geographical Unit PKeyを取得します** 。
+1. ペイロード内で更新する属性を使用して、地理単位でPATCHリクエストを実行します。
 
 <br/>
 
@@ -36,7 +37,7 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-すべての地理単位を返します。 目的のユニットのPKeyを取得します。
+すべての地理的単位を返します。 目的のユニットのPKeyを取得します。
 
 ```
 {
@@ -52,7 +53,7 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
 },
 ```
 
-ペイロード内で更新する属性を使用して、地理的単位でPATCHリクエストを実行します。
+ペイロード内で更新する属性を使用して、地理単位でPATCHリクエストを実行します。
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/orgUnitBase/<PKEY> \
