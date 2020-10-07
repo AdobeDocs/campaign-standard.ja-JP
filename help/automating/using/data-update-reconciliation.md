@@ -1,6 +1,6 @@
 ---
-title: 調整を使用したデータ更新
-description: 次の例は、新しいクライアントを含む読み込みファイルから直接プロファイルのオーディエンスを作成するワークフローを示しています。
+title: 紐付けを使用したデータの更新
+description: 次の例は、新しいクライアントを含むインポート済みのファイルから直接プロファイルのオーディエンスを作成するワークフローを示しています。
 page-status-flag: never-activated
 uuid: 7884db8c-1717-4724-be15-3b0b32ccc071
 contentOwner: sauviat
@@ -10,24 +10,22 @@ content-type: reference
 topic-tags: data-management-activities
 discoiquuid: cb8c43f4-9cdd-4e85-99a4-004b36b336aa
 context-tags: reconciliation,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 175709a41607bb9d64da7fac77dd749fa84f7360
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '128'
-ht-degree: 0%
+ht-degree: 67%
 
 ---
 
 
-# 調整を使用したデータ更新 {#data-update-reconciliation}
+# 紐付けを使用したデータの更新 {#data-update-reconciliation}
 
-次の例は、新しいクライアントを含む読み込みファイルから直接プロファイルのオーディエンスを作成するワークフローを示しています。 これは次のアクティビティで構成されています。
+次の例は、新しいクライアントを含むインポート済みのファイルから直接プロファイルのオーディエンスを作成するワークフローを示しています。このワークフローは、次のアクティビティで構成されています。
 
 ![](assets/identification_example2.png)
 
-* 読み込むファイルの [読み込み](../../automating/using/load-file.md) アクティビティ。読み込むファイルのデータを読み込んで検出します。 読み込まれたファイルには次のデータが含まれています。
+* A [Load file](../../automating/using/load-file.md) activity, which loads and detects tshe data of the file to import. インポートされたファイルには、次のデータが含まれています。
 
    ```
    lastname;firstname;email;dateofbirth
@@ -42,10 +40,10 @@ ht-degree: 0%
    tycoon;tyreese;tyreese_t@testmail.net;10/08/1971
    ```
 
-* ロードされたファイルの各列をプロファイル次元列にリンクする [調整](../../automating/using/reconciliation.md) アクティビティ。 識別できないファイルレコード（データが見つからない、互換性のないデータタイプなど） は無視され、最終的なオーディエンスデータの整合性が維持されます。
+* A [Reconciliation](../../automating/using/reconciliation.md) activity, which links each column of the loaded file to a profile dimension column. 識別できないファイルレコード（データが見つからない、互換性のないデータタイプなど）は無視され、最終的なオーディエンスデータの整合性が維持されます。
 
    ![](assets/identification_example1.png)
 
-* プロファイルの [オーディエンスを保存する「オーディエンス](../../automating/using/save-audience.md) 」アクティビティ。
+* A [Save audience](../../automating/using/save-audience.md) activity, which saves the audience of profiles.
 
    ![](assets/identification_example3.png)
