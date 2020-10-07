@@ -7,10 +7,11 @@ products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '171'
+ht-degree: 39%
 
 ---
 
@@ -40,7 +41,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                </tr>
                <tr>
                   <td>created</td>
-                  <td>作成済み</td>
+                  <td>作成日時</td>
                   <td>日付 </td>
                   <td> </td>
                </tr>
@@ -58,7 +59,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                </tr>
                <tr>
                   <td>email</td>
-                  <td>E メール</td>
+                  <td>電子メール</td>
                   <td>文字列(128)</td>
                   <td> </td>
                </tr>
@@ -100,7 +101,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                </tr>
                <tr>
                   <td>marketingCloudId</td>
-                  <td>Marketing Cloud ID</td>
+                  <td>Marketing CloudID</td>
                   <td>文字列(256)</td>
                   <td> </td>
                </tr>
@@ -129,7 +130,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                   <td> </td>
                </tr>
                <tr>
-                  <td>nms_recipient</td>
+                  <td>nms_受信者</td>
                   <td>プロファイル</td>
                   <td>item </td>
                   <td> </td>
@@ -153,7 +154,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                   <td> </td>
                </tr>
                <tr>
-                  <td>証明</td>
+                  <td>配達確認</td>
                   <td>配達確認</td>
                   <td>boolean </td>
                   <td> </td>
@@ -177,7 +178,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                   <td> </td>
                </tr>
                <tr>
-                  <td>SMS</td>
+                  <td>sms</td>
                   <td>モバイル</td>
                   <td>文字列(255)</td>
                   <td> </td>
@@ -258,12 +259,12 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
         <td>boolean</td>
         </tr>
         <tr>
-        <td>証明</td>
+        <td>配達確認</td>
         <td>boolean</td>
         </tr>
     </table>
 
-Test profile (profile)
+テストプロファイル(プロファイル)
 
 <table>
     <tr>
