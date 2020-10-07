@@ -7,10 +7,11 @@ products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '213'
+ht-degree: 38%
 
 ---
 
@@ -40,7 +41,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                </tr>
                <tr>
                   <td>created</td>
-                  <td>作成済み</td>
+                  <td>作成日時</td>
                   <td>日付 </td>
                   <td> </td>
                </tr>
@@ -53,7 +54,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                <tr>
                   <td>cusPrice</td>
                   <td>価格</td>
-                  <td>整数 </td>
+                  <td>integer </td>
                   <td> </td>
                </tr>
                <tr>
@@ -119,10 +120,10 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                <tr>
                   <td>messageType</td>
                   <td>チャネル</td>
-                  <td>列挙（バイト） </td>
+                  <td>定義済みリスト（バイト） </td>
                   <td>
                      <ul>
-                        <li>モバイル(SMS) -sms - 1</li>
+                        <li>モバイル(SMS) - sms - 1</li>
                         <li>電子メール — 電子メール — 0</li>
                         <li>無効な値 — __Invalid_value__ - __Invalid_value__</li>
                      </ul>
@@ -131,11 +132,11 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                <tr>
                   <td>mode</td>
                   <td>モード</td>
-                  <td>列挙（バイト） </td>
+                  <td>定義済みリスト（バイト） </td>
                   <td>
                      <ul>
-                        <li>クチコミ — 1</li>
-                        <li>ニュースレター — 0</li>
+                        <li>クチコミ — クチコミ — 1</li>
+                        <li>ニュースレター — ニュースレター — 0</li>
                         <li>無効な値 — __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
@@ -172,7 +173,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                </tr>
                <tr>
                   <td>subLandingPage (landingPageSubscriptionBase)</td>
-                  <td>購読のランディングページ</td>
+                  <td>購読ランディングページ</td>
                   <td>link </td>
                   <td> </td>
                </tr>
@@ -201,7 +202,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                   <td> </td>
                </tr>
                <tr>
-                  <td>template （サービス）</td>
+                  <td>template (service)</td>
                   <td>サービステンプレート</td>
                   <td>link </td>
                   <td> </td>
@@ -246,7 +247,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
 
 ## フィルター
 
-所定の期間(Planning)に使用可能
+特定の期間(byPlanning)に使用可能
 
 <table>
     <tr>
@@ -263,7 +264,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
     </tr>
 </table>
 
-チャネルタイプ別（チャネル別）
+チャネルタイプ別(byChannel)
 
 <table>
 <tr>
@@ -272,7 +273,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
 </tr>
 <tr>
 <td>チャネル</td>
-<td>列挙</td>
+<td>定義済みリスト</td>
 </tr>
 </table>
 
@@ -289,7 +290,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
 </tr>
 </table>
 
-リソースをターゲット設定する(byTargetResource)
+ターゲットリソース(byTargetResource)
 
 <table>
 <tr>
