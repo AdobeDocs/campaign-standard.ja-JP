@@ -9,18 +9,19 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '79'
+ht-degree: 12%
 
 ---
 
 
 # プロファイルの組織単位の取得 {#retrieving-organizational-units}
 
-1. プロファイルPKeyに対してGET要求を実行し、orgUnit **** URLを取得します。
-1. URLに対してGET要求を実行し、組織単位に関する詳細を取得します。
+1. プロファイルPKeyに対してGETリクエストを実行し、orgUnit **** URLを取得します。
+1. URLに対してGETリクエストを実行し、組織単位に関する詳細を取得します。
 
 <br/>
 
