@@ -1,5 +1,5 @@
 ---
-title: 動的なレポートを使い始める
+title: 動的レポートの概要
 description: 組み込みレポートまたはカスタマイズされた動的レポートでキャンペーンの成功を分析します。
 page-status-flag: never-activated
 uuid: a84a18bd-4e33-466e-a6ce-d7008fe12746
@@ -9,18 +9,16 @@ audience: reporting
 content-type: reference
 topic-tags: about-reporting
 discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 4ae70ca95cb282a694c41361d859b19385db5673
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '349'
-ht-degree: 12%
+ht-degree: 15%
 
 ---
 
 
-# Get started with dynamic reporting {#get-started-reporting}
+# 動的レポートの概要 {#get-started-reporting}
 
 <table>
 <tr>
@@ -35,7 +33,7 @@ ht-degree: 12%
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 
-動的なレポートの **ドラッグ&amp;ドロップインターフェイスを使用すると**、データを調査し、最も重要な顧客セグメントに対する電子メールキャンペーンのパフォーマンスを判断し、受信者への影響を1か所で測定できます。
+With Dynamic reporting **drag-and-drop interface**, you can explore data, determine how your email campaigns performed against your most important customer segments and measure their impact on recipients from one single place.
 
 **次の様々な機能により** 、動的レポートを管理できます。データをリアルタイムで更新したり、レポートを印刷したり、CSVファイルとして書き出したりできます。 1回限りの電子メールまたは定期的な電子メールで、レポートをCampaign Standardのユーザーと共有することもできます。
 
