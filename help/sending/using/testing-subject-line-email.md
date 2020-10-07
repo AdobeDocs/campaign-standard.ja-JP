@@ -1,5 +1,5 @@
 ---
-title: 電子メールの件名行のテスト
+title: E メールの件名行のテスト
 description: 電子メールデザイナーで電子メールの件名行を定義する方法を確認します。
 page-status-flag: never-activated
 uuid: 571ffc01-6e41-4501-9094-2f812b041a10
@@ -9,17 +9,15 @@ audience: sending
 content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 343ea01229779a32919bd68fd15e0c7ff6863353
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '1095'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
-# 電子メールの件名行のテスト {#testing-a-subject}
+# E メールの件名行のテスト {#testing-a-subject}
 
 
 ## 予測の件名行について {#about-predictive-subject-line}
@@ -40,9 +38,9 @@ ht-degree: 1%
 
 1. 電子メールを作成するか、開きます。
 1. コンテンツを開き、対応する入力フィールドに電子メールの件名を入力します。
-1. ボタンをクリックして、ウィン **[!UICONTROL Test subject]****[!UICONTROL Test your subject line]** ドウにアクセスします。 このウィンドウでは、件名を編集できます。
+1. Click the **[!UICONTROL Test subject]** button to access the **[!UICONTROL Test your subject line]** window. このウィンドウでは、件名を編集できます。
 1. オープンレート予測を考慮に入れる正しいモデルを選択します。 いくつかのモデルがあり、それぞれが特定の業界に対応しています。 モデルの使用について詳しくは、この [節を参照してください](#importing-models)。
-1. クリック **[!UICONTROL Test]** .
+1. 「**[!UICONTROL Test]**」をクリックします。
 
 その後、被験者が分析されます。
 
@@ -52,10 +50,10 @@ ht-degree: 1%
 
 いくつかのインジケーターが計算され、以下の作業を行うのに役立つ一連のツールが表示されます。
 
-* **予測開放率**: このグラフでは、現在の件名で電子メールに期待できる開放率を把握できます。
-* **件名の長さ**: このインジケーターを使用すると、件名の現在の長さが正しいか、長くする必要があるか短くする必要があるかを確認できます。
-* **色付きの単語**: 被検者をテストする場合、緑色で強調表示されている単語は、開放率予測の増加に最も貢献する単語です。 赤で強調表示されている単語は、開放率予測の増加に最も貢献しない単語です。 件名に単語を追加または削除すると、ハイライト表示されている単語が変更されます。
-* **カテゴリと単語の提案**: ウィンドウの下部に向かって、選択したモデルに関連するカテゴリが多数表示されます。 これらのカテゴリは重要度の順に並べ替えられ、チェック記号を使用して関連付けられた単語が件名に含まれているかどうかを確認できます。 各カテゴリには、より関連性が高く、開放率を高めるために、主題で使用できる推奨単語のセットが含まれています。 これらの単語は、特定のカテゴリで最も頻繁に使用される単語です。
+* **予測開放率**:このグラフでは、現在の件名で電子メールに期待できる開放率を把握できます。
+* **件名の長さ**:このインジケーターを使用すると、件名の現在の長さが正しいか、長くする必要があるか短くする必要があるかを確認できます。
+* **色付きの単語**:被検者をテストする場合、緑色で強調表示されている単語は、開放率予測の増加に最も貢献する単語です。 赤で強調表示されている単語は、開放率予測の増加に最も貢献しない単語です。 件名に単語を追加または削除すると、ハイライト表示されている単語が変更されます。
+* **カテゴリと単語の提案**:ウィンドウの下部に向かって、選択したモデルに関連するカテゴリが多数表示されます。 これらのカテゴリは重要度の順に並べ替えられ、チェック記号を使用して関連付けられた単語が件名に含まれているかどうかを確認できます。 各カテゴリには、より関連性が高く、開放率を高めるために、主題で使用できる推奨単語のセットが含まれています。 これらの単語は、特定のカテゴリで最も頻繁に使用される単語です。
 
 >[!NOTE]
 >
@@ -73,7 +71,7 @@ ht-degree: 1%
 ### ローカルモデルのトレーニング {#training-local-model}
 
 * 既にAdobe Campaignを使用している場合は、既に送信したメッセージに関するローカルモデルのトレーニングが自動的に行われます。
-* Adobe Campaignを初めて使用する場合は、4つの列を含む以前のシステム/ESPからCSVファイルを抽出できます。 日付、件名、開く、送信済み。 これを行うには、 > > **[!UICONTROL Administration]** > **[!UICONTROL Channels]** >に移動し、続く画面 **[!UICONTROL Email]****[!UICONTROL Subject Line Import]** の指示に従います。 件名のアップロードが完了したら、以下の説明に従ってローカルモデルを読み込みます。 ローカルモデルは、アップロードしたデータを使用して自動的にトレーニングを受けます。
+* Adobe Campaignを初めて使用する場合は、4つの列を含む以前のシステム/ESPからCSVファイルを抽出できます。日付、件名、開く、送信済み。 これを行うには、 > > **[!UICONTROL Administration]** > **[!UICONTROL Channels]** >に移動し、続く画面 **[!UICONTROL Email]****[!UICONTROL Subject Line Import]** の指示に従います。 件名のアップロードが完了したら、以下の説明に従ってローカルモデルを読み込みます。 ローカルモデルは、アップロードしたデータを使用して自動的にトレーニングを受けます。
 * Adobe Campaignに慣れておらず、上記のCSVファイルを取得できない場合は、 [事前にトレーニングされたモデルを使用するか](#pre-trained-models) 、ローカルモデルのトレーニングに十分な配信データがシステムに存在するまで待つことができます。 パターンを認識し、モデルをトレーニングするのに十分なデータが現在のデータセットに含まれているかどうかを自動的に判断します。
 
 >[!NOTE]
@@ -83,21 +81,21 @@ ht-degree: 1%
 >インスタンスには、トレーニングを受けたモデルを1つだけ持つことができます。
 
 ローカルモデルをトレーニングするには：
-1. subjectLineTraining.xmlを [ここからダウンロードし](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) 、 [パッケージインポート](../../automating/using/managing-packages.md) 機能を使用してAdobe Campaignインスタンスにアップロードします。 テクニカルワークフローが自動的にトレーニングを行います。
+1. subjectLineTraining.xmlを [ここからダウンロードし](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html) 、 [パッケージインポート](../../automating/using/managing-packages.md) 機能を使用してAdobe Campaignインスタンスにアップロードします。 テクニカルワークフローが自動的にトレーニングを行います。
 1. 初めてモデルをトレーニングする場合、管理者は **[!UICONTROL SubjectLine Training workflow]** > **[!UICONTROL Administration]** > **[!UICONTROL Application settings]****[!UICONTROL Workflows]** メニューからを強制的に開始させることができます。
 1. モデルがアップロードされトレーニングされると、この機能は自動的にアクティブ化され、メッセージの件名フィールドの横に新しいオプションが表示されます。
 1. その後、技術的なワークフローは、自動的に毎週モデルのトレーニングを継続します。
 
 ### 事前にトレーニングを受けたモデルのインポート {#pre-trained-models}
 
-これらのモデルにアクセスするには、 [ここをクリックします](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)。 モデルをAdobe Campaignインスタンスにアップロードするには、 [パッケージの読み込み](../../automating/using/managing-packages.md) 機能を使用します。
+これらのモデルにアクセスするには、 [ここをクリックします](https://experience.adobe.com/#/downloads/content/software-distribution/jp/campaign.html)。 モデルをAdobe Campaignインスタンスにアップロードするには、 [パッケージの読み込み](../../automating/using/managing-packages.md) 機能を使用します。
 
 使用できるモデルは次のとおりです。
 
-* 化粧品業界： subjectInsightCosmetic.xml
-* スーパーマーケット業界： subjectInsightSuperpark.xml
-* 医療業界： subjectInsightMedical.xml
-* トレーニング対象モデル： subjectlineTraining.xmlを参照してください。
+* 化粧品業界：subjectInsightCosmetic.xml
+* スーパーマーケット業界：subjectInsightSuperpark.xml
+* 医療業界：subjectInsightMedical.xml
+* トレーニング対象モデル：subjectlineTraining.xmlを参照してください。
 
 これらのモデルはトレーニングできません。
 
