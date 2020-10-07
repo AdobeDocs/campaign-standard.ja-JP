@@ -1,6 +1,6 @@
 ---
-title: 組織単位の属性の更新
-description: 組織単位の属性を更新する方法について説明します
+title: 組織単位属性の更新
+description: 組織単位の属性を更新する方法を説明します
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
@@ -9,18 +9,19 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 2a3b77c75931086f59ddb8717a1bfcfaf49d45d5
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '84'
+ht-degree: 11%
 
 ---
 
 
-# 組織単位の属性の更新 {#updating-organizational-unit-attributes}
+# 組織単位属性の更新 {#updating-organizational-unit-attributes}
 
-1. orgUnitBaseリソースに対してGET要求を実 **行し** 、組織単位PKeyを取得します。
-1. ペイロードで更新する属性を持つ組織単位でPATCHリクエストを実行します。
+1. orgUnitBase **リソースに対してGET要求を実行し、組織単位PKeyを取得します** 。
+1. ペイロードで更新する属性を持つ組織単位でPATCH要求を実行します。
 
 <br/>
 
@@ -36,7 +37,7 @@ source-git-commit: 2a3b77c75931086f59ddb8717a1bfcfaf49d45d5
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-すべての組織単位を返します。 目的のユニットのPKeyを取得します。
+すべての組織単位(OU)を返します。 目的のユニットのPKeyを取得します。
 
 ```
 {
@@ -52,7 +53,7 @@ source-git-commit: 2a3b77c75931086f59ddb8717a1bfcfaf49d45d5
 },
 ```
 
-ペイロードで更新する属性を持つ組織単位でPATCHリクエストを実行します。
+ペイロードで更新する属性を持つ組織単位でPATCH要求を実行します。
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/orgUnitBase/<PKEY> \
