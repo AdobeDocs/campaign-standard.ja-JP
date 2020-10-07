@@ -1,6 +1,6 @@
 ---
 title: プロファイルの取得
-description: APIを使用してプロファイルを取得する方法について詳しく説明します。
+description: APIを使用したプロファイルの取得方法を詳しく説明します。
 page-status-flag: never-activated
 uuid: c7b9c171-0409-4707-9d45-3fa72aee8008
 contentOwner: sauviat
@@ -9,25 +9,26 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '83'
+ht-degree: 4%
 
 ---
 
 
 # プロファイルの取得 {#retrieving-profiles}
 
-プロファイルの取得は **GET要求で実行され** ます。
+プロファイルの取得は、 **GET** 要求で行われます。
 
-その後、フィルター、順序、ページ番号を使用して、検索を絞り込むことができます。 For more on this, refer to the [Additional operations](../../api/using/sorting.md) section.
+その後、フィルター、順序、ページネーションを使用して、検索結果を絞り込むことができます。 For more on this, refer to the [Additional operations](../../api/using/sorting.md) section.
 
 <br/>
 
-***リクエストの例***
+***リクエストのサンプル***
 
-* すべてのプロファイルを取得するためのGETリクエストの例。
+* すべてのプロファイルを取得するためのサンプルGETリクエスト。
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
@@ -37,7 +38,7 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-   リクエストへの応答。
+   リクエストに対する応答。
 
    ```
    {
@@ -53,7 +54,7 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
    }
    ```
 
-* 最初の10個の電子メール値を取得するためのサンプルGETリクエスト。
+* 最初の10個の電子メール値を取得するサンプルGETリクエスト。
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_lineCount=10 \
@@ -63,7 +64,7 @@ source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-   リクエストへの応答。 「次の」ノードは、次の10個の電子メール値にアクセスできるURLを返します。
+   リクエストに対する応答。 「次の」ノードは、次の10個の電子メール値にアクセスできるURLを返します。
 
    ```
    {
