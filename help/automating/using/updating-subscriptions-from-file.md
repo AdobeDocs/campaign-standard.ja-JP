@@ -10,28 +10,26 @@ content-type: reference
 topic-tags: data-management-activities
 discoiquuid: 74a6df0e-fd85-4404-a42c-9a7406512717
 context-tags: setOfService,workflow,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '417'
-ht-degree: 0%
+ht-degree: 76%
 
 ---
 
 
 # ファイルからの複数の購読ステータスの更新 {#updating-multiple-subscription-statuses-from-a-file}
 
-次の例は、プロファイルを含むファイルを読み込み、その購読を、ファイルで指定されたいくつかのサービスに更新する方法を示しています。 ファイルをインポートした後、インポートしたデータがサービスへのリンクを持つプロファイルとして識別できるように調整を行う必要があります。 ファイルに重複が含まれていないことを確認するために、重複排除 - 重複アクティビティがデータに対して実行されます。
+次の例では、プロファイルを含んだファイルをインポートして、プロファイルの購読登録先を、ファイルで指定されたいくつかのサービスに更新する方法を示します。ファイルをインポートした後で、インポートしたデータを、サービスにリンクされたプロファイルとして識別できるように紐付けをおこなう必要があります。ファイルに重複が含まれていないことを確認するために、データに対して「重複排除 - 重複」アクティビティが実行されます。
 
 ワークフローは次のとおりです。
 
 ![](assets/subscription_activity_example1.png)
 
-* ファイルの [ロード](../../automating/using/load-file.md) アクティビティは、プロファイルファイルをロードし、インポートされた列の構造を定義します。
+* A [Load file](../../automating/using/load-file.md) activity loads the profile file and defines the structure of the imported columns.
 
-   この例では、読み込まれるファイルは.csv形式で、次のデータが含まれています。
+   この例では、読み込まれるファイルは .csv 形式で、次のデータが含まれています。
 
    ```
    lastname;firstname;email;birthdate;service;operation
@@ -48,26 +46,26 @@ ht-degree: 0%
 
    ![](assets/subscription_example_load_file.png)
 
-   この操作は、ファイル内で「sub」または「unsub」として指定されています。 実行する操作を認識する **Boolean** 値または **Integer** 値が必要です。 「0」を登録解除し、「1」をサブスクライブに送信します。 この要件を満たすために、値の再マッピングは「operation」列の詳細で実行されます。
+   この操作は、ファイル内で「sub」または「unsub」と指定されています。実行する操作を認識するために、**ブール値**&#x200B;または&#x200B;**整数**&#x200B;値が必要です。「0」が購読登録解除、「1」が購読登録です。この要件を満たすために、値の再マッピングが「operation」列の詳細で実行されます。
 
    ![](assets/subscription_example_remapping.png)
 
-   ファイルで、操作の識別に「0」と「1」が既に使用されている場合は、これらの値を再マップする必要はありません。 列が **Boolean** または **Integer****[!UICONTROL Column definition]** （整数）としてタブで処理されていることを確認してください。
+   「0」と「1」が既に操作の識別に使用されているファイルでは、再マッピングの必要はありません。列が&#x200B;**ブール値**&#x200B;または&#x200B;**整数**&#x200B;として処理されていることを「**[!UICONTROL Column definition]**」タブで確認してください。
 
-* 「 [調整](../../automating/using/reconciliation.md) 」アクティビティは、ファイルのデータをAdobe Campaignデータベースのプロファイルディメンションに属するものとして識別します。 この **[!UICONTROL Identification]** タブを使用して、ファイルの **電子メールフィールドとプロファイルリソースの** 電子メール **** フィールドとが一致します。
+* A [Reconciliation](../../automating/using/reconciliation.md) activity identifies the data from the file as belonging to the profile dimension of the Adobe Campaign database. 「**[!UICONTROL Identification]**」タブでは、ファイルの **email** フィールドと、プロファイルリソースの **email** フィールドが照合されます。
 
    ![](assets/subscription_activity_example3.png)
 
-   このタブでは、サービスリソースを使用してリンクが作成され、ファイルの **[!UICONTROL Relations]** サービス **** ・フィールドを認識できるようになります。 この例では、値はサービスリソースの **名前** フィールドに一致します。
+   「**[!UICONTROL Relations]**」タブでは、サービスリソースとのリンクが作成されて、ファイルの **service** フィールドを認識できるようになります。この例では、値はサービスリソースの **name** フィールドと一致します。
 
    ![](assets/subscription_example_service_relation.png)
 
-* （調整の結果生じる）一時的なリソースの [電子メール](../../automating/using/deduplication.md) ・フィールドに基づく **重複排除 - 重複** は、重複を識別します。 サービスへの購読が重複の場合はすべてのデータで失敗するので、重複を排除することが重要です。
+* A [Deduplication](../../automating/using/deduplication.md) based on the **email** field of the temporary resource (resulting from the reconciliation) identifies duplicates. 重複がある場合、サービスへの購読登録はすべてのデータで失敗するので、重複を排除することが重要です。
 
    ![](assets/subscription_activity_example5.png)
 
-* 購読サービス [アクティビティは、](../../automating/using/subscription-services.md)**[!UICONTROL Reconciliation]** アクティビティで作成されたリンクを介して、トランジションからのアクセスとして更新するサービスを識別します。
+* A [Subscription Services](../../automating/using/subscription-services.md) activity identifies the services to update as coming from the transition, through the link created in the **[!UICONTROL Reconciliation]** activity.
 
-   は、ファイル **[!UICONTROL Operation type]** の **操作** フィールドからの値として識別されます。 ここで選択できるのは、ブール値フィールドまたは整数フィールドのみです。 実行する操作を含むファイルの列がリストに表示されない場合は、この例で前述したように、 **[!UICONTROL Load file]** アクティビティで列の形式が正しく設定されていることを確認してください。
+   「**[!UICONTROL Operation type]**」は、ファイルの **operation** フィールドに由来するものとして識別されます。ここで選択できるのは、ブール値フィールドまたは整数フィールドのみです。実行する操作を記述しているファイル列がリストに表示されない場合は、前述のように、「**[!UICONTROL Load file]**」アクティビティで列の形式が正しく設定されていることを確認してください。
 
    ![](assets/subscription_activity_example_from_file.png)
