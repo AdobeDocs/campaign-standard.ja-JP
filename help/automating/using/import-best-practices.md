@@ -9,13 +9,11 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 9a4c2219d5f8b312deb476d852cf5db9cd19afcb
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '569'
-ht-degree: 71%
+ht-degree: 72%
 
 ---
 
@@ -24,7 +22,7 @@ ht-degree: 71%
 
 >[!CAUTION]
 >
->この機能を使用する際は、Adobe Campaign契約に従って、SFTPストレージ、DBストレージ、アクティブなプロファイルの制限に留意してください。
+>この機能を使用する際は、Adobe Campaign契約に従って、SFTPストレージ、DBストレージ、およびアクティブなプロファイルの制限に留意してください。
 
 次に説明するいくつかのシンプルなルールに注意して従うと、データベース内のデータの一貫性を確保し、データベースの更新中またはデータを読み込む際の一般的なエラーを避けるのに非常に役立ちます。
 
@@ -38,7 +36,7 @@ In many projects, imports are built without **[!UICONTROL Deduplication]** activ
 
 受信データは一貫性があり正しいとか、IT 部門や Adobe Campaign スーパーバイザーが対処するとは思わないでください。プロジェクトの間、データクレンジングに留意してください。データをインポートする際には、重複排除し、紐付けし、一貫性を維持します。
 
-データのインポート用に設計された汎用ワークフローテンプレートの例を [例で示します。 ワークフローテンプレートのインポート](../../automating/using/creating-import-workflow-templates.md) 」セクション。
+データのインポート用に設計された汎用ワークフローテンプレートの例を [例で示します。ワークフローテンプレートのインポート](../../automating/using/creating-import-workflow-templates.md) 」セクション。
 
 >[!NOTE]
 >
@@ -48,7 +46,7 @@ In many projects, imports are built without **[!UICONTROL Deduplication]** activ
 
 * [ファイルを読み込みアクティビティ](../../automating/using/load-file.md)
 * [調整アクティビティ](../../automating/using/reconciliation.md)
-* [セグメントアクティビティ](../../automating/using/segmentation.md)
+* [Segmentation アクティビティ](../../automating/using/segmentation.md)
 * [重複排除 - 重複アクティビティ](../../automating/using/deduplication.md)
 * [データアクティビティの更新](../../automating/using/update-data.md)
 
