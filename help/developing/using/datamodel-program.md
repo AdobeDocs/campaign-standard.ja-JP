@@ -7,15 +7,16 @@ products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '222'
+ht-degree: 35%
 
 ---
 
 
-# プログラム(nms:program)
+# プログラム(nms:プログラム)
 
 ## オブジェクトの説明
 
@@ -33,7 +34,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                   <td> </td>
                </tr>
                <tr>
-                  <td>活動</td>
+                  <td>アクティビティ</td>
                   <td>アクティビティ</td>
                   <td>コレクション </td>
                   <td> </td>
@@ -46,7 +47,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                </tr>
                <tr>
                   <td>created</td>
-                  <td>作成済み</td>
+                  <td>作成日時</td>
                   <td>日付 </td>
                   <td> </td>
                </tr>
@@ -101,12 +102,12 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                <tr>
                   <td>logicalStatus</td>
                   <td>実行ステータス</td>
-                  <td>列挙（文字列） (255)</td>
+                  <td>定義済みリスト（文字列） (255)</td>
                   <td>
                      <ul>
                         <li>進行中 — 開始 — 開始</li>
                         <li>編集 — エディション — エディション</li>
-                        <li>完了 — 完了 — 完了</li>
+                        <li>終了 — 終了 — 終了</li>
                         <li>警告 — 警告 — 警告</li>
                         <li>エラー — エラー — エラー</li>
                         <li>無効な値 — __Invalid_value__ - __Invalid_value__</li>
@@ -152,18 +153,18 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
                <tr>
                   <td>ステータス</td>
                   <td>ステータス</td>
-                  <td>列挙（バイト） </td>
+                  <td>定義済みリスト（バイト） </td>
                   <td>
                      <ul>
-                        <li>開始 — 開始 — 1</li>
+                        <li>開始済み — 開始済み — 1</li>
                         <li>編集中 — エディション — 0</li>
-                        <li>完了 — 完了 — 2</li>
+                        <li>終了 — 終了 — 2</li>
                         <li>無効な値 — __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
                <tr>
-                  <td>template (program)</td>
+                  <td>template(プログラム)</td>
                   <td>プログラムテンプレート</td>
                   <td>link </td>
                   <td> </td>
@@ -184,7 +185,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
 
 ## フィルター
 
-論理ステータス別(byLogicalStatus)
+論理ステータス(byLogicalStatus)
 
 <table>
     <tr>
@@ -193,7 +194,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
     </tr>
     <tr>
     <td>state</td>
-    <td>列挙</td>
+    <td>定義済みリスト</td>
     </tr>
 </table>
 
@@ -227,7 +228,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
     </tr>
 </table>
 
-異種リストからの継続的な配信を含める(withContinuous)
+異種リストからの連続配信を含める（連続）
 
 <table>
     <tr>
@@ -253,7 +254,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
         </tr>
     </table>
 
-適格な親(eligibleParents)のみ
+適格な親のみ(eligibleParents)
 
 <table>
     <tr>
@@ -266,7 +267,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
     </tr>
 </table>
 
-指定期間に対して計画(Planning)
+特定の期間に対して計画済(byPlanning)
 
 <table>
     <tr>
@@ -283,7 +284,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
     </tr>
 </table>
 
-指定期間中に存在する（カレンダー別）
+特定の期間(byCalendar)に存在する
 
 <table>
     <tr>
