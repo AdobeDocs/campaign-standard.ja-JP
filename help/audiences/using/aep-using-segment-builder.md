@@ -10,22 +10,20 @@ content-type: reference
 topic-tags: managing-audiences
 discoiquuid: 750ecd8d-67a5-4180-bfec-2a8e3098c812
 context-tags: audience,wizard;audience,overview;delivery,audience,back
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: be7ab90583e9c6472fd2c86082e832432d0a32b9
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '878'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
 
-# Using the Segment Builder {#using-the-segment-builder}
+# セグメントビルダーの使用 {#using-the-segment-builder}
 
 >[!IMPORTANT]
 >
->オーディエンス宛先サービスは現在ベータ版で、予告なく頻繁に更新される可能性があります。 これらの機能にアクセスするには、お客様はAzureでホストされる必要があります（現在、北米向けベータ版のみ）。 アドビカスタマーケアにお問い合わせの際は、アドビカスタマーケアにご連絡ください。
+>オーディエンス宛先サービスは現在ベータ版で、予告なく頻繁に更新される可能性があります。 これらの機能にアクセスするには、お客様はAzureでホストされる必要があります（現在、北米向けベータ版のみ）。 ご利用になる場合は、Adobeカスタマーケアにお問い合わせください。
 
 セグメントビルダーを使用すると、 [リアルタイム顧客プロファイルからのデータに基づいてルールを定義することでオーディエンスを作成できます](https://docs.adobe.com/content/help/ja-JP/experience-platform/profile/home.html)。
 
@@ -43,7 +41,7 @@ ht-degree: 2%
 
 セグメントを作成するには、次の手順に従います。
 
-セグメントビルダーがワークスペースに表示されます。 オーディエンスの作成に使用されるAdobe Experience Platformのデータを使用してセグメントを作成できます。
+セグメントビルダーがワークスペースに表示されます。 これにより、最終的にオーディエンスの作成に使用されるAdobe Experience Platformのデータを使用してセグメントを作成できます。
 
 1. セグメントに名前を付け、説明を入力します（オプション）。
 
@@ -63,21 +61,21 @@ ht-degree: 2%
 
    ![](assets/aep_audiences_configure_rules.png)
 
-1. ボタンをクリックし **[!UICONTROL Create segment]** ます。
+1. 「**[!UICONTROL Create segment]**」ボタンをクリックします。
 
 ## セグメントに適したフィールドの検索
 
 左側のペインには、ルールの作成に使用できるすべての属性、イベント、オーディエンスがリストされます。
 
-表示されるフィールドは、会社によってキャプチャされた属性で、 [Experience Data Model(XDM)Systemを通じて使用可能になっています](https://docs.adobe.com/content/help/ja-JP/experience-platform/xdm/home.html)。
+表示されるフィールドは、会社がキャプチャした属性で、 [Experience Data Model(XDM)Systemを通じて使用できます](https://docs.adobe.com/content/help/ja-JP/experience-platform/xdm/home.html)。
 
 フィールドは、次のタブに分類されます。
 
-* **[!UICONTROL Attributes]**: Adobe CampaignのデータベースやAdobe Experience Platformから作成できる既存のプロファイル属性。 プロファイルに付属する静的な情報(電子メールアドレス、住所の国、忠誠度プログラムのステータスなど)を参照します。
+* **[!UICONTROL Attributes]**:Adobe CampaignデータベースまたはAdobe Experience Platform、あるいはその両方から作成できる既存のプロファイル属性。 プロファイルに付属する静的な情報(電子メールアドレス、住所の国、忠誠度プログラムのステータスなど)を参照します。
 
    ![](assets/aep_audiences_attributestab.png)
 
-* **[!UICONTROL Events]**: 「2週間に2回注文した顧客」など、会社の顧客のタッチポイントと何らかのインタラクションを持つ顧客を識別するアクティビティ。 これは、AdobeAnalyticsからストリーミングすることも、サードパーティのETLツールを使用してAdobe Experience Platformに直接取り込むこともできます。
+* **[!UICONTROL Events]**:「2週間に2回注文した顧客」など、会社の顧客のタッチポイントと何らかのインタラクションを持つ顧客を識別するアクティビティ。 これは、Adobe Analyticsからストリーミングされたり、サードパーティのETLツールを使用して直接Adobe Experience Platformに取り込まれたりできます。
 
    ![](assets/aep_audiences_eventstab.png)
 
@@ -85,7 +83,7 @@ ht-degree: 2%
 >
 >**複数エンティティのセグメント化** により、プロファイル、店舗、または他の非プロファイルクラスに基づく追加データを使用して、製品データを拡張できます。 接続すると、追加のクラスのデータは、プロファイルスキーマにネイティブであるかのように使用可能になります。
 >
->For more on this, refer to the [dedicated documentation](https://docs.adobe.com/content/help/en/experience-platform/segmentation/multi-entity-segmentation.html).
+>詳しくは、[該当するドキュメント](https://docs.adobe.com/content/help/en/experience-platform/segmentation/multi-entity-segmentation.html)を参照してください。
 
 デフォルトでは、セグメントビルダーには、既にデータが存在するフィールドが表示されます。 データが存在しないフィールドを含む完全なスキーマを表示するには、設定のオ **[!UICONTROL Show full XDM schema]** プションを有効にします。
 
