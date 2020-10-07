@@ -9,10 +9,11 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 discoiquuid: f9bb2235-d388-4025-9ace-734beb0c1961
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '920'
+ht-degree: 3%
 
 ---
 
@@ -29,11 +30,11 @@ source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 プッシュ通知配信で多言語コンテンツバリアントを使用するには、次の手順に従います。
 
-* [手順1: 多言語コンテンツバリアントのアップロード](#step-1--upload-multilingual-content-variant)
-* [手順2: 多言語コンテンツのバリアントを使用してプレビューを行い、プッシュ通知を最終処理します](#step-2--preview-and-finalize-a-push-notification-using-multilingual-content-variants)
-* [手順3: 多言語プッシュ通知配信の送信と分析](#step-3--send-and-analyze-multilingual-push-notification-delivery)
+* [手順1:多言語コンテンツバリアントのアップロード](#step-1--upload-multilingual-content-variant)
+* [手順2:多言語コンテンツのバリアントを使用してプレビューを行い、プッシュ通知を最終処理します](#step-2--preview-and-finalize-a-push-notification-using-multilingual-content-variants)
+* [手順3:多言語プッシュ通知配信の送信と分析](#step-3--send-and-analyze-multilingual-push-notification-delivery)
 
-## 手順1: 多言語コンテンツバリアントのアップロード {#step-1--upload-multilingual-content-variant}
+## 手順1:多言語コンテンツバリアントのアップロード {#step-1--upload-multilingual-content-variant}
 
 多言語プッシュ通知をパーソナライズする前に、まず多言語配信テンプレートにコンテンツバリアントをアップロードし、配信を作成する必要があります。
 
@@ -46,13 +47,13 @@ source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
    ![](assets/multivariant_push_2.png)
 
-1. プッシュ通知プロパティを入力し、フィールドでモバイルアプリを選択し **[!UICONTROL Associate a Mobile App to a delivery]** ます。
+1. Enter your push notification properties and select your mobile app in the **[!UICONTROL Associate a Mobile App to a delivery]** field.
 
-   ドロップダウンには、SDK V4とAdobe Experience Platform SDKの両方のアプリケーションが表示されます。
+   ドロップダウンには、SDK V4とAdobe Experience PlatformSDKの両方のアプリケーションが表示されます。
 
 1. ウィンドウで、クエリをドラッグ&amp;ドロップしてオーディエンスを微調整します。 **[!UICONTROL Audiences]**
 
-   追加されるクエリは、選択したテンプレートに応じて異なります。 テンプレートを選択した場合は、モバイルアプリケーションの既知の受信者をクエリできます。 **[!UICONTROL Send multilingual push to Campaign profiles]** 一方、テンプレートを選択した場合は、 **[!UICONTROL Send multilingual push to app subscriber]** オプトインした特定のアプリのすべてのサブスクライバーをクエリできます。
+   追加されるクエリは、選択したテンプレートに応じて異なります。テンプレートを選択した場合は、モバイルアプリケーションの既知の受信者をクエリできます。 **[!UICONTROL Send multilingual push to Campaign profiles]** 一方、テンプレートを選択した場合は、 **[!UICONTROL Send multilingual push to app subscriber]** オプトインした特定のアプリのすべてのサブスクライバーをクエリできます。
    >[!NOTE]
    >
    >特定の言語を使用するオーディエンスをターゲットする場合は、CSVファイルでターゲット言語をすべてリストする必要があります。
@@ -61,7 +62,7 @@ source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 1. ウィンドウで、ファイルをドラッグ&amp;ドロップするか、コンピューターからファイルを選択します。 **[!UICONTROL Manage Content Variants]**
 
-   ファイルはUTF8エンコードである必要があり、 **[!UICONTROL Download the sample file]** オプションをクリックすると見つかる特定のレイアウトが必要です。 また、ロケール値には正しい構文を使用する必要があります。 ファイル形式とサポートされているロケールについて詳しくは、この [テクノロジーを参照してください](https://helpx.adobe.com/campaign/kb/acs-generate-csv-multilingual-push.html)。
+   ファイルはUTF8エンコードである必要があり、 **[!UICONTROL Download the sample file]** オプションをクリックすると見つかる特定のレイアウトが必要です。 また、ロケール値には正しい構文を使用する必要があります。 ファイル形式とサポートされているロケールについて詳しくは、この [テクノロジーを参照してください](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/communication-channels/push-notifications/generating-csv-multilingual-push.translate.html)。
 
    ![](assets/multivariant_push_4.png)
 
@@ -82,7 +83,7 @@ source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 開始が多言語プッシュ通知を個人化できるようになりました。
 
-## 手順2: 多言語コンテンツのバリアントを使用してプレビューを行い、プッシュ通知を最終処理します {#step-2--preview-and-finalize-a-push-notification-using-multilingual-content-variants}
+## 手順2:多言語コンテンツのバリアントを使用してプレビューを行い、プッシュ通知を最終処理します {#step-2--preview-and-finalize-a-push-notification-using-multilingual-content-variants}
 
 コンテンツバリアントを含むファイルをアップロードした後、プッシュ通知配信から様々なバリアントをプレビューできるようになりました。
 
@@ -98,7 +99,7 @@ source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 1. コンテンツバリアントをクリックして、パーソナライゼーションフィールドなどを使ってさらにカスタマイズすることもできます。
 
-   プッシュ通知のカスタマイズ方法について詳しくは、この [節を参照してください](../../channels/using/customizing-a-push-notification.md)。
+   For more information on how to customize your push notification, refer to this [section](../../channels/using/customizing-a-push-notification.md).
 
    ![](assets/multivariant_push_9.png)
 
@@ -110,7 +111,7 @@ source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 これで、多言語プッシュ通知配信を送信する準備が整いました。
 
-## 手順3: 多言語プッシュ通知配信の送信と分析 {#step-3--send-and-analyze-multilingual-push-notification-delivery}
+## 手順3:多言語プッシュ通知配信の送信と分析 {#step-3--send-and-analyze-multilingual-push-notification-delivery}
 
 これで、多言語コンテンツバリアントのプッシュ通知をユーザーに送信する準備が整いました。
 
@@ -123,7 +124,7 @@ source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
    ![](assets/multivariant_push_13.png)
 
-1. 選択 **[!UICONTROL Push notification report]**.
+1. 「**[!UICONTROL Push notification report]**」を選択します。
 1. ディメンションをパネルにドラッグ&amp;ドロップして、データのフィルタリングを開始します。 **[!UICONTROL Variant]**
 
    ![](assets/multivariant_push_11.png)
@@ -134,4 +135,4 @@ source-git-commit: 68e825bc3b6b7f94f61875e7da2bc8f63f06d9cb
 
 * [プッシュ通知レポート](../../reporting/using/push-notification-report.md)
 * [ワークフロー内でのプッシュ通知の送信](../../automating/using/push-notification-delivery.md)
-* [1つのワークフローで多言語オーディエンスにアクセス](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
+* [1つのワークフローで多言語オーディエンスにアクセス](https://helpx.adobe.com/jp/campaign/kb/simplify-campaign-management.html#Engageyourcustomersateverystep)
