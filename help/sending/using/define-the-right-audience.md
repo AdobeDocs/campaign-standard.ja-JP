@@ -10,13 +10,11 @@ content-type: reference
 topic-tags: deliveries-best-practices
 discoiquuid: 0cbc4e92-482f-4dac-a1fb-b738e7127938
 index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: d5d9d50474142306457a8c76a24388c3c574791d
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '504'
-ht-degree: 69%
+ht-degree: 78%
 
 ---
 
@@ -57,7 +55,7 @@ By default, delivery templates target **Profiles**. Adobe Campaign では、必�
 
 Learn more about test profiles [in this section](../../audiences/using/managing-test-profiles.md).
 
-キャンペーンの [](../../sending/using/control-group.md) コントロール母集団の一部を除外することで、オーディエンスを使用しての影響を測定できます。 その後、メッセージを受け取ったターゲットの訪問者の行動と、ターゲット設定されていない連絡先の行動を比較できます。 送信ログに基づいて、将来のキャンペーンでコントロール母集団をターゲットすることもできます。
+You can use [Control groups](../../sending/using/control-group.md) to measure the impact of your campaigns by excluding a portion of their audience. その後、メッセージを受け取ったターゲット母集団の行動と、ターゲット設定されていない連絡先の行動を比較できます。送信ログに基づいて、今後のキャンペーンでコントロール母集団をターゲットすることもできます。
 
 ## 重複したアドレス {#deduplicate-addresses}
 
