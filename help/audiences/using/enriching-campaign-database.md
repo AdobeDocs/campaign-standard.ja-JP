@@ -9,13 +9,11 @@ audience: start
 content-type: reference
 topic-tags: about-adobe-campaign
 discoiquuid: d8c8a318-9433-4aec-b378-fd0beb50e9fb
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c1147c4512b1485ae5d927a32970adcd41b540e7
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '447'
-ht-degree: 1%
+ht-degree: 3%
 
 ---
 
@@ -73,4 +71,4 @@ For more on how to use the APIs, refer to the [dedicated documentation](../../ap
 
 >[!IMPORTANT]
 >
->API呼び出しを使用してプロファイルの一括作成または更新を実行する前に、使用許諾契約に対応するスケール制限を確認してください。 詳しくは、[このページ](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers)を参照してください。
+>API呼び出しを使用してプロファイルの一括作成または更新を実行する前に、使用許諾契約に対応するスケール制限を確認してください。 詳しくは、[このページ](https://helpx.adobe.com/jp/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers)を参照してください。
