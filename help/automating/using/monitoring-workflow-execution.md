@@ -10,13 +10,11 @@ content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 906c85ea-83b7-4268-86da-cd353f1dc591
 context-tags: workflow,overview;workflow,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 4cda0d3a3e65959091cd24bec8af434ab07519f6
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '577'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
@@ -33,7 +31,7 @@ ht-degree: 2%
 
 ![](assets/wkf_execution_4.png)
 
-この **[!UICONTROL Tasks]** タブでは、アクティビティの実行順序の詳細が示されます。 タスクをクリックして詳細を表示します。
+The **[!UICONTROL Tasks]** tab details the execution sequencing of the activities. タスクをクリックして詳細を表示します。
 
 ![](assets/wkf_execution_5.png)
 
@@ -41,7 +39,7 @@ ht-degree: 2%
 
 * カウンターをクリックすると、適用したフィルターに従ったアクティビティの合計数が表示されます。 リスト内の要素数が30未満の場合は、デフォルトでカウンターが表示されます。
 * この **[!UICONTROL Configure list]** ボタンを使用すると、表示する情報の選択、列の順序の定義、リストの並べ替えを行うことができます。
-* フィルターを使用すると、必要な情報をより迅速に見つけることができます。 検索フィールドを使用して、ワークフローアクティビティ名の特定のテキストを検索します(例： 「クエリ」)とログを参照してください。
+* フィルターを使用すると、必要な情報をより迅速に見つけることができます。 検索フィールドを使用して、ワークフローアクティビティ名の特定のテキストを検索します(例：「クエリ」)とログを参照してください。
 
 ## エラー管理 {#error-management}
 
@@ -63,15 +61,15 @@ ht-degree: 2%
 
 選択できるオプションは次のとおりです。
 
-* **[!UICONTROL Supervisors]**: ワークフローでエラーが発生した場合に通知するユーザーのグループ（電子メールおよびアプリ内通知）を定義できます。 グループが定義されていない場合、誰も通知されません。 Adobe Campaign通知について詳しくは、 [Adobe Campaign通知を参照してください](../../administration/using/sending-internal-notifications.md)。
+* **[!UICONTROL Supervisors]**:ワークフローでエラーが発生した場合に通知するユーザーのグループ（電子メールおよびアプリ内通知）を定義できます。 グループが定義されていない場合、誰も通知されません。 Adobe Campaign通知について詳しくは、 [Adobe Campaign通知を参照してください](../../administration/using/sending-internal-notifications.md)。
 
-* **[!UICONTROL In case of error]**: アクティビティでエラーが発生した場合に実行するアクションを指定できます。 これには、次の2つのオプションがあります。
+* **[!UICONTROL In case of error]**:アクティビティでエラーが発生した場合に実行するアクションを指定できます。 これには、次の2つのオプションがあります。
 
-   * **プロセスの休止**: ワークフローは自動的に中断されます。 次に、ワークフローのステータスが「 **エラー** 」になり、関連付けられた色が赤に変わります。 問題が解決したら、ワークフローを再起動します。
-   * **無視**: アクティビティは実行されず、その結果、（同じブランチ内の）その後に続くアクティビティも実行されません。 これは、定期的なタスクに役立つ場合があります。 ブランチのスケジューラーがアップストリームに配置されている場合は、次の実行日にトリガーされます。
+   * **プロセスの休止**:ワークフローは自動的に中断されます。 次に、ワークフローのステータスが「 **エラー** 」になり、関連付けられた色が赤に変わります。 問題が解決したら、ワークフローを再起動します。
+   * **無視**:アクティビティは実行されず、その結果、（同じブランチ内の）その後に続くアクティビティも実行されません。 これは、定期的なタスクに役立つ場合があります。 ブランチのスケジューラーがアップストリームに配置されている場合は、次の実行日にトリガーされます。
 
-* **[!UICONTROL Consecutive errors]** : ワークフローの実行が自動的に中断される前に承認される連続する複数のエラーを定義できます。
+* **[!UICONTROL Consecutive errors]** :ワークフローの実行が自動的に中断される前に承認される連続する複数のエラーを定義できます。
 
    * 指定した数値がである場合 **[!UICONTROL 0]**、または指定した数値に達しない限り、エラーが発生したアクティビティは無視されます。 他のワークフローブランチは、通常どおり実行されます。
 
-   * 指定した数に達すると、ワークフロー全体が中断され、ワークフロー全体になり **[!UICONTROL Erroneous]**&#x200B;ます。 スーパーバイザを定義した場合は、電子メールで自動的に通知されます。 「 [Adobe Campaign通知](../../administration/using/sending-internal-notifications.md)」を参照してください。
+   * 指定した数に達すると、ワークフロー全体が中断され、ワークフロー全体になり **[!UICONTROL Erroneous]**&#x200B;ます。 スーパーバイザを定義した場合は、電子メールで自動的に通知されます。  [Adobe Campaign 通知](../../administration/using/sending-internal-notifications.md)を参照してください。
