@@ -9,13 +9,11 @@ audience: designing
 content-type: reference
 topic-tags: working-with-campaign-and-analytics
 discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c542859937ac60df9f76f5954a414575eac0e83d
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '440'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
@@ -57,13 +55,13 @@ ht-degree: 0%
 
 ## フラグメントを更新する必要があるのはなぜですか？
 
-電子メールデザイナーは継続的に機能強化を行っています。 電子メールコンテンツを最初から作成した場合、標準搭載のテンプレートから作成した場合、またはフラグメントを作成した場合は、CSSの衝突の問題などの問題を回避するために、コンテンツを最新バージョンに更新する必要があります。
+E メールデザイナーの機能強化は継続的におこなわれています。電子メールコンテンツを最初から作成した場合、標準搭載のテンプレートから作成した場合、またはフラグメントを作成した場合は、CSSの衝突の問題などの問題を回避するために、コンテンツを最新バージョンに更新する必要があります。
 
 詳しくは、「フラグメントの [更新」を参照してください。](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-updates)
 
 ## テーマでスタイルを保存できますか？
 
-スタイルは、後で再利用するためにテーマとして保存することはできません。 ただし、CSSスタイルは、コンテンツテンプレートまたは電子メールに保存できます。
+スタイルは、後で再利用するためにテーマとして保存することはできません。ただし、CSS スタイルは、コンテンツテンプレートまたは E メールに保存できます。
 
 詳しくは、「 [スタイル」を参照してください。](../../designing/using/styles.md)
 
