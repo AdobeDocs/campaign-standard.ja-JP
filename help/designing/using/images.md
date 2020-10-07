@@ -9,10 +9,11 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 881c89272884c6340e170ab13e84612a5af19acd
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '303'
+ht-degree: 7%
 
 ---
 
@@ -21,26 +22,26 @@ source-git-commit: 881c89272884c6340e170ab13e84612a5af19acd
 
 ## 画像の挿入{#inserting-images}
 
-電子メールおよびランディングページに画像を挿入できます。
+電子メールやランディングページに画像を挿入できます。
 
 設定に応じて、次のタイプの画像を使用できます。
 
 * ローカル画像
-* Adobe Experience cloudから共有される画像 — キャンペーンとアセ [ットのコアサービス](../../integrating/using/working-with-campaign-and-assets-core-service.md) /アセットオンデマンドの操作を参照
-* Adobe targetの動的な画像 — 「CampaignとTargetの [操作」を参照](../../integrating/using/about-campaign-target-integration.md)
+* Adobe Experience Cloudから共有された画像 —キャンペーンとアセットのコアサービス [/アセットオンデマンドの](../../integrating/using/working-with-campaign-and-assets-core-service.md) 操作を参照
+* Adobe Targetの動的画像 —キャンペーンとターゲットの [操作を参照](../../integrating/using/about-campaign-target-integration.md)
 
 >[!CAUTION]
 >
->電子メールのHTMLバージョンを編集して画像を直接追加する場合は、HTMLページの&lt;script>タグで外部ファ **イルを呼び出しては** なりません。 これらのファイルは、Adobe Campaign サーバーにインポートされません。
+>電子メールのHTMLバージョンを編集して画像を直接追加する場合は、HTMLページの&lt;script>タグで **外部ファイルを呼び出してはいけません** 。 これらのファイルは、Adobe Campaign サーバーにインポートされません。
 
-### 電子メールへの画像の挿入 {#inserting-images-in-an-email}
+### Inserting images in an email {#inserting-images-in-an-email}
 
-1. 構造コンポーネントを追加します。 詳しくは、「電子メール構造の [編集」を参照してください](../../designing/using/designing-from-scratch.md#defining-the-email-structure)。
-1. この構造コンポーネント内に、コンテンツコンポーネ **[!UICONTROL Image]** ントを追加します。
+1. 構造追加コンポーネント。 詳しくは、[メール構造の編集](../../designing/using/designing-from-scratch.md#defining-the-email-structure)を参照してください。
+1. この構造コンポーネント内に、 **[!UICONTROL Image]** コンテンツコンポーネントを追加します。
 
    ![](assets/des_insert_images_1.png)
 
-1. クリック **[!UICONTROL Browse]**. 画像をドラッグ&amp;ドロップするか、クリックしてコンピューターからファイルを選択します。
+1. 「**[!UICONTROL Browse]**」をクリックします。画像をドラッグ&amp;ドロップするか、クリックしてコンピューターからファイルを選択します。
 
    ![](assets/des_insert_images_2.png)
 
@@ -53,13 +54,13 @@ source-git-commit: 881c89272884c6340e170ab13e84612a5af19acd
 
 イメージを含むブロックを選択すると、パレットに次のプロパティが表示されます。
 
-* **「パーソナライゼーション** 」を使用すると、画像ソースをカスタマイズできます。 詳しくは、 [画像ソースのパーソナライズを参照してくださ](../../designing/using/personalization.md#personalizing-an-image-source)い。
-* **「画像のタイトル** 」では、画像のタイトルを定義できます。
-* **代替テキスト** （電子メール）または **Caption** （ランディングページ）では、画像にリンクされたキャプションを定義できます( **alt** HTML属性に対応)。
-* 電子メールの編集時に、 **Style** （スタイル）を使用して、画像のサイズ、背景および境界線を指定できます。
-* ランディングページを編集する場合、「 **Dimensions** 」では画像サイズをピクセル単位で指定できます。
+* **「パーソナライゼーションを有効にする** 」を選択すると、画像ソースをカスタマイズできます。 詳しくは、画像ソースの [個人設定を参照してください](../../designing/using/personalization.md#personalizing-an-image-source)。
+* **「画像タイトル** 」では、画像のタイトルを定義できます。
+* **「代替テキスト** （電子メール）」または「 **キャプション** (ランディングページ)」では、画像にリンクされたキャプションを定義できます( **alt** HTML属性に対応)。
+* 電子メールの編集時に、 **スタイル** (Style)を使用して、画像のサイズ、背景、境界線を指定できます。
+* ランディングページの編集時に、 **Dimension** （ピクセル単位）で画像サイズを指定できます。
 
-エディターでは、ブラウザーと互換性のある形 **式を持つすべての** 、画像タイプを操作できます。 エディターとの互換性を維持するには、次のよ **うに** 「Flash」タイプのアニメーションをHTMLページに挿入する必要があります。
+エディターでは、ブラウザーと互換性のある形式を持つ **すべての画像タイプ** 、 エディターと互換性を持たせるには、次のように **「Flash** 」タイプのアニメーションをHTMLページに挿入する必要があります。
 
 ```
 <object type="application/x-shockwave-flash" data="http://www.mydomain.com/flash/your_animation.swf" width="200" height="400">
