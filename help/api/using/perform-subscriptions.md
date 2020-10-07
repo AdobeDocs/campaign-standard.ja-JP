@@ -9,19 +9,20 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: aee0e0437cbfe578cb2f715a2433099c79dd1748
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '112'
+ht-degree: 0%
 
 ---
 
 
 # 購読の実行 {#performing-subscriptions}
 
-## 方法1:サービスへのプロファイルの購読
+## 方法1:プロファイルのサービスへの登録
 
-GETリクエストを実行して、プロファイルを取得します。
+GETリクエストを実行してプロファイルを取得します。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -45,7 +46,7 @@ GETリクエストを実行して、プロファイルを取得します。
   }
 ```
 
-ペイロード内の目的のサービスのプライマリキーを使用して、購読URLに対してPOSTリクエストを実行します。
+購読URLに対して、ペイロード内の目的のサービスプライマリキーを使用してPOSTリクエストを実行します。
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \
@@ -57,7 +58,7 @@ GETリクエストを実行して、プロファイルを取得します。
 -d '{"service":{"PKey":"<PKEY>"}}'
 ```
 
-サービスノードが完了した更新済みのプロファイルを返します。
+サービスノードが完了した、更新されたプロファイルを返します。
 
 ```
 {
@@ -72,7 +73,7 @@ GETリクエストを実行して、プロファイルを取得します。
 }
 ```
 
-## 方法2:サービスの購読者へのプロファイルの追加
+## 方法2:サービスのサブスクライバにプロファイルを追加する
 
 GET要求を実行して、サービスを取得します。
 
@@ -98,7 +99,7 @@ GET要求を実行して、サービスを取得します。
   },
 ```
 
-ペイロード内の目的のプロファイルのプライマリキーを使用して、購読URLに対してPOSTリクエストを作成します。
+購読URLに対して、ペイロード内の目的のプロファイルプライマリキーを使用してPOSTリクエストを行います。
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign//profileAndServices/service/<PKEY>/subscriptions/ \
@@ -110,7 +111,7 @@ GET要求を実行して、サービスを取得します。
 -d '{"subscriber":{"PKey":"<PKEY>"}}'
 ```
 
-サブスクライバーノードが完了した更新済みのサービスを返します。
+サブスクライバーノードが完了した、更新されたサービスを返します。
 
 ```
 {
