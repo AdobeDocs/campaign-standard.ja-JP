@@ -9,10 +9,8 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 1b1fb4a0dc0f7881e24e10f8ac171feab2ac8cba
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '7624'
 ht-degree: 9%
@@ -43,7 +41,7 @@ ht-degree: 9%
     <li><p>プライバシー要求を作成する際に、プライバシーコアサービスに規則の種類（GDPRまたはCCPA）が追加されました。 すべてのアクセス要求と削除要求に対して、このメソッドを使用する必要があります。アクセス要求および削除要求に対する Campaign API およびインターフェイスの使用は廃止されています。<a href="https://helpx.adobe.com/jp/campaign/kb/acs-deprecated-and-removed-features.html">廃止および削除された機能の記事</a>を参照してください。</p></li>
     <li>プロファイルリソースに <strong>CCPAオプトアウト</strong> (CCPA Opt-Out)フィールドが追加され、個人情報の販売に対して消費者がオプトアウトしたかどうかをAdobe Campaignユーザーが追跡できるようになりました。 詳しくは、<a href="https://helpx.adobe.com/jp/campaign/kb/acs-privacy.html#ccpa">こちら</a>を参照してください。</li>
   </ul>
-    <p><a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">ハウツービデオ</a>を参照してください。</p>
+    <p><a href="https://docs.adobe.com/content/help/ja-JP/campaign-standard-learn/tutorials/privacy/privacy-overview.html">ハウツービデオ</a>を参照してください。</p>
 </td> 
   </tr> 
  </tbody> 
@@ -164,7 +162,7 @@ ht-degree: 9%
  <tbody> 
   <tr> 
    <td> 外部APIアクティビティ（パブリックベータ版）<br /> </td> 
-   <td> <p>より詳細なパーソナライゼーションのために、外部APIアクティビティを使用すると、REST API呼び出しを介して外部システムのデータをワークフローに取り込むことができます。 RESTエンドポイントには、顧客管理システム、Adobe I/O Runtime、Adobe Experience CloudRESTエンドポイント(データプラットフォーム、ターゲット、分析、キャンペーンなど)を使用できます。</p><p>この機能は現在パブリックベータ版です。</p><p>詳しくは、<a href="../../automating/using/external-api.md">詳細ドキュメント</a>および<a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">ハウツービデオ</a>を参照してください。</p></td> 
+   <td> <p>より詳細なパーソナライゼーションのために、外部APIアクティビティを使用すると、REST API呼び出しを介して外部システムのデータをワークフローに取り込むことができます。 RESTエンドポイントには、顧客管理システム、Adobe I/O Runtime、Adobe Experience CloudRESTエンドポイント(データプラットフォーム、ターゲット、分析、キャンペーンなど)を使用できます。</p><p>この機能は現在パブリックベータ版です。</p><p>詳しくは、<a href="../../automating/using/external-api.md">詳細ドキュメント</a>および<a href="https://docs.adobe.com/content/help/ja-JP/campaign-standard-learn/tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">ハウツービデオ</a>を参照してください。</p></td> 
   </tr> 
   <tr> 
    <td> ワークフローセグメントに関するレポート<br /> </td> 
@@ -338,7 +336,7 @@ ht-degree: 9%
 * Microsoft Officeタグを削除した後でも、Email DesignerのHTMLモードでMicrosoft Officeタグが表示される問題を修正しました。 （CAMP-32141）
 * 以前のバージョンの電子メールデザイナーを使用して電子メールを作成した場合、この電子メールコンテンツを開くと、ポップアップウィンドウが開き、最新バージョンに更新するように求めるメッセージが表示されるようになりました。 （CAMP-31529）
 * 一部のメッセージングクライアントに配信すると、電子メールデザイナーで作成された電子メールの画像がゆがむ可能性がある問題を修正しました。 （CAMP-31407）
-* HTMLモードで作成した場合に、リストやボタンなどの一部の要素がプレーンテキストモードで正しく表示されない問題を修正しました。 (CAMP-32582、CAMP-32542)
+* HTMLモードで作成した場合に、リストやボタンなどの一部の要素がプレーンテキストモードで正しく表示されない問題を修正しました。 （CAMP-32582、CAMP-32542）
 * コンテンツテンプレートまたはフラグメントのプロパティで、組織単位数が50を超える問題を修正しました。 （CAMP-32932）
 * Outlookの電子メールデザイナーで作成された電子メールを受信した場合のビューポートの背景色の問題を修正しました。 （CAMP-31402）
 * 電子メールデザイナで作成した電子メールコンテンツをOutlookで開いたときにレスポンシブにならない可能性がある問題を修正しました。 （CAMP-31400）
@@ -540,7 +538,7 @@ ht-degree: 9%
      <li> 準備時にURLからコンテンツを自動的に <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">取得する機能</a> </li> 
      <li> 標準 <a href="../../designing/using/using-reusable-content.md#content-templates">に完全に準拠しているコンテンツテンプレート</a>。 </li> 
     </ul> 
-    <p>詳しくは、<a href="../../designing/using/designing-content-in-adobe-campaign.md">詳細ドキュメント</a>および<a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html">ハウツービデオ</a>を参照してください。機能強化および修正点を次に示します。</p><p>その結果、従来の電子メールコンテンツエディターは廃止されました。 詳しくは、この<a href="https://helpx.adobe.com/jp/campaign/kb/acs-deprecated-and-removed-features.html">ページ</a>を参照してください。</p> </td> 
+    <p>詳しくは、<a href="../../designing/using/designing-content-in-adobe-campaign.md">詳細ドキュメント</a>および<a href="https://docs.adobe.com/content/help/ja-JP/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html">ハウツービデオ</a>を参照してください。機能強化および修正点を次に示します。</p><p>その結果、従来の電子メールコンテンツエディターは廃止されました。 詳しくは、この<a href="https://helpx.adobe.com/jp/campaign/kb/acs-deprecated-and-removed-features.html">ページ</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td> Product Listings in Transactional Emails<br /> </td> 
