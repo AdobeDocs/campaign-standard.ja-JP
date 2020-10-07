@@ -10,10 +10,8 @@ content-type: reference
 topic-tags: execution-activities
 discoiquuid: 377821e6-69f8-41cc-a1ad-8a2f5ed4d409
 context-tags: workflow,use-case,query,delivery,scheduler
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c3911232a3cce00c2b9a2e619f090a7520382dde
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 81%
@@ -31,7 +29,7 @@ ht-degree: 81%
 
 ## スケジューラーアクティビティの作成{#creating-a-scheduler-activity}
 
-1. /で、 **[!UICONTROL Activities]** スケジューラー **[!UICONTROL Execution]**[](../../automating/using/scheduler.md) アクティビティをドラッグ&amp;ドロップします。
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Execution]**, drag and drop a [Scheduler](../../automating/using/scheduler.md) activity.
 1. アクティビティをダブルクリックします。
 1. 配信の実行を設定します。
 1. 「**[!UICONTROL Execution frequency]**」で、「**[!UICONTROL Weekly]**」を選択します。
