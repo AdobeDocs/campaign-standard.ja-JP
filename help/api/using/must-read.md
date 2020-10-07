@@ -9,35 +9,36 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 discoiquuid: 304e7779-42d2-430a-9704-8c599a4eb1da
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '320'
+ht-degree: 0%
 
 ---
 
 
-# 必読 {#must-read}
+# Must-Read {#must-read}
 
 ## 技術要件
 
-* Adobe Campaign APIは、サーバー間でのみ使用する必要があります。
-* 導入するユースケースがAdobe Campaign APIで許可されているスケールと一致する場合は、必ずアドビのテクニカル担当者にお問い合わせください。
-* Adobe IOアクセスの設定には特定の権限が必要です。問題が発生した場合は、アドビサポートにお問い合わせください。
+* Adobe CampaignAPIは、サーバー間でのみ使用する必要があります。
+* 導入したい使用事例が、Adobe CampaignAPIで許可されている規模と一致する場合は、必ずAdobeのテクニカルコンタクトにお問い合わせください。
+* Adobe IOアクセスの設定には、特定の権限が必要です。問題が発生した場合は、Adobeサポートに問い合わせてください。
 
-## リソース表現
+## リソースの表現
 
-すべてのAPIリソースは、 **URL拡張子が付いた** JSON、またはHTTP受け入れヘッダー内で使用できます。
+すべてのAPIリソースは、URL拡張子が付いた **JSON** 、またはHTTP Accept Header内で使用できます。
 
 `GET /profileAndServices/<resourceName>.json`
 
 >[!NOTE]
 >
->URLに拡張子がない場合、 **json形式はcontent-typeのデフォルトの形式** になります。
+>URLに拡張子がない場合、 **json形式はcontent-typeのデフォルトの形式です** 。
 
 <br/>
 
-***要求サンプル***
+***リクエストサンプル***
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile.json \
@@ -47,23 +48,23 @@ source-git-commit: c0c0be79613f99a15676343d8ce10d335baf968a
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-## 主キーとURL
+## プライマリキーとURL
 
-* URLを自分で作成しないでください。 すべてのURLがAPIから返されます。 ただし、最上位のリソース名に基づいてURLを作成することは可能です。
+* 自分でURLを作成しないでください。 すべてのURLがAPIから返されます。 ただし、最上位のリソース名に基づいてURLを作成することは可能です。
 
-* この例を示す自動主キー(PKey)値は、別の特定の展開で動作することを意図していません。 これらは、Adobe Campaign APIによって生成されます。
+* この例を示す自動主キー(PKey)値は、別の特定の展開で機能することを意図していません。 これらはAdobe CampaignAPIによって生成されます。
 
-* Adobe Campaignで生成された自動主キーの値は、外部のデータベースやWebサイトに保存しないでください。 データベース定義で特定のキーフィールドを生成し、開発時に使用する必要があります。
+* Adobe Campaignが生成する自動プライマリキーの値を、外部のデータベースまたはWebサイトに保存しないでください。 データベース定義で特定のキーフィールドを生成し、開発時に使用する必要があります。
 
 ## カスタムキー {#custom-keys}
 
-プロファイルリソースがカスタムキーフィールドを使用して拡張されている場合、Adobe Campaignで生成された自動主キーの代わりに、このフィールドをキーとして使用できます。
+プロファイルリソースがカスタムキーフィールドを使用して拡張されている場合は、Adobe Campaignが生成する自動プライマリキーの代わりに、このフィールドをキーとして使用できます。
 
 `GET /.../profileAndServicesExt/profile/<customKey>`
 
-キー値が元のキーと異なる場合、またはアドビが提供するキーの代わりに独自のビジネスキーをURIとして使用している場合は、PATCH操作を使用してカスタムキーを変更することはできません。
+キーの値が接触チャネルキーと異なる場合や、Adobeが提供するキーではなく独自のビジネスキーをURIとして使用している場合は、PATCH操作を使用してカスタムキーを変更することはできません。
 
-トップレベルのプロファイルリ **ソースに対してのみカスタムキーを使用** 。 URLはAPIによって返され、決して独自に作成する必要はありません。
+カスタムキーは、 **最上位プロファイルリソースに対してのみ使用し** ます。 URLはAPIから返されるので、決して自分で作成しないでください。
 
 <br/>
 
