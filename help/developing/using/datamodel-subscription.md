@@ -7,10 +7,11 @@ products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '77'
+ht-degree: 32%
 
 ---
 
@@ -40,14 +41,14 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
     </tr>
     <tr>
         <td>email</td>
-        <td>E メール</td>
+        <td>電子メール</td>
         <td>文字列(128)</td>
         <td> </td>
     </tr>
     <tr>
         <td>emailFormat</td>
         <td>E メールフォーマット</td>
-        <td>列挙（バイト） </td>
+        <td>定義済みリスト（バイト） </td>
         <td>
             <ul>
             <li>テキスト — テキスト — 1</li>
@@ -59,8 +60,8 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
     </tr>
     <tr>
         <td>eventHistoId</td>
-        <td>アーカイブされたイベントID</td>
-        <td>整数 </td>
+        <td>アーカイブ済みイベントID</td>
+        <td>integer </td>
         <td> </td>
     </tr>
     <tr>
@@ -79,7 +80,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
 
 ## フィルター
 
-電子メール（電子メール）
+電子メール別（電子メール別）
 
 <table>
     <tr>
@@ -101,7 +102,7 @@ source-git-commit: c7e83d7d5130ce93b880e4835e634dad03504ebb
         </tr>
         <tr>
         <td>ステータス</td>
-        <td>列挙</td>
+        <td>定義済みリスト</td>
         </tr>
         <tr>
         <td>type</td>
