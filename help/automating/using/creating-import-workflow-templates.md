@@ -9,13 +9,11 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 44d6126023e9411477ccd7ffc07ecde806e7976d
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '1172'
-ht-degree: 37%
+ht-degree: 38%
 
 ---
 
@@ -29,16 +27,17 @@ ht-degree: 37%
 1. Create a new workflow template from **[!UICONTROL Resources > Templates > Workflow templates]**.
 1. 次のアクティビティを追加します。
 
-   * **[!UICONTROL Load file]**: 読み込むデータを含むファイルの構造を定義します。
+   * **[!UICONTROL Load file]**:読み込むデータを含むファイルの構造を定義します。
 
       >[!NOTE]
       >
       >読み込めるのは、1つのファイルからのみです。 ワークフローに複数の **[!UICONTROL Load file]** アクティビティがある場合は、毎回同じファイルが使用されます。
 
-   * **[!UICONTROL Reconciliation]**: インポートしたデータをデータベースデータと調整します。
-   * **[!UICONTROL Segmentation]**: レコードを処理するフィルターは、調整が可能かどうかに応じて異なります。
-   * **[!UICONTROL Deduplication]**: 受信ファイルをデータベースに挿入する前に、受信ファイルのデータを重複除外します。
-   * **[!UICONTROL Update data]**: 読み込んだプロファイルでデータベースを更新します。
+   * **[!UICONTROL Reconciliation]**:インポートしたデータをデータベースデータと調整します。
+   * **[!UICONTROL Segmentation]**:レコードを処理するフィルターは、調整が可能かどうかに応じて異なります。
+   * **[!UICONTROL Deduplication]**:受信ファイルをデータベースに挿入する前に、受信ファイルのデータを重複除外します。
+   * **[!UICONTROL Update data]**:読み込んだプロファイルでデータベースを更新します。
+
    ![](assets/import_template_example0.png)
 
 1. アクティビティの設定 **[!UICONTROL Load file]** :
@@ -62,6 +61,7 @@ ht-degree: 37%
 
    * 「 **[!UICONTROL Relations]** 」タブで、読み込んだデータと受信者ターゲティングディメンション間のリンクを選択して定義します( **[!UICONTROL Create element]** ターゲティングディメンションとリソースを参照 [](../../automating/using/query.md#targeting-dimensions-and-resources))。 この例では、結合条件の作成に **CRM ID** カスタムフィールドが使用されています。一意のレコードを識別できる限り、必要なフィールドまたはフィールドの組み合わせを使用します。
    * タブで、このオ **[!UICONTROL Identification]** プションをオフのままにし **[!UICONTROL Identify the document from the working data]** ます。
+
    ![](assets/import_template_example2.png)
 
 1. Configure the **[!UICONTROL Segmentation]** activity to retrieve reconciled recipients in one transition and recipients that could not be reconciled but who have enough data in a second transition.
@@ -105,6 +105,7 @@ ht-degree: 37%
 
    * この例では、一意のプロファイルを見つけるために、E メールフィールドが使用されています。入力されていることがわかっており、一意の組み合わせを構成する任意のフィールドを使用できます。
    * を選択し **[!UICONTROL Deduplication method]**&#x200B;ます。 この場合、重複の場合にどのレコードを保持するかは、アプリケーションが自動的に決定します。
+
    ![](assets/import_template_example7.png)
 
 1. 前に設定した **[!UICONTROL Update data]****[!UICONTROL Deduplication]** アクティビティの後にあるアクティビティを設定します。
