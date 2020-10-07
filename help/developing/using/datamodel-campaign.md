@@ -7,15 +7,16 @@ products: SG_CAMPAIGN/STANDARD
 audience: developing
 content-type: reference
 discoiquuid: 6e21db35-daf9-4edb-977a-6ef606db0e4d
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 8f47bf0cc1d5f694df1e1829ccd03c72df28d7de
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '216'
+ht-degree: 37%
 
 ---
 
 
-# キャンペーン(nms:campaign)
+# キャンペーン(nms:キャンペーン)
 
 ## オブジェクトの説明
 
@@ -33,7 +34,7 @@ source-git-commit: 8f47bf0cc1d5f694df1e1829ccd03c72df28d7de
                   <td> </td>
                </tr>
                <tr>
-                  <td>活動</td>
+                  <td>アクティビティ</td>
                   <td>アクティビティ</td>
                   <td>コレクション </td>
                   <td> </td>
@@ -46,7 +47,7 @@ source-git-commit: 8f47bf0cc1d5f694df1e1829ccd03c72df28d7de
                </tr>
                <tr>
                   <td>created</td>
-                  <td>作成済み</td>
+                  <td>作成日時</td>
                   <td>日付 </td>
                   <td> </td>
                </tr>
@@ -107,12 +108,12 @@ source-git-commit: 8f47bf0cc1d5f694df1e1829ccd03c72df28d7de
                <tr>
                   <td>logicalStatus</td>
                   <td>実行ステータス</td>
-                  <td>列挙（文字列） (255)</td>
+                  <td>定義済みリスト（文字列） (255)</td>
                   <td>
                      <ul>
                         <li>進行中 — 開始 — 開始</li>
                         <li>編集 — エディション — エディション</li>
-                        <li>完了 — 完了 — 完了</li>
+                        <li>終了 — 終了 — 終了</li>
                         <li>警告 — 警告 — 警告</li>
                         <li>エラー — エラー — エラー</li>
                         <li>無効な値 — __Invalid_value__ - __Invalid_value__</li>
@@ -138,7 +139,7 @@ source-git-commit: 8f47bf0cc1d5f694df1e1829ccd03c72df28d7de
                   <td> </td>
                </tr>
                <tr>
-                  <td>program (programBase)</td>
+                  <td>プログラム(programBase)</td>
                   <td>プログラム</td>
                   <td>link </td>
                   <td> </td>
@@ -158,18 +159,18 @@ source-git-commit: 8f47bf0cc1d5f694df1e1829ccd03c72df28d7de
                <tr>
                   <td>ステータス</td>
                   <td>ステータス</td>
-                  <td>列挙（バイト） </td>
+                  <td>定義済みリスト（バイト） </td>
                   <td>
                      <ul>
-                        <li>開始 — 開始 — 1</li>
+                        <li>開始済み — 開始済み — 1</li>
                         <li>編集中 — エディション — 0</li>
-                        <li>完了 — 完了 — 2</li>
+                        <li>終了 — 終了 — 2</li>
                         <li>無効な値 — __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
                <tr>
-                  <td>template（キャンペーン）</td>
+                  <td>template(キャンペーン)</td>
                   <td>キャンペーンテンプレート</td>
                   <td>link </td>
                   <td> </td>
@@ -190,7 +191,7 @@ source-git-commit: 8f47bf0cc1d5f694df1e1829ccd03c72df28d7de
 
 ## フィルター
 
-論理ステータス別(byLogicalStatus)
+論理ステータス(byLogicalStatus)
 
 <table>
     <tr>
@@ -199,7 +200,7 @@ source-git-commit: 8f47bf0cc1d5f694df1e1829ccd03c72df28d7de
     </tr>
     <tr>
     <td>state</td>
-    <td>列挙</td>
+    <td>定義済みリスト</td>
     </tr>
 </table>
 
@@ -233,7 +234,7 @@ source-git-commit: 8f47bf0cc1d5f694df1e1829ccd03c72df28d7de
     </tr>
 </table>
 
-状態別(byState)
+ステータス別(byState)
 
 <table>
     <tr>
@@ -242,11 +243,11 @@ source-git-commit: 8f47bf0cc1d5f694df1e1829ccd03c72df28d7de
     </tr>
     <tr>
     <td>state</td>
-    <td>列挙</td>
+    <td>定義済みリスト</td>
     </tr>
 </table>
 
-異種リストからの継続的な配信を含める(withContinuous)
+異種リストからの連続配信を含める（連続）
 
 <table>
     <tr>
@@ -259,7 +260,7 @@ source-git-commit: 8f47bf0cc1d5f694df1e1829ccd03c72df28d7de
     </tr>
 </table>
 
-指定期間に対して計画(Planning)
+特定の期間に対して計画済(byPlanning)
 
 <table>
     <tr>
@@ -276,7 +277,7 @@ source-git-commit: 8f47bf0cc1d5f694df1e1829ccd03c72df28d7de
     </tr>
 </table>
 
-指定期間中に存在する（カレンダー別）
+特定の期間(byCalendar)に存在する
 
 <table>
     <tr>
