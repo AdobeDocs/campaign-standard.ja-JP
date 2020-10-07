@@ -9,10 +9,8 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
 discoiquuid: 6c0c3c5b-b596-459e-87dd-a06bb7d633d2
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 2ef169d9bf76856bb687af88358e0452953313a0
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '1448'
 ht-degree: 1%
@@ -71,7 +69,8 @@ Dynamics 365で連絡先が削除された場合に、キャンペーンに対�
 
 Dynamics 365とキャンペーンのオプトアウト属性の違いと、各顧客のビジネス要件の違いにより、オプトアウトマッピングは、顧客が完了するための演習として残されています。  エンドユーザーのオプトアウト設定が維持され、オプトアウトしたチャネルを介した通信を受け取らないように、オプトアウトがシステム間で適切にマッピングされるようにすることが重要です。
 
-オプトアウトマッピングでは、プレフィックスが「連絡を取らない」のキャンペーン属性（電子メールによる連絡を取らないなど）またはCCPAオプトアウトの特定の属性のみが使用できることに注意してください。 詳しくは、[こちら](../../developing/using/datamodel-profile.md)を参照してください。Dynamics 365では、ほとんどのオプトアウトフィールドには「ドノット」プレフィックスが付きます。ただし、データタイプに互換性がある場合は、他の属性をオプトアウト目的に使用することもできます。
+オプトアウトマッピングでは、プレフィックスが「連絡を取らない」のキャンペーン属性（電子メールによる連絡を取らないなど）またはCCPAオプトアウトの特定の属性のみが使用できることに注意してください。 [詳細情報](../../developing/using/datamodel-profile.md).
+Dynamics 365では、ほとんどのオプトアウトフィールドには「ドノット」プレフィックスが付きます。ただし、データタイプに互換性がある場合は、他の属性をオプトアウト目的に使用することもできます。
 
 統合をプロビジョニングする際、ビジネスに必要なオプトアウト設定を指定できます。
 
