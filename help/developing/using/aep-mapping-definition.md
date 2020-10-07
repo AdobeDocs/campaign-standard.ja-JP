@@ -9,10 +9,11 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: c2ed4b3c85ceef3b604a8f68d924c7e5d9fad900
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '499'
+ht-degree: 2%
 
 ---
 
@@ -21,7 +22,7 @@ source-git-commit: c2ed4b3c85ceef3b604a8f68d924c7e5d9fad900
 
 >[!IMPORTANT]
 >
->Adobe Experience Platform Data Connectorは、現在ベータ版です。この機能は、予告なく頻繁にアップデートされる場合があります。 これらの機能にアクセスするには、お客様はAzureでホストされる必要があります（現在、北米向けベータ版のみ）。 アドビカスタマーケアにお問い合わせの際は、アドビカスタマーケアにご連絡ください。
+>Adobe Experience Platformデータコネクタは現在ベータ版で、予告なく頻繁に更新される可能性があります。 これらの機能にアクセスするには、お客様はAzureでホストされる必要があります（現在、北米向けベータ版のみ）。 ご利用になる場合は、Adobeカスタマーケアにお問い合わせください。
 
 この節では、エクスペリエンスデータモデル(XDM)フィールドを使用してCampaign Standardフィールドをマッピングする方法を見つけ出します。
 
@@ -38,14 +39,14 @@ source-git-commit: c2ed4b3c85ceef3b604a8f68d924c7e5d9fad900
 
 1. 必須フィールドに入力し、次を選択します。
 
-   * a **ターゲティングディメンション**: これは、マッピングするCampaign Standardスキーマです
-   * データ **セット**: これは、Adobe Experience PlatformのXDMスキーマに関連付けられたデータパッケージです。
+   * a **ターゲティングディメンション**:これは、マッピングするCampaign Standardスキーマです
+   * データ **セット**:これはAdobe Experience PlatformのXDMスキーマに関連するデータパッケージです。
 
 >[!NOTE]
 >
 >バッチをリアルタイム顧客プロファイルまたはIDサービスに取り込むには、データセットをリアルタイム顧客プロファイル用に [有効にする必要があります](https://docs.adobe.com/content/help/en/experience-platform/rtcdp/intro/get-started.html)。
 >
->選択したデータセットが既存のデータマッピングで既に使用されている場合は、Adobe Experience Platformでデータが上書きされる可能性があることを示す警告が表示されます。 これは、同じデータセットを使用するデータマッピングに一般的な受信者がある場合に発生する可能性があります。
+>選択したデータセットが既に既存のデータマッピングで使用されている場合は、Adobe Experience Platformでデータが上書きされる可能性があることを知らせる警告が表示されます。 これは、同じデータセットを使用するデータマッピングに一般的な受信者がある場合に発生する可能性があります。
 
 次の画面に、Campaign Standardスキーマの各フィールドに対して新しいマッピングを作成できる **[!UICONTROL Field mappings]** 節を示します。
 
@@ -63,7 +64,7 @@ Campaign Standardで定義された拡張リソースは、すべてのネイテ
 
 APIを使用してXDM拡張機能をカスタマイズし、独自の拡張機能を定義すると、マッピングをより詳細に制御できます。
 
-XDM APIについて詳しくは、 [スキーマレジストリAPIチュートリアル](https://docs.adobe.com/content/help/en/experience-platform/xdm/api/getting-started.html) （英語）を参照してください。
+XDM APIについて詳しくは、 [スキーマレジストリAPIチュートリアル](https://docs.adobe.com/content/help/ja-JP/experience-platform/xdm/api/getting-started.html) （英語）を参照してください。
 
 定義済みリストフィールドをマッピングするには、式エディタを使用して、XDM値に対応する各定義済みリスト値を定義する必要があります。 例えば、postalAdressfieldを次のように定義する必要があります。
 
