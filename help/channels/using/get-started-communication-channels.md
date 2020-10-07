@@ -9,13 +9,11 @@ audience: channels
 content-type: reference
 topic-tags: about-communication-channels
 discoiquuid: 5214becf-005b-42ac-97d2-2bce5ba2ecb5
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 5636b2ab5a673b0a52158b1a5411e090e4b45ca7
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '517'
-ht-degree: 17%
+ht-degree: 19%
 
 ---
 
@@ -106,5 +104,5 @@ Adobe Campaignを使用すると、あらゆるチャネルでキャンペーン
 * [電子メールコンテンツのデザイン](../../designing/using/designing-content-in-adobe-campaign.md)
 * [AEMコンテンツの読み込み](../../integrating/using/creating-email-experience-manager.md)
 * [ワークフローを含むメッセージの送信](../../automating/using/about-channel-activities.md)
-* [コミュニケーションチャネルのチュートリアルビデオ](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/communication-channels/email/create-email-from-homepage.html)
+* [コミュニケーションチャネルのチュートリアルビデオ](https://docs.adobe.com/content/help/ja-JP/campaign-standard-learn/tutorials/communication-channels/email/create-email-from-homepage.translate.html)
 * [使用例：チャネル間の配信の作成](../../automating/using/workflow-cross-channel-delivery.md)
