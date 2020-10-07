@@ -9,10 +9,8 @@ audience: reporting
 content-type: reference
 topic-tags: troubleshooting
 discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: a894e72bb02fbecb86d43c6d2a13adf7ab10f73e
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 5%
@@ -31,7 +29,7 @@ ht-degree: 5%
 
 プロファイルP1,P2に電子メールを送る。
 
-P1では、最初の日に2回電子メールを開き、2日目には2回目の電子メールを開きます。
+P1では、最初の日に2回電子メールを開き、2日目には2回目にツリー回を開きます。
 
 一方、P2は最初の日に1回電子メールを開き、次の日に再度開くことはありません。
 以下に、送信された電子メールとプロファイルのインタラクションを視覚的に示します。
