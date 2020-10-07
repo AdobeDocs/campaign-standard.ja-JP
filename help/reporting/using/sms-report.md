@@ -1,31 +1,32 @@
 ---
 title: SMS レポート
-description: 'SMSの標準レポートを使用して、SMS配信の成功を確認します。 '
-page-status-flag: 非活性化の
+description: '標準搭載のSMSレポートを使用して、SMS配信の成功を確認します。 '
+page-status-flag: never-activated
 uuid: af672a56-f304-4ea9-99b1-e9886a6e1823
-contentOwner: ソビア
+contentOwner: sauviat
 products: SG_CAMPAIGN/STANDARD
-audience: レポート
-content-type: 参照
-topic-tags: レポートのリスト
+audience: reporting
+content-type: reference
+topic-tags: list-of-reports
 discoiquuid: a9afbb76-d2b3-44c7-b97a-1694501aa913
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 00fc2e12669a00c788355ef4e492375957cdad2e
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+workflow-type: tm+mt
+source-wordcount: '73'
+ht-degree: 5%
 
 ---
 
 
 # SMS レポート{#sms-report}
 
-SMSレポ **ートは** 、配信済みや直帰率など、SMS配信に関する詳細を提供します。
+SMS **** レポートは、配信済みや直帰率など、SMS配信に関する詳細を提供します。
 
 ![](assets/dynamic_report_sms.png)
 
-SMSサマ **リ表** 、グラフ、およびサマリ番号には、送信されたSMS配信に使用できるデータが含まれます。
+SMSサマリ **表** 、グラフ、およびサマリ番号には、送信されたSMS配信で使用できるデータが含まれます。
 
-* **処理済み**:送信されたSMSの数。
-* **配信**:配信されたSMSの数。
+* **処理済み/送信済み**:送信されたSMSの数。
+* **配信済み**:配信されたSMSの数。
 * **バウンス+エラー**:配信できなかったメッセージの数です。
 
