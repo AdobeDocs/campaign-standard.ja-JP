@@ -10,18 +10,16 @@ content-type: reference
 topic-tags: execution-activities
 discoiquuid: 377821e6-69f8-41cc-a1ad-8a2f5ed4d409
 context-tags: workflow,use-case,query,wait,delivery
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 73a91344ada17d6eb0da0335e08ea27a1019b4fb
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '856'
-ht-degree: 85%
+ht-degree: 86%
 
 ---
 
 
-# チャネル間配信の作成{#cross-channel-delivery}
+# クロスチャネル配信の作成{#cross-channel-delivery}
 
 このドキュメントでは、標準的な使用例を基に Adobe Campaign のクロスチャネル配信ワークフロー作成機能を紹介します。
 
@@ -54,7 +52,7 @@ Adobe Campaign で使用できるワークフローと様々なチャネルの�
 
 クエリアクティビティをワークフローに挿入し、配信を受信するプロファイルをターゲティングします。
 
-1. /で、 **[!UICONTROL Activities]** クエリ **[!UICONTROL Targeting]**[](../../automating/using/query.md) アクティビティをドラッグ&amp;ドロップします。
+1. **[!UICONTROL Activities]**／**[!UICONTROL Targeting]** で、「[クエリ](../../automating/using/query.md)」アクティビティをドラッグ＆ドロップします。
 1. アクティビティをダブルクリックします。
 1. 「**[!UICONTROL Target]**」タブでショートカットを参照し、[オーディエンス](../../audiences/using/about-audiences.md)の 1 つを選択します。
 1. ショートカットを編集領域にドラッグ＆ドロップします。選択したショートカットの種類に応じて、ウィンドウが表示されます。
