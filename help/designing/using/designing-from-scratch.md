@@ -9,13 +9,11 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 discoiquuid: 39b86fda-7766-4e5f-ab48-bcc536ab66b3
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 40199be7858dba4660a941fc6b960f20fac9f9e5
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '1241'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
@@ -32,7 +30,7 @@ ht-degree: 6%
 1. 画像追加を作成し、電子メールのテキストを編集します。 [画像の挿入](../../designing/using/images.md#inserting-images)を参照してください。
 1. パーソナライゼーションフィールドやリンクなどを追加して、電子メールをパーソナライズします。 詳しくは、パーソナライゼーションフィールドの [挿入](../../designing/using/personalization.md#inserting-a-personalization-field)、リンクの [挿入](../../designing/using/links.md#inserting-a-link) 、電子メールでの動的コンテンツの [定義を参照してください](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)。
 1. 電子メールの件名行を定義します。 See [Personalizing the subject line of an email](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
-1. 電子メールのプレビュー。
+1. E メールのプレビュー.
 1. コンテンツを保存し、オーディエンスを定義し、送信を正しくスケジュールした後、メッセージを続行します。
 
 この紹介ビデオを見ることもでき [ます](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true&captions=jpn)。
