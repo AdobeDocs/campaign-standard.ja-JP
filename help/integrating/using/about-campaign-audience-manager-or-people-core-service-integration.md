@@ -9,13 +9,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 discoiquuid: bf718329-f181-46f7-80a2-b525a8dee46d
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 1e790f550f6eb84954f199caeda88a8fd90dfd85
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '468'
-ht-degree: 26%
+ht-degree: 27%
 
 ---
 
@@ -29,18 +27,18 @@ ht-degree: 26%
 Adobe Campaignを使用すると、オーディエンス/セグメントを別のAdobe Experience Cloudアプリケーションと交換および共有できます。 **Adobe Campaign** を **People コアサービス**（**Profiles &amp; Audiences コアサービス**&#x200B;とも呼ばれます）または Adobe Audience Manager と統合すると、次のことが可能になります。
 
 * 様々なAdobe Experience CloudソリューションからAdobe Campaignにオーディエンス/セグメントをインポートする。 オーディエンスは、Adobe Campaignの **[!UICONTROL Audiences]** メニューから読み込むことができます。
-* オーディエンスを共有オーディエンス/セグメントとして書き出す。 これらのオーディエンスは、お使いの他の Adobe Experience Cloud ソリューションで使用できます。オーディエンスは、ワークフローでアクティビティをターゲット設定した後、 **[!UICONTROL Save audience]** アクティビティを使用して書き出すことができます。
+* オーディエンスを共有オーディエンス/セグメントとして書き出す。 これらのオーディエンスは、お使いの他の Adobe Experience Cloud ソリューションで使用できます。オーディエンスは、ワークフローでアクティビティをターゲット設定した後に、 **[!UICONTROL Save audience]** アクティビティを使用して書き出すことができます。
 
 統合では、2種類のAdobe Experience CloudIDがサポートされます。
 
-* **訪問者ID**: このタイプのIDを使用すると、Adobe Experience Cloud訪問者をAdobe Campaignプロファイルと調整できます。 AdobeIMSを介した接続が有効になるとすぐに、Marketing Cloud訪問者IDサービスがアクティブ化され、Adobe Campaignで使用される永続的なcookieが置き換えられます。 これにより、訪問者を識別してプロファイルにリンクできます。
+* **訪問者ID**:このタイプのIDを使用すると、Adobe Experience Cloud訪問者をAdobe Campaignプロファイルと調整できます。 AdobeIMSを介した接続が有効になるとすぐに、Marketing Cloud訪問者IDサービスがアクティブ化され、Adobe Campaignで使用される永続的なcookieが置き換えられます。 これにより、訪問者を識別してプロファイルにリンクできます。
    <br>訪問者IDは、プロファイルがAdobe Campaign経由で送信された電子メール内でクリックするとすぐにプロファイルにリンクされます。
    * プロファイルに既に訪問者IDが割り当てられている場合、プロファイルのブラウザデータを使用して、Adobe Campaignがプロファイルを回復し、自動的に訪問者IDにリンクすることができます。
    * 訪問者 ID がない場合、新しい ID が作成されます。この訪問者IDは、プロファイルトラッキングログに格納されます。
 
    この ID は、他の Adobe Marketing Cloud アプリケーションに同じ CNAME で認識されます。
 
-* **宣言済みID**: この種のIDを使用すると、任意の種類のデータをAdobe Campaignデータベースの要素と紐付けできます。 Adobe Campaign では、事前定義された紐付けキーとして示されます。データを交換する場合、Adobe Campaign データベースの識別子はハッシュ化されます。これらのハッシュ化された ID は、インポートまたはエクスポートに含まれる Adobe Marketing Cloud オーディエンスのハッシュ化された ID と比較されます。
+* **宣言済みID**:この種のIDを使用すると、任意の種類のデータをAdobe Campaignデータベースの要素と紐付けできます。 Adobe Campaign では、事前定義された紐付けキーとして示されます。データを交換する場合、Adobe Campaign データベースの識別子はハッシュ化されます。これらのハッシュ化された ID は、インポートまたはエクスポートに含まれる Adobe Marketing Cloud オーディエンスのハッシュ化された ID と比較されます。
    <br>この統合では、正規の宣言ID、ハッシュ化された宣言ID、暗号化された宣言IDをサポートします。
 
    >[!CAUTION]
@@ -51,6 +49,6 @@ Adobe Campaignを使用すると、オーディエンス/セグメントを別�
 
    例えば、暗号化された電子メールアドレスやSMS番号を復号化できる機能を備えたユーザーは、プロファイルがAdobe Campaignデータベースに存在しない場合でも、トリガーされたメッセージをユーザーに送信できます。
 
-次の図は、この統合の動作の詳細を示しています。 ここで、AAMはAdobe Audience Manageret ACSはAdobe Campaign Standardを表します。
+次の図は、この統合の仕組みについて詳しく説明しています。ここで、AAMはAdobe Audience Manageret ACSはAdobe Campaign Standardを表します。
 
 ![](assets/aam_diagram.png)
