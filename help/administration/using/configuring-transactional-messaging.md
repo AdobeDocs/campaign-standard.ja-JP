@@ -9,10 +9,8 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 8d55a92deeccabcb6970de6cce4b5e297bc431d8
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '3169'
 ht-degree: 7%
@@ -34,7 +32,7 @@ ht-degree: 7%
 
 * Webサイト開発者が使用するAPIがデプロイされ、トランザクションイベントを送信できるようになりました。 詳しくは、Webサイトでのイベントのトリガーの [統合を参照してください](#integrating-the-triggering-of-the-event-in-a-website)。
 
-* 対応するトランザクションメッセージが自動的に作成されます。 トランザクションメッセージ [の概要を参照してください](../../channels/using/getting-started-with-transactional-msg.md)。
+* 対応するトランザクションメッセージが自動的に作成されます。 See [Getting started with transactional messaging](../../channels/using/getting-started-with-transactional-msg.md).
 
 ## イベントの作成 {#creating-an-event}
 
