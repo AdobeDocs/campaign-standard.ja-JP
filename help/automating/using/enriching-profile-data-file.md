@@ -1,6 +1,6 @@
 ---
-title: ファイルに含まれるデータをプロファイルデータに含める
-description: この例では、プロファイルデータをファイルに含まれる購入データに拡張する方法を示します。
+title: ファイルに含まれるデータによるプロファイルデータのエンリッチメント
+description: この例では、ファイルに含まれている購入データを使用してプロファイルデータのエンリッチメントをおこなう方法を示します。
 page-status-flag: never-activated
 uuid: 8c1693ef-1312-422c-b05d-263553113f8f
 contentOwner: sauviat
@@ -10,27 +10,25 @@ content-type: reference
 topic-tags: targeting-activities
 discoiquuid: f67c1caf-3284-4c34-a5b0-8654a95640ae
 context-tags: enrichment,main
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 7ffa48365875883a98904d6b344ac005afe26e18
+source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '528'
-ht-degree: 0%
+ht-degree: 78%
 
 ---
 
 
-# ファイルに含まれるデータをプロファイルデータに含める {#enriching-profile-data-with-data-contained-in-a-file}
+# ファイルに含まれるデータによるプロファイルデータのエンリッチメント {#enriching-profile-data-with-data-contained-in-a-file}
 
-この例では、プロファイルデータをファイルに含まれる購入データと共に拡張する方法を示します。ここでは、購入データがサードパーティのシステムに保存されることを考慮します。 各プロファイルは、ファイルに複数の購入を保存できます。 ワークフローの最後の目的は、少なくとも2つの商品を購入したターゲットプロファイルに電子メールを送信し、ユーザーの忠誠度に感謝することです。
+この例では、プロファイルデータをファイルに含まれる購入データと共に拡張する方法を示します。ここでは、購入データがサードパーティのシステムに保存されることを考慮します。 各プロファイルでは、複数の購入をファイルに保存できます。ワークフローの最終目標は、少なくとも 2 つの商品を購入したターゲットプロファイルに E メールを送信して愛顧に感謝することです。
 
 ワークフローは次のように設定します。
 
 ![](assets/enrichment_example_workflow.png)
 
-* メッセージを受信するプロファイルをターゲットする [クエリ](../../automating/using/query.md) アクティビティ。
-* 購入データを読み込む [Load file](../../automating/using/load-file.md) アクティビティ。 次に例を示します。
+* A [Query](../../automating/using/query.md) activity that targets the profiles who will receive the message.
+* A [Load file](../../automating/using/load-file.md) activity that loads the purchase data. 次に例を示します。
 
    ```
    tcode;tdate;customer;product;tamount
@@ -42,54 +40,54 @@ ht-degree: 0%
    aze128;04/03/2017;clara.smith@example.com;Phone;149
    ```
 
-   この例のファイルでは、電子メールアドレスを使用して、データとデータベースプロファイルを調整します。 また、 [このドキュメントで説明するように、一意のIDを有効にすることもで](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)きます。
+   このサンプルファイルでは、E メールアドレスを使用して、データとデータベースプロファイルを紐付けます。また、[こちらのドキュメント](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)で説明するように、一意の ID を有効にすることもできます。
 
-* ファイルから読み込まれたトランザクションデータと、で選択されたエンリッチメントとの間にリンクを作成する [プロファイル](../../automating/using/enrichment.md) アクティビティ **[!UICONTROL Query]**。 リンクはアクティビティの **[!UICONTROL Advanced relations]** タブで定義します。 リンクは、 **[!UICONTROL Load file]** アクティビティからのトランジションに基づいています。 調整条件として、プロファイルリソースの「電子メール」フィールドと、インポートしたファイルの「顧客」列を使用します。
+* An [Enrichment](../../automating/using/enrichment.md) activity that creates a link between the transaction data loaded from the file and the profiles selected in the **[!UICONTROL Query]**. リンクは、アクティビティの「**[!UICONTROL Advanced relations]**」タブで定義します。リンクは、「**[!UICONTROL Load file]**」アクティビティからのトランジションに基づいています。プロファイルリソースの「email」フィールドとインポートされたファイルの「customer」列を紐付け条件として使用します。
 
    ![](assets/enrichment_example_workflow2.png)
 
-   リンクが作成されると、2セットのリンク **[!UICONTROL Additional data]** が追加されます。
+   リンクが作成されると、次の 2 つの&#x200B;**[!UICONTROL Additional data]**&#x200B;セットが追加されます。
 
-   * 各プロファイルの最後の2つのトランザクションに対応する2行の集まり。 このコレクションの場合、製品名、取引日、および製品の価格が追加データとして追加されます。 データに降順の並べ替えが適用されます。 コレクションを作成するには、 **[!UICONTROL Additional data]** タブで次の操作を行います。
+   * 各プロファイルの 2 つの最終トランザクションに対応する 2 行のコレクション。このコレクションの場合は、製品名、トランザクション日、製品の価格が追加データとして追加されます。データに降順ソートが適用されます。コレクションを作成するには、「**[!UICONTROL Additional data]**」タブで次の操作を実行します。
 
-      アクティビティの **[!UICONTROL Advanced relations]** タブで既に定義されているリンクを選択します。
+      アクティビティの「**[!UICONTROL Advanced relations]**」タブで既に定義されているリンクを選択します。
 
       ![](assets/enrichment_example_workflow3.png)
 
-      取得 **[!UICONTROL Collection]** する行数をチェックして指定します（この例では2）。 この画面で、コレクションのおよ **[!UICONTROL Alias]** びをカスタマイズでき **[!UICONTROL Label]** ます。 これらの値は、このコレクションを参照する際に、ワークフローの次のアクティビティに表示されます。
+      「**[!UICONTROL Collection]**」を選択して、取得する行数を指定します（この例では 2）。この画面で、コレクションの「**[!UICONTROL Alias]**」と「**[!UICONTROL Label]**」をカスタマイズできます。ワークフローの後続のアクティビティでこのコレクションを参照する際に、これらの値が表示されます。
 
       ![](assets/enrichment_example_workflow4.png)
 
-      コレクション **[!UICONTROL Data]** を保持するには、最終配信で使用する列を選択します。
+      コレクション用に保持する「**[!UICONTROL Data]**」として、最終配信で使用する列を選択します。
 
       ![](assets/enrichment_example_workflow6.png)
 
-      取引日に降順の並べ替えを適用して、最新の取引を確実に取得します。
+      トランザクション日に降順ソートを適用して、最新のトランザクションを確実に取得します。
 
       ![](assets/enrichment_example_workflow7.png)
 
-   * 各プロファイルのトランザクションの合計数をカウントする集計。 この集計は、後で、少なくとも2つのトランザクションが記録されたプロファイルをフィルターするために使用されます。 集計を作成するには、 **[!UICONTROL Additional data]** タブで次の操作を行います。
+   * 各プロファイルのトランザクションの合計数をカウントする集計。この集計は、後で、少なくとも 2 つのトランザクションが記録されたプロファイルをフィルターするために使用されます。集計を作成するには、「**[!UICONTROL Additional data]**」タブで次の操作を実行します。
 
-      アクティビティの **[!UICONTROL Advanced relations]** タブで既に定義されているリンクを選択します。
+      アクティビティの「**[!UICONTROL Advanced relations]**」タブで既に定義されているリンクを選択します。
 
       ![](assets/enrichment_example_workflow3.png)
 
-      選択 **[!UICONTROL Aggregate]**.
+      「**[!UICONTROL Aggregate]**」を選択します。
 
       ![](assets/enrichment_example_workflow8.png)
 
-      保持 **[!UICONTROL Data]** するには、「すべてを **カウント** 」集計を定義します。 必要に応じて、次のアクティビティですばやく見つけられるように、カスタムエイリアスを指定します。
+      保持する「**[!UICONTROL Data]**」として、「**Count All**」集計を定義します。必要に応じて、後続のアクティビティですばやく見つけられるように、カスタムエイリアスを指定します。
 
       ![](assets/enrichment_example_workflow9.png)
 
-* 1つのセグメントのみを含む [セグメント化](../../automating/using/segmentation.md) アクティビティ。最低2つのトランザクションが記録されている最初のターゲットのプロファイルを取得します。 1つのトランザクションのみのプロファイルは除外されます。 そのために、セグメントのクエリは、前に定義した集計に対して行われます。
+* A [Segmentation](../../automating/using/segmentation.md) activity with only one segment, that retrieves profiles of the initial target that have at least two transactions recorded. 1 つのトランザクションのみのプロファイルは除外されます。そのために、セグメント化のクエリは、既に定義されている集計に対して実行されます。
 
    ![](assets/enrichment_example_workflow5.png)
 
-* プロファイルが最後に行った2回の購入を動的に取得するために、で定義された追加データ [を使用する電子メール配信](../../automating/using/email-delivery.md)**[!UICONTROL Enrichment]** アクティビティ。 追加のデータは、パーソナライゼーションフィールドを追加する際に **Additional data (TargetData)** ノードで確認できます。
+* An [Email delivery](../../automating/using/email-delivery.md) activity that uses the additional data defined in the **[!UICONTROL Enrichment]** to dynamically retrieve the two last purchases made by the profile. 追加データは、パーソナライゼーションフィールドを追加する際に「**Additional data (TargetData)**」ノードに表示されます。
 
    ![](assets/enrichment_example_workflow10.png)
 
-**関連トピック:**
+**関連トピック：**
 
-* [外部データによる顧客プロファイルの強化](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Managedatatofuelengagingexperiences)
+* [外部データを使用した顧客プロファイルのエンリッチメント](https://helpx.adobe.com/jp/campaign/kb/simplify-campaign-management.html#Managedatatofuelengagingexperiences)
