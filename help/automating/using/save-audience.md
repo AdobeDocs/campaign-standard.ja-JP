@@ -67,6 +67,7 @@ ht-degree: 100%
       >[!NOTE]
       >
       >このオプションは、Adobe Experience Cloud の共有オーディエンス機能が管理者によって設定されている場合にのみ使用できます。詳しくは、[Campaign と People コアサービスの使用](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)を参照してください。
+
    更新時に保存または使用できるオーディエンスのタイプは、ワークフローの上流に配置されているアクティビティによって異なります。
 
    オーディエンスのターゲティングディメンションが、保存時に不明な場合（インポートしたファイルからの場合など）は、オーディエンスはタイプが **[!UICONTROL File]** のオーディエンスとして作成または更新されます。
