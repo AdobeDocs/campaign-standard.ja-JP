@@ -1,6 +1,6 @@
 ---
 title: Campaign Standard の管理の概要
-description: Discoverのユーザーと権限の管理、監視のガイドライン、チャネル固有の設定およびアプリケーション設定のガイドライン。
+description: ユーザーと権限の管理、監視のガイドライン、チャネル固有の設定およびアプリケーション設定のガイドラインを確認します。
 page-status-flag: never-activated
 uuid: 64c34729-5c98-4db0-9131-af6dd0e78fb4
 contentOwner: sauviat
@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '650'
-ht-degree: 14%
+ht-degree: 16%
 
 ---
 
