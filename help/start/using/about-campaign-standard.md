@@ -1,6 +1,6 @@
 ---
 title: Campaign Standard の概要
-description: Discoverの主な機能、ユーザーインターフェイス、およびグローバルガイドラインを確認します。
+description: 主な機能、ユーザーインターフェイス、グローバルガイドラインについて説明します。
 page-status-flag: never-activated
 uuid: 027f6787-d2ef-44ae-a40a-8facdfe2ae77
 contentOwner: sauviat
@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '777'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
