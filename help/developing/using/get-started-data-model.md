@@ -1,6 +1,6 @@
 ---
 title: Campaign Standard データモデルの概要
-description: Campaign Standardデータモデルをカスタムフィールドとリソースと共に拡張し、REST APIを拡張して拡張フィールドを公開します。
+description: カスタムフィールドとリソースを用いて Campaign Standard データモデルを強化し、REST API を拡大して拡張フィールドを公開します。
 page-status-flag: never-activated
 uuid: 7c1e8cea-90d0-491f-ab8f-6cd69f8a6c3b
 contentOwner: sauviat
@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '350'
-ht-degree: 24%
+ht-degree: 29%
 
 ---
 
