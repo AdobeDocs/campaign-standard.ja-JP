@@ -1,6 +1,6 @@
 ---
 title: Campaign 統合の概要
-description: 他のAdobeソリューションを使用して、キャンペーンとさまざまな機能を組み合わせます。
+description: アドビの各ソリューションが提供する様々な機能を Campaign と組み合わせることができます。
 page-status-flag: never-activated
 uuid: 59d7cd99-a6f7-47f1-9b5c-c50e27a2bef8
 contentOwner: sauviat
@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '632'
-ht-degree: 90%
+ht-degree: 92%
 
 ---
 
