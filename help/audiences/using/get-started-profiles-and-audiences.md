@@ -1,6 +1,6 @@
 ---
 title: プロファイルとオーディエンスの概要
-description: ターゲット母集団の定義、オーディエンスの選択、受信者のフィルター、データの収集、プロファイルの更新を行います。
+description: ターゲット母集団の定義、オーディエンスの選択、受信者のフィルタリング、データの収集、プロファイルの更新をおこないます。
 page-status-flag: never-activated
 uuid: f4cb6c38-c8d1-44ec-93f0-d0f5f30a3d9a
 contentOwner: sauviat
@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '604'
-ht-degree: 21%
+ht-degree: 23%
 
 ---
 
