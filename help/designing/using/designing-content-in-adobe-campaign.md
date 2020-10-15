@@ -1,6 +1,6 @@
 ---
 title: Adobe Campaign でのコンテンツのデザイン
-description: 最初からHTMLの読み込みや既存のテンプレートの活用を行って、電子メールコンテンツを作成します。
+description: 電子メールコンテンツをゼロから作成し、HTML を読み込みまたは既存のテンプレートを活用します。
 page-status-flag: never-activated
 uuid: 8f73407f-ab90-46bc-aeb6-bd87fcb0404c
 contentOwner: sauviat
@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
 workflow-type: tm+mt
 source-wordcount: '1208'
-ht-degree: 90%
+ht-degree: 91%
 
 ---
 
