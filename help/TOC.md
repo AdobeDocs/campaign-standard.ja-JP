@@ -2,13 +2,13 @@
 product: adobe campaign
 sub-product: Adobe Campaign Standard
 audience: end-user
-user-guide-title: Adobe Campaign Standardヘルプセンター
-breadcrumb-title: Campaign Standard Guide
+user-guide-title: Adobe Campaign Standard ヘルプセンター
+breadcrumb-title: Campaign Standard ガイド
 translation-type: tm+mt
 source-git-commit: b6d6d0449638ff7c0513180079ccc56b9676f637
 workflow-type: tm+mt
-source-wordcount: '1652'
-ht-degree: 99%
+source-wordcount: '1655'
+ht-degree: 100%
 
 ---
 
