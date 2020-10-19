@@ -11,10 +11,10 @@ topic-tags: deliveries-best-practices
 discoiquuid: 0cbc4e92-482f-4dac-a1fb-b738e7127938
 index: y
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 100f7eef03d10a66832920708ad415f8f0d3883c
 workflow-type: tm+mt
-source-wordcount: '804'
-ht-degree: 63%
+source-wordcount: '802'
+ht-degree: 61%
 
 ---
 
@@ -49,7 +49,7 @@ Adobe Campaign で複数のブランドを管理する場合は、ブランド�
 
 ![](assets/template-parameters.png)
 
-アドレスのドメインは、アドビにデリゲートしたサブドメインと同じである必要があります。
+アドレスドメインは、設定したサブドメインと同じである必要があります。
 
 この **[!UICONTROL Reply to]** フィールドは、返信に使用される電子メールアドレスと名前に対応します。
 
