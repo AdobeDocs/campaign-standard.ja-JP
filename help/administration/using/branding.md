@@ -11,9 +11,9 @@ topic-tags: application-settings
 discoiquuid: cbb1dcec-3bc6-4013-87fa-27d0e5d32bf8
 context-tags: branding,overview;branding,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 100f7eef03d10a66832920708ad415f8f0d3883c
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1250'
 ht-degree: 80%
 
 ---
@@ -92,13 +92,13 @@ ht-degree: 80%
 
 組織の新しいエンティティをキャンペーンに追加したり、別のサブドメインの下に送信する必要がある新しいタイプの電子メールを作成したりできます。 これを実行するには、次の手順に従います。
 
-1. **新しいサブドメインの委任** -Adobeが新しいサブドメインを使用する場合は、最初の手順でそのサブドメインを委任します。 この作業は、 [キャンペーンCampaign コントロールパネルを通じて行うことも](https://docs.adobe.com/content/help/ja-JP/control-panel/using/subdomains-and-certificates/subdomains-branding.html) 、Adobeのテクニカルコンタクトに連絡することもできます。 Learn more about subdomain delegation [in this article](https://helpx.adobe.com/jp/campaign/kb/domain-name-delegation.html).
+1. **新しいサブドメインの設定** -Adobeが新しいサブドメインを使用する場合は、最初の手順でサブドメインを設定します。 この作業は、 [キャンペーンCampaign コントロールパネルを通じて行うことも](https://docs.adobe.com/content/help/ja-JP/control-panel/using/subdomains-and-certificates/subdomains-branding.html) 、Adobeのテクニカルコンタクトに連絡することもできます。 Learn more about subdomain configuration [in this article](https://helpx.adobe.com/jp/campaign/kb/domain-name-delegation.html).
 
-1. **チケットの作成** — サブドメインが委任されたら、Adobeは実稼働環境でチケットを設定する必要があります。 このリクエストを行うには、次の情報を含むClientCare [(Client Care)へのチケットを](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html) 作成します。
+1. **チケットの作成** — サブドメインが設定されたら、Adobeは実稼働環境でチケットを設定する必要があります。 このリクエストを行うには、次の情報を含むClientCare [(Client Care)へのチケットを](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html) 作成します。
 
    * 件名：ACS新しいブランドがセットアップされました
 
-   * コンテンツ：新しいドメインがAdobeに委任されました。キャンペーンプラットフォームでドメインを設定します
+   * コンテンツ：新しいドメインが設定されました。キャンペーンプラットフォームで設定します
 
    * ドメイン：XXX
 
