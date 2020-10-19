@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 discoiquuid: eb24f4ea-325f-433a-91a0-c45906320bcb
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 100f7eef03d10a66832920708ad415f8f0d3883c
 workflow-type: tm+mt
 source-wordcount: '726'
-ht-degree: 40%
+ht-degree: 38%
 
 ---
 
@@ -127,7 +127,7 @@ To configure the **[!UICONTROL Recipient - Visitor ID (Defaultdatasources)]** da
 
 People コアサービスまたは Audience Manager との統合を設定する場合は、Campaign トラッキングサーバーも設定する必要があります。
 
-ここでは、キャンペーントラッキングサーバーがドメイン(CNAME)に登録されていることを確認する必要があります。 ドメイン名のデリゲーションについて詳しくは、[この記事](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/Technotes/AdobeCampaign_Deliverability_Sub_Domain_Delegation.pdf)を参照してください。
+ここでは、キャンペーントラッキングサーバーがドメイン(CNAME)に登録されていることを確認する必要があります。 You can find more information about domain name configuration in [this article](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/Technotes/AdobeCampaign_Deliverability_Sub_Domain_Delegation.pdf).
 
 ### 手順 4：訪問者 ID サービスの設定 {#step-4--configure-the-visitor-id-service}
 
