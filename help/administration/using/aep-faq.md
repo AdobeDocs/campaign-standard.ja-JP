@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: configuring-channels
 discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 8eaece864ca0f3795cd36ea0cc7a01737822d9e8
 workflow-type: tm+mt
-source-wordcount: '798'
-ht-degree: 4%
+source-wordcount: '914'
+ht-degree: 3%
 
 ---
 
@@ -105,3 +105,11 @@ CollectPII呼び出しの頻度と設計は、ビジネスニーズに応じて�
 * 起動とExperience PlatformSDKに関する [ドキュメントの概要](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property)
 * Experience PlatformSDK [ドキュメントへのアップグレード](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep)
 * GithubExperience PlatformSDK [ドキュメント](https://github.com/Adobe-Marketing-Cloud/acp-sdks/)
+
+## プッシュ通知配信の作成中に、「配信への書き込みアクセス権がありません」というエラーが表示されます。 {#write-access-error}
+
+次の項目を確認する必要があります。
+
+* プッシュ配信を作成して送信する必要があるユーザーの組織単位にモバイルアプリをマッピングする必要があります。 子の組織単位のユーザーは、親の組織単位にマッピングされたアプリを使用してプッシュ配信を作成できません。
+
+* プッシュ配信が作成されるキャンペーンまたはプログラムは、プッシュ配信を作成して送信する必要があるユーザーの組織単位にマップする必要があります。 子組織単位のユーザーは、親組織単位にマップされたキャンペーンまたはプログラムにプッシュ配信を作成できません。
