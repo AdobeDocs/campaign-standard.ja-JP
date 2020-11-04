@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: campaign-standard-release-planning
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: e57fb3ad898be580828fbe031faf0bc3664246eb
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 100%
+source-wordcount: '457'
+ht-degree: 98%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 **新規：**[Campaign Standard のリリース通知](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU)をご購読いただくと、今後のリリースの詳細が E メールで通知されます。
 
-## リリース 20.4 - 10 月のリリース {#release-20-4-oct-release}
+## リリース21.1 - 1月リリース {#release-21-1-release}
 
 環境のアップデートは、以下に示す期間に順次おこなわれます。このリリースについて詳しくは、[リリースノート](../../rn/using/release-notes.md)を参照してください。その他のご質問については、[アドビクライアントケア](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)にお問い合わせください。
 
@@ -44,16 +44,14 @@ ht-degree: 100%
  <tbody>
   <tr>
    <td>ステージング<br /> </td>
-   <td>2020 年 9 月 21 日～ 23 日<br /> </td>
+   <td>2021年1月11日～12日<br /> </td>
   </tr>
   <tr>
    <td> 本番<br /> </td>
-   <td>2020 年 9 月 28 日～ 10 月 5 日<br /> </td>
+   <td>2021年1月18日～25日<br /> </td>
   </tr>
  </tbody>
 </table>
-
-
 
 ## 質問と回答 {#questions-and-answers}
 
