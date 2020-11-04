@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 75b83165-dcbd-4bb7-b703-ed769f489b16
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 4e338fb9399f85127e1d8e5f7f178a8d3d0a47cc
 workflow-type: tm+mt
 source-wordcount: '938'
 ht-degree: 44%
@@ -61,8 +61,6 @@ GPG キーを使用してデータを復号化する方法を示すチュート�
 
 1. 外部システムでは、Campaign コントロールパネルからダウンロードした公開鍵を使用して、Campaign Standardにインポートするデータを暗号化します。
 
-   ![](assets/do-not-localize/gpg_external.png)
-
 1. Campaign Standardで、暗号化されたデータを読み込むワークフローを構築し、Campaign コントロールパネル経由でインストールされた秘密鍵を使用して復号化します。 これをおこなうには、次のようにワークフローを作成します。
 
    ![](assets/gpg_workflow.png)
@@ -102,7 +100,7 @@ GPG キーを使用してデータを暗号化する方法を示すチュート�
 
    ![](assets/gpg_install.png)
 
-1. Campaign Standardで、データを書き出すワークフローを作成し、Campaign コントロールパネル経由でインストールされた秘密鍵を使用してデータを書き出します。 これをおこなうには、次のようにワークフローを作成します。
+1. Campaign Standardで、データを書き出すワークフローを作成し、Campaign コントロールパネル経由でインストールされた秘密鍵を使用して暗号化します。 これをおこなうには、次のようにワークフローを作成します。
 
    ![](assets/gpg-workflow-export.png)
 
@@ -127,5 +125,3 @@ GPG キーを使用してデータを暗号化する方法を示すチュート�
    ![](assets/gpg-transfer-encrypt.png)
 
 1. これで、ワークフローを開始できます。ワークフローを実行すると、クエリで選択された対象データが、暗号化された .gpg ファイルにエクスポートされ、SFTP サーバーに転送されます。
-
-   ![](assets/do-not-localize/gpg-sftp-encrypt.png)
