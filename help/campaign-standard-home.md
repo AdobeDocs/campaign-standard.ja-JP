@@ -5,10 +5,10 @@ title: Adobe Campaign Standard 製品ドキュメント
 description: Campaign Standard製品ドキュメントの参照
 topic: Premium
 translation-type: tm+mt
-source-git-commit: e67a173c5409d7693a3d7dab8f8ca3b03aeb886f
+source-git-commit: 932e703ccb20ea3eefe82d7a695513076d4f4d19
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 97%
+source-wordcount: '224'
+ht-degree: 91%
 
 ---
 
@@ -19,14 +19,16 @@ ht-degree: 97%
 
 ## 新着情報
 
-* **[コントロール母集団](sending/using/control-group.md)**<br/>オーディエンスの一部を除外して、キャンペーンの影響を測定します。
+* **[リリース計画の更新](rn/using/release-planning.md)**<br/>1月のリリース日がリリース計画に追加されました。
 
-* **[AI を利用した E メール](sending/using/predictive.md)**<br/>AI を利用して E メールの設計と配信を最適化します。
+* **[コントロール母集団](sending/using/control-group.md)**<br/>
+オーディエンスの一部を除外して、キャンペーンの影響を測定します。
 
-* **[プライバシー管理](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy.html)**<br/>
-プライバシーコンプライアンスに役立つ Adobe Campaign ツールについて説明します。
+* **[AI を利用した E メール](sending/using/predictive.md)**<br/>
+AI を利用して E メールの設計と配信を最適化します。
 
-* **[外部 API](automating/using/external-api.md)**<br/>外部 API アクティビティを使用して、外部システムからデータをワークフローに取り込みます。
+* **[外部 API](automating/using/external-api.md)**<br/>
+外部 API アクティビティを使用して、外部システムからデータをワークフローに取り込みます。
 
 * **[モバイル配信の概要](https://helpx.adobe.com/jp/campaign/kb/acs-mobile.html)**<br/>
 モバイル配信（SMS、プッシュ、アプリ内）の一般的なガイドラインについて説明します。
