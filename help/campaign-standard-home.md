@@ -5,10 +5,10 @@ title: Adobe Campaign Standard 製品ドキュメント
 description: Campaign Standard製品ドキュメントの参照
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 8da8c469fad3cab24046cd531ae036a79a053d75
+source-git-commit: 1b2c4e2105a75f31b0b895bee2de9a9a79850910
 workflow-type: tm+mt
-source-wordcount: '224'
-ht-degree: 91%
+source-wordcount: '221'
+ht-degree: 90%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 91%
 
 ## 新着情報
 
-* **[リリース計画の更新](rn/using/release-planning.md)**<br/>2021年2月のリリース日がリリース計画に追加されました
+* **[リリース計画の更新](rn/using/release-planning.md)**<br/> 2021年2月のリリース日がリリース計画に追加されました
 
 * **[コントロール母集団](sending/using/control-group.md)**<br/>
 オーディエンスの一部を除外して、キャンペーンの影響を測定します。
@@ -33,7 +33,7 @@ AI を利用して E メールの設計と配信を最適化します。
 * **[モバイル配信の概要](https://helpx.adobe.com/jp/campaign/kb/acs-mobile.html)**<br/>
 モバイル配信（SMS、プッシュ、アプリ内）の一般的なガイドラインについて説明します。
 
-[更新情報についてはここをクリック](rn/using/documentation-updates.md)
+[その他の更新](rn/using/documentation-updates.md)
 
 ## トップページ
 
