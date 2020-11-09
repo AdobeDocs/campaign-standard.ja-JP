@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 121b36056317cc89909607220f988c02ae470f08
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '108'
 ht-degree: 5%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 5%
 
    >[!CAUTION]
    >
-   >名前とパラメーター数が、ワークフローの呼び出し時に定義された名前と数と一致していることを確認します(を参照 [](../../automating/using/defining-parameters-calling-workflow.md))。 また、パラメーターの型は、期待される値と一致する必要があります。
+   >名前とパラメーター数が、ワークフローの呼び出し時に定義された名前と数と一致することを確認します( [このページを参照](../../automating/using/defining-parameters-calling-workflow.md))。 また、パラメーターの型は、期待される値と一致する必要があります。
 
    ![](assets/extsignal_declaringparameters_1.png)
 
