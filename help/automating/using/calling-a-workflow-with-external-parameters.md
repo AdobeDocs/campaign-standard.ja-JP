@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 121b36056317cc89909607220f988c02ae470f08
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '186'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,7 @@ Campaign Standardを使用すると、ターゲットに対するオーディエ
 パラメーターを使用してワークフローを呼び出すプロセスは、次のとおりです。
 
 1. アクティビティ内のパラメーターを宣言し **[!UICONTROL External signal]** ます。 See [Declaring the parameters in the External signal activity](../../automating/using/declaring-parameters-external-signal.md).
-1. アクティビティーまたはAPI呼び出しを設定して、パラメーターを定義し、ワークフロー **[!UICONTROL End]****[!UICONTROL External signal]** アクティビティをトリガーします。 [](../../automating/using/defining-parameters-calling-workflow.md)を参照してください。
-1. ワークフローがトリガーされると、パラメーターはワークフローのイベント変数に取り込まれ、ワークフロー内で使用できます。 [](../../automating/using/customizing-workflow-external-parameters.md) を参照してください。
+1. アクティビティーまたはAPI呼び出しを設定して、パラメーターを定義し、ワークフロー **[!UICONTROL End]****[!UICONTROL External signal]** アクティビティをトリガーします。 See [this page](../../automating/using/defining-parameters-calling-workflow.md)
+1. ワークフローがトリガーされると、パラメーターはワークフローのイベント変数に取り込まれ、ワークフロー内で使用できます。 [このページ](../../automating/using/customizing-workflow-external-parameters.md)を参照してください。
 
 ![](assets/extsignal_process.png)
