@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 121b36056317cc89909607220f988c02ae470f08
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 12%
+source-wordcount: '188'
+ht-degree: 13%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 12%
 
 パラメーターを定義する前に、次のことを確認します。
 
-* パラメーターが **[!UICONTROL External Signal]** アクティビティで宣言されています。 [](../../automating/using/declaring-parameters-external-signal.md) を参照してください。
+* パラメーターが **[!UICONTROL External Signal]** アクティビティで宣言されています。 [このページ](../../automating/using/declaring-parameters-external-signal.md)を参照してください。
 * シグナルアクティビティを含むワークフローが実行中です。
 
 アクティビティを設定するには、次の手順に従い **[!UICONTROL End]** ます。
@@ -33,7 +33,7 @@ ht-degree: 12%
 1. 呼び出すワークフローと外部シグナルアクティビティを選択します。
 1. ボタンをクリックし **[!UICONTROL Create element]** てパラメーターを追加し、名前と値を入力します。
 
-   * **[!UICONTROL Name]**: **[!UICONTROL External signal]** アクティビティで宣言された名前(を参照 [](../../automating/using/declaring-parameters-external-signal.md))。
+   * **[!UICONTROL Name]**: **[!UICONTROL External signal]** アクティビティで宣言された名前( [このページを参照](../../automating/using/declaring-parameters-external-signal.md))。
    * **[!UICONTROL Value]**:パラメーターに割り当てる値。 この値は、 **標準構文**( [この節で説明)に従う必要があります](../../automating/using/advanced-expression-editing.md#standard-syntax)。
 
    ![](assets/extsignal_definingparameters_2.png)
