@@ -11,10 +11,10 @@ topic-tags: execution-activities
 discoiquuid: 911c71b5-da8b-4916-b645-13bba6d21715
 context-tags: signal,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 121b36056317cc89909607220f988c02ae470f08
 workflow-type: tm+mt
 source-wordcount: '600'
-ht-degree: 93%
+ht-degree: 96%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 93%
 1. アクティビティを選択し、表示されるクイックアクションの ![](assets/edit_darkgrey-24px.png) ボタンを使用して開きます。
 1. アクティビティのラベルを編集します。このラベルは、「**[!UICONTROL External signal]**」をトリガーするソースワークフローを設定するときに必要になります。
 
-   パラメーターを指定してワークフローを呼び出す場合は、「**[!UICONTROL Parameters]**」エリアを使用してパラメーターを宣言します。For more on this, refer to this section: [](../../automating/using/declaring-parameters-external-signal.md).
+   パラメーターを指定してワークフローを呼び出す場合は、「**[!UICONTROL Parameters]**」エリアを使用してパラメーターを宣言します。詳しくは、[このページ](../../automating/using/declaring-parameters-external-signal.md)を参照してください。
 
    ![](assets/external_signal_configuration.png)
 
@@ -76,7 +76,7 @@ ht-degree: 93%
 
    別のワークフローをトリガーする「**[!UICONTROL End]**」アクティビティを設定すると、そのアイコンにシグナルシンボルが追加されます。
 
-   パラメーターを指定してワークフローを呼び出す場合は、「**[!UICONTROL Parameters and values]**」エリアを使用します。For more on this, refer to this section: [](../../automating/using/defining-parameters-calling-workflow.md).
+   パラメーターを指定してワークフローを呼び出す場合は、「**[!UICONTROL Parameters and values]**」エリアを使用します。詳しくは、[このページ](../../automating/using/defining-parameters-calling-workflow.md)を参照してください。
 
    ![](assets/external_signal_end.png)
 
