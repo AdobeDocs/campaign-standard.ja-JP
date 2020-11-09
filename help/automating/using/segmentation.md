@@ -11,9 +11,9 @@ topic-tags: targeting-activities
 discoiquuid: 0ccd9d02-772e-406b-874a-5381dd0c8709
 context-tags: segmentation,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 121b36056317cc89909607220f988c02ae470f08
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '851'
 ht-degree: 92%
 
 ---
@@ -64,7 +64,7 @@ ht-degree: 92%
    * **[!UICONTROL Limit segment population]**：セグメントのサイズを制限できます。
    * **[!UICONTROL Filter and limit segment population]**：セグメント母集団をフィルターしてサイズを制限できます。
    * **[!UICONTROL Label]**：セグメントラベル。
-   * **[!UICONTROL Segment code]**:コードを割り当てます。セグメントコードは、標準の式変数とイベント変数を使用してパーソナライズできます(参照 [](../../automating/using/customizing-workflow-external-parameters.md))。
+   * **[!UICONTROL Segment code]**:コードを割り当てます。セグメントコードは、標準の式変数とイベント変数を使用してパーソナライズできます( [このページを参照](../../automating/using/customizing-workflow-external-parameters.md))。
    * **[!UICONTROL Exclude segment from population]**：指定したセグメントをアクティビティのアウトバウンド母集団から除外できます。このオプションは、「**[!UICONTROL Generate all segments in the same transition]**」オプションが選択されている場合にのみ使用できます。
 
    ![](assets/wkf_segment_new_segment.png)
@@ -91,7 +91,6 @@ ht-degree: 92%
       >[!NOTE]
       >
       >値ごとに異なる制限を使用できます。例えば、「**[!UICONTROL Gender]**」フィールドのグループを指定して、**[!UICONTROL Male]** メンバーを含む母集団を 10 人に制限し、**[!UICONTROL Female]** メンバーを含む母集団を 30 人に制限することができます。複数のデータグループ化フィールドを使用する場合は、すべてのグループのサイズを同じにする必要があります。
-
    ![](assets/wkf_segment_limit_by_grouping.png)
 
 1. セグメントの設定を確認します。
