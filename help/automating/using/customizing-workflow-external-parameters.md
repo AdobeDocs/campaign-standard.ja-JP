@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: workflow-general-operation
 discoiquuid: 1676da91-55e3-414f-bcd3-bb0804b682bd
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 121b36056317cc89909607220f988c02ae470f08
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '803'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 ワークフローがトリガーされると、パラメーターはイベント変数に取り込まれ、ワークフローのアクティビティをカスタマイズするために使用できます。
 
-例えば、アクティビティで読み取るオーディエンス、 **[!UICONTROL Read audience]** アクティビティで転送するファイルの名前などを定義するために使用でき **[!UICONTROL Transfer file]** ます。 (see [](../../automating/using/customizing-workflow-external-parameters.md)).
+例えば、アクティビティで読み取るオーディエンス、 **[!UICONTROL Read audience]** アクティビティで転送するファイルの名前などを定義するために使用でき **[!UICONTROL Transfer file]** ます。 (see [this page](../../automating/using/customizing-workflow-external-parameters.md)).
 
 ## イベント変数の使用 {#using-events-variables}
 
@@ -49,13 +49,13 @@ $(vars/@parameterName)
 
    ![](assets/wkf_test_activity_variables.png)
 
-* ![](assets/extsignal_expression_editor.png):変数と関数を組み合わせた式の編集(を参照 [](../../automating/using/advanced-expression-editing.md))。
+* ![](assets/extsignal_expression_editor.png):変数と関数を組み合わせた式の編集( [このページを参照](../../automating/using/advanced-expression-editing.md))。
 
    ![](assets/wkf_test_activity_variables_expression.png)
 
    このリストは、複雑なフィルタリングを実行できる関数を提供します。 これらの機能については、 [この節で説明します](../../automating/using/list-of-functions.md)。
 
-   また、次の関数を使用できます。これらの関数は、外部パラメーターを使用してワークフローを呼び出した後にイベント変数を使用できるすべてのアクティビティで使用できます(を参照 [](../../automating/using/customizing-workflow-external-parameters.md#customizing-activities-with-events-variables))。
+   また、次の関数を使用できます。これらの関数は、外部パラメーターを使用してワークフローを呼び出した後にイベント変数を使用できるすべてのアクティビティで使用できます( [この節を参照](../../automating/using/customizing-workflow-external-parameters.md#customizing-activities-with-events-variables))。
 
    | 名前 | 説明 | 構文 |
    ---------|----------|---------
