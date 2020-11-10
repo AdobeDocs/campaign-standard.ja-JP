@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 7f0af4deeaf641e2aded9278b97eb498edd85d08
 workflow-type: tm+mt
-source-wordcount: '1479'
-ht-degree: 78%
+source-wordcount: '1456'
+ht-degree: 75%
 
 ---
 
@@ -40,7 +40,7 @@ Adobe Campaign は、個人情報や機密データを含む膨大な量のデ�
 
 >[!NOTE]
 >
->For more on how GDPR, CCPA, and PDPA apply to Adobe Campaign, see [this page](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy-overview.html#whatisgdpr).
+>For more on how GDPR, CCPA, and PDPA apply to Adobe Campaign, see [this section](../../start/using/privacy-management.md#privacy-management-regulations).
 
 ### Adobe Experience Cloud プライバシー {#experience-cloud-privacy}
 
@@ -78,7 +78,7 @@ Adobe Experience Cloud のプライバシーについて詳しくは、[この�
 * **個人データ**&#x200B;は、生きている個人を直接または間接的に識別できる情報です。
 * **個人の機密データ**&#x200B;は、個人の人種、政治観、宗教的信念、犯罪歴、遺伝情報、健康データ、性的嗜好、生体認証情報、および労働組合の組合員に関する情報です。
 
-[主な法律](#privacy-regulations)は、データを管理する様々なエンティティを次のように参照しています。
+The [main regulations](#privacy-regulations) refer to the different entities that manage data as follows:
 * **データ管理者**&#x200B;は、個人データの収集、使用、共有の方法と目的を決定する権限です。
 * **データ処理者**&#x200B;は、データ管理者の指示に従って個人データを収集、使用、または共有する個人または関係者です。
 * **データ主体**&#x200B;は、個人データが収集、使用、共有され、その個人データを参照して直接または間接的に識別できる、生きている個人のことです。
@@ -98,12 +98,12 @@ Adobe Campaign を使用すると、個人情報や機密情報などのデー�
 
 ## プライバシーの管理 {#privacy-management}
 
-プライバシー管理とは、プライバシー規制（GDPR、CCPA など）の遵守に役立つすべてのプロセスとツールを指します。プライバシー管理の概要を[このページ](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy-overview.html)で確認します。
+プライバシー管理とは、プライバシー規制（GDPR、CCPA など）の遵守に役立つすべてのプロセスとツールを指します。Get an overview of what Privacy management is on [this page](../../start/using/privacy-management.md).
 
 Adobe Campaign では、プライバシー管理に関する様々な機能を提供しています。
 * 同意の管理、データ保持、ユーザーの役割：[この節](#consent)を参照してください。
 * プライバシーリクエスト（アクセスする権利と忘れられる権利）：[この節](#privacy-requests)を参照してください。
-* 個人情報の販売のオプトアウト（CCPA 固有）：[この節](https://helpx.adobe.com/campaign/kb/acs-privacy.html#ccpa)を参照してください。
+* 個人情報の販売のオプトアウト（CCPA 固有）：[この節](https://helpx.adobe.com/jp/campaign/kb/acs-privacy.html#ccpa)を参照してください。
 
 Campaign の主なプライバシー機能と関与する個人の例を[この節](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy-more.html#gdprpersonasandflow)に示します。
 
@@ -116,7 +116,7 @@ Campaign の主なプライバシー機能と関与する個人の例を[この�
 * **データ保持**：すべての組み込みの標準ログテーブルには事前に設定された保存期間があり、通常、データのストレージは 6 か月以下に制限されます。その他の保存期間は、ワークフローで設定できます。詳しくは、アドビのコンサルタントまたは技術管理者にお問い合わせください。
 * **権限管理**：Adobe Campaign では、事前作成された役割またはカスタムの役割を使用して、様々な Campaign オペレーターに割り当てられている権限を管理できます。これにより、会社内で様々なタイプのデータにアクセス、変更、書き出しできるユーザーを管理できます。詳しくは、[アクセス管理について](../../administration/using/about-access-management.md)を参照してください。
 
-これらの機能および Adobe Campaign での管理方法について詳しくは、[このページ](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy-overview.html#consent)を参照してください。
+For more on these features and how to manage them in Adobe Campaign, see [this section](../../start/using/privacy-management.md#consent-retention-roles).
 
 ### プライバシーリクエスト {#privacy-requests}
 
@@ -128,7 +128,7 @@ Adobe Campaign は、特定のプライバシーリクエストに対するデ�
 
 >[!NOTE]
 >
->GDPR、CCPA、およびPDPAのプライバシーコンプライアンスに役立つツール群です。 これらの様々な規則について詳しくは、[このページ](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy-overview.html#whatisgdpr)を参照してください。
+>GDPR、CCPA、およびPDPAのプライバシーコンプライアンスに役立つツール群です。 For more on these different regulations, see [this section](../../start/using/privacy-management.md#privacy-management-regulations).
 
 <!--* **GDPR** (General Data Protection Regulation) is the European Union’s (EU) privacy law that harmonizes and modernizes data protection requirements. GDPR applies to Adobe Campaign customers who hold data for Data Subjects residing in the EU.
 
@@ -140,7 +140,7 @@ Adobe Campaign は、特定のプライバシーリクエストに対するデ�
 
 ## トラッキング機能 {#tracking-capabilities}
 
-Adobe Campaignでは、その追跡機能のおかげで、セッションcookieと永続的なcookieを使用して、配信受信者の動作を追跡できます。 For more on tracking, see [this page](../../sending/using/tracking-messages.md).
+Adobe Campaignでは、その追跡機能のおかげで、セッションcookieと永続的なcookieを使用して、配信受信者の動作を追跡できます。 For more on tracking, see [this section](../../sending/using/tracking-messages.md).
 
 >[!NOTE]
 >
