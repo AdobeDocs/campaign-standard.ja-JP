@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: Adobe Campaign Standard ヘルプセンター
 breadcrumb-title: Campaign Standard ガイド
 translation-type: tm+mt
-source-git-commit: b6d6d0449638ff7c0513180079ccc56b9676f637
+source-git-commit: 424123972ae189d15a2282b6065190dac4a89d5d
 workflow-type: tm+mt
-source-wordcount: '1655'
+source-wordcount: '1658'
 ht-degree: 100%
 
 ---
@@ -28,7 +28,9 @@ ht-degree: 100%
    + [廃止された機能](rn/using/deprecated-features.md)
 + はじめに {#getting-started}
    + [Adobe Campaign Standard について](start/using/about-campaign-standard.md)
-   + [プライバシーと同意](start/using/privacy.md)
+   + プライバシー {#privacy}
+      + [プライバシーと同意](start/using/privacy.md)
+      + [プライバシーの管理](start/using/privacy-management.md)
    + インターフェイスの検出{#discovering-the-interface}
       + [インターフェイスについて](start/using/about-the-interface.md)
       + [インターフェイスの説明](start/using/interface-description.md)
