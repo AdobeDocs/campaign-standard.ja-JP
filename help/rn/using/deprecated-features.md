@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: campaign-standard-deprecated-features
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 2dc4ac62e3b10753f7b8681d86cfe7f3b3a30a20
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '662'
 ht-degree: 35%
 
 ---
@@ -49,7 +49,7 @@ Campaign Standard機能の差し迫った取り外し/交換を伝えるため�
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p> 20.1リリース以降、SDK v4は非推奨となります。 詳しくは、<a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">こちら</a>を参照してください。</p><br/>
+   <td> <p> 20.1リリース以降、SDK v4は非推奨となります。 <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">詳細情報</a>。</p><br/>
    <p><a href="https://aep-sdks.gitbook.io/docs/">Adobe Experience PlatformモバイルSDK</a> （旧称v5）は、今後のAdobe Experience Cloudの機能のみをサポートします。</p></br>
      <p>
      <em>ターゲットの削除日：2020年9月30日</em></p>
@@ -66,7 +66,7 @@ Campaign Standard機能の差し迫った取り外し/交換を伝えるため�
  <tbody> 
   <tr> 
    <td> <p>キャンペーン19.4リリース以降、アクセス要求および削除要求に対するキャンペーンAPIおよびインターフェイスの使用は廃止されました。 2段階のプロファイルの削除は使用できません。 <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Adobeプライバシーコアサービスを使用します</a>。</p></br>
-   <p>「Campaign Standardの <a href="https://helpx.adobe.com/jp/campaign/kb/acs-privacy.html">プライバシー管理</a>」も参照してください。</p>
+   <p>「プライバシー要求の <a href="https://helpx.adobe.com/jp/campaign/kb/acs-privacy.html">管理</a>」も参照してください。</p>
   <p> 
   <em>削除予定日：2021 年</em></p>
    </td> 
@@ -148,7 +148,7 @@ Campaign Standard機能の差し迫った取り外し/交換を伝えるため�
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe CampaignとAdobe Experience Cloudは、2019年春からキャンペーン19.2リリース以降、Microsoft Internet Explorer 11のサポートを終了しました。 Microsoft Edgeまたはサポートされている別のブラウザーに切り替えてください。 詳しくは、<a href="https://docs.adobe.com/content/help/en/campaign-standard/using/administrating/about-configuration-guidelines.html#compatible-browsers">こちら</a>を参照してください。</p>
+   <td> <p>Adobe CampaignとAdobe Experience Cloudは、2019年春からキャンペーン19.2リリース以降、Microsoft Internet Explorer 11のサポートを終了しました。 Microsoft Edgeまたはサポートされている別のブラウザーに切り替えてください。 <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/administrating/about-configuration-guidelines.html#compatible-browsers">詳細情報</a>。</p>
    </td> 
   </tr> 
  </tbody> 
