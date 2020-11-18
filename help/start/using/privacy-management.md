@@ -10,10 +10,10 @@ content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
 translation-type: tm+mt
-source-git-commit: 7f0af4deeaf641e2aded9278b97eb498edd85d08
+source-git-commit: 2dc4ac62e3b10753f7b8681d86cfe7f3b3a30a20
 workflow-type: tm+mt
-source-wordcount: '939'
-ht-degree: 64%
+source-wordcount: '928'
+ht-degree: 63%
 
 ---
 
@@ -49,7 +49,7 @@ In order to help you facilitate your Privacy readiness, Adobe Campaign allows yo
 
 * **消失させる権限**（削除要求）とは、データ消去とも呼ばれるもので、データ主体はデータ管理者に対して、自分の個人データの消去、および第三者によるデータ処理を防止するために、データ拡散の停止を指示できることを指します。
 
-**Access** / **Deleteリクエストの作成方法、およびAdobe Campaignによるリクエストの処理方法については、** 導入手順を参照してください [](https://helpx.adobe.com/jp/campaign/kb/acs-privacy.html)。
+**Access** / **Deleteリクエストの作成方法、およびAdobe Campaignによるリクエストの処理方法については、** 導入手順を参照してください [](../../start/using/privacy-requests.md#about-privacy-requests)。
 
 Tutorials on Privacy management in Campaign Standard are also available [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=en#privacy).
 
@@ -71,7 +71,7 @@ In addition to the most recent **Right to Access** and **Right to be Forgotten**
 
 同意の管理について詳しくは、「購読 [について](../../audiences/using/about-subscriptions.md) 」および「ランディングページ [の使用を開始する](../../channels/using/getting-started-with-landing-pages.md)」を参照してください。
 
-Adobe Campaignが提供する同意管理ツールに加えて、個人情報の販売に対して消費者がオプトアウトしたかどうかを追跡できます。 [こちらの節](https://helpx.adobe.com/jp/campaign/kb/acs-privacy.html#ccpa)を参照してください。
+Adobe Campaignが提供する同意管理ツールに加えて、個人情報の販売に対して消費者がオプトアウトしたかどうかを追跡できます。 [こちらの節](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa)を参照してください。
 
 ### データリテンション {#data-retention}
 
