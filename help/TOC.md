@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: Adobe Campaign Standard ヘルプセンター
 breadcrumb-title: Campaign Standard ガイド
 translation-type: tm+mt
-source-git-commit: 424123972ae189d15a2282b6065190dac4a89d5d
+source-git-commit: fe3e9e17993846f8f8c5b4afbab6ad8e348c33ed
 workflow-type: tm+mt
-source-wordcount: '1658'
+source-wordcount: '1660'
 ht-degree: 100%
 
 ---
@@ -31,6 +31,7 @@ ht-degree: 100%
    + プライバシー {#privacy}
       + [プライバシーと同意](start/using/privacy.md)
       + [プライバシーの管理](start/using/privacy-management.md)
+      + [プライバシーリクエスト](start/using/privacy-requests.md)
    + インターフェイスの検出{#discovering-the-interface}
       + [インターフェイスについて](start/using/about-the-interface.md)
       + [インターフェイスの説明](start/using/interface-description.md)
