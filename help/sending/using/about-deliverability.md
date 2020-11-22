@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Adobe Campaign Standardでの配信品質について
 description: 配信品質に関する概念とベストプラクティス、および配信の送信を最適化するためにAdobe Campaign Standardが提供するツールについて説明します。
-page-status-flag: never-activated
-uuid: 286fceee-65a9-4cb9-b205-9ce5d024675c
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
-discoiquuid: 9c7fd670-bba9-4f3c-8cb1-87397a1acd27
 context-tags: delivery,schedule,back
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '657'
 ht-degree: 86%
@@ -54,7 +51,7 @@ E メール配信品質とは、期待される品質のコンテンツとフォ
 * [エラー発生時のアラートの受信](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [配信エラーの理解](../../sending/using/understanding-delivery-failures.md)
 * [強制隔離管理の理解](../../sending/using/understanding-quarantine-management.md)
-* [強制隔離ブロックリスト対](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist)
+* [強制隔離対ブロックリスト](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist)
 * [動的レポート](../../reporting/using/about-dynamic-reports.md)
 
 ## ネットワーク設定の確認 {#network-configuration}
