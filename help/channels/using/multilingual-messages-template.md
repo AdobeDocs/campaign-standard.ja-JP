@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 多言語メッセージテンプレート
 description: 単一の配信を通じて、自動的にセグメント化された顧客の優先言語に基づいた多言語の E メールおよび SMS 配信を定義および実行する方法について説明します。各配信のパフォーマンスを、言語レベルと個人レベルでレポートにまとめます。
-page-status-flag: never-activated
-uuid: 7a2cd5f7-c0fc-4825-a770-a62816c66b3f
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: start
 content-type: reference
 topic-tags: managing-templates
-discoiquuid: 064c5c4a-f579-4bab-adf3-51c92eb4518f
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 100%
