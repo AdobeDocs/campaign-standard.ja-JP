@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Adobe Campaign Standard での E メールチャネルの設定
 description: Adobe Campaign Standard で E メールチャネルを設定する方法を説明します。
-page-status-flag: never-activated
-uuid: 9fddb655-b445-41f3-9b02-5d356fc88aa1
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-discoiquuid: 3752d41f-8c59-4fad-b30f-e98e09cd74a8
 context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;delivery,properties,open
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '2331'
 ht-degree: 100%
