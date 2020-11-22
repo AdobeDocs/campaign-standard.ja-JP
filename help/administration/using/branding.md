@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: ブランディング
 description: ブランドアイデンティティの管理に使用できるツールについて説明します。
-page-status-flag: never-activated
-uuid: d66ac5a2-2ae1-4870-b48e-7f276744ffdd
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: application-settings
-discoiquuid: cbb1dcec-3bc6-4013-87fa-27d0e5d32bf8
 context-tags: branding,overview;branding,main
 translation-type: tm+mt
-source-git-commit: 100f7eef03d10a66832920708ad415f8f0d3883c
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '1250'
 ht-degree: 80%
@@ -104,7 +101,7 @@ ht-degree: 80%
 
    * 本番用URL:XXX.キャンペーン.adobe.com
 
-1. **配信テンプレートの作成** — 新しいブランドが利用可能になったら、ベストプラクティスは、この新しいブランドを参照する新しい空白の配信テンプレートを少なくとも1つ作成することです。 詳しくは、[こちら](#linking-a-brand-to-a-template)を参照してください。
+1. **配信テンプレートの作成** — 新しいブランドが利用可能になったら、ベストプラクティスは、この新しいブランドを参照する新しい空白の配信テンプレートを少なくとも1つ作成することです。 [詳細情報](#linking-a-brand-to-a-template)。
 
 1. **配信品質のガイドラインの確認** — 新しいドメインを使用する前に、Adobeの配信品質チームに問い合わせる必要があります。 例えば、ドメイン間でIPを分割する新しいアフィニティを作成する場合や、ランプアップ計画を定義する場合など、ベストプラクティスを定義するのに役立ちます。 配信品質のベストプラクティスにつ [いて詳しくは、この節を参照してください](../../sending/using/about-deliverability.md)。
 
