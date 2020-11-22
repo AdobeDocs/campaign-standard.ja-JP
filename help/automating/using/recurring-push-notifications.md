@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: ワークフローを含む定期的なプッシュ通知の送信
 description: この例では、パーソナライズされたプッシュ通知が月の初日の午後8時に、タイムゾーンに応じてモバイルアプリの購読者に送信されます。
-page-status-flag: never-activated
-uuid: 994d8fe3-29f0-4b5c-89ee-c6be7c60a31b
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: channel-activities
-discoiquuid: e61bdaee-4b48-4845-a2a5-574b577ea796
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 4%
@@ -52,8 +49,8 @@ ht-degree: 4%
 
 1. プ [ッシュ通知配信](../../automating/using/push-notification-delivery.md) アクティビティを使用すると、メッセージの内容を入力し、使用するパーソナライゼーションフィールドを選択できます。
 
-   * オプションを選択し **[!UICONTROL Recurring notification]** ます。
-   * プッシュ通知の内容を定義します。 For more information on push notification content, refer to this [section](../../channels/using/preparing-and-sending-a-push-notification.md).
+   * Select the **[!UICONTROL Recurring notification]** option.
+   * プッシュ通知の内容を定義します。 プッシュ通知の内容について詳しくは、この [節を参照してください](../../channels/using/preparing-and-sending-a-push-notification.md)。
    * In the **[!UICONTROL Schedule]** block, select **[!UICONTROL Messages to be sent automatically on the time zone specified below]**. ここでは、ワークフローの **[!UICONTROL Time zone of the contact date]** 太平洋を選択し **[!UICONTROL Scheduler]**&#x200B;ます。
    * 「**[!UICONTROL Optimize the sending time per recipient]**」フィールドで「**[!UICONTROL Send at the recipient's time zone]**」を選択します。
 
