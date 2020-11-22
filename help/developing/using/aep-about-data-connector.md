@@ -1,19 +1,16 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Adobe Experience Platform Data Connector について
 description: XDMスキーマを管理して、Campaign StandardデータをAdobe Experience Platformで利用できるようにします。
-page-status-flag: never-activated
-uuid: 867b1c4b-4c79-4c52-9d0a-ef71993e50a2
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '760'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -61,7 +58,7 @@ Adobe Experience Platformデータコネクタは、 **Adobe Campaign Standard�
 
 * Experience CloudIDサービス(ECID)は、エクスペリエンスイベントと共にデフォルトで送信されるデバイス識別子です。
 
-   このIDは、訪問者に割り当てられる一意で永続的なIDです。Platform Identity Serviceは、同じ訪問者とそのデータを異なるExperience Cloudソリューションで識別するために使用できます。 詳しくは、 [Experience CloudIDサービスのヘルプを参照してください](https://docs.adobe.com/content/help/en/id-service/using/home.html)。
+   このIDは、訪問者に割り当てられる一意で永続的なIDです。Platform Identity Serviceは、同じ訪問者とそのデータを異なるExperience Cloudソリューションで識別するために使用できます。 詳しくは、 [Experience CloudIDサービスのヘルプを参照してください](https://docs.adobe.com/content/help/ja-JP/id-service/using/home.translate.html)。
 
    >[!NOTE]
    >
