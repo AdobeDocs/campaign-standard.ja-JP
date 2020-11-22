@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: ワークフローインターフェイス
 description: ワークフローを作成、編集、実行するためのインターフェイスとオプションについて説明します。
-page-status-flag: never-activated
-uuid: aafe33ed-fa07-4dd9-825e-242099334f1a
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
-discoiquuid: 147fbb0d-17d2-444b-a215-9ad14179c549
 context-tags: workflow,main;workflow,overview
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '802'
 ht-degree: 4%
@@ -122,7 +119,7 @@ ht-degree: 4%
 
 <img height="21px" src="assets/checkdisable.png" /> **[!UICONTROL No execution]**<br/>アクティビティを無効にします。
 
-<img height="21px" src="assets/pending_darkgrey-24px_table.png" /> **[!UICONTROL Immediate execution]**<br/>選択範囲を直ちに処理します。 このボタンは、<span class="uicontrol">スケジューラー</span>および<span class="uicontrol">待機</span>アクティビティでのみ使用できます。
+<img height="21px" src="assets/pending_darkgrey-24px_table.png" /> **[!UICONTROL Immediate execution]**<br/>選択範囲を直ちに処理します。 このボタンは、 <span class="uicontrol">スケジューラー</span> および <span class="uicontrol">待機</span> アクティビティでのみ使用できます。
 
 <img height="21px" src="assets/delete_darkgrey-24px_table.png" /> **[!UICONTROL Delete selection]**<br/>選択したアクティビティを削除します。
 
