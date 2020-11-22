@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: プロファイルとオーディエンスの概要
 description: ターゲット母集団の定義、オーディエンスの選択、受信者のフィルタリング、データの収集、プロファイルの更新をおこないます。
-page-status-flag: never-activated
-uuid: f4cb6c38-c8d1-44ec-93f0-d0f5f30a3d9a
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: audiences
 content-type: reference
 topic-tags: about-profiles-and-audiences
-discoiquuid: fb436b17-1fc3-4fc3-94b9-f09f8aaf9699
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '604'
 ht-degree: 23%
