@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Campaign と Audience Manager または People コアサービスの統合について
 description: Audience Manager/人物コアサービスの統合により、オーディエンスやセグメントを様々なAdobe Experience Cloudソリューション内で共有できます。
-page-status-flag: never-activated
-uuid: 39e3c78e-cccd-4823-afe9-abc7f8aef034
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
-discoiquuid: bf718329-f181-46f7-80a2-b525a8dee46d
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 27%
