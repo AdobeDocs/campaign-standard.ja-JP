@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: サービスのプロモーション
 description: Adobe Campaignを使用して、専用のランディングページや電子メールを通じて、またはWebサイト上で直接、サービスを促進し、顧客を惹きつけます。
-page-status-flag: never-activated
-uuid: 2b71d2a1-3e48-4a21-ab21-4a360abc1d36
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
-discoiquuid: 98650305-7abf-456f-8c91-cf0b61f53763
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 3%
