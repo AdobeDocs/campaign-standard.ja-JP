@@ -1,20 +1,17 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Adobe Campaign Standardでの評判の向上
 description: 重複の電子メールアドレスと強制隔離を管理して、Adobe Campaign Standardでの評判を高める方法を学びます。
-page-status-flag: never-activated
-uuid: 286fceee-65a9-4cb9-b205-9ce5d024675c
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
-discoiquuid: 9c7fd670-bba9-4f3c-8cb1-87397a1acd27
 context-tags: delivery,schedule,back
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '458'
-ht-degree: 70%
+ht-degree: 75%
 
 ---
 
@@ -31,7 +28,7 @@ ht-degree: 70%
 * 同じメッセージが複数回送信される。Campaign がデフォルトで送信前に重複排除手順を実行しても、ターゲットが分割されている場合は、同じコンテンツを持つ異なるアクションによって同じメッセージが送信されるのを止めることはできません。
 * 購読解除リクエストが履行されない。受信者がメッセージを受信後に購読解除しても、重複したプロファイルではその後のメッセージの受信が解除されません。
 
-この状況では、オプトイン手順のサイドステップ以外に、メッセージをスパムと見なし、ISPでブロックリスト手順を開始する可能性が高くなります。
+オプトインでのこの問題に加え、ユーザーがメッセージをスパムであると見なし、ISP でのブロックリスト登録につながる可能性があります。
 
 データベースに対する操作を実行する場合は、特に注意が必要です。 可能な限り重複を避けるために、以下を実施する必要があります。
 * **インポートは細かく設定する必要があります。** これは、紐付けキーを選択する際に特に重要です。
