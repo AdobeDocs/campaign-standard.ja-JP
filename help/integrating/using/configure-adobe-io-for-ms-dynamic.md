@@ -1,19 +1,16 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Microsoft Dynamics 365 統合用の Adobe IO の設定
 description: Microsoft Dynamics 365統合用のAdobeI/Oを構成する方法を説明します。
-page-status-flag: never-activated
-uuid: effa1028-66b2-4bef-b5e4-7319dbb23d5d
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
-discoiquuid: eb3639f5-7246-46c4-8ddb-da9413b40c32
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 3%
+source-wordcount: '504'
+ht-degree: 5%
 
 ---
 
@@ -66,7 +63,7 @@ Adobe Campaign Standard- Microsoft Dynamics 365の統合については、 [こ�
 
    ![](assets/adobeIO5.png)
 
-1. 次の画面で、このプロジェクトに関連付ける製品プロファイルを選択します。 タイトルに含まれる製品プロファイルを選択します。キャンペーンインスタンスのテナントID - [!UICONTROL Administrators]
+1. 次の画面で、このプロジェクトに関連付ける製品プロファイルを選択します。 ソリューションに含まれる製品プロファイルを選択します。キャンペーン標準製品：campaigntitle:キャンペーンインスタンスのテナントID - [!UICONTROL Administrators]
 
    例：Campaign Standard-キャンペーン — テナントID — 管理者
 
