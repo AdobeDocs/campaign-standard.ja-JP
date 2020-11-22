@@ -1,20 +1,17 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Adobe Campaign Standardでの配信品質の問題のトラブルシューティング
 description: 配信品質の問題がAdobe Campaign Standardで発生した場合の対処方法を説明します。
-page-status-flag: never-activated
-uuid: 286fceee-65a9-4cb9-b205-9ce5d024675c
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
-discoiquuid: 9c7fd670-bba9-4f3c-8cb1-87397a1acd27
 context-tags: delivery,schedule,back
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '459'
-ht-degree: 48%
+ht-degree: 58%
 
 ---
 
@@ -57,17 +54,17 @@ ht-degree: 48%
    * In the details of the corresponding record, set the value of the **[!UICONTROL Status]** field to **[!UICONTROL Valid]**.
    * レコードを保存します。
 
-* **IPの1つがブロックリストにあるかどうかを調べるにはどうしますか。 IPをから削除する方法を教えてブロックリストください。**
+* **IPの1つがブロックリストにあるかどうかを調べるにはどうしますか。 IP をブロックリストから削除する方法を教えてください。**
 
    IPアドレスがブロックリスト上にあるかどうかを確認するには、次のような様々なWebサイトを使用して確認します。
    * [MX Toolbox](https://mxtoolbox.com/)
-   * [IPアドレスは何か](https://whatismyipaddress.com)
+   * [What is my IP address](https://whatismyipaddress.com)
 
    通常、IPアドレスの確認の結果、リストの詳細と、IPアドレスをブロックしブロックリストたWebサイトの名前を含むが返されます。
 
    対応するリンクをクリックすると、Web サイトの詳細にアクセスできます。
 
-   その後、IPアドレスを追加したWebサイトのリストからWebサイトを削除するように要求ブロックリストできます。
+   次に、IP アドレスがブロックリストに登録された Web サイトのリストから Web サイトを削除するようリクエストできます。
 
    >[!NOTE]
    >
