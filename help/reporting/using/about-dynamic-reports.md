@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 動的レポートの概要
 description: 動的レポートでは、変数やディメンションをフリーフォーム環境にドラッグ&ドロップし、キャンペーンの成功を分析します。
-page-status-flag: never-activated
-uuid: a84a18bd-4e33-466e-a6ce-d7008fe12746
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-discoiquuid: bbb41c38-12c1-4625-85d5-69627e2f4b39
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 6%
@@ -73,7 +70,7 @@ ht-degree: 6%
 | 地域 | 動的レポート | Microsoft Dynamics 365コネクタ |
 |---|---|---|
 | アメリカおよびAPAC（アジア太平洋） | **機能を利用可能**。 <br> ExternalID以外の、標準搭載されたプロファイルやカスタム情報が米国のレポートセンターに送り込まれることはありません。 | **機能を利用可能**。 <br>外部IDと受信者IDを除き、標準搭載されたフィールドやカスタムプロファイルフィールドは米国のデータセンターに送信されません。 <br>ミラーページID以外の、米国のデータセンターで処理されたすべてのAdobe Campaign Standardイベントフィールド。 <br>Microsoft Dynamics 365の統合の詳細については、この [ページを参照してください](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)。 |
-| EMEA（ヨーロッパ中東およびアフリカ） | **機能を利用可能**。 <br>ExternalID以外の既製の情報やカスタムプロファイル情報は、EMEAレポートセンターに送り込まれません。 | **機能を使用できます。** <br>追加設定なしでEMEAデータセンターに送信されるプロファイルフィールドやカスタムフィールドはありません。ただし、外部IDと受信者IDは例外です。 <br>ミラーページIDを除き、EMEAデータセンターで処理されたすべてのAdobe Campaign Standardイベントフィールド。  <br>**[!UICONTROL Control data]**このレポートには、AdobeI/O登録データと、米国のデータセンターに送信および保存される顧客エンドユーザイベントのIDが含まれます。<br>Microsoft Dynamics 365の統合の詳細については、この[ページを参照してください](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)。 |
+| EMEA（ヨーロッパ中東およびアフリカ） | **機能を利用可能**。 <br>ExternalID以外の既製の情報やカスタムプロファイル情報は、EMEAレポートセンターに送り込まれません。 | **機能を使用できます。** <br>追加設定なしでEMEAデータセンターに送信されるプロファイルフィールドやカスタムフィールドはありません。ただし、外部IDと受信者IDは例外です。 <br>ミラーページIDを除き、EMEAデータセンターで処理されたすべてのAdobe Campaign Standardイベントフィールド。  <br>**[!UICONTROL Control data]**このレポートには、AdobeI/O登録データと、米国のデータセンターに送信および保存される顧客エンドユーザイベントのIDが含まれます。<br>Microsoft Dynamics 365の統合の詳細については、この [ページを参照してください](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)。 |
 
 この選択は最終的なものではありません。 **[!UICONTROL Enable PII data to be transferred to US region to use reporting on Profile data]** / **[!UICONTROL Administration]** /を選択して、常に変更でき **[!UICONTROL Application Settings]****[!UICONTROL Options]**&#x200B;ます。
 
