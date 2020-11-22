@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Adobe Experience PlatformSDKとAdobe Campaign統合FAQ
 description: Adobe Experience PlatformSDKとAdobe Campaign統合FAQ
-page-status-flag: never-activated
-uuid: 867b1c4b-4c79-4c52-9d0a-ef71993e50a2
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-discoiquuid: 406c955a-b2d2-4099-9918-95f5fa966067
 translation-type: tm+mt
-source-git-commit: 8eaece864ca0f3795cd36ea0cc7a01737822d9e8
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '914'
 ht-degree: 3%
@@ -87,7 +84,7 @@ CollectPII呼び出しの目的は、モバイルプロファイルをキャン�
 
 ## 複数のトリガーイベントに応答してCollectPII呼び出しを実行できますか。 {#collect-pii-calls}
 
-はい。 ビジネスのニーズに応じて、アプリ内のユーザーログに応じて、または何か、ライフサイクルイベントを購入したり、ジオフェンスに入るユーザーに応じて、CollectPII呼び出しを実行できます。 要約すると、プロファイルのエンリッチメントに使用したい情報を生成するアプリとのユーザーの対話です。
+はい。ビジネスのニーズに応じて、アプリ内のユーザーログに応じて、または何か、ライフサイクルイベントを購入したり、ジオフェンスに入るユーザーに応じて、CollectPII呼び出しを実行できます。 要約すると、プロファイルのエンリッチメントに使用したい情報を生成するアプリとのユーザーの対話です。
 
 ## すべてのモバイルイベントに対してCollectPII呼び出しを実行できますか。 {#collect-pii-events}
 
