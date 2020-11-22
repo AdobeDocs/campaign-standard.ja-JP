@@ -1,19 +1,16 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Target の動的コンテンツの追加
 description: Adobe Campaign配信の1つにAdobe Targetの動的コンテンツを追加する方法を説明します。
-page-status-flag: never-activated
-uuid: b3cc045f-7924-480e-8c61-8246510f3adb
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-target
-discoiquuid: 45ddf7b7-98f7-4fdd-bb4a-49ec8490e877
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '454'
-ht-degree: 29%
+ht-degree: 32%
 
 ---
 
@@ -41,7 +38,7 @@ Adobe Campaignの画像にアクセスする前に、まずAdobe Targetで次の
    この統合が対応するのは、静的画像だけです。コンテンツの残りの部分はカスタマイズできません。
 
 1. Adobe Target で指定したローボックス名を入力します。
-1. Adobe Target の設定で Enterprise 権限を使用している場合は、対応するプロパティをこのフィールドに追加します。Target の Enterprise 権限について詳しくは、[このページ](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/properties-overview.html)を参照してください。このフィールドはオプションであり、Target で Enterprise 権限を使用しない場合は必要ありません。
+1. Adobe Target の設定で Enterprise 権限を使用している場合は、対応するプロパティをこのフィールドに追加します。Target の Enterprise 権限について詳しくは、[このページ](https://docs.adobe.com/content/help/ja-JP/target/using/administer/manage-users/enterprise/properties-overview.translate.html)を参照してください。このフィールドはオプションであり、Target で Enterprise 権限を使用しない場合は必要ありません。
 1. In **[!UICONTROL Additional decision parameters]**, specify the mapping between the fields defined in the Adobe Target segments and the Adobe Campaign fields.
 
    使用する Adobe Campaign フィールドは、rawbox で指定されている必要があります。ここでは、受信者の性別に応じて異なるエクスペリエンスを定義します。
