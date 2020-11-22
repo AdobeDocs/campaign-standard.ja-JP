@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: リリースノート 2018
 description: このページでは、Adobe Campaign Standard の 2018 年の全リリースを紹介します。
-page-status-flag: never-activated
-uuid: 99f92a54-4b3d-48b9-b08d-e98b24e75f62
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '5400'
 ht-degree: 7%
@@ -49,7 +46,7 @@ Adobe Campaign Standardの最新 [ドキュメント更新表示](../../rn/using
  </tbody> 
 </table>
 
-**強化点**
+**改善点**
 
 * Adobe Campaign Standardは、AmazonS3 APIのバージョン4をサポートするようになりました。
 
@@ -126,9 +123,9 @@ Adobe Campaign Standardの最新 [ドキュメント更新表示](../../rn/using
  </tbody> 
 </table>
 
-**強化点**
+**改善点**
 
-* Adobe CampaignとAdobe Targetの統合により、ターゲットの [権限機能を活用できるようになりました](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/properties-overview.html) 。 Adobe Targetからの動的ターゲットを電子メールに含める場合、画像プロパティ（at_propertyコード）を指定できるようになりました。
+* Adobe CampaignとAdobe Targetの統合により、ターゲットの [権限機能を活用できるようになりました](https://docs.adobe.com/content/help/ja-JP/target/using/administer/manage-users/enterprise/properties-overview.translate.html) 。 Adobe Targetからの動的ターゲットを電子メールに含める場合、画像プロパティ（at_propertyコード）を指定できるようになりました。
 * プロファイル・リソースへのダウンコピー・リンクを持つカスタム・リソースは、GDPRのプライバシー・アクセス/削除要求によって考慮されるようになった。 1基の基数単純リンクとN基数収集リンクの場合、カスタムリソースで「ターゲットレコードの削除/複製は、リンクによって参照されるレコードを削除/複製することを意味します」を選択する必要があります。 0または1の基数単純リンクの場合は、「レコードの削除/複製は、リンクから参照されるターゲットレコードを削除または複製することを意味します」を選択します。
 
 **その他の変更**
@@ -156,7 +153,7 @@ Adobe Campaign Standardの最新 [ドキュメント更新表示](../../rn/using
 
 ## リリース 18.6 - 2018 年 6 月 {#release-18-6---june-2018}
 
-**強化点**
+**改善点**
 
 * この **[!UICONTROL History]** APIは、Adobe.IOに追加されました。 プロファイルのマーケティング履歴に関連する情報にアクセスできます。タッチポイント数、送信された配信数、ミラーページURLなど For more on this, refer to the [dedicated use case](../../api/using/interacting-with-marketing-history.md) .
 * データベースのバックアップのパフォーマンスを向上させるため、 **[!UICONTROL Database cleanup]** 技術的なワークフローが最適化されました。
@@ -168,7 +165,7 @@ Adobe Campaign Standardの最新 [ドキュメント更新表示](../../rn/using
 * 「 **配信品質** （すぐに使用できる状態）の更新」の技術ワークフローで、機能管理者が「ルールの更新 **** 」JavaScriptアクティビティで無視する連続エラー数を定義できるようになりました。 デフォルトでは、このフィールドの値は0に設定されており、すべてのエラーが無視されます。
 * ユニットアクセス制限条件の管理時に生成されるSQLが最適化されました。
 * アクティビティで、購読に関連するデータ（nms:appSubscriptionRcpテーブル）の追加、更新または削除ができるようになりました。 **[!UICONTROL Update]**
-* パフォーマンスを最適化するため、 **[!UICONTROL Update delivery execution]** 技術的なワークフローは2つのワークフローに分かれています。- **[!UICONTROL Update delivery execution]**:配信の追跡を更新します。 デフォルトでは、10分ごとに開始されます。 **[!UICONTROL Update delivery indicators]**:配信のKPIを更新します。既定では、1時間ごとに開始されます。 テクニカルワークフローの詳細については、この [節を参照してください](../../administration/using/technical-workflows.md#list-of-technical-workflows)。
+* パフォーマンスを最適化するため、 **[!UICONTROL Update delivery execution]** 技術的なワークフローは2つのワークフローに分かれています。- **[!UICONTROL Update delivery execution]**:配信の追跡を更新します。 デフォルトでは、10分ごとに開始されます。 **[!UICONTROL Update delivery indicators]**:配信のKPIを更新します。既定では、1時間ごとに開始されます。 For more on technical workflows, refer to this [section](../../administration/using/technical-workflows.md#list-of-technical-workflows).
 * 配信がメッセージを送信している場合、セクションのステータスに次の2つの値を設定できるようにな **[!UICONTROL Deployment]** りました。 **[!UICONTROL Sending]**:メッセージが送信されています。 **[!UICONTROL Sending (retry)]**:再試行パスが進行中です。
 * これで、そのロールを持つユーザーは **[!UICONTROL Delivery preparation]** 配達確認を送信できるようになります。 （CAMP-24313）
 * SMPP **外部アカウントを介してSMSルーティングに「TLS over SMPP****** 」オプションが追加されました。 詳しくは、この[節](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing)を参照してください。
@@ -227,7 +224,7 @@ Adobe Campaign Standardの最新 [ドキュメント更新表示](../../rn/using
  </tbody> 
 </table>
 
-**強化点**
+**改善点**
 
 * アプリケーションのメモリ全体とCPU使用率が向上しました
 
