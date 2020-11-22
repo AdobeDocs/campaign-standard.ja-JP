@@ -1,19 +1,16 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 強制隔離管理の理解
 description: 強制隔離管理を使用して配信品質を最適化する方法について説明します。
-page-status-flag: never-activated
-uuid: 3c287865-1ada-4351-b205-51807ff9f7ed
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: monitoring-messages
-discoiquuid: de3a50b6-ea8f-4521-996b-c49cc1f3c946
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '790'
-ht-degree: 82%
+ht-degree: 84%
 
 ---
 
@@ -30,13 +27,13 @@ ht-degree: 82%
 
 E メールアドレスまたは電話番号が強制隔離されているプロファイルは、メッセージ準備の際に自動的に除外されます（[配信用の強制隔離アドレスの識別](#identifying-quarantined-addresses-for-a-delivery)を参照）。これによって配信が迅速になります。エラー率は配信の速度に大きく影響するからです。
 
-一部のインターネットアクセスプロバイダーは、無効なアドレスの割合が高すぎる場合、E メールを自動的にスパムとみなします。したがって、強制隔離を行うと、これらのプロバイダーによるブロックリストへの追加を回避できます。
+一部のインターネットアクセスプロバイダーは、無効なアドレスの割合が高すぎる場合、E メールを自動的にスパムとみなします。したがって、強制隔離を使用すると、これらのプロバイダーによってブロックリストに追加されるのを回避できます。
 
 また、強制隔離は、誤りのある電話番号を配信から除外することで、SMS の送信コスト削減にも役立ちます。
 
 配信を保護および最適化するベストプラクティスについて詳しくは、[このページ](https://helpx.adobe.com/jp/campaign/kb/delivery-best-practices.html)を参照してください。
 
-### 強制隔離ブロックリスト対 {#quarantine-vs-denylist}
+### Quarantine vs Denylist {#quarantine-vs-denylist}
 
 **強制隔離**&#x200B;は、プロファイル自体ではなく、アドレスのみに適用されます。つまり、2 つのプロファイルに同じ E メールアドレスがある場合、そのアドレスが強制隔離されると、両方のプロファイルが影響を受けます。
 
