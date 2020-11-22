@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: リリースノート 2019
 description: このページでは、Adobe Campaign Standard の 2019 年の全リリースを紹介します。
-page-status-flag: never-activated
-uuid: 99f92a54-4b3d-48b9-b08d-e98b24e75f62
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-discoiquuid: e54f8305-7e32-4193-8e5a-b5d87b03038c
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '7624'
 ht-degree: 9%
@@ -39,7 +36,7 @@ ht-degree: 9%
    <ul>
     <li>アクセス権と削除権：GDPR 用に追加された機能を活用します。<a href="https://helpx.adobe.com/content/help/jp/campaign/kb/acs-privacy.html#righttoaccess">詳細情報</a> </li>
     <li><p>プライバシー要求を作成する際に、プライバシーコアサービスに規則の種類（GDPRまたはCCPA）が追加されました。 すべてのアクセス要求と削除要求に対して、このメソッドを使用する必要があります。アクセス要求および削除要求に対する Campaign API およびインターフェイスの使用は廃止されています。<a href="https://helpx.adobe.com/jp/campaign/kb/acs-deprecated-and-removed-features.html">廃止および削除された機能の記事</a>を参照してください。</p></li>
-    <li>プロファイルリソースに <strong>CCPAオプトアウト</strong> (CCPA Opt-Out)フィールドが追加され、個人情報の販売に対して消費者がオプトアウトしたかどうかをAdobe Campaignユーザーが追跡できるようになりました。 詳しくは、<a href="https://helpx.adobe.com/jp/campaign/kb/acs-privacy.html#ccpa">こちら</a>を参照してください。</li>
+    <li>プロファイルリソースに <strong>CCPAオプトアウト</strong> (CCPA Opt-Out)フィールドが追加され、個人情報の販売に対して消費者がオプトアウトしたかどうかをAdobe Campaignユーザーが追跡できるようになりました。 <a href="https://helpx.adobe.com/jp/campaign/kb/acs-privacy.html#ccpa">詳細情報</a>。</li>
   </ul>
     <p><a href="https://docs.adobe.com/content/help/ja-JP/campaign-standard-learn/tutorials/privacy/privacy-overview.html">ハウツービデオ</a>を参照してください。</p>
 </td> 
@@ -63,7 +60,7 @@ ht-degree: 9%
  </tbody> 
 </table>
 
-**強化点**
+**改善点**
 
 * 動的レポートの同意ポップアップが更新され、Adobe Campaign StandardとMicrosoft Dynamics 365の統合が含まれるようになりました。 条件に同意すると、Adobe Campaign Standard/Microsoft Dynamics 365統合と動的レポートを使用する際に、プロファイルデータが含まれます。 [詳細情報](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement) (CAMP-29766)
 * 配信のアラートを受け取る際に、間違った連絡日が表示される問題を修正しました。
@@ -261,7 +258,7 @@ ht-degree: 9%
 
 ## リリース 19.2.7 - 2019 年 7 月 {#release-19-2-7---july-2019}
 
-**強化点**
+**改善点**
 
 * GDPR削除クエリが改善され、パフォーマンスが向上しました。
 * 19.2のアップグレード後にWebがクラッシュする可能性がある問題を修正しました。 （CAMP-34862）
