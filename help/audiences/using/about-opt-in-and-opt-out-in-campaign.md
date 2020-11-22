@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Campaign のオプトインとオプトアウトについて
 description: オプトアウトの結果、プロファイルがどの配信や特定のチャネルの配信によってターゲット設定されることはなくなりました。
-page-status-flag: never-activated
-uuid: 501d9485-976b-4de7-b242-6886f2814c6c
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: audiences
 content-type: reference
 topic-tags: understanding-opt-in-and-opt-out-processes
-discoiquuid: 2f26ec22-0809-4541-b2a1-e84ff868ba6e
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 9%
