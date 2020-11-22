@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: ワークフローセグメントに基づくレポートの作成
 description: レポート内のワークフローのセグメントに応じて、配信の成功を確認する方法を説明します。
-page-status-flag: never-activated
-uuid: f75e005b-5328-4c98-9e78-51d54fd0e246
-contentOwner: beneat
-products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: customizing-reports
-discoiquuid: b6d3de63-3add-4881-8917-04a6f8b6be4d
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '617'
 ht-degree: 2%
@@ -112,7 +109,7 @@ ht-degree: 2%
 
    ![](assets/report_segment_5.png)
 
-1. 様々な指標（データのフィルタリングに使用する指標や指標など）をテーブルにドラッグ&amp;ドロップ **[!UICONTROL Open]** し、 **[!UICONTROL Click]** 開始に適用します。
+1. 様々な指標（データのフィルタリングに使用する指標や指標）をテーブルにドラッグ&amp;ドロップ **[!UICONTROL Open]** し、 **[!UICONTROL Click]** 開始に適用します。
 1. カテゴリ内で、ディメンションをクリックし、ワークフローの配信にディメンションをドラッグ&amp;ドロップして、ターゲットとなる訪問者に基づく電子メール配信の成功を測定します。 **[!UICONTROL Dimensions]****[!UICONTROL Profile]****[!UICONTROL Segment code]**
 
    ![](assets/report_segment_6.png)
