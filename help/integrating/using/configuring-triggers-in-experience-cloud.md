@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Experience Cloud でのトリガーの設定
 description: '以前の行動に基づいて、パーソナライズされた配信を顧客に送信する、開始へのAdobe Experience Cloudトリガー統合の設定方法を説明します。 '
-page-status-flag: never-activated
-uuid: 8fd7b804-9528-46a5-a060-bf16b8dc555d
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
-discoiquuid: 4163dc0c-8103-4425-b8bf-7aa45c4d3a06
 translation-type: tm+mt
-source-git-commit: 100f7eef03d10a66832920708ad415f8f0d3883c
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '860'
 ht-degree: 8%
