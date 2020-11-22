@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 購読解除
 description: すぐに使用できる購読解除レポートを使用して、配信を登録解除した回数を確認できます。
-page-status-flag: never-activated
-uuid: 62e24335-dd63-4767-86e3-4084be04fc50
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
-discoiquuid: c8527da3-3c65-4cea-b01a-da152bf6b01e
 context-tags: deliveryUnsubscriptionsReport,main;campaignUnsubscriptionsReport,main;programUnsubscriptionsReport,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '64'
 ht-degree: 17%
