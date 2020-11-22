@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: メッセージのトラッキング
 description: 配信受信者の動作を追跡する方法を説明します。
-page-status-flag: never-activated
-uuid: c3721647-0663-4614-a9c9-3b3a40af328a
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
-discoiquuid: 6fa50f0d-3dcf-4a9e-bccc-1ecda2bfb449
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 35%
@@ -30,7 +27,7 @@ Adobe Campaignでは、トラッキング機能のおかげで、配信受信者
 
 Adobe Campaign は、次の 2 つのタイプの Cookie を使用します。
 
-* セッション Cookie （nlid）：連絡先に送信される E メールの識別子（broadlogId）およびメッセージテンプレートの識別子（deliveryId）が含まれています。Adobe Campaign が送信した E メールに含まれている URL を連絡先のユーザーがクリックすると追加され、この連絡先での Web 上の行動をトラッキングできるようになります。このセッション Cookie は、ブラウザーが閉じられると自動的に消去されます。連絡先のユーザーは、Cookie を拒否するようにブラウザーを設定できます。
+* セッション Cookie （nlid）：連絡先に送信される E メールの識別子（broadlogId）およびメッセージテンプレートの識別子（deliveryId）が含まれています。Adobe Campaign が送信した E メールに含まれている URL を連絡先のユーザーがクリックすると追加され、この連絡先での web 上の行動をトラッキングできるようになります。このセッション Cookie は、ブラウザーが閉じられると自動的に消去されます。連絡先のユーザーは、Cookie を拒否するようにブラウザーを設定できます。
 * Adobe Experience Cloudソリューション間で共有されるcookie。 これにより、Web サイトの訪問時に Experience Cloud ソリューションとやり取りするユーザーを識別できます。この Cookie の説明については、[こちら](https://docs.adobe.com/content/help/ja-JP/core-services/interface/ec-cookies/cookies-mc.html)を参照してください。
 
 Adobe Campaign Standardを使用した追跡では、次の機能にアクセスできます。
