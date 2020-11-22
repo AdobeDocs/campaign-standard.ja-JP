@@ -1,19 +1,15 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: パーソナライズされたコンテンツの作成
-seo-title: パーソナライズされたコンテンツの作成
-page-status-flag: never-activated
-uuid: a540efc7-105d-4c7f-a2ee-ade4d22b3445
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
-discoiquuid: 0cbc4e92-482f-4dac-a1fb-b738e7127938
 index: y
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: a7300666587362048431d0bafacc317170b317aa
 workflow-type: tm+mt
-source-wordcount: '908'
+source-wordcount: '905'
 ht-degree: 79%
 
 ---
@@ -121,7 +117,7 @@ E メールの制限を守るには、以下を考慮してください。
 
 一部の E メールクライアントはデフォルトで画像をブロックし、一部のユーザーはデータ使用時に保存する画像をブロックするように設定を変更します。したがって、画像がダウンロードされなければ、メッセージ全体が失われる可能性があります。これを回避するには：
 
-* コンテンツと画像とテキストのバランスを取ります。画像のみの E メールは避けます.
+* コンテンツと画像とテキストのバランスを取ります。画像のみの E メールは避けます。
 
 * 画像にテキストを含める必要がある場合は、代替テキストやタイトルテキストを使用して、必ずメッセージが伝わるようにします。代替テキストやタイトルテキストのスタイルを設定して、外観を改善します。
 
