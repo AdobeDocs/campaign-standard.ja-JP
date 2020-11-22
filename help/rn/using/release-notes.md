@@ -1,19 +1,16 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 最新リリース
 description: このページでは、Adobe Campaign Standard の最新リリースを紹介します。
-page-status-flag: never-activated
-uuid: 1cf2e40c-beca-43db-8261-a1820ee86ad3
-contentOwner: vignes
-products: SG_CAMPAIGN/STANDARD
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-discoiquuid: 5c7bfb74-4002-4ffe-87e8-bddb41d34b41
 translation-type: tm+mt
-source-git-commit: ca0d93129a259635427220dee050fe441346e0b5
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '2412'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -22,7 +19,7 @@ ht-degree: 98%
 
 [リリース計画](../../rn/using/release-planning.md) | [コントロールパネルのリリース](https://docs.adobe.com/content/help/ja-JP/control-panel/using/release-notes.html) | [ドキュメントの更新](../../rn/using/documentation-updates.md) | [以前のリリースノート](../../rn/using/release-notes-2020.md) | [非推奨（廃止予定）の機能](../../rn/using/deprecated-features.md)
 
-![](assets/do-not-localize/cp-icon.png) **10月の新しいCampaign コントロールパネルリリースで** 、CNAMEを使用したドメイン設定と新しいデータベース監視機能が追加されました。 詳しくは、[こちら](https://docs.adobe.com/content/help/ja-JP/control-panel/using/release-notes.html)を参照してください。
+![](assets/do-not-localize/cp-icon.png) **10 月の新しい Campaign コントロールパネルリリース**&#x200B;で、CNAME を使用したドメイン設定と新しいデータベース監視機能が追加されました。詳しくは、[こちら](https://docs.adobe.com/content/help/ja-JP/control-panel/using/release-notes.html)を参照してください。
 
 ## リリース 20.4 - 2020 年 10 月 {#release-20-4---october-2020}
 
