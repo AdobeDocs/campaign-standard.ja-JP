@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: リリースノート 2017
 description: このページでは、Adobe Campaign Standard の 2017 年の全リリースを紹介します。
-page-status-flag: never-activated
-uuid: d73f8186-e309-441b-969d-71d0a1c33cf4
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-discoiquuid: 1cfd9b3b-9b3e-4587-9c46-b6fb02131654
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '4627'
 ht-degree: 7%
@@ -270,7 +267,7 @@ _ワークフロー_
    <td> デジタルの壁を突破し、Adobe Campaign Standard初のオフラインチャネル、ダイレクトメールで物理的な世界に接続。 この機能を使用すると、ダイレクトメールプロバイダーが必要とするファイルをパーソナライズし、チャネル間のキャンペーンの一部として生成できます。 ダイレクトメールを活用して、顧客を再び惹きつけたり、強制的な触覚タッチポイントによって顧客体験を強化したりして、顧客をアプリ、Webサイト、ストアに誘導します。<br /> 詳しくは、 <a href="../../channels/using/about-direct-mail.md">詳細なドキュメントを参照してください</a>。<br /> </td> 
   </tr> 
   <tr> 
-   <td> E メールの BCC<br /> </td> 
+   <td> BCC で E メールを送信<br /> </td> 
    <td> 電子メールBCCは、個々の受信者に送信される一意の電子メールメッセージを保存することを可能にし、ブランドはそれらのメッセージをアーカイブできます。 すべての電子メールにBCC電子メールアドレスを追加することで、Adobe Campaign Standardのお客様は、この機能を使用して各電子メールの正確なコピーを保存できます。 これは、金融サービス業界に共通の法的要件であり、リアルタイムで競合を解決するための顧客サービスセンターの支援に役立ちます。<br /> 詳しくは、 <a href="../../sending/using/archiving.md">詳細なドキュメントを参照してください</a>。<br /> </td> 
   </tr> 
  </tbody> 
