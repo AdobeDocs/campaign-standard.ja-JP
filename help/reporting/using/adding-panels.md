@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: パネルの追加
 description: 動的レポートを使用すると、選択した期間に応じてデータをより適切にフィルターするパネルを追加できます。
-page-status-flag: never-activated
-uuid: 8e76e837-5efc-4250-8192-dee1a0bd62fe
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: reporting
 content-type: reference
 topic-tags: customizing-reports
-discoiquuid: f4e1e676-5ca2-4a58-96d7-d378ff803710
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 1%
