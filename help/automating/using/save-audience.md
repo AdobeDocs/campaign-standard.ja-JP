@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: オーディエンスの保存
 description: 「オーディエンスの保存」アクティビティを使用すると、既存のオーディエンスを更新したり、ワークフローの上流で計算された母集団から新しいオーディエンスを作成することができます。
-page-status-flag: never-activated
-uuid: 8babb173-fa59-44a7-a2a5-49f45ba6bf99
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: 1f6bb048-7abd-499b-a4b0-187f9492dc47
 context-tags: saveAudience,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 100%
@@ -67,7 +64,6 @@ ht-degree: 100%
       >[!NOTE]
       >
       >このオプションは、Adobe Experience Cloud の共有オーディエンス機能が管理者によって設定されている場合にのみ使用できます。詳しくは、[Campaign と People コアサービスの使用](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)を参照してください。
-
    更新時に保存または使用できるオーディエンスのタイプは、ワークフローの上流に配置されているアクティビティによって異なります。
 
    オーディエンスのターゲティングディメンションが、保存時に不明な場合（インポートしたファイルからの場合など）は、オーディエンスはタイプが **[!UICONTROL File]** のオーディエンスとして作成または更新されます。
