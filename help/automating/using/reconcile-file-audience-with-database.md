@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: ファイルオーディエンスとデータベースの紐付け
 description: この例では、オーディエンスの読み取りアクティビティを使用して、ファイルのインポートから直接作成されたオーディエンスを調整する方法を示します。
-page-status-flag: never-activated
-uuid: 58c54e71-f4a7-4ae9-80a3-33c379ab1db9
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: 674684e5-8830-4d2f-ba97-59ed4ba7422f
 context-tags: readAudience,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 87%
