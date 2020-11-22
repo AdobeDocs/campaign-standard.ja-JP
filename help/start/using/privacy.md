@@ -1,16 +1,13 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: Adobe Campaign Standardでのプライバシーと同意
 description: ここでは、Adobe Campaign Standardのプライバシー、個人データ、同意管理、およびこれらを扱うために利用できるツールの概要について説明します。
-page-status-flag: never-activated
-uuid: ed9e631c-5ad1-49f1-be1e-b710bc64dc91
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
 translation-type: tm+mt
-source-git-commit: 7f0af4deeaf641e2aded9278b97eb498edd85d08
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '1456'
 ht-degree: 75%
@@ -48,15 +45,15 @@ Adobe Campaign は、Adobe Experience Cloud ソリューションの一部です
 
 * **Adobe Experience Cloud を使用する際に収集される情報**
 
-   Adobe Experience Cloud ソリューションを使用する会社は、収集して Adobe Experience Cloud アカウントに送信する情報を選択します。収集される情報のタイプの例としては、Web 閲覧アクティビティ、IP アドレス、モバイルデバイスからの位置情報、キャンペーン成功率、購入品目、買い物かごに入れた品目などがあります。
+   Adobe Experience Cloud ソリューションを使用する会社は、収集して Adobe Experience Cloud アカウントに送信する情報を選択します。収集される情報のタイプの例としては、web 閲覧アクティビティ、IP アドレス、モバイルデバイスからの位置情報、キャンペーン成功率、購入品目、買い物かごに入れた品目などがあります。
 
    >[!NOTE]
    >
-   >すべてのアドビ製品について、Campaign はアプリと Web サイトのユーザーに関する情報を収集します。詳しくは、[アドビのプライバシーポリシー](https://www.adobe.com/jp/privacy/policy.html)を参照してください。
+   >すべてのアドビ製品について、Campaign はアプリと web サイトのユーザーに関する情報を収集します。詳しくは、[アドビのプライバシーポリシー](https://www.adobe.com/jp/privacy/policy.html)を参照してください。
 
 * **Adobe Experience Cloud を使用した情報収集の仕組み**
 
-   * Adobe Experience Cloud ソリューションでは、情報を収集できるように、Web ビーコン（タグやピクセルとも呼ばれます）などの Cookie および同様のテクノロジーを使用します。Cookie および Adobe Campaign を使用した追跡機能について詳しくは、[この節](#tracking-capabilities)を参照してください。
+   * Adobe Experience Cloud ソリューションでは、情報を収集できるように、web ビーコン（タグやピクセルとも呼ばれます）などの Cookie および同様のテクノロジーを使用します。Cookie および Adobe Campaign を使用した追跡機能について詳しくは、[この節](#tracking-capabilities)を参照してください。
    * モバイルアプリで Adobe Experience Cloud テクノロジーを使用することもできます。キャンペーンと共にモバイル配信を送信する方法について詳しくは、 [このページを参照してください](https://helpx.adobe.com/jp/campaign/kb/acs-mobile.html)。
 
 * **Adobe Experience Cloud の使用に関するユーザーのプライバシー選択**
@@ -68,11 +65,11 @@ Adobe Campaign は、Adobe Experience Cloud ソリューションの一部です
 
    >[!NOTE]
    >
-   >すべてのアドビ製品と同様に、Campaign のユーザーは、アプリや Web サイトを通じて収集した共有情報をオプトアウトできます。詳しくは、[Adobe Experience Cloud の使用に関する FAQ](https://www.adobe.com/jp/privacy/experience-cloud-usage-info-faq.html) を参照してください。
+   >すべてのアドビ製品と同様に、Campaign のユーザーは、アプリや web サイトを通じて収集した共有情報をオプトアウトできます。詳しくは、[Adobe Experience Cloud の使用に関する FAQ](https://www.adobe.com/jp/privacy/experience-cloud-usage-info-faq.html) を参照してください。
 
 Adobe Experience Cloud のプライバシーについて詳しくは、[このページ](https://www.adobe.com/jp/privacy/marketing-cloud.html)を参照してください。
 
-## 個人データと個人 {#personal-data}
+## 個人データとペルソナ{#personal-data}
 
 プライバシーを管理する場合、どのデータを誰がどのように扱うかを定義することが重要です。
 * **個人データ**&#x200B;は、生きている個人を直接または間接的に識別できる情報です。
@@ -105,7 +102,7 @@ Adobe Campaign では、プライバシー管理に関する様々な機能を�
 * プライバシーリクエスト（アクセスする権利と忘れられる権利）：[この節](#privacy-requests)を参照してください。
 * 個人情報の販売のオプトアウト（CCPA 固有）：[この節](https://helpx.adobe.com/jp/campaign/kb/acs-privacy.html#ccpa)を参照してください。
 
-Campaign の主なプライバシー機能と関与する個人の例を[この節](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy-more.html#gdprpersonasandflow)に示します。
+Campaign の主なプライバシー機能と関与するペルソナの例を[この節](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy-more.html#gdprpersonasandflow)に示します。
 
 
 ### 同意、リテンション、役割 {#consent}
@@ -144,6 +141,6 @@ Adobe Campaignでは、その追跡機能のおかげで、セッションcookie
 
 >[!NOTE]
 >
->GDPR（一般データ保護規則）などの規制では、企業は Cookie をインストールする前に Web サイトのユーザーの同意をリクエストすることが規定されています。認証リクエストを通じて、貴社のサイトにWebトラッキングツールが装備されていることをユーザに通知する必要があります。
+>GDPR（一般データ保護規則）などの規制では、企業は Cookie をインストールする前に web サイトのユーザーの同意をリクエストすることが規定されています。認証リクエストを通じて、貴社のサイトにWebトラッキングツールが装備されていることをユーザに通知する必要があります。
 
 また、メッセージに [追跡リンク](../../designing/using/links.md#about-tracked-urls) を追加して、組み込みのトラッキングインジケーター [(](../../reporting/using/tracking-indicators.md) 追跡インジケーター [)レポートでの配信と受信者の動作の影響を測定したり、独自の](../../reporting/using/about-dynamic-reports.md)専用レポートを作成したりすることもできます。
