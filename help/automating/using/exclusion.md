@@ -1,17 +1,14 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 除外
 description: 「除外」アクティビティでは、特定の条件に従って、ある母集団から要素を除外することができます。
-page-status-flag: never-activated
-uuid: b79e7f73-37a0-4ec3-ac5a-5449dc1b1f22
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
-discoiquuid: d5312fcd-43ad-428e-bde9-90f062e9358c
 context-tags: exclusion,main
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 100%
