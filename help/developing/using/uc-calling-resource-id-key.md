@@ -1,8 +1,10 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: 複合 ID キーを使用したリソースの呼び出し
 description: 複合IDキーを使用してリソースを呼び出す方法を学習します。
 translation-type: tm+mt
-source-git-commit: 81612f8158a19853e4b3ca05866fa335af493f67
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 7%
