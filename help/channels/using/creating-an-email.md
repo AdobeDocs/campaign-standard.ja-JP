@@ -1,26 +1,23 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: E メールの作成
 description: Adobe Campaignで単一送信の電子メールを作成するには、次の手順に従います。
-page-status-flag: never-activated
-uuid: 74c7ef35-82c0-4bc4-b1f6-8e74fdcaea3c
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: channels
 content-type: reference
 topic-tags: email-messages
-discoiquuid: b27e0170-e73f-4782-8568-02927fb374f4
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '549'
-ht-degree: 20%
+ht-degree: 22%
 
 ---
 
 
 # E メールの作成{#creating-an-email}
 
-電子メールは、 [キャンペーン](../../start/using/marketing-activities.md#creating-a-marketing-activity)、Adobe Campaign [ホームページ](../../start/using/interface-description.md#home-page)、または [マーケティングアクティビティリストから作成できます](../../start/using/marketing-activities.md#about-marketing-activities)。 ワークフローから単一送信および定期的な電子メールを作成することもできます。
+You can create an email from a [campaign](../../start/using/marketing-activities.md#creating-a-marketing-activity), from the Adobe Campaign [home page](../../start/using/interface-description.md#home-page), or in the [marketing activity list](../../start/using/marketing-activities.md#about-marketing-activities). ワークフローから 1 回限りの電子メールや定期的な電子メールを作成することもできます。
 
 1. 電子メールマーケティングアクティビティの作成を開始したら、使用するテンプレートを選択します。
 
@@ -91,7 +88,7 @@ ht-degree: 20%
 
 **関連トピック**：
 
-* [E メールの作成](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/create-email-from-homepage.html) ビデオ
+* [E メールの作成](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/create-email-from-homepage.html)ビデオ
 * [パーソナライズされた電子メールの作成](https://helpx.adobe.com/jp/campaign/kb/acs-get-started-with-emails.html) （ステップバイステップ）ガイド
 * [Adobe CampaignとDreamweaverの統合](https://docs.adobe.com/content/help/ja-JP/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.translate.html) （ビデオ）
 * [Adobe Experience Managerとの統合](../../integrating/using/integrating-with-experience-manager.md)
