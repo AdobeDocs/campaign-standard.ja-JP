@@ -1,19 +1,16 @@
 ---
+solution: Campaign Standard
+product: campaign
 title: フィルタールール
 description: フィルタールールを使用して、メッセージのオーディエンスを絞り込みます。
-page-status-flag: never-activated
-uuid: ed3eea62-3a47-4318-ae22-d82aa857448f
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
 audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
-discoiquuid: 7ddaf36c-74e6-4501-b3eb-3d03f005aaa6
 translation-type: tm+mt
-source-git-commit: 1321c84c49de6d9a318bbc5bb8a0e28b332d2b5d
+source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '653'
-ht-degree: 15%
+ht-degree: 23%
 
 ---
 
@@ -45,7 +42,7 @@ ht-degree: 15%
 
 電子メールの分析時には、配信性能インスタンスで管理された暗号化グローバル抑止リストに含まれている禁止アドレスや禁止ドメイン名がこれらのルールによって照合され、受信者の電子メールアドレスが該当していないかどうかの確認処理が実行されます。該当した場合、その受信者宛てにはメッセージが送信されません。
 
-これは、悪意のあるアクティビティ、特にスパムトラップの使用ブロックリストによる、への追加を避けるためです。 例えば、Spamtrapを使用してWebフォームの購読を行うと、そのSpamtrapに確認電子メールが自動的に送信され、その結果、アドレスが自動的にブロックリストに追加されます。
+これは、Spamtrap などの悪意あるアクティビティによってブロックリストに登録されることを防ぐためです。例えば、会社の Web フォーム経由で Spamtrap を使用して購読処理が実行されると、Spamtrap 宛てに確認メールが自動送信され、お使いのアドレスが自動的にブロックリスト登録される結果になります。
 
 >[!NOTE]
 >
