@@ -54,8 +54,7 @@ XDMマッピングをAdobe Experience Platformに直ちに取り込むと、POST
 >
 >取り込みPOSTAPI呼び出しを実行するには、 **SQL関数の実行** (以下のJSスクリプトを実行するとCampaign Standard管理者が提供できる)ロールが必要です。
 >
->
-```
+>```
 >var sqlRoleObj = REST.head.roleBase.sql.get();
 >REST.head.securityGroup.Administrators.roles.post(sqlRoleObj);
 >```
