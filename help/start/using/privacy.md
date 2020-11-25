@@ -1,21 +1,21 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Adobe Campaign Standardでのプライバシーと同意
-description: ここでは、Adobe Campaign Standardのプライバシー、個人データ、同意管理、およびこれらを扱うために利用できるツールの概要について説明します。
+title: プライバシーと同意
+description: Adobe Campaign Standardでのプライバシー、個人データ、同意管理について説明します。
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: c76f4b6e3bc0feb50e5776836552fdceaff61ea7
 workflow-type: tm+mt
-source-wordcount: '1456'
-ht-degree: 75%
+source-wordcount: '1657'
+ht-degree: 69%
 
 ---
 
 
-# プライバシーと同意{#privacy-and-consent}
+# プライバシーと同意 {#privacy-and-consent}
 
 ## 一般的な推奨事項 {#general-recommendations}
 
@@ -37,7 +37,7 @@ Adobe Campaign は、個人情報や機密データを含む膨大な量のデ�
 
 >[!NOTE]
 >
->For more on how GDPR, CCPA, and PDPA apply to Adobe Campaign, see [this section](../../start/using/privacy-management.md#privacy-management-regulations).
+>For more on how GDPR, CCPA, PDPA, and LGPD apply to Adobe Campaign, see [this section](../../start/using/privacy-management.md#privacy-management-regulations).
 
 ### Adobe Experience Cloud プライバシー {#experience-cloud-privacy}
 
@@ -75,6 +75,8 @@ Adobe Experience Cloud のプライバシーについて詳しくは、[この�
 * **個人データ**&#x200B;は、生きている個人を直接または間接的に識別できる情報です。
 * **個人の機密データ**&#x200B;は、個人の人種、政治観、宗教的信念、犯罪歴、遺伝情報、健康データ、性的嗜好、生体認証情報、および労働組合の組合員に関する情報です。
 
+When integrating Campaign with other Experience Cloud solutions where audiences can be transferred from one system to another, such as the [Audience Destinations service](../../audiences/using/aep-about-audience-destinations-service.md), [Adobe Analytics](../../integrating/using/about-campaign-analytics-integration.md), [Audience Manager or People core service](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md), or with other solutions such as [Microsoft Dynamics 365](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md), you need to pay extra care to personal data protection.
+
 The [main regulations](#privacy-regulations) refer to the different entities that manage data as follows:
 * **データ管理者**&#x200B;は、個人データの収集、使用、共有の方法と目的を決定する権限です。
 * **データ処理者**&#x200B;は、データ管理者の指示に従って個人データを収集、使用、または共有する個人または関係者です。
@@ -82,7 +84,31 @@ The [main regulations](#privacy-regulations) refer to the different entities tha
 
 したがって、個人データを収集し共有する会社はデータ管理者で、そのクライアントはデータ主体です。Adobe Campaign は、お客様の指示に従って個人データを処理する際に、データ処理者として機能します。[プライバシーリクエスト](#privacy-requests)を管理する場合など、データ主体との関係を処理するのはデータ管理者としての責任であることに注意してください。
 
-When integrating Campaign with other Experience Cloud solutions where audiences can be transferred from one system to another, such as the [Audience Destinations service](../../audiences/using/aep-about-audience-destinations-service.md), [Adobe Analytics](../../integrating/using/about-campaign-analytics-integration.md), [Audience Manager or People core service](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md), or with other solutions such as [Microsoft Dynamics 365](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md), you need to pay extra care to personal data protection.
+### 使用事例シナリオ {#use-case-scenario}
+
+以下は、GDPRの顧客体験の高度な使用例です。
+
+この例では、航空会社の会社はAdobe Campaignの顧客です。 This company is the **Data Controller** and all the clients of the airline company are **Data Subjects**. この場合、Lauraは航空会社の顧客です。
+
+この例は次の関係者で構成されます。
+
+* **Laura** は&#x200B;**データ主体**&#x200B;で、彼女は航空会社の会社からメッセージを受け取る受信者です。 Lauraは頻繁にチラシになる可能性がありますが、ある時点では、航空会社の会社からの個人向けの広告やマーケティングのメッセージは望まないと判断する場合もあります。 そのため、航空会社に（所定のプロセスに基づいて）リピーター番号を削除するよう要求します。
+
+* **Anne** は、航空会社の会社の **データコントローラー** です。 Laura からの要求を受け取り、このデータ主体を識別するための有意な ID を取得して、要求内容を Adobe Campaign に登録します。
+
+* **Adobe Campaign** は **Data Processor**。
+
+![](assets/privacy-gdpr-flow.png)
+
+この例での一般的なフローを以下に示します。
+
+1. The **Data Subject** (Laura) sends a GDPR request to the **Data Controller**, via email, customer care or a web portal.
+
+1. **Data Controller** (Anne)は、GDPR要求をインターフェイス経由またはAPIを使用してキャンペーンにプッシュします。
+
+1. Once the **Data Processor** (Adobe Campaign) receives the information, it takes action on the GDPR request and sends a response or acknowledgement to the **Data Controller** (Anne).
+
+1. The **Data Controller** (Anne) then reviews the information and sends it back to the **Data Subject** (Laura).
 
 ## データの取得 {#data-acquisition}
 
@@ -123,17 +149,9 @@ Adobe Campaign は、特定のプライバシーリクエストに対するデ�
 
 * 「**忘れられる権利**（削除リクエスト）」は、データ主体に対して、データ管理者が個人データを消去する権限を与えます。
 
->[!NOTE]
->
->GDPR、CCPA、およびPDPAのプライバシーコンプライアンスに役立つツール群です。 For more on these different regulations, see [this section](../../start/using/privacy-management.md#privacy-management-regulations).
+The **Access** and **Delete** requests are presented in [this section](../../start/using/privacy-management.md#right-access-forgotten).
 
-<!--* **GDPR** (General Data Protection Regulation) is the European Union’s (EU) privacy law that harmonizes and modernizes data protection requirements. GDPR applies to Adobe Campaign customers who hold data for Data Subjects residing in the EU.
-
-* **CCPA** (California Consumer Privacy Act) provides California residents new rights in regards to their personal information and imposes data protection responsibilities on certain entities whom conduct business in California.
-
-* **Thailand's PDPA** (Personal Data Protection Act) is the new privacy law that harmonizes and modernizes data protection requirements for Thailand. This regulation applies to Adobe Campaign customers who hold data for Data Subjects residing in this country.-->
-
-**アクセス**&#x200B;リクエストと&#x200B;**削除**&#x200B;リクエストは、[このページ](https://helpx.adobe.com/campaign/kb/acs-privacy.html#righttoaccess)に表示されます。The implementation steps to create these requests are detailed on [this page](https://helpx.adobe.com/jp/campaign/kb/acs-privacy.html#ManagingPrivacyRequests). Tutorialsは [こちらからもご利用いただけます](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/privacy/privacy-overview.html)。
+これらのリクエストを作成するための実装手順については、[この節](../../start/using/privacy-requests.md)で詳しく説明します。Tutorialsは [こちらからもご利用いただけます](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/privacy/privacy-overview.html)。
 
 ## トラッキング機能 {#tracking-capabilities}
 
