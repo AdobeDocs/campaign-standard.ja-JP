@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: externalAPI,workflow,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 79e0b945e2c34bc396b7852851df848a76d62979
 workflow-type: tm+mt
-source-wordcount: '2269'
-ht-degree: 100%
+source-wordcount: '2156'
+ht-degree: 98%
 
 ---
 
@@ -38,19 +38,13 @@ ht-degree: 100%
 
 ### 下位互換性に関する注意 {#from-beta-to-ga}
 
-Campaign Standard 20.4 リリースでは、HTTP 応答データのサイズ制限と応答タイムアウトのガードレールが下がり、ベストプラクティスに合わせて調整されました（「制限事項とガードレール」の節を参照）。これらのガードレールの変更は、既存の外部 API アクティビティには影響しません。したがって、既存の外部 API アクティビティを、すべてのワークフローの新しいバージョンで置き換えることをお勧めします。
-
-Campaign Standard 20.2（またはそれ以前）からアップグレードする場合は、外部 API 機能により、Campaign Standard 20.3 リリースでベータ版が一般リリース（GA）に移行されたことに注意してください。
-
-それに伴い、今までベータ版の「外部 API」アクティビティを使用していた場合は、すべてのワークフローで GA 版の「外部 API」アクティビティに置き換える必要があります。  ベータ版の外部 API を使用するワークフローは、Campaign Standard 20.3 リリース以降は動作しません。
+With the Campaign Standard 20.4 release, the http response data size limit and response timeout guardrails have been lowered to align with best practices - see [Limitations and guardrails](#guardrails). これらのガードレールの変更は、既存の外部 API アクティビティには影響しません。したがって、既存の外部 API アクティビティを、すべてのワークフローの新しいバージョンで置き換えることをお勧めします。
 
 「外部 API」アクティビティを置き換える場合は、新しい「外部 API」アクティビティをワークフローに追加し、設定の詳細を手動でコピーしてから、古いアクティビティを削除します。
 
 >[!NOTE]
 >
 >アクティビティ固有のヘッダー値はアクティビティ内でマスクされているので、コピーすることはできません。
-
-次に、ワークフローでベータ版「外部 API」アクティビティのデータを参照／使用している他のアクティビティを、新しい「外部 API」アクティビティのデータを参照／使用するように再設定します。アクティビティの例：E メール配信（パーソナライゼーションフィールド）、エンリッチメントアクティビティなど
 
 ### 制限事項とガードレール {#guardrails}
 
