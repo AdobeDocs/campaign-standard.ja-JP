@@ -7,9 +7,9 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 3523a067e4fc4b1d22159fc93171fd1e0b32f05c
 workflow-type: tm+mt
-source-wordcount: '7624'
+source-wordcount: '7622'
 ht-degree: 9%
 
 ---
@@ -304,7 +304,7 @@ ht-degree: 9%
  <tbody> 
   <tr> 
    <td> コントロールパネル<br /> </td> 
-   <td> <p>管理者ユーザーとしての作業の効率を高めるために、容量を簡単に監視し、インスタンスの設定を管理できます（SFTPサーバー管理から開始）。</p><p>詳しくは、<a href="https://docs.adobe.com/content/help/ja-JP/control-panel/using/control-panel-home.html">詳細ドキュメント</a>および<a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/control-panel-overview.html">ハウツービデオ</a>を参照してください。</p></td> 
+   <td> <p>管理者ユーザーとしての作業の効率を高めるために、容量を簡単に監視し、インスタンスの設定を管理できます（SFTPサーバー管理から開始）。</p><p>詳しくは、<a href="https://docs.adobe.com/content/help/ja-JP/control-panel/using/control-panel-home.html">詳細ドキュメント</a>および<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=en">ハウツービデオ</a>を参照してください。</p></td> 
   </tr> 
   <tr> 
    <td> ローカル通知<br /> </td> 
