@@ -7,10 +7,10 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 3a4e8628b916291244d142d9cc4a6a84b799502b
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 1%
+source-wordcount: '478'
+ht-degree: 0%
 
 ---
 
@@ -39,9 +39,29 @@ ht-degree: 1%
 
 ![](assets/aep_statusmapping.png)
 
-データ取り込みジョブのステータス：
+データ取り込みジョブのステータスは次のとおりです。
 
 * **[!UICONTROL Created]**:データ取り込みジョブが作成され、データ取り込みが進行中です。
 * **[!UICONTROL Failed]**:データ取り込みジョブが失敗しました。 理由フィールドには、失敗の理由が表示されます。 失敗は一時的なものでも、永久的なものでもかまいません。 一時的なエラーが発生した場合は、設定された間隔の後に新しい取り込みジョブが作成されます。 トラブルシューティングの最初の手順として、ユーザーは失敗の理由フィールドを確認できます。 理由によってユーザーがAdobe Experience PlatformUIにリダイレクトされた場合、ユーザーはAdobe Experience Platformにログインし、データセット内のバッチステータスを確認して、正確な失敗理由を判断できます。
 * **[!UICONTROL Uploaded]**:まず、バッチをAdobe Experience Platformで作成し、次に、データをバッチに取り込む。 バッチIDフィールドには、Adobe Experience PlatformのバッチのバッチIDが表示されます。 また、Adobe Experience Platformはバッチに対する後の検証も実行します。 バッチは、Adobe Experience Platformが検証後の手順を完了するまで、最初にアップロード済みとしてマークされます。 ジョブは、アップロード後にバッチのステータスをAdobe Experience Platformにポーリングし続けます。 バッチは、Adobe Experience Platformでの検証後、失敗または成功状態にすることができます。
 * **[!UICONTROL Success]**:バッチがAdobe Experience Platformにアップロードされた後、設定された間隔の後にジョブのステータス（プラットフォームでの後処理の検証）がチェックされます。 ステータス「Success」により、Adobe Experience Platformでのデータの取り込みが成功していることが確認されました。
+
+マッピングを公開すると、次の検証エラーが表示される場合があります。
+
+![](assets/aep_datamapping_ccpa.png)
+
+これは、使用しているXDMスキーマが、プライバシー管理に関連する最新のXDMフィールドで更新されておらず、非推奨の「ccpa」 XDMフィールドが引き続き含まれている場合に発生します。
+
+XDMスキーマを更新するには、次の手順に従います。
+
+1. XDMマッピングページにあるリンクを使用して、Adobe Experience Platformのデータセットに移動します。
+
+1. XDMスキーマに移動します。
+
+1. スキーマ追加に「プライバシーを提供」ミックスインです。
+
+   ![](assets/aep_datamapping_privacyfield.png)
+
+1. スキーマを保存してから、マッピングの公開を再試行してください。 これでパブリケーションが渡されます。
+
+   ![](assets/aep_save_mapping.png)
