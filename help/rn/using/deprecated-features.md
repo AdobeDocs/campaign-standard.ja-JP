@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-deprecated-features
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: c4c6c854b749ff937ac0dea482db92c57c7a3683
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 35%
+source-wordcount: '667'
+ht-degree: 34%
 
 ---
 
@@ -63,7 +63,7 @@ Campaign Standard機能の差し迫った取り外し/交換を伝えるため�
  <tbody> 
   <tr> 
    <td> <p>キャンペーン19.4リリース以降、アクセス要求および削除要求に対するキャンペーンAPIおよびインターフェイスの使用は廃止されました。 2段階のプロファイルの削除は使用できません。 <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Adobeプライバシーコアサービスを使用します</a>。</p></br>
-   <p>「プライバシー要求の <a href="https://helpx.adobe.com/jp/campaign/kb/acs-privacy.html">管理</a>」も参照してください。</p>
+   <p>「プライバシー要求の <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=en">管理</a>」も参照してください。</p>
   <p> 
   <em>削除予定日：2021 年</em></p>
    </td> 
