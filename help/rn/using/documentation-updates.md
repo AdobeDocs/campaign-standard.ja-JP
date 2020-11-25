@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: abf2bb68ca0a2bbad6347184f2c091726021af89
 workflow-type: tm+mt
-source-wordcount: '6239'
-ht-degree: 98%
+source-wordcount: '6311'
+ht-degree: 97%
 
 ---
 
@@ -22,6 +22,12 @@ ht-degree: 98%
 ## 2020 年 11 月 {#doc-updates-november-2020}
 
 「プライバシー」セクションは、2つの新しいページで移動され、強化されました。 [プライバシー管理](../../start/using/privacy-management.md) / [プライバシー要求の](../../start/using/privacy-requests.md)管理。
+
+プライバシー管理に関連するデータマッピング検証エラーおよびトラブルシューティングの方法に関する情報が、「Adobe Experience PlatformのData Connector」セクションに追加されました。 [詳細を表示](../../developing/using/aep-mapping-activation.md)
+
+「個人データと個人」セクションには、プライバシーに関して様々な個人がどのように関わっているかを示すユースケースシナリオが更新されました。 [詳細を表示](../../start/using/privacy.md#use-case-scenario)
+
+プライバシーに関するよくある質問の一覧を記載した新しい節を追加しました。 [詳細を表示](../../start/using/privacy-faq.md)
 
 ## リリース 20.4 - 2020 年 10 月 {#release-20-4---october-2020}
 
