@@ -7,9 +7,9 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: a9afa91302684ddd37a94a9999d90bf8c8e7abee
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '964'
 ht-degree: 63%
 
 ---
@@ -17,17 +17,39 @@ ht-degree: 63%
 
 # プライバシーの管理 {#privacy-management}
 
-Adobe Campaign には、プライバシー規制（GDPR、CCPA、PDPA、LGPD など）を遵守するのに役立つ一連のツールが用意されています。
+Adobe Campaign offers a set of tools to help you comply with [Privacy regulations](#privacy-management-regulations) (including GDPR, CCPA, PDPA, LGPD).
 
-* This section presents general information on what Privacy management is and the features provided by Adobe Campaign to manage the [Right to Access and Right to be Forgotten](#right-access-forgotten).
+GDPRや他のプライバシー規制に対する対応を確保するために、Adobe Campaignが提供する5つの主な機能を次に示します。
 
-* また、プライバシー([同意、データ保持、ユーザーの役割](#consent-retention-roles))を管理するための重要な機能に関する情報や、Adobe Campaignを使用する際のプライバシーコンプライアンスに役立つベストプラクティスも含まれています。
+![](assets/privacy-gdpr-use-cases.png)
+
+* **アクセス権**
+
+* **削除権**
+
+詳しくは、「アクセス [権」および「忘れられる権利](#right-access-forgotten)」を参照してください。
+
+* **同意管理**
+
+* **データリテンション**
+
+* **権限管理**
+
+詳しくは、「 [同意、保持、役割](#consent-retention-roles)」を参照してください。
+
+<!--This section presents general information on what Privacy management is and the features provided by Adobe Campaign to manage the [Right to Access and Right to be Forgotten](#right-access-forgotten).
+
+It also contains information on important features to manage Privacy ([consent, data retention and user roles](#consent-retention-roles)), as well as best practices to help you with your Privacy compliance when using Adobe Campaign.-->
 
 ## プライバシー管理に関する規制 {#privacy-management-regulations}
 
 Adobe Campaignの機能は、次の規則の遵守に役立ちます。
 
-* **GDPR**（[EU 一般データ保護規則](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_en)）は欧州連合（EU）で施行されるプライバシー保護法律で、EU 諸国のデータ保護要件を現代の状況に合わせて整合化することを目的としています。
+* **GDPR**（[EU 一般データ保護規則](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_en)）は欧州連合（EU）で施行されるプライバシー保護法律で、EU 諸国のデータ保護要件を現代の状況に合わせて整合化することを目的としています。GDPRに関する一般的な情報は、次のリンクに従って確認してください。
+
+   * https://www.adobe.com/privacy/general-data-protection-regulation.html
+   * https://www.adobe.com/marketing-cloud/campaign/general-data-protection-regulation.html
+
 * **CCPA**（[カリフォルニア州消費者プライバシー法](https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&amp;division=3.&amp;title=1.81.5.&amp;part=4.&amp;chapter=&amp;article=)）は、カリフォルニア州民に個人情報に関する新しい権利を提供し、カリフォルニア州でビジネスをおこなう特定の事業者に対してデータ保護の責任を課します。
 * **PDPA** ([Personal Data Protection Act](https://secureprivacy.ai/thailand-pdpa-summary-what-businesses-need-to-know/))は、タイのデータ保護要件を調和・近代化する新しいプライバシー法です。
 * **LGPD**（[Lei Geral de Proteção de Dados、一般データ保護法](https://iapp.org/media/pdf/resource_center/Brazilian_General_Data_Protection_Law.pdf)）は、2021 年前半から適用され、ブラジルで個人データを収集および処理するすべての会社に対して有効となります。
@@ -49,6 +71,10 @@ In order to help you facilitate your Privacy readiness, Adobe Campaign allows yo
 **Access** / **Deleteリクエストの作成方法、およびAdobe Campaignによるリクエストの処理方法については、** 導入手順を参照してください [](../../start/using/privacy-requests.md#about-privacy-requests)。
 
 Tutorials on Privacy management in Campaign Standard are also available [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=en#privacy).
+
+>[!NOTE]
+>
+>個人データおよびデータを管理する様々なエンティティ（データ管理者、データ処理者、データ主体）について詳しくは、[個人データとペルソナ](../../start/using/privacy.md#personal-data)を参照してください。
 
 ## 同意、リテンション、役割 {#consent-retention-roles}
 
