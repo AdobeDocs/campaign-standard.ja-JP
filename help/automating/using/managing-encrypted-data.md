@@ -7,10 +7,10 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 3523a067e4fc4b1d22159fc93171fd1e0b32f05c
 workflow-type: tm+mt
 source-wordcount: '938'
-ht-degree: 44%
+ht-degree: 42%
 
 ---
 
@@ -45,7 +45,7 @@ Campaign コントロールパネルを使用する資格がない場合は、Ad
 
 このユースケースでは、外部システムで暗号化されたデータを Campaign コントロールパネルで生成された鍵を使用してインポートするためのワークフローを作成します。
 
-GPG キーを使用してデータを復号化する方法を示すチュートリアルビデオについては、[こちら](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/decrypting-data.html)を参照してください。
+GPG キーを使用してデータを復号化する方法を示すチュートリアルビデオについては、[こちら](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/decrypting-data.html?lang=en#instance-settings)を参照してください。
 
 このユースケースを実行する手順は次のとおりです。
 
@@ -89,7 +89,7 @@ GPG キーを使用してデータを復号化する方法を示すチュート�
 
 このユースケースでは、Campaign コントロールパネルにインストールされたキーを使用してデータを暗号化およびエクスポートするためのワークフローを作成します。
 
-GPG キーを使用してデータを暗号化する方法を示すチュートリアルビデオについては、[こちら](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/using-a-gpg-key-to-encrypt-data.html)を参照してください。
+A tutorial video showing how to use a GPG key to encrypt data is also available in [this section](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/using-a-gpg-key-to-encrypt-data.html?lang=en#instance-settings)).
 
 このユースケースを実行する手順は次のとおりです。
 
