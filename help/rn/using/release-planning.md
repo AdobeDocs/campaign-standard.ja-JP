@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-release-planning
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: de8afa7e942b7ee831837b1f9506488f7ca835f0
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 98%
@@ -41,7 +41,7 @@ ht-degree: 98%
  <tbody>
   <tr>
    <td>ステージング<br /> </td>
-   <td>2021年1月25日～26日<br /> </td>
+   <td>2021年1月25日～27日<br /> </td>
   </tr>
   <tr>
    <td> 本番<br /> </td>
