@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-deprecated-features
 translation-type: tm+mt
-source-git-commit: c4c6c854b749ff937ac0dea482db92c57c7a3683
+source-git-commit: de8afa7e942b7ee831837b1f9506488f7ca835f0
 workflow-type: tm+mt
 source-wordcount: '667'
 ht-degree: 34%
@@ -49,7 +49,7 @@ Campaign Standard機能の差し迫った取り外し/交換を伝えるため�
    <td> <p> 20.1リリース以降、SDK v4は非推奨となります。 <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">詳細情報</a>。</p><br/>
    <p><a href="https://aep-sdks.gitbook.io/docs/">Adobe Experience PlatformモバイルSDK</a> （旧称v5）は、今後のAdobe Experience Cloudの機能のみをサポートします。</p></br>
      <p>
-     <em>ターゲットの削除日：2020年9月30日</em></p>
+     <em>ターゲットの削除日：2021年8月31日</em></p>
      </td> 
   </tr> 
  </tbody> 
