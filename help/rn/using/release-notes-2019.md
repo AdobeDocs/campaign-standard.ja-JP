@@ -7,9 +7,9 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 3523a067e4fc4b1d22159fc93171fd1e0b32f05c
+source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
-source-wordcount: '7622'
+source-wordcount: '7623'
 ht-degree: 9%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 9%
 
 # リリースノート 2019{#release-notes-2019}
 
-[リリースの計画](https://helpx.adobe.com/jp/campaign/kb/acs-release-planning.html) | [Campaign コントロールパネルリリース](https://docs.adobe.com/content/help/ja-JP/control-panel/using/release-notes.html) | [ドキュメントの更新](../../rn/using/documentation-updates.md) | [最新リリースノート](../../rn/using/release-notes.md) | [非推奨の機能](https://helpx.adobe.com/jp/campaign/kb/acs-deprecated-and-removed-features.html)
+[リリース計画](https://helpx.adobe.com/jp/campaign/kb/acs-release-planning.html) | [Campaign コントロールパネルリリース](https://docs.adobe.com/content/help/ja-JP/control-panel/using/release-notes.html) | [ドキュメントの更新](../../rn/using/documentation-updates.md) | [最新のリリースノート](../../rn/using/release-notes.md)  [|廃止された機能](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html)
 
-## リリース19.4 - 2019年12月 {#release-19-4---october-2019}
+## リリース19.4 - 2019年12月{#release-19-4---october-2019}
 
 **新機能**
 
@@ -35,8 +35,8 @@ ht-degree: 9%
    <p>Adobe Campaignで既に利用可能なプライバシー機能（同意管理、データ保持設定、ユーザーの役割など）に加え、CCPAへの準備を容易にするための追加機能を含めることをお勧めします。</p>
    <ul>
     <li>アクセス権と削除権：GDPR 用に追加された機能を活用します。<a href="https://helpx.adobe.com/content/help/jp/campaign/kb/acs-privacy.html#righttoaccess">詳細情報</a> </li>
-    <li><p>プライバシー要求を作成する際に、プライバシーコアサービスに規則の種類（GDPRまたはCCPA）が追加されました。 すべてのアクセス要求と削除要求に対して、このメソッドを使用する必要があります。アクセス要求および削除要求に対する Campaign API およびインターフェイスの使用は廃止されています。<a href="https://helpx.adobe.com/jp/campaign/kb/acs-deprecated-and-removed-features.html">廃止および削除された機能の記事</a>を参照してください。</p></li>
-    <li>プロファイルリソースに <strong>CCPAオプトアウト</strong> (CCPA Opt-Out)フィールドが追加され、個人情報の販売に対して消費者がオプトアウトしたかどうかをAdobe Campaignユーザーが追跡できるようになりました。 <a href="https://helpx.adobe.com/jp/campaign/kb/acs-privacy.html#ccpa">詳細情報</a>。</li>
+    <li><p>プライバシー要求を作成する際に、プライバシーコアサービスに規則の種類（GDPRまたはCCPA）が追加されました。 すべてのアクセス要求と削除要求に対して、このメソッドを使用する必要があります。アクセス要求および削除要求に対する Campaign API およびインターフェイスの使用は廃止されています。<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">廃止および削除された機能の記事</a>を参照してください。</p></li>
+    <li>プロファイルリソースに<strong>CCPAオプトアウト</strong>フィールドが追加され、個人情報の販売に対して消費者がオプトアウトしたかどうかをAdobe Campaignユーザーが追跡できるようになりました。 <a href="https://helpx.adobe.com/jp/campaign/kb/acs-privacy.html#ccpa">詳細情報</a>。</li>
   </ul>
     <p><a href="https://docs.adobe.com/content/help/ja-JP/campaign-standard-learn/tutorials/privacy/privacy-overview.html">ハウツービデオ</a>を参照してください。</p>
 </td> 
@@ -54,7 +54,7 @@ ht-degree: 9%
   <tr> 
    <td> 
     <p>Adobe Campaign StandardとMicrosoft Dynamics 365の統合が可能になりました。 連絡先とカスタムエンティティレコードをDynamics 365からキャンペーンに転送し、電子メールイベントデータをキャンペーンからDynamics 365に返送して、販売/マーケティングの整合性を高めることができます。</p>
-    <p>この統合の設定とハウツービデオの表示については、 <a href="../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md">詳細なドキュメント</a><a href="https://docs.adobe.com/content/help/en/campaign-standard/using/integrating-with-adobe-cloud/campaign-and-microsoft-dynamics-365/working-with-campaign-standard-and-microsoft-dynamics-365.html">を参照してください</a>。</p>
+    <p><a href="../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md">詳細なドキュメント</a>を参照して、この統合を設定し、<a href="https://docs.adobe.com/content/help/en/campaign-standard/using/integrating-with-adobe-cloud/campaign-and-microsoft-dynamics-365/working-with-campaign-standard-and-microsoft-dynamics-365.html">ハウツービデオ</a>を表示してください。</p>
   </td>
   </tr> 
  </tbody> 
@@ -65,9 +65,9 @@ ht-degree: 9%
 * 動的レポートの同意ポップアップが更新され、Adobe Campaign StandardとMicrosoft Dynamics 365の統合が含まれるようになりました。 条件に同意すると、Adobe Campaign Standard/Microsoft Dynamics 365統合と動的レポートを使用する際に、プロファイルデータが含まれます。 [詳細情報](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement) (CAMP-29766)
 * 配信のアラートを受け取る際に、間違った連絡日が表示される問題を修正しました。
 * 不明なコンテキストパラメーターを使用してトランザクションメッセージイベントを送信すると、キャンペーンが「500」ではなく「400」エラーメッセージを返すようになりました。 （CAMP-28632）
-* 新しい **除外配達確認** ・セグメントが動的レポートに追加されました。 このセグメントは、レポートをフィルターするためにデフォルトで選択されるようになりました。 [詳細を表示](../../reporting/using/list-of-components-.md#segments)
-* プッシュ通知に **「メッセージの有効期限** 」オプションが追加されました。 Apple(APNS)またはAndroid(FCM)がメッセージを送信しなくなる有効期限を指定できます。 [詳細を表示](../../channels/using/customizing-a-push-notification.md#add-expiration-date)
-* ファイルの **読み込み** アクティビティが改善されました。ワークフローログは、ファイルの読み込みに失敗した場合に発生するエラーに関するより明確で詳細な情報を得ることができます。 「ファイル内の拒否を **保持する** 」オプションをアクティブ化したときに生成される送信トランジションの名前が「拒否」に変更されました ****。 [詳細を表示](../../automating/using/load-file.md)
+* 新しい&#x200B;**除外配達確認**&#x200B;セグメントが動的レポートに追加されました。 このセグメントは、レポートをフィルターするためにデフォルトで選択されるようになりました。 [詳細を表示](../../reporting/using/list-of-components-.md#segments)
+* プッシュ通知に、**メッセージの有効期限**&#x200B;オプションが追加されました。 Apple(APNS)またはAndroid(FCM)がメッセージを送信しなくなる有効期限を指定できます。 [詳細を表示](../../channels/using/customizing-a-push-notification.md#add-expiration-date)
+* **ファイル**&#x200B;の読み込みアクティビティが改善されました。ワークフローログは、ファイルの読み込みに失敗した場合に発生するエラーに関するより明確で詳細な情報を得ることができます。 **「ファイル**&#x200B;内の拒否を保持」オプションをアクティブ化すると生成される送信トランジションの名前が&#x200B;**拒否**&#x200B;に変更されました。 [詳細を表示](../../automating/using/load-file.md)
 * アップロードされたCSVファイルに言語が見つからないことに起因する送信エラーをより深く理解するために、多言語関連ログが送信ログに追加されました。
 
 **セキュリティの機能強化**
@@ -80,19 +80,19 @@ ht-degree: 9%
 
 * 購読解除、購読、ランディングページのリンクを電子メールに挿入した場合に追跡できない問題を修正しました。 （CAMP-37809）
 * 新しい電子メールを作成し、テンプレートを選択する際にエラーが発生する可能性がある問題を修正しました。 （CAMP-38000）
-* 電子メールデザイナーでリンクを編集する場合に、「 **下線** 」リンクオプションを使用できるようになりました。 また、 **ターゲット** ・プロパティが追加され、デフォルト値が「 **なし**」に設定されています。 [詳細を表示](../../designing/using/styles.md#about-styling-links)
+* 電子メールデザイナーを使用してリンクを編集する場合、**下線リンク**&#x200B;オプションを使用できるようになりました。 また、**ターゲット**&#x200B;プロパティが追加され、デフォルト値が&#x200B;**なし**&#x200B;に設定されています。 [詳細を表示](../../designing/using/styles.md#about-styling-links)
 * 電子メールの本文にあるテキストコンポーネント内のリンクの色の問題を修正しました。 （CAMP-37330）
 * 画像を削除すると、関連付けられたリンクが削除されない問題を修正しました。 （CAMP-37234）
-* 条件内の動的コンテンツの **順序** 設定の変更を保存できない問題を修正しました。 （CAMP-36883）
+* 条件内の動的コンテンツの&#x200B;**注文**&#x200B;設定に変更を保存できない問題を修正しました。 （CAMP-36883）
 * ランディングページを検索する際の問題を修正しました。 検索は、最初に作成された50個からすべてのデータベースに拡張されました。 （CAMP-36839）
-* 電子メールの送信者に対する変更を「 **送信者」に保存する際の問題を修正しました。名前** フィールド。 （CAMP-36606）
+* **差出人：名前**&#x200B;フィールド。 （CAMP-36606）
 * カルーセルコンポーネントの互換性に関する警告が、サポートされる電子メールクライアントを反映するように変更されました。
 * モバイルでの表示の問題を修正しました。 height属性が常に「height:「自動」と表示される問題を修正しました。 （CAMP-35497）
 * 構造コンポーネントからフラグメントを削除すると、HTMLにスタイルとメタタグが残る問題を修正しました。 （CAMP-35390）
 * 再利用可能なコンテンツを更新する際のフラグメントの問題を修正しました。 （CAMP-35186）
 * 電子メールにモバイルのみの条件付きコンテンツを表示する場合の問題を修正しました。 （CAMP-35155）
 * 幅が0で改行なしのスペースがランダムに表示される問題を修正しました。 （CAMP-35116）
-* フラグメントとして **保存ダイアログボックスでのボタンの位置に関する問題を修正しました** 。
+* **フラグメントとして保存**&#x200B;ダイアログボックスでのボタンの位置に関する問題を修正しました。
 * プレビュータイトルと代替テキストにHTMLタグを追加する場合のイメージの問題を修正しました。
 * 電子メールデザイナーで、レガシーエディターから電子メールで作成されたリンクを編集する際の問題を修正しました。
 * コンテンツ内に重複したスタイルタグが残る問題を修正しました。
@@ -108,11 +108,11 @@ ht-degree: 9%
 * 配信KPIページと動的レポートページにデータが表示されるデフォルトの時間範囲が、レポート結果の不一致を防ぐために調整されました。 （CAMP-35148）
 * アプリケーション証明書の有効期限が切れたときに、ログにエラーメッセージが追加されました。
 * ペイロード計算プレビューに、プッシュ通知の失敗を防ぐためのカスタムフィールドサイズが含まれるようになりました。 （CAMP-35303）
-* ファイルの **読み込み** アクティビティ内の **Rejectsファイルの名前を、** ファイルの書き出し **** アクティビティと同じように、パーソナライズできるようになりました。
+* **ファイル**&#x200B;の読み込みアクティビティー内の&#x200B;**拒否ファイル**&#x200B;の名前を、**ファイル書き出し**&#x200B;アクティビティーと同じようにパーソナライズできるようになりました。
 * 標準搭載されたエンティティにリンクされていないすべてのカスタムエンティティは、APIを使用してアクセスできるようになりました。
 * 大規模なリソースでのデータベースのパフォーマンスが向上しました。
 * SMSメッセージの送信時に発生するエラーの説明が明確になりました。 （CAMP-36558）
-* インスタンスのワークフローサーバーが停止する原因となるため、自身に直接または複数のアクティビティを介して接続されているワークフローの **スケジューラー** アクティビティを実行すると、エラーメッセージが表示されるようになりました。
+* 直接または複数のアクティビティを介して自身に接続されているワークフローの&#x200B;**スケジューラー**&#x200B;アクティビティを実行すると、インスタンスのワークフローサーバーが停止する可能性があるので、エラーメッセージが表示されるようになりました。
 * トランザクションメッセージのトラブルシューティングに役立つ改善が行われました。イベント設定画面の「データ」リンクは、「最後のトランザクションイベント」という名前に変更されました。受信したイベントを降順で並べ替えたリストになりました。 また、新しいトランザクションイベントステータスが作成されました。&quot;targetingFailed&quot;。 トランザクションメッセージングモジュールが、メッセージのターゲット設定に使用されるリンクの拡張に失敗した場合、トランザクションイベントは、（「routingFailed」ステータスではなく）この新しい状態になります。
 * ランディングページのアクセスを特定の地域または組織単位に制限する場合のインターフェイスの改善。 目的は、ランディングページが表示条件の対象となる可能性があることを警告することです。ランディングページの作成時に地理的および組織的な単位の選択が必須になりました。 ユニットを選択すると、関連情報を持つバナーが表示されるようになりました。 ランディングページのテスト時に表示されるエラーメッセージが明確になりました。
 * Campaign StandardAPIでは、キー値が接触チャネルキーと異なる場合や、Adobeが提供するキーではなく独自のビジネスキーをURIとして使用している場合、PATCH演算を使用してカスタムキーを変更することはできません。
@@ -129,16 +129,16 @@ ht-degree: 9%
 * 連絡先の日付の数式を使用して、プッシュ通知でテンプレートを選択する際の問題を修正しました。 （CAMP-35300）
 * メッセージ送信サービスがクラッシュする可能性がある問題を修正しました。 （CAMP-35287）
 * 最初のイベント日で定義された定期的なダイレクトメールに関する問題を修正。 （CAMP-35139）
-* 新しく拡張された **プロファイル** (クエリには使用できない)のカスタムリソースに関する問題を修正しました。 （CAMP-35119）
-* シャード構成が有効になっているインスタンスの **修復データベース構造** (Repair database structure)モードを修正しました。 （CAMP-35118）
+* 新しく拡張された&#x200B;**プロファイル**&#x200B;カスタムリソースがクエリに使用できなかった問題を修正しました。 （CAMP-35119）
+* シャード構成が有効になっているインスタンスの&#x200B;**修復データベース構造**&#x200B;モードを修正しました。 （CAMP-35118）
 * ブロードログに集計データを追加する際にSQLログエラーが発生する問題を修正しました。 （CAMP-35034）
-* セグメント **アクティビティを作成する際のトランジションの問題を修正しました** 。 （CAMP-35033）
-* **クエリ** アクティビティで、encryption_aescbcDecrypt **関数がencryption_aescbcEncrypt****** 関数を復号化できない問題を修正しました。 （CAMP-34952）
-* 配信に **トラッキングログが表示されない可能性がある問題を修正しました** 。 （CAMP-34855）
-* 時間の **送信の最適化** （カスタム日付式）を使用する場合に、ワークフローの追加データに関するエラーが原因でプッシュ通知が送信されない可能性がある問題を修正しました。 （CAMP-30336）
+* **セグメント化**&#x200B;アクティビティを作成する際のトランジションの問題を修正しました。 （CAMP-35033）
+* **クエリ**&#x200B;アクティビティーで、**encryption_aescbcDecrypt**&#x200B;関数が&#x200B;**encryption_aescbcEncrypt**&#x200B;関数を復号化できない問題を修正しました。 （CAMP-34952）
+* **トラッキングログ**&#x200B;が配信ーに表示されない可能性がある問題を修正しました。 （CAMP-34855）
+* **送信時刻の最適化**&#x200B;カスタムの日付式を使用する場合、ワークフローの追加データに関するエラーが原因でプッシュ通知が送信されない可能性がある問題を修正しました。 （CAMP-30336）
 * カスタムリソースが発行されない可能性がある問題を修正しました。 （CAMP-37425）
 * 管理者ユーザーがインポートパッケージを変更できない問題を修正しました。  （CAMP-37176）
-* 配信アクティビティが空の **読み取りオーディエンス** アクティビティに接続されている場合に、ワークフローが送信されない問題を修正しました。 （CAMP-37164）
+* 配信アクティビティが空の&#x200B;**オーディエンス**&#x200B;読み取りアクティビティに接続されている場合に、配達確認を送信できないワークフローが発生する問題を修正しました。 （CAMP-37164）
 * カスタムリソースを新しい環境にインポートできない問題を修正しました。 （CAMP-36506）
 * ホットクリックレポートで、画像によって割合が隠される可能性がある問題を修正しました。(CAMP-36407)
 * 配信の説明フィールドをエクスポートしようとすると発生していた問題を修正しました。 （CAMP-35467）
@@ -162,7 +162,7 @@ ht-degree: 9%
    <td> <p>より詳細なパーソナライゼーションのために、外部APIアクティビティを使用すると、REST API呼び出しを介して外部システムのデータをワークフローに取り込むことができます。 RESTエンドポイントには、顧客管理システム、Adobe I/O Runtime、Adobe Experience CloudRESTエンドポイント(データプラットフォーム、ターゲット、分析、キャンペーンなど)を使用できます。</p><p>この機能は現在パブリックベータ版です。</p><p>詳しくは、<a href="../../automating/using/external-api.md">詳細ドキュメント</a>および<a href="https://docs.adobe.com/content/help/ja-JP/campaign-standard-learn/tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">ハウツービデオ</a>を参照してください。</p></td> 
   </tr> 
   <tr> 
-   <td> ワークフローセグメントに関するレポート<br /> </td> 
+   <td> ワークフローセグメント<br />に関するレポート </td> 
    <td> <p>この機能を使用すると、マーケターは配信のパフォーマンスをセグメントコード別に分類できます。 ワークフローを作成し、セグメント化アクティビティを使用してセグメントを配信に割り当てる場合、これらのセグメントを同じ配信に配置できるようになりました。 これにより、1つの配信内の複数のセグメントに基づくオープン/クリック数の統計を表示できます。</p><p>詳しくは、<a href="../../reporting/using/creating-a-report-workflow-segment.md">詳細ドキュメント</a>および<a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/reporting/report-on-workflow-segments.html">ハウツービデオ</a>を参照してください。</p></td>
   </tr> 
  </tbody> 
@@ -204,12 +204,12 @@ ht-degree: 9%
 * Adobe Campaignは、Adobe Experience Platformロケーションサービスとの統合により、Experience PlatformSDKを介して、場所ベースのマーケティングメッセージをモバイルアプリの購読者に送信できるようになりました。 詳しくは、[詳細ドキュメント](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md)を参照してください。
 * レポート機能が改善され、より快適なエクスペリエンスを実現しました。 この機能を使用するには、動的レポート使用許諾契約に同意する必要があります。 For more on this, refer to the [detailed documentation](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
 * ワークフローでは、次に10回実行するワークフローに、新しいプレビューが追加されました。 For more on this, refer to the [detailed documentation](../../automating/using/scheduler.md).
-* スケジューラーアクティビティに新しいオプションが追加され、月別配信に対して特定の曜日を選択できるようになりました。 For more on this, refer to the [detailed documentation](../../automating/using/scheduler.md).
+* スケジューラーアクティビティに新しいオプションが追加され、月別配信に対して特定の曜日を選択できるようになりました。 詳しくは、[詳細なドキュメント](../../automating/using/scheduler.md)を参照してください。
 * 集計期間のない定期配信を作成する場合、配信ダッシュボードで配信の送信前に確認をリクエストできるようになりました。 For more on this, refer to the [detailed documentation](../../sending/using/confirming-the-send.md).
-* 配信の外部シグナルアクティビティで宣言されたイベント変数を使用して、ワークフローのラベルをパーソナライズできるようになりました。 For more on this, refer to the [detailed documentation](../../automating/using/calling-a-workflow-with-external-parameters.md).
+* 配信の外部シグナルアクティビティで宣言されたイベント変数を使用して、ワークフローのラベルをパーソナライズできるようになりました。 詳しくは、[詳細なドキュメント](../../automating/using/calling-a-workflow-with-external-parameters.md)を参照してください。
 * GDPR削除クエリが改善され、パフォーマンスが向上しました。 （CAMP-33504）
 * 「ftp」オプションが外部アカウント設定インターフェイスから削除されました。 （CAMP-34472）
-* 各電子メールメッセージの「SMTP test mode」オプションを有効または無効にできるようになりました。 For more on this, refer to the [detailed documentation](../../administration/using/configuring-email-channel.md#smtp-test-mode). （CAMP-34602）
+* 各電子メールメッセージの「SMTP test mode」オプションを有効または無効にできるようになりました。 詳しくは、[詳細なドキュメント](../../administration/using/configuring-email-channel.md#smtp-test-mode)を参照してください。 （CAMP-34602）
 
 **その他の変更**
 
@@ -311,8 +311,8 @@ ht-degree: 9%
    <td> <p>ローカル通知メッセージを使用すると、インターネットやフォアグラウンドで実行されているモバイルアプリケーションにアクセスできなくても、モバイルアプリケーション内で新しいデータが利用可能になった場合に、ユーザーに通知できます。 ローカル通知は、モバイルアプリケーションによって、特定の時間およびイベントに応じてトリガーされます。</p><p>詳しくは、<a href="../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type">詳細ドキュメント</a>を参照してください。</p></td> 
   </tr> 
   <tr> 
-   <td> Workflow enhancement - Add a payload to external signal activity<br /> </td> 
-   <td> <p>別のワークフローまたはREST API呼び出しから定義された条件が正常に満たされた場合に、ペイロードを使用してワークフローを開始し、外部システムと統合します。 また、この機能に対してテストを実行できる新しい <strong>test</strong> アクティビティも追加されました。</p><p>詳しくは、<a href="../../automating/using/calling-a-workflow-with-external-parameters.md">詳細ドキュメント</a>および<a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/execution-activities/external-signal-activity.html">ハウツービデオ</a>を参照してください。</p></td> 
+   <td> ワークフローの強化 — 外部信号アクティビティ追加へのペイロード<br /> </td> 
+   <td> <p>別のワークフローまたはREST API呼び出しから定義された条件が正常に満たされた場合に、ペイロードを使用してワークフローを開始し、外部システムと統合します。 また、この機能に対してテストを実行できる新しい<strong>test</strong>アクティビティも追加されました。</p><p>詳しくは、<a href="../../automating/using/calling-a-workflow-with-external-parameters.md">詳細ドキュメント</a>および<a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/execution-activities/external-signal-activity.html">ハウツービデオ</a>を参照してください。</p></td> 
   </tr> 
   <tr> 
    <td> ランディングページ機能の強化 — Google reCAPTCHA<br /> </td> 
@@ -347,7 +347,7 @@ ht-degree: 9%
 
 **トランザクションメッセージングの強化**
 
-操作とパフォーマンスを最適化するために、トランザクションメッセージングチャネルにいくつかの改善点が加えられました。
+操作とパフォーマンスを最適化するために、トランザクションメッセージングチャネルにいくつかの改善が加えられました。
 
 * トランザクションメッセージ期間が延長され、特に再試行が実行された場合に、すべてのメッセージが期限切れの前に送信されるようになりました。
 * トランザクションメッセージングのパフォーマンスは、様々な送信スレッドに負荷を分散することで向上しました。
@@ -359,8 +359,8 @@ ht-degree: 9%
 
 **その他の変更**
 
-* SMS外部アカウントに新しいオプションが追加されました。 SMSを送信するMTAプロセスの最大数を制限し、並列接続の数をより適切に制御できるようにします。 詳細については、「 [SMSコネクタのプロトコルと設定](https://helpx.adobe.com/jp/campaign/kb/sms-connector-protocol-and-settings.html) 」を参照してください。
-* API拡張を使用してリソースを公開する場合、APIが既に公開されている場合、再び公開されるたびに自動的に更新されるようになりました。 以前は、この操作は手動で行われ、APIを更新できなかった場合、このAPIのプロファイルまたはサービスリソースが壊れる可能性がありました。 For more on this, refer to the [detailed documentation](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension).
+* SMS外部アカウントに新しいオプションが追加されました。 SMSを送信するMTAプロセスの最大数を制限し、並列接続の数をより適切に制御できるようにします。 詳細については、[SMSコネクタのプロトコルと設定](https://helpx.adobe.com/jp/campaign/kb/sms-connector-protocol-and-settings.html)テクノチートを参照してください。
+* API拡張を使用してリソースを公開する場合、APIが既に公開されている場合、再び公開されるたびに自動的に更新されるようになりました。 以前は、この操作は手動で行われ、APIを更新できなかった場合、このAPIのプロファイルまたはサービスリソースが壊れる可能性がありました。 詳しくは、[詳細なドキュメント](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension)を参照してください。
 * 動的レポートから郵便番号のディメンションが削除されました。 代わりに、City、Country、Stateの各ディメンションを使用することをお勧めします。
 * アプリ内メッセージの「初回起動」のライフサイクルイベントトリガーが削除されました。
 * セキュリティグループを含むパッケージを書き出す場合、各グループに割り当てられているロールが含まれるようになりました。 （CAMP-32960）
@@ -381,7 +381,7 @@ ht-degree: 9%
 * レポート共有ワークフローが失敗する原因となっていたエラーを修正。
 * ユーザーがアプリ内メッセージをメディアURLだけで送信できないエラーを修正しました。
 * 証明書がインスタンスにアップロードされなかった場合でもモバイルアプリが表示される問題を修正しました。
-* モバイルアプリテンプレートのすべてのパーソナライゼーションフィールドが **ターゲットを使用する場合に、が機能しないエラーを修正しました** 。
+* モバイルアプリ&#x200B;**ターゲットのすべてのユーザーが**&#x200B;パーソナライゼーションフィールドを使用する場合に、テンプレートが機能しないエラーを修正しました。
 * 新しいキャンペーン標準インスタンスがプロビジョニングされました。 （CAMP-32635およびCAMP-32344）
 * ワークフローで日付式をカスタマイズできないエラーを修正しました。 （CAMP-30336）
 * カスタムの日付数式を定義すると、「追加データ」フィールドと「セグメントコード」フィールドをドロップダウンリストで使用できなくなる問題を修正しました。 （CAMP-32383）
@@ -421,24 +421,24 @@ ht-degree: 9%
  </thead> 
  <tbody> 
   <tr> 
-   <td> プッシュチャネルレポートの改善<br /> </td> 
+   <td> プッシュチャネルレポートの強化<br /> </td> 
    <td> <p>プッシュチャネルレポートに、ユーザーの関与をより直感的に測定できるように、いくつかの機能が追加されました。 このリリースでは、プッシュチャネル指標のリストを3つの異なる指標に拡張します。インプレッション数、クリック数、開く(App Open)。プッシュ通知を使用したユーザーのインタラクションをより効果的に測定および分析できます。 これに加えて、これらの指標の定義と実装も標準化しています。 また、プッシュ通知の組み込みレポートも、よく使用されるビジュアライゼーションと指標によって改善されました。</p><p> 詳しくは、<a href="../../reporting/using/push-notification-report.md">詳細ドキュメント</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td> モバイルアプリ用の統合の起動<br /> </td> 
+   <td> モバイルアプリ<br />の統合を起動 </td> 
    <td> <p>このリリースでは、Adobe Experience Platform LaunchおよびMobile SDKのAdobe Campaign Standard用GAバージョンのAndroidおよびiOS拡張機能とのAdobe Campaignの統合を説明します。 これらの拡張機能は、プッシュメッセージ、アプリ内メッセージおよびモバイルアプリプロファイルの更新をサポートしています。</p><p> 詳しくは、<a href="https://helpx.adobe.com/jp/campaign/kb/configuring-app-sdk.html">詳細ドキュメント</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td> Mobileのアプリ内メッセージ<br /> </td> 
-   <td> <p>このリリースには、キャンペーンのApp内チャネルのGAバージョンが含まれています。 機能の観点から見ると、ベータリリースに追加された主な機能は、アプリ内チャネルの動的レポートと、Mobile SDKとMCIAS(アプリ内ルールをSDKに提供するMarketing Cloudアプリ内メッセージサービス)との間の安全なハンドシェイクです。 安全なハンドシェイクを使用すると、ユーザーのPIIデータが悪意のある手に渡らないようにし、ユーザーがログアウトするたびにメッセージキャッシュを消去して、共有デバイスでユーザーのプライバシーを維持できます。</p><p>For more information, refer to the <a href="../../channels/using/about-in-app-messaging.md">detailed documentation</a> and the dedicated <a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/communication-channels/mobile/in-app/in-app-message-overview.html">In-App tutorial</a>.</p> </td> 
+   <td> モバイルアプリ内メッセージ<br /> </td> 
+   <td> <p>このリリースには、キャンペーンのApp内チャネルのGAバージョンが含まれています。 機能の観点から見ると、ベータリリースに追加された主な機能は、アプリ内チャネルの動的レポートと、Mobile SDKとMCIAS(アプリ内ルールをSDKに提供するMarketing Cloudアプリ内メッセージサービス)との間の安全なハンドシェイクです。 安全なハンドシェイクを使用すると、ユーザーのPIIデータが悪意のある手に渡らないようにし、ユーザーがログアウトするたびにメッセージキャッシュを消去して、共有デバイスでユーザーのプライバシーを維持できます。</p><p>詳しくは、<a href="../../channels/using/about-in-app-messaging.md">詳細なドキュメント</a>および専用の<a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/communication-channels/mobile/in-app/in-app-message-overview.html">アプリ内チュートリアル</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td> ワークフローの強化<br /> </td> 
    <td> <p>次のワークフロー機能が追加されました。</p> 
     <ul> 
      <li> ワークフロー内または同じキャンペーンインスタンスから別のワークフロー内のアクティビティをコピー&amp;ペーストできるようになりました。 これにより、ワークフロー全体または特定のアクティビティを簡単に重複し、最初に定義した設定を保持することができます。 詳しくは、<a href="../../automating/using/workflow-interface.md#duplicating-workflow-activities">詳細ドキュメント</a>を参照してください。（CAMP-20014） </li> 
-     <li> 「 <strong>Load file</strong> 」アクティビティを使用する場合、拒否されたレコードを含むファイルの名前にタイムスタンプを追加できるようになりました。 詳しくは、<a href="../../automating/using/load-file.md#configuration">詳細ドキュメント</a>を参照してください。 </li> 
-     <li> <strong>クエリ</strong> と <strong></strong> セグメント化のアクティビティで、アクティビティがデータを取得しない場合に、アウトバウンドトランジションを有効にできるようになりました。 </li> 
+     <li> <strong>ファイル</strong>の読み込みアクティビティを使用する場合、拒否されたレコードを含むファイルの名前にタイムスタンプを追加できるようになりました。 詳しくは、<a href="../../automating/using/load-file.md#configuration">詳細ドキュメント</a>を参照してください。 </li> 
+     <li> <strong>アクティビティがデータを取得しない場合、</strong> Queryと <strong></strong> Segmentationactivitiesでアウトバウンドトランジションを有効にできるようになりました。 </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -469,11 +469,11 @@ ht-degree: 9%
 * 既に利用可能なテンプレートの上に、カスタムのソーシャルチャネルを電子メールテンプレートに追加できるようになりました。
 * 18を超える構造を使用している場合に、構造メニューを下にスクロールできない問題を修正しました。 （CAMP-31173）
 * Adobe Campaignと共に送信されるプリヘッダーを含む電子メールを転送する際に、コンテンツの上にプリヘッダーが表示される問題を修正しました。 （CAMP-30736）
-* Adobe Experience Managerで件名を変更した後に「AEMコンテンツを **更新** 」オプションをクリックした場合に、件名行が更新されない問題を修正しました。 （CAMP-29984）
+* Adobe Experience Managerで件名を変更した後に「AEMコンテンツ&#x200B;**を更新」オプションをクリックした場合に、件名行が更新されない問題を修正しました。**（CAMP-29984）
 * Adobe Targetから動的画像を使用できない問題をいくつか修正しました。
 * コンテンツが以前にURLから読み込まれている場合、準備時にコンテンツを取得する際にプレビューが更新されない問題を修正しました。
-* YouTubeアイコンが **Social** コンテンツコンポーネントに追加されました。
-* 電子メール **デザイナーパレットに表示されるコンテンツコンポーネントとフラグメントに対して、** リスト表示が追加されました。
+* YouTubeアイコンが&#x200B;**Social**&#x200B;コンテンツコンポーネントに追加されました。
+* 電子メールデザイナーパレットに表示されるコンテンツコンポーネントとフラグメントに対して、**リスト**&#x200B;表示が追加されました。
 
 **その他の機能強化**
 
@@ -488,8 +488,8 @@ ht-degree: 9%
 
 **その他の変更**
 
-* Adobe CampaignとAdobe Experience Cloudは、Microsoft Internet Explorer 11の2019年春以降、およびCampaign Standard19.2リリースのサポートを終了します。 Microsoft Edgeまたはサポートされている別のブラウザーに切り替えてください。 See [Deprecated and removed features](https://helpx.adobe.com/jp/campaign/kb/acs-deprecated-and-removed-features.html) page.
-* プロファイルリソースの **国コード** (Country code **)フィールドの名前が、**&#x200B;国/地域コードに変更されました。
+* Adobe CampaignとAdobe Experience Cloudは、Microsoft Internet Explorer 11の2019年春以降、およびCampaign Standard19.2リリースのサポートを終了します。 Microsoft Edge またはサポートされている別のブラウザーに切り替えてください。 [機能の廃止と削除のページ](../../rn/using/deprecated-features.md)を参照してください。
+* プロファイルリソースの&#x200B;**国コード**&#x200B;フィールドの名前が&#x200B;**国コード**&#x200B;に変更されました。
 
 **パッチ**
 
@@ -531,22 +531,22 @@ ht-degree: 9%
    <td> 電子メールデザイナの一般リリース<br /> </td> 
    <td> <p>新しい直感的な電子メールデザイナー（旧称Creative Designer）は、GAに移行しました。 従来のコンテンツエディターの以下の機能をすべてサポートするようになりました。</p> 
     <ul> 
-     <li> Adobe Targetの <a href="../../integrating/using/adding-target-dynamic-content.md">ダイナミックイメージの活用</a> </li> 
-     <li> 準備時にURLからコンテンツを自動的に <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">取得する機能</a> </li> 
-     <li> 標準 <a href="../../designing/using/using-reusable-content.md#content-templates">に完全に準拠しているコンテンツテンプレート</a>。 </li> 
+     <li> <a href="../../integrating/using/adding-target-dynamic-content.md">Adobe Target</a>の動的画像の使用 </li> 
+     <li> 準備時にURLからコンテンツを自動的に<a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">取得する機能</a> </li> 
+     <li> 完全に準拠した<a href="../../designing/using/using-reusable-content.md#content-templates">既製のコンテンツテンプレート</a>です。 </li> 
     </ul> 
-    <p>詳しくは、<a href="../../designing/using/designing-content-in-adobe-campaign.md">詳細ドキュメント</a>および<a href="https://docs.adobe.com/content/help/ja-JP/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html">ハウツービデオ</a>を参照してください。機能強化および修正点を次に示します。</p><p>その結果、従来の電子メールコンテンツエディターは廃止されました。 詳しくは、この<a href="https://helpx.adobe.com/jp/campaign/kb/acs-deprecated-and-removed-features.html">ページ</a>を参照してください。</p> </td> 
+    <p>詳しくは、<a href="../../designing/using/designing-content-in-adobe-campaign.md">詳細ドキュメント</a>および<a href="https://docs.adobe.com/content/help/ja-JP/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html">ハウツービデオ</a>を参照してください。機能強化および修正点を次に示します。</p><p>その結果、従来の電子メールコンテンツエディターは廃止されました。 詳しくは、この<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">ページ</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td> Product Listings in Transactional Emails<br /> </td> 
+   <td> トランザクション電子メールの製品リスト<br /> </td> 
    <td> <p>トランザクション用の電子メールメッセージで、1つ以上の製品コレクションを参照できるようになりました。 例えば、ユーザーの買い物かごに含まれていたすべての製品を一覧表示した買い物かご放棄電子メールを、画像、価格、各製品へのリンクと共に自動的に送信できます。</p><p>詳しくは、<a href="../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message">詳細ドキュメント</a>および<a href="https://docs.adobe.com/content/help/ja-JP/campaign-learn/campaign-standard-tutorials/designing-content/product-listings-in-transactional-email.html">ハウツービデオ</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td> Mobile View in the Email Designer<br /> </td> 
+   <td> 電子メールデザイナのモバイル表示<br /> </td> 
    <td> <p>電子メールコンテンツの編集時に、専用のモバイル表示に切り替えることができるようになりました。 これにより、余白の調整、フォントサイズの小さささ、背景色の変化など、モバイル表示用のすべてのスタイルオプションを個別に編集することで、電子メールのレスポンシブデザインを微調整できます。</p><p> 詳しくは、<a href="../../designing/using/plain-text-html-modes.md#switching-to-mobile-view">詳細ドキュメント</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td> アプリ内メッセージベータ版の改善<br /> </td> 
+   <td> アプリ内メッセージベータ版の強化<br /> </td> 
    <td> <p>アプリ内メッセージベータ版の機能が次のように強化されました。</p> 
     <ul> 
      <li> アプリ内ベータ版チャネルはGDPRに準拠 </li> 
@@ -588,7 +588,7 @@ ht-degree: 9%
 
 * 動的レポートで誤った配信ログが表示される問題を修正しました。 （CAMP-23446）
 * 直帰率の概要レポートの数値に影響を与える可能性がある問題を修正しました。(CAMP-28703)
-* キャンペーンとAssetsコアサービスの統合に関する問題を修正しました。電子メールで選択した場合に、アセットが表示されない場合があ **[!UICONTROL Image shared from Adobe Experience Cloud]** りました(CAMP-28732)。
+* キャンペーンとAssetsコアサービスの統合に関する問題を修正しました。電子メールで&#x200B;**[!UICONTROL Image shared from Adobe Experience Cloud]**&#x200B;を選択した場合に、アセットが表示されなくなる可能性がありました(CAMP-28732)。
 * SMPP外部アカウントで翻訳が許可されている場合でも、「oe」文字を含むSMSメッセージが送信されない問題を修正しました。 （CAMP-29041）
 * ワークフローでセグメントアクティビティを使用する場合に重複レコードが表示される問題を修正しました。 （CAMP-28743）
 * ワークフローアクティビティの列の値マッピングの1つを削除できない問題を修正しました。 （CAMP-28708）
