@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '1006'
-ht-degree: 99%
+source-wordcount: '1027'
+ht-degree: 97%
 
 ---
 
@@ -24,9 +24,10 @@ ht-degree: 99%
 
 このページでは、各手順の情報と、詳細情報を参照できる関連ドキュメントを紹介します。
 
+![](assets/do-not-localize/how-to-video.png) [ビデオでのランディングページの作成方法の確認](#video)
+
 **関連トピック：**
 
-* [ランディングページチュートリアルビデオの作成](https://docs.adobe.com/content/help/ja-JP/campaign-standard-learn/tutorials/communication-channels/landing-pages/landing-page-create-and-edit.translate.html)
 * [サービスの作成](../../audiences/using/creating-a-service.md)
 * [ダブルオプトインプロセスの設定](setting-up-a-double-opt-in-process.md)
 
@@ -131,3 +132,11 @@ ht-degree: 99%
 ランディングページを公開すると、オンラインで利用できる状態になります。その後、異なるメカニズムを導入して、データベース内の新しいプロファイルを取得したり、既存のプロファイルに関する追加情報を取得できます。
 
 ランディングページの公開について詳しくは、[この節](../../channels/using/testing-publishing-landing-page.md#publishing-a-landing-page)を参照してください。
+
+## チュートリアルビデオ {#video}
+
+このビデオでは、ランディングページの作成および編集方法を紹介します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/24093?quality=12)
+
+追加のCampaign Standardハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja)で参照できます。
