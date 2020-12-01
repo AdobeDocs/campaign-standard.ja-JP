@@ -7,15 +7,15 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 3%
+source-wordcount: '138'
+ht-degree: 0%
 
 ---
 
 
-# 地理的単位について {#about-geographical-units}
+# 地理的単位について{#about-geographical-units}
 
 >[!CAUTION]
 >
@@ -23,8 +23,8 @@ ht-degree: 3%
 >
 >その結果、新しいCampaign Standardインスタンスと、地理的単位が作成されていない既存のインスタンスは、18.7リリースからこの機能を実装できません。
 >
->For more on this, refer to the <a href="https://helpx.adobe.com/jp/campaign/kb/acs-deprecated-and-removed-features.html">Deprecated features</a> page.
+>この点について詳しくは、<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">非推奨機能</a>のページを参照してください。
 
-geoUnitBase **エンドポイントを使用すると、地理的単位を操作できます。例えば、** 地理的単位を使用して、属性を更新したり、プロファイルの単位を更新したりできます。
+**geoUnitBase**&#x200B;エンドポイントを使用すると、地理的単位を操作できます。例えば、プロファイルの属性を更新したり、エンドポイントを更新したりできます。
 
-プロファイル資源を拡張する際に、 **Geographical unit** （地理的単位）フィールドがプロファイルに追加されます。 その結果、 **profileAndServicesExtエンドポイントを必ず使用して、地理的単位とやり取りします** 。 プロファイルのリソース拡張機能について詳しくは、 [キャンペーンのドキュメントを参照してください](https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles)。
+プロファイルリソースを拡張する際に、プロファイルに&#x200B;**Geographical unit**&#x200B;フィールドが追加されます。 その結果、**profileAndServicesExt**&#x200B;エンドポイントを必ず使用して、地理的な単位とやり取りします。 プロファイルのリソース拡張子について詳しくは、[キャンペーンドキュメント](https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles)を参照してください。
