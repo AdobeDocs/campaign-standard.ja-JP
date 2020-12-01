@@ -7,9 +7,9 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '226'
 ht-degree: 100%
 
 ---
@@ -22,11 +22,11 @@ Adobe Campaign を使用すると、さまざまなユーザーに割り当て�
 * **組織単位**：プラットフォームの各種のオブジェクト（電子メール、ワークフロー、テンプレート、ユーザー、プロファイルなど）に対する権限の階層を定義できます。[組織単位](../../administration/using/organizational-units.md)の節を参照してください。
 * **役割**：ユーザーおよびユーザーグループに割り当てられる認証を定義できる一元的な権限のセットです。[役割のリスト](../../administration/using/list-of-roles.md)の節を参照してください。
 
-   組織単位と役割を組み合わせることにより、ユーザーには該当するインターフェイスのみ表示され、様々な機能に対するユーザーのアクセスを定義できます。詳しくは、[認証についての表](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)を参照してください。
+   組織単位と役割を組み合わせることにより、ユーザーには該当するインターフェイスのみ表示され、様々な機能に対するユーザーのアクセスを定義できます。詳しくは、[認証についての表](../../administration/using/list-of-roles.md)を参照してください。
 
 >[!IMPORTANT]
 >
->地理的単位機能は廃止されています。詳しくは、この[ページ](https://helpx.adobe.com/jp/campaign/kb/acs-deprecated-and-removed-features.html)を参照してください。
+>地理的単位機能は廃止されています。詳しくは、この[ページ](../../rn/using/deprecated-features.md)を参照してください。
 
 役割、グループ、および組織単位は、プラットフォームの機能管理者が **[!UICONTROL Administration > Users & Security]** メニューで管理できます。
 
