@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,wizard;workflow,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '958'
-ht-degree: 100%
+source-wordcount: '983'
+ht-degree: 96%
 
 ---
 
@@ -36,10 +36,11 @@ ht-degree: 100%
 
 ![](assets/workflow_overview.png)
 
-
 ## ワークフローの作成 {#creating-a-workflow}
 
 ワークフローは、プログラム、キャンペーン、マーケティングアクティビティリストのいずれかから作成できます。
+
+![](assets/do-not-localize/how-to-video.png) [ビデオでワークフローを構築する方法の確認](#video)
 
 マーケティングアクティビティの作成について詳しくは、[マーケティングアクティビティの作成](../../start/using/marketing-activities.md#creating-a-marketing-activity)の節を参照してください。
 
@@ -67,14 +68,13 @@ ht-degree: 100%
 
 1. アクティビティの作成を確認すると、該当するアクティビティのダッシュボードが表示されます。詳しくは、[ワークフローインターフェイス](../../automating/using/workflow-interface.md)の節を参照してください。
 
-1. ワークフローを設定する準備ができたら、[**[!UICONTROL Edit properties]**]ボタンボタンをクリックして、追加のオプションにアクセスできます。例えば、ワークフローのすべてのアクティビティでデフォルトで使用する特定のタイムゾーンを定義できます。デフォルトでは、現在の Campaign オペレーターに指定されたタイムゾーンがワークフローのタイムゾーンになります。
+1. ワークフローを設定する準備ができたら、[**[!UICONTROL Edit properties]**]ボタンボタンをクリックして、追加のオプションにアクセスできます。
+
+   例えば、ワークフローのすべてのアクティビティでデフォルトで使用する特定のタイムゾーンを定義できます。デフォルトでは、現在の Campaign オペレーターに指定されたタイムゾーンがワークフローのタイムゾーンになります。
+
+   ワークフローのプロパティの詳細については、[このページ](../../automating/using/managing-execution-options.md)を参照してください。
 
    ![](assets/workflow_properties.png)
-
-**関連トピック：**
-
-* [ワークフローの作成](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/managing-processes-and-data/workflow-general-operation/building-a-workflow.html)（ビデオ）
-* [ワークフローのプロパティ](../../automating/using/managing-execution-options.md)
 
 ## アクティビティの追加とリンク{#adding-and-linking-activities}
 
@@ -130,3 +130,11 @@ ht-degree: 100%
 1. データの処理に必要な各種オプションをすべて定義します。各アクティビティで使用できるオプションについては、アクティビティごとの説明を参照してください。
 1. アクティビティを保存します。ワークフローのアクティビティごとに、以上の操作を繰り返します。
 1. ワークフローを保存します。
+
+## チュートリアルビデオ {#video}
+
+このビデオでは、ワークフローの作成方法を紹介します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/23937?quality=12)
+
+追加のCampaign Standardハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja)で参照できます。
