@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: email-messages
 context-tags: delivery,abTesting,back;deliveryCreation,wizard;delivery,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '817'
 ht-degree: 100%
 
 ---
@@ -83,10 +83,6 @@ A/B テストの具体的なコンテキストは次のようになります。
    >結果に優劣がない場合、勝者バリアントを手動で選択する必要があります。バリアントが選択された、または選択する必要があることを、電子メールの作成者と調整者に通知できます。 [Adobe Campaign 通知](../../administration/using/sending-internal-notifications.md)を参照してください。
 
 これで E メールが定義され、送信されます。次にログやレポートにアクセスして、キャンペーンの成功を測定できます。
-
-**関連トピック**：
-
-[E メールの作成](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/create-email-from-homepage.html)ビデオ
 
 ## A/B テストインジケーターについて{#about-a-b-test-indicators}
 
