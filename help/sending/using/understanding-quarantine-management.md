@@ -7,9 +7,9 @@ audience: sending
 content-type: reference
 topic-tags: monitoring-messages
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '781'
 ht-degree: 84%
 
 ---
@@ -31,15 +31,15 @@ E メールアドレスまたは電話番号が強制隔離されているプロ
 
 また、強制隔離は、誤りのある電話番号を配信から除外することで、SMS の送信コスト削減にも役立ちます。
 
-配信を保護および最適化するベストプラクティスについて詳しくは、[このページ](https://helpx.adobe.com/jp/campaign/kb/delivery-best-practices.html)を参照してください。
+配信を保護および最適化するベストプラクティスについて詳しくは、[このページ](../../sending/using/delivery-best-practices.md)を参照してください。
 
-### Quarantine vs Denylist {#quarantine-vs-denylist}
+### 強制隔離とブロックリスト{#quarantine-vs-denylist}
 
 **強制隔離**&#x200B;は、プロファイル自体ではなく、アドレスのみに適用されます。つまり、2 つのプロファイルに同じ E メールアドレスがある場合、そのアドレスが強制隔離されると、両方のプロファイルが影響を受けます。
 
 同様に、E メールアドレスが強制隔離されているプロファイルは、プロファイルを更新して新しいアドレスを入力できるので、再び配信アクションのターゲットになる可能性があります。
 
-Being on the **Denylist**, on the other hand, will result in the profile no longer being targeted by any delivery, for example after an unsubscription (opt-out). キャンペーンプロセスについて詳しくは、ブロックリストでのオプトインおよびオプトアウトについてを参照してください [](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)。
+一方、**ブロックリストプロファイル**&#x200B;にある場合は、購読解除（オプトアウト）の後など、配信がをターゲットにしなくなります。 ブロックリスト処理について詳しくは、[キャンペーン](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)でのオプトインとオプトアウトについてを参照してください。
 
 >[!NOTE]
 >
@@ -86,8 +86,7 @@ Adobe Campaign は、エラーメッセージの選定時に割り当てられ�
 ユーザーが E メールをスパム（**フィードバックループ**）と評価した場合、メッセージは Campaign が管理するテクニカルメールボックスに自動的にリダイレクトされます。さらに、その E メールアドレスは自動的に強制隔離され、ステータスが「**[!UICONTROL On denylist]**」となります。この状態はアドレスのみを表し、プロファイルはブロックリスト上にないので、SMSメッセージやプッシュ通知を受け取り続けます。
 
 >[!NOTE]
->
->Adobe Campaign の強制隔離では、大文字と小文字が区別されます。後から再度ターゲットされることのないよう、E メールアドレスは必ず小文字でインポートしてください。
+Adobe Campaign の強制隔離では、大文字と小文字が区別されます。後から再度ターゲットされることのないよう、E メールアドレスは必ず小文字でインポートしてください。
 
 隔離されたアドレスのリスト（[プラットフォーム全体の強制隔離されたアドレスの識別](#identifying-quarantined-addresses-for-the-entire-platform)を参照）の「**[!UICONTROL Error reason]**」フィールドは、選択したアドレスが強制隔離された理由を示します。
 
