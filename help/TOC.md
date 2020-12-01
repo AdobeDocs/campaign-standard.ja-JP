@@ -6,9 +6,9 @@ user-guide-title: Campaign Standard
 breadcrumb-title: Campaign Standard
 title: Campaign Standard ガイド
 translation-type: tm+mt
-source-git-commit: abf2bb68ca0a2bbad6347184f2c091726021af89
+source-git-commit: 817eebd4fe9ed33bdb2820912556cfda25ef66a5
 workflow-type: tm+mt
-source-wordcount: '1663'
+source-wordcount: '1664'
 ht-degree: 99%
 
 ---
@@ -29,20 +29,21 @@ ht-degree: 99%
    + [廃止された機能](rn/using/deprecated-features.md)
 + はじめに {#getting-started}
    + [Adobe Campaign Standard について](start/using/about-campaign-standard.md)
-   + プライバシー {#privacy}
-      + [プライバシーと同意](start/using/privacy.md)
-      + [プライバシーの管理](start/using/privacy-management.md)
-      + [プライバシーリクエスト](start/using/privacy-requests.md)
-      + [プライバシーFAQ](start/using/privacy-faq.md)
    + インターフェイスの検出{#discovering-the-interface}
       + [インターフェイスについて](start/using/about-the-interface.md)
       + [インターフェイスの説明](start/using/interface-description.md)
       + [リストのカスタマイズ](start/using/customizing-lists.md)
+      + [アクセシビリティ](start/using/accessibility.md)
    + マーケティングアクティビティの使用{#marketing-plans}
       + [プログラムとキャンペーン](start/using/programs-and-campaigns.md)
       + [マーケティングアクティビティ](start/using/marketing-activities.md)
       + [マーケティングアクティビティテンプレート](start/using/marketing-activity-templates.md)
       + [タイムライン](start/using/timeline.md)
+   + プライバシー {#privacy}
+      + [プライバシーと同意](start/using/privacy.md)
+      + [プライバシーの管理](start/using/privacy-management.md)
+      + [プライバシーリクエスト](start/using/privacy-requests.md)
+      + [プライバシーFAQ](start/using/privacy-faq.md)
 + プロファイルとオーディエンス{#profiles-and-audiences}
    + [プロファイルとオーディエンスの概要](audiences/using/get-started-profiles-and-audiences.md)
    + プロファイルの管理{#managing-profiles}
