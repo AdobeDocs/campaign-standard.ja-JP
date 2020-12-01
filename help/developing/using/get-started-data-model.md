@@ -7,10 +7,10 @@ audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 29%
+source-wordcount: '336'
+ht-degree: 30%
 
 ---
 
@@ -29,9 +29,9 @@ ht-degree: 29%
 
 <img src="assets/do-not-localize/icon_datamodel.svg" width="60px">
 
-キャンペーンが使用するデータは、 **事前定義されたデータモデルで定義された異なるリソースを通じて定義され**&#x200B;ます。 データモデルには、一連のマーケティング関連リソースの標準搭載されたSQL構造が表示されます。配信、オーディエンス、ランディングページ、プロファイル等 各リソースには関連するフィルターが付属し、各リソース間を移動できます。
+キャンペーンが使用するデータは、**事前定義データモデル**&#x200B;で定義された異なるリソースを介して定義されます。 データモデルには、一連のマーケティング関連リソースの標準搭載されたSQL構造が表示されます。配信、オーディエンス、ランディングページ、プロファイル等 各リソースには関連するフィルターが付属し、各リソース間を移動できます。
 
-[ **診断** ]メニューを使用すると、Campaign Standardによって生成される技術的なオブジェクトをリストできます。データスキーマ、Webページ、フィルターなど。データモデルおよび変更を監視できます。
+**診断**&#x200B;メニューを使用すると、Campaign Standardが生成する技術的なオブジェクトをリストできます。データスキーマ、Webページ、フィルターなど。データモデルおよび変更を監視できます。
 
 詳しくは、以下を参照してください。
 
@@ -44,9 +44,9 @@ ht-degree: 29%
 
 <img src="assets/do-not-localize/icon_custom.svg" width="60px">
 
-Campaign Standardを使用すると、事前定義されたデータモデルを **** 拡張して、独自のリソースを作成（購入テーブルや製品テーブルの追加など）したり、既存のリソースを新しいフィールドで拡張したりできます。 また、キャンペーン画面を設定して、作成された新しいリソースやフィールドを使用してナビゲーションを最適化することもできます。
+Campaign Standardでは、**定義済みのデータモデル**&#x200B;を拡張して独自のリソースを作成（例えば、購入テーブルや製品テーブルの追加）したり、既存のリソースを新しいフィールドで拡張したりできます。 また、キャンペーン画面を設定して、作成された新しいリソースやフィールドを使用してナビゲーションを最適化することもできます。
 
-また、Campaign StandardREST APIを **拡張して** 、カスタムリソースプロファイルのAPI拡張フィールドに公開できます。 これにより、例えば、請求システムから生成されたプロモーションコードで顧客のプロファイルを更新できます。
+また、Campaign StandardREST APIを&#x200B;**拡張して、カスタムリソースプロファイルのAPI拡張フィールドに公開することもできます。**&#x200B;これにより、例えば、請求システムから生成されたプロモーションコードで顧客のプロファイルを更新できます。
 
 詳しくは、以下を参照してください。
 
@@ -55,7 +55,7 @@ Campaign Standardを使用すると、事前定義されたデータモデルを
 * [使用例：新しいフィールドを使用してプロファイルリソースを拡張する](../../developing/using/extending-the-profile-resource-with-a-new-field.md)
 * [使用例：アプリケーションリソースへの購読の拡張](../../developing/using/extending-the-subscriptions-to-an-application-resource.md)
 
-## APIの使用 {#apis}
+## APIを使用する{#apis}
 
 <img src="assets/do-not-localize/icon_api.svg" width="60px">
 
@@ -64,5 +64,4 @@ Campaign StandardAPIを使用して、Adobe Campaign Standard向けの統合を�
 ## その他のリソース
 
 * [Adobe Experience Platform Data Connector について](../../developing/using/aep-about-data-connector.md)
-* [カスタムリソースの作成（ビデオ）](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/developing/custom-resources-develop/creating-custom-resources.html)
 * [カスタムリソースのエクスポートとインポート](https://helpx.adobe.com/campaign/kb/acs-get-started-with-cusres.html)
