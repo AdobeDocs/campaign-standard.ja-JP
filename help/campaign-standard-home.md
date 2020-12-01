@@ -6,9 +6,9 @@ title: Adobe Campaign Standard 製品ドキュメント
 description: Campaign Standard 製品ドキュメントの参照
 topic: Premium
 translation-type: tm+mt
-source-git-commit: a7300666587362048431d0bafacc317170b317aa
+source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '216'
 ht-degree: 100%
 
 ---
@@ -75,5 +75,5 @@ ht-degree: 100%
 | [コントロールパネルのドキュメント](https://docs.adobe.com/content/help/ja-JP/control-panel/using/control-panel-home.html) | [Campaign API](api/using/get-started-apis.md) |
 | [実装ガイド](https://helpx.adobe.com/jp/campaign/kb/campaign-standard-implementation-guide.html) | [エラーメッセージのリスト](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [リリース計画](rn/using/release-planning.md) | [Campaign データモデル](developing/using/datamodel-introduction.md) |
-| [廃止および削除された機能](https://helpx.adobe.com/jp/campaign/kb/acs-deprecated-and-removed-features.html) | [マルチソリューションガイド](integrating/using/get-started-campaign-integrations.md) |
+| [廃止および削除された機能](rn/using/deprecated-features.md)) | [マルチソリューションガイド](integrating/using/get-started-campaign-integrations.md) |
 | [Campaign Standard の基礎知識](start/using/about-campaign-standard.md) | [テクニカルノート](https://helpx.adobe.com/jp/campaign/kb/acs-article-list.html) |
