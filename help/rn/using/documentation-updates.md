@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: abf2bb68ca0a2bbad6347184f2c091726021af89
 workflow-type: tm+mt
 source-wordcount: '6311'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 97%
 
 ## 2020 年 11 月 {#doc-updates-november-2020}
 
-「プライバシー」セクションは、2つの新しいページで移動され、強化されました。 [プライバシー管理](../../start/using/privacy-management.md) / [プライバシー要求の](../../start/using/privacy-requests.md)管理。
+プライバシー節は移動し、[プライバシー管理](../../start/using/privacy-management.md)と[プライバシーリクエストの管理](../../start/using/privacy-requests.md)の 2 つの新しいページが追加されました。
 
 プライバシー管理に関連するデータマッピング検証エラーおよびトラブルシューティングの方法に関する情報が、「Adobe Experience PlatformのData Connector」セクションに追加されました。 [詳細を表示](../../developing/using/aep-mapping-activation.md)
 
@@ -45,7 +45,7 @@ ht-degree: 97%
 
 ワークフローのベストプラクティスに、1 つのワークフローで使用するアクティビティ数に関する推奨事項が追加されました。[詳細を表示](../../automating/using/best-practices-workflows.md#number-activities)
 
-配信のベストプラクティスに関する新しい節を追加しました。 [詳細を表示](../../sending/using/delivery-best-practices.md)
+配信のベストプラクティスに関する新しい節が追加されました。[詳細を表示](../../sending/using/delivery-best-practices.md)
 
 新しいフィルターについて説明する節が追加され、そのイベントのステータスと最後にイベントが受信された時点に従って設定を検索できるようになりました。 [詳細を表示](../../administration/using/configuring-transactional-messaging.md#searching-transactional-events)
 
@@ -185,7 +185,7 @@ E メール BCC でのアーカイブに関する節が移動され、更新さ�
 
 Adobe Campaign Standard／Adobe Experience Manager の統合に関するドキュメントが更新され、改訂されました。[詳細を表示](../../integrating/using/configure-experience-manager.md)
 
-The Campaign Email Designer documentation and related pages have been updated to reflect [!DNL Adobe Creative SDK] depreciation. [詳細を表示](https://helpx.adobe.com/jp/campaign/kb/acs-deprecated-and-removed-features.html)
+Campaign E メールデザイナーのドキュメントと関連ページが更新され、[!DNL Adobe Creative SDK] が非推奨になっていることが反映されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/acs-deprecated-and-removed-features.html)
 
 Campaign Standard データモデルのベストプラクティスに関する新しい節が追加されました。[詳細を表示](../../developing/using/data-model-best-practices.md)
 
@@ -235,7 +235,7 @@ Campaign と Experience Manager の使用に関するドキュメントが更新
 
 API ドキュメントのホームページが改善され、各種のトピックへのリダイレクトが追加されました。[詳細を表示](../../api/using/get-started-apis.md)
 
-## 11月- 2019年12月 {#doc-updates-december-2019}
+## 2019 年 11 月〜12 月 {#doc-updates-december-2019}
 
 S3 外部アカウントの設定に関するドキュメントが更新されました。[詳細を表示](../../administration/using/external-accounts.md#amazon-s3-external-account)
 
@@ -255,7 +255,7 @@ Campaign Standard 内のワークフローを使用してコントロール母�
 
 API ドキュメントセットは、Campaign Standard ドキュメントに統合されました。[詳細を表示](../../api/using/get-started-apis.md)
 
-「はじめに」の節は、移動および更新されました。 [詳細を表示](https://helpx.adobe.com/jp/campaign/kb/acs-get-started-with-emails.html)
+パーソナライズされた E メールの作成入門ガイドの節を移動し、更新しました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/acs-get-started-with-emails.html)
 
 配信のベストプラクティス入門ガイドが更新されました。[詳細を表示](../../sending/using/delivery-best-practices.md)
 
@@ -273,7 +273,7 @@ Microsoft Dynamics 365 統合（GA） - [詳細情報](../../integrating/using/w
 
 **リリースに伴うその他のドキュメントのアップデート**
 
-Adobe Campaignのエラーメッセージのリストが更新されました。 [詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+Adobe Campaign のエラーメッセージのリストが更新されました。 [詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
 GDPR の入門ガイドが改善され、強化されました。GDPR や CCPA を含む、プライバシー管理に関するドキュメントになりました。[詳細を表示](https://helpx.adobe.com/content/help/jp/campaign/kb/campaign-privacy.html)
 
@@ -287,7 +287,7 @@ E メールデザイナーでリンクのスタイルを設定する方法を説
 
 プライバシーに関する情報が API ドキュメントに追加されました。[ここをクリック](../../api/using/creating-a-privacy-request.md)
 
-## Sept. - Oct. 2019 {#doc-updates-october-2019}
+## 2019 年 9 月～ 10 月 {#doc-updates-october-2019}
 
 Campaign Standard 設定に関連する新しい節が追加されました。[詳細を表示](../../administration/using/about-campaign-standard-settings.md)
 
@@ -307,7 +307,7 @@ Adobe Experience Platform SDK を使用したモバイルアプリケーショ�
 
 E メールデザイナーガイドの構成が変更されました。[詳細を表示](../../designing/using/designing-content-in-adobe-campaign.md)
 
-## 2019 年 8 月{#doc-updates-august-2019}
+## 2019 年 8 月 {#doc-updates-august-2019}
 
 クエリに注目したワークフローの使用例を紹介する新しい節を追加しました。[詳細を表示](../../automating/using/workflow-created-query-with-complement.md)
 
@@ -359,7 +359,7 @@ E メールデザイナーの推奨されるアップデートに関する新し
 
 カスタムリソースドキュメントに警告を追加しました。カスタムリソース ID には使用する文字は最大 30 文字にすることをお勧めします。これは、カスタムのリソースフィールド、キー、インデックス、リンクについても同様です。[詳細を表示](../../developing/using/creating-or-extending-the-resource.md)
 
-## 2019年6月～7月 {#doc-updates-2019}
+## 2019 年 6 月～7 月 {#doc-updates-2019}
 
 ランディングページの制限に関する新しいページを追加しました。[詳細を表示](../../channels/using/getting-started-with-landing-pages.md#landing-page-limitations)
 
