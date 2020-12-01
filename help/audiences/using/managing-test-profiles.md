@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: preparing-and-testing-messages
 context-tags: seedMember,overview
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 100%
+source-wordcount: '449'
+ht-degree: 96%
 
 ---
 
@@ -21,6 +21,8 @@ ht-degree: 100%
 ## テストプロファイルについて {#about-test-profiles}
 
 テストプロファイルを使用すると、定義済みのターゲティング条件に一致しない追加の受信者をターゲットにすることができます。テストプロファイルは、受信者データベースの不正使用を検出したり、E メールがインボックスに確実に届くようにしたりするために、メッセージのオーディエンスに追加されます。
+
+![](assets/do-not-localize/how-to-video.png) [動画でこの機能を確認する](#video)
 
 テストプロファイルは、アドバンスメニュー&#x200B;**[!UICONTROL Profiles & audiences > Test profiles]**&#x200B;から管理できます。
 
@@ -65,10 +67,6 @@ ht-degree: 100%
 
 このテストプロファイルがプロファイルのリストに追加されます。
 
-**関連トピック：**
-
-[テストプロファイルの作成](https://docs.adobe.com/content/help/ja-JP/campaign-standard-learn/tutorials/profiles-and-audiences/test-profiles.translate.html)（ビデオ）
-
 ## テストプロファイルの編集 {#editing-test-profiles}
 
 テストプロファイルを編集したり、テストプロファイルにリンクされているデータを参照または変更するには、次の手順に従います。
@@ -79,3 +77,11 @@ ht-degree: 100%
    ![](assets/test_profile_edit.png)
 
 1. 変更内容を入力した場合は、「**[!UICONTROL Save]**」をクリックします。または、テストプロファイルの名前を選択した後、画面上部のセクションで「**[!UICONTROL Test profiles]**」を選択して、テストプロファイルダッシュボードに戻ります。
+
+## チュートリアルビデオ {#video}
+
+このビデオでは、テストプロファイルの作成方法を紹介します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/24094?quality=12)
+
+追加のCampaign Standardハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja)で参照できます。
