@@ -7,10 +7,10 @@ audience: audiences
 content-type: reference
 topic-tags: managing-profiles
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 97%
+source-wordcount: '380'
+ht-degree: 90%
 
 ---
 
@@ -22,6 +22,8 @@ Adobe Campaign では、メッセージのメインターゲットを定義す�
 >[!NOTE]
 >
 >プロファイルの作成は、Adobe Campaign Standard API を使用しても可能です。詳しくは、[該当するドキュメント](../../api/using/creating-profiles.md)を参照してください。
+
+![](assets/do-not-localize/how-to-video.png) [ビデオのワークフローを使用してプロファイルを読み込む方法の確認](#video)
 
 Campaign でプロファイルを作成または更新するには、次の操作をおこないます。
 
@@ -50,7 +52,7 @@ Campaign でプロファイルを作成または更新するには、次の操�
    * E メールアドレス、携帯電話番号、オプトアウト情報などの **[!UICONTROL Channels]** カテゴリを使用すると、プロファイルにリーチ可能なチャネルを把握できます。
    * プロファイルでチャネルが購読解除されると、**[!UICONTROL No longer contact]** カテゴリはただちに更新されます。
    * **[!UICONTROL Address]** カテゴリには住所の欄があり、このプロファイルに[ダイレクトメール](../../channels/using/about-direct-mail.md)を送る場合は「**[!UICONTROL Address specified]**」オプションと合わせて入力する必要があります。「**[!UICONTROL Address specified]**」オプションを選択しない場合、このプロファイルはすべてのダイレクトメール送付から除外されます。
-   * The **[!UICONTROL Access authorization]** category indicates the profile&#39;s organizational units to [manage permissions](../../administration/using/about-access-management.md). 組織関連のフィールドをプロファイルに追加するには、[プロファイルの分割](../../administration/using/organizational-units.md#partitioning-profiles)の節を参照してください。
+   * **[!UICONTROL Access authorization]**&#x200B;カテゴリは、[権限の管理](../../administration/using/about-access-management.md)を行うプロファイルの組織単位を示します。 組織関連のフィールドをプロファイルに追加するには、[プロファイルの分割](../../administration/using/organizational-units.md#partitioning-profiles)の節を参照してください。
    * 「**[!UICONTROL Traceability]**」カテゴリは、プロファイルの作成または変更をおこなったユーザーに関する情報により自動的に更新されます。
 
 1. 「**[!UICONTROL Create]**」をクリックして、プロファイルを保存します。
@@ -60,7 +62,10 @@ Campaign でプロファイルを作成または更新するには、次の操�
 >[!NOTE]
 >優先言語フィールドは、多言語メッセージを送信する際に言語を選択するために使用します。多言語メッセージの詳細については、[このページ](../../channels/using/creating-a-multilingual-email.md)を参照してください。
 
-**関連トピック：**
+## チュートリアルビデオ {#video}
 
-* [ランディングページについて](../../channels/using/getting-started-with-landing-pages.md) - ステップバイステップガイド
-* [プロファイルのインポート](https://video.tv.adobe.com/v/24993?captions=jpn) - ビデオ
+このビデオでは、ワークフローを使用してプロファイルを読み込む方法を説明します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/24993?quality=12)
+
+追加のCampaign Standardハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja)で参照できます。
