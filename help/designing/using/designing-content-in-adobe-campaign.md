@@ -7,10 +7,10 @@ audience: designing
 content-type: reference
 topic-tags: about-content-design
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 15a4484ba846b1e08e5fa456a5448e76d60949c5
 workflow-type: tm+mt
-source-wordcount: '1208'
-ht-degree: 91%
+source-wordcount: '1225'
+ht-degree: 87%
 
 ---
 
@@ -19,15 +19,16 @@ ht-degree: 91%
 
 Adobe Campaign で E メールを作成したら、そのコンテンツを定義する必要があります。
 
-電子メールデザイナを使用すると、ドラッグ&amp;ドロップインターフェイスを介して、個別にカスタマイズした魅惑的な電子メールを作成できます。 新規のコンテンツを作成する場合でも、既存のコンテンツフラグメントやテンプレートを活用する場合でも、プロモーションやトランザクションなど、あらゆる E メールコンテンツの設計と強化に対応します。
+電子メール・デザイナを使用すると、ドラッグ・アンド・ドロップにより、個々にカスタマイズされた魅力的な電子メールを作成できます。
+インターフェイス。 新規のコンテンツを作成する場合でも、既存のコンテンツフラグメントやテンプレートを活用する場合でも、プロモーションやトランザクションなど、あらゆる E メールコンテンツの設計と強化に対応します。
 
 レスポンシブデザイン向けに最適化された HTML の配信に対応するユーザーインターフェイスを利用して、表示条件や動的コンテンツを容易に定義し、E メール、テンプレートまたはフラグメントに適用できます。ドラッグ＆ドロップインターフェイスと HTML コードは、ボタンクリック 1 つでシームレスに切り替えられます。
 
 E メールデザイナーでは、E メールコンテンツと E メールコンテンツテンプレートを作成できます。シンプルな E メール、トランザクション E メール、A/B テスト用 E メール、多言語 E メール、繰り返し E メールと互換性があります。
 
-E メールデザイナーの概要については、この[ビデオセット](https://docs.adobe.com/content/help/ja-JP/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted)をご覧ください。これらのビデオでは、E メールデザイナーの一般的な機能、新規の E メールを設計する方法およびテンプレートを使用する方法について説明します。
-
 <!--The Email Designer has more features than the Legacy Editor and is backward compatible.-->
+
+![](assets/do-not-localize/how-to-video.png) [ビデオでの電子メールデザイナの発見](#video)
 
 * E メールコンテンツの作成方法について詳しくは、[E メールデザイナーの概要](../../designing/using/quick-start.md)を参照してください。
 * E メールデザイナーの概要については、[E メールデザイナーの使用](../../designing/using/designing-content-in-adobe-campaign.md)を参照してください。
@@ -117,7 +118,7 @@ E メールデザイナーを適切に使用し、最適な E メールを容易
 
    送信する前に、メッセージをプレビューします。Adobe Campaign は、Litmus を使用した E メールレンダリングのテスト機能を備えています。詳しくは、[E メールレンダリング](../../sending/using/email-rendering.md)を参照してください。
 
-メッセージに関するより多くのデザインと一般的なベストプラクティスを次の節に示します。 [配信のベストプラクティス](../../sending/using/delivery-best-practices.md)。
+メッセージに関するより多くのデザインと一般的なベストプラクティスを次の節に示します。[配信のベストプラクティス](../../sending/using/delivery-best-practices.md)。
 
 ### フラグメントの更新 {#email-designer-updates}
 
@@ -150,7 +151,7 @@ CSS のコリジョンなどの問題を回避するために、コンテンツ�
 * スタイルを編集する場合、ほとんどの E メールクライアントで正式にサポートされている Web フォントのみを使用できます。
 * スタイルは、後で再利用するためにテーマとして保存することはできません。ただし、CSS スタイルは、コンテンツテンプレートまたは E メールに保存できます。スタイルについて詳しくは、[この節](../../designing/using/styles.md)を参照してください。
 * 転送者のmetaタグは電子メールデザイナーではサポートされていません。
-* サロゲートペア（Unicode文字セットの基本多言語面に含まれない文字）は、2バイト（16ビット）で格納できず、2つのUTF-16文字にエンコードする必要があります。 これらの文字には、CJKイデオグラフ、ほとんどの絵文字、一部の言語が含まれます。<br>これらの文字は、動的テキストで非互換性の問題の原因となる場合があります。 メッセージを送信する前に、強力なテストを実行する必要があります。
+* サロゲートペア（Unicode文字セットの基本多言語面に含まれない文字）は、2バイト（16ビット）で格納できず、2つのUTF-16文字にエンコードする必要があります。 これらの文字には、CJKイデオグラフ、ほとんどの絵文字、一部の言語が含まれます。<br>これらの文字は、動的テキストで非互換性の問題の原因となる場合があります。メッセージを送信する前に、強力なテストを実行する必要があります。
 
 **関連トピック**
 
@@ -158,3 +159,11 @@ CSS のコリジョンなどの問題を回避するために、コンテンツ�
 * [ランディングページのデザイン](../../channels/using/designing-a-landing-page.md)
 * [SMS メッセージの作成](../../channels/using/creating-an-sms-message.md)
 * [プッシュ通知の作成と送信](../../channels/using/preparing-and-sending-a-push-notification.md)
+
+## チュートリアルビデオ {#video}
+
+このビデオでは、電子メールデザイナの概要を説明します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/22771?quality=12)
+
+電子メールデザイナーの使い始めに、この[ビデオ](https://docs.adobe.com/content/help/ja-JP/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted)では、電子メールデザイナーの一般的な機能と、ゼロから電子メールをデザインする方法、またはテンプレートを使用する方法を説明しています
