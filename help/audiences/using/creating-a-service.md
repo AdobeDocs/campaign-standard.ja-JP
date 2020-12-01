@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: managing-subscriptions
 context-tags: service,wizard;service,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 100%
+source-wordcount: '440'
+ht-degree: 95%
 
 ---
 
@@ -19,6 +19,8 @@ ht-degree: 100%
 # サービスの作成{#creating-a-service}
 
 サブスクリプションを管理するには、まずサービスを作成し、設定する必要があります。新しいサービスを設定すると、プロファイルがサービスを登録または登録解除する際に受け取る電子メール確認を指定できます。また、サービスにリンクされている購読と購読解除のランディングページも定義します。例えば、電子メールにサービスサブスクリプションリンクを挿入すると、サービスで指定されたサブスクリプションランディングページにプロファイルが自動的に誘導されます。
+
+![](assets/do-not-localize/how-to-video.png) [動画でこの機能を確認する](#video)
 
 サービスを設定するには、次の手順に従います。
 
@@ -55,7 +57,14 @@ ht-degree: 100%
 
 **関連トピック：**
 
-* [サービスとサブスクリプションの管理](https://docs.adobe.com/content/help/ja-JP/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/services-and-subscriptions.html)（ビデオ）
 * [サービスのプロモーション](../../audiences/using/promoting-a-service.md)
 * [購読者で構成されたオーディエンスの作成](../../audiences/using/creating-audiences.md#creating-list-audiences)
 * [ランディングページのサービスへのリンク](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)
+
+## チュートリアルビデオ {#video}
+
+このビデオでは、サービスを作成し、その購読を管理する方法を示します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/24673?quality=12)
+
+追加のCampaign Standardハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja)で参照できます。
