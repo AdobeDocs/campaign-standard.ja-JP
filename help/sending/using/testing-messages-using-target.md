@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: preparing-and-testing-messages
 context-tags: seedMember,overview
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: e20485978deba54f45010a41921b948f049222f2
 workflow-type: tm+mt
-source-wordcount: '1502'
+source-wordcount: '1514'
 ht-degree: 4%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 4%
 
 ## 概要 {#overview}
 
-また、 [プロファイルを](../../audiences/using/managing-test-profiles.md)テストする場合、対象プロファイルの1つの位置に自分を置いて、電子メールメッセージをテストできます。 これにより、プロファイルが受け取るメッセージ(カスタムフィールド、動的な情報、パーソナライズされた情報、ワークフローからの追加データなど)を正確に表示できます。
+[テストプロファイル](../../audiences/using/managing-test-profiles.md)に加えて、自分をターゲットプロファイルの1つの位置に置くことで、電子メールメッセージをテストできます。 これにより、プロファイルが受け取るメッセージ(カスタムフィールド、動的な情報、パーソナライズされた情報、ワークフローからの追加データなど)を正確に表示できます。
 
 >[!NOTE]
 >
@@ -28,34 +28,34 @@ ht-degree: 4%
 
 主な手順は次のとおりです。
 
-1. メッセージを設定し、 **準備** 段階を起動します。
-1. **メッセージの対象となるプロファイルの中から** 1つまたは複数のプロファイルを選択します。
-1. 各プロファイルに、配達確認の送信先となる **代替アドレス** を関連付けます。
-1. （オプション）各プロファイルに対して、配達確認の件名行に追加する **プレフィックス** を定義します。
-1. **プレビュー** （電子メールデザイナ内）で、プロファイルに対するメッセージの表示方法を指定します。
+1. メッセージを設定し、**準備**&#x200B;フェーズを起動します。
+1. **メッセージの対象となるプロファイルの中から1つまたは複数の** profileを選択します。
+1. 各プロファイルに、配達確認の送信先の&#x200B;**置換アドレス**&#x200B;を関連付けます。
+1. （オプション）各プロファイルに対して、配達確認の件名行に追加する&#x200B;**プレフィックス**&#x200B;を定義します。
+1. **電子メールデザイナで、プロファイルに対してメッセージがどのように表示されるかを** プレビューします。
 1. 配達確認を送信します。
-
-グローバルプロセスの詳細については、 [ここで利用可能なチュートリアルビデオを参照してください](https://docs.adobe.com/content/help/ja-JP/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html)。
 
 >[!IMPORTANT]
 >
 >この機能を使用すると、プロファイルの個人情報を外部の E メールアドレスに送信できます。Campaign Standard でプライバシーリクエスト（GDPR および CCPA）を実行しても、リクエストは外部で実行されないことに注意してください。
 
-## プロファイルと置換アドレスの選択 {#selecting-profiles}
+![](assets/do-not-localize/how-to-video.png) [動画でこの機能を確認する](#video)
 
-ターゲットプロファイルをテストに使用するには、まず選択してから、配達確認を受け取る置換アドレスを定義する必要があります。 これを行うには、対象のプロファイルから特定のプロファイルを [選択するか](#selecting-individual-profiles) 、既存のオーディエンスからプロファイルを [読み込みます](#importing-from-audience)。
+## プロファイルと置換アドレスの選択{#selecting-profiles}
+
+ターゲットプロファイルをテストに使用するには、まず選択してから、配達確認を受け取る置換アドレスを定義する必要があります。 これを行うには、[ターゲットプロファイルの中から特定のプロファイル](#selecting-individual-profiles)を選択するか、[既存のオーディエンス](#importing-from-audience)からプロファイルを読み込みます。
 
 >[!NOTE]
 >
 >テストするプロファイルは最大100個まで選択できます。
 
-### 個々のプロファイルの選択 {#selecting-individual-profiles}
+### 個々のプロファイルの選択{#selecting-individual-profiles}
 
-1. メッセージダッシュボードで、メッセージの準備が成功したことを確認し、 **[!UICONTROL Audience]** ブロックをクリックします。
+1. メッセージダッシュボードで、メッセージの準備が成功したことを確認し、**[!UICONTROL Audience]**&#x200B;ブロックをクリックします。
 
    ![](assets/substitution_preparation.png)
 
-1. タブで、 **[!UICONTROL Profile substitutions]****[!UICONTROL Create element]** ボタンをクリックして、テストに使用するプロファイルを選択します。
+1. 「**[!UICONTROL Profile substitutions]**」タブで、「**[!UICONTROL Create element]**」ボタンをクリックして、テストに使用するプロファイルを選択します。
 
    ![](assets/substitution_tab.png)
 
@@ -63,9 +63,9 @@ ht-degree: 4%
 
    ![](assets/substitution_recipient_selection.png)
 
-1. テストに使用するプロファイルを選択し、フィールドに必要な置換先住所を入力して、 **[!UICONTROL Address]** をクリックし **[!UICONTROL Confirm]**&#x200B;ます。 プロファイルをターゲットにするすべての配達確認が、このプロファイルのデータベースで定義されているアドレスではなく、この電子メールアドレスに送信されます。
+1. テストに使用するプロファイルを選択し、**[!UICONTROL Address]**&#x200B;フィールドに目的の置換アドレスを入力して、**[!UICONTROL Confirm]**&#x200B;をクリックします。 プロファイルをターゲットにするすべての配達確認が、このプロファイルのデータベースで定義されているアドレスではなく、この電子メールアドレスに送信されます。
 
-   配達確認の件名行に特定のプレフィックスを追加する場合は、 **[!UICONTROL Subject line prefix]** フィールドに入力します。
+   配達確認の件名行に特定のプレフィックスを追加する場合は、**[!UICONTROL Subject line prefix]**&#x200B;フィールドに入力します。
 
    >[!NOTE]
    >
@@ -77,7 +77,7 @@ ht-degree: 4%
 
    ![](assets/substitution_prefixsample.png)
 
-1. プロファイルは、関連する置換アドレスとプレフィックスと共にリストに追加されます。 テストに使用するすべてのプロファイルに対して上記の手順を繰り返し、をクリックし **[!UICONTROL Confirm]**&#x200B;ます。
+1. プロファイルは、関連する置換アドレスとプレフィックスと共にリストに追加されます。 テストに使用するすべてのプロファイルに対して上記の手順を繰り返し、**[!UICONTROL Confirm]**&#x200B;をクリックします。
 
    ![](assets/substitution_recipients_confirm.png)
 
@@ -87,9 +87,9 @@ ht-degree: 4%
 
    ![](assets/substitution_multiple_addresses.png)
 
-1. すべてのプロファイルと置換アドレスが定義されたら、配達確認を送信してメッセージをテストできます。 これを行うには、 **[!UICONTROL Test]** ボタンをクリックし、実行するテストのタイプを選択します。
+1. すべてのプロファイルと置換アドレスが定義されたら、配達確認を送信してメッセージをテストできます。 これを行うには、**[!UICONTROL Test]**&#x200B;ボタンをクリックし、実行するテストのタイプを選択します。
 
-   メッセージターゲットにテストプロファイルが追加されていない場合は、 **[!UICONTROL Email rendering]** および **[!UICONTROL Proof + Email rendering]** オプションは使用できません。  For more information on proofs sending, refer to [this section](../../sending/using/sending-proofs.md).
+   メッセージターゲットにテストプロファイルが追加されていない場合、**[!UICONTROL Email rendering]**&#x200B;と&#x200B;**[!UICONTROL Proof + Email rendering]**&#x200B;は使用できないことに注意してください。  送信する配達確認の詳細については、[この](../../sending/using/sending-proofs.md)を参照してください。
 
    ![](assets/substitution_send_test.png)
 
@@ -97,19 +97,19 @@ ht-degree: 4%
 >
 >メッセージに変更を加えた場合は、必ずメッセージの準備を再度起動してください。 そうしないと、変更は配達確認に反映されません。
 
-### オーディエンスからのプロファイルの読み込み {#importing-from-audience}
+### オーディエンス{#importing-from-audience}からのプロファイルのインポート
 
 Campaign Standardを使用すると、テストに使用できるプロファイルのオーディエンスを読み込むことができます。 これにより、例えば、異なるプロファイルをターゲットとする一連のメッセージを一意の電子メールアドレスに送信できます。
 
-また、オーディエンスに住所とプレフィックスの列が既に設定されている場合は、 **[!UICONTROL Profile substitutions]** タブでこれらの情報を読み込むことができます。 代替住所を含むオーディエンスインポートの例を [この節で詳しく説明します](#use-case)。
+また、オーディエンスが既にアドレス列とプレフィックス列を使用して設定されている場合は、**[!UICONTROL Profile substitutions]**&#x200B;タブでこれらの情報をインポートできます。 置換アドレスを含むオーディエンスインポートの例については、[このセクション](#use-case)を参照してください。
 
 >[!NOTE]
 >
->オーディエンスを読み込むと、メッセージターゲットに対応するプロファイルのみが選択され、 **[!UICONTROL Profile substitutions]** タブに追加されます。
+>オーディエンスを読み込むと、メッセージターゲットに対応するプロファイルのみが選択され、**[!UICONTROL Profile substitutions]**&#x200B;タブに追加されます。
 
 オーディエンスからテストに使用するプロファイルを読み込むには、次の手順に従います。
 
-1. メッセージダッシュボードで、メッセージの準備が成功したことを確認し、 **[!UICONTROL Audience]** ブロックをクリックします。
+1. メッセージダッシュボードで、メッセージの準備が成功したことを確認し、**[!UICONTROL Audience]**&#x200B;ブロックをクリックします。
 
    ![](assets/substitution_preparation.png)
 
@@ -125,11 +125,11 @@ Campaign Standardを使用すると、テストに使用できるプロファイ
 
    ![](assets/substitution_audience_define.png)
 
-   使用する置換アドレスや接頭辞が既にオーディエンスで定義されている場合は、この **[!UICONTROL From Audience]** オプションを選択し、これらの情報の取得に使用する列を指定します。
+   使用する置換アドレスや接頭辞が既にオーディエンスで定義されている場合は、**[!UICONTROL From Audience]**&#x200B;オプションを選択し、これらの情報の取得に使用する列を指定します。
 
    ![](assets/substitution_fromaudience.png)
 
-1. 「**[!UICONTROL Import]**」ボタンをクリックします。メッセージターゲットに対応するオーディエンスのプロファイルが **[!UICONTROL Profile substitution]** タブに追加され、関連する置換アドレスと接頭辞が追加されます。
+1. 「**[!UICONTROL Import]**」ボタンをクリックします。メッセージターゲットに対応するオーディエンスのプロファイルが&#x200B;**[!UICONTROL Profile substitution]**&#x200B;タブに追加され、関連する置換アドレスと接頭辞が追加されます。
 
 ![](assets/substitution_audience_imported.png)
 
@@ -143,9 +143,9 @@ Campaign Standardを使用すると、テストに使用できるプロファイ
 >
 >プレビューは、電子メールデザイナでのみ使用できます。
 
-ターゲットプロファイルを使用してプレビューを行うには、これらのプロファイルを **[!UICONTROL Profile substitution]** リストに追加していることを確認します( [プロファイルおよび置換アドレスの定義を参照](#selecting-profiles))。
+ターゲットプロファイルを使用してプレビューを行うには、これらのプロファイルを&#x200B;**[!UICONTROL Profile substitution]**&#x200B;リストに追加しておく必要があります([プロファイルと置換アドレスの定義](#selecting-profiles)を参照)。
 
-メッセージ内のパーソナライゼーションフィールドを使用する場合は、メッセージの準備を **開始する前に** 、メッセージを追加する必要があります。 そうしないと、プレビューでは考慮されません。 その結果、パーソナライゼーションフィールドに変更が加えられた場合は、必ずメッセージの準備を再度起動してください。
+メッセージ内でパーソナライゼーションフィールドを使用する場合は、**メッセージの準備を開始する前に**&#x200B;追加する必要があります。 そうしないと、プレビューでは考慮されません。 その結果、パーソナライゼーションフィールドに変更が加えられた場合は、必ずメッセージの準備を再度起動してください。
 
 プロファイルの置換を使用してプレビュー・メッセージを作成するには、次の手順に従います。
 
@@ -153,13 +153,13 @@ Campaign Standardを使用すると、テストに使用できるプロファイ
 
    ![](assets/substitution_preview_access.png)
 
-1. Select the **[!UICONTROL Preview]** tab, then click **[!UICONTROL Change profile]**.
+1. 「**[!UICONTROL Preview]**」タブを選択し、「**[!UICONTROL Change profile]**」をクリックします。
 
    ![](assets/substitution_preview_changeprofile.png)
 
-1. タブをクリックし **[!UICONTROL Profile Substitution]** て、テスト用に追加された置換プロファイルを表示します。
+1. 「**[!UICONTROL Profile Substitution]**」タブをクリックして、テスト用に追加された置換プロファイルを表示します。
 
-   プレビューに使用するプロファイルを選択し、をクリックし **[!UICONTROL Select]**&#x200B;ます。
+   プレビューに使用するプロファイルを選択し、**[!UICONTROL Select]**&#x200B;をクリックします。
 
    ![](assets/substitution_preview_selection.png)
 
@@ -190,12 +190,12 @@ Campaign Standardを使用すると、テストに使用できるプロファイ
 1. ワークフローを構築して、ファイルからオーディエンスを作成します。 これを行うには、次のアクティビティを追加して設定します。
 
    * **[!UICONTROL Load file]** アクティビティ:CSVファイルを読み込みます(このアクティビティの詳細については、 [この節を参照](../../automating/using/load-file.md))。
-   * **[!UICONTROL Reconciliation]** アクティビティ:ファイルの情報をデータベースの情報にリンクします。 この例では、プロファイルの電子メールアドレスを「調整」フィールドとして使用します(このアクティビティの詳細については、 [この節を参照](../../automating/using/reconciliation.md))。
+   * **[!UICONTROL Reconciliation]** アクティビティ:ファイルの情報をデータベースの情報にリンクします。この例では、プロファイルの電子メールアドレスを調整フィールドとして使用します(このアクティビティの詳細については、[このセクション](../../automating/using/reconciliation.md)を参照してください)。
    * **[!UICONTROL Save audience]** アクティビティ:読み込んだファイルに基づいてオーディエンスを作成します(このアクティビティの詳細については、 [この節を参照](../../automating/using/save-audience.md))。
 
    ![](assets/substitution_uc2.png)
 
-1. ワークフローを実行し、 **[!UICONTROL Audiences]** タブに移動して、オーディエンスが必要な情報と共に作成されたことを確認します。
+1. ワークフローを実行し、**[!UICONTROL Audiences]**&#x200B;タブに移動して、オーディエンスが必要な情報と共に作成されたことを確認します。
 
    この例では、オーディエンスは3つのプロファイルで構成されています。 それぞれが、配達確認を受け取る置換電子メールアドレスにリンクされ、配達確認の件名行に使用するプレフィックスが付きます。
 
@@ -203,7 +203,7 @@ Campaign Standardを使用すると、テストに使用できるプロファイ
 
 ### 手順2:ターゲットプロファイルへのワークフローの構築とニュースレターの送信
 
-1. 必要に応じ **[!UICONTROL Query]** て、お追加よび **[!UICONTROL Email delivery]** アクティビティを設定します(「 [クエリ](../../automating/using/query.md) 」および「 [電子メールの配信](../../automating/using/email-delivery.md) 」セクションを参照)。
+1. **[!UICONTROL Query]**&#x200B;と追加&#x200B;**[!UICONTROL Email delivery]**&#x200B;のアクティビティを設定し、必要に応じて設定します(「[クエリ](../../automating/using/query.md)」と「[電子メール配信](../../automating/using/email-delivery.md)」の節を参照)。
 
    ![](assets/substitution_uc4.png)
 
@@ -211,7 +211,7 @@ Campaign Standardを使用すると、テストに使用できるプロファイ
 
 ### 手順3:メッセージのプロファイル置換タブの設定
 
-1. Open the **[!UICONTROL Email delivery]** activity. In the message dashboard, click the **[!UICONTROL Audience]** block.
+1. **[!UICONTROL Email delivery]**&#x200B;アクティビティを開きます。 メッセージダッシュボードで、**[!UICONTROL Audience]**&#x200B;ブロックをクリックします。
 
    ![](assets/substitution_uc5.png)
 
@@ -219,13 +219,13 @@ Campaign Standardを使用すると、テストに使用できるプロファイ
 
    ![](assets/substitution_uc6.png)
 
-1. フィールドで、ファイルから作成したオーディエンスを選択し **[!UICONTROL Audience]** ます。
+1. **[!UICONTROL Audience]**&#x200B;フィールドで、ファイルから作成したオーディエンスを選択します。
 
    ![](assets/substitution_uc7.png)
 
 1. 配達確認の送信時に使用する置換住所と件名の接頭辞を定義します。
 
-   これを行うには、 **[!UICONTROL From audience]** オプションを選択し、情報を含むオーディエンスから列を選択します。
+   これを行うには、**[!UICONTROL From audience]**&#x200B;オプションを選択し、情報を含むオーディエンスから列を選択します。
 
    ![](assets/substitution_uc8.png)
 
@@ -235,7 +235,7 @@ Campaign Standardを使用すると、テストに使用できるプロファイ
 
    >[!NOTE]
    >
-   >この場合、オーディエンスのすべてのプロファイルが **[!UICONTROL Query]** アクティビティのターゲットになります。 これらのプロファイルの1つがメッセージターゲットに含まれていない場合、リストに追加されません。
+   >この場合、オーディエンスのすべてのプロファイルは&#x200B;**[!UICONTROL Query]**&#x200B;アクティビティによってターゲット設定されます。 これらのプロファイルの1つがメッセージターゲットに含まれていない場合、リストに追加されません。
 
 ### 手順4:ターゲットプロファイルを使用したプレビュー
 
@@ -243,13 +243,13 @@ Campaign Standardを使用すると、テストに使用できるプロファイ
 
    ![](assets/substitution_uc10.png)
 
-1. Select the **[!UICONTROL Preview]** tab, then click **[!UICONTROL Change profile]**.
+1. 「**[!UICONTROL Preview]**」タブを選択し、「**[!UICONTROL Change profile]**」をクリックします。
 
    ![](assets/substitution_uc_preview.png)
 
-1. タブをクリックし **[!UICONTROL Profile Substitution]** て、前に追加した置換プロファイルを表示します。
+1. 「**[!UICONTROL Profile Substitution]**」タブをクリックし、以前に追加した置換プロファイルを表示します。
 
-   プレビューに使用するプロファイルを選択し、をクリックし **[!UICONTROL Select]**&#x200B;ます。
+   プレビューに使用するプロファイルを選択し、**[!UICONTROL Select]**&#x200B;をクリックします。
 
    ![](assets/substitution_uc_selectpreview.png)
 
@@ -259,10 +259,18 @@ Campaign Standardを使用すると、テストに使用できるプロファイ
 
 ### 手順5:配達確認の送信
 
-1. In the message dashboard, click the **[!UICONTROL Test]** button, then confirm.
+1. メッセージダッシュボードで&#x200B;**[!UICONTROL Test]**&#x200B;ボタンをクリックし、確認します。
 
    ![](assets/substitution_uc_sendproof.png)
 
-1. 配達確認は、 **[!UICONTROL Profile substitutions]** タブで設定した内容に従って送信されます。
+1. 配達確認は、「**[!UICONTROL Profile substitutions]**」タブで設定された内容に従って送信されます。
 
    ![](assets/substitution_uc_proofs.png)
+
+## チュートリアルビデオ {#video}
+
+このビデオでは、プロファイルの置き換えを使用して電子メールメッセージをテストする方法を示します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/32368?quality=12)
+
+追加のCampaign Standardハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja)で参照できます。
