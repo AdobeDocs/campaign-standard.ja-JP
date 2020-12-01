@@ -7,17 +7,17 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
-source-wordcount: '2948'
-ht-degree: 100%
+source-wordcount: '2945'
+ht-degree: 99%
 
 ---
 
 
 # リリースノート 2020{#release-notes-2020}
 
-[リリース計画](https://helpx.adobe.com/jp/campaign/kb/acs-release-planning.html) | [コントロールパネルのリリース](https://docs.adobe.com/content/help/ja-JP/control-panel/using/release-notes.html) | [ドキュメントの更新](../../rn/using/documentation-updates.md) | [以前のリリースノート](../../rn/using/release-notes-2019.md) | [非推奨（廃止予定）の機能](https://helpx.adobe.com/jp/campaign/kb/acs-deprecated-and-removed-features.html)
+[リリース計画](https://helpx.adobe.com/jp/campaign/kb/acs-release-planning.html) | [コントロールパネルのリリース](https://docs.adobe.com/content/help/ja-JP/control-panel/using/release-notes.html) | [ドキュメントの更新](../../rn/using/documentation-updates.md) | [以前のリリースノート](../../rn/using/release-notes-2019.md) | [非推奨（廃止予定）の機能](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html)
 
 ![](assets/do-not-localize/cp-icon.png) **新しいコントロールパネル 6 月のリリース** - アクティブなプロファイルの監視、サブドメイン配信品質の監査、GPG キー管理。[詳細情報](https://docs.adobe.com/content/help/ja-JP/control-panel/using/release-notes.html)。
 
@@ -291,7 +291,7 @@ ht-degree: 100%
 * 管理者セキュリティグループの組織単位は変更できなくなりました。
 * プロファイルの作成時に、「Organizational unit」フィールドへの入力が必須になりました。
 * Experience Cloud のトリガーを削除できるのは、トリガーにリンクされたイベントとトランザクションテンプレートの両方を削除する場合に限られるようになりました。
-* [!DNL Adobe Creative SDK] は廃止されました。 Campaign Standard では廃止されています。[廃止および削除された機能](https://helpx.adobe.com/jp/campaign/kb/acs-deprecated-and-removed-features.html)のページを参照してください。
+* [!DNL Adobe Creative SDK] は廃止されました。 Campaign Standard では廃止されています。[廃止および削除された機能](../../rn/using/deprecated-features.md)のページを参照してください。
 
 
 **パッチ**
