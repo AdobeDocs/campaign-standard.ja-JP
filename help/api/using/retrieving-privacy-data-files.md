@@ -7,10 +7,10 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 14%
+source-wordcount: '194'
+ht-degree: 12%
 
 ---
 
@@ -19,15 +19,15 @@ ht-degree: 14%
 
 >[!CAUTION]
 >
->The [Privacy Core Service](https://adobe.io/apis/cloudplatform/gdpr.html) Integration is the method you should use for all access and delete requests. 19.4 以降、アクセス要求および削除要求に対する Campaign API およびインターフェイスの使用は廃止されます。廃止および削除された機能のCampaign Standardについて詳しくは、 [このページを参照してください](https://helpx.adobe.com/jp/campaign/kb/acs-deprecated-and-removed-features.html)。
+>[プライバシーコアサービス](https://adobe.io/apis/cloudplatform/gdpr.html)統合は、すべてのアクセス要求と削除要求で使用する必要がある方法です。 19.4 以降、アクセス要求および削除要求に対する Campaign API およびインターフェイスの使用は廃止されます。廃止および削除された機能のCampaign Standardについて詳しくは、[このページ](../../rn/using/deprecated-features.md)を参照してください。
 
 調整値に関連付けられたすべての情報を含むファイルを取得するには、次の3つの手順に従います。
 
-1. POST **要求を実行し、attribute** type=&quot;access&quot;で新しい要求を作成します **。詳しくは、**&#x200B;新しいプライバシー要求の [作成を参照してください](../../api/using/creating-a-privacy-request.md)。
+1. **POST**&#x200B;リクエストを実行し、**type=&quot;access&quot;**&#x200B;という属性を持つ新しいリクエストを作成します。[新しいプライバシーリクエストの作成](../../api/using/creating-a-privacy-request.md)を参照してください。
 
-1. リクエストに関する情報を取得する **GET** ・リクエストを実行します。
+1. **GET**&#x200B;リクエストを実行して、リクエストに関する情報を取得します。
 
-1. 返されたprivacyRequestData **URLに対して** POST **** 要求を実行し、ペイロード内にプライバシー要求の内部名を付けて、データファイルを取得します。 次に例を示します。{&quot;name&quot;:&quot;PT17&quot;}.
+1. 返された&#x200B;**privacyRequestData** URLに対して&#x200B;**POST**&#x200B;リクエストを実行し、ペイロード内部にプライバシーリクエストの内部名を付けて、データファイルを取得します。 次に例を示します。{&quot;name&quot;:&quot;PT17&quot;}.
 
 <br/>
 
