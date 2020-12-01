@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: c76f4b6e3bc0feb50e5776836552fdceaff61ea7
 workflow-type: tm+mt
 source-wordcount: '1657'
-ht-degree: 69%
+ht-degree: 85%
 
 ---
 
@@ -41,7 +41,7 @@ Adobe Campaign は、個人情報や機密データを含む膨大な量のデ�
 
 ### Adobe Experience Cloud プライバシー {#experience-cloud-privacy}
 
-Adobe Campaign は、Adobe Experience Cloud ソリューションの一部です。キャンペーンでのプライバシーの処理方法は、次のようなAdobe Experience Cloudの一般原則に従います。
+Adobe Campaign は、Adobe Experience Cloud ソリューションの一部です。Campaign でのプライバシーの扱い方は、次のような Adobe Experience Cloud の一般原則に従います。
 
 * **Adobe Experience Cloud を使用する際に収集される情報**
 
@@ -54,7 +54,7 @@ Adobe Campaign は、Adobe Experience Cloud ソリューションの一部です
 * **Adobe Experience Cloud を使用した情報収集の仕組み**
 
    * Adobe Experience Cloud ソリューションでは、情報を収集できるように、web ビーコン（タグやピクセルとも呼ばれます）などの Cookie および同様のテクノロジーを使用します。Cookie および Adobe Campaign を使用した追跡機能について詳しくは、[この節](#tracking-capabilities)を参照してください。
-   * モバイルアプリで Adobe Experience Cloud テクノロジーを使用することもできます。キャンペーンと共にモバイル配信を送信する方法について詳しくは、 [このページを参照してください](https://helpx.adobe.com/jp/campaign/kb/acs-mobile.html)。
+   * モバイルアプリで Adobe Experience Cloud テクノロジーを使用することもできます。Campaign と共にモバイル配信を送信する方法について詳しくは、[このページ](https://helpx.adobe.com/jp/campaign/kb/acs-mobile.html)を参照してください。
 
 * **Adobe Experience Cloud の使用に関するユーザーのプライバシー選択**
 
@@ -75,9 +75,9 @@ Adobe Experience Cloud のプライバシーについて詳しくは、[この�
 * **個人データ**&#x200B;は、生きている個人を直接または間接的に識別できる情報です。
 * **個人の機密データ**&#x200B;は、個人の人種、政治観、宗教的信念、犯罪歴、遺伝情報、健康データ、性的嗜好、生体認証情報、および労働組合の組合員に関する情報です。
 
-When integrating Campaign with other Experience Cloud solutions where audiences can be transferred from one system to another, such as the [Audience Destinations service](../../audiences/using/aep-about-audience-destinations-service.md), [Adobe Analytics](../../integrating/using/about-campaign-analytics-integration.md), [Audience Manager or People core service](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md), or with other solutions such as [Microsoft Dynamics 365](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md), you need to pay extra care to personal data protection.
+Campaign を、[Audience Destinations サービス](../../audiences/using/aep-about-audience-destinations-service.md)、[Adobe Analytics](../../integrating/using/about-campaign-analytics-integration.md)、[Audience Manager または People コアサービス](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md) などのシステム間でオーディエンスを転送できる他の Experience Cloud ソリューションと統合する場合、または [Microsoft Dynamics 365](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md) などの他のソリューションと統合する場合は、個人データの保護に特別な注意を払う必要があります。
 
-The [main regulations](#privacy-regulations) refer to the different entities that manage data as follows:
+[主な規制](#privacy-regulations)は、データを管理する様々なエンティティを次のように参照しています。
 * **データ管理者**&#x200B;は、個人データの収集、使用、共有の方法と目的を決定する権限です。
 * **データ処理者**&#x200B;は、データ管理者の指示に従って個人データを収集、使用、または共有する個人または関係者です。
 * **データ主体**&#x200B;は、個人データが収集、使用、共有され、その個人データを参照して直接または間接的に識別できる、生きている個人のことです。
@@ -114,14 +114,14 @@ The [main regulations](#privacy-regulations) refer to the different entities tha
 
 Adobe Campaign を使用すると、個人情報や機密情報などのデータを収集できます。したがって、受信者の同意を受け取り、監視する必要があります。
 
-* 受信者は常に通信の受信に同意するようにします。これをおこなうには、できるだけ早くオプトアウトリクエストを守り、二重のオプトインプロセスを通じて同意を確認します。詳しくは、「キャンペーンでのオプトインおよびオプトアウトの [管理](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md) 」および「重複オプトインプロセスの [設定](../../channels/using/setting-up-a-double-opt-in-process.md)」を参照してください。
-* 不正なリストを読み込んだり、トラップを使用して、クライアントファイルが不正に使用されていないかどうかを確認したりしないでください。 詳しくは、「トラップの [使用](../../sending/using/using-traps.md)」を参照してください。
+* 受信者は常に通信の受信に同意するようにします。これをおこなうには、できるだけ早くオプトアウトリクエストを守り、二重のオプトインプロセスを通じて同意を確認します。詳しくは、[Campaign でのオプトインおよびオプトアウトの管理](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)および[二重のオプトインプロセスの設定](../../channels/using/setting-up-a-double-opt-in-process.md)を参照してください。
+* 不正なリストを読み込まず、トラップを使用して、クライアントファイルが不正に使用されていないことを確認してください。詳しくは、[トラップの使用](../../sending/using/using-traps.md)を参照してください。
 * 同意と権限の管理を通じて、受信者の好みを追跡し、組織内の誰がどのデータにアクセスできるかを管理できます。詳しくは、[この節](#consent)を参照してください。
 * 受信者からのプライバシーリクエストを促進および管理します。詳しくは、[この節](#privacy-requests)を参照してください。
 
 ## プライバシーの管理 {#privacy-management}
 
-プライバシー管理とは、プライバシー規制（GDPR、CCPA など）の遵守に役立つすべてのプロセスとツールを指します。Get an overview of what Privacy management is on [this page](../../start/using/privacy-management.md).
+プライバシー管理とは、プライバシー規制（GDPR、CCPA など）の遵守に役立つすべてのプロセスとツールを指します。プライバシー管理の概要は、[このページ](../../start/using/privacy-management.md)で確認できます。
 
 Adobe Campaign では、プライバシー管理に関する様々な機能を提供しています。
 * 同意の管理、データ保持、ユーザーの役割：[この節](#consent)を参照してください。
@@ -135,11 +135,11 @@ Campaign の主なプライバシー機能と関与するペルソナの例を[�
 
 元々、Adobe Campaign はプライバシーに不可欠な重要な機能を提供しています。
 
-* **同意の管理**：購読管理プロセスを通じて、受信者の環境設定を管理し、どの受信者がどの購読タイプにオプトインしたかを追跡できます。詳しくは、「 [購読](../../audiences/using/about-subscriptions.md) と [ランディングページ」を参照してください](../../channels/using/getting-started-with-landing-pages.md)。
+* **同意の管理**：購読管理プロセスを通じて、受信者の環境設定を管理し、どの受信者がどの購読タイプにオプトインしたかを追跡できます。詳しくは、[購読](../../audiences/using/about-subscriptions.md)と[ランディングページ](../../channels/using/getting-started-with-landing-pages.md)を参照してください。
 * **データ保持**：すべての組み込みの標準ログテーブルには事前に設定された保存期間があり、通常、データのストレージは 6 か月以下に制限されます。その他の保存期間は、ワークフローで設定できます。詳しくは、アドビのコンサルタントまたは技術管理者にお問い合わせください。
 * **権限管理**：Adobe Campaign では、事前作成された役割またはカスタムの役割を使用して、様々な Campaign オペレーターに割り当てられている権限を管理できます。これにより、会社内で様々なタイプのデータにアクセス、変更、書き出しできるユーザーを管理できます。詳しくは、[アクセス管理について](../../administration/using/about-access-management.md)を参照してください。
 
-For more on these features and how to manage them in Adobe Campaign, see [this section](../../start/using/privacy-management.md#consent-retention-roles).
+これらの機能および Adobe Campaign での管理方法について詳しくは、[この節](../../start/using/privacy-management.md#consent-retention-roles)を参照してください。
 
 ### プライバシーリクエスト {#privacy-requests}
 
@@ -151,14 +151,14 @@ Adobe Campaign は、特定のプライバシーリクエストに対するデ�
 
 The **Access** and **Delete** requests are presented in [this section](../../start/using/privacy-management.md#right-access-forgotten).
 
-これらのリクエストを作成するための実装手順については、[この節](../../start/using/privacy-requests.md)で詳しく説明します。Tutorialsは [こちらからもご利用いただけます](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/privacy/privacy-overview.html)。
+これらのリクエストを作成するための実装手順については、[この節](../../start/using/privacy-requests.md)で詳しく説明します。チュートリアルは[こちら](https://docs.adobe.com/content/help/ja_JP/campaign-standard-learn/tutorials/privacy/privacy-overview.html)からもご利用いただけます。
 
 ## トラッキング機能 {#tracking-capabilities}
 
-Adobe Campaignでは、その追跡機能のおかげで、セッションcookieと永続的なcookieを使用して、配信受信者の動作を追跡できます。 For more on tracking, see [this section](../../sending/using/tracking-messages.md).
+Adobe Campaign のトラッキング機能は、2 種類の Cookie を使用して配信受信者の行動をトラッキングできます。トラッキングについて詳しくは、[この節](../../sending/using/tracking-messages.md)を参照してください。
 
 >[!NOTE]
 >
->GDPR（一般データ保護規則）などの規制では、企業は Cookie をインストールする前に web サイトのユーザーの同意をリクエストすることが規定されています。認証リクエストを通じて、貴社のサイトにWebトラッキングツールが装備されていることをユーザに通知する必要があります。
+>EU 一般データ保護規則（GDPR）などの規制では、企業は Cookie をインストールする前に Web サイトのユーザーの同意をリクエストすることが規定されています。認証リクエストを通じて、サイトに Web トラッキングツールが装備されていることをユーザーに通知する必要があります。
 
-また、メッセージに [追跡リンク](../../designing/using/links.md#about-tracked-urls) を追加して、組み込みのトラッキングインジケーター [(](../../reporting/using/tracking-indicators.md) 追跡インジケーター [)レポートでの配信と受信者の動作の影響を測定したり、独自の](../../reporting/using/about-dynamic-reports.md)専用レポートを作成したりすることもできます。
+また、メッセージに[トラッキングされたリンク](../../designing/using/links.md#about-tracked-urls)を追加して、[トラッキング指標](../../reporting/using/tracking-indicators.md)の組み込みレポートで配信と受信者の行動の影響を測定したり、独自の[専用レポート](../../reporting/using/about-dynamic-reports.md)を作成したりすることもできます。
