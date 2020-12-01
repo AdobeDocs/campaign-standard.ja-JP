@@ -7,17 +7,17 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 39%
+source-wordcount: '719'
+ht-degree: 40%
 
 ---
 
 
 # Audience Manager または People コアサービスとの統合のプロビジョニングと設定{#provisioning-and-configuring-integration-with-audience-manager-or-people-core-service}
 
-Adobe CampaignのAudience ManagerとPeopleコアのプロビジョニングと設定には、2つの手順があります。 [Adobeにリクエストを送信し](#submitting-request-to-adobe) 、Adobe Campaignで統合を [設定する](#configuring-the-integration-in-adobe-campaign)。
+Adobe CampaignのAudience ManagerとPeopleコアのプロビジョニングと設定には、2つの手順があります。[リクエストをAdobe](#submitting-request-to-adobe)に送信し、[Adobe Campaign](#configuring-the-integration-in-adobe-campaign)で統合を設定します。
 
 ## アドビへの依頼の送信 {#submitting-request-to-adobe}
 
@@ -58,7 +58,7 @@ Audience Manager(AAM)またはPeopleコアサービスの統合により、オ�
  </tbody> 
 </table>
 
-## Adobe Campaignでの統合の設定 {#configuring-the-integration-in-adobe-campaign}
+## Adobe Campaign{#configuring-the-integration-in-adobe-campaign}での統合の設定
 
 このリクエストを提出した後、Adobeは統合のプロビジョニングに進み、お客様に連絡して、設定の最終決定に必要な詳細と情報を提供します。
 
@@ -73,58 +73,58 @@ Audience Manager(AAM)またはPeopleコアサービスの統合により、オ�
 
 それには、次の手順に従います。
 
-1. 詳細設定メニューで、 **管理/アプリケーション設定/外部アカウントを選択します**。
+1. 詳細設定メニューで、**管理/アプリケーション設定/外部アカウント**&#x200B;を選択します。
 
    この統合で使用できる次の外部アカウントのいずれかを選択します。
 
    ![](assets/integration_aam_1.png)
 
-1. 次の形式 **[!UICONTROL Receiver server]** で入力します。
-1. と **[!UICONTROL AWS Access Key ID]**&#x200B;入力し **[!UICONTROL Secret Access Key]** ま **[!UICONTROL AWS Region]**&#x200B;す。
+1. **[!UICONTROL Receiver server]**&#x200B;を次の形式で入力してください
+1. **[!UICONTROL AWS Access Key ID]**、**[!UICONTROL Secret Access Key]**、**[!UICONTROL AWS Region]**&#x200B;を入力します。
 
 これで、外部アカウントはこの統合用に設定されます。
 
-### Step 2: Configure the Data Sources {#step-2--configure-the-data-sources}
+### 手順2:データソースの設定{#step-2--configure-the-data-sources}
 
 次の2つのデータソースがオーディエンスマネージャー内に作成されます。Adobe Campaign(MID)とAdobe Campaign(DeclaredId)。 同時に、次の2つのデータソースをAdobe Campaignで使用できます。
 
-* **[!UICONTROL Recipient - Visitor ID (Defaultdatasources)]**:これは、デフォルトで訪問者IDに設定される、すぐに使用できるデータソースです。 Campaign から作成されたセグメントは、このデータソースの一部になります。
-* **宣言済みID** データソース：このデータソースを作成し、Audience Managerの **[!UICONTROL DeclaredId]** データソース定義にマッピングする必要があります。
+* **[!UICONTROL Recipient - Visitor ID (Defaultdatasources)]**:これは、デフォルトで訪問者IDに設定される、すぐに使用できるデータソースです。Campaign から作成されたセグメントは、このデータソースの一部になります。
+* **宣言済み** IDデータソース：このデータソースを作成し、Audience Managerの **[!UICONTROL DeclaredId]** データソース定義にマッピングする必要があります。
 
 異なるドメインを持つ複数のWebサイトの場合、Adobe CampaignはECIDに基づく調整をサポートしません。
 
-To configure the **[!UICONTROL Recipient - Visitor ID (Defaultdatasources)]** data source:
+**[!UICONTROL Recipient - Visitor ID (Defaultdatasources)]**&#x200B;データソースを設定するには：
 
-1. In **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Shared Data Sources]**, select **[!UICONTROL Recipient - Visitor ID (Defaultdatasources)]**.
+1. **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Shared Data Sources]**&#x200B;で、**[!UICONTROL Recipient - Visitor ID (Defaultdatasources)]**&#x200B;を選択します。
 
    ![](assets/integration_aam_2.png)
 
-1. Choose **[!UICONTROL Adobe Campaign]** in the **[!UICONTROL Data Source/ Alias]** drop-down.
-1. Adobeが **[!UICONTROL AAM Destination ID]** 提供するを入力します。
+1. **[!UICONTROL Data Source/ Alias]**&#x200B;ドロップダウンで&#x200B;**[!UICONTROL Adobe Campaign]**&#x200B;を選択します。
+1. Adobeが提供する&#x200B;**[!UICONTROL AAM Destination ID]**&#x200B;を入力します。
 
    ![](assets/integration_aam_3.png)
 
-1. カテゴリでは、調整条件を変更せず、常に調整条件を使用することをお勧めし **[!UICONTROL Reconciliation process]****[!UICONTROL Visitor ID]**&#x200B;ます。
+1. **[!UICONTROL Reconciliation process]**&#x200B;カテゴリでは、調整条件を変更せず、常に&#x200B;**[!UICONTROL Visitor ID]**&#x200B;を使用することをお勧めします。
 1. 「**[!UICONTROL Save]**」をクリックします。
 
-データソースを作成するには、次の手順を実行し **[!UICONTROL Declared ID]** ます。
+**[!UICONTROL Declared ID]**&#x200B;データソースを作成するには：
 
-1. > **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Shared Data Sources]**&#x200B;で、 **[!UICONTROL Create]** ボタンをクリックします。
-1. データソース **[!UICONTROL Label]** のを編集します。
-1. ドロップダウンリストで、Audience Managerのデータソースに対応する **[!UICONTROL Data Source/ Alias]****[!UICONTROL DeclaredID]** データソースを選択します。
-1. Adobeが提供するおよびを入力して、データソース **[!UICONTROL Data Source / Alias]** を設定しま **[!UICONTROL AAM Destination ID]** す。
-1. 必要に応じてを設定 **[!UICONTROL Reconciliation process]** します。
+1. **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Shared Data Sources]**&#x200B;で、**[!UICONTROL Create]**&#x200B;ボタンをクリックします。
+1. データソースの&#x200B;**[!UICONTROL Label]**&#x200B;を編集します。
+1. 「**[!UICONTROL Data Source/ Alias]**」ドロップダウンで、Audience Managerの&#x200B;**[!UICONTROL DeclaredID]**&#x200B;データソースに対応するデータソースを選択します。
+1. Adobeが提供する&#x200B;**[!UICONTROL Data Source / Alias]**&#x200B;と&#x200B;**[!UICONTROL AAM Destination ID]**&#x200B;を入力して、データソースを設定します。
+1. 必要に応じて&#x200B;**[!UICONTROL Reconciliation process]**&#x200B;を設定します。
 1. 「**[!UICONTROL Save]**」をクリックします。
 
 >[!NOTE]
 >
->この **[!UICONTROL AAM Destination ID]** フィールドは、 [キャンペーントリガー統合用に共有データソースを設定する場合は必須ではありません](../../integrating/using/configuring-triggers-in-experience-cloud.md)。 **[!UICONTROL Priority]** は、Triggers -キャンペーン統合を設定する場合にのみ必要です。 優先度によって、最初に設定されるデータソースが決まります。 優先度は、1や100など任意の数値です。 優先度が高いほど、調整時の優先順位が高くなります。
+>**[!UICONTROL AAM Destination ID]**&#x200B;フィールドは、[キャンペーントリガー統合](../../integrating/using/configuring-triggers-in-experience-cloud.md)用に共有データソースを設定する場合は不要です。 **[!UICONTROL Priority]** は、Triggers -キャンペーン統合を設定する場合にのみ必要です。優先度によって、最初に設定されるデータソースが決まります。 優先度は、1や100など任意の数値です。 優先度が高いほど、調整時の優先順位が高くなります。
 
 ### 手順 3：キャンペーントラッキングサーバーの設定 {#step-3--configure-campaign-tracking-server}
 
 People コアサービスまたは Audience Manager との統合を設定する場合は、Campaign トラッキングサーバーも設定する必要があります。
 
-ここでは、キャンペーントラッキングサーバーがドメイン(CNAME)に登録されていることを確認する必要があります。 You can find more information about domain name configuration in [this article](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/Technotes/AdobeCampaign_Deliverability_Sub_Domain_Delegation.pdf).
+ここでは、キャンペーントラッキングサーバーがドメイン(CNAME)に登録されていることを確認する必要があります。 ドメイン名の設定について詳しくは、[この記事](https://helpx.adobe.com/jp/campaign/kb/domain-name-delegation.html)を参照してください。
 
 ### 手順 4：訪問者 ID サービスの設定 {#step-4--configure-the-visitor-id-service}
 
