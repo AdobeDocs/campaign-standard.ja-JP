@@ -7,9 +7,9 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2d28048590b52b81f27cd1cfe10be029bbc35197
 workflow-type: tm+mt
-source-wordcount: '1241'
+source-wordcount: '1239'
 ht-degree: 7%
 
 ---
@@ -22,21 +22,21 @@ ht-degree: 7%
 電子メールデザイナーを使用して電子メールコンテンツを新規に作成しデザインする主な手順は次のとおりです。
 
 1. 電子メールを作成し、その内容を開きます。
-1. 電子メールを追加形成するためのコンポーネントを構造化します。 「電子メール構造の [編集](#defining-the-email-structure)」を参照してください。
-1. 構造コンポーネントにコンテンツコンポーネントとフラグメントを挿入します。 フラグメントとコンテンツコンポーネントの [追加を参照してください](#defining-the-email-structure)。
+1. 電子メールを追加形成するためのコンポーネントを構造化します。 「[電子メール構造の編集](#defining-the-email-structure)」を参照してください。
+1. 構造コンポーネントにコンテンツコンポーネントとフラグメントを挿入します。 [フラグメントとコンテンツコンポーネントの追加](#defining-the-email-structure)を参照してください。
 1. 画像追加を作成し、電子メールのテキストを編集します。 [画像の挿入](../../designing/using/images.md#inserting-images)を参照してください。
-1. パーソナライゼーションフィールドやリンクなどを追加して、電子メールをパーソナライズします。 詳しくは、パーソナライゼーションフィールドの [挿入](../../designing/using/personalization.md#inserting-a-personalization-field)、リンクの [挿入](../../designing/using/links.md#inserting-a-link) 、電子メールでの動的コンテンツの [定義を参照してください](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)。
-1. 電子メールの件名行を定義します。 See [Personalizing the subject line of an email](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
+1. パーソナライゼーションフィールドやリンクなどを追加して、電子メールをパーソナライズします。 「[パーソナライゼーションフィールドの挿入](../../designing/using/personalization.md#inserting-a-personalization-field)」、「[リンク](../../designing/using/links.md#inserting-a-link)の挿入」、「[電子メールでの動的コンテンツの定義](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)」を参照してください。
+1. 電子メールの件名行を定義します。 [電子メールの件名行の個人設定](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email)を参照してください。
 1. E メールのプレビュー.
 1. コンテンツを保存し、オーディエンスを定義し、送信を正しくスケジュールした後、メッセージを続行します。
 
-この紹介ビデオを見ることもでき [ます](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true&captions=jpn)。
+また、この[導入ビデオ](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true&captions=jpn)を見ることもできます。
 
 >[!NOTE]
 >
->電子メールコンテンツを一からデザインするのを避けるために、標準搭載されたコンテンツテンプレートを使用できます。 詳しくは、「 [コンテンツテンプレート](../../designing/using/using-reusable-content.md#content-templates)」を参照してください。
+>電子メールコンテンツを一からデザインするのを避けるために、標準搭載されたコンテンツテンプレートを使用できます。 詳しくは、[コンテンツテンプレート](../../designing/using/using-reusable-content.md#content-templates)を参照してください。
 
-## 電子メール構造の定義 {#defining-the-email-structure}
+## 電子メール構造の定義{#defining-the-email-structure}
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components"
@@ -53,7 +53,7 @@ ht-degree: 7%
 電子メールの構造を編集するには：
 
 1. 既存のコンテンツを開くか、新しい電子メールコンテンツを作成します。
-1. 左側 **[!UICONTROL Structure components]** の+アイコンを選択して、ア **** イコンにアクセスします。
+1. 左側の&#x200B;**+**&#x200B;アイコンを選択して、**[!UICONTROL Structure components]**&#x200B;にアクセスします。
 
    ![](assets/email_designer_structure.png)
 
@@ -71,7 +71,7 @@ ht-degree: 7%
 
 1. 1つ以上の列で構成される構造コンポーネントがいくつか使用できます。
 
-   コンポーネントを選択し、選択する列数を定義します（3 ～ 10の範囲）。 **[!UICONTROL n:n column]** 各列の下部にある矢印を動かして、各列の幅を定義することもできます。
+   **[!UICONTROL n:n column]**&#x200B;コンポーネントを選択して、選択する列数を定義します(3 ～ 10)。 各列の下部にある矢印を動かして、各列の幅を定義することもできます。
 
    ![](assets/email_designer_n-n-column.png)
 
@@ -81,7 +81,7 @@ ht-degree: 7%
 
 構造を定義すると、コンテンツのフラグメントやコンポーネントを電子メールに追加できます。
 
-## プリヘッダーの使用 {#preheader}
+## プリヘッダーの使用{#preheader}
 
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"
@@ -90,18 +90,17 @@ ht-degree: 7%
 
 プリヘッダーは、受信トレイから電子メールを表示する際に、件名の後に続く短い概要テキストです。 プリヘッダーは、より高いオープン率を提供します。
 
-編集ボックスを選択し、コンテンツを完成させ **[!UICONTROL Preheader]** ます。
+**[!UICONTROL Preheader]**&#x200B;編集ボックスを選択し、内容を入力します。
 
 ![](assets/email_designer_preheader.png)
 
-プリヘッダーコンテンツには、 **[!UICONTROL Content block]**、、 **[!UICONTROL Dynamic content]** または **[!UICONTROL Personalization fields]** を追加できます。
+プリヘッダーコンテンツには、**[!UICONTROL Content block]**、**[!UICONTROL Dynamic content]**、または&#x200B;**[!UICONTROL Personalization fields]**&#x200B;を追加できます。
 
 >[!NOTE]
 >
 >プリヘッダーはすべての E メールプログラムと互換性がないことに注意してください。サポートされていない場合、プリヘッダーは表示されません。
 
-
-## コンテンツコンポーネントの使用 {#about-content-components}
+## コンテンツコンポーネントの使用{#about-content-components}
 
 >[!CONTEXTUALHELP]
 >id="ac_content_components"
@@ -116,43 +115,41 @@ ht-degree: 7%
 
 ### **[!UICONTROL Button]**
 
-各ボタンを一から編集するのではなく、複数のボタンを使用する必要がある場合は、コンテキストツールバーを使用して **[!UICONTROL Button]** コンポーネントを重複できます。
+各ボタンを一から編集するのではなく、複数のボタンを使用する必要がある場合は、コンテキストツールバーを使用して&#x200B;**[!UICONTROL Button]**&#x200B;コンポーネントを重複できます。
 
-また、再利用可能なボタンをフラグメントに保存することもできます。 詳しくは、「コンテンツフラグメントの [作成](../../designing/using/using-reusable-content.md#creating-a-content-fragment) 」および「コンテンツをフラグメントとして [保存」を参照してください](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment)。
+また、再利用可能なボタンをフラグメントに保存することもできます。 詳しくは、[コンテンツフラグメントの作成](../../designing/using/using-reusable-content.md#creating-a-content-fragment)および[コンテンツをフラグメントとして保存](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment)を参照してください。
 
-電子メールデザイナ **[!UICONTROL Fallback view]** ーにフォールバック画像を表示する場合に選択します。
+**[!UICONTROL Fallback view]**&#x200B;を選択して、電子メールデザイナーにフォールバック画像を表示します。
 
 ### **[!UICONTROL Text]**
 
-    このコンポーネントを使用して、電子メールにテキストを挿入します。 **[!UICONTROL Component Settings]**では、テキストの色、スタイル、サイズを調整できます。
+このコンポーネントを使用して、電子メールにテキストを挿入します。 **[!UICONTROL Component Settings]**&#x200B;では、テキストの色、スタイル、サイズを調整できます。
 
 ### **[!UICONTROL Divider]**
 
-    このコンポーネントを使用して、電子メールに分割線を挿入します。 区切り線の色、スタイル、およびサイズを**[!UICONTROL Component Settings]**で選択できます。
+このコンポーネントを使用して、電子メールに分割線を挿入します。 **[!UICONTROL Component Settings]**&#x200B;では、改行線の色、スタイル、およびサイズを選択できます。
 
-### **[!UICONTROL Html]**
+### **[!UICONTROL HTML]**
 
 このコンポーネントを使用して、既存のHTMLの様々な部分をコピー&amp;ペーストします。 これにより、無料のモジュラー型HTMLコンポーネントを作成できます。
 
 >[!NOTE]
 >
->無料のHTMLコンポーネントは、制限されたオプションで編集できます。 すべてのスタイルがインライン化されていない場合は、HTMLコードの **head** セクションに適切なCSSを追加してください。追加されていないと、電子メールがレスポンシブになりません。 コンテンツの応答性をテストするには、 **[!UICONTROL Preview]** ボタンを使用します(メッセージの [プレビューを参照](../../sending/using/previewing-messages.md))。
+>無料のHTMLコンポーネントは、制限されたオプションで編集できます。 すべてのスタイルがインラインでない場合は、HTMLコードの&#x200B;**head**&#x200B;セクションに適切なCSSを追加してください。追加しないと、電子メールはレスポンシブになりません。 **[!UICONTROL Preview]**&#x200B;ボタンを使用して、コンテンツの応答性をテストします（[メッセージのプレビュー](../../sending/using/previewing-messages.md)を参照）。
 
 外部コンテンツを単純に電子メールデザイナーに準拠させるために、Adobeでは、最初からメッセージを作成し、既存の電子メールの内容をフラグメントやコンポーネントにコピーすることをお勧めします。
 
-再作成できないコンテンツがある場合は、 **[!UICONTROL Html]** contentコンポーネントを使用して、元の電子メールからHTMLコードをコピー&amp;ペーストできます。 先に進む前に、HTMLに関する十分な知識があることを確認してください。
-
-<!-- A full example is presented below. -->
+再作成できないコンテンツがある場合は、**[!UICONTROL Html]**&#x200B;コンテンツコンポーネントを使用して、元の電子メールからHTMLコードをコピー&amp;ペーストできます。 先に進む前に、HTMLに関する十分な知識があることを確認してください。
 
 >[!NOTE]
 >
 >新しいコンテンツは元の電子メールの正確なコピーではありませんが、次の手順に従って、できるだけ近いメッセージを作成します。
 
-    **コンテンツをコピーする前に**
-    
-    1を実行します。 元の電子メールで、送信する各電子メールに固有のセクションから、再利用可能なセクションを特定します。
-    1.使用するすべての画像とアセットを保存します。
-    1.HTMLに詳しい場合は、元のHTMLコンテンツを別々の部分に分割します。
+**コンテンツをコピーする前に**
+
+1. 元の電子メールで、送信する各電子メールに固有のセクションから、再利用可能なセクションを特定します。
+1. 使用するすべての画像とアセットを保存します。
+1. HTMLに詳しい場合は、元のHTMLコンテンツを別々の部分に分割します。
 
 ### 動画 {#video-settings}
 
@@ -162,8 +159,7 @@ ht-degree: 7%
 >abstract="このコンポーネントを使用して、ビデオを電子メールに挿入します。 ビデオは、すべての電子メールクライアントで機能するわけではありません。 フォールバックイメージを設定することをお勧めします。"
 >additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="追加情報"
 
-
-電子メールの構造コンポーネントにビデオコンポーネントを挿入し、にビデオリンクを入力し **[!UICONTROL Component Settings]**&#x200B;ます。
+電子メールの構造コンポーネントにビデオコンポーネントを挿入し、**[!UICONTROL Component Settings]**&#x200B;にビデオリンクを入力します。
 
 >[!NOTE]
 >
@@ -177,7 +173,7 @@ ht-degree: 7%
 
 ### **[!UICONTROL Social]**
 
-このコンポーネントを使用して、ソーシャルメディアページへのリンクを電子メールに挿入します。 表示するリンクと、に表示するアイコンのサイズを選択でき **[!UICONTROL Component Settings]**&#x200B;ます。
+このコンポーネントを使用して、ソーシャルメディアページへのリンクを電子メールに挿入します。 **[!UICONTROL Component Settings]**&#x200B;に表示するリンクとアイコンのサイズを選択できます。
 
 ### カルーセル {#carousel-settings}
 
@@ -186,12 +182,12 @@ ht-degree: 7%
 >title="カルーセル設定"
 >abstract="コンテンツにカルーセルを挿入および設定する方法を説明します。カルーセルはすべての電子メールクライアントで機能しません。サポートされていない場合は、フォールバック画像が表示されます。"
 
-1. 構造コンポーネント内にコンポー **[!UICONTROL Carousel]** ネントをドラッグ&amp;ドロップします。
+1. **[!UICONTROL Carousel]**&#x200B;コンポーネントを構造コンポーネント内にドラッグ&amp;ドロップします。
 1. コンピューターから画像を参照して選択します。
 
    ![](assets/des_carousel_browse.png)
 
-1. パネルから、カルーセルに含めるサムネールの数を設定し **[!UICONTROL Settings]** ます。
+1. **[!UICONTROL Settings]**&#x200B;ペインで、カルーセルに含めるサムネールの数を設定します。
 1. コンピューターからフォールバックイメージを選択します。
 
    ![](assets/des_carousel_fallback.png)
