@@ -7,10 +7,10 @@ audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 51%
+source-wordcount: '105'
+ht-degree: 47%
 
 ---
 
@@ -28,4 +28,10 @@ ht-degree: 51%
 >[!CAUTION]
 >
 >リソースの作成と変更は機密性の高い操作で、エキスパートユーザーによってのみ実行される必要があります。
+
+このビデオでは、カスタムリソースの作成方法を紹介します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/27715?quality=9&captions=eng)
+
+追加のCampaign Standardハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja)で参照できます。
 
