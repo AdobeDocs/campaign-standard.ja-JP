@@ -7,10 +7,10 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 21%
+source-wordcount: '210'
+ht-degree: 20%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 21%
 
 >[!CAUTION]
 >
->The [Privacy Core Service](https://adobe.io/apis/cloudplatform/gdpr.html) Integration is the method you should use for all access and delete requests. 19.4 以降、アクセス要求および削除要求に対する Campaign API およびインターフェイスの使用は廃止されます。廃止および削除された機能のCampaign Standardについて詳しくは、 [このページを参照してください](https://helpx.adobe.com/jp/campaign/kb/acs-deprecated-and-removed-features.html)。
+>[プライバシーコアサービス](https://adobe.io/apis/cloudplatform/gdpr.html)統合は、すべてのアクセス要求と削除要求で使用する必要がある方法です。 19.4 以降、アクセス要求および削除要求に対する Campaign API およびインターフェイスの使用は廃止されます。廃止および削除された機能のCampaign Standardについて詳しくは、[このページ](../../rn/using/deprecated-features.md)を参照してください。
 
-プライバシーリクエストは、 **POST** リクエストを使用して作成されます。
+プライバシーリクエストは、**POST**&#x200B;リクエストを使用して作成されます。
 
- 要求を作成する前に、使用する名前空間を定義する必要があります。詳しくは、 [プライバシー管理のドキュメントを参照してください](https://helpx.adobe.com/jp/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)。
+ 要求を作成する前に、使用する名前空間を定義する必要があります。詳しくは、[プライバシー管理ドキュメント](https://helpx.adobe.com/jp/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)を参照してください。
 
 ペイロードには、次のパラメーターを含める必要があります。
 
@@ -31,8 +31,8 @@ ht-degree: 21%
 * **名前空間**:campaign standardインターフェイスで設定された名前空間名
 * **reconcilationValue**:名前空間で定義された紐付けキーに基づく調整値
 * **label**:要求ラベル
-* **type**:リクエストタイプ。 指定できる値は、「access」または「delete」です。
-* **規則**:規則の種類。 例：&quot;GDPR&quot;、&quot;CCPA&quot;。 このパラメーターは必須で、Campaign Standard19.4リリースから使用できます。 古いビルドを使用している場合は、ペイロードに追加する必要はありません。
+* **type**:リクエストタイプ。指定できる値は、「access」または「delete」です。
+* **規則**:規則の種類。例：&quot;GDPR&quot;、&quot;CCPA&quot;。 このパラメーターは必須で、Campaign Standard19.4リリースから使用できます。 古いビルドを使用している場合は、ペイロードに追加する必要はありません。
 
 <br/>
 
