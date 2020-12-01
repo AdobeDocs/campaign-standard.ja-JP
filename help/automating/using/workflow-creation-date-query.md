@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: execution-activities
 context-tags: workflow,use-case,query
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 45c80b5e6bf2169c5acf6eea70da9e2f130982c8
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 38%
@@ -26,34 +26,34 @@ ht-degree: 38%
 
 ## スケジューラーアクティビティの作成 {#creating-a-scheduler-activity}
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Execution]**, drag and drop a [Scheduler](../../automating/using/scheduler.md) activity.
+1. **[!UICONTROL Activities]** > **[!UICONTROL Execution]**&#x200B;に[スケジューラー](../../automating/using/scheduler.md)アクティビティをドラッグ&amp;ドロップします。
 1. アクティビティをダブルクリックします。
 1. 配信の実行を設定します。
 1. 「**[!UICONTROL Execution frequency]**」で、「**[!UICONTROL Daily]**」を選択します。
-1. ワークフローの実行 **[!UICONTROL Time]** と実行 **[!UICONTROL Repetition frequency]** を選択します。
-1. ワークフローの **[!UICONTROL Start]** 日付と **[!UICONTROL Expiration]** 日付を選択します。
+1. ワークフローの実行の&#x200B;**[!UICONTROL Time]**&#x200B;と&#x200B;**[!UICONTROL Repetition frequency]**&#x200B;を選択します。
+1. ワークフローの&#x200B;**[!UICONTROL Start]**&#x200B;日付と&#x200B;**[!UICONTROL Expiration]**&#x200B;を選択します。
 1. アクティビティを確認し、ワークフローを保存します。
 
 >[!NOTE]
 >
->To start your workflow at a specific time zone, in the **[!UICONTROL Execution options]** tab, set up the time zone for your scheduler in the **[!UICONTROL Time zone]** field. デフォルトで選択されるタイムゾーンは、ワークフローのプロパティで定義されたタイムゾーンです（[ワークフローの作成](../../automating/using/building-a-workflow.md)を参照）。
+>特定のタイムゾーンでワークフローを開始するには、「**[!UICONTROL Execution options]**」タブの&#x200B;**[!UICONTROL Time zone]**&#x200B;フィールドにスケジューラーのタイムゾーンを設定します。 デフォルトで選択されるタイムゾーンは、ワークフローのプロパティで定義されたタイムゾーンです（[ワークフローの作成](../../automating/using/building-a-workflow.md)を参照）。
 
 ![](assets/time_zone.png)
 
 ## クエリアクティビティの作成{#creating-a-query-activity}
 
-1. To select recipients, drag and drop a [Query](../../automating/using/query.md) activity and double-click it.
-1. 値 **[!UICONTROL Profiles]** を使用してを追加選択し **[!UICONTROL no longer contact by email]** ま **[!UICONTROL no]**&#x200B;す。
+1. 受信者を選択するには、[クエリ](../../automating/using/query.md)アクティビティをドラッグ&amp;ドロップし、重複を押しながらクリックします。
+1. 追加&#x200B;**[!UICONTROL Profiles]**&#x200B;を選択し、**[!UICONTROL no]**&#x200B;の値を&#x200B;**[!UICONTROL no longer contact by email]**&#x200B;に設定します。
 
-### 実行日と同じ日に作成されたプロファイルの取得 {#retriving-profiles-created-on-the-same-day}
+### 実行日{#retrieving-profiles-created-on-the-same-day}と同じ日に作成されたプロファイルを取得しています
 
-1. で、フィ **[!UICONTROL Profile]**&#x200B;ールドをドラッグ&amp;ドロップし **[!UICONTROL Created]** ます。 をクリックし **[!UICONTROL Advanced Mode]**ます。
+1. **[!UICONTROL Profile]**&#x200B;で、**[!UICONTROL Created]**&#x200B;フィールドをドラッグ&amp;ドロップします。 **[!UICONTROL Advanced Mode]**をクリックします。
    ![](assets/advanced_mode.png)
-1. で、 **[!UICONTROL list of functions]**&#x200B;ノード&#x200B;**[!UICONTROL Day]** から重複クリックし&#x200B;**[!UICONTROL Date]**&#x200B;ます。
-1. 次に、フィールドを引数 **[!UICONTROL Created]** として挿入します。
-1. Select **[!UICONTROL equals to (=)]** as the operator.
-1. [値]で、の&#x200B;**[!UICONTROL Day]** ノードからを選択し **[!UICONTROL Date]****[!UICONTROL List of functions]**&#x200B;ます。
-1. 関数を引数として挿入し&#x200B;**[!UICONTROL GetDate()]**&#x200B;ます。
+1. **[!UICONTROL list of functions]**&#x200B;で、**[!UICONTROL Date]**&#x200B;ノードから&#x200B;**[!UICONTROL Day]**&#x200B;を重複クリックします。
+1. 次に、フィールド&#x200B;**[!UICONTROL Created]**&#x200B;を引数として挿入します。
+1. 演算子として&#x200B;**[!UICONTROL equals to (=)]**&#x200B;を選択します。
+1. 「値」で、**[!UICONTROL List of functions]**&#x200B;の&#x200B;**[!UICONTROL Date]**&#x200B;ノードから&#x200B;**[!UICONTROL Day]**&#x200B;を選択します。
+1. **[!UICONTROL GetDate()]**&#x200B;関数を引数として挿入します。
 
 作成日が現在の日と等しいプロファイルを取得しました。
 
@@ -65,11 +65,11 @@ ht-degree: 38%
 
 「**[!UICONTROL Confirm]**」をクリックします。
 
-### 実行月と同じ月に作成されたプロファイルの取得{#retriving-profiles-created-on-the-same-month}
+### 実行月と同じ月に作成されたプロファイルを取得しています{#retrieving-profiles-created-on-the-same-month}
 
-1. エディターで、最初のクエリを選択し、重複します。 **[!UICONTROL Query]**
+1. **[!UICONTROL Query]**&#x200B;エディターで、最初のクエリを選択し、重複します。
 1. 重複を開きます。
-1. クエリ **[!UICONTROL Day]** の「」 **[!UICONTROL Month]** をに置き換えます。
+1. クエリの&#x200B;**[!UICONTROL Day]**&#x200B;を&#x200B;**[!UICONTROL Month]**&#x200B;で置き換えます。
 1. 「**[!UICONTROL Confirm]**」をクリックします。
 
 ![](assets/month_rule.png)
@@ -86,7 +86,7 @@ ht-degree: 38%
 
 ## E メール配信の作成{#creating-an-email-delivery}
 
-1. 「 [電子メール配信](../../automating/using/email-delivery.md) 」アクティビティをドラッグ&amp;ドロップします。
+1. [電子メール配信](../../automating/using/email-delivery.md)アクティビティをドラッグ&amp;ドロップします。
 1. アクティビティをクリックし、![](assets/edit_darkgrey-24px.png) を選択して編集します。
 1. 「**[!UICONTROL Recurring email]**」を選択し、「**[!UICONTROL Next]**」をクリックします。
 1. E メールテンプレートを選択し、「**[!UICONTROL Next]**」をクリックします。
