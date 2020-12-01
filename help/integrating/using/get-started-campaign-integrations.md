@@ -7,10 +7,10 @@ audience: integrating
 content-type: reference
 topic-tags: get-started-campaign-integrations
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
 source-wordcount: '632'
-ht-degree: 92%
+ht-degree: 91%
 
 ---
 
@@ -49,14 +49,14 @@ ht-degree: 92%
    <td> Experience Manager<br /> 6.1、6.2、6.3、6.4、6.5<br /> </td> 
    <td> E メールコンテンツや Adobe Campaign データベースにマッピングされたフォームを Adobe Experience Manager で直接作成することができます。<br /> </td> 
    <td> 
-     <a href="../../integrating/using/integrating-with-experience-manager.md">キャンペーンとExperience Managerの操作</a>、 <a href="https://helpx.adobe.com/jp/experience-manager/6-4/sites/administering/using/campaignstandard.html">Experience ManagerとCampaign Standardの</a>統合 <a href="https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-experience-manager/creating-email-experience-manager.html">、Experience Managerとキャンペーンを含む電子メールの作成</a> 
+     <a href="../../integrating/using/integrating-with-experience-manager.md">キャンペーンとExperience Managerの操作</a>、 <a href="https://helpx.adobe.com/jp/experience-manager/6-4/sites/administering/using/campaignstandard.html">Experience ManagerとCampaign Standardの</a>統合 <a href="https://gn.adobe.com/doc/standard/getting_started/en/ACS_AEM.html">、Experience Managerとキャンペーンを含む電子メールの作成</a> 
     </td> 
   </tr> 
   <tr> 
    <td> Target<br /> Classic、Standard<br /> </td> 
    <td> Adobe Campaign で作成、送信された E メールが開封されたときに Adobe Target が動的に自動生成した画像を挿入することができます。<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-campaign-target-integration.md">キャンペーンとターゲットの使用</a>、キャンペーンとターゲットの <a href="https://docs.adobe.com/content/help/ja-JP/target/using/integrate/campaign-and-target.html">統合</a>、Personalize Email Images in Real-Time <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html"></a> video（手順3）
+    <a href="../../integrating/using/about-campaign-target-integration.md">キャンペーンとターゲットの使用</a>、キャンペーンとターゲットの <a href="https://docs.adobe.com/content/help/ja-JP/target/using/integrate/campaign-and-target.html">統合</a>、リアル <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html"></a> タイムビデオでの電子メール画像のパーソナライズ（手順3）
     </td> 
   </tr> 
   <tr> 
@@ -92,7 +92,7 @@ ht-degree: 92%
    <td> Dreamweaver<br /> </td> 
    <td> Dreamweaver で E メールコンテンツを編集し、Adobe Campaign と同期できます。<br /> </td> 
    <td> 
-    <a href="https://docs.adobe.com/content/help/ja-JP/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.translate.html">Dreamweaver</a> ・ビデオを使用したパーソナライズされた電子メールの作成、Dreamweaver向けキャンペーン拡張の <a href="https://helpx.adobe.com/jp/dreamweaver/using/working-with-dreamweaver-and-campaign.html">使用</a> 
+    <a href="https://docs.adobe.com/content/help/ja-JP/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.translate.html">Dreamweavervideoを使用してパーソナライズされた電子メールを作成し、</a> Dreamweaver向けキャンペーン拡張機能を <a href="https://helpx.adobe.com/jp/dreamweaver/using/working-with-dreamweaver-and-campaign.html">使用する</a> 
   </td> 
   </tr> 
   <tr> 
