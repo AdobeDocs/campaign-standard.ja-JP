@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: sms-messages
 delivercontext-tags: deliveryCreation,wizard
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 100%
+source-wordcount: '538'
+ht-degree: 96%
 
 ---
 
@@ -21,6 +21,8 @@ ht-degree: 100%
 SMS 配信の作成は、通常の E メールの作成と非常に似ています。次の手順では、このチャネルに固有の設定について説明します。その他のオプションについて詳しくは、[E メールの作成](../../channels/using/creating-an-email.md)を参照してください。
 
 詳細な SMS パラメーターについて詳しくは、[SMS チャネルの設定](../../administration/using/configuring-sms-channel.md)の節を参照してください。
+
+![](assets/do-not-localize/how-to-video.png) [動画でこの機能を確認する](#video)
 
 SMS メッセージを作成して携帯電話に送信するには、次のものが必要です。
 
@@ -78,4 +80,11 @@ SMS メッセージを作成して携帯電話に送信するには、次のも�
 
 * [SMS とプッシュコンテンツのデザインについて](../../channels/using/about-sms-and-push-content-design.md)
 * [テンプレートの管理](../../start/using/marketing-activity-templates.md)
-* [SMS 配信の作成](https://docs.adobe.com/content/help/ja-JP/campaign-standard-learn/tutorials/communication-channels/mobile/sms/sms-delivery.translate.html)ビデオ
+
+## チュートリアルビデオ {#video}
+
+このビデオでは、SMS配信の作成方法を示します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/25265/?quality=12)
+
+追加のCampaign Standardハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja)で参照できます。
