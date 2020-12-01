@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: de8afa7e942b7ee831837b1f9506488f7ca835f0
 workflow-type: tm+mt
 source-wordcount: '457'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 98%
 
 **新規：**[Campaign Standard のリリース通知](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU)をご購読いただくと、今後のリリースの詳細が E メールで通知されます。
 
-## リリース21.1 - 2月リリース {#release-21-1-release}
+## リリース 21.1 - 2 月リリース {#release-21-1-release}
 
 環境のアップデートは、以下に示す期間に順次おこなわれます。このリリースについて詳しくは、[リリースノート](../../rn/using/release-notes.md)を参照してください。その他のご質問については、[アドビクライアントケア](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)にお問い合わせください。
 
@@ -41,11 +41,11 @@ ht-degree: 98%
  <tbody>
   <tr>
    <td>ステージング<br /> </td>
-   <td>2021年1月25日～27日<br /> </td>
+   <td>2021 年 1 月 25 日～27 日<br /> </td>
   </tr>
   <tr>
    <td> 本番<br /> </td>
-   <td>2021年2月1日～8日<br /> </td>
+   <td>2021 年 2 月 1 日～8 日<br /> </td>
   </tr>
  </tbody>
 </table>
