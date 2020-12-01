@@ -7,16 +7,16 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 739943deccf6320de71bd6a255eb0b2fb20d5df5
 workflow-type: tm+mt
-source-wordcount: '1210'
+source-wordcount: '1212'
 ht-degree: 6%
 
 ---
 
-# Designing using existing content {#designing-using-existing-content}
+# 既存のコンテンツを使用したデザイン{#designing-using-existing-content}
 
-## Selecting an existing content{#selecting-an-existing-content}
+## 既存のコンテンツの選択{#selecting-an-existing-content}
 
 Adobe Campaignには、作業を開始する際に役立つ定義済みのコンテンツのセットが用意されています。 これらのいずれかを使用することも、送信する必要があるメッセージの内容がAdobe Campaign以外で準備されている場合は、コンピューターまたはURLから読み込むこともできます。
 
@@ -24,19 +24,19 @@ Adobe Campaignには、作業を開始する際に役立つ定義済みのコン
 
 >[!NOTE]
 >
->次の画像は、 [電子メールデザイナを使用して既存のコンテンツを読み込む方法を示しています](../../designing/using/designing-content-in-adobe-campaign.md)。
+>次の画像は、[電子メールデザイナー](../../designing/using/designing-content-in-adobe-campaign.md)を使用して既存のコンテンツを読み込む方法を示しています。
 
 1. 電子メールまたはランディングページを作成したら、その内容を開きます。
-1. ホームアイコンをクリックして、 **[!UICONTROL Email Designer]** ホームページにアクセスします。
+1. ホームアイコンをクリックして&#x200B;**[!UICONTROL Email Designer]**&#x200B;ホームページにアクセスします。
 
    ![](assets/des_loading_1.png)
 
 1. 読み込むコンテンツのソースを選択します。
 
-   * [コンテンツテンプレート](../../designing/using/using-reusable-content.md#content-templates):タブをクリックし **[!UICONTROL Templates]** ます。
+   * [コンテンツテンプレート](../../designing/using/using-reusable-content.md#content-templates):タ **[!UICONTROL Templates]** ブをクリックします。
    * [新規コンテンツ](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)、新規開始コンテンツ：ボタンをクリックし **[!UICONTROL Create]** ます。
    * [コンピューター上のZIPまたはHTMLファイル](#importing-content-from-a-file):ボタンをクリックし **[!UICONTROL Upload]** ます。
-   * [既存のURLからのコンテンツ](#importing-content-from-a-url) （電子メールのみ）:ボタンをクリックし **[!UICONTROL Import from URL]** ます。
+   * [既存のURL](#importing-content-from-a-url) （電子メールのみ）のコンテンツ：ボタンをクリックし **[!UICONTROL Import from URL]** ます。
 
    ![](assets/des_loading_2.png)
 
@@ -46,26 +46,26 @@ Adobe Campaignには、作業を開始する際に役立つ定義済みのコン
 
    >[!NOTE]
    >
-   >電子メ [ールデザイナーは](../../designing/using/designing-content-in-adobe-campaign.md) 、特定のタグ付けを使用します。 キャンペーンにアップロードする標準のHTMLコンテンツは、電子メールデザイナーでの完全な互換性と編集が可能なタグと一致している必要があります。 一致しない場合、コンテンツは [互換モードでアップロードされます](#compatibility-mode)。 既存のコンテンツを互換性にするには、 [この節を参照してください](#editing-existing-contents-with-the-email-designer)。
+   >[電子メールデザイナー](../../designing/using/designing-content-in-adobe-campaign.md)は、特定のタグ付けを使用します。 キャンペーンにアップロードする標準のHTMLコンテンツは、電子メールデザイナーでの完全な互換性と編集が可能なタグと一致している必要があります。 一致しない場合、コンテンツは[互換モード](#compatibility-mode)にアップロードされます。 既存のコンテンツを互換性を持たせるには、[このセクション](#editing-existing-contents-with-the-email-designer)を参照してください。
 
 **関連トピック：**
 
 * [E メールの作成](../../channels/using/creating-an-email.md)
 * [ランディングページの管理](../../channels/using/getting-started-with-landing-pages.md)
 
-## Editing existing contents with the Email Designer{#editing-existing-contents-with-the-email-designer}
+## 電子メールデザイナでの既存のコンテンツの編集{#editing-existing-contents-with-the-email-designer}
 
-Email Designerの編集機能を最大限に活用するには、 [Email Designer](../../designing/using/designing-content-in-adobe-campaign.md)（電子メールデザイナー）の編集機能を最大限に活用するために、アップロードしたHTMLには、WYSIWYGエディターに準拠する特定のタグが含まれている必要があります。
+[電子メールデザイナー](../../designing/using/designing-content-in-adobe-campaign.md)の編集機能を最大限に活用するには、アップロードしたHTMLに、WYSIWYGエディターに準拠する特定のタグを含める必要があります。
 
-HTMLのすべてまたは一部にこのタグが付いていない場合、コンテンツは「 [互換モード](#compatibility-mode)」に読み込まれます。
+HTMLのすべてまたは一部にこのタグが付いていない場合、コンテンツは&#39;[互換モード](#compatibility-mode)&#39;に読み込まれます。
 
-既存の外部コンテンツを電子メールデザイナー内で完全に編集できるようにするには、「既存のコンテンツを使用した電子メールの [デザイン](../../designing/using/using-existing-content.md) 」の節を参照してください。
+既存の外部コンテンツを電子メールデザイナー内で編集可能にするには、「[既存のコンテンツを使用した電子メールのデザイン](../../designing/using/using-existing-content.md)」の節を参照してください。
 
-## 既存の電子メールコンテンツの読み込み {#importing}
+## 既存の電子メールコンテンツのインポート{#importing}
 
-### Importing content from a file {#importing-content-from-a-file}
+### ファイル{#importing-content-from-a-file}からのコンテンツの読み込み
 
-電子メールデザイナーホームページで、ボタンをクリックしてコンピューターからファイルをアップロードし、確認します。 **[!UICONTROL Upload]**
+電子メールデザイナーホームページで、「**[!UICONTROL Upload]**」ボタンをクリックしてコンピューターからファイルをアップロードし、確認します。
 
 zipファイル構造に制限はありません。 ただし、HTMLファイルの参照は、zipフォルダーのツリー構造に従って相対パスで行う必要があります。
 
@@ -78,12 +78,12 @@ zipファイル構造に制限はありません。 ただし、HTMLファイル
 >
 >電子メールコンテンツの場合は、スタイルシートを組み込んだ1つのHTMLファイルを読み込むことをお勧めします。
 
-#### Importing content from a URL {#importing-content-from-a-url}
+#### URLからのコンテンツの読み込み{#importing-content-from-a-url}
 
 URLからコンテンツを読み込む前に、次の要件を満たしていることを確認してください。
 
 * コンテンツは、このURLで公開されている必要があります。
-* セキュリティ上の理由から、で始まるURLのみ **[!UICONTROL https]** を使用できます。
+* セキュリティ上の理由から、**[!UICONTROL https]**&#x200B;で始まるURLのみ使用できます。
 * すべてのリソース（画像、CSS）が絶対リンクとHTTPSで設定されていることを確認します。 そうしないと、電子メールを送信した後、ミラーページにリソースが表示されません。 絶対リンク定義の例を次に示します。
 
    ```
@@ -96,24 +96,26 @@ URLからコンテンツを読み込む前に、次の要件を満たしてい�
 
 URLから既存のコンテンツを取得するには、次の手順に従います。
 
-1. 電子メールデザイナホームページから、 **[!UICONTROL Import from URL]** ボタンを選択します。
+1. 電子メールデザイナホームページから&#x200B;**[!UICONTROL Import from URL]**&#x200B;ボタンを選択します。
 
    ![](assets/email_designer_importfromurl.png)
 
 1. コンテンツの取得元となるURLを定義します。
 1. 「**[!UICONTROL Confirm]**」をクリックします。
 
-**関連トピック：**
+動画でこの機能を確認する.
 
-[URL](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#Workingwithexistingcontent) ビデオからのコンテンツの読み込み
+>[!VIDEO](https://video.tv.adobe.com/v/25926?quality=12)
 
-### 準備時にURLからコンテンツを自動的に取得する {#retrieving-content-from-a-url-automatically-at-preparation-time}
+追加のCampaign Standardハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja)で参照できます。
+
+### 準備時にURLからコンテンツを自動的に取得{#retrieving-content-from-a-url-automatically-at-preparation-time}
 
 メッセージの準備中にURLからコンテンツを読み込むと、電子メールが準備されるたびに最新のHTMLコンテンツを取得できます。 これにより、定期的な電子メールのコンテンツは、送信時に常に最新の状態になります。 また、この機能を使用すると、コンテンツの準備ができていない場合でも、特定の日にスケジュールされたメッセージを作成できます。
 
 準備時にコンテンツを取得するには、次の手順に従います。
 
-1. Select the **[!UICONTROL Content imported during preparation]** option.
+1. **[!UICONTROL Content imported during preparation]**&#x200B;オプションを選択します。
 
    ![](assets/email_designer_importfromurl2.png)
 
@@ -123,24 +125,24 @@ URLから既存のコンテンツを取得するには、次の手順に従い�
    >
    >この手順では、コンテンツエディターでのHTML表示を考慮しないでください。 準備段階で取り出します。
 
-1. 取得されたURLコンテンツをプレビューするには、メッセージの作成後にそのメッセージを開き、 **[!UICONTROL Preview]** ボタンをクリックします。
+1. 取得したURLコンテンツをプレビューするには、メッセージの作成後に開き、「**[!UICONTROL Preview]**」ボタンをクリックします。
 
 コンテンツの取得元となるリモートURLをパーソナライズできます。 これをおこなうには、以下の手順に従います。
 
-1. 画面上部の電子メールラベルをクリックして、「電子メールデザイナー」 **[!UICONTROL Properties]** タブにアクセスします。
-1. フィールドを探し **[!UICONTROL Remote URL]** ます。
+1. 画面上部の電子メールラベルをクリックして、「電子メールデザイナ&#x200B;**[!UICONTROL Properties]**」タブにアクセスします。
+1. **[!UICONTROL Remote URL]**&#x200B;フィールドを探します。
 
    ![](assets/email_designer_importfromurl4.png)
 
 1. 目的のパーソナライゼーションフィールド、コンテンツブロックまたは動的テキストを挿入します。
 
-   例えば、 **[!UICONTROL Current date - YYYYMMDD]** コンテンツブロックを使用して日付を挿入できます。
+   例えば、**[!UICONTROL Current date - YYYYMMDD]**&#x200B;コンテンツブロックを使用すると、日付を挿入できます。
 
    >[!NOTE]
    >
-   >使用可能なパーソナライゼーションフィールドは **配信** 属性にのみリンクされます(電子メール作成日、ステータス、キャンペーンラベルなど)。
+   >使用可能なパーソナライゼーションフィールドは、**配信**&#x200B;属性にのみリンクされます(電子メール作成日、ステータス、キャンペーンラベル…)。
 
-### 互換モード {#compatibility-mode}
+### 互換モード{#compatibility-mode}
 
 コンテンツをアップロードする場合、電子メールデザイナのWYSIWYGエディターに完全に準拠し、編集できるように、コンテンツには特定のタグが含まれている必要があります。
 
@@ -157,15 +159,15 @@ URLから既存のコンテンツを取得するには、次の手順に従い�
 
 電子メールに新しいセクションを追加したり、高度なスタイル設定を行ったりするなど、その他の変更は、電子メールのソースコードでHTMLモードを使用して直接行う必要があります。
 
-既存の電子メールをDesigner互換の電子メールに変換する方法について詳しくは、 [この節を参照してください](../../designing/using/using-existing-content.md)。
+既存の電子メールを電子メールデザイナーと互換性のある電子メールに変換する方法について詳しくは、[この節](../../designing/using/using-existing-content.md)を参照してください。
 
 **関連トピック**：
 
 * [E メールの作成](../../channels/using/creating-an-email.md)
-* [電子メールデザイナーの概要ビデオ](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true&captions=jpn)
+* [電子メールデザイナーの概要ビデオ](../../designing/using/designing-content-in-adobe-campaign.md#video)
 * [電子メールコンテンツをゼロからデザインする](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)
 
-## HTMLコンテンツの変換 {#converting-an-html-content}
+## HTMLコンテンツの変換{#converting-an-html-content}
 
 複数の電子メールで再利用できるモジュラー型テンプレートとフラグメントのフレームワークを構築する場合は、電子メールHTMLを電子メールデザイナーテンプレートに変換することを検討してください。
 
