@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: fc755f3176622e1faf08ccfa4236e016110f9a68
 workflow-type: tm+mt
 source-wordcount: '2412'
 ht-degree: 100%
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 [リリース計画](../../rn/using/release-planning.md) | [コントロールパネルのリリース](https://docs.adobe.com/content/help/ja-JP/control-panel/using/release-notes.html) | [ドキュメントの更新](../../rn/using/documentation-updates.md) | [以前のリリースノート](../../rn/using/release-notes-2020.md) | [非推奨（廃止予定）の機能](../../rn/using/deprecated-features.md)
 
-![](assets/do-not-localize/cp-icon.png) **10 月の新しい Campaign コントロールパネルリリース**&#x200B;で、CNAME を使用したドメイン設定と新しいデータベース監視機能が追加されました。[詳細情報](https://docs.adobe.com/content/help/ja-JP/control-panel/using/release-notes.html)。
+![](assets/do-not-localize/cp-icon.png) **10 月の新しい Campaign コントロールパネルリリース**&#x200B;で、CNAME を使用したドメイン設定と新しいデータベース監視機能が追加されました。[詳細情報](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)。
 
 ## リリース 20.4 - 2020 年 10 月 {#release-20-4---october-2020}
 
@@ -112,7 +112,7 @@ ht-degree: 100%
 * カスタムリソースを公開する際、準備後に確認ポップアップが表示されるようになりました。
 * カスタムリソースの失敗時に表示されるポップアップメッセージが改善され、より明確になりました。
 * ワークフローの式エディターが改善され、実行エラーが発生しないようになりました。外部パラメーターを使用してワークフローを呼び出した後にイベント変数を使用できるすべてのアクティビティで、[新しい関数](../../automating/using/customizing-workflow-external-parameters.md)を使用できます。また、式エディターに関数の説明と共にツールチップが表示されるようになりました。
-* トランザクションイベントのリストに[新しいフィルター](../../administration/using/configuring-transactional-messaging.md#searching-transactional-events)が追加されました。イベント設定を、そのステータスと最後にイベントを受信した時間に基づいてフィルタリングできます。
+* トランザクションイベントのリストに[新しいフィルター](../../channels/using/configuring-transactional-event.md#searching-transactional-events)が追加されました。イベント設定を、そのステータスと最後にイベントを受信した時間に基づいてフィルタリングできます。
 * パッケージの書き出し時に表示されるログは、エラーが発生した場合にエラーに関するより詳細な情報を提供するようになりました。
 * メッセージを送信した後、[追跡対象 URL](../../sending/using/tracking-messages.md) のリストを検索、フィルタリングおよび書き出しできるようになりました。
 * [Launch と Campaign 間の自動同期](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow)が GA になり、デフォルトで有効になりました。
