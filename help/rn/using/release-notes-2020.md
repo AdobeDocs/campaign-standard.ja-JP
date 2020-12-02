@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
+source-git-commit: d1d199ab607e57c01cfd70ed81b55fd69789981d
 workflow-type: tm+mt
 source-wordcount: '2945'
 ht-degree: 99%
@@ -19,7 +19,7 @@ ht-degree: 99%
 
 [リリース計画](https://helpx.adobe.com/jp/campaign/kb/acs-release-planning.html) | [コントロールパネルのリリース](https://docs.adobe.com/content/help/ja-JP/control-panel/using/release-notes.html) | [ドキュメントの更新](../../rn/using/documentation-updates.md) | [以前のリリースノート](../../rn/using/release-notes-2019.md) | [非推奨（廃止予定）の機能](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html)
 
-![](assets/do-not-localize/cp-icon.png) **新しいコントロールパネル 6 月のリリース** - アクティブなプロファイルの監視、サブドメイン配信品質の監査、GPG キー管理。[詳細情報](https://docs.adobe.com/content/help/ja-JP/control-panel/using/release-notes.html)。
+![](assets/do-not-localize/cp-icon.png) **新しいコントロールパネル 6 月のリリース** - アクティブなプロファイルの監視、サブドメイン配信品質の監査、GPG キー管理。[詳細情報](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)。
 
 ## リリース 20.3 - 2020 年 5 月 {#release-20-3---may-2020}
 
@@ -123,7 +123,7 @@ ht-degree: 99%
 * ユーザーがレポートを変更できないエラーを修正しました。（CAMP-42505）
 
 
-![](assets/do-not-localize/cp-icon.png) **Campaign コントロールパネルの 5 月の新しいリリース**&#x200B;で、CNAME サブドメインの証明書を更新できるようになりました。詳しくは、[こちら](https://docs.adobe.com/content/help/ja-JP/control-panel/using/release-notes.html)を参照してください。
+![](assets/do-not-localize/cp-icon.png) **Campaign コントロールパネルの 5 月の新しいリリース**&#x200B;で、CNAME サブドメインの証明書を更新できるようになりました。詳しくは、[こちら](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)を参照してください。
 
 ## リリース 20.2 - 2020 年 4 月{#release-20-2---april-2020}
 
@@ -161,7 +161,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->Google TXT レコード管理、データベース領域の監視、E メールアラートなど、新しい機能が 4 月に Campaign コントロールパネルにリリースされます。これらの機能について詳しくは、[コントロールパネルリリースノート](https://docs.adobe.com/content/help/ja-JP/control-panel/using/release-notes.html)を参照してください。
+>Google TXT レコード管理、データベース領域の監視、E メールアラートなど、新しい機能が 4 月に Campaign コントロールパネルにリリースされます。これらの機能について詳しくは、[コントロールパネルリリースノート](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)を参照してください。
 
 **強化点**
 
@@ -203,7 +203,7 @@ ht-degree: 99%
 
 * 「**エンリッチメント**」ワークフローアクティビティで「**Alias**」フィールドにスペースを追加して新しい行項目を作成したときに生じる可能性がある問題を修正しました。（CAMP-39229）
 * 配達確認メッセージの送信時に、すべてのテストプロファイルがターゲットになる可能性がある問題を修正しました。
-* イベント設定を非公開にして削除した後で生じていた問題を修正しました。[詳細を表示](../../administration/using/configuring-transactional-messaging.md#deleting-an-event)
+* イベント設定を非公開にして削除した後で生じていた問題を修正しました。[詳細を表示](../../channels/using/publishing-transactional-event.md#deleting-an-event)
 * ワークフローに変更を加えると「**Save**」ボタンが表示されなくなる問題を修正しました。
 * プライバシーリクエストを処理した後、Campaign で手動で削除したとき、リクエストに関連付けられたデータがクリーンアップ後も削除されない問題を修正しました。
 * 特殊文字を含んだメッセージを Adobe Experience Manager からプレビューまたは送信したときに生じる可能性がある問題を修正しました。
