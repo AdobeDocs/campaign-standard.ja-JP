@@ -7,7 +7,7 @@ audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
 translation-type: tm+mt
-source-git-commit: d1d199ab607e57c01cfd70ed81b55fd69789981d
+source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 47%
@@ -25,7 +25,7 @@ ht-degree: 47%
 1. [フィルター定義の設定](../../developing/using/configuring-filter-definition.md)
 1. [データベース構造の更新](../../developing/using/updating-the-database-structure.md)
 
->[!IMPORTANT]
+>[!CAUTION]
 >
 >リソースの作成と変更は機密性の高い操作で、エキスパートユーザーによってのみ実行される必要があります。
 
@@ -34,3 +34,4 @@ ht-degree: 47%
 >[!VIDEO](https://video.tv.adobe.com/v/27715?quality=9&captions=eng)
 
 追加のCampaign Standardハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja)で参照できます。
+
