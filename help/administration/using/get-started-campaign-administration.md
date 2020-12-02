@@ -7,9 +7,9 @@ audience: administration
 content-type: reference
 topic-tags: about-administrating-adobe-campaign
 translation-type: tm+mt
-source-git-commit: d1d199ab607e57c01cfd70ed81b55fd69789981d
+source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '657'
 ht-degree: 14%
 
 ---
@@ -74,7 +74,7 @@ Adobe Campaign内のすべての通信チャネルは、メッセージを効果
 
 様々な&#x200B;**email**&#x200B;パラメーターを設定します。バウンス、強制隔離、電子メールのプロパティ、ルーティングパラメーター（通常はルール）の処理ルール。 **SMS**&#x200B;チャネルのルーティング構成とプロパティ、およびSMSのエンコードと形式を定義します。
 
-**モバイルアプリ**&#x200B;を設定して、Adobe Experience PlatformSDKを使用してアプリ内メッセージとプッシュ通知を送信できるようにします。
+**モバイルアプリ**&#x200B;を設定し、Adobe Experience PlatformSDKを使用してアプリ内メッセージとプッシュ通知を送信できるようにします。また、イベントを作成して設定することで、**トランザクションメッセージ**&#x200B;を設定します。
 
 詳しくは、以下を参照してください。
 
@@ -82,6 +82,7 @@ Adobe Campaign内のすべての通信チャネルは、メッセージを効果
 * [E メールチャネルの設定](../../administration/using/configuring-email-channel.md)
 * [SMS チャネルの設定](../../administration/using/configuring-sms-channel.md)
 * [モバイルアプリケーションの設定](../../administration/using/configuring-a-mobile-application.md)
+* [トランザクションメッセージの設定](../../administration/using/configuring-transactional-messaging.md)
 
 ## アプリケーション設定{#application-settings}
 
