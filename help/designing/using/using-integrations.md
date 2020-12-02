@@ -7,7 +7,7 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 translation-type: tm+mt
-source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
+source-git-commit: d1d199ab607e57c01cfd70ed81b55fd69789981d
 workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 6%
@@ -50,7 +50,7 @@ Adobe Campaign StandardとDreamweaverの統合により、Dreamweaverのイン�
 >title="製品リストの使用"
 >abstract="製品リストでは、データ収集を参照して電子メールコンテンツに表示できます。"
 
-製品リストでは、電子メールコンテンツ内の1つ以上のデータコレクションを参照できます。 これらのリストは、トランザクション電子メールで使用できます。 この機能の専用のセクションは、[ここ](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message)で入手できます。
+製品リストでは、電子メールコンテンツ内の1つ以上のデータコレクションを参照できます。 これらのリストは、トランザクション電子メールで使用できます。 この機能の専用のセクションは、[ここ](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message)で入手できます。
 
 ## 電子メールデザインオプションの比較{#email-design-options-comparison}
 
@@ -81,7 +81,7 @@ Adobe Campaignオファーには、複数の電子メールオーサリングオ
   <tr> 
    <td> <strong>HTMLを更新</strong><br /> </td> 
    <td> HTMLコンポーネント内のみ<br /> </td> 
-   <td> Not supported<br /> </td> 
+   <td> サポートされていません<br /> </td> 
    <td> サポート<br /> </td> 
   </tr> 
   <tr> 
@@ -93,8 +93,8 @@ Adobe Campaignオファーには、複数の電子メールオーサリングオ
   <tr> 
    <td> <strong>高度なパーソナライゼーション</strong><br /> </td> 
    <td> サポート<br /> </td> 
-   <td> Not supported<br /> </td> 
-   <td> Not supported<br /> </td> 
+   <td> サポートされていません<br /> </td> 
+   <td> サポートされていません<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>配達確認/プレビュー</strong><br /> </td> 
@@ -148,7 +148,7 @@ Adobe Campaignオファーには、複数の電子メールオーサリングオ
    <td> <strong>詳細情報</strong><br /> </td> 
    <td> <a href="../../designing/using/designing-content-in-adobe-campaign.md">電子メールデザイナーについて</a>を参照してください。<br /> </td> 
    <td> <a href="../../integrating/using/integrating-with-experience-manager.md">Experience Managerとの統合</a>を参照してください。<br /> </td> 
-   <td> <a href="https://helpx.adobe.com/jp/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaverとキャンペーン</a>を見て、この<a href="#video">ビデオ</a>を見てください。<br /> </td> 
+   <td> <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaverとキャンペーン</a>を見て、この<a href="#video">ビデオ</a>を見てください。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
