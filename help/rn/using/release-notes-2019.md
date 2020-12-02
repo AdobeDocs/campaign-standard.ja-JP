@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: d1d199ab607e57c01cfd70ed81b55fd69789981d
+source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
 workflow-type: tm+mt
 source-wordcount: '7623'
 ht-degree: 9%
@@ -539,7 +539,7 @@ ht-degree: 9%
   </tr> 
   <tr> 
    <td> トランザクション電子メールの製品リスト<br /> </td> 
-   <td> <p>トランザクション用の電子メールメッセージで、1つ以上の製品コレクションを参照できるようになりました。 例えば、ユーザーの買い物かごに含まれていたすべての製品を一覧表示した買い物かご放棄電子メールを、画像、価格、各製品へのリンクと共に自動的に送信できます。</p><p>詳しくは、<a href="../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message">詳細ドキュメント</a>および<a href="https://docs.adobe.com/content/help/ja-JP/campaign-learn/campaign-standard-tutorials/designing-content/product-listings-in-transactional-email.html">ハウツービデオ</a>を参照してください。</p> </td> 
+   <td> <p>トランザクション用の電子メールメッセージで、1つ以上の製品コレクションを参照できるようになりました。 例えば、ユーザーの買い物かごに含まれていたすべての製品を一覧表示した買い物かご放棄電子メールを、画像、価格、各製品へのリンクと共に自動的に送信できます。</p><p>詳しくは、<a href="../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message">詳細ドキュメント</a>および<a href="https://docs.adobe.com/content/help/ja-JP/campaign-learn/campaign-standard-tutorials/designing-content/product-listings-in-transactional-email.html">ハウツービデオ</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td> 電子メールデザイナのモバイル表示<br /> </td> 
