@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
+source-git-commit: d1d199ab607e57c01cfd70ed81b55fd69789981d
 workflow-type: tm+mt
 source-wordcount: '5402'
 ht-degree: 7%
@@ -37,11 +37,11 @@ Adobe Campaign Standardの最新[ドキュメントの更新](../../rn/using/doc
  <tbody> 
   <tr> 
    <td> アプリ内メッセージ（ベータ）<br /> </td> 
-   <td> アプリ内メッセージを使用すると、コンテキストに応じたインタラクションを提供し、プッシュ通知をオプトアウトした可能性のあるユーザーにアクセスできるようにして、モバイルアプリのユーザーをより効果的に惹きつけることができます。 プッシュ通知と連携してアプリ内メッセージを使用し、パーソナライズされた関連性の高いエクスペリエンスを作成します。 これにより、アプリのユーザーのコンバージョンと保持率が向上します。<br /> For more information, refer to the <a href="../../channels/using/about-in-app-messaging.md">detailed documentation</a>.<br /> </td> 
+   <td> アプリ内メッセージを使用すると、コンテキストに応じたインタラクションを提供し、プッシュ通知をオプトアウトした可能性のあるユーザーにアクセスできるようにして、モバイルアプリのユーザーをより効果的に惹きつけることができます。 プッシュ通知と連携してアプリ内メッセージを使用し、パーソナライズされた関連性の高いエクスペリエンスを作成します。 これにより、アプリのユーザーのコンバージョンと保持率が向上します。<br /> 詳しくは、 <a href="../../channels/using/about-in-app-messaging.md">詳細なドキュメントを参照してください</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> モバイルアプリ（ベータ）<br />のAdobe起動の統合 </td> 
-   <td> Adobe起動の統合により、Mobile SDK V5を使用したキャンペーンでのモバイルアプリプロパティアクティベーションのプロセスが簡素化および自動化されました。<br /> 詳しくは、 <a href="https://helpx.adobe.com/jp/campaign/kb/configuring-app-sdk.html">詳細なドキュメントを参照してください</a>。<br /> </td> 
+   <td> Adobe起動の統合により、Mobile SDK V5を使用したキャンペーンでのモバイルアプリプロパティアクティベーションのプロセスが簡素化および自動化されました。<br /> 詳しくは、 <a href="https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html">詳細なドキュメントを参照してください</a>。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -102,11 +102,11 @@ Adobe Campaign Standardの最新[ドキュメントの更新](../../rn/using/doc
  <tbody> 
   <tr> 
    <td> Androidプッシュ通知の高優先度フラグ<br /> </td> 
-   <td> Android用の高優先度フラグ — スリープ中のデバイスがスリープ状態になる原因となり、一部の処理が制限されて実行されるAndroidアプリに対して、高い優先度のプッシュ通知を配信可能にします。 デフォルトの優先度は[標準]です。この場合、バッテリを節約するためにメッセージ配信が遅れる可能性があります。 <br /> For more information, refer to the <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android">detailed documentation</a>.<br /> </td> 
+   <td> Android用の高優先度フラグ — スリープ中のデバイスがスリープ状態になる原因となり、一部の処理が制限されて実行されるAndroidアプリに対して、高い優先度のプッシュ通知を配信可能にします。 デフォルトの優先度は[標準]です。この場合、バッテリを節約するためにメッセージ配信が遅れる可能性があります。 <br /> 詳しくは、 <a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-android">詳細なドキュメントを参照してください</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> モバイルアプリの購読者のタイポロジフィルター<br /> </td> 
-   <td> タイポロジフィルターの購読をサポート —タイポロジルールに対してフィルター条件を指定する場合、アプリ購読をフィルターおよびターゲティングディメンションとして選択でき、プロファイルの有無に関わらず、属性をフィルターできます。 <br /> For more information, refer to the <a href="../../sending/using/about-typology-rules.md">detailed documentation</a>.<br /> </td> 
+   <td> タイポロジフィルターの購読をサポート —タイポロジルールに対してフィルター条件を指定する場合、アプリ購読をフィルターおよびターゲティングディメンションとして選択でき、プロファイルの有無に関わらず、属性をフィルターできます。 <br /> 詳しくは、 <a href="../../sending/using/about-typology-rules.md">詳細なドキュメントを参照してください</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> メッセージの準備中にURLからのコンテンツインポートを自動化<br /> </td> 
@@ -131,7 +131,7 @@ Adobe Campaign Standardの最新[ドキュメントの更新](../../rn/using/doc
 **その他の変更**
 
 * レポートの共有タイムアウトが1分から4分に増加し、タイムアウトエラーが発生しないようになりました。
-* 電子メールのコンテンツを編集する場合、新しいCreative Designerはデフォルトで開きます。 必要に応じて、変更を保存した後でもデフォルトのコンテンツエディターに戻ることができます。 For more on this, refer to the [detailed documentation](../../designing/using/designing-content-in-adobe-campaign.md).
+* 電子メールのコンテンツを編集する場合、新しいCreative Designerはデフォルトで開きます。 必要に応じて、変更を保存した後でもデフォルトのコンテンツエディターに戻ることができます。 詳しくは、[詳細なドキュメント](../../designing/using/designing-content-in-adobe-campaign.md)を参照してください。
 * クリエイティブデザイナーで、電子メールに新しいコンテンツコンポーネントを追加できるようになりました。カルーセル。 詳しくは、[詳細なドキュメント](../../designing/using/designing-from-scratch.md#about-content-components)を参照してください。
 * トランザクションメッセージのホットクリックレポートで、「**プロファイルを変更**」ボタンをクリックすると、トランザクションメッセージ用に定義したイベントにリンクされているテストプロファイルのみが表示されます。
 
@@ -162,7 +162,7 @@ Adobe Campaign Standardの最新[ドキュメントの更新](../../rn/using/doc
 **その他の変更**
 
 * 送信された配信の&#x200B;**[!UICONTROL Deployment]**&#x200B;ウィンドウに&#x200B;**[!UICONTROL Compute stats]**&#x200B;ボタンが追加されました。 送信からの結果が更新に時間がかかりすぎたり、考慮されていない場合など、最新のKPIを取得できます。 詳しくは、[この節](../../sending/using/confirming-the-send.md)を参照してください。
-* In the **Update for deliverability** out-of-the-box technical workflow, functional administrators can now define the number of consecutive errors to ignore in the **Update rules** javascript activity. デフォルトでは、このフィールドの値は0に設定されており、すべてのエラーが無視されます。
+* 「配信品質の更新&#x200B;**」（標準搭載）のテクニカルワークフローで、機能管理者は、**&#x200B;更新ルール&#x200B;**javascriptアクティビティーで無視する連続エラー数を定義できるようになりました。**&#x200B;デフォルトでは、このフィールドの値は0に設定されており、すべてのエラーが無視されます。
 * ユニットアクセス制限条件の管理時に生成されるSQLが最適化されました。
 * **[!UICONTROL Update]**&#x200B;アクティビティで、購読（nms:appSubscriptionRcpテーブル）に関連するデータの追加、更新、削除ができるようになりました。
 * **[!UICONTROL Update delivery execution]**&#x200B;の技術的なワークフローは、パフォーマンスを最適化するために2つのワークフローに分かれています。- **[!UICONTROL Update delivery execution]**:配信の追跡を更新します。 デフォルトでは、10分ごとに開始されます。 **[!UICONTROL Update delivery indicators]**:配信のKPIを更新します。既定では、1時間ごとに開始されます。テクニカルワークフローの詳細については、[](../../administration/using/technical-workflows.md#list-of-technical-workflows)を参照してください。
@@ -305,7 +305,7 @@ _カスタムリソース_
     <ul> 
      <li> アクセス権限：データ主体は、データ管理者により取得された自分の個人データのコピーを受け取ることができます。これには Adobe Campaign に保存されているデータも含まれている場合があります。 </li> 
      <li> 削除権限：データ主体は、データ管理者により取得された自分の個人データを消去することができます。これには Adobe Campaign に保存されているデータも含まれている場合があります。 </li> 
-    </ul> 詳しくは、<a href="https://helpx.adobe.com/jp/campaign/kb/campaign-privacy.html">詳細ドキュメント</a>を参照してください。<br /> </td> 
+    </ul> 詳しくは、<a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">詳細ドキュメント</a>を参照してください。<br /> </td> 
   </tr> 
   <tr> 
    <td> 電子メール用Creative Designer（ベータ版）<br /> </td> 
@@ -327,7 +327,7 @@ _カスタムリソース_
     <ul> 
      <li> カスタムフィールドを調整条件として活用し、トランザクションメッセージとプロファイルを一致させます。 </li> 
      <li> 完全なプロファイル、サービス、リンクされたデータを活用して、トランザクションメッセージをさらにパーソナライズ </li> 
-    </ul> 詳しくは、<a href="../../administration/using/configuring-transactional-messaging.md">詳細ドキュメント</a>を参照してください。<br /> </td> 
+    </ul> 詳しくは、<a href="../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content">詳細ドキュメント</a>を参照してください。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
