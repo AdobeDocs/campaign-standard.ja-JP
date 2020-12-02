@@ -6,10 +6,10 @@ user-guide-title: Campaign Standard
 breadcrumb-title: Campaign Standard
 title: Campaign Standard ガイド
 translation-type: tm+mt
-source-git-commit: d1d199ab607e57c01cfd70ed81b55fd69789981d
+source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
 workflow-type: tm+mt
-source-wordcount: '1681'
-ht-degree: 98%
+source-wordcount: '1664'
+ht-degree: 99%
 
 ---
 
@@ -119,16 +119,11 @@ ht-degree: 98%
       + [ダイレクトメールのコンテンツの定義](channels/using/defining-the-direct-mail-content.md)
    + トランザクションメッセージング{#transactional-messaging}
       + [トランザクションメッセージの概要](channels/using/getting-started-with-transactional-msg.md)
-      + [トランザクションメッセージングのベストプラクティス](channels/using/transactional-messaging-limitations.md)
-      + イベント設定 {#event-configuration}
-         + [トランザクションイベントの設定](channels/using/configuring-transactional-event.md)
-         + [トランザクションイベントの公開](channels/using/publishing-transactional-event.md)
-      + トランザクションメッセージ版{#transactional-message-edition}
-         + [トランザクションメッセージの編集](channels/using/editing-transactional-message.md)
-         + [トランザクションメッセージの公開](channels/using/publishing-transactional-message.md)
+      + [トランザクションメッセージの制限](channels/using/transactional-messaging-limitations.md)
+      + [イベントトランザクションメッセージ](channels/using/event-transactional-messages.md)
+      + [プロファイルトランザクションメッセージ](channels/using/profile-transactional-messages.md)
       + [トランザクションプッシュ通知](channels/using/transactional-push-notifications.md)
       + [フォローアップメッセージ](channels/using/follow-up-messages.md)
-      + [トランザクションメッセージの使用例](channels/using/transactional-messaging-use-case.md)
    + ランディングページ{#landing-pages}
       + [ランディングページの概要](channels/using/getting-started-with-landing-pages.md)
       + [ランディングページテンプレートについて](channels/using/landing-page-templates.md)
@@ -435,6 +430,7 @@ ht-degree: 98%
       + [E メールチャネルの設定](administration/using/configuring-email-channel.md)
       + [SMS チャネルの設定](administration/using/configuring-sms-channel.md)
       + [モバイルアプリケーションの設定](administration/using/configuring-a-mobile-application.md)
+      + [トランザクションメッセージの設定](administration/using/configuring-transactional-messaging.md)
    + モバイルチャネルの設定 {#configuring-mobile}
       + [プッシュトラッキングの実装](administration/using/push-tracking.md)
       + [画像とビデオの追加（iOS）](administration/using/image-push-notification.md)
