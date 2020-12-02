@@ -7,7 +7,7 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: fc755f3176622e1faf08ccfa4236e016110f9a68
 workflow-type: tm+mt
 source-wordcount: '2573'
 ht-degree: 5%
@@ -21,15 +21,15 @@ Adobe Campaignが配信するメッセージの内容と表示は、様々な方
 
 * パーソナライゼーションフィールドの動的な挿入：[パーソナライゼーションフィールドの挿入](#inserting-a-personalization-field)を参照してください。
 * 定義済みパーソナライゼーションブロックの挿入：[コンテンツブロックの追加](#adding-a-content-block)を参照してください。
-* 電子メールの送信者をパーソナライズします。 詳しくは、送信者の [個人設定を参照してください](#personalizing-the-sender)。
-* 電子メールの件名をパーソナライズします。 See [Personalizing the subject line of an email](../../designing/using/subject-line.md#subject-line).
-* 条件付きコンテンツの作成：詳しくは、電子メール内での動的コンテンツの [定義を参照してください](#defining-dynamic-content-in-an-email)。
+* 電子メールの送信者をパーソナライズします。 [送信者の個人設定](#personalizing-the-sender)を参照してください。
+* 電子メールの件名をパーソナライズします。 [電子メールの件名行の個人設定](../../designing/using/subject-line.md#subject-line)を参照してください。
+* 条件付きコンテンツの作成：「[電子メールでの動的コンテンツの定義](#defining-dynamic-content-in-an-email)」を参照してください。
 
-## 送信者の個人設定 {#personalizing-the-sender}
+## 送信者{#personalizing-the-sender}をパーソナライズ
 
-送信されるメッセージのヘッダーに表示される送信者の名前を定義するには、電子メールデザイナーホームページの **[!UICONTROL Properties]** タブに移動します（ホームアイコンからアクセスできます）。 詳しくは、「電子メールの送信者の [定義](../../designing/using/subject-line.md#email-sender)」を参照してください。
+送信されるメッセージのヘッダーに表示される送信者の名前を定義するには、Email Designerホームページの&#x200B;**[!UICONTROL Properties]**&#x200B;タブに移動します（ホームアイコンからアクセスできます）。 詳しくは、[電子メールの送信者の定義](../../designing/using/subject-line.md#email-sender)を参照してください。
 
-送信者の名前は、 **送信者の名前** ブロックをクリックして変更できます。 フィールドが編集可能になり、使用する名前を入力できます。
+送信者名は、**送信者名**&#x200B;ブロックをクリックして変更できます。 フィールドが編集可能になり、使用する名前を入力できます。
 
 このフィールドはパーソナライズできます。 これを行うには、送信者名の下のアイコンをクリックして、パーソナライゼーションフィールド、コンテンツブロックおよび動的コンテンツを追加します。
 
@@ -37,11 +37,11 @@ Adobe Campaignが配信するメッセージの内容と表示は、様々な方
 >
 >ヘッダーパラメーターの値は省略できません。送信者のアドレスは、E メールを送信するための必須情報です（RFC 標準規格）。入力した E メールアドレスの形式はチェックされます。
 
-## URLの個人設定{#personalizing-urls}
+## URL{#personalizing-urls}の個人設定
 
 Adobe Campaignを使用すると、メッセージ、コンテンツブロックまたは動的コンテンツをメッセージに追加して、パーソナライゼーションフィールド内の1つまたは複数のURLをパーソナライズできます。 手順は次のとおりです。
 
-1. 外部URLを挿入し、そのパラメーターを指定します。 See [Inserting a link](../../designing/using/links.md#inserting-a-link).
+1. 外部URLを挿入し、そのパラメーターを指定します。 「[リンクの挿入](../../designing/using/links.md#inserting-a-link)」を参照してください。
 1. 表示されない場合は、設定パネルで選択したURLの横にある鉛筆をクリックして、パーソナライズオプションにアクセスします。
 1. 使用する追加パーソナライゼーションフィールド、コンテンツブロック、動的コンテンツ。
 
@@ -51,7 +51,7 @@ Adobe Campaignを使用すると、メッセージ、コンテンツブロック
 
 >[!NOTE]
 >
->個人用のURLをドメイン名やURL拡張子に適用することはできません。 パーソナライゼーションが正しくない場合、メッセージ分析中にエラーメッセージが表示されます。 コンテンツブロックを選択する場合、「ミラーページに **リンク**」などの要素を選択することはできません。 この種類のブロックは、リンク内では禁止されています。
+>個人用のURLをドメイン名やURL拡張子に適用することはできません。 パーソナライゼーションが正しくない場合、メッセージ分析中にエラーメッセージが表示されます。 コンテンツブロックを選択する場合、**ミラーページ**&#x200B;にリンクなどの要素を選択することはできません。 この種類のブロックは、リンク内では禁止されています。
 
 ## パーソナライゼーションフィールドの挿入{#inserting-a-personalization-field}
 
@@ -59,11 +59,11 @@ Adobe Campaignを使用すると、プロファイルの名など、データベ
 
 >[!NOTE]
 >
->以下の画像は、電子メール用の [電子メールデザイナーを使用してパーソナライゼーションフィールドを挿入する方法を示しています](../../designing/using/designing-content-in-adobe-campaign.md) 。
+>次の画像は、電子メールに[電子メールデザイナー](../../designing/using/designing-content-in-adobe-campaign.md)を使用してパーソナライゼーションフィールドを挿入する方法を示しています。
 
 コンテンツにパーソナライゼーションフィールドを追加するには：
 
-1. テキストブロック内をクリックし、コンテキストツールバーの **[!UICONTROL Personalize]** アイコンをクリックしてを選択し **[!UICONTROL Insert personalization field]**&#x200B;ます。 電子メールデザイナーインターフェイスについて詳しくは、 [この節を参照してください](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface)。
+1. テキストブロック内をクリックし、コンテキストツールバーの&#x200B;**[!UICONTROL Personalize]**&#x200B;アイコンをクリックして、**[!UICONTROL Insert personalization field]**&#x200B;を選択します。 電子メールデザイナーインターフェイスについて詳しくは、[この節](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface)を参照してください。
 
    ![](assets/email_perso_field_1.png)
 
@@ -81,19 +81,19 @@ Adobe Campaignを使用すると、プロファイルの名など、データベ
 
 >[!NOTE]
 >
->電子メールがワークフローから作成された場合は、ワークフローで計算された追加のデータもパーソナライゼーションフィールドで使用できます。 ワークフローから追加のデータを追加する方法の詳細については、「データを [富化](../../automating/using/about-targeting-activities.md#enriching-data) 」の項を参照してください。
+>電子メールがワークフローから作成された場合は、ワークフローで計算された追加のデータもパーソナライゼーションフィールドで使用できます。 ワークフローから追加のデータを追加する方法の詳細については、[データの富化](../../automating/using/about-targeting-activities.md#enriching-data)の節を参照してください。
 
-## Adding a content block{#adding-a-content-block}
+## コンテンツブロック{#adding-a-content-block}の追加
 
 Adobe Campaignオファーは、事前設定済みのコンテンツブロックのリストです。 これらのコンテンツブロックは動的でパーソナライズされ、特定のレンダリングを持ちます。 例えば、ミラーページにあいさつ文やリンクを追加できます。
 
 >[!NOTE]
 >
->次の画像は、電子メール用に [電子メールデザイナを使用してコンテンツブロックを挿入する方法を示しています](../../designing/using/designing-content-in-adobe-campaign.md) 。
+>次の画像は、電子メールに[電子メールデザイナー](../../designing/using/designing-content-in-adobe-campaign.md)を使用してコンテンツブロックを挿入する方法を示しています。
 
 コンテンツブロックを追加するには：
 
-1. テキストブロック内をクリックし、コンテキストツールバーの **[!UICONTROL Personalize]** アイコンをクリックしてを選択し **[!UICONTROL Insert content block]**&#x200B;ます。 電子メールデザイナーインターフェイスについて詳しくは、 [この節を参照してください](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface)。
+1. テキストブロック内をクリックし、コンテキストツールバーの&#x200B;**[!UICONTROL Personalize]**&#x200B;アイコンをクリックして、**[!UICONTROL Insert content block]**&#x200B;を選択します。 電子メールデザイナーインターフェイスについて詳しくは、[この節](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface)を参照してください。
 
    ![](assets/email_content_block_1.png)
 
@@ -125,19 +125,19 @@ Adobe Campaignオファーは、事前設定済みのコンテンツブロック
 * **[!UICONTROL Brand logo (BrandingLogo)]**
 * **[!UICONTROL Notification style (notificationStyle)]**
 
-### カスタムコンテンツブロックの作成 {#creating-custom-content-blocks}
+### カスタムコンテンツブロックの作成{#creating-custom-content-blocks}
 
 メッセージまたはランディングページに挿入する新しいコンテンツブロックを定義できます。
 
 コンテンツブロックを作成するには、次の手順に従います。
 
-1. 詳細メニュー **[!UICONTROL Resources > Content blocks]** のをクリックして、コンテンツブロックのリストにアクセスします。
-1. 既存のコンテンツブロックの **[!UICONTROL Create]** ボタンまたは重複をクリックします。
+1. 詳細メニューの&#x200B;**[!UICONTROL Resources > Content blocks]**&#x200B;をクリックして、コンテンツブロックのリストにアクセスします。
+1. **[!UICONTROL Create]**&#x200B;ボタンをクリックするか、既存のコンテンツブロックを重複します。
 
    ![](assets/content_bloc_01.png)
 
 1. ラベルを入力します。
-1. ブロックのを選択し **[!UICONTROL Content type]**&#x200B;ます。 次の 3 つのオプションを使用できます。
+1. ブロックの&#x200B;**[!UICONTROL Content type]**&#x200B;を選択します。 次の 3 つのオプションを使用できます。
 
    * **[!UICONTROL Shared]**:コンテンツブロックは、配信またはランディングページで使用できます。
    * **[!UICONTROL Delivery]**:コンテンツブロックは配信でのみ使用できます。
@@ -145,29 +145,29 @@ Adobe Campaignオファーは、事前設定済みのコンテンツブロック
 
    ![](assets/content_bloc_02.png)
 
-1. を選択でき **[!UICONTROL Targeting dimension]**&#x200B;ます。 For more on this, see [About targeting dimension](#about-targeting-dimension).
+1. **[!UICONTROL Targeting dimension]**&#x200B;を選択できます。 詳しくは、[ターゲティングディメンション](#about-targeting-dimension)についてを参照してください。
 
    ![](assets/content_bloc_04.png)
 
-1. 次の2つの異なるブロックを定義する **[!UICONTROL Depends on format]** オプションを選択できます。1つはHTML電子メール用、もう1つはテキスト形式の電子メール用です。 次に、エディターに2つのタブ（HTMLとテキスト）が表示され、対応するコンテンツが定義されます。
+1. **[!UICONTROL Depends on format]**&#x200B;オプションを選択して、2つの異なるブロックを定義できます。1つはHTML電子メール用、もう1つはテキスト形式の電子メール用です。 次に、エディターに2つのタブ（HTMLとテキスト）が表示され、対応するコンテンツが定義されます。
 
    ![](assets/content_bloc_03.png)
 
-1. コンテンツブロックのコンテンツを入力し、 **[!UICONTROL Create]** ボタンをクリックします。
+1. コンテンツブロックのコンテンツを入力し、**[!UICONTROL Create]**&#x200B;ボタンをクリックします。
 
 これで、メッセージやランディングページのコンテンツエディタでコンテンツブロックを使用できるようになります。
 
 >[!CAUTION]
 >
->ブロックのコンテンツを編集する場合は、 *ifステートメントの先頭と末尾の間に余分な空白がないことを確認します* 。 HTMLでは、空白が画面に表示されるので、コンテンツのレイアウトに影響します。
+>ブロックの内容を編集する場合は、*if*&#x200B;文の先頭と末尾の間に余分な空白がないことを確認します。 HTMLでは、空白が画面に表示されるので、コンテンツのレイアウトに影響します。
 
-### ターゲティングディメンションについて {#about-targeting-dimension}
+### ターゲティングディメンション{#about-targeting-dimension}について
 
 ターゲティングディメンションを使用して、コンテンツブロックを使用できるメッセージのタイプを定義できます。 これは、エラーを引き起こす可能性のある、メッセージ内で不適切なブロックを使用しないようにするためです。
 
 実際、メッセージを編集する場合は、そのメッセージのターゲティングディメンションと互換性のあるターゲティングディメンションを持つコンテンツブロックのみを選択できます。
 
-たとえば、 **[!UICONTROL Unsubscription link]** ブロックのターゲティングディメンションは、リソースに固有のパーソナライゼーションフィールドが含まれ **[!UICONTROL Profiles]** ているためで **[!UICONTROL Profiles]** す。 したがって、 **[!UICONTROL Unsubscription link]** イベントトランザクションメッセージでは [ブロックを使用できません](../../channels/using/event-transactional-messages.md)。このタイプのメッセージのターゲティングディメンションは **[!UICONTROL Real-time events]**&#x200B;です。 ただし、 **購読解除リンクブロックは** プロファイルトランザクションメッセージで使用できます [。このタイプのメッセージのターゲティングディメンションは](../../channels/using/profile-transactional-messages.md)プロファイルなので ****&#x200B;す。 最後に、ブロックにターゲティングディメンションがないので、 **[!UICONTROL Link to mirror page]** 任意のメッセージで使用できます。
+例えば、**[!UICONTROL Unsubscription link]**&#x200B;ブロックのターゲティングディメンションは&#x200B;**[!UICONTROL Profiles]**&#x200B;です。これは、**[!UICONTROL Profiles]**&#x200B;リソースに固有のパーソナライゼーションフィールドが含まれているからです。 したがって、[イベントトランザクションメッセージ](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types)に&#x200B;**[!UICONTROL Unsubscription link]**&#x200B;ブロックを使用することはできません。このタイプのメッセージのターゲティングディメンションは&#x200B;**[!UICONTROL Real-time events]**&#x200B;です。 ただし、**購読解除リンク**&#x200B;ブロックは、[プロファイルトランザクションメッセージ](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types)で使用できます。このタイプのメッセージのターゲティングディメンションは&#x200B;**プロファイル**&#x200B;なので、 最後に、**[!UICONTROL Link to mirror page]**&#x200B;ブロックにはターゲティングディメンションがないので、どのメッセージでも使用できます。
 
 このフィールドを空のままにすると、ターゲティングディメンションが何であろうと、コンテンツブロックはすべてのメッセージと互換性があります。 ターゲティングディメンションを設定した場合、そのブロックは同じターゲティングディメンションを持つメッセージとのみ互換性があります。
 
@@ -184,13 +184,13 @@ Adobe Campaignオファーは、事前設定済みのコンテンツブロック
 Adobe Campaignを使用すると、特定の条件に従ってメッセージ内の1つまたは複数の画像をパーソナライズしたり、トラッキングを使用したりできます。 これは、パーソナライゼーションフィールド、コンテンツブロックまたは動的コンテンツを画像ソースに挿入することで行います。 手順は次のとおりです。
 
 1. メッセージの内容に画像を挿入するか、既に存在する画像を選択します。
-1. 画像プロパティパレットで、 **[!UICONTROL Enable personalization]** オプションをオンにします。
+1. 画像プロパティパレットで、**[!UICONTROL Enable personalization]**&#x200B;オプションをオンにします。
 
    ![](assets/des_personalize_images_1.png)
 
-   フィールドが表示され **[!UICONTROL Source]** 、選択した画像が **パーソナライズされた状態でエディターに表示されます** 。
+   **[!UICONTROL Source]**&#x200B;フィールドが表示され、選択した画像が&#x200B;**パーソナライズされた**&#x200B;としてエディターに表示されます。
 
-1. フィールドボタンの横にある鉛筆をクリックして、パーソナライゼーションオプションを表示し **[!UICONTROL Source]** ます。
+1. **[!UICONTROL Source]**&#x200B;フィールドボタンの横にある鉛筆をクリックして、パーソナライゼーションオプションにアクセスします。
 1. 画像ソースを追加したら、必要なパーソナライゼーションフィールド、コンテンツブロックおよび動的コンテンツを追加します。
 
    ![](assets/des_personalize_images_2.png)
@@ -207,21 +207,21 @@ Adobe Campaignを使用すると、特定の条件に従ってメッセージ内
 
 任意の要素に対して表示条件を指定できます。 条件が考慮される場合にのみ表示されます。
 
-表示条件を追加するには、ブロックを選択し、設定の **[!UICONTROL Visibility condition]** フィールドに考慮する条件を入力します。
+表示条件を追加するには、ブロックを選択し、設定の&#x200B;**[!UICONTROL Visibility condition]**&#x200B;フィールドに処理する条件を入力します。
 
 ![](assets/delivery_content_5.png)
 
 このオプションは、次の要素に対してのみ使用できます。アドレス、BLOCKQUOTE、中心、ディレクトリ、DIV、DL、FIELDSET、FORM、H1、H2、H3、H4、H5、H6、NOSCRIPT、OL、P、PRE、UL、TR、TD。
 
-式エディターは、 [詳細式編集](../../automating/using/editing-queries.md#about-query-editor) セクションに表示されます。
+式エディターは、[高度な式編集](../../automating/using/editing-queries.md#about-query-editor)セクションに表示されます。
 
-これらの条件はXTK式構文(例： **context.プロファイル.email !=&quot;** または **context.プロファイル.status=&#39;0&#39;**)。 デフォルトでは、すべてのファイルが表示されます。
+これらの条件はXTK式構文(例：**context.プロファイル.email !=&quot;**&#x200B;または&#x200B;**context.プロファイル.status=&#39;0&#39;**)。 デフォルトでは、すべてのファイルが表示されます。
 
 >[!NOTE]
 >
 >動的コンテンツを含むサブ要素が既に含まれているブロック、または既に動的コンテンツを構成しているブロックに対しては、条件を定義できません。 ドロップダウンリストなど、表示されないダイナミックブロックは編集できません。
 
-### 電子メールでの動的コンテンツの定義{#defining-dynamic-content-in-an-email}
+### 電子メール{#defining-dynamic-content-in-an-email}での動的コンテンツの定義
 
 >[!CONTEXTUALHELP]
 >id="ac_dynamic_content"
@@ -230,14 +230,14 @@ Adobe Campaignを使用すると、特定の条件に従ってメッセージ内
 
 電子メールでは、式エディターで定義した条件に従って受信者に動的に表示される様々なコンテンツを定義できます。 例えば、同じ電子メールから、各プロファイルが年齢の範囲に応じて異なるメッセージを受け取るように設定できます。
 
-動的なコンテンツの定義は、表示条件の [定義とは異なります](#defining-a-visibility-condition)。
+動的なコンテンツの定義は、表示条件](#defining-a-visibility-condition)を定義する[とは異なります。
 
 1. フラグメント、コンポーネントまたは要素を選択します。 この例では、画像を選択します。
-1. コンテキストツールバーの **[!UICONTROL Dynamic content]** アイコンをクリックします。
+1. コンテキストツールバーの&#x200B;**[!UICONTROL Dynamic content]**&#x200B;アイコンをクリックします。
 
    ![](assets/dynamic_content_2.png)
 
-   左側のパレットに **[!UICONTROL Dynamic content]** セクションが表示されます。
+   **[!UICONTROL Dynamic content]**&#x200B;セクションが左側のパレットに表示されます。
 
    ![](assets/dynamic_content_3.png)
 
@@ -247,11 +247,11 @@ Adobe Campaignを使用すると、特定の条件に従ってメッセージ内
    >
    >コンテンツには常にデフォルトのバリアントが必要です。 削除することはできません。
 
-1. 1つ目の代替バリアントの表示条件を定義するには、 **[!UICONTROL Edit]** ボタンをクリックします。
+1. **[!UICONTROL Edit]**&#x200B;ボタンをクリックして、最初の代替バリアントの表示条件を定義します。
 
    ![](assets/dynamic_content_4.png)
 
-1. ラベルを指定し、条件として設定するフィールドを選択します。 例えば、 **[!UICONTROL General]** ノードから **[!UICONTROL Age]** フィールドを選択します
+1. ラベルを指定し、条件として設定するフィールドを選択します。 例えば、**[!UICONTROL General]**&#x200B;ノードから&#x200B;**[!UICONTROL Age]**&#x200B;フィールドを選択します
 
    ![](assets/dynamic_content_5.png)
 
@@ -263,7 +263,7 @@ Adobe Campaignを使用すると、特定の条件に従ってメッセージ内
 
    ![](assets/dynamic_content_7.png)
 
-   コンテンツは、上から下に順番にパレットに表示されます。 For more on priorities, refer to [this section](#defining-dynamic-content-in-an-email).
+   コンテンツは、上から下に順番にパレットに表示されます。 優先度の詳細については、[この](#defining-dynamic-content-in-an-email)を参照してください。
 
 1. 先ほど定義したバリアント用に新しい画像をアップロードします。
 
@@ -273,7 +273,7 @@ Adobe Campaignを使用すると、特定の条件に従ってメッセージ内
 
    ![](assets/dynamic_content_10.png)
 
-1. をクリック **[!UICONTROL Add a condition]** して、新しいコンテンツとそのリンクされたルールを追加します。
+1. **[!UICONTROL Add a condition]**&#x200B;をクリックして、新しいコンテンツとそのリンクされたルールを追加します。
 
    ![](assets/dynamic_content_9.png)
 
@@ -290,21 +290,21 @@ Adobe Campaignを使用すると、特定の条件に従ってメッセージ内
 * [配達確認の送信](../../sending/using/sending-proofs.md)
 * [高度な式の編集](../../automating/using/editing-queries.md#about-query-editor)
 
-### 優先順位 {#order-of-priority}
+### 優先順位{#order-of-priority}
 
 式エディターでは、動的コンテンツを定義する場合の優先順位は次のとおりです。
 
-1. 例えば、次の **2つの異なる条件で2つの異なる動的コンテンツを定義します**。
+1. **2つの異なる条件**&#x200B;を使用して、2つの異なる動的コンテンツを定義します。例：
 
-   **条件1:** プロファイルの性別は男性的だ
+   **条件1:** プロファイルの性別は男性です。
 
-   **条件2:** そのプロファイルは20歳から30歳の間だ。
+   **条件2:** プロファイルは20歳から30歳の間。
 
    ![](assets/delivery_content_61.png)
 
    データベース内の一部のプロファイルは2つの条件に対応しますが、1つの動的コンテンツを持つ1つの電子メールのみを送信できます。
 
-1. したがって、動的コンテンツの優先度を定義する必要があります。 優先度が **1** （したがって、対応する動的コンテンツ）の順序を持つ条件は、優先順位が **2** または **** 3の別の条件がこのプロファイルで満たされた場合でも、プロファイルに送信されます。
+1. したがって、動的コンテンツの優先度を定義する必要があります。 優先順位が&#x200B;**1**&#x200B;の条件（したがって、対応する動的コンテンツ）は、優先順位が&#x200B;**2**&#x200B;または&#x200B;**3**&#x200B;の別の条件がこのプロファイルで満たされた場合でもプロファイルに送信されます。
 
    ![](assets/delivery_content_62.png)
 
@@ -320,15 +320,15 @@ Adobe Campaignを使用すると、特定の条件に従ってメッセージ内
 
    ![](assets/delivery_content_43.png)
 
-   動的コンテンツの追加と設定について詳しくは、「電子メール内の動的コンテンツの [定義](#defining-dynamic-content-in-an-email) 」の節を参照してください。
+   動的コンテンツの追加と設定について詳しくは、「[電子メール](#defining-dynamic-content-in-an-email)での動的コンテンツの定義」の節を参照してください。
 
 * パーソナライゼーションフィールドと動的なコンテンツがテキストに適用されます。 プロファイルの年齢範囲に応じて、プロファイルの名、またはプロファイルのタイトルと姓を持つ電子メール開始。
 
    ![](assets/delivery_content_44.png)
 
-   パーソナライゼーションフィールドの追加と設定について詳しくは、「パーソナライゼーションフィールドの [挿入](#inserting-a-personalization-field) 」セクションを参照してください。
+   パーソナライゼーションフィールドの追加と設定について詳しくは、「[パーソナライゼーションフィールドの挿入](#inserting-a-personalization-field)」の節を参照してください。
 
-### 画像の設定 {#configuring-images}
+### イメージの設定{#configuring-images}
 
 >[!CONTEXTUALHELP]
 >id="ac_dynamic_image"
@@ -339,21 +339,21 @@ Adobe Campaignを使用すると、特定の条件に従ってメッセージ内
 
 **ターゲット18～27歳まで：**
 
-1. パレットで動的コンテンツを選択し、 **[!UICONTROL Properties]** ボタンをクリックし **[!UICONTROL Edit]** ます。
+1. **[!UICONTROL Properties]**&#x200B;パレットで動的コンテンツを選択し、「**[!UICONTROL Edit]**」ボタンをクリックします。
 
    ![](assets/delivery_content_48.png)
 
-1. ラベルを編集し、 **[!UICONTROL Age]****[!UICONTROL Profile]** ノードからフィールドを選択します。
+1. ラベルを編集し、**[!UICONTROL Profile]**&#x200B;ノードから&#x200B;**[!UICONTROL Age]**&#x200B;フィールドを選択します。
 
    ![](assets/delivery_content_49.png)
 
-1. 「 **次よりも大きいか等しい** 」演算子を選択し、「18」を入力して18 **式より****** 古いを作成します。
+1. 「**次よりも大きいか等しい**」演算子を選択し、**18**&#x200B;と入力して、**18**&#x200B;式より古い&lt;a4/>を作成します。
 
    ![](assets/delivery_content_50.png)
 
-1. 追加新しい **[!UICONTROL Age]** 条件。
+1. 追加新しい&#x200B;**[!UICONTROL Age]**&#x200B;条件。
 
-   「次より **小さいか等しい** 」演算子を選択し、「値」フィールドに「27」を入力して、27 **式** より小さい値を作成します。
+   「**次よりも小さいか等しい**」演算子の後に「27」を入力して値フィールドを選択し、「27 **より小さい**」式を作成します。
 
    ![](assets/delivery_content_51.png)
 
@@ -362,8 +362,8 @@ Adobe Campaignを使用すると、特定の条件に従ってメッセージ内
 **27歳以上のターゲットプロファイルを作成するには：**
 
 1. パレットから動的なコンテンツを選択し、編集します。
-1. ラベルを編集し、 **[!UICONTROL Age]****[!UICONTROL Profile]** ノードからフィールドを選択します。
-1. 27追加 **より** 古い式を作成するには、値フィールドに27を後に付けた **** 「次の値より大きい」演算子を入力します。
+1. ラベルを編集し、**[!UICONTROL Profile]**&#x200B;ノードから&#x200B;**[!UICONTROL Age]**&#x200B;フィールドを選択します。
+1. 追加&#x200B;****&#x200B;より大きい演算子の後に27が続く値フィールドを指定すると、27 **より古い**&#x200B;式が作成されます。
 
    ![](assets/delivery_content_52.png)
 
@@ -371,19 +371,19 @@ Adobe Campaignを使用すると、特定の条件に従ってメッセージ内
 
 動的コンテンツが正しく設定されている。
 
-### テキストの設定 {#configuring-text}
+### テキスト{#configuring-text}の設定
 
 この例では、テキストに適用する動的コンテンツを次のように設定します。
 
 **18 ～ 27才のターゲットプロファイルを作成するには：**
 
 1. 必要な構造コンポーネントを選択し、動的コンテンツを追加します。
-1. 動的コンテンツを編集し、ターゲット設定の式を設定します。 詳しくは、「イメージの [設定](#configuring-images)」を参照してください。
-1. 構造コンポーネントで、目的の位置に、コンテキストツールバーの **[!UICONTROL Personalize]** アイコンをクリックし、を選択し **[!UICONTROL Insert personalization field]**&#x200B;ます。
+1. 動的コンテンツを編集し、ターゲット設定の式を設定します。 [イメージの設定](#configuring-images)を参照してください。
+1. 構造コンポーネントで、目的の位置に、コンテキストツールバーの&#x200B;**[!UICONTROL Personalize]**&#x200B;アイコンをクリックし、**[!UICONTROL Insert personalization field]**&#x200B;を選択します。
 
    ![](assets/delivery_content_53.png)
 
-1. 表示されるリストで、フィールドを選択して確認 **[!UICONTROL First name]** します。
+1. 表示されるリストで&#x200B;**[!UICONTROL First name]**&#x200B;フィールドを選択し、確認します。
 
    ![](assets/delivery_content_54.png)
 
@@ -392,18 +392,18 @@ Adobe Campaignを使用すると、特定の条件に従ってメッセージ内
 **27歳以上のターゲットプロファイルを作成するには：**
 
 1. 必要な構造コンポーネントを選択し、動的コンテンツを追加します。
-1. 動的コンテンツを編集し、ターゲット設定の式を設定します。 詳しくは、「イメージの [設定](#configuring-images)」を参照してください。
-1. 構造コンポーネントで、目的の位置に、コンテキストツールバーの **[!UICONTROL Personalize]** アイコンをクリックし、を選択し **[!UICONTROL Insert personalization field]**&#x200B;ます。
-1. ドロップダウン **[!UICONTROL Title]** リストからを選択します。
-1. 同様にして、 **[!UICONTROL Last name]** フィールドを追加します。
+1. 動的コンテンツを編集し、ターゲット設定の式を設定します。 [イメージの設定](#configuring-images)を参照してください。
+1. 構造コンポーネントで、目的の位置に、コンテキストツールバーの&#x200B;**[!UICONTROL Personalize]**&#x200B;アイコンをクリックし、**[!UICONTROL Insert personalization field]**&#x200B;を選択します。
+1. ドロップダウンリストから&#x200B;**[!UICONTROL Title]**&#x200B;を選択します。
+1. 同様に&#x200B;**[!UICONTROL Last name]**&#x200B;フィールドを追加します。
 
    ![](assets/delivery_content_56.png)
 
 これで、パーソナライゼーションフィールドは選択した動的コンテンツに完全に挿入されます。
 
-### 電子メールのプレビュー {#previewing-emails}
+### 電子メールのプレビュー{#previewing-emails}
 
-プレビュー機能を使用すると、パーソナライゼーションフィールドと動的なコンテンツが正しく設定されていることを確認してから、コンテンツを送信でき **[!UICONTROL Proofs]**&#x200B;ます。 プレビュー中に、電子メールターゲットに対応する別のテストプロファイルを選択できます。
+プレビューを使用すると、**[!UICONTROL Proofs]**&#x200B;を送信する前に、パーソナライゼーションフィールドと動的なコンテンツが正しく設定されていることを確認できます。 プレビュー中に、電子メールターゲットに対応する別のテストプロファイルを選択できます。
 
 テストプロファイルを使用しない場合、デフォルトで表示される電子メールは次のとおりです。
 
