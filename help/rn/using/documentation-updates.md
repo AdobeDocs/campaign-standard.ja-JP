@@ -7,9 +7,9 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 0690765f26398391b4604136b203541a109e203b
+source-git-commit: d1d199ab607e57c01cfd70ed81b55fd69789981d
 workflow-type: tm+mt
-source-wordcount: '6305'
+source-wordcount: '6303'
 ht-degree: 98%
 
 ---
@@ -51,11 +51,11 @@ ht-degree: 98%
 
 配信のベストプラクティスに関する新しい節が追加されました。[詳細を表示](../../sending/using/delivery-best-practices.md)
 
-新しいフィルターについて説明する節が追加され、そのイベントのステータスと最後にイベントが受信された時点に従って設定を検索できるようになりました。 [詳細を表示](../../administration/using/configuring-transactional-messaging.md#searching-transactional-events)
+新しいフィルターについて説明する節が追加され、そのイベントのステータスと最後にイベントが受信された時点に従って設定を検索できるようになりました。 [詳細を表示](../../channels/using/configuring-transactional-event.md#searching-transactional-events)
 
 ## 2020 年 9 月 {#doc-updates-september-2020}
 
-イベントトランザクションメッセージの節が改訂され、明確になりました。[詳細を表示](../../channels/using/event-transactional-messages.md)
+イベントトランザクションメッセージの節が改訂され、明確になりました。[詳細を表示](../../channels/using/editing-transactional-message.md)
 
 ログのアクセスに関連する権限制限についてユーザーに警告するための注意事項が追加されました。[詳細を表示](../../administration/using/users-management.md)
 
@@ -135,7 +135,7 @@ Microsoft Dynamics 365 と Adobe Campaign Standard の統合に関するドキ�
 
 Experience Cloud ID サービス（ECID）に関する情報が、Adobe Experience Platform Data Connector のドキュメントに追加されました。[詳細を表示](../../developing/using/aep-about-data-connector.md#key-concepts)
 
-トランザクションメッセージの設定の節が改訂され、最新のトランザクションイベントへのアクセス方法に関する情報と、更新されたスクリーンショットが追加されました。[詳細を表示](../../administration/using/configuring-transactional-messaging.md#previewing-and-publishing-the-event)
+トランザクションメッセージの節が改善され、最新のトランザクションイベントへのアクセス方法と更新されたスクリーンショットに関する情報が追加されました。 [詳細を表示](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
 
 タイポロジとタイポロジルールに関するドキュメントが改訂され、組み込みのタイポロジルール関する情報が追加されました。[詳細を表示](../../sending/using/about-typology-rules.md)
 
@@ -143,15 +143,15 @@ Experience Cloud ID サービス（ECID）に関する情報が、Adobe Experien
 
 一時的な配信エラーの後の再試行に関するドキュメントが更新され、Enhanced MTA にアップグレードした後の再試行の管理方法に関する詳細が追加されました。[詳細を表示](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)
 
-トランザクションメッセージの削除の節が改訂され、明確になりました。[詳細を表示](../../channels/using/event-transactional-messages.md#deleting-a-transactional-message)
+トランザクションメッセージの削除の節が改訂され、明確になりました。[詳細を表示](../../channels/using/publishing-transactional-message.md#deleting-a-transactional-message)
 
 **配信メッセージのプレビュー**&#x200B;の節が更新され、モバイル配信の例が追加されました。[詳細を表示](../../sending/using/previewing-messages.md)
 
-トランザクションメッセージングと未使用のリアルタイムイベントの削除に関するベストプラクティスが追加されました。[詳細を表示](../../administration/using/configuring-transactional-messaging.md#creating-an-event)
+トランザクションメッセージングと未使用のリアルタイムイベントの削除に関するベストプラクティスが追加されました。[詳細を表示](../../channels/using/configuring-transactional-event.md#creating-an-event)
 
 E メールチャネルの設定の節が更新され、Adobe Campaign Enhanced MTA で管理されるすべての E メール設定の内容が明確になりました。[詳細を表示](../../administration/using/configuring-email-channel.md)
 
-トランザクションメッセージの設定の節が更新され、イベント設定の編集に必要な権限や、トランザクションメッセージのコレクションを強化する方法についての詳細情報が追加されました。[詳細を表示](../../administration/using/configuring-transactional-messaging.md)
+「トランザクションメッセージ」の節では、イベント設定の編集に必要な権限やコレクションをトランザクションメッセージに拡張する方法に関する詳細情報が更新されました。 [詳細を表示](../../channels/using/configuring-transactional-event.md)
 
 ## リリース 20.2 - 2020 年 4 月 {#release-20-2---april-2020}
 
@@ -171,7 +171,7 @@ Azure Blob 統合 - [詳細情報](../../administration/using/external-accounts.
 
 新しい設定のガイドラインの節が管理ガイドに追加されました。互換性のあるブラウザーとオペレーティングシステムに関する節は、始める前にからこの節に移動しました。Campaign Standard ネットワークエンドポイントに関するテクニカルノートもこの節に追加されました。[詳細を表示](../../administration/using/about-configuration-guidelines.md)
 
-イベント設定の削除方法を説明する新しい節が追加されました。[詳細を表示](../../administration/using/configuring-transactional-messaging.md#deleting-an-event)
+イベント設定の削除方法を説明する新しい節が追加されました。[詳細を表示](../../channels/using/publishing-transactional-event.md#deleting-an-event)
 
 E メールの件名行をテストして開封率を予測する方法を説明するページが更新および改訂され、新しく[トラブルシューティング](../../sending/using/testing-subject-line-email.md#troubleshooting)の節が追加されました。[詳細を表示](../../sending/using/testing-subject-line-email.md)
 
@@ -207,7 +207,7 @@ Audience Destinations（ベータ版） - [詳細情報](../../audiences/using/a
 
 **リリースに伴うその他のドキュメントのアップデート**
 
-プライバシー管理に関するドキュメントが更新され、カスタムプロファイルリソース用の CCPA オプトアウトフィールドの作成方法に関する情報が追加されました。[詳細を表示](https://helpx.adobe.com/content/help/jp/campaign/kb/acs-privacy.html)
+プライバシー管理に関するドキュメントが更新され、カスタムプロファイルリソース用の CCPA オプトアウトフィールドの作成方法に関する情報が追加されました。[詳細を表示](https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html)
 
 リリースノートが、構成を変更して改訂されました。[詳細を表示](../../rn/using/release-notes.md)
 
@@ -281,7 +281,7 @@ Adobe Campaign のエラーメッセージのリストが更新されました�
 
 GDPR の入門ガイドが改善され、強化されました。GDPR や CCPA を含む、プライバシー管理に関するドキュメントになりました。[詳細を表示](https://helpx.adobe.com/content/help/jp/campaign/kb/campaign-privacy.html)
 
-トランザクションメッセージングの公開プロセスを示す新しいチャートが追加されました。[詳細を表示](../../administration/using/configuring-transactional-messaging.md#transactional-messaging-pub-process)
+トランザクションメッセージングの公開プロセスを示す新しいチャートが追加されました。[詳細を表示](../../channels/using/publishing-transactional-message.md#transactional-messaging-pub-process)
 
 配信のベストプラクティス入門ガイドが移動され、更新されました。[詳細を表示](../../sending/using/delivery-best-practices.md)
 
@@ -297,7 +297,7 @@ Campaign Standard 設定に関連する新しい節が追加されました。[�
 
 特定のサービスに登録しているプロファイルに、自動カスタム確認 E メールを送信する方法について説明する新しい節が追加されました。[詳細を表示](../../audiences/using/confirming-subscription-to-a-service.md)
 
-トランザクションメッセージの節が変更され、E メールデザイナーでのコンテンツの編集などの最新の UI の更新が反映されました。[詳細を表示](../../channels/using/event-transactional-messages.md)
+トランザクションメッセージの節が変更され、E メールデザイナーでのコンテンツの編集などの最新の UI の更新が反映されました。[詳細を表示](../../channels/using/editing-transactional-message.md)
 
 ランディングページの章の構成が変更されました。また、ランディングページの設定手順を詳しく説明する新しい節が追加されました。[詳細を表示](../../channels/using/getting-started-with-landing-pages.md)
 
@@ -307,7 +307,7 @@ Campaign Standard 設定に関連する新しい節が追加されました。[�
 
 トラッピングの使用方法に関する新しい節が追加されました。[詳細を表示](../../sending/using/using-traps.md)
 
-Adobe Experience Platform SDK を使用したモバイルアプリケーションの設定方法に関するページに、**Launch_URL_**（Launch_URL_Platform）に関する注意が追加されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/configuring-app-sdk.html)
+Adobe Experience Platform SDK を使用したモバイルアプリケーションの設定方法に関するページに、**Launch_URL_**（Launch_URL_Platform）に関する注意が追加されました。[詳細を表示](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)
 
 E メールデザイナーガイドの構成が変更されました。[詳細を表示](../../designing/using/designing-content-in-adobe-campaign.md)
 
@@ -379,7 +379,7 @@ E メールデザイナーの推奨されるアップデートに関する新し
 
 **リリースに含まれる新機能**
 
-コントロールパネル - [詳細を表示](https://docs.adobe.com/content/help/ja-JP/control-panel/using/control-panel-home.html)
+コントロールパネル - [詳細を表示](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
 
 ローカル通知 - [詳細を表示](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)
 
@@ -427,7 +427,7 @@ E メールデザイナーで E メールコンテンツをフラグメントと
 
 「リンクの管理」の節が更新され、E メールデザイナーで追跡する URL を管理する方法に関する情報が追加されました。[詳細を表示](../../designing/using/links.md#inserting-a-link)
 
-特定のトランザクションメッセージの再試行プロセスを説明する新しい節が追加されました。[詳細を表示](../../channels/using/event-transactional-messages.md#transactional-message-retry-process)
+特定のトランザクションメッセージの再試行プロセスを説明する新しい節が追加されました。[詳細を表示](../../channels/using/publishing-transactional-message.md#transactional-message-retry-process)
 
 API 拡張によるリソースの公開の節が明確になり、最新の UI の変更が反映されました。[詳細を表示](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension)
 
@@ -505,7 +505,7 @@ Adobe Campaign から直接利用できるコンテキストヘルプリンク�
 
 E メールデザイナーの一般提供 - [詳細を表示](../../designing/using/designing-content-in-adobe-campaign.md)
 
-トランザクション E メールの製品リスト - [詳細を表示](../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message)
+トランザクション E メールの製品リスト - [詳細を表示](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message)
 
 E メールデザイナーのモバイル表示- [詳細を表示](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)
 
@@ -533,9 +533,9 @@ Microsoft Edge（最新バージョン）が、コンピューター用の互換
 
 SDK V4 を使用したモバイルアプリケーションの設定の節は、[ここ](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/administrating/configuring-channels/configuring-a-mobile-application.translate.html)に移動しました。
 
-Adobe Experience Platform SDK を使用したモバイルアプリケーションの設定の節は、[ここ](https://helpx.adobe.com/jp/campaign/kb/configuring-app-sdk.html)に移動しました。
+Adobe Experience Platform SDK を使用したモバイルアプリケーションの設定の節は、[ここ](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)に移動しました。
 
-ビデオが更新され、[ここ](https://docs.adobe.com/content/help/ja-JP/campaign-standard-learn/tutorials/overview.translate.html)に移動しました。
+ビデオが更新され、[ここ](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)に移動しました。
 
 ユーザーのタイプの節を更新しました。[詳細を表示](../../administration/using/users-management.md)
 
@@ -565,7 +565,7 @@ Adobe Experience Platform SDK を使用したモバイルアプリケーショ�
 
 **リリースに伴うその他のドキュメントのアップデート**
 
-SMS コネクタのプロトコルと設定に関する新しいテクニカルノートを追加しました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/sms-connector-protocol-and-settings.html)
+SMS コネクタのプロトコルと設定に関する新しいテクニカルノートを追加しました。[詳細を表示](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html)
 
 Experience Manager と Adobe Campaign との統合に関するドキュメントを更新しました。[詳細を表示](../../reporting/using/creating-a-custom-profile-dimension.md)
 
@@ -637,13 +637,13 @@ Triggers との統合でサポートされる Analytics SKU のリストが更�
 
 **リリースに含まれる新機能**
 
-EU 一般データ保護規則（GDPR） - [詳細を表示](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy.html)
+EU 一般データ保護規則（GDPR） - [詳細を表示](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html)
 
 E メール用 Creative Designer - [詳細を表示](../../designing/using/designing-content-in-adobe-campaign.md)
 
 多言語プッシュ配信- [詳細を表示](../../channels/using/creating-a-multilingual-push-notification.md)
 
-トランザクションメッセージでのカスタムリソースの使用 - [詳細を表示](../../administration/using/configuring-transactional-messaging.md)
+トランザクションメッセージでのカスタムリソースの使用 - [詳細を表示](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)
 
 **リリースに伴うその他のドキュメントのアップデート**
 
@@ -651,7 +651,7 @@ GDPR API は、GDPR リクエストの自動処理を可能にする機能を再
 
 受信者をブロックリストに登録できるようにランディングページを設定する方法に関する情報を追加しました。[詳細を表示](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
 
-[トランザクションメッセージの設定](../../administration/using/configuring-transactional-messaging.md)の節の構成が変更され、[ステップバイステップの使用例](../../administration/using/configuring-transactional-messaging.md#use-case--configuring-an-event-to-send-a-transactional-message)が追加されました。
+[トランザクションメッセージの設定](../../channels/using/configuring-transactional-event.md)の節の構成が変更され、[ステップバイステップの使用例](../../channels/using/transactional-messaging-use-case.md)が追加されました。
 
 プッシュ通知に使用する多言語の CSV ファイルを生成する方法を説明するテクニカルノートが追加されました。[詳細を表示](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/communication-channels/push-notifications/generating-csv-multilingual-push.translate.html)
 
@@ -767,7 +767,7 @@ Adobe Marketing Cloud Mobile SDK をモバイルアプリと統合して Adobe C
 
 モバイルアプリで受け取るペイロードの構造を説明するテクニカルノートを追加しました。[詳細を表示](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/communication-channels/push-notifications/push-payload.translate.html)
 
-[プッシュチャネルの設定](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/administrating/configuring-channels/configuring-a-mobile-application.translate.html)の節が更新され、Adobe Mobile Services のインターフェイスでポストバックを定義する際に追加される OS バージョンの新しいペイロードデータが追加されました。
+[プッシュチャネルの設定](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)の節が更新され、Adobe Mobile Services のインターフェイスでポストバックを定義する際に追加される OS バージョンの新しいペイロードデータが追加されました。
 
 SMS ドキュメントが更新され、[SMS 自動返信](../../channels/using/managing-incoming-sms.md#managing-stop-sms)の節に説明が追加されました。
 
@@ -863,7 +863,7 @@ E メール BCC - [詳細を表示](../../sending/using/archiving.md)
 
 多くのスクリーンショットが更新され、インターフェイスの変更が反映されています。
 
-新しいテクニカルノート「Adobe Mobile SDK とモバイルアプリの統合」が発表されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/integrate-mobile-sdk.html)
+新しいテクニカルノート「Adobe Mobile SDK とモバイルアプリの統合」が発表されました。[詳細を表示](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html)
 
 People コアサービスまたは Audience Manager と Adobe Campaign の統合を設定する手順が追加されました。[詳細を表示](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
@@ -893,9 +893,9 @@ Adobe Campaign ユーザーの様々なタイプに関する節を追加しま�
 
 動的レポートでレポートインジケーター計算が使用できるようになり、完全な説明や計算式を参照できます。[詳細を表示](../../reporting/using/indicator-calculation.md)
 
-Adobe Campaign でプッシュ通知と目標地点データを使用するための Adobe Mobile Services の設定に関する新しい専用の節。[詳細を表示](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/administrating/configuring-channels/configuring-a-mobile-application.translate.html)
+Adobe Campaign でプッシュ通知と目標地点データを使用するための Adobe Mobile Services の設定に関する新しい専用の節。[詳細を表示](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)
 
-モバイルアプリの設定および実装の節が更新されました。プッシュ通知を設定および送信するための詳細な手順が追加されています。[詳細を表示](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/administrating/configuring-channels/configuring-a-mobile-application.translate.html)
+モバイルアプリの設定および実装の節が更新されました。プッシュ通知を設定および送信するための詳細な手順が追加されています。[詳細を表示](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)
 
 Campaign での画像の操作方法に関する節を更新しました。[詳細を表示](../../designing/using/images.md#setting-up-image-properties)
 
@@ -907,7 +907,7 @@ Adobe Analytics for Mobile（目標地点）との統合が更新され、設定
 
 動的レポート- [詳細を表示](../../reporting/using/about-dynamic-reports.md)
 
-Dreamweaver の統合（ラボ） - [詳細を表示](https://docs.adobe.com/content/help/ja-JP/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.translate.html)
+Dreamweaver の統合（ラボ） - [詳細を表示](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html)
 
 手動送信時間の最適化 - [詳細を表示](../../sending/using/optimizing-the-sending-time.md)
 
@@ -937,7 +937,7 @@ Triggers 統合：2 つの使用例が追加されました。[詳細を表示](
 
 トランザクションメッセージング API - [詳細を表示](../../api/using/get-started-apis.md)
 
-トランザクションメッセージ用のマーケティング機能 - [詳細を表示](../../channels/using/profile-transactional-messages.md)
+トランザクションメッセージ向けのマーケティング機能 — [詳細情報](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities)
 
 **リリースに伴うその他のドキュメントのアップデート**
 
