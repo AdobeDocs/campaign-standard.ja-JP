@@ -7,9 +7,9 @@ audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: fc755f3176622e1faf08ccfa4236e016110f9a68
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '242'
 ht-degree: 16%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 16%
 
 # リソースの削除{#deleting-a-resource}
 
-リソースを削除するには、該当するリソースがである必要があり **[!UICONTROL Draft]**&#x200B;ます。 次の場合、リソースはステータス **[!UICONTROL Draft]** です。
+リソースを削除するには、対象のリソースが&#x200B;**[!UICONTROL Draft]**&#x200B;である必要があります。 次の場合、リソースは&#x200B;**[!UICONTROL Draft]**&#x200B;ステータスになります。
 
 * まだ公開されていない。
 * 既に公開されている場合は、リソースを再ドラフトする必要があります。
@@ -43,13 +43,13 @@ ht-degree: 16%
 
    >[!NOTE]
    >
-   >既製の **プロファイル(プロファイル)** リソースの拡張機能を再ドラフトする場合は、定義済みの **** テストプロファイル(seedMember)拡張機能も再ドラフトする必要があります。 For more on extending the profile resource, see [this section](../../developing/using/extending-the-profile-resource-with-a-new-field.md).
+   >既製の&#x200B;**プロファイル(プロファイル)**&#x200B;リソースの拡張子を再ドラフトする場合は、定義した任意の&#x200B;**テストプロファイル(seedMember)**&#x200B;拡張子も再ドラフトする必要があります。 プロファイルリソースの拡張についての詳細は、[このセクション](../../developing/using/extending-the-profile-resource-with-a-new-field.md)を参照してください。
 
-1. リソースを公開. 詳しい手順については、「カスタムリソースの [発行](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)」を参照してください。
+1. リソースを公開. 詳細な手順については、[カスタムリソースの発行](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)を参照してください。
 
-   次に、リソースが **ドラフト** モードに切り替わり、アクティベーションステータスが **[!UICONTROL Inactive]**&#x200B;になります。
+   次に、リソースが&#x200B;**ドラフト**&#x200B;モードに切り替わり、そのアクティベーションステータスは&#x200B;**[!UICONTROL Inactive]**&#x200B;です。
 
-1. モードで、削除するリソースをチェックし、 **[!UICONTROL List]** アイコンをクリックし ![](assets/delete_darkgrey-24px.png)**[!UICONTROL Delete element]** ます。
+1. **[!UICONTROL List]**&#x200B;モードで、削除するリソースをチェックし、![](assets/delete_darkgrey-24px.png) **[!UICONTROL Delete element]**&#x200B;アイコンをクリックします。
 
    ![](assets/schema_extension_uc28.png)
 
@@ -57,5 +57,4 @@ ht-degree: 16%
 
 >[!NOTE]
 >
->イベントで使用されているカスタムリソースのフィールドが変更または削除された場合、対応するイベントは自動的に非公開になります。See [Configuring transactional messaging](../../administration/using/configuring-transactional-messaging.md).
-
+>イベントで使用されているカスタムリソースのフィールドが変更または削除された場合、対応するイベントは自動的に非公開になります。[トランザクションイベントの非公開](../../channels/using/publishing-transactional-event.md#unpublishing-an-event)を参照してください。
