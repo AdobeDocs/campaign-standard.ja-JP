@@ -7,10 +7,10 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: fc755f3176622e1faf08ccfa4236e016110f9a68
 workflow-type: tm+mt
-source-wordcount: '711'
-ht-degree: 1%
+source-wordcount: '678'
+ht-degree: 3%
 
 ---
 
@@ -19,18 +19,18 @@ ht-degree: 1%
 
 ## トランザクションメッセージについて
 
-イベントを作成したら、このイベントのトリガーをWebサイトに組み込む必要があります。
+トランザクションイベントを作成して公開した後は、このイベントのトリガーをWebサイトに組み込む必要があります。
 
 >[!NOTE]
 >
->イベントの作成と公開については、キャンペーンドキュメント [を参照してください](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html)。
+>イベントの設定については、[このセクション](../../channels/using/configuring-transactional-event.md)を参照してください。
 
 例えば、「買い物かごの放棄」イベントを、顧客が買い物かごで商品を購入する前にWebサイトを離れたときにトリガーするとします。 これを行うには、Web開発者がRESTトランザクションメッセージAPIを使用する必要があります。
 
-1. 開発者は、トランザクションイベントに従ってリクエストを送信し、POSTメソッドは、トランザクションの [送信をトリガします](#sending-a-transactional-event)。
-1. POST要求への応答にはプライマリキーが含まれ、開発者はGET要求を介して1つまたは複数の要求を送信できます。 これで [イベントのステータスを取得できる](#transactional-event-status)。
+1. 開発者は、POST方式に従ってリクエストを送信し、これにより、トランザクションイベント[の送信をトリガーします。](#sending-a-transactional-event)
+1. POST要求への応答にはプライマリキーが含まれ、開発者はGET要求を介して1つまたは複数の要求を送信できます。 これで、[イベントステータス](#transactional-event-status)を取得できます。
 
-## トランザクションイベントの送信 {#sending-a-transactional-event}
+## トランザクションイベントの送信{#sending-a-transactional-event}
 
 トランザクションイベントは、次のURL構造を持つPOSTリクエストを介して送信されます。
 
@@ -38,9 +38,9 @@ ht-degree: 1%
 POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 ```
 
-* **&lt;組織>**:個人の組織ID。 [こちらの節](../../api/using/must-read.md)を参照してください。
+* **&lt;organization>**:個人の組織ID。[こちらの節](../../api/using/must-read.md)を参照してください。
 
-* **&lt;transactionalAPI>**:トランザクションメッセージAPI endPoints
+* **&lt;transactionalapi>**:トランザクションメッセージAPI endPoints
 
    トランザクションメッセージのAPIエンドポイントの名前は、インスタンスの設定に応じて異なります。 これは、値「mc」に続けて個人の組織IDが続く値に対応します。 組織IDとして「geometrixx」を使用したGeometrixx会社の例を見てみましょう。 この場合、POSTリクエストは次のようになります。
 
@@ -48,13 +48,13 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
    (トランザクションメッセージのAPIエンドポイントは、APIプレビュー中も表示されます)。
 
-* **&lt;eventID>**:送信するイベントの種類。 このIDは、イベント定義の作成時に生成されます。 Refer to the [Campaign documentation](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html).
+* **&lt;eventid>**:送信するイベントの種類。このIDは、イベント設定の作成時に生成されます（[このセクション](../../channels/using/configuring-transactional-event.md#creating-an-event)を参照）。
 
 ### POST要求ヘッダー
 
 リクエストに「Content-Type:application/json&quot;ヘッダー。
 
-文字セット( **utf-8など**)を追加する必要があります。 この値は、使用しているRESTアプリケーションに応じて異なります。
+**utf-8**&#x200B;のように、文字セットを追加する必要があります。 この値は、使用しているRESTアプリケーションに応じて異なります。
 
 ```
 -X POST \
@@ -67,7 +67,7 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
 ### POST要求機関
 
-イベントデータはJSONPOSTの本文内に含まれます。 イベント構造は定義に応じて異なります。 リソース定義画面のAPIプレビューボタンには、リクエストのサンプルが表示されます。 Refer to the [Campaign documentation](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html).
+イベントデータはJSONPOSTの本文内に含まれます。 イベント構造は定義に応じて異なります。 リソース定義画面のAPIプレビューボタンには、リクエストのサンプルが表示されます。 [こちらの節](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)を参照してください。
 
 イベントにリンクされたトランザクションメッセージの送信を管理するために、イベントのコンテンツに次のオプションのパラメーターを追加できます。
 
@@ -132,13 +132,13 @@ POSTリクエストへの応答。
 }
 ```
 
-### トランザクションイベントの状態 {#transactional-event-status}
+### トランザクションイベントの状態{#transactional-event-status}
 
 この応答では、「status」フィールドを使用して、イベントが処理済みかどうかを確認できます。
 
 * **保留中**:イベントは保留中です。イベントは、トリガーされたときにこのステータスを引き継ぎます。
 * **処理**:イベントは配信待ちです。メッセージに変換中で、メッセージが送信中です。
-* **一時停止**:イベントプロセスを一時停止中です。 処理は行われなくなり、Adobe Campaignデータベースのキューに保存されます。 For more on this, refer to the [Campaign documentation](https://helpx.adobe.com/campaign/standard/channels/using/event-transactional-messages.html#unpublishing-a-transactional-message).
+* **一時停止**:イベントプロセスを一時停止中です。処理は行われなくなり、Adobe Campaignデータベースのキューに保存されます。 詳しくは、[この節](../../channels/using/publishing-transactional-message.md#suspending-a-transactional-message-publication)を参照してください。
 * **処理済み**:イベントが処理され、メッセージが正常に送信されました。
 * **ignored**:このイベントは配信によって無視されました。通常、アドレスが強制隔離の場合です。
 * **deliveryFailed**:イベントの処理中に配信エラーが発生しました。
