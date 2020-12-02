@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
+source-git-commit: d1d199ab607e57c01cfd70ed81b55fd69789981d
 workflow-type: tm+mt
 source-wordcount: '7623'
 ht-degree: 9%
@@ -202,10 +202,10 @@ ht-degree: 9%
 **その他の機能強化**
 
 * Adobe Campaignは、Adobe Experience Platformロケーションサービスとの統合により、Experience PlatformSDKを介して、場所ベースのマーケティングメッセージをモバイルアプリの購読者に送信できるようになりました。 詳しくは、[詳細ドキュメント](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md)を参照してください。
-* レポート機能が改善され、より快適なエクスペリエンスを実現しました。 この機能を使用するには、動的レポート使用許諾契約に同意する必要があります。 For more on this, refer to the [detailed documentation](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
-* ワークフローでは、次に10回実行するワークフローに、新しいプレビューが追加されました。 For more on this, refer to the [detailed documentation](../../automating/using/scheduler.md).
+* レポート機能が改善され、より快適なエクスペリエンスを実現しました。 この機能を使用するには、動的レポート使用許諾契約に同意する必要があります。 詳しくは、[詳細なドキュメント](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement)を参照してください。
+* ワークフローでは、次に10回実行するワークフローに、新しいプレビューが追加されました。 詳しくは、[詳細なドキュメント](../../automating/using/scheduler.md)を参照してください。
 * スケジューラーアクティビティに新しいオプションが追加され、月別配信に対して特定の曜日を選択できるようになりました。 詳しくは、[詳細なドキュメント](../../automating/using/scheduler.md)を参照してください。
-* 集計期間のない定期配信を作成する場合、配信ダッシュボードで配信の送信前に確認をリクエストできるようになりました。 For more on this, refer to the [detailed documentation](../../sending/using/confirming-the-send.md).
+* 集計期間のない定期配信を作成する場合、配信ダッシュボードで配信の送信前に確認をリクエストできるようになりました。 詳しくは、[詳細なドキュメント](../../sending/using/confirming-the-send.md)を参照してください。
 * 配信の外部シグナルアクティビティで宣言されたイベント変数を使用して、ワークフローのラベルをパーソナライズできるようになりました。 詳しくは、[詳細なドキュメント](../../automating/using/calling-a-workflow-with-external-parameters.md)を参照してください。
 * GDPR削除クエリが改善され、パフォーマンスが向上しました。 （CAMP-33504）
 * 「ftp」オプションが外部アカウント設定インターフェイスから削除されました。 （CAMP-34472）
@@ -354,7 +354,7 @@ ht-degree: 9%
 * トランザクションメッセージングプロセスは、同じメッセージの複数の分析を並行して開始できるように最適化されました。
 * トランザクションプッシュ通知のスループットと待ち時間が一貫しなくなる問題を修正しました。
 * トランザクションメッセージの実行配信に対して誤ったターゲットオーディエンスが表示される問題を修正しました。
-* イベント設定と関連トランザクションメッセージを含むパッケージの読み込み時に発生していた問題を修正しました。 For more on this, refer to the [detailed documentation](../../channels/using/getting-started-with-transactional-msg.md#exporting-and-importing-transactional-messages).
+* イベント設定と関連トランザクションメッセージを含むパッケージの読み込み時に発生していた問題を修正しました。 詳しくは、[詳細なドキュメント](../../channels/using/getting-started-with-transactional-msg.md#exporting-and-importing-transactional-messages)を参照してください。
 * 製品リストを含むトランザクションメッセージ用に作成されたテストプロファイルから収集データが削除される問題を修正しました。
 
 **その他の変更**
@@ -539,7 +539,7 @@ ht-degree: 9%
   </tr> 
   <tr> 
    <td> トランザクション電子メールの製品リスト<br /> </td> 
-   <td> <p>トランザクション用の電子メールメッセージで、1つ以上の製品コレクションを参照できるようになりました。 例えば、ユーザーの買い物かごに含まれていたすべての製品を一覧表示した買い物かご放棄電子メールを、画像、価格、各製品へのリンクと共に自動的に送信できます。</p><p>詳しくは、<a href="../../channels/using/event-transactional-messages.md#using-product-listings-in-a-transactional-message">詳細ドキュメント</a>および<a href="https://docs.adobe.com/content/help/ja-JP/campaign-learn/campaign-standard-tutorials/designing-content/product-listings-in-transactional-email.html">ハウツービデオ</a>を参照してください。</p> </td> 
+   <td> <p>トランザクション用の電子メールメッセージで、1つ以上の製品コレクションを参照できるようになりました。 例えば、ユーザーの買い物かごに含まれていたすべての製品を一覧表示した買い物かご放棄電子メールを、画像、価格、各製品へのリンクと共に自動的に送信できます。</p><p>詳しくは、<a href="../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message">詳細ドキュメント</a>および<a href="https://docs.adobe.com/content/help/ja-JP/campaign-learn/campaign-standard-tutorials/designing-content/product-listings-in-transactional-email.html">ハウツービデオ</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td> 電子メールデザイナのモバイル表示<br /> </td> 
