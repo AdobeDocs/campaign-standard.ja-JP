@@ -7,10 +7,10 @@ audience: administration
 content-type: reference
 topic-tags: about-administrating-adobe-campaign
 translation-type: tm+mt
-source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
+source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
 workflow-type: tm+mt
-source-wordcount: '657'
-ht-degree: 14%
+source-wordcount: '644'
+ht-degree: 15%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 14%
 >
 >導入と設定に関する質問やリクエストがある場合は、Adobeのアカウント担当者にお問い合わせください。
 
-インスタンスがAWSでホストされている場合、管理者ユーザーはキャンペーンCampaign コントロールパネルを利用して設定を管理し、各インスタンスの使用状況を追跡することもできます。 詳しくは、[該当するドキュメント](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)を参照してください。
+インスタンスがAWSでホストされている場合、管理者ユーザーはキャンペーンCampaign コントロールパネルを利用して設定を管理し、各インスタンスの使用状況を追跡することもできます。 詳しくは、[該当するドキュメント](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja)を参照してください。
 
 ## [管理]メニュー{#administration-menu}
 
@@ -74,7 +74,7 @@ Adobe Campaign内のすべての通信チャネルは、メッセージを効果
 
 様々な&#x200B;**email**&#x200B;パラメーターを設定します。バウンス、強制隔離、電子メールのプロパティ、ルーティングパラメーター（通常はルール）の処理ルール。 **SMS**&#x200B;チャネルのルーティング構成とプロパティ、およびSMSのエンコードと形式を定義します。
 
-**モバイルアプリ**&#x200B;を設定し、Adobe Experience PlatformSDKを使用してアプリ内メッセージとプッシュ通知を送信できるようにします。また、イベントを作成して設定することで、**トランザクションメッセージ**&#x200B;を設定します。
+**モバイルアプリ**&#x200B;を設定して、Adobe Experience PlatformSDKを使用してアプリ内メッセージとプッシュ通知を送信できるようにします。
 
 詳しくは、以下を参照してください。
 
@@ -82,7 +82,6 @@ Adobe Campaign内のすべての通信チャネルは、メッセージを効果
 * [E メールチャネルの設定](../../administration/using/configuring-email-channel.md)
 * [SMS チャネルの設定](../../administration/using/configuring-sms-channel.md)
 * [モバイルアプリケーションの設定](../../administration/using/configuring-a-mobile-application.md)
-* [トランザクションメッセージの設定](../../administration/using/configuring-transactional-messaging.md)
 
 ## アプリケーション設定{#application-settings}
 
