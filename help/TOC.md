@@ -6,10 +6,10 @@ user-guide-title: Campaign Standard
 breadcrumb-title: Campaign Standard
 title: Campaign Standard ガイド
 translation-type: tm+mt
-source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
+source-git-commit: c276c468627208b584a0342414cdbe382e349f50
 workflow-type: tm+mt
-source-wordcount: '1664'
-ht-degree: 99%
+source-wordcount: '1687'
+ht-degree: 98%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 99%
       + [プライバシーと同意](start/using/privacy.md)
       + [プライバシーの管理](start/using/privacy-management.md)
       + [プライバシーリクエスト](start/using/privacy-requests.md)
-      + [プライバシーFAQ](start/using/privacy-faq.md)
+      + [プライバシー FAQ](start/using/privacy-faq.md)
 + プロファイルとオーディエンス{#profiles-and-audiences}
    + [プロファイルとオーディエンスの概要](audiences/using/get-started-profiles-and-audiences.md)
    + プロファイルの管理{#managing-profiles}
@@ -119,11 +119,18 @@ ht-degree: 99%
       + [ダイレクトメールのコンテンツの定義](channels/using/defining-the-direct-mail-content.md)
    + トランザクションメッセージング{#transactional-messaging}
       + [トランザクションメッセージの概要](channels/using/getting-started-with-transactional-msg.md)
-      + [トランザクションメッセージの制限](channels/using/transactional-messaging-limitations.md)
-      + [イベントトランザクションメッセージ](channels/using/event-transactional-messages.md)
-      + [プロファイルトランザクションメッセージ](channels/using/profile-transactional-messages.md)
+      + [ベストプラクティスと制限事項](channels/using/transactional-messaging-limitations.md)
+      + イベント設定 {#event-configuration}
+         + [トランザクションイベントの設定](channels/using/configuring-transactional-event.md)
+         + [トランザクションイベントの公開](channels/using/publishing-transactional-event.md)
+      + トランザクションメッセージ版{#transactional-message-edition}
+         + [トランザクションメッセージの編集](channels/using/editing-transactional-message.md)
+         + [トランザクションメッセージのテスト](channels/using/testing-transactional-message.md)
+         + [トランザクションメッセージライフサイクル](channels/using/publishing-transactional-message.md)
+         + [実行と監視](channels/using/transactional-message-execution.md)
       + [トランザクションプッシュ通知](channels/using/transactional-push-notifications.md)
       + [フォローアップメッセージ](channels/using/follow-up-messages.md)
+      + [トランザクションメッセージの使用例](channels/using/transactional-messaging-use-case.md)
    + ランディングページ{#landing-pages}
       + [ランディングページの概要](channels/using/getting-started-with-landing-pages.md)
       + [ランディングページテンプレートについて](channels/using/landing-page-templates.md)
@@ -430,7 +437,6 @@ ht-degree: 99%
       + [E メールチャネルの設定](administration/using/configuring-email-channel.md)
       + [SMS チャネルの設定](administration/using/configuring-sms-channel.md)
       + [モバイルアプリケーションの設定](administration/using/configuring-a-mobile-application.md)
-      + [トランザクションメッセージの設定](administration/using/configuring-transactional-messaging.md)
    + モバイルチャネルの設定 {#configuring-mobile}
       + [プッシュトラッキングの実装](administration/using/push-tracking.md)
       + [画像とビデオの追加（iOS）](administration/using/image-push-notification.md)
