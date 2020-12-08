@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
+source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
 workflow-type: tm+mt
 source-wordcount: '2945'
 ht-degree: 99%
@@ -203,7 +203,7 @@ ht-degree: 99%
 
 * 「**エンリッチメント**」ワークフローアクティビティで「**Alias**」フィールドにスペースを追加して新しい行項目を作成したときに生じる可能性がある問題を修正しました。（CAMP-39229）
 * 配達確認メッセージの送信時に、すべてのテストプロファイルがターゲットになる可能性がある問題を修正しました。
-* イベント設定を非公開にして削除した後で生じていた問題を修正しました。[詳細を表示](../../administration/using/configuring-transactional-messaging.md#deleting-an-event)
+* イベント設定を非公開にして削除した後で生じていた問題を修正しました。[詳細を表示](../../channels/using/publishing-transactional-event.md#deleting-an-event)
 * ワークフローに変更を加えると「**Save**」ボタンが表示されなくなる問題を修正しました。
 * プライバシーリクエストを処理した後、Campaign で手動で削除したとき、リクエストに関連付けられたデータがクリーンアップ後も削除されない問題を修正しました。
 * 特殊文字を含んだメッセージを Adobe Experience Manager からプレビューまたは送信したときに生じる可能性がある問題を修正しました。
