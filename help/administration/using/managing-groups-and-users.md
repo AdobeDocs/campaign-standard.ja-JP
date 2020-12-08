@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: users-and-security
 context-tags: user,overview;user,main;security,overview;security,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 0556fec284c5873fbf5025cab15d73adb009ee37
 workflow-type: tm+mt
-source-wordcount: '926'
-ht-degree: 97%
+source-wordcount: '942'
+ht-degree: 95%
 
 ---
 
@@ -24,15 +24,18 @@ ht-degree: 97%
 
 ユーザーは、常にセキュリティグループにリンクされている必要があります。これにより、ユーザーに特定の役割や組織単位を割り当てることができます。
 
-役割について詳しくは、[Adobe Campaign Standard 認証](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)ページの各表に、ユーザーの役割に応じて使用できる様々な操作を示します。
+役割について詳しくは、[Adobe Campaign Standard 認証](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)ページの各表に、ユーザーの役割に応じて使用できる様々な操作を示します。
 
 デフォルトのセキュリティグループは次のとおりです。
 
 * **[!UICONTROL Administrators]**
 * **[!UICONTROL Delivery supervisors]**
-* **[!UICONTROL Message Center agents]**
 * **[!UICONTROL Standard Users]**
 * **[!UICONTROL Workflow supervisors]**
+
+>[!IMPORTANT]
+>
+>**[!UICONTROL Access to the deliverability parameters (Deliverability)]**&#x200B;および&#x200B;**[!UICONTROL Message Center agents (mcExec)]**&#x200B;セキュリティグループは内部のみで、ユーザーに割り当てることはできません。
 
 どのセキュリティグループにもリンクされていないユーザーは、Adobe Campaign にアクセスできません。
 
