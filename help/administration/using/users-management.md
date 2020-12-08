@@ -7,10 +7,10 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 translation-type: tm+mt
-source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
+source-git-commit: 83cf4dc73540725d1b642b68091f704806f3eb63
 workflow-type: tm+mt
-source-wordcount: '1216'
-ht-degree: 95%
+source-wordcount: '1220'
+ht-degree: 93%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 95%
 
 Adobe Campaign では、ユーザーに一連の役割を割り当てて、ユーザーがアクセスできるインターフェイス領域を定義できます。
 
-特定の役割とそれに対応する認証については、[役割の概要](../../administration/using/list-of-roles.md)の節および[認証](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)の節で詳しく説明します。
+特定の役割とそれに対応する認証については、[役割の概要](../../administration/using/list-of-roles.md)の節および[認証](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)の節で詳しく説明します。
 
 管理者は Admin Console からユーザーを管理できます。ユーザーは、Adobe Campaign と自動的に同期されるようになります。詳しくは、[Admin Console](https://helpx.adobe.com/jp/enterprise/using/users.html) のドキュメントを参照してください。
 
@@ -37,7 +37,7 @@ Adobe Campaign からユーザー管理インターフェイスにアクセス�
 
 * [ユーザー権限の管理](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/access-management.html)（ビデオ）
 * [役割のリスト](../../administration/using/list-of-roles.md)
-* [認証のリスト](https://docs.campaign.adobe.com/doc/standard/en/Technotes/AdobeCampaign-ACSRights.pdf)
+* [認証のリスト](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)
 
 ## ユーザーのタイプ {#type-of-users}
 
@@ -59,7 +59,7 @@ Adobe Campaign からユーザー管理インターフェイスにアクセス�
 
 機能管理者は、インターフェイスの技術面において最高レベルのアクセス権限を持つユーザーです。機能管理者は **[!UICONTROL Administration]** の役割を持ち、マーケターがキャンペーンの配信に専念できるように、プラットフォームのあらゆる設定を確認します。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >**[!UICONTROL Administration]**&#x200B;役割と&#x200B;****&#x200B;へのアクセス権を持つ機能的な管理者のみが、送信ログ、メッセージログ、トラッキングログ、除外ログ、提案ログ、購読ログにアクセスできます。 管理者以外のユーザーは、これらのログにターゲットできますが、リンクされたテーブル(プロファイル、配信)から開始できます。
 
