@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: 4e157a582de836fa325d95593491c756209b205e
+source-git-commit: 951f358eb7139be8924aadf8461944d4318f03f1
 workflow-type: tm+mt
-source-wordcount: '1352'
-ht-degree: 77%
+source-wordcount: '650'
+ht-degree: 76%
 
 ---
 
@@ -20,7 +20,11 @@ ht-degree: 77%
 
 [トランザクションメッセージ](../../channels/using/editing-transactional-message.md)を送信する準備ができたら、それを公開できます。
 
-イベントのテスト、公開、一時停止、非公開、削除の手順を以下に示します。 この節では、トランザクションメッセージングの再試行プロセスについても説明します。
+トランザクションメッセージを公開、一時停止、非公開、削除する手順は、次のとおりです。
+
+>[!IMPORTANT]
+>
+>[管理](../../administration/using/users-management.md#functional-administrators)ロールを持つユーザーのみが、トランザクションメッセージにアクセスして発行できます。
 
 ## トランザクションメッセージの公開プロセス {#transactional-messaging-pub-process}
 
@@ -28,63 +32,63 @@ ht-degree: 77%
 
 ![](assets/message-center_pub-process.png)
 
-トランザクションメッセージの公開について詳しくは、[このセクション](#publishing-a-transactional-message)を参照してください。
-トランザクションメッセージの一時停止について詳しくは、[このセクション](#suspending-a-transactional-message-publication)を参照してください。
-トランザクションメッセージの非公開について詳しくは、[このセクション](#unpublishing-a-transactional-message)を参照してください。
+**関連トピック：**
+* [トランザクションメッセージの公開](#publishing-a-transactional-message)
+* [トランザクションメッセージの一時停止](#suspending-a-transactional-message-publication)
+* [トランザクションメッセージの非公開](#unpublishing-a-transactional-message)
+* [イベントの公開](../../channels/using/publishing-transactional-event.md)
 
-イベントの公開と非公開について詳しくは、[このセクション](../../channels/using/publishing-transactional-event.md)を参照してください。
+<!--## Testing a transactional message {#testing-a-transactional-message}
 
-## トランザクションメッセージのテスト{#testing-a-transactional-message}
+You first need to create a specific test profile that will allow you to properly check the transactional message.
 
-まず、トランザクションメッセージを正しく確認できる特定のテストプロファイルを作成する必要があります。
+### Defining a specific test profile {#defining-specific-test-profile}
 
-### 特定のテストプロファイルの定義{#defining-specific-test-profile}
+Define a test profile that will be linked to your event, which will allow you to preview your message and send a relevant proof.
 
-メッセージをプレビューし、関連配達確認を送信できるように、イベントにリンクするテストプロファイルを定義します。
-
-1. トランザクションメッセージダッシュボードで&#x200B;**[!UICONTROL Create test profile]**&#x200B;ボタンをクリックします。
+1. From the transactional message dashboard, click the **[!UICONTROL Create test profile]** button.
 
    ![](assets/message-center_test-profile.png)
 
-1. JSON 形式で送信する情報を「**[!UICONTROL Event data used for personalization]**」セクションに指定します。これは、メッセージをプレビューするとき、およびテストプロファイルが配達確認を受け取るときに使用されるコンテンツです。
+1. Specify the information to send in JSON format in the **[!UICONTROL Event data used for personalization]** section. This is the content that will be used when previewing the message and when the test profile receives the proof.
 
    ![](assets/message-center_event-data.png)
 
    >[!NOTE]
    >
-   >プロファイルテーブルに関連する情報を入力することもできます。[イベントを豊かにする](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)<!--and [Personalizing a transactional message](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message)-->を参照してください。
+   >You can also enter the information relating to the profile table. See [Enriching the event](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) and [Personalizing a transactional message](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message).
 
-1. 作成したテストプロファイルは、トランザクションメッセージで事前に指定されます。 配達確認のターゲットを確認するには、メッセージの「**[!UICONTROL Test profiles]**」ブロックをクリックします。
+1. Once created, the test profile will be pre-specified in the transactional message. Click the **[!UICONTROL Test profiles]** block of the message to check the target of your proof.
 
    ![](assets/message-center_5.png)
 
-新規テストプロファイルを作成するか、既に「**[!UICONTROL Test profiles]**」メニューにあるテストを使用することもできます。手順は次のとおりです。
+You can also create a new test profile or use one that already exists in the **[!UICONTROL Test profiles]** menu. To do this:
 
-1. 左上隅の **[!UICONTROL Adobe Campaign]** ロゴをクリックし、**[!UICONTROL Profiles & audiences]**／**[!UICONTROL Test profiles]** を選択します。
-1. **[!UICONTROL Event]**&#x200B;セクションで、先ほど作成したイベントを選択します。 この例では、「買い物かごの放棄（EVTcartAbandant）」を選択します。
-1. JSON 形式で送信する情報を「**[!UICONTROL Event data]**」テキストボックスに指定します。
+1. Click the **[!UICONTROL Adobe Campaign]** logo, in the top left corner, then select **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]**.
+1. In the **[!UICONTROL Event]** section, select the event that you have just created. In this example, select "Cart abandonment (EVTcartAbandonment)".
+1. Specify the information to send in JSON format in the **[!UICONTROL Event data]** text box.
 
    ![](assets/message-center_3.png)
 
-1. 変更を保存します。
-1. 作成したメッセージにアクセスし、更新したテストプロファイルを選択します。
+1. Save your changes.
+1. Access the message that you created and select the updated test profile.
 
-**関連トピック：**
+**Related topics:**
 
-* [テストプロファイルの管理](../../audiences/using/managing-test-profiles.md)
-* [オーディエンスの作成](../../audiences/using/creating-audiences.md)
+* [Managing test profiles](../../audiences/using/managing-test-profiles.md)
+* [Creating audiences](../../audiences/using/creating-audiences.md)
 
-### 配達確認の送信 {#sending-proof}
+### Sending the proof {#sending-proof}
 
-1つ以上の特定のテストプロファイルを作成し、トランザクションメッセージを保存したら、配達確認を送信してテストできます。
+Once you have created one or more specific test profiles and saved your transactional message, you can send a proof to test it.
 
 ![](assets/message-center_10.png)
 
-配達確認を送信する手順については、「[配達確認の送信](../../sending/using/sending-proofs.md)」の節を参照してください。
+The steps for sending a proof are detailed in the [Sending proofs](../../sending/using/sending-proofs.md) section.-->
 
 ## トランザクションメッセージの公開{#publishing-a-transactional-message}
 
-トランザクションメッセージを確認したら、それを公開できます。
+トランザクションメッセージを編集してテストした後は、その画像を公開できます。 「**[!UICONTROL Publish]**」ボタンをクリックするだけです。
 
 ![](assets/message-center_12.png)
 
@@ -94,17 +98,22 @@ ht-degree: 77%
 
 ![](assets/message-center_13.png)
 
-### トランザクションメッセージ公開の一時停止{#suspending-a-transactional-message-publication}
+**関連トピック**：
+* [トランザクションメッセージの編集](../../channels/using/editing-transactional-message.md)
+* [トランザクションメッセージのテスト](../../channels/using/testing-transactional-message.md)
+* [イベントトリガーの統合](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)
+
+## トランザクションメッセージ公開の一時停止{#suspending-a-transactional-message-publication}
 
 トランザクションメッセージに含まれるデータを変更する場合など、「**[!UICONTROL Pause]**」ボタンを使用してメッセージの公開を中止できます。したがって、イベントは処理されず、Adobe Campaign データベースのキューに保持されます。
 
-キューに格納されたイベントは、REST APIで定義された期間（[REST APIのドキュメント](../../api/using/managing-transactional-messages.md)を参照）またはTriggersコアサービスを使用している場合はトリガーイベント([Adobe Experience Cloudトリガーについて](../../integrating/using/about-adobe-experience-cloud-triggers.md)を参照)に保持されます。
+キューに格納されたイベントは、REST APIで定義された期間（[REST APIドキュメント](../../api/using/managing-transactional-messages.md)を参照）またはTriggersコアサービスを使用している場合はトリガーイベントに保持されます([Adobe Experience Cloudトリガーについて](../../integrating/using/about-adobe-experience-cloud-triggers.md)を参照)。
 
 ![](assets/message-center_pause.png)
 
 「**[!UICONTROL Resume]**」をクリックすると、キューに格納されているすべてのイベント（期限切れでない場合）が処理されます。テンプレートのパブリケーションが停止されている間に実行されたすべての変更が含まれています。
 
-### トランザクションメッセージの非公開{#unpublishing-a-transactional-message}
+## トランザクションメッセージの非公開{#unpublishing-a-transactional-message}
 
 「**[!UICONTROL Unpublish]**」をクリックすると、トランザクションメッセージの公開をキャンセルするだけでなく、対応するイベントの公開もキャンセルします。これにより、REST API から、以前に作成したイベントに対応するリソースが削除されます。
 
@@ -122,7 +131,7 @@ ht-degree: 77%
 
 毎日午前 4 時に実行される「**[!UICONTROL Database cleanup]**」ワークフローは、**[!UICONTROL Administration]**／**[!UICONTROL Application settings]**／**[!UICONTROL Workflows]** からアクセスできます。
 
-### トランザクションメッセージの削除{#deleting-a-transactional-message}
+## トランザクションメッセージの削除{#deleting-a-transactional-message}
 
 トランザクションメッセージが非公開になっている場合、またはトランザクションメッセージがまだ公開されていない場合は、トランザクションメッセージリストから削除できます。手順は次のとおりです。
 
@@ -144,41 +153,96 @@ ht-degree: 77%
 
 * **標準搭載のイベントテンプレート（内部トランザクションメッセージ）**：内部トランザクションメッセージが、対応する内部イベントに関連付けられている唯一のものである場合、削除できません。別のトランザクションメッセージを作成する場合は、まず複製するか、**[!UICONTROL Resources]**／**[!UICONTROL Templates]**／**[!UICONTROL Transactional message templates]** メニューを使用します。
 
-## トランザクションメッセージの再試行プロセス{#transactional-message-retry-process}
+<!--## Monitoring transactional message delivery {#monitoring-transactional-message-delivery}
 
-一時的に配信されないトランザクションメッセージは、配信が期限切れになるまで自動再試行が実行される場合があります。配信期間について詳しくは、[有効期間パラメーター](../../administration/using/configuring-email-channel.md#validity-period-parameters)を参照してください。
+Once the message is published and your site integration is done, you can monitor the delivery.
 
-トランザクションメッセージの送信に失敗した場合は、2 つの再試行システムがあります。
+To monitor transactional messaging, you need to access **execution deliveries**. An execution delivery is a non-actionable and non-functional technical message created once a month for each transactional message, and each time a transactional message is edited and published again.
 
-* トランザクションメッセージングレベルでは、トランザクションメッセージが実行配信に割り当てられる前（イベントの受信と配信の準備の間）に、イベントが失敗する可能性があります。[イベント処理の再試行プロセス](#event-processing-retry-process)を参照してください。
-* 送信プロセスレベルでは、イベントが実行配信に割り当てられると、一時的なエラーが原因でトランザクションメッセージが失敗する場合があります。詳しくは、[メッセージ送信の再試行プロセス](#message-sending-retry-process)を参照してください。
+1. To view the message delivery log, click the icon at the bottom right of the **[!UICONTROL Deployment]** block.
 
-### イベント処理の再試行プロセス{#event-processing-retry-process}
+   ![](assets/message-center_access_logs.png)
 
-イベントを実行配信に割り当てられない場合、イベント処理は延期されます。再試行は、新しい実行配信に割り当てられるまで実行されます。
+1. Click the **[!UICONTROL Execution list]** tab.
+
+   ![](assets/message-center_execution_tab.png)
+
+1. Select the execution delivery of your choice.
+
+   ![](assets/message-center_execution_delivery.png)
+
+1. Click again the icon at the bottom right of the **[!UICONTROL Deployment]** block.
+
+   ![](assets/message-center_execution_access_logs.png)
+
+   For each execution delivery, you can consult the delivery logs as you would do for a standard delivery. For more on accessing and using the logs, see [Monitoring a delivery](../../sending/using/monitoring-a-delivery.md).
+
+**Related topics**:
+* [Publishing a transactional message](#publishing-a-transactional-message)
+* [Integrate the event triggering](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)
+
+### Profile-based transactional message specificities {#profile-transactional-message-monitoring}
+
+For profile-based transactional messages, you can monitor the following profile information.
+
+Select the **[!UICONTROL Sending logs]** tab. In the **[!UICONTROL Status]** column, **[!UICONTROL Sent]** indicates that a profile has opted in.
+
+![](assets/message-center_marketing_sending_logs.png)
+
+Select the **[!UICONTROL Exclusions logs]** tab to view recipients who have been excluded from the message target, such as addresses on denylist.
+
+![](assets/message-center_marketing_exclusion_logs.png)
+
+For any profile that has opted out, the **[!UICONTROL Address on denylist]** typology rule excluded the corresponding recipient.
+
+This rule is part of a specific typology that applies to all transactional messages based on the **[!UICONTROL Profile]** table.
+
+![](assets/message-center_marketing_typology.png)
+
+**Related topics**:
+
+* [About typologies and typology rules](../../sending/using/about-typology-rules.md)
+* [Monitoring a delivery](../../sending/using/monitoring-a-delivery.md)
+
+## Transactional message retry process {#transactional-message-retry-process}
+
+A temporarily undelivered transactional message is subject to automatic retries that are performed until the delivery expires. For more on the delivery duration, see [Validity period parameters](../../administration/using/configuring-email-channel.md#validity-period-parameters).
+
+When a transactional message fails to be sent, there are two retry systems:
+
+* At the transactional messaging level, a transactional message can fail before the event is assigned to an execution delivery, meaning between the event reception and the delivery preparation. See [Event processing retry process](#event-processing-retry-process).
+* At the sending process level, once the event has been assigned to an execution delivery, the transactional message can fail due to a temporary error. See [Message sending retry process](#message-sending-retry-process).
+
+The definition of **execution delivery** can be found in the [Monitoring transactional message delivery](#monitoring-transactional-message-delivery) section.
+
+### Event processing retry process {#event-processing-retry-process}
+
+When an event is triggered, it is assigned to an execution delivery.
+
+If the event cannot be assigned to an execution delivery, the event processing is postponed. Retries are then performed until it is assigned to a new execution delivery.
 
 >[!NOTE]
 >
->延期されたイベントは、まだ実行配信に割り当てられていないため、トランザクションメッセージ送信ログには表示されません。
+>A postponed event does not appear in the transactional message sending logs, because it is not assigned to an execution delivery yet.
 
-例えば、イベントの内容が正しくない、アクセス権やブランディングに問題がある、タイポロジルールの適用時にエラーが検出されたなどの理由で、実行配信にを割り当てることができない場合があります。この場合、メッセージを一時停止し、編集して問題を修正し、再度公開できます。再試行システムは、その後、新しい実行配信に割り当てます。
+For example, the event could not be assigned to an execution delivery because its content was not correct, there was an issue with access rights or branding, an error was detected on applying typology rules, etc. In this case, you can pause the message, edit it to fix the problem and publish it again. The retry system will then assign it to a new execution delivery.
 
-### メッセージ送信の再試行プロセス{#message-sending-retry-process}
+### Message sending retry process {#message-sending-retry-process}
 
-イベントが実行配信に割り当てられると、受信者のメールボックスがいっぱいになった場合など、一時的なエラーが原因でトランザクションメッセージが失敗する場合があります。詳しくは、[一時的な配信エラーの後の再試行](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)を参照してください。
+Once the event has been assigned to an execution delivery, the transactional message can fail due to a temporary error, if the recipient's mailbox is full for example. For more on this, see [Retries after a delivery temporary failure](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).
 
 >[!NOTE]
 >
->イベントが実行配信に割り当てられると、そのイベントはこの実行配信の送信ログに今回のみ表示されます。失敗した配信は、ログを送信するトランザクションメッセージの&#x200B;**[!UICONTROL Execution list]**&#x200B;タブに表示されます。
+>When an event is assigned to an execution delivery, it appears in the sending logs of this execution delivery, and only at this time. The failed deliveries are displayed in the **[!UICONTROL Execution list]** tab of the transactional message sending logs.
 
-### プロセスの制限を再試行{#limitations}
+### Retry process limitations {#limitations}
 
-**ログの更新を送信中**
+**Sending logs update**
 
-再試行プロセスでは、新しい実行配信の送信ログは直ちに更新されません（更新はスケジュールされたワークフローを介して実行されます）。つまり、トランザクションイベントが新しい実行配信で処理されている場合でも、メッセージの「**[!UICONTROL Pending]**」ステータスが変わる可能性があります。
+In the retry process, the sending logs of the new execution delivery are not immediately updated (the update is performed through a scheduled workflow). It means that the message could be in **[!UICONTROL Pending]** status even if the transactional event has been processed by the new execution delivery.
 
-**失敗した実行配信**
+**Failed execution delivery**
 
-実行配信を停止することはできません。ただし、現在の実行配信が失敗した場合、新しいイベントを受け取るとすぐに新しいイベントが作成され、すべての新しいイベントがこの新しい実行配信で処理されます。失敗した実行配信で新しいイベントが処理されることはありません。
+You cannot stop an execution delivery. However, if the current execution delivery fails, a new one is created as soon as a new event is received, and all new events are processed by this new execution delivery. No new events are processed by the failed execution delivery.
 
-実行配信に既に割り当てられている一部のイベントが延期され、その実行配信に失敗した場合、再試行システムは、延期されたイベントを新しい実行配信に割り当てません。これは、これらのイベントが失われたことを意味します。
+If some events already assigned to an execution delivery have been postponed as part of the retry process and if that execution delivery fails, the retry system does not assign the postponed events to the new execution delivery, which means that these events are lost. Check the [delivery logs](#monitoring-transactional-message-delivery) to see the recipients that may have been impacted.-->
