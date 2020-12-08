@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
+source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
 workflow-type: tm+mt
 source-wordcount: '5402'
 ht-degree: 7%
@@ -327,7 +327,7 @@ _カスタムリソース_
     <ul> 
      <li> カスタムフィールドを調整条件として活用し、トランザクションメッセージとプロファイルを一致させます。 </li> 
      <li> 完全なプロファイル、サービス、リンクされたデータを活用して、トランザクションメッセージをさらにパーソナライズ </li> 
-    </ul> 詳しくは、<a href="../../administration/using/configuring-transactional-messaging.md">詳細ドキュメント</a>を参照してください。<br /> </td> 
+    </ul> 詳しくは、<a href="../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content">詳細ドキュメント</a>を参照してください。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
