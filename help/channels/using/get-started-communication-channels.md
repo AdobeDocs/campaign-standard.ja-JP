@@ -7,10 +7,10 @@ audience: channels
 content-type: reference
 topic-tags: about-communication-channels
 translation-type: tm+mt
-source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
+source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 22%
+source-wordcount: '524'
+ht-degree: 21%
 
 ---
 
@@ -72,10 +72,11 @@ Adobe Campaignを使用すると、あらゆるチャネルでキャンペーン
 
 詳しくは、以下を参照してください。
 
-* [トランザクションメッセージについて](../../channels/using/getting-started-with-transactional-msg.md)
 * [トランザクションメッセージの概要](../../channels/using/getting-started-with-transactional-msg.md)
-* [イベントトランザクションメッセージ](../../channels/using/event-transactional-messages.md)
-* [プロファイルトランザクションメッセージ](../../channels/using/profile-transactional-messages.md)
+* [トランザクションイベントの設定](../../channels/using/configuring-transactional-event.md)
+* [トランザクションイベントの公開](../../channels/using/publishing-transactional-event.md)
+* [トランザクションメッセージの編集](../../channels/using/editing-transactional-message.md)
+* [トランザクションメッセージの公開](../../channels/using/publishing-transactional-message.md)
 * [トランザクションプッシュ通知](../../channels/using/transactional-push-notifications.md)
 * [フォローアップメッセージ](../../channels/using/follow-up-messages.md)
 
