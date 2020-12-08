@@ -7,7 +7,7 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 translation-type: tm+mt
-source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
+source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
 workflow-type: tm+mt
 source-wordcount: '2573'
 ht-degree: 5%
@@ -167,7 +167,7 @@ Adobe Campaignオファーは、事前設定済みのコンテンツブロック
 
 実際、メッセージを編集する場合は、そのメッセージのターゲティングディメンションと互換性のあるターゲティングディメンションを持つコンテンツブロックのみを選択できます。
 
-例えば、**[!UICONTROL Unsubscription link]**&#x200B;ブロックのターゲティングディメンションは&#x200B;**[!UICONTROL Profiles]**&#x200B;です。これは、**[!UICONTROL Profiles]**&#x200B;リソースに固有のパーソナライゼーションフィールドが含まれているからです。 したがって、[イベントトランザクションメッセージ](../../channels/using/event-transactional-messages.md)に&#x200B;**[!UICONTROL Unsubscription link]**&#x200B;ブロックを使用することはできません。このタイプのメッセージのターゲティングディメンションは&#x200B;**[!UICONTROL Real-time events]**&#x200B;です。 ただし、**購読解除リンク**&#x200B;ブロックは、[プロファイルトランザクションメッセージ](../../channels/using/profile-transactional-messages.md)で使用できます。このタイプのメッセージのターゲティングディメンションは&#x200B;**プロファイル**&#x200B;なので、 最後に、**[!UICONTROL Link to mirror page]**&#x200B;ブロックにはターゲティングディメンションがないので、どのメッセージでも使用できます。
+例えば、**[!UICONTROL Unsubscription link]**&#x200B;ブロックのターゲティングディメンションは&#x200B;**[!UICONTROL Profiles]**&#x200B;です。これは、**[!UICONTROL Profiles]**&#x200B;リソースに固有のパーソナライゼーションフィールドが含まれているからです。 したがって、[イベントトランザクションメッセージ](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types)に&#x200B;**[!UICONTROL Unsubscription link]**&#x200B;ブロックを使用することはできません。このタイプのメッセージのターゲティングディメンションは&#x200B;**[!UICONTROL Real-time events]**&#x200B;です。 ただし、**購読解除リンク**&#x200B;ブロックは、[プロファイルトランザクションメッセージ](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types)で使用できます。このタイプのメッセージのターゲティングディメンションは&#x200B;**プロファイル**&#x200B;なので、 最後に、**[!UICONTROL Link to mirror page]**&#x200B;ブロックにはターゲティングディメンションがないので、どのメッセージでも使用できます。
 
 このフィールドを空のままにすると、ターゲティングディメンションが何であろうと、コンテンツブロックはすべてのメッセージと互換性があります。 ターゲティングディメンションを設定した場合、そのブロックは同じターゲティングディメンションを持つメッセージとのみ互換性があります。
 
