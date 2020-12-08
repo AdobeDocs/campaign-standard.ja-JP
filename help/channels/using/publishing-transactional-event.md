@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: 9ad23468d3d1cf386d9558e6cd2344ea2316fc82
+source-git-commit: caa41d6c727385bd6e77f64750872f191a5ad040
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '600'
 ht-degree: 7%
 
 ---
@@ -22,13 +22,13 @@ ht-degree: 7%
 
 >[!IMPORTANT]
 >
->イベントの構成とパブリケーションは、[管理者](../../administration/using/users-management.md#functional-administrators)が実行する必要があります。
+>[機能的な管理者](../../administration/using/users-management.md#functional-administrators) <!--being part of the **[!UICONTROL All]** [organizational unit](../../administration/using/organizational-units.md) -->のみが、イベント設定を発行する適切な権限を持っています。
 
 イベント構成の公開と非公開を含む、トランザクションメッセージングの公開プロセス全体を示すグラフは、[このセクション](../../channels/using/publishing-transactional-message.md)で参照できます。
 
 公開が完了したら、次の操作を行います。
 * 対応するトランザクションメッセージが自動的に作成されます。 「[トランザクションメッセージの編集](../../channels/using/editing-transactional-message.md)」を参照してください。
-* Webサイト開発者が使用するAPIがデプロイされ、トランザクションイベントを送信できるようになりました。 統合イベントのトリガー(../../channels/using/getting-started-with-transactional-msg.md#integrate-イベントトリガー)を参照してください。
+* Webサイト開発者が使用するAPIがデプロイされ、トランザクションイベントを送信できるようになりました。 [イベントトリガーの統合](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)を参照してください。
 
 ## イベントのプレビューと公開{#previewing-and-publishing-the-event}
 
@@ -36,13 +36,13 @@ ht-degree: 7%
 
 1. **[!UICONTROL API preview]**&#x200B;ボタンをクリックすると、Webサイト開発者が公開前に使用するREST APIのシミュレーションが表示されます。
 
-   イベントが公開されると、このボタンをクリックして実稼働中のAPIのプレビューも表示できます。 統合イベントのトリガー(../../channels/using/getting-started-with-transactional-msg.md#integrate-イベントトリガー)を参照してください。
+   イベントが公開されると、このボタンをクリックして実稼働中のAPIのプレビューも表示できます。 [イベントトリガーの統合](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)を参照してください。
 
    ![](assets/message-center_api_preview.png)
 
    >[!NOTE]
    >
-   >REST APIは、選択したチャネルと選択したターゲティングディメンションに応じて異なります。 様々な設定について詳しくは、[トランザクションイベント固有の設定](../../channels/using/configuring-transactional-event.md#transactional-event-specific-configurations)を参照してください。
+   >REST APIは、選択したチャネルと選択したターゲティングディメンションに応じて異なります。 各種設定の詳細については、[この](../../channels/using/configuring-transactional-event.md#transactional-event-specific-configurations)セクションを参照してください。
 
 1. **[!UICONTROL Publish]**&#x200B;をクリックして開始パブリケーションを作成します。
 
@@ -66,11 +66,7 @@ ht-degree: 7%
 
    >[!NOTE]
    >
-   >* イベントがトランザクションメッセージの送信をトリガーするには、作成したばかりのメッセージを変更して発行する必要があります。 「[編集](../../channels/using/editing-transactional-message.md)」および「[トランザクションメッセージの公開](../../channels/using/publishing-transactional-message.md)」の節を参照してください。
-      >
-      >
-   * また、このトリガーイベント](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)をWebサイトに[統合する必要があります。
-
+   >イベントがトランザクションメッセージの送信をトリガーするには、作成したばかりのメッセージを変更して発行する必要があります。 「[編集](../../channels/using/editing-transactional-message.md)」および「[トランザクションメッセージの公開](../../channels/using/publishing-transactional-message.md)」の節を参照してください。 また、このトリガーイベント](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)をWebサイトに[統合する必要があります。
 
 1. Adobe Campaign開始がこのイベント設定に関連するイベントを受け取ったら、**[!UICONTROL History]**&#x200B;セクションの&#x200B;**[!UICONTROL Latest transactional events]**&#x200B;リンクをクリックして、サードパーティのサービスから送信され、Adobe Campaignで処理された最新のイベントにアクセスできます。
 
