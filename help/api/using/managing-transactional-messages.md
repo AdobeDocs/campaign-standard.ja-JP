@@ -7,10 +7,10 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 translation-type: tm+mt
-source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
+source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
 workflow-type: tm+mt
-source-wordcount: '711'
-ht-degree: 1%
+source-wordcount: '678'
+ht-degree: 3%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 1%
 
 ## トランザクションメッセージについて
 
-イベントを作成したら、このイベントのトリガーをWebサイトに組み込む必要があります。
+トランザクションイベントを作成して公開した後は、このイベントのトリガーをWebサイトに組み込む必要があります。
 
 >[!NOTE]
 >
->イベントの作成と公開については、[キャンペーンドキュメント](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html)を参照してください。
+>イベントの設定については、[このセクション](../../channels/using/configuring-transactional-event.md)を参照してください。
 
 例えば、「買い物かごの放棄」イベントを、顧客が買い物かごで商品を購入する前にWebサイトを離れたときにトリガーするとします。 これを行うには、Web開発者がRESTトランザクションメッセージAPIを使用する必要があります。
 
@@ -48,7 +48,7 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
    (トランザクションメッセージのAPIエンドポイントは、APIプレビュー中も表示されます)。
 
-* **&lt;eventid>**:送信するイベントの種類。このIDは、イベント定義の作成時に生成されます。 [キャンペーンドキュメント](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html)を参照してください。
+* **&lt;eventid>**:送信するイベントの種類。このIDは、イベント設定の作成時に生成されます（[このセクション](../../channels/using/configuring-transactional-event.md#creating-an-event)を参照）。
 
 ### POST要求ヘッダー
 
@@ -67,7 +67,7 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
 ### POST要求機関
 
-イベントデータはJSONPOSTの本文内に含まれます。 イベント構造は定義に応じて異なります。 リソース定義画面のAPIプレビューボタンには、リクエストのサンプルが表示されます。 [キャンペーンドキュメント](https://helpx.adobe.com/campaign/standard/administration/using/configuring-transactional-messaging.html)を参照してください。
+イベントデータはJSONPOSTの本文内に含まれます。 イベント構造は定義に応じて異なります。 リソース定義画面のAPIプレビューボタンには、リクエストのサンプルが表示されます。 [こちらの節](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)を参照してください。
 
 イベントにリンクされたトランザクションメッセージの送信を管理するために、イベントのコンテンツに次のオプションのパラメーターを追加できます。
 
@@ -138,7 +138,7 @@ POSTリクエストへの応答。
 
 * **保留中**:イベントは保留中です。イベントは、トリガーされたときにこのステータスを引き継ぎます。
 * **処理**:イベントは配信待ちです。メッセージに変換中で、メッセージが送信中です。
-* **一時停止**:イベントプロセスを一時停止中です。処理は行われなくなり、Adobe Campaignデータベースのキューに保存されます。 詳しくは、[キャンペーンドキュメント](https://helpx.adobe.com/campaign/standard/channels/using/event-transactional-messages.html#unpublishing-a-transactional-message)を参照してください。
+* **一時停止**:イベントプロセスを一時停止中です。処理は行われなくなり、Adobe Campaignデータベースのキューに保存されます。 詳しくは、[この節](../../channels/using/publishing-transactional-message.md#suspending-a-transactional-message-publication)を参照してください。
 * **処理済み**:イベントが処理され、メッセージが正常に送信されました。
 * **ignored**:このイベントは配信によって無視されました。通常、アドレスが強制隔離の場合です。
 * **deliveryFailed**:イベントの処理中に配信エラーが発生しました。
