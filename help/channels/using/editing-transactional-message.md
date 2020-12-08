@@ -9,23 +9,27 @@ content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: 9ad23468d3d1cf386d9558e6cd2344ea2316fc82
+source-git-commit: caa41d6c727385bd6e77f64750872f191a5ad040
 workflow-type: tm+mt
-source-wordcount: '1582'
-ht-degree: 68%
+source-wordcount: '1488'
+ht-degree: 60%
 
 ---
 
 
 # トランザクションメッセージの編集{#editing-transactional-message}
 
-イベント<!--(the cart abandonment example as explained in [this section](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle))-->を作成して公開すると、対応するトランザクションメッセージが自動的に作成されます。 イベントを設定および公開する手順は、「[トランザクションイベントの設定](../../channels/using/configuring-transactional-event.md)」および「[トランザクションイベントの公開](../../channels/using/publishing-transactional-event.md)」に記載されています。
+イベント<!--(the cart abandonment example as explained in [this section](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle))-->を作成して公開すると、対応するトランザクションメッセージが自動的に作成されます。
+
+イベントを設定および公開する手順は、「[トランザクションイベントの設定](../../channels/using/configuring-transactional-event.md)」および「[トランザクションイベントの公開](../../channels/using/publishing-transactional-event.md)」に記載されています。
 
 このメッセージにアクセス、編集、パーソナライズする手順を以下に説明します。
 
-<!--Event transactional messages do not contain profile information, therefore they are not compatible with fatigue rules (even in the case of an enrichment with profiles). See [Fatigue rules](../../sending/using/fatigue-rules.md#choosing-the-channel).-->
+>[!IMPORTANT]
+>
+>[管理](../../administration/using/users-management.md#functional-administrators)ロールを持つユーザーのみが、トランザクションメッセージにアクセスして編集できます。
 
-メッセージの準備が整ったら、テストおよび発行が可能です。 [トランザクションメッセージライフサイクル](../../channels/using/publishing-transactional-message.md)を参照してください。
+メッセージの準備が整ったら、テストおよび発行が可能です。 [トランザクションメッセージ](../../channels/using/testing-transactional-message.md)と[トランザクションメッセージライフサイクル](../../channels/using/publishing-transactional-message.md)のテストを参照してください。
 
 ## トランザクションメッセージへのアクセス{#accessing-transactional-messages}
 
@@ -38,19 +42,19 @@ ht-degree: 68%
 
 1. 編集するには、選択したメッセージをクリックします。
 
->[!IMPORTANT]
->
->トランザクションメッセージにアクセスするには、**[!UICONTROL Administrators (all units)]**&#x200B;セキュリティグループに属している必要があります。詳しくは、[ユーザー管理](../../administration/using/users-management.md#functional-administrators)を参照してください。
+   ![](assets/message-center_message-board.png)
+
+また、対応するイベント設定画面の左側の領域にあるリンクからトランザクションメッセージに直接アクセスすることもできます。 [イベントのプレビューと公開](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)を参照
 
 ## トランザクションメッセージのパーソナライズ機能{#personalizing-a-transactional-message}
 
-トランザクションメッセージでパーソナライゼーションを設定するには、次の手順に従います。
+トランザクションメッセージを編集してパーソナライズするには、次の手順に従います。
 
 >[!NOTE]
 >
->この節では、**イベントベースの**&#x200B;トランザクションメッセージをパーソナライズする方法を説明します。  イベントベースのトランザクションメッセージを作成するための設定手順は、[このセクション](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages)に記載されています。
+>この節では、**イベントベースの**&#x200B;トランザクションメッセージを編集する方法を説明します。 **プロファイルベースの**&#x200B;トランザクションメッセージの特殊性は、[](#profile-transactional-message-specificities)の下に詳細に記載されています。
 >
->**プロファイルベースの**&#x200B;トランザクションメッセージの特殊性は、[](#profile-transactional-message-specificities)の下に詳細に記載されています。
+>イベントベースのトランザクションメッセージを作成するための設定手順は、[このセクション](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages)に記載されています。
 
 例えば、製品を買い物かごに追加し、購入を経ることなくサイトを離れたWebサイトユーザーに通知を送信するとします。 この例は、[トランザクションメッセージングの動作原則](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle)の節に示されています。
 
@@ -70,7 +74,7 @@ ht-degree: 68%
 
    ![](assets/message-center_7.png)
 
-1. メッセージの内容を拡張するには、イベントをリンクしたテーブルからフィールドを選択して追加します。この例では、**[!UICONTROL Profile]**&#x200B;テーブルの&#x200B;**[!UICONTROL Title (salutation)]**&#x200B;フィールド(**[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**)を選択します。
+1. メッセージの内容を拡張することもできます。 これを行うには、イベント設定にリンクしたテーブルからフィールドを追加します(「[イベントの強化](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)」を参照)。 この例では、**[!UICONTROL Profile]**&#x200B;テーブルから&#x200B;**[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**&#x200B;までの&#x200B;**[!UICONTROL Title (salutation)]**&#x200B;フィールドを選択します。
 
    ![](assets/message-center_7-enrichment.png)
 
@@ -84,15 +88,15 @@ ht-degree: 68%
 
    ![](assets/message-center_9.png)
 
-   パーソナライゼーションフィールドがテストプロファイルに入力された情報と一致しているかどうかを確認できます。詳しくは、[特定のテストプロファイルの定義](../../channels/using/publishing-transactional-message.md#defining-specific-test-profile)を参照してください。
+   パーソナライゼーションフィールドがテストプロファイルに入力された情報と一致しているかどうかを確認できます。詳しくは、[特定のテストプロファイルの定義](../../channels/using/testing-transactional-message.md#defining-specific-test-profile)を参照してください。
 
 ## トランザクションメッセージでの製品リストの使用{#using-product-listings-in-a-transactional-message}
 
-トランザクション用メールコンテンツ内の 1 つ以上のデータコレクションを参照する製品リストを作成できます。例えば、買い物かごの放棄に関するメールでは、ユーザーが Web サイトを離れたときにユーザの買い物かごに含まれていたすべての製品リストを、画像、価格、各製品へのリンクと共に含めることができます。
+トランザクション用の電子メールのコンテンツを編集する場合、1つ以上のデータコレクションを参照する製品リストを作成できます。 例えば、買い物かごの放棄の電子メールでは、ユーザがWebサイトを離れたときに買い物かごに含まれていたすべての商品のリストを、画像、価格、各商品へのリンクと共に含めることができます。
 
 >[!IMPORTANT]
 >
->製品リストは、[E メールデザイナー](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface)インターフェイスを通じてトランザクションのメールメッセージを編集する場合にのみ使用できます。
+>製品リストは、[電子メールデザイナー](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface)インターフェイスを通じてトランザクション電子メールコンテンツを編集する場合に、電子メールチャネルでのみ使用できます。
 
 トランザクションメッセージに放棄された製品のリストを追加するには、次の手順に従います。
 
@@ -204,7 +208,7 @@ ht-degree: 68%
 
    ![](assets/message-center_loop_test-profile_payload.png)
 
-   トランザクションメッセージでのテストプロファイルの定義について詳しくは、[この節](../../channels/using/publishing-transactional-message.md#defining-specific-test-profile)を参照してください。
+   トランザクションメッセージでのテストプロファイルの定義について詳しくは、[この節](../../channels/using/testing-transactional-message.md#defining-specific-test-profile)を参照してください。
 
 ## プロファイルベースのトランザクションメッセージの特殊性{#profile-transactional-message-specificities}
 
@@ -214,9 +218,9 @@ ht-degree: 68%
 
 * プロファイルベースのトランザクションメッセージを作成するための設定手順については、[このセクション](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages)で詳しく説明します。
 
-### プロファイルトランザクションメッセージの編集{#editing-profile-transactional-message}
+<!--### Editing a profile transactional message {#editing-profile-transactional-message}-->
 
-プロファイルトランザクションメッセージの作成、個人化、および公開の手順は、ほとんどイベントトランザクションメッセージの場合と同じです。
+プロファイルトランザクションメッセージの作成、編集および個人設定の手順は、ほとんどイベントトランザクションメッセージの場合と同じです。
 
 相違点を次に示します。
 
@@ -235,29 +239,39 @@ ht-degree: 68%
 
 1. メッセージを発行する前に、変更を保存します。 詳しくは、[トランザクションメッセージの公開](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)を参照してください。
 
-### プロファイルトランザクションメッセージ配信の監視 {#monitoring-a-profile-transactional-message-delivery}
+<!--### Monitoring a profile transactional message delivery {#monitoring-a-profile-transactional-message-delivery}
 
-メッセージが公開され、サイトの統合が完了すると、配信を監視できます。
+Once the message is published and your site integration is done, you can monitor the delivery.
 
-1. メッセージ配信ログを表示するには、**[!UICONTROL Deployment]** ブロックの右下にあるアイコンをクリックします。
+1. To view the message delivery log, click the icon at the bottom right of the **[!UICONTROL Deployment]** block.
 
-   ログへのアクセスについて詳しくは、[配信の監視](../../sending/using/monitoring-a-delivery.md)を参照してください。
+1. Click the **[!UICONTROL Execution list]** tab.
 
-1. 「**[!UICONTROL Sending logs]**」タブを選択します。**[!UICONTROL Status]** 列内の **[!UICONTROL Sent]** は、プロファイルがオプトインしたことを示します。
+   ![](assets/message-center_execution_tab.png)
+
+1. Select the latest execution delivery.
+
+   An **execution delivery** is a non-actionable and non-functional technical message created once a month for each transactional message, and each time a transactional message is edited and published again
+
+1. Select the **[!UICONTROL Sending logs]** tab. In the **[!UICONTROL Status]** column, **[!UICONTROL Sent]** indicates that a profile has opted in.
 
    ![](assets/message-center_marketing_sending_logs.png)
 
-1. 「**[!UICONTROL Exclusions logs]**」タブを選択すると、メッセージターゲットから除外された表示受信者(ブロックリスト上のアドレスなど)が表示されます。
+1. Select the **[!UICONTROL Exclusions logs]** tab to view recipients who have been excluded from the message target, such as addresses on denylist.
 
    ![](assets/message-center_marketing_exclusion_logs.png)
 
-オプトアウトしたプロファイルの場合、**[!UICONTROL Address on denylist]** タイポロジルールは対応する受信者を除外します。
+>[!NOTE]
+>
+>For more information on accessing and using the logs, see [Monitoring a delivery](../../sending/using/monitoring-a-delivery.md).
 
-このルールは、**[!UICONTROL Profile]** テーブルに基づくすべてのトランザクションメッセージに適用される特定のタイポロジの一部です。
+For any profile that has opted out, the **[!UICONTROL Address on denylist]** typology rule excluded the corresponding recipient.
+
+This rule is part of a specific typology that applies to all transactional messages based on the **[!UICONTROL Profile]** table.
 
 ![](assets/message-center_marketing_typology.png)
 
-**関連トピック**：
+**Related topics**:
 
-* 統合イベントのトリガー(../../channels/using/getting-started-with-transactional-msg.md#integrate-イベント-trigger)
-* [タイポロジとタイポロジルールについて](../../sending/using/about-typology-rules.md)
+* [Integrate the event triggering](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)
+* [About typologies and typology rules](../../sending/using/about-typology-rules.md)-->
