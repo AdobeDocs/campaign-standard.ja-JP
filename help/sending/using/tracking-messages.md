@@ -7,9 +7,9 @@ audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 79e172d08557bfeebd088d8a0e8756c5965318cb
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '487'
 ht-degree: 35%
 
 ---
@@ -17,13 +17,13 @@ ht-degree: 35%
 
 # メッセージのトラッキング{#tracking-messages}
 
-## 追跡について {#about-tracking}
+## 追跡について{#about-tracking}
 
 Adobe Campaignでは、トラッキング機能のおかげで、配信受信者の動作を追跡できます。 そのために、Adobe Campaign ではセッション Cookie および永続 Cookie を使用します。
 
 認証リクエスト（ページ上など）を通じて、サイトにWebトラッキングツールが装備されていることをユーザーに通知し、cookieの使用を許可するチェックボックスを追加したり、最初のページの上部にバナーを追加したりできます。 ポップアップウィンドウはブラウザーでブロックされていることが多いので、避ける必要があります。
 
-追跡情報は、のデータベースの各連絡先に対して使用でき **[!UICONTROL integrated customer profiles]**&#x200B;ます。 詳しくは、[この節](../../audiences/using/integrated-customer-profile.md)を参照してください。
+**[!UICONTROL integrated customer profiles]**&#x200B;へのデータベースの各連絡先について、トラッキング情報を利用できます。 詳しくは、[この節](../../audiences/using/integrated-customer-profile.md)を参照してください。
 
 Adobe Campaign は、次の 2 つのタイプの Cookie を使用します。
 
@@ -38,17 +38,17 @@ Adobe Campaign Standardを使用した追跡では、次の機能にアクセス
         <a href="../../administration/using/configuring-email-channel.md#tracking-parameters"><img width="60px" alt="conditions" src="assets/icon_email_parameters.png"/></a>
     </td>
     <td valign="top">
-        <a href="https://helpx.adobe.com/campaign/kb/push-tracking.html"><img width="60px" alt="conditions" src="assets/icon_push_parameters.png"/></a>
+        <a href="https://helpx.adobe.com/campaign/kb/push-tracking.html"><img width="60px" alt="条件" src="assets/icon_push_parameters.png"/></a>
     </td>
     <td valign="top">
-        <a href="../../designing/using/links.md#about-tracked-urls"><img width="60px" alt="conditions" src="assets/icon_url.png"/></a>
+        <a href="../../designing/using/links.md#about-tracked-urls"><img width="60px" alt="条件" src="assets/icon_url.png"/></a>
     </td>
         <td valign="top">
-          <a href="../../sending/using/tracking-messages.md#tracking-logs"><img width="60px" alt="conditions" src="assets/icon_log.png"/></a>
+          <a href="../../sending/using/tracking-messages.md#tracking-logs"><img width="60px" alt="条件" src="assets/icon_log.png"/></a>
     </td>
     </td>
     <td valign="top">
-          <a href="../../reporting/using/tracking-indicators.md"><img width="60px" alt="conditions" src="assets/icon_report.png"/></a>
+          <a href="../../reporting/using/tracking-indicators.md"><img width="60px" alt="条件" src="assets/icon_report.png"/></a>
 </tr>
 <tr>
 <td>E メールトラッキング</td>
@@ -61,21 +61,21 @@ Adobe Campaign Standardを使用した追跡では、次の機能にアクセス
 
 ## トラッキングログ {#tracking-logs}
 
-The **[!UICONTROL Tracking logs]** tab lists the tracking history for this delivery. このタブには、Adobe Campaignが追跡しているすべてのURLなど、送信されたメッセージの追跡情報が表示されます。 このタブの追跡情報は、10分ごとに更新されます。
+**[!UICONTROL Tracking logs]**&#x200B;タブは、この配信のトラッキング履歴をリストします。 このタブには、Adobe Campaignが追跡しているすべてのURLなど、送信されたメッセージの追跡情報が表示されます。 このタブの追跡情報は、10分ごとに更新されます。
 
 >[!NOTE]
 >
->配信の追跡が有効になっていない場合、このタブは表示されません。 トラッキングログは、 **電子メール** / **プッシュ通知** チャネルでのみ使用できます。
+>配信の追跡が有効になっていない場合、このタブは表示されません。 トラッキングログは、**電子メール**&#x200B;と&#x200B;**プッシュ通知**&#x200B;のチャネルでのみ使用できます。
 
 ![](assets/tracking_logs.png)
 
 上の例では、次の受信者があります。
 
 * メッセージを開きました。
+* ミラーページのリンクをクリックしました。
 * 「詳細情報」カスタムリンクをクリック。
-* 購読解除とミラーページのリンクをクリックしました。
 
-この **[!UICONTROL Type]** 列に指定できる値は次のとおりです。
+**[!UICONTROL Type]**&#x200B;列には、次の値を指定できます。
 
 * **[!UICONTROL Email click]**:受信者がカスタムリンクをクリックした。
 * **[!UICONTROL Mirror page]**:受信者がミラーページへのリンクをクリックしました。
@@ -84,14 +84,16 @@ The **[!UICONTROL Tracking logs]** tab lists the tracking history for this deliv
 
 >[!NOTE]
 >
->プッシュ通知 **チャネルの場合** 、モバイル通知のクリックのみが追跡されます。 この場合、値はになり **[!UICONTROL Click on mobile notification]**&#x200B;ます。
+>**プッシュ通知**&#x200B;チャネルでは、モバイル通知のクリックのみが追跡されます。 この場合、値は&#x200B;**[!UICONTROL Click on mobile notification]**&#x200B;になります。
 
-トラッキングリンクの挿入方法について詳しくは、 [このページを参照してください](../../designing/using/links.md#inserting-a-link)。
+トラッキングリンクの挿入方法について詳しくは、[このページ](../../designing/using/links.md#inserting-a-link)を参照してください。
+
+**[!UICONTROL Tracking indicators]**&#x200B;レポートには、電子メールメッセージの受信後の行動を追跡するための主要なインジケーターが含まれます。 詳しくは、この[ページ](../../reporting/using/tracking-indicators.md)を参照してください。
 
 ## トラッキングされる URL {#tracked-urls}
 
-この **[!UICONTROL Tracked URLs]** タブでは、送信されたメッセージに含まれるURL（URLタイプとソースURLなど）を再グループ化します。
+「**[!UICONTROL Tracked URLs]**」タブは、送信されたメッセージに含まれるURLを、そのURLタイプとソースURLを含めて再グループ化します。
 
 ![](assets/sending_delivery6.png)
 
-For more on tracking links, refer to [this section](../../designing/using/links.md#about-tracked-urls).
+リンクのトラッキングについて詳しくは、[このセクション](../../designing/using/links.md#about-tracked-urls)を参照してください。
