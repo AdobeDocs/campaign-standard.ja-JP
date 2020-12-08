@@ -7,9 +7,9 @@ audience: designing
 content-type: reference
 topic-tags: accessibility
 translation-type: tm+mt
-source-git-commit: c10633d1371cd6475a573a8c851c5f7e364baf62
+source-git-commit: 6632216ce4697892ea08b32641c9c026482ca713
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '671'
 ht-degree: 2%
 
 ---
@@ -66,10 +66,6 @@ Adobe Campaign Standardでは、次のような様々なデバイス上で電子
 ![](assets/accessibility_6.png)
 
 ## コンテキストヘルプ{#contextual-help}
-
->[!NOTE]
->
-> コンテキストヘルプは、電子メールデザイナーを使用している場合にのみ利用できます。
 
 コンテキストヘルプは、要求された様々なフィールドや機能をより深く理解するのに役立ちます。 また、製品ドキュメントに関する情報もガイドし、選択した機能に関する詳細情報を確認できます。
 
