@@ -7,9 +7,9 @@ audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
 translation-type: tm+mt
-source-git-commit: a0ad969c86a5047f3f967a21fdc2d6040d7d939f
+source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '242'
 ht-degree: 16%
 
 ---
@@ -57,5 +57,4 @@ ht-degree: 16%
 
 >[!NOTE]
 >
->イベントで使用されているカスタムリソースのフィールドが変更または削除された場合、対応するイベントは自動的に非公開になります。「[トランザクションメッセージの設定](../../administration/using/configuring-transactional-messaging.md)」を参照してください。
-
+>イベントで使用されているカスタムリソースのフィールドが変更または削除された場合、対応するイベントは自動的に非公開になります。[トランザクションイベントの非公開](../../channels/using/publishing-transactional-event.md#unpublishing-an-event)を参照してください。
