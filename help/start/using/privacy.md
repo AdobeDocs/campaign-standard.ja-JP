@@ -2,15 +2,15 @@
 solution: Campaign Standard
 product: campaign
 title: プライバシーと同意
-description: Adobe Campaign Standardでのプライバシー、個人データ、同意管理について説明します。
+description: Adobe Campaign Standard でのプライバシー、個人データ、同意管理について説明します。
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c76f4b6e3bc0feb50e5776836552fdceaff61ea7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1657'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Adobe Campaign は、個人情報や機密データを含む膨大な量のデ�
 
 >[!NOTE]
 >
->For more on how GDPR, CCPA, PDPA, and LGPD apply to Adobe Campaign, see [this section](../../start/using/privacy-management.md#privacy-management-regulations).
+>GDPR、CCPA、PDPA、LGPD が Adobe Campaign にどのように適用されるかについては、[この節](../../start/using/privacy-management.md#privacy-management-regulations)を参照してください。
 
 ### Adobe Experience Cloud プライバシー {#experience-cloud-privacy}
 
@@ -84,31 +84,31 @@ Campaign を、[Audience Destinations サービス](../../audiences/using/aep-ab
 
 したがって、個人データを収集し共有する会社はデータ管理者で、そのクライアントはデータ主体です。Adobe Campaign は、お客様の指示に従って個人データを処理する際に、データ処理者として機能します。[プライバシーリクエスト](#privacy-requests)を管理する場合など、データ主体との関係を処理するのはデータ管理者としての責任であることに注意してください。
 
-### 使用事例シナリオ {#use-case-scenario}
+### 使用例のシナリオ{#use-case-scenario}
 
-以下は、GDPRの顧客体験の高度な使用例です。
+さまざまなペルソナがどのように関わり合っているかを説明するため、GDPR の顧客体験の高レベルの使用例を以下に示します。
 
-この例では、航空会社の会社はAdobe Campaignの顧客です。 This company is the **Data Controller** and all the clients of the airline company are **Data Subjects**. この場合、Lauraは航空会社の顧客です。
+この例では、航空会社が Adobe Campaign の顧客です。 この会社が&#x200B;**データ管理者**&#x200B;で、この航空会社のすべての利用者が&#x200B;**データ主体**&#x200B;です。ここで、Laura はこの航空会社の利用者です。
 
-この例は次の関係者で構成されます。
+この例のペルソナは以下の通りです。
 
-* **Laura** は&#x200B;**データ主体**&#x200B;で、彼女は航空会社の会社からメッセージを受け取る受信者です。 Lauraは頻繁にチラシになる可能性がありますが、ある時点では、航空会社の会社からの個人向けの広告やマーケティングのメッセージは望まないと判断する場合もあります。 そのため、航空会社に（所定のプロセスに基づいて）リピーター番号を削除するよう要求します。
+* **Laura** は&#x200B;**データ主体**&#x200B;で、航空会社からメッセージを受け取る受信者です。Laura はリピーターですが、ある時点で、航空会社からのパーソナライズされた広告やマーケティングメッセージの受信を希望しないことにしました。そのため、航空会社に（所定のプロセスに基づいて）リピーター番号を削除するよう要求します。
 
-* **Anne** は、航空会社の会社の **データコントローラー** です。 Laura からの要求を受け取り、このデータ主体を識別するための有意な ID を取得して、要求内容を Adobe Campaign に登録します。
+* **Anne** は航空会社の&#x200B;**データ管理者**&#x200B;です。Laura からの要求を受け取り、このデータ主体を識別するための有意な ID を取得して、要求内容を Adobe Campaign に登録します。
 
-* **Adobe Campaign** は **Data Processor**。
+* **Adobe Campaign** は&#x200B;**データ処理者**&#x200B;です。
 
 ![](assets/privacy-gdpr-flow.png)
 
 この例での一般的なフローを以下に示します。
 
-1. The **Data Subject** (Laura) sends a GDPR request to the **Data Controller**, via email, customer care or a web portal.
+1. **データ主体**（Laura）は GDPR リクエストを&#x200B;**データ管理者**&#x200B;に E メール、カスタマーケア、Web ポータルのいずれかを利用して送付します。
 
-1. **Data Controller** (Anne)は、GDPR要求をインターフェイス経由またはAPIを使用してキャンペーンにプッシュします。
+1. **データ管理者**（Anne）はこの GDPR リクエストをインターフェイスまたは API を使用して Campaign に登録します。
 
-1. Once the **Data Processor** (Adobe Campaign) receives the information, it takes action on the GDPR request and sends a response or acknowledgement to the **Data Controller** (Anne).
+1. **データ処理者**（Adobe Campaign）が情報を受け取ると、GDPR リクエストに対する処理を実行し、応答または確認通知を&#x200B;**データ管理者**（Anne）に送信します。
 
-1. The **Data Controller** (Anne) then reviews the information and sends it back to the **Data Subject** (Laura).
+1. **データ管理者**（Anne）は情報を受け取り、それを&#x200B;**データ主体**（Laura）に返します。
 
 ## データの取得 {#data-acquisition}
 
@@ -149,9 +149,9 @@ Adobe Campaign は、特定のプライバシーリクエストに対するデ�
 
 * 「**忘れられる権利**（削除リクエスト）」は、データ主体に対して、データ管理者が個人データを消去する権限を与えます。
 
-The **Access** and **Delete** requests are presented in [this section](../../start/using/privacy-management.md#right-access-forgotten).
+**アクセス**&#x200B;要求と&#x200B;**削除**&#x200B;要求は、[この節](../../start/using/privacy-management.md#right-access-forgotten)に表示されます。
 
-これらのリクエストを作成するための実装手順については、[この節](../../start/using/privacy-requests.md)で詳しく説明します。チュートリアルは[こちら](https://docs.adobe.com/content/help/ja_JP/campaign-standard-learn/tutorials/privacy/privacy-overview.html)からもご利用いただけます。
+これらのリクエストを作成するための実装手順については、[この節](../../start/using/privacy-requests.md)で詳しく説明します。チュートリアルは[こちら](https://docs.adobe.com/content/help/ja/campaign-standard-learn/tutorials/privacy/privacy-overview.html)からもご利用いただけます。
 
 ## トラッキング機能 {#tracking-capabilities}
 
