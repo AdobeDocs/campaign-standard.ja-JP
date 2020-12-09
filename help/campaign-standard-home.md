@@ -5,9 +5,9 @@ product: campaign
 title: Adobe Campaign Standard 製品ドキュメント
 description: Campaign Standard 製品ドキュメントの参照
 topic: Premium
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '216'
 ht-degree: 100%
 
@@ -76,4 +76,4 @@ ht-degree: 100%
 | [実装ガイド](https://helpx.adobe.com/jp/campaign/kb/campaign-standard-implementation-guide.html) | [エラーメッセージのリスト](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [リリース計画](rn/using/release-planning.md) | [Campaign データモデル](developing/using/datamodel-introduction.md) |
 | [廃止および削除された機能](rn/using/deprecated-features.md)) | [マルチソリューションガイド](integrating/using/get-started-campaign-integrations.md) |
-| [Campaign Standard の基礎知識](start/using/about-campaign-standard.md) | [テクニカルノート](https://helpx.adobe.com/jp/campaign/kb/acs-article-list.html) |
+| [Campaign Standard の基礎知識](start/using/about-campaign-standard.md) | [テクニカルノート](https://helpx.adobe.com/campaign/kb/acs-article-list.html) |
