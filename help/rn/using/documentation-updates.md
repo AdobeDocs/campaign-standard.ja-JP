@@ -21,7 +21,7 @@ ht-degree: 97%
 
 ## 2020 年 12 月 {#doc-updates-december-2020}
 
-「プライバシー」セクションは移動されました。 [詳細を表示](../../start/using/privacy.md)
+プライバシー節は移動しました。 [詳細を表示](../../start/using/privacy.md)
 
 「トランザクションメッセージング」セクションが再編成、改善され、完全なプロセスを説明するための[拡張グラフ](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle)や[エンドツーエンドの使用例](../../channels/using/transactional-messaging-use-case.md)などの「はじめに」セクションが明確になりました。 [詳細を表示](../../channels/using/getting-started-with-transactional-msg.md)
 
@@ -29,13 +29,13 @@ Adobe Campaign Standardのワークスペースでのアクセシビリティの
 
 ## 2020 年 11 月 {#doc-updates-november-2020}
 
-個人データとペルソナ節には、プライバシーに関して様々な個人がどのように関わっているかを示す、使用例のシナリオが追加更新されています。 [詳細を表示](../../start/using/privacy.md#use-case-scenario)
+個人データとペルソナの節が更新され、プライバシーに関して様々なペルソナがどのように関わっているかを示す使用例のシナリオが追加されました。 [詳細を表示](../../start/using/privacy.md#use-case-scenario)
 
-プライバシーに関するよくある質問の一覧を記載した、新しい節を追加しました。 [詳細を表示](../../start/using/privacy-faq.md)
+プライバシーに関してよくある質問の一覧を記載した新しい節を追加しました。 [詳細を表示](../../start/using/privacy-faq.md)
 
-プライバシー節は移動し、[プライバシー管理](../../start/using/privacy-management.md)と[プライバシーリクエストの管理](../../start/using/privacy-requests.md)の 2 つの新しいページが追加されました。
+「プライバシー」節は移動し、[プライバシー管理](../../start/using/privacy-management.md)と[プライバシーリクエストの管理](../../start/using/privacy-requests.md)の 2 つの新しいページが追加されました。
 
-プライバシー管理に関連するデータマッピング検証エラーおよびトラブルシューティングの方法に関する情報が、「Adobe Experience PlatformのData Connector」セクションに追加されました。 [詳細を表示](../../developing/using/aep-mapping-activation.md)
+プライバシー管理に関連するデータマッピング検証エラーおよびトラブルシューティング方法に関する情報が、Adobe Experience Platform Data Connector 節に追加されました。 [詳細を表示](../../developing/using/aep-mapping-activation.md)
 
 ## リリース 20.4 - 2020 年 10 月 {#release-20-4---october-2020}
 
