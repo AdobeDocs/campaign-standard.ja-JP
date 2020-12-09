@@ -3,13 +3,14 @@ solution: Campaign Standard
 product: campaign
 audience: end-user
 user-guide-title: Campaign Standard
+user-guide-description: 'Campaign Standardの使用に必要な主な機能、タスク、設定、その他のリソースに関するヘルプセンター。 '
 breadcrumb-title: Campaign Standard
 title: Campaign Standard ガイド
 translation-type: tm+mt
-source-git-commit: c276c468627208b584a0342414cdbe382e349f50
+source-git-commit: f4a42e6f6bfcc32f315f8a82f2b77b8169a56d95
 workflow-type: tm+mt
-source-wordcount: '1687'
-ht-degree: 98%
+source-wordcount: '1703'
+ht-degree: 97%
 
 ---
 
@@ -43,7 +44,7 @@ ht-degree: 98%
       + [プライバシーと同意](start/using/privacy.md)
       + [プライバシーの管理](start/using/privacy-management.md)
       + [プライバシーリクエスト](start/using/privacy-requests.md)
-      + [プライバシー FAQ](start/using/privacy-faq.md)
+      + [プライバシーに関する FAQ](start/using/privacy-faq.md)
 + プロファイルとオーディエンス{#profiles-and-audiences}
    + [プロファイルとオーディエンスの概要](audiences/using/get-started-profiles-and-audiences.md)
    + プロファイルの管理{#managing-profiles}
