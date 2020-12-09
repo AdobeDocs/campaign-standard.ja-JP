@@ -6,28 +6,28 @@ description: プライバシーを管理する Adobe Campaign Standard の機能
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a9afa91302684ddd37a94a9999d90bf8c8e7abee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '964'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 
 # プライバシーの管理 {#privacy-management}
 
-Adobe Campaign offers a set of tools to help you comply with [Privacy regulations](#privacy-management-regulations) (including GDPR, CCPA, PDPA, LGPD).
+Adobe Campaign には、[プライバシー規制](#privacy-management-regulations)（GDPR、CCPA、PDPA、LGPD など）を遵守するのに役立つ一連のツールが用意されています。
 
-GDPRや他のプライバシー規制に対する対応を確保するために、Adobe Campaignが提供する5つの主な機能を次に示します。
+GDPR などのプライバシー規制に対する対応するために Adobe Campaign で提供されている 5 つの主な機能を次に示します。
 
 ![](assets/privacy-gdpr-use-cases.png)
 
-* **アクセス権**
+* **アクセスする権利**
 
-* **削除権**
+* **削除する権利**
 
-詳しくは、「アクセス [権」および「忘れられる権利](#right-access-forgotten)」を参照してください。
+詳しくは、[アクセスする権利と忘れられる権利](#right-access-forgotten)を参照してください。
 
 * **同意管理**
 
@@ -35,20 +35,20 @@ GDPRや他のプライバシー規制に対する対応を確保するために�
 
 * **権限管理**
 
-詳しくは、「 [同意、保持、役割](#consent-retention-roles)」を参照してください。
+詳しくは、[同意、リテンション、役割](#consent-retention-roles)を参照してください。
 
 <!--This section presents general information on what Privacy management is and the features provided by Adobe Campaign to manage the [Right to Access and Right to be Forgotten](#right-access-forgotten).
 
 It also contains information on important features to manage Privacy ([consent, data retention and user roles](#consent-retention-roles)), as well as best practices to help you with your Privacy compliance when using Adobe Campaign.-->
 
-## Regulations on Privacy management {#privacy-management-regulations}
+## プライバシー管理に関する規制 {#privacy-management-regulations}
 
-Adobe Campaign の機能は、次の規則の遵守に役立ちます。
+Adobe Campaign の機能により、次の規制を遵守できるようになります。
 
-* **GDPR**（[EU 一般データ保護規則](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_en)）は欧州連合（EU）で施行されるプライバシー保護法律で、EU 諸国のデータ保護要件を現代の状況に合わせて整合化することを目的としています。GDPRに関する一般的な情報は、次のリンクに従って確認してください。
+* **GDPR**（[一般データ保護規則](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_en)）は欧州連合（EU）で施行されるプライバシー保護法律で、EU 諸国のデータ保護要件を現代の状況に合わせて整合化することを目的としています。GDPR に関する一般的な情報は、次のリンクから確認してください。
 
-   * https://www.adobe.com/privacy/general-data-protection-regulation.html
-   * https://www.adobe.com/marketing-cloud/campaign/general-data-protection-regulation.html
+   * https://www.adobe.com/jp/privacy/general-data-protection-regulation.html
+   * https://www.adobe.com/jp/marketing-cloud/campaign/general-data-protection-regulation.html
 
 * **CCPA**（[カリフォルニア州消費者プライバシー法](https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&amp;division=3.&amp;title=1.81.5.&amp;part=4.&amp;chapter=&amp;article=)）は、カリフォルニア州民に個人情報に関する新しい権利を提供し、カリフォルニア州でビジネスをおこなう特定の事業者に対してデータ保護の責任を課します。
 * **PDPA**（[個人情報保護法](https://secureprivacy.ai/thailand-pdpa-summary-what-businesses-need-to-know/)）は、新しいプライバシー法で、タイのデータ保護要件を現代の状況に合わせて整合化することを目的としています。
