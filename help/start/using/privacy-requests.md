@@ -6,9 +6,9 @@ description: Adobe Campaign Standard でプライバシーリクエストを管�
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1711'
 ht-degree: 100%
 
@@ -165,7 +165,7 @@ Core Privacy Service は、2 段階プロセスをサポートしていません
 
 デフォルトでは、2 段階プロセスが有効になっています。
 
-このモードを変更するには、**[!UICONTROL Edit properties]**」をクリックし、 **[!UICONTROL Privacy Requests]** 画面の右上隅にある「**[!UICONTROL Activate the 2-step process]**」オプションの選択を解除します。
+このモードを変更するには、「**[!UICONTROL Edit properties]**」をクリックし、 **[!UICONTROL Privacy Requests]** 画面の右上隅にある「**[!UICONTROL Activate the 2-step process]**」オプションの選択を解除します。
 
 ![](assets/privacy-disable-2-step-process.png)
 
