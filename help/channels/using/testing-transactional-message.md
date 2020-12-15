@@ -1,17 +1,17 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: イベントトランザクションメッセージ
-description: イベントトランザクションメッセージを作成して公開する方法について説明します。
+title: トランザクションメッセージのテスト
+description: Adobe Campaignでトランザクションメッセージをテストする方法を説明します。
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: caa41d6c727385bd6e77f64750872f191a5ad040
+source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 44%
+source-wordcount: '278'
+ht-degree: 41%
 
 ---
 
