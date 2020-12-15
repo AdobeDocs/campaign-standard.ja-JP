@@ -2,15 +2,15 @@
 solution: Campaign Standard
 product: campaign
 title: トランザクションプッシュ通知
-description: トランザクションプッシュを作成して公開する方法を説明します。         notification.
+description: Adobe Campaign Standardでトランザクションプッシュ通知を送信する方法を説明します。
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: caa41d6c727385bd6e77f64750872f191a5ad040
+source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
 workflow-type: tm+mt
-source-wordcount: '1335'
+source-wordcount: '1336'
 ht-degree: 4%
 
 ---
