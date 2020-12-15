@@ -1,17 +1,17 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: イベントトランザクションメッセージ
-description: イベントトランザクションメッセージを作成して公開する方法について説明します。
+title: トランザクション・メッセージングの実行と監視
+description: トランザクションメッセージングの実行について説明し、トランザクションメッセージを監視する方法を確認します。
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: c276c468627208b584a0342414cdbe382e349f50
+source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
 workflow-type: tm+mt
-source-wordcount: '736'
-ht-degree: 65%
+source-wordcount: '740'
+ht-degree: 62%
 
 ---
 
