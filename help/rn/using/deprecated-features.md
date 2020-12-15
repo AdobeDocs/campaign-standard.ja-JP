@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-deprecated-features
 translation-type: tm+mt
-source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
+source-git-commit: 7b1d74760a3c33e4c1c74fe5b4512392b550379b
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 90%
+source-wordcount: '707'
+ht-degree: 85%
 
 ---
 
@@ -40,6 +40,18 @@ Campaign Standard 機能の差し迫った削除／置換を伝達するため�
 
 <table> 
  <thead> 
+ <tr> 
+   <th> <strong>予測件名行</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p> 2020年12月16日以降、Predictive Subject Line機能は非推奨となりました。</p><br/>
+   <p>AIを利用した電子メール機能を活用して、過去のエンゲージメント指標に基づいて、オープン率、最適な送信時間、および確率変化を分析および予測することをお勧めします。 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html">詳細情報</a></p></br>
+     <p>
+     <em>ターゲットの削除：2021年4月</em></p>
+     </td> 
+  </tr> 
   <tr> 
    <th> <strong>SDK v4 を使用したプッシュ通知</strong><br /> </th> 
   </tr> 
@@ -65,7 +77,7 @@ Campaign Standard 機能の差し迫った削除／置換を伝達するため�
    <td> <p>19.4 リリース以降、アクセス要求および削除要求に対する Campaign API およびインターフェイスの使用は廃止されます。2 段階のプロファイルの削除は使用できません。 <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Adobe Privacy Core Service</a> を使用します。</p></br>
    <p><a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=en">プライバシーリクエストの管理</a>も参照してください。</p>
   <p> 
-  <em>ターゲットの削除予定日：2021 年</em></p>
+  <em>削除予定日：2021 年 4 月</em></p>
    </td> 
   </tr> 
  </tbody> 
