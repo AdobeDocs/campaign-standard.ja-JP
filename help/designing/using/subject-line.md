@@ -7,17 +7,17 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 1e7359db2de1a9c420af33ac85c0597c098ae3f8
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 10%
+source-wordcount: '338'
+ht-degree: 11%
 
 ---
 
 
-# 電子メールの件名行と送信者の定義{#defining-the-subject-line-of-an-email}
+# 電子メール{#defining-the-subject-line-of-an-email}の件名行と送信者の定義
 
-## Defining the subject line of an email {#subject-line}
+## 電子メールの件名行の定義{#subject-line}
 
 メッセージの件名は、メッセージの準備と送信を行うために必須です。
 
@@ -26,27 +26,26 @@ ht-degree: 10%
 >件名行が空の場合は、メッセージダッシュボードと電子メールデザイナーに警告が表示されます。
 
 1. E メールの作成.
-1. 電子メールデザイナホームページの **[!UICONTROL Properties]** タブに移動します（ホームアイコンからアクセスできます）。
-1. Fill in the **[!UICONTROL Subject]** section.
+1. 電子メールデザイナーホームページの&#x200B;**[!UICONTROL Properties]**&#x200B;タブに移動します（ホームアイコンからアクセスできます）。
+1. **[!UICONTROL Subject]**&#x200B;セクションに入力します。
 
    ![](assets/email_designer_subject.png)
 
-1. 対応するアイコンをクリックして、パーソナライゼーションフィールド、コンテンツブロックおよび動的コンテンツを件名行に追加することもできます。 For more on this, see [Personalization](../../designing/using/personalization.md).
-1. 送信する前に、電子メールの開封率の見積もりを得るために、別の件名行を試すことができます。 詳しくは、「電子メールの件名行の [テスト](../../sending/using/testing-subject-line-email.md)」を参照してください。
+1. 対応するアイコンをクリックして、パーソナライゼーションフィールド、コンテンツブロックおよび動的コンテンツを件名行に追加することもできます。 詳しくは、[パーソナライゼーション](../../designing/using/personalization.md)を参照してください。
 
-## 電子メールの電子メール送信者の定義 {#email-sender}
+## 電子メールの電子メール送信者の定義{#email-sender}
 
-送信されるメッセージのヘッダーに表示される送信者の名前を定義するには、電子メールデザイナーホームページの **[!UICONTROL Properties]** タブに移動します（ホームアイコンからアクセスできます）。
+送信されるメッセージのヘッダーに表示される送信者の名前を定義するには、Email Designerホームページの&#x200B;**[!UICONTROL Properties]**&#x200B;タブに移動します（ホームアイコンからアクセスできます）。
 
 ![](assets/delivery_content_edition16.png)
 
-* この **[!UICONTROL From: name]** フィールドには、送信者名を入力できます。 デフォルトでは、デフォルトの **送信者名** (Sender name)ブロックが自動的にフィールドに入力されます。 デフォルトの送信者の電子メールアドレスと送信者の名前は、詳細メニューの下にあるAdobe Campaignロゴから **[!UICONTROL Brands]** アクセスできるように定義され **[!UICONTROL Administration > Instance settings > Brand configuration]** ます。
+* **[!UICONTROL From: name]**&#x200B;フィールドには、送信者名を入力できます。 デフォルトでは、デフォルトの&#x200B;**送信者名**&#x200B;ブロックが自動的にフィールドに入力されます。 デフォルトの送信者の電子メールアドレスと送信者の名前は、**[!UICONTROL Brands]**&#x200B;に定義されており、詳細設定メニュー&#x200B;**[!UICONTROL Administration > Instance settings > Brand configuration]**&#x200B;の下にあるAdobe Campaignロゴからアクセスできます。
 
-   送信者の名前は、 **送信者の名前** ブロックをクリックして変更できます。 フィールドが編集可能になり、使用する名前を入力できます。
+   送信者名は、**送信者名**&#x200B;ブロックをクリックして変更できます。 フィールドが編集可能になり、使用する名前を入力できます。
 
-   このフィールドはパーソナライズできます。 これを行うには、送信者名の下のアイコンをクリックして、パーソナライゼーションフィールド、コンテンツブロックおよび動的コンテンツを追加します。 For more on this, see [Personalization](../../designing/using/personalization.md).
+   このフィールドはパーソナライズできます。 これを行うには、送信者名の下のアイコンをクリックして、パーソナライゼーションフィールド、コンテンツブロックおよび動的コンテンツを追加します。 詳しくは、[パーソナライゼーション](../../designing/using/personalization.md)を参照してください。
 
-* このセクションでは **[!UICONTROL From: email address]** フィールドを編集できません。 ダッシュボードから電子メールのプロパティを編集することで、変更できます。 詳しくは、電子メールのアドバンスパラメーターの [リストを参照してください](../../administration/using/configuring-email-channel.md#advanced-parameters)。
+* **[!UICONTROL From: email address]**&#x200B;フィールドは、このセクションでは編集できません。 ダッシュボードから電子メールのプロパティを編集することで、変更できます。 詳しくは、[電子メールの詳細リスト](../../administration/using/configuring-email-channel.md#advanced-parameters)のパラメーターのを参照してください。
 
 >[!NOTE]
 >
