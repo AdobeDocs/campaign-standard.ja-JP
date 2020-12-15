@@ -1,21 +1,17 @@
 ---
-title: トランザクションメッセージの設定
-description: トランザクションメッセージを設定する方法について説明します。
-page-status-flag: never-activated
-uuid: 4caeadbe-f4a7-43ce-986d-e99fa9ca0d0d
-contentOwner: sauviat
-products: SG_CAMPAIGN/STANDARD
-audience: administration
+solution: Campaign Standard
+product: campaign
+title: トランザクションメッセージの使用例
+description: Adobe Campaignトランザクションメッセージング機能のエンドツーエンドの例を見つけ出します。
+audience: channels
 content-type: reference
-topic-tags: configuring-channels
-discoiquuid: 3f968556-e774-43dc-a0b8-7188d7665fbc
-internal: n
-snippet: y
+topic-tags: transactional-messaging
+context-tags: null
 translation-type: tm+mt
-source-git-commit: caa41d6c727385bd6e77f64750872f191a5ad040
+source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 3%
+source-wordcount: '504'
+ht-degree: 2%
 
 ---
 
