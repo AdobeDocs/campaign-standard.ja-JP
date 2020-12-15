@@ -1,16 +1,16 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: トランザクションメッセージの設定
-description: トランザクションメッセージを設定する方法について説明します。
-audience: administration
+title: トランザクションイベントの設定
+description: Adobe Campaignでトランザクションイベントを設定する方法を説明します。
+audience: channels
 content-type: reference
-topic-tags: configuring-channels
+topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: caa41d6c727385bd6e77f64750872f191a5ad040
+source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
 workflow-type: tm+mt
-source-wordcount: '1669'
+source-wordcount: '1672'
 ht-degree: 6%
 
 ---
@@ -28,7 +28,7 @@ Adobe Campaign付きのトランザクションメッセージを送信するに
 
 設定が完了したら、イベントを公開する必要があります。 詳しくは、[トランザクションイベントの公開](../../channels/using/publishing-transactional-event.md)を参照してください。
 
-## イベントの作成{#creating-an-event}
+## イベントの作成 {#creating-an-event}
 
 開始するには、必要に応じてイベントを作成します。
 
@@ -50,7 +50,7 @@ Adobe Campaign付きのトランザクションメッセージを送信するに
 
 >[!NOTE]
 >
->リアルタイムイベントの数は、プラットフォームに影響を与える可能性があります。 最適なパフォーマンスを確保するために、未使用のリアルタイムイベントを削除してください。 「[イベントの削除](../../channels/using/publishing-transactional-event.md#deleting-an-event)」を参照してください。
+>トランザクションイベントの数がプラットフォームに影響を与える可能性があります。 最適なパフォーマンスを得るために、未使用のイベントは必ず削除してください。 「[イベントの削除](../../channels/using/publishing-transactional-event.md#deleting-an-event)」を参照してください。
 
 ## イベント属性の定義{#defining-the-event-attributes}
 
