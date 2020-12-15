@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 1e7359db2de1a9c420af33ac85c0597c098ae3f8
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '650'
 ht-degree: 86%
 
 ---
@@ -38,12 +38,11 @@ E メール配信品質とは、期待される品質のコンテンツとフォ
 
 配信品質の割合は、受信者に適切に配信された送信 E メールの数です。次に、良好な配信品質を実現するための重要なチェックポイントを示します。
 
-## 配信品質ツール {#deliverability-tools}
+## 配信品質ツール{#deliverability-tools}
 
 まず、Campaign Standardと共に提供される配信品質ツールに関するドキュメントを参照し、開始を行います。
 * [配信のベストプラクティス](../../sending/using/delivery-best-practices.md)
 * [送信者名の個人設定](../../designing/using/personalization.md#personalizing-the-sender)
-* [E メールの件名行のテスト](../../sending/using/testing-subject-line-email.md)
 * [送信時間の最適化](../../sending/using/optimizing-the-sending-time.md)
 * [メッセージのプレビュー](../../sending/using/previewing-messages.md)
 * [E メールのレンダリング](../../sending/using/email-rendering.md)
@@ -58,11 +57,11 @@ E メール配信品質とは、期待される品質のコンテンツとフォ
 
 スパム送信者は、実際の ID を隠蔽し、結果としてサーバーの識別を困難にします。大量の E メールを送信する場合は、サーバーの ID を隠そうとしない適切なネットワーク設定が不可欠です。
 
-## Sending to valid addresses {#valid-addresses}
+## 有効なアドレス{#valid-addresses}に送信中
 
 スパム送信者は、多くの場合、よくある姓と名のリストに基づくアドレスジェネレーターを使用します。また、メールサーバーから返信される技術的な通知をほとんど処理しません。無効なアドレス率が高いと、多くの場合はスパムと解釈されます。ダブルオプトインメカニズムおよび技術的なバウンスメッセージの効果的な処理により、これを回避することができます。
 
-## 苦情率の削減 {#reduce-complaint-rate}
+## 不服申し立て率{#reduce-complaint-rate}を下げる
 
 ISP は、通常、受け取ったメッセージをスパムとしてレポートする優れた手段を持っています。これにより、信頼性を欠くソースの特定が可能です。オプトアウトリクエストを直ちにおこない、所定のリストを定期的に使用し、ダブルオプトインシステムで同意を検証し、フィードバックループを実装することで、苦情率を減らすことができます。
 
@@ -70,10 +69,10 @@ ISP は、通常、受け取ったメッセージをスパムとしてレポー�
 
 ISP やその他の組織（https://www.projecthoneypot.org/ を参照）は、実際の個人としては存在しない、単にスパム送信者を欺くために作成されたメールボックスを使用します。このいわゆる「ハニーポット」アドレスは、スパムボットによって収集され、不正な送信者を捕らえるために Web で公開されます。ダブルオプトインメカニズムを使用することで、この種のアドレスがリストに追加されないようにします。サードパーティのリストを使用する場合、そのリストが信頼できる方法で管理されているか確認する必要があります。
 
-## メッセージ内容の調整 {#adapt-message-content}
+## メッセージ内容の適応{#adapt-message-content}
 
 可能性は高くはありませんが、特定のメッセージのコンテンツがフィルターでスパムとして検出される場合があります。ある種の単語の使用、件名およびメッセージ内での感嘆符の使用は、スパムの明らかな兆候として読み取られます。スパム送信者は、アンチスパムフィルターによってテキストが自動的に分析されるのを防ぐために、テキストを画像で置き換えることも知られています。これに対応するために、画像の比率の高いメッセージ（HTML 形式）や添付された画像はブロックされます。
 
-## 定期的な送信 {#regular-deliveries}
+## 定期的に送信{#regular-deliveries}
 
 スパム送信者は、長期的にレピュテーションを維持するためにプログラムされた配信をおこないます。スパム送信者は、ISP などによって課せられたベストプラクティスに対応するためにマーケティングプランの変更が必要な場合があり、レピュテーションのピーク後（ランプアップ）、通常の配信を設定します。
