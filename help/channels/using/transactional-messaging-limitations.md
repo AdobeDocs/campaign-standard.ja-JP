@@ -2,16 +2,16 @@
 solution: Campaign Standard
 product: campaign
 title: トランザクションメッセージの制限
-description: Adobe Campaign Standardのトランザクションメッセージに関する主な制限事項と推奨事項について説明します。
+description: Adobe Campaign Standardのトランザクションメッセージに関する主な推奨事項と制限事項について説明します。
 audience: channels
 content-type: reference
-topic-tags: landing-pages
-context-tags: landingPage,wizard;landingPage,overview;landingPage,main
+topic-tags: transactional-messaging
+context-tags: null
 translation-type: tm+mt
-source-git-commit: c276c468627208b584a0342414cdbe382e349f50
+source-git-commit: 0092ad11314fab232663f558ca6635b8fcc03133
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 76%
+source-wordcount: '742'
+ht-degree: 66%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 76%
 
 <img src="assets/do-not-localize/icon_concepts.svg" width="60px">
 
-以下の節では、トランザクションメッセージを作成する前に理解しておく必要があるベストプラクティスと制限についてリストします。
+ここでは、トランザクションメッセージの作成を開始する前に認識しておく必要があるベストプラクティスと制限についてリストします。
 
 <!--For more on transactional messages, including on how to configure and create them, see [Getting started with transactional messaging](../../channels/using/getting-started-with-transactional-msg.md).-->
 
@@ -38,6 +38,12 @@ ht-degree: 76%
 * イベントの作成後にターゲティングディメンション（**[!UICONTROL Real-time event]** または **[!UICONTROL Profile]**）を変更することはできません。詳しくは、[イベントの作成](../../channels/using/configuring-transactional-event.md#creating-an-event)を参照してください。
 * 公開をロールバックすることはできませんが、イベントを非公開にすることは可能です。この操作により、イベントとそれに関連するトランザクションメッセージにアクセスできなくなります。詳しくは、[イベントの非公開](../../channels/using/publishing-transactional-event.md#unpublishing-an-event)を参照してください。
 * イベントに関連付けることができる唯一のトランザクションメッセージは、そのイベントの公開時に自動的に作成されるメッセージです。詳しくは、[イベントのプレビューと公開](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)を参照してください。
+
+## トランザクションメッセージ数{#transactional-message-number}
+
+公開されたトランザクションメッセージの数は、プラットフォームに大きな影響を与える可能性があります。 最適なパフォーマンスを得るために、公開されるトランザクションメッセージの数は100未満に抑える必要があります。 これを確実に行うには、未使用のトランザクションメッセージを非公開または削除します。 [トランザクションメッセージの非公開](../../channels/using/publishing-transactional-message.md#unpublishing-a-transactional-message)および[トランザクションメッセージの削除](../../channels/using/publishing-transactional-message.md#deleting-a-transactional-message)を参照してください。
+
+最高のパフォーマンスを確保するために、未使用のイベントの公開を取り消したり、削除したりすることもできます。 実際に、イベントを非公開または削除すると、対応するトランザクションメッセージ、およびその送信とトラッキングログ（存在する場合）も非公開または削除されます。 [イベントの非公開](../../channels/using/publishing-transactional-event.md#unpublishing-an-event)および[イベントの削除](../../channels/using/publishing-transactional-event.md#deleting-an-event)を参照してください。
 
 ## パーソナライゼーション {#personalization}
 
