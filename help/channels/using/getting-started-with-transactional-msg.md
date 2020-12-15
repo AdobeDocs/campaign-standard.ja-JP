@@ -1,17 +1,17 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: トランザクションメッセージを設定する主な手順
+title: トランザクションメッセージの概要
 description: トランザクションメッセージの概要を明らかにし、Adobe Campaign Standardでトランザクションメッセージを設定する主な手順を学びます。
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: c276c468627208b584a0342414cdbe382e349f50
+source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
 workflow-type: tm+mt
-source-wordcount: '966'
-ht-degree: 8%
+source-wordcount: '963'
+ht-degree: 9%
 
 ---
 
