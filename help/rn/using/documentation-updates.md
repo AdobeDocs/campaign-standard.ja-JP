@@ -7,9 +7,9 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 83cf4dc73540725d1b642b68091f704806f3eb63
+source-git-commit: 3d271b7125a382f7864857df4541a6be28894992
 workflow-type: tm+mt
-source-wordcount: '6359'
+source-wordcount: '6357'
 ht-degree: 97%
 
 ---
@@ -21,17 +21,19 @@ ht-degree: 97%
 
 ## 2020 年 12 月 {#doc-updates-december-2020}
 
+トランザクションメッセージングセクションは再編成、改善され、詳細な説明を加え、[拡張スキーマ](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle)と[エンドツーエンドの使用例](../../channels/using/transactional-messaging-use-case.md)を含む「はじめに」の節を明確にしました。 [詳細を表示](../../channels/using/getting-started-with-transactional-msg.md)
+
 プライバシー節は移動しました。 [詳細を表示](../../start/using/privacy.md)
 
-「トランザクションメッセージング」セクションが再編成、改善され、完全なプロセスを説明するための[拡張グラフ](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle)や[エンドツーエンドの使用例](../../channels/using/transactional-messaging-use-case.md)などの「はじめに」セクションが明確になりました。 [詳細を表示](../../channels/using/getting-started-with-transactional-msg.md)
-
 Adobe Campaign Standardのワークスペースでのアクセシビリティのサポートについて詳しく説明する、アクセシビリティに関する新しいページが追加されました。 [詳細を表示](../../start/using/accessibility.md)
+
+トランザクションメッセージの節に、最適なパフォーマンスを得るために、公開トランザクションメッセージ数は100未満に抑える必要があるという新しい制限が追加されました。 [詳細を表示](../../channels/using/transactional-messaging-limitations.md#transactional-message-number)
 
 ## 2020 年 11 月 {#doc-updates-november-2020}
 
 個人データとペルソナの節が更新され、プライバシーに関して様々なペルソナがどのように関わっているかを示す使用例のシナリオが追加されました。 [詳細を表示](../../start/using/privacy.md#use-case-scenario)
 
-プライバシーに関してよくある質問の一覧を記載した新しい節を追加しました。 [詳細を表示](../../start/using/privacy-faq.md)
+プライバシーに関してよくある質問の一覧を記載した新しい節を追加しました。[詳細を表示](../../start/using/privacy-faq.md)
 
 「プライバシー」節は移動し、[プライバシー管理](../../start/using/privacy-management.md)と[プライバシーリクエストの管理](../../start/using/privacy-requests.md)の 2 つの新しいページが追加されました。
 
@@ -176,8 +178,6 @@ Azure Blob 統合 - [詳細情報](../../administration/using/external-accounts.
 新しい設定のガイドラインの節が管理ガイドに追加されました。互換性のあるブラウザーとオペレーティングシステムに関する節は、始める前にからこの節に移動しました。Campaign Standard ネットワークエンドポイントに関するテクニカルノートもこの節に追加されました。[詳細を表示](../../administration/using/about-configuration-guidelines.md)
 
 イベント設定の削除方法を説明する新しい節が追加されました。[詳細を表示](../../channels/using/publishing-transactional-event.md#deleting-an-event)
-
-E メールの件名行をテストして開封率を予測する方法を説明するページが更新および改訂され、新しく[トラブルシューティング](../../sending/using/testing-subject-line-email.md#troubleshooting)の節が追加されました。[詳細を表示](../../sending/using/testing-subject-line-email.md)
 
 トランザクションメッセージの節が更新され、複数のユーザーインターフェイスに関するいくつかの更新と改善が反映されました。[詳細を表示](../../channels/using/getting-started-with-transactional-msg.md)
 
