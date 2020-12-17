@@ -3,14 +3,14 @@ solution: Campaign Standard
 product: campaign
 audience: end-user
 user-guide-title: Campaign Standard
-user-guide-description: 'Campaign Standardの使用に必要な主な機能、タスク、設定、その他のリソースに関するヘルプセンター。 '
+user-guide-description: 'Campaign Standard の使用に必要な主要な機能、タスク、設定、その他のリソースに関するヘルプセンター。 '
 breadcrumb-title: Campaign Standard
 title: Campaign Standard ガイド
 translation-type: tm+mt
 source-git-commit: 642b916369433d9a7a23d818e94f5e189a1c8596
 workflow-type: tm+mt
 source-wordcount: '1696'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -124,15 +124,15 @@ ht-degree: 97%
       + イベント設定 {#event-configuration}
          + [トランザクションイベントの設定](channels/using/configuring-transactional-event.md)
          + [トランザクションイベントの公開](channels/using/publishing-transactional-event.md)
-      + トランザクションメッセージ版{#transactional-message-edition}
+      + トランザクションメッセージのエディション{#transactional-message-edition}
          + [トランザクションメッセージの編集](channels/using/editing-transactional-message.md)
          + [トランザクションメッセージのテスト](channels/using/testing-transactional-message.md)
-         + [トランザクションメッセージライフサイクル](channels/using/publishing-transactional-message.md)
+         + [トランザクションメッセージのライフサイクル](channels/using/publishing-transactional-message.md)
          + [実行と監視](channels/using/transactional-message-execution.md)
       + [トランザクションプッシュ通知](channels/using/transactional-push-notifications.md)
       + [フォローアップメッセージ](channels/using/follow-up-messages.md)
-      + [トランザクションメッセージの使用例](channels/using/transactional-messaging-use-case.md)
-   + ランディングページ{#landing-pages}
+      + [トランザクションメッセージのユースケース](channels/using/transactional-messaging-use-case.md)
+   + ランディングページ {#landing-pages}
       + [ランディングページの概要](channels/using/getting-started-with-landing-pages.md)
       + [ランディングページテンプレートについて](channels/using/landing-page-templates.md)
       + [ランディングページの設定](channels/using/configuring-landing-page.md)
