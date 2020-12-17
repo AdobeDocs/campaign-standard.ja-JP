@@ -6,9 +6,9 @@ description: このページでは、Adobe Campaign Standard の最新リリー�
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2412'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 [リリース計画](../../rn/using/release-planning.md) | [コントロールパネルのリリース](https://docs.adobe.com/content/help/ja-JP/control-panel/using/release-notes.html) | [ドキュメントの更新](../../rn/using/documentation-updates.md) | [以前のリリースノート](../../rn/using/release-notes-2020.md) | [非推奨（廃止予定）の機能](../../rn/using/deprecated-features.md)
 
-![](assets/do-not-localize/cp-icon.png) **10 月の新しい Campaign コントロールパネルリリース**&#x200B;で、CNAME を使用したドメイン設定と新しいデータベース監視機能が追加されました。[詳細情報](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)。
+![](assets/do-not-localize/cp-icon.png) **10 月の新しい Campaign コントロールパネルリリース**&#x200B;で、CNAME を使用したドメイン設定と新しいデータベース監視機能が追加されました。[詳細情報](https://docs.adobe.com/content/help/ja-JP/control-panel/using/release-notes.html)。
 
 ## リリース 20.4 - 2020 年 10 月 {#release-20-4---october-2020}
 
