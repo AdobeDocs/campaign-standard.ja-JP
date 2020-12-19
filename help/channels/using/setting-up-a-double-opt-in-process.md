@@ -27,7 +27,7 @@ ht-degree: 90%
 
 この設定をおこなうには、次の操作が必要です。
 
-1. 訪問者が登録して購読できるように、ランディングページを作成して公開します。このランディングページは Web サイトから利用可能になります。Visitors who fill in and submit this landing page will be stored in the database but added to the denylist, in order not to receive any communication before the final validation (see [Denylist management in Campaign](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)).
+1. 訪問者が登録して購読できるように、ランディングページを作成して公開します。このランディングページは Web サイトから利用可能になります。このランディングページに入力して送信した訪問者は、最終的な検証前に通信を受け取らないように、データベースに格納されブロックリストますが、キャンペーンに追加されます(「[管理（](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)内）」を参照)。
 1. 確認リンクを含んだオプトイン E メールを作成し自動的に送信します。この E メールは、ランディングページを送信した訪問者をターゲットにしますが、「オプトアウト」プロファイルをターゲットにできる E メールテンプレートに基づいて作成されます。
 1. 確認ランディングページにリダイレクトします。この最後のランディングページでは確認ボタンが表示されるので、訪問者はそれをクリックして確認する必要があります。確認した訪問者に送信される「ようこそ」メールをデザインしたり、例えば新しい受信者向けの特別なオファーを E メールに追加したりできます。
 
@@ -101,7 +101,7 @@ ht-degree: 90%
 1. Adobe Campaign のロゴから、**[!UICONTROL Administration]**／**[!UICONTROL Channels]**／**[!UICONTROL Typologies]**&#x200B;を選択し、「**[!UICONTROL Typologies]**」をクリックします。
 1. 標準搭載のタイポロジ「**[!UICONTROL Transactional message on profile (mcTypologyProfile)]**」を複製します。
 1. 複製が確認されたら、新しいタイポロジを編集し、ラベルを「**TYPOLOGY_PROFILE**」と入力します。
-1. 「 **** 住所(ブロックリスト上)」の規則を削除します。
+1. **アドレスブロックリスト(**)の規則を削除します。
 1. 「**[!UICONTROL Save]**」をクリックします。
 
 これで、このタイポロジを確認 E メールに関連付けることができるようになりました。
@@ -128,7 +128,7 @@ ht-degree: 90%
 1. [新しいランディングページ](../../channels/using/getting-started-with-landing-pages.md)を「**[!UICONTROL Profile acquisition (acquisition)]**」テンプレートに基づいてデザインします。ラベルを「**ACQUISITION**」と入力します。
 1. ランディングページのプロパティを編集します。**[!UICONTROL Job]** ／「**[!UICONTROL Additional data]**」セクションで「**[!UICONTROL Add an element]**」をクリックし、次のコンテキストパスを入力します。
 
-   /context/profile/blackList
+   /context/プロファイル/blackList
 
    値を **true** に設定します。
 
