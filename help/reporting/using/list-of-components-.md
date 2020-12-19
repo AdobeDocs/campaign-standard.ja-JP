@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 6fffc6a3574c71c01f1e07ff4e6e6aa194479079
 workflow-type: tm+mt
 source-wordcount: '1285'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 5%
 
 ディメンションと指標の互換性について詳しくは、[テーブル](/help/reporting/using/assets/dynamic_report_compatibility.pdf)を参照してください。 2つのコンポーネントが互換性がない場合、セルには値&#x200B;**なし**&#x200B;が表示されます。
 
-[![画像](assets/dynamic_report_compatibility.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=en)
+[![画像](assets/dynamic_report_compatibility.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=ja)
 
 ## サイズ {#dimensions}
 
