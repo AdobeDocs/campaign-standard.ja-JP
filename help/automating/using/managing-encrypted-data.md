@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
 source-wordcount: '930'
-ht-degree: 42%
+ht-degree: 43%
 
 ---
 
@@ -45,7 +45,7 @@ Campaign コントロールパネルを使用する資格がない場合は、Ad
 
 このユースケースでは、外部システムで暗号化されたデータを Campaign コントロールパネルで生成された鍵を使用してインポートするためのワークフローを作成します。
 
-![](assets/do-not-localize/how-to-video.png) [動画でこの機能を確認する](#video)
+![](assets/do-not-localize/how-to-video.png) [この機能をビデオで確認](#video)
 
 このユースケースを実行する手順は次のとおりです。
 
@@ -89,7 +89,7 @@ Campaign コントロールパネルを使用する資格がない場合は、Ad
 
 このユースケースでは、Campaign コントロールパネルにインストールされたキーを使用してデータを暗号化およびエクスポートするためのワークフローを作成します。
 
-![](assets/do-not-localize/how-to-video.png) [動画でこの機能を確認する](#video)
+![](assets/do-not-localize/how-to-video.png) [この機能をビデオで確認](#video)
 
 このユースケースを実行する手順は次のとおりです。
 
@@ -105,7 +105,7 @@ Campaign コントロールパネルを使用する資格がない場合は、Ad
    * **[!UICONTROL Extract file]** アクティビティ:データを暗号化し、ファイルに抽出します。
    * **[!UICONTROL Transfer file]** アクティビティ:暗号化されたデータを含むファイルをSFTPサーバーに転送します。
 
-1. **[!UICONTROL Query]**&#x200B;アクティビティを設定して、データベースから必要なデータをターゲットします。 詳しくは、[この節](../../automating/using/query.md)を参照してください。
+1. **[!UICONTROL Query]**&#x200B;アクティビティを設定して、データベースから必要なデータをターゲットします。 詳しくは、[こちらの節](../../automating/using/query.md)を参照してください。
 
 1. **[!UICONTROL Extract file]**&#x200B;アクティビティを開き、必要に応じて設定します（出力ファイル、列、形式など）。 アクティビティの設定方法に関するグローバルな概念については、[こちら](../../automating/using/extract-file.md)を参照してください。
 
@@ -123,9 +123,9 @@ Campaign コントロールパネルを使用する資格がない場合は、Ad
 
 1. これで、ワークフローを開始できます。ワークフローを実行すると、クエリで選択された対象データが、暗号化された .gpg ファイルにエクスポートされ、SFTP サーバーに転送されます。
 
-## チュートリアル動画 {#video}
+## チュートリアルビデオ {#video}
 
-このビデオでは、GPGキーを使用してデータを復号化する方法を示します。
+このビデオでは、GPG キーを使用してデータを復号化する方法を紹介します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/35753?quality=12)
 
