@@ -22,7 +22,7 @@ ht-degree: 3%
 
 * **編集** （グレー）
 
-   これは、ワークフローの初期設計段階です(「ワークフローの [作成](../../automating/using/building-a-workflow.md#creating-a-workflow)」を参照)。 ワークフローはまだサーバーで処理されておらず、リスクなく変更できます。
+   これは、ワークフローの初期設計段階です（[ワークフローの作成](../../automating/using/building-a-workflow.md#creating-a-workflow)を参照）。 ワークフローはまだサーバーで処理されておらず、リスクなく変更できます。
 
 * **処理中** （青）
 
@@ -36,12 +36,12 @@ ht-degree: 3%
 
 * **警告** （黄色）
 
-   ワークフローを完了できなかったか、または ![](assets/pause_darkgrey-24px.png) ボタンを使用して一時停止してい ![](assets/check_pause_darkgrey-24px.png) ました。
+   ワークフローを完了できなかったか、![](assets/pause_darkgrey-24px.png)または![](assets/check_pause_darkgrey-24px.png)ボタンを使用して一時停止しました。
 
 * **エラーあり** （赤）
 
-   ワークフローの実行中にエラーが発生しました。 ワークフローが停止され、ユーザーが操作を実行する必要があります。 このエラーの詳細を確認するには、 ![](assets/printpreview_darkgrey-24px.png) ボタンを使用してワークフローログにアクセスします( [監視を参照](../../automating/using/monitoring-workflow-execution.md))。
+   ワークフローの実行中にエラーが発生しました。 ワークフローが停止され、ユーザーが操作を実行する必要があります。 このエラーの詳細を調べるには、![](assets/printpreview_darkgrey-24px.png)ボタンを使用してワークフローログにアクセスします（[監視](../../automating/using/monitoring-workflow-execution.md)を参照）。
 
-マーケティングアクティビティのリストにより、すべてのワークフローとステータスを表示できます。 For more on this, see [Managing marketing activities](../../start/using/marketing-activities.md#about-marketing-activities).
+マーケティングアクティビティのリストにより、すべてのワークフローとステータスを表示できます。 詳しくは、「[マーケティングアクティビティの管理](../../start/using/marketing-activities.md#about-marketing-activities)」を参照してください。
 
 ![](assets/wkf_execution_3.png)
