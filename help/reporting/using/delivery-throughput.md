@@ -21,10 +21,10 @@ ht-degree: 5%
 このレポートには、送信の配信スループット（複数の送信）に関するデータが含まれます。 次の機能が提供されます。
 
 * 1時間に処理されたメッセージの数
-* 再試行の利益が最も高い5つの配信を示す **[!UICONTROL Top 5 deliveries]** 表と補足的な要約数です。
+* **[!UICONTROL Top 5 deliveries]**&#x200B;テーブルと補足的な概要番号。再試行で最も高い利益を得る5つの配信を示します。
 
 ![](assets/delivery_reports_1.png)
 
 >[!NOTE]
 >
->The **[!UICONTROL Delivery throughput]** page displays the throughput speed for the relay of your messages from Campaign over to the Adobe Campaign Enhanced MTA.
+>**[!UICONTROL Delivery throughput]**&#x200B;ページには、キャンペーンからAdobe Campaign拡張MTAへのメッセージの中継に使用するスループット速度が表示されます。
