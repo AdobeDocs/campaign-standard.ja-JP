@@ -22,7 +22,7 @@ ht-degree: 96%
 
 テストプロファイルを使用すると、定義済みのターゲティング条件に一致しない追加の受信者をターゲットにすることができます。テストプロファイルは、受信者データベースの不正使用を検出したり、E メールがインボックスに確実に届くようにしたりするために、メッセージのオーディエンスに追加されます。
 
-![](assets/do-not-localize/how-to-video.png) [動画でこの機能を確認する](#video)
+![](assets/do-not-localize/how-to-video.png) [この機能をビデオで確認](#video)
 
 テストプロファイルは、アドバンスメニュー&#x200B;**[!UICONTROL Profiles & audiences > Test profiles]**&#x200B;から管理できます。
 
