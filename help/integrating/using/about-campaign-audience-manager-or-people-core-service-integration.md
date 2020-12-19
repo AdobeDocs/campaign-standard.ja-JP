@@ -23,19 +23,19 @@ ht-degree: 27%
 
 Adobe Campaignを使用すると、オーディエンス/セグメントを別のAdobe Experience Cloudアプリケーションと交換および共有できます。 **Adobe Campaign** を **People コアサービス**（**Profiles &amp; Audiences コアサービス**&#x200B;とも呼ばれます）または Adobe Audience Manager と統合すると、次のことが可能になります。
 
-* 様々なAdobe Experience CloudソリューションからAdobe Campaignにオーディエンス/セグメントをインポートする。 オーディエンスは、Adobe Campaignの **[!UICONTROL Audiences]** メニューから読み込むことができます。
-* オーディエンスを共有オーディエンス/セグメントとして書き出す。 これらのオーディエンスは、お使いの他の Adobe Experience Cloud ソリューションで使用できます。オーディエンスは、ワークフローでアクティビティをターゲット設定した後に、 **[!UICONTROL Save audience]** アクティビティを使用して書き出すことができます。
+* 様々なAdobe Experience CloudソリューションからAdobe Campaignにオーディエンス/セグメントをインポートする。 オーディエンスは、Adobe Campaignの&#x200B;**[!UICONTROL Audiences]**&#x200B;メニューからインポートできます。
+* オーディエンスを共有オーディエンス/セグメントとして書き出す。 これらのオーディエンスは、お使いの他の Adobe Experience Cloud ソリューションで使用できます。オーディエンスは、ワークフロー内のアクティビティをターゲット設定した後、**[!UICONTROL Save audience]**&#x200B;アクティビティを使用してエクスポートできます。
 
 統合では、2種類のAdobe Experience CloudIDがサポートされます。
 
-* **訪問者ID**:このタイプのIDを使用すると、Adobe Experience Cloud訪問者をAdobe Campaignプロファイルと調整できます。 AdobeIMSを介した接続が有効になるとすぐに、Marketing Cloud訪問者IDサービスがアクティブ化され、Adobe Campaignで使用される永続的なcookieが置き換えられます。 これにより、訪問者を識別してプロファイルにリンクできます。
+* **訪問者ID**:このタイプのIDを使用すると、Adobe Experience Cloud訪問者をAdobe Campaignプロファイルと調整できます。AdobeIMSを介した接続が有効になるとすぐに、Marketing Cloud訪問者IDサービスがアクティブ化され、Adobe Campaignで使用される永続的なcookieが置き換えられます。 これにより、訪問者を識別してプロファイルにリンクできます。
    <br>訪問者IDは、プロファイルがAdobe Campaign経由で送信された電子メール内でクリックするとすぐにプロファイルにリンクされます。
    * プロファイルに既に訪問者IDが割り当てられている場合、プロファイルのブラウザデータを使用して、Adobe Campaignがプロファイルを回復し、自動的に訪問者IDにリンクすることができます。
    * 訪問者 ID がない場合、新しい ID が作成されます。この訪問者IDは、プロファイルトラッキングログに格納されます。
 
    この ID は、他の Adobe Marketing Cloud アプリケーションに同じ CNAME で認識されます。
 
-* **宣言済みID**:この種のIDを使用すると、任意の種類のデータをAdobe Campaignデータベースの要素と紐付けできます。 Adobe Campaign では、事前定義された紐付けキーとして示されます。データを交換する場合、Adobe Campaign データベースの識別子はハッシュ化されます。これらのハッシュ化された ID は、インポートまたはエクスポートに含まれる Adobe Marketing Cloud オーディエンスのハッシュ化された ID と比較されます。
+* **宣言済みID**:この種のIDを使用すると、任意の種類のデータをAdobe Campaignデータベースの要素と紐付けできます。Adobe Campaign では、事前定義された紐付けキーとして示されます。データを交換する場合、Adobe Campaign データベースの識別子はハッシュ化されます。これらのハッシュ化された ID は、インポートまたはエクスポートに含まれる Adobe Marketing Cloud オーディエンスのハッシュ化された ID と比較されます。
    <br>この統合では、正規の宣言ID、ハッシュ化された宣言ID、暗号化された宣言IDをサポートします。
 
    >[!CAUTION]
