@@ -10,8 +10,8 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 translation-type: tm+mt
 source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 7%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 7%
 
 **オーディエンス** は、最初の作成 **セグメント**(Adobe Experience Platformから顧客プロファイル内の事実上すべての変数(プロファイル、イベント、マルチエンティティデータなど)に基づく一連のルール)によって作成され、多次元ターゲットが作成されます。リアルタイムの顧客プロファイルとセグメント化サービスに関するグローバルな概念は、次の専用ドキュメントで参照できます。
 
-* [リアルタイム顧客プロファイルの概要](https://docs.adobe.com/content/help/ja-JP/experience-platform/profile/home.html)
+* [リアルタイム顧客プロファイルの概要](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html)
 * [Segmentation Serviceの概要](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html)
 
 セグメントを作成したら、[Campaign Standardワークフロー](../../automating/using/aep-targeting-audiences.md)で配信のオーディエンスとしてアクティブ化できます。 さらに、Adobe Experience Platformのコンテキストデータを[パーソナライズ](../../automating/using/aep-personalizing-campaigns.md)に利用し、動的なコンテンツをキャンペーンに追加することもできます。
