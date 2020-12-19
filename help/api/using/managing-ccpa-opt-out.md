@@ -9,26 +9,26 @@ topic-tags: campaign-standard-apis
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # CCPA オプトアウトの管理 {#managing-ccpa-optout}
 
-プロファイルのCCPAオプトアウトステータスは、ccpaOptOut **** プロファイル属性と「true」または「false」値を使用して監視および管理できます。
+プロファイルのCCPAオプトアウトステータスは、**ccpaOptOut**&#x200B;プロファイル属性と「true」または「false」値を使用して監視および管理できます。
 
 `"ccpaOptOut": <value>`
 
-* **true**: 個人情報の販売を禁じる。
+* **true**:個人情報の販売を禁じる。
 * **false**:個人情報の販売を許可します。
 
 >[!CAUTION]
 >
 >「CCPAオプトアウト」属性は、19.4からのみ使用できます。19.3環境の場合は、プロファイルリソースを拡張し、ブール値フィールドを追加する必要があります。 このフィールドは、選択したラベルと共にAPIに追加されます。 「CCPAのオプトアウト」を使用することをお勧めします。
 >
->詳しくは、「プライバシーリクエストの [管理」のドキュメントを参照してください](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa)。
+>詳しくは、[プライバシーリクエストの管理のドキュメント](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa)を参照してください。
 
 <br/>
 
