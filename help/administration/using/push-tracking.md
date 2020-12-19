@@ -10,15 +10,15 @@ context-tags: mobileApp,overview
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '819'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # プッシュトラッキングの実装 {#push-tracking}
 
-## プッシュ追跡について {#about-push-tracking}
+## プッシュ追跡について{#about-push-tracking}
 
 プッシュ通知が完全に開発されたことを確認するには、トラッキング部分が正しく実装されていることを確認する必要があります。
 ここでは、プッシュ通知の実装の最初の部分が既に実装済みであることを前提としています。
@@ -28,15 +28,15 @@ ht-degree: 2%
 
 プッシュトラッキングは3つのタイプに分かれています。
 
-* **プッシュインプレッション** — プッシュ通知がデバイスに配信され、通知センターに配置されているが、まったく操作されていない場合。  これは印象と見なされます。  ほとんどの場合、インプレッション数は、配信された数と異なる場合は類似した数値にする必要があります。 これにより、デバイスはメッセージを取得し、その情報をサーバーに中継しました。
+* **プッシュインプレッション**  — プッシュ通知がデバイスに配信され、通知センターに設置されているが、まったく操作されていない場合。これは印象と見なされます。  ほとんどの場合、インプレッション数は、配信された数と異なる場合は類似した数値にする必要があります。 これにより、デバイスはメッセージを取得し、その情報をサーバーに中継しました。
 
-* **プッシュクリック** — プッシュ通知がデバイスに配信され、ユーザーがデバイスをクリックしたとき。  ユーザーは、通知の表示（プッシュオープン追跡に移動）または通知の却下を希望していた。
+* **プッシュクリック**  — プッシュ通知がデバイスに配信され、ユーザーがデバイスをクリックしたとき。ユーザーは、通知の表示（プッシュオープン追跡に移動）または通知の却下を希望していた。
 
-* **プッシュ開く** — プッシュ通知がデバイスに配信され、ユーザーが通知をクリックした場合にアプリが開きます。  これはプッシュクリックと似ていますが、通知が閉じられた場合にプッシュ開くはトリガーされません。
+* **プッシュ開く**  — プッシュ通知がデバイスに配信され、ユーザーが通知をクリックした場合にアプリが開きます。これはプッシュクリックと似ていますが、通知が閉じられた場合にプッシュ開くはトリガーされません。
 
 Campaign Standardのためのトラッキングを導入するには、モバイルアプリにMobile SDKを含める必要があります。 これらのSDKは、AdobeのMobile Servicesで使用できます。 詳しくは、この[ページ](../../administration/using/configuring-a-mobile-application.md)を参照してください。
 
-トラッキング情報を送信するには、3つの変数を送信する必要があります。 Campaign Standardから受け取ったデータの一部である2つの変数と、それが **Impression**、 **Click** 、 **Open**&#x200B;のどちらであるかを指示するアクション変数です。
+トラッキング情報を送信するには、3つの変数を送信する必要があります。 Campaign Standardから受け取ったデータの一部である2つの変数と、それが&#x200B;**インプレッション**、**クリック**、または&#x200B;**開く**&#x200B;のいずれであるかを指示するアクション変数。
 
 | 変数 | 値 |
 |:-:|:-:|
@@ -44,11 +44,11 @@ Campaign Standardのためのトラッキングを導入するには、モバイ
 | deliveryId | データからの_dId |
 | action | 「開く」に1、「クリック」に2、「インプレッション」に7 |
 
-## Androidの実装 {#implementation-android}
+## Androidの実装{#implementation-android}
 
-### プッシュインプレッション追跡の実装方法 {#push-impression-tracking-android}
+### プッシュインプレッション追跡の実装方法{#push-impression-tracking-android}
 
-インプレッションの追跡では、関数を呼び出す際に、アクションの値&quot;7&quot;を送信する必要があり **[!UICONTROL trackAction()]** ます。
+インプレッションの追跡では、**[!UICONTROL trackAction()]**&#x200B;関数を呼び出す際に、アクションの値&quot;7&quot;を送信する必要があります。
 
 ```
 @Override
@@ -68,9 +68,9 @@ public void onMessageReceived(RemoteMessage remoteMessage) {
 }
 ```
 
-### クリック追跡の実装方法 {#push-click-tracking-android}
+### クリック追跡の実装方法{#push-click-tracking-android}
 
-クリック追跡では、 **[!UICONTROL trackAction()]** 関数を呼び出す際に、アクションの値&quot;2&quot;を送信する必要があります。
+クリック追跡では、**[!UICONTROL trackAction()]**&#x200B;関数を呼び出す際に、アクションの値&quot;2&quot;を送信する必要があります。
 
 クリックを追跡するには、次の2つのシナリオを処理する必要があります。
 
@@ -108,7 +108,7 @@ private void sendNotification(Map<String, String> data) {
 }
 ```
 
-が動作す **[!UICONTROL BroadcastReceiver]** るためには、 **[!UICONTROL AndroidManifest.xml]**
+**[!UICONTROL BroadcastReceiver]**&#x200B;が動作するためには、**[!UICONTROL AndroidManifest.xml]**&#x200B;に登録する必要があります
 
 ```
 <manifest>
@@ -143,13 +143,13 @@ public class NotificationDismissedReceiver extends BroadcastReceiver {
 }
 ```
 
-### オープントラッキングの導入方法 {#push-open-tracking-android}
+### オープントラッキングの導入方法{#push-open-tracking-android}
 
 アプリを開くにはユーザーがクリック通知を必要とするので、「1」と「2」を送信する必要があります。 プッシュ通知を通じてアプリが起動または開かれない場合、追跡イベントは発生しません。
 
 開いている状態を追跡するには、「インテント」を作成する必要があります。 インテントオブジェクトを使用すると、特定の操作が実行されたときにAndroid OSからメソッドを呼び出すことができます。 この場合、通知をクリックしてアプリを開きます。
 
-このコードは、クリックインプレッショントラッキングの導入に基づいています。 を **[!UICONTROL Intent]** 設定したら、追跡情報をAdobe Campaign Standardに送り返す必要があります。 この場合、アプリ内の特定の表示を開くようにを設定する必要 **[!UICONTROL Open Intent]** があります。これにより、の通知データを使用してonResumeメソッドが呼び出され **[!UICONTROL Intent Object]**&#x200B;ます。
+このコードは、クリックインプレッショントラッキングの導入に基づいています。 **[!UICONTROL Intent]**&#x200B;を設定したら、追跡情報をAdobe Campaign Standardに送り返す必要があります。 この場合、**[!UICONTROL Open Intent]**&#x200B;をアプリ内の特定の表示で開くように設定する必要があります。これにより、**[!UICONTROL Intent Object]**&#x200B;内の通知データを使用してonResumeメソッドが呼び出されます。
 
 ```
 @Override
@@ -187,21 +187,21 @@ private void handleTracking() {
 }
 ```
 
-## iOS向けの実装 {#implementation-iOS}
+## iOSの実装{#implementation-iOS}
 
-### プッシュインプレッション追跡の実装方法 {#push-impression-tracking-iOS}
+### プッシュインプレッション追跡の実装方法{#push-impression-tracking-iOS}
 
-インプレッションの追跡では、関数を呼び出す際に、アクションの値&quot;7&quot;を送信する必要があり **[!UICONTROL trackAction()]** ます。
+インプレッションの追跡では、**[!UICONTROL trackAction()]**&#x200B;関数を呼び出す際に、アクションの値&quot;7&quot;を送信する必要があります。
 
 iOS通知の動作方法を理解するには、アプリの3つの状態を詳しく説明する必要があります。
 
 * **前景**:アプリが現在アクティブで、現在画面（前景）にあるとき。
-* **背景**:isアプリが画面に表示されず、プロセスが閉じられない場合。 ホームボタンを重複クリックすると、通常はバックグラウンドにあるすべてのアプリが表示されます。
+* **背景**:isアプリが画面に表示されず、プロセスが閉じられない場合。ホームボタンを重複クリックすると、通常はバックグラウンドにあるすべてのアプリが表示されます。
 * **オフ/クローズ**:プロセスが終了したアプリ。
 
 アプリが閉じられた場合、Appleは、アプリが再起動されるまでアプリを呼び出しません。 つまり、iOSで通知が受信された時点を知ることはできません。
 
-アプリがバックグラウンドにある間も **[!UICONTROL Impression]** 追跡機能を動作させるには、追跡が必要なこ **[!UICONTROL Content-Available]** とをアプリに知らせるために送信する必要があります。
+アプリがバックグラウンドにある間も&#x200B;**[!UICONTROL Impression]**&#x200B;の追跡を引き続き動作させるには、**[!UICONTROL Content-Available]**&#x200B;を送信して、追跡が必要なことをアプリに知らせる必要があります。
 
 >[!CAUTION]
 >
@@ -245,9 +245,9 @@ func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent noti
     }
 ```
 
-### クリック追跡の実装方法 {#push-click-tracking-iOS}
+### クリック追跡の実装方法{#push-click-tracking-iOS}
 
-クリック追跡では、 **[!UICONTROL trackAction()]** 関数を呼び出す際に、アクションの値&quot;2&quot;を送信する必要があります。
+クリック追跡では、**[!UICONTROL trackAction()]**&#x200B;関数を呼び出す際に、アクションの値&quot;2&quot;を送信する必要があります。
 
 ```
 // AppDelegate.swift
@@ -288,7 +288,7 @@ func registerForPushNotifications() {
 
 ![](assets/tracking_push.png)
 
-次に、トラッキング情報を処理 **[!UICONTROL Dismiss]** して送信するには、以下を追加する必要があります。
+次に、**[!UICONTROL Dismiss]**&#x200B;を処理し、追跡情報を送信するには、以下を追加する必要があります。
 
 ```
 func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
@@ -308,7 +308,7 @@ func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive respo
     }
 ```
 
-### オープントラッキングの導入方法 {#push-open-tracking-iOS}
+### オープントラッキングの導入方法{#push-open-tracking-iOS}
 
 アプリを開くにはユーザーがクリック通知を必要とするので、「1」と「2」を送信する必要があります。 プッシュ通知を通じてアプリが起動または開かれない場合、追跡イベントは発生しません。
 
