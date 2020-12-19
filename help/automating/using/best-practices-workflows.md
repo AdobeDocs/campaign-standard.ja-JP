@@ -10,8 +10,8 @@ context-tags: workflow,overview;workflow,main
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '1071'
-ht-degree: 93%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -70,13 +70,13 @@ Adobe Campaign を使用すると、あらゆる種類のワークフローを�
 
 ## アクティビティ{#activity}
 
-### ワークフローあたりのアクティビティ数 {#number-activities}
+### ワークフロー{#number-activities}あたりのアクティビティ数
 
 最大100人のアクティビティを1つのワークフローに使用することをお勧めします。 100を超えるアクティビティでは、ワークフローの設計と設定時に、パフォーマンスの問題が発生する場合があります。
 
 ### ワークフローデザイン
 
-ワークフローが正しく終了するように、ワークフローの最後のトランジションを単独で残さないように、を使用し **[!UICONTROL End activity]**&#x200B;ます。
+ワークフローが正しく終了するように、**[!UICONTROL End activity]**&#x200B;を使用して、ワークフローの最後のトランジションを単独で残さないようにします。
 
 トランジションの詳細表示にアクセスするには、ワークフロープロパティの「Execution」セクションで「**[!UICONTROL Keep interim results]**」オプションを選択します。
 
@@ -107,7 +107,7 @@ Adobe Campaign を使用すると、あらゆる種類のワークフローを�
 
 ## パラメーターを使用したワークフローの呼び出し{#workflow-with-parameters}
 
-名前とパラメーター数が、ワークフローの呼び出し時に定義された名前と数と一致することを確認します( [このページを参照](../../automating/using/defining-parameters-calling-workflow.md))。 また、パラメーターのタイプは、想定される値と一致する必要があります。
+名前とパラメーター数が、ワークフローの呼び出し時に定義されたものと同じであることを確認します（[このページ](../../automating/using/defining-parameters-calling-workflow.md)を参照）。 また、パラメーターのタイプは、想定される値と一致する必要があります。
 
 **[!UICONTROL External signal activity]**&#x200B;内ですべてのパラメーターが宣言されていることを確認します。それ以外の場合は、アクティビティの実行時にエラーが発生します。
 
