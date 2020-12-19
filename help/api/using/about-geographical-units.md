@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
 workflow-type: tm+mt
 source-wordcount: '138'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 >
 >その結果、新しいCampaign Standardインスタンスと、地理的単位が作成されていない既存のインスタンスは、18.7リリースからこの機能を実装できません。
 >
->この点について詳しくは、<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">非推奨機能</a>のページを参照してください。
+>この点について詳しくは、<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=ja">非推奨機能</a>のページを参照してください。
 
 **geoUnitBase**&#x200B;エンドポイントを使用すると、地理的単位を操作できます。例えば、プロファイルの属性を更新したり、エンドポイントを更新したりできます。
 
