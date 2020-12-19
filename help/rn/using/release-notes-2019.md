@@ -17,7 +17,7 @@ ht-degree: 9%
 
 # リリースノート 2019{#release-notes-2019}
 
-[リリース計画](https://helpx.adobe.com/jp/campaign/kb/acs-release-planning.html) | [Campaign コントロールパネルリリース](https://docs.adobe.com/content/help/ja-JP/control-panel/using/release-notes.html) | [ドキュメントの更新](../../rn/using/documentation-updates.md) | [最新のリリースノート](../../rn/using/release-notes.md)  [|廃止された機能](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html)
+[リリース計画](https://helpx.adobe.com/jp/campaign/kb/acs-release-planning.html) | [Campaign コントロールパネルリリース](https://docs.adobe.com/content/help/ja-JP/control-panel/using/release-notes.html) | [ドキュメントの更新](../../rn/using/documentation-updates.md) | [最新のリリースノート](../../rn/using/release-notes.md)  [|廃止された機能](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=ja)
 
 ## リリース19.4 - 2019年12月{#release-19-4---october-2019}
 
@@ -347,7 +347,7 @@ ht-degree: 9%
 
 **トランザクションメッセージングの強化**
 
-操作とパフォーマンスを最適化するために、トランザクションメッセージングチャネルにいくつかの改善点が加えられました。
+操作とパフォーマンスを最適化するために、トランザクションメッセージングチャネルにいくつかの改善が加えられました。
 
 * トランザクションメッセージ期間が延長され、特に再試行が実行された場合に、すべてのメッセージが期限切れの前に送信されるようになりました。
 * トランザクションメッセージングのパフォーマンスは、様々な送信スレッドに負荷を分散することで向上しました。
