@@ -10,8 +10,8 @@ context-tags: extAccountMobile,overview;extAccount,main;delivery,smsContent,back
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '1625'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -328,7 +328,7 @@ SMS メッセージを送信するための特定のパラメーターは、「*
 
 ![](assets/sms_options.png)
 
-From the **[!UICONTROL Advanced parameters]** section:
+**[!UICONTROL Advanced parameters]**&#x200B;セクションから：
 
 * 「**[!UICONTROL From]**」オプションを使用すると、文字列を使用して SMS メッセージの送信者名をパーソナライズできます。これは、受信者の携帯電話で SMS メッセージの送信者名として表示される名前です。
 
@@ -340,7 +340,7 @@ From the **[!UICONTROL Advanced parameters]** section:
    >
    >送信者アドレスの変更について、お住まいの国の法律を確認してください。また、SMS サービスプロバイダーに問い合わせて、この機能を提供しているかどうかを確認する必要があります。
 
-SMSテンプレートの **[!UICONTROL Send]** セクションで、次の操作を行います。
+SMSテンプレートの&#x200B;**[!UICONTROL Send]**&#x200B;セクション：
 
 * 「**[!UICONTROL Maximum number of SMS per message]**」オプションを使用すると、メッセージの送信に使用する SMS メッセージの数を定義できます。この数を超えると、メッセージは送信されません。
 
