@@ -9,8 +9,8 @@ topic-tags: sending-and-tracking-messages
 translation-type: tm+mt
 source-git-commit: 79e172d08557bfeebd088d8a0e8756c5965318cb
 workflow-type: tm+mt
-source-wordcount: '487'
-ht-degree: 35%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +23,7 @@ Adobe Campaignでは、トラッキング機能のおかげで、配信受信者
 
 認証リクエスト（ページ上など）を通じて、サイトにWebトラッキングツールが装備されていることをユーザーに通知し、cookieの使用を許可するチェックボックスを追加したり、最初のページの上部にバナーを追加したりできます。 ポップアップウィンドウはブラウザーでブロックされていることが多いので、避ける必要があります。
 
-**[!UICONTROL integrated customer profiles]**&#x200B;へのデータベースの各連絡先について、トラッキング情報を利用できます。 詳しくは、[この節](../../audiences/using/integrated-customer-profile.md)を参照してください。
+**[!UICONTROL integrated customer profiles]**&#x200B;へのデータベースの各連絡先について、トラッキング情報を利用できます。 詳しくは、[こちらの節](../../audiences/using/integrated-customer-profile.md)を参照してください。
 
 Adobe Campaign は、次の 2 つのタイプの Cookie を使用します。
 
