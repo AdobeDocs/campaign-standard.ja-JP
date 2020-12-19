@@ -9,8 +9,8 @@ topic-tags: working-with-campaign-and-assets-core-service
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 26%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +21,7 @@ AssetsコアサービスまたはAssets on Demand (Adobe Experience Cloud環境�
 
 Adobe Experience Cloudから共有されたリソースは、電子メールやランディングページで使用できます。
 
-1. 電子メールまたはランディングページのコンテンツを編集する場合は、画像ブロックに移動し、コンテキストメニュー **[!UICONTROL Image shared from Adobe Experience Cloud]** から選択します。
+1. 電子メールまたはランディングページのコンテンツを編集する場合は、画像ブロックに移動し、コンテキストメニューから&#x200B;**[!UICONTROL Image shared from Adobe Experience Cloud]**&#x200B;を選択します。
 
    ![](assets/dam_insert_image_dce.png)
 
