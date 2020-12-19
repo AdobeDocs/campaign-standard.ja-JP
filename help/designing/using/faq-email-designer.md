@@ -9,8 +9,8 @@ topic-tags: working-with-campaign-and-analytics
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 7%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -41,26 +41,26 @@ ht-degree: 7%
 
 独自のHTMLコンテンツを電子メールデザイナーにアップロードできます。 電子メールデザイナーで作成していない場合は、互換性モードで読み込まれます。互換モードでは、元のHTMLを維持するように設計されていますが、UIでの特定のエディション機能の使用が制限されます。
 
-詳しくは、「 [互換モード」を参照してください。](../../designing/using/using-existing-content.md#compatibility-mode)
+詳しくは、[互換モード](../../designing/using/using-existing-content.md#compatibility-mode)を参照してください
 
 ## 最初の電子メールコンテンツを作成する方法を教えてください。
 
 まず、ホームページから電子メールを作成します。
 次に、電子メールにコンテンツを追加するには、構造コンポーネントを追加し、その中にコンテンツコンポーネントを挿入する必要があります。
 
-詳しくは、「最初から電子メールを [作成する」を参照してください。](../../designing/using/quick-start.md#from-scratch-email)
+詳しくは、[ゼロからの電子メールの作成](../../designing/using/quick-start.md#from-scratch-email)を参照してください。
 
 ## フラグメントを更新する必要があるのはなぜですか？
 
 E メールデザイナーの機能強化は継続的におこなわれています。電子メールコンテンツを最初から作成した場合、標準搭載のテンプレートから作成した場合、またはフラグメントを作成した場合は、CSSの衝突の問題などの問題を回避するために、コンテンツを最新バージョンに更新する必要があります。
 
-詳しくは、「フラグメントの [更新」を参照してください。](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-updates)
+詳しくは、[フラグメントの更新](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-updates)を参照してください
 
 ## テーマでスタイルを保存できますか？
 
 スタイルは、後で再利用するためにテーマとして保存することはできません。ただし、CSS スタイルは、コンテンツテンプレートまたは E メールに保存できます。
 
-詳しくは、「 [スタイル」を参照してください。](../../designing/using/styles.md)
+詳しくは、[スタイル](../../designing/using/styles.md)を参照してください。
 
 ## 使用できるフォントはどれですか。
 
