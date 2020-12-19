@@ -16,7 +16,7 @@ ht-degree: 59%
 ---
 
 
-# トランザクションメッセージの編集{#editing-transactional-message}
+# トランザクションメッセージの編集 {#editing-transactional-message}
 
 イベント<!--(the cart abandonment example as explained in [this section](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle))-->を作成して公開すると、対応するトランザクションメッセージが自動的に作成されます。
 
