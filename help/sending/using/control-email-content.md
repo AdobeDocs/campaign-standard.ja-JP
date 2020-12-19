@@ -2,7 +2,7 @@
 solution: Campaign Standard
 product: campaign
 title: Adobe Campaign Standardでの電子メールコンテンツの制御
-description: 電子メールコンテンツを編集する際に、Adobe Campaign Standardでの配信品質を向上させる方法を学びます。
+description: 電子メールコンテンツを編集する際に、Adobe Campaign Standardでの配信品質を向上させる方法を説明します。
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
