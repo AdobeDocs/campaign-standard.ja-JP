@@ -42,13 +42,13 @@ ht-degree: 9%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> On denylist<br /> </td> 
-   <td> @blacklisted<br /> </td> 
+   <td> ブロックリスト<br /> </td> 
+   <td> @ブラックリスト登録済み<br /> </td> 
    <td> count(@failureReason=8, @failureType=2)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Denylist rate<br /> </td> 
+   <td> ブロックリストレート<br /> </td> 
    <td> @rateBlacklisted<br /> </td> 
    <td> @ブラックリスト登録済み/@sent<br /> </td> 
    <td> レート計算の分母は、送信回数（配信済み+バウンス）に基づきます。<br /> </td> 
@@ -60,7 +60,7 @@ ht-degree: 9%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Bounce + Error rate<br /> </td> 
+   <td> バウンス+エラー率<br /> </td> 
    <td> @rateBounces<br /> </td> 
    <td> @bounces/@sent<br /> </td> 
    <td> </td> 
@@ -68,14 +68,14 @@ ht-degree: 9%
   <tr> 
    <td> クリック<br /> </td> 
    <td> @clicks<br /> </td> 
-   <td> count（@trackingUrlType=1または10または11）<br /> </td> 
+   <td> count(@trackingUrlType=1 or 10 or 11)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Click through rate<br /> </td> 
+   <td> クリックスルー率<br /> </td> 
    <td> @clickthrough<br /> </td> 
    <td> @uniqueclicks/@delivered<br /> </td> 
-   <td> レート計算の分母は、[配信済み]にのみ基づきます。<br /> </td> 
+   <td> レート計算の分母は配信済みのみに基づきます。<br /> </td> 
   </tr> 
   <tr> 
    <td> 配信済み<br /> </td> 
@@ -84,7 +84,7 @@ ht-degree: 9%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Delivered rate<br /> </td> 
+   <td> 配信率<br /> </td> 
    <td> @rateDelivered<br /> </td> 
    <td> @delivered/@sent<br /> </td> 
    <td> レート計算の分母は、送信回数（配信済み+バウンス）に基づきます。<br /> </td> 
@@ -96,7 +96,7 @@ ht-degree: 9%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> 直帰率<br /> </td> 
+   <td> ハードバウンス率<br /> </td> 
    <td> @rateHardBounces<br /> </td> 
    <td> @hardBounces/@sent<br /> </td> 
    <td> レート計算の分母は、送信回数（配信済み+バウンス）に基づきます。<br /> </td> 
@@ -117,10 +117,10 @@ ht-degree: 9%
    <td> ミラーページ<br /> </td> 
    <td> @mirrorPage<br /> </td> 
    <td> count(@trackingUrlType=6)<br /> </td> 
-   <td> レート計算の分母は、[配信済み]にのみ基づきます。<br /> </td> 
+   <td> レート計算の分母は配信済みのみに基づきます。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Mirror page rate<br /> </td> 
+   <td> ミラーページ率<br /> </td> 
    <td> @rateMirrorPage<br /> </td> 
    <td> @mirrorPage/@delivered<br /> </td> 
    <td> </td> 
@@ -138,19 +138,19 @@ ht-degree: 9%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Open rate<br /> </td> 
+   <td> オープンレート<br /> </td> 
    <td> @rateOpens<br /> </td> 
-   <td> @opens/@delived<br /> </td> 
-   <td> レート計算の分母は、[配信済み]にのみ基づきます。<br /> </td> 
+   <td> @opens/@delivered<br /> </td> 
+   <td> レート計算の分母は配信済みのみに基づきます。<br /> </td> 
   </tr> 
   <tr> 
    <td> 強制隔離<br /> </td> 
-   <td> @quarantine<br /> </td> 
+   <td> @強制隔離<br /> </td> 
    <td> isQuarantine=true<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Quarantine rate<br /> </td> 
+   <td> 強制隔離率<br /> </td> 
    <td> @rateQuarantine<br /> </td> 
    <td> @強制隔離/@sent<br /> </td> 
    <td> レート計算の分母は、送信回数（配信済み+バウンス）に基づきます。<br /> </td> 
@@ -162,25 +162,25 @@ ht-degree: 9%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Rejected rate<br /> </td> 
+   <td> 却下レート<br /> </td> 
    <td> @rateRejected<br /> </td> 
    <td> @rejected/@sent<br /> </td> 
    <td> レート計算の分母は、送信回数（配信済み+バウンス）に基づきます。<br /> </td> 
   </tr> 
   <tr> 
-   <td> Processed/sent<br /> </td> 
+   <td> 処理済み/送信済み<br /> </td> 
    <td> @sent<br /> </td> 
    <td> @delivered + @bounces<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Soft bounce<br /> </td> 
+   <td> ソフトバウンス<br /> </td> 
    <td> @softBounces<br /> </td> 
    <td> count(@failureType=1)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Soft bounce rate<br /> </td> 
+   <td> ソフトバウンス率<br /> </td> 
    <td> @rateSoftBounces<br /> </td> 
    <td> @softBounces/@sent<br /> </td> 
    <td> レート計算の分母は、送信回数（配信済み+バウンス）に基づきます。<br /> </td> 
@@ -188,11 +188,11 @@ ht-degree: 9%
   <tr> 
    <td> ユニーククリック数<br /> </td> 
    <td> @uniqueclicks<br /> </td> 
-   <td> 個別クリック数は、ThetaSketchの概念を使用して計算されます。 For more on this, refer to this <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">example</a>.<br /> </td> 
+   <td> 個別クリック数は、ThetaSketchの概念を使用して計算されます。 詳しくは、<a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">例</a><br />を参照してください。 </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Unique opens<br /> </td> 
+   <td> 一意のオープン<br /> </td> 
    <td> @uniqueopens<br /> </td> 
    <td> unique(@trackingUrlType=1,2,3,6,10,11)<br /> </td> 
    <td> </td> 
@@ -210,10 +210,10 @@ ht-degree: 9%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Unsubscribe rate<br /> </td> 
+   <td> 登録解除率<br /> </td> 
    <td> @rateUnsubscribes<br /> </td> 
-   <td> @unsubscribes/@delivered<br /> </td> 
-   <td> レート計算の分母は、[配信済み]にのみ基づきます。<br /> </td> 
+   <td> @unsubscribes/@delived<br /> </td> 
+   <td> レート計算の分母は配信済みのみに基づきます。<br /> </td> 
   </tr> 
   <tr> 
    <td> 不明なユーザー<br /> </td> 
@@ -236,22 +236,22 @@ ht-degree: 9%
  </thead> 
  <tbody> 
   <tr> 
-   <td> Processed/sent<br /> </td> 
+   <td> 処理済み/送信済み<br /> </td> 
    <td> @sent<br /> </td> 
    <td> @count(status=sent)<br /> </td> 
   </tr> 
   <tr> 
    <td> 配信済み<br /> </td> 
    <td> @delivered<br /> </td> 
-   <td> @count(status=delivered)<br /> </td> 
+   <td> @count(status=delived)<br /> </td> 
   </tr> 
   <tr> 
-   <td> Delivered rate<br /> </td> 
+   <td> 配信率<br /> </td> 
    <td> @rateDelivered<br /> </td> 
    <td> (@delivered/@sent)*100<br /> </td> 
   </tr> 
   <tr> 
-   <td> Bounce + Error rate<br /> </td> 
+   <td> バウンス+エラー率<br /> </td> 
    <td> @rateBounces<br /> </td> 
    <td> (@delivered/@sent)*100<br /> </td> 
   </tr> 
@@ -261,22 +261,22 @@ ht-degree: 9%
    <td> @count(status=open)<br /> </td> 
   </tr> 
   <tr> 
-   <td> Open rate<br /> </td> 
+   <td> オープンレート<br /> </td> 
    <td> @rateOpens<br /> </td> 
    <td> (@opens/@delivered)*100<br /> </td> 
   </tr> 
   <tr> 
-   <td> Unique opens<br /> </td> 
+   <td> 一意のオープン<br /> </td> 
    <td> @uniqueopens<br /> </td> 
-   <td> 一意の開きは、ThetaSketchの一意のRecipientIdの概念を使用して計算されます。 For more on this, refer to this <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">example</a>.<br /> </td> 
+   <td> 一意の開きは、ThetaSketchの一意のRecipientIdの概念を使用して計算されます。 詳しくは、<a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">例</a><br />を参照してください。 </td> 
   </tr> 
   <tr> 
    <td> インプレッション<br /> </td> 
    <td> @impressions<br /> </td> 
-   <td> @count(status=delivered)<br /> </td> 
+   <td> @count(status=delived)<br /> </td> 
   </tr> 
   <tr> 
-   <td> Unique impressions<br /> </td> 
+   <td> 一意のインプレッション数<br /> </td> 
    <td> @uniqueimpressions<br /> </td> 
    <td> @unique(@count(status=表示))<br /> </td> 
   </tr> 
@@ -288,10 +288,10 @@ ht-degree: 9%
   <tr> 
    <td> ユニーククリック数<br /> </td> 
    <td> @uniqueclicks<br /> </td> 
-   <td> 個別クリック数は、ThetaSketchの概念を使用して計算されます。 For more on this, refer to this <a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">example</a>.<br /> </td> 
+   <td> 個別クリック数は、ThetaSketchの概念を使用して計算されます。 詳しくは、<a href="https://docs.adobe.com/content/help/en/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">例</a><br />を参照してください。 </td> 
   </tr> 
   <tr> 
-   <td> Click through rate<br /> </td> 
+   <td> クリックスルー率<br /> </td> 
    <td> @clickthrough<br /> </td> 
    <td> (@interact/@delived)*100<br /> </td> 
   </tr> 
@@ -311,16 +311,16 @@ ht-degree: 9%
  </thead> 
  <tbody> 
   <tr> 
-   <td> Processed/sent<br /> </td> 
+   <td> 処理済み/送信済み<br /> </td> 
    <td> @sent<br /> </td> 
    <td> @count(status=sent)<br /> </td> 
-   <td> sent=delived<br /> </td> 
+   <td> sent=delivered<br /> </td> 
   </tr> 
   <tr> 
    <td> 配信済み<br /> </td> 
    <td> @delivered<br /> </td> 
-   <td> @count(status=delivered)<br /> </td> 
-   <td> delived=sent<br /> </td> 
+   <td> @count(status=delived)<br /> </td> 
+   <td> delivered=sent<br /> </td> 
   </tr> 
   <tr> 
    <td> インプレッション<br /> </td> 
@@ -329,44 +329,44 @@ ht-degree: 9%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Unique impressions<br /> </td> 
+   <td> 一意のインプレッション数<br /> </td> 
    <td> @uniqueimpressions<br /> </td> 
    <td> @unique(@count(status=表示))<br /> </td> 
-   <td> キャンペーンプロファイル(inAppProfile) <span class="uicontrol"></span> ターゲットに基づく受信者ユーザーの場合は、user = template Idです。<br /> モバイルアプリ(inAppBroadcast) <span class="uicontrol">および</span> ターゲットユーザーのすべてのユーザーをモバイルプロファイル(inApp) <span class="uicontrol"></span> テンプレートに基づいてターゲットする場合は、user = MC Idまたはユーザー、モバイルアプリ、デバイスの一意の組み合わせを表す同等のユーザー。<br /> </td> 
+   <td> <span class="uicontrol">ターゲットユーザーのキャンペーンプロファイル(inAppProfile)</span>テンプレートに基づく&lt;a0/&gt;ユーザーの場合、user =受信者ID。<br /> モバイルアプリ(inAppBroadcast)のすべてのユーザー <span class="uicontrol">と、モバイルプロファイル(inApp)</span> テンプレートに基づく <span class="uicontrol">ターゲットユーザーを</span> ターゲットする場合は、user = MC Idまたは、ユーザー、モバイルアプリ、デバイスの一意の組み合わせを表す同等のユーザー。<br /> </td> 
   </tr> 
   <tr> 
-   <td> In-App clicks <br /> </td> 
+   <td> アプリ内クリック数<br /> </td> 
    <td> @inappclicks<br /> </td> 
-   <td> @count(status=click)<br /> </td> 
+   <td> @count (status=click)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> 個別アプリ内クリック数<br /> </td> 
    <td> @uniqueinapp<br /> </td> 
    <td> @unique(@count (status=clicks))<br /> </td> 
-   <td> キャンペーンプロファイル(inAppProfile) <span class="uicontrol"></span> ターゲットに基づく受信者ユーザーの場合は、user = template Idです。<br /> モバイルアプリ(inAppBroadcast) <span class="uicontrol">および</span> ターゲットユーザーのすべてのユーザーをモバイルプロファイル(inApp) <span class="uicontrol"></span> テンプレートに基づいてターゲットする場合は、user = MC Idまたはユーザー、モバイルアプリ、デバイスの一意の組み合わせを表す同等のユーザー。<br /> </td> 
+   <td> <span class="uicontrol">ターゲットユーザーのキャンペーンプロファイル(inAppProfile)</span>テンプレートに基づく&lt;a0/&gt;ユーザーの場合、user =受信者ID。<br /> モバイルアプリ(inAppBroadcast)のすべてのユーザー <span class="uicontrol">と、モバイルプロファイル(inApp)</span> テンプレートに基づく <span class="uicontrol">ターゲットユーザーを</span> ターゲットする場合は、user = MC Idまたは、ユーザー、モバイルアプリ、デバイスの一意の組み合わせを表す同等のユーザー。<br /> </td> 
   </tr> 
   <tr> 
-   <td> In-App click through rate<br /> </td> 
+   <td> アプリ内クリックスルー率<br /> </td> 
    <td> @inappclickthrough<br /> </td> 
    <td> ボタン1またはボタン2の合計クリック数/合計インプレッション数*100<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> In-App dismissal<br /> </td> 
-   <td> @解雇<br /> </td> 
+   <td> アプリ内解雇<br /> </td> 
+   <td> @empoince<br /> </td> 
    <td> @count (status=close)<br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> 個別のアプリ内課金<br /> </td> 
-   <td> @uniqueejounce<br /> </td> 
+   <td> 個別のアプリ内課金は<br />を却下 </td> 
+   <td> @uniqueejousence<br /> </td> 
    <td> @unique(@count (status=close))<br /> </td> 
-   <td> キャンペーンプロファイル(inAppProfile) <span class="uicontrol"></span> ターゲットに基づく受信者ユーザーの場合は、user = template Idです。<br /> モバイルアプリ(inAppBroadcast) <span class="uicontrol">および</span> ターゲットユーザーのすべてのユーザーをモバイルプロファイル(inApp) <span class="uicontrol"></span> テンプレートに基づいてターゲットする場合は、user = MC Idまたはユーザー、モバイルアプリ、デバイスの一意の組み合わせを表す同等のユーザー。<br /> </td> 
+   <td> <span class="uicontrol">ターゲットユーザーのキャンペーンプロファイル(inAppProfile)</span>テンプレートに基づく&lt;a0/&gt;ユーザーの場合、user =受信者ID。<br /> モバイルアプリ(inAppBroadcast)のすべてのユーザー <span class="uicontrol">と、モバイルプロファイル(inApp)</span> テンプレートに基づく <span class="uicontrol">ターゲットユーザーを</span> ターゲットする場合は、user = MC Idまたは、ユーザー、モバイルアプリ、デバイスの一意の組み合わせを表す同等のユーザー。<br /> </td> 
   </tr> 
   <tr> 
-   <td> In-App dismissal rate<br /> </td> 
-   <td> @docsalate<br /> </td> 
+   <td> アプリ内解雇率<br /> </td> 
+   <td> @docsalrate<br /> </td> 
    <td> 終了/合計インプレッション数*100<br /> </td> 
    <td> </td> 
   </tr> 
