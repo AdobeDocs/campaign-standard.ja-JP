@@ -9,15 +9,15 @@ index: y
 translation-type: tm+mt
 source-git-commit: a7300666587362048431d0bafacc317170b317aa
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 79%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # パーソナライズされたコンテンツの作成 {#build-personalized-content}
 
-メッセージコンテンツを設計するときは、配信の実行を妨げる可能性がある一般的な問題が発生しないようにします。ほとんどの場合、発生する可能性のあるエラーは [パーソナライゼーション](../../designing/using/personalization.md)、既存のコンテンツ [(HTMLコンテンツ](../../designing/using/using-existing-content.md) ) [を](../../designing/using/using-existing-content.md#converting-an-html-content) 使用する場合の書式設定、HTMLコンテンツ [(HTMLコンテンツ](../../designing/using/images.md))を変換する場合と画像(IM)に関連しています。
+メッセージコンテンツを設計するときは、配信の実行を妨げる可能性がある一般的な問題が発生しないようにします。ほとんどの場合、考えられるエラーは、[パーソナライゼーション](../../designing/using/personalization.md)、既存のコンテンツ](../../designing/using/using-existing-content.md)を使用して[HTMLコンテンツ](../../designing/using/using-existing-content.md#converting-an-html-content)を変換する場合のフォーマット、[画像](../../designing/using/images.md)に関連します。[
 
 ## パーソナライゼーションの最適化 {#optimize-personalization}
 
@@ -28,9 +28,9 @@ Adobe Campaign データベースに保存されている受信者データや�
 エラーを避けるために、メッセージコンテンツが適切に設計されていることを確認します。多くのエラーはパーソナライゼーションに関係しています。
 
 動的コンテンツを手動で追加して、式エディターで定義した条件に従って受信者に異なるコンテンツを表示できます。 動的コンテンツを追加する場合は、選択した条件を満たさない受信者に対しては常にデフォルトのバリアントをそのまま使用する必要があります。
-For more on dynamic content, refer to the [this section](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
+動的なコンテンツについて詳しくは、[このセクション](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)を参照してください。
 
-**ヒント** — 電子メールを様々なテストプロファイルでプレビューし、動的なコンテンツが正しく設定されていることを確認します。
+**ヒント**  — 電子メールを様々なテストプロファイルでプレビューし、動的なコンテンツが正しく設定されていることを確認します。
 
 ## 最適化されたコンテンツの作成 {#optimize-content}
 
@@ -62,9 +62,9 @@ E メールを作成する際は、以下の一般的なベストプラクティ
 
 ### 購読解除リンク
 
-購読解除リンクは不可欠です。購読解除リンクが表示され、有効である必要があり、フォームが機能する必要があります。この節では、購読解除リンク [のガイドラインについて説明し](../../designing/using/personalization.md#about-targeting-dimension)ます。
+購読解除リンクは不可欠です。購読解除リンクが表示され、有効である必要があり、フォームが機能する必要があります。この節](../../designing/using/personalization.md#about-targeting-dimension)では、購読解除リンクのガイドライン[について説明します。
 
-By default, when the message is analyzed, a control [typology rule](../../sending/using/control-rules.md) checks whether an opt-out link has been included and generates a warning if it is missing.
+デフォルトでは、メッセージが分析されると、コントロール[タイポロジルール](../../sending/using/control-rules.md)はオプトアウトリンクが含まれているかどうかを確認し、リンクがない場合は警告を生成します。
 
 **ヒント**：ヒューマンエラーが発生する可能性は常にあるので、毎回、送信前に、オプトアウトリンクが適切に機能することを確認する必要があります。例えば、配達確認を送信するときは、リンクが有効であること、フォームがオンラインであること、「今後のこの受信者への連絡は不要」フィールドが「はい」に変更されていることを確認します。
 
@@ -88,7 +88,7 @@ E メールの制限を守るには、以下を考慮してください。
 
 デフォルトでは、SMS の文字数は GSM（Global System for Mobile Communications）標準に準じています。GSM エンコードを使用する SMS メッセージは 160 文字以内に制限されています。複数の部分に分けて送信されるメッセージの場合は、SMS 1 件につき 153 文字以内です。
 
-表記変換では、SMS の特定の文字が GSM 標準に準じていない場合に、別の文字に置き換えられます。パーソナライゼーションフィールドを SMS メッセージのコンテンツに入れると、GSM エンコードに対応していない文字が含まれる場合があります。You can authorize character transliteration by checking the corresponding box in the SMPP channel settings tab of the corresponding **[!UICONTROL External account]**.
+表記変換では、SMS の特定の文字が GSM 標準に準じていない場合に、別の文字に置き換えられます。パーソナライゼーションフィールドを SMS メッセージのコンテンツに入れると、GSM エンコードに対応していない文字が含まれる場合があります。対応する&#x200B;**[!UICONTROL External account]**の「SMPPチャネル設定」タブの対応するボックスをチェックすると、文字変換を承認できます。
 詳しくは、[この節](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration)を参照してください。
 
 **ヒント**：
@@ -105,9 +105,9 @@ E メールの制限を守るには、以下を考慮してください。
 
 * Web HTML ではなく、レスポンシブ E メール HTML を使用します
 
-* プレビューモードと配達確認を使用して、できるだけ多くのデバイス上でレンダリングをテストします。送信前にメッセージを [プレビューする方法](../../sending/using/previewing-messages.md) 。
+* プレビューモードと配達確認を使用して、できるだけ多くのデバイス上でレンダリングをテストします。送信前に[プレビューメッセージ](../../sending/using/previewing-messages.md)を送信する方法を説明します。
 
-* キャンペーンの電子メールデザイナーには、モバイル用にレスポンシブデザイン形式のテンプレートが付属しています。 Learn more [in this page](../../designing/using/using-reusable-content.md#content-templates).
+* キャンペーンの電子メールデザイナーには、モバイル用にレスポンシブデザイン形式のテンプレートが付属しています。 詳細[は、このページ](../../designing/using/using-reusable-content.md#content-templates)を参照してください。
 
 ## 画像の管理 {#manage-images}
 
@@ -135,4 +135,4 @@ E メールの制限を守るには、以下を考慮してください。
 
 メッセージをプレビューして、パーソナライゼーションと受信者に対する配信の表示方法を確認することをお勧めします。
 
-In the Email designer, the **[!UICONTROL Preview]** button lets you view the rendering of each content for a recipient. コンテンツのパーソナライゼーションフィールドや条件付き要素は、選択したプロファイル内の対応する情報で置き換えられます。[詳細情報](../../sending/using/previewing-messages.md)
+電子メールデザイナでは、「**[!UICONTROL Preview]**」ボタンを使用して、受信者の各コンテンツのレンダリングを表示できます。 コンテンツのパーソナライゼーションフィールドや条件付き要素は、選択したプロファイル内の対応する情報で置き換えられます。[詳細情報](../../sending/using/previewing-messages.md)
