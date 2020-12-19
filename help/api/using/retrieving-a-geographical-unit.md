@@ -17,7 +17,7 @@ ht-degree: 12%
 
 # プロファイルの地理的単位の取得 {#retrieving-geographical-unit}
 
-1. プロファイルPKeyに対してGETリクエストを実行し、 **geoUnit** URLを取得します。
+1. プロファイルPKeyに対してGETリクエストを実行し、**geoUnit** URLを取得します。
 1. URLに対してGETリクエストを実行し、地理的単位に関する詳細を取得します。
 
 <br/>
