@@ -22,7 +22,7 @@ SMS 配信の作成は、通常の E メールの作成と非常に似ていま�
 
 詳細な SMS パラメーターについて詳しくは、[SMS チャネルの設定](../../administration/using/configuring-sms-channel.md)の節を参照してください。
 
-![](assets/do-not-localize/how-to-video.png) [動画でこの機能を確認する](#video)
+![](assets/do-not-localize/how-to-video.png) [この機能をビデオで確認](#video)
 
 SMS メッセージを作成して携帯電話に送信するには、次のものが必要です。
 
