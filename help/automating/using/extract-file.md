@@ -10,8 +10,8 @@ context-tags: fileExport,main
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 91%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 91%
 
 1. 必要に応じて、「**[!UICONTROL Add a pre-processing step]**」フィールドの **[!UICONTROL Compression]** を選択して、出力ファイルを zip 形式で圧縮できます。出力ファイルは圧縮されて GZIP ファイル（.gz）になります。
 
-   また、この **[!UICONTROL Add a pre-processing step]** フィールドを使用すると、ファイルを抽出する前にファイルを暗号化できます。 For more on how to work with encrypted files, refer to [this section](../../automating/using/managing-encrypted-data.md)
+   また、**[!UICONTROL Add a pre-processing step]**&#x200B;フィールドを使用すると、ファイルを抽出する前にファイルを暗号化できます。 暗号化されたファイルの使い方について詳しくは、[この](../../automating/using/managing-encrypted-data.md)を参照してください。
 
 1. 出力列を追加するには、![](assets/add_darkgrey-24px.png) または「**[!UICONTROL Add an element]**」ボタンをクリックします。
 
