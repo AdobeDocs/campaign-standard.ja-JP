@@ -15,7 +15,7 @@ ht-degree: 18%
 ---
 
 
-# Adobe Campaign電子メールへのAdobe Experience Managerコンテンツの読み込み {#creating-email-aem}
+# Adobe Experience ManagerのコンテンツをAdobe Campaignの電子メールにインポートする{#creating-email-aem}
 
 このドキュメントを使用して、Adobe Experience Managerで電子メールコンテンツを作成および管理し、電子メールをAdobe Campaign Standardにインポートしてマーケティングキャンペーンに使用する方法を学びます。
 
@@ -25,7 +25,7 @@ ht-degree: 18%
 * 統合用に設定されたAdobe Campaignインスタンスへのアクセス。
 * AEMコンテンツを受け取るように設定されたAdobe Campaign電子メールテンプレート。
 
-## Adobe Experience Managerの電子メールへのアクセス {#email-content-aem}
+## Adobe Experience Manager{#email-content-aem}の電子メールにアクセス中
 
 Adobe Experience Managerオーサリングインスタンスにログインし、サイトを参照して、電子メールコンテンツが保存されているフォルダーにアクセスします。
 
@@ -37,36 +37,36 @@ Adobe Campaign 専用のいくつかのテンプレートを使用できます�
 
 デフォルトでは、定義済みの2つのテンプレートを使用して、Adobe Campaign用の電子メールコンテンツを作成できます。
 
-* **[!UICONTROL Adobe Campaign Email]**:このテンプレートには、パーソナライズ可能な標準コンテンツが含まれています。 Adobe Campaign電子メール(AC6.1)とAdobe Campaign電子メール(ACS)のどちらかを選択できます。
+* **[!UICONTROL Adobe Campaign Email]**:このテンプレートには、パーソナライズ可能な標準コンテンツが含まれています。Adobe Campaign電子メール(AC6.1)とAdobe Campaign電子メール(ACS)のどちらかを選択できます。
 * **[!UICONTROL Importer Page]**:このテンプレートを使用すると、HTMLファイルを含むZIPファイルとコンテンツを読み込んで、パーソナライズできるようにすることができます。
 
-1. Adobe Experience Managerで、新しいを作成し **[!UICONTROL Page]**&#x200B;ます。
+1. Adobe Experience Managerで、新しい&#x200B;**[!UICONTROL Page]**&#x200B;を作成します。
 
-1. テン **[!UICONTROL Adobe Campaign Email]** プレートを選択します。 詳細手順については、次のビデオを参照してください。
+1. **[!UICONTROL Adobe Campaign Email]**&#x200B;テンプレートを選択します。 詳細手順については、次のビデオを参照してください。
    >[!VIDEO](https://video.tv.adobe.com/v/29997)
 
 1. 新しい電子メールコンテンツを開きます。
 
-1. で、 **[!UICONTROL Page properties]**&#x200B;をに設定 **[!UICONTROL Adobe Campaign]** し **[!UICONTROL Cloud Service Configuration]**&#x200B;ます。 これにより、コンテンツと Adobe Campaign インスタンスの間の通信が可能になります。
+1. **[!UICONTROL Page properties]**&#x200B;内で、**[!UICONTROL Adobe Campaign]**&#x200B;を&#x200B;**[!UICONTROL Cloud Service Configuration]**&#x200B;として設定します。 これにより、コンテンツと Adobe Campaign インスタンスの間の通信が可能になります。
 
    詳しくは、次のビデオを参照してください。
 
    >[!VIDEO](https://video.tv.adobe.com/v/29999)
 
-## 電子メールの編集と送信 {#editing-email-aem}
+## 電子メールの編集と送信{#editing-email-aem}
 
 コンポーネントとアセットを追加して、電子メールコンテンツを編集できます。 パーソナライゼーションフィールドを使用して、Adobe Campaign内の受信者のデータに基づいて、より関連性の高いメッセージを配信できます。
 
 Adobe Experience Managerで電子メールコンテンツを作成するには：
 
-1. サイドキックの「/」 **[!UICONTROL Plain text]** タブにアクセスして、件名と電子メールの **[!UICONTROL Page properties]****[!UICONTROL Email]** バージョンを編集します。
+1. サイドキックから&#x200B;**[!UICONTROL Page properties]** > **[!UICONTROL Email]**&#x200B;タブにアクセスして、件名と電子メールの&#x200B;**[!UICONTROL Plain text]**&#x200B;バージョンを編集します。
 
-1. コンポー追加ネント **[!UICONTROL Personalization fields]** を通して表示され **[!UICONTROL Text & Personalization]** ます。 各コンポーネントは、次に示す特定の使用方法に対応します。画像の挿入、パーソナライゼーションの追加など
+1. 追加&#x200B;**[!UICONTROL Personalization fields]**&#x200B;から&#x200B;**[!UICONTROL Text & Personalization]**&#x200B;コンポーネントまで。 各コンポーネントは、次に示す特定の使用方法に対応します。画像の挿入、パーソナライゼーションの追加など
 
    詳しくは、次のビデオを参照してください。
    >[!VIDEO](https://video.tv.adobe.com/v/29998)
 
-1. タブから、 **[!UICONTROL Workflow]****[!UICONTROL Approve for Adobe Campaign]** 検証ワークフローを選択します。 E メールに未承認のコンテンツを使用している場合、その E メールを Adobe Campaign で送信することはできません。
+1. 「**[!UICONTROL Workflow]**」タブから、**[!UICONTROL Approve for Adobe Campaign]**&#x200B;検証ワークフローを選択します。 E メールに未承認のコンテンツを使用している場合、その E メールを Adobe Campaign で送信することはできません。
 
 1. コンテンツと送信パラメーターが定義されたら、Adobe Campaign Standardでの電子メールの承認、準備および送信に進むことができます。
 
