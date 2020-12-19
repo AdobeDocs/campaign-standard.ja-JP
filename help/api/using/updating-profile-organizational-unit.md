@@ -9,15 +9,15 @@ topic-tags: campaign-standard-apis
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 10%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # プロファイルの組織単位の更新 {#managing-organizational-units}
 
-1. orgUnitBase **** リソースに対してGET要求を実行し、組織単位PKeyを取得します
+1. **orgUnitBase**&#x200B;リソースに対してGET要求を実行し、組織単位PKeyを取得します
 1. プロファイルPKeyに対して、目的の組織単位PKeyをペイロードでPATCH要求を実行します。
 
 <br/>
