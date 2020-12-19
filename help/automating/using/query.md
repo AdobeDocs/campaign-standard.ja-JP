@@ -58,7 +58,7 @@ ht-degree: 95%
 
 1. 「**[!UICONTROL Transition]**」タブの「**[!UICONTROL Enable an outbound transition]**」オプションを使用すると、クエリアクティビティがデータを取得しない場合でも、このアクティビティの後にアウトバウンドトランジションを追加できます。
 
-   The outbound transition&#39;s segment code can be personalized using a standard expression and events variables (see [this page](../../automating/using/customizing-workflow-external-parameters.md)).
+   送信トランジションのセグメントコードは、標準の式変数とイベント変数を使用してパーソナライズできます（[このページ](../../automating/using/customizing-workflow-external-parameters.md)を参照）。
 
 1. アクティビティの設定を確認し、ワークフローを保存します。
 
@@ -66,7 +66,7 @@ ht-degree: 95%
 
 ターゲティングディメンションとリソースを使用すると、配信のターゲットを指定するためにクエリで使用する要素を定義できます。
 
-これらは [ターゲットマッピングで設定され](../../administration/using/target-mappings-in-campaign.md)、ワークフローの作成時に、クエリアクティビティの **[!UICONTROL Properties]** タブで定義されます。
+これらは[ターゲットマッピング](../../administration/using/target-mappings-in-campaign.md)に設定され、ワークフローの作成時にクエリアクティビティの&#x200B;**[!UICONTROL Properties]**&#x200B;タブで定義されます。
 
 >[!NOTE]
 >
@@ -96,7 +96,7 @@ ht-degree: 95%
 
 デフォルトでは、ターゲティングディメンションとリソースはプロファイルをターゲットするために設定されます。ただし、距離テーブル内の特定のレコードを検索する場合は、ターゲティングディメンションとは別のリソースを使用すると便利です。
 
-この方法の詳細については、次の使用例を参照してください。 [ターゲティングディメンションとは異なるリソースの使用](../../automating/using/using-resources-different-from-targeting-dimensions.md)
+この方法の詳細については、次の使用例を参照してください。[ターゲティングディメンションとは異なるリソースを使用](../../automating/using/using-resources-different-from-targeting-dimensions.md)
 
 ## データのエンリッチメント {#enriching-data}
 
@@ -118,7 +118,7 @@ ht-degree: 95%
 >
 >デフォルトでは、クエリの「**[!UICONTROL Additional data]**」タブの「**[!UICONTROL Advanced options]**」で「**[!UICONTROL Remove duplicate rows (DISTINCT)]**」オプションがオンになっています。パフォーマンス上の理由から、追加のデータが「**[!UICONTROL Query]**」アクティビティに多数（100 以上）含まれている場合は、このオプションをオフにすることをお勧めします。このオプションをオフにすると、クエリされたデータに応じて重複が取得される可能性があるので注意してください。
 
-この節では、電子メールに追加のデータを含めて個人設定する方法に関する使用例 [を示し](../../automating/using/personalizing-email-with-additional-data.md)ます。
+Eメールに追加のデータをパーソナライズする方法に関する使用例は、[このセクション](../../automating/using/personalizing-email-with-additional-data.md)に記載されています。
 
 ### シンプルなフィールドの追加 {#adding-a-simple-field}
 
