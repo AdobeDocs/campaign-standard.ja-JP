@@ -23,26 +23,26 @@ ht-degree: 12%
         <a href="../../start/using/work-with-audiences.md"><img width="60px" alt="conditions" src="assets/icon_profile.svg"/></a>
     </td>
     <td valign="top">
-        <a href="../../api/using/creating-a-service.md"><img width="60px" alt="conditions" src="assets/icon_profile.svg"/></a>
+        <a href="../../api/using/creating-a-service.md"><img width="60px" alt="条件" src="assets/icon_profile.svg"/></a>
     </td>
     <td valign="top">
-        <a href="../../api/using/interacting-with-custom-resources.md"><img width="60px" alt="conditions" src="assets/icon_profile.svg"/></a>
+        <a href="../../api/using/interacting-with-custom-resources.md"><img width="60px" alt="条件" src="assets/icon_profile.svg"/></a>
     </td>
     <td valign="top">
-        <a href="../../api/using/interacting-with-marketing-history.md"><img width="60px" alt="conditions" src="assets/icon_profile.svg"/></a>
+        <a href="../../api/using/interacting-with-marketing-history.md"><img width="60px" alt="条件" src="assets/icon_profile.svg"/></a>
     </td>
 </tr>
 <tr>
 <td>顧客プロファイル</td>
 <td>データベースの強化</td>
 <td>オーディエンスの整理</td>
-<td>プライバシーの管理</td>
+<td>プライバシー管理</td>
 </tr>
 </table>
 
-## 顧客プロファイル {#customer-profiles}
+## 顧客プロファイル{#customer-profiles}
 
-<img width="60px" alt="conditions" src="assets/icon_profile.svg"/>
+<img width="60px" alt="条件" src="assets/icon_profile.svg"/>
 
 Adobe Campaignプロファイルは、データベースに格納されているすべての連絡先を表します。 各プロファイルはデータベース内の1つのエントリに対応し、そのプロファイルがターゲット設定され、資格を持ち、個別に追跡されるために必要な情報が格納されます。 つまり、プロファイルは次のことが可能です。組織に応じた顧客、見込み客、ニュースレターを購読している個人、受信者、ユーザー、またはその他の名称。
 
@@ -51,23 +51,23 @@ Adobe Campaignプロファイルは、データベースに格納されている
 * [プロファイルについて](../../audiences/using/about-profiles.md)
 * [組織内のアクティブなプロファイル数へのアクセス](../../audiences/using/active-profiles.md)
 
-## データベースの強化 {#populating-database}
+## データベースの強化{#populating-database}
 
-<img width="60px" alt="conditions" src="assets/icon_populate.svg"/>
+<img width="60px" alt="条件" src="assets/icon_populate.svg"/>
 
 Campaign Standardオファーは、マーケティングデータベースの拡張に役立つツールをいくつかご紹介します。 この節では、専用のドキュメントを参照しながら、キャンペーンにデータを挿入するために使用できる様々な方法について説明します。
 
-### ワークフローを介したデータの読み込み {#importing-data-through-workflows}
+### ワークフロー{#importing-data-through-workflows}を介したデータのインポート
 
-ワークフローを使用すると、データを収集し、 [**[!UICONTROL Data management]**](../../automating/using/about-data-management-activities.md) アクティビティを使用してキャンペーンデータベースにインポートできます。 ワークフローを介してデータをインポートする場合の一般的な情報とベストプラクティスについては、 [この節で説明し](../../automating/using/about-data-import-and-export.md)ます。
+ワークフローを使用すると、データを収集し、[**[!UICONTROL Data management]**](../../automating/using/about-data-management-activities.md)アクティビティを使用してキャンペーンデータベースにインポートできます。 ワークフローを介してデータをインポートする場合の一般的な情報とベストプラクティスについては、[このセクション](../../automating/using/about-data-import-and-export.md)を参照してください。
 
 また、データを読み込むためのテンプレートを設定することもできます。 同じ構造を持つファイルを定期的に読み込む必要がある場合は、インポートテンプレートの使用をお勧めします。 次の2種類のテンプレートを設定できます。
 
-* **ワークフローテンプレート**:これらは事前設定済みのワークフローで、必要に応じて一度設定すれば、データの読み込みとデータベースの更新を行うたびに再利用できます。 データを読み込むためのワークフローテンプレートの例について [この節で詳しく説明します](../../automating/using/creating-import-workflow-templates.md)。
+* **ワークフローテンプレート**:これらは事前設定済みのワークフローで、必要に応じて一度設定すれば、データの読み込みとデータベースの更新を行うたびに再利用できます。データをインポートするワークフローテンプレートの例については、[このセクション](../../automating/using/creating-import-workflow-templates.md)を参照してください。
 
-* **データテンプレートの読み込み**:ワークフローテンプレートと同様、テンプレートはワークフローに基づくテンプレートで、データベースを更新するためにファイルをアップロードするように設定されます。 設定が完了すると、 **[!UICONTROL Profile & audiences]** /メニューのシンプルな表示を使用してユーザーが使用できるようになり **[!UICONTROL Imports]** ます。 データテンプレートの読み込みについて詳しくは、 [専用のドキュメントを参照してください](../../automating/using/importing-data-with-import-templates.md)。
+* **データテンプレートの読み込み**:ワークフローテンプレートと同様、テンプレートはワークフローに基づくテンプレートで、データベースを更新するためにファイルをアップロードするように設定されます。設定が完了すると、**[!UICONTROL Profile & audiences]** / **[!UICONTROL Imports]**&#x200B;メニューの下のシンプルな表示でユーザーが使用できるようになります。 データテンプレートの読み込みについて詳しくは、[専用ドキュメント](../../automating/using/importing-data-with-import-templates.md)を参照してください。
 
-### ランディングページからのデータの収集 {#collecting-data-from-landing-pages}
+### ランディングページ{#collecting-data-from-landing-pages}からデータを収集中
 
 ランディングページとは、データを収集し、データベース内の既存の情報を作成または更新するために使用できるWebフォームです。 原則は以下の通り。
 
@@ -75,7 +75,7 @@ Campaign Standardオファーは、マーケティングデータベースの拡
 * 各入力フィールドを、データベースの対応するフィールドにマップします。
 * Webサイトまたはメッセージへの直接リンクを介して、ランディングページをオンラインで利用できるようにします。
 
-For more on landing pages, refer to the [dedicated documentation](../../channels/using/getting-started-with-landing-pages.md).
+ランディングページについて詳しくは、[専用ドキュメント](../../channels/using/getting-started-with-landing-pages.md)を参照してください。
 
 **詳細を表示**
 
@@ -85,7 +85,7 @@ For more on landing pages, refer to the [dedicated documentation](../../channels
 ### Microsoft Dynamics 365からのプロファイルの同期
 
 Microsoft Dynamics 365とのCampaign Standard統合により、Microsoft Dynamics 365の連絡先データをキャンペーンデータベースに渡すことができます。
-これらの連絡先はプロファイルリストに表示され、マーケティングキャンペーンでターゲットを設定できます。 For more on this integration, refer to the [dedicated documentation](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md).
+これらの連絡先はプロファイルリストに表示され、マーケティングキャンペーンでターゲットを設定できます。 この統合の詳細については、[専用ドキュメント](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)を参照してください。
 
 >[!NOTE]
 >
@@ -98,7 +98,7 @@ Microsoft Dynamics 365とのCampaign Standard統合により、Microsoft Dynamic
 
 ### API呼び出しを使用したデータの読み込み
 
-Campaign StandardAPIを使用すると、プロファイルやサービスの作成、更新、削除など、データベースを更新する操作を実行できます。 For more on how to use the APIs, refer to the [dedicated documentation](../../api/using/get-started-apis.md).
+Campaign StandardAPIを使用すると、プロファイルやサービスの作成、更新、削除など、データベースを更新する操作を実行できます。 APIの使用方法について詳しくは、[専用ドキュメント](../../api/using/get-started-apis.md)を参照してください。
 
 >[!CAUTION]
 >
@@ -109,9 +109,9 @@ Campaign StandardAPIを使用すると、プロファイルやサービスの作
 * xxxx
 * xxxx
 
-## オーディエンスの整理 {#organizing-audiences}
+## オーディエンスの整理{#organizing-audiences}
 
-<img width="60px" alt="conditions" src="assets/icon_audience.svg"/>
+<img width="60px" alt="条件" src="assets/icon_audience.svg"/>
 
 関連性の高い効果的なメッセージを届け、顧客の関心を効果的に向けるために、Adobe Campaignは高度な分析とターゲティング機能を統合します。
 
@@ -124,11 +124,11 @@ Campaign StandardAPIを使用すると、プロファイルやサービスの作
 
 ## プライバシーの管理 {#privacy-management}
 
-<img width="60px" alt="conditions" src="assets/icon_privacy.svg"/>
+<img width="60px" alt="条件" src="assets/icon_privacy.svg"/>
 
 GDPR は欧州連合（EU）にて新しく施行されるプライバシー保護法律で、データ保護要件を現代の状況に合わせて整合化することを目的としています。GDPR は、EU に居住しているデータ主体のデータを保有している Adobe Campaign の顧客に適用されます。Adobe Campaignで既に利用可能なプライバシー機能（同意管理、データ保持設定、ユーザの役割など）に加えて、Data Processorとしての役割で、特定のGDPR要求に対するData Controllerとしての準備を容易にするために、この機会を利用します。
 
-GDPRに準拠するためにAdobe Campaignが提供するツールと機能の詳細については、この [ガイドを参照してください](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy.html) 。
+Adobe CampaignがGDPRに準拠するために提供するツールや機能の詳細については、この[ガイド](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy.html)を参照してください。
 
 **詳細を表示**
 
