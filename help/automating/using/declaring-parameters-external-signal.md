@@ -9,22 +9,22 @@ topic-tags: workflow-general-operation
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Declaring the parameters in the External signal activity {#declaring-the-parameters-in-the-external-signal-activity}
+# 外部シグナルアクティビティでパラメータを宣言{#declaring-the-parameters-in-the-external-signal-activity}
 
-パラメーターを使用してワークフローを呼び出す最初の手順は、アクティビティでワークフローを宣言することで **[!UICONTROL External signal]** す。
+パラメーターを使用してワークフローを呼び出す最初の手順は、**[!UICONTROL External signal]**&#x200B;アクティビティでワークフローを宣言することです。
 
-1. アクティビティを開き、 **[!UICONTROL External signal]** タブを選択し **[!UICONTROL Parameters]** ます。
-1. ボタンをクリックし **[!UICONTROL Create element]** て、各パラメーターの名前とタイプを指定します。
+1. **[!UICONTROL External signal]**&#x200B;アクティビティを開き、「**[!UICONTROL Parameters]**」タブを選択します。
+1. **[!UICONTROL Create element]**&#x200B;ボタンをクリックし、各パラメーターの名前とタイプを指定します。
 
    >[!CAUTION]
    >
-   >名前とパラメーター数が、ワークフローの呼び出し時に定義された名前と数と一致することを確認します( [このページを参照](../../automating/using/defining-parameters-calling-workflow.md))。 また、パラメーターの型は、期待される値と一致する必要があります。
+   >名前とパラメーター数が、ワークフローの呼び出し時に定義されたものと同じであることを確認します（[このページ](../../automating/using/defining-parameters-calling-workflow.md)を参照）。 また、パラメーターの型は、期待される値と一致する必要があります。
 
    ![](assets/extsignal_declaringparameters_1.png)
 
