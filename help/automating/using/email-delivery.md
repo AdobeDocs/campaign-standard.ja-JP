@@ -10,8 +10,8 @@ context-tags: delivery,workflow,main
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '857'
-ht-degree: 94%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -65,7 +65,7 @@ E メール受信者は、「クエリ」や「積集合」などのターゲテ
       例えば、毎日送信する誕生日の繰り返し E メールの場合、送信を 1 ヶ月ごとに集計するように選択できます。これにより、毎日送信する E メールでも、配信のレポートを月単位で受け取ることができます。
    >[!NOTE]
    >
-   >反復配信は、 **集計期間に基づいて作成される**。 たとえば、集計期間が「日別」の場合、配信は1日に1回のみ再準備されます。 このワークフローを1日に複数回呼び出す場合は、を使用し [!UICONTROL No aggregation]ます。
+   >**集約期間**&#x200B;に基づいて反復配信を作成する。 たとえば、集計期間が「日別」の場合、配信は1日に1回のみ再準備されます。 このワークフローを1日に複数回呼び出す場合は、[!UICONTROL No aggregation]を使用してください。
 
 1. E メールのタイプを選択します。E メールのタイプは、**[!UICONTROL Resources]**／**[!UICONTROL Templates]**／**[!UICONTROL Delivery templates]**&#x200B;メニューに定義されている E メールテンプレートに基づいています。
 1. E メールの一般的なプロパティを入力します。既存のキャンペーンに E メールを添付することもできます。ワークフローの配信アクティビティのラベルが、E メールのラベルに更新されます。
