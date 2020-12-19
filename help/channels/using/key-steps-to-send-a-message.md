@@ -9,15 +9,15 @@ topic-tags: about-communication-channels
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 93%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # メッセージを送信するための主要な手順{#key-steps-to-send-a-message}
 
-To learn the delivery best practices, consult the [Delivery best practices](../../sending/using/delivery-best-practices.md) section.
+配信のベストプラクティスについては、[配信のベストプラクティス](../../sending/using/delivery-best-practices.md)のセクションを参照してください。
 
 メッセージの作成と送信の手順は次のとおりです。
 
