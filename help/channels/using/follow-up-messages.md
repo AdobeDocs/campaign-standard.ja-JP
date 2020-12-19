@@ -9,8 +9,8 @@ topic-tags: transactional-messaging
 translation-type: tm+mt
 source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
 workflow-type: tm+mt
-source-wordcount: '773'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
