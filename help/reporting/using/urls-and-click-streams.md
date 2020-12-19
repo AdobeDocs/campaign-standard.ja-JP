@@ -10,21 +10,21 @@ context-tags: deliveryTopUrlReport,main;campaignTopUrlReport,main;programTopUrlR
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # URL とクリックストリーム{#urls-and-click-streams}
 
-URLと **クリックストリーム** :配信中に最も多くクリックされたURL、またはキャンペーンやプログラムにリンクされている場合は複数の配信を表示します。
+**URLとclick streams**&#x200B;は、配信中に最も多くクリックされたURL、またはキャンペーンやプログラムにリンクされている場合は複数の配信を示します。
 
 ![](assets/delivery_reports_8.png)
 
 各表は、数値の概要とグラフで表されます。 各ビジュアライゼーション設定での詳細の表示方法を変更できます。
 
-「 **最も多く訪問されたリンク** 」(Most visited links)テーブルには、配信ごとの受信者の動作に使用できる次のようなデータが含まれます。
+**最も多く訪問されたリンク**&#x200B;テーブルには、次のような、配信ごとの受信者動作に使用できるデータが格納されます。
 
 * **クリック**:配信内のコンテンツがクリックされた回数。
 * **個別クリック数**:配信内のコンテンツをクリックした受信者の数です。
