@@ -10,8 +10,8 @@ context-tags: readAudience,main
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 87%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -50,6 +50,6 @@ ht-degree: 87%
 
 ![](assets/readaudience_activity_example2.png)
 
-* A [Read audience](../../automating/using/read-audience.md) activity uploads the File audience created in the import workflow. オーディエンスデータは、Adobe Campaign データベースとまだ紐付けされていません。
+* [読み取りオーディエンス](../../automating/using/read-audience.md)アクティビティは、読み込みワークフローで作成されたファイルオーディエンスをアップロードします。 オーディエンスデータは、Adobe Campaign データベースとまだ紐付けされていません。
 * 「[紐付け](../../automating/using/reconciliation.md)」アクティビティは、読み込んだデータをプロファイルとして「**[!UICONTROL Identification]**」タブから識別します。例えば、「**E メール**」フィールドを紐付け条件として使用します。
 * 「[データ更新](../../automating/using/update-data.md)」アクティビティは、データベースのプロファイルリソースを挿入し、読み込んだデータを使用して更新します。データが既にプロファイルとして識別されているので、アクティビティの「**[!UICONTROL Identification]**」タブで「**[!UICONTROL Directly using the targeting dimension]**」オプションを選択し、「**[!UICONTROL Profiles]**」を選択できます。そして、当該タブで更新する必要のあるフィールドのリストを追加するだけです。
