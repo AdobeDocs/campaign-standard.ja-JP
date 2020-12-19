@@ -10,15 +10,15 @@ context-tags: query,main
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 90%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # クエリのサンプル {#query-samples}
 
-この節では、 **[!UICONTROL Query]** アクティビティを使用する場合の使用例を示します。 For more on how to use a **[!UICONTROL Query]** activity, refer to [this section](../../automating/using/query.md).
+この節では、**[!UICONTROL Query]**&#x200B;アクティビティを使用する場合の使用例を示します。 **[!UICONTROL Query]**&#x200B;アクティビティの使い方の詳細については、[この](../../automating/using/query.md)を参照してください。
 
 ## シンプルなプロファイルの属性のターゲティング {#targeting-on-simple-profile-attributes}
 
