@@ -29,7 +29,7 @@ ht-degree: 78%
 
 ## ターゲットマッピング {#target-mappings}
 
-By default, delivery templates target **Profiles**. Adobe Campaign では、必要に応じて、これ以外のターゲットマッピングも配信に使用できます。
+デフォルトでは、配信テンプレートターゲット&#x200B;**プロファイル**&#x200B;です。 Adobe Campaign では、必要に応じて、これ以外のターゲットマッピングも配信に使用できます。
 
 これらのマッピングについては、[この節](../../automating/using/query.md#targeting-dimensions-and-resources)を参照してください。
 
@@ -37,21 +37,21 @@ By default, delivery templates target **Profiles**. Adobe Campaign では、必�
 
 ## 外部データ {#external-data}
 
-データベースに保存されている受信者ではなく、外部ファイルに保存されている受信者に配信できます。これを行うには、ワークフローを設計し、ファイルからデータベースにデータを読み込み、関連オーディエンスを作成します。  詳しくは、[この使用例](../../automating/using/use-case-calling-workflow.md)を参照してください。パラメーターを使用したワークフローの [呼び出しも参照してください](../../automating/using/calling-a-workflow-with-external-parameters.md)。
+データベースに保存されている受信者ではなく、外部ファイルに保存されている受信者に配信できます。これを行うには、ワークフローを設計し、ファイルからデータベースにデータを読み込み、関連オーディエンスを作成します。  詳しくは、[この使用例](../../automating/using/use-case-calling-workflow.md)を参照してください。[パラメーター](../../automating/using/calling-a-workflow-with-external-parameters.md)を使用したワークフローの呼び出しも参照してください。
 
 ## 購読者への送信{#send-to-subscribers}
 
 ニュースレターの購読者にメッセージを送信するには、対応する情報サービスの購読者を直接ターゲットにできます。詳しくは、[この節](../../audiences/using/about-subscriptions.md)を参照してください。
 
-**ヒント** — ワークフローを使用して、ニュースレターの購読者をターゲットするリストオーディエンスを作成できます。 その後、配信でこのオーディエンスを選択できます。 詳しくは、「リストオーディエンスの [作成](../../audiences/using/creating-audiences.md#creating-list-audiences)」を参照してください。
+**ヒント** -リストを購読するユーザーをワークフローを使用してターゲットするニュースレターオーディエンスを作成できます。その後、配信でこのオーディエンスを選択できます。 詳しくは、[リストオーディエンスの作成](../../audiences/using/creating-audiences.md#creating-list-audiences)を参照してください。
 
-## 配達確認、テストプロファイルおよびコントロール母集団 {#proofs-test-control-groups}
+## 配達確認、テストプロファイル、コントロール母集団{#proofs-test-control-groups}
 
-配信をテストするには、メインターゲットに送信する前に配達確認を使用します。配達確認の受信者には適切な人を選択してください。配達確認の受信者は、メッセージのフォームとコンテンツを検証する必要があります。配達確認を送信する手順につ [いては、この節で説明します](../../sending/using/sending-proofs.md)。
+配信をテストするには、メインターゲットに送信する前に配達確認を使用します。配達確認の受信者には適切な人を選択してください。配達確認の受信者は、メッセージのフォームとコンテンツを検証する必要があります。配達確認を送信する手順は、この節](../../sending/using/sending-proofs.md)に[示します。
 
-Learn more about test profiles [in this section](../../audiences/using/managing-test-profiles.md).
+テストプロファイル[について詳しくは、この節](../../audiences/using/managing-test-profiles.md)を参照してください。
 
-You can use [Control groups](../../sending/using/control-group.md) to measure the impact of your campaigns by excluding a portion of their audience. その後、メッセージを受け取ったターゲット母集団の行動と、ターゲット設定されていない連絡先の行動を比較できます。送信ログに基づいて、今後のキャンペーンでコントロール母集団をターゲットすることもできます。
+[コントロール母集団](../../sending/using/control-group.md)を使用すると、オーディエンスの一部を除外して、キャンペーンの影響を測定できます。 その後、メッセージを受け取ったターゲット母集団の行動と、ターゲット設定されていない連絡先の行動を比較できます。送信ログに基づいて、今後のキャンペーンでコントロール母集団をターゲットすることもできます。
 
 ## 重複したアドレス {#deduplicate-addresses}
 
