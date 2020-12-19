@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '131'
-ht-degree: 70%
+ht-degree: 72%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 70%
 * **イベント**：1 ヶ月
 * **イベント処理の統計**：6 ヶ月
 * **アーカイブしたイベント**：6 ヶ月
-* **一時エンティティ**:7日
+* **臨時の事業者**：7 日間
 * **無視されたパイプラインイベント**：1 ヶ月
 * **配信アラート**：1 ヶ月
 * **書き出しの監査**：6 ヶ月
