@@ -39,7 +39,7 @@ ht-degree: 4%
 >
 >この機能を使用すると、プロファイルの個人情報を外部の E メールアドレスに送信できます。Campaign Standard でプライバシーリクエスト（GDPR および CCPA）を実行しても、リクエストは外部で実行されないことに注意してください。
 
-![](assets/do-not-localize/how-to-video.png) [動画でこの機能を確認する](#video)
+![](assets/do-not-localize/how-to-video.png) [この機能をビデオで確認](#video)
 
 ## プロファイルと置換アドレスの選択{#selecting-profiles}
 
@@ -117,7 +117,7 @@ Campaign Standardを使用すると、テストに使用できるプロファイ
 
    ![](assets/substitution_audience_import.png)
 
-1. 使用するオーディエンスを選択し、オーディエンスに送信する配達確認に使用する置換アドレスとプレフィックスを入力します。
+1. 使用するオーディエンスを選択し、オーディエンスに送信する配達確認に使用する置換アドレスと接頭辞を入力します。
 
    >[!NOTE]
    >
@@ -215,7 +215,7 @@ Campaign Standardを使用すると、テストに使用できるプロファイ
 
    ![](assets/substitution_uc5.png)
 
-1. Select the **[!UICONTROL Profile substitutions]** tab, then click **[!UICONTROL Import from an audience]**.
+1. 「**[!UICONTROL Profile substitutions]**」タブを選択し、「**[!UICONTROL Import from an audience]**」をクリックします。
 
    ![](assets/substitution_uc6.png)
 
