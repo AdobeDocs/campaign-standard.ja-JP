@@ -9,8 +9,8 @@ topic-tags: campaign-standard-apis
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 10%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 10%
 * 再開
 * 停止
 
-実行コマンドの詳細については、 [キャンペーンのマニュアルを参照してください](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/executing-a-workflow/about-workflow-execution.html)。
+実行コマンドの詳細については、[キャンペーンドキュメント](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/executing-a-workflow/about-workflow-execution.html)を参照してください。
 
 <br/>
 
