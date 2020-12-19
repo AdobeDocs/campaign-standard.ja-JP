@@ -10,8 +10,8 @@ context-tags: cusResource,overview;eventCusResource,overview
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '1556'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Adobe Campaignの事前定義データモデルを拡張するためのリソースを作成および変更するには、 [この節を参照してください](../../developing/using/key-steps-to-add-a-resource.md)。
+>Adobe Campaignの事前定義データモデルを拡張するためのリソースを作成および変更する方法については、[このセクション](../../developing/using/key-steps-to-add-a-resource.md)を参照してください。
 >
->このページには、組み込みリソースのデータモデル表現が表示され [ます](../../developing/using/datamodel-introduction.md)。
+>組み込みリソースのデータモデル表現は、[このページ](../../developing/using/datamodel-introduction.md)にあります。
 
 ## 概要 {#overview}
 
@@ -33,19 +33,19 @@ Adobe Campaignシステムは非常に柔軟性が高く、最初の実装以外
 
 このドキュメントでは、Adobe Campaignツールを適切に設計する方法を学ぶための一般的な使用例とベストプラクティスを紹介します。
 
-## データモデルのアーキテクチャ {#data-model-architecture}
+## データモデルアーキテクチャ{#data-model-architecture}
 
 Adobe Campaign Standardは、オンラインとオフラインの戦略を調整して、パーソナライズされた顧客体験を作り出すのに役立つ強力なクロスチャネルキャンペーン管理システムです。
 
-### 顧客中心アプローチ {#customer-centric-approach}
+### 顧客中心アプローチ{#customer-centric-approach}
 
 ほとんどの電子メールサービスプロバイダーはリスト中心アプローチを使用してお客様と通信していますが、Adobe Campaignは、お客様とその属性の幅広い表示を活用するために、リレーショナルデータベースに依存しています。
 
-この顧客中心アプローチは、次の図のようになります。 灰色の **プロファイル** ・リソースは、すべての作成が行われている主な顧客テーブルを表します。
+この顧客中心アプローチは、次の図のようになります。 灰色の&#x200B;**プロファイル**&#x200B;リソースは、すべての作成が行われている主な顧客テーブルを表します。
 
 ![](assets/customer-centric-data-model.png)
 
-この [節では、Adobe Campaignのデフォルトのデータモデルについて説明し](../../developing/using/datamodel-introduction.md)ます。
+この[セクション](../../developing/using/datamodel-introduction.md)には、Adobe Campaignのデフォルトのデータモデルが表示されます。
 
 <!--You can find a datamodel representation for the out-of-the-box resources [here](../../developing/using/datamodel-introduction.md).-->
 
@@ -57,7 +57,7 @@ While some of this data cleansing might be performed in Adobe Campaign, the reco
 
 Be able to provide a primary customer record which will be sent to Adobe Campaign.-->
 
-### Adobe Campaign用データ {#data-for-campaign}
+### Adobe Campaign{#data-for-campaign}のデータ
 
 Adobe Campaignに送信するデータ マーケティングアクティビティに必要なデータを決定することが重要です。
 
@@ -66,10 +66,10 @@ Adobe Campaignに送信するデータ マーケティングアクティビテ�
 >Adobe CampaignはData Warehouseではありません。 したがって、可能な顧客とその関連情報をすべてAdobe Campaignにインポートしないでください。
 
 属性をAdobe Campaignに必要とするかどうかを決定するには、属性が次のいずれかのカテゴリに該当するかどうかを決定します。
-* セグメント化に使用する **属性**
-* **データ管理プロセスに使用される属性** (集計の計算など)
-* パー **ソナライゼーションに使用する属性**
-* **レポートに使用される属性** (カスタムプロファイルデータに基づいてレポートを作成可能)
+* **セグメント化**&#x200B;に使用する属性
+* **データ管理プロセス**&#x200B;に使用される属性(集計の計算例)
+* **パーソナライゼーション**&#x200B;に使用する属性
+* **レポート**&#x200B;に使用される属性(カスタムプロファイルデータに基づいてレポートを作成できます)
 
 これらのいずれかに該当しない場合、Adobe Campaignでこの属性は必要ないと思われます。
 
@@ -79,11 +79,11 @@ Adobe Campaignに送信するデータ マーケティングアクティビテ�
 * 文字列フィールドの長さは、常に列で定義する必要があります。 デフォルトでは、Adobe Campaignの最大長は255文字ですが、サイズが短くならないことが既にわかっている場合は、Adobeでフィールドの長さを短くすることをお勧めします。
 * ソース・システムのサイズが過大評価されていて、サイズに達しないことが確実な場合は、ソース・システムのAdobe Campaignよりもフィールドの方が短い場合でも構いません。 Adobe Campaignが短い文字列か、それより小さい整数を意味する場合があります。
 
-## データ構造の設定 {#configuring-data-structure}
+## データ構造の設定{#configuring-data-structure}
 
-ここでは、リソースのデータ構造を [設定する際のベストプラクティスについて説明します](../../developing/using/configuring-the-resource-s-data-structure.md)。
+この節では、[リソースのデータ構造](../../developing/using/configuring-the-resource-s-data-structure.md)を構成する際のベストプラクティスについて説明します。
 
-### 識別子 {#identifiers}
+### 識別子{#identifiers}
 
 Adobe Campaignリソースには3つの識別子があり、別の識別子を追加できます。
 
@@ -95,14 +95,14 @@ Adobe Campaignリソースには3つの識別子があり、別の識別子を�
 
 | 表示名 | 技術名 | 説明 | ベストプラクティス |
 |--- |--- |--- |--- |
-|  | PKey | <ul><li>PKeyは、Adobe Campaignテーブルの物理的な主キーです。</li><li>このIDは、通常、特定のAdobe Campaignインスタンスに対して一意です。</li><li>Adobe Campaign Standardでは、この値はエンドユーザーに対しては表示されません（URLを除く）。</li></ul> | <ul><li>APIシステムを介して [](../../api/using/get-started-apis.md)、PKey値（物理キーではなく生成/ハッシュ値）を取得できます。</li><li>APIを使用したレコードの取得、更新、削除以外の目的で使用することはお勧めしません。</li></ul> |
+|  | PKey | <ul><li>PKeyは、Adobe Campaignテーブルの物理的な主キーです。</li><li>このIDは、通常、特定のAdobe Campaignインスタンスに対して一意です。</li><li>Adobe Campaign Standardでは、この値はエンドユーザーに対しては表示されません（URLを除く）。</li></ul> | <ul><li>[APIシステム](../../api/using/get-started-apis.md)を介して、PKey値（物理キーではなく生成/ハッシュ値）を取得できます。</li><li>APIを使用したレコードの取得、更新、削除以外の目的で使用することはお勧めしません。</li></ul> |
 | ID | nameまたはinternalName | <ul><li>この情報は、テーブル内のレコードの一意の識別子です。 この値は手動で更新できます。</li><li>このIDは、別のAdobe Campaignインスタンスにデプロイする場合に値を保持します。 パッケージを介してエクスポートできるように、生成された値とは異なる名前を付ける必要があります。</li><li>これは、テーブルの実際の主キーではありません。</li></ul> | <ul><li>スペース&quot;&quot;、セミコラム&quot;:&quot;、ハイフン&quot;-&quot;などの特殊文字は使用しないでください。</li><li>これらの文字はすべて、アンダースコア「_」に置き換えられます（許可されている文字）。 例えば、&quot;abc-def&quot;と&quot;abc:def&quot;は&quot;abc_def&quot;として保存され、互いに上書きされます。</li></ul> |
 | ラベル | label | <ul><li>ラベルは、Adobe Campaign内のオブジェクトまたはレコードのビジネス識別子です。</li><li>このオブジェクトでは、スペースと特殊文字を使用できます。</li><li>レコードの一意性を保証するものではありません。</li></ul> | <ul><li>オブジェクトのラベルの構造を決定することをお勧めします。</li><li>これは、Adobe Campaignユーザーのレコードまたはオブジェクトを識別するための、最も使いやすいソリューションです。</li></ul> |
-| ACS ID | acsId | <ul><li>追加の識別子を生成できます。ACS ID [](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)。</li><li>PKeyはAdobe Campaignユーザーインターフェイスでは使用できないので、プロファイルレコードの挿入時に生成される一意の値を取得するソリューションです。</li><li>この値は、レコードがAdobe Campaignに挿入される前にリソースでこのオプションが有効になっている場合にのみ、自動的に生成されます。</li></ul> | <ul><li>このUUIDは紐付けキーとして使用できます。</li><li>自動生成されたACS IDは、ワークフロー内またはパッケージ定義内の参照として使用できません。</li><li>この値は、Adobe Campaignインスタンスに固有です。</li></ul> |
+| ACS ID | acsId | <ul><li>追加の識別子を生成できます。[ACS ID](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)。</li><li>PKeyはAdobe Campaignユーザーインターフェイスでは使用できないので、プロファイルレコードの挿入時に生成される一意の値を取得するソリューションです。</li><li>この値は、レコードがAdobe Campaignに挿入される前にリソースでこのオプションが有効になっている場合にのみ、自動的に生成されます。</li></ul> | <ul><li>このUUIDは紐付けキーとして使用できます。</li><li>自動生成されたACS IDは、ワークフロー内またはパッケージ定義内の参照として使用できません。</li><li>この値は、Adobe Campaignインスタンスに固有です。</li></ul> |
 
 ### 識別キー {#keys}
 
-Adobe Campaignで作成される各リソースには、少なくとも1つの一意の [IDキーが必要です](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)。
+Adobe Campaignで作成される各リソースは、少なくとも1つの一意の[IDキー](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)を持つ必要があります。
 
 <!--Most organizations are importing records from external systems. While the physical key of a resource lies behind the PKey attribute, it is possible to determine a custom key in addition.
 
@@ -121,7 +121,7 @@ IDキーは、ワークフローで参照として使用しないでください
 
 ### インデックス {#indexes}
 
-Adobe Campaignは、リソースに定義されているすべての主キーと内部キーに [インデックス](../../developing/using/configuring-the-resource-s-data-structure.md#defining-indexes) を自動的に追加します。
+Adobe Campaignは、リソース内で定義されているすべての主キーと内部キーに[インデックス](../../developing/using/configuring-the-resource-s-data-structure.md#defining-indexes)を自動的に追加します。
 
 * Adobeでは、パフォーマンスが向上する可能性があるので、追加のインデックスを定義することをお勧めします。
 * ただし、インデックスの追加数は、データベース上の領域を使用するため、多くにしないでください。 多数のインデックスがある場合も、パフォーマンスに悪影響を及ぼす可能性があります。
@@ -133,7 +133,7 @@ When you are performing an initial import with very high volumes of data insert 
 
 ### リンク {#links}
 
-他のリソースを使用したリンクの定義については、 [この節で説明します](../../developing/using/configuring-the-resource-s-data-structure.md#defining-links-with-other-resources)。
+他のリソースを使用したリンクの定義については、[このセクション](../../developing/using/configuring-the-resource-s-data-structure.md#defining-links-with-other-resources)を参照してください。
 
 * ワークフロー内の任意のテーブルを結合できますが、Adobeでは、リソース間の共通リンクをデータ構造の定義に直接定義することをお勧めします。
 * リンクは、テーブル内の実際のデータと整列して定義する必要があります。 誤った定義は、予期せぬレコードの複製など、リンクを介して取得したデータに影響を与える可能性があります。
@@ -157,13 +157,13 @@ When you are performing an initial import with very high volumes of data insert 
 * すべての行にフィールドを複製する代わりに、1つまたは複数の参照テーブルを使用します。 キーと値のペアを使用する場合は、数値キーを選択することをお勧めします。
 * 短い文字列は引き続き使用できます。 参照テーブルが外部システムに既に配置されている場合、それを再利用すると、Adobe Campaignとのデータ統合が容易になります。
 
-### 1対多の関係 {#one-to-many-relationships}
+### 1対多の関係{#one-to-many-relationships}
 
 * データデザインはユーザビリティと機能に影響を与えます。 多数の1対多の関係を持つデータモデルを設計する場合、ユーザーがアプリケーション内で意味のあるロジックを作成するのが難しくなります。 1対多のフィルターロジックは、技術的でないマーケターが正しく構築し理解するのが困難な場合があります。
 * 重要なフィールドはすべて1つのテーブルにまとめておくと、クエリの作成が容易になるので便利です。 結合を避けることができる場合に、テーブルをまたいでいくつかのフィールドを重複するのにパフォーマンスが良いこともあります。
 * 特定の組み込み機能は、1対多の関係(オファーの重み付けの数式や配信など)を参照できません。
 
-### 大きいテーブル {#large-tables}
+### 大きいテーブル{#large-tables}
 
 大きなテーブルと複雑な結合を使用してデータモデルを設計する際に従うべきベストプラクティスを以下に示します。
 
