@@ -10,8 +10,8 @@ context-tags: query,main
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 81%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 81%
 
 この使用例では、離れたテーブル内の特定のレコードを検索する場合など、ターゲティングディメンションとは異なるリソースを使用する方法を示します。
 
-ターゲティングディメンションとリソースについて詳しくは、 [この節を参照してください](../../automating/using/query.md#targeting-dimensions-and-resources)
+ターゲティングディメンションとリソースについての詳細は、[このセクション](../../automating/using/query.md#targeting-dimensions-and-resources)を参照してください。
 
 **例 1：配信が「お帰りなさい」というラベルでターゲットするプロファイルの識別**。
 
