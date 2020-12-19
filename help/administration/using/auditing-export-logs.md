@@ -9,17 +9,17 @@ topic-tags: users-and-security
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # エクスポートログの監査{#auditing-export-logs}
 
-管理者 **[!UICONTROL Administration]** は、> **[!UICONTROL Users & Security]** > **[!UICONTROL Export audits]**&#x200B;から、日付およびエクスポートを実行したユーザーを含む、次のすべてのエクスポートのリストを表示できます。
+管理者は、**[!UICONTROL Administration]** > **[!UICONTROL Users & Security]** > **[!UICONTROL Export audits]**&#x200B;から、日付やエクスポートを実行したユーザーを含む、次のエクスポートのリストを表示できます。
 
-* ワークフロー内の **[!UICONTROL Transfer file]** アクティビティからのファイルのアップロード。
+* ワークフロー内の&#x200B;**[!UICONTROL Transfer file]**&#x200B;アクティビティからのファイルアップロード。
 * リストまたはサブリストからのリストエクスポート。
 * ダイレクトメールメッセージの配信ダッシュボードからダウンロードしたファイル。
 
@@ -29,4 +29,4 @@ ht-degree: 5%
 
 左側のペインでは、必要に応じて、表示するエクスポートをフィルタリングできます。
 
-「リストを [書き出す」の節の説明に従って、リストを個別のファイルとして書き出すことができます](../../automating/using/exporting-lists.md) 。
+[リストの書き出し](../../automating/using/exporting-lists.md)の節の説明に従って、リストを個別のファイルとして書き出すことができます。
