@@ -9,8 +9,8 @@ topic-tags: configuring-channels
 translation-type: tm+mt
 source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '789'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -29,7 +29,7 @@ Adobe Experience Platformデータコネクタは、Adobe Campaign Standardの�
 
 以下の節では、Campaign StandardとAdobe Experience Platformの間のデータマッピングを実行するための主な手順について説明します。 XDMスキーマとデータセットの作成に関する開始です。
 
-![](assets/do-not-localize/how-to-video.png) [動画でこの機能を確認する](#video)
+![](assets/do-not-localize/how-to-video.png) [この機能をビデオで確認](#video)
 
 >[!NOTE]
 >Adobe Experience Platformデータコネクタを設定し、データがAdobe Experience Platformに正常に取り込まれたら、データセットを有効にして、リアルタイムカスタマープロファイルにデータが含まれるようにする必要があります。
@@ -58,7 +58,7 @@ Adobe Experience Platformデータコネクタは、Adobe Campaign Standardの�
 
 * Experience CloudIDサービス(ECID)は、エクスペリエンスイベントと共にデフォルトで送信されるデバイス識別子です。
 
-   このIDは、訪問者に割り当てられる一意で永続的なIDです。Platform Identity Serviceは、同じ訪問者とそのデータを異なるExperience Cloudソリューションで識別するために使用できます。 詳しくは、[Experience CloudIDサービスのヘルプ](https://docs.adobe.com/content/help/ja-JP/id-service/using/home.translate.html)を参照してください。
+   このIDは、訪問者に割り当てられる一意で永続的なIDです。Platform Identity Serviceは、同じ訪問者とそのデータを異なるExperience Cloudソリューションで識別するために使用できます。 詳しくは、[Experience CloudIDサービスのヘルプ](https://docs.adobe.com/content/help/en/id-service/using/home.html)を参照してください。
 
    >[!NOTE]
    >
