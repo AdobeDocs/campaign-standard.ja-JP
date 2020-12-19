@@ -15,7 +15,7 @@ ht-degree: 7%
 ---
 
 
-# エクスペリエンスデータモデルの概要 {#experience-data-model-overview}
+# エクスペリエンスデータモデルの概要{#experience-data-model-overview}
 
 >[!IMPORTANT]
 >
@@ -25,13 +25,13 @@ ht-degree: 7%
 
 XDMスキーマの作成と管理は、専用のAPIまたはXDMユーザーインターフェイスを使用して行うことができます。
 
-## XDMワークスペース {#xdm-workspace}
+## XDMワークスペース{#xdm-workspace}
 
 XDM Workspaceでは、データスキーマの表示、作成、拡張を行うことができます。
 
 XDMユーザーインターフェイスにアクセスするには、Adobe Experience Platformを開きます。 XDMスキーマを作成または拡張するには、「データモデル」ウィンドウにナビゲートします。
 
-完全な [XDM Workspaceドキュメントを参照してください](https://docs.adobe.com/content/help/ja-JP/experience-platform/xdm/api/getting-started.html)。
+[XDM Workspaceの完全なドキュメント](https://docs.adobe.com/content/help/ja-JP/experience-platform/xdm/api/getting-started.html)を参照してください。
 
 ![](assets/aep_xdmworkspace.png)
 
@@ -46,4 +46,4 @@ XDMスキーマAPIを使用して、次の操作を実行できます。
 * 表示スキーマ記述子
 * スキーマ記述子の作成、更新、削除
 
-API呼び出しを操作するための詳細については、 [開発者ガイドを参照してください](https://docs.adobe.com/content/help/ja-JP/experience-platform/xdm/api/getting-started.html)。
+API呼び出しを操作するための詳細は、[デベロッパーガイド](https://docs.adobe.com/content/help/en/experience-platform/xdm/api/getting-started.html)で入手できます。
