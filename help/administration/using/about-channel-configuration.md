@@ -9,8 +9,8 @@ topic-tags: configuring-channels
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -26,6 +26,6 @@ Adobe Campaign内のすべての通信チャネルが効果的にメッセージ
 * メッセージのプロパティ. 新しいメッセージを作成する場合、必要に応じてプロパティを特定できます。
 * 一部のチャネルは、電子メールBCCなど、オプションの追加設定をオファーします。
 
-この **[!UICONTROL Channel]** メニューでは、様々なアプリケーションチャネル（電子メール、SMS）にリンクされた技術パラメータ、およびタイポロジと強制隔離の管理を再グループ化します。
+**[!UICONTROL Channel]**&#x200B;メニューは、様々なアプリケーションチャネル（電子メール、SMS）にリンクされた技術パラメーターと、タイポロジーおよび強制隔離管理を再グループ化します。
 
-Administrators can access these configurations in the **[!UICONTROL Administration]** > **[!UICONTROL Channels]** menu.
+管理者は、**[!UICONTROL Administration]**/**[!UICONTROL Channels]**&#x200B;メニューからこれらの設定にアクセスできます。
