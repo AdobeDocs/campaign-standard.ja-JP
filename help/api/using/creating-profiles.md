@@ -17,13 +17,13 @@ ht-degree: 3%
 
 # プロファイルの作成 {#creating-profiles}
 
-プロファイルの作成は、プロファイルリソースに対する **POST** 要求を使用して実行されます。
+プロファイルの作成は、プロファイルリソースに対して&#x200B;**POST**&#x200B;リクエストを実行します。
 
 >[!CAUTION]
 >
->作成したプロファイルに <b>orgUnit</b> を関連付ける場合は、プロファイルリソースをこのフィールドに拡張し、拡張機能の発行後に、 <b>ProfileAndServicesExt</b> エンドポイントでPOST要求を実行する必要があります。
+>作成したプロファイルに<b>orgUnit</b>を関連付ける場合は、このフィールドでプロファイルリソースを拡張し、拡張機能の発行後に、<b>ProfileAndServicesExt</b>エンドポイントでPOST要求を実行する必要があります。
 >
->プロファイルのリソース拡張機能について詳しくは、 <a href="https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles">キャンペーンのドキュメントを参照してください</a>。
+>プロファイルのリソース拡張子について詳しくは、<a href="https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles">キャンペーンドキュメント</a>を参照してください。
 
 <br/>
 
