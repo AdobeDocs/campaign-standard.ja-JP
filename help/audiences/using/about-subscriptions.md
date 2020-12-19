@@ -9,8 +9,8 @@ topic-tags: managing-subscriptions
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 53%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -33,10 +33,10 @@ Adobe Campaign では、一連の&#x200B;**サービス**&#x200B;を通じて、
 
 次の手順に従って、購読メカニズムを作成します。
 
-1. **サービスの作成** -購読サービスを作成するに [は、この節](../../audiences/using/creating-a-service.md) で説明する手順に従います。
-1. **リンクを共有** — このページでサービスをプロモーションおよび共有する方法 [を説明します。](../../audiences/using/promoting-a-service.md)
-1. **購読の監視** — この節では、サービスへの購読を監視する方法をいくつか [見つけます。](../../audiences/using/monitoring-subscriptions.md)
-1. **購読の確認** - [このチュートリアルに従って](../../audiences/using/confirming-subscription-to-a-service.md) 、購読確認メッセージを送信します。
+1. **サービスの作成** -購読サービスを作成するには [、こ](../../audiences/using/creating-a-service.md) の節で説明する手順に従います
+1. **リンクを共有**  — このページでサービスをプロモーションおよび共有する方法 [を説明します。](../../audiences/using/promoting-a-service.md)
+1. **購読の監視**  — この節では、ご使用のサービスに対する購読を監視する方法をいくつ [か検出します。](../../audiences/using/monitoring-subscriptions.md)
+1. **購読の確認** - [この](../../audiences/using/confirming-subscription-to-a-service.md) チュートリアルに従って、購読確認メッセージを送信します。
 
 ## その他のリソース
 
