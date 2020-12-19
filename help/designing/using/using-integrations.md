@@ -37,7 +37,7 @@ Adobe Campaign StandardとDreamweaverの統合により、Dreamweaverのイン�
 
 この機能の詳細は、[こちら](https://helpx.adobe.com/jp/dreamweaver/using/working-with-dreamweaver-and-campaign.html)からアクセス可能なDreamweaver文書を参照してください。
 
-![](assets/do-not-localize/how-to-video.png) [動画でこの機能を確認する](#video)
+![](assets/do-not-localize/how-to-video.png) [この機能をビデオで確認](#video)
 
 ## Experience Manager{#editing-content-in-experience-manager}でのコンテンツの編集
 
