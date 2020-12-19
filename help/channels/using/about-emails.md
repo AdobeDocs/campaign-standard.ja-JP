@@ -10,8 +10,8 @@ context-tags: deliveryCreation,wizard
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 32%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -27,4 +27,4 @@ ht-degree: 32%
 * A/Bテスト用電子メール：最大3バージョンの電子メールをテストします。
 * トランザクション E メール：顧客の行動に基づいてトリガーされる単一の E メール。
 
-電子メールを作成して送信する際のベストプラクティスについては、「 [配信のベストプラクティス](../../sending/using/delivery-best-practices.md) 」のセクションを参照してください。
+電子メールを作成して送信する際のベストプラクティスについては、[配信のベストプラクティス](../../sending/using/delivery-best-practices.md)のセクションを参照してください。
