@@ -17,7 +17,7 @@ ht-degree: 10%
 
 # プロファイルの地理的単位の更新 {#updating-a-geographical-unit}
 
-1. GeoUnitBase **リソースでGET要求を実行して、Geographical Unit PKeyを取得します** 。
+1. **geoUnitBase**&#x200B;リソースに対してGET要求を実行し、地理単位PKeyを取得します。
 1. プロファイルのPKeyに対して、目的のGeographical単位PKeyを使用してPATCH要求を実行します。
 
 <br/>
