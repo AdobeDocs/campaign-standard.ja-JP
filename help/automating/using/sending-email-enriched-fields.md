@@ -28,15 +28,15 @@ ht-degree: 75%
 
 ワークフローを構築するには、次の手順に従います。
 
-1. Drag and drop a [Query](../../automating/using/query.md) activity into your workflow and open it to define the main target.
+1. [クエリ](../../automating/using/query.md)アクティビティをワークフローにドラッグ&amp;ドロップし、開いてメインターゲットを定義します。
 
    <!--The Query activity is presented in the [Query](../../automating/using/query.md) section.-->
 
-1. Drag and drop a [Load file](../../automating/using/load-file.md) activity to assign some data to a profile. この例では、データベースの一部のプロファイルに対応するアカウント番号が含まれているファイルを読み込みます。
+1. [ファイル](../../automating/using/load-file.md)を読み込みアクティビティをドラッグ&amp;ドロップして、一部のデータをプロファイルに割り当てます。 この例では、データベースの一部のプロファイルに対応するアカウント番号が含まれているファイルを読み込みます。
 
    ![](assets/load_file_activity.png)
 
-1. Drag and drop an [Enrichment](../../automating/using/enrichment.md) activity into your workflow and link the load file and query activities to it.
+1. [エンリッチメント](../../automating/using/enrichment.md)アクティビティをワークフローにドラッグ&amp;ドロップし、ロードファイルとクエリアクティビティをそのワークフローにリンクします。
 
 1. エンリッチメントアクティビティの「**[!UICONTROL Advanced relations]**」タブで、「**[!UICONTROL 0 or 1 cardinality simple link]**」を選択し、紐付けに使用するフィールドを定義します。ここでは、姓を使用してデータをデータベースプロファイルに紐付けします。
 
@@ -50,13 +50,13 @@ ht-degree: 75%
 
    詳しくは、[エンリッチメント](../../automating/using/enrichment.md)の節を参照してください。
 
-1. Drag and drop a [Segmentation](../../automating/using/segmentation.md) activity into your workflow and open it to refine the main target.
+1. [セグメント化](../../automating/using/segmentation.md)アクティビティをワークフローにドラッグ&amp;ドロップし、開いてメインターゲットを絞り込みます。
 
    ![](assets/load_file_segmentation.png)
 
    詳しくは、[セグメント化](../../automating/using/segmentation.md)の節を参照してください。
 
-1. Drag and drop an [Email delivery](../../automating/using/email-delivery.md) activity into your workflow and open it.
+1. [電子メール配信](../../automating/using/email-delivery.md)アクティビティをワークフローにドラッグ&amp;ドロップして開きます。
 
    <!--The Email delivery activity is presented in the [Email delivery](../../automating/using/email-delivery.md) section.-->
 
