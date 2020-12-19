@@ -9,8 +9,8 @@ topic-tags: campaign-standard-apis
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -52,19 +52,19 @@ Campaign StandardAPIリクエストについて理解を深めるために、一
 >
 >この例では郵便番号を使用します。 ただし、お気に入りのRESTクライアントを自由に使用できます。
 
-1. ここをクリックして、JSONコレクションをダウンロード [します](https://helpx.adobe.com/content/dam/help/en/campaign/kb/working-with-acs-api/_jcr_content/main-pars/download_section/download-1/KB_postman_collection.json.zip)。
+1. [ここ](https://helpx.adobe.com/content/dam/help/en/campaign/kb/working-with-acs-api/_jcr_content/main-pars/download_section/download-1/KB_postman_collection.json.zip)をクリックして、JSONコレクションをダウンロードします。
 
-1. Postmanを開き、 **ファイル** / **読み込み** メニューを選択します。
+1. Postmanを開き、**ファイル** / **読み込み**&#x200B;メニューを選択します。
 
 1. ダウンロードしたファイルをウィンドウにドラッグ&amp;ドロップします。 事前に設計されたAPIリクエストが表示され、使用可能な状態です。
 
    ![代替テキスト](assets/postman_collection.png)
 
-1. 「 **プロファイル** リクエストの **作成」を選択し、POSTリクエストと「** ヘッダー」タブを更新して、独自の情報(&lt;ORGANIZATION>、&lt;API_KEY>、&lt;ACCESS_TOKEN>)を入力します。 詳しくは、[この節](../../api/using/setting-up-api-access.md)を参照してください。
+1. **プロファイル**&#x200B;リクエストの作成を選択し、POSTリクエストと「**ヘッダー**」タブを更新します(&lt;ORGANIZATION>、&lt;API_KEY>、&lt;ACCESS_TOKEN>)。 詳しくは、[こちらの節](../../api/using/setting-up-api-access.md)を参照してください。
 
    ![代替テキスト](assets/postman_uc1.png)
 
-1. 「 **Body** 」タブに新しいプロファイルに追加する情報を入力し、「 **Send** 」ボタンをクリックしてリクエストを実行します。
+1. 「**ボディ**」タブに新しいプロファイルに追加する情報を入力し、「**送信**」ボタンをクリックしてリクエストを実行します。
 
    ![代替テキスト](assets/postman_uc2.png)
 
