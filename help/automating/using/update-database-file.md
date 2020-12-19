@@ -10,17 +10,17 @@ context-tags: writer,main
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 33%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # 外部データを使用したデータベースの更新 {#update-database-file}
 
-The following example shows the configuration of an **[!UICONTROL Update data]** activity following a **[!UICONTROL Load file]** activity. このワークフローの目的は、ファイルから回復したデータを使用して、Adobe Campaign データベースにプロファイルを追加または更新することです。
+次の例は、**[!UICONTROL Load file]**&#x200B;アクティビティの後の&#x200B;**[!UICONTROL Update data]**&#x200B;アクティビティの設定を示しています。 このワークフローの目的は、ファイルから回復したデータを使用して、Adobe Campaign データベースにプロファイルを追加または更新することです。
 
-この例では、使用する紐付けキーは **電子メールアドレスです**。 「 [Load file](../../automating/using/load-file.md) 」アクティビティに読み込まれるファイルは、 **.txt** 形式のファイルで、次のデータ例が含まれています。
+この例で使用する紐付けキーは、**電子メールアドレス**&#x200B;です。 [ファイル](../../automating/using/load-file.md)の読み込みアクティビティに読み込まれたファイルは、次のデータ例を含む&#x200B;**.txt**&#x200B;形式のファイルです。
 
 ```
 lastname;firstname;email;birthdate
@@ -35,7 +35,7 @@ grimes;daryl;daryl_890@testmail.com;12/06/1979
 tycoon;tyreese;tyreese_t@testmail.net;10/08/1971
 ```
 
-The [Update data](../../automating/using/update-data.md) activity is configured as follows:
+[Update data](../../automating/using/update-data.md)アクティビティは、次のように構成されます。
 
 ![](assets/deduplication_example2_writer1.png)
 
