@@ -9,14 +9,14 @@ topic-tags: campaign-standard-apis
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 
-# 組織単位について {#about-organizational-units}
+# 組織単位について{#about-organizational-units}
 
-orgUnitBase **エンドポイントを使用すると** 、組織単位(OU)を操作でき、例えば、その属性を更新したり、プロファイルの組織単位を更新したりできます。 キャンペーンの組織単位の詳細については、 [キャンペーンのドキュメントを参照してください](https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html)。
+**orgUnitBase**&#x200B;エンドポイントを使用すると、組織単位(OU)を操作でき、例えば、プロファイルの組織単位(OU)を更新したり、属性を更新したりできます。 キャンペーン内の組織単位について詳しくは、[キャンペーンドキュメント](https://helpx.adobe.com/jp/campaign/standard/administration/using/organizational-units.html)を参照してください。
 
-プロファイルリソースを拡張する際に、 **[組織単位** ]フィールドがプロファイルに追加されます。 その結果、 **profileAndServicesExtエンドポイントを必ず使用して、地理的単位とやり取りします** 。 プロファイルのリソース拡張機能について詳しくは、 [キャンペーンのドキュメントを参照してください](https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles)。
+プロファイルリソースを拡張する際に、プロファイルに&#x200B;**組織単位**&#x200B;フィールドが追加されます。 その結果、**profileAndServicesExt**&#x200B;エンドポイントを必ず使用して、地理的な単位とやり取りします。 プロファイルのリソース拡張子について詳しくは、[キャンペーンドキュメント](https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles)を参照してください。
