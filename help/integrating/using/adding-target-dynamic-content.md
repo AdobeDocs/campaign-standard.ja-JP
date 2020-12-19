@@ -9,8 +9,8 @@ topic-tags: working-with-campaign-and-target
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '454'
-ht-degree: 32%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,23 +23,23 @@ Adobe Targetとの統合により、配信に動的な画像を追加して、�
 
 Adobe Campaignの画像にアクセスする前に、まずAdobe Targetで次のタスクを実行する必要があります。
 
-* Create one or several [redirect offers](https://docs.adobe.com/content/help/en/target/using/experiences/offers/offer-redirect.html), in which you must specify the URL of the image you will be using.
+* 1つまたは複数の[リダイレクトオファー](https://docs.adobe.com/content/help/en/target/using/experiences/offers/offer-redirect.html)を作成します。ここで、使用するイメージのURLを指定する必要があります。
 * 1 つ以上の[オーディエンス](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/audiences.html)を作成します。アクティビティのターゲットをそこで定義します。
-* Create a [Form-based experience composer](https://docs.adobe.com/content/help/en/target/using/experiences/form-experience-composer.html) activity, in which you have to select a rawbox and specify several experiences, depending on the number of redirect offers created. 各エクスペリエンスに対して、作成したリダイレクトオファーの1つを選択する必要があります。
+* [フォームベースのExperience Composer](https://docs.adobe.com/content/help/en/target/using/experiences/form-experience-composer.html)アクティビティを作成します。このフォルダーでは、rawboxを選択し、作成したリダイレクトオファーの数に応じて複数のエクスペリエンスを指定する必要があります。 各エクスペリエンスに対して、作成したリダイレクトオファーの1つを選択する必要があります。
 * Adobe Campaignの情報を使用してセグメントを作成し、エクスペリエンスを指定します。 オファーの選択ルールで Adobe Campaign からのデータを使用するには、Adobe Target のローボックスでデータを指定する必要があります。
 
 1. E メール配信を作成します。
-1. 電子メールまたはランディングページのコンテンツを編集する場合は、画像ブロックに移動し、コンテキストメニュー **[!UICONTROL Dynamic image from Adobe Target]** から選択します。
+1. 電子メールまたはランディングページのコンテンツを編集する場合は、画像ブロックに移動し、コンテキストメニューから&#x200B;**[!UICONTROL Dynamic image from Adobe Target]**&#x200B;を選択します。
 
    ![](assets/tar_insert_dynamic_image.png)
 
-1. デフォルトで電子メールに表示する画像を選択します。 画像URLを直接指定するか、ア [セットを介して共有される画像を選択できます](../../integrating/using/working-with-campaign-and-assets-core-service.md)。
+1. デフォルトで電子メールに表示する画像を選択します。 画像URLを直接指定するか、[アセット](../../integrating/using/working-with-campaign-and-assets-core-service.md)を介して共有される画像を選択できます。
 
    この統合が対応するのは、静的画像だけです。コンテンツの残りの部分はカスタマイズできません。
 
 1. Adobe Target で指定したローボックス名を入力します。
 1. Adobe Target の設定で Enterprise 権限を使用している場合は、対応するプロパティをこのフィールドに追加します。Target の Enterprise 権限について詳しくは、[このページ](https://docs.adobe.com/content/help/ja-JP/target/using/administer/manage-users/enterprise/properties-overview.translate.html)を参照してください。このフィールドはオプションであり、Target で Enterprise 権限を使用しない場合は必要ありません。
-1. In **[!UICONTROL Additional decision parameters]**, specify the mapping between the fields defined in the Adobe Target segments and the Adobe Campaign fields.
+1. **[!UICONTROL Additional decision parameters]**&#x200B;で、Adobe Targetセグメントで定義されたフィールドとAdobe Campaignフィールドの間のマッピングを指定します。
 
    使用する Adobe Campaign フィールドは、rawbox で指定されている必要があります。ここでは、受信者の性別に応じて異なるエクスペリエンスを定義します。
 
@@ -51,7 +51,7 @@ Adobe Campaignの画像にアクセスする前に、まずAdobe Targetで次の
 
 **関連トピック：**
 
-* [Adobe Targetポータル](https://docs.adobe.com/content/help/ja-JP/target/using/integrate/campaign-and-target.html)
+* [Adobe Targetポータル](https://docs.adobe.com/content/help/en/target/using/integrate/campaign-and-target.html)
 * [E メールコンテンツデザインについて](../../designing/using/designing-content-in-adobe-campaign.md)
-* [リアルタイムビデオでの電子メール画像のパーソナライズ](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html) （英語のみ）
+* [リアルタイムビデオでの電子メール画像のパーソナライズ](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html) 
 
