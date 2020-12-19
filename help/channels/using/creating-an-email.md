@@ -19,7 +19,7 @@ ht-degree: 20%
 
 [キャンペーン](../../start/using/marketing-activities.md#creating-a-marketing-activity)、Adobe Campaign[ホームページ](../../start/using/interface-description.md#home-page)、または[マーケティングアクティビティリスト](../../start/using/marketing-activities.md#about-marketing-activities)から電子メールを作成できます。 ワークフローから 1 回限りの電子メールや定期的な電子メールを作成することもできます。
 
-![](assets/do-not-localize/how-to-video.png) [動画でこの機能を確認する](#video)
+![](assets/do-not-localize/how-to-video.png) [この機能をビデオで確認](#video)
 
 1. 電子メールマーケティングアクティビティの作成を開始したら、使用するテンプレートを選択します。
 
