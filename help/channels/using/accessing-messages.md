@@ -26,37 +26,37 @@ ht-degree: 1%
 * adobe campaignホームページから
 * マーケティングアクティビティのリストから
 
-## キャンペーン内のメッセージへのアクセス {#accessing-messages-in-campaigns}
+## キャンペーン{#accessing-messages-in-campaigns}のメッセージへのアクセス
 
 キャンペーンのマーケティングアクティビティのリストにアクセスするには：
 
-1. 上部ナビゲーションバー **[!UICONTROL Marketing activities]** からに移動します。
+1. 上部ナビゲーションバーから&#x200B;**[!UICONTROL Marketing activities]**&#x200B;に移動します。
 1. 「**[!UICONTROL Marketing activities > Marketing plans > Programs & Campaigns]**」を選択します。
 
-   ホームページからカードを直接クリックすることも **[!UICONTROL Programs & Campaigns]** できます。 キャンペーンの詳細については、「 [プログラムとキャンペーン](../../start/using/programs-and-campaigns.md) 」を参照してください。
+   ホームページから&#x200B;**[!UICONTROL Programs & Campaigns]**&#x200B;カードを直接クリックすることもできます。 キャンペーンの詳細については、「[プログラムとキャンペーン](../../start/using/programs-and-campaigns.md)」の節を参照してください。
 
 1. プログラムを選択し、キャンペーンを選択します。
 
    ![](assets/delivery_list_1.png)
 
-1. ドロップダウン **[!UICONTROL Summary]** リストをクリックします。
-1. メッセージ **[!UICONTROL Search]** の表示方法（名前、日付、ステータス）をフィルターするには、をクリックします。
+1. **[!UICONTROL Summary]**&#x200B;ドロップダウンリストをクリックします。
+1. **[!UICONTROL Search]**&#x200B;をクリックして、メッセージの表示方法（名前、日付、ステータス）をフィルターします。
 
    定期的なメッセージをフィルタリングするには、該当するチェックボックスをオンにします。
 
-## メッセージリストへのアクセス {#accessing-the-message-list}
+## メッセージリストへのアクセス{#accessing-the-message-list}
 
 結合されたすべてのキャンペーンからマーケティングアクティビティの完全なリストにアクセスするには：
 
-1. 上部ナビゲ **[!UICONTROL Marketing activities]** ーションバーからを選択します。
+1. 上部ナビゲーションバーから&#x200B;**[!UICONTROL Marketing activities]**&#x200B;を選択します。
 
-   ホームページの **[!UICONTROL Marketing activities]** カードからアクセスすることもできます。 マーケティングアクティビティのリストの詳細については、「マーケティングアクティビティの [管理](../../start/using/marketing-activities.md#creating-a-marketing-activity) 」を参照してください。
+   ホームページの&#x200B;**[!UICONTROL Marketing activities]**&#x200B;カードからもアクセスできます。 マーケティングアクティビティのリストについて詳しくは、「[マーケティングアクティビティの管理](../../start/using/marketing-activities.md#creating-a-marketing-activity)」を参照してください。
 
-1. マーケティングアクティビティを(名前、日付、ステータスまたはアクティビティタイプで)フィルターするには、マーケティングアクティビティのリストの左にある **[!UICONTROL Search]** フィールドを使用します。
+1. マーケティングアクティビティを(名前、日付、ステータスまたはアクティビティタイプで)フィルタリングするには、マーケティングアクティビティのリストの左にある&#x200B;**[!UICONTROL Search]**&#x200B;フィールドを使用します。
 
 ![](assets/delivery_list_2.png)
 
-## メッセージのライフサイクル {#message-life-cycle}
+## メッセージのライフサイクル{#message-life-cycle}
 
 メッセージのステータスは、リスト内の特定の色で表されます。 可能なステータスは次のとおりです。
 
