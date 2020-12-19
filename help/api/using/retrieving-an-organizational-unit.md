@@ -17,7 +17,7 @@ ht-degree: 12%
 
 # プロファイルの組織単位の取得 {#retrieving-organizational-units}
 
-1. プロファイルPKeyに対してGETリクエストを実行し、orgUnit **** URLを取得します。
+1. プロファイルPKeyに対してGETリクエストを実行し、**orgUnit** URLを取得します。
 1. URLに対してGETリクエストを実行し、組織単位に関する詳細を取得します。
 
 <br/>
