@@ -9,8 +9,8 @@ topic-tags: working-with-campaign-and-ms-dynamics
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '504'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 5%
 
 ## 概要
 
-Adobe Campaign Standard- Microsoft Dynamics 365の統合については、 [このページで説明します](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)。
+Adobe Campaign Standard- Microsoft Dynamics 365の統合については、[このページ](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)で説明しています。
 
 この記事の統合前の設定を実行する前に、既にプロビジョニングが完了しており、組織のCampaign Standardインスタンスに対する管理者アクセス権があることを前提としています。  この問題が発生しない場合は、キャンペーンのプロビジョニングを完了するために、Adobeカスタマーケアにお問い合わせいただく必要があります。
 
@@ -37,21 +37,21 @@ Adobe Campaign Standard- Microsoft Dynamics 365の統合については、 [こ�
 
 これを行うには、次の手順に従います。
 
-1. 「 [AdobeI/Oコンソール](https://console.adobe.io/home#) 」に移動し、画面の右上にあるドロップダウンメニューからAdobeIMS組織IDを選択します。
+1. [AdobeI/Oコンソール](https://console.adobe.io/home#)に移動し、画面の右上にあるドロップダウンメニューからAdobeIMS組織IDを選択します。
 
-1. 次に、 **[!UICONTROL Create new project]** の下をクリックし **[!UICONTROL Quick Start]**&#x200B;ます。
+1. 次に、**[!UICONTROL Quick Start]**&#x200B;の下の&#x200B;**[!UICONTROL Create new project]**&#x200B;をクリックします。
 
    ![](assets/adobeIO1.png)
 
-1. の下 **[!UICONTROL Get started with your new project]**&#x200B;のをクリックし **[!UICONTROL Add API]**&#x200B;ます。
+1. **[!UICONTROL Get started with your new project]**&#x200B;の下の&#x200B;**[!UICONTROL Add API]**&#x200B;をクリックします。
 
    ![](assets/adobeIO2.png)
 
-1. Adobe CampaignAPIを選択し（下にスクロールする必要がある場合があります）、をクリックし **[!UICONTROL Next]**&#x200B;ます。
+1. Adobe CampaignAPIを選択し（下にスクロールする必要がある場合があります）、**[!UICONTROL Next]**&#x200B;をクリックします。
 
    ![](assets/adobeIO3.png)
 
-1. 次の画面では、独自の公開鍵をアップロードするか、AdobeI/Oで鍵ペアを生成するかを選択できます。 これらの手順は、後者のオプションに従います。 AdobeI/Oでキーペアを生成する場合は、オプション1をクリックします。次に、 **[!UICONTROL Generate keypair]** ボタンをクリックします。
+1. 次の画面では、独自の公開鍵をアップロードするか、AdobeI/Oで鍵ペアを生成するかを選択できます。 これらの手順は、後者のオプションに従います。 AdobeI/Oでキーペアを生成する場合は、オプション1をクリックします。次に、「**[!UICONTROL Generate keypair]**」ボタンをクリックします。
 
    ![](assets/adobeIO4.png)
 
@@ -59,11 +59,13 @@ Adobe Campaign Standard- Microsoft Dynamics 365の統合については、 [こ�
 
 ダウンロードしたファイルを解凍すると、公開鍵と秘密鍵が表示されます。 AdobeI/Oは既にAdobeI/Oプロジェクトに公開鍵を適用しています。 秘密鍵は後で保持する必要があります。秘密鍵は、統合ツールの統合前の設定時に使用されます。
 
-1. クリック **[!UICONTROL Next]** して続行
+1. **[!UICONTROL Next]**&#x200B;をクリックして続行します
 
    ![](assets/adobeIO5.png)
 
-1. 次の画面で、このプロジェクトに関連付ける製品プロファイルを選択します。 ソリューションに含まれる製品プロファイルを選択します。キャンペーン標準製品：campaigntitle:キャンペーンインスタンスのテナントID - [!UICONTROL Administrators]
+1. 次の画面で、このプロジェクトに関連付ける製品プロファイルを選択します。 ソリューションに含まれる製品プロファイルを選択します。Campaign Standard
+product:キャンペーン
+title:キャンペーンインスタンスのテナントID - [!UICONTROL Administrators]
 
    例：Campaign Standard-キャンペーン — テナントID — 管理者
 
@@ -71,21 +73,21 @@ Adobe Campaign Standard- Microsoft Dynamics 365の統合については、 [こ�
 
    ![](assets/adobeIO6.png)
 
-1. 次の画面に、新しいAdobeI/Oプロジェクトの詳細が表示されます。 画面 **[!UICONTROL Add to Project]** の左上にあるをクリックし、ドロップダウンから **API** を選択します。
+1. 次の画面に、新しいAdobeI/Oプロジェクトの詳細が表示されます。 画面の左上にある&#x200B;**[!UICONTROL Add to Project]**&#x200B;をクリックし、ドロップダウンから&#x200B;**API**&#x200B;を選択します。
 
    ![](assets/adobeIO7.png)
 
-1. 次の画面で、I/OイベントAPIを選択し、をクリックし **[!UICONTROL Next]**&#x200B;ます。
+1. 次の画面で、I/OイベントAPIを選択し、**[!UICONTROL Next]**&#x200B;をクリックする必要があります。
 
-1. 次の画面でをクリックし **[!UICONTROL Save the configured API]**&#x200B;ます。  プロジェクトの詳細画面に戻ります。
+1. 次の画面で、**[!UICONTROL Save the configured API]**&#x200B;をクリックします。  プロジェクトの詳細画面に戻ります。
 
-1. 画面の左上 **[!UICONTROL Add to Project]** にあるをクリックし、前と同様に、ドロップダウンから **API** を選択します。
+1. 次に、画面の左上にある&#x200B;**[!UICONTROL Add to Project]**&#x200B;をクリックし、ドロップダウンから&#x200B;**API**&#x200B;を選択します。
 
-1. 次の画面で、I/O Management APIを選択し、をクリックする必要があり **[!UICONTROL Next]**&#x200B;ます。
+1. 次の画面で、I/O Management APIを選択し、**[!UICONTROL Next]**&#x200B;をクリックする必要があります。
 
-1. 次の画面でをクリックし **[!UICONTROL Save the configured API]**&#x200B;ます。
+1. 次の画面で、**[!UICONTROL Save the configured API]**&#x200B;をクリックします。
 
-キャンペーンでの統合前の設定が完了しました。  Microsoft Dynamics 365の [統合前のセットアップを完了します](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)。
+キャンペーンでの統合前の設定が完了しました。  Microsoft Dynamics 365](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)の[統合前のセットアップを完了します。
 
 **関連トピック**
 
