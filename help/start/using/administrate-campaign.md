@@ -9,8 +9,8 @@ topic-tags: discovering-the-interface
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 10%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,13 +23,13 @@ ht-degree: 10%
         <a href="../../start/using/work-with-audiences.md"><img width="60px" alt="conditions" src="assets/icon_profile.svg"/></a>
     </td>
     <td valign="top">
-        <a href="../../api/using/creating-a-service.md"><img width="60px" alt="conditions" src="assets/icon_profile.svg"/></a>
+        <a href="../../api/using/creating-a-service.md"><img width="60px" alt="条件" src="assets/icon_profile.svg"/></a>
     </td>
     <td valign="top">
-        <a href="../../api/using/interacting-with-custom-resources.md"><img width="60px" alt="conditions" src="assets/icon_profile.svg"/></a>
+        <a href="../../api/using/interacting-with-custom-resources.md"><img width="60px" alt="条件" src="assets/icon_profile.svg"/></a>
     </td>
     <td valign="top">
-        <a href="../../api/using/interacting-with-marketing-history.md"><img width="60px" alt="conditions" src="assets/icon_profile.svg"/></a>
+        <a href="../../api/using/interacting-with-marketing-history.md"><img width="60px" alt="条件" src="assets/icon_profile.svg"/></a>
     </td>
 </tr>
 <tr>
@@ -42,7 +42,7 @@ ht-degree: 10%
 
 ## Campaign データモデル
 
-<img width="60px" alt="conditions" src="assets/icon_profile.svg"/>
+<img width="60px" alt="条件" src="assets/icon_profile.svg"/>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. 無悪魔のサピエン・ランカス(Sapibulum pacerat mauris levero)。 整数のluctus blandit ligula。 ヌラ・キス・ビキュラ・オーグ、ラシニア・リサス。 Nunc pharetra fringilla enim eu suscipt。 Mauris consectetur maximus euismod。 Cras et veciula nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
 
@@ -53,7 +53,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. 無悪魔のサピエ�
 
 ## REST APIの使用
 
-<img width="60px" alt="conditions" src="assets/icon_profile.svg"/>
+<img width="60px" alt="条件" src="assets/icon_profile.svg"/>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. 無悪魔のサピエン・ランカス(Sapibulum pacerat mauris levero)。 整数のluctus blandit ligula。 ヌラ・キス・ビキュラ・オーグ、ラシニア・リサス。 Nunc pharetra fringilla enim eu suscipt。 Mauris consectetur maximus euismod。 Cras et veciula nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
 
@@ -64,7 +64,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. 無悪魔のサピエ�
 
 ## ユーザーの管理
 
-<img width="60px" alt="conditions" src="assets/icon_profile.svg"/>
+<img width="60px" alt="条件" src="assets/icon_profile.svg"/>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. 無悪魔のサピエン・ランカス(Sapibulum pacerat mauris levero)。 整数のluctus blandit ligula。 ヌラ・キス・ビキュラ・オーグ、ラシニア・リサス。 Nunc pharetra fringilla enim eu suscipt。 Mauris consectetur maximus euismod。 Cras et veciula nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
 
@@ -75,7 +75,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. 無悪魔のサピエ�
 
 ## インスタンスの設定と監視
 
-<img width="60px" alt="conditions" src="assets/icon_profile.svg"/>
+<img width="60px" alt="条件" src="assets/icon_profile.svg"/>
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. 無悪魔のサピエン・ランカス(Sapibulum pacerat mauris levero)。 整数のluctus blandit ligula。 ヌラ・キス・ビキュラ・オーグ、ラシニア・リサス。 Nunc pharetra fringilla enim eu suscipt。 Mauris consectetur maximus euismod。 Cras et veciula nulla. Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
 
