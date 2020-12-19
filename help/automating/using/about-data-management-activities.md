@@ -32,4 +32,4 @@ ht-degree: 55%
 * [ファイル抽出](../../automating/using/extract-file.md)
 * [サブスクリプションサービス](../../automating/using/subscription-services.md)
 
-**[!UICONTROL Data management (ETL)]** アクティビティを使用すると、送信トランジションの **セグメントコード** を定義できます。 その結果、これらのセグメントコードに基づいてレポートを作成して、マーケティングキャンペーンの効率を測定できます。詳しくは、[この節](../../reporting/using/creating-a-report-workflow-segment.md)を参照してください。
+**[!UICONTROL Data management (ETL)]** アクティビティを使用すると、アウトバウンドトランジションの **セグメント** コードを定義できます。その結果、これらのセグメントコードに基づいてレポートを作成して、マーケティングキャンペーンの効率を測定できます。詳しくは、[この節](../../reporting/using/creating-a-report-workflow-segment.md)を参照してください。
