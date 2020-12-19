@@ -24,7 +24,7 @@ ht-degree: 58%
 
 ![](assets/readaudience_activity_example1.png)
 
-* A first [Read audience](../../automating/using/read-audience.md) activity that retrieves the Gold members audience and refines it by selecting only profiles that are between 18 and 30 years old.
+* 最初の[オーディエンス](../../automating/using/read-audience.md)読み取りアクティビティ。Gold membersオーディエンスを取得し、18 ～ 30年のプロファイルのみを選択して絞り込みます。
 * 2 つ目の「**[!UICONTROL Read audience]**」アクティビティ。シルバーメンバーオーディエンスを取得し、18～30 歳のプロファイルのみを選択して絞り込みます。
-* A [Union](../../automating/using/union.md) activity that unites populations from both **[!UICONTROL Read audiences]** activities into one final population.
-* An [Email delivery](../../automating/using/email-delivery.md) activity that sends the email to the population coming from the **[!UICONTROL Union]** activity.
+* [和集合](../../automating/using/union.md)アクティビティ。両方の&#x200B;**[!UICONTROL Read audiences]**&#x200B;アクティビティの母集団を1つの最終母集団に結合します。
+* [電子メール配信](../../automating/using/email-delivery.md)アクティビティ。**[!UICONTROL Union]**&#x200B;アクティビティからの訪問者に電子メールを送信します。
