@@ -10,8 +10,8 @@ context-tags: delivery,triggers,back
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 29%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -44,7 +44,7 @@ Experience Platform SDK を利用したモバイルアプリケーションで�
 
 ## アプリ内FAQ {#in-app-faq}
 
-### Adobe Campaign Standardのアプリ内チャネルについて詳しく学ぶために役立つリソースの推奨事項は何ですか？ {#resources-inapp}
+### Adobe Campaign Standardのアプリ内チャネルについて詳しく学ぶために役立つリソースの推奨事項は何ですか？{#resources-inapp}
 
 以下のリソースを確認します。
 
@@ -52,7 +52,7 @@ Experience Platform SDK を利用したモバイルアプリケーションで�
 * [ブログ投稿](https://theblog.adobe.com/get-more-out-of-the-new-in-app-message-channel-from-adobe-campaign/)
 * [コミュニティページ](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
-### キャンペーン拡張APIのsetLinkageFieldとresetLinkageFieldの目的は何ですか。 {#extensions-apis}
+### キャンペーン拡張APIのsetLinkageFieldとresetLinkageFieldの目的は何ですか。{#extensions-apis}
 
 アプリ内メッセージはSDKによってキャンペーンから取り込まれるので、PIIデータを含むアプリ内メッセージが悪意のある手に渡されないようにする安全なメカニズムを提供したいと考えています。 そのため、デバイスに対するメッセージの安全な配信を確保するため、次のメカニズムが用意されています。
 
@@ -61,21 +61,21 @@ Experience Platform SDK を利用したモバイルアプリケーションで�
 * プロファイルテンプレートを使用して作成されたメッセージは、ユーザーがアプリにログインしている場合にのみ提供されます。
 * この安全なハンドシェイクを容易にするために、モバイルアプリ開発者は、setLinkageField APIを使用して追加の認証詳細を渡す必要があります。 appSubscriberRcpテーブルを拡張する際に、リンケージフィールドはモバイルプロファイルとCRMプロファイルの間のリンクとして識別されるものであることに注意してください。
 * ユーザーがresetLinkageFieldを使用してアプリからログアウトしたときに、デバイスに保存されているアプリ内メッセージと、resetLinkagefieldをフラッシュする必要があります。 これにより、別のユーザーがアプリにログインした場合でも、以前のユーザー向けのメッセージは表示されなくなります。
-* このセキュリティメカニズムクライアント側を実装するには、 [モバイルSDK API](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference) （英語）を参照してください。
+* このセキュリティメカニズムクライアント側を実装するには、[モバイルSDK API](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference)を参照してください。
 
-### キャンペーンでアプリ内レポートを有効にするには、何をする必要がありますか？ {#enable-inapp-reporting}
+### キャンペーンでアプリ内レポートを有効にするには、何をする必要がありますか？{#enable-inapp-reporting}
 
-アプリ内トラッキングポストバックを設定する必要があります。 Instructions can be found [here](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#InApptrackingpostback).
+アプリ内トラッキングポストバックを設定する必要があります。 説明は[ここ](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#InApptrackingpostback)にあります。
 
-ローカル通知追跡を導入するには、この [ページを参照してください](../../administration/using/local-tracking.md)。
+ローカル通知追跡を導入するには、[ページ](../../administration/using/local-tracking.md)を参照してください。
 
-### アプリ内チャネルで使用できるレポートはどれですか。 {#report-inapp}
+### アプリ内チャネルで使用できるレポートはどれですか。{#report-inapp}
 
-アプリ内チャネルのAdobe Campaignで、すぐに使用できるレポートを利用できます。 Refer to this [documentation](../../reporting/using/in-app-report.md).
+アプリ内チャネルのAdobe Campaignで、すぐに使用できるレポートを利用できます。 この[ドキュメント](../../reporting/using/in-app-report.md)を参照してください。
 
-各アプリ内指標の計算方法について詳しくは [](../../reporting/using/indicator-calculation.md#in-app-delivery) 、このページを参照してください。
+各アプリ内指標の計算方法については、この[ページ](../../reporting/using/indicator-calculation.md#in-app-delivery)を参照してください。
 
-### アプリ内でプッシュと同様の多言語コンテンツのバリエーションをサポートしていますか。 {#multilingual-inapp}
+### アプリ内でプッシュと同様の多言語コンテンツのバリエーションをサポートしていますか。{#multilingual-inapp}
 
 アプリ内メッセージに使用できる多言語テンプレートはありません。
 
@@ -83,26 +83,26 @@ Experience Platform SDK を利用したモバイルアプリケーションで�
 
 ![](assets/faq_inapp.png)
 
-### キャンペーンパーソナライゼーションフィールドをカスタムHTMLに追加できますか。 {#custom-html-inapp}
+### キャンペーンパーソナライゼーションフィールドをカスタムHTMLに追加できますか。{#custom-html-inapp}
 
 いいえ、これはまだサポートされていません。
 
-### 警告メッセージを設定しましたが、デバイスに表示されません。 {#alert-message}
+### 警告メッセージを設定しましたが、デバイスに表示されません。{#alert-message}
 
 アラートメッセージには、少なくとも1つの却下ボタン（プライマリまたはセカンダリで、アクションを却下する必要があります）が必要です。 そうしないと、メッセージは保存できますが、受信されません。
 
-### ローカル通知iOSカスタムサウンドが再生されない場合、代わりに、初期設定のサウンドが再生されますか？ {#local-notification-sound}
+### ローカル通知iOSカスタムサウンドが再生されない場合、代わりに、初期設定のサウンドが再生されますか？{#local-notification-sound}
 
 iOSでのカスタムサウンドの場合、ローカル通知（sound.cafなど）を作成する際に、ファイル名に拡張子を付ける必要があります。 この拡張子が指定されていない場合は、デフォルトのサウンドが使用されます。
 
-### アプリ内メッセージでディープリンクがサポートされているか。 {#inapp-deeplinks}
+### アプリ内メッセージでディープリンクがサポートされているか。{#inapp-deeplinks}
 
 はい、アプリ内メッセージでディープリンクがサポートされます。 ディープリンクには次のものを含める必要があります。
 
 * ディープリンクを機能させるために配信追跡を無効にする必要があることを示す言語。
-* ディープリンクの追跡を行うパートナーとしてBranchを持つAppsflier。 ブランチとAdobe Campaign Standardの統合の詳細については、この [ページを参照してください](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1)。
+* ディープリンクの追跡を行うパートナーとしてBranchを持つAppsflier。 BranchとAdobe Campaign Standardの統合について詳しくは、[ページ](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1)を参照してください。
 
-### ユーザーがプッシュ通知からアプリを起動したときにアプリ内メッセージをトリガーできますか。 {#inapp-push-trigger}
+### ユーザーがプッシュ通知からアプリを起動したときにアプリ内メッセージをトリガーできますか。{#inapp-push-trigger}
 
 はい、これらのメッセージはデイジーチェーンメッセージとも呼ばれます。 次の手順に従います。
 
