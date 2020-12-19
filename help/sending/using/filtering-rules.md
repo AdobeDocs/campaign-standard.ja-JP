@@ -9,8 +9,8 @@ topic-tags: working-with-typology-rules
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 23%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 23%
 
 フィルタールールを使用すると、隔離されたプロファイルや、特定の数の電子メールが既に送信されたプロファイルなど、クエリで定義された条件に従って、メッセージターゲットの一部を除外できます。
 
-## 既定のフィルタタイポロジルール {#default-filtering-typology-rules}
+## 既定のフィルタタイポロジルール{#default-filtering-typology-rules}
 
 次の表に、そのまま使用できるフィルタリングルールと、その関連チャネルに関する情報を示します。
 
@@ -27,7 +27,7 @@ ht-degree: 23%
 ---------|----------|---------
 | **[!UICONTROL Address not specified]** | すべて | 指定したアドレス（電子メール、住所など）を持たないターゲットの人口を除外します。 」をクリックします)。 |
 | **[!UICONTROL Address on denylist]** | すべて | 上のアドレスを除外ブロックリストします。 |
-| **[!UICONTROL Duplicate]** | すべて | ターゲット母集団 **[!UICONTROL Address]** フィールドに基づいて重複を除外します。 |
+| **[!UICONTROL Duplicate]** | すべて | ターゲット母集団&#x200B;**[!UICONTROL Address]**&#x200B;フィールドに基づいて重複を除外します。 |
 | **[!UICONTROL Exclude mobile applications]** | モバイルアプリケーション | メッセージ内で定義されているモバイルアプリと一致しないアプリ購読を除外します。 |
 | **[!UICONTROL Exclude mobile applications for In-App]** | アプリ内 | メッセージ内で定義されているモバイルアプリ（アプリ内テンプレート）と一致しない購読を除外します。 |
 | **[!UICONTROL Exclude mobile applications for In-App broadcast]** | アプリ内 | メッセージ内で定義されているモバイルアプリ（アプリ内ブロードキャストテンプレート）に一致しないアプリ購読を除外します。 |
@@ -37,8 +37,8 @@ ht-degree: 23%
 
 これらのデフォルトのフィルタールールに加えて、2つの除外ルールを使用できます。
 
-* **[!UICONTROL Exclusion of addresses]** ( **[!UICONTROL addressExclusions]** )
-* **[!UICONTROL Exclusion of domains]** ( **[!UICONTROL domainExclusions]** ).
+* **[!UICONTROL Exclusion of addresses]** (  **[!UICONTROL addressExclusions]** )
+* **[!UICONTROL Exclusion of domains]** (  **[!UICONTROL domainExclusions]** )。
 
 電子メールの分析時には、配信性能インスタンスで管理された暗号化グローバル抑止リストに含まれている禁止アドレスや禁止ドメイン名がこれらのルールによって照合され、受信者の電子メールアドレスが該当していないかどうかの確認処理が実行されます。該当した場合、その受信者宛てにはメッセージが送信されません。
 
@@ -54,47 +54,47 @@ ht-degree: 23%
 
 フィルタリングタイポロジルールを作成するには、次の手順に従います。
 
-1. 新しいタイポロジルールを作成します。 The main steps to create typology rules are detailed in [this section](../../sending/using/managing-typology-rules.md).
+1. 新しいタイポロジルールを作成します。 タイポロジルールを作成する主な手順については、[このセクション](../../sending/using/managing-typology-rules.md)で詳しく説明します。
 
-1. ルールタイプを選択し、 **[!UICONTROL Filtering]** 目的のチャネルを指定します。
+1. **[!UICONTROL Filtering]**&#x200B;ルールタイプを選択し、目的のチャネルを指定します。
 
-1. タブで **[!UICONTROL Filtering criteria]** 、 **[!UICONTROL Subscription]** カテゴリの購読を選択します。
+1. 「**[!UICONTROL Filtering criteria]**」タブで、**[!UICONTROL Subscription]**&#x200B;カテゴリの購読を選択します。
 
    ![](assets/typology_create-rule-subscription.png)
 
-1. クエリエディターの **[!UICONTROL Explorer]** タブで、ノードを画面のメイン部分にドラッグ&amp;ドロップし **[!UICONTROL Subscriber]** ます。
+1. クエリエディターの「**[!UICONTROL Explorer]**」タブで、**[!UICONTROL Subscriber]**&#x200B;ノードを画面のメイン部分にドラッグ&amp;ドロップします。
 
    ![](assets/typology_create-rule-subscriber.png)
 
-1. フィールドを選択し、 **[!UICONTROL Age]** フィルター条件を定義して、サブスクライバーの年齢が18才以上になるようにします。
+1. **[!UICONTROL Age]**&#x200B;フィールドを選択し、サブスクライバーの年齢が18才以上になるようにフィルター条件を定義します。
 
    ![](assets/typology_create-rule-age.png)
 
-1. タブで、このルールをタイポロジにリンクし **[!UICONTROL Typologies]** ます。
+1. 「**[!UICONTROL Typologies]**」タブで、このルールをタイポロジにリンクします。
 
    ![](assets/typology_create-rule-typology.png)
 
-1. 使用する配信または配信テンプレートでタイポロジが選択されていることを確認します。 詳しくは、[この節](../../sending/using/managing-typologies.md#applying-typologies-to-messages)を参照してください。
+1. 使用する配信または配信テンプレートでタイポロジが選択されていることを確認します。 詳しくは、[こちらの節](../../sending/using/managing-typologies.md#applying-typologies-to-messages)を参照してください。
 
    ![](assets/typology_template.png)
 
 このルールがメッセージで使用される場合は、未成年と見なされる購読者が自動的に除外されます。
 
-## フィルタールールのターゲット設定コンテキストの設定 {#configuring-filtering-rules-targeting-context}
+## フィルタリングルールのターゲットコンテキスト{#configuring-filtering-rules-targeting-context}の設定
 
-Campaign Standardでは、ターゲットするデータに応じて **ターゲット化** ディメンションと **** フィルターディメンションが使用されるように設定できます。
+Campaign Standardを使用すると、ターゲットするデータに応じて、**ターゲット設定**&#x200B;と&#x200B;**フィルター処理**&#x200B;のディメンションを使用するように設定できます。
 
-これを行うには、タイポロジルールのプロパティを開き、 **[!UICONTROL Advanced information]** セクションにアクセスします。
+これを行うには、タイポロジルールのプロパティを開き、**[!UICONTROL Advanced information]**&#x200B;セクションにアクセスします。
 
-By default, filtering is carried out on the **[!UICONTROL Profiles]**. 例えば、モバイルアプリを対象としたルールの場合は、をに変更 **[!UICONTROL Filtering dimension]** でき **[!UICONTROL Subscriptions to an application]**&#x200B;ます。
+デフォルトでは、**[!UICONTROL Profiles]**&#x200B;上でフィルタリングが行われます。 例えば、モバイルアプリケーション向けのルールの場合、**[!UICONTROL Filtering dimension]**&#x200B;を&#x200B;**[!UICONTROL Subscriptions to an application]**&#x200B;に変更できます。
 
 ![](assets/typology_rule-order_2.png)
 
-## Restricting the applicability of a filtering rule {#restricting-the-applicability-of-a-filtering-rule}
+## フィルタリング規則の適用の制限{#restricting-the-applicability-of-a-filtering-rule}
 
 送信するメッセージに従って、フィルタリングルールの適用を制限できます。
 
-1. タイポロジルールの **[!UICONTROL Application criteria]** タブで、デフォルトで有効になっている **[!UICONTROL Apply the rule on all deliveries]** オプションをオフにします。
+1. タイポロジルールの「**[!UICONTROL Application criteria]**」タブで、「**[!UICONTROL Apply the rule on all deliveries]**」オプションの選択を解除します。このオプションはデフォルトで有効になっています。
 
    ![](assets/typology_limit.png)
 
