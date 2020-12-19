@@ -9,8 +9,8 @@ topic-tags: working-with-campaign-and-target
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 38%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -27,4 +27,4 @@ Adobe Targetでは、次のようなデータを使用できます。
 * Adobe Target で訪問者 ID にリンクされたセグメント。ただし、使用されるデータに法的制限がない場合に限ります。
 * Adobe Target データ：ユーザーエージェント、IP アドレス、位置情報データ
 
-Adobe CampaignとAdobe Targetの統合について詳しくは、 [Adobe Targetポータルを参照してください](https://docs.adobe.com/content/help/ja-JP/target/using/integrate/campaign-and-target.html)。
+Adobe CampaignとAdobe Targetの統合について詳しくは、[Adobe Targetポータル](https://docs.adobe.com/content/help/ja-JP/target/using/integrate/campaign-and-target.html)を参照してください。
