@@ -9,8 +9,8 @@ topic-tags: working-with-campaign-and-triggers
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,15 +21,15 @@ ht-degree: 2%
 
 **機能は有効になっているか。**
 
-Triggers -キャンペーン統合がアクティブ化されているかどうかを確認するには、Adobe Campaignのロゴをクリックし、左上隅で **[!UICONTROL Marketing plans]** /を選択し **[!UICONTROL Transactional messages]**&#x200B;ます。 項目が表示され **[!UICONTROL Experience Cloud Triggers]** ます。
+Triggers -キャンペーン統合がアクティブ化されているかどうかを確認するには、Adobe Campaignのロゴをクリックし、左上隅にある&#x200B;**[!UICONTROL Marketing plans]**/**[!UICONTROL Transactional messages]**&#x200B;を選択します。 **[!UICONTROL Experience Cloud Triggers]**&#x200B;項目が表示されます。
 
 表示されたら、次の手順に進みます。
 
-ログインしていない場合は、Adobeのアカウントエグゼクティブまたはプロフェッショナルサービスパートナーにお問い合わせください。 機能の [アクティブ化を参照してください](../../integrating/using/configuring-triggers-in-experience-cloud.md#activating-the-functionality)。
+ログインしていない場合は、Adobeのアカウントエグゼクティブまたはプロフェッショナルサービスパートナーにお問い合わせください。 [機能の有効化](../../integrating/using/configuring-triggers-in-experience-cloud.md#activating-the-functionality)を参照してください。
 
 **トリガーを作成してみます。**
 
-「キャンペーンでのマッピングされたトリガーの [作成](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign) 」で説明されている手順に従って、トリガーを作成します。
+[キャンペーン](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign)でのマッピングされたトリガーの作成で説明されている手順に従って、トリガーを作成します。
 
 トリガーが作成された場合は、次の手順に進みます。 そうでない場合は、トリガーの終点の接続に失敗したことを意味します。 TriggersがExperience Cloudでプロビジョニングされているかどうかを確認します(アクティベーションサービス)。 ログインしていない場合は、Adobeのアカウントエグゼクティブまたはプロのサービスパートナーにお問い合わせください。 次の情報が必要です。
 
@@ -39,13 +39,13 @@ Triggers -キャンペーン統合がアクティブ化されているかどう�
 
 **トリガーを公開してみる**
 
-「キャンペーンでのマッピングされたトリガーの [作成](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign) 」で説明されている手順に従って、トリガーを発行します。
+[キャンペーン](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign)でマップされたトリガーを作成してトリガーを発行するには、&lt;a0/>に記載されている手順に従います。
 
 パブリケーションが成功した場合は、次のステップに進みます。 インスタンス名がない場合は、Adobeに問い合わせてインスタンスを再起動し、もう一度やり直してください。
 
 **Webサイトからのトリガーの生成**
 
-トランザクションテンプレートを編集および公開するには、 [トランザクションメッセージテンプレートの編集](../../integrating/using/using-triggers-in-campaign.md#editing-the-transactional-message-template) （英語のみ）に記載されている手順に従います。 次に、Webサイトからのトリガーの生成をテストします。
+[トランザクションメッセージテンプレート](../../integrating/using/using-triggers-in-campaign.md#editing-the-transactional-message-template)の編集で説明されている手順に従って、トランザクションテンプレートを編集し、公開します。 次に、Webサイトからのトリガーの生成をテストします。
 
 トリガーがAnalyticsで受け取られた場合は、次の手順に進みます。 そうでない場合は、次の項目を確認します。
 
