@@ -10,8 +10,8 @@ context-tags: delivery,mobileAppContent,back
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '1494'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -111,7 +111,7 @@ Adobe Campaign では、プッシュ通知のデザイン中に一連の詳細�
 
 プッシュ通知に有効期限を追加するには、次の手順に従います。
 
-1. Check the **[!UICONTROL Expire message]** option: by selecting the **[!UICONTROL Expire message]** option, the duration is automatically set to 0. 値を変更しない場合、APNS も FCM もメッセージの送信を直ちに試みます。失敗した場合、メッセージは再送信されません。
+1. **[!UICONTROL Expire message]**&#x200B;オプションを確認します。**[!UICONTROL Expire message]**&#x200B;オプションを選択すると、期間が自動的に0に設定されます。 値を変更しない場合、APNS も FCM もメッセージの送信を直ちに試みます。失敗した場合、メッセージは再送信されません。
 
 1. 「**[!UICONTROL Duration]**」フィールドで、プッシュ通知の有効期限を選択します。
 
