@@ -9,8 +9,8 @@ topic-tags: importing-and-exporting-data
 translation-type: tm+mt
 source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 7%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
