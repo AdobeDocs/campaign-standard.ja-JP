@@ -1,7 +1,7 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: トランザクションメッセージの使用例
+title: トランザクションメッセージのユースケース
 description: Adobe Campaignトランザクションメッセージング機能のエンドツーエンドの例を見つけ出します。
 audience: channels
 content-type: reference
@@ -10,13 +10,13 @@ context-tags: null
 translation-type: tm+mt
 source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
 workflow-type: tm+mt
-source-wordcount: '504'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# トランザクションメッセージングの使用例{#transactional-messaging-use-case}
+# トランザクションメッセージのユースケース {#transactional-messaging-use-case}
 
 この例では、Adobe Campaignトランザクションメッセージング機能を使用して、Webサイトでの各購入後に確認電子メールを送信し、CRM IDを介して顧客を特定します。
 
