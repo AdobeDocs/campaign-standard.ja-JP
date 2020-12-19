@@ -9,8 +9,8 @@ topic-tags: workflow-general-operation
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 19%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 19%
 
 宣言済みの外部パラメーターを含む、ワークフローで使用可能なイベント変数を監視できます。 これをおこなうには、以下の手順に従います。
 
-1. アクティビティに続くアクティビティを選択し、 **[!UICONTROL External signal]** ボタンをクリックし **[!UICONTROL Log and tasks]** ます。
-1. In the **[!UICONTROL Tasks]** tab, click ![](assets/edit_darkgrey-24px.png) button.
+1. **[!UICONTROL External signal]**&#x200B;アクティビティに続くアクティビティを選択し、**[!UICONTROL Log and tasks]**&#x200B;ボタンをクリックします。
+1. 「**[!UICONTROL Tasks]**」タブで、「![](assets/edit_darkgrey-24px.png)」ボタンをクリックします。
 
    ![](assets/extsignal_monitoring_2.png)
 
