@@ -10,8 +10,8 @@ context-tags: workflow,use-case,segmentation
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 41%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,24 +24,24 @@ ht-degree: 41%
 1. ワークフローのタイプとして「**[!UICONTROL New Workflow]**」を選択し、「**[!UICONTROL Next]**」をクリックします。
 1. ワークフローのプロパティを入力し、「**[!UICONTROL Create]**」をクリックします。
 
-## Create a Query activity {#create-a-query-activity}
+## クエリアクティビティの作成{#create-a-query-activity}
 
 1. **[!UICONTROL Activities]**／**[!UICONTROL Targeting]** で、「[クエリ](../../automating/using/query.md)」アクティビティをドラッグ＆ドロップします。
 1. アクティビティをダブルクリックします。
-1. In **[!UICONTROL Shortcuts]**, drag and drop **[!UICONTROL Profiles]** and select **[!UICONTROL email]** with the operator **[!UICONTROL is not empty]**.
-1. In **[!UICONTROL Shortcuts]**, drag and drop **[!UICONTROL Profiles]** and select **[!UICONTROL no longer contact by email]** with the value **[!UICONTROL no]**.
+1. **[!UICONTROL Shortcuts]**&#x200B;で、**[!UICONTROL Profiles]**&#x200B;をドラッグ&amp;ドロップし、演算子&#x200B;**[!UICONTROL is not empty]**&#x200B;を使用して&#x200B;**[!UICONTROL email]**&#x200B;を選択します。
+1. **[!UICONTROL Shortcuts]**&#x200B;で、**[!UICONTROL Profiles]**&#x200B;をドラッグ&amp;ドロップし、**[!UICONTROL no]**&#x200B;の値で&#x200B;**[!UICONTROL no longer contact by email]**&#x200B;を選択します。
 1. 「**[!UICONTROL Confirm]**」をクリックします。
 
 ![](assets/wf-complement-query.png)
 
-## Create a Segmentation activity {#create-a-segmentation-activity}
+## セグメントアクティビティの作成{#create-a-segmentation-activity}
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**, drag and drop a [Segmentation](../../automating/using/segmentation.md) activity and double-click it.
-1. セグメントの上にマウスポインターを置き、「To Database」をクリックして、ターゲットに年内に追加した顧客 ![](assets/edit_darkgrey-24px.png) を選択します。
-1. Drag and drop **[!UICONTROL Profiles]** and select **[!UICONTROL Created]** with the filter type **[!UICONTROL Relative]**.
-1. Change the **[!UICONTROL Level of precision]** to **[!UICONTROL Year]** and select **[!UICONTROL This year]**.
+1. **[!UICONTROL Activities]**/**[!UICONTROL Targeting]**&#x200B;に[セグメント化](../../automating/using/segmentation.md)アクティビティをドラッグ&amp;ドロップし、重複クリックします。
+1. セグメントの上にマウスポインターを置き、「![](assets/edit_darkgrey-24px.png)」をクリックすると、顧客がデータベースに今年追加したターゲットが表示されます。
+1. **[!UICONTROL Profiles]**&#x200B;をドラッグ&amp;ドロップし、フィルタータイプ&#x200B;**[!UICONTROL Relative]**&#x200B;で&#x200B;**[!UICONTROL Created]**&#x200B;を選択します。
+1. **[!UICONTROL Level of precision]**&#x200B;を&#x200B;**[!UICONTROL Year]**&#x200B;に変更し、**[!UICONTROL This year]**&#x200B;を選択します。
 1. 「**[!UICONTROL Confirm]**」を 2 回クリックします。
-1. で、残り **[!UICONTROL Advanced Options]**&#x200B;の受信者 **[!UICONTROL Generate complement]** をターゲットにしたセグメントを作成する場合にオンにします。
+1. **[!UICONTROL Advanced Options]**&#x200B;で、**[!UICONTROL Generate complement]**&#x200B;をチェックして、残りの受信者をターゲットにしたセグメントを作成します。
 1. 「**[!UICONTROL Confirm]**」をクリックします。
 1. 「**[!UICONTROL Save]**」をクリックします。
 
@@ -49,11 +49,11 @@ ht-degree: 41%
 
 >[!NOTE]
 >
->ルールの構造を確認するには、をクリックし **[!UICONTROL Advanced Mode]**&#x200B;ます。
+>ルールの構造を確認するには、**[!UICONTROL Advanced Mode]**&#x200B;をクリックします。
 
 ## E メール配信の作成 {#create-an-email-delivery}
 
-1. / **[!UICONTROL Activities]** で、 **[!UICONTROL Channels]**&#x200B;各セグメントの後に [電子メール配信](../../automating/using/email-delivery.md) アクティビティをドラッグ&amp;ドロップします。
+1. **[!UICONTROL Activities]**/**[!UICONTROL Channels]**&#x200B;で、[電子メール配信](../../automating/using/email-delivery.md)アクティビティを各セグメントの後にドラッグ&amp;ドロップします。
 1. アクティビティをクリックし、![](assets/edit_darkgrey-24px.png) を選択して編集します。
 1. 「**[!UICONTROL Single send email]**」を選択し、「**[!UICONTROL Next]**」をクリックします。
 1. E メールテンプレートを選択し、「**[!UICONTROL Next]**」をクリックします。
