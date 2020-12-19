@@ -19,14 +19,14 @@ ht-degree: 9%
 
 オプトアウトの結果、プロファイルがどの配信や特定のチャネルの配信によってターゲット設定されることはなくなりました。
 
-プロファイルに対して権限を与えるには、専用のランディングページを作成するオプトイン必要があります。 詳しくは、オプトインおよびオプトアウトランディングページの [設定を参照してください](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md#setting-up-opt-in-and-opt-out-landing-pages)。
+プロファイルに対して権限を与えるには、専用のランディングページを作成するオプトイン必要があります。 詳しくは、[オプトインおよびオプトアウトランディングページの設定](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md#setting-up-opt-in-and-opt-out-landing-pages)を参照してください。
 
-プロファイルは、オペレーターが手動でオプトインまたはオプトアウトすることもできます。 詳しくは、「プロファイルからのオプトインおよびオプトアウトの [管理](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md#managing-opt-in-and-opt-out-from-a-profile)」を参照してください。
+プロファイルは、オペレーターが手動でオプトインまたはオプトアウトすることもできます。 詳しくは、[プロファイルからのオプトインおよびオプトアウトの管理](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md#managing-opt-in-and-opt-out-from-a-profile)を参照してください。
 
 配信を高速化するため、配信分析中にオプトアウトプロファイルが自動的に除外されます(配信速度に大きな影響があります)。
 
 >[!NOTE]
 >
->オプトアウトは、 **電子メールアドレス**&#x200B;や **電話番号にリンクされている強制隔離に対して、** プロファイルに適用されます ****。 したがって、プロファイルをオプトアウトすると、その配信にリンクされているすべてのアドレスがから除外されます。 データベースに2つのプロファイルが含まれている場合、プロファイルの1つのみがオプトアウトになるので、配信のターゲットになります。 すべての住所を除外するには、強制隔離の住所に住所を追加します。 詳しくは、[このページ](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses-for-the-entire-platform)を参照してください。
+>オプトアウトは&#x200B;**プロファイル**&#x200B;に適用され、**電子メールアドレス**&#x200B;または&#x200B;**電話番号**&#x200B;にリンクされている強制隔離には適用されません。 したがって、プロファイルをオプトアウトすると、その配信にリンクされているすべてのアドレスがから除外されます。 データベースに2つのプロファイルが含まれている場合、プロファイルの1つのみがオプトアウトになるので、配信のターゲットになります。 すべての住所を除外するには、強制隔離の住所に住所を追加します。 詳しくは、[このページ](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses-for-the-entire-platform)を参照してください。
 
-For more on services subscriptions, refer to [this page](../../audiences/using/about-subscriptions.md).
+サービスの購読について詳しくは、[このページ](../../audiences/using/about-subscriptions.md)を参照してください。
