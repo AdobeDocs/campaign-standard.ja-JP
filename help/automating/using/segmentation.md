@@ -44,7 +44,7 @@ ht-degree: 92%
 
 1. ワークフローに「**[!UICONTROL Segmentation]**」アクティビティをドラッグ＆ドロップします。
 1. アクティビティを選択し、表示されるクイックアクションの ![](assets/edit_darkgrey-24px.png) ボタンを使用して開きます。
-1. In the **[!UICONTROL General]** tab, select the **[!UICONTROL Resource type]** on which the segmentation has to be carried out:
+1. 「**[!UICONTROL General]**」タブで、セグメントを実行する&#x200B;**[!UICONTROL Resource type]**&#x200B;を選択します。
 
    * データベースに既に存在するデータに対してセグメント化が実行される場合は **[!UICONTROL Database resource]** を選択します。セグメント化するデータに応じて、**[!UICONTROL Filtering dimension]** を選択します。デフォルトでは、セグメント化は&#x200B;**プロファイル**&#x200B;で実行されます。
    * ワークフローの一時データでセグメント化が実行される場合は **[!UICONTROL Temporary resource]** を選択します。セグメント化するデータを含む **[!UICONTROL Targeted set]** を選択します。この使用例は、ファイルのインポート後、またはデータベース内のデータがエンリッチメントされた場合に発生する可能性があります。
@@ -96,6 +96,6 @@ ht-degree: 92%
 
    * インバウンド母集団のメンバーを同時に複数のセグメントに割り当てる場合は、「**[!UICONTROL Enable overlapping of outbound populations]**」オプションを選択します。アクティビティのアウトバウンド母集団がインバウンド母集団を超える可能性があります。
    * 保持したいセグメントコードがインバウンド母集団に既に割り当てられている場合は、「**[!UICONTROL Concatenate the code of each segment]**」オプションを選択します。アクティビティで指定されたセグメントコードが、最初のセグメントコードに追加されます。
-   * 残りの母集団を活用する場合は、「**[!UICONTROL Generate complement]**」オプションを選択します。See [Use case: Creating deliveries with a complement](../../automating/using/workflow-created-query-with-complement.md).
+   * 残りの母集団を活用する場合は、「**[!UICONTROL Generate complement]**」オプションを選択します。[使用例を参照：補数](../../automating/using/workflow-created-query-with-complement.md)を持つ配信を作成しています。
 
 1. アクティビティの設定を確認し、ワークフローを保存します。
