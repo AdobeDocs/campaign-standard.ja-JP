@@ -9,8 +9,8 @@ index: y
 translation-type: tm+mt
 source-git-commit: a7300666587362048431d0bafacc317170b317aa
 workflow-type: tm+mt
-source-wordcount: '732'
-ht-degree: 83%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -25,15 +25,15 @@ ht-degree: 83%
 
 いくつかの要因がサーバーのパフォーマンスに直接影響し、プラットフォームの速度が低下することがあります。
 
-* パーソナライゼーション要素の数とタイプ：E メールのパーソナライゼーションでは、各受信者のデータベースからデータを取り出します。パーソナライゼーション要素が多数ある場合は、配信の準備に必要なデータの量もそれだけ多くなります。Learn more about email personalization in [this section](../../designing/using/personalization.md)
+* パーソナライゼーション要素の数とタイプ：E メールのパーソナライゼーションでは、各受信者のデータベースからデータを取り出します。パーソナライゼーション要素が多数ある場合は、配信の準備に必要なデータの量もそれだけ多くなります。電子メールのパーソナライゼーションについて詳しくは、[このセクション](../../designing/using/personalization.md)を参照してください
 
 * サーバーの読み込み：キャンペーンが多くの異なるタスクを同時に処理している場合、パフォーマンスが低下する可能性があります。 サーバーでは、すべての配信の入出力データをすべて調整し、データが正しく、かつ時間どおりになっていることを確認する必要があります。
 
    **ヒント**：パフォーマンスの低下を避けるには、他のチームメンバーと話し合い、最適なパフォーマンスが得られるように配信スケジュールを調整します。
 
-* The [workflow execution](../../automating/using/about-workflow-execution.md): monitoring your workflows is essential to avoid platform performance issues. Follow the guidelines listed [in this page](../../automating/using/monitoring-workflow-execution.md). 詳しくは、「 [ワークフローのベストプラクティス](../../automating/using/best-practices-workflows.md) 」の節を参照してください。
+* [ワークフローの実行](../../automating/using/about-workflow-execution.md):ワークフローの監視は、プラットフォームのパフォーマンスの問題を回避するために不可欠です。 [このページ](../../automating/using/monitoring-workflow-execution.md)に記載されているガイドラインに従ってください。 詳しくは、[ワークフローのベストプラクティス](../../automating/using/best-practices-workflows.md)の節を参照してください。
 
-* [キャンペーンコントロールパネルの機能を利用して](https://docs.adobe.com/content/help/ja-JP/control-panel/using/discover-control-panel/key-features.html) 、 [](https://docs.adobe.com/content/help/ja-JP/control-panel/using/performance-monitoring/about-performance-monitoring.html) パフォーマンス監視機能を使用してプラットフォームを監視できます。
+* [キャンペーンコントロールパネル機能](https://docs.adobe.com/content/help/ja-JP/control-panel/using/discover-control-panel/key-features.html)を利用して、[パフォーマンス監視](https://docs.adobe.com/content/help/ja-JP/control-panel/using/performance-monitoring/about-performance-monitoring.html)機能を使用して、プラットフォームを監視できます。
 
 ## ネットワーク設定の確認 {#network-config}
 
@@ -51,7 +51,7 @@ ht-degree: 83%
 
    * E メールの配信品質を確認するときは、データ品質、メッセージとコンテンツ、送信インフラストラクチャ、レピュテーションという 4 つの主要カテゴリを中心に調べます。このトピックについて詳しくは、[この節](../../sending/using/about-deliverability.md)を参照してください。
 
-* 新しいプラットフォームを開始する際に、このページで詳しく説明 [するレコメンデーションを適用します](../../sending/using/starting-new-platform.md)。
+* 新しいプラットフォームを開始する際に、[詳細を説明したレコメンデーションをこのページ](../../sending/using/starting-new-platform.md)に適用します。
 
 * サポートが必要な場合は、アドビ担当者にお問い合わせください。
 
@@ -77,4 +77,4 @@ ht-degree: 83%
 
 このメカニズムの実装の詳細については、[この節](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)で説明します。
 
-詳しくは、プロファイルとオーディエンス [の使い始めに](../../audiences/using/get-started-profiles-and-audiences.md)。
+詳しくは、[プロファイルとオーディエンスの使い始めに](../../audiences/using/get-started-profiles-and-audiences.md)を参照してください。
