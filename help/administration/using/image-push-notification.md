@@ -24,7 +24,7 @@ ht-degree: 20%
 
 このドキュメントでは、Adobe Campaign StandardiOSのプッシュ通知から画像を表示する方法を説明します。
 
-## 手順1:プッシュ通知の設定 {#set-up-push}
+## 手順1:プッシュ通知のセットアップ{#set-up-push}
 
 プッシュ通知は、Experience PlatformSDKでサポートされています。
 
@@ -34,40 +34,40 @@ Adobe CampaignとAdobeの両方のMobile Servicesを設定すると、モバイ�
 
 Experience CloudSDKアプリケーションでプッシュ通知を送信するには、モバイルアプリをAdobe Experience Platform Launchで設定し、Adobe Campaignで設定する必要があります。 詳しくは、この[ページ](https://helpx.adobe.com/jp/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign)を参照してください。
 
-## 手順2:Adobe Campaignでのプッシュ通知のカスタマイズ {#customize-push}
+## 手順2:Adobe Campaign{#customize-push}のプッシュ通知をカスタマイズ
 
 Adobe Campaign では、プッシュ通知のデザイン中に一連の詳細設定オプションにアクセスして、プッシュ通知を微調整することができます。
 
 1. プッシュ通知の作成. 詳しくは、この[ページ](../../channels/using/preparing-and-sending-a-push-notification.md)を参照してください。
 
-1. プッシュ通知コンテンツページから、セクションにアクセスし **[!UICONTROL Advanced options]** ます。
+1. プッシュ通知コンテンツページで、**[!UICONTROL Advanced options]**&#x200B;セクションにアクセスします。
 
-1. ファイルのURLを **[!UICONTROL Rich media content URL]** フィールドに入力します。
+1. ファイルのURLを&#x200B;**[!UICONTROL Rich media content URL]**フィールドに入力します。
 iOS 10 以降では、画像、gif、オーディオおよびビデオのファイルを挿入できます。
 
    ![](assets/push_notif_advanced_6.png)
 
 1. プレビューし、プッシュ通知を保存します。
 
-## 手順3:モバイルアプリケーションコードの適合 {#mobile-app-code}
+## 手順3:モバイルアプリケーションコードの適合{#mobile-app-code}
 
 Adobe Campaignでプッシュ通知をカスタマイズした後、デバイスに画像を表示するようにモバイルアプリを設定する必要があります。
 
 >[!NOTE]
 >
->アプリケーションがObjective-Cである場合は、次の [ドキュメントを参照してください](https://docs.adobe.com/content/help/en/mobile-services/ios/messaging-ios/push-messaging/c-set-up-rich-push-notif-ios.html)。
+>アプリケーションがObjective-Cで使用されている場合は、次の[ドキュメント](https://docs.adobe.com/content/help/en/mobile-services/ios/messaging-ios/push-messaging/c-set-up-rich-push-notif-ios.html)を参照してください。
 
-アプリケーションがインストールされている場合 [!DNL Swift]は、次の手順に従います。
+アプリが[!DNL Swift]にある場合は、次の手順に従います。
 
-1. プ [!DNL Xcode] ロジェクトを開きます。
+1. [!DNL Xcode]プロジェクトを開きます。
 
-1. プ [!DNL Xcode] ロジェクトで、 **[!UICONTROL File]** / **[!UICONTROL New]** を選択し **[!UICONTROL Target]**&#x200B;ます。
+1. [!DNL Xcode]プロジェクトで、**[!UICONTROL File]** > **[!UICONTROL New]** > **[!UICONTROL Target]**&#x200B;を選択します。
 
 1. 「**[!UICONTROL Notification Service Extension]**」を選択します。
 
    ![](assets/push_notif_advanced_12.png)
 
-1. NotificationService.swift **ファイルクラスが作成されていることを確認します** 。
+1. **NotificationService.swift**&#x200B;ファイルクラスが作成されていることを確認します。
 
 1. このクラスを編集し、デフォルトコンテンツを次の内容に置き換えます。
 これにより、アプリケーションは、画像URLを持つ受信パラメーターを処理し、解析してローカルにコピーし、プッシュ通知から表示できます。
@@ -152,9 +152,9 @@ userInfo: [AnyHashable("media-attachment-url"): https://pbs.twimg.com/profile_im
 }]
 ```
 
-## 手順4:プッシュの送信テスト {#test-send-push}
+## 手順4:プッシュ{#test-send-push}の送信テスト
 
-これで、上記の手順2で作成したアプリケーションと配信の構築をテストできます。 プッシュ通知の準備と送信について詳しくは、この [ページを参照してください](../../channels/using/preparing-and-sending-a-push-notification.md)。
+これで、上記の手順2で作成したアプリケーションと配信の構築をテストできます。 プッシュ通知の準備と送信の詳細については、[ページ](../../channels/using/preparing-and-sending-a-push-notification.md)を参照してください。
 
 ![](assets/push_notif_advanced_34.png)
 
