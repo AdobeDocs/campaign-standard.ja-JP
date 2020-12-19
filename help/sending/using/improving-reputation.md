@@ -10,8 +10,8 @@ context-tags: delivery,schedule,back
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 75%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 75%
 データベースに対する操作を実行する場合は、特に注意が必要です。 可能な限り重複を避けるために、以下を実施する必要があります。
 * **インポートは細かく設定する必要があります。** これは、紐付けキーを選択する際に特に重要です。
 * **E メールアドレスを変更する際は注意する.**&#x200B;変更された E メールアドレスも、重複の元になる可能性があります。特に、異なるドメインの 2 つのアドレスが、同じメールボックスにルーティングされる場合があります（例えば、名前を変更し、一定期間以前のドメインを維持する場合の joe.doe@amce-co.com と joe.doe@acme-rebranded.com など）。
-* **自動インポート時は注意する.** リストの場合も、他のデータベースの場合も、プロファイルの管理時に考慮すべき要素です。 プロファイルを削除したり別のパーティションに移動したりすると何が起こるでしょうか。例えば、注文がおこなわれると、自動インポートによって最初のパーティションに再作成される可能性があります。
+* **自動インポート時は注意する.** リストの場合も、他のデータベースの場合も、プロファイルの管理時に考慮すべき要素です。プロファイルを削除したり別のパーティションに移動したりすると何が起こるでしょうか。例えば、注文がおこなわれると、自動インポートによって最初のパーティションに再作成される可能性があります。
 * **プロファイルは異なるフォルダーに分類する.**
 
 同様に、異なるパーティション間での重複が正常である場合があります。例えば、サードパーティや会社の別の組織に送信する場合、同じ人物が異なる理由で受信者になるのは、理にかなっています。しかし、同じパーディション内の重複が正常であることはまれです。
@@ -42,6 +42,6 @@ ht-degree: 75%
 
 Adobe Campaign では、強制隔離されたアドレスのリストを管理します。アドレスが強制隔離されている受信者は、配信分析時にデフォルトで除外され、ターゲティングされません。
 
-Quarantine management is detailed in [this section](../../sending/using/understanding-quarantine-management.md).
+強制隔離管理の詳細は、[このセクション](../../sending/using/understanding-quarantine-management.md)に記載されています。
 
-例えば、受信ボックスの容量が超過している場合や、アドレスが存在しない場合などに、E メールアドレスを強制隔離できます。いずれの場合も、検疫は、 [この節で示す特定のルールに対応し](../../sending/using/understanding-quarantine-management.md#conditions-for-sending-an-address-to-quarantine)ます。
+例えば、受信ボックスの容量が超過している場合や、アドレスが存在しない場合などに、E メールアドレスを強制隔離できます。いずれの場合も、検疫は、[このセクション](../../sending/using/understanding-quarantine-management.md#conditions-for-sending-an-address-to-quarantine)で示された特定の規則に対応します。
