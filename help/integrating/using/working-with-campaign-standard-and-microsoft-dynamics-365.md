@@ -19,7 +19,7 @@ ht-degree: 10%
 
 チャネル間の通信に関するCRMデータをアクティブにします。Microsoft Dynamics 365の連絡先をAdobe Campaignに渡し、キャンペーンパフォーマンスデータ（送信、開く、クリック、およびバウンス）をAdobe CampaignからMicrosoft Dynamics 365に共有する方法を説明します。
 
-この節では、サポートされ [るバージョンを示します](#support-software-versions)。
+このセクション](#support-software-versions)では、サポートされているバージョンを[一覧に示します。
 
 >[!CAUTION]
 >
@@ -31,7 +31,7 @@ Adobe CampaignとMicrosoft Dynamics 365の統合により、CRMシステム内�
 
 逆に、Adobe Campaign内のプロファイルがメッセージとやり取りする場合、そのデータ(例：送信、開く、クリック、バウンス)が自動的にMicrosoft Dynamics 365に流れ込み、マーケティングアクティビティとの連絡記録も完全に保ちます。
 
-この統合は、カスタムエンティティもサポートし、Dynamics 365の [カスタムエンティティ](../../integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md) をキャンペーン内の対応するカスタムエンティティと同期できます。
+この統合は、カスタムエンティティもサポートし、Dynamics 365の[カスタムエンティティ](../../integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)をキャンペーン内の対応するカスタムエンティティと同期できます。
 
 この統合は、主に次の4つの使用例をサポートするように設計されています。
 
@@ -58,7 +58,7 @@ Adobe CampaignをDynamics 365と統合することで、CRMシステム内から
 >
 >連絡先エンティティとカスタムエンティティの同期の場合、この統合ではDynamics 365を真の原因と見なします。  同期された属性に対する変更は、キャンペーンではなくDynamics 365で行う必要があります。  キャンペーンで変更を行うと、同期中に上書きされる場合があります。
 
-## サポートソフトウェアバージョン {#support-software-versions}
+## サポートソフトウェアバージョン{#support-software-versions}
 
 この統合には、次のソフトウェアバージョンが必要です。
 
