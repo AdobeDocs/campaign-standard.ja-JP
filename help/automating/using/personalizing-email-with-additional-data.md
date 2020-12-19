@@ -10,15 +10,15 @@ context-tags: query,main
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 86%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # 追加データによる E メールのパーソナライズ {#example--personalizing-an-email-with-additional-data}
 
-次の例は、様々なタイプの追加データをクエリに追加し、E メールのパーソナライゼーションフィールドとして使用する方法を示しています。アクティビティがターゲットとするデータを拡張する方法について詳しくは、 **[!UICONTROL Query]** この節を参照し [てください](../../automating/using/query.md#enriching-data)。
+次の例は、様々なタイプの追加データをクエリに追加し、E メールのパーソナライゼーションフィールドとして使用する方法を示しています。**[!UICONTROL Query]**&#x200B;アクティビティが対象とするデータを拡張する方法について詳しくは、[このセクション](../../automating/using/query.md#enriching-data)を参照してください。
 
 この例では、[カスタムリソース](../../developing/using/data-model-concepts.md)を使用します。
 
@@ -32,7 +32,7 @@ ht-degree: 86%
 
 ![](assets/enrichment_example1.png)
 
-1. Add a [Query](../../automating/using/query.md) activity, which allows you to target the profiles that have carried out at least one transaction.
+1. 追加[クエリ](../../automating/using/query.md)アクティビティ。1つ以上のトランザクションを実行したプロファイルをターゲットできます。
 
    ![](assets/enrichment_example2.png)
 
@@ -53,7 +53,7 @@ ht-degree: 86%
 
    ![](assets/enrichment_example5.png)
 
-1. 追加 [電子メール配信](../../automating/using/email-delivery.md) アクティビティ。 E メールコンテンツに、クエリで計算されたデータに対応するパーソナライゼーションフィールドを挿入します。パーソナライゼーションフィールドエクスプローラーの **[!UICONTROL Additional data (targetData)]** リンクからアクセスできます。
+1. 追加[電子メール配信](../../automating/using/email-delivery.md)アクティビティ。 E メールコンテンツに、クエリで計算されたデータに対応するパーソナライゼーションフィールドを挿入します。パーソナライゼーションフィールドエクスプローラーの **[!UICONTROL Additional data (targetData)]** リンクからアクセスできます。
 
    ![](assets/enrichment_example3.png)
 
