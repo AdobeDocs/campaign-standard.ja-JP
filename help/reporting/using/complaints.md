@@ -10,8 +10,8 @@ context-tags: deliveryComplaintsReport,main;campaignComplaintsReport,main;progra
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 17%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,6 +22,6 @@ ht-degree: 17%
 
 ![](assets/delivery_reports_complaints.png)
 
-Flop **** テーブルは、受信者ドメインで並べ替えられ、電子メールまたは迷惑メールとして宣言された受信者の数を表示します。 表の結果は、グラフと概要の数値でも確認できます。
+**Flop**&#x200B;テーブルは、受信者ドメインで並べ替えられ、電子メールまたは迷惑メールとして宣言した受信者の数を表示します。 表の結果は、グラフと概要の数値でも確認できます。
 
-「 **** 配信済みかブロックリストら受信」の表には、電子メールをスパムまたは迷惑メールとして宣言した受信者の数が表示されます。 テーブルは配信順に並べ替えられます。
+**配信済みから受信ブロックリスト**&#x200B;テーブルには、電子メールをスパムまたは迷惑メールとして宣言した受信者の数がリストされます。 テーブルは配信順に並べ替えられます。
