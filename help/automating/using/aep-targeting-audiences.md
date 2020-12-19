@@ -9,8 +9,8 @@ topic-tags: channel-activities
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 5%
 >
 >オーディエンス宛先サービスは現在ベータ版で、予告なく頻繁に更新される可能性があります。 これらの機能にアクセスするには、お客様はAzureでホストされる必要があります（現在、北米向けベータ版のみ）。 ご利用になる場合は、Adobeカスタマーケアにお問い合わせください。
 
-セグメントビルダーを使用して [Adobe Experience Platformオーディエンスを作成したら](../../audiences/using/aep-about-audience-destinations-service.md) 、ワークフロー内のキャンペーンオーディエンスと同じ方法でメッセージをパーソナライズし、送信できます。
+セグメントビルダーを使用して[Adobe Experience Platformオーディエンス](../../audiences/using/aep-about-audience-destinations-service.md)を作成したら、ワークフロー内のキャンペーンオーディエンスと同じ方法でメッセージをパーソナライズし、送信できます。
 
 ワークフローでAdobe Experience Platformオーディエンスをアクティブ化するには、次の手順に従います。
 
-1. ワークフロー追加の **[!UICONTROL Read audience]** アクティビティを開きます。
+1. ワークフロー追加の&#x200B;**[!UICONTROL Read audience]**&#x200B;アクティビティを開きます。
 
-1. の下の **[!UICONTROL Adobe Experience Platform]** オプションを選択 **[!UICONTROL Type of audience]**&#x200B;し、目的のオーディエンスを追加します。
+1. **[!UICONTROL Type of audience]**&#x200B;の下の&#x200B;**[!UICONTROL Adobe Experience Platform]**&#x200B;オプションを選択し、必要なオーディエンスを追加します。
 
    ![](assets/aep_wkf_readaudience.png)
 
@@ -35,23 +35,23 @@ ht-degree: 5%
 
    目のボタンをクリックすると、キャンペーン内で選択したオーディエンスに関連付けられたセグメントビルダー（別のタブ）に移動します。
 
-1. 要素を選択し、選択したAdobe Experience Platform **[!UICONTROL Platform data mapping]** オーディエンスに必要なターゲティングディメンションを指定します。
+1. **[!UICONTROL Platform data mapping]**&#x200B;要素を選択し、選択したAdobe Experience Platformオーディエンスに必要なターゲティングディメンションを指定します。
 
-   デフォルトでは、調整に使用される主キー(プロファイルテーブルのiRecipientID、AppSubscriptionテーブルのiAppSubscriptionIDなど)は、ドロップダウンリストから自動的に使用できます。 主キー以外でターゲットするには、カスタム **名前空間を作成する必要があります**。
+   デフォルトでは、調整に使用される主キー(プロファイルテーブルのiRecipientID、AppSubscriptionテーブルのiAppSubscriptionIDなど)は、ドロップダウンリストから自動的に使用できます。 主キー以外のターゲットを行うには、カスタム&#x200B;**名前空間**&#x200B;を作成する必要があります。
 
    >[!NOTE]
    >
-   >主キー以外のターゲットの場合は、カスタム名前空間に対応するカスタムターゲットマッピングも作成する必要があります。 For more information on Target Mapping, refer to [this section](../../administration/using/target-mappings-in-campaign.md).
+   >主キー以外のターゲットの場合は、カスタム名前空間に対応するカスタムターゲットマッピングも作成する必要があります。 ターゲットマッピングの詳細については、[この](../../administration/using/target-mappings-in-campaign.md)を参照してください。
 
    ![](assets/aep_wkf_readaudience_namespace.png)
 
-   このリストには、インスタンスに設定されたすべてのエクスペリエンスデータモデル(XDM)マッピングが含まれています。 Adobe Experience Platformデータコネクタの詳細については、 [この専用ドキュメントを参照してください](../../developing/using/aep-about-data-connector.md)。
+   このリストには、インスタンスに設定されたすべてのエクスペリエンスデータモデル(XDM)マッピングが含まれています。 Adobe Experience PlatformのData Connectorについて詳しくは、[この専用ドキュメント](../../developing/using/aep-about-data-connector.md)を参照してください。
 
    ![](assets/aep_wkf_readaudience_namespace2.png)
 
-1. オーディエンスとターゲティングディメンションが正しく設定されたら、ボタンをクリックして変更を保存し **[!UICONTROL Confirm]** ます。
+1. オーディエンスとターゲティングディメンションが正しく設定されたら、**[!UICONTROL Confirm]**&#x200B;ボタンをクリックして変更を保存します。
 
-これで、他のアクティビティとワークフローを設定できます。 例えば、選択したオーディエンスに電子メールを送信する **[!UICONTROL Email delivery]** アクティビティをリンクできます。
+これで、他のアクティビティとワークフローを設定できます。 例えば、**[!UICONTROL Email delivery]**&#x200B;アクティビティをリンクして、選択したオーディエンスに電子メールを送信できます。
 
 ![](assets/aep_wkf_email.png)
 
