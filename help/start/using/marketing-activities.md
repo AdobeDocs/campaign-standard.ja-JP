@@ -10,8 +10,8 @@ context-tags: activity,overview
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '487'
-ht-degree: 83%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -81,14 +81,14 @@ ht-degree: 83%
 
 コンテキストに応じて、以下をおこなうことができます。
 
-* 電子メールの作成 — [詳細](../../channels/using/creating-an-email.md)
+* 電子メールの作成 — [詳細情報](../../channels/using/creating-an-email.md)
 * SMSの作成 — [詳細](../../channels/using/creating-an-sms-message.md)
-* プッシュ通知の作成 — [詳細](../../channels/using/preparing-and-sending-a-push-notification.md)
-* アプリ内メッセージの作成 — [詳細](../../channels/using/about-in-app-messaging.md)
-* ワークフローの作成 — [詳細](../../automating/using/building-a-workflow.md#creating-a-workflow)
-* ランディングページの作成 — [詳細](../../channels/using/getting-started-with-landing-pages.md)
-* キャンペーンの作成 — [詳細](../../start/using/programs-and-campaigns.md#creating-a-campaign)
-* プログラムの作成 — [詳細](../../start/using/programs-and-campaigns.md#creating-a-program)
+* プッシュ通知の作成 — [詳細情報](../../channels/using/preparing-and-sending-a-push-notification.md)
+* アプリ内メッセージの作成 — [詳細情報](../../channels/using/about-in-app-messaging.md)
+* ワークフローの作成 — [詳細情報](../../automating/using/building-a-workflow.md#creating-a-workflow)
+* ランディングページの作成 — [詳細情報](../../channels/using/getting-started-with-landing-pages.md)
+* キャンペーンの作成 — [詳細情報](../../start/using/programs-and-campaigns.md#creating-a-campaign)
+* プログラムの作成 — [詳細情報](../../start/using/programs-and-campaigns.md#creating-a-program)
 
 >[!NOTE]
 >
