@@ -15,7 +15,7 @@ ht-degree: 7%
 ---
 
 
-# 画像の操作 {#images}
+# 画像の操作{#images}
 
 ## 画像の挿入{#inserting-images}
 
@@ -24,17 +24,17 @@ ht-degree: 7%
 設定に応じて、次のタイプの画像を使用できます。
 
 * ローカル画像
-* Adobe Experience Cloudから共有された画像 —キャンペーンとアセットのコアサービス [/アセットオンデマンドの](../../integrating/using/working-with-campaign-and-assets-core-service.md) 操作を参照
-* Adobe Targetの動的画像 —キャンペーンとターゲットの [操作を参照](../../integrating/using/about-campaign-target-integration.md)
+* Adobe Experience Cloudから共有された画像 — [キャンペーンとアセットのコアサービスの使用](../../integrating/using/working-with-campaign-and-assets-core-service.md) /アセットオンデマンドを参照
+* Adobe Targetの動的画像 — [キャンペーンとターゲットの操作](../../integrating/using/about-campaign-target-integration.md)を参照
 
 >[!CAUTION]
 >
->電子メールのHTMLバージョンを編集して画像を直接追加する場合は、HTMLページの&lt;script>タグで **外部ファイルを呼び出してはいけません** 。 これらのファイルは、Adobe Campaign サーバーにインポートされません。
+>電子メールのHTMLバージョンを編集して画像を直接追加する場合は、HTMLページの&lt;script>タグ&#x200B;**で**&#x200B;外部ファイルを呼び出してはいけません。 これらのファイルは、Adobe Campaign サーバーにインポートされません。
 
-### Inserting images in an email {#inserting-images-in-an-email}
+### 電子メールに画像を挿入{#inserting-images-in-an-email}
 
 1. 構造追加コンポーネント。 詳しくは、[メール構造の編集](../../designing/using/designing-from-scratch.md#defining-the-email-structure)を参照してください。
-1. この構造コンポーネント内に、 **[!UICONTROL Image]** コンテンツコンポーネントを追加します。
+1. この構造コンポーネント内に、**[!UICONTROL Image]**&#x200B;コンテンツコンポーネントを追加します。
 
    ![](assets/des_insert_images_1.png)
 
@@ -51,13 +51,13 @@ ht-degree: 7%
 
 イメージを含むブロックを選択すると、パレットに次のプロパティが表示されます。
 
-* **「パーソナライゼーションを有効にする** 」を選択すると、画像ソースをカスタマイズできます。 詳しくは、画像ソースの [個人設定を参照してください](../../designing/using/personalization.md#personalizing-an-image-source)。
-* **「画像タイトル** 」では、画像のタイトルを定義できます。
-* **「代替テキスト** （電子メール）」または「 **キャプション** (ランディングページ)」では、画像にリンクされたキャプションを定義できます( **alt** HTML属性に対応)。
-* 電子メールの編集時に、 **スタイル** (Style)を使用して、画像のサイズ、背景、境界線を指定できます。
-* ランディングページの編集時に、 **Dimension** （ピクセル単位）で画像サイズを指定できます。
+* **「** パーソナライゼーションを有効にする」を選択すると、画像ソースをカスタマイズできます。[画像ソースの個人設定](../../designing/using/personalization.md#personalizing-an-image-source)を参照してください。
+* **画像** タイトルは、画像のタイトルを定義します。
+* **代替テキスト** （電子メール）または **キャプション** (ランディングページ)を使用すると、画像にリンクされたキャプションを定義できます( **** altHTML属性に対応)。
+* 電子メールを編集する際に、**スタイル**&#x200B;を使用して、画像のサイズ、背景、境界線を指定できます。
+* ランディングページの編集時に、**Dimension**&#x200B;で画像サイズをピクセル単位で指定できます。
 
-エディターでは、ブラウザーと互換性のある形式を持つ **すべての画像タイプ** 、 エディターと互換性を持たせるには、次のように **「Flash** 」タイプのアニメーションをHTMLページに挿入する必要があります。
+エディタでは、ブラウザと互換性のある形式を持つ&#x200B;**すべてのイメージタイプ**&#x200B;を扱うことができます。 エディターと互換性を持たせるために、**&quot;Flash&quot;タイプのアニメーション**&#x200B;は、次のようにHTMLページに挿入する必要があります。
 
 ```
 <object type="application/x-shockwave-flash" data="http://www.mydomain.com/flash/your_animation.swf" width="200" height="400">
