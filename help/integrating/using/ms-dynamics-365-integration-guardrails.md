@@ -53,7 +53,7 @@ ht-degree: 0%
 
 * 統合の使用状況が大幅に増加したり「急増した」という既知の状況（新しいレコードや更新されたレコードの急増など）については、データ同期の遅れを招く可能性があるので、お知らせください。
 
-* 統合の一環として、Microsoft AzureとDynamics 365の統合前の構成手順を完了する必要があります。 このページの設定手順 [を参照してください](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
+* 統合の一環として、Microsoft AzureとDynamics 365の統合前の構成手順を完了する必要があります。 このページ](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)の設定手順[を参照
 
 * Dynamics 365とキャンペーンデータモデルを統合に持ち込み、それらを維持することが期待されます。
 
