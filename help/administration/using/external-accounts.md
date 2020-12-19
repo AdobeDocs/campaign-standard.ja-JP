@@ -10,8 +10,8 @@ context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '1774'
-ht-degree: 85%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 85%
 * Adobe Analytics。詳しくは、[この節](../../integrating/using/configure-campaign-analytics-integration.md)を参照してください。
 * Google reCAPTCHA。詳しくは、[この節](#google-recaptcha-external-account)を参照してください。
 * Microsoft Azure Blob ストレージ。詳しくは、[この節](#microsoft-azure-external-account)を参照してください。
-* OAuth 2.0. For more on this, refer to [this section](#oauth-account).
+* OAuth 2.0。詳しくは、[このセクション](#oauth-account)を参照してください。
 
 >[!NOTE]
 >
@@ -82,7 +82,7 @@ ETL のためのファイルやデータを管理する際、これらのファ�
 * 時々 SFTP にログインして、問題がないか直接確認します。
 * SFTP のディスク管理は、基本的に管理者の責任となります。
 
-また、SFTP接続を開始しようとするパブリックIPは、キャンペーンインスタンスの許可リストに追加する必要があります。 Adding IP addresses to the allowlist can be requested via a [support ticket](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html), along with providing the public key to use for authentication.
+また、SFTP接続を開始しようとするパブリックIPは、キャンペーンインスタンスの許可リストに追加する必要があります。 許可リストへのIPアドレスの追加は、[サポートチケット](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)を介してリクエストでき、認証に使用する公開鍵を提供できます。
 
 SFTP サーバーは、コントロールパネルから管理できます。詳しくは、[コントロールパネルのドキュメント](https://docs.adobe.com/content/help/ja-JP/control-panel/using/sftp-management/about-sftp-management.html)を参照してください。
 
@@ -92,16 +92,16 @@ SFTP サーバーは、コントロールパネルから管理できます。詳
 >
 >インスタンスが AWS でホストされているかどうかの確認については、[こちら](https://docs.adobe.com/content/help/ja-JP/control-panel/using/faq.html#ims-org-id)を参照してください。
 
-## OAuth 2.0アカウント {#oauth-account}
+## OAuth 2.0アカウント{#oauth-account}
 
 OAuth 2.0外部アカウントの場合は、次の詳細を入力します。
 
-* 援助金 **のタイプ**:サポートされるのは **クライアント資格情報** のみです。
-* Secure **API URL**:認証エンドポイントを入力します。
-* **OAuth 2.0の機密資格情報**:このセクションは、本質的に機密性の高い資格情報を対象としています。 秘密鍵証明書の値は、追加された後に画面上でマスクされます。この時点では、読み取りや編集ができなくなります。 認証エンドポイントで、POSTのbodyパラメーターの代わりに特定の秘密鍵証明書をHTTP認証ヘッダーに挿入する必要がある場合は、その秘密鍵証明書の「ヘッダーに含める」オプションを選択できます。
-* **OAuth 2.0の機密でない資格情報**:このセクションは、本質的に機密性の低い資格情報を対象としています。 秘密鍵証明書の値は、追加された後、画面に表示されます。また、これらは編集可能になります。  認証エンドポイントで、POSTのbodyパラメーターの代わりに特定の秘密鍵証明書をHTTP認証ヘッダーに挿入する必要がある場合は、その秘密鍵証明書の「ヘッダーに含める」オプションを選択できます。
+* **許可の種類**:**クライアント資格情報**&#x200B;のみがサポートされます。
+* **セキュアAPI URL**:認証エンドポイントを入力します。
+* **OAuth 2.0の機密資格情報**:このセクションは、本質的に機密性の高い資格情報を対象としています。秘密鍵証明書の値は、追加された後に画面上でマスクされます。この時点では、読み取りや編集ができなくなります。 認証エンドポイントで、POSTのbodyパラメーターの代わりに特定の秘密鍵証明書をHTTP認証ヘッダーに挿入する必要がある場合は、その秘密鍵証明書の「ヘッダーに含める」オプションを選択できます。
+* **OAuth 2.0の機密でない資格情報**:このセクションは、本質的に機密性の低い資格情報を対象としています。秘密鍵証明書の値は、追加された後、画面に表示されます。また、これらは編集可能になります。  認証エンドポイントで、POSTのbodyパラメーターの代わりに特定の秘密鍵証明書をHTTP認証ヘッダーに挿入する必要がある場合は、その秘密鍵証明書の「ヘッダーに含める」オプションを選択できます。
 
-設定の終わりに達したら、「 **Test connector** 」をクリックして、外部アカウントが正しく設定されていることを確認します。
+設定の終わりが終わったら、**コネクタをテスト**&#x200B;をクリックして、外部アカウントが正しく設定されていることを確認します。
 
 ![](assets/external_accounts_OAuth.png)
 
