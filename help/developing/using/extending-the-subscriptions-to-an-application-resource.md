@@ -9,25 +9,25 @@ topic-tags: use-cases--extending-resources
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 25%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # アプリケーションリソースへのサブスクリプションの拡張{#extending-the-subscriptions-to-an-application-resource}
 
-Adobe Campaign では、モバイルデバイスから送信されたモバイルプロファイル属性データは、アプリケーション購読者から収集するデータを定義できる「**[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]**」リソースに保存されます。For more information on custom resources, refer to [this page](../../developing/using/key-steps-to-add-a-resource.md).
+Adobe Campaign では、モバイルデバイスから送信されたモバイルプロファイル属性データは、アプリケーション購読者から収集するデータを定義できる「**[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]**」リソースに保存されます。カスタムリソースの詳細については、[このページ](../../developing/using/key-steps-to-add-a-resource.md)を参照してください。
 
 このリソースは、モバイルデバイスからAdobe Campaignに送信するデータを収集するように拡張できます。
 
 1. 詳細設定メニューの Adobe Campaign ロゴから、**[!UICONTROL Administration]**／**[!UICONTROL Development]**／**[!UICONTROL Custom resources]** を選択します。
-1. をクリック **[!UICONTROL Create]** し、 **[!UICONTROL Extend an existing resource]** オプションを選択します。
-1. Select the **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** resource and click **[!UICONTROL Create]**.
+1. **[!UICONTROL Create]**&#x200B;をクリックし、**[!UICONTROL Extend an existing resource]**&#x200B;オプションを選択します。
+1. **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]**&#x200B;リソースを選択し、**[!UICONTROL Create]**&#x200B;をクリックします。
 
    ![](assets/in_app_personal_data_4.png)
 
-1. タブの **[!UICONTROL Fields]** カテゴリで、ボタンをクリックして、モバイルアプリから取得する顧客データを定義し **[!UICONTROL Data structure]****[!UICONTROL Add field]** ます。
+1. 「**[!UICONTROL Data structure]**」タブの&#x200B;**[!UICONTROL Fields]**&#x200B;カテゴリーで、**[!UICONTROL Add field]**&#x200B;ボタンをクリックして、モバイルアプリケーションから取得する顧客データを定義します。
 
    >[!NOTE]
    >
@@ -35,15 +35,15 @@ Adobe Campaign では、モバイルデバイスから送信されたモバイ�
 
    ![](assets/in_app_personal_data.png)
 
-1. 新しいフィ追加ールドに対するaおよびa **[!UICONTROL Label]****[!UICONTROL ID]** を指定します。 フィールドの名前を選択し **[!UICONTROL Type]**&#x200B;ます。
+1. 新し追加いフィールドに対する&#x200B;**[!UICONTROL Label]**&#x200B;と&#x200B;**[!UICONTROL ID]**。 フィールドの&#x200B;**[!UICONTROL Type]**&#x200B;を選択します。
 
    ![](assets/schema_extension_uc9.png)
 
-1. カテゴリで、紐付けキーデータベースのプロファイルを電子メールなどのAdobe Campaignのサブスクライバーにリンクするために使用するを設定します。 **[!UICONTROL Link to profiles]**
+1. **[!UICONTROL Link to profiles]**&#x200B;カテゴリーで、Adobe Campaignデータベースのプロファイルをアプリケーションのサブスクリプション（電子メールなど）にリンクするために使用する紐付けキーーを設定します。
 
    アプリ内メッセージで定義できる紐付けキーは、すべてのモバイルアプリに対して1つだけです。
 
    ![](assets/in_app_personal_data_3.png)
 
-1. **[!UICONTROL Save]** カスタムリソースを公開します。 カスタムリソースの発行の詳細については、この [ページを参照してください](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)。
+1. **[!UICONTROL Save]** カスタムリソースを公開します。カスタムリソースのパブリケーションの詳細については、[ページ](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)を参照してください。
 
