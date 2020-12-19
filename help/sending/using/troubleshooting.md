@@ -35,9 +35,9 @@ ht-degree: 58%
 
 * **上の電子メールアドレスと隔離された電子メールアドレスの違いについて教えてください。**
 
-   * The status **[!UICONTROL On denylist]** is a result of a feedback loop (when a person reports a message as spam).
+   * ステータス&#x200B;**[!UICONTROL On denylist]**&#x200B;は、（メッセージがスパムとして報告された場合に）フィードバックループの結果です。
 
-   * The status **[!UICONTROL Quarantined]** is a result of a soft or hard bounce.
+   * ステータス&#x200B;**[!UICONTROL Quarantined]**&#x200B;は、ソフトバウンスまたはハードバウンスの結果です。
    詳しくは、[こちらの節](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist)を参照してください。
 
 * **様々な強制隔離エラーの原因は何を意味しますか。**
@@ -48,13 +48,13 @@ ht-degree: 58%
 
 ## ブロックリストからの削除 {#removing-from-denylist}
 
-* **私の受信者の1つが誤ってブロックリストに追加された。 How do I remove them from the denylist so that I can start sending them messages again?**
+* **私の受信者の1つが誤ってブロックリストに追加された。メッセージを再度送信する際に開始ブロックリストを取り出すには、から削除する方法は？**
 
    * 移動 **[!UICONTROL Administration > Channels > Quarantines > Addresses]**.
-   * In the details of the corresponding record, set the value of the **[!UICONTROL Status]** field to **[!UICONTROL Valid]**.
+   * 対応するレコードの詳細で、**[!UICONTROL Status]**&#x200B;フィールドの値を&#x200B;**[!UICONTROL Valid]**&#x200B;に設定します。
    * レコードを保存します。
 
-* **IPの1つがブロックリストにあるかどうかを調べるにはどうしますか。 IP をブロックリストから削除する方法を教えてください。**
+* **IPの1つがブロックリストにあるかどうかを調べるにはどうしますか。IP をブロックリストから削除する方法を教えてください。**
 
    IPアドレスがブロックリスト上にあるかどうかを確認するには、次のような様々なWebサイトを使用して確認します。
    * [MX Toolbox](https://mxtoolbox.com/)
