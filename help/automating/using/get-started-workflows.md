@@ -9,8 +9,8 @@ topic-tags: about-workflows-and-data-management
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 14%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -34,17 +34,17 @@ Adobe Campaignオファーは、セグメント化、キャンペーン実行、
 * キャンペーンデータベースにデータをインポートしています。
 * データベースのクリーンアップ、追跡情報の回復などの技術的なプロセス
 
-## ワークフローアクティビティ {#workflow-activities}
+## ワークフローアクティビティ{#workflow-activities}
 
 <img src="assets/do-not-localize/icon_workflows.svg" width="60px">
 
 ワークフローのデザインに役立つ様々なアクティビティが用意されています。
 
-[ターゲット設定のアクティビティ](../../automating/using/about-targeting-activities.md) を使用すると、セットを定義し、交差、和集合または除外の演算を使用してセットを分割または組み合わせることで、1つ以上のターゲットを作成できます。
+[ターゲット](../../automating/using/about-targeting-activities.md) アクティビティを使用すると、セットを定義し、交差、和集合または除外操作を使用してセットを分割または組み合わせることで、1つ以上のターゲットを作成できます。
 
-実 [行アクティビティを使用して、ワークフローとそのアクティビティを調整します](../../automating/using/about-execution-activities.md)。一方、 [](../../automating/using/about-channel-activities.md) チャネルアクティビティを使用すると、Campaign Standard通信チャネルを組み合わせて、チャネル間のワークフローを作成できます。
+[実行アクティビティ](../../automating/using/about-execution-activities.md)を使用して、ワークフローとそのアクティビティを調整します。一方、[チャネルアクティビティ](../../automating/using/about-channel-activities.md)を使用すると、Campaign Standard通信チャネルを組み合わせて、チャネル間のワークフローを作成できます。
 
-最後に、 [データ管理アクティビティ](../../automating/using/about-data-management-activities.md) (Database Data Management)を使用して、データベースのデータを操作できます。
+最後に、[データ管理アクティビティ](../../automating/using/about-data-management-activities.md)を使用して、データベースのデータを操作できます。
 
 詳しくは、以下を参照してください。
 
@@ -56,9 +56,9 @@ Adobe Campaignオファーは、セグメント化、キャンペーン実行、
 
 <img src="assets/do-not-localize/icon_filter.svg" width="60px">
 
-データベースからデータをフィルターし、 **クエリのターゲットを高めるための母集団を作成するには、受信者エディターを使用します** 。 クエリエディターでは、Campaign Standardで次のいくつかの操作を実行できます。クエリタイプオーディエンスを作成し、配信ターゲットまたはワークフローアクティビティ内の母集団を定義します。
+**クエリエディター**&#x200B;を使用して、データベースのデータをフィルターし、受信者のターゲットを高めるために母集団を構築します。 クエリエディターでは、Campaign Standardで次のいくつかの操作を実行できます。クエリタイプオーディエンスを作成し、配信ターゲットまたはワークフローアクティビティ内の母集団を定義します。
 
-クエリエディターには、すばやく簡単にフィルタリングできる **定義済みフィルターとルールが付属しています** 。 ただし、 **高度な式編集** 機能を使用することもできます。 これにより、手動で条件を入力し、関数を使用して独自のルールを作成できます。
+クエリエディターには、すばやく簡単にフィルタリングできる&#x200B;**定義済みフィルターとルール**&#x200B;が付属しています。 ただし、**高度な式編集**&#x200B;機能を使用することもできます。 これにより、手動で条件を入力し、関数を使用して独自のルールを作成できます。
 
 詳しくは、以下を参照してください。
 
@@ -66,21 +66,21 @@ Adobe Campaignオファーは、セグメント化、キャンペーン実行、
 * [高度な式の編集](../../automating/using/advanced-expression-editing.md)
 * [関数のリスト](../../automating/using/list-of-functions.md)
 
-## データの読み込み/書き出し {#import-export-data}
+## データのインポート/エクスポート{#import-export-data}
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 
-Campaign Standardには、データの読み込みと書き出しを行う **データ管理機能がいくつか用意されています** 。
+Campaign Standardには、データのインポートとエクスポートを行う&#x200B;**データ管理機能**&#x200B;がいくつか用意されています。
 
-[ワークフローデータ管理アクティビティ](../../automating/using/about-data-management-activities.md) ：データの読み込み、フィールドの一括更新、ファイルの受信と送信、または未識別のデータを既存のリソースにリンクすることができます。
+[ワークフローデータ管理](../../automating/using/about-data-management-activities.md) アクティビティでは、データの読み込み、フィールドに対する一括更新、ファイルの受信と送信、または未識別のデータの既存のリソースへのリンクを行うことができます。
 
-[インポートテンプレートを使用して](../../automating/using/importing-data-with-import-templates.md)、管理者が定義した特定のタイプのインポートを、シンプル化されたインポート機能を使用して管理します。
+[インポートテンプレート](../../automating/using/importing-data-with-import-templates.md)を使って、管理者が定義した特定の種類のインポートを、シンプル化されたインポート機能で管理します。
 
-[ログのエクスポートを使用すると](../../automating/using/exporting-logs.md) 、簡単なワークフローでログデータをエクスポートでき、独自のレポートまたはBIツールでマーケティングキャンペーンの結果を分析できます。
+[ログをエクス](../../automating/using/exporting-logs.md) ポートすると、簡単なワークフローでログデータをエクスポートでき、独自のレポートまたはBIツールでマーケティングキャンペーンの結果を分析できます。
 
-「 [パッケージ](../../automating/using/managing-packages.md) 」を使用して、異なるキャンペーンインスタンス間でリソースを交換します。例えば、インスタンスの設定を複製したり、カスタムリソースを含むサーバー間でデータを転送したりします。
+[パッケージ](../../automating/using/managing-packages.md)を活用して、異なるキャンペーンインスタンス間でリソースを交換します。例えば、インスタンスの構成を複製したり、カスタムリソースを含む別のサーバーにデータを転送したりします。
 
-最後に、 [リストを](../../automating/using/exporting-lists.md) エクスポートすると、Campaign Standardから任意のリスト(テストプロファイルのリスト、強制隔離の電子メールアドレスのリストなど)をエクスポートできます。
+最後に、[リストのエクスポート](../../automating/using/exporting-lists.md)では、テストプロファイルのリスト、強制隔離の電子メールアドレスのリストなど、Campaign Standardから任意のリストをエクスポートできます。
 
 詳しくは、以下を参照してください。
 
