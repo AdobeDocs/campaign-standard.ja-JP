@@ -26,9 +26,9 @@ ht-degree: 66%
 
 ワークフローは、次の要素で構成されています。
 
-* A [Scheduler activity](../../automating/using/segmentation.md) to specify the workflow&#39;s execution date.
-* A [Query](../../automating/using/query.md) activity to target profiles of people whose birthday and email address have been entered.
-* A [Segmentation](../../automating/using/segmentation.md) activity to create 3 segments divided into different outbound transitions: 18-25-year old, 26-32-year old and profiles that are over 32 years old. セグメントは、次のパラメーターに従って定義されます。
+* ワークフローの実行日を指定する[スケジューラーアクティビティ](../../automating/using/segmentation.md)。
+* 誕生日と電子メールアドレスが入力された人のターゲットプロファイルに対する[クエリ](../../automating/using/query.md)アクティビティ。
+* [セグメント化](../../automating/using/segmentation.md)アクティビティを使用して、異なるアウトバウンドトランジションに分割された3つのセグメントを作成します。18-25歳、26-32歳、32歳以上のプロファイル。 セグメントは、次のパラメーターに従って定義されます。
 
    ![](assets/wkf_segment_example_3.png)
 
@@ -40,4 +40,4 @@ ht-degree: 66%
 
       ![](assets/wkf_segment_example_1.png)
 
-* セグメントごとの [電子メール配信](../../automating/using/email-delivery.md) アクティビティ。
+* セグメントごとの[電子メール配信](../../automating/using/email-delivery.md)アクティビティ。
