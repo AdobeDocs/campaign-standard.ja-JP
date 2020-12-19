@@ -9,15 +9,15 @@ topic-tags: understanding-opt-in-and-opt-out-processes
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '48'
-ht-degree: 41%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # 配信のオプトアウトプロファイルの識別{#identifying-opt-out-profiles-for-a-delivery}
 
-特定の配信のオプトアウトプロファイルは、準備段階の後、配信ダッシュボードの **[!UICONTROL Exclusion logs]** タブに表示されます。
+特定の配信のオプトアウトプロファイルは、準備段階の後、配信ダッシュボードの&#x200B;**[!UICONTROL Exclusion logs]**&#x200B;タブに表示されます。
 
 ![](assets/exclusion_blocklisting.png)
 
