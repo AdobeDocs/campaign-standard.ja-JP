@@ -10,8 +10,8 @@ context-tags: queryFilter,overview;audience,main
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '1092'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -106,8 +106,7 @@ JavaScript 式は 1 つ以上の条件で構成され、次の構文要素を使
    * **&lt;値 2>** は、手動で入力したフィールド、関数、値のいずれかです。
 
    >[!NOTE]
-   >
-   >**&lt;コンテキスト>** と **&lt;値 2>** は同じデータ型でなければなりません。例えば、**&lt;コンテキスト>** が日付の場合は、**&lt;値 2>** も日付である必要があります。
+   **&lt;コンテキスト>** と **&lt;値 2>** は同じデータ型でなければなりません。例えば、**&lt;コンテキスト>** が日付の場合は、**&lt;値 2>** も日付である必要があります。
 
 * 複数の条件を使用する場合は、論理演算子を使用して組み合わせることができます。
 
@@ -156,7 +155,7 @@ context.profile.age > 21 && context.profile.firstName.length() > 0
   <tr> 
    <td> <span class="uicontrol">より小さい</span> <br /> </td> 
    <td> &lt;<br /> </td> 
-   <td> &lt;<br /> </td> 
+   <td> &lt;&gt;<br /> </td> 
    <td> 最初の値は、2 番目の値より小さくなければなりません。<br /> </td> 
    <td> <strong>@created &lt; DaysAgo(100)</strong> は、過去 100 日以内にデータベースに作成されたすべてのプロファイルを検索します。<br /> </td> 
   </tr> 
@@ -170,7 +169,7 @@ context.profile.age > 21 && context.profile.firstName.length() > 0
   <tr> 
    <td> <span class="uicontrol">次よりも小さいか等しい</span> <br /> </td> 
    <td> &lt;=<br /> </td> 
-   <td> &lt;=<br /> </td> 
+   <td> &lt;&gt;<br /> </td> 
    <td> 最初の値は、2 番目の値より小さいか等しくなければなりません。<br /> </td> 
    <td> <strong>@age &lt;= 60</strong> は、年齢が 60 歳以下のプロファイルを検索します。<br /> </td> 
   </tr> 
