@@ -118,7 +118,7 @@ Adobe Campaign Standardの最新[ドキュメントの更新](../../rn/using/doc
   </tr> 
   <tr> 
    <td> ユーザー管理<br /> </td> 
-   <td> 地理単位機能は、新しいCampaign Standardインスタンス、および地理単位が作成されていない既存のインスタンス（18.7リリースから）では使用できなくなりました。<br /> 詳しくは、この <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">ページを参照してください</a>。<br /> </td> 
+   <td> 地理単位機能は、新しいCampaign Standardインスタンス、および地理単位が作成されていない既存のインスタンス（18.7リリースから）では使用できなくなりました。<br /> 詳しくは、この <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=ja">ページを参照してください</a>。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
