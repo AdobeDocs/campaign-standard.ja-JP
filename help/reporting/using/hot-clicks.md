@@ -10,7 +10,7 @@ context-tags: deliveryHotClicksReport,main
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 # ホットクリック{#hot-clicks}
 
-このレポートは、各配信またはトランザクションメッセージの **[!UICONTROL Reports]** ボタンからアクセスできます。
+このレポートには、各配信またはトランザクションメッセージの&#x200B;**[!UICONTROL Reports]**&#x200B;ボタンからアクセスできます。
 
 ![](assets/delivery_reports_hot-clicks_4.png)
 
@@ -26,26 +26,26 @@ ht-degree: 0%
 
 ![](assets/delivery_reports_10.png)
 
-配信用に動的コンテンツを作成した場合は、定義した条件ごとに割合を表示できます。 配信への条件付きコンテンツの挿入について詳しくは、「動的コンテンツの [定義](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)」を参照してください。
+配信用に動的コンテンツを作成した場合は、定義した条件ごとに割合を表示できます。 配信に条件付きコンテンツを挿入する方法について詳しくは、[動的コンテンツの定義](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)を参照してください。
 
 例えば、次の条件を持つ配信を作成したとします。
 
 * 受信者が男性か女性の場合、主画像のリンクは異なります。
 * また、25を超える受信者にのみ表示される特殊オファーへのリンクも追加しました。
 
-メッセージが送信されたら、配信ダッシュボード **[!UICONTROL Reports]** から/ **[!UICONTROL Hot clicks]** を選択します。
+メッセージが送信されたら、配信ダッシュボードから&#x200B;**[!UICONTROL Reports]** > **[!UICONTROL Hot clicks]**&#x200B;を選択します。
 
 デフォルトでは、プロファイルは選択されていません。 性別が不明な受信者、および25歳未満の受信者または年齢が不明なユーザーのクリックのみが表示されます。
 
 ![](assets/delivery_reports_hot-clicks_1.png)
 
-女性のクリック数を表示するには、 **[!UICONTROL Change profile]** ボタンをクリックし、女性テストプロファイルを選択します。 男性用のクリック数を表示するには、同様に進み、男性のテストプロファイルを選択します。
+女性のクリック数を表示するには、**[!UICONTROL Change profile]**&#x200B;ボタンをクリックし、女性テストプロファイルを選択します。 男性用のクリック数を表示するには、同様に進み、男性のテストプロファイルを選択します。
 
 ![](assets/delivery_reports_hot-clicks_2.png)
 
-25を超える受信者のクリック数を表示するには、 **[!UICONTROL Change profile]** ボタンをクリックし、生年月日がこの条件に一致するテストプロファイルを選択します。
+25を超える受信者のクリック数を表示するには、**[!UICONTROL Change profile]**&#x200B;ボタンをクリックし、生年月日がこの条件に一致するテストプロファイルを選択します。
 
-テストプロファイルについて詳しくは、「テストプロファイル [について](../../audiences/using/managing-test-profiles.md)」を参照してください。
+テストプロファイルについて詳しくは、[テストプロファイルについて](../../audiences/using/managing-test-profiles.md)を参照してください。
 
 >[!NOTE]
 >
@@ -59,19 +59,19 @@ ht-degree: 0%
 
    例えば、この配信を管理するワークフローが月に1回実行される場合、1か月に1回実行配信が発生します。 さらに、配信の内容が更新されるたびに、追加の実行配信が作成されます。
 
-   定期的な電子メール配信について詳しくは、 [電子メール配信](../../automating/using/email-delivery.md)を参照してください。
+   定期的な電子メール配信について詳しくは、[電子メール配信](../../automating/using/email-delivery.md)を参照してください。
 
 * デフォルトでは、トランザクションメッセージの場合は月に1回、トランザクションメッセージを編集して再度公開するたびに使用されます。
 
-   トランザクションメッセージについて詳しくは、トランザクションメッセージの使用 [の手引きを参照してください](../../channels/using/getting-started-with-transactional-msg.md)。
+   トランザクションメッセージについて詳しくは、[トランザクションメッセージの使用の手引き](../../channels/using/getting-started-with-transactional-msg.md)を参照してください。
 
 >[!NOTE]
 >
 >追跡されるURLのIDは実行ごとに異なるので、特定のメッセージのすべての実行配信についてホットクリックデータを集計することはできません。 一度に1つの実行配信に対してのみ表示できます。
 
-メッセージが送信されたら、配信ダッシュボード **[!UICONTROL Reports]** から/ **[!UICONTROL Hot clicks]** を選択します。
+メッセージが送信されたら、配信ダッシュボードから&#x200B;**[!UICONTROL Reports]** > **[!UICONTROL Hot clicks]**&#x200B;を選択します。
 
-デフォルトでは、最後の実行配信が選択されます。 別のボタンをクリックし **[!UICONTROL Change execution delivery]** て選択します。
+デフォルトでは、最後の実行配信が選択されます。 別の&#x200B;**[!UICONTROL Change execution delivery]**&#x200B;ボタンをクリックして選択します。
 
 ![](assets/delivery_reports_hot-clicks_3.png)
 
