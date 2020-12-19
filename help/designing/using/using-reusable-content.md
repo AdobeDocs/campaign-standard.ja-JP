@@ -9,8 +9,8 @@ topic-tags: editing-email-content
 translation-type: tm+mt
 source-git-commit: 739943deccf6320de71bd6a255eb0b2fb20d5df5
 workflow-type: tm+mt
-source-wordcount: '1819'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 2%
 
 ![](assets/template_content.png)
 
-The HTML content templates are accessible from the **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]** screen of the [Advanced menu](../../start/using/interface-description.md#advanced-menu). このページから、ランディングページコンテンツテンプレート、電子メールコンテンツテンプレートおよびフラグメントを管理できます。
+HTMLコンテンツテンプレートには、**[!UICONTROL Resources]**&#x200B;詳細メニュー](../../start/using/interface-description.md#advanced-menu)の&lt;a0/> > **[!UICONTROL Content templates & fragments]**&#x200B;画面からアクセスできます。 [このページから、ランディングページコンテンツテンプレート、電子メールコンテンツテンプレートおよびフラグメントを管理できます。
 
 ![](assets/content_templates_list.png)
 
