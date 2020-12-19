@@ -21,7 +21,7 @@ ht-degree: 11%
 
 >[!NOTE]
 >
->APIを公開するには、ロールがあることを確認し **[!UICONTROL Datamodel]** ます。
+>APIを公開するには、**[!UICONTROL Datamodel]**&#x200B;ロールがあることを確認してください。
 
 パブリックAPIに拡張フィールドを公開する手順は次のとおりです。
 
