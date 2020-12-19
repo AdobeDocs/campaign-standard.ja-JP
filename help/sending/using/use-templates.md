@@ -9,8 +9,8 @@ index: y
 translation-type: tm+mt
 source-git-commit: a7300666587362048431d0bafacc317170b317aa
 workflow-type: tm+mt
-source-wordcount: '799'
-ht-degree: 61%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 61%
 
 Adobe Campaign で複数のブランドを管理する場合は、ブランドごとに 1 つのサブドメインを使用することをお勧めします。例えば銀行ならば、個々の支店に対応する複数のサブドメインを所有できます。銀行のドメインが bluebank.com の場合、サブドメインは、@ny.bluebank.com、@ma.bluebank.com、@ca.bluebank.com などになります。サブドメインごとに 1 つの配信テンプレートを用意すれば、それぞれのブランドに合わせて事前に設定されたパラメーターをいつでも使用でき、エラーの回避や時間の節約につながります。
 
-**ヒント**: キャンペーンでの設定エラーを回避するには、新しいテンプレートを作成するのではなく、ネイティブのテンプレートを重複し、そのプロパティを変更することをお勧めします。
+**ヒント**:キャンペーンでの設定エラーを回避するには、新しいテンプレートを作成するのではなく、ネイティブのテンプレートを重複し、そのプロパティを変更することをお勧めします。
 
 ## アドレスの設定
 
@@ -41,33 +41,33 @@ Adobe Campaign で複数のブランドを管理する場合は、ブランド�
 
 * 配信アドレスと返信アドレスの E メールアカウントを作成することをお勧めします。詳しくは、自社のシステム管理者にご相談ください。
 
-電子メールテンプレートのプロパティの **[!UICONTROL Advanced parameters]** セクションにあるこの **[!UICONTROL From (email address)]** フィールドは、送信者のアドレスに対応しています。
+電子メールテンプレートのプロパティの&#x200B;**[!UICONTROL Advanced parameters]**&#x200B;セクションにある&#x200B;**[!UICONTROL From (email address)]**&#x200B;フィールドは、送信者のアドレスに対応しています。
 
 ![](assets/template-parameters.png)
 
 アドレスドメインは、設定したサブドメインと同じである必要があります。
 
-この **[!UICONTROL Reply to]** フィールドは、返信に使用される電子メールアドレスと名前に対応します。
+**[!UICONTROL Reply to]**&#x200B;フィールドは、返信に使用する電子メールアドレスと名前に対応します。
 
-**ヒント** -Adobeは、ブランドのカスタマーケアなど、既存の実住所を使用することを推奨します。 そうすれば、受信者から返信が来た場合に、カスタマーサポートが対応することができます。
+**ヒント** -Adobeは、ブランドのカスタマーケアなど、既存の実住所を使用することを推奨します。そうすれば、受信者から返信が来た場合に、カスタマーサポートが対応することができます。
 
-送信されるメッセージのヘッダーに表示される送信者の名前を変更するには、Email Designerホームページの **[!UICONTROL Properties]** タブ（ホームアイコンからアクセス可能）に移動し、 **[!UICONTROL Default sender name]** ブロックをクリックします。
+送信されるメッセージのヘッダーに表示される送信者の名前を変更するには、Email Designerホームページの&#x200B;**[!UICONTROL Properties]**&#x200B;タブ（ホームアイコンからアクセス可能）に移動し、**[!UICONTROL Default sender name]**&#x200B;ブロックをクリックします。
 
 ![](assets/template-content.png)
 
 配信の開封率を上げるには、自社のブランド名など、受信者にとってわかりやすい名前を使用することをお勧めします。
 
-**ヒント** -受信者の体験をさらに向上させるために、「Emma from Megastore」など、個人の名前を追加できます。
+**ヒント** -受信者の体験をさらに向上させるために、「Emma from Megastore」のように、個人の名前を追加できます。
 
-送信者名の個人設定について詳しくは、「 [電子メールの送信者](../../designing/using/subject-line.md#email-sender)」を参照してください。
+送信者名の個人化について詳しくは、[電子メール送信者](../../designing/using/subject-line.md#email-sender)を参照してください。
 
 ## SMS送信者名をカスタマイズする
 
-SMSテンプレートのプロパティの[ **詳細パラメータ** ]セクションで、[ **送信者** ]オプションを使用すると、文字列を使用してSMSメッセージ送信者の名前を個人用に設定できます。 これは、受信者の携帯電話で SMS メッセージの送信者名として表示される名前です。
+SMSテンプレートのプロパティの&#x200B;**Advanced parameters**&#x200B;セクションにある&#x200B;**From**&#x200B;オプションを使用すると、文字列を使用してSMSメッセージ送信者の名前をパーソナライズできます。 これは、受信者の携帯電話で SMS メッセージの送信者名として表示される名前です。
 
 このフィールドが空の場合は、外部アカウントで指定されたソース番号が使用されます。ソース番号が指定されていない場合は、ショートコードが使用されます。詳しくは、[SMS の設定](../../administration/using/configuring-sms-channel.md)を参照してください。
 
-**ヒント** — 送信者の住所の変更に関する国別仕様を確認します。 また、SMS サービスプロバイダーに問い合わせて、この機能を提供しているかどうかを確認する必要があります。
+**ヒント**  — 送信者の住所の変更に関する国別仕様を確認します。また、SMS サービスプロバイダーに問い合わせて、この機能を提供しているかどうかを確認する必要があります。
 
 ## コントロール母集団の設定
 
@@ -77,7 +77,7 @@ SMSテンプレートのプロパティの[ **詳細パラメータ** ]セクシ
 
 タイポロジには、メッセージを送信する前の分析フェーズで適用されるチェックルールが含まれています。
 
-In the **[!UICONTROL Advanced parameters]** > **[!UICONTROL Preparation]** section of the template&#39;s properties, change the default typology according to your needs.
+テンプレートのプロパティの&#x200B;**[!UICONTROL Advanced parameters]**/**[!UICONTROL Preparation]**&#x200B;セクションで、必要に応じてデフォルトのタイポロジを変更します。
 
 例えば、アウトバウンドトラフィックの制御を強化するために、使用可能な IP アドレスを定義するには、サブドメインごとに 1 つのアフィニティを定義し、アフィニティごとに 1 つのタイポロジを作成します。アフィニティはインスタンスの設定ファイルで定義されます。Adobe Campaign 管理者にお問い合わせください。
 
@@ -93,6 +93,6 @@ Adobe Campaignでのブランドの使用と設定について詳しくは、「
 
 ![](assets/template-brand.png)
 
-ブランドのテンプレートへのリンクについて詳しくは、「電子メールへのブランドの [割り当て](../../administration/using/branding.md#assigning-a-brand-to-an-email)」を参照してください。
+ブランドのテンプレートへのリンクについて詳しくは、[電子メールへのブランドの割り当て](../../administration/using/branding.md#assigning-a-brand-to-an-email)を参照してください。
 
-この節では、ブランドを作成して設定する方法 [を説明します](../../administration/using/branding.md#creating-a-brand)。
+このセクション](../../administration/using/branding.md#creating-a-brand)でブランド[を設定する方法を説明します。
