@@ -25,19 +25,19 @@ ht-degree: 72%
 
 ## インポートテンプレートの使用 {#using-import-templates}
 
-Most import workflows should contain the following activities: **[!UICONTROL Load file]**, **[!UICONTROL Reconciliation]**, **[!UICONTROL Segmentation]**, **[!UICONTROL Deduplication]**, **[!UICONTROL Update data]**.
+ほとんどの読み込みワークフローには、次のアクティビティが含まれています。**[!UICONTROL Load file]**、**[!UICONTROL Reconciliation]**、**[!UICONTROL Segmentation]**、**[!UICONTROL Deduplication]**、**[!UICONTROL Update data]**。
 
 インポートテンプレートを使用すると、同様のインポートを準備したり、データベース内のデータの一貫性を確保したりするのに非常に便利です。
 
-In many projects, imports are built without **[!UICONTROL Deduplication]** activity because the files used in the project do not have duplicates. 複数のファイルをインポートすると、重複が発生する場合があります。そうなると、重複排除は困難になります。そのため、すべてのインポートワークフローで重複排除ステップを設けることは、優れた予防措置となります。
+多くのプロジェクトでは、プロジェクトで使用されるファイルに重複がないので、**[!UICONTROL Deduplication]**&#x200B;アクティビティなしでインポートが構築されます。 複数のファイルをインポートすると、重複が発生する場合があります。そうなると、重複排除は困難になります。そのため、すべてのインポートワークフローで重複排除ステップを設けることは、優れた予防措置となります。
 
 受信データは一貫性があり正しいとか、IT 部門や Adobe Campaign スーパーバイザーが対処するとは思わないでください。プロジェクトの間、データクレンジングに留意してください。データをインポートする際には、重複排除し、紐付けし、一貫性を維持します。
 
-データのインポート用に設計された汎用ワークフローテンプレートの例を [例で示します。ワークフローテンプレートのインポート](../../automating/using/creating-import-workflow-templates.md) 」セクション。
+データのインポート用に設計された汎用ワークフローテンプレートの例は、[例：ワークフローテンプレート](../../automating/using/creating-import-workflow-templates.md)セクションを読み込みます。
 
 >[!NOTE]
 >
->また、 [インポートテンプレートを使用することもできます](../../automating/using/importing-data-with-import-templates.md)。 これらは、管理者が定義したワークフローテンプレートです。アクティブ化すると、読み込むデータを含むファイルを指定できるのはオファーのみになります。
+>[インポートテンプレート](../../automating/using/importing-data-with-import-templates.md)も使用できます。 これらは、管理者が定義したワークフローテンプレートです。アクティブ化すると、読み込むデータを含むファイルを指定できるのはオファーのみになります。
 
 **関連トピック：**
 
@@ -68,9 +68,9 @@ Smith;Clara;08/02/1989;hayden.smith@example.com;124567
 Durance;Allison;15/12/1978;allison.durance@example.com;120987
 ```
 
-## 圧縮の使用 {#using-compression}
+## 圧縮{#using-compression}を使用
 
-可能であれば、インポートおよびエクスポートに zip 形式のファイルを使用します。GZIPはデフォルトでサポートされています。 ファイルの読み込み時に前処理を追加できます。また、データ抽出時に後処理を追加する場合は、ワークフローアクティビティ **[!UICONTROL Load file]** とワー **[!UICONTROL Extract file]** クフローを使用します。
+可能であれば、インポートおよびエクスポートに zip 形式のファイルを使用します。GZIPはデフォルトでサポートされています。 ファイルの読み込み時に前処理を追加したり、データ抽出時に後処理を追加したりできます(それぞれ&#x200B;**[!UICONTROL Load file]**&#x200B;ワークフローアクティビティーと&#x200B;**[!UICONTROL Extract file]**&#x200B;ワークフローフォルダー内)。
 
 **関連トピック：**
 
