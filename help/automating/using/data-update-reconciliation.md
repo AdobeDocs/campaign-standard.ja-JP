@@ -10,8 +10,8 @@ context-tags: reconciliation,main
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 67%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 67%
 
 ![](assets/identification_example2.png)
 
-* A [Load file](../../automating/using/load-file.md) activity, which loads and detects tshe data of the file to import. インポートされたファイルには、次のデータが含まれています。
+* [読み込むファイル](../../automating/using/load-file.md)アクティビティ。読み込むファイルのデータを読み込んで検出します。 インポートされたファイルには、次のデータが含まれています。
 
    ```
    lastname;firstname;email;dateofbirth
@@ -37,10 +37,10 @@ ht-degree: 67%
    tycoon;tyreese;tyreese_t@testmail.net;10/08/1971
    ```
 
-* A [Reconciliation](../../automating/using/reconciliation.md) activity, which links each column of the loaded file to a profile dimension column. 識別できないファイルレコード（データが見つからない、互換性のないデータタイプなど）は無視され、最終的なオーディエンスデータの整合性が維持されます。
+* [調整](../../automating/using/reconciliation.md)アクティビティ。ロードされたファイルの各列をプロファイル次元の列にリンクします。 識別できないファイルレコード（データが見つからない、互換性のないデータタイプなど）は無視され、最終的なオーディエンスデータの整合性が維持されます。
 
    ![](assets/identification_example1.png)
 
-* A [Save audience](../../automating/using/save-audience.md) activity, which saves the audience of profiles.
+* [保存オーディエンス](../../automating/using/save-audience.md)アクティビティ。プロファイルのオーディエンスを保存します。
 
    ![](assets/identification_example3.png)
