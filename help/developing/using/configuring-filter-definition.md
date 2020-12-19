@@ -10,8 +10,8 @@ context-tags: cusResource,main
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 95%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -85,4 +85,4 @@ ht-degree: 95%
 
 `GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/<resourceName>/by<customFilterName>?<customFilterparam>=<customFilterValue>`
 
-詳しくは、 [Campaign StandardAPIのドキュメントを参照してください](../../api/using/filtering.md#custom-filters)。
+詳しくは、[Campaign StandardAPIのドキュメント](../../api/using/filtering.md#custom-filters)を参照してください。
