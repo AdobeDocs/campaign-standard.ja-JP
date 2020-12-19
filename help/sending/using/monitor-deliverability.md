@@ -18,7 +18,7 @@ ht-degree: 58%
 
 # 配信品質の監視{#monitor-deliverability}
 
-Below you will find details on the **[!UICONTROL Delivery throughput]** report as well as the different monitoring tools offered by Adobe Campaign. 配信品質の監視に関する追加のガイドラインを示します。
+**[!UICONTROL Delivery throughput]**&#x200B;レポートの詳細と、Adobe Campaignが提供する様々な監視ツールを以下に示します。 配信品質の監視に関する追加のガイドラインを示します。
 * プラットフォーム全体で配信スループットを定期的にチェックして、元のセットアップと整合性が取れているかどうかを検証します。
 * 配信テンプレートで再試行が適切に設定されていることを確認します（再試行期間が 30 分、再試行回数が 21 回以上）。
 * バウンスメールボックスがアクセス可能で、アカウントの有効期限が近づいていないかを定期的に検証します。
@@ -37,21 +37,21 @@ Below you will find details on the **[!UICONTROL Delivery throughput]** report a
 
 タイムスケールを変更して、表示する値を設定できます。
 
-またはなど、他のレポートも使用でき **[!UICONTROL Delivery summary]** ま **[!UICONTROL Non-deliverables and bounces]**&#x200B;す。 詳しくは、 [動的レポートを参照してください](../../reporting/using/about-dynamic-reports.md)。
+**[!UICONTROL Delivery summary]**&#x200B;や&#x200B;**[!UICONTROL Non-deliverables and bounces]**&#x200B;など、他のレポートも利用できます。 詳しくは、[動的レポート](../../reporting/using/about-dynamic-reports.md)を参照してください。
 
 ## 配信の監視 {#monitoring-deliveries}
 
-メッセージダッシュボードから配信ログにアクセスできます。 **[!UICONTROL Sending logs]**、 **[!UICONTROL Exclusion logs]**、 **[!UICONTROL Exclusion causes]**、 **[!UICONTROL Tracking logs]** および **[!UICONTROL Tracked URLs]**)。 送信の詳細、除外されたターゲットとその理由、および開封数やクリック数などの追跡情報が表示されます。
+メッセージダッシュボードから配信ログにアクセスできます。**[!UICONTROL Sending logs]**、**[!UICONTROL Exclusion logs]**、**[!UICONTROL Exclusion causes]**、**[!UICONTROL Tracking logs]**、**[!UICONTROL Tracked URLs]**。 送信の詳細、除外されたターゲットとその理由、および開封数やクリック数などの追跡情報が表示されます。
 
 詳しくは、[配信の監視](../../sending/using/monitoring-a-delivery.md)を参照してください。
 
 ![](assets/sending_delivery1.png)
 
-## アラートの受信 {#receiving-alerts}
+## アラートの受信{#receiving-alerts}
 
-The **[!UICONTROL Delivery alerting]** feature is an alert management system that enables a group of users to automatically receive notifications containing information on the execution of their deliveries.
+**[!UICONTROL Delivery alerting]**&#x200B;機能は、ユーザーのグループが、配信の実行に関する情報を含む通知を自動的に受信できるようにするアラート管理システムです。
 
-詳しくは、「エラー発生時にアラートを [受信する](../../sending/using/receiving-alerts-when-failures-happen.md)」を参照してください。
+詳しくは、[エラーが発生した場合のアラートの受信](../../sending/using/receiving-alerts-when-failures-happen.md)を参照してください。
 
 ## Signal Spam {#signal-spam}
 
