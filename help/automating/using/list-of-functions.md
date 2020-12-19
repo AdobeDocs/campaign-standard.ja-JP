@@ -9,8 +9,8 @@ topic-tags: filtering-data
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '1940'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -676,7 +676,7 @@ ht-degree: 98%
    <td> <strong>構文</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Avg</strong>, Average<br /> </td> 
+   <td> <strong>Avg</strong><br /> </td> 
    <td> 数値列の平均値を返します<br /> </td> 
    <td> Avg(&lt;値&gt;)<br /> </td> 
   </tr> 
@@ -691,7 +691,7 @@ ht-degree: 98%
    <td> CountAll()<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Countdistinct</strong>, Distinct count<br /> </td> 
+   <td> <strong>Countdistinct</strong><br /> </td> 
    <td> 列内の null 以外のユニーク値をカウントします<br /> </td> 
    <td> Countdistinct(&lt;値&gt;)<br /> </td> 
   </tr> 
