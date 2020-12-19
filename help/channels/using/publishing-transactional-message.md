@@ -1,7 +1,7 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: トランザクションメッセージライフサイクル
+title: トランザクションメッセージのライフサイクル
 description: トランザクションメッセージを公開、一時停止、非公開および削除する方法について説明します。
 audience: channels
 content-type: reference
@@ -11,12 +11,12 @@ translation-type: tm+mt
 source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
 workflow-type: tm+mt
 source-wordcount: '651'
-ht-degree: 74%
+ht-degree: 76%
 
 ---
 
 
-# トランザクションメッセージライフサイクル{#publishing-transactional-message}
+# トランザクションメッセージのライフサイクル {#publishing-transactional-message}
 
 [トランザクションメッセージ](../../channels/using/editing-transactional-message.md)を送信する準備ができたら、それを公開できます。
 
