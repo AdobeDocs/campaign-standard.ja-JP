@@ -25,15 +25,15 @@ ht-degree: 3%
 
 フローチャートの詳細（上記の手順に対応）:
 
-* **手順1** - Microsoft Dynamics 365 for Salesおよびfor Servaceのライセンスを既にお持ちか、または購入中であることを前提としています。
+* **手順1** - Microsoft Dynamics 365 for SalesおよびforAdobe Campaign Standardのライセンスを既にお持ちか、または購入中であることを前提としています。
 
-* **ステップ2** — 標準的な統合機能は、すべてのお客様が無料で利用できます。ただし、要件に応じて追加費用がかかる場合があります( [統合ガードレールと境界を参照](../../integrating/using/ms-dynamics-365-integration-guardrails.md))。 統合を活用するには、新しい販売注文に署名する必要があります。
+* **ステップ2**  — 標準的な統合機能は、すべてのお客様が無料で利用できます。ただし、要件に応じて追加費用がかかる場合があります( [統合ガードレールと境界を参照](../../integrating/using/ms-dynamics-365-integration-guardrails.md))。統合を活用するには、新しい販売注文に署名する必要があります。
 
-* **手順3** - Dynamics 365とキャンペーンの統合前の手順を完了します。 詳しくは、「この統合の [設定](#configure-this-integration)」を参照してください。
+* **手順3**  - Dynamics 365とキャンペーンの統合前の手順を完了します。「[この統合の設定](#configure-this-integration)」を参照してください。
 
-* **手順4 ～ 7** -Adobeのオンボーディングチームが、オンボーディングプロセスを通じて連携します。
+* **手順4 ～ 7**  -Adobeのオンボーディングチームは、オンボーディングプロセスを通じてお客様と連携します。
 
-## この統合の設定 {#configure-this-integration}
+## この統合を構成{#configure-this-integration}
 
 この統合には、次の3つのシステムをプロビジョニングして設定する必要があります。Adobe Campaign Standard、Microsoft Dynamics 365 for Salesおよび統合ツール。 設定の記事は以下にリンクされています。
 
@@ -43,9 +43,9 @@ ht-degree: 3%
 >
 >次の記事の手順に従って、権限の割り当てや管理者アクセスを含む統合/登録を作成します。  これらの手順を実行する前に会社ポリシーに従い、慎重に実行する必要があります。
 
-Adobe Campaignでは、APIアクセスを設定し、統合ツールの新しい統合を設定する必要があります。 これを達成するには、 [この記事を参照してください](../../integrating/using/configure-adobe-io-for-ms-dynamic.md)。
+Adobe Campaignでは、APIアクセスを設定し、統合ツールの新しい統合を設定する必要があります。 これを達成するには、[この記事](../../integrating/using/configure-adobe-io-for-ms-dynamic.md)を参照してください。
 
-MICROSOFT DYNAMICS 365では、新しいアプリ登録を作成し、アプリケーションユーザーが統合を使用できるようにする必要があります。  この統合用にMicrosoft Dynamics 365を構成するには、 [この記事を参照してください](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)。
+MICROSOFT DYNAMICS 365では、新しいアプリ登録を作成し、アプリケーションユーザーが統合を使用できるようにする必要があります。  この統合用にMicrosoft Dynamics 365を構成するには、[この記事](../../integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)を参照してください。
 
 入力、出力、オプトアウトの各データフローの設定を行うには、Adobeのオンボーディングチームと協力する必要があります。
 
