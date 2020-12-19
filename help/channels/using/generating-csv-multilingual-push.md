@@ -9,8 +9,8 @@ topic-tags: email-messages
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '1127'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -38,27 +38,26 @@ ht-degree: 1%
 1. language
 1. silentPush
 
-ウィンドウのをクリックして、CSVサンプル **[!UICONTROL Download a sample file]** を確認し **[!UICONTROL Manage Content Variants]** ます。 For more on this, refer to the this [section](../../channels/using/creating-a-multilingual-push-notification.md).
+**[!UICONTROL Manage Content Variants]**&#x200B;ウィンドウの&#x200B;**[!UICONTROL Download a sample file]**&#x200B;をクリックして、CSVサンプルを確認します。 詳しくは、[](../../channels/using/creating-a-multilingual-push-notification.md)を参照してください。
 
-* **title, messageBody, sound, badge, deeplinkURI,カテゴリ, iosMediaAttachmentURL, androidMediaAttachmentURL**:通常のプッシュペイロードのコンテンツ。 この情報は、プッシュ配信を作成する場合と同じ方法で提供する必要があります。
-* **カスタムフィールド**: カスタムフィールドにはJSON形式を使用します。例： `{"key1":"value1","key2":"value2"}`. カスタムフィールドの例については、上記のサンプルファイルを参照してください。
-* **isContentAvailable**:フラグが「使用可能なコンテンツ」チェックに設定されている場合、値1はtrueを意味し、値0はfalseを意味します。 デフォルト値は0です。 この列を空白のままにすると、値は0と見なされます。
-* **isMutableContent**:フラグに「可変コンテンツ」と表示する場合、値1はtrueを意味し、値0はfalseを意味します。 デフォルト値は0です。 この列を空白のままにすると、値は0と見なされます。
+* **title, messageBody, sound, badge, deeplinkURI,カテゴリ, iosMediaAttachmentURL, androidMediaAttachmentURL**:通常のプッシュペイロードのコンテンツ。この情報は、プッシュ配信を作成する場合と同じ方法で提供する必要があります。
+* **カスタムフィールド**:カスタムフィールドにはJSON形式を使用します。例： `{"key1":"value1","key2":"value2"}`.カスタムフィールドの例については、上記のサンプルファイルを参照してください。
+* **isContentAvailable**:フラグが「使用可能なコンテンツ」チェックに設定されている場合、値1はtrueを意味し、値0はfalseを意味します。デフォルト値は0です。 この列を空白のままにすると、値は0と見なされます。
+* **isMutableContent**:フラグに「可変コンテンツ」と表示する場合、値1はtrueを意味し、値0はfalseを意味します。デフォルト値は0です。 この列を空白のままにすると、値は0と見なされます。
 * **locale**:localeは、言語バリアントのフィールドです(例：US-Englishの場合は「en_us」、フランス — フランスの場合は「fr_fr」です。
-* **language**:ロケールに関連付けられている言語の名前。 例えば、ロケールが「en_us」の場合、言語の名前は「English-United States」にする必要があります。
-* **silentPush**:プッシュ通知タイプのフラグ。 通常のプッシュ通知の場合、値は0にする必要があります。 サイレントプッシュの場合、値は1にする必要があります。 デフォルト値は0です。 この列を空白のままにすると、値は0と見なされます。
+* **language**:ロケールに関連付けられている言語の名前。例えば、ロケールが「en_us」の場合、言語の名前は「English-United States」にする必要があります。
+* **silentPush**:プッシュ通知タイプのフラグ。通常のプッシュ通知の場合、値は0にする必要があります。 サイレントプッシュの場合、値は1にする必要があります。 デフォルト値は0です。 この列を空白のままにすると、値は0と見なされます。
 
-## CSVファイル作成の制約とガイドライン {#constraints-guideline-csv}
+## csvファイル作成の制約とガイドライン{#constraints-guideline-csv}
 
-**各列の名前は固定されています**。
-CSVファイルに各列の名前を含める必要があります。コンテンツに列を使用しない場合は、空白のままにします。
+**各列の名前は固定されています**。CSVファイルに各列の名前を含める必要があります。コンテンツに列を使用しない場合は、空白のままにします。
 
 **「locale」列と「language」列は必須で、値は各行で一意です。**
 この列に空白の値を指定すると、ファイルのアップロードに失敗します。
 
-**列の順序は重要です**。 アップロードされたファイル内の列の順序は、サンプルファイルと同じ形式に従う必要があります。
+**列の順序は重要です**。アップロードされたファイル内の列の順序は、サンプルファイルと同じ形式に従う必要があります。
 
-**見積もり列の内容**。 これはCSV（コンマ区切り値）ファイルなので、コンマ(,)を含む列のコンテンツは引用符で囲む必要があります。 例えば、「Hello, Tom!」と入力します。
+**見積もり列の内容**。これはCSV（コンマ区切り値）ファイルなので、コンマ(,)を含む列のコンテンツは引用符で囲む必要があります。 例えば、「Hello, Tom!」と入力します。
 
 **国際文字にはUTF-8エンコードが必要です。**
 
@@ -66,9 +65,9 @@ CSVファイルに各列の名前を含める必要があります。コンテ�
 
 **バリアントの不一致** 特定の言語のコンテンツブロックおよびターゲットオーディエンスを使用する場合は、CSVファイルでターゲット言語をすべてリストする必要があります。すべての言語をしないと、配信を送信する際にエラーが発生します。
 
-## CSVファイルへのパーソナライゼーションフィールドの挿入 {#personalization-field-csv}
+## CSVファイル{#personalization-field-csv}にパーソナライゼーションフィールドを挿入
 
-パーソナライゼーションフィールドを使用する場合は、ファイルに <span> タグを含める必要があります。
+パーソナライゼーションフィールドを使用する場合は、ファイルに<span>タグを含める必要があります。
 
 「firstName」パーソナライゼーションフィールドをmessageBodyに挿入するには、次のメッセージが必要です。
 
@@ -86,7 +85,7 @@ CSVファイルに各列の名前を含める必要があります。コンテ�
 
 * 1つは静的なクラスです。 どのパーソナライゼーションフィールドを使用する場合でも、常にclass=&quot;nl-dce-field nl-dce-done&quot;になります。
 
-* もう1つはdata-nl-exprで、これはパーソナライゼーションフィールドのパスです。 例えば、UIから「firstName」パーソナライゼーションフィールドを挿入した場合、ナビゲーションパスは **[!UICONTROL Context (context)]** > **[!UICONTROL Profile (profile)]** > **[!UICONTROL First name (firstName)]** になります（下の画像を参照）。 この場合、パスは
+* もう1つはdata-nl-exprで、これはパーソナライゼーションフィールドのパスです。 例えば、UIから「firstName」パーソナライゼーションフィールドを挿入した場合、ナビゲーションパスは&#x200B;**[!UICONTROL Context (context)]** > **[!UICONTROL Profile (profile)]** > **[!UICONTROL First name (firstName)]**&#x200B;になります（下の画像を参照）。 この場合、パスは
 
    ```
    /context/profile/firstName. data-nl-expr="/context/profile/firstName".
@@ -94,7 +93,7 @@ CSVファイルに各列の名前を含める必要があります。コンテ�
 
 ![](assets/multilingual_push_2.png)
 
-## ロケールと言語名 {#locale-language-names}
+## ロケールと言語名{#locale-language-names}
 
 次の言語がサポートされています。
 
