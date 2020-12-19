@@ -10,13 +10,13 @@ context-tags: null
 translation-type: tm+mt
 source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# トランザクションイベントの公開{#publishing-transactional-event}
+# トランザクションイベントの公開 {#publishing-transactional-event}
 
 [設定](../../channels/using/configuring-transactional-event.md)が完了すると、イベントは公開する準備ができます。 イベントのプレビュー、公開、非公開、削除の手順を以下に示します。
 
