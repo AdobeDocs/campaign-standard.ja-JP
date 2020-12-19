@@ -10,8 +10,8 @@ context-tags: fileExport,main
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 68%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 68%
 
 このワークフローの目的は、プロファイルのリストを外部ファイルの形式で書き出し、Adobe Campaign 外でデータを使用できるようにすることです。
 
-1. Drag and drop an [Extract file](../../automating/using/extract-file.md) activity into your workflow and place it after the [Query](../../automating/using/query.md) activity.
+1. [ファイル](../../automating/using/extract-file.md)を抽出アクティビティーをワークフローにドラッグ&amp;ドロップし、[クエリー](../../automating/using/query.md)アクティビティーの後に配置します。
 
    この例では、クエリは 18～30 歳のすべてのプロファイルで実行されます。
 
-1. Open the **[!UICONTROL Extract file]** activity to edit it.
+1. **[!UICONTROL Extract file]**&#x200B;アクティビティを開いて編集します。
 1. 出力ファイルに名前を付けます。
 1. 出力列を追加します。
 
@@ -45,7 +45,7 @@ ht-degree: 68%
       ![](assets/wkf_data_export9.png)
 
 1. アクティビティを確認します。
-1. Drag and drop a [Transfer file](../../automating/using/transfer-file.md) activity after the **[!UICONTROL Extract file]** activity to recover the extract file on an external account.
+1. [**[!UICONTROL Extract file]**&#x200B;アクティビティの後にファイル](../../automating/using/transfer-file.md)の転送アクティビティをドラッグ&amp;ドロップして、外部アカウント上の抽出ファイルを回復します。
 1. アクティビティを開き、**[!UICONTROL File upload]** アクションを選択します。
 
    ![](assets/wkf_data_export11.png)
