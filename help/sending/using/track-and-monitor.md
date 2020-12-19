@@ -9,8 +9,8 @@ index: y
 translation-type: tm+mt
 source-git-commit: a7300666587362048431d0bafacc317170b317aa
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 43%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -31,31 +31,31 @@ ht-degree: 43%
 
 * メッセージダッシュボードから、このメッセージに関する複数のレポートにアクセスできます。
 
-For more this, see [Monitoring a delivery](../../sending/using/monitoring-a-delivery.md).
+詳しくは、[配信の監視](../../sending/using/monitoring-a-delivery.md)を参照してください。
 
 ## トラッキング {#tracking-deliveries}
 
-ターゲット設定されたプロファイルの行動をより深く知るには、配信に対するユーザーの反応を追跡します。受信、開封、リンクのクリック、購読解除など 配信の「 **トラッキングログ** 」タブを参照してください。
+ターゲット設定されたプロファイルの行動をより深く知るには、配信に対するユーザーの反応を追跡します。受信、開封、リンクのクリック、購読解除など 配信の&#x200B;**トラッキングログ**&#x200B;タブを参照してください。
 
 **ヒント**：メッセージトラッキングは、デフォルトで有効になっています。URL を設定するには、配信ウィザードの下部のセクションで「URL を表示」オプションを選択します。メッセージの URL ごとに、トラッキングを有効化するかどうかを選択できます。
 
-For more on this, refer to the [Tracking messages](../../sending/using/tracking-messages.md) section and the [Tracking indicators](../../reporting/using/tracking-indicators.md) description.
+詳しくは、[メッセージの追跡](../../sending/using/tracking-messages.md)の節と[トラッキングインジケーター](../../reporting/using/tracking-indicators.md)の説明を参照してください。
 
 ## 動的レポート {#dyn-reports}
 
 動的レポートを使用すると、完全にカスタマイズ可能なリアルタイムレポートを作成し、キャンペーンを監視できます。 Dimension、指標およびビジュアライゼーションを使用すると、受信者に対するキャンペーンの影響と成功を測定できます。
 
-**ヒント** — 組み込みのレポートはキャンペーンを監視できますが、指標やディメンションをレポートにドラッグ&amp;ドロップすることでカスタマイズすることもできます。
+**ヒント**  — 組み込みのレポートはキャンペーンを監視できますが、指標やディメンションをレポートにドラッグ&amp;ドロップすることでカスタマイズすることもできます。
 
-For more on this, refer to the [Reporting guide](../../reporting/using/about-dynamic-reports.md).
+詳しくは、[レポートガイド](../../reporting/using/about-dynamic-reports.md)を参照してください。
 
 ## ホットクリック
 
 ホットクリック数レポートは、メッセージの内容（HTMLやテキスト）と各リンクのクリック数の割合を表示します。 各動的コンテンツのクリックの割合を表示することで、受信者に最も訴えるコンテンツを測定できます。
 
-この詳細については、 [ホットクリックレポートを参照してください](../../reporting/using/hot-clicks.md)。
+この点について詳しくは、[ホットクリックレポート](../../reporting/using/hot-clicks.md)を参照してください。
 
-## 配信のパフォーマンスのヒント {#performance-tips}
+## 配信のパフォーマンスに関するヒント{#performance-tips}
 
 * 配信を失敗した状態のままインスタンス上で放置すると、一時テーブルが維持され、パフォーマンスに影響が生じるため、配信を失敗した状態のまま放置しないでください。
 
