@@ -17,7 +17,7 @@ ht-degree: 11%
 
 # 組織単位属性の更新 {#updating-organizational-unit-attributes}
 
-1. orgUnitBase **リソースに対してGET要求を実行し、組織単位PKeyを取得します** 。
+1. **orgUnitBase**&#x200B;リソースに対してGET要求を実行し、組織単位PKeyを取得します。
 1. ペイロードで更新する属性を持つ組織単位でPATCH要求を実行します。
 
 <br/>
