@@ -19,31 +19,31 @@ ht-degree: 10%
 
 Adobe Campaignでは、モバイルアプリの購読者から収集した目標地点データを使用して、電子メールなどのパーソナライズされたマーケティングメッセージを送信できます。
 
-目標地点データは、標準配信とのみ反応できます。 [トランザクションメッセージは場所データを使用できません](../../channels/using/getting-started-with-transactional-msg.md) 。
+目標地点データは、標準配信とのみ反応できます。 [トランザクション](../../channels/using/getting-started-with-transactional-msg.md) メッセージでは、場所のデータを使用できません。
 
 反応が早いのは約10分です。
 
 この場合、過去2週間以内にボストンストアを訪問したすべての購読者に電子メールを送信することにします。
 
 1. 電子メールマーケティングアクティビティを作成します。
-1. 配信のオーディエンスを定義する場合は、要素をワークスペースにドラッグ&amp;ドロップし **[!UICONTROL Subscriptions to an application]** ます。
+1. 配信のオーディエンスを定義する際に、**[!UICONTROL Subscriptions to an application]**&#x200B;要素をワークスペースにドラッグ&amp;ドロップします。
 
    ![](assets/poi_subscriptions_app.png)
 
-   オーディエンスの管理の詳細は、「 [オーディエンスの定義](../../audiences/using/creating-audiences.md) 」の項を参照してください。
+   オーディエンスの管理の詳細については、「[オーディエンスの定義](../../audiences/using/creating-audiences.md)」の節を参照してください。
 
-1. In the **[!UICONTROL Add a rule - Profile/Subscriptions to an application]** window, drag and drop the **[!UICONTROL POI Location Subscription]** element into the workspace.
+1. **[!UICONTROL Add a rule - Profile/Subscriptions to an application]**&#x200B;ウィンドウで、**[!UICONTROL POI Location Subscription]**&#x200B;要素をワークスペースにドラッグ&amp;ドロップします。
 
    ![](assets/poi_add_rule_profile_subscription.png)
 
-1. ウィン **[!UICONTROL Add a rule - POI Location Subscription]** ドウで、使用する目標地点のラベルを入力します。
+1. **[!UICONTROL Add a rule - POI Location Subscription]**&#x200B;ウィンドウで、使用する目標地点のラベルを入力します。
 
    ![](assets/poi_location_subscription.png)
 
 1. 「**[!UICONTROL Filter type]**」フィールドで「**[!UICONTROL Relative]**」を選択します。
-1. オプションをチェックし、対応するフィ **[!UICONTROL Preceding days]** ールド **[!UICONTROL 15]** に入力します。
+1. **[!UICONTROL Preceding days]**&#x200B;オプションをチェックし、対応するフィールドに&#x200B;**[!UICONTROL 15]**&#x200B;と入力します。
 1. ユーザーが目標地点を訪問した回数を定義します。
-1. Click **[!UICONTROL Confirm]** to save your audience.
+1. **[!UICONTROL Confirm]**&#x200B;をクリックしてオーディエンスを保存します。
 
    ![](assets/poi_subscriptions_app_audience_defined.png)
 
