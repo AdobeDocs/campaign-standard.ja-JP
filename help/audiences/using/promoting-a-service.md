@@ -9,8 +9,8 @@ topic-tags: managing-subscriptions
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,10 +23,10 @@ ht-degree: 3%
 
 * [サービス購読または購読解除リンクを電子メールに挿入します](../../designing/using/links.md#inserting-a-link)。
 
-* [購読または購読解除ランディングページへのリンクを電子メールに挿入します](../../designing/using/links.md)。 この場合、サービスは関連するランディングページのプロパティで直接参照する必要があります(「ランディングページのサービスへの [リンク](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)」を参照)。
+* [購読または購読解除ランディングページへのリンクを電子メールに挿入します](../../designing/using/links.md)。この場合、サービスは関連するランディングページのプロパティで直接参照する必要があります(「[ランディングページのサービスへのリンク](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)」を参照)。
 
    >[!NOTE]
    >
-   >また、購読を取り消す可能性を購読者に与えることも重要です。 これを行うには、新しい購読者および将来のニュースレター電子メールに自動的に送信される確認電子メール（サービスプロパティで定義）にサービス <b>購読解除リンク</b> を挿入します。
+   >また、購読を取り消す可能性を購読者に与えることも重要です。 これを行うには、新しい購読者および将来のニュースレター電子メールに自動的に送信される確認電子メール（サービスプロパティで定義）に、サービス<b>購読解除リンク</b>を挿入します。
 
-* 購読または購読解除ランディングページをWebサイトで利用できるようにする。 ランディングページへのアクセスを提供するURLは、関連付けられたサービスやアクセスするプロファイルIDなどのパラメーターを指定する必要があります。 このIDは、ランディングページパラメーターで定義できます(ランディングページ [の設定を参照](../../channels/using/configuring-landing-page.md))。
+* 購読または購読解除ランディングページをWebサイトで利用できるようにする。 ランディングページへのアクセスを提供するURLは、関連付けられたサービスやアクセスするプロファイルIDなどのパラメーターを指定する必要があります。 このIDは、ランディングページーのパラメーターで定義できます(「[ランディングページの設定](../../channels/using/configuring-landing-page.md)」を参照)。
