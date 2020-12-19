@@ -9,8 +9,8 @@ topic-tags: configuring-channels
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '464'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 4%
 
 Adobe Campaign Standardでは、APIを使用してデータマッピングをすぐに取り込むことをトリガーし、取り込みリクエストのステータスを取得できます。
 
-このページでは、データマッピングのインジェストステータスをトリガーおよび取得する方法について説明します。 Campaign StandardAPIのグローバル情報については、 [この節を参照してください](../../api/using/get-started-apis.md)。
+このページでは、データマッピングのインジェストステータスをトリガーおよび取得する方法について説明します。 Campaign StandardAPIのグローバル情報については、[このセクション](../../api/using/get-started-apis.md)を参照してください。
 
 ## 前提条件 {#prerequisites}
 
@@ -34,9 +34,9 @@ APIを使用する前に、Campaign Standardインターフェイス内でデー
 
 データマッピングを作成したら、実行を停止して、APIからいつでもトリガーできるようにする必要があります。 それには、次の手順に従います。
 
-1. Campaign Standardで、// **[!UICONTROL Administration]** / **[!UICONTROL Development]** メニューに移動し **[!UICONTROL Platform]****[!UICONTROL Status of data export to platform]** ます。
+1. Campaign Standardで、**[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]**&#x200B;メニューに移動します。
 
-1. 重複を押しながらデータマッピングをクリックして開き、 **[!UICONTROL Stop]** ボタンをクリックします。
+1. 重複を押しながらデータマッピングをクリックして開き、「**[!UICONTROL Stop]**」ボタンをクリックします。
 
    ![](assets/aep_datamapping_stop.png)
 
@@ -44,7 +44,7 @@ APIを使用する前に、Campaign Standardインターフェイス内でデー
 
 現在、データマッピングの実行が停止しています。 Campaign StandardAPIを使用して手動でトリガーできます。
 
-## データマッピングの即時取り込みの開始 {#starting-immediate-ingestion}
+## データマッピング{#starting-immediate-ingestion}の即時取り込みの開始
 
 XDMマッピングをAdobe Experience Platformに直ちに取り込むと、POST操作によって次のようにトリガされます。
 
@@ -52,9 +52,10 @@ XDMマッピングをAdobe Experience Platformに直ちに取り込むと、POST
 
 >[!NOTE]
 >
->取り込みPOSTAPI呼び出しを実行するには、 **SQL関数の実行** (以下のJSスクリプトを実行するとCampaign Standard管理者が提供できる)ロールが必要です。
+>取り込みPOSTAPI呼び出しを実行するには、**SQL関数の実行**&#x200B;ロールが必要です。このロールは、Campaign Standard管理者が次のJSスクリプトを実行することで提供できます。
 >
->```
+>
+```
 >var sqlRoleObj = REST.head.roleBase.sql.get();
 >REST.head.securityGroup.Administrators.roles.post(sqlRoleObj);
 >```
@@ -94,7 +95,7 @@ POST操作は、作成された要求ステータスに関する情報を返し�
 }
 ```
 
-## 取り込み要求のステータスの取得 {#retrieving-status}
+## インジェスト要求の状態を取得しています{#retrieving-status}
 
 取り込み要求のステータスは、GET操作と、パラメータ内の目的の要求IDを使用して取得できます。
 
@@ -105,7 +106,7 @@ GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM 
 
 >[!NOTE]
 >
->XDMマッピング要求のステータスと関連するジョブに関する詳細は、メニューのCampaign Standardインターフェイスで **[!UICONTROL Status of data export to platform]** 確認できます( [マッピングアクティベーションを参照](../../developing/using/aep-mapping-activation.md))。
+>XDMマッピング要求の状態と関連するジョブに関する詳細な情報は、Campaign Standardインターフェイスの&#x200B;**[!UICONTROL Status of data export to platform]**&#x200B;メニューで確認できます([マッピングアクティベーション](../../developing/using/aep-mapping-activation.md)を参照)。
 
 GET操作は次の情報を返します。
 
