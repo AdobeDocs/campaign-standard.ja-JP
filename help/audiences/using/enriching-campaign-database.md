@@ -19,11 +19,11 @@ ht-degree: 3%
 
 Campaign Standardオファーは、マーケティングデータベースの拡張に役立つツールをいくつかご紹介します。 この節では、専用のドキュメントを参照しながら、キャンペーンにデータを挿入するために使用できる様々な方法について説明します。
 
-## ワークフローを介したデータの読み込み {#importing-data-through-workflows}
+## ワークフロー{#importing-data-through-workflows}を介したデータのインポート
 
-ワークフローを使用すると、データを収集し、 [[!UICONTROL Data management]](../../automating/using/about-data-management-activities.md) アクティビティを使用してキャンペーンデータベースにインポートできます。
+ワークフローを使用すると、データを収集し、[[!UICONTROL Data management]](../../automating/using/about-data-management-activities.md)アクティビティを使用してキャンペーンデータベースにインポートできます。
 
-ワークフローを介してデータをインポートする場合の一般的な情報とベストプラクティスについては、 [この節で説明し](../../automating/using/about-data-import-and-export.md)ます。
+ワークフローを介してデータをインポートする場合の一般的な情報とベストプラクティスについては、[このセクション](../../automating/using/about-data-import-and-export.md)を参照してください。
 
 また、データを読み込むためのテンプレートを設定することもできます。 同じ構造を持つファイルを定期的に読み込む必要がある場合は、インポートテンプレートの使用をお勧めします。
 
@@ -31,13 +31,13 @@ Campaign Standardオファーは、マーケティングデータベースの拡
 
 * **ワークフローテンプレート**:これらは事前設定済みのワークフローで、必要に応じて一度設定すれば、データを読み込んでデータベースを更新するたびに再利用できます。
 
-   データを読み込むためのワークフローテンプレートの例について [この節で詳しく説明します](../../automating/using/creating-import-workflow-templates.md)。
+   データをインポートするワークフローテンプレートの例については、[このセクション](../../automating/using/creating-import-workflow-templates.md)を参照してください。
 
-* **データテンプレートの読み込み**:ワークフローテンプレートと同様、テンプレートはワークフローに基づくテンプレートで、データベースを更新するためにファイルをアップロードするように設定されます。 設定が完了すると、 **[!UICONTROL Profile & audiences]** /メニューのシンプルな表示を使用してユーザーが使用できるようになり **[!UICONTROL Imports]** ます。
+* **データテンプレートの読み込み**:ワークフローテンプレートと同様、テンプレートはワークフローに基づくテンプレートで、データベースを更新するためにファイルをアップロードするように設定されます。設定が完了すると、**[!UICONTROL Profile & audiences]** / **[!UICONTROL Imports]**&#x200B;メニューの下のシンプルな表示でユーザーが使用できるようになります。
 
-   データテンプレートの読み込みについて詳しくは、 [専用のドキュメントを参照してください](../../automating/using/importing-data-with-import-templates.md)。
+   データテンプレートの読み込みについて詳しくは、[専用ドキュメント](../../automating/using/importing-data-with-import-templates.md)を参照してください。
 
-## ランディングページからのデータの収集 {#collecting-data-from-landing-pages}
+## ランディングページ{#collecting-data-from-landing-pages}からデータを収集中
 
 ランディングページとは、データを収集し、データベース内の既存の情報を作成または更新するために使用できるWebフォームです。
 
@@ -47,14 +47,14 @@ Campaign Standardオファーは、マーケティングデータベースの拡
 * 各入力フィールドを、データベースの対応するフィールドにマップします。
 * Webサイトまたはメッセージへの直接リンクを介して、ランディングページをオンラインで利用できるようにします。
 
-For more on landing pages, refer to the [dedicated documentation](../../channels/using/getting-started-with-landing-pages.md).
+ランディングページについて詳しくは、[専用ドキュメント](../../channels/using/getting-started-with-landing-pages.md)を参照してください。
 
 ## Microsoft Dynamics 365からのプロファイルの同期
 
 Microsoft Dynamics 365とのCampaign Standard統合により、Microsoft Dynamics 365の連絡先データをキャンペーンデータベースに渡すことができます。
 これらの連絡先はプロファイルリストに表示され、マーケティングキャンペーンでターゲットを設定できます。
 
-For more on this integration, refer to the [dedicated documentation](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md).
+この統合の詳細については、[専用ドキュメント](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)を参照してください。
 
 >[!NOTE]
 >
@@ -64,7 +64,7 @@ For more on this integration, refer to the [dedicated documentation](../../integ
 
 Campaign StandardAPIを使用すると、プロファイルやサービスの作成、更新、削除など、データベースを更新する操作を実行できます。
 
-For more on how to use the APIs, refer to the [dedicated documentation](../../api/using/get-started-apis.md).
+APIの使用方法について詳しくは、[専用ドキュメント](../../api/using/get-started-apis.md)を参照してください。
 
 >[!IMPORTANT]
 >
