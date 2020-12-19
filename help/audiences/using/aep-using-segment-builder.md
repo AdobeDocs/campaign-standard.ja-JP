@@ -10,8 +10,8 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '878'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 4%
 >
 >オーディエンス宛先サービスは現在ベータ版で、予告なく頻繁に更新される可能性があります。 これらの機能にアクセスするには、お客様はAzureでホストされる必要があります（現在、北米向けベータ版のみ）。 ご利用になる場合は、Adobeカスタマーケアにお問い合わせください。
 
-セグメントビルダーを使用すると、 [リアルタイム顧客プロファイルからのデータに基づいてルールを定義することでオーディエンスを作成できます](https://docs.adobe.com/content/help/ja-JP/experience-platform/profile/home.html)。
+セグメントビルダーを使用すると、[リアルタイム顧客プロファイル](https://docs.adobe.com/content/help/ja-JP/experience-platform/profile/home.html)からのデータに基づいてルールを定義することで、オーディエンスを作成できます。
 
-このセクションでは、セグメントを作成する際のグローバルな概念について説明します。 セグメントビルダー自体の詳細については、『 [セグメントビルダーユーザガイド](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html)』を参照してください。
+このセクションでは、セグメントを作成する際のグローバルな概念について説明します。 セグメントビルダー自体の詳細については、『[セグメントビルダーユーザーガイド](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html)』を参照してください。
 
 セグメントビルダーのインターフェイスは、次のように構成されています。
 
@@ -46,7 +46,7 @@ ht-degree: 4%
 
 1. 設定ウィンドウで目的の結合ポリシーが選択されていることを確認します。
 
-   結合ポリシーの詳細については、『 [セグメントビルダーユーザーガイド』の専用の節を参照してください](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html)。
+   結合ポリシーの詳細については、[セグメントビルダーユーザーガイド](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html)の専用の節を参照してください。
 
    ![](assets/aep_audiences_mergepolicy.png)
 
@@ -64,25 +64,25 @@ ht-degree: 4%
 
 左側のペインには、ルールの作成に使用できるすべての属性、イベント、オーディエンスがリストされます。
 
-表示されるフィールドは、会社がキャプチャした属性で、 [Experience Data Model(XDM)Systemを通じて使用できます](https://docs.adobe.com/content/help/ja-JP/experience-platform/xdm/home.html)。
+表示されるフィールドは、会社によってキャプチャされた属性で、[エクスペリエンスデータモデル(XDM)システム](https://docs.adobe.com/content/help/ja-JP/experience-platform/xdm/home.html)を通じて利用できます。
 
 フィールドは、次のタブに分類されます。
 
-* **[!UICONTROL Attributes]**:Adobe CampaignデータベースまたはAdobe Experience Platform、あるいはその両方から作成できる既存のプロファイル属性。 プロファイルに付属する静的な情報(電子メールアドレス、住所の国、忠誠度プログラムのステータスなど)を参照します。
+* **[!UICONTROL Attributes]**:Adobe CampaignデータベースまたはAdobe Experience Platform、あるいはその両方から作成できる既存のプロファイル属性。プロファイルに付属する静的な情報(電子メールアドレス、住所の国、忠誠度プログラムのステータスなど)を参照します。
 
    ![](assets/aep_audiences_attributestab.png)
 
-* **[!UICONTROL Events]**:「2週間に2回注文した顧客」など、会社の顧客のタッチポイントと何らかのインタラクションを持つ顧客を識別するアクティビティ。 これは、Adobe Analyticsからストリーミングされたり、サードパーティのETLツールを使用して直接Adobe Experience Platformに取り込まれたりできます。
+* **[!UICONTROL Events]**:「2週間に2回注文した顧客」など、会社の顧客のタッチポイントと何らかのインタラクションを持つ顧客を識別するアクティビティ。これは、Adobe Analyticsからストリーミングされたり、サードパーティのETLツールを使用して直接Adobe Experience Platformに取り込まれたりできます。
 
    ![](assets/aep_audiences_eventstab.png)
 
 >[!NOTE]
 >
->**複数エンティティのセグメント化** により、プロファイル、店舗、または他の非プロファイルクラスに基づく追加データを使用して、製品データを拡張できます。 接続すると、追加のクラスのデータは、プロファイルスキーマにネイティブであるかのように使用可能になります。
+>**複数エンティティ** セグメント化により、プロファイル、店舗、または他のプロファイル以外のクラスに基づく追加のデータを使用して、製品データを拡張できます。接続すると、追加のクラスのデータは、プロファイルスキーマにネイティブであるかのように使用可能になります。
 >
 >詳しくは、[該当するドキュメント](https://docs.adobe.com/content/help/en/experience-platform/segmentation/multi-entity-segmentation.html)を参照してください。
 
-デフォルトでは、セグメントビルダーには、既にデータが存在するフィールドが表示されます。 データが存在しないフィールドを含む完全なスキーマを表示するには、設定のオ **[!UICONTROL Show full XDM schema]** プションを有効にします。
+デフォルトでは、セグメントビルダーには、既にデータが存在するフィールドが表示されます。 データが存在しないフィールドを含む完全なスキーマを表示するには、設定から&#x200B;**[!UICONTROL Show full XDM schema]**&#x200B;オプションを有効にします。
 
 ![](assets/aep_audiences_populatedfields.png)
 
@@ -94,7 +94,7 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->以下の節では、ルール定義に関するグローバル情報を示します。 この点について詳しくは、『 [セグメントビルダーユーザガイド](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html)』を参照してください。
+>以下の節では、ルール定義に関するグローバル情報を示します。 詳しくは、[セグメントビルダーユーザーガイド](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html)を参照してください。
 
 ルールを作成するには、次の手順に従います。
 
@@ -106,9 +106,9 @@ ht-degree: 4%
 
    ![](assets/aep_audiences_malegender.png)
 
-   セグメントに対応する推定母集団は、 **[!UICONTROL Segment Properties]** セクションで自動的に再計算されます。
+   セグメントに対応する推定母集団は、**[!UICONTROL Segment Properties]**&#x200B;セクションで自動的に再計算されます。
 
-1. この **[!UICONTROL View Profiles]** ボタンをクリックすると、ルールに対応する最初の20件のレコードのプレビューが表示され、セグメントをすばやく検証できます。
+1. **[!UICONTROL View Profiles]**&#x200B;ボタンをクリックすると、ルールに対応する最初の20件のレコードのプレビューが表示され、セグメントをすばやく検証できます。
 
    ![](assets/aep_audiences_samplepreview.png)
 
@@ -132,7 +132,7 @@ ht-degree: 4%
 
 1. 最初のフィールドと比較する2番目のフィールド（勤務先の住所の郵便番号など）を選択します。
 
-   最初のフィールドと同じコンテナの **[!UICONTROL Drop here to compare operands]** ボックス内にある中央のワークスペースにドラッグします。
+   最初のフィールドと同じコンテナの中央のワークスペース（**[!UICONTROL Drop here to compare operands]**&#x200B;ボックス）にドラッグします。
 
    ![](assets/aep_audiences_comparing_2.png)
 
