@@ -9,15 +9,15 @@ topic-tags: campaign-standard-apis
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 11%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # 地理的単位属性の更新 {#managing-geographical-units}
 
-1. GeoUnitBase **リソースでGET要求を実行して、Geographical Unit PKeyを取得します** 。
+1. **geoUnitBase**&#x200B;リソースに対してGET要求を実行し、地理単位PKeyを取得します。
 1. ペイロード内で更新する属性を使用して、地理単位でPATCHリクエストを実行します。
 
 <br/>
