@@ -9,8 +9,8 @@ topic-tags: direct-mail
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 2%
 
 ![](assets/direct_mail_return_sender_1.png)
 
-インポートテンプレートは、で入手でき **[!UICONTROL Adobe Campaign > Resources > Templates > Import templates > Update Direct Mail quarantines and delivery logs]**&#x200B;ます。 独自のテンプレートを作成するには、このテンプレートに重複します。 インポートテンプレートの使用について詳しくは、インポートテンプレートの [使用を参照してください](../../automating/using/importing-data-with-import-templates.md#setting-up-import-templates)。
+**[!UICONTROL Adobe Campaign > Resources > Templates > Import templates > Update Direct Mail quarantines and delivery logs]**&#x200B;の下にインポートテンプレートがあります。 独自のテンプレートを作成するには、このテンプレートに重複します。 インポートテンプレートの使用について詳しくは、[インポートテンプレートの使用](../../automating/using/importing-data-with-import-templates.md#setting-up-import-templates)を参照してください。
 
 ![](assets/direct_mail_return_sender_2.png)
 
