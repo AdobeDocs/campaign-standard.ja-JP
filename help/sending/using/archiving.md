@@ -21,7 +21,7 @@ ht-degree: 28%
 
 特に、組織で、アウトバウンド電子メールメッセージをすべてアーカイブして準拠する必要がある場合は、この機能を有効にできます。 対応する送信メッセージの完全に隠されたコピーを、指定する必要のあるBCC電子メールアドレス(配信受信者には見えない)に送信できます。
 
-有効にした後は、電子メール配信テンプレートの **[!UICONTROL Archive emails]** オプションで電子メールBCCを有効にする必要があります。
+有効にした後は、電子メール配信テンプレートの&#x200B;**[!UICONTROL Archive emails]**&#x200B;オプションから電子メールBCCを有効にする必要があります。
 
 >[!NOTE]
 >
@@ -40,19 +40,19 @@ ht-degree: 28%
 >
 >現在、拡張MTAに既にアップグレード済みの場合でも、Adobe Campaign拡張MTAでアーカイブ済みの電子メールを送信することはできません。
 
-## 電子メールアーカイブのアクティブ化 {#activating-email-archiving}
+## 電子メールアーカイブのアクティブ化{#activating-email-archiving}
 
-電子メールBCCは、有効にすると、次の専用のオプションを通じて、 [電子メールテンプレート](../../start/using/marketing-activity-templates.md)(BCC)内でアクティブになります。
+電子メールBCCは、[電子メールテンプレート](../../start/using/marketing-activity-templates.md)で有効になると、次の専用のオプションを使用して有効になります。
 
 1. **リソース**／**テンプレート**／**配信テンプレート**&#x200B;に移動します。
-1. すぐに使用できる **[!UICONTROL Send via email]** テンプレートの重複
+1. 標準の&#x200B;**[!UICONTROL Send via email]**&#x200B;テンプレートを重複します。
 1. 複製したテンプレートを選択します。
-1. Click the **[!UICONTROL Edit properties]** button to edit the template&#39;s properties.
-1. セクションを展開し **[!UICONTROL Send]** ます。
-1. このテンプレートに基づいて各配信のすべての送信メッセージのコピーを保持するには、この **[!UICONTROL Archive emails]** チェックボックスをオンにします。
+1. **[!UICONTROL Edit properties]**&#x200B;ボタンをクリックして、テンプレートのプロパティを編集します。
+1. **[!UICONTROL Send]**&#x200B;セクションを展開します。
+1. **[!UICONTROL Archive emails]**&#x200B;チェックボックスをオンにして、このテンプレートに基づいて各配信の送信済みメッセージのコピーを保存します。
 
    ![](assets/email_archiving.png)
 
 >[!NOTE]
 >
->If the emails sent to the BCC address are opened and clicked through, this will be taken into account in the **[!UICONTROL Total opens]** and **[!UICONTROL Clicks]** from the send analysis, which could cause some miscalculations.
+>BCCアドレスに送信された電子メールが開かれ、クリックスルーされた場合は、送信分析の&#x200B;**[!UICONTROL Total opens]**&#x200B;と&#x200B;**[!UICONTROL Clicks]**&#x200B;を考慮に入れます。これにより、何らかの誤算が発生する可能性があります。
