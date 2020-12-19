@@ -8,8 +8,8 @@ content-type: reference
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '53'
-ht-degree: 60%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -27,39 +27,39 @@ ht-degree: 60%
                </tr>
                <tr>
                   <td>PKey</td>
-                  <td>いいえ</td>
+                  <td>False</td>
                   <td>文字列</td>
-                  <td>いいえ</td>
+                  <td>False</td>
                </tr>
                <tr>
                   <td>ctx</td>
-                  <td>いいえ</td>
+                  <td>False</td>
                   <td>item</td>
-                  <td>いいえ</td>
+                  <td>False</td>
                </tr>
                <tr>
                   <td>email</td>
-                  <td>いいえ</td>
+                  <td>False</td>
                   <td>文字列</td>
-                  <td>いいえ</td>
+                  <td>False</td>
                </tr>
                <tr>
                   <td>emailFormat</td>
-                  <td>いいえ</td>
+                  <td>False</td>
                   <td>定義済みリスト</td>
-                  <td>いいえ</td>
+                  <td>False</td>
                </tr>
                <tr>
                   <td>mobilePhone</td>
-                  <td>いいえ</td>
+                  <td>False</td>
                   <td>文字列</td>
-                  <td>いいえ</td>
+                  <td>False</td>
                </tr>
                <tr>
                   <td>serverUrl</td>
                   <td>はい</td>
                   <td>文字列</td>
-                  <td>いいえ</td>
+                  <td>False</td>
                </tr>
             </table>
 
