@@ -10,8 +10,8 @@ context-tags: dedup,main
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 78%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,11 +24,11 @@ ht-degree: 78%
 
 ![](assets/deduplication_example_workflow.png)
 
-* A [Query](../../automating/using/query.md) which allows you to define the target of the email. このワークフローでは、18 歳から 25 歳までのプロファイルのうち、1 年以上クライアントデータベースに存在しているすべてのプロファイルがターゲットになります。
+* 電子メールのターゲットを定義できる[クエリ](../../automating/using/query.md)。 このワークフローでは、18 歳から 25 歳までのプロファイルのうち、1 年以上クライアントデータベースに存在しているすべてのプロファイルがターゲットになります。
 
    ![](assets/deduplication_example_query.png)
 
-* A [Deduplication](../../automating/using/deduplication.md) activity, which allows you to identify the duplicates that come from the preceding query. この例では、保存されるレコードは重複ごとに 1 つだけです。重複は E メールアドレスを使用して識別されます。つまり、ターゲティングに存在する E メールアドレスごとに 1 回しか E メール配信を送信できません。
+* [重複排除 - 重複](../../automating/using/deduplication.md)アクティビティ。前のクエリから来た重複を識別できます。 この例では、保存されるレコードは重複ごとに 1 つだけです。重複は E メールアドレスを使用して識別されます。つまり、ターゲティングに存在する E メールアドレスごとに 1 回しか E メール配信を送信できません。
 
    選択する重複排除方法は「**[!UICONTROL Non-empty value]**」です。これにより、重複が識別された場合、**名前（名）**&#x200B;が含まれているレコードを優先して保持することができます。E メールコンテンツのパーソナライゼーションフィールドで名が使用されている場合に一貫性が向上する方法です。
 
@@ -36,5 +36,5 @@ ht-degree: 78%
 
    ![](assets/deduplication_example_dedup.png)
 
-* An [Email delivery](../../automating/using/email-delivery.md) placed after the main outbound transition of the deduplication.
-* A [Save audience](../../automating/using/save-audience.md) activity placed after the additional transition of the deduplication to save the duplicates in a **Duplicates** audience. このオーディエンスを再利用して、E メール配信のたびにオーディエンスのメンバーを直接除外することができます。
+* 重複排除 - 重複のメインの送信トランジションの後に配置される[電子メール配信](../../automating/using/email-delivery.md)。
+* 重複を&#x200B;**重複**&#x200B;オーディエンスーに保存するために、重複排除 - 重複の追加トランジションの後に配置される[保存オーディエンス](../../automating/using/save-audience.md)アクティビティ。 このオーディエンスを再利用して、E メール配信のたびにオーディエンスのメンバーを直接除外することができます。
