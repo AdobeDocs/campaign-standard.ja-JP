@@ -9,21 +9,21 @@ topic-tags: campaign-standard-apis
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # メタデータのメカニズム {#metadata-mechanism}
 
-GET要求で **resourceType** :
+GETリクエストで&#x200B;**resourceType**&#x200B;を使用して、リソースメタデータを取得できます。
 
 `GET /profileAndServices/resourceType/<resourceName>`
 
 応答は、リソースからメインメタデータを返します（他のすべてのフィールドは説明的または内部的です）。
 
-* 「 **Content** 」ノードは、リソースのフィールドを返します。 「 **content** 」ノード内の各フィールドについて、次のフィールドを検索できます。
+* **Content**&#x200B;ノードは、リソースのフィールドを返します。 **content**&#x200B;ノード内の各フィールドについて、次のフィールドを見つけることができます。
 
    * &quot;apiName&quot;:APIで使用される属性の名前。
    * &quot;type&quot;:これは、高レベルのタイプ定義(文字列、数値、リンク、コレクション、定義済みリストなど)です。
@@ -32,9 +32,9 @@ GET要求で **resourceType** :
    * &quot;resType&quot;:これは技術的なタイプです。
 
       「type」が値「link」または「collection」で完了した場合、resTarget値はリンクのターゲットとなるリソースの名前になります。
-「type」が値「定義済みリスト」で完了した場合は、「values」フィールドが追加され、各定義済みリスト値が **values** ノードに詳細に設定されます。
+「type」が値「定義済みリスト」で完了した場合は、「values」フィールドが追加され、各定義済みリスト値が**values**&#x200B;ノードに詳細に設定されます。
 
-* 「 **フィルター** 」ノードは、関連するフィルターを取得するためのURLを返します。 For more on filters, refer to [this section](../../api/using/filtering.md) section.
+* **フィルター**&#x200B;ノードは、関連するフィルターを取得するためのURLを返します。 フィルターの詳細については、[この](../../api/using/filtering.md)セクションを参照してください。
 
 <!-- créer une section au même niveau sur les liens -->
 <!-- dans l'exemple: birthdate, email +  mettre 2 liens : un de type 1-1 , 1-N
