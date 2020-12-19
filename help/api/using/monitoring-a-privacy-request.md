@@ -9,17 +9,17 @@ topic-tags: campaign-standard-apis
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '54'
-ht-degree: 25%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # プライバシーリクエストの監視 {#monitoring-a-privacy-request}
 
-作成したプライバシー要求に関する情報は、 **GET** 要求を使用して監視できます。
+**GET**&#x200B;リクエストを使用して、作成したプライバシーリクエストに関する情報を監視できます。
 
-ステータスリストの説明は、 [プライバシー管理ドキュメントで確認できます](https://helpx.adobe.com/jp/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)。
+ステータスリストの説明は、[プライバシー管理ドキュメント](https://helpx.adobe.com/jp/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)で確認できます。
 
 <br/>
 
