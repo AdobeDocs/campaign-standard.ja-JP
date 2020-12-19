@@ -18,22 +18,22 @@ ht-degree: 1%
 
 # Adobe Campaign Standard の使用例をサポートするための Launch ルールの設定 {#configuring-rules-launch}
 
-で [!DNL Adobe Experience Platform Launch]は、PIIやその他のデータをモバイルアプリケーションからに送信するデータ要素とルールを作成する必要があり [!DNL Adobe Campaign Standard]ます。
+[!DNL Adobe Experience Platform Launch]では、PIIや他のデータをモバイルアプリケーションから[!DNL Adobe Campaign Standard]に送信するためのデータ要素とルールを作成する必要があります。
 
-のすべての設定の変更を有効にするに [!DNL Adobe Experience Platform Launch] は、これらの変更を発行する必要があります。 詳しくは、 [発行を参照してください](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#publish-the-configuration)。
+[!DNL Adobe Experience Platform Launch]内のすべての設定変更を有効にするには、これらの変更を発行する必要があります。 詳しくは、[発行](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#publish-the-configuration)を参照してください。
 
-でルールを作成するに [!DNL Experience Platform Launch]は、次の手順に従います。
+[!DNL Experience Platform Launch]にルールを作成するには、次の手順に従います。
 
 1. [データ要素の作成](../../administration/using/configuring-rules-launch.md#create-data-elements)
-2. [サポートする使用例のルール](../../administration/using/configuring-rules-launch.md#create-data-elements) :
+2. [サポートする使用](../../administration/using/configuring-rules-launch.md#create-data-elements) 例のルールの作成：
    * [PIIポストバック](../../administration/using/configuring-rules-launch.md#pii-postback)
    * [アプリ内追跡ポストバック](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback)
    * [プッシュ通知追跡ポストバック](../../administration/using/configuring-rules-launch.md#push-tracking-postback)
    * [場所のポストバック](../../administration/using/configuring-rules-launch.md#location-postback)
 
-## データ要素の作成 {#create-data-elements}
+## データ要素{#create-data-elements}を作成しています
 
-で作成することをお勧めするデータ要素を次に示し [!DNL Experience Platform Launch]ます。
+[!DNL Experience Platform Launch]に作成することをお勧めするデータ要素を以下に示します。
 必要に応じて、追加のデータ要素を作成できます。
 
 * **[!UICONTROL Experience Cloud ID]**
@@ -42,29 +42,29 @@ ht-degree: 1%
 
 これらのデータ要素を作成するには：
 
-1. で、モバイルアプリケ [!DNL Experience Platform Launch]ーションダッシュボードの **[!UICONTROL Data Elements]** タブをクリックします。
+1. [!DNL Experience Platform Launch]のモバイルアプリケーションダッシュボードで、「**[!UICONTROL Data Elements]**」タブをクリックします。
 
-1. データ要素を作成するには、 **[!UICONTROL Experience Cloud ID]** をクリックし **[!UICONTROL Create New Data Element]**&#x200B;ます。
+1. **[!UICONTROL Experience Cloud ID]**&#x200B;データ要素を作成するには、**[!UICONTROL Create New Data Element]**&#x200B;をクリックします。
 
-1. 例えば、 **[!UICONTROL Name]** フィールドに「 **mcid**」と入力します。
+1. **[!UICONTROL Name]**&#x200B;フィールドに、例えば&#x200B;**mcid**&#x200B;と入力します。
 
-1. From the **[!UICONTROL Extension]** drop-down, select **[!UICONTROL Mobile Core]**. 次 **[!UICONTROL Experience Cloud ID]** に、「 **[!UICONTROL Data element]** タイプ」ドロップダウンで、
+1. **[!UICONTROL Extension]**&#x200B;ドロップダウンから&#x200B;**[!UICONTROL Mobile Core]**&#x200B;を選択します。 次に&#x200B;**[!UICONTROL Data element]**&#x200B;タイプのドロップダウンで&#x200B;**[!UICONTROL Experience Cloud ID]**&#x200B;を入力します。
 
    ![](assets/do-not-localize/rules_1.png)
 
-1. Pkeyデータ要素を作成するには、をクリックし **[!UICONTROL Add data element]**&#x200B;ます。
+1. Pkeyデータ要素を作成するには、**[!UICONTROL Add data element]**&#x200B;をクリックします。
 
-1. 例えば、 **[!UICONTROL Name]** フィールドに「 **pkey**」と入力します。
+1. **[!UICONTROL Name]**&#x200B;フィールドに、例えば&#x200B;**pkey**&#x200B;と入力します。
 
-1. From the **[!UICONTROL Extension]** drop-down, select **[!UICONTROL Adobe Campaign Standard]**. 次 **[!UICONTROL pkey]** に、「 **[!UICONTROL Data element]** タイプ」ドロップダウンで、
+1. **[!UICONTROL Extension]**&#x200B;ドロップダウンから&#x200B;**[!UICONTROL Adobe Campaign Standard]**&#x200B;を選択します。 次に&#x200B;**[!UICONTROL Data element]**&#x200B;タイプのドロップダウンで&#x200B;**[!UICONTROL pkey]**&#x200B;を入力します。
 
-1. キャンペーンサーバーのデータ要素を作成するには、をクリックし **[!UICONTROL Add data element]**&#x200B;ます。
+1. キャンペーンサーバーのデータ要素を作成するには、**[!UICONTROL Add data element]**&#x200B;をクリックします。
 
-1. フィールドに名前を入力します(例： **[!UICONTROL Name]** camp-server ****)。
+1. **[!UICONTROL Name]**&#x200B;フィールドに名前を入力します（例：**camp-server**）。
 
-1. From the **[!UICONTROL Extension]** drop-down, select **[!UICONTROL Adobe Campaign Standard]**. 次 **[!UICONTROL Campaign Server]** に、「 **[!UICONTROL Data element]** タイプ」ドロップダウンリストで、
+1. **[!UICONTROL Extension]**&#x200B;ドロップダウンから&#x200B;**[!UICONTROL Adobe Campaign Standard]**&#x200B;を選択します。 次に、**[!UICONTROL Data element]**&#x200B;タイプのドロップダウンで&#x200B;**[!UICONTROL Campaign Server]**&#x200B;を指定します。
 
-## ルールの作成 {#creating-rules}
+## ルールの作成{#creating-rules}
 
 次のルールを作成する必要があります。
 
@@ -73,37 +73,37 @@ ht-degree: 1%
 * [プッシュ通知追跡ポストバック](../../administration/using/configuring-rules-launch.md#push-tracking-postback)
 * [場所のポストバック](../../administration/using/configuring-rules-launch.md#location-postback)
 
-### PIIポストバック {#pii-postback}
+### PIIポストバック{#pii-postback}
 
 >[!NOTE]
 >
->モバイルアプリからAdobe CampaignにPII情報を送信するには、SDK APIを実装する必要があります。 詳しくは、CollectPIIを参照して [ください](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#collect-pii)。
+>モバイルアプリからAdobe CampaignにPII情報を送信するには、SDK APIを実装する必要があります。 詳細については、[CollectPII](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#collect-pii)を参照してください。
 
-PIIデータをに送信するに [!DNL Adobe Campaign Standard]は、次の場所でルールを作成し [!DNL Experience Platform Launch]ます。
+PIIデータを[!DNL Adobe Campaign Standard]に送信するには、[!DNL Experience Platform Launch]にルールを作成します。
 
-1. で、モバイルアプリケ [!DNL Experience Platform Launch]ーションダッシュボードの **[!UICONTROL Rules]** タブをクリックし、次に **[!UICONTROL Create New Rule]**。
+1. [!DNL Experience Platform Launch]で、モバイルアプリケーションダッシュボードから&#x200B;**[!UICONTROL Rules]**&#x200B;タブをクリックし、**[!UICONTROL Create New Rule]**&#x200B;をクリックします。
 
-1. 名前を入力します(例：「 **Mobile Core - Collect PII**」)。
+1. 名前を入力します（例：**Mobile Core - Collect PII**）。
 
-1. In the **[!UICONTROL Events]** section, click **[!UICONTROL Add]**.
+1. **[!UICONTROL Events]**&#x200B;セクションで、**[!UICONTROL Add]**&#x200B;をクリックします。
 
-1. From the **[!UICONTROL Extension]** drop-down, select **[!UICONTROL Mobile Core]**. 次 **[!UICONTROL Collect PII]** に、ドロッ **[!UICONTROL Event type]** プダウン内です。
+1. **[!UICONTROL Extension]**&#x200B;ドロップダウンから&#x200B;**[!UICONTROL Mobile Core]**&#x200B;を選択します。 次に、**[!UICONTROL Event type]**&#x200B;ドロップダウンの&#x200B;**[!UICONTROL Collect PII]**。
 
 1. 「**[!UICONTROL Keep changes]**」をクリックします。
 
-1. In the **[!UICONTROL Actions]** section, click **[!UICONTROL Add]**.
+1. **[!UICONTROL Actions]**&#x200B;セクションで、**[!UICONTROL Add]**&#x200B;をクリックします。
 
-1. From the **[!UICONTROL Extension]** drop-down, select **[!UICONTROL Mobile Core]**. 次 **[!UICONTROL Send PII]** に、ドロッ **[!UICONTROL Action type]** プダウン内です。
+1. **[!UICONTROL Extension]**&#x200B;ドロップダウンから&#x200B;**[!UICONTROL Mobile Core]**&#x200B;を選択します。 次に、**[!UICONTROL Action type]**&#x200B;ドロップダウンの&#x200B;**[!UICONTROL Send PII]**。
 
-1. に、次 **[!UICONTROL URL]**&#x200B;のURLを入力します。
+1. **[!UICONTROL URL]**&#x200B;に次のURLを入力します。
 
    ```
    https://{%%camp-server%%}/rest/head/mobileAppV5/{%%pkey%%}/subscriptions/{%%mcid%%}
    ```
 
-1. チェックボックスをオンに **[!UICONTROL Add Post Body]** します。
+1. **[!UICONTROL Add Post Body]**&#x200B;チェックボックスを選択します。
 
-1. に、次 **[!UICONTROL Post Body]**&#x200B;のように入力します。
+1. **[!UICONTROL Post Body]**&#x200B;に次のように入力します。
 
    ```
    {
@@ -132,111 +132,111 @@ PIIデータをに送信するに [!DNL Adobe Campaign Standard]は、次の場�
    }
    ```
 
-   で定義するデータ要素は、%%mcid%%のように重複の割合で囲み、アプリのコンテキスト変数は、%contextdata.email%のように1つの割合で囲む必要があります。 [!DNL Experience Platform Launch]
+   [!DNL Experience Platform Launch]で定義するデータ要素は、重複の割合（%%mcid%%など）で囲む必要があります。また、アプリのコンテキスト変数は、%contextdata.email%など、1つの割合で囲む必要があります。
 
-1. 「 **[!UICONTROL Content Type]** application/json **」と入力します**。
+1. **[!UICONTROL Content Type]**&#x200B;に、**application/json**&#x200B;と入力します。
 
-1. In **[!UICONTROL Timeout]**, select 0.
+1. **[!UICONTROL Timeout]**&#x200B;で、「0」を選択します。
 
    ![](assets/do-not-localize/rules_2.png)
 
 これで、ユーザーデータがキャンペーンに送信されるように設定されました。
 
-### アプリ内追跡ポストバック {#inapp-tracking-postback}
+### アプリ内トラッキングポストバック{#inapp-tracking-postback}
 
-モバイルアプリケーションでユーザーがアプリ内メッセージ [!DNL Adobe Campaign Standard] とどのようにやり取りするかに関するレポートを得るために、にトラッキングデータを送信するには、次のルールを作成し [!DNL Experience Platform Launch]ます。
+モバイルアプリケーションでユーザーがアプリ内メッセージをどのように操作するかに関するレポートを得るために、トラッキングデータを[!DNL Adobe Campaign Standard]に送信するには、[!DNL Experience Platform Launch]に次のルールを作成します。
 
-1. で、モバイルアプリケ [!DNL Experience Platform Launch]ーションダッシュボードから **[!UICONTROL Rules]** タブを選択し、をクリックし **[!UICONTROL Add Rule]**&#x200B;ます。
+1. [!DNL Experience Platform Launch]で、モバイルアプリケーションダッシュボードから「**[!UICONTROL Rules]**」タブを選択し、「**[!UICONTROL Add Rule]**」をクリックします。
 
-1. 名前を入力します(例： **Adobe Campaign — アプリ内クリック追跡**)。
+1. 名前を入力します(例：**Adobe Campaign — アプリ内クリック追跡**)。
 
-1. In the **[!UICONTROL Events]** section, click **[!UICONTROL Add]**.
+1. **[!UICONTROL Events]**&#x200B;セクションで、**[!UICONTROL Add]**&#x200B;をクリックします。
 
-1. From the **[!UICONTROL Extension]** drop-down, select **[!UICONTROL Adobe Campaign Standard]**. 次 **[!UICONTROL In-App click tracking]** に、ドロッ **[!UICONTROL Event type]** プダウン内です。
+1. **[!UICONTROL Extension]**&#x200B;ドロップダウンから&#x200B;**[!UICONTROL Adobe Campaign Standard]**&#x200B;を選択します。 次に、**[!UICONTROL Event type]**&#x200B;ドロップダウンの&#x200B;**[!UICONTROL In-App click tracking]**。
 
 1. 「**[!UICONTROL Keep changes]**」をクリックします。
 
-1. In the **[!UICONTROL Actions]** section, click **[!UICONTROL Add]**.
+1. **[!UICONTROL Actions]**&#x200B;セクションで、**[!UICONTROL Add]**&#x200B;をクリックします。
 
-1. From the **[!UICONTROL Extension]** drop-down, select **[!UICONTROL Mobile Core]**. 次 **[!UICONTROL Send postback]** に、ドロッ **[!UICONTROL Event type]** プダウン内です。
+1. **[!UICONTROL Extension]**&#x200B;ドロップダウンから&#x200B;**[!UICONTROL Mobile Core]**&#x200B;を選択します。 次に、**[!UICONTROL Event type]**&#x200B;ドロップダウンの&#x200B;**[!UICONTROL Send postback]**。
 
-1. に、次 **[!UICONTROL URL]**&#x200B;のURLを入力します。
+1. **[!UICONTROL URL]**&#x200B;に次のURLを入力します。
 
    ```
    https://{%%camp-server%%}/r/?id={%id%}&mcid={%%mcid%%}
    ```
 
-1. チェックボックスをオンに **[!UICONTROL Add post body]** します。
+1. **[!UICONTROL Add post body]**&#x200B;チェックボックスを選択します。
 
-1. に、 **[!UICONTROL Post Body]**{} **と入力します**。
+1. **[!UICONTROL Post Body]**&#x200B;に&#x200B;**{}**&#x200B;と入力します。
 
-1. 「 **[!UICONTROL Content Type]** application/json **」と入力します**。
+1. **[!UICONTROL Content Type]**&#x200B;に、**application/json**&#x200B;と入力します。
 
-1. In **[!UICONTROL Timeout]**, select 0.
+1. **[!UICONTROL Timeout]**&#x200B;で、「0」を選択します。
 
    ![](assets/do-not-localize/rules_3.png)
 
-### プッシュ通知追跡ポストバック {#push-tracking-postback}
+### プッシュ通知トラッキングポストバック{#push-tracking-postback}
 
-プッシュ通知配信 [!DNL Adobe Campaign Standard]やユーザーによるモバイルアプリケーションとのインタラクションを追跡できるように、にトラッキングデータを送信するには、でルールを作成する必要があり [!DNL Experience Platform Launch]ます。
+プッシュ通知配信およびユーザーによるモバイルアプリケーションとのインタラクションを追跡するのに役立つ追跡データを[!DNL Adobe Campaign Standard]に送信するには、[!DNL Experience Platform Launch]にルールを作成する必要があります。
 
-プッシュ追跡について詳しくは、 [プッシュ追跡を参照してください](../../administration/using/push-tracking.md)。
+プッシュ追跡について詳しくは、[プッシュ追跡](../../administration/using/push-tracking.md)を参照してください。
 
-アプリのアクションを追跡するには、trackAction APIを使用します。 詳しくは、「アプリのアクションを [追跡](https://app.gitbook.com/@aep-sdks/s/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#track-app-actions)」を参照してください。
+アプリのアクションを追跡するには、trackAction APIを使用します。 詳しくは、[アプリのアクションを追跡](https://app.gitbook.com/@aep-sdks/s/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#track-app-actions)を参照してください。
 
-1. で、モバイルアプリケ [!DNL Experience Platform Launch]ーションダッシュボードの **[!UICONTROL Rules]** タブをクリックし、をクリックし **[!UICONTROL Add Rule]**&#x200B;ます。
+1. [!DNL Experience Platform Launch]で、モバイルアプリケーションダッシュボードから「**[!UICONTROL Rules]**」タブをクリックし、「**[!UICONTROL Add Rule]**」をクリックします。
 
-1. 名前を入力します(例： **Adobe Campaign — プッシュクリック追跡**)。
+1. 名前を入力します(例：**Adobe Campaign — プッシュクリック追跡**)。
 
-1. In the **[!UICONTROL Events]** section, click **[!UICONTROL Add]**.
+1. **[!UICONTROL Events]**&#x200B;セクションで、**[!UICONTROL Add]**&#x200B;をクリックします。
 
-1. From the **[!UICONTROL Extension]** drop-down, select **[!UICONTROL Mobile Core]**. 次 **[!UICONTROL Track Action]** に、ドロッ **[!UICONTROL Event type]** プダウン内です。
+1. **[!UICONTROL Extension]**&#x200B;ドロップダウンから&#x200B;**[!UICONTROL Mobile Core]**&#x200B;を選択します。 次に、**[!UICONTROL Event type]**&#x200B;ドロップダウンの&#x200B;**[!UICONTROL Track Action]**。
 
-1. ドロップダウンから、 **[!UICONTROL Action]** を選択し **[!UICONTROL Action]**、を選択し **[!UICONTROL equals]**&#x200B;て、 **追跡を入力します**。
+1. 「**[!UICONTROL Action]**」ドロップダウンから「**[!UICONTROL Action]**」を選択し、「**[!UICONTROL equals]**」を選択して、「**追跡**」と入力します。
 
-1. 「**[!UICONTROL Keep changes]**」をクリックします。次に、 **[!UICONTROL Actions]** セクションでをクリックし **[!UICONTROL Add]**&#x200B;ます。
+1. 「**[!UICONTROL Keep changes]**」をクリックします。次に、**[!UICONTROL Actions]**&#x200B;セクションで&#x200B;**[!UICONTROL Add]**&#x200B;をクリックします。
 
-1. From the **[!UICONTROL Extension]** drop-down, select **[!UICONTROL Mobile Core]**. 次 **[!UICONTROL Send postback]** に、ドロッ **[!UICONTROL Action type]** プダウン内です。
+1. **[!UICONTROL Extension]**&#x200B;ドロップダウンから&#x200B;**[!UICONTROL Mobile Core]**&#x200B;を選択します。 次に、**[!UICONTROL Action type]**&#x200B;ドロップダウンの&#x200B;**[!UICONTROL Send postback]**。
 
-1. に、次 **[!UICONTROL URL]**&#x200B;のURLを入力します。
+1. **[!UICONTROL URL]**&#x200B;に次のURLを入力します。
 
    ```
    https://{%%camp-server%%}/r/?id={%contextdata.broadlogId%},{%contextdata.deliveryId%},{%contextdata.action%}&mcId={%%mcid%%}
    ```
 
-1. チェックボックスをオンに **[!UICONTROL Add post body]** します。
+1. **[!UICONTROL Add post body]**&#x200B;チェックボックスを選択します。
 
 1. 追加投稿本文（例： { }）。
 
-1. 「 **[!UICONTROL Content Type]** application/json **」と入力します**。
+1. **[!UICONTROL Content Type]**&#x200B;に、**application/json**&#x200B;と入力します。
 
-1. In **[!UICONTROL Timeout]**, select 0.
+1. **[!UICONTROL Timeout]**&#x200B;で、「0」を選択します。
 
-### 場所のポストバック {#location-postback}
+### ポストバック{#location-postback}
 
-1. で、モバイルアプリケ [!DNL Experience Platform Launch]ーションダッシュボードの **[!UICONTROL Rules]** タブをクリックし、をクリックし **[!UICONTROL Add Rule]**&#x200B;ます。
+1. [!DNL Experience Platform Launch]で、モバイルアプリケーションダッシュボードから「**[!UICONTROL Rules]**」タブをクリックし、「**[!UICONTROL Add Rule]**」をクリックします。
 
-1. 名前を入力します(例：「 **Location postback**」)。
+1. 名前を入力します（例：**ポストバック**）。
 
-1. In the **[!UICONTROL Events]** section, click **[!UICONTROL Add]**.
+1. **[!UICONTROL Events]**&#x200B;セクションで、**[!UICONTROL Add]**&#x200B;をクリックします。
 
-1. 例えば、POIと入力する、POIと入力する、POIと入力するなどのイベントを作成します。 ドロップダウンから **[!UICONTROL Extension]** 、 **[Places - Beta**]を選択します。 次に、ドロップダウンにPOI **** または **Exit POI****[!UICONTROL Event type]** と入力します。
+1. 例えば、POIと入力する、POIと入力する、POIと入力するなどのイベントを作成します。 「**[!UICONTROL Extension]**」ドロップダウンから「**場所 — ベータ版**」を選択します。 次に、****[!UICONTROL Event type]**ドロップダウンにPOI**&#x200B;または&#x200B;**出口POI**&#x200B;と入力します。
 
-1. 名前を入力します(例： **Places - Beta - Enter POI** 、 **Exit POI**)。
+1. 名前を入力します（例：**場所 — ベータ — POI**&#x200B;または&#x200B;**出口POI**）。
 
-1. In the **[!UICONTROL Actions]** section, click **[!UICONTROL Add]**.
+1. **[!UICONTROL Actions]**&#x200B;セクションで、**[!UICONTROL Add]**&#x200B;をクリックします。
 
-1. From the **[!UICONTROL Extension]** drop-down, select **[!UICONTROL Mobile Core]**. 次 **[!UICONTROL Send postback]** に、ドロップダウン **[!UICONTROL Action type]** から。
+1. **[!UICONTROL Extension]**&#x200B;ドロップダウンから&#x200B;**[!UICONTROL Mobile Core]**&#x200B;を選択します。 次に、**[!UICONTROL Action type]**&#x200B;ドロップダウンから&#x200B;**[!UICONTROL Send postback]**&#x200B;を選択します。
 
-1. 名前を入力します(例： **Mobile Core - Send Location Postback**)。
+1. 名前を入力します（例：**Mobile Core - Send Location Postback**）。
 
-1. に、次 **[!UICONTROL URL]**&#x200B;のURLを入力します。
+1. **[!UICONTROL URL]**&#x200B;に次のURLを入力します。
 
    ```
    https://{%%camp-server%%}/rest/head/mobileAppV5/{%%pkey%%}/locations/
    ```
 
-1. この **[!UICONTROL Add post body]** チェックボックスを選択し、投稿本文を追加します。次に例を示します。
+1. **[!UICONTROL Add post body]**&#x200B;チェックボックスを選択し、投稿本文を追加します。例：
 
    ```
    {
@@ -253,10 +253,10 @@ PIIデータをに送信するに [!DNL Adobe Campaign Standard]は、次の場�
 
    >[!NOTE]
    >
-   >上の例では、データ要素の [!DNL Experience Platform Launch] 作成の手順を利用して、右側のデータ要素をで設定する必要があり [ます](../../administration/using/configuring-rules-launch.md#create-data-elements)。 左側のデータ要素はでサポートされてい [!DNL Adobe Campaign Standard] るので、設定は不要です。 追加のデータが必要な場合は、でカスタムリソース拡張を実行する必要があり [!DNL Adobe Campaign Standard]ます。
+   >上の例では、[データ要素の作成](../../administration/using/configuring-rules-launch.md#create-data-elements)の手順を活用して、右側のデータ要素を[!DNL Experience Platform Launch]に設定する必要があります。 左側のデータ要素は[!DNL Adobe Campaign Standard]でサポートされており、設定は不要です。 追加のデータが必要な場合は、[!DNL Adobe Campaign Standard]でカスタムリソース拡張を行う必要があります。
 
-1. 「 **[!UICONTROL Content Type]** application/json **」と入力します**。
+1. **[!UICONTROL Content Type]**&#x200B;に、**application/json**&#x200B;と入力します。
 
-1. In **[!UICONTROL Timeout]**, select 5.
+1. **[!UICONTROL Timeout]**&#x200B;で、「5」を選択します。
 
    ![](assets/do-not-localize/rules_4.png)
