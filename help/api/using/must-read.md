@@ -9,13 +9,13 @@ topic-tags: campaign-standard-apis
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 
-# Must-Read {#must-read}
+# 必ず読む{#must-read}
 
 ## 技術要件
 
@@ -25,13 +25,13 @@ ht-degree: 0%
 
 ## リソースの表現
 
-すべてのAPIリソースは、URL拡張子が付いた **JSON** 、またはHTTP Accept Header内で使用できます。
+すべてのAPIリソースは、URL拡張子が付いた&#x200B;**JSON**&#x200B;で、またはHTTP Accept Header内で入手できます。
 
 `GET /profileAndServices/<resourceName>.json`
 
 >[!NOTE]
 >
->URLに拡張子がない場合、 **json形式はcontent-typeのデフォルトの形式です** 。
+>URLに拡張子がない場合、**json形式はcontent-typeのデフォルトの形式です**。
 
 <br/>
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 * Adobe Campaignが生成する自動プライマリキーの値を、外部のデータベースまたはWebサイトに保存しないでください。 データベース定義で特定のキーフィールドを生成し、開発時に使用する必要があります。
 
-## カスタムキー {#custom-keys}
+## カスタムキー{#custom-keys}
 
 プロファイルリソースがカスタムキーフィールドを使用して拡張されている場合は、Adobe Campaignが生成する自動プライマリキーの代わりに、このフィールドをキーとして使用できます。
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 キーの値が接触チャネルキーと異なる場合や、Adobeが提供するキーではなく独自のビジネスキーをURIとして使用している場合は、PATCH操作を使用してカスタムキーを変更することはできません。
 
-カスタムキーは、 **最上位プロファイルリソースに対してのみ使用し** ます。 URLはAPIから返されるので、決して自分で作成しないでください。
+**トップレベルのプロファイルリソース**&#x200B;に対してのみ、カスタムキーを使用します。 URLはAPIから返されるので、決して自分で作成しないでください。
 
 <br/>
 
