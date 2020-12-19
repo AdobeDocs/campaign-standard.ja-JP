@@ -9,15 +9,15 @@ topic-tags: campaign-standard-apis
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # カスタムリソースの操作 {#interacting-with-custom-resources}
 
-**/customResources** エンドポイントを使用すると、ACSカスタムリソースをRESTで公開できます。 このAPIに基づき、カスタムエンティティと外部エンドポイントの統合を利用できます。
+**/customResources**&#x200B;エンドポイントを使用すると、ACSカスタムリソースをRESTで公開できます。 このAPIに基づき、カスタムエンティティと外部エンドポイントの統合を利用できます。
 
 /customResourcesエンドポイントの動作は、/profileAndServicesエンドポイントとまったく同じです。
 
@@ -44,5 +44,5 @@ POST /customResources/<customResourceName>
 
 >[!NOTE]
 >プライバシーAPIエンドポイントとワークフロー(/privacy/privacyTool)は、プロファイルエンティティにリンクされていないカスタムリソースを管理していません。
->これらのカスタムリソースのPIIを管理およびクリーンアップする責任はあります。 プライバシーツールの詳細については、 [ここをクリックしてください](../../api/using/creating-a-privacy-request.md)。
+>これらのカスタムリソースのPIIを管理およびクリーンアップする責任はあります。 プライバシーツールの詳細については、[ここ](../../api/using/creating-a-privacy-request.md)をクリックしてください。
 
