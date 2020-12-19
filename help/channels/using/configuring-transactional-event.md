@@ -11,12 +11,12 @@ translation-type: tm+mt
 source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
 workflow-type: tm+mt
 source-wordcount: '1672'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
 
-# トランザクションイベントの設定{#configuring-transactional-event}
+# トランザクションイベントの設定 {#configuring-transactional-event}
 
 Adobe Campaign付きのトランザクションメッセージを送信するには、まずイベントを作成し、設定してイベントデータの構造を説明する必要があります。
 
