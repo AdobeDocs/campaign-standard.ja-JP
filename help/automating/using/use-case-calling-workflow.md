@@ -23,19 +23,19 @@ ht-degree: 1%
 
 この使用例を実行するには、次の操作を実行する必要があります。
 
-1. **外部パラメーターを使用してワークフロー** 1をトリガーするAPI呼び出しを行います。 詳しくは、 [手順1を参照してください。API呼び出しの設定](../../automating/using/use-case-calling-workflow.md#step-1--configuring-the-api-call)。
-1. **ワークフロー1の構築**:ワークフローはファイルを転送し、データベースに読み込みます。 その後、データが空かどうかをテストし、最終的にプロファイルをオーディエンスに保存します。 最後に、ワークフロー2がトリガーされます。 手順2を参照 [してください。ワークフロー1の設定](../../automating/using/use-case-calling-workflow.md#step-2--configuring-workflow-1)。
-1. **ワークフローの構築2**:ワークフローは、Workflow 1で作成されたオーディエンスを読み取り、プロファイルにパーソナライズされたメッセージを送信します。パラメーターと共にカスタマイズされたセグメントコードーが含まれます。 詳しくは、 [手順3を参照してください。ワークフローの設定2](../../automating/using/use-case-calling-workflow.md#step-3--configuring-workflow-2)。
+1. **外部パラメーターを使用してワークフロー1をトリガーするAPI** 呼び出しを作成します。[手順1を参照：API呼び出し](../../automating/using/use-case-calling-workflow.md#step-1--configuring-the-api-call)を設定する
+1. **ワークフロー1の構築**:ワークフローはファイルを転送し、データベースに読み込みます。その後、データが空かどうかをテストし、最終的にプロファイルをオーディエンスに保存します。 最後に、ワークフロー2がトリガーされます。 [手順2を参照：ワークフロー1](../../automating/using/use-case-calling-workflow.md#step-2--configuring-workflow-1)を設定しています。
+1. **ワークフローの構築2**:ワークフローは、Workflow 1で作成されたオーディエンスを読み取り、プロファイルにパーソナライズされたメッセージを送信します。パラメーターと共にカスタマイズされたセグメントコードーが含まれます。[手順3を参照：ワークフロー2](../../automating/using/use-case-calling-workflow.md#step-3--configuring-workflow-2)を設定しています。
 
 ![](assets/extsignal_uc_process.png)
 
 ## 前提条件 {#prerequisites}
 
-ワークフローを設定する前に、それぞれにアクティビティを含むワークフロー1と2を作成する必要があり **[!UICONTROL External signal]** ます。 これにより、ワークフローの呼び出し時にこれらのシグナルアクティビティをターゲットできます。
+ワークフローを設定する前に、それぞれに&#x200B;**[!UICONTROL External signal]**&#x200B;アクティビティを含むWorkflow 1と2を作成する必要があります。 これにより、ワークフローの呼び出し時にこれらのシグナルアクティビティをターゲットできます。
 
-## 手順1:API呼び出しの設定 {#step-1--configuring-the-api-call}
+## 手順1:API呼び出しの設定{#step-1--configuring-the-api-call}
 
-API呼び出しを行い、パラメーターを使用してワークフロー1をトリガーします。 API呼び出しの構文について詳しくは、 [Campaign StandardREST APIのドキュメントを参照してください](../../api/using/triggering-a-signal-activity.md)。
+API呼び出しを行い、パラメーターを使用してワークフロー1をトリガーします。 API呼び出しの構文について詳しくは、[Campaign StandardREST APIのドキュメント](../../api/using/triggering-a-signal-activity.md)を参照してください。
 
 この場合、以下のパラメーターを使用してワークフローを呼び出します。
 
@@ -58,7 +58,7 @@ API呼び出しを行い、パラメーターを使用してワークフロー1�
 -d } 
 ```
 
-## 手順2:ワークフローの設定1 {#step-2--configuring-workflow-1}
+## 手順2:ワークフロー1の構成{#step-2--configuring-workflow-1}
 
 ワークフロー1は次のように構築されます。
 
@@ -74,12 +74,12 @@ API呼び出しを行い、パラメーターを使用してワークフロー1�
 
 次の手順に従って、ワークフローを設定します。
 
-1. API呼び出しで定義されたパラメーターを宣言します。 これを行うには、 **[!UICONTROL External signal]** アクティビティを開き、パラメーターの名前とタイプを追加します。
+1. API呼び出しで定義されたパラメーターを宣言します。 これを行うには、**[!UICONTROL External signal]**&#x200B;アクティビティを開き、パラメーターの名前と型を追加します。
 
    ![](assets/extsignal_uc1.png)
 
-1. データをデータベースにインポートする **[!UICONTROL Transfer file]** アクティビティです。これを行うには、アクティビティをドラッグ&amp;ドロップして開き、 **[!UICONTROL Protocol]** タブを選択します。
-1. この **[!UICONTROL Use a dynamic file path]** オプションを選択し、 **fileToTarget** パラメーターを転送するファイルとして使用します。
+1. データをデータベースにインポートする追加&#x200B;**[!UICONTROL Transfer file]**&#x200B;アクティビティ。これを行うには、アクティビティをドラッグ&amp;ドロップして開き、「**[!UICONTROL Protocol]**」タブを選択します。
+1. **[!UICONTROL Use a dynamic file path]**&#x200B;オプションを選択し、**fileToTarget**&#x200B;パラメーターを転送するファイルとして使用します。
 
    ```
    $(vars/@fileToTarget)
@@ -89,19 +89,19 @@ API呼び出しを行い、パラメーターを使用してワークフロー1�
 
 1. ファイルからデータベースにデータを読み込みます。
 
-   これを行うには、ワークフローに **[!UICONTROL Load file]** アクティビティをドラッグ&amp;ドロップし、必要に応じて設定します。
+   これを行うには、**[!UICONTROL Load file]**&#x200B;アクティビティをワークフローにドラッグ&amp;ドロップし、必要に応じて設定します。
 
 1. インポートしたファイルのデータを使用してデータベースを挿入し、更新します。
 
-   これを行うには、 **[!UICONTROL Update data]** アクティビティをドラッグ&amp;ドロップし、 **[!UICONTROL Identification]** タブを選択して調整条件(この場合は **電子メール** フィールド)を追加します。
+   これを行うには、**[!UICONTROL Update data]**&#x200B;アクティビティをドラッグ&amp;ドロップし、「**[!UICONTROL Identification]**」タブを選択して調整条件を追加します（この例では、**email**&#x200B;フィールド）。
 
    ![](assets/extsignal_uc3.png)
 
-1. 「 **[!UICONTROL Fields to update]** 」タブを選択し、データベースで更新するフィールド( **firstname** フィールドと **email** フィールド)を指定します。
+1. 「**[!UICONTROL Fields to update]**」タブを選択し、データベースで更新するフィールドを指定します（この例では、**firstname**&#x200B;と&#x200B;**email**&#x200B;の各フィールド）。
 
    ![](assets/extsignal_uc4.png)
 
-1. データがファイルから取得されるかどうかを確認します。 これを行うには、ワークフローに **[!UICONTROL Test]** アクティビティをドラッグ&amp;ドロップし、ボタンをクリックして条件を追加し **[!UICONTROL Add an element]** ます。
+1. データがファイルから取得されるかどうかを確認します。 これを行うには、**[!UICONTROL Test]**&#x200B;アクティビティをワークフローにドラッグ&amp;ドロップし、**[!UICONTROL Add an element]**&#x200B;ボタンをクリックして条件を追加します。
 1. 条件に名前を付けて定義します。 この場合、アウトバウンドトランジションに次の構文のデータが含まれているかどうかをテストします。
 
    ```
@@ -110,8 +110,8 @@ API呼び出しを行い、パラメーターを使用してワークフロー1�
 
    ![](assets/extsignal_uc5.png)
 
-1. データが取得された場合は、オーディエンスに保存します。 これを行うには、空ではない **[!UICONTROL Save audience]** ターゲットに **** アクティビティを追加し、トランジションを開きます。
-1. この **[!UICONTROL Use a dynamic label]** オプションを選択し、 **fileToTarget** オーディエンスーのラベルとして使用します。
+1. データが取得された場合は、オーディエンスに保存します。 これを行うには、**[!UICONTROL Save audience]**&#x200B;アクティビティを&#x200B;**ターゲットに追加し、空ではない**&#x200B;トランジションを開きます。
+1. **[!UICONTROL Use a dynamic label]**&#x200B;オプションを選択し、**fileToTarget**&#x200B;パラメーターをオーディエンスのラベルとして使用します。
 
    ```
    $(vars/@fileToTarget)
@@ -119,17 +119,17 @@ API呼び出しを行い、パラメーターを使用してワークフロー1�
 
    ![](assets/extsignal_uc6.png)
 
-1. Workflow 2を呼び出すアクティビティをパラメーターと共にドラッグ&amp;ドロップし、開きます。 **[!UICONTROL End]**
-1. タブを選択し、トリガするワークフローとそれに関連する信号アクティビティを指定し **[!UICONTROL External signal]** ます。
+1. **[!UICONTROL End]**&#x200B;アクティビティをドラッグ&amp;ドロップし、パラメーターを指定してWorkflow 2を呼び出してから開きます。
+1. 「**[!UICONTROL External signal]**」タブを選択し、トリガするワークフローとそれに関連する信号アクティビティを指定します。
 1. ワークフロー2内で使用するパラメーターと、それに関連する値を定義します。
 
-   この例では、最初にAPI呼び出しで定義されたパラメーター(**fileToTarget** と **discountDesc**)と、追加の **segmentCode** パラメーター(「20% discount」)を一定値で渡します。
+   この場合、API呼び出しで元々定義されていたパラメーター（**fileToTarget**&#x200B;と&#x200B;**discountDesc**）と、定数値(&quot;20% discount&quot;)を持つ追加の&#x200B;**segmentCode**&#x200B;パラメーターを渡します。
 
    ![](assets/extsignal_uc7.png)
 
-ワークフロー1が設定され、ワークフロー2を構築できるようになりました。 詳しくは、[この節](../../automating/using/use-case-calling-workflow.md#step-3--configuring-workflow-2)を参照してください。
+ワークフロー1が設定され、ワークフロー2を構築できるようになりました。 詳しくは、[こちらの節](../../automating/using/use-case-calling-workflow.md#step-3--configuring-workflow-2)を参照してください。
 
-## 手順3:ワークフローの設定2 {#step-3--configuring-workflow-2}
+## 手順3:ワークフロー2の構成{#step-3--configuring-workflow-2}
 
 ワークフロー2は次のように構築されます。
 
@@ -143,12 +143,12 @@ API呼び出しを行い、パラメーターを使用してワークフロー1�
 
 1. ワークフロー1で定義したパラメーターを宣言します。
 
-   これを行うには、 **[!UICONTROL External signal]** アクティビティを開き、ワークフロー1の **[!UICONTROL End]** アクティビティで定義されている各パラメータの名前とタイプを追加します。
+   これを行うには、**[!UICONTROL External signal]**&#x200B;アクティビティを開き、Workflow 1の&#x200B;**[!UICONTROL End]**&#x200B;アクティビティで定義されている各パラメーターの名前とタイプを追加します。
 
    ![](assets/extsignal_uc8.png)
 
-1. ワークフロー1に保存されたオーディエンスを使用します。 これを行うには、ワークフロー内に **[!UICONTROL Read audience]** アクティビティをドラッグ&amp;ドロップしてから開きます。
-1. この **[!UICONTROL Use a dynamic audience]** オプションを選択し、読み取るオーディエンスの名前として **fileToTarget** パラメーターを使用します。
+1. ワークフロー1に保存されたオーディエンスを使用します。 これを行うには、**[!UICONTROL Read audience]**&#x200B;アクティビティをワークフローにドラッグ&amp;ドロップし、開きます。
+1. **[!UICONTROL Use a dynamic audience]**&#x200B;オプションを選択し、**fileToTarget**&#x200B;パラメーターを読み取るオーディエンスの名前として使用します。
 
    ```
    $(vars/@fileToTarget)
@@ -156,11 +156,11 @@ API呼び出しを行い、パラメーターを使用してワークフロー1�
 
    ![](assets/extsignal_uc9.png)
 
-1. segmentCodeパラメーターに従って、送信トランジションに **名前を付けます** 。
+1. **segmentCode**&#x200B;トランジションーに従って送信パラメーターに名前を付けます。
 
-   To do this, select the **[!UICONTROL Transition]** tab, then the **[!UICONTROL Use a dynamic segment code]** option.
+   これを行うには、「**[!UICONTROL Transition]**」タブを選択し、「**[!UICONTROL Use a dynamic segment code]**」オプションを選択します。
 
-1. 外部トランジションの名前として **segmentCode** パラメーターを使用します。
+1. **segmentCode**&#x200B;パラメーターを送信トランジションの名前として使用します。
 
    ```
    $(vars/@segmentCode)
@@ -168,17 +168,17 @@ API呼び出しを行い、パラメーターを使用してワークフロー1�
 
    ![](assets/extsignal_uc10.png)
 
-1. メッセージをオーディエンスに送信するには、 **[!UICONTROL Email delivery]** アクティビティをドラッグ&amp;ドロップします。
-1. メッセージで使用するパラメータを指定し、discountDesc **** パラメータを使用してパーソナライズします。 これを行うには、アクティビティの詳細オプションを開き、パラメータ名と値を追加します。
+1. **[!UICONTROL Email delivery]**&#x200B;アクティビティをドラッグ&amp;ドロップして、オーディエンスにメッセージを送信します。
+1. メッセージで使用するパラメーターを指定し、**discountDesc**&#x200B;パラメーターを使用してカスタマイズします。 これを行うには、アクティビティの詳細オプションを開き、パラメータ名と値を追加します。
 
    ![](assets/extsignal_uc10b.png)
 
-1. これで、メッセージを設定できます。 アクティビティを開き、を選択し **[!UICONTROL Recurring email]**&#x200B;ます。
+1. これで、メッセージを設定できます。 アクティビティを開き、**[!UICONTROL Recurring email]**&#x200B;を選択します。
 
    ![](assets/extsignal_uc11.png)
 
 1. 使用するテンプレートを選択し、必要に応じて電子メールのプロパティを定義します。
-1. パーソナライゼーションフィールドとして **discountDesc** パラメータを使用します。 これを行うには、パーソナライゼーションフィールドリストから選択します。
+1. **discountDesc**&#x200B;パラメーターをパーソナライゼーションフィールドとして使用します。 これを行うには、パーソナライゼーションフィールドリストから選択します。
 
    ![](assets/extsignal_uc13.png)
 
@@ -186,6 +186,6 @@ API呼び出しを行い、パラメーターを使用してワークフロー1�
 
    ![](assets/extsignal_uc14.png)
 
-## ワークフローの実行 {#executing-the-workflows}
+## ワークフロー{#executing-the-workflows}の実行
 
 ワークフローを構築したら、それらを実行できます。 API呼び出しを実行する前に、2つのワークフローが起動していることを確認します。
