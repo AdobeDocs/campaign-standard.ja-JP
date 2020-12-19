@@ -105,7 +105,7 @@ ht-degree: 93%
 
 1. データの読み込み元のファイルが圧縮されて GZIP ファイル（.gz）になっている場合は、「**[!UICONTROL Add a pre-processing step]**」フィールドで「**[!UICONTROL Decompression]**」オプションを選択します。これにより、データを読み込む前にファイルを解凍できます。このオプションは、ファイルがアクティビティの受信トランジションから送信されている場合にのみ使用できます。
 
-   また、この **[!UICONTROL Add a pre-processing step]** フィールドでは、ファイルをデータベースにインポートする前に、そのファイルを復号化することもできます。 For more on how to work with encrypted files, refer to [this section](../../automating/using/managing-encrypted-data.md)
+   **[!UICONTROL Add a pre-processing step]**&#x200B;フィールドでは、ファイルをデータベースにインポートする前に、ファイルを復号化することもできます。 暗号化されたファイルの使い方について詳しくは、[この](../../automating/using/managing-encrypted-data.md)を参照してください。
 
 1. 「**[!UICONTROL Keep the rejects in a file]**」オプションを使用すると、インポート中に発生したエラーが含まれるファイルをダウンロードし、後処理段階でそのファイルに適用することができます。このオプションを有効にすると、送信トランジションの名前が「却下」に変更されます。
 
