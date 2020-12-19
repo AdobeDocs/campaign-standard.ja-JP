@@ -9,8 +9,8 @@ topic-tags: campaign-standard-apis
 translation-type: tm+mt
 source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
 workflow-type: tm+mt
-source-wordcount: '678'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -138,7 +138,7 @@ POSTリクエストへの応答。
 
 * **保留中**:イベントは保留中です。イベントは、トリガーされたときにこのステータスを引き継ぎます。
 * **処理**:イベントは配信待ちです。メッセージに変換中で、メッセージが送信中です。
-* **一時停止**:イベントプロセスを一時停止中です。処理は行われなくなり、Adobe Campaignデータベースのキューに保存されます。 詳しくは、[この節](../../channels/using/publishing-transactional-message.md#suspending-a-transactional-message-publication)を参照してください。
+* **一時停止**:イベントプロセスを一時停止中です。処理は行われなくなり、Adobe Campaignデータベースのキューに保存されます。 詳しくは、[こちらの節](../../channels/using/publishing-transactional-message.md#suspending-a-transactional-message-publication)を参照してください。
 * **処理済み**:イベントが処理され、メッセージが正常に送信されました。
 * **ignored**:このイベントは配信によって無視されました。通常、アドレスが強制隔離の場合です。
 * **deliveryFailed**:イベントの処理中に配信エラーが発生しました。
