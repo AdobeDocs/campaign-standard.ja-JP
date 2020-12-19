@@ -9,13 +9,13 @@ topic-tags: editing-email-content
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 8%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# レガシーエディターの電子メールコンテンツの変換 {#converting-an-html-content}
+# レガシーエディターの電子メールコンテンツを変換{#converting-an-html-content}
 
 電子メールデザイナーで作業する際に開始が発生した場合は、レガシーエディターで作成した電子メールHTMLから、再利用可能なテンプレートやフラグメントを作成してください。
 
@@ -37,7 +37,7 @@ ht-degree: 8%
 
 ## 電子メール構造の作成
 
-1. を開き、空の電子メールコンテンツ **[!UICONTROL Email Designer]** を作成します。
+1. **[!UICONTROL Email Designer]**&#x200B;を開いて、空の電子メールコンテンツを作成します。
 1. ボディレベルの属性を設定します。背景色、幅など 詳しくは、[メールスタイルの編集](../../designing/using/styles.md)を参照してください。
 1. 断追加面を持つ構造コンポーネントの数と同じ数 詳しくは、[メール構造の編集](../../designing/using/designing-from-scratch.md#defining-the-email-structure)を参照してください。
 
@@ -46,9 +46,9 @@ ht-degree: 8%
 1. 各構造コンポ追加ーネントに対するHTMLコンポーネント。 詳しくは、[フラグメントとコンポーネントの追加](../../designing/using/designing-from-scratch.md#defining-the-email-structure)を参照してください。
 1. HTMLをすべてのコンポーネントにコピー&amp;ペーストします。
 
-## 電子メールのスタイルの管理 {#manage-the-style-of-your-email}
+## 電子メールのスタイルを管理{#manage-the-style-of-your-email}
 
-1. Switch to **[!UICONTROL Mobile view]**. 詳しくは、[この節](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)を参照してください。
+1. **[!UICONTROL Mobile view]**&#x200B;に切り替えます。 詳しくは、[この節](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)を参照してください。
 
 1. これを修正するには、ソースコードモードに切り替えて、スタイルセクションを新しいスタイルセクションにコピー&amp;ペーストします。 例：
 
@@ -78,7 +78,7 @@ ht-degree: 8%
 
 ## 使用例
 
-レガシーエディターで作成したこの電子メールをテン **[!UICONTROL Email Designer]** プレートに変換してみましょう。
+レガシーエディターで作成したこの電子メールを&#x200B;**[!UICONTROL Email Designer]**&#x200B;テンプレートに変換してみましょう。
 
 ### 電子メールのセクションを特定する
 
@@ -90,11 +90,11 @@ HTMLのどのセクションかを識別するために、要素を選択でき�
 
 ![](assets/breadcrumbs.png)
 
-電子メールのHTMLバージョンを表示するには、をクリックし **[!UICONTROL Show source]**&#x200B;ます。
+電子メールのHTMLバージョンを表示するには、**[!UICONTROL Show source]**&#x200B;をクリックします。
 
 ### 電子メールテンプレートとその構造の作成
 
-1. 電子メールのレイアウトを **[!UICONTROL Structure components]** 反映してドラッグ&amp;ドロップします。
+1. 電子メールのレイアウトを反映して&#x200B;**[!UICONTROL Structure components]**&#x200B;をドラッグ&amp;ドロップします。
 
 1. 必要な回数だけ繰り返します。 11個の構造コンポーネントを作る必要があります
 
@@ -102,11 +102,11 @@ HTMLのどのセクションかを識別するために、要素を選択でき�
 
 ### HTMLコンテンツコンポーネントの挿入
 
-1. の各ファイル **[!UICONTROL HTML component]** にを挿入し **[!UICONTROL Structure component]** ます。
+1. 各&#x200B;**[!UICONTROL Structure component]**&#x200B;に&#x200B;**[!UICONTROL HTML component]**&#x200B;を挿入します。
 
    ![](assets/html-components.png)
 
-1. 各セクションで、をクリックし **[!UICONTROL Show source code]** ます。
+1. 各セクションに対して、**[!UICONTROL Show source code]**&#x200B;をクリックします。
 
    ![](assets/show-source-code.png)
 
@@ -124,6 +124,6 @@ HTMLのどのセクションかを識別するために、要素を選択でき�
 
 1. ソースコードに切り替え、スタイルセクションを新しいスタイルセクションにコピー&amp;ペーストします。
 
-詳しくは、「電子メールのスタイルの [管理](#manage-the-style-of-your-email)」を参照してください。
+詳しくは、[電子メールのスタイルの管理](#manage-the-style-of-your-email)を参照してください。
 
 従来の電子メールが電子メールデザイナーで使用できるようになりました。
