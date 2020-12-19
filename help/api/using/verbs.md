@@ -9,13 +9,13 @@ topic-tags: campaign-standard-apis
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 
-# GET/POST/PATCH/DELETE動詞 {#verbs}
+# GET/POST/PATCH/DELETE動詞{#verbs}
 
 リソースに対して操作を実行するために使用できる動詞は次のとおりです。
 
