@@ -19,7 +19,7 @@ ht-degree: 26%
 
 1. 詳細設定メニューの Adobe Campaign ロゴから、**[!UICONTROL Administration]**／**[!UICONTROL Development]**／**[!UICONTROL Publication]** を選択します。
 1. 「**[!UICONTROL Prepare Publication]**」ボタンをクリックします。
-1. Select the **[!UICONTROL Create the Profiles & Services Ext API]** option.
+1. **[!UICONTROL Create the Profiles & Services Ext API]**&#x200B;オプションを選択します。
 
    ![](assets/create-profile-and-services-api.png)
 
@@ -27,7 +27,7 @@ ht-degree: 26%
    >
    >APIが既に公開されている場合（つまり、このリソースまたは他のリソースに対して、このオプションを1回既にチェックしている場合）、APIの更新が強制的に行われます。
 
-1. タブをクリックし **[!UICONTROL Profiles & Services API Preview]** ます。
+1. 「**[!UICONTROL Profiles & Services API Preview]**」タブをクリックします。
 
    これは、APIのパブリケーションがprofilesAndServicesExt APIの現在のバージョンに適用する変更を示します。
 
