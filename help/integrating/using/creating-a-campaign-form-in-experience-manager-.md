@@ -9,8 +9,8 @@ topic-tags: working-with-campaign-and-experience-manager
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 12%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,15 +21,15 @@ AEMサイトで「フォーム」を作成し、フォーム内のフィール�
 
 AEMサイトでAdobe Campaignフォームを作成するには：
 
-1. AEMサイトで、 **Adobe Campaignプロファイルテンプレートに基づいて新しいページを作成します** 。
+1. AEMサイトで、**Adobe Campaignプロファイル**&#x200B;テンプレートを基にして新しいページを作成します。
 
    ![](assets/aem_content_forms.png)
 
-1. In the page properties, select the **[!UICONTROL Cloud Service]** corresponding to your Adobe Campaign instance.
+1. ページのプロパティで、Adobe Campaignインスタンスに対応する&#x200B;**[!UICONTROL Cloud Service]**&#x200B;を選択します。
 
    ![](assets/aem_content_forms_2.png)
 
-1. コンポーネントからフォームタイプを選択し **[!UICONTROL Form Start]** ます。
+1. **[!UICONTROL Form Start]**&#x200B;コンポーネントからフォームタイプを選択します。
 
    * **Adobe Campaign:プロファイルの保存**
    * **Adobe Campaign:サービスの購読**
