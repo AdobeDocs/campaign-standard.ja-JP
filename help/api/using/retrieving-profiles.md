@@ -17,9 +17,9 @@ ht-degree: 4%
 
 # プロファイルの取得 {#retrieving-profiles}
 
-プロファイルの取得は、 **GET** 要求で行われます。
+プロファイルの検索は、**GET**&#x200B;リクエストで実行されます。
 
-その後、フィルター、順序、ページネーションを使用して、検索結果を絞り込むことができます。 For more on this, refer to the [Additional operations](../../api/using/sorting.md) section.
+その後、フィルター、順序、ページネーションを使用して、検索結果を絞り込むことができます。 詳しくは、「[追加の操作](../../api/using/sorting.md)」の節を参照してください。
 
 <br/>
 
