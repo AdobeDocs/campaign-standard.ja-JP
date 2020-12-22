@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: 0092ad11314fab232663f558ca6635b8fcc03133
+source-git-commit: 5758e5f0f6811a97f51e995fa3c378a7c7117ff5
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '742'
+ht-degree: 66%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 ### 製品リスト
 
-製品リストは、トランザクション&#x200B;**電子メールメッセージ**&#x200B;でのみ利用できます。 詳しくは、[トランザクションメッセージでの製品リストの使用](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message)を参照してください。
+製品リストは、トランザクション&#x200B;**電子メールメッセージ**&#x200B;でのみ利用できます。 詳しくは、[トランザクションメッセージでの製品リストの使用](../../designing/using/using-product-listings.md)を参照してください。
 
 ## ブランディング {#permissions-and-branding}
 
