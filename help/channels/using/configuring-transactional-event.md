@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
+source-git-commit: 5758e5f0f6811a97f51e995fa3c378a7c7117ff5
 workflow-type: tm+mt
 source-wordcount: '1672'
 ht-degree: 7%
@@ -68,7 +68,7 @@ Adobe Campaign付きのトランザクションメッセージを送信するに
 
 イベントコンテンツに、要素の集まりを追加できます。各要素には、複数の属性が含まれます。
 
-このコレクションは、メッセージの内容に[商品リスト](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message)を追加するためのトランザクション用電子メールで使用できます。例えば、商品のリスト（価格、参照番号、数量など）が含まれます。 をリストの各製品に対して設定します。
+このコレクションは、メッセージの内容に[商品リスト](../../designing/using/using-product-listings.md)を追加するためのトランザクション用電子メールで使用できます。例えば、商品のリスト（価格、参照番号、数量など）が含まれます。 をリストの各製品に対して設定します。
 
 1. 「**[!UICONTROL Collections]**」セクションで、「**[!UICONTROL Create element]**」ボタンをクリックします。
 
@@ -96,7 +96,7 @@ Adobe Campaign付きのトランザクションメッセージを送信するに
 **関連トピック：**
 
 * [イベントのプレビューと公開](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
-* [トランザクションメッセージでの製品リストの使用](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message)
+* [トランザクションメッセージでの製品リストの使用](../../designing/using/using-product-listings.md)
 * [トランザクションメッセージの公開](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)
 
 ## イベントを強化{#enriching-the-transactional-message-content}
