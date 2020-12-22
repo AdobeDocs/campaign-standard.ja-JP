@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 3d271b7125a382f7864857df4541a6be28894992
+source-git-commit: 77abbdf824be705b0a3409442e45d28dc0abaa2f
 workflow-type: tm+mt
-source-wordcount: '6357'
-ht-degree: 99%
+source-wordcount: '6372'
+ht-degree: 98%
 
 ---
 
@@ -21,13 +21,19 @@ ht-degree: 99%
 
 ## 2020 年 12 月 {#doc-updates-december-2020}
 
-トランザクションメッセージングセクションは再編成、改善され、詳細な説明を加え、[拡張スキーマ](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle)と[エンドツーエンドの使用例](../../channels/using/transactional-messaging-use-case.md)を含む「はじめに」の節を明確にしました。 [詳細を表示](../../channels/using/getting-started-with-transactional-msg.md)
+**予測サブジェクト** のLinecapabilityは廃止されました。[詳細を表示](../../rn/using/deprecated-features.md)
 
-プライバシー節は移動しました。 [詳細を表示](../../start/using/privacy.md)
+「**トランザクションメッセージ**&#x200B;はじめに」セクションには、[拡張スキーマ](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle)と、導入プロセスを示す[エンドツーエンドの使用例](../../channels/using/transactional-messaging-use-case.md)が含まれるようになりました。 [詳細を表示](../../channels/using/getting-started-with-transactional-msg.md)
 
-Adobe Campaign Standard のワークスペースにおけるアクセシビリティのサポートについて詳しく説明するアクセシビリティ関連ページが新しく追加されました。 [詳細を表示](../../start/using/accessibility.md)
+**プライバシー**&#x200B;セクションは[ここ](../../start/using/privacy.md)に移動されました。
 
-トランザクションメッセージの節に、最適なパフォーマンスを得るために、公開トランザクションメッセージ数は100未満に抑える必要があるという新しい制限が追加されました。 [詳細を表示](../../channels/using/transactional-messaging-limitations.md#transactional-message-number)
+新しい&#x200B;**アクセシビリティ**&#x200B;ページが利用できます。adobe campaign standardワークスペースでのアクセシビリティのサポートの詳細を示します。 [詳細を表示](../../start/using/accessibility.md)
+
+最適なパフォーマンスを得るために、公開トランザクションメッセージ数は100未満に抑える必要があるという注意を追加しました。 [詳細を表示](../../channels/using/transactional-messaging-limitations.md#transactional-message-number)
+
+SMSコネクタのプロトコルと設定ページが[ここ](../../administration/using/sms-protocol.md)に移動しました。
+
+**トランザクションメッセージ**&#x200B;セクションの製品リストを使用する方法は、[ここ](../../designing/using/using-product-listings.md)に移動しました。
 
 ## 2020 年 11 月 {#doc-updates-november-2020}
 
@@ -509,7 +515,7 @@ Adobe Campaign から直接利用できるコンテキストヘルプリンク�
 
 E メールデザイナーの一般提供 - [詳細を表示](../../designing/using/designing-content-in-adobe-campaign.md)
 
-トランザクション E メールの製品リスト - [詳細を表示](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message)
+トランザクション E メールの製品リスト - [詳細を表示](../../designing/using/using-product-listings.md)
 
 E メールデザイナーのモバイル表示- [詳細を表示](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)
 
