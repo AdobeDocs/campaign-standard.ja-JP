@@ -7,10 +7,10 @@ user-guide-description: 'Campaign Standard の使用に必要な主要な機能�
 breadcrumb-title: Campaign Standard
 title: Campaign Standard ガイド
 translation-type: tm+mt
-source-git-commit: 642b916369433d9a7a23d818e94f5e189a1c8596
+source-git-commit: b5f982ee320cb98174153a53fe8f28b4b6c31790
 workflow-type: tm+mt
-source-wordcount: '1696'
-ht-degree: 100%
+source-wordcount: '1710'
+ht-degree: 99%
 
 ---
 
@@ -152,6 +152,7 @@ ht-degree: 100%
       + [プレーンテキスト、HTML およびモバイル E メールの編集](designing/using/plain-text-html-modes.md)
       + [従来のエディターによる E メールから E メールデザイナーへの変換](designing/using/converting-emails-from-legacy-editor.md)
    + [E メールコンテンツのパーソナライズ](designing/using/personalization.md)
+   + [製品リストの使用](designing/using/using-product-listings.md)
    + [E メールスタイルの管理](designing/using/styles.md)
    + [リンクの管理](designing/using/links.md)
    + [画像の管理](designing/using/images.md)
@@ -435,7 +436,6 @@ ht-degree: 100%
    + チャネルの設定{#configuring-channels}
       + [チャネル設定について](administration/using/about-channel-configuration.md)
       + [E メールチャネルの設定](administration/using/configuring-email-channel.md)
-      + [SMS チャネルの設定](administration/using/configuring-sms-channel.md)
       + [モバイルアプリケーションの設定](administration/using/configuring-a-mobile-application.md)
    + モバイルチャネルの設定 {#configuring-mobile}
       + [プッシュトラッキングの実装](administration/using/push-tracking.md)
@@ -446,6 +446,10 @@ ht-degree: 100%
       + [Experience Platform SDK 統合 FAQ](administration/using/aep-faq.md)
       + [Adobe Campaign Standard の使用例をサポートするための Launch ルールの設定](administration/using/configuring-rules-launch.md)
       + [Adobe Campaign Standard でサポートされるモバイルの使用例](administration/using/supported-mobile-use-cases.md)
+   + SMS チャネルの設定 {#configuring-sms}
+      + [SMSチャネルの実装](administration/using/configuring-sms-channel.md)
+      + [SMSコネクタのプロトコルと設定](administration/using/sms-protocol.md)
+      + [SMSのトラブルシューティング](administration/using/troubleshooting-sms.md)
    + アプリケーション設定{#application-settings}
       + [Adobe Campaign Standard 設定について](administration/using/about-campaign-standard-settings.md)
       + [外部アカウント](administration/using/external-accounts.md)
