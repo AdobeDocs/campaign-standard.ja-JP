@@ -5,11 +5,11 @@ product: campaign
 title: Adobe Campaign Standard 製品ドキュメント
 description: Campaign Standard 製品ドキュメントの参照
 topic: Premium
-translation-type: ht
-source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
-workflow-type: ht
-source-wordcount: '216'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 74645dbd3ae24be49475be7ec50d0d3464823ec2
+workflow-type: tm+mt
+source-wordcount: '234'
+ht-degree: 86%
 
 ---
 
@@ -20,7 +20,9 @@ ht-degree: 100%
 
 ## 新着情報
 
-* **[リリース計画の更新](rn/using/release-planning.md)**<br/> 2021 年 2 月に予定されているリリース日が、リリース計画に追加されました
+* **[誤ったハード](https://helpx.adobe.com/campaign/kb/update-bounce-qualification.html)**<br/> バウンスの更新Gmailの停止後に誤ったハードバウンスを更新する方法を説明します。
+
+* **[リリース](rn/using/release-planning.md)**<br/> の計画2021年2月に予定されているリリース日が、リリース計画に追加されました。
 
 * **[コントロール母集団](sending/using/control-group.md)**<br/>オーディエンスの一部を除外して、キャンペーンの影響を測定します
 
@@ -75,5 +77,5 @@ ht-degree: 100%
 | [コントロールパネルのドキュメント](https://docs.adobe.com/content/help/ja-JP/control-panel/using/control-panel-home.html) | [Campaign API](api/using/get-started-apis.md) |
 | [実装ガイド](https://helpx.adobe.com/jp/campaign/kb/campaign-standard-implementation-guide.html) | [エラーメッセージのリスト](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [リリース計画](rn/using/release-planning.md) | [Campaign データモデル](developing/using/datamodel-introduction.md) |
-| [廃止および削除された機能](rn/using/deprecated-features.md)) | [マルチソリューションガイド](integrating/using/get-started-campaign-integrations.md) |
+| [廃止および削除された機能](rn/using/deprecated-features.md) | [マルチソリューションガイド](integrating/using/get-started-campaign-integrations.md) |
 | [Campaign Standard の基礎知識](start/using/about-campaign-standard.md) | [テクニカルノート](https://helpx.adobe.com/campaign/kb/acs-article-list.html) |
