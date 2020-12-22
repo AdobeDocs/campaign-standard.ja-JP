@@ -7,7 +7,7 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 translation-type: tm+mt
-source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
+source-git-commit: 5758e5f0f6811a97f51e995fa3c378a7c7117ff5
 workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 6%
@@ -50,7 +50,7 @@ Adobe Campaign StandardとDreamweaverの統合により、Dreamweaverのイン�
 >title="製品リストの使用"
 >abstract="製品リストでは、データ収集を参照して電子メールコンテンツに表示できます。"
 
-製品リストでは、電子メールコンテンツ内の1つ以上のデータコレクションを参照できます。 これらのリストは、トランザクション電子メールで使用できます。 この機能の専用のセクションは、[ここ](../../channels/using/editing-transactional-message.md#using-product-listings-in-a-transactional-message)で入手できます。
+製品リストでは、電子メールコンテンツ内の1つ以上のデータコレクションを参照できます。 これらのリストは、トランザクション電子メールで使用できます。 この機能の専用のセクションは、[ここ](../../designing/using/using-product-listings.md)で入手できます。
 
 ## 電子メールデザインオプションの比較{#email-design-options-comparison}
 
