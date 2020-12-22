@@ -7,10 +7,10 @@ audience: sending
 content-type: reference
 topic-tags: ai-powered-emails
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 127964c5360344c83dc5ad6a0e2e8523d8995739
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1064'
+ht-degree: 98%
 
 ---
 
@@ -32,7 +32,7 @@ Adobe Campaign Standard は、**予測送信時間の最適化**&#x200B;およ�
 >[!CAUTION]
 >この機能は、製品の一部として初期状態では使用できません。実装するには、アドビのコンサルティングサービス部門に依頼する必要があります。詳しくは、アドビ担当者にお問い合わせください。
 >
->この機能を使用するには、お客様ご自身で Azure ストレージを用意する必要があります。
+>この機能を使用するには、お客様が提供する必要のあるAzureまたはAmazonS3ストレージを使用する必要があります。
 
 ## 予測送信時間の最適化{#predictive-send-time}
 
