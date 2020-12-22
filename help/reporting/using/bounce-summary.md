@@ -8,17 +8,17 @@ content-type: reference
 topic-tags: list-of-reports
 context-tags: bounceReport,main;campaignCirculationReport,main;programCirculationReport,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2bc5eae996dfa3ecdde3540f3a4f759c668e93ec
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 8%
+source-wordcount: '277'
+ht-degree: 1%
 
 ---
 
 
 # バウンス概要{#bounce-summary}
 
-このレポートには、配信中に発生したハードエラーとソフトエラーの全般、およびバウンスの自動処理の詳細が記載されます。
+このレポートは、配信中に発生したハードエラーとソフトエラーの全体、およびバウンスの自動処理について詳しく説明します([配信エラーについて](../../sending/using/understanding-delivery-failures.md)を参照)。
 
 ![](assets/campaign_reports_bounces.png)
 
