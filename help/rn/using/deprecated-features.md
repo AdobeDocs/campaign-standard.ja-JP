@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-deprecated-features
 translation-type: tm+mt
-source-git-commit: 7b1d74760a3c33e4c1c74fe5b4512392b550379b
+source-git-commit: 32aba66dd8987414cf90df1e7bfb9c419c5f68ff
 workflow-type: tm+mt
 source-wordcount: '707'
 ht-degree: 85%
@@ -52,6 +52,10 @@ Campaign Standard 機能の差し迫った削除／置換を伝達するため�
      <em>ターゲットの削除：2021年4月</em></p>
      </td> 
   </tr> 
+  </tbody> 
+</table>
+<table> 
+ <thead> 
   <tr> 
    <th> <strong>SDK v4 を使用したプッシュ通知</strong><br /> </th> 
   </tr> 
