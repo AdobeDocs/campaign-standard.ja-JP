@@ -37,13 +37,13 @@ SMSコネクタのプロトコルと設定ページが[ここ](../../administrat
 
 ## 2020 年 11 月 {#doc-updates-november-2020}
 
-個人データとペルソナの節が更新され、プライバシーに関して様々なペルソナがどのように関わっているかを示す使用例のシナリオが追加されました。 [詳細を表示](../../start/using/privacy.md#use-case-scenario)
+個人データとペルソナの節が更新され、プライバシーに関して様々なペルソナがどのように関わっているかを示す使用例のシナリオが追加されました。[詳細を表示](../../start/using/privacy.md#use-case-scenario)
 
 プライバシーに関してよくある質問の一覧を記載した新しい節を追加しました。[詳細を表示](../../start/using/privacy-faq.md)
 
 「プライバシー」節は移動し、[プライバシー管理](../../start/using/privacy-management.md)と[プライバシーリクエストの管理](../../start/using/privacy-requests.md)の 2 つの新しいページが追加されました。
 
-プライバシー管理に関連するデータマッピング検証エラーおよびトラブルシューティング方法に関する情報が、Adobe Experience Platform Data Connector 節に追加されました。 [詳細を表示](../../developing/using/aep-mapping-activation.md)
+プライバシー管理に関連するデータマッピング検証エラーおよびトラブルシューティング方法に関する情報が、Adobe Experience Platform Data Connector 節に追加されました。[詳細を表示](../../developing/using/aep-mapping-activation.md)
 
 ## リリース 20.4 - 2020 年 10 月 {#release-20-4---october-2020}
 
@@ -63,7 +63,7 @@ SMSコネクタのプロトコルと設定ページが[ここ](../../administrat
 
 配信のベストプラクティスに関する新しい節が追加されました。[詳細を表示](../../sending/using/delivery-best-practices.md)
 
-新しいフィルターについて説明する節が追加され、そのイベントのステータスと最後にイベントが受信された時点に従って設定を検索できるようになりました。 [詳細を表示](../../channels/using/configuring-transactional-event.md#searching-transactional-events)
+新しいフィルターについて説明する節が追加され、そのイベントのステータスと最後にイベントが受信された時点に従って設定を検索できるようになりました。[詳細を表示](../../channels/using/configuring-transactional-event.md#searching-transactional-events)
 
 ## 2020 年 9 月 {#doc-updates-september-2020}
 
@@ -287,7 +287,7 @@ Microsoft Dynamics 365 統合（GA） - [詳細情報](../../integrating/using/w
 
 **リリースに伴うその他のドキュメントのアップデート**
 
-Adobe Campaign のエラーメッセージのリストが更新されました。 [詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+Adobe Campaign のエラーメッセージのリストが更新されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
 GDPR の入門ガイドが改善され、強化されました。GDPR や CCPA を含む、プライバシー管理に関するドキュメントになりました。[詳細を表示](https://helpx.adobe.com/content/help/jp/campaign/kb/campaign-privacy.html)
 
@@ -427,7 +427,7 @@ Adobe Campaign から直接利用できるコンテキストヘルプリンク�
 
 動的レポートのインジケーターの計算に関する節が更新されました。[詳細を表示](../../reporting/using/indicator-calculation.md)
 
-ディメンションと指標の互換性をより深く理解できるように、動的レポートの互換性の表が追加されました。[詳細を表示](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=ja)
+ディメンションと指標の互換性をより深く理解できるように、動的レポートの互換性の表が追加されました。[詳細を表示](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=en)
 
 ワークフローの関数のリストが更新されました。[詳細を表示](../../automating/using/list-of-functions.md)
 
@@ -705,7 +705,7 @@ Campaign とアドビソリューションの統合のほとんどの URL が変
 
 配信の準備方法に関するステップバイステップの使用例を追加しました。[詳細を表示](../../sending/using/preparing-the-send.md)
 
-認証のリストが記載された節は削除されました。[詳細を表示](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=ja)（PDF）
+認証のリストが記載された節は削除されました。[詳細を表示](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)（PDF）
 
 SMS 自動返信に関するステップバイステップの使用例を追加しました。[詳細を表示](../../channels/using/managing-incoming-sms.md#managing-stop-sms)
 
