@@ -7,10 +7,10 @@ audience: sending
 content-type: reference
 topic-tags: monitoring-messages
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 46bcdeec3731a7da12997cb195195fecfa2f84e5
 workflow-type: tm+mt
-source-wordcount: '1285'
-ht-degree: 88%
+source-wordcount: '1299'
+ht-degree: 87%
 
 ---
 
@@ -76,7 +76,7 @@ ht-degree: 88%
 
 「**無視**」のタイプの一時的エラーが原因でメッセージ送信が失敗した場合は、配信期間中に再試行がおこなわれます。エラーのタイプについて詳しくは、[配信エラーのタイプと理由](#delivery-failure-types-and-reasons)を参照してください。
 
-再試行の回数（送信の開始日以降に実行すべき再試行の回数）と再試行間の最小限の遅延は、特定のドメインで過去から現在まで IP がどの程度のパフォーマンスを発揮しているかに基づいて、Adobe Campaign Enhanced MTA で管理されるようになりました。Campaign の&#x200B;**再試行**&#x200B;設定は無視されます。
+再試行の回数（送信の開始日以降に実行すべき再試行の回数）と再試行間の最小限の遅延は、特定のドメインで過去から現在まで IP がどの程度のパフォーマンスを発揮しているかに基づいて、Adobe Campaign Enhanced MTA で管理されるようになりました。Campaign の&#x200B;**再試行**&#x200B;設定は無視されます。Adobe Campaign拡張MTAはプッシュチャネルでは使用できないことに注意してください。
 
 配信の期間を変更するには、配信または配信テンプレートの詳細設定パラメーターに移動して、「[Validity period](../../administration/using/configuring-email-channel.md#validity-period-parameters)」セクションの「**[!UICONTROL Delivery duration]**」フィールドを編集します。
 
