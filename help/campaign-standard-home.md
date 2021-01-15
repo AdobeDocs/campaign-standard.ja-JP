@@ -5,11 +5,11 @@ product: campaign
 title: Adobe Campaign Standard 製品ドキュメント
 description: Campaign Standard 製品ドキュメントの参照
 topic: Premium
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 74645dbd3ae24be49475be7ec50d0d3464823ec2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '234'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 86%
 
 ## 新着情報
 
-* **[誤ったハード](https://helpx.adobe.com/campaign/kb/update-bounce-qualification.html)**<br/> バウンスの更新Gmailの停止後に誤ったハードバウンスを更新する方法を説明します。
+* **[誤ったハードバウンスの更新](https://helpx.adobe.com/jp/campaign/kb/update-bounce-qualification.html)**<br/> Gmail の停止後に誤ったハードバウンスを更新する方法を説明します。
 
-* **[リリース](rn/using/release-planning.md)**<br/> の計画2021年2月に予定されているリリース日が、リリース計画に追加されました。
+* **[リリース計画](rn/using/release-planning.md)**<br/>2021 年 2 月に予定されているリリース日が、リリース計画に追加されました。
 
 * **[コントロール母集団](sending/using/control-group.md)**<br/>オーディエンスの一部を除外して、キャンペーンの影響を測定します
 
