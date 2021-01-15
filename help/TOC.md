@@ -6,11 +6,11 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Campaign Standard の使用に必要な主要な機能、タスク、設定、その他のリソースに関するヘルプセンター。 '
 breadcrumb-title: Campaign Standard
 title: Campaign Standard ガイド
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b5f982ee320cb98174153a53fe8f28b4b6c31790
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1710'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -446,10 +446,10 @@ ht-degree: 99%
       + [Experience Platform SDK 統合 FAQ](administration/using/aep-faq.md)
       + [Adobe Campaign Standard の使用例をサポートするための Launch ルールの設定](administration/using/configuring-rules-launch.md)
       + [Adobe Campaign Standard でサポートされるモバイルの使用例](administration/using/supported-mobile-use-cases.md)
-   + SMS チャネルの設定 {#configuring-sms}
-      + [SMSチャネルの実装](administration/using/configuring-sms-channel.md)
-      + [SMSコネクタのプロトコルと設定](administration/using/sms-protocol.md)
-      + [SMSのトラブルシューティング](administration/using/troubleshooting-sms.md)
+   + SMSチャネルの設定 {#configuring-sms}
+      + [SMS チャネルの実装](administration/using/configuring-sms-channel.md)
+      + [SMS コネクタのプロトコルと設定](administration/using/sms-protocol.md)
+      + [SMS のトラブルシューティング](administration/using/troubleshooting-sms.md)
    + アプリケーション設定{#application-settings}
       + [Adobe Campaign Standard 設定について](administration/using/about-campaign-standard-settings.md)
       + [外部アカウント](administration/using/external-accounts.md)
