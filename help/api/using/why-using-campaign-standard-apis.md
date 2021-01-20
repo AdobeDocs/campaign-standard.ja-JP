@@ -7,17 +7,17 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 9eca72e744524cf201d998abd9acf718fdaca0f8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '491'
+ht-degree: 3%
 
 ---
 
 
 # Campaign Standard API を使用する理由 {#why-using-campaign-standard-apis}
 
-Adobe Campaign Standardは、既存のシステムをACSプラットフォームと統合し、現実の問題をリアルタイムで解決するAPIを提供しています。
+Adobe Campaign Standardは、既存のシステムをキャンペーンプラットフォームと統合し、現実の問題をリアルタイムで解決するAPIを提供しています。
 
 サインアップページやオプトアウトページなどの公開Webサイトでは、プロファイル情報を保存するためにバックエンドシステムに接続する必要があります。 Adobe Campaignなどのバックエンドシステムには、プロファイルデータを取り込んだり、カスタム操作を実行したりする柔軟性と能力があります。
 
