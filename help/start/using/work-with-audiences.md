@@ -7,7 +7,7 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 434edb8e1c3396ad29edd9ee60866c93e82a2c1b
 workflow-type: tm+mt
 source-wordcount: '788'
 ht-degree: 12%
@@ -85,7 +85,7 @@ Campaign Standardオファーは、マーケティングデータベースの拡
 ### Microsoft Dynamics 365からのプロファイルの同期
 
 Microsoft Dynamics 365とのCampaign Standard統合により、Microsoft Dynamics 365の連絡先データをキャンペーンデータベースに渡すことができます。
-これらの連絡先はプロファイルリストに表示され、マーケティングキャンペーンでターゲットを設定できます。 この統合の詳細については、[専用ドキュメント](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)を参照してください。
+これらの連絡先はプロファイルリストに表示され、マーケティングキャンペーンでターゲットを設定できます。 この統合の詳細については、[専用ドキュメント](../../integrating/using/d365-acs-get-started.md)を参照してください。
 
 >[!NOTE]
 >
