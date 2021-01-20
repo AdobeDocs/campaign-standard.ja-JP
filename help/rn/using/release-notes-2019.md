@@ -7,9 +7,9 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 5758e5f0f6811a97f51e995fa3c378a7c7117ff5
+source-git-commit: 16f937fc34783f22a0c118bb5e2e3f39abb85615
 workflow-type: tm+mt
-source-wordcount: '7623'
+source-wordcount: '7607'
 ht-degree: 9%
 
 ---
@@ -54,13 +54,13 @@ ht-degree: 9%
   <tr> 
    <td> 
     <p>Adobe Campaign StandardとMicrosoft Dynamics 365の統合が可能になりました。 連絡先とカスタムエンティティレコードをDynamics 365からキャンペーンに転送し、電子メールイベントデータをキャンペーンからDynamics 365に返送して、販売/マーケティングの整合性を高めることができます。</p>
-    <p><a href="../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md">詳細なドキュメント</a>を参照して、この統合を設定し、<a href="https://docs.adobe.com/content/help/en/campaign-standard/using/integrating-with-adobe-cloud/campaign-and-microsoft-dynamics-365/working-with-campaign-standard-and-microsoft-dynamics-365.html">ハウツービデオ</a>を表示してください。</p>
+    <p>この統合を設定するには、<a href="../../integrating/using/d365-acs-get-started.md">詳細なドキュメント</a>を参照してください。</p>
   </td>
   </tr> 
  </tbody> 
 </table>
 
-**改善点**
+**強化点**
 
 * 動的レポートの同意ポップアップが更新され、Adobe Campaign StandardとMicrosoft Dynamics 365の統合が含まれるようになりました。 条件に同意すると、Adobe Campaign Standard/Microsoft Dynamics 365統合と動的レポートを使用する際に、プロファイルデータが含まれます。 [詳細情報](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement) (CAMP-29766)
 * 配信のアラートを受け取る際に、間違った連絡日が表示される問題を修正しました。
@@ -121,7 +121,7 @@ ht-degree: 9%
 **パッチ**
 
 * 予定レポートの並べ替えや検索ができない問題を修正しました。
-* トリガーのルールで、ANDおよびORルールが混在する問題を修正しました。
+* トリガールールで、ANDおよびORルールが混在する問題を修正しました。
 * 「起動」で「モバイル」プロパティが「削除済み」と表示されていた問題を修正しました。 （CAMP-35382）
 * Adobeの起動モバイルプロパティがAdobe Campaignで同期されない問題を修正しました。 (CAMP-35411、CAMP-35089、CAMP-35014、CAMP-35487)
 * イベントがプロファイルデータで強化された場合に、トランザクションプッシュメッセージが失敗する問題を修正しました。 （CAMP-34385）
@@ -225,7 +225,7 @@ ht-degree: 9%
 **パッチ**
 
 * GDPRアクセス要求が失敗する可能性がある問題を修正。
-* 一意のプロファイルに対して複数のトリガーを受け取った場合に、トリガーが破棄される可能性がある問題を修正しました。
+* 一意のプロファイルに対して複数のトリガーを受け取った場合にトリガーが破棄される可能性がある問題を修正しました。
 * ログイン後に誤ったカスタムリソースパブリケーションエラーメッセージが表示される問題を修正しました。
 * カスタムリソースを作成または拡張すると空白ページが表示される問題を修正しました。
 * appSubscriptionrcpをターゲティングディメンションとして持つオーディエンスが、モバイル配信でのターゲット設定に使用できない問題を修正しました。
@@ -258,7 +258,7 @@ ht-degree: 9%
 
 ## リリース 19.2.7 - 2019 年 7 月 {#release-19-2-7---july-2019}
 
-**改善点**
+**強化点**
 
 * GDPR削除クエリが改善され、パフォーマンスが向上しました。
 * 19.2のアップグレード後にWebがクラッシュする可能性がある問題を修正しました。 （CAMP-34862）
@@ -550,7 +550,7 @@ ht-degree: 9%
    <td> <p>アプリ内メッセージベータ版の機能が次のように強化されました。</p> 
     <ul> 
      <li> アプリ内ベータ版チャネルはGDPRに準拠 </li> 
-     <li> Analytics APIとの統合により、トリガーのドロップダウンを設定できる </li> 
+     <li> トリガードロップダウンを入力するためのAnalytics APIとの統合 </li> 
      <li> 配信テンプレートの直感的な外観と説明 </li> 
      <li> ユーザビリティの観点からオーサリングインターフェイスが強化されました。 </li> 
     </ul> <p>詳しくは、<a href="../../channels/using/about-in-app-messaging.md">詳細ドキュメント</a>を参照してください。</p> </td> 
