@@ -7,10 +7,10 @@ audience: audiences
 content-type: reference
 topic-tags: about-profiles-and-audiences
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: b471fddd49037770e33a113374afd60c2e79e69b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '604'
+ht-degree: 23%
 
 ---
 
@@ -60,7 +60,7 @@ Adobe Campaignはリッチな顧客プロファイルをリアルタイムで作
 
 連絡先にメッセージを送信する前に、連絡先の権限が与えられていることを確認する必要があります。 そうでない場合は、電子メールがスパムとしてマークされる可能性があり、これはプラットフォームの配信品質に影響します。 正常なプロファイルデータベースを確実に作成するには、最初の手順としてこの権限を保護します。
 
-キャンペーン上、**[サービス](../../audiences/using/creating-a-service.md)を通じて**&#x200B;簡単なオプトインとオプトアウトのメカニズム&lt;a1/>を使用し、[ランディングページ](../../channels/using/getting-started-with-landing-pages.md)を使用して連絡先情報を更新し、データベースを拡張することをお勧めします。
+キャンペーン上、**[サービス](../../audiences/using/creating-a-service.md)を通じて**&#x200B;簡単なオプトインとオプトアウトのメカニズムを使用し、[ランディングページ](../../channels/using/getting-started-with-landing-pages.md)を使用して連絡先情報を更新し、データベースを拡張することをお勧めします。
 
 メッセージに&#x200B;**購読解除リンク**&#x200B;を指定すると、必要に応じてプロファイルをに追加できるので、プラットフォームの配信品質を向上できます。 キャンペーン管理について詳しくは、[でのオプトインとオプトアウトについて](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)を参照してください。
 
@@ -86,7 +86,7 @@ Adobe Campaignオファーは、**GDPR、CCPA、その他のプライバシー�
 ## その他のリソース
 
 * [オーディエンス送信先サービスの使用](../../audiences/using/aep-about-audience-destinations-service.md)
-* [Microsoft Dynamics 365の操作](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
+* [Microsoft Dynamics 365の操作](../../integrating/using/d365-acs-get-started.md)
 * [Adobe共有オーディエンス](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
 * [ワークフローを使用したプロファイルの読み込み](../../automating/using/creating-import-workflow-templates.md)
 * [プロファイルとオーディエンスのビデオ](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html)
