@@ -7,7 +7,7 @@ audience: audiences
 content-type: reference
 topic-tags: managing-profiles
 translation-type: tm+mt
-source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
+source-git-commit: b471fddd49037770e33a113374afd60c2e79e69b
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 90%
@@ -30,7 +30,7 @@ Campaign でプロファイルを作成または更新するには、次の操�
 * [ワークフロー](../../automating/using/creating-import-workflow-templates.md)を使用してプロファイルのリストをインポートする
 * [ランディングページ](../../channels/using/getting-started-with-landing-pages.md)からオンラインでデータを収集する
 * [REST API](../../api/using/get-started-apis.md) を使用して一括作成する
-* [Microsoft Dynamics](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md) からプロファイルを同期する
+* [Microsoft Dynamics](../../integrating/using/d365-acs-get-started.md) からプロファイルを同期する
 * 以下に説明するように、グラフィカルインターフェイス画面からデータを入力する
 
 例えば、ユーザーインターフェイスで直接新しいプロファイルを作成するには、次の手順に従います。
