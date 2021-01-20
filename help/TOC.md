@@ -6,11 +6,11 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Campaign Standard の使用に必要な主要な機能、タスク、設定、その他のリソースに関するヘルプセンター。 '
 breadcrumb-title: Campaign Standard
 title: Campaign Standard ガイド
-translation-type: ht
-source-git-commit: b5f982ee320cb98174153a53fe8f28b4b6c31790
-workflow-type: ht
-source-wordcount: '1710'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 16f937fc34783f22a0c118bb5e2e3f39abb85615
+workflow-type: tm+mt
+source-wordcount: '1728'
+ht-degree: 97%
 
 ---
 
@@ -261,14 +261,17 @@ ht-degree: 100%
       + [トリガーのテスト](integrating/using/testing-your-triggers.md)
       + [中断トリガーの使用例](integrating/using/abandonment-triggers-use-cases.md)
    + Campaign と Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
-      + [ Dynamics 365 統合の概要](integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)
-      + [Campaign と Dynamics 365 間のデータの管理](integrating/using/notices-and-recommendations-for-acs-and-ms-dynamics.md)
-      + [統合のリクエスト](integrating/using/requesting-the-ms-dynamics-365-with-acs-integration.md)
-      + [Adobe I/O の設定](integrating/using/configure-adobe-io-for-ms-dynamic.md)
-      + [Campaign 統合用の Dynamics 365 の設定](integrating/using/configure-microsoft-dynamics-365-for-campaign-integration.md)
-      + [Campaign のカスタムリソースと Dynamics 365 カスタムエンティティのマッピング](integrating/using/map-campaign-custom-resources-and-dynamics-365-custom-entities.md)
-      + [ Dynamics 365 統合の使用](integrating/using/using-the-campaign-standard-and-microsoft-dynamics-365-integration.md)
-      + [統合ガードレール](integrating/using/ms-dynamics-365-integration-guardrails.md)
+      + [Microsoft Dynamics 365統合の概要](integrating/using/d365-acs-get-started.md)
+      + [ベストプラクティスと制限事項](integrating/using/d365-acs-notices-and-recommendations.md)
+      + [Microsoft Dynamics 365の構成](integrating/using/d365-acs-configure-d365.md)
+      + [キャンペーンとAdobe I/Oの構成](integrating/using/d365-acs-configure-adobe-io.md)
+      + 統合アプリを設定{#configure-integration-tool}
+         + [統合アプリの概要](integrating/using/d365-acs-self-service-app-quick-start-guide.md)
+         + [統合アプリへのアクセス](integrating/using/d365-acs-self-service-app-control-access.md)
+         + [統合アプリを使用したシステムの接続](integrating/using/d365-acs-self-service-app-settings.md)
+         + [同期ワークフローの管理](integrating/using/d365-acs-self-service-app-workflows.md)
+         + [Microsoft Dynamics 365とキャンペーン間のデータのマップ](integrating/using/d365-acs-self-service-app-data-sync.md)
+      + [Microsoft Dynamics 365 統合の使用](integrating/using/d365-acs-using-the-integration.md)
 + プロセスとデータの管理 {#managing-processes-and-data}
    + [データとプロセスの管理の概要](automating/using/get-started-workflows.md)
    + ワークフローの一般操作 {#workflow-general-operation}
