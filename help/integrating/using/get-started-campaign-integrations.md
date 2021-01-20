@@ -7,7 +7,7 @@ audience: integrating
 content-type: reference
 topic-tags: get-started-campaign-integrations
 translation-type: tm+mt
-source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
+source-git-commit: b471fddd49037770e33a113374afd60c2e79e69b
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 91%
@@ -33,7 +33,7 @@ ht-degree: 91%
 
 >[!NOTE]
 >
->Adobe Campaign Standard は、Microsoft Dynamics 365 にも接続できます。この統合により、CRM システムで利用可能なすべての連絡先データを同期でき、関連するすべての連絡先データをキャンペーンアクティビティで利用できます。この統合について詳しくは、[Campaign と Dynamics 365 の使用](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)を参照してください。
+>Adobe Campaign Standard は、Microsoft Dynamics 365 にも接続できます。この統合により、CRM システムで利用可能なすべての連絡先データを同期でき、関連するすべての連絡先データをキャンペーンアクティビティで利用できます。この統合について詳しくは、[Campaign と Dynamics 365 の使用](../../integrating/using/d365-acs-get-started.md)を参照してください。
 
 
 <table> 
