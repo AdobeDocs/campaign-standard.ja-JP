@@ -7,7 +7,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 9eca72e744524cf201d998abd9acf718fdaca0f8
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 27%
@@ -46,6 +46,6 @@ Adobe Campaignを使用すると、オーディエンス/セグメントを別�
 
    例えば、暗号化された電子メールアドレスやSMS番号を復号化できる機能を備えたユーザーは、プロファイルがAdobe Campaignデータベースに存在しない場合でも、トリガーされたメッセージをユーザーに送信できます。
 
-次の図は、この統合の仕組みについて詳しく説明しています。ここで、AAMはAdobe Audience Manageret ACSはAdobe Campaign Standardを表します。
+次の図は、この統合の仕組みについて詳しく説明しています。ここではAAMはAdobe Audience Managerを、ACSはAdobe Campaign Standardを表します。
 
 ![](assets/aam_diagram.png)
