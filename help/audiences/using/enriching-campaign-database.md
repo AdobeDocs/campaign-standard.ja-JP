@@ -7,7 +7,7 @@ audience: start
 content-type: reference
 topic-tags: about-adobe-campaign
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: b471fddd49037770e33a113374afd60c2e79e69b
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 3%
@@ -54,7 +54,7 @@ Campaign Standardオファーは、マーケティングデータベースの拡
 Microsoft Dynamics 365とのCampaign Standard統合により、Microsoft Dynamics 365の連絡先データをキャンペーンデータベースに渡すことができます。
 これらの連絡先はプロファイルリストに表示され、マーケティングキャンペーンでターゲットを設定できます。
 
-この統合の詳細については、[専用ドキュメント](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)を参照してください。
+この統合の詳細については、[専用ドキュメント](../../integrating/using/d365-acs-get-started.md)を参照してください。
 
 >[!NOTE]
 >
