@@ -7,10 +7,10 @@ audience: reporting
 content-type: reference
 topic-tags: about-reporting
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: b471fddd49037770e33a113374afd60c2e79e69b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '791'
+ht-degree: 6%
 
 ---
 
@@ -69,8 +69,8 @@ ht-degree: 0%
 
 | 地域 | 動的レポート | Microsoft Dynamics 365コネクタ |
 |---|---|---|
-| アメリカおよびAPAC（アジア太平洋） | **機能を利用可能**。<br> ExternalID以外の、標準搭載されたプロファイルやカスタム情報が米国のレポートセンターに送り込まれることはありません。 | **機能を利用可能**。<br>外部IDと受信者IDを除き、標準搭載されたフィールドやカスタムプロファイルフィールドは米国のデータセンターに送信されません。<br>ミラーページID以外の、米国のデータセンターで処理されたすべてのAdobe Campaign Standardイベントフィールド。<br>Microsoft Dynamics 365の統合の詳細については、この [ページを参照してください](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)。 |
-| EMEA（ヨーロッパ中東およびアフリカ） | **機能を利用可能**。<br>ExternalID以外の既製の情報やカスタムプロファイル情報は、EMEAレポートセンターに送り込まれません。 | **機能を使用できます。** <br>追加設定なしでEMEAデータセンターに送信されるプロファイルフィールドやカスタムフィールドはありません。ただし、外部IDと受信者IDは例外です。<br>ミラーページIDを除き、EMEAデータセンターで処理されたすべてのAdobe Campaign Standardイベントフィールド。<br>**[!UICONTROL Control data]**このレポートには、Adobe I/O登録データと、米国のデータセンターに送信および保存される顧客エンドユーザイベントのIDが含まれます。<br>Microsoft Dynamics 365の統合の詳細については、この [ページを参照してください](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md)。 |
+| アメリカおよびAPAC（アジア太平洋） | **機能を利用可能**。<br> ExternalID以外の、標準搭載されたプロファイルやカスタム情報が米国のレポートセンターに送り込まれることはありません。 | **機能を利用可能**。<br>外部IDと受信者IDを除き、標準搭載されたフィールドやカスタムプロファイルフィールドは米国のデータセンターに送信されません。<br>ミラーページID以外の、米国のデータセンターで処理されたすべてのAdobe Campaign Standardイベントフィールド。<br>Microsoft Dynamics 365の統合の詳細については、この [ページを参照してください](../../integrating/using/d365-acs-get-started.md)。 |
+| EMEA（ヨーロッパ中東およびアフリカ） | **機能を利用可能**。<br>ExternalID以外の既製の情報やカスタムプロファイル情報は、EMEAレポートセンターに送り込まれません。 | **機能を使用できます。** <br>追加設定なしでEMEAデータセンターに送信されるプロファイルフィールドやカスタムフィールドはありません。ただし、外部IDと受信者IDは例外です。<br>ミラーページIDを除き、EMEAデータセンターで処理されたすべてのAdobe Campaign Standardイベントフィールド。<br>**[!UICONTROL Control data]**このレポートには、Adobe I/O登録データと、米国のデータセンターに送信および保存される顧客エンドユーザイベントのIDが含まれます。<br>Microsoft Dynamics 365の統合の詳細については、この [ページを参照してください](../../integrating/using/d365-acs-get-started.md)。 |
 
 この選択は最終的なものではありません。**[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Options]**&#x200B;で&#x200B;**[!UICONTROL Enable PII data to be transferred to US region to use reporting on Profile data]**&#x200B;を選択すると、いつでも変更できます。
 
