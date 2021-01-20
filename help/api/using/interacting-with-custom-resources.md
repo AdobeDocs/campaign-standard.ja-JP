@@ -7,17 +7,17 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 9eca72e744524cf201d998abd9acf718fdaca0f8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '183'
+ht-degree: 3%
 
 ---
 
 
 # カスタムリソースの操作 {#interacting-with-custom-resources}
 
-**/customResources**&#x200B;エンドポイントを使用すると、ACSカスタムリソースをRESTで公開できます。 このAPIに基づき、カスタムエンティティと外部エンドポイントの統合を利用できます。
+**/customResources**&#x200B;エンドポイントを使用すると、キャンペーンのカスタムリソースをRESTで公開できます。 このAPIに基づき、カスタムエンティティと外部エンドポイントの統合を利用できます。
 
 /customResourcesエンドポイントの動作は、/profileAndServicesエンドポイントとまったく同じです。
 
