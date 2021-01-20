@@ -1,21 +1,24 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: プライバシーと同意
-description: Adobe Campaign Standard でのプライバシー、個人データ、同意管理について説明します。
+title: Adobe Campaign Standard でのプライバシーと同意
+description: この節では、Adobe Campaign Standard のプライバシー、個人データ、同意管理、およびこれらを扱うために利用できるツールの概要について説明します。
+page-status-flag: never-activated
+uuid: ed9e631c-5ad1-49f1-be1e-b710bc64dc91
+contentOwner: sauviat
+products: SG_CAMPAIGN/STANDARD
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-translation-type: ht
-source-git-commit: c76f4b6e3bc0feb50e5776836552fdceaff61ea7
-workflow-type: ht
-source-wordcount: '1657'
-ht-degree: 100%
+discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
+translation-type: tm+mt
+source-git-commit: 2879066634a8a123ef5d07d46aa96479f156a923
+workflow-type: tm+mt
+source-wordcount: '1479'
+ht-degree: 98%
 
 ---
 
 
-# プライバシーと同意 {#privacy-and-consent}
+# プライバシーと同意{#privacy-and-consent}
 
 ## 一般的な推奨事項 {#general-recommendations}
 
@@ -37,7 +40,7 @@ Adobe Campaign は、個人情報や機密データを含む膨大な量のデ�
 
 >[!NOTE]
 >
->GDPR、CCPA、PDPA、LGPD が Adobe Campaign にどのように適用されるかについては、[この節](../../start/using/privacy-management.md#privacy-management-regulations)を参照してください。
+>GDPR、CCPA、PDPAがAdobe Campaignにどのように適用されるかについては、[このページ](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy-overview.html#whatisgdpr)を参照してください。
 
 ### Adobe Experience Cloud プライバシー {#experience-cloud-privacy}
 
@@ -75,40 +78,14 @@ Adobe Experience Cloud のプライバシーについて詳しくは、[この�
 * **個人データ**&#x200B;は、生きている個人を直接または間接的に識別できる情報です。
 * **個人の機密データ**&#x200B;は、個人の人種、政治観、宗教的信念、犯罪歴、遺伝情報、健康データ、性的嗜好、生体認証情報、および労働組合の組合員に関する情報です。
 
-Campaign を、[Audience Destinations サービス](../../audiences/using/aep-about-audience-destinations-service.md)、[Adobe Analytics](../../integrating/using/about-campaign-analytics-integration.md)、[Audience Manager または People コアサービス](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md) などのシステム間でオーディエンスを転送できる他の Experience Cloud ソリューションと統合する場合、または [Microsoft Dynamics 365](../../integrating/using/working-with-campaign-standard-and-microsoft-dynamics-365.md) などの他のソリューションと統合する場合は、個人データの保護に特別な注意を払う必要があります。
-
-[主な規制](#privacy-regulations)は、データを管理する様々なエンティティを次のように参照しています。
+[主な法律](#privacy-regulations)は、データを管理する様々なエンティティを次のように参照しています。
 * **データ管理者**&#x200B;は、個人データの収集、使用、共有の方法と目的を決定する権限です。
 * **データ処理者**&#x200B;は、データ管理者の指示に従って個人データを収集、使用、または共有する個人または関係者です。
 * **データ主体**&#x200B;は、個人データが収集、使用、共有され、その個人データを参照して直接または間接的に識別できる、生きている個人のことです。
 
 したがって、個人データを収集し共有する会社はデータ管理者で、そのクライアントはデータ主体です。Adobe Campaign は、お客様の指示に従って個人データを処理する際に、データ処理者として機能します。[プライバシーリクエスト](#privacy-requests)を管理する場合など、データ主体との関係を処理するのはデータ管理者としての責任であることに注意してください。
 
-### 使用例のシナリオ{#use-case-scenario}
-
-さまざまなペルソナがどのように関わり合っているかを説明するため、GDPR の顧客体験の高レベルの使用例を以下に示します。
-
-この例では、航空会社が Adobe Campaign の顧客です。 この会社が&#x200B;**データ管理者**&#x200B;で、この航空会社のすべての利用者が&#x200B;**データ主体**&#x200B;です。ここで、Laura はこの航空会社の利用者です。
-
-この例のペルソナは以下の通りです。
-
-* **Laura** は&#x200B;**データ主体**&#x200B;で、航空会社からメッセージを受け取る受信者です。Laura はリピーターですが、ある時点で、航空会社からのパーソナライズされた広告やマーケティングメッセージの受信を希望しないことにしました。そのため、航空会社に（所定のプロセスに基づいて）リピーター番号を削除するよう要求します。
-
-* **Anne** は航空会社の&#x200B;**データ管理者**&#x200B;です。Laura からの要求を受け取り、このデータ主体を識別するための有意な ID を取得して、要求内容を Adobe Campaign に登録します。
-
-* **Adobe Campaign** は&#x200B;**データ処理者**&#x200B;です。
-
-![](assets/privacy-gdpr-flow.png)
-
-この例での一般的なフローを以下に示します。
-
-1. **データ主体**（Laura）は GDPR リクエストを&#x200B;**データ管理者**&#x200B;に E メール、カスタマーケア、Web ポータルのいずれかを利用して送付します。
-
-1. **データ管理者**（Anne）はこの GDPR リクエストをインターフェイスまたは API を使用して Campaign に登録します。
-
-1. **データ処理者**（Adobe Campaign）が情報を受け取ると、GDPR リクエストに対する処理を実行し、応答または確認通知を&#x200B;**データ管理者**（Anne）に送信します。
-
-1. **データ管理者**（Anne）は情報を受け取り、それを&#x200B;**データ主体**（Laura）に返します。
+Campaign を、[Audience Destinations サービス](../../audiences/using/aep-about-audience-destinations-service.md)、[Adobe Analytics](../../integrating/using/about-campaign-analytics-integration.md)、[Audience Manager または People コアサービス](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md) などのシステム間でオーディエンスを転送できる他の Experience Cloud ソリューションと統合する場合、または [Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md) などの他のソリューションと統合する場合は、個人データの保護に特別な注意を払う必要があります。
 
 ## データの取得 {#data-acquisition}
 
@@ -121,7 +98,7 @@ Adobe Campaign を使用すると、個人情報や機密情報などのデー�
 
 ## プライバシーの管理 {#privacy-management}
 
-プライバシー管理とは、プライバシー規制（GDPR、CCPA など）の遵守に役立つすべてのプロセスとツールを指します。プライバシー管理の概要は、[このページ](../../start/using/privacy-management.md)で確認できます。
+プライバシー管理とは、プライバシー規制（GDPR、CCPA など）の遵守に役立つすべてのプロセスとツールを指します。プライバシー管理の概要を[このページ](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy-overview.html)で確認します。
 
 Adobe Campaign では、プライバシー管理に関する様々な機能を提供しています。
 * 同意の管理、データ保持、ユーザーの役割：[この節](#consent)を参照してください。
@@ -139,7 +116,7 @@ Campaign の主なプライバシー機能と関与するペルソナの例を[�
 * **データ保持**：すべての組み込みの標準ログテーブルには事前に設定された保存期間があり、通常、データのストレージは 6 か月以下に制限されます。その他の保存期間は、ワークフローで設定できます。詳しくは、アドビのコンサルタントまたは技術管理者にお問い合わせください。
 * **権限管理**：Adobe Campaign では、事前作成された役割またはカスタムの役割を使用して、様々な Campaign オペレーターに割り当てられている権限を管理できます。これにより、会社内で様々なタイプのデータにアクセス、変更、書き出しできるユーザーを管理できます。詳しくは、[アクセス管理について](../../administration/using/about-access-management.md)を参照してください。
 
-これらの機能および Adobe Campaign での管理方法について詳しくは、[この節](../../start/using/privacy-management.md#consent-retention-roles)を参照してください。
+これらの機能および Adobe Campaign での管理方法について詳しくは、[このページ](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy-overview.html#consent)を参照してください。
 
 ### プライバシーリクエスト {#privacy-requests}
 
@@ -149,13 +126,21 @@ Adobe Campaign は、特定のプライバシーリクエストに対するデ�
 
 * 「**忘れられる権利**（削除リクエスト）」は、データ主体に対して、データ管理者が個人データを消去する権限を与えます。
 
-**アクセス**&#x200B;要求と&#x200B;**削除**&#x200B;要求は、[この節](../../start/using/privacy-management.md#right-access-forgotten)に表示されます。
+>[!NOTE]
+>
+>GDPR、CCPA、PDPA のプライバシーコンプライアンスに役立つツール群を紹介します。これらの様々な規則について詳しくは、[このページ](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)を参照してください。
 
-これらのリクエストを作成するための実装手順については、[この節](../../start/using/privacy-requests.md)で詳しく説明します。チュートリアルは[こちら](https://docs.adobe.com/content/help/ja/campaign-standard-learn/tutorials/privacy/privacy-overview.html)からもご利用いただけます。
+<!--* **GDPR** (General Data Protection Regulation) is the European Union’s (EU) privacy law that harmonizes and modernizes data protection requirements. GDPR applies to Adobe Campaign customers who hold data for Data Subjects residing in the EU.
+
+* **CCPA** (California Consumer Privacy Act) provides California residents new rights in regards to their personal information and imposes data protection responsibilities on certain entities whom conduct business in California.
+
+* **Thailand's PDPA** (Personal Data Protection Act) is the new privacy law that harmonizes and modernizes data protection requirements for Thailand. This regulation applies to Adobe Campaign customers who hold data for Data Subjects residing in this country.-->
+
+**アクセス**&#x200B;要求と&#x200B;**削除**&#x200B;要求は、[このページ](https://helpx.adobe.com/jp/campaign/kb/acs-privacy.html#righttoaccess)に表示されます。これらのリクエストを作成するための実装手順については、[このページ](https://helpx.adobe.com/jp/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)で詳しく説明しています。チュートリアルは[こちら](https://docs.adobe.com/content/help/ja_JP/campaign-standard-learn/tutorials/privacy/privacy-overview.html)からもご利用いただけます。
 
 ## トラッキング機能 {#tracking-capabilities}
 
-Adobe Campaign のトラッキング機能は、2 種類の Cookie を使用して配信受信者の行動をトラッキングできます。トラッキングについて詳しくは、[この節](../../sending/using/tracking-messages.md)を参照してください。
+Adobe Campaign のトラッキング機能は、2 種類の Cookie を使用して配信受信者の行動をトラッキングできます。追跡について詳しくは、[このページ](../../sending/using/tracking-messages.md)を参照してください。
 
 >[!NOTE]
 >
