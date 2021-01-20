@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: externalAPI,workflow,main
 translation-type: tm+mt
-source-git-commit: 79e0b945e2c34bc396b7852851df848a76d62979
+source-git-commit: 9eca72e744524cf201d998abd9acf718fdaca0f8
 workflow-type: tm+mt
 source-wordcount: '2156'
 ht-degree: 98%
@@ -114,7 +114,7 @@ JSON パーサーは、標準の JSON 構造パターンタイプに対応する
 
 ### 「EXECUTION」タブ
 
-このタブでは、接続エンドポイントを定義できます。「**[!UICONTROL URL]**」フィールドでは、ACS にデータを送信する **HTTPS エンドポイント**&#x200B;を定義できます。
+このタブでは、接続エンドポイントを定義できます。**[!UICONTROL URL]**&#x200B;フィールドでは、キャンペーンにデータを送信する&#x200B;**HTTPSエンドポイント**&#x200B;を定義できます。
 
 エンドポイントで必要な場合、次の 2 種類の認証方法を使用できます。
 
