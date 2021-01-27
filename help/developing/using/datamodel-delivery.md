@@ -400,7 +400,7 @@ ht-degree: 26%
                   <td> </td>
                </tr>
                <tr>
-                  <td>priority</td>
+                  <td>優先度</td>
                   <td>配信の優先順位</td>
                   <td>定義済みリスト（バイト） </td>
                   <td>
