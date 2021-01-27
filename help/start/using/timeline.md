@@ -50,7 +50,7 @@ ht-degree: 91%
 * ![](assets/timeline_program_icon.png) プログラム
 * ![](assets/timeline_campaign_icon.png) キャンペーン
 * ![](assets/timeline_lp_icon.png) ランディングページ
-* ![](assets/timeline_email_icon.png) E メール
+* ![](assets/timeline_email_icon.png) 電子メール
 * ![](assets/timeline_sms_icon.png) SMS
 * ![](assets/timeline_push_icon.png) プッシュ通知
 
