@@ -9,15 +9,15 @@ topic-tags: campaign-standard-releases
 hide: true
 hidefromtoc: true
 translation-type: tm+mt
-source-git-commit: 1bf35c654b9c526330a70f7647ec7d9fd87e2335
+source-git-commit: c5807da6bc9a33adcba6fc9825b0496bb5dc609b
 workflow-type: tm+mt
-source-wordcount: '2586'
+source-wordcount: '2587'
 ht-degree: 3%
 
 ---
 
 
-# 新しいリリース{#new-release}
+# 初期リリースノート{#new-release}
 
 [リリース計画](../../rn/using/release-planning.md) | [Campaign コントロールパネルリリース](https://docs.adobe.com/content/help/ja-JP/control-panel/using/release-notes.html) | [ドキュメントの更新](../../rn/using/documentation-updates.md) | [最新のリリースノート](../../rn/using/release-notes.md)  [|廃止された機能](../../rn/using/deprecated-features.md)
 
