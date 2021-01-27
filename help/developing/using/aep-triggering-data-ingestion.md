@@ -2,15 +2,15 @@
 solution: Campaign Standard
 product: campaign
 title: API によるデータ取得トリガー
-description: APIを使用してデータ取り込みをトリガーする方法を説明します。
+description: APIを使用したデータ取り込みのトリガー方法を説明します。
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '464'
+ht-degree: 4%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 0%
 >
 >Adobe Experience Platformデータコネクタは現在ベータ版で、予告なく頻繁に更新される可能性があります。 これらの機能にアクセスするには、お客様はAzureでホストされる必要があります（現在、北米向けベータ版のみ）。 ご利用になる場合は、Adobeカスタマーケアにお問い合わせください。
 
-Adobe Campaign Standardでは、APIを使用してデータマッピングをすぐに取り込むことをトリガーし、取り込みリクエストのステータスを取得できます。
+Adobe Campaign Standardでは、APIを使用してデータマッピングを即座に取り込むトリガーを実行し、取り込みリクエストのステータスを取得できます。
 
-このページでは、データマッピングのインジェストステータスをトリガーおよび取得する方法について説明します。 Campaign StandardAPIのグローバル情報については、[このセクション](../../api/using/get-started-apis.md)を参照してください。
+このページでは、データマッピングのインジェストステータスのトリガーおよび取得方法について説明します。 Campaign StandardAPIのグローバル情報については、[このセクション](../../api/using/get-started-apis.md)を参照してください。
 
 ## 前提条件 {#prerequisites}
 
@@ -32,7 +32,7 @@ APIを使用する前に、Campaign Standardインターフェイス内でデー
 * [マッピング定義](../../developing/using/aep-mapping-definition.md)
 * [マッピングのアクティベーション](../../developing/using/aep-mapping-activation.md)
 
-データマッピングを作成したら、実行を停止して、APIからいつでもトリガーできるようにする必要があります。 それには、次の手順に従います。
+データマッピングを作成した後は、実行を停止し、APIからいつでもトリガーできるようにする必要があります。 それをおこなうには、次の手順に従います。
 
 1. Campaign Standardで、**[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]**&#x200B;メニューに移動します。
 
