@@ -24,7 +24,7 @@ ht-degree: 96%
 
 ユーザーは、常にセキュリティグループにリンクされている必要があります。これにより、ユーザーに特定の役割や組織単位を割り当てることができます。
 
-役割について詳しくは、[Adobe Campaign Standard 認証](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=ja)ページの各表に、ユーザーの役割に応じて使用できる様々な操作を示します。
+役割について詳しくは、[Adobe Campaign Standard 認証](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)ページの各表に、ユーザーの役割に応じて使用できる様々な操作を示します。
 
 デフォルトのセキュリティグループは次のとおりです。
 
