@@ -9,8 +9,8 @@ topic-tags: sending-and-tracking-messages
 translation-type: tm+mt
 source-git-commit: 79e172d08557bfeebd088d8a0e8756c5965318cb
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '487'
+ht-degree: 37%
 
 ---
 
@@ -65,7 +65,7 @@ Adobe Campaign Standardを使用した追跡では、次の機能にアクセス
 
 >[!NOTE]
 >
->配信の追跡が有効になっていない場合、このタブは表示されません。 トラッキングログは、**電子メール**&#x200B;と&#x200B;**プッシュ通知**&#x200B;のチャネルでのみ使用できます。
+>配信トラッキングが有効になっていない場合、このタブは表示されません。トラッキングログは、**電子メール**&#x200B;と&#x200B;**プッシュ通知**&#x200B;のチャネルでのみ使用できます。
 
 ![](assets/tracking_logs.png)
 
