@@ -10,8 +10,8 @@ context-tags: mobileApp,overview
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '953'
+ht-degree: 1%
 
 ---
 
@@ -27,7 +27,7 @@ Adobe Campaign Standardは、次の使用例をサポートしています。
 * [アプリケーションのカスタムデータを使用したモバイルプロファイルの拡張](../../administration/using/supported-mobile-use-cases.md#enrich-mobile-profile-custom)
 * [アプリケーションのライフサイクルデータを使用したモバイルプロファイルの拡張](../../administration/using/supported-mobile-use-cases.md#enrich-mobile-profile-lifecycle)
 * [プッシュ通知を使用したユーザーの操作を追跡する](../../administration/using/supported-mobile-use-cases.md#track-user-push)
-* [アプリ内メッセージをトリガーするためのカスタムイベントのモバイルアプリへの実装](../../administration/using/supported-mobile-use-cases.md#custom-event-inapp)
+* [トリガーのアプリ内メッセージに対するモバイルアプリへのカスタムイベントの実装](../../administration/using/supported-mobile-use-cases.md#custom-event-inapp)
 * [アプリ内メッセージに基づくプロファイルテンプレートの追加認証用のリンケージフィールドを設定します](../../administration/using/supported-mobile-use-cases.md#linkage-fields-inapp)
 
 これらの使用例を設定するには、[!DNL Experience Platform Launch]の次の拡張が必要です。
@@ -289,7 +289,7 @@ contextData.put("action", "2");
 MobileCore.trackAction("tracking", contextData);
 ```
 
-## アプリ内イベント{#custom-event-inapp}をトリガーするためのカスタムメッセージをアプリに実装する
+## アプリ内メッセージをトリガーするためのカスタムイベント{#custom-event-inapp}
 
 ### iOSの場合{#custom-event-inapp-ios}
 
