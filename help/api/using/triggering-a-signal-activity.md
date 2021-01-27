@@ -2,15 +2,15 @@
 solution: Campaign Standard
 product: campaign
 title: シグナルアクティビティのトリガー
-description: APIを使用してシグナルアクティビティをトリガーする方法を説明します。
+description: APIを使用したシグナルアクティビティのトリガー方法を説明します。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '322'
+ht-degree: 2%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Adobe Campaign Standardワークフローでは、1つ以上の&#x200B;**外部シグナル**&#x200B;アクティビティが存在する場合があります。 これらのアクティビティは、トリガーを待機する「リスナー」です。
 
-Campaign StandardAPIを使用すると、**外部シグナル**&#x200B;アクティビティをトリガしてワークフローを呼び出すことができます。 API呼び出しには、ワークフローのイベント変数に取り込まれるパラメーター(ターゲットへのオーディエンス名、読み込むファイル名、メッセージコンテンツの一部など)を含めることができます。 これにより、キャンペーンの自動化を外部システムに容易に統合できます。
+Campaign StandardAPIを使用すると、**外部シグナル**&#x200B;アクティビティをトリガーしてワークフローを呼び出すことができます。 API呼び出しには、ワークフローのイベント変数に取り込まれるパラメーター(ターゲットへのオーディエンス名、読み込むファイル名、メッセージコンテンツの一部など)を含めることができます。 これにより、キャンペーンの自動化を外部システムに容易に統合できます。
 
 >[!NOTE]
 >
@@ -27,11 +27,11 @@ Campaign StandardAPIを使用すると、**外部シグナル**&#x200B;アクテ
 
 ワークフローをトリガーするには、次の手順に従います。
 
-1. ワークフローで&#x200B;**GET**&#x200B;リクエストを実行し、外部シグナルアクティビティトリガーURLを取得します。
+1. ワークフローで&#x200B;**GET**&#x200B;リクエストを実行し、外部信号アクティビティトリガーURLを取得します。
 
    `GET https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>`
 
-1. 返されたURLに対して&#x200B;**POST**&#x200B;リクエストを実行し、シグナルアクティビティをトリガします。ペイロードには&#x200B;**&quot;source&quot;**&#x200B;パラメーターが含まれます。 この属性は必須です。トリガーするリクエストソースを示すことができます。
+1. 返されたURLに対して&#x200B;**POST**&#x200B;リクエストを実行し、トリガーに&#x200B;**&quot;source&quot;**&#x200B;パラメーターを付けて、シグナルアクティビティをペイロードにします。 この属性は必須です。トリガーするリクエストソースを示すことができます。
 
 パラメーターを使用してワークフローを呼び出す場合は、**&quot;parameters&quot;**&#x200B;属性を使用してペイロードに追加します。 構文は、パラメーターの名前とその値で構成されます（次の型がサポートされています）。**string**、**number**、**boolean**、**date/time**)。
 
@@ -91,7 +91,7 @@ Campaign StandardAPIを使用すると、**外部シグナル**&#x200B;アクテ
 }
 ```
 
-信号アクティビティをトリガーするには、「ソース」を含むトリガURLに対してPOSTリクエストを実行します。 パラメーター追加を使用してワークフローを呼び出す場合は、「parameters」属性を指定します。
+信号アクティビティをトリガーするには、「source」を含むトリガーURLに対してPOSTリクエストを実行します。 パラメーター追加を使用してワークフローを呼び出す場合は、「parameters」属性を指定します。
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<PKEY>/activities/activity/<PKEY>/trigger \
