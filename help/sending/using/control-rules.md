@@ -32,7 +32,7 @@ ht-degree: 18%
 | **[!UICONTROL A/B Test]** | 電子メール | パーソナライゼーションの開始時 | A/Bテストを使用して配信のテスト母集団を抽出します。 |
 | **[!UICONTROL Check delivery size]** | すべて | ターゲティングの終了時 | メッセージのサイズをチェックします。 |
 | **[!UICONTROL Check email content is not empty]** | 電子メール | ターゲティングの終了時 | メッセージの内容が空の場合にエラーを生成します。 |
-| **[!UICONTROL Check In-App content for broadcast template]** | アプリ内 | 開始のパーソナライゼーション | アプリ内コンテンツ/トリガーが、ブロードキャストテンプレート用に空でないことを確認します。 |
+| **[!UICONTROL Check In-App content for broadcast template]** | アプリ内 | 開始のパーソナライゼーション | ブロードキャストテンプレートのアプリ内コンテンツ/トリガーが空でないことを確認します。 |
 | **[!UICONTROL Check In-App content for profile template]** | アプリ内 | パーソナライゼーションの開始時 | アプリ内コンテンツ/トリガーが、プロファイルテンプレート用に空でないことを確認します。 |
 | **[!UICONTROL Check In-App content for subscriber template]** | アプリ内 | パーソナライゼーションの開始時 | 購読者テンプレートのアプリ内コンテンツ/トリガーが空でないことを確認します。 |
 | **[!UICONTROL Check proof size]** | すべて | ターゲティングの終了時 | 配達確認ターゲットの母集団が100受信者を超える場合にエラーメッセージを生成します。 |
