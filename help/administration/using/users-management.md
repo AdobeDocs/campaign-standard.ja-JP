@@ -9,8 +9,8 @@ topic-tags: users-and-security
 translation-type: tm+mt
 source-git-commit: 83cf4dc73540725d1b642b68091f704806f3eb63
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1220'
+ht-degree: 95%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Adobe Campaign では、ユーザーに一連の役割を割り当てて、ユーザーがアクセスできるインターフェイス領域を定義できます。
 
-特定の役割とそれに対応する認証については、[役割の概要](../../administration/using/list-of-roles.md)の節および[認証](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=ja)の節で詳しく説明します。
+特定の役割とそれに対応する認証については、[役割の概要](../../administration/using/list-of-roles.md)の節および[認証](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)の節で詳しく説明します。
 
 管理者は Admin Console からユーザーを管理できます。ユーザーは、Adobe Campaign と自動的に同期されるようになります。詳しくは、[Admin Console](https://helpx.adobe.com/jp/enterprise/using/users.html) のドキュメントを参照してください。
 
