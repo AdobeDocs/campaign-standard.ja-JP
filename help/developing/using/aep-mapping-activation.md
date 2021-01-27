@@ -9,7 +9,7 @@ topic-tags: configuring-channels
 translation-type: tm+mt
 source-git-commit: 3a4e8628b916291244d142d9cc4a6a84b799502b
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
