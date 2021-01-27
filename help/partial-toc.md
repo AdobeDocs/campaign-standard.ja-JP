@@ -5,9 +5,9 @@ product: campaign
 title: Adobe Campaign Standard 製品ドキュメント
 description: Campaign Standard 製品ドキュメントの参照
 topic: Premium
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 189cd93d12dfd7838dae87dd4c8de19c10926ce6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '30'
 ht-degree: 100%
 
