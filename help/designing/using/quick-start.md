@@ -9,8 +9,8 @@ topic-tags: editing-email-content
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '924'
+ht-degree: 5%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 電子メールデザイナーには、電子メールを作成する4つの方法があります。
 
-電子メールデザイナー[で&lt;a0/>開始した新規の電子メールを作成できます。](#without-existing-content)
+電子メールデザイナー[で開始した新規の電子メールを作成できます。](#without-existing-content)
 
 1. 構造とコンテンツのコンポーネントを簡単に追加し、コンテンツをパーソナライズして配信を迅速に送信することで、空白のキャンバス&#x200B;**から電子メールを**&#x200B;作成できます。 スタイル要素を完全に管理することもできます。 詳しくは、[すばやく始める](#from-scratch-email)か、[完全なドキュメント](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)を参照してください。
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->どちらの作成方法でも、電子メールを送信する前に件名を入力することが重要です。 [件名行追加](#add-a-subject-line)を&lt;a0/>する方法を学びます。
+>どちらの作成方法でも、電子メールを送信する前に件名を入力することが重要です。 [件名行追加](#add-a-subject-line)をする方法を学びます。
 
 ### ゼロからの電子メールの作成{#from-scratch-email}
 
