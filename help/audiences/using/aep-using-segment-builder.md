@@ -10,8 +10,8 @@ context-tags: audience,wizard;audience,overview;delivery,audience,back
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '878'
+ht-degree: 4%
 
 ---
 
@@ -124,7 +124,7 @@ ht-degree: 0%
 
 セグメントビルダーを使用すると、2つのフィールドを比較して1つのルールを定義できます。 例えば、自宅の住所が職場の住所とは異なる郵便番号の女性など。
 
-それには、次の手順に従います。
+それをおこなうには、次の手順に従います。
 
 1. 比較する最初のフィールド（自宅の住所の郵便番号など）を中央のワークスペースにドラッグします。
 
