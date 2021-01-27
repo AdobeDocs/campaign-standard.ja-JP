@@ -386,7 +386,7 @@ ht-degree: 7%
       </tr>
       <tr>
          <td>publicationDate</td>
-         <td>パブリッシュ日</td>
+         <td>公開日</td>
          <td>日付 </td>
          <td> </td>
       </tr>
