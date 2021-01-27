@@ -118,7 +118,7 @@ Audience Manager(AAM)またはPeopleコアサービスの統合により、オ�
 
 >[!NOTE]
 >
->**[!UICONTROL AAM Destination ID]**&#x200B;フィールドは、[キャンペーントリガー統合](../../integrating/using/configuring-triggers-in-experience-cloud.md)用に共有データソースを設定する場合は不要です。 **[!UICONTROL Priority]** は、Triggers -キャンペーン統合を設定する場合にのみ必要です。優先度によって、最初に設定されるデータソースが決まります。 優先度は、1や100など任意の数値です。 優先度が高いほど、調整時の優先順位が高くなります。
+>**[!UICONTROL AAM Destination ID]**&#x200B;フィールドは、[キャンペーントリガー統合](../../integrating/using/configuring-triggers-in-experience-cloud.md)用に共有データソースを設定する場合は不要です。 **[!UICONTROL Priority]** は、トリガー-キャンペーン統合を設定する場合にのみ必要です。優先度によって、最初に設定されるデータソースが決まります。 優先度は、1や100など任意の数値です。 優先度が高いほど、調整時の優先順位が高くなります。
 
 ### 手順 3：キャンペーントラッキングサーバーの設定 {#step-3--configure-campaign-tracking-server}
 
