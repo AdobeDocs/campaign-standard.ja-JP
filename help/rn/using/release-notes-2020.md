@@ -6,9 +6,9 @@ description: このページでは、Adobe Campaign Standard の 2020 年の全�
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2945'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 [リリース計画](https://helpx.adobe.com/jp/campaign/kb/acs-release-planning.html) | [コントロールパネルのリリース](https://docs.adobe.com/content/help/ja-JP/control-panel/using/release-notes.html) | [ドキュメントの更新](../../rn/using/documentation-updates.md) | [以前のリリースノート](../../rn/using/release-notes-2019.md) | [非推奨（廃止予定）の機能](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=ja)
 
-![](assets/do-not-localize/cp-icon.png) **新しいコントロールパネル 6 月のリリース** - アクティブなプロファイルの監視、サブドメイン配信品質の監査、GPG キー管理。[詳細情報](https://docs.adobe.com/content/help/ja-JP/control-panel/using/release-notes.html)。
+![](assets/do-not-localize/cp-icon.png) **新しいコントロールパネル 6 月のリリース** - アクティブなプロファイルの監視、サブドメイン配信品質の監査、GPG キー管理。[詳細情報](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)。
 
 ## リリース 20.3 - 2020 年 5 月 {#release-20-3---may-2020}
 
@@ -123,7 +123,7 @@ ht-degree: 100%
 * ユーザーがレポートを変更できないエラーを修正しました。（CAMP-42505）
 
 
-![](assets/do-not-localize/cp-icon.png) **Campaign コントロールパネルの 5 月の新しいリリース**&#x200B;で、CNAME サブドメインの証明書を更新できるようになりました。詳しくは、[こちら](https://docs.adobe.com/content/help/ja-JP/control-panel/using/release-notes.html)を参照してください。
+![](assets/do-not-localize/cp-icon.png) **Campaign コントロールパネルの 5 月の新しいリリース**&#x200B;で、CNAME サブドメインの証明書を更新できるようになりました。詳しくは、[こちら](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)を参照してください。
 
 ## リリース 20.2 - 2020 年 4 月{#release-20-2---april-2020}
 
@@ -161,7 +161,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Google TXT レコード管理、データベース領域の監視、E メールアラートなど、新しい機能が 4 月に Campaign コントロールパネルにリリースされます。これらの機能について詳しくは、[コントロールパネルリリースノート](https://docs.adobe.com/content/help/ja-JP/control-panel/using/release-notes.html)を参照してください。
+>Google TXT レコード管理、データベース領域の監視、E メールアラートなど、新しい機能が 4 月に Campaign コントロールパネルにリリースされます。これらの機能について詳しくは、[コントロールパネルリリースノート](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)を参照してください。
 
 **強化点**
 
