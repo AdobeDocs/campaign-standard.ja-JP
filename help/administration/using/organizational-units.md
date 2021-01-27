@@ -10,8 +10,8 @@ context-tags: orgUnit,overview;orgUnit,main;geoUnit,overview;geoUnit,main
 translation-type: tm+mt
 source-git-commit: 824c91669bd717e5bf31dab9005e4c3b9e497edf
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '842'
+ht-degree: 5%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
    ![](assets/manage_units_2.png)
 
-1. 最後に、**[!UICONTROL Create]**&#x200B;をクリックして、新しい組織単位をセキュリティグループに割り当てている開始を実行します。
+1. 最後に、**[!UICONTROL Create]**&#x200B;をクリックして、新しい組織単位をセキュリティグループに割り当てているときに開始が発生します。
 1. 同じ手順で、Geometrixx衣類ユニットも同じです。ただし、親ユニットは、以前に作成したユニット、Geometrixxである必要があります。
 
    ![](assets/manage_units_3.png)
