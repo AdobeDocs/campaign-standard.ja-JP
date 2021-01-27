@@ -10,8 +10,8 @@ context-tags: null
 translation-type: tm+mt
 source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '607'
+ht-degree: 8%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   >イベントがトランザクションメッセージの送信をトリガーするには、作成したばかりのメッセージを変更して発行する必要があります。 「[編集](../../channels/using/editing-transactional-message.md)」および「[トランザクションメッセージの公開](../../channels/using/publishing-transactional-message.md)」の節を参照してください。 また、このトリガーイベント](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)をWebサイトに[統合する必要があります。
+   >イベントからトリガーへのトランザクションメッセージの送信には、作成したばかりのメッセージを変更して発行する必要があります。 「[編集](../../channels/using/editing-transactional-message.md)」および「[トランザクションメッセージの公開](../../channels/using/publishing-transactional-message.md)」の節を参照してください。 また、このトリガーイベント](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)をWebサイトに[統合する必要があります。
 
 1. Adobe Campaign開始がこのイベント設定に関連するイベントを受け取ったら、**[!UICONTROL History]**&#x200B;セクションの&#x200B;**[!UICONTROL Latest transactional events]**&#x200B;リンクをクリックして、サードパーティのサービスから送信され、Adobe Campaignで処理された最新のイベントにアクセスできます。
 
