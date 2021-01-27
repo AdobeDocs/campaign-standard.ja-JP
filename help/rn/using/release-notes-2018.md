@@ -46,7 +46,7 @@ Adobe Campaign Standardの最新[ドキュメントの更新](../../rn/using/doc
  </tbody> 
 </table>
 
-**改善点**
+**強化点**
 
 * Adobe Campaign Standardは、AmazonS3 APIのバージョン4をサポートするようになりました。
 
@@ -123,7 +123,7 @@ Adobe Campaign Standardの最新[ドキュメントの更新](../../rn/using/doc
  </tbody> 
 </table>
 
-**改善点**
+**強化点**
 
 * Adobe CampaignとAdobe Targetの統合により、ターゲットの[権限](https://docs.adobe.com/content/help/ja-JP/target/using/administer/manage-users/enterprise/properties-overview.translate.html)機能を利用できるようになりました。 Adobe Targetからの動的ターゲットを電子メールに含める場合、画像プロパティ（at_propertyコード）を指定できるようになりました。
 * プロファイル・リソースへのダウンコピー・リンクを持つカスタム・リソースは、GDPRのプライバシー・アクセス/削除要求によって考慮されるようになった。 1基の基数単純リンクとN基数収集リンクの場合、カスタムリソースで「ターゲットレコードの削除/複製は、リンクによって参照されるレコードを削除/複製することを意味します」を選択する必要があります。 0または1の基数単純リンクの場合は、「レコードの削除/複製は、リンクから参照されるターゲットレコードを削除または複製することを意味します」を選択します。
@@ -153,7 +153,7 @@ Adobe Campaign Standardの最新[ドキュメントの更新](../../rn/using/doc
 
 ## リリース 18.6 - 2018 年 6 月 {#release-18-6---june-2018}
 
-**改善点**
+**強化点**
 
 * **[!UICONTROL History]** APIがAdobe.IOに追加されました。 プロファイルのマーケティング履歴に関連する情報にアクセスできます。タッチポイント数、送信された配信数、ミラーページURLなど 詳しくは、[専用の使用例](../../api/using/interacting-with-marketing-history.md)を参照してください。
 * **[!UICONTROL Database cleanup]**&#x200B;の技術ワークフローは、データベースバックアップのパフォーマンスを高めるために最適化されました。
@@ -224,7 +224,7 @@ Adobe Campaign Standardの最新[ドキュメントの更新](../../rn/using/doc
  </tbody> 
 </table>
 
-**改善点**
+**強化点**
 
 * アプリケーションのメモリ全体とCPU使用率が向上しました
 
@@ -370,7 +370,7 @@ _統合_
 * メッセージにExperience Cloudアセットライブラリから画像を挿入しようとすると、アセットの読み込みが高速になりました。
 * 場合によってはアセット選択ウィンドウが閉じられない問題を修正しました。
 * データソースの詳細から関連するワークフローに直接アクセスして、ワークフローの状態を確認できるようになりました。
-* トリガーイベントを定義または編集する際に、トリガースキーマを直接更新できるようになりました。 この変更により、トリガーの公開を取り消して別の公開を作成する必要がなくなりました。
+* トリガーイベントを定義または編集する際に、トリガースキーマを直接更新できるようになりました。 この変更により、トリガーの公開を取り消して別の画像を作成する必要がなくなりました。
 
 _トランザクションメッセージ_
 
@@ -477,7 +477,7 @@ _既知の問題_
   </tr> 
   <tr> 
    <td> APIシグナルアクティビティトリガ<br /> </td> 
-   <td> Adobe Campaign StandardAPIから直接ワークフローのシグナルアクティビティをトリガーできるようになりました。<br /> 詳しくは、 <a href="/help/api/using/triggering-a-signal-activity.md">詳細なドキュメントを参照してください</a> 。<br /> </td> 
+   <td> Adobe Campaign StandardAPIからワークフローのシグナルアクティビティを直接トリガーできるようになりました。<br /> 詳しくは、 <a href="/help/api/using/triggering-a-signal-activity.md">詳細なドキュメントを参照してください</a> 。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
