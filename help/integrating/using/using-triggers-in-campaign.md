@@ -9,8 +9,8 @@ topic-tags: working-with-campaign-and-triggers
 translation-type: tm+mt
 source-git-commit: 83cf4dc73540725d1b642b68091f704806f3eb63
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '751'
+ht-degree: 84%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->トリガーを作成するには、**[!UICONTROL Administration]**&#x200B;ロールが必要か、または&#x200B;**[!UICONTROL Administrators]**&#x200B;セキュリティグループに属している必要があります。 これについて詳しくは、この[ページ](../../administration/using/list-of-roles.md)を参照してください。
+>トリガーを作成するには、**[!UICONTROL Administration]**&#x200B;ロールが必要か、**[!UICONTROL Administrators]**&#x200B;セキュリティグループに属している必要があります。 これについて詳しくは、この[ページ](../../administration/using/list-of-roles.md)を参照してください。
 
 Adobe Experience Cloud（**[!UICONTROL Triggers]** コアサービス）では、事前に監視するビヘイビアーを定義する必要があります。詳しくは、[Adobe Experience Cloud のドキュメント](https://docs.adobe.com/content/help/ja-JP/core-services/interface/activation/triggers.html)を参照してください。トリガーを定義する場合は、エイリアスを有効にする必要があります。各ビヘイビアー（ブラウジング／フォームの放棄、製品の追加／削除、セッションの有効期限切れなど）について、Adobe Experience Cloud に新規トリガーを追加する必要があります。
 
@@ -49,13 +49,13 @@ Adobe Experience Cloud（**[!UICONTROL Triggers]** コアサービス）では�
 
    ![](assets/remarketing_4.png)
 
-1. これで、トリガーを公開できます。 詳しくは、[キャンペーン](../../integrating/using/using-triggers-in-campaign.md#publishing-trigger-in-campaign)でのトリガーの発行を参照してください。
+1. これで、トリガーを公開できます。 詳しくは、[キャンペーン](../../integrating/using/using-triggers-in-campaign.md#publishing-trigger-in-campaign)でのトリガーの公開を参照してください。
 
-## キャンペーン{#publishing-trigger-in-campaign}でのトリガーの発行
+## キャンペーン{#publishing-trigger-in-campaign}でのトリガーの公開
 
 既存のAdobe Experience Cloudトリガーに基づいてAdobe Campaignでトリガーイベントを作成した後、公開する必要があります。
 
-1. 以前に作成したトリガーから、**[!UICONTROL Publish]**&#x200B;ボタンをクリックして、トリガーイベントの発行を開始します。
+1. 以前に作成したトリガーで、**[!UICONTROL Publish]**&#x200B;ボタンをクリックして、トリガーイベントを公開する開始を選択します。
 
    ![](assets/trigger_publish_1.png)
 
