@@ -9,8 +9,8 @@ topic-tags: configuring-channels
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '914'
+ht-degree: 4%
 
 ---
 
@@ -48,7 +48,7 @@ Adobe Experience PlatformSDKとCampaign Standardの統合について詳しく�
 
 >[!NOTE]
 >
->[!DNL Places] 統合には、アプリ内メッセージのトリガーとして配置イベントが含まれます（プッシュ通知の場合は除く）。 [!DNL Places] データとローカル通知のサポートによってプロファイルを強化します。詳細は、この[ページ](../../channels/using/preparing-and-sending-an-in-app-message.md)を参照してください。 <br>[!DNL Places] 制限付き統合には、 [!DNL Places] データをプロファイルに富化する機能が含まれます。
+>[!DNL Places] 統合には、アプリ内メッセージのトリガーとして場所イベントが含まれます（プッシュ通知の場合は該当なし）。 [!DNL Places] データとローカル通知のサポートによってプロファイルが強化されます。詳細は、この[ページ](../../channels/using/preparing-and-sending-an-in-app-message.md)を参照してください。 <br>[!DNL Places] 制限付き統合には、 [!DNL Places] データをプロファイルに富化する機能が含まれます。
 
 ## Adobe Campaign StandardでのAdobe Experience PlatformSDKの統合が容易になる使用例を教えてください。{#aep-use-cases}
 
