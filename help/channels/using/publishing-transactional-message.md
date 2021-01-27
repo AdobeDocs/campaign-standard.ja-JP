@@ -107,7 +107,7 @@ The steps for sending a proof are detailed in the [Sending proofs](../../sending
 
 トランザクションメッセージに含まれるデータを変更する場合など、「**[!UICONTROL Pause]**」ボタンを使用してメッセージの公開を中止できます。したがって、イベントは処理されず、Adobe Campaign データベースのキューに保持されます。
 
-キューに格納されたイベントは、REST APIで定義された期間（[REST APIドキュメント](../../api/using/managing-transactional-messages.md)を参照）またはTriggersコアサービスを使用している場合はトリガーイベントに保持されます([Adobe Experience Cloudトリガーについて](../../integrating/using/about-adobe-experience-cloud-triggers.md)を参照)。
+キューに格納されたイベントは、REST APIで定義された期間（[REST APIドキュメント](../../api/using/managing-transactional-messages.md)を参照）またはトリガーコアサービスを使用している場合はトリガーイベントに保持されます([Adobe Experience Cloud Triggersについて](../../integrating/using/about-adobe-experience-cloud-triggers.md)を参照)。
 
 ![](assets/message-center_pause.png)
 
