@@ -2,7 +2,7 @@
 solution: Campaign Standard
 product: campaign
 title: テクニカルワークフロー
-description: テクニカルワークフローは、Adobe Campaign のバックグラウンド技術プロセスを処理し、プラットフォームを正しく動作させるために設計された、標準搭載のワークフローです。
+description: テクニカルワークフローは標準搭載のワークフローで、Adobe Campaignのバックグラウンド技術プロセスを処理し、プラットフォームの正しい動作を確認するように設計されています。
 audience: administration
 content-type: reference
 topic-tags: application-settings
@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '678'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
