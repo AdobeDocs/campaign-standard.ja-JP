@@ -129,7 +129,7 @@ Experience Platform Launchでモバイルプロパティを作成および設定
 
 ## Adobe Campaign{#channel-specific-config}のチャネル固有のアプリケーション設定
 
-これで、モバイルアプリケーションをキャンペーンでプッシュ通知またはアプリ内配信に使用できる状態になりました。 アプリ内メッセージをトリガーするイベントを作成したり、プッシュ証明書をアップロードしたりする必要がある場合に、さらに設定できるようになりました。
+これで、モバイルアプリケーションをキャンペーンでプッシュ通知またはアプリ内配信に使用できる状態になりました。 必要に応じて、アプリ内メッセージをトリガーするイベントを作成したり、プッシュ証明書をアップロードしたりするために、さらに設定できるようになりました。
 
 1. 詳細設定メニューで、**[!UICONTROL Administration]**/**[!UICONTROL Channels]**/**[!UICONTROL Mobile app (AEP SDK)]**&#x200B;を選択します。
 
@@ -147,7 +147,7 @@ Experience Platform Launchでモバイルプロパティを作成および設定
 
 1. 「**[!UICONTROL Add]**」をクリックします。
 
-   アプリ内メッセージを作成する際に、「トリガー」タブでイベントを使用できるようになりました。 詳しくは、[アプリ内メッセージの準備と送信](../../channels/using/preparing-and-sending-an-in-app-message.md)を参照してください。
+   イベントは、アプリ内メッセージの作成時に「トリガー」タブで使用できるようになりました。 詳しくは、[アプリ内メッセージの準備と送信](../../channels/using/preparing-and-sending-an-in-app-message.md)を参照してください。
 
 1. モバイルアプリケーションダッシュボードの&#x200B;**[!UICONTROL Device-specific settings]**&#x200B;セクションで、各デバイスに対して、iOS用の証明書やAndroid用のサーバーキーなど、アプリケーションの詳細を指定します。
 
