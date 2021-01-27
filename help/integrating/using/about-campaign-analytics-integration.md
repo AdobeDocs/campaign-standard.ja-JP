@@ -9,8 +9,8 @@ topic-tags: working-with-campaign-and-analytics
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '210'
+ht-degree: 6%
 
 ---
 
@@ -28,7 +28,7 @@ Adobe CampaignでのAdobe Analyticsの統合により、Adobe Analyticsで電子
 
 この統合は、電子メール配信のみで使用できます。
 
-Adobe Analyticsのコアサービス&#x200B;**Triggers**&#x200B;とAdobe Campaignの統合も可能です。 これにより、Adobe AnalyticsがWebサイトで追跡する特定の行動に対する反応として、顧客に対してパーソナライズされた電子メールを送信できます（15分以内）。
+Adobe Analyticsのコアサービス&#x200B;**トリガー**&#x200B;とAdobe Campaignの統合も可能です。 これにより、Adobe AnalyticsがWebサイトで追跡する特定の行動に対する反応として、顧客に対してパーソナライズされた電子メールを送信できます（15分以内）。
 
 **関連トピック：**
 
