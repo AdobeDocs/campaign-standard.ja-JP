@@ -10,8 +10,8 @@ context-tags: delivery,triggers,back
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '930'
+ht-degree: 29%
 
 ---
 
@@ -108,10 +108,10 @@ iOSでのカスタムサウンドの場合、ローカル通知（sound.cafな�
 
 1. アプリ内メッセージの作成を参照してください。
 
-1. カスタムイベントを定義し、このIAMのイベントトリガとして選択します。例：&quot;フォールプレビューのプッシュからのトリガー&quot;
+1. カスタムイベントを定義し、このIAMのイベントトリガーとして選択します。例：&quot;フォールプレビューのプッシュからのトリガー&quot;
 
-1. プッシュメッセージを作成する際に、カスタム変数を定義します。カスタム変数の値は、IAMをトリガーするために使用されるイベントとして設定できます(例： Key = &quot;inappkey&quot;、value = &quot;Trigger from fallプレビューPush&quot;)。
+1. プッシュメッセージを作成する際に、カスタム変数を定義します。カスタム変数の値は、IAMのトリガーに使用されるイベントとして設定できます(例：Key = &quot;inappkey&quot;、value = &quot;fallプレビューのプッシュからのトリガー&quot;)。
 
-1. モバイルアプリコードで、次のようにイベントトリガーを実装します。
+1. モバイルアプリコードで、次のイベントトリガーを実装します。
 
    ![](assets/faq_inapp_2.png)
