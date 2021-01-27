@@ -9,8 +9,8 @@ topic-tags: campaign-standard-apis
 translation-type: tm+mt
 source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '678'
+ht-degree: 3%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 例えば、「買い物かごの放棄」イベントを、顧客が買い物かごで商品を購入する前にWebサイトを離れたときにトリガーするとします。 これを行うには、Web開発者がRESTトランザクションメッセージAPIを使用する必要があります。
 
-1. 開発者は、POST方式に従ってリクエストを送信し、これにより、トランザクションイベント[の送信をトリガーします。](#sending-a-transactional-event)
+1. 開発者は、POST方式に従ってリクエストを送信し、トリガー方式はトランザクションイベント](#sending-a-transactional-event)の[送信を行います。
 1. POST要求への応答にはプライマリキーが含まれ、開発者はGET要求を介して1つまたは複数の要求を送信できます。 これで、[イベントステータス](#transactional-event-status)を取得できます。
 
 ## トランザクションイベントの送信{#sending-a-transactional-event}
