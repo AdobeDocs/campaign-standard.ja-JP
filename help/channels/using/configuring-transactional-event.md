@@ -185,13 +185,13 @@ Adobe Campaign付きのトランザクションメッセージを送信するに
 
    イベントをプレビューする場合、REST APIには、選択したチャネルに従って、電子メールアドレス、携帯電話、またはプッシュ通知の固有の属性を指定する属性が含まれます。
 
-   イベントが公開されると、新しいイベントにリンクされたトランザクションメッセージが自動的に作成されます。 イベントがトランザクションメッセージの送信をトリガーするには、作成したメッセージを[modify](../../channels/using/editing-transactional-message.md)および[publish](../../channels/using/publishing-transactional-message.md)に変更する必要があります。
+   イベントが公開されると、新しいイベントにリンクされたトランザクションメッセージが自動的に作成されます。 トランザクションメッセージを送信するイベントをトリガーに送信するには、作成したメッセージを[modify](../../channels/using/editing-transactional-message.md)および[publish](../../channels/using/publishing-transactional-message.md)する必要があります。
 
 1. イベントをWebサイトに統合します([イベントトリガーの統合](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)を参照)。
 
 ### プロファイルベースのトランザクションメッセージ{#profile-based-transactional-messages}
 
-顧客プロファイルに基づいてトランザクションメッセージを送信できます。これにより、マーケティングタイポロジルールの適用、登録解除リンクの含め、グローバル配信レポートにメッセージを追加し、顧客の遍歴で活用できます。
+顧客プロファイルに基づいてトランザクションメッセージを送信できます。これにより、マーケティングタイポロジルールの適用、登録解除リンクの含め、グローバル配信レポートにメッセージを追加し、顧客ジャーニーで活用できます。
 
 プロファイルベースのトランザクションメッセージを送信するには、まず、Adobe Campaignデータベース&#x200B;**の**&#x200B;データをターゲットにしたイベントを作成し、設定する必要があります。
 
@@ -207,7 +207,7 @@ Adobe Campaign付きのトランザクションメッセージを送信するに
 
    イベントをプレビューする場合、REST APIには、電子メールアドレス、携帯電話、またはプッシュ通知の固有の属性を指定する属性が含まれません。この属性は&#x200B;**[!UICONTROL Profile]**&#x200B;リソースから取得されます。
 
-   イベントが公開されると、新しいイベントにリンクされたトランザクションメッセージが自動的に作成されます。 イベントがトランザクションメッセージの送信をトリガーするには、作成したメッセージを[modify](../../channels/using/editing-transactional-message.md)および[publish](../../channels/using/publishing-transactional-message.md)に変更する必要があります。
+   イベントが公開されると、新しいイベントにリンクされたトランザクションメッセージが自動的に作成されます。 トランザクションメッセージを送信するイベントをトリガーに送信するには、作成したメッセージを[modify](../../channels/using/editing-transactional-message.md)および[publish](../../channels/using/publishing-transactional-message.md)する必要があります。
 
 1. イベントをWebサイトに統合します([イベントトリガーの統合](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)を参照)。
 
