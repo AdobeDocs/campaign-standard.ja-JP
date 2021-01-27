@@ -9,8 +9,8 @@ topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '345'
+ht-degree: 18%
 
 ---
 
@@ -32,7 +32,7 @@ Audience ManagerまたはPeopleコアサービスとの統合を使用中にエ�
 
    **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Shared Data Sources]**&#x200B;で、共有データソースが正しく設定されていることを確認します。
 
-   **[!UICONTROL Priority]** は、複数のデータソースを定義している場合に使用します。優先度は、定義された順序で受け取ったエイリアスとの照合に使用されるデータソースを決定します。 **[!UICONTROL Priority]** は、Triggers実装でのみ必要です。
+   **[!UICONTROL Priority]** は、複数のデータソースを定義している場合に使用します。優先度は、定義された順序で受け取ったエイリアスとの照合に使用されるデータソースを決定します。 **[!UICONTROL Priority]** は、トリガーの実装にのみ必要です。
 
    紐付けキーが正しいことを確認します。 オーディエンスの書き出しと読み込みに使用される、このフィールドのハッシュ/暗号化された値です。
 
