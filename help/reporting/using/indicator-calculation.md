@@ -332,7 +332,7 @@ ht-degree: 9%
    <td> 一意のインプレッション数<br /> </td> 
    <td> @uniqueimpressions<br /> </td> 
    <td> @unique(@count(status=表示))<br /> </td> 
-   <td> <span class="uicontrol">ターゲットユーザーのキャンペーンプロファイル(inAppProfile)</span>テンプレートに基づく&lt;a0/&gt;ユーザーの場合、user =受信者ID。<br /> モバイルアプリ(inAppBroadcast)のすべてのユーザー <span class="uicontrol">と、モバイルプロファイル(inApp)</span> テンプレートに基づく <span class="uicontrol">ターゲットユーザーを</span> ターゲットする場合は、user = MC Idまたは、ユーザー、モバイルアプリ、デバイスの一意の組み合わせを表す同等のユーザー。<br /> </td> 
+   <td> <span class="uicontrol">ターゲットユーザーのキャンペーンプロファイル(inAppProfile)</span>テンプレートに基づくユーザーの場合、user =受信者ID。<br /> モバイルアプリ(inAppBroadcast)のすべてのユーザー <span class="uicontrol">と、モバイルプロファイル(inApp)</span> テンプレートに基づく <span class="uicontrol">ターゲットユーザーを</span> ターゲットする場合は、user = MC Idまたは、ユーザー、モバイルアプリ、デバイスの一意の組み合わせを表す同等のユーザー。<br /> </td> 
   </tr> 
   <tr> 
    <td> アプリ内クリック数<br /> </td> 
@@ -344,7 +344,7 @@ ht-degree: 9%
    <td> 個別アプリ内クリック数<br /> </td> 
    <td> @uniqueinapp<br /> </td> 
    <td> @unique(@count (status=clicks))<br /> </td> 
-   <td> <span class="uicontrol">ターゲットユーザーのキャンペーンプロファイル(inAppProfile)</span>テンプレートに基づく&lt;a0/&gt;ユーザーの場合、user =受信者ID。<br /> モバイルアプリ(inAppBroadcast)のすべてのユーザー <span class="uicontrol">と、モバイルプロファイル(inApp)</span> テンプレートに基づく <span class="uicontrol">ターゲットユーザーを</span> ターゲットする場合は、user = MC Idまたは、ユーザー、モバイルアプリ、デバイスの一意の組み合わせを表す同等のユーザー。<br /> </td> 
+   <td> <span class="uicontrol">ターゲットユーザーのキャンペーンプロファイル(inAppProfile)</span>テンプレートに基づくユーザーの場合、user =受信者ID。<br /> モバイルアプリ(inAppBroadcast)のすべてのユーザー <span class="uicontrol">と、モバイルプロファイル(inApp)</span> テンプレートに基づく <span class="uicontrol">ターゲットユーザーを</span> ターゲットする場合は、user = MC Idまたは、ユーザー、モバイルアプリ、デバイスの一意の組み合わせを表す同等のユーザー。<br /> </td> 
   </tr> 
   <tr> 
    <td> アプリ内クリックスルー率<br /> </td> 
@@ -362,7 +362,7 @@ ht-degree: 9%
    <td> 個別のアプリ内課金は<br />を却下 </td> 
    <td> @uniqueejousence<br /> </td> 
    <td> @unique(@count (status=close))<br /> </td> 
-   <td> <span class="uicontrol">ターゲットユーザーのキャンペーンプロファイル(inAppProfile)</span>テンプレートに基づく&lt;a0/&gt;ユーザーの場合、user =受信者ID。<br /> モバイルアプリ(inAppBroadcast)のすべてのユーザー <span class="uicontrol">と、モバイルプロファイル(inApp)</span> テンプレートに基づく <span class="uicontrol">ターゲットユーザーを</span> ターゲットする場合は、user = MC Idまたは、ユーザー、モバイルアプリ、デバイスの一意の組み合わせを表す同等のユーザー。<br /> </td> 
+   <td> <span class="uicontrol">ターゲットユーザーのキャンペーンプロファイル(inAppProfile)</span>テンプレートに基づくユーザーの場合、user =受信者ID。<br /> モバイルアプリ(inAppBroadcast)のすべてのユーザー <span class="uicontrol">と、モバイルプロファイル(inApp)</span> テンプレートに基づく <span class="uicontrol">ターゲットユーザーを</span> ターゲットする場合は、user = MC Idまたは、ユーザー、モバイルアプリ、デバイスの一意の組み合わせを表す同等のユーザー。<br /> </td> 
   </tr> 
   <tr> 
    <td> アプリ内解雇率<br /> </td> 
