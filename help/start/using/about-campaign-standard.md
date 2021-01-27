@@ -6,9 +6,9 @@ description: 主な機能、ユーザーインターフェイス、グローバ�
 audience: start
 content-type: reference
 topic-tags: about-adobe-campaign
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 100%
 
@@ -37,7 +37,7 @@ Adobe Campaign Standard は、オンラインとオフラインのマーケテ�
 
 ## クロスチャネルマーケティングキャンペーンのオーケストレーション{#orchestrate-campaigns}
 
-<img width="60px" alt="conditions" src="assets/icon_workflows.svg"/>
+<img width="60px" alt="条件" src="assets/icon_workflows.svg"/>
 
 クロスチャネルキャンペーンの計画、調整、オーケストレーションをおこないます。
 
@@ -47,7 +47,7 @@ Adobe Campaign Standard は、オンラインとオフラインのマーケテ�
 
 ## メッセージのデザインと送信{#design-send}
 
-<img width="60px" alt="conditions" src="assets/icon_send.svg"/>
+<img width="60px" alt="条件" src="assets/icon_send.svg"/>
 
 テストやレスポンシブデザイン戦略を通じて、複数のデバイス向けの E メール配信の最適化など、オンラインおよびオフラインの通信チャネルでメッセージをデザインし、送信します。
 
@@ -59,7 +59,7 @@ Adobe Campaign Standard は、オンラインとオフラインのマーケテ�
 
 ## キャンペーンの影響の追跡 {#track-impact-campaigns}
 
-<img width="60px" alt="conditions" src="assets/icon_report.svg"/>
+<img width="60px" alt="条件" src="assets/icon_report.svg"/>
 
 マーケティングキャンペーンが実行されて各メッセージが送信されると、Campaign Standard でキャンペーンの影響と受信者の行動を監視できます。
 
@@ -72,7 +72,7 @@ Adobe Campaign Standard は、オンラインとオフラインのマーケテ�
 
 ## プラットフォームの管理とデータモデルの拡張{#datamodel-apis}
 
-<img width="60px" alt="conditions" src="assets/icon_admin.svg"/>
+<img width="60px" alt="条件" src="assets/icon_admin.svg"/>
 
 独自のフィールドとリソースを使用して **Campaign Standard データモデルを拡張**&#x200B;し、あらゆるデータモデルの変更を単一ビューで監視します。[Campaign Standard データモデルの概要](../../developing/using/get-started-data-model.md)
 
