@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: application-settings
 context-tags: extAccount,main;extAccount,overview
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 6dda990d046cceae2a0c0da87764d4b6a16d9ae8
 workflow-type: tm+mt
-source-wordcount: '1774'
+source-wordcount: '1773'
 ht-degree: 85%
 
 ---
@@ -101,7 +101,7 @@ OAuth 2.0外部アカウントの場合は、次の詳細を入力します。
 * **OAuth 2.0の機密資格情報**:このセクションは、本質的に機密性の高い資格情報を対象としています。秘密鍵証明書の値は、追加された後に画面上でマスクされます。この時点では、読み取りや編集ができなくなります。 認証エンドポイントで、POSTのbodyパラメーターの代わりに特定の秘密鍵証明書をHTTP認証ヘッダーに挿入する必要がある場合は、その秘密鍵証明書の「ヘッダーに含める」オプションを選択できます。
 * **OAuth 2.0の機密でない資格情報**:このセクションは、本質的に機密性の低い資格情報を対象としています。秘密鍵証明書の値は、追加された後、画面に表示されます。また、これらは編集可能になります。  認証エンドポイントで、POSTのbodyパラメーターの代わりに特定の秘密鍵証明書をHTTP認証ヘッダーに挿入する必要がある場合は、その秘密鍵証明書の「ヘッダーに含める」オプションを選択できます。
 
-設定の終わりが終わったら、**コネクタをテスト**&#x200B;をクリックして、外部アカウントが正しく設定されていることを確認します。
+アカウント情報を入力したら、「**接続をテスト**」をクリックして、外部アカウントが正しく構成されていることを確認します。
 
 ![](assets/external_accounts_OAuth.png)
 
