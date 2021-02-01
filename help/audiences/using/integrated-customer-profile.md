@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: managing-profiles
 context-tags: marketingHistory,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: b3088ed3bbb8828393e28df8f982ed36e7e74590
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 100%
+source-wordcount: '281'
+ht-degree: 48%
 
 ---
 
@@ -22,18 +22,32 @@ ht-degree: 100%
 
 統合顧客プロファイルにアクセスする手順は次のとおりです。
 
-1. Adobe Campaign ホームページで、**[!UICONTROL Customer profiles]**&#x200B;カードまたは「**Profiles**」タブをクリックします。
-1. 連絡先を選択します。
+1. Adobe Campaignホームページで&#x200B;**[!UICONTROL Customer profiles]**&#x200B;カードまたは&#x200B;**プロファイル**&#x200B;タブをクリックし、プロファイルリストを表示します。
+
+1. 特定のフィールドに基づいてプロファイルを検索するには、検索パネルを開き、検索を実行するフィールドを選択します。
+
+
+   ![](assets/profile-search.png)
+
+1. 検索する値を指定し、Enterキーを押します。
+
+   >[!NOTE]
+   >
+   >検索は、電子メール、名、姓の各フィールドに加え、リソースの拡張時に追加されたカスタムフィールドに基づいて実行できます。
+   >
+   >検索では大文字と小文字が区別され、プリフィックスでのみ実行されます。 例えば、姓の最後の文字を使用してプロファイルを検索することはできません。
+
+1. 連絡先を選択して、プロファイルを開きます。
 
    ![](assets/mkt_hist_access.png)
 
 その結果、この連絡先の&#x200B;**マーケティング履歴**&#x200B;にアクセスできます。
 
-![](assets/mkt_hist_view.png)
-
 プロファイルに関する主要な情報は、イベントのリストと共に、このページで収集されます。
 
-リスト内のイベントをクリックして開きます。送信済みのメッセージや、プロファイルが購入したサービスにアクセスできます。
+リスト内のイベントをクリックして開きます。送信されたメッセージや、プロファイルがサブスクライブしているサービスにアクセスできます。
+
+![](assets/mkt_hist_view.png)
 
 >[!NOTE]
 >
