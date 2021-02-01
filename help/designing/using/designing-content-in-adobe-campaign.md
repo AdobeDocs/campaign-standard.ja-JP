@@ -7,10 +7,10 @@ audience: designing
 content-type: reference
 topic-tags: about-content-design
 translation-type: tm+mt
-source-git-commit: 15a4484ba846b1e08e5fa456a5448e76d60949c5
+source-git-commit: 300ffd374d7542817ffb7f37614e67804549cc3d
 workflow-type: tm+mt
-source-wordcount: '1225'
-ht-degree: 87%
+source-wordcount: '1250'
+ht-degree: 88%
 
 ---
 
@@ -118,7 +118,9 @@ E メールデザイナーを適切に使用し、最適な E メールを容易
 
    送信する前に、メッセージをプレビューします。Adobe Campaign は、Litmus を使用した E メールレンダリングのテスト機能を備えています。詳しくは、[E メールレンダリング](../../sending/using/email-rendering.md)を参照してください。
 
-メッセージに関するより多くのデザインと一般的なベストプラクティスを次の節に示します。[配信のベストプラクティス](../../sending/using/delivery-best-practices.md)。
+* 転送者のmetaタグは電子メールデザイナーではサポートされていません。
+
+メッセージに関するデザインと一般的なベストプラクティスについて詳しくは、ステップバイステップ形式のガイド「[Adobe Campaign の配信のベストプラクティス](https://helpx.adobe.com/jp/campaign/kb/delivery-best-practices.html)」を参照してください。
 
 ### フラグメントの更新 {#email-designer-updates}
 
