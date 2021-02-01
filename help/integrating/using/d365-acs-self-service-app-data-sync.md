@@ -6,7 +6,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 translation-type: tm+mt
-source-git-commit: 6be7a20cde8fcaee73972b8919765ea631f2f1ee
+source-git-commit: efa30d7ed4a0caf929da6f485681078318849cda
 workflow-type: tm+mt
 source-wordcount: '1795'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Microsoft Dynamics 365のテーブルをMicrosoft Dynamics 365とキャンペー
 
 **[!UICONTROL Microsoft Dynamics 365 to Campaign]**&#x200B;ページには、Microsoft Dynamics 365のエンティティのリストと、それらが同期されるAdobe Campaignのカスタムリソースが表示されます。 新しいマッピングの追加、既存のマッピングの編集または削除が可能です。
 
-![](assets/d365-to-acs-ui-page-ingress-top.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-ingress-top.png)
 
 次の表に、各列の説明を示します。
 
@@ -67,7 +67,7 @@ Microsoft Dynamics 365のテーブルをMicrosoft Dynamics 365とキャンペー
 1. ドロップダウンリストを使用して、マッピングするMicrosoft Dynamics 365およびキャンペーンテーブルを選択します。
 ページ上のその他の入力のほとんどは、選択したテーブルに依存します。
 
-   ![](assets/d365-to-acs-ui-page-ingress-choose-tables.png)
+   ![](assets/do-not-localize/d365-to-acs-ui-page-ingress-choose-tables.png)
 
    >[!NOTE]
    >各テーブルを2回以上マップすることはできません。 したがって、ドロップダウンの選択には、既にマッピングされているテーブルは含まれません。
@@ -84,7 +84,7 @@ Microsoft Dynamics 365のテーブルをMicrosoft Dynamics 365とキャンペー
 
 既存のマッピングを編集すると、テーブルの選択を編集できないことがわかります。
 
-![](assets/d365-to-acs-ui-page-ingress-table-read-only.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-ingress-table-read-only.png)
 
 これは、ページの下の方に行く入力は、これらのテーブルに関連付けられたフィールドに基づいているので、設計によるものです。 テーブルを変更すると、これらのテーブルに関連付けられているすべてのフィールドが無効になります。  マッピング先のテーブルを変更する場合は、前のページに戻り、変更するマッピングを削除し、新しいマッピングを追加する必要があります。
 
@@ -106,7 +106,7 @@ Microsoft Dynamics 365のテーブルをMicrosoft Dynamics 365とキャンペー
 
 新しいMicrosoft Dynamics 365をキャンペーンテーブルマッピングに追加する場合は、IDフィールドを識別する必要があります。
 
-![](assets/d365-to-acs-ui-page-ingress-mappings-first-key.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-ingress-mappings-first-key.png)
 
 Microsoft Dynamics 365の主キーは読み取り専用です。アプリケーションによって検出されます。
 
@@ -118,7 +118,7 @@ Microsoft Dynamics 365の主キーは読み取り専用です。アプリケー�
 
 主キーは、常に&#x200B;**[!UICONTROL Field Mappings]**&#x200B;セクションに一覧表示される最初のフィールド名になります。 注意：右側には、主キーであることを通知する次のアイコンが表示されます。
 
-![](assets/d365-to-acs-icon-primary-key.png)
+![](assets/do-not-localize/d365-to-acs-icon-primary-key.png)
 
 #### 追加その他のフィールドマッピング
 
@@ -126,14 +126,14 @@ Microsoft Dynamics 365の主キーは読み取り専用です。アプリケー�
 
 リストのMicrosoft Dynamics 365とキャンペーンフィールドを選択します。
 
-![](assets/d365-to-acs-ui-page-ingress-new-field-mapping.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-ingress-new-field-mapping.png)
 
 これらのリストには、ページの上部で選択したMicrosoft Dynamics 365およびキャンペーンテーブルに関連付けられたフィールド名が含まれます。
 
 **[!UICONTROL Apply updates]**&#x200B;切り替えボタンを使用すると、このフィールドに対する更新をMicrosoft Dynamics 365からキャンペーンに反映するかどうかを制御できます。
-* ![](assets/d365-to-acs-icon-switch-on.png)に切り替えると、Microsoft Dynamics 365の値に対する更新は、更新の発生時にAdobe Campaignに反映されます。
+* ![](assets/do-not-localize/d365-to-acs-icon-switch-on.png)に切り替えると、Microsoft Dynamics 365の値に対する更新は、更新の発生時にAdobe Campaignに反映されます。
 
-* ![](assets/d365-to-acs-icon-switch-off.png)をオフにした場合、データが最初に読み込まれる（または再生される）ときに値が反映されますが、Microsoft Dynamics 365のフィールドに対する増分更新は反映されません。
+* ![](assets/do-not-localize/d365-to-acs-icon-switch-off.png)をオフにした場合、データが最初に読み込まれる（または再生される）ときに値が反映されますが、Microsoft Dynamics 365のフィールドに対する増分更新は反映されません。
 
 >[!NOTE]
 >
@@ -142,7 +142,7 @@ Microsoft Dynamics 365の主キーは読み取り専用です。アプリケー�
 
 フィールドの値を選択すると、ドロップダウンメニューの下にデータタイプが表示されます。   値を1つのフィールドから別のフィールドにマッピングする場合は、この点に注意してください。
 
-![](assets/d365-to-acs-ui-page-ingress-mappings-fields-selected.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-ingress-mappings-fields-selected.png)
 
 >[!NOTE]
 >
@@ -194,7 +194,7 @@ Microsoft Dynamics 365の主キーは読み取り専用です。アプリケー�
 
 制御できる4つの指標は次のとおりです。****、**クリック数**、**開く**、**バウンス**&#x200B;を送信します。
 
-![](assets/d365-to-acs-ui-page-workflows-egress.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows-egress.png)
 
 **はい**&#x200B;を選択して、その種類のイベントをMicrosoft Dynamics 365にフローすることを確認します。
 
@@ -208,7 +208,7 @@ Microsoft Dynamics 365の主キーは読み取り専用です。アプリケー�
 
 「保存」をクリックして選択内容を保存する必要があることに注意してください。 また、Microsoft Dynamics 365 **ワークフローへの**&#x200B;キャンペーンを停止してから、[再生]をクリックして変更を組み込む必要があります。
 
-![](assets/d365-to-acs-ui-page-workflows-optinout-disabled.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows-optinout-disabled.png)
 
 ### オプトイン同期方向外
 
