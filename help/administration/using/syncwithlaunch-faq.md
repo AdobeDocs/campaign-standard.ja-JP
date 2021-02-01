@@ -7,7 +7,7 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: a8730046710445022f6df1e7af407bb078a3edf9
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 0%
@@ -28,7 +28,7 @@ application. 組織単位の詳細については、[ページ](../../administra
 
 ## 設定済みのモバイルアプリケーションをAdobe Campaign Standardで編集できません。モバイルアプリケーションは読み取りモードのみです。{#read-mode-mobile-app}
 
-**[!UICONTROL Access Authorization ]**&#x200B;セクションのモバイルアプリケーションの組織単位を確認します。 割り当てられた組織単位のユーザーのみがモバイルアプリケーションを編集できます。
+**[!UICONTROL Access Authorization]**&#x200B;セクションのモバイルアプリケーションの組織単位を確認します。 割り当てられた組織単位のユーザーのみがモバイルアプリケーションを編集できます。
 
 組織単位の詳細については、[ページ](../../administration/using/organizational-units.md)を参照してください。
 
