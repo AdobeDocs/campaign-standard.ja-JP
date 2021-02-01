@@ -7,10 +7,10 @@ audience: sending
 content-type: reference
 topic-tags: monitoring-messages
 translation-type: tm+mt
-source-git-commit: 46bcdeec3731a7da12997cb195195fecfa2f84e5
+source-git-commit: 0f057375e5cd63605af460f08cd39bed00435184
 workflow-type: tm+mt
-source-wordcount: '1299'
-ht-degree: 87%
+source-wordcount: '1256'
+ht-degree: 76%
 
 ---
 
@@ -76,19 +76,23 @@ ht-degree: 87%
 
 「**無視**」のタイプの一時的エラーが原因でメッセージ送信が失敗した場合は、配信期間中に再試行がおこなわれます。エラーのタイプについて詳しくは、[配信エラーのタイプと理由](#delivery-failure-types-and-reasons)を参照してください。
 
-再試行の回数（送信の開始日以降に実行すべき再試行の回数）と再試行間の最小限の遅延は、特定のドメインで過去から現在まで IP がどの程度のパフォーマンスを発揮しているかに基づいて、Adobe Campaign Enhanced MTA で管理されるようになりました。Campaign の&#x200B;**再試行**&#x200B;設定は無視されます。Adobe Campaign拡張MTAはプッシュチャネルでは使用できないことに注意してください。
+再試行の数(送信が開始された翌日に実行される再試行の数)と、再試行間の最小遅延は、IPが特定のドメインで過去と現在の両方のパフォーマンスをどの程度上回るかに基づいて<!--managed by the Adobe Campaign Enhanced MTA,-->なされます。 Campaign の&#x200B;**再試行**&#x200B;設定は無視されます。
+
+<!--Please note that Adobe Campaign Enhanced MTA is not available for the Push channel.-->
 
 配信の期間を変更するには、配信または配信テンプレートの詳細設定パラメーターに移動して、「[Validity period](../../administration/using/configuring-email-channel.md#validity-period-parameters)」セクションの「**[!UICONTROL Delivery duration]**」フィールドを編集します。
 
 >[!IMPORTANT]
 >
->**Campaign 配信の「**[!UICONTROL Delivery duration]**」パラメーターは、3.5 日以下に設定した場合にのみ、使用されるようになりました。** 3.5 日を超える値を定義した場合、その値は、Adobe Campaign Enhanced MTA で管理されるようになったので、考慮されません。
+>**Campaign 配信の「**[!UICONTROL Delivery duration]**」パラメーターは、3.5 日以下に設定した場合にのみ、使用されるようになりました。** 3.5 日を超える値を定義した場合、その値は考慮されません。
 
-例えば、配信の再試行を翌日に停止させたい場合は、配信期間を **1d** に設定します。Enhanced MTA はこの設定に従って、翌日再試行キューにあるメッセージを削除します。
+例えば、配信の再試行を1日後に停止する場合、配信期間を&#x200B;**1d**&#x200B;に設定すると、再試行キュー内のメッセージは1日後に削除されます。
+
+<!--For example, if you want retries for a delivery to stop after one day, you can set the delivery duration to **1d**, and the Enhanced MTA will honor that setting by removing messages in the retry queue after one day.-->
 
 >[!NOTE]
 >
->メッセージが Enhanced MTA キューに置かれた日数が 3.5 日に達しても配信に失敗した場合は、タイムアウトになり、[配信ログ](../../sending/using/monitoring-a-delivery.md#delivery-logs)でのステータスは「**[!UICONTROL Sent]**」から「**[!UICONTROL Failed]**」に更新されます。
+>メッセージが最大3.5日間再試行キューに入り、配信に失敗した場合は、タイムアウトになり、[配信ログ](../../sending/using/monitoring-a-delivery.md#delivery-logs)の<!--from **[!UICONTROL Sent]**-->から&#x200B;**[!UICONTROL Failed]**&#x200B;にステータスが更新されます。
 
 <!--The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../administration/using/configuring-email-channel.md#sending-parameters)).-->
 
@@ -101,13 +105,13 @@ ht-degree: 87%
 
 ## バウンスメールの選定 {#bounce-mail-qualification}
 
-同期配信失敗のエラーメッセージについては、Enhanced MTA がバウンスのタイプと選定を判断し、その情報を Campaign に返します。
-
-非同期バウンスは、引き続き「**[!UICONTROL Inbound email]**」ルールを通じて、inMail プロセスで選定されます。これらのルールにアクセスするには、左上の **[!UICONTROL Adobe Campaign]** ロゴをクリックしてから、**[!UICONTROL Administration > Channels > Email > Email processing rules]**&#x200B;を選択し、「**[!UICONTROL Bounce mails]**」を選択します。このルールについて詳しくは、[この節](../../administration/using/configuring-email-channel.md#email-processing-rules)を参照してください。
+同期配信障害のエラーメッセージの場合、Message Enhanced MTA(Message Transfer Agent)がバウンスのタイプと条件を決定し、その情報をキャンペーンに返します。
 
 >[!NOTE]
 >
->バウンスメールの選定は、Adobe Campaign Enhanced MTA によって管理されるようになりました。Campaign の&#x200B;**[!UICONTROL Message qualification]**&#x200B;テーブルでのバウンスの選定は使用されなくなりました。
+>Campaign の&#x200B;**[!UICONTROL Message qualification]**&#x200B;テーブルでのバウンスの選定は使用されなくなりました。
+
+非同期バウンスは、引き続き「**[!UICONTROL Inbound email]**」ルールを通じて、inMail プロセスで選定されます。これらのルールにアクセスするには、左上の **[!UICONTROL Adobe Campaign]** ロゴをクリックしてから、**[!UICONTROL Administration > Channels > Email > Email processing rules]**&#x200B;を選択し、「**[!UICONTROL Bounce mails]**」を選択します。このルールについて詳しくは、[この節](../../administration/using/configuring-email-channel.md#email-processing-rules)を参照してください。
 
 <!--Bounces can have the following qualification statuses:
 
@@ -119,7 +123,7 @@ To list the various bounces and their associated error types et reasons, click t
 
 ![](assets/qualification.png)-->
 
-## ダブルオプトインメカニズムによるメール配信品質の最適化 {#optimizing-mail-deliverability-with-double-opt-in-mechanism}
+## 重複オプトインメカニズム{#optimizing-mail-deliverability-with-double-opt-in-mechanism}による電子メールの配信品質の最適化
 
 ダブルオプトインは、E メールを送信する際のベストプラクティスです。不正な E メールアアドレスや、無効な E メールアドレス、スパムボットからプラットフォームを保護し、スパムの苦情が報告されないようにします。
 
