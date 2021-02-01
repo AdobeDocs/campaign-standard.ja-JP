@@ -7,10 +7,10 @@ user-guide-description: 'Campaign Standard の使用に必要な主要な機能�
 breadcrumb-title: Campaign Standard
 title: Campaign Standard ガイド
 translation-type: tm+mt
-source-git-commit: 77fe514d4862fafcc6201d0cec9045469bb2643d
+source-git-commit: 36efc64f9be3863e5e16381aaba445d2f13eac4d
 workflow-type: tm+mt
-source-wordcount: '1731'
-ht-degree: 97%
+source-wordcount: '1755'
+ht-degree: 95%
 
 ---
 
@@ -237,6 +237,7 @@ ht-degree: 97%
       + [Campaign と Experience Manager の統合の設定](integrating/using/configure-experience-manager.md)
       + [Adobe Experience Manager での E メールコンテンツの作成](integrating/using/creating-email-experience-manager.md)
       + [Experience Manager での Campaign フォームの作成](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
+      + [Adobe Experience Managerとの統合による多言語電子メールの作成](integrating/using/creating-multilingual-email-aem.md)
    + Campaign と Target {#working-with-campaign-and-target}
       + [Campaign と Target の統合について](integrating/using/about-campaign-target-integration.md)
       + [Campaign と Target の統合の設定](integrating/using/configuring-the-campaign-target-integration.md)
@@ -450,6 +451,7 @@ ht-degree: 97%
       + [Experience Platform SDK 統合 FAQ](administration/using/aep-faq.md)
       + [Adobe Campaign Standard の使用例をサポートするための Launch ルールの設定](administration/using/configuring-rules-launch.md)
       + [Adobe Campaign Standard でサポートされるモバイルの使用例](administration/using/supported-mobile-use-cases.md)
+      + [SDK v4からAdobe Experience PlatformSDKにモバイルアプリケーションを移行する方法](administration/using/sdkv4-migration.md)
    + SMSチャネルの設定 {#configuring-sms}
       + [SMS チャネルの実装](administration/using/configuring-sms-channel.md)
       + [SMS コネクタのプロトコルと設定](administration/using/sms-protocol.md)
