@@ -4,7 +4,7 @@ product: campaign
 title: 複合 ID キーを使用したリソースの呼び出し
 description: 複合IDキーを使用してリソースを呼び出す方法を学習します。
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 7%
@@ -37,7 +37,7 @@ ht-degree: 7%
 
 1. IDキーを設定する前に、目的のフィールドでリソースが拡張され、発行されていることを確認します。 詳しくは、[こちらの節](../../developing/using/creating-or-extending-the-resource.md)を参照してください。
 
-1. **[!UICONTROL Administration]** / **[!UICONTROL Developement]** / **[!UICONTROL Custom resources]**&#x200B;メニューに移動し、**[!UICONTROL Profile]**&#x200B;リソースを開きます。
+1. **[!UICONTROL Administration]** / **[!UICONTROL Development]** / **[!UICONTROL Custom resources]**&#x200B;メニューに移動し、**[!UICONTROL Profile]**&#x200B;リソースを開きます。
 
    ![](assets/uc_idkey1.png)
 
