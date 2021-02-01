@@ -6,7 +6,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 translation-type: tm+mt
-source-git-commit: 1e05db3fecc87a026750f40acb0ff063706e3f38
+source-git-commit: efa30d7ed4a0caf929da6f485681078318849cda
 workflow-type: tm+mt
 source-wordcount: '1071'
 ht-degree: 2%
@@ -65,7 +65,7 @@ Microsoft Dynamics 365セルフサービス統合アプリケーションとのA
 
 UIを初めて参照すると、次のようなヘッダーを含むページが表示されます。
 
-![](assets/d365-to-acs-ui-header.png)
+![](assets/do-not-localize/d365-to-acs-ui-header.png)
 
 >[!NOTE]
 >
@@ -79,7 +79,7 @@ UIを初めて参照すると、次のようなヘッダーを含むページが
 
 正しい組織とインスタンスがある場合は、「ハンバーガー」メニューをクリックしてドロップダウンメニューを表示します。 次に、ドロップダウンメニューの&#x200B;**[!UICONTROL Settings...]**&#x200B;をクリックして、Microsoft Dynamics 365およびキャンペーン用の資格情報を入力したページにアクセスします（以下を参照）。
 
-![](assets/d365-to-acs-ui-page-workflows-menu-pointers.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows-menu-pointers.png)
 
 **[!UICONTROL Settings]**&#x200B;ページで、次のセクションを設定します。
 
@@ -94,11 +94,11 @@ UIを初めて参照すると、次のようなヘッダーを含むページが
 
 **[!UICONTROL Workflows]**&#x200B;ページで、**[!UICONTROL Microsoft Dynamics 365 to Campaign]**&#x200B;ワークフローに関連付けられている鉛筆アイコンをクリックして、設定を編集します。
 
-![](assets/d365-to-acs-ui-page-workflows-ingress-edit-pointer.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows-ingress-edit-pointer.png)
 
 **[!UICONTROL Microsoft Dynamics 365 to Campaign]**&#x200B;ページで、設定したテーブルマッピングのリストにアクセスできます。  デフォルトでは、デフォルトで連絡先/プロファイルのマッピングがすぐに使用できます。 他のすべてのカスタムエンティティは、個別に設定する必要があります。
 
-![](assets/d365-to-acs-ui-page-ingress-top-pointers.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-ingress-top-pointers.png)
 
 **[!UICONTROL Edit Table Mapping]**&#x200B;ページで&#x200B;**[!UICONTROL Mappings]**&#x200B;セクションをチェックし、Microsoft Dynamics 365のフィールドがキャンペーンの正しいフィールドにマップされていることを確認します。 他のマッピングを追加する必要がある場合は、置き換えやフィルターだけでなく、今すぐ追加してください。 [詳細情報](../../integrating/using/d365-acs-self-service-app-data-sync.md)。
 
@@ -108,10 +108,10 @@ UIを初めて参照すると、次のようなヘッダーを含むページが
 
 >[!IMPORTANT]
 >
->**強く**&#x200B;お勧めするのは、実稼動環境で実行する前に、まずStage環境またはDevで実行することです。 ステージ/開発インスタンスがヘッダーで選択されていることを確認してください。
+>**強く**&#x200B;お勧めするのは、実稼動環境で実行する前に、まずStage環境またはDevで実行することです。 ヘッダーでステージ/開発インスタンスが選択されていることを確認してください。
 
 
-![](assets/d365-to-acs-ui-page-workflows-ingress-play-pointer.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows-ingress-play-pointer.png)
 
 実行後は、Microsoft Dynamics 365のエントリを追加または変更し、数分以内にAdobe Campaignの変化を観察することで、テストを実行できます。 この処理を停止する必要がある場合は、同じボタンを押すだけで停止できます。 [詳細情報](../../integrating/using/d365-acs-self-service-app-workflows.md#workflow-status)
 
@@ -124,9 +124,9 @@ UIを初めて参照すると、次のようなヘッダーを含むページが
 
 表示/編集する&#x200B;**ORG**&#x200B;と&#x200B;**INSTANCE**&#x200B;を選択します。 これらのフィールドは読み取り専用に表示されますが、マウスカーソルをフィールドの上に置くと編集可能になります。
 
-ヘッダーの右側に3本の水平線![](assets/d365-to-acs-icon-hamburger.png)が表示されたボタンをクリックすると、ドロップダウンメニューが表示されます。
+ヘッダーの右側に3本の水平線![](assets//do-not-localize/d365-to-acs-icon-hamburger.png)が表示されたボタンをクリックすると、ドロップダウンメニューが表示されます。
 
-ドロップダウンメニューのエントリは、
+ドロップダウンメニューのエントリは次のとおりです。
 
 * **設定**:このオプションを選択すると、Microsoft Dynamics 365およびAdobe Campaign用のAPI資格情報や、その他のアプリケーションの一般設定を指定できる画面が表示されます。
 
@@ -146,14 +146,14 @@ UIを初めて参照すると、次のようなヘッダーを含むページが
 
 **[!UICONTROL Edit Table Mapping]**&#x200B;画面のパンくずリストとページタイトルの例を以下に示します。 この場合、**[!UICONTROL Workflows]**&#x200B;または&#x200B;**[!UICONTROL Microsoft Dynamics 365 to Campaign]**&#x200B;のテキストをクリックすると、前の画面の1つに移動できます。 **[!UICONTROL Edit Table Mapping]** 」は、現在の画面であるため、この場合はクリックできません。
 
-![](assets/d365-to-acs-breadcrumbs-ingress.png)
+![](assets/do-not-localize/d365-to-acs-breadcrumbs-ingress.png)
 
 ### 共通ボタン{#app-buttons}
 
 セルフサービスアプリの複数のページでは、次のアイコンが使用されます。
 
-![](assets/d365-to-acs-icon-add.png) -リスト追加に対する新しいアイテム。
+![](assets/do-not-localize/d365-to-acs-icon-add.png) -リスト追加に対する新しいアイテム。
 
-![](assets/d365-to-acs-icon-edit.png)  — 既に存在するものを編集する
+![](assets/do-not-localize/d365-to-acs-icon-edit.png)  — 既に存在するものを編集する
 
-![](assets/d365-to-acs-icon-delete.png)  — 項目のリストから項目を削除する
+![](assets/do-not-localize/d365-to-acs-icon-delete.png)  — 項目のリストから項目を削除する
