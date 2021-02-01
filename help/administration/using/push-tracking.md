@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: df1ec680d0efcf69a00128a876a2e14ba0f6e771
 workflow-type: tm+mt
-source-wordcount: '819'
-ht-degree: 2%
+source-wordcount: '949'
+ht-degree: 1%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 2%
 
 ## プッシュ追跡について{#about-push-tracking}
 
-プッシュ通知が完全に開発されたことを確認するには、トラッキング部分が正しく実装されていることを確認する必要があります。
-ここでは、プッシュ通知の実装の最初の部分が既に実装済みであることを前提としています。
+プッシュ通知が完全に開発されたことを確認するには、すべてのプッシュ通知でトラッキングが有効になっているわけではないので、トラッキング部分が正しく実装されていることを確認する必要があります。 これを有効にするには、開発者はトラッキングが有効になっている配信を特定する必要があります。Adobe Campaign Standardは&#x200B;**または** off **の2つの値**&#x200B;を持つ`_acsDeliveryTracking`というフラグを送ります。 アプリの開発者は、**に**&#x200B;と設定された変数を持つ配信に対してのみ、トラッキングリクエストを送信する必要があります。
 
-* アプリユーザーの登録
-* プッシュ通知メッセージの処理
+>[!IMPORTANT]
+>
+>この変数は、21.1リリースより前に設定された配信や、カスタムテンプレートを使用する配信は使用できません。
 
 プッシュトラッキングは3つのタイプに分かれています。
 
@@ -50,6 +50,8 @@ Campaign Standardのためのトラッキングを導入するには、モバイ
 
 インプレッションの追跡では、**[!UICONTROL trackAction()]**&#x200B;関数を呼び出す際に、アクションの値&quot;7&quot;を送信する必要があります。
 
+21.1リリースより前に作成された配信やカスタムテンプレートを使用した配信については、[](../../administration/using/push-tracking.md#about-push-tracking)を参照してください。
+
 ```
 @Override
 public void onMessageReceived(RemoteMessage remoteMessage) {
@@ -57,8 +59,18 @@ public void onMessageReceived(RemoteMessage remoteMessage) {
   if (data.size() > 0) {
     String deliveryId = data.get("_dId");
     String messageId = data.get("_mId");
+    String acsDeliveryTracking = data.get("_acsDeliveryTracking");
+ 
+    /*
+    This is to handle deliveries created before 21.1 release or deliveries with custom template
+    where acsDeliveryTracking is not available.
+    */
+    if( acsDeliveryTracking == null ) {
+        acsDeliveryTracking = "on";
+    }
+ 
     HashMap<String, String> contextData = new HashMap<>();
-    if (deliveryId != null && messageId != null) {
+    if (deliveryId != null && messageId != null && acsDeliveryTracking.equals("on")) {
                 contextData.put("deliveryId", deliveryId);
                 contextData.put("broadlogId", messageId);
                 contextData.put("action", "7");
@@ -78,6 +90,8 @@ public void onMessageReceived(RemoteMessage remoteMessage) {
 * ユーザーは通知を表示し、クリックして、開いている追跡に変換します。
 
 これを処理するには、2つのインテントを使用する必要があります。1つは通知をクリックするためのもので、もう1つは通知を閉じるためのものです。
+
+21.1リリースより前に作成された配信やカスタムテンプレートを使用した配信については、[](../../administration/using/push-tracking.md#about-push-tracking)を参照してください。
 
 **[!UICONTROL MyFirebaseMessagingService.java]**
 
@@ -129,14 +143,23 @@ public class NotificationDismissedReceiver extends BroadcastReceiver {
         Bundle data = intent.getExtras();
         String deliveryId = data.getString("_dId");
         String messageId = data.getString("_mId");
-  
+        String acsDeliveryTracking = data.get("_acsDeliveryTracking");
+         
+        /*
+        This is to handle deliveries created before 21.1 release or deliveries with custom template
+        where acsDeliveryTracking is not available.
+        */
+        if( acsDeliveryTracking == null ) {
+            acsDeliveryTracking = "on";
+        }
+ 
         HashMap<String, Object> contextData = new HashMap<>();
-  
+ 
         //We only send the click tracking since the user dismissed the notification
-        if (deliveryId != null && messageId != null) {
+        if (deliveryId != null && messageId != null && acsDeliveryTracking.equals("on")) {
             contextData.put("deliveryId", deliveryId);
             contextData.put("broadlogId", messageId);
-            contextData.put("action", "1");
+            contextData.put("action", "2");
             MobileCore.trackAction("tracking", contextData);
         }
     }
@@ -151,34 +174,44 @@ public class NotificationDismissedReceiver extends BroadcastReceiver {
 
 このコードは、クリックインプレッショントラッキングの導入に基づいています。 **[!UICONTROL Intent]**&#x200B;を設定したら、追跡情報をAdobe Campaign Standardに送り返す必要があります。 この場合、**[!UICONTROL Open Intent]**&#x200B;をアプリ内の特定の表示で開くように設定する必要があります。これにより、**[!UICONTROL Intent Object]**&#x200B;内の通知データを使用してonResumeメソッドが呼び出されます。
 
+21.1リリースより前に作成された配信やカスタムテンプレートを使用した配信については、[](../../administration/using/push-tracking.md#about-push-tracking)を参照してください。
+
 ```
 @Override
 protected void onResume() {
     super.onResume();
     handleTracking();
 }
-  
-  
+ 
+ 
 private void handleTracking() {
     //Check to see if this view was opened based on a notification
     Intent intent = getIntent();
     Bundle data = intent.getExtras();
-  
+ 
     if (data != null) {
-        //Looks it was opened based on the notification, lets get the tracking we passed on.
+        //This was opened based on the notification, you need to get the tracking that was passed on.
         String deliveryId = data.getString("_dId");
         String messageId = data.getString("_mId");
-  
-        HashMap<String, Object> contextData = new HashMap<>();
-  
-        if (deliveryId != null && messageId != null) {
+        String acsDeliveryTracking = data.get("_acsDeliveryTracking");
+        /*
+        This is to handle deliveries created before 21.1 release or deliveries with custom template
+        where acsDeliveryTracking is not available.
+        */
+        if( acsDeliveryTracking == null) {
+            acsDeliveryTracking = "on";
+        }
+ 
+        HashMap<String, String> contextData = new HashMap<>();
+ 
+        if (deliveryId != null && messageId != null && acsDeliveryTracking.equals("on")) {
             contextData.put("deliveryId", deliveryId);
             contextData.put("broadlogId", messageId);
-  
+ 
             //Send Click Tracking since the user did click on the notification
             contextData.put("action", "2");
             MobileCore.trackAction("tracking", contextData);
-  
+ 
             //Send Open Tracking since the user opened the app
             contextData.put("action", "1");
             MobileCore.trackAction("tracking", contextData);
@@ -207,20 +240,29 @@ iOS通知の動作方法を理解するには、アプリの3つの状態を詳�
 >
 >iOSインプレッショントラッキングは正確ではなく、信頼性が高いとは見なされません。
 
+21.1リリースより前に作成された配信やカスタムテンプレートを使用した配信については、[](../../administration/using/push-tracking.md#about-push-tracking)を参照してください。
+
 次のコードターゲット背景アプリ：
 
 ```
 // In didReceiveRemoteNotification event handler in AppDelegate.m
-  
+ 
 //In order to handle push notification when only in background with content-available: 1
 func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable : Any], fetchCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void) {
-  
+ 
         //Check if the app is not in the foreground right now
         if(UIApplication.shared.applicationState != .active) {
             let deliveryId = userInfo["_dId"] as? String
             let broadlogId = userInfo["_mId"] as? String
-            if (deliveryId != nil && broadlogId != nil) {
-               ACPCore.trackAction("tracking", data: ["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"7"])
+            let acsDeliveryTracking = userInfo["_acsDeliveryTracking"] as? String
+            /*
+            This is to handle deliveries created before 21.1 release or deliveries with custom template where acsDeliveryTracking is not available.
+            */
+            if( acsDeliveryTracking == nil ) {
+                acsDeliveryTracking = "on";
+            }
+            if (deliveryId != nil && broadlogId != nil && acsDeliveryTracking?.caseInsensitiveCompare("on") == ComparisonResult.orderedSame) {
+               ADBMobile.trackAction("tracking", data: ["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"7"])
             }
         }
         completionHandler(UIBackgroundFetchResult.noData)
@@ -231,15 +273,22 @@ func application(_ application: UIApplication, didReceiveRemoteNotification user
 
 ```
 // This will get called when the app is in the foreground
-  
+ 
 func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
-  
-  
+ 
+ 
         let userInfo = notification.request.content.userInfo
         let deliveryId = userInfo["_dId"] as? String
         let broadlogId = userInfo["_mId"] as? String
-        if (deliveryId != nil && broadlogId != nil) {
-             ACPCore.trackAction("tracking", data: ["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"7"])
+        let acsDeliveryTracking = userInfo["_acsDeliveryTracking"] as? String
+        /*
+        This is to handle deliveries created before 21.1 release or deliveries with custom template where acsDeliveryTracking is not available.
+        */
+        if( acsDeliveryTracking == nil ) {
+            acsDeliveryTracking = "on";
+        }
+        if (deliveryId != nil && broadlogId != nil && acsDeliveryTracking?.caseInsensitiveCompare("on") == ComparisonResult.orderedSame) {
+             ADBMobile.trackAction("tracking", data: ["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"7"])
         }
         completionHandler([.alert,.sound])
     }
@@ -247,7 +296,8 @@ func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent noti
 
 ### クリック追跡の実装方法{#push-click-tracking-iOS}
 
-クリック追跡では、**[!UICONTROL trackAction()]**&#x200B;関数を呼び出す際に、アクションの値&quot;2&quot;を送信する必要があります。
+クリック追跡では、**[!UICONTROL trackAction()]**関数を呼び出す際に、アクションの値&quot;2&quot;を送信する必要があります。
+21.1リリースより前に作成された配信やカスタムテンプレートを使用した配信については、[](../../administration/using/push-tracking.md#about-push-tracking)を参照してください。
 
 ```
 // AppDelegate.swift
@@ -298,7 +348,14 @@ func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive respo
             print("Dismiss Action")
             let deliveryId = userInfo["_dId"] as? String
             let broadlogId = userInfo["_mId"] as? String
-            if (deliveryId != nil && broadlogId != nil) {
+            let acsDeliveryTracking = userInfo["_acsDeliveryTracking"] as? String
+            /*
+            This is to handle deliveries created before 21.1 release or deliveries with custom template where acsDeliveryTracking is not available.
+            */
+            if( acsDeliveryTracking == nil ) {
+                acsDeliveryTracking = "on";
+            }
+            if (deliveryId != nil && broadlogId != nil && acsDeliveryTracking?.caseInsensitiveCompare("on") == ComparisonResult.orderedSame) {
                 ADBMobile.trackAction("tracking", data: ["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"2"])
             }
         default:
@@ -312,16 +369,18 @@ func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive respo
 
 アプリを開くにはユーザーがクリック通知を必要とするので、「1」と「2」を送信する必要があります。 プッシュ通知を通じてアプリが起動または開かれない場合、追跡イベントは発生しません。
 
+21.1リリースより前に作成された配信やカスタムテンプレートを使用した配信については、[](../../administration/using/push-tracking.md#about-push-tracking)を参照してください。
+
 ```
 import Foundation
 import UserNotifications
 import UserNotificationsUI
-  
+ 
 class NotificationDelegate: NSObject, UNUserNotificationCenterDelegate {
-  
+ 
     // Called when user clicks the push notification or also called from willPresent()
     func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
-  
+ 
         let userInfo = response.notification.request.content.userInfo
         os_log("App push data %{public}@, in userNotificationCenter:didReceive()", type: .debug, userInfo)
         switch response.actionIdentifier {
@@ -329,16 +388,30 @@ class NotificationDelegate: NSObject, UNUserNotificationCenterDelegate {
             //This is to handle the Dismiss Action
             let deliveryId = userInfo["_dId"] as? String
             let broadlogId = userInfo["_mId"] as? String
-            if (deliveryId != nil && broadlogId != nil) {
-                ACPCore.trackAction("tracking", data: ["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"2"])
+            let acsDeliveryTracking = userInfo["_acsDeliveryTracking"] as? String
+            /*
+            This is to handle deliveries created before 21.1 release or deliveries with custom template where acsDeliveryTracking is not available.
+            */
+            if( acsDeliveryTracking == nil ) {
+                acsDeliveryTracking = "on";
+            }
+            if (deliveryId != nil && broadlogId != nil && acsDeliveryTracking?.caseInsensitiveCompare("on") == ComparisonResult.orderedSame) {
+                ADBMobile.trackAction("tracking", data: ["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"2"])
             }
         default:
             //This is to handle the tracking when the app opens
             let deliveryId = userInfo["_dId"] as? String
             let broadlogId = userInfo["_mId"] as? String
-            if (deliveryId != nil && broadlogId != nil) {
-                ACPCore.trackAction("tracking", data: ["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"2"])
-                ACPCore.trackAction("tracking", data: ["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"1"])
+            let acsDeliveryTracking = userInfo["_acsDeliveryTracking"] as? String
+            /*
+            This is to handle deliveries created before 21.1 release or deliveries with custom template where acsDeliveryTracking is not available.
+            */
+            if( acsDeliveryTracking == nil ) {
+                acsDeliveryTracking = "on";
+            }
+            if (deliveryId != nil && broadlogId != nil && acsDeliveryTracking?.caseInsensitiveCompare("on") == ComparisonResult.orderedSame) {
+                ADBMobile.trackAction("tracking", data: ["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"2"])
+                ADBMobile.trackAction("tracking", data: ["deliveryId": deliveryId!, "broadlogId": broadlogId!, "action":"1"])
             }
         }
         completionHandler()
