@@ -7,9 +7,9 @@ audience: reporting
 content-type: reference
 topic-tags: about-reporting
 translation-type: tm+mt
-source-git-commit: 6fffc6a3574c71c01f1e07ff4e6e6aa194479079
+source-git-commit: e129cde33b24831122433bd4b400204f38799b11
 workflow-type: tm+mt
-source-wordcount: '1285'
+source-wordcount: '1295'
 ht-degree: 6%
 
 ---
@@ -106,7 +106,7 @@ ht-degree: 6%
    <td> 電子メールの送信に使用するIP。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 都道府県<br /> </td> 
+   <td> 状態<br /> </td> 
    <td> 州が受信者のプロファイルに登録されました。<br /> </td> 
   </tr> 
   <tr> 
@@ -247,8 +247,12 @@ ht-degree: 6%
    <td> 配信を開いた受信者の数です。<br /> </td> 
   </tr> 
   <tr> 
+   <td> 一意の購読解除<br /> </td> 
+   <td> 購読解除リンクをクリックした受信者の数です。<br /> </td> 
+  </tr> 
+  <tr> 
    <td> 登録解除率<br /> </td> 
-   <td> 配信されたメッセージと比較した受信者別購読解除の割合。<br /> </td> 
+   <td> 配信されたメッセージと比較した一意の購読解除数。<br /> </td> 
   </tr> 
   <tr> 
    <td> 購読解除済み<br /> </td> 
