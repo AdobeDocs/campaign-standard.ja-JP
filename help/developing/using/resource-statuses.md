@@ -7,7 +7,7 @@ audience: developing
 content-type: reference
 topic-tags: about-custom-resources
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 1%
@@ -34,7 +34,7 @@ ht-degree: 1%
    >
    >**[!UICONTROL Cancel re-draft]**&#x200B;オプションは、再ドラフトするリソースに、「発行済み」ステータスの他のリソースを経由するリンクが含まれている場合に利用できます。 このオプションを使用すると、「再ドラフト」プロセスを元に戻すことができます。 その後、カスタムリソースは元のステータスに戻ります。
 
-* **発行済み**:リソースが公開されました。リソースが最終変更日より後に変更された場合は、最新の変更を考慮してリソースを再発行するように勧めるメッセージが表示されます。
+* **発行済み**:リソースが公開されました。リソースが最終変更日より後に変更された場合は、最新の変更を考慮してリソースを再発行するように促すメッセージが表示されます。
 
 **[!UICONTROL Do not publish latest modifications]**&#x200B;フィールドは、今後のパブリケーションで変更が考慮されないようにします。
 
