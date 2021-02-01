@@ -7,10 +7,10 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 translation-type: tm+mt
-source-git-commit: 64eb4fd9bf50cf4a4fb16c1bf8ee29f3f2f583c2
+source-git-commit: c981bd524400e49929d9557aab730ce1ec615551
 workflow-type: tm+mt
-source-wordcount: '1249'
-ht-degree: 81%
+source-wordcount: '1257'
+ht-degree: 80%
 
 ---
 
@@ -64,11 +64,11 @@ Campaign ホームページは、主な Adobe Campaign 機能にすばやくア�
 
 ### ヘルプ {#help}
 
-**ヘルプ**&#x200B;アイコンは、Adobe Experience Leagueを製品に取り込みます。
+右上隅の「**ヘルプ**」アイコンをクリックすると、Adobe Experience Leagueが製品に取り込まれます。
 
 ![](assets/ux_help.png)
 
-* **[!UICONTROL Search]** フィールド：検索結果には、ドキュメントやヘルプ記事、コミュニティフォーラムの結果、ビデオコンテンツなどが含まれ、より多くのコンテンツに簡単にアクセスでき、アプリケーションを最大限に活用できます。
+**[!UICONTROL Search]**&#x200B;フィールドを使用して、ガイダンスを見つけます。 検索結果には、ドキュメントやヘルプ記事、コミュニティフォーラムの結果、ビデオコンテンツなどが含まれ、より多くのコンテンツに簡単にアクセスでき、アプリを最大限に活用できます。
 
 3つのタブが、ヘルプと支援を見つけるのに役立ちます。
 
