@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: introduction
 index: y
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 4b87ebc2585b87f918bbd688c5858394d8d4a742
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 9%
@@ -51,7 +51,7 @@ Campaign Standardでは、インスタンスを監視して、システムが正
 監査エクスポート監査では、インスタンスに対して実行されたエクスポートを監視できます。ワークフロー、リストのエクスポート、ダイレクトメールからダウンロードしたファイルからアップロードできます。[詳細を表示](../../administration/using/auditing-export-logs.md)
 
 ****
-ライセンス **[!UICONTROL Licenses]** メニューで、インスタンスに関する情報を監視します。インストール済みのライセンス、バージョンの作成、および利用条件に関する同意書。[詳細を表示](../../administration/using/licenses.md)
+ライセンス **[!UICONTROL Licenses]** メニューを使用して、インスタンスに関する情報を監視します。インストール済みのライセンス、バージョンの作成、および利用条件に関する同意書。[詳細を表示](../../administration/using/licenses.md)
 
 ## ワークフローの監視 {#monitoring-workflows}
 
@@ -64,14 +64,14 @@ Campaign Standardでは、インスタンスを監視して、システムが正
 タスクワークフローログの監視は、ワークフローを分析し、正しく実行されていることを確認するための重要な手順です。[詳細を表示](../../automating/using/monitoring-workflow-execution.md#workflow-log-and-tasks)
 
 ****
-通知キャンペーン標準を使用すると、スーパーバイザーに通知を送信して、ワークフローの実行を監視し、注意を必要とするエラーがあるかどうかを確認できます。[詳細を表示](../../automating/using/monitoring-workflow-execution.md#error-management)
+通知キャンペーン標準を使用すると、ワークフローの実行を監視し、注意を必要とするエラーがないかどうかを確認するために、スーパーバイザーに通知を送信できます。[詳細を表示](../../automating/using/monitoring-workflow-execution.md#error-management)
 
 ## 配信の監視 {#monitoring-deliveries}
 
 <img src="assets/do-not-localize/icon_send.svg" width="60px">
 
 **配信品質Campaign Standardには、配信に成功したメッセージの数を改善するための配信品質ツールがいくつか用意されています。**
-配信の考慮されたレポート、送信時間の最適化、メッセージプレビュー、電子メールのレンダリング、強制隔離管理など[詳細を表示](../../sending/using/about-deliverability.md)
+配信・スループット・レポート、送信時間の最適化、メッセージプレビュー、Eメール・レンダリング、強制隔離管理など[詳細を表示](../../sending/using/about-deliverability.md)
 
 ****
 配信メッセージが送信されると、詳細ログを使用して、配信を監視し、キャンペーンの成功を測定したり、メッセージ受信者の動作を追跡したりできます。[詳細を表示](../../sending/using/monitoring-a-delivery.md)
@@ -80,4 +80,4 @@ Campaign Standardでは、インスタンスを監視して、システムが正
 警告配信警告機能を使用すると、配信の実行に関してユーザーのグループに自動的に送信されるアラートを設定できます。送信または準備に失敗、バウンス率、低スループットなど[詳細を表示](../../sending/using/receiving-alerts-when-failures-happen.md)
 
 **動的**
-レポート動的レポートは、配信のパフォーマンスを常に把握できるよう、様々なレポートを提供します。バウンス、受信者別に最も多く閲覧された配信量、配信のスループットなど[詳細を表示](../../reporting/using/about-dynamic-reports.md)
+レポート動的レポートは、配信のパフォーマンスを常に把握できるよう、様々なレポートを提供します。バウンス、受信者別の最も多く閲覧された配信、配信のスループットなど[詳細を表示](../../reporting/using/about-dynamic-reports.md)
