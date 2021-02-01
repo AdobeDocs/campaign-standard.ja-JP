@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: execution-activities
 context-tags: jstest,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 4f62d2381403d7d88167334cee54071a19a7c3a8
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 90%
+source-wordcount: '190'
+ht-degree: 82%
 
 ---
 
@@ -48,6 +48,8 @@ ht-degree: 90%
    「**[!UICONTROL Condition]**」フィールドの編集時に、2 つのボタンを使用してイベント変数を呼び出し、変数と関数を組み合わせた式を編集できます。
 
    * ![](assets/extsignal_picker.png):ワークフローで使用可能なすべての変数の中からイベント変数を選択します( [このページを参照](../../automating/using/customizing-workflow-external-parameters.md))。
+
+      例えば、[File transfer](../../automating/using/transfer-file.md)アクティビティの後で、**[!UICONTROL filesCount]**&#x200B;変数を使用して、ダウンロードしたファイルの数を確認できます。
 
       ![](assets/wkf_test_activity_variables.png)
 
