@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 translation-type: tm+mt
-source-git-commit: f19d4b5c1837f3f03789958abb1539d4edea0744
+source-git-commit: 0f057375e5cd63605af460f08cd39bed00435184
 workflow-type: tm+mt
 source-wordcount: '963'
 ht-degree: 9%
@@ -39,8 +39,6 @@ Adobe Campaignを使用すると、この機能を、カスタムトランザク
 >Adobe Campaignは、他の配信よりも処理トランザクションメッセージを優先します。
 
 <!--Guidelines to implement transactional messaging capabilities in your website are detailed in [this section](../../api/using/managing-transactional-messages.md).-->
-
-<!--All transactional messages are now sent with the Adobe Campaign Enhanced MTA for improved deliverability, throughput, and bounce handling. All impacts are the same as for standard marketing messages. For more on this, see [this section](../../administration/using/configuring-email-channel.md).-->
 
 トランザクションメッセージングを開始する前に、対応する[ベストプラクティスと制限事項](../../channels/using/transactional-messaging-limitations.md)を必ずお読みください。
 
