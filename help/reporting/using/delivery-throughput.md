@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: list-of-reports
 context-tags: deliveryThroughputReport,main;campaignThroughputReport,main;programThroughputReport,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 0f057375e5cd63605af460f08cd39bed00435184
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 5%
+source-wordcount: '82'
+ht-degree: 4%
 
 ---
 
@@ -27,4 +27,4 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->**[!UICONTROL Delivery throughput]**&#x200B;ページには、キャンペーンからAdobe Campaign拡張MTAへのメッセージの中継に使用するスループット速度が表示されます。
+>**[!UICONTROL Delivery throughput]**&#x200B;ページには、キャンペーンからAdobe Campaign拡張MTA(Message Transfer Agent)へのメッセージの中継に使用するスループット速度が表示されます。
