@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 7080c002ca20028a4721d09a0d86a746ab47467c
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 100%
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 # メッセージのスケジュールについて{#about-scheduling-messages}
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >配信のスケジュールを変更する場合は、必ず「**Prepare**」ボタンをクリックして配信を準備し直してから、「**Confirm**」をクリックする必要があります。
 
@@ -42,7 +42,7 @@ ht-degree: 100%
 
    ![](assets/delivery_planning.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >配信を複製すると、すべてのスケジュール設定が削除されます。新しい連絡日付をスケジュール設定しない限り、重複した配信は、送信が確認されるとすぐに送信されます。
 
