@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: externalAPI,workflow,main
 translation-type: tm+mt
-source-git-commit: 9eca72e744524cf201d998abd9acf718fdaca0f8
+source-git-commit: 6dda990d046cceae2a0c0da87764d4b6a16d9ae8
 workflow-type: tm+mt
-source-wordcount: '2156'
-ht-degree: 98%
+source-wordcount: '2180'
+ht-degree: 95%
 
 ---
 
@@ -114,13 +114,13 @@ JSON パーサーは、標準の JSON 構造パターンタイプに対応する
 
 ### 「EXECUTION」タブ
 
-このタブでは、接続エンドポイントを定義できます。**[!UICONTROL URL]**&#x200B;フィールドでは、キャンペーンにデータを送信する&#x200B;**HTTPSエンドポイント**&#x200B;を定義できます。
+このタブでは、接続エンドポイントを定義できます。**[!UICONTROL URL]**&#x200B;フィールドでは、Campaign Standardが通信する&#x200B;**HTTPSエンドポイント**&#x200B;を定義できます。
 
 エンドポイントで必要な場合、次の 2 種類の認証方法を使用できます。
 
-* 基本認証：「**[!UICONTROL Request Header(s)]**」フィールドにユーザー名／パスワード情報を入力します。
+* 基本認証：**[!UICONTROL Request Header(s)]**&#x200B;セクションにユーザ名/パスワード情報を入力します。
 
-* OAuth 認証：**[!UICONTROL Use connection parameters defined in an external account]** をクリックすると、OAuth 認証が定義されている外部アカウントを選択できます。詳しくは、「[外部アカウント](../../administration/using/external-accounts.md)」の節を参照してください。
+* OAuth認証：外部アカウント内の&#x200B;**[!UICONTROL Use connection parameters defined in an external account]**&#x200B;をクリックすると、OAuth認証が定義されている外部アカウントを選択できます。 詳しくは、「[外部アカウント](../../administration/using/external-accounts.md)」の節を参照してください。
 
 ![](assets/externalAPI-execution.png)
 
@@ -155,6 +155,10 @@ JSON パーサーは、標準の JSON 構造パターンタイプに対応する
 このタブは、ほとんどのワークフローアクティビティで使用できます。詳しくは、[アクティビティのプロパティ](../../automating/using/activity-properties.md)の節を参照してください。
 
 ![](assets/externalAPI-options.png)
+
+## テスト
+
+単純なテストエンドポイントでExternal API機能をテストするには、Postman Echoを使用します。https://docs.postman-echo.com
 
 ## トラブルシューティング
 
@@ -256,7 +260,7 @@ JSON パーサーは、標準の JSON 構造パターンタイプに対応する
    <td> <p>HTTP ヘッダーキーが使用できません (ヘッダーキー : 「Accept」)。</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560247 -  A HTTP header value is bad (header value: '%s').</td> 
+   <td> WKF-560247 - HTTPヘッダ値が正しくありません(ヘッダ値：'%s')。</td> 
    <td> <p>HTTP ヘッダー値が正しくありません (ヘッダー値 : 「%s」)。 </p>
     <p>注意：このエラーは、カスタムヘッダー値が <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a> に従った検証に失敗した場合に記録されます。</p></td> 
   </tr> 
