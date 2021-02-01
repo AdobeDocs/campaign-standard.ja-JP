@@ -7,9 +7,9 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
+source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '783'
 ht-degree: 6%
 
 ---
@@ -32,7 +32,7 @@ Adobe Experience Platformデータコネクタは、Adobe Campaign Standardの�
 ![](assets/do-not-localize/how-to-video.png) [この機能をビデオで確認](#video)
 
 >[!NOTE]
->Adobe Experience Platformデータコネクタを設定し、データがAdobe Experience Platformに正常に取り込まれたら、データセットを有効にして、リアルタイムカスタマープロファイルにデータが含まれるようにする必要があります。
+>Adobe Experience Platformデータコネクタを設定し、データをAdobe Experience Platformに正常に取り込んだら、データセットを有効にして、リアルタイムカスタマープロファイルにデータが含まれるようにする必要があります。
 >
 >これは、APIまたはAdobe Experience Platformインターフェイスを通して実行できます。 詳しくは、次の専用ドキュメントを参照してください。
 >
@@ -44,7 +44,7 @@ Adobe Experience Platformデータコネクタは、Adobe Campaign Standardの�
 
 * 初期設定のマッピングは、デフォルトでCampaign Standardで提供されるフィールドでのみ使用できます。 すべてのカスタムフィールドとリソースを取り込む場合は、各顧客が独自のマッピングを定義する必要があります。
 
-* Adobe Experience PlatformData Connectorは、プロファイルデータを一定の間隔でプラットフォーム経由でプッシュ&#x200B;します。 間隔の長さは15 mnです。 この値は[Adobe Experience PlatformAPI](https://docs.adobe.com/content/help/en/experience-platform/ingestion/home.html)を使用して変更できます。
+* Adobe Experience PlatformData Connectorは、プロファイルデータを一定の間隔でプラットフォーム経由でプッシュ&#x200B;します。 間隔の長さは15分です。 この値は[Adobe Experience PlatformAPI](https://docs.adobe.com/content/help/en/experience-platform/ingestion/home.html)を使用して変更できます。
 
 * データエンジニアは、キャンペーンからAdobe Experience Platformへのマッピングを公開、変更、および一時停止できます。
 
@@ -80,6 +80,6 @@ Adobe Experience Platformデータコネクタは、Adobe Campaign Standardの�
 
 このビデオでは、Adobe Experience Platformデータコネクタの概要を説明します。
 
-https://video.tv.adobe.com/v/27304?quality=12&amp;captions=jpn
+>[!VIDEO](https://video.tv.adobe.com/v/27304?quality=12&captions=eng)
 
 Adobe Experience PlatformのData Connectorに関する追加のビデオは、[こちら](https://docs.adobe.com/content/help/ja-JP/campaign-standard-learn/tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.translate.html)で参照できます。
