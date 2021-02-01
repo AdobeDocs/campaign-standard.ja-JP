@@ -7,7 +7,7 @@ content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 translation-type: tm+mt
-source-git-commit: a7300666587362048431d0bafacc317170b317aa
+source-git-commit: c477012a8404b897640ca3ece1c71e9014adf9bd
 workflow-type: tm+mt
 source-wordcount: '83'
 ht-degree: 39%
@@ -25,7 +25,7 @@ Adobe Campaign を使用した配信のデザインと送信に関するベス�
 
 <img src="assets/do-not-localize/design.svg"  width="60px">
 
-**[テンプレートの使用](use-templates.md)**  — 新しい配信を容易にし、締め付ける
+**[テンプレートの使用](use-templates.md)**  — 新しい配信を容易に、迅速に実行
 
 <img src="assets/do-not-localize/custom.svg"  width="60px">
 
