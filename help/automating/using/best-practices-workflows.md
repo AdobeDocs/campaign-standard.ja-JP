@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 431ab4e83b9d0944cd7b990c3af0e38950dd0272
 workflow-type: tm+mt
-source-wordcount: '1071'
-ht-degree: 93%
+source-wordcount: '1120'
+ht-degree: 89%
 
 ---
 
@@ -48,6 +48,10 @@ Adobe Campaign を使用すると、あらゆる種類のワークフローを�
 
 デフォルトでは、20 個を超えるアクティブなワークフローを同時に実行しないことをお勧めします。その限度に達すると、パフォーマンスに影響を与えないようにワークフローはキューに入れられます。同様に、時間の経過と共にワークフローの実行を拡大することをお勧めします。
 特定のコンテキストでは、20 個を上回るワークフローの実行が必要になる場合があります。スケジュールされた実行を待機しているワークフローには当てはまりません。その場合は、キャンペーンエキスパートと使用例を確認し、Adobe カスタマーケアに問い合わせて上限を引き上げる必要があります。
+
+>[!NOTE]
+>
+>ワークフローを開始する前に、[!DNL Campaign Standard]は、ワークフローを実行するのに十分なシステム物理メモリがあるかどうかを確認します。 メモリが不足している場合は、サーバーの負荷が下がり、システムメモリが増えるまでワークフローの実行が遅れることを通知するメッセージが表示されます。
 
 ### 頻度
 
