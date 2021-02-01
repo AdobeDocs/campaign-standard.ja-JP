@@ -7,9 +7,9 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 05b6a9caebdd65f20357070af8bd44cb8ba146c7
 workflow-type: tm+mt
-source-wordcount: '803'
+source-wordcount: '813'
 ht-degree: 1%
 
 ---
@@ -63,6 +63,7 @@ $(vars/@parameterName)
    | DateFormat | 2番目のパラメーターで指定された形式を使用して日付を書式設定します(例： &#39;%4Y%2M%2D&#39;) | DateFormat（&lt;日付>,&lt;形式>） |
    | ファイル名 | ファイルパスの名前を返します。 | FileName（&lt;文字列>） |
    | FileExt | ファイルパスの拡張子を返します。 | FileExt(&lt;String>) |
+   | GetOption | 指定した関数の値を返します。 | GetOption(&lt;オプション名> |
    | IsNull | 文字列または日付がnullかを示します。 | IsNull（&lt;文字列/日付>） |
    | UrlUtf8Encode | URLをUTF8でエンコードします。 | UrlUtf8Encode(&lt;String>) |
 
