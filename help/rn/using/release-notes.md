@@ -7,7 +7,7 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 87b17e36af2e4bc15a93291e340843060ba18d7b
+source-git-commit: 41f2280c72a2f6bee3e4e972fab17a7ac94b966c
 workflow-type: tm+mt
 source-wordcount: '2610'
 ht-degree: 4%
@@ -97,7 +97,7 @@ ht-degree: 4%
 
 * 外部パラメーターを使用してワークフローを呼び出した後、イベント変数を使用するアクティビティで、新しい&#x200B;**GetOption**&#x200B;関数が使用できるようになりました。 指定した関数の値を返すことができます。 [詳細情報](../../automating/using/customizing-workflow-external-parameters.md)
 
-* 新しいオプションでは、Campaign Standardがワークフローを開始する前に、システム上の物理メモリ&#x200B;**の空き容量を**&#x200B;確認できます。 メモリ量が少なすぎる場合は、システムメモリがこのしきい値に達するまでワークフローの実行が遅れます。 これにより、パフォーマンスの低下を回避し、停止のリスクを軽減できます。 サーバーの負荷が下がり、メモリが増加すると、ワークフローは自動的に再開されます。 このオプションは読み取り専用で、変更できません。 [詳細情報](../../automating/using/best-practices-workflows.md#execution)
+* 新しいオプションでは、Campaign Standardがワークフローを開始する前に、システム上の物理メモリ&#x200B;**の可用性を**&#x200B;確認できます。 メモリ量が少なすぎる場合は、システムメモリがこのしきい値に達するまでワークフローの実行が遅れます。 これにより、パフォーマンスの低下を回避し、停止のリスクを軽減できます。 サーバーの負荷が下がり、メモリが増加すると、ワークフローは自動的に再開されます。 このオプションは読み取り専用で、変更できません。 [詳細情報](../../automating/using/best-practices-workflows.md#execution)
 
 * 新しいプロセスがAdobe Campaign Standardで提供され、レガシーSDK v4モバイルアプリケーションから&#x200B;**Adobe Experience PlatformモバイルSDK**&#x200B;に簡単に移行できます。 [このページ](../../administration/using/sdkv4-migration.md)を参照してください。
 
