@@ -7,7 +7,7 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 4%
@@ -44,7 +44,7 @@ APIを使用する前に、Campaign Standardインターフェイス内でデー
 
 現在、データマッピングの実行が停止しています。 Campaign StandardAPIを使用して手動でトリガーできます。
 
-## データマッピングの即時取り込みの開始{#starting-immediate-ingestion}
+## データマッピング{#starting-immediate-ingestion}の即時取り込みの開始
 
 XDMマッピングをAdobe Experience Platformに直ちに取り込むと、POST操作によって次のようにトリガされます。
 
@@ -54,7 +54,8 @@ XDMマッピングをAdobe Experience Platformに直ちに取り込むと、POST
 >
 >取り込みPOSTAPI呼び出しを実行するには、**SQL関数の実行**&#x200B;ロールが必要です。このロールは、Campaign Standard管理者が次のJSスクリプトを実行することで提供できます。
 >
->```
+>
+```
 >var sqlRoleObj = REST.head.roleBase.sql.get();
 >REST.head.securityGroup.Administrators.roles.post(sqlRoleObj);
 >```
@@ -116,7 +117,7 @@ GET操作は次の情報を返します。
 
 GET操作に対する応答は次のとおりです。
 
-* 取り込み要求が正常に完了しました：
+* 取り込み要求が成功しました：
 
    ```
    {
