@@ -5,7 +5,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 translation-type: tm+mt
-source-git-commit: 6be7a20cde8fcaee73972b8919765ea631f2f1ee
+source-git-commit: efa30d7ed4a0caf929da6f485681078318849cda
 workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 1%
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 統合アプリケーションには、次の3つのワークフローが用意されています。
 
-![](assets/d365-to-acs-ui-page-workflows.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows.png)
 
 **Microsoft Dynamics 365からキャンペーン**
 * Microsoft Dynamics 365から&#x200B;*連絡先*&#x200B;をAdobe Campaignに送信
@@ -71,4 +71,4 @@ ht-degree: 1%
 
 **「Stop**」ボタンに警告表示が追加され、(a)ワークフローを更新したが、(b)このワークフローの停止/開始を行っていないことを知らせます。
 
-![](assets/d365-to-acs-icon-stop-with-changes.png)
+![](assets/do-not-localize/d365-to-acs-icon-stop-with-changes.png)
