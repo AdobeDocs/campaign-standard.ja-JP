@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: monitoring-messages
 context-tags: delivery,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 7080c002ca20028a4721d09a0d86a746ab47467c
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 86%
@@ -19,7 +19,8 @@ ht-degree: 86%
 # 配信の監視{#monitoring-a-delivery}
 
 配信を監視し、その影響を測定する方法はいくつかあります。 機能管理者は、メッセージログと配信ログにアクセスできます。
->[!CAUTION]
+
+>[!IMPORTANT]
 >
 >**[!UICONTROL Administration]**&#x200B;役割と&#x200B;****&#x200B;へのアクセス権を持つ機能的な[管理者](../../administration/using/users-management.md#functional-administrators)のみが、送信ログ、メッセージログ、トラッキングログ、除外、または購読ログにアクセスできます。 管理者以外のユーザーは、これらのログにターゲットできますが、リンクされたテーブル(プロファイル、配信)から開始できます。
 
