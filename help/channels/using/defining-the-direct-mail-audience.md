@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: direct-mail
 context-tags: delivery,directMailContent,back
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: e34d3f032cd49585f86178264e7779b3c92993ae
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 100%
@@ -28,7 +28,7 @@ ht-degree: 100%
 
 ターゲットプロファイルごとに、新しい行が抽出ファイルに追加されます。各受信者のプロファイル情報の量は、[Defining the extraction](../../channels/using/defining-the-direct-mail-content.md#defining-the-extraction)画面で定義します。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >住所はダイレクトメールプロバイダーにとって重要なものなので、プロファイルに住所が含まれていることを確認してください。また、プロファイル情報の「**[!UICONTROL Address specified]**」ボックスがオンになっていることも確認してください。[推奨事項](../../channels/using/about-direct-mail.md#recommendations)を参照してください。
 
