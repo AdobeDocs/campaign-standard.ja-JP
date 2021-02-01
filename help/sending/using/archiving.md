@@ -7,10 +7,10 @@ audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 0f057375e5cd63605af460f08cd39bed00435184
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 28%
+source-wordcount: '357'
+ht-degree: 29%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 28%
 
 >[!NOTE]
 >
->現在、拡張MTAに既にアップグレード済みの場合でも、Adobe Campaign拡張MTAでアーカイブ済みの電子メールを送信することはできません。
+>現在、アーカイブ済みの電子メールは、Adobe Campaign拡張MTAでは送信できません。
 
 ## 電子メールアーカイブのアクティブ化{#activating-email-archiving}
 
