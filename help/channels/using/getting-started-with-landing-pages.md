@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,wizard;landingPage,overview;landingPage,main
 translation-type: tm+mt
-source-git-commit: 2a92600df01fd3c78a2b35c8034a2ce347e5c1d8
+source-git-commit: e34d3f032cd49585f86178264e7779b3c92993ae
 workflow-type: tm+mt
 source-wordcount: '1027'
 ht-degree: 97%
@@ -40,7 +40,7 @@ ht-degree: 97%
 * ランディングページは、**[!UICONTROL Profile]** リソースおよび **[!UICONTROL Subscription]** リソースのみに制限されています。レコードは **[!UICONTROL Profile]** から保存および更新でき、**[!UICONTROL Service]** の購読および購読解除が可能です。
 リソース設定について詳しくは、[リソースのデータ構造の設定](../../developing/using/configuring-the-resource-s-data-structure.md)を参照してください。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >ランディングページは、**[!UICONTROL Profile]** および **[!UICONTROL Subscription]** 以外のリソースのデータを表示または更新することはできません。
 
@@ -113,7 +113,7 @@ ht-degree: 97%
 
 ![](assets/lp-steps5.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >ランディングページのテストはプロファイルでのみ実行でき、テストプロファイルでは実行できません。フォームが送信されると、選択したプロファイルのデータが実際に更新されます。実際のプロファイルを変更しないようにするには、架空の顧客プロファイルを使用します。
 
