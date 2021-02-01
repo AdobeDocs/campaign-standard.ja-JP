@@ -7,9 +7,9 @@ audience: administration
 content-type: reference
 topic-tags: application-settings
 translation-type: tm+mt
-source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
+source-git-commit: 4b87ebc2585b87f918bbd688c5858394d8d4a742
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '155'
 ht-degree: 47%
 
 ---
@@ -17,6 +17,6 @@ ht-degree: 47%
 
 # 更新とメンテナンスの操作{#updates-and-maintenance-operations}
 
-メンテナンスのため、Adobe Campaignサーバーは毎日午前6時（サーバータイムゾーン）に再起動されます。 Adobeに問い合わせて、サーバーの時刻を確認してください。 この操作は自動的で透明です。 ただし、再起動の直前にデータ処理操作を実行しないことをお勧めします。 例えば、再起動前にワークフローを開始しないようにし、1分後に開始するようにスケジュールします。
+メンテナンスのために、Adobe Campaignサーバーは毎日午前6時（サーバータイムゾーン）に再起動されます。 Adobeに問い合わせて、サーバーの時刻を確認してください。 この操作は自動的で透明です。 ただし、再起動の直前にデータ処理操作を実行しないことをお勧めします。 例えば、再起動前にワークフローを開始しないようにし、1分後に開始するようにスケジュールします。
 
 アドビでは、新しい機能、機能強化および修正を加えてソリューションを継続的に改善しています。すべての Adobe Campaign Standard インスタンスは、新しいリリースのたびにアップグレードされます。アップグレードに必要なアクションはありません。アップグレードは 2 段階でデプロイされます。まず、ステージング用インスタンスがアップグレードされて、お客様が新しい機能をテストしたり、必要に応じて設定を調整したりできるようになります。その後、本番用インスタンスがアップグレードされます。[リリース計画](https://helpx.adobe.com/jp/campaign/kb/acs-release-planning.html)に問い合わせて、次のリリースがいつ行われるかを確認してください。 また、[廃止および削除された機能](../../rn/using/deprecated-features.md)のリストも参照してください。
