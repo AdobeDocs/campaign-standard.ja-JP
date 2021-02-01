@@ -7,7 +7,7 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 2729852365a2e74d2a603d95f75285fe54313e71
 workflow-type: tm+mt
 source-wordcount: '499'
 ht-degree: 2%
@@ -21,7 +21,7 @@ ht-degree: 2%
 >
 >Adobe Experience Platformデータコネクタは現在ベータ版で、予告なく頻繁に更新される可能性があります。 これらの機能にアクセスするには、お客様はAzureでホストされる必要があります（現在、北米向けベータ版のみ）。 ご利用になる場合は、Adobeカスタマーケアにお問い合わせください。
 
-この節では、エクスペリエンスデータモデル(XDM)フィールドを使用してCampaign Standardフィールドをマッピングする方法を見つけ出します。
+この節では、エクスペリエンスデータモデル(XDM)フィールドを使用してCampaign Standardフィールドをマッピングする方法を見つけます。
 
 このタスクを実行するための前提条件は次のとおりです。
 
@@ -51,7 +51,7 @@ ht-degree: 2%
 
 **[!UICONTROL Create new field mapping]**&#x200B;ボタンを押すと、XDMスキーマでCampaign Standardフィールドと対応するフィールドパス式ーを選択できます。
 
-Campaign Standardフィールドが見つからない場合は、検索フィールドを使用してフィールドを検索できます。 現在、検索は、階層で開いているフィールドに対してのみ機能します。
+Adobe Campaign Standardフィールドが見つからない場合は、検索フィールドを使用してフィールドを検索できます。 現在、検索は、階層で開いているフィールドに対してのみ機能します。
 
 ![](assets/aep_mapfield.png)
 
