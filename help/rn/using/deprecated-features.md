@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-deprecated-features
 translation-type: tm+mt
-source-git-commit: 32aba66dd8987414cf90df1e7bfb9c419c5f68ff
+source-git-commit: becaf20fefb6fce05db0824baa69670f810966dc
 workflow-type: tm+mt
-source-wordcount: '707'
-ht-degree: 85%
+source-wordcount: '734'
+ht-degree: 80%
 
 ---
 
@@ -62,8 +62,9 @@ Campaign Standard 機能の差し迫った削除／置換を伝達するため�
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p> 20.1 リリース以降、SDK v4 は非推奨となります。 <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">詳細情報</a>。</p><br/>
-   <p><a href="https://aep-sdks.gitbook.io/docs/">Adobe Experience Platform モバイル SDK</a> （旧称 v5）は、今後の Adobe Experience Cloud の機能のみをサポートします。</p></br>
+   <td> <p> キャンペーン20.1リリース以降、SDK v4は非推奨となります。 <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">詳細情報</a>。</p><br/>
+   <p><a href="https://aep-sdks.gitbook.io/docs/">Adobe Experience Platform モバイル SDK</a> （旧称 v5）は、今後の Adobe Experience Cloud の機能のみをサポートします。</p>
+   <p>SDK v4からAdobe Experience PlatformモバイルSDK <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">に移行する方法を説明します。</a></p></br>
      <p>
      <em>ターゲットの削除日：2021年8月31日</em></p>
      </td> 
@@ -112,7 +113,7 @@ Campaign Standard 機能の差し迫った削除／置換を伝達するため�
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>18.7 リリース以降、地理的単位は非推奨となりました。 組織単位と地理的単位は、Campaign では同じ構成です。 ユーザーは、組織単位のみを使用して、ユーザー権限／データアクセス階層を作成する必要があります。 <a href="https://helpx.adobe.com/jp/campaign/standard/administration/using/organizational-units.html">詳細情報</a>。新しい Campaign Standard インスタンスと、地理的単位が作成されていない既存のインスタンスには、18.7 リリースからこの機能を実装することはできません。</p>
+   <td> <p>キャンペーン18.7リリース以降、地理単位は非推奨となりました。 組織単位と地理的単位は、Campaign では同じ構成です。 ユーザーは、組織単位のみを使用して、ユーザー権限／データアクセス階層を作成する必要があります。 <a href="https://helpx.adobe.com/jp/campaign/standard/administration/using/organizational-units.html">詳細情報</a>。新しい Campaign Standard インスタンスと、地理的単位が作成されていない既存のインスタンスには、18.7 リリースからこの機能を実装することはできません。</p>
    </td> 
   </tr> 
  </tbody> 
