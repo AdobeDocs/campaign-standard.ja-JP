@@ -7,10 +7,10 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 4a039670745810de40fe3622d21d7830d6e33d2c
 workflow-type: tm+mt
-source-wordcount: '1144'
-ht-degree: 96%
+source-wordcount: '1244'
+ht-degree: 81%
 
 ---
 
@@ -47,7 +47,7 @@ Campaign ホームページは、主な Adobe Campaign 機能にすばやくア�
 
 ## 上部バー {#top-bar}
 
-上部バーはすべての画面に表示され、Adobe Campaign 機能を操作できるほか、接続されている Adobe プロファイル、通知、その他の Adobe Experience Cloud サービスおよびソリューション、ドキュメントにアクセスできます。
+上部バーは各画面に表示され、Adobe Campaign機能間を移動できるほか、接続されているAdobeプロファイル、通知、Adobe Experience Cloudのサービスとソリューション、ドキュメントにアクセスできます。
 
 ナビゲーションは原則として次のとおりです。
 
@@ -57,13 +57,25 @@ Campaign ホームページは、主な Adobe Campaign 機能にすばやくア�
 
 * 「**[!UICONTROL Home]**」リンクをクリックすると、Adobe Campaign ホームページが表示されます。
 * 「**[!UICONTROL Marketing activities]**」、「**[!UICONTROL Programs & Campaigns]**」、「**[!UICONTROL Profiles]**」、「**[!UICONTROL Audiences]**」、「**[!UICONTROL Reports]**」の各リンクをクリックすると、これらの機能にリンクされた画面にアクセスできます。
-* 「**[!UICONTROL Help]**」ボタンをクリックすると、製品ドキュメントやコンテキストヘルプ、リリースノート、バージョン番号、法律上の注意事項に加え、Adobe Experience Cloud のコミュニティやカスタマーケアへのリンクにアクセスできます。
+* **ソリューション切り替えボタン**&#x200B;を使用すると、組織または別のアプリケーションに切り替えることができます。
+* **[!UICONTROL Help]**&#x200B;ボタンを使用すると、Adobe Campaign Standardのドキュメント、ビデオ、リリースノート、リリース計画、およびAdobe Experience Cloudのコミュニティやカスタマーケアへのリンクにアクセスできます。
+* 「組織」ボタン
+* **通知**&#x200B;アイコンには、最新のアラートまたは情報が表示されます。
+* **ユーザー**&#x200B;アイコンをクリックすると、ユーザープロファイルにリンクされた情報を表示できます。**[!UICONTROL Sign out]**&#x200B;ボタンと&#x200B;**[!UICONTROL About]**&#x200B;画面へのアクセスを与えます。
+
+### ヘルプ {#help}
+
+* **[!UICONTROL Search]** adobe experience leagueを商品に取り入れる：検索結果には、ドキュメントやヘルプ記事、コミュニティフォーラムの結果、ビデオコンテンツなどが含まれ、より多くのコンテンツに簡単にアクセスでき、アプリケーションを最大限に活用できます。
+* **[!UICONTROL Help]** tab
+   * リンクを使用すると、Adobe Campaign Standardのドキュメント、ビデオ、リリースノートにすばやくアクセスできます。
+   * **[!UICONTROL Learning]** このリンクからAdobe Campaignのコンテンツライブラリにアクセスできます。
+   * **[!UICONTROL Community]** このリンクからは、ACSに関する質問専用のフォーラムにアクセスできます。
+
+* **[!UICONTROL Support]** タブでは、サポートケースを開き、電話またはTwitterでアドビに連絡できます。
+
+* **[!UICONTROL Feedback]**  問題の報告やアイデアの共有が容易になります。
 
    ![](assets/ux_help.png)
-
-* **ソリューション選択**&#x200B;アイコンをクリックすると、別の Adobe Experience Cloud ソリューションに切り替えることができます。また、プロファイル設定に切り替えることもできます。
-* **通知**&#x200B;アイコンには、最新のアラートまたは情報が表示されます。
-* **ユーザー**&#x200B;アイコンをクリックすると、ユーザープロファイルにリンクされた情報を表示できます。「**[!UICONTROL Sign out]**」ボタンにアクセスできます。
 
 ## 詳細設定メニュー {#advanced-menu}
 
