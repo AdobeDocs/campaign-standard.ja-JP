@@ -5,7 +5,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 translation-type: tm+mt
-source-git-commit: 6be7a20cde8fcaee73972b8919765ea631f2f1ee
+source-git-commit: efa30d7ed4a0caf929da6f485681078318849cda
 workflow-type: tm+mt
 source-wordcount: '795'
 ht-degree: 3%
@@ -23,7 +23,7 @@ ht-degree: 3%
 
 Microsoft Dynamics 365資格情報は、Microsoft Dynamics 365からデータを取り込むための統合アプリケーション権限を与えます。  この画面に貼り付ける値を生成するには、まず画面[キャンペーン統合用のMicrosoft Dynamics 365を構成](../../integrating/using/d365-acs-configure-d365.md)の手順に従う必要があります。 以下に示す入力は、この画面を参照します。
 
-![](assets/d365-to-acs-ui-page-workflows-settings-d365.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows-settings-d365.png)
 
 * **[!UICONTROL Client ID]**:この節では、クライアントIDを参照する方法 [を説明します](../../integrating/using/d365-acs-configure-d365.md#register-a-new-app)
 
@@ -39,7 +39,7 @@ Adobe Campaign資格情報は[Adobe I/O](https://www.adobe.io/)を使用して�
 
 次の図は、Adobe I/Oと設定画面の入力との対応付けの詳細を説明しています。
 
-![](assets/d365-to-acs-ui-page-workflows-settings-adobeio.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows-settings-adobeio.png)
 
 * *秘密鍵*:[公開/秘密キーペアの生成]ボタンをクリックして、この開始を定義するプロセス。これにより、ダウンロードする必要のあるzipファイルが作成されます。 ダウンロードしたファイルを解凍すると、certificate_pub.crtとprivate.keyという2つのファイルが作成されます。 private.keyは、安全な場所に配置し、共有しないでください。 private.keyファイルをテキストエディターで開きます。 テキストエディターで値全体をコピーします（PCではctrl-A、PCではctrl-C、Macではcommand-A、MCではcmd-C）。 これには、「BEGIN PRIVATE KEY」と「END PRIVATE KEY」全体を含む行が含まれます。 この複数行のテキスト全体を、設定画面の「秘密鍵」入力に貼り付けます。
 
@@ -58,7 +58,7 @@ SFTPサーバーをセットアップするもう1つの理由は、オプトイ
 
 Microsoft Dynamics 365統合のキャンペーンSFTP設定を定義するには、次のセクションにアクセスします。
 
-![](assets/d365-to-acs-ui-page-workflows-settings-sftp.png)
+![](assets/do-not-localize/d365-to-acs-ui-page-workflows-settings-sftp.png)
 
 次を指定する必要があります。
 
