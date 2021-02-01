@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 16f937fc34783f22a0c118bb5e2e3f39abb85615
+source-git-commit: a039818cb5d4169ae921df39e9ea9bc9230fceb0
 workflow-type: tm+mt
-source-wordcount: '6372'
-ht-degree: 100%
+source-wordcount: '6511'
+ht-degree: 98%
 
 ---
 
@@ -18,6 +18,26 @@ ht-degree: 100%
 # ドキュメントのアップデート{#documentation-updates}
 
 このページでは、Adobe Campaign の[リリースノート](../../rn/using/release-notes.md)に加えて、Adobe Campaign Standard のドキュメントの新しいアップデートをすべて紹介します。
+
+## リリース 21.1 - 2021 年 2 月 {#release-21-1---february-2021}
+
+**リリースに含まれる新機能**
+
+電子メールフィードバックサービス — [詳細情報](../../sending/using/confirming-the-send.md#email-feedback-service)
+
+Adobe Experience Manager統合の強化 — [詳細情報](../../integrating/using/creating-multilingual-email-aem.md)
+
+統合Experience Cloudインターフェイス — [詳細情報](../../start/using/interface-description.md#top-bar)
+
+**リリースに伴うその他のドキュメントのアップデート**
+
+電子メール、名、姓、または任意のカスタムフィールドに基づいてプロファイルを検索する方法についての情報が追加されました。 [詳細を表示](../../audiences/using/integrated-customer-profile.md)
+
+新しいGetOption関数に関する情報が追加され、外部パラメータを使用してワークフローを呼び出すときに、指定した関数の値を返すことができるようになりました。 [詳細を表示](../../automating/using/customizing-workflow-external-parameters.md#using-events-variables)
+
+**[!UICONTROL Transfer file]**&#x200B;アクティビティを使用した後に利用できる新しい&#x200B;**[!UICONTROL filesCount]**&#x200B;出力変数に情報が追加されました。 [詳細を表示](../../automating/using/transfer-file.md#output-variables)
+
+「**電子メールチャネルの設定**」セクションが更新され、該当する最新の電子メール設定が明確になりました。 一部のお客様で引き続き使用されているレガシーパラメーターは、このページの下部に表示されます。 [詳細を表示](../../administration/using/configuring-email-channel.md)
 
 ## 2020 年 12 月 {#doc-updates-december-2020}
 
