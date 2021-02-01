@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: fileTransfer,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: b3088ed3bbb8828393e28df8f982ed36e7e74590
 workflow-type: tm+mt
-source-wordcount: '1043'
-ht-degree: 99%
+source-wordcount: '1095'
+ht-degree: 92%
 
 ---
 
@@ -135,13 +135,15 @@ Microsoft Azure Blob プロトコルを使用すると、Microsoft Azure Blob St
 必要に応じて「**[!UICONTROL Define a file path]**」または「**[!UICONTROL Use a dynamic file path]**」を選択します。
 「**[!UICONTROL Use a dynamic file path]**」オプションを選択すると、標準の式やイベント変数を使用して、転送するファイルの名前をパーソナライズできます。詳しくは、[このページ](../../automating/using/customizing-workflow-external-parameters.md)を参照してください。
 
-パスは、Adobe Campaign サーバーのストレージスペースディレクトリを基準とした相対パスである必要があります。ファイルは、**sftp&lt;インスタンス名>/** ディレクトリにあります。また、ストレージ領域より上のディレクトリを参照することもできません。次に例を示します。
+パスは、Adobe Campaign サーバーのストレージスペースディレクトリを基準とした相対パスである必要があります。ファイルは、**sftp&lt;インスタンス名>/** ディレクトリにあります。また、ストレージ領域より上のディレクトリを参照することもできません。
 
-    >**user&amp;lt;インスタンス名>/my_recipients.csv** は正しい指定です。
-    >
-    >**../hello/my_recipients.csv** は誤った指定です。
-    >
-    >**//myserver/hello/myrecipients.csv** は誤った指定です。
+例：
+
+`user&lt;yourinstancename>/my_recipients.csv` が正しい。
+
+`../hello/my_recipients.csv` が正しくありません。
+
+`//myserver/hello/myrecipients.csv` が正しくありません。
 
 ## 履歴化設定 {#historization-settings}
 
@@ -160,3 +162,16 @@ Microsoft Azure Blob プロトコルを使用すると、Microsoft Azure Blob St
 >[!NOTE]
 >
 >アクティビティを再実行しない限り、フォルダーはチェックされず、消去もされません。そのため、大きなファイルを転送する場合は注意してください。
+
+## 出力変数{#output-variables}
+
+**[!UICONTROL Transfer file]**&#x200B;アクティビティは、出力としてイベント変数を生成します。これは、他のアクティビティで利用できる変数です。例えば、[Test](../../automating/using/test.md)アクティビティを使用して、ダウンロードしたファイルの数を確認する場合などです。
+
+イベント変数は、外部シグナルを使用して別のワークフローに渡すこともできます（「[外部パラメーターを使用したワークフローのカスタマイズ](../../automating/using/customizing-workflow-external-parameters.md)」を参照）。
+
+使用できる出力変数は次のとおりです。
+
+* **[!UICONTROL fileName]**:転送されたファイルの名前。
+* **[!UICONTROL filesCount]**:転送されたファイルの数。
+
+
