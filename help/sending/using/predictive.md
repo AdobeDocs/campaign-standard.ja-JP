@@ -7,7 +7,7 @@ audience: sending
 content-type: reference
 topic-tags: ai-powered-emails
 translation-type: tm+mt
-source-git-commit: 127964c5360344c83dc5ad6a0e2e8523d8995739
+source-git-commit: 7080c002ca20028a4721d09a0d86a746ab47467c
 workflow-type: tm+mt
 source-wordcount: '1064'
 ht-degree: 98%
@@ -29,7 +29,7 @@ Adobe Campaign Standard は、**予測送信時間の最適化**&#x200B;およ�
 
 * **予測エンゲージメントスコアリング**：予測エンゲージメントスコアリングは、受信者がメッセージにエンゲージする確率と、次の E メールの送信後 7 日以内にオプトアウト（登録解除）する確率を予測します。これらの確率は、具体的な離脱リスク（中または低）に応じてさらに分割されます。さらに、このモデルでは顧客に関するリスクのパーセンタイルランクが表示され、他の顧客と比較した場合の各顧客のランクを把握できます。
 
->[!CAUTION]
+>[!IMPORTANT]
 >この機能は、製品の一部として初期状態では使用できません。実装するには、アドビのコンサルティングサービス部門に依頼する必要があります。詳しくは、アドビ担当者にお問い合わせください。
 >
 >この機能を使用するには、お客様が提供する必要のあるAzureまたはAmazonS3ストレージを使用する必要があります。
