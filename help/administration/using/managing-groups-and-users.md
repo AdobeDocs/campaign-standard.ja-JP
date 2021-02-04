@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: users-and-security
 context-tags: user,overview;user,main;security,overview;security,main
 translation-type: tm+mt
-source-git-commit: 0556fec284c5873fbf5025cab15d73adb009ee37
+source-git-commit: ae2b6587d71f0915da05e53bf45c67c7a37a42c8
 workflow-type: tm+mt
-source-wordcount: '942'
-ht-degree: 96%
+source-wordcount: '940'
+ht-degree: 88%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 96%
 
 ユーザーは、常にセキュリティグループにリンクされている必要があります。これにより、ユーザーに特定の役割や組織単位を割り当てることができます。
 
-役割について詳しくは、[Adobe Campaign Standard 認証](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)ページの各表に、ユーザーの役割に応じて使用できる様々な操作を示します。
+ロールの詳細については、次のページの表に、ユーザーのロールに応じて使用可能な操作を示します。[Adobe Campaign Standard承認](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)。
 
 デフォルトのセキュリティグループは次のとおりです。
 
@@ -35,9 +35,9 @@ ht-degree: 96%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL Access to the deliverability parameters (Deliverability)]**&#x200B;および&#x200B;**[!UICONTROL Message Center agents (mcExec)]**&#x200B;セキュリティグループは内部のみで、ユーザーに割り当てることはできません。
+>**[!UICONTROL Access to the deliverability parameters (Deliverability)]**&#x200B;および&#x200B;**[!UICONTROL Message Center agents (mcExec)]**&#x200B;セキュリティグループはAdobe内部のみであり、どのユーザーにも割り当てないでください。
 
-どのセキュリティグループにもリンクされていないユーザーは、Adobe Campaign にアクセスできません。
+Adobe Campaignにアクセスするには、各ユーザーをセキュリティグループに割り当てる必要があります。
 
 Campaign Standard ユーザーグループは **[!UICONTROL All]** 組織単位にリンクされているので、ユーザーのアクセスを制限するにはユーザーを追加しないでください。
 
@@ -146,5 +146,5 @@ Administrators ユーザーは、組織単位の割り当てに使用する Geom
 
 >[!IMPORTANT]
 >
->Admin Console でセキュリティグループから削除されたユーザーは、Adobe Campaign セキュリティグループに引き続き属しますが、Adobe Campaign にログインできなくなります。この場合、ユーザーが機密情報を受け取らないように、Admin Console でユーザーの E メールアドレスを削除します。
+>管理コンソールでセキュリティグループから削除されたユーザーは、Adobe Campaignセキュリティグループに引き続き属し、Adobe Campaignにログインできなくなります。 この場合、ユーザーが機密情報を受け取らないように、Admin Console でユーザーの E メールアドレスを削除します。
 
