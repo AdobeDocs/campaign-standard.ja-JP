@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: users-and-security
 context-tags: role,overview;role,main
 translation-type: tm+mt
-source-git-commit: 2c15273c7614204300f615e9060f29c93a4f8481
+source-git-commit: ae2b6587d71f0915da05e53bf45c67c7a37a42c8
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 88%
+source-wordcount: '235'
+ht-degree: 85%
 
 ---
 
@@ -22,10 +22,6 @@ Adobe Campaign には、ユーザーやユーザーグループに割り当て�
 
 組織単位と役割を組み合わせることにより、ユーザーには該当するインターフェイスのみ表示され、様々な機能に対するユーザーのアクセスを定義できます。
 
-詳しくは、[役割と権限の対応表](/help/administration/using/assets/acs_rights.pdf)を参照してください。この表には、選択した権限に応じて、インターフェイスで使用できる機能の詳細が示されています。
-
-[![画像](assets/user_management_3.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)
-
 役割は&#x200B;**[!UICONTROL Administration > Users & Security > Roles]**&#x200B;メニューから管理できます。
 
 デフォルトの権限は次のとおりです。
@@ -34,13 +30,17 @@ Adobe Campaign には、ユーザーやユーザーグループに割り当て�
 
    >[!NOTE]
    >
-   >トリガーを作成する必要がある場合は、**[!UICONTROL Administration]**&#x200B;がトリガーメニューにアクセスできる必要があります。 トリガーの詳細については、[ページ](../../integrating/using/about-adobe-experience-cloud-triggers.md)を参照してください。
+   >Experience Cloudトリガーを扱う必要がある場合は、Experience Cloudトリガーメニューにアクセスするための&#x200B;**[!UICONTROL Administration]**&#x200B;権限が必要です。 Experience Cloudトリガーの詳細については、[ページ](../../integrating/using/about-adobe-experience-cloud-triggers.md)を参照してください。
 
 * **[!UICONTROL Datamodel]**：パブリケーションの実行とカスタムリソースの作成をおこなう権限
 * **[!UICONTROL Generic import]**：データに対する一般的なインポートを実行する権限。この権限を有効にするには、「**[!UICONTROL Generic import]**」の役割を「**[!UICONTROL Workflow]**」の役割にリンクする必要があります。
 * **[!UICONTROL Prepare deliveries]**：配信の作成、変更、準備、削除をおこなう権限。この役割を持つユーザーは、配信の準備はできますが、送信はできません。
 * **[!UICONTROL Start deliveries]**：配信の作成、変更、準備、送信、削除をおこなう権限。
 * **[!UICONTROL Workflow]**：ワークフローの実行（開始、停止、一時停止など）を管理する権限。この役割を持つユーザーは、ワークフロー内でも配信を送信できません。
+
+詳しくは、[役割と権限の対応表](/help/administration/using/assets/acs_rights.pdf)を参照してください。この表には、選択した権限に応じて、インターフェイスで使用できる機能の詳細が示されています。
+
+[![画像](assets/user_management_3.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)
 
 **関連トピック：**
 
