@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: sending-and-tracking-messages
 context-tags: delivery,deployment,back
 translation-type: tm+mt
-source-git-commit: b48e246ee515d2f250d866ed72d5765bf1ccb326
+source-git-commit: 8c636ec7a35e9c34210bbb04b1b13aaa6a431345
 workflow-type: tm+mt
-source-wordcount: '920'
-ht-degree: 21%
+source-wordcount: '913'
+ht-degree: 22%
 
 ---
 
@@ -94,17 +94,9 @@ KPIの更新に時間がかかりすぎる場合、または送信ログの結�
 
 * それ以外の場合は、ステータスが&#x200B;**[!UICONTROL Failed]**&#x200B;に変わり、それに応じて&#x200B;**[!UICONTROL Delivered]**&#x200B;の割合が減少します。
 
-<!--Soft-bouncing messages increment an error counter. When the error counter reaches the limit threshold or when the validity period is over, their status changes to **[!UICONTROL Failed]**.-->
-
-<!--For more on retries after a delivery temporary failure, see [this section](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure).-->
-
 その結果、有効期間の終わりまで待って、最終的な&#x200B;**[!UICONTROL Delivered]**&#x200B;の割合と、実際に&#x200B;**[!UICONTROL Sent]**&#x200B;と&#x200B;**[!UICONTROL Failed]**&#x200B;のメッセージの最終回数を確認する必要があります。
 
 ### 電子メールフィードバックサービス（ベータ版） {#email-feedback-service}
-
->[!NOTE]
->
->この節は電子メールチャネルにのみ適用されます。
 
 Email Feedback Service(EFS)機能を使用すると、フィードバックが拡張MTA(Message Transfer Agent)から直接取り込まれるので、各電子メールのステータスが正確にレポートされます。
 
