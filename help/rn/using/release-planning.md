@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-release-planning
 translation-type: tm+mt
-source-git-commit: ac669a4dbb3b0f5f8f7352d1271460054913a1b4
+source-git-commit: fb16fc4e24a4345d73e0b2a0ad58a78771a93b8a
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 96%
+source-wordcount: '466'
+ht-degree: 94%
 
 ---
 
@@ -29,7 +29,9 @@ ht-degree: 96%
 
 ## リリース 21.1 - 2 月リリース {#release-21-1-release}
 
-環境のアップデートは、以下に示す期間に順次おこなわれます。このリリースに関する詳細は、Stage環境の開始がアップグレードされた場合のリリースノート[](../../rn/using/release-notes.md)を参照してください。 その他のご質問については、[アドビクライアントケア](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)にお問い合わせください。
+環境のアップデートは、以下に示す期間に順次おこなわれます。正確な日付は、各顧客に電子メールで通知されます。
+
+このリリースに関する詳細は、Stage環境の開始がアップグレードされた場合のリリースノート[](../../rn/using/release-notes.md)を参照してください。
 
 <table>
  <thead>
@@ -41,14 +43,16 @@ ht-degree: 96%
  <tbody>
   <tr>
    <td>ステージング<br /> </td>
-   <td>2021 年 2 月 1 日～2 日<br /> </td>
+   <td>2021 年 2 月 1 日～10 日<br /> </td>
   </tr>
   <tr>
    <td> 本番<br /> </td>
-   <td>2021年2月8日～15日<br /> </td>
+   <td>2021年2月8日～17日<br /> </td>
   </tr>
  </tbody>
 </table>
+
+その他のご質問については、[アドビクライアントケア](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)にお問い合わせください。
 
 ## 質問と回答 {#questions-and-answers}
 
