@@ -6,11 +6,11 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Campaign Standard の使用に必要な主要な機能、タスク、設定、その他のリソースに関するヘルプセンター。 '
 breadcrumb-title: Campaign Standard
 title: Campaign Standard ガイド
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 36efc64f9be3863e5e16381aaba445d2f13eac4d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1755'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -237,7 +237,7 @@ ht-degree: 95%
       + [Campaign と Experience Manager の統合の設定](integrating/using/configure-experience-manager.md)
       + [Adobe Experience Manager での E メールコンテンツの作成](integrating/using/creating-email-experience-manager.md)
       + [Experience Manager での Campaign フォームの作成](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
-      + [Adobe Experience Managerとの統合による多言語電子メールの作成](integrating/using/creating-multilingual-email-aem.md)
+      + [Adobe Experience Manager との統合による多言語 E メールの作成](integrating/using/creating-multilingual-email-aem.md)
    + Campaign と Target {#working-with-campaign-and-target}
       + [Campaign と Target の統合について](integrating/using/about-campaign-target-integration.md)
       + [Campaign と Target の統合の設定](integrating/using/configuring-the-campaign-target-integration.md)
@@ -263,16 +263,16 @@ ht-degree: 95%
       + [トリガーのテスト](integrating/using/testing-your-triggers.md)
       + [中断トリガーの使用例](integrating/using/abandonment-triggers-use-cases.md)
    + Campaign と Microsoft Dynamics 365 {#campaign-and-microsoft-dynamics-365}
-      + [Microsoft Dynamics 365統合の概要](integrating/using/d365-acs-get-started.md)
+      + [Microsoft Dynamics 365 統合の概要](integrating/using/d365-acs-get-started.md)
       + [ベストプラクティスと制限事項](integrating/using/d365-acs-notices-and-recommendations.md)
-      + [Microsoft Dynamics 365の構成](integrating/using/d365-acs-configure-d365.md)
-      + [キャンペーンとAdobe I/Oの構成](integrating/using/d365-acs-configure-adobe-io.md)
-      + 統合アプリを設定{#configure-integration-tool}
+      + [Microsoft Dynamics 365 の設定](integrating/using/d365-acs-configure-d365.md)
+      + [Campaign と Adobe I/O の設定](integrating/using/d365-acs-configure-adobe-io.md)
+      + 統合アプリを設定 {#configure-integration-tool}
          + [統合アプリの概要](integrating/using/d365-acs-self-service-app-quick-start-guide.md)
          + [統合アプリへのアクセス](integrating/using/d365-acs-self-service-app-control-access.md)
          + [統合アプリを使用したシステムの接続](integrating/using/d365-acs-self-service-app-settings.md)
          + [同期ワークフローの管理](integrating/using/d365-acs-self-service-app-workflows.md)
-         + [Microsoft Dynamics 365とキャンペーン間のデータのマップ](integrating/using/d365-acs-self-service-app-data-sync.md)
+         + [Microsoft Dynamics 365 と Campaign 間のデータのマップ](integrating/using/d365-acs-self-service-app-data-sync.md)
       + [Microsoft Dynamics 365 統合の使用](integrating/using/d365-acs-using-the-integration.md)
 + プロセスとデータの管理 {#managing-processes-and-data}
    + [データとプロセスの管理の概要](automating/using/get-started-workflows.md)
@@ -451,7 +451,7 @@ ht-degree: 95%
       + [Experience Platform SDK 統合 FAQ](administration/using/aep-faq.md)
       + [Adobe Campaign Standard の使用例をサポートするための Launch ルールの設定](administration/using/configuring-rules-launch.md)
       + [Adobe Campaign Standard でサポートされるモバイルの使用例](administration/using/supported-mobile-use-cases.md)
-      + [SDK v4からAdobe Experience PlatformSDKにモバイルアプリケーションを移行する方法](administration/using/sdkv4-migration.md)
+      + [SDK v4 からAdobe Experience Platform SDK にモバイルアプリケーションを移行する方法](administration/using/sdkv4-migration.md)
    + SMSチャネルの設定 {#configuring-sms}
       + [SMS チャネルの実装](administration/using/configuring-sms-channel.md)
       + [SMS コネクタのプロトコルと設定](administration/using/sms-protocol.md)
