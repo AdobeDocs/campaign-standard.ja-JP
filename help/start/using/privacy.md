@@ -9,11 +9,11 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2879066634a8a123ef5d07d46aa96479f156a923
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1479'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Adobe Campaign は、個人情報や機密データを含む膨大な量のデ�
 
 >[!NOTE]
 >
->GDPR、CCPA、PDPAがAdobe Campaignにどのように適用されるかについては、[このページ](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy-overview.html#whatisgdpr)を参照してください。
+>GDPR、CCPA、PDPA が Adobe Campaign にどのように適用されるかについては、[このページ](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy-overview.html#whatisgdpr)を参照してください。
 
 ### Adobe Experience Cloud プライバシー {#experience-cloud-privacy}
 
@@ -128,7 +128,7 @@ Adobe Campaign は、特定のプライバシーリクエストに対するデ�
 
 >[!NOTE]
 >
->GDPR、CCPA、PDPA のプライバシーコンプライアンスに役立つツール群を紹介します。これらの様々な規則について詳しくは、[このページ](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)を参照してください。
+>GDPR、CCPA、PDPA のプライバシーコンプライアンスに役立つツール群を紹介します。これらの様々な規則について詳しくは、[このページ](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy-overview.html#whatisgdpr)を参照してください。
 
 <!--* **GDPR** (General Data Protection Regulation) is the European Union’s (EU) privacy law that harmonizes and modernizes data protection requirements. GDPR applies to Adobe Campaign customers who hold data for Data Subjects residing in the EU.
 
@@ -140,7 +140,7 @@ Adobe Campaign は、特定のプライバシーリクエストに対するデ�
 
 ## トラッキング機能 {#tracking-capabilities}
 
-Adobe Campaign のトラッキング機能は、2 種類の Cookie を使用して配信受信者の行動をトラッキングできます。追跡について詳しくは、[このページ](../../sending/using/tracking-messages.md)を参照してください。
+Adobe Campaign のトラッキング機能は、2 種類の Cookie を使用して配信受信者の行動をトラッキングできます。トラッキングの詳細については、[このページ](../../sending/using/tracking-messages.md)を参照してください。
 
 >[!NOTE]
 >
