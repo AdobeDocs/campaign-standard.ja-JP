@@ -5,11 +5,11 @@ product: campaign
 title: Adobe Campaign Standard 製品ドキュメント
 description: Campaign Standard 製品ドキュメントの参照
 topic: Premium
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 658e1916e39cb3deec15a87891d07e3e9172dc78
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '233'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 94%
 
 ## 新着情報
 
-* **[キャンペーン21.1 2月のリリースが公開されました。](rn/using/release-notes.md)**<br/> Discoverの新機能、最新のアップデートおよび修正点
+* **[Campaign 21.1 の 2 月リリースが公開されました。](rn/using/release-notes.md)**<br/> 新機能、最新のアップデートおよび修正点をご覧ください
 
 * **[誤ったハードバウンスの更新](https://helpx.adobe.com/jp/campaign/kb/update-bounce-qualification.html)**<br/> Gmail の停止後に誤ったハードバウンスを更新する方法を説明します。
 
