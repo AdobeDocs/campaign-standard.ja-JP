@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: fb16fc4e24a4345d73e0b2a0ad58a78771a93b8a
 workflow-type: tm+mt
 source-wordcount: '466'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 94%
 
 環境のアップデートは、以下に示す期間に順次おこなわれます。正確な日付は、各顧客に電子メールで通知されます。
 
-このリリースに関する詳細は、Stage環境の開始がアップグレードされた場合のリリースノート[](../../rn/using/release-notes.md)を参照してください。
+このリリースに関する詳細は、ステージング環境の開始がアップグレードされた場合の[リリースノート](../../rn/using/release-notes.md)を参照してください。 
 
 <table>
  <thead>
@@ -43,11 +43,11 @@ ht-degree: 94%
  <tbody>
   <tr>
    <td>ステージング<br /> </td>
-   <td>2021 年 2 月 1 日～10 日<br /> </td>
+   <td>2021 年 10 月 1 日～2 日<br /> </td>
   </tr>
   <tr>
    <td> 本番<br /> </td>
-   <td>2021年2月8日～17日<br /> </td>
+   <td>2021 年 2 月 8 日～17 日<br /> </td>
   </tr>
  </tbody>
 </table>
