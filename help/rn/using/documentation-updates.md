@@ -9,8 +9,8 @@ topic-tags: campaign-standard-releases
 translation-type: tm+mt
 source-git-commit: b040a5c6948967d053130268329a8ba4879e363b
 workflow-type: tm+mt
-source-wordcount: '6540'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -25,19 +25,19 @@ ht-degree: 96%
 
 電子メールフィードバックサービス — [詳細を読む](../../sending/using/confirming-the-send.md#email-feedback-service)
 
-Adobe Experience Manager統合の強化 — [詳細情報](../../integrating/using/creating-multilingual-email-aem.md)
+Adobe Experience Manager 統合の強化 - [詳細情報](../../integrating/using/creating-multilingual-email-aem.md)
 
-統合Experience Cloudインターフェイス — [詳細情報](../../start/using/interface-description.md#top-bar)
+統合 Experience Cloud インターフェイス - [詳細情報](../../start/using/interface-description.md#top-bar)
 
 **リリースに伴うその他のドキュメントのアップデート**
 
-電子メール、名、姓、または任意のカスタムフィールドに基づいてプロファイルを検索する方法についての情報が追加されました。 [詳細を表示](../../audiences/using/integrated-customer-profile.md)
+E メール、名前（姓）、名前（名）または任意のカスタムフィールドに基づいてプロファイルを検索する方法についての情報が追加されました。 [詳細を表示](../../audiences/using/integrated-customer-profile.md)
 
-新しいGetOption関数に関する情報が追加され、外部パラメータを使用してワークフローを呼び出すときに、指定した関数の値を返すことができるようになりました。 [詳細を表示](../../automating/using/customizing-workflow-external-parameters.md#using-events-variables)
+新しい GetOption 関数に関する情報が追加され、外部パラメーターを使用してワークフローを呼び出すときに、指定した関数の値を返せるようになりました。 [詳細を表示](../../automating/using/customizing-workflow-external-parameters.md#using-events-variables)
 
-**[!UICONTROL Transfer file]**&#x200B;アクティビティを使用した後に利用できる新しい&#x200B;**[!UICONTROL filesCount]**&#x200B;出力変数に情報が追加されました。 [詳細を表示](../../automating/using/transfer-file.md#output-variables)
+**[!UICONTROL Transfer file]** アクティビティを使用した後に利用できる新しい **[!UICONTROL filesCount]** 出力変数に情報が追加されました。 [詳細を表示](../../automating/using/transfer-file.md#output-variables)
 
-「**電子メールチャネルの設定**」セクションが更新され、該当する最新の電子メール設定が明確になりました。 一部のお客様で引き続き使用されているレガシーパラメーターは、ページの下部に表示されます。 [詳細を表示](../../administration/using/configuring-email-channel.md)
+**E メールチャネルの設定**&#x200B;の節が更新され、該当する最新の E メール設定が明確になりました。 一部のお客様で引き続き使用されているレガシーパラメーターは、ページの下部に表示されます。 [詳細を表示](../../administration/using/configuring-email-channel.md)
 
 ## 2020 年 12 月 {#doc-updates-december-2020}
 
@@ -637,7 +637,7 @@ API ドキュメントに、**カスタムフィルター**&#x200B;に関連す�
 
 **リリースに含まれる新機能**
 
-GDPR：コアサービスの統合 - [詳細を表示](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy.html)
+GDPR：コアサービスの統合 - [詳細を表示](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=ja)
 
 プッシュ機能の強化 - 詳細な配信フィードバック - [詳細を表示](../../channels/using/preparing-and-sending-a-push-notification.md#sending-the-notification)
 
