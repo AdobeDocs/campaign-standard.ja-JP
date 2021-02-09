@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-release-planning
 translation-type: tm+mt
-source-git-commit: fb16fc4e24a4345d73e0b2a0ad58a78771a93b8a
+source-git-commit: 558f88a129264560851832ca70628509661cb208
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 98%
+source-wordcount: '467'
+ht-degree: 97%
 
 ---
 
@@ -43,11 +43,11 @@ ht-degree: 98%
  <tbody>
   <tr>
    <td>ステージング<br /> </td>
-   <td>2021 年 10 月 1 日～2 日<br /> </td>
+   <td>2021 年 22 月 1 日～2 日<br /> </td>
   </tr>
   <tr>
    <td> 本番<br /> </td>
-   <td>2021 年 2 月 8 日～17 日<br /> </td>
+   <td>2021年2月8日～3月1日<br /> </td>
   </tr>
  </tbody>
 </table>
