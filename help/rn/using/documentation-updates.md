@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: b040a5c6948967d053130268329a8ba4879e363b
+source-git-commit: 87c43d3f97747da03e66634d7236d30a3ec733dc
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '6540'
+ht-degree: 97%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 **リリースに含まれる新機能**
 
-電子メールフィードバックサービス — [詳細を読む](../../sending/using/confirming-the-send.md#email-feedback-service)
+電子メールフィードバックサービス — [詳細を読む](../../sending/using/confirming-the-send.md#message-indicators)
 
 Adobe Experience Manager 統合の強化 - [詳細情報](../../integrating/using/creating-multilingual-email-aem.md)
 
