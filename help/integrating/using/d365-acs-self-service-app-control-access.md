@@ -6,7 +6,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 translation-type: tm+mt
-source-git-commit: cce30fd5cd3d5d63563d1dab3bb1e7554c26fb3e
+source-git-commit: 974ae83a746c81b417e287fc2665dfa5982eff85
 workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 0%
@@ -34,11 +34,11 @@ ht-degree: 0%
 1. https://experience.adobe.com/を参照し、Adobe Experience Cloudにログインします。
 1. **Admin Console**&#x200B;にアクセスします。
 
-   ![](assets/d365-to-acs-access-3.png)
+   ![](assets/do-not-localize/d365-to-acs-access-3.png)
 
 1. **[!UICONTROL Products]**&#x200B;をクリックして、Experience Cloudソリューションにアクセスします。
 
-   ![](assets/d365-to-acs-access-6.png)
+   ![](assets/do-not-localize/d365-to-acs-access-6.png)
 
 
    >[!IMPORTANT]
@@ -47,11 +47,11 @@ ht-degree: 0%
 
 1. 設定する最初のインスタンスをクリックします。
 
-   ![](assets/d365-to-acs-access-6.png)
+   ![](assets/do-not-localize/d365-to-acs-access-6.png)
 
    インスタンスページは次のようになります。
 
-   ![](assets/d365-to-acs-access-8.png)
+   ![](assets/do-not-localize/d365-to-acs-access-8.png)
 
 1. **[!UICONTROL New Profile]**&#x200B;ボタンをクリックし、次の名前の新しいエントリを追加します。**Campaign Standard- your-prod-instance-name - D365/ACS統合**
 
@@ -63,11 +63,11 @@ ht-degree: 0%
 
 1. エントリが次のように表示される場合は、「**[!UICONTROL Done]**」ボタンをクリックします。
 
-   ![](assets/d365-to-acs-access-14.png)
+   ![](assets/do-not-localize/d365-to-acs-access-14.png)
 
    新しい製品プロファイルが追加されました。
 
-   ![](assets/d365-to-acs-access-15.png)
+   ![](assets/do-not-localize/d365-to-acs-access-15.png)
 
 ## ユーザーへのアクセスを許可{#add-users-to-profile}
 
@@ -75,11 +75,11 @@ ht-degree: 0%
 
 1. 以前に作成した新しいプロファイルをクリックします。 **Campaign Standard- your-prod-instance-name - D365/ACS統合**
 
-   ![](assets/d365-to-acs-access-15.png)
+   ![](assets/do-not-localize/d365-to-acs-access-15.png)
 
 1. 「**[!UICONTROL Developers]**」タブをクリックします。
 
-   ![](assets/d365-to-acs-access-18.png)
+   ![](assets/do-not-localize/d365-to-acs-access-18.png)
 
 1. 「**[!UICONTROL Add Developer]**」ボタンをクリックします
 
