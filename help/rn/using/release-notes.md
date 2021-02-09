@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 46d864de0ffd5dce718a2a2c055c3194e45fcdd2
+source-git-commit: cb903760fc8fa6168b97a2b02ab7896cd1a8b250
 workflow-type: tm+mt
-source-wordcount: '2610'
-ht-degree: 99%
+source-wordcount: '2627'
+ht-degree: 98%
 
 ---
 
@@ -79,6 +79,8 @@ ht-degree: 99%
 <li>通知機能の改善 - 通知ドロップダウンに 2 つのタブが追加されました。1 つは独自の製品通知用、もう 1 つはグローバルな製品のお知らせ用です。</li>
 </ul>
 <p>詳しくは、<a href="../../start/using/interface-description.md#top-bar">詳細ドキュメント</a>を参照してください。
+</p>
+<p>注意：この変更は、2月10日から3月1日の間に、すべての顧客環境に対してプログレッシブに展開されます。
 </p>
 </td> 
 </tr> 
