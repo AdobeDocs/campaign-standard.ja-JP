@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: 41f2280c72a2f6bee3e4e972fab17a7ac94b966c
+source-git-commit: 46d864de0ffd5dce718a2a2c055c3194e45fcdd2
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2610'
+ht-degree: 99%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 <li><b>配信済み</b>指標の計算は、精度と反応性を向上させるために、拡張 MTA からのリアルタイムフィードバックに基づいておこなわれるようになりました。</li>
 <li>EFS は、同期ソフトバウンスレポートの遅延の問題を解決します。</li>
 </ul>
-<p>詳しくは、<a href="../../sending/using/confirming-the-send.md#email-feedback-service">詳細ドキュメント</a>を参照してください。
+<p>詳しくは、<a href="../../sending/using/confirming-the-send.md#message-indicators">詳細ドキュメント</a>を参照してください。
 </p>
 </td> 
 </tr> 
