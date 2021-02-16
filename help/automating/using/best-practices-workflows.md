@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
 translation-type: tm+mt
-source-git-commit: 431ab4e83b9d0944cd7b990c3af0e38950dd0272
+source-git-commit: 9b76f02b03ba1180f852b446f0dbbae26a27d4bd
 workflow-type: tm+mt
-source-wordcount: '1120'
-ht-degree: 89%
+source-wordcount: '1179'
+ht-degree: 85%
 
 ---
 
@@ -108,6 +108,8 @@ Adobe Campaign を使用すると、あらゆる種類のワークフローを�
 ![](assets/preview_scheduler.png)
 
 詳しくは、[スケジューラーアクティビティ](../../automating/using/scheduler.md)を参照してください。
+
+複数のワークフローを含むスケジュール済みアクティビティをデザインする場合は、ワークフローが完了するまで再スケジュールされないようにする必要があります。 これを行うには、以前の実行の1つ以上のタスクがまだ保留中の場合に、ワークフローを実行しないように設定する必要があります。 詳しくは、[このページ](../../automating/using/scheduled-workflows-execution.md)を参照してください。
 
 ## パラメーターを使用したワークフローの呼び出し{#workflow-with-parameters}
 
