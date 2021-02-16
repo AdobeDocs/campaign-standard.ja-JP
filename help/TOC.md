@@ -7,10 +7,10 @@ user-guide-description: 'Campaign Standard の使用に必要な主要な機能�
 breadcrumb-title: ヘルプセンター
 title: Campaign Standard ガイド
 translation-type: tm+mt
-source-git-commit: 2dedadd1a2879be1aee62272f7b063a365206bd8
+source-git-commit: b6fe1491e3ff519f50e1492abcac7b79dc0e64e6
 workflow-type: tm+mt
-source-wordcount: '1755'
-ht-degree: 100%
+source-wordcount: '1759'
+ht-degree: 99%
 
 ---
 
@@ -287,6 +287,7 @@ ht-degree: 100%
       + [ワークフロー実行の監視](automating/using/monitoring-workflow-execution.md)
       + [実行オプションの管理](automating/using/managing-execution-options.md)
       + [アクティビティのプロパティの管理](automating/using/activity-properties.md)
+      + [スケジュールされたワークフローの重複実行](automating/using/scheduled-workflows-execution.md)
    + 外部パラメーターを使用したワークフローの呼び出し {#calling-workflow-external-parameters}
       + [概要](automating/using/calling-a-workflow-with-external-parameters.md)
       + [外部シグナルアクティビティでのパラメーターの宣言](automating/using/declaring-parameters-external-signal.md)
