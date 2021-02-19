@@ -76,7 +76,7 @@ ht-degree: 36%
                <tr>
                   <td>countDate</td>
                   <td>カウント日</td>
-                  <td>日付 </td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
@@ -88,7 +88,7 @@ ht-degree: 36%
                <tr>
                   <td>created</td>
                   <td>作成日時</td>
-                  <td>日付 </td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
@@ -118,7 +118,7 @@ ht-degree: 36%
                <tr>
                   <td>expirationDate</td>
                   <td>有効期限</td>
-                  <td>日付 </td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
@@ -159,8 +159,8 @@ ht-degree: 36%
                </tr>
                <tr>
                   <td>lastModified</td>
-                  <td>最終変更日</td>
-                  <td>日付 </td>
+                  <td>最終変更日時</td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
