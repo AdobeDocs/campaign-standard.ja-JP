@@ -59,7 +59,7 @@ Adobe Campaign で複数のブランドを管理する場合は、ブランド�
 
 **ヒント** -受信者の体験をさらに向上させるために、「Emma from Megastore」のように、個人の名前を追加できます。
 
-送信者名の個人化について詳しくは、[電子メール送信者](../../designing/using/subject-line.md#email-sender)を参照してください。
+送信者名の個人設定について詳しくは、[電子メール送信者](../../designing/using/subject-line.md#email-sender)を参照してください。
 
 ## SMS送信者名をカスタマイズする
 
