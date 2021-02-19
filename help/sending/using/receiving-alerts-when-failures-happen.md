@@ -102,7 +102,7 @@ Adobe Campaignインターフェイスから、次の操作を実行できます
 
 * **[!UICONTROL Deliveries failed]**:定義された範囲内でスケジュールされた配信。ステータスに誤りがあります。
 * **[!UICONTROL Deliveries with preparation failed]**:定義された範囲内で変更された配信で、準備手順(ターゲットの計算とコンテンツの生成)が失敗した場合。詳しくは、[送信の準備](../../sending/using/preparing-the-send.md)を参照してください。
-* **[!UICONTROL Delivery with bad error ratio for soft bounces]**:定義した範囲内にスケジュールされ、少なくともステータスが「ソフトバウンス誤差」の割合が **[!UICONTROL In progress]**、定義した割合を超える配信。
+* **[!UICONTROL Delivery with bad error ratio for soft bounces]**:定義した範囲内にスケジュールされ、少なくともステータスが「ソフトバウンス誤差率」で、定義した割合 **[!UICONTROL In progress]**&#x200B;を超える配信。
 * **[!UICONTROL Delivery with bad error ratio for hard bounces]**:定義した範囲内にスケジュールされた配信(少なくともステータス **[!UICONTROL In progress]**、ハードバウンス誤差率が定義した割合を超える)。
 * **[!UICONTROL Deliveries with long start pending]**:定義された範囲内でスケジュールされた配信(定義された期間より長い **[!UICONTROL Start pending]** ステータスを持つ)。 **[!UICONTROL Start pending]** ステータスとは、メッセージがまだシステムによって考慮されていないことを意味します。
 * **[!UICONTROL Deliveries with low throughput]**:配信が定義された長さを超えて開始され、処理されたメッセージの割合が定義された割合を下回り、定義された値より低いスループットを持ちます。
