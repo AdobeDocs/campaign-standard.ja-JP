@@ -36,7 +36,7 @@ ht-degree: 18%
 | **[!UICONTROL Check In-App content for profile template]** | アプリ内 | パーソナライゼーションの開始時 | アプリ内コンテンツ/トリガーが、プロファイルテンプレート用に空でないことを確認します。 |
 | **[!UICONTROL Check In-App content for subscriber template]** | アプリ内 | パーソナライゼーションの開始時 | 購読者テンプレートのアプリ内コンテンツ/トリガーが空でないことを確認します。 |
 | **[!UICONTROL Check proof size]** | すべて | ターゲティングの終了時 | 配達確認ターゲットの母集団が100受信者を超える場合にエラーメッセージを生成します。 |
-| **[!UICONTROL Check social network sharing link]** | 電子メール | パーソナライゼーションの開始時 | コンテンツにソーシャルネットワーク共有リンク(ViralLinks)を含める場合に、ミラーページへのリンクの存在をチェックします。 |
+| **[!UICONTROL Check social network sharing link]** | 電子メール | パーソナライゼーションの開始時 | コンテンツにソーシャルネットワーク共有リンク(ViralLinks)が含まれている場合に、ミラーページへのリンクの存在をチェックします。 |
 | **[!UICONTROL Check subject]** | 電子メール | パーソナライゼーションの開始時 | 件名と送信者のアドレスに、特定のメール転送エージェントで問題を引き起こす可能性のある特殊文字が含まれていないことを確認し、メッセージの件名が完了したかどうかを確認します。 |
 | **[!UICONTROL Check unsubscription link]** | 電子メール | パーソナライゼーションの開始時 | 各コンテンツ（HTMLおよびテキスト）に少なくとも1つの購読解除（オプトアウト）URLが存在するかどうかを確認します。 |
 | **[!UICONTROL Check URL labels]** | 電子メール | パーソナライゼーションの開始時 | 各追跡URLにラベルが付いているかどうかを確認します。 |
