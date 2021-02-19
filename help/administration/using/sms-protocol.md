@@ -789,7 +789,7 @@ Adobe Campaign でのパーソナライズされたメッセージの動作に�
 
 #### MT、SR、broadLog エントリの一致 {#matching-mt-sr}
 
-Adobe Campaignでは、メッセージはブロードログエントリです。 Adobe Campaign Standardでは、外部コネクタは作業中のブロードローグテーブルについてのみ知る必要があります。`nmsBroadLogExec`. ブロードローグエントリを特定のターゲティングディメンション(nmsBroadLogXXX)にコピーし直す作業を担当しています。
+Adobe Campaignでは、メッセージはブロードログエントリです。 Adobe Campaign Standardでは、外部コネクタは、作業中のブロードローグテーブルについてのみ知る必要があります。`nmsBroadLogExec`. ブロードローグエントリを特定のターゲティングディメンション(nmsBroadLogXXX)にコピーし直す作業を担当しています。
 
 残念ながら、SMPPは次のメッセージと共にIDを送信することを許可していません。プロバイダは各MTにMT IDを与え、1つ以上のSRに同じIDを与える。
 
