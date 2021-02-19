@@ -37,9 +37,9 @@ ht-degree: 9%
 
       URLのパーソナライズを定義できます。 [URLの個人設定](../../designing/using/using-reusable-content.md#creating-a-content-fragment)を参照してください。
 
-   * **ランディングページ**:adobe campaignランディングページへのアクセスを許可します。
-   * **購読リンク**:adobe campaignサービスを購読するためのリンクを挿入します。
-   * **購読解除リンク**:adobe campaignサービスの登録を解除するためのリンクを挿入します。
+   * **ランディングページ**:Adobe Campaignランディングページへのアクセスを許可します。
+   * **購読リンク**:Adobe Campaignサービスを購読するためのリンクを挿入します。
+   * **購読解除リンク**:Adobe Campaignサービスの登録を解除するためのリンクを挿入します。
    * **アクションを定義するリンク**:ランディングページ内の要素をクリックしたときのアクションを定義します。
 
       >[!NOTE]
