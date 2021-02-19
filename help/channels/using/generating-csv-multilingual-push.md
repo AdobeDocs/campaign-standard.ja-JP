@@ -19,7 +19,7 @@ ht-degree: 1%
 
 配信用のコンテンツを生成するためにCSVファイルをアップロードする機能は、多言語のプッシュ通知をサポートするために使用される機能です。 ファイルを正常にアップロードでき、配信を作成するには、CSVファイルの形式を特定のガイドラインに従う必要があります。 次の節では、ファイル形式とその考慮事項について説明します。
 
-## ファイルのフォーマット {#file-format}
+## ファイル形式 {#file-format}
 
 多言語のプッシュには、CSVファイルに14列必要です。
 
@@ -28,7 +28,7 @@ ht-degree: 1%
 1. 音
 1. adge
 1. deeplinkURI
-1. category
+1. カテゴリー
 1. iosMediaAttachmentURL
 1. androidMediaAttachmentURL
 1. isContentAvailable
