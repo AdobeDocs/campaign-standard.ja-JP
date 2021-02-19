@@ -46,7 +46,7 @@ ht-degree: 37%
                <tr>
                   <td>created</td>
                   <td>作成日時</td>
-                  <td>日付 </td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
@@ -70,7 +70,7 @@ ht-degree: 37%
                <tr>
                   <td>end</td>
                   <td>終了日</td>
-                  <td>日付 </td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
@@ -99,8 +99,8 @@ ht-degree: 37%
                </tr>
                <tr>
                   <td>lastModified</td>
-                  <td>最終変更日</td>
-                  <td>日付 </td>
+                  <td>最終変更日時</td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
@@ -151,7 +151,7 @@ ht-degree: 37%
                <tr>
                   <td>開始</td>
                   <td>開始日</td>
-                  <td>日付 </td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
@@ -224,7 +224,7 @@ ht-degree: 37%
     </tr>
     <tr>
     <td>startDate</td>
-    <td>日付</td>
+    <td>date</td>
     </tr>
     <tr>
     <td>timePeriod</td>
@@ -267,11 +267,11 @@ ht-degree: 37%
     </tr>
     <tr>
     <td>startDate</td>
-    <td>日付</td>
+    <td>date</td>
     </tr>
     <tr>
     <td>endDate</td>
-    <td>日付</td>
+    <td>date</td>
     </tr>
 </table>
 
@@ -284,10 +284,10 @@ ht-degree: 37%
     </tr>
     <tr>
     <td>startDate</td>
-    <td>日付</td>
+    <td>date</td>
     </tr>
     <tr>
     <td>endDate</td>
-    <td>日付</td>
+    <td>date</td>
     </tr>
 </table>
