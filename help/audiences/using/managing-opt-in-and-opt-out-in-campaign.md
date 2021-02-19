@@ -33,7 +33,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->ランディングページは、サービスの購読を有効にするためにも使用できます。 詳しくは、[このページ](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)を参照してください。
+>ランディングページは、サービスの購読を有効にするためにも使用できます。 詳しくは、[こちらのページ](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)を参照してください。
 
 1. **[!UICONTROL Profile acquisition]**&#x200B;ランディングページを作成します（[このセクション](../../channels/using/getting-started-with-landing-pages.md)を参照）。
 1. 必要な各ランディングページのキャンペーンコンテンツ内のチェックボックス追加を選択し、チャネルデータベースの対応するフィールドにリンクします。
