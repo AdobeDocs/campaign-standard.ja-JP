@@ -40,7 +40,7 @@ ht-degree: 11%
                <tr>
                   <td>birthDate</td>
                   <td>誕生日</td>
-                  <td>日付 </td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
@@ -112,7 +112,7 @@ ht-degree: 11%
                <tr>
                   <td>created</td>
                   <td>作成日時</td>
-                  <td>日付 </td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
@@ -130,7 +130,7 @@ ht-degree: 11%
                <tr>
                   <td>cusLastTransactionDate</td>
                   <td>最終取引日</td>
-                  <td>日付 </td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
@@ -140,7 +140,7 @@ ht-degree: 11%
                   <td> </td>
                </tr>
                <tr>
-                  <td>email</td>
+                  <td>電子メール</td>
                   <td>電子メール</td>
                   <td>文字列(128)</td>
                   <td> </td>
@@ -190,8 +190,8 @@ ht-degree: 11%
                </tr>
                <tr>
                   <td>lastModified</td>
-                  <td>最終変更日</td>
-                  <td>日付 </td>
+                  <td>最終変更日時</td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
@@ -215,13 +215,13 @@ ht-degree: 11%
                <tr>
                   <td>minBroadLogEvents</td>
                   <td>MinBroadLogEvents</td>
-                  <td>日付 </td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>minSubHistoEvents</td>
                   <td>MinSubHistoEvents</td>
-                  <td>日付 </td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
@@ -250,7 +250,7 @@ ht-degree: 11%
                </tr>
                <tr>
                   <td>stateLink (state)</td>
-                  <td>都道府県</td>
+                  <td>状態</td>
                   <td>link </td>
                   <td> </td>
                </tr>
@@ -415,7 +415,7 @@ ht-degree: 11%
 </tr>
 <tr>
 <td>endDay</td>
-<td>日付</td>
+<td>date</td>
 </tr>
 <tr>
 <td>precision</td>
@@ -427,7 +427,7 @@ ht-degree: 11%
 </tr>
 <tr>
 <td>ヶ月</td>
-<td>日付</td>
+<td>date</td>
 </tr>
 <tr>
 <td>演算子</td>
@@ -439,7 +439,7 @@ ht-degree: 11%
 </tr>
 <tr>
 <td>endMonth</td>
-<td>日付</td>
+<td>date</td>
 </tr>
 <tr>
 <td>type</td>
@@ -447,7 +447,7 @@ ht-degree: 11%
 </tr>
 <tr>
 <td>day</td>
-<td>日付</td>
+<td>date</td>
 </tr>
 </table>
 
@@ -459,7 +459,7 @@ ht-degree: 11%
 <th>タイプ</th>
 </tr>
 <tr>
-<td>email</td>
+<td>電子メール</td>
 <td>文字列</td>
 </tr>
 </table>
@@ -472,7 +472,7 @@ ht-degree: 11%
 <th>タイプ</th>
 </tr>
 <tr>
-<td>email</td>
+<td>電子メール</td>
 <td>文字列</td>
 </tr>
 </table>
