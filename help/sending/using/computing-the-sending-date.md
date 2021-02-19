@@ -52,7 +52,7 @@ ht-degree: 7%
       * **2017-06-03 10:00:00+01**
       * **2017-06-04 10:00:00+01**
       * **2017-06-05 10:00:00+01**
-   * **[!UICONTROL Limit the population of this segment]**&#x200B;オプションを選択していることを確認してください。
+   * **[!UICONTROL Limit the population of this segment]**&#x200B;オプションを選択していることを確認します。
 
       「**[!UICONTROL Limitation]**」タブで、「**[!UICONTROL Random sampling]**」を選択し、各セグメントに必要な割合を入力します。最初のバッチは10、2番目のバッチは15、以降同様です。
 
@@ -126,7 +126,7 @@ ht-degree: 7%
       >
       >連絡先の日付は、ワークフローの後半の電子メール配信アクティビティで定義されます。
 
-   * **[!UICONTROL Limit the population of this segment]**&#x200B;オプションを選択していることを確認してください。
+   * **[!UICONTROL Limit the population of this segment]**&#x200B;オプションを選択していることを確認します。
    * 「**[!UICONTROL Limitation]**」タブで、「**[!UICONTROL Random sampling]**」を選択し、各セグメントに必要な割合を入力します。**25**.
 
 
