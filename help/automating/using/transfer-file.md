@@ -133,7 +133,7 @@ Microsoft Azure Blob プロトコルを使用すると、Microsoft Azure Blob St
 メタ文字、ワイルドカード（* や ? など）を使用して、ファイルをフィルターできます。
 
 必要に応じて「**[!UICONTROL Define a file path]**」または「**[!UICONTROL Use a dynamic file path]**」を選択します。
-「**[!UICONTROL Use a dynamic file path]**」オプションを選択すると、標準の式やイベント変数を使用して、転送するファイルの名前をパーソナライズできます。詳しくは、[このページ](../../automating/using/customizing-workflow-external-parameters.md)を参照してください。
+「**[!UICONTROL Use a dynamic file path]**」オプションを選択すると、標準の式やイベント変数を使用して、転送するファイルの名前をパーソナライズできます。詳しくは、[こちらのページ](../../automating/using/customizing-workflow-external-parameters.md)を参照してください。
 
 パスは、Adobe Campaign サーバーのストレージスペースディレクトリを基準とした相対パスである必要があります。ファイルは、**sftp&lt;インスタンス名>/** ディレクトリにあります。また、ストレージ領域より上のディレクトリを参照することもできません。
 
@@ -165,7 +165,7 @@ Microsoft Azure Blob プロトコルを使用すると、Microsoft Azure Blob St
 
 ## 出力変数{#output-variables}
 
-**[!UICONTROL Transfer file]**&#x200B;アクティビティは、出力としてイベント変数を生成します。これは、他のアクティビティで利用できる変数です。例えば、[Test](../../automating/using/test.md)アクティビティを使用して、ダウンロードしたファイルの数を確認する場合などです。
+**[!UICONTROL Transfer file]**&#x200B;アクティビティは、出力としてイベント変数を生成します。これは、他のアクティビティで利用できるので、例えば、[Test](../../automating/using/test.md)アクティビティを使用して、ダウンロードしたファイルの数を調べる場合などです。
 
 イベント変数は、外部シグナルを使用して別のワークフローに渡すこともできます（「[外部パラメーターを使用したワークフローのカスタマイズ](../../automating/using/customizing-workflow-external-parameters.md)」を参照）。
 
