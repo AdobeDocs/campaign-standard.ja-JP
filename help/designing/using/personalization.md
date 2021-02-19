@@ -81,7 +81,7 @@ Adobe Campaignを使用すると、プロファイルの名など、データベ
 
 >[!NOTE]
 >
->電子メールがワークフローから作成された場合は、ワークフローで計算された追加のデータもパーソナライゼーションフィールドで使用できます。 ワークフローから追加のデータを追加する方法の詳細については、[データの富化](../../automating/using/about-targeting-activities.md#enriching-data)の節を参照してください。
+>電子メールがワークフローから作成された場合は、ワークフローで計算された追加のデータもパーソナライゼーションフィールドで使用できます。 ワークフローから追加のデータを追加する方法の詳細については、「[データの富化](../../automating/using/about-targeting-activities.md#enriching-data)」の節を参照してください。
 
 ## コンテンツブロック{#adding-a-content-block}の追加
 
