@@ -58,7 +58,7 @@ Adobe Experience Platformデータコネクタは、Adobe Campaign Standardの�
 
 * Experience CloudIDサービス(ECID)は、エクスペリエンスイベントと共にデフォルトで送信されるデバイス識別子です。
 
-   このIDは、訪問者に割り当てられる一意で永続的なIDです。Platform Identity Serviceは、同じ訪問者とそのデータを異なるExperience Cloudソリューションで識別するために使用できます。 詳しくは、[Experience CloudIDサービスのヘルプ](https://docs.adobe.com/content/help/en/id-service/using/home.html)を参照してください。
+   このIDは、訪問者に割り当てられる一意で永続的なIDです。Platform Identity Serviceは、同じ訪問者とそのデータを異なるExperience Cloudソリューションで識別するために使用できます。 詳しくは、[Experience CloudIDサービスのヘルプ](https://docs.adobe.com/content/help/ja-JP/id-service/using/home.translate.html)を参照してください。
 
    >[!NOTE]
    >
@@ -78,7 +78,7 @@ Adobe Experience Platformデータコネクタは、Adobe Campaign Standardの�
 
 ## チュートリアルビデオ {#video}
 
-このビデオでは、Adobe Experience Platformデータコネクタの概要を説明します。
+このビデオでは、Adobe Experience PlatformのData Connectorの概要を説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/27304?quality=12&captions=eng)
 
