@@ -41,9 +41,9 @@ ht-degree: 66%
 
 ## トランザクションメッセージ数{#transactional-message-number}
 
-公開されたトランザクションメッセージの数は、プラットフォームに大きな影響を与える可能性があります。 最適なパフォーマンスを得るために、公開されるトランザクションメッセージの数は100未満に抑える必要があります。 これを確実に行うには、未使用のトランザクションメッセージを非公開または削除します。 [トランザクションメッセージの非公開](../../channels/using/publishing-transactional-message.md#unpublishing-a-transactional-message)および[トランザクションメッセージの削除](../../channels/using/publishing-transactional-message.md#deleting-a-transactional-message)を参照してください。
+公開されたトランザクションメッセージの数は、プラットフォームに大きな影響を与える可能性があります。 最適なパフォーマンスを得るために、公開されるトランザクションメッセージの数は100未満に抑える必要があります。 これを確実に行うには、未使用のトランザクションメッセージを非公開にするか削除します。 [トランザクションメッセージの非公開](../../channels/using/publishing-transactional-message.md#unpublishing-a-transactional-message)および[トランザクションメッセージの削除](../../channels/using/publishing-transactional-message.md#deleting-a-transactional-message)を参照してください。
 
-最高のパフォーマンスを確保するために、未使用のイベントの公開を取り消したり、削除したりすることもできます。 実際に、イベントを非公開または削除すると、対応するトランザクションメッセージ、およびその送信とトラッキングログ（存在する場合）も非公開または削除されます。 [イベントの非公開](../../channels/using/publishing-transactional-event.md#unpublishing-an-event)および[イベントの削除](../../channels/using/publishing-transactional-event.md#deleting-an-event)を参照してください。
+最高のパフォーマンスを確保するために、未使用のイベントの公開を取り消したり、削除したりすることもできます。 実際に、イベントを非公開または削除すると、対応するトランザクションメッセージ、および送信とトラッキングログ（存在する場合）も非公開または削除されます。 [イベントの非公開](../../channels/using/publishing-transactional-event.md#unpublishing-an-event)および[イベントの削除](../../channels/using/publishing-transactional-event.md#deleting-an-event)を参照してください。
 
 ## パーソナライゼーション {#personalization}
 
@@ -59,7 +59,7 @@ ht-degree: 66%
 ### プロファイルベースのトランザクションメッセージ
 
 * パーソナライゼーションに関する情報は、イベントに含まれるデータ、または紐付け済みのプロファイルレコードから取得できます。[プロファイルベースのトランザクションメッセージ設定](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages)および[プロファイルベースのトランザクションメッセージ固有性](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities)を参照してください。
-* プロファイルトランザクションメッセージで&#x200B;******[!UICONTROL Unsubscription link]**&#x200B;コンテンツブロックを使用できます。 [コンテンツブロックの追加](../../designing/using/personalization.md#adding-a-content-block)を参照してください。
+* プロファイルトランザクションメッセージ内で&#x200B;******[!UICONTROL Unsubscription link]**&#x200B;コンテンツブロックを使用できます。 [コンテンツブロックの追加](../../designing/using/personalization.md#adding-a-content-block)を参照してください。
 * 疲労ルールは、プロファイルトランザクションメッセージと互換性があります。[疲労ルール](../../sending/using/fatigue-rules.md)を参照してください。
 
 ### 製品リスト
