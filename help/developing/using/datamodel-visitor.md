@@ -40,7 +40,7 @@ ht-degree: 40%
     <tr>
         <td>created</td>
         <td>作成日時</td>
-        <td>日付 </td>
+        <td>date </td>
         <td> </td>
     </tr>
     <tr>
@@ -68,7 +68,7 @@ ht-degree: 40%
         <td> </td>
     </tr>
     <tr>
-        <td>email</td>
+        <td>電子メール</td>
         <td>電子メール</td>
         <td>文字列(128)</td>
         <td> </td>
@@ -99,8 +99,8 @@ ht-degree: 40%
     </tr>
     <tr>
         <td>lastModified</td>
-        <td>最終変更日</td>
-        <td>日付 </td>
+        <td>最終変更日時</td>
+        <td>date </td>
         <td> </td>
     </tr>
     <tr>
