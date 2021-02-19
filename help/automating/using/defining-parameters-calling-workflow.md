@@ -31,7 +31,7 @@ ht-degree: 13%
 1. **[!UICONTROL Create element]**&#x200B;ボタンをクリックしてパラメーターを追加し、名前と値を入力します。
 
    * **[!UICONTROL Name]**: **[!UICONTROL External signal]** アクティビティで宣言された名前( [このページを参照](../../automating/using/declaring-parameters-external-signal.md))。
-   * **[!UICONTROL Value]**:パラメーターに割り当てる値。値は&#x200B;**標準構文**&#x200B;に従う必要があります（[この節](../../automating/using/advanced-expression-editing.md#standard-syntax)で説明）。
+   * **[!UICONTROL Value]**:パラメーターに割り当てる値。値は&#x200B;**標準構文**&#x200B;に従う必要があります。[この節](../../automating/using/advanced-expression-editing.md#standard-syntax)で説明します。
 
    ![](assets/extsignal_definingparameters_2.png)
 
