@@ -68,7 +68,7 @@ Adobe Experience PlatformモバイルSDKは、ローカル通知をトリガー�
 
 ## クリック追跡の導入{#implementing-click-tracking}
 
-クリック追跡の場合、collectMessageInfo()関数またはtrackAction()関数を呼び出す際に、アクションに値&quot;2&quot;を送信する必要があります。
+クリック追跡の場合、collectMessageInfo()関数またはtrackAction()関数を呼び出す際に、アクションの値&quot;2&quot;を送信する必要があります。
 
 ### Android の場合 {#implement-click-tracking-android}
 
