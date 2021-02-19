@@ -8,7 +8,7 @@ topic: Premium
 translation-type: tm+mt
 source-git-commit: 189cd93d12dfd7838dae87dd4c8de19c10926ce6
 workflow-type: tm+mt
-source-wordcount: '30'
+source-wordcount: '35'
 ht-degree: 100%
 
 ---
