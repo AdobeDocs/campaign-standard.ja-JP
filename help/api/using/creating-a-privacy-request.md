@@ -28,7 +28,7 @@ ht-degree: 20%
 ペイロードには、次のパラメーターを含める必要があります。
 
 * **name**:一意の内部名
-* **名前空間**:campaign standardインターフェイスで設定された名前空間名
+* **名前空間**:Campaign Standardインターフェイスで設定された名前空間名
 * **reconcilationValue**:名前空間で定義された紐付けキーに基づく調整値
 * **label**:要求ラベル
 * **type**:リクエストタイプ。指定できる値は、「access」または「delete」です。
