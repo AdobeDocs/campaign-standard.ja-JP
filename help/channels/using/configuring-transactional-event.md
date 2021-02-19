@@ -123,7 +123,7 @@ Adobe Campaign付きのトランザクションメッセージを送信するに
 
    ![](assets/message-center_enrichment-join.png)
 
-1. この例では、**[!UICONTROL Last name]**&#x200B;と&#x200B;**[!UICONTROL First name]**&#x200B;のフィールドを&#x200B;**[!UICONTROL Profile]**&#x200B;リソースの対応するフィールドと紐付けます。
+1. この例では、**[!UICONTROL Last name]**&#x200B;フィールドと&#x200B;**[!UICONTROL First name]**&#x200B;フィールドを、**[!UICONTROL Profile]**&#x200B;リソース内の対応するフィールドと紐付けます。
 
    ![](assets/message-center_enrichment-join-fields.png)
 
