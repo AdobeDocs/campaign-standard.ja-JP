@@ -30,7 +30,7 @@ Microsoft Dynamics 365のテーブルをMicrosoft Dynamics 365とキャンペー
 
 次の表に、各列の説明を示します。
 
-* **[!UICONTROL MICROSOFT DYNAMICS 365 TABLE]**:この列は、Microsoft Dynamics 365のどのエンティティがマッピングのデータのソースになるかを示します。
+* **[!UICONTROL MICROSOFT DYNAMICS 365 TABLE]**:この列は、Microsoft Dynamics 365のどのエンティティがマッピングのデータソースになるかを示します。
 
 * **[!UICONTROL CAMPAIGN TABLE]**:この列は、マッピングのAdobe Campaign先となるリソースを示します。
 
@@ -156,7 +156,7 @@ Microsoft Dynamics 365の主キーは読み取り専用です。アプリケー�
 
 * Microsoft Dynamics 365のフィールド名（上記の「フィールドマッピング」セクションに追加）、
 * 既存の値（Microsoft Dynamics 365に存在する）、および
-* adobe campaignに書き込む新しい値
+* Adobe Campaignに書き込む新しい値
 
 選択リスト、定義済みリスト、およびブール値のドロップダウンリストが表示されます。 テキストボックスは、他の文字列や数値の種類に使用されます。
 
@@ -218,7 +218,7 @@ Microsoft Dynamics 365の主キーは読み取り専用です。アプリケー�
 
 * **[!UICONTROL Unidirectional (Microsoft Dynamics 365 to Campaign)]**:このオプションは、Microsoft Dynamics 365からAdobe Campaignに対してのみオプトイン/オプトアウトを行う場合に使用します。統合アプリケーションでは、この画面でのフローを設定できません。代わりに、**[!UICONTROL Save button]**&#x200B;をクリックし、**[!UICONTROL Microsoft Dynamics 365 to Campaign]**&#x200B;ワークフローに移動します。 このワークフローでは、連絡先/プロファイルテーブルのマッピングを編集して、オプトイン/オプトアウトフィールドのマッピング方法を指定できます。
 
-* **[!UICONTROL Unidirectional (Campaign to Microsoft Dynamics 365)]**:このオプションを選択すると、 **** Mappingsセクションが表示されます。これらの入力を使用して、どのAdobe CampaignフィールドがMicrosoft Dynamics 365のどのフィールドにデータをマップするかを定義できます。 これは、Microsoft Dynamics 365で手動で値を更新した場合、変更が発生すると、その値がAdobe Campaign値によって上書きされることを意味します。
+* **[!UICONTROL Unidirectional (Campaign to Microsoft Dynamics 365)]**:このオプションを選択すると、 **** Mappingsセクションが表示されます。これらの入力を使用して、どのAdobe CampaignフィールドがMicrosoft Dynamics 365のどのフィールドにデータをマップするかを定義できます。 つまり、Microsoft Dynamics 365で手動で値を更新した場合、変更が発生すると、その値がAdobe Campaign値によって上書きされます。
 
 * **[!UICONTROL Bidirectional]**:このオプションを選択すると、 **** Mappingsセクションが表示されます。これらのペアは、Microsoft Dynamics 365のどのフィールドとAdobe Campaignが相互にマップするかを識別します。 [詳細情報](../../integrating/using/d365-acs-notices-and-recommendations.md)。
 
