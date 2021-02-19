@@ -46,7 +46,7 @@ Adobe Campaign Standardの最新[ドキュメントの更新](../../rn/using/doc
  </tbody> 
 </table>
 
-**強化点**
+**機能強化**
 
 * Adobe Campaign Standardは、AmazonS3 APIのバージョン4をサポートするようになりました。
 
@@ -123,7 +123,7 @@ Adobe Campaign Standardの最新[ドキュメントの更新](../../rn/using/doc
  </tbody> 
 </table>
 
-**強化点**
+**機能強化**
 
 * Adobe CampaignとAdobe Targetの統合により、ターゲットの[権限](https://docs.adobe.com/content/help/ja-JP/target/using/administer/manage-users/enterprise/properties-overview.translate.html)機能を利用できるようになりました。 Adobe Targetからの動的ターゲットを電子メールに含める場合、画像プロパティ（at_propertyコード）を指定できるようになりました。
 * プロファイル・リソースへのダウンコピー・リンクを持つカスタム・リソースは、GDPRのプライバシー・アクセス/削除要求によって考慮されるようになった。 1基の基数単純リンクとN基数収集リンクの場合、カスタムリソースで「ターゲットレコードの削除/複製は、リンクによって参照されるレコードを削除/複製することを意味します」を選択する必要があります。 0または1の基数単純リンクの場合は、「レコードの削除/複製は、リンクから参照されるターゲットレコードを削除または複製することを意味します」を選択します。
@@ -153,7 +153,7 @@ Adobe Campaign Standardの最新[ドキュメントの更新](../../rn/using/doc
 
 ## リリース 18.6 - 2018 年 6 月 {#release-18-6---june-2018}
 
-**強化点**
+**機能強化**
 
 * **[!UICONTROL History]** APIがAdobe.IOに追加されました。 プロファイルのマーケティング履歴に関連する情報にアクセスできます。タッチポイント数、送信された配信数、ミラーページURLなど 詳しくは、[専用の使用例](../../api/using/interacting-with-marketing-history.md)を参照してください。
 * **[!UICONTROL Database cleanup]**&#x200B;の技術ワークフローは、データベースバックアップのパフォーマンスを高めるために最適化されました。
@@ -203,7 +203,7 @@ Adobe Campaign Standardの最新[ドキュメントの更新](../../rn/using/doc
  <tbody> 
   <tr> 
    <td> GDPR:コアサービス統合<br /> </td> 
-   <td> プライバシーコアサービスの統合により、1回のJSON API呼び出しで、複数のソリューションのコンテキストでGDPRリクエストを自動化できます。 <br /> プライバシー・コア・サービスからすべてのExperience Cloud・ソリューションに送られるGDPR要求は、キャンペーンによって自動的に処理されるようになりました。<br /> 詳しくは、 <a href="https://helpx.adobe.com/jp/campaign/kb/campaign-privacy.html">詳細なドキュメントを参照してください</a>。<br /> </td> 
+   <td> プライバシーコアサービスの統合により、1回のJSON API呼び出しで、複数のソリューションのコンテキストでGDPRリクエストを自動化できます。 <br /> プライバシー・コア・サービスからすべてのExperience Cloud・ソリューションに送られるGDPR要求は、キャンペーンによって自動的に処理されるようになりました。<br /> 詳しくは、 <a href="https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=ja">詳細なドキュメントを参照してください</a>。<br /> </td> 
   </tr> 
   <tr> 
    <td> プッシュ機能の強化 — 詳細な配信フィードバック<br /> </td> 
@@ -224,7 +224,7 @@ Adobe Campaign Standardの最新[ドキュメントの更新](../../rn/using/doc
  </tbody> 
 </table>
 
-**強化点**
+**機能強化**
 
 * アプリケーションのメモリ全体とCPU使用率が向上しました
 
@@ -312,7 +312,7 @@ _カスタムリソース_
    <td> Adobe Campaignの新しいCreative Designerオファーは、キャンペーンでの完全に統合された制作体験を提供します。1行のコードを記述する必要なく、魅力的で個別にパーソナライズされた電子メールを素早く簡単に視覚的に作成できます。 Creative Designerは、強力なドラッグ&amp;ドロップインターフェイスを通じて、ユーザーが空白のスレートから開始したり、既存のコンテンツのフラグメントやテンプレートを利用したりして、電子メールの作成を拡張できます。 <br /> 主な機能は次のとおりです。<br /> 
     <ul> 
      <li> ネイティブのCreative Cloud統合によって拡張された、ドラッグ&amp;ドロップインターフェイスを通じて、完全にパーソナライズされたレスポンシブ電子メールを視覚的にデザインし、作成します。 </li> 
-     <li> 電子メールコンテンツテンプレートを作成して保存し、保存したテンプレートを活用して電子メールの作成を拡大・縮小できます。 </li> 
+     <li> 電子メールコンテンツテンプレートを作成して保存し、保存したテンプレートを活用して電子メールの作成を拡大・縮小します。 </li> 
      <li> コンテンツフラグメント（ヘッダー、フッター、記事など）を作成し、保存します。 コンテンツの作成を合理化し、ブランドの一貫性を確保する </li> 
      <li> ドラッグ&amp;ドロップインターフェイスでの作成と、ボタンをクリックしたときの電子メールのHTMLの直接編集をシームレスに切り替え </li> 
     </ul> 電子メール用のCreative Designerは英語でのみ利用できます。<br /> 詳しくは、 <a href="../../designing/using/designing-content-in-adobe-campaign.md">詳細な</a> ドキュメントを参照し、この <a href="https://www.youtube.com/watch?time_continue=1&amp;v=5S_6A4fsfms">ビデオをご覧ください</a>。<br /> </td> 
