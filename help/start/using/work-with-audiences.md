@@ -102,7 +102,7 @@ Campaign StandardAPIを使用すると、プロファイルやサービスの作
 
 >[!CAUTION]
 >
->API呼び出しを使用してプロファイルの一括作成または更新を実行する前に、使用許諾契約に対応するスケール制限を確認してください。 詳しくは、[このページ](https://helpx.adobe.com/jp/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers)を参照してください。
+>API呼び出しを使用してプロファイルの一括作成または更新を実行する前に、使用許諾契約に対応するスケール制限を確認してください。 詳しくは、[こちらのページ](https://helpx.adobe.com/jp/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers)を参照してください。
 
 **詳細を表示**
 
@@ -128,7 +128,7 @@ Campaign StandardAPIを使用すると、プロファイルやサービスの作
 
 GDPR は欧州連合（EU）にて新しく施行されるプライバシー保護法律で、データ保護要件を現代の状況に合わせて整合化することを目的としています。GDPR は、EU に居住しているデータ主体のデータを保有している Adobe Campaign の顧客に適用されます。Adobe Campaignで既に利用可能なプライバシー機能（同意管理、データ保持設定、ユーザの役割など）に加えて、Data Processorとしての役割で、特定のGDPR要求に対するData Controllerとしての準備を容易にするために、この機会を利用します。
 
-Adobe CampaignがGDPRに準拠するために提供するツールや機能の詳細については、この[ガイド](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy.html)を参照してください。
+Adobe CampaignがGDPRに準拠するために提供するツールや機能の詳細については、この[ガイド](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=ja)を参照してください。
 
 **詳細を表示**
 
