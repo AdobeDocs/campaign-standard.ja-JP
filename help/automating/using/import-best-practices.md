@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
 workflow-type: tm+mt
 source-wordcount: '569'
-ht-degree: 72%
+ht-degree: 75%
 
 ---
 
@@ -68,9 +68,9 @@ Smith;Clara;08/02/1989;hayden.smith@example.com;124567
 Durance;Allison;15/12/1978;allison.durance@example.com;120987
 ```
 
-## 圧縮{#using-compression}を使用
+## 圧縮の使用 {#using-compression}
 
-可能であれば、インポートおよびエクスポートに zip 形式のファイルを使用します。GZIPはデフォルトでサポートされています。 ファイルの読み込み時に前処理を追加したり、データ抽出時に後処理を追加したりできます(それぞれ&#x200B;**[!UICONTROL Load file]**&#x200B;ワークフローアクティビティーと&#x200B;**[!UICONTROL Extract file]**&#x200B;ワークフローフォルダー内)。
+可能な限り、圧縮されたファイルをインポートおよびエクスポートに使用します。GZIP がデフォルトでサポートされています。 ファイルの読み込み時に前処理を追加したり、データ抽出時に後処理を追加したりできます(それぞれ&#x200B;**[!UICONTROL Load file]**&#x200B;ワークフローアクティビティーと&#x200B;**[!UICONTROL Extract file]**&#x200B;ワークフローフォルダー内)。
 
 **関連トピック：**
 
@@ -79,7 +79,7 @@ Durance;Allison;15/12/1978;allison.durance@example.com;120987
 
 ## 差分モードでのインポート {#importing-in-delta-mode}
 
-通常のインポートは、差分モードで行う必要があります。 つまり、毎回、テーブル全体ではなく、新規または変更されたデータのみが Adobe Campaign に送信されるようにします。
+定期的インポートは、差分モードでおこなう必要があります。つまり、毎回、テーブル全体ではなく、新規または変更されたデータのみが Adobe Campaign に送信されるようにします。
 
 完全インポートは、最初の読み込みにのみ使用する必要があります。
 
