@@ -44,6 +44,6 @@ ht-degree: 14%
 
 * **[!UICONTROL Execute in the engine (do not use in production)]**:開発環境のテスト用に、ワークフローをローカルで実行できます。
 
-* **[!UICONTROL Severity]**:adobe campaignインスタンスでワークフローを実行する際の優先度を指定できます。このフィールドは、監視の目的でのみAdobeチームが使用します。
+* **[!UICONTROL Severity]**:Adobe Campaignインスタンスでワークフローを実行する際の優先度を指定できます。このフィールドは、監視の目的でのみAdobeチームが使用します。
 
 **[!UICONTROL Error management]**&#x200B;セクションには、エラー時のワークフローの動作を管理するための追加のオプションが用意されています。 これらのオプションの詳細については、[エラー管理](../../automating/using/monitoring-workflow-execution.md#error-management)の節を参照してください。
