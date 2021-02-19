@@ -52,7 +52,7 @@ ht-degree: 29%
                <tr>
                   <td>srvDate</td>
                   <td>SrvDate</td>
-                  <td>日付 </td>
+                  <td>date </td>
                   <td> </td>
                </tr>
             </table>
