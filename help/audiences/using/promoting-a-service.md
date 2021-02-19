@@ -23,7 +23,7 @@ ht-degree: 3%
 
 * [サービス購読または購読解除リンクを電子メールに挿入します](../../designing/using/links.md#inserting-a-link)。
 
-* [購読または購読解除ランディングページへのリンクを電子メールに挿入します](../../designing/using/links.md)。この場合、サービスは関連するランディングページのプロパティで直接参照する必要があります(「[ランディングページのサービスへのリンク](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)」を参照)。
+* [購読または購読解除ランディングページへのリンクを電子メールに挿入します](../../designing/using/links.md)。この場合、サービスは関連するランディングページのプロパティで直接参照する必要があります([ランディングページのサービスへのリンク](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)を参照)。
 
    >[!NOTE]
    >
