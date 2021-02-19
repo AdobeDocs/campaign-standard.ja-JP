@@ -30,7 +30,7 @@ ht-degree: 7%
 1. E メールのプレビュー.
 1. コンテンツを保存し、オーディエンスを定義し、送信を正しくスケジュールした後、メッセージを続行します。
 
-また、この[導入ビデオ](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true&captions=jpn)を見ることもできます。
+また、この[導入ビデオ](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true)を見ることもできます。
 
 >[!NOTE]
 >
@@ -86,7 +86,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"
 >title="プリヘッダーの使用"
->abstract="プリヘッダーを使用して、電子メールの開封率を高める短い概要テキストを設定できます。"
+>abstract="プリヘッダーを使用すると、電子メールの開封率を高める短い概要テキストを設定できます。"
 
 プリヘッダーは、受信トレイから電子メールを表示する際に、件名の後に続く短い概要テキストです。 プリヘッダーは、より高いオープン率を提供します。
 
