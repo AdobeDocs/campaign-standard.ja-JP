@@ -23,7 +23,7 @@ ht-degree: 1%
 メッセージにアクセスできます。
 
 * キャンペーン内で
-* adobe campaignホームページから
+* Adobe Campaignホームページから
 * マーケティングアクティビティのリストから
 
 ## キャンペーン{#accessing-messages-in-campaigns}のメッセージへのアクセス
