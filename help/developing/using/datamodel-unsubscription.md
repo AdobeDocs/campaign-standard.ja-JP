@@ -38,7 +38,7 @@ ht-degree: 60%
                   <td>False</td>
                </tr>
                <tr>
-                  <td>email</td>
+                  <td>電子メール</td>
                   <td>False</td>
                   <td>文字列</td>
                   <td>False</td>
@@ -57,7 +57,7 @@ ht-degree: 60%
                </tr>
                <tr>
                   <td>serverUrl</td>
-                  <td>はい</td>
+                  <td>True</td>
                   <td>文字列</td>
                   <td>False</td>
                </tr>
@@ -73,7 +73,7 @@ byEmail
     <th>タイプ</th>
     </tr>
     <tr>
-    <td>email</td>
+    <td>電子メール</td>
     <td>文字列</td>
     </tr>
 </table>
