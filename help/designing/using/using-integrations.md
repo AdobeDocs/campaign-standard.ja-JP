@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 5758e5f0f6811a97f51e995fa3c378a7c7117ff5
 workflow-type: tm+mt
 source-wordcount: '721'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
@@ -68,37 +68,37 @@ Adobe Campaignオファーには、複数の電子メールオーサリングオ
  <tbody> 
   <tr> 
    <td> <strong>開始の空白の電子メール</strong><br /> </td> 
-   <td> サポート<br /> </td> 
-   <td> サポート<br /> </td> 
-   <td> サポート<br /> </td> 
+   <td> サポート対象<br /> </td> 
+   <td> サポート対象<br /> </td> 
+   <td> サポート対象<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>HTMLを書き込む</strong><br /> </td> 
-   <td> サポート<br /> </td> 
+   <td> サポート対象<br /> </td> 
    <td> サポートされていません<br /> </td> 
-   <td> サポート<br /> </td> 
+   <td> サポート対象<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>HTMLを更新</strong><br /> </td> 
    <td> HTMLコンポーネント内のみ<br /> </td> 
    <td> サポートされていません<br /> </td> 
-   <td> サポート<br /> </td> 
+   <td> サポート対象<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>基本的なパーソナライゼーション</strong><br /> </td> 
-   <td> サポート<br /> </td> 
-   <td> サポート<br /> </td> 
-   <td> サポート<br /> </td> 
+   <td> サポート対象<br /> </td> 
+   <td> サポート対象<br /> </td> 
+   <td> サポート対象<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>高度なパーソナライゼーション</strong><br /> </td> 
-   <td> サポート<br /> </td> 
+   <td> サポート対象<br /> </td> 
    <td> サポートされていません<br /> </td> 
    <td> サポートされていません<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>配達確認/プレビュー</strong><br /> </td> 
-   <td> サポート<br /> </td> 
+   <td> サポート対象<br /> </td> 
    <td> キャンペーン<br />のAEM<br />配達確認のプレビュー </td> 
    <td> キャンペーン<br />のプレビューと配達確認 </td> 
   </tr> 
