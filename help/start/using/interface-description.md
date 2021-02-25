@@ -7,10 +7,10 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 translation-type: tm+mt
-source-git-commit: c981bd524400e49929d9557aab730ce1ec615551
+source-git-commit: 05a44f5baa66df70a57da9467baf71a953aed856
 workflow-type: tm+mt
-source-wordcount: '1257'
-ht-degree: 80%
+source-wordcount: '1289'
+ht-degree: 92%
 
 ---
 
@@ -64,21 +64,23 @@ Campaign ホームページは、主な Adobe Campaign 機能にすばやくア�
 
 ### ヘルプ {#help}
 
-右上隅の「**ヘルプ**」アイコンをクリックすると、Adobe Experience Leagueが製品に取り込まれます。
+上部バーはすべての画面に表示され、Adobe Campaign 機能を操作できるほか、接続されている Adobe プロファイル、通知、その他の Adobe Experience Cloud サービスおよびソリューション、ドキュメントにアクセスできます。
 
-![](assets/ux_help.png)
+ナビゲーションは原則として次のとおりです。
 
-**[!UICONTROL Search]**&#x200B;フィールドを使用して、ガイダンスを見つけます。 検索結果には、ドキュメントやヘルプ記事、コミュニティフォーラムの結果、ビデオコンテンツなどが含まれ、より多くのコンテンツに簡単にアクセスでき、アプリを最大限に活用できます。
+* ページの左上隅にある **[!UICONTROL Adobe Campaign]** ロゴを使用すると、高度な機能と設定にアクセスできます。表示されるメニューは、プロファイルと権限に応じて異なります。
 
-3つのタブが、ヘルプと支援を見つけるのに役立ちます。
+   詳細設定メニューについては、[詳細設定メニュー](#advanced-menu)の節を参照してください。
 
-1. 「**[!UICONTROL Help]**」タブには次の内容が含まれます。
-   * コンテキストリンクを使用して、Adobe Campaign Standardのドキュメントにすばやくアクセスできます。
-   * **[!UICONTROL Learning]**&#x200B;リンクを使用して、Adobe Campaignコースライブラリにアクセスできます。
-   * **[!UICONTROL Community]**&#x200B;リンクをクリックして、キャンペーンに関するご質問専用のフォーラムにアクセスします。
-   * 次への直接アクセス：ヘルプセンター、カスタマーケア、Experience Cloud製品のステータス、開発者用接続、リリースノート、リリース計画、および&#x200B;**[!UICONTROL About]**&#x200B;画面。
-1. 「**[!UICONTROL Support]**」タブでは、サポートケースを開き、電話またはTwitterでアドビに連絡できます。
-1. 「**[!UICONTROL Feedback]**」タブを使用すると、問題の報告やアイデアの共有が簡単に行えます。
+* 「**[!UICONTROL Home]**」リンクをクリックすると、Adobe Campaign ホームページが表示されます。
+* 「**[!UICONTROL Marketing activities]**」、「**[!UICONTROL Programs & Campaigns]**」、「**[!UICONTROL Profiles]**」、「**[!UICONTROL Audiences]**」、「**[!UICONTROL Reports]**」の各リンクをクリックすると、これらの機能にリンクされた画面にアクセスできます。
+* 「**[!UICONTROL Help]**」ボタンをクリックすると、製品ドキュメントやコンテキストヘルプ、リリースノート、バージョン番号、法律上の注意事項に加え、Adobe Experience Cloud のコミュニティやカスタマーケアへのリンクにアクセスできます。
+
+   ![](assets/ux_help.png)
+
+* **ソリューション選択**&#x200B;アイコンをクリックすると、別の Adobe Experience Cloud ソリューションに切り替えることができます。また、プロファイル設定に切り替えることもできます。
+* **通知**&#x200B;アイコンには、最新のアラートまたは情報が表示されます。
+* **ユーザー**&#x200B;アイコンをクリックすると、ユーザープロファイルにリンクされた情報を表示できます。「**[!UICONTROL Sign out]**」ボタンにアクセスできます。
 
 ## 詳細設定メニュー {#advanced-menu}
 
