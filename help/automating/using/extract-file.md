@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: fileExport,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: c29eff0d241cd561a7e609ab44222700e2a8868d
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 91%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -49,11 +49,11 @@ ht-degree: 91%
    >
    >このフィールドで **[!UICONTROL formatDate]** 関数を使用して、ファイル名を指定できます。
 
-1. 必要に応じて、「**[!UICONTROL Add a pre-processing step]**」フィールドの **[!UICONTROL Compression]** を選択して、出力ファイルを zip 形式で圧縮できます。出力ファイルは圧縮されて GZIP ファイル（.gz）になります。
+1. 必要に応じて、「**[!UICONTROL Add a post-processing stage]**」フィールドの **[!UICONTROL Compression]** を選択して、出力ファイルを zip 形式で圧縮できます。出力ファイルは圧縮されて GZIP ファイル（.gz）になります。
 
-   また、**[!UICONTROL Add a pre-processing step]**&#x200B;フィールドを使用すると、ファイルを抽出する前にファイルを暗号化できます。 暗号化されたファイルの使い方について詳しくは、[この](../../automating/using/managing-encrypted-data.md)を参照してください。
+   また、**[!UICONTROL Add a post-processing stage]**&#x200B;フィールドを使用すると、ファイルを抽出する前にファイルを暗号化できます。 暗号化されたファイルの使い方について詳しくは、[この](../../automating/using/managing-encrypted-data.md)を参照してください。
 
-1. 出力列を追加するには、![](assets/add_darkgrey-24px.png) または「**[!UICONTROL Add an element]**」ボタンをクリックします。
+1. **[!UICONTROL Create element]**&#x200B;ボタンをクリックして、出力列を追加します。
 
    ![](assets/wkf_data_export2.png)
 
