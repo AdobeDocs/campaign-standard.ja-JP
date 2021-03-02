@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: sending-and-tracking-messages
 context-tags: delivery,deployment,back
 translation-type: tm+mt
-source-git-commit: 8c636ec7a35e9c34210bbb04b1b13aaa6a431345
+source-git-commit: d08821c526d54dabc3b74651449a2f01e99c2a6a
 workflow-type: tm+mt
-source-wordcount: '913'
-ht-degree: 22%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 22%
 
 メッセージの準備と承認手順が完了したら、メッセージを送信できます。メッセージの準備について詳しくは、[送信の準備](../../sending/using/preparing-the-send.md)を参照してください。
 
-送信を確認できるのは、**[!UICONTROL Start deliveries]** 役割を持つユーザーのみです。詳しくは、[役割のリスト](../../administration/using/list-of-roles.md)の節を参照してください。
+**[!UICONTROL Start deliveries]**&#x200B;ロールを持つユーザーのみが送信を確認できます。 詳しくは、[役割のリスト](../../administration/using/list-of-roles.md)の節を参照してください。
 
 <!--Users without this role will see the following message: 
 
@@ -42,9 +42,9 @@ ht-degree: 22%
 
 >[!NOTE]
 >
->メッセージがスケジュールされている場合、送信時間に達すると送信されます。メッセージのスケジュールについて詳しくは、[この節](../../sending/using/about-scheduling-messages.md)を参照してください。
+>メッセージがスケジュールされている場合は、送信時間に達したときに送信されます。 メッセージのスケジュールについて詳しくは、[この節](../../sending/using/about-scheduling-messages.md)を参照してください。
 
-集計期間のない繰り返し配信を使用している場合は、配信が送信される前に確認をリクエストできます。これを行うには、メッセージを設定する際に、配信ダッシュボードの&#x200B;**[!UICONTROL Schedule]**&#x200B;ブロックを開き、専用のオプションを有効にします。
+集計期間のない繰り返し配信を使用している場合は、配信が送信される前に確認をリクエストできます。メッセージを設定する際に、配信ダッシュボードの&#x200B;**[!UICONTROL Schedule]**&#x200B;ブロックを開き、専用のオプションをアクティブにします。
 
 ![](assets/confirmation_recurring_deliveries.png)
 
@@ -65,7 +65,7 @@ ht-degree: 22%
 
 ![](assets/sending_delivery.png)
 
-KPIの更新に時間がかかりすぎる場合、または送信ログの結果を考慮に入れない場合は、**[!UICONTROL Deployment]**&#x200B;ウィンドウの&#x200B;**[!UICONTROL Compute stats]**&#x200B;ボタンをクリックします。
+KPIの更新に時間がかかりすぎる場合、または送信ログの結果が反映されない場合は、**[!UICONTROL Deployment]**&#x200B;ウィンドウの&#x200B;**[!UICONTROL Compute stats]**&#x200B;ボタンをクリックします。
 
 ![](assets/sending_delivery7.png)
 
@@ -94,7 +94,7 @@ KPIの更新に時間がかかりすぎる場合、または送信ログの結�
 
 * それ以外の場合は、ステータスが&#x200B;**[!UICONTROL Failed]**&#x200B;に変わり、それに応じて&#x200B;**[!UICONTROL Delivered]**&#x200B;の割合が減少します。
 
-その結果、有効期間の終わりまで待って、最終的な&#x200B;**[!UICONTROL Delivered]**&#x200B;の割合と、実際に&#x200B;**[!UICONTROL Sent]**&#x200B;と&#x200B;**[!UICONTROL Failed]**&#x200B;のメッセージの最終回数を確認する必要があります。
+したがって、有効期間の終わりまで待って、最終的な&#x200B;**[!UICONTROL Delivered]**&#x200B;の割合と、最終的な&#x200B;**[!UICONTROL Sent]**&#x200B;と&#x200B;**[!UICONTROL Failed]**&#x200B;のメッセージ数を確認する必要があります。
 
 ### 電子メールフィードバックサービス（ベータ版） {#email-feedback-service}
 
@@ -112,7 +112,7 @@ Email Feedback Service(EFS)機能を使用すると、フィードバックが�
 
 ![](assets/efs-pending.png)
 
-メッセージが対象プロファイルに実際に配信され、この情報が拡張MTAからリアルタイムでレポートされると、配信ログは、メッセージを受信した各アドレスの&#x200B;**[!UICONTROL Sent]**&#x200B;ステータスを示します。 **[!UICONTROL Delivered]**&#x200B;の割合は、配信が成功するたびに増加します。
+対象プロファイルに対するメッセージ配信が拡張MTAからリアルタイムでレポートバックされると、配信ログは、メッセージを正常に受信した各アドレスの&#x200B;**[!UICONTROL Sent]**&#x200B;ステータスを示します。 **[!UICONTROL Delivered]**&#x200B;の割合は、配信が成功するたびに増加します。
 
 強化されたMTAからハードバウンスメッセージが報告されると、そのログステータスが&#x200B;**[!UICONTROL Pending]**&#x200B;から&#x200B;**[!UICONTROL Failed]**&#x200B;に変わり、それに応じて&#x200B;**[!UICONTROL Bounces + errors]**&#x200B;の割合が増えます。
 
@@ -134,10 +134,22 @@ Email Feedback Service(EFS)機能を使用すると、フィードバックが�
 
 次の表に、KPIの変更と、EFS機能によって導入された送信ログのステータスを示します。
 
-| <br>送信プロセスのステップ | KPIサマリ<br>EFSなし | ログの状態<br>EFSなしの送信 | KPIサマリ<br>EFSあり | ログの状態<br>EFSを送信中 |
-|--- |--- |--- | --- | --- |
-| キャンペーンから拡張MTAへのメッセージの転送が正常に行われました | <ul><li>**[!UICONTROL Delivered]** 100%の開始数</li><li>**[!UICONTROL Bounces + errors]** 0%での開始の割合</li></ul> | 送信済み | <ul><li>**[!UICONTROL Delivered]** 0%での開始の割合</li><li>**[!UICONTROL Bounces + errors]** 0%での開始の割合</li></ul> | 保留中 |
-| 強化されたMTAからハードバウンスメッセージが返される | <ul><li>**[!UICONTROL Delivered]** それに応じて割合が減少する</li><li>**[!UICONTROL Bounces + errors]** それに応じて割合が増加する</li></ul> | 失敗 | <ul><li>**[!UICONTROL Delivered]**&#x200B;パーセンテージに変更はありません</li><li>**[!UICONTROL Bounces + errors]** それに応じて割合が増加する</li></ul> | 失敗 |
-| ソフトバウンスメッセージが拡張MTAから返される | <ul><li>**[!UICONTROL Delivered]**&#x200B;パーセンテージに変更はありません</li><li>**[!UICONTROL Bounces + errors]**&#x200B;パーセンテージに変更はありません</li></ul> | 送信済み | <ul><li>**[!UICONTROL Delivered]**&#x200B;パーセンテージに変更はありません</li><li>**[!UICONTROL Bounces + errors]** それに応じて割合が増加する</li></ul> | 失敗 |
-| ソフトバウンスメッセージの再試行が成功しました | <ul><li>**[!UICONTROL Delivered]**&#x200B;パーセンテージに変更はありません</li><li>**[!UICONTROL Bounces + errors]**&#x200B;パーセンテージに変更はありません</li></ul> | 送信済み | <ul><li>**[!UICONTROL Delivered]** それに応じて割合が増加する</li><li>**[!UICONTROL Bounces + errors]** それに応じて割合が減少する</li></ul> | 送信済み |
-| ソフトバウンスメッセージの再試行に失敗 | <ul><li>**[!UICONTROL Delivered]** それに応じて割合が減少する</li><li>**[!UICONTROL Bounces + errors]** それに応じて割合が増加する</li></ul> | 失敗 | <ul><li> **[!UICONTROL Delivered]**&#x200B;パーセンテージに変更はありません </li><li> **[!UICONTROL Bounces + errors]**&#x200B;パーセンテージに変更はありません </li></ul> | 失敗 |
+**電子メールフィードバックサービス付き**
+
+| 送信プロセスの手順 | KPIサマリ | ログのステータスの送信 |
+|--- |--- |--- |
+| キャンペーンから拡張MTAへのメッセージの転送が正常に行われました | <ul><li>**[!UICONTROL Delivered]** 0%での開始の割合</li><li>**[!UICONTROL Bounces + errors]** 0%での開始の割合</li></ul> | 保留中 |
+| 強化されたMTAからハードバウンスメッセージが返される | <ul><li>**[!UICONTROL Delivered]**&#x200B;パーセンテージに変更はありません</li><li>**[!UICONTROL Bounces + errors]** それに応じて割合が増加する</li></ul> | 失敗 |
+| ソフトバウンスメッセージが拡張MTAから返される | <ul><li>**[!UICONTROL Delivered]**&#x200B;パーセンテージに変更はありません</li><li>**[!UICONTROL Bounces + errors]** それに応じて割合が増加する</li></ul> | 失敗 |
+| ソフトバウンスメッセージの再試行が成功しました | <ul><li>**[!UICONTROL Delivered]** それに応じて割合が増加する</li><li>**[!UICONTROL Bounces + errors]** それに応じて割合が減少する</li></ul> | 送信済み |
+| ソフトバウンスメッセージの再試行に失敗 | <ul><li> **[!UICONTROL Delivered]**&#x200B;パーセンテージに変更はありません </li><li> **[!UICONTROL Bounces + errors]**&#x200B;パーセンテージに変更はありません </li></ul> | 失敗 |
+
+**電子メールフィードバックサービスなし**
+
+| 送信プロセスの手順 | KPIサマリ | ログのステータスの送信 |
+|--- |--- |--- |
+| キャンペーンから拡張MTAへのメッセージの転送が正常に行われました | <ul><li>**[!UICONTROL Delivered]** 100%の開始数</li><li>**[!UICONTROL Bounces + errors]** 0%での開始の割合</li></ul> | 送信済み |
+| 強化されたMTAからハードバウンスメッセージが返される | <ul><li>**[!UICONTROL Delivered]** それに応じて割合が減少する</li><li>**[!UICONTROL Bounces + errors]** それに応じて割合が増加する</li></ul> | 失敗 |
+| ソフトバウンスメッセージが拡張MTAから返される | <ul><li>**[!UICONTROL Delivered]**&#x200B;パーセンテージに変更はありません</li><li>**[!UICONTROL Bounces + errors]**&#x200B;パーセンテージに変更はありません</li></ul> | 送信済み |
+| ソフトバウンスメッセージの再試行が成功しました | <ul><li>**[!UICONTROL Delivered]**&#x200B;パーセンテージに変更はありません</li><li>**[!UICONTROL Bounces + errors]**&#x200B;パーセンテージに変更はありません</li></ul> | 送信済み |
+| ソフトバウンスメッセージの再試行に失敗 | <ul><li>**[!UICONTROL Delivered]** それに応じて割合が減少する</li><li>**[!UICONTROL Bounces + errors]** それに応じて割合が増加する</li></ul> | 失敗 |
