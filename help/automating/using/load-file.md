@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: fileImport,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: c29eff0d241cd561a7e609ab44222700e2a8868d
 workflow-type: tm+mt
 source-wordcount: '1364'
 ht-degree: 93%
@@ -103,9 +103,9 @@ ht-degree: 93%
 
       ![](assets/wkf_file_loading1.png)
 
-1. データの読み込み元のファイルが圧縮されて GZIP ファイル（.gz）になっている場合は、「**[!UICONTROL Add a pre-processing step]**」フィールドで「**[!UICONTROL Decompression]**」オプションを選択します。これにより、データを読み込む前にファイルを解凍できます。このオプションは、ファイルがアクティビティの受信トランジションから送信されている場合にのみ使用できます。
+1. データの読み込み元のファイルが圧縮されて GZIP ファイル（.gz）になっている場合は、「**[!UICONTROL Add a pre-processing stage]**」フィールドで「**[!UICONTROL Decompression]**」オプションを選択します。これにより、データを読み込む前にファイルを解凍できます。このオプションは、ファイルがアクティビティの受信トランジションから送信されている場合にのみ使用できます。
 
-   **[!UICONTROL Add a pre-processing step]**&#x200B;フィールドでは、ファイルをデータベースにインポートする前に、ファイルを復号化することもできます。 暗号化されたファイルの使い方について詳しくは、[この](../../automating/using/managing-encrypted-data.md)を参照してください。
+   **[!UICONTROL Add a pre-processing stage]**&#x200B;フィールドでは、ファイルをデータベースにインポートする前に、ファイルを復号化することもできます。 暗号化されたファイルの使い方について詳しくは、[この](../../automating/using/managing-encrypted-data.md)を参照してください。
 
 1. 「**[!UICONTROL Keep the rejects in a file]**」オプションを使用すると、インポート中に発生したエラーが含まれるファイルをダウンロードし、後処理段階でそのファイルに適用することができます。このオプションを有効にすると、送信トランジションの名前が「却下」に変更されます。
 
