@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
 translation-type: tm+mt
-source-git-commit: 2879066634a8a123ef5d07d46aa96479f156a923
+source-git-commit: 35d61efce8d752ea30b7eaad55e6c23d4debd853
 workflow-type: tm+mt
 source-wordcount: '1479'
 ht-degree: 100%
@@ -85,7 +85,7 @@ Adobe Experience Cloud のプライバシーについて詳しくは、[この�
 
 したがって、個人データを収集し共有する会社はデータ管理者で、そのクライアントはデータ主体です。Adobe Campaign は、お客様の指示に従って個人データを処理する際に、データ処理者として機能します。[プライバシーリクエスト](#privacy-requests)を管理する場合など、データ主体との関係を処理するのはデータ管理者としての責任であることに注意してください。
 
-Campaign を、[Audience Destinations サービス](../../audiences/using/aep-about-audience-destinations-service.md)、[Adobe Analytics](../../integrating/using/about-campaign-analytics-integration.md)、[Audience Manager または People コアサービス](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md) などのシステム間でオーディエンスを転送できる他の Experience Cloud ソリューションと統合する場合、または [Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md) などの他のソリューションと統合する場合は、個人データの保護に特別な注意を払う必要があります。
+Campaign を、[Audience Destinations サービス](../../integrating/using/aep-about-audience-destinations-service.md)、[Adobe Analytics](../../integrating/using/about-campaign-analytics-integration.md)、[Audience Manager または People コアサービス](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md) などのシステム間でオーディエンスを転送できる他の Experience Cloud ソリューションと統合する場合、または [Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md) などの他のソリューションと統合する場合は、個人データの保護に特別な注意を払う必要があります。
 
 ## データの取得 {#data-acquisition}
 
