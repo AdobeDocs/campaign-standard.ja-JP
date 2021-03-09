@@ -7,7 +7,7 @@ audience: audiences
 content-type: reference
 topic-tags: about-profiles-and-audiences
 translation-type: tm+mt
-source-git-commit: b471fddd49037770e33a113374afd60c2e79e69b
+source-git-commit: 35d61efce8d752ea30b7eaad55e6c23d4debd853
 workflow-type: tm+mt
 source-wordcount: '604'
 ht-degree: 23%
@@ -85,7 +85,7 @@ Adobe Campaignオファーは、**GDPR、CCPA、その他のプライバシー�
 
 ## その他のリソース
 
-* [オーディエンス送信先サービスの使用](../../audiences/using/aep-about-audience-destinations-service.md)
+* [オーディエンス送信先サービスの使用](../../integrating/using/aep-about-audience-destinations-service.md)
 * [Microsoft Dynamics 365の操作](../../integrating/using/d365-acs-get-started.md)
 * [Adobe共有オーディエンス](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
 * [ワークフローを使用したプロファイルの読み込み](../../automating/using/creating-import-workflow-templates.md)
