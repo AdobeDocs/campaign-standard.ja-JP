@@ -6,9 +6,9 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 translation-type: tm+mt
-source-git-commit: fe5d40235abc33c0ea7e929cd2e69b7030cea0b1
+source-git-commit: 93e4310c606cb39a1071b8e20d88978839007765
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '842'
 ht-degree: 5%
 
 ---
@@ -96,7 +96,7 @@ Microsoft Dynamics 365とのAdobe Campaign Standardの統合により、CRMシ�
 
 サポートチケットは、Adobeカスタマーケアによって記録できます。
 
-統合データフローに関する問題の場合は、問題の説明の一部にレポートスイートを含め、次の情報を必ず含めてください。
+統合データフローに関する問題が発生した場合は、次の情報を必ず含めてください。
 
 * **Process Owner**:エンジニアリングアーキテクト
 * **ES Process ID**:オンボーディングプロセス中に提供されます。
