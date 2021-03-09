@@ -7,9 +7,9 @@ user-guide-description: 'Campaign Standard の使用に必要な主要な機能�
 breadcrumb-title: ヘルプセンター
 title: Campaign Standard ガイド
 translation-type: tm+mt
-source-git-commit: b6fe1491e3ff519f50e1492abcac7b79dc0e64e6
+source-git-commit: c9db89a98d8b246217add34ce09e6405ce3d5cde
 workflow-type: tm+mt
-source-wordcount: '1759'
+source-wordcount: '1756'
 ht-degree: 99%
 
 ---
@@ -70,10 +70,6 @@ ht-degree: 99%
       + [Campaign のオプトインとオプトアウトについて](audiences/using/about-opt-in-and-opt-out-in-campaign.md)
       + [Campaign のオプトインとオプトアウトの管理](audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
       + [配信のオプトアウトプロファイルの識別](audiences/using/identifying-opt-out-profiles-for-a-delivery.md)
-   + Adobe Experience Platform の使用{#working-with-adobe-experience-platform}
-      + [Audience Destinations サービスについて](audiences/using/aep-about-audience-destinations-service.md)
-      + [Adobe Experience Platform オーディエンスの管理](audiences/using/aep-managing-audiences.md)
-      + [セグメントビルダーの使用](audiences/using/aep-using-segment-builder.md)
 + 通信チャネル {#communication-channels}
    + [通信チャネルの概要](channels/using/get-started-communication-channels.md)
    + 通信チャネルについて {#about-communication-channels}
@@ -274,6 +270,19 @@ ht-degree: 99%
          + [同期ワークフローの管理](integrating/using/d365-acs-self-service-app-workflows.md)
          + [Microsoft Dynamics 365 と Campaign 間のデータのマップ](integrating/using/d365-acs-self-service-app-data-sync.md)
       + [Microsoft Dynamics 365 統合の使用](integrating/using/d365-acs-using-the-integration.md)
+   + キャンペーンとAdobe Experience Platform{#adobe-experience-platform}
+      + オーディエンス宛先サービス{#audience-destinations}
+         + [Audience Destinations サービスについて](integrating/using/aep-about-audience-destinations-service.md)
+         + [Adobe Experience Platform オーディエンスの管理](integrating/using/aep-managing-audiences.md)
+         + [セグメントビルダーの使用](integrating/using/aep-using-segment-builder.md)
+         + [Adobe Experience Platform オーディエンスのターゲティング](integrating/using/aep-targeting-audiences.md)
+         + [Adobe Experience Platform 属性を使用したキャンペーンのパーソナライズ](integrating/using/aep-personalizing-campaigns.md)
+      + Adobe Experience Platform Data Connector {#data-connector}
+         + [Adobe Experience Platform Data Connector について](integrating/using/aep-about-data-connector.md)
+         + [Experience Platform データモデルの概要](integrating/using/aep-data-model-overview.md)
+         + [マッピング定義](integrating/using/aep-mapping-definition.md)
+         + [マッピングのアクティベーション](integrating/using/aep-mapping-activation.md)
+         + [API によるデータ取得トリガー](integrating/using/aep-triggering-data-ingestion.md)
 + プロセスとデータの管理 {#managing-processes-and-data}
    + [データとプロセスの管理の概要](automating/using/get-started-workflows.md)
    + ワークフローの一般操作 {#workflow-general-operation}
@@ -379,9 +388,6 @@ ht-degree: 99%
          + [外部ファイル内のプロファイルの書き出し](automating/using/exporting-profiles-in-file.md)
          + [ファイルからの複数の購読ステータスの更新](automating/using/updating-subscriptions-from-file.md)
          + [ファイルから特定のサービスへのプロファイルの購読](automating/using/subscribing-profiles-from-file.md)
-   + Adobe Experience Platform オーディエンスの使用 {#working-with-aep-audiences}
-      + [Adobe Experience Platform オーディエンスのターゲティング](automating/using/aep-targeting-audiences.md)
-      + [Adobe Experience Platform 属性を使用したキャンペーンのパーソナライズ](automating/using/aep-personalizing-campaigns.md)
 + 開発中{#developing}
    + [Campaign Standard データモデルの概要](developing/using/get-started-data-model.md)
    + カスタムリソースについて{#about-custom-resources}
@@ -421,12 +427,6 @@ ht-degree: 99%
       + [トラッキングログ](developing/using/datamodel-tracking.md)
       + [サブスクリプション解除イベント](developing/using/datamodel-unsubscription.md)
       + [訪問者](developing/using/datamodel-visitor.md)
-   + Adobe Experience Platform Data Connector {#mapping-campaign-and-aep-data}
-      + [Adobe Experience Platform Data Connector について](developing/using/aep-about-data-connector.md)
-      + [Experience Platform データモデルの概要](developing/using/aep-data-model-overview.md)
-      + [マッピング定義](developing/using/aep-mapping-definition.md)
-      + [マッピングのアクティベーション](developing/using/aep-mapping-activation.md)
-      + [API によるデータ取得トリガー](developing/using/aep-triggering-data-ingestion.md)
 + 管理{#administrating}
    + [Campaign Standard の管理の概要](administration/using/get-started-campaign-administration.md)
    + [監視のガイドライン](administration/using/monitoring-guidelines.md)
