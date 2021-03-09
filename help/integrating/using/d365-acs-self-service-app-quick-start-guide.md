@@ -6,7 +6,7 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 translation-type: tm+mt
-source-git-commit: efa30d7ed4a0caf929da6f485681078318849cda
+source-git-commit: 93e4310c606cb39a1071b8e20d88978839007765
 workflow-type: tm+mt
 source-wordcount: '1071'
 ht-degree: 2%
@@ -31,7 +31,7 @@ Microsoft Dynamics 365セルフサービス統合アプリケーションとのA
 
 ## 前提条件 {#self-service-app-prerequisites}
 
-統合アプリがデータにアクセスできるように、Microsoft Dynamics 365とAdobe Campaign Standardを構成する必要があります。 これは、Dynamics 365、Adobe Campaign Standard、Adobe I/Oでの構成には時間がかかります。ただし、設定が完了すると、セルフサービス統合アプリケーションのユーザーインターフェイスを通じて統合を制御できます。
+統合アプリがデータにアクセスできるように、Microsoft Dynamics 365とAdobe Campaign Standardを構成する必要があります。 これは、Dynamics 365、Adobe Campaign Standard、およびAdobe I/Oで構成するのに、しばらく時間がかかります。ただし、設定が完了すると、セルフサービス統合アプリケーションのユーザーインターフェイスを通じて統合を制御できます。
 
 詳しくは、次の節を参照してください。
 
@@ -52,9 +52,9 @@ Microsoft Dynamics 365セルフサービス統合アプリケーションとのA
 
 ブラウザを開き、領域に関連付けられているコネクタを参照します。
 
-* [アジア太平洋](http://d365-acs-ap.ea.adobe.com/)
-* [ヨーロッパ、中東、アフリカ(EMEA)](http://d365-acs-em.ea.adobe.com/)
-* [アメリカ](http://d365-acs-na.ea.adobe.com/)
+* [アジア太平洋](https://d365-acs-ap.ea.adobe.com/)
+* [ヨーロッパ、中東、アフリカ(EMEA)](https://d365-acs-em.ea.adobe.com/)
+* [アメリカ](https://d365-acs-am.ea.adobe.com/)
 
 ## プライバシー要求の確認{#self-service-app-acknowledgement}
 
