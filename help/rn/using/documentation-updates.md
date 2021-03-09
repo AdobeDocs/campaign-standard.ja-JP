@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 translation-type: tm+mt
-source-git-commit: ea0755d22b34c4c961fd8715ecf4551ffcdcb58e
+source-git-commit: 6dd54dc72fdaf3261d13ca972f1258bcbb3c1e3a
 workflow-type: tm+mt
-source-wordcount: '6571'
-ht-degree: 97%
+source-wordcount: '6616'
+ht-degree: 96%
 
 ---
 
@@ -19,9 +19,11 @@ ht-degree: 97%
 
 このページでは、Adobe Campaign の[リリースノート](../../rn/using/release-notes.md)に加えて、Adobe Campaign Standard のドキュメントの新しいアップデートをすべて紹介します。
 
-## 2021 年 2 月 {#doc-updates-february-2021}
+## 2021 年 3 月 {#doc-updates-march-2021}
 
-以前の実行の1つ以上のタスクがまだ保留中になるまで、スケジュール済みのワークフローが再スケジュールされないようにする方法に関する情報が追加されました。 [詳細を表示](../../automating/using/scheduled-workflows-execution.md)
+クエリでauオーディエンスを選択する際、定義がコピーされて参照されないことを示す情報が追加されました。 [詳細を表示](../../audiences/using/selecting-an-audience-in-a-message.md)
+
+オーディエンス宛先サービスおよびAdobe Experience Platformデータコネクタに関する情報が、新しいセクションに再グループ化されました。 [詳細を表示](../../integrating/using/aep-about-audience-destinations-service.md)
 
 ## リリース 21.1 - 2021 年 2 月 {#release-21-1---february-2021}
 
@@ -42,6 +44,8 @@ E メール、名前（姓）、名前（名）または任意のカスタムフ
 **[!UICONTROL Transfer file]** アクティビティを使用した後に利用できる新しい **[!UICONTROL filesCount]** 出力変数に情報が追加されました。 [詳細を表示](../../automating/using/transfer-file.md#output-variables)
 
 **E メールチャネルの設定**&#x200B;の節が更新され、該当する最新の E メール設定が明確になりました。 一部のお客様で引き続き使用されているレガシーパラメーターは、ページの下部に表示されます。 [詳細を表示](../../administration/using/configuring-email-channel.md)
+
+以前の実行の1つ以上のタスクがまだ保留中になるまで、スケジュール済みのワークフローが再スケジュールされないようにする方法に関する情報が追加されました。 [詳細を表示](../../automating/using/scheduled-workflows-execution.md)
 
 ## 2020 年 12 月 {#doc-updates-december-2020}
 
@@ -71,7 +75,7 @@ SMS コネクタのプロトコルと設定についてのページが[こちら
 
 **トランザクションメッセージ**&#x200B;セクションは、ナビゲーションを改善するために、再編成され、1か所に収集されました。 [詳細を表示](../../channels/using/getting-started-with-transactional-msg.md)
 
-プライバシー管理に関連するデータマッピング検証エラーおよびトラブルシューティング方法に関する情報が、Adobe Experience Platform Data Connector 節に追加されました。[詳細を表示](../../developing/using/aep-mapping-activation.md)
+プライバシー管理に関連するデータマッピング検証エラーおよびトラブルシューティング方法に関する情報が、Adobe Experience Platform Data Connector 節に追加されました。[詳細を表示](../../integrating/using/aep-mapping-activation.md)
 
 ## リリース 20.4 - 2020 年 10 月 {#release-20-4---october-2020}
 
@@ -173,7 +177,7 @@ Microsoft Dynamics 365 と Adobe Campaign Standard の統合に関するドキ�
 
 追加のリソースがドキュメントホームページに追加されました。[詳細を表示](../../campaign-standard-home.md)
 
-Experience Cloud ID サービス（ECID）に関する情報が、Adobe Experience Platform Data Connector のドキュメントに追加されました。[詳細を表示](../../developing/using/aep-about-data-connector.md#key-concepts)
+Experience Cloud ID サービス（ECID）に関する情報が、Adobe Experience Platform Data Connector のドキュメントに追加されました。[詳細を表示](../../integrating/using/aep-about-data-connector.md#key-concepts)
 
 トランザクションメッセージの節が改訂され、最新のトランザクションイベントへのアクセス方法に関する情報と、最新のスクリーンショットが追加されました。[詳細を表示](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
 
@@ -239,9 +243,9 @@ Campaign Standard データモデルのベストプラクティスに関する�
 
 **リリースに含まれる新機能**
 
-Adobe Experience Platform Data Connector（ベータ版） - [詳細情報](../../developing/using/aep-about-data-connector.md)
+Adobe Experience Platform Data Connector（ベータ版） - [詳細情報](../../integrating/using/aep-about-data-connector.md)
 
-Audience Destinations（ベータ版） - [詳細情報](../../audiences/using/aep-about-audience-destinations-service.md)
+Audience Destinations（ベータ版） - [詳細情報](../../integrating/using/aep-about-audience-destinations-service.md)
 
 **リリースに伴うその他のドキュメントのアップデート**
 
