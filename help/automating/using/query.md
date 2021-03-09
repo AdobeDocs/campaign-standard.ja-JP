@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: query,main
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: bdeb3e0c81cf729436a722bfd349a39d5dcad351
 workflow-type: tm+mt
-source-wordcount: '1710'
-ht-degree: 95%
+source-wordcount: '1757'
+ht-degree: 93%
 
 ---
 
@@ -50,6 +50,11 @@ ht-degree: 95%
    詳しくは、[ターゲティングディメンションとリソース](#targeting-dimensions-and-resources)を参照してください。
 
 1. 「**[!UICONTROL Target]**」タブで、ルールを定義して組み合わせ、クエリを実行します。
+
+   >[!NOTE]
+   >
+   >オーディエンスをターゲット設定する場合、オーディエンスの定義は参照されず、**コピー**&#x200B;がクエリに含まれていることに注意してください。 クエリでターゲットが設定された後にオーディエンスに変更を加えた場合は、新しい定義を考慮するように、クエリを再度設定する必要があります。
+
 1. 該当するタブを使用して、ターゲット母集団の **[!UICONTROL Additional data]** を定義できます。このデータは追加の列に格納され、進行中のワークフローでのみ使用できます。特に、クエリのターゲティングディメンションにリンクされた Adobe Campaign データベースのテーブルからデータを追加できます。[データのエンリッチメント](#enriching-data)の節を参照してください。
 
    >[!NOTE]
