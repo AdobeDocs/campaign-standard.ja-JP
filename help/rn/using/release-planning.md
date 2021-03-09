@@ -7,9 +7,9 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-release-planning
 translation-type: tm+mt
-source-git-commit: 558f88a129264560851832ca70628509661cb208
+source-git-commit: 1b971fbf7b5d36283434db0389534a3dda2ebb45
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '466'
 ht-degree: 97%
 
 ---
@@ -25,9 +25,7 @@ ht-degree: 97%
 
 すべてのリリース日は変更される可能性があります。このページに定期的にアクセスして、アップデートを確認することをお勧めします。
 
-**新規：**[Campaign Standard のリリース通知](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU)をご購読いただくと、今後のリリースの詳細が E メールで通知されます。
-
-## リリース 21.1 - 2 月リリース {#release-21-1-release}
+## リリース 21.2 - 5 月のリリース {#release-21-2-release}
 
 環境のアップデートは、以下に示す期間に順次おこなわれます。正確な日付は、各顧客に電子メールで通知されます。
 
@@ -43,16 +41,18 @@ ht-degree: 97%
  <tbody>
   <tr>
    <td>ステージング<br /> </td>
-   <td>2021 年 22 月 1 日～2 日<br /> </td>
+   <td>2021年4月19日～20日<br /> </td>
   </tr>
   <tr>
    <td> 本番<br /> </td>
-   <td>2021年2月8日～3月1日<br /> </td>
+   <td>2021年4月26日～5月3日<br /> </td>
   </tr>
  </tbody>
 </table>
 
 その他のご質問については、[アドビクライアントケア](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)にお問い合わせください。
+
+[Campaign Standard のリリース通知](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU)をご購読いただくと、今後のリリースの詳細が E メールで通知されます。
 
 ## 質問と回答 {#questions-and-answers}
 
