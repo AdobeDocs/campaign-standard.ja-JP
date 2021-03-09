@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: managing-audiences
 context-tags: deliveryCreation,wizard;delivery,audience,back
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: bdeb3e0c81cf729436a722bfd349a39d5dcad351
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 83%
+source-wordcount: '411'
+ht-degree: 74%
 
 ---
 
@@ -39,13 +39,15 @@ Adobe Campaign を使用すると、メッセージのオーディエンス内�
 
 1. 電子メールのメイン **[!UICONTROL Target]** を定義します。これは、電子メールの通常のターゲットオーディエンスです。
 
-   ターゲットは「**[!UICONTROL Target]**」タブで定義され、データベースで識別されたプロファイルで構成されます。
-
-   メインターゲットは、[クエリエディター](../../automating/using/editing-queries.md#creating-queries)機能を使用して確定できます。
+   ターゲットは「**[!UICONTROL Target]**」タブで定義され、データベースで識別されたプロファイルで構成されます。メインターゲットは、[クエリエディター](../../automating/using/editing-queries.md#creating-queries)機能を使用して確定できます。
 
    このタブの「**[!UICONTROL Shortcuts]**」パレットには、識別されたプロファイルで定義された定義済みフィルターとオーディエンスのみが含まれます。「**[!UICONTROL Explorer]**」タブを使用すると、追加の設定にアクセスできます。
 
    したがって、既存のオーディエンスの再利用や組み合わせができ、また既存のオーディエンスにフィルターを追加することもできます。
+
+   >[!NOTE]
+   >
+   >オーディエンスをターゲット設定する場合、オーディエンスの定義は参照されず、**コピー**&#x200B;がクエリに含まれていることに注意してください。 クエリでターゲットが設定された後にオーディエンスに変更を加えた場合は、新しい定義を考慮するように、クエリを再度設定する必要があります。
 
 1. E メールに使用する **[!UICONTROL Test profiles]** を定義します。テストプロファイルは、メインターゲットに E メールを送信する前に E メールのテスト用にあらかじめ送信される配達確認を受信します。
 
