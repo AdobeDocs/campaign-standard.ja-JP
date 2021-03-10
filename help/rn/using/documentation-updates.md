@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 6dd54dc72fdaf3261d13ca972f1258bcbb3c1e3a
 workflow-type: tm+mt
 source-wordcount: '6616'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -21,15 +21,15 @@ ht-degree: 96%
 
 ## 2021 年 3 月 {#doc-updates-march-2021}
 
-クエリでauオーディエンスを選択する際、定義がコピーされて参照されないことを示す情報が追加されました。 [詳細を表示](../../audiences/using/selecting-an-audience-in-a-message.md)
+クエリでauオーディエンスを選択する際、定義がコピーされて参照されないことを示す情報が追加されました。 [詳細情報](../../audiences/using/selecting-an-audience-in-a-message.md)
 
-オーディエンス宛先サービスおよびAdobe Experience Platformデータコネクタに関する情報が、新しいセクションに再グループ化されました。 [詳細を表示](../../integrating/using/aep-about-audience-destinations-service.md)
+オーディエンス宛先サービスおよびAdobe Experience Platformデータコネクタに関する情報が、新しいセクションに再グループ化されました。 [詳細情報](../../integrating/using/aep-about-audience-destinations-service.md)
 
 ## リリース 21.1 - 2021 年 2 月 {#release-21-1---february-2021}
 
 **リリースに含まれる新機能**
 
-電子メールフィードバックサービス — [詳細を読む](../../sending/using/confirming-the-send.md#message-indicators)
+E メールフィードバックサービス - [詳細情報](../../sending/using/confirming-the-send.md#message-indicators)
 
 Adobe Experience Manager 統合の強化 - [詳細情報](../../integrating/using/creating-multilingual-email-aem.md)
 
@@ -43,17 +43,17 @@ E メール、名前（姓）、名前（名）または任意のカスタムフ
 
 **[!UICONTROL Transfer file]** アクティビティを使用した後に利用できる新しい **[!UICONTROL filesCount]** 出力変数に情報が追加されました。 [詳細を表示](../../automating/using/transfer-file.md#output-variables)
 
-**E メールチャネルの設定**&#x200B;の節が更新され、該当する最新の E メール設定が明確になりました。 一部のお客様で引き続き使用されているレガシーパラメーターは、ページの下部に表示されます。 [詳細を表示](../../administration/using/configuring-email-channel.md)
+**E メールチャネルの設定**&#x200B;の節が更新され、該当する最新の E メール設定が明確になりました。 一部の顧客で引き続き使用されている従来のパラメーターは、このページの下に表示されています。 [詳細情報](../../administration/using/configuring-email-channel.md)
 
-以前の実行の1つ以上のタスクがまだ保留中になるまで、スケジュール済みのワークフローが再スケジュールされないようにする方法に関する情報が追加されました。 [詳細を表示](../../automating/using/scheduled-workflows-execution.md)
+以前実行された 1 つ以上のタスクがまだ保留中の場合、スケジュール済みのワークフローが再スケジュールされないようにする方法に関する情報が追加されました。 [詳細情報](../../automating/using/scheduled-workflows-execution.md)
 
 ## 2020 年 12 月 {#doc-updates-december-2020}
 
 **予測件名行**&#x200B;機能は廃止されました。[詳細を表示](../../rn/using/deprecated-features.md)
 
-**トランザクションメッセージングを使用する前に**&#x200B;セクションに、プロセスを理解しやすくするために、[拡張スキーマ](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle)が含まれるようになりました。
+**トランザクションメッセージングの概要**&#x200B;の節に[拡張スキーマ](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle)を追加して、プロセスを理解しやすくしました。
 
-トランザクションメッセージングの実装プロセスを示すエンドツーエンドの使用例を利用できるようになりました。 [詳細を表示](../../channels/using/transactional-messaging-use-case.md)
+トランザクションメッセージングの実装プロセスを示すエンドツーエンドのユースケースが利用できるようになりました。 [詳細を表示](../../channels/using/transactional-messaging-use-case.md)
 
 **プライバシー**&#x200B;の節は[こちら](../../start/using/privacy.md)に移動しました。
 
@@ -67,13 +67,13 @@ SMS コネクタのプロトコルと設定についてのページが[こちら
 
 ## 2020 年 11 月 {#doc-updates-november-2020}
 
-**個人データと個人**&#x200B;のセクションは、プライバシーに関して様々な個人がどのように関わるかを説明するユースケースシナリオに更新されました。 [詳細を表示](../../start/using/privacy.md#use-case-scenario)
+**個人データとペルソナ**&#x200B;の節には、プライバシーに関して様々なペルソナがどのように関わっているかを示す、ユースケースのシナリオが追加更新されました。[詳細を表示](../../start/using/privacy.md#use-case-scenario)
 
 プライバシーに関してよくある質問の一覧を記載した新しい節を追加しました。[詳細を表示](../../start/using/privacy-faq.md)
 
-**プライバシー**&#x200B;セクションは移動され、2つの新しいページで強化されました。[プライバシー管理](../../start/using/privacy-management.md)および[プライバシー要求の管理](../../start/using/privacy-requests.md)。
+**プライバシー**&#x200B;の節は移動し、[プライバシー管理](../../start/using/privacy-management.md)と[プライバシーリクエストの管理](../../start/using/privacy-requests.md)の 2 ページが新しく追加されました。
 
-**トランザクションメッセージ**&#x200B;セクションは、ナビゲーションを改善するために、再編成され、1か所に収集されました。 [詳細を表示](../../channels/using/getting-started-with-transactional-msg.md)
+**トランザクションメッセージング**&#x200B;の節は、ナビゲーションを改善するために再編成され、1 か所にまとめられました。[詳細情報](../../channels/using/getting-started-with-transactional-msg.md)
 
 プライバシー管理に関連するデータマッピング検証エラーおよびトラブルシューティング方法に関する情報が、Adobe Experience Platform Data Connector 節に追加されました。[詳細を表示](../../integrating/using/aep-mapping-activation.md)
 
@@ -99,7 +99,7 @@ SMS コネクタのプロトコルと設定についてのページが[こちら
 
 ## 2020 年 9 月 {#doc-updates-september-2020}
 
-**イベントトランザクションメッセージ**&#x200B;セクションが再編成され、明確化されました。 [詳細を表示](../../channels/using/editing-transactional-message.md)
+**イベントトランザクションメッセージ**&#x200B;の節が整理され、明確になりました。[詳細を表示](../../channels/using/editing-transactional-message.md)
 
 ログのアクセスに関連する権限制限についてユーザーに警告するための注意事項が追加されました。[詳細を表示](../../administration/using/users-management.md)
 
@@ -113,9 +113,9 @@ Campaign Standard と Microsoft Dynamics 365 の統合を新たに利用でき�
 
 トランザクションメッセージの概要に関する節が更新されました。[詳細を表示](../../channels/using/getting-started-with-transactional-msg.md)
 
-**トランザクションメッセージの制限**&#x200B;の節が、[こちら](../../channels/using/transactional-messaging-limitations.md)に移動しました。。
+**トランザクションメッセージの制限**&#x200B;の節が、[こちら](../../channels/using/transactional-messaging-limitations.md)に移動しました。.
 
-**send**&#x200B;セクションの準備中に[ここ](../../sending/using/preparing-the-send.md)を移動しました。
+**送信の準備**&#x200B;の節が[こちら](../../sending/using/preparing-the-send.md)に移動しました。
 
 ## 2020 年 7 月 {#doc-updates-july-2020}
 
