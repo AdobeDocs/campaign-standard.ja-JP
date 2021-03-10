@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 1b971fbf7b5d36283434db0389534a3dda2ebb45
 workflow-type: tm+mt
 source-wordcount: '466'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -27,9 +27,9 @@ ht-degree: 97%
 
 ## リリース 21.2 - 5 月のリリース {#release-21-2-release}
 
-環境のアップデートは、以下に示す期間に順次おこなわれます。正確な日付は、各顧客に電子メールで通知されます。
+環境のアップデートは、以下に示す期間に順次おこなわれます。正確な日付は、各顧客に E メールで通知されます。
 
-このリリースに関する詳細は、ステージング環境の開始がアップグレードされた場合の[リリースノート](../../rn/using/release-notes.md)を参照してください。 
+このリリースに関する詳細は、ステージング環境のアップグレードが開始されたときに[リリースノート](../../rn/using/release-notes.md)で確認できます。
 
 <table>
  <thead>
@@ -50,7 +50,7 @@ ht-degree: 97%
  </tbody>
 </table>
 
-その他のご質問については、[アドビクライアントケア](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)にお問い合わせください。
+その他の質問については、[Adobe Client Care ](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html) にお問い合わせください。
 
 [Campaign Standard のリリース通知](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU)をご購読いただくと、今後のリリースの詳細が E メールで通知されます。
 
