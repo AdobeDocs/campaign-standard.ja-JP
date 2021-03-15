@@ -6,10 +6,13 @@ description: このページでは、Adobe Campaign Standard の 2018 年の全�
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
+feature: 概要
+role: 開業医
+level: 初心者
 translation-type: tm+mt
-source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '5402'
+source-wordcount: '5406'
 ht-degree: 7%
 
 ---
@@ -46,7 +49,7 @@ Adobe Campaign Standardの最新[ドキュメントの更新](../../rn/using/doc
  </tbody> 
 </table>
 
-**機能強化**
+**改善点**
 
 * Adobe Campaign Standardは、AmazonS3 APIのバージョン4をサポートするようになりました。
 
@@ -123,7 +126,7 @@ Adobe Campaign Standardの最新[ドキュメントの更新](../../rn/using/doc
  </tbody> 
 </table>
 
-**機能強化**
+**改善点**
 
 * Adobe CampaignとAdobe Targetの統合により、ターゲットの[権限](https://docs.adobe.com/content/help/ja-JP/target/using/administer/manage-users/enterprise/properties-overview.translate.html)機能を利用できるようになりました。 Adobe Targetからの動的ターゲットを電子メールに含める場合、画像プロパティ（at_propertyコード）を指定できるようになりました。
 * プロファイル・リソースへのダウンコピー・リンクを持つカスタム・リソースは、GDPRのプライバシー・アクセス/削除要求によって考慮されるようになった。 1基の基数単純リンクとN基数収集リンクの場合、カスタムリソースで「ターゲットレコードの削除/複製は、リンクによって参照されるレコードを削除/複製することを意味します」を選択する必要があります。 0または1の基数単純リンクの場合は、「レコードの削除/複製は、リンクから参照されるターゲットレコードを削除または複製することを意味します」を選択します。
@@ -153,7 +156,7 @@ Adobe Campaign Standardの最新[ドキュメントの更新](../../rn/using/doc
 
 ## リリース 18.6 - 2018 年 6 月 {#release-18-6---june-2018}
 
-**機能強化**
+**改善点**
 
 * **[!UICONTROL History]** APIがAdobe.IOに追加されました。 プロファイルのマーケティング履歴に関連する情報にアクセスできます。タッチポイント数、送信された配信数、ミラーページURLなど 詳しくは、[専用の使用例](../../api/using/interacting-with-marketing-history.md)を参照してください。
 * **[!UICONTROL Database cleanup]**&#x200B;の技術ワークフローは、データベースバックアップのパフォーマンスを高めるために最適化されました。
@@ -224,7 +227,7 @@ Adobe Campaign Standardの最新[ドキュメントの更新](../../rn/using/doc
  </tbody> 
 </table>
 
-**機能強化**
+**改善点**
 
 * アプリケーションのメモリ全体とCPU使用率が向上しました
 
