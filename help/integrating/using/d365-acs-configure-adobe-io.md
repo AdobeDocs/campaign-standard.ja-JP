@@ -4,10 +4,13 @@ description: Microsoft Dynamics 365統合用のAdobeI/Oを構成する方法を�
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
+feature: Microsoft CRM統合
+role: Data Architect
+level: 中級
 translation-type: tm+mt
-source-git-commit: fe5d40235abc33c0ea7e929cd2e69b7030cea0b1
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '634'
 ht-degree: 3%
 
 ---
@@ -29,7 +32,7 @@ Adobe Campaign Standardで「プロファイル拡張子」を有効にしてく
 
 ## Adobe I/O の設定 {#adobe-io}
 
-Adobe I/Oでは、Adobe Campaign Standardや他のAdobe製品へのAPIアクセスを有効にできます。   この記事では、Adobe Campaign StandardとMicrosoft Dynamics 365の統合を行ってデータを同期させるための、Adobe I/Oの設定方法について詳しく説明します。
+Adobe I/Oを使用すると、Adobe Campaign Standardや他のAdobe製品へのAPIアクセスを有効にできます。   この記事では、Adobe Campaign StandardとMicrosoft Dynamics 365の統合にデータを同期させるためのAdobe I/Oの構成方法について詳しく説明します。
 
 ### 概要
 
