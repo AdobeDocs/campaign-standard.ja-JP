@@ -6,11 +6,14 @@ description: Campaign StandardAPIへのアクセスを設定する方法を説�
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: データエンジニア
+level: 経験豊富な
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 3%
+source-wordcount: '365'
+ht-degree: 4%
 
 ---
 
@@ -28,7 +31,7 @@ Adobe Campaign StandardAPIアクセスは、次の手順で設定します。 �
 1. **以前に生成した秘密鍵証明書** からJSON Web Token(JWT)を作成し、秘密鍵で署名します。JWTは、AdobeがIDを確認し、APIへのアクセスを許可するために必要なすべてのID情報とセキュリティ情報をエンコードします。
 1. **POST要求を通じて、JWTをAccess** トークンと交換します。このアクセストークンは、APIリクエストの各ヘッダーで使用する必要があります。
 
-セキュリティで保護されたサービス間Adobe I/OAPIセッションを確立するには、Adobeサービスへのすべての要求を、次の情報をAuthorizationヘッダーに含める必要があります。
+セキュリティで保護されたサービス間Adobe I/OAPIセッションを確立するには、Adobeサービスへのすべての要求をAuthorizationヘッダーに以下の情報を含める必要があります。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
@@ -43,7 +46,7 @@ Adobe Campaign StandardAPIアクセスは、次の手順で設定します。 �
    * &lt;organization> :実稼働インスタンス
    * &lt;organization-mkt-stage>:ステージインスタンス。
 
-   組織IDの値を取得するには、管理者またはAdobeのテクニカルコンタクトに問い合わせてください。 新しい統合を作成する際に、Adobe I/Oに取得することもできます。ライセンスリストにあります(<a href="https://www.adobe.io/authentication.html">AdobeIOドキュメント</a>を参照)。
+   組織IDの値を取得するには、管理者またはAdobeのテクニカルコンタクトに問い合わせてください。 新しい統合を作成する際に、ライセンスリストでAdobe I/Oに取り込むこともできます(<a href="https://www.adobe.io/authentication.html">AdobeIOドキュメント</a>を参照)。
 
 * **&lt;access_token>**:POSTリクエストを介してJSON Webトークンを交換する際に取得された個人アクセストークン。
 
