@@ -6,11 +6,14 @@ description: Adobe Campaignから電子メール配信を追跡する開始に�
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics
+feature: トリガー
+role: Data Architect
+level: 中級
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 10%
+source-wordcount: '324'
+ht-degree: 11%
 
 ---
 
@@ -83,7 +86,7 @@ Analyticsで見つかったキャンペーン&#x200B;**[!UICONTROL metrics]**&#x
    <td> 配信の送信の総数です。<br /> </td> 
   </tr> 
   <tr> 
-   <td> バウンス合計<br /> </td> 
+   <td> 合計バウンス数<br /> </td> 
    <td> 配信および自動返信処理中に発生したエラーの合計（送信メッセージの合計数に関するエラー）。<br /> </td> 
   </tr> 
   <tr> 
