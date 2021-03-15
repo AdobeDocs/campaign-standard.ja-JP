@@ -6,11 +6,14 @@ description: Adobeエクスペリエンスプラットフォーム属性を使�
 audience: automating
 content-type: reference
 topic-tags: channel-activities
+feature: Microsoft CRM統合
+role: Data Architect
+level: 経験豊富な
 translation-type: tm+mt
-source-git-commit: 35d61efce8d752ea30b7eaad55e6c23d4debd853
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 8%
+source-wordcount: '277'
+ht-degree: 7%
 
 ---
 
