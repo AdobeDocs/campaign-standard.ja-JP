@@ -6,11 +6,14 @@ description: 電子メールデザイナーでゼロから電子メールをデ�
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
+feature: 電子メールデザイン
+role: 開業医
+level: 初心者
 translation-type: tm+mt
-source-git-commit: 2d28048590b52b81f27cd1cfe10be029bbc35197
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1239'
-ht-degree: 7%
+source-wordcount: '1244'
+ht-degree: 6%
 
 ---
 
