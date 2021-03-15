@@ -6,10 +6,13 @@ description: Campaign で配信エラーを管理する方法について説明�
 audience: sending
 content-type: reference
 topic-tags: monitoring-messages
+feature: 配信品質
+role: 開業医
+level: 中級
 translation-type: tm+mt
-source-git-commit: 0f057375e5cd63605af460f08cd39bed00435184
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1256'
+source-wordcount: '1260'
 ht-degree: 76%
 
 ---
