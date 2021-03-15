@@ -6,10 +6,12 @@ description: メッセージの準備、テスト、スケジュール、送信�
 audience: sending
 content-type: reference
 topic-tags: about-sending-messages-with-campaign
+role: 開業医
+level: 中級
 translation-type: tm+mt
-source-git-commit: e20485978deba54f45010a41921b948f049222f2
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '592'
 ht-degree: 15%
 
 ---
