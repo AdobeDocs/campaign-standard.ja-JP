@@ -6,11 +6,14 @@ description: 配信受信者の動作を追跡する方法を説明します。
 audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
+feature: パフォーマンス監視
+role: 開業医
+level: 中級
 translation-type: tm+mt
-source-git-commit: 79e172d08557bfeebd088d8a0e8756c5965318cb
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '487'
-ht-degree: 37%
+source-wordcount: '492'
+ht-degree: 38%
 
 ---
 
