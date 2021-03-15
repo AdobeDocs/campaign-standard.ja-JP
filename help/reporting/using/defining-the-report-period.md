@@ -6,11 +6,14 @@ description: レポートの期間では、選択した日付に応じてデー�
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
+feature: レポート
+role: リーダー
+level: 中級
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 3%
+source-wordcount: '207'
+ht-degree: 4%
 
 ---
 
