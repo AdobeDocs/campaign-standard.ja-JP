@@ -6,11 +6,14 @@ description: このページリストは、Adobe Campaign Standard の非推奨�
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-deprecated-features
+feature: 概要
+role: 開業医
+level: 初心者
 translation-type: tm+mt
-source-git-commit: becaf20fefb6fce05db0824baa69670f810966dc
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '734'
-ht-degree: 80%
+source-wordcount: '738'
+ht-degree: 79%
 
 ---
 
@@ -22,7 +25,7 @@ ht-degree: 80%
 Campaign Standard 機能の差し迫った削除／置換を伝達するため、次のルールが適用されます。
 
 * まず、廃止予定のお知らせが来ます。非推奨（廃止予定）の機能は引き続き既存のユーザーに提供できますが、それ以上の機能強化やドキュメント化はおこなわれません。
-* 非推奨（廃止予定）の機能は、以下のリリースで最も早く削除されます。削除の実際のターゲット日は、このページで発表されます。
+* 非推奨（廃止予定）の機能は、以下のリリースで最も早く削除されます。実際の削除予定日は、このページで発表されます。
 
 このプロセスにより、顧客は、実際に削除する前に、新しいバージョンや非推奨（廃止予定）の機能の後継バージョンに実装を適応させるために、少なくとも 1 つのリリースサイクルを提供できます。
 
