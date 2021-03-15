@@ -6,10 +6,13 @@ description: 強制隔離管理を使用して配信品質を最適化する方�
 audience: sending
 content-type: reference
 topic-tags: monitoring-messages
+feature: 配信品質
+role: 開業医
+level: 中級
 translation-type: tm+mt
-source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '785'
 ht-degree: 84%
 
 ---
@@ -86,8 +89,7 @@ Adobe Campaign は、エラーメッセージの選定時に割り当てられ�
 ユーザーが E メールをスパム（**フィードバックループ**）と評価した場合、メッセージは Campaign が管理するテクニカルメールボックスに自動的にリダイレクトされます。さらに、その E メールアドレスは自動的に強制隔離され、ステータスが「**[!UICONTROL On denylist]**」となります。この状態はアドレスのみを表し、プロファイルはブロックリスト上にないので、SMSメッセージやプッシュ通知を受け取り続けます。
 
 >[!NOTE]
->
->Adobe Campaign の強制隔離では、大文字と小文字が区別されます。後から再度ターゲットされることのないよう、E メールアドレスは必ず小文字でインポートしてください。
+Adobe Campaign の強制隔離では、大文字と小文字が区別されます。後から再度ターゲットされることのないよう、E メールアドレスは必ず小文字でインポートしてください。
 
 隔離されたアドレスのリスト（[プラットフォーム全体の強制隔離されたアドレスの識別](#identifying-quarantined-addresses-for-the-entire-platform)を参照）の「**[!UICONTROL Error reason]**」フィールドは、選択したアドレスが強制隔離された理由を示します。
 
