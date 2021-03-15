@@ -6,10 +6,13 @@ description: SMS コネクタの詳細と設定方法について説明します
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
+feature: インスタンス設定
+role: 管理者
+level: 経験豊富な
 translation-type: tm+mt
-source-git-commit: 160eb4f23d9d683695457c1a1f35be1c300b7793
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '8665'
+source-wordcount: '8669'
 ht-degree: 86%
 
 ---
