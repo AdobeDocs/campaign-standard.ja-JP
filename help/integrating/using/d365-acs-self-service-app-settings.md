@@ -4,10 +4,13 @@ description: キャンペーン-Dynamics統合アプリの構成方法を説明�
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
+feature: Microsoft CRM統合
+role: Data Architect
+level: 中級
 translation-type: tm+mt
-source-git-commit: efa30d7ed4a0caf929da6f485681078318849cda
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '801'
 ht-degree: 4%
 
 ---
@@ -35,9 +38,9 @@ Microsoft Dynamics 365資格情報は、Microsoft Dynamics 365からデータを
 
 ### AdobeAPI証明書
 
-Adobe Campaign資格情報は[Adobe I/O](https://www.adobe.io/)を使用して生成されます。 この節の入力を行う前に、[Adobe I/Oを設定](../../integrating/using/d365-acs-configure-adobe-io.md)画面を表示し、画面の指示に従う必要があります。
+Adobe Campaign資格情報は、[Adobe I/O](https://www.adobe.io/)を使用して生成されます。 この節の入力を行う前に、[Adobe I/Oを設定](../../integrating/using/d365-acs-configure-adobe-io.md)画面を開き、の指示に従う必要があります。
 
-次の図は、Adobe I/Oと設定画面の入力との対応付けの詳細を説明しています。
+次の図に、Adobe I/Oと設定画面の入力の間のマッピングの詳細を示します。
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-settings-adobeio.png)
 
