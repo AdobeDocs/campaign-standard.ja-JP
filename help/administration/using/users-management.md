@@ -6,10 +6,13 @@ description: 'Adobe Campaign ユーザーには、特定の役割が割り当て
 audience: administration
 content-type: reference
 topic-tags: users-and-security
+feature: アクセスの管理
+role: 管理者
+level: 経験豊富な
 translation-type: tm+mt
-source-git-commit: 83cf4dc73540725d1b642b68091f704806f3eb63
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1220'
+source-wordcount: '1224'
 ht-degree: 95%
 
 ---
