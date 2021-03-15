@@ -7,10 +7,13 @@ audience: sending
 content-type: reference
 topic-tags: monitoring-messages
 context-tags: delivery,main
+feature: パフォーマンス監視
+role: 開業医
+level: 初心者
 translation-type: tm+mt
-source-git-commit: 7080c002ca20028a4721d09a0d86a746ab47467c
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '466'
 ht-degree: 86%
 
 ---
