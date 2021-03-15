@@ -6,11 +6,14 @@ description: このページでは、Adobe Campaign Standard の 2020 年の全�
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
+feature: 概要
+role: 開業医
+level: 初心者
 translation-type: tm+mt
-source-git-commit: 35d61efce8d752ea30b7eaad55e6c23d4debd853
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '5323'
-ht-degree: 100%
+source-wordcount: '5327'
+ht-degree: 99%
 
 ---
 
