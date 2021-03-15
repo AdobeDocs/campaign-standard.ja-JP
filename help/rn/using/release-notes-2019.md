@@ -6,10 +6,13 @@ description: このページでは、Adobe Campaign Standard の 2019 年の全�
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
+feature: 概要
+role: 開業医
+level: 初心者
 translation-type: tm+mt
-source-git-commit: 16f937fc34783f22a0c118bb5e2e3f39abb85615
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '7607'
+source-wordcount: '7611'
 ht-degree: 9%
 
 ---
@@ -60,7 +63,7 @@ ht-degree: 9%
  </tbody> 
 </table>
 
-**機能強化**
+**改善点**
 
 * 動的レポートの同意ポップアップが更新され、Adobe Campaign StandardとMicrosoft Dynamics 365の統合が含まれるようになりました。 条件に同意すると、Adobe Campaign Standard/Microsoft Dynamics 365統合と動的レポートを使用する際に、プロファイルデータが含まれます。 [詳細情報](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement) (CAMP-29766)
 * 配信のアラートを受け取る際に、間違った連絡日が表示される問題を修正しました。
@@ -258,7 +261,7 @@ ht-degree: 9%
 
 ## リリース 19.2.7 - 2019 年 7 月 {#release-19-2-7---july-2019}
 
-**機能強化**
+**改善点**
 
 * GDPR削除クエリが改善され、パフォーマンスが向上しました。
 * 19.2のアップグレード後にWebがクラッシュする可能性がある問題を修正しました。 （CAMP-34862）
