@@ -6,10 +6,13 @@ description: Adobe Campaign Standard ドキュメントのすべての最新ア�
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
+feature: 概要
+role: 開業医
+level: 初心者
 translation-type: tm+mt
-source-git-commit: 6dd54dc72fdaf3261d13ca972f1258bcbb3c1e3a
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '6616'
+source-wordcount: '6620'
 ht-degree: 99%
 
 ---
@@ -21,7 +24,7 @@ ht-degree: 99%
 
 ## 2021 年 3 月 {#doc-updates-march-2021}
 
-クエリでauオーディエンスを選択する際、定義がコピーされて参照されないことを示す情報が追加されました。 [詳細情報](../../audiences/using/selecting-an-audience-in-a-message.md)
+クエリでauオーディエンスを選択する際、定義がコピーされて参照されないことを示す情報が追加されました。 [詳細を表示](../../audiences/using/selecting-an-audience-in-a-message.md)
 
 オーディエンス宛先サービスおよびAdobe Experience Platformデータコネクタに関する情報が、新しいセクションに再グループ化されました。 [詳細情報](../../integrating/using/aep-about-audience-destinations-service.md)
 
@@ -43,7 +46,7 @@ E メール、名前（姓）、名前（名）または任意のカスタムフ
 
 **[!UICONTROL Transfer file]** アクティビティを使用した後に利用できる新しい **[!UICONTROL filesCount]** 出力変数に情報が追加されました。 [詳細を表示](../../automating/using/transfer-file.md#output-variables)
 
-**E メールチャネルの設定**&#x200B;の節が更新され、該当する最新の E メール設定が明確になりました。 一部の顧客で引き続き使用されている従来のパラメーターは、このページの下に表示されています。 [詳細情報](../../administration/using/configuring-email-channel.md)
+**E メールチャネルの設定**&#x200B;の節が更新され、該当する最新の E メール設定が明確になりました。 一部の顧客で引き続き使用されている従来のパラメーターは、このページの下に表示されています。 [詳細を表示](../../administration/using/configuring-email-channel.md)
 
 以前実行された 1 つ以上のタスクがまだ保留中の場合、スケジュール済みのワークフローが再スケジュールされないようにする方法に関する情報が追加されました。 [詳細情報](../../automating/using/scheduled-workflows-execution.md)
 
