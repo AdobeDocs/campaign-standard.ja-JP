@@ -6,10 +6,13 @@ description: 組み込みレポートまたはカスタマイズされた動的�
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
+feature: レポート
+role: リーダー
+level: 初心者
 translation-type: tm+mt
-source-git-commit: e20485978deba54f45010a41921b948f049222f2
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '375'
 ht-degree: 20%
 
 ---
