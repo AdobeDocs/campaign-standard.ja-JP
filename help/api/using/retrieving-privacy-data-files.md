@@ -6,10 +6,13 @@ description: APIを使用してプライバシーデータファイルを取得�
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: データエンジニア
+level: 経験豊富な
 translation-type: tm+mt
-source-git-commit: ad7322905c69f9575e11efc9d8f68cf909dc425f
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '198'
 ht-degree: 12%
 
 ---
