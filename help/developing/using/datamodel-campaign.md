@@ -5,11 +5,14 @@ title: DataModel
 description: データモデルについて
 audience: developing
 content-type: reference
+feature: データモデル
+role: 開発者
+level: 経験豊富な
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 37%
+source-wordcount: '220'
+ht-degree: 38%
 
 ---
 
