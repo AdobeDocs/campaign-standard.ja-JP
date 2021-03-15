@@ -6,11 +6,15 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
+description: Adobe Campaign を使用した配信のデザインと送信に関するベストプラクティスについて説明します。
+feature: 配信品質
+role: 開業医
+level: 中級
 translation-type: tm+mt
-source-git-commit: c477012a8404b897640ca3ece1c71e9014adf9bd
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 39%
+source-wordcount: '99'
+ht-degree: 47%
 
 ---
 
