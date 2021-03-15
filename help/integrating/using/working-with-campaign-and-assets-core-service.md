@@ -6,11 +6,14 @@ description: Assetsコアサービスの統合により、Adobe Experience Cloud
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-assets-core-service
+feature: Peopleコアサービス統合
+role: Data Architect
+level: 中級
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 26%
+source-wordcount: '164'
+ht-degree: 25%
 
 ---
 
