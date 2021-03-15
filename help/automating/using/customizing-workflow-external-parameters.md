@@ -6,11 +6,14 @@ description: この節では、外部パラメーターを使用してワーク�
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
+feature: ワークフロー
+role: Data Architect
+level: 中級
 translation-type: tm+mt
-source-git-commit: 3a87f15ee7e934c39224cd7f64aafb80d73b433b
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '813'
-ht-degree: 1%
+source-wordcount: '817'
+ht-degree: 2%
 
 ---
 
