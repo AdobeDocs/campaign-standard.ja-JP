@@ -4,12 +4,14 @@ solution: Campaign Standard
 product: campaign
 title: Adobe Campaign Standard 製品ドキュメント
 description: Campaign Standard 製品ドキュメントの参照
-topic: Premium
+feature: 概要
+role: 開業医
+level: 初心者
 translation-type: tm+mt
-source-git-commit: 658e1916e39cb3deec15a87891d07e3e9172dc78
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 100%
+source-wordcount: '242'
+ht-degree: 98%
 
 ---
 
