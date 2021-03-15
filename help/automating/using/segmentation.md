@@ -7,10 +7,13 @@ audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: segmentation,main
+feature: ワークフロー
+role: Data Architect
+level: 中級
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '851'
+source-wordcount: '855'
 ht-degree: 92%
 
 ---
@@ -88,7 +91,6 @@ ht-degree: 92%
       >[!NOTE]
       >
       >値ごとに異なる制限を使用できます。例えば、「**[!UICONTROL Gender]**」フィールドのグループを指定して、**[!UICONTROL Male]** メンバーを含む母集団を 10 人に制限し、**[!UICONTROL Female]** メンバーを含む母集団を 30 人に制限することができます。複数のデータグループ化フィールドを使用する場合は、すべてのグループのサイズを同じにする必要があります。
-
    ![](assets/wkf_segment_limit_by_grouping.png)
 
 1. セグメントの設定を確認します。
