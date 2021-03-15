@@ -6,10 +6,13 @@ description: ユーザーと権限の管理、監視のガイドライン、チ�
 audience: administration
 content-type: reference
 topic-tags: about-administrating-adobe-campaign
+feature: アクセスの管理
+role: 管理者
+level: 経験豊富な
 translation-type: tm+mt
-source-git-commit: a51943e4da04f5d19aaecdfcf956f5c4f3d804c8
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '648'
 ht-degree: 15%
 
 ---
