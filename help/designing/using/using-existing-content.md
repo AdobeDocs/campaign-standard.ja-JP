@@ -6,10 +6,13 @@ description: 電子メールデザイナーで既存のコンテンツの電子�
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
+feature: 電子メールデザイン
+role: 開業医
+level: 中級
 translation-type: tm+mt
-source-git-commit: 739943deccf6320de71bd6a255eb0b2fb20d5df5
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1217'
 ht-degree: 6%
 
 ---
