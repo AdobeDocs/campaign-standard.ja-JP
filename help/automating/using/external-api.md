@@ -2,15 +2,17 @@
 solution: Campaign Standard
 product: campaign
 title: 外部 API
-description: null
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: externalAPI,workflow,main
+feature: ワークフロー
+role: Data Architect
+level: 経験豊富な
 translation-type: tm+mt
-source-git-commit: 6dda990d046cceae2a0c0da87764d4b6a16d9ae8
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '2180'
+source-wordcount: '2184'
 ht-degree: 95%
 
 ---
