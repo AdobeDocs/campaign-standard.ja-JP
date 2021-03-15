@@ -6,10 +6,13 @@ description: 既存のプロファイルを編集し、連絡先情報、優先�
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles
+feature: プロファイル
+role: 開業医
+level: 中級
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '314'
+source-wordcount: '318'
 ht-degree: 12%
 
 ---
