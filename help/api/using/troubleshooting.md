@@ -6,10 +6,13 @@ description: Campaign StandardAPIに関する一般的な問題について詳�
 audience: developing
 content-type: reference
 topic-tags: use-case--extending-the-api
+feature: API
+role: データエンジニア
+level: 経験豊富な
 translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '359'
 ht-degree: 1%
 
 ---
@@ -17,7 +20,7 @@ ht-degree: 1%
 
 # トラブルシューティング {#troubleshooting}
 
-* **Adobe.ioコンソールに移動すると、次のエラーが表示されます。「Adobe I/Oコンソールは、エンタープライズアカウントのメンバーを選択する場合にのみ使用できます。アクセス権を持つと思われる場合は、システム管理者に問い合わせてください。&quot;**
+* **Adobe.ioコンソールに移動すると、次のエラーが表示されます。「Adobe I/Oコンソールは、エンタープライズアカウントのメンバーのみを選択できます。アクセス権を持つと思われる場合は、システム管理者に問い合わせてください。&quot;**
 
 APIキーは、管理者のIMS組織に対してのみ作成できます。 このメッセージが表示され、APIキーを作成する場合に、IMS組織の管理者の1人に問い合わせる必要があるとします。
 
