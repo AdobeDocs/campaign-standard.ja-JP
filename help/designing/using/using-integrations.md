@@ -6,10 +6,13 @@ description: 電子メールデザイナーでAdobe Campaign統合を使用し�
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
+feature: 電子メールデザイン
+role: 開業医
+level: 中級
 translation-type: tm+mt
-source-git-commit: 5758e5f0f6811a97f51e995fa3c378a7c7117ff5
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '726'
 ht-degree: 8%
 
 ---
