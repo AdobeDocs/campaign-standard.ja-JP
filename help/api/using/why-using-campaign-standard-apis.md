@@ -6,10 +6,13 @@ description: Campaign StandardAPIとそれらを使用する理由について�
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
+feature: API
+role: データエンジニア
+level: 経験豊富な
 translation-type: tm+mt
-source-git-commit: 9eca72e744524cf201d998abd9acf718fdaca0f8
+source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '495'
 ht-degree: 3%
 
 ---
@@ -46,7 +49,7 @@ Adobe Campaign Standardは、既存のシステムをキャンペーンプラッ
 
 Campaign StandardAPIリクエストについて理解を深めるために、一連のリクエストを利用できます。 JSON形式のこのコレクションは、一般的な使用例を表す、事前に設計されたAPIリクエストを提供します。
 
-次の手順では、コレクションを読み込んで使用し、Campaign Standardデータベース内にプロファイルを作成する際の使用例を説明します。
+次の手順では、コレクションを読み込んで使用し、Campaign Standardデータベース内にプロファイルを作成するための使用例を順を追って説明します。
 
 >[!NOTE]
 >
