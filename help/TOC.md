@@ -7,9 +7,9 @@ user-guide-description: 'Campaign Standard の使用に必要な主要な機能�
 title: Campaign Standard ガイド
 breadcrumb-title: ヘルプセンター
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: a7a1aa2841410674597264927325c073fef4ce26
 workflow-type: tm+mt
-source-wordcount: '1751'
+source-wordcount: '1754'
 ht-degree: 99%
 
 ---
@@ -46,6 +46,7 @@ ht-degree: 99%
       + [プライバシーの管理](start/using/privacy-management.md)
       + [プライバシーリクエスト](start/using/privacy-requests.md)
       + [プライバシーに関する FAQ](start/using/privacy-faq.md)
+   + [ヘルプとサポートのオプション](support.md)
 + プロファイルとオーディエンス{#profiles-and-audiences}
    + [プロファイルとオーディエンスの概要](audiences/using/get-started-profiles-and-audiences.md)
    + プロファイルの管理{#managing-profiles}
