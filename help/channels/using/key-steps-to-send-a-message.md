@@ -10,31 +10,77 @@ feature: 概要
 role: 開業医
 level: 初心者
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: a7a1aa2841410674597264927325c073fef4ce26
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 91%
+source-wordcount: '372'
+ht-degree: 12%
 
 ---
 
 
 # メッセージを送信するための主要な手順{#key-steps-to-send-a-message}
 
+この節では、Adobe Campaign Standardを使用してターゲットオーディエンスにパーソナライズしたメッセージを作成し、送信する方法を学びます。
+
+各通信チャネルの作成および設定方法に関する具体的な情報は、次のセクションで確認できます。
+
+* [E メールの作成](../../channels/using/creating-an-email.md)
+* [SMSの作成](../../channels/using/creating-an-sms-message.md)
+* [ダイレクトメール配信の作成](../../channels/using/creating-the-direct-mail.md)
+* [プッシュ通知の作成](../../channels/using/preparing-and-sending-a-push-notification.md)。
+* [アプリ内メッセージの準備と送信](../../channels/using/preparing-and-sending-an-in-app-message.md)
+
 配信のベストプラクティスについては、[配信のベストプラクティス](../../sending/using/delivery-best-practices.md)のセクションを参照してください。
 
-メッセージの作成と送信の手順は次のとおりです。
+## メッセージの作成
 
-1. 「**[!UICONTROL Email]**」、「**[!UICONTROL SMS]**」、「**[!UICONTROL direct mail]**」、または「**[!UICONTROL push notification]**」マーケティングアクティビティを作成します。[E メールの作成](../../channels/using/creating-an-email.md)、[SMS の作成](../../channels/using/creating-an-sms-message.md)、[ダイレクトメール配信の作成](../../channels/using/creating-the-direct-mail.md)、[プッシュ通知の作成](../../channels/using/preparing-and-sending-a-push-notification.md)を参照してください。
-1. メッセージのオーディエンスを選択します。[オーディエンスの作成](../../audiences/using/creating-audiences.md)を参照してください。
-1. メッセージのコンテンツとパーソナライゼーション要素を定義します。E メールの場合は[コンテンツエディター](../../designing/using/designing-content-in-adobe-campaign.md)、その他のチャネルの場合は特定のコンテンツを参照します。
-1. 送信の準備を開始して、ターゲット母集団を計算し、メッセージのコンテンツを生成します。[メッセージの承認](../../sending/using/preparing-the-send.md)を参照してください。
+Campaign Standard[マーケティングアクティビティ](../../start/using/marketing-activities.md)を活用して、電子メール、SMS、ダイレクトメール、プッシュ通知、またはアプリ内メッセージを作成します。
 
-   >[!NOTE]
-   >
-   >過剰に配信を受けているプロファイルをキャンペーンから自動的に除外するグローバルなクロスチャネル疲労ルールを設定できます。[疲労ルール](../../sending/using/fatigue-rules.md)を参照してください。
+![](assets/marketing-activities.png)
 
-1. 配達確認の送信[配達確認の送信](../../sending/using/sending-proofs.md)を参照してください。
-1. メッセージを送信して、配信を確認します。[メッセージの送信](../../sending/using/confirming-the-send.md)を参照してください。
-1. 該当する配信レポートを確認します。[レポートへのアクセス](../../reporting/using/about-dynamic-reports.md)を参照してください。
+メッセージは、マーケティングアクティビティリストから、または[専用アクティビティ](../../automating/using/about-channel-activities.md)を使用したワークフローから作成できます。
 
-詳細なメッセージパラメーターについて詳しくは、[チャネルの設定](../../administration/using/about-channel-configuration.md)の節を参照してください。
+![](assets/steps-channel.png)
+
+## オーディエンスの定義
+
+メッセージの受信者を定義します。 これを行うには、左側のペインの[クエリエディター](../../automating/using/editing-queries.md)を使用してデータベースに含まれるデータをフィルタリングし、ルールを構築してオーディエンスをターゲットします。
+
+使用できるオーディエンスにはいくつかの種類があります。
+
+* **[!UICONTROL Target]** は、電子メールのメインターゲットです。
+* **[!UICONTROL Test profiles]** は、電子メールのテストと検証に使用するプロファイルです(テストプロファイルの [管理を参照](../../audiences/using/managing-test-profiles.md))。
+
+![](assets/steps-audience.png)
+
+## コンテンツの設計とパーソナライズ
+
+**[!UICONTROL Content]**&#x200B;ブロックで、データベースのフィールドを使用して、メッセージの内容を設計およびパーソナライズします。 特定のチャネル向けにコンテンツをデザインする方法について詳しくは、このページの上部にあるセクションを参照してください。
+
+![](assets/steps-content.png)
+
+## 準備とテスト
+
+[メッセージ](../../sending/using/preparing-the-send.md) を準備します。このプロセスでは、ターゲットの母集団が計算され、パーソナライズされたメッセージが準備されます。
+
+![](assets/steps-prepare.png)
+
+**メッセージを送信する前に、次のCampaign Standard機能を使用してメッセージを確認し、** テストしてください。プレビュー、電子メールのレンダリング、校正など詳しくは、[こちらの節](../../sending/using/previewing-messages.md)を参照してください。
+
+**[!UICONTROL Schedule]**&#x200B;ブロックを使用して、メッセージを送信するタイミングを定義します（[メッセージのスケジュール](../../sending/using/about-scheduling-messages.md)を参照）。
+
+![](assets/steps-schedule.png)
+
+## 送信と追跡
+
+メッセージの準備が整ったら、送信を確認できます。 **[!UICONTROL Deployment]**&#x200B;ブロックは送信の進行状況と結果を表示します。
+
+![](assets/steps-send.png)
+
+メッセージの配信を監視するのに役立つログがいくつかあります([配信の監視](../../sending/using/monitoring-a-delivery.md)を参照)。 また、Campaign Standardの[追跡機能](../../sending/using/tracking-messages.md)により、配信受信者の動作を追跡することもできます。
+
+![](../../sending/using/assets/tracking_logs.png)
+
+様々な指標やグラフを通して、メッセージの有効性と送信やキャンペーンの発展を測定します（[レポートへのアクセス](../../reporting/using/about-dynamic-reports.md)を参照）。
+
+![](assets/steps-reports.png)
