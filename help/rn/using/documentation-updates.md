@@ -10,9 +10,9 @@ feature: 概要
 role: 開業医
 level: 初心者
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: a632087e69a952ff71b828670a1df19ead3dc2c8
 workflow-type: tm+mt
-source-wordcount: '6620'
+source-wordcount: '6639'
 ht-degree: 99%
 
 ---
@@ -23,6 +23,8 @@ ht-degree: 99%
 このページでは、Adobe Campaign の[リリースノート](../../rn/using/release-notes.md)に加えて、Adobe Campaign Standard のドキュメントの新しいアップデートをすべて紹介します。
 
 ## 2021 年 3 月 {#doc-updates-march-2021}
+
+メッセージ送信の主な手順の一覧を示す節が、追加情報と参照情報と共に強化されました。 [詳細を表示](../../channels/using/key-steps-to-send-a-message.md)
 
 クエリでauオーディエンスを選択する際、定義がコピーされて参照されないことを示す情報が追加されました。 [詳細を表示](../../audiences/using/selecting-an-audience-in-a-message.md)
 
@@ -140,7 +142,7 @@ AI を利用した新しい E メール機能（送信時間の最適化とプ�
 
 コントロールパネルと Campaign ワークフローを使用したデータの[暗号化](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt)および[](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt)復号化の方法に関する使用例が追加されました。
 
-従来のサポート Web サイトへの参照は、新しい URL に置き換えられました。[詳細情報](https://helpx.adobe.com/jp/campaign/kb/ac-support.html#acs-support-req)
+従来のサポート Web サイトへの参照は、新しい URL に置き換えられました。[詳細情報](https://helpx.adobe.com/jp/campaign/kb/ac-support.html)
 
 インボックスレンダリング機能からカスタム Litmus アカウント設定が削除されました。[詳細を表示](../../sending/using/email-rendering.md)
 
