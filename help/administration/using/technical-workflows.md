@@ -10,9 +10,9 @@ feature: インスタンス設定
 role: 管理者
 level: 経験豊富な
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: a7a1aa2841410674597264927325c073fef4ce26
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '658'
 ht-degree: 96%
 
 ---
@@ -77,11 +77,6 @@ ht-degree: 96%
    <td> <span class="uicontrol">KPI と Adobe Analytics との紐付け</span> <br /> </td> 
    <td> <span class="uicontrol">kpiReconciliation</span> <br /> </td> 
    <td> このワークフローは、レポートサービスから KPI を 1 日 1 回取得し、Adobe Analytics のデータと紐付けます。必要に応じて差異がプッシュされます。デフォルトでは、毎週月曜日の午前 4 時にトリガーされます。<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <span class="uicontrol">NMAC オプトアウトの管理</span> <br /> </td> 
-   <td> <span class="uicontrol">mobileAppOptOutMgt</span> <br /> </td> 
-   <td> このワークフローは、モバイルデバイスの通知の購読解除を更新します。デフォルトでは、午前 1 時から午前 0 時の間に、6 時間ごとにトリガーされます。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Message Center のローカルアーカイブ</span> <br /> </td> 
