@@ -13,7 +13,7 @@ translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt
 source-wordcount: '470'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 98%
 
 すべてのリリース日は変更される可能性があります。このページに定期的にアクセスして、アップデートを確認することをお勧めします。
 
-## リリース 21.2 - 5 月のリリース {#release-21-2-release}
+## リリース 21.2 - 5 月リリース {#release-21-2-release}
 
 環境のアップデートは、以下に示す期間に順次おこなわれます。正確な日付は、各顧客に E メールで通知されます。
 
@@ -44,18 +44,18 @@ ht-degree: 98%
  <tbody>
   <tr>
    <td>ステージング<br /> </td>
-   <td>2021年4月19日～20日<br /> </td>
+   <td>2021 年 4 月 19～20 日<br /> </td>
   </tr>
   <tr>
    <td> 本番<br /> </td>
-   <td>2021年4月26日～5月3日<br /> </td>
+   <td>2021 年 4 月 26 日～5 月 3 日<br /> </td>
   </tr>
  </tbody>
 </table>
 
-その他の質問については、[Adobe Client Care ](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html) にお問い合わせください。
+その他の質問については、 [Adobe Client Care](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html) にお問い合わせください。
 
-[Campaign Standard のリリース通知](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU)をご購読いただくと、今後のリリースの詳細が E メールで通知されます。
+[Campaign Standard のリリース通知](http://amc-mkt-prod1-t.adobe-campaign.com/lp/LP25?service=%40rZ5cqp2DgNzrgz0alKPInakNbPSTeJYozZYnS7Wbs802u4GlISkHZX4omtK00nAU6xzZ6luEWQzr7kQ9pkCwJYumWkU)を購読すると、今後のリリースの詳細を直接インボックスに取得できます。
 
 ## 質問と回答 {#questions-and-answers}
 
