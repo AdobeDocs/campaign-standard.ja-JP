@@ -24,11 +24,11 @@ ht-degree: 99%
 
 ## 2021 年 3 月 {#doc-updates-march-2021}
 
-メッセージ送信の主な手順の一覧を示す節が、追加情報と参照情報と共に強化されました。 [詳細を表示](../../channels/using/key-steps-to-send-a-message.md)
+メッセージ送信の主な手順の一覧を示す節が、追加情報と参照情報と共に強化されました。 [詳細情報](../../channels/using/key-steps-to-send-a-message.md)
 
-クエリでauオーディエンスを選択する際、定義がコピーされて参照されないことを示す情報が追加されました。 [詳細を表示](../../audiences/using/selecting-an-audience-in-a-message.md)
+クエリで au オーディエンスを選択するとき、その定義が参照されるのではなくコピーされるように指定するための情報が追加されました。[詳細情報](../../audiences/using/selecting-an-audience-in-a-message.md)
 
-オーディエンス宛先サービスおよびAdobe Experience Platformデータコネクタに関する情報が、新しいセクションに再グループ化されました。 [詳細情報](../../integrating/using/aep-about-audience-destinations-service.md)
+オーディエンス宛先サービスおよび Adobe Experience Platform データコネクタに関する情報が、新しい節に再編成されました。 [詳細情報](../../integrating/using/aep-about-audience-destinations-service.md)
 
 ## リリース 21.1 - 2021 年 2 月 {#release-21-1---february-2021}
 
@@ -48,7 +48,7 @@ E メール、名前（姓）、名前（名）または任意のカスタムフ
 
 **[!UICONTROL Transfer file]** アクティビティを使用した後に利用できる新しい **[!UICONTROL filesCount]** 出力変数に情報が追加されました。 [詳細を表示](../../automating/using/transfer-file.md#output-variables)
 
-**E メールチャネルの設定**&#x200B;の節が更新され、該当する最新の E メール設定が明確になりました。 一部の顧客で引き続き使用されている従来のパラメーターは、このページの下に表示されています。 [詳細を表示](../../administration/using/configuring-email-channel.md)
+**E メールチャネルの設定**&#x200B;の節が更新され、該当する最新の E メール設定が明確になりました。 一部の顧客で引き続き使用されている従来のパラメーターは、このページの下に表示されています。 [詳細情報](../../administration/using/configuring-email-channel.md)
 
 以前実行された 1 つ以上のタスクがまだ保留中の場合、スケジュール済みのワークフローが再スケジュールされないようにする方法に関する情報が追加されました。 [詳細情報](../../automating/using/scheduled-workflows-execution.md)
 
