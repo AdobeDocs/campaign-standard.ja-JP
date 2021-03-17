@@ -271,8 +271,8 @@ ht-degree: 99%
          + [同期ワークフローの管理](integrating/using/d365-acs-self-service-app-workflows.md)
          + [Microsoft Dynamics 365 と Campaign 間のデータのマップ](integrating/using/d365-acs-self-service-app-data-sync.md)
       + [Microsoft Dynamics 365 統合の使用](integrating/using/d365-acs-using-the-integration.md)
-   + キャンペーンとAdobe Experience Platform{#adobe-experience-platform}
-      + オーディエンス宛先サービス{#audience-destinations}
+   + Campaign と Adobe Experience Platform {#adobe-experience-platform}
+      + オーディエンス宛先サービス {#audience-destinations}
          + [Audience Destinations サービスについて](integrating/using/aep-about-audience-destinations-service.md)
          + [Adobe Experience Platform オーディエンスの管理](integrating/using/aep-managing-audiences.md)
          + [セグメントビルダーの使用](integrating/using/aep-using-segment-builder.md)
