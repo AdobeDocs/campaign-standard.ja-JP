@@ -8,13 +8,13 @@ content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
 feature: 配信品質
-role: 開業医
-level: 中級
+role: ビジネス従事者
+level: 中級者
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 58%
+source-wordcount: '310'
+ht-degree: 49%
 
 ---
 
@@ -26,7 +26,6 @@ ht-degree: 58%
 * 配信テンプレートで再試行が適切に設定されていることを確認します（再試行期間が 30 分、再試行回数が 21 回以上）。
 * バウンスメールボックスがアクセス可能で、アカウントの有効期限が近づいていないかを定期的に検証します。
 * 各配信スループットをチェックして、配信コンテンツの有効期限と整合性が取れていることを確認します（例：「フラッシュセール」は数日ではなく、数分で配信される必要があります）。
-* ウェーブを使用する場合、次のものがトリガーされる前に各ウェーブが完了するための十分な時間があることを検証します。
 * エラーの数と新しい強制隔離が他の配信と整合性が取れていることをチェックします。
 * 強調表示されるエラー(ブロックリスト配信ログ、DNSの問題、スパム対策ルールなど)の種類を確認するには、注意深くに問い合わせてください。
 
@@ -56,16 +55,18 @@ ht-degree: 58%
 
 詳しくは、[エラーが発生した場合のアラートの受信](../../sending/using/receiving-alerts-when-failures-happen.md)を参照してください。
 
-## Signal Spam {#signal-spam}
+<!--## External tools (#external-tools)
 
-Signal Spam は、フランスのサービスで、フランスの ISP（Orange、SFR）用の匿名化されたフィードバックループレポートを提供します。
+### Signal Spam {#signal-spam}
 
-このサービスを使用すると、フランスの ISP のレピュテーションをフォローし、顧客のアクティビティの進化をトラッキングできます。
+Signal Spam is a French service which offers anonymized feedback loop reporting for French ISPs (Orange, SFR).
 
-また、Signal Spam は、専用インターフェンスを通じてエンドユーザーが記録した直接の苦情数を提供します。これらの苦情数は、E メールアドレスデータベースから強制隔離されます。
+This service allows you to follow the reputation of the French ISPs and track customers' activity evolution.
 
-## 250ok {#solution-250ok}
+Signal Spam also provides direct complaints that end users log through a dedicated interface. Those complaints are then quarantined from the email address database.
 
-250okは、IPとドメインのブロックリスト、および評価指標を提供する監視ソリューションです。
+### 250ok {#solution-250ok}
 
-提供される情報はリアルタイムで、これにより先を見越した支援が可能です。250ok は、アドビの配信品質の内部ツールを補完するソリューションです。
+250ok is a monitoring solution which provides IP and domain denylists, as well as reputation indicators.
+
+The information provided is real-time, which allows for a pro-active assistance. 250ok a complementary solution to the Adobe deliverability internal tools.-->
