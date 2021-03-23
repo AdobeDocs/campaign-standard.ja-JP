@@ -8,13 +8,13 @@ topic-tags: deliveries-best-practices
 index: y
 description: 送信プロセスをアップストリームで保護し、最適化する方法を学びます。
 feature: 配信品質
-role: 開業医
-level: 中級
+role: ビジネス従事者
+level: 中級者
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt
-source-wordcount: '746'
-ht-degree: 82%
+source-wordcount: '754'
+ht-degree: 81%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 82%
 
    * E メールの配信品質を確認するときは、データ品質、メッセージとコンテンツ、送信インフラストラクチャ、レピュテーションという 4 つの主要カテゴリを中心に調べます。このトピックについて詳しくは、[この節](../../sending/using/about-deliverability.md)を参照してください。
 
-* 新しいプラットフォームを開始する際に、[詳細を説明したレコメンデーションをこのページ](../../sending/using/starting-new-platform.md)に適用します。
+* 新しいプラットフォームを開始する際に、[このページ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html#transition-process)に詳しく記載されたレコメンデーションを適用します。
 
 * サポートが必要な場合は、アドビ担当者にお問い合わせください。
 
