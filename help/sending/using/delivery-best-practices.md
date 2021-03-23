@@ -8,13 +8,13 @@ topic-tags: deliveries-best-practices
 index: y
 description: Adobe Campaign を使用した配信のデザインと送信に関するベストプラクティスについて説明します。
 feature: 配信品質
-role: 開業医
-level: 中級
+role: ビジネス従事者
+level: 中級者
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt
 source-wordcount: '99'
-ht-degree: 47%
+ht-degree: 49%
 
 ---
 
@@ -33,7 +33,7 @@ Adobe Campaign を使用した配信のデザインと送信に関するベス�
 
 <img src="assets/do-not-localize/custom.svg"  width="60px">
 
-**[コンテンツのパーソナライズ](optimize-delivery.md)**  — 正しい設定の適用
+**[コンテンツのパーソナライズ](design-and-personalize.md)**  — 正しい設定の適用
 
 <img src="assets/do-not-localize/profiles.svg"  width="60px">
 
@@ -51,6 +51,6 @@ Adobe Campaign を使用した配信のデザインと送信に関するベス�
 
 * [配信品質を使い始める](../../sending/using/about-deliverability.md)
 
-* [メッセージの概要](../../channels/using/get-started-communication-channels.md)
+* [メッセージの基本を学ぶ](../../channels/using/get-started-communication-channels.md)
 
 * [プライバシーと同意の推奨事項](../../start/using/privacy.md)
