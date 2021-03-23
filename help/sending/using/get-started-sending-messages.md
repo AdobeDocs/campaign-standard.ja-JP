@@ -6,12 +6,12 @@ description: メッセージの準備、テスト、スケジュール、送信�
 audience: sending
 content-type: reference
 topic-tags: about-sending-messages-with-campaign
-role: 開業医
-level: 中級
+role: ビジネス従事者
+level: 中級者
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '598'
 ht-degree: 15%
 
 ---
@@ -86,8 +86,7 @@ Campaign Standardは、配信に成功したメッセージの数を改善する
 
 * [配信品質について](../../sending/using/about-deliverability.md)
 * [配信品質の監視](../../sending/using/monitor-deliverability.md)
-* [評価の向上](../../sending/using/improving-reputation.md)
-* [技術的な推奨事項](../../sending/using/technical-recommendations.md)
+* [Adobe配信品質ベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html)
 * [配信スループットの制御](../../reporting/using/delivery-throughput.md)
 
 ## その他のリソース
