@@ -7,13 +7,13 @@ audience: sending
 content-type: reference
 topic-tags: monitoring-messages
 feature: 配信品質
-role: 開業医
-level: 中級
+role: ビジネス従事者
+level: 中級者
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt
-source-wordcount: '1260'
-ht-degree: 76%
+source-wordcount: '1310'
+ht-degree: 73%
 
 ---
 
@@ -38,6 +38,7 @@ ht-degree: 76%
 
 * [強制隔離管理の理解](../../sending/using/understanding-quarantine-management.md)
 * [Campaign のオプトインとオプトアウトについて](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+* [バウンス](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)
 
 ## メッセージの配信エラーの識別 {#identifying-delivery-failures-for-a-message}
 
@@ -75,6 +76,11 @@ ht-degree: 76%
 | **[!UICONTROL Text too long]** | 無視 | SMSメッセージの文字数が制限を超えています。 詳しくは、[SMS のエンコーディング、長さ、表記変換](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration)を参照してください。 |
 | **[!UICONTROL Character not supported by encoding]** | 無視 | SMSメッセージに、エンコードでサポートされていない1つ以上の文字が含まれています。 詳しくは、[文字の一覧 - GSM 標準](../../administration/using/configuring-sms-channel.md#table-of-characters---gsm-standard)を参照してください。 |
 
+
+**関連トピック：**
+* [ハードバウンス](https://experienceleague.corp.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#hard-bounces)
+* [ソフトバウンス](https://experienceleague.corp.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#soft-bounces)
+
 ## 一時的な配信エラーの後の再試行 {#retries-after-a-delivery-temporary-failure}
 
 「**無視**」のタイプの一時的エラーが原因でメッセージ送信が失敗した場合は、配信期間中に再試行がおこなわれます。エラーのタイプについて詳しくは、[配信エラーのタイプと理由](#delivery-failure-types-and-reasons)を参照してください。
@@ -91,13 +97,12 @@ ht-degree: 76%
 
 例えば、配信の再試行を1日後に停止する場合、配信期間を&#x200B;**1d**&#x200B;に設定すると、再試行キュー内のメッセージは1日後に削除されます。
 
-<!--For example, if you want retries for a delivery to stop after one day, you can set the delivery duration to **1d**, and the Enhanced MTA will honor that setting by removing messages in the retry queue after one day.-->
-
 >[!NOTE]
 >
 >メッセージが最大3.5日間再試行キューに入り、配信に失敗した場合は、タイムアウトになり、[配信ログ](../../sending/using/monitoring-a-delivery.md#delivery-logs)の<!--from **[!UICONTROL Sent]**-->から&#x200B;**[!UICONTROL Failed]**&#x200B;にステータスが更新されます。
 
-<!--The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../administration/using/configuring-email-channel.md#sending-parameters)).-->
+<!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
+The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../administration/using/configuring-email-channel.md#sending-parameters)).-->
 
 ## 同期エラーと非同期エラー {#synchronous-and-asynchronous-errors}
 
@@ -114,9 +119,13 @@ ht-degree: 76%
 >
 >Campaign の&#x200B;**[!UICONTROL Message qualification]**&#x200B;テーブルでのバウンスの選定は使用されなくなりました。
 
-非同期バウンスは、引き続き「**[!UICONTROL Inbound email]**」ルールを通じて、inMail プロセスで選定されます。これらのルールにアクセスするには、左上の **[!UICONTROL Adobe Campaign]** ロゴをクリックしてから、**[!UICONTROL Administration > Channels > Email > Email processing rules]**&#x200B;を選択し、「**[!UICONTROL Bounce mails]**」を選択します。このルールについて詳しくは、[この節](../../administration/using/configuring-email-channel.md#email-processing-rules)を参照してください。
+非同期バウンスは、引き続き「**[!UICONTROL Inbound email]**」ルールを通じて、inMail プロセスで選定されます。これらのルールにアクセスするには、左上の **[!UICONTROL Adobe Campaign]** ロゴをクリックしてから、**[!UICONTROL Administration > Channels > Email > Email processing rules]**&#x200B;を選択し、「**[!UICONTROL Bounce mails]**」を選択します。このルールについて詳しくは、[このセクション](../../administration/using/configuring-email-channel.md#email-processing-rules)を参照してください。
 
-<!--Bounces can have the following qualification statuses:
+バウンスとバウンスの種類について詳しくは、[このセクション](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)を参照してください。
+
+<!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
+
+Bounces can have the following qualification statuses:
 
 * **[!UICONTROL To qualify]**: the bounce mail needs to be qualified. Qualification must be done by the Deliverability team to ensure that the platform deliverability functions correctly. As long as it is not qualified, the bounce mail is not used to enrich the list of email processing rules.
 * **[!UICONTROL Keep]**: the bounce mail was qualified and will be used by the **Update for deliverability** workflow to be compared to existing email processing rules and enrich the list.
