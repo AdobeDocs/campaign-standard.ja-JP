@@ -7,9 +7,9 @@ user-guide-description: 'Campaign Standard の使用に必要な主要な機能�
 title: Campaign Standard ガイド
 breadcrumb-title: ヘルプセンター
 translation-type: tm+mt
-source-git-commit: a7a1aa2841410674597264927325c073fef4ce26
+source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt
-source-wordcount: '1754'
+source-wordcount: '1743'
 ht-degree: 99%
 
 ---
@@ -182,11 +182,7 @@ ht-degree: 99%
       + [強制隔離管理の理解](sending/using/understanding-quarantine-management.md)
    + 配信品質の管理 {#managing-deliverability}
       + [配信品質について](sending/using/about-deliverability.md)
-      + [新しいプラットフォームの開始](sending/using/starting-new-platform.md)
       + [E メールコンテンツの制御](sending/using/control-email-content.md)
-      + [評価の向上](sending/using/improving-reputation.md)
-      + [IP 証明書](sending/using/ip-certification.md)
-      + [技術的な推奨事項](sending/using/technical-recommendations.md)
       + [配信品質の監視](sending/using/monitor-deliverability.md)
       + [トラブルシューティング](sending/using/troubleshooting.md)
    + タイポロジルールの使用{#working-with-typology-rules}
