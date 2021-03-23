@@ -8,12 +8,12 @@ content-type: reference
 topic-tags: troubleshooting
 feature: レポート
 role: リーダー
-level: 中級
+level: 中級者
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: d32bc25fe4e74605ac5cb78c162e242f790bdad5
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 5%
+source-wordcount: '670'
+ht-degree: 6%
 
 ---
 
@@ -65,21 +65,27 @@ P1では、最初の日に2回電子メールを開き、2日目には2回目に
 <table> 
  <thead> 
   <tr> 
-   <th align="center"> <strong>日</strong> <br /> </th> 
+   <th align="center"> <strong></strong> <br /> </th> 
    <th align="center"> <strong>開封数</strong> <br /> </th> 
    <th align="center"> <strong>個別オープン</strong> <br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
+   <td align="center"> <strong> Day </strong><br /> </td> 
+   <td align="center"> <strong> 6  </strong><br /> </td> 
+   <td align="center"> <strong> 2</strong><br /> </td>
+  </tr> 
+  <tr>
+  <tr> 
    <td align="center"> 1日目<br /> </td> 
-   <td align="center"> 6<br /> </td> 
+   <td align="center"> 3<br /> </td> 
    <td align="center"> 2<br /> </td>
   </tr> 
   <tr> 
    <td align="center"> 2日目<br /> </td> 
    <td align="center"> 3<br /> </td> 
-   <td align="center"> 2<br /> </td> 
+   <td align="center"> 1<br /> </td> 
   </tr> 
  </tbody> 
 </table>
