@@ -7,18 +7,18 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 feature: 概要
-role: 開業医
+role: ビジネス従事者
 level: 初心者
 translation-type: tm+mt
-source-git-commit: a632087e69a952ff71b828670a1df19ead3dc2c8
+source-git-commit: dd71d843436220c0313d08d76c17633306301456
 workflow-type: tm+mt
-source-wordcount: '6639'
-ht-degree: 99%
+source-wordcount: '6736'
+ht-degree: 98%
 
 ---
 
 
-# ドキュメントのアップデート{#documentation-updates}
+# ドキュメントの更新{#documentation-updates}
 
 このページでは、Adobe Campaign の[リリースノート](../../rn/using/release-notes.md)に加えて、Adobe Campaign Standard のドキュメントの新しいアップデートをすべて紹介します。
 
@@ -29,6 +29,12 @@ ht-degree: 99%
 クエリで au オーディエンスを選択するとき、その定義が参照されるのではなくコピーされるように指定するための情報が追加されました。[詳細情報](../../audiences/using/selecting-an-audience-in-a-message.md)
 
 オーディエンス宛先サービスおよび Adobe Experience Platform データコネクタに関する情報が、新しい節に再編成されました。 [詳細情報](../../integrating/using/aep-about-audience-destinations-service.md)
+
+**宣言済み** IDデータソースをPeopleコアサービス統合でも使用できるようになりました。キャンペーンAudience ManagerまたはPeopleコアサービス統合ドキュメントに情報が追加されました。 [詳細情報](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
+
+モバイルアプリケーション用にローカルトラッキングを導入する方法に関する情報が追加されました。 [詳細情報](../../administration/using/local-tracking.md)
+
+「[配信品質](../../sending/using/about-deliverability.md)」セクションが更新され、新しい「[Adobe配信品質のベストプラクティスガイド](https://experienceleague.corp.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html)」へのリンクが追加されました。 様々なAdobeソリューションに適用できる配信品質に関する一般的な情報はすべて、[ベストプラクティスガイド付録](https://experienceleague.corp.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html#additional-resources)に移動されました。
 
 ## リリース 21.1 - 2021 年 2 月 {#release-21-1---february-2021}
 
@@ -274,7 +280,7 @@ Campaign のユーザーインターフェイスからランディングペー�
 
 ## 2020 年 1 月{#doc-updates-january-2020}
 
-配信品質に関するドキュメントが更新され、IP 証明書に関する新しい節が追加されました。[詳細を表示](../../sending/using/ip-certification.md)
+配信品質に関するドキュメントが更新され、IP 証明書に関する新しい節が追加されました。<!--[Read more](../../sending/using/ip-certification.md)-->
 
 クロスチャネル配信ワークフローの作成方法を説明する新しい節が追加されました。[詳細を表示](../../automating/using/workflow-cross-channel-delivery.md)
 
