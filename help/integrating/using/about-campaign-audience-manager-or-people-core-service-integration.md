@@ -8,12 +8,12 @@ content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 feature: トリガー
 role: Data Architect
-level: 中級
+level: 中級者
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: a6272db76fbfca7b9ebcc3734368f7c032b234af
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 27%
+source-wordcount: '522'
+ht-degree: 25%
 
 ---
 
@@ -41,9 +41,12 @@ Adobe Campaignを使用すると、オーディエンス/セグメントを別�
 * **宣言済みID**:この種のIDを使用すると、任意の種類のデータをAdobe Campaignデータベースの要素と紐付けできます。Adobe Campaign では、事前定義された紐付けキーとして示されます。データを交換する場合、Adobe Campaign データベースの識別子はハッシュ化されます。これらのハッシュ化された ID は、インポートまたはエクスポートに含まれる Adobe Marketing Cloud オーディエンスのハッシュ化された ID と比較されます。
    <br>この統合では、正規の宣言ID、ハッシュ化された宣言ID、暗号化された宣言IDをサポートします。
 
-   >[!CAUTION]
+   >[!NOTE]
    >
-   >宣言済みIDはAdobe Audience Managerでのみ機能します。 宣言済みIDがないと機能しません。
+   >宣言済みIDデータソースをPeopleコアサービス統合でも使用できるようになりました。
+   >
+   >Peopleコアサービス統合を使用していて、Audience Manager統合を追加する場合は、Adobe Audience Managerコンテキストでこの宣言済みIDデータソースに移行する際に収集されたID同期をすべて失わないように、Adobe Audience Managerコンサルタントの支援が必要です。
+
 
    暗号化を使用すると、暗号化アルゴリズムを指定して、宣言済みIDを使用して、データソース（PIIなど）の暗号化されたデータを共有できます。
 
