@@ -5,13 +5,13 @@ product: campaign
 title: Adobe Campaign Standard 製品ドキュメント
 description: Campaign Standard 製品ドキュメントの参照
 feature: 概要
-role: 開業医
+role: ビジネス従事者
 level: 初心者
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: e9de904801c0cf49c1dad415a30e75e9b49e4b1d
 workflow-type: tm+mt
 source-wordcount: '242'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 98%
 
 ## トップページ
 
-<table>
+<table style="table-layout:fixed">
 <tr>
   <td valign="top">
     <a href="administration/using/about-access-management.md">
