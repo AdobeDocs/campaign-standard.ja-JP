@@ -11,10 +11,10 @@ feature: ヘルプとサポートのオプション
 role: ビジネス従事者
 level: 初心者
 translation-type: tm+mt
-source-git-commit: 9cb375656d57f6ff19ff24b72ccbf83dee54b6a1
+source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
 workflow-type: tm+mt
-source-wordcount: '568'
-ht-degree: 64%
+source-wordcount: '593'
+ht-degree: 61%
 
 ---
 
@@ -90,9 +90,13 @@ FAQ、ベストプラクティス、オンラインリソース、サポート�
 
 コントロールパネルを使用すると、各インスタンスの設定を管理したり使用状況をトラッキングしたりできるので、Campaign Standard の製品管理者としての作業の効率を向上できます。[詳しくは、ここをクリックしてください。](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=en#discover-control-panel)
 
+>[!NOTE]
+>
+>Campaign コントロールパネルは、すべての管理者ユーザーがアクセスできます。 ユーザーに管理者アクセスを許可する手順については、[このページ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel)を参照してください。
+
 ### コントロールパネルへのアクセス方法
 
- コントロールパネルは、Adobe Experience Cloud から直接利用できます。アクセスできるのは、管理者ユーザーのみです。[詳しくは、ここをクリックしてください。](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=en#discover-control-panel)
+ コントロールパネルは、Adobe Experience Cloud から直接利用できます。[詳しくは、ここをクリックしてください。](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=en#discover-control-panel)
 
 ### コントロールパネルのよくある質問
 
