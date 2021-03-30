@@ -10,13 +10,13 @@ content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
 feature: プライバシー
-role: 開業医
-level: 中級
-translation-type: tm+mt
+role: ビジネス従事者
+level: 中級者
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1483'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -131,7 +131,7 @@ Adobe Campaign は、特定のプライバシーリクエストに対するデ�
 
 >[!NOTE]
 >
->GDPR、CCPA、PDPA のプライバシーコンプライアンスに役立つツール群を紹介します。これらの様々な規則について詳しくは、[このページ](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)を参照してください。
+>GDPR、CCPA、PDPA のプライバシーコンプライアンスに役立つツール群を紹介します。これらの様々な規則について詳しくは、[このページ](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy-overview.html#whatisgdpr)を参照してください。
 
 <!--* **GDPR** (General Data Protection Regulation) is the European Union’s (EU) privacy law that harmonizes and modernizes data protection requirements. GDPR applies to Adobe Campaign customers who hold data for Data Subjects residing in the EU.
 
