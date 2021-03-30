@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 feature: 概要
-role: 開業医
+role: ビジネス従事者
 level: 初心者
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: 274a9db2061f78dae9e31790629485d0411d83fb
 workflow-type: tm+mt
 source-wordcount: '4631'
 ht-degree: 7%
@@ -44,7 +44,7 @@ Adobe Campaign Standardの最新[ドキュメントの更新](../../rn/using/doc
   </tr> 
   <tr> 
    <td> コンテンツの作成：URL<br />からのインポート </td> 
-   <td> URLから読み込むと、クリエイティブなコンテンツをWebサイトからすばやく取得して、あらゆる配信向けの電子メールを作成できます。 さらに、サードパーティがURLを使用して直接コンテンツを共有できるようにすることで、クリエイティブプロセスを合理化できます。 読み込んだコンテンツは、1つの配信の一部として、またはテンプレートレベルで柔軟に使用でき、ワークフローベースのキャンペーンでもトランザクションメッセージベースのテストでも、A/Bテストや多変量テストでも、すべての関連のブランドの一貫性を確保できます。 「URLから読み込み」は、すべてのリンクを自動的に変換および追跡し、動的なレポートを使用して電子メールのパフォーマンスを監視します。<br /> 詳しくは、 <a href="../../designing/using/using-existing-content.md#importing-content-from-a-url">詳細なドキュメントを参照してください</a>。<br /> </td> 
+   <td> URLから読み込むと、クリエイティブなコンテンツをWebサイトからすばやく取得して、あらゆる配信向けの電子メールを作成できます。 さらに、サードパーティがURLを使用して直接コンテンツを共有できるようにすることで、クリエイティブプロセスを合理化できます。 読み込んだコンテンツは、1つの配信の一部として、またはテンプレートレベルで柔軟に使用でき、ワークフローベースのキャンペーンでもトランザクションメッセージベースのテストでも、A/Bテストや多変量テストでも、すべての関連のブランドの一貫性を確保できます。 「URLから読み込み」は、すべてのリンクを自動的に変換および追跡し、動的なレポートを使用して電子メールのパフォーマンスを監視します。<br /> 詳しくは、 <a href="../../designing/using/using-existing-content.md">詳細なドキュメントを参照してください</a>。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
