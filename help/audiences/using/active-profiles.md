@@ -7,13 +7,13 @@ audience: audiences
 content-type: reference
 topic-tags: managing-profiles
 feature: プロファイル
-role: 開業医
-level: 中級
+role: ビジネス従事者
+level: 中級者
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 12%
+source-wordcount: '310'
+ht-degree: 13%
 
 ---
 
@@ -26,10 +26,9 @@ Adobe Campaignは、アクティブなプロファイルの数を表示するレ
 
 >[!NOTE]
 >
->AWSでホストし、ビルド10368のCampaign Standardを使用している場合は、インスタンスで使用されるアクティブなプロファイルの数をCampaign コントロールパネルから直接監視することもできます。 詳しくは、[コントロールパネルのドキュメント](https://docs.adobe.com/content/help/ja-JP/control-panel/using/performance-monitoring/active-profiles-monitoring.html)を参照してください。
+>ビルド10368のCampaign Standardを使用している場合は、インスタンスで使用されるアクティブなプロファイルの数をCampaign コントロールパネルから直接監視することもできます。 詳しくは、[コントロールパネルのドキュメント](https://docs.adobe.com/content/help/ja-JP/control-panel/using/performance-monitoring/active-profiles-monitoring.html)を参照してください。
 >
 >アクティブなプロファイル指標は使用可能で、**マーケティングインスタンス**&#x200B;にのみ関連します。 MID（ミッドソーシング）およびRT(Message Center/Real-time messaging)インスタンスを意味する、実行インスタンスには適用されず、使用できません。
-
 
 配信の準備中に除外されたプロファイル(タイポロジルール、強制隔離、コントロール母集団)は考慮されません。 プロファイルは、複数の配信のターゲットになっていても一度しかカウントされません。レポートの下部には、各ターゲティングディメンションのアクティブなプロファイルのリストが表示されます。
 
