@@ -1,29 +1,29 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 'Campaign Standardのヘルプとサポートのオプション '
-description: Campaign Standardのサポートが必要ですか？ こちらから確認してください。
+title: 'Campaign Standard のヘルプおよびサポートオプション '
+description: Campaign Standard のサポートが必要ですか？正しい場所にいます。
 audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 hidefromtoc: true
-feature: ヘルプとサポートのオプション
+feature: ヘルプとサポートオプション
 role: ビジネス従事者
 level: 初心者
 translation-type: tm+mt
 source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
 workflow-type: tm+mt
 source-wordcount: '593'
-ht-degree: 61%
+ht-degree: 91%
 
 ---
 
 
-# Campaign Standard{#help-support-options}のヘルプとサポートのオプション
+# Campaign Standard のヘルプおよびサポートオプション {#help-support-options}
 
-Campaign Standardのサポートが必要ですか？ こちらから確認してください。
+Campaign Standard のサポートが必要ですか？正しい場所にいます。
 
-FAQ、ベストプラクティス、オンラインリソース、サポートポータルなどのサポートを利用できます。また、キャンペーンコミュニティに参加したり、専門家に質問したり、問題を記録したりすることもできます。
+FAQ、ベストプラクティス、オンラインリソース、サポートポータルなどのサポートを利用できます。Campaign コミュニティに参加したり、エキスパートに質問したり、問題を記録したりすることもできます。
 
 <table>
     <tr>
@@ -38,18 +38,18 @@ FAQ、ベストプラクティス、オンラインリソース、サポート�
 <img src="start/using/assets/do-not-localize/icon-faq.svg" width="60px">
 
 <table>
-    <tr><td><strong>トピックQ&amp;A</strong></td><td><strong>一般的な問題</strong></td><td><strong>ベストプラクティス</strong></td><td><strong>ハウツー</strong></td></tr>
+    <tr><td><strong>トピック Q＆A</strong></td><td><strong>一般的な問題</strong></td><td><strong>ベストプラクティス</strong></td><td><strong>ハウツー</strong></td></tr>
     <tr>
     <td valign="top">
         <ul>
         <li><a href="sending/using/monitor-deliverability.md">配信品質</a></li>
-        <li><a href="administration/using/aep-faq.md">InAppおよびプッシュ通知</a></li>
-        <li><a href="designing/using/faq-email-designer.md">Email Designer </a></li>
+        <li><a href="administration/using/aep-faq.md">アプリ内通知とプッシュ通知</a></li>
+        <li><a href="designing/using/faq-email-designer.md">E メールデザイナー</a></li>
         </ul>
     </td>
     <td valign="top">
         <ul>
-        <li><a href="automating/using/monitoring-workflow-execution.md#error-management">ワークフローでのエラー管理</a></li>
+        <li><a href="automating/using/monitoring-workflow-execution.md#error-management">ワークフローのエラー管理</a></li>
         <li><a href="automating/using/best-practices-workflows.md">ワークフロー実行のトラブルシューティング</a></li>
         <li><a href="api/using/troubleshooting.md">APIのトラブルシューティング</a></li>
         <li><a href="sending/using/understanding-delivery-failures.md">配信障害の把握</a></li>
@@ -58,7 +58,7 @@ FAQ、ベストプラクティス、オンラインリソース、サポート�
    <td valign="top">
         <ul>
         <li><a href="automating/using/best-practices-workflows.md">ワークフローのベストプラクティス</a></li>
-        <li><a href="automating/using/about-workflow-execution.md">ワークフロー監視</a></li>
+        <li><a href="automating/using/about-workflow-execution.md">ワークフローの監視</a></li>
         <li><a href="sending/using/tracking-messages.md">トラッキング管理の理解</a></li>
         <li><a href="sending/using/about-deliverability.md">配信品質のベストプラクティス</a></li>
         <li><a href="automating/using/creating-import-workflow-templates.md">ワークフローを使用したデータのインポート</a></li>
@@ -70,10 +70,10 @@ FAQ、ベストプラクティス、オンラインリソース、サポート�
     </td>
     <td valign="top">
         <ul>
-        <li><a href="rn/using/release-planning.md">新しいバージョンにアップグレードする</a></li>
+        <li><a href="rn/using/release-planning.md">新しいバージョンへのアップグレード</a></li>
         <li><a href="sending/using/monitoring-a-delivery.md">配信の監視</a></li>
         <li><a href="sending/using/understanding-quarantine-management.md">強制隔離管理について</a></li>
-        <li><a href="start/using/privacy-management.md">プライバシーと同意の管理</a></li>
+        <li><a href="start/using/privacy-management.md">プライバシーと同意管理</a></li>
         <li><a href="automating/using/query.md">クエリのデザイン</a></li>
         <li><a href="automating/using/query-samples.md">クエリサンプル</a></li>
         <li><a href="https://helpx.adobe.com/campaiacs-mobile.html">モバイルチャネルの設定</a></li>
@@ -88,7 +88,8 @@ FAQ、ベストプラクティス、オンラインリソース、サポート�
 
 ### コントロールパネルとは
 
-コントロールパネルを使用すると、各インスタンスの設定を管理したり使用状況をトラッキングしたりできるので、Campaign Standard の製品管理者としての作業の効率を向上できます。[詳しくは、ここをクリックしてください。](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=en#discover-control-panel)
+コントロールパネルを使用すると、各インスタンスの設定を管理し、使用状況をトラッキングできるので、Campaign Standard の製品管理者としての作業の効率を高めるのに役立ちます。
+詳しくは、[ここをクリックしてください。](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja#discover-control-panel)
 
 >[!NOTE]
 >
@@ -96,29 +97,29 @@ FAQ、ベストプラクティス、オンラインリソース、サポート�
 
 ### コントロールパネルへのアクセス方法
 
- コントロールパネルは、Adobe Experience Cloud から直接利用できます。[詳しくは、ここをクリックしてください。](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=en#discover-control-panel)
+ コントロールパネルは、Adobe Experience Cloud から直接利用できます。詳しくは、[ここをクリックしてください。](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=en#discover-control-panel)
 
 ### コントロールパネルのよくある質問
 
-[ここをクリック](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=en) して、キャンペーンCampaign コントロールパネルに関するFAQにアクセスします。
+Campaign Control Panel の FAQ にアクセスするには、[ここをクリックしてください](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=ja)。
 
 ### SFTP 管理
 
-コントロールパネルでは、アクセス権のある Campaign インスタンスに接続されているすべての SFTP サーバーを操作できます。ストレージ容量を監視したり、許可リストの IP アドレスや SSH 公開鍵を管理できます。[詳しくは、ここをクリックしてください。](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=en#sftp-management)
+コントロールパネルでは、アクセス権のある Campaign インスタンスに接続されているすべての SFTP サーバーを操作できます。ストレージ容量を監視し、許可リストのIPアドレス、および公開 SSH キーを管理できます。詳しくは、[ここをクリックしてください。](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=ja#sftp-management)
 
 ### サブドメインおよび証明書
 
 サブドメインとその証明書を監視できます。 詳細情報:
 
-* [サブドメインのブランディング](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=en#subdomains-and-certificates)
-* [新しいサブドメインの設定](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=en#subdomains-and-certificates)
-* [SSL証明書の監視](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html?lang=en#subdomains-and-certificates)
+* [サブドメインのブランディング](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=ja#subdomains-and-certificates)
+* [新しいサブドメインの設定](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=ja#subdomains-and-certificates)
+* [SSL 証明書の監視](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html?lang=ja#subdomains-and-certificates)
 
 ## ヘルプのリクエスト
 
 <img src="start/using/assets/do-not-localize/icon-support.svg" width="60px">
 
-新しい発券システムは[Adobe Admin Console](https://adminconsole.adobe.com/overview)を通って来た。 新しいシステムでは、各ユーザーに対して、正しい権限を持つ新しい個別のアカウントが必要です。Adobe ID を使用してログインできない場合は、Experience League 経由でのアクセスをリクエストすると、可能な限り迅速にカスタマーケアチームによって設定されます。[詳細情報](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
+新しい発券システムは[Adobe Admin Console](https://adminconsole.adobe.com/overview)を通って来た。 新しいシステムでは、ユーザーごとに、正しい権限を持つ新しい個別のアカウントが必要です。Adobe ID を使用してログインできない場合は、Experience League 経由でアクセスをリクエストしてください。カスタマーケアチームが、できるだけ早くセットアップをおこないます。[詳細情報](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
 
 ### エキスパートへの質問
 
@@ -128,6 +129,6 @@ Campaign Classic コミュニティに参加：既存の質問の回答を検索
 
 ケースを作成すると、アドビ製品に関する問題についてアドビカスタマーサポートチームに問い合わせることができます。問題の解決やトラブルシューティングをサポートできるよう、Adobe Admin Console を使用してアドビカスタマーサポートとチャットできるようになります。
 
-新しいシステムで雑誌号や開始を記録するには、[Adobe Admin Console](https://adminconsole.adobe.com/overview)に接続します。
+新しいシステムで問題を記録したりチャットセッションを開始したりするには、 [Adobe Admin Console](https://adminconsole.adobe.com/overview)に接続します。
 
-[このページ](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)で説明されている詳細な手順に従ってください。
+[このページ](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)で説明する詳細な手順に従います。
