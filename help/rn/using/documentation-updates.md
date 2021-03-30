@@ -20,13 +20,13 @@ ht-degree: 98%
 
 # ドキュメントの更新{#documentation-updates}
 
-このページでは、Adobe Campaign の[リリースノート](../../rn/using/release-notes.md)に加えて、Adobe Campaign Standard のドキュメントの新しいアップデートをすべて紹介します。
+このページでは、Adobe Campaign の [リリースノート](../../rn/using/release-notes.md)に加えて、Adobe Campaign Standard のドキュメントの新規更新をすべて紹介します。
 
 ## 2021 年 3 月 {#doc-updates-march-2021}
 
 Campaign Standard用の「ヘルプとサポートのオプション」ページが、コアドキュメントに統合されました。 [詳細情報](../../support.md)
 
-メッセージ送信の主な手順の一覧を示す節が、追加情報と参照情報と共に強化されました。 [詳細情報](../../channels/using/key-steps-to-send-a-message.md)
+メッセージを送信するための主要な手順をリストするセクションは、追加情報と参照で強化されました。[詳細情報](../../channels/using/key-steps-to-send-a-message.md)
 
 クエリで au オーディエンスを選択するとき、その定義が参照されるのではなくコピーされるように指定するための情報が追加されました。[詳細情報](../../audiences/using/selecting-an-audience-in-a-message.md)
 
@@ -450,7 +450,7 @@ E メールデザイナーの推奨されるアップデートに関する新し
 
 Adobe Campaign から直接利用できるコンテキストヘルプリンクが更新されました。
 
-次の[ページは](https://docs.adobe.com/content/help/ja-JP/campaign-standard-learn/tutorials/overview.translate.html) Adobe Campaign Standard の公式ビデオページになります。
+次の[ページは](https://docs.adobe.com/content/help/ja-JP/campaign-standard-learn/tutorials/overview.html) Adobe Campaign Standard の公式ビデオページになります。
 
 標準テーブルのデフォルトの保持率など、データ保持に関する節を追加しました。[詳細を表示](../../administration/using/data-retention.md)
 
@@ -530,9 +530,9 @@ E メールデザイナーが Internet Explorer 11 をサポートしていな�
 
 カスタムリソースをリンクする方法に関する情報を追加しました。[詳細を表示](../../developing/using/configuring-the-resource-s-data-structure.md#defining-links-with-other-resources)
 
-Adobe Campaign Standard のプッシュ通知から画像を表示する方法に関する新しいテクニカルノートが追加されました。[詳細を表示](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/communication-channels/push-notifications/image-push-notification.translate.html)
+Adobe Campaign Standard のプッシュ通知から画像を表示する方法に関する新しいテクニカルノートが追加されました。[詳細を表示](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/communication-channels/push-notifications/image-push-notification.html)
 
-プッシュトラッキングの実装に関する新しいテクニカルノートが追加されました。[詳細を表示](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/communication-channels/push-notifications/push-tracking.translate.html)
+プッシュトラッキングの実装に関する新しいテクニカルノートが追加されました。[詳細を表示](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/communication-channels/push-notifications/push-tracking.html)
 
  Standard および Campaign Classic のエラーメッセージのリストが更新されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
@@ -586,7 +586,7 @@ Microsoft Edge（最新バージョン）が、コンピューター用の互換
 
 「ファイルの抽出」アクティビティの新しいオプションに関する情報が追加されました。このオプションは、受信トランジションが空の場合に、ファイルが生成されないようにします。[詳細を表示](../../automating/using/extract-file.md)
 
-SDK V4 を使用したモバイルアプリケーションの設定の節は、[ここ](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/administrating/configuring-channels/configuring-a-mobile-application.translate.html)に移動しました。
+SDK V4 を使用したモバイルアプリケーションの設定の節は、[ここ](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/administrating/configuring-channels/configuring-a-mobile-application.html)に移動しました。
 
 Adobe Experience Platform SDK を使用したモバイルアプリケーションの設定の節は、[ここ](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)に移動しました。
 
@@ -708,7 +708,7 @@ GDPR API は、GDPR リクエストの自動処理を可能にする機能を再
 
 [トランザクションメッセージの設定](../../channels/using/configuring-transactional-event.md)の節の構成が変更され、[ステップバイステップの使用例](../../channels/using/transactional-messaging-use-case.md)が追加されました。
 
-プッシュ通知に使用する多言語の CSV ファイルを生成する方法を説明するテクニカルノートが追加されました。[詳細を表示](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/communication-channels/push-notifications/generating-csv-multilingual-push.translate.html)
+プッシュ通知に使用する多言語の CSV ファイルを生成する方法を説明するテクニカルノートが追加されました。[詳細を表示](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/communication-channels/push-notifications/generating-csv-multilingual-push.html)
 
 **ダイレクトメール用の強制隔離と配信ログの更新**&#x200B;インポートテンプレートに関する情報を追加しました。[詳細を表示](../../automating/using/importing-data-with-import-templates.md#setting-up-import-templates)
 
@@ -732,7 +732,7 @@ Campaign Standard の製品内コンテキストヘルプを更新しました�
 
 Campaign とアドビソリューションの統合のほとんどの URL が変更されました。ブックマークを確認してください。[詳細を表示](../../integrating/using/get-started-campaign-integrations.md)
 
-データモデル v1 を、組み込みリソース用の SQL 構造で使用できるようになりました。[詳細を表示](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/developing/datamodel/datamodel-audience.translate.html)
+データモデル v1 を、組み込みリソース用の SQL 構造で使用できるようになりました。[詳細を表示](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/developing/datamodel/datamodel-audience.html)
 
 配信でのメッセージの準備方法に関する情報を追加しました。[詳細を表示](../../sending/using/preparing-the-send.md)
 
@@ -820,7 +820,7 @@ A/B テストのサンプルを更新しました。[詳細を表示](../../chan
 
 Adobe Marketing Cloud Mobile SDK をモバイルアプリと統合して Adobe Campaign Standard のプッシュ通知を受信する方法に関する[テクニカルノート](https://helpx.adobe.com/jp/campaign/kb/integrate-mobile-sdk.html)を更新して明確にしました。
 
-モバイルアプリで受け取るペイロードの構造を説明するテクニカルノートを追加しました。[詳細を表示](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/communication-channels/push-notifications/push-payload.translate.html)
+モバイルアプリで受け取るペイロードの構造を説明するテクニカルノートを追加しました。[詳細を表示](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/communication-channels/push-notifications/push-payload.html)
 
 [プッシュチャネルの設定](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)の節が更新され、Adobe Mobile Services のインターフェイスでポストバックを定義する際に追加される OS バージョンの新しいペイロードデータが追加されました。
 
@@ -938,7 +938,7 @@ Creative SDK による画像編集機能の強化 - [詳細を表示](../../desi
 
 Amazon Simple Storage Service（S3）コネクタ - [詳細を表示](../../administration/using/external-accounts.md)
 
-Dreamweaver との統合（実稼働） - [詳細を表示](https://docs.adobe.com/content/help/ja-JP/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.translate.html)
+Dreamweaver との統合（実稼働） - [詳細を表示](https://docs.adobe.com/content/help/ja-JP/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.html)
 
 **リリースに伴うその他のドキュメントのアップデート**
 
