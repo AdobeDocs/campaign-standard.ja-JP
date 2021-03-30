@@ -7,13 +7,13 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 feature: 概要
-role: 開業医
+role: ビジネス従事者
 level: 初心者
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: 274a9db2061f78dae9e31790629485d0411d83fb
 workflow-type: tm+mt
 source-wordcount: '2482'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 99%
 <li><b>配信済み</b>指標の計算は、精度と反応性を向上させるために、拡張 MTA からのリアルタイムフィードバックに基づいておこなわれるようになりました。</li>
 <li>EFS は、同期ソフトバウンスレポートの遅延の問題を解決します。</li>
 </ul>
-<p>詳しくは、<a href="../../sending/using/confirming-the-send.md#message-indicators">詳細ドキュメント</a>を参照してください。
+<p>詳しくは、<a href="../../sending/using/confirming-the-send.md">詳細ドキュメント</a>を参照してください。
 </p>
 </td> 
 </tr> 
