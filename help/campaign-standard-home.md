@@ -8,9 +8,9 @@ feature: 概要
 role: ビジネス従事者
 level: 初心者
 translation-type: tm+mt
-source-git-commit: 8d47cc5546a392283e90914e3b6c9d7e70aaa218
+source-git-commit: 89f2557865ea943405cec1ac53ea20f08ca32aaa
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '237'
 ht-degree: 100%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 100%
   </td>
   <td valign="top">
        <img alt="サポート" src="start/using/assets/do-not-localize/help.jpeg" />
-    <div><a href="https://helpx.adobe.com/jp/campaign/kb/ac-support.html">
+    <div><a href="support.md">
     <strong>サポートを受ける</strong></a>
     </div>
     <p><em>FAQ、ベストプラクティス、ヘルプリソースの利用、およびエキスパートへの問い合わせ</em></p>
