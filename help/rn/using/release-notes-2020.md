@@ -7,13 +7,13 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 feature: 概要
-role: 開業医
+role: ビジネス従事者
 level: 初心者
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5327'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 99%
 
 [リリース計画](https://helpx.adobe.com/jp/campaign/kb/acs-release-planning.html) | [コントロールパネルのリリース](https://docs.adobe.com/content/help/ja-JP/control-panel/using/release-notes.html) | [ドキュメントの更新](../../rn/using/documentation-updates.md) | [以前のリリースノート](../../rn/using/release-notes-2019.md) | [非推奨（廃止予定）の機能](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=ja)
 
-![](assets/do-not-localize/cp-icon.png) **新しいコントロールパネル 6 月のリリース** - アクティブなプロファイルの監視、サブドメイン配信品質の監査、GPG キー管理。[詳細情報](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)。
+![](assets/do-not-localize/cp-icon.png) **新しいコントロールパネル 6 月のリリース** - アクティブなプロファイルの監視、サブドメイン配信品質の監査、GPG キー管理。[詳細情報](https://docs.adobe.com/content/help/ja-JP/control-panel/using/release-notes.html)。
 
-![](assets/do-not-localize/cp-icon.png) **10 月の新しい Campaign コントロールパネルリリース**&#x200B;で、CNAME を使用したドメイン設定と新しいデータベース監視機能が追加されました。[詳細情報](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)。
+![](assets/do-not-localize/cp-icon.png) **10 月の新しい Campaign コントロールパネルリリース**&#x200B;で、CNAME を使用したドメイン設定と新しいデータベース監視機能が追加されました。[詳細情報](https://docs.adobe.com/content/help/ja-JP/control-panel/using/release-notes.html)。
 
 ## リリース 20.4 - 2020 年 10 月 {#release-20-4---october-2020}
 
@@ -294,7 +294,7 @@ ht-degree: 99%
 * ユーザーがレポートを変更できないエラーを修正しました。（CAMP-42505）
 
 
-![](assets/do-not-localize/cp-icon.png) **Campaign コントロールパネルの 5 月の新しいリリース**&#x200B;で、CNAME サブドメインの証明書を更新できるようになりました。詳しくは、[こちら](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)を参照してください。
+![](assets/do-not-localize/cp-icon.png) **Campaign コントロールパネルの 5 月の新しいリリース**&#x200B;で、CNAME サブドメインの証明書を更新できるようになりました。詳しくは、[こちら](https://docs.adobe.com/content/help/ja-JP/control-panel/using/release-notes.html)を参照してください。
 
 ## リリース 20.2 - 2020 年 4 月{#release-20-2---april-2020}
 
@@ -332,7 +332,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->Google TXT レコード管理、データベース領域の監視、E メールアラートなど、新しい機能が 4 月に Campaign コントロールパネルにリリースされます。これらの機能について詳しくは、[コントロールパネルリリースノート](https://docs.adobe.com/content/help/en/control-panel/using/release-notes.html)を参照してください。
+>Google TXT レコード管理、データベース領域の監視、E メールアラートなど、新しい機能が 4 月に Campaign コントロールパネルにリリースされます。これらの機能について詳しくは、[コントロールパネルリリースノート](https://docs.adobe.com/content/help/ja-JP/control-panel/using/release-notes.html)を参照してください。
 
 **強化点**
 
@@ -411,7 +411,7 @@ ht-degree: 99%
  <tbody> 
   <tr> 
    <td> <p>Adobe Experience Platform Data Connector が Adobe Campaign Standard に統合されるようになりました。XTK データ（Campaign でインジェストされたデータ）を Adobe Experience Platform Data Model（XDM）にマッピングすることにより、Campaign のデータを Adobe Experience Platform で利用できるようになります。 </p>
-    <p>なお、この機能は Azure でホストされるお客様のみが利用できることにご注意ください。この機能、およびその有効化の条件について詳しくは、<a href="../../integrating/using/aep-about-data-connector.md">詳細なドキュメント</a>と<a href="https://docs.adobe.com/content/help/ja-JP/campaign-standard-learn/tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.translate.html">ハウツービデオ</a>を参照してください。</p>
+    <p>なお、この機能は Azure でホストされるお客様のみが利用できることにご注意ください。この機能、およびその有効化の条件について詳しくは、<a href="../../integrating/using/aep-about-data-connector.md">詳細なドキュメント</a>と<a href="https://docs.adobe.com/content/help/ja-JP/campaign-standard-learn/tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html">ハウツービデオ</a>を参照してください。</p>
    </td> 
   </tr> 
  </tbody> 
@@ -426,7 +426,7 @@ ht-degree: 99%
  <tbody> 
   <tr> 
    <td> <p>Audience Destinations を使用することにより、Adobe Experience Platform のセグメントを Adobe Campaign で共有できるようになります。</p>
-    <p>なお、この機能は Azure でホストされるお客様のみが利用できることにご注意ください。この機能、およびその有効化の条件について詳しくは、<a href="../../integrating/using/aep-about-audience-destinations-service.md">詳細なドキュメント</a>と<a href="https://docs.adobe.com/content/help/ja-JP/campaign-standard-learn/tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.translate.html">ハウツービデオ</a>を参照してください。 </p>
+    <p>なお、この機能は Azure でホストされるお客様のみが利用できることにご注意ください。この機能、およびその有効化の条件について詳しくは、<a href="../../integrating/using/aep-about-audience-destinations-service.md">詳細なドキュメント</a>と<a href="https://docs.adobe.com/content/help/ja-JP/campaign-standard-learn/tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html">ハウツービデオ</a>を参照してください。 </p>
    </td> 
   </tr> 
  </tbody> 
