@@ -11,10 +11,10 @@ feature: インスタンス設定
 role: 管理者
 level: 経験豊富な
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
 workflow-type: tm+mt
-source-wordcount: '1254'
-ht-degree: 80%
+source-wordcount: '1286'
+ht-degree: 78%
 
 ---
 
@@ -93,6 +93,10 @@ ht-degree: 80%
 組織の新しいエンティティをキャンペーンに追加したり、別のサブドメインの下に送信する必要がある新しいタイプの電子メールを作成したりできます。 これを実行するには、次の手順に従います。
 
 1. **新しいサブドメインの設定** -Adobeが新しいサブドメインを使用する場合は、最初の手順でサブドメインを設定します。[キャンペーンCampaign コントロールパネル](https://docs.adobe.com/content/help/ja-JP/control-panel/using/subdomains-and-certificates/subdomains-branding.html)を通じてこの操作を行うか、Adobeのテクニカルコンタクトにお問い合わせください。 サブドメインの構成[について詳しくは、この記事](https://helpx.adobe.com/jp/campaign/kb/domain-name-delegation.html)を参照してください。
+
+   >[!NOTE]
+   >
+   >Campaign コントロールパネルは、すべての管理者ユーザーがアクセスできます。 ユーザーに管理者アクセスを許可する手順については、[このページ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel)を参照してください。
 
 1. **チケットの作成**  — サブドメインを設定したら、Adobeは実稼働環境でチケットを設定する必要があります。これをリクエストするには、[次の情報を含むClientCare](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)へのチケットを作成します。
 
