@@ -6,14 +6,14 @@ description: ユーザーと権限の管理、監視のガイドライン、チ�
 audience: administration
 content-type: reference
 topic-tags: about-administrating-adobe-campaign
-feature: アクセスの管理
+feature: アクセス管理
 role: 管理者
 level: 経験豊富な
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
 workflow-type: tm+mt
-source-wordcount: '648'
-ht-degree: 15%
+source-wordcount: '641'
+ht-degree: 16%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 15%
 >
 >導入と設定に関する質問やリクエストがある場合は、Adobeのアカウント担当者にお問い合わせください。
 
-インスタンスがAWSでホストされている場合、管理者ユーザーはキャンペーンCampaign コントロールパネルを利用して設定を管理し、各インスタンスの使用状況を追跡することもできます。 詳しくは、[該当するドキュメント](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja)を参照してください。
+管理者ユーザーは、キャンペーンCampaign コントロールパネルを利用して設定を管理し、各インスタンスの使用を追跡することもできます。 詳しくは、[該当するドキュメント](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja)を参照してください。
 
 ## [管理]メニュー{#administration-menu}
 
