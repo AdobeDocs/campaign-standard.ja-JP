@@ -7,10 +7,10 @@ user-guide-description: 'Campaign Standard の使用に必要な主要な機能�
 title: Campaign Standard ガイド
 breadcrumb-title: ヘルプセンター
 translation-type: tm+mt
-source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
+source-git-commit: 918e73c66cd372a84c87f1f686ce67026858c849
 workflow-type: tm+mt
-source-wordcount: '1743'
-ht-degree: 100%
+source-wordcount: '1750'
+ht-degree: 99%
 
 ---
 
@@ -439,6 +439,7 @@ ht-degree: 100%
    + チャネルの設定{#configuring-channels}
       + [チャネル設定について](administration/using/about-channel-configuration.md)
       + [E メールチャネルの設定](administration/using/configuring-email-channel.md)
+      + [ISPの使用停止後にバウンスの資格を更新する](administration/using/update-bounce-qualification.md)
       + [モバイルアプリケーションの設定](administration/using/configuring-a-mobile-application.md)
    + モバイルチャネルの設定 {#configuring-mobile}
       + [プッシュトラッキングの実装](administration/using/push-tracking.md)
