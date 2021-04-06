@@ -10,14 +10,14 @@ context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;deliver
 feature: インスタンス設定
 role: 管理者
 level: 経験豊富な
+exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: b899d1926526fccb2fe1fa42db7a4e4317ddb1cb
 workflow-type: tm+mt
-source-wordcount: '2568'
-ht-degree: 77%
+source-wordcount: '2602'
+ht-degree: 76%
 
 ---
-
 
 # E メールチャネルの設定{#configuring-email-channel}
 
@@ -311,7 +311,7 @@ SMTP の設定について詳しくは、[E メール SMTP パラメーターの
 
 ## 従来の設定{#legacy-settings}
 
-最新バージョンのキャンペーンを実行して&#x200B;**いない**&#x200B;場合、以下に説明するパラメーターとUIセクションは引き続き適用されます。
+**NOT**&#x200B;を実行している場合は、以下に説明するキャンペーンーとUIセクションが引き続き適用されます。
 
 ### 再試行 {#legacy-retries}
 
@@ -340,6 +340,10 @@ SMTP の設定について詳しくは、[E メール SMTP パラメーターの
 * **[!UICONTROL To qualify]**:直帰率のメールは資格が必要です。認定は、プラットフォームの配信品質が正しく機能するように配信品質チームが行う必要があります。 資格がない限り、バウンスメールは電子メール処理ルールのリストを強化するために使用されません。
 * **[!UICONTROL Keep]**:バウンスメールは資格があり、 **Update for** Delivabilityworkflowで使用され、既存の電子メール処理ルールと比較してリストを強化します。
 * **[!UICONTROL Ignore]**:バウンスメールは認定されましたが、 **Updateで配信品質のワークフローに使用され** ません。したがって、この値はクライアントインスタンスに送信されません。
+
+>[!NOTE]
+>
+>ISPが使用不能になった場合、キャンペーン経由で送信された電子メールは、誤ってバウンスとしてマークされます。 これを修正するには、バウンスの資格を更新する必要があります。 詳しくは、[このページ](../../administration/using/update-bounce-qualification.md)を参照してください。
 
 <!--Bounces are qualified through the **[!UICONTROL Bounce mails]** processing rule. For more on accessing this rule, refer to this [section](#legacy-bounce-mail-qualification).-->
 
