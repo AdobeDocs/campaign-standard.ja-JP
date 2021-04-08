@@ -10,11 +10,11 @@ hidefromtoc: true
 feature: ヘルプとサポートオプション
 role: ビジネス従事者
 level: 初心者
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '593'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ FAQ、ベストプラクティス、オンラインリソース、サポート�
         <ul>
         <li><a href="automating/using/monitoring-workflow-execution.md#error-management">ワークフローのエラー管理</a></li>
         <li><a href="automating/using/best-practices-workflows.md">ワークフロー実行のトラブルシューティング</a></li>
-        <li><a href="api/using/troubleshooting.md">APIのトラブルシューティング</a></li>
+        <li><a href="api/using/troubleshooting.md">API のトラブルシューティング</a></li>
         <li><a href="sending/using/understanding-delivery-failures.md">配信障害の把握</a></li>
         </ul>
     </td>
@@ -72,7 +72,7 @@ FAQ、ベストプラクティス、オンラインリソース、サポート�
         <ul>
         <li><a href="rn/using/release-planning.md">新しいバージョンへのアップグレード</a></li>
         <li><a href="sending/using/monitoring-a-delivery.md">配信の監視</a></li>
-        <li><a href="sending/using/understanding-quarantine-management.md">強制隔離管理について</a></li>
+        <li><a href="sending/using/understanding-quarantine-management.md">強制隔離管理の理解</a></li>
         <li><a href="start/using/privacy-management.md">プライバシーと同意管理</a></li>
         <li><a href="automating/using/query.md">クエリのデザイン</a></li>
         <li><a href="automating/using/query-samples.md">クエリサンプル</a></li>
@@ -93,11 +93,11 @@ FAQ、ベストプラクティス、オンラインリソース、サポート�
 
 >[!NOTE]
 >
->Campaign コントロールパネルは、すべての管理者ユーザーがアクセスできます。 ユーザーに管理者アクセスを許可する手順については、[このページ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel)を参照してください。
+>コントロールパネルは、すべての管理者ユーザーがアクセスできます。 ユーザーに管理者アクセス権を付与する手順については、[このページ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=jp#discover-control-panel)で詳しく説明しています。
 
 ### コントロールパネルへのアクセス方法
 
- コントロールパネルは、Adobe Experience Cloud から直接利用できます。詳しくは、[ここをクリックしてください。](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=en#discover-control-panel)
+ コントロールパネルは、Adobe Experience Cloud から直接利用できます。詳しくは、[ここをクリックしてください。](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=ja#discover-control-panel)
 
 ### コントロールパネルのよくある質問
 
@@ -119,7 +119,7 @@ Campaign Control Panel の FAQ にアクセスするには、[ここをクリッ
 
 <img src="start/using/assets/do-not-localize/icon-support.svg" width="60px">
 
-新しい発券システムは[Adobe Admin Console](https://adminconsole.adobe.com/overview)を通って来た。 新しいシステムでは、ユーザーごとに、正しい権限を持つ新しい個別のアカウントが必要です。Adobe ID を使用してログインできない場合は、Experience League 経由でアクセスをリクエストしてください。カスタマーケアチームが、できるだけ早くセットアップをおこないます。[詳細情報](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
+新しいチケット発行システムが [Adobe Admin Console](https://adminconsole.adobe.com/overview) に開設されました。 新しいシステムでは、ユーザーごとに、正しい権限を持つ新しい個別のアカウントが必要です。Adobe ID を使用してログインできない場合は、Experience League 経由でアクセスをリクエストしてください。カスタマーケアチームが、できるだけ早くセットアップをおこないます。[詳細情報](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
 
 ### エキスパートへの質問
 
@@ -127,8 +127,8 @@ Campaign Classic コミュニティに参加：既存の質問の回答を検索
 
 ### チケットの作成またはチャットの開始
 
-ケースを作成すると、アドビ製品に関する問題についてアドビカスタマーサポートチームに問い合わせることができます。問題の解決やトラブルシューティングをサポートできるよう、Adobe Admin Console を使用してアドビカスタマーサポートとチャットできるようになります。
+ケースを作成すると、アドビ製品に関する問題についてアドビカスタマーサポートチームに問い合わせることができます。 問題の解決やトラブルシューティングのヘルプとして、Adobe Admin Console を使用してアドビカスタマーサポートとチャットできるようになります。
 
 新しいシステムで問題を記録したりチャットセッションを開始したりするには、 [Adobe Admin Console](https://adminconsole.adobe.com/overview)に接続します。
 
-[このページ](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)で説明する詳細な手順に従います。
+[このページ](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)で説明する詳細な手順に従います。
