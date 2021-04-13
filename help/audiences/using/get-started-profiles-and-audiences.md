@@ -7,16 +7,16 @@ audience: audiences
 content-type: reference
 topic-tags: about-profiles-and-audiences
 feature: プロファイル
-role: 開業医
-level: 初心者
+role: Business Practitioner
+level: Beginner
+exl-id: b4de2f1a-09ec-486d-b1ef-66208cbe211f
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: c5a9c27a2ce459dfd0f04159095bfc8a2cf4c0f6
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '607'
 ht-degree: 23%
 
 ---
-
 
 # プロファイルとオーディエンスの概要{#about-profiles-and-audiences}
 
@@ -88,7 +88,7 @@ Adobe Campaignオファーは、**GDPR、CCPA、その他のプライバシー�
 
 ## その他のリソース
 
-* [オーディエンス送信先サービスの使用](../../integrating/using/aep-about-audience-destinations-service.md)
+* [Adobe Experience Platformオーディエンスをキャンペーンに取り込む](../../integrating/using/ingest-aep-data.md)
 * [Microsoft Dynamics 365の操作](../../integrating/using/d365-acs-get-started.md)
 * [Adobe共有オーディエンス](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
 * [ワークフローを使用したプロファイルの読み込み](../../automating/using/creating-import-workflow-templates.md)
