@@ -7,16 +7,16 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-release-planning
 feature: 概要
-role: ビジネス従事者
-level: 初心者
-translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: ht
-source-wordcount: '470'
-ht-degree: 100%
+role: Business Practitioner
+level: Beginner
+exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
+translation-type: tm+mt
+source-git-commit: 6b0995f37251644f959425de5bfcc2620e0ef877
+workflow-type: tm+mt
+source-wordcount: '468'
+ht-degree: 99%
 
 ---
-
 
 # リリース計画 {#release-planning}
 
@@ -44,11 +44,11 @@ ht-degree: 100%
  <tbody>
   <tr>
    <td>ステージング<br /> </td>
-   <td>2021 年 4 月 19～20 日<br /> </td>
+   <td>近日中に使用可能<br /> </td>
   </tr>
   <tr>
    <td> 本番<br /> </td>
-   <td>2021 年 4 月 26 日～5 月 3 日<br /> </td>
+   <td>近日中に使用可能<br /> </td>
   </tr>
  </tbody>
 </table>
@@ -65,7 +65,7 @@ A：変更点は[リリースノート](../../rn/using/release-notes.md)に記�
 
 **Q：検証プロセスとは何ですか？**
 
-A：ステージング用インスタンスがアップグレードされたら、お客様のプロセスとユースケースがこの新しいバージョンで正しく動作することを検証し、問題があれば[アドビクライアントケア](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)に報告することをお勧めします。
+A：ステージング用インスタンスがアップグレードされたら、お客様のプロセスとユースケースがこの新しいバージョンで正しく動作することを検証し、問題があれば[アドビクライアントケア](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)に報告することをお勧めします。
 
 **Q：アップグレード中にインスタンスにアクセスできますか？**
 
@@ -87,4 +87,4 @@ A：はい。アップグレード中に新しい E メールは送信できま�
 
 A：Campaign にログオンすると、リリース通知ポップアップが表示され、最新バージョンが表示されます。
 
-その他のご質問については、[アドビクライアントケア](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)にお問い合わせください。
+その他のご質問については、[アドビクライアントケア](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)にお問い合わせください。
