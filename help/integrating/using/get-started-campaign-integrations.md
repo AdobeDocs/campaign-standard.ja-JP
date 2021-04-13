@@ -8,15 +8,15 @@ content-type: reference
 topic-tags: get-started-campaign-integrations
 feature: トリガー
 role: Data Architect
-level: 中級
+level: Intermediate
+exl-id: ecf88c7d-6729-4b3a-85c4-60427bb57442
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: 3f0c24baf489c516a7a3f665e8c23cec0ed2c3bf
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '669'
 ht-degree: 90%
 
 ---
-
 
 # Campaign 統合について{#get-started-campaign-integrations}
 
@@ -74,6 +74,11 @@ ht-degree: 90%
    <td> お使いの Adobe Experience Cloud の各アプリケーションとオーディエンスを交換できます。<br /> </td> 
    <td> <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">People コアサービス（プロファイルとオーディエンス）</a><br /> </td> 
   </tr> 
+    <tr> 
+   <td>アドビのリアルタイムカスタマーデータプラットフォーム（RTCDP）<br /> </td> 
+   <td> Adobe Campaign とアドビのリアルタイムカスタマーデータプラットフォーム（RTCDP）の統合により、セグメントデータを共有し、オーディエンスを Adobe Campaign にインポートできます。</td>
+   <td><a href="../../integrating/using/get-started-sources-destinations.md">ソースと宛先の使用を開始する</a></td>
+  </tr> 
   <tr> 
    <td> Assets コアサービスと Assets On Demand<br /> </td> 
    <td> Adobe Campaign で作成した E メールとランディングページに Adobe Experience Cloud ライブラリからアセットを挿入することができます。<br /> </td> 
@@ -105,4 +110,3 @@ ht-degree: 90%
   </tr> 
  </tbody> 
 </table>
-
