@@ -7,16 +7,16 @@ audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
 feature: データモデル
-role: 開発者
-level: 中級
+role: Developer
+level: Intermediate
+exl-id: a8d15053-c20f-4334-a732-3b36cb00794d
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: c5a9c27a2ce459dfd0f04159095bfc8a2cf4c0f6
 workflow-type: tm+mt
 source-wordcount: '340'
-ht-degree: 31%
+ht-degree: 29%
 
 ---
-
 
 # Campaign Standard データモデルの概要 {#get-started-data-model}
 
@@ -66,5 +66,5 @@ Campaign StandardAPIを使用して、Adobe Campaign Standard向けの統合を�
 
 ## その他のリソース
 
-* [Adobe Experience Platform Data Connector について](../../integrating/using/aep-about-data-connector.md)
 * [カスタムリソースのエクスポートとインポート](https://helpx.adobe.com/campaign/kb/acs-get-started-with-cusres.html)
+* [キャンペーンからAdobe Experience Platformへのデータのエクスポート](../../integrating/using/export-campaign-data.md)
