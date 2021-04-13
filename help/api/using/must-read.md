@@ -7,16 +7,16 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: データエンジニア
-level: 経験豊富な
+role: Data Engineer
+level: Experienced
+exl-id: 9e2d1b59-55a5-4715-adfb-35191a9df536
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: 01e4eb027b55815c3680b26691e61cbe5b63ee8c
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '375'
 ht-degree: 0%
 
 ---
-
 
 # 必ず読む{#must-read}
 
@@ -25,6 +25,12 @@ ht-degree: 0%
 * Adobe CampaignAPIは、サーバー間でのみ使用する必要があります。
 * 導入したい使用事例が、Adobe CampaignAPIで許可されている規模と一致する場合は、必ずAdobeのテクニカルコンタクトにお問い合わせください。
 * Adobe IOアクセスの設定には、特定の権限が必要です。問題が発生した場合は、Adobeサポートに問い合わせてください。
+
+## 権限とアクセス
+
+* デフォルトでは、Adobe CampaignAPIは管理者コンテキストを使用するので、組織単位と役割は適用されません。
+* Adobe CampaignAPIは、ロールコンテキストから除外されます。
+* APIを組織単位またはロールと共に設定する場合は、まずAdobeのテクニカルコンタクトにお問い合わせください。
 
 ## リソースの表現
 
