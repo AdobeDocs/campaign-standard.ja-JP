@@ -8,16 +8,16 @@ content-type: reference
 topic-tags: latest-release-notes
 hidefromtoc: true
 feature: ヘルプとサポートオプション
-role: ビジネス従事者
-level: 初心者
+role: Business Practitioner
+level: Beginner
+exl-id: b164942b-0f1c-473e-bf78-f10ec3374244
 translation-type: ht
-source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: ht
-source-wordcount: '593'
+source-wordcount: '590'
 ht-degree: 100%
 
 ---
-
 
 # Campaign Standard のヘルプおよびサポートオプション {#help-support-options}
 
@@ -95,21 +95,21 @@ FAQ、ベストプラクティス、オンラインリソース、サポート�
 >
 >コントロールパネルは、すべての管理者ユーザーがアクセスできます。 ユーザーに管理者アクセス権を付与する手順については、[このページ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=jp#discover-control-panel)で詳しく説明しています。
 
-### コントロールパネルへのアクセス方法
+### コントロールパネルにアクセスするには？
 
- コントロールパネルは、Adobe Experience Cloud から直接利用できます。詳しくは、[ここをクリックしてください。](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=ja#discover-control-panel)
+コントロールパネルは、Adobe Experience Cloud から直接利用できます。 詳しくは、[ここをクリック](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=ja#discover-control-panel)してください。
 
-### コントロールパネルのよくある質問
+### コントロールパネルのよくある質問（FAQ）
 
-Campaign Control Panel の FAQ にアクセスするには、[ここをクリックしてください](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=ja)。
+Campaign コントロールパネルの FAQ にアクセスするには、[ここをクリック](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=ja)します。
 
 ### SFTP 管理
 
-コントロールパネルでは、アクセス権のある Campaign インスタンスに接続されているすべての SFTP サーバーを操作できます。ストレージ容量を監視し、許可リストのIPアドレス、および公開 SSH キーを管理できます。詳しくは、[ここをクリックしてください。](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=ja#sftp-management)
+コントロールパネルでは、アクセス権のある Campaign インスタンスに接続しているすべての SFTP サーバーとやり取りできます。 ストレージ容量を監視したり、許可リストの IP アドレスや SSH 公開鍵を管理できます。 詳しくは、[ここをクリック](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=ja#sftp-management)してください。
 
 ### サブドメインおよび証明書
 
-サブドメインとその証明書を監視できます。 詳細情報:
+サブドメインとその証明書を監視できます。 詳細情報：
 
 * [サブドメインのブランディング](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=ja#subdomains-and-certificates)
 * [新しいサブドメインの設定](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=ja#subdomains-and-certificates)
@@ -119,11 +119,11 @@ Campaign Control Panel の FAQ にアクセスするには、[ここをクリッ
 
 <img src="start/using/assets/do-not-localize/icon-support.svg" width="60px">
 
-新しいチケット発行システムが [Adobe Admin Console](https://adminconsole.adobe.com/overview) に開設されました。 新しいシステムでは、ユーザーごとに、正しい権限を持つ新しい個別のアカウントが必要です。Adobe ID を使用してログインできない場合は、Experience League 経由でアクセスをリクエストしてください。カスタマーケアチームが、できるだけ早くセットアップをおこないます。[詳細情報](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
+新しいチケット発行システムが [Adobe Admin Console](https://adminconsole.adobe.com/overview) に開設されました。 新しいシステムでは、ユーザーごとに、正しい権限を持つ新しい個別のアカウントが必要です。 Adobe ID でログインできない場合は、Experience League 経由でアクセスをリクエストしてください。カスタマーケアチームが、できるだけ早く設定を行います。 [詳細情報](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
 
 ### エキスパートへの質問
 
-Campaign Classic コミュニティに参加：既存の質問の回答を検索するか、コミュニティに質問してください。[会話に参加](https://experienceleaguecommunities.adobe.cadobe-campaign-standard/ct-p/adobe-campaign-standard-community)
+Campaign Classic コミュニティへの参加：既存の質問の回答を検索したり、コミュニティに質問したりできます。 [会話に参加](https://experienceleaguecommunities.adobe.cadobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
 ### チケットの作成またはチャットの開始
 
