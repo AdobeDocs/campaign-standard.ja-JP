@@ -5,7 +5,7 @@ title: キャンペーンからAdobe Experience Platformへのデータのエク
 description: Campaign StandardからAdobe Experience Platformにデータをエクスポートする方法を説明します。
 audience: integrating
 content-type: reference
-feature: ソースと宛先
+feature: Sources and Destinations
 role: Data Architect
 level: Intermediate
 translation-type: tm+mt

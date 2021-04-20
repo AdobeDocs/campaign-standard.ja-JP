@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: 「コンテンツの準備が整ったら、メッセージを受信するユーザーを慎重に定義する方法を学びます。」
-feature: 配信品質
-role: 開業医
-level: 中級
+feature: Deliverability
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

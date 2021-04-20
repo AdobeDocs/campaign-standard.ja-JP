@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: Adobe Campaign を使用した配信のデザインと送信に関するベストプラクティスについて説明します。
-feature: 配信品質
-role: ビジネス従事者
-level: 中級者
+feature: Deliverability
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt

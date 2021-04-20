@@ -6,9 +6,9 @@ description: API、インポート機能、オンライン獲得、自動また�
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles
-feature: プロファイル
-role: 開業医
-level: 初心者
+feature: Profiles
+role: Business Practitioner
+level: Beginner
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

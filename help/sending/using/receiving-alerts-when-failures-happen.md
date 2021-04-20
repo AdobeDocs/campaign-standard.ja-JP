@@ -6,9 +6,9 @@ description: アラート管理システムの使用方法を説明します。
 audience: sending
 content-type: reference
 topic-tags: monitoring-messages
-feature: 配達確認
-role: 開業医
-level: 初心者
+feature: Proofs
+role: Business Practitioner
+level: Beginner
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

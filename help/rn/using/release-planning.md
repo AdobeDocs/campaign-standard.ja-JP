@@ -6,7 +6,7 @@ description: このページでは、Adobe Campaign Standard の今後のリリ�
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-release-planning
-feature: 概要
+feature: Overview
 role: Business Practitioner
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1

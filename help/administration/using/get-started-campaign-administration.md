@@ -6,9 +6,9 @@ description: ユーザーと権限の管理、監視のガイドライン、チ�
 audience: administration
 content-type: reference
 topic-tags: about-administrating-adobe-campaign
-feature: アクセス管理
-role: 管理者
-level: 経験豊富な
+feature: Access Management
+role: Administrator
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
 workflow-type: tm+mt

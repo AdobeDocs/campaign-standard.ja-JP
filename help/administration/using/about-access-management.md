@@ -6,9 +6,9 @@ description: 役割、グループ、および組織単位を使用して、Adob
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-feature: アクセスの管理
-role: 管理者
-level: 経験豊富な
+feature: Access Management
+role: Administrator
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

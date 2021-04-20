@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: Adobe Campaignを使用して、送信されたメッセージを追跡し、受信者が配信に対してどのように反応するかを確認する方法について説明します。
-feature: 配信品質
-role: 開業医
-level: 中級
+feature: Deliverability
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

@@ -6,9 +6,9 @@ description: 'Adobe Experience Cloudの様々なソリューションで開始�
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
-feature: Peopleコアサービス統合
+feature: People Core Service Integration
 role: Data Architect
-level: 中級
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

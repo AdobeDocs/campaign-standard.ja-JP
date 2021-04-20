@@ -6,7 +6,7 @@ description: ターゲット母集団の定義、オーディエンスの選択�
 audience: audiences
 content-type: reference
 topic-tags: about-profiles-and-audiences
-feature: プロファイル
+feature: Profiles
 role: Business Practitioner
 level: Beginner
 exl-id: b4de2f1a-09ec-486d-b1ef-66208cbe211f

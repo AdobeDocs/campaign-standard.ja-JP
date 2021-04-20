@@ -6,9 +6,9 @@ description: オプトアウトの結果、プロファイルがどの配信や�
 audience: audiences
 content-type: reference
 topic-tags: understanding-opt-in-and-opt-out-processes
-feature: オーディエンス
-role: 開業医
-level: 初心者
+feature: Audiences
+role: Business Practitioner
+level: Beginner
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

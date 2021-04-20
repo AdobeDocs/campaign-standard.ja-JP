@@ -6,9 +6,9 @@ description: テクニカルワークフローは標準搭載のワークフロ�
 audience: administration
 content-type: reference
 topic-tags: application-settings
-feature: インスタンス設定
-role: 管理者
-level: 経験豊富な
+feature: Instance Settings
+role: Administrator
+level: Experienced
 translation-type: tm+mt
 source-git-commit: a7a1aa2841410674597264927325c073fef4ce26
 workflow-type: tm+mt

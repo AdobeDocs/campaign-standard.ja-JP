@@ -6,9 +6,9 @@ description: 組み込みレポートまたはカスタマイズされた動的�
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-feature: レポート
-role: リーダー
-level: 初心者
+feature: Reporting
+role: Leader
+level: Beginner
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

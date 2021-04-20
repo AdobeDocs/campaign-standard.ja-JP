@@ -6,9 +6,9 @@ description: Campaign で配信エラーを管理する方法について説明�
 audience: sending
 content-type: reference
 topic-tags: monitoring-messages
-feature: 配信品質
-role: ビジネス従事者
-level: 中級者
+feature: Deliverability
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt

@@ -5,7 +5,7 @@ title: ソースと宛先の使用を開始する
 description: Adobe Experience Platformのソースと宛先についての詳細。
 audience: integrating
 content-type: reference
-feature: ソースと宛先
+feature: Sources and Destinations
 role: Data Architect
 level: Intermediate
 translation-type: tm+mt

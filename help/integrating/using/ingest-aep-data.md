@@ -5,7 +5,7 @@ title: Adobe Experience Platformオーディエンスをキャンペーンに取
 description: Adobe Experience PlatformオーディエンスをCampaign Standardに取り込む方法を学びます。
 audience: integrating
 content-type: reference
-feature: ソースと宛先
+feature: Sources and Destinations
 role: Data Architect
 level: Intermediate
 translation-type: tm+mt

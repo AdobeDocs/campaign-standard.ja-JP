@@ -6,9 +6,9 @@ description: Adobe Campaignで目標地点データ機能を設定し、購読�
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics-for-mobile
-feature: オーディエンス
+feature: Audiences
 role: Data Architect
-level: 中級
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

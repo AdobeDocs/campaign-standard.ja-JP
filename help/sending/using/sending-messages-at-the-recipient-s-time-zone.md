@@ -6,9 +6,9 @@ description: 受信者のタイムゾーンでのメッセージの送信につ�
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
-feature: 配達確認
-role: 開業医
-level: 中級
+feature: Proofs
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

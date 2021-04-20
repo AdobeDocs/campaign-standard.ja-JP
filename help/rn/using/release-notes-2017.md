@@ -6,9 +6,9 @@ description: このページでは、Adobe Campaign Standard の 2017 年の全�
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-feature: 概要
-role: ビジネス従事者
-level: 初心者
+feature: Overview
+role: Business Practitioner
+level: Beginner
 translation-type: tm+mt
 source-git-commit: 274a9db2061f78dae9e31790629485d0411d83fb
 workflow-type: tm+mt

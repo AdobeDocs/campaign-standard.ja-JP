@@ -6,7 +6,7 @@ description: 動的なレポートに関するよくある質問を以下に示�
 audience: reporting
 content-type: reference
 topic-tags: troubleshooting
-feature: レポート
+feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 0f99a109-2923-4e64-8131-80fcacf79c82

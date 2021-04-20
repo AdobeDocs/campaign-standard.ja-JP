@@ -6,7 +6,7 @@ description: プライバシーを管理する Adobe Campaign Standard の機能
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-feature: プライバシー
+feature: Privacy
 role: Business Practitioner
 level: Intermediate
 exl-id: 84cf8f6e-9ba0-4cd5-80e2-a61cefa31e0a

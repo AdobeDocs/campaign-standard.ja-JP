@@ -7,9 +7,9 @@ content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: メッセージのコンテンツを設計し、配信の実行を妨げる可能性のある一般的な問題を回避する方法を説明します。 
-feature: 配信品質
-role: 開業医
-level: 中級
+feature: Deliverability
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

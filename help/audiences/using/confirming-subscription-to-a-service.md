@@ -6,9 +6,9 @@ description: Adobe Campaign 内のサービスを購読しているプロファ�
 audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
-feature: オーディエンス
-role: 開業医
-level: 中級
+feature: Audiences
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

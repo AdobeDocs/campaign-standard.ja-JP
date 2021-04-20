@@ -6,9 +6,9 @@ description: 特定の日時にメッセージを送信する方法を確認し�
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
-feature: パフォーマンス監視
-role: 開業医
-level: 中級
+feature: Performance Monitoring
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

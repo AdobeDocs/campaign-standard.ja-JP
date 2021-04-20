@@ -6,9 +6,9 @@ description: 配信用のコンテンツを生成するためにCSVファイル�
 audience: channels
 content-type: reference
 topic-tags: email-messages
-feature: プッシュ
-role: 開業医
-level: 中級
+feature: Push
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

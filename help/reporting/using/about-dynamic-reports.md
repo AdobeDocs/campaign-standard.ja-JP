@@ -6,9 +6,9 @@ description: 動的レポートでは、変数やディメンションをフリ�
 audience: reporting
 content-type: reference
 topic-tags: about-reporting
-feature: レポート
-role: リーダー
-level: 初心者
+feature: Reporting
+role: Leader
+level: Beginner
 translation-type: tm+mt
 source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt

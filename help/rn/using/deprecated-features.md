@@ -6,9 +6,9 @@ description: このページリストは、Adobe Campaign Standard の非推奨�
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-deprecated-features
-feature: 概要
-role: 開業医
-level: 初心者
+feature: Overview
+role: Business Practitioner
+level: Beginner
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

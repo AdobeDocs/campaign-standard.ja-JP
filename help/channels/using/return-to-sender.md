@@ -6,9 +6,9 @@ description: 間違ったアドレスを通知し、それを今後の通信か�
 audience: channels
 content-type: reference
 topic-tags: direct-mail
-feature: ダイレクトメール
-role: 開業医
-level: 中級
+feature: Direct Mail
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
 workflow-type: tm+mt

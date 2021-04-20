@@ -6,7 +6,7 @@ description: データをデータベースにインポートする際に従う�
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
-feature: ワークフロー
+feature: Workflows
 role: Data Architect
 translation-type: tm+mt
 source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60

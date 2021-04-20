@@ -6,7 +6,7 @@ description: このページでは、Adobe Campaign Standard の最新リリー�
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-feature: 概要
+feature: Overview
 role: Business Practitioner
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113

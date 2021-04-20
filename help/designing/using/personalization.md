@@ -6,9 +6,9 @@ description: 電子メールデザイナーで電子メールをパーソナラ�
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: 電子メールデザイン
-role: ビジネス従事者
-level: 中級者
+feature: Email Design
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
 workflow-type: tm+mt

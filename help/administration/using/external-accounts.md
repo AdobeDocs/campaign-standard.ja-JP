@@ -7,9 +7,9 @@ audience: administration
 content-type: reference
 topic-tags: application-settings
 context-tags: extAccount,main;extAccount,overview
-feature: インスタンス設定
-role: 管理者
-level: 経験豊富な
+feature: Instance Settings
+role: Administrator
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
 workflow-type: tm+mt
