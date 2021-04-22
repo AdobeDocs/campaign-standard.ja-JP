@@ -6,11 +6,11 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Campaign Standard の使用に必要な主要な機能、タスク、設定、その他のリソースに関するヘルプセンター。 '
 title: Campaign Standard ガイド
 breadcrumb-title: ヘルプセンター
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 479819df78953e7703738f31e3ef8bd9146416d5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1779'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -268,11 +268,11 @@ ht-degree: 98%
          + [Microsoft Dynamics 365 と Campaign 間のデータのマップ](integrating/using/d365-acs-self-service-app-data-sync.md)
       + [Microsoft Dynamics 365 統合の使用](integrating/using/d365-acs-using-the-integration.md)
    + Campaign と Adobe Experience Platform {#adobe-experience-platform}
-      + Adobe Experience Platformのソースと宛先{#aep-sources-destinations}
-         + [ソースと宛先の使用を開始する](integrating/using/get-started-sources-destinations.md)
-         + [Adobe Experience Platformオーディエンスをキャンペーンに取り込む](integrating/using/ingest-aep-data.md)
-         + [キャンペーンからAdobe Experience Platformへのデータのエクスポート](integrating/using/export-campaign-data.md)
-      + オーディエンス宛先サービス（ベータ版） {#audience-destinations}
+      + Adobe Experience Platform のソースと宛先{#aep-sources-destinations}
+         + [ソースと宛先の概要](integrating/using/get-started-sources-destinations.md)
+         + [Adobe Experience Platform オーディエンスの Campaign への取り込み](integrating/using/ingest-aep-data.md)
+         + [Campaign から Adobe Experience Platform にデータをエクスポート](integrating/using/export-campaign-data.md)
+      + Audience Destinations サービス（ベータ版）{#audience-destinations}
          + [Audience Destinations サービスについて](integrating/using/aep-about-audience-destinations-service.md)
          + [Adobe Experience Platform オーディエンスの管理](integrating/using/aep-managing-audiences.md)
          + [セグメントビルダーの使用](integrating/using/aep-using-segment-builder.md)
