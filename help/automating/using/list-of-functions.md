@@ -6,17 +6,17 @@ description: クエリ編集ツールを使用すると、高度な関数を使�
 audience: automating
 content-type: reference
 topic-tags: filtering-data
-feature: Workflows
+feature: ワークフロー
 role: Data Architect
 level: Experienced
+exl-id: d1575626-55bb-4303-a796-ad323a399330
 translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+source-git-commit: 33cba2254bb90951880126cd9978f1890ee72e9c
 workflow-type: tm+mt
-source-wordcount: '1944'
+source-wordcount: '1941'
 ht-degree: 98%
 
 ---
-
 
 # 関数のリスト{#list-of-functions}
 
@@ -660,7 +660,7 @@ ht-degree: 98%
   <tr> 
    <td> <strong>encryption_aescbcEncrypt</strong><br /> </td> 
    <td> AES アルゴリズム（CBC ブロックモード）に基づき、キー（第 2 パラメーター）と初期化ベクター（第 3 パラメーター）を使用して、文字列（第 1 パラメーター）を暗号化します。キーと初期化ベクターは、16 進数表現（<strong>\x</strong> で始まる形式）で指定する必要があります。結果は、<strong>\x</strong> を除いた 16 進数で表されます。<br />キーのサイズには、128 ビット、192 ビット、256 ビット（16 進数文字で順に 16、24、32）のいずれかを指定できますが、256 ビット、およびキーと同じ長さのランダム化初期化ベクターを使用することをお勧めします<br /> </td> 
-   <td> encryption_aescbcEncrypt(&lt;文字列&gt;, &lt;文字列&gt;, &lt;文字列&gt;)<br /> 例えば、encryption_aescbcEncrypt(johndoe@example.com, "<strong>\x0123456789ABCDEF0123456789ABCDEF</strong>", "<strong>\x0123456789ABCDEFFEDCBA9876543210</strong>")<br /> </td> 
+   <td> encryption_aescbcEncrypt(&lt;String&gt;, &lt;String&gt;, &lt;String&gt;)<br />例：encryption_aescbcEncrypt(johndoe@example.com, "<strong>\\x0123456789ABCDEF0123456789ABCDEF</strong>", "<strong>\\x0123456789ABCDEFFEDCBA9876543210</strong>")<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -749,4 +749,3 @@ ht-degree: 98%
   </tr> 
  </tbody> 
 </table>
-
