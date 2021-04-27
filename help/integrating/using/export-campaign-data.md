@@ -1,31 +1,31 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: キャンペーンからAdobe Experience Platformへのデータのエクスポート
+title: Campaign から Adobe Experience Platform にデータをエクスポート
 description: Campaign StandardからAdobe Experience Platformにデータをエクスポートする方法を説明します。
 audience: integrating
 content-type: reference
-feature: Sources and Destinations
+feature: ソースと宛先
 role: Data Architect
 level: Intermediate
+exl-id: eccd2922-0e75-4525-9b60-b48f628deeae
 translation-type: tm+mt
-source-git-commit: bf442b12506ef71cc76aa7fffb0e4c8bb2ce70da
+source-git-commit: 4855585539653a0bb496d210b001765b5b557570
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 1%
+source-wordcount: '529'
+ht-degree: 4%
 
 ---
 
+# Campaign から Adobe Experience Platform にデータをエクスポート {#sources}
 
-# キャンペーンからAdobe Experience Platformへのデータのエクスポート{#sources}
-
-Campaign StandardデータをAdobeリアルタイムCustomer Data Platform (RTCDP)にエクスポートするには、まず、Campaign Standardでワークフローを構築して、共有するデータをS3またはAzure BLOBストレージの場所にエクスポートする必要があります。
+Campaign StandardデータをAdobeリアルタイムCustomer Data Platform (RTCDP)にエクスポートするには、まず、Campaign Standardでワークフローを構築して、共有するデータをAmazonストレージサービス(S3)またはAzure Blobストレージの場所にエクスポートする必要があります。
 
 ワークフローが構成され、ストレージの場所にデータが送信されたら、S3またはAzure BLOBストレージの場所をAdobeエクスペリエンスプラットフォームの&#x200B;**Source**&#x200B;として接続する必要があります。
 
 >[!NOTE]
-
-キャンペーン生成データのみ（送信、開く、クリック数など）をエクスポートすることをお勧めします。 Adobe Experience Platformに サードパーティのソース（CRMなど）から取り込まれたデータは、Adobe Experience Platformに直接読み込む必要があります。
+>
+>キャンペーン生成データのみ（送信、開く、クリック数など）をエクスポートすることをお勧めします。 Adobe Experience Platformに サードパーティのソース（CRMなど）から取り込まれたデータは、Adobe Experience Platformに直接読み込む必要があります。
 
 ## Campaign Standardでの書き出しワークフローの作成
 
@@ -55,7 +55,7 @@ Campaign StandardからS3またはAzure Blobストレージの場所にデータ
 
 ## ストレージの場所をソースとして接続する
 
-S3またはAzure BLOBストレージの場所をAdobeエクスペリエンスプラットフォームの&#x200B;**ソース**&#x200B;として接続する主な手順を以下に示します。 これらの各手順に関する詳細は、[ソースコネクタドキュメント](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html)を参照してください。
+Adobeエクスペリエンスプラットフォームで、Amazonストレージサービス(S3)またはAzure Blobストレージの場所を&#x200B;**ソース**&#x200B;として接続する主な手順を以下に示します。 これらの各手順に関する詳細は、[ソースコネクタドキュメント](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html)を参照してください。
 
 1. Adobe Experience Platform **[!UICONTROL Sources]**&#x200B;メニューで、ストレージの場所への接続を作成します。
 
