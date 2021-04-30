@@ -6,11 +6,11 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Campaign Standard の使用に必要な主要な機能、タスク、設定、その他のリソースに関するヘルプセンター。 '
 title: Campaign Standard ガイド
 breadcrumb-title: ヘルプセンター
-translation-type: ht
-source-git-commit: 479819df78953e7703738f31e3ef8bd9146416d5
-workflow-type: ht
-source-wordcount: '1779'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 830c003e36cec41e5cf480f66812900312609e9f
+workflow-type: tm+mt
+source-wordcount: '1783'
+ht-degree: 99%
 
 ---
 
@@ -29,6 +29,7 @@ ht-degree: 100%
       + [リリースノート 2017](rn/using/release-notes-2017.md)
    + [リリース計画](rn/using/release-planning.md)
    + [廃止された機能](rn/using/deprecated-features.md)
+   + [追跡されたURLの署名の問題](rn/using/tracked-urls.md)
 + はじめに {#getting-started}
    + [Adobe Campaign Standard について](start/using/about-campaign-standard.md)
    + インターフェイスの検出{#discovering-the-interface}
