@@ -11,7 +11,7 @@ role: Business Practitioner
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
 translation-type: tm+mt
-source-git-commit: fdf999f4200a1661ea720b142180abffe9a3aef4
+source-git-commit: 8b8f41917349800327b2bddc820e677f913cdaf7
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 98%
@@ -44,11 +44,11 @@ ht-degree: 98%
  <tbody>
   <tr>
    <td>ステージング<br /> </td>
-   <td>6月7日～8日<br /> </td>
+   <td>2021年6月7日～8日<br /> </td>
   </tr>
   <tr>
    <td> プロダクション<br /> </td>
-   <td>6月14-21日<br /> </td>
+   <td>2021年6月14日～21日<br /> </td>
   </tr>
  </tbody>
 </table>
