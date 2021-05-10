@@ -6,17 +6,17 @@ description: Campaign で配信エラーを管理する方法について説明�
 audience: sending
 content-type: reference
 topic-tags: monitoring-messages
-feature: Deliverability
+feature: 配信品質
 role: Business Practitioner
 level: Intermediate
+exl-id: 92a83400-447a-4d23-b05c-0ea013042ffa
 translation-type: tm+mt
-source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
+source-git-commit: dbc176188d936160e04956e7598bd219ba80347e
 workflow-type: tm+mt
-source-wordcount: '1310'
-ht-degree: 73%
+source-wordcount: '1307'
+ht-degree: 74%
 
 ---
-
 
 # 配信エラーの理解{#understanding-delivery-failures}
 
@@ -68,7 +68,7 @@ ht-degree: 73%
 | **[!UICONTROL Refused]** | ソフト／ハード | アドレスは、スパムレポートであるというセキュリティフィードバックが原因で強制隔離されました。プロバイダーから返されるエラーに従い、アドレスは強制隔離に直接送られます。また配信は、強制隔離ステータスが妥当と判断されるエラーを Campaign が受け取るまで、またはエラー件数が 5 に達するまで試行されます。 |
 | **[!UICONTROL Duplicate]** | 無視 | アドレスは既にセグメントで検出されています。 |
 | **[!UICONTROL Not defined]** | ソフト | エラーはまだ増加していないので、アドレスは認定対象です。 このタイプのエラーは、サーバーが新しいエラーメッセージを送信すると発生します。単独のエラーである可能性もありますが、再度発生した場合はエラーカウンターがインクリメントされ、テクニカルチームに警告されます。 |
-| **[!UICONTROL Error ignored]** | 無視 | アドレスは許可リスト上にあり、場合によっては電子メールが送信されます。 |
+| **[!UICONTROL Error ignored]** | 無視 | このアドレスは許可リスト上にあり、いつでも電子メールが送信されます。 |
 | **[!UICONTROL Address on denylist]** | ハード | 送信時にアドレスがブロックリストに追加されました。 |
 | **[!UICONTROL Account disabled]** | ソフト／ハード | インターネットアクセスプロバイダ(IAP)が長時間の無操作状態を検出した場合、ユーザーのアカウントを閉じる可能性があります。その場合、ユーザーのアドレスへの配信は不可能になります。 ソフト／ハードタイプは、受け取ったエラーの種類によって異なります。使用されていない期間が 6 ヶ月に達したのでアカウントが一時的に無効になっても、有効化できる場合は、「**[!UICONTROL Erroneous]**」ステータスが割り当てられ、配信が再試行されます。アカウントが永続的に無効化されたことを、受信したエラーが示している場合、アカウントは強制隔離に直接送られます。 |
 | **[!UICONTROL Not connected]** | 無視 | プロファイルの携帯電話は、メッセージの送信時にオフになるか、ネットワークに接続されません。 |
@@ -78,8 +78,8 @@ ht-degree: 73%
 
 
 **関連トピック：**
-* [ハードバウンス](https://experienceleague.corp.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#hard-bounces)
-* [ソフトバウンス](https://experienceleague.corp.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#soft-bounces)
+* [ハードバウンス](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#hard-bounces)
+* [ソフトバウンス](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#soft-bounces)
 
 ## 一時的な配信エラーの後の再試行 {#retries-after-a-delivery-temporary-failure}
 
