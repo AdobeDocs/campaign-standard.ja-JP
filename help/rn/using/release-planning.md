@@ -10,11 +10,11 @@ feature: 概要
 role: Business Practitioner
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8b8f41917349800327b2bddc820e677f913cdaf7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '466'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 98%
 
 すべてのリリース日は変更される可能性があります。このページに定期的にアクセスして、アップデートを確認することをお勧めします。
 
-## リリース21.2 - 2021年6月リリース{#release-21-2-release}
+## リリース 21.2 - 2021 年 6 月リリース{#release-21-2-release}
 
 環境のアップデートは、以下に示す期間に順次おこなわれます。正確な日付は、各顧客に E メールで通知されます。
 
@@ -44,11 +44,11 @@ ht-degree: 98%
  <tbody>
   <tr>
    <td>ステージング<br /> </td>
-   <td>2021年6月7日～8日<br /> </td>
+   <td>2021 年 6 月 7～8 日<br /> </td>
   </tr>
   <tr>
-   <td> プロダクション<br /> </td>
-   <td>2021年6月14日～21日<br /> </td>
+   <td> 本番<br /> </td>
+   <td>2021 年 6 月 14～21 日<br /> </td>
   </tr>
  </tbody>
 </table>
@@ -65,7 +65,7 @@ A：変更点は[リリースノート](../../rn/using/release-notes.md)に記�
 
 **Q：検証プロセスとは何ですか？**
 
-A：ステージング用インスタンスがアップグレードされたら、お客様のプロセスとユースケースがこの新しいバージョンで正しく動作することを検証し、問題があれば[アドビクライアントケア](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)に報告することをお勧めします。
+A：ステージング用インスタンスがアップグレードされたら、お客様のプロセスとユースケースがこの新しいバージョンで正しく動作することを検証し、問題があれば[アドビクライアントケア](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)に報告することをお勧めします。
 
 **Q：アップグレード中にインスタンスにアクセスできますか？**
 
@@ -87,4 +87,4 @@ A：はい。アップグレード中に新しい E メールは送信できま�
 
 A：Campaign にログオンすると、リリース通知ポップアップが表示され、最新バージョンが表示されます。
 
-その他のご質問については、[アドビクライアントケア](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)にお問い合わせください。
+その他のご質問については、[アドビクライアントケア](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)にお問い合わせください。
