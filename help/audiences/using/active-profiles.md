@@ -1,45 +1,49 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: アクティブなプロファイル
-description: 顧客指標に関する専用レポートにアクセスし、キャンペーンデータベースでアクティブなプロファイルを視覚化できます。
-audience: audiences
-content-type: reference
-topic-tags: managing-profiles
-feature: Profiles
+title: キャンペーンアクティブプロファイル
+description: 顧客指標およびアクティブなプロファイルにアクセスする方法について説明します。
+feature: プロファイル
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
+exl-id: 22516348-7695-4579-99eb-480e5b723ccc
+source-git-commit: d2fcf2ca22bb5fe3632280f922dfed0972f6eb09
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 13%
+source-wordcount: '290'
+ht-degree: 12%
 
 ---
 
+# 顧客指標 {#customer-metrics}
 
-# アクティブなプロファイル{#active-profiles}
-
-Adobe Campaignは、アクティブなプロファイルの数を表示するレポートを提供します。 このレポートは情報を提供するだけで、請求に直接影響しません。 **[!UICONTROL Administration > Customer metrics]**&#x200B;の下で、管理者のみがこのレポートにアクセスできます。
+キャンペーン機能の管理者は、**[!UICONTROL Administration > Customer metrics]**&#x200B;から&#x200B;**[!UICONTROL Customer metrics]**&#x200B;レポートにアクセスできます。
 
 ![](assets/audience_active_profiles1.png)
 
+このレポートには次の情報が表示されます。
+
+* Experience CloudID
+* IMS組織ID
+* **アクティブなプロファイル**&#x200B;の数
+* インスタンスで使用可能なターゲティングディメンションのリスト
+
+このレポートは、テクニカルワークフロー&#x200B;**[!UICONTROL Billing]**&#x200B;によって毎月生成されます。
+
+## アクティブなプロファイル{#active-profiles}
+
+契約に従って、各キャンペーンインスタンスには、特定の数のアクティブなプロファイルがプロビジョニングされます。 購入したアクティブなプロファイルの数については、使用許諾契約書を参照してください。
+
 >[!NOTE]
 >
->ビルド10368のCampaign Standardを使用している場合は、インスタンスで使用されるアクティブなプロファイルの数をCampaign コントロールパネルから直接監視することもできます。 詳しくは、[コントロールパネルのドキュメント](https://docs.adobe.com/content/help/ja-JP/control-panel/using/performance-monitoring/active-profiles-monitoring.html)を参照してください。
->
->アクティブなプロファイル指標は使用可能で、**マーケティングインスタンス**&#x200B;にのみ関連します。 MID（ミッドソーシング）およびRT(Message Center/Real-time messaging)インスタンスを意味する、実行インスタンスには適用されず、使用できません。
+>管理者ユーザーは、インスタンスで使用されるアクティブなプロファイルの数をCampaign コントロールパネルから直接監視することもできます。 詳しくは、[コントロールパネルのドキュメント](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html?lang=ja)を参照してください。
 
-配信の準備中に除外されたプロファイル(タイポロジルール、強制隔離、コントロール母集団)は考慮されません。 プロファイルは、複数の配信のターゲットになっていても一度しかカウントされません。レポートの下部には、各ターゲティングディメンションのアクティブなプロファイルのリストが表示されます。
 
-このレポートは、テクニカルワークフロー&#x200B;**[!UICONTROL Billing]**&#x200B;によって毎月生成されます。 過去12か月間の周期中にターゲットにしたアクティブなプロファイルの数が含まれます。
-
-配信の準備中に除外されたプロファイル(タイポロジルール、強制隔離)は考慮されません。 また、複数の配信がターゲットにしたプロファイルは1回だけカウントされます。
+「プロファイル」とは、エンド顧客、見込み客、またはリードを表す情報の記録です。 プロファイルが、過去12か月間に何らかのチャネルを介してキャンペーン配信によってターゲット設定された場合、**アクティブ**&#x200B;と見なされます。 配信の準備中に除外されたプロファイル(タイポロジルールや強制隔離メカニズムなどによる)は考慮されません。 プロファイルは、複数の配信のターゲットになっていても一度しかカウントされません。このレポートは情報を提供するだけで、請求に直接影響しません。
 
 ![](assets/audience_active_profiles2.png)
 
-レポートの下部には、請求ワークフローで処理されるアクティブなプロファイルのリストが表示されます。
+レポートの下部には、各ターゲティングディメンションのアクティブなプロファイルのリストが表示されます。 過去12か月間の周期中にターゲットにしたアクティブなプロファイルの数が表示されます。
 
-* **[!UICONTROL NmsRecipient]**&#x200B;ソースには、Campaign Standardプロファイルの情報を使用して連絡を受けたすべての顧客が含まれます。
+* **[!UICONTROL NmsRecipient]**&#x200B;ソースには、Campaign Standardプロファイルの情報を使用して接続されたすべてのプロファイルが含まれています。
 
-* 一方、特定の情報（電子メールアドレス、電話番号）のみを使用してターゲットに設定され、キャンペーンプロファイルとは無関係の顧客は&#x200B;**[!UICONTROL anonymous]**&#x200B;のソースに属します。
+* 顧客&#x200B;**[!UICONTROL anonymous]**&#x200B;のソースは、特定のプロファイル（電子メールアドレス、電話番号）のみを使用し、キャンペーンプロファイルとは無関係にターゲットにした情報の数を表示します。
