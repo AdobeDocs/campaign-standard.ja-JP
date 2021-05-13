@@ -6,16 +6,15 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Campaign Standard の使用に必要な主要な機能、タスク、設定、その他のリソースに関するヘルプセンター。 '
 title: Campaign Standard ガイド
 breadcrumb-title: ヘルプセンター
-translation-type: ht
-source-git-commit: 830c003e36cec41e5cf480f66812900312609e9f
-workflow-type: ht
-source-wordcount: '1783'
-ht-degree: 100%
+source-git-commit: c656aba6c9db769208a8af120d492f6a8a2a944e
+workflow-type: tm+mt
+source-wordcount: '1785'
+ht-degree: 99%
 
 ---
 
 
-# Adobe Campaign Standard ヘルプ{#using}
+# Adobe Campaign Standard ヘルプ {#using}
 
 + [製品ドキュメント](campaign-standard-home.md)
 + [最新の更新](rn/using/documentation-updates.md)
@@ -30,7 +29,7 @@ ht-degree: 100%
    + [リリース計画](rn/using/release-planning.md)
    + [廃止された機能](rn/using/deprecated-features.md)
    + [トラッキングする URL の署名に関する問題](rn/using/tracked-urls.md)
-+ はじめに {#getting-started}
++ はじめに{#getting-started}
    + [Adobe Campaign Standard について](start/using/about-campaign-standard.md)
    + インターフェイスの検出{#discovering-the-interface}
       + [インターフェイスについて](start/using/about-the-interface.md)
@@ -44,7 +43,7 @@ ht-degree: 100%
       + [タイムライン](start/using/timeline.md)
    + プライバシー {#privacy}
       + [プライバシーと同意](start/using/privacy.md)
-      + [プライバシーの管理](start/using/privacy-management.md)
+      + [プライバシー管理](start/using/privacy-management.md)
       + [プライバシーリクエスト](start/using/privacy-requests.md)
       + [プライバシーに関する FAQ](start/using/privacy-faq.md)
    + [ヘルプとサポートオプション](support.md)
@@ -55,7 +54,7 @@ ht-degree: 100%
       + [プロファイルの作成](audiences/using/creating-profiles.md)
       + [プロファイルの編集](audiences/using/editing-profiles.md)
       + [統合顧客プロファイル](audiences/using/integrated-customer-profile.md)
-      + [アクティブなプロファイル](audiences/using/active-profiles.md)
+      + [指標とアクティブなプロファイル](audiences/using/active-profiles.md)
       + [テストプロファイルの管理](audiences/using/managing-test-profiles.md)
       + [Campaign データベースの強化](audiences/using/enriching-campaign-database.md)
    + オーディエンスの管理{#managing-audiences}
@@ -72,7 +71,7 @@ ht-degree: 100%
       + [Campaign のオプトインとオプトアウトについて](audiences/using/about-opt-in-and-opt-out-in-campaign.md)
       + [Campaign のオプトインとオプトアウトの管理](audiences/using/managing-opt-in-and-opt-out-in-campaign.md)
       + [配信のオプトアウトプロファイルの識別](audiences/using/identifying-opt-out-profiles-for-a-delivery.md)
-+ 通信チャネル {#communication-channels}
++ 通信チャネル{#communication-channels}
    + [通信チャネルの概要](channels/using/get-started-communication-channels.md)
    + 通信チャネルについて {#about-communication-channels}
       + [メッセージを送信するための主要な手順](channels/using/key-steps-to-send-a-message.md)
@@ -117,7 +116,7 @@ ht-degree: 100%
       + [ダイレクトメールの作成](channels/using/creating-the-direct-mail.md)
       + [ダイレクトメールオーディエンスの定義](channels/using/defining-the-direct-mail-audience.md)
       + [ダイレクトメールのコンテンツの定義](channels/using/defining-the-direct-mail-content.md)
-   + トランザクションメッセージング{#transactional-messaging}
+   + トランザクションメッセージ {#transactional-messaging}
       + [トランザクションメッセージの概要](channels/using/getting-started-with-transactional-msg.md)
       + [ベストプラクティスと制限事項](channels/using/transactional-messaging-limitations.md)
       + イベント設定 {#event-configuration}
@@ -193,7 +192,7 @@ ht-degree: 100%
       + [フィルタールール](sending/using/filtering-rules.md)
       + [疲労ルール](sending/using/fatigue-rules.md)
       + [コントロールルール](sending/using/control-rules.md)
-+ レポート {#reporting}
++ レポート{#reporting}
    + [動的レポートの概要](reporting/using/get-started-reporting.md)
    + レポートについて{#about-reporting}
       + [動的レポートについて](reporting/using/about-dynamic-reports.md)
@@ -205,7 +204,7 @@ ht-degree: 100%
       + [レポート期間の定義](reporting/using/defining-the-report-period.md)
       + [バウンス概要](reporting/using/bounce-summary.md)
       + [ドメイン別の分類](reporting/using/breakdown-by-domains.md)
-      + [苦情数](reporting/using/complaints.md)
+      + [苦情](reporting/using/complaints.md)
       + [配信の概要](reporting/using/delivery-summary.md)
       + [配信スループット](reporting/using/delivery-throughput.md)
       + [アプリ内レポート](reporting/using/in-app-report.md)
@@ -214,7 +213,7 @@ ht-degree: 100%
       + [プッシュ通知レポート](reporting/using/push-notification-report.md)
       + [SMS レポート](reporting/using/sms-report.md)
       + [トラッキング指標](reporting/using/tracking-indicators.md)
-      + [サブスクリプション解除](reporting/using/unsubscriptions.md)
+      + [購読解除](reporting/using/unsubscriptions.md)
       + [URL とクリックストリーム](reporting/using/urls-and-click-streams.md)
       + [ホットクリック](reporting/using/hot-clicks.md)
       + [サービスの概要](reporting/using/service-summary.md)
@@ -251,7 +250,7 @@ ht-degree: 100%
       + [Campaign と POI データの統合の設定](integrating/using/configuring-campaign-points-of-interest-data-integration.md)
       + [POI データを使用した Campaign メッセージのパーソナライズ](integrating/using/personalizing-campaign-messages-with-point-of-interest-data.md)
    + Campaign とトリガー{#working-with-campaign-and-triggers}
-      + [Adobe Experience Cloud トリガーについて](integrating/using/about-adobe-experience-cloud-triggers.md)
+      + [Adobe Experience Cloud Triggers について](integrating/using/about-adobe-experience-cloud-triggers.md)
       + [Experience Cloud でのトリガーの設定](integrating/using/configuring-triggers-in-experience-cloud.md)
       + [Campaign でのトリガーの使用](integrating/using/using-triggers-in-campaign.md)
       + [トリガーのテスト](integrating/using/testing-your-triggers.md)
@@ -270,9 +269,9 @@ ht-degree: 100%
       + [Microsoft Dynamics 365 統合の使用](integrating/using/d365-acs-using-the-integration.md)
    + Campaign と Adobe Experience Platform {#adobe-experience-platform}
       + Adobe Experience Platform のソースと宛先{#aep-sources-destinations}
-         + [ソースと宛先の概要](integrating/using/get-started-sources-destinations.md)
+         + [ソースと宛先の基本を学ぶ](integrating/using/get-started-sources-destinations.md)
          + [Adobe Experience Platform オーディエンスの Campaign への取り込み](integrating/using/ingest-aep-data.md)
-         + [Campaign から Adobe Experience Platform にデータをエクスポート](integrating/using/export-campaign-data.md)
+         + [Campaign から Adobe Experience Platform へのデータのエクスポート](integrating/using/export-campaign-data.md)
       + Audience Destinations サービス（ベータ版）{#audience-destinations}
          + [Audience Destinations サービスについて](integrating/using/aep-about-audience-destinations-service.md)
          + [Adobe Experience Platform オーディエンスの管理](integrating/using/aep-managing-audiences.md)
@@ -285,7 +284,7 @@ ht-degree: 100%
          + [マッピング定義](integrating/using/aep-mapping-definition.md)
          + [マッピングのアクティベーション](integrating/using/aep-mapping-activation.md)
          + [API によるデータ取得トリガー](integrating/using/aep-triggering-data-ingestion.md)
-+ プロセスとデータの管理 {#managing-processes-and-data}
++ プロセスとデータの管理{#managing-processes-and-data}
    + [データとプロセスの管理の概要](automating/using/get-started-workflows.md)
    + ワークフローの一般操作 {#workflow-general-operation}
       + [ワークフローインターフェイス](automating/using/workflow-interface.md)
@@ -295,7 +294,7 @@ ht-degree: 100%
       + [ワークフローの実行について](automating/using/about-workflow-execution.md)
       + [ワークフローのライフサイクル](automating/using/workflow-life-cycle.md)
       + [実行コマンド](automating/using/execution-commands.md)
-      + [ワークフロー実行の監視](automating/using/monitoring-workflow-execution.md)
+      + [監視ワークフローの実行](automating/using/monitoring-workflow-execution.md)
       + [実行オプションの管理](automating/using/managing-execution-options.md)
       + [アクティビティのプロパティの管理](automating/using/activity-properties.md)
       + [スケジュールされたワークフローの重複実行](automating/using/scheduled-workflows-execution.md)
@@ -322,7 +321,7 @@ ht-degree: 100%
       + [実行アクティビティについて](automating/using/about-execution-activities.md)
       + [開始および終了](automating/using/start-and-end.md)
       + [分岐](automating/using/fork.md)
-      + [AND 結合](automating/using/and-join.md)
+      + [AND-join](automating/using/and-join.md)
       + [スケジューラー](automating/using/scheduler.md)
       + [待機](automating/using/wait.md)
       + [外部シグナル](automating/using/external-signal.md)
@@ -341,7 +340,7 @@ ht-degree: 100%
       + [ファイル転送](automating/using/transfer-file.md)
       + [紐付け](automating/using/reconciliation.md)
       + [ファイル抽出](automating/using/extract-file.md)
-      + [サブスクリプションサービス](automating/using/subscription-services.md)
+      + [購読サービス](automating/using/subscription-services.md)
       + [外部 API](automating/using/external-api.md)
    + データのフィルター {#filtering-data}
       + [クエリの編集](automating/using/editing-queries.md)
@@ -390,7 +389,7 @@ ht-degree: 100%
          + [外部ファイル内のプロファイルの書き出し](automating/using/exporting-profiles-in-file.md)
          + [ファイルからの複数の購読ステータスの更新](automating/using/updating-subscriptions-from-file.md)
          + [ファイルから特定のサービスへのプロファイルの購読](automating/using/subscribing-profiles-from-file.md)
-+ 開発中{#developing}
++ 開発{#developing}
    + [Campaign Standard データモデルの概要](developing/using/get-started-data-model.md)
    + カスタムリソースについて{#about-custom-resources}
       + [データモデルの概念](developing/using/data-model-concepts.md)
@@ -429,7 +428,7 @@ ht-degree: 100%
       + [トラッキングログ](developing/using/datamodel-tracking.md)
       + [サブスクリプション解除イベント](developing/using/datamodel-unsubscription.md)
       + [訪問者](developing/using/datamodel-visitor.md)
-+ 管理{#administrating}
++ 管理 {#administrating}
    + [Campaign Standard の管理の概要](administration/using/get-started-campaign-administration.md)
    + [監視のガイドライン](administration/using/monitoring-guidelines.md)
    + [設定のガイドライン](administration/using/about-configuration-guidelines.md)
@@ -444,7 +443,7 @@ ht-degree: 100%
    + チャネルの設定{#configuring-channels}
       + [チャネル設定について](administration/using/about-channel-configuration.md)
       + [E メールチャネルの設定](administration/using/configuring-email-channel.md)
-      + [ISPの使用停止後にバウンスの資格を更新する](administration/using/update-bounce-qualification.md)
+      + [ISP 機能停止後のバウンス認定条件の更新](administration/using/update-bounce-qualification.md)
       + [モバイルアプリケーションの設定](administration/using/configuring-a-mobile-application.md)
    + モバイルチャネルの設定 {#configuring-mobile}
       + [プッシュトラッキングの実装](administration/using/push-tracking.md)
