@@ -10,10 +10,9 @@ feature: 概要
 role: Business Practitioner
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-translation-type: tm+mt
-source-git-commit: dbc176188d936160e04956e7598bd219ba80347e
+source-git-commit: d1bd8cce4dd45c2fca032c5f02309dfc8c56c25d
 workflow-type: tm+mt
-source-wordcount: '6777'
+source-wordcount: '6790'
 ht-degree: 99%
 
 ---
@@ -22,13 +21,20 @@ ht-degree: 99%
 
 このページでは、Adobe Campaign の[リリースノート](../../rn/using/release-notes.md)に加えて、Adobe Campaign Standard のドキュメントの新しいアップデートをすべて紹介します。
 
+## 2021 年 5 月 {#doc-updates-may-2021}
+
+**アクティブなプロファイル**&#x200B;レポートセクションが更新されました。 [詳細情報](../../audiences/using/active-profiles.md)
+
+**リリース計画**&#x200B;ページが更新され、新しい日付が追加されました。 [詳細情報](../../rn/using/release-planning.md)
+
+
 ## 2021 年 4 月{#doc-updates-april-2021}
 
 Adobe Experience Platform のソースと宛先を使って Campaign Standard と Adobe Real-time Customer Data Platform（RTCDP）間でデータを共有する方法について、新しい節で説明しています。[詳細](../../integrating/using/get-started-sources-destinations.md)
 
 ## 2021 年 3 月{#doc-updates-march-2021}
 
-Campaign Standard 用の「ヘルプとサポートのオプション」ページが、コアドキュメントに統合されました。 [詳細情報](../../support.md)
+新しい&#x200B;**ヘルプとサポートのオプション**&#x200B;ページが追加されました。 [詳細情報](../../support.md)
 
 メッセージを送信するための主要な手順をリストするセクションは、追加情報と参照で強化されました。[詳細情報](../../channels/using/key-steps-to-send-a-message.md)
 
