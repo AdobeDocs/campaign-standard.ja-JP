@@ -6,10 +6,10 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Campaign Standard の使用に必要な主要な機能、タスク、設定、その他のリソースに関するヘルプセンター。 '
 title: Campaign Standard ガイド
 breadcrumb-title: ヘルプセンター
-source-git-commit: c656aba6c9db769208a8af120d492f6a8a2a944e
+source-git-commit: 105bc765f658cab39ec2628e39d51426005da6bd
 workflow-type: tm+mt
-source-wordcount: '1785'
-ht-degree: 99%
+source-wordcount: '1783'
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 99%
       + [プロファイルの作成](audiences/using/creating-profiles.md)
       + [プロファイルの編集](audiences/using/editing-profiles.md)
       + [統合顧客プロファイル](audiences/using/integrated-customer-profile.md)
-      + [指標とアクティブなプロファイル](audiences/using/active-profiles.md)
+      + [アクティブなプロファイル](audiences/using/active-profiles.md)
       + [テストプロファイルの管理](audiences/using/managing-test-profiles.md)
       + [Campaign データベースの強化](audiences/using/enriching-campaign-database.md)
    + オーディエンスの管理{#managing-audiences}
