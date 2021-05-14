@@ -13,3 +13,4 @@ ht-degree: 100%
 トラブルシューティング、操作方法、およびベストプラクティスの詳細については、[テクニカルノート](https://helpx.adobe.com/jp/campaign/kb/acs-article-list.html)を参照してください。
 
 Adobe Campaign Standard の機能に関するビデオについては、[チュートリアル](https://docs.adobe.com/content/help/ja-JP/campaign-standard-learn/tutorials/overview.html)をご覧ください。
+
