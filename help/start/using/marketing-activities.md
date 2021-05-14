@@ -7,17 +7,16 @@ audience: start
 content-type: reference
 topic-tags: marketing-plans
 context-tags: activity,overview
-feature: Campaigns
+feature: キャンペーン
 role: Business Practitioner
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: c75471aa-b947-4488-a569-5412d3825c64
+source-git-commit: 6ca6fabc42f63791f4c2b0f1d2d6bd8ea5e27f7a
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '488'
 ht-degree: 83%
 
 ---
-
 
 # マーケティングアクティビティ{#marketing-activities}
 
@@ -33,7 +32,7 @@ ht-degree: 83%
 >
 >また、マーケティングアクティビティは、ホームページから&#x200B;**[!UICONTROL Marketing activities]**&#x200B;カードを選択してアクセスすることもできます。
 
-![](assets/marketing_activities_1.png)
+![](assets/marketing_activities.png)
 
 **[!UICONTROL Search]**&#x200B;パネルでは、名前（ラベルと ID）、日付、ステータス、アクティビティタイプなどの様々な条件に従って要素をフィルタリングできます。デフォルトでは、プログラムを除くすべてのアクティビティタイプが選択されます。
 
@@ -47,7 +46,7 @@ ht-degree: 83%
 
 * ![](assets/marketing_program_icon.png) プログラム
 * ![](assets/marketing_campaign_icon.png) キャンペーン
-* ![](assets/marketing_email_icon.png) 電子メール
+* ![](assets/marketing_email_icon.png) E メール
 * ![](assets/marketing_sms_icon.png) SMS
 * ![](assets/marketing_push_icon.png) プッシュ通知
 * ![](assets/marketing_lp_icon.png) アプリ内メッセージ
@@ -96,4 +95,3 @@ ht-degree: 83%
 >[!NOTE]
 >
 >また、マーケティングアクティビティリストからマーケティングアクティビティを作成することもできます。この場合、任意のタイプのアクティビティを作成し、アクティビティのプロパティを介してマーケティングアクティビティを親キャンペーン(プログラムを作成する場合は親プログラム)にリンクさせることができます。
-
