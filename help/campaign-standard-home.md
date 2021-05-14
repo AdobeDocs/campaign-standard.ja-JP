@@ -8,11 +8,10 @@ feature: 概要
 role: Business Practitioner
 level: Beginner
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
-translation-type: ht
-source-git-commit: c2d3217156bd942ec0948e65d48c65be3b89e71e
-workflow-type: ht
-source-wordcount: '238'
-ht-degree: 100%
+source-git-commit: 105bc765f658cab39ec2628e39d51426005da6bd
+workflow-type: tm+mt
+source-wordcount: '239'
+ht-degree: 93%
 
 ---
 
@@ -24,7 +23,7 @@ ht-degree: 100%
 
 * **[Campaign - RTCDP 間の連携](integrating/using/get-started-sources-destinations.md)**<br/>Campaign と Real-time Customer Data Platform（RTCDP）間でデータを共有する方法を説明します。
 
-* **[誤ったハードバウンスの更新](https://helpx.adobe.com/jp/campaign/kb/update-bounce-qualification.html)**<br/> Gmail の停止後に誤ったハードバウンスを更新する方法を説明します。
+* **[誤ったハード](https://helpx.adobe.com/jp/campaign/kb/update-bounce-qualification.html)**<br/> バウンスの更新電子メールの停止後に誤ったハードバウンスを更新する方法を説明します。
 
 * **[コントロール母集団](sending/using/control-group.md)**<br/>オーディエンスの一部を除外して、キャンペーンの影響を測定します
 
