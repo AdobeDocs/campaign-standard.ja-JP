@@ -3,24 +3,20 @@ solution: Campaign Standard
 product: campaign
 title: サブスクリプションについて
 description: Campaign Standard のサービスとサブスクリプションについての詳細。
-audience: audiences
-content-type: reference
-topic-tags: managing-subscriptions
-feature: Audiences
+feature: オーディエンス
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 177f0115-d269-44e8-94e0-123360ea6299
+source-git-commit: 326683683c1564dc4c828d1ed34a3c13bae3a46e
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 53%
+source-wordcount: '221'
+ht-degree: 40%
 
 ---
 
-
 # サブスクリプションについて{#about-subscriptions}
 
-Adobe Campaign では、一連の&#x200B;**サービス**&#x200B;を通じて、ニュースレターやチャネル間の通信を作成および管理できます。メッセージは、サービスを購入（オプトイン）しているプロファイルにのみ送信できます。これらのプロファイルは、メッセージを作成する際に、専用のフィルターを使用して特定されます。
+Adobe Campaignを使用して、**サービス**&#x200B;を通じてニュースレターやチャネル間の通信を作成および管理します。メッセージは、サービスを購読しているプロファイル（オプトイン）にのみ送信されます。 これらのプロファイルは、メッセージを作成する際に、専用のフィルターを使用して特定されます。
 
 サブスクリプションメカニズムの設定により、顧客がこれらのサービスを（特に **E メール**&#x200B;と&#x200B;**ランディングページ**&#x200B;から）購読できるようにすることができます。
 
