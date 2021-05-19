@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,main
-feature: Landing Pages
+feature: ランディングページ
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 0b9795e9-83e6-4399-a3b1-fc69081f6a82
+source-git-commit: 2cf8b960789ccf32b4782faa337654986e3fddbf
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 99%
+source-wordcount: '659'
+ht-degree: 97%
 
 ---
-
 
 # ランディングページの設定 {#configuring-landing-page}
 
@@ -70,12 +69,11 @@ ht-degree: 99%
 
    ページの訪問者がデータベース内のプロファイルに該当する場合、データベースのデータがマップされているフォームのフィールドにその訪問者のデータが表示され、ランディングページのパーソナライゼーション要素が適用されます。
 
-   ![](assets/lp_parameters_3.png)
+   ![](assets/lp_parameters_3_temp.png)
 
-また、次のこともできます。
+**[!UICONTROL Authorize unidentified visitors]**&#x200B;オプションを使用して、すべての訪問者がランディングページにアクセスすることを許可することもできます。
 
-* 「**[!UICONTROL Authorize visitor identification via URL parameters]**」オプションを選択し、URL パラメーターを使用して訪問者を識別します。次に、読み込みキーを選択し、フィルターパラメーターを対応する URL のパラメーターとマッピングする必要があります。
-* 「**[!UICONTROL Authorize unidentified visitors]**」オプションを使用して、ランディングページにアクセスするすべての訪問者を認証します。
+<!--Use the URL parameters to identify the visitors, using the **[!UICONTROL Authorize visitor identification via URL parameters]** option: then you must choose the loading key and map the filter parameters with the parameters of the corresponding URL.-->
 
 ランディングページは、組織単位にリンクすることもできます。これにより、各種のランディングページへのユーザーのアクセスが定義されます。組織単位を割り当てるには、次の手順に従います。
 
@@ -111,7 +109,7 @@ ht-degree: 99%
 1. 「**[!UICONTROL Use reCAPTCHA to protect your site from spam and abuse]**」オプションをオンにします。
 1. 作成した Google reCAPTCHA 外部アカウントを選択します。
 
-   ![](assets/lp_parameters_google.png)
+   ![](assets/lp_parameters_google_temp.png)
 
 1. 「**[!UICONTROL Confirm]**」をクリックします。
 
