@@ -10,16 +10,21 @@ feature: 概要
 role: Business Practitioner
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: e996a5c6722c211c931427ff59f8d219d493aca7
-workflow-type: ht
-source-wordcount: '2479'
-ht-degree: 100%
+source-git-commit: 3206835d231378f40ed468286384a56cb38f0059
+workflow-type: tm+mt
+source-wordcount: '2500'
+ht-degree: 99%
 
 ---
 
 # 最新リリース{#latest-release}
 
 [リリース計画](../../rn/using/release-planning.md) | [コントロールパネルのリリース](https://docs.adobe.com/content/help/ja-JP/control-panel/using/release-notes.html) | [ドキュメントの更新](../../rn/using/documentation-updates.md) | [以前のリリースノート](../../rn/using/release-notes-2020.md) | [非推奨（廃止予定）の機能](../../rn/using/deprecated-features.md)
+
+
+## リリース 21.2 - 2021 年 6 月 {#release-21-2}
+
+次回のCampaign Standardリリースに含まれる新機能、改善点、修正点については、[先行リリースノート](e-release-notes.md)を参照してください。
 
 ## リリース 21.1 - 2021 年 2 月 {#release-21-1---february-2021}
 
