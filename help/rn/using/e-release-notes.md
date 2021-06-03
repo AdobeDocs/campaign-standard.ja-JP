@@ -8,9 +8,9 @@ role: Business Practitioner
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: c98aa913f4004d49a897ea71e39cbfe6b3dd53c1
+source-git-commit: 7eb12fbb89f677eb7184cb5ff200d3f8a466d3c8
 workflow-type: tm+mt
-source-wordcount: '1008'
+source-wordcount: '1032'
 ht-degree: 3%
 
 ---
@@ -53,6 +53,9 @@ ht-degree: 3%
 * EメールデザイナーとのAsset Core Service統合が、標準ユーザーで使用できるようになりました。
 
 * v4プッシュアプリケーションからv5プッシュアプリケーションへの移行を成功させたことを確認する新しいメッセージが追加されました。
+
+* Campaign StandardAPIに対して認証するJSONWebトークンの作成中に、製品プロファイルが&#x200B;****&#x200B;と見なされるようになりました。 つまり、セキュリティグループに割り当てられる組織単位と役割（AdobeIOの製品プロファイルと一致）は、Campaign StandardRest API呼び出しに必要なIMSテクニカルアカウントに適用されます。 （CAMP-47479）
+
 
 **パッチ**
 
@@ -111,5 +114,3 @@ ht-degree: 3%
 * Eメールデザイナーで、アセットを選択しようとするとAsset Core Service統合が失敗し続けていた問題を修正しました。 （CAMP-47446）
 
 * CampaignがJourney Orchestrationから送信されたイベントで送信された正確な値（00で終わる）のタイムスタンプをサポートしないことが原因で、一部のJourney Orchestration配信をブロックしていた問題を修正しました。
-
-* updateDeliveryIndicatorsテクニカルワークフローが最適化されました。 同じbroadlog/trackinglogスキーマを持つ配信IDがグループ化されるようになりました。 これにより、クエリの数が制限され、パフォーマンスが向上します。
