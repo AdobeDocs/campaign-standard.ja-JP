@@ -1,36 +1,46 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: キャンペーンアクティブプロファイル
-description: 顧客指標およびアクティブなプロファイルにアクセスする方法について説明します。
+title: キャンペーンのアクティブなプロファイル
+description: 顧客指標とアクティブなプロファイルにアクセスする方法を説明します
 feature: プロファイル
 role: Business Practitioner
 level: Intermediate
 exl-id: 22516348-7695-4579-99eb-480e5b723ccc
-source-git-commit: d30ce292ca07b9eb0b6965e47e12ddd4e24041ad
+source-git-commit: f66a4e35e1f42a3d7630556d020ce76adfea5891
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 17%
+source-wordcount: '228'
+ht-degree: 14%
 
 ---
 
 # アクティブなプロファイル{#active-profiles}
 
-キャンペーン機能の管理者は、**[!UICONTROL Administration > Customer metrics]**&#x200B;から&#x200B;**[!UICONTROL Customer metrics]**&#x200B;レポートにアクセスできます。
+Campaign機能の管理者は、**[!UICONTROL Administration > Customer metrics]**&#x200B;から&#x200B;**[!UICONTROL Customer metrics]**&#x200B;レポートにアクセスできます。
 
 ![](assets/audience_customer_metrics.png)
 
-このレポートは、毎月&#x200B;**[!UICONTROL Billing]**&#x200B;技術的なワークフローによって生成され、**アクティブなプロファイル**&#x200B;の数が表示されます。
+このレポートは、毎月&#x200B;**[!UICONTROL Billing]**&#x200B;テクニカルワークフローによって生成され、**アクティブなプロファイル**&#x200B;の数が表示されます。
 
-「プロファイル」とは、エンド顧客、見込み客、またはリードを表す情報の記録です。 プロファイルが、過去12か月間に何らかのチャネルを介してキャンペーン配信によってターゲット設定された場合、**アクティブ**&#x200B;と見なされます。
+「プロファイル」とは、エンド顧客、見込み客、リードを表す情報の記録です。 過去12ヶ月以内に任意のチャネルを介してキャンペーン配信のターゲットにされたプロファイルは、**アクティブ**&#x200B;と見なされます。
 
-契約に従って、各キャンペーンインスタンスには、特定の数のアクティブなプロファイルがプロビジョニングされます。 購入したアクティブなプロファイルの数については、使用許諾契約書を参照してください。
+契約に従って、各Campaignインスタンスには、特定の数のアクティブなプロファイルがプロビジョニングされます。 購入したアクティブなプロファイルの数については、使用許諾契約を参照してください。
 
 ![](assets/audience_active_profiles_list.png)
 
-配信の準備中に除外されたプロファイル(タイポロジルールや強制隔離メカニズムなどによる)は考慮されません。 プロファイルは、複数の配信のターゲットになっていても一度しかカウントされません。このレポートは情報を提供するだけで、請求に直接影響しません。
+
+
+* （タイポロジルールや強制隔離メカニズムなどによって）配信の準備中に除外されたプロファイルは、考慮されません。
+
+* トランザクションメッセージの受信者は、アクティブなプロファイルにカウントされます。
+
+* プロファイルは、複数の配信のターゲットになっていても一度しかカウントされません。
+
+* このレポートは情報提供のみで、請求に直接的な影響はありません。
+
+ページの下部に、ターゲティングディメンションが各プロファイルの数と共に表示されます。 トランザクションメッセージの受信者は、**匿名**&#x200B;ディメンションに関連付けられます。
 
 >[!NOTE]
 >
->管理者ユーザーは、インスタンスで使用されるアクティブなプロファイルの数をCampaign コントロールパネルから直接監視することもできます。 詳しくは、[コントロールパネルのドキュメント](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html?lang=ja)を参照してください。
+>管理者ユーザーは、インスタンスで使用されるアクティブなプロファイルの数を、Campaign コントロールパネルから直接監視することもできます。 詳しくは、[コントロールパネルのドキュメント](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html?lang=ja)を参照してください。
 
