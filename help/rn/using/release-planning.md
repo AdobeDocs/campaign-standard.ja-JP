@@ -10,11 +10,10 @@ feature: 概要
 role: Business Practitioner
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-translation-type: ht
-source-git-commit: 8b8f41917349800327b2bddc820e677f913cdaf7
-workflow-type: ht
-source-wordcount: '466'
-ht-degree: 100%
+source-git-commit: c98aa913f4004d49a897ea71e39cbfe6b3dd53c1
+workflow-type: tm+mt
+source-wordcount: '462'
+ht-degree: 97%
 
 ---
 
@@ -32,7 +31,7 @@ ht-degree: 100%
 
 環境のアップデートは、以下に示す期間に順次おこなわれます。正確な日付は、各顧客に E メールで通知されます。
 
-このリリースに関する詳細は、ステージング環境のアップグレードが開始されたときに[リリースノート](../../rn/using/release-notes.md)で確認できます。
+このリリースの詳細については、[先行リリースノート](../../rn/using/e-release-notes.md)を参照してください。
 
 <table>
  <thead>
@@ -65,7 +64,7 @@ A：変更点は[リリースノート](../../rn/using/release-notes.md)に記�
 
 **Q：検証プロセスとは何ですか？**
 
-A：ステージング用インスタンスがアップグレードされたら、お客様のプロセスとユースケースがこの新しいバージョンで正しく動作することを検証し、問題があれば[アドビクライアントケア](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)に報告することをお勧めします。
+A：ステージング用インスタンスがアップグレードされたら、お客様のプロセスとユースケースがこの新しいバージョンで正しく動作することを検証し、問題があれば[アドビクライアントケア](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)に報告することをお勧めします。
 
 **Q：アップグレード中にインスタンスにアクセスできますか？**
 
@@ -87,4 +86,4 @@ A：はい。アップグレード中に新しい E メールは送信できま�
 
 A：Campaign にログオンすると、リリース通知ポップアップが表示され、最新バージョンが表示されます。
 
-その他のご質問については、[アドビクライアントケア](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)にお問い合わせください。
+その他のご質問については、[アドビクライアントケア](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)にお問い合わせください。
