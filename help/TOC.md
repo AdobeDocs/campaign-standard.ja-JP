@@ -6,10 +6,10 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Campaign Standard の使用に必要な主要な機能、タスク、設定、その他のリソースに関するヘルプセンター。 '
 title: Campaign Standard ガイド
 breadcrumb-title: ヘルプセンター
-source-git-commit: 105bc765f658cab39ec2628e39d51426005da6bd
+source-git-commit: c98aa913f4004d49a897ea71e39cbfe6b3dd53c1
 workflow-type: tm+mt
 source-wordcount: '1783'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -18,14 +18,14 @@ ht-degree: 100%
 
 + [製品ドキュメント](campaign-standard-home.md)
 + [最新の更新](rn/using/documentation-updates.md)
-+ リリースノート{#release-notes}
++ リリースノート {#release-notes}
    + [最新リリース](rn/using/release-notes.md)
-   + [早期リリースノート](rn/using/early-release-notes.md)
+   + [早期リリースノート](rn/using/e-release-notes.md)
    + 以前のリリース {#previous-releases}
       + [リリースノート 2020](rn/using/release-notes-2020.md)
-      + [リリースノート 2019](rn/using/release-notes-2019.md)
-      + [リリースノート 2018](rn/using/release-notes-2018.md)
-      + [リリースノート 2017](rn/using/release-notes-2017.md)
+      + [リリースノート2019](rn/using/release-notes-2019.md)
+      + [リリースノート2018](rn/using/release-notes-2018.md)
+      + [リリースノート2017](rn/using/release-notes-2017.md)
    + [リリース計画](rn/using/release-planning.md)
    + [廃止された機能](rn/using/deprecated-features.md)
    + [トラッキングする URL の署名に関する問題](rn/using/tracked-urls.md)
@@ -79,10 +79,10 @@ ht-degree: 100%
       + [メッセージダッシュボード](channels/using/message-dashboard.md)
       + [多言語メッセージテンプレート](channels/using/multilingual-messages-template.md)
    + 配信のベストプラクティス {#delivery-bestpractices}
-      + [ベストプラクティスを学ぶ](sending/using/delivery-best-practices.md)
+      + [優れたプラクティスを学ぶ](sending/using/delivery-best-practices.md)
       + [配信の最適化](sending/using/optimize-delivery.md)
       + [テンプレートの使用](sending/using/use-templates.md)
-      + [パーソナライズされたコンテンツの作成](sending/using/design-and-personalize.md)
+      + [パーソナライズしたコンテンツの作成](sending/using/design-and-personalize.md)
       + [適切なオーディエンスの定義](sending/using/define-the-right-audience.md)
       + [送信前の確認](sending/using/check-before-sending.md)
       + [トラッキングと監視](sending/using/track-and-monitor.md)
@@ -130,7 +130,7 @@ ht-degree: 100%
       + [トランザクションプッシュ通知](channels/using/transactional-push-notifications.md)
       + [フォローアップメッセージ](channels/using/follow-up-messages.md)
       + [トランザクションメッセージのユースケース](channels/using/transactional-messaging-use-case.md)
-   + ランディングページ {#landing-pages}
+   + ランディングページ{#landing-pages}
       + [ランディングページの概要](channels/using/getting-started-with-landing-pages.md)
       + [ランディングページテンプレートについて](channels/using/landing-page-templates.md)
       + [ランディングページの設定](channels/using/configuring-landing-page.md)
@@ -189,7 +189,7 @@ ht-degree: 100%
       + [タイポロジとタイポロジルールについて](sending/using/about-typology-rules.md)
       + [タイポロジの管理](sending/using/managing-typologies.md)
       + [タイポロジルールの管理](sending/using/managing-typology-rules.md)
-      + [フィルタールール](sending/using/filtering-rules.md)
+      + [フィルタリングルール](sending/using/filtering-rules.md)
       + [疲労ルール](sending/using/fatigue-rules.md)
       + [コントロールルール](sending/using/control-rules.md)
 + レポート{#reporting}
@@ -223,7 +223,7 @@ ht-degree: 100%
       + [コンポーネントの追加](reporting/using/adding-components.md)
       + [カスタムプロファイルディメンションの作成](reporting/using/creating-a-custom-profile-dimension.md)
       + [ワークフローセグメントに基づくレポートの作成](reporting/using/creating-a-report-workflow-segment.md)
-+ 他のソリューションとの統合 {#integrating-with-adobe-cloud}
++ 他のソリューションとの統合{#integrating-with-adobe-cloud}
    + [Campaign 統合の概要](integrating/using/get-started-campaign-integrations.md)
    + Campaign と Experience Manager {#working-with-campaign-and-experience-manager}
       + [Campaign と Experience Manager の統合について](integrating/using/integrating-with-experience-manager.md)
@@ -268,9 +268,9 @@ ht-degree: 100%
          + [Microsoft Dynamics 365 と Campaign 間のデータのマップ](integrating/using/d365-acs-self-service-app-data-sync.md)
       + [Microsoft Dynamics 365 統合の使用](integrating/using/d365-acs-using-the-integration.md)
    + Campaign と Adobe Experience Platform {#adobe-experience-platform}
-      + Adobe Experience Platform のソースと宛先{#aep-sources-destinations}
+      + Adobe Experience Platform のソースと宛先 {#aep-sources-destinations}
          + [ソースと宛先の基本を学ぶ](integrating/using/get-started-sources-destinations.md)
-         + [Adobe Experience Platform オーディエンスの Campaign への取り込み](integrating/using/ingest-aep-data.md)
+         + [Campaign への Adobe Experience Platform オーディエンスの取り込み](integrating/using/ingest-aep-data.md)
          + [Campaign から Adobe Experience Platform へのデータのエクスポート](integrating/using/export-campaign-data.md)
       + Audience Destinations サービス（ベータ版）{#audience-destinations}
          + [Audience Destinations サービスについて](integrating/using/aep-about-audience-destinations-service.md)
@@ -304,11 +304,11 @@ ht-degree: 100%
       + [ワークフロー呼び出し時のパラメーターの定義](automating/using/defining-parameters-calling-workflow.md)
       + [イベント変数の監視](automating/using/monitoring-events-variables.md)
       + [外部パラメーターを使用したワークフローのカスタマイズ](automating/using/customizing-workflow-external-parameters.md)
-      + [使用例](automating/using/use-case-calling-workflow.md)
-   + ターゲティングアクティビティ{#targeting-activities}
+      + [ユースケース](automating/using/use-case-calling-workflow.md)
+   + ターゲティングアクティビティ {#targeting-activities}
       + [ターゲティングアクティビティについて](automating/using/about-targeting-activities.md)
       + [クエリ](automating/using/query.md)
-      + [増分処理クエリ](automating/using/incremental-query.md)
+      + [増分クエリ](automating/using/incremental-query.md)
       + [和集合](automating/using/union.md)
       + [積集合](automating/using/intersection.md)
       + [除外](automating/using/exclusion.md)
@@ -321,7 +321,7 @@ ht-degree: 100%
       + [実行アクティビティについて](automating/using/about-execution-activities.md)
       + [開始および終了](automating/using/start-and-end.md)
       + [分岐](automating/using/fork.md)
-      + [AND-join](automating/using/and-join.md)
+      + [AND 結合](automating/using/and-join.md)
       + [スケジューラー](automating/using/scheduler.md)
       + [待機](automating/using/wait.md)
       + [外部シグナル](automating/using/external-signal.md)
@@ -335,7 +335,7 @@ ht-degree: 100%
       + [アプリ内配信](automating/using/in-app-delivery.md)
    + データ管理アクティビティ{#data-management-activities}
       + [データ管理アクティビティについて](automating/using/about-data-management-activities.md)
-      + [データ更新](automating/using/update-data.md)
+      + [データの更新](automating/using/update-data.md)
       + [ファイル読み込み](automating/using/load-file.md)
       + [ファイル転送](automating/using/transfer-file.md)
       + [紐付け](automating/using/reconciliation.md)
@@ -356,8 +356,8 @@ ht-degree: 100%
       + [パッケージの管理](automating/using/managing-packages.md)
       + [リストの書き出し](automating/using/exporting-lists.md)
       + [使用例：カスタムリソースのエクスポート／インポート](automating/using/exporting-importing-custom-resources.md)
-   + 使用例 {#workflow-use-case}
-      + [ワークフローの使用例について](automating/using/about-workflow-use-cases.md)
+   + ユースケース {#workflow-use-case}
+      + [ワークフローのユースケースについて](automating/using/about-workflow-use-cases.md)
       + 配信 {#deliveries}
          + [補完を含む配信の作成](automating/using/workflow-created-query-with-complement.md)
          + [プロファイルの作成日の配信作成](automating/using/workflow-creation-date-query.md)
@@ -428,7 +428,7 @@ ht-degree: 100%
       + [トラッキングログ](developing/using/datamodel-tracking.md)
       + [サブスクリプション解除イベント](developing/using/datamodel-unsubscription.md)
       + [訪問者](developing/using/datamodel-visitor.md)
-+ 管理 {#administrating}
++ 管理{#administrating}
    + [Campaign Standard の管理の概要](administration/using/get-started-campaign-administration.md)
    + [監視のガイドライン](administration/using/monitoring-guidelines.md)
    + [設定のガイドライン](administration/using/about-configuration-guidelines.md)
@@ -466,7 +466,7 @@ ht-degree: 100%
       + [テクニカルワークフロー](administration/using/technical-workflows.md)
       + [ブランディング](administration/using/branding.md)
       + [内部通知の送信](administration/using/sending-internal-notifications.md)
-      + [データリテンション](administration/using/data-retention.md)
+      + [データ保持](administration/using/data-retention.md)
       + [更新とメンテナンスの操作](administration/using/updates-and-maintenance-operations.md)
 + API の操作{#working-with-apis}
    + [Campaign Standard API の概要](api/using/get-started-apis.md)
