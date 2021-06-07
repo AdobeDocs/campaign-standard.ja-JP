@@ -1,27 +1,26 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: パーソナライズされたコンテンツの作成
+title: パーソナライズしたコンテンツの作成
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
-description: メッセージのコンテンツを設計し、配信の実行を妨げる可能性のある一般的な問題を回避する方法を説明します。 
-feature: Deliverability
+description: メッセージコンテンツをデザインし、配信の実行を妨げる可能性がある一般的な問題を回避する方法を説明します。 
+feature: 配信品質
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 938989c9-ef19-4297-9b8b-c38eb1cec1f0
+source-git-commit: d84a11d4064938792a2e2c365b6085c263f55648
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 77%
+source-wordcount: '1034'
+ht-degree: 69%
 
 ---
 
-
 # パーソナライズされたコンテンツの作成 {#build-personalized-content}
 
-メッセージコンテンツを設計するときは、配信の実行を妨げる可能性がある一般的な問題が発生しないようにします。ほとんどの場合、考えられるエラーは、[パーソナライゼーション](../../designing/using/personalization.md)、既存のコンテンツ](../../designing/using/using-existing-content.md)を使用して[HTMLコンテンツ](../../designing/using/using-existing-content.md#converting-an-html-content)を変換する場合のフォーマット、[画像](../../designing/using/images.md)に関連します。[
+メッセージコンテンツを設計するときは、配信の実行を妨げる可能性がある一般的な問題が発生しないようにします。ほとんどの場合、考えられるエラーは、[パーソナライゼーション](../../designing/using/personalization.md)、[既存のコンテンツ](../../designing/using/using-existing-content.md)を使用した形式、[HTMLコンテンツ](../../designing/using/using-existing-content.md#converting-an-html-content)を変換した形式、[画像](../../designing/using/images.md)に関連しています。
 
 ## パーソナライゼーションの最適化 {#optimize-personalization}
 
@@ -31,10 +30,10 @@ Adobe Campaign データベースに保存されている受信者データや�
 
 エラーを避けるために、メッセージコンテンツが適切に設計されていることを確認します。多くのエラーはパーソナライゼーションに関係しています。
 
-動的コンテンツを手動で追加して、式エディターで定義した条件に従って受信者に異なるコンテンツを表示できます。 動的コンテンツを追加する場合は、選択した条件を満たさない受信者に対しては常にデフォルトのバリアントをそのまま使用する必要があります。
-動的なコンテンツについて詳しくは、[このセクション](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)を参照してください。
+動的コンテンツを手動で追加して、式エディターで定義した条件に従って、受信者に異なるコンテンツを表示できます。 動的コンテンツを追加する場合は、選択した条件を満たさない受信者用に、常にデフォルトのバリアントをそのままにしておく必要があります。
+動的コンテンツについて詳しくは、[この節](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)を参照してください。
 
-**ヒント**  — 電子メールを様々なテストプロファイルでプレビューし、動的なコンテンツが正しく設定されていることを確認します。
+**ヒント**  — 様々なテストプロファイルでEメールをプレビューし、動的コンテンツが正しく設定されていることを確認します。
 
 ## 最適化されたコンテンツの作成 {#optimize-content}
 
@@ -68,13 +67,13 @@ E メールを作成する際は、以下の一般的なベストプラクティ
 
 購読解除リンクは不可欠です。購読解除リンクが表示され、有効である必要があり、フォームが機能する必要があります。この節](../../designing/using/personalization.md#about-targeting-dimension)では、購読解除リンクのガイドライン[について説明します。
 
-デフォルトでは、メッセージが分析されると、コントロール[タイポロジルール](../../sending/using/control-rules.md)はオプトアウトリンクが含まれているかどうかを確認し、リンクがない場合は警告を生成します。
+デフォルトでは、メッセージが分析される際に、コントロール[タイポロジルール](../../sending/using/control-rules.md)がオプトアウトリンクが含まれているかどうかを確認し、見つからない場合は警告を表示します。
 
 **ヒント**：ヒューマンエラーが発生する可能性は常にあるので、毎回、送信前に、オプトアウトリンクが適切に機能することを確認する必要があります。例えば、配達確認を送信するときは、リンクが有効であること、フォームがオンラインであること、「今後のこの受信者への連絡は不要」フィールドが「はい」に変更されていることを確認します。
 
 オプトアウトリンクを挿入する方法については、[この節](../../designing/using/personalization.md#adding-a-content-block)を参照してください。
 
-### E メールのサイズ
+### E メールのサイズ  {#email-size}
 
 パフォーマンスや配信品質の問題を回避するため、E メールの最大サイズは約 **35** KB です。
 
@@ -82,17 +81,27 @@ E メールの制限を守るには、以下を考慮してください。
 
 * 冗長なスタイル、または使用されていないスタイルの削除
 
-* E メールコンテンツの一部をランディングページに移動
+* Eメールコンテンツの一部を[ランディングページ](../../channels/using/getting-started-with-landing-pages.md)に移動します。
 
 * コードの縮小
 
-最終送信の前に、必ず変更をテストしてください
+最終送信の前に、必ず変更をテストしてください.
+
+Adobe Campaignでは、Eメールのデフォルトの最大サイズは&#x200B;**100MB**&#x200B;に設定されます。 <!--This limit enables to prevent any error that could indefinitely increase the size of an email, which can lead to a system crash.-->
+
+この制限に達すると、この制限を超えるメッセージは失敗し、エラーメッセージが配信ログに表示されます。 同じ配信のその他のメッセージには影響はありません。 その場合は、Eメールテンプレートまたは配信で使用されるコンテンツフラグメントの動的部分を適応させる必要があります。<!--If you need assistance, or if you have any question or request about the **[!UICONTROL Maximum message size]** option, reach out to your Adobe contact.-->
+
+Adobeでは、メッセージの最大サイズのデフォルト値を維持することをお勧めします。 ただし、[機能管理者](../../administration/using/users-management.md#functional-administrators)のみが、**[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**&#x200B;メニューを使用して&#x200B;**[!UICONTROL Maximum message size]**&#x200B;オプションでこの値を変更できます。
+
+>[!IMPORTANT]
+>
+>この値をゼロに設定した場合、制限は適用されません。
 
 ### SMS の長さ
 
 デフォルトでは、SMS の文字数は GSM（Global System for Mobile Communications）標準に準じています。GSM エンコードを使用する SMS メッセージは 160 文字以内に制限されています。複数の部分に分けて送信されるメッセージの場合は、SMS 1 件につき 153 文字以内です。
 
-表記変換では、SMS の特定の文字が GSM 標準に準じていない場合に、別の文字に置き換えられます。パーソナライゼーションフィールドを SMS メッセージのコンテンツに入れると、GSM エンコードに対応していない文字が含まれる場合があります。対応する&#x200B;**[!UICONTROL External account]**の「SMPPチャネル設定」タブの対応するボックスをチェックすると、文字変換を承認できます。
+表記変換では、SMS の特定の文字が GSM 標準に準じていない場合に、別の文字に置き換えられます。パーソナライゼーションフィールドを SMS メッセージのコンテンツに入れると、GSM エンコードに対応していない文字が含まれる場合があります。文字の表記変換を許可するには、対応する&#x200B;**[!UICONTROL External account]**の「SMPPチャネル設定」タブにあるチェックボックスをオンにします。
 詳しくは、[この節](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration)を参照してください。
 
 **ヒント**：
@@ -107,11 +116,11 @@ E メールの制限を守るには、以下を考慮してください。
 
 レスポンシブデザインを使用すると、E メールを開封するデバイスに応じて E メールを最適に表示できます。
 
-* Web HTML ではなく、レスポンシブ E メール HTML を使用します
+* web HTML ではなく、レスポンシブ E メール HTML を使用します
 
-* プレビューモードと配達確認を使用して、できるだけ多くのデバイス上でレンダリングをテストします。送信前に[プレビューメッセージ](../../sending/using/previewing-messages.md)を送信する方法を説明します。
+* プレビューモードと配達確認を使用して、できるだけ多くのデバイス上でレンダリングをテストします. 送信前に[メッセージ](../../sending/using/previewing-messages.md)をプレビューする方法を説明します。
 
-* キャンペーンの電子メールデザイナーには、モバイル用にレスポンシブデザイン形式のテンプレートが付属しています。 詳細[は、このページ](../../designing/using/using-reusable-content.md#content-templates)を参照してください。
+* Campaign Eメールデザイナーには、モバイル用のレスポンシブデザインでフォーマットされたテンプレートが付属しています。 詳しくは、[このページ](../../designing/using/using-reusable-content.md#content-templates)を参照してください。
 
 ## 画像の管理 {#manage-images}
 
@@ -139,4 +148,4 @@ E メールの制限を守るには、以下を考慮してください。
 
 メッセージをプレビューして、パーソナライゼーションと受信者に対する配信の表示方法を確認することをお勧めします。
 
-電子メールデザイナでは、「**[!UICONTROL Preview]**」ボタンを使用して、受信者の各コンテンツのレンダリングを表示できます。 コンテンツのパーソナライゼーションフィールドや条件付き要素は、選択したプロファイル内の対応する情報で置き換えられます。[詳細情報](../../sending/using/previewing-messages.md)
+Eメールデザイナーでは、「**[!UICONTROL Preview]**」ボタンを使用して、特定の受信者向けに各コンテンツをレンダリングした結果を確認できます。 コンテンツのパーソナライゼーションフィールドや条件付き要素は、選択したプロファイル内の対応する情報で置き換えられます。[詳細情報](../../sending/using/previewing-messages.md)
