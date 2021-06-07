@@ -6,9 +6,9 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Campaign Standard の使用に必要な主要な機能、タスク、設定、その他のリソースに関するヘルプセンター。 '
 title: Campaign Standard ガイド
 breadcrumb-title: ヘルプセンター
-source-git-commit: c98aa913f4004d49a897ea71e39cbfe6b3dd53c1
+source-git-commit: 633992a3120eeef4aacd1dadeb4e0b47dbbcb999
 workflow-type: tm+mt
-source-wordcount: '1783'
+source-wordcount: '1785'
 ht-degree: 99%
 
 ---
@@ -22,6 +22,7 @@ ht-degree: 99%
    + [最新リリース](rn/using/release-notes.md)
    + [早期リリースノート](rn/using/e-release-notes.md)
    + 以前のリリース {#previous-releases}
+      + [リリースノート2021](rn/using/release-notes-2021.md)
       + [リリースノート 2020](rn/using/release-notes-2020.md)
       + [リリースノート2019](rn/using/release-notes-2019.md)
       + [リリースノート2018](rn/using/release-notes-2018.md)
