@@ -10,9 +10,9 @@ feature: 概要
 role: Business Practitioner
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: e4d5be678b49af649bd4d4dabd83bff04c675d9f
+source-git-commit: fcd8963ed18ba274bec4dcd790d9a3e4af4ffd25
 workflow-type: tm+mt
-source-wordcount: '1000'
+source-wordcount: '995'
 ht-degree: 6%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 6%
 
 ## リリース 21.2 - 2021 年 6 月 {#release-21-2---june-2021}
 
-次回のCampaign Standardリリースに含まれる新機能、改善点、修正点については、[先行リリースノート](e-release-notes.md)を参照してください。
+このリリースに含まれる新機能、改善点、修正点を次にCampaign Standardします。
 
 **改善点**
 
