@@ -6,17 +6,16 @@ description: このページリストは、Adobe Campaign Standard の非推奨�
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-deprecated-features
-feature: Overview
+feature: 概要
 role: Business Practitioner
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
+source-git-commit: a68adf4de790e30ab9dd1f79e5daeb7feb45c83b
 workflow-type: tm+mt
-source-wordcount: '738'
-ht-degree: 79%
+source-wordcount: '728'
+ht-degree: 80%
 
 ---
-
 
 # 廃止および削除された機能 {#deprecated-and-removed-features}
 
@@ -43,50 +42,18 @@ Campaign Standard 機能の差し迫った削除／置換を伝達するため�
 
 <table> 
  <thead> 
- <tr> 
-   <th> <strong>予測件名行</strong><br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p> 2020年12月16日以降、Predictive Subject Line機能は非推奨となりました。</p><br/>
-   <p>AIを利用した電子メール機能を活用して、過去のエンゲージメント指標に基づいて、オープン率、最適な送信時間、および確率変化を分析および予測することをお勧めします。 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html">詳細情報</a></p></br>
-     <p>
-     <em>ターゲットの削除：2021年4月</em></p>
-     </td> 
-  </tr> 
-  </tbody> 
-</table>
-<table> 
- <thead> 
   <tr> 
    <th> <strong>SDK v4 を使用したプッシュ通知</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p> キャンペーン20.1リリース以降、SDK v4は非推奨となります。 <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">詳細情報</a>。</p><br/>
+   <td> <p> Campaign 20.1リリースより、SDK v4は非推奨（廃止予定）となります。 <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">詳細情報</a>。</p><br/>
    <p><a href="https://aep-sdks.gitbook.io/docs/">Adobe Experience Platform モバイル SDK</a> （旧称 v5）は、今後の Adobe Experience Cloud の機能のみをサポートします。</p>
-   <p>SDK v4からAdobe Experience PlatformモバイルSDK <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">に移行する方法を説明します。</a></p></br>
+   <p>SDK v4からAdobe Experience Platform Mobile SDK <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">に移行する方法については、このページ</a>を参照してください。</p></br>
      <p>
-     <em>ターゲットの削除日：2021年8月31日</em></p>
+     <em>削除のターゲット日：2021年8月32日</em></p>
      </td> 
-  </tr> 
- </tbody> 
-</table>
-<table> 
- <thead> 
-  <tr> 
-   <th> <strong>プライバシーリクエスト - Campaign API とインターフェイス</strong><br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p>19.4 リリース以降、アクセス要求および削除要求に対する Campaign API およびインターフェイスの使用は廃止されます。2 段階のプロファイルの削除は使用できません。 <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Adobe Privacy Core Service</a> を使用します。</p></br>
-   <p><a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=en">プライバシーリクエストの管理</a>も参照してください。</p>
-  <p> 
-  <em>削除予定日：2021 年 4 月</em></p>
-   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -99,10 +66,10 @@ Campaign Standard 機能の差し迫った削除／置換を伝達するため�
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Campaign 19.0 リリース以降、レガシー E メールエディターは非推奨となりました。 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">キャンペーン電子メールデザイナ</a>を使用して、電子メールコンテンツを作成し、パーソナライズします。 </p></br>
+   <td> <p>Campaign 19.0 リリース以降、レガシー E メールエディターは非推奨となりました。 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">Campaign Eメールデザイナー</a>を使用して、Eメールコンテンツを作成し、パーソナライズします。 </p></br>
    <p><a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">この節</a>で、新しいエディター用に E メールテンプレートを適応させる方法を説明しています。</p></br>
   <p> 
-  <em>ターゲットの削除日：2021年末</em></p>
+  <em>削除のターゲット日：2021年末</em></p>
    </td> 
   </tr> 
  </tbody> 
@@ -116,7 +83,7 @@ Campaign Standard 機能の差し迫った削除／置換を伝達するため�
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>キャンペーン18.7リリース以降、地理単位は非推奨となりました。 組織単位と地理的単位は、Campaign では同じ構成です。 ユーザーは、組織単位のみを使用して、ユーザー権限／データアクセス階層を作成する必要があります。 <a href="https://helpx.adobe.com/jp/campaign/standard/administration/using/organizational-units.html">詳細情報</a>。新しい Campaign Standard インスタンスと、地理的単位が作成されていない既存のインスタンスには、18.7 リリースからこの機能を実装することはできません。</p>
+   <td> <p>Campaign 18.7リリースより、地理的単位は非推奨（廃止予定）となります。 組織単位と地理的単位は、Campaign では同じ構成です。 ユーザーは、組織単位のみを使用して、ユーザー権限／データアクセス階層を作成する必要があります。 <a href="https://helpx.adobe.com/jp/campaign/standard/administration/using/organizational-units.html">詳細情報</a>。新しい Campaign Standard インスタンスと、地理的単位が作成されていない既存のインスタンスには、18.7 リリースからこの機能を実装することはできません。</p>
    </td> 
   </tr> 
  </tbody> 
@@ -125,6 +92,37 @@ Campaign Standard 機能の差し迫った削除／置換を伝達するため�
 ## 削除された機能 {#removed-features}
 
 この節では、Campaign Standard から削除された機能を一覧表示します。
+
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> <strong>プライバシーリクエスト - Campaign API とインターフェイス</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p>21.2 リリース以降、アクセス要求および削除要求に対する Campaign API およびインターフェイスの使用は廃止されます。2 段階のプロファイルの削除は使用できません。 <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Adobe Privacy Core Service</a> を使用します。</p></br>
+   <p><a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=en">プライバシーリクエストの管理</a>も参照してください。</p>
+  </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+<table> 
+ <thead> 
+ <tr> 
+   <th> <strong>予測件名行</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p> 2021年4月以降、予測件名行機能は廃止されます。</p><br/>
+   <p>AIを利用したEメール機能を活用して、過去のエンゲージメント指標に基づいて、開封率、最適な送信時間、および予想される解約を分析し、予測することをお勧めします。 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html">詳細情報</a></p></br>
+     </td> 
+  </tr> 
+  </tbody> 
+</table>
 
 <table> 
  <thead> 
