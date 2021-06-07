@@ -2,7 +2,7 @@
 solution: Campaign Standard
 product: campaign
 title: 受信 SMS の管理
-description: STOP SMSを管理し、着信SMSをAdobe Campaignに格納する方法を説明します。
+description: STOP SMSを管理し、受信SMSをAdobe Campaignに格納する方法について説明します。
 audience: channels
 content-type: reference
 topic-tags: sms-messages
@@ -10,71 +10,74 @@ delivercontext-tags: delivery,smsContent,back
 feature: SMS
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 86cb6f4c-a5a7-4d9d-bbfd-4a70af38cf3a
+source-git-commit: b564ecce0fab3ebcc1afb02fd2cae3f7eafd025e
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '621'
 ht-degree: 8%
 
 ---
 
-
 # 受信 SMS の管理{#managing-incoming-sms}
 
-## STOP SMS {#managing-stop-sms}の管理
+## STOP SMSの管理{#managing-stop-sms}
 
 プロファイルが Campaign 経由で送信された SMS メッセージに返信する場合、自動的に返信されるメッセージや、実行するアクションを設定できます。
 
-この構成は、[SMSルーティング外部アカウント](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing)の&#x200B;**[!UICONTROL Automatic reply sent to the MO]**&#x200B;セクションで定義されています。 MOは「Mobile Originated」を表し、SMSを送信したモバイルに対して自動応答を設定できます。
+この設定は、[SMSルーティング外部アカウント](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing)の&#x200B;**[!UICONTROL Automatic reply sent to the MO]**&#x200B;セクションで定義します。 MOは「モバイル発信」を意味し、SMSを送信したモバイルに対する自動応答を設定できます。
 
 それには、次の手順に従います。
 
-1. 詳細設定メニューのAdobe Campaignロゴから、「**[!UICONTROL Administration > Application settings > External accounts]**」、「**[!UICONTROL SMS routing via SMPP]**」の順に選択します。
-1. **[!UICONTROL Automatic reply sent to the MO]**&#x200B;カテゴリの下の&#x200B;**[!UICONTROL Create element]**&#x200B;をクリックして、自動返信の設定を開始します。
+1. 詳細設定メニューのAdobe Campaignロゴから、**[!UICONTROL Administration > Application settings > External accounts]**&#x200B;を選択し、**[!UICONTROL SMS routing via SMPP]**&#x200B;外部アカウントを選択します。
+1. 「**[!UICONTROL Automatic reply sent to the MO]**」カテゴリで「**[!UICONTROL Create element]**」をクリックし、自動返信の設定を開始します。
 
    ![](assets/sms_mo_1.png)
 
-1. この自動返信をトリガーするキーワードを選択します。 キーワードは大文字と小文字が区別されません。例えば、受信者がキーワード「STOP」を送信した場合、ユーザーは自動応答を受け取ります。
+1. この自動返信をトリガーするキーワードを選択します。 キーワードは大文字と小文字が区別されません。例えば、ここで受信者が「STOP」というキーワードを送信すると、自動返信を受け取ります。
 
-   キーワードが何であろうと同じ返信を送信する場合は、この列を空欄にします。
+   キーワードに関係なく同じ返信を送信する場合は、この列を空のままにします。
 
    ![](assets/sms_mo_2.png)
 
-1. **[!UICONTROL Short code]**&#x200B;フィールドに、配信の送信に通常使用され、送信者名として使用される番号を指定します。 また、**[!UICONTROL Short code]**&#x200B;列を空のままにして、短いコードが何であっても同じ返信を送ることもできます。
+1. 「 **[!UICONTROL Short code]** 」フィールドで、配信の送信に通常使用される番号を指定し、送信者名を指定します。 また、**[!UICONTROL Short code]**&#x200B;列を空のままにして、ショートコードに関係なく同じ返信を送信することもできます。
 
    ![](assets/sms_mo_4.png)
 
-1. 受信者に送信する回答を&#x200B;**[!UICONTROL Reply]**&#x200B;フィールドに入力します。
+1. 受信者に送信する回答を「**[!UICONTROL Reply]**」フィールドに入力します。
 
-   返信を送信せずにアクションを実行するには、**[!UICONTROL Reply]**&#x200B;列を空のままにします。 例えば、「STOP」以外のメッセージで返信する強制隔離の電話番号をユーザーから削除できます。
+   返信せずにアクションを実行する場合は、**[!UICONTROL Reply]**&#x200B;列を空白のままにします。 例えば、「STOP」以外のメッセージを送信したユーザーの電話番号を強制隔離から削除できます。
 
    ![](assets/sms_mo_3.png)
 
-1. **[!UICONTROL Additional action]**&#x200B;フィールドに、自動返信に対するアクションをリンクします。
+1. **[!UICONTROL Additional action]**&#x200B;フィールドで、自動返信にアクションをリンクします。
 
-   * **[!UICONTROL Send to quarantine]**&#x200B;操作は、プロファイルの電話番号を自動的に強制隔離します。
-   * **[!UICONTROL Remove from quarantine]**&#x200B;操作により、プロファイルの電話番号が強制隔離から削除されます。
-   * **[!UICONTROL None]**&#x200B;操作を行うと、受信者にメッセージを送信するだけで、操作を行うことはできません。
+   * **[!UICONTROL Send to quarantine]**&#x200B;アクションは、プロファイルの電話番号を自動的に強制隔離します。
+   * **[!UICONTROL Remove from quarantine]**&#x200B;アクションにより、プロファイルの電話番号が強制隔離から削除されます。
+   * 「**[!UICONTROL None]**」アクションでは、アクションを実行せずに受信者にのみメッセージを送信できます。
 
-   例えば、以下の設定では、受信者がキーワード「STOP」を送信すると、購読解除の確認メッセージが自動的に送信され、電話番号が&#x200B;**[!UICONTROL On denylist]**&#x200B;ステータスの強制隔離に送信されます。 このステータスは電話番号のみを表し、プロファイルは電子メールの受信を続けるようにします。
+   例えば、以下の設定では、受信者が「STOP」というキーワードを送信すると、自動的に購読解除の確認が送信され、その電話番号が強制隔離のステータス「a0/>」になります。 **[!UICONTROL On denylist]**&#x200B;このステータスは電話番号のみを表し、ユーザーが引き続き電子メールメッセージを受信できるようにプロファイルを表します。
 
    ![](assets/sms_mo.png)
 
-受信者は、メッセージを自動的に登録解除し、この自動応答を含む強制隔離に送信できるようになりました。 検疫された受信者は、**[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Quarantines]**&#x200B;メニューから利用できる&#x200B;**[!UICONTROL Addresses]**&#x200B;テーブルに一覧表示されます。 強制隔離の詳細については、[](../../sending/using/understanding-quarantine-management.md)を参照してください。
+1. 「**[!UICONTROL Save]**」をクリックします。
+
+1. SMS配信&#x200B;**[!UICONTROL Properties]**&#x200B;の&#x200B;**[!UICONTROL Advanced parameters]**&#x200B;から、オプトアウトした受信者を自動的に除外する特定の&#x200B;**[!UICONTROL Short code]**&#x200B;を設定できます。 詳しくは、[この節](../../administration/using/configuring-sms-channel.md#configuring-sms-properties)を参照してください。
+
+これで、受信者は、メッセージを自動的に購読解除し、この自動返信を使用して強制隔離に送信できるようになります。 強制隔離された受信者は、 **[!UICONTROL Administration]** / **[!UICONTROL Channels]** / **[!UICONTROL Quarantines]**&#x200B;メニューから利用できる&#x200B;**[!UICONTROL Addresses]**&#x200B;テーブルにリストされます。 強制隔離について詳しくは、この[節](../../sending/using/understanding-quarantine-management.md)を参照してください。
 
 これらの受信SMSは、必要に応じて保存できます。 詳しくは、[](#storing-incoming-sms)を参照してください。
 
-## 受信SMS {#storing-incoming-sms}を保存中
+## 受信SMS {#storing-incoming-sms}の格納
 
-**[!UICONTROL SMS routing via SMPP]**&#x200B;外部アカウントでは、例えば、受信者リストから削除するために加入者がSMSメッセージに「STOP」と返信した場合に、受信メッセージを保存するように選択できます。
+**[!UICONTROL SMS routing via SMPP]**&#x200B;外部アカウントで、例えば購読者がSMSメッセージに「STOP」と返信して受信者リストから削除する場合など、受信メッセージを保存するように選択できます。
 
 ![](assets/sms_config_mo_1.png)
 
-**[!UICONTROL SMPP channel settings]**&#x200B;カテゴリの&#x200B;**[!UICONTROL Store incoming MO in the database]**&#x200B;をチェックすると、すべてのSMSがinSMSテーブルに格納され、ワークフロー内のクエリアクティビティを介して取得できます。
+**[!UICONTROL SMPP channel settings]**&#x200B;カテゴリの&#x200B;**[!UICONTROL Store incoming MO in the database]**&#x200B;をチェックすると、すべてのSMSがinSMSテーブルに保存され、ワークフローの「クエリ」アクティビティで取得できます。
 
 それには、次の手順に従います。
 
-1. **[!UICONTROL SMPP channel settings]**&#x200B;フィールドで、**[!UICONTROL Store incoming MO in the database]**&#x200B;をチェックします。
+1. **[!UICONTROL SMPP channel settings]**&#x200B;フィールドで、「**[!UICONTROL Store incoming MO in the database]**」をオンにします。
 
    ![](assets/sms_config_mo_2.png)
 
@@ -83,23 +86,23 @@ ht-degree: 8%
    ![](assets/sms_config_mo_3.png)
 
 1. ワークフローのタイプを選択します。
-1. ワークフローのプロパティを編集し、**[!UICONTROL Create]**&#x200B;をクリックします。 ワークフローの作成について詳しくは、[](../../automating/using/building-a-workflow.md)を参照してください。
-1. **[!UICONTROL Query]**&#x200B;アクティビティをドラッグ&amp;ドロップし、アクティビティを重複クリックします。
-1. クエリの&#x200B;**[!UICONTROL Properties]**&#x200B;タブで、**[!UICONTROL Resource]**&#x200B;フィールドの&#x200B;**[!UICONTROL Incoming SMS (inSMS)]**&#x200B;を選択します。
+1. ワークフローのプロパティを編集し、「**[!UICONTROL Create]**」をクリックします。 ワークフローの作成について詳しくは、この[節](../../automating/using/building-a-workflow.md)を参照してください。
+1. **[!UICONTROL Query]**&#x200B;アクティビティをドラッグ&amp;ドロップし、アクティビティをダブルクリックします。
+1. クエリの「**[!UICONTROL Properties]**」タブで、「**[!UICONTROL Resource]**」フィールドで「**[!UICONTROL Incoming SMS (inSMS)]**」を選択します。
 
    ![](assets/sms_config_mo_4.png)
 
-1. 次に、「**[!UICONTROL Target]**」タブで&#x200B;**[!UICONTROL Incoming SMS attributes]**&#x200B;ルールをドラッグ&amp;ドロップします。
+1. 次に、「**[!UICONTROL Target]**」タブで、**[!UICONTROL Incoming SMS attributes]**&#x200B;ルールをドラッグ&amp;ドロップします。
 
    ![](assets/sms_config_mo_5.png)
 
-1. ここでは、前日からのすべての受信メッセージをターゲットします。 **[!UICONTROL Field]**&#x200B;カテゴリで&#x200B;**[!UICONTROL Creation date (created)]**&#x200B;を選択します。
+1. ここでは、前日からのすべての受信メッセージをターゲットにします。 「**[!UICONTROL Field]**」カテゴリで「**[!UICONTROL Creation date (created)]**」を選択します。
 1. **[!UICONTROL Filter type]**&#x200B;で&#x200B;**[!UICONTROL Relative]**&#x200B;を選択し、**[!UICONTROL Level of precision]**&#x200B;で&#x200B;**[!UICONTROL Day]**&#x200B;を選択します。
 
    ![](assets/sms_config_mo_6.png)
 
-1. その後、今日、前日、または最近の数日からデータを取得するように選択できます。 クエリを設定したら、**[!UICONTROL Confirm]**&#x200B;をクリックします。
+1. その後、今日、前日、過去数日のデータを取得するよう選択できます。 クエリを設定したら、「**[!UICONTROL Confirm]**」をクリックします。
 
-このクエリは、選択した時間範囲に応じて、受信したすべてのSTOPメッセージを取得します。
+このクエリは、選択された時間範囲に応じて、受信したすべてのSTOPメッセージを取得します。
 
-このアクティビティを使用すると、例えば訪問者を作成し、配信をよりパーソナライズすることができます。
+「 」アクティビティを使用すると、例えば、母集団を作成し、配信をより適切にパーソナライズできます。
