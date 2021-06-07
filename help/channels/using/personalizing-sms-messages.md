@@ -10,14 +10,13 @@ delivercontext-tags: deliveryCreation,wizard;delivery,smsContent,back;delivery,s
 feature: SMS
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 6c01662e-1e19-4cec-aa21-6e84b9b7a677
+source-git-commit: b564ecce0fab3ebcc1afb02fd2cae3f7eafd025e
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 99%
+source-wordcount: '432'
+ht-degree: 100%
 
 ---
-
 
 # SMS メッセージのパーソナライズ{#personalizing-sms-messages}
 
@@ -39,4 +38,15 @@ SMSメッセージのパーソナライゼーションの原則は、[電子メ�
 
 ## SMS 送信者 {#sms-sender}
 
-SMS 送信者の名前をパーソナライズすることができます。詳しくは、[SMS プロパティの設定](../../administration/using/configuring-sms-channel.md#configuring-sms-properties)の節を参照してください。
+>[!IMPORTANT]
+>
+>送信者アドレスの変更について、お住まいの国の法律を確認してください。また、SMS サービスプロバイダーに問い合わせて、この機能を提供しているかどうかを確認する必要があります。
+
+「**[!UICONTROL From]**」オプションを使用すると、文字列を使用して SMS メッセージの送信者名をパーソナライズできます。これは、受信者の携帯電話で SMS メッセージの送信者名として表示される名前です。
+
+このフィールドが空の場合は、外部アカウントで指定されたソース番号が使用されます。ソース番号が指定されていない場合は、ショートコードが使用されます。SMS 配信に固有の外部アカウントは、[SMS ルーティングの定義](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing)の節に記載されています。
+
+![](assets/sms_creation_8.png)
+
+
+
