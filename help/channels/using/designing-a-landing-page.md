@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,main
-feature: Landing Pages
+feature: ランディングページ
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 28398843-a170-48cf-b9c0-dca7af56236d
+source-git-commit: c9d2edbc0731734967af033dc318f5f60ea5cc8d
 workflow-type: tm+mt
-source-wordcount: '1667'
-ht-degree: 99%
+source-wordcount: '1668'
+ht-degree: 97%
 
 ---
-
 
 # ランディングページのデザイン{#designing-a-landing-page}
 
@@ -31,7 +30,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->Adobe Campaign Standard 19.0 リリースより前にインストールしたインスタンスでも、従来のメールコンテンツエディターにアクセスできます。インターフェイス、使用上の原則、設定は、ランディングページについて以下で説明するものとほとんど同じです。ただし、19.0 リリース以降では非推奨となる、従来のメールコンテンツエディターでは、すべての機能を使用または維持できない場合があります。拡張機能を備えたドラッグ＆ドロップインターフェイスでメールコンテンツをすばやく編集するには、[メールデザイナー](../../designing/using/designing-content-in-adobe-campaign.md)を使用します。
+>Eメールデザインの場合、Adobe Campaign Standard 19.0リリースより前にインストールしたインスタンスでも、従来のEメールコンテンツエディターにアクセスできます。 インターフェイス、使用上の原則、設定は、ランディングページについて以下で説明するものとほとんど同じです。ただし、19.0 リリース以降では非推奨となる、従来のメールコンテンツエディターでは、すべての機能を使用または維持できない場合があります。拡張機能を備えたドラッグ＆ドロップインターフェイスでメールコンテンツをすばやく編集するには、[メールデザイナー](../../designing/using/designing-content-in-adobe-campaign.md)を使用します。
 
 ここでは、ランディングページコンテンツエディターに特有の事項について説明します。1 つ以上のマーケティングアクティビティに共通する操作について詳しくは、**E メールコンテンツのデザイン**&#x200B;ガイドの次の節を参照してください。
 
