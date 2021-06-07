@@ -10,11 +10,10 @@ feature: ワークフロー
 role: Data Architect
 level: Experienced
 exl-id: d1575626-55bb-4303-a796-ad323a399330
-translation-type: tm+mt
-source-git-commit: 33cba2254bb90951880126cd9978f1890ee72e9c
+source-git-commit: 2672d2f58a2d46394454a88e63f8d09ea7e96148
 workflow-type: tm+mt
-source-wordcount: '1941'
-ht-degree: 98%
+source-wordcount: '1971'
+ht-degree: 96%
 
 ---
 
@@ -38,7 +37,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->外部パラメーターを使用してワークフローを呼び出した後、イベント変数を使用できるすべてのアクティビティーに、追加の関数が用意されています。 詳しくは、[この節](../../automating/using/customizing-workflow-external-parameters.md)を参照してください。
+>外部パラメーターを使用してワークフローを呼び出した後にイベント変数を使用できるすべてのアクティビティで、追加の関数を使用できます。 詳しくは、[この節](../../automating/using/customizing-workflow-external-parameters.md)を参照してください。
 
 ## 日付 {#dates}
 
@@ -387,7 +386,7 @@ ht-degree: 98%
  </tbody> 
 </table>
 
-## その他{#others}
+## その他 {#others}
 
 以下の表には、上記以外の使用可能な関数が記載されています。
 
@@ -481,7 +480,7 @@ ht-degree: 98%
  </tbody> 
 </table>
 
-## 文字列{#string}
+##  バイト長文字列 {#string}
 
 文字列関数は、一連の文字列を操作する場合に使用します。
 
@@ -660,7 +659,7 @@ ht-degree: 98%
   <tr> 
    <td> <strong>encryption_aescbcEncrypt</strong><br /> </td> 
    <td> AES アルゴリズム（CBC ブロックモード）に基づき、キー（第 2 パラメーター）と初期化ベクター（第 3 パラメーター）を使用して、文字列（第 1 パラメーター）を暗号化します。キーと初期化ベクターは、16 進数表現（<strong>\x</strong> で始まる形式）で指定する必要があります。結果は、<strong>\x</strong> を除いた 16 進数で表されます。<br />キーのサイズには、128 ビット、192 ビット、256 ビット（16 進数文字で順に 16、24、32）のいずれかを指定できますが、256 ビット、およびキーと同じ長さのランダム化初期化ベクターを使用することをお勧めします<br /> </td> 
-   <td> encryption_aescbcEncrypt(&lt;String&gt;, &lt;String&gt;, &lt;String&gt;)<br />例：encryption_aescbcEncrypt(johndoe@example.com, "<strong>\\x0123456789ABCDEF0123456789ABCDEF</strong>", "<strong>\\x0123456789ABCDEFFEDCBA9876543210</strong>")<br /> </td> 
+   <td> encryption_aescbcEncrypt（&lt;文字列&gt;, &lt;文字列&gt;, &lt;文字列&gt;）<br />例：encryption_aescbcEncrypt(johndoe@example.com, "<strong>\\x0123456789ABCDEF0123456789ABCDEF</strong>", "<strong>\\x0123456789ABCDEFFEDCBA9876543210</strong>")<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -707,8 +706,16 @@ ht-degree: 98%
    <td> <strong>Min</strong><br /> </td> 
    <td> 数値、文字列、日付のいずれかの列における最小値を返します<br /> </td> 
    <td> Min(&lt;値&gt;)<br /> </td> 
-  </tr> 
+  </tr>
   <tr> 
+   <td> <strong>StringAgg</strong>、String集計<br /> </td> 
+   <td> 2番目の引数内の文字で区切られた、文字列型の列の値を連結して返します（デフォルトの区切り文字はコンマです）。<br /> </td> 
+   <td> StringAgg（&lt;文字列値&gt;,&lt;区切り文字&gt;）
+  </tr>
+
+
+
+<tr> 
    <td> <strong>Sum</strong><br /> </td> 
    <td> 数値列の値の合計を返します<br /> </td> 
    <td> Sum(&lt;値&gt;)<br /> </td> 
