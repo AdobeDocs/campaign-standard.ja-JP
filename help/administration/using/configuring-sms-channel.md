@@ -7,17 +7,16 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 context-tags: extAccountMobile,overview;extAccount,main;delivery,smsContent,back
-feature: Instance Settings
+feature: インスタンス設定
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
+source-git-commit: b564ecce0fab3ebcc1afb02fd2cae3f7eafd025e
 workflow-type: tm+mt
-source-wordcount: '1629'
-ht-degree: 99%
+source-wordcount: '1567'
+ht-degree: 95%
 
 ---
-
 
 # SMS チャネルの設定{#configuring-sms-channel}
 
@@ -331,19 +330,15 @@ SMS メッセージを送信するための特定のパラメーターは、「*
 
 ![](assets/sms_options.png)
 
-**[!UICONTROL Advanced parameters]**&#x200B;セクションから：
+**[!UICONTROL Advanced parameters]**&#x200B;セクションで、次の操作を実行します。
 
-* 「**[!UICONTROL From]**」オプションを使用すると、文字列を使用して SMS メッセージの送信者名をパーソナライズできます。これは、受信者の携帯電話で SMS メッセージの送信者名として表示される名前です。
+* **[!UICONTROL Short code]**&#x200B;を使用すると、配信に特定のショートコードを追加できます。 この特定のショートコードをオプトアウトした受信者は、メッセージの準備中に自動的に除外されます。 ショートコードの設定方法について詳しくは、[この節](../../channels/using/managing-incoming-sms.md)を参照してください。
 
-   このフィールドが空の場合は、外部アカウントで指定されたソース番号が使用されます。ソース番号が指定されていない場合は、ショートコードが使用されます。SMS 配信に固有の外部アカウントは、[SMS ルーティングの定義](#defining-an-sms-routing)の節に記載されています。
-
-   ![](assets/sms_smpp_2.png)
-
-   >[!IMPORTANT]
+   >[!NOTE]
    >
-   >送信者アドレスの変更について、お住まいの国の法律を確認してください。また、SMS サービスプロバイダーに問い合わせて、この機能を提供しているかどうかを確認する必要があります。
+   >**[!UICONTROL Short code]**&#x200B;フィールドが空の場合は、外部アカウントに設定された&#x200B;**[!UICONTROL Short code]**&#x200B;フィールドの値が使用されます。
 
-SMSテンプレートの&#x200B;**[!UICONTROL Send]**&#x200B;セクション：
+SMSテンプレートの&#x200B;**[!UICONTROL Send]**&#x200B;セクションで、次の操作を実行します。
 
 * 「**[!UICONTROL Maximum number of SMS per message]**」オプションを使用すると、メッセージの送信に使用する SMS メッセージの数を定義できます。この数を超えると、メッセージは送信されません。
 
