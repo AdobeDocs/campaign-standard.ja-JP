@@ -2,21 +2,20 @@
 solution: Campaign Standard
 product: campaign
 title: テクニカルワークフロー
-description: テクニカルワークフローは標準搭載のワークフローで、Adobe Campaignのバックグラウンド技術プロセスを処理し、プラットフォームの正しい動作を確認するように設計されています。
+description: テクニカルワークフローは、Adobe Campaignのバックグラウンドテクニカルプロセスを処理し、プラットフォームを正しく動作させるように設計された、標準搭載のワークフローです。
 audience: administration
 content-type: reference
 topic-tags: application-settings
-feature: Instance Settings
+feature: インスタンス設定
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: a7a1aa2841410674597264927325c073fef4ce26
+exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
+source-git-commit: 6d25a618b2520c867393bf0ef795567de4c57e98
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 96%
+source-wordcount: '695'
+ht-degree: 92%
 
 ---
-
 
 # テクニカルワークフロー{#technical-workflows}
 
@@ -100,9 +99,14 @@ ht-degree: 96%
    <td> このワークフローは、Adobe Campaign Standard にインポートした Adobe Experience Platform Launch のモバイルプロパティを同期します。これは 15 分ごとに実行されます。<br /> </td> 
   </tr>
   <tr> 
-   <td> <span class="uicontrol">配信実行情報の更新</span> <br /> </td> 
-   <td> <span class="uicontrol">updateDeliveryExecInfo</span> <br /> </td> 
-   <td> このワークフローは、配信の追跡情報を更新します。デフォルトでは、10 分ごとに実行されます。<br /> </td> 
+   <td> <span class="uicontrol">トラッキングログの回復</span> <br /> </td> 
+   <td> <span class="uicontrol">SyncWithLaunch</span> <br /> </td> 
+   <td> このワークフローは、Adobe Campaign Standard にインポートした Adobe Experience Platform Launch のモバイルプロパティを同期します。これは 15 分ごとに実行されます。<br /> </td> 
+  </tr>
+  <tr> 
+   <td> <span class="uicontrol">トラッキングログの復元</span> <br /> </td> 
+   <td> <span class="uicontrol">trackingLogRecovery</span> <br /> </td> 
+   <td> このワークフローは、失われたトラッキングログを復元します。 このテクニカルワークフローは、特定のコンテキストで使用され、Adobe内部での使用のみに制限されます。 <br>デフォルトでは、10 分ごとに実行されます。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">配信インジケーターの更新</span> <br /> </td> 
@@ -121,4 +125,3 @@ ht-degree: 96%
   </tr> 
  </tbody> 
 </table>
-
