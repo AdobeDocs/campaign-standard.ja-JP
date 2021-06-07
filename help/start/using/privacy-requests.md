@@ -6,14 +6,13 @@ description: Adobe Campaign Standard でプライバシーリクエストを管�
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-feature: Privacy
+feature: プライバシー
 role: Business Practitioner
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
-source-wordcount: '1712'
+source-git-commit: 664274abc26925044625a31489b10e5339a2ef7b
+workflow-type: tm+mt
+source-wordcount: '1624'
 ht-degree: 100%
 
 ---
@@ -156,21 +155,21 @@ Privacy Core Service の各ジョブは、使用されている名前空間の�
 * **[!UICONTROL Complete]**：リクエストの処理が完了しました。エラーは発生していません。
 * **[!UICONTROL Error]**：ワークフローにおいて、エラーが発生しました。理由は、「**[!UICONTROL Request status]**」列の「プライバシーリクエスト」リストに表示されます。 例えば、**[!UICONTROL Error data not found]** は、データ主体の&#x200B;**[!UICONTROL Reconciliation value]** に一致する受信者データがデータベース内に見つからないことを意味します。
 
-### 2 段階プロセスの無効化 {#disabling-two-step-process}
+<!--### Disabling the 2-step process {#disabling-two-step-process}
 
-Core Privacy Service は、2 段階プロセスをサポートしていません。
+The Core Privacy Service does not support the 2-step process.
 
 >[!IMPORTANT]
 >
->Core Privacy Service 統合を使用してプライバシーリクエストを管理する前に、Campaign Standard インターフェイスから削除要求の 2 段階プロセスを無効にする必要があります。
+>Before using the Core Privacy Service integration to manage your Privacy requests, you must disable the 2-step process for Delete requests from the Campaign Standard interface.
 
-このオプションを無効にしないと、Privacy Core Service で管理されるすべての削除要求は保留状態のままとなり、完了しません。
+If this option is not disabled, all Delete requests managed with the Privacy Core Service will remain in pending state and will not complete.
 
-デフォルトでは、2 段階プロセスが有効になっています。
+By default, the 2-step process is activated.
 
-このモードを変更するには、「**[!UICONTROL Edit properties]**」をクリックし、 **[!UICONTROL Privacy Requests]** 画面の右上隅にある「**[!UICONTROL Activate the 2-step process]**」オプションの選択を解除します。
+To change this mode, click **[!UICONTROL Edit properties]**, in the top right corner of the **[!UICONTROL Privacy Requests]** screen, then uncheck the **[!UICONTROL Activate the 2-step process]** option.
 
-![](assets/privacy-disable-2-step-process.png)
+![](assets/privacy-disable-2-step-process.png)-->
 
 ## 個人情報の販売のオプトアウト（CCPA）{#sale-of-personal-information-ccpa}
 
