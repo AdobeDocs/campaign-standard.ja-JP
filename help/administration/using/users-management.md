@@ -6,17 +6,16 @@ description: 'Adobe Campaign ユーザーには、特定の役割が割り当て
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-feature: Access Management
+feature: アクセス管理
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 6605203e-78f8-4ebd-b256-a621a3a9d638
+source-git-commit: 7808aea42f417994a61fdde84a44299c0954b346
 workflow-type: tm+mt
-source-wordcount: '1224'
-ht-degree: 95%
+source-wordcount: '1220'
+ht-degree: 94%
 
 ---
-
 
 # ユーザー管理{#users-management}
 
@@ -28,7 +27,7 @@ Adobe Campaign では、ユーザーに一連の役割を割り当てて、ユ�
 
 管理者は Admin Console からユーザーを管理できます。ユーザーは、Adobe Campaign と自動的に同期されるようになります。詳しくは、[Admin Console](https://helpx.adobe.com/jp/enterprise/using/users.html) のドキュメントを参照してください。
 
-![](assets/do-not-localize/how-to-video.png) [この機能をビデオで確認](#video)
+![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](#video)
 
 Adobe Campaign でユーザーを表示するには、左上隅の **[!UICONTROL Adobe Campaign]** ロゴをクリックし、**[!UICONTROL Administration > Users & Security > Users]** を選択します。
 
@@ -38,7 +37,7 @@ Adobe Campaign からユーザー管理インターフェイスにアクセス�
 
 **関連トピック：**
 
-* [ユーザー権限の管理](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/getting-started/access-management.html)（ビデオ）
+* [ユーザー権限の管理](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/administrating/managing-user-access-rights.html)（ビデオ）
 * [役割のリスト](../../administration/using/list-of-roles.md)
 * [認証のリスト](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)
 
@@ -64,7 +63,7 @@ Adobe Campaign からユーザー管理インターフェイスにアクセス�
 
 >[!IMPORTANT]
 >
->**[!UICONTROL Administration]**&#x200B;役割と&#x200B;****&#x200B;へのアクセス権を持つ機能的な管理者のみが、送信ログ、メッセージログ、トラッキングログ、除外ログ、提案ログ、購読ログにアクセスできます。 管理者以外のユーザーは、これらのログにターゲットできますが、リンクされたテーブル(プロファイル、配信)から開始できます。
+>**[!UICONTROL Administration]**&#x200B;の役割と&#x200B;**へのアクセス権を持つ機能管理者のみが、送信ログ、メッセージログ、トラッキングログ、除外ログ、提案ログ、サブスクリプションログにアクセスできます。** 管理者以外のユーザーは、これらのログをターゲットに設定できますが、リンクされたテーブル（プロファイル、配信）から始めることができます。
 
 Adobe Campaign インターフェイスで **[!UICONTROL Administration]** メニューにアクセスできるのは、機能管理者のみです。これらのユーザーは技術リソースにアクセスする必要があるので、標準の役割（**[!UICONTROL Administration]** および **[!UICONTROL Datamodel]**）など、より高度な役割を割り当てる必要があります。これらの役割は、標準の **[!UICONTROL Administrators]** セキュリティグループで組み合わされます。詳しくは、[この節](../../administration/using/list-of-roles.md)を参照してください。
 
@@ -159,8 +158,8 @@ Adobe Campaign インターフェイスで **[!UICONTROL Administration]** メ�
 
 ## チュートリアルビデオ(#video)
 
-このビデオでは、ユーザーアクセス権の管理方法を示します。
+このビデオでは、ユーザーのアクセス権の管理方法を示します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/24671?quality=12)
 
-追加のCampaign Standardハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja)で参照できます。
+追加のCampaign Standardハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja)からご覧いただけます。
