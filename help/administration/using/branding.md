@@ -7,17 +7,16 @@ audience: administration
 content-type: reference
 topic-tags: application-settings
 context-tags: branding,overview;branding,main
-feature: Instance Settings
+feature: インスタンス設定
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
+exl-id: b6032160-fd8b-4a19-b868-b2fb85e6a56b
+source-git-commit: 0080adf32cb011535004391e7468012a07b59a9f
 workflow-type: tm+mt
-source-wordcount: '1286'
-ht-degree: 78%
+source-wordcount: '1282'
+ht-degree: 80%
 
 ---
-
 
 # ブランディング{#branding}
 
@@ -31,7 +30,7 @@ ht-degree: 78%
 
 ブランドの設定と使用に関する主な原則は次のとおりです。
 
-1. ブランドを作成して設定します。この操作には特定の権限が必要で、実行者は Adobe Campaign の技術管理者です。キャンペーンで新しいブランドを獲得する手順は、このセクション](#creating-a-brand)に[詳細に記載されています。
+1. ブランドを作成して設定します。この操作には特定の権限が必要で、実行者は Adobe Campaign の技術管理者です。Campaignで新しいブランドを入手する手順については、この節](#creating-a-brand)で[を参照してください。
 1. ブランドの配信とランディングページテンプレートを 1 つまたは複数作成します。[テンプレートの作成](../../start/using/marketing-activity-templates.md)の節を参照してください。
 1. このテンプレートに基づいてメッセージとランディングページを作成します。[E メールの作成](../../channels/using/creating-an-email.md)と[ランディングページの作成](../../channels/using/designing-a-landing-page.md)の節を参照してください。
 
@@ -88,29 +87,29 @@ ht-degree: 78%
 
    ![](assets/branding_05.png)
 
-## 新しいブランドの作成{#creating-a-brand}
+## 新しいブランド{#creating-a-brand}の作成
 
-組織の新しいエンティティをキャンペーンに追加したり、別のサブドメインの下に送信する必要がある新しいタイプの電子メールを作成したりできます。 これを実行するには、次の手順に従います。
+組織の新しいエンティティをCampaignに追加したり、別のサブドメインで送信する必要がある新しいタイプのEメールを作成したりできます。 これを実行するには、次の手順に従います。
 
-1. **新しいサブドメインの設定** -Adobeが新しいサブドメインを使用する場合は、最初の手順でサブドメインを設定します。[キャンペーンCampaign コントロールパネル](https://docs.adobe.com/content/help/ja-JP/control-panel/using/subdomains-and-certificates/subdomains-branding.html)を通じてこの操作を行うか、Adobeのテクニカルコンタクトにお問い合わせください。 サブドメインの構成[について詳しくは、この記事](https://helpx.adobe.com/jp/campaign/kb/domain-name-delegation.html)を参照してください。
+1. **新しいサブドメインを設定**  -Adobeが使用する新しいサブドメインの場合、最初の手順は新しいサブドメインを設定することです。これは、[キャンペーンCampaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=ja)を通じて実行するか、Adobeの技術担当者にお問い合わせください。 サブドメインの設定[について詳しくは、この記事](https://helpx.adobe.com/jp/campaign/kb/domain-name-delegation.html)を参照してください。
 
    >[!NOTE]
    >
-   >Campaign コントロールパネルは、すべての管理者ユーザーがアクセスできます。 ユーザーに管理者アクセスを許可する手順については、[このページ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel)を参照してください。
+   >コントロールパネルは、すべての管理者ユーザーがアクセスできます。 ユーザーに管理者アクセス権を付与する手順については、[このページ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ja#discover-control-panel)で詳しく説明しています。
 
-1. **チケットの作成**  — サブドメインを設定したら、Adobeは実稼働環境でチケットを設定する必要があります。これをリクエストするには、[次の情報を含むClientCare](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)へのチケットを作成します。
+1. **チケットの作成**  — サブドメインが設定されたら、Adobeは実稼動環境でサブドメインを設定する必要があります。これをリクエストするには、次の情報を使用して、[ClientCare](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)へのチケットを作成します。
 
-   * 件名：ACS新しいブランドがセットアップされました
+   * 件名：ACS新しいブランドのセットアップ
 
-   * コンテンツ：新しいドメインが設定されました。キャンペーンプラットフォームで設定します
+   * コンテンツ：新しいドメインが設定されたので、Campaignプラットフォームで設定します
 
    * ドメイン：XXX
 
-   * 本番用URL:XXX.キャンペーン.adobe.com
+   * 実稼動URL:XXX.campaign.adobe.com
 
-1. **配信テンプレートの作成**  — 新しいブランドが利用可能になったら、ベストプラクティスは、この新しいブランドを参照する新しい空白の配信テンプレートを少なくとも1つ作成することです。[詳細情報](#linking-a-brand-to-a-template)。
+1. **配信テンプレートの作成**  — 新しいブランドが利用可能になったら、ベストプラクティスは、この新しいブランドを参照する少なくとも1つの新しい空の配信テンプレートを作成することです。[詳細情報](#linking-a-brand-to-a-template)。
 
-1. **配信品質のガイドラインの確認**  — 新しいドメインを使用する前に、Adobeの配信品質チームに問い合わせる必要があります。例えば、ドメイン間でIPを分割する新しいアフィニティを作成する場合や、ランプアップ計画を定義する場合など、ベストプラクティスを定義するのに役立ちます。 配信品質のベストプラクティス[について詳しくは、このセクション](../../sending/using/about-deliverability.md)を参照してください。
+1. **配信品質のガイドラインを確認**  — 新しいドメインの使用を開始する前に、戦略についてAdobe配信品質チームに話し合う必要があります。例えば、ドメイン間でIPを分割するために新しいアフィニティを作成する必要がある場合や、ランプアップ計画を定義する必要がある場合に、ベストプラクティスの定義に役立ちます。 配信品質のベストプラクティス[について詳しくは、この節](../../sending/using/about-deliverability.md)を参照してください。
 
 ## E メールへのブランドの割り当て {#assigning-a-brand-to-an-email}
 
@@ -200,4 +199,3 @@ ht-degree: 78%
 1. これで、E 電子メールが設定されました。情報を確認してからテストプロファイルを使用してテストした後、オーディエンスに送信することができます。
 
    ![](assets/branding_16.png)
-
