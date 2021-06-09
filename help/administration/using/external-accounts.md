@@ -7,17 +7,16 @@ audience: administration
 content-type: reference
 topic-tags: application-settings
 context-tags: extAccount,main;extAccount,overview
-feature: Instance Settings
+feature: インスタンス設定
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 7979d8fd88b93a1cdd7b5a11bb66e894ab12f1c2
+exl-id: 747e82ff-d3e6-4945-8f29-80e4a190c96f
+source-git-commit: 0080adf32cb011535004391e7468012a07b59a9f
 workflow-type: tm+mt
-source-wordcount: '1778'
-ht-degree: 83%
+source-wordcount: '1774'
+ht-degree: 84%
 
 ---
-
 
 # 外部アカウント{#external-accounts}
 
@@ -33,7 +32,7 @@ ht-degree: 83%
 * Adobe Analytics。詳しくは、[この節](../../integrating/using/configure-campaign-analytics-integration.md)を参照してください。
 * Google reCAPTCHA。詳しくは、[この節](#google-recaptcha-external-account)を参照してください。
 * Microsoft Azure Blob ストレージ。詳しくは、[この節](#microsoft-azure-external-account)を参照してください。
-* OAuth 2.0。詳しくは、[このセクション](#oauth-account)を参照してください。
+* OAuth 2.0。詳しくは、[この節](#oauth-account)を参照してください。
 
 >[!NOTE]
 >
@@ -85,30 +84,30 @@ ETL のためのファイルやデータを管理する際、これらのファ�
 * 時々 SFTP にログインして、問題がないか直接確認します。
 * SFTP のディスク管理は、基本的に管理者の責任となります。
 
-また、SFTP接続を開始しようとするパブリックIPは、キャンペーンインスタンスの許可リストに追加する必要があります。 許可リストへのIPアドレスの追加は、[サポートチケット](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)を介してリクエストでき、認証に使用する公開鍵を提供できます。
+また、SFTP接続の開始の試行元となるパブリックIPは、Campaignインスタンスのに追加する必要があ許可リストります。 へのIPアドレ許可リストスの追加は、[サポートチケット](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)を介してリクエストでき、認証に使用する公開鍵を提供します。
 
-SFTP サーバーは、コントロールパネルから管理できます。詳しくは、[コントロールパネルのドキュメント](https://docs.adobe.com/content/help/ja-JP/control-panel/using/sftp-management/about-sftp-management.html)を参照してください。
+SFTP サーバーは、コントロールパネルから管理できます。詳しくは、[コントロールパネルのドキュメント](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=ja)を参照してください。
 
 >[!NOTE]
 >
->Campaign コントロールパネルは、すべての管理者ユーザーがアクセスできます。 ユーザーに管理者アクセスを許可する手順については、[このページ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel)を参照してください。
+>コントロールパネルは、すべての管理者ユーザーがアクセスできます。 ユーザーに管理者アクセス権を付与する手順については、[このページ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ja#discover-control-panel)で詳しく説明しています。
 
 ## OAuth 2.0アカウント{#oauth-account}
 
-OAuth 2.0外部アカウントの場合は、次の詳細を入力します。
+OAuth 2.0外部アカウントの場合は、次の詳細を指定します。
 
-* **許可の種類**:**クライアント資格情報**&#x200B;のみがサポートされます。
-* **セキュアAPI URL**:認証エンドポイントを入力します。
-* **OAuth 2.0の機密資格情報**:このセクションは、本質的に機密性の高い資格情報を対象としています。秘密鍵証明書の値は、追加された後に画面上でマスクされます。この時点では、読み取りや編集ができなくなります。 認証エンドポイントで、POSTのbodyパラメーターの代わりに特定の秘密鍵証明書をHTTP認証ヘッダーに挿入する必要がある場合は、その秘密鍵証明書の「ヘッダーに含める」オプションを選択できます。
-* **OAuth 2.0の機密でない資格情報**:このセクションは、本質的に機密性の低い資格情報を対象としています。秘密鍵証明書の値は、追加された後、画面に表示されます。また、これらは編集可能になります。  認証エンドポイントで、POSTのbodyパラメーターの代わりに特定の秘密鍵証明書をHTTP認証ヘッダーに挿入する必要がある場合は、その秘密鍵証明書の「ヘッダーに含める」オプションを選択できます。
+* **付与タイプ**:**クライアント資格情報**&#x200B;のみがサポートされます。
+* **セキュアAPI URL**:承認エンドポイントを入力します。
+* **OAuth 2.0機密資格情報**:この節は、本質的に機密性の高い資格情報を対象としています。秘密鍵証明書の値は追加後、画面上でマスクされます。その時点では、読み取りや編集はできません。 認証エンドポイントで、POST本文パラメーターの代わりに特定の証明書をHTTP認証ヘッダーに挿入する必要がある場合は、「その証明書のヘッダーに含める」オプションを選択できます。
+* **OAuth 2.0の機密性の低い資格情報**:この節は、本質的に機密性が低い資格情報を対象としています。秘密鍵証明書の値は、追加後、画面に表示されます。また、編集可能になります。  認証エンドポイントで、POST本文パラメーターの代わりに特定の証明書をHTTP認証ヘッダーに挿入する必要がある場合は、「その証明書のヘッダーに含める」オプションを選択できます。
 
-アカウント情報を入力したら、「**接続をテスト**」をクリックして、外部アカウントが正しく構成されていることを確認します。
+アカウント情報を入力したら、「**接続をテスト**」をクリックし、外部アカウントが正しく設定されていることを確認します。
 
 ![](assets/external_accounts_OAuth.png)
 
 >[!NOTE]
 >
->秘密鍵証明書「Content-Type:application/x-www-form-urlencoded&quot;と&quot;grant_type=client_credentials&quot;は、自動的にAPI呼び出しに追加されます。したがって、資格情報セクションに追加する必要はありません。
+>資格情報「Content-Type:application/x-www-form-urlencodedと&quot;grant_type=client_credentials&quot;は、API呼び出しに自動的に追加されます。したがって、資格情報セクションに追加する必要はありません。
 
 ## Amazon S3 外部アカウント {#amazon-s3-external-account}
 
