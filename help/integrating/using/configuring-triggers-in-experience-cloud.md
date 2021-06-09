@@ -2,33 +2,32 @@
 solution: Campaign Standard
 product: campaign
 title: Experience Cloud でのトリガーの設定
-description: '以前の行動に基づいて、パーソナライズされた配信を顧客に送信する開始へのAdobe Experience Cloud Triggers統合の設定方法を説明します。 '
+description: '以前の行動に基づいてパーソナライズされた配信を顧客に送信するようにAdobe Experience Cloud Triggers統合を設定する方法を説明します。 '
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
-feature: Triggers
+feature: トリガー
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 50e9fb7a-b28a-40b0-9f2c-3673c792529a
+source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
 workflow-type: tm+mt
-source-wordcount: '864'
-ht-degree: 8%
+source-wordcount: '859'
+ht-degree: 7%
 
 ---
 
-
 # Experience Cloud でのトリガーの設定{#configuring-triggers-in-experience-cloud}
 
-## 機能のアクティブ化{#activating-the-functionality}
+## 機能{#activating-the-functionality}の有効化
 
-この機能は、AdobeによるAdobe Campaignでアクティブ化する必要があります。 Adobeのアカウントエグゼクティブまたはプロフェッショナルサービスパートナーにお問い合わせください。
+機能は、Adobe CampaignでAdobeによって有効化する必要があります。 担当のAdobeアカウントエグゼクティブまたはプロフェッショナルサービスパートナーにお問い合わせください。
 
-Adobeチームは、トリガーをアクティブにするために次の情報が必要です。
+Adobeをアクティブ化するには、次の情報がトリガーチームに必要です。
 
 * Marketing Cloud会社名
 * IMS 組織 ID
-* Analyticsログイン会社(Marketing Cloud会社名と同じにすることができます)
+* Analyticsログイン会社名(Marketing Cloud会社名と同じ)
 
 ## ソリューションとサービスの設定{#configuring-solutions-and-services}
 
@@ -54,65 +53,64 @@ Adobeチームは、トリガーをアクティブにするために次の情報
 
 >[!CAUTION]
 >
->サブドメイン設定は、配信品質の主要要素です。 Adobe Campaignの電子メールは、Webサイトで使用されているドメインと同じドメインから送信される必要があります。
+>サブドメイン設定は、配信品質の主要要素です。 Adobe Campaign Eメールは、Webサイトで使用されるドメインと同じドメインから送信されるようにします。
 
-これらの使用例を実行するには、[Experience CloudDTMコアサービス](#configuring-experience-cloud-dtm-core-service)、[Experience CloudPeopleコアサービス](#configuring-experience-cloud-people-core-service)、[キャンペーン](#configuring-triggers-and-aliases-in-campaign)を設定する必要があります。
+これらの使用例を実行するには、[Experience CloudDTMコアサービス](#configuring-experience-cloud-dtm-core-service)、[Experience Cloudユーザーコアサービス](#configuring-experience-cloud-people-core-service)および[Campaign](#configuring-triggers-and-aliases-in-campaign)を設定する必要があります。
 
-### Experience CloudDTMコアサービスの設定{#configuring-experience-cloud-dtm-core-service}
+### Experience CloudDTMコアサービス{#configuring-experience-cloud-dtm-core-service}の設定
 
-1. Experience CloudDTMコアサービス(Dynamic Tag Management)で、WebサイトページのExperience CloudIDとAdobe Analyticsをアクティブにします。
+1. Experience CloudDTMコアサービス(Dynamic Tag Management)で、WebサイトページのExperience CloudIDとAdobe Analyticsをアクティブ化します。
 
    ![](assets/trigger_uc_conf_1.png)
 
-1. Webサイト、Adobe Analytics、Adobe Campaign間のIDの調整には、エイリアシングを使用する必要があります。 例えば、エイリアス「visitorid」を作成します。
+1. Webサイト、Adobe Analytics、Adobe Campaign間のID紐付けでは、エイリアスを使用する必要があります。 エイリアス（例：「visitorid」）を作成します。
 
    ![](assets/trigger_uc_conf_2.png)
 
-### Experience Cloudユーザーコアサービスの設定{#configuring-experience-cloud-people-core-service}
+### Experience CloudPeopleコアサービスの設定{#configuring-experience-cloud-people-core-service}
 
-DTMで以前参照したエイリアスは、Customer Attributeを使用してExperience CloudPeopleコアサービスで作成する必要があります。 新しいエイリアスを作成し、統合コードで同じDTMエイリアス（例：「visitorid」）を参照していることを確認します。
+DTMで以前に参照されたエイリアスは、顧客属性を通じてExperience CloudPeopleコアサービスで作成する必要があります。 新しいエイリアスを作成し、統合コードで同じDTMエイリアスを参照していることを確認してください（例：「visitorid」）。
 
 ![](assets/trigger_uc_conf_3.png)
 
 >[!NOTE]
 >
->Adobe Campaignのデータソースでこの顧客属性を使用します（次の手順）。
+>この顧客属性をAdobe Campaignのデータソースで使用します（次の手順）。
 
-### キャンペーン{#configuring-triggers-and-aliases-in-campaign}でのトリガーとエイリアスの設定
+### Campaignでのトリガーとエイリアスの設定{#configuring-triggers-and-aliases-in-campaign}
 
-1. **[!UICONTROL Experience Cloud triggers]**&#x200B;がAdobe Campaign Standardインスタンス上に表示されていることを確認します。 削除しなかった場合は、Adobe Campaign管理者に問い合わせてください。
+1. **[!UICONTROL Experience Cloud triggers]**&#x200B;がAdobe Campaign Standardインスタンス上に表示されていることを確認します。 割り当てられていない場合は、Adobe Campaign管理者にお問い合わせください。
 
    ![](assets/remarketing_1.png)
 
-1. エイリアスを使用すると、Analyticsの連絡先をキャンペーン内のプロファイルと調整できます。 Experience CloudIDサービスで定義されたエイリアスとキャンペーンの共有データソースを一致させる必要があります。 データソース( **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Shared Data Sources]** )を使用して、Adobe Campaignでエイリアスの解決を設定する必要があります。 **[!UICONTROL Data Source/Alias]**&#x200B;ドロップダウンメニューで正しいデータソースを選択してください。このデータソースは、前の手順で作成したのと同じ顧客属性データソースにマップされています。
+1. エイリアスにより、Analyticsの連絡先をCampaignのプロファイルと紐付けできます。 Experience CloudIDサービスで定義されたエイリアスをCampaignの共有データソースと照合する必要があります。 データソース( **[!UICONTROL Administration]** / **[!UICONTROL Application Settings]** / **[!UICONTROL Shared Data Sources]** )を使用して、Adobe Campaignでエイリアスの解決を設定する必要があります。 **[!UICONTROL Data Source/Alias]**&#x200B;ドロップダウンメニューで正しいデータソースを選択してください。このデータソースは、前の手順で作成したのと同じ顧客属性データソースにマッピングされています。
 
    ![](assets/trigger_uc_conf_5.png)
 
    >[!NOTE]
    >
-   >匿名ユーザーとログインユーザーの両方のトリガーを調整できます。 匿名ユーザーの場合、プロファイルはAdobe Campaign内に存在する必要があり、以前に電子メールがユーザーに送信されています。 この場合、訪問者IDの設定で十分です。 ただし、ログインしたユーザーのトリガーを調整する場合は、宣言済みIDデータソースを設定する必要があります。 詳しくは、[データソースの設定](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#step-2--configure-the-data-sources)を参照してください。
+   >匿名ユーザーとログイントリガーの両方に対してユーザーを紐付けできます。 匿名ユーザーの場合、プロファイルはAdobe Campaignに存在し、以前にユーザーに電子メールが送信されている必要があります。 そのためには、訪問者IDの設定で十分です。 ただし、ログインしたユーザーのトリガーを紐付けする場合は、宣言済みIDデータソースを設定する必要があります。 詳しくは、[データソースの設定](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#step-2--configure-the-data-sources)を参照してください。
 
 ## Experience Cloudインターフェイスでのトリガーの作成{#creating-a-trigger-in-the-experience-cloud-interface}
 
-キャンペーンで使えるようにAdobe Experience Cloudトリガーを作成する必要があります。
+Adobe Experience CloudトリガーをCampaignで使用できるようにする必要があります。
 
-Experience Cloudで新しいトリガーを作成し、Webサイトで使用するレポートスイートを必ず選択してください。 トリガーが起動するように、正しいディメンションを選択してください。
+「 」Experience Cloudで新しいトリガーを作成し、Webサイトで使用するレポートスイートを必ず選択してください。 トリガーが実行されるように、適切なディメンションを選択していることを確認します。
 
-[Adobe Experience Cloudのドキュメント](https://docs.adobe.com/content/help/ja-JP/core-services/interface/activation/triggers.html)を参照し、[ビデオ](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two)をご覧ください。
+[Adobe Experience Cloudのドキュメント](https://experienceleague.adobe.com/docs/core-services/interface/activation/triggers.html)を参照し、この[ビデオ](https://helpx.adobe.com/jp/marketing-cloud/how-to/email-marketing.html#step-two)を見てください。
 
-## トリガーのベストプラクティスと制限{#triggers-best-practices-and-limitations}
+## トリガーのベストプラクティスと制限事項{#triggers-best-practices-and-limitations}
 
-キャンペーン-トリガー統合の使用に関するベストプラクティスと制限のリストを次に示します。
+以下に、Campaignとトリガーの統合の使用に関するベストプラクティスと制限のリストを示します。
 
-* Campaign Standardのインスタンスが複数ある場合、トリガーは、同じIMS組織IDにある限り、すべてのインスタンスで受け取ることができます。 また、Analyticsは同じIMS組織IDにある必要があります。
-* 2つの異なるレポートスイートのイベントを使用して、トリガーコアサービスでトリガーを作成することはできません。
-* トリガーはトランザクションメッセージに基づいています。 トランザクションメッセージは、非常に早くメッセージを送信する必要がある場合に使用されます。 トランザクションメッセージをキューに入れてからバッチでループすることはできません。
-* トリガーは本質的には決定的ではありません トリガーを生成すると、cookieに関連付けられたすべてのエイリアスが送信されるので、家庭の小売店のキオスク、ライブラリ、サイバーカフェ、共有デバイス（夫婦が同じデバイスからログインする）などの共有ブラウザーの場合は、適切なIDにマッピングできません。 ブラウザとのログインに使用されるすべてのIDは、最初の調整に基づいてメッセージを送信するキャンペーンに送信されます。 調整の対象となる「電子メールID」が複数存在する場合、キャンペーンは電子メールを送信しません。 Analyticsで取り込まれて送信されない限り、正しい電子メールIDが何かをキャンペーンが知ることはできません。
-* ペイロードの内容をキャンペーンに格納することはできません。 トリガーを使用してプロファイルのデータを更新することはできません。
-* 顧客属性は、トリガーではサポートされていません(つまり、レポートスイートデータのみを使用してトリガーのビジネスルールを定義できます)。
-* コレクションのキャンペーンは、コレクションではサポートされていません。
+* Campaign Standardの複数のインスタンスがある場合、同じIMSトリガーIDにある限り、すべてのインスタンスが組織を受け取ることができます。 また、Analyticsは、同じIMS組織ID上にある必要があります。
+* 2つの異なるレポートスイートのトリガーを使用して、トリガーコアサービスでイベントを作成することはできません。
+* トリガーは、トランザクションメッセージに基づいています。 トランザクションメッセージは、非常に迅速にメッセージを送信する必要がある場合に使用されます。 トランザクションメッセージをキューに入れてからバッチでループすることはできません。
+* トリガーは本質的には決定論的ではありません。 トリガーが生成されると、cookieに関連付けられているすべてのエイリアスが送信されるので、小売キオスク、ライブラリ、サイバーカフェ、自宅の共有デバイス（同じデバイスからログインする夫婦）などの共有ブラウザーの場合、適切なIDにマッピングできません。 ブラウザーでのログインに使用されるすべてのIDは、最初の紐付けに基づいてメッセージを送信するCampaignに送信されます。 紐付けの対象となる「電子メールID」が複数ある場合、Campaignは電子メールを送信しません。 Analyticsで取り込まれて送信されない限り、Campaignが適切な電子メールIDを把握する方法はありません。
+* ペイロードのコンテンツをCampaignに保存することはできません。 トリガーは、プロファイルのデータの更新には使用できません。
+* 顧客属性は、トリガーではサポートされていません(つまり、レポートスイートデータのみを使用してトリガービジネスルールを定義できます)。
+* コレクションのコレクションは、Campaignではサポートされていません。
 
 >[!CAUTION]
 >
->WebサイトがAdobe Campaignサーバーと同じドメインで実行されている必要があります。 一致しない場合、訪問者IDを使用して調整を行い、Webサイトを匿名で訪問するユーザーにリーチアウトすることはできません。
-
+>WebサイトがAdobe Campaignサーバーと同じドメインで実行されている。 そうでない場合、訪問者IDを使用して紐付けを行い、Webサイトに匿名でアクセスするユーザーにリーチアウトすることはできません。
