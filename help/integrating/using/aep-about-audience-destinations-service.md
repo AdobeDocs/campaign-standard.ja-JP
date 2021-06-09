@@ -2,52 +2,51 @@
 solution: Campaign Standard
 product: campaign
 title: Audience Destinations サービスについて
-description: オーディエンスの宛先サービスについての詳細。
+description: Audience Destinationsサービスの詳細を説明します。
 audience: audiences
 content-type: reference
 topic-tags: managing-audiences
 context-tags: audience,wizard;audience,overview;delivery,audience,back
-feature: Microsoft CRM Integration
+feature: Microsoft CRM統合
 role: Data Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 34235749-d056-4d4c-9939-7dc52f980a76
+source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 7%
+source-wordcount: '379'
+ht-degree: 2%
 
 ---
-
 
 # Audience Destinations サービスについて {#about-audiences}
 
 >[!IMPORTANT]
 >
->オーディエンス宛先サービスは現在ベータ版で、予告なく頻繁に更新される可能性があります。 これらの機能にアクセスするには、お客様はAzureでホストされる必要があります（現在、北米向けベータ版のみ）。 ご利用になる場合は、Adobeカスタマーケアにお問い合わせください。
+>Audience Destinationsサービスは現在ベータ版で、予告なく頻繁に更新される可能性があります。 これらの機能にアクセスするには、Azureでホストする必要があります（現在、北米でのみベータ版）。 にアクセスする場合は、Adobeカスタマーケアにお問い合わせください。
 
-[Adobe Experience Platform](https://docs.adobe.com/content/help/en/experience-platform/landing/home.html)を活用して、大規模で複雑なデータセットに基づいて、ターゲットを絞り込んだオーディエンスを構築することで、コンシューマーエクスペリエンスを強化します。 Adobe Experience Platformでは、Adobe Analyticsを含むオンラインおよびオフラインのソースにわたるプロファイル、行動、および複数のエンティティのデータが統合され、顧客の360度の表示を構築し、顧客体験を効果的に管理できます。
+[Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html)を活用して、大規模で複雑なデータセットに基づいて、ターゲットを絞り込んだオーディエンスを構築することで、消費者エクスペリエンスを強化します。 Adobe Experience Platformは、Adobe Analyticsを含むオンラインおよびオフラインのソースにわたるプロファイル、行動および複数エンティティのデータを統合し、顧客の360度のビューを構築し、顧客体験を効果的に管理できます。
 
-次に、Adobe Campaign Standardは、**オーディエンス宛先**&#x200B;サービスを使用して、Adobe Experience Platformから&#x200B;**オーディエンス**&#x200B;と呼ばれるプロファイルのコレクションを取得し、マルチステップおよび/またはチャネル間のキャンペーンプログラムを行います。
+次に、Adobe Campaign Standardは、 **Audience Destinations**&#x200B;サービスを使用して、マルチステップおよびクロスチャネルのキャンペーンプログラム用に、Adobe Experience Platformから&#x200B;**Audiences**&#x200B;と呼ばれるプロファイルのコレクションを取得します。
 
-**オーディエンス** は、最初の作成 **セグメント**(Adobe Experience Platformから顧客プロファイル内の事実上すべての変数(プロファイル、イベント、マルチエンティティデータなど)に基づく一連のルール)によって作成され、多次元ターゲットが作成されます。リアルタイムの顧客プロファイルとセグメント化サービスに関するグローバルな概念は、次の専用ドキュメントで参照できます。
+**** オーディエンスは、最初にセグメントを作成することで作成されます ****。これは、基本的に、Adobe Experience Platformから顧客プロファイル内のほぼすべての変数（プロファイル、イベント、複数エンティティデータなど）に基づいて、多次元ターゲットを作成するルールです。リアルタイム顧客プロファイルとセグメント化サービスに関するグローバルな概念は、次の専用ドキュメントで参照されています。
 
-* [リアルタイム顧客プロファイルの概要](https://docs.adobe.com/content/help/en/experience-platform/profile/home.html)
-* [Segmentation Serviceの概要](https://docs.adobe.com/content/help/en/experience-platform/segmentation/home.html)
+* [リアルタイム顧客プロファイルの概要](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)
+* [セグメント化サービスの概要](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html)
 
-セグメントを作成したら、[Campaign Standardワークフロー](../../integrating/using/aep-targeting-audiences.md)で配信のオーディエンスとしてアクティブ化できます。 さらに、Adobe Experience Platformのコンテキストデータを[パーソナライズ](../../integrating/using/aep-personalizing-campaigns.md)に利用し、動的なコンテンツをキャンペーンに追加することもできます。
+セグメントを作成したら、[Campaign Standardワークフロー](../../integrating/using/aep-targeting-audiences.md)で配信のオーディエンスとしてアクティブ化できます。 さらに、Adobe Experience Platformのコンテキストデータを使用して[パーソナライズ](../../integrating/using/aep-personalizing-campaigns.md)し、キャンペーンに動的なコンテンツを追加することもできます。
 
-![](assets/do-not-localize/how-to-video.png) ハウツービデオは [この節でもご覧いただけます](https://docs.adobe.com/content/help/ja-JP/campaign-standard-learn/tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.translate.html)。
+![](assets/do-not-localize/how-to-video.png) ハウツービデオについては、この節でも [参照できます](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html)。
 
-これらの節で使用される用語：
+以下の節で使用される用語：
 
-* **プロファイル**:プロファイルは、Experience Platformの属性を定義するために使用される消費者標準データモデルです。また、プロファイルは、イベントデータおよび個人や機器に関連する属性の集計にもなる。
+* **プロファイル**:プロファイルは、Experience Platformの属性を定義するために使用される消費者標準データモデルです。プロファイルは、個人やデバイスに関連するイベントデータや属性の集計にすることもできます。
 
-   例：「ジョン・ドウは55歳の男です」
+   例：「ジョン・ドアは55歳の男です」
 
 * **セグメント**:属性とイベントデータの両方を使用して、データベースのプロファイルのサブセットを定義する一連のルール。
 
-   例：「男性> 50歳」
+   例：「男の子は50歳以上」
 
 * **オーディエンス**:セグメントルールを満たすプロファイルの集まり。
 
-   例：データベース内の男性50歳を超えるすべての男性に対応するプロファイルのリスト。
+   例：データベース内のすべての男性が50歳を超えるに対応するプロファイルのリスト。
