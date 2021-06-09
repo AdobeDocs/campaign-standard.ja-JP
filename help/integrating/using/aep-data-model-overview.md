@@ -2,51 +2,50 @@
 solution: Campaign Standard
 product: campaign
 title: エクスペリエンスデータモデルの概要
-description: エクスペリエンスデータモデル(XDM)は、データをAdobe Experience Platformのソリューションや製品で使用する際に取り込むことができる、標準的なデータスキーマのセットです。
+description: エクスペリエンスデータモデル(XDM)は、Adobe Experience Platformのソリューションや製品で使用するためにデータを取り込むことのできる、標準的なデータスキーマセットです。
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Microsoft CRM Integration
+feature: Microsoft CRM統合
 role: Data Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: cc1aa669-30cd-4ea4-9fab-4d1b6c373744
+source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 7%
+source-wordcount: '248'
+ht-degree: 0%
 
 ---
-
 
 # エクスペリエンスデータモデルの概要{#experience-data-model-overview}
 
 >[!IMPORTANT]
 >
->Adobe Experience Platformデータコネクタは現在ベータ版で、予告なく頻繁に更新される可能性があります。 これらの機能にアクセスするには、お客様はAzureでホストされる必要があります（現在、北米向けベータ版のみ）。 ご利用になる場合は、Adobeカスタマーケアにお問い合わせください。
+>Adobe Experience Platform Data Connectorは現在ベータ版です。通知なしに頻繁に更新される可能性があります。 これらの機能にアクセスするには、Azureでホストする必要があります（現在、北米でのみベータ版）。 にアクセスする場合は、Adobeカスタマーケアにお問い合わせください。
 
-エクスペリエンスデータモデル(XDM)は、データをAdobe Experience Platformのソリューションや製品で使用する際に取り込むことができる、標準的なデータスキーマのセットです。
+エクスペリエンスデータモデル(XDM)は、Adobe Experience Platformのソリューションや製品で使用するためにデータを取り込むことのできる、標準的なデータスキーマセットです。
 
-XDMスキーマの作成と管理は、専用のAPIまたはXDMユーザーインターフェイスを使用して行うことができます。
+XDMスキーマの作成と管理は、専用のAPIまたはXDMユーザーインターフェイスで利用できます。
 
 ## XDMワークスペース{#xdm-workspace}
 
-XDM Workspaceでは、データスキーマの表示、作成、拡張を行うことができます。
+XDM Workspaceは、データスキーマを表示、作成および拡張する機能を備えています。
 
-XDMユーザーインターフェイスにアクセスするには、Adobe Experience Platformを開きます。 XDMスキーマを作成または拡張するには、「データモデル」ウィンドウにナビゲートします。
+XDMユーザーインターフェイスにアクセスするには、 Adobe Experience Platformを開きます。 データモデルウィンドウに移動して、XDMスキーマを作成または拡張します。
 
-[XDM Workspaceの完全なドキュメント](https://docs.adobe.com/content/help/ja-JP/experience-platform/xdm/api/getting-started.html)を参照してください。
+[XDM Workspaceの完全なドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html)を参照してください。
 
 ![](assets/aep_xdmworkspace.png)
 
 ## XDM API {#xdm-api}
 
-XDMスキーマAPIを使用して、次の操作を実行できます。
+XDMスキーマAPIを使用して、次のアクションを実行できます。
 
 * 既存のスキーマのリストの表示
 * 特定のスキーマの表示既存のスキーマの拡張
-* 拡張子追加のフィールド
+* 拡張機能へのフィールドの追加
 * 新しいスキーマの作成と更新
-* 表示スキーマ記述子
+* スキーマ記述子の表示
 * スキーマ記述子の作成、更新、削除
 
-API呼び出しを操作するための詳細は、[デベロッパーガイド](https://docs.adobe.com/content/help/en/experience-platform/xdm/api/getting-started.html)で入手できます。
+API呼び出しの操作に関する詳細については、『[開発者ガイド](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html)』を参照してください。
