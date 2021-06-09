@@ -2,39 +2,38 @@
 solution: Campaign Standard
 product: campaign
 title: Campaign と Analytics の統合について
-description: Adobe Campaign StandardからKPIデータを収集することで、キャンペーンデータをAdobe Analyticsと共有して、Adobe Campaignからの電子メールマーケティング指標を測定できるようになりました。
+description: Adobe Campaign StandardからKPIデータを収集することで、キャンペーンデータをAdobe Analyticsと共有して、Adobe Campaignの電子メールマーケティング指標を測定できるようになりました。
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics
-feature: Triggers
+feature: トリガー
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: ada1a5d1-879b-49cd-b4ef-43d7a40bafdb
+source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '207'
 ht-degree: 7%
 
 ---
 
-
 # Campaign と Analytics の統合について{#about-campaign-analytics-integration}
 
-Adobe CampaignでのAdobe Analyticsの統合により、Adobe Analyticsで電子メール配信の成功を直接追跡できるようになりました。
+Adobe CampaignのAdobe Analytics統合により、Eメール配信の成功をAdobe Analyticsで直接トラッキングできるようになりました。
 
-このAdobe Campaign StandardとAdobe Analyticsの統合により、次のことが可能になります。
+Adobe Campaign StandardとAdobe Analyticsのこの統合により、次のことが可能になります。
 
-* Adobe Campaign StandardからAdobe AnalyticsまでKPI（主要業績評価指標）データを共有します。
-* Adobe Analyticsのパラメーターを使用して、トラッキング式を拡張します。
+* Adobe Campaign StandardからAdobe AnalyticsにKPI（主要業績評価指標）データを共有します。
+* Adobe Analyticsのパラメーターを使用して、トラッキング式を強化する。
 
-これは、最初にAdobe Analyticsにリンクされた外部アカウントを作成することで機能します。 技術的なワークフローが自動的に起動し、デフォルトでは、15分ごとに自動実行されます。 次に、KPIデータがAnalyticsにプッシュされます。
+これは、最初にAdobe Analyticsにリンクされた外部アカウントを作成することで機能します。 テクニカルワークフローが自動的に起動し、デフォルトでは、15分ごとに自動実行されます。 次に、KPIデータがAnalyticsにプッシュされます。
 
-この統合は、電子メール配信のみで使用できます。
+この統合は、Eメール配信でのみ使用できます。
 
-Adobe Analyticsのコアサービス&#x200B;**トリガー**&#x200B;とAdobe Campaignの統合も可能です。 これにより、Adobe AnalyticsがWebサイトで追跡する特定の行動に対する反応として、顧客に対してパーソナライズされた電子メールを送信できます（15分以内）。
+Adobe Analyticsのコアサービス&#x200B;**トリガー**&#x200B;とAdobe Campaignの統合も可能です。 Webサイト上でAdobe Analyticsによって追跡される特定の動作に対する反応として、パーソナライズされたEメールを顧客に送信できます（15分以内）。
 
 **関連トピック：**
 
-* [AnalyticsとのCampaign Standardの概要](https://docs.adobe.com/content/help/en/analytics/integration/adobe-campaign.html)
-* [Campaign Standard統合の設定](https://docs.adobe.com/content/help/en/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-analytics/configure-campaign-analytics-integration.html)
+* [AnalyticsとCampaign Standardの統合の概要](https://experienceleague.adobe.com/docs/analytics/integration/adobe-campaign.html)
+* [Campaign Standard統合の設定](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-analytics/configure-campaign-analytics-integration.html)
 * [Analytics での Campaign のディメンションと指標](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
