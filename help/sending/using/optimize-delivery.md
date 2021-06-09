@@ -6,18 +6,17 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
-description: 送信プロセスをアップストリームで保護し、最適化する方法を学びます。
-feature: Deliverability
+description: 送信プロセスのアップストリームを保護し最適化する方法を説明します。
+feature: 配信品質
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
+exl-id: 28b0cf6d-c1f1-4d55-b9bc-0d6bfb063471
+source-git-commit: 8a62ee661b77c3e3062e46477bfce5911e9415ff
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '747'
 ht-degree: 81%
 
 ---
-
 
 # 配信の最適化 {#optimize-delivery}
 
@@ -29,15 +28,15 @@ ht-degree: 81%
 
 いくつかの要因がサーバーのパフォーマンスに直接影響し、プラットフォームの速度が低下することがあります。
 
-* パーソナライゼーション要素の数とタイプ：E メールのパーソナライゼーションでは、各受信者のデータベースからデータを取り出します。パーソナライゼーション要素が多数ある場合は、配信の準備に必要なデータの量もそれだけ多くなります。電子メールのパーソナライゼーションについて詳しくは、[このセクション](../../designing/using/personalization.md)を参照してください
+* パーソナライゼーション要素の数とタイプ：E メールのパーソナライゼーションでは、各受信者のデータベースからデータを取り出します。パーソナライゼーション要素が多数ある場合は、配信の準備に必要なデータの量もそれだけ多くなります。Eメールのパーソナライゼーションについて詳しくは、[この節](../../designing/using/personalization.md)を参照してください。
 
-* サーバーの読み込み：キャンペーンが多くの異なるタスクを同時に処理している場合、パフォーマンスが低下する可能性があります。 サーバーでは、すべての配信の入出力データをすべて調整し、データが正しく、かつ時間どおりになっていることを確認する必要があります。
+* サーバーの負荷：キャンペーンが様々なタスクを同時に処理している場合、パフォーマンスが低下する可能性があります。 サーバーは、すべての配信ですべての受信および送信データを調整し、データが正しく、時間通りに正しいことを確認する必要があります。
 
    **ヒント**：パフォーマンスの低下を避けるには、他のチームメンバーと話し合い、最適なパフォーマンスが得られるように配信スケジュールを調整します。
 
-* [ワークフローの実行](../../automating/using/about-workflow-execution.md):ワークフローの監視は、プラットフォームのパフォーマンスの問題を回避するために不可欠です。 [このページ](../../automating/using/monitoring-workflow-execution.md)に記載されているガイドラインに従ってください。 詳しくは、[ワークフローのベストプラクティス](../../automating/using/best-practices-workflows.md)の節を参照してください。
+* [ワークフローの実行](../../automating/using/about-workflow-execution.md):ワークフローの監視は、プラットフォームのパフォーマンスの問題を回避するために必要です。 このページ](../../automating/using/monitoring-workflow-execution.md)に示すガイドラインに従います。 [詳しくは、[ワークフローのベストプラクティス](../../automating/using/best-practices-workflows.md)の節を参照してください。
 
-* [キャンペーンコントロールパネル機能](https://docs.adobe.com/content/help/ja-JP/control-panel/using/discover-control-panel/key-features.html)を利用して、[パフォーマンス監視](https://docs.adobe.com/content/help/ja-JP/control-panel/using/performance-monitoring/about-performance-monitoring.html)機能を使用して、プラットフォームを監視できます。
+* [Campaignコントロールパネルの](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja)機能を利用して、[パフォーマンス監視](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=ja)機能を使用して、プラットフォームを監視できます。
 
 ## ネットワーク設定の確認 {#network-config}
 
@@ -55,7 +54,7 @@ ht-degree: 81%
 
    * E メールの配信品質を確認するときは、データ品質、メッセージとコンテンツ、送信インフラストラクチャ、レピュテーションという 4 つの主要カテゴリを中心に調べます。このトピックについて詳しくは、[この節](../../sending/using/about-deliverability.md)を参照してください。
 
-* 新しいプラットフォームを開始する際に、[このページ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html#transition-process)に詳しく記載されたレコメンデーションを適用します。
+* 新しいプラットフォームを開始する際は、[このページ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html#transition-process)で説明されている推奨事項を適用します。
 
 * サポートが必要な場合は、アドビ担当者にお問い合わせください。
 
@@ -71,7 +70,7 @@ ht-degree: 81%
 
 * Adobe Campaign では、返されるエラーのタイプに応じて不正なアドレスを管理します。詳しくは、[この節](../../sending/using/understanding-quarantine-management.md)を参照してください。
 
-* 一部のインターネットアクセスプロバイダーは、無効なアドレスの割合が高すぎる場合、E メールを自動的にスパムとみなします。したがって、強制隔離を使用すると、これらのプロバイダーによってブロックリストに追加されるのを回避できます。
+* 一部のインターネットアクセスプロバイダーは、無効なアドレスの割合が高すぎる場合、E メールを自動的にスパムと見なします。したがって、強制隔離を使用すると、これらのプロバイダーによってブロックリストに追加されるのを回避できます。
 
 * 強制隔離管理は、誤りのある電話番号を配信から除外することで、SMS の送信コスト削減にも役立ちます。
 
@@ -81,4 +80,4 @@ ht-degree: 81%
 
 このメカニズムの実装の詳細については、[この節](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)で説明します。
 
-詳しくは、[プロファイルとオーディエンスの使い始めに](../../audiences/using/get-started-profiles-and-audiences.md)を参照してください。
+詳しくは、[プロファイルとオーディエンスの使用を開始する](../../audiences/using/get-started-profiles-and-audiences.md)を参照してください。
