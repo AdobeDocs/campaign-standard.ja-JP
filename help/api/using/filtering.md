@@ -2,35 +2,34 @@
 solution: Campaign Standard
 product: campaign
 title: フィルター
-description: フィルタリング操作を実行する方法を説明します。
+description: フィルタリング操作の実行方法を説明します。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: cdb050b7-d327-42f7-b534-d32d988c8ffb
+source-git-commit: f946a7565c30a3e53b2bd6876e880100fa8a0be2
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '433'
 ht-degree: 1%
 
 ---
-
 
 # フィルター {#filtering}
 
 ## フィルターメタデータの取得
 
-フィルターは各リソースで使用できます。 リソースに関連付けられたフィルターを特定するには、リソースメタデータに対してGET要求を実行する必要があります。 このリクエストは、特定のリソースに対してすべてのフィルターが定義されているURLを返します。 メタデータについて詳しくは、[この](../../api/using/metadata-mechanism.md)を参照してください。
+各リソースに対してフィルターを使用できます。 リソースに関連付けられているフィルターを特定するには、リソースメタデータに対してGETリクエストを実行する必要があります。 このリクエストは、指定されたリソースに対してすべてのフィルターが定義されたURLを返します。 メタデータについて詳しくは、[この節](../../api/using/metadata-mechanism.md)を参照してください。
 
-フィルターのメタデータを特定し、その使用方法を決定するには、以前に返されたURLに対してGETリクエストを実行する必要があります。
+フィルターのメタデータを識別してその使用方法を決定するには、以前に返されたURLに対してGETリクエストを実行する必要があります。
 
 <br/>
 
-***サンプルリクエスト***
+***リクエストのサンプル***
 
-以下のサンプルペイロードでは、「プロファイル」リソースの「byText」フィルターメタデータを取得する方法を示します。 最初に、「プロファイル」リソースメタデータに対してGETリクエストを実行します。
+以下のサンプルペイロードは、「プロファイル」リソースの「byText」フィルターメタデータを取得する方法を示しています。 最初に、「プロファイル」リソースメタGETに対してデータリクエストを実行します。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/resourceType/profile \
@@ -67,16 +66,16 @@ URLでGETリクエストを実行します。 プロファイルリソースの�
 
 ## フィルターのメタデータ構造
 
-各フィルターで同じメタデータ構造を使用できます。
+各フィルターに同じメタデータ構造を使用できます。
 
-* **@formType**&#x200B;と&#x200B;**@webPage**&#x200B;の各フィールドは技術的なフィールドです。
+* **@formType**&#x200B;フィールドと&#x200B;**@webPage**&#x200B;フィールドはテクニカルフィールドです。
 * **data**&#x200B;フィールドには、フィルターの使用方法に関するサンプルが表示されます。
-* **metadata**&#x200B;ノードは、フィルターパラメーターを示します。
-* **condition**&#x200B;ノードは、フィルターの目的を示します。 メタデータノードで説明されているフィルターパラメーターは、フィルター条件の作成に使用されます。 各フィルター条件に対して、**enabled**&#x200B;がtrueの場合、**expr**&#x200B;が適用されます。
+* **metadata**&#x200B;ノードは、フィルターパラメーターを記述します。
+* **condition**&#x200B;ノードは、フィルターの目的を示します。 metadataノードで説明するフィルターパラメーターは、フィルター条件の作成に使用されます。 各フィルター条件に対して、**enabledIf**&#x200B;がtrueの場合、**expr**&#x200B;が適用されます。
 
 <br/>
 
-フィルターのメタデータ構造の例：
+フィルターメタデータ構造の例：
 
 ```
 "byText": {
@@ -92,11 +91,11 @@ URLでGETリクエストを実行します。 プロファイルリソースの�
 
 ## フィルターの使用
 
-フィルタリングは、次のリクエストを使用して実行されます。
+フィルタリングは、次のリクエストで実行されます。
 
 `GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/<resourceName>/by<filterName>?<filterParam>=<filterValue>`
 
-単一のリクエストで複数のフィルターを組み合わせることができます。
+複数のフィルターを1つのリクエストで組み合わせることができます。
 
 `GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/<resourceName>/<filter1name>/<filter2name>?<filter1param>=<filter1value>&<filter2param>=<filter2value>`
 
@@ -114,7 +113,7 @@ URLでGETリクエストを実行します。 プロファイルリソースの�
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-   リクエストに対する応答。
+   リクエストへの応答。
 
    ```
    {
@@ -136,8 +135,8 @@ URLでGETリクエストを実行します。 プロファイルリソースの�
    }
    ```
 
-* サンプルGETリクエストを作成し、
-電子メールまたは姓のフィールド（byTextフィルターは、電子メールと姓の両方のフィールドを検索します）。
+* GETリクエストの例。
+eメールフィールドまたは姓のフィールド（byTextフィルターは、eメールフィールドと姓の両方を検索します）。
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=Doe \
@@ -147,7 +146,7 @@ URLでGETリクエストを実行します。 プロファイルリソースの�
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-   リクエストに対する応答。
+   リクエストへの応答。
 
    ```
    {
@@ -165,7 +164,7 @@ URLでGETリクエストを実行します。 プロファイルリソースの�
    }
    ```
 
-* タイプが「email」でラベルが「sport」のサービスリソースを取得するためのサンプルGETリクエスト。
+* タイプが「email」でラベルが「sport」のサービスリソースを取得するGETリクエストのサンプル。
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel/byText?channel=email&text=sport \
@@ -175,7 +174,7 @@ URLでGETリクエストを実行します。 プロファイルリソースの�
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-   リクエストに対する応答。
+   リクエストへの応答。
 
    ```
    {
@@ -199,20 +198,20 @@ URLでGETリクエストを実行します。 プロファイルリソースの�
 
 ## カスタムフィルター
 
-カスタムフィルターを使用する場合は、Adobe Campaign Standardインターフェイスでカスタムフィルターを作成およびカスタマイズする必要があります。 カスタムフィルターは、既製のフィルターと同じ動作になります。
+カスタムフィルターを使用する場合は、Adobe Campaign Standardインターフェイスでカスタムフィルターを作成してカスタマイズする必要があります。 その後、カスタムフィルターは、標準のフィルターと同じ動作になります。
 
 `GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/<resourceName>/by<customFilterName>?<customFilterparam>=<customFilterValue>`
 
-詳しくは、Campaign Standardのドキュメントを参照してください。
+詳しくは、次のCampaign Standardドキュメントを参照してください。
 
 * [フィルター定義の設定](https://helpx.adobe.com/campaign/standard/developing/using/configuring-filter-definition.html).
-* [使用例：複合IDキーを使用してリソースを呼び出す](https://docs.adobe.com/content/help/en/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html)。
+* [使用例：複合IDキーを使用したリソースの呼び出し](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html)を参照してください。
 
 <br/>
 
-***サンプルリクエスト***
+***リクエストのサンプル***
 
-トランザクション量が100$以上の「プロファイル」リソースを取得するためのサンプルGETリクエスト。 「byAmount」フィルターは、最初にAdobe Campaign Standardインターフェイスで定義され、「Transaction」カスタムテーブルにリンクされています。
+トランザクション金額が100$以上の「プロファイル」リソースを取得するサンプルGETリクエスト。 「byAmount」フィルターは、まずAdobe Campaign Standardインターフェイスで定義され、「トランザクション」カスタムテーブルにリンクされています。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byAmount?amount_parameter=100 \
