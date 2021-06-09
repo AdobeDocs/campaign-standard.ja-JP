@@ -7,16 +7,15 @@ audience: channels
 content-type: reference
 topic-tags: in-app-messaging
 context-tags: delivery,triggers,back;deliveryCreation,wizard
-feature: In App
+feature: アプリ内
 role: Business Practitioner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
+source-git-commit: 7272d2ca2b499069e00a3ded1cb6693147c64dfc
 workflow-type: tm+mt
-source-wordcount: '1278'
+source-wordcount: '1272'
 ht-degree: 98%
 
 ---
-
 
 # アプリ内メッセージの準備と送信{#preparing-and-sending-an-in-app-message}
 
@@ -99,7 +98,7 @@ Adobe Campaign を使用してスタンドアロンのアプリ内メッセー�
 
    * **[!UICONTROL Life Cycle events]**：Adobe Mobile SDK でサポートされる既製のライフサイクルイベント。
 
-      ライフサイクルイベントについて詳しくは、この[ページ](https://docs.adobe.com/content/help/en/mobile-services/android/metrics.html)を参照してください。
+      ライフサイクルイベントについて詳しくは、この[ページ](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html)を参照してください。
 
    * **[!UICONTROL Analytics Events]**：モバイルアプリに実装されている機能に応じて、Adobe Analytics、コンテキストデータ、画面遷移のいずれかのカテゴリがサポートされます。
 
@@ -118,7 +117,7 @@ Adobe Campaign を使用してスタンドアロンのアプリ内メッセー�
 
 1. **[!UICONTROL Places]** トリガーを使用すると、Places コンテキストデータ、Places カスタムメタデータ、Places イベントタイプのいずれかには、すべてのライブラリと Adobe Places で作成されたライブラリ目標点データに従って自動的に入力がおこなわれます。
 
-   なお、デバイスでは、このトリガーは、Experience Platform Launch の Places 拡張機能で選択されたライブラリの目標地点データにのみ適用されます。Places 拡張機能とそのインストール方法について詳しくは、この[ドキュメント](https://docs.adobe.com/content/help/ja-JP/places/using/places-ext-aep-sdks/places-extension/places-extension.html)を参照してください。
+   なお、デバイスでは、このトリガーは、Experience Platform Launch の Places 拡張機能で選択されたライブラリの目標地点データにのみ適用されます。Places 拡張機能とそのインストール方法について詳しくは、この[ドキュメント](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html)を参照してください。
 
 1. 「**[!UICONTROL Frequency & duration]**」タブで、トリガーの頻度、開始日と終了日、曜日、アプリ内メッセージを有効にする時刻帯を選択します。
 
