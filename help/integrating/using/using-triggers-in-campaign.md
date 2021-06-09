@@ -5,17 +5,16 @@ title: Campaign でのトリガーの使用
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
-feature: Triggers
+feature: トリガー
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 6b8d5118-89ed-49c2-b601-0aff472fcadd
+source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '750'
 ht-degree: 83%
 
 ---
-
 
 # Campaign でのトリガーの使用{#using-triggers-in-campaign}
 
@@ -23,13 +22,13 @@ ht-degree: 83%
 
 >[!NOTE]
 >
->トリガーを作成するには、**[!UICONTROL Administration]**&#x200B;ロールが必要か、**[!UICONTROL Administrators]**&#x200B;セキュリティグループに属している必要があります。 これについて詳しくは、この[ページ](../../administration/using/list-of-roles.md)を参照してください。
+>トリガーを作成するには、**[!UICONTROL Administration]**&#x200B;の役割か、**[!UICONTROL Administrators]**&#x200B;セキュリティグループに属している必要があります。 これについて詳しくは、この[ページ](../../administration/using/list-of-roles.md)を参照してください。
 
-Adobe Experience Cloud（**[!UICONTROL Triggers]** コアサービス）では、事前に監視するビヘイビアーを定義する必要があります。詳しくは、[Adobe Experience Cloud のドキュメント](https://docs.adobe.com/content/help/ja-JP/core-services/interface/activation/triggers.html)を参照してください。トリガーを定義する場合は、エイリアスを有効にする必要があります。各ビヘイビアー（ブラウジング／フォームの放棄、製品の追加／削除、セッションの有効期限切れなど）について、Adobe Experience Cloud に新規トリガーを追加する必要があります。
+Adobe Experience Cloud（**[!UICONTROL Triggers]** コアサービス）では、事前に監視するビヘイビアーを定義する必要があります。詳しくは、[Adobe Experience Cloud のドキュメント](https://experienceleague.adobe.com/docs/core-services/interface/activation/triggers.html)を参照してください。トリガーを定義する場合は、エイリアスを有効にする必要があります。各ビヘイビアー（ブラウジング／フォームの放棄、製品の追加／削除、セッションの有効期限切れなど）について、Adobe Experience Cloud に新規トリガーを追加する必要があります。
 
 次に、既存の Adobe Experience Cloud のトリガーを基にして、Adobe Campaign でトリガーイベントを作成する必要があります。
 
-この[ビデオ](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two)を見ると、Adobe Campaign でのトリガーの設定方法を理解できます。
+この[ビデオ](https://helpx.adobe.com/jp/marketing-cloud/how-to/email-marketing.html#step-two)を見ると、Adobe Campaign でのトリガーの設定方法を理解できます。
 
 これをおこなうには、次の手順に従います。
 
@@ -51,21 +50,21 @@ Adobe Experience Cloud（**[!UICONTROL Triggers]** コアサービス）では�
 
    ![](assets/remarketing_4.png)
 
-1. これで、トリガーを公開できます。 詳しくは、[キャンペーン](../../integrating/using/using-triggers-in-campaign.md#publishing-trigger-in-campaign)でのトリガーの公開を参照してください。
+1. これで、トリガーを公開できます。 詳しくは、[Campaignでのトリガーのパブリッシュ](../../integrating/using/using-triggers-in-campaign.md#publishing-trigger-in-campaign)を参照してください。
 
-## キャンペーン{#publishing-trigger-in-campaign}でのトリガーの公開
+## Campaignでのトリガーのパブリッシュ{#publishing-trigger-in-campaign}
 
-既存のAdobe Experience Cloudトリガーに基づいてAdobe Campaignでトリガーイベントを作成した後、公開する必要があります。
+既存のAdobe Experience Cloudトリガーに基づいてAdobe Campaignでトリガーイベントを作成したら、公開する必要があります。
 
-1. 以前に作成したトリガーで、**[!UICONTROL Publish]**&#x200B;ボタンをクリックして、トリガーイベントを公開する開始を選択します。
+1. 以前に作成したトリガーで、「 **[!UICONTROL Publish]** 」ボタンをクリックしてトリガーイベントの公開を開始します。
 
    ![](assets/trigger_publish_1.png)
 
-1. **[!UICONTROL Publication]**&#x200B;の下で、トリガーパブリケーションの進行状況を確認できます。
+1. **[!UICONTROL Publication]**&#x200B;の下で、トリガーの公開の進行状況を確認できます。
 
    ![](assets/trigger_publish_2.png)
 
-1. 発行が完了すると、**[!UICONTROL Publication]**&#x200B;の下に次のメッセージが表示されます。
+1. 公開が完了すると、**[!UICONTROL Publication]**&#x200B;の下に次のメッセージが表示されます。
 
    ![](assets/trigger_publish_3.png)
 
@@ -83,7 +82,7 @@ Adobe Experience Cloud（**[!UICONTROL Triggers]** コアサービス）では�
 
 トリガーイベントを作成して公開すると、対応するトランザクションテンプレートが自動的に作成されます。詳しくは、[Campaign でのマッピングされたトリガーの作成](#creating-a-mapped-trigger-in-campaign)の節を参照してください。
 
-イベントがトランザクションメッセージの送信をトリガーするには、テンプレートをパーソナライズしてテストし、公開する必要があります。これらの手順は、標準トランザクションメッセージの場合と同じです。詳しくは、「[トランザクションメッセージの編集](../../channels/using/editing-transactional-message.md)」の節を参照してください。
+イベントがトランザクションメッセージの送信をトリガーするには、テンプレートをパーソナライズしてテストし、公開する必要があります。これらの手順は、標準トランザクションメッセージの場合と同じです。詳しくは、[トランザクションメッセージの編集](../../channels/using/editing-transactional-message.md)の節を参照してください。
 
 >[!NOTE]
 >
@@ -102,4 +101,3 @@ Adobe Experience Cloud（**[!UICONTROL Triggers]** コアサービス）では�
 このレポートには、処理されたイベントの数と Analytics から送信されたイベントの数が表示されます。また、最近実行したすべてのトリガーのリストも表示されます。
 
 ![](assets/trigger_uc_browse_14.png)
-
