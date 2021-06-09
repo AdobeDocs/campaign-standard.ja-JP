@@ -10,10 +10,10 @@ feature: トリガー
 role: Data Architect
 level: Intermediate
 exl-id: ecf88c7d-6729-4b3a-85c4-60427bb57442
-source-git-commit: bc2a4af29e7ed9e9e7b338b7aa7d8bb30628f0b6
+source-git-commit: c101113e2180006b300611a0cbea1b0f9a70df70
 workflow-type: tm+mt
-source-wordcount: '720'
-ht-degree: 84%
+source-wordcount: '714'
+ht-degree: 81%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 84%
 
 環境によっては、Adobe Experience Cloud に他のソリューションをリンクすることができます。これらは組織（テナントとも呼ばれます）としてリンクされます。
 
-組織とは、管理者がグループとユーザーを設定し、Experience Cloud でのシングルサインオンを制御できるエンティティのことです。組織は、すべての Experience Cloud 製品およびソリューションにまたがるログイン会社のように機能します。ほとんどの場合、組織は勤務先の会社名です。ただし、1 つの会社が多くの組織を持つことができます。ユーザーと組織の管理について詳しくは、[Adobe Experience Cloud ヘルプポータル](https://docs.adobe.com/content/help/ja-JP/core-services/interface/manage-users-and-products/organizations.html)を参照してください。
+組織とは、管理者がグループとユーザーを設定し、Experience Cloud でのシングルサインオンを制御できるエンティティのことです。組織は、すべての Experience Cloud 製品およびソリューションにまたがるログイン会社のように機能します。ほとんどの場合、組織は勤務先の会社名です。ただし、1 つの会社が多くの組織を持つことができます。ユーザーと組織の管理について詳しくは、[Adobe Experience Cloud ヘルプポータル](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=ja)を参照してください。
 
 他のシステムのデータフローを Adobe Campaign と統合する場合は、[API のドキュメント](../../api/using/get-started-apis.md)を参照してください。
 
@@ -58,7 +58,7 @@ ht-degree: 84%
    <td> Adobe Target<br /> </td> 
    <td> Adobe Campaign で作成、送信された E メールが開封されたときに Adobe Target が動的に自動生成した画像を挿入することができます。<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-campaign-target-integration.md">CampaignとTargetの使用</a>、CampaignとTargetの統合 <a href="https://docs.adobe.com/content/help/ja-JP/target/using/integrate/campaign-and-target.html">、Eメール画像のパーソナラ</a>イズ(リアルタイム <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html"></a> ビデオ)（手順3）
+    <a href="../../integrating/using/about-campaign-target-integration.md">CampaignとTargetの使用</a>、CampaignとTargetの統合 <a href="https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html">、Eメール画像のパーソナラ</a>イズ(リアルタイム <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html"></a> ビデオ)（手順3）
     </td> 
   </tr> 
   <tr> 
@@ -104,7 +104,7 @@ ht-degree: 84%
    <td> Adobe Dreamweaver<br /> </td> 
    <td> Dreamweaver で E メールコンテンツを編集し、Adobe Campaign と同期できます。<br /> </td> 
    <td> 
-    <a href="https://docs.adobe.com/content/help/ja-JP/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.translate.html">Dreamweavervideoを使用してパーソナライズさ</a> れたEメールを作成 <a href="https://helpx.adobe.com/jp/dreamweaver/using/working-with-dreamweaver-and-campaign.html">し、Dreamweaver用Campaign拡張機能を使用する</a> 
+    <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">Dreamweavervideoを使用してパーソナライズさ</a> れたEメールを作成 <a href="https://helpx.adobe.com/jp/dreamweaver/using/working-with-dreamweaver-and-campaign.html">し、Dreamweaver用Campaign拡張機能を使用する</a> 
   </td> 
   </tr> 
   <tr> 
