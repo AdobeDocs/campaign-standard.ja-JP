@@ -6,25 +6,24 @@ description: このページでは、Adobe Campaign Standard の 2020 年の全�
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-feature: Overview
+feature: 概要
 role: Business Practitioner
 level: Beginner
-translation-type: ht
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
-workflow-type: ht
-source-wordcount: '5327'
-ht-degree: 100%
+exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
+source-git-commit: df86191b2941a6121a52b2255e19f8b623b64be6
+workflow-type: tm+mt
+source-wordcount: '5298'
+ht-degree: 98%
 
 ---
 
-
 # リリースノート 2020{#release-notes-2020}
 
-[リリース計画](https://helpx.adobe.com/jp/campaign/kb/acs-release-planning.html) | [コントロールパネルのリリース](https://docs.adobe.com/content/help/ja-JP/control-panel/using/release-notes.html) | [ドキュメントの更新](../../rn/using/documentation-updates.md) | [以前のリリースノート](../../rn/using/release-notes-2019.md) | [非推奨（廃止予定）の機能](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=ja)
+[リリース計画](https://helpx.adobe.com/jp/campaign/kb/acs-release-planning.html) | [コントロールパネルのリリース](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ja) | [ドキュメントの更新](../../rn/using/documentation-updates.md) | [以前のリリースノート](../../rn/using/release-notes-2019.md) | [非推奨（廃止予定）の機能](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=ja)
 
-![](assets/do-not-localize/cp-icon.png) **新しいコントロールパネル 6 月のリリース** - アクティブなプロファイルの監視、サブドメイン配信品質の監査、GPG キー管理。[詳細情報](https://docs.adobe.com/content/help/ja-JP/control-panel/using/release-notes.html)。
+![](assets/do-not-localize/cp-icon.png) **新しいコントロールパネル 6 月のリリース** - アクティブなプロファイルの監視、サブドメイン配信品質の監査、GPG キー管理。[詳細情報](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html)。
 
-![](assets/do-not-localize/cp-icon.png) **10 月の新しい Campaign コントロールパネルリリース**&#x200B;で、CNAME を使用したドメイン設定と新しいデータベース監視機能が追加されました。[詳細情報](https://docs.adobe.com/content/help/ja-JP/control-panel/using/release-notes.html)。
+![](assets/do-not-localize/cp-icon.png) **10 月の新しい Campaign コントロールパネルリリース**&#x200B;で、CNAME を使用したドメイン設定と新しいデータベース監視機能が追加されました。[詳細情報](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html)。
 
 ## リリース 20.4 - 2020 年 10 月 {#release-20-4---october-2020}
 
@@ -40,7 +39,7 @@ ht-degree: 100%
 <tr> 
   <td> <p><strong>コントロール母集団</strong>を使用して、キャンペーンのオーディエンスの一部を除外することで、キャンペーンの影響を測定できるようになりました。その後、メッセージを受け取ったターゲット母集団の行動と、ターゲット設定されていない連絡先の行動を比較できます。送信ログに基づいて、今後のキャンペーンでコントロール母集団をターゲットすることもできます。
 </p>
-<p>詳しくは、<a href="../../sending/using/control-group.md">詳細ドキュメント</a>および<a href="https://docs.adobe.com/content/help/ja-JP/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html">ハウツービデオ</a>を参照してください。
+<p>詳しくは、<a href="../../sending/using/control-group.md">詳細ドキュメント</a>および<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html">ハウツービデオ</a>を参照してください。
 </p>
 </td> 
 </tr> 
@@ -76,8 +75,8 @@ ht-degree: 100%
   <p>ジャーニー AI は、高度な機械学習（ML）を搭載しており、各ユーザーのエンゲージメントの傾向を予測し、カスタマージャーニーの設計と配信を最適化できます。</p>
   <P>ジャーニー AI は、次の 2 つの ML 機能で構成されています。</p>
 <ul> 
-     <li> <strong>予測エンゲージメントスコアリング</strong> - メッセージのターゲティングとパーソナライゼーションを強化し、コンバージョンとリテンションを向上させるために、顧客が望むエンゲージメントレベルをインテリジェントに識別します。<a href="https://docs.adobe.com/content/help/ja-JP/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-engagement-scoring.html">ハウツービデオ</a>をご覧ください。</li> 
-     <li> <strong>予測送信時間の最適化</strong> - キャンペーン中に各顧客に E メールを送信する最適な時間を予測して、エンゲージメント率を最大化し、E メールキャンペーンの ROI を向上させます。<a href="https://docs.adobe.com/content/help/ja-JP/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-send-time-optimization.html">ハウツービデオ</a>をご覧ください。</li>
+     <li> <strong>予測エンゲージメントスコアリング</strong> - メッセージのターゲティングとパーソナライゼーションを強化し、コンバージョンとリテンションを向上させるために、顧客が望むエンゲージメントレベルをインテリジェントに識別します。<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-engagement-scoring.html">ビデオガイド、チュートリアル</a>をご覧ください。</li> 
+     <li> <strong>予測送信時間の最適化</strong> - キャンペーン中に各顧客に E メールを送信する最適な時間を予測して、エンゲージメント率を最大化し、E メールキャンペーンの ROI を向上させます。<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-send-time-optimization.html">ビデオガイド、チュートリアル</a>をご覧ください。</li>
     </ul>
   <p>ジャーニー AI の概要について詳しくは、<a href="../../sending/using/predictive.md">詳細なドキュメント</a>を確認し、担当のアカウント担当者にお問い合わせください。ジャーニー AI は、既存の Adobe Campaign のお客様には無償で提供されます。実装に要する時間は約 50 時間です。</p>
     </td> 
@@ -103,7 +102,7 @@ ht-degree: 100%
 * 添付された HTML ファイルからコンテンツをアップロードする際に発生していた問題を修正しました。メッセージが Gmail アドレスに送信されると、CSS が適用されず、レンダリングの問題が発生していました。（CAMP-44085）
 * 以前メッセージで使用されていたコンテンツフラグメントがコンテンツテンプレートで直接変更された場合に、変更が更新されない問題を修正しました。（CAMP-43973）
 * **フラグメント**&#x200B;検索バーの問題を修正しました。既存のフラグメントを検索する場合、検索バーに結果が表示されていませんでした。（CAMP-44223）
-* **コンテンツブロック**&#x200B;および&#x200B;**フラグメント**&#x200B;検索バーの問題を修正しました。これらの検索バーのいずれかを使用すると、「**検索結果をさらに表示...**」をクリックした場合にのみ結果が表示されていました。（CAMP-44205）
+* **コンテンツブロック**&#x200B;および&#x200B;**フラグメント**&#x200B;検索バーの問題を修正しました。これらの検索バーのいずれかを使用した際に、「**検索結果をさらに表示...**」をクリックした場合にのみ結果が表示されていました。（CAMP-44205）
 * Microsoft Outlook で、テキストと画像の間のパディングが適用されない問題を修正しました。（CAMP-45370）
 * フラグメントの複製時に発生する問題を修正しました。フラグメントを複製した後、元のフラグメントに HTML 行が含まれていませんでした。（CAMP-45207）
 * Microsoft Outlook でレンダリングの問題が発生するエラーを修正しました。（CAMP-44749）
@@ -137,7 +136,7 @@ ht-degree: 100%
 * 大幅な一括配信が発生した場合に、トランザクションメッセージの優先度が高く認識されない問題を修正しました。
 * ブランドをトランザクション用の E メールに割り当てられない可能性がある問題を修正しました。公開の段階で、いくつかのエラーメッセージが表示される場合がありました。（CAMP-44988）
 * ワークフローユーザーインターフェイスで、数値を要求するフィールドに情報が保存されない可能性がある問題を修正しました。（CAMP-44025）
-* インポートテンプレートワークフローで「**テスト**」アクティビティを使用する場合に、エラーメッセージが表示される可能性がある問題を修正しました。（CAMP-42910）
+* インポートテンプレートワークフローで「**テスト**」アクティビティを使用した場合に、エラーメッセージが表示される可能性がある問題を修正しました。（CAMP-42910）
 * 定義済みリストタイプのフィールドを含む「**オーディエンスの閲覧**」アクティビティを使用して「**和集合**」または「**エンリッチメント**」アクティビティに接続する場合に発生していた問題を修正しました。（CAMP-42795）
 * 標準セグメントを使用してレポート内のデータをフィルターする場合に、動的レポートで発生していた問題を修正しました。（CAMP-42627）
 * 「**スケジューラー**」アクティビティを午前 12 時に設定できない問題を修正しました。（CAMP-42674）
@@ -155,7 +154,7 @@ ht-degree: 100%
 * 「**ファイル転送**」アクティビティの使用時にインポートワークフローがループする問題を修正しました。（CAMP-43754）
 * 書き出されたログを含むプロファイルを作成する際に、重複が考慮されない問題を修正しました。（CAMP-45031）
 * Adobe Campaign のレポートと PDF ファイルで書き出されたレポートでデータに相違が生じる問題を修正しました。（CAMP-43010）
-* 既存のデータフィールドを関数で使用する場合に、ダイレクトメール配信のワークフローが失敗するエラーを修正しました。（CAMP-42737）
+* 既存のデータフィールドを関数で使用した場合に、ダイレクトメール配信のワークフローでエラーが発生するエラーを修正しました。（CAMP-42737）
 * トランザクションイベントやメッセージテンプレートを含むパッケージを読み込む際に発生する問題を修正しました。インポート処理が 5％ で停止していました。（CAMP-42544）
 * 「**エンリッチメント**」アクティビティを変更し、ワークフローにデータを追加した後にエラー（Uncaught TypeError）が発生する問題を修正しました。（CAMP-41877）
 * ワークフローを削除できないエラーを修正しました。ワークフローを削除するには、ログをパージする必要がありました。（CAMP-44144）
@@ -164,7 +163,7 @@ ht-degree: 100%
 * 複数の E メールアドレスが同じ配信で複数回ターゲットにされる原因となっていた、トランザクションメッセージを送信する際に発生する問題を修正しました。（CAMP-44202）
 * targetData パーソナライゼーションでプロファイルの置換を使用する際に発生するエラーを修正しました。（CAMP-44996）
 * パッケージ内の配信テンプレートの書き出し時に配信プレビューが失敗する問題を修正しました。（CAMP-44084）
-* カスタムターゲットマッピングを使用する場合に、配達確認がテストプロファイルに送信されない問題を修正しました。（CAMP-43701）
+* カスタムターゲットマッピングを使用した場合に、配達確認がテストプロファイルに送信されない問題を修正しました。（CAMP-43701）
 * 「**オーディエンスの閲覧**」アクティビティを使用して&#x200B;**プロファイル**&#x200B;以外のターゲティングディメンションで設定されたオーディエンスをターゲットする場合にワークフローで発生するエラーを修正しました。（CAMP-41885）
 * **updateEventsStatus** テクニカルワークフローでイベント履歴の取得に時間がかかりすぎる場合（ワークフローが停止している場合）にエラーが発生する問題を修正しました。この問題を解決するために、未使用の「sumQueueTime」集計フィールドがワークフローから削除されました。（CAMP-43920）
 * カスタムリソースを展開する際のメモリの問題を修正しました。（CAMP-42909）
@@ -178,7 +177,7 @@ ht-degree: 100%
 * カスタムリソースの「**テキスト検索で考慮するフィールドを指定**」オプションを選択する際の問題を修正しました。フィールドリストが空のままの場合、カスタムリソースをパブリッシュできませんでした。
 * 大量のデータを含むカスタムリソースの概要を表示する場合のパフォーマンスの問題を修正しました。
 * プロファイルの置換を使用して配信を読み込めない問題を修正しました。
-* プロファイルの置換を使用すると、配信がスケジュールされている場合に配達確認がすぐに送信されない問題を修正しました。
+* プロファイルの置換を使用した際に、配信がスケジュールされている場合に配達確認がすぐに送信されない問題を修正しました。
 * モバイルアプリケーション用の Android キーをアップロードする際に発生する問題を修正しました。キーを正常にアップロードした後に表示されるメッセージに、前のキーの値が表示されていました。
 * 属性を含まないコレクションを使用してイベント設定を作成した後に、トランザクションメッセージからテストプロファイルを作成できない問題を修正しました。
 * 集計を使用して新しいフィルターを作成した後でカスタムリソースをパブリッシュできない可能性がある問題を修正しました。
@@ -210,7 +209,7 @@ ht-degree: 100%
 <li>アクセス権と削除権：GDPR および CCPA 用に追加された機能を活用します。<a href="https://helpx.adobe.com/content/help/jp/campaign/kb/acs-privacy.html#righttoaccess">さらに詳しく</a> </li>
 <li><p>プライバシーリクエストを作成する際に、PDPA 規制タイプが Privacy コアサービスに追加されました。すべてのアクセス要求と削除要求に対して、このメソッドを使用する必要があります。アクセス要求および削除要求に対する Campaign API およびインターフェイスの使用は廃止されています。<a href="../../rn/using/deprecated-features.md">廃止および削除された機能の記事</a>を参照してください。</p></li>
 </ul>
-<p><a href="https://docs.adobe.com/content/help/ja-JP/campaign-standard-learn/tutorials/privacy/privacy-overview.html">ハウツービデオ</a>を参照してください。</p>
+<p><a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">ハウツービデオ</a>を参照してください。</p>
 </td> 
 </tr> 
 </tbody> 
@@ -231,7 +230,7 @@ ht-degree: 100%
 <li>オブジェクトに「data」という名前を付けたり、最上位レベルに配置したりする必要なく、JSON から配列オブジェクトを選択して使用する。</li>
 </ul>
 <p><strong>注意：</strong><strong>すべてのベータ版外部 API アクティビティを、ワークフロー内の GA 外部 API アクティビティで置き換える必要があります</strong>。ベータ版の外部 API を使用するワークフローは、20.3 以降では動作しなくなります。</p>
-<p>詳しくは、<a href="../../automating/using/external-api.md">詳細ドキュメント</a>および<a href="https://docs.adobe.com/content/help/ja-JP/campaign-standard-learn/tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">ハウツービデオ</a>を参照してください。</p>
+<p>詳しくは、<a href="../../automating/using/external-api.md">詳細ドキュメント</a>および<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">ハウツービデオ</a>を参照してください。</p>
 </td> 
 </tr> 
 </tbody> 
@@ -287,14 +286,14 @@ ht-degree: 100%
 * アプリ内ローカル通知のカスタムフィールドを削除する際のエラーを修正しました。
 * charIndex 関数がワークフローの「**End**」アクティビティや「**File transfer**」アクティビティで動作しない問題を修正しました。
 * リンクされているターゲットリソースを含む 2 つの入力アクティビティで「**Enrichment**」アクティビティを使用すると発生する可能性があるワークフローの問題を修正しました。（CAMP-42133）
-* 不明な関数を使用する場合に、ワークフローが実行されない可能性がある問題を修正しました。（CAMP-41873）
+* 不明な関数を使用した場合に、ワークフローが実行されない可能性がある問題を修正しました。（CAMP-41873）
 * アウトバウンド補集合トランジションを伴う複数の「**Save audience**」アクティビティを使用してオーディエンスを作成する場合に発生する可能性があるワークフローの問題を修正しました。（CAMP-39992）
 * トランザクション E メールでパーソナライズ機能を使用するとデータに矛盾が生じる問題を修正しました。（CAMP-41842）
 * プッシュ通知配信のカスタムフィールドを削除する際に発生していた問題を修正しました。（CAMP-37586）
 * ユーザーがレポートを変更できないエラーを修正しました。（CAMP-42505）
 
 
-![](assets/do-not-localize/cp-icon.png) **Campaign コントロールパネルの 5 月の新しいリリース**&#x200B;で、CNAME サブドメインの証明書を更新できるようになりました。詳しくは、[こちら](https://docs.adobe.com/content/help/ja-JP/control-panel/using/release-notes.html)を参照してください。
+![](assets/do-not-localize/cp-icon.png) **Campaign コントロールパネルの 5 月の新しいリリース**&#x200B;で、CNAME サブドメインの証明書を更新できるようになりました。詳しくは、[こちら](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html)を参照してください。
 
 ## リリース 20.2 - 2020 年 4 月{#release-20-2---april-2020}
 
@@ -324,7 +323,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td> <p>テストプロファイルに加えて、実際のターゲットプロファイルを対象に E メールをテストできるようになりました。これにより、プロファイルが受け取るメッセージ（ワークフローからの追加データを含め、カスタムフィールド、動的情報、パーソナライズされた情報など）が正確に表示されます。 </p>
-    <p>詳しくは、<a href="../../sending/using/testing-messages-using-target.md">詳細ドキュメント</a>および<a href="https://docs.adobe.com/content/help/ja-JP/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html">チュートリアルビデオ</a>を参照してください。 </p>
+    <p>詳しくは、<a href="../../sending/using/testing-messages-using-target.md">詳細ドキュメント</a>および<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html">チュートリアルビデオ</a>を参照してください。 </p>
    </td> 
   </tr> 
  </tbody> 
@@ -332,7 +331,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Google TXT レコード管理、データベース領域の監視、E メールアラートなど、新しい機能が 4 月に Campaign コントロールパネルにリリースされます。これらの機能について詳しくは、[コントロールパネルリリースノート](https://docs.adobe.com/content/help/ja-JP/control-panel/using/release-notes.html)を参照してください。
+>Google TXT レコード管理、データベース領域の監視、E メールアラートなど、新しい機能が 4 月に Campaign コントロールパネルにリリースされます。これらの機能について詳しくは、[コントロールパネルリリースノート](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html)を参照してください。
 
 **強化点**
 
@@ -411,7 +410,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td> <p>Adobe Experience Platform Data Connector が Adobe Campaign Standard に統合されるようになりました。XTK データ（Campaign でインジェストされたデータ）を Adobe Experience Platform Data Model（XDM）にマッピングすることにより、Campaign のデータを Adobe Experience Platform で利用できるようになります。 </p>
-    <p>なお、この機能は Azure でホストされるお客様のみが利用できることにご注意ください。この機能、およびその有効化の条件について詳しくは、<a href="../../integrating/using/aep-about-data-connector.md">詳細なドキュメント</a>と<a href="https://docs.adobe.com/content/help/ja-JP/campaign-standard-learn/tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html">ハウツービデオ</a>を参照してください。</p>
+    <p>なお、この機能は Azure でホストされるお客様のみが利用できることにご注意ください。この機能、およびその有効化の条件について詳しくは、<a href="../../integrating/using/aep-about-data-connector.md">詳細なドキュメント</a>と<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html">ハウツービデオ</a>を参照してください。</p>
    </td> 
   </tr> 
  </tbody> 
@@ -426,7 +425,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td> <p>Audience Destinations を使用することにより、Adobe Experience Platform のセグメントを Adobe Campaign で共有できるようになります。</p>
-    <p>なお、この機能は Azure でホストされるお客様のみが利用できることにご注意ください。この機能、およびその有効化の条件について詳しくは、<a href="../../integrating/using/aep-about-audience-destinations-service.md">詳細なドキュメント</a>と<a href="https://docs.adobe.com/content/help/ja-JP/campaign-standard-learn/tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html">ハウツービデオ</a>を参照してください。 </p>
+    <p>なお、この機能は Azure でホストされるお客様のみが利用できることにご注意ください。この機能、およびその有効化の条件について詳しくは、<a href="../../integrating/using/aep-about-audience-destinations-service.md">詳細なドキュメント</a>と<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html">ハウツービデオ</a>を参照してください。 </p>
    </td> 
   </tr> 
  </tbody> 
@@ -438,7 +437,7 @@ ht-degree: 100%
 
 * タイムゾーン管理が強化されました。ワークフロー全体に対して[特定のタイムゾーン](../../automating/using/building-a-workflow.md)を定義できるようになりました。選択されたタイムゾーンが、すべてのワークフローアクティビティに適用されます。オペレーターまたはサーバーに対して設定されていたタイムゾーンに関する情報は、インターフェイス（ログ内、およびタイムゾーンの選択後に）表示されるようになりました。（CAMP-37672）
 
-* Campaign Standard API では、サイズの大きいテーブルを使用するときに、呼び出し URL に `_forcePagination=true` パラメーターを追加することでページ編集を実行できるようになりました。[詳細を表示](../../api/using/pagination.md)
+* Campaign Standard API では、サイズの大きいテーブルを使用した際に、呼び出し URL に `_forcePagination=true` パラメーターを追加することでページ編集を実行できるようになりました。[詳細を表示](../../api/using/pagination.md)
 
 * 配信ログ ID（各ログの一意の識別子）が、すべてのターゲティングディメンションを対象とした配信ログおよびトラッキングログのリソースで利用できるようになりました。これにより、例えば、エクスポート時などに送信ログまたはトラッキングログを特定できます。[詳細を表示](../../automating/using/exporting-logs.md)
 
@@ -447,9 +446,9 @@ ht-degree: 100%
 * オーディエンスの作成時に、不足していた必須のテキスト説明を補いました。
 * 従来の E メールエディターのウィザードで「**Change content**」ボタンをクリックしたときの問題を修正しました。
 * 「サービスの概要」レポートで、ヘッダーがコンテンツの位置と一致しない問題を修正しました。（CAMP-38103）
-* 動的コンテンツのバリアントを削除すると、件名行の残りの部分に影響が及ぶ問題を修正しました。（CAMP-40096）
-* 件名行で B バリアントを使用するときの A/B テストの問題を修正しました。（CAMP-40327）
-* 「HTML インポートのアップロード」機能を使用するときに、ファイルをドラッグ＆ドロップできない問題を修正しました。（CAMP-39326）
+* 動的コンテンツのバージョンを削除すると、件名行の残りの部分に影響が及ぶ問題を修正しました。（CAMP-40096）
+* 件名行で B バージョンを使用するときの A/B テストの問題を修正しました。（CAMP-40327）
+* 「HTML インポートのアップロード」機能を使用した際に、ファイルをドラッグ＆ドロップできない問題を修正しました。（CAMP-39326）
 * テキストエディターからテキストをコピー＆ペーストできない問題を修正しました。（CAMP-39028）
 * 単語の候補が表示されない問題を修正しました。（CAMP-38970）
 * フラグメントを保存できない問題を修正しました。（ATU-2447）
