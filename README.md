@@ -1,16 +1,14 @@
 ---
-source-git-commit: f803261eb3f0317e8876efea4c20e2f6f357ae40
-workflow-type: ht
-translation-type: ht
-source-wordcount: '63'
-ht-degree: 100%
+source-git-commit: b3d18858ec7f5206410f9b39a2fa5ad894921a60
+workflow-type: tm+mt
+source-wordcount: '59'
+ht-degree: 89%
 
 ---
 # ようこそ！
 
-このプロジェクトには、Campaign Standard に関する技術ドキュメントが含まれています。[ここ](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/campaign-standard-home.html)からオンラインでアクセスできます。
+このプロジェクトには、Campaign Standard に関する技術ドキュメントが含まれています。[ここ](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=ja)からオンラインでアクセスできます。
 
 トラブルシューティング、操作方法、およびベストプラクティスの詳細については、[テクニカルノート](https://helpx.adobe.com/jp/campaign/kb/acs-article-list.html)を参照してください。
 
-Adobe Campaign Standard の機能に関するビデオについては、[チュートリアル](https://docs.adobe.com/content/help/ja-JP/campaign-standard-learn/tutorials/overview.html)をご覧ください。
-
+Adobe Campaign Standard の機能に関するビデオについては、[チュートリアル](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/overview.html)をご覧ください。
