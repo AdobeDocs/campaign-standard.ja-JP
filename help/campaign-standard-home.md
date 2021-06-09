@@ -8,9 +8,9 @@ feature: 概要
 role: Business Practitioner
 level: Beginner
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
-source-git-commit: 105bc765f658cab39ec2628e39d51426005da6bd
-workflow-type: ht
-source-wordcount: '239'
+source-git-commit: 92860772ba1ef7ff1503831f05c69d540851258f
+workflow-type: tm+mt
+source-wordcount: '237'
 ht-degree: 100%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 100%
     <div>
     <a href="administration/using/about-access-management.md"><strong>役割とセキュリティグループ</strong></a>
     </div>
-    <em>権限を定義し、Campaign ユーザーにロールを割り当てる方法について説明します。</em>
+    <em>権限を定義し、Campaign ユーザーに役割を割り当てる方法について説明します。</em>
     <br>
   </td>
   <td valign="top">
@@ -75,7 +75,7 @@ ht-degree: 100%
 | 便利なページ | 開発者向けリソース |
 |---|---|
 | [リリースノート](rn/using/release-notes.md) | [Experience Cloud のトリガー](integrating/using/about-adobe-experience-cloud-triggers.md) |
-| [コントロールパネルのドキュメント](https://docs.adobe.com/content/help/ja-JP/control-panel/using/control-panel-home.html) | [Campaign API](api/using/get-started-apis.md) |
+| [コントロールパネルに関するドキュメント](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja) | [Campaign API](api/using/get-started-apis.md) |
 | [実装ガイド](https://helpx.adobe.com/jp/campaign/kb/campaign-standard-implementation-guide.html) | [エラーメッセージのリスト](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/error_messages/error_codes.html) |
 | [リリース計画](rn/using/release-planning.md) | [Campaign データモデル](developing/using/datamodel-introduction.md) |
 | [廃止および削除された機能](rn/using/deprecated-features.md) | [マルチソリューションガイド](integrating/using/get-started-campaign-integrations.md) |
