@@ -2,36 +2,35 @@
 solution: Campaign Standard
 product: campaign
 title: Adobe Experience Platform オーディエンスの管理
-description: Campaign Standard内でAdobe Experience Platformを管理する方法を学ぶ。
+description: Campaign Standard内でAdobe Experience Platformを管理する方法を説明します。
 audience: audiences
 content-type: reference
 topic-tags: managing-audiences
 context-tags: audience,wizard;audience,overview;delivery,audience,back
-feature: Microsoft CRM Integration
+feature: Microsoft CRM統合
 role: Data Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 2f6c5cc6-0634-4418-a2ee-e1c133d9cbd2
+source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '390'
 ht-degree: 3%
 
 ---
-
 
 # Adobe Experience Platform オーディエンスの管理 {#about-audiences}
 
 >[!IMPORTANT]
 >
->オーディエンス宛先サービスは現在ベータ版で、予告なく頻繁に更新される場合があります。 これらの機能にアクセスするには、お客様はAzureでホストされる必要があります（現在、北米向けベータ版のみ）。 ご利用になる場合は、Adobeカスタマーケアにお問い合わせください。
+>Audience Destinations Serviceは現在ベータ版で、予告なく頻繁に更新される可能性があります。 これらの機能にアクセスするには、Azureでホストする必要があります（現在、北米でのみベータ版）。 にアクセスする場合は、Adobeカスタマーケアにお問い合わせください。
 
 ## Adobe Experience Platformオーディエンスへのアクセス
 
-Adobe Experience Platformセグメントビルダーにアクセスするには、Campaign Standardホームページの&#x200B;**[!UICONTROL Audiences]**&#x200B;カード（またはヘッダーの&#x200B;**[!UICONTROL Audiences]**&#x200B;リンク）に移動し、**[!UICONTROL Adobe Experience Platform]**&#x200B;環境を選択します。
+Adobe Experience Platformセグメントビルダーにアクセスするには、Campaign Standardのホームページ（またはヘッダーの&#x200B;**[!UICONTROL Audiences]**&#x200B;リンク）の&#x200B;**[!UICONTROL Audiences]**&#x200B;カードに移動し、**[!UICONTROL Adobe Experience Platform]**&#x200B;環境を選択します。
 
 ![](assets/aep_audiences_access.png)
 
-最初に、Adobe Experience Platformセグメントリストページが表示されます。このページでは、既存のAdobe Experience Platformセグメントにアクセスして、さらに編集できます。
+最初にAdobe Experience Platformのセグメントリストページが表示されます。このページでは、既に存在するAdobe Experience Platformのセグメントにアクセスして、さらに編集することができます。
 
 目的のAdobe Experience Platformセグメントを見つけるのに役立つ検索バーとフィルターが用意されています。
 
@@ -39,36 +38,36 @@ Adobe Experience Platformセグメントビルダーにアクセスするには�
 
 ## Adobe Experience Platformオーディエンスの作成
 
-Campaign Standardで直接Adobe Experience Platformオーディエンスを作成するには、次の手順に従います。
+Adobe Experience PlatformオーディエンスをCampaign Standardで直接作成するには、次の手順に従います。
 
-1. Adobe Experience Platformセグメントリストページで、右隅にある&#x200B;**[!UICONTROL New audience]**&#x200B;ボタンをクリックします。
+1. Adobe Experience Platformのセグメントリストページで、右隅にある「**[!UICONTROL New audience]**」ボタンをクリックします。
 
    ![](assets/aep_audiences_creation_create.png)
 
-1. セグメントビルダーがワークスペースに表示されます。 これにより、最終的にオーディエンスの作成に使用されるAdobe Experience Platformのデータを使用してセグメントを作成できます。
+1. セグメントビルダーがワークスペースに表示されます。 これにより、Adobe Experience Platformのデータを使用してセグメントを構築し、最終的にオーディエンスの作成に使用できます。
 
-1. 右側のパネルでセグメントに名前を付け、説明を入力します（オプション）。
+1. 右側のウィンドウでセグメントに名前を付け、説明を入力します（オプション）。
 
    ![](assets/aep_audiences_creation_edit_name.png)
 
-1. セグメントを正しく作成するには、このセグメントのマーケティング目的に合った&#x200B;**マージポリシー**&#x200B;を選択する必要があります。
+1. セグメントを正しく作成するには、このセグメントのマーケティング目的に合う&#x200B;**結合ポリシー**&#x200B;を選択する必要があります。
 
-   設定ウィンドウで、「Platform default merge policy」が選択されます。 結合ポリシーの詳細については、[セグメントビルダーユーザーガイド](https://docs.adobe.com/content/help/en/experience-platform/segmentation/ui/overview.html)の専用の節を参照してください。
+   設定ペインで、プラットフォームのデフォルトの結合ポリシーが選択されます。 結合ポリシーの詳細については、『[セグメントビルダーユーザガイド](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html)』の該当する節を参照してください。
 
    ![](assets/aep_audiences_mergepolicy.png)
 
 1. オーディエンスで取得するプロファイルを識別するルールを定義します。
 
-   これを行うには、目的の属性やイベントを左側のペインからワークスペースにドラッグし、対応するルールを定義してから&#x200B;**[!UICONTROL Create segment]**&#x200B;ボタンをクリックしてセグメントを保存します（「[セグメントビルダーの使用](../../integrating/using/aep-using-segment-builder.md)」を参照）。
+   これをおこなうには、目的の属性やイベントを左側のパネルからワークスペースにドラッグし、対応するルールを定義した後、「**[!UICONTROL Create segment]**」ボタンをクリックしてセグメントを保存します（[セグメントビルダーの使用](../../integrating/using/aep-using-segment-builder.md)を参照）。
 
    ![](assets/aep_audiences_creation_query.png)
 
-オーディエンスをアクティベートする準備ができました。キャンペーンのターゲットとして使用できます(「[Adobe Experience Platformオーディエンスのターゲット設定](../../integrating/using/aep-targeting-audiences.md)」を参照)。
+これで、オーディエンスをアクティブ化する準備が整い、キャンペーンのターゲットとして使用できます([Adobe Experience Platformオーディエンスのターゲット設定](../../integrating/using/aep-targeting-audiences.md)を参照)。
 
 ## オーディエンスの編集
 
-オーディエンスを編集するには、画像を開き、セグメントビルダーインターフェイス内で必要に応じてルールを変更します（「[セグメントビルダーの使用](../../integrating/using/aep-using-segment-builder.md)」を参照）。
+オーディエンスを編集するには、オーディエンスを開き、必要に応じてセグメントビルダーインターフェイス内でルールを変更します（[セグメントビルダーの使用](../../integrating/using/aep-using-segment-builder.md)を参照）。
 
-変更が完了したら、**[!UICONTROL Save segment]**&#x200B;ボタンをクリックしてオーディエンスを更新します。
+変更が完了したら、「**[!UICONTROL Save segment]**」ボタンをクリックしてオーディエンスを更新します。
 
 ![](assets/aep_audiences_editing.png)
