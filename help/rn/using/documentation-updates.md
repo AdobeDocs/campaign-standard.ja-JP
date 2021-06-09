@@ -10,10 +10,10 @@ feature: 概要
 role: Business Practitioner
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: ec0dc31e39424a540ca71ff15355814c0e79a283
+source-git-commit: c101113e2180006b300611a0cbea1b0f9a70df70
 workflow-type: tm+mt
-source-wordcount: '6866'
-ht-degree: 99%
+source-wordcount: '6852'
+ht-degree: 98%
 
 ---
 
@@ -330,7 +330,7 @@ Campaign Standard 内のワークフローを使用してコントロール母�
 
 ランディングページのプロパティに関する情報が、専用の節に移動されました。[詳細を表示](../../channels/using/configuring-landing-page.md)
 
-コントロールパネルのドキュメントは、新しいコラボレーションドキュメントセットに統合されました。[詳細を表示](https://docs.adobe.com/content/help/ja-JP/control-panel/using/control-panel-home.html)
+コントロールパネルのドキュメントは、新しいコラボレーションドキュメントセットに統合されました。[詳細を表示](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja)
 
 **指標の計算**&#x200B;テーブルが更新されました。[詳細を表示](../../reporting/using/indicator-calculation.md)
 
@@ -394,7 +394,7 @@ E メールデザイナーガイドの構成が変更されました。[詳細�
 
 トラブルシューティングの節で、「ログ」タブに SQL クエリを表示する方法に関するワークフローの手順が追加されました。[詳細を表示](../../automating/using/best-practices-workflows.md#troubleshooting-data-management-activities)
 
-コントロールパネル内でのサブドメインと証明書の管理に関する情報を紹介する新しいヘルプ記事が追加されました。[詳細を表示](https://docs.adobe.com/content/help/ja-JP/control-panel/using/subdomains-and-certificates/subdomains-branding.html)
+コントロールパネル内でのサブドメインと証明書の管理に関する情報を紹介する新しいヘルプ記事が追加されました。[詳細を表示](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=ja)
 
 コンテンツテンプレートとフラグメントについて説明する節が更新されました。[詳細を表示](../../designing/using/using-reusable-content.md#content-templates)
 
@@ -456,7 +456,7 @@ E メールデザイナーの推奨されるアップデートに関する新し
 
 **リリースに含まれる新機能**
 
-コントロールパネル - [詳細を表示](https://docs.adobe.com/content/help/en/control-panel/using/control-panel-home.html)
+コントロールパネル - [詳細を表示](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
 
 ローカル通知 - [詳細を表示](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)
 
@@ -472,7 +472,7 @@ E メールデザイナーの推奨されるアップデートに関する新し
 
 Adobe Campaign から直接利用できるコンテキストヘルプリンクが更新されました。
 
-次の[ページは](https://docs.adobe.com/content/help/ja-JP/campaign-standard-learn/tutorials/overview.html) Adobe Campaign Standard の公式ビデオページになります。
+次の[ページは](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/overview.html) Adobe Campaign Standard の公式ビデオページになります。
 
 標準テーブルのデフォルトの保持率など、データ保持に関する節を追加しました。[詳細を表示](../../administration/using/data-retention.md)
 
@@ -612,7 +612,7 @@ SDK V4 を使用したモバイルアプリケーションの設定の節は、[
 
 Adobe Experience Platform SDK を使用したモバイルアプリケーションの設定の節は、[ここ](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)に移動しました。
 
-ビデオが更新され、[ここ](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)に移動しました。
+ビデオが更新され、[ここ](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/overview.html)に移動しました。
 
 ユーザーのタイプの節を更新しました。[詳細を表示](../../administration/using/users-management.md)
 
@@ -960,7 +960,7 @@ Creative SDK による画像編集機能の強化 - [詳細を表示](../../desi
 
 Amazon Simple Storage Service（S3）コネクタ - [詳細を表示](../../administration/using/external-accounts.md)
 
-Dreamweaver との統合（実稼働） - [詳細を表示](https://docs.adobe.com/content/help/ja-JP/campaign-standard-learn/tutorials/designing-content/email-designer/dreamweaver-integration.html)
+Dreamweaver との統合（実稼働） - [詳細を表示](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html)
 
 **リリースに伴うその他のドキュメントのアップデート**
 
@@ -984,7 +984,7 @@ Adobe Analytics for Mobile（目標地点）との統合が更新され、設定
 
 動的レポート- [詳細を表示](../../reporting/using/about-dynamic-reports.md)
 
-Dreamweaver の統合（ラボ） - [詳細を表示](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html)
+Dreamweaver の統合（ラボ） - [詳細を表示](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html)
 
 手動送信時間の最適化 - [詳細を表示](../../sending/using/optimizing-the-sending-time.md)
 
