@@ -6,38 +6,37 @@ description: 様々なチャネルでパーソナライズされたメッセー�
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels
-feature: Overview
+feature: 概要
 role: Business Practitioner
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 4ea5b0eb-35da-4db6-a529-ba636be7825f
+source-git-commit: 7272d2ca2b499069e00a3ded1cb6693147c64dfc
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '523'
 ht-degree: 23%
 
 ---
-
 
 # 通信チャネルの概要 {#discovering-communication-channels}
 
 <table>
 <tr>
-<td><img src="assets/do-not-localize/icon_concepts.svg" width="60px"><p><a href="#global-concepts">グローバルな概念</a></p></td>
+<td><img src="assets/do-not-localize/icon_concepts.svg" width="60px"><p><a href="#global-concepts">グローバル概念</a></p></td>
 <td><img src="assets/do-not-localize/icon_channels.svg" width="60px"><p><a href="#available-communication-channels">通信チャネル</a></p></td>
 <td><img src="assets/do-not-localize/icon_transactional.svg" width="60px"><p><a href="#transactional-messages">トランザクションメッセージ</a></p></td>
 <td><img src="assets/do-not-localize/icon_landing.svg" width="60px"><p><a href="#landing-pages">ランディングページ</a></p></td></tr>
 </table>
 
-Adobe Campaignを使用すると、あらゆるチャネルでキャンペーンを起動、測定、自動化できます。
-すべてのマーケティングチャネルを調和させることは不可能なタスクではありません。 Adobe Campaignの助けを借りて、異なるシステム、デバイス、チャネルの顧客データを1つのプロファイルにまとめることができます。 その後、お客様のジャーニーに沿った適切な場所と適切な方法で、お客様にタイムリーで適切なキャンペーンを提供します。
+Adobe Campaignでは、あらゆるチャネルをまたいでキャンペーンを開始、測定、自動化できます。
+すべてのマーケティングチャネルを調和させる作業は不可能ではありません。 Adobe Campaignを利用して、様々なシステム、デバイスおよびチャネルの顧客データを1つのプロファイルに取り込むことができます。 その後、カスタマージャーニーに沿って適切な場所と適切な方法で、顧客とタイムリーで関連性の高いキャンペーンを提供します。
 
 ## グローバルな概念{#global-concepts}
 
 <img src="assets/do-not-localize/icon_concepts.svg" width="60px">
 
-**キャンペーンメッセージ** ダッシュボードを活用して、1か所でメッセージを設定、送信し、スケジュール、多言語メッセージなどの様々な機能にアクセスできます。
+**Campaignのメッセージダ** ッシュボードを利用して、1か所でメッセージを設定および送信したり、スケジュール設定、多言語メッセージなどの様々な機能にアクセスしたりできます。
 
-**テン** プレートを管理して、メッセージのプロパティを設定し、メッセージング戦略全体で時間と一貫性を確保できます。例えば、電子メールの場合、テンプレートの設定を担当する機能管理者は、オーディエンス、スケジュール、コンテンツ、送信、有効性、追跡などに関連する高度なパラメーター、ターゲット設定とパーソナライゼーション（ターゲット化コンテキスト）など、電子メールの標準パラメーターを定義できます。
+**テンプレ** ートを管理して、メッセージのプロパティを設定し、メッセージ戦略全体で時間と一貫性を確保できます。例えば、Eメールの場合、テンプレートの設定を担当する機能管理者は、オーディエンス、スケジュールまたはコンテンツ、送信、有効性、トラッキングなどに関連する詳細設定パラメーター、ターゲティングとパーソナライゼーションに関する事前設定パラメーター（ターゲティングコンテキスト）を定義できます。
 
 詳しくは、以下を参照してください。
 
@@ -51,16 +50,16 @@ Adobe Campaignを使用すると、あらゆるチャネルでキャンペーン
 
 <img src="assets/do-not-localize/icon_channels.svg"  width="60px">
 
-**Adobe Campaignでは、次の5つの通信** チャネルを使用できます。電子メール、SMSメッセージ、プッシュ通知、アプリ内メッセージ、ダイレクトメール配信。
+**Adobe Campaignでは、次の5つ** の通信チャネルを使用できます。Eメール、SMSメッセージ、プッシュ通知、アプリ内メッセージ、ダイレクトメール配信。
 
-各チャネルに対して、特定の機能を使用できます。 例えば、電子メールチャネルでは、最大3バージョンの電子メールメッセージをテストするためにA/Bテストを実行できます。 SMSチャネルを使用して、STOP SMSメッセージを管理し、受信者からの着信SMSをデータベースに格納します。
+各チャネルに対して、特定の機能を使用できます。 例えば、Eメールチャネルを使用すると、Eメールメッセージの最大3つのバージョンをテストするために、A/Bテストを実行できます。 SMSチャネルを使用して、STOP SMSメッセージを管理し、受信者からの受信SMSをデータベースに保存します。
 
-さらに、Campaign Standard **パーソナライゼーション機能と動的コンテンツ機能**&#x200B;を活用して、オーディエンスの興味を引き出します。
+さらに、Campaign Standard **のパーソナライゼーション機能と動的コンテンツ機能**&#x200B;を利用して、オーディエンスの関心を引き付けます。
 
 詳しくは、以下を参照してください。
 
-* [電子メールの作成](../../channels/using/about-emails.md)
-* [SMSメッセージを作成しています](../../channels/using/about-sms-messages.md)
+* [Eメールの作成](../../channels/using/about-emails.md)
+* [SMSメッセージの作成](../../channels/using/about-sms-messages.md)
 * [プッシュ通知の作成](../../channels/using/about-push-notifications.md)
 * [アプリ内メッセージの作成](../../channels/using/about-in-app-messaging.md)
 * [ダイレクトメール配信の作成](../../channels/using/about-direct-mail.md)
@@ -69,9 +68,9 @@ Adobe Campaignを使用すると、あらゆるチャネルでキャンペーン
 
 <img src="assets/do-not-localize/icon_transactional.svg" width="60px">
 
-**個別のメッセージと個別の** メッセージを顧客にリアルタイムで送信する：ウェルカムメッセージ、発送確認、パスワードの変更など
+**個々の一意のメッセージ** をリアルタイムで顧客に送信する：ウェルカムメッセージ、注文発送確認、パスワード変更など
 
-トランザクションメッセージは、オプションに応じて、電子メール、SMS、プッシュ通知チャネルで使用できます。 メッセージには次の2種類があります。**イベントトランザクションメッセージ**&#x200B;はプロファイル情報のないイベントをターゲットにし、**プロファイルトランザクションメッセージ**&#x200B;はデータベースのプロファイルをターゲットにします。
+トランザクションメッセージは、オプションに応じて、Eメール、SMS、プッシュ通知チャネルで使用できます。 メッセージには、次の2つのタイプがあります。**イベントトランザクションメッセージ**&#x200B;は、プロファイル情報を持たないイベントをターゲティングし、**プロファイルトランザクションメッセージ**&#x200B;は、データベースのプロファイルをターゲティングします。
 
 詳しくは、以下を参照してください。
 
@@ -87,9 +86,9 @@ Adobe Campaignを使用すると、あらゆるチャネルでキャンペーン
 
 <img src="assets/do-not-localize/icon_landing.svg" width="60px">
 
-キャンペーンには、オーディエンス&#x200B;**上の情報を**&#x200B;取り込むために使用できるWebフォームのランディングページ、サービスへのオファー購読、データの表示、データベースの拡張に使用できるフォームが付属しています。
+Campaignには、オーディエンス&#x200B;**の情報を**&#x200B;キャプチャし、サービスの購読を申し込み、データを表示し、データベースを拡張するために使用できるWebフォームのランディングページが用意されています。
 
-ランディングページは、既存のプロファイル&#x200B;**の取得や更新、重複のオプトインメカニズムの設定にも使用でき、誤った電子メールアドレスや無効な電子メールアドレス、スパンボットからプラットフォームを保護できます。**
+ランディングページは、**既存のプロファイル**&#x200B;の取得または更新に使用したり、二重のオプトインメカニズムを設定したりする場合にも使用でき、誤ったEメールアドレスや無効なEメールアドレス、スパムボットからプラットフォームを保護できます。
 
 詳しくは、以下を参照してください。
 
@@ -102,8 +101,8 @@ Adobe Campaignを使用すると、あらゆるチャネルでキャンペーン
 
 * [配信品質の最適化](../../sending/using/about-deliverability.md)
 * [配信のベストプラクティス](../../sending/using/delivery-best-practices.md)
-* [電子メールコンテンツのデザイン](../../designing/using/designing-content-in-adobe-campaign.md)
+* [Eメールコンテンツのデザイン](../../designing/using/designing-content-in-adobe-campaign.md)
 * [AEMコンテンツの読み込み](../../integrating/using/creating-email-experience-manager.md)
-* [ワークフローを含むメッセージの送信](../../automating/using/about-channel-activities.md)
-* [コミュニケーションチャネルのチュートリアルビデオ](https://docs.adobe.com/content/help/ja-JP/campaign-standard-learn/tutorials/communication-channels/email/create-email-from-homepage.translate.html)
-* [使用例：チャネル間の配信の作成](../../automating/using/workflow-cross-channel-delivery.md)
+* [ワークフローを使用したメッセージの送信](../../automating/using/about-channel-activities.md)
+* [通信チャネルのチュートリアルビデオ](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/create-email-from-homepage.html?lang=ja)
+* [使用例：クロスチャネル配信の作成](../../automating/using/workflow-cross-channel-delivery.md)
