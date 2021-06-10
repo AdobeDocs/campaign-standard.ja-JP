@@ -10,10 +10,10 @@ feature: 概要
 role: Business Practitioner
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: d5bea4a96576dc13aa06939876ef6549115a2b75
+source-git-commit: 887396a0871a8ed93642c55a49c8737f5c98bfc2
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -39,8 +39,6 @@ ht-degree: 6%
 * マルチバリアント配信では、デフォルトバリアントが削除されている場合に、言語コピーを作成できなくなりました。 言語コピーの作成中にメッセージが表示されるようになりました。 （CAMP-48235）
 
 * 2段階プロファイル削除プロセス（Campaign 19.4リリース以降は非推奨）は、デフォルトで無効になりました。 以前は、Privacy Core Serviceを使用する前に、Campaignインターフェイスから手動で無効にする必要がありました。 削除しないと、削除リクエストは完了せずに保留状態のままになります。
-
-* 文字列型の列の値を連結する新しい「StringAgg」集計関数が導入されました。 （CAMP-47077）[詳細情報](../../automating/using/list-of-functions.md#aggregates)
 
 * 動的レポートでは、**配達確認を除外**&#x200B;セグメントが削除されました。 （CAMP-46161）
 
