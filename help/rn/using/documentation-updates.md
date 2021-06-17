@@ -13,7 +13,7 @@ exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: c101113e2180006b300611a0cbea1b0f9a70df70
 workflow-type: tm+mt
 source-wordcount: '6852'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -25,9 +25,9 @@ ht-degree: 98%
 
 **リリースに含まれる新機能**
 
-ランディングページの検証 — ランディングページに必須の契約オプションを追加できるようになりました。 [詳細情報](../../channels/using/managing-landing-page-form-data.md#agreement-checkbox)
+ランディングページの検証 - ランディングページに必須の契約オプションを追加できるようになりました。[詳細情報](../../channels/using/managing-landing-page-form-data.md#agreement-checkbox)
 
-**Eメールサイズ**&#x200B;の節が更新され、Eメールの最大サイズに関する情報が追加されました。この情報は、デフォルトで100 MBに設定されるようになりました。 [詳細を表示](../../sending/using/design-and-personalize.md#email-size)
+**E メールのサイズ**&#x200B;の節で、E メールの最大サイズに関する情報が更新されました。最大サイズは、デフォルトで 100 MB に設定されるようになりました。[詳細を表示](../../sending/using/design-and-personalize.md#email-size)
 
 **リリースに伴うその他のドキュメントのアップデート**
 
