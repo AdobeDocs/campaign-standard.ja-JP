@@ -6,42 +6,41 @@ description: この節では、外部パラメーターを使用してワーク�
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
-feature: Workflows
+feature: ワークフロー
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 8c1a47ed-3467-4fcd-8747-86f0e8f15cec
+source-git-commit: c41d51538b8a8376a034c7d2db77b66b21256fd8
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 2%
+source-wordcount: '814'
+ht-degree: 1%
 
 ---
 
+# 外部パラメーターを使用したワークフローのカスタマイズ {#customizing-a-workflow-with-external-parameters}
 
-# 外部パラメーターを使用したワークフローのカスタマイズ{#customizing-a-workflow-with-external-parameters}
-
-ワークフローがトリガーされると、パラメーターはイベント変数に取り込まれ、ワークフローのアクティビティをカスタマイズするために使用できます。
+ワークフローがトリガーされると、パラメーターがイベント変数に取り込まれ、を使用してワークフローのアクティビティをカスタマイズできます。
 
 例えば、**[!UICONTROL Read audience]**&#x200B;アクティビティで読み取るオーディエンス、**[!UICONTROL Transfer file]**&#x200B;アクティビティで転送するファイルの名前などを定義するために使用できます。 （[このページ](../../automating/using/customizing-workflow-external-parameters.md)を参照）。
 
-## イベント変数{#using-events-variables}の使用
+## イベント変数の使用 {#using-events-variables}
 
-イベント変数は、[標準構文](../../automating/using/advanced-expression-editing.md#standard-syntax)を順守する必要がある式内で使用されます。
+イベント変数は、[標準構文](../../automating/using/advanced-expression-editing.md#standard-syntax)に従う式の中で使用されます。
 
-イベント変数を使用する構文は、次の形式に従い、**[!UICONTROL External signal]**&#x200B;アクティビティで定義されたパラメータ名を使用する必要があります([外部シグナルアクティビティでのパラメータの宣言](../../automating/using/declaring-parameters-external-signal.md)を参照)。
+イベント変数を使用する構文は、次の形式に従い、**[!UICONTROL External signal]**&#x200B;アクティビティで定義されたパラメーター名を使用する必要があります（[外部シグナルアクティビティでのパラメーターの宣言](../../automating/using/declaring-parameters-external-signal.md)を参照）。
 
 ```
 $(vars/@parameterName)
 ```
 
-この構文では、**$**&#x200B;関数は&#x200B;**string**&#x200B;データ型を返します。 別の種類のデータを指定する場合は、次の関数を使用します。
+この構文では、 **$**&#x200B;関数は&#x200B;**string**&#x200B;データ型を返します。 別のタイプのデータを指定する場合は、次の関数を使用します。
 
-* **$long**:整数値。
-* **$float**:10進数。
+* **$long**:整数。
+* **$float**:10進数
 * **$boolean**:true/false。
-* **$datetime**:timestamp.
+* **$datetime**:タイムスタンプ。
 
-アクティビティで変数を使用する場合、インターフェイスから変数を呼び出すのに役立ちます。
+アクティビティで変数を使用する場合、インターフェイスで変数を呼び出すのに役立ちます。
 
 ![](assets/extsignal_callparameter.png)
 
@@ -49,81 +48,81 @@ $(vars/@parameterName)
 
    ![](assets/wkf_test_activity_variables.png)
 
-* ![](assets/extsignal_expression_editor.png):変数と関数を組み合わせた式の編集( [このページを参照](../../automating/using/advanced-expression-editing.md))。
+* ![](assets/extsignal_expression_editor.png):変数と関数を組み合わせた式を編集します(この [ページを参照](../../automating/using/advanced-expression-editing.md))。
 
    ![](assets/wkf_test_activity_variables_expression.png)
 
-   このリストは、複雑なフィルタリングを実行できる関数を提供します。 これらの関数の詳細は[このセクション](../../automating/using/list-of-functions.md)に記載されています。
+   このリストには、複雑なフィルタリングを実行できる関数が含まれています。 これらの関数については、[この節](../../automating/using/list-of-functions.md)で詳しく説明します。
 
-   また、以下の関数を使用できます。これらの関数は、外部パラメーターを使用してワークフローを呼び出した後にイベント変数を使用できるすべてのアクティビティで使用できます（[この節](../../automating/using/customizing-workflow-external-parameters.md#customizing-activities-with-events-variables)を参照）。
+   さらに、以下の関数を使用できます。これは、外部パラメーターを使用してワークフローを呼び出した後にイベント変数を使用できるすべてのアクティビティで使用できます（[この節](../../automating/using/customizing-workflow-external-parameters.md#customizing-activities-with-events-variables)を参照）。
 
    | 名前 | 説明 | 構文 |
-   ---------|----------|---------
-   | EndWith | 文字列（最初のパラメータ）が特定の文字列（2番目のパラメータ）で終わるかどうかを示します。 | EndWith(&lt;String>,&lt;String>) |
-   | startWith | 特定の文字列（2番目のパラメータ）を持つ文字列（第1のパラメータ）開始かどうかを示します。 | startWith(&lt;String>,&lt;String>) |
+   | ---------|----------|---------|
+   | EndWith | 文字列（第1パラメーター）が特定の文字列（第2パラメーター）で終わるかどうかを示します。 | EndWith（&lt;文字列>,&lt;文字列>） |
+   | startWith | 文字列（第1パラメーター）が特定の文字列（第2パラメーター）で始まるかどうかを示します。 | startWith（&lt;文字列>,&lt;文字列>） |
    | 抽出 | 区切り文字を使用して、文字列の最初の文字を返します。 | Extract（&lt;文字列>,&lt;区切り文字>） |
    | ExtractRight | 区切り文字を使用して、文字列の最後の文字を返します。 | ExtractRight（&lt;文字列>,&lt;区切り文字>） |
    | DateFormat | 2番目のパラメーターで指定された形式を使用して日付を書式設定します(例： &#39;%4Y%2M%2D&#39;) | DateFormat（&lt;日付>,&lt;形式>） |
-   | ファイル名 | ファイルパスの名前を返します。 | FileName（&lt;文字列>） |
-   | FileExt | ファイルパスの拡張子を返します。 | FileExt(&lt;String>) |
+   | FileName | ファイルパスの名前を返します。 | FileName（&lt;文字列>） |
+   | FileExt | ファイルパスの拡張子を返します。 | FileExt（&lt;文字列>） |
    | GetOption | 指定した関数の値を返します。 | GetOption（&lt;オプション名>） |
-   | IsNull | 文字列または日付がnullかを示します。 | IsNull（&lt;文字列/日付>） |
-   | UrlUtf8Encode | URLをUTF8でエンコードします。 | UrlUtf8Encode(&lt;String>) |
+   | IsNull | 文字列または日付がnullかどうかを示します。 | IsNull（&lt;文字列/日付>） |
+   | UrlUtf8Encode | URLをUTF8でエンコードします。 | UrlUtf8Encode（&lt;文字列>） |
 
-## イベント変数{#customizing-activities-with-events-variables}を使用したアクティビティのカスタマイズ
+## イベント変数を使用したアクティビティのカスタマイズ {#customizing-activities-with-events-variables}
 
-イベント変数は、次の節に示すように、複数のアクティビティをカスタマイズするために使用できます。 アクティビティから変数を呼び出す方法について詳しくは、[この](../../automating/using/customizing-workflow-external-parameters.md#using-events-variables)を参照してください。
+イベント変数は、次の節に示すように、複数のアクティビティをカスタマイズするために使用できます。 アクティビティから変数を呼び出す方法について詳しくは、[この節](../../automating/using/customizing-workflow-external-parameters.md#using-events-variables)を参照してください。
 
-**[!UICONTROL Read audience]** アクティビティ:イベント変数に基づいてターゲットへのオーディエンスを定義します。アクティビティの使い方の詳細については、[この](../../automating/using/read-audience.md)を参照してください。
+**[!UICONTROL Read audience]** アクティビティ：イベント変数に基づいて、ターゲットにするオーディエンスを定義します。このアクティビティの使用方法について詳しくは、[この節](../../automating/using/read-audience.md)を参照してください。
 
 ![](assets/extsignal_activities_audience.png)
 
-**[!UICONTROL Test]** アクティビティ:イベント変数に基づいて条件を作成します。アクティビティの使い方の詳細については、[この](../../automating/using/test.md)を参照してください。
+**[!UICONTROL Test]** アクティビティ：イベント変数に基づいて条件を作成します。このアクティビティの使用方法について詳しくは、[この節](../../automating/using/test.md)を参照してください。
 
 ![](assets/extsignal_activities_test.png)
 
-**[!UICONTROL Transfer file]** アクティビティ:イベント変数に基づいて転送するファイルをカスタマイズします。アクティビティの使い方の詳細については、[この](../../automating/using/transfer-file.md)を参照してください。
+**[!UICONTROL Transfer file]** アクティビティ：イベント変数に基づいて転送するファイルをカスタマイズします。このアクティビティの使用方法について詳しくは、[この節](../../automating/using/transfer-file.md)を参照してください。
 
 ![](assets/extsignal_activities_transfer.png)
 
-**[!UICONTROL Query]** アクティビティ:パラメーター変数と関数を組み合わせた式を使用して、クエリーでイベントーを参照できます。これを行うには、ルールを追加し、**[!UICONTROL Advanced mode]**&#x200B;リンクをクリックして式編集ウィンドウにアクセスします(「[高度な式編集](../../automating/using/advanced-expression-editing.md)」を参照)。
+**[!UICONTROL Query]** アクティビティ：パラメーターは、イベント変数と関数を組み合わせた式を使用して、クエリで参照できます。それには、ルールを追加し、**[!UICONTROL Advanced mode]**&#x200B;リンクをクリックして、式の編集ウィンドウにアクセスします（[高度な式の編集](../../automating/using/advanced-expression-editing.md)を参照）。
 
-アクティビティの使い方の詳細については、[この](../../automating/using/query.md)を参照してください。
+このアクティビティの使用方法について詳しくは、[この節](../../automating/using/query.md)を参照してください。
 
 ![](assets/extsignal_activities_query.png)
 
-**[!UICONTROL Channels]** アクティビティ:イベント変数に基づいて配信をパーソナライズします。
+**[!UICONTROL Channels]** アクティビティ：イベント変数に基づいて配信をパーソナライズする。
 
 >[!NOTE]
 >
->配信パラメータの値は、配信が準備されるたびに取得されます。
+>配信パラメーターの値は、配信が準備されるたびに取得されます。
 >
->繰り返し配信の準備は、配信&#x200B;**集計期間**&#x200B;に基づいて行われます。 たとえば、集計期間が「日別」の場合、配信は1日に1回のみ再準備されます。 配信パラメーターの値がその日中に変更された場合、既に1回準備されているので、配信では更新されません。
+>繰り返し配信の準備は、配信&#x200B;**集計期間**&#x200B;に基づいておこなわれます。 例えば、集計期間が「日別」の場合、配信は1日に1回だけ再準備されます。 1日の間に配信パラメーターの値が変更された場合、配信内では更新されません。配信パラメーターは既に1回準備されているからです。
 >
->ワークフローを1日に複数回呼び出す場合は、[!UICONTROL No aggregation]オプションを使用して、配信のパラメーターが毎回更新されるようにします。 定期的な配信の設定について詳しくは、[このセクション](/help/automating/using/email-delivery.md#configuration)を参照してください。
+>ワークフローを1日に複数回呼び出す予定がある場合は、[!UICONTROL No aggregation]オプションを使用して、配信パラメーターが毎回更新されるようにします。 繰り返し配信の設定について詳しくは、[この節](/help/automating/using/email-delivery.md#configuration)を参照してください。
 
-イベント変数に基づいて配信をパーソナライズするには、まず使用する変数を配信アクティビティに宣言する必要があります。
+イベント変数に基づいて配信をパーソナライズするには、まず、使用する変数を配信アクティビティ内で宣言する必要があります。
 
-1. アクティビティを選択し、![](assets/dlv_activity_params-24px.png)ボタンをクリックして設定にアクセスします。
-1. 「**[!UICONTROL General]**」タブを選択し、配信内のパーソナライゼーションフィールドとして使用できるイベント変数を追加します。
+1. アクティビティを選択し、「![](assets/dlv_activity_params-24px.png)」ボタンをクリックして設定を表示します。
+1. 「**[!UICONTROL General]**」タブを選択し、配信のパーソナライゼーションフィールドとして使用できるイベント変数を追加します。
 
    ![](assets/extsignal_activities_delivery.png)
 
 1. 「**[!UICONTROL Confirm]**」ボタンをクリックします。
 
-宣言済みイベント変数は、パーソナライゼーションフィールドのリストから使用できるようになりました。 配信でこれらを使用して、次の操作を実行できます。
+宣言済みイベント変数をパーソナライゼーションフィールドのリストから使用できるようになりました。 配信内でこれらを使用して、次のアクションを実行できます。
 
 * 配信に使用するテンプレートの名前を定義します。
 
    >[!NOTE]
    >
-   >この操作は、**定期的な**&#x200B;配信でのみ実行できます。
+   >このアクションは、**繰り返し**&#x200B;配信でのみ使用できます。
 
    ![](assets/extsignal_activities_template.png)
 
-* 配信のパーソナライズ：配信を設定するためにパーソナライゼーションフィールドを選択する場合、イベント変数は&#x200B;**[!UICONTROL Workflow parameters]**&#x200B;要素で使用できます。 配信の件名や送信者などを定義する場合など、任意のパーソナライゼーションフィールドとして使用できます。
+* 配信のパーソナライズ：配信を設定するパーソナライゼーションフィールドを選択する場合、**[!UICONTROL Workflow parameters]**&#x200B;要素でイベント変数を使用できます。 これらを任意のパーソナライゼーションフィールドとして使用できます。例えば、配信の件名や送信者を定義できます。
 
-   配信のパーソナライゼーションの詳細については、[このセクション](../../designing/using/personalization.md)を参照してください。
+   配信のパーソナライゼーションについて詳しくは、[この節](../../designing/using/personalization.md)を参照してください。
 
    ![](assets/extsignal_activities_perso.png)
 
@@ -131,7 +130,7 @@ $(vars/@parameterName)
 
 >[!NOTE]
 >
->この操作は、**[!UICONTROL Query]**&#x200B;や&#x200B;**[!UICONTROL Segmentation]**&#x200B;アクティビティなどのセグメントコードを定義できる任意のアクティビティから実行できます。
+>このアクションは、**[!UICONTROL Query]**&#x200B;や&#x200B;**[!UICONTROL Segmentation]**&#x200B;アクティビティなど、セグメントコードを定義できる任意のアクティビティから実行できます。
 
 ![](assets/extsignal_activities_segment.png)
 
