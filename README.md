@@ -1,8 +1,8 @@
 ---
 source-git-commit: b3d18858ec7f5206410f9b39a2fa5ad894921a60
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '59'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 # ようこそ！
@@ -11,4 +11,4 @@ ht-degree: 89%
 
 トラブルシューティング、操作方法、およびベストプラクティスの詳細については、[テクニカルノート](https://helpx.adobe.com/jp/campaign/kb/acs-article-list.html)を参照してください。
 
-Adobe Campaign Standard の機能に関するビデオについては、[チュートリアル](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/overview.html)をご覧ください。
+Adobe Campaign Standard の機能に関するビデオについては、[チュートリアル](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/overview.html?lang=ja)をご覧ください。
