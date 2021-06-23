@@ -10,7 +10,7 @@ feature: タイポロジルール
 role: Business Practitioner
 level: Intermediate
 exl-id: 6461c128-1e42-4685-88f8-507244147e6f
-source-git-commit: c41d51538b8a8376a034c7d2db77b66b21256fd8
+source-git-commit: f75df49e7957437df72c814aa9055d34770f22d6
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 19%
@@ -30,7 +30,7 @@ ht-degree: 19%
 一連のデフォルトのルールによって、標準のコントロールが保証されます。 次の表に、これらのルールに関する情報と、関連するチャネルおよび[実行フェーズ](#control-rules-execution-phases)を示します。
 
 | ラベル | チャネル | 実行段階 | 説明 |
-|---------|----------|---------|---------
+|---------|----------|---------|---------|
 | **[!UICONTROL A/B Test]** | メール | パーソナライゼーションの開始時 | A/Bテストを使用して配信のテスト母集団を抽出します。 |
 | **[!UICONTROL Check delivery size]** | すべて | ターゲティングの終了時 | メッセージのサイズをチェックします。 |
 | **[!UICONTROL Check email content is not empty]** | メール | ターゲティングの終了時 | メッセージの内容が空の場合にエラーを生成します。 |
