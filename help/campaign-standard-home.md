@@ -8,22 +8,22 @@ feature: 概要
 role: Business Practitioner
 level: Beginner
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
-source-git-commit: 5b94e57efb29ba1c3feeba21b41e68571bd646b1
-workflow-type: ht
-source-wordcount: '239'
-ht-degree: 100%
+source-git-commit: c0362e6b440f19dcbce965910d9594a1bc3991ae
+workflow-type: tm+mt
+source-wordcount: '241'
+ht-degree: 90%
 
 ---
 
-# Adobe Campaign Standard ドキュメント{#campaign-standard-documentation}
+# Adobe Campaign Standard ドキュメント {#campaign-standard-documentation}
 
 ![](start/using/assets/do-not-localize/banner_acs_doc.jpg)
 
 ## 新着情報
 
-* **[Campaign - RTCDP 間の連携](integrating/using/get-started-sources-destinations.md)**<br/>Campaign と Real-time Customer Data Platform（RTCDP）間でデータを共有する方法を説明します。
+* **[Apple Mailのプライバシー保護に関するFAQ iOS 15に関するAppleの発表に対する](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/technotes/apple-mail-privacy-faq.html)**<br/> 最初のガイダンスを確認します。
 
-* **[間違ったハードバウンスの更新](https://helpx.adobe.com/jp/campaign/kb/update-bounce-qualification.html)**<br/>&#x200B;メールの停止後に、間違ったハードバウンスを更新する方法を説明します。
+* **[Campaign - RTCDP 間の連携](integrating/using/get-started-sources-destinations.md)**<br/>Campaign と Real-time Customer Data Platform（RTCDP）間でデータを共有する方法を説明します。
 
 * **[コントロール母集団](sending/using/control-group.md)**<br/>オーディエンスの一部を除外して、キャンペーンの影響を測定します
 
