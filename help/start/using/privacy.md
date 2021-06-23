@@ -14,9 +14,9 @@ role: Business Practitioner
 level: Intermediate
 exl-id: 0fc71c2f-f294-43f7-825c-73ab4d43fcf7
 source-git-commit: 694d596ea3c7b85759716ae44b2713ed3f8b5dcf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1478'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -110,7 +110,7 @@ Adobe Campaign では、プライバシー管理に関する様々な機能を�
 Campaign の主なプライバシー機能と関与するペルソナの例を[この節](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy-more.html#gdprpersonasandflow)に示します。
 
 
-### 同意、リテンション、役割 {#consent}
+### 同意、保持、役割 {#consent}
 
 Adobe Campaign には、プライバシーに不可欠な重要な機能が最初から用意されています。
 
@@ -130,7 +130,7 @@ Adobe Campaign には、特定のプライバシーリクエストに対する�
 
 >[!NOTE]
 >
->GDPR、CCPA、PDPA のプライバシーコンプライアンスに役立つツール群を紹介します。これらの様々な規則について詳しくは、[このページ](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)を参照してください。
+>GDPR、CCPA、PDPA のプライバシーコンプライアンスに役立つツール群を紹介します。これらの様々な規則について詳しくは、[このページ](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy-overview.html#whatisgdpr)を参照してください。
 
 <!--* **GDPR** (General Data Protection Regulation) is the European Union’s (EU) privacy law that harmonizes and modernizes data protection requirements. GDPR applies to Adobe Campaign customers who hold data for Data Subjects residing in the EU.
 
@@ -138,7 +138,7 @@ Adobe Campaign には、特定のプライバシーリクエストに対する�
 
 * **Thailand's PDPA** (Personal Data Protection Act) is the new privacy law that harmonizes and modernizes data protection requirements for Thailand. This regulation applies to Adobe Campaign customers who hold data for Data Subjects residing in this country.-->
 
-**アクセス**&#x200B;要求と&#x200B;**削除**&#x200B;要求は、[このページ](https://helpx.adobe.com/jp/campaign/kb/acs-privacy.html#righttoaccess)に表示されます。これらのリクエストを作成するための実装手順については、[このページ](https://helpx.adobe.com/jp/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)で詳しく説明しています。チュートリアルは[こちら](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html)からもご利用いただけます。
+**アクセス**&#x200B;要求と&#x200B;**削除**&#x200B;要求は、[このページ](https://helpx.adobe.com/jp/campaign/kb/acs-privacy.html#righttoaccess)に表示されます。これらのリクエストを作成するための実装手順については、[このページ](https://helpx.adobe.com/jp/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)で詳しく説明しています。チュートリアルは[こちら](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=ja)からもご利用いただけます。
 
 ## トラッキング機能 {#tracking-capabilities}
 
