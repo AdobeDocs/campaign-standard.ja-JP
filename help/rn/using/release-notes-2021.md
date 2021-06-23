@@ -1,7 +1,7 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: リリースノート2021
+title: リリースノート 2021
 description: このページでは、Adobe Campaign Standard の 2021 年の全リリースを紹介します。
 audience: rn
 content-type: reference
@@ -11,9 +11,9 @@ role: Business Practitioner
 level: Beginner
 exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
 source-git-commit: 4a8dfc0b8f321447e0ebc23a9f5bbef337454d9f
-workflow-type: tm+mt
-source-wordcount: '2536'
-ht-degree: 95%
+workflow-type: ht
+source-wordcount: '2535'
+ht-degree: 100%
 
 ---
 
@@ -151,11 +151,11 @@ ht-degree: 95%
 
 * 1 回実行された&#x200B;**重複排除 - 重複**&#x200B;アクティビティをコピー＆ペーストし、一時的なリソースを利用する場合に発生するワークフローの問題を修正しました。 複製された場合、アクティビティのリソースは自動的に空に設定され、ワークフローの他のアクティビティで問題が発生していました。貼り付けられた場合、ワークフローの後半ではなく、可能な限り早くエラーがトリガーされるように、アクティビティのリソースは同じままになります。（CAMP-46903）
 
-* 新しい[ターゲットマッピング](../../administration/using/target-mappings-in-campaign.md)を導入することで、プロファイルをターゲットとしたトランザクションプッシュ通知の送信時に配信分析が失敗する問題を修正しました。**Profile - Push**&#x200B;のリアルタイムイベント(*mapRtEventAppSubRcp*)。 [プロファイルベースのトランザクションプッシュ通知](../../channels/using/transactional-push-notifications.md#transactional-push-notifications-targeting-a-profile)の配信、除外およびトラッキングログは、*broadLogAppSubRcp*、*excludeLogAppSubRcp*&#x200B;および&#x200B;*trackingLogAppSubRcpRcpに保存されるようになりました*&#x200B;テーブル。
+* 新しい[ターゲットマッピング](../../administration/using/target-mappings-in-campaign.md)：**Profile - Real-time event for Push**（*mapRtEventAppSubRcp*）が導入され、プロファイルをターゲティングするトランザクションプッシュ通知を送信する際に、配信分析が失敗する問題を修正しました。[プロファイルベースのトランザクションプッシュ通知](../../channels/using/transactional-push-notifications.md#transactional-push-notifications-targeting-a-profile)の配信ログ、除外ログ、トラッキングログは、*broadLogAppSubRcp*、*excludeLogAppSubRcp* および *trackingLogAppSubRcp* テーブルに保存されるようになりました。
 
    >[!IMPORTANT]
    >
-   >この変更により、(Adobe Campaign 21.1にアップグレードする前に作成された)既存のプロファイルベースのプッシュトランザクション通知を使用している場合は、ターゲットマッピングを新しいマッピングに更新し、メッセージを再度公開することをお勧めします。 [ここ](../../channels/using/transactional-push-notifications.md#change-target-mapping)で詳しく説明されている手順を参照してください。 以前のターゲットマッピング&#x200B;**Profile - Real-time event** (*mapRtEventRcp*)を使用すると、配信の準備時間が長くなり、パフォーマンスが低下する場合があります。
+   >この変更により、（Adobe Campaign 21.1 にアップグレードする前に作成された）プロファイルベースの既存のプッシュトランザクション通知を使用している場合は、ターゲットマッピングを新しいマッピングに更新し、メッセージを再度公開することをお勧めします。 詳しい手順については、[こちら](../../channels/using/transactional-push-notifications.md#change-target-mapping)を参照してください。以前のターゲットマッピング **Profile - Real-time event**（*mapRtEventRcp*）を使用すると、配信の準備時間が長くなり、パフォーマンスが低下する場合があります。
 
 * 5,000 行表示された場合に配信レポートが実行できない問題を修正しました。
 * 配信テンプレートを変更した後、バージョン B のコンテンツが更新されない A/B テストの問題が修正されました。 （CAMP-45235）
