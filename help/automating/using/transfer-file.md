@@ -7,19 +7,18 @@ audience: automating
 content-type: reference
 topic-tags: data-management-activities
 context-tags: fileTransfer,main
-feature: Workflows
+feature: ワークフロー
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 736bf3dc-96c4-4518-96f8-d9aaa46d7f84
+source-git-commit: 643b8cb973a95155e64fed7df04e15aa2332a22d
 workflow-type: tm+mt
-source-wordcount: '1099'
-ht-degree: 92%
+source-wordcount: '1116'
+ht-degree: 91%
 
 ---
 
-
-# ファイル転送{#transfer-file}
+# ファイルを転送{#transfer-file}
 
 ## 説明 {#description}
 
@@ -106,6 +105,12 @@ Amazon S3 プロトコルを使用すると、Amazon Simple Storage Service（S3
 
    ![](assets/wkf_file_transfer_08.png)
 
+   >[!CAUTION]
+   >
+   > ワイルドカードはAmazon S3ではサポートされていません。
+   >
+   > `my_file_02`や`my _file_3433`など、複数のファイルをターゲットにする場合は、次の構文を使用できます。`acs-myawsbucket.s3.amazonaws.com/object-path/my_file_`.
+
 4. 転送の完了時にソースファイルを削除する場合は、「**[!UICONTROL Delete the source files after transfer]**」をオンにします。
 
 ### Microsoft Azure Blob Storage を使用した設定 {#azure-blob-configuration-wf}
@@ -136,7 +141,7 @@ Microsoft Azure Blob プロトコルを使用すると、Microsoft Azure Blob St
 メタ文字、ワイルドカード（* や ? など）を使用して、ファイルをフィルターできます。
 
 必要に応じて「**[!UICONTROL Define a file path]**」または「**[!UICONTROL Use a dynamic file path]**」を選択します。
-「**[!UICONTROL Use a dynamic file path]**」オプションを選択すると、標準の式やイベント変数を使用して、転送するファイルの名前をパーソナライズできます。詳しくは、[こちらのページ](../../automating/using/customizing-workflow-external-parameters.md)を参照してください。
+「**[!UICONTROL Use a dynamic file path]**」オプションを選択すると、標準の式やイベント変数を使用して、転送するファイルの名前をパーソナライズできます。詳しくは、[このページ](../../automating/using/customizing-workflow-external-parameters.md)を参照してください。
 
 パスは、Adobe Campaign サーバーのストレージスペースディレクトリを基準とした相対パスである必要があります。ファイルは、**sftp&lt;インスタンス名>/** ディレクトリにあります。また、ストレージ領域より上のディレクトリを参照することもできません。
 
@@ -166,15 +171,13 @@ Microsoft Azure Blob プロトコルを使用すると、Microsoft Azure Blob St
 >
 >アクティビティを再実行しない限り、フォルダーはチェックされず、消去もされません。そのため、大きなファイルを転送する場合は注意してください。
 
-## 出力変数{#output-variables}
+## 出力変数 {#output-variables}
 
-**[!UICONTROL Transfer file]**&#x200B;アクティビティは、出力としてイベント変数を生成します。これは、他のアクティビティで利用できるので、例えば、[Test](../../automating/using/test.md)アクティビティを使用して、ダウンロードしたファイルの数を調べる場合などです。
+**[!UICONTROL Transfer file]**&#x200B;アクティビティは、出力としてイベント変数を生成します。例えば、[テスト](../../automating/using/test.md)アクティビティを使用して、ダウンロードしたファイルの数を確認する場合など、他のアクティビティで利用できます。
 
-イベント変数は、外部シグナルを使用して別のワークフローに渡すこともできます（「[外部パラメーターを使用したワークフローのカスタマイズ](../../automating/using/customizing-workflow-external-parameters.md)」を参照）。
+イベント変数は、外部シグナルを使用して別のワークフローに渡すこともできます（[外部パラメーターを使用したワークフローのカスタマイズ](../../automating/using/customizing-workflow-external-parameters.md)を参照）。
 
-使用できる出力変数は次のとおりです。
+使用可能な出力変数は次のとおりです。
 
 * **[!UICONTROL fileName]**:転送されたファイルの名前。
 * **[!UICONTROL filesCount]**:転送されたファイルの数。
-
-
