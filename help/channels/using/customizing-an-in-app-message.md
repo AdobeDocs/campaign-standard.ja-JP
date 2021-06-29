@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: in-app-messaging
 context-tags: delivery,inAppContent,back
-feature: In App
+feature: アプリ内
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 7d06cf9c-06b6-4041-8360-4f6bdbd48dd3
+source-git-commit: 8e418be1fa880a4c23cbe4aa4e1a72fc4112b16b
 workflow-type: tm+mt
-source-wordcount: '1085'
+source-wordcount: '977'
 ht-degree: 99%
 
 ---
-
 
 # アプリ内メッセージのカスタマイズ{#customizing-an-in-app-message}
 
@@ -70,7 +69,7 @@ Adobe Campaign では、アプリ内メッセージのデザイン中に、一�
 
 ![](assets/inapp_customize_4.png)
 
-### メディア{#media}
+### メディア {#media}
 
 **[!UICONTROL Media]**&#x200B;ドロップダウンを使用すると、アプリ内メッセージにメディアを追加して、エンドユーザーにとって魅力的なエクスペリエンスを作成できます。
 
@@ -128,7 +127,7 @@ Adobe Campaign では、アプリ内メッセージのデザイン中に、一�
 1. **[!UICONTROL Redirect]**&#x200B;アクションを選択した場合は、「**[!UICONTROL Destination URL]**」フィールドに Web URL またはディープリンクを入力します。
 1. プレビューウィンドウで、またはプレビューボタンをクリックして、メッセージの内容を確認します。
 
-   [アプリ内メッセージのプレビュー](#previewing-the-in-app-message)を参照してください。
+   [アプリ内メッセージのプレビュー](../../channels/using/preparing-and-sending-an-in-app-message.md#previewing-the-in-app-message)を参照してください。
 
    ![](assets/inapp_customize_11.png)
 
@@ -189,18 +188,3 @@ Adobe Campaign では、アプリ内メッセージのデザイン中に、一�
 ![](assets/inapp_customize_3.png)
 
 HTML をインポートすると、様々なデバイスでのファイルのプレビューがプレビューウィンドウに表示されます。
-
-## アプリ内メッセージのプレビュー{#previewing-the-in-app-message}
-
-アプリ内メッセージを送信する前に、テストプロファイルにテスト送信して、ターゲットオーディエンスでの受信時にメッセージがどのように表示されるかを確認できます。
-
-1. 「**[!UICONTROL Preview]**」ボタンをクリックします。
-
-   ![](assets/inapp_sending_2.png)
-
-1. 「**[!UICONTROL Select a test profile]**」ボタンをクリックし、テストプロファイルを 1 つ選択して、配信のプレビューを開始します。テスプロファイルについて詳しくは、[こちら](../../audiences/using/managing-test-profiles.md)を参照してください。
-1. Android、iPhone、タブレットなど、様々なデバイスでのメッセージを確認します。また、パーソナライゼーションフィールドが適切なデータを取得しているかどうかも確認できます。
-
-   ![](assets/inapp_sending_3.png)
-
-1. これで、メッセージを送信し、配信レポートを使用して影響を測定できるようになりました。レポートについて詳しくは、[この節](../../reporting/using/in-app-report.md)を参照してください。
