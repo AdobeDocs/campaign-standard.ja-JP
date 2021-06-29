@@ -10,18 +10,14 @@ context-tags: delivery,triggers,back;deliveryCreation,wizard
 feature: アプリ内
 role: Business Practitioner
 exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
-source-git-commit: 7272d2ca2b499069e00a3ded1cb6693147c64dfc
+source-git-commit: 8e418be1fa880a4c23cbe4aa4e1a72fc4112b16b
 workflow-type: tm+mt
-source-wordcount: '1272'
+source-wordcount: '1173'
 ht-degree: 98%
 
 ---
 
 # アプリ内メッセージの準備と送信{#preparing-and-sending-an-in-app-message}
-
->[!NOTE]
->
->アプリ内パーソナライゼーションは、リンケージフィールドに基づいています。リンケージフィールドは通常、CRM の ID やモバイルアプリのログイン ID になります。リンケージフィールドを Adobe Campaign と連携して使用する場合は、このフィールドのセキュリティはユーザー自身が確保する必要があります。リンケージフィールドのセキュリティが確保されないと、パーソナライズされたメッセージが脆弱になる可能性があります。お客様がセキュリティで保護されたリンケージフィールドの構成、管理、および保護に伴う慣行を順守されない場合、不正なアクセスまたはプロファイルデータの使用に起因する損害に対して、アドビでは責任を負いかねます。
 
 Adobe Campaign では、次の 3 つのタイプのアプリ内メッセージを使用できます。
 
@@ -32,29 +28,15 @@ Adobe Campaign では、次の 3 つのタイプのアプリ内メッセージ�
 * **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**：このメッセージタイプでは、Adobe Campaign にプロファイルが存在していない場合でも、モバイルアプリケーションの全ユーザー（現在のユーザーも将来のユーザーも含む）にメッセージを送信できるようになります。したがって、メッセージのカスタマイズ時には、Adobe Campaign にユーザープロファイルが存在しない可能性があるので、パーソナライゼーションができません。
 * **[!UICONTROL Target users based on their Mobile profile (inApp)]**：このメッセージタイプでは、Adobe Campaign にモバイルプロファイルを持つモバイルアプリケーションの既知のユーザーや匿名ユーザーすべてをターゲットにすることができます。このメッセージタイプは、個人情報も機密性も含まない属性のみを使用してパーソナライズできるので、Mobile SDK と Adobe Campaign のアプリ内メッセージングサービスの間にセキュリティで保護されたハンドシェイクは必要ありません。
 
-   個人データと機密データの扱い方について詳しくは、[個人データと機密データを含んだモバイルプロファイルフィールドの扱い方](#handling-mobile-profile-fields-with-personal-and-sensitive-data)の節を参照してください。
+   個人データと機密データの扱い方について詳しくは、[個人データと機密データを含んだモバイルプロファイルフィールドの扱い方](../../channels/using/about-in-app-messaging.md#handling-mobile-profile-fields-with-personal-and-sensitive-data)の節を参照してください。
 
 ![](assets/diagram_inapp.png)
 
-## 個人データと機密データを含んだモバイルプロファイルフィールドの扱い方 {#handling-mobile-profile-fields-with-personal-and-sensitive-data}
-
-Adobe Campaign では、モバイルデバイスから送信されたモバイルプロファイル属性データは、アプリケーション購読者から収集するデータを定義できる「**[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]**」リソースに保存されます。
-
-モバイルデバイスから Adobe Campaign に送信するデータを収集するには、このリソースを拡張する必要があります。その詳しい手順については、この[ページ](../../developing/using/extending-the-subscriptions-to-an-application-resource.md)を参照してください。
-
-アプリ内メッセージのパーソナライゼーション機能をより安全に有効にするには、このリソースのモバイルプロファイルフィールドを適宜設定する必要があります。「**[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]**」では、新しいモバイルプロファイルフィールドを作成する際に「**[!UICONTROL Personal and Sensitive]**」をオンにして、アプリ内メッセージのパーソナライズ時に使用できないようにします。
-
->[!NOTE]
->
->カスタムリソースを拡張した実装がこのテーブルに既に存在する場合は、各フィールドに適切なラベルを付けてから、アプリ内メッセージのパーソナライズに利用することをお勧めします。
-
-![](assets/in_app_personal_data_2.png)
-
-「**[!UICONTROL Subscriptions to an application]**」カスタムリソースが設定されて公開されると、「**[!UICONTROL Target users based on their Mobile profile (inApp)]**」テンプレートを使用してアプリ内配信の準備を開始できます。パーソナライズのために「**[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]**」リソースで利用できるフィールドは、個人情報も機密性も含まないフィールドに限られます。
-
-**個人情報や機密性を含むフィールド**&#x200B;を使用したパーソナライズが必要な場合は、ユーザーの PII データを保護するためのセキュリティメカニズムが強化された「**[!UICONTROL Target users based on their Campaign profile (inAppProfile)]**」テンプレートの使用をお勧めします。
-
 ## アプリ内メッセージの準備 {#preparing-your-in-app-message}
+
+>[!CAUTION]
+>
+>アプリ内パーソナライゼーションは、リンケージフィールドに基づいています。リンケージフィールドは通常、CRM の ID やモバイルアプリのログイン ID になります。リンケージフィールドを Adobe Campaign と連携して使用する場合は、このフィールドのセキュリティはユーザー自身が確保する必要があります。リンケージフィールドのセキュリティが確保されないと、パーソナライズされたメッセージが脆弱になる可能性があります。お客様がセキュリティで保護されたリンケージフィールドの構成、管理、および保護に伴う慣行を順守されない場合、不正なアクセスまたはプロファイルデータの使用に起因する損害に対して、アドビでは責任を負いかねます。
 
 Adobe Campaign を使用してスタンドアロンのアプリ内メッセージを作成する手順は次のとおりです。
 
@@ -136,6 +118,21 @@ Adobe Campaign を使用してスタンドアロンのアプリ内メッセー�
 * [アプリ内メッセージのカスタマイズ](../../channels/using/customizing-an-in-app-message.md)
 * [アプリ内レポート](../../reporting/using/in-app-report.md)
 * [ワークフロー内でのアプリ内メッセージの送信](../../automating/using/in-app-delivery.md)
+
+## アプリ内メッセージのプレビュー {#previewing-the-in-app-message}
+
+アプリ内メッセージを送信する前に、テストプロファイルにテスト送信して、ターゲットオーディエンスでの受信時にメッセージがどのように表示されるかを確認できます。
+
+1. 「**[!UICONTROL Preview]**」ボタンをクリックします。
+
+   ![](assets/inapp_sending_2.png)
+
+1. 「**[!UICONTROL Select a test profile]**」ボタンをクリックし、テストプロファイルを 1 つ選択して、配信のプレビューを開始します。テスプロファイルについて詳しくは、[こちら](../../audiences/using/managing-test-profiles.md)を参照してください。
+1. Android、iPhone、タブレットなど、様々なデバイスでのメッセージを確認します。また、パーソナライゼーションフィールドが適切なデータを取得しているかどうかも確認できます。
+
+   ![](assets/inapp_sending_3.png)
+
+1. これで、メッセージを送信し、配信レポートを使用して影響を測定できるようになりました。
 
 ## アプリ内メッセージの送信 {#sending-your-in-app-message}
 
