@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: delivery,mobileAppContent,back
-feature: Push
+feature: プッシュ
 role: Business Practitioner
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 3fe3495b-e360-4169-b295-86ad93753468
+source-git-commit: f19b2d618828cb4d83aa3acbc6fbb3ffb4d3af20
 workflow-type: tm+mt
-source-wordcount: '1498'
-ht-degree: 98%
+source-wordcount: '1511'
+ht-degree: 97%
 
 ---
-
 
 # プッシュ通知のカスタマイズ{#customizing-a-push-notification}
 
@@ -45,7 +44,9 @@ Adobe Campaign では、プッシュ通知のデザイン中に一連の詳細�
 
    ![](assets/push_notif_advanced_7.png)
 
-1. サウンドファイルがモバイルアプリケーションのパッケージに定義されている場合は、そのファイルが通知の配信時に再生されます。それ以外の場合は、デバイスのデフォルトのサウンドが再生されます。
+1. サウンドファイルがモバイルアプリケーションのパッケージに定義されている場合は、そのファイルが通知の配信時に再生されます。**default**&#x200B;に設定すると、デバイスのデフォルトサウンドを再生できます。
+
+   **[!UICONTROL Play a sound]**&#x200B;フィールドが空の場合、サウンドは再生されません。
 
 プッシュ通知とサウンドは、電話がミュートされていない場合にのみ受信されます。
 
@@ -114,7 +115,7 @@ Adobe Campaign では、プッシュ通知のデザイン中に一連の詳細�
 
 プッシュ通知に有効期限を追加するには、次の手順に従います。
 
-1. **[!UICONTROL Expire message]**&#x200B;オプションを確認します。**[!UICONTROL Expire message]**&#x200B;オプションを選択すると、期間が自動的に0に設定されます。 値を変更しない場合、APNS も FCM もメッセージの送信を直ちに試みます。失敗した場合、メッセージは再送信されません。
+1. **[!UICONTROL Expire message]**&#x200B;オプションを選択します。「**[!UICONTROL Expire message]**」オプションを選択すると、期間が自動的に0に設定されます。 値を変更しない場合、APNS も FCM もメッセージの送信を直ちに試みます。失敗した場合、メッセージは再送信されません。
 
 1. 「**[!UICONTROL Duration]**」フィールドで、プッシュ通知の有効期限を選択します。
 
