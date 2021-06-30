@@ -9,9 +9,9 @@ role: Business Practitioner
 level: Beginner
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
 source-git-commit: c0362e6b440f19dcbce965910d9594a1bc3991ae
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '241'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 90%
 
 ## 新着情報
 
-* **[Apple Mailのプライバシー保護に関するFAQ iOS 15に関するAppleの発表に対する](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/technotes/apple-mail-privacy-faq.html)**<br/> 最初のガイダンスを確認します。
+* **[Apple のメールプライバシー保護に関する FAQ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/technotes/apple-mail-privacy-faq.html?lang=ja)**<br/> iOS 15 に関する Apple の発表に対応した最初のガイダンスを確認します。
 
-* **[Campaign - RTCDP 間の連携](integrating/using/get-started-sources-destinations.md)**<br/>Campaign と Real-time Customer Data Platform（RTCDP）間でデータを共有する方法を説明します。
+* **[Campaign - RTCDP の統合](integrating/using/get-started-sources-destinations.md)**<br/>Campaign と Real-time Customer Data Platform（RTCDP）間でデータを共有する方法を説明します。
 
 * **[コントロール母集団](sending/using/control-group.md)**<br/>オーディエンスの一部を除外して、キャンペーンの影響を測定します
 
