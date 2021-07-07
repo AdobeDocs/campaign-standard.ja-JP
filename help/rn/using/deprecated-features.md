@@ -10,10 +10,10 @@ feature: 概要
 role: Business Practitioner
 level: Beginner
 exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
-source-git-commit: a68adf4de790e30ab9dd1f79e5daeb7feb45c83b
+source-git-commit: e86cc930f9b6b3f3990f3b16b3d8fd2d19e126b7
 workflow-type: tm+mt
-source-wordcount: '728'
-ht-degree: 80%
+source-wordcount: '773'
+ht-degree: 76%
 
 ---
 
@@ -32,13 +32,29 @@ Campaign Standard 機能の差し迫った削除／置換を伝達するため�
 >Adobe Campaign Standard のリリースと新機能は、[リリースノート](../../rn/using/release-notes.md)に一覧表示されています。
 
 
-## 廃止された機能 {#deprecated-features}
+## 非推奨（廃止予定）の機能 {#deprecated-features}
 
 この節では、最新の Campaign Standard リリースで非推奨とマークされている機能が記載されています。
 
 一般に、将来のリリースで削除される予定の機能は、まず非推奨に設定され、代わりの機能も提供されます。これらの機能は、新しい Campaign Standard の顧客は利用できなくなるか、新しい実装には使用するべきではないものです。また、製品ドキュメントからも削除されます。
 
 顧客は現在のデプロイメントで機能を利用しているかどうかを確認し、提供される代替機能を使用するように実装を変更する計画を立てるようお勧めします。ターゲットの削除バージョンを参照し、それに応じて環境やプロジェクトの更新を計画してください。
+
+<table> 
+ <thead> 
+  <tr> 
+   <th> <strong>Experience Cloudアセットの統合</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p> 2021年7月以降、Assetsは従来のコアサービスになり、維持されます。 <a href="https://experienceleague.adobe.com/docs/core-services/interface/services/assets/experience-cloud-assets.html?lang=en">詳細情報</a>。</p>
+   <p>新しい実装の場合、Adobe Campaign StandardとExperience Cloudアセットを統合できなくなりました。</p>
+     <em>削除予定：2022 年</em></p>
+     </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 <table> 
  <thead> 
@@ -118,7 +134,7 @@ Campaign Standard 機能の差し迫った削除／置換を伝達するため�
  <tbody> 
   <tr> 
    <td> <p> 2021年4月以降、予測件名行機能は廃止されます。</p><br/>
-   <p>AIを利用したEメール機能を活用して、過去のエンゲージメント指標に基づいて、開封率、最適な送信時間、および予想される解約を分析し、予測することをお勧めします。 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html">詳細情報</a></p></br>
+   <p>AIを利用したEメール機能を活用して、過去のエンゲージメント指標に基づいて、開封率、最適な送信時間、および予想される解約を分析し、予測することをお勧めします。 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html">詳細</a></p></br>
      </td> 
   </tr> 
   </tbody> 
