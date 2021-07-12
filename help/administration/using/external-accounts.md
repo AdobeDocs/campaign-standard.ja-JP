@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: application-settings
 context-tags: extAccount,main;extAccount,overview
 feature: インスタンス設定
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 747e82ff-d3e6-4945-8f29-80e4a190c96f
-source-git-commit: 0080adf32cb011535004391e7468012a07b59a9f
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '1774'
 ht-degree: 84%
@@ -92,7 +92,7 @@ SFTP サーバーは、コントロールパネルから管理できます。詳
 >
 >コントロールパネルは、すべての管理者ユーザーがアクセスできます。 ユーザーに管理者アクセス権を付与する手順については、[このページ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ja#discover-control-panel)で詳しく説明しています。
 
-## OAuth 2.0アカウント{#oauth-account}
+## OAuth 2.0アカウント {#oauth-account}
 
 OAuth 2.0外部アカウントの場合は、次の詳細を指定します。
 
