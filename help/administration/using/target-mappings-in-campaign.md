@@ -1,27 +1,26 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Campaign での Target マッピング
-description: ターゲットマッピングとは、キャンペーンがメッセージを配信する際に使用する技術的なオブジェクトです。 配信の送信に必要な技術的な設定がすべて含まれます。
+title: Campaign でのターゲットマッピング
+description: ターゲットマッピングは、メッセージを配信するためにキャンペーンで使用されるテクニカルオブジェクトです。 配信の送信に必要なすべての技術設定が含まれています。
 audience: administration
 content-type: reference
 topic-tags: application-settings
-feature: Instance Settings
-role: Administrator
+feature: インスタンス設定
+role: Admin
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: d5e5cfa8-03f0-47be-9645-b9ee6ac4643c
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 17%
+source-wordcount: '103'
+ht-degree: 16%
 
 ---
 
+# Campaign でのターゲットマッピング{#target-mappings-in-campaign}
 
-# Campaign での Target マッピング{#target-mappings-in-campaign}
+ターゲットマッピングは、メッセージを配信するためにキャンペーンで使用されるテクニカルオブジェクトです。 配信の送信に必要なすべての技術的設定（アドレス、電話番号、オプトイン指標、追加の識別子など）が含まれています。
 
-ターゲットマッピングとは、キャンペーンがメッセージを配信する際に使用する技術的なオブジェクトです。 配信の送信に必要な技術的な設定（住所、電話番号、オプトインインジケーター、追加の識別子など）がすべて含まれます。
+管理者は&#x200B;**[!UICONTROL Administration > Application settings > Target mappings]**&#x200B;メニューからターゲットマッピングにアクセスできます。
 
-管理者は、**[!UICONTROL Administration > Application settings > Target mappings]**&#x200B;メニューからターゲットマッピングにアクセスできます。
-
-ターゲットマッピングの作成や変更は、特定のニーズに対応するために可能です。 いずれの場合にも、ターゲティングディメンションは常にプロファイル（**[!UICONTROL nms:recipient]**&#x200B;テーブル）に対応する必要があります。 ターゲティングディメンションについて詳しくは、[このページ](../../automating/using/query.md#targeting-dimensions-and-resources)を参照してください。
+特定のニーズに対応するために、ターゲットマッピングの作成または変更が可能です。 いずれの場合も、ターゲティングディメンションは常にプロファイル（**[!UICONTROL nms:recipient]**&#x200B;テーブル）に対応している必要があります。 ターゲティングディメンションについて詳しくは、[このページ](../../automating/using/query.md#targeting-dimensions-and-resources)を参照してください。
