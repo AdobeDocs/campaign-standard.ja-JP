@@ -7,17 +7,16 @@ audience: administration
 content-type: reference
 topic-tags: users-and-security
 context-tags: role,overview;role,main
-feature: Access Management
-role: Administrator
+feature: アクセス管理
+role: Admin
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 00714c80-bdaf-4241-bf2f-51498ca1dbef
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 84%
+source-wordcount: '237'
+ht-degree: 85%
 
 ---
-
 
 # 役割のリスト{#list-of-roles}
 
@@ -33,7 +32,7 @@ Adobe Campaign には、ユーザーやユーザーグループに割り当て�
 
    >[!NOTE]
    >
-   >Experience Cloudトリガーを扱う必要がある場合は、Experience Cloudトリガーメニューにアクセスするための&#x200B;**[!UICONTROL Administration]**&#x200B;権限が必要です。 Experience Cloudトリガーの詳細については、[ページ](../../integrating/using/about-adobe-experience-cloud-triggers.md)を参照してください。
+   >Experience Cloudトリガーを操作する必要がある場合は、「Experience Cloudトリガー」メニューにアクセスするための&#x200B;**[!UICONTROL Administration]**&#x200B;権限が必要です。 Experience Cloudトリガーの詳細については、[ページ](../../integrating/using/about-adobe-experience-cloud-triggers.md)を参照してください。
 
 * **[!UICONTROL Datamodel]**：パブリケーションの実行とカスタムリソースの作成をおこなう権限
 * **[!UICONTROL Generic import]**：データに対する一般的なインポートを実行する権限。この権限を有効にするには、「**[!UICONTROL Generic import]**」の役割を「**[!UICONTROL Workflow]**」の役割にリンクする必要があります。
