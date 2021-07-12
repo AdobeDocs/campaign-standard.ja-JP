@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: marketing-plans
 context-tags: activity,overview
 feature: キャンペーン
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: c75471aa-b947-4488-a569-5412d3825c64
-source-git-commit: 6ca6fabc42f63791f4c2b0f1d2d6bd8ea5e27f7a
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 83%
@@ -24,7 +24,7 @@ ht-degree: 83%
 
 マーケティングアクティビティは、そのユーザーが属するプログラムやキャンペーンから、またはマーケティングアクティビティのリストを介して作成および管理できます。
 
-マーケティングアクティビティリストを使用すると、アクティビティが作成されたプログラムやキャンペーンが何であっても、すべてのアクティビティを一元化できます。そのため、プログラム、キャンペーン、配信（E メール、SMS メッセージ、プッシュ通知）、ランディングページ、ワークフローは、特定の階層順に編成されるわけではありません。
+マーケティングアクティビティリストを使用すると、アクティビティの作成に使用されたプログラムやキャンペーンを問わず、すべてのアクティビティを一元化できます。そのため、プログラム、キャンペーン、配信（E メール、SMS メッセージ、プッシュ通知）、ランディングページ、ワークフローは、特定の階層順に編成されるわけではありません。
 
 マーケティングアクティビティリストにアクセスするには、上部バーから「**[!UICONTROL Marketing activities]**」リンクを選択します。
 
@@ -38,7 +38,7 @@ ht-degree: 83%
 
 各アクティビティのコンテンツに直接アクセスするには、リストから要素の 1 つを選択します。
 
-「**[!UICONTROL Create]**」ボタンを使用して、アクティビティを新規作成できます。詳しくは、[マーケティングアクティビティの作成](#creating-a-marketing-activity)の節を参照してください。
+「**[!UICONTROL Create]**」ボタンを使用すると、アクティビティを新規作成できます。詳しくは、[マーケティングアクティビティの作成](#creating-a-marketing-activity)の節を参照してください。
 
 ## マーケティングアクティビティのアイコンとステータス {#marketing-activity-icons-and-statuses}
 
@@ -46,7 +46,7 @@ ht-degree: 83%
 
 * ![](assets/marketing_program_icon.png) プログラム
 * ![](assets/marketing_campaign_icon.png) キャンペーン
-* ![](assets/marketing_email_icon.png) E メール
+* ![](assets/marketing_email_icon.png) メール
 * ![](assets/marketing_sms_icon.png) SMS
 * ![](assets/marketing_push_icon.png) プッシュ通知
 * ![](assets/marketing_lp_icon.png) アプリ内メッセージ
@@ -55,11 +55,11 @@ ht-degree: 83%
 
 有効期間とステータスに応じて、このアイコンに関連付けられる色が、対応するアクティビティの実行ステータスを示します。
 
-* グレー：アクティビティはまだ開始されていません - **[!UICONTROL Editing]**&#x200B;ステータス。
-* 青：アクティビティが進行中です - **[!UICONTROL In progress]**&#x200B;ステータス。
-* 緑：アクティビティが完了しました - **[!UICONTROL Finished]**&#x200B;ステータス。
-* 黄：アクティビティが警告を受け取りました - **[!UICONTROL Warning]**&#x200B;ステータス。
-* 赤：エラーが発生しました - **[!UICONTROL Erroneous]**&#x200B;ステータス。
+* グレー：アクティビティはまだ開始されていません（**[!UICONTROL Editing]** ステータス）。
+* 青：アクティビティが進行中です（**[!UICONTROL In progress]** ステータス）。
+* 緑：アクティビティが完了しました（**[!UICONTROL Finished]** ステータス）。
+* 黄：アクティビティが警告を受け取りました（**[!UICONTROL Warning]** ステータス）。
+* 赤：エラーが発生しました（**[!UICONTROL Erroneous]** ステータス）。
 
 ## マーケティングアクティビティの作成 {#creating-a-marketing-activity}
 
@@ -69,7 +69,7 @@ ht-degree: 83%
 
 >[!NOTE]
 >
->キャンペーン内に直接ワークフローを作成することを検討してください。ワークフロー内にワークフローを作成した場合、後でプログラムをキャンペーンに移動することはできません。
+>ワークフローは、キャンペーン内に直接作成することを検討してください。ワークフロー内にワークフローを作成した場合、後でプログラムをキャンペーンに移動することはできません。
 
 プログラムとキャンペーンについては、[プログラムとキャンペーン](../../start/using/programs-and-campaigns.md)の節を参照してください。
 
@@ -83,15 +83,15 @@ ht-degree: 83%
 
 コンテキストに応じて、以下をおこなうことができます。
 
-* 電子メールの作成 — [詳細情報](../../channels/using/creating-an-email.md)
+* Eメールの作成 — [詳細](../../channels/using/creating-an-email.md)
 * SMSの作成 — [詳細](../../channels/using/creating-an-sms-message.md)
-* プッシュ通知の作成 — [詳細情報](../../channels/using/preparing-and-sending-a-push-notification.md)
-* アプリ内メッセージの作成 — [詳細情報](../../channels/using/about-in-app-messaging.md)
-* ワークフローの作成 — [詳細情報](../../automating/using/building-a-workflow.md#creating-a-workflow)
-* ランディングページの作成 — [詳細情報](../../channels/using/getting-started-with-landing-pages.md)
-* キャンペーンの作成 — [詳細情報](../../start/using/programs-and-campaigns.md#creating-a-campaign)
-* プログラムの作成 — [詳細情報](../../start/using/programs-and-campaigns.md#creating-a-program)
+* プッシュ通知の作成 — [詳細](../../channels/using/preparing-and-sending-a-push-notification.md)
+* アプリ内メッセージの作成 — [詳細](../../channels/using/about-in-app-messaging.md)
+* ワークフローの作成 — [詳細](../../automating/using/building-a-workflow.md#creating-a-workflow)
+* ランディングページの作成 — [詳細](../../channels/using/getting-started-with-landing-pages.md)
+* キャンペーンの作成 — [詳細](../../start/using/programs-and-campaigns.md#creating-a-campaign)
+* プログラムの作成 — [詳細](../../start/using/programs-and-campaigns.md#creating-a-program)
 
 >[!NOTE]
 >
->また、マーケティングアクティビティリストからマーケティングアクティビティを作成することもできます。この場合、任意のタイプのアクティビティを作成し、アクティビティのプロパティを介してマーケティングアクティビティを親キャンペーン(プログラムを作成する場合は親プログラム)にリンクさせることができます。
+>また、マーケティングアクティビティリストからマーケティングアクティビティを作成することもできます。この場合、任意のタイプのアクティビティを作成し、アクティビティのプロパティを使用して、マーケティングアクティビティを親キャンペーン（またはプログラムを作成した場合は親プログラム）にリンクさせます。
