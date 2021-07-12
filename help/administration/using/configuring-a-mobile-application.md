@@ -7,10 +7,10 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 feature: インスタンス設定
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: 0080adf32cb011535004391e7468012a07b59a9f
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '1281'
 ht-degree: 7%
@@ -19,7 +19,7 @@ ht-degree: 7%
 
 # モバイルアプリケーションの設定{#configuring-a-mobile-application}
 
-## Adobe Experience Platform SDKを使用したモバイルアプリケーションの設定{#using-adobe-experience-platform-sdk}
+## Adobe Experience Platform SDKを使用したモバイルアプリケーションの設定 {#using-adobe-experience-platform-sdk}
 
 >[!IMPORTANT]
 >
@@ -65,7 +65,7 @@ Adobe Experience Platform SDKを使用してAdobe Campaign Standardでサポー�
 1. 必要に応じて、Experience Platform Launchプロパティを削除できます。
 詳しくは、[Experience Platform Launchアプリケーションの削除](../../administration/using/configuring-a-mobile-application.md#delete-app)を参照してください。
 
-## LaunchテクニカルワークフローからのモバイルアプリAEPSDKの同期{#aepsdk-workflow}
+## LaunchからのモバイルアプリAEPSDKの同期テクニカルワークフロー {#aepsdk-workflow}
 
 モバイルプロパティを作成してExperience Platform Launchで設定した後、**[!UICONTROL Sync Mobile app AEPSDK from Launch]**&#x200B;テクニカルワークフローは、Adobe Campaign Standardで読み込まれたAdobeLaunchモバイルプロパティを同期するようになりました。
 
@@ -84,7 +84,7 @@ Adobe Experience Platform SDKを使用してAdobe Campaign Standardでサポー�
 
 これで、ワークフローが再起動し、Adobe Campaign Standardで読み込まれたAdobeLaunchモバイルプロパティが同期されます。
 
-## Adobe Campaign {#set-up-campaign}でのAdobe Experience Platform Launchアプリケーションの設定
+## Adobe CampaignでのAdobe Experience Platform Launchアプリケーションの設定 {#set-up-campaign}
 
 CampaignでExperience Platform Launchモバイルプロパティを使用するには、Adobe Campaignでもこのプロパティを設定する必要があります。 Adobe Campaignで、IMSユーザーがStandard UserおよびAdministrator製品プロファイルに含まれていることを確認します。
 
@@ -129,7 +129,7 @@ LaunchからのモバイルアプリAEPSDKの同期テクニカルワークフ�
 
    詳しくは、[公開設定](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#publish-configuration)を参照してください。
 
-## Adobe Campaign {#channel-specific-config}でのチャネル固有のアプリケーション設定
+## Adobe Campaignでのチャネル固有のアプリケーション設定 {#channel-specific-config}
 
 これで、モバイルアプリケーションをCampaignでプッシュ通知またはアプリ内配信に使用する準備が整いました。 必要に応じて、アプリ内メッセージをトリガーするイベントを作成したり、プッシュ証明書をアップロードしたりするために、さらに詳細な設定をおこなうことができます。
 
@@ -163,7 +163,7 @@ LaunchからのモバイルアプリAEPSDKの同期テクニカルワークフ�
 
 1. 「 **[!UICONTROL Mobile application subscribers]** 」タブをクリックして、購読者のリストと、その購読者に関するその他の情報（例えば、通知をオプトアウトしたかどうか）を表示します。
 
-## Adobe Experience Platform Launchアプリケーション{#delete-app}の削除
+## Adobe Experience Platform Launchアプリケーションの削除 {#delete-app}
 
 Experience Platform Launchアプリの削除を元に戻すことはできません。
 
