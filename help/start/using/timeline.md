@@ -7,17 +7,16 @@ audience: start
 content-type: reference
 topic-tags: marketing-plans
 context-tags: campaignCalendar,main
-feature: Campaigns
-role: Business Practitioner
+feature: キャンペーン
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: d012e2e7-8022-4bfe-8290-3c512b60d9cf
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '373'
 ht-degree: 91%
 
 ---
-
 
 # タイムライン{#timeline}
 
@@ -27,16 +26,16 @@ ht-degree: 91%
 
 デフォルトの場合、タイムラインには単にプログラムの詳細が表示され、定義された開始日から終了日までの間の時系列が示されます。
 
-各プログラムは、それぞれ対応するサムネールとラベルが入ったボックスで表されます。表示する画面のサイズと要素の数に応じて、ラベルはプログラム ID に置き換えることができます。
+各プログラムは、それぞれ対応するサムネールとラベルがが表示されたボックスで表されます。表示する画面のサイズと要素の数に応じて、このラベルをプログラム ID に変更することも可能です。
 
 ![](assets/timeline_1.png)
 
-青い縦線は、現在の日付をハイライト表示する時系列マーカーです。デフォルトでは、画面の中央に置かれます。画面上で左右にスクロールすると、表示期間を変更することができます。
+青い縦線は、現在の日付を示す時系列マーカーです。デフォルトでは、画面の中央に置かれます。画面上で左右にスクロールすると、表示期間を変更することができます。
 
-アイコンは次の目的に使用します。
+アイコンを使用して、次の操作を行います。
 
-* ![](assets/timeline_zoom_in.png) 日が表示されるまで、枠を狭くするか、より限定的な期間の詳細レベルを高くします。
-* ![](assets/timeline_zoom_out.png) 周長を長くするか、より大きな時間枠を表示する
+* ![](assets/timeline_zoom_in.png) 日が表示されるまで、境界を狭めるか、より限られた期間詳細レベルを上げる
+* ![](assets/timeline_zoom_out.png) 周長を増やす、またはより大きな期間を表示する
 
 各プログラム名の右にある矢印をクリックして、対応するコンテンツを表示します。プログラムには、サブプログラム、キャンペーン、ランディングページを含めることができます。キャンペーンは、プログラムと同じ方法でデプロイされ、内部に E メール、SMS、ランディングページを組み込むことができます。
 
@@ -53,7 +52,7 @@ ht-degree: 91%
 * ![](assets/timeline_program_icon.png) プログラム
 * ![](assets/timeline_campaign_icon.png) キャンペーン
 * ![](assets/timeline_lp_icon.png) ランディングページ
-* ![](assets/timeline_email_icon.png) 電子メール
+* ![](assets/timeline_email_icon.png) メール
 * ![](assets/timeline_sms_icon.png) SMS
 * ![](assets/timeline_push_icon.png) プッシュ通知
 
@@ -63,7 +62,7 @@ ht-degree: 91%
 * 要素が進行中の場合、線は青色で表示されます。
 * 要素が完了すると、線が緑色に変わります。
 
-プログラム、または表示されたその他の要素をクリックすると、対応するカードが表示されます。次に、カードをクリックして、選択された要素のコンテンツに直接移動し、変更します。
+プログラム、または表示されたその他の要素をクリックすると、対応するカードが表示されます。次にそのカードをクリックすると、選択された要素のコンテンツに直接アクセスし、変更することができます。
 
 ![](assets/timeline_3.png)
 
