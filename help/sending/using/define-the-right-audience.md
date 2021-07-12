@@ -6,18 +6,17 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
-description: 「コンテンツの準備が整ったら、メッセージを受信するユーザーを慎重に定義する方法を学びます。」
-feature: Deliverability
-role: Business Practitioner
+description: 「コンテンツの準備が整ったら、メッセージの受信者を慎重に定義する方法を学びます。」
+feature: 配信品質
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 1e06fd9d-e850-4856-8f7b-b581dbe157df
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '517'
 ht-degree: 75%
 
 ---
-
 
 # 適切なオーディエンスの定義 {#define-the-right-audience}
 
@@ -33,7 +32,7 @@ ht-degree: 75%
 
 ## ターゲットマッピング {#target-mappings}
 
-デフォルトでは、配信テンプレートターゲット&#x200B;**プロファイル**&#x200B;です。 Adobe Campaign では、必要に応じて、これ以外のターゲットマッピングも配信に使用できます。
+デフォルトでは、配信テンプレートのターゲットは&#x200B;**プロファイル**&#x200B;です。 Adobe Campaign では、必要に応じて、これ以外のターゲットマッピングも配信に使用できます。
 
 これらのマッピングについては、[この節](../../automating/using/query.md#targeting-dimensions-and-resources)を参照してください。
 
@@ -41,21 +40,21 @@ ht-degree: 75%
 
 ## 外部データ {#external-data}
 
-データベースに保存されている受信者ではなく、外部ファイルに保存されている受信者に配信できます。これを行うには、ワークフローを設計し、ファイルからデータベースにデータを読み込み、関連オーディエンスを作成します。  詳しくは、[この使用例](../../automating/using/use-case-calling-workflow.md)を参照してください。[パラメーター](../../automating/using/calling-a-workflow-with-external-parameters.md)を使用したワークフローの呼び出しも参照してください。
+データベースに保存されている受信者ではなく、外部ファイルに保存されている受信者に配信できます。これをおこなうには、ワークフローをデザインし、ファイルからデータベースにデータを読み込み、関連するオーディエンスを作成します。  詳しくは、[この使用例](../../automating/using/use-case-calling-workflow.md)を参照してください。[パラメーター](../../automating/using/calling-a-workflow-with-external-parameters.md)を使用したワークフローの呼び出しも参照してください。
 
-## 購読者への送信{#send-to-subscribers}
+## 購読者への送信 {#send-to-subscribers}
 
 ニュースレターの購読者にメッセージを送信するには、対応する情報サービスの購読者を直接ターゲットにできます。詳しくは、[この節](../../audiences/using/about-subscriptions.md)を参照してください。
 
-**ヒント** -リストを購読するユーザーをワークフローを使用してターゲットするニュースレターオーディエンスを作成できます。その後、配信でこのオーディエンスを選択できます。 詳しくは、[リストオーディエンスの作成](../../audiences/using/creating-audiences.md#creating-list-audiences)を参照してください。
+**ヒント**  — ワークフローを使用して、ニュースレターの購読者をターゲットにするリストオーディエンスを作成できます。その後、配信でこのオーディエンスを選択できます。 詳しくは、[リストオーディエンスの作成](../../audiences/using/creating-audiences.md#creating-list-audiences)を参照してください。
 
-## 配達確認、テストプロファイル、コントロール母集団{#proofs-test-control-groups}
+## 配達確認、テストプロファイルおよびコントロール母集団 {#proofs-test-control-groups}
 
-配信をテストするには、メインターゲットに送信する前に配達確認を使用します。配達確認の受信者には適切な人を選択してください。配達確認の受信者は、メッセージのフォームとコンテンツを検証する必要があります。配達確認を送信する手順は、この節](../../sending/using/sending-proofs.md)に[示します。
+配信をテストするには、メインターゲットに送信する前に配達確認を使用します。配達確認の受信者には適切な人を選択してください。配達確認の受信者は、メッセージのフォームとコンテンツを検証する必要があります。配達確認を送信する手順は、この節](../../sending/using/sending-proofs.md)で[説明します。
 
 テストプロファイル[について詳しくは、この節](../../audiences/using/managing-test-profiles.md)を参照してください。
 
-[コントロール母集団](../../sending/using/control-group.md)を使用すると、オーディエンスの一部を除外して、キャンペーンの影響を測定できます。 その後、メッセージを受け取ったターゲット母集団の行動と、ターゲット設定されていない連絡先の行動を比較できます。送信ログに基づいて、今後のキャンペーンでコントロール母集団をターゲットすることもできます。
+[コントロール母集団](../../sending/using/control-group.md)を使用して、キャンペーンのオーディエンスの一部を除外することで、キャンペーンの影響を測定できます。 その後、メッセージを受け取ったターゲット母集団の行動と、ターゲット設定されていない連絡先の行動を比較できます。送信ログに基づいて、今後のキャンペーンでコントロール母集団をターゲットすることもできます。
 
 ## 重複したアドレス {#deduplicate-addresses}
 
