@@ -1,18 +1,18 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: リリースノート2018
+title: リリースノート 2018
 description: このページでは、Adobe Campaign Standard の 2018 年の全リリースを紹介します。
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 feature: 概要
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
-source-git-commit: df86191b2941a6121a52b2255e19f8b623b64be6
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '5402'
+source-wordcount: '5401'
 ht-degree: 7%
 
 ---
@@ -263,7 +263,7 @@ Adobe Campaign Standardの最新のドキュメントの更新[を参照して�
 * クリエイティブデザイナーの読み込みを妨げる可能性がある問題を修正しました。 （CAMP-24573）
 * Eメールの件名のパーソナライゼーションフィールドの後に追加された文字が削除される問題を修正しました。 （CAMP-24113）
 
-## リリース 18.4 - 2018 年 4 月{#release-18-4---april-2018}
+## リリース 18.4 - 2018 年 4 月 {#release-18-4---april-2018}
 
 **パッチ**
 
@@ -311,7 +311,7 @@ _カスタムリソース_
   </tr> 
   <tr> 
    <td> Eメール用Creative Designer（ベータ版）<br /> </td> 
-   <td> Adobe Campaignの新しいCreative Designerは、Campaignで完全に統合された作成エクスペリエンスを提供し、1行のコードを記述することなく、個々にパーソナライズされた魅力的なEメールを、すばやく簡単に視覚的に作成できます。 Creative Designerは、強力なドラッグ&amp;ドロップインターフェイスを通じて、ユーザーが空白のスレートから開始したり、既存のコンテンツフラグメントやテンプレートを利用したりして、Eメール作成を拡大/縮小できます。 <br /> 主な機能は次のとおりです。<br /> 
+   <td> Adobe Campaignの新しいCreative Designerは、Campaignで完全に統合された作成エクスペリエンスを提供し、1行のコードを記述することなく、個々にパーソナライズされた魅力的なEメールを、すばやく簡単に視覚的に作成できます。 Creative Designerは、強力なドラッグ&amp;ドロップインターフェイスを通じて、ユーザーが空白のスレートから始めたり、既存のコンテンツフラグメントやテンプレートを利用したりしても、Eメール作成を拡大/縮小できます。 <br /> 主な機能は次のとおりです。<br /> 
     <ul> 
      <li> ネイティブの統合によって拡張された、ドラッグ&amp;ドロップインターフェイスを通じて、完全にパーソナライズされたレスポンシブなEメールを視覚的にデザインし、作成します。 </li> 
      <li> Eメールコンテンツテンプレートの作成と保存、および保存済みのテンプレートの活用により、Eメール作成のスケールを容易にする </li> 
