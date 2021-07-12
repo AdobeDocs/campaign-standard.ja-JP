@@ -7,17 +7,16 @@ content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: Adobe Campaign を使用した配信のデザインと送信に関するベストプラクティスについて説明します。
-feature: Deliverability
-role: Business Practitioner
+feature: 配信品質
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
+exl-id: ba080b64-9106-4d5b-958b-3c5e738cb42a
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 49%
+source-wordcount: '96'
+ht-degree: 47%
 
 ---
-
 
 # 配信のベストプラクティス {#delivery-best-practices}
 
@@ -29,28 +28,28 @@ Adobe Campaign を使用した配信のデザインと送信に関するベス�
 
 <img src="assets/do-not-localize/design.svg"  width="60px">
 
-**[テンプレートの使用](use-templates.md)**  — 新しい配信を容易に、迅速に実行
+**[テンプレートの使用](use-templates.md)**  — 新しい配信を促進および高速化します。
 
 <img src="assets/do-not-localize/custom.svg"  width="60px">
 
-**[コンテンツのパーソナライズ](design-and-personalize.md)**  — 正しい設定の適用
+**[コンテンツのパーソナライズ](design-and-personalize.md)**  — 正しい設定を適用します
 
 <img src="assets/do-not-localize/profiles.svg"  width="60px">
 
-**[適切なオーディエンスの定義](define-the-right-audience.md)**  — 正しい設定の適用
+**[適切なオーディエンスの定義](define-the-right-audience.md)**  — 正しい設定を適用します
 
 <img src="assets/do-not-localize/start.svg"  width="60px">
 
-**[送信前に確認](check-before-sending.md)**  — 一般的なエラーの回避
+**[送信前の確認](check-before-sending.md)**  — 一般的なエラーの回避
 
 <img src="assets/do-not-localize/troubleshoot.svg"  width="60px">
 
-**[追跡と監視](track-and-monitor.md)**  — 送信とトラブルシューティングの制御
+**[追跡と監視](track-and-monitor.md)**  — 送信とトラブルシューティングを制御します。
 
-## 関連コンテンツ
+## 関連するコンテンツ
 
-* [配信品質を使い始める](../../sending/using/about-deliverability.md)
+* [配信品質の概要](../../sending/using/about-deliverability.md)
 
 * [メッセージの基本を学ぶ](../../channels/using/get-started-communication-channels.md)
 
-* [プライバシーと同意の推奨事項](../../start/using/privacy.md)
+* [プライバシーと同意に関する推奨事項](../../start/using/privacy.md)
