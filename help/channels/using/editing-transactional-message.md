@@ -2,38 +2,37 @@
 solution: Campaign Standard
 product: campaign
 title: トランザクションメッセージの編集
-description: トランザクションメッセージにアクセス、編集、パーソナライズする方法を説明します。
+description: トランザクションメッセージにアクセスし、編集し、パーソナライズする方法を説明します。
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: Transactional Messaging
-role: Business Practitioner
+feature: トランザクションメッセージ
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: f5dcb715-7cbd-49f2-8713-7e16cfa04184
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '655'
 ht-degree: 30%
 
 ---
-
 
 # トランザクションメッセージの編集 {#editing-transactional-message}
 
 イベント<!--(the cart abandonment example as explained in [this section](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle))-->を作成して公開すると、対応するトランザクションメッセージが自動的に作成されます。
 
-イベントを設定および公開する手順は、「[トランザクションイベントの設定](../../channels/using/configuring-transactional-event.md)」および「[トランザクションイベントの公開](../../channels/using/publishing-transactional-event.md)」に記載されています。
+イベントを設定して公開する手順は、[トランザクションイベントの設定](../../channels/using/configuring-transactional-event.md)および[トランザクションイベントの公開](../../channels/using/publishing-transactional-event.md)の節に記載されています。
 
-このメッセージにアクセス、編集、パーソナライズする手順を以下に説明します。
+このメッセージにアクセスし、編集し、パーソナライズする手順を以下に示します。
 
 >[!IMPORTANT]
 >
->[管理](../../administration/using/users-management.md#functional-administrators)ロールを持つユーザーのみが、トランザクションメッセージにアクセスして編集できます。
+>トランザクションメッセージにアクセスして編集できるのは、[管理](../../administration/using/users-management.md#functional-administrators)の役割を持つユーザーのみです。
 
-メッセージの準備が整ったら、テストおよび発行が可能です。 [トランザクションメッセージ](../../channels/using/testing-transactional-message.md)と[トランザクションメッセージライフサイクル](../../channels/using/publishing-transactional-message.md)のテストを参照してください。
+メッセージの準備が整ったら、テストおよび公開できます。 [トランザクションメッセージ](../../channels/using/testing-transactional-message.md)および[トランザクションメッセージのライフサイクル](../../channels/using/publishing-transactional-message.md)のテストを参照してください。
 
-## トランザクションメッセージへのアクセス{#accessing-transactional-messages}
+## トランザクションメッセージへのアクセス {#accessing-transactional-messages}
 
 作成したトランザクションメッセージにアクセスするには：
 
@@ -42,25 +41,25 @@ ht-degree: 30%
 
    ![](assets/message-center_4.png)
 
-1. 編集するには、選択したメッセージをクリックします。
+1. 任意のメッセージをクリックして編集します。
 
    ![](assets/message-center_message-board.png)
 
-また、対応するイベント設定画面の左側の領域にあるリンクからトランザクションメッセージに直接アクセスすることもできます。 [イベントのプレビューと公開](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)を参照
+また、対応するイベント設定画面の左側の領域にあるリンクを使用して、トランザクションメッセージに直接アクセスすることもできます。 [イベントのプレビューと公開](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)を参照してください。
 
-## トランザクションメッセージのパーソナライズ機能{#personalizing-a-transactional-message}
+## トランザクションメッセージのパーソナライズ機能 {#personalizing-a-transactional-message}
 
-トランザクションメッセージを編集してパーソナライズするには、次の手順に従います。
+トランザクションメッセージを編集およびパーソナライズするには、次の手順に従います。
 
 >[!NOTE]
 >
->この節では、**イベントベースの**&#x200B;トランザクションメッセージを編集する方法を説明します。 **プロファイルベースの**&#x200B;トランザクションメッセージの特殊性は、[](#profile-transactional-message-specificities)の下に詳細に記載されています。
+>この節では、**イベントベースの**&#x200B;トランザクションメッセージを編集する方法について説明します。 **プロファイルベースの**&#x200B;トランザクションメッセージ特有の特性については、[](#profile-transactional-message-specificities)の下で詳しく説明します。
 >
->イベントベースのトランザクションメッセージを作成するための設定手順は、[このセクション](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages)に記載されています。
+>イベントベースのトランザクションメッセージを作成するための設定手順については、[この節](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages)を参照してください。
 
-例えば、製品を買い物かごに追加し、購入を経ることなくサイトを離れたWebサイトユーザーに通知を送信するとします。 この例は、[トランザクションメッセージングの動作原則](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle)の節に示されています。
+例えば、買い物かごに商品を追加し、購入を経ずにサイトを離れたWebサイトユーザーに通知を送信するとします。 この例は、[トランザクションメッセージの動作の仕組み](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle)の節に記載されています。
 
-1. 「**[!UICONTROL Content]**」ブロックをクリックして、メッセージの件名と内容を変更します。この例では、画像とテキストを含む任意のテンプレートを選択します。電子メールコンテンツテンプレートについて詳しくは、[テンプレートを使用した電子メールのデザイン](../../designing/using/using-reusable-content.md#designing-templates)を参照してください。
+1. 「**[!UICONTROL Content]**」ブロックをクリックして、メッセージの件名と内容を変更します。この例では、画像とテキストを含む任意のテンプレートを選択します。Eメールコンテンツテンプレートについて詳しくは、[テンプレートを使用したEメールのデザイン](../../designing/using/using-reusable-content.md#designing-templates)を参照してください。
 
    ![](assets/message-center_6.png)
 
@@ -76,7 +75,7 @@ ht-degree: 30%
 
    ![](assets/message-center_7.png)
 
-1. メッセージの内容を拡張することもできます。 これを行うには、イベント設定にリンクしたテーブルからフィールドを追加します(「[イベントの強化](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)」を参照)。 この例では、**[!UICONTROL Profile]**&#x200B;テーブルから&#x200B;**[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**&#x200B;までの&#x200B;**[!UICONTROL Title (salutation)]**&#x200B;フィールドを選択します。
+1. また、メッセージの内容をエンリッチメントすることもできます。 これをおこなうには、イベント設定にリンクしたテーブルからフィールドを追加します（[イベントのエンリッチメント](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)を参照）。 この例では、 **[!UICONTROL Profile]**&#x200B;テーブルから&#x200B;**[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**&#x200B;の順に&#x200B;**[!UICONTROL Title (salutation)]**&#x200B;フィールドを選択します。
 
    ![](assets/message-center_7-enrichment.png)
 
@@ -212,32 +211,32 @@ For more on creating a collection and related fields when configuring the event,
 
    For more on defining a test profile in a transactional message, see [this section](../../channels/using/testing-transactional-message.md#defining-specific-test-profile).-->
 
-## プロファイルベースのトランザクションメッセージの特殊性{#profile-transactional-message-specificities}
+## プロファイルベースのトランザクションメッセージ特有性 {#profile-transactional-message-specificities}
 
-顧客マーケティングプロファイルに基づいてトランザクションメッセージを送信できます。プロファイル情報をすべて活用して、メッセージコンテンツをパーソナライズし、購読解除リンクを使用して、[疲労ルール](../../sending/using/fatigue-rules.md)などのマーケティングタイポロジルールを適用できます。
+顧客マーケティングプロファイルに基づいてトランザクションメッセージを送信できます。これにより、すべてのプロファイル情報を活用して、メッセージコンテンツをパーソナライズし、購読解除リンクを使用して、[疲労ルール](../../sending/using/fatigue-rules.md)などのマーケティングタイポロジルールを適用できます。
 
-* イベントベースのトランザクションメッセージとプロファイルベースのの違いについて詳しくは、[このセクション](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types)を参照してください。
+* イベントベースのトランザクションメッセージとプロファイルベースのトランザクションメッセージの違いについて詳しくは、[この節](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types)を参照してください。
 
-* プロファイルベースのトランザクションメッセージを作成するための設定手順については、[このセクション](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages)で詳しく説明します。
+* プロファイルベースのトランザクションメッセージを作成するための設定手順について詳しくは、[この節](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages)を参照してください。
 
-プロファイルトランザクションメッセージの作成、編集および個人設定の手順は、ほとんどイベントトランザクションメッセージの場合と同じです。
+プロファイルトランザクションメッセージを作成、編集、パーソナライズする手順は、イベントトランザクションメッセージの場合とほとんど同じです。
 
 相違点を次に示します。
 
 1. [作成したトランザクションメッセージに移動して編集します。](#accessing-transactional-messages)
-1. トランザクションメッセージで、「**[!UICONTROL Content]**」セクションをクリックします。トランザクション電子メールテンプレートに加えて、**[!UICONTROL Profile]**&#x200B;リソースをターゲットとする任意の電子メールテンプレートを選択することもできます。
+1. トランザクションメッセージで、「**[!UICONTROL Content]**」セクションをクリックします。トランザクションEメールテンプレートに加えて、**[!UICONTROL Profile]**&#x200B;リソースをターゲットとする任意のEメールテンプレートを選択することもできます。
 
    ![](assets/message-center_marketing_templates.png)
 
-1. デフォルトの E メールテンプレートを選択します。すべてのマーケティング電子メールと同様、**購読解除リンク**&#x200B;が含まれます。
+1. デフォルトの E メールテンプレートを選択します。すべてのマーケティングEメールと同様に、**購読解除リンク**&#x200B;が含まれます。
 
    ![](assets/message-center_marketing_perso_unsubscription.png)
 
-   テンプレートの詳細については、[このセクション](../../designing/using/using-reusable-content.md#content-templates)を参照してください。
+   テンプレートについて詳しくは、[この節](../../designing/using/using-reusable-content.md#content-templates)を参照してください。
 
-1. また、リアルタイムイベントに基づく設定とは異なり、**すべてのプロファイル情報**&#x200B;に直接アクセスして、メッセージをパーソナライズできます。 他の標準的なマーケティング用電子メールと同様に、[パーソナライゼーションフィールド](../../designing/using/personalization.md#inserting-a-personalization-field)を追加できます。
+1. また、リアルタイムイベントに基づく設定とは異なり、**すべてのプロファイル情報**&#x200B;に直接アクセスしてメッセージをパーソナライズできます。 他の標準的なマーケティング電子メールと同様に、[パーソナライゼーションフィールド](../../designing/using/personalization.md#inserting-a-personalization-field)を追加できます。
 
-1. メッセージを発行する前に、変更を保存します。 詳しくは、[トランザクションメッセージの公開](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)を参照してください。
+1. メッセージを公開する前に変更を保存します。 詳しくは、[トランザクションメッセージの公開](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)を参照してください。
 
 <!--### Monitoring a profile transactional message delivery {#monitoring-a-profile-transactional-message-delivery}
 
