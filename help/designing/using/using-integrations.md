@@ -1,76 +1,75 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 'Adobe Campaign統合を通じた電子メールのデザイン '
-description: 電子メールデザイナーでAdobe Campaign統合を使用して電子メールをデザインする方法を確認します。
+title: 'Adobe Campaign統合を使用したEメールのデザイン '
+description: EメールデザイナーでAdobe Campaign統合を使用してEメールをデザインする方法を説明します。
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Email Design
-role: Business Practitioner
+feature: Eメールデザイン
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: d5c72f69-68a2-4523-956f-f265ae79b470
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '723'
 ht-degree: 8%
 
 ---
 
-
 # マルチソリューション電子メールデザイン {#multi-solution-email-design}
 
-Adobe Campaignオファーには、複数の電子メールオーサリングオプションがあります。 Dreamweaverなどのソリューションを使用して、電子メールコンテンツを編集し、電子メールデザイナーでレスポンシブメッセージを作成できます。 また、Adobe Experience Managerとコンテンツを電子メールで送信し、Adobe Campaign Standardの電子メールに使用することもできます。
+Adobe Campaignでは、複数のeメールオーサリングオプションが用意されています。 Dreamweaverなどのソリューションを使用して、EメールデザイナーでEメールコンテンツを編集し、レスポンシブメッセージを作成できます。 Adobe Experience ManagerでコンテンツをEメールで送信し、Adobe Campaign StandardのEメールで使用することもできます。
 
-## Dreamweaver{#editing-content-in-dreamweaver}でのコンテンツの編集
+## Dreamweaverでのコンテンツの編集 {#editing-content-in-dreamweaver}
 
-Adobe Campaign StandardとDreamweaverの統合により、Dreamweaverのインターフェイスで電子メールのコンテンツを編集できます。 レスポンシブ電子メールコンテンツをデザインし開発する際に、Dreamweaverの強力なインターフェイスにアクセスできます。
+Adobe Campaign StandardとDreamweaverの統合により、DreamweaverインターフェイスでEメールのコンテンツを編集できます。 Dreamweaverの強力なインターフェイスを利用して、レスポンシブなEメールコンテンツをデザインし、開発することができます。
 
 * **双方向同期**
 
-   ある製品で編集が行われると、別の製品でリアルタイムに更新されます。 Dreamweaverでテキストの色を変更する場合、編集を行うとすぐに、テキストの色がキャンペーンでライブになります。 また、Dreamweaverまたはキャンペーンでコードを選択した場合、行番号が同じなので、2つの商品の間に選択範囲が残るので、コード内で特定のものを探す場合に非常に役立ちます。
+   1つの製品で編集がおこなわれるたびに、他の製品でリアルタイムに更新されます。 Dreamweaverでテキストの色を変更する場合は、編集を行うとすぐに、Campaignでテキストの色がライブになります。 また、DreamweaverまたはCampaignでコードを選択する場合、行番号が同じなので、選択は2つの製品の間に残るので、コード内で特定のものを探す際に非常に役立ちます。
 
 * **Dreamweaver を使用した Adobe Campaign へのローカルイメージのアップロード**
 
-   Dreamweaver内で電子メールを作成または編集する場合は、デスクトップまたはローカルマシンから画像を選択するだけで済みます。 Dreamweaverはこれを常に許可していますが、Dreamweaverとキャンペーンが接続されている場合、ローカルファイルはすぐにAdobe Campaignサーバにアップロードされます。コンテンツの変更に応じて、手動で画像をアップロードする必要はありません。 また、最新の画像は常にキャンペーンで表示されます。
+   Dreamweaver内でEメールを作成または編集する際には、デスクトップまたはローカルマシンから画像を選択するだけで済みます。 Dreamweaverでは常にこの操作が許可されていますが、DreamweaverとCampaignが接続されると、ローカルファイルがAdobe Campaignサーバーに直ちにアップロードされます。コンテンツの変更に合わせて画像を手動でアップロードする必要はありません。 さらに、最新の画像が常にCampaignで公開されます。
 
-* **Dreamweaverの追加キャンペーンパーソナライゼーション**
+* **DreamweaverでのCampaignパーソナライゼーションの追加**
 
-   電子メール開発者は、`[[FIRSTNAME_PLACEHOLDER]]`のようなテキストを追加したり、データモデルのテーブルの構文を調べたりする必要がなくなりました。 Dreamweaverのキャンペーンツールバーは、キャンペーンインスタンスのデータモデルに直接接続します。 つまり、名から住所までのようなパーソナライゼーション用の任意のデータを取り込むことができます。 コンテンツブロックをキャンペーン内に作成した場合は、コンテンツブロックを直接Dreamweaverに引き出すこともできます。
+   電子メール開発者は、`[[FIRSTNAME_PLACEHOLDER]]`のようなテキストを追加したり、データモデルのテーブルの構文を調べたりする必要がなくなりました。 DreamweaverのCampaignツールバーは、Campaignインスタンスのデータモデルに直接接続します。 つまり、名から住所など、パーソナライゼーションに必要なデータを取り込むことができます。 Campaign内でコンテンツブロックを作成した場合は、それらを直接Dreamweaverに取り込むこともできます。
 
-この機能の詳細は、[こちら](https://helpx.adobe.com/jp/dreamweaver/using/working-with-dreamweaver-and-campaign.html)からアクセス可能なDreamweaver文書を参照してください。
+この機能について詳しくは、Dreamweaverのドキュメントを参照してください。[こちら](https://helpx.adobe.com/jp/dreamweaver/using/working-with-dreamweaver-and-campaign.html)からアクセスできます。
 
-![](assets/do-not-localize/how-to-video.png) [この機能をビデオで確認](#video)
+![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](#video)
 
-## Experience Manager{#editing-content-in-experience-manager}でのコンテンツの編集
+## Experience Manager内のコンテンツの編集 {#editing-content-in-experience-manager}
 
-電子メールコンテンツはExperience Managerで編集でき、Adobe Campaign Standardの1つまたは複数の電子メールメッセージに使用できます。 [このドキュメント](../../integrating/using/integrating-with-experience-manager.md)を参照してください。
+Eメールのコンテンツは、Experience Managerで編集し、Adobe Campaign Standardで1つまたは複数のEメールメッセージに使用できます。 [このドキュメント](../../integrating/using/integrating-with-experience-manager.md)を参照してください。
 
-## 製品リスト{#product-listing}
+## 製品リスト {#product-listing}
 
 >[!CONTEXTUALHELP]
 >id="ac_product_listing"
 >title="製品リストの使用"
->abstract="製品リストでは、データ収集を参照して電子メールコンテンツに表示できます。"
+>abstract="製品リストを使用すると、データ収集を参照してEメールコンテンツに表示できます。"
 
-製品リストでは、電子メールコンテンツ内の1つ以上のデータコレクションを参照できます。 これらのリストは、トランザクション電子メールで使用できます。 この機能の専用のセクションは、[ここ](../../designing/using/using-product-listings.md)で入手できます。
+製品リストでは、Eメールコンテンツ内の1つ以上のデータコレクションを参照できます。 これらのリストはトランザクションEメールで使用できます。 この機能の専用のセクションは、[ここ](../../designing/using/using-product-listings.md)から入手できます。
 
-## 電子メールデザインオプションの比較{#email-design-options-comparison}
+## Eメールデザインオプションの比較 {#email-design-options-comparison}
 
-Adobe Campaignオファーには、複数の電子メールオーサリングオプションがあります。 次の表に、それぞれの主な可能性、利点、制限を示します。
+Adobe Campaignでは、複数のeメールオーサリングオプションが用意されています。 次の表に、それぞれの主な可能性、利点、制限を示します。
 
 <table> 
  <thead> 
   <tr> 
    <th> </th> 
-   <th> Email Designer <br /> </th> 
+   <th> 電子メールデザイナー<br /> </th> 
    <th> Experience Manager<br /> </th> 
    <th> Dreamweaver<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <strong>開始の空白の電子メール</strong><br /> </td> 
+   <td> <strong>空白の電子メールを開始</strong><br /> </td> 
    <td> サポート対象<br /> </td> 
    <td> サポート対象<br /> </td> 
    <td> サポート対象<br /> </td> 
@@ -102,64 +101,64 @@ Adobe Campaignオファーには、複数の電子メールオーサリングオ
   <tr> 
    <td> <strong>配達確認/プレビュー</strong><br /> </td> 
    <td> サポート対象<br /> </td> 
-   <td> キャンペーン<br />のAEM<br />配達確認のプレビュー </td> 
-   <td> キャンペーン<br />のプレビューと配達確認 </td> 
+   <td> AEM<br /> Campaignの配達確認でのプレビュー<br /> </td> 
+   <td> Campaignでのプレビューと配達確認<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>製品リスト</strong><br /> </td> 
-   <td> 電子メールトランザクションメッセージでサポート<br /> </td> 
+   <td> Eメールトランザクションメッセージでサポート<br /> </td> 
    <td> サポートされていません<br /> </td> 
    <td> サポートされていません<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>利点</strong><br /> </td> 
    <td> 
-     <p> — ドラッグアンドドロップ操作で簡単に電子メールを作成</p>
-     <p> — レガシーコンテンツエディターと同様の機能</p>
+     <p> — ドラッグ&amp;ドロップ操作によるEメール作成が容易</p>
+     <p> — レガシーコンテンツエディターと似た機能</p>
      <p> — フラグメントを含む再利用可能なコンテンツ</p>
   </td> 
    <td> 
-     <p> — 電子メール内のWebサイトのアセットの再利用</p>
-     <p> — 電子メールコンテンツにExperience Managerの機能を活用</p>
+     <p>- Webサイトのアセットを電子メールで再利用する</p>
+     <p>- EメールコンテンツのExperience Managerの機能を活用</p>
     </td> 
    <td> 
-    <p> — 開発者が電子メールを直接コーディングする機能</p>
-    <p> — 双方向の同期</p>
-    <p>-Dreamweaverでオフライン編集し、後で同期</p>
-    <p>-Dreamweaver経由でAdobe Campaignに画像をアップロード</p>
+    <p> — 開発者が電子メールを直接コード化する機能</p>
+    <p> — 双方向同期</p>
+    <p>- Dreamweaverでオフラインで編集し、後で同期する</p>
+    <p>- Dreamweaverを使用したAdobe Campaignへの画像のアップロード</p>
   </td> 
   </tr> 
   <tr> 
    <td> <strong>制限事項</strong><br /> </td> 
    <td> 
      <p> — フラグメント内に条件付きコンテンツがない</p>
-     <p>-Experience Managerフラグメントを使用できません</p>
+     <p>-Experience Managerフラグメントの使用は不可</p>
   </td> 
    <td> 
-     <p> — 高度なパーソナライゼーションは導入が困難</p>
-     <p> — テストをAdobe Campaignで送信する必要がある</p>
+     <p> — 高度なパーソナライゼーションは実装が困難</p>
+     <p>- Adobe Campaignでテストを送信する必要がある</p>
   </td> 
    <td> 動的コンテンツがサポートされていません<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>オーディエンス</strong><br /> </td> 
    <td> ドラッグ&amp;ドロップ機能と組み合わせてHTMLコンポーネントを柔軟に使用したいマーケター<br /> </td> 
-   <td> パーソナライゼーションの低い標準的な電子メールテンプレートを使用したいExperience Managerが既に使用されています<br /> </td> 
-   <td> 電子メールコンテンツをコード化し、Adobe Campaign<br />と直接統合したい開発者 </td> 
+   <td> パーソナライゼーションの少ない標準のEメールExperience Managerを使用したいマーケターは既に使用しています。<br /> </td> 
+   <td> Eメールコンテンツをコーディングし、Adobe Campaign<br />と直接統合する開発者 </td> 
   </tr> 
   <tr> 
    <td> <strong>詳細情報</strong><br /> </td> 
-   <td> <a href="../../designing/using/designing-content-in-adobe-campaign.md">電子メールデザイナーについて</a>を参照してください。<br /> </td> 
+   <td> <a href="../../designing/using/designing-content-in-adobe-campaign.md">Eメールデザイナーについて</a>.<br />を参照してください。 </td> 
    <td> <a href="../../integrating/using/integrating-with-experience-manager.md">Experience Managerとの統合</a>を参照してください。<br /> </td> 
-   <td> <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaverとキャンペーン</a>を見て、この<a href="#video">ビデオ</a>を見てください。<br /> </td> 
+   <td> <a href="https://helpx.adobe.com/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaverとキャンペーン</a>を参照し、この<a href="#video">ビデオ</a>を見てください。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## チュートリアルビデオ {#video}
 
-このビデオでは、Dreamweaverを使用してAdobe Campaign Standard向けのコンテンツを作成および編集する方法を紹介します。
+このビデオでは、Dreamweaverを使用してAdobe Campaign Standardのコンテンツを作成および編集する方法を示します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/23121?quality=12&captions=eng)
 
-追加のCampaign Standardハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja)で参照できます。
+追加のCampaign Standardハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja)からご覧いただけます。
