@@ -6,17 +6,16 @@ description: E メールレンダリング機能を学習します。
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
-feature: Send Time Optimization
-role: Business Practitioner
+feature: 送信時間の最適化
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 31f4e557-55b3-4bf5-8d5d-9d412b7670a6
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '516'
 ht-degree: 82%
 
 ---
-
 
 # E メールのレンダリング{#email-rendering}
 
@@ -26,7 +25,7 @@ ht-degree: 82%
 
 Adobe Campaign の「**E メールのレンダリング**」で使用できるモバイル、メッセージングおよび Web メールクライアントは、Litmus の [Web サイト](https://litmus.com/email-testing)に記載されています（「**View all email clients**」をクリックしてください）。
 
-## 電子メールレンダリングの生成{#checking-the-email-rendering-report}
+## Eメールのレンダリングの生成 {#checking-the-email-rendering-report}
 
 E メール配信を作成し、そのコンテンツとターゲット母集団を定義したら、以下の手順に従います。
 
@@ -69,21 +68,21 @@ E メール配信を作成し、そのコンテンツとターゲット母集団
 * [配達確認の送信](../../sending/using/sending-proofs.md)
 * [クエリエディター](../../automating/using/editing-queries.md#about-query-editor)
 
-## 電子メールレンダリングレポート{#email-rendering-report-description}
+## Eメールのレンダリングレポート {#email-rendering-report-description}
 
 このレポートは、受信者に表示される E メールのレンダリングを示します。E メールのレンダリングは、ブラウザー、モバイルデバイス、メールアプリケーションなど、受信者がどの方法で E メール配信を開くかによって異なります。
 
-### 電子メールレンダリングトークン
+### Eメールレンダリングトークン
 
 使用できるレンダリングの数は、ライセンス契約に記載されています。「**E メールのレンダリング**」が有効な配信ごとに、使用可能なレンダリング（トークン）の数が 1 つ減ります。
 
-トークンは、電子メールレンダリングレポート全体ではなく、個々のレンダリングごとに割り当てられます。つまり、次のような意味です。
+トークンは、Eメールのレンダリングレポート全体ではなく、個々のレンダリングを考慮します。つまり、
 
-* **電子メールレンダリングレポートが生成さ** れるたびに、メッセージングクライアントごとに1つのトークンが引かれます。Outlook 2000レンダリング用のトークン、Outlookレンダリング用のトークン、Apple Mailレンダリング用のトークンなど。
+* **Eメール** のレンダリングレポートが生成されるたびに、メッセージングクライアントごとに1トークンが差し引かれます。Outlook 2000レンダリング用のトークン1つ、Outlookレンダリング用のトークン1つ、Apple Mailレンダリング用のトークン1つなど。
 
-* **同じ配信の場合**、電子メールレンダリングを再び生成すると、使用可能なトークン数は、生成されたレンダリングの数だけ再度減少します。
+* **同じ配信で、** Eメールレンダリングを再生成すると、使用可能なトークンの数が、生成されたレンダリングの数だけ再度減ります。
 
-### レポートサマリ
+### レポートの概要
 
 レポート概要には、受信済みメッセージ、不要なメッセージ（スパム）、受信されていないメッセージまたは受信が保留されているメッセージの数が表示されます。
 
