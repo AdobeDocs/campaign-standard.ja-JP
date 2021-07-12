@@ -7,27 +7,26 @@ audience: audiences
 content-type: reference
 topic-tags: managing-profiles
 context-tags: marketingHistory,main
-feature: Profiles
-role: Business Practitioner
+feature: プロファイル
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: cf3c6408-7fa0-423a-b34b-f4fee771fb47
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '282'
 ht-degree: 48%
 
 ---
 
-
-# 統合顧客プロファイル{#integrated-customer-profile}
+# Integrated Customer Profile{#integrated-customer-profile}
 
 統合顧客プロファイルは、データベースの連絡先ごとに使用できます。このマーケティング履歴では、顧客との連絡に関するあらゆる関連マーケティング情報が 1 つのビューにまとめられます。その結果、連絡先情報、受信したメール、トラッキングログ、購読、購読解除など、すべてのデジタル動作、オンラインおよびオフラインのトランザクションに一元的にアクセスできます。
 
 統合顧客プロファイルにアクセスする手順は次のとおりです。
 
-1. Adobe Campaignホームページで&#x200B;**[!UICONTROL Customer profiles]**&#x200B;カードまたは&#x200B;**プロファイル**&#x200B;タブをクリックし、プロファイルリストを表示します。
+1. Adobe Campaignのホームページで、**[!UICONTROL Customer profiles]**&#x200B;カードまたは&#x200B;**「Profiles**」タブをクリックして、プロファイルのリストを表示します。
 
-1. 特定のフィールドに基づいてプロファイルを検索するには、検索パネルを開き、検索を実行するフィールドを選択します。
+1. 特定のフィールドに基づいてプロファイルを検索するには、検索パネルを開いてから、検索を実行するフィールドを選択します。
 
 
    ![](assets/profile-search.png)
@@ -36,11 +35,11 @@ ht-degree: 48%
 
    >[!NOTE]
    >
-   >検索は、電子メール、名、姓の各フィールドに加え、リソースの拡張時に追加されたカスタムフィールドに基づいて実行できます。
+   >検索は、Eメール、姓名、姓の各フィールド、およびリソースの拡張時に追加されたカスタムフィールドに基づいて実行できます。
    >
-   >検索では大文字と小文字が区別され、プリフィックスでのみ実行されます。 例えば、姓の最後の文字を使用してプロファイルを検索することはできません。
+   >検索では大文字と小文字が区別され、プレフィックスでのみ実行されます。 例えば、姓の最後の文字を使用してプロファイルを検索することはできません。
 
-1. 連絡先を選択して、プロファイルを開きます。
+1. 連絡先を選択して、そのプロファイルを開きます。
 
    ![](assets/mkt_hist_access.png)
 
@@ -48,7 +47,7 @@ ht-degree: 48%
 
 プロファイルに関する主要な情報は、イベントのリストと共に、このページで収集されます。
 
-リスト内のイベントをクリックして開きます。送信されたメッセージや、プロファイルがサブスクライブしているサービスにアクセスできます。
+リスト内のイベントをクリックして開きます。送信されたメッセージや、プロファイルが購読したサービスにアクセスできます。
 
 ![](assets/mkt_hist_view.png)
 
