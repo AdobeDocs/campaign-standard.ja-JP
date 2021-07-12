@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,main
 feature: ランディングページ
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 28398843-a170-48cf-b9c0-dca7af56236d
-source-git-commit: c9d2edbc0731734967af033dc318f5f60ea5cc8d
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '1668'
 ht-degree: 97%
@@ -20,7 +20,7 @@ ht-degree: 97%
 
 # ランディングページのデザイン{#designing-a-landing-page}
 
-## ランディングページコンテンツデザインのコンテンツデザインについて{#about-content-design}
+## ランディングページコンテンツデザインのコンテンツデザインについて {#about-content-design}
 
 ランディングページは、任意の[マーケティングアクティビティ](../../start/using/marketing-activities.md#about-marketing-activities)として作成されます。
 
@@ -263,7 +263,7 @@ ht-degree: 97%
 
 ![](assets/des_lp_content_4.png)
 
-### コンテンツエディターでの境界線と背景の追加{#adding-a-border-and-a-background-in-the-content-editor}
+### コンテンツエディターでの境界線と背景の追加 {#adding-a-border-and-a-background-in-the-content-editor}
 
 また、チャートから色を選択することで、**背景色**&#x200B;を定義できます。この色は、選択したブロックに適用されます。
 
@@ -273,7 +273,7 @@ ht-degree: 97%
 
 ![](assets/des_lp_content_6.png)
 
-### コンテンツエディターでのテキストスタイルの変更{#changing-the-text-style-in-the-content-editor}
+### コンテンツエディターでのテキストスタイルの変更 {#changing-the-text-style-in-the-content-editor}
 
 テキストのスタイルを変更するには、テキストブロック内をクリックする必要があります。
 
