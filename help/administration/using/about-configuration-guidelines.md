@@ -2,31 +2,30 @@
 solution: Campaign Standard
 product: campaign
 title: 設定のガイドライン
-description: Campaign Standard設定のガイドラインについて説明します。
+description: Campaign Standard設定のガイドライン
 audience: administration
 content-type: reference
 topic-tags: about-administrating-adobe-campaign
-feature: Access Management
-role: Administrator
+feature: アクセス管理
+role: Admin
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 88684ed6-6d8d-4691-987f-812e7e1d834c
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '121'
+source-wordcount: '119'
 ht-degree: 15%
 
 ---
-
 
 # 設定のガイドライン {#about-configuration-guidelines}
 
 ## 対応ブラウザー{#compatible-browsers}
 
-Adobe Campaign Standardは、コンピューターのほとんどのブラウザーと、タブレット用の主なオペレーティングシステムと互換性があります。
+Adobe Campaign Standardは、ほとんどのコンピューター用のブラウザーと、タブレット用の主なオペレーティングシステムと互換性があります。
 
-Adobe Campaign Standardはタブレットでの表示モードとして横置きのみサポートします。
+Adobe Campaign Standardは、タブレットでの表示モードとして横置きのみをサポートします。
 
-以下は、Adobe Campaign Standardと互換性のあるブラウザのリストです。
+Adobe Campaign Standardと互換性のあるブラウザーの一覧を次に示します。
 
 **コンピュータ：**
 
@@ -42,15 +41,15 @@ Adobe Campaign Standardはタブレットでの表示モードとして横置き
 
 ## Campaign Standard ネットワークエンドポイント {#campaign-standard-network-endpoints}
 
-Campaign Standardで使用されるエンドポイントは次のとおりです。
+Campaign Standardで使用される様々なエンドポイントを次に示します。
 
 | コンテキスト | URL |
 |--- |--- |
-| キャンペーンインスタンス | `https://*.experiencecloud.adobe.com` （テナントID * +クライアントドメイン）<br>`https://*.campaign.adobe.com` (キャンペーンインスタンステナント) |
+| Campaignインスタンス | `https://*.experiencecloud.adobe.com` （テナントID * +クライアントドメイン）<br>`https://*.campaign.adobe.com` （Campaignインスタンステナント） |
 | IMS | `https://adobeid-na1.services.adobe.com`<br>`https://*.adobelogin.com` |
-| Experience Cloud | `https://experiencecloud.adobe.com` |
+| Experience cloud | `https://experiencecloud.adobe.com` |
 | トラッキング | `https://*.adobedtm.com`<br>`https://*.demdex.net`<br>`https://*.omtrdc.net` |
-| アセットの統合 | `https://*.marketing-assets.adobe.com` |
+| Assetsの統合 | `https://*.marketing-assets.adobe.com` |
 | 内部Adobeサービス | `https://*.adobe.io` |
 | 調査 | `https://adobe.allegiancetech.com` |
-| デフォルトのブランドURL（クライアント設定前） | `https://*.adobe-campaign.com` |
+| デフォルトのブランディングURL（クライアント設定前） | `https://*.adobe-campaign.com` |
