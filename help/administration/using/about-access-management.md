@@ -6,17 +6,16 @@ description: 役割、グループ、および組織単位を使用して、Adob
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-feature: Access Management
-role: Administrator
+feature: アクセス管理
+role: Admin
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 6aa53aa9-aa5c-4b29-ad84-d983da241ceb
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '230'
-ht-degree: 99%
+source-wordcount: '228'
+ht-degree: 100%
 
 ---
-
 
 # アクセス管理について{#about-access-management}
 
@@ -48,4 +47,3 @@ Adobe Campaign を使用すると、さまざまなユーザーに割り当て�
 * [組織単位](../../administration/using/organizational-units.md)
 * [役割のリスト](../../administration/using/list-of-roles.md)
 * [グループとユーザーの管理](../../administration/using/managing-groups-and-users.md)
-
