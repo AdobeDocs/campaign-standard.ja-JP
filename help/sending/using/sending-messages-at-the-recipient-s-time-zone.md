@@ -6,17 +6,16 @@ description: 受信者のタイムゾーンでのメッセージの送信につ�
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
-feature: Proofs
-role: Business Practitioner
+feature: 配達確認
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 48f222bd-9c2f-4eeb-a12b-bbfc62119024
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 99%
+source-wordcount: '376'
+ht-degree: 100%
 
 ---
-
 
 # 受信者のタイムゾーンでのメッセージの送信{#sending-messages-at-the-recipient-s-time-zone}
 
