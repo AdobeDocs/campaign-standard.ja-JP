@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: configuring-channels
 context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;delivery,properties,open
 feature: インスタンス設定
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: 0080adf32cb011535004391e7468012a07b59a9f
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '2598'
 ht-degree: 77%
@@ -72,7 +72,7 @@ E メール設定画面では、E メールチャネルのパラメーターを�
 
    強制隔離について詳しくは、[強制隔離管理の理解](../../sending/using/understanding-quarantine-management.md)を参照してください。
 
-## E メールルーティングアカウント{#email-routing-accounts}
+## E メールルーティングアカウント {#email-routing-accounts}
 
 デフォルトでは、**[!UICONTROL Integrated email routing]**&#x200B;外部アカウントが提供されます。アプリケーションから E メールを送信するための技術的なパラメーターが含まれます。
 
@@ -84,7 +84,7 @@ E メール設定画面では、E メールチャネルのパラメーターを�
 
 [外部アカウント](../../administration/using/external-accounts.md)
 
-## E メール処理ルール{#email-processing-rules}
+## E メール処理ルール {#email-processing-rules}
 
 管理者は、**[!UICONTROL Administration > Channels > Email]**&#x200B;メニューから&#x200B;**[!UICONTROL Email processing rules]**&#x200B;にアクセスできます。
 
@@ -125,7 +125,7 @@ The MX rules are now managed by the Adobe Campaign Enhanced MTA. The Adobe Campa
 
 The Enhanced MTA uses its own MX rules that allow it to customize your throughput by domain based on your own historical email reputation, and on the real-time feedback coming from the domains where you are sending emails.-->
 
-## E メールプロパティのリスト{#list-of-email-properties}
+## E メールプロパティのリスト {#list-of-email-properties}
 
 このセクションでは、E メールまたは E メールテンプレートのプロパティ画面で使用できるパラメーターのリストについて詳しく説明します。
 
@@ -240,7 +240,7 @@ SMTP の設定について詳しくは、[E メール SMTP パラメーターの
 * **[!UICONTROL Tracking validity limit]**：URL で追跡を有効にする期間を定義できます。
 * **[!UICONTROL Substitution URL for expired URLs]**：追跡の有効期限が切れた後に表示される web ページへの URL を入力できます。
 
-### 詳細設定パラメーター {#advanced-parameters}
+### 詳細パラメーター {#advanced-parameters}
 
 「**[!UICONTROL Advanced parameters]**」セクションには複数のパラメーターが含まれています。
 
@@ -256,7 +256,7 @@ SMTP の設定について詳しくは、[E メール SMTP パラメーターの
 
 ターゲティングコンテキストを使用すると、E メールのターゲット設定（オーディエンス定義画面）およびパーソナライズ機能（HTML コンテンツエディターでのパーソナライゼーションフィールドの定義）に使用される一連のテーブルを定義できます。
 
-#### Routing {#routing}
+#### ルーティング {#routing}
 
 このフィールドは、使用されるルーティングモードを示します。これは外部アカウントを参照します。例えば、特定のブランディング設定を含む外部アカウントを使用する場合に使用できます。
 
@@ -308,7 +308,7 @@ SMTP の設定について詳しくは、[E メール SMTP パラメーターの
 
 * 「**[!UICONTROL Created by]**」、「**[!UICONTROL Created]**」、「**[!UICONTROL Modified by]**」、「**[!UICONTROL Last modified]**」の各フィールドは自動的に入力されます。
 
-## 従来の設定{#legacy-settings}
+## 従来の設定 {#legacy-settings}
 
 最新バージョンのCampaignを&#x200B;**実行していない**&#x200B;場合でも、以下で説明するパラメーターとUIの節は引き続き適用されます。
 
@@ -326,11 +326,11 @@ Eメールプロパティの[設定メニュー](#email-channel-parameters)と[�
 
 [「有効期間パラメーター」](#validity-period-parameters)セクションの&#x200B;**[!UICONTROL Delivery duration]**&#x200B;または&#x200B;**[!UICONTROL Validity limit for sending messages]**&#x200B;パラメーターを使用すると、メッセージを送信できる期間を指定できます。
 
-### E メール処理ルール{#legacy-email-processing-rules}
+### E メール処理ルール {#legacy-email-processing-rules}
 
 **[!UICONTROL MX management]**、**[!UICONTROL Bounce mails]**&#x200B;および&#x200B;**[!UICONTROL Domain management]**&#x200B;ルールは、管理者が&#x200B;**[!UICONTROL Administration > Channels > Email > Email processing rules]** [メニュー](#email-processing-rules)を使用してアクセスし、変更できます。
 
-### バウンスメールの選定 {#legacy-bounce-mail-qualification}
+### バウンスメールの認定 {#legacy-bounce-mail-qualification}
 
 様々なバウンスとそれに関連するエラータイプの理由を一覧表示するには、左上の&#x200B;**[!UICONTROL Adobe Campaign]**&#x200B;ロゴをクリックし、「**[!UICONTROL Administration > Channels > Quarantines > Message qualification]**」を選択します。
 
@@ -346,7 +346,7 @@ Eメールプロパティの[設定メニュー](#email-channel-parameters)と[�
 
 <!--Bounces are qualified through the **[!UICONTROL Bounce mails]** processing rule. For more on accessing this rule, refer to this [section](#legacy-bounce-mail-qualification).-->
 
-### 配信された指標のレポート{#legacy-delivered-status-report}
+### 配信された指標のレポート {#legacy-delivered-status-report}
 
 各メッセージの&#x200B;**[!UICONTROL Summary]**&#x200B;表示では、ソフトバウンスとハードバウンスがレポートされるので、配信の有効期間を通じて&#x200B;**[!UICONTROL Delivered]**&#x200B;の割合が徐々に増加します。
 
