@@ -7,27 +7,26 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: Transactional Messaging
-role: Business Practitioner
+feature: トランザクションメッセージ
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 5138826d-ae08-403b-91ef-91027ef6e78e
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '280'
 ht-degree: 41%
 
 ---
 
+# トランザクションメッセージのテスト {#testing-a-transactional-message}
 
-# トランザクションメッセージのテスト{#testing-a-transactional-message}
+トランザクションメッセージを公開する前に、メッセージを適切に確認できる特定のテストプロファイルを作成できます。
 
-トランザクションメッセージを公開する前に、メッセージを正しく確認できる特定のテストプロファイルを作成できます。
+## 特定のテストプロファイルの定義 {#defining-specific-test-profile}
 
-## 特定のテストプロファイルの定義{#defining-specific-test-profile}
+イベントにリンクされるテストプロファイルを定義します。これにより、メッセージをプレビューし、関連する配達確認を送信できます。
 
-メッセージをプレビューし、関連配達確認を送信できるように、イベントにリンクするテストプロファイルを定義します。
-
-1. [トランザクションメッセージダッシュボード](../../channels/using/editing-transactional-message.md#accessing-transactional-messages)から、**[!UICONTROL Create test profile]**&#x200B;ボタンをクリックします。
+1. [トランザクションメッセージダッシュボード](../../channels/using/editing-transactional-message.md#accessing-transactional-messages)で、「**[!UICONTROL Create test profile]**」ボタンをクリックします。
 
    ![](assets/message-center_test-profile.png)
 
@@ -37,9 +36,9 @@ ht-degree: 41%
 
    >[!NOTE]
    >
-   >メッセージを強化した場合は、**[!UICONTROL Profile]**&#x200B;など、別のテーブルに関する情報を入力することもできます。 「[イベントの強化](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)」および「[トランザクションメッセージのパーソナライズ](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message)」を参照してください。
+   >メッセージをエンリッチメントする場合は、**[!UICONTROL Profile]**&#x200B;など、別のテーブルに関連する情報を入力することもできます。 [イベント](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)のエンリッチメントおよび[トランザクションメッセージのパーソナライズ](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message)を参照してください。
 
-1. 作成したテストプロファイルは、トランザクションメッセージで事前に指定されます。 配達確認のターゲットを確認するには、メッセージの「**[!UICONTROL Test profiles]**」ブロックをクリックします。
+1. 作成後、テストプロファイルはトランザクションメッセージで事前に指定されます。 配達確認のターゲットを確認するには、メッセージの「**[!UICONTROL Test profiles]**」ブロックをクリックします。
 
    ![](assets/message-center_5.png)
 
@@ -52,7 +51,7 @@ ht-degree: 41%
    ![](assets/message-center_3.png)
 
 1. 変更を保存します。
-1. [作成した](../../channels/using/editing-transactional-message.md#accessing-transactional-messages) メッセージにアクセスし、更新したテストプロファイルを選択します。
+1. [作成したメッ](../../channels/using/editing-transactional-message.md#accessing-transactional-messages) セージにアクセスし、更新されたテストプロファイルを選択します。
 
 **関連トピック：**
 
@@ -65,4 +64,4 @@ ht-degree: 41%
 
 ![](assets/message-center_10.png)
 
-配達確認を送信する手順については、「[配達確認の送信](../../sending/using/sending-proofs.md)」の節を参照してください。
+配達確認を送信する手順について詳しくは、[配達確認の送信](../../sending/using/sending-proofs.md)の節を参照してください。
