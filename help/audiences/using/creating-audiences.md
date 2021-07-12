@@ -8,16 +8,15 @@ content-type: reference
 topic-tags: managing-audiences
 context-tags: readAudience,main;audience,overview;delivery,audience,back
 feature: Audiences
-role: Business Practitioner
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: b40e4f6f-34bb-40f9-80e8-e9f1bce5548c
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '973'
-ht-degree: 99%
+source-wordcount: '970'
+ht-degree: 100%
 
 ---
-
 
 # オーディエンスの作成{#creating-audiences}
 
@@ -147,4 +146,3 @@ Adobe Campaign からのプロファイルに対してクエリをおこなう&#
 オーディエンスを手動で削除する必要がある場合は、1 つまたは複数のオーディエンスを選択して「**[!UICONTROL Delete element]**」ボタンをクリックします。
 
 ![](assets/audience_delete_1.png)
-
