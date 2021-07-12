@@ -2,72 +2,71 @@
 solution: Campaign Standard
 product: campaign
 title: メッセージへのアクセス
-description: 「メッセージとその高度な機能にアクセスする方法を説明します。作成、ターゲット設定、パーソナライゼーション、実行、レポートを行います。」
+description: 「メッセージとその高度な機能にアクセスする方法を説明します。作成、ターゲティング、パーソナライゼーション、実行、レポート作成を行います。」
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels
 context-tags: activity,overview
-feature: Overview
-role: Business Practitioner
+feature: 概要
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 830ca459-39c5-4761-a533-b6d345a326fc
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '290'
 ht-degree: 2%
 
 ---
 
-
 # メッセージへのアクセス{#accessing-messages}
 
-メッセージのターゲット設定、作成とパーソナライズ、通信の実行、関連する操作レポートなど、一連の高度な機能にアクセスできます。
+ターゲティング、メッセージの作成とパーソナライズ、通信の実行、関連する運用レポートなど、一連の高度な機能にアクセスできます。
 
-メッセージにアクセスできます。
+メッセージには次の場所からアクセスできます。
 
 * キャンペーン内で
 * Adobe Campaignホームページから
 * マーケティングアクティビティのリストから
 
-## キャンペーン{#accessing-messages-in-campaigns}のメッセージへのアクセス
+## キャンペーン内のメッセージへのアクセス {#accessing-messages-in-campaigns}
 
 キャンペーンのマーケティングアクティビティのリストにアクセスするには：
 
-1. 上部ナビゲーションバーから&#x200B;**[!UICONTROL Marketing activities]**&#x200B;に移動します。
+1. 上部のナビゲーションバーから&#x200B;**[!UICONTROL Marketing activities]**&#x200B;に移動します。
 1. 「**[!UICONTROL Marketing activities > Marketing plans > Programs & Campaigns]**」を選択します。
 
-   ホームページから&#x200B;**[!UICONTROL Programs & Campaigns]**&#x200B;カードを直接クリックすることもできます。 キャンペーンの詳細については、「[プログラムとキャンペーン](../../start/using/programs-and-campaigns.md)」の節を参照してください。
+   また、ホームページから&#x200B;**[!UICONTROL Programs & Campaigns]**&#x200B;カードを直接クリックすることもできます。 キャンペーンについて詳しくは、[プログラムとキャンペーン](../../start/using/programs-and-campaigns.md)の節を参照してください。
 
-1. プログラムを選択し、キャンペーンを選択します。
+1. プログラム、キャンペーンの順に選択します。
 
    ![](assets/delivery_list_1.png)
 
 1. **[!UICONTROL Summary]**&#x200B;ドロップダウンリストをクリックします。
 1. **[!UICONTROL Search]**&#x200B;をクリックして、メッセージの表示方法（名前、日付、ステータス）をフィルターします。
 
-   定期的なメッセージをフィルタリングするには、該当するチェックボックスをオンにします。
+   繰り返しメッセージをフィルターするには、対応するボックスをオンにします。
 
-## メッセージリストへのアクセス{#accessing-the-message-list}
+## メッセージリストへのアクセス {#accessing-the-message-list}
 
-結合されたすべてのキャンペーンからマーケティングアクティビティの完全なリストにアクセスするには：
+組み合わされたすべてのキャンペーンのマーケティングアクティビティの完全なリストにアクセスするには：
 
-1. 上部ナビゲーションバーから&#x200B;**[!UICONTROL Marketing activities]**&#x200B;を選択します。
+1. 上部のナビゲーションバーから「**[!UICONTROL Marketing activities]**」を選択します。
 
-   ホームページの&#x200B;**[!UICONTROL Marketing activities]**&#x200B;カードからもアクセスできます。 マーケティングアクティビティのリストについて詳しくは、「[マーケティングアクティビティの管理](../../start/using/marketing-activities.md#creating-a-marketing-activity)」を参照してください。
+   ホームページの&#x200B;**[!UICONTROL Marketing activities]**&#x200B;カードからもアクセスできます。 マーケティングアクティビティのリストについて詳しくは、[マーケティングアクティビティの管理](../../start/using/marketing-activities.md#creating-a-marketing-activity)の節を参照してください。
 
-1. マーケティングアクティビティを(名前、日付、ステータスまたはアクティビティタイプで)フィルタリングするには、マーケティングアクティビティのリストの左にある&#x200B;**[!UICONTROL Search]**&#x200B;フィールドを使用します。
+1. マーケティングアクティビティを（名前、日付、ステータス、アクティビティタイプ別に）フィルターするには、マーケティングアクティビティのリストの左側にある&#x200B;**[!UICONTROL Search]**&#x200B;フィールドを使用します。
 
 ![](assets/delivery_list_2.png)
 
-## メッセージのライフサイクル{#message-life-cycle}
+## メッセージのライフサイクル {#message-life-cycle}
 
 メッセージのステータスは、リスト内の特定の色で表されます。 可能なステータスは次のとおりです。
 
-* **[!UICONTROL Editing]** （グレー）:メッセージを編集中です。
+* **[!UICONTROL Editing]** （グレー）:メッセージは編集中です。
 * **[!UICONTROL In progress]** （青）:メッセージを送信中です。
-* **[!UICONTROL Finished]** （緑）:送信はエラーなく終了しました。
+* **[!UICONTROL Finished]** （緑）:送信は終了しました。エラーは発生しません。
 * **[!UICONTROL Erroneous]** （赤）:メッセージの準備中または送信中に送信が取り消されたか、エラーが発生しました。
 
    >[!NOTE]
    >
-   >アクションが必要な場合、例えばメッセージの送信を確認する必要がある場合など、カードの上に黄色の通知バナーが表示されます。
+   >アクションが必要な場合（例えば、メッセージの送信を確認する必要がある場合）は、黄色い通知バナーがカードの上に表示される場合があります。
