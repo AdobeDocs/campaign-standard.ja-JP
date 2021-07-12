@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: configuring-channels
 context-tags: extAccountMobile,overview;extAccount,main;delivery,smsContent,back
 feature: インスタンス設定
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
-source-git-commit: b564ecce0fab3ebcc1afb02fd2cae3f7eafd025e
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '1567'
 ht-degree: 95%
@@ -322,7 +322,7 @@ Adobe Campaign では、SMS メッセージの送信時に 1 つまたは複数�
 
 詳しくは、[この節](../../channels/using/managing-incoming-sms.md)を参照してください。
 
-## SMS プロパティの設定{#configuring-sms-properties}
+## SMS プロパティの設定 {#configuring-sms-properties}
 
 このセクションでは、SMS 配信または SMS テンプレートのプロパティ画面で表示される、SMS に固有のパラメーターのリストについて説明します。
 
