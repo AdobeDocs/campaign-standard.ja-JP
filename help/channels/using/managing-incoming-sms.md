@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: sms-messages
 delivercontext-tags: delivery,smsContent,back
 feature: SMS
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 86cb6f4c-a5a7-4d9d-bbfd-4a70af38cf3a
-source-git-commit: b564ecce0fab3ebcc1afb02fd2cae3f7eafd025e
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '621'
 ht-degree: 8%
@@ -20,7 +20,7 @@ ht-degree: 8%
 
 # 受信 SMS の管理{#managing-incoming-sms}
 
-## STOP SMSの管理{#managing-stop-sms}
+## 停止SMSの管理 {#managing-stop-sms}
 
 プロファイルが Campaign 経由で送信された SMS メッセージに返信する場合、自動的に返信されるメッセージや、実行するアクションを設定できます。
 
@@ -67,7 +67,7 @@ ht-degree: 8%
 
 これらの受信SMSは、必要に応じて保存できます。 詳しくは、[](#storing-incoming-sms)を参照してください。
 
-## 受信SMS {#storing-incoming-sms}の格納
+## 受信SMSの保存 {#storing-incoming-sms}
 
 **[!UICONTROL SMS routing via SMPP]**&#x200B;外部アカウントで、例えば購読者がSMSメッセージに「STOP」と返信して受信者リストから削除する場合など、受信メッセージを保存するように選択できます。
 
