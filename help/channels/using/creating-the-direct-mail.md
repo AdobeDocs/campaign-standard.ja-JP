@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: direct-mail
 context-tags: delivery,directMailContent,back
-feature: Direct Mail
-role: Business Practitioner
+feature: ダイレクトメール
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 3e94c872-bf44-4d4c-b6eb-7731021c7931
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '596'
 ht-degree: 96%
 
 ---
-
 
 # ダイレクトメールの作成{#creating-the-direct-mail}
 
@@ -100,4 +99,4 @@ ht-degree: 96%
 * ファイルを添付して通常の E メールで送信
 * Campaign で送信：キャンペーン[ワークフロー](../../automating/using/direct-mail-delivery.md)内でダイレクトメールアクティビティを実行し「**[!UICONTROL Transfer file]**」を追加して、例えば FTP でファイルを送信します。詳しくは、[ファイル転送](../../automating/using/transfer-file.md)を参照してください。
 
-プロバイダは、誤ったアドレスのリストを検索し、この情報をAdobe Campaignに送信し、誤ったアドレスブロックリストを自動的にする。 [送信者に返信](../../channels/using/return-to-sender.md)を参照してください。
+プロバイダーは、誤ったアドレスのリストを取得し、この情報をAdobe Campaignに送信します。これにより、誤ったアドブロックリストレスが自動的にされます。 [送信者に返信](../../channels/using/return-to-sender.md)を参照してください。
