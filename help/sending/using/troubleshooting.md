@@ -2,22 +2,21 @@
 solution: Campaign Standard
 product: campaign
 title: Adobe Campaign Standardでの配信品質の問題のトラブルシューティング
-description: 配信品質の問題がAdobe Campaign Standardで発生した場合の対処方法を説明します。
+description: Adobe Campaign Standardで配信品質の問題が発生した場合の対処方法を説明します。
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
-feature: Deliverability
-role: Business Practitioner
+feature: 配信品質
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
+exl-id: 0470b986-c00a-4441-8621-82c7112a9953
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '471'
-ht-degree: 57%
+source-wordcount: '468'
+ht-degree: 59%
 
 ---
-
 
 # トラブルシューティング{#troubleshooting}
 
@@ -36,34 +35,34 @@ ht-degree: 57%
 
 ## ブロックリスト対強制隔離 {#denylist-versus-quarantine}
 
-* **上の電子メールアドレスと隔離された電子メールアドレスの違いについて教えてください。**
+* **強制隔離Eメールアドレスとの違ブロックリストいは何ですか。**
 
-   * ステータス&#x200B;**[!UICONTROL On denylist]**&#x200B;は、[フィードバックループ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#feedback-loops)の結果です（メッセージがスパムとして報告された場合）。
+   * ステータス&#x200B;**[!UICONTROL On denylist]**&#x200B;は、[フィードバックループ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ja#feedback-loops)の結果です（人がメッセージをスパムとしてレポートする場合）。
 
-   * ステータス&#x200B;**[!UICONTROL Quarantined]**&#x200B;は、ソフトバウンスまたはハードバウンスの結果です。
+   * **[!UICONTROL Quarantined]**&#x200B;というステータスは、ソフトバウンスまたはハードバウンスの結果です。
    詳しくは、[こちらの節](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist)を参照してください。
 
 * **様々な強制隔離エラーの原因は何を意味しますか。**
 
-   考えられる理由は10つあります。未定義、ユーザー不明、無効なドメイン、ブロックリスト上のアドレス、拒否、エラー無視、未到達、アカウント無効、メールボックスフル、未接続
+   考えられる理由は次の10です。未定義、不明なユーザー、無効なドメイン、ブロックリストのアドレス、拒否、無視されたエラー、未到達、無効なアカウント、メールボックス容量超過、未接続
 
    詳しくは、[強制隔離管理の理解](../../sending/using/understanding-quarantine-management.md)を参照してください。
 
 ## ブロックリストからの削除 {#removing-from-denylist}
 
-* **私の受信者の1つが誤ってブロックリストに追加された。メッセージを再度送信する際に開始ブロックリストを取り出すには、から削除する方法は？**
+* **受信者の1人が誤ってにブロックリスト追加されました。メッセージの送信を再開するにブロックリストは、どうすればから削除できますか？**
 
    * 移動 **[!UICONTROL Administration > Channels > Quarantines > Addresses]**.
    * 対応するレコードの詳細で、**[!UICONTROL Status]**&#x200B;フィールドの値を&#x200B;**[!UICONTROL Valid]**&#x200B;に設定します。
    * レコードを保存します。
 
-* **IPの1つがブロックリストにあるかどうかを調べるにはどうしますか。IP をブロックリストから削除する方法を教えてください。**
+* **IPの1つが中かどうかはどうすればわかりまブロックリストすか。IP をブロックリストから削除する方法を教えてください。**
 
-   IPアドレスがブロックリスト上にあるかどうかを確認するには、次のような様々なWebサイトを使用して確認します。
+   IPアドレスがになっているかどうかを確認するにブロックリストは、次のような様々なWebサイトを使用して検証できます。
    * [MX Toolbox](https://mxtoolbox.com/)
    * [What is my IP address](https://whatismyipaddress.com)
 
-   通常、IPアドレスの確認の結果、リストの詳細と、IPアドレスをブロックしブロックリストたWebサイトの名前を含むが返されます。
+   通常、IPアドレスチェックの結果は、の詳細ブロックリストと、IPアドレスをブロックしたWebサイトの名前を含むリストを返します。
 
    対応するリンクをクリックすると、Web サイトの詳細にアクセスできます。
 
