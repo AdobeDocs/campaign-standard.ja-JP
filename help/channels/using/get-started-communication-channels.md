@@ -1,23 +1,23 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 通信チャネルの概要
+title: コミュニケーションチャネルの概要
 description: 様々なチャネルでパーソナライズされたメッセージを作成、テンプレートを使用、ランディングページを作成、およびベストプラクティスを確認します。
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels
 feature: 概要
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: 4ea5b0eb-35da-4db6-a529-ba636be7825f
-source-git-commit: 7272d2ca2b499069e00a3ded1cb6693147c64dfc
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 23%
 
 ---
 
-# 通信チャネルの概要 {#discovering-communication-channels}
+# コミュニケーションチャネルの概要 {#discovering-communication-channels}
 
 <table>
 <tr>
@@ -30,7 +30,7 @@ ht-degree: 23%
 Adobe Campaignでは、あらゆるチャネルをまたいでキャンペーンを開始、測定、自動化できます。
 すべてのマーケティングチャネルを調和させる作業は不可能ではありません。 Adobe Campaignを利用して、様々なシステム、デバイスおよびチャネルの顧客データを1つのプロファイルに取り込むことができます。 その後、カスタマージャーニーに沿って適切な場所と適切な方法で、顧客とタイムリーで関連性の高いキャンペーンを提供します。
 
-## グローバルな概念{#global-concepts}
+## グローバル概念 {#global-concepts}
 
 <img src="assets/do-not-localize/icon_concepts.svg" width="60px">
 
@@ -40,13 +40,13 @@ Adobe Campaignでは、あらゆるチャネルをまたいでキャンペーン
 
 詳しくは、以下を参照してください。
 
-* [メッセージを送信するための主要な手順](../../channels/using/key-steps-to-send-a-message.md)
+* [メッセージを送信するための主な手順](../../channels/using/key-steps-to-send-a-message.md)
 * [メッセージへのアクセス](../../channels/using/accessing-messages.md)
 * [メッセージダッシュボード](../../channels/using/message-dashboard.md)
 * [多言語メッセージテンプレート](../../channels/using/multilingual-messages-template.md)
 * [マーケティングアクティビティテンプレート](../../start/using/marketing-activity-templates.md)
 
-## 通信チャネル{#available-communication-channels}
+## 通信チャネル {#available-communication-channels}
 
 <img src="assets/do-not-localize/icon_channels.svg"  width="60px">
 
@@ -74,7 +74,7 @@ Adobe Campaignでは、あらゆるチャネルをまたいでキャンペーン
 
 詳しくは、以下を参照してください。
 
-* [トランザクションメッセージの概要](../../channels/using/getting-started-with-transactional-msg.md)
+* [トランザクションメッセージの基本を学ぶ](../../channels/using/getting-started-with-transactional-msg.md)
 * [トランザクションイベントの設定](../../channels/using/configuring-transactional-event.md)
 * [トランザクションイベントの公開](../../channels/using/publishing-transactional-event.md)
 * [トランザクションメッセージの編集](../../channels/using/editing-transactional-message.md)
@@ -82,7 +82,7 @@ Adobe Campaignでは、あらゆるチャネルをまたいでキャンペーン
 * [トランザクションプッシュ通知](../../channels/using/transactional-push-notifications.md)
 * [フォローアップメッセージ](../../channels/using/follow-up-messages.md)
 
-## ランディングページ{#landing-pages}
+## ランディングページ {#landing-pages}
 
 <img src="assets/do-not-localize/icon_landing.svg" width="60px">
 
@@ -92,10 +92,10 @@ Campaignには、オーディエンス&#x200B;**の情報を**&#x200B;キャプ�
 
 詳しくは、以下を参照してください。
 
-* [ランディングページの概要](../../channels/using/getting-started-with-landing-pages.md)
+* [ランディングページの基本を学ぶ](../../channels/using/getting-started-with-landing-pages.md)
 * [ランディングページテンプレート](../../channels/using/landing-page-templates.md)
 * [ランディングページフォームデータの管理](../../channels/using/managing-landing-page-form-data.md)
-* [ダブルオプトインプロセスの設定](../../channels/using/setting-up-a-double-opt-in-process.md)
+* [ダブルオプトインプロセスのセットアップ](../../channels/using/setting-up-a-double-opt-in-process.md)
 
 ## その他のリソース
 
