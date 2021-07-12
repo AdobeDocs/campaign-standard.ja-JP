@@ -7,40 +7,39 @@ audience: designing
 content-type: reference
 topic-tags: editing-email-content
 context-tags: null
-feature: Email Design
-role: Business Practitioner
+feature: Eメールデザイン
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 3c8ddd46-05b4-4414-ab2e-052d60da09e5
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '851'
 ht-degree: 82%
 
 ---
 
-
-# トランザクションメッセージでの製品リストの使用{#using-product-listings}
+# トランザクションメッセージでの製品リストの使用 {#using-product-listings}
 
 >[!IMPORTANT]
 >
->製品リストは、**トランザクション電子メールメッセージ**&#x200B;に対して、[電子メールデザイナー](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface)インターフェイスからのみ利用できます。
+>製品リストは、[Eメールデザイナー](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface)インターフェイスを通じて&#x200B;**トランザクション用のメールメッセージ**&#x200B;に対してのみ使用できます。
 
-トランザクション用の電子メールのコンテンツを編集する場合、1つ以上のデータコレクションを参照する製品リストを作成できます。 例えば、買い物かごの放棄の電子メールでは、ユーザがWebサイトを離れたときに買い物かごに含まれていたすべての商品のリストを、画像、価格、各商品へのリンクと共に含めることができます。
+トランザクションEメールのコンテンツを編集する際に、1つ以上のデータコレクションを参照する製品リストを作成できます。 例えば、買い物かごの放棄に関する電子メールで、ユーザーがWebサイトを離れた際に買い物かごに含まれていたすべての製品のリストを、画像、価格、各製品へのリンクと共に含めることができます。
 
 トランザクションメッセージに放棄された製品のリストを追加するには、次の手順に従います。
 
-また、[この一連のビデオ](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html?lang=en#configure-product-listings-in-transactional-emails)を見て、トランザクション用電子メールでの製品リストの設定に必要な手順を説明することもできます。
+また、トランザクション用のEメールで製品リストを設定するために必要な手順を説明する[このビデオ](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html?lang=en#configure-product-listings-in-transactional-emails)を見ることもできます。
 
 >[!NOTE]
 >
 >Adobe Campaign は入れ子になった製品リストをサポートしていません。つまり、別の製品リストに製品を含めることはできません。
 
-## 製品リストの定義{#defining-a-product-listing}
+## 製品リストの定義 {#defining-a-product-listing}
 
 トランザクションメッセージ内の製品リストを使用する前に、表示するリストの各製品のリストとフィールドをイベントレベルで定義する必要があります。詳しくは、[データコレクションの定義](../../channels/using/configuring-transactional-event.md#defining-data-collections)を参照してください。
 
 1. トランザクションメッセージで、「**[!UICONTROL Content]**」ブロックをクリックしてメールの内容を変更します。
-1. 構造コンポーネントをワークスペースにドラッグ＆ドロップします。詳しくは、[電子メール構造の定義](../../designing/using/designing-from-scratch.md#defining-the-email-structure)を参照してください。
+1. 構造コンポーネントをワークスペースにドラッグ＆ドロップします。詳しくは、[Eメール構造の定義](../../designing/using/designing-from-scratch.md#defining-the-email-structure)を参照してください。
 
    例えば、1 列の構造コンポーネントを選択し、テキストコンポーネント、画像コンポーネント、ボタンコンポーネントを追加します。詳しくは、[コンテンツコンポーネントの使用](../../designing/using/designing-from-scratch.md#about-content-components)を参照してください。
 
@@ -59,7 +58,7 @@ ht-degree: 82%
 
    >[!NOTE]
    >
-   >この **[!UICONTROL Column]** オプションは、複数列の構造コンポーネント（**[!UICONTROL 2:2 column]**、**[!UICONTROL 3:3 column]** および **[!UICONTROL 4:4 column]**）を使用する場合にのみ使用できます。製品リストを編集する場合は、最初の列にのみ入力します。他の列は考慮されません。構造コンポーネントの選択について詳しくは、[電子メール構造の定義](../../designing/using/designing-from-scratch.md#defining-the-email-structure)を参照してください。
+   >この **[!UICONTROL Column]** オプションは、複数列の構造コンポーネント（**[!UICONTROL 2:2 column]**、**[!UICONTROL 3:3 column]** および **[!UICONTROL 4:4 column]**）を使用する場合にのみ使用できます。製品リストを編集する場合は、最初の列にのみ入力します。他の列は考慮されません。構造コンポーネントの選択について詳しくは、[Eメール構造の定義](../../designing/using/designing-from-scratch.md#defining-the-email-structure)を参照してください。
 
 1. トランザクションメッセージに関連するイベントを設定する際に作成したデータ収集を選択します。これは、**[!UICONTROL Context]**／**[!UICONTROL Real-time event]**／**[!UICONTROL Event context]** ノードの下にあります。
 
@@ -77,7 +76,7 @@ ht-degree: 82%
    >
    >リストの要素を垂直に表示する場合（**[!UICONTROL Column]**）は、選択した構造コンポーネント（2、3、4 列）に応じて、アイテムの最大数が制限されます。構造コンポーネントの選択について詳しくは、[メール構造の編集](../../designing/using/designing-from-scratch.md#defining-the-email-structure)を参照してください。
 
-## 製品リストへの入力{#populating-the-product-listing}
+## 製品リストへの入力 {#populating-the-product-listing}
 
 トランザクションメールにリンクされたイベントからの製品のリストを表示するには、次の手順に従います。
 
@@ -132,7 +131,7 @@ ht-degree: 82%
 
    顧客が買い物かごに何も入れていない場合など、イベントがトリガーされたときにコレクションが空の場合、フォールバックのコンテンツが表示されます。
 
-1. 設定ペインで、製品リストのスタイルを編集します。詳しくは、[電子メールスタイルの管理](../../designing/using/styles.md)を参照してください。
+1. 設定ペインで、製品リストのスタイルを編集します。詳しくは、[Eメールスタイルの管理](../../designing/using/styles.md)を参照してください。
 1. 関連するトランザクションイベントにリンクされ、収集データを定義したテストプロファイルを使用して、メールをプレビューします。例えば、使用するテストプロファイルの「**[!UICONTROL Event data]**」セクションに次の情報を追加します。
 
    ![](assets/message-center_loop_test-profile_payload.png)
