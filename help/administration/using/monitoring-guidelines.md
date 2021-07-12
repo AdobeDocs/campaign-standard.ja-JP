@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: introduction
 index: y
 feature: アクセス管理
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 5f25f2b2-ca41-4baf-ade2-42bbafb4790d
-source-git-commit: 0080adf32cb011535004391e7468012a07b59a9f
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 21%
@@ -28,7 +28,7 @@ ht-degree: 21%
 
 Campaign Standardには、システムが正常であることを確認し、ワークフローの設定や配信の送信などで発生する可能性のある問題のトラブルシューティングをおこなうために、インスタンスを監視する方法がいくつか用意されています。
 
-## システムの監視{#monitoring-system}
+## システムの監視 {#monitoring-system}
 
 <img src="assets/do-not-localize/icon_system.svg" width="60px">
 
