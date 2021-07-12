@@ -4,12 +4,13 @@ product: campaign
 title: 早期リリースノート
 description: 早期リリースノート
 feature: 概要
-role: Business Practitioner
+role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 7eb12fbb89f677eb7184cb5ff200d3f8a466d3c8
-workflow-type: ht
+exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '1032'
 ht-degree: 100%
 
