@@ -7,13 +7,12 @@ audience: rns
 content-type: reference
 topic-tags: latest-release-notes
 hidefromtoc: true
-feature: Help and support options
-role: Business Practitioner
+feature: ヘルプとサポートオプション
+role: User
 level: Beginner
 exl-id: b164942b-0f1c-473e-bf78-f10ec3374244
-translation-type: ht
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '590'
 ht-degree: 100%
 
@@ -89,7 +88,7 @@ FAQ、ベストプラクティス、オンラインリソース、サポート�
 ### コントロールパネルとは
 
 コントロールパネルを使用すると、各インスタンスの設定を管理し、使用状況をトラッキングできるので、Campaign Standard の製品管理者としての作業の効率を高めるのに役立ちます。
-詳しくは、[ここをクリックしてください。](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja#discover-control-panel)
+詳しくは、[ここをクリック](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja#discover-control-panel)してください。
 
 >[!NOTE]
 >
@@ -131,4 +130,4 @@ Campaign Classic コミュニティへの参加：既存の質問の回答を検
 
 新しいシステムで問題を記録したりチャットセッションを開始したりするには、 [Adobe Admin Console](https://adminconsole.adobe.com/overview)に接続します。
 
-[このページ](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)で説明する詳細な手順に従います。
+[このページ](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)で説明する詳細な手順に従います。
