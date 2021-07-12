@@ -2,33 +2,32 @@
 solution: Campaign Standard
 product: campaign
 title: チャネル設定について
-description: 「各チャネルを構成する必要があります。技術的な設定、メッセージのプロパティおよびテンプレート」
+description: 「各チャネルは、次のように設定する必要があります。技術的な設定、メッセージのプロパティおよびテンプレート。」
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Instance Settings
-role: Administrator
+feature: インスタンス設定
+role: Admin
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 5b4cbe46-7ae6-4985-8195-f73b9b104898
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 6%
+source-wordcount: '143'
+ht-degree: 5%
 
 ---
 
-
 # チャネル設定について{#about-channel-configuration}
 
-Adobe Campaign内のすべての通信チャネルが効果的にメッセージを送信できるように正しく設定されている必要があります。
+メッセージを効果的に送信できるように、Adobe Campaignのすべての通信チャネルを正しく設定する必要があります。
 
-設定の種類は次のとおりです。
+様々な設定を次に示します。
 
-* ルーティング、処理ルール、配信品質パラメータなど、チャネルの技術的な設定
-* メッセージのテンプレートとプロパティ。 すべてのメッセージはテンプレートに基づいています。 Adobe Campaignには、すべてのアクティブ化されたチャネル用に定義済みのテンプレートセットが付属しています。 これらのテンプレートは、重複およびカスタマイズできます。
-* メッセージのプロパティ. 新しいメッセージを作成する場合、必要に応じてプロパティを特定できます。
-* 一部のチャネルは、電子メールBCCなど、オプションの追加設定をオファーします。
+* ルーティング、処理ルール、配信品質パラメーターなど、チャネルの技術的な設定
+* メッセージのテンプレートとプロパティ。 すべてのメッセージは、テンプレートに基づいています。 Adobe Campaignには、アクティブ化されたすべてのチャネル用の事前定義済みテンプレートのセットが付属しています。 これらのテンプレートを複製してカスタマイズできます。
+* メッセージのプロパティ. 新しいメッセージを作成する場合は、必要に応じてプロパティを最終的に設定できます。
+* 一部のチャネルでは、「BCCでEメールを送信」など、オプションの追加設定を提供しています。
 
-**[!UICONTROL Channel]**&#x200B;メニューは、様々なアプリケーションチャネル（電子メール、SMS）にリンクされた技術パラメーターと、タイポロジーおよび強制隔離管理を再グループ化します。
+**[!UICONTROL Channel]**&#x200B;メニューは、様々なアプリケーションチャネル（Eメール、SMS）、タイポロジおよび強制隔離の管理にリンクされたテクニカルパラメーターを再グループ化します。
 
-管理者は、**[!UICONTROL Administration]**/**[!UICONTROL Channels]**&#x200B;メニューからこれらの設定にアクセスできます。
+管理者は、 **[!UICONTROL Administration]** > **[!UICONTROL Channels]**&#x200B;メニューからこれらの設定にアクセスできます。
