@@ -6,19 +6,18 @@ description: Adobe Campaign 内のランディングページを使用してダ�
 audience: channels
 content-type: reference
 topic-tags: landing-pages
-feature: Landing Pages
-role: Business Practitioner
+feature: ランディングページ
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 188b1750-e062-4328-9829-6f2848356b5c
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: '1152'
 ht-degree: 90%
 
 ---
 
-
-# ダブルオプトインプロセスの設定{#setting-up-a-double-opt-in-process}
+# ダブルオプトインプロセスのセットアップ{#setting-up-a-double-opt-in-process}
 
 ## ダブルオプトインについて {#about-double-opt-in}
 
@@ -30,7 +29,7 @@ ht-degree: 90%
 
 この設定をおこなうには、次の操作が必要です。
 
-1. 訪問者が登録して購読できるように、ランディングページを作成して公開します。このランディングページは Web サイトから利用可能になります。このランディングページに入力して送信した訪問者は、最終的な検証前に通信を受け取らないように、データベースに格納されブロックリストますが、キャンペーンに追加されます(「[管理（](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)内）」を参照)。
+1. 訪問者が登録して購読できるように、ランディングページを作成して公開します。このランディングページは Web サイトから利用可能になります。このランディングページに入力して送信する訪問者は、最終的な検証前に通信を受け取らないようブロックリストに、データベースに格納されますが、に追加されます(Campaignの[管理を参照してくださブロックリストい](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md))。
 1. 確認リンクを含んだオプトイン E メールを作成し自動的に送信します。この E メールは、ランディングページを送信した訪問者をターゲットにしますが、「オプトアウト」プロファイルをターゲットにできる E メールテンプレートに基づいて作成されます。
 1. 確認ランディングページにリダイレクトします。この最後のランディングページでは確認ボタンが表示されるので、訪問者はそれをクリックして確認する必要があります。確認した訪問者に送信される「ようこそ」メールをデザインしたり、例えば新しい受信者向けの特別なオファーを E メールに追加したりできます。
 
@@ -58,7 +57,7 @@ ht-degree: 90%
 
    ![](assets/optin_confirmlp_newelement.png)
 
-   このコンテキストでは、電子メールを送信できるように、「オンブロックリスト」フィールドが削除されます。 後で説明がありますが、最初のランディングページでは、確認前、このフィールドを **true** と設定し、未確認のプロファイルに E メールが送信されないようにしてありました。詳しくは、 [手順3：獲得ランディングページの作成](#step-3--create-the-acquisition-landing-page)を参照してください。
+   このコンテキストにより、Eメールを送ブロックリスト信できるように、「オン」フィールドが削除されます。 後で説明がありますが、最初のランディングページでは、確認前、このフィールドを **true** と設定し、未確認のプロファイルに E メールが送信されないようにしてありました。詳しくは、 [手順3：獲得ランディングページの作成](#step-3--create-the-acquisition-landing-page)を参照してください。
 
 1. ランディングページのコンテンツをカスタマイズします。例えば、パーソナライズされたデータを表示し、確認ボタンのラベルを「ここをクリックして購読を確認」などに変更できます。
 
@@ -99,12 +98,12 @@ ht-degree: 90%
 
 ### タイポロジの作成 {#create-the-typology-rule}
 
-標準搭載の[タイポロジ](../../sending/using/about-typology-rules.md)を複製して、特定のタイポロジを作成する必要があります。タイポロジを使用すると、契約をまだ確認しておらず、まだプロファイル中のにメッセージを送信できます。 デフォルトでは、タイポロジによってオプトアウト(ブロックリスト例：)プロファイルが除外されます。 このタイポロジを作成するには、次の手順に従います。
+標準搭載の[タイポロジ](../../sending/using/about-typology-rules.md)を複製して、特定のタイポロジを作成する必要があります。このタイポロジを使用すると、契約が未確認でまだ承認中のプロファイルにメッセージを送信でブロックリストきます。 デフォルトのタイポロジでは、オプトアウト(例：ブロックリストタイポロジ)プロファイルは除外されます。 このタイポロジを作成するには、次の手順に従います。
 
 1. Adobe Campaign のロゴから、**[!UICONTROL Administration]**／**[!UICONTROL Channels]**／**[!UICONTROL Typologies]**&#x200B;を選択し、「**[!UICONTROL Typologies]**」をクリックします。
 1. 標準搭載のタイポロジ「**[!UICONTROL Transactional message on profile (mcTypologyProfile)]**」を複製します。
 1. 複製が確認されたら、新しいタイポロジを編集し、ラベルを「**TYPOLOGY_PROFILE**」と入力します。
-1. **アドレスブロックリスト(**)の規則を削除します。
+1. ルール&#x200B;**の**&#x200B;アブロックリストドレスを削除します。
 1. 「**[!UICONTROL Save]**」をクリックします。
 
 これで、このタイポロジを確認 E メールに関連付けることができるようになりました。
@@ -131,11 +130,11 @@ ht-degree: 90%
 1. [新しいランディングページ](../../channels/using/getting-started-with-landing-pages.md)を「**[!UICONTROL Profile acquisition (acquisition)]**」テンプレートに基づいてデザインします。ラベルを「**ACQUISITION**」と入力します。
 1. ランディングページのプロパティを編集します。**[!UICONTROL Job]** ／「**[!UICONTROL Additional data]**」セクションで「**[!UICONTROL Add an element]**」をクリックし、次のコンテキストパスを入力します。
 
-   /context/プロファイル/blackList
+   /context/profile/blackList
 
    値を **true** に設定します。
 
-   これは、訪問者に追加を強制し、契約を確認していないにメッセージを送信しないようにするために必須です。 確認ランディングページの検証が確認されると、このフィールドが **false** に設定されます。この点について詳しくは、[手順 1：確認ランディングページの作成](#step-1--create-the-confirmation-landing-page)を参照してください。
+   これは、契約を確認していない訪問者にブロックリストメッセージを送信しないようにするために必須です。 確認ランディングページの検証が確認されると、このフィールドが **false** に設定されます。この点について詳しくは、[手順 1：確認ランディングページの作成](#step-1--create-the-confirmation-landing-page)を参照してください。
 
 1. **[!UICONTROL Job]**／「**[!UICONTROL Specific actions]**」セクションで、「**[!UICONTROL Start sending messages]**」オプションを選択します。
 1. 関連するドロップダウンリストで、作成した **CONFIRM** トランザクションメッセージテンプレートを選択します。
