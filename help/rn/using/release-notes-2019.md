@@ -1,18 +1,18 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: リリースノート2019
+title: リリースノート 2019
 description: このページでは、Adobe Campaign Standard の 2019 年の全リリースを紹介します。
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 feature: 概要
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
-source-git-commit: df86191b2941a6121a52b2255e19f8b623b64be6
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '7591'
+source-wordcount: '7590'
 ht-degree: 9%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 9%
 
 [リリース計画](https://helpx.adobe.com/jp/campaign/kb/acs-release-planning.html)  |  [Campaign コントロールパネルリリース](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ja)  |  [ドキュメントの更新](../../rn/using/documentation-updates.md)  |  [最新のリリースノート](../../rn/using/release-notes.md)  |  [非推奨（廃止予定）の機能](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=ja)
 
-## リリース19.4 - 2019年12月{#release-19-4---october-2019}
+## リリース19.4 - 2019年12月 {#release-19-4---october-2019}
 
 **新機能**
 
@@ -36,7 +36,7 @@ ht-degree: 9%
    <td> <p>CCPAは、2020年1月1日よりカリフォルニア州で新しく施行されるプライバシー保護法で、データ保護要件を現代の状況に合わせて整合化させることを目的としています。 CCPA は、カリフォルニア州に居住しているデータ主体のデータを保有している Adobe Campaign の顧客に適用されます。</p>
    <p>Adobe Campaignで既に利用可能なプライバシー機能（同意管理、データ保持設定、ユーザーの役割など）に加えて、CCPAに備えるのに役立つ機能を追加する予定です。</p>
    <ul>
-    <li>アクセス権と削除権：GDPR 用に追加された機能を活用します。<a href="https://helpx.adobe.com/content/help/jp/campaign/kb/acs-privacy.html#righttoaccess">詳細情報</a> </li>
+    <li>アクセス権と削除権：GDPR 用に追加された機能を活用します。<a href="https://helpx.adobe.com/content/help/jp/campaign/kb/acs-privacy.html#righttoaccess">詳細</a> </li>
     <li><p>プライバシーリクエストを作成する際のプライバシーコアサービスに、規制のタイプ（GDPRまたはCCPA）が追加されました。 すべてのアクセス要求と削除要求に対して、このメソッドを使用する必要があります。アクセス要求および削除要求に対する Campaign API およびインターフェイスの使用は廃止されています。<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">廃止および削除された機能の記事</a>を参照してください。</p></li>
     <li>Adobe Campaignのユーザーが個人情報の販売をオプトアウトしたかどうかを追跡できるように、プロファイルリソースに<strong>CCPAオプトアウト</strong>フィールドが追加されました。 <a href="https://helpx.adobe.com/jp/campaign/kb/acs-privacy.html#ccpa">詳細情報</a>。</li>
   </ul>
@@ -72,7 +72,7 @@ ht-degree: 9%
 * **ファイルを読み込み**&#x200B;アクティビティが改善されました。ワークフローログは、ファイルの読み込みに失敗したときに発生するエラーに関して、より明確で詳細になりました。 「**ファイルの却下を保持**」オプションをアクティブ化したときに生成されるアウトバウンドトランジションの名前が「**却下**」に変更されました。 [詳細情報](../../automating/using/load-file.md)
 * アップロードされたCSVファイルに言語が見つからないことによる送信エラーをより深く理解するために、多言語関連ログが送信ログに追加されました。
 
-**セキュリティの機能強化**
+**セキュリティ機能の強化**
 
 * プライバシーリクエストを介して量子化されたプロファイルの情報を削除すると、強制隔離リストのEメールアドレスを除くすべてのデータが削除される問題を修正しました。
 * Eメールヘッダーのインジェクションに対する保護のセキュリティが強化されました。
@@ -170,7 +170,7 @@ ht-degree: 9%
  </tbody> 
 </table>
 
-**セキュリティの機能強化**
+**セキュリティ機能の強化**
 
 * 画像を取得するための無効なリクエストに対するサービス拒否(DoS)攻撃を防ぐセキュリティの問題を修正しました。 （CAMP-33454）
 
@@ -446,7 +446,7 @@ ht-degree: 9%
  </tbody> 
 </table>
 
-**セキュリティの機能強化**
+**セキュリティ機能の強化**
 
 * 検索エンジンのインデックス作成を防ぐために、生成されたランディングページのHTMLコードが更新されました。
 
