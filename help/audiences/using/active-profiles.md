@@ -4,10 +4,10 @@ product: campaign
 title: キャンペーンのアクティブなプロファイル
 description: 顧客指標とアクティブなプロファイルにアクセスする方法を説明します
 feature: プロファイル
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 22516348-7695-4579-99eb-480e5b723ccc
-source-git-commit: f66a4e35e1f42a3d7630556d020ce76adfea5891
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 14%
@@ -42,5 +42,5 @@ Campaign機能の管理者は、**[!UICONTROL Administration > Customer metrics]
 
 >[!NOTE]
 >
->管理者ユーザーは、インスタンスで使用されるアクティブなプロファイルの数を、Campaign コントロールパネルから直接監視することもできます。 詳しくは、[コントロールパネルのドキュメント](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html?lang=ja)を参照してください。
+>管理者ユーザーは、インスタンスで使用されるアクティブなプロファイルの数を、Campaign コントロールパネルから直接監視することもできます。 詳しくは、[Campaign コントロールパネルのドキュメント](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html?lang=ja)を参照してください。
 
