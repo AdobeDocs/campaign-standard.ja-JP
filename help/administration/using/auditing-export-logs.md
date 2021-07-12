@@ -6,30 +6,29 @@ description: 管理者は、Adobe Campaignから作成されたエクスポー�
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-feature: Access Management
-role: Administrator
+feature: アクセス管理
+role: Admin
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 552fa4ac-77a2-4d99-b49a-5dc01acedeb2
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 7%
+source-wordcount: '115'
+ht-degree: 6%
 
 ---
 
-
 # エクスポートログの監査{#auditing-export-logs}
 
-管理者は、**[!UICONTROL Administration]** > **[!UICONTROL Users & Security]** > **[!UICONTROL Export audits]**&#x200B;から、日付やエクスポートを実行したユーザーを含む、次のエクスポートのリストを表示できます。
+管理者は、**[!UICONTROL Administration]** > **[!UICONTROL Users & Security]** > **[!UICONTROL Export audits]**&#x200B;から、エクスポートを実行した日付やユーザーを含む、次のエクスポートのリストを表示できます。
 
-* ワークフロー内の&#x200B;**[!UICONTROL Transfer file]**&#x200B;アクティビティからのファイルアップロード。
+* ワークフローの&#x200B;**[!UICONTROL Transfer file]**&#x200B;アクティビティからのファイルのアップロード。
 * リストまたはサブリストからのリストエクスポート。
 * ダイレクトメールメッセージの配信ダッシュボードからダウンロードしたファイル。
 
 >[!NOTE]
 >
->その他のエクスポートは追跡されません。 デフォルトでは、6か月ごとにエクスポートのリストが削除されます。
+>その他の書き出しは追跡されません。 エクスポートのリストは、デフォルトで6か月ごとにパージされます。
 
-左側のペインでは、必要に応じて、表示するエクスポートをフィルタリングできます。
+左側のウィンドウで、必要に応じて、表示するエクスポートをフィルタリングできます。
 
-[リストの書き出し](../../automating/using/exporting-lists.md)の節の説明に従って、リストを個別のファイルとして書き出すことができます。
+[リストの書き出し](../../automating/using/exporting-lists.md)の節で説明したように、リストを別のファイルとして書き出すことができます。
