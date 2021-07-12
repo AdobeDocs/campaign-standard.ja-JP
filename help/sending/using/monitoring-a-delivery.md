@@ -7,17 +7,16 @@ audience: sending
 content-type: reference
 topic-tags: monitoring-messages
 context-tags: delivery,main
-feature: Performance Monitoring
-role: Business Practitioner
+feature: パフォーマンス監視
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: ddc92077-df73-411d-a161-3263581e6945
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '463'
 ht-degree: 86%
 
 ---
-
 
 # 配信の監視{#monitoring-a-delivery}
 
@@ -25,7 +24,7 @@ ht-degree: 86%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL Administration]**&#x200B;役割と&#x200B;****&#x200B;へのアクセス権を持つ機能的な[管理者](../../administration/using/users-management.md#functional-administrators)のみが、送信ログ、メッセージログ、トラッキングログ、除外、または購読ログにアクセスできます。 管理者以外のユーザーは、これらのログにターゲットできますが、リンクされたテーブル(プロファイル、配信)から開始できます。
+>**[!UICONTROL Administration]**&#x200B;の役割と&#x200B;**へのアクセス権を持つ機能[管理者](../../administration/using/users-management.md#functional-administrators)のみが、送信ログ、メッセージログ、トラッキングログ、除外ログ、サブスクリプションログにアクセスできます。**&#x200B;管理者以外のユーザーは、これらのログをターゲットに設定できますが、リンクされたテーブル（プロファイル、配信）から始めることができます。
 
 * **メッセージログ**：これらのログは、メッセージダッシュボードから直接アクセスできます。送信の詳細、除外されたターゲットとその理由、および開封数やクリック数などの追跡情報が表示されます。
 
