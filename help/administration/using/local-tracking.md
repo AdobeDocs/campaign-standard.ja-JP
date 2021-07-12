@@ -2,54 +2,53 @@
 solution: Campaign Standard
 product: campaign
 title: プッシュトラッキングの実装
-description: このドキュメントを使用すると、プッシュ通知追跡がiOSとAndroidで正しく実装されていることを確認できます。
+description: このドキュメントを使用すると、プッシュ通知トラッキングがiOSおよびAndroidで正しく実装されていることを確認できます。
 audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
-feature: Instance Settings
-role: Administrator
+feature: インスタンス設定
+role: Admin
 level: Experienced
-translation-type: tm+mt
-source-git-commit: a7a1aa2841410674597264927325c073fef4ce26
+exl-id: b983d0a3-c345-44d4-bc82-202bf6ed26ab
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '579'
 ht-degree: 2%
 
 ---
 
+# ローカルトラッキングの実装 {#local-tracking}
 
-# ローカルトラッキングの導入{#local-tracking}
+## ローカルトラッキングについて {#about-local-tracking}
 
-## ローカルトラッキングについて{#about-local-tracking}
+このページでは、ローカル通知トラッキングが正しく実装されていることを確認する方法について説明します。 これは、ローカル通知が既に設定されていることを意味します。
 
-このページでは、ローカル通知追跡が正しく実装されていることを確認する方法を説明します。 これは、ローカル通知が既に設定されていることを意味します。
+ローカル通知のトラッキングは、次の3つのタイプに分割できます。
 
-ローカル通知追跡は、次の3つのタイプに分割できます。
+* **ローカルインプレッション**  — デバイスにローカル通知が配信され、通知センターに座っているが、まったく触れていない場合。ほとんどの場合、インプレッション数は、配信された数と異なる場合は、類似した数にする必要があります。 これにより、デバイスがメッセージを取得し、その情報をサーバーにリレーします。
 
-* **ローカルインプレッション**  — ローカル通知がデバイスに配信され、通知センターに座っているが、何も操作されていない場合。ほとんどの場合、インプレッション数は、配信された数と異なる場合は同じにする必要があります。 これにより、デバイスはメッセージを受け取り、その情報をサーバーにリレーします。
+* **ローカルクリック**  — デバイスにローカル通知が配信され、ユーザーが通知をクリックした場合。ユーザーは、通知を表示する（次にローカルの開封数の追跡に移動する）か、通知を閉じる必要があった。
 
-* **ローカルクリック**  — ローカル通知がデバイスに配信され、ユーザーが通知をクリックしたとき。ユーザーは、通知の表示（ローカルで開いている追跡に移動）または通知の却下を希望していた。
+* **ローカル開く**  — デバイスにローカル通知が配信され、ユーザーが通知をクリックしてアプリケーションが開くとき。これは、ローカルクリックと似ていますが、通知が閉じられた場合にローカル開封がトリガーされない点が異なります。
 
-* **Local open**  — ローカル通知がデバイスに配信され、ユーザーが通知をクリックした場合にアプリケーションが開きます。これはローカルクリックと似ていますが、通知が閉じられた場合にローカルで開く操作はトリガーされません。
+Adobe Campaign Standardのトラッキングを実装するには、モバイルアプリケーションにMobile SDKを含める必要があります。 これらのSDKは[!DNL Adobe Mobile Services]で利用できます。
 
-Adobe Campaign Standardのトラッキングを導入するには、モバイルアプリケーションにMobile SDKを含める必要があります。 これらのSDKは[!DNL Adobe Mobile Services]で入手できます。
-
-トラッキング情報を送信するには、3つの変数を送信する必要があります。2つはAdobe Campaignから受け取ったデータの一部で、もう1つはインプレッション、クリック、または開くかどうかを指示するアクション変数です。
+トラッキング情報を送信するには、次の3つの変数を送信する必要があります。2つはAdobe Campaignから受信したデータの一部で、もう1つはインプレッション、クリックまたは開封のいずれかを指示するアクション変数です。
 
 | 変数 | 値 |
 | :-: | :-: |
-| deliveryId | `deliveryId` 受信データから（が使用されるプッシュ追跡と同様） `_dld`  |
-| broadlogId | `broadlogId` 受信データから（が使用されるプッシュ追跡と同様） `_mld`  |
-| action | 「開く」は「1」、「クリック」は「2」、「インプレッション」は「7」 |
+| deliveryId | `deliveryId` 受信データから(を使用するプッシュトラッキン `_dld` グと同様) |
+| broadlogId | `broadlogId` 受信データから(を使用するプッシュトラッキン `_mld` グと同様) |
+| action | 「1」（開封）、「2」（クリック）、「7」（インプレッション） |
 
-## ローカルインプレッショントラッキングの実装{#implement-local-impression-tracking}
+## ローカルインプレッショントラッキングの実装 {#implement-local-impression-tracking}
 
-Adobe Experience PlatformモバイルSDKは、AndroidとiOSの両方に対して、追加の設定なしにインプレッションイベントを自動的に送信します。
+Adobe Experience Platform Mobile SDKは、追加の設定なしで、AndroidとiOSの両方に対してインプレッションイベントを自動的に送信します。
 
-## クリック追跡{#implementing-click-tracking}を実装
+## クリック追跡の実装 {#implementing-click-tracking}
 
-クリック追跡の場合、`collectMessageInfo()`または`trackAction()`関数を呼び出す際に、アクションの値&quot;2&quot;を送信する必要があります。
+クリックの追跡の場合、`collectMessageInfo()`または`trackAction()`関数を呼び出す際に、アクションの値「2」を送信する必要があります。
 
 ### Android の場合 {#implement-click-tracking-android}
 
@@ -57,7 +56,7 @@ Adobe Experience PlatformモバイルSDKは、AndroidとiOSの両方に対して
 
 * ユーザーは通知を表示しますが、クリアします。
 
-   却下シナリオの場合にクリックを追跡するには、ブロードキャスト受信者`NotificationDismissalHandler`をアプリケーションモジュールのAndroidManifestファイルに追加します。
+   却下シナリオの場合にクリックを追跡するには、ブロードキャストレシーバー`NotificationDismissalHandler`をアプリケーションモジュールのAndroidManifestファイルに追加します。
 
    ```
    <receiver
@@ -65,13 +64,13 @@ Adobe Experience PlatformモバイルSDKは、AndroidとiOSの両方に対して
    </receiver>
    ```
 
-* ユーザーは通知を表示し、その通知をクリックすると、開いている追跡に変わります。
+* ユーザーは通知を表示し、その通知をクリックすると、オープントラッキングになります。
 
-   このシナリオでは、クリックとオープンが発生します。 このクリックを追跡することは、開いているものを追跡するために必要な実装の一部です。 [オープントラッキングの導入](#implement-open-tracking)を参照してください。
+   このシナリオでは、クリックと開封が発生します。 このクリックの追跡は、開封を追跡するために必要な実装の一部です。 [オープントラッキングの実装](#implement-open-tracking)を参照してください。
 
 ### iOS の場合 {#implement-click-tracking-ios}
 
-クリック追跡情報を送信するには、以下を追加する必要があります。
+クリックの追跡情報を送信するには、以下を追加する必要があります。
 
 ```
 class NotificationDelegate: NSObject, UNUserNotificationCenterDelegate {
@@ -102,17 +101,17 @@ class NotificationDelegate: NSObject, UNUserNotificationCenterDelegate {
 }
 ```
 
-## オープントラッキング{#implement-open-tracking}を実装
+## オープントラッキングの実装 {#implement-open-tracking}
 
-ユーザーがアプリケーションを開くには通知をクリックする必要があるので、「1」と「2」を送信する必要があります。 ローカル通知を通じてアプリケーションが起動または開かれない場合、追跡イベントは発生しません。
+ユーザーは通知をクリックしてアプリケーションを開く必要があるので、「1」と「2」を送信する必要があります。 アプリケーションがローカル通知を通じて起動または開かれていない場合、トラッキングイベントは発生しません。
 
 ### Android の場合 {#implement-open-tracking-android}
 
-オープンを追跡するには、インテントを作成する必要があります。 インテントオブジェクトを使用すると、特定のアクションが実行された場合に、Android OSがメソッドを呼び出すことができます。この場合、通知をクリックしてアプリを開きます。
+開封を追跡するには、インテントを作成する必要があります。 インテントオブジェクトを使用すると、特定のアクションが実行された場合（この場合は通知をクリックしてアプリを開く）に、Android OSがメソッドを呼び出すことができます。
 
-このコードは、クリックインプレッショントラッキングの導入に基づいています。 インテントを設定した場合は、トラッキング情報をAdobe Campaignに送り返す必要があります。 この場合、ユーザーがクリックした結果、通知をトリガーしたAndroid表示([!DNL Activity])が開かれるか、フォアグラウンドになります。 [!DNL Activity]のintentオブジェクトには、開いているかどうかを追跡するために使用できる通知データが含まれています。
+このコードは、クリックインプレッショントラッキングの実装に基づいています。 インテントが設定されたら、トラッキング情報をAdobe Campaignに送信する必要があります。 この場合、ユーザーがクリックした結果、通知をトリガーしたAndroid View([!DNL Activity])が開くか、フォアグラウンドに移動します。 [!DNL Activity]のintentオブジェクトには、開封を追跡するために使用できる通知データが含まれます。
 
-MainActivity.java（拡張子[!DNL Activity]）
+MainActivity.java （[!DNL Activity]を拡張）
 
 ```
 @Override
