@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
 feature: インスタンス設定
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 474c8002-4263-4617-9480-6a9b603bde8e
-source-git-commit: 0080adf32cb011535004391e7468012a07b59a9f
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 20%
@@ -26,7 +26,7 @@ ht-degree: 20%
 
 このドキュメントでは、Adobe Campaign Standard iOSのプッシュ通知から画像を表示する方法を説明します。
 
-## 手順1:プッシュ通知の設定{#set-up-push}
+## 手順1:プッシュ通知の設定 {#set-up-push}
 
 プッシュ通知は、Experience PlatformSDKでサポートされています。
 
@@ -36,7 +36,7 @@ Adobe CampaignとAdobeMobile Servicesの両方を設定すると、モバイル�
 
 Experience CloudSDKアプリケーションでプッシュ通知を送信するには、モバイルアプリをAdobe Experience Platform Launchで設定し、Adobe Campaignで設定する必要があります。 詳しくは、この[ページ](https://helpx.adobe.com/jp/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign)を参照してください。
 
-## 手順2:Adobe Campaign {#customize-push}でのプッシュ通知のカスタマイズ
+## 手順2:Adobe Campaignでのプッシュ通知のカスタマイズ {#customize-push}
 
 Adobe Campaign では、プッシュ通知のデザイン中に一連の詳細設定オプションにアクセスして、プッシュ通知を微調整することができます。
 
@@ -51,7 +51,7 @@ iOS 10 以降では、画像、gif、オーディオおよびビデオのファ�
 
 1. プッシュ通知をプレビューして保存します。
 
-## 手順3:モバイルアプリケーションコード{#mobile-app-code}の適応
+## 手順3:モバイルアプリケーションコードの適応 {#mobile-app-code}
 
 Adobe Campaignでプッシュ通知をカスタマイズした後、デバイスに画像を表示するようにモバイルアプリケーションを設定する必要があります。
 
@@ -154,7 +154,7 @@ userInfo: [AnyHashable("media-attachment-url"): https://pbs.twimg.com/profile_im
 }]
 ```
 
-## 手順4:プッシュ{#test-send-push}の送信をテストします。
+## 手順4:プッシュの送信テスト {#test-send-push}
 
 これで、上記の手順2で作成したアプリケーションと配信の構築をテストできます。 プッシュ通知の準備と送信について詳しくは、この[ページ](../../channels/using/preparing-and-sending-a-push-notification.md)を参照してください。
 
