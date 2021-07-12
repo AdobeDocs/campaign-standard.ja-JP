@@ -7,10 +7,10 @@ audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
 feature: パフォーマンス監視
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: fac29bc2-57fa-40f9-a160-cd75f695b91e
-source-git-commit: 8a62ee661b77c3e3062e46477bfce5911e9415ff
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '487'
 ht-degree: 36%
@@ -19,7 +19,7 @@ ht-degree: 36%
 
 # メッセージのトラッキング{#tracking-messages}
 
-## {#about-tracking}の追跡について
+## トラッキングについて {#about-tracking}
 
 Adobe Campaignでは、トラッキング機能を使用して、配信受信者の行動をトラッキングできます。 そのために、Adobe Campaign ではセッション Cookie および永続 Cookie を使用します。
 
