@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,wizard;landingPage,overview;landingPage,main
-feature: Landing Pages
-role: Business Practitioner
+feature: ランディングページ
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 29d1badf-9ce3-470c-9bdc-169586d2e943
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 93%
+source-wordcount: '234'
+ht-degree: 94%
 
 ---
-
 
 # ランディングページテンプレートについて {#landing-page-templates}
 
@@ -26,7 +25,7 @@ Campaign には、次の一連のランディングページテンプレート�
 * **[!UICONTROL Acquisition]**：ランディングページのデフォルトテンプレートで、これを使用すると、Campaign データベースのデータを取得および更新できます。
 * **[!UICONTROL Subscription]**：サービスのサブスクリプションをオファーする場合に使用するテンプレートです。
 * **[!UICONTROL Unsubscription]**：サービスの購読登録者に送信された E メールからリンクできるテンプレートで、これを使用して登録者がこのサービスを登録解除できます。
-* **[!UICONTROL Denylist]**：プロファイルが Campagin からの配信の受信を中止する場合に使用するテンプレートです。キャンペーン管理について詳しくは、[オプトインとオプトアウトについての](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)を参照してください。
+* **[!UICONTROL Denylist]**：プロファイルが Campagin からの配信の受信を中止する場合に使用するテンプレートです。管ブロックリスト理について詳しくは、[Campaignのオプトインとオプトアウトについて](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)を参照してください。
 
 これらのテンプレートは、新しいランディングページを作成する際にデフォルトで提示されます。
 
@@ -47,4 +46,3 @@ Campaign には、次の一連のランディングページテンプレート�
 ```
 
 「type」属性の正式なリストは、[https://www.w3schools.com/tags/att_input_type.asp](https://www.w3schools.com/tags/att_input_type.asp) で入手できます。
-
