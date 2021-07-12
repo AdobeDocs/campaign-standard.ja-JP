@@ -8,19 +8,19 @@ content-type: reference
 topic-tags: application-settings
 context-tags: branding,overview;branding,main
 feature: インスタンス設定
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: b6032160-fd8b-4a19-b868-b2fb85e6a56b
-source-git-commit: 0080adf32cb011535004391e7468012a07b59a9f
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '1282'
-ht-degree: 80%
+ht-degree: 81%
 
 ---
 
 # ブランディング{#branding}
 
-## ブランドアイデンティティについて{#about-brand-identity}
+## ブランドアイデンティティについて {#about-brand-identity}
 
 どの会社にも、ブランドの視覚的ガイドラインと技術的ガイドラインがあります。Adobe Campaign を使用すれば、ロゴから E メール送信者、URL、ドメインなどの技術的側面に至るまで、一貫したブランドを顧客に提供するための一連の仕様を定義できます。
 
@@ -87,9 +87,9 @@ ht-degree: 80%
 
    ![](assets/branding_05.png)
 
-## 新しいブランド{#creating-a-brand}の作成
+## 新しいブランドの作成 {#creating-a-brand}
 
-組織の新しいエンティティをCampaignに追加したり、別のサブドメインで送信する必要がある新しいタイプのEメールを作成したりできます。 これを実行するには、次の手順に従います。
+組織の新しいエンティティをCampaignに追加したり、別のサブドメインで送信する必要がある新しいタイプのEメールを作成したりできます。 手順は次のとおりです。
 
 1. **新しいサブドメインを設定**  -Adobeが使用する新しいサブドメインの場合、最初の手順は新しいサブドメインを設定することです。これは、[キャンペーンCampaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=ja)を通じて実行するか、Adobeの技術担当者にお問い合わせください。 サブドメインの設定[について詳しくは、この記事](https://helpx.adobe.com/jp/campaign/kb/domain-name-delegation.html)を参照してください。
 
