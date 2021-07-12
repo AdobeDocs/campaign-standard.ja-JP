@@ -7,27 +7,26 @@ audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
-feature: Deliverability
-role: Business Practitioner
+feature: 配信品質
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: fb9a6218bb754f803affde1fdf6c6fc01570126f
+exl-id: 683341fb-fef5-4aa1-8606-9526d9ae6290
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 49%
+source-wordcount: '307'
+ht-degree: 48%
 
 ---
 
-
 # 配信品質の監視{#monitor-deliverability}
 
-**[!UICONTROL Delivery throughput]**&#x200B;レポートの詳細と、Adobe Campaignが提供する様々な監視ツールを以下に示します。 配信品質の監視に関する追加のガイドラインを示します。
+以下に、**[!UICONTROL Delivery throughput]**&#x200B;レポートの詳細と、Adobe Campaignが提供する様々な監視ツールの詳細を示します。 配信品質の監視に関する追加のガイドラインを示します。
 * プラットフォーム全体で配信スループットを定期的にチェックして、元のセットアップと整合性が取れているかどうかを検証します。
 * 配信テンプレートで再試行が適切に設定されていることを確認します（再試行期間が 30 分、再試行回数が 21 回以上）。
 * バウンスメールボックスがアクセス可能で、アカウントの有効期限が近づいていないかを定期的に検証します。
 * 各配信スループットをチェックして、配信コンテンツの有効期限と整合性が取れていることを確認します（例：「フラッシュセール」は数日ではなく、数分で配信される必要があります）。
 * エラーの数と新しい強制隔離が他の配信と整合性が取れていることをチェックします。
-* 強調表示されるエラー(ブロックリスト配信ログ、DNSの問題、スパム対策ルールなど)の種類を確認するには、注意深くに問い合わせてください。
+* 配信ログの詳細を慎重に調べて、ハイライト表示されたエラーの種類をチェックしまブロックリストす（、DNSの問題、スパム対策ルールなど）。
 
 ## 配信スループット {#delivery-throughput}
 
@@ -39,21 +38,21 @@ ht-degree: 49%
 
 タイムスケールを変更して、表示する値を設定できます。
 
-**[!UICONTROL Delivery summary]**&#x200B;や&#x200B;**[!UICONTROL Non-deliverables and bounces]**&#x200B;など、他のレポートも利用できます。 詳しくは、[動的レポート](../../reporting/using/about-dynamic-reports.md)を参照してください。
+**[!UICONTROL Delivery summary]**&#x200B;や&#x200B;**[!UICONTROL Non-deliverables and bounces]**&#x200B;など、他のレポートも使用できます。 詳しくは、[動的レポート](../../reporting/using/about-dynamic-reports.md)を参照してください。
 
 ## 配信の監視 {#monitoring-deliveries}
 
-メッセージダッシュボードから配信ログにアクセスできます。**[!UICONTROL Sending logs]**、**[!UICONTROL Exclusion logs]**、**[!UICONTROL Exclusion causes]**、**[!UICONTROL Tracking logs]**、**[!UICONTROL Tracked URLs]**。 送信の詳細、除外されたターゲットとその理由、および開封数やクリック数などの追跡情報が表示されます。
+メッセージダッシュボードから配信ログにアクセスできます。**[!UICONTROL Sending logs]**、**[!UICONTROL Exclusion logs]**、**[!UICONTROL Exclusion causes]**、**[!UICONTROL Tracking logs]**、**[!UICONTROL Tracked URLs]**&#x200B;の3つの値を指定します。 送信の詳細、除外されたターゲットとその理由、および開封数やクリック数などの追跡情報が表示されます。
 
 詳しくは、[配信の監視](../../sending/using/monitoring-a-delivery.md)を参照してください。
 
 ![](assets/sending_delivery1.png)
 
-## アラートの受信{#receiving-alerts}
+## アラートの受信 {#receiving-alerts}
 
-**[!UICONTROL Delivery alerting]**&#x200B;機能は、ユーザーのグループが、配信の実行に関する情報を含む通知を自動的に受信できるようにするアラート管理システムです。
+**[!UICONTROL Delivery alerting]**&#x200B;機能は、配信の実行に関する情報を含む通知をユーザーのグループが自動的に受け取れるようにするアラート管理システムです。
 
-詳しくは、[エラーが発生した場合のアラートの受信](../../sending/using/receiving-alerts-when-failures-happen.md)を参照してください。
+詳しくは、[エラー発生時のアラートの受信](../../sending/using/receiving-alerts-when-failures-happen.md)を参照してください。
 
 <!--## External tools (#external-tools)
 
