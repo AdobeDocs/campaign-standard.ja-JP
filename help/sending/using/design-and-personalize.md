@@ -8,17 +8,17 @@ topic-tags: deliveries-best-practices
 index: y
 description: メッセージコンテンツをデザインし、配信の実行を妨げる可能性がある一般的な問題を回避する方法を説明します。 
 feature: 配信品質
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 938989c9-ef19-4297-9b8b-c38eb1cec1f0
-source-git-commit: d84a11d4064938792a2e2c365b6085c263f55648
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '1034'
 ht-degree: 69%
 
 ---
 
-# パーソナライズされたコンテンツの作成 {#build-personalized-content}
+# パーソナライズしたコンテンツの作成 {#build-personalized-content}
 
 メッセージコンテンツを設計するときは、配信の実行を妨げる可能性がある一般的な問題が発生しないようにします。ほとんどの場合、考えられるエラーは、[パーソナライゼーション](../../designing/using/personalization.md)、[既存のコンテンツ](../../designing/using/using-existing-content.md)を使用した形式、[HTMLコンテンツ](../../designing/using/using-existing-content.md#converting-an-html-content)を変換した形式、[画像](../../designing/using/images.md)に関連しています。
 
@@ -73,7 +73,7 @@ E メールを作成する際は、以下の一般的なベストプラクティ
 
 オプトアウトリンクを挿入する方法については、[この節](../../designing/using/personalization.md#adding-a-content-block)を参照してください。
 
-### E メールのサイズ  {#email-size}
+### E メールのサイズ {#email-size}
 
 パフォーマンスや配信品質の問題を回避するため、E メールの最大サイズは約 **35** KB です。
 
