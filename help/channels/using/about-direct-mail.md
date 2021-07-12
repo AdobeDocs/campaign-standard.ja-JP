@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: direct-mail
 context-tags: delivery,directMailContent,back;deliveryCreation,wizard
-feature: Direct Mail
-role: Business Practitioner
+feature: ダイレクトメール
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 815b4a0d-0486-4867-b751-b5ca8b643cb9
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 97%
+source-wordcount: '457'
+ht-degree: 98%
 
 ---
-
 
 # ダイレクトメールについて{#about-direct-mail}
 
@@ -41,11 +40,11 @@ Adobe Campaign のユーザープロセスは次のとおりです。
 
 **関連トピック：**
 
-* [使用例：電子メールとダイレクトメールの配信の結合](../../automating/using/coupling-email-direct-mail.md)
+* [使用例：Eメールとダイレクトメールの配信の結合](../../automating/using/coupling-email-direct-mail.md)
 
 ## 推奨事項 {#recommendations}
 
-### ダイレクトメールプロバイダー{#direct-mail-providers}
+### ダイレクトメールプロバイダー {#direct-mail-providers}
 
 まず、ダイレクトメールプロバイダーに問い合わせて、推奨事項を確認する必要があります。抽出ファイルに格納する必要があるプロファイル情報を特定して、コミュニケーションをパーソナライズし、オーディエンスに送信できるようにします。例えば、氏名、住所、プロモーションコードなどです。これらのフィールドは、ダイレクトメールのコンテンツの「[抽出の定義](../../channels/using/defining-the-direct-mail-content.md#defining-the-extraction)」タブで追加するフィールドです。
 
