@@ -1,74 +1,73 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: データベースの強化
-description: データベースを拡張する様々な方法について説明します。
+title: データベースのエンリッチメント
+description: データベースをエンリッチメントする様々な方法について説明します。
 audience: start
 content-type: reference
 topic-tags: about-adobe-campaign
-feature: Profiles
-role: Business Practitioner
+feature: プロファイル
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 9c55a8b3-034e-4319-8a88-7b59e83fa458
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '448'
 ht-degree: 3%
 
 ---
 
+# データベースのエンリッチメント{#enriching-the-database}
 
-# データベースの強化{#enriching-the-database}
+Campaign Standardは、マーケティングデータベースの拡張に役立つツールを提供します。 この節では、Campaignにデータを挿入するための様々な方法と、専用のドキュメントの参照について説明します。
 
-Campaign Standardオファーは、マーケティングデータベースの拡張に役立つツールをいくつかご紹介します。 この節では、専用のドキュメントを参照しながら、キャンペーンにデータを挿入するために使用できる様々な方法について説明します。
+## ワークフローを使用したデータのインポート {#importing-data-through-workflows}
 
-## ワークフロー{#importing-data-through-workflows}を介したデータのインポート
+ワークフローでは、[[!UICONTROL Data management]](../../automating/using/about-data-management-activities.md)アクティビティを使用してデータを収集し、Campaignデータベースにインポートできます。
 
-ワークフローを使用すると、データを収集し、[[!UICONTROL Data management]](../../automating/using/about-data-management-activities.md)アクティビティを使用してキャンペーンデータベースにインポートできます。
+ワークフローを通じてデータをインポートする際の一般的な情報とベストプラクティスについては、[この節](../../automating/using/about-data-import-and-export.md)を参照してください。
 
-ワークフローを介してデータをインポートする場合の一般的な情報とベストプラクティスについては、[このセクション](../../automating/using/about-data-import-and-export.md)を参照してください。
-
-また、データを読み込むためのテンプレートを設定することもできます。 同じ構造を持つファイルを定期的に読み込む必要がある場合は、インポートテンプレートの使用をお勧めします。
+さらに、データをインポートするためのテンプレートを設定することもできます。 同じ構造を持つファイルを定期的にインポートする必要がある場合は、インポートテンプレートを使用することをお勧めします。
 
 次の2種類のテンプレートを設定できます。
 
-* **ワークフローテンプレート**:これらは事前設定済みのワークフローで、必要に応じて一度設定すれば、データを読み込んでデータベースを更新するたびに再利用できます。
+* **ワークフローテンプレート**:これらは、必要に応じて一度設定し、データをインポートしてデータベースを更新するたびに再利用できる、事前設定済みのワークフローです。
 
-   データをインポートするワークフローテンプレートの例については、[このセクション](../../automating/using/creating-import-workflow-templates.md)を参照してください。
+   データをインポートするワークフローテンプレートの例について詳しくは、[この節](../../automating/using/creating-import-workflow-templates.md)を参照してください。
 
-* **データテンプレートの読み込み**:ワークフローテンプレートと同様、テンプレートはワークフローに基づくテンプレートで、データベースを更新するためにファイルをアップロードするように設定されます。設定が完了すると、**[!UICONTROL Profile & audiences]** / **[!UICONTROL Imports]**&#x200B;メニューの下のシンプルな表示でユーザーが使用できるようになります。
+* **データテンプレートのインポート**:ワークフローテンプレートと同様に、これらはワークフローに基づくテンプレートで、データベースを更新するためにファイルをアップロードするように設定されています。設定が完了すると、 **[!UICONTROL Profile & audiences]** / **[!UICONTROL Imports]**&#x200B;メニューの下に簡略表示が表示され、ユーザーが使用できるようになります。
 
-   データテンプレートの読み込みについて詳しくは、[専用ドキュメント](../../automating/using/importing-data-with-import-templates.md)を参照してください。
+   データテンプレートのインポートについて詳しくは、[専用のドキュメント](../../automating/using/importing-data-with-import-templates.md)を参照してください。
 
-## ランディングページ{#collecting-data-from-landing-pages}からデータを収集中
+## ランディングページからのデータの収集 {#collecting-data-from-landing-pages}
 
 ランディングページとは、データを収集し、データベース内の既存の情報を作成または更新するために使用できるWebフォームです。
 
-原則は以下の通り。
+原則は次のとおりです。
 
-* データを収集する入力フィールド（名、姓、電子メールなど）を追加して、ランディングページを作成および設計します。
-* 各入力フィールドを、データベースの対応するフィールドにマップします。
-* Webサイトまたはメッセージへの直接リンクを介して、ランディングページをオンラインで利用できるようにします。
+* データ（名、姓、Eメールなど）を収集するための入力フィールドを追加して、ランディングページを作成およびデザインします。
+* 各入力フィールドを、データベースの対応するフィールドにマッピングします。
+* ランディングページを、Webサイト経由、またはメッセージへの直接リンクを通じてオンラインで使用できるようにします。
 
-ランディングページについて詳しくは、[専用ドキュメント](../../channels/using/getting-started-with-landing-pages.md)を参照してください。
+ランディングページについて詳しくは、[専用のドキュメント](../../channels/using/getting-started-with-landing-pages.md)を参照してください。
 
 ## Microsoft Dynamics 365からのプロファイルの同期
 
-Microsoft Dynamics 365とのCampaign Standard統合により、Microsoft Dynamics 365の連絡先データをキャンペーンデータベースに渡すことができます。
-これらの連絡先はプロファイルリストに表示され、マーケティングキャンペーンでターゲットを設定できます。
+Microsoft Dynamics 365とのCampaign Standard統合により、Microsoft Dynamics 365の連絡先データをCampaignデータベースに渡すことができます。
+これらの連絡先はプロファイルリストに表示され、マーケティングキャンペーンのターゲットに設定できます。
 
-この統合の詳細については、[専用ドキュメント](../../integrating/using/d365-acs-get-started.md)を参照してください。
+この統合について詳しくは、[専用のドキュメント](../../integrating/using/d365-acs-get-started.md)を参照してください。
 
 >[!NOTE]
 >
->Campaign Standard-Microsoft Dynamics 365 Connectorは現在限定可用性を備えており、ドキュメントに詳しく記載されているいくつかの制限事項に従うことに注意してください。
+>Campaign Standard- Microsoft Dynamics 365コネクタは現在、使用が制限されています。このコネクタには、ドキュメントで詳しく説明されているいくつかの制限が適用されます。
 
 ## API呼び出しを使用したデータの読み込み
 
 Campaign StandardAPIを使用すると、プロファイルやサービスの作成、更新、削除など、データベースを更新する操作を実行できます。
 
-APIの使用方法について詳しくは、[専用ドキュメント](../../api/using/get-started-apis.md)を参照してください。
+APIの使用方法について詳しくは、[専用のドキュメント](../../api/using/get-started-apis.md)を参照してください。
 
 >[!IMPORTANT]
 >
->API呼び出しを使用してプロファイルの一括作成または更新を実行する前に、使用許諾契約に対応するスケール制限を確認してください。 詳しくは、[こちらのページ](https://helpx.adobe.com/jp/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers)を参照してください。
+>API呼び出しを使用してプロファイルの一括作成または更新を実行する前に、使用許諾契約に対応するスケール制限を確認してください。 詳しくは、[このページ](https://helpx.adobe.com/jp/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers)を参照してください。
