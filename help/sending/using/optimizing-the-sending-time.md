@@ -6,17 +6,16 @@ description: 送信時間を設定し、メッセージの開封率を高める�
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
-feature: Send Time Optimization
-role: Business Practitioner
+feature: 送信時間の最適化
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: f35b46c6-de88-4efa-b3b7-8bb9024e40a8
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '275'
 ht-degree: 98%
 
 ---
-
 
 # 送信時間の最適化{#optimizing-the-sending-time}
 
@@ -46,4 +45,3 @@ E メールの場合は、サーバーの負荷と再試行の回数に応じて
 * **[!UICONTROL Send at a custom date defined by a formula]**：各受信者は、指定された数式で設定された日時にメッセージを受信します。
 
    [送信日の計算](../../sending/using/computing-the-sending-date.md)を参照してください。
-
