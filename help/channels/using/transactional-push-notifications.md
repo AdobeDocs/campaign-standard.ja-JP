@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
 feature: トランザクションメッセージ
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 61988c1d-d538-47b1-94c1-f3fbdf314b65
-source-git-commit: 33d3dc43a64b9670666844a3266e2aa2458a1c40
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '1453'
 ht-degree: 4%
@@ -33,13 +33,13 @@ Adobe Campaignを使用して、iOSおよびAndroidモバイルデバイスで�
 * [イベントをターゲットとしたトランザクションプッシュ通知](#transactional-push-notifications-targeting-an-event)
 * [Adobe Campaignデータベースからのプロファイルをタ](#transactional-push-notifications-targeting-a-profile) ーゲットとするトランザクションプッシュ通知
 
-## イベント{#transactional-push-notifications-targeting-an-event}をターゲットとするトランザクションプッシュ通知
+## イベントをターゲットとしたトランザクションプッシュ通知 {#transactional-push-notifications-targeting-an-event}
 
 Adobe Campaignを使用して、モバイルアプリケーションからの通知の受信をオプトインしたすべてのユーザー&#x200B;**に、**&#x200B;匿名トランザクションプッシュ通知を送信できます。
 
 この場合、配信ターゲット&#x200B;**の定義には、イベント自体に含まれる**&#x200B;データのみが使用されます。 Adobe Campaign統合プロファイルデータベースのデータは利用されません。
 
-### イベントベースのトランザクションプッシュ通知の設定{#configuring-event-based-transactional-push-notification}
+### イベントベースのトランザクションプッシュ通知の設定 {#configuring-event-based-transactional-push-notification}
 
 モバイルアプリケーションからの通知の受信をオプトインしたすべてのユーザーにトランザクションプッシュ通知を送信するには、まず、イベント自体に含まれるデータをターゲットにしたイベントを作成および設定する必要があります。
 
@@ -71,7 +71,7 @@ Adobe Campaignを使用して、モバイルアプリケーションからの通
 
 1. イベントをWebサイトに統合します（[イベントトリガーを統合する](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)を参照）。
 
-### イベントベースのトランザクションプッシュ通知の送信{#sending-event-based-transactional-push-notification}
+### イベントベースのトランザクションプッシュ通知の送信 {#sending-event-based-transactional-push-notification}
 
 例えば、航空会社がモバイルアプリのユーザーを招待して、搭乗のために関連するゲートに進みたいとします。
 
@@ -119,7 +119,7 @@ Adobe Campaignを使用して、モバイルアプリケーションからの通
 
 *「こんにちは、ジェーン・グリーン、搭乗が始まったばかりです。ゲートB18に進んでください。&quot;*
 
-## プロファイル{#transactional-push-notifications-targeting-a-profile}をターゲットとするトランザクションプッシュ通知
+## プロファイルをターゲットとしたトランザクションプッシュ通知 {#transactional-push-notifications-targeting-a-profile}
 
 モバイルアプリケーション&#x200B;**を購読したAdobe Campaignプロファイルに、トランザクションプッシュ通知**&#x200B;を送信できます。 この配信には、Adobe Campaignデータベースから直接取得した受信者の名など、[パーソナライゼーションフィールド](../../designing/using/personalization.md#inserting-a-personalization-field)を含めることができます。
 
@@ -133,7 +133,7 @@ Adobe Campaignを使用して、モバイルアプリケーションからの通
 
 プロファイルへのアクセスと編集について詳しくは、[プロファイル](../../audiences/using/about-profiles.md)についてを参照してください。
 
-### プロファイルベースのトランザクションプッシュ通知の設定{#configuring-profile-based-transactional-push-notification}
+### プロファイルベースのトランザクションプッシュ通知の設定 {#configuring-profile-based-transactional-push-notification}
 
 モバイルアプリケーションを購読したAdobe Campaignプロファイルにトランザクションプッシュ通知を送信するには、まずAdobe Campaignデータベースをターゲットとするイベントを作成し、設定する必要があります。
 
@@ -163,7 +163,7 @@ Adobe Campaignを使用して、モバイルアプリケーションからの通
 
 1. イベントをWebサイトに統合します（[イベントトリガーを統合する](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)を参照）。
 
-### プロファイルベースのトランザクションプッシュ通知の送信{#sending-profile-based-transactional-push-notification}
+### プロファイルベースのトランザクションプッシュ通知の送信 {#sending-profile-based-transactional-push-notification}
 
 例えば、航空会社が、モバイルアプリを購読したすべてのAdobe Campaignユーザーに対して、搭乗用の最後の呼び出しを送信するとします。
 
@@ -196,7 +196,7 @@ Adobe Campaignを使用して、モバイルアプリケーションからの通
 >
 >登録トークン、アプリケーションおよびプッシュプラットフォームフィールドはありません。 この例では、Eメールフィールドに対する紐付けが実行されます。
 
-## トランザクションプッシュ通知でのターゲットマッピングの変更{#change-target-mapping}
+## トランザクションプッシュ通知でのターゲットマッピングの変更 {#change-target-mapping}
 
 トランザクションプッシュ通知は、特定の[ターゲットマッピング](../../administration/using/target-mappings-in-campaign.md)を使用します。このマッピングには、このタイプの配信の送信に必要な技術的設定が含まれます。
 
