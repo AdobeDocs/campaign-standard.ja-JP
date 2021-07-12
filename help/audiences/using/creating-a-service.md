@@ -8,22 +8,21 @@ content-type: reference
 topic-tags: managing-subscriptions
 context-tags: service,wizard;service,main
 feature: Audiences
-role: Business Practitioner
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 6f42251e-75da-4707-a855-6ba9a86256c9
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 94%
+source-wordcount: '441'
+ht-degree: 95%
 
 ---
-
 
 # サービスの作成{#creating-a-service}
 
 サブスクリプションを管理するには、まずサービスを作成し、設定する必要があります。新しいサービスを設定すると、プロファイルがサービスを登録または登録解除する際に受け取る電子メール確認を指定できます。また、サービスにリンクされている購読と購読解除のランディングページも定義します。例えば、電子メールにサービスサブスクリプションリンクを挿入すると、サービスで指定されたサブスクリプションランディングページにプロファイルが自動的に誘導されます。
 
-![](assets/do-not-localize/how-to-video.png) [この機能をビデオで確認](#video)
+![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](#video)
 
 サービスを設定するには、次の手順に従います。
 
@@ -66,8 +65,8 @@ ht-degree: 94%
 
 ## チュートリアルビデオ {#video}
 
-このビデオでは、サービスを作成し、その購読を管理する方法を示します。
+このビデオでは、サービスの作成方法と購読の管理方法を説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/24673?quality=12)
 
-追加のCampaign Standardハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja)で参照できます。
+追加のCampaign Standardハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja)からご覧いただけます。
