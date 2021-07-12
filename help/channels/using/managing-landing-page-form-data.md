@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,main
 feature: ランディングページ
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 7083447c-4cac-41cb-8453-369819e0c7c1
-source-git-commit: d84a11d4064938792a2e2c365b6085c263f55648
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 62%
@@ -63,7 +63,7 @@ ht-degree: 62%
 1. **[!UICONTROL Form parameter mapping]** を定義：このセクションでは、ランディングページフィールドのパラメーターと、紐付けキーで使用するパラメーターをマップできます。
 1. **[!UICONTROL Update strategy]** を選択：紐付けキーが既存のデータベースプロファイルを回復した場合、フォームに入力されたデータを使用してこのプロファイルを更新するか、この更新を実行しないかを選択できます。
 
-## 契約チェックボックス{#agreement-checkbox}
+## 契約チェックボックス {#agreement-checkbox}
 
 ランディングページを送信する前にプロファイルが確認する必要があるチェックボックスを追加できます。
 
