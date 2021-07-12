@@ -7,10 +7,10 @@ audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 feature: 概要
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
-source-git-commit: df86191b2941a6121a52b2255e19f8b623b64be6
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '5298'
 ht-degree: 98%
@@ -295,7 +295,7 @@ ht-degree: 98%
 
 ![](assets/do-not-localize/cp-icon.png) **Campaign コントロールパネルの 5 月の新しいリリース**&#x200B;で、CNAME サブドメインの証明書を更新できるようになりました。詳しくは、[こちら](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html)を参照してください。
 
-## リリース 20.2 - 2020 年 4 月{#release-20-2---april-2020}
+## リリース 20.2 - 2020 年 4 月 {#release-20-2---april-2020}
 
 **新機能**
 
