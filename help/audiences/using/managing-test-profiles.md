@@ -7,17 +7,16 @@ audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
 context-tags: seedMember,overview
-feature: Profiles
-role: Business Practitioner
+feature: プロファイル
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 56ece9da-18ec-4d27-a637-c22709a5e6aa
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 95%
+source-wordcount: '450'
+ht-degree: 96%
 
 ---
-
 
 # テストプロファイルの管理 {#managing-test-profiles}
 
@@ -25,7 +24,7 @@ ht-degree: 95%
 
 テストプロファイルを使用すると、定義済みのターゲティング条件に一致しない追加の受信者をターゲットにすることができます。テストプロファイルは、受信者データベースの不正使用を検出したり、E メールがインボックスに確実に届くようにしたりするために、メッセージのオーディエンスに追加されます。
 
-![](assets/do-not-localize/how-to-video.png) [この機能をビデオで確認](#video)
+![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](#video)
 
 テストプロファイルは、アドバンスメニュー&#x200B;**[!UICONTROL Profiles & audiences > Test profiles]**&#x200B;から管理できます。
 
@@ -83,8 +82,8 @@ ht-degree: 95%
 
 ## チュートリアルビデオ {#video}
 
-このビデオでは、テストプロファイルの作成方法を紹介します。
+このビデオでは、テストプロファイルの作成方法を説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/24094?quality=12)
 
-追加のCampaign Standardハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja)で参照できます。
+追加のCampaign Standardハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja)からご覧いただけます。
