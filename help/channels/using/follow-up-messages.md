@@ -6,48 +6,47 @@ description: フォローアップメッセージを作成、管理、送信す�
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
-feature: Transactional Messaging
-role: Business Practitioner
+feature: トランザクションメッセージ
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 0a05cf20-7c8f-406b-acfd-7aece2c5dd26
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '775'
 ht-degree: 3%
 
 ---
 
-
 # フォローアップメッセージ {#follow-up-messages}
 
-フォローアップメッセージは、定義済みのマーケティング配信テンプレートで、特定のトランザクションメッセージの受信者に別の通信を送信するためにワークフローで使用できます。
+フォローアップメッセージは、ワークフローで使用して、特定のトランザクションメッセージの受信者に別のコミュニケーションを送信できる、事前定義済みのマーケティング配信テンプレートです。
 
-「[トランザクションメッセージングの動作原則](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle)」の節で説明した例を再利用します。買い物かごに商品を追加したが、購入を経験せずにサイトを離れたユーザーに、買い物かごの放棄の電子メールが送信されます。
+[トランザクションメッセージの動作の仕組み](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle)の節で説明した例を再利用します。買い物かごの放棄に関する電子メールが、買い物かごに商品を追加したが、購入を経ずにサイトを離れたWebサイトユーザーに送信されます。
 
-買い物かごの放棄の通知を受け取ったが、3日後に買い物かごを開かなかったすべての顧客に、わかりやすいリマインダーを送信したい。 ユーザーには、最初に送信された電子メールで使用されたのと同じデータに基づくフォローアップメッセージが届きます。
+買い物かごの放棄通知を受け取ったが、3日後に買い物かごを開封しなかったすべての顧客に、わかりやすいリマインダーを送信する場合。 受信者には、最初に送信されたEメールで使用されたのと同じデータに基づいてフォローアップメッセージが届きます。
 
-## フォローアップメッセージを送信するイベントの設定{#configuring-an-event-to-send-a-follow-up-message}
+## フォローアップメッセージを送信するためのイベントの設定 {#configuring-an-event-to-send-a-follow-up-message}
 
-フォローアップメッセージを送信するには、最初に、既に受信したトランザクションメッセージに対応するイベントを設定する必要があります。
+フォローアップメッセージを送信するには、まず、既に受信したトランザクションメッセージに対応するイベントを設定する必要があります。
 
-1. イベントトランザクションメッセージの送信に作成したのと同じイベント設定を使用します。 「[トランザクションイベントの設定](../../channels/using/configuring-transactional-event.md)」を参照してください。
+1. 作成したのと同じイベント設定を使用して、イベントトランザクションメッセージを送信します。 [トランザクションイベントの設定](../../channels/using/configuring-transactional-event.md)を参照してください。
 1. イベントを設定する場合は、イベントを公開する前に&#x200B;**[!UICONTROL Create follow-up delivery template for this event]**&#x200B;ボックスをオンにします。
 
    ![](assets/message-center_follow-up-checkbox.png)
 
 1. [イベントをプレビューして公開します](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)。
 
-イベントが公開されると、新しいイベントにリンクされたトランザクションメッセージとフォローアップ配信テンプレートが自動的に作成されます。 フォローアップメッセージを送信する手順については、[このセクション](#sending-a-follow-up-message)で詳しく説明します。
+イベントが公開されると、新しいイベントにリンクされたトランザクションメッセージとフォローアップ配信テンプレートが自動的に作成されます。 フォローアップメッセージを送信する手順については、[この節](#sending-a-follow-up-message)で詳しく説明します。
 
-## フォローアップメッセージへのアクセス{#accessing-the-follow-up-messages}
+## フォローアップメッセージへのアクセス {#accessing-the-follow-up-messages}
 
-ワークフロー内のイベントを処理するには、配信テンプレートが必要です。 ただし、イベントを公開する場合、作成された[トランザクションメッセージ](../../channels/using/editing-transactional-message.md)はテンプレートとして使用できません。 したがって、このイベントタイプをサポートし、ワークフローのテンプレートとして使用するために、特定のフォローアップ配信テンプレートを作成する必要があります。
+ワークフローでイベントを処理するには、配信テンプレートが必要です。 ただし、イベントを公開する際に、作成された[トランザクションメッセージ](../../channels/using/editing-transactional-message.md)をテンプレートとして使用することはできません。 したがって、このイベントタイプをサポートし、ワークフローのテンプレートとして使用するように設計された、特定のフォローアップ配信テンプレートを作成する必要があります。
 
 このテンプレートにアクセスするには：
 
 1. 左上隅の&#x200B;**[!UICONTROL Adobe Campaign]**&#x200B;ロゴをクリックします。
 1. **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**&#x200B;を選択します。
-1. 左側のウィンドウの&#x200B;**[!UICONTROL Follow-up messages]**&#x200B;ボックスをチェックします。
+1. 左側のウィンドウで&#x200B;**[!UICONTROL Follow-up messages]**&#x200B;ボックスをオンにします。
 
    ![](assets/message-center_follow-up-search.png)
 
@@ -55,27 +54,27 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->[管理](../../administration/using/users-management.md#functional-administrators)ロールを持つユーザーのみが、トランザクションメッセージにアクセスして編集できます。
+>トランザクションメッセージにアクセスして編集できるのは、[管理](../../administration/using/users-management.md#functional-administrators)の役割を持つユーザーのみです。
 
-## フォローアップメッセージ{#sending-a-follow-up-message}を送信中
+## フォローアップメッセージの送信 {#sending-a-follow-up-message}
 
-作成したフォローアップ配信テンプレートをワークフローで使用して、フォローアップメッセージを送信できます。
+フォローアップ配信テンプレートを作成したら、そのテンプレートをワークフローで使用してフォローアップメッセージを送信できます。
 
 <!--You need to set up a workflow targeting the event corresponding to the transactional message that was already received.-->
 
 1. マーケティングアクティビティリストにアクセスし、新しいワークフローを作成します。
 
-   「[ワークフローの構築](../../automating/using/building-a-workflow.md#creating-a-workflow)」を参照してください。
+   [ワークフローの構築](../../automating/using/building-a-workflow.md#creating-a-workflow)を参照してください。
 
 1. **[!UICONTROL Scheduler]**&#x200B;アクティビティをワークフローにドラッグ&amp;ドロップして開きます。 実行頻度を1日に1回に設定します。
 
-   スケジューラーアクティビティは、[スケジューラー](../../automating/using/scheduler.md)セクションに表示されます。
+   スケジューラーアクティビティについては、[スケジューラー](../../automating/using/scheduler.md)の節で説明しています。
 
 1. **[!UICONTROL Query]**&#x200B;アクティビティをワークフローにドラッグ&amp;ドロップして開きます。
 
-   クエリアクティビティは、[クエリ](../../automating/using/query.md)セクションに表示されます。
+   「クエリ」アクティビティについては、[クエリ](../../automating/using/query.md)の節で説明しています。
 
-1. プロファイルリソース以外のリソースに対してクエリを実行するには、アクティビティの&#x200B;**[!UICONTROL Properties]**&#x200B;タブに移動し、**[!UICONTROL Resource]**&#x200B;ドロップダウンリストをクリックします。
+1. プロファイルリソース以外のリソースに対してクエリを実行するには、アクティビティの「**[!UICONTROL Properties]**」タブに移動し、「**[!UICONTROL Resource]**」ドロップダウンリストをクリックします。
 
    ![](assets/message-center_follow-up-query-properties.png)
 
@@ -83,56 +82,56 @@ ht-degree: 3%
    >
    >デフォルトでは、このアクティビティはプロファイルを検索するように事前設定されています。
 
-1. ターゲットするイベントを選択して、このイベントのデータにのみアクセスできるようにします。
+1. このイベントのデータにのみアクセスできるように、ターゲットにするイベントを選択します。
 
    ![](assets/message-center_follow-up-query-resource.png)
 
-1. アクティビティの「**[!UICONTROL Target]**」タブに移動し、**[!UICONTROL Delivery logs (logs)]**&#x200B;要素をパレットからワークスペースにドラッグ&amp;ドロップします。
+1. アクティビティの「**[!UICONTROL Target]**」タブに移動し、パレットからワークスペースに&#x200B;**[!UICONTROL Delivery logs (logs)]**&#x200B;要素をドラッグ&amp;ドロップします。
 
    ![](assets/message-center_follow-up-delivery-logs.png)
 
-   **[!UICONTROL Exists]**&#x200B;を選択すると、電子メールを受信したすべての顧客がターゲットされます。
+   **[!UICONTROL Exists]**&#x200B;を選択して、Eメールを受信したすべての顧客をターゲットにします。
 
    ![](assets/message-center_follow-up-delivery-logs-exists.png)
 
-1. **[!UICONTROL Tracking logs (tracking)]**&#x200B;要素をパレットからワークスペースに移動し、**[!UICONTROL Does not exist]**&#x200B;を選択して、電子メールを開かなかったすべての顧客をターゲットします。
+1. パレットの&#x200B;**[!UICONTROL Tracking logs (tracking)]**&#x200B;要素をワークスペースに移動し、**[!UICONTROL Does not exist]**&#x200B;を選択して、Eメールを開封しなかったすべての顧客をターゲットにします。
 
    ![](assets/message-center_follow-up-delivery-and-tracking-logs.png)
 
-1. ターゲットにするイベント（この例では&#x200B;**買い物かごの放棄**）をパレットからワークスペースにドラッグ&amp;ドロップします。 次に、3日前に送信されたすべてのメッセージをターゲットするルールを定義します。
+1. ターゲット設定するイベント（この例では&#x200B;**買い物かごの放棄**）をパレットからワークスペースにドラッグ&amp;ドロップします。 次に、3日前に送信されたすべてのメッセージをターゲットにするルールを定義します。
 
    ![](assets/message-center_follow-up-created.png)
 
-   つまり、ワークフローの実行の3日前にトランザクションメッセージを受け取り、まだワークフローを開いていない受信者がすべてターゲットになります。
+   つまり、ワークフローの実行の3日前にトランザクションメッセージを受け取り、まだ開いていないすべての受信者がターゲットになります。
 
    **[!UICONTROL Confirm]**&#x200B;をクリックしてクエリを保存します。
 
-1. **電子メール配信**&#x200B;アクティビティをワークフローにドラッグ&amp;ドロップします。
+1. 「**Eメール配信**」アクティビティをワークフローにドラッグ&amp;ドロップします。
 
-   電子メール配信アクティビティは、[電子メール配信](../../automating/using/email-delivery.md)セクションに表示されます。
+   Eメール配信アクティビティについては、[Eメール配信](../../automating/using/email-delivery.md)の節で説明しています。
 
    ![](assets/message-center_follow-up-workflow.png)
 
-   [SMS配信](../../automating/using/sms-delivery.md)または[プッシュ通知配信](../../automating/using/push-notification-delivery.md)アクティビティを使用することもできます。 この場合、イベント設定を作成する際に、**[!UICONTROL Mobile (SMS)]**&#x200B;または&#x200B;**[!UICONTROL Mobile application]**&#x200B;チャネルを選択していることを確認してください。 詳しくは、[イベントの作成](../../channels/using/configuring-transactional-event.md#creating-an-event)を参照してください。
+   [SMS配信](../../automating/using/sms-delivery.md)または[プッシュ通知配信](../../automating/using/push-notification-delivery.md)アクティビティを使用することもできます。 この場合、イベント設定を作成する際に、必ず&#x200B;**[!UICONTROL Mobile (SMS)]**&#x200B;チャネルまたは&#x200B;**[!UICONTROL Mobile application]**&#x200B;チャネルを選択してください。 詳しくは、[イベントの作成](../../channels/using/configuring-transactional-event.md#creating-an-event)を参照してください。
 
-1. **電子メール配信**&#x200B;アクティビティを開きます。 作成ウィザードで、**[!UICONTROL Follow-up messages]**&#x200B;ボックスをオンにし、イベントの発行後に作成されたフォローアップ配信テンプレートを選択します。
+1. **Eメール配信**&#x200B;アクティビティを開きます。 作成ウィザードで、「 **[!UICONTROL Follow-up messages]** 」ボックスをオンにし、イベントの公開後に作成したフォローアップ配信テンプレートを選択します。
 
    ![](assets/message-center_follow-up-template.png)
 
-1. フォローアップメッセージの内容では、パーソナライゼーションフィールドを追加することで、イベントの内容を活用できます。
+1. フォローアップメッセージのコンテンツで、パーソナライゼーションフィールドを追加して、イベントのコンテンツを活用できます。
 
    ![](assets/message-center_follow-up-content.png)
 
-1. イベントの作成時に定義したフィールドを探すには、**[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**&#x200B;を選択します。 [トランザクションメッセージの個人設定](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message)を参照してください。
+1. **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**&#x200B;を選択して、イベントの作成時に定義したフィールドを見つけます。 [トランザクションメッセージのパーソナライズ](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message)を参照してください。
 
    ![](assets/message-center_follow-up-personalization.png)
 
-   つまり、イベントの初回送信時に使用したリッチデータを含む同じコンテンツを利用して、パーソナライズされたフレンドリリマインダーを作成できます。
+   つまり、イベントを初めて送信したときに使用された、エンリッチメントされたデータを含む同じコンテンツを活用して、パーソナライズされたわかりやすいリマインダーを作成できます。
 
-1. アクティビティと開始をワークフローに保存します。
+1. アクティビティを保存し、ワークフローを開始します。
 
-ワークフローが開始されると、3日前に買い物かごの放棄通知を受け取ったが開かなかったすべての顧客に、同じデータに基づくフォローアップメッセージが表示されます。
+ワークフローが開始されると、3日前に買い物かごの放棄通知を受け取ったが開封しなかったすべての顧客に、同じデータに基づくフォローアップメッセージが表示されます。
 
 >[!NOTE]
 >
->イベント設定の作成時に&#x200B;**[!UICONTROL Profile]**&#x200B;ターゲティングディメンションを選択した場合は、Adobe Campaignのマーケティングデータベースもフォローアップメッセージとして使用されます。 [プロファイルトランザクションメッセージ](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities)を参照してください。
+>イベント設定の作成時に&#x200B;**[!UICONTROL Profile]**&#x200B;ターゲティングディメンションを選択した場合は、フォローアップメッセージもAdobe Campaignマーケティングデータベースを利用します。 [プロファイルトランザクションメッセージ](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities)を参照してください。
