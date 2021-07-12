@@ -7,18 +7,17 @@ audience: channels
 content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,wizard;landingPage,overview;landingPage,main
-feature: Landing Pages
-role: Business Practitioner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+feature: ランディングページ
+role: User
+exl-id: 8015c555-9521-478c-8669-66b9cc145887
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '1029'
 ht-degree: 97%
 
 ---
 
-
-# ランディングページの概要 {#getting-started-with-landing-pages}
+# ランディングページの基本を学ぶ {#getting-started-with-landing-pages}
 
 ランディングページを設定するための主な手順は次のとおりです。
 
@@ -26,12 +25,12 @@ ht-degree: 97%
 
 このページでは、各手順の情報と、詳細情報を参照できる関連ドキュメントを紹介します。
 
-![](assets/do-not-localize/how-to-video.png) [ビデオでのランディングページの作成方法の確認](#video)
+![](assets/do-not-localize/how-to-video.png) [ランディングページの作成方法をビデオで確認](#video)
 
 **関連トピック：**
 
 * [サービスの作成](../../audiences/using/creating-a-service.md)
-* [ダブルオプトインプロセスの設定](setting-up-a-double-opt-in-process.md)
+* [ダブルオプトインプロセスのセットアップ](setting-up-a-double-opt-in-process.md)
 
 ## ランディングページの制限{#landing-page-limitations}
 
@@ -137,8 +136,8 @@ ht-degree: 97%
 
 ## チュートリアルビデオ {#video}
 
-このビデオでは、ランディングページの作成および編集方法を紹介します。
+このビデオでは、ランディングページの作成方法と編集方法を説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/24093?quality=12)
 
-追加のCampaign Standardハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja)で参照できます。
+追加のCampaign Standardハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja)からご覧いただけます。
