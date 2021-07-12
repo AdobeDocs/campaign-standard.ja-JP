@@ -6,17 +6,16 @@ description: Adobe Campaign ワークスペースのホームページ、上部�
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-feature: Overview
-role: Business Practitioner
+feature: 概要
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: afdd981d-f6c7-4800-9e60-3018e0e41c74
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1293'
+source-wordcount: '1290'
 ht-degree: 92%
 
 ---
-
 
 # インターフェイスの説明{#interface-description}
 
@@ -27,7 +26,7 @@ Adobe Campaign を使用すると、様々なメニューや画面を移動し�
 * ナビゲーション用の上部バー
 * 特定の機能と設定にアクセスするための高度なメニュー
 * 特定の要素を操作する中央ゾーン
-* 表示された要素内のフィルタリングや検索をおこなうための、コンテキストに応じた横置きパネル
+* 表示された要素内のフィルタリングや検索をおこなうための、コンテキストに応じた画面左のパネル
 
 ![](assets/ux_interface_01.png)
 
@@ -41,8 +40,8 @@ Campaign ホームページは、主な Adobe Campaign 機能にすばやくア�
 * 「**[!UICONTROL Create an SMS]**」カードを選択すると、SMS 作成アシスタントが表示されます。このアシスタントでは、SMS のタイプの選択、メッセージ受信者の選択、コンテンツの定義をおこなうことができます。[SMS の作成](../../channels/using/creating-an-sms-message.md)の節を参照してください。
 * 「**[!UICONTROL Create a Direct mail]**」カードを選択すると、ダイレクトメール作成アシスタントが表示されます。[ダイレクトメールの作成](../../channels/using/creating-the-direct-mail.md)を参照してください。
 * 「**[!UICONTROL Create a push notification]**」カードを選択すると、通知作成アシスタントが表示されます。このアシスタントではプッシュ通知のタイプの選択、メッセージ受信者の選択、コンテンツの定義をおこなうことができます。[プッシュ通知の作成](../../channels/using/preparing-and-sending-a-push-notification.md)を参照してください。
-* **[!UICONTROL Create an In-App message]**&#x200B;カードを使用すると、App内作成アシスタントが表示されます。 このアシスタントでは、作成するアプリ内メッセージのタイプを選択し、そのプロパティ、オーディエンスおよびコンテンツを定義できます。 「[アプリ内メッセージの作成](../../channels/using/about-in-app-messaging.md)」の節を参照してください。
-* 「**[!UICONTROL Marketing activities]**「」カードを選択すると、すべてのアクティビティ、プログラムおよびキャンペーン、特に E メール、SMS、ワークフロー、ランディングページの一覧が表示されます。ここから、名前、日付、ステータスまたはアクティビティタイプで検索して、要素をフィルタリングできます。詳しくは、[マーケティングアクティビティリスト](../../start/using/marketing-activities.md#about-marketing-activities)の節を参照してください。
+* **[!UICONTROL Create an In-App message]**&#x200B;カードを選択すると、アプリ内作成アシスタントが表示されます。 このアシスタントでは、作成するアプリ内メッセージのタイプを選択し、そのプロパティ、オーディエンスおよびコンテンツを定義できます。 [アプリ内メッセージの作成](../../channels/using/about-in-app-messaging.md)の節を参照してください。
+* 「**[!UICONTROL Marketing activities]**」カードを選択すると、すべてのアクティビティ、プログラムおよびキャンペーン、特に E メール、SMS、ワークフロー、ランディングページの一覧が表示されます。ここから、名前、日付、ステータスまたはアクティビティタイプで検索して、要素をフィルタリングできます。詳しくは、[マーケティングアクティビティリスト](../../start/using/marketing-activities.md#about-marketing-activities)の節を参照してください。
 * 「**[!UICONTROL Programs & campaigns]**」カードを選択すると、キャンペーンを作成、管理できるプログラムのリストに移動します。[プログラムリスト](../../start/using/programs-and-campaigns.md#about-plans--programs-and-campaigns)を参照してください。
 * 「**[!UICONTROL Timeline]**」カードを使用すると、マーケティングアクティビティのインタラクティブなタイムラインに直接移動し、進行中のプログラムとそのコンテンツを参照することができます。[タイムライン](../../start/using/timeline.md)を参照してください。
 * 「**[!UICONTROL Customer profiles]**」カードを選択すると、プロファイルのリストに直接移動します。ここから、リスト内の各プロファイルに関するイベントを参照できます。[プロファイルの管理](../../audiences/using/about-profiles.md)を参照してください。
@@ -50,7 +49,7 @@ Campaign ホームページは、主な Adobe Campaign 機能にすばやくア�
 
 ## 上部バー {#top-bar}
 
-上部バーは各画面に表示され、Adobe Campaign機能間を移動できるほか、Adobeプロファイル、通知、Adobe Experience Cloudのソリューション、およびキャンペーンに関するドキュメントにアクセスできます。
+上部バーはすべての画面に表示され、Adobe Campaign機能を操作したり、接続されているAdobeプロファイル、通知、Adobe Experience Cloudソリューション、Campaignドキュメントにアクセスしたりできます。
 
 ナビゲーションは原則として次のとおりです。
 
@@ -60,14 +59,14 @@ Campaign ホームページは、主な Adobe Campaign 機能にすばやくア�
 
 * 「**[!UICONTROL Home]**」リンクをクリックすると、Adobe Campaign ホームページが表示されます。
 * 「**[!UICONTROL Marketing activities]**」、「**[!UICONTROL Programs & Campaigns]**」、「**[!UICONTROL Profiles]**」、「**[!UICONTROL Audiences]**」、「**[!UICONTROL Reports]**」の各リンクをクリックすると、これらの機能にリンクされた画面にアクセスできます。
-* **ソリューション切り替えボタン**&#x200B;を使用すると、組織または別のアプリケーションに切り替えることができます。
-* **[!UICONTROL Help]**&#x200B;アイコンは[](#help)の下に記述されています。
+* **ソリューション切り替えボタン**&#x200B;をクリックすると、組織や別のアプリケーションに切り替えることができます。
+* **[!UICONTROL Help]**&#x200B;アイコンは[](#help)の下に記述します。
 * **通知**&#x200B;アイコンには、最新のアラートまたは情報が表示されます。
-* **ユーザー**&#x200B;アイコンをクリックすると、ユーザープロファイルにリンクされた情報を表示できます。**[!UICONTROL Sign out]**&#x200B;する必要がある場合は、このアイコンを使用します。
+* **ユーザー**&#x200B;アイコンをクリックすると、ユーザープロファイルにリンクされた情報を表示できます。**[!UICONTROL Sign out]**&#x200B;が必要な場合は、このアイコンを使用します。
 
 ### ヘルプ {#help}
 
-上部バーはすべての画面に表示され、Adobe Campaign 機能を操作できるほか、接続されている Adobe プロファイル、通知、その他の Adobe Experience Cloud サービスおよびソリューション、ドキュメントにアクセスできます。
+上部バーは各画面に表示され、Adobe Campaign 機能間を移動できるほか、Adobe プロファイル、通知、Adobe Experience Cloud のソリューション、およびキャンペーンに関するドキュメントにアクセスできます。
 
 ナビゲーションは原則として次のとおりです。
 
@@ -129,13 +128,13 @@ Campaign ホームページは、主な Adobe Campaign 機能にすばやくア�
 
 中央ゾーンのコンテンツと表示形式は次のように異なる場合があります。
 
-* **リスト**：プログラム、キャンペーン、プロファイルなどの様々な要素の一覧を示します。これらの要素は&#x200B;**[!UICONTROL Card]**&#x200B;または&#x200B;**[!UICONTROL List]**&#x200B;モードで表示できます。切り替えモードボタンを使用して、切り替えをおこないます。各要素には、インジケーターが表示されます。
+* **リスト**：プログラム、キャンペーン、プロファイルなどの様々な要素が一覧表示されます。これらの要素は **[!UICONTROL Card]** モードまたは **[!UICONTROL List]** モードで表示でき、モード切り替えボタンで切り替えます。各要素には、インジケーターが表示されます。
 
    ![](assets/ux_liste.png)
 
-   カウンターを使用すると、要素の数を把握できます。この数が 30 を超える場合は、カウンターをクリックして合計数を取得する必要があります。
+   カウンターを使用すると、要素の数を把握できます。この数が 30 を超える場合は、カウンターをクリックして合計数を確認する必要があります。
 
-* **ダッシュボード**：アクティビティにリンクされているすべてのパラメーターの概要を示します。この画面には、異なる概念を分けて個別に設定できるインタラクティブゾーンが含まれています。
+* **ダッシュボード**：アクティビティにリンクされているすべてのパラメーターの概要が表示されます。この画面には、異なる概念を分けて個別に設定できるインタラクティブゾーンが含まれています。
 
    ![](assets/ux_dashboard.png)
 
