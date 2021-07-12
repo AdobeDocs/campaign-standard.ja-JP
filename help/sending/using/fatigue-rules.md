@@ -6,17 +6,16 @@ description: 疲労ルールを作成すると、プロファイルとの過剰�
 audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
-feature: Typology Rules
-role: Business Practitioner
+feature: タイポロジルール
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 21abf3c2-d319-40a8-9479-1fc02c82e5d2
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '2347'
-ht-degree: 99%
+source-wordcount: '2344'
+ht-degree: 100%
 
 ---
-
 
 # 疲労ルール{#fatigue-rules}
 
@@ -157,7 +156,7 @@ ht-degree: 99%
 * **[!UICONTROL Application criteria]**：ルールを実行するか、特定の条件に従わないかを選択します。例えば、「Newsletterがラベルの冒頭にある」を適用条件とした場合、ルールはこの条件に従う配信にのみ適用されます。配信のラベルが「プロモーション」で開始する場合、ルールはまったく実行されません。
 * **[!UICONTROL Refine threshold on profiles and deliveries > Deliveries to count]**：このタイポロジルールを使用するすべての配信がルールを実行しますが、ユーザーが過去の配信とスケジュールされている配信の中から、カウントするものを選択します。例えば、条件が「Newsletterがラベルの冒頭にある」の場合、配信のラベルが「プロモーション」で始まっていても、ルールが実行されます。選択したスライド期間中に、「Newsletter」がラベルの先頭にある配信の数がカウントされます。
 
-## スライド期間の設定{#setting-the-sliding-period}
+## スライド期間の設定 {#setting-the-sliding-period}
 
 疲労ルールは n 日周期で定義されます。期間は、2 週間、7 日間、5 時間など、「**[!UICONTROL Sliding period]**」セクションで設定します。
 
