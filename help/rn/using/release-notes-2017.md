@@ -1,19 +1,19 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: リリースノート2017
+title: リリースノート 2017
 description: このページでは、Adobe Campaign Standard の 2017 年の全リリースを紹介します。
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
 feature: 概要
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
-source-git-commit: df86191b2941a6121a52b2255e19f8b623b64be6
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '4625'
-ht-degree: 6%
+source-wordcount: '4624'
+ht-degree: 7%
 
 ---
 
@@ -329,7 +329,7 @@ _プッシュ通知_
   </tr> 
   <tr> 
    <td> Dreamweaver integration live<br /> </td> 
-   <td> Adobe CampaignとDreamweaverの統合が実行されました。 最新リリース版のDreamweaver(17.0.2)で動作するようになりました。<br /> これには、次の場所からAdobe Campaign Integration拡張機能をインストールする必要があります。 <a href="https://adobe.ly/acdw_addon">https://adobe.ly/acdw_</a><br /> addon詳しくは、このビデオを参照して <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">ください</a>。<br /> </td> 
+   <td> Adobe CampaignとDreamweaverの統合が実行されました。 最新リリース版のDreamweaver(17.0.2)で動作するようになりました。<br /> これには、次の場所からAdobe Campaign Integration拡張機能をインストールする必要があります。 <a href="https://adobe.ly/acdw_addon">https://adobe.ly/acdw_</a><br /> addon詳しくは、このビデオを参照して <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=ja">ください</a>。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
