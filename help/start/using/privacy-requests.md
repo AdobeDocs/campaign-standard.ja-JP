@@ -7,11 +7,11 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 feature: プライバシー
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
-source-git-commit: 664274abc26925044625a31489b10e5339a2ef7b
-workflow-type: ht
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+workflow-type: tm+mt
 source-wordcount: '1624'
 ht-degree: 100%
 
@@ -89,7 +89,7 @@ Adobe Campaign には、Adobe Campaign に保存されているデータに対�
 
 1. 「**[!UICONTROL Create]**」をクリックします。これで、新しい名前空間に基づいてプライバシーリクエストを作成できます。いくつかの名前空間を使用する場合、名前空間ごとに 1 つのプライバシーリクエストを作成する必要があります。
 
-### プライバシーリクエストの作成 {#create-privacy-request}
+### プライバシー要求の作成 {#create-privacy-request}
 
 >[!IMPORTANT]
 >
@@ -171,7 +171,7 @@ To change this mode, click **[!UICONTROL Edit properties]**, in the top right co
 
 ![](assets/privacy-disable-2-step-process.png)-->
 
-## 個人情報の販売のオプトアウト（CCPA）{#sale-of-personal-information-ccpa}
+## 個人情報の販売のオプトアウト（CCPA） {#sale-of-personal-information-ccpa}
 
 **カリフォルニア州消費者プライバシー法**（CCPA）は、カリフォルニア州民に個人情報に関する新しい権利を提供し、カリフォルニア州でビジネスをおこなう特定の事業者に対してデータ保護の責任を課します。
 
