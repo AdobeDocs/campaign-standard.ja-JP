@@ -8,10 +8,10 @@ content-type: reference
 topic-tags: landing-pages
 context-tags: landingPage,main
 feature: ランディングページ
-role: Business Practitioner
+role: User
 level: Intermediate
 exl-id: 0b9795e9-83e6-4399-a3b1-fc69081f6a82
-source-git-commit: 2cf8b960789ccf32b4782faa337654986e3fddbf
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 97%
@@ -71,7 +71,7 @@ ht-degree: 97%
 
    ![](assets/lp_parameters_3_temp.png)
 
-**[!UICONTROL Authorize unidentified visitors]**&#x200B;オプションを使用して、すべての訪問者がランディングページにアクセスすることを許可することもできます。
+また、**[!UICONTROL Authorize unidentified visitors]**&#x200B;オプションを使用して、すべての訪問者がランディングページにアクセスすることを認証できます。
 
 <!--Use the URL parameters to identify the visitors, using the **[!UICONTROL Authorize visitor identification via URL parameters]** option: then you must choose the loading key and map the filter parameters with the parameters of the corresponding URL.-->
 
