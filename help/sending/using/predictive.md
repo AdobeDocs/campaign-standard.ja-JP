@@ -6,17 +6,16 @@ description: 予測送信時間とエンゲージメントスコアリングを�
 audience: sending
 content-type: reference
 topic-tags: ai-powered-emails
-feature: Send Time Optimization
-role: Business Practitioner
+feature: 送信時間の最適化
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: e1cb04e6-eb38-4bcc-b071-321cc11ccc7e
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1070'
+source-wordcount: '1067'
 ht-degree: 97%
 
 ---
-
 
 # AI を利用した E メールによる設計と配信の最適化{#journey-ai}
 
@@ -35,7 +34,7 @@ Adobe Campaign Standard は、**予測送信時間の最適化**&#x200B;およ�
 >[!IMPORTANT]
 >この機能は、製品の一部として初期状態では使用できません。実装するには、アドビのコンサルティングサービス部門に依頼する必要があります。詳しくは、アドビ担当者にお問い合わせください。
 >
->この機能を使用するには、お客様が提供する必要のあるAzureまたはAmazonS3ストレージを使用する必要があります。
+>この機能を使用するには、お客様がAzureまたはAmazon S3ストレージを提供する必要があります。
 
 ## 予測送信時間の最適化{#predictive-send-time}
 
@@ -153,26 +152,3 @@ AddHours([currentDelivery/scheduling/@contactDate],
 例として、**リテンションレベル**&#x200B;の基準を次に示します。
 
 ![](assets/do-not-localize/predictive_score_query.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
