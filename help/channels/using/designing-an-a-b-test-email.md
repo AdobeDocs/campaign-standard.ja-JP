@@ -7,17 +7,16 @@ audience: channels
 content-type: reference
 topic-tags: email-messages
 context-tags: delivery,abTesting,back;deliveryCreation,wizard;delivery,main
-feature: Email
-role: Business Practitioner
+feature: メール
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 07cbf39c-4f53-49b1-8e85-c6df39f014b5
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '821'
-ht-degree: 99%
+source-wordcount: '818'
+ht-degree: 100%
 
 ---
-
 
 # A/B テスト用 E メールのデザイン{#designing-an-a-b-test-email}
 
@@ -87,7 +86,7 @@ A/B テストの具体的なコンテキストは次のようになります。
 
 これで E メールが定義され、送信されます。次にログやレポートにアクセスして、キャンペーンの成功を測定できます。
 
-## A/B テストインジケーターについて{#about-a-b-test-indicators}
+## A/B テストインジケーターについて {#about-a-b-test-indicators}
 
 E メールダッシュボードには、クリック数、開封回数、バウンス回数など、A/B テストの測定に役立ついくつかのインジケーターが用意されています。
 
