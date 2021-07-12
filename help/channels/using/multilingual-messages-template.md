@@ -6,17 +6,16 @@ description: 単一の配信を通じて、自動的にセグメント化され�
 audience: start
 content-type: reference
 topic-tags: managing-templates
-feature: Multilingual Messages
-role: Business Practitioner
+feature: 多言語メッセージ
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 3d869f31-7dfb-4546-aba5-80a2787e00be
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 98%
+source-wordcount: '296'
+ht-degree: 99%
 
 ---
-
 
 # 多言語メッセージテンプレート {#multilingual-messages-template}
 
