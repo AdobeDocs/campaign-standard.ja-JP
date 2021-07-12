@@ -1,39 +1,38 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: トランザクション・メッセージングの実行と監視
-description: トランザクションメッセージングの実行について説明し、トランザクションメッセージを監視する方法を確認します。
+title: トランザクションメッセージの実行と監視
+description: トランザクションメッセージの実行と、トランザクションメッセージの監視方法について説明します。
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: Transactional Messaging
-role: Business Practitioner
+feature: トランザクションメッセージ
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 4cea7207-469c-46c5-9921-ae2f8f12d141
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '745'
-ht-degree: 62%
+source-wordcount: '742'
+ht-degree: 63%
 
 ---
 
+# トランザクションメッセージの実行と監視 {#transactional-messaging-execution}
 
-# トランザクションメッセージングの実行と監視{#transactional-messaging-execution}
+## トランザクションメッセージ実行配信 {#transactional-message-execution-delivery}
 
-## トランザクションメッセージ実行配信{#transactional-message-execution-delivery}
-
-メッセージが発行され、サイトの統合が完了すると、イベントがトリガーされると、そのメッセージが実行配信に割り当てられます。
+メッセージが公開され、サイトの統合が完了すると、イベントがトリガーされると、そのイベントが実行配信に割り当てられます。
 
 <img src="assets/do-not-localize/icon_concepts.svg" width="60px">
 
-**実行配信**&#x200B;は、トランザクションメッセージごとに月に1回作成され、トランザクションメッセージが再び編集され、公開されるたびに作成される、非アクションで機能的な技術メッセージです。
+**実行配信**&#x200B;は、トランザクションメッセージごとに月に1回、トランザクションメッセージが編集され再び公開されるたびに作成される、アクションにつながることのない、機能しないテクニカルメッセージです。
 
 **関連トピック**：
 * [トランザクションメッセージの公開](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)
 * [イベントトリガーの統合](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)
 
-## トランザクションメッセージングの再試行プロセス{#transactional-message-retry-process}
+## トランザクションメッセージの再試行プロセス {#transactional-message-retry-process}
 
 一時的に配信されないトランザクションメッセージは、配信が期限切れになるまで自動再試行が実行される場合があります。配信期間について詳しくは、[有効期間パラメーター](../../administration/using/configuring-email-channel.md#validity-period-parameters)を参照してください。
 
@@ -42,9 +41,9 @@ ht-degree: 62%
 * トランザクションメッセージングレベルでは、トランザクションメッセージが実行配信に割り当てられる前（イベントの受信と配信の準備の間）に、イベントが失敗する可能性があります。[イベント処理の再試行プロセス](#event-processing-retry-process)を参照してください。
 * 送信プロセスレベルでは、イベントが実行配信に割り当てられると、一時的なエラーが原因でトランザクションメッセージが失敗する場合があります。詳しくは、[メッセージ送信の再試行プロセス](#message-sending-retry-process)を参照してください。
 
-### イベント処理の再試行プロセス{#event-processing-retry-process}
+### イベント処理の再試行プロセス {#event-processing-retry-process}
 
-イベントがトリガーされると、実行配信に割り当てられます。 イベントを実行配信に割り当てられない場合、イベント処理は延期されます。再試行は、新しい実行配信に割り当てられるまで実行されます。
+イベントがトリガーされると、そのイベントが実行配信に割り当てられます。 イベントを実行配信に割り当てられない場合、イベント処理は延期されます。再試行は、新しい実行配信に割り当てられるまで実行されます。
 
 >[!NOTE]
 >
@@ -52,15 +51,15 @@ ht-degree: 62%
 
 例えば、イベントの内容が正しくない、アクセス権やブランディングに問題がある、タイポロジルールの適用時にエラーが検出されたなどの理由で、実行配信にを割り当てることができない場合があります。この場合、メッセージを一時停止し、編集して問題を修正し、再度公開できます。再試行システムは、その後、新しい実行配信に割り当てます。
 
-### メッセージ送信の再試行プロセス{#message-sending-retry-process}
+### メッセージ送信の再試行プロセス {#message-sending-retry-process}
 
 イベントが実行配信に割り当てられると、受信者のメールボックスがいっぱいになった場合など、一時的なエラーが原因でトランザクションメッセージが失敗する場合があります。詳しくは、[一時的な配信エラーの後の再試行](../../sending/using/understanding-delivery-failures.md#retries-after-a-delivery-temporary-failure)を参照してください。
 
 >[!NOTE]
 >
->イベントが実行配信に割り当てられると、そのイベントはこの実行配信の送信ログに今回のみ表示されます。失敗した配信は、ログを送信するトランザクションメッセージの&#x200B;**[!UICONTROL Execution list]**&#x200B;タブに表示されます。
+>イベントが実行配信に割り当てられると、そのイベントはこの実行配信の送信ログに今回のみ表示されます。失敗した配信は、トランザクションメッセージ送信ログの「**[!UICONTROL Execution list]**」タブに表示されます。
 
-### プロセスの制限を再試行{#limitations}
+### 再試行プロセスの制限 {#limitations}
 
 **ログの更新を送信中**
 
@@ -70,9 +69,9 @@ ht-degree: 62%
 
 実行配信を停止することはできません。ただし、現在の実行配信が失敗した場合、新しいイベントを受け取るとすぐに新しいイベントが作成され、すべての新しいイベントがこの新しい実行配信で処理されます。失敗した実行配信で新しいイベントが処理されることはありません。
 
-実行配信に既に割り当てられている一部のイベントが再試行プロセスの一部として延期され、その実行配信に失敗した場合、再試行システムは、延期されたイベントを新しい実行配信に割り当てません。これは、これらのイベントが失われたことを意味します。 [配信ログ](#monitoring-transactional-message-delivery)をチェックして、影響を受けた可能性のある受信者を確認します。
+実行配信に既に割り当てられているイベントが再試行プロセスの一環として延期され、その実行配信が失敗した場合、再試行システムは延期されたイベントを新しい実行配信に割り当てません。つまり、これらのイベントは失われます。 [配信ログ](#monitoring-transactional-message-delivery)を確認して、影響を受けた可能性のある受信者を確認します。
 
-## 監視トランザクションメッセージ{#monitoring-transactional-message-delivery}
+## トランザクションメッセージの監視 {#monitoring-transactional-message-delivery}
 
 トランザクションメッセージを監視するには、対応する[実行配信](#transactional-message-execution-delivery)にアクセスする必要があります。
 
@@ -84,7 +83,7 @@ ht-degree: 62%
 
    ![](assets/message-center_execution_tab.png)
 
-1. 選択した実行配信を選択します。
+1. 目的の実行配信を選択します。
 
    ![](assets/message-center_execution_delivery.png)
 
@@ -92,9 +91,9 @@ ht-degree: 62%
 
    ![](assets/message-center_execution_access_logs.png)
 
-   各実行配信に対して、標準配信と同様に配信ログを調べることができます。 ログへのアクセスと使用について詳しくは、[配信の監視](../../sending/using/monitoring-a-delivery.md)を参照してください。
+   各実行配信では、標準の配信と同様に、配信ログを確認できます。 ログへのアクセスと使用について詳しくは、[配信の監視](../../sending/using/monitoring-a-delivery.md)を参照してください。
 
-### プロファイルベースのトランザクションメッセージの特殊性{#profile-transactional-message-monitoring}
+### プロファイルベースのトランザクションメッセージ特有性 {#profile-transactional-message-monitoring}
 
 プロファイルベースのトランザクションメッセージの場合、次のプロファイル情報を監視できます。
 
@@ -102,7 +101,7 @@ ht-degree: 62%
 
 ![](assets/message-center_marketing_sending_logs.png)
 
-「**[!UICONTROL Exclusions logs]**」タブを選択すると、メッセージターゲットから除外された表示受信者(ブロックリスト上のアドレスなど)が表示されます。
+「 **[!UICONTROL Exclusions logs]** 」タブを選択して、メッセージのターゲットから除外された受信者（上のアドレスなど）を表示しブロックリストます。
 
 ![](assets/message-center_marketing_exclusion_logs.png)
 
