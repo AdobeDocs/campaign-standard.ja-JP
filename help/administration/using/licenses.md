@@ -2,39 +2,37 @@
 solution: Campaign Standard
 product: campaign
 title: ライセンス
-description: インスタンスにインストールされたライセンスの詳細を表示します。
+description: インスタンスにインストールされたライセンスの詳細を確認します。
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-feature: Access Management
-role: Administrator
+feature: アクセス管理
+role: Admin
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 4a4c14da-d842-4f65-821a-ca9e73a94adc
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '171'
 ht-degree: 2%
 
 ---
 
-
 # ライセンス{#licenses}
 
-**[!UICONTROL Licenses]**&#x200B;ウィンドウでは、インスタンスにインストールされたライセンスと、ビルド番号、リリースバージョン、契約条件に同意したかどうかなどの異なる情報を表示できます。
+**[!UICONTROL Licenses]**&#x200B;ウィンドウでは、インスタンスにインストールされているライセンスと、ビルド番号、リリースバージョン、契約条件が承認された場合、同意者など、インスタンスに関する様々な情報を表示できます。
 
 ![](assets/license_1.png)
 
-新しいビルドまたは新しい機能を使用すると、ライセンス条件が変更される場合があり、そのインスタンスの機能管理者が同意する必要があります。
+新しいビルドまたは新機能を使用すると、ライセンス条件が変更され、インスタンスの機能管理者の同意が必要になる場合があります。
 
-次のウィンドウは、ログイン後の標準ユーザーに対して表示され、ユーザー側での操作は必要ありません。 **[!UICONTROL OK]**&#x200B;ボタンをクリックしても、引き続きAdobe Campaignで作業できます。
+ログイン後の標準ユーザーに対して、次のウィンドウが表示されます。ユーザー側での操作は不要です。 引き続き「**[!UICONTROL OK]**」ボタンをクリックして、Adobe Campaignで作業できます。
 
 ![](assets/license_2.png)
 
-管理者は、ビルドのインストール後30日間に、**[!UICONTROL I accept the terms from the license agreement]**&#x200B;を確認して&#x200B;**[!UICONTROL Confirm]**&#x200B;をクリックし、新しい契約条件を読んで確認する必要があります。
+管理者は、ビルドのインストール後30日以内に&#x200B;**[!UICONTROL I accept the terms from the license agreement]**&#x200B;を確認し、**[!UICONTROL Confirm]**&#x200B;をクリックして、新しい契約条件を読み、確認する必要があります。
 
 ![](assets/license_3.png)
 
-契約に同意しない場合は、この30日を経過した後、このインスタンスを使用できるユーザーはいません。 標準ユーザーは、Adobe Campaign機能にアクセスできず、機能の管理者が契約条件に同意するまで、次のメッセージのみが表示されます。
+契約が承認されない場合、この30日を経過すると、ユーザーはこのインスタンスを使用できなくなります。 標準ユーザーはAdobe Campaignの機能にアクセスできず、機能管理者が契約条件に同意するまで、次のメッセージのみが表示されます。
 
 ![](assets/license_4.png)
-
