@@ -7,17 +7,16 @@ audience: automating
 content-type: reference
 topic-tags: execution-activities
 context-tags: workflow,use-case,query,segmentation,delivery
-feature: Control Groups
-role: Business Practitioner
+feature: コントロール母集団
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 553897d4-2652-453f-960e-bb2993889f37
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1337'
-ht-degree: 99%
+source-wordcount: '1334'
+ht-degree: 100%
 
 ---
-
 
 # コントロール母集団の追加 {#adding-control-group}
 
@@ -199,7 +198,7 @@ ht-degree: 99%
 
 次に、例えば、「**ファイルを抽出**」アクティビティに続いて「**ファイルを転送**」アクティビティを実行して、ログデータを書き出します。これにより、コントロール母集団と比較した効果的なターゲットに対するキャンペーンの結果を、独自のレポートツールで分析できます。ログの書き出しについて詳しくは、[この節](../../automating/using/exporting-logs.md)を参照してください。
 
-### コントロール母集団のターゲティング{#targeting-control-group}
+### コントロール母集団のターゲティング {#targeting-control-group}
 
 メッセージを受信しなかったプロファイルに基づいてターゲティングをおこなう場合は、配信ログも使用できます。次の手順に従います。
 
