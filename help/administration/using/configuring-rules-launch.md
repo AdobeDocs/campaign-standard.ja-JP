@@ -8,17 +8,17 @@ content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
 feature: インスタンス設定
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: b5f4f612-ea23-4007-b427-069777ecdd58
-source-git-commit: fba2ecddb2ebbf600be28724c8658d6d61eb9ecd
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '956'
 ht-degree: 1%
 
 ---
 
-# Adobe Campaign Standard の使用例をサポートするための Launch ルールの設定 {#configuring-rules-launch}
+# Adobe Campaign Standard のユースケースをサポートするための Launch ルールの設定 {#configuring-rules-launch}
 
 [!DNL Adobe Experience Platform Launch]では、PIIやその他のデータをモバイルアプリケーションから[!DNL Adobe Campaign Standard]に送信するためのデータ要素とルールを作成する必要があります。
 
@@ -33,7 +33,7 @@ ht-degree: 1%
    * [プッシュ通知のトラッキングポストバック](../../administration/using/configuring-rules-launch.md#push-tracking-postback)
    * [場所ポストバック](../../administration/using/configuring-rules-launch.md#location-postback)
 
-## データ要素{#create-data-elements}の作成
+## データ要素の作成 {#create-data-elements}
 
 以下に、[!DNL Experience Platform Launch]で作成することをお勧めするデータ要素を示します。
 必要に応じて、追加のデータ要素を作成できます。
@@ -66,7 +66,7 @@ ht-degree: 1%
 
 1. 「**[!UICONTROL Extension]**」ドロップダウンから「**[!UICONTROL Adobe Campaign Standard]**」を選択します。 次に、**[!UICONTROL Data element]**&#x200B;タイプのドロップダウンで&#x200B;**[!UICONTROL Campaign Server]**&#x200B;を指定します。
 
-## ルール{#creating-rules}の作成
+## ルールの作成 {#creating-rules}
 
 次のルールを作成する必要があります。
 
@@ -75,7 +75,7 @@ ht-degree: 1%
 * [プッシュ通知のトラッキングポストバック](../../administration/using/configuring-rules-launch.md#push-tracking-postback)
 * [場所ポストバック](../../administration/using/configuring-rules-launch.md#location-postback)
 
-### PIIポストバック{#pii-postback}
+### PIIポストバック {#pii-postback}
 
 >[!NOTE]
 >
@@ -134,7 +134,7 @@ PIIデータを[!DNL Adobe Campaign Standard]に送信するには、[!DNL Exper
    }
    ```
 
-   [!DNL Experience Platform Launch]で定義するデータ要素は、%%mcid%%のように2倍の割合で囲み、アプリのコンテキスト変数は%contextdata.email%のように1つの割合で囲む必要があります。
+   [!DNL Experience Platform Launch]で定義するデータ要素は、%%mcid%%のように2倍の割合で囲み、アプリのコンテキスト変数は、%contextdata.email%のように1つの割合で囲む必要があります。
 
 1. **[!UICONTROL Content Type]**&#x200B;に、**application/json**&#x200B;と入力します。
 
@@ -144,7 +144,7 @@ PIIデータを[!DNL Adobe Campaign Standard]に送信するには、[!DNL Exper
 
 これで、ユーザーデータがCampaignに送信されるように設定されました。
 
-### アプリ内トラッキングポストバック{#inapp-tracking-postback}
+### アプリ内トラッキングポストバック {#inapp-tracking-postback}
 
 >[!NOTE]
 >
@@ -182,7 +182,7 @@ PIIデータを[!DNL Adobe Campaign Standard]に送信するには、[!DNL Exper
 
    ![](assets/do-not-localize/rules_3.png)
 
-### プッシュ通知トラッキングポストバック{#push-tracking-postback}
+### プッシュ通知のトラッキングポストバック {#push-tracking-postback}
 
 >[!NOTE]
 >
@@ -222,7 +222,7 @@ PIIデータを[!DNL Adobe Campaign Standard]に送信するには、[!DNL Exper
 
 1. **[!UICONTROL Timeout]**&#x200B;で、「0」を選択します。
 
-### 場所ポストバック{#location-postback}
+### 場所ポストバック {#location-postback}
 
 1. [!DNL Experience Platform Launch]で、モバイルアプリケーションダッシュボードから「**[!UICONTROL Rules]**」タブをクリックし、「**[!UICONTROL Add Rule]**」をクリックします。
 
