@@ -7,10 +7,10 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 feature: インスタンス設定
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: ea936128-1c51-483d-914c-6d06708456d6
-source-git-commit: f849e668cffaaca05261f0b91726a350a47676e4
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '8666'
 ht-degree: 86%
@@ -23,7 +23,7 @@ ht-degree: 86%
 >
 >Adobe Campaign Classicの&#x200B;**SMSコネクタのプロトコルと設定**&#x200B;は、この[ページ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol.html)にあります。
 >
->このドキュメントにおけるプロトコル、フィールド名および値の詳細はすべて、[SMPP 3.4 仕様](https://smpp.org/SMPP_v3_4_Issue1_2.pdf)を参照しています。
+>このドキュメントでは、プロトコル、フィールド名とフィールド値の詳細については、すべて [SMPP 3.4 仕様](https://smpp.org/SMPP_v3_4_Issue1_2.pdf)を参照しています。
 
 ## 概要 {#overview}
 
@@ -232,7 +232,7 @@ Adobe Campaign Standardは、すべての処理ステップが正常に完了し
 
 この PDU は、接続が有効であることを確認します。
 
-### マルチパート SMS （ロング SMS） {#multipart}
+### マルチパート SMS（長文 SMS） {#multipart}
 
 マルチパート SMS（ロング SMS）は、複数のパーツで送信される SMS です。モバイルネットワークプロトコルの技術的な制限により、SMS は 140 バイト以下にする必要があり、超える場合は分割する必要があります。SMS に収まる文字数について詳しくは、[SMS テキストエンコーディング](../../administration/using/sms-protocol.md#sms-text-encoding)の節を参照してください。
 
@@ -828,7 +828,7 @@ MTが確認(`SUBMIT_SM_RESP`)されると、データベース内の`sProviderId
 
 チェック中は、必ず詳細な SMPP トレースを有効にする必要があります。ログを自分で確認できない場合は、サポートを依頼してください。
 
-### SMS をテストする {#test}
+### SMS のテスト {#test}
 
 * **SMS に様々な文字を送信する**：GSM 以外の文字や ASCII 以外の文字で SMS を送信する必要がある場合は、できるだけ多様な文字でメッセージを送信してみてください。カスタム文字マッピングテーブルを設定する場合は、 
 すべての可能な `data_coding` 値に対して、少なくとも 1 回 SMS を送信してください。
@@ -847,7 +847,7 @@ MTが確認(`SUBMIT_SM_RESP`)されると、データベース内の`sProviderId
 
 この手順は、以前に Adobe Campaign に接続されていないプロバイダーに接続する場合に必要です。
 
-#### バインド {#bind}
+#### BIND {#bind}
 
 `BIND_* PDUs` が正しく送信されていることを確認します。最も重要な点は、プロバイダーが常に成功した `BIND_*_RESP PDUs` を返すことです（command_status = 0）。
 
