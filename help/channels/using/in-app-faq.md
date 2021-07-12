@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: in-app-messaging
 context-tags: delivery,triggers,back
 feature: アプリ内
-role: Business Practitioner
+role: User
 exl-id: 986646b1-42d5-4169-ac38-d8e612a9a6d3
-source-git-commit: 8e418be1fa880a4c23cbe4aa4e1a72fc4112b16b
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '676'
 ht-degree: 2%
@@ -36,7 +36,7 @@ ht-degree: 2%
 * そのようにマークされたフィールドは、追加のセキュリティメカニズムが組み込まれているプロファイルテンプレート（appSubscriberテンプレートまたはブロードキャストテンプレートではない）でのみ使用できます。
 * プロファイルテンプレートを使用して作成されたメッセージは、ユーザーがアプリにログインした場合にのみ提供されます。
 * この安全なハンドシェイクを容易にするために、モバイルアプリ開発者はsetLinkageField APIを使用して追加の認証詳細を渡す必要があります。 appSubscriberRcpテーブルを拡張する際に、モバイルプロファイルとCRMプロファイルの間のリンクとして識別されるリンケージフィールドに注意してください。
-* resetLinkageFieldを使用してユーザーがアプリからログアウトする際に、デバイスに保存されているアプリ内メッセージとresetLinkagefieldをフラッシュする必要があります。 これにより、別のユーザーがアプリにログインしても、以前のユーザー向けのメッセージは表示されなくなります。
+* ユーザーがresetLinkageFieldを使用してアプリからログアウトする際に、デバイスに保存されているアプリ内メッセージとresetLinkagefieldをフラッシュする必要があります。 これにより、別のユーザーがアプリにログインしても、以前のユーザー向けのメッセージは表示されなくなります。
 * このセキュリティメカニズムクライアント側を実装するには、[Mobile SDK API](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference)を参照してください。
 
 ## Campaignでアプリ内レポートを有効にするには、どうすればよいですか？ {#enable-inapp-reporting}
