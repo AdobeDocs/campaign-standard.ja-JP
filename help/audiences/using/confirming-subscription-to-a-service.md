@@ -7,18 +7,17 @@ audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
 feature: Audiences
-role: Business Practitioner
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 9992a05b-9f3c-4e6c-82e5-151c679565a1
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '1325'
+source-wordcount: '1322'
 ht-degree: 96%
 
 ---
 
-
-# サービスのサブスクリプションを確認{#confirming-subscription-to-a-service}
+# サービスの購読の確認{#confirming-subscription-to-a-service}
 
 ## サブスクリプションの確認の送信について {#sending-subscription-confirmation}
 
@@ -42,7 +41,7 @@ ht-degree: 96%
 
 サービスから設定する場合、確認トランザクションメッセージは、各訪問者が初めてそのサービスを購読したときにのみ送信されます。プロファイルが既に購読されている場合、そのプロファイルに確認メッセージは再送信されません。
 
-### 手順 1：確認 E メールの作成 {#step-1--create-the-confirmation-email-1}
+### 手順 1：確認電子メールの作成 {#step-1--create-the-confirmation-email-1}
 
 ニュースレターを（ランディングページなどの方法で）購読した各プロファイルに、確認の E メールが自動的に送信されます。このサブスクリプションはイベントと見なされます。また、この E メールはサービスを購読した各プロファイルを対象とする[トランザクションメッセージ](../../channels/using/getting-started-with-transactional-msg.md)です。
 
@@ -55,7 +54,7 @@ ht-degree: 96%
 1. イベントを作成するには、Adobe Campaign のロゴから **[!UICONTROL Marketing plans]**／**[!UICONTROL Transactional messages]**／**[!UICONTROL Event configuration]** メニューにアクセスします。
 1. ラベルを入力し、ターゲティングディメンションを選択して「**[!UICONTROL Create]**」をクリックします。
 
-   設定手順については、「[トランザクションイベントの設定](../../channels/using/configuring-transactional-event.md)」の節を参照してください。
+   設定手順については、[トランザクションイベントの設定](../../channels/using/configuring-transactional-event.md)の節を参照してください。
 
 1. 「**[!UICONTROL Fields]**」セクションで、紐付けを有効にするために、「**[!UICONTROL Create element]**」をクリックして **[!UICONTROL publicLabel]** をデータ構造に追加します。
 
@@ -131,7 +130,7 @@ ht-degree: 96%
 
 ランディングページから確認メッセージを参照する場合、ランディングページが送信されるたびに（プロファイルが既に購読されている場合でも）メッセージが送信されます。
 
-### 手順 1：確認 E メールの作成 {#step-1--create-the-confirmation-email-2}
+### 手順 1：確認電子メールの作成 {#step-1--create-the-confirmation-email-2}
 
 ニュースレターにランディングページから購読した各プロファイルに、確認 E メールが自動的に送信されます。このサブスクリプションはイベントと見なされます。また、この E メールはサービスを購読した各プロファイルを対象とする[トランザクションメッセージ](../../channels/using/getting-started-with-transactional-msg.md)です。
 
@@ -144,7 +143,7 @@ ht-degree: 96%
 1. イベントを作成するには、Adobe Campaign のロゴから **[!UICONTROL Marketing plans]**／**[!UICONTROL Transactional messages]**／**[!UICONTROL Event configuration]** メニューにアクセスします。
 1. ラベルを入力し、ターゲティングディメンションを選択して「**[!UICONTROL Create]**」をクリックします。
 
-   設定手順については、「[トランザクションイベントの設定](../../channels/using/configuring-transactional-event.md)」の節を参照してください。
+   設定手順については、[トランザクションイベントの設定](../../channels/using/configuring-transactional-event.md)の節を参照してください。
 
 1. 「**[!UICONTROL Fields]**」セクションで、紐付けを有効にするために、「**[!UICONTROL Create element]**」をクリックして **[!UICONTROL serviceName]** をデータ構造に追加します。
 
