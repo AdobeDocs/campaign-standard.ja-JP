@@ -7,31 +7,30 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: Transactional Messaging
-role: Business Practitioner
+feature: トランザクションメッセージ
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 12fe13c2-899d-4c85-8381-ba812ff26f54
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '653'
 ht-degree: 76%
 
 ---
 
-
 # トランザクションメッセージのライフサイクル {#publishing-transactional-message}
 
-[トランザクションメッセージ](../../channels/using/editing-transactional-message.md)を送信する準備ができたら、それを公開できます。
+[トランザクションメッセージ](../../channels/using/editing-transactional-message.md)を送信する準備が整ったら、パブリッシュできます。
 
-トランザクションメッセージを公開、一時停止、非公開、削除する手順は、次のとおりです。
+トランザクションメッセージを公開、一時停止、非公開および削除する手順については、以下で詳しく説明します。
 
 >[!IMPORTANT]
 >
->[管理](../../administration/using/users-management.md#functional-administrators)ロールを持つユーザーのみが、トランザクションメッセージにアクセスして発行できます。
+>トランザクションメッセージにアクセスして公開できるのは、[管理](../../administration/using/users-management.md#functional-administrators)の役割を持つユーザーのみです。
 
 ## トランザクションメッセージの公開プロセス {#transactional-messaging-pub-process}
 
-以下の表に、トランザクションメッセージングの公開プロセス全体を示します。
+次の図は、トランザクションメッセージの公開プロセス全体を示しています。
 
 ![](assets/message-center_pub-process.png)
 
@@ -89,9 +88,9 @@ Once you have created one or more specific test profiles and saved your transact
 
 The steps for sending a proof are detailed in the [Sending proofs](../../sending/using/sending-proofs.md) section.-->
 
-## トランザクションメッセージの公開{#publishing-a-transactional-message}
+## トランザクションメッセージの公開 {#publishing-a-transactional-message}
 
-トランザクションメッセージを編集してテストした後は、その画像を公開できます。 「**[!UICONTROL Publish]**」ボタンをクリックするだけです。
+トランザクションメッセージを編集およびテストしたら、公開できます。 **[!UICONTROL Publish]**&#x200B;ボタンをクリックします。
 
 ![](assets/message-center_12.png)
 
@@ -106,17 +105,17 @@ The steps for sending a proof are detailed in the [Sending proofs](../../sending
 * [トランザクションメッセージのテスト](../../channels/using/testing-transactional-message.md)
 * [イベントトリガーの統合](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)
 
-## トランザクションメッセージ公開の一時停止{#suspending-a-transactional-message-publication}
+## トランザクションメッセージ公開の一時停止 {#suspending-a-transactional-message-publication}
 
 トランザクションメッセージに含まれるデータを変更する場合など、「**[!UICONTROL Pause]**」ボタンを使用してメッセージの公開を中止できます。したがって、イベントは処理されず、Adobe Campaign データベースのキューに保持されます。
 
-キューに格納されたイベントは、REST APIで定義された期間（[REST APIドキュメント](../../api/using/managing-transactional-messages.md)を参照）またはトリガーコアサービスを使用している場合はトリガーイベントに保持されます([Adobe Experience Cloud Triggersについて](../../integrating/using/about-adobe-experience-cloud-triggers.md)を参照)。
+キュー内のトリガーは、REST APIで定義されている期間（[REST APIのドキュメント](../../api/using/managing-transactional-messages.md)を参照）またはEventsコアサービスを使用している場合はトリガーイベントで保持されます([Adobe Experience Cloud Triggers](../../integrating/using/about-adobe-experience-cloud-triggers.md)についてを参照)。
 
 ![](assets/message-center_pause.png)
 
 「**[!UICONTROL Resume]**」をクリックすると、キューに格納されているすべてのイベント（期限切れでない場合）が処理されます。テンプレートのパブリケーションが停止されている間に実行されたすべての変更が含まれています。
 
-## トランザクションメッセージの非公開{#unpublishing-a-transactional-message}
+## トランザクションメッセージの非公開 {#unpublishing-a-transactional-message}
 
 「**[!UICONTROL Unpublish]**」をクリックすると、トランザクションメッセージの公開をキャンセルするだけでなく、対応するイベントの公開もキャンセルします。これにより、REST API から、以前に作成したイベントに対応するリソースが削除されます。
 
@@ -126,7 +125,7 @@ The steps for sending a proof are detailed in the [Sending proofs](../../sending
 
 >[!NOTE]
 >
->メッセージを再度公開するには、対応するイベント設定に戻り、[イベント](../../channels/using/publishing-transactional-event.md)を公開し、[メッセージ](#publishing-a-transactional-message)を公開する必要があります。
+>メッセージを再度公開するには、対応するイベント設定に戻り、[イベント](../../channels/using/publishing-transactional-event.md)を公開してから、[メッセージ](#publishing-a-transactional-message)を公開する必要があります。
 
 一時停止したトランザクションメッセージを非公開にする場合は、再度公開するまで 24 時間待たなければならない場合があります。これは、キューに送信されたすべてのイベントを「**[!UICONTROL Database cleanup]**」ワークフローで消去するためです。
 
@@ -134,7 +133,7 @@ The steps for sending a proof are detailed in the [Sending proofs](../../sending
 
 毎日午前 4 時に実行される「**[!UICONTROL Database cleanup]**」ワークフローは、**[!UICONTROL Administration]**／**[!UICONTROL Application settings]**／**[!UICONTROL Workflows]** からアクセスできます。
 
-## トランザクションメッセージの削除{#deleting-a-transactional-message}
+## トランザクションメッセージの削除 {#deleting-a-transactional-message}
 
 トランザクションメッセージが非公開になっている場合、またはトランザクションメッセージがまだ公開されていない場合は、トランザクションメッセージリストから削除できます。手順は次のとおりです。
 
