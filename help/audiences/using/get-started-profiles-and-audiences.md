@@ -1,23 +1,23 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: プロファイルとオーディエンスの概要
+title: プロファイルとオーディエンスの基本を学ぶ
 description: ターゲット母集団の定義、オーディエンスの選択、受信者のフィルタリング、データの収集、プロファイルの更新をおこないます。
 audience: audiences
 content-type: reference
 topic-tags: about-profiles-and-audiences
 feature: プロファイル
-role: Business Practitioner
+role: User
 level: Beginner
 exl-id: b4de2f1a-09ec-486d-b1ef-66208cbe211f
-source-git-commit: bc55ccea9691d904bbc1b64d93d0a7b8486940e5
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 25%
 
 ---
 
-# プロファイルとオーディエンスの概要{#about-profiles-and-audiences}
+# プロファイルとオーディエンスの基本を学ぶ{#about-profiles-and-audiences}
 
 <table>
 <tr>
@@ -32,7 +32,7 @@ Campaign の統合された顧客プロファイルにより、単一ビュー�
 
 顧客の権限および同意を管理し、サービスとランディングページを使用して、オプトインとオプトアウト用の容易なメカニズムを設定します。
 
-## セグメント化とターゲティング{#segmenting-targeting}
+## セグメント化とターゲティング {#segmenting-targeting}
 
 <img src="assets/do-not-localize/icon_segment.svg" width="60px">
 
@@ -72,7 +72,7 @@ Campaignでは、**簡単なオプトインおよびオプトアウトメカニ�
 
 詳しくは、以下を参照してください。
 
-* [サブスクリプションについて](../../audiences/using/about-subscriptions.md)
+* [購読について](../../audiences/using/about-subscriptions.md)
 * [Campaign のオプトインとオプトアウトについて](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 ## プライバシーの遵守 {#privacy}
