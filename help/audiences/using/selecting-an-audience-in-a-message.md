@@ -8,16 +8,15 @@ content-type: reference
 topic-tags: managing-audiences
 context-tags: deliveryCreation,wizard;delivery,audience,back
 feature: Audiences
-role: Business Practitioner
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 239959ad-6386-42bf-a86a-5694cdaecd83
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 73%
+source-wordcount: '412'
+ht-degree: 74%
 
 ---
-
 
 # メッセージ内のオーディエンスの選択{#selecting-an-audience-in-a-message}
 
@@ -50,17 +49,16 @@ Adobe Campaign を使用すると、メッセージのオーディエンス内�
 
    >[!NOTE]
    >
-   >オーディエンスをターゲット設定する場合、オーディエンスの定義は参照されず、**コピー**&#x200B;がクエリに含まれていることに注意してください。 クエリでターゲットが設定された後にオーディエンスに変更を加えた場合は、新しい定義を考慮するように、クエリを再度設定する必要があります。
+   >オーディエンスをターゲティングする場合、オーディエンスの定義は参照されず、**コピー**&#x200B;されてクエリに含まれます。 クエリでターゲット設定された後にオーディエンスに変更を加えた場合は、新しい定義を考慮するように、クエリを再度設定する必要があります。
 
 1. E メールに使用する **[!UICONTROL Test profiles]** を定義します。テストプロファイルは、メインターゲットに E メールを送信する前に E メールのテスト用にあらかじめ送信される配達確認を受信します。
 
    テストプロファイルの設定の詳細については、[テストプロファイル](../../audiences/using/managing-test-profiles.md)の節を参照してください。
 
-1. 必要に応じて、対応するタブを使用してコントロール母集団を定義できます。 これにより、ターゲットから一部のプロファイルを取り消して、メッセージを受け取らないようにすることができます。 詳しくは、[コントロール母集団の追加](../../sending/using/control-group.md)を参照してください。
+1. 必要に応じて、対応するタブを使用してコントロール母集団を定義できます。 これにより、一部のプロファイルをターゲットから取り消して、メッセージを受信しなくすることができます。 詳しくは、[コントロール母集団の追加](../../sending/using/control-group.md)を参照してください。
 
-1. また、代替アドレスを使用して、プロファイルが受信するメッセージの正確な表現を取得することもできます。  詳しくは、[ターゲットプロファイルを使用した電子メールメッセージのテスト](../../sending/using/testing-messages-using-target.md)を参照してください。
+1. また、代替アドレスを使用して、プロファイルが受け取るメッセージを正確に表示することもできます。  詳しくは、[ターゲットプロファイルを使用した電子メールメッセージのテスト](../../sending/using/testing-messages-using-target.md)を参照してください。
 
 その後、オーディエンスブロックが更新され、該当する E メールに対してターゲットプロファイルとテスト要素が選択されたことが示されます。
 
 ![](assets/delivery_audience_definition_3.png)
-
