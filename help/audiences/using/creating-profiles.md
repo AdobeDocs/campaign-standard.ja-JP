@@ -6,17 +6,16 @@ description: API、インポート機能、オンライン獲得、自動また�
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles
-feature: Profiles
-role: Business Practitioner
+feature: プロファイル
+role: User
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 827df9f6-070c-466a-890c-e363de6b129b
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 89%
+source-wordcount: '381'
+ht-degree: 90%
 
 ---
-
 
 # プロファイルの作成{#creating-profiles}
 
@@ -26,7 +25,7 @@ Adobe Campaign では、メッセージのメインターゲットを定義す�
 >
 >プロファイルの作成は、Adobe Campaign Standard API を使用しても可能です。詳しくは、[該当するドキュメント](../../api/using/creating-profiles.md)を参照してください。
 
-![](assets/do-not-localize/how-to-video.png) [ビデオのワークフローを使用してプロファイルを読み込む方法の確認](#video)
+![](assets/do-not-localize/how-to-video.png) [ワークフローを使用したプロファイルのインポート方法をビデオで確認](#video)
 
 Campaign でプロファイルを作成または更新するには、次の操作をおこないます。
 
@@ -55,7 +54,7 @@ Campaign でプロファイルを作成または更新するには、次の操�
    * E メールアドレス、携帯電話番号、オプトアウト情報などの **[!UICONTROL Channels]** カテゴリを使用すると、プロファイルにリーチ可能なチャネルを把握できます。
    * プロファイルでチャネルが購読解除されると、**[!UICONTROL No longer contact]** カテゴリはただちに更新されます。
    * **[!UICONTROL Address]** カテゴリには住所の欄があり、このプロファイルに[ダイレクトメール](../../channels/using/about-direct-mail.md)を送る場合は「**[!UICONTROL Address specified]**」オプションと合わせて入力する必要があります。「**[!UICONTROL Address specified]**」オプションを選択しない場合、このプロファイルはすべてのダイレクトメール送付から除外されます。
-   * **[!UICONTROL Access authorization]**&#x200B;カテゴリは、[権限の管理](../../administration/using/about-access-management.md)を行うプロファイルの組織単位を示します。 組織関連のフィールドをプロファイルに追加するには、[プロファイルの分割](../../administration/using/organizational-units.md#partitioning-profiles)の節を参照してください。
+   * **[!UICONTROL Access authorization]**&#x200B;カテゴリは、[権限](../../administration/using/about-access-management.md)を管理するためのプロファイルの組織単位を示します。 組織関連のフィールドをプロファイルに追加するには、[プロファイルの分割](../../administration/using/organizational-units.md#partitioning-profiles)の節を参照してください。
    * 「**[!UICONTROL Traceability]**」カテゴリは、プロファイルの作成または変更をおこなったユーザーに関する情報により自動的に更新されます。
 
 1. 「**[!UICONTROL Create]**」をクリックして、プロファイルを保存します。
@@ -67,8 +66,8 @@ Campaign でプロファイルを作成または更新するには、次の操�
 
 ## チュートリアルビデオ {#video}
 
-このビデオでは、ワークフローを使用してプロファイルを読み込む方法を説明します。
+このビデオでは、ワークフローでプロファイルをインポートする方法を説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/24993?quality=12)
 
-追加のCampaign Standardハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja)で参照できます。
+追加のCampaign Standardハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja)からご覧いただけます。
