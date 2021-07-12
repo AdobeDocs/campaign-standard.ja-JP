@@ -7,21 +7,20 @@ audience: administration
 content-type: reference
 topic-tags: working-with-typology-rules
 context-tags: typology,overview;typologyRule,main;typologyRule,overview
-feature: Typology Rules
-role: Business Practitioner
+feature: タイポロジルール
+role: User
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 5ef66b1b-1c81-42fb-a18c-fcf7f21e1ff7
+source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '554'
 ht-degree: 96%
 
 ---
 
+# タイポロジルールの管理 {#managing-typology-rules}
 
-# タイポロジルールの管理{#managing-typology-rules}
-
-## タイポロジルールについて{#about-typology-rules}
+## タイポロジルールについて {#about-typology-rules}
 
 タイポロジルールとは、メッセージを送信する前に、メッセージのチェックやフィルタリングを実行できるビジネスルールです。使用できるタイポロジルールのタイプは次のとおりです。
 
@@ -37,7 +36,7 @@ ht-degree: 96%
 
 必要に応じて、既存のタイポロジルールを変更したり、新規作成できます。ただし、「**[!UICONTROL Control]**」ルールは読み取り専用で、変更はできません。
 
-## タイポロジルールの作成{#creating-a-typology-rule}
+## タイポロジルールの作成 {#creating-a-typology-rule}
 
 タイポロジルールを作成する主な手順は次のとおりです。
 
@@ -61,7 +60,7 @@ ht-degree: 96%
 
 1. すべてのタイポロジを選択したら、「**[!UICONTROL Create]**」をクリックしてタイポロジルールの作成を確認します。
 
-## タイポロジルールの実行順序{#typology-rules-execution-order}
+## タイポロジルールの実行順序 {#typology-rules-execution-order}
 
 タイポロジルールは、ターゲティング、分析、およびメッセージのパーソナライズ機能の各段階で指定された順序で実行されます。
 
@@ -70,7 +69,7 @@ ht-degree: 96%
 1. ターゲティングの開始時に適用されるコントロールルール
 1. フィルタールール:
 
-   * 住所資格のネイティブアプリケーションルール：定義されたアドレス/確認されていないアドレス/ブロックリスト上のアドレス/隔離されたアドレス/アドレスの質。
+   * アドレス認定のネイティブアプリケーションルール：定義済みのアドレス/検証されていないアドレス/アドレブロックリストス（上）/強制隔離されたアドレス/アドレスの質。
    * ユーザーによって定義されたフィルタールール
 
 1. ターゲティングの終了時に適用されるコントロールルール
