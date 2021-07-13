@@ -10,10 +10,10 @@ feature: 送信時間の最適化
 role: User
 level: Intermediate
 exl-id: e1cb04e6-eb38-4bcc-b071-321cc11ccc7e
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 356bac989a6bd4c9039910e2d9c59f33ce1153f8
 workflow-type: tm+mt
-source-wordcount: '1067'
-ht-degree: 97%
+source-wordcount: '1048'
+ht-degree: 99%
 
 ---
 
@@ -33,8 +33,7 @@ Adobe Campaign Standard は、**予測送信時間の最適化**&#x200B;およ�
 
 >[!IMPORTANT]
 >この機能は、製品の一部として初期状態では使用できません。実装するには、アドビのコンサルティングサービス部門に依頼する必要があります。詳しくは、アドビ担当者にお問い合わせください。
->
->この機能を使用するには、お客様がAzureまたはAmazon S3ストレージを提供する必要があります。
+
 
 ## 予測送信時間の最適化{#predictive-send-time}
 
