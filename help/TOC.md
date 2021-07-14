@@ -7,9 +7,9 @@ user-guide-description: 'Campaign Standard の使用に必要な主要な機能�
 title: Campaign Standard ガイド
 breadcrumb-title: Adobe Campaign Standard ドキュメント
 source-git-commit: 8e418be1fa880a4c23cbe4aa4e1a72fc4112b16b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1790'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -111,7 +111,7 @@ ht-degree: 99%
       + [アプリ内メッセージについて](channels/using/about-in-app-messaging.md)
       + [アプリ内メッセージの準備と送信](channels/using/preparing-and-sending-an-in-app-message.md)
       + [アプリ内メッセージのカスタマイズ](channels/using/customizing-an-in-app-message.md)
-      + [アプリ内FAQ](channels/using/in-app-faq.md)
+      + [アプリ内 FAQ](channels/using/in-app-faq.md)
    + ダイレクトメール {#direct-mail}
       + [ダイレクトメールについて](channels/using/about-direct-mail.md)
       + [送信者に返信](channels/using/return-to-sender.md)
