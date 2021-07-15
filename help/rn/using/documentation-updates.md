@@ -10,9 +10,9 @@ feature: 概要
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: c56d0e0ab4496ae769dc504107f677ef6ea74068
 workflow-type: tm+mt
-source-wordcount: '6852'
+source-wordcount: '6893'
 ht-degree: 99%
 
 ---
@@ -20,6 +20,12 @@ ht-degree: 99%
 # ドキュメントの更新{#documentation-updates}
 
 このページでは、Adobe Campaign の [リリースノート](../../rn/using/release-notes.md)に加えて、Adobe Campaign Standard のドキュメントの新規更新をすべて紹介します。
+
+## 2021年7月 {#doc-updates-july-2021}
+
+ユーザーが単一のランディングページから複数のサービスを購読または購読解除できるようにする方法について説明する新しい節が追加されました。 [詳細情報](../../channels/using/managing-landing-page-form-data.md#multiple-subscriptions)
+
+**ランディングページフォームデータの管理**&#x200B;の節が更新され、明確になりました。 [詳細情報](../../channels/using/managing-landing-page-form-data.md)
 
 ## リリース 21.2 - 2021 年 6 月 {#release-21-2---june-2021}
 
