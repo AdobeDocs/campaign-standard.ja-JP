@@ -14,7 +14,7 @@ role: User
 level: Intermediate
 exl-id: 8f8ce032-5cff-44d3-9d3b-52511dbcaaab
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '814'
 ht-degree: 100%
 
@@ -71,7 +71,7 @@ Adobe Campaign を使用する際の、プライバシーと同意に関する�
 
 * Adobe Campaign の各ユーザーについて、要求されるタスクの実行に必要なアクセス権限が設定され、それ以外のタスクをおこなう権限が設定されていないことを確認してください。
 
-## ユーザーエンゲージメントを保持 {#preserve-user-engagement}
+## ユーザーエンゲージメントの保持 {#preserve-user-engagement}
 
 **データ管理者がユーザーエンゲージメントへの影響を最小限に抑えながら同意を得るにはどうすればよいですか。**
 
