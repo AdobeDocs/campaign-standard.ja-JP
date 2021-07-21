@@ -11,7 +11,7 @@ role: User
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1624'
 ht-degree: 100%
 
@@ -89,7 +89,7 @@ Adobe Campaign には、Adobe Campaign に保存されているデータに対�
 
 1. 「**[!UICONTROL Create]**」をクリックします。これで、新しい名前空間に基づいてプライバシーリクエストを作成できます。いくつかの名前空間を使用する場合、名前空間ごとに 1 つのプライバシーリクエストを作成する必要があります。
 
-### プライバシー要求の作成 {#create-privacy-request}
+### プライバシーリクエストの作成 {#create-privacy-request}
 
 >[!IMPORTANT]
 >
