@@ -11,7 +11,7 @@ role: User
 level: Intermediate
 exl-id: 958f7beb-ab41-4492-bc0a-e9e342e3c12e
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '608'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ Adobe Campaign Standard には、コントラスト、ラベル、構造化さ�
 
 ## アクセシビリティ機能 {#accessibility-features}
 
-### コントラストと色 {#contrast}
+### コントラストとカラー {#contrast}
 
 Adobe Campaign Standard のユーザーインターフェイスは、アプリケーションのコントラストを十分な水準に高め、視力や色覚に障がいのあるユーザーに対して、アクセスしやすい視聴エクスペリエンスを提供します。
 
@@ -77,9 +77,9 @@ E メールをデザインする際に、機能の説明と製品ドキュメン
 
 ## 支援技術のサポート {#screen-magnifiers}
 
-改変されたキーボード、画面拡大ソフトウェア、スクリーンリーダー、音声認識ソフトウェアおよびその他の支援機器を含む様々な支援技術により、Adobe Campaign Standard アプリケーションができる限り使いやすくするよう努めています。
+改変されたキーボード、画面拡大ソフトウエア、スクリーンリーダー、音声認識ソフトウエアおよびその他の支援機器を含む様々な支援技術により、Adobe Campaign Standard アプリケーションを可能な限り利用できるように努めています。
 
-## 設定言語で作業 {#languages}
+## 設定言語での作業 {#languages}
 
 Adobe Campaign Standard は、英語、フランス語、ドイツ語の各言語で使用できます。
 
@@ -94,7 +94,7 @@ Adobe Campaign Standard は、英語、フランス語、ドイツ語の各言�
 | タブ | ユーザーインターフェイスの個々の要素間を移動する |
 | Enter または Space キー | 選択した項目をアクティブにする |
 
-### E メールデザイナー {#email-designer-shortcuts}
+### メールデザイナー {#email-designer-shortcuts}
 
 | ショートカット | アクション |
 |:-:|:-:|
