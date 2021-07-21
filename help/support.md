@@ -12,7 +12,7 @@ role: User
 level: Beginner
 exl-id: b164942b-0f1c-473e-bf78-f10ec3374244
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '590'
 ht-degree: 100%
 
@@ -130,4 +130,4 @@ Campaign Classic コミュニティへの参加：既存の質問の回答を検
 
 新しいシステムで問題を記録したりチャットセッションを開始したりするには、 [Adobe Admin Console](https://adminconsole.adobe.com/overview)に接続します。
 
-[このページ](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)で説明する詳細な手順に従います。
+[このページ](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)で説明する詳細な手順に従います。
