@@ -14,7 +14,7 @@ role: User
 level: Intermediate
 exl-id: 0fc71c2f-f294-43f7-825c-73ab4d43fcf7
 source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1478'
 ht-degree: 100%
 
@@ -130,7 +130,7 @@ Adobe Campaign には、特定のプライバシーリクエストに対する�
 
 >[!NOTE]
 >
->GDPR、CCPA、PDPA のプライバシーコンプライアンスに役立つツール群を紹介します。これらの様々な規則について詳しくは、[このページ](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)を参照してください。
+>GDPR、CCPA、PDPA のプライバシーコンプライアンスに役立つツール群を紹介します。これらの様々な規則について詳しくは、[このページ](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy-overview.html#whatisgdpr)を参照してください。
 
 <!--* **GDPR** (General Data Protection Regulation) is the European Union’s (EU) privacy law that harmonizes and modernizes data protection requirements. GDPR applies to Adobe Campaign customers who hold data for Data Subjects residing in the EU.
 
@@ -142,7 +142,7 @@ Adobe Campaign には、特定のプライバシーリクエストに対する�
 
 ## トラッキング機能 {#tracking-capabilities}
 
-Adobe Campaign のトラッキング機能では、2 種類の Cookie を使用して配信受信者の行動をトラッキングできます。トラッキングの詳細については、[このページ](../../sending/using/tracking-messages.md)を参照してください。
+Adobe Campaign のトラッキング機能により、セッション Cookie と永続 Cookie を使用して配信先の行動をトラッキングできます。トラッキングの詳細については、[このページ](../../sending/using/tracking-messages.md)を参照してください。
 
 >[!NOTE]
 >
