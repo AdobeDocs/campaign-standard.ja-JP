@@ -10,9 +10,9 @@ feature: レポート
 role: Leader
 level: Intermediate
 exl-id: 3db44dec-c48a-4903-a4c6-6bfea33fc38a
-source-git-commit: cc464da0e455ae9c95fc3fe3f00bb3e1c6ff22ae
+source-git-commit: 8062995481a889d8865267e6134efa74648753f6
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '280'
 ht-degree: 4%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 4%
 
    * **Dimension**:受信者のブラウザーやドメイン、配信の成功など、配信ログから詳細を取得します。
    * **指標**:メッセージのステータスの詳細を取得します。例えば、メッセージが配信され、ユーザーが開いた場合などです。
-   * **[!UICONTROL Segments]**:受信者の年齢範囲に応じてデータをフィルターします。**[!UICONTROL Segments]** は、フリーフォームテーブルまたはパネルの上部バーに直接ドラッグ&amp;ドロップできます。デフォルトでは、**[!UICONTROL Exclude proof]**&#x200B;セグメントは既に選択されていますが、必要に応じて変更できます。
+   * **[!UICONTROL Segments]**:受信者の年齢範囲に応じてデータをフィルターします。**[!UICONTROL Segments]** は、フリーフォームテーブルまたはパネルの上部バーに直接ドラッグ&amp;ドロップできます。
 
       このカテゴリは、管理者が画面に表示される動的レポート使用契約の条項を承認した場合にのみ使用できます。 管理者が契約を却下した場合、セグメントは「**[!UICONTROL Components]**」タブに表示されず、データは収集されません。
 
