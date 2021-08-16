@@ -2,21 +2,21 @@
 solution: Campaign Standard
 product: campaign
 title: 外部 API
+description: 「外部API」アクティビティは、HTTP API呼び出しを介して、外部システムからCampaign Standardワークフローにデータを取り込みます。
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: externalAPI,workflow,main
-feature: Workflows
+feature: ワークフロー
 role: Data Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 44ad654e-bde9-4189-8765-0479d81dc0f7
+source-git-commit: d3482dfad245807aedee6deb36fd67e43c7a66b9
 workflow-type: tm+mt
-source-wordcount: '2184'
-ht-degree: 95%
+source-wordcount: '2201'
+ht-degree: 94%
 
 ---
-
 
 # 外部 API {#external-api}
 
@@ -40,7 +40,7 @@ ht-degree: 95%
 
 ### 下位互換性に関する注意 {#from-beta-to-ga}
 
-Campaign Standard20.4のリリースでは、HTTP応答データのサイズ制限と応答タイムアウトのガードレールが下がり、ベストプラクティスに合わせて調整されました。[制限事項とガードレール](#guardrails)を参照してください。 これらのガードレールの変更は、既存の外部 API アクティビティには影響しません。したがって、既存の外部 API アクティビティを、すべてのワークフローの新しいバージョンで置き換えることをお勧めします。
+Campaign Standard20.4リリースでは、HTTP応答データのサイズ制限と応答タイムアウトのガードレールが下がり、ベストプラクティスに合わせて調整されました。[制限事項とガードレール](#guardrails)を参照してください。 これらのガードレールの変更は、既存の外部 API アクティビティには影響しません。したがって、既存の外部 API アクティビティを、すべてのワークフローの新しいバージョンで置き換えることをお勧めします。
 
 「外部 API」アクティビティを置き換える場合は、新しい「外部 API」アクティビティをワークフローに追加し、設定の詳細を手動でコピーしてから、古いアクティビティを削除します。
 
@@ -116,13 +116,13 @@ JSON パーサーは、標準の JSON 構造パターンタイプに対応する
 
 ### 「EXECUTION」タブ
 
-このタブでは、接続エンドポイントを定義できます。**[!UICONTROL URL]**&#x200B;フィールドでは、Campaign Standardが通信する&#x200B;**HTTPSエンドポイント**&#x200B;を定義できます。
+このタブでは、接続エンドポイントを定義できます。**[!UICONTROL URL]**&#x200B;フィールドを使用すると、Campaign Standardが通信する&#x200B;**HTTPSエンドポイント**&#x200B;を定義できます。
 
 エンドポイントで必要な場合、次の 2 種類の認証方法を使用できます。
 
-* 基本認証：**[!UICONTROL Request Header(s)]**&#x200B;セクションにユーザ名/パスワード情報を入力します。
+* 基本認証：**[!UICONTROL Request Header(s)]**&#x200B;セクションにユーザー名/パスワード情報を入力します。
 
-* OAuth認証：外部アカウント内の&#x200B;**[!UICONTROL Use connection parameters defined in an external account]**&#x200B;をクリックすると、OAuth認証が定義されている外部アカウントを選択できます。 詳しくは、「[外部アカウント](../../administration/using/external-accounts.md)」の節を参照してください。
+* OAuth認証：外部アカウントの&#x200B;**[!UICONTROL Use connection parameters defined in an external account]**&#x200B;をクリックすると、OAuth認証が定義されている外部アカウントを選択できます。 詳しくは、「[外部アカウント](../../administration/using/external-accounts.md)」の節を参照してください。
 
 ![](assets/externalAPI-execution.png)
 
@@ -160,7 +160,7 @@ JSON パーサーは、標準の JSON 構造パターンタイプに対応する
 
 ## テスト
 
-単純なテストエンドポイントでExternal API機能をテストするには、Postman Echoを使用します。https://docs.postman-echo.com
+簡単なテストエンドポイントで外部API機能をテストするには、Postman Echoを使用します。https://docs.postman-echo.com.
 
 ## トラブルシューティング
 
@@ -262,7 +262,7 @@ JSON パーサーは、標準の JSON 構造パターンタイプに対応する
    <td> <p>HTTP ヘッダーキーが使用できません (ヘッダーキー : 「Accept」)。</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560247 - HTTPヘッダ値が正しくありません(ヘッダ値：'%s')。</td> 
+   <td> WKF-560247 - HTTPヘッダー値が正しくありません(ヘッダー値：'%s')。</td> 
    <td> <p>HTTP ヘッダー値が正しくありません (ヘッダー値 : 「%s」)。 </p>
     <p>注意：このエラーは、カスタムヘッダー値が <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a> に従った検証に失敗した場合に記録されます。</p></td> 
   </tr> 
