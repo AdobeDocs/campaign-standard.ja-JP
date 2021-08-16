@@ -2,6 +2,7 @@
 solution: Campaign Standard
 product: campaign
 title: データ保持
+description: Campaignの標準ログテーブルには、事前に設定された保存期間があり、通常、データのストレージは6か月以下に制限されます。 標準テーブルのデフォルトのリテンション値について説明します。
 audience: administration
 content-type: reference
 topic-tags: application-settings
@@ -9,10 +10,10 @@ feature: インスタンス設定
 role: Admin
 level: Experienced
 exl-id: 01cfa2a0-4ff5-4520-a515-11676de82528
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: d3482dfad245807aedee6deb36fd67e43c7a66b9
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 71%
+source-wordcount: '162'
+ht-degree: 58%
 
 ---
 
