@@ -1,7 +1,8 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: Campaign でのトリガーの使用
+title: Campaign での Triggers の使用
+description: 既存のAdobe Experience Cloudトリガーに基づいて、Adobe Campaignでトリガーを作成します。
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
@@ -9,16 +10,16 @@ feature: トリガー
 role: Data Architect
 level: Intermediate
 exl-id: 6b8d5118-89ed-49c2-b601-0aff472fcadd
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+source-git-commit: d3482dfad245807aedee6deb36fd67e43c7a66b9
 workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 83%
+source-wordcount: '765'
+ht-degree: 81%
 
 ---
 
-# Campaign でのトリガーの使用{#using-triggers-in-campaign}
+# Campaign での Triggers の使用{#using-triggers-in-campaign}
 
-## Campaign でのマッピングされたトリガーの作成{#creating-a-mapped-trigger-in-campaign}
+## Campaign でのマッピングされたトリガーの作成 {#creating-a-mapped-trigger-in-campaign}
 
 >[!NOTE]
 >
@@ -52,7 +53,7 @@ Adobe Experience Cloud（**[!UICONTROL Triggers]** コアサービス）では�
 
 1. これで、トリガーを公開できます。 詳しくは、[Campaignでのトリガーのパブリッシュ](../../integrating/using/using-triggers-in-campaign.md#publishing-trigger-in-campaign)を参照してください。
 
-## Campaignでのトリガーのパブリッシュ{#publishing-trigger-in-campaign}
+## Campaignでのトリガーのパブリッシュ {#publishing-trigger-in-campaign}
 
 既存のAdobe Experience Cloudトリガーに基づいてAdobe Campaignでトリガーイベントを作成したら、公開する必要があります。
 
@@ -78,7 +79,7 @@ Adobe Experience Cloud（**[!UICONTROL Triggers]** コアサービス）では�
 
 イベントが公開されると、新規イベントにリンクされたトランザクションテンプレートが自動的に作成されます。その後、作成したテンプレートを変更して公開する必要があります。詳しくは、[テンプレートの編集](../../start/using/marketing-activity-templates.md)の節を参照してください。
 
-## トランザクションメッセージテンプレートの編集{#editing-the-transactional-message-template}
+## トランザクションメッセージテンプレートの編集 {#editing-the-transactional-message-template}
 
 トリガーイベントを作成して公開すると、対応するトランザクションテンプレートが自動的に作成されます。詳しくは、[Campaign でのマッピングされたトリガーの作成](#creating-a-mapped-trigger-in-campaign)の節を参照してください。
 
@@ -92,7 +93,7 @@ Adobe Experience Cloud（**[!UICONTROL Triggers]** コアサービス）では�
 
 ![](assets/remarketing_8.png)
 
-## レポートへのアクセス{#accessing-the-reports}
+## レポートへのアクセス {#accessing-the-reports}
 
 専用のトリガーレポートを Adobe Campaign で表示するには、以前に作成したトリガーイベントを開き、「**[!UICONTROL Show trigger report]**」をクリックします。
 
