@@ -6,14 +6,14 @@ description: このページでは、Adobe Campaign Standard の今後のリリ�
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-release-planning
-feature: 概要
+feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
 source-git-commit: 89514dad1e318f32dafd3d8add664c37b03c8fb7
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 96%
+source-wordcount: '426'
+ht-degree: 100%
 
 ---
 
@@ -27,11 +27,11 @@ ht-degree: 96%
 
 すべてのリリース日は変更される可能性があります。このページに定期的にアクセスして、アップデートを確認することをお勧めします。
 
-## リリース21.3 - 2021年9月リリース {#release-21-3-release}
+## リリース 21.3 - 2021年9月リリース {#release-21-3-release}
 
 環境のアップデートは、以下に示す期間に順次おこなわれます。正確な日付は、各顧客に E メールで通知されます。
 
-このリリースの詳細については、[先行リリースノート](../../rn/using/early-release-notes.md)を参照してください。
+このリリースについて詳しくは、[初期のリリースノート](../../rn/using/early-release-notes.md)を参照してください。
 
 <table>
  <thead>
@@ -52,7 +52,7 @@ ht-degree: 96%
  </tbody>
 </table>
 
-その他の質問については、 [Adobe Client Care](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html) にお問い合わせください。
+その他の質問があれば、[Adobe Client Care](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html) にお問い合わせください。
 
 ## 質問と回答 {#questions-and-answers}
 
