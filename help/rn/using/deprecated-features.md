@@ -6,14 +6,14 @@ description: このページリストは、Adobe Campaign Standard の非推奨�
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-deprecated-features
-feature: 概要
+feature: Overview
 role: User
 level: Beginner
 exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 92edfbc2b7bb035d311f107b5b4c39f2521b07f6
 workflow-type: tm+mt
-source-wordcount: '773'
-ht-degree: 76%
+source-wordcount: '727'
+ht-degree: 80%
 
 ---
 
@@ -39,22 +39,6 @@ Campaign Standard 機能の差し迫った削除／置換を伝達するため�
 一般に、将来のリリースで削除される予定の機能は、まず非推奨に設定され、代わりの機能も提供されます。これらの機能は、新しい Campaign Standard の顧客は利用できなくなるか、新しい実装には使用するべきではないものです。また、製品ドキュメントからも削除されます。
 
 顧客は現在のデプロイメントで機能を利用しているかどうかを確認し、提供される代替機能を使用するように実装を変更する計画を立てるようお勧めします。ターゲットの削除バージョンを参照し、それに応じて環境やプロジェクトの更新を計画してください。
-
-<table> 
- <thead> 
-  <tr> 
-   <th> <strong>Experience Cloudアセットの統合</strong><br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p> 2021年7月以降、Assetsは従来のコアサービスになり、維持されます。 <a href="https://experienceleague.adobe.com/docs/core-services/interface/services/assets/experience-cloud-assets.html?lang=en">詳細情報</a>。</p>
-   <p>新しい実装の場合、Adobe Campaign StandardとExperience Cloudアセットを統合できなくなりました。</p>
-     <em>削除予定：2022 年</em></p>
-     </td> 
-  </tr> 
- </tbody> 
-</table>
 
 <table> 
  <thead> 
@@ -134,7 +118,7 @@ Campaign Standard 機能の差し迫った削除／置換を伝達するため�
  <tbody> 
   <tr> 
    <td> <p> 2021年4月以降、予測件名行機能は廃止されます。</p><br/>
-   <p>AIを利用したEメール機能を活用して、過去のエンゲージメント指標に基づいて、開封率、最適な送信時間、および予想される解約を分析し、予測することをお勧めします。 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html">詳細</a></p></br>
+   <p>AIを利用したEメール機能を活用して、過去のエンゲージメント指標に基づいて、開封率、最適な送信時間、および予想される解約を分析し、予測することをお勧めします。 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html">詳細情報</a></p></br>
      </td> 
   </tr> 
   </tbody> 

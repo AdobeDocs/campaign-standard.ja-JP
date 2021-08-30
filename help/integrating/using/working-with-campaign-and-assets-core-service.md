@@ -6,22 +6,18 @@ description: Assetsコアサービスの統合を利用して、Adobe Experience
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-assets-core-service
-feature: Peopleコアサービスの統合
+feature: People Core Service Integration
 role: Data Architect
 level: Intermediate
 exl-id: 0ef8bbae-03a2-4369-bc57-a56302e0ab21
-source-git-commit: e86cc930f9b6b3f3990f3b16b3d8fd2d19e126b7
+source-git-commit: 92edfbc2b7bb035d311f107b5b4c39f2521b07f6
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 16%
+source-wordcount: '167'
+ht-degree: 23%
 
 ---
 
 # Campaign と Assets コアサービスの連携{#working-with-campaign-and-assets-core-service}
-
->[!CAUTION]
->
-> Experience Cloudアセットは廃止されました。 新しい実装の場合、Adobe Campaign StandardとExperience Cloudアセットを統合できなくなりました。
 
 AssetsコアサービスまたはAssets on Demand(Adobe Experience Cloud環境の設定に応じて)をAdobe Campaignと統合すると、Adobe Experience Cloud内で共有されている任意のアセットをAdobe Campaignの電子メールとランディングページで使用できます。
 
@@ -41,5 +37,5 @@ Adobe Experience Cloudから共有されるリソースは、次のようにEメ
 
 **関連トピック：**
 
-* [アセットと共有](https://experienceleague.adobe.com/docs/core-services/interface/assets/experience-cloud-assets.html)
+* [アセットと共有](https://experienceleague.adobe.com/docs/core-services/interface/assets/experience-cloud-assets.html?lang=ja)
 * [コンテンツエディター](../../designing/using/personalization.md#example-email-personalization)
