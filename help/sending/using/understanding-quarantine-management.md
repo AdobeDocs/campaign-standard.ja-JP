@@ -10,7 +10,7 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: ed269751-78ab-4189-89d9-116bf42c0c90
-source-git-commit: 084838ff5ff369aaaa7715f5bec87a5133093750
+source-git-commit: c37437678a669f7ce90082ee17a7896cddec9284
 workflow-type: tm+mt
 source-wordcount: '1268'
 ht-degree: 45%
@@ -41,7 +41,7 @@ E メールアドレスまたは電話番号が強制隔離されているプロ
 
 * **** 強制隔離は、プロファ **イル自体ではなく、アドレス** （または電話番号など）にのみ適用されます。例えば、Eメールアドレスが強制隔離されているプロファイルは、プロファイルを更新して新しいアドレスを入力し、再び配信アクションのターゲットにすることができます。 同様に、2つのプロファイルの電話番号が同じ場合、その番号が強制隔離されると、両方のプロファイルが影響を受けます。
 
-   強制隔離されたアドレスまたは電話番号は、（配信の）[除外ログ](identifying-quarantined-addresses-for-a-delivery)または[強制隔離リスト](#identifying-quarantined-addresses-for-the-entire-platform)（プラットフォーム全体の）に表示されます。
+   強制隔離されたアドレスまたは電話番号は、（配信の）[除外ログ](#identifying-quarantined-addresses-for-a-delivery)または[強制隔離リスト](#identifying-quarantined-addresses-for-the-entire-platform)（プラットフォーム全体の）に表示されます。
 
 * 一方、**ブロックリスト**&#x200B;上にいると、**プロファイル**&#x200B;は、特定のチャネルの購読解除（オプトアウト）後など、配信のターゲットにされなくなります。 例えば、Eメールチャネルの上のプブロックリストロファイルに2つのEメールアドレスがある場合、両方のアドレスが配信から除外されます。 プロブロックリストセスについて詳しくは、[Campaignのオプトインとオプトアウトについて](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)を参照してください。
 
