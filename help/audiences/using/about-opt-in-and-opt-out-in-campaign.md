@@ -10,9 +10,9 @@ feature: Audiences
 role: User
 level: Beginner
 exl-id: ccb35aeb-2b32-4444-969b-50021111a0d6
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 6b293db5bc8f299a3237aa83c003339f0e697c6f
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '222'
 ht-degree: 9%
 
 ---
@@ -29,6 +29,6 @@ ht-degree: 9%
 
 >[!NOTE]
 >
->オプトアウトは、**Eメールアドレス**&#x200B;または&#x200B;**電話番号**&#x200B;にリンクされている強制隔離とは異なり、**プロファイル**&#x200B;に適用されます。 したがって、プロファイルをオプトアウトすると、プロファイルにリンクされているすべてのアドレスが配信から除外されます。 データベースに2つのプロファイルが含まれているユーザーは、オプトアウトしたプロファイルが1つしかないので、引き続き配信のターゲットになります。 すべてのアドレスを除外するには、強制隔離アドレスに追加します。 詳しくは、[このページ](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses-for-the-entire-platform)を参照してください。
+>オプトアウトは、**Eメールアドレス**&#x200B;または&#x200B;**電話番号**&#x200B;にリンクされている強制隔離とは異なり、**プロファイル**&#x200B;に適用されます。 したがって、プロファイルをオプトアウトすると、プロファイルにリンクされているすべてのアドレスが配信から除外されます。 ただし、ユーザーがデータベースに2つのプロファイルを含んでいる場合、そのユーザーのプロファイルの1つのみがオプトアウトされるので、配信のターゲットとなります。 すべてのアドレスを除外するには、強制隔離されたアドレスに追加します。 詳しくは、[このページ](../../sending/using/understanding-quarantine-management.md#identifying-quarantined-addresses-for-the-entire-platform)を参照してください。
 
 サービスの購読について詳しくは、[このページ](../../audiences/using/about-subscriptions.md)を参照してください。

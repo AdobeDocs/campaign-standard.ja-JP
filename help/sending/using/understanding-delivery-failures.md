@@ -6,14 +6,14 @@ description: Campaign で配信エラーを管理する方法について説明�
 audience: sending
 content-type: reference
 topic-tags: monitoring-messages
-feature: 配信品質
+feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 92a83400-447a-4d23-b05c-0ea013042ffa
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 7efdb8aa4f931268cf9a0899179819cbc1f86757
 workflow-type: tm+mt
-source-wordcount: '1307'
-ht-degree: 74%
+source-wordcount: '1303'
+ht-degree: 71%
 
 ---
 
@@ -82,7 +82,7 @@ ht-degree: 74%
 
 ## 一時的な配信エラーの後の再試行 {#retries-after-a-delivery-temporary-failure}
 
-「**無視**」のタイプの一時的エラーが原因でメッセージ送信が失敗した場合は、配信期間中に再試行がおこなわれます。エラーのタイプについて詳しくは、[配信エラーのタイプと理由](#delivery-failure-types-and-reasons)を参照してください。
+一時的なエラーが原因でメッセージが失敗した場合は、配信期間中に再試行が実行されます。 エラーのタイプについて詳しくは、[配信エラーのタイプと理由](#delivery-failure-types-and-reasons)を参照してください。
 
 再試行の回数（送信が開始された翌日に実行する再試行の回数）と、IPが特定のドメインでどの程度過去に実行され、現在どの程度の動作を実行しているかに基づいて、再試行間の最小遅延が<!--managed by the Adobe Campaign Enhanced MTA,-->になりました。 Campaign の&#x200B;**再試行**&#x200B;設定は無視されます。
 
@@ -118,7 +118,7 @@ The default configuration allows five retries at one-hour intervals, followed by
 >
 >Campaign の&#x200B;**[!UICONTROL Message qualification]**&#x200B;テーブルでのバウンスの選定は使用されなくなりました。
 
-非同期バウンスは、引き続き「**[!UICONTROL Inbound email]**」ルールを通じて、inMail プロセスで選定されます。これらのルールにアクセスするには、左上の **[!UICONTROL Adobe Campaign]** ロゴをクリックしてから、**[!UICONTROL Administration > Channels > Email > Email processing rules]**&#x200B;を選択し、「**[!UICONTROL Bounce mails]**」を選択します。このルールについて詳しくは、[この節](../../administration/using/configuring-email-channel.md#email-processing-rules)を参照してください。
+非同期バウンスは、引き続き「**[!UICONTROL Inbound email]**」ルールを通じて、inMail プロセスで選定されます。これらのルールにアクセスするには、左上の&#x200B;**Adobe**&#x200B;ロゴをクリックし、**[!UICONTROL Administration > Channels > Email > Email processing rules]**&#x200B;を選択してから、**[!UICONTROL Bounce mails]**&#x200B;を選択します。 このルールについて詳しくは、[この節](../../administration/using/configuring-email-channel.md#email-processing-rules)を参照してください。
 
 バウンスと様々な種類のバウンスについて詳しくは、[この節](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)を参照してください。
 
@@ -130,7 +130,7 @@ Bounces can have the following qualification statuses:
 * **[!UICONTROL Keep]**: the bounce mail was qualified and will be used by the **Update for deliverability** workflow to be compared to existing email processing rules and enrich the list.
 * **[!UICONTROL Ignore]**: the bounce mail was qualified but will not be used by the **Update for deliverability** workflow. So it will not be sent to the client instances.
 
-To list the various bounces and their associated error types et reasons, click the **[!UICONTROL Adobe Campaign]** logo, in the top left, then select **[!UICONTROL Administration > Channels > Quarantines > Message qualification]**.
+To list the various bounces and their associated error types et reasons, click the **Adobe** logo, in the top left, then select **[!UICONTROL Administration > Channels > Quarantines > Message qualification]**.
 
 ![](assets/qualification.png)-->
 

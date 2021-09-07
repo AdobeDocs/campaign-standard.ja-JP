@@ -6,13 +6,13 @@ description: EメールデザイナーでEメールをパーソナライズす�
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Eメールデザイン
+feature: Email Design
 role: User
 level: Intermediate
 exl-id: 3ea58bcf-234e-4dac-b296-da3f57e18a7d
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 671fd9e7ff0551ae9ae5fec26cee0b4c4939ab2f
 workflow-type: tm+mt
-source-wordcount: '2575'
+source-wordcount: '2583'
 ht-degree: 5%
 
 ---
@@ -53,7 +53,9 @@ Adobe Campaignでは、パーソナライゼーションフィールド、コン
 
 >[!NOTE]
 >
->パーソナライズURLは、ドメイン名やURL拡張に適用できません。 パーソナライゼーションが正しくない場合、メッセージの分析中にエラーメッセージが表示されます。 コンテンツブロックを選択する場合、「**ミラーページへのリンク**」などの要素を選択することはできません。 このタイプのブロックは、リンク内では禁止されています。
+>トラッキングリンクのURL署名メカニズムが無効になっている場合、パーソナライズするURLをドメイン名やURL拡張に適用することはできません。 パーソナライゼーションが正しくない場合、メッセージの分析中にエラーメッセージが表示されます。
+>
+>コンテンツブロックを選択する場合、「**ミラーページへのリンク**」などの要素を選択することはできません。 このタイプのブロックは、リンク内では禁止されています。
 
 ## パーソナライゼーションフィールドの挿入{#inserting-a-personalization-field}
 

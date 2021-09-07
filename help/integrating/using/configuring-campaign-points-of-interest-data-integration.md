@@ -6,20 +6,20 @@ description: Adobe Campaignで目標地点データ機能を設定して、購�
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics-for-mobile
-feature: オーディエンス
+feature: Audiences
 role: Data Architect
 level: Intermediate
 exl-id: b097b3fa-f949-446e-ad44-cc6ca025ee55
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
 workflow-type: tm+mt
-source-wordcount: '1329'
+source-wordcount: '1330'
 ht-degree: 3%
 
 ---
 
 # Campaign と POI データの統合の設定{#configuring-campaign-points-of-interest-data-integration}
 
-## Adobe Experience Platform SDKとのCampaignとPOIデータの統合の設定{#configuring-campaign-poi-aep-sdk}
+## Adobe Experience Platform SDKを使用したCampaignとPOIデータの統合の設定 {#configuring-campaign-poi-aep-sdk}
 
 >[!NOTE]
 >
@@ -40,7 +40,7 @@ Adobe Experience Platform SDKを使用して設定されたモバイルアプリ
 
 1. モバイルアプリケーションと、Adobe Campaignで収集した場所データにアクセスしてください。 [場所データの収集に使用するモバイルアプリへのアクセス](#accessing-mobile-apps-used-to-collect-location-data)および[収集した場所データへのアクセス](#accessing-collected-location-data)を参照してください。
 
-## SDK V4 {#configuring-campaign-poi-sdkv4}を使用したCampaignとPOIデータの統合の設定
+## SDK V4を使用したCampaignとPOIデータの統合の設定 {#configuring-campaign-poi-sdkv4}
 
 場所データの収集に使用するモバイルアプリケーションは、Adobe Campaignインターフェイスの&#x200B;**管理者**&#x200B;が設定する必要があります。
 
@@ -58,11 +58,11 @@ SDK V4を使用して設定されたモバイルアプリケーションで目�
 1. モバイルアプリケーションの購読者から収集するデータを定義します。 [購読者の目標地点データの収集](#collecting-subscribers--points-of-interest-data)を参照してください。
 1. モバイルアプリケーションと、Adobe Campaignで収集した場所データにアクセスしてください。 [場所データの収集に使用するモバイルアプリへのアクセス](#accessing-mobile-apps-used-to-collect-location-data)および[収集した場所データへのアクセス](#accessing-collected-location-data)を参照してください。
 
-### SDK V4 {#setting-up-a-mobile-app-in-campaign}を使用したAdobe Campaignでのモバイルアプリのセットアップ
+### SDK V4を使用したAdobe Campaignでのモバイルアプリの設定 {#setting-up-a-mobile-app-in-campaign}
 
 Adobe Campaignで目標地点データを収集できるようにするには、Adobe Campaignがデータを受信するモバイルアプリを設定する必要があります。
 
-1. 左上隅の **[!UICONTROL Adobe Campaign]** ロゴをクリックし、**[!UICONTROL Administration]**／**[!UICONTROL Channels]**／**[!UICONTROL Mobile app]** を選択します。
+1. 左上隅の&#x200B;**Adobe**&#x200B;ロゴをクリックし、**[!UICONTROL Administration]** / **[!UICONTROL Channels]** / **[!UICONTROL Mobile app]**&#x200B;を選択します。
 1. **[!UICONTROL Create]**&#x200B;をクリックして、アプリケーションを設定します。
 1. 「**[!UICONTROL Application name]**」フィールドに名前を入力し、「**[!UICONTROL Create]**」をクリックします。
 
@@ -77,7 +77,7 @@ Adobe Campaignで目標地点データを収集できるようにするには、
 
 ![](assets/poi_mobile_app_properties.png)
 
-### Mobile Services {#configuring-a-mobile-app-in-adobe-mobile-services}でのV4モバイルAdobeの設定
+### Mobile ServicesでのV4モバイルアプリのAdobe {#configuring-a-mobile-app-in-adobe-mobile-services}
 
 Mobile Servicesで収集されたデータをAdobe Campaignに送信するには、Mobile ServicesインターフェイスでAdobeポストバックを設定する必要があります。
 
@@ -166,13 +166,13 @@ Adobe Campaignで設定されたモバイルアプリケーションパラメー
 >
 >ポストバックの設定について詳しくは、[Mobile ServicesのAdobe](https://experienceleague.adobe.com/docs/mobile-services/using/manage-app-settings-ug/configuring-app/signals.html)を参照してください。
 
-### SDKをモバイルアプリケーションに統合する{#integrating-the-sdk-into-a-mobile-application}
+### SDKをモバイルアプリケーションに統合する {#integrating-the-sdk-into-a-mobile-application}
 
 Mobileコアサービスのソフトウェア開発キット(SDK)は、モバイルアプリケーションをAdobe Campaignに統合するのを容易にします。
 
 この手順は、この[ページ](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/administrating/configuring-channels/configuring-a-mobile-application.html)で説明します。
 
-### Mobile ServicesでのAdobe目標地点の定義{#defining-points-of-interest-in-adobe-mobile-services}
+### Mobile ServicesでのAdobe目標地点の定義 {#defining-points-of-interest-in-adobe-mobile-services}
 
 場所データの収集に使用する目標地点を定義するには：
 
@@ -185,18 +185,18 @@ Mobileコアサービスのソフトウェア開発キット(SDK)は、モバイ
 
    目標地点の管理の詳細については、[AdobeMobile Servicesのドキュメント](https://experienceleague.adobe.com/docs/mobile-services/using/location-ug/t-manage-points.html)を参照してください。
 
-### 購読者の目標地点データの収集{#collecting-subscribers--points-of-interest-data}
+### 購読者の目標地点データの収集 {#collecting-subscribers--points-of-interest-data}
 
 特定のカスタムリソースを使用すると、アプリケーション購読者から収集するデータを定義できます。
 
 この手順は、 SDK V4](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)を使用したモバイルアプリケーションの設定で説明します。[
 
 
-## 場所データの収集に使用するモバイルアプリへのアクセス{#accessing-mobile-apps-used-to-collect-location-data}
+## 場所データの収集に使用するモバイルアプリへのアクセス {#accessing-mobile-apps-used-to-collect-location-data}
 
 Adobe Campaignで正常に作成されたアプリケーションにアクセスするには：
 
-1. 左上隅の&#x200B;**[!UICONTROL Adobe Campaign]**&#x200B;ロゴをクリックします。
+1. 左上隅の&#x200B;**Adobe**&#x200B;ロゴをクリックします。
 1. SDKに応じて、 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (SDK v4)]**&#x200B;または&#x200B;**[!UICONTROL Mobile app (AEP SDK)]**&#x200B;を選択します。
 1. リストからモバイルアプリを選択して、そのプロパティを表示します。
 
@@ -204,7 +204,7 @@ Adobe Campaignで正常に作成されたアプリケーションにアクセス
 
 アプリケーションの購読者のリストも「**[!UICONTROL Mobile application subscribers]**」タブに表示されます。 購読者は、モバイルデバイスにアプリケーションをインストールしたすべてのユーザーです。 Adobe Campaignデータベースプロファイルは、登録トークンで識別されます。
 
-## 収集された場所データ{#accessing-collected-location-data}へのアクセス
+## 収集された場所データへのアクセス {#accessing-collected-location-data}
 
 設定が完了すると、収集した目標地点データが各プロファイルの「**[!UICONTROL Places]**」タブに表示されます。 リストにアクセスするには：
 

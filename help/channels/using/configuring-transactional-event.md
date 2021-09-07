@@ -7,14 +7,14 @@ audience: channels
 content-type: reference
 topic-tags: transactional-messaging
 context-tags: null
-feature: トランザクションメッセージ
+feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 1b91fb97-fe97-4564-936c-438be7ea7bc0
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
 workflow-type: tm+mt
 source-wordcount: '1674'
-ht-degree: 7%
+ht-degree: 6%
 
 ---
 
@@ -34,7 +34,7 @@ Adobe Campaignでトランザクションメッセージを送信するには、
 
 開始するには、必要に応じてイベントを作成します。
 
-1. 左上隅の **[!UICONTROL Adobe Campaign]** ロゴをクリックし、**[!UICONTROL Marketing plans]**／**[!UICONTROL Transactional messages]**／**[!UICONTROL Event configuration]** を選択します。
+1. 左上隅の&#x200B;**Adobe**&#x200B;ロゴをクリックし、**[!UICONTROL Marketing plans]** / **[!UICONTROL Transactional messages]** / **[!UICONTROL Event configuration]**&#x200B;を選択します。
 1. 「**[!UICONTROL Create]**」ボタンをクリックします。
 1. イベントの&#x200B;**[!UICONTROL Label]**&#x200B;と&#x200B;**[!UICONTROL ID]**&#x200B;を入力します。 **[!UICONTROL ID]**&#x200B;フィールドは必須で、プレフィックス「EVT」で始まる必要があります。 このプレフィックスを使用しない場合、「**[!UICONTROL Create]**」をクリックすると自動的に追加されます。
 
@@ -151,7 +151,7 @@ Adobe Campaignでトランザクションメッセージを送信するには、
 
 作成済みのトランザクションイベントにアクセスして検索するには、次の手順に従います。
 
-1. 左上隅の **[!UICONTROL Adobe Campaign]** ロゴをクリックし、**[!UICONTROL Marketing plans]**／**[!UICONTROL Transactional messages]**／**[!UICONTROL Event configuration]** を選択します。
+1. 左上隅の&#x200B;**Adobe**&#x200B;ロゴをクリックし、**[!UICONTROL Marketing plans]** / **[!UICONTROL Transactional messages]** / **[!UICONTROL Event configuration]**&#x200B;を選択します。
 1. 「**[!UICONTROL Show search]**」ボタンをクリックします。
 
    ![](assets/message-center_search-events.png)
@@ -207,7 +207,7 @@ Adobe Campaignでトランザクションメッセージを送信するには、
 
 1. イベントをプレビューして公開します（[イベントのプレビューと公開](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)を参照）。
 
-   イベントをプレビューする場合、REST APIには、Eメールアドレス、携帯電話、またはプッシュ通知固有の属性を指定する属性が含まれません。これは、 **[!UICONTROL Profile]**&#x200B;リソースから取得されるからです。
+   イベントをプレビューする場合、REST APIには、Eメールアドレス、携帯電話、またはプッシュ通知固有の属性を指定する属性は含まれません。これは、 **[!UICONTROL Profile]**&#x200B;リソースから取得されるからです。
 
    イベントが公開されると、新しいイベントにリンクされたトランザクションメッセージが自動的に作成されます。 イベントがトランザクションメッセージを送信するトリガーに対して実行するには、作成したメッセージを[変更](../../channels/using/editing-transactional-message.md)および[公開](../../channels/using/publishing-transactional-message.md)する必要があります。
 

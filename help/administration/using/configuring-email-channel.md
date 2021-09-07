@@ -7,13 +7,13 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 context-tags: extAccountEmail,overview;emailConfig,main;ruleSet,overview;delivery,properties,open
-feature: インスタンス設定
+feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
 workflow-type: tm+mt
-source-wordcount: '2598'
+source-wordcount: '2597'
 ht-degree: 77%
 
 ---
@@ -240,7 +240,7 @@ SMTP の設定について詳しくは、[E メール SMTP パラメーターの
 * **[!UICONTROL Tracking validity limit]**：URL で追跡を有効にする期間を定義できます。
 * **[!UICONTROL Substitution URL for expired URLs]**：追跡の有効期限が切れた後に表示される web ページへの URL を入力できます。
 
-### 詳細パラメーター {#advanced-parameters}
+### 詳細設定パラメーター {#advanced-parameters}
 
 「**[!UICONTROL Advanced parameters]**」セクションには複数のパラメーターが含まれています。
 
@@ -332,7 +332,7 @@ Eメールプロパティの[設定メニュー](#email-channel-parameters)と[�
 
 ### バウンスメールの認定 {#legacy-bounce-mail-qualification}
 
-様々なバウンスとそれに関連するエラータイプの理由を一覧表示するには、左上の&#x200B;**[!UICONTROL Adobe Campaign]**&#x200B;ロゴをクリックし、「**[!UICONTROL Administration > Channels > Quarantines > Message qualification]**」を選択します。
+様々なバウンスとそれに関連するエラータイプの理由を一覧表示するには、左上の&#x200B;**Adobe**&#x200B;ロゴをクリックし、**[!UICONTROL Administration > Channels > Quarantines > Message qualification]**&#x200B;を選択します。
 
 バウンスは、次の資格ステータスを持つことができます。
 

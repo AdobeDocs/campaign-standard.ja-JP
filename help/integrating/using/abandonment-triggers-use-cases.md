@@ -9,16 +9,15 @@ topic-tags: working-with-campaign-and-triggers
 feature: Triggers
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 88007e6f-2cdd-4fea-9739-525beaf7c658
+source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
 workflow-type: tm+mt
-source-wordcount: '997'
-ht-degree: 99%
+source-wordcount: '994'
+ht-degree: 98%
 
 ---
 
-
-# 中断トリガーの使用例{#abandonment-triggers-use-cases}
+# 放棄トリガーのユースケース{#abandonment-triggers-use-cases}
 
 この節では、Adobe Campaign と Experience Cloud Triggers の統合を使用して実装できる様々な使用例を示します。次の 2 つの使用例があります。
 
@@ -67,7 +66,7 @@ Experience Cloud トリガーを作成したら、Adobe Campaign で使用しま
 
 Adobe Campaign では、Experience Cloud で作成したトリガーにリンクしたトリガーを作成する必要があります。
 
-1. Adobe Campaign でトリガーを作成するには、左上隅にある **[!UICONTROL Adobe Campaign]** のロゴをクリックし、**[!UICONTROL Marketing plans]**／**[!UICONTROL Transactional messages]**／**[!UICONTROL Experience Cloud triggers]** を選択します。
+1. Adobe Campaignでトリガーを作成するには、左上隅の&#x200B;**Adobe**&#x200B;ロゴをクリックし、**[!UICONTROL Marketing plans]** / **[!UICONTROL Transactional messages]** / **[!UICONTROL Experience Cloud triggers]**&#x200B;を選択します。
 
    ![](assets/remarketing_1.png)
 
@@ -164,4 +163,3 @@ Adobe Campaign では、Experience Cloud で作成したトリガーにリンク
 1. しばらくすると、同じ訪問者／受信者がリマーケティングメッセージを受信します。このメッセージには、最近検索された目的地が記載されています。
 
    ![](assets/trigger_uc_search_7.png)
-

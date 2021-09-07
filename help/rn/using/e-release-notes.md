@@ -1,28 +1,30 @@
 ---
 solution: Campaign Standard
 product: campaign
-title: 最新リリース
-description: このページでは、Adobe Campaign Standard の最新リリースを紹介します。
-audience: rn
-content-type: reference
-topic-tags: campaign-standard-releases
+title: 早期リリースノート
+description: 早期リリースノート
 feature: Overview
 role: User
 level: Beginner
-exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 08d2e4552bcb5f5eef9f92e5a0293270b577f873
+hide: true
+hidefromtoc: true
+exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
+source-git-commit: ac129fd21382d1d89263acae2fdbe280709f5946
 workflow-type: tm+mt
 source-wordcount: '1072'
-ht-degree: 38%
+ht-degree: 43%
 
 ---
 
+# 早期リリースノート {#new-release}
 
-# 最新リリース{#latest-release}
+このページでは、次回の Campaign Standard リリースに含まれる新機能、改善点、修正点について説明します。
+
+>[!CAUTION]
+>
+> この内容は、ステージング環境のアップグレード日まで予告なしに変更される場合があります。詳しくは、[リリース計画のページ](../../rn/using/release-planning.md)を参照してください。
 
 ## リリース 21.3 - 2021年9月 {#release-21-3---sept-2021}
-
-最新のリリースに含まれる新機能、改善点、修正点を次にCampaign Standardします。
 
 **新機能**
 
@@ -98,7 +100,7 @@ ht-degree: 38%
 
 * Adobe Experience Manager のコンテンツにリンクされたワークフローで繰り返し配信を作成する際、送信前にコンテンツの承認ステータスが確認されるようになりました。
 * データベース接続制限が、接続エラーを回避するために Campaign パッケージと連携されるようになりました。
-* カスタムリソースのパブリッシュで新しい整合性チェックを行うと、ユーザーが重複したインデックスを作成できなくなり、パブリッシュが失敗します。 必要に応じて、インデックスの名前を変更するようにユーザーに求めるエラーメッセージが改善されました。
+* カスタムリソースでインデックスを作成する際の整合性チェックを追加し、エラーメッセージを改善しました。
 
 **その他の変更**
 

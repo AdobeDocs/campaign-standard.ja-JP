@@ -6,14 +6,14 @@ description: 'Adobe Campaign ユーザーには、特定の役割が割り当て
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-feature: アクセス管理
+feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 6605203e-78f8-4ebd-b256-a621a3a9d638
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
 workflow-type: tm+mt
-source-wordcount: '1220'
-ht-degree: 94%
+source-wordcount: '1218'
+ht-degree: 93%
 
 ---
 
@@ -27,9 +27,9 @@ Adobe Campaign では、ユーザーに一連の役割を割り当てて、ユ�
 
 管理者は Admin Console からユーザーを管理できます。ユーザーは、Adobe Campaign と自動的に同期されるようになります。詳しくは、[Admin Console](https://helpx.adobe.com/jp/enterprise/using/users.html) のドキュメントを参照してください。
 
-![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](#video)
+![](assets/do-not-localize/how-to-video.png) [この機能をビデオで確認](#video)
 
-Adobe Campaign でユーザーを表示するには、左上隅の **[!UICONTROL Adobe Campaign]** ロゴをクリックし、**[!UICONTROL Administration > Users & Security > Users]** を選択します。
+Adobe CampaignでAdobeを表示するには、左上隅の&#x200B;**ユーザー**&#x200B;ロゴをクリックし、**[!UICONTROL Administration > Users & Security > Users]**&#x200B;を選択します。
 
 Adobe Campaign からユーザー管理インターフェイスにアクセスするには、**[!UICONTROL User administration]** をクリックします。
 
@@ -156,7 +156,7 @@ Adobe Campaign インターフェイスで **[!UICONTROL Administration]** メ�
 
 これで、Adobe Campaign Standard を使用する準備が整いました。
 
-## チュートリアルビデオ(#video)
+## チュートリアルビデオ {#video}
 
 このビデオでは、ユーザーのアクセス権の管理方法を示します。
 

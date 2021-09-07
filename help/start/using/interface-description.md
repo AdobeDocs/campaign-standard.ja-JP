@@ -6,14 +6,14 @@ description: Adobe Campaign ワークスペースのホームページ、上部�
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-feature: 概要
+feature: Overview
 role: User
 level: Beginner
 exl-id: afdd981d-f6c7-4800-9e60-3018e0e41c74
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
 workflow-type: tm+mt
-source-wordcount: '1290'
-ht-degree: 92%
+source-wordcount: '1258'
+ht-degree: 79%
 
 ---
 
@@ -53,7 +53,7 @@ Campaign ホームページは、主な Adobe Campaign 機能にすばやくア�
 
 ナビゲーションは原則として次のとおりです。
 
-* ページの左上隅にある **[!UICONTROL Adobe Campaign]** ロゴを使用すると、高度な機能と設定にアクセスできます。表示されるメニューは、プロファイルと権限に応じて異なります。
+* ページの左上隅にある&#x200B;**Adobe**&#x200B;ロゴを使用すると、高度な機能と設定にアクセスできます。 表示されるメニューは、プロファイルと権限に応じて異なります。
 
    詳細設定メニューについては、[詳細設定メニュー](#advanced-menu)の節を参照してください。
 
@@ -66,23 +66,21 @@ Campaign ホームページは、主な Adobe Campaign 機能にすばやくア�
 
 ### ヘルプ {#help}
 
-上部バーは各画面に表示され、Adobe Campaign 機能間を移動できるほか、Adobe プロファイル、通知、Adobe Experience Cloud のソリューション、およびキャンペーンに関するドキュメントにアクセスできます。
+右上隅にある「**ヘルプ**」アイコンをクリックすると、Adobe Experience Leagueが製品に取り込まれます。
 
-ナビゲーションは原則として次のとおりです。
+![](assets/ux_help.png)
 
-* ページの左上隅にある **[!UICONTROL Adobe Campaign]** ロゴを使用すると、高度な機能と設定にアクセスできます。表示されるメニューは、プロファイルと権限に応じて異なります。
+**[!UICONTROL Search]**&#x200B;フィールドを使用して、ガイダンスを見つけます。 検索結果には、ドキュメントやヘルプ記事、コミュニティフォーラムやビデオコンテンツの結果が含まれ、より多くのコンテンツに容易にアクセスしてアプリケーションを最大限に活用できます。
 
-   詳細設定メニューについては、[詳細設定メニュー](#advanced-menu)の節を参照してください。
+3つのタブがヘルプとサポートを見つけるのに役立ちます。
 
-* 「**[!UICONTROL Home]**」リンクをクリックすると、Adobe Campaign ホームページが表示されます。
-* 「**[!UICONTROL Marketing activities]**」、「**[!UICONTROL Programs & Campaigns]**」、「**[!UICONTROL Profiles]**」、「**[!UICONTROL Audiences]**」、「**[!UICONTROL Reports]**」の各リンクをクリックすると、これらの機能にリンクされた画面にアクセスできます。
-* 「**[!UICONTROL Help]**」ボタンをクリックすると、製品ドキュメントやコンテキストヘルプ、リリースノート、バージョン番号、法律上の注意事項に加え、Adobe Experience Cloud のコミュニティやカスタマーケアへのリンクにアクセスできます。
-
-   ![](assets/ux_help.png)
-
-* **ソリューション選択**&#x200B;アイコンをクリックすると、別の Adobe Experience Cloud ソリューションに切り替えることができます。また、プロファイル設定に切り替えることもできます。
-* **通知**&#x200B;アイコンには、最新のアラートまたは情報が表示されます。
-* **ユーザー**&#x200B;アイコンをクリックすると、ユーザープロファイルにリンクされた情報を表示できます。「**[!UICONTROL Sign out]**」ボタンにアクセスできます。
+1. 「**[!UICONTROL Help]**」タブには次が含まれます。
+   * コンテキストリンクを含むAdobe Campaign Standardのドキュメントにすばやくアクセスできます。
+   * Adobe Campaignコースライブラリにアクセスできる&#x200B;**[!UICONTROL Learning]**&#x200B;リンク。
+   * Campaignに関するご質問専用のフォーラムにアクセスするための&#x200B;**[!UICONTROL Community]**&#x200B;リンク。
+   * 次への直接アクセスヘルプセンター、カスタマーケア、Experience Cloud製品のステータス、開発者向け接続、リリースノート、リリース計画、**[!UICONTROL About]**&#x200B;画面。
+1. 「**[!UICONTROL Support]**」タブでは、サポートケースを開いて、電話またはTwitterでお問い合わせいただけます。
+1. 「**[!UICONTROL Feedback]**」タブを使用すると、問題の報告やアイデアの共有が容易になります。
 
 ## 詳細設定メニュー {#advanced-menu}
 

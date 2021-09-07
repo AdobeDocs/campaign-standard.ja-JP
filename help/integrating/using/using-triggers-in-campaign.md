@@ -6,14 +6,14 @@ description: 既存のAdobe Experience Cloudトリガーに基づいて、Adobe 
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
-feature: トリガー
+feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 6b8d5118-89ed-49c2-b601-0aff472fcadd
-source-git-commit: d3482dfad245807aedee6deb36fd67e43c7a66b9
+source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
 workflow-type: tm+mt
 source-wordcount: '765'
-ht-degree: 81%
+ht-degree: 80%
 
 ---
 
@@ -33,7 +33,7 @@ Adobe Experience Cloud（**[!UICONTROL Triggers]** コアサービス）では�
 
 これをおこなうには、次の手順に従います。
 
-1. 左上隅の **[!UICONTROL Adobe Campaign]** ロゴをクリックし、**[!UICONTROL Marketing plans]**／**[!UICONTROL Transactional messages]**／**[!UICONTROL Experience Cloud Triggers]** を選択します。
+1. 左上隅の&#x200B;**Adobe**&#x200B;ロゴをクリックし、**[!UICONTROL Marketing plans]** / **[!UICONTROL Transactional messages]** / **[!UICONTROL Experience Cloud Triggers]**&#x200B;を選択します。
 
    ![](assets/remarketing_1.png)
 

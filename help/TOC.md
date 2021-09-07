@@ -6,9 +6,9 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Campaign Standard の使用に必要な主要な機能、タスク、設定、その他のリソースに関するヘルプセンター。 '
 title: Campaign Standard ガイド
 breadcrumb-title: Adobe Campaign Standard ドキュメント
-source-git-commit: 89514dad1e318f32dafd3d8add664c37b03c8fb7
+source-git-commit: 3e62ae3fc6e69710edc8977286c655a6b2203a3a
 workflow-type: tm+mt
-source-wordcount: '1790'
+source-wordcount: '1792'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 100%
 + [最新の更新](rn/using/documentation-updates.md)
 + リリースノート {#release-notes}
    + [最新リリース](rn/using/release-notes.md)
-   + [早期リリースノート](rn/using/early-release-notes.md)
+   + [早期リリースノート](rn/using/e-release-notes.md)
    + 以前のリリース {#previous-releases}
       + [リリースノート 2021](rn/using/release-notes-2021.md)
       + [リリースノート 2020](rn/using/release-notes-2020.md)
@@ -433,6 +433,7 @@ ht-degree: 100%
 + 管理 {#administrating}
    + [Campaign Standard 管理の基本を学ぶ要](administration/using/get-started-campaign-administration.md)
    + [監視のガイドライン](administration/using/monitoring-guidelines.md)
+   + [監査記録](administration/using/audit.md)
    + [設定のガイドライン](administration/using/about-configuration-guidelines.md)
    + ユーザーとセキュリティ {#users-and-security}
       + [アクセス管理について](administration/using/about-access-management.md)
