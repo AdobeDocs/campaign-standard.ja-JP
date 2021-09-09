@@ -6,14 +6,14 @@ description: クエリ編集ツールを使用すると、高度な関数を使�
 audience: automating
 content-type: reference
 topic-tags: filtering-data
-feature: ワークフロー
+feature: Workflows
 role: Data Architect
 level: Experienced
 exl-id: d1575626-55bb-4303-a796-ad323a399330
-source-git-commit: 887396a0871a8ed93642c55a49c8737f5c98bfc2
+source-git-commit: cedb8a0837d9c0339149efd2a99c777a12ef260d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1970'
+ht-degree: 96%
 
 ---
 
@@ -222,7 +222,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td> <strong>ToDateTimeWithTimezone</strong><br /> </td> 
-   <td> 文字列を日付 + タイムゾーンに変換します<br />例：ToDateTimeWithTimezone("2019-02-19 08:09:00", "Asia/Tehran")<br /> </td> 
+   <td> 文字列を日付 + タイムゾーンに変換します<br /> 例：ToDateTimeWithTimezone("2019-02-19 08:09:00", "Asia/Tehran")<br /> </td> 
    <td> ToDateTimeWithTimezone(&lt;文字列&gt;)<br /> </td> 
   </tr> 
   <tr> 
@@ -480,7 +480,7 @@ ht-degree: 0%
  </tbody> 
 </table>
 
-##  バイト長文字列 {#string}
+## 文字列 {#string}
 
 文字列関数は、一連の文字列を操作する場合に使用します。
 
@@ -707,11 +707,12 @@ ht-degree: 0%
    <td> 数値、文字列、日付のいずれかの列における最小値を返します<br /> </td> 
    <td> Min(&lt;値&gt;)<br /> </td> 
   </tr>
-
-
-
-
-<tr> 
+  <tr>
+   <td> <strong>StringAgg</strong>、String集計<br /> </td>
+   <td> 2番目の引数内の文字で区切られた、文字列型の列の値を連結して返します（デフォルトの区切り文字はコンマです）。<br /> </td>
+   <td> StringAgg（&lt;文字列値&gt;,&lt;区切り文字&gt;）
+  </tr>
+  <tr> 
    <td> <strong>Sum</strong><br /> </td> 
    <td> 数値列の値の合計を返します<br /> </td> 
    <td> Sum(&lt;値&gt;)<br /> </td> 

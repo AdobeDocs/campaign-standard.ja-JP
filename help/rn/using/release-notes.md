@@ -10,9 +10,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 08d2e4552bcb5f5eef9f92e5a0293270b577f873
+source-git-commit: cedb8a0837d9c0339149efd2a99c777a12ef260d
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1074'
 ht-degree: 38%
 
 ---
@@ -104,7 +104,7 @@ ht-degree: 38%
 
 * Adobe Experience Platform Data ConnectorおよびAudience Destinationsサービスは、非推奨（廃止予定）となり、Campaign Standardされました。 これらの機能を使用する場合は、Adobeソースと宛先に移行し、実装を適応させる必要があります。 [詳細情報](../../integrating/using/get-started-sources-destinations.md)
 * 廃止および削除された機能は、このページ](deprecated-features.md)に記載されています。[
-* 文字列型の列の値を連結するために、新しい「StringAgg」集計関数が導入されました。（CAMP-47077）
+* 文字列型の列の値を連結するために、新しい「StringAgg」集計関数が導入されました。（CAMP-47077）[詳細情報](../../automating/using/list-of-functions.md#aggregates)
 * **配信指標を更新** (updateDeliveryIndicators)テクニカルワークフローが改善され、パフォーマンスが向上しました。
 * アプリ内メッセージテンプレートが、Campaign Standardでサポートされるすべての言語で利用できるようになりました。
 * 配信の分析中にトラッキングサーバーへの呼び出し数を減らすことで、配信の準備時間をトランザクションメッセージに最適化しました。
