@@ -1,8 +1,6 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 追加データによる E メールのパーソナライズ
-description: この使用例では、様々なタイプの追加データをクエリに追加し、それを電子メールのパーソナライゼーションフィールドとして使用する方法を示します。
+description: この使用例では、様々なタイプの追加データをクエリに追加し、Eメールのパーソナライゼーションフィールドとして使用する方法を示します。
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -10,18 +8,17 @@ context-tags: query,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: b207dc73-03dc-4f25-95e5-573e4b4bce54
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '479'
 ht-degree: 86%
 
 ---
 
-
 # 追加データによる E メールのパーソナライズ {#example--personalizing-an-email-with-additional-data}
 
-次の例は、様々なタイプの追加データをクエリに追加し、E メールのパーソナライゼーションフィールドとして使用する方法を示しています。**[!UICONTROL Query]**&#x200B;アクティビティが対象とするデータを拡張する方法について詳しくは、[このセクション](../../automating/using/query.md#enriching-data)を参照してください。
+次の例は、様々なタイプの追加データをクエリに追加し、E メールのパーソナライゼーションフィールドとして使用する方法を示しています。**[!UICONTROL Query]**&#x200B;アクティビティのターゲットとなるデータのエンリッチメント方法について詳しくは、[この節](../../automating/using/query.md#enriching-data)を参照してください。
 
 この例では、[カスタムリソース](../../developing/using/data-model-concepts.md)を使用します。
 
@@ -35,7 +32,7 @@ ht-degree: 86%
 
 ![](assets/enrichment_example1.png)
 
-1. 追加[クエリ](../../automating/using/query.md)アクティビティ。1つ以上のトランザクションを実行したプロファイルをターゲットできます。
+1. [クエリ](../../automating/using/query.md)アクティビティを追加します。このアクティビティを使用して、1つ以上のトランザクションを実行したプロファイルをターゲティングできます。
 
    ![](assets/enrichment_example2.png)
 
@@ -56,7 +53,7 @@ ht-degree: 86%
 
    ![](assets/enrichment_example5.png)
 
-1. 追加[電子メール配信](../../automating/using/email-delivery.md)アクティビティ。 E メールコンテンツに、クエリで計算されたデータに対応するパーソナライゼーションフィールドを挿入します。パーソナライゼーションフィールドエクスプローラーの **[!UICONTROL Additional data (targetData)]** リンクからアクセスできます。
+1. [Eメール配信](../../automating/using/email-delivery.md)アクティビティを追加します。 E メールコンテンツに、クエリで計算されたデータに対応するパーソナライゼーションフィールドを挿入します。パーソナライゼーションフィールドエクスプローラーの **[!UICONTROL Additional data (targetData)]** リンクからアクセスできます。
 
    ![](assets/enrichment_example3.png)
 

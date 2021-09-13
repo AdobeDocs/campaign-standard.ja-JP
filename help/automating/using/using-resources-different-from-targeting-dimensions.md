@@ -1,8 +1,6 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: ターゲティングディメンションとは異なるリソースの使用
-description: ターゲティングディメンションとは異なるリソースを使用する方法を説明します。
+description: ターゲティングディメンションとは異なるリソースの使用方法を説明します。
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -10,20 +8,19 @@ context-tags: query,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 5805bdfa-fb33-4a46-ba1e-7a10b067349b
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '293'
 ht-degree: 81%
 
 ---
 
-
 # ターゲティングディメンションとは異なるリソースの使用 {#using-resources-different-from-targeting-dimensions}
 
-この使用例では、離れたテーブル内の特定のレコードを検索する場合など、ターゲティングディメンションとは異なるリソースを使用する方法を示します。
+この使用例では、ターゲティングディメンションとは異なるリソースを使用して、例えば、距離テーブル内の特定のレコードを検索する方法を示します。
 
-ターゲティングディメンションとリソースについての詳細は、[このセクション](../../automating/using/query.md#targeting-dimensions-and-resources)を参照してください。
+ターゲティングディメンションとリソースについて詳しくは、[この節](../../automating/using/query.md#targeting-dimensions-and-resources)を参照してください。
 
 **例 1：配信が「お帰りなさい」というラベルでターゲットするプロファイルの識別**。
 

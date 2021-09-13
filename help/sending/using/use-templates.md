@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 配信テンプレートの使用
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: 「配信テンプレートを使用すると、一般的なアクティビティの既製のシナリオを提供し、効率を向上できます。」
-feature: 配信品質
+feature: Deliverability
 role: User
 level: Intermediate
 exl-id: ca134a7f-9035-4885-b4cb-1170b6ec10cc
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '815'
 ht-degree: 60%
 
 ---
@@ -24,7 +22,7 @@ ht-degree: 60%
 
 配信テンプレートについて詳しくは、[この節](../../start/using/marketing-activity-templates.md)を参照してください。
 
-## 配信テンプレートの概要 {#gs-templates}
+## 配信テンプレートの基本を学ぶ {#gs-templates}
 
 [配信テンプレート](../../start/using/marketing-activity-templates.md#creating-a-new-template)を使用すると、一連の技術的および機能的プロパティをニーズに合わせて事前に定義しておき、それらのプロパティを以降の配信で再利用することができます。これにより、作業時間を短縮でき、必要に応じて配信を標準化できます。
 

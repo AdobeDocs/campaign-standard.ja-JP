@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: オーディエンスの閲覧
 description: 「オーディエンスの閲覧」アクティビティを使用すると、既存のオーディエンスを取得し、追加のフィルター条件を適用してそのオーディエンスを絞り込むことができます。
 audience: automating
@@ -10,16 +8,15 @@ context-tags: readAudience,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 9a77a2c7-cc1c-416f-8103-bb7d5c84a373
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '206'
 ht-degree: 87%
 
 ---
 
-
-# オーディエンスの閲覧{#read-audience}
+# オーディエンスを読み取り{#read-audience}
 
 ## 説明 {#description}
 
@@ -33,8 +30,8 @@ ht-degree: 87%
 
 **関連トピック**
 
-* [使用例：2つの洗練されたオーディエンスの和集合](../../automating/using/union-on-two-refined-audiences.md)
-* [使用例：ファイルオーディエンスとデータベースとの調整](../../automating/using/reconcile-file-audience-with-database.md)
+* [使用例：2つの絞り込まれたオーディエンスの和集合](../../automating/using/union-on-two-refined-audiences.md)
+* [使用例：ファイルオーディエンスとデータベースとの紐付け](../../automating/using/reconcile-file-audience-with-database.md)
 
 ## 設定 {#configuration}
 

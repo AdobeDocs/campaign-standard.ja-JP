@@ -1,8 +1,6 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 必読
-description: APIを使用する前に読む必要があります。
+description: APIを使用する前にお読みください。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -10,37 +8,36 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 9e2d1b59-55a5-4715-adfb-35191a9df536
-translation-type: tm+mt
-source-git-commit: 01e4eb027b55815c3680b26691e61cbe5b63ee8c
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '374'
 ht-degree: 0%
 
 ---
 
-# 必ず読む{#must-read}
+# 必読 {#must-read}
 
 ## 技術要件
 
-* Adobe CampaignAPIは、サーバー間でのみ使用する必要があります。
-* 導入したい使用事例が、Adobe CampaignAPIで許可されている規模と一致する場合は、必ずAdobeのテクニカルコンタクトにお問い合わせください。
-* Adobe IOアクセスの設定には、特定の権限が必要です。問題が発生した場合は、Adobeサポートに問い合わせてください。
+* Adobe Campaign APIは、サーバー間でのみ使用する必要があります。
+* 実装するユースケースがAdobe Campaign APIで許可されるスケールと一致している場合は、必ずAdobeの技術担当者にお問い合わせください。
+* Adobe I/Oアクセスを設定するには、特定の権限が必要です。問題が発生した場合は、Adobeサポートにお問い合わせください。
 
 ## 権限とアクセス
 
-* デフォルトでは、Adobe CampaignAPIは管理者コンテキストを使用するので、組織単位と役割は適用されません。
-* Adobe CampaignAPIは、ロールコンテキストから除外されます。
-* APIを組織単位またはロールと共に設定する場合は、まずAdobeのテクニカルコンタクトにお問い合わせください。
+* デフォルトでは、Adobe Campaign APIは管理者コンテキストを使用するので、組織単位と役割は適用されません。
+* Adobe Campaign APIは、ロールコンテキストから除外されます。
+* 組織単位またはロールでAPIを設定する場合は、まず担当の担当者にお問い合わせのうえ、技術担当者にお問い合わせください。
 
-## リソースの表現
+## リソース表現
 
-すべてのAPIリソースは、URL拡張子が付いた&#x200B;**JSON**&#x200B;で、またはHTTP Accept Header内で入手できます。
+すべてのAPIリソースは、URL拡張子を持つ&#x200B;**JSON**&#x200B;またはHTTP Acceptヘッダー内で使用できます。
 
 `GET /profileAndServices/<resourceName>.json`
 
 >[!NOTE]
 >
->URLに拡張子がない場合、**json形式はcontent-typeのデフォルトの形式です**。
+>URLに拡張子がない場合、**json形式はcontent-typeのデフォルトの**&#x200B;です。
 
 <br/>
 
@@ -56,25 +53,25 @@ ht-degree: 0%
 
 ## プライマリキーとURL
 
-* 自分でURLを作成しないでください。 すべてのURLがAPIから返されます。 ただし、最上位のリソース名に基づいてURLを作成することは可能です。
+* 自分でURLを作成しないでください。 すべてのURLはAPIから返されます。 ただし、最上位のリソース名に基づいてURLを作成することはできます。
 
-* この例を示す自動主キー(PKey)値は、別の特定の展開で機能することを意図していません。 これらはAdobe CampaignAPIによって生成されます。
+* この例を示す自動プライマリキー(PKey)値は、別の特定のデプロイメントでは機能しません。 これらはAdobe Campaign APIで生成されます。
 
-* Adobe Campaignが生成する自動プライマリキーの値を、外部のデータベースまたはWebサイトに保存しないでください。 データベース定義で特定のキーフィールドを生成し、開発時に使用する必要があります。
+* Adobe Campaignで生成される自動プライマリキー値は、外部のデータベースまたはWebサイトに保存しないでください。 データベース定義で特定のキーフィールドを生成し、開発時に使用する必要があります。
 
-## カスタムキー{#custom-keys}
+## カスタムキー {#custom-keys}
 
-プロファイルリソースがカスタムキーフィールドを使用して拡張されている場合は、Adobe Campaignが生成する自動プライマリキーの代わりに、このフィールドをキーとして使用できます。
+プロファイルリソースがカスタムキーフィールドを使用して拡張されている場合、Adobe Campaignによって生成される自動プライマリキーの代わりに、このフィールドをキーとして使用できます。
 
 `GET /.../profileAndServicesExt/profile/<customKey>`
 
-キーの値が接触チャネルキーと異なる場合や、Adobeが提供するキーではなく独自のビジネスキーをURIとして使用している場合は、PATCH操作を使用してカスタムキーを変更することはできません。
+キー値が元のキーと異なる場合や、Adobeが提供するURIの代わりに独自のビジネスキーをURIとして使用している場合は、PATCH操作を使用してカスタムキーを変更することはできません。
 
-**トップレベルのプロファイルリソース**&#x200B;に対してのみ、カスタムキーを使用します。 URLはAPIから返されるので、決して自分で作成しないでください。
+**トップレベルのプロファイルリソース**&#x200B;に対してのみカスタムキーを使用します。 URLはAPIによって返され、自分で作成しないでください。
 
 <br/>
 
-***サンプルリクエスト***
+***リクエストのサンプル***
 
 カスタムキーを使用してプロファイルの購読を取得するには、カスタムキーに対してGET操作を実行します。
 
@@ -86,7 +83,7 @@ ht-degree: 0%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-返された購読URLに対してGETリクエストを実行します。
+返されたGETURLに対してサブスクリプションリクエストを実行します。
 
 ```
 -X GET <SUBSCRIPTION_URL> \

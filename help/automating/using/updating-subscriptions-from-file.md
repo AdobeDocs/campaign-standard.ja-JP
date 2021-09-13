@@ -1,8 +1,6 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: ファイルからの複数の購読ステータスの更新
-description: この使用例では、プロファイルを含むファイルをインポートし、その購読を、ファイルで指定されたいくつかのサービスに更新する方法を示します。
+description: この使用例では、プロファイルを含むファイルをインポートし、そのプロファイルの購読を、ファイルで指定された複数のサービスに更新する方法を示します。
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
@@ -10,14 +8,13 @@ context-tags: setOfService,workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 2e98561a-97fd-483a-a547-c4e6d33993dc
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '417'
 ht-degree: 76%
 
 ---
-
 
 # ファイルからの複数の購読ステータスの更新 {#updating-multiple-subscription-statuses-from-a-file}
 
@@ -27,7 +24,7 @@ ht-degree: 76%
 
 ![](assets/subscription_activity_example1.png)
 
-* [ファイル](../../automating/using/load-file.md)を読み込みアクティビティは、プロファイルファイルを読み込み、読み込まれた列の構造を定義します。
+* 「[ファイルを読み込み](../../automating/using/load-file.md)」アクティビティがプロファイルファイルを読み込み、インポートした列の構造を定義します。
 
    この例では、読み込まれるファイルは .csv 形式で、次のデータが含まれています。
 
@@ -52,7 +49,7 @@ ht-degree: 76%
 
    「0」と「1」が既に操作の識別に使用されているファイルでは、再マッピングの必要はありません。列が&#x200B;**ブール値**&#x200B;または&#x200B;**整数**&#x200B;として処理されていることを「**[!UICONTROL Column definition]**」タブで確認してください。
 
-* [調整](../../automating/using/reconciliation.md)アクティビティは、ファイルのデータをAdobe Campaignデータベースのプロファイルディメンションに属するものとして識別します。 「**[!UICONTROL Identification]**」タブでは、ファイルの **email** フィールドと、プロファイルリソースの **email** フィールドが照合されます。
+* 「[紐付け](../../automating/using/reconciliation.md)」アクティビティは、ファイルのデータを、Adobe Campaignデータベースのプロファイルディメンションに属するものとして識別します。 「**[!UICONTROL Identification]**」タブでは、ファイルの **email** フィールドと、プロファイルリソースの **email** フィールドが照合されます。
 
    ![](assets/subscription_activity_example3.png)
 
@@ -60,11 +57,11 @@ ht-degree: 76%
 
    ![](assets/subscription_example_service_relation.png)
 
-* （調整の結果の）一時リソースの&#x200B;**email**&#x200B;フィールドに基づく[重複排除 - 重複](../../automating/using/deduplication.md)は、重複を識別します。 重複がある場合、サービスへの購読登録はすべてのデータで失敗するので、重複を排除することが重要です。
+* （紐付けの結果生成される）一時リソースの&#x200B;**email**&#x200B;フィールドに基づく[重複排除](../../automating/using/deduplication.md)で、重複を識別します。 重複がある場合、サービスへの購読登録はすべてのデータで失敗するので、重複を排除することが重要です。
 
    ![](assets/subscription_activity_example5.png)
 
-* [購読サービス](../../automating/using/subscription-services.md)アクティビティは、**[!UICONTROL Reconciliation]**&#x200B;アクティビティーで作成されたリンクを介して、更新するサービスがトランジションからのものであることを示します。
+* [購読サービス](../../automating/using/subscription-services.md)アクティビティは、**[!UICONTROL Reconciliation]**&#x200B;アクティビティで作成されたリンクを通じて、更新するサービスがトランジションからのものであることを識別します。
 
    「**[!UICONTROL Operation type]**」は、ファイルの **operation** フィールドに由来するものとして識別されます。ここで選択できるのは、ブール値フィールドまたは整数フィールドのみです。実行する操作を記述しているファイル列がリストに表示されない場合は、前述のように、「**[!UICONTROL Load file]**」アクティビティで列の形式が正しく設定されていることを確認してください。
 

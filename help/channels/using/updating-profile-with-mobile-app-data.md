@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: モバイルアプリケーションデータに基づくプロファイル情報の作成と更新
 description: モバイルアプリケーションデータに基づいてプロファイル情報を作成および更新する方法について説明します。
 audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: delivery,mobileAppContent,back
-feature: プッシュ
+feature: Push
 role: User
 level: Intermediate
 exl-id: 1b48456e-9aae-485c-a7c4-7e3e2f53cbca
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '1010'
 ht-degree: 4%
 
 ---

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: サービスのサブスクリプションを確認
 description: Adobe Campaign 内のサービスを購読しているプロファイルに対して確認メッセージを設定するには、次の手順に従います。
 audience: audiences
@@ -10,9 +8,9 @@ feature: Audiences
 role: User
 level: Intermediate
 exl-id: 9992a05b-9f3c-4e6c-82e5-151c679565a1
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1322'
+source-wordcount: '1321'
 ht-degree: 96%
 
 ---

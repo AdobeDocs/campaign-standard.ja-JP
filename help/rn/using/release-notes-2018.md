@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: リリースノート 2018
 description: このページでは、Adobe Campaign Standard の 2018 年の全リリースを紹介します。
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-feature: 概要
+feature: Overview
 role: User
 level: Beginner
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '5401'
+source-wordcount: '5400'
 ht-degree: 7%
 
 ---
@@ -61,7 +59,7 @@ Adobe Campaign Standardの最新のドキュメントの更新[を参照して�
 
 * キャンペーンプロパティの定義時にモバイルアプリを選択して、特定のモバイルアプリでユーザーをターゲット設定します。 この機能は、プッシュメッセージチャネルとアプリ内メッセージチャネルの両方に使用されます。
 
-   詳しくは、[詳細ドキュメント](../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification)を参照してください。
+   詳しくは、[詳細なドキュメント](../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification)を参照してください。
 
 * Creative Designerインターフェイスを使用してコンテンツブロックを選択する場合、リストのすべてのコンテンツブロックが読み込まれ、表示されるようになりました。 （CAMP-27311）
 
@@ -311,7 +309,7 @@ _カスタムリソース_
   </tr> 
   <tr> 
    <td> Eメール用Creative Designer（ベータ版）<br /> </td> 
-   <td> Adobe Campaignの新しいCreative Designerは、Campaignで完全に統合された作成エクスペリエンスを提供し、1行のコードを記述することなく、個々にパーソナライズされた魅力的なEメールを、すばやく簡単に視覚的に作成できます。 Creative Designerは、強力なドラッグ&amp;ドロップインターフェイスを通じて、ユーザーが空白のスレートから始めたり、既存のコンテンツフラグメントやテンプレートを利用したりしても、Eメール作成を拡大/縮小できます。 <br /> 主な機能は次のとおりです。<br /> 
+   <td> Adobe Campaignの新しいCreative Designerは、Campaignで完全に統合された作成エクスペリエンスを提供し、1行のコードを記述することなく、個々にパーソナライズされた魅力的なEメールを、すばやく簡単に視覚的に作成できます。 Creative Designerは、強力なドラッグ&amp;ドロップインターフェイスを通じて、ユーザーが空白のスレートから開始したり、既存のコンテンツフラグメントやテンプレートを利用したりして、Eメール作成を拡大/縮小できます。 <br /> 主な機能は次のとおりです。<br /> 
     <ul> 
      <li> ネイティブの統合によって拡張された、ドラッグ&amp;ドロップインターフェイスを通じて、完全にパーソナライズされたレスポンシブなEメールを視覚的にデザインし、作成します。 </li> 
      <li> Eメールコンテンツテンプレートの作成と保存、および保存済みのテンプレートの活用により、Eメール作成のスケールを容易にする </li> 
@@ -465,7 +463,7 @@ Campaignインターフェイスのコンテキストヘルプリンクを使用
   </tr> 
   <tr> 
    <td> 新しい機能をプッシュ<br /> </td> 
-   <td> プッシュメッセージのプレビュー — iOSおよびAndroidデバイス上でプッシュ通知コンテンツエディター内からプッシュ通知をプレビューし、配信をテストまたは実行する前に、受信者に送られる内容を正確に確認します。<br />詳しくは、<a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">詳細ドキュメント</a>を参照してください。<br /> 使用可能なコンテンツ — 長時間開かれていないアプリのデータは期限切れになる場合があります。その結果、ユーザーが最終的にアプリを開いた時点でデータの更新や置き換えが必要になり、アプリの使用に遅れが生じる可能性があります。 利用可能なコンテンツのサポートが追加されたので、Adobe Campaignのユーザーは、プッシュ通知を配信する際にアプリを起動してバックグラウンドでデータを更新でき、ユーザーのアプリ内エクスペリエンスの一貫性と制御が向上します。<br /> 可変コンテンツ — 可変コンテンツのサポートが追加されたので、Adobe Campaignユーザーは、モバイルアプリの拡張機能を活用して、Adobe Campaignから送信されるプッシュ通知のコンテンツや表示をさらに変更できます。例えば、可変コンテンツを利用して、次のことができます。<br /> 
+   <td> プッシュメッセージのプレビュー — iOSおよびAndroidデバイス上でプッシュ通知コンテンツエディター内からプッシュ通知をプレビューし、配信をテストまたは実行する前に、受信者に送られる内容を正確に確認します。<br />詳しくは、<a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">詳細なドキュメント</a>を参照してください。<br /> 使用可能なコンテンツ — 長時間開かれていないアプリのデータは期限切れになる場合があります。その結果、ユーザーが最終的にアプリを開いた時点でデータの更新や置き換えが必要になり、アプリの使用に遅れが生じる可能性があります。 利用可能なコンテンツのサポートが追加されたので、Adobe Campaignのユーザーは、プッシュ通知を配信する際にアプリを起動してバックグラウンドでデータを更新でき、ユーザーのアプリ内エクスペリエンスの一貫性と制御が向上します。<br /> 可変コンテンツ — 可変コンテンツのサポートが追加されたので、Adobe Campaignユーザーは、モバイルアプリの拡張機能を活用して、Adobe Campaignから送信されるプッシュ通知のコンテンツや表示をさらに変更できます。例えば、可変コンテンツを利用して、次のことができます。<br /> 
     <ul> 
      <li> 暗号化された形式で配信されたデータを復号化する </li> 
      <li> 画像またはその他のメディアファイルをダウンロードし、添付ファイルとして通知に追加する </li> 

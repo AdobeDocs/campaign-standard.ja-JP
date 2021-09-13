@@ -1,31 +1,28 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 組織単位属性の更新
-description: 組織単位の属性を更新する方法を説明します
+description: 組織単位属性の更新方法を説明します
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 90841afd-ebc2-4b6a-895e-a96ef65740d7
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '88'
-ht-degree: 12%
+source-wordcount: '84'
+ht-degree: 11%
 
 ---
 
-
 # 組織単位属性の更新 {#updating-organizational-unit-attributes}
 
-1. **orgUnitBase**&#x200B;リソースに対してGET要求を実行し、組織単位PKeyを取得します。
-1. ペイロードで更新する属性を持つ組織単位でPATCH要求を実行します。
+1. **orgUnitBase**&#x200B;リソースに対してGETリクエストを実行し、組織単位PKeyを取得します。
+1. ペイロードで更新する属性を持つ組織単位に対してPATCHリクエストを実行します。
 
 <br/>
 
-***サンプルリクエスト***
+***リクエストのサンプル***
 
 組織単位のリストを取得します。
 
@@ -37,7 +34,7 @@ ht-degree: 12%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-すべての組織単位(OU)を返します。 目的のユニットのPKeyを取得します。
+すべての組織単位を返します。 目的のユニットのPKeyを取得します。
 
 ```
 {
@@ -53,7 +50,7 @@ ht-degree: 12%
 },
 ```
 
-ペイロードで更新する属性を持つ組織単位でPATCH要求を実行します。
+ペイロードで更新する属性を持つ組織単位に対してPATCHリクエストを実行します。
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/orgUnitBase/<PKEY> \

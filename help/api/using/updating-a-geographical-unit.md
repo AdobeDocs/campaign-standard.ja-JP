@@ -1,31 +1,28 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: プロファイルの地理的単位の更新
-description: APIを使用して地理的単位を管理する方法を説明します。
+description: APIを使用して地理的単位を管理する方法について説明します。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 9dc07d86-00b2-4885-b6ac-0a6f9bc45236
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 11%
+source-wordcount: '94'
+ht-degree: 10%
 
 ---
 
-
 # プロファイルの地理的単位の更新 {#updating-a-geographical-unit}
 
-1. **geoUnitBase**&#x200B;リソースに対してGET要求を実行し、地理単位PKeyを取得します。
-1. プロファイルのPKeyに対して、目的のGeographical単位PKeyを使用してPATCH要求を実行します。
+1. **geoUnitBase**&#x200B;リソースでGETリクエストを実行して、地理的単位PKeyを取得します。
+1. 目的のPATCH単位PKeyをペイロードに使用して、プロファイルPKeyに対して地理的要求を実行します。
 
 <br/>
 
-***サンプルリクエスト***
+***リクエストのサンプル***
 
 地理的単位のリストを取得します。
 
@@ -53,7 +50,7 @@ ht-degree: 11%
 },
 ```
 
-ペイロード内の目的のGeographicalユニットのPKeyを使用して、プロファイルに対するPATCH要求を実行します。
+目的のPATCH単位のPKeyをペイロードに含む、プロファイルに対して地理的要求を実行します。
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/<PKEY> \

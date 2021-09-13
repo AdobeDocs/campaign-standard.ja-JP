@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: メッセージのトラッキング
 description: 配信受信者の行動のトラッキング方法を説明します。
 audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
-feature: パフォーマンス監視
+feature: Performance Monitoring
 role: User
 level: Intermediate
 exl-id: fac29bc2-57fa-40f9-a160-cd75f695b91e
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '485'
 ht-degree: 36%
 
 ---
@@ -25,7 +23,7 @@ Adobe Campaignでは、トラッキング機能を使用して、配信受信者
 
 （例えば、ページ上で表示される）認証リクエストを介してサイトにWebトラッキングツールが装備されていることをユーザーに通知し、Cookieの使用を承認するか、最初のページの上部にバナーを追加します。 ポップアップウィンドウはブラウザーでブロックされていることが多いので、避ける必要があります。
 
-追跡情報は、データベースの&#x200B;**[!UICONTROL integrated customer profiles]**&#x200B;への各連絡先に対して使用できます。 詳細については、[このセクション](../../audiences/using/integrated-customer-profile.md)を参照してください。
+追跡情報は、データベースの&#x200B;**[!UICONTROL integrated customer profiles]**&#x200B;への各連絡先に対して使用できます。 詳しくは、[この節](../../audiences/using/integrated-customer-profile.md)を参照してください。
 
 Adobe Campaign は、次の 2 つのタイプの Cookie を使用します。
 

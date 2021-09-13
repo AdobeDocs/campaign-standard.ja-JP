@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: メッセージ配信の最適化
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: 送信プロセスのアップストリームを保護し最適化する方法を説明します。
-feature: 配信品質
+feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 28b0cf6d-c1f1-4d55-b9bc-0d6bfb063471
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '746'
 ht-degree: 81%
 
 ---
@@ -72,9 +70,9 @@ ht-degree: 81%
 
 * 一部のインターネットアクセスプロバイダーは、無効なアドレスの割合が高すぎる場合、E メールを自動的にスパムと見なします。したがって、強制隔離を使用すると、これらのプロバイダーによってブロックリストに追加されるのを回避できます。
 
-* 強制隔離管理は、誤りのある電話番号を配信から除外することで、SMS の送信コスト削減にも役立ちます。
+* 強制隔離管理は、誤った電話番号を配信から除外することで、SMS の送信コスト削減にも役立ちます。
 
-## 二重のオプトインのメカニズム {#double-opt-in}
+## ダブルオプトインのメカニズム {#double-opt-in}
 
 無効なアドレスにメッセージが送信されるのを回避し、不適切な通信を規制し、送信者のレピュテーションを向上させるには、購読後の確認をおこなう二重のオプトインのメカニズムを実装することをお勧めします。これにより、受信者が意図的に購読したことを確認できます。
 

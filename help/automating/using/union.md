@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 和集合
 description: 「Union」アクティビティを使用すると、複数のアクティビティの結果を 1 つのターゲットに再グループ化できます。
 audience: automating
@@ -10,18 +8,17 @@ context-tags: union,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 3189745c-dcc9-4719-b080-85ffa3bb66be
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 97%
+source-wordcount: '377'
+ht-degree: 98%
 
 ---
 
-
 # 和集合{#union}
 
-## 説明{#description}
+## 説明 {#description}
 
 ![](assets/union.png)
 
@@ -31,13 +28,13 @@ ht-degree: 97%
 >
 >セットは、同質である必要はありません。
 
-## 使用状況{#context-of-use}
+## 使用状況 {#context-of-use}
 
 「**[!UICONTROL Union]**」アクティビティは、セグメント化の実行、オーディエンスの定義、またはメッセージターゲットの準備などの際に、インバウンドトランジションからの母集団を組み合わせるために使用します。
 
 **関連トピック：**
 
-* [使用例：2つの洗練されたオーディエンスの和集合](../../automating/using/union-on-two-refined-audiences.md)
+* [使用例：2つの絞り込まれたオーディエンスの和集合](../../automating/using/union-on-two-refined-audiences.md)
 
 ## 設定 {#configuration}
 

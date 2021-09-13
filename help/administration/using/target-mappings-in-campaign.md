@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Campaign でのターゲットマッピング
 description: ターゲットマッピングは、メッセージを配信するためにキャンペーンで使用されるテクニカルオブジェクトです。 配信の送信に必要なすべての技術設定が含まれています。
 audience: administration
 content-type: reference
 topic-tags: application-settings
-feature: インスタンス設定
+feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: d5e5cfa8-03f0-47be-9645-b9ee6ac4643c
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '101'
 ht-degree: 16%
 
 ---

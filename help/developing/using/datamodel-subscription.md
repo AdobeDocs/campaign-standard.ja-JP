@@ -1,21 +1,18 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: DataModel
-description: データモデルについて
+description: データモデルの詳細
 audience: developing
 content-type: reference
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: cf0fac4e-59fd-4d6e-a411-41361f45938d
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 33%
+source-wordcount: '77'
+ht-degree: 32%
 
 ---
-
 
 # 購読イベント(nms:rtEvent)
 
@@ -42,19 +39,19 @@ ht-degree: 33%
     </tr>
     <tr>
         <td>電子メール</td>
-        <td>電子メール</td>
+        <td>メール</td>
         <td>文字列(128)</td>
         <td> </td>
     </tr>
     <tr>
         <td>emailFormat</td>
         <td>E メールフォーマット</td>
-        <td>定義済みリスト（バイト） </td>
+        <td>列挙（バイト） </td>
         <td>
             <ul>
             <li>テキスト — テキスト — 1</li>
             <li>HTML - html - 2</li>
-            <li>無効な値 — __Invalid_value__ - __Invalid_value__</li>
+            <li>無効な値 — __無効な値__ - __無効な値__</li>
             <li>不明 — 不明 — 0</li>
             </ul>
         </td>
@@ -62,13 +59,13 @@ ht-degree: 33%
     <tr>
         <td>eventHistoId</td>
         <td>アーカイブ済みイベントID</td>
-        <td>integer </td>
+        <td>整数 </td>
         <td> </td>
     </tr>
     <tr>
         <td>mobilePhone</td>
         <td>モバイル番号</td>
-        <td>string (32)</td>
+        <td>文字列(32)</td>
         <td> </td>
     </tr>
     <tr>
@@ -81,7 +78,7 @@ ht-degree: 33%
 
 ## フィルター
 
-電子メール別（電子メール別）
+電子メール(byEmail)
 
 <table>
     <tr>
@@ -94,7 +91,7 @@ ht-degree: 33%
     </tr>
 </table>
 
-ステータスまたはタイプ別(byStatusOrType)
+ステータスまたはタイプ(byStatusOrType)
 
 <table>
         <tr>
@@ -103,7 +100,7 @@ ht-degree: 33%
         </tr>
         <tr>
         <td>ステータス</td>
-        <td>定義済みリスト</td>
+        <td>列挙</td>
         </tr>
         <tr>
         <td>type</td>

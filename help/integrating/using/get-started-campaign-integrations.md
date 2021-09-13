@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Campaign 統合の概要
+title: Campaign 統合の基本を学ぶ
 description: アドビの各ソリューションが提供する様々な機能を Campaign と組み合わせることができます。
 audience: integrating
 content-type: reference
 topic-tags: get-started-campaign-integrations
-feature: トリガー
+feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: ecf88c7d-6729-4b3a-85c4-60427bb57442
-source-git-commit: c101113e2180006b300611a0cbea1b0f9a70df70
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '714'
-ht-degree: 81%
+source-wordcount: '713'
+ht-degree: 83%
 
 ---
 
@@ -58,7 +56,7 @@ ht-degree: 81%
    <td> Adobe Target<br /> </td> 
    <td> Adobe Campaign で作成、送信された E メールが開封されたときに Adobe Target が動的に自動生成した画像を挿入することができます。<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-campaign-target-integration.md">CampaignとTargetの使用</a>、CampaignとTargetの統合 <a href="https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html">、Eメール画像のパーソナラ</a>イズ(リアルタイム <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html"></a> ビデオ)（手順3）
+    <a href="../../integrating/using/about-campaign-target-integration.md">CampaignとTargetの使用</a>、CampaignとTargetの統合 <a href="https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html?lang=ja">、Eメール画像のパーソナラ</a>イズ(リアルタイム <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html"></a> ビデオ)（手順3）
     </td> 
   </tr> 
   <tr> 
@@ -76,7 +74,7 @@ ht-degree: 81%
    <tr> 
    <td> アドビのリアルタイムカスタマーデータプラットフォーム（RTCDP）<br /> </td> 
    <td> Adobe Campaign とアドビのリアルタイムカスタマーデータプラットフォーム（RTCDP）の統合により、セグメントデータを共有し、オーディエンスを Adobe Campaign にインポートできます。</td>
-   <td><a href="../../integrating/using/get-started-sources-destinations.md">ソースと宛先の基本を学ぶ</a></td>
+   <td><a href="../../integrating/using/get-started-sources-destinations.md">ソースと宛先の概要</a></td>
   </tr> 
   <tr> 
    <td> AdobeアセットコアサービスとAssets On Demand<br /> </td> 
@@ -104,7 +102,7 @@ ht-degree: 81%
    <td> Adobe Dreamweaver<br /> </td> 
    <td> Dreamweaver で E メールコンテンツを編集し、Adobe Campaign と同期できます。<br /> </td> 
    <td> 
-    <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">Dreamweavervideoを使用してパーソナライズさ</a> れたEメールを作成 <a href="https://helpx.adobe.com/jp/dreamweaver/using/working-with-dreamweaver-and-campaign.html">し、Dreamweaver用Campaign拡張機能を使用する</a> 
+    <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=ja">Dreamweavervideoを使用してパーソナライズさ</a> れたEメールを作成 <a href="https://helpx.adobe.com/jp/dreamweaver/using/working-with-dreamweaver-and-campaign.html">し、Dreamweaver用Campaign拡張機能を使用する</a> 
   </td> 
   </tr> 
   <tr> 

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 関係を使用したデータの紐付け
 description: 次の例は、ファイル内の購入データを使用してデータベースを更新するワークフローを示しています。
 audience: automating
@@ -10,14 +8,13 @@ context-tags: reconciliation,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 7d0e3f17-ef04-4890-b63b-6957fc6cd648
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 85%
+source-wordcount: '338'
+ht-degree: 86%
 
 ---
-
 
 # 関係を使用したデータの紐付け {#reconciliation-relations}
 
@@ -31,7 +28,7 @@ ht-degree: 85%
 
 ![](assets/reconciliation_example1.png)
 
-* [読み込むファイル](../../automating/using/load-file.md)アクティビティ。読み込むファイルのデータを読み込んで検出します。 インポートされたファイルには、次のデータが含まれています。
+* [ファイルの読み込み](../../automating/using/load-file.md)アクティビティ。読み込むファイルのデータを読み込んで検出します。 インポートされたファイルには、次のデータが含まれています。
 
    * トランザクション日
    * クライアントの E メールアドレス
@@ -50,7 +47,7 @@ ht-degree: 85%
    2015-05-19 09:06:00;mail9@email.com;ZZ6
    ```
 
-* 購入データをデータベースプロファイルと製品に連結する[調整](../../automating/using/reconciliation.md)アクティビティ。 ファイルデータ、プロファイルテーブル、および商品テーブルの間のリレーションを定義する必要があります。この設定は、アクティビティの「**[!UICONTROL Relations]**」タブで実行されます。
+* 購入データをデータベースのプロファイルおよび製品に結び付ける[紐付け](../../automating/using/reconciliation.md)アクティビティ。 ファイルデータ、プロファイルテーブル、および商品テーブルの間のリレーションを定義する必要があります。この設定は、アクティビティの「**[!UICONTROL Relations]**」タブで実行されます。
 
    * **Profiles** とのリレーション：ファイルの&#x200B;**クライアント**&#x200B;列は、**Profiles** ディメンションの **E メール**&#x200B;フィールドにリンクされています。
    * **Products** との関係：ファイルの&#x200B;**商品**&#x200B;列は、**Profiles** ディメンションの&#x200B;**商品コード**&#x200B;フィールドにリンクされています。
@@ -59,7 +56,7 @@ ht-degree: 85%
 
    ![](assets/reconciliation_example3.png)
 
-* [データの更新](../../automating/using/update-data.md)アクティビティを使用すると、インポートしたデータを使用して更新するデータベースフィールドを定義できます。 前のアクティビティで **Transactions** ディメンションに属するデータが既に識別されているので、**[!UICONTROL Directly using the targeting dimension]** 識別オプションを使用できます。
+* 「[データを更新](../../automating/using/update-data.md)」アクティビティを使用すると、インポートしたデータを使用して更新するデータベースフィールドを定義できます。 前のアクティビティで **Transactions** ディメンションに属するデータが既に識別されているので、**[!UICONTROL Directly using the targeting dimension]** 識別オプションを使用できます。
 
    更新するフィールドを自動的に検出するオプションを使用すると、前のアクティビティで設定したリンク（プロファイルや商品へのリンク）が **[!UICONTROL Fields to update]** のリストに追加されます。また、トランザクション日に対応するフィールドがこのリストに正しく追加されていることを確認する必要があります。
 

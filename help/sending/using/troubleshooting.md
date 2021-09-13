@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Adobe Campaign Standardでの配信品質の問題のトラブルシューティング
 description: Adobe Campaign Standardで配信品質の問題が発生した場合の対処方法を説明します。
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
 context-tags: delivery,schedule,back
-feature: 配信品質
+feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 0470b986-c00a-4441-8621-82c7112a9953
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '467'
 ht-degree: 59%
 
 ---
@@ -33,7 +31,7 @@ ht-degree: 59%
 
 問題が解決されない場合は、商用または配信品質サービス、あるいは Adobe Campaign サポートにお問い合わせください。
 
-## ブロックリスト対強制隔離 {#denylist-versus-quarantine}
+## ブロックリストと強制隔離の比較 {#denylist-versus-quarantine}
 
 * **強制隔離Eメールアドレスとの違ブロックリストいは何ですか。**
 

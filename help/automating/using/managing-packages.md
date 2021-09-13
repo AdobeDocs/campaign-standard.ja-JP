@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: パッケージの管理
 description: 管理者は、構造化 XML ファイルを使用して、複数の Adobe Campaign インスタンス間でリソースを交換するパッケージを定義できます。
 audience: automating
@@ -10,14 +8,13 @@ context-tags: packageDef,overview;packageInstall,main
 feature: Workflows
 role: Data Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: f9b36b4d-0e9d-4dcf-9079-91dc83764102
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1057'
-ht-degree: 99%
+source-wordcount: '1053'
+ht-degree: 100%
 
 ---
-
 
 # パッケージの管理{#managing-packages}
 
@@ -58,7 +55,7 @@ ht-degree: 99%
 >
 >この 2 つのパッケージの内容は変更できません。一方、これらのパッケージには常に最新のデータが含まれています。[独自のパッケージを作成](#creating-a-package)して、特定の要素を書き出すことができます。
 
-### パッケージの作成{#creating-a-package}
+### パッケージの作成 {#creating-a-package}
 
 特定のデータセットを書き出す必要がある場合は、パッケージを作成する必要があります。
 
@@ -97,7 +94,7 @@ ht-degree: 99%
 
 パッケージが作成され、書き出しの準備ができました。
 
-### パッケージの書き出し{#exporting-a-package}
+### パッケージの書き出し {#exporting-a-package}
 
 パッケージを書き出すと、リソースの特定の状態を保存できます。これは別のインスタンスで再インポートすることができ、また後から同じインスタンスに再インポートすることもできます。
 
@@ -141,7 +138,7 @@ ht-degree: 99%
 >
 >これらの要素は読み取り専用モードでアクセスできます。
 
-### パッケージのインポート{#importing-a-package}
+### パッケージのインポート {#importing-a-package}
 
 管理者は、Adobe Campaign インスタンスで以前に実行された書き出しから作成されたパッケージを手動で読み込むことができます。詳しくは、[パッケージの書き出し](#package-exports)の節を参照してください。
 

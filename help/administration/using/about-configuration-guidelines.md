@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 設定のガイドライン
 description: Campaign Standard設定のガイドライン
 audience: administration
 content-type: reference
 topic-tags: about-administrating-adobe-campaign
-feature: アクセス管理
+feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 88684ed6-6d8d-4691-987f-812e7e1d834c
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 15%
+source-wordcount: '117'
+ht-degree: 13%
 
 ---
 
@@ -50,6 +48,6 @@ Campaign Standardで使用される様々なエンドポイントを次に示し
 | Experience cloud | `https://experiencecloud.adobe.com` |
 | トラッキング | `https://*.adobedtm.com`<br>`https://*.demdex.net`<br>`https://*.omtrdc.net` |
 | Assetsの統合 | `https://*.marketing-assets.adobe.com` |
-| 内部Adobeサービス | `https://*.adobe.io` |
+| 内部Adobe サービス | `https://*.adobe.io` |
 | 調査 | `https://adobe.allegiancetech.com` |
 | デフォルトのブランディングURL（クライアント設定前） | `https://*.adobe-campaign.com` |

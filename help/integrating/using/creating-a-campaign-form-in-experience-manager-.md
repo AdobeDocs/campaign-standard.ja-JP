@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 'Experience Manager での Campaign フォームの作成 '
 description: Adobe Experience Manager統合を使用すると、AEMで直接フォームを作成して、プロファイルを作成および更新したり、購読を管理したりできます。
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-experience-manager
-feature: トリガー
+feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 61683639-3f71-4652-a138-acfc0e91e868
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '181'
 ht-degree: 12%
 
 ---
@@ -40,4 +38,4 @@ AEMサイトでAdobe Campaignフォームを作成するには：
 1. Adobe Campaignデータベースフィールドにマッピングできる様々なフィールドやコンポーネントを追加して、フォームのコンテンツを編集します。
 1. フォームをテストしてパブリッシュし、AEMサイト上でアクセスできるようにします。
 
-詳しくは、[詳細ドキュメント](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/aem-adobe-campaign/adobe-campaign-forms.html)を参照してください。
+詳しくは、[詳細なドキュメント](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/aem-adobe-campaign/adobe-campaign-forms.html)を参照してください。

@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: テンプレートについて
 description: 「Adobe Campaign テンプレートを使用すると、必要に応じて次のようなパラメーターを事前設定できます。テンプレートには、マーケティングアクティビティの完全な設定または部分的な設定を含めることができ、技術に精通していないエンドユーザーでも Adobe Campaign を容易に利用できるようにします」
 audience: start
 content-type: reference
 topic-tags: managing-templates
-feature: キャンペーン
+feature: Campaigns
 role: User
 level: Beginner
 exl-id: a0f02f69-d72d-48ca-8b38-aaab8d1acfad
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '402'
 ht-degree: 100%
 
 ---

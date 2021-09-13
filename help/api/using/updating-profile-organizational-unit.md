@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: プロファイルの組織単位の更新
 description: APIを使用してプロファイルの組織単位を更新する方法について説明します。
 audience: developing
@@ -9,23 +7,22 @@ topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 6ce49aeb-a113-43ee-bfe3-f26a4a9e2a56
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 11%
+source-wordcount: '96'
+ht-degree: 10%
 
 ---
 
-
 # プロファイルの組織単位の更新 {#managing-organizational-units}
 
-1. **orgUnitBase**&#x200B;リソースに対してGET要求を実行し、組織単位PKeyを取得します
-1. プロファイルPKeyに対して、目的の組織単位PKeyをペイロードでPATCH要求を実行します。
+1. **orgUnitBase**&#x200B;リソースに対してGETリクエストを実行し、組織単位PKeyを取得します
+1. 目的の組織単位PKeyをペイロードに含む、プロファイルPKeyに対してPATCHリクエストを実行します。
 
 <br/>
 
-***サンプルリクエスト***
+***リクエストのサンプル***
 
 組織単位のリストを取得します。
 
@@ -37,7 +34,7 @@ ht-degree: 11%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-すべての組織単位(OU)を返します。 プロファイルを割り当てるユニットのPKeyを取得します。
+すべての組織単位を返します。 プロファイルを割り当てるユニットのPKeyを取得します。
 
 ```
 {
@@ -53,7 +50,7 @@ ht-degree: 11%
 },
 ```
 
-ペイロード内の目的の組織単位のPKeyを使用して、プロファイルに対するPATCH要求を実行します。
+目的の組織単位のPKeyをペイロードに含むPATCHリクエストをプロファイルで実行します。
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/<PKEY> \

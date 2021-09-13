@@ -1,46 +1,43 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: カスタムリソース
-description: API/を使用したカスタムリソース管理の詳細
+description: APIを使用したカスタムリソース管理の詳細
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: d7b2231d-46ff-4966-9ea7-27a775e5236b
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 6%
+source-wordcount: '204'
+ht-degree: 5%
 
 ---
 
-
 # カスタムリソース {#custom-resources}
 
-Adobe Campaignには定義済みのデータモデルが付属しており、データは様々なリソースを介して定義されます。 独自のカスタムフィールドやカスタムテーブル（購入テーブルや製品テーブルなど）を追加するためにリソースを拡張することで、提供されるデータモデルを拡張できます。
+Adobe Campaignには、様々なリソースを介してデータが定義される、事前定義済みのデータモデルが付属しています。 リソースを拡張して独自のカスタムフィールドや、購入テーブルや製品テーブルなどのカスタムテーブルを追加することで、提供されるデータモデルをエンリッチメントできます。
 
-カスタムリソースには、**/profileAndServicesExt**&#x200B;エンドポイントとカスタムリソース名を使用して、APIを介してアクセスできます。
+カスタムリソースは、 **/profileAndServicesExt**&#x200B;エンドポイントとカスタムリソース名を使用して、APIを通じてアクセスできます。
 
 `https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/<resourceName>/`
 
 >[!NOTE]
 >
->標準では提供されていないリソースの場合は、リソース名の前に必ず<b>&quot;cus&quot;</b>プレフィックスを付けてください。
+>標準で用意されていないリソースの場合は、常にリソース名の前に<b>&quot;cus&quot;</b>プレフィックスを使用します。
 
-カスタムリソースがプロファイルテーブルにリンクされている限り、任意の操作を実行できます。 例えば、次のテーブル構造を考えてみましょう。
+プロファイルテーブルにリンクされている限り、カスタムリソースを使用して任意の操作を実行できます。 例えば、次に示すテーブル構造を考えてみましょう。
 
 ![代替テキスト](assets/cusresources.png)
 
-この場合、**Transaction**、**TransactionDetails**、**Product**&#x200B;テーブルが&#x200B;**プロファイル**&#x200B;テーブルにリンクされている限り、それらのリソースを利用できます。
+この場合、**Transaction**、**TransactionDetails**&#x200B;および&#x200B;**Product**&#x200B;テーブルが&#x200B;**Profile**&#x200B;テーブルにリンクされている限り、それらのテーブルのすべてのリソースを使用できます。
 
 <br/>
 
-***サンプルリクエスト***
+***リクエストのサンプル***
 
-拡張profileAndServicesExtリソースにアクセスするためのサンプルGETリクエスト。
+拡張profileAndServicesExtリソースにアクセスするためのGETリクエストのサンプル。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/\
@@ -50,7 +47,7 @@ Adobe Campaignには定義済みのデータモデルが付属しており、デ
 -H 'X-Api-Key: <API_KEY>' \
 ```
 
-リンクされたすべてのカスタムリソースのリストを返します。 その後、リソースURLを使用して、このドキュメントで説明されているAPIタスクを実行できます。
+リンクされたすべてのカスタムリソースのリストを返します。 その後、リソースURLを使用して、このドキュメントに記載されているAPIタスクを実行できます。
 
 ```
 {
@@ -75,7 +72,7 @@ Adobe Campaignには定義済みのデータモデルが付属しており、デ
 }
 ```
 
-データモデル拡張の詳細については、次のキャンペーンドキュメントを参照してください。
+データモデル拡張について詳しくは、Campaignのドキュメントを参照してください。
 
 * [データモデルの概念](../../developing/using/data-model-concepts.md)
 * [APIの拡張](../../developing/using/about-extending-the-api.md)

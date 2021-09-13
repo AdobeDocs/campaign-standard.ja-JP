@@ -1,8 +1,6 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 苦情
-description: すぐに使用できる苦情レポートを使用して、配信がスパムとして宣言された回数を確認します。
+description: 既製の苦情レポートを使用して、配信がスパムとして宣言された回数を確認します。
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
@@ -10,21 +8,20 @@ context-tags: deliveryComplaintsReport,main;campaignComplaintsReport,main;progra
 feature: Reporting
 role: Leader
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 8de120e9-014f-4faa-948b-843b2ec03f5e
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '89'
-ht-degree: 19%
+source-wordcount: '86'
+ht-degree: 17%
 
 ---
 
-
-# 苦情数{#complaints}
+# 苦情{#complaints}
 
 **[!UICONTROL Complaints]** レポートは、スパムとしての宣言を最も多く受け取った配信を特定します。
 
 ![](assets/delivery_reports_complaints.png)
 
-**Flop**&#x200B;テーブルは、受信者ドメインで並べ替えられ、電子メールまたは迷惑メールとして宣言した受信者の数を表示します。 表の結果は、グラフと概要の数値でも確認できます。
+**Flop**&#x200B;テーブルは、受信者ドメイン別に並べ替えられ、Eメールまたは迷惑メールとして宣言された受信者の数を表示します。 テーブルの結果は、グラフと概要の数値でも表示されます。
 
-**配信済みから受信ブロックリスト**&#x200B;テーブルには、電子メールをスパムまたは迷惑メールとして宣言した受信者の数がリストされます。 テーブルは配信順に並べ替えられます。
+**配信済みとオンブロックリストの**&#x200B;テーブルには、Eメールをスパムまたは迷惑メールと宣言した受信者の数が一覧表示されます。 テーブルは配信順に並べ替えられます。

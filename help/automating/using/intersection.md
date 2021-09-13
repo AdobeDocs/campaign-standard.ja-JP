@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 積集合
 description: 「積集合」アクティビティでは、アクティビティ内の異なるインバウンド母集団に共通の要素のみを保持できます。
 audience: automating
@@ -9,14 +7,13 @@ topic-tags: targeting-activities
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 2a6a851c-df91-472b-a8a4-0b3876d51c1d
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 99%
+source-wordcount: '285'
+ht-degree: 100%
 
 ---
-
 
 # 積集合{#intersection}
 
@@ -50,4 +47,3 @@ ht-degree: 99%
 次の例は、2 つの「クエリ」アクティビティ間の積集合を示しています。ここでは、Adobe Campaign データベースを調べて、18～27 歳のプロファイルと、E メールアドレスがそれぞれ指定されたプロファイルを取得するために使用されています。
 
 ![](assets/wkf_intersection_example.png)
-

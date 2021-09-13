@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: メッセージを送信するための主要な手順
 description: Adobe Campaign でメッセージを作成して送信するには、次の手順に従います。
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels
-feature: 概要
+feature: Overview
 role: User
 level: Beginner
 exl-id: a903d7e2-7654-46b3-bc61-4653a065faad
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '368'
 ht-degree: 14%
 
 ---
@@ -64,7 +62,7 @@ Campaign Standard[マーケティングアクティビティ](../../start/using/
 
 ![](assets/steps-prepare.png)
 
-**メッセージを送信する前に、次の** Campaign Standard機能を使用してメッセージを確認およびテストします。プレビュー、Eメールのレンダリング、校正など詳細については、[このセクション](../../sending/using/previewing-messages.md)を参照してください。
+**メッセージを送信する前に、次の** Campaign Standard機能を使用してメッセージを確認およびテストします。プレビュー、Eメールのレンダリング、校正など詳しくは、[この節](../../sending/using/previewing-messages.md)を参照してください。
 
 **[!UICONTROL Schedule]**&#x200B;ブロックを使用して、メッセージを送信するタイミングを定義します（[メッセージのスケジュール](../../sending/using/about-scheduling-messages.md)を参照）。
 

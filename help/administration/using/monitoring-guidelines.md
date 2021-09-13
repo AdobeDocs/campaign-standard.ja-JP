@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 監視のガイドライン
 description: この節では、Campaign Standardの監視に関する一般的なガイドラインを示します。
 audience: production
 content-type: reference
 topic-tags: introduction
 index: y
-feature: アクセス管理
+feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 5f25f2b2-ca41-4baf-ade2-42bbafb4790d
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '505'
 ht-degree: 21%
 
 ---

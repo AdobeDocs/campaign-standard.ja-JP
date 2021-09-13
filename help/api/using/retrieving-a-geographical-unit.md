@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: プロファイルの地理的単位の取得
 description: APIを使用してプロファイルの地理的単位を取得する方法を説明します。
 audience: developing
@@ -9,23 +7,22 @@ topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 313dbb7f-9cf7-43d4-ab6d-f496b04d92b8
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '84'
-ht-degree: 13%
+source-wordcount: '80'
+ht-degree: 12%
 
 ---
 
-
 # プロファイルの地理的単位の取得 {#retrieving-geographical-unit}
 
-1. プロファイルPKeyに対してGETリクエストを実行し、**geoUnit** URLを取得します。
-1. URLに対してGETリクエストを実行し、地理的単位に関する詳細を取得します。
+1. プロファイルPKeyでGETリクエストを実行して、**geoUnit** URLを取得します。
+1. URLでGETリクエストを実行して、地理的単位に関する詳細を取得します。
 
 <br/>
 
-***サンプルリクエスト***
+***リクエストのサンプル***
 
 プロファイルレコードを取得します。
 
@@ -51,7 +48,7 @@ ht-degree: 13%
 }
 ```
 
-URLに対してGETリクエストを実行し、詳細を取得します。
+URLでGETリクエストを実行して、詳細を取得します。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/geoUnitBase/<PKEY> \

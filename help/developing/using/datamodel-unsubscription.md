@@ -1,21 +1,18 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: DataModel
-description: データモデルについて
+description: データモデルの詳細
 audience: developing
 content-type: reference
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 508361d1-6a0b-4476-a058-4162fb3e8d5e
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '57'
-ht-degree: 59%
+source-wordcount: '53'
+ht-degree: 60%
 
 ---
-
 
 # 購読解除イベント(nms:rtEvent)
 
@@ -49,7 +46,7 @@ ht-degree: 59%
                <tr>
                   <td>emailFormat</td>
                   <td>False</td>
-                  <td>定義済みリスト</td>
+                  <td>列挙</td>
                   <td>False</td>
                </tr>
                <tr>
@@ -90,7 +87,7 @@ byStatusOrType
         </tr>
         <tr>
         <td>ステータス</td>
-        <td>定義済みリスト</td>
+        <td>列挙</td>
         </tr>
         <tr>
         <td>type</td>

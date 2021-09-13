@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 重複排除
 description: 「Deduplication」アクティビティでは、インバウンドアクティビティの結果から重複を削除できます。
 audience: automating
@@ -10,16 +8,15 @@ context-tags: dedup,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 57c56e4a-892c-46d6-9bb4-6a345a8d9f5b
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 96%
+source-wordcount: '567'
+ht-degree: 97%
 
 ---
 
-
-# 重複排除{#deduplication}
+# 重複の除外{#deduplication}
 
 ## 説明 {#description}
 
@@ -39,8 +36,8 @@ ht-degree: 96%
 
 **関連トピック**
 
-* [使用例：配信前の重複の識別](../../automating/using/identifying-duplicated-before-delivery.md)
-* [使用例：読み込んだファイルからのデータの重複を除外する](../../automating/using/deduplicating-data-imported-file.md)
+* [使用例：配信前の重複の特定](../../automating/using/identifying-duplicated-before-delivery.md)
+* [使用例：インポートしたファイルからのデータの重複排除](../../automating/using/deduplicating-data-imported-file.md)
 
 ## 設定 {#configuration}
 

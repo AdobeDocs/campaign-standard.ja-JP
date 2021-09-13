@@ -1,8 +1,6 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: チャネル間配信
-description: この使用例は、チャネル間の配信の作成方法を示します
+title: クロスチャネル配信
+description: この使用例では、クロスチャネル配信の作成方法を示します
 audience: automating
 content-type: reference
 topic-tags: execution-activities
@@ -10,14 +8,13 @@ context-tags: workflow,use-case,query,wait,delivery
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 9cee2005-a99b-47cb-b573-a25812614409
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '860'
+source-wordcount: '856'
 ht-degree: 86%
 
 ---
-
 
 # クロスチャネル配信の作成{#cross-channel-delivery}
 
@@ -32,7 +29,7 @@ Adobe Campaign で使用できるワークフローと様々なチャネルの�
 * [ワークフローの検出](../../automating/using/get-started-workflows.md)
 * [通信チャネルの検出](../../channels/using/get-started-communication-channels.md)
 
-## ワークフローの作成{#creating-workflow}
+## ワークフローの作成 {#creating-workflow}
 
 任意のグループに 2 つの異なる配信を送信するには、まずターゲットを定義する必要があります。
 
@@ -46,7 +43,7 @@ Adobe Campaign で使用できるワークフローと様々なチャネルの�
 
 ワークフローを作成する詳細な手順については、[ワークフローの作成](../../automating/using/building-a-workflow.md)の節を参照してください。
 
-## クエリアクティビティの作成{#creating-query-activity}
+## クエリアクティビティの作成 {#creating-query-activity}
 
 ワークフローを作成したら、そのインターフェイスにアクセスできます。
 
@@ -64,11 +61,11 @@ Adobe Campaign で使用できるワークフローと様々なチャネルの�
 
 「**[!UICONTROL Count]**」ボタンを使用して、クエリのターゲットプロファイル数の予測を表示します。
 
-## Segmentation アクティビティの作成{#creating-segmentation-activity}
+## Segmentation アクティビティの作成 {#creating-segmentation-activity}
 
 クエリアクティビティでターゲットを特定したら、ターゲットを 2 つの別々の母集団にセグメント化する条件を選択する必要があります。一方は E メールを受信し、もう一方は SMS を受信します。
 
-クエリで上流に計算された母集団から1つまたは複数のセグメントを作成するには、[セグメント化](../../automating/using/segmentation.md)アクティビティを使用する必要があります。
+[Segmentation](../../automating/using/segmentation.md)アクティビティを使用して、クエリでアップストリームを計算した母集団から1つまたは複数のセグメントを作成する必要があります。
 
 ![](assets/wkf_segment_activity.png)
 
@@ -113,9 +110,9 @@ Adobe Campaign で使用できるワークフローと様々なチャネルの�
 
 ![](assets/wkf_segment_transitions.png)
 
-## 配信の作成{#creating-deliveries}
+## 配信の作成 {#creating-deliveries}
 
-2つのトランジションが既に作成されているので、セグメントアクティビティのアウトバウンドトランジションに2種類の配信を追加する必要があります。[電子メール配信](../../automating/using/email-delivery.md)アクティビティと[SMS配信](../../automating/using/sms-delivery.md)アクティビティ。
+2つのトランジションが既に作成されているので、Segmentationアクティビティのアウトバウンドトランジションに2種類の配信を追加する必要があります。[Eメール配信](../../automating/using/email-delivery.md)アクティビティと[SMS配信](../../automating/using/sms-delivery.md)アクティビティ。
 
 Adobe Campaign を使用すると、ワークフローに配信を追加できます。これをおこなうには、ワークフローのアクティビティパレットの「**[!UICONTROL Channels]**」カテゴリから配信を選択します。
 
@@ -123,7 +120,7 @@ Adobe Campaign を使用すると、ワークフローに配信を追加でき�
 
 E メール配信を作成するには：
 
-1. 最初のセグメントの後に[電子メール配信](../../automating/using/email-delivery.md)アクティビティをドラッグ&amp;ドロップします。
+1. 最初のセグメントの後に「[Eメール配信](../../automating/using/email-delivery.md)」アクティビティをドラッグ&amp;ドロップします。
 1. アクティビティを編集するには、ダブルクリックします。
 1. 「**[!UICONTROL Simple email]**」を選択します。
 1. 「**[!UICONTROL Add an outbound transition with the population]**」を選択し、「**[!UICONTROL Next]**」をクリックします。
@@ -136,11 +133,11 @@ E メール配信を作成するには：
 1. E メールのプロパティを入力し、「**[!UICONTROL Next]**」をクリックします。
 1. E メールのレイアウトを作成するには、「**[!UICONTROL Use the Email Designer]**」を選択します。
 1. コンテンツを編集して保存します。
-1. メッセージダッシュボードの&#x200B;**[!UICONTROL Schedule]**&#x200B;セクションで、**[!UICONTROL Request confirmation before sending messages]**&#x200B;オプションの選択を解除します。
+1. メッセージダッシュボードの「**[!UICONTROL Schedule]**」セクションで、「**[!UICONTROL Request confirmation before sending messages]**」オプションの選択を解除します。
 
 SMS 配信を作成するには：
 
-1. [SMS配信](../../automating/using/sms-delivery.md)アクティビティを他のセグメントの後にドラッグ&amp;ドロップします。
+1. 他のセグメントの後に「[SMS配信](../../automating/using/sms-delivery.md)」アクティビティをドラッグ&amp;ドロップします。
 1. アクティビティを編集するには、ダブルクリックします。
 1. 「**[!UICONTROL SMS]**」を選択し、「**[!UICONTROL Next]**」をクリックします。
 1. SMS テンプレートを選択し、「**[!UICONTROL Next]**」をクリックします。
@@ -151,9 +148,9 @@ SMS 配信を作成するには：
 
 ![](assets/wkf_segment_deliveries.png)
 
-## ワークフローの実行{#running-the-workflow}
+## ワークフローの実行 {#running-the-workflow}
 
-ワークフローが開始されると、**[!UICONTROL Query]**&#x200B;アクティビティの対象となる訪問者がセグメント化され、電子メールまたはSMS配信を受信します。
+ワークフローが開始されると、**[!UICONTROL Query]**&#x200B;アクティビティの対象となる母集団がセグメント化され、EメールまたはSMS配信を受信します。
 
 ワークフローを実行するには、アクションバーの「**[!UICONTROL Start]**」ボタンをクリックします。
 

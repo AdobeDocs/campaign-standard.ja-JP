@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: テスト
 description: 「Test」アクティビティは、テスト結果に基づくトランジションを有効にします。
 audience: automating
@@ -10,14 +8,13 @@ context-tags: jstest,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 62a064f7-6d0b-49ca-9834-eccb5bf42496
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 81%
+source-wordcount: '190'
+ht-degree: 82%
 
 ---
-
 
 # テスト{#test}
 
@@ -27,7 +24,7 @@ ht-degree: 81%
 
 「**[!UICONTROL Test]**」アクティビティは、テスト結果に基づくトランジションを有効にします。
 
-## 使用状況{#context-of-use}
+## 使用状況 {#context-of-use}
 
 「**Test**」アクティビティは、自身に関連付けられている条件を最初に満たしたトランジションを有効化します。
 
@@ -50,9 +47,9 @@ ht-degree: 81%
 
    「**[!UICONTROL Condition]**」フィールドの編集時に、2 つのボタンを使用してイベント変数を呼び出し、変数と関数を組み合わせた式を編集できます。
 
-   * ![](assets/extsignal_picker.png):ワークフローで使用可能なすべての変数の中からイベント変数を選択します( [このページを参照](../../automating/using/customizing-workflow-external-parameters.md))。
+   * ![](assets/extsignal_picker.png):ワークフローで使用可能なすべての変数の中からイベント変数を選択します( [このページ](../../automating/using/customizing-workflow-external-parameters.md)を参照)。
 
-      例えば、[File transfer](../../automating/using/transfer-file.md)アクティビティの後で、**[!UICONTROL filesCount]**&#x200B;変数を使用して、ダウンロードしたファイルの数を確認できます。
+      例えば、**[!UICONTROL filesCount]**&#x200B;変数を使用して、[ファイル転送](../../automating/using/transfer-file.md)アクティビティの後にダウンロードされたファイルの数を確認できます。
 
       ![](assets/wkf_test_activity_variables.png)
 

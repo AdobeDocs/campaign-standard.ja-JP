@@ -1,8 +1,6 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: E メールとダイレクトメールの配信の結合
-description: この使用例は、ワークフローからの電子メールおよびダイレクトメール送信の例を示します。
+description: この使用例では、ワークフローからのEメール送信とダイレクトメール送信の例を示します。
 audience: channels
 content-type: reference
 topic-tags: direct-mail
@@ -10,14 +8,13 @@ context-tags: delivery,directMailContent,back
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 2783f282-681a-40c0-ae57-d25ad641b124
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '123'
-ht-degree: 82%
+source-wordcount: '119'
+ht-degree: 84%
 
 ---
-
 
 # E メールとダイレクトメールの配信の結合 {#coupling-email-direct-mail}
 

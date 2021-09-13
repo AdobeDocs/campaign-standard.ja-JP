@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 多言語メッセージテンプレート
 description: 単一の配信を通じて、自動的にセグメント化された顧客の優先言語に基づいた多言語の E メールおよび SMS 配信を定義および実行する方法について説明します。各配信のパフォーマンスを、言語レベルと個人レベルでレポートにまとめます。
 audience: start
 content-type: reference
 topic-tags: managing-templates
-feature: 多言語メッセージ
+feature: Multilingual Messages
 role: User
 level: Intermediate
 exl-id: 3d869f31-7dfb-4546-aba5-80a2787e00be
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 99%
+source-wordcount: '294'
+ht-degree: 100%
 
 ---
 

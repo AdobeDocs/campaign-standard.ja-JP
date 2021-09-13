@@ -1,8 +1,6 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 配信スループット
-description: 配信のスループットをすぐに使用できるレポートを使用して、配信の成功を確認します。
+description: 標準の配信スループットレポートを使用して、配信の成功を確認します。
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
@@ -10,24 +8,23 @@ context-tags: deliveryThroughputReport,main;campaignThroughputReport,main;progra
 feature: Reporting
 role: Leader
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 53bb4efb-949e-4831-af0d-e7af0ffa6b81
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 7%
+source-wordcount: '82'
+ht-degree: 4%
 
 ---
 
-
 # 配信スループット{#delivery-throughput}
 
-このレポートには、送信の配信スループット（複数の送信）に関するデータが含まれます。 次の機能が提供されます。
+このレポートには、1回の送信または複数の送信の配信スループットに関するデータが含まれます。 以下を提供します。
 
-* 1時間に処理されたメッセージの数
-* **[!UICONTROL Top 5 deliveries]**&#x200B;テーブルと補足的な概要番号。再試行で最も高い利益を得る5つの配信を示します。
+* 1時間に処理されたメッセージ数
+* 再試行で最も高い利益を持つ5つの配信を示す&#x200B;**[!UICONTROL Top 5 deliveries]**&#x200B;テーブルと補完的な概要番号。
 
 ![](assets/delivery_reports_1.png)
 
 >[!NOTE]
 >
->**[!UICONTROL Delivery throughput]**&#x200B;ページには、キャンペーンからAdobe Campaign拡張MTA(Message Transfer Agent)へのメッセージの中継に使用するスループット速度が表示されます。
+>**[!UICONTROL Delivery throughput]**&#x200B;ページには、CampaignからAdobe Campaign Enhanced MTA（メッセージ転送エージェント）へのメッセージのリレーのスループット速度が表示されます。

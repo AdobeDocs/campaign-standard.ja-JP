@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: セグメント化
 description: 「Segmentation」アクティビティを使用すると、ワークフローで既に配置されているアクティビティによって計算された母集団から、1 つまたは複数のセグメントを作成できます。
 audience: automating
@@ -10,14 +8,13 @@ context-tags: segmentation,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 3761ee4a-1ce5-4f9e-b2a5-84388b6b9db8
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '851'
 ht-degree: 92%
 
 ---
-
 
 # セグメント化{#segmentation}
 
@@ -32,8 +29,8 @@ ht-degree: 92%
 >デフォルトでは、インバウンド母集団のメンバーは 1 つのセグメントにのみ属することができます。フィルターは、アクティビティのセグメントの順序に従って適用されます。
 
 **関連トピック：**
-* [使用例：場所のセグメント化](../../automating/using/workflow-segmentation-location.md)
-* [使用例：年齢層別の分類](../../automating/using/segmentation-age-groups.md)
+* [使用例：場所でのセグメント化](../../automating/using/workflow-segmentation-location.md)
+* [使用例：年齢層別のセグメント化](../../automating/using/segmentation-age-groups.md)
 
 ## 使用状況 {#context-of-use}
 
@@ -41,13 +38,13 @@ ht-degree: 92%
 
 **関連トピック**
 
-* [使用例：プロファイルを年齢層に応じてセグメント化する](../../automating/using/segmentation-age-groups.md)。
+* [使用例：年齢グループに従ったプロファイルのセグメント化](../../automating/using/segmentation-age-groups.md)を参照してください。
 
 ## 設定 {#configuration}
 
 1. ワークフローに「**[!UICONTROL Segmentation]**」アクティビティをドラッグ＆ドロップします。
 1. アクティビティを選択し、表示されるクイックアクションの ![](assets/edit_darkgrey-24px.png) ボタンを使用して開きます。
-1. 「**[!UICONTROL General]**」タブで、セグメントを実行する&#x200B;**[!UICONTROL Resource type]**&#x200B;を選択します。
+1. 「**[!UICONTROL General]**」タブで、セグメント化を実行する&#x200B;**[!UICONTROL Resource type]**&#x200B;を選択します。
 
    * データベースに既に存在するデータに対してセグメント化が実行される場合は **[!UICONTROL Database resource]** を選択します。セグメント化するデータに応じて、**[!UICONTROL Filtering dimension]** を選択します。デフォルトでは、セグメント化は&#x200B;**プロファイル**&#x200B;で実行されます。
    * ワークフローの一時データでセグメント化が実行される場合は **[!UICONTROL Temporary resource]** を選択します。セグメント化するデータを含む **[!UICONTROL Targeted set]** を選択します。この使用例は、ファイルのインポート後、またはデータベース内のデータがエンリッチメントされた場合に発生する可能性があります。
@@ -64,7 +61,7 @@ ht-degree: 92%
    * **[!UICONTROL Limit segment population]**：セグメントのサイズを制限できます。
    * **[!UICONTROL Filter and limit segment population]**：セグメント母集団をフィルターしてサイズを制限できます。
    * **[!UICONTROL Label]**：セグメントラベル。
-   * **[!UICONTROL Segment code]**:コードを割り当てます。セグメントコードは、標準の式変数とイベント変数を使用してパーソナライズできます( [このページを参照](../../automating/using/customizing-workflow-external-parameters.md))。
+   * **[!UICONTROL Segment code]**:コードをセグメント母集団に割り当てます。このセグメントコードは、標準の式とイベント変数を使用してパーソナライズできます( [このページ](../../automating/using/customizing-workflow-external-parameters.md)を参照)。
    * **[!UICONTROL Exclude segment from population]**：指定したセグメントをアクティビティのアウトバウンド母集団から除外できます。このオプションは、「**[!UICONTROL Generate all segments in the same transition]**」オプションが選択されている場合にのみ使用できます。
 
    ![](assets/wkf_segment_new_segment.png)
@@ -99,6 +96,6 @@ ht-degree: 92%
 
    * インバウンド母集団のメンバーを同時に複数のセグメントに割り当てる場合は、「**[!UICONTROL Enable overlapping of outbound populations]**」オプションを選択します。アクティビティのアウトバウンド母集団がインバウンド母集団を超える可能性があります。
    * 保持したいセグメントコードがインバウンド母集団に既に割り当てられている場合は、「**[!UICONTROL Concatenate the code of each segment]**」オプションを選択します。アクティビティで指定されたセグメントコードが、最初のセグメントコードに追加されます。
-   * 残りの母集団を活用する場合は、「**[!UICONTROL Generate complement]**」オプションを選択します。[使用例を参照：補数](../../automating/using/workflow-created-query-with-complement.md)を持つ配信を作成しています。
+   * 残りの母集団を活用する場合は、「**[!UICONTROL Generate complement]**」オプションを選択します。[使用例を参照してください。補集合](../../automating/using/workflow-created-query-with-complement.md)を使用して配信を作成する。
 
 1. アクティビティの設定を確認し、ワークフローを保存します。

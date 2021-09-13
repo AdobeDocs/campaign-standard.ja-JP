@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: SMS コネクタのプロトコルと設定
 description: SMS コネクタの詳細と設定方法について説明します。
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: インスタンス設定
+feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: ea936128-1c51-483d-914c-6d06708456d6
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '8666'
+source-wordcount: '8664'
 ht-degree: 86%
 
 ---
@@ -57,7 +55,7 @@ SMS プロバイダー経由で大量の SMS を送信する場合、次の 3 �
 
 確認応答と SR は両方ともトリガーエラーを起こす可能性があります。そのため、この 2 つを区別するとトラブルシューティングに役立ちます。
 
-### SMS によって送信される情報 {#information-sms}
+### SMS で送信される情報 {#information-sms}
 
 SMS は、テキストよりも多くの情報を伝送します。SMS によって提供される情報のリストを以下に示します。
 
@@ -230,7 +228,7 @@ Adobe Campaign Standardは、すべての処理ステップが正常に完了し
 
 #### ENQUIRE_LINK_RESP {#enquire-links-resp}
 
-この PDU は、接続が有効であることを確認します。
+この PDU は、接続が動作していることを確認します。
 
 ### マルチパート SMS（長文 SMS） {#multipart}
 
@@ -248,7 +246,7 @@ Adobe Campaign Standardは、すべての処理ステップが正常に完了し
 
 プロトコルとフォーマットについて詳しくは、[SUBMIT_SM PDU](../../administration/using/sms-protocol.md#information-pdu) の `esm_class`、`short_message`、`message_payload` の各フィールドの説明を参照してください。
 
-### スループットの上限とウィンドウ {#throughput-capping}
+### スループットのキャッピングとウィンドウイング {#throughput-capping}
 
 ほとんどのプロバイダーでは、各 SMPP 接続にスループットの制限が必要です。これは、外部アカウント内に多数の SMS を設定することで達成できます。スループットのスロットルは接続ごとに発生します。有効なスループットの合計は、接続ごとの制限値に接続の合計数を乗じた値です。これについては、[同時接続](../../administration/using/sms-protocol.md#connection-settings)の節で詳しく説明します。
 
@@ -426,11 +424,11 @@ TLS を使用してプロバイダーに接続します。接続が暗号化さ�
 
 この設定は、すべての SMPP トラフィックをログファイルにダンプします。多くの場合、初期設定時にパラメーターを調整する必要があります。コネクタのトラブルシューティングをおこなう場合は、この機能を有効にし、プロバイダーが確認するトラフィックと比較する必要があります。
 
-### レシーバー接続設定 {#receiver-connection}
+### 受信者接続設定 {#receiver-connection}
 
-このセクションは、分離された&#x200B;**トランスミッター + レシーバー**&#x200B;モードでのみ表示されます。
+このセクションは、分離された&#x200B;**送信者 + 受信者**&#x200B;モードでのみ表示されます。
 
-#### 受信機に別のパラメーターを使用 {#receiver-parameters}
+#### 受信者に別のパラメーターを使用 {#receiver-parameters}
 
 このチェックボックスをオフにすると、トランスミッターとレシーバーに同じ設定が適用されます。
 
@@ -442,7 +440,7 @@ TLS を使用してプロバイダーに接続します。接続が暗号化さ�
 
 ### SMPP チャネル設定 {#smpp-channel-settings}
 
-#### 文字の置き換えを許可 {#allow-character-transliteration}
+#### 文字の表記変換を許可 {#allow-character-transliteration}
 
 文字の置き換えとは、見つからない文字に相当する文字を探す処理です。例えば、フランス語の「ê」（曲折アクセント記号付きの e）文字は GSM エンコーディングでは見つかりませんが、可読性を損なうことなく「e」に置き換えることができます。
 
@@ -524,7 +522,7 @@ TON（数値のタイプ）と NPI（数値計画インジケータ）は、[SMP
 
 #### 再接続までの時間 {#time-reconnection}
 
-TCP 接続が失われた場合、コネクタは接続を試行する前に、この秒数間待機します。
+TCP 接続が失われた場合、コネクタは、この秒数の間待機してから接続を試みます。
 
 #### MT の有効期間 {#expiration-period}
 
@@ -538,7 +536,7 @@ TCP 接続試行と `BIND_*_RESP` 応答の間のタイムアウト。タイム�
 
 `enquire_link` は、接続を有効に保つために送信される特別な種類の PDU です。この期間は秒単位です。キャンペーンコネクタは、帯域幅を節約するために接続がアイドル状態の場合にのみ `enquire_link` を送信します。この期間の 2 回後に RESP を受信しなかった場合、接続が切断されたと見なされ、再接続プロセスがトリガーされます。
 
-### SMSC の詳細 {#SMSC-specifics}
+### SMSC 固有の設定 {#SMSC-specifics}
 
 これらの設定は、Adobe Campaign コネクタを SMPP 実装の特殊性のほとんどに適応させるための詳細設定です。
 
@@ -583,7 +581,7 @@ UCS-2 は、Adobe Campaign でサポートされるすべての文字をエン�
 
 この機能は、自動返信ブロックリスト機能の動作にも影響します。チェックボックスがオフの場合、強制隔離テーブルに挿入される電話番号に + プレフィックスが追加され、SMPP プロトコル自体によって電話番号から + プレフィックスが削除されるのを補正します。
 
-#### TLS 証明書チェックをスキップ {#skip-tls}
+#### TLS 証明書チェックのスキップ {#skip-tls}
 
 TLS が有効な場合は、すべての証明書の確認をスキップします。
 
@@ -591,7 +589,7 @@ TLS が有効な場合は、すべての証明書の確認をスキップしま�
 
 このオプションは、デバッグやテストの際に役立ちます。
 
-#### バインド TON/NPI {#bind-ton-npi}
+#### TON／NPI のバインド {#bind-ton-npi}
 
 [SMPP 3.4 仕様](https://smpp.org/SMPP_v3_4_Issue1_2.pdf)の 5.2.5 節（117 ページ）で説明されている TON（番号のタイプ）と NPI（採番計画インジケータ）。これらの値は、プロバイダーのニーズに応じて設定する必要があります。
 
@@ -645,7 +643,7 @@ SR 形式は、SMPP プロトコル仕様に厳密には適用されません。
 
 デフォルトでは、`DELIV` で始まる stat 値（例：[付録 B](../../administration/using/sms-protocol.md#sr-error-management) 内の `DELIVRD`）は、正常に配信されたと見なされ、エラーに一致するすべての stat 値（例：`REJECTED`、`UNDELIV`）はエラーと見なされます。
 
-#### MT 確認の ID 形式 {#id-format-mt}
+#### MT 受信確認の ID 形式 {#id-format-mt}
 
 これは、`SUBMIT_SM_RESP PDU` の `message_id` フィールドに返される ID の形式を示します。
 
@@ -729,7 +727,7 @@ SR フィールド内の ID の `Extraction` 正規表現が十分に具体的�
 
 一部のパラメーターは、配信テンプレートごとに設定できます。
 
-### 開始フィールド {#from-field}
+### 送信者フィールド {#from-field}
 
 このフィールドはオプションです。送信者アドレス（oADC）を上書きできます。このフィールドの内容は、`SUBMIT_SM PDU` の `source_addr` フィールドに配置されます。
 
@@ -789,7 +787,7 @@ Adobe Campaign でのパーソナライズされたメッセージの動作に�
 
 ### SMPPコネクタの動作の説明 {#behavior-smpp-connector}
 
-#### MT、SR、broadLog エントリの一致 {#matching-mt-sr}
+#### MT、SR、broadLog エントリの照合 {#matching-mt-sr}
 
 Adobe Campaignでは、メッセージはbroadLogエントリです。 Adobe Campaign Standardでは、外部コネクタは、次に示す作業ブロードログテーブルについてのみ知っておく必要があります。`nmsBroadLogExec`. ワークフローでは、broadlogエントリを特定のターゲティングディメンション(nmsBroadLogXXX)にコピーします。
 
@@ -816,7 +814,7 @@ MTが確認(`SUBMIT_SM_RESP`)されると、データベース内の`sProviderId
 
 このチェックリストは、公開前に確認する必要がある事項をリストアップしています。設定が不完全な場合、多くの問題が発生する可能性があります。
 
-### 外部アカウントの競合を確認 {#external-account-conflict}
+### 外部アカウントの競合の確認 {#external-account-conflict}
 
 古い SMS 外部アカウントがないことを確認します。テストアカウントを無効のままにしておくと、実稼働システムで再有効化し、競合が発生する可能性があります。
 
@@ -824,9 +822,10 @@ MTが確認(`SUBMIT_SM_RESP`)されると、データベース内の`sProviderId
 
 同じAdobe Campaignインスタンス上で同じプロバイダーに接続する複数のアカウントが必要な場合は、プロバイダーに問い合わせて、これらのアカウント間の接続が実際に区別されることを確認してください。 複数のアカウントに同じログインを割り当てる場合は、追加の設定が必要です。
 
-### チェック中に詳細 SMPP トレースを有効にする {#enable-verbose}
+### チェック時の詳細 SMPP トレースの有効化 {#enable-verbose}
 
-チェック中は、必ず詳細な SMPP トレースを有効にする必要があります。ログを自分で確認できない場合は、サポートを依頼してください。
+チェック中は必ず詳細 SMPP トレースを有効にしてください。
+ログを自分で確認できない場合は、サポートを依頼してください。
 
 ### SMS のテスト {#test}
 
@@ -841,7 +840,7 @@ MTが確認(`SUBMIT_SM_RESP`)されると、データベース内の`sProviderId
 * **MO が処理されていることを確認する**：MO を処理する必要がある場合（自動応答、MO のデータベースへの格納など）、いくつかテストを試してみてください。すべての自動返信キーワードに対して SMS を送信し、返信速度が適切である（数秒以内）ことを確認します。Adobe Campaign が 
 正常な `DELIVER_SM_RESP`（command_status=0）で返信することをログで確認します。
 
-### PDU のチェック {#check-pdus}
+### PDU の確認 {#check-pdus}
 
 メッセージが正常に表示された場合でも、PDU が正しくフォーマットされているかどうかを確認することが重要です。
 
@@ -886,8 +885,8 @@ MTが確認(`SUBMIT_SM_RESP`)されると、データベース内の`sProviderId
 
 ### プロバイダーに問い合わせて、問題がないかどうかを確認します {#provider}
 
-SMS が正常に終了した場合でも、プロバイダーに問い合わせて、問題が解決したかどうかを確認してください。
+SMS が正常に終了した場合でも、プロバイダーに問い合わせて、すべて問題ないかどうかを確認してください。
 
-### 詳細 SMPP トレースを無効にする {#disable-verbose}
+### 詳細 SMPP トレースの無効化 {#disable-verbose}
 
 すべてのチェックが完了したら、最後に&#x200B;**詳細な SMPP トレースを無効**&#x200B;にして、多くのログを生成しないようにします。実稼働システムでも、トラブルシューティング用にこれらを再度有効化できます。

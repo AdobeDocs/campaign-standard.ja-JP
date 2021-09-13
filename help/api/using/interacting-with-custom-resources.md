@@ -1,8 +1,6 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: カスタムリソース
-description: API/を使用したカスタムリソース管理の詳細
+description: APIを使用したカスタムリソース管理の詳細
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -10,28 +8,27 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 19bfeecb-da60-479c-a929-0cfb72ef59e3
-translation-type: tm+mt
-source-git-commit: 01e4eb027b55815c3680b26691e61cbe5b63ee8c
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '190'
 ht-degree: 3%
 
 ---
 
 # カスタムリソースの操作 {#interacting-with-custom-resources}
 
-**/customResources**&#x200B;エンドポイントを使用すると、キャンペーンのカスタムリソースをRESTで公開できます。 このAPIに基づき、カスタムエンティティと外部エンドポイントの統合を利用できます。
+**/customResources**&#x200B;エンドポイントを使用すると、CampaignのカスタムリソースをRESTで公開できます。 このAPIに基づいて、カスタムエンティティと外部エンドポイントの統合を利用できます。
 
 /customResourcesエンドポイントの動作は、/profileAndServicesエンドポイントとまったく同じです。
 
 このAPIで公開されるカスタムリソースは次のとおりです。
 
-* /profileAndServicesExtで公開されないすべてのエンティティ
-* プロファイルにリンクされていないすべてのエンティティと、その子と孫です。
-* デフォルトでは、何にもリンクされていないすべてのエンティティと、その子と孫が表示されます。
+* /profileAndServicesExtに公開されていないすべてのエンティティ
+* プロファイルにリンクされていないすべてのエンティティと、それらのエンティティの子と孫。
+* デフォルトでは、何にもリンクされていないすべてのエンティティと、その子と孫が対象となります。
 
 >[!NOTE]
->/profileAndServicesExtで使用できるカスタムリソースは、/customResources APIに公開されません。
+>/profileAndServicesExtの下にあるカスタムリソースは、 /customResources APIでは公開されません。
 
 
 次に、カスタムリソースからメタデータを取得する例を示します。
@@ -40,12 +37,12 @@ ht-degree: 3%
 GET /customResources/resourceType/<customResourceName>
 ```
 
-作成、更新または削除を行うには、GET、POST、PATCH、DELETEを使用します。
+作成、更新または削除を実行するには、GET、POST、PATCH、DELETEが使用されます。
 
 ```
 POST /customResources/<customResourceName>
 ```
 
 >[!NOTE]
->プライバシーAPIエンドポイントとワークフロー(/privacy/privacyTool)は、プロファイルエンティティにリンクされていないカスタムリソースを管理していません。
->これらのカスタムリソースのPIIを管理およびクリーンアップする責任はあります。 プライバシーツールの詳細については、[ここ](../../api/using/creating-a-privacy-request.md)をクリックしてください。
+>プライバシーAPIエンドポイントとワークフロー(/privacy/privacyTool)は、プロファイルエンティティにリンクされていないカスタムリソースを管理しません。
+>これらのカスタムリソースのPIIを管理およびクリーンアップする責任はユーザーが負います。 プライバシーツールの詳細については、[ここ](../../api/using/creating-a-privacy-request.md)をクリックしてください。

@@ -1,40 +1,37 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: プロファイルの更新
-description: APIを使用してプロファイルを更新する方法について詳しく説明します。
+description: APIを使用してプロファイルを更新する方法について説明します。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: fa3796ee-a00c-4d70-bf3d-e8d2099f1116
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 5%
+source-wordcount: '96'
+ht-degree: 4%
 
 ---
 
-
 # プロファイルの更新 {#updating-profiles}
 
-更新プロファイルは、**PATCH**&#x200B;リクエストで実行されます。
+プロファイルの更新は、**PATCH**&#x200B;リクエストを使用して実行されます。
 
 `https://mc.adobe.io/<ORGANIZATION>/campaign/<apiName>/<resourceName>/<PKEY>`
 
-1. 最初のステップは、**プロファイル**&#x200B;を取得することです。
+1. 最初の手順は、**プロファイル**&#x200B;を取得することです。
 
-1. 2つ目のリクエストでは、ペイロード内の完了した情報と共に、プロファイル上で&#x200B;**PATCHリクエスト**&#x200B;を実行します。
+1. 2つ目のリクエストでは、ペイロード内の完了した情報を使用して、プロファイルに対して&#x200B;**PATCHリクエスト**&#x200B;を実行します。
 
-1. PATCH要求がプロファイルを更新したかどうかを確認するために、最終的なGET要求を実行できます。
+1. PATCHリクエストがプロファイルを更新したかどうかを確認するには、最終的なGETリクエストを実行します。
 
 <br/>
 
-***サンプルリクエスト***
+***リクエストのサンプル***
 
-プロファイルを取得するためのサンプルGETリクエスト。
+プロファイルを取得するGETリクエストの例。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>\
@@ -44,7 +41,7 @@ ht-degree: 5%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-リクエストに対する応答。
+リクエストへの応答。
 
 ```
 {
@@ -60,7 +57,7 @@ ht-degree: 5%
 }
 ```
 
-「phone」属性を更新するためのPATCH要求です。
+PATCHリクエストで「phone」属性を更新します。
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -71,7 +68,7 @@ ht-degree: 5%
 -d '{"phone":"3301020304"}'
 ```
 
-PKEYとURLを返し、更新されたプロファイルを取得します。
+PKEYとURLを返して、更新されたプロファイルを取得します。
 
 ```
 {

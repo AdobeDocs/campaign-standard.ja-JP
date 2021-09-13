@@ -1,23 +1,20 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: DataModel
-description: データモデルについて
+description: データモデルの詳細
 audience: developing
 content-type: reference
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 20dafd81-8546-450a-87a0-59a2509efb7a
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '144'
 ht-degree: 40%
 
 ---
 
-
-# 訪問者(nms:訪問者)
+# 訪問者(nms:visitor)
 
 ## オブジェクトの説明
 
@@ -49,19 +46,19 @@ ht-degree: 40%
     <tr>
         <td>createdBy (userBase)</td>
         <td>作成者</td>
-        <td>link </td>
+        <td>リンク </td>
         <td> </td>
     </tr>
     <tr>
-        <td>配信(配信)</td>
+        <td>配信（配信）</td>
         <td>配信</td>
-        <td>link </td>
+        <td>リンク </td>
         <td> </td>
     </tr>
     <tr>
         <td>deliveryId</td>
         <td>最後の配信のID</td>
-        <td>integer </td>
+        <td>整数 </td>
         <td> </td>
     </tr>
     <tr>
@@ -72,7 +69,7 @@ ht-degree: 40%
     </tr>
     <tr>
         <td>電子メール</td>
-        <td>電子メール</td>
+        <td>メール</td>
         <td>文字列(128)</td>
         <td> </td>
     </tr>
@@ -97,13 +94,13 @@ ht-degree: 40%
     <tr>
         <td>geoUnit (geoUnitBase)</td>
         <td>地理的単位</td>
-        <td>link </td>
+        <td>リンク </td>
         <td> </td>
     </tr>
     <tr>
         <td>lastModified</td>
         <td>最終変更日時</td>
-        <td>date </td>
+        <td>日付 </td>
         <td> </td>
     </tr>
     <tr>
@@ -115,36 +112,36 @@ ht-degree: 40%
     <tr>
         <td>modifiedBy (userBase)</td>
         <td>変更者</td>
-        <td>link </td>
+        <td>リンク </td>
         <td> </td>
     </tr>
     <tr>
         <td>orgUnit (orgUnitBase)</td>
         <td>組織単位</td>
-        <td>link </td>
+        <td>リンク </td>
         <td> </td>
     </tr>
     <tr>
         <td>接触チャネル</td>
         <td>接触チャネル</td>
-        <td>定義済みリスト（バイト） </td>
+        <td>列挙（バイト） </td>
         <td>
             <ul>
             <li>未定義 — 未定義 — 0</li>
-            <li>無効な値 — __Invalid_value__ - __Invalid_value__</li>
+            <li>無効な値 — __無効な値__ - __無効な値__</li>
             </ul>
         </td>
     </tr>
     <tr>
-        <td>受信者(受信者)</td>
+        <td>受信者（受信者）</td>
         <td>識別されたプロファイル</td>
-        <td>link </td>
+        <td>リンク </td>
         <td> </td>
     </tr>
     <tr>
         <td>recipientId</td>
         <td>プロファイル ID</td>
-        <td>integer </td>
+        <td>整数 </td>
         <td> </td>
     </tr>
     <tr>
@@ -161,8 +158,8 @@ ht-degree: 40%
     </tr>
     <tr>
         <td>referrerId</td>
-        <td>転送者ID</td>
-        <td>integer </td>
+        <td>リファラーID</td>
+        <td>整数 </td>
         <td> </td>
     </tr>
     <tr>
@@ -172,9 +169,9 @@ ht-degree: 40%
         <td> </td>
     </tr>
     <tr>
-        <td>referrerRcp(受信者)</td>
+        <td>referrerRcp(recipient)</td>
         <td>転送者</td>
-        <td>link </td>
+        <td>リンク </td>
         <td> </td>
     </tr>
     <tr>
@@ -187,7 +184,7 @@ ht-degree: 40%
 
 ## フィルター
 
-姓、名、電子メール(byText)</p>
+姓、名または電子メール(byText)</p>
 
 <table>
         <tr>

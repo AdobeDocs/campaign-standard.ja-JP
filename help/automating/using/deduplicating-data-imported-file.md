@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: インポートされたファイルからのデータの重複排除
 description: この例は、データをデータベースに読み込む前に、インポートしたファイルからデータの重複を除外する方法を示します。
 audience: automating
@@ -10,14 +8,13 @@ context-tags: dedup,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 631eb661-a696-4352-aa58-9097b391723e
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 88%
+source-wordcount: '328'
+ht-degree: 89%
 
 ---
-
 
 # インポートされたファイルからのデータの重複排除 {#deduplicating-the-data-from-an-imported-file}
 
@@ -27,7 +24,7 @@ ht-degree: 88%
 
 ![](assets/deduplication_example2_workflow.png)
 
-* プロファイルのリストを含むファイルは、[ファイル](../../automating/using/load-file.md)の読み込みアクティビティを使用して読み込まれます。 この例では、インポートされるファイルは .csv 形式で、10 個のプロファイルを含んでいます。
+* プロファイルのリストを含むファイルは、「[ファイルの読み込み](../../automating/using/load-file.md)」アクティビティを使用してインポートされます。 この例では、インポートされるファイルは .csv 形式で、10 個のプロファイルを含んでいます。
 
    ```
    lastname;firstname;dateofbirth;email
@@ -47,13 +44,13 @@ ht-degree: 88%
 
    ![](assets/deduplication_example2_fileloading.png)
 
-* [重複排除 - 重複](../../automating/using/deduplication.md)アクティビティ。 ファイルをインポートした後、データベースにデータを挿入する前に重複排除が直接実行されます。したがって、「**[!UICONTROL Load file]**」アクティビティの「**[!UICONTROL Temporary resource]**」に基づいている必要があります。
+* [重複排除](../../automating/using/deduplication.md)アクティビティ。 ファイルをインポートした後、データベースにデータを挿入する前に重複排除が直接実行されます。したがって、「**[!UICONTROL Load file]**」アクティビティの「**[!UICONTROL Temporary resource]**」に基づいている必要があります。
 
    この例では、ファイルに含まれている一意の E メールアドレスごとに 1 つのエントリを保持します。そのため、重複の識別は一時リソースの **email** 列に対しておこなわれます。ただし、2 つの E メールアドレスがファイルに 2 回出現します。したがって、2 行が重複と見なされます。
 
    ![](assets/deduplication_example2_dedup.png)
 
-* [Update data](../../automating/using/update-data.md)アクティビティを使用すると、重複排除 - 重複プロセスから保持されたデータをデータベースに挿入できます。 インポートされたデータがプロファイルディメンションに属していると識別されるのは、データの更新時のみです。
+* 「[データを更新](../../automating/using/update-data.md)」アクティビティを使用すると、重複排除プロセスで保持されたデータをデータベースに挿入できます。 インポートされたデータがプロファイルディメンションに属していると識別されるのは、データの更新時のみです。
 
    ここでは、「**[!UICONTROL Insert only]**」を指定して、データベースにまだ存在しないプロファイルだけを挿入します。それには、ファイルの email 列と&#x200B;**プロファイル**&#x200B;ディメンションの E メールフィールドを紐付けキーとして使用します。
 

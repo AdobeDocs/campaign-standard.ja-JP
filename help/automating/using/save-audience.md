@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: オーディエンスの保存
 description: 「オーディエンスの保存」アクティビティを使用すると、既存のオーディエンスを更新したり、ワークフローの上流で計算された母集団から新しいオーディエンスを作成することができます。
 audience: automating
@@ -10,16 +8,15 @@ context-tags: saveAudience,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: c3f029d7-779e-47e7-a925-1e8f672da4dd
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '807'
-ht-degree: 99%
+source-wordcount: '803'
+ht-degree: 100%
 
 ---
 
-
-# オーディエンスの保存{#save-audience}
+# オーディエンスを保存{#save-audience}
 
 ## 説明 {#description}
 
@@ -90,4 +87,3 @@ ht-degree: 99%
 「**[!UICONTROL Save audience]**」アクティビティは次のように設定します。
 
 ![](assets/save_audience_example_2.png)
-

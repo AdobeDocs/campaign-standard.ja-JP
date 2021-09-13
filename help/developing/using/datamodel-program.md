@@ -1,23 +1,20 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: DataModel
-description: データモデルについて
+description: データモデルの詳細
 audience: developing
 content-type: reference
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: b05dc67a-6447-4d22-99f2-8a14a0ee46d2
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '222'
 ht-degree: 36%
 
 ---
 
-
-# プログラム(nms:プログラム)
+# プログラム(nms:program)
 
 ## オブジェクトの説明
 
@@ -42,7 +39,7 @@ ht-degree: 36%
                </tr>
                <tr>
                   <td>builtIn</td>
-                  <td>組み込みアプリケーションオブジェクト</td>
+                  <td>アプリケーションのビルトインオブジェクト</td>
                   <td>boolean </td>
                   <td> </td>
                </tr>
@@ -55,7 +52,7 @@ ht-degree: 36%
                <tr>
                   <td>createdBy (userBase)</td>
                   <td>作成者</td>
-                  <td>link </td>
+                  <td>リンク </td>
                   <td> </td>
                </tr>
                <tr>
@@ -65,15 +62,15 @@ ht-degree: 36%
                   <td> </td>
                </tr>
                <tr>
-                  <td>end</td>
+                  <td>終了</td>
                   <td>終了日</td>
-                  <td>date </td>
+                  <td>日付 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>geoUnit (geoUnitBase)</td>
                   <td>地理的単位</td>
-                  <td>link </td>
+                  <td>リンク </td>
                   <td> </td>
                </tr>
                <tr>
@@ -97,28 +94,28 @@ ht-degree: 36%
                <tr>
                   <td>lastModified</td>
                   <td>最終変更日時</td>
-                  <td>date </td>
+                  <td>日付 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>logicalStatus</td>
                   <td>実行ステータス</td>
-                  <td>定義済みリスト（文字列） (255)</td>
+                  <td>列挙（文字列） (255)</td>
                   <td>
                      <ul>
-                        <li>進行中 — 開始 — 開始</li>
-                        <li>編集 — エディション — エディション</li>
+                        <li>処理中 — 開始済み — 開始済み</li>
+                        <li>編集 — 編集 — 編集</li>
                         <li>終了 — 終了 — 終了</li>
                         <li>警告 — 警告 — 警告</li>
                         <li>エラー — エラー — エラー</li>
-                        <li>無効な値 — __Invalid_value__ - __Invalid_value__</li>
+                        <li>無効な値 — __無効な値__ - __無効な値__</li>
                      </ul>
                   </td>
                </tr>
                <tr>
                   <td>modifiedBy (userBase)</td>
                   <td>変更者</td>
-                  <td>link </td>
+                  <td>リンク </td>
                   <td> </td>
                </tr>
                <tr>
@@ -130,13 +127,13 @@ ht-degree: 36%
                <tr>
                   <td>orgUnit (orgUnitBase)</td>
                   <td>組織単位</td>
-                  <td>link </td>
+                  <td>リンク </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>parent (programBase)</td>
                   <td>親プログラム</td>
-                  <td>link </td>
+                  <td>リンク </td>
                   <td> </td>
                </tr>
                <tr>
@@ -148,26 +145,26 @@ ht-degree: 36%
                <tr>
                   <td>開始</td>
                   <td>開始日</td>
-                  <td>date </td>
+                  <td>日付 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>ステータス</td>
                   <td>ステータス</td>
-                  <td>定義済みリスト（バイト） </td>
+                  <td>列挙（バイト） </td>
                   <td>
                      <ul>
                         <li>開始済み — 開始済み — 1</li>
-                        <li>編集中 — エディション — 0</li>
+                        <li>編集 — エディション — 0</li>
                         <li>終了 — 終了 — 2</li>
-                        <li>無効な値 — __Invalid_value__ - __Invalid_value__</li>
+                        <li>無効な値 — __無効な値__ - __無効な値__</li>
                      </ul>
                   </td>
                </tr>
                <tr>
-                  <td>template(プログラム)</td>
+                  <td>template (program)</td>
                   <td>プログラムテンプレート</td>
-                  <td>link </td>
+                  <td>リンク </td>
                   <td> </td>
                </tr>
                <tr>
@@ -186,7 +183,7 @@ ht-degree: 36%
 
 ## フィルター
 
-論理ステータス(byLogicalStatus)
+論理ステータス別(byLogicalStatus)
 
 <table>
     <tr>
@@ -195,11 +192,11 @@ ht-degree: 36%
     </tr>
     <tr>
     <td>state</td>
-    <td>定義済みリスト</td>
+    <td>列挙</td>
     </tr>
 </table>
 
-名前またはラベル別(byText)
+名前またはラベル(byText)
 
 <table>
     <tr>
@@ -212,7 +209,7 @@ ht-degree: 36%
     </tr>
 </table>
 
-期間別（期間別）
+期間別(byPeriod)
 
 <table>
     <tr>
@@ -221,7 +218,7 @@ ht-degree: 36%
     </tr>
     <tr>
     <td>startDate</td>
-    <td>date</td>
+    <td>日付</td>
     </tr>
     <tr>
     <td>timePeriod</td>
@@ -229,7 +226,7 @@ ht-degree: 36%
     </tr>
 </table>
 
-異種リストからの連続配信を含める（連続）
+異種のリストからの連続配信を含める(withContinuous)
 
 <table>
     <tr>
@@ -264,11 +261,11 @@ ht-degree: 36%
     </tr>
     <tr>
     <td>プログラム</td>
-    <td>link</td>
+    <td>リンク</td>
     </tr>
 </table>
 
-特定の期間に対して計画済(byPlanning)
+指定した期間に計画済(byPlanning)
 
 <table>
     <tr>
@@ -277,15 +274,15 @@ ht-degree: 36%
     </tr>
     <tr>
     <td>startDate</td>
-    <td>date</td>
+    <td>日付</td>
     </tr>
     <tr>
     <td>endDate</td>
-    <td>date</td>
+    <td>日付</td>
     </tr>
 </table>
 
-特定の期間(byCalendar)に存在する
+指定した期間(byCalendar)に存在する
 
 <table>
     <tr>
@@ -294,10 +291,10 @@ ht-degree: 36%
     </tr>
     <tr>
     <td>startDate</td>
-    <td>date</td>
+    <td>日付</td>
     </tr>
     <tr>
     <td>endDate</td>
-    <td>date</td>
+    <td>日付</td>
     </tr>
 </table>

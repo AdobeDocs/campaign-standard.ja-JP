@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: ファイルに含まれるデータによるプロファイルデータのエンリッチメント
 description: この例では、ファイルに含まれている購入データを使用してプロファイルデータのエンリッチメントをおこなう方法を示します。
 audience: automating
@@ -10,25 +8,24 @@ context-tags: enrichment,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: d5c19884-5a3e-4676-899c-53074a3b0efc
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '528'
 ht-degree: 78%
 
 ---
 
-
 # ファイルに含まれるデータによるプロファイルデータのエンリッチメント {#enriching-profile-data-with-data-contained-in-a-file}
 
-この例では、プロファイルデータをファイルに含まれる購入データと共に拡張する方法を示します。ここでは、購入データがサードパーティのシステムに保存されることを考慮します。 各プロファイルでは、複数の購入をファイルに保存できます。ワークフローの最終目標は、少なくとも 2 つの商品を購入したターゲットプロファイルに E メールを送信して愛顧に感謝することです。
+この例では、ファイルに含まれる購入データを使用して、プロファイルデータをエンリッチメントする方法を示します。ここでは、購入データがサードパーティシステムに保存されると考えます。 各プロファイルでは、複数の購入をファイルに保存できます。ワークフローの最終目標は、少なくとも 2 つの商品を購入したターゲットプロファイルに E メールを送信して愛顧に感謝することです。
 
 ワークフローは次のように設定します。
 
 ![](assets/enrichment_example_workflow.png)
 
-* メッセージを受信するプロファイルをターゲットする[クエリ](../../automating/using/query.md)アクティビティ。
-* 購入データを読み込む[ファイル](../../automating/using/load-file.md)の読み込みアクティビティ。 次に例を示します。
+* メッセージを受信するプロファイルをターゲットにする[クエリ](../../automating/using/query.md)アクティビティ。
+* 購入データを読み込む[ファイルを読み込む](../../automating/using/load-file.md)アクティビティ。 次に例を示します。
 
    ```
    tcode;tdate;customer;product;tamount
@@ -80,11 +77,11 @@ ht-degree: 78%
 
       ![](assets/enrichment_example_workflow9.png)
 
-* 1つのセグメントのみを含む[セグメント化](../../automating/using/segmentation.md)アクティビティ。最低2つのトランザクションが記録された最初のターゲットのプロファイルを取得します。 1 つのトランザクションのみのプロファイルは除外されます。そのために、セグメント化のクエリは、既に定義されている集計に対して実行されます。
+* 1つのセグメントのみを含む[セグメント化](../../automating/using/segmentation.md)アクティビティ。最低2つのトランザクションが記録されている初期ターゲットのプロファイルを取得します。 1 つのトランザクションのみのプロファイルは除外されます。そのために、セグメント化のクエリは、既に定義されている集計に対して実行されます。
 
    ![](assets/enrichment_example_workflow5.png)
 
-* [電子メール配信](../../automating/using/email-delivery.md)アクティビティ。**[!UICONTROL Enrichment]**&#x200B;に定義された追加のデータを使用して、プロファイルが最後に行った2つの購入を動的に取得します。 追加データは、パーソナライゼーションフィールドを追加する際に「**Additional data (TargetData)**」ノードに表示されます。
+* [Eメール配信](../../automating/using/email-delivery.md)アクティビティ。**[!UICONTROL Enrichment]**&#x200B;で定義された追加データを使用して、プロファイルが最後におこなった2つの購入を動的に取得します。 追加データは、パーソナライゼーションフィールドを追加する際に「**Additional data (TargetData)**」ノードに表示されます。
 
    ![](assets/enrichment_example_workflow10.png)
 

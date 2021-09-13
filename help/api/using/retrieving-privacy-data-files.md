@@ -1,40 +1,37 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: プライバシーデータファイルの取得
-description: APIを使用してプライバシーデータファイルを取得する方法について説明します。
+description: APIを使用してプライバシーデータファイルを取得する方法を説明します
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: df06cb86-dba2-41e4-81d0-66f3a86e47bd
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 12%
+source-wordcount: '194'
+ht-degree: 21%
 
 ---
-
 
 # プライバシーデータファイルの取得 {#retrieving-privacy-data-files}
 
 >[!CAUTION]
 >
->[プライバシーコアサービス](https://adobe.io/apis/cloudplatform/gdpr.html)統合は、すべてのアクセス要求と削除要求で使用する必要がある方法です。 19.4 以降、アクセス要求および削除要求に対する Campaign API およびインターフェイスの使用は廃止されます。廃止および削除された機能のCampaign Standardについて詳しくは、[このページ](../../rn/using/deprecated-features.md)を参照してください。
+>[Privacy Core Service](https://adobe.io/apis/cloudplatform/gdpr.html) Integrationは、すべてのアクセス要求と削除要求に使用する必要がある方法です。 19.4 以降、アクセスリクエストと削除リクエストに対する Campaign API およびインターフェイスの使用は非推奨（廃止予定）になりました。Campaign Standard の廃止および削除された機能の詳細については、 [こちらのページ](../../rn/using/deprecated-features.md)を参照してください。
 
-調整値に関連付けられたすべての情報を含むファイルを取得するには、次の3つの手順に従います。
+紐付け値に関連付けられたすべての情報を含むファイルを取得するには、次の3つの手順に従います。
 
-1. **POST**&#x200B;リクエストを実行し、**type=&quot;access&quot;**&#x200B;という属性を持つ新しいリクエストを作成します。[新しいプライバシーリクエストの作成](../../api/using/creating-a-privacy-request.md)を参照してください。
+1. **POST**&#x200B;リクエストを実行し、属性&#x200B;**type=&quot;access&quot;**&#x200B;で新しいリクエストを作成します。[新しいプライバシーリクエスト](../../api/using/creating-a-privacy-request.md)の作成を参照してください。
 
 1. **GET**&#x200B;リクエストを実行して、リクエストに関する情報を取得します。
 
-1. 返された&#x200B;**privacyRequestData** URLに対して&#x200B;**POST**&#x200B;リクエストを実行し、ペイロード内部にプライバシーリクエストの内部名を付けて、データファイルを取得します。 次に例を示します。{&quot;name&quot;:&quot;PT17&quot;}.
+1. 返された&#x200B;**privacyRequestData** URLに対して&#x200B;**POST**&#x200B;リクエストを実行し、ペイロード内にプライバシーリクエストの内部名を指定して、データファイルを取得します。 例：{&quot;name&quot;:&quot;PT17&quot;}。
 
 <br/>
 
-***サンプルリクエスト***
+***リクエストのサンプル***
 
 type=&quot;access&quot;属性を持つプライバシーリクエストを作成します。
 
@@ -57,7 +54,7 @@ type=&quot;access&quot;属性を持つプライバシーリクエストを作成
 
 <!-- + réponse -->
 
-GETリクエストを実行して、リクエストに関する情報を取得します。
+リクエストのGETを取得するには、リクエストを実行します。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/privacy/privacyTool \
@@ -67,7 +64,7 @@ GETリクエストを実行して、リクエストに関する情報を取得�
 -H 'Content-Type: application/json;charset=utf-8'
 ```
 
-関連付けられたURLと共にprivacyRequestData属性を返します。
+関連するURLと共にprivacyRequestData属性を返します。
 
 ```
 {
@@ -88,7 +85,7 @@ GETリクエストを実行して、リクエストに関する情報を取得�
 },
 ```
 
-POST内のリクエスト内部名を使用して、privacyRequestData URLでペイロードリクエストを実行します。
+privacyRequestData URLでPOSTリクエストを実行し、ペイロード内にリクエスト内部名を指定します。
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/privacy/privacyTool/<PKEY>/privacyRequestData \

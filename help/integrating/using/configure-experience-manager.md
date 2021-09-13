@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Campaign と Experience Manager の統合の設定
 description: Adobe Experience Manager統合を使用すると、AEMで直接コンテンツを作成し、後でAdobe Campaignで使用できます。
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-experience-manager
-feature: トリガー
+feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: f56f5a19-6283-4eef-8127-c69a16a42a37
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '335'
 ht-degree: 12%
 
 ---
@@ -31,7 +29,7 @@ Adobe Campaign StandardとAdobe Experience Managerの統合により、Adobe Exp
 * Adobe Experience Manager **パブリッシュ**&#x200B;インスタンス
 * Adobe Campaignインスタンス
 
-## Adobe Campaign Standardの設定{#config-acs}
+## Adobe Campaign Standardでの設定 {#config-acs}
 
 2 つのソリューションを同時に使用するには、相互接続を設定する必要があります。Adobe Campaign を設定するには：
 
@@ -63,7 +61,7 @@ Adobe Campaign StandardとAdobe Experience Managerの統合により、Adobe Exp
 
 次に、Adobe Experience Managerで統合を設定する必要があります。
 
-## Adobe Experience Managerの設定{#config-aem}
+## Adobe Experience Managerでの設定 {#config-aem}
 
 Adobe Campaign StandardでAdobe Experience Managerを設定するには、次の手順に従う必要があります。
 

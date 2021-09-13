@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Campaign と Experience Manager の統合について
 description: Adobe Experience Manager統合を使用すると、AEMで直接コンテンツを作成し、後でAdobe Campaignで使用できます。
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-experience-manager
-feature: トリガー
+feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: ff94f69b-3036-4103-a841-6b85feb0eb7e
-source-git-commit: f6e94cf98662e708730be672149d836ef0e56522
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '631'
 ht-degree: 1%
 
 ---
@@ -29,7 +27,7 @@ Adobe Campaign Standardは、Adobe Experience Manager 6.1、6.2、6.3、6.4お�
 >
 > Adobe Campaign Standard 6.5では、Adobe Experience Managerテンプレートは使用できなくなりました。
 
-## CampaignとExperience Managerの統合の使用方法に関するヒント{#tips-aem}
+## CampaignとExperience Managerの統合の使用方法に関するヒント {#tips-aem}
 
 * **統合で使用するテンプレートの理解**
 

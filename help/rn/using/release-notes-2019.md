@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: リリースノート 2019
 description: このページでは、Adobe Campaign Standard の 2019 年の全リリースを紹介します。
 audience: rn
 content-type: reference
 topic-tags: campaign-standard-releases
-feature: 概要
+feature: Overview
 role: User
 level: Beginner
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '7590'
+source-wordcount: '7589'
 ht-degree: 9%
 
 ---
@@ -36,7 +34,7 @@ ht-degree: 9%
    <td> <p>CCPAは、2020年1月1日よりカリフォルニア州で新しく施行されるプライバシー保護法で、データ保護要件を現代の状況に合わせて整合化させることを目的としています。 CCPA は、カリフォルニア州に居住しているデータ主体のデータを保有している Adobe Campaign の顧客に適用されます。</p>
    <p>Adobe Campaignで既に利用可能なプライバシー機能（同意管理、データ保持設定、ユーザーの役割など）に加えて、CCPAに備えるのに役立つ機能を追加する予定です。</p>
    <ul>
-    <li>アクセス権と削除権：GDPR 用に追加された機能を活用します。<a href="https://helpx.adobe.com/content/help/jp/campaign/kb/acs-privacy.html#righttoaccess">詳細</a> </li>
+    <li>アクセス権と削除権：GDPR 用に追加された機能を活用します。<a href="https://helpx.adobe.com/content/help/jp/campaign/kb/acs-privacy.html#righttoaccess">詳細情報</a> </li>
     <li><p>プライバシーリクエストを作成する際のプライバシーコアサービスに、規制のタイプ（GDPRまたはCCPA）が追加されました。 すべてのアクセス要求と削除要求に対して、このメソッドを使用する必要があります。アクセス要求および削除要求に対する Campaign API およびインターフェイスの使用は廃止されています。<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">廃止および削除された機能の記事</a>を参照してください。</p></li>
     <li>Adobe Campaignのユーザーが個人情報の販売をオプトアウトしたかどうかを追跡できるように、プロファイルリソースに<strong>CCPAオプトアウト</strong>フィールドが追加されました。 <a href="https://helpx.adobe.com/jp/campaign/kb/acs-privacy.html#ccpa">詳細情報</a>。</li>
   </ul>
@@ -182,7 +180,7 @@ ht-degree: 9%
 * EメールでJSPコードを使用する際に、コンテンツの編集が困難になる問題を修正しました。 （CAMP-34574）
 * ハイパーリンクを追加すると画像が上に切り捨てられる問題を修正しました。 （CAMP-34382）
 * FirefoxでEメールデザイナーを使用する際の表示の問題を修正しました。 （CAMP-34364）
-* Eメールに動的コンテンツを定義する際にアドバンスモードで発生していた問題を修正しました。 (CAMP-34351、CAMP-34333、CAMP-34331)
+* Eメールに動的コンテンツを定義する際にアドバンスモードで発生していた問題を修正しました。 （CAMP-34351、CAMP-34333、CAMP-34331）
 * 動的コンテンツルールエディターで発生していたいくつかの問題を修正しました(CAMP-34304、CAMP-34303)。
 * Eメールデザイナーの設定パネルに「リンク」フィールドが表示されない場合がある問題を修正しました(CAMP-33749)。
 * 送信済みのEメールでオーバーサイズされていたYouTubeアイコンの問題を修正しました。 （CAMP-33726）
@@ -203,7 +201,7 @@ ht-degree: 9%
 
 **その他の機能強化**
 
-* Adobe Campaignは、Adobe Experience Platform Location Servicesとの統合を通じて、Experience PlatformSDKを使用して、モバイルアプリケーションの購読者に場所ベースのマーケティングメッセージを送信する機能を備えるようになりました。 詳しくは、[詳細ドキュメント](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md)を参照してください。
+* Adobe Campaignは、Adobe Experience Platform Location Servicesとの統合を通じて、Experience PlatformSDKを使用して、モバイルアプリケーションの購読者に場所ベースのマーケティングメッセージを送信する機能を備えるようになりました。 詳しくは、[詳細なドキュメント](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md)を参照してください。
 * レポート機能が改善され、エクスペリエンスが向上しました。 この機能を使用するには、動的レポートの使用契約に同意する必要があります。 詳しくは、[詳細ドキュメント](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement)を参照してください。
 * ワークフローに、次の10回のワークフロー実行をプレビューする新しいオプションが追加されました。 詳しくは、[詳細ドキュメント](../../automating/using/scheduler.md)を参照してください。
 * 「スケジューラー」アクティビティに、新しいオプションを使用して、月別の配信の特定の曜日を選択できます。 詳しくは、[詳細ドキュメント](../../automating/using/scheduler.md)を参照してください。
@@ -306,11 +304,11 @@ ht-degree: 9%
  <tbody> 
   <tr> 
    <td> コントロールパネル<br /> </td> 
-   <td> <p>管理者ユーザーの作業効率を高めるために、容量を簡単に監視し、インスタンスの設定を管理できます（SFTPサーバー管理から開始）。</p><p>詳しくは、<a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja">詳細ドキュメント</a>および<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=en">ハウツービデオ</a>を参照してください。</p></td> 
+   <td> <p>管理者ユーザーの作業効率を高めるために、容量を簡単に監視し、インスタンスの設定を管理できます（SFTPサーバー管理から開始）。</p><p>詳しくは、<a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja">詳細ドキュメント</a>および<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/control-panel-overview.html?lang=ja">ハウツービデオ</a>を参照してください。</p></td> 
   </tr> 
   <tr> 
    <td> ローカル通知<br /> </td> 
-   <td> <p>ローカル通知メッセージを使用すると、インターネットやフォアグラウンドで動作しているモバイルアプリケーションにアクセスしなくても、モバイルアプリケーション内で新しいデータが利用可能になった時点でユーザーに通知できます。 ローカル通知は、特定の時間に、イベントに応じて、モバイルアプリケーションによってトリガーされます。</p><p>詳しくは、<a href="../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type">詳細ドキュメント</a>を参照してください。</p></td> 
+   <td> <p>ローカル通知メッセージを使用すると、インターネットやフォアグラウンドで動作しているモバイルアプリケーションにアクセスしなくても、モバイルアプリケーション内で新しいデータが利用可能になった時点でユーザーに通知できます。 ローカル通知は、特定の時間に、イベントに応じて、モバイルアプリケーションによってトリガーされます。</p><p>詳しくは、<a href="../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type">詳細なドキュメント</a>を参照してください。</p></td> 
   </tr> 
   <tr> 
    <td> ワークフローの強化 — 外部シグナルアクティビティにペイロードを追加<br /> </td> 
@@ -368,11 +366,11 @@ ht-degree: 9%
 * セキュリティグループを含むパッケージを書き出す際に、各グループに割り当てられている役割が含まれるようになりました。 （CAMP-32960）
 * 「ファイルを読み込み」アクティビティで、新しいオプションを使用して、アップロードするファイルの列が列定義と一致していることを確認できます。 詳しくは、[詳細ドキュメント](../../automating/using/load-file.md)を参照してください。（CAMP-32229）
 * ワークフローは、ペイロードを使用して開始できるようになり、ワークフロー内のアクティビティ間で外部パラメーターを使用および共有できるようになりました。 詳しくは、[詳細ドキュメント](../../automating/using/calling-a-workflow-with-external-parameters.md)を参照してください。(CAMP-29412およびCAMP-29413)
-* Campaign StandardAPIで、ペイロードを使用してプロファイルの地理的単位と組織単位を更新できるようになりました。 詳しくは、[詳細ドキュメント](../../api/using/get-started-apis.md)を参照してください。
+* Campaign StandardAPIで、ペイロードを使用してプロファイルの地理的単位と組織単位を更新できるようになりました。 詳しくは、[詳細なドキュメント](../../api/using/get-started-apis.md)を参照してください。
 * データベースのオブジェクトにアクセスできない場合のエラーメッセージが、理解できる明確になっています。
-* 「ファイルを抽出」アクティビティで、エクスポートするファイルの名前を定義する際のJavaScriptの機能が更新されました。 「出力」フィールドでは、 formatDate関数のみを使用できるようになりました。 詳しくは、[詳細ドキュメント](../../automating/using/extract-file.md)を参照してください。
+* 「ファイルを抽出」アクティビティで、エクスポートするファイルの名前を定義する際のJavaScriptの機能が更新されました。 「出力」フィールドでは、 formatDate関数のみを使用できるようになりました。 詳しくは、[詳細なドキュメント](../../automating/using/extract-file.md)を参照してください。
 * カスタムリソースの自動シーケンスID生成が改善されました。 新しいカスタムリソースのプライマリキーが、デフォルトで64ビットになりました。
-* カスタムリソースのパブリッシュテストモードが改善されました。 最後のカスタムリソースのパブリッシュに失敗し、修正されていない場合に、ユーザーに警告メッセージが表示されるようになりました。 カスタムリソースのパブリッシュに失敗した場合は、最後の作業用バージョンにロールバックできます。 詳しくは、[詳細ドキュメント](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)を参照してください。
+* カスタムリソースのパブリッシュテストモードが改善されました。 最後のカスタムリソースのパブリッシュに失敗し、修正されていない場合に、ユーザーに警告メッセージが表示されるようになりました。 カスタムリソースのパブリッシュに失敗した場合は、最後の作業用バージョンにロールバックできます。 詳しくは、[詳細なドキュメント](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)を参照してください。
 * 「ファイル転送」アクティビティに新しいオプションが追加されました。 SFTPモードで、ファイルのダウンロードアクションを使用する際にファイルを並べ替えることができます。 詳しくは、[詳細ドキュメント](../../automating/using/transfer-file.md)を参照してください。（CAMP-33109）
 
 **パッチ**
@@ -424,11 +422,11 @@ ht-degree: 9%
  <tbody> 
   <tr> 
    <td> プッシュチャネルレポートの改善点<br /> </td> 
-   <td> <p>プッシュチャネルレポートにいくつかの機能強化が追加され、ユーザーエンゲージメントをより直感的に測定できるようになりました。 このリリースでは、プッシュチャネル指標のリストを次の3つの異なる指標に拡張します。インプレッション数、クリック数、開封数(App Open)を使用すると、プッシュ通知とのユーザーのインタラクションをより効果的に測定および分析できます。 これと共に、これらの指標の定義と実装も標準化しています。 また、プッシュ通知の組み込みレポートが改善され、一般的に使用されるビジュアライゼーションと指標が追加されました。</p><p> 詳しくは、<a href="../../reporting/using/push-notification-report.md">詳細ドキュメント</a>を参照してください。</p> </td> 
+   <td> <p>プッシュチャネルレポートにいくつかの機能強化が追加され、ユーザーエンゲージメントをより直感的に測定できるようになりました。 このリリースでは、プッシュチャネル指標のリストを次の3つの異なる指標に拡張します。インプレッション数、クリック数、開封数(App Open)を使用すると、プッシュ通知とのユーザーのインタラクションをより効果的に測定および分析できます。 これと共に、これらの指標の定義と実装も標準化しています。 また、プッシュ通知の組み込みレポートが改善され、一般的に使用されるビジュアライゼーションと指標が追加されました。</p><p> 詳しくは、<a href="../../reporting/using/push-notification-report.md">詳細なドキュメント</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td> モバイルアプリのLaunch統合<br /> </td> 
-   <td> <p>このリリースには、Adobe Experience Platform LaunchおよびMobile SDKのAdobe Campaign Standard用AndroidおよびiOS拡張機能のGAバージョンとAdobe Campaignの統合が含まれています。 これらの拡張機能は、プッシュメッセージ、アプリ内メッセージ、モバイルアプリプロファイルの更新をサポートします。</p><p> 詳しくは、<a href="https://helpx.adobe.com/jp/campaign/kb/configuring-app-sdk.html">詳細ドキュメント</a>を参照してください。</p> </td> 
+   <td> <p>このリリースには、Adobe Experience Platform LaunchおよびMobile SDKのAdobe Campaign Standard用AndroidおよびiOS拡張機能のGAバージョンとAdobe Campaignの統合が含まれています。 これらの拡張機能は、プッシュメッセージ、アプリ内メッセージ、モバイルアプリプロファイルの更新をサポートします。</p><p> 詳しくは、<a href="https://helpx.adobe.com/jp/campaign/kb/configuring-app-sdk.html">詳細なドキュメント</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td> モバイルアプリ内メッセージ<br /> </td> 
@@ -439,7 +437,7 @@ ht-degree: 9%
    <td> <p>次のワークフロー機能が追加されました。</p> 
     <ul> 
      <li> ワークフロー内または同じCampaignインスタンスから別のワークフロー内で、アクティビティをコピー&amp;ペーストできるようになりました。 これにより、ワークフロー全体または特定のアクティビティを簡単に複製し、最初に定義した設定を保持できます。 詳しくは、<a href="../../automating/using/workflow-interface.md#duplicating-workflow-activities">詳細ドキュメント</a>を参照してください。（CAMP-20014） </li> 
-     <li> 「<strong>ファイル</strong>を読み込み」アクティビティを使用する場合、却下されたレコードを含むファイルの名前にタイムスタンプを追加できるようになりました。 詳しくは、<a href="../../automating/using/load-file.md#configuration">詳細ドキュメント</a>を参照してください。 </li> 
+     <li> 「<strong>ファイル</strong>を読み込み」アクティビティを使用する場合、却下されたレコードを含むファイルの名前にタイムスタンプを追加できるようになりました。 詳しくは、<a href="../../automating/using/load-file.md#configuration">詳細なドキュメント</a>を参照してください。 </li> 
      <li> <strong></strong> 「Query」および「 <strong></strong> Segmentationactivities」で、アクティビティがデータを取得しない場合にアウトバウンドトランジションを有効にできるようになりました。 </li> 
     </ul> </td> 
   </tr> 
@@ -454,19 +452,19 @@ ht-degree: 9%
 
 * Behanceのアーティストがデザインした、クラス最高の4つのレスポンシブEメールテンプレートのセットが利用できるようになりました。
 
-   詳しくは、[詳細ドキュメント](../../designing/using/using-reusable-content.md#content-templates)を参照してください。
+   詳しくは、[詳細なドキュメント](../../designing/using/using-reusable-content.md#content-templates)を参照してください。
 
 * アドビの新しいオンボーディングエクスペリエンスは、Eメールの作成をすばやく開始し、ドキュメントやチュートリアルにアクセスしやすくなります。
 
-   詳しくは、[詳細ドキュメント](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-home-page)を参照してください。
+   詳しくは、[詳細なドキュメント](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-home-page)を参照してください。
 
 * これで、必要に応じて列数と幅を柔軟に設定できます。
 
-   詳しくは、[詳細ドキュメント](../../designing/using/designing-from-scratch.md#defining-the-email-structure)を参照してください。
+   詳しくは、[詳細なドキュメント](../../designing/using/designing-from-scratch.md#defining-the-email-structure)を参照してください。
 
 * モバイル表示で編集する場合、スペースを効果的に使用するために、モバイル表示でのみ特定のコンポーネントを非表示にできます。
 
-   詳しくは、[詳細ドキュメント](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)を参照してください。
+   詳しくは、[詳細なドキュメント](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)を参照してください。
 
 * 既に使用可能なソーシャルチャネルの上に、カスタムソーシャルチャネルをEメールテンプレートに追加できるようになりました。
 * 18個を超える構造を使用している場合に、構造メニューを下にスクロールできない問題を修正しました。 （CAMP-31173）
@@ -486,7 +484,7 @@ ht-degree: 9%
 * プロファイル作成画面のタイムゾーンドロップダウンリストが、アドレスセクションからインターフェイスの上部セクションに移動しました。
 * カスタムリソース画面の設定時に区切り文字を追加して、フィールドをカテゴリ別に整理できるようになりました。
 
-   詳しくは、[詳細ドキュメント](../../developing/using/configuring-the-screen-definition.md#defining-the-detail-screen-configuration)を参照してください。
+   詳しくは、[詳細なドキュメント](../../developing/using/configuring-the-screen-definition.md#defining-the-detail-screen-configuration)を参照してください。
 
 **その他の変更**
 
@@ -537,7 +535,7 @@ ht-degree: 9%
      <li> 準備時にURLからコンテンツを<a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">自動的に取得する機能</a> </li> 
      <li> 完全に準拠した<a href="../../designing/using/using-reusable-content.md#content-templates">標準のコンテンツテンプレート</a>。 </li> 
     </ul> 
-    <p>詳しくは、<a href="../../designing/using/designing-content-in-adobe-campaign.md">詳細ドキュメント</a>および<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html">ハウツービデオ</a>を参照してください。機能強化および修正点を次に示します。</p><p>その結果、従来のEメールコンテンツエディターは非推奨（廃止予定）となりました。 詳しくは、この<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">ページ</a>を参照してください。</p> </td> 
+    <p>詳しくは、<a href="../../designing/using/designing-content-in-adobe-campaign.md">詳細ドキュメント</a>および<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html">ハウツービデオ</a>を参照してください。機能強化および修正点を次に示します。</p><p>その結果、従来のEメールコンテンツエディターは非推奨（廃止予定）となりました。 詳しくは、<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">このページ</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td> トランザクションEメールの製品リスト<br /> </td> 
@@ -545,7 +543,7 @@ ht-degree: 9%
   </tr> 
   <tr> 
    <td> Eメールデザイナーのモバイル表示<br /> </td> 
-   <td> <p>Eメールコンテンツの編集時に、専用のモバイル表示に切り替えられるようになりました。 これにより、マージンの適応、より小さいフォントサイズ、異なる背景色など、モバイル表示用のすべてのスタイルオプションを個別に編集することで、Eメールのレスポンシブデザインを微調整できます。</p><p> 詳しくは、<a href="../../designing/using/plain-text-html-modes.md#switching-to-mobile-view">詳細ドキュメント</a>を参照してください。</p> </td> 
+   <td> <p>Eメールコンテンツの編集時に、専用のモバイル表示に切り替えられるようになりました。 これにより、マージンの適応、より小さいフォントサイズ、異なる背景色など、モバイル表示用のすべてのスタイルオプションを個別に編集することで、Eメールのレスポンシブデザインを微調整できます。</p><p> 詳しくは、<a href="../../designing/using/plain-text-html-modes.md#switching-to-mobile-view">詳細なドキュメント</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td> アプリ内メッセージベータ版の改善<br /> </td> 

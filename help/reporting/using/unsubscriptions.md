@@ -1,8 +1,6 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 購読解除
-description: すぐに使用できる購読解除レポートを使用して、配信を登録解除した回数を確認できます。
+description: 標準の購読解除レポートでは、顧客が配信を購読解除した回数を確認できます。
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
@@ -10,14 +8,13 @@ context-tags: deliveryUnsubscriptionsReport,main;campaignUnsubscriptionsReport,m
 feature: Reporting
 role: Leader
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 02c24d66-f379-476d-9536-e652dc74bcf8
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 19%
+source-wordcount: '64'
+ht-degree: 17%
 
 ---
-
 
 # 購読解除{#unsubscriptions}
 
@@ -25,4 +22,4 @@ ht-degree: 19%
 
 ![](assets/delivery_reports_unsub.png)
 
-**[!UICONTROL TOP 5 deliveries]**&#x200B;表とグラフには、配信されたメッセージの数が最も多い上位5つの配信と、サブスクライブ解除された受信者の数が表示されます。 ここに示すデータは、メッセージの購読解除リンクのクリック数に基づきます。
+**[!UICONTROL TOP 5 deliveries]**&#x200B;テーブルおよびグラフには、配信されたメッセージの数が最も多く、購読解除された受信者の数が上位5件の配信が表示されます。 ここに示すデータは、メッセージの購読解除リンクのクリック数に基づきます。

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: メッセージ内のオーディエンスの選択
 description: 「E メールのオーディエンスを選択するためのステップバイステップの手順：主なターゲットの母集団とテストプロファイル」
 audience: audiences
@@ -11,9 +9,9 @@ feature: Audiences
 role: User
 level: Intermediate
 exl-id: 239959ad-6386-42bf-a86a-5694cdaecd83
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '411'
 ht-degree: 74%
 
 ---

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: SMS メッセージの作成
 description: Adobe Campaign で単一送信の SMS メッセージを作成するには、次の手順に従います。
 audience: channels
@@ -11,9 +9,9 @@ feature: SMS
 role: User
 level: Beginner
 exl-id: 36442480-c6b6-4b7d-b566-40169a7c8544
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '538'
 ht-degree: 96%
 
 ---
@@ -24,7 +22,7 @@ SMS 配信の作成は、通常の E メールの作成と非常に似ていま�
 
 詳細な SMS パラメーターについて詳しくは、[SMS チャネルの設定](../../administration/using/configuring-sms-channel.md)の節を参照してください。
 
-![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](#video)
+![](assets/do-not-localize/how-to-video.png) [この機能をビデオで確認](#video)
 
 SMS メッセージを作成して携帯電話に送信するには、次のものが必要です。
 

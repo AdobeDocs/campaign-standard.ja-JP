@@ -1,24 +1,22 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Adobe Experience Cloud トリガーについて
 description: Adobe Analytics を使用して特定の顧客行動を追跡することで、Adobe Campaign で顧客にパーソナライズされた E メールを送信できるようになりました。
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 context-tags: trigger,overview;trigger,main
-feature: トリガー
+feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 9dc75d6a-d79a-49aa-a0c0-b1dd6c144ce6
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '473'
 ht-degree: 98%
 
 ---
 
-# Adobe Experience Cloud トリガーについて{#about-adobe-experience-cloud-triggers}
+# Adobe Experience Cloud Triggers について{#about-adobe-experience-cloud-triggers}
 
 Experience Cloud Activation コアサービスである **[!UICONTROL Triggers]** と Adobe Campaign を統合すると、Web サイト上で Adobe Analytics によってトラッキングされている特定の動作に対する反応としてパーソナライズされた E メールを送信できます（15 分以内）。
 

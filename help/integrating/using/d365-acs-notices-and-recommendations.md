@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: CampaignとMicrosoft Dynamics 365のデータ管理
 description: Campaign StandardとMicrosoft Dynamics 365で共通データを管理する方法を説明します
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
-feature: Microsoft CRM統合
+feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: aab6f005-f3da-4c0b-b856-da8504e611dc
-source-git-commit: f28aab2ac295d8a45598f5d76a86e594deeece4a
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '2510'
+source-wordcount: '2507'
 ht-degree: 1%
 
 ---

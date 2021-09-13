@@ -1,28 +1,25 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 購読の実行
-description: APIを使用した購読の実行方法を説明します。
+description: APIを使用してサブスクリプションを実行する方法を説明します。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 64f321a3-436a-4b7c-99d8-0c006203012e
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '112'
 ht-degree: 0%
 
 ---
 
+# 購読の実行 {#performing-subscriptions}
 
-# 購読を実行中{#performing-subscriptions}
+## 方法1:プロファイルのサービスへの購読登録
 
-## 方法1:プロファイルのサービスへの登録
-
-GETリクエストを実行してプロファイルを取得します。
+GETリクエストを実行して、プロファイルを取得します。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -46,7 +43,7 @@ GETリクエストを実行してプロファイルを取得します。
   }
 ```
 
-購読URLに対して、ペイロード内の目的のサービスプライマリキーを使用してPOSTリクエストを実行します。
+ペイロード内の目的のサービスPOSTキーを使用して、サブスクリプションURLに対してプライマリリクエストを実行します。
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \
@@ -58,7 +55,7 @@ GETリクエストを実行してプロファイルを取得します。
 -d '{"service":{"PKey":"<PKEY>"}}'
 ```
 
-サービスノードが完了した、更新されたプロファイルを返します。
+サービスノードが完了した更新済みプロファイルを返します。
 
 ```
 {
@@ -73,9 +70,9 @@ GETリクエストを実行してプロファイルを取得します。
 }
 ```
 
-## 方法2:サービスのサブスクライバにプロファイルを追加する
+## 方法2:サービス購読者へのプロファイルの追加
 
-GET要求を実行して、サービスを取得します。
+サービスを取得するGETリクエストを実行します。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY> \
@@ -99,7 +96,7 @@ GET要求を実行して、サービスを取得します。
   },
 ```
 
-購読URLに対して、ペイロード内の目的のプロファイルプライマリキーを使用してPOSTリクエストを行います。
+ペイロード内の目的のPOSTプロファイルキーを使用して、購読URLのプライマリリクエストをおこないます。
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign//profileAndServices/service/<PKEY>/subscriptions/ \
@@ -111,7 +108,7 @@ GET要求を実行して、サービスを取得します。
 -d '{"subscriber":{"PKey":"<PKEY>"}}'
 ```
 
-サブスクライバーノードが完了した、更新されたサービスを返します。
+購読者ノードが完了した更新されたサービスを返します。
 
 ```
 {

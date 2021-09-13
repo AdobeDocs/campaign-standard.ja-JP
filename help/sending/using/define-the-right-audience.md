@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 適切なオーディエンスの定義
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: 「コンテンツの準備が整ったら、メッセージの受信者を慎重に定義する方法を学びます。」
-feature: 配信品質
+feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 1e06fd9d-e850-4856-8f7b-b581dbe157df
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '516'
 ht-degree: 75%
 
 ---
@@ -56,7 +54,7 @@ ht-degree: 75%
 
 [コントロール母集団](../../sending/using/control-group.md)を使用して、キャンペーンのオーディエンスの一部を除外することで、キャンペーンの影響を測定できます。 その後、メッセージを受け取ったターゲット母集団の行動と、ターゲット設定されていない連絡先の行動を比較できます。送信ログに基づいて、今後のキャンペーンでコントロール母集団をターゲットすることもできます。
 
-## 重複したアドレス {#deduplicate-addresses}
+## アドレスの重複排除 {#deduplicate-addresses}
 
 重複した E メールアドレスがあると、ターゲットに影響する可能性があるので、E メールアドレスの重複を回避することが重要です。
 

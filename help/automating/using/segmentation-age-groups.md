@@ -1,8 +1,6 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: 年齢層別のセグメント化
-description: このページでは、データベースプロファイルの年齢グループに基づくセグメント化を示します。 このワークフローの目的は、各年齢グループに対して特定の E メールを送信することです。
+title: 年齢層によるセグメント化
+description: このページでは、年齢グループに応じたデータベースプロファイルのセグメント化を示します。 このワークフローの目的は、各年齢グループに対して特定の E メールを送信することです。
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -10,16 +8,15 @@ context-tags: segmentation,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: dab7ef86-4776-48f4-be9a-37de316e0dd9
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '198'
 ht-degree: 66%
 
 ---
 
-
-# 年齢層別のセグメント化 {#segmentation-age-groups}
+# 年齢層によるセグメント化 {#segmentation-age-groups}
 
 次の例は、年齢グループに基づくデータベースプロファイルのセグメント化を示しています。
 
@@ -30,8 +27,8 @@ ht-degree: 66%
 ワークフローは、次の要素で構成されています。
 
 * ワークフローの実行日を指定する[スケジューラーアクティビティ](../../automating/using/segmentation.md)。
-* 誕生日と電子メールアドレスが入力された人のターゲットプロファイルに対する[クエリ](../../automating/using/query.md)アクティビティ。
-* [セグメント化](../../automating/using/segmentation.md)アクティビティを使用して、異なるアウトバウンドトランジションに分割された3つのセグメントを作成します。18-25歳、26-32歳、32歳以上のプロファイル。 セグメントは、次のパラメーターに従って定義されます。
+* 誕生日とEメールアドレスが入力されたユーザーのプロファイルをターゲットにする[クエリ](../../automating/using/query.md)アクティビティ。
+* [セグメント化](../../automating/using/segmentation.md)アクティビティを使用して、異なるアウトバウンドトランジションに分割された3つのセグメントを作成します。18-25-year歳、26-32-year歳、32歳を超えるプロファイル。 セグメントは、次のパラメーターに従って定義されます。
 
    ![](assets/wkf_segment_example_3.png)
 
@@ -43,4 +40,4 @@ ht-degree: 66%
 
       ![](assets/wkf_segment_example_1.png)
 
-* セグメントごとの[電子メール配信](../../automating/using/email-delivery.md)アクティビティ。
+* セグメントごとの[Eメール配信](../../automating/using/email-delivery.md)アクティビティ。

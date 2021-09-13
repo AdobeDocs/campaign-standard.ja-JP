@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: AND-join
 description: 「AND-join」アクティビティを使用すると、ワークフローの複数の実行分岐を同期できます。
 audience: automating
@@ -10,16 +8,15 @@ context-tags: andjoin,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: b03c6df3-0104-4900-9468-46824d62e0a6
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 98%
+source-wordcount: '178'
+ht-degree: 100%
 
 ---
 
-
-# AND-join{#and-join}
+# AND 結合{#and-join}
 
 ## 説明 {#description}
 
@@ -27,7 +24,7 @@ ht-degree: 98%
 
 「**[!UICONTROL AND-join]**」アクティビティを使用すると、ワークフローの複数の実行分岐を同期できます。
 
-## 使用状況{#context-of-use}
+## 使用状況 {#context-of-use}
 
 「**[!UICONTROL AND-join]**」アクティビティは、すべてのインバウンドトランジションが有効化された（つまり、前のアクティビティがすべて終了した）ときにのみ、アウトバウンドトランジションをトリガーします。
 
@@ -45,4 +42,3 @@ ht-degree: 98%
 次の例は、ワークフローの 2 つの分岐が「**[!UICONTROL AND-join]**」アクティビティと結合される前の状態を示しています。ファイルの抽出は、「**[!UICONTROL AND-join]**」アクティビティの 3 つのインバウンドトランジションが有効な場合にのみ実行できます。
 
 ![](assets/wkf_and-join_example.png)
-

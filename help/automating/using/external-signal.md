@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 外部シグナル
 description: 「外部シグナル」アクティビティは、別のワークフロー内で特定の条件が満足された場合にワークフローの実行をトリガーします。
 audience: automating
@@ -10,14 +8,13 @@ context-tags: signal,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: a4fbd6b5-7cfb-44ad-bf3a-f3aabc122b77
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 95%
+source-wordcount: '600'
+ht-degree: 96%
 
 ---
-
 
 # 外部シグナル{#external-signal}
 
@@ -43,8 +40,8 @@ ht-degree: 95%
 
 **関連トピック**
 
-* [使用例：外部信号のアクティビティとデータのインポート](../../automating/using/external-signal-data-import.md)。
-* [使用例：外部パラメーターを使用してファイルからオーディエンスを作成するためのワークフローの呼び出し](../../automating/using/use-case-calling-workflow.md)
+* [使用例：外部シグナルのアクティビティとデータのインポート](../../automating/using/external-signal-data-import.md)を参照してください。
+* [使用例：外部パラメーターを使用したファイルからオーディエンスを作成するためのワークフローの呼び出し](../../automating/using/use-case-calling-workflow.md)
 
 ## 設定 {#configuration}
 
@@ -54,7 +51,7 @@ ht-degree: 95%
 1. アクティビティを選択し、表示されるクイックアクションの ![](assets/edit_darkgrey-24px.png) ボタンを使用して開きます。
 1. アクティビティのラベルを編集します。このラベルは、「**[!UICONTROL External signal]**」をトリガーするソースワークフローを設定するときに必要になります。
 
-   パラメーターを指定してワークフローを呼び出す場合は、「**[!UICONTROL Parameters]**」エリアを使用してパラメーターを宣言します。詳しくは、[こちらのページ](../../automating/using/declaring-parameters-external-signal.md)を参照してください。
+   パラメーターを指定してワークフローを呼び出す場合は、「**[!UICONTROL Parameters]**」エリアを使用してパラメーターを宣言します。詳しくは、[このページ](../../automating/using/declaring-parameters-external-signal.md)を参照してください。
 
    ![](assets/external_signal_configuration.png)
 
@@ -76,7 +73,7 @@ ht-degree: 95%
 
    別のワークフローをトリガーする「**[!UICONTROL End]**」アクティビティを設定すると、そのアイコンにシグナルシンボルが追加されます。
 
-   パラメーターを指定してワークフローを呼び出す場合は、「**[!UICONTROL Parameters and values]**」エリアを使用します。詳しくは、[こちらのページ](../../automating/using/defining-parameters-calling-workflow.md)を参照してください。
+   パラメーターを指定してワークフローを呼び出す場合は、「**[!UICONTROL Parameters and values]**」エリアを使用します。詳しくは、[このページ](../../automating/using/defining-parameters-calling-workflow.md)を参照してください。
 
    ![](assets/external_signal_end.png)
 

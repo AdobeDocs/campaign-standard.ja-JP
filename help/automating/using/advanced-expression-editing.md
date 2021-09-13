@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 高度な式の編集
 description: クエリ編集ウィザードでは、高度な式を定義できます。
 audience: automating
@@ -10,14 +8,13 @@ context-tags: queryFilter,overview;audience,main
 feature: Workflows
 role: Data Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: f11754fb-188e-4cae-bd5b-0dfbf74befb3
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1096'
+source-wordcount: '1092'
 ht-degree: 98%
 
 ---
-
 
 # 高度な式の編集{#advanced-expression-editing}
 
@@ -96,7 +93,7 @@ Year(@created) = Year(GetDate()) AND Month(@created) = Month(GetDate())
 
 この例では、作成日が現在の月と年に該当するプロファイルがターゲットになります。
 
-### JavaScript 構文{#javascript-syntax}
+### JavaScript 構文 {#javascript-syntax}
 
 HTML コンテンツエディターでテキストタイプのブロックの表示条件を定義する場合は、JavaScript タイプ構文に従った式を使用する必要があります。
 
@@ -213,4 +210,3 @@ context.profile.age > 21 && context.profile.firstName.length() > 0
   </tr> 
  </tbody> 
 </table>
-

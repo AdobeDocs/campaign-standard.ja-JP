@@ -1,23 +1,21 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: エクスペリエンスデータモデルの概要
 description: エクスペリエンスデータモデル(XDM)は、Adobe Experience Platformのソリューションや製品で使用するためにデータを取り込むことのできる、標準的なデータスキーマセットです。
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Microsoft CRM統合
+feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: cc1aa669-30cd-4ea4-9fab-4d1b6c373744
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
 
-# エクスペリエンスデータモデルの概要{#experience-data-model-overview}
+# エクスペリエンスデータモデルの概要 {#experience-data-model-overview}
 
 >[!IMPORTANT]
 >
@@ -27,7 +25,7 @@ ht-degree: 0%
 
 XDMスキーマの作成と管理は、専用のAPIまたはXDMユーザーインターフェイスで利用できます。
 
-## XDMワークスペース{#xdm-workspace}
+## XDMワークスペース {#xdm-workspace}
 
 XDM Workspaceは、データスキーマを表示、作成および拡張する機能を備えています。
 

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 紐付けを使用したデータの更新
 description: 次の例は、新しいクライアントを含むインポート済みのファイルから直接プロファイルのオーディエンスを作成するワークフローを示しています。
 audience: automating
@@ -10,14 +8,13 @@ context-tags: reconciliation,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: cfca6202-791d-4baf-b5ed-677d2480cf06
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '132'
+source-wordcount: '128'
 ht-degree: 67%
 
 ---
-
 
 # 紐付けを使用したデータの更新 {#data-update-reconciliation}
 
@@ -25,7 +22,7 @@ ht-degree: 67%
 
 ![](assets/identification_example2.png)
 
-* [読み込むファイル](../../automating/using/load-file.md)アクティビティ。読み込むファイルのデータを読み込んで検出します。 インポートされたファイルには、次のデータが含まれています。
+* [ファイルの読み込み](../../automating/using/load-file.md)アクティビティ。読み込むファイルのデータを読み込んで検出します。 インポートされたファイルには、次のデータが含まれています。
 
    ```
    lastname;firstname;email;dateofbirth
@@ -40,10 +37,10 @@ ht-degree: 67%
    tycoon;tyreese;tyreese_t@testmail.net;10/08/1971
    ```
 
-* [調整](../../automating/using/reconciliation.md)アクティビティ。ロードされたファイルの各列をプロファイル次元の列にリンクします。 識別できないファイルレコード（データが見つからない、互換性のないデータタイプなど）は無視され、最終的なオーディエンスデータの整合性が維持されます。
+* [紐付け](../../automating/using/reconciliation.md)アクティビティ。読み込まれたファイルの各列をプロファイルディメンション列にリンクします。 識別できないファイルレコード（データが見つからない、互換性のないデータタイプなど）は無視され、最終的なオーディエンスデータの整合性が維持されます。
 
    ![](assets/identification_example1.png)
 
-* [保存オーディエンス](../../automating/using/save-audience.md)アクティビティ。プロファイルのオーディエンスを保存します。
+* プロファイルのオーディエンスを保存する[オーディエンスを保存](../../automating/using/save-audience.md)アクティビティ。
 
    ![](assets/identification_example3.png)

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: エンリッチメント
 description: 「エンリッチメント」アクティビティは、ワークフローで処理する追加のデータを定義できる高度なアクティビティです。
 audience: automating
@@ -10,18 +8,17 @@ context-tags: enrichment,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: c8af67b0-6789-4b4e-9d01-e2dfa14f1e8f
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '541'
 ht-degree: 96%
 
 ---
 
-
 # エンリッチメント{#enrichment}
 
-## 説明{#description}
+## 説明 {#description}
 
 ![](assets/enrichment.png)
 
@@ -37,8 +34,8 @@ ht-degree: 96%
 
 **関連トピック**
 
-* [使用例：プロファイルデータをファイルに含まれるデータで富化します](../../automating/using/enriching-profile-data-file.md)。
-* [使用例：強化されたフィールドを含む電子メールの送信](../../automating/using/sending-email-enriched-fields.md)
+* [使用例：ファイルに含まれるデータを使用したプロファイルデータのエンリッチメント](../../automating/using/enriching-profile-data-file.md)を参照してください。
+* [使用例：フィールドがエンリッチメントされたEメールの送信](../../automating/using/sending-email-enriched-fields.md)
 
 ## 設定 {#configuration}
 

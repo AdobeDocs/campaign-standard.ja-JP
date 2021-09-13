@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: ドキュメントのアップデート
 description: Adobe Campaign Standard ドキュメントのすべての最新アップデートについて説明します。
 audience: rn
@@ -10,7 +8,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: b80e09a141aa0725533ceda07330699b5667d301
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '6954'
 ht-degree: 98%
@@ -186,7 +184,7 @@ Campaign Standard の監視に関するガイドラインを含む新しい節�
 
 Campaign Standard のプライバシー管理ページが更新され、プライバシーコアサービスの統合を通じてプライバシーリクエストを管理する方法が明確になりました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)
 
-AI を利用した新しい E メール機能（送信時間の最適化とプロファイルスコアリング）が導入されました。[詳細を表示](../../sending/using/predictive.md)
+AI を利用した新しい E メール機能（送信時間の最適化とプロファイルスコアリング）が導入されました。[詳細情報](../../sending/using/predictive.md)
 
 ## 2020 年 6 月 {#doc-updates-june-2020}
 

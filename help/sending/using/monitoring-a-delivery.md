@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Adobe Campaign Standard での配信の監視
 description: Adobe Campaign Standard で配信を監視する方法について説明します。
 audience: sending
 content-type: reference
 topic-tags: monitoring-messages
 context-tags: delivery,main
-feature: パフォーマンス監視
+feature: Performance Monitoring
 role: User
 level: Beginner
 exl-id: ddc92077-df73-411d-a161-3263581e6945
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '461'
 ht-degree: 86%
 
 ---

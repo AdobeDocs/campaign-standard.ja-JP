@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: タイムライン
 description: Adobe Campaign Standard インターフェイスを使用して、進行中のプログラムとそのコンテンツを視覚化する方法について説明します。
 audience: start
 content-type: reference
 topic-tags: marketing-plans
 context-tags: campaignCalendar,main
-feature: キャンペーン
+feature: Campaigns
 role: User
 level: Beginner
 exl-id: d012e2e7-8022-4bfe-8290-3c512b60d9cf
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '372'
 ht-degree: 91%
 
 ---

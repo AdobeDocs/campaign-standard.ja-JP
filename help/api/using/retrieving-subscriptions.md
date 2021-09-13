@@ -1,41 +1,38 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: サブスクリプションの取得
-description: APIを使用して購読を取得する方法を説明します。
+title: 購読の取得
+description: APIを使用してサブスクリプションを取得する方法を説明します。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 6d935074-3196-45c5-97cd-ccb7c80bbba8
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '196'
 ht-degree: 2%
 
 ---
 
+# 購読の取得 {#retrieving-subscriptions}
 
-# サブスクリプションの取得 {#retrieving-subscriptions}
+## サービスを購読しているプロファイルの取得
 
-## サービスをサブスクライブしているプロファイルの取得
-
-これは2つの手順から成る手順です。
+これは2つの手順で構成される手順です。
 
 1. 目的のサービスの購読URLを取得します。
-1. 購読URLでGETリクエストを実行します。 サービスの購読のリストと、関連する各プロファイルを返します。
+1. 購読URLでGETリクエストを実行します。 サービスの購読のリストと、関連付けられた各プロファイルを返します。
 
 >[!CAUTION]
 >
->REST APIは、使用するURLを含む「href」プロパティを返します。 <b>後続のAPIリクエストを行う場合は、レスポンスに含まれるURLを必ず使用してください</b>。
+>REST APIは、使用するURLを含む「href」プロパティを返します。 <b>後続のAPIリクエストをおこなうには、必ず応答に含まれるURLを使用します</b>。
 
 <br/>
 
-***サンプルリクエスト***
+***リクエストのサンプル***
 
-GET要求を実行して、サービスを取得します。
+サービスを取得するGETリクエストを実行します。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY> \
@@ -69,7 +66,7 @@ GET要求を実行して、サービスを取得します。
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-サービスの購読のリストが、関連付けられた各プロファイルと共に表示されます。
+サービスの購読のリストと、関連付けられた各プロファイルが表示されます。
 
 ```
   {
@@ -86,18 +83,18 @@ GET要求を実行して、サービスを取得します。
   }
 ```
 
-## プロファイルがサブスクライブしたサービスの取得
+## プロファイルが購読登録したサービスの取得
 
-これは2つの手順から成る手順です。
+これは2つの手順で構成される手順です。
 
 1. 特定のプロファイルの購読URLを取得します。
-1. URLでGETリクエストを実行します。 関連付けられた各サービスと共に、プロファイルの購読のリストを返します。
+1. URLでGETリクエストを実行します。 プロファイルの購読のリストと、関連付けられた各サービスを返します。
 
 <br/>
 
-***サンプルリクエスト***
+***リクエストのサンプル***
 
-GETリクエストを実行してプロファイルを取得します。
+GETリクエストを実行して、プロファイルを取得します。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -131,7 +128,7 @@ GETリクエストを実行してプロファイルを取得します。
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-プロファイルが登録したサービスのリストを返します。
+プロファイルが購読したサービスのリストを返します。
 
 ```
   {

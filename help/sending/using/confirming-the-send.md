@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 送信の確認
 description: メッセージの準備を完了する方法について説明します。
 audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
 context-tags: delivery,deployment,back
-feature: パフォーマンス監視
+feature: Performance Monitoring
 role: User
 level: Intermediate
 exl-id: 0a0fe969-cdfd-4b0c-a746-081038424d86
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '944'
+source-wordcount: '942'
 ht-degree: 43%
 
 ---
@@ -98,7 +96,7 @@ KPIの更新に時間がかかりすぎる場合、または送信ログの結�
 
 したがって、有効期間が終わるまで待って、最終的な&#x200B;**[!UICONTROL Delivered]**&#x200B;の割合と、**[!UICONTROL Sent]**&#x200B;および&#x200B;**[!UICONTROL Failed]**&#x200B;メッセージの最終値を確認する必要があります。
 
-### E メールフィードバックサービス（ベータ版）  {#email-feedback-service}
+### E メールフィードバックサービス（ベータ版） {#email-feedback-service}
 
 E メールフィードバックサービス（EFS）機能を使用すると、フィードバックが Enhanced MTA（メッセージ転送エージェント）から直接取り込まれるので、各 E メールのステータスが正確にレポートされます。
 

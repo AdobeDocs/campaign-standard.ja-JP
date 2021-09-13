@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: '"手順 3：拡張機能の確認"'
+title: '"手順 3：拡張機能を確認する"'
 description: Rest APIを使用して拡張フィールドにアクセスする方法を説明します。
 audience: developing
 content-type: reference
@@ -9,26 +7,24 @@ topic-tags: use-case--extending-the-api
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 34cb416c-ee3d-4b7c-a75b-640432db320d
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 15%
+source-wordcount: '59'
+ht-degree: 13%
 
 ---
 
+# 手順 3：拡張機能を確認する{#step-verify-the-extension}
 
-# 手順 3：拡張機能の確認{#step-verify-the-extension}
-
-1. プロファイル&amp;サービス拡張APIのメタデータに対してGET操作を行い、プロファイルのカスタムリソースに追加されたフィールドが現在使用可能かどうかを確認します。
+1. Profiles &amp; Services拡張APIのメタデータに対してGET操作を実行し、Profilesカスタムリソースに追加されたフィールドが使用可能になったかどうかを確認します。
 
    ```
    GET profileAndServicesExt/resourceType/profile
    ```
 
-1. 次の値が返されます。
+1. 次の値を返します。
 
    ![](assets/extendpandsapiview.png)
 
-   このフィールドは、さらなる開発や統合に使用できます。
-
+   「 」フィールドをさらに開発および統合できるようになりました。

@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: プロセスとデータ管理の概要
 description: ワークフローを使用すれば、データおよびオーディエンスの管理やメッセージの送信などのプロセスを自動化できます。
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
-feature: ワークフロー
+feature: Workflows
 role: Data Architect
 level: Beginner
 exl-id: 26be942a-c252-458f-a590-eb235567ca67
-source-git-commit: 7808aea42f417994a61fdde84a44299c0954b346
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '517'
 ht-degree: 41%
 
 ---
@@ -21,7 +19,7 @@ ht-degree: 41%
 
 <table>
 <tr>
-<td><img src="assets/do-not-localize/icon_workflows.svg" width="60px"><p><a href="#workflow-activities">ワークフローアクティビティ</a></p></td><td><img src="assets/do-not-localize/icon_activities.svg" width="60px"><p><a href="../../automating/using/workflow-created-query-with-complement.md">ユースケース</a></p></td><td><img src="assets/do-not-localize/icon_filter.svg" width="60px"><p><a href="#filter-data">データのフィルタリング</a></p></td>
+<td><img src="assets/do-not-localize/icon_workflows.svg" width="60px"><p><a href="#workflow-activities">ワークフローアクティビティ</a></p></td><td><img src="assets/do-not-localize/icon_activities.svg" width="60px"><p><a href="../../automating/using/workflow-created-query-with-complement.md">使用例</a></p></td><td><img src="assets/do-not-localize/icon_filter.svg" width="60px"><p><a href="#filter-data">データのフィルタリング</a></p></td>
 <td><img src="assets/do-not-localize/icon_manage.svg" width="60px"><p><a href="#import-export-data">データのインポート/エクスポート</a></p></td></tr>
 </table>
 
@@ -68,7 +66,7 @@ Adobe Campaign は、セグメント化、キャンペーン実行、ファイ�
 * [高度な式の編集](../../automating/using/advanced-expression-editing.md)
 * [関数のリスト](../../automating/using/list-of-functions.md)
 
-## データのインポート/エクスポート{#import-export-data}
+## データのインポート/エクスポート {#import-export-data}
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 
@@ -87,10 +85,10 @@ Campaign Standardには、データのインポートおよびエクスポート
 詳しくは、以下を参照してください。
 
 * [データのインポートおよびエクスポート](../../automating/using/about-data-import-and-export.md)
-* [使用例：カスタムリソースのエクスポート／インポート](../../automating/using/exporting-importing-custom-resources.md)
+* [ユースケース：カスタムリソースのエクスポート／インポート](../../automating/using/exporting-importing-custom-resources.md)
 
 ## その他のリソース
 
 * [プロセスとデータ管理のチュートリアルビデオ](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/managing-processes-and-data/creating-a-workflow.html?lang=ja)
 * [テクニカルワークフロー](../../administration/using/technical-workflows.md)
-* [Campaign Standard データモデルの概要](../../developing/using/get-started-data-model.md)
+* [Campaign Standard データモデルの基本を学ぶ](../../developing/using/get-started-data-model.md)

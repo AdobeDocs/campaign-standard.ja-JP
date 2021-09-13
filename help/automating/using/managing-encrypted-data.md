@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 暗号化されたデータの管理
 description: 暗号化されたデータを管理する方法を説明します。
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
-feature: ワークフロー
+feature: Workflows
 role: Data Architect
 level: Experienced
 exl-id: 1df1552a-6578-47eb-ba14-fb91cd2a3999
-source-git-commit: 05e7de6d59420f532e0095ddb1fd7f158519518b
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 41%
+source-wordcount: '924'
+ht-degree: 42%
 
 ---
 
@@ -40,8 +38,8 @@ Campaign コントロールパネルを使用する資格がない場合は、Ad
 
 **関連トピック：**
 
-* [ファイル読み込み](../../automating/using/load-file.md)
-* [ファイル抽出](../../automating/using/extract-file.md)
+* [ファイルを読み込み](../../automating/using/load-file.md)
+* [ファイルを抽出](../../automating/using/extract-file.md)
 
 ## ユースケース：コントロールパネルで生成されたキーを使用して暗号化されたデータのインポート {#use-case-gpg-decrypt}
 
@@ -51,7 +49,7 @@ Campaign コントロールパネルを使用する資格がない場合は、Ad
 
 このユースケースを実行する手順は次のとおりです。
 
-1. Campaign コントロールパネルを使用して、キーペア（公開鍵と秘密鍵）を生成します。詳細な手順については、[Campaign コントロールパネルのドキュメント](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html#decrypting-data)を参照してください。
+1. Campaign コントロールパネルを使用して、キーペア（公開鍵と秘密鍵）を生成します。詳細な手順については、[Campaign コントロールパネルのドキュメント](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=ja#decrypting-data)を参照してください。
 
    * 公開鍵は外部システムと共有され、外部システムはこのキーを使用して Campaign に送信するデータを暗号化します。
    * 秘密鍵は、受信する暗号化されたデータを復号化するために Campaign で使用されます。
@@ -107,7 +105,7 @@ Campaign コントロールパネルを使用する資格がない場合は、Ad
    * **[!UICONTROL Extract file]** アクティビティ：データを暗号化してファイルに抽出します。
    * **[!UICONTROL Transfer file]** アクティビティ：暗号化されたデータを含むファイルをSFTPサーバーに転送します。
 
-1. **[!UICONTROL Query]**&#x200B;アクティビティを設定し、データベースから目的のデータをターゲットにします。 詳細については、[このセクション](../../automating/using/query.md)を参照してください。
+1. **[!UICONTROL Query]**&#x200B;アクティビティを設定し、データベースから目的のデータをターゲットにします。 詳しくは、[この節](../../automating/using/query.md)を参照してください。
 
 1. **[!UICONTROL Extract file]**&#x200B;アクティビティを開き、必要に応じて設定します（出力ファイル、列、形式など）。 アクティビティの設定方法に関するグローバルな概念については、[こちら](../../automating/using/extract-file.md)を参照してください。
 
@@ -125,7 +123,7 @@ Campaign コントロールパネルを使用する資格がない場合は、Ad
 
 1. これで、ワークフローを開始できます。ワークフローを実行すると、クエリで選択された対象データが、暗号化された .gpg ファイルにエクスポートされ、SFTP サーバーに転送されます。
 
-## チュートリアル動画 {#video}
+## チュートリアルビデオ {#video}
 
 このビデオでは、GPG キーを使用してデータを復号化する方法を紹介します。
 

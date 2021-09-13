@@ -1,8 +1,6 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: クエリのサンプル
-description: この節では、クエリアクティビティを使用する場合の使用例を示します。
+description: この節では、クエリアクティビティを使用する際の使用例を示します。
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -10,18 +8,17 @@ context-tags: query,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 0a71e3a7-60e6-49ec-af2e-099ad0d69a15
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '334'
 ht-degree: 90%
 
 ---
 
-
 # クエリのサンプル {#query-samples}
 
-この節では、**[!UICONTROL Query]**&#x200B;アクティビティを使用する場合の使用例を示します。 **[!UICONTROL Query]**&#x200B;アクティビティの使い方の詳細については、[この](../../automating/using/query.md)を参照してください。
+この節では、**[!UICONTROL Query]**&#x200B;アクティビティを使用する場合の使用例を示します。 **[!UICONTROL Query]**&#x200B;アクティビティの使用方法について詳しくは、[この節](../../automating/using/query.md)を参照してください。
 
 ## シンプルなプロファイルの属性のターゲティング {#targeting-on-simple-profile-attributes}
 

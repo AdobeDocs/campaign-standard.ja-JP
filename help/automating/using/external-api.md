@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 外部 API
 description: 「外部API」アクティビティは、HTTP API呼び出しを介して、外部システムからCampaign Standardワークフローにデータを取り込みます。
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: externalAPI,workflow,main
-feature: ワークフロー
+feature: Workflows
 role: Data Architect
 level: Experienced
 exl-id: 44ad654e-bde9-4189-8765-0479d81dc0f7
-source-git-commit: d3482dfad245807aedee6deb36fd67e43c7a66b9
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '2201'
+source-wordcount: '2200'
 ht-degree: 94%
 
 ---

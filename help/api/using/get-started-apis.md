@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Campaign Standard API の概要
 description: Campaign にテクノロジーのパネルを搭載することで、統合を作成し、独自のエコシステムを構築します。
 audience: developing
@@ -9,16 +7,15 @@ topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: c6968252-a012-4029-bbb8-66f4f693e99b
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 98%
+source-wordcount: '233'
+ht-degree: 100%
 
 ---
 
-
-# Campaign Standard API の概要 {#get-started-apis}
+# Campaign Standard API の基本を学ぶ {#get-started-apis}
 
 Campaign Standard API は、Adobe Campaign Standard 向けの&#x200B;**統合を実現**&#x200B;し、Adobe Campaign Standard と使用するテクノロジーのパネルを連携させて&#x200B;**独自のエコシステムを構築**&#x200B;することを目的としています。
 

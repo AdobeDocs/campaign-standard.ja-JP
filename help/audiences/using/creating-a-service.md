@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: サービスの作成
 description: 最初のサービスを作成し、登録者に確認メールを送信するように設定する方法を説明します。
 audience: audiences
@@ -11,9 +9,9 @@ feature: Audiences
 role: User
 level: Beginner
 exl-id: 6f42251e-75da-4707-a855-6ba9a86256c9
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '440'
 ht-degree: 95%
 
 ---
@@ -22,7 +20,7 @@ ht-degree: 95%
 
 サブスクリプションを管理するには、まずサービスを作成し、設定する必要があります。新しいサービスを設定すると、プロファイルがサービスを登録または登録解除する際に受け取る電子メール確認を指定できます。また、サービスにリンクされている購読と購読解除のランディングページも定義します。例えば、電子メールにサービスサブスクリプションリンクを挿入すると、サービスで指定されたサブスクリプションランディングページにプロファイルが自動的に誘導されます。
 
-![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](#video)
+![](assets/do-not-localize/how-to-video.png) [この機能をビデオで確認](#video)
 
 サービスを設定するには、次の手順に従います。
 

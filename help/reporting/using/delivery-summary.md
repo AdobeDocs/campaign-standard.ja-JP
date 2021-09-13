@@ -1,8 +1,6 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 配信の概要
-description: すぐに使用できる配信サマリレポートを使用して、送信数、バウンス数、開数など、配信の統計情報を確認します。
+description: 配信の概要レポートを標準で使用して、送信数、バウンス数、開封数などの配信の統計を確認します。
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
@@ -10,34 +8,33 @@ context-tags: deliveryCirculationReport,main;campaignCirculationReport,main;prog
 feature: Reporting
 role: Leader
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: d6ddc022-16ad-438b-8c6e-fc6abc704f09
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 2%
+source-wordcount: '218'
+ht-degree: 1%
 
 ---
 
-
 # 配信の概要{#delivery-summary}
 
-**[!UICONTROL Delivery summary]**&#x200B;レポートは、メイン情報を電子メールまたは複数の電子メールに関連付けて詳細に表示します。
+**[!UICONTROL Delivery summary]**&#x200B;レポートには、1件のEメールまたは複数のEメールに関する主な情報の詳細が表示されます。
 
 ![](assets/campaign_reports_1.png)
 
-各表は、数値の概要とグラフで表されます。 各ビジュアライゼーション設定での詳細の表示方法を変更できます。
+各テーブルは、概要の数値とグラフで表されます。 各ビジュアライゼーション設定での詳細の表示方法を変更できます。
 
-**配信統計**&#x200B;テーブルには、次のような送信済み電子メールに使用できるデータが含まれます。
+**配信統計**&#x200B;テーブルには、次のような送信Eメールで使用可能なデータが格納されます。
 
-* **[!UICONTROL Processed/sent]**:配信の送信の合計数です。
-* **[!UICONTROL Delivered]**:送信されたメッセージの合計数に関連して、正常に送信されたメッセージの数。発生したエラー（バウンス）が考慮されます。 しかし、苦情（スパム申告）や「不在」などの不在メッセージは考慮されません。
-* **[!UICONTROL Bounces + Errors]**:配信および自動返信処理中に発生したエラーの合計数で、送信されたメッセージの合計数に関連して計算されたエラーの合計数。
+* **[!UICONTROL Processed/sent]**:配信の送信の合計数。
+* **[!UICONTROL Delivered]**:送信されたメッセージの合計数に関する、正常に送信されたメッセージ数。発生したエラー（バウンス）が考慮されます。 ただし、苦情（スパム宣言）や「不在」などの離脱メッセージは考慮されません。
+* **[!UICONTROL Bounces + Errors]**:送信されたメッセージの合計数に関する、配信および自動返信処理中に累積したエラーの合計数。
 
-**開いてクリック**&#x200B;テーブルには、次のような各配信の受信者アクティビティに使用できるデータが含まれています。
+**開封してクリック**&#x200B;テーブルには、次のような各配信の受信者アクティビティで使用可能なデータが格納されます。
 
-* **クリック**:配信内でコンテンツがクリックされた回数。
-* **開く**:配信でメッセージが開かれた回数。
-* **個別オープン**:配信を開いた受信者の数。
+* ****&#x200B;をクリックします。配信でコンテンツがクリックされた回数。
+* ****&#x200B;を開きます。配信でメッセージが開封された回数。
+* **ユニーク開封数**:配信を開封した受信者の数。
 * **個別クリック数**:配信内のコンテンツをクリックした受信者の数。
 
-**ドメイン再パーティション**&#x200B;テーブルには、受信者のドメインに従った配信のステータスが表示されます。
+**ドメインの再パーティション**&#x200B;テーブルには、受信者のドメインに応じた配信ステータスが表示されます。

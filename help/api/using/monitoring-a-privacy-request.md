@@ -1,32 +1,29 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: プライバシーリクエストの監視
-description: APIを使用してプライバシーリクエストを監視する方法について説明します。
+description: APIを使用してプライバシーリクエストを監視する方法を説明します
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 63864f0f-2c22-4a65-86ae-21897031f30a
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: '54'
 ht-degree: 25%
 
 ---
-
 
 # プライバシーリクエストの監視 {#monitoring-a-privacy-request}
 
 **GET**&#x200B;リクエストを使用して、作成したプライバシーリクエストに関する情報を監視できます。
 
-ステータスリストの説明は、[プライバシー管理ドキュメント](https://helpx.adobe.com/jp/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)で確認できます。
+ステータスリストの説明は、プライバシー管理に関するドキュメント[に記載されています。](https://helpx.adobe.com/jp/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)
 
 <br/>
 
-***サンプルリクエスト***
+***リクエストのサンプル***
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/privacy/privacyTool \

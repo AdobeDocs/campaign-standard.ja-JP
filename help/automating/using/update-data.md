@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: データ更新
 description: 「データ更新」アクティビティを使用すると、データベース内のフィールドに対して一括更新を実行できます。
 audience: automating
@@ -10,16 +8,15 @@ context-tags: writer,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: d362563f-5ab3-4f7f-ae9f-a42b6f0bb2b9
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 97%
+source-wordcount: '472'
+ht-degree: 98%
 
 ---
 
-
-# データ更新{#update-data}
+# データを更新{#update-data}
 
 ## 説明 {#description}
 

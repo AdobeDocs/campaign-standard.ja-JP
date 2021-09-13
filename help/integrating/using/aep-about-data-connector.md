@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Adobe Experience Platform Data Connector について
 description: XDMスキーマを管理して、Adobe Experience PlatformでCampaign Standardデータを利用できるようにします。
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
-feature: Microsoft CRM統合
+feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: f4fcf256-e030-4d7b-b4b7-2448acc2ae1c
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '774'
+source-wordcount: '771'
 ht-degree: 5%
 
 ---
@@ -31,7 +29,7 @@ Adobe Experience Platform Data Connectorは、Adobe Campaign Standardのカス�
 
 次の節では、Adobe Experience PlatformとCampaign Standardの間でデータマッピングを実行するための主な手順について説明します。 まず、XDMスキーマとデータセットの作成から始めます。
 
-![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](#video)
+![](assets/do-not-localize/how-to-video.png) [この機能をビデオで確認](#video)
 
 >[!NOTE]
 >Adobe Experience Platform Data Connectorを設定し、データがAdobe Experience Platformに正常に取り込まれたら、データがリアルタイム顧客プロファイルに含まれるようにデータセットを有効にする必要があります。
@@ -42,7 +40,7 @@ Adobe Experience Platform Data Connectorは、Adobe Campaign Standardのカス�
 >* [APIを使用したリアルタイム顧客プロファイルおよびIDサービスのデータセットの設定](https://experienceleague.adobe.com/docs/experience-platform/catalog/api/getting-started.html)
 
 
-## 重要な概念 {#key-concepts}
+## 主要概念 {#key-concepts}
 
 * デフォルトのマッピングは、デフォルトで「Campaign Standard」で指定されるフィールドに対してのみ使用できます。 すべてのカスタムフィールドとリソースを取り込むには、各顧客が独自のマッピングを定義する必要があります。
 

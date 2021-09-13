@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: フィルター
+title: フィルタリング
 description: フィルタリング操作の実行方法を説明します。
 audience: developing
 content-type: reference
@@ -10,14 +8,14 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: cdb050b7-d327-42f7-b534-d32d988c8ffb
-source-git-commit: f946a7565c30a3e53b2bd6876e880100fa8a0be2
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '432'
 ht-degree: 1%
 
 ---
 
-# フィルター {#filtering}
+# フィルタリング {#filtering}
 
 ## フィルターメタデータの取得
 

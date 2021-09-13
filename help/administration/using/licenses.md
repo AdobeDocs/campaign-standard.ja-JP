@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: ライセンス
 description: インスタンスにインストールされたライセンスの詳細を確認します。
 audience: administration
 content-type: reference
 topic-tags: users-and-security
-feature: アクセス管理
+feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 4a4c14da-d842-4f65-821a-ca9e73a94adc
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 2%
+source-wordcount: '169'
+ht-degree: 1%
 
 ---
 

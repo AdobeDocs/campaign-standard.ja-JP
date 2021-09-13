@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Adobe Campaign Standardでのメッセージのアーカイブ
 description: BCC電子メールアドレスを使用してAdobe Campaign Standardで電子メールをアーカイブする方法について説明します。
 audience: sending
 content-type: reference
 topic-tags: sending-and-tracking-messages
-feature: パフォーマンス監視
+feature: Performance Monitoring
 role: User
 level: Intermediate
 exl-id: 7bf380d7-195e-413d-b14e-85e78b07ba8b
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 31%
+source-wordcount: '362'
+ht-degree: 30%
 
 ---
 

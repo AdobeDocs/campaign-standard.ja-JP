@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: トランザクションイベントの公開
 description: トランザクションイベント設定のプレビュー、公開、非公開および削除方法について説明します。
 audience: channels
@@ -11,7 +9,7 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 6bcd8dcd-d710-4ca3-937d-bf4339f36069
-source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 6%

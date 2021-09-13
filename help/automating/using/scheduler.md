@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: スケジューラー
 description: 「Scheduler」アクティビティを使用すると、ワークフローまたはアクティビティの開始日時を指定できます。
 audience: automating
@@ -10,24 +8,23 @@ context-tags: schedule,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 39f7b216-b3cd-4aa6-b5df-23e6805076df
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 88%
+source-wordcount: '614'
+ht-degree: 89%
 
 ---
 
-
 # スケジューラー{#scheduler}
 
-## 説明{#description}
+## 説明 {#description}
 
 ![](assets/scheduler.png)
 
 「**[!UICONTROL Scheduler]**」アクティビティを使用すると、ワークフローまたはアクティビティの開始日時を指定できます。
 
-## 使用状況{#context-of-use}
+## 使用状況 {#context-of-use}
 
 「**[!UICONTROL Scheduler]**」アクティビティは、予約済みの開始とみなされます。アクティビティのグラフ内の配置ルールは、「**[!UICONTROL Start]**」アクティビティのルールと同じものです。このアクティビティはインバウンドトランジションを持つことはできません。
 
@@ -37,12 +34,12 @@ ht-degree: 88%
 >
 >アクティビティの **[!UICONTROL Repetition frequency]** は 10 分以上にする必要があります。つまり、1 つのワークフローを 10 分に1 回以上自動的に実行することはできません。
 
-複数のワークフローを含むスケジュール済みアクティビティをデザインする場合は、ワークフローが完了するまで再スケジュールされないようにする必要があります。 これを行うには、以前の実行の1つ以上のタスクがまだ保留中の場合に、ワークフローを実行しないように設定する必要があります。 詳しくは、[こちらのページ](../../automating/using/scheduled-workflows-execution.md)を参照してください。
+複数のアクティビティを含むスケジュール済みワークフローをデザインする場合は、完了するまでワークフローが再スケジュールされないようにする必要があります。 これをおこなうには、以前の実行の1つ以上のタスクがまだ保留中の場合に、ワークフローの実行を防ぐようにワークフローを設定する必要があります。 詳しくは、[このページ](../../automating/using/scheduled-workflows-execution.md)を参照してください。
 
 **関連トピック：**
 
-* [使用例：プロファイルの作成日に対する配信の作成](../../automating/using/workflow-creation-date-query.md)
-* [使用例：毎週火曜日に電子メール配信を作成する](../../automating/using/workflow-weekly-offer.md)
+* [使用例：プロファイルの作成日の配信の作成](../../automating/using/workflow-creation-date-query.md)
+* [使用例：毎週火曜日のEメール配信の作成](../../automating/using/workflow-weekly-offer.md)
 
 ## 設定 {#configuration}
 
@@ -82,4 +79,3 @@ ht-degree: 88%
 次の例では、アクティビティは、毎週月曜日の午前 7 時に、未定の期間、ワークフローを週単位で開始するように設定されています。
 
 ![](assets/wkf_scheduler_example.png)
-

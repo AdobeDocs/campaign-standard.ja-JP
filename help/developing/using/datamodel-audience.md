@@ -1,23 +1,20 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: DataModel
-description: データモデルについて
+description: データモデルの詳細
 audience: developing
 content-type: reference
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 53da6c4e-d4fb-4677-acff-744e3eb10960
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '207'
 ht-degree: 36%
 
 ---
 
-
-# オーディエンス(nms:オーディエンス)
+# オーディエンス(nms:audience)
 
 ## オブジェクトの説明
 
@@ -43,12 +40,12 @@ ht-degree: 36%
                <tr>
                   <td>amcDataSource (amcDataSourceBase)</td>
                   <td>AMC データソース</td>
-                  <td>link </td>
+                  <td>リンク </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>audienceData</td>
-                  <td>プレビュー選択母集団</td>
+                  <td>選択した母集団のプレビュー</td>
                   <td>コレクション </td>
                   <td> </td>
                </tr>
@@ -73,7 +70,7 @@ ht-degree: 36%
                <tr>
                   <td>count</td>
                   <td>Count</td>
-                  <td>integer </td>
+                  <td>整数 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -91,13 +88,13 @@ ht-degree: 36%
                <tr>
                   <td>created</td>
                   <td>作成日時</td>
-                  <td>date </td>
+                  <td>日付 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>createdBy (userBase)</td>
                   <td>作成者</td>
-                  <td>link </td>
+                  <td>リンク </td>
                   <td> </td>
                </tr>
                <tr>
@@ -115,19 +112,19 @@ ht-degree: 36%
                <tr>
                   <td>errorLimit</td>
                   <td>中止前の最大エラー数</td>
-                  <td>integer </td>
+                  <td>整数 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>expirationDate</td>
                   <td>有効期限</td>
-                  <td>date </td>
+                  <td>日付 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>geoUnit (geoUnitBase)</td>
                   <td>地理的単位</td>
-                  <td>link </td>
+                  <td>リンク </td>
                   <td> </td>
                </tr>
                <tr>
@@ -163,13 +160,13 @@ ht-degree: 36%
                <tr>
                   <td>lastModified</td>
                   <td>最終変更日時</td>
-                  <td>date </td>
+                  <td>日付 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>modifiedBy (userBase)</td>
                   <td>変更者</td>
-                  <td>link </td>
+                  <td>リンク </td>
                   <td> </td>
                </tr>
                <tr>
@@ -181,7 +178,7 @@ ht-degree: 36%
                <tr>
                   <td>orgUnit (orgUnitBase)</td>
                   <td>組織単位</td>
-                  <td>link </td>
+                  <td>リンク </td>
                   <td> </td>
                </tr>
                <tr>
@@ -205,7 +202,7 @@ ht-degree: 36%
                <tr>
                   <td>sourceId</td>
                   <td>ソース ID</td>
-                  <td>integer </td>
+                  <td>整数 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -217,13 +214,13 @@ ht-degree: 36%
                <tr>
                   <td>type</td>
                   <td>タイプ</td>
-                  <td>定義済みリスト（文字列） (100)</td>
+                  <td>列挙（文字列） (100)</td>
                   <td>
                      <ul>
-                        <li>クエリ-クエリ-クエリ</li>
-                        <li>リスト-リスト-リスト</li>
+                        <li>クエリ — クエリ — クエリ</li>
+                        <li>リスト — リスト — リスト</li>
                         <li>ファイル — ファイル — ファイル</li>
-                        <li>無効な値 — __Invalid_value__ - __Invalid_value__</li>
+                        <li>無効な値 — __無効な値__ - __無効な値__</li>
                      </ul>
                   </td>
                </tr>
@@ -236,14 +233,14 @@ ht-degree: 36%
                <tr>
                   <td>ワークフロー（ワークフロー）</td>
                   <td>ワークフロー</td>
-                  <td>link </td>
+                  <td>リンク </td>
                   <td> </td>
                </tr>
             </table>
 
 ## フィルター
 
-フィルタリングディメンション別(byFilteringResource)
+ディメンションのフィルタリング(byFilteringResource)
 
 <table>
     <tr>
@@ -256,7 +253,7 @@ ht-degree: 36%
     </tr>
 </table>
 
-名前またはラベル別(byText)
+名前またはラベル(byText)
 
 <table>
     <tr>
@@ -269,7 +266,7 @@ ht-degree: 36%
     </tr>
 </table>
 
-タイプ別(byType)
+タイプ(byType)
 
 <table>
     <tr>
@@ -278,7 +275,7 @@ ht-degree: 36%
     </tr>
     <tr>
     <td>type</td>
-    <td>定義済みリスト</td>
+    <td>列挙</td>
     </tr>
     <tr>
     <td>isAMC</td>

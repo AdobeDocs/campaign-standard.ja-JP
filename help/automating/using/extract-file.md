@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: ファイル抽出
 description: 「Extract file」アクティビティを使用すると、Adobe Campaign から外部ファイルの形式でデータを書き出すことができます。
 audience: automating
@@ -10,24 +8,23 @@ context-tags: fileExport,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: ccf73563-f0f8-4397-ba96-7c5727562acd
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 89%
+source-wordcount: '402'
+ht-degree: 86%
 
 ---
 
+# ファイルを抽出{#extract-file}
 
-# ファイル抽出{#extract-file}
-
-## 説明{#description}
+## 説明 {#description}
 
 ![](assets/export.png)
 
 「**[!UICONTROL Extract file]**」アクティビティを使用すると、Adobe Campaign から外部ファイルの形式でデータを書き出すことができます。
 
-## 使用状況{#context-of-use}
+## 使用状況 {#context-of-use}
 
 データの抽出方法は、アクティビティの設定時に定義されます。
 
@@ -46,7 +43,7 @@ ht-degree: 89%
    ![](assets/wkf_data_export1.png)
 
 1. アクティビティを選択し、表示されるクイックアクションの ![](assets/edit_darkgrey-24px.png) ボタンを使用して開きます。
-1. **Output file** のラベルを入力します。ファイルのラベルは、一意になるように、作成された日時と共に自動的に入力されます。例：recipients_20150815_081532.txt（2015 年 8 月 15 日 08:15:32 に生成されたファイル）
+1. **Output file** のラベルを入力します。ファイルのラベルは、一意になるように、作成された日時と共に自動的に入力されます。例：recipients_20150815_081532.txt（2015年8月15日08:15:32に生成されたファイル）
 
    >[!NOTE]
    >
@@ -54,7 +51,7 @@ ht-degree: 89%
 
 1. 必要に応じて、「**[!UICONTROL Add a post-processing stage]**」フィールドの **[!UICONTROL Compression]** を選択して、出力ファイルを zip 形式で圧縮できます。出力ファイルは圧縮されて GZIP ファイル（.gz）になります。
 
-   また、**[!UICONTROL Add a post-processing stage]**&#x200B;フィールドを使用すると、ファイルを抽出する前にファイルを暗号化できます。 暗号化されたファイルの使い方について詳しくは、[この](../../automating/using/managing-encrypted-data.md)を参照してください。
+   **[!UICONTROL Add a post-processing stage]**&#x200B;フィールドでは、ファイルを抽出する前にファイルを暗号化することもできます。 暗号化されたファイルの使用方法について詳しくは、[この節](../../automating/using/managing-encrypted-data.md)を参照してください。
 
 1. **[!UICONTROL Create element]**&#x200B;ボタンをクリックして、出力列を追加します。
 

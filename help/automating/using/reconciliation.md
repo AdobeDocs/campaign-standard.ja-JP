@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 紐付け
 description: 「Reconciliation」アクティビティを使用すると、識別されていないデータを既存のリソースにリンクできます。
 audience: automating
@@ -10,18 +8,17 @@ context-tags: reconciliation,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: ed2e3793-6164-48af-9043-42dc43fa8ed4
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '482'
 ht-degree: 95%
 
 ---
 
-
 # 紐付け{#reconciliation}
 
-## 説明{#description}
+## 説明 {#description}
 
 ![](assets/reconciliation.png)
 
@@ -49,9 +46,9 @@ ht-degree: 95%
 
 **関連トピック：**
 
-* [使用例：関係を使用したデータ調整](../../automating/using/reconciliation-using-relations.md)
-* [使用例：調整を使用したデータ更新](../../automating/using/data-update-reconciliation.md)
-* [使用例：ファイルオーディエンスとデータベースとの調整](../../automating/using/reconcile-file-audience-with-database.md)
+* [使用例：関係を使用したデータの紐付け](../../automating/using/reconciliation-using-relations.md)
+* [使用例：紐付けを使用したデータの更新](../../automating/using/data-update-reconciliation.md)
+* [使用例：ファイルオーディエンスとデータベースとの紐付け](../../automating/using/reconcile-file-audience-with-database.md)
 
 ## 設定 {#configuration}
 

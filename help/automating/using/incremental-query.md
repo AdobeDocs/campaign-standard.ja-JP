@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 増分処理クエリ
 description: 「増分処理クエリ」アクティビティでは、Adobe Campaign データベースから要素の母集団をフィルタリングし抽出することができます。
 audience: automating
@@ -10,16 +8,15 @@ context-tags: incremental,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 18d6ffc0-cfc3-436e-8f0c-ea9c307541e4
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '614'
 ht-degree: 98%
 
 ---
 
-
-# 増分処理クエリ{#incremental-query}
+# 増分クエリ{#incremental-query}
 
 ## 説明 {#description}
 
@@ -47,7 +44,7 @@ ht-degree: 98%
 
 **関連トピック**
 
-* [使用例：サービスの購読者の増分処理クエリ](../../automating/using/incremental-query-on-subscribers.md)
+* [使用例：サービスの購読者に対する増分処理クエリ](../../automating/using/incremental-query-on-subscribers.md)
 
 ## 設定 {#configuration}
 

@@ -1,23 +1,21 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: E メールデザイナーの基本を学ぶ
+title: 電子メールデザイナーの基本を学ぶ
 description: EメールデザイナーでEメールコンテンツの作成を開始します。
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-feature: Eメールデザイン
+feature: Email Design
 role: User
 level: Beginner
 exl-id: 47f53290-2190-4181-bcd5-e60287189c41
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '926'
+source-wordcount: '924'
 ht-degree: 5%
 
 ---
 
-# E メールデザイナーの基本を学ぶ {#quick-start}
+# 電子メールデザイナーの基本を学ぶ {#quick-start}
 
 Eメールデザイナーには、Eメールを作成する4つの方法が用意されています。
 
@@ -25,12 +23,12 @@ Eメールデザイナー](#without-existing-content)で、新規に開始する
 
 1. 空のキャンバス&#x200B;**からEメールを**&#x200B;作成するには、構造やコンテンツコンポーネントを簡単に追加し、コンテンツをパーソナライズして配信をすばやく送信します。 また、スタイル要素を完全に管理することもできます。 詳しくは、[すばやく開始する](#from-scratch-email)か、[完全なドキュメント](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)を参照してください。
 
-1. テンプレートを選択し、ここから新しいEメールコンテンツを作成することで、**標準のテンプレート**&#x200B;からEメールを作成できます。 [詳細](#building-content-from-an-out-of-the-box-template)
+1. テンプレートを選択し、ここから新しいEメールコンテンツを作成することで、**標準のテンプレート**&#x200B;からEメールを作成できます。 [詳細情報](#building-content-from-an-out-of-the-box-template)
 
 既存のコンテンツ](#with-existing-content)を使用して電子メール[を作成することもできます。
 
-1. 既存のHTMLコンテンツ&#x200B;**は、（外部で作成した、またはレガシーエディターで作成した）**&#x200B;変換できます。 [詳細](#converting-an-html-content)
-1. 互換性モードで、既存のHTMLコンテンツ&#x200B;**を**&#x200B;すぐにインポートできます。 [詳細](#compatibility-mode)
+1. 既存のHTMLコンテンツ&#x200B;**は、（外部で作成した、またはレガシーエディターで作成した）**&#x200B;変換できます。 [詳細情報](#converting-an-html-content)
+1. 互換性モードで、既存のHTMLコンテンツ&#x200B;**を**&#x200B;すぐにインポートできます。 [詳細情報](#compatibility-mode)
 
 | コンテンツなし | コンテンツを使用 |
 |---|---|

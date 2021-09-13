@@ -1,24 +1,22 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: アプリ内FAQ
+title: アプリ内 FAQ
 description: アプリ内メッセージに関するよくある質問(FAQ)
 audience: channels
 content-type: reference
 topic-tags: in-app-messaging
 context-tags: delivery,triggers,back
-feature: アプリ内
+feature: In App
 role: User
 exl-id: 986646b1-42d5-4169-ac38-d8e612a9a6d3
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '674'
 ht-degree: 2%
 
 ---
 
 
-# アプリ内FAQ {#in-app-faq}
+# アプリ内 FAQ {#in-app-faq}
 
 ## Adobe Campaign Standardのアプリ内チャネルの詳細について詳しくは、どのようなリソースをお勧めしますか？ {#resources-inapp}
 

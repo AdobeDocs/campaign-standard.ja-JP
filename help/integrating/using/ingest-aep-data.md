@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Campaign への Adobe Experience Platform オーディエンスの取り込み
 description: Adobe Experience PlatformオーディエンスをCampaign Standardに取り込む方法を説明します。
 audience: integrating
@@ -8,7 +6,7 @@ content-type: reference
 role: Data Architect
 level: Intermediate
 exl-id: 5c266c44-535b-4954-862d-74c83a6f6406
-source-git-commit: ca8473f50b132b2d5ca58c6403d144fbf62741b0
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 54%
@@ -19,7 +17,7 @@ ht-degree: 54%
 
 Adobe Experience PlatformオーディエンスをCampaignに取り込んでワークフローで使用するには、まずAdobe CampaignをAdobe Experience Platform **宛先**&#x200B;として接続し、エクスポートするセグメントを使用して設定する必要があります。
 
-宛先が設定されると、データがストレージの場所にエクスポートされ、取得するには、専用のワークフローをCampaign Standardで作成する必要があります。
+宛先が設定されると、データがストレージの場所にエクスポートされ、取得するために専用のワークフローをCampaign Standardで作成する必要があります。
 
 ## Adobe Campaign を宛先として接続する
 

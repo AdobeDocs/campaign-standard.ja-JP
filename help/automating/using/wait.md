@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 待機
 description: 「Wait」アクティビティは、ワークフローの一部の実行を一時的に中断します。
 audience: automating
@@ -10,14 +8,13 @@ context-tags: wait,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 2ddc1b2b-0df5-4c91-a381-451cc094f2eb
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 99%
+source-wordcount: '296'
+ht-degree: 100%
 
 ---
-
 
 # 待機{#wait}
 
@@ -56,4 +53,3 @@ ht-degree: 99%
 * 24 時間の「**[!UICONTROL Wait]**」アクティビティにより、招待メールが送信された後、その他のワークフローを実行するまで一定の時間を空けます。
 * 2 つ目の「**[!UICONTROL Query]**」では、最初の E メールを受信したものの記載されているサブスクリプションリンクをクリックしなかったプロファイルをターゲットに指定します。
 * 2 つ目の「**[!UICONTROL Email delivery]**」では、選択したオーディエンスにリマインダー E メールを送信します。
-

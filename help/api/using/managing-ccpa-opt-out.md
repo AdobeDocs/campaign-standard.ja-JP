@@ -1,37 +1,34 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: CCPA オプトアウトの管理
-description: APIを使用したCCPAオプトアウトの管理方法
+description: APIを使用したCCPAオプトアウトの管理方法を説明します。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: bfc52511-f66f-4948-a939-d0d77e8ef03c
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '148'
 ht-degree: 4%
 
 ---
 
-
 # CCPA オプトアウトの管理 {#managing-ccpa-optout}
 
-プロファイルのCCPAオプトアウトステータスは、**ccpaOptOut**&#x200B;プロファイル属性と「true」または「false」値を使用して監視および管理できます。
+プロファイルのCCPAオプトアウトステータスは、 **ccpaOptOut**&#x200B;プロファイル属性と「true」または「false」値を使用して監視および管理できます。
 
 `"ccpaOptOut": <value>`
 
-* **true**:個人情報の販売を禁じる。
+* **true**:個人情報の販売を禁止します。
 * **false**:個人情報の販売を許可します。
 
 >[!CAUTION]
 >
->「CCPAオプトアウト」属性は、19.4からのみ使用できます。19.3環境の場合は、プロファイルリソースを拡張し、ブール値フィールドを追加する必要があります。 このフィールドは、選択したラベルと共にAPIに追加されます。 「CCPAのオプトアウト」を使用することをお勧めします。
+>「CCPAオプトアウト」属性は、19.4以降でのみ使用できます。19.3環境の場合は、プロファイルリソースを拡張し、ブール値フィールドを追加する必要があります。 このフィールドは、選択されたラベルでAPIに追加されます。 「CCPAのオプトアウト」を使用することをお勧めします。
 >
->詳しくは、[プライバシーリクエストの管理のドキュメント](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa)を参照してください。
+>詳しくは、プライバシーリクエストの管理に関するドキュメント[を参照してください。](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa)
 
 <br/>
 
@@ -59,7 +56,7 @@ ht-degree: 4%
    }
    ```
 
-* プロファイルにCCPAオプトアウトのマークを付けるPOSTリクエストの例。
+* プロファイルをCCPAオプトアウト用にマークするためのPOSTリクエストの例。
 
    ```
    -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/ \
@@ -89,7 +86,7 @@ ht-degree: 4%
    }
    ```
 
-* CCPAオプトアウト用にプロファイルを更新するためのPATCHリクエストの例。
+* PATCHリクエストの例（CCPAオプトアウト用のプロファイルの更新）。
 
    ```
    -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/<PKEY> \

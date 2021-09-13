@@ -1,23 +1,21 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Audience Manager または People コアサービスのオーディエンスを共有
+title: Audience Manager または People コアサービスとのオーディエンスの共有
 description: 様々なAdobe Experience Cloudソリューション内でオーディエンスをインポートまたはエクスポートする方法を説明します。
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
-feature: Peopleコアサービスの統合
+feature: People Core Service Integration
 role: Data Architect
 level: Intermediate
 exl-id: b0d063de-863c-42e7-98dd-c4c86da3281e
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '805'
-ht-degree: 28%
+source-wordcount: '801'
+ht-degree: 29%
 
 ---
 
-# Audience Manager または People コアサービスのオーディエンスを共有{#sharing-audiences-with-audience-manager-or-people-core-service}
+# Audience Manager または People コアサービスとのオーディエンスの共有{#sharing-audiences-with-audience-manager-or-people-core-service}
 
 ## オーディエンスのインポート {#importing-an-audience}
 
@@ -77,9 +75,9 @@ Adobe CampaignのPeopleコアサービスからのオーディエンス/セグ�
 1. アクティビティの設定を確認し、ワークフローを保存します。
 1. ワークフローを開始して、オーディエンスをエクスポートします。 Adobe CampaignとPeopleコアサービス間の同期には、数時間かかる場合があります
 
-Adobe Campaign と People コアサービス間の同期には、24～36 時間かかります。同期が終了すると、People コアサービスで新しいオーディエンスを検索できるようになり、そのオーディエンスを他の Adobe Experience Cloud ソリューションで再利用することができます。Adobe People コアサービスで Adobe Campaign の共有オーディエンスを使用する方法について詳しくは、この[ドキュメント](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-audience-create.html)を参照してください。
+Adobe Campaign と People コアサービス間の同期には、24～36 時間かかります。同期が終了すると、People コアサービスで新しいオーディエンスを検索できるようになり、そのオーディエンスを他の Adobe Experience Cloud ソリューションで再利用することができます。Adobe People コアサービスで Adobe Campaign の共有オーディエンスを使用する方法について詳しくは、この[ドキュメント](https://experienceleague.adobe.com/docs/core-services/interface/audiences/t-audience-create.html?lang=ja)を参照してください。
 
 **関連トピック：**
 
 * [ワークフロー](../../automating/using/get-started-workflows.md)
-* [オーディエンス](../../audiences/using/about-audiences.md)
+* [Audiences](../../audiences/using/about-audiences.md)

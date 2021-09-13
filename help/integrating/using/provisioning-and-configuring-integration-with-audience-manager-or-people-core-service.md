@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Audience Manager または People コアサービスとの統合のプロビジョニングと設定
 description: 'Audience Manager/Peopleコアサービスの統合を設定して、別のAdobe Experience Cloudソリューションとのオーディエンスやセグメントの共有を開始する方法について説明します。 '
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
-feature: Peopleコアサービスの統合
+feature: People Core Service Integration
 role: Data Architect
 level: Intermediate
 exl-id: 04d0fe26-a8cc-49ae-aaa9-b470169068ee
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '717'
 ht-degree: 40%
 
 ---
@@ -60,7 +58,7 @@ Audience Manager(AAM)またはPeopleコアサービスの統合により、Adobe
  </tbody> 
 </table>
 
-## Adobe Campaignでの統合の設定{#configuring-the-integration-in-adobe-campaign}
+## Adobe Campaignでの統合の設定 {#configuring-the-integration-in-adobe-campaign}
 
 このリクエストを送信すると、Adobeは統合のプロビジョニングに進み、お客様に設定を完了させるために必要な詳細と情報を提供するようお問い合わせいたします。
 
@@ -86,7 +84,7 @@ Audience Manager(AAM)またはPeopleコアサービスの統合により、Adobe
 
 これで、外部アカウントがこの統合用に設定されました。
 
-### 手順2:データソースの設定{#step-2--configure-the-data-sources}
+### 手順2:データソースの設定 {#step-2--configure-the-data-sources}
 
 Audience Manager内で次の2つのデータソースが作成されます。Adobe Campaign(MID)とAdobe Campaign(DeclaredId)。 同時に、次の2つのデータソースがAdobe Campaignで使用できます。
 
@@ -122,7 +120,7 @@ Audience Manager内で次の2つのデータソースが作成されます。Ado
 >
 >**[!UICONTROL AAM Destination ID]**&#x200B;フィールドは、[Campaignとトリガーの統合](../../integrating/using/configuring-triggers-in-experience-cloud.md)用に共有データソースを設定する場合は必須ではありません。 **[!UICONTROL Priority]** は、トリガー- Campaign統合を設定する場合にのみ必要です。優先度によって、最初に設定されるデータソースが決まります。 優先度は、1や100など、任意の数値です。 優先度が高いほど、紐付け時の優先順位が高くなります。
 
-### 手順 3：キャンペーントラッキングサーバーの設定 {#step-3--configure-campaign-tracking-server}
+### 手順 3：Campaignトラッキングサーバーの設定 {#step-3--configure-campaign-tracking-server}
 
 People コアサービスまたは Audience Manager との統合を設定する場合は、Campaign トラッキングサーバーも設定する必要があります。
 

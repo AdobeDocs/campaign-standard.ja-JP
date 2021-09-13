@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: クエリ
 description: 「Query」アクティビティを使用すると、Adobe Campaign データベースから要素の母集団をフィルタリングして抽出できます。
 audience: automating
@@ -10,14 +8,13 @@ context-tags: query,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 0c26a0f9-9d71-4692-ae86-d47e2df53bb7
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1761'
+source-wordcount: '1757'
 ht-degree: 93%
 
 ---
-
 
 # クエリ{#query}
 
@@ -56,7 +53,7 @@ ht-degree: 93%
 
    >[!NOTE]
    >
-   >オーディエンスをターゲット設定する場合、オーディエンスの定義は参照されず、**コピー**&#x200B;がクエリに含まれていることに注意してください。 クエリでターゲットが設定された後にオーディエンスに変更を加えた場合は、新しい定義を考慮するように、クエリを再度設定する必要があります。
+   >オーディエンスをターゲティングする場合、オーディエンスの定義は参照されず、**コピー**&#x200B;されてクエリに含まれます。 クエリでターゲット設定された後にオーディエンスに変更を加えた場合は、新しい定義を考慮するように、クエリを再度設定する必要があります。
 
 1. 該当するタブを使用して、ターゲット母集団の **[!UICONTROL Additional data]** を定義できます。このデータは追加の列に格納され、進行中のワークフローでのみ使用できます。特に、クエリのターゲティングディメンションにリンクされた Adobe Campaign データベースのテーブルからデータを追加できます。[データのエンリッチメント](#enriching-data)の節を参照してください。
 
@@ -66,7 +63,7 @@ ht-degree: 93%
 
 1. 「**[!UICONTROL Transition]**」タブの「**[!UICONTROL Enable an outbound transition]**」オプションを使用すると、クエリアクティビティがデータを取得しない場合でも、このアクティビティの後にアウトバウンドトランジションを追加できます。
 
-   送信トランジションのセグメントコードは、標準の式変数とイベント変数を使用してパーソナライズできます（[このページ](../../automating/using/customizing-workflow-external-parameters.md)を参照）。
+   アウトバウンドトランジションのセグメントコードは、標準の式とイベント変数を使用してパーソナライズできます（[このページ](../../automating/using/customizing-workflow-external-parameters.md)を参照）。
 
 1. アクティビティの設定を確認し、ワークフローを保存します。
 
@@ -74,7 +71,7 @@ ht-degree: 93%
 
 ターゲティングディメンションとリソースを使用すると、配信のターゲットを指定するためにクエリで使用する要素を定義できます。
 
-これらは[ターゲットマッピング](../../administration/using/target-mappings-in-campaign.md)に設定され、ワークフローの作成時にクエリアクティビティの&#x200B;**[!UICONTROL Properties]**&#x200B;タブで定義されます。
+これらは[ターゲットマッピング](../../administration/using/target-mappings-in-campaign.md)で設定され、クエリアクティビティの「**[!UICONTROL Properties]**」タブでワークフローを作成する際に定義されます。
 
 >[!NOTE]
 >
@@ -104,7 +101,7 @@ ht-degree: 93%
 
 デフォルトでは、ターゲティングディメンションとリソースはプロファイルをターゲットするために設定されます。ただし、距離テーブル内の特定のレコードを検索する場合は、ターゲティングディメンションとは別のリソースを使用すると便利です。
 
-この方法の詳細については、次の使用例を参照してください。[ターゲティングディメンションとは異なるリソースを使用](../../automating/using/using-resources-different-from-targeting-dimensions.md)
+詳しくは、次の使用例を参照してください。[ターゲティングディメンションとは異なるリソースを使用](../../automating/using/using-resources-different-from-targeting-dimensions.md)
 
 ## データのエンリッチメント {#enriching-data}
 
@@ -126,7 +123,7 @@ ht-degree: 93%
 >
 >デフォルトでは、クエリの「**[!UICONTROL Additional data]**」タブの「**[!UICONTROL Advanced options]**」で「**[!UICONTROL Remove duplicate rows (DISTINCT)]**」オプションがオンになっています。パフォーマンス上の理由から、追加のデータが「**[!UICONTROL Query]**」アクティビティに多数（100 以上）含まれている場合は、このオプションをオフにすることをお勧めします。このオプションをオフにすると、クエリされたデータに応じて重複が取得される可能性があるので注意してください。
 
-Eメールに追加のデータをパーソナライズする方法に関する使用例は、[このセクション](../../automating/using/personalizing-email-with-additional-data.md)に記載されています。
+追加データを含むEメールをパーソナライズする方法の使用例については、[この節](../../automating/using/personalizing-email-with-additional-data.md)を参照してください。
 
 ### シンプルなフィールドの追加 {#adding-a-simple-field}
 

@@ -1,8 +1,6 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 開封数
-description: 開くレポートで、様々な条件に従って、最も多く閲覧された配信を確認します。
+description: 開封数レポートでは、様々な条件に従って最も多く閲覧された配信を確認できます。
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
@@ -10,14 +8,13 @@ context-tags: deliveryOpenRateReport,main;campaignOpenRateReport,main;programOpe
 feature: Reporting
 role: Leader
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 654957b0-98b5-43f2-8699-4531859ef76e
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '67'
+source-wordcount: '64'
 ht-degree: 50%
 
 ---
-
 
 # 開封数{#opens}
 
@@ -25,7 +22,7 @@ ht-degree: 50%
 
 ![](assets/delivery_reports_opens.png)
 
-次の4つの表とグラフは、電子メールを開いた受信者の合計数を示します。
+次の4つのテーブルとグラフに基づいて、Eメールを開封した受信者の合計数を分類します。
 
 * ブラウザー
 * デバイス

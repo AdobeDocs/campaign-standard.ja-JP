@@ -1,25 +1,23 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: Experience Cloud でのトリガーの設定
+title: Experience Cloud での Triggers の設定
 description: '以前の行動に基づいてパーソナライズされた配信を顧客に送信するようにAdobe Experience Cloud Triggers統合を設定する方法を説明します。 '
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
-feature: トリガー
+feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 50e9fb7a-b28a-40b0-9f2c-3673c792529a
-source-git-commit: 92365fe416fced72e7ad5818da0dbed5d8f52f15
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '858'
 ht-degree: 7%
 
 ---
 
-# Experience Cloud でのトリガーの設定{#configuring-triggers-in-experience-cloud}
+# Experience Cloud での Triggers の設定{#configuring-triggers-in-experience-cloud}
 
-## 機能{#activating-the-functionality}の有効化
+## 機能の有効化 {#activating-the-functionality}
 
 機能は、Adobe CampaignでAdobeによって有効化する必要があります。 担当のAdobeアカウントエグゼクティブまたはプロフェッショナルサービスパートナーにお問い合わせください。
 
@@ -29,7 +27,7 @@ Adobeをアクティブ化するには、次の情報がトリガーチームに
 * IMS 組織 ID
 * Analyticsログイン会社名(Marketing Cloud会社名と同じ)
 
-## ソリューションとサービスの設定{#configuring-solutions-and-services}
+## ソリューションおよびサービスの設定 {#configuring-solutions-and-services}
 
 この機能を使用するには、次のソリューション/コアサービスにアクセスできる必要があります。
 
@@ -57,7 +55,7 @@ Adobeをアクティブ化するには、次の情報がトリガーチームに
 
 これらの使用例を実行するには、[Experience CloudDTMコアサービス](#configuring-experience-cloud-dtm-core-service)、[Experience Cloudユーザーコアサービス](#configuring-experience-cloud-people-core-service)および[Campaign](#configuring-triggers-and-aliases-in-campaign)を設定する必要があります。
 
-### Experience CloudDTMコアサービス{#configuring-experience-cloud-dtm-core-service}の設定
+### Experience CloudDTMコアサービスの設定 {#configuring-experience-cloud-dtm-core-service}
 
 1. Experience CloudDTMコアサービス(Dynamic Tag Management)で、WebサイトページのExperience CloudIDとAdobe Analyticsをアクティブ化します。
 
@@ -67,7 +65,7 @@ Adobeをアクティブ化するには、次の情報がトリガーチームに
 
    ![](assets/trigger_uc_conf_2.png)
 
-### Experience CloudPeopleコアサービスの設定{#configuring-experience-cloud-people-core-service}
+### Experience CloudPeopleコアサービスの設定 {#configuring-experience-cloud-people-core-service}
 
 DTMで以前に参照されたエイリアスは、顧客属性を通じてExperience CloudPeopleコアサービスで作成する必要があります。 新しいエイリアスを作成し、統合コードで同じDTMエイリアスを参照していることを確認してください（例：「visitorid」）。
 
@@ -77,7 +75,7 @@ DTMで以前に参照されたエイリアスは、顧客属性を通じてExper
 >
 >この顧客属性をAdobe Campaignのデータソースで使用します（次の手順）。
 
-### Campaignでのトリガーとエイリアスの設定{#configuring-triggers-and-aliases-in-campaign}
+### Campaignでのトリガーとエイリアスの設定 {#configuring-triggers-and-aliases-in-campaign}
 
 1. **[!UICONTROL Experience Cloud triggers]**&#x200B;がAdobe Campaign Standardインスタンス上に表示されていることを確認します。 割り当てられていない場合は、Adobe Campaign管理者にお問い合わせください。
 
@@ -91,7 +89,7 @@ DTMで以前に参照されたエイリアスは、顧客属性を通じてExper
    >
    >匿名ユーザーとログイントリガーの両方に対してユーザーを紐付けできます。 匿名ユーザーの場合、プロファイルはAdobe Campaignに存在し、以前にユーザーに電子メールが送信されている必要があります。 そのためには、訪問者IDの設定で十分です。 ただし、ログインしたユーザーのトリガーを紐付けする場合は、宣言済みIDデータソースを設定する必要があります。 詳しくは、[データソースの設定](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#step-2--configure-the-data-sources)を参照してください。
 
-## Experience Cloudインターフェイスでのトリガーの作成{#creating-a-trigger-in-the-experience-cloud-interface}
+## Experience Cloudインターフェイスでのトリガーの作成 {#creating-a-trigger-in-the-experience-cloud-interface}
 
 Adobe Experience CloudトリガーをCampaignで使用できるようにする必要があります。
 
@@ -99,7 +97,7 @@ Adobe Experience CloudトリガーをCampaignで使用できるようにする�
 
 [Adobe Experience Cloudのドキュメント](https://experienceleague.adobe.com/docs/core-services/interface/activation/triggers.html)を参照し、この[ビデオ](https://helpx.adobe.com/jp/marketing-cloud/how-to/email-marketing.html#step-two)を見てください。
 
-## トリガーのベストプラクティスと制限事項{#triggers-best-practices-and-limitations}
+## トリガーのベストプラクティスと制限事項 {#triggers-best-practices-and-limitations}
 
 以下に、Campaignとトリガーの統合の使用に関するベストプラクティスと制限のリストを示します。
 

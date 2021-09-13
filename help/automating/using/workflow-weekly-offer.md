@@ -1,8 +1,6 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 週次配信の作成
-description: この使用例では、週別配信の作成方法を示します。
+description: この使用例では、週次配信の作成方法を示します。
 audience: automating
 content-type: reference
 topic-tags: execution-activities
@@ -10,16 +8,15 @@ context-tags: workflow,use-case,query,delivery,scheduler
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 32d9d174-8438-48d7-b876-33a0c35d9549
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '242'
 ht-degree: 81%
 
 ---
 
-
-# 毎週火曜日に電子メール配信を作成する{#creating-email-every-tuesday}
+# 毎週火曜日のEメール配信の作成{#creating-email-every-tuesday}
 
 毎週火曜日にすべての顧客あてに特別オファーの E メールを送信できます。
 
@@ -29,7 +26,7 @@ ht-degree: 81%
 
 ## スケジューラーアクティビティの作成{#creating-a-scheduler-activity}
 
-1. **[!UICONTROL Activities]** > **[!UICONTROL Execution]**&#x200B;に[スケジューラー](../../automating/using/scheduler.md)アクティビティをドラッグ&amp;ドロップします。
+1. **[!UICONTROL Activities]** > **[!UICONTROL Execution]**&#x200B;で、[スケジューラー](../../automating/using/scheduler.md)アクティビティをドラッグ&amp;ドロップします。
 1. アクティビティをダブルクリックします。
 1. 配信の実行を設定します。
 1. 「**[!UICONTROL Execution frequency]**」で、「**[!UICONTROL Weekly]**」を選択します。
@@ -46,7 +43,7 @@ ht-degree: 81%
 
 ## クエリアクティビティの作成{#creating-a-query-activity}
 
-1. **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**&#x200B;で、受信者を選択するには、[クエリ](../../automating/using/query.md)アクティビティをドラッグ&amp;ドロップし、重複クリックします。
+1. **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**&#x200B;で、受信者を選択し、[クエリ](../../automating/using/query.md)アクティビティをドラッグ&amp;ドロップしてダブルクリックします。
 1. **[!UICONTROL Shortcuts]**／**[!UICONTROL Profile]**&#x200B;で、**[!UICONTROL Email]** をドラッグ＆ドロップします。
 1. 演算子として「**[!UICONTROL is not empty]**」を選択します。
 1. **[!UICONTROL Shortcuts]**／**[!UICONTROL General]** でプロファイルを追加し、「**[!UICONTROL no longer contact by email]**」を選択して、値を「**[!UICONTROL No]**」に設定します。
@@ -56,7 +53,7 @@ ht-degree: 81%
 
 ## E メール配信の作成{#creating-an-email-delivery}
 
-1. **[!UICONTROL Activities]**/**[!UICONTROL Channels]**&#x200B;に[電子メール配信](../../automating/using/email-delivery.md)アクティビティをドラッグ&amp;ドロップします。
+1. **[!UICONTROL Activities]** > **[!UICONTROL Channels]**&#x200B;で、[Eメール配信](../../automating/using/email-delivery.md)アクティビティをドラッグ&amp;ドロップします。
 1. アクティビティをクリックし、![](assets/edit_darkgrey-24px.png) を選択して編集します。
 1. 「**[!UICONTROL Recurring email]**」を選択し、「**[!UICONTROL Next]**」をクリックします。
 1. E メールテンプレートを選択し、「**[!UICONTROL Next]**」をクリックします。
@@ -70,4 +67,4 @@ ht-degree: 81%
 
 **関連トピック：**
 
-* [E メールチャネル](../../channels/using/creating-an-email.md)
+* [メールチャネル](../../channels/using/creating-an-email.md)

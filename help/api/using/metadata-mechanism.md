@@ -1,22 +1,19 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: メタデータのメカニズム
-description: メタデータのメカニズムについて詳しく説明します。
+description: メタデータメカニズムの詳細を説明します。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 58ec0999-b28a-4198-8d57-729b074c6a6d
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 2%
+source-wordcount: '227'
+ht-degree: 1%
 
 ---
-
 
 # メタデータのメカニズム {#metadata-mechanism}
 
@@ -24,20 +21,20 @@ GETリクエストで&#x200B;**resourceType**&#x200B;を使用して、リソー
 
 `GET /profileAndServices/resourceType/<resourceName>`
 
-応答は、リソースからメインメタデータを返します（他のすべてのフィールドは説明的または内部的です）。
+応答は、リソースからメインメタデータを返します（その他のすべてのフィールドは、説明的または内部的です）。
 
-* **Content**&#x200B;ノードは、リソースのフィールドを返します。 **content**&#x200B;ノード内の各フィールドについて、次のフィールドを見つけることができます。
+* **Content**&#x200B;ノードは、リソースのフィールドを返します。 **content**&#x200B;ノードの各フィールドについて、次のフィールドを見つけることができます。
 
    * &quot;apiName&quot;:APIで使用される属性の名前。
-   * &quot;type&quot;:これは、高レベルのタイプ定義(文字列、数値、リンク、コレクション、定義済みリストなど)です。
-   * &quot;dataPolicy&quot;:フィールドの値は、指定したポリシールールに従う必要があります。 例えば、dataPolicyルールを「email」に設定する場合、値は有効な電子メールである必要があります。 PATCH中またはPOST中に、dataPolicyは値を確認したり、変換する値を変更したりできます（smartCaseなど）。
-   * &quot;カテゴリ&quot;:は、クエリエディタでフィールドのカテゴリを示します。
-   * &quot;resType&quot;:これは技術的なタイプです。
+   * &quot;type&quot;:これは、大まかなタイプ定義（文字列、数値、リンク、コレクション、列挙など）です。
+   * &quot;dataPolicy&quot;:フィールドの値は、指定されたポリシールールに従う必要があります。 例えば、dataPolicyルールが「email」に設定されている場合、値は有効な電子メールである必要があります。 PATCHまたはPOST中、dataPolicyは値を確認したり、変換する値を変更したりできます（smartCaseなど）。
+   * &quot;category&quot;:クエリエディターでフィールドのカテゴリを指定します。
+   * &quot;resType&quot;:技術的なタイプ。
 
-      「type」が値「link」または「collection」で完了した場合、resTarget値はリンクのターゲットとなるリソースの名前になります。
-「type」が値「定義済みリスト」で完了した場合は、「values」フィールドが追加され、各定義済みリスト値が**values**&#x200B;ノードに詳細に設定されます。
+      「type」に「link」または「collection」という値を指定した場合、resTargetの値はリンクのターゲットリソースの名前になります。
+「type」に値「enumeration」を入力すると、「values」フィールドが追加され、各列挙値の詳細が**values**&#x200B;ノードに表示されます。
 
-* **フィルター**&#x200B;ノードは、関連するフィルターを取得するためのURLを返します。 フィルターの詳細については、[この](../../api/using/filtering.md)セクションを参照してください。
+* **Filters**&#x200B;ノードは、関連するフィルターを取得するURLを返します。 フィルターについて詳しくは、[この節](../../api/using/filtering.md)を参照してください。
 
 <!-- créer une section au même niveau sur les liens -->
 <!-- dans l'exemple: birthdate, email +  mettre 2 liens : un de type 1-1 , 1-N
@@ -46,9 +43,9 @@ si on prend l'exemple de l'org unit, on aura un bon exemple lien -->
 
 <br/>
 
-***サンプルリクエスト***
+***リクエストのサンプル***
 
-リソースに対してGETリクエストを実行します。
+リソースでGETリクエストを実行します。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/resourceType/profile \

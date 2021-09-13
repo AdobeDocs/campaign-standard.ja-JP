@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: トラブルシューティング
 description: 動的レポートに関するよくある質問を見つけます。
 audience: reporting
 content-type: reference
 topic-tags: troubleshooting
-feature: レポート
+feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 0f99a109-2923-4e64-8131-80fcacf79c82
-source-git-commit: 81ffe6a7e59a745a6f61941dff69be85edf4fe45
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '704'
+source-wordcount: '703'
 ht-degree: 5%
 
 ---
@@ -21,7 +19,7 @@ ht-degree: 5%
 
 この節では、動的レポートに関するよくある質問を確認できます。
 
-## ユニーク開封数とユニーククリック数の場合、集計行のカウントが個々の行のカウントと一致しません{#unique-open-clicks-no-match}
+## 個別開封数と個別クリック数の場合、集計行の数が個々の行の数と一致しません {#unique-open-clicks-no-match}
 
 これは期待された動作です。
 次の例で、この動作を説明します。
@@ -92,9 +90,9 @@ P1では最初の日に2回Eメールが開かれ、2日目にはツリー回が
 >
 >ユニーク数はHLLベースのスケッチに基づいているので、大量のスケッチでは少し誤りが生じる可能性があります。
 
-## 開封数がデータベース数{#open-counts-no-match-database}と一致しない
+## 開封数がデータベース数と一致しません {#open-counts-no-match-database}
 
-これは、**[!UICONTROL Open]**&#x200B;アクションを追跡できない場合でも、開封を追跡するために動的レポートでヒューリスティックが使用されるためです。
+これは、**[!UICONTROL Open]**&#x200B;アクションを追跡できない場合でも、開封を追跡するために動的レポートでヒューリスティックが使用されることが原因である可能性があります。
 
 例えば、ユーザーがクライアント上の画像を無効にし、Eメール内のリンクをクリックした場合、**[!UICONTROL Open]**&#x200B;はデータベースで追跡されない可能性がありますが、**[!UICONTROL Click]**&#x200B;は追跡します。
 
@@ -106,7 +104,7 @@ P1では最初の日に2回Eメールが開かれ、2日目にはツリー回が
 >
 >ユニークカウントはHLLベースのスケッチに基づいているので、カウント間に小さな不整合が生じる可能性があります。
 
-## 繰り返し/トランザクション配信の件数はどのように計算されますか。{#counts-recurring-deliveries}
+## 繰り返し/トランザクション配信の件数はどのように計算されますか。 {#counts-recurring-deliveries}
 
 繰り返し配信とトランザクション配信を扱う場合、カウントは親配信と子配信の両方に関連付けられます。
 **R1**という繰り返し配信を、1日目(RC1)、2日目(RC2)、3日目(RC3)に毎日実行するように設定した例を見てみましょう。
@@ -157,7 +155,7 @@ P1では最初の日に2回Eメールが開かれ、2日目にはツリー回が
  </tbody> 
 </table>
 
-## レポートの表での色の意味は何ですか。{#reports-color-signification}
+## レポートの表での色の意味は何ですか。 {#reports-color-signification}
 
 レポートに表示される色はランダム化され、パーソナライズできません。 これらは進行状況バーを表し、レポートで最大値に達した場合に強調表示されます。
 

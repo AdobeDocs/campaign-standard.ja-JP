@@ -1,8 +1,6 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 2 つの絞り込まれたオーディエンスの和集合
-description: この使用例は、2つの読み取りオーディエンスアクティビティの和集合を示しています。
+description: この使用例では、2つの「オーディエンスの閲覧」アクティビティの和集合を示しています。
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -10,14 +8,13 @@ context-tags: readAudience,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 6261f800-11bd-4b02-a587-49ddb0da240f
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 57%
+source-wordcount: '150'
+ht-degree: 58%
 
 ---
-
 
 # 2 つの絞り込まれたオーディエンスの和集合 {#example--union-on-two-refined-audiences}
 
@@ -27,7 +24,7 @@ ht-degree: 57%
 
 ![](assets/readaudience_activity_example1.png)
 
-* 最初の[オーディエンス](../../automating/using/read-audience.md)読み取りアクティビティ。Gold membersオーディエンスを取得し、18 ～ 30年のプロファイルのみを選択して絞り込みます。
+* 1つ目の[オーディエンス](../../automating/using/read-audience.md)の読み取りアクティビティ。ゴールドメンバーオーディエンスを取得し、18～30歳のプロファイルのみを選択して絞り込みます。
 * 2 つ目の「**[!UICONTROL Read audience]**」アクティビティ。シルバーメンバーオーディエンスを取得し、18～30 歳のプロファイルのみを選択して絞り込みます。
 * [和集合](../../automating/using/union.md)アクティビティ。両方の&#x200B;**[!UICONTROL Read audiences]**&#x200B;アクティビティの母集団を1つの最終母集団に結合します。
-* [電子メール配信](../../automating/using/email-delivery.md)アクティビティ。**[!UICONTROL Union]**&#x200B;アクティビティからの訪問者に電子メールを送信します。
+* [Eメール配信](../../automating/using/email-delivery.md)アクティビティ。**[!UICONTROL Union]**&#x200B;アクティビティからの母集団にEメールを送信します。

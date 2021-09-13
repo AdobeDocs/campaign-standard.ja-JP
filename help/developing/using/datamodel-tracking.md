@@ -1,21 +1,18 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: DataModel
-description: データモデルについて
+description: データモデルの詳細
 audience: developing
 content-type: reference
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 0f5dd92c-2222-4456-86cd-3cc2e1c83fc1
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '38'
-ht-degree: 31%
+source-wordcount: '34'
+ht-degree: 29%
 
 ---
-
 
 # トラッキングログ(nms:remoteTracking)
 
@@ -37,11 +34,11 @@ ht-degree: 31%
                <tr>
                   <td>logCountRead</td>
                   <td>LogCountRead</td>
-                  <td>integer </td>
+                  <td>整数 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>ログ</td>
+                  <td>logs</td>
                   <td>ログ</td>
                   <td>文字列 </td>
                   <td> </td>

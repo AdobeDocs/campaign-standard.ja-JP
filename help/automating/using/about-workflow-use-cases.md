@@ -1,23 +1,20 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: ワークフローの使用例について
-description: Campaign Standardワークフローを使用して実行できる使用例について詳しく説明します。
+title: ワークフローのユースケースについて
+description: ワークフローを使用して実行できる使用例について詳しくCampaign Standardします。
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
 feature: Workflows
 role: Data Architect
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 210d1477-9536-4308-bdb7-b9ccfe4c85bc
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 93%
+source-wordcount: '234'
+ht-degree: 94%
 
 ---
 
-
-# ワークフローの使用例について {#about-workflow-use-cases}
+# ワークフローのユースケースについて {#about-workflow-use-cases}
 
 この節では、Campaign ワークフロー機能を活用する様々なユースケースを示します。
 
@@ -27,8 +24,8 @@ ht-degree: 93%
 
 <img src="assets/do-not-localize/icon_workflows.svg" width="60px">
 
-* [補完を含む配信の作成](../../automating/using/workflow-created-query-with-complement.md)
-* [プロファイルの作成日の配信作成](../../automating/using/workflow-creation-date-query.md)
+* [補完を含んだ配信の作成](../../automating/using/workflow-created-query-with-complement.md)
+* [プロファイルの作成日での配信作成](../../automating/using/workflow-creation-date-query.md)
 * [週次配信の作成](../../automating/using/workflow-weekly-offer.md)
 * [クロスチャネル配信の作成](../../automating/using/workflow-cross-channel-delivery.md)
 * [配信前の重複の特定](../../automating/using/identifying-duplicated-before-delivery.md)
@@ -44,10 +41,10 @@ ht-degree: 93%
 
 * [クエリのサンプル](../../automating/using/query-samples.md)
 * [2 つの絞り込まれたオーディエンスの和集合](../../automating/using/union-on-two-refined-audiences.md)
-* [場所でのセグメントの作成](../../automating/using/workflow-segmentation-location.md)
+* [場所でのセグメンテーションの作成](../../automating/using/workflow-segmentation-location.md)
 * [メールを開封していないユーザーのリターゲティング](../../automating/using/workflow-cross-channel-retargeting.md)
 * [サービス購読者に対する増分処理クエリ](../../automating/using/incremental-query-on-subscribers.md)
-* [年齢層別のセグメント化](../../automating/using/segmentation-age-groups.md)
+* [年齢層によるセグメント化](../../automating/using/segmentation-age-groups.md)
 * [ターゲティングディメンションとは異なるリソースの使用](../../automating/using/using-resources-different-from-targeting-dimensions.md)
 
 ## データ管理 {#management}
@@ -57,13 +54,13 @@ ht-degree: 93%
 * [ファイルオーディエンスとデータベースの紐付け](../../automating/using/reconcile-file-audience-with-database.md)
 * [インポートされたファイルからのデータの重複排除](../../automating/using/deduplicating-data-imported-file.md)
 * [ファイルに含まれるデータによるプロファイルデータのエンリッチメント](../../automating/using/enriching-profile-data-file.md)
-* [外部シグナルのアクティビティとデータのインポート](../../automating/using/external-signal-data-import.md)
+* [外部シグナルアクティビティとデータのインポート](../../automating/using/external-signal-data-import.md)
 * [外部データを使用したデータベースの更新](../../automating/using/update-database-file.md)
 * [ファイルの自動ダウンロードに基づくデータの更新](../../automating/using/update-data-automatic-download.md)
 * [関係を使用したデータの紐付け](../../automating/using/reconciliation-using-relations.md)
 * [紐付けを使用したデータの更新](../../automating/using/data-update-reconciliation.md)
-* [外部ファイル内のプロファイルの書き出し](../../automating/using/exporting-profiles-in-file.md)
+* [外部ファイルへのプロファイルのエクスポート](../../automating/using/exporting-profiles-in-file.md)
 * [ファイルからの複数の購読ステータスの更新](../../automating/using/updating-subscriptions-from-file.md)
 * [ファイルから特定のサービスへのプロファイルの購読](../../automating/using/subscribing-profiles-from-file.md)
-* [Campaign コントロールパネルで生成されたキーを使用して暗号化されたデータのインポート](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt)
+* [Campaign コントロールパネルで生成したキーを使用した暗号化されたデータのインポート](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt)
 * [Campaign コントロールパネルにインストールされたキーを使用したデータの暗号化とエクスポート](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt)

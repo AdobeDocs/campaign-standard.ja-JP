@@ -1,13 +1,10 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: インポートテンプレートの定義
 description: インポートテンプレートを使用すると、必要な設定を減らし、データのインポートを高速化できます。
 audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
-translation-type: tm+mt
-source-git-commit: 501f52624ce253eb7b0d36d908ac8502cf1d3b48
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '787'
 ht-degree: 100%

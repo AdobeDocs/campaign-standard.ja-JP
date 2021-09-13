@@ -1,53 +1,50 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: ベストプラクティスのインポート
-description: データをデータベースにインポートする際に従うベストプラクティスの詳細を説明します。
+title: インポートのベストプラクティス
+description: データをデータベースにインポートする際に従うべきベストプラクティスについて詳しく説明します。
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 feature: Workflows
 role: Data Architect
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: bb651b91-145f-4e87-92dd-a8b04662e380
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 75%
+source-wordcount: '568'
+ht-degree: 74%
 
 ---
 
-
-# ベストプラクティスのインポート {#import-best-practices}
+# インポートのベストプラクティス {#import-best-practices}
 
 >[!CAUTION]
 >
->この機能を使用する際は、Adobe Campaign契約に従って、SFTPストレージ、DBストレージ、およびアクティブなプロファイルの制限に留意してください。
+>この機能を使用する際は、Adobe Campaign契約に従って、SFTPストレージ、DBストレージ、アクティブなプロファイルの制限に注意してください。
 
-次に説明するいくつかのシンプルなルールに注意して従うと、データベース内のデータの一貫性を確保し、データベースの更新中またはデータを読み込む際の一般的なエラーを避けるのに非常に役立ちます。
+次に説明するいくつかのシンプルなルールに注意して従うと、データベース内のデータの一貫性を確保し、データベースの更新時またはデータのエクスポート時の一般的なエラーを避けるのに非常に有効です。
 
 ## インポートテンプレートの使用 {#using-import-templates}
 
-ほとんどの読み込みワークフローには、次のアクティビティが含まれています。**[!UICONTROL Load file]**、**[!UICONTROL Reconciliation]**、**[!UICONTROL Segmentation]**、**[!UICONTROL Deduplication]**、**[!UICONTROL Update data]**。
+ほとんどの読み込みワークフローには、次のアクティビティが含まれます。**[!UICONTROL Load file]**、**[!UICONTROL Reconciliation]**、**[!UICONTROL Segmentation]**、**[!UICONTROL Deduplication]**、**[!UICONTROL Update data]**。
 
 インポートテンプレートを使用すると、同様のインポートを準備したり、データベース内のデータの一貫性を確保したりするのに非常に便利です。
 
-多くのプロジェクトでは、プロジェクトで使用されるファイルに重複がないので、**[!UICONTROL Deduplication]**&#x200B;アクティビティなしでインポートが構築されます。 複数のファイルをインポートすると、重複が発生する場合があります。そうなると、重複排除は困難になります。そのため、すべてのインポートワークフローで重複排除ステップを設けることは、優れた予防措置となります。
+プロジェクトで使用されるファイルには重複がないので、多くのプロジェクトでは、インポートは&#x200B;**[!UICONTROL Deduplication]**&#x200B;アクティビティなしで作成されます。 複数のファイルをインポートすると、重複が発生する場合があります。そうなると、重複排除は困難になります。そのため、すべてのインポートワークフローで重複排除ステップを設けることは、優れた予防措置となります。
 
 受信データは一貫性があり正しいとか、IT 部門や Adobe Campaign スーパーバイザーが対処するとは思わないでください。プロジェクトの間、データクレンジングに留意してください。データをインポートする際には、重複排除し、紐付けし、一貫性を維持します。
 
-データのインポート用に設計された汎用ワークフローテンプレートの例は、[例：ワークフローテンプレート](../../automating/using/creating-import-workflow-templates.md)セクションを読み込みます。
+データのインポート用に設計された汎用ワークフローテンプレートの例は、[例で使用できます。ワークフローテンプレート](../../automating/using/creating-import-workflow-templates.md)セクションをインポートします。
 
 >[!NOTE]
 >
->[インポートテンプレート](../../automating/using/importing-data-with-import-templates.md)も使用できます。 これらは、管理者が定義したワークフローテンプレートです。アクティブ化すると、読み込むデータを含むファイルを指定できるのはオファーのみになります。
+>[インポートテンプレート](../../automating/using/importing-data-with-import-templates.md)を使用することもできます。 ワークフローテンプレートは、管理者が定義したワークフローテンプレートで、アクティブ化すると、インポートするデータを含むファイルを指定できるようになります。
 
 **関連トピック：**
 
 * [ファイルを読み込みアクティビティ](../../automating/using/load-file.md)
-* [調整アクティビティ](../../automating/using/reconciliation.md)
+* [紐付けアクティビティ](../../automating/using/reconciliation.md)
 * [Segmentation アクティビティ](../../automating/using/segmentation.md)
-* [重複排除 - 重複アクティビティ](../../automating/using/deduplication.md)
-* [データアクティビティの更新](../../automating/using/update-data.md)
+* [重複排除 — 重複アクティビティ](../../automating/using/deduplication.md)
+* [データ更新アクティビティ](../../automating/using/update-data.md)
 
 ## フラットファイルフォーマットの使用 {#using-flat-file-formats}
 
@@ -58,7 +55,7 @@ ht-degree: 75%
 * 区切り記号：タブまたはセミコロン
 * 最初の行は見出し
 * 文字列の区切り記号なし
-* 日付フォーマット：YYYY/MM/DD HH:mm:SS
+* 日付の形式：YYYY/MM/DD HH:mm:SS
 
 インポートするファイルの例：
 
@@ -72,7 +69,7 @@ Durance;Allison;15/12/1978;allison.durance@example.com;120987
 
 ## 圧縮の使用 {#using-compression}
 
-可能な限り、圧縮されたファイルをインポートおよびエクスポートに使用します。GZIP がデフォルトでサポートされています。 ファイルの読み込み時に前処理を追加したり、データ抽出時に後処理を追加したりできます(それぞれ&#x200B;**[!UICONTROL Load file]**&#x200B;ワークフローアクティビティーと&#x200B;**[!UICONTROL Extract file]**&#x200B;ワークフローフォルダー内)。
+可能な限り、圧縮されたファイルをインポートおよびエクスポートに使用します。GZIP がデフォルトでサポートされています。 **[!UICONTROL Load file]**&#x200B;と&#x200B;**[!UICONTROL Extract file]**&#x200B;のワークフローアクティビティで、ファイルのインポート時やデータの抽出時の前処理を追加できます。
 
 **関連トピック：**
 

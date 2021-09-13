@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: Adobe Experience Platform SDKへのSDK v4モバイルアプリケーションの移行
 description: このドキュメントでは、モバイルアプリケーションをSDK v4からAdobe Experience Platform SDKに移行できます
 audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
-feature: インスタンス設定
+feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: eb7a209e-069e-4068-966d-05344bd838c7
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1204'
+source-wordcount: '1202'
 ht-degree: 1%
 
 ---
@@ -95,7 +93,7 @@ AdobeSDKのバージョンをv4からAdobe Experience Platformにアップグレ
 2つの異なるタイプの購読者を区別するために、カスタムリソース&#x200B;**[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]**&#x200B;を`sdkversion`や`appVersion`などとして拡張する場合に、**[!UICONTROL Text]**&#x200B;タイプの新しいカスタムフィールドを追加できます。 カスタムリソースの拡張方法について詳しくは、この[ページ](../../developing/using/creating-or-extending-the-resource.md)を参照してください。
 次に、関連するLaunch **[!UICONTROL Mobile property]**&#x200B;を設定して、このカスタムフィールド値をCollect PII呼び出しで送信し、それに応じてモバイルアプリケーション設定を変更する必要があります。
 
-## よくある質問 {#faq}
+## FAQ {#faq}
 
 ### Q:SDK v4モバイルアプリケーションでは、「 Adobe Experience Platform SDKへのモバイルアプリケーションの移行」タブは表示されません。 {#tab-not-visible}
 

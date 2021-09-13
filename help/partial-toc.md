@@ -1,12 +1,9 @@
 ---
 keywords: Campaign Standard;home;popular topics
-solution: Campaign Standard
-product: campaign
 title: Adobe Campaign Standard 製品ドキュメント
 description: Campaign Standard 製品ドキュメントの参照
 topic: Premium
-translation-type: tm+mt
-source-git-commit: 189cd93d12dfd7838dae87dd4c8de19c10926ce6
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '35'
 ht-degree: 100%
@@ -21,6 +18,6 @@ ht-degree: 100%
    + [タイポロジルールについて](sending/using/about-typology-rules.md)
    + [タイポロジルールについて - リスト](sending/using/about-typology-rules.md#typology-rules)
    + [E メールチャネルの設定](administration/using/configuring-email-channel.md)
-   + [フィルタールール](sending/using/filtering-rules.md)
+   + [フィルタリングルール](sending/using/filtering-rules.md)
 + 開始{#starting}
    + [インターフェイスについて](start/using/about-the-interface.md)

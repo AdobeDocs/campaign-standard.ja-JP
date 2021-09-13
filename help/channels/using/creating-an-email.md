@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: E メールの作成
 description: Adobe Campaignで単一送信Eメールを作成するには、次の手順に従います。
 audience: channels
 content-type: reference
 topic-tags: email-messages
-feature: メール
+feature: Email
 role: User
 level: Beginner
 exl-id: 4483e469-0a2b-494d-b768-950168759727
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 21%
+source-wordcount: '556'
+ht-degree: 20%
 
 ---
 
@@ -21,7 +19,7 @@ ht-degree: 21%
 
 [キャンペーン](../../start/using/marketing-activities.md#creating-a-marketing-activity)、Adobe Campaignの[ホームページ](../../start/using/interface-description.md#home-page)、または[マーケティングアクティビティリスト](../../start/using/marketing-activities.md#about-marketing-activities)から電子メールを作成できます。 ワークフローから 1 回限りの電子メールや定期的な電子メールを作成することもできます。
 
-![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](#video)
+![](assets/do-not-localize/how-to-video.png) [この機能をビデオで確認](#video)
 
 1. 電子メールマーケティングアクティビティの作成を開始したら、使用するテンプレートを選択します。
 

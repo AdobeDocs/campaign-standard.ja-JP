@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: メッセージ送信時のコントロール母集団の追加
 description: Adobe Campaign Standard を使用してメッセージのターゲットを定義する際に、コントロール母集団を追加する方法を説明します。
 audience: automating
 content-type: reference
 topic-tags: execution-activities
 context-tags: workflow,use-case,query,segmentation,delivery
-feature: コントロール母集団
+feature: Control Groups
 role: User
 level: Intermediate
 exl-id: 553897d4-2652-453f-960e-bb2993889f37
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1334'
+source-wordcount: '1332'
 ht-degree: 100%
 
 ---

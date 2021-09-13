@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: アプリ内メッセージの準備と送信
 description: アプリ内メッセージを作成して、アプリケーション購読者を対象に特定のコンテンツを提供します。
 audience: channels
 content-type: reference
 topic-tags: in-app-messaging
 context-tags: delivery,triggers,back;deliveryCreation,wizard
-feature: アプリ内
+feature: In App
 role: User
 exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1173'
+source-wordcount: '1171'
 ht-degree: 98%
 
 ---
@@ -46,7 +44,7 @@ Adobe Campaign を使用してスタンドアロンのアプリ内メッセー�
 
    アプリ内メッセージは、キャンペーン、または Adobe Campaign ホームページから、あるいはワークフローの内部でも作成できます。
 
-1. 「**In-App message**」を選択します。
+1. 「**アプリ内メッセージ**」を選択します。
 
    ![](assets/inapp_creating.png)
 

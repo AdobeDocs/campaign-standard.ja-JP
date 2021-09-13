@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 多言語プッシュ通知の作成
 description: 多言語のプッシュ通知を作成して、ユーザーを優先言語と地域のターゲットに設定します。
 audience: channels
 content-type: reference
 topic-tags: push-notifications
-feature: プッシュ
+feature: Push
 role: User
 level: Intermediate
 exl-id: 1b81f6e9-cb31-4664-af78-22e70043fbc8
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '921'
+source-wordcount: '920'
 ht-degree: 3%
 
 ---

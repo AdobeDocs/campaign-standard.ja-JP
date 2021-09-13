@@ -1,34 +1,31 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: サービスの作成
-description: APIを使用したサービスの作成方法を説明します。
+description: APIを使用してサービスを作成する方法を説明します。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 91bbce9e-a618-4be2-840b-c7d021271f4e
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '77'
-ht-degree: 9%
+source-wordcount: '73'
+ht-degree: 8%
 
 ---
 
-
 # サービスの作成 {#creating-a-service}
 
-サービスリソースに対する&#x200B;**POST**&#x200B;要求を使用して、サービスの作成が実行されます。
+サービスの作成は、サービスリソースに対する&#x200B;**POST**&#x200B;リクエストを使用して実行されます。
 
-特定の属性を持つサービスを作成する場合は、ペイロードに追加します。 それ以外の場合は、新しいサービスはデフォルトのサービスで作成されます。
+特定の属性を持つサービスを作成する場合は、ペイロードに追加します。 それ以外の場合は、新しいサービスがデフォルトのサービスで作成されます。
 
 <br/>
 
-***サンプルリクエスト***
+***リクエストのサンプル***
 
-特定の属性を持つサービスを作成するためのサンプルPOST要求です。
+特定の属性を持つサービスを作成するPOSTリクエストのサンプル。
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/ \

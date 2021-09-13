@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: ファイル読み込み
 description: 「ファイル読み込み」アクティビティを使用すると、1 つの構造化されたフォームにデータをインポートして、Adobe Campaign で使用することができます。
 audience: automating
@@ -10,22 +8,21 @@ context-tags: fileImport,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 373e4012-9daf-4da7-aad6-54726d991544
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1368'
+source-wordcount: '1364'
 ht-degree: 93%
 
 ---
 
-
-# ファイル読み込み {#load-file}
+# ファイルを読み込み {#load-file}
 
 ## 説明 {#description}
 
 >[!CAUTION]
 >
->この機能を使用する際は、Adobe Campaign契約に従って、SFTPストレージ、DBストレージ、およびアクティブなプロファイルの制限に留意してください。
+>この機能を使用する際は、Adobe Campaign契約に従って、SFTPストレージ、DBストレージ、アクティブなプロファイルの制限に注意してください。
 
 ![](assets/data_loading.png)
 
@@ -48,8 +45,8 @@ ht-degree: 93%
 
 * [使用例：外部データを使用したデータベースの更新](../../automating/using/update-database-file.md)
 * [使用例：ファイルの自動ダウンロードに基づくデータの更新](../../automating/using/update-data-automatic-download.md)
-* [使用例：強化されたフィールドを含む電子メールの送信](../../automating/using/sending-email-enriched-fields.md)
-* [使用例：ファイルオーディエンスとデータベースとの調整](../../automating/using/reconcile-file-audience-with-database.md)
+* [使用例：フィールドがエンリッチメントされたEメールの送信](../../automating/using/sending-email-enriched-fields.md)
+* [使用例：ファイルオーディエンスとデータベースとの紐付け](../../automating/using/reconcile-file-audience-with-database.md)
 
 ## 設定 {#configuration}
 
@@ -108,7 +105,7 @@ ht-degree: 93%
 
 1. データの読み込み元のファイルが圧縮されて GZIP ファイル（.gz）になっている場合は、「**[!UICONTROL Add a pre-processing stage]**」フィールドで「**[!UICONTROL Decompression]**」オプションを選択します。これにより、データを読み込む前にファイルを解凍できます。このオプションは、ファイルがアクティビティの受信トランジションから送信されている場合にのみ使用できます。
 
-   **[!UICONTROL Add a pre-processing stage]**&#x200B;フィールドでは、ファイルをデータベースにインポートする前に、ファイルを復号化することもできます。 暗号化されたファイルの使い方について詳しくは、[この](../../automating/using/managing-encrypted-data.md)を参照してください。
+   **[!UICONTROL Add a pre-processing stage]**&#x200B;フィールドでは、データベースにインポートする前にファイルを復号化することもできます。 暗号化されたファイルの使用方法について詳しくは、[この節](../../automating/using/managing-encrypted-data.md)を参照してください。
 
 1. 「**[!UICONTROL Keep the rejects in a file]**」オプションを使用すると、インポート中に発生したエラーが含まれるファイルをダウンロードし、後処理段階でそのファイルに適用することができます。このオプションを有効にすると、送信トランジションの名前が「却下」に変更されます。
 

@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: プッシュ通知について
 description: Adobe Campaign 内のプッシュ通知チャネルの主な特徴について説明します。
 audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: mobileApp,overview
-feature: プッシュ
+feature: Push
 role: User
 level: Intermediate
 exl-id: e61daed6-a0ec-49d8-b1ad-77590fafb496
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1279'
+source-wordcount: '1278'
 ht-degree: 50%
 
 ---
@@ -146,7 +144,7 @@ Androidの場合、Campaignは、通知ペイロードではなく、データ�
 
 ### Campaignでプッシュレポートを有効にするには、どうすればよいですか？ {#push-reporting-enable}
 
-次の手順に従います。
+以下の手順に従います。
 
 * プッシュトラッキングポストバックを設定します。 手順は[ここ](../../administration/using/configuring-a-mobile-application.md)にあります。
 * Mobile CoreからtrackAction APIを実装します。 詳しくは、この[ページ](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference)を参照してください。

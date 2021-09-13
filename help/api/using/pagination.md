@@ -1,7 +1,5 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: ページ編集
+title: ページネーション
 description: ページネーション操作の実行方法を説明します。
 audience: developing
 content-type: reference
@@ -9,32 +7,31 @@ topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: d6ebce3c-1e84-4b3b-a68d-90df4680af64
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '157'
 ht-degree: 1%
 
 ---
 
-
-# ページ編集
+# ページネーション
 
 デフォルトでは、25個のリソースがリストに読み込まれます。
 
-**_lineCount**&#x200B;パラメーターを使用すると、応答に含めるリソースの数を制限できます。  その後、**次の**&#x200B;ノードを使用して、次の結果を表示できます。
+**_lineCount**&#x200B;パラメーターを使用すると、応答に表示するリソースの数を制限できます。  その後、**next**&#x200B;ノードを使用して、次の結果を表示できます。
 
 >[!NOTE]
 >
->**次の**&#x200B;ノードで返されたURL値を常に使用して、ページネーションリクエストを実行します。
+>ページネーションリクエストを実行する場合は、必ず&#x200B;**次の**&#x200B;ノードで返されるURL値を使用します。
 >
->**_lineStart**&#x200B;リクエストが計算され、**次の**&#x200B;ノードで返されるURL内で常に使用される必要があります。
+>**_lineStart**&#x200B;リクエストが計算され、常に&#x200B;**next**&#x200B;ノードで返されるURL内で使用する必要があります。
 
 <br/>
 
-***サンプルリクエスト***
+***リクエストのサンプル***
 
-プロファイルリソースの1レコードを表示するサンプルGETリクエスト。
+プロファイルGETの1レコードを表示するサンプルリソースリクエスト。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile?_lineCount=1 \
@@ -44,7 +41,7 @@ ht-degree: 1%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-**次の**&#x200B;ノードを使用して、リクエストに応答し、ページネーションを実行します。
+**next**&#x200B;ノードを使用してリクエストに応答し、ページネーションを実行します。
 
 ```
 {
@@ -65,7 +62,7 @@ ht-degree: 1%
 }
 ```
 
-デフォルトでは、大量のデータを含むテーブルを操作する場合、**次の**&#x200B;ノードは使用できません。 ページ番号割り付けを実行するには、呼び出しURLに&#x200B;**_forcePagination=true**&#x200B;パラメーターを追加する必要があります。
+デフォルトでは、大量のデータを含むテーブルを操作する際に、**next**&#x200B;ノードは使用できません。 ページネーションを実行するには、呼び出しURLに&#x200B;**_forcePagination=true**&#x200B;パラメーターを追加する必要があります。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile?_forcePagination=true \
@@ -77,4 +74,4 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->テーブルが大きいと見なされるレコードの数は、Campaign Standard **XtkBigTableThreshold**&#x200B;に定義されています。 デフォルト値は100,000レコードです。
+>上記のレコードの数のうち、テーブルの大きいと見なされるレコードの数は、Campaign Standard **XtkBigTableThreshold**&#x200B;オプションで定義されます。 デフォルト値は100,000レコードです。

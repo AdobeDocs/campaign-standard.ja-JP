@@ -1,8 +1,6 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: ファイルオーディエンスとデータベースの紐付け
-description: この例では、オーディエンスの読み取りアクティビティを使用して、ファイルのインポートから直接作成されたオーディエンスを調整する方法を示します。
+description: この例では、「オーディエンスの閲覧」アクティビティを使用して、ファイルインポートから直接作成されたオーディエンスを紐付ける方法を示します。
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -10,14 +8,13 @@ context-tags: readAudience,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 6a59907d-850e-4d61-b1f7-8fc8b915580e
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 86%
+source-wordcount: '254'
+ht-degree: 87%
 
 ---
-
 
 # ファイルオーディエンスとデータベースの紐付け {#example--reconcile-a-file-audience-with-the-database}
 
@@ -53,6 +50,6 @@ ht-degree: 86%
 
 ![](assets/readaudience_activity_example2.png)
 
-* [読み取りオーディエンス](../../automating/using/read-audience.md)アクティビティは、読み込みワークフローで作成されたファイルオーディエンスをアップロードします。 オーディエンスデータは、Adobe Campaign データベースとまだ紐付けされていません。
+* 「 [オーディエンス](../../automating/using/read-audience.md)の読み取り」アクティビティは、インポートワークフローで作成されたファイルオーディエンスをアップロードします。 オーディエンスデータは、Adobe Campaign データベースとまだ紐付けされていません。
 * 「[紐付け](../../automating/using/reconciliation.md)」アクティビティは、読み込んだデータをプロファイルとして「**[!UICONTROL Identification]**」タブから識別します。例えば、「**E メール**」フィールドを紐付け条件として使用します。
 * 「[データ更新](../../automating/using/update-data.md)」アクティビティは、データベースのプロファイルリソースを挿入し、読み込んだデータを使用して更新します。データが既にプロファイルとして識別されているので、アクティビティの「**[!UICONTROL Identification]**」タブで「**[!UICONTROL Directly using the targeting dimension]**」オプションを選択し、「**[!UICONTROL Profiles]**」を選択できます。そして、当該タブで更新する必要のあるフィールドのリストを追加するだけです。

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: インターフェイスの説明
 description: Adobe Campaign ワークスペースのホームページ、上部バー、詳細設定メニュー、アクションバーのナビゲーションおよび使用方法について説明します。
 audience: start
@@ -10,7 +8,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: afdd981d-f6c7-4800-9e60-3018e0e41c74
-source-git-commit: 68be77ba6ae38734688cf3f5c8667bffb90844b4
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '1258'
 ht-degree: 79%

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: ダイレクトメール配信
 description: 「ダイレクトメール配信」アクティビティでは、ワークフロー内で単一送信ダイレクトメールまたは繰り返しダイレクトメールの送信を設定できます。
 audience: automating
@@ -10,14 +8,13 @@ context-tags: directMail,workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: c7854b7b-f955-47ce-99d6-86b3186fd297
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '918'
-ht-degree: 98%
+source-wordcount: '914'
+ht-degree: 99%
 
 ---
-
 
 # ダイレクトメール配信{#direct-mail-delivery}
 
@@ -44,7 +41,7 @@ ht-degree: 98%
 
 **関連トピック：**
 
-* [使用例：電子メールとダイレクトメールの配信の結合](../../automating/using/coupling-email-direct-mail.md)
+* [使用例：Eメールとダイレクトメールの配信の結合](../../automating/using/coupling-email-direct-mail.md)
 * [ダイレクトメールについて](../../channels/using/about-direct-mail.md)
 
 ## 設定 {#configuration}

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: インポートテンプレートを使用したデータのインポート
 description: データを収集して Campaign データベースに入力する方法を説明します。
 audience: automating
@@ -9,14 +7,13 @@ topic-tags: importing-and-exporting-data
 feature: Workflows
 role: Data Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 5e93b39e-cdd1-4632-8f65-dfa76a735626
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1094'
+source-wordcount: '1090'
 ht-degree: 99%
 
 ---
-
 
 # インポートテンプレートを使用したデータのインポート{#importing-data-with-import-templates}
 
@@ -45,7 +42,7 @@ Adobe Campaign には、[ワークフロー](../../automating/using/get-started-
 
 これで、インポートの実行の詳細を確認できます。インポートされたファイルと、却下されたデータ（インポートされなかったデータ）を含んだファイルの両方を、コンピューターにダウンロードできます。
 
-## インポートテンプレートの設定{#setting-up-import-templates}
+## インポートテンプレートの設定 {#setting-up-import-templates}
 
 インポートテンプレートを使用すると、管理者は一定数の技術的なインポート設定を事前に定義できます。これらのテンプレートにより、標準のユーザーがファイルの実行やアップロードをおこなえるようになります。
 

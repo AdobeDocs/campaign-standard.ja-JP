@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: パーソナライズしたコンテンツの作成
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: メッセージコンテンツをデザインし、配信の実行を妨げる可能性がある一般的な問題を回避する方法を説明します。 
-feature: 配信品質
+feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 938989c9-ef19-4297-9b8b-c38eb1cec1f0
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1034'
+source-wordcount: '1033'
 ht-degree: 69%
 
 ---
@@ -85,7 +83,7 @@ E メールの制限を守るには、以下を考慮してください。
 
 * コードの縮小
 
-最終送信の前に、必ず変更をテストしてください.
+最終送信の前に、必ず変更をテストしてください。
 
 Adobe Campaignでは、Eメールのデフォルトの最大サイズは&#x200B;**100MB**&#x200B;に設定されます。 <!--This limit enables to prevent any error that could indefinitely increase the size of an email, which can lead to a system crash.-->
 
@@ -146,6 +144,6 @@ Adobeでは、メッセージの最大サイズのデフォルト値を維持す
 
 ## メッセージのプレビュー {#preview-msg}
 
-メッセージをプレビューして、パーソナライゼーションと受信者に対する配信の表示方法を確認することをお勧めします。
+メッセージをプレビューして、パーソナライゼーションと受信者に対する配信の表示を確認することをお勧めします。
 
 Eメールデザイナーでは、「**[!UICONTROL Preview]**」ボタンを使用して、特定の受信者向けに各コンテンツをレンダリングした結果を確認できます。 コンテンツのパーソナライゼーションフィールドや条件付き要素は、選択したプロファイル内の対応する情報で置き換えられます。[詳細情報](../../sending/using/previewing-messages.md)

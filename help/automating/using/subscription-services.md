@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: サブスクリプションサービス
 description: サブスクリプションサービスアクティビティを使用すると、プロファイルを一括でサービスに購読登録したり、サービスから購読登録を解除したりできます。
 audience: automating
@@ -10,16 +8,15 @@ context-tags: setOfService,workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 612b6203-1cc9-4015-a026-e5a249f3d03d
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '1110'
 ht-degree: 98%
 
 ---
 
-
-# サブスクリプションサービス {#subscription-services}
+# 購読サービス {#subscription-services}
 
 ## 説明 {#description}
 
@@ -42,7 +39,7 @@ ht-degree: 98%
 **関連トピック：**
 
 * [使用例：ファイルからの複数の購読ステータスの更新](../../automating/using/updating-subscriptions-from-file.md)
-* [使用例：ファイルから特定のサービスへのプロファイルのサブスクライブ](../../automating/using/subscribing-profiles-from-file.md)
+* [使用例：ファイルから特定のサービスへのプロファイルの購読登録](../../automating/using/subscribing-profiles-from-file.md)
 
 ## 設定 {#configuration}
 
@@ -161,4 +158,3 @@ ht-degree: 98%
    「**[!UICONTROL Operation type]**」は、ファイルの **operation** フィールドに由来するものとして識別されます。ここで選択できるのは、ブール値フィールドまたは整数フィールドのみです。実行する操作を記述しているファイル列がリストに表示されない場合は、前述のように、「**[!UICONTROL Load file]**」アクティビティで列の形式が正しく設定されていることを確認してください。
 
    ![](assets/subscription_activity_example_from_file.png)
-

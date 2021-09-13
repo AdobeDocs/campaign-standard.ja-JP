@@ -1,18 +1,16 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: プロファイルとオーディエンスの基本を学ぶ
 description: ターゲット母集団の定義、オーディエンスの選択、受信者のフィルタリング、データの収集、プロファイルの更新をおこないます。
 audience: audiences
 content-type: reference
 topic-tags: about-profiles-and-audiences
-feature: プロファイル
+feature: Profiles
 role: User
 level: Beginner
 exl-id: b4de2f1a-09ec-486d-b1ef-66208cbe211f
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '604'
 ht-degree: 25%
 
 ---

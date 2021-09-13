@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 送信日の計算
 description: 特定の日時にメッセージを送信する方法を確認します。
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
-feature: パフォーマンス監視
+feature: Performance Monitoring
 role: User
 level: Intermediate
 exl-id: 7a0cd10a-24e6-44d1-842c-2067bfbac838
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 8%
+source-wordcount: '998'
+ht-degree: 7%
 
 ---
 

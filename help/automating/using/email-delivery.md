@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: E メール配信
 description: 「E メール配信」アクティビティでは、ワークフローでの単一送信 E メールまたは繰り返し E メールの送信を設定できます。
 audience: automating
@@ -10,14 +8,13 @@ context-tags: delivery,workflow,main
 feature: Workflows
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: e38ff3dd-8fb0-419b-9090-a3165852bf83
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '857'
 ht-degree: 94%
 
 ---
-
 
 # E メール配信{#email-delivery}
 
@@ -68,7 +65,7 @@ E メール受信者は、「クエリ」や「積集合」などのターゲテ
       例えば、毎日送信する誕生日の繰り返し E メールの場合、送信を 1 ヶ月ごとに集計するように選択できます。これにより、毎日送信する E メールでも、配信のレポートを月単位で受け取ることができます。
    >[!NOTE]
    >
-   >**集約期間**&#x200B;に基づいて反復配信を作成する。 たとえば、集計期間が「日別」の場合、配信は1日に1回のみ再準備されます。 このワークフローを1日に複数回呼び出す場合は、[!UICONTROL No aggregation]を使用してください。
+   >繰り返し配信は、**集計期間**&#x200B;に基づいて準備されます。 例えば、集計期間が「日別」の場合、配信は1日に1回だけ再準備されます。 このワークフローを1日に複数回呼び出す予定がある場合は、[!UICONTROL No aggregation]を使用します。
 
 1. E メールのタイプを選択します。E メールのタイプは、**[!UICONTROL Resources]**／**[!UICONTROL Templates]**／**[!UICONTROL Delivery templates]**&#x200B;メニューに定義されている E メールテンプレートに基づいています。
 1. E メールの一般的なプロパティを入力します。既存のキャンペーンに E メールを添付することもできます。ワークフローの配信アクティビティのラベルが、E メールのラベルに更新されます。

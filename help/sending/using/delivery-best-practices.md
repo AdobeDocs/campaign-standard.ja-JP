@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: キャンペーン配信のベストプラクティス
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
 description: Adobe Campaign を使用した配信のデザインと送信に関するベストプラクティスについて説明します。
-feature: 配信品質
+feature: Deliverability
 role: User
 level: Intermediate
 exl-id: ba080b64-9106-4d5b-958b-3c5e738cb42a
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: '95'
 ht-degree: 47%
 
 ---

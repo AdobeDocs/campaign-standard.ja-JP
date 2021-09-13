@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 購読の監視
 description: ダッシュボードとレポートを使用して、購読者を追跡し、サービスの成功を測定する方法を説明します。
 audience: audiences
@@ -10,9 +8,9 @@ feature: Audiences
 role: User
 level: Intermediate
 exl-id: ad380122-6791-4580-b0eb-fce75b1ec863
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '357'
 ht-degree: 2%
 
 ---

@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 並べ替え
 description: 並べ替え操作の実行方法の詳細
 audience: developing
@@ -9,26 +7,25 @@ topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 7db25b8d-a6f1-4151-bf37-c47e9991ae48
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '93'
+source-wordcount: '89'
 ht-degree: 11%
 
 ---
 
-
 # 並べ替え
 
-並べ替えは、昇順または降順で行うことができます。 これを行うには、**%20desc**&#x200B;または&#x200B;**%20asc**&#x200B;パラメーターをリクエストに使用します。
+並べ替えは、昇順または降順で実行できます。 これをおこなうには、リクエストに&#x200B;**%20desc**&#x200B;または&#x200B;**%20asc**&#x200B;パラメーターを使用します。
 
-フィールドが並べ替え可能かどうかを確認するには、「並べ替え可能」パラメータをリソースメタデータにチェックインします。 詳しくは、[こちらの節](../../api/using/metadata-mechanism.md)を参照してください。
+フィールドが並べ替え可能かどうかを知るには、リソースメタデータに「並べ替え可能」パラメーターをチェックします。 詳しくは、[この節](../../api/using/metadata-mechanism.md)を参照してください。
 
 <br/>
 
 ***リクエストのサンプル***
 
-* GET内の電子メールをアルファベット順に取得する場合のデータリクエスト例。
+* GET内のEメールをアルファベット順に取得するサンプルデータリクエスト。
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email/email?_order=email \
@@ -38,7 +35,7 @@ ht-degree: 11%
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-   リクエストに対する応答。
+   リクエストへの応答。
 
    ```
    {
@@ -53,7 +50,7 @@ ht-degree: 11%
    }
    ```
 
-* GET内の電子メールを降順で取得するためのサンプルデータリクエストです。
+* GET内のEメールを降順で取得するサンプルデータリクエスト。
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_order=email%20desc \
@@ -63,7 +60,7 @@ ht-degree: 11%
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-   リクエストに対する応答。
+   リクエストへの応答。
 
    ```
    {

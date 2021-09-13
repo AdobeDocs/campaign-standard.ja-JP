@@ -1,42 +1,39 @@
 ---
-solution: Campaign Standard
-product: campaign
-title: サブスクリプションの削除
-description: APIを使用して購読を削除する方法を説明します。
+title: 購読の削除
+description: APIを使用してサブスクリプションを削除する方法について説明します。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
 role: Data Engineer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 76e2d102-c877-41a6-af87-2f407201a572
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 2%
+source-wordcount: '233'
+ht-degree: 1%
 
 ---
 
-
-# サブスクリプションの削除 {#mdeleting-subscriptions}
+# 購読の削除 {#mdeleting-subscriptions}
 
 <!--NOTE TO WRITER: There are two duplicate headings that seem to have the same content. Delete one? Rename if different?-->
 
-## 特定のプロファイル{#deleting-service-subscription}のサービス購読の削除
+## 特定のプロファイルのサービスサブスクリプションの削除 {#deleting-service-subscription}
 
-これは3つの手順から成る手順です。
+これは3つの手順で構成される手順です。
 
 1. 目的のプロファイルの購読URLを取得します。
 1. 購読URLでGETリクエストを実行します。
 1. 目的のサービスURLに対してDELETEリクエストを実行します。
 
-削除要求が成功した場合、応答ステータスは「204 No Content」になります。
+削除リクエストが成功した場合、応答ステータスは「204 No Content」になります。
 
 <br/>
 
-***サンプルリクエスト***
+***リクエストのサンプル***
 
-以下のサンプルペイロードでは、サービスからプロファイルを登録解除する方法を示します。 最初に、GETリクエストを実行してプロファイルを取得します。
+以下のサンプルペイロードでは、サービスからプロファイルを購読解除する方法を示します。 最初に、GETリクエストを実行して、プロファイルを取得します。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -69,7 +66,7 @@ ht-degree: 2%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-選択したプロファイルの購読のリストと、サブスクライブされた各サービスのURLを返します。
+選択したプロファイルの購読のリストと、購読された各サービスのURLが返されます。
 
 ```
 ...
@@ -95,19 +92,19 @@ ht-degree: 2%
 
 <!-- + réponse -->
 
-## 特定のプロファイルのサービス購読の削除
+## 特定のプロファイルのサービスサブスクリプションの削除
 
-これは3つの手順から成る手順です。
+これは3つの手順で構成される手順です。
 
 1. 目的のサービスと購読URLを取得します。
-1. 購読URLに対してGETリクエストを実行し、すべてのプロファイル購読を取得します。
-1. 目的のプロファイル購読URLに対してDELETEリクエストを実行します。
+1. 購読URLでGETリクエストを実行して、すべてのプロファイル購読を取得します。
+1. 目的のDELETEサブスクリプションURLに対してプロファイルリクエストを実行します。
 
-削除要求が成功した場合、応答ステータスは「204 No Content」になります。
+削除リクエストが成功した場合、応答ステータスは「204 No Content」になります。
 
 <br/>
 
-***サンプルリクエスト***
+***リクエストのサンプル***
 
 サービスレコードを取得します。
 
@@ -146,7 +143,7 @@ ht-degree: 2%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-選択したサービスの購読のリストと、各プロファイル購読のURL (href)を返します。
+選択したサービスの購読のリストと、各プロファイル購読のURL(href)が返されます。
 
 ```
 {
@@ -163,7 +160,7 @@ ht-degree: 2%
 }
 ```
 
-目的のプロファイル購読URLに対してDELETEリクエストを実行します。
+目的のDELETEサブスクリプションURLに対してプロファイルリクエストを実行します。
 
 ```
 -X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions/<PKEY> \

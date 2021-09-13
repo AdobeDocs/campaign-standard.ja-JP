@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: プッシュ通知の作成と送信
 description: Adobe Campaignで単一送信プッシュ通知を作成するには、次の手順に従います。
 audience: channels
 content-type: reference
 topic-tags: push-notifications
 context-tags: delivery,mobileAppContent,back
-feature: プッシュ
+feature: Push
 role: User
 level: Intermediate
 exl-id: 41b83014-aea9-4ec2-b20e-c0a05bcad503
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '858'
+source-wordcount: '857'
 ht-degree: 4%
 
 ---

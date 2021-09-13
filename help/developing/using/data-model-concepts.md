@@ -1,6 +1,4 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: データモデルの概念
 description: Adobe Campaign データモデルとその変更方法について説明します。
 audience: developing
@@ -10,14 +8,13 @@ context-tags: cusResource,overview;eventCusResource,overview
 feature: Data Model
 role: Developer
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 6e9e016a-473b-4a51-8bd6-c23c7b3d3610
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '244'
 ht-degree: 79%
 
 ---
-
 
 # データモデルの概念{#data-model-concepts}
 
@@ -37,7 +34,7 @@ Adobe Campaign が使用するデータは、様々なリソースを通じて�
 
 >[!NOTE]
 >
->組み込みリソースのデータモデル表現は[このページ](../../developing/using/datamodel-introduction.md)にあります。
+>[このページ](../../developing/using/datamodel-introduction.md)には、組み込みリソースのデータモデル表現が含まれています。
 
 また、作成したリソースに対応する画面で[ナビゲーションを設定](configuring-the-screen-definition.md)することもできます。
 
@@ -45,4 +42,4 @@ Adobe Campaign が使用するデータは、様々なリソースを通じて�
 
 >[!CAUTION]
 >
->**[!UICONTROL Administration]**&#x200B;役割と&#x200B;****&#x200B;へのアクセス権を持つ機能的な[管理者](../../administration/using/users-management.md#functional-administrators)のみが、送信ログ、メッセージログ、トラッキングログ、除外、または購読ログにアクセスできます。 管理者以外のユーザーは、これらのログにターゲットできますが、リンクされたテーブル(プロファイル、配信)から開始できます。
+>**[!UICONTROL Administration]**&#x200B;の役割と&#x200B;**へのアクセス権を持つ機能[管理者](../../administration/using/users-management.md#functional-administrators)のみが、送信ログ、メッセージログ、トラッキングログ、除外ログ、サブスクリプションログにアクセスできます。**&#x200B;管理者以外のユーザーは、これらのログをターゲットに設定できますが、リンクされたテーブル（プロファイル、配信）から始めることができます。

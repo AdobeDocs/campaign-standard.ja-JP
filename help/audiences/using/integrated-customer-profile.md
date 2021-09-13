@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: 統合顧客プロファイル
 description: 「1 つのビューですべての顧客インタラクションを追跡：Adobe Campaign の統合顧客プロファイルは、顧客のライフサイクル全体を通じて更新されます。」
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles
 context-tags: marketingHistory,main
-feature: プロファイル
+feature: Profiles
 role: User
 level: Beginner
 exl-id: cf3c6408-7fa0-423a-b34b-f4fee771fb47
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '281'
 ht-degree: 48%
 
 ---

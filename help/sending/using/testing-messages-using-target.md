@@ -1,19 +1,17 @@
 ---
-solution: Campaign Standard
-product: campaign
 title: ターゲットプロファイルを使用した E メールメッセージのテスト
 description: ターゲットプロファイルと代用アドレスを使用してメッセージをテストする方法を説明します。
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
 context-tags: seedMember,overview
-feature: コントロール母集団
+feature: Control Groups
 role: User
 level: Intermediate
 exl-id: aa68914f-0497-40ba-98c8-4d4b2c6705fb
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
+source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1516'
+source-wordcount: '1514'
 ht-degree: 4%
 
 ---
@@ -41,7 +39,7 @@ ht-degree: 4%
 >
 >この機能を使用すると、プロファイルの個人情報を外部の E メールアドレスに送信できます。Campaign Standard でプライバシーリクエスト（GDPR および CCPA）を実行しても、リクエストは外部で実行されないことに注意してください。
 
-![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](#video)
+![](assets/do-not-localize/how-to-video.png) [この機能をビデオで確認](#video)
 
 ## プロファイルと代用アドレスの選択 {#selecting-profiles}
 
