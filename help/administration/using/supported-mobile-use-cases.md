@@ -9,7 +9,7 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 3cd8d756-a271-4e53-8ed0-984ce20298bc
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 8c4e38a3fc66e4d819575fcd64616a822e0e1f82
 workflow-type: tm+mt
 source-wordcount: '953'
 ht-degree: 1%
@@ -155,7 +155,7 @@ iOSでは、次の[!DNL Experience Platform API]が必要です。
 iOSでのこの使用例の実装例を以下に示します。
 
 ```
-ACPCore.collectPii(["email":email, "firstName":firstName, "lastName":lastName])
+ACPCore.collectPii(["pushPlatform":"apns", "email":email, "firstName":firstName, "lastName":lastName])
 ```
 
 ### Androidを使用 {#enrich-mobile-profile-custom-android}
@@ -168,9 +168,10 @@ Androidでのこの使用例の実装例を次に示します。
 
 ```
 HashMap<String, String> data = new HashMap<>();
-data.put("firstName", firstNameText);
-data.put("lastName", lastNameText);
-data.put("email", emailText);
+data.put("pushPlatform", "gcm");
+data.put("firstName", firstNameText); 
+data.put("lastName", lastNameText); 
+data.put("email", emailText); 
 MobileCore.collectPii(data);
 ```
 
