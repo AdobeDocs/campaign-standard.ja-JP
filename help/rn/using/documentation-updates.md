@@ -11,29 +11,29 @@ exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '6954'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# ドキュメントの更新{#documentation-updates}
+# ドキュメントの更新点{#documentation-updates}
 
 このページでは、Adobe Campaign の[リリースノート](../../rn/using/release-notes.md)に加えて、Adobe Campaign Standard のドキュメントの新規更新をすべて紹介します。
 
-## リリース 21.3 - 2021年9月 {#release-21-3---september-2021}
+## リリース 21.3 - 2021 年 9 月 {#release-21-3---september-2021}
 
-**リリースに含まれる新機能**
+**本リリースに含まれる新機能**
 
-統合Experience Cloud・インターフェイスの改善 — [詳細](../../start/using/interface-description.md#top-bar)
+統合 Experience Cloud インターフェイスの改善 - [詳細情報](../../start/using/interface-description.md#top-bar)
 
-新しい監査記録機能 — [詳細を表示](../../administration/using/audit.md)
+新しい監査記録機能 - [詳細情報](../../administration/using/audit.md)
 
-ワークフロー診断モード — [詳細を表示](../../automating/using/managing-execution-options.md)
+ワークフロー診断モード - [詳細情報](../../automating/using/managing-execution-options.md)
 
-**リリースに伴うその他のドキュメントのアップデート**
+**本リリースに伴うその他のドキュメントの更新**
 
-強制隔離リストからアドレスを削除する方法に関する新しい節が追加されました。 [詳細情報](../../sending/using/understanding-quarantine-management.md#removing-a-quarantined-address)
+強制隔離リストからアドレスを削除する方法に関する新しい節が追加されました。[詳細情報](../../sending/using/understanding-quarantine-management.md#removing-a-quarantined-address)
 
-**強制隔離とブロックリスト**&#x200B;の節が明確になりました。 [詳細情報](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist)
+**強制隔離とブロックリスト**&#x200B;の節の内容が明快になりました。[詳細情報](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist)
 
 ## 2021 年 7 月 {#doc-updates-july-2021}
 
@@ -62,7 +62,7 @@ ht-degree: 98%
 
 ## 2021 年 4 月 {#doc-updates-april-2021}
 
-Adobe Experience Platformのソースと宛先を使用して、Campaign StandardとAdobeのリアルタイム顧客データプラットフォーム(RTCDP)の間でデータを共有する方法に関する新しい節が追加されました。 [詳細情報](../../integrating/using/get-started-sources-destinations.md)
+Adobe Experience Platform のソースと宛先を使用して Campaign Standard と Adobe Real-time Customer Data Platform（RTCDP）の間でデータを共有する方法に関する新しい節が追加されました。[詳細情報](../../integrating/using/get-started-sources-destinations.md)
 
 ## 2021 年 3 月 {#doc-updates-march-2021}
 
