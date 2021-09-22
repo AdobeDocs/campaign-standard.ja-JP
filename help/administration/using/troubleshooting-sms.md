@@ -8,7 +8,7 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 7ef0712e-4e42-41c8-9382-fbbd06edfdd9
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '2696'
 ht-degree: 90%
@@ -154,7 +154,7 @@ Adobe Campaign は、外部アカウントを無関係なエンティティと�
 
 すべての問題を修正したが、無効なSRがプロバイダーのバッファに残っている場合は、**無効なID確認数**&#x200B;オプションを使用してスキップできます。 このオプションは慎重に使用する必要があり、バッファがクリーンになった後、できるだけ早く 0 にリセットする必要があります。
 
-## MO（およびブラックリストへの登録／自動応答）を処理する際の問題 {#issue-process-MO}
+## MO(および/自ブロックリスト動応答)を処理する際の問題{#issue-process-MO}
 
 * テスト中に SMPP トレースを有効にします。TLS を有効にしない場合は、MO のトラブルシューティング時にネットワークキャプチャを実行し、PDU に正しい情報が含まれ、正しくフォーマットされていることを確認する必要があります。
 

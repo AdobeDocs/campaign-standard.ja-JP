@@ -8,10 +8,10 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: ecf88c7d-6729-4b3a-85c4-60427bb57442
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: affd4f9716235a283df20de5539e43c4832762f7
 workflow-type: tm+mt
-source-wordcount: '713'
-ht-degree: 83%
+source-wordcount: '711'
+ht-degree: 84%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 83%
    <td> Adobe Experience Manager<br /> </td> 
    <td> E メールコンテンツや Adobe Campaign データベースにマッピングされたフォームを Adobe Experience Manager で直接作成することができます。<br /> </td> 
    <td> 
-     <a href="../../integrating/using/integrating-with-experience-manager.md">キャンペーンとExperience Managerの使用</a>、 <a href="https://helpx.adobe.com/jp/experience-manager/6-4/sites/administering/using/campaignstandard.html">Experience ManagerとCampaign Standardの統合</a>、 <a href="https://gn.adobe.com/doc/standard/getting_started/en/ACS_AEM.html">Experience Managerとキャンペーンを使用したEメールの作成</a> 
+     <a href="../../integrating/using/integrating-with-experience-manager.md">キャンペーンとExperience Managerの使用</a>、 <a href="https://helpx.adobe.com/jp/experience-manager/6-4/sites/administering/using/campaignstandard.html">Experience ManagerとCampaign Standardの統合</a>、 <a href="https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html">Experience Managerとキャンペーンを使用したEメールの作成</a> 
     </td> 
   </tr> 
   <tr> 

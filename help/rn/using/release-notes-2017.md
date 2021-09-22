@@ -8,7 +8,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '4623'
 ht-degree: 7%
@@ -133,19 +133,19 @@ _カスタムリソース_
 
 _プラットフォーム_
 
-* 独自のレコードを識別する一意のキーを管理しないので、Adobe Campaign Standardから取得したIDを活用できる必要があるお客様もいます。 このID(**ACS ID**)は、エクスポートできるほか、データの更新時に紐付けキーとして使用できます。 詳しくは、[詳細なドキュメント](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)を参照してください。
+* 独自のレコードを識別する一意のキーを管理しないので、Adobe Campaign Standardから取得したIDを活用できる必要があるお客様もいます。 このID(**ACS ID**)は、エクスポートできるほか、データの更新時に紐付けキーとして使用できます。 詳しくは、[詳細ドキュメント](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)を参照してください。
 * FTPプロトコルは廃止されます。 代わりにSFTPを使用する必要があります。 既存の実装をブロックしないように、FTPの既存の設定は、以前と同じように機能しますが、新しいアクティビティに対してはオプションが表示されません。
 
 _Eメール、SMSメッセージおよびダイレクトメール_
 
-* 新しいアラート条件を作成して、配信アラート通知で使用できるようになりました。 詳しくは、[詳細なドキュメント](../../sending/using/receiving-alerts-when-failures-happen.md#creating-a-delivery-alerting-criterion)を参照してください。
+* 新しいアラート条件を作成して、配信アラート通知で使用できるようになりました。 詳しくは、[詳細ドキュメント](../../sending/using/receiving-alerts-when-failures-happen.md#creating-a-delivery-alerting-criterion)を参照してください。
 * 配信アラート通知のデザインが新しくなり、配信アラートダッシュボードのユーザーエクスペリエンスが向上しました。
 * 現在は、ルーティング外部アカウントが無効になっている場合、影響を受けた配信（Eメール、SMS、プッシュ）に警告が表示され、これらの配信では「**プレビュー**」ボタンが非表示になります。
 * 件名行で動的テキストを有効にした場合に、EメールコンテンツのA/Bテストのプレビューでエラーが発生する問題を修正しました。
 
 _トランザクションメッセージ_
 
-* トランザクションメッセージの送信後3日など、フォローアップメッセージを送信するタイミングを定義できるようになりました。 詳しくは、[詳細なドキュメント](../../channels/using/follow-up-messages.md#sending-a-follow-up-message)を参照してください。
+* トランザクションメッセージの送信後3日など、フォローアップメッセージを送信するタイミングを定義できるようになりました。 詳しくは、[詳細ドキュメント](../../channels/using/follow-up-messages.md#sending-a-follow-up-message)を参照してください。
 * イベントにリンクされたトランザクションメッセージの送信日を定義できるようになりました。
 * 受信および処理されたイベントに関連するプロファイルを削除した後に、フォローアップメッセージを含むワークフローを実行するとSQLエラーが発生する問題を修正しました。
 * イベントにリンクされたプロファイルを削除できないエラーを修正しました。
@@ -154,7 +154,7 @@ _トランザクションメッセージ_
 
 _レポート_
 
-* **ホットクリック**&#x200B;レポートが改善されました。 また、配信内で定義された各条件付きコンテンツに従ってホットクリックを表示し、繰り返し配信またはトランザクションメッセージの実行ごとにホットクリックを表示できるようになりました。 詳しくは、[詳細なドキュメント](../../sending/using/receiving-alerts-when-failures-happen.md#creating-a-delivery-alerting-criterion)を参照してください。
+* **ホットクリック**&#x200B;レポートが改善されました。 また、配信内で定義された各条件付きコンテンツに従ってホットクリックを表示し、繰り返し配信またはトランザクションメッセージの実行ごとにホットクリックを表示できるようになりました。 詳しくは、[詳細ドキュメント](../../sending/using/receiving-alerts-when-failures-happen.md#creating-a-delivery-alerting-criterion)を参照してください。
 * 強制隔離指標で正しいデータを取得できない問題を修正しました。
 * 新しい事前設定時間枠がカレンダーウィジェットに追加されました。
 * より一貫性のある[動的レポート指標](../../reporting/using/indicator-calculation.md)と[キャンペーンのKPI](../../sending/using/confirming-the-send.md)（送信されたメッセージのダッシュボードに表示）を並べました。
@@ -171,7 +171,7 @@ _統合_
 
 _プロファイルとオーディエンス_
 
-* Adobe Campaignに、アクティブなプロファイルの数を表示するレポートが表示されるようになりました。 このレポートは情報提供のみで、請求に直接的な影響はありません。 詳しくは、[詳細なドキュメント](../../audiences/using/active-profiles.md)を参照してください。
+* Adobe Campaignに、アクティブなプロファイルの数を表示するレポートが表示されるようになりました。 このレポートは情報提供のみで、請求に直接的な影響はありません。 詳しくは、[詳細ドキュメント](../../audiences/using/active-profiles.md)を参照してください。
 * プロファイルおよびサービスAPIを使用する際に、プロファイルがサービスに購読登録されない問題を修正しました。
 
 ## リリース 17.7 - 2017 年 7 月 {#release-17-7---july-2017}
@@ -499,7 +499,7 @@ _ワークフロー_
    <td> トランザクションメッセージAPI<br /> </td> 
    <td> トランザクションメッセージAPIは、<a href="https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/developing/adding-or-extending-a-resource/updating-the-database-structure.translate.html">adobe.io</a>を通じて利用できるようになり、使いやすく、監視も容易になりました。<br /> 
     <ul> 
-     <li> adobe.ioプラットフォームのレポート機能と監視機能を活用できます。 </li> 
+     <li> adobe.ioプラットフォームのレポートおよび監視機能を活用できます。 </li> 
      <li> 認証は、IP認証ではなく、adobe.ioトークンベースの認証を使用して実行されるようになり、セキュリティプロセスがより簡単になりました。 </li> 
      <li> すべてのAPIが単一のプラットフォームに統合され、プロファイルおよびサービスAPIを既にサポートしている場合、統合にトランザクションメッセージ機能を追加する手間がこれまで以上に簡単になりました。 </li> 
     </ul> </td> 

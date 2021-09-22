@@ -8,7 +8,7 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 00d39438-a232-49f1-ae5e-1e98c73397e3
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '678'
 ht-degree: 3%
@@ -144,4 +144,4 @@ POSTリクエストへの応答。
 * **deliveryFailed**:イベントの処理中に配信エラーが発生しました。
 * **routingFailed**:ルーティングフェーズが失敗しました — これは、例えば、指定されたイベントのタイプが見つからない場合などに発生する可能性があります。
 * **tooOld**:イベントは、処理が可能になる前に期限切れになっています。これは、例えば、送信が複数回失敗した場合（この結果、イベントが最新でなくなった場合）や、サーバーが過負荷になった後でイベントを処理できない場合などに発生します。
-* **targetingFailed**:Campaign Standardは、メッセージのターゲティングに使用されるリンクのエンリッチメントに失敗しました。
+* **targetingFailed**:Campaign Standardは、メッセージのターゲティングに使用されているリンクのエンリッチメントに失敗しました。

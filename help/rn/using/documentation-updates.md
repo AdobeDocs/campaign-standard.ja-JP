@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
-source-wordcount: '6954'
-ht-degree: 100%
+source-wordcount: '6933'
+ht-degree: 99%
 
 ---
 
@@ -204,7 +204,7 @@ Campaign Standard の概要ページが改善され、テーマごとのトピ�
 
 E メールチャネルのパラメーターの節で、許可されたマスクのフィールドと配信レポート ID に関する詳細情報が表示されるようになり、内容が明確になりました。[詳細を表示](../../administration/using/configuring-email-channel.md)
 
-Adobe Experience Platform SDK を使用したモバイルアプリの設定がコアドキュメントに追加され、ローンチからのモバイルアプリケーション AEPSDK の同期テクニカルワークフローに関する詳細情報が記載されています。[詳細を表示](../../administration/using/configuring-a-mobile-application.md)
+Adobe Experience Platform SDKを使用したモバイルアプリの設定が、コアドキュメントで利用できるようになり、 LaunchからのモバイルアプリAEPSDKの同期テクニカルワークフローに関する詳細が記載されています。 [詳細情報](../../administration/using/configuring-a-mobile-application.md)
 
 ## リリース 20.3 - 2020 年 5 月 {#release-20-3---may-2020}
 
@@ -572,9 +572,9 @@ E メールデザイナーが Internet Explorer 11 をサポートしていな�
 
 カスタムリソースをリンクする方法に関する情報を追加しました。[詳細を表示](../../developing/using/configuring-the-resource-s-data-structure.md#defining-links-with-other-resources)
 
-Adobe Campaign Standard のプッシュ通知から画像を表示する方法に関する新しいテクニカルノートが追加されました。[詳細を表示](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/communication-channels/push-notifications/image-push-notification.html)
+Adobe Campaign Standard のプッシュ通知から画像を表示する方法に関する新しいテクニカルノートが追加されました。[詳細を表示](../../administration/using/image-push-notification.md)
 
-プッシュトラッキングの実装に関する新しいテクニカルノートが追加されました。[詳細を表示](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/communication-channels/push-notifications/push-tracking.html)
+プッシュトラッキングの実装に関する新しいテクニカルノートが追加されました。[詳細を表示](../../administration/using/push-tracking.md)
 
  Standard および Campaign Classic のエラーメッセージのリストが更新されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
 
@@ -862,7 +862,7 @@ A/B テストのサンプルを更新しました。[詳細を表示](../../chan
 
 Adobe Marketing Cloud Mobile SDK をモバイルアプリと統合して Adobe Campaign Standard のプッシュ通知を受信する方法に関する[テクニカルノート](https://helpx.adobe.com/jp/campaign/kb/integrate-mobile-sdk.html)を更新して明確にしました。
 
-モバイルアプリで受け取るペイロードの構造を説明するテクニカルノートを追加しました。[詳細を表示](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/communication-channels/push-notifications/push-payload.html)
+モバイルアプリで受け取るペイロードの構造を説明するテクニカルノートを追加しました。[詳細を表示](../../administration/using/push-payload.md)
 
 [プッシュチャネルの設定](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)の節が更新され、Adobe Mobile Services のインターフェイスでポストバックを定義する際に追加される OS バージョンの新しいペイロードデータが追加されました。
 

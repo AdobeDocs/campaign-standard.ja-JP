@@ -9,10 +9,10 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: fa39eb54-9ec0-4aff-94a8-5459f4c496d0
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 41366b6fa7647dbf0e4e5df71e2755189f4ffc42
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 99%
+source-wordcount: '779'
+ht-degree: 93%
 
 ---
 
@@ -46,6 +46,10 @@ ht-degree: 99%
    プロファイルおよびサービス API で実行するアクションについて詳しくは、[API 拡張を使用したリソースの公開](#publishing-a-resource-with-api-extension)を参照してください。
 
    ![](assets/schema_extension_13.png)
+
+   >[!NOTE]
+   >
+   >重複したインデックスが原因で公開が失敗するので、準備手順では、リソースに定義されたインデックスが別のリソースに対して同じ名前で既に存在するかどうかを確認します。 この場合、インデックスの名前を変更するよう求めるエラーメッセージが表示されます。 [インデックスの定義](configuring-the-resource-s-data-structure.md#defining-indexes)を参照してください。
 
 1. 公開が実行されたら、「**[!UICONTROL Publish]**」ボタンをクリックして新しい設定を適用します。
 1. 公開された各リソースの&#x200B;**[!UICONTROL Summary]**&#x200B;ウィンドウには、現在の状態が「**[!UICONTROL Published]**」と表示され、最新の公開日が示されます。

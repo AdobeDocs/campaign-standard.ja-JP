@@ -9,7 +9,7 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 28b0cf6d-c1f1-4d55-b9bc-0d6bfb063471
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '746'
 ht-degree: 81%
@@ -34,7 +34,7 @@ ht-degree: 81%
 
 * [ワークフローの実行](../../automating/using/about-workflow-execution.md):ワークフローの監視は、プラットフォームのパフォーマンスの問題を回避するために必要です。 このページ](../../automating/using/monitoring-workflow-execution.md)に示すガイドラインに従います。 [詳しくは、[ワークフローのベストプラクティス](../../automating/using/best-practices-workflows.md)の節を参照してください。
 
-* [Campaignコントロールパネルの](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja)機能を利用して、[パフォーマンス監視](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=ja)機能を使用して、プラットフォームを監視できます。
+* [CampaignCampaign コントロールパネル機能](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja)は、[パフォーマンス監視](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=ja)機能を使用して、プラットフォームを監視する場合に利用できます。
 
 ## ネットワーク設定の確認 {#network-config}
 

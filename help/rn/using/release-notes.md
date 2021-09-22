@@ -8,9 +8,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 41366b6fa7647dbf0e4e5df71e2755189f4ffc42
 workflow-type: tm+mt
-source-wordcount: '1074'
+source-wordcount: '1076'
 ht-degree: 100%
 
 ---
@@ -96,7 +96,7 @@ Campaign Standard の最新リリースに含まれている新機能、改善�
 
 * Adobe Experience Manager のコンテンツにリンクされたワークフローで繰り返し配信を作成する際、送信前にコンテンツの承認ステータスが確認されるようになりました。
 * データベース接続制限が、接続エラーを回避するために Campaign パッケージと連携されるようになりました。
-* カスタムリソースの公開で新しい整合性チェックを行うことにより、重複したインデックスをユーザーが作成して公開が失敗するのを防ぐことができます。必要に応じて、インデックスの名前を変更するようにユーザーに求めるエラーメッセージが改善されました。
+* カスタムリソースの公開で新しい整合性チェックを行うことにより、重複したインデックスをユーザーが作成して公開が失敗するのを防ぐことができます。必要に応じて、インデックスの名前を変更するようにユーザーに求めるエラーメッセージが改善されました。[詳細情報](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)
 
 **その他の変更点**
 

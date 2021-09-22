@@ -8,7 +8,7 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: ef045e5d-cd02-44a0-9a1e-d468483a38d9
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 3%
@@ -68,7 +68,7 @@ Campaign StandardAPIリクエストの理解に役立つリクエストのコレ
 
    ![代替テキスト](assets/postman_uc2.png)
 
-1. オブジェクトが作成されると、プライマリキー(PKey)が関連付けられます。 リクエスト応答やその他の属性に表示されます。
+1. オブジェクトが作成されると、プライマリキー(PKey)が関連付けられます。 リクエストの応答やその他の属性に表示されます。
 
    ![代替テキスト](assets/postman_uc3.png)
 

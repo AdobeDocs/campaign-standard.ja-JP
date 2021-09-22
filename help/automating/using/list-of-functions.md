@@ -8,10 +8,10 @@ feature: Workflows
 role: Data Architect
 level: Experienced
 exl-id: d1575626-55bb-4303-a796-ad323a399330
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '1970'
-ht-degree: 96%
+ht-degree: 95%
 
 ---
 
@@ -386,7 +386,7 @@ ht-degree: 96%
 
 ## その他 {#others}
 
-以下の表には、上記以外の使用可能な関数が記載されています。
+この表には、残りの使用可能な関数が表示されます。
 
 <table> 
  <tbody> 
@@ -536,12 +536,12 @@ ht-degree: 96%
   </tr> 
   <tr> 
    <td> <strong>JuxtWords</strong><br /> </td> 
-   <td> パラメーターとして渡された 2 つの文字列を連結します。戻り値に含まれる各文字列の間にスペースが追加されます<br /> </td> 
+   <td> パラメーターとして渡された2つの文字列を連結します。 戻り値に含まれる各文字列の間にスペースが追加されます<br /> </td> 
    <td> JuxtWords(&lt;文字列&gt;, &lt;文字列&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>JuxtWords3</strong><br /> </td> 
-   <td> パラメーターとして渡された 3 つの文字列を連結します。戻り値に含まれる各文字列の間にスペースが追加されます<br /> </td> 
+   <td> パラメーターとして渡された3つの文字列を連結します。 戻り値に含まれる各文字列の間にスペースが追加されます<br /> </td> 
    <td> JuxtWords3(&lt;文字列&gt;, &lt;文字列&gt;, &lt;文字列&gt;)<br /> </td> 
   </tr> 
   <tr> 

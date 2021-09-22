@@ -7,7 +7,7 @@ topic-tags: about-sending-messages-with-campaign
 role: User
 level: Intermediate
 exl-id: bcb28ef5-5cad-43c1-b11b-080abc791a72
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '595'
 ht-degree: 17%
@@ -77,7 +77,7 @@ Campaign Standard **メッセージの準備**&#x200B;は、ターゲット、�
 
 配信品質を使用すると、バウンスしたりスパムとしてマークされたりせずに、受信者の受信ボックスに到達したかに基づいて、キャンペーンの成功を測定できます。
 
-Campaign Standardには、正常に配信されたメッセージの数を改善するのに役立つ、配信品質のツール&#x200B;**がいくつか用意されています。配信の考慮されたレポート、送信時間の最適化、メッセージのプレビュー、Eメールのレンダリング、強制隔離の管理など**
+Campaign Standardには、正常に配信されたメッセージの数を改善するのに役立つ、配信品質のツール&#x200B;**がいくつか用意されています。配信スループットレポート、送信時間の最適化、メッセージのプレビュー、Eメールのレンダリング、強制隔離の管理など**
 
 詳しくは、以下を参照してください。
 

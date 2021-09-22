@@ -4,10 +4,10 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Campaign Standard の使用に必要な主要な機能、タスク、設定、その他のリソースに関するヘルプセンター。 '
 title: Campaign Standard ガイド
 breadcrumb-title: Adobe Campaign Standard ドキュメント
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 34270a2caff0932b56d00ccf721bdba87eb61f81
 workflow-type: tm+mt
-source-wordcount: '1792'
-ht-degree: 100%
+source-wordcount: '1797'
+ht-degree: 99%
 
 ---
 
@@ -77,6 +77,7 @@ ht-degree: 100%
       + [メッセージへのアクセス](channels/using/accessing-messages.md)
       + [メッセージダッシュボード](channels/using/message-dashboard.md)
       + [多言語メッセージテンプレート](channels/using/multilingual-messages-template.md)
+      + [モバイルチャネルの概要](channels/using/mobile-guide.md)
    + 配信のベストプラクティス {#delivery-bestpractices}
       + [優れたプラクティスを学ぶ](sending/using/delivery-best-practices.md)
       + [配信の最適化](sending/using/optimize-delivery.md)

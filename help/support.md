@@ -8,9 +8,9 @@ hidefromtoc: true
 role: User
 level: Beginner
 exl-id: b164942b-0f1c-473e-bf78-f10ec3374244
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 87e91e169fedf962471f82754b1d40a14e5fc32a
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: '585'
 ht-degree: 100%
 
 ---
@@ -48,7 +48,7 @@ FAQ、ベストプラクティス、オンラインリソース、サポート�
         <li><a href="automating/using/monitoring-workflow-execution.md#error-management">ワークフローのエラー管理</a></li>
         <li><a href="automating/using/best-practices-workflows.md">ワークフロー実行のトラブルシューティング</a></li>
         <li><a href="api/using/troubleshooting.md">API のトラブルシューティング</a></li>
-        <li><a href="sending/using/understanding-delivery-failures.md">配信障害の把握</a></li>
+        <li><a href="sending/using/understanding-delivery-failures.md">配信エラーについて</a></li>
         </ul>
     </td>
    <td valign="top">
@@ -72,7 +72,7 @@ FAQ、ベストプラクティス、オンラインリソース、サポート�
         <li><a href="start/using/privacy-management.md">プライバシーと同意管理</a></li>
         <li><a href="automating/using/query.md">クエリのデザイン</a></li>
         <li><a href="automating/using/query-samples.md">クエリサンプル</a></li>
-        <li><a href="https://helpx.adobe.com/campaiacs-mobile.html">モバイルチャネルの設定</a></li>
+        <li><a href="administration/using/push-tracking.md">モバイルチャネルの設定</a></li>
         </ul>
     </td>
     </tr>
@@ -119,12 +119,12 @@ Campaign コントロールパネルの FAQ にアクセスするには、[こ�
 
 ### エキスパートへの質問
 
-Campaign Classic コミュニティへの参加：既存の質問の回答を検索したり、コミュニティに質問したりできます。 [会話に参加](https://experienceleaguecommunities.adobe.cadobe-campaign-standard/ct-p/adobe-campaign-standard-community)
+Campaign Classic コミュニティへの参加：既存の質問の回答を検索したり、コミュニティに質問したりできます。 [会話に参加](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
 ### チケットの作成またはチャットの開始
 
 ケースを作成すると、アドビ製品に関する問題についてアドビカスタマーサポートチームに問い合わせることができます。 問題の解決やトラブルシューティングのヘルプとして、Adobe Admin Console を使用してアドビカスタマーサポートとチャットできるようになります。
 
-新しいシステムで問題を記録したりチャットセッションを開始したりするには、 [Adobe Admin Console](https://adminconsole.adobe.com/overview)に接続します。
+新しいシステムで問題を記録したりチャットセッションを開始したりするには、[Adobe Admin Console](https://adminconsole.adobe.com/overview) に接続します。
 
-[このページ](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)で説明する詳細な手順に従います。
+詳細な手順については、[このページ](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)を参照してください。

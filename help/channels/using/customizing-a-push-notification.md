@@ -9,9 +9,9 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: 3fe3495b-e360-4169-b295-86ad93753468
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: affd4f9716235a283df20de5539e43c4832762f7
 workflow-type: tm+mt
-source-wordcount: '1510'
+source-wordcount: '1500'
 ht-degree: 97%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 97%
 
 Adobe Campaign では、プッシュ通知のデザイン中に一連の詳細設定オプションにアクセスして、プッシュ通知を微調整することができます。
 
-エキスパートユーザーとして、Adobe Campaign でモバイルアプリケーションを設定する場合は、[Campaign Standard プッシュ通知のペイロード構造について](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/communication-channels/push-notifications/push-payload.translate.html)を参照してください。
+エキスパートユーザーとして、Adobe Campaign でモバイルアプリケーションを設定する場合は、[Campaign Standard プッシュ通知のペイロード構造について](../../administration/using/push-payload.md)を参照してください。
 
 ![](assets/push_notif_advanced.png)
 
@@ -150,7 +150,7 @@ Adobe Campaign では、プッシュ通知のデザイン中に一連の詳細�
 1. プッシュ通知を開き、「**[!UICONTROL Advanced options]**」セクションにアクセスします。
 1. iOS と Android 形式ごとに、「**[!UICONTROL Rich media content URL]**」フィールドにファイルの URL を入力します。
 
-   iOS 10 以降では、画像、gif、オーディオおよびビデオのファイルを挿入できます。それ以前の iOS バージョンでは、プッシュ通知はリッチコンテンツなしで表示されます。iOS デバイスで Adobe Campaign のプッシュ通知内の画像を表示する方法について詳しくは、[こちらのページ](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/communication-channels/push-notifications/image-push-notification.translate.html)を参照してください。
+   iOS 10 以降では、画像、gif、オーディオおよびビデオのファイルを挿入できます。それ以前の iOS バージョンでは、プッシュ通知はリッチコンテンツなしで表示されます。iOS デバイスで Adobe Campaign のプッシュ通知内の画像を表示する方法について詳しくは、[こちらのページ](../../administration/using/image-push-notification.md)を参照してください。
 
    Android の場合は、画像のみを組み込むことができます。
 

@@ -8,10 +8,10 @@ feature: Campaigns
 role: User
 level: Intermediate
 exl-id: 958f7beb-ab41-4492-bc0a-e9e342e3c12e
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 100%
+source-wordcount: '650'
+ht-degree: 88%
 
 ---
 
@@ -87,38 +87,38 @@ Adobe Campaign Standard は、英語、フランス語、ドイツ語の各言�
 
 ### ホームページ {#homepage-shortcuts}
 
-| ショートカット | アクション |
-|:-:|:-:|
-| タブ | ユーザーインターフェイスの個々の要素間を移動する |
-| Enter または Space キー | 選択した項目をアクティブにする |
+| アクション | ショートカット |
+| --- | --- |
+| ユーザーインターフェイスの個々の要素間を移動する | タブ |
+| 選択した項目をアクティブにする | EnterまたはSpaceキー |
 
 ### メールデザイナー {#email-designer-shortcuts}
 
-| ショートカット | アクション |
-|:-:|:-:|
-| Ctrl + Z | 取り消し |
-| Ctrl + Y | やり直し |
+| アクション | Windowsのショートカット | macOSのショートカット |
+| --- | --- | --- |
+| 取り消し | Ctrl + Z | Command + Z |
+| やり直し | Ctrl + Y | Shift + Command + Z |
 
 ### 動的レポート {#report-shortcuts}
 
-| ショートカット | アクション |
-|:-:|:-:|
-| Ctrl + O | プロジェクトを開く |
-| Ctrl + S | 保存 |
-| Shift + Ctrl + S | 名前を付けて保存 |
-| Alt + R | プロジェクトを更新 |
-| Shift + Ctrl + V | CSV をダウンロード |
-| Alt + P | 印刷 |
-| Ctrl + Z | 取り消し |
-| Ctrl + Shift + Z | やり直し |
-| Alt + B | 新しい空白のパネル |
-| Alt + A | 新しいフリーフォーム |
-| Alt + 1 | 新しいフリーフォームテーブル |
-| Alt + 2 | 新しい行 |
-| Alt + 3 | 新しいバー |
-| Alt + S | 今すぐレポートを送信 |
-| Shift + Alt + S | スケジュールに従ってレポートを送信 |
-| Shift + Alt + L | 予定レポート |
+| アクション | Windowsのショートカット | macOSのショートカット |
+| --- | --- | --- |
+| プロジェクトを開く | Ctrl + O | Command + O |
+| 保存 | Ctrl + S | Command + S |
+| 名前を付けて保存 | Shift + Ctrl + S | Shift + Command + S |
+| プロジェクトを更新 | Alt + R | Command + R |
+| CSVファイルのダウンロード | Shift + Ctrl + V | Shift + Command + V |
+| 印刷 | Alt + P | Command + P |
+| 取り消し | Ctrl + Z | Command + Z |
+| やり直し | Ctrl + Y | Shift + Command + Z |
+| 新しい空白のパネル | Alt + B | オプション+ B |
+| 新しいフリーフォーム | Alt + A | オプション+ A |
+| 新しいフリーフォームテーブル | Alt + 1 | オプション+ 1 |
+| 新しい行 | Alt + 2 | オプション+ 2 |
+| 新しいバー | Alt + 3 | オプション+ 3 |
+| 今すぐレポートを送信 | Alt + S | Option + S |
+| スケジュールに従ってレポートを送信 | Shift + Alt + S | Shift + Option + S |
+| 予定レポート | Shift + Alt + L | <!-- Should be 'Shift + Option + L ' but does not work on Mac --> |
 
 ## 参考資料 {#further-reading}
 

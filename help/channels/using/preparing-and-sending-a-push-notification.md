@@ -9,9 +9,9 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: 41b83014-aea9-4ec2-b20e-c0a05bcad503
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: affd4f9716235a283df20de5539e43c4832762f7
 workflow-type: tm+mt
-source-wordcount: '857'
+source-wordcount: '852'
 ht-degree: 4%
 
 ---
@@ -62,7 +62,7 @@ Adobe Campaignでプッシュ通知を作成する手順は、次のとおりで
 
    ![](assets/push_notif_content.png)
 
-   ここで設定するプッシュ通知のコンテンツとオプションは、ペイロードの形式でモバイルアプリに渡されます。 ペイロードの詳細な構造については、「[Campaign Standardプッシュ通知のペイロード構造について](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/communication-channels/push-notifications/push-payload.html)」のテクニカルノートを参照してください。
+   ここで設定するプッシュ通知のコンテンツとオプションは、ペイロードの形式でモバイルアプリに渡されます。 ペイロードの詳細な構造については、「[Campaign Standardプッシュ通知のペイロード構造について](../../administration/using/push-payload.md)」のテクニカルノートを参照してください。
 
 1. 「**[!UICONTROL Create]**」をクリックします。
 
