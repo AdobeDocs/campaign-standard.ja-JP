@@ -8,10 +8,10 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 6aa53aa9-aa5c-4b29-ad84-d983da241ceb
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
 source-wordcount: '226'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -32,7 +32,7 @@ Adobe Campaign を使用すると、さまざまなユーザーに割り当て�
 
 ![](assets/user_management_1.png)
 
-ユーザーは Admin Console で管理します（[グループとユーザーの管理](../../administration/using/managing-groups-and-users.md)の節または [Admin Console のドキュメント](https://helpx.adobe.com/jp/enterprise/managing/user-guide.html)を参照してください）。
+ユーザーはAdmin Consoleで管理します ([ グループとAdmin Consoleの管理 ](../../administration/using/managing-groups-and-users.md) の節または [ ユーザーのドキュメント ](https://helpx.adobe.com/jp/enterprise/managing/user-guide.html) を参照 )。
 
 ![](assets/user_management_6.png)
 

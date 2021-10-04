@@ -8,9 +8,9 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: d382bfdd-418d-46c1-98dd-df8626f85cac
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '181'
 ht-degree: 13%
 
 ---
@@ -27,11 +27,11 @@ Adobe CampaignとAdobe Targetの統合により、配信に動的コンテンツ
 * Adobe Targetテナント
 * Adobe Campaign との接続を確立するために指定された Adobe Target ローボックス
 
-1. 詳細設定メニューの左上隅にあるAdobe Campaignロゴから、**[!UICONTROL Administration]** / **[!UICONTROL Application settings]** / **[!UICONTROL Options]**&#x200B;を選択します。
+1. 詳細設定メニューの左上隅にあるAdobe Campaignロゴから、**[!UICONTROL Administration]** / **[!UICONTROL Application settings]** / **[!UICONTROL Options]** を選択します。
 1. Adobe Targetのサーバーおよびテナントオプションを設定するには、それに応じて次のフィールドに入力します。
 
-   * **[!UICONTROL TNT_TenantName]**:Adobe Targetテナントの名前。この値は、Adobe Targetの&#x200B;**[!UICONTROL Client]**&#x200B;名に対応します。
-   * **[!UICONTROL TNT_EdgeServer]**:Adobe Targetサーバーを統合に使用。このオプションは既にデフォルトで提供されています。 この値はAdobe Targetの&#x200B;**[!UICONTROL Server Domain]**&#x200B;に続く&#x200B;**/m2**&#x200B;値に対応します。 例：**tt.omtrdc.net/m2**。
+   * **[!UICONTROL TNT_TenantName]**:Adobe Targetテナントの名前。この値は、Adobe Target **[!UICONTROL Client]** の名前に対応します。
+   * **[!UICONTROL TNT_EdgeServer]**:統合に使用されるAdobe Targetサーバー。このオプションは既にデフォルトで提供されています。 この値はAdobe Targetの **[!UICONTROL Server Domain]** に対応し、その後に **/m2** の値が続きます。 例：**tt.omtrdc.net/m2**。
 
    ![](assets/tar_options.png)
 

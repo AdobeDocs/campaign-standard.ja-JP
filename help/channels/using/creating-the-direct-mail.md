@@ -9,10 +9,10 @@ feature: Direct Mail
 role: User
 level: Intermediate
 exl-id: 3e94c872-bf44-4d4c-b6eb-7731021c7931
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 96%
+source-wordcount: '593'
+ht-degree: 95%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 96%
 
 1. テストプロファイルを追加すると（[テストおよびトラッププロファイルの追加](../../channels/using/defining-the-direct-mail-audience.md#adding-test-and-trap-profiles)を参照）、最終的なファイルを準備する前に配信をテストできます。選択したテストプロファイルのみを含んだサンプルファイルを作成できます。
 
-   「**[!UICONTROL Test]**」をクリックして、サンプルファイルを生成します。左上隅の「**[!UICONTROL Summary]**」をクリックし、「**[!UICONTROL Proofs]**」を選択します。画面の左側で、配達確認を選択して「**[!UICONTROL Download file]**」をクリックします。
+   「**[!UICONTROL Test]**」をクリックして、サンプルファイルを生成します。左上隅の **[!UICONTROL Summary]** をクリックし、「**[!UICONTROL Proofs]**」を選択します。 画面の左側で、配達確認を選択して「**[!UICONTROL Download file]**」をクリックします。
 
    >[!NOTE]
    >

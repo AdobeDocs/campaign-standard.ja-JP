@@ -8,10 +8,10 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 88007e6f-2cdd-4fea-9739-525beaf7c658
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
 source-wordcount: '994'
-ht-degree: 96%
+ht-degree: 95%
 
 ---
 
@@ -64,7 +64,7 @@ Experience Cloud トリガーを作成したら、Adobe Campaign で使用しま
 
 Adobe Campaign では、Experience Cloud で作成したトリガーにリンクしたトリガーを作成する必要があります。
 
-1. Adobe Campaignでトリガーを作成するには、左上隅の&#x200B;**Adobe**&#x200B;ロゴをクリックし、**[!UICONTROL Marketing plans]** / **[!UICONTROL Transactional messages]** / **[!UICONTROL Experience Cloud triggers]**&#x200B;を選択します。
+1. Adobe Campaignでトリガーを作成するには、左上隅の **Adobe** ロゴをクリックし、**[!UICONTROL Marketing plans]** / **[!UICONTROL Transactional messages]** / **[!UICONTROL Experience Cloud triggers]** を選択します。
 
    ![](assets/remarketing_1.png)
 
@@ -81,7 +81,7 @@ Adobe Campaign では、Experience Cloud で作成したトリガーにリンク
 
    ![](assets/trigger_uc_browse_6.png)
 
-1. メッセージテンプレートを表示するには、右上の「**[!UICONTROL More]**」ボタンをクリックし、「**[!UICONTROL Trigger Transactional Template]**」をクリックします。
+1. メッセージテンプレートを表示するには、右上の **[!UICONTROL More]** ボタンをクリックし、**[!UICONTROL Trigger Transactional Template]** をクリックします。
 
 1. 内容と送信者の詳細をパーソナライズします。
 
@@ -101,7 +101,7 @@ Adobe Campaign では、Experience Cloud で作成したトリガーにリンク
 
    ![](assets/trigger_uc_browse_10.png)
 
-1. 受信者はリンクをクリックし、Web サイトに移動します。この例では、受信者がバナーから旅行予約 Web サイトのホームページに移動します。
+1. 受信者がリンクをクリックして、Web サイトに移動します。 この例では、受信者がバナーから旅行予約 Web サイトのホームページに移動します。
 
    ![](assets/trigger_uc_browse_11.png)
 

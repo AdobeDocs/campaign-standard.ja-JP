@@ -4,10 +4,10 @@ description: インポートテンプレートを使用すると、必要な設�
 audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '787'
-ht-degree: 100%
+source-wordcount: '786'
+ht-degree: 96%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL Workflow]**」タブに移動します。ここでは、必要に応じて新しいアクティビティを追加することで、デフォルトで提供されるワークフローを拡張できます。
 
-   ワークフローアクティビティを設定する方法の詳細については、[例：インポートワークフローテンプレート](../../automating/using/creating-import-workflow-templates.md)の節にある使用例を参照してください。この使用例は、Adobe Campaign データベースの CRM からプロファイルをインポートする際に再利用できるワークフローを設定する場合に役立ちます。
+   ワークフローアクティビティを設定する方法の詳細については、[例：インポートワークフローテンプレート](../../automating/using/creating-import-workflow-templates.md)の節にある使用例を参照してください。この使用例は、Adobe Campaignデータベースの CRM からのプロファイルのインポートに再利用できるワークフローを設定する場合に役立ちます。
 
 1. ワークフローの設定が正しく適用されるように、テンプレートを保存します。
 1. 「**[!UICONTROL Properties]**」タブからサンプルファイルをアップロードします。アップロードされたファイルには、今後のインポートやサンプルデータに必要な列のみを含めることができます。サンプルファイルのデータを使用すると、ワークフローを定義した後、簡易インポートをテストできます。

@@ -9,10 +9,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1565'
-ht-degree: 95%
+source-wordcount: '1563'
+ht-degree: 93%
 
 ---
 
@@ -56,9 +56,9 @@ SMPP プロトコルを使用する場合、新しい外部アカウントを作
 
    アウトバウンドメッセージ（「MT：Mobile Terminated」）の最大スループットを 1 秒あたりの MT で指定できます。該当するフィールドに「0」と入力した場合、スループットは無制限となります。
 
-   期間を示すどのフィールドでも、値は秒単位で入力する必要があります。
+   期間に対応するすべてのフィールドの値は、秒単位で入力する必要があります。
 
-1. 特定のエンコーディングマッピングを定義する必要がある場合は、SMS-C 固有のパラメーターを定義します。詳しくは、[SMSC の詳細](#smsc-specifics)の節を参照してください。
+1. 特定のエンコーディングマッピングを定義する必要がある場合は、SMS-C 固有のパラメーターを定義します。 詳しくは、[SMSC の詳細](#smsc-specifics)の節を参照してください。
 
    SMPP プロトコルを適用せずに、SMS プロバイダー（SMS-C）のサーバーに **[!UICONTROL +]** プレフィックスを転送する場合は、「**[!UICONTROL Send full phone number (send characters other than digits)]**」オプションを有効にします。
 
@@ -328,15 +328,15 @@ SMS メッセージを送信するための特定のパラメーターは、「*
 
 ![](assets/sms_options.png)
 
-**[!UICONTROL Advanced parameters]**&#x200B;セクションで、次の操作を実行します。
+**[!UICONTROL Advanced parameters]** セクションで、次の操作を実行します。
 
-* **[!UICONTROL Short code]**&#x200B;を使用すると、配信に特定のショートコードを追加できます。 この特定のショートコードをオプトアウトした受信者は、メッセージの準備中に自動的に除外されます。 ショートコードの設定方法について詳しくは、[この節](../../channels/using/managing-incoming-sms.md)を参照してください。
+* **[!UICONTROL Short code]** を使用すると、配信に特定のショートコードを追加できます。 この特定のショートコードをオプトアウトした受信者は、メッセージの準備中に自動的に除外されます。 ショートコードの設定方法の詳細は、[ この節 ](../../channels/using/managing-incoming-sms.md) を参照してください。
 
    >[!NOTE]
    >
-   >**[!UICONTROL Short code]**&#x200B;フィールドが空の場合は、外部アカウントに設定された&#x200B;**[!UICONTROL Short code]**&#x200B;フィールドの値が使用されます。
+   >**[!UICONTROL Short code]** フィールドが空の場合は、外部アカウントに設定された **[!UICONTROL Short code]** フィールドの値が使用されます。
 
-SMSテンプレートの&#x200B;**[!UICONTROL Send]**&#x200B;セクションで、次の操作を実行します。
+SMS テンプレートの **[!UICONTROL Send]** セクションで、以下の操作を実行します。
 
 * 「**[!UICONTROL Maximum number of SMS per message]**」オプションを使用すると、メッセージの送信に使用する SMS メッセージの数を定義できます。この数を超えると、メッセージは送信されません。
 

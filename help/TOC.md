@@ -4,9 +4,9 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Campaign Standard の使用に必要な主要な機能、タスク、設定、その他のリソースに関するヘルプセンター。 '
 title: Campaign Standard ガイド
 breadcrumb-title: Adobe Campaign Standard ドキュメント
-source-git-commit: 34270a2caff0932b56d00ccf721bdba87eb61f81
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1797'
+source-wordcount: '1798'
 ht-degree: 99%
 
 ---
@@ -281,7 +281,7 @@ ht-degree: 99%
          + [Adobe Experience Platform 属性を使用したキャンペーンのパーソナライズ](integrating/using/aep-personalizing-campaigns.md)
       + Adobe Experience Platform Data Connector（ベータ版）{#data-connector}
          + [Adobe Experience Platform Data Connector について](integrating/using/aep-about-data-connector.md)
-         + [Experience Platform データモデルの概要](integrating/using/aep-data-model-overview.md)
+         + [Experience Platformデータモデルの概要](integrating/using/aep-data-model-overview.md)
          + [マッピングの定義](integrating/using/aep-mapping-definition.md)
          + [マッピングのアクティベーション](integrating/using/aep-mapping-activation.md)
          + [API によるデータ取得のトリガー](integrating/using/aep-triggering-data-ingestion.md)

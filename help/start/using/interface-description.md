@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: afdd981d-f6c7-4800-9e60-3018e0e41c74
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1258'
-ht-degree: 79%
+source-wordcount: '1256'
+ht-degree: 77%
 
 ---
 
@@ -38,7 +38,7 @@ Campaign ホームページは、主な Adobe Campaign 機能にすばやくア�
 * 「**[!UICONTROL Create an SMS]**」カードを選択すると、SMS 作成アシスタントが表示されます。このアシスタントでは、SMS のタイプの選択、メッセージ受信者の選択、コンテンツの定義をおこなうことができます。[SMS の作成](../../channels/using/creating-an-sms-message.md)の節を参照してください。
 * 「**[!UICONTROL Create a Direct mail]**」カードを選択すると、ダイレクトメール作成アシスタントが表示されます。[ダイレクトメールの作成](../../channels/using/creating-the-direct-mail.md)を参照してください。
 * 「**[!UICONTROL Create a push notification]**」カードを選択すると、通知作成アシスタントが表示されます。このアシスタントではプッシュ通知のタイプの選択、メッセージ受信者の選択、コンテンツの定義をおこなうことができます。[プッシュ通知の作成](../../channels/using/preparing-and-sending-a-push-notification.md)を参照してください。
-* **[!UICONTROL Create an In-App message]**&#x200B;カードを選択すると、アプリ内作成アシスタントが表示されます。 このアシスタントでは、作成するアプリ内メッセージのタイプを選択し、そのプロパティ、オーディエンスおよびコンテンツを定義できます。 [アプリ内メッセージの作成](../../channels/using/about-in-app-messaging.md)の節を参照してください。
+* **[!UICONTROL Create an In-App message]** カードを選択すると、アプリ内作成アシスタントが表示されます。 このアシスタントでは、作成するアプリ内メッセージのタイプを選択し、そのプロパティ、オーディエンス、コンテンツを定義できます。 [ アプリ内メッセージの作成 ](../../channels/using/about-in-app-messaging.md) の節を参照してください。
 * 「**[!UICONTROL Marketing activities]**」カードを選択すると、すべてのアクティビティ、プログラムおよびキャンペーン、特に E メール、SMS、ワークフロー、ランディングページの一覧が表示されます。ここから、名前、日付、ステータスまたはアクティビティタイプで検索して、要素をフィルタリングできます。詳しくは、[マーケティングアクティビティリスト](../../start/using/marketing-activities.md#about-marketing-activities)の節を参照してください。
 * 「**[!UICONTROL Programs & campaigns]**」カードを選択すると、キャンペーンを作成、管理できるプログラムのリストに移動します。[プログラムリスト](../../start/using/programs-and-campaigns.md#about-plans--programs-and-campaigns)を参照してください。
 * 「**[!UICONTROL Timeline]**」カードを使用すると、マーケティングアクティビティのインタラクティブなタイムラインに直接移動し、進行中のプログラムとそのコンテンツを参照することができます。[タイムライン](../../start/using/timeline.md)を参照してください。
@@ -47,42 +47,42 @@ Campaign ホームページは、主な Adobe Campaign 機能にすばやくア�
 
 ## 上部バー {#top-bar}
 
-上部バーはすべての画面に表示され、Adobe Campaign機能を操作したり、接続されているAdobeプロファイル、通知、Adobe Experience Cloudソリューション、Campaignドキュメントにアクセスしたりできます。
+上部バーはすべての画面に表示され、Adobe Campaign機能を操作したり、接続されているAdobeプロファイル、通知、Adobe Experience Cloudソリューション、Campaign ドキュメントにアクセスしたりできます。
 
 ナビゲーションは原則として次のとおりです。
 
-* ページの左上隅にある&#x200B;**Adobe**&#x200B;ロゴを使用すると、高度な機能と設定にアクセスできます。 表示されるメニューは、プロファイルと権限に応じて異なります。
+* ページの左上隅にある **Adobe** ロゴを使用すると、高度な機能と設定にアクセスできます。 表示されるメニューは、プロファイルと権限に応じて異なります。
 
    詳細設定メニューについては、[詳細設定メニュー](#advanced-menu)の節を参照してください。
 
 * 「**[!UICONTROL Home]**」リンクをクリックすると、Adobe Campaign ホームページが表示されます。
 * 「**[!UICONTROL Marketing activities]**」、「**[!UICONTROL Programs & Campaigns]**」、「**[!UICONTROL Profiles]**」、「**[!UICONTROL Audiences]**」、「**[!UICONTROL Reports]**」の各リンクをクリックすると、これらの機能にリンクされた画面にアクセスできます。
-* **ソリューション切り替えボタン**&#x200B;をクリックすると、組織や別のアプリケーションに切り替えることができます。
-* **[!UICONTROL Help]**&#x200B;アイコンは[](#help)の下に記述します。
+* **ソリューション切り替えボタン** をクリックすると、組織間や別のアプリケーション間を切り替えることができます。
+* **[!UICONTROL Help]** アイコンは、[](#help) の下に記述します。
 * **通知**&#x200B;アイコンには、最新のアラートまたは情報が表示されます。
-* **ユーザー**&#x200B;アイコンをクリックすると、ユーザープロファイルにリンクされた情報を表示できます。**[!UICONTROL Sign out]**&#x200B;が必要な場合は、このアイコンを使用します。
+* **ユーザー**&#x200B;アイコンをクリックすると、ユーザープロファイルにリンクされた情報を表示できます。**[!UICONTROL Sign out]** が必要な場合は、このアイコンを使用します。
 
 ### ヘルプ {#help}
 
-右上隅にある「**ヘルプ**」アイコンをクリックすると、Adobe Experience Leagueが製品に取り込まれます。
+右上隅の「**ヘルプ**」アイコンをクリックすると、Adobe Experience Leagueが製品に取り込まれます。
 
 ![](assets/ux_help.png)
 
-**[!UICONTROL Search]**&#x200B;フィールドを使用して、ガイダンスを見つけます。 検索結果には、ドキュメントやヘルプ記事、コミュニティフォーラムやビデオコンテンツの結果が含まれ、より多くのコンテンツに容易にアクセスしてアプリケーションを最大限に活用できます。
+**[!UICONTROL Search]** フィールドを使用して、ガイダンスを見つけます。 検索結果には、ドキュメントとヘルプ記事、コミュニティフォーラムやビデオコンテンツの結果が含まれ、より多くのコンテンツに容易にアクセスしてアプリケーションを最大限に活用できます。
 
-3つのタブがヘルプとサポートを見つけるのに役立ちます。
+3 つのタブで、ヘルプやサポートを検索できます。
 
-1. 「**[!UICONTROL Help]**」タブには次が含まれます。
+1. 「**[!UICONTROL Help]**」タブには次の内容が含まれます。
    * コンテキストリンクを含むAdobe Campaign Standardのドキュメントにすばやくアクセスできます。
-   * Adobe Campaignコースライブラリにアクセスできる&#x200B;**[!UICONTROL Learning]**&#x200B;リンク。
-   * Campaignに関するご質問専用のフォーラムにアクセスするための&#x200B;**[!UICONTROL Community]**&#x200B;リンク。
-   * 次への直接アクセスヘルプセンター、カスタマーケア、Experience Cloud製品のステータス、開発者向け接続、リリースノート、リリース計画、**[!UICONTROL About]**&#x200B;画面。
-1. 「**[!UICONTROL Support]**」タブでは、サポートケースを開いて、電話またはTwitterでお問い合わせいただけます。
+   * Adobe Campaignコースライブラリにアクセスできる **[!UICONTROL Learning]** リンク。
+   * Campaign に関するご質問専用のフォーラムにアクセスするための **[!UICONTROL Community]** リンク。
+   * 次への直接アクセス：ヘルプセンター、カスタマーケア、Experience Cloud製品のステータス、開発者向け接続、リリースノート、リリース計画、**[!UICONTROL About]** 画面。
+1. 「**[!UICONTROL Support]**」タブでは、サポートケースを開き、電話またはTwitterでお問い合わせください。
 1. 「**[!UICONTROL Feedback]**」タブを使用すると、問題の報告やアイデアの共有が容易になります。
 
 ## 詳細設定メニュー {#advanced-menu}
 
-詳細設定メニューは、各画面の左上隅にある **Adobe Campaign** アイコンをクリックすると表示されます。詳細設定メニューは、契約内容やユーザー権限によって異なる場合があります。
+詳細設定メニューは、各画面の左上隅にある **Adobe Campaign** アイコンをクリックすると表示されます。 詳細設定メニューは、契約内容やユーザー権限によって異なる場合があります。
 
 このメニューを使用すると、特定の機能や設定に移動できます。
 

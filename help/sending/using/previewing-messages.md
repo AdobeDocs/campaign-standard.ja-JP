@@ -1,6 +1,6 @@
 ---
 title: メッセージのプレビュー
-description: コンテンツエディターまたはEメールデザイナーでメッセージをプレビューする方法を説明します。
+description: コンテンツエディターまたは E メールデザイナーでメッセージをプレビューする方法を説明します。
 audience: sending
 content-type: reference
 topic-tags: preparing-and-testing-messages
@@ -8,32 +8,32 @@ feature: Seed Address
 role: User
 level: Intermediate
 exl-id: ac8c1265-f530-4438-ab2d-3ca17615ca85
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '623'
 ht-degree: 16%
 
 ---
 
 # 配信のプレビュー {#previewing-messages}
 
-## Eメールのプレビュー {#previewing-emails}
+## E メールのプレビュー {#previewing-emails}
 
-Campaign Standardでは、送信前にメッセージをプレビューして、メッセージのパーソナライゼーションと受信者への表示方法を確認できます。
+Campaign Standardを使用すると、送信前にメッセージをプレビューして、メッセージのパーソナライゼーションと受信者へのメッセージの表示方法を確認できます。
 
-メッセージのプレビューは、メッセージのターゲットに追加する&#x200B;**テストプロファイル**&#x200B;を使用して実行されます。
+メッセージのプレビューは、メッセージのターゲットに追加する **テストプロファイル** を使用して実行されます。
 
-**eメール**&#x200B;メッセージの場合、Campaign Standardを使用すると、テストプロファイルではなく、ターゲットプロファイルを使用してメッセージをプレビューできます。 これにより、特定のプロファイルが受け取るメッセージの正確な内容を取得できます。 詳しくは、[ターゲットプロファイルを使用した電子メールメッセージのテスト](../../sending/using/testing-messages-using-target.md)を参照してください。
+**email** メッセージの場合、Campaign Standardを使用すると、テストプロファイルではなく、ターゲットプロファイルを使用してメッセージをプレビューできます。 これにより、特定のプロファイルが受け取るメッセージの正確な内容を取得できます。 詳しくは、[ターゲットプロファイルを使用した電子メールメッセージのテスト](../../sending/using/testing-messages-using-target.md)を参照してください。
 
 テストプロファイルを使用してメッセージをプレビューするには、次の手順に従います。
 
-1. [Eメールデザイナー](../../designing/using/designing-content-in-adobe-campaign.md)で、「**[!UICONTROL Preview]**」ボタンをクリックします。
+1. [E メールデザイナー ](../../designing/using/designing-content-in-adobe-campaign.md) で、**[!UICONTROL Preview]** ボタンをクリックします。
 
    ![](assets/sending_preview.png)
 
-   Eメールのデスクトップビューとレスポンシブモバイルビューが並べて表示されます。
+   E メールのデスクトップビューとレスポンシブモバイルビューが並べて表示されます。
 
-1. 各プレビュー中にスパム対策チェックが自動的に実行されます。警告の詳細を確認するには、「**[!UICONTROL Anti-spam analysis]**」ボタンをクリックします。
+1. 各プレビュー中にスパム対策チェックが自動的に実行されます。**[!UICONTROL Anti-spam analysis]** ボタンをクリックして、警告の詳細を確認します。
 
    ![](assets/sending_anti-spam_analysis.png)
 
@@ -41,7 +41,7 @@ Campaign Standardでは、送信前にメッセージをプレビューして、
 
    ![](assets/sending_test-profile.png)
 
-1. **[!UICONTROL Preview]**&#x200B;モードを終了するには、画面の左上にある&#x200B;**[!UICONTROL Edit]**&#x200B;ボタンをクリックします。
+1. **[!UICONTROL Preview]** モードを終了するには、画面の左上にある **[!UICONTROL Edit]** ボタンをクリックします。
 
    ![](assets/sending_preview_edit.png)
 
@@ -51,27 +51,27 @@ Campaign Standardでは、送信前にメッセージをプレビューして、
 * [ターゲットプロファイルを使用した E メールメッセージのテスト](../../sending/using/testing-messages-using-target.md)
 * [配達確認の送信](../../sending/using/sending-proofs.md)
 
-## SMSメッセージのプレビュー {#previewing-sms}
+## SMS メッセージのプレビュー {#previewing-sms}
 
-**SMS**&#x200B;メッセージの場合、Campaign Standardを使用すると、テストプロファイルを使用してメッセージをプレビューできます。 これにより、特定のプロファイルが受け取るメッセージの正確な内容を取得できます。 詳しくは、[テストプロファイルの管理](../../audiences/using/managing-test-profiles.md)を参照してください。
+**SMS** メッセージの場合、Campaign Standardを使用すると、テストプロファイルを使用してメッセージをプレビューできます。 これにより、特定のプロファイルが受け取るメッセージの正確な内容を取得できます。 詳しくは、[テストプロファイルの管理](../../audiences/using/managing-test-profiles.md)を参照してください。
 
-テストプロファイルを使用してSMSメッセージをプレビューするには、次の手順に従います。
+テストプロファイルを使用して SMS メッセージをプレビューするには、次の手順に従います。
 
-1. SMSメッセージの&#x200B;**[!UICONTROL Properties]**&#x200B;に入力してオーディエンスを選択したら、配信をパーソナライズできます。 詳しくは、[](../../channels/using/personalizing-sms-messages.md)を参照してください。
+1. SMS メッセージの **[!UICONTROL Properties]** に入力し、オーディエンスを選択したら、配信をパーソナライズできます。 詳しくは、[](../../channels/using/personalizing-sms-messages.md) を参照してください。
 
    ![](assets/sms_preview.png)
 
-1. コンテンツをパーソナライズしたら、**[!UICONTROL Create]**&#x200B;をクリックして&#x200B;**[!UICONTROL Summary]**&#x200B;ウィンドウにアクセスします。
+1. コンテンツをパーソナライズしたら、**[!UICONTROL Create]** をクリックして **[!UICONTROL Summary]** ウィンドウにアクセスします。
 
-1. **[!UICONTROL Summary]**&#x200B;ウィンドウで「**[!UICONTROL Content]**」をクリックし、配信のプレビューを開始します。
+1. **[!UICONTROL Summary]** ウィンドウで「**[!UICONTROL Content]**」をクリックして、配信のプレビューを開始します。
 
    ![](assets/sms_preview_2.png)
 
-1. ツールバーの&#x200B;**[!UICONTROL Preview]**&#x200B;をクリックします。
+1. ツールバーの **[!UICONTROL Preview]** をクリックします。
 
    ![](assets/sms_preview_3.png)
 
-1. **[!UICONTROL Change profile]**&#x200B;をクリックしてテストプロファイルを選択し、**[!UICONTROL Confirm]**&#x200B;をクリックします。
+1. **[!UICONTROL Change profile]** をクリックしてテストプロファイルを選択し、**[!UICONTROL Confirm]** をクリックします。
 
    ![](assets/sms_preview_4.png)
 
@@ -85,21 +85,21 @@ Campaign Standardでは、送信前にメッセージをプレビューして、
 
 ## プッシュ通知のプレビュー {#previewing-push}
 
-**プッシュ通知**&#x200B;の場合、Campaign Standardを使用すると、テストプロファイルを使用してメッセージをプレビューできます。 これにより、特定のプロファイルが受け取るメッセージの正確な内容を取得できます。 詳しくは、[テストプロファイルの管理](../../audiences/using/managing-test-profiles.md)を参照してください。
+**プッシュ通知** の場合、Campaign Standardを使用すると、テストプロファイルを使用してメッセージをプレビューできます。 これにより、特定のプロファイルが受け取るメッセージの正確な内容を取得できます。 詳しくは、[テストプロファイルの管理](../../audiences/using/managing-test-profiles.md)を参照してください。
 
 テストプロファイルを使用してプッシュ通知をプレビューするには、次の手順に従います。
 
-1. プッシュ通知の&#x200B;**[!UICONTROL Properties]**&#x200B;に入力し、オーディエンスを選択すると、配信をパーソナライズできます。 詳しくは、[プッシュ通知のカスタマイズ](../../channels/using/customizing-a-push-notification.md)を参照してください。
+1. プッシュ通知の **[!UICONTROL Properties]** に入力し、オーディエンスを選択すると、配信をパーソナライズできます。 詳しくは、[ プッシュ通知のカスタマイズ ](../../channels/using/customizing-a-push-notification.md) を参照してください。
 
-1. コンテンツをパーソナライズした後、プレビューウィンドウでデバイスとOSに応じて、プッシュ通知のレンダリングを直接確認できます。
+1. コンテンツをパーソナライズした後、プレビューウィンドウでデバイスと OS に応じて、プッシュ通知のレンダリングを直接確認できます。
 
    ![](assets/push_preview.png)
 
-1. テストプロファイルを使用してプッシュ通知をプレビューするには、「**[!UICONTROL Preview with test profile]**」をクリックします。
+1. テストプロファイルを使用してプッシュ通知をプレビューするには、**[!UICONTROL Preview with test profile]** をクリックします。
 
    ![](assets/push_preview_2.png)
 
-1. テストプロファイルを選択し、**[!UICONTROL Confirm]**&#x200B;を選択します。
+1. テストプロファイルを選択し、**[!UICONTROL Confirm]** を選択します。
 
 選択したテストプロファイルに応じて、メッセージの正確な表示を確認できます。
 
@@ -113,21 +113,21 @@ Campaign Standardでは、送信前にメッセージをプレビューして、
 
 ## アプリ内メッセージのプレビュー {#previewing-in-app}
 
-**アプリ内**&#x200B;の場合、Campaign Standardを使用すると、テストプロファイルを使用してメッセージをプレビューできます。 これにより、特定のプロファイルが受け取るメッセージの正確な内容を取得できます。 詳しくは、[テストプロファイルの管理](../../audiences/using/managing-test-profiles.md)を参照してください。
+**アプリ内** の場合、Campaign Standardを使用すると、テストプロファイルを使用してメッセージをプレビューできます。 これにより、特定のプロファイルが受け取るメッセージの正確な内容を取得できます。 詳しくは、[テストプロファイルの管理](../../audiences/using/managing-test-profiles.md)を参照してください。
 
 テストプロファイルを使用してアプリ内メッセージをプレビューするには、次の手順に従います。
 
-1. アプリ内メッセージの&#x200B;**[!UICONTROL Properties]**&#x200B;に入力し、オーディエンスを選択して&#x200B;**[!UICONTROL Triggers]**&#x200B;を設定したら、配信をパーソナライズできます。 詳しくは、[アプリ内メッセージのカスタマイズ](../../channels/using/customizing-an-in-app-message.md)を参照してください。
+1. アプリ内メッセージの **[!UICONTROL Properties]** に入力し、オーディエンスを選択して **[!UICONTROL Triggers]** を設定したら、配信をパーソナライズできます。 詳しくは、[ アプリ内メッセージのカスタマイズ ](../../channels/using/customizing-an-in-app-message.md) を参照してください。
 
-1. コンテンツをパーソナライズした後、プレビューウィンドウでデバイスとOSに応じて、アプリ内メッセージのレンダリングを直接確認できます。
+1. コンテンツをパーソナライズした後、プレビューウィンドウでデバイスと OS に応じて、アプリ内メッセージのレンダリングを直接確認できます。
 
    ![](assets/in_app_preview.png)
 
-1. テストプロファイルを使用してアプリ内メッセージをプレビューするには、**[!UICONTROL Preview]**&#x200B;をクリックします。
+1. テストプロファイルを使用してアプリ内メッセージをプレビューするには、**[!UICONTROL Preview]** をクリックします。
 
    ![](assets/in_app_preview_2.png)
 
-1. テストプロファイルを選択し、**[!UICONTROL Confirm]**&#x200B;を選択します。
+1. テストプロファイルを選択し、**[!UICONTROL Confirm]** を選択します。
 
 選択したテストプロファイルに応じて、メッセージの正確な表示を確認できます。
 

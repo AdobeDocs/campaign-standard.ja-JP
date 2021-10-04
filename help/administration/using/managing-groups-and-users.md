@@ -9,10 +9,10 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 4b9834ab-0f7c-419e-a210-77a018ba874d
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '941'
-ht-degree: 87%
+source-wordcount: '940'
+ht-degree: 77%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 87%
 
 ユーザーは、常にセキュリティグループにリンクされている必要があります。これにより、ユーザーに特定の役割や組織単位を割り当てることができます。
 
-役割の詳細については、次のページの表に、ユーザーの役割に応じて使用可能な操作を示します。[Adobe Campaign Standard認証](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)。
+役割の詳細については、次のページの表に、ユーザーの役割に応じて使用できる操作を示します。[Adobe Campaign Standard認証 ](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)。
 
 デフォルトのセキュリティグループは次のとおりです。
 
@@ -35,7 +35,7 @@ ht-degree: 87%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL Access to the deliverability parameters (Deliverability)]**&#x200B;および&#x200B;**[!UICONTROL Message Center agents (mcExec)]**&#x200B;セキュリティグループは、Adobe内部のみで、どのユーザーにも割り当てることはできません。
+>**[!UICONTROL Access to the deliverability parameters (Deliverability)]** および **[!UICONTROL Message Center agents (mcExec)]** セキュリティグループはAdobe内部のみで、どのユーザーにも割り当てることはできません。
 
 Adobe Campaignにアクセスするには、各ユーザーをセキュリティグループに割り当てる必要があります。
 
@@ -49,9 +49,9 @@ Campaign Standard ユーザーグループは **[!UICONTROL All]** 組織単位�
 
 >[!IMPORTANT]
 >
->Admin Console では、セキュリティグループはプロファイルと呼ばれます。
+>セキュリティグループは、Admin Consoleではプロファイルと呼ばれます。
 
-標準グループでユーザーを適切に管理できない場合は、独自のセキュリティグループを作成できます。独自のセキュリティグループは、Adobe Campaign 管理メニューと Admin Console の両方にアクセスできる管理者が管理できます。Admin Console について詳しくは、この[ドキュメント](https://helpx.adobe.com/jp/enterprise/managing/user-guide.html)を参照してください。
+標準グループでユーザーを適切に管理できない場合は、独自のセキュリティグループを作成できます。管理者は、Adobe Campaignの管理メニューと管理者の両方にアクセスできる管理者が管理できます。 Admin Consoleの詳細については、この [ ドキュメント ](https://helpx.adobe.com/jp/enterprise/managing/user-guide.html) を参照してください。
 
 ここでは、最初に 2 つの標準グループ（Standard Users と Administrators）をユーザーに割り当てる必要があります。これらのセキュリティグループは、Adobe Campaign 機能の一部を制限します。Standard Users には基本的な Adobe Campaign アクセス権がある一方、Administrators は管理メニューなどにアクセスできます。
 
@@ -63,7 +63,7 @@ Admin Console でセキュリティグループに対しておこなった変更
 
 最初に、標準セキュリティグループの 1 つをユーザーに割り当てる必要があります。
 
-1. Admin Console で、インスタンスを選択し、「**Users**」タブをクリックします。
+1. Admin Consoleで、インスタンスを選択し、「**ユーザー**」タブを選択します。
 
    ![](assets/manage_security_group_2.png)
 
@@ -78,7 +78,7 @@ Admin Console でセキュリティグループに対しておこなった変更
 
 ユーザーに役割を割り当てるために標準の **[!UICONTROL Administrators]** セキュリティグループと **[!UICONTROL Standard users]** セキュリティグループに 2 人のユーザーを割り当てると、Administrators ユーザーは **Geometrixx** と **Geometrixx Clothes** の 2 つのセキュリティグループを作成して、標準セキュリティグループに加えて組織単位をユーザーに割り当てることができます。
 
-1. Admin Console で、インスタンスを選択し、「**Products**」タブをクリックします。
+1. Admin Consoleで、インスタンスを選択し、「**製品**」タブを選択します。
 1. 「**New Profile**」ボタンをクリックして、**Geometrixx** セキュリティグループを作成します。
 
    ![](assets/create_security_1.png)
@@ -120,14 +120,14 @@ Admin Console でセキュリティグループに対しておこなった変更
 
    ![](assets/manage_security_group_9.png)
 
-新しく作成されたセキュリティグループが Admin Console に作成されます。セキュリティグループを完全に同期するには、Adobe Campaign でもセキュリティグループを作成する必要があります。
+新しく作成されたセキュリティグループがAdmin Consoleに作成されます。 セキュリティグループを完全に同期するには、Adobe Campaign でもセキュリティグループを作成する必要があります。
 
 Administrators ユーザーは、組織単位の割り当てに使用する Geometrixx および Geometrixx Clothes セキュリティグループのセットを作成する必要があります。組織単位の作成方法については、[単位の作成と管理](../../administration/using/organizational-units.md#creating-and-managing-units)を参照してください。
 
-1. 左上隅の&#x200B;**Adobe**&#x200B;ロゴをクリックし、**[!UICONTROL Administration > Users & Security > Security groups]**&#x200B;を選択します。
+1. 左上隅の **Adobe** ロゴをクリックし、**[!UICONTROL Administration > Users & Security > Security groups]** を選択します。
 1. 新しいセキュリティグループを作成し、**[!UICONTROL Label]** と **[!UICONTROL ID]** を指定します。
 
-   この ID は、Admin Console で選択した ID と同じである必要があります。
+   この ID は、Admin Consoleで選択した ID と同じである必要があります。
 
 1. 「**[!UICONTROL User access]**」フィールドで、組織単位を割り当てます。ここでは、Geometrixx セキュリティグループに **[!UICONTROL All]** 組織単位が割り当てられます。
 
@@ -146,4 +146,4 @@ Administrators ユーザーは、組織単位の割り当てに使用する Geom
 
 >[!IMPORTANT]
 >
->Admin Consoleでセキュリティグループから削除されたユーザーは、Adobe Campaignセキュリティグループに残り、Adobe Campaignにログインできなくなります。 この場合、ユーザーが機密情報を受け取らないように、Admin Console でユーザーの E メールアドレスを削除します。
+>Admin Console内のセキュリティグループから削除されたユーザーは、Adobe Campaignセキュリティグループに引き続き属し、Adobe Campaignにログインできなくなります。 この場合、ユーザーが機密情報を受け取らないように、Admin Console でユーザーの E メールアドレスを削除します。

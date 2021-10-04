@@ -9,9 +9,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '2597'
+source-wordcount: '2596'
 ht-degree: 77%
 
 ---
@@ -57,7 +57,7 @@ E メール設定画面では、E メールチャネルのパラメーターを�
 
    >[!IMPORTANT]
    >
-   >実行する再試行の最大数と、再試行間の最小遅延は、IPが特定のドメインでどの程度過去に実行され、現在どの程度の動作を実行しているかに基づいています。 Campaignの&#x200B;**[!UICONTROL Retry period]**&#x200B;設定と&#x200B;**[!UICONTROL Number of retries]**&#x200B;設定は無視されます。
+   >実行する再試行の最大数と再試行間の最小遅延は、IP が特定のドメインでどの程度過去に実行され、現在どの程度の動作を実行しているかに基づいています。 Campaign の **[!UICONTROL Retry period]** 設定と **[!UICONTROL Number of retries]** 設定は無視されます。
 
    <!--This section indicates how many retries should be performed the day after the send is started (**Number of retries**) and the minimum delay between retries (**Retry period**). By default, five retries are scheduled for the first day with a minimum interval of one hour, spread out over the 24 hours of the day. One retry per day is programmed after that and until the delivery deadline, which is defined in the **[!UICONTROL Delivery parameters]** section.-->
 
@@ -88,10 +88,10 @@ E メール設定画面では、E メールチャネルのパラメーターを�
 
 >[!IMPORTANT]
 >
->EメールドメインとMXルールは、自動的に管理される<!--by the Adobe Campaign Enhanced MTA (Message Transfer Agent)-->になり、変更できなくなりました。
+>E メールドメインと MX ルールは、自動的に管理されるようになり、<!--by the Adobe Campaign Enhanced MTA (Message Transfer Agent)--> 変更できなくなりました。
 
-* **DKIM(DomainKeys Identified Mail)**  Eメール認証の署名は、すべてのドメインのすべてのメッセージに対しておこなわれます。**Sender ID**、**DomainKeys**、**S/MIME**&#x200B;を使用して署名することはできません。
-* MXルールは、独自の履歴Eメールのレピュテーションと、Eメールを送信するドメインからのリアルタイムフィードバックに基づいて、ドメインごとにスループットを自動的にカスタマイズします。
+* **DKIM(DomainKeys Identified Mail)**  E メール認証の署名は、すべてのドメインのすべてのメッセージに対しておこなわれます。**Sender ID**、**DomainKeys**、**S/MIME** は使用しません。
+* MX ルールは、独自の履歴 E メールの評判と、E メールを送信するドメインからのリアルタイムフィードバックに基づいて、ドメインごとにスループットを自動的にカスタマイズします。
 
 <!--Note that the email domains and the MX rules are now managed by the Adobe Campaign Enhanced MTA:
 * **DKIM (DomainKeys Identified Mail)** email authentication signing is done by the Enhanced MTA for all messages with all domains. It does not sign with **Sender ID**, **DomainKeys**, or **S/MIME** unless otherwise specified at the Enhanced MTA level.
@@ -105,7 +105,7 @@ E メール設定画面では、E メールチャネルのパラメーターを�
 
 >[!IMPORTANT]
 >
->同期配信の失敗エラーメッセージは、Adobe Campaign Enhanced MTAで評価されるようになりました。このMTAはバウンスのタイプと選定を決定し、その情報をCampaignに返します。
+>同期配信の失敗エラーメッセージは、Adobe Campaign Enhanced MTA で評価されるようになりました。この MTA はバウンスのタイプと選定を決定し、その情報を Campaign に返します。
 
 バウンスメールの選定について詳しくは、[この節](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification)を参照してください。
 
@@ -161,7 +161,7 @@ E メールパラメーター画面の上部で、「**[!UICONTROL Label]**」�
 
 >[!IMPORTANT]
 >
->再試行間の最小遅延と、実行される再試行の最大数は、IPが特定のドメインでどの程度過去に実行され、現在どの程度の動作を実行しているかに基づいています。 Campaignの&#x200B;**[!UICONTROL Retry period]**&#x200B;設定と&#x200B;**[!UICONTROL Max. number of retries]**&#x200B;設定は無視されます。
+>再試行間の最小遅延と実行する再試行の最大数は、IP が特定のドメインでどの程度過去に実行され、現在どの程度の動作を実行しているかに基づいています。 Campaign の **[!UICONTROL Retry period]** 設定と **[!UICONTROL Max. number of retries]** 設定は無視されます。
 
 Campaign で設定した&#x200B;**配信期間設定**（[有効期間パラメーター](#validity-period-parameters)の節で定義）**は引き続き使用されますが、最大 3.5 日までです**。この時点で、再試行キュー内のメッセージがキューから削除され、バウンスとして返されます。配信エラーについて詳しくは、[この節](../../sending/using/understanding-delivery-failures.md#about-delivery-failures)を参照してください。
 
@@ -212,7 +212,7 @@ SMTP の設定について詳しくは、[E メール SMTP パラメーターの
 
    >[!IMPORTANT]
    >
-   >**最大 3.5 日までの値を定義する必要があります。** 3.5日を超える値を設定した場合、その値は考慮されません。
+   >**最大 3.5 日までの値を定義する必要があります。** 3.5 日を超える値を設定した場合、その値は考慮されません。
 
 * **[!UICONTROL Resource validity duration]**／**[!UICONTROL Validity limit date for resources]**：このフィールドは、アップロードされたリソース（主にミラーページと画像）に関して使用されます。ディスクスペースを節約するために、このページ上のリソースが有効な期間は限られています。
 * **[!UICONTROL Mirror page management]**：ミラーページは、Web ブラウザーからオンラインアクセス可能な HTML ページです。コンテンツは E メールの内容と変わりません。デフォルトでは、メールコンテンツ内にリンクが挿入されているとミラーページが生成されます。このフィールドでは、このページの生成方法を変更できます。
@@ -308,35 +308,35 @@ SMTP の設定について詳しくは、[E メール SMTP パラメーターの
 
 ## 従来の設定 {#legacy-settings}
 
-最新バージョンのCampaignを&#x200B;**実行していない**&#x200B;場合でも、以下で説明するパラメーターとUIの節は引き続き適用されます。
+最新バージョンの Campaign を **実行していない** 場合でも、以下で説明するパラメーターと UI の節は引き続き適用されます。
 
 ### 再試行 {#legacy-retries}
 
-Eメールプロパティの[設定メニュー](#email-channel-parameters)と[送信パラメーター](#retries-parameters)の&#x200B;**[!UICONTROL Retries]**&#x200B;設定は、送信開始後の日に実行する再試行の回数(**[!UICONTROL Number of retries]** / **[!UICONTROL Max. number of retries]**)と、再試行間の最小遅延(**[!UICONTROL Retry period]**)を示します。
+E メールプロパティの [ 設定メニュー ](#email-channel-parameters) と [ 送信パラメーター ](#retries-parameters) の **[!UICONTROL Retries]** 設定は、送信開始の翌日 (**[!UICONTROL Number of retries]** / **[!UICONTROL Max. number of retries]**) に実行する再試行の回数と、再試行間の最小遅延 (**[!UICONTROL Retry period]**) を示します。
 
-再試行の回数の変更は、グローバルに(Adobeの技術管理者にお問い合わせください)、または配信または配信テンプレートごとにおこなうことができます。
+再試行の回数の変更は、グローバルに (Adobeの技術管理者にお問い合わせください )、または配信または配信テンプレートごとにおこなうことができます。
 
-デフォルトでは、最初の日には、最低1時間の間隔で5回の再試行がスケジュールされ、1日の24時間にわたって配信されます。 その後は、**[!UICONTROL Configuration]**&#x200B;メニューの&#x200B;**[!UICONTROL Delivery parameters]**&#x200B;セクションまたは配信レベルの&#x200B;**[!UICONTROL Validity period]**&#x200B;セクションでグローバルに定義される配信期限が来るまで、1日1回の再試行がスケジュールされます（以下の[配信時間](#legacy-delivery-duration)の節を参照）。
+デフォルトでは、最初の日に 5 回の再試行がスケジュールされ、最低 1 時間の間隔が 1 日の 24 時間にわたって適用されます。 その後は、**[!UICONTROL Configuration]** メニューの **[!UICONTROL Delivery parameters]** セクションまたは配信レベルの **[!UICONTROL Validity period]** セクションでグローバルに定義される配信期限が来るまで、1 日 1 回の再試行がスケジュールされます（以下の [ 配信期間 ](#legacy-delivery-duration) の節を参照）。
 
 ### 配信期間 {#legacy-delivery-duration}
 
-[設定メニュー](#email-channel-parameters)の&#x200B;**[!UICONTROL Message delivery duration]**&#x200B;パラメーターを使用すると、一時的なエラーまたはソフトバウンスが発生した配信内のメッセージを再試行する時間枠を指定できます。
+[ 設定メニュー ](#email-channel-parameters) の **[!UICONTROL Message delivery duration]** パラメーターを使用すると、一時的なエラーまたはソフトバウンスが発生した配信内のメッセージを再試行する時間枠を指定できます。
 
-[「有効期間パラメーター」](#validity-period-parameters)セクションの&#x200B;**[!UICONTROL Delivery duration]**&#x200B;または&#x200B;**[!UICONTROL Validity limit for sending messages]**&#x200B;パラメーターを使用すると、メッセージを送信できる期間を指定できます。
+「 [ 有効期間パラメーター ](#validity-period-parameters) 」セクションの **[!UICONTROL Delivery duration]** または **[!UICONTROL Validity limit for sending messages]** パラメーターを使用すると、メッセージの送信期間を指定できます。
 
 ### E メール処理ルール {#legacy-email-processing-rules}
 
-**[!UICONTROL MX management]**、**[!UICONTROL Bounce mails]**&#x200B;および&#x200B;**[!UICONTROL Domain management]**&#x200B;ルールは、管理者が&#x200B;**[!UICONTROL Administration > Channels > Email > Email processing rules]** [メニュー](#email-processing-rules)を使用してアクセスし、変更できます。
+**[!UICONTROL MX management]**、**[!UICONTROL Bounce mails]** および **[!UICONTROL Domain management]** ルールは、管理者が **[!UICONTROL Administration > Channels > Email > Email processing rules]** [ メニュー ](#email-processing-rules) を使用してアクセスし、変更できます。
 
 ### バウンスメールの認定 {#legacy-bounce-mail-qualification}
 
-様々なバウンスとそれに関連するエラータイプの理由を一覧表示するには、左上の&#x200B;**Adobe**&#x200B;ロゴをクリックし、**[!UICONTROL Administration > Channels > Quarantines > Message qualification]**&#x200B;を選択します。
+様々なバウンスとそれに関連するエラータイプの理由を一覧表示するには、左上の **Adobe** ロゴをクリックし、**[!UICONTROL Administration > Channels > Quarantines > Message qualification]** を選択します。
 
-バウンスは、次の資格ステータスを持つことができます。
+バウンスは、次の資格認定ステータスを持つことができます。
 
-* **[!UICONTROL To qualify]**:バウンスメールを検証する必要があります。選定は、プラットフォームの配信品質が正しく機能するよう、配信品質チームがおこなう必要があります。 選定されていない限り、バウンスメールはEメール処理ルールのリストのエンリッチメントには使用されません。
-* **[!UICONTROL Keep]**:バウンスメールは検証され、配信品質の更新ワークフローで使用さ **れ、既存のeメール処理ル** ールと比較してリストをエンリッチメントします。
-* **[!UICONTROL Ignore]**:バウンスメールは検証されましたが、配信品質の更新ワークフローでは **使用さ** れません。したがって、クライアントインスタンスには送信されません。
+* **[!UICONTROL To qualify]**:バウンスメールを選定する必要があります。選定は、プラットフォームの配信品質が正しく機能することを確認するために、配信品質チームがおこなう必要があります。 選定されていない限り、バウンスメールは E メール処理ルールのリストのエンリッチメントには使用されません。
+* **[!UICONTROL Keep]**:バウンスメールは検証され、配信品質の更新ワークフ **ローで使用さ** れ、既存の e メール処理ルールと比較してリストをエンリッチメントします。
+* **[!UICONTROL Ignore]**:バウンスメールは検証されましたが、配信品質の更新ワークフローで **は使用さ** れません。したがって、クライアントインスタンスに送信されません。
 
 >[!NOTE]
 >
@@ -344,8 +344,8 @@ Eメールプロパティの[設定メニュー](#email-channel-parameters)と[�
 
 <!--Bounces are qualified through the **[!UICONTROL Bounce mails]** processing rule. For more on accessing this rule, refer to this [section](#legacy-bounce-mail-qualification).-->
 
-### 配信された指標のレポート {#legacy-delivered-status-report}
+### 配信指標レポート {#legacy-delivered-status-report}
 
-各メッセージの&#x200B;**[!UICONTROL Summary]**&#x200B;表示では、ソフトバウンスとハードバウンスがレポートされるので、配信の有効期間を通じて&#x200B;**[!UICONTROL Delivered]**&#x200B;の割合が徐々に増加します。
+各メッセージの **[!UICONTROL Summary]** 表示では、ソフトバウンスとハードバウンスがレポートされると、配信の有効期間を通じて **[!UICONTROL Delivered]** の割合が徐々に増加します。
 
-ソフトバウンスメッセージは、配信の1日目の後に&#x200B;**[!UICONTROL Failed]**&#x200B;と表示され、配信の有効期間のその他の日に再試行されます。
+ソフトバウンスメッセージは、配信の 1 日目の翌日に **[!UICONTROL Failed]** と表示され、配信の有効期間の翌日に再試行されます。

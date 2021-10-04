@@ -9,10 +9,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: b6032160-fd8b-4a19-b868-b2fb85e6a56b
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1280'
-ht-degree: 81%
+source-wordcount: '1279'
+ht-degree: 78%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 81%
 
 ブランドの設定と使用に関する主な原則は次のとおりです。
 
-1. ブランドを作成して設定します。この操作には特定の権限が必要で、実行者は Adobe Campaign の技術管理者です。Campaignで新しいブランドを入手する手順については、この節](#creating-a-brand)で[を参照してください。
+1. ブランドを作成して設定します。この操作には特定の権限が必要で、実行者は Adobe Campaign の技術管理者です。Campaign で新しいブランドを入手する手順については、この節 [ で詳しく説明します。](#creating-a-brand)
 1. ブランドの配信とランディングページテンプレートを 1 つまたは複数作成します。[テンプレートの作成](../../start/using/marketing-activity-templates.md)の節を参照してください。
 1. このテンプレートに基づいてメッセージとランディングページを作成します。[E メールの作成](../../channels/using/creating-an-email.md)と[ランディングページの作成](../../channels/using/designing-a-landing-page.md)の節を参照してください。
 
@@ -87,27 +87,27 @@ ht-degree: 81%
 
 ## 新しいブランドの作成 {#creating-a-brand}
 
-組織の新しいエンティティをCampaignに追加したり、別のサブドメインで送信する必要がある新しいタイプのEメールを作成したりできます。 手順は次のとおりです。
+組織の新しいエンティティを Campaign に追加したり、別のサブドメインで送信する必要がある新しいタイプの E メールを作成したりできます。 手順は次のとおりです。
 
-1. **新しいサブドメインを設定**  -Adobeが使用する新しいサブドメインの場合、最初の手順は新しいサブドメインを設定することです。これは、[キャンペーンCampaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=ja)を通じて実行するか、Adobeの技術担当者にお問い合わせください。 サブドメインの設定[について詳しくは、この記事](https://helpx.adobe.com/jp/campaign/kb/domain-name-delegation.html)を参照してください。
+1. **新しいサブドメインを設定**  -Adobeが使用する新しいサブドメインの場合、最初の手順は新しいサブドメインを設定することです。これは、[ キャンペーンCampaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=ja) を通じて実行するか、Adobeの技術担当者にお問い合わせください。 サブドメインの設定 [ について詳しくは、この記事 ](https://helpx.adobe.com/jp/campaign/kb/domain-name-delegation.html) を参照してください。
 
    >[!NOTE]
    >
    >コントロールパネルは、すべての管理者ユーザーがアクセスできます。 ユーザーに管理者アクセス権を付与する手順については、[このページ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ja#discover-control-panel)で詳しく説明しています。
 
-1. **チケットの作成**  — サブドメインが設定されたら、Adobeは実稼動環境でサブドメインを設定する必要があります。これをリクエストするには、次の情報を使用して、[ClientCare](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)へのチケットを作成します。
+1. **チケットを作成**  — サブドメインが設定されると、Adobeは実稼動環境でサブドメインを設定します。これをリクエストするには、[ 次の情報を使用して、ClientCare](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html) へのチケットを作成します。
 
-   * 件名：ACS新しいブランドのセットアップ
+   * 件名：ACS 新しいブランドのセットアップ
 
-   * コンテンツ：新しいドメインが設定されたので、Campaignプラットフォームで設定します
+   * 内容：新しいドメインが設定され、Campaign プラットフォームで設定します
 
    * ドメイン：XXX
 
-   * 実稼動URL:XXX.campaign.adobe.com
+   * 実稼動 URL:XXX.campaign.adobe.com
 
-1. **配信テンプレートの作成**  — 新しいブランドが利用可能になったら、ベストプラクティスは、この新しいブランドを参照する少なくとも1つの新しい空の配信テンプレートを作成することです。[詳細情報](#linking-a-brand-to-a-template)。
+1. **配信テンプレートの作成**  — 新しいブランドが利用可能になったら、ベストプラクティスは、この新しいブランドを参照する少なくとも 1 つの新しい空の配信テンプレートを作成することです。[詳細情報](#linking-a-brand-to-a-template)。
 
-1. **配信品質のガイドラインを確認**  — 新しいドメインの使用を開始する前に、戦略についてAdobe配信品質チームに話し合う必要があります。例えば、ドメイン間でIPを分割するために新しいアフィニティを作成する必要がある場合や、ランプアップ計画を定義する必要がある場合に、ベストプラクティスの定義に役立ちます。 配信品質のベストプラクティス[について詳しくは、この節](../../sending/using/about-deliverability.md)を参照してください。
+1. **配信品質のガイドラインを確認**  — 新しいドメインの使用を開始する前に、戦略をAdobe配信品質チームに話し合う必要があります。例えば、ドメイン間で IP を分割するために新しいアフィニティを作成する場合や、ランプアップ計画を定義する必要がある場合に、ベストプラクティスの定義に役立ちます。 配信品質のベストプラクティス [ について詳しくは、この節 ](../../sending/using/about-deliverability.md) を参照してください。
 
 ## E メールへのブランドの割り当て {#assigning-a-brand-to-an-email}
 
@@ -145,13 +145,13 @@ ht-degree: 81%
 
 この例では、新しい旅行関連ブランドを作成して E メールで使用します。
 
-#### 新しいブランドの設定 {#configure-a-new-brand}
+#### 手順 1:新しいブランドの設定 {#configure-a-new-brand}
 
 >[!IMPORTANT]
 >
 >ブランド設定は、特定の権限と技術的な設定が必要なので、アドビでのみ管理されます。
 
-1. ブランドは、Adobe Campaign 管理者が&#x200B;**[!UICONTROL Administration > Instance settings > Brand configuration]**&#x200B;で作成します。この例では、詳細設定メニューから **Vacations in the Tropics** 要素を追加し、ブランドの「**[!UICONTROL ID]**」と「**[!UICONTROL Header parameters of sent emails]**」を設定しています。
+1. Adobe Campaignの管理者は、まず **[!UICONTROL Administration > Instance settings > Brand configuration]** メニューからブランドを作成し、**Vacations in the Tropics** 要素を追加して、**[!UICONTROL ID]** と **[!UICONTROL Header parameters of sent emails]** ブランドを設定します。
 
    ![](assets/branding_07.png)
 
@@ -163,7 +163,7 @@ ht-degree: 81%
 
 ブランドが正しく作成および設定されました。これで、マーケティングチームで使用できるようになりました。
 
-#### 新しいブランドの実装 {#implement-a-new-brand}
+#### 手順 2:新しいブランドの実装 {#implement-a-new-brand}
 
 、新しいブランドを使用する配信テンプレートの作成を配信責任者が担当します。そのための手順は次のとおりです。
 
@@ -182,7 +182,7 @@ ht-degree: 81%
 
    これで、配信テンプレートを使用して、オーディエンスに送信する E メールを作成できるようになりました。
 
-#### 配信での新しいブランドの 使用 {#use-the-new-brand-in-a-delivery}
+#### 手順 3:配信での新しいブランドの使用 {#use-the-new-brand-in-a-delivery}
 
 ブランドにリンクされた E メールを作成するには、次の手順に従います。
 

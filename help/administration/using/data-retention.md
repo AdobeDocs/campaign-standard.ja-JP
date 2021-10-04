@@ -1,6 +1,6 @@
 ---
 title: データ保持
-description: Campaignの標準ログテーブルには、事前に設定された保存期間があり、通常、データのストレージは6か月以下に制限されます。 標準テーブルのデフォルトのリテンション値について説明します。
+description: Campaign の標準ログテーブルには、事前に設定された保持期間が設定されており、通常、データの保存期間は 6 か月以下に制限されています。 標準テーブルのデフォルトのリテンション値について説明します。
 audience: administration
 content-type: reference
 topic-tags: application-settings
@@ -8,16 +8,16 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 01cfa2a0-4ff5-4520-a515-11676de82528
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 59%
+source-wordcount: '157'
+ht-degree: 45%
 
 ---
 
 # データ保持{#data-retention}
 
-Campaignの標準ログテーブルには、事前に設定された保存期間があり、通常、データのストレージは6か月以下に制限されます。
+Campaign の標準ログテーブルには、事前に設定された保持期間が設定されており、通常、データの保存期間は 6 か月以下に制限されています。
 
 標準テーブルのデフォルトのリテンション期間を以下に示します。リテンションは実装時にアドビの技術管理者が設定します。値は顧客の要件に基づくため、実装環境によって異なる場合があります。
 
@@ -34,4 +34,4 @@ Campaignの標準ログテーブルには、事前に設定された保存期間
 
 標準のワークフロー機能を使用して、任意のカスタムテーブルのリテンション期間を設定できます。
 
-リテンションの詳細について知りたい場合、またはカスタムテーブルの設定が必要な場合は、アドビのコンサルタントまたは技術管理者にお問い合わせください。
+リテンションの詳細については、Adobeコンサルタントまたは技術管理者にお問い合わせください。また、カスタムテーブルのリテンションを設定する場合もあります。

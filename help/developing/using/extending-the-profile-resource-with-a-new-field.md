@@ -8,10 +8,10 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 625d5e10-3d68-440e-a60c-4fcdfca34b5f
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
 source-wordcount: '1022'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -71,7 +71,7 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL Add an element]**」をクリックし、**[!UICONTROL Label]** と **[!UICONTROL ID]** を追加して「**[!UICONTROL Add]**」をクリックし、必要な数だけ値を追加します。
 
-   ここでは、プロファイルが選択できるオプションとして「Books」、「Exhibitions」、「Movies」、「N/A」の値を作成します。
+   この例では、プロファイルがこれらのオプションから選択できる「Books」、「Exhibitions」、「Movies」および「N/A」の値を作成します。
 
    ![](assets/schema_extension_uc11.png)
 

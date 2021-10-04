@@ -1,6 +1,6 @@
 ---
 title: プロファイルの更新
-description: APIを使用してプロファイルを更新する方法について説明します。
+description: API を使用してプロファイルを更新する方法について説明します。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -8,22 +8,22 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: fa3796ee-a00c-4d70-bf3d-e8d2099f1116
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: '94'
 ht-degree: 4%
 
 ---
 
 # プロファイルの更新 {#updating-profiles}
 
-プロファイルの更新は、**PATCH**&#x200B;リクエストを使用して実行されます。
+プロファイルの更新は、**PATCH** リクエストを使用して実行されます。
 
 `https://mc.adobe.io/<ORGANIZATION>/campaign/<apiName>/<resourceName>/<PKEY>`
 
-1. 最初の手順は、**プロファイル**&#x200B;を取得することです。
+1. 最初の手順は、**プロファイル** を取得することです。
 
-1. 2つ目のリクエストでは、ペイロード内の完了した情報を使用して、プロファイルに対して&#x200B;**PATCHリクエスト**&#x200B;を実行します。
+1. 2 番目のリクエストでは、ペイロード内の完了した情報を使用して、プロファイルで **PATCHリクエスト** を実行します。
 
 1. PATCHリクエストがプロファイルを更新したかどうかを確認するには、最終的なGETリクエストを実行します。
 
@@ -68,7 +68,7 @@ PATCHリクエストで「phone」属性を更新します。
 -d '{"phone":"3301020304"}'
 ```
 
-PKEYとURLを返して、更新されたプロファイルを取得します。
+PKEY と URL を返して、更新されたプロファイルを取得します。
 
 ```
 {

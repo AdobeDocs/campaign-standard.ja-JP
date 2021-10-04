@@ -7,10 +7,10 @@ topic-tags: about-workflows-and-data-management
 feature: Workflows
 role: Data Architect
 exl-id: 210d1477-9536-4308-bdb7-b9ccfe4c85bc
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '234'
-ht-degree: 94%
+source-wordcount: '233'
+ht-degree: 86%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 94%
 
 この節では、Campaign ワークフロー機能を活用する様々なユースケースを示します。
 
-ワークフローを使用できる様々なコンテキストを見つけ、ニーズに応えるのに役立ちます。
+ワークフローを使用できる様々なコンテキストを特定し、ニーズに応えるのに役立ちます。
 
 ## 配信 {#deliveries}
 

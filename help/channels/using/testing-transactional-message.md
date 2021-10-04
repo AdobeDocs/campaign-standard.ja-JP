@@ -9,9 +9,9 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 5138826d-ae08-403b-91ef-91027ef6e78e
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '278'
 ht-degree: 37%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 37%
 
 イベントにリンクされるテストプロファイルを定義します。これにより、メッセージをプレビューし、関連する配達確認を送信できます。
 
-1. [トランザクションメッセージダッシュボード](../../channels/using/editing-transactional-message.md#accessing-transactional-messages)で、「**[!UICONTROL Create test profile]**」ボタンをクリックします。
+1. [ トランザクションメッセージダッシュボード ](../../channels/using/editing-transactional-message.md#accessing-transactional-messages) で、「**[!UICONTROL Create test profile]**」ボタンをクリックします。
 
    ![](assets/message-center_test-profile.png)
 
@@ -34,7 +34,7 @@ ht-degree: 37%
 
    >[!NOTE]
    >
-   >メッセージをエンリッチメントする場合は、**[!UICONTROL Profile]**&#x200B;など、別のテーブルに関連する情報を入力することもできます。 [イベント](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)のエンリッチメントおよび[トランザクションメッセージのパーソナライズ](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message)を参照してください。
+   >メッセージをエンリッチメントする場合は、**[!UICONTROL Profile]** など、別のテーブルに関する情報を入力することもできます。 [ イベントのエンリッチメント ](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) および [ トランザクションメッセージのパーソナライズ ](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message) を参照してください。
 
 1. 作成後、テストプロファイルはトランザクションメッセージで事前に指定されます。 配達確認のターゲットを確認するには、メッセージの「**[!UICONTROL Test profiles]**」ブロックをクリックします。
 
@@ -42,8 +42,8 @@ ht-degree: 37%
 
 新規テストプロファイルを作成するか、既に「**[!UICONTROL Test profiles]**」メニューにあるテストを使用することもできます。手順は次のとおりです。
 
-1. 左上隅の&#x200B;**Adobe**&#x200B;ロゴをクリックし、**[!UICONTROL Profiles & audiences]** / **[!UICONTROL Test profiles]**&#x200B;を選択します。
-1. **[!UICONTROL Event]**&#x200B;セクションで、先ほど作成したイベントを選択します。 この例では、「買い物かごの放棄（EVTcartAbandant）」を選択します。
+1. 左上隅の **Adobe** ロゴをクリックし、**[!UICONTROL Profiles & audiences]** / **[!UICONTROL Test profiles]** を選択します。
+1. **[!UICONTROL Event]** セクションで、先ほど作成したイベントを選択します。 この例では、「買い物かごの放棄（EVTcartAbandant）」を選択します。
 1. JSON 形式で送信する情報を「**[!UICONTROL Event data]**」テキストボックスに指定します。
 
    ![](assets/message-center_3.png)
@@ -58,8 +58,8 @@ ht-degree: 37%
 
 ## 配達確認の送信 {#sending-proof}
 
-1つ以上の特定のテストプロファイルを作成し、トランザクションメッセージを保存したら、配達確認を送信してテストできます。
+1 つ以上の特定のテストプロファイルを作成し、トランザクションメッセージを保存したら、配達確認を送信してテストできます。
 
 ![](assets/message-center_10.png)
 
-配達確認を送信する手順について詳しくは、[配達確認の送信](../../sending/using/sending-proofs.md)の節を参照してください。
+配達確認の送信手順について詳しくは、[ 配達確認の送信 ](../../sending/using/sending-proofs.md) の節を参照してください。

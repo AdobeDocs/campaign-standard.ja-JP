@@ -8,10 +8,10 @@ feature: Workflows
 role: Data Architect
 level: Experienced
 exl-id: 1df1552a-6578-47eb-ba14-fb91cd2a3999
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '924'
-ht-degree: 42%
+source-wordcount: '916'
+ht-degree: 35%
 
 ---
 
@@ -19,20 +19,20 @@ ht-degree: 42%
 
 ## 前処理ステージについて {#about-preprocessing-stages}
 
-PIIデータを含む場合など、Campaignサーバーをインポートするデータを暗号化する必要が生じる場合があります。
+PII データを含む場合など、Campaign サーバーをインポートするデータを暗号化する必要が生じる場合があります。
 
-送信データを暗号化または受信データを復号化するには、[Campaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=ja)を使用してGPGキーを管理する必要があります。
+送信データを暗号化したり、受信データを復号化したりできるようにするには、[Campaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=ja) を使用して GPG キーを管理する必要があります。
 
 >[!NOTE]
 >
 >Campaign コントロールパネルは、AWS でホストされるすべてのお客様が利用できます（自分のマーケティングインスタンスをオンプレミスでホストするお客様を除く）。
 
-Campaign コントロールパネルを使用する資格がない場合は、Adobeカスタマーケアに連絡して、インスタンスに必要な暗号化/復号化コマンドを提供してもらう必要があります。 これをおこなうには、次を示すリクエストを送信します。
+Campaign コントロールパネルを使用する資格がない場合は、Adobeカスタマーケアに連絡して、インスタンスに必要な暗号化/復号化コマンドを提供してもらう必要があります。 これをおこなうには、次の内容を示すリクエストを送信します。
 
-* コマンドを使用するためにCampaignインターフェイスに表示される&#x200B;**label**。 （例：「ファイルを暗号化」）。
-* インスタンスにインストールする&#x200B;**コマンド**。
+* Campaign インターフェイスでコマンドを使用するために表示される **label**。 例えば、「ファイルを暗号化」。
+* インスタンスにインストールする **コマンド**。
 
-リクエストが処理されると、**[!UICONTROL Load file]**&#x200B;および&#x200B;**[!UICONTROL Extract file]**&#x200B;アクティビティの&#x200B;**[!UICONTROL Pre-processing stage]**&#x200B;フィールドで暗号化/復号化コマンドを使用できるようになります。 これらを使用して、インポートまたはエクスポートするファイルを復号化または暗号化できます。
+リクエストが処理されると、**[!UICONTROL Load file]** および **[!UICONTROL Extract file]** アクティビティの **[!UICONTROL Pre-processing stage]** フィールドで暗号化/復号化コマンドを使用できるようになります。 これらを使用して、インポートまたはエクスポートするファイルを復号化または暗号化できます。
 
 ![](assets/preprocessing-encryption.png)
 
@@ -43,7 +43,7 @@ Campaign コントロールパネルを使用する資格がない場合は、Ad
 
 ## ユースケース：コントロールパネルで生成されたキーを使用して暗号化されたデータのインポート {#use-case-gpg-decrypt}
 
-このユースケースでは、外部システムで暗号化されたデータを Campaign コントロールパネルで生成されたキーを使用してインポートするためのワークフローを作成します。
+この使用例では、外部システムで暗号化されたデータをインポートするために、Campaign コントロールパネルで生成されたキーを使用してワークフローを作成します。
 
 ![](assets/do-not-localize/how-to-video.png) [この機能をビデオで確認](#video)
 
@@ -56,24 +56,24 @@ Campaign コントロールパネルを使用する資格がない場合は、Ad
 
    ![](assets/gpg_generate.png)
 
-1. 外部システムでは、Campaign コントロールパネルからダウンロードした公開鍵を使用して、Campaign Standardにインポートするデータを暗号化します。
+1. 外部システムでは、Campaign コントロールパネルからダウンロードした公開鍵を使用して、Campaign Standardに読み込むデータを暗号化します。
 
-1. Campaign Standardで、暗号化されたデータを読み込むワークフローを構築し、Campaign コントロールパネル経由でインストールされた秘密鍵を使用して復号化します。 これをおこなうには、次のようにワークフローを作成します。
+1. Campaign Standardで、暗号化されたデータを読み込むワークフローを作成し、Campaign コントロールパネル経由でインストールされた秘密鍵を使用して復号化します。 これをおこなうには、次のようにワークフローを作成します。
 
    ![](assets/gpg_workflow.png)
 
-   * **[!UICONTROL Transfer file]** アクティビティ：ファイルを外部ソースからCampaignに転送します。この例では、SFTPサーバーからファイルを転送します。
+   * **[!UICONTROL Transfer file]** アクティビティ：ファイルを外部ソースから Campaign に転送します。この例では、SFTP サーバーからファイルを転送します。
    * **[!UICONTROL Load file]** アクティビティ：ファイルからデータベースにデータを読み込み、データベースで生成された秘密鍵を使用して復号化Campaign コントロールパネル。
 
-1. **[!UICONTROL Transfer file]**&#x200B;アクティビティを開き、必要に応じて設定します。 アクティビティの設定方法に関するグローバルな概念については、[こちら](../../automating/using/load-file.md)を参照してください。
+1. **[!UICONTROL Transfer file]** アクティビティを開き、必要に応じて設定します。 アクティビティの設定方法に関するグローバルな概念については、[こちら](../../automating/using/load-file.md)を参照してください。
 
-   「 **[!UICONTROL Protocol]** 」タブで、SFTPサーバーと、転送する暗号化された.gpgファイルに関する詳細を指定します。
+   「 **[!UICONTROL Protocol]** 」タブで、SFTP サーバーと、転送する暗号化された.gpg ファイルに関する詳細を指定します。
 
    ![](assets/gpg_transfer.png)
 
-1. **[!UICONTROL Load file]**&#x200B;アクティビティを開き、必要に応じて設定します。 アクティビティの設定方法に関するグローバルな概念については、[こちら](../../automating/using/load-file.md)を参照してください。
+1. **[!UICONTROL Load file]** アクティビティを開き、必要に応じて設定します。 アクティビティの設定方法に関するグローバルな概念については、[こちら](../../automating/using/load-file.md)を参照してください。
 
-   受信データを復号化するために、アクティビティに前処理ステージを追加します。これをおこなうには、リストから&#x200B;**[!UICONTROL Decryption GPG]**&#x200B;オプションを選択します。
+   受信データを復号化するために、アクティビティに前処理ステージを追加します。これをおこなうには、リストから **[!UICONTROL Decryption GPG]** オプションを選択します。
 
    >[!NOTE]
    >
@@ -87,7 +87,7 @@ Campaign コントロールパネルを使用する資格がない場合は、Ad
 
 ## ユースケース：コントロールパネルにインストールされたキーを使用したデータの暗号化および書き出し {#use-case-gpg-encrypt}
 
-このユースケースでは、Campaign コントロールパネルにインストールされたキーを使用してデータを暗号化およびエクスポートするためのワークフローを作成します。
+この使用例では、Campaign コントロールパネルにインストールされたキーを使用してデータを暗号化および書き出すためのワークフローを作成します。
 
 ![](assets/do-not-localize/how-to-video.png) [この機能をビデオで確認](#video)
 
@@ -103,21 +103,21 @@ Campaign コントロールパネルを使用する資格がない場合は、Ad
 
    * **[!UICONTROL Query]** アクティビティ：この例では、クエリを実行して、エクスポートするデータベースのデータをターゲットにします。
    * **[!UICONTROL Extract file]** アクティビティ：データを暗号化してファイルに抽出します。
-   * **[!UICONTROL Transfer file]** アクティビティ：暗号化されたデータを含むファイルをSFTPサーバーに転送します。
+   * **[!UICONTROL Transfer file]** アクティビティ：暗号化されたデータを含むファイルを SFTP サーバーに転送します。
 
-1. **[!UICONTROL Query]**&#x200B;アクティビティを設定し、データベースから目的のデータをターゲットにします。 詳しくは、[この節](../../automating/using/query.md)を参照してください。
+1. **[!UICONTROL Query]** アクティビティを設定し、データベースから必要なデータをターゲットにします。 詳しくは、[この節](../../automating/using/query.md)を参照してください。
 
-1. **[!UICONTROL Extract file]**&#x200B;アクティビティを開き、必要に応じて設定します（出力ファイル、列、形式など）。 アクティビティの設定方法に関するグローバルな概念については、[こちら](../../automating/using/extract-file.md)を参照してください。
+1. **[!UICONTROL Extract file]** アクティビティを開き、必要に応じて設定します（出力ファイル、列、形式など）。 アクティビティの設定方法に関するグローバルな概念については、[こちら](../../automating/using/extract-file.md)を参照してください。
 
-   抽出するデータを暗号化するために、アクティビティに前処理ステージを追加します。 これをおこなうには、データの暗号化に使用する暗号化GPGキーを選択します。
+   抽出するデータを暗号化するために、アクティビティに前処理ステージを追加します。 これをおこなうには、データの暗号化に使用する暗号化 GPG キーを選択します。
 
    ![](assets/gpg-extract-stage.png)
 
    >[!NOTE]
    >
-   >括弧内の値は、GPG暗号化ツールを使用してキーペアを生成する際に定義した&#x200B;**comment**&#x200B;です。 正しい一致キーを選択していることを確認してください。選択していない場合、受信者はファイルを復号化できません。
+   >括弧内の値は、GPG 暗号化ツールを使用してキーペアを生成する際に定義した **comment** です。 一致する正しいキーを選択していることを確認してください。選択していない場合、受信者はファイルを復号化できません。
 
-1. **[!UICONTROL Transfer file]**&#x200B;アクティビティを開き、ファイルの送信先のSFTPサーバーを指定します。 アクティビティの設定方法に関するグローバルな概念については、[こちら](../../automating/using/transfer-file.md)を参照してください。
+1. **[!UICONTROL Transfer file]** アクティビティを開き、ファイルの送信先の SFTP サーバーを指定します。 アクティビティの設定方法に関するグローバルな概念については、[こちら](../../automating/using/transfer-file.md)を参照してください。
 
    ![](assets/gpg-transfer-encrypt.png)
 
@@ -129,8 +129,8 @@ Campaign コントロールパネルを使用する資格がない場合は、Ad
 
 >[!VIDEO](https://video.tv.adobe.com/v/35753?quality=12)
 
-このビデオでは、GPGキーを使用してデータを暗号化する方法を示します。
+このビデオでは、GPG キーを使用してデータを暗号化する方法を説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/36380?quality=12)
 
-追加のCampaign Standardハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja)からご覧いただけます。
+追加のCampaign Standardハウツービデオは [ こちら ](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja) からご覧いただけます。

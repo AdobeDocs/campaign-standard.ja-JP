@@ -8,10 +8,10 @@ feature: Typology Rules
 role: User
 level: Intermediate
 exl-id: 21abf3c2-d319-40a8-9479-1fc02c82e5d2
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '2342'
-ht-degree: 100%
+source-wordcount: '2341'
+ht-degree: 99%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 100%
 
 **[!UICONTROL Fatigue]**&#x200B;のタイポロジルールを作成および設定するには、次の手順に従います。
 
-1. Adobe Campaign のロゴをクリックし、インターフェイスの左上隅で **[!UICONTROL Administration]**／**[!UICONTROL Channels]**／**[!UICONTROL Typologies]**／**[!UICONTROL Typology rules]**&#x200B;を選択します。
+1. インターフェイスの左上隅にあるAdobe Campaignのロゴをクリックし、 **[!UICONTROL Administration]** / **[!UICONTROL Channels]** / **[!UICONTROL Typologies]** / **[!UICONTROL Typology rules]** を選択します。
 
    ![](assets/fatigue4.png)
 
