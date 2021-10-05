@@ -9,10 +9,10 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: 1b48456e-9aae-485c-a7c4-7e3e2f53cbca
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '1007'
-ht-degree: 4%
+source-wordcount: '996'
+ht-degree: 3%
 
 ---
 
@@ -32,8 +32,8 @@ ht-degree: 4%
 モバイルアプリのサブスクリプションデータに基づいてプロファイルを作成または更新する前に、Campaign Standardでプッシュ通知を有効にするには、いくつかの設定手順を実行します。
 
 1. [モバイルアプリケーションの作成](../../administration/using/configuring-a-mobile-application.md)
-1. [AdobeMobile SDK をモバイルアプリケーションと統合します](https://helpx.adobe.com/jp/campaign/kb/integrate-mobile-sdk.html)。
-1. [プッシュ通知を送信するようにAdobe Campaignを設定します](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/administrating/configuring-channels/configuring-a-mobile-application.html)。
+1. [AdobeMobile SDK をモバイルアプリケーションと統合します](../../administration/using/supported-mobile-use-cases.md)。
+1. [プッシュ通知を送信するようにAdobe Campaignを設定します](../../administration/using/configuring-a-mobile-application.md)。
 
 ## 手順 1 — プッシュ通知/購読のプロファイルリソースの拡張
 

@@ -8,9 +8,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '1273'
+source-wordcount: '1248'
 ht-degree: 6%
 
 ---
@@ -25,11 +25,9 @@ ht-degree: 6%
 
 Experience PlatformSDK アプリケーションでプッシュ通知とアプリ内メッセージを送信するには、モバイルアプリケーションをAdobe Experience PlatformExperience PlatformExperience Platform Launchで設定し、Adobe Campaignで設定する必要があります。
 
-非推奨（廃止予定）の機能 Mobile version 4 SDK について詳しくは、この [ ページ ](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4-deprecated.html) を参照してください。
-
 モバイルアプリケーションを設定したら、収集した PII データを取得して、データベースからプロファイルを作成または更新できます。 詳しくは、この節を参照してください。[ モバイルアプリケーションデータに基づいてプロファイル情報を作成し、更新します ](../../channels/using/updating-profile-with-mobile-app-data.md)。
 
-Adobe Experience Platform SDK を使用してAdobe Campaign Standardでサポートされる様々なモバイル使用例について詳しくは、この [ ページ ](https://helpx.adobe.com/jp/campaign/kb/configure-launch-rules-acs-use-cases.html) を参照してください。
+Adobe Experience Platform SDK を使用してAdobe Campaign Standardでサポートされる様々なモバイル使用例について詳しくは、この [ ページ ](../../administration/using/supported-mobile-use-cases.md) を参照してください。
 
 設定を完了するには、次の手順を実行します。
 

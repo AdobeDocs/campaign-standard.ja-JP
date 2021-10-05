@@ -8,9 +8,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 6b3c189d-8ddd-4dc0-8831-65ae62e04c70
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '907'
 ht-degree: 4%
 
 ---
@@ -76,7 +76,7 @@ Adobe Experience Platform SDK とCampaign Standardの統合について詳しく
 
 ## モバイルプロファイルを Campaign にエンリッチメントするには、どうすればよいですか？ {#enrich-mobile-profile}
 
-CollectPII ポストバックを設定し（この [ ページ ](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#PIIpostback) を参照）、SDK から CollectPII API を実装する必要があります（この [ ページ ](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#collect-pii) を参照）。
+CollectPII ポストバックを設定し（この [ ページ ](../../administration/using/configuring-rules-launch.md#pii-postback) を参照）、SDK から CollectPII API を実装する必要があります（この [ ページ ](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#collect-pii) を参照）。
 
 ## CollectPII 呼び出しは、どのくらいの頻度で実行する必要がありますか？ {#collect-pii}
 

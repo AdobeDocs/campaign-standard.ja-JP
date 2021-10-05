@@ -9,9 +9,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: b6032160-fd8b-4a19-b868-b2fb85e6a56b
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '1279'
+source-wordcount: '1282'
 ht-degree: 78%
 
 ---
@@ -89,7 +89,7 @@ ht-degree: 78%
 
 組織の新しいエンティティを Campaign に追加したり、別のサブドメインで送信する必要がある新しいタイプの E メールを作成したりできます。 手順は次のとおりです。
 
-1. **新しいサブドメインを設定**  -Adobeが使用する新しいサブドメインの場合、最初の手順は新しいサブドメインを設定することです。これは、[ キャンペーンCampaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=ja) を通じて実行するか、Adobeの技術担当者にお問い合わせください。 サブドメインの設定 [ について詳しくは、この記事 ](https://helpx.adobe.com/jp/campaign/kb/domain-name-delegation.html) を参照してください。
+1. **新しいサブドメインを設定**  -Adobeが使用する新しいサブドメインの場合、最初の手順は新しいサブドメインを設定することです。これは、[ キャンペーンCampaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=ja) を通じて実行するか、Adobeの技術担当者にお問い合わせください。 サブドメインの設定 [ について詳しくは、この記事 ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup.html?lang=ja) を参照してください。
 
    >[!NOTE]
    >

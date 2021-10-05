@@ -8,9 +8,9 @@ context-tags: delivery,triggers,back;deliveryCreation,wizard
 feature: In App
 role: User
 exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 2ad76d55785f123b590e00c8d33552f4617c32e2
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1157'
 ht-degree: 98%
 
 ---
@@ -58,7 +58,7 @@ Adobe Campaign を使用してスタンドアロンのアプリ内メッセー�
    * **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**
    * **[!UICONTROL Target users based on their Mobile profile (inApp)]**
 
-1. アプリ内メッセージのプロパティを入力し、「**[!UICONTROL Associate a Mobile App to a delivery]**」フィールドでモバイルアプリを選択します。モバイルアプリが Adobe Campaign Standard と連携するように設定されていない場合、リストには表示されません。モバイルアプリケーションの設定について詳しくは、この[ページ](https://helpx.adobe.com/jp/campaign/kb/configuring-app-sdk.html#ChannelspecificapplicationconfigurationinAdobeCampaign)を参照してください。
+1. アプリ内メッセージのプロパティを入力し、「**[!UICONTROL Associate a Mobile App to a delivery]**」フィールドでモバイルアプリを選択します。モバイルアプリが Adobe Campaign Standard と連携するように設定されていない場合、リストには表示されません。モバイルアプリケーションの設定について詳しくは、この[ページ](../../administration/using/configuring-a-mobile-application.md#channel-specific-config)を参照してください。
 
    ![](assets/inapp_creating_3.png)
 
@@ -74,7 +74,7 @@ Adobe Campaign を使用してスタンドアロンのアプリ内メッセー�
 
    * **[!UICONTROL Mobile Application events]**：モバイルアプリケーションに実装されたカスタムイベント。
 
-      イベント作成について詳しくは、この[ページ](https://helpx.adobe.com/jp/campaign/kb/configuring-app-sdk.html)を参照してください。
+      イベント作成について詳しくは、この[ページ](../../administration/using/configuring-a-mobile-application.md)を参照してください。
 
    * **[!UICONTROL Life Cycle events]**：Adobe Mobile SDK でサポートされる既製のライフサイクルイベント。
 
@@ -86,7 +86,7 @@ Adobe Campaign を使用してスタンドアロンのアプリ内メッセー�
 
    * **[!UICONTROL Places]**：Places コンテキストデータ、Places カスタムメタデータ、Places イベントタイプの 3 つのカテゴリでリアルタイムの位置情報データを利用して、コンテキストに応じたモバイルエクスペリエンスを提供します。
 
-      Adobe Places について詳しくは、[Places のドキュメント](https://placesdocs.com/)を参照してください。
+      Adobe Places について詳しくは、[Places のドキュメント](https://experienceleague.adobe.com/docs/places/using/home.html)を参照してください。
    ![](assets/inapp_creating_4.png)
 
 1. 「**[!UICONTROL Analytics Events]**」を使用する場合、Adobe Analytics イベントおよび画面遷移イベントには、Adobe Experience Platform Launch の Analytics 拡張機能で設定されたレポートスイートに基づいて、自動的に入力がおこなわれます。これに対して、コンテキストデータイベントは手動で追加する必要があります。
@@ -103,7 +103,7 @@ Adobe Campaign を使用してスタンドアロンのアプリ内メッセー�
 
    ![](assets/inapp_creating_5.png)
 
-1. メッセージの内容を編集し、詳細設定オプションを指定します。[アプリ内メッセージのカスタマイズ](https://helpx.adobe.com/campaign/standard/channels/using/customizing-an-in-app-message.html)を参照してください。
+1. メッセージの内容を編集し、詳細設定オプションを指定します。[アプリ内メッセージのカスタマイズ](../../channels/using/customizing-an-in-app-message.md)を参照してください。
 
    ![](assets/inapp_creating_6.png)
 

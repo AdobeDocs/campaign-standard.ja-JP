@@ -9,9 +9,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: a6515795-1006-4f27-bc44-5ae8b8edc018
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '1147'
+source-wordcount: '1141'
 ht-degree: 5%
 
 ---
@@ -216,7 +216,7 @@ Android ペイロードの側面を理解するには、[ メッセージング�
 | 可変コンテンツ <br> （iOS 10 以降にのみ適用） | mutable-content | 該当なし | アプリの Notification Service Extension は、可変コンテンツキーを使用してすべてのリモート通知を「傍受」し、要求ペイロードの内容を処理/操作できるようにします。これを使用して通知をカスタマイズできます。 この機能の使用例には、複数のメディアのダウンロードと表示、プッシュペイロードに存在する暗号化されたデータの復号化などがあります。 詳しくは、[ リモート通知のペイロードの変更 ](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html) を参照してください。 <br>（iOS 10 以降にのみ適用） |
 | 利用可能なコンテンツ | content-available | 該当なし | このオプションを選択すると、バックグラウンド/休止状態の iOS アプリを起動できます。 起動すると、アプリがバックグラウンドで実行され、プッシュ通知データペイロードを受け取る適切なイベントハンドラーが制御を取得し、カスタムプッシュ通知の作成や表示など、データを使用して任意の計算を実行できます。 詳しくは、[ 通知配信を使用したアプリの起動 ](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html) を参照してください。 |
 | リッチメディアコンテンツ URL（画像ファイル）<br>（Android のみ適用） | 該当なし | media-attachment-url | 通知にリッチコンテンツを追加する画像ファイルの URL。 |
-| 該当なし | _mId<br>_dId | _mId <br>_dId | broadlogId と deliveryId の値。<br>これらの属性は、プッシュ通知がクリックまたは開封されたタイミングを追跡するためにアプリがトラッキングポストバックを呼び出す場合に必要です。この情報は、ユーザーの介入なしに、アプリサーバーによって計算され、内部的に送信されます。<br>ポストバックに関する情報は、このページを参照し [てください](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#PIIpostback)。 |
+| 該当なし | _mId<br>_dId | _mId <br>_dId | broadlogId と deliveryId の値。<br>これらの属性は、プッシュ通知がクリックまたは開封されたタイミングを追跡するためにアプリがトラッキングポストバックを呼び出す場合に必要です。この情報は、ユーザーの介入なしに、アプリサーバーによって計算され、内部的に送信されます。<br>ポストバックに関する情報は、このページを参照し [てください](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback)。 |
 
 ### モバイルアプリコードでペイロード情報を取得する方法 {#payload-information}
 
