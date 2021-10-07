@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: 958f7beb-ab41-4492-bc0a-e9e342e3c12e
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '650'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -90,32 +90,32 @@ Adobe Campaign Standard は、英語、フランス語、ドイツ語の各言�
 | アクション | ショートカット |
 | --- | --- |
 | ユーザーインターフェイスの個々の要素間を移動する | タブ |
-| 選択した項目をアクティブにする | EnterまたはSpaceキー |
+| 選択した項目をアクティブにする | Enter またはスペースバー |
 
-### メールデザイナー {#email-designer-shortcuts}
+### 電子メールデザイナー {#email-designer-shortcuts}
 
-| アクション | Windowsのショートカット | macOSのショートカット |
+| アクション | Windows ショートカット | macOS ショートカット |
 | --- | --- | --- |
 | 取り消し | Ctrl + Z | Command + Z |
 | やり直し | Ctrl + Y | Shift + Command + Z |
 
 ### 動的レポート {#report-shortcuts}
 
-| アクション | Windowsのショートカット | macOSのショートカット |
+| アクション | Windows ショートカット | macOS ショートカット |
 | --- | --- | --- |
 | プロジェクトを開く | Ctrl + O | Command + O |
 | 保存 | Ctrl + S | Command + S |
 | 名前を付けて保存 | Shift + Ctrl + S | Shift + Command + S |
 | プロジェクトを更新 | Alt + R | Command + R |
-| CSVファイルのダウンロード | Shift + Ctrl + V | Shift + Command + V |
+| CSV ファイルのダウンロード | Shift + Ctrl + V | Shift + Command + V |
 | 印刷 | Alt + P | Command + P |
 | 取り消し | Ctrl + Z | Command + Z |
 | やり直し | Ctrl + Y | Shift + Command + Z |
-| 新しい空白のパネル | Alt + B | オプション+ B |
-| 新しいフリーフォーム | Alt + A | オプション+ A |
-| 新しいフリーフォームテーブル | Alt + 1 | オプション+ 1 |
-| 新しい行 | Alt + 2 | オプション+ 2 |
-| 新しいバー | Alt + 3 | オプション+ 3 |
+| 新しい空のパネル | Alt + B | Option + B |
+| 新しいフリーフォーム | Alt + A | Option + A |
+| 新しいフリーフォームテーブル | Alt + 1 | Option + 1 |
+| 新しい行 | Alt + 2 | Option + 2 |
+| 新しいバー | Alt + 3 | Option + 3 |
 | 今すぐレポートを送信 | Alt + S | Option + S |
 | スケジュールに従ってレポートを送信 | Shift + Alt + S | Shift + Option + S |
 | 予定レポート | Shift + Alt + L | <!-- Should be 'Shift + Option + L ' but does not work on Mac --> |
