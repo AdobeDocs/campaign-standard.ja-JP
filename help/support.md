@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: b164942b-0f1c-473e-bf78-f10ec3374244
 source-git-commit: 87e91e169fedf962471f82754b1d40a14e5fc32a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '585'
 ht-degree: 100%
 
@@ -48,7 +48,7 @@ FAQ、ベストプラクティス、オンラインリソース、サポート�
         <li><a href="automating/using/monitoring-workflow-execution.md#error-management">ワークフローのエラー管理</a></li>
         <li><a href="automating/using/best-practices-workflows.md">ワークフロー実行のトラブルシューティング</a></li>
         <li><a href="api/using/troubleshooting.md">API のトラブルシューティング</a></li>
-        <li><a href="sending/using/understanding-delivery-failures.md">配信エラーについて</a></li>
+        <li><a href="sending/using/understanding-delivery-failures.md">配信の失敗について</a></li>
         </ul>
     </td>
    <td valign="top">
@@ -127,4 +127,4 @@ Campaign Classic コミュニティへの参加：既存の質問の回答を検
 
 新しいシステムで問題を記録したりチャットセッションを開始したりするには、[Adobe Admin Console](https://adminconsole.adobe.com/overview) に接続します。
 
-詳細な手順については、[このページ](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)を参照してください。
+詳細な手順については、[このページ](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)を参照してください。
