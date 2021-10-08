@@ -7,8 +7,7 @@ topic-tags: in-app-messaging
 context-tags: delivery,triggers,back
 feature: In App
 role: User
-exl-id: 986646b1-42d5-4169-ac38-d8e612a9a6d3
-source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
+source-git-commit: df7fce6f2fd98688e5a1fb5bc84603e6b3df5cd4
 workflow-type: tm+mt
 source-wordcount: '668'
 ht-degree: 2%
@@ -57,7 +56,7 @@ ht-degree: 2%
 
 ![](assets/faq_inapp.png)
 
-## Campaign のパーソナライゼーションフィールドをカスタム HTML に追加できますか？ {#custom-html-inapp}
+## Campaign のパーソナライゼーションフィールドをカスタムHTMLに追加できますか？ {#custom-html-inapp}
 
 いいえ、これはまだサポートされていません。
 
@@ -65,9 +64,9 @@ ht-degree: 2%
 
 アラートメッセージの場合は、1 つ以上の却下ボタン（プライマリまたはセカンダリでアクションを却下する必要がある）が必要です。 そうしないと、メッセージを保存できますが、受信されません。
 
-## ローカル通知 iOS カスタムサウンドが再生されない場合。代わりにデフォルトのサウンドが再生されますか？ {#local-notification-sound}
+## ローカル通知iOSカスタムサウンドが再生されない場合代わりにデフォルトのサウンドが再生されますか？ {#local-notification-sound}
 
-iOS のカスタムサウンドの場合、ローカル通知を作成する際に、ファイル名に拡張子を付ける必要があります（例えば、sound.caf）。 この拡張機能を指定しない場合は、デフォルトのサウンドが使用されます。
+iOSのカスタムサウンドの場合、ローカル通知を作成する際に、ファイル名に拡張子を付ける必要があります（例：sound.caf）。 この拡張機能を指定しない場合は、デフォルトのサウンドが使用されます。
 
 ## ディープリンクはアプリ内メッセージでサポートされていますか。 {#inapp-deeplinks}
 
