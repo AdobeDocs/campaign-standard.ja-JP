@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1599'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Adobe Campaign には、Adobe Campaign に保存されているデータに対�
 
 ### 名前空間 {#namesspaces}
 
-プライバシーリクエストを作成する前に、使用する名前空間を定義します。 名前空間は、Adobe Campaign データベースでデータ主体を識別するために使用するキーです。標準では、E メールと携帯電話の 2 つの名前空間を使用できます。別の名前空間（例えば、プロファイルのカスタムフィールド）が必要な場合は、次の手順に従います。
+プライバシーリクエストを作成する前に、使用する名前空間を定義する必要があります。名前空間は、Adobe Campaign データベースでデータ主体を識別するために使用するキーです。標準では、E メールと携帯電話の 2 つの名前空間を使用できます。別の名前空間（例えば、プロファイルのカスタムフィールド）が必要な場合は、次の手順に従います。
 
 名前空間の作成方法については、この[チュートリアル](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/namespaces-for-privacy-requests.html?lang=ja#privacy)も参照してください。
 
@@ -53,7 +53,7 @@ Adobe Campaign には、Adobe Campaign に保存されているデータに対�
 >
 >複数の名前空間を使用する場合、名前空間ごとに 1 つのプライバシーリクエストを作成します。
 
-1. 左上隅のAdobe Campaignロゴをクリックし、 **[!UICONTROL Administration]** > **[!UICONTROL Namespaces]** を選択します。
+1. 左上隅の Adobe Campaign ロゴをクリックし、**[!UICONTROL Administration]**／**[!UICONTROL Namespaces]** を選択します。
 
    ![](assets/privacy-namespaces.png)
 
@@ -75,9 +75,9 @@ Adobe Campaign には、Adobe Campaign に保存されているデータに対�
 
    ID 名前空間について詳しくは、[Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=ja) ドキュメントを参照してください。
 
-1. ID サービスの 1 つの名前空間が Campaign の 1 つの名前空間にマッピングされます。Campaign で名前空間を紐付けする方法を指定する必要があります。
+1. ID サービスの 1 つの名前空間が Campaign の 1 つの名前空間にマッピングされます。Campaign での名前空間の紐付け方法を指定する必要があります。
 
-   ターゲットマッピング（**[!UICONTROL Recipients]**、**[!UICONTROL Real-time event]** または **[!UICONTROL Subscriptions to an application]**）を選択します。 複数のターゲットマッピングを使用する場合は、ターゲットマッピングごとに 1 つの名前空間を作成します。
+   ターゲットマッピング（**[!UICONTROL Recipients]**、**[!UICONTROL Real-time event]** または **[!UICONTROL Subscriptions to an application]**）を選択します。 複数のターゲットマッピングを使用する場合は、ターゲットマッピングごとに 1 つの名前空間を作成する必要があります。
 
    ![](assets/privacy-namespace-target-mapping.png)
 
@@ -129,7 +129,7 @@ Privacy Core Service の各ジョブは、使用されている名前空間の�
 
 これを機能させるには、カスタムリソースで **[!UICONTROL Deleting the target record implies deleting records referenced by the link]** オプションを選択する必要があります。
 
-1. 左上隅のAdobe Campaignロゴをクリックし、 **[!UICONTROL Administration]** / **[!UICONTROL Development]** / **[!UICONTROL Custom resources]** を選択します。
+1. 左上隅の Adobe Campaign ロゴをクリックし、**[!UICONTROL Administration]**／**[!UICONTROL Development]**／**[!UICONTROL Custom resources]**&#x200B;を選択します。
 
 1. プロファイルリソース（独自タイプ）にリンクされるカスタムリソースを選択します。
 
@@ -177,7 +177,7 @@ To change this mode, click **[!UICONTROL Edit properties]**, in the top right co
 
 Adobe Campaign が提供する[同意管理](../../start/using/privacy-management.md#consent-management)ツールに加えて、消費者が個人情報の販売をオプトアウトしたかどうかをトラッキングすることもできます。
 
-ユーザーがお客様のシステムを通じて、自分の個人情報を第三者に販売することを許可しないと判断した場合、この情報を保存し、追跡できます。
+ユーザーがお客様のシステムを通じて、自分の個人情報を第三者に販売することを許可しないと判断した場合、この情報を保存して追跡できます。
 
 >[!NOTE]
 >
@@ -191,7 +191,7 @@ Adobe Campaign が提供する[同意管理](../../start/using/privacy-managemen
 
 19.4 以降、Campaign インターフェイスおよび API で、「**[!UICONTROL CCPA Opt-Out]**」フィールドが標準で提供されます。デフォルトでは、このフィールドは標準の **[!UICONTROL Profile]** リソースで使用できます。
 
-カスタムプロファイルリソースを使用する場合は、リソースを拡張し、フィールドを追加する必要があります。 次のように、あらかじめ用意されているフィールドとは別の名前を使用することをお勧めします。例：**[!UICONTROL Opt-Out for CCPA]**（optoutccpa）。新しいフィールドが作成されると、Campaign API によって自動的にサポートされます。
+カスタムプロファイルリソースを使用する場合は、リソースを拡張し、フィールドを追加する必要があります。次のように、あらかじめ用意されているフィールドとは別の名前を使用することをお勧めします。例：**[!UICONTROL Opt-Out for CCPA]**（optoutccpa）。新しいフィールドが作成されると、Campaign API によって自動的にサポートされます。
 
 プロファイルリソースを拡張する方法について詳しくは、[この節](../../developing/using/extending-the-profile-resource-with-a-new-field.md)を参照してください。
 
