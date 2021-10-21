@@ -5,9 +5,9 @@ user-guide-description: 'Campaign Standard の使用に必要な主要な機能�
 title: Campaign Standard ガイド
 breadcrumb-title: Adobe Campaign Standard ドキュメント
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1798'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -281,10 +281,10 @@ ht-degree: 99%
          + [Adobe Experience Platform 属性を使用したキャンペーンのパーソナライズ](integrating/using/aep-personalizing-campaigns.md)
       + Adobe Experience Platform Data Connector（ベータ版）{#data-connector}
          + [Adobe Experience Platform Data Connector について](integrating/using/aep-about-data-connector.md)
-         + [Experience Platformデータモデルの概要](integrating/using/aep-data-model-overview.md)
+         + [Experience Platform データモデルの概要](integrating/using/aep-data-model-overview.md)
          + [マッピングの定義](integrating/using/aep-mapping-definition.md)
          + [マッピングのアクティベーション](integrating/using/aep-mapping-activation.md)
-         + [API によるデータ取得のトリガー](integrating/using/aep-triggering-data-ingestion.md)
+         + [API によるデータ取り込みのトリガー](integrating/using/aep-triggering-data-ingestion.md)
 + プロセスとデータの管理 {#managing-processes-and-data}
    + [データとプロセスの管理の基本を学ぶ](automating/using/get-started-workflows.md)
    + ワークフローの一般操作 {#workflow-general-operation}
