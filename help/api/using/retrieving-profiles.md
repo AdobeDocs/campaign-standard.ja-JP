@@ -1,6 +1,6 @@
 ---
 title: プロファイルの取得
-description: APIを使用してプロファイルを取得する方法について説明します。
+description: API を使用してプロファイルを取得する方法について詳しく説明します。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -8,7 +8,7 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 19679804-f728-49fa-b26e-8f31b67c29bf
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 5%
@@ -17,11 +17,11 @@ ht-degree: 5%
 
 # プロファイルの取得 {#retrieving-profiles}
 
-プロファイルの取得は、**GET**&#x200B;リクエストを使用して実行されます。
+プロファイルの取得は、 **GET** リクエスト。
 
-その後、フィルター、並べ替え、ページネーションを使用して検索を絞り込むことができます。 詳しくは、[追加の操作](../../api/using/sorting.md)の節を参照してください。
+その後、フィルター、並べ替えおよびページネーションを使用して、検索を絞り込むことができます。 詳しくは、 [その他の操作](../../api/using/sorting.md) 」セクションに入力します。
 
-さらに、Campaign StandardAPIを使用すると、次のいずれかのフィールドに基づいてプロファイルを検索できます。電子メール、名、姓または任意のカスタムフィールド。 詳しくは、[この節](#searching-field)を参照してください。
+さらに、Campaign StandardAPI を使用すると、次のいずれかのフィールドに基づいてプロファイルを検索できます。電子メール、名、姓または任意のカスタムフィールド。 詳しくは、[この節](#searching-field)を参照してください。
 
 <br/>
 
@@ -53,7 +53,7 @@ ht-degree: 5%
    }
    ```
 
-* 最初の10個の電子メール値を取得するGETリクエストのサンプル。
+* 最初の 10 個の電子メール値を取得するGETリクエストのサンプル。
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_lineCount=10 \
@@ -63,7 +63,7 @@ ht-degree: 5%
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-   リクエストへの応答。 「次の」ノードは、次の10個の電子メール値にアクセスできるURLを返します。
+   リクエストへの応答。 「次へ」ノードは、次の 10 個の電子メール値へのアクセスを提供する URL を返します。
 
    ```
    {
@@ -88,15 +88,15 @@ ht-degree: 5%
 
 ## フィールドに基づくプロファイルの検索 {#searching-field}
 
-**[!UICONTROL filterType]**&#x200B;パラメーターを使用すると、次のフィールドの1つに基づいてプロファイルを取得できます。プロファイルリソースを拡張する際にアドバンスフィルターで追加された、電子メール、名、姓、カスタムフィールド。
+この **[!UICONTROL filterType]** パラメーターを使用すると、次のいずれかのフィールドに基づいてプロファイルを取得できます。プロファイルリソースを拡張する際にアドバンスフィルターで追加された電子メール、名、姓またはカスタムフィールド。
 
 >[!NOTE]
 >
->検索では大文字と小文字が区別され、プレフィックスでのみ実行されます。 例えば、姓の最後の文字を使用してプロファイルを検索することはできません。
+>検索は大文字と小文字が区別され、プレフィックスでのみ実行されます。 例えば、姓の最後の文字を使用してプロファイルを検索することはできません。
 
 ***リクエストのサンプル***
 
-* 名に基づいてプロファイルをフィルタリングするリクエストの例。
+* 名に基づいてプロファイルをフィルタリングするリクエストの例です。
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=John&filterType=firstName \
@@ -106,7 +106,7 @@ ht-degree: 5%
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-* 姓に基づいてプロファイルをフィルターするリクエストの例。
+* 姓に基づいてプロファイルをフィルタリングするリクエストの例です。
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=Miller&filterType=lastName \
@@ -116,7 +116,7 @@ ht-degree: 5%
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-* Eメールに基づいてプロファイルをフィルタリングするリクエストの例。
+* E メールに基づいてプロファイルをフィルタリングするリクエストの例。
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=John%40gmail.com&filterType=email \
@@ -126,7 +126,7 @@ ht-degree: 5%
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-* 「ホビー」カスタムフィールドに基づいてプロファイルをフィルターするリクエストの例。
+* 「ホビー」カスタムフィールドに基づいてプロファイルをフィルタリングするリクエストの例。
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byText?cusHobby=Dancing&filterType=Hobby \

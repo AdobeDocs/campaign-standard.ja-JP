@@ -9,10 +9,10 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 9dc75d6a-d79a-49aa-a0c0-b1dd6c144ce6
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '473'
-ht-degree: 98%
+ht-degree: 90%
 
 ---
 
@@ -22,7 +22,7 @@ Experience Cloud Activation コアサービスである **[!UICONTROL Triggers]*
 
 Adobe Experience Cloud では、様々なトリガー、つまり、監視したい顧客行動（Web サイトで訪問を放棄したすべての顧客、Web サイトで検索をおこなったが購入には至らなかった顧客、セッション期限が切れた顧客など）を定義します。トリガーを作成する場合は、トリガーの条件と、イベントで Adobe Campaign に送信される（アップロードされる）データを定義します。
 
-Adobe Campaign では、以前に作成したトリガーを選択し、データマートのデータを使用してイベントデータのエンリッチメントをおこない、そのトリガーにリンクされたトランザクションメッセージテンプレートを定義します。例えば、ある顧客が Web サイトでの訪問を放棄した場合、イベントが Adobe Campaign に送信され、15 分以内にクライアントに送信されるリマーケティング E メールを介してこのイベントを活用できます。
+Adobe Campaign では、以前に作成したトリガーを選択し、データマートのデータを使用してイベントデータのエンリッチメントをおこない、そのトリガーにリンクされたトランザクションメッセージテンプレートを定義します。例えば、クライアントが Web サイトでの訪問を放棄した場合、イベントがAdobe Campaignに送信され、15 分以内にクライアントに送信されるリマーケティング E メールを介してこのイベントを活用できます。
 
 次の図は、この統合の仕組みについて詳しく説明しています。
 

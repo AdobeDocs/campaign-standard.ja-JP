@@ -9,10 +9,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
-source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '1566'
-ht-degree: 93%
+ht-degree: 91%
 
 ---
 
@@ -328,15 +328,15 @@ SMS メッセージを送信するための特定のパラメーターは、「*
 
 ![](assets/sms_options.png)
 
-**[!UICONTROL Advanced parameters]** セクションで、次の操作を実行します。
+次の **[!UICONTROL Advanced parameters]** セクション：
 
-* **[!UICONTROL Short code]** を使用すると、配信に特定のショートコードを追加できます。 この特定のショートコードをオプトアウトした受信者は、メッセージの準備中に自動的に除外されます。 ショートコードの設定方法の詳細は、[ この節 ](../../channels/using/managing-incoming-sms.md) を参照してください。
+* この **[!UICONTROL Short code]** 配信に特定のショートコードを追加できます。 この特定のショートコードをオプトアウトした受信者は、メッセージの準備中に自動的に除外されます。 ショートコードの設定方法について詳しくは、 [この節](../../channels/using/managing-incoming-sms.md).
 
    >[!NOTE]
    >
-   >**[!UICONTROL Short code]** フィールドが空の場合は、外部アカウントに設定された **[!UICONTROL Short code]** フィールドの値が使用されます。
+   >この **[!UICONTROL Short code]** フィールドが空の場合、 **[!UICONTROL Short code]** 外部アカウントのフィールドセットが使用されます。
 
-SMS テンプレートの **[!UICONTROL Send]** セクションで、以下の操作を実行します。
+次の **[!UICONTROL Send]** SMS テンプレートのセクション：
 
 * 「**[!UICONTROL Maximum number of SMS per message]**」オプションを使用すると、メッセージの送信に使用する SMS メッセージの数を定義できます。この数を超えると、メッセージは送信されません。
 

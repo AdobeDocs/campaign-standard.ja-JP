@@ -8,10 +8,10 @@ feature: Privacy
 role: User
 level: Intermediate
 exl-id: 84cf8f6e-9ba0-4cd5-80e2-a61cefa31e0a
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
-workflow-type: ht
-source-wordcount: '964'
-ht-degree: 100%
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+workflow-type: tm+mt
+source-wordcount: '963'
+ht-degree: 95%
 
 ---
 
@@ -66,7 +66,7 @@ Adobe Campaign の機能により、次の規制を遵守できるようにな�
 
 * **アクセスする権利**&#x200B;とは、データ主体がデータ管理者に、自分に関する個人データが処理されているかどうか、また処理されている場合はその場所と目的について確認できることを指します。データ管理者は、個人データのコピーを電子形式で無償提供する必要があります。
 
-* **忘れられる権利**（削除要求）とは、データの完全消去とも呼ばれるもので、データ主体はデータ管理者にて、自分の個人データの消去、および第三者によるデータ処理を防止するために、データ拡散の停止を指示できることを指します。
+* データ消去とも呼ばれ、 **忘れられる権利** （削除リクエスト）は、データ主体に対し、データ管理者に個人データの消去やデータの拡散の中止を要求したり、サードパーティにデータの処理の中止を要求したりできる権限を与えます。
 
 **アクセス**&#x200B;要求と&#x200B;**削除**&#x200B;要求の作成方法、および Adobe Campaign によるリクエストの処理方法については、[実装手順](../../start/using/privacy-requests.md#about-privacy-requests)を参照してください。
 

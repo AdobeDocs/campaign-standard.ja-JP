@@ -9,10 +9,10 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: 3c8ddd46-05b4-4414-ab2e-052d60da09e5
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '849'
-ht-degree: 82%
+ht-degree: 79%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 82%
 
 >[!IMPORTANT]
 >
->製品リストは、[Eメールデザイナー](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface)インターフェイスを通じて&#x200B;**トランザクション用のメールメッセージ**&#x200B;に対してのみ使用できます。
+>製品リストは、次の場合にのみ使用できます： **トランザクション E メールメッセージ** から [メールデザイナー](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface) インターフェイス。
 
-トランザクションEメールのコンテンツを編集する際に、1つ以上のデータコレクションを参照する製品リストを作成できます。 例えば、買い物かごの放棄に関する電子メールで、ユーザーがWebサイトを離れた際に買い物かごに含まれていたすべての製品のリストを、画像、価格、各製品へのリンクと共に含めることができます。
+トランザクション用 E メールのコンテンツを編集する際に、1 つ以上のデータコレクションを参照する製品リストを作成できます。 例えば、買い物かごの放棄に関する電子メールで、ユーザーが Web サイトを離れた際にユーザーの買い物かごに含まれていたすべての製品のリストを、画像、価格、各製品へのリンクと共に含めることができます。
 
 トランザクションメッセージに放棄された製品のリストを追加するには、次の手順に従います。
 
-また、トランザクション用のEメールで製品リストを設定するために必要な手順を説明する[このビデオ](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html?lang=en#configure-product-listings-in-transactional-emails)を見ることもできます。
+また、 [このビデオセット](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html?lang=en#configure-product-listings-in-transactional-emails) トランザクション用の e メールで製品リストを設定するために必要な手順について説明します。
 
 >[!NOTE]
 >
@@ -37,9 +37,9 @@ ht-degree: 82%
 トランザクションメッセージ内の製品リストを使用する前に、表示するリストの各製品のリストとフィールドをイベントレベルで定義する必要があります。詳しくは、[データコレクションの定義](../../channels/using/configuring-transactional-event.md#defining-data-collections)を参照してください。
 
 1. トランザクションメッセージで、「**[!UICONTROL Content]**」ブロックをクリックしてメールの内容を変更します。
-1. 構造コンポーネントをワークスペースにドラッグ＆ドロップします。詳しくは、[Eメール構造の定義](../../designing/using/designing-from-scratch.md#defining-the-email-structure)を参照してください。
+1. 構造コンポーネントをワークスペースにドラッグ＆ドロップします。詳しくは、 [E メール構造の定義](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
-   例えば、1 列の構造コンポーネントを選択し、テキストコンポーネント、画像コンポーネント、ボタンコンポーネントを追加します。詳しくは、[コンテンツコンポーネントの使用](../../designing/using/designing-from-scratch.md#about-content-components)を参照してください。
+   例えば、1 列の構造コンポーネントを選択し、テキストコンポーネント、画像コンポーネント、ボタンコンポーネントを追加します。詳しくは、 [コンテンツコンポーネントの使用](../../designing/using/designing-from-scratch.md#about-content-components).
 
 1. 先ほど作成した構造コンポーネントを選択し、コンテキストツールバーの「**[!UICONTROL Enable product listing]**」アイコンをクリックします。
 
@@ -56,7 +56,7 @@ ht-degree: 82%
 
    >[!NOTE]
    >
-   >この **[!UICONTROL Column]** オプションは、複数列の構造コンポーネント（**[!UICONTROL 2:2 column]**、**[!UICONTROL 3:3 column]** および **[!UICONTROL 4:4 column]**）を使用する場合にのみ使用できます。製品リストを編集する場合は、最初の列にのみ入力します。他の列は考慮されません。構造コンポーネントの選択について詳しくは、[Eメール構造の定義](../../designing/using/designing-from-scratch.md#defining-the-email-structure)を参照してください。
+   >この **[!UICONTROL Column]** オプションは、複数列の構造コンポーネント（**[!UICONTROL 2:2 column]**、**[!UICONTROL 3:3 column]** および **[!UICONTROL 4:4 column]**）を使用する場合にのみ使用できます。製品リストを編集する場合は、最初の列にのみ入力します。他の列は考慮されません。構造コンポーネントの選択について詳しくは、 [E メール構造の定義](../../designing/using/designing-from-scratch.md#defining-the-email-structure).
 
 1. トランザクションメッセージに関連するイベントを設定する際に作成したデータ収集を選択します。これは、**[!UICONTROL Context]**／**[!UICONTROL Real-time event]**／**[!UICONTROL Event context]** ノードの下にあります。
 
@@ -129,7 +129,7 @@ ht-degree: 82%
 
    顧客が買い物かごに何も入れていない場合など、イベントがトリガーされたときにコレクションが空の場合、フォールバックのコンテンツが表示されます。
 
-1. 設定ペインで、製品リストのスタイルを編集します。詳しくは、[Eメールスタイルの管理](../../designing/using/styles.md)を参照してください。
+1. 設定ペインで、製品リストのスタイルを編集します。詳しくは、 [E メールスタイルの管理](../../designing/using/styles.md).
 1. 関連するトランザクションイベントにリンクされ、収集データを定義したテストプロファイルを使用して、メールをプレビューします。例えば、使用するテストプロファイルの「**[!UICONTROL Event data]**」セクションに次の情報を追加します。
 
    ![](assets/message-center_loop_test-profile_payload.png)

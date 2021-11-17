@@ -9,14 +9,14 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
-feature: プライバシー
+feature: Privacy
 role: User
 level: Intermediate
 exl-id: 0fc71c2f-f294-43f7-825c-73ab4d43fcf7
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '1478'
-ht-degree: 100%
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+workflow-type: tm+mt
+source-wordcount: '1476'
+ht-degree: 98%
 
 ---
 
@@ -126,11 +126,11 @@ Adobe Campaign には、特定のプライバシーリクエストに対する�
 
 * **アクセスする権利**&#x200B;とは、データ主体がデータ管理者に、自分に関する個人データが処理されているかどうか、また処理されている場合はその場所と目的について確認できることを指します。
 
-* 「**忘れられる権利**（削除リクエスト）」とは、データ主体が、自身の個人データの消去をデータ管理者に指示する権限です。
+* この **忘れられる権利** （削除リクエスト）は、データ主体に対し、データ管理者に個人データの消去を要求する権限を付与します。
 
 >[!NOTE]
 >
->GDPR、CCPA、PDPA のプライバシーコンプライアンスに役立つツール群を紹介します。これらの様々な規則について詳しくは、[このページ](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy-overview.html#whatisgdpr)を参照してください。
+>GDPR、CCPA、PDPA のプライバシーコンプライアンスに役立つツール群を紹介します。これらの様々な規則について詳しくは、[このページ](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)を参照してください。
 
 <!--* **GDPR** (General Data Protection Regulation) is the European Union’s (EU) privacy law that harmonizes and modernizes data protection requirements. GDPR applies to Adobe Campaign customers who hold data for Data Subjects residing in the EU.
 

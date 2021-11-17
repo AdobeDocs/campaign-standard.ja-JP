@@ -9,14 +9,14 @@ audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 discoiquuid: 5227ca05-3856-4e54-aec6-14444d6534e3
-feature: プライバシー
+feature: Privacy
 role: User
 level: Intermediate
 exl-id: 8f8ce032-5cff-44d3-9d3b-52511dbcaaab
-source-git-commit: aeeb6b4984b3bdd974960e8c6403876fdfedd886
-workflow-type: ht
-source-wordcount: '814'
-ht-degree: 100%
+source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+workflow-type: tm+mt
+source-wordcount: '812'
+ht-degree: 96%
 
 ---
 
@@ -39,7 +39,7 @@ Adobe Campaign を使用する際の、プライバシーと同意に関する�
 
 **最新のプライバシー規制に準拠するために Adobe Campaign ではどのような提案をおこなっていますか。**
 
-アドビでは、法律に関するアドバイスを行っていません。GDPR、CCPA、PDPA、LGPD、その他の適用される規制への対応に関して、必要なすべての手順を実行するように、自社の顧問弁護士と協力する必要があります。
+アドビでは、法律に関するアドバイスを行っていません。GDPR、CCPA、PDPA、LGPD、その他の適用される規制への対応に関して、必要なすべての手順を実行するように、自社の法務担当者と協力する必要があります。
 
 **データのアクセス要求および削除要求に対する準備**
 
@@ -109,12 +109,12 @@ Adobe Campaign のレポートは、配信ログとトラッキングログを�
 
 **Adobe Campaign では、レコードは外部データソースからアップロードされることがよくあります。後日にデータを再インポートする必要性を考慮する必要はありますか？**
 
-削除要求を受け取った場合、当該データ主体に関するすべてのデータをシステムから削除する必要があります。
+データ管理者は、削除要求を受け取ったら、当該データ主体に関する必要なすべてのデータをすべてのシステムから確実に削除する必要があります。
 
 ## 再オプトイン {#opt-in-again}
 
 **Adobe Campaign からデータが消去されたデータ主体が後で再度オプトインすることはできますか。**
 
-データ主体のデータが Adobe Campaign から消去された後に、当該データ主体が再度オプトインしたり、新しい受信者として登録することは可能です。
+データ主体のデータがAdobe Campaignから消去された後に、そのデータ主体が再度オプトインしたり、新しい受信者として追加したりすることができます。
 
 監査記録を使用すると、前回の削除が実行された日時や、新しい受信者が作成された日時の詳細を確認できます。
