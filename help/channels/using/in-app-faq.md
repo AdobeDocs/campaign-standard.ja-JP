@@ -42,7 +42,7 @@ ht-degree: 2%
 
 ローカル通知トラッキングを実装するには、 [ページ](../../administration/using/local-tracking.md).
 
-## アプリ内チャネルで使用できるレポートは何ですか。 {#report-inapp}
+## アプリ内チャネルで使用できるレポートは何ですか？ {#report-inapp}
 
 Adobe Campaignのアプリ内チャネルで、標準のレポートを利用できます。 詳しくは、 [ドキュメント](../../reporting/using/in-app-report.md).
 
