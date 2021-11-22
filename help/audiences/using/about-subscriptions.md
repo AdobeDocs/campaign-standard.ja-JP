@@ -14,7 +14,7 @@ ht-degree: 40%
 
 # 購読について{#about-subscriptions}
 
-Adobe Campaignを使用して、一連の&#x200B;**サービス**&#x200B;を通じて、ニュースレターやチャネル間の通信を作成および管理します。メッセージは、サービスを購読している（オプトインしている）プロファイルにのみ送信されます。 これらのプロファイルは、メッセージを作成する際に、専用のフィルターを使用して特定されます。
+Adobe Campaignを使用し、一連の **サービス**:メッセージは、サービスを購読している（オプトインしている）プロファイルにのみ送信されます。 これらのプロファイルは、メッセージを作成する際に、専用のフィルターを使用して特定されます。
 
 サブスクリプションメカニズムの設定により、顧客がこれらのサービスを（特に **E メール**&#x200B;と&#x200B;**ランディングページ**&#x200B;から）購読できるようにすることができます。
 
@@ -26,18 +26,18 @@ Adobe Campaignを使用して、一連の&#x200B;**サービス**&#x200B;を通�
 
 サブスクリプションは、Adobe Campaign Standard API を使用して管理することもできます。詳しくは、[該当するドキュメント](../../api/using/creating-a-service.md)を参照してください。
 
-## 購読の設定および管理の主な手順
+## 購読を設定および管理するための主な手順
 
 購読メカニズムを作成するには、次の手順に従います。
 
-1. **サービスの作成**  — この節で説明する手順に従 [って、](../../audiences/using/creating-a-service.md) 購読サービスを作成します
-1. **リンクの共有**  — サービスを昇格および共有する方法について詳しく [は、このページを参照してください。](../../audiences/using/promoting-a-service.md)
-1. **購読の監視**  — この節では、サービスの購読を監視する方法をいく [つか紹介します](../../audiences/using/monitoring-subscriptions.md)
-1. **購読の確認**  — このチュートリア [ルに従](../../audiences/using/confirming-subscription-to-a-service.md) って、購読確認メッセージを送信します
+1. **サービスの作成**  — 説明されている手順に従います [この節](../../audiences/using/creating-a-service.md) 購読サービスを作成するには
+1. **リンクを共有**  — サービスの昇格と共有の方法を学ぶ [このページ](../../audiences/using/promoting-a-service.md)
+1. **購読の監視**  — サービスの購読を監視する方法をいくつか見つけます [この節](../../audiences/using/monitoring-subscriptions.md)
+1. **購読を確認**  — フォロー [このチュートリアル](../../audiences/using/confirming-subscription-to-a-service.md) 購読確認メッセージを送信するには
 
 ## その他のリソース
 
-* [使用例：サービスの購読者に対する増分処理クエリ](../../automating/using/incremental-query-on-subscribers.md)
+* [使用例：サービス購読者に対する増分処理クエリ](../../automating/using/incremental-query-on-subscribers.md)
 * [使用例：ファイルからの複数の購読ステータスの更新](../../automating/using/updating-subscriptions-from-file.md)
-* [ファイルのインポート後の特定のサービスへのプロファイルの購読登録](../../automating/using/subscribing-profiles-from-file.md)
-* [Campaignのオプトインとオプトアウト](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+* [ファイルのインポート後に特定のサービスにプロファイルを購読登録する](../../automating/using/subscribing-profiles-from-file.md)
+* [Campaign のオプトインとオプトアウト](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)

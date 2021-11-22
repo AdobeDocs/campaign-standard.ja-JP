@@ -38,7 +38,7 @@ ht-degree: 99%
 
 **[!UICONTROL Fatigue]**&#x200B;のタイポロジルールを作成および設定するには、次の手順に従います。
 
-1. インターフェイスの左上隅にあるAdobe Campaignのロゴをクリックし、 **[!UICONTROL Administration]** / **[!UICONTROL Channels]** / **[!UICONTROL Typologies]** / **[!UICONTROL Typology rules]** を選択します。
+1. インターフェイスの左上隅にあるAdobe Campaignのロゴをクリックし、「 」を選択します。 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** > **[!UICONTROL Typology rules]**.
 
    ![](assets/fatigue4.png)
 

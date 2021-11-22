@@ -17,14 +17,14 @@ ht-degree: 5%
 
 # 外部シグナルアクティビティでのパラメーターの宣言 {#declaring-the-parameters-in-the-external-signal-activity}
 
-パラメーターを指定してワークフローを呼び出す最初の手順は、**[!UICONTROL External signal]**&#x200B;アクティビティで宣言することです。
+パラメーターを指定してワークフローを呼び出す最初の手順は、パラメーターを指定してワークフローを **[!UICONTROL External signal]** アクティビティ。
 
-1. **[!UICONTROL External signal]**&#x200B;アクティビティを開き、「**[!UICONTROL Parameters]**」タブを選択します。
-1. 「**[!UICONTROL Create element]**」ボタンをクリックし、各パラメーターの名前とタイプを指定します。
+1. を開きます。 **[!UICONTROL External signal]** 「 」アクティビティで、 **[!UICONTROL Parameters]** タブをクリックします。
+1. 次をクリック： **[!UICONTROL Create element]** ボタンをクリックして、各パラメーターの名前とタイプを指定します。
 
    >[!CAUTION]
    >
-   >パラメーターの名前と数が、ワークフローの呼び出し時に定義されたものと同じであることを確認します（[このページ](../../automating/using/defining-parameters-calling-workflow.md)を参照）。 また、パラメーターの型は、期待される値と一致する必要があります。
+   >パラメーターの名前と数が、ワークフローの呼び出し時に定義されたものと同じであることを確認します ( [このページ](../../automating/using/defining-parameters-calling-workflow.md)) をクリックします。 また、パラメーターの型は、期待される値と一致する必要があります。
 
    ![](assets/extsignal_declaringparameters_1.png)
 

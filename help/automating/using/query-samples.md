@@ -18,7 +18,7 @@ ht-degree: 90%
 
 # クエリのサンプル {#query-samples}
 
-この節では、**[!UICONTROL Query]**&#x200B;アクティビティを使用する場合の使用例を示します。 **[!UICONTROL Query]**&#x200B;アクティビティの使用方法について詳しくは、[この節](../../automating/using/query.md)を参照してください。
+この節では、 **[!UICONTROL Query]** アクティビティ。 の使用方法の詳細 **[!UICONTROL Query]** アクティビティ： [この節](../../automating/using/query.md).
 
 ## シンプルなプロファイルの属性のターゲティング {#targeting-on-simple-profile-attributes}
 

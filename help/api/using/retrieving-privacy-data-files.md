@@ -1,6 +1,6 @@
 ---
 title: プライバシーデータファイルの取得
-description: APIを使用してプライバシーデータファイルを取得する方法を説明します
+description: API を使用してプライバシーデータファイルを取得する方法について説明します
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -19,15 +19,15 @@ ht-degree: 21%
 
 >[!CAUTION]
 >
->[Privacy Core Service](https://adobe.io/apis/cloudplatform/gdpr.html) Integrationは、すべてのアクセス要求と削除要求に使用する必要がある方法です。 19.4 以降、アクセスリクエストと削除リクエストに対する Campaign API およびインターフェイスの使用は非推奨（廃止予定）になりました。Campaign Standard の廃止および削除された機能の詳細については、 [こちらのページ](../../rn/using/deprecated-features.md)を参照してください。
+>この [Privacy Core Service](https://adobe.io/apis/cloudplatform/gdpr.html) 統合は、すべてのアクセスリクエストと削除リクエストに使用する必要があるメソッドです。 19.4 以降、アクセスリクエストと削除リクエストに対する Campaign API およびインターフェイスの使用は非推奨（廃止予定）になりました。Campaign Standard の廃止および削除された機能の詳細については、 [こちらのページ](../../rn/using/deprecated-features.md)を参照してください。
 
-紐付け値に関連付けられたすべての情報を含むファイルを取得するには、次の3つの手順に従います。
+紐付け値に関連付けられたすべての情報を含むファイルを取得するには、次の 3 つの手順に従います。
 
-1. **POST**&#x200B;リクエストを実行し、属性&#x200B;**type=&quot;access&quot;**&#x200B;で新しいリクエストを作成します。[新しいプライバシーリクエスト](../../api/using/creating-a-privacy-request.md)の作成を参照してください。
+1. の実行 **POST** 属性を持つ新しいリクエストを作成するリクエスト **type=&quot;access&quot;**&#x200B;を参照してください。 [新しいプライバシーリクエストの作成](../../api/using/creating-a-privacy-request.md).
 
-1. **GET**&#x200B;リクエストを実行して、リクエストに関する情報を取得します。
+1. の実行 **GET** リクエストを使用して、リクエストに関する情報を取得します。
 
-1. 返された&#x200B;**privacyRequestData** URLに対して&#x200B;**POST**&#x200B;リクエストを実行し、ペイロード内にプライバシーリクエストの内部名を指定して、データファイルを取得します。 例：{&quot;name&quot;:&quot;PT17&quot;}。
+1. 次を実行してデータファイルを取得： **POST** 返されたに対するリクエスト **privacyRequestData** ペイロード内にプライバシーリクエスト内部名を持つ URL。 例：{&quot;name&quot;:&quot;PT17&quot;}。
 
 <br/>
 
@@ -54,7 +54,7 @@ type=&quot;access&quot;属性を持つプライバシーリクエストを作成
 
 <!-- + réponse -->
 
-リクエストのGETを取得するには、リクエストを実行します。
+GETリクエストを実行して、リクエストに関する情報を取得します。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/privacy/privacyTool \
@@ -64,7 +64,7 @@ type=&quot;access&quot;属性を持つプライバシーリクエストを作成
 -H 'Content-Type: application/json;charset=utf-8'
 ```
 
-関連するURLと共にprivacyRequestData属性を返します。
+関連付けられた URL と共に privacyRequestData 属性を返します。
 
 ```
 {
@@ -85,7 +85,7 @@ type=&quot;access&quot;属性を持つプライバシーリクエストを作成
 },
 ```
 
-privacyRequestData URLでPOSTリクエストを実行し、ペイロード内にリクエスト内部名を指定します。
+privacyRequestData URL でPOSTリクエストを実行し、ペイロード内にリクエスト内部名を指定します。
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/privacy/privacyTool/<PKEY>/privacyRequestData \

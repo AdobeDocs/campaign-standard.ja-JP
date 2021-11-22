@@ -1,6 +1,6 @@
 ---
 title: 組織単位属性の更新
-description: 組織単位属性の更新方法を説明します
+description: 組織単位属性を更新する方法を説明します
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -17,8 +17,8 @@ ht-degree: 11%
 
 # 組織単位属性の更新 {#updating-organizational-unit-attributes}
 
-1. **orgUnitBase**&#x200B;リソースに対してGETリクエストを実行し、組織単位PKeyを取得します。
-1. ペイロードで更新する属性を持つ組織単位に対してPATCHリクエストを実行します。
+1. でのGETリクエストの実行 **orgUnitBase** 組織単位 PKey を取得するリソース。
+1. 組織単位でPATCHリクエストを実行し、ペイロードで更新する属性を指定します。
 
 <br/>
 
@@ -34,7 +34,7 @@ ht-degree: 11%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-すべての組織単位を返します。 目的のユニットのPKeyを取得します。
+すべての組織単位が返されます。 目的のユニットの PKey を取得します。
 
 ```
 {
@@ -50,7 +50,7 @@ ht-degree: 11%
 },
 ```
 
-ペイロードで更新する属性を持つ組織単位に対してPATCHリクエストを実行します。
+組織単位でPATCHリクエストを実行し、ペイロードで更新する属性を指定します。
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/orgUnitBase/<PKEY> \

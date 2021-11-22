@@ -1,6 +1,6 @@
 ---
 title: 2 つの絞り込まれたオーディエンスの和集合
-description: この使用例では、2つの「オーディエンスの閲覧」アクティビティの和集合を示しています。
+description: この使用例は、2 つの「オーディエンスの閲覧」アクティビティの和集合を示しています。
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -24,7 +24,7 @@ ht-degree: 58%
 
 ![](assets/readaudience_activity_example1.png)
 
-* 1つ目の[オーディエンス](../../automating/using/read-audience.md)の読み取りアクティビティ。ゴールドメンバーオーディエンスを取得し、18～30歳のプロファイルのみを選択して絞り込みます。
+* 最初の [オーディエンスの閲覧](../../automating/using/read-audience.md) 「 」アクティビティ。ゴールドメンバーオーディエンスを取得し、18～30 歳のプロファイルのみを選択して絞り込みます。
 * 2 つ目の「**[!UICONTROL Read audience]**」アクティビティ。シルバーメンバーオーディエンスを取得し、18～30 歳のプロファイルのみを選択して絞り込みます。
-* [和集合](../../automating/using/union.md)アクティビティ。両方の&#x200B;**[!UICONTROL Read audiences]**&#x200B;アクティビティの母集団を1つの最終母集団に結合します。
-* [Eメール配信](../../automating/using/email-delivery.md)アクティビティ。**[!UICONTROL Union]**&#x200B;アクティビティからの母集団にEメールを送信します。
+* A [和集合](../../automating/using/union.md) 両者の母集団を結び付けるアクティビティ **[!UICONTROL Read audiences]** アクティビティを最終的な 1 つの母集団に変換します。
+* An [E メール配信](../../automating/using/email-delivery.md) からの母集団に e メールを送信する「 」アクティビティ **[!UICONTROL Union]** アクティビティ。

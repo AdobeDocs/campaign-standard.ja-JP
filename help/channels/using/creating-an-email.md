@@ -17,21 +17,21 @@ ht-degree: 20%
 
 # E メールの作成{#creating-an-email}
 
-[ キャンペーン ](../../start/using/marketing-activities.md#creating-a-marketing-activity)、Adobe Campaignの [ ホームページ ](../../start/using/interface-description.md#home-page)、または [ マーケティングアクティビティリスト ](../../start/using/marketing-activities.md#about-marketing-activities) から電子メールを作成できます。 ワークフローから 1 回限りの電子メールや定期的な電子メールを作成することもできます。
+電子メールは、 [campaign](../../start/using/marketing-activities.md#creating-a-marketing-activity)Adobe Campaignから [ホームページ](../../start/using/interface-description.md#home-page)または [マーケティングアクティビティリスト](../../start/using/marketing-activities.md#about-marketing-activities). ワークフローから 1 回限りの電子メールや定期的な電子メールを作成することもできます。
 
-![](assets/do-not-localize/how-to-video.png) [動画でこの機能を確認する](#video)
+![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](#video)
 
 1. 電子メールマーケティングアクティビティの作成を開始したら、使用するテンプレートを選択します。
 
-   デフォルトでは、各マーケティングアクティビティに対して複数のテンプレートから選択できます。 これにより、必要に応じて特定のパラメーターを事前設定し、ブランドを配信に割り当てることができます。 詳しくは、[ テンプレートの管理 ](../../start/using/marketing-activity-templates.md) を参照してください。
+   デフォルトでは、各マーケティングアクティビティに対して複数のテンプレートから選択できます。 これにより、必要に応じて特定のパラメーターを事前設定し、ブランドを配信に割り当てることもできます。 詳しくは、 [テンプレートの管理](../../start/using/marketing-activity-templates.md).
 
    ![](assets/email_creation_1.png)
 
    >[!NOTE]
    >
-   >フォローアップおよび A/B テストテンプレートは、デフォルトで非表示になっています。左側（**[!UICONTROL Filter]** 横パネル）のチェックボックスをオンにして表示します。
+   >フォローアップおよび A/B テストテンプレートは、デフォルトで非表示になっています。左側のチェックボックスをオンにします ( **[!UICONTROL Filter]** 横置きパネルを参照 )。
 
-1. E メールの一般的なプロパティを入力します。 「**ラベル**」フィールドに名前を入力して、ID を編集できます。 アクティビティ名とその ID は両方ともインターフェイスに表示されますが、メッセージ受信者には表示されません。
+1. E メールの一般的なプロパティを入力します。 名前は **ラベル** 「 」フィールドを開き、ID を編集します。 アクティビティ名とアクティビティ ID は両方ともインターフェイスに表示されますが、メッセージ受信者には表示されません。
 
    キャンペーンコンテンツに表示される説明を追加できます。
 
@@ -39,15 +39,15 @@ ht-degree: 20%
 
    >[!NOTE]
    >
-   >親キャンペーン内に、ホームページまたはマーケティングアクティビティのリストから E メールを作成できます。 作成済みのキャンペーンからキャンペーンを選択します。
+   >親キャンペーン内に、ホームページまたはマーケティングアクティビティのリストから電子メールを作成できます。 作成済みのキャンペーンから選択します。
 
-1. ビジネス上の基準に基づいて、メッセージのターゲットを定義します。 [ プロファイルについて ](../../audiences/using/about-profiles.md) を参照してください。
+1. ビジネス上の基準に基づいて、メッセージのターゲットを定義します。 詳しくは、 [プロファイルについて](../../audiences/using/about-profiles.md).
 
    また、メッセージを検証するテストプロファイルを定義することもできます。 [テストプロファイルの管理](../../audiences/using/managing-test-profiles.md)を参照してください。
 
    ![](assets/email_creation_3.png)
 
-1. [E メールデザイナー ](../../designing/using/designing-content-in-adobe-campaign.md) を使用して、メッセージの内容、送信者名、件名を定義し、パーソナライズします。 詳しくは、[E メールコンテンツのデザインについて ](../../designing/using/designing-content-in-adobe-campaign.md) を参照してください。
+1. を使用して、メッセージの内容、送信者名、件名を定義し、パーソナライズします。 [メールデザイナー](../../designing/using/designing-content-in-adobe-campaign.md). 詳しくは、 [E メールコンテンツデザインについて](../../designing/using/designing-content-in-adobe-campaign.md).
 
    ![](assets/email_creation_4.png)
 
@@ -58,11 +58,11 @@ ht-degree: 20%
 
    >[!NOTE]
    >
-   >E メールを保存するには、まずコンテンツを編集する必要があります。 この時点で **[!UICONTROL Cancel]** をクリックした場合、ウィザードは完了せず、E メールは作成されません。
+   >E メールを保存するには、まずコンテンツを編集する必要があります。 次をクリックした場合： **[!UICONTROL Cancel]** この時点では、ウィザードは完了せず、メールは作成されません。
 
-   E メールダッシュボードが表示されます。 メッセージを確認し、[ 送信 ](../../sending/using/preparing-the-send.md) を準備できます。
+   E メールダッシュボードが表示されます。 メッセージを確認し、 [送信の準備](../../sending/using/preparing-the-send.md).
 
-   右上隅の「**[!UICONTROL Edit properties]**」ボタンを使用すると、E メールのプロパティを編集できます。 例えば、配信の準備時にラベルが計算されるように E メールを設定できます。  使用可能なパラメータは [ この節 ](../../administration/using/configuring-email-channel.md#list-of-email-properties) に記載されています。
+   この **[!UICONTROL Edit properties]** ボタンを使用して、E メールのプロパティを編集できます。 例えば、配信準備時にラベルが計算されるように E メールを設定できます。  使用可能なパラメーターは、 [この節](../../administration/using/configuring-email-channel.md#list-of-email-properties).
 
    ![](assets/delivery_dashboard_2.png)
 
@@ -70,27 +70,27 @@ ht-degree: 20%
 
    ![](assets/delivery_planning.png)
 
-1. メッセージを準備して、ターゲットを分析します。 [ 送信の準備 ](../../sending/using/confirming-the-send.md) を参照してください。
+1. メッセージのターゲットを分析するための準備をします。 詳しくは、 [送信の準備](../../sending/using/confirming-the-send.md).
 
    ![](assets/preparing_delivery_2.png)
 
    >[!NOTE]
    >
-   >過剰に配信を受けているプロファイルをキャンペーンから自動的に除外するグローバルなクロスチャネル疲労ルールを設定できます。詳しくは、[ 疲労ルール ](../../sending/using/fatigue-rules.md) を参照してください。
+   >過剰に配信を受けているプロファイルをキャンペーンから自動的に除外するグローバルなクロスチャネル疲労ルールを設定できます。詳しくは、 [疲労ルール](../../sending/using/fatigue-rules.md).
 
-1. 配達確認を送信してメッセージを確認および検証し、インボックスのレンダリングを監視します。[ 配達確認の送信 ](../../sending/using/sending-proofs.md) を参照してください。
+1. 配達確認を送信してメッセージを確認および検証し、インボックスのレンダリングを監視します。詳しくは、 [配達確認の送信](../../sending/using/sending-proofs.md).
 
    ![](assets/bat_select.png)
 
-1. メッセージを送信し、メッセージダッシュボードとログを使用して配信を確認します。 [ メッセージの送信 ](../../sending/using/confirming-the-send.md) を参照してください。
+1. メッセージを送信し、メッセージダッシュボードとログを使用して配信を確認します。 詳しくは、 [メッセージの送信](../../sending/using/confirming-the-send.md).
 
    ![](assets/confirm_delivery.png)
 
-1. 配信レポートを使用して、メッセージの影響を測定します。 レポートについて詳しくは、[ この節 ](../../reporting/using/about-dynamic-reports.md) を参照してください。
+1. 配信レポートを使用して、メッセージの影響を測定します。 レポートについて詳しくは、 [この節](../../reporting/using/about-dynamic-reports.md).
 
 **関連トピック**：
 
-* [パーソナライズさ](../../channels/using/key-steps-to-send-a-message.md) れた電子メールの作成手順ガイド
+* [パーソナライズされた E メールの作成](../../channels/using/key-steps-to-send-a-message.md) ステップバイステップガイド
 * [Adobe CampaignとDreamweaverの統合](../../designing/using/using-integrations.md#editing-content-in-dreamweaver)
 * [Adobe Experience Managerとの統合](../../integrating/using/integrating-with-experience-manager.md)
 
@@ -100,4 +100,4 @@ ht-degree: 20%
 
 >[!VIDEO](https://video.tv.adobe.com/v/23721?quality=12)
 
-追加のCampaign Standardハウツービデオは [ こちら ](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja) からご覧いただけます。
+その他のCampaign Standardのハウツービデオも利用できます [ここ](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja).

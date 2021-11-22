@@ -17,24 +17,24 @@ ht-degree: 1%
 
 # メタデータのメカニズム {#metadata-mechanism}
 
-GETリクエストで&#x200B;**resourceType**&#x200B;を使用して、リソースメタデータを取得できます。
+リソースメタデータは、 **resourceType** GETリクエスト：
 
 `GET /profileAndServices/resourceType/<resourceName>`
 
-応答は、リソースからメインメタデータを返します（その他のすべてのフィールドは、説明的または内部的です）。
+応答は、リソースからメインメタデータを返します（その他のフィールドはすべて、説明的または内部的です）。
 
-* **Content**&#x200B;ノードは、リソースのフィールドを返します。 **content**&#x200B;ノードの各フィールドについて、次のフィールドを見つけることができます。
+* この **コンテンツ** ノードは、リソースのフィールドを返します。 次に示す **コンテンツ** ノードにある場合、次のフィールドを確認できます。
 
-   * &quot;apiName&quot;:APIで使用される属性の名前。
+   * &quot;apiName&quot;:API で使用される属性の名前。
    * &quot;type&quot;:これは、大まかなタイプ定義（文字列、数値、リンク、コレクション、列挙など）です。
-   * &quot;dataPolicy&quot;:フィールドの値は、指定されたポリシールールに従う必要があります。 例えば、dataPolicyルールが「email」に設定されている場合、値は有効な電子メールである必要があります。 PATCHまたはPOST中、dataPolicyは値を確認したり、変換する値を変更したりできます（smartCaseなど）。
-   * &quot;category&quot;:クエリエディターでフィールドのカテゴリを指定します。
-   * &quot;resType&quot;:技術的なタイプ。
+   * &quot;dataPolicy&quot;:フィールドの値は、指定されたポリシールールに従う必要があります。 例えば、dataPolicy ルールが「email」に設定されている場合、値は有効な電子メールである必要があります。 PATCH中またはPOST中に、dataPolicy は値を確認したり、変換する値を変更したりできます（smartCase など）。
+   * &quot;category&quot;:クエリエディターで「 」フィールドのカテゴリを指定します。
+   * &quot;resType&quot;:技術的なタイプです。
 
-      「type」に「link」または「collection」という値を指定した場合、resTargetの値はリンクのターゲットリソースの名前になります。
-「type」に値「enumeration」を入力すると、「values」フィールドが追加され、各列挙値の詳細が**values**&#x200B;ノードに表示されます。
+      「type」に「link」または「collection」という値を指定して設定した場合、resTarget の値はリンクのターゲットとなるリソースの名前になります。
+「タイプ」が値「enumeration」で完了する場合、「値」フィールドが追加され、各列挙値の詳細が **値** ノード。
 
-* **Filters**&#x200B;ノードは、関連するフィルターを取得するURLを返します。 フィルターについて詳しくは、[この節](../../api/using/filtering.md)を参照してください。
+* この **フィルター** ノードは、関連するフィルターを取得する URL を返します。 フィルターについて詳しくは、 [この節](../../api/using/filtering.md) 」セクションに入力します。
 
 <!-- créer une section au même niveau sur les liens -->
 <!-- dans l'exemple: birthdate, email +  mettre 2 liens : un de type 1-1 , 1-N
@@ -55,7 +55,7 @@ si on prend l'exemple de l'org unit, on aura un bon exemple lien -->
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-プロファイルリソースの完全な説明を返します。
+プロファイルリソースの完全な説明が返されます。
 
 ```
 {

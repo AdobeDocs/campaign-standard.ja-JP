@@ -1,6 +1,6 @@
 ---
 title: 外部 API
-description: 「外部API」アクティビティは、HTTP API呼び出しを介して、外部システムからCampaign Standardワークフローにデータを取り込みます。
+description: 「外部 API」アクティビティでは、 HTTP API 呼び出しを介して、外部システムからCampaign Standardワークフローにデータを取り込みます。
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -38,7 +38,7 @@ ht-degree: 93%
 
 ### 下位互換性に関する注意 {#from-beta-to-ga}
 
-Campaign Standard20.4リリースでは、HTTP応答データのサイズ制限と応答タイムアウトのガードレールが下がり、ベストプラクティスに合わせて調整されました。[制限事項とガードレール](#guardrails)を参照してください。 これらのガードレールの変更は、既存の外部 API アクティビティには影響しません。したがって、既存の外部 API アクティビティを、すべてのワークフローの新しいバージョンで置き換えることをお勧めします。
+Campaign Standard20.4 リリースでは、HTTP 応答データのサイズ制限と応答タイムアウトのガードレールが下がり、ベストプラクティスに合わせて調整されました。詳しくは、 [制限事項とガードレール](#guardrails). これらのガードレールの変更は、既存の外部 API アクティビティには影響しません。したがって、既存の外部 API アクティビティを、すべてのワークフローの新しいバージョンで置き換えることをお勧めします。
 
 「外部 API」アクティビティを置き換える場合は、新しい「外部 API」アクティビティをワークフローに追加し、設定の詳細を手動でコピーしてから、古いアクティビティを削除します。
 
@@ -114,13 +114,13 @@ JSON パーサーは、標準の JSON 構造パターンタイプに対応する
 
 ### 「EXECUTION」タブ
 
-このタブでは、接続エンドポイントを定義できます。**[!UICONTROL URL]**&#x200B;フィールドを使用すると、Campaign Standardが通信する&#x200B;**HTTPSエンドポイント**&#x200B;を定義できます。
+このタブでは、接続エンドポイントを定義できます。この **[!UICONTROL URL]** 「 」フィールドでは、 **HTTPS エンドポイント** そのCampaign Standardは通信をします。
 
-エンドポイントで必要な場合、次の2種類の認証方法を使用できます。
+エンドポイントで必要に応じて、次の 2 種類の認証方法を使用できます。
 
-* 基本認証：**[!UICONTROL Request Header(s)]**&#x200B;セクションにユーザー名/パスワード情報を入力します。
+* 基本認証：ユーザー名/パスワード情報を **[!UICONTROL Request Header(s)]** 」セクションに入力します。
 
-* OAuth認証：外部アカウントの&#x200B;**[!UICONTROL Use connection parameters defined in an external account]**&#x200B;をクリックすると、OAuth認証が定義されている外部アカウントを選択できます。 詳しくは、「[外部アカウント](../../administration/using/external-accounts.md)」の節を参照してください。
+* OAuth 認証：をクリックして、 **[!UICONTROL Use connection parameters defined in an external account]** 外部アカウントでは、OAuth 認証が定義されている外部アカウントを選択できます。 詳しくは、「[外部アカウント](../../administration/using/external-accounts.md)」の節を参照してください。
 
 ![](assets/externalAPI-execution.png)
 
@@ -158,7 +158,7 @@ JSON パーサーは、標準の JSON 構造パターンタイプに対応する
 
 ## テスト
 
-簡単なテストエンドポイントで外部API機能をテストするには、Postman Echoを使用します。https://docs.postman-echo.com.
+簡単なテストエンドポイントで外部 API 機能をテストするには、Postman Echo を使用します。https://docs.postman-echo.com.
 
 ## トラブルシューティング
 
@@ -260,7 +260,7 @@ JSON パーサーは、標準の JSON 構造パターンタイプに対応する
    <td> <p>HTTP ヘッダーキーが使用できません (ヘッダーキー : 「Accept」)。</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560247 - HTTPヘッダー値が正しくありません(ヘッダー値：'%s')。</td> 
+   <td> WKF-560247 - HTTP ヘッダー値が正しくありません ( ヘッダー値：'%s') です。</td> 
    <td> <p>HTTP ヘッダー値が正しくありません (ヘッダー値 : 「%s」)。 </p>
     <p>注意：このエラーは、カスタムヘッダー値が <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a> に従った検証に失敗した場合に記録されます。</p></td> 
   </tr> 

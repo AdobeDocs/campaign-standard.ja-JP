@@ -38,13 +38,13 @@ ht-degree: 92%
 
 **関連トピック**
 
-* [使用例：年齢グループに従ったプロファイルのセグメント化](../../automating/using/segmentation-age-groups.md)を参照してください。
+* [使用例：年齢グループに従ったプロファイルのセグメント化](../../automating/using/segmentation-age-groups.md).
 
 ## 設定 {#configuration}
 
 1. ワークフローに「**[!UICONTROL Segmentation]**」アクティビティをドラッグ＆ドロップします。
 1. アクティビティを選択し、表示されるクイックアクションの ![](assets/edit_darkgrey-24px.png) ボタンを使用して開きます。
-1. 「**[!UICONTROL General]**」タブで、セグメント化を実行する&#x200B;**[!UICONTROL Resource type]**&#x200B;を選択します。
+1. 内 **[!UICONTROL General]** タブで、 **[!UICONTROL Resource type]** セグメント化を実行する際に使用する手順は次のとおりです。
 
    * データベースに既に存在するデータに対してセグメント化が実行される場合は **[!UICONTROL Database resource]** を選択します。セグメント化するデータに応じて、**[!UICONTROL Filtering dimension]** を選択します。デフォルトでは、セグメント化は&#x200B;**プロファイル**&#x200B;で実行されます。
    * ワークフローの一時データでセグメント化が実行される場合は **[!UICONTROL Temporary resource]** を選択します。セグメント化するデータを含む **[!UICONTROL Targeted set]** を選択します。この使用例は、ファイルのインポート後、またはデータベース内のデータがエンリッチメントされた場合に発生する可能性があります。
@@ -61,7 +61,7 @@ ht-degree: 92%
    * **[!UICONTROL Limit segment population]**：セグメントのサイズを制限できます。
    * **[!UICONTROL Filter and limit segment population]**：セグメント母集団をフィルターしてサイズを制限できます。
    * **[!UICONTROL Label]**：セグメントラベル。
-   * **[!UICONTROL Segment code]**:コードをセグメント母集団に割り当てます。このセグメントコードは、標準の式とイベント変数を使用してパーソナライズできます( [このページ](../../automating/using/customizing-workflow-external-parameters.md)を参照)。
+   * **[!UICONTROL Segment code]**:コードをセグメント母集団に割り当てます。このセグメントコードは、標準の式およびイベント変数を使用してパーソナライズできます ( [このページ](../../automating/using/customizing-workflow-external-parameters.md)) をクリックします。
    * **[!UICONTROL Exclude segment from population]**：指定したセグメントをアクティビティのアウトバウンド母集団から除外できます。このオプションは、「**[!UICONTROL Generate all segments in the same transition]**」オプションが選択されている場合にのみ使用できます。
 
    ![](assets/wkf_segment_new_segment.png)
@@ -96,6 +96,6 @@ ht-degree: 92%
 
    * インバウンド母集団のメンバーを同時に複数のセグメントに割り当てる場合は、「**[!UICONTROL Enable overlapping of outbound populations]**」オプションを選択します。アクティビティのアウトバウンド母集団がインバウンド母集団を超える可能性があります。
    * 保持したいセグメントコードがインバウンド母集団に既に割り当てられている場合は、「**[!UICONTROL Concatenate the code of each segment]**」オプションを選択します。アクティビティで指定されたセグメントコードが、最初のセグメントコードに追加されます。
-   * 残りの母集団を活用する場合は、「**[!UICONTROL Generate complement]**」オプションを選択します。[使用例を参照してください。補集合](../../automating/using/workflow-created-query-with-complement.md)を使用して配信を作成する。
+   * 残りの母集団を活用する場合は、「**[!UICONTROL Generate complement]**」オプションを選択します。詳しくは、 [使用例：補集合を含む配信の作成](../../automating/using/workflow-created-query-with-complement.md).
 
 1. アクティビティの設定を確認し、ワークフローを保存します。

@@ -30,7 +30,7 @@ ht-degree: 81%
 * Adobe Analytics。詳しくは、[この節](../../integrating/using/configure-campaign-analytics-integration.md)を参照してください。
 * Google reCAPTCHA。詳しくは、[この節](#google-recaptcha-external-account)を参照してください。
 * Microsoft Azure Blob ストレージ。詳しくは、[この節](#microsoft-azure-external-account)を参照してください。
-* OAuth 2.0。詳しくは、[ この節 ](#oauth-account) を参照してください。
+* OAuth 2.0。詳しくは、 [この節](#oauth-account).
 
 >[!NOTE]
 >
@@ -82,7 +82,7 @@ ETL のためのファイルやデータを管理する際、これらのファ�
 * 時々 SFTP にログインして、問題がないか直接確認します。
 * SFTP のディスク管理は、基本的に管理者の責任となります。
 
-また、SFTP 接続の開始の試行元となるパブリック IP は、Campaign インスタンスのパブリック IP に許可リスト追加する必要があります。 への IP アドレスの追加許可リストは、[ サポートチケット ](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html) を介してリクエストできます。また、認証に使用する公開鍵を提供します。
+また、SFTP 接続の開始の試行元となるパブリック IP は、Campaign インスタンスのに追加されている必許可リスト要があります。 IP アドレスをに追加す許可リストると、 [サポートチケット](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)認証に使用する公開鍵を提供するのと共に。
 
 SFTP サーバーは、コントロールパネルから管理できます。詳しくは、[コントロールパネルのドキュメント](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=ja)を参照してください。
 
@@ -92,20 +92,20 @@ SFTP サーバーは、コントロールパネルから管理できます。詳
 
 ## OAuth 2.0 アカウント {#oauth-account}
 
-OAuth 2.0 外部アカウントの場合は、次の詳細を入力します。
+OAuth 2.0 外部アカウントの場合は、次の詳細情報を入力します。
 
-* **付与タイプ**:**クライアント資格情報** のみがサポートされます。
-* **セキュア API URL**:承認エンドポイントを入力します。
-* **OAuth 2.0 機密資格情報**:この節は、本質的に機密性の高い資格情報を対象としています。秘密鍵証明書の値は追加後、画面でマスクされます。その時点では、読み取りや編集ができなくなります。 認証エンドポイントで、POST本文パラメーターの代わりに HTTP 認証ヘッダーに特定の証明書を挿入する必要がある場合は、「その証明書のヘッダーに含める」オプションを選択できます。
-* **OAuth 2.0 非機密資格情報**:この節は、本質的に機密性が低い資格情報を対象としています。秘密鍵証明書の値は、追加後、画面に表示されます。また、編集も可能です。  認証エンドポイントで、POST本文パラメーターの代わりに HTTP 認証ヘッダーに特定の証明書を挿入する必要がある場合は、「その証明書のヘッダーに含める」オプションを選択できます。
+* A **付与タイプ**:のみ **クライアント資格情報** はサポートされています。
+* A **セキュア API URL**:認証エンドポイントを入力します。
+* **OAuth 2.0 の機密資格情報**:この節の内容は、本質的に機密性の高い資格情報に関するものです。 秘密鍵証明書の値は、追加後、画面上でマスクされます。その時点では、読み取りや編集はできません。 認証エンドポイントで、POST本文パラメーターの代わりに HTTP 認証ヘッダーに特定の証明書を挿入する必要がある場合は、その証明書の「ヘッダーに含める」オプションを選択できます。
+* **OAuth 2.0 の機密性の低い資格情報**:この節は、本質的に機密性の低い資格情報を対象としています。 秘密鍵証明書の値は、追加後、画面に表示されます。また、編集可能になります。  認証エンドポイントで、POST本文パラメーターの代わりに HTTP 認証ヘッダーに特定の証明書を挿入する必要がある場合は、その証明書の「ヘッダーに含める」オプションを選択できます。
 
-アカウント情報を入力したら、「**接続をテスト**」をクリックし、外部アカウントが正しく設定されていることを確認します。
+アカウント情報を入力したら、 **接続をテスト** 外部アカウントが正しく設定されていることを確認します。
 
 ![](assets/external_accounts_OAuth.png)
 
 >[!NOTE]
 >
->資格情報「Content-Type:application/x-www-form-urlencoded」と「grant_type=client_credentials」は API 呼び出しに自動的に追加されます。したがって、資格情報セクションに追加する必要はありません。
+>資格情報「Content-Type:application/x-www-form-urlencoded と&quot;grant_type=client_credentials&quot;が API 呼び出しに自動的に追加されます。したがって、資格情報セクションに追加する必要はありません。
 
 ## Amazon S3 外部アカウント {#amazon-s3-external-account}
 
@@ -159,7 +159,7 @@ Adobe Experience Manager 外部アカウントは、Campaign と Experience Mana
 
 Google reCAPTCHA のメカニズムによって、ランディングページをスパムやボットによる不正使用から守ることができます。このメカニズムは、ユーザーによる操作が不要で、お客様のサイトとのやり取りに基づいているので、ユーザーにとっては負担になりません。サイトの登録については、[こちらのページ](https://www.google.com/recaptcha/admin/create)を参照してください。V3 reCAPTCHA タイプを選択する必要があります。
 
-ランディングページに Google reCAPTCHA V3 を追加するには、お使いの外部アカウントで Google ReCAPTCHA V3 を設定します。 ランディングページに Google reCAPTCHA V3 を追加する方法について詳しくは、[この節](../../channels/using/configuring-landing-page.md#setting-google-recaptcha)を参照してください。
+ランディングページにGoogle reCAPTCHA V3 を追加するには、外部アカウントでそれを設定します。 ランディングページに Google reCAPTCHA V3 を追加する方法について詳しくは、[この節](../../channels/using/configuring-landing-page.md#setting-google-recaptcha)を参照してください。
 
 Google reCAPTCHA V3 外部アカウントの場合は、次の詳細情報を入力します。
 
@@ -186,7 +186,7 @@ Microsoft Azure BLOB ストレージ外部アカウントの場合は、次の�
 * **[!UICONTROL Type]**：Microsoft Azure Blob storage
 * お使いの「**[!UICONTROL Account name]**」と「**[!UICONTROL Account key]**」。アカウント名とアカウントキーの確認方法については、[こちらのページ](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage)を参照してください。
 * お使いの「**[!UICONTROL Endpoint suffix]**」。これは、Azure Portal の&#x200B;**[!UICONTROL Access keys]**&#x200B;メニューの「**[!UICONTROL Connection string]**」内で確認できます。詳しくは、この[ページ](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage)を参照してください。
-* お使いの「**[!UICONTROL Container]**」。複数のコンテナを使用する予定がある場合は、コンテナと同じ数の外部アカウントを作成します。
+* お使いの「**[!UICONTROL Container]**」。複数のコンテナを使用する予定がある場合は、コンテナと同数の外部アカウントを作成します。
 * 「**[!UICONTROL Concurrency]**」オプションを使用すると、ファイル転送速度を微調整できます。
 
 ![](assets/external_accounts_4.png)

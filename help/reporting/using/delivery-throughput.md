@@ -18,13 +18,13 @@ ht-degree: 4%
 
 # 配信スループット{#delivery-throughput}
 
-このレポートには、1回の送信または複数の送信の配信スループットに関するデータが含まれます。 以下を提供します。
+このレポートには、1 回の送信または複数の送信の配信スループットに関するデータが含まれます。 以下を提供します。
 
-* 1時間に処理されたメッセージ数
-* 再試行で最も高い利益を持つ5つの配信を示す&#x200B;**[!UICONTROL Top 5 deliveries]**&#x200B;テーブルと補完的な概要番号。
+* 1 時間に処理されたメッセージ数
+* この **[!UICONTROL Top 5 deliveries]** 再試行での最も高い獲得を持つ 5 つの配信を示す、補完的な概要番号の表およびです。
 
 ![](assets/delivery_reports_1.png)
 
 >[!NOTE]
 >
->**[!UICONTROL Delivery throughput]**&#x200B;ページには、CampaignからAdobe Campaign Enhanced MTA（メッセージ転送エージェント）へのメッセージのリレーのスループット速度が表示されます。
+>この **[!UICONTROL Delivery throughput]** ページには、Campaign からAdobe Campaign Enhanced MTA（メッセージ転送エージェント）へのメッセージのリレーのスループット速度が表示されます。

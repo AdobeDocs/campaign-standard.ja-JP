@@ -72,7 +72,7 @@ ht-degree: 96%
 
    例えば、ワークフローのすべてのアクティビティでデフォルトで使用する特定のタイムゾーンを定義できます。デフォルトでは、現在の Campaign オペレーターに指定されたタイムゾーンがワークフローのタイムゾーンになります。
 
-   ワークフローのプロパティについて詳しくは、[このページ](../../automating/using/managing-execution-options.md)を参照してください。
+   ワークフローのプロパティについて詳しくは、 [このページ](../../automating/using/managing-execution-options.md).
 
    ![](assets/workflow_properties.png)
 
@@ -137,4 +137,4 @@ ht-degree: 96%
 
 >[!VIDEO](https://video.tv.adobe.com/v/23937?quality=12)
 
-追加のCampaign Standardハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja)からご覧いただけます。
+その他のCampaign Standardのハウツービデオも利用できます [ここ](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja).

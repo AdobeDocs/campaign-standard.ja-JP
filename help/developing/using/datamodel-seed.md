@@ -14,7 +14,7 @@ ht-degree: 41%
 
 ---
 
-# シードメンバー(nms:seedMember)
+# シードメンバー (nms:seedMember)
 
 ## オブジェクトの説明
 
@@ -27,7 +27,7 @@ ht-degree: 41%
                </tr>
                <tr>
                   <td>PKey</td>
-                  <td>メインリソースID</td>
+                  <td>メインリソース ID</td>
                   <td>文字列 </td>
                   <td> </td>
                </tr>
@@ -52,25 +52,25 @@ ht-degree: 41%
                <tr>
                   <td>desc</td>
                   <td>説明</td>
-                  <td>文字列(512)</td>
+                  <td>文字列 (512)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>電子メール</td>
                   <td>メール</td>
-                  <td>文字列(128)</td>
+                  <td>文字列 (128)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>emailRendering</td>
                   <td>E メールのレンダリング</td>
-                  <td>boolean </td>
+                  <td>ブール型 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>fax</td>
                   <td>FAX</td>
-                  <td>文字列(32)</td>
+                  <td>文字列 (32)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -81,8 +81,8 @@ ht-degree: 41%
                </tr>
                <tr>
                   <td>isExternal</td>
-                  <td>外部リソース</td>
-                  <td>boolean </td>
+                  <td>外部リソースです</td>
+                  <td>ブール型 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -94,25 +94,25 @@ ht-degree: 41%
                <tr>
                   <td>場所</td>
                   <td>場所</td>
-                  <td>item </td>
+                  <td>項目 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>marketingCloudId</td>
                   <td>Marketing CloudID</td>
-                  <td>文字列(256)</td>
+                  <td>文字列 (256)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>mobileApp</td>
                   <td>モバイルアプリケーション</td>
-                  <td>item </td>
+                  <td>項目 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>mobilePhone</td>
                   <td>モバイル</td>
-                  <td>文字列(32)</td>
+                  <td>文字列 (32)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -124,19 +124,19 @@ ht-degree: 41%
                <tr>
                   <td>name</td>
                   <td>ID</td>
-                  <td>文字列(64)</td>
+                  <td>文字列 (64)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>nms_recipient</td>
                   <td>プロファイル</td>
-                  <td>item </td>
+                  <td>項目 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>nms_rtEvent</td>
                   <td>イベント</td>
-                  <td>item </td>
+                  <td>項目 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -148,37 +148,37 @@ ht-degree: 41%
                <tr>
                   <td>phone</td>
                   <td>電話</td>
-                  <td>文字列(32)</td>
+                  <td>文字列 (32)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>配達確認</td>
                   <td>配達確認</td>
-                  <td>boolean </td>
+                  <td>ブール型 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>pushNotification</td>
                   <td>プッシュ通知</td>
-                  <td>文字列(255)</td>
+                  <td>文字列 (255)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>registrationToken</td>
                   <td>登録トークン</td>
-                  <td>文字列(256)</td>
+                  <td>文字列 (256)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>sampleData</td>
                   <td>サンプルデータ</td>
-                  <td>boolean </td>
+                  <td>ブール型 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>SMS</td>
                   <td>モバイル</td>
-                  <td>文字列(255)</td>
+                  <td>文字列 (255)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -196,26 +196,26 @@ ht-degree: 41%
                <tr>
                   <td>thumbnail</td>
                   <td>サムネイル</td>
-                  <td>文字列(255)</td>
+                  <td>文字列 (255)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>タイトル</td>
                   <td>テストプロファイル</td>
-                  <td>文字列(255)</td>
+                  <td>文字列 (255)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>トラップ</td>
                   <td>トラップ</td>
-                  <td>boolean </td>
+                  <td>ブール型 </td>
                   <td> </td>
                </tr>
             </table>
 
 ## フィルター
 
-イベントタイプ別(byEventType)
+イベントタイプ別 (byEventType)
 
 <table>
         <tr>
@@ -228,7 +228,7 @@ ht-degree: 41%
         </tr>
     </table>
 
-名前またはラベル(byText)
+名前別またはラベル別（テキスト別）
 
 <table>
         <tr>
@@ -241,7 +241,7 @@ ht-degree: 41%
         </tr>
     </table>
 
-使用状況別(byUsage)
+使用状況別 (byUsage)
 
 <table>
         <tr>
@@ -250,15 +250,15 @@ ht-degree: 41%
         </tr>
         <tr>
         <td>トラップ</td>
-        <td>boolean</td>
+        <td>ブール型</td>
         </tr>
         <tr>
         <td>emailRendering</td>
-        <td>boolean</td>
+        <td>ブール型</td>
         </tr>
         <tr>
         <td>配達確認</td>
-        <td>boolean</td>
+        <td>ブール型</td>
         </tr>
     </table>
 

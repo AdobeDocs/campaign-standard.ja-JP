@@ -17,67 +17,67 @@ ht-degree: 14%
 
 # メッセージを送信するための主な手順{#key-steps-to-send-a-message}
 
-この節では、Adobe Campaign Standardを使用してパーソナライズされたメッセージを作成し、ターゲットオーディエンスに送信する方法を学びます。
+この節では、Adobe Campaign Standardを使用してパーソナライズされたメッセージを作成し、ターゲットオーディエンスに送信する方法について説明します。
 
-各通信チャネルの作成および設定方法に関する具体的な情報は、次の節で説明します。
+各通信チャネルの作成および設定方法に関する具体的な情報は、次の節で確認できます。
 
 * [E メールの作成](../../channels/using/creating-an-email.md)
-* [SMSの作成](../../channels/using/creating-an-sms-message.md)
+* [SMS の作成](../../channels/using/creating-an-sms-message.md)
 * [ダイレクトメール配信の作成](../../channels/using/creating-the-direct-mail.md)
-* [プッシュ通知の作成](../../channels/using/preparing-and-sending-a-push-notification.md)を参照してください。
+* [プッシュ通知の作成](../../channels/using/preparing-and-sending-a-push-notification.md).
 * [アプリ内メッセージの準備と送信](../../channels/using/preparing-and-sending-an-in-app-message.md)
 
-配信のベストプラクティスについては、[配信のベストプラクティス](../../sending/using/delivery-best-practices.md)の節を参照してください。
+配信のベストプラクティスについては、 [配信のベストプラクティス](../../sending/using/delivery-best-practices.md) 」セクションに入力します。
 
-## メッセージの作成
+## メッセージを作成
 
-Campaign Standard[マーケティングアクティビティ](../../start/using/marketing-activities.md)を活用して、Eメール、SMS、ダイレクトメール、プッシュ通知またはアプリ内メッセージを作成します。
+活用Campaign Standard [マーケティング活動](../../start/using/marketing-activities.md) 電子メール、SMS、ダイレクトメール、プッシュ通知、アプリ内メッセージを作成する場合。
 
 ![](assets/marketing-activities.png)
 
-メッセージは、マーケティングアクティビティリストから、または[専用のアクティビティ](../../automating/using/about-channel-activities.md)を使用したワークフローから作成できます。
+メッセージは、マーケティングアクティビティリストから、または [専用アクティビティ](../../automating/using/about-channel-activities.md).
 
 ![](assets/steps-channel.png)
 
 ## オーディエンスの定義
 
-メッセージの受信者を定義します。 これをおこなうには、左側のペインの[クエリエディター](../../automating/using/editing-queries.md)を使用して、データベースに含まれるデータをフィルタリングし、オーディエンスをターゲットにするルールを作成します。
+メッセージの受信者を定義します。 これをおこなうには、 [クエリエディター](../../automating/using/editing-queries.md) を左側のペインからクリックして、データベースに含まれるデータをフィルタリングし、ルールを作成して、オーディエンスをターゲットにします。
 
 オーディエンスには、次のようなタイプがあります。
 
-* **[!UICONTROL Target]** は、Eメールのメインターゲットです。
-* **[!UICONTROL Test profiles]** は、電子メールのテストと検証に使用するプロファイルです( [テストプロファイルの管理](../../audiences/using/managing-test-profiles.md)を参照)。
+* **[!UICONTROL Target]** は、E メールのメインターゲットです。
+* **[!UICONTROL Test profiles]** は、e メールのテストと検証に使用するプロファイルです ( [テストプロファイルの管理](../../audiences/using/managing-test-profiles.md)) をクリックします。
 
 ![](assets/steps-audience.png)
 
 ## コンテンツの設計とパーソナライズ
 
-**[!UICONTROL Content]**&#x200B;ブロックで、データベースのフィールドを使用して、メッセージのコンテンツを設計およびパーソナライズします。 特定のチャネルのコンテンツをデザインする方法について詳しくは、このページの上部にあるセクションを参照してください。
+内 **[!UICONTROL Content]** データベースのフィールドを使用して、メッセージのコンテンツをブロック、デザインおよびパーソナライズします。 特定のチャネルのコンテンツをデザインする方法について詳しくは、このページの上部にあるセクションを参照してください。
 
 ![](assets/steps-content.png)
 
 ## 準備とテスト
 
-[](../../sending/using/preparing-the-send.md) メッセージを準備します。このプロセスでは、ターゲット母集団を計算し、パーソナライズされたメッセージを準備します。
+[準備](../../sending/using/preparing-the-send.md) メッセージ。 このプロセスでは、ターゲット母集団を計算し、パーソナライズされたメッセージを準備します。
 
 ![](assets/steps-prepare.png)
 
-**メッセージを送信する前に、次の** Campaign Standard機能を使用してメッセージを確認およびテストします。プレビュー、Eメールのレンダリング、校正など詳しくは、[この節](../../sending/using/previewing-messages.md)を参照してください。
+**メッセージを確認してテストします** Campaign Standard機能を使用して送信する前に、以下の手順に従ってください。プレビュー、E メールのレンダリング、校正など 詳しくは、[この節](../../sending/using/previewing-messages.md)を参照してください。
 
-**[!UICONTROL Schedule]**&#x200B;ブロックを使用して、メッセージを送信するタイミングを定義します（[メッセージのスケジュール](../../sending/using/about-scheduling-messages.md)を参照）。
+以下を使用： **[!UICONTROL Schedule]** ブロック：メッセージを送信するタイミングを定義します ( [メッセージのスケジュール](../../sending/using/about-scheduling-messages.md)) をクリックします。
 
 ![](assets/steps-schedule.png)
 
 ## 送信と追跡
 
-メッセージの準備が整ったら、送信を確認できます。 **[!UICONTROL Deployment]**&#x200B;ブロックは、送信の進行状況と結果を表示します。
+メッセージの準備が整ったら、送信を確認できます。 この **[!UICONTROL Deployment]** ブロックは、送信の進行状況と結果を表示します。
 
 ![](assets/steps-send.png)
 
-メッセージの配信を監視するのに役立つログがいくつか用意されています（[配信の監視](../../sending/using/monitoring-a-delivery.md)を参照）。 また、Campaign Standardの[トラッキング機能](../../sending/using/tracking-messages.md)を使用して、配信受信者の行動をトラッキングすることもできます。
+メッセージの配信を監視するのに役立つログがいくつか用意されています ( [配信の監視](../../sending/using/monitoring-a-delivery.md)) をクリックします。 配信受信者の行動をトラッキングするには、Campaign Standardの [トラッキング機能](../../sending/using/tracking-messages.md).
 
 ![](../../sending/using/assets/tracking_logs.png)
 
-様々な指標やグラフを使用して、メッセージの効果と、送信およびキャンペーンの推移を測定します（[レポートへのアクセス](../../reporting/using/about-dynamic-reports.md)を参照）。
+様々な指標やグラフを使用して、メッセージの効果と、送信やキャンペーンの変化を測定します ( [レポートへのアクセス](../../reporting/using/about-dynamic-reports.md)) をクリックします。
 
 ![](assets/steps-reports.png)

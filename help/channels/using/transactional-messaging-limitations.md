@@ -26,13 +26,13 @@ ht-degree: 67%
 
 ## 権限 {#permissions}
 
-トランザクションイベントを設定し、トランザクションメッセージにアクセスできるのは、[管理](../../administration/using/users-management.md#functional-administrators)の役割を持つユーザーのみです。
+次の条件を満たすユーザーのみ： [管理](../../administration/using/users-management.md#functional-administrators) の役割では、トランザクションイベントを設定し、トランザクションメッセージにアクセスできます。
 
 ## イベントの設定と公開 {#design-and-publication}
 
-トランザクションイベントを設定して公開する際に、実行する必要がある一部の手順を元に戻すことはできません。 次の制限事項に留意してください。
+トランザクションイベントを設定して公開する際に実行する必要がある一部の手順を元に戻すことはできません。 次の制限事項に留意してください。
 
-* トランザクションメッセージに使用できるチャネルは次のとおりです。**[!UICONTROL Email]**、**[!UICONTROL Mobile (SMS)]**&#x200B;および&#x200B;**[!UICONTROL Push notification]**。
+* トランザクションメッセージに使用できるチャネルは次のとおりです。 **[!UICONTROL Email]**, **[!UICONTROL Mobile (SMS)]** および **[!UICONTROL Push notification]**.
 * 各イベント設定で使用できるチャネルは 1 つだけです。詳しくは、[イベントの作成](../../channels/using/configuring-transactional-event.md#creating-an-event)を参照してください。
 * イベントを作成した後は、チャネルを変更できません。したがって、メッセージが正常に送信されない場合は、ワークフローを使用して別のチャネルからメッセージを送信できるメカニズムを設計する必要があります。[ワークフローのデータとプロセス](../../automating/using/get-started-workflows.md).
 * イベントの作成後にターゲティングディメンション（**[!UICONTROL Real-time event]** または **[!UICONTROL Profile]**）を変更することはできません。詳しくは、[イベントの作成](../../channels/using/configuring-transactional-event.md#creating-an-event)を参照してください。
@@ -41,30 +41,30 @@ ht-degree: 67%
 
 ## トランザクションメッセージ数 {#transactional-message-number}
 
-公開済みトランザクションメッセージの数は、プラットフォームに大きな影響を与える可能性があります。 最適なパフォーマンスを得るために、公開されたトランザクションメッセージの数は100未満に抑える必要があります。 これを確実におこなうには、未使用のトランザクションメッセージを非公開にするか、削除します。 [トランザクションメッセージの非公開](../../channels/using/publishing-transactional-message.md#unpublishing-a-transactional-message)および[トランザクションメッセージの削除](../../channels/using/publishing-transactional-message.md#deleting-a-transactional-message)を参照してください。
+公開されたトランザクションメッセージの数は、プラットフォームに大きな影響を与える可能性があります。 最適なパフォーマンスを得るには、公開されたトランザクションメッセージの数を 100 未満に抑える必要があります。 これを確実におこなうには、未使用のトランザクションメッセージを非公開にするか削除します。 詳しくは、 [トランザクションメッセージの非公開](../../channels/using/publishing-transactional-message.md#unpublishing-a-transactional-message) および [トランザクションメッセージの削除](../../channels/using/publishing-transactional-message.md#deleting-a-transactional-message).
 
-最高のパフォーマンスを確保するために、未使用のイベントを非公開または削除することもできます。 実際、イベントを非公開または削除すると、対応するトランザクションメッセージと、その送信ログおよびトラッキングログ（ある場合）も非公開または削除されます。 [イベントの非公開](../../channels/using/publishing-transactional-event.md#unpublishing-an-event)および[イベントの削除](../../channels/using/publishing-transactional-event.md#deleting-an-event)を参照してください。
+最高のパフォーマンスを確保するために、未使用のイベントを非公開または削除することもできます。 イベントを非公開または削除すると、対応するトランザクションメッセージと、その送信およびトラッキングログ（存在する場合）の非公開または削除もおこなわれます。 詳しくは、 [イベントの非公開](../../channels/using/publishing-transactional-event.md#unpublishing-an-event) および [イベントの削除](../../channels/using/publishing-transactional-event.md#deleting-an-event).
 
 ## パーソナライズ機能 {#personalization}
 
-メッセージの内容をパーソナライズする方法は、トランザクションメッセージの種類によって異なります。特殊性を以下に示します。
+メッセージの内容をパーソナライズする方法は、トランザクションメッセージの種類によって異なります。具体的な内容は以下の通りです。
 
 ### イベントベースのトランザクションメッセージ
 
-* パーソナライゼーションに関する情報は、イベント自体に含まれるデータから取得されます。[イベントベースのトランザクションメッセージ設定](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages)を参照してください。
-* イベントトランザクションメッセージでは、****&#x200B;コンテンツブロックを使用&#x200B;**[!UICONTROL Unsubscription link]**&#x200B;できません。
-* イベントベースのトランザクションメッセージでは、受信者とメッセージコンテンツのパーソナライゼーションを定義するために、送信イベント内のデータのみを使用することが想定されています。ただし、Adobe Campaign データベースの情報を使用して、トランザクションメッセージの内容をエンリッチメントすることができます。[イベント](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)のエンリッチメントおよび[トランザクションメッセージのパーソナライズ](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message)を参照してください。
+* パーソナライゼーションに関する情報は、イベント自体に含まれるデータから取得されます。詳しくは、 [イベントベースのトランザクションメッセージ設定](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages).
+* あなた **できません** use **[!UICONTROL Unsubscription link]** コンテンツブロックを含むイベントトランザクションメッセージ内に含まれます。
+* イベントベースのトランザクションメッセージでは、受信者とメッセージコンテンツのパーソナライゼーションを定義するために、送信イベント内のデータのみを使用することが想定されています。ただし、Adobe Campaign データベースの情報を使用して、トランザクションメッセージの内容をエンリッチメントすることができます。詳しくは、 [イベントのエンリッチメント](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) および [トランザクションメッセージのパーソナライズ](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message).
 * イベントトランザクションメッセージにはプロファイル情報が含まれないので、プロファイルのエンリッチメントの場合でも、疲労ルールとの互換性はありません。
 
 ### プロファイルベースのトランザクションメッセージ
 
-* パーソナライゼーションに関する情報は、イベントに含まれるデータ、または紐付け済みのプロファイルレコードから取得できます。[プロファイルベースのトランザクションメッセージ設定](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages)および[プロファイルベースのトランザクションメッセージ特有性](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities)を参照してください。
-* プロファイルトランザクションメッセージでは、****&#x200B;コンテンツブロックを使用できます。 **[!UICONTROL Unsubscription link]**[&#x200B;コンテンツブロックの追加](../../designing/using/personalization.md#adding-a-content-block)を参照してください。
+* パーソナライゼーションに関する情報は、イベントに含まれるデータ、または紐付け済みのプロファイルレコードから取得できます。詳しくは、 [プロファイルベースのトランザクションメッセージ設定](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages) および [プロファイルベースのトランザクションメッセージ特有性](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities).
+* あなた **can** use **[!UICONTROL Unsubscription link]** プロファイルトランザクションメッセージのコンテンツブロック [コンテンツブロックの追加](../../designing/using/personalization.md#adding-a-content-block)を参照してください。
 * 疲労ルールは、プロファイルトランザクションメッセージと互換性があります。[疲労ルール](../../sending/using/fatigue-rules.md)を参照してください。
 
 ### 製品リスト
 
-製品リストは、トランザクションの&#x200B;**Eメールメッセージ**&#x200B;でのみ利用できます。 詳しくは、[トランザクションメッセージでの製品リストの使用](../../designing/using/using-product-listings.md)を参照してください。
+製品リストはトランザクションで利用できます。 **電子メールメッセージ** のみ。 詳しくは、[トランザクションメッセージでの製品リストの使用](../../designing/using/using-product-listings.md)を参照してください。
 
 ## ブランディング {#permissions-and-branding}
 

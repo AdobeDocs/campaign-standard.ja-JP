@@ -4,7 +4,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
-description: 送信プロセスのアップストリームを保護し最適化する方法を説明します。
+description: 送信プロセスのアップストリームを保護および最適化する方法について説明します。
 feature: Deliverability
 role: User
 level: Intermediate
@@ -26,15 +26,15 @@ ht-degree: 81%
 
 いくつかの要因がサーバーのパフォーマンスに直接影響し、プラットフォームの速度が低下することがあります。
 
-* パーソナライゼーション要素の数とタイプ：E メールのパーソナライゼーションでは、各受信者のデータベースからデータを取り出します。パーソナライゼーション要素が多数ある場合は、配信の準備に必要なデータの量もそれだけ多くなります。Eメールのパーソナライゼーションについて詳しくは、[この節](../../designing/using/personalization.md)を参照してください。
+* パーソナライゼーション要素の数とタイプ：E メールのパーソナライゼーションでは、各受信者のデータベースからデータを取り出します。パーソナライゼーション要素が多数ある場合は、配信の準備に必要なデータの量もそれだけ多くなります。電子メールのパーソナライゼーションについて詳しくは、 [この節](../../designing/using/personalization.md)
 
-* サーバーの負荷：キャンペーンが様々なタスクを同時に処理している場合、パフォーマンスが低下する可能性があります。 サーバーは、すべての配信ですべての受信および送信データを調整し、データが正しく、時間通りに正しいことを確認する必要があります。
+* サーバーの負荷：キャンペーンが様々なタスクをいくつも同時に処理していると、パフォーマンスが低下する可能性があります。 サーバーは、すべての配信ですべての受信および送信データを調整し、データが正しく、かつ時間通りに動作するようにする必要があります。
 
    **ヒント**：パフォーマンスの低下を避けるには、他のチームメンバーと話し合い、最適なパフォーマンスが得られるように配信スケジュールを調整します。
 
-* [ワークフローの実行](../../automating/using/about-workflow-execution.md):ワークフローの監視は、プラットフォームのパフォーマンスの問題を回避するために必要です。 このページ](../../automating/using/monitoring-workflow-execution.md)に示すガイドラインに従います。 [詳しくは、[ワークフローのベストプラクティス](../../automating/using/best-practices-workflows.md)の節を参照してください。
+* この [ワークフローの実行](../../automating/using/about-workflow-execution.md):ワークフローの監視は、プラットフォームのパフォーマンスの問題を回避するために必要です。 一覧に表示されたガイドラインに従います [このページ](../../automating/using/monitoring-workflow-execution.md). 詳しくは、 [ワークフローのベストプラクティス](../../automating/using/best-practices-workflows.md) 」セクションに入力します。
 
-* [CampaignCampaign コントロールパネル機能](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja)は、[パフォーマンス監視](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=ja)機能を使用して、プラットフォームを監視する場合に利用できます。
+* 以下を利用して、 [Campaign のCampaign コントロールパネル機能](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja) プラットフォームを監視するには、次を使用します。 [パフォーマンス監視](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=ja) 機能。
 
 ## ネットワーク設定の確認 {#network-config}
 
@@ -52,7 +52,7 @@ ht-degree: 81%
 
    * E メールの配信品質を確認するときは、データ品質、メッセージとコンテンツ、送信インフラストラクチャ、レピュテーションという 4 つの主要カテゴリを中心に調べます。このトピックについて詳しくは、[この節](../../sending/using/about-deliverability.md)を参照してください。
 
-* 新しいプラットフォームを開始する際は、[このページ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html#transition-process)で説明されている推奨事項を適用します。
+* 新しいプラットフォームを開始する際に、次に詳しく説明する推奨事項を適用します。 [このページ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html#transition-process).
 
 * サポートが必要な場合は、アドビ担当者にお問い合わせください。
 
@@ -78,4 +78,4 @@ ht-degree: 81%
 
 このメカニズムの実装の詳細については、[この節](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)で説明します。
 
-詳しくは、[プロファイルとオーディエンスの使用を開始する](../../audiences/using/get-started-profiles-and-audiences.md)を参照してください。
+詳しくは、 [プロファイルとオーディエンスの概要](../../audiences/using/get-started-profiles-and-audiences.md).

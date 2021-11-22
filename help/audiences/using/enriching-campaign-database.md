@@ -17,55 +17,55 @@ ht-degree: 3%
 
 # データベースのエンリッチメント{#enriching-the-database}
 
-Campaign Standardは、マーケティングデータベースの拡張に役立つツールを提供します。 この節では、Campaignにデータを挿入するための様々な方法と、専用のドキュメントの参照について説明します。
+Campaign Standardには、マーケティングデータベースを拡張するのに役立つツールがいくつか用意されています。 この節では、Campaign にデータを挿入するための様々な方法と、専用ドキュメントへの参照について詳しく説明します。
 
 ## ワークフローを使用したデータのインポート {#importing-data-through-workflows}
 
-ワークフローでは、[[!UICONTROL Data management]](../../automating/using/about-data-management-activities.md)アクティビティを使用してデータを収集し、Campaignデータベースにインポートできます。
+ワークフローを使用すると、データを収集し、 [[!UICONTROL Data management]](../../automating/using/about-data-management-activities.md) アクティビティ。
 
-ワークフローを通じてデータをインポートする際の一般的な情報とベストプラクティスについては、[この節](../../automating/using/about-data-import-and-export.md)を参照してください。
+ワークフローを通じてデータをインポートする際の一般的な情報とベストプラクティスについては、 [この節](../../automating/using/about-data-import-and-export.md).
 
-さらに、データをインポートするためのテンプレートを設定することもできます。 同じ構造を持つファイルを定期的にインポートする必要がある場合は、インポートテンプレートを使用することをお勧めします。
+さらに、データをインポートするテンプレートを設定できます。 同じ構造を持つファイルを定期的にインポートする必要がある場合は、インポートテンプレートを使用することをお勧めします。
 
-次の2種類のテンプレートを設定できます。
+次の 2 種類のテンプレートを設定できます。
 
-* **ワークフローテンプレート**:これらは、必要に応じて一度設定し、データをインポートしてデータベースを更新するたびに再利用できる、事前設定済みのワークフローです。
+* **ワークフローテンプレート**:これらは、必要に応じて一度設定できる事前設定済みのワークフローで、データのインポートとデータベースの更新をおこなうたびに再利用します。
 
-   データをインポートするワークフローテンプレートの例について詳しくは、[この節](../../automating/using/creating-import-workflow-templates.md)を参照してください。
+   データをインポートするワークフローテンプレートの例について詳しくは、 [この節](../../automating/using/creating-import-workflow-templates.md).
 
-* **データテンプレートのインポート**:ワークフローテンプレートと同様に、これらはワークフローに基づくテンプレートで、データベースを更新するためにファイルをアップロードするように設定されています。設定が完了すると、 **[!UICONTROL Profile & audiences]** / **[!UICONTROL Imports]**&#x200B;メニューの下に簡略表示が表示され、ユーザーが使用できるようになります。
+* **データテンプレートのインポート**:ワークフローテンプレートと同様に、ワークフローに基づくテンプレートで、データベースを更新するためにファイルをアップロードするように設定されています。 設定が完了すると、ユーザーは、 **[!UICONTROL Profile & audiences]** / **[!UICONTROL Imports]** メニュー
 
-   データテンプレートのインポートについて詳しくは、[専用のドキュメント](../../automating/using/importing-data-with-import-templates.md)を参照してください。
+   データテンプレートのインポートについて詳しくは、 [専用ドキュメント](../../automating/using/importing-data-with-import-templates.md).
 
 ## ランディングページからのデータの収集 {#collecting-data-from-landing-pages}
 
-ランディングページとは、データを収集し、データベース内の既存の情報を作成または更新するために使用できるWebフォームです。
+ランディングページは、データを収集し、データベース内の既存の情報を作成または更新するために使用できる Web フォームです。
 
 原則は次のとおりです。
 
-* データ（名、姓、Eメールなど）を収集するための入力フィールドを追加して、ランディングページを作成およびデザインします。
+* データ（名、姓、E メールなど）を収集するための入力フィールドを追加して、ランディングページを作成およびデザインします。
 * 各入力フィールドを、データベースの対応するフィールドにマッピングします。
-* ランディングページを、Webサイト経由、またはメッセージへの直接リンクを通じてオンラインで使用できるようにします。
+* Web サイト経由、またはメッセージへの直接リンクを通じて、ランディングページをオンラインで使用できるようにします。
 
-ランディングページについて詳しくは、[専用のドキュメント](../../channels/using/getting-started-with-landing-pages.md)を参照してください。
+ランディングページについて詳しくは、 [専用ドキュメント](../../channels/using/getting-started-with-landing-pages.md).
 
-## Microsoft Dynamics 365からのプロファイルの同期
+## Microsoft Dynamics 365 からのプロファイルの同期
 
-Microsoft Dynamics 365とのCampaign Standard統合により、Microsoft Dynamics 365の連絡先データをCampaignデータベースに渡すことができます。
+Microsoft Dynamics 365 とのCampaign Standard統合により、Microsoft Dynamics 365 の連絡先データを Campaign データベースに渡すことができます。
 これらの連絡先はプロファイルリストに表示され、マーケティングキャンペーンのターゲットに設定できます。
 
-この統合について詳しくは、[専用のドキュメント](../../integrating/using/d365-acs-get-started.md)を参照してください。
+この統合について詳しくは、 [専用ドキュメント](../../integrating/using/d365-acs-get-started.md).
 
 >[!NOTE]
 >
->Campaign Standard- Microsoft Dynamics 365コネクタは現在、使用が制限されています。このコネクタには、ドキュメントで詳しく説明されているいくつかの制限が適用されます。
+>Campaign Standard- Microsoft Dynamics 365 コネクタは現在、使用が制限されています。また、ドキュメントに詳しく記載されているいくつかの制限が適用されます。
 
-## API呼び出しを使用したデータの読み込み
+## API 呼び出しを使用したデータの読み込み
 
-Campaign StandardAPIを使用すると、プロファイルやサービスの作成、更新、削除など、データベースを更新する操作を実行できます。
+Campaign StandardAPI を使用すると、プロファイルやサービスの作成、更新、削除など、データベースを更新する操作を実行できます。
 
-APIの使用方法について詳しくは、[専用のドキュメント](../../api/using/get-started-apis.md)を参照してください。
+API の使用方法について詳しくは、 [専用ドキュメント](../../api/using/get-started-apis.md).
 
 >[!IMPORTANT]
 >
->API呼び出しを使用してプロファイルの一括作成または更新を実行する前に、使用許諾契約に対応するスケール制限を確認してください。 詳しくは、[このページ](https://helpx.adobe.com/jp/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers)を参照してください。
+>API 呼び出しを使用してプロファイルの一括作成または更新を実行する前に、使用許諾契約に対応するスケール制限を確認してください。 詳しくは、[このページ](https://helpx.adobe.com/jp/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers)を参照してください。

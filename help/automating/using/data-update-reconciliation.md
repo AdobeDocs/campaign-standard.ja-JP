@@ -22,7 +22,7 @@ ht-degree: 67%
 
 ![](assets/identification_example2.png)
 
-* [ファイルの読み込み](../../automating/using/load-file.md)アクティビティ。読み込むファイルのデータを読み込んで検出します。 インポートされたファイルには、次のデータが含まれています。
+* A [ファイルを読み込み](../../automating/using/load-file.md) 「 」アクティビティです。読み込むファイルのデータを読み込んで検出します。 インポートされたファイルには、次のデータが含まれています。
 
    ```
    lastname;firstname;email;dateofbirth
@@ -37,10 +37,10 @@ ht-degree: 67%
    tycoon;tyreese;tyreese_t@testmail.net;10/08/1971
    ```
 
-* [紐付け](../../automating/using/reconciliation.md)アクティビティ。読み込まれたファイルの各列をプロファイルディメンション列にリンクします。 識別できないファイルレコード（データが見つからない、互換性のないデータタイプなど）は無視され、最終的なオーディエンスデータの整合性が維持されます。
+* A [紐付け](../../automating/using/reconciliation.md) 「 」アクティビティ：読み込まれたファイルの各列をプロファイルディメンション列にリンクします。 識別できないファイルレコード（データが見つからない、互換性のないデータタイプなど）は無視され、最終的なオーディエンスデータの整合性が維持されます。
 
    ![](assets/identification_example1.png)
 
-* プロファイルのオーディエンスを保存する[オーディエンスを保存](../../automating/using/save-audience.md)アクティビティ。
+* A [オーディエンスを保存](../../automating/using/save-audience.md) 「 」アクティビティを追加します。
 
    ![](assets/identification_example3.png)

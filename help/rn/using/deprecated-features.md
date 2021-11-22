@@ -10,8 +10,8 @@ level: Beginner
 exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '871'
-ht-degree: 67%
+source-wordcount: '864'
+ht-degree: 65%
 
 ---
 
@@ -41,13 +41,13 @@ Campaign Standard 機能の差し迫った削除／置換を伝達するため�
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Audience Destinationsサービスとの統合</strong><br /> </th> 
+   <th> <strong>Audience Destinations サービスとの統合</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p> Campaign Standard21.3リリースより、Audience Destinationsサービスとの統合は非推奨（廃止予定）となります。 </p>
-   <p>新しい実装の場合、Audience DestinationsサービスをAdobe Campaign Standardと統合できなくなりました。 ただし、CampaignとAdobe Experience Platformをソースと宛先を使用して統合することはできます。 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=en">詳細情報</a>。</p>
+   <td> <p> Campaign Standard21.3 リリースより、Audience Destinations サービスとの統合は非推奨（廃止予定）になります。 </p>
+   <p>新しい実装の場合、Audience Destinations サービスをAdobe Campaign Standardと統合できなくなりました。 ただし、ソースと宛先を使用して Campaign とAdobe Experience Platformを統合することはできます。 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=en">詳細情報</a>。</p>
      <em>削除予定：2022 年</em></p>
      </td> 
   </tr> 
@@ -57,13 +57,13 @@ Campaign Standard 機能の差し迫った削除／置換を伝達するため�
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Adobe Experience Platform Data Connectorとの統合</strong><br /> </th> 
+   <th> <strong>Adobe Experience Platform Data Connector との統合</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p> Campaign Standard21.3リリースより、Adobe Experience Platform Data Connectorとの統合は非推奨（廃止予定）となります。 </p>
-   <p>新しい実装の場合、Adobe Experience Platform Data ConnectorをAdobe Campaign Standardと統合できなくなりました。 ただし、CampaignとAdobe Experience Platformをソースと宛先を使用して統合することはできます。 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=en">詳細情報</a>。</p>
+   <td> <p> Campaign Standard21.3 リリースより、Adobe Experience Platform Data Connector との統合は非推奨（廃止予定）になります。 </p>
+   <p>新しい実装の場合、Adobe Experience Platform Data Connector とAdobe Campaign Standardを統合できなくなりました。 ただし、ソースと宛先を使用して Campaign とAdobe Experience Platformを統合することはできます。 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=en">詳細情報</a>。</p>
      <em>削除予定：2022 年</em></p>
      </td> 
   </tr> 
@@ -79,7 +79,7 @@ Campaign Standard 機能の差し迫った削除／置換を伝達するため�
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Campaign 19.0 リリース以降、レガシー E メールエディターは非推奨となりました。 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">Campaign Eメールデザイナー</a>を使用して、Eメールコンテンツを作成し、パーソナライズします。 </p></br>
+   <td> <p>Campaign 19.0 リリース以降、レガシー E メールエディターは非推奨となりました。 用途 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">Campaign E メールデザイナー</a> e メールコンテンツを作成し、パーソナライズします。 </p></br>
    <p><a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">この節</a>で、新しいエディター用に E メールテンプレートを適応させる方法を説明しています。</p></br>
   <p> 
   <em>削除予定：2022 年</em></p>
@@ -96,7 +96,7 @@ Campaign Standard 機能の差し迫った削除／置換を伝達するため�
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Campaign 18.7リリースより、地理的単位は非推奨（廃止予定）となります。 組織単位と地理的単位は、Campaign では同じ構成です。 ユーザーは、組織単位のみを使用して、ユーザー権限／データアクセス階層を作成する必要があります。 <a href="https://helpx.adobe.com/jp/campaign/standard/administration/using/organizational-units.html">詳細情報</a>。新しい Campaign Standard インスタンスと、地理的単位が作成されていない既存のインスタンスには、18.7 リリースからこの機能を実装することはできません。</p>
+   <td> <p>Campaign 18.7 リリースより、地理的単位は非推奨（廃止予定）になります。 組織単位と地理的単位は、Campaign では同じ構成です。 ユーザーは、組織単位のみを使用して、ユーザー権限／データアクセス階層を作成する必要があります。 <a href="https://helpx.adobe.com/jp/campaign/standard/administration/using/organizational-units.html">詳細情報</a>。新しい Campaign Standard インスタンスと、地理的単位が作成されていない既存のインスタンスには、18.7 リリースからこの機能を実装することはできません。</p>
    </td> 
   </tr> 
  </tbody> 
@@ -116,10 +116,10 @@ Campaign Standard 機能の差し迫った削除／置換を伝達するため�
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p> Campaign 20.1リリースより、SDK v4は非推奨（廃止予定）となります。 <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">詳細情報</a>。</p><br/>
-   <p><a href="https://aep-sdks.gitbook.io/docs/">Adobe Experience Platform Mobile SDK</a>（旧称v5）は、今後のAdobe Experience Cloudの機能のみをサポートするようになりました。</p>
-   <p>2021年8月31日以降は、引き続きバージョン4のSDKをダウンロードして使用できますが、カスタマーケアのサポートやフォーラムへのアクセスはありません。</p>
-   <p>SDK v4からAdobe Experience Platform Mobile SDK <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">に移行する方法については、このページ</a>を参照してください。</p></br>
+   <td> <p> Campaign 20.1 リリースより、SDK v4 は非推奨（廃止予定）になります。 <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">詳細情報</a>。</p><br/>
+   <p>この <a href="https://aep-sdks.gitbook.io/docs/">Adobe Experience Platform Mobile SDK</a> （旧称 v5）は、今後のAdobe Experience Cloudの機能のみをサポートするようになりました。</p>
+   <p>2021 年 8 月 31 日以降、お客様は引き続きバージョン 4 の SDK をダウンロードして使用できますが、カスタマーケアのサポートやフォーラムへのアクセスは利用できません。</p>
+   <p>SDK v4 からAdobe Experience Platform Mobile SDK に移行する方法を説明します <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">このページ</a>.</p></br>
      </td> 
   </tr> 
  </tbody> 
@@ -148,8 +148,8 @@ Campaign Standard 機能の差し迫った削除／置換を伝達するため�
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p> 2021年4月以降、予測件名行機能は廃止されます。</p><br/>
-   <p>AIを利用したEメール機能を活用して、過去のエンゲージメント指標に基づいて、開封率、最適な送信時間、および予想される解約を分析し、予測することをお勧めします。 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html">詳細情報</a></p></br>
+   <td> <p> 2021 年 4 月以降、予測件名行機能は廃止されます。</p><br/>
+   <p>AI を利用した E メール機能を活用して、過去のエンゲージメント指標に基づいて、開封率、最適な送信時間、および予想される解約を分析して予測することをお勧めします。 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/preparing-and-testing-messages/predictive.html">詳細情報</a></p></br>
      </td> 
   </tr> 
   </tbody> 
@@ -178,7 +178,7 @@ Campaign Standard 機能の差し迫った削除／置換を伝達するため�
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Creative SDK] は廃止されました。その結果、Campaign Standard の E メール内の [!DNL Creative SDK] を使用した画像エディションは、Campaign 20.2 リリース以降では使用できなくなりました。</p></br>
+   <td> <p>[!DNL Adobe Creative SDK]  は廃止されました。 その結果、次の機能を利用した画像エディションが可能になります。 [!DNL Creative SDK] Campaign Standardの e メールは、Campaign 20.2 リリース以降は使用できなくなりました。</p></br>
    </td> 
   </tr> 
  </tbody> 

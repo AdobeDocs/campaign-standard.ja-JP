@@ -81,15 +81,15 @@ ht-degree: 83%
 
 コンテキストに応じて、以下をおこなうことができます。
 
-* Eメールの作成 — [詳細](../../channels/using/creating-an-email.md)
-* SMSの作成 — [詳細](../../channels/using/creating-an-sms-message.md)
-* プッシュ通知の作成 — [詳細](../../channels/using/preparing-and-sending-a-push-notification.md)
-* アプリ内メッセージの作成 — [詳細](../../channels/using/about-in-app-messaging.md)
-* ワークフローの作成 — [詳細](../../automating/using/building-a-workflow.md#creating-a-workflow)
-* ランディングページの作成 — [詳細](../../channels/using/getting-started-with-landing-pages.md)
-* キャンペーンの作成 — [詳細](../../start/using/programs-and-campaigns.md#creating-a-campaign)
-* プログラムの作成 — [詳細](../../start/using/programs-and-campaigns.md#creating-a-program)
+* E メールの作成 — [詳細情報](../../channels/using/creating-an-email.md)
+* SMS の作成 — [詳細情報](../../channels/using/creating-an-sms-message.md)
+* プッシュ通知の作成 — [詳細情報](../../channels/using/preparing-and-sending-a-push-notification.md)
+* アプリ内メッセージの作成 — [詳細情報](../../channels/using/about-in-app-messaging.md)
+* ワークフローの作成 — [詳細情報](../../automating/using/building-a-workflow.md#creating-a-workflow)
+* ランディングページの作成 — [詳細情報](../../channels/using/getting-started-with-landing-pages.md)
+* キャンペーンの作成 — [詳細情報](../../start/using/programs-and-campaigns.md#creating-a-campaign)
+* プログラムの作成 — [詳細情報](../../start/using/programs-and-campaigns.md#creating-a-program)
 
 >[!NOTE]
 >
->また、マーケティングアクティビティリストからマーケティングアクティビティを作成することもできます。この場合、任意のタイプのアクティビティを作成し、アクティビティのプロパティを使用して、マーケティングアクティビティを親キャンペーン（またはプログラムを作成した場合は親プログラム）にリンクさせます。
+>また、マーケティングアクティビティリストからマーケティングアクティビティを作成することもできます。この場合、任意のタイプのアクティビティを作成し、アクティビティのプロパティを使用して、マーケティングアクティビティを親キャンペーン（またはプログラムを作成した場合は親プログラム）にリンクすることができます。

@@ -14,7 +14,7 @@ ht-degree: 60%
 
 ---
 
-# 購読解除イベント(nms:rtEvent)
+# 購読解除イベント (nms:rtEvent)
 
 ## オブジェクトの説明
 
@@ -34,7 +34,7 @@ ht-degree: 60%
                <tr>
                   <td>ctx</td>
                   <td>False</td>
-                  <td>item</td>
+                  <td>項目</td>
                   <td>False</td>
                </tr>
                <tr>
@@ -90,7 +90,7 @@ byStatusOrType
         <td>列挙</td>
         </tr>
         <tr>
-        <td>type</td>
+        <td>タイプ</td>
         <td>文字列</td>
         </tr>
     </table>

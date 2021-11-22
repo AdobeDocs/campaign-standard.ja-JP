@@ -14,7 +14,7 @@ ht-degree: 32%
 
 ---
 
-# 購読イベント(nms:rtEvent)
+# 購読イベント (nms:rtEvent)
 
 ## オブジェクトの説明
 
@@ -27,20 +27,20 @@ ht-degree: 32%
     </tr>
     <tr>
         <td>PKey</td>
-        <td>メインリソースID</td>
+        <td>メインリソース ID</td>
         <td>文字列 </td>
         <td> </td>
     </tr>
     <tr>
         <td>ctx</td>
         <td>イベントコンテキスト</td>
-        <td>item </td>
+        <td>項目 </td>
         <td> </td>
     </tr>
     <tr>
         <td>電子メール</td>
         <td>メール</td>
-        <td>文字列(128)</td>
+        <td>文字列 (128)</td>
         <td> </td>
     </tr>
     <tr>
@@ -50,22 +50,22 @@ ht-degree: 32%
         <td>
             <ul>
             <li>テキスト — テキスト — 1</li>
-            <li>HTML - html - 2</li>
-            <li>無効な値 — __無効な値__ - __無効な値__</li>
+            <li>HTML- html - 2</li>
+            <li>無効な値 — __Invalid_value__ - __Invalid_value__</li>
             <li>不明 — 不明 — 0</li>
             </ul>
         </td>
     </tr>
     <tr>
         <td>eventHistoId</td>
-        <td>アーカイブ済みイベントID</td>
+        <td>アーカイブしたイベント ID</td>
         <td>整数 </td>
         <td> </td>
     </tr>
     <tr>
         <td>mobilePhone</td>
         <td>モバイル番号</td>
-        <td>文字列(32)</td>
+        <td>文字列 (32)</td>
         <td> </td>
     </tr>
     <tr>
@@ -78,7 +78,7 @@ ht-degree: 32%
 
 ## フィルター
 
-電子メール(byEmail)
+E メール別（E メール別）
 
 <table>
     <tr>
@@ -91,7 +91,7 @@ ht-degree: 32%
     </tr>
 </table>
 
-ステータスまたはタイプ(byStatusOrType)
+ステータス別またはタイプ別 (byStatusOrType)
 
 <table>
         <tr>
@@ -103,7 +103,7 @@ ht-degree: 32%
         <td>列挙</td>
         </tr>
         <tr>
-        <td>type</td>
+        <td>タイプ</td>
         <td>文字列</td>
         </tr>
     </table>

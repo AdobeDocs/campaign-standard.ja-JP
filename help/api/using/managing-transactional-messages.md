@@ -21,12 +21,12 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->イベントの設定について詳しくは、[ この節 ](../../channels/using/configuring-transactional-event.md) を参照してください。
+>イベントの設定について詳しくは、 [この節](../../channels/using/configuring-transactional-event.md).
 
-例えば、顧客が買い物かごで商品を購入する前に Web サイトを離れたときに「買い物かごの放棄」イベントをトリガーするとします。 これをおこなうには、Web 開発者として、REST トランザクションメッセージ API を使用する必要があります。
+例えば、顧客が買い物かごで商品を購入する前に Web サイトを離れたときに「買い物かごの放棄」イベントをトリガーするとします。 これをおこなうには、Web 開発者が REST トランザクションメッセージ API を使用する必要があります。
 
-1. POSTメソッドに従ってリクエストを送信します。このメソッドは、トランザクションイベント ](#sending-a-transactional-event) の送信をトリガーします。[
-1. POSTリクエストへの応答にはプライマリキーが含まれ、1 つのGETリクエストを通じて 1 つ以上のリクエストを送信できます。 その後、[ イベントステータス ](#transactional-event-status) を取得できます。
+1. POSTメソッドに従ってリクエストを送信し、トリガー [トランザクションイベントの送信](#sending-a-transactional-event).
+1. POSTリクエストへの応答にはプライマリキーが含まれ、1 つのGETリクエストを通じて 1 つ以上のリクエストを送信できます。 その後、 [イベントステータス](#transactional-event-status).
 
 ## トランザクションイベントの送信 {#sending-a-transactional-event}
 
@@ -36,9 +36,9 @@ ht-degree: 3%
 POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 ```
 
-* **&lt;organization>**:組織 ID。[この節](../../api/using/must-read.md)を参照してください。
+* **&lt;organization>**:個人の組織 ID。 [この節](../../api/using/must-read.md)を参照してください。
 
-* **&lt;transactionalapi>**:トランザクションメッセージ API endPoints
+* **&lt;transactionalapi>**:トランザクションメッセージ API endPoints を参照してください。
 
    トランザクションメッセージ API エンドポイントの名前は、インスタンスの設定に応じて異なります。 値「mc」に続く個人の組織 ID が該当します。 組織 ID が「geometrixx」のGeometrixx会社の例を見てみましょう。 この場合、POSTリクエストは次のようになります。
 
@@ -46,13 +46,13 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
    トランザクションメッセージ API エンドポイントは、API プレビュー時にも表示されます。
 
-* **&lt;eventid>**:送信するイベントのタイプ。この ID は、イベント設定の作成時に生成されます（[ この節 ](../../channels/using/configuring-transactional-event.md#creating-an-event) を参照）。
+* **&lt;eventid>**:送信するイベントのタイプ。 この ID は、イベント設定の作成時に生成されます ( [この節](../../channels/using/configuring-transactional-event.md#creating-an-event)) をクリックします。
 
 ### POSTリクエストヘッダー
 
 リクエストには「Content-Type:application/json」ヘッダー。
 
-**utf-8** のように、文字セットを追加する必要があります。 この値は、使用している REST アプリケーションによって異なります。
+例えば、文字セットを追加する必要があります **utf-8**. この値は、使用している REST アプリケーションによって異なります。
 
 ```
 -X POST \
@@ -65,20 +65,20 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
 ### POSTリクエスト本文
 
-イベントデータは、JSON イベント本文に含まれているPOSTです。 イベント構造は定義によって異なります。 リソース定義画面の API プレビューボタンは、リクエストのサンプルを提供します。 [この節](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)を参照してください。
+イベントデータは、JSON イベント本文に含まれているPOSTです。 イベント構造は定義によって異なります。 リソース定義画面の API プレビューボタンには、リクエストのサンプルが表示されます。 [この節](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)を参照してください。
 
-イベントコンテンツに次のオプションパラメーターを追加して、イベントにリンクされたトランザクションメッセージの送信を管理できます。
+イベントコンテンツに追加して、イベントにリンクされたトランザクションメッセージの送信を管理できます。次のオプションのパラメーターを使用できます。
 
-* **有効期限** （オプション）:この日以降、トランザクションイベントの送信はキャンセルされます。
-* **scheduled** （オプション）:この日以降、トランザクションイベントが処理され、トランザクションメッセージが送信されます。
+* **有効期限** （オプション）:この日以降、トランザクションイベントの送信がキャンセルされます。
+* **予定** （オプション）:この日以降、トランザクションイベントが処理され、トランザクションメッセージが送信されます。
 
 >[!NOTE]
 >
->「expiration」パラメーターと「scheduled」パラメーターの値は、ISO 8601 形式に従います。 ISO 8601 では、日付と時刻を区切る際に大文字の「T」を使用するように指定しています。 ただし、読みやすくするために、入力または出力から削除できます。
+>「expiration」および「scheduled」パラメーターの値は、ISO 8601 形式に従います。 ISO 8601 では、日付と時刻を区切るための大文字「T」の使用を指定しています。 ただし、読みやすくするために、入力または出力から削除できます。
 
-### POST要求への応答
+### POSTリクエストへの応答
 
-POST応答は、作成時のトランザクションイベントステータスを返します。 現在のステータス ( イベントGET、イベントステータスなど ) を取得するには、イベント応答によって返されるプライマリキーをPOSTリクエストで使用します。
+POST応答は、作成時にトランザクションイベントのステータスを返します。 現在のステータス ( イベントプライマリ、イベントステータスなど ) を取得するには、POST応答で返されるイベントキーをGETリクエストで使用します。
 
 `GET https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>/`
 
@@ -86,7 +86,7 @@ POST応答は、作成時のトランザクションイベントステータス�
 
 ***リクエストのサンプル***
 
-POSTリクエストを送信します。
+POSTを送信するイベントリクエスト。
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/mcAdobe/EVTcartAbandonment \
@@ -109,7 +109,7 @@ POSTリクエストを送信します。
 }
 ```
 
-POST要求への応答。
+応答リクエストに対するPOST。
 
 ```
 {
@@ -134,12 +134,12 @@ POST要求への応答。
 
 応答の「status」フィールドでは、イベントが処理されたかどうかを知ることができます。
 
-* **保留中**:イベントは保留中 — イベントがトリガーされたときに、このステータスになります。
-* **処理**:イベントは配信待ち — メッセージに変換中で、メッセージの送信中です。
-* **paused**:イベントプロセスは一時停止中です。処理はおこなわれなくなりますが、Adobe Campaignデータベースのキューに保持されます。 詳しくは、[この節](../../channels/using/publishing-transactional-message.md#suspending-a-transactional-message-publication)を参照してください。
-* **処理済み**:イベントが処理され、メッセージが正常に送信されました。
-* **無視**:このイベントは配信で無視されました。通常、このイベントは、アドレスが強制隔離中の場合に発生します。
+* **保留中**:イベントは保留中 — イベントがトリガーされたときに、このステータスを処理します。
+* **処理中**:イベントは配信待ちです。このイベントはメッセージに変換中で、メッセージは送信中です。
+* **一時停止中**:イベントプロセスは一時停止中です。 処理は終了しますが、Adobe Campaignデータベースのキューに保持されます。 詳しくは、[この節](../../channels/using/publishing-transactional-message.md#suspending-a-transactional-message-publication)を参照してください。
+* **処理済み**:イベントは処理され、メッセージは正常に送信されました。
+* **無視**:このイベントは配信で無視されました（通常、アドレスが強制隔離中の場合）。
 * **deliveryFailed**:イベントの処理中に配信エラーが発生しました。
 * **routingFailed**:ルーティングフェーズが失敗しました — これは、例えば、指定したイベントのタイプが見つからない場合などに発生する可能性があります。
-* **tooOld**:イベントの有効期限が切れてから処理が完了しました。これは、例えば、送信が複数回失敗した場合（この結果、最新ではなくなった場合）や、サーバーが過負荷になった後にイベントを処理できなくなった場合など、様々な理由で発生します。
+* **古すぎる**:イベントは、処理が可能になる前に期限切れになりました。これは、例えば、送信が複数回失敗した場合（この結果、イベントが最新でなくなった場合）や、サーバーが過負荷になった後にイベントを処理できなくなった場合に発生します。
 * **targetingFailed**:Campaign Standardは、メッセージのターゲティングに使用されているリンクのエンリッチメントに失敗しました。

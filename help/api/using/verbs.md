@@ -1,6 +1,6 @@
 ---
 title: GET/POST/PATCH/DELETE動詞
-description: Campaign StandardAPIで使用される動詞について詳しく説明します。
+description: Campaign StandardAPI で使用される動詞について詳しくは、こちらを参照してください。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 # GET/POST/PATCH/DELETE動詞 {#verbs}
 
-リソースに対して操作を実行するために使用できる動詞は次のとおりです。
+リソースに対する操作を実行するために使用できる動詞は次のとおりです。
 
-* `GET`:1つの要素または要素のコレクションを取得します
+* `GET`:1 つの要素または要素のコレクションを取得します
 * `POST`:は、パラメータを持つリソースを作成します。
 * `PATCH`:リソースをパラメーターで更新します。
 * `DELETE`:リソースを削除します。
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ***リクエストのサンプル***
 
-* プロファイルコレクションでのGETリクエストのサンプル。
+* プロファイルコレクションのGETリクエストのサンプル。
 
 
    ```
@@ -92,7 +92,7 @@ ht-degree: 0%
    }
    ```
 
-* POSTを作成するためのサンプルプロファイルリクエスト。
+* プロファイルを作成するPOSTリクエストの例。
 
 
    ```
@@ -104,7 +104,7 @@ ht-degree: 0%
    -d '{"lastName":"Doe"}'
    ```
 
-   デフォルトのフィールドを持つプロファイルを返します。
+   デフォルトのフィールドを持つプロファイルが返されます。
 
    ```
    {
@@ -116,7 +116,7 @@ ht-degree: 0%
    }
    ```
 
-* PATCHを更新するためのサンプルプロファイルリクエスト。
+* プロファイルを更新するためのPATCHリクエストの例。
 
    ```
    -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -127,7 +127,7 @@ ht-degree: 0%
    -d '{"firstName":"Mark"',"lastName":"Smith"}'
    ```
 
-   PKEYとURLを返して、更新されたプロファイルを取得します。
+   PKEY と URL を返し、更新されたプロファイルを取得します。
 
    ```
    {
@@ -146,4 +146,4 @@ ht-degree: 0%
    -H 'X-Api-Key: <API_KEY>'
    ```
 
-   リクエストが200個の応答を返し、プロファイルが削除されたことを確認します。
+   リクエストを実行すると、プロファイルが削除されたことを示す 200 件の応答が返されます。

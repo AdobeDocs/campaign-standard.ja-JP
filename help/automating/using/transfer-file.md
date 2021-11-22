@@ -72,7 +72,7 @@ ht-degree: 88%
 
 HTTP プロトコルを使用すると、外部アカウントまたは URL からファイルをダウンロードできます。
 
-このプロトコルでは、**[!UICONTROL Use connection parameters defined in an external account]**オプションを選択できます。 この場合、目的のアカウントを選択し、ダウンロードするファイルのパスを指定します。
+このプロトコルを使用する場合、 **[!UICONTROL Use connection parameters defined in an external account]** オプション。 この場合、目的のアカウントを選択し、ダウンロードするファイルのパスを指定します。
 
 
 ![](assets/wkf_file_transfer_03.png)
@@ -84,7 +84,7 @@ HTTP プロトコルを使用すると、外部アカウントまたは URL か�
 
 SFTP プロトコルを使用すると、URL または外部アカウントからファイルをダウンロードできます。
 
-このプロトコルでは、**[!UICONTROL Use connection parameters defined in an external account]**オプションを選択してから、目的のアカウントを選択し、ダウンロードするファイルのパスを指定できます。
+このプロトコルを使用する場合、 **[!UICONTROL Use connection parameters defined in an external account]** 」オプションを選択し、目的のアカウントを選択して、ダウンロードするファイルのパスを指定します。
 ![](assets/wkf_file_transfer_07.png)
 
 >[!CAUTION]
@@ -107,9 +107,9 @@ Amazon S3 プロトコルを使用すると、Amazon Simple Storage Service（S3
 
    >[!CAUTION]
    >
-   > ワイルドカードはAmazon S3ではサポートされていません。
+   > ワイルドカードはAmazon S3 ではサポートされていません。
    >
-   > `my_file_02`や`my _file_3433`など、複数のファイルをターゲットにする場合は、次の構文を使用できます。`acs-myawsbucket.s3.amazonaws.com/object-path/my_file_`.
+   > 複数のファイル ( `my_file_02` および `my _file_3433`に値を入力する場合は、次の構文を使用できます。 `acs-myawsbucket.s3.amazonaws.com/object-path/my_file_`.
 
 4. 転送の完了時にソースファイルを削除する場合は、「**[!UICONTROL Delete the source files after transfer]**」をオンにします。
 
@@ -173,11 +173,11 @@ Microsoft Azure Blob プロトコルを使用すると、Microsoft Azure Blob St
 
 ## 出力変数 {#output-variables}
 
-**[!UICONTROL Transfer file]**&#x200B;アクティビティは、出力としてイベント変数を生成します。例えば、[テスト](../../automating/using/test.md)アクティビティを使用して、ダウンロードしたファイルの数を確認する場合など、他のアクティビティで利用できます。
+この **[!UICONTROL Transfer file]** 「 」アクティビティでは、出力としてイベント変数が生成されます。これは、例えば、 [テスト](../../automating/using/test.md) アクティビティ。
 
-イベント変数は、外部シグナルを使用して別のワークフローに渡すこともできます（[外部パラメーターを使用したワークフローのカスタマイズ](../../automating/using/customizing-workflow-external-parameters.md)を参照）。
+イベント変数は、外部シグナルを使用して別のワークフローに渡すこともできます ( [外部パラメーターを使用したワークフローのカスタマイズ](../../automating/using/customizing-workflow-external-parameters.md)) をクリックします。
 
 使用可能な出力変数は次のとおりです。
 
-* **[!UICONTROL fileName]**:転送されたファイルの名前。
+* **[!UICONTROL fileName]**:転送したファイルの名前。
 * **[!UICONTROL filesCount]**:転送されたファイルの数。

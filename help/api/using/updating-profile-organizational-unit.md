@@ -1,6 +1,6 @@
 ---
 title: プロファイルの組織単位の更新
-description: APIを使用してプロファイルの組織単位を更新する方法について説明します。
+description: API を使用してプロファイルの組織単位を更新する方法について説明します。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -17,8 +17,8 @@ ht-degree: 10%
 
 # プロファイルの組織単位の更新 {#managing-organizational-units}
 
-1. **orgUnitBase**&#x200B;リソースに対してGETリクエストを実行し、組織単位PKeyを取得します
-1. 目的の組織単位PKeyをペイロードに含む、プロファイルPKeyに対してPATCHリクエストを実行します。
+1. でのGETリクエストの実行 **orgUnitBase** 組織単位 PKey を取得するリソース
+1. 目的のPATCH単位 PKey をペイロードに含めて、プロファイル PKey に対して組織リクエストを実行します。
 
 <br/>
 
@@ -34,7 +34,7 @@ ht-degree: 10%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-すべての組織単位を返します。 プロファイルを割り当てるユニットのPKeyを取得します。
+すべての組織単位が返されます。 プロファイルを割り当てるユニットの PKey を取得します。
 
 ```
 {
@@ -50,7 +50,7 @@ ht-degree: 10%
 },
 ```
 
-目的の組織単位のPKeyをペイロードに含むPATCHリクエストをプロファイルで実行します。
+目的の組織単位の PKey をペイロードに含むPATCHリクエストをプロファイルで実行します。
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/<PKEY> \

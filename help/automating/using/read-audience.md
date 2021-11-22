@@ -30,7 +30,7 @@ ht-degree: 87%
 
 **関連トピック**
 
-* [使用例：2つの絞り込まれたオーディエンスの和集合](../../automating/using/union-on-two-refined-audiences.md)
+* [使用例：2 つの絞り込まれたオーディエンスの和集合](../../automating/using/union-on-two-refined-audiences.md)
 * [使用例：ファイルオーディエンスとデータベースとの紐付け](../../automating/using/reconcile-file-audience-with-database.md)
 
 ## 設定 {#configuration}
@@ -41,7 +41,7 @@ ht-degree: 87%
 
    取得できるオーディエンスのタイプは **[!UICONTROL List]**、**[!UICONTROL Query]**、**[!UICONTROL File]**、**[!UICONTROL Experience Cloud]** です。オーディエンスのタイプの詳細については、[オーディエンス](../../audiences/using/about-audiences.md)のドキュメントを参照してください。
 
-   「**[!UICONTROL Use a dynamic audience]**」オプションを使用すると、ワークフローのイベント変数に基づいて、ターゲットにするオーディエンスの名前を定義できます。詳しくは、[このページ](../../automating/using/customizing-workflow-external-parameters.md)の節を参照してください。
+   「**[!UICONTROL Use a dynamic audience]**」オプションを使用すると、ワークフローのイベント変数に基づいて、ターゲットにするオーディエンスの名前を定義できます。詳しくは、 [このページ](../../automating/using/customizing-workflow-external-parameters.md) 」セクションに入力します。
 
    ![](assets/readaudience_activity1.png)
 

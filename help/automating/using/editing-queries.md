@@ -112,7 +112,7 @@ ht-degree: 100%
 
 **関連トピック：**
 
-* [高度な機能](../../automating/using/advanced-expression-editing.md)
+* [高度な関数](../../automating/using/advanced-expression-editing.md)
 * [フィルターの定義](../../developing/using/configuring-filter-definition.md)
 * [ユースケース：週 1 回の E メール配信の作成](../../automating/using/workflow-weekly-offer.md)
 * [ユースケース：ロケーション別にセグメント化した配信の作成](../../automating/using/workflow-segmentation-location.md)

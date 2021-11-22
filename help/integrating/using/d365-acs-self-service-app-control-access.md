@@ -1,6 +1,6 @@
 ---
-title: Dynamics 365 Self-Service AppとのAdobe Campaign Standard統合へのアクセス
-description: Dynamics 365 Self-Service AppとのAdobe Campaign Standard統合
+title: Dynamics 365 セルフサービスアプリとのAdobe Campaign Standard統合へのアクセス権を取得する
+description: Adobe Campaign Standardと Dynamics 365 セルフサービスアプリの統合
 products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
@@ -8,45 +8,43 @@ topic-tags: working-with-campaign-and-microsoft-dynamics-365
 feature: Microsoft CRM Integration
 role: Data Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 088b49931ee5047fa6b949813ba17654b1e10d60
+exl-id: 44b59f56-99be-41ae-af8d-76272bb94d18
+source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 0%
+source-wordcount: '411'
+ht-degree: 1%
 
 ---
 
+# Microsoft Dynamics 365 セルフサービスアプリとのAdobe Campaign Standard統合へのアクセス
 
-# Microsoft Dynamics 365 Self-Service AppとのAdobe Campaign Standard統合にアクセスする
-
-この設定では、組織のExperience Cloud(EC)管理者と連携する必要があります。 以下は、セルフサービス統合アプリケーションインターフェイスへのアクセスを許可するために必要な最初の手順です。 ツールにアクセスできるようになると、データへの接続を設定し、Adobe CampaignとMicrosoft Dynamics 365の間のデータのフローを構成します。
+この設定では、組織のExperience Cloud(EC) 管理者と連携する必要があります。 これらは、セルフサービス統合アプリケーションインターフェイスにアクセスするために必要な最初の手順です。 ツールにアクセスできたら、データへの接続を設定し、Adobe CampaignとMicrosoft Dynamics 365 間のデータのフローを設定します。
 
 >[!NOTE]
 >
->Adobeの担当者に連絡し、Adobe Campaign Standardの組織名とインスタンス名を入力する必要があります。 組織で統合アプリを有効にするようにリクエストするためのチケットがログに記録されます。
+>Adobe担当者に連絡し、Adobe Campaign Standard組織とインスタンス名を提供する必要があります。 チケットがログに記録され、組織で統合アプリを有効にするようリクエストされます。
 
-## 商品追加プロファイル
+## 製品プロファイルの追加
 
-この節では、Microsoft Dynamics 365セルフサービスアプリとのAdobe Campaign Standard統合へのアクセスを許可する方法を学びます。 次の手順に従ってアクセス権を付与しない限り、Adobe Experience Cloudで貴社へのアクセス権を持つユーザーは、統合セルフサービスアプリにアクセスできません。
+この節では、Microsoft Dynamics 365 セルフサービスアプリとのAdobe Campaign Standard統合へのアクセス権を付与する方法について説明します。 Adobe Experience Cloudで組織にアクセス権を持つユーザーは、次の手順に従ってアクセス権を付与しない限り、統合セルフサービスアプリにアクセスできません。
 
 >[!IMPORTANT]
 >
-> これらの手順では、組織のExperience Cloudに&#x200B;**管理者**&#x200B;の役割が必要です。
-
+> これらの手順には、 **管理者** 組織のExperience Cloudの役割。
 
 1. https://experience.adobe.com/を参照し、Adobe Experience Cloudにログインします。
-1. **Admin Console**&#x200B;にアクセスします。
+1. 次にアクセス： **Admin Console**.
 
    ![](assets/do-not-localize/d365-to-acs-access-3.png)
 
-1. **[!UICONTROL Products]**&#x200B;をクリックして、Experience Cloudソリューションにアクセスします。
+1. クリック **[!UICONTROL Products]** をクリックして、Experience Cloudソリューションにアクセスします。
 
    ![](assets/do-not-localize/d365-to-acs-access-6.png)
 
 
    >[!IMPORTANT]
    >
-   >この節の残りの手順は、各キャンペーンインスタンス（開発、テキスト、実稼働）に対して実行されます。
+   >この節の残りの手順は、Campaign インスタンス（開発、テキスト、実稼動）ごとに実行されます。
 
 1. 設定する最初のインスタンスをクリックします。
 
@@ -56,15 +54,15 @@ ht-degree: 0%
 
    ![](assets/do-not-localize/d365-to-acs-access-8.png)
 
-1. **[!UICONTROL New Profile]**&#x200B;ボタンをクリックし、次の名前の新しいエントリを追加します。**Campaign Standard- your-prod-instance-name - D365/ACS統合**
+1. 次をクリック： **[!UICONTROL New Profile]** ボタンをクリックし、次の名前の新しいエントリを追加します。 **Campaign Standard- your-prod-instance-name - D365/ACS 統合**
 
-   * リストにこのエントリが表示される場合は、続行する必要はありません。 左のメニューで&#x200B;**Adobe Campaign Standard**&#x200B;をクリックし、他のキャンペーンインスタンスを確認します。
+   * このエントリがリストに表示されている場合は、続行する必要はありません。 クリック **Adobe Campaign Standard** 左側のメニューで、他の Campaign インスタンスを確認します。
 
    * 「your-prod-instance-name」は、必ずインスタンスの実際の名前に置き換えてください。
 
-1. **[!UICONTROL Permission Group]**&#x200B;ドロップダウンはデフォルト値のままにしておくことができます。
+1. この **[!UICONTROL Permission Group]** ドロップダウンにデフォルト値が表示されます。
 
-1. エントリが次のように表示される場合は、「**[!UICONTROL Done]**」ボタンをクリックします。
+1. 次のようなエントリが表示された場合は、 **[!UICONTROL Done]** 」ボタンをクリックします。
 
    ![](assets/do-not-localize/d365-to-acs-access-14.png)
 
@@ -72,22 +70,22 @@ ht-degree: 0%
 
    ![](assets/do-not-localize/d365-to-acs-access-15.png)
 
-## ユーザーへのアクセスを許可{#add-users-to-profile}
+## ユーザーへのアクセスの許可 {#add-users-to-profile}
 
-**[!UICONTROL Products]**&#x200B;ページで、キャンペーンインスタンスを選択し、次の手順に従います。
+次の **[!UICONTROL Products]**  ページで、Campaign インスタンスを選択し、次の手順に従います。
 
-1. 以前に作成した新しいプロファイルをクリックします。 **Campaign Standard- your-prod-instance-name - D365/ACS統合**
+1. 前に作成した新しいプロファイルをクリックします。  **Campaign Standard- your-prod-instance-name - D365/ACS 統合**
 
    ![](assets/do-not-localize/d365-to-acs-access-15.png)
 
-1. 「**[!UICONTROL Developers]**」タブをクリックします。
+1. をクリックします。 **[!UICONTROL Developers]** タブをクリックします。
 
    ![](assets/do-not-localize/d365-to-acs-access-18.png)
 
-1. 「**[!UICONTROL Add Developer]**」ボタンをクリックします
+1. をクリックします。 **[!UICONTROL Add Developer]** ボタン
 
-1. 追加するユーザの名前または電子メールアドレスを入力します。  ユーザーに一致する結果を選択します。
+1. 追加するユーザーの名前または電子メールアドレスを入力します。  ユーザーに一致する結果を選択します。
 
-   ユーザーが組織に初めて追加される場合は、詳細を入力します。
+   これが初めてユーザーが組織に追加される場合は、詳細を入力します。
 
 1. 「**[!UICONTROL Save]**」をクリックして確定します。

@@ -1,6 +1,6 @@
 ---
 title: '"手順 3：拡張機能を確認する"'
-description: Rest APIを使用して拡張フィールドにアクセスする方法を説明します。
+description: Rest API を使用して拡張フィールドにアクセスする方法を説明します。
 audience: developing
 content-type: reference
 topic-tags: use-case--extending-the-api
@@ -17,14 +17,14 @@ ht-degree: 13%
 
 # 手順 3：拡張機能を確認する{#step-verify-the-extension}
 
-1. Profiles &amp; Services拡張APIのメタデータに対してGET操作を実行し、Profilesカスタムリソースに追加されたフィールドが使用可能になったかどうかを確認します。
+1. Profiles &amp; Services Extension API のメタデータに対してGET操作を実行し、Profiles カスタムリソースに追加されたフィールドが使用可能になったかどうかを確認します。
 
    ```
    GET profileAndServicesExt/resourceType/profile
    ```
 
-1. 次の値を返します。
+1. 次の値が返されます。
 
    ![](assets/extendpandsapiview.png)
 
-   「 」フィールドをさらに開発および統合できるようになりました。
+   「 」フィールドをさらに開発や統合に使用できるようになりました。

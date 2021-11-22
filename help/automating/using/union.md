@@ -34,7 +34,7 @@ ht-degree: 98%
 
 **関連トピック：**
 
-* [使用例：2つの絞り込まれたオーディエンスの和集合](../../automating/using/union-on-two-refined-audiences.md)
+* [使用例：2 つの絞り込まれたオーディエンスの和集合](../../automating/using/union-on-two-refined-audiences.md)
 
 ## 設定 {#configuration}
 

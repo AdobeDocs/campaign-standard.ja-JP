@@ -44,7 +44,7 @@ ht-degree: 98%
 
 **関連トピック**
 
-* [使用例：サービスの購読者に対する増分処理クエリ](../../automating/using/incremental-query-on-subscribers.md)
+* [使用例：サービス購読者に対する増分処理クエリ](../../automating/using/incremental-query-on-subscribers.md)
 
 ## 設定 {#configuration}
 

@@ -14,7 +14,7 @@ ht-degree: 29%
 
 ---
 
-# トラッキングログ(nms:remoteTracking)
+# トラッキングログ (nms:remoteTracking)
 
 ## オブジェクトの説明
 
@@ -27,7 +27,7 @@ ht-degree: 29%
                </tr>
                <tr>
                   <td>PKey</td>
-                  <td>メインリソースID</td>
+                  <td>メインリソース ID</td>
                   <td>文字列 </td>
                   <td> </td>
                </tr>
@@ -38,7 +38,7 @@ ht-degree: 29%
                   <td> </td>
                </tr>
                <tr>
-                  <td>logs</td>
+                  <td>ログ</td>
                   <td>ログ</td>
                   <td>文字列 </td>
                   <td> </td>

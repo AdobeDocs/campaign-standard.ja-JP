@@ -1,6 +1,6 @@
 ---
 title: リストのカスタマイズ
-description: 「Adobe Campaign Standardのリスト画面での表示と動作をカスタマイズする方法（要素の並べ替え、フィルタリング、削除または複製）について説明します。 リスト画面には、1つまたは複数の特定のリソースの要素が表示されます。」
+description: 「Adobe Campaign Standardのリスト画面での表示をカスタマイズし、操作する方法（要素の並べ替え、フィルタリング、削除または複製）について説明します。 リスト画面には、指定した 1 つまたは複数のリソースの表示要素が表示されます。」
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
@@ -31,8 +31,8 @@ ht-degree: 21%
 </tr>
 <tr>
 <td>Campaign データモデル</td>
-<td>REST APIの使用</td>
-<td>ユーザーの管理</td>
+<td>REST API の操作</td>
+<td>ユーザーを管理</td>
 <td>インスタンスの設定と監視</td>
 </tr>
 </table>
@@ -41,42 +41,42 @@ ht-degree: 21%
 
 <img width="60px" alt="条件" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. 前庭プラセラトマウリスリベロ、非コングサピエンロンカスid。 整数luctus blandit ligula。 ヌラ・クイス・ビヒュラ・オーグエ、ラシニア・リューソス。 Nunc pharetra fringilla enim eu suscipit. Mauris consectetur maximus euismod. クラスと車のヌル。 Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. 前庭の placerat mauris levero、非非非非難の sapien rhoncus id. 整数 luctus blandit リグラ。 ヌラ・クイス・ビヒュラ・オーグエ、ラシニア・リサス。 Nunc pharetra fringilla enim eu suscipit. Mauris consectur maximus euismod. CRAS と車の NULL。 Aenean tellus quam, tristique quis risus consectur, pulvinar elementum dui.
 
 **詳細情報**
 
 * xxxx
-* xxx
+* xxxx
 
-## REST APIの使用
-
-<img width="60px" alt="条件" src="assets/icon_profile.svg"/>
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. 前庭プラセラトマウリスリベロ、非コングサピエンロンカスid。 整数luctus blandit ligula。 ヌラ・クイス・ビヒュラ・オーグエ、ラシニア・リューソス。 Nunc pharetra fringilla enim eu suscipit. Mauris consectetur maximus euismod. クラスと車のヌル。 Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
-
-**詳細情報**
-
-* xxx
-* xxx
-
-## ユーザーの管理
+## REST API の操作
 
 <img width="60px" alt="条件" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. 前庭プラセラトマウリスリベロ、非コングサピエンロンカスid。 整数luctus blandit ligula。 ヌラ・クイス・ビヒュラ・オーグエ、ラシニア・リューソス。 Nunc pharetra fringilla enim eu suscipit. Mauris consectetur maximus euismod. クラスと車のヌル。 Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. 前庭の placerat mauris levero、非非非非難の sapien rhoncus id. 整数 luctus blandit リグラ。 ヌラ・クイス・ビヒュラ・オーグエ、ラシニア・リサス。 Nunc pharetra fringilla enim eu suscipit. Mauris consectur maximus euismod. CRAS と車の NULL。 Aenean tellus quam, tristique quis risus consectur, pulvinar elementum dui.
 
 **詳細情報**
 
-* xxx
-* xxx
+* xxxx
+* xxxx
+
+## ユーザーを管理
+
+<img width="60px" alt="条件" src="assets/icon_profile.svg"/>
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. 前庭の placerat mauris levero、非非非非難の sapien rhoncus id. 整数 luctus blandit リグラ。 ヌラ・クイス・ビヒュラ・オーグエ、ラシニア・リサス。 Nunc pharetra fringilla enim eu suscipit. Mauris consectur maximus euismod. CRAS と車の NULL。 Aenean tellus quam, tristique quis risus consectur, pulvinar elementum dui.
+
+**詳細情報**
+
+* xxxx
+* xxxx
 
 ## インスタンスの設定と監視
 
 <img width="60px" alt="条件" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. 前庭プラセラトマウリスリベロ、非コングサピエンロンカスid。 整数luctus blandit ligula。 ヌラ・クイス・ビヒュラ・オーグエ、ラシニア・リューソス。 Nunc pharetra fringilla enim eu suscipit. Mauris consectetur maximus euismod. クラスと車のヌル。 Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. 前庭の placerat mauris levero、非非非非難の sapien rhoncus id. 整数 luctus blandit リグラ。 ヌラ・クイス・ビヒュラ・オーグエ、ラシニア・リサス。 Nunc pharetra fringilla enim eu suscipit. Mauris consectur maximus euismod. CRAS と車の NULL。 Aenean tellus quam, tristique quis risus consectur, pulvinar elementum dui.
 
 **詳細情報**
 
-* xxx
-* xxx
+* xxxx
+* xxxx

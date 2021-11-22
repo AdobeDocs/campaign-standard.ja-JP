@@ -33,34 +33,34 @@ ht-degree: 59%
 
 ## ブロックリストと強制隔離の比較 {#denylist-versus-quarantine}
 
-* **強制隔離Eメールアドレスとの違ブロックリストいは何ですか。**
+* **上の E メールアドレスと強制隔離 E メールアドレブロックリストスの違いについて教えてください。**
 
-   * ステータス&#x200B;**[!UICONTROL On denylist]**&#x200B;は、[フィードバックループ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ja#feedback-loops)の結果です（人がメッセージをスパムとしてレポートする場合）。
+   * ステータス **[!UICONTROL On denylist]** は、 [フィードバックループ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ja#feedback-loops) （人がメッセージをスパムとしてレポートする場合）。
 
-   * **[!UICONTROL Quarantined]**&#x200B;というステータスは、ソフトバウンスまたはハードバウンスの結果です。
+   * ステータス **[!UICONTROL Quarantined]** は、ソフトバウンスまたはハードバウンスの結果です。
    詳しくは、[こちらの節](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist)を参照してください。
 
 * **様々な強制隔離エラーの原因は何を意味しますか。**
 
-   考えられる理由は次の10です。未定義、不明なユーザー、無効なドメイン、ブロックリストのアドレス、拒否、無視されたエラー、未到達、無効なアカウント、メールボックス容量超過、未接続
+   考えられる理由は次の 10 です。未定義、不明なユーザー、無効なドメイン、上のアドレス、拒否、無視されたエラー、未到達、無効なアカウント、メールボックス容量超過、未接続
 
    詳しくは、[強制隔離管理の理解](../../sending/using/understanding-quarantine-management.md)を参照してください。
 
 ## ブロックリストからの削除 {#removing-from-denylist}
 
-* **受信者の1人が誤ってにブロックリスト追加されました。メッセージの送信を再開するにブロックリストは、どうすればから削除できますか？**
+* **受信者の 1 人が誤ってに追ブロックリスト加されました。 メッセージの送信を再開できるようブロックリストに、メッセージから削除する方法を教えてください。**
 
    * 移動 **[!UICONTROL Administration > Channels > Quarantines > Addresses]**.
-   * 対応するレコードの詳細で、**[!UICONTROL Status]**&#x200B;フィールドの値を&#x200B;**[!UICONTROL Valid]**&#x200B;に設定します。
+   * 対応するレコードの詳細で、 **[!UICONTROL Status]** ～に向かって **[!UICONTROL Valid]**.
    * レコードを保存します。
 
-* **IPの1つが中かどうかはどうすればわかりまブロックリストすか。IP をブロックリストから削除する方法を教えてください。**
+* **IP の 1 つが中かどうかを確認するにはどうすればよいでブロックリストすか。 IP をブロックリストから削除する方法を教えてください。**
 
-   IPアドレスがになっているかどうかを確認するにブロックリストは、次のような様々なWebサイトを使用して検証できます。
+   IP アドレスが上にあるかどうかを確認するにブロックリストは、次のような様々な Web サイトを使用して検証できます。
    * [MX Toolbox](https://mxtoolbox.com/)
    * [What is my IP address](https://whatismyipaddress.com)
 
-   通常、IPアドレスチェックの結果は、の詳細ブロックリストと、IPアドレスをブロックしたWebサイトの名前を含むリストを返します。
+   通常、IP アドレスチェックの結果は、の詳細と IP アドレスをブロックした Web サイトの名前を含むリストで返されまブロックリストす。
 
    対応するリンクをクリックすると、Web サイトの詳細にアクセスできます。
 

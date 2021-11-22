@@ -1,6 +1,6 @@
 ---
 title: カスタムリソース
-description: APIを使用したカスタムリソース管理の詳細
+description: API を使用したカスタムリソース管理の詳細
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -17,18 +17,18 @@ ht-degree: 3%
 
 # カスタムリソースの操作 {#interacting-with-custom-resources}
 
-**/customResources**&#x200B;エンドポイントを使用すると、CampaignのカスタムリソースをRESTで公開できます。 このAPIに基づいて、カスタムエンティティと外部エンドポイントの統合を利用できます。
+この **/customResources** endpoint を使用すると、Campaign のカスタムリソースを REST で表示できます。 この API に基づいて、カスタムエンティティと外部エンドポイントの統合を利用できます。
 
-/customResourcesエンドポイントの動作は、/profileAndServicesエンドポイントとまったく同じです。
+/customResources エンドポイントの動作は、/profileAndServices エンドポイントとまったく同じです。
 
-このAPIで公開されるカスタムリソースは次のとおりです。
+この API 内で公開されるカスタムリソースは次のとおりです。
 
-* /profileAndServicesExtに公開されていないすべてのエンティティ
-* プロファイルにリンクされていないすべてのエンティティと、それらのエンティティの子と孫。
-* デフォルトでは、何にもリンクされていないすべてのエンティティと、その子と孫が対象となります。
+* /profileAndServicesExt に公開されていないすべてのエンティティ
+* プロファイルにリンクされていないすべてのエンティティと、そのエンティティの子と孫。
+* デフォルトでは、何にもリンクされていないすべてのエンティティと、その子と孫に関連付けられています。
 
 >[!NOTE]
->/profileAndServicesExtの下にあるカスタムリソースは、 /customResources APIでは公開されません。
+>/profileAndServicesExt の下にあるカスタムリソースは、/customResources API では公開されません。
 
 
 次に、カスタムリソースからメタデータを取得する例を示します。
@@ -44,5 +44,5 @@ POST /customResources/<customResourceName>
 ```
 
 >[!NOTE]
->プライバシーAPIエンドポイントとワークフロー(/privacy/privacyTool)は、プロファイルエンティティにリンクされていないカスタムリソースを管理しません。
->これらのカスタムリソースのPIIを管理およびクリーンアップする責任はユーザーが負います。 プライバシーツールの詳細については、[ここ](../../api/using/creating-a-privacy-request.md)をクリックしてください。
+>プライバシー API エンドポイントとワークフロー (/privacy/privacyTool) は、プロファイルエンティティにリンクされていないカスタムリソースを管理していません。
+>これらのカスタムリソースの PII を管理およびクリーンアップする必要があります。 プライバシーツールについて詳しくは、 [ここをクリック](../../api/using/creating-a-privacy-request.md).

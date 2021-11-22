@@ -19,7 +19,7 @@ ht-degree: 55%
 
 パレットの画面左側で、「**[!UICONTROL Data management (ETL)]**」セクションを展開します。
 
-これらのアクティビティを使用して、データを操作できます。 例えば、データのインポート、データベースフィールドの一括更新、ファイルの受信または送信、不明なデータの既存のリソースへのリンクなどを実行できます。
+これらのアクティビティを使用して、データを操作できます。 例えば、データのインポート、データベースフィールドの一括更新、ファイルの受信と送信、識別されていないデータの既存のリソースへのリンクなどを行うことができます。
 
 ![](assets/wkf_etl_activities.png)
 
@@ -32,4 +32,4 @@ ht-degree: 55%
 * [ファイルを抽出](../../automating/using/extract-file.md)
 * [購読サービス](../../automating/using/subscription-services.md)
 
-**[!UICONTROL Data management (ETL)]** 「 」アクティビティを使用すると、アウトバウ **ンドト** ランジションのセグメントコードを定義できます。その結果、これらのセグメントコードに基づいてレポートを作成して、マーケティングキャンペーンの効率を測定できます。詳しくは、[この節](../../reporting/using/creating-a-report-workflow-segment.md)を参照してください。
+**[!UICONTROL Data management (ETL)]** 「 」アクティビティでは、 **セグメントコード** 送信トランジション用の その結果、これらのセグメントコードに基づいてレポートを作成して、マーケティングキャンペーンの効率を測定できます。詳しくは、[この節](../../reporting/using/creating-a-report-workflow-segment.md)を参照してください。

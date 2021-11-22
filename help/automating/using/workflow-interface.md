@@ -22,10 +22,10 @@ ht-degree: 4%
 
 ワークフロー編集画面は、次の要素で構成されています。
 
-* [パレット](#palette)。使用可能なアクティビティを参照します。
-* アクティビティが設定および整理される[Workspace](#workspace)。
-* [アクションバー](#action-bar)は、ワークフローやそのコンポーネントを操作するためのボタンで構成されています。
-* [クイックアクション](#quick-actions)は、選択したアクティビティの周囲に表示され、操作できます。
+* この [パレット](#palette)：使用可能なアクティビティを参照します。
+* この [Workspace](#workspace)：アクティビティを設定および整理します。
+* この [アクションバー](#action-bar)：ワークフローやそのコンポーネントを操作するためのボタンで構成されています。
+* この [クイックアクション](#quick-actions)（選択したアクティビティの周囲に表示され、操作できます）
 
 ![](assets/wkf_overview.png)
 
@@ -33,10 +33,10 @@ ht-degree: 4%
 
 パレットは画面の左側に表示されます。 使用可能なすべてのアクティビティは、次のように複数のカテゴリに分類されます。
 
-* [ターゲット設定](../../automating/using/about-targeting-activities.md):アクティビティ（ターゲット設定、母集団データの操作、フィルターアクティビティに固有）
+* [ターゲット設定](../../automating/using/about-targeting-activities.md):ターゲティング、母集団データの操作、アクティビティのフィルタリングに固有のアクティビティ
 * [実行](../../automating/using/about-execution-activities.md):ワークフローの整理と実行に固有のアクティビティ
-* [チャネル](../../automating/using/about-channel-activities.md):様々な使用可能な通信チャネルを表すアクティビティ
-* [データ管理(ETL)](../../automating/using/about-data-management-activities.md):データの操作に特有のアクティビティ
+* [チャネル](../../automating/using/about-channel-activities.md):使用可能な様々な通信チャネルを表すアクティビティ
+* [データ管理 (ETL)](../../automating/using/about-data-management-activities.md):データの操作に特有のアクティビティ
 
 ワークフローのパレットの「 」アクティビティを使用するには、ワークスペースに「 」アクティビティをドラッグ&amp;ドロップします。
 
@@ -46,32 +46,32 @@ ht-degree: 4%
 
 ## ワークスペース {#workspace}
 
-ワークスペースは、ワークフローエディターの中央ゾーンです。 このゾーンでは、アクティビティをドロップし、トランジションを使用してリンクし、設定できます。
+ワークスペースは、ワークフローエディターの中央のゾーンです。 このゾーンでは、アクティビティをドロップし、トランジションを使用して相互にリンクし、設定できます。
 
-2つのアクティビティをリンクするには、最初のアクティビティの矢印の終わりを次のアクティビティに移動して、接続します。 前のアクティビティにリンクするために、アクティビティを後ろの矢印の点に向かって移動することもできます。 いずれかのアクティビティを移動すると、そのアクティビティはリンクされたままになります。
+2 つのアクティビティをリンクするには、最初のアクティビティの矢印の終わりを、接続するまで次のアクティビティに移動します。 また、前のアクティビティにリンクするために、アクティビティを後ろの矢印のポイントに向かって移動することもできます。 いずれかのアクティビティを移動しても、そのアクティビティはリンクされたままになります。
 
-データを処理するアクティビティに続くトランジションには、中間母集団が含まれます。 ワークフロープロパティの「**[!UICONTROL Execution]**」セクションで「**[!UICONTROL Keep interim results]**」オプションをオンにすると、これらのオプションにアクセスできます。
+データを処理するアクティビティに続くトランジションには、中間母集団が含まれます。 これらには、 **[!UICONTROL Keep interim results]** オプション **[!UICONTROL Execution]** 」セクションに表示されます。
 
 >[!CAUTION]
 >
 >このオプションは、多くのディスク領域を消費しますが、ワークフローの作成と適切な設定および動作の確保に役立つように設計されています。実稼働インスタンスでは、このチェックボックスをオフのままにします。
 
 
-アクティビティを選択すると、そのアクティビティの周囲にクイックアクションが表示され、アクティビティを操作できます。 例えば、アクティビティを設定するには、アクティビティを選択し、クイックアクションの![](assets/edit_darkgrey-24px_table.png)ボタンを使用して開きます。
+アクティビティを選択すると、アクティビティの周囲にクイックアクションが表示され、操作できます。 例えば、アクティビティを設定するには、アクティビティを選択し、 ![](assets/edit_darkgrey-24px_table.png) ボタンをクリックします。
 
-特定の関数はワークスペースでのみ有効です。
+特定の関数は、ワークスペースでのみ有効です。
 
-* 複数のアクティビティとトランジションを選択し、その周りにゾーンを描画します。
-* **Ctrl**&#x200B;キーを押しながら左クリックして、複数のアクティビティやトランジションを選択します。
-* **Enter**&#x200B;キーを押して、現在選択されているアクティビティまたはトランジションの詳細を表示します。
-* **Delete**&#x200B;キーを押すと、現在選択されているアクティビティが削除されます。
-* **Ctrl + C**&#x200B;キーを押して選択したアクティビティをコピーし、**Ctrl + V**&#x200B;キーを押してワークスペースに貼り付けます。
+* 複数のアクティビティとトランジションを選択するには、その周りにゾーンを描画します。
+* 押す **Ctrl** +左クリックして、複数のアクティビティやトランジションを選択します。
+* 押す **入力** ：現在選択されているアクティビティまたはトランジションの詳細を表示します。
+* 押す **削除** をクリックして、現在選択しているアクティビティを削除します。
+* 押す **Ctrl + C** 選択したアクティビティをコピーするには、 **Ctrl + V** をクリックして、ワークスペースに貼り付けます。
 
 ![](assets/workflow_workspace.png)
 
 ## アクションバー {#action-bar}
 
-ワークスペースで選択した要素またはワークフローの実行ステータスに応じて、アクションバーで使用できるボタンが異なる場合があります。
+ワークスペースで選択した要素またはワークフローの実行ステータスに応じて、アクションバーに表示されるボタンが変わる場合があります。
 
 <img height="21px" src="assets/edit_darkgrey-24px.png" /> **[!UICONTROL Open activity]**<br/>ワークフローのプロパティを編集できます。
 
@@ -79,19 +79,19 @@ ht-degree: 4%
 
 <img height="21px" src="assets/pause_darkgrey-24px_table.png" /> **[!UICONTROL Pause]**<br/>ワークフローを一時停止します。
 
-<img height="21px" src="assets/stop_darkgrey-24px_table.png" /> **[!UICONTROL Stop]**<br/>ワークフローの実行を中断します。停止した場所から再開できません。
+<img height="21px" src="assets/stop_darkgrey-24px_table.png" /> **[!UICONTROL Stop]**<br/>ワークフローの実行を中断します。 停止した場所から再開できません。
 
-<img height="21px" src="assets/pauseplay_darkgrey-24px_table.png" /> **[!UICONTROL Restart]**<br/>ワークフローを再起動します。
+<img height="21px" src="assets/pauseplay_darkgrey-24px_table.png" /> **[!UICONTROL Restart]**<br/>ワークフローを再開します。
 
 <img height="21px" src="assets/printpreview_darkgrey-24px_table.png" /> **[!UICONTROL Log and tasks]**<br/>ワークフローの実行ログを開きます。
 
-<img height="21px" src="assets/checkcircle_darkgrey-24px_table.png" /> **[!UICONTROL Enable multi-selection]**<br/>複数選択モードを有効にします。ワークフローは、少なくとも2つのアクティビティで構成する必要があります。
+<img height="21px" src="assets/checkcircle_darkgrey-24px_table.png" /> **[!UICONTROL Enable multi-selection]**<br/>複数選択モードを有効にします。 ワークフローは、少なくとも 2 つのアクティビティで構成する必要があります。
 
 <img height="21px" src="assets/closecircle_darkgrey-24px_table.png" /> **[!UICONTROL Disable multi-selection]**<br/>複数選択モードを無効にします。<br />
 
 <img height="21px" src="assets/targeted.png" /> **[!UICONTROL Open transition]**<br/>選択したトランジションを開きます。<br />
 
-<img height="21px" src="assets/check_darkgrey-24px_table.png" />  **[!UICONTROL Normal execution]**<br/>選択が無効になっているか、一時停止とマークされている場合、再度有効にします。<br />
+<img height="21px" src="assets/check_darkgrey-24px_table.png" />  **[!UICONTROL Normal execution]**<br/>選択が以前に無効になっているか、一時停止とマークされている場合、再度有効にします。<br />
 
 <img height="21px" src="assets/check_pause_darkgrey-24px_table.png" /> **[!UICONTROL Execution suspended]**<br/>選択したアクティビティでワークフローを一時停止します。<br />
 
@@ -105,29 +105,29 @@ ht-degree: 4%
 
 ## クイックアクション {#quick-actions}
 
-アクティビティを選択すると、アクティビティの周囲にクイックアクションボタンが表示され、アクティビティを操作できます。
+アクティビティを選択すると、アクティビティの周囲にクイックアクションボタンが表示され、操作できます。
 
 <img height="21px" src="assets/edit_darkgrey-24px.png" /> **[!UICONTROL Open activity]**<br/>選択したアクティビティを開きます。
 
 <img height="21px" src="assets/copy_24px.png" /> **[!UICONTROL Copy selection]**<br/>選択したアクティビティをコピーします。
 
-<img height="21px" src="assets/wkf_dlv_act_params_icon.png" /> **[!UICONTROL Open the activity's advanced options]**<br/>選択したEメールまたはSMS配信アクティビティの詳細オプションを開きます。
+<img height="21px" src="assets/wkf_dlv_act_params_icon.png" /> **[!UICONTROL Open the activity's advanced options]**<br/>選択した「 E メールまたは SMS 配信」アクティビティの詳細オプションを開きます。
 
-<img height="21px" src="assets/check_darkgrey-24px_table.png" /> **[!UICONTROL Normal execution]**<br/>選択が無効になっているか、一時停止とマークされている場合、再度有効にします。
+<img height="21px" src="assets/check_darkgrey-24px_table.png" /> **[!UICONTROL Normal execution]**<br/>選択が以前に無効になっているか、一時停止とマークされている場合、再度有効にします。
 
 <img height="21px" src="assets/check_pause_darkgrey-24px_table.png" /> **[!UICONTROL Execution suspended]**<br/>選択したアクティビティでワークフローを一時停止します。
 
 <img height="21px" src="assets/checkdisable.png" /> **[!UICONTROL No execution]**<br/>アクティビティを無効にします。
 
-<img height="21px" src="assets/pending_darkgrey-24px_table.png" /> **[!UICONTROL Immediate execution]**<br/>選択を即時に処理します。このボタンは、<span class="uicontrol">スケジューラー</span>および<span class="uicontrol">待機</span>アクティビティでのみ使用できます。
+<img height="21px" src="assets/pending_darkgrey-24px_table.png" /> **[!UICONTROL Immediate execution]**<br/>選択を強制的に即時処理します。 このボタンは、 <span class="uicontrol">スケジューラ</span> および <span class="uicontrol">待機</span> アクティビティ。
 
 <img height="21px" src="assets/delete_darkgrey-24px_table.png" /> **[!UICONTROL Delete selection]**<br/>選択したアクティビティを削除します。
 
 ## ワークフローアクティビティの複製 {#duplicating-workflow-activities}
 
-ワークスペースでは、ワークフローアクティビティをコピー&amp;ペーストして、同じワークフローに複製したり、同じCampaignインスタンスから別のワークフローに複製したりできます。
+ワークスペースでは、同じワークフローにコピー&amp;ペーストすることで、または同じ Campaign インスタンスから別のワークフローにコピー&amp;ペーストすることで、ワークフローアクティビティを複製できます。
 
-アクティビティを複製すると、その設定全体が保持されます。 配信アクティビティ（Eメール、SMS、プッシュ通知など）の場合は、アクティビティに添付された配信オブジェクトを複製します。
+アクティビティを複製すると、その設定全体が保持されます。 配信アクティビティ（E メール、SMS、プッシュ通知など）の場合は、アクティビティに添付されている配信オブジェクトが複製されます。
 
 >[!NOTE]
 >
@@ -135,15 +135,15 @@ ht-degree: 4%
 
 アクティビティを複製するには、次の手順に従います。
 
-1. アクティビティを選択し、クイックアクションの「**[!UICONTROL Copy selection]**」ボタンをクリックします。
+1. アクティビティを選択し、 **[!UICONTROL Copy selection]** 」ボタンをクリックします。
 
-   **Ctrl + C**&#x200B;キーボードショートカットを使用することもできます。
+   また、 **Ctrl + C** キーボードショートカット。
 
    ![](assets/wkf_copypaste1.png)
 
-1. ターゲットワークフローワークスペース内を右クリックし、「**[!UICONTROL Paste]**」ボタンをクリックします。
+1. ターゲットワークフローワークスペース内で右クリックし、 **[!UICONTROL Paste]** 」ボタンをクリックします。
 
-   **CTRL + V**&#x200B;キーボードショートカットを使用することもできます。
+   また、 **Ctrl + V** キーボードショートカット。
 
    ![](assets/wkf_copypaste2.png)
 
@@ -151,6 +151,6 @@ ht-degree: 4%
 
 複数のアクティビティをコピー&amp;ペーストして、ワークフロー全体を複製することもできます。
 
-それには、アクティビティの周りにゾーンを描いて、アクティビティを選択します。 次に、アクションバーの「**[!UICONTROL Copy selection]**」ボタンをクリックします（または&#x200B;**Ctrl + C**&#x200B;キーを押します）。 その後、目的の場所に貼り付けることができます。
+それには、アクティビティの周りにゾーンを描いて、アクティビティを選択します。 次に、 **[!UICONTROL Copy selection]** アクションバーのボタン ( または **Ctrl + C**) をクリックします。 その後、それらを目的の場所に貼り付けることができます。
 
 ![](assets/wkf_copypaste3.png)

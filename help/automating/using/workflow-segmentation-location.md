@@ -1,5 +1,5 @@
 ---
-title: 場所でのセグメント化」
+title: 場所でのセグメント化»
 description: この使用例では、場所でセグメント化を実行する方法を示します。
 audience: automating
 content-type: reference
@@ -26,7 +26,7 @@ ht-degree: 83%
 
 ## E メールで連絡可能な受信者の選択{#selecting-recipients-contactable-via-email}
 
-1. **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**&#x200B;で、[クエリ](../../automating/using/query.md)アクティビティ![](assets/query.png)をドラッグ&amp;ドロップします。
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**、ドラッグ&amp;ドロップ [クエリ](../../automating/using/query.md) アクティビティ ![](assets/query.png).
 1. アクティビティをダブルクリックします。
 1. 「**[!UICONTROL Shortcuts]**」で、「**[!UICONTROL Profiles]**」をドラッグ＆ドロップし、演算子「**[!UICONTROL email]**」を使用してフィールド「**[!UICONTROL is not empty]**」を選択します。
 1. 「**[!UICONTROL Shortcuts]**」で、「**[!UICONTROL Profiles]**」をドラッグ＆ドロップして、値「**[!UICONTROL no longer contact by email]**」を含むフィールド「**[!UICONTROL no]**」を選択します。
@@ -36,7 +36,7 @@ ht-degree: 83%
 
 ## Segmentation アクティビティの作成{#creating-a-segmentation-activity}
 
-1. [セグメント化](../../automating/using/segmentation.md)アクティビティをドラッグ&amp;ドロップし、ダブルクリックします。
+1. ドラッグ&amp;ドロップ [セグメント化](../../automating/using/segmentation.md) 「 」アクティビティをクリックし、ダブルクリックします。
 1. セグメントをクリックし、トランジションを開いて、最初の都市の人をターゲットにします。ボストンです。
 1. 「**[!UICONTROL Location]**」をドラッグ＆ドロップし、演算子「**[!UICONTROL equals to]**」と値「**[!UICONTROL Boston]**」を使用して、「**[!UICONTROL City]**」を選択します。
 注意：ボストンに入ったすべての人に連絡するには、大文字と小文字を区別しないで、「大文字と小文字を区別する」オプションをオフにします。
@@ -48,7 +48,7 @@ ht-degree: 83%
 
 ## メール配信の作成{#creating-an-email-delivery}
 
-1. **[!UICONTROL Activities]** > **[!UICONTROL Channels]**&#x200B;で、各セグメントの後に「[Eメール配信](../../automating/using/email-delivery.md)」アクティビティをドラッグ&amp;ドロップします。
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Channels]**、ドラッグ&amp;ドロップ [E メール配信](../../automating/using/email-delivery.md) 」アクティビティが表示されます。
 1. アクティビティをクリックし、![](assets/edit_darkgrey-24px.png) を選択して編集します。
 1. 「**[!UICONTROL Simple email]**」を選択し、「**[!UICONTROL Next]**」をクリックします。
 1. E メールテンプレートを選択し、「**[!UICONTROL Next]**」をクリックします。

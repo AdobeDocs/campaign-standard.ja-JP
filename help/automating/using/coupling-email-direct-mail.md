@@ -1,6 +1,6 @@
 ---
 title: E メールとダイレクトメールの配信の結合
-description: この使用例では、ワークフローからのEメール送信とダイレクトメール送信の例を示します。
+description: この使用例では、ワークフローからの E メールおよびダイレクトメールの送信の例を示します。
 audience: channels
 content-type: reference
 topic-tags: direct-mail

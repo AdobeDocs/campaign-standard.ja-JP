@@ -32,7 +32,7 @@ Adobe Campaign を使用すると、さまざまなユーザーに割り当て�
 
 ![](assets/user_management_1.png)
 
-ユーザーはAdmin Consoleで管理します ([ グループとAdmin Consoleの管理 ](../../administration/using/managing-groups-and-users.md) の節または [ ユーザーのドキュメント ](https://helpx.adobe.com/jp/enterprise/managing/user-guide.html) を参照 )。
+ユーザーはAdmin Consoleで管理されます ( [グループとユーザーの管理](../../administration/using/managing-groups-and-users.md) セクションまたは [Admin Console文書](https://helpx.adobe.com/jp/enterprise/managing/user-guide.html)) をクリックします。
 
 ![](assets/user_management_6.png)
 

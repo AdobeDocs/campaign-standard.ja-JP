@@ -1,6 +1,6 @@
 ---
 title: 購読の実行
-description: APIを使用してサブスクリプションを実行する方法を説明します。
+description: API を使用してサブスクリプションを実行する方法を説明します。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # 購読の実行 {#performing-subscriptions}
 
-## 方法1:プロファイルのサービスへの購読登録
+## メソッド 1:プロファイルのサービスへの購読登録
 
 GETリクエストを実行して、プロファイルを取得します。
 
@@ -29,7 +29,7 @@ GETリクエストを実行して、プロファイルを取得します。
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-プロファイルの購読URLを返します。
+プロファイルの購読 URL が返されます。
 
 ```
   {
@@ -43,7 +43,7 @@ GETリクエストを実行して、プロファイルを取得します。
   }
 ```
 
-ペイロード内の目的のサービスPOSTキーを使用して、サブスクリプションURLに対してプライマリリクエストを実行します。
+POST内の目的のサービスプライマリキーを使用して、購読 URL でペイロードリクエストを実行します。
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \
@@ -55,7 +55,7 @@ GETリクエストを実行して、プロファイルを取得します。
 -d '{"service":{"PKey":"<PKEY>"}}'
 ```
 
-サービスノードが完了した更新済みプロファイルを返します。
+サービスノードが完了した更新済みプロファイルが返されます。
 
 ```
 {
@@ -70,7 +70,7 @@ GETリクエストを実行して、プロファイルを取得します。
 }
 ```
 
-## 方法2:サービス購読者へのプロファイルの追加
+## 方法 2:サービス購読者へのプロファイルの追加
 
 サービスを取得するGETリクエストを実行します。
 
@@ -82,7 +82,7 @@ GETリクエストを実行して、プロファイルを取得します。
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-サービスの購読URLを返します。
+サービスの購読 URL を返します。
 
 ```
   {
@@ -96,7 +96,7 @@ GETリクエストを実行して、プロファイルを取得します。
   },
 ```
 
-ペイロード内の目的のPOSTプロファイルキーを使用して、購読URLのプライマリリクエストをおこないます。
+ペイロード内の目的のプロファイルPOSTキーを使用して、購読 URL のプライマリリクエストをおこないます。
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign//profileAndServices/service/<PKEY>/subscriptions/ \

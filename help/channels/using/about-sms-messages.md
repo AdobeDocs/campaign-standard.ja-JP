@@ -1,6 +1,6 @@
 ---
 title: SMS メッセージについて
-description: Adobe Campaignの SMS チャネルの主な特性を確認します。
+description: Adobe Campaignの SMS チャネルの主な特性について説明します。
 audience: channels
 content-type: reference
 topic-tags: sms-messages
@@ -22,13 +22,13 @@ Adobe Campaignでは、SMS（ショートメッセージサービス）メッセ
 
 >[!NOTE]
 >
->SMS チャネルはアドオンです。 ライセンス契約をご確認ください。
+>SMS チャネルはアドオンです。 使用許諾契約書を確認してください。
 
 SMS メッセージの場合、テキスト形式のメッセージのみを作成、変更およびパーソナライズできます。SMS メッセージは、送信前にプレビューすることもできます。
 
-SMS メッセージの長さは、GSM エンコーディングの場合は 160 文字に制限され、Unicode の場合は 70 文字に制限されます。 ただし、特定の特殊文字はメッセージの長さに影響を与える場合があります。 詳しくは、[SMS エンコード ](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration) の節を参照してください。
+SMS メッセージの長さは、GSM エンコーディングの場合は 160 文字に制限され、Unicode の場合は 70 文字に制限されます。 ただし、特定の特殊文字はメッセージの長さに影響を与える場合があります。 詳しくは、 [SMS エンコーディング](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration) 」セクションに入力します。
 
-SMS メッセージは、**[!UICONTROL Marketing activities]** メニュー、キャンペーン、またはワークフローから作成できます。[SMS メッセージの作成 ](../../channels/using/creating-an-sms-message.md) を参照してください。
+SMS メッセージは **[!UICONTROL Marketing activities]** メニュー、キャンペーン、またはワークフローで、「 [SMS メッセージの作成](../../channels/using/creating-an-sms-message.md).
 
 携帯電話に SMS メッセージを配信するには、以下が必要です。
 
@@ -38,19 +38,19 @@ SMS メッセージは、**[!UICONTROL Marketing activities]** メニュー、�
 **関連トピック：**
 
 * [テンプレートの管理](../../start/using/marketing-activity-templates.md)
-* [SMS の設定](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing)
+* [SMS 設定](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing)
 * [SMS レポート](../../reporting/using/sms-report.md)
 * [Campaign Standard モバイルガイド](../../channels/using/get-started-communication-channels.md)
 
 ## SMS 配信テンプレート {#sms-delivery-template}
 
-Adobe Campaignは、モバイルデバイス用の配信テンプレートを提供します。 このテンプレートは、**[!UICONTROL Mobile (SMS)]** チャネルに使用する外部アカウントに正しくリンクされている必要があります。 アクセスして変更するには：
+Adobe Campaignは、モバイルデバイス用の配信テンプレートを提供します。 このテンプレートは、 **[!UICONTROL Mobile (SMS)]** チャネル。 アクセスして変更するには、次の手順に従います。
 
-1. 詳細設定メニューから **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]** を選択します。
-1. **[!UICONTROL Send via SMS]** テンプレートの上にマウスポインターを置き、「**要素を複製**」オプションを選択します。
+1. 選択 **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]** を選択します。
+1. 次の項目にカーソルを合わせます。 **[!UICONTROL Send via SMS]** マウスでテンプレートを選択し、 **要素を複製** オプション。
 1. 新しいテンプレートを選択します。
 1. 「**[!UICONTROL Edit properties]**」ボタンをクリックします。
-1. テンプレートプロパティの **[!UICONTROL Advanced parameters]** セクションで、テンプレートが SMS の配信に使用する外部アカウントにリンクされていることを確認します。
+1. 内 **[!UICONTROL Advanced parameters]** 「 」セクションで、SMS の配信に使用する外部アカウントにテンプレートがリンクされていることを確認します。
 
    ![](assets/sms_template.png)
 

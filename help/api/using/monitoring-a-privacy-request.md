@@ -1,6 +1,6 @@
 ---
 title: プライバシーリクエストの監視
-description: APIを使用してプライバシーリクエストを監視する方法を説明します
+description: API を使用してプライバシーリクエストを監視する方法について説明します
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -17,9 +17,9 @@ ht-degree: 25%
 
 # プライバシーリクエストの監視 {#monitoring-a-privacy-request}
 
-**GET**&#x200B;リクエストを使用して、作成したプライバシーリクエストに関する情報を監視できます。
+作成したプライバシーリクエストに関する情報は、 **GET** リクエスト。
 
-ステータスリストの説明は、プライバシー管理に関するドキュメント[に記載されています。](https://helpx.adobe.com/jp/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)
+ステータスリストの説明は、 [プライバシー管理に関するドキュメント](https://helpx.adobe.com/jp/campaign/kb/acs-privacy.html#ManagingPrivacyRequests).
 
 <br/>
 

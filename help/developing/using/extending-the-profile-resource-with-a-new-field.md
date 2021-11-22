@@ -71,7 +71,7 @@ ht-degree: 98%
 
 1. 「**[!UICONTROL Add an element]**」をクリックし、**[!UICONTROL Label]** と **[!UICONTROL ID]** を追加して「**[!UICONTROL Add]**」をクリックし、必要な数だけ値を追加します。
 
-   この例では、プロファイルがこれらのオプションから選択できる「Books」、「Exhibitions」、「Movies」および「N/A」の値を作成します。
+   この例では、プロファイルがこれらのオプションから選択する「Books」、「Exhibitions」、「Movies」および「N/A」の値を作成します。
 
    ![](assets/schema_extension_uc11.png)
 

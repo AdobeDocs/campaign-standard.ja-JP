@@ -17,15 +17,15 @@ ht-degree: 11%
 
 # 並べ替え
 
-並べ替えは、昇順または降順で実行できます。 これをおこなうには、リクエストに&#x200B;**%20desc**&#x200B;または&#x200B;**%20asc**&#x200B;パラメーターを使用します。
+並べ替えは、昇順または降順で使用できます。 これをおこなうには、 **%20desc** または **%20asc** パラメーターをリクエストに追加します。
 
-フィールドが並べ替え可能かどうかを知るには、リソースメタデータに「並べ替え可能」パラメーターをチェックします。 詳しくは、[この節](../../api/using/metadata-mechanism.md)を参照してください。
+フィールドを並べ替えることができるかどうかを知るには、リソースメタデータに「sortable」パラメーターをチェックします。 詳しくは、[この節](../../api/using/metadata-mechanism.md)を参照してください。
 
 <br/>
 
 ***リクエストのサンプル***
 
-* GET内のEメールをアルファベット順に取得するサンプルデータリクエスト。
+* GET内の E メールをアルファベット順に取得するサンプルデータリクエスト。
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email/email?_order=email \
@@ -50,7 +50,7 @@ ht-degree: 11%
    }
    ```
 
-* GET内のEメールを降順で取得するサンプルデータリクエスト。
+* GET内の E メールを降順で取得するサンプルデータリクエスト。
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_order=email%20desc \

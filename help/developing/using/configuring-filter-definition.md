@@ -81,8 +81,8 @@ ht-degree: 95%
 
 ![](assets/custom_resource_filter-definition_email-audience_filter.png)
 
-フィルターを設定したら、次の構文を使用して、Campaign StandardAPIからフィルターを使用できます。
+フィルターを設定したら、次の構文を使用して、Campaign StandardAPI からフィルターを使用できます。
 
 `GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/<resourceName>/by<customFilterName>?<customFilterparam>=<customFilterValue>`
 
-詳しくは、[Campaign StandardAPIのドキュメント](../../api/using/filtering.md#custom-filters)を参照してください。
+詳しくは、 [Campaign StandardAPI ドキュメント](../../api/using/filtering.md#custom-filters).

@@ -20,7 +20,7 @@ ht-degree: 31%
 <table>
 <tr>
 <td><img src="assets/do-not-localize/icon_datamodel.svg" width="60px"><p><a href="#data-model">データモデル</a></p></td>
-<td><img src="assets/do-not-localize/icon_custom.svg" width="60px"><p><a href="#custom-resources">カスタムリソース</a></p></td><td><img src="assets/do-not-localize/icon_api.svg" width="60px"><p><a href="#custom-resources">APIの操作</a></p></td></tr>
+<td><img src="assets/do-not-localize/icon_custom.svg" width="60px"><p><a href="#custom-resources">カスタムリソース</a></p></td><td><img src="assets/do-not-localize/icon_api.svg" width="60px"><p><a href="#custom-resources">API の操作</a></p></td></tr>
 </table>
 
 フィールドとリソースをカスタマイズして Campaign Standard データモデルを拡張し、統合された 1 つのビューで、あらゆるデータモデルの変更を監視します。
@@ -29,9 +29,9 @@ ht-degree: 31%
 
 <img src="assets/do-not-localize/icon_datamodel.svg" width="60px">
 
-Campaignで使用されるデータは、**事前定義データモデル**&#x200B;で定義されている様々なリソースを通じて定義されます。 データモデルには、一連のマーケティング関連リソースの標準のSQL構造が表示されます。配信、オーディエンス、ランディングページ、プロファイルなど 各リソースには、リソース間を移動できるフィルターが関連付けられています。
+Campaign で使用されるデータは、 **事前定義済みデータモデル**. データモデルには、一連のマーケティング関連リソースの標準の SQL 構造が表示されます。配信、オーディエンス、ランディングページ、プロファイルなど 各リソースには関連フィルターが付属しており、リソース間を移動できます。
 
-**診断**&#x200B;メニューを使用すると、Campaign Standardによって生成されるテクニカルオブジェクトをリストできます。データスキーマ、webページ、フィルターなど。データモデルと、それに対する変更を監視できます。
+この **診断** メニューを使用すると、Campaign Standardで生成されたテクニカルオブジェクトのリストを表示できます。データスキーマ、web ページ、フィルターなど。データモデルと、それに加えられた変更を監視できます。
 
 詳しくは、以下を参照してください。
 
@@ -44,22 +44,22 @@ Campaignで使用されるデータは、**事前定義データモデル**&#x20
 
 <img src="assets/do-not-localize/icon_custom.svg" width="60px">
 
-Campaign Standardでは、事前定義済みのデータモデル&#x200B;**をエンリッチメントして、独自のリソースを作成（例えば、PurchaseやProductテーブルの追加）したり、新しいフィールドを使用して既存のリソースを拡張したりできます。**&#x200B;また、作成した新しいリソースやフィールドを使用してナビゲーションを最適化するように、キャンペーン画面を設定することもできます。
+Campaign Standardでは、次のことが可能です。 **事前定義済みデータモデルのエンリッチメント** ：独自のリソース（例えば、Purchase テーブルや Product テーブルの追加）を作成したり、新しいフィールドを使用して既存のリソースを拡張したりする場合。 また、作成した新しいリソースやフィールドを使用してナビゲーションを最適化するよう、Campaign 画面を設定することもできます。
 
-さらに、Campaign StandardREST API **を拡張して、カスタムリソースプロファイルのAPI拡張フィールドに公開することもできます。**&#x200B;これにより、例えば、請求システムから生成されたプロモーションコードを使用して顧客のプロファイルを更新できます。
+また、 **Campaign StandardREST API の拡張** を追加しました。 これにより、例えば、請求システムから生成されたプロモーションコードで顧客のプロファイルを更新できます。
 
 詳しくは、以下を参照してください。
 
 * [リソースの追加または拡張](../../developing/using/key-steps-to-add-a-resource.md)
-* [APIの拡張](../../developing/using/about-extending-the-api.md)
+* [API の拡張](../../developing/using/about-extending-the-api.md)
 * [使用例：新しいフィールドを使用したプロファイルリソースの拡張](../../developing/using/extending-the-profile-resource-with-a-new-field.md)
 * [使用例：アプリケーションリソースへのサブスクリプションの拡張](../../developing/using/extending-the-subscriptions-to-an-application-resource.md)
 
-## APIの操作 {#apis}
+## API の操作 {#apis}
 
 <img src="assets/do-not-localize/icon_api.svg" width="60px">
 
-Campaign StandardAPIを使用して、Adobe Campaign Standardの統合を作成し、Campaignと使用するテクノロジーのパネルを連携させて独自のエコシステムを構築します。 [Campaign Standard REST API の概要](../../api/using/get-started-apis.md)
+Campaign StandardAPI を使用すると、Adobe Campaign Standardの統合を作成し、Campaign と使用するテクノロジーのパネルを連携させて独自のエコシステムを構築できます。 [Campaign Standard REST API の概要](../../api/using/get-started-apis.md)
 
 ## その他のリソース
 

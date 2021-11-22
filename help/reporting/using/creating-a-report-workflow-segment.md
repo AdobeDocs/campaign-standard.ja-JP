@@ -18,103 +18,103 @@ ht-degree: 2%
 # ワークフローセグメントに基づくレポートの作成{#creating-a-report-workflow-segment}
 
 >[!CAUTION]
-> **[!UICONTROL Segment code]**は、EメールおよびSMS配信のみをターゲットにできます。
+> **[!UICONTROL Segment code]**は、E メールおよび SMS 配信のみをターゲットにできます。
 
 ワークフローを作成し、母集団を異なるターゲットオーディエンスにフィルタリングした後、このターゲティングワークフローで定義されたセグメントに基づいて、マーケティングキャンペーンの効率を測定できます。
 レポートでこれらのセグメントをターゲットにするには：
 
-* [手順1:プロファイルのカスタムリソースをセグメントで更新する](#step-1--update-profiles-custom-resource-segments)
-* [手順2:セグメントを含むワークフローの作成](#step-2--create-a-workflow-segments)
-* [手順3:セグメントをフィルターする動的レポートの作成](#step-3--create-a-dynamic-report-filter-segments)
+* [手順 1:プロファイルのカスタムリソースをセグメントで更新](#step-1--update-profiles-custom-resource-segments)
+* [手順 2:セグメントを含むワークフローの作成](#step-2--create-a-workflow-segments)
+* [手順 3:セグメントをフィルタリングするための動的レポートの作成](#step-3--create-a-dynamic-report-filter-segments)
 
 >[!CAUTION]
->これらのデータの収集を開始するには、動的レポートの使用契約に同意する必要があります。
+>これらのデータの収集を開始するには、動的レポート使用契約への同意が必要です。
 >
->この契約について詳しくは、[ページ](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement)を参照してください。
+>この契約について詳しくは、こちらを参照してください。 [ページ](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
 
-## 手順1:プロファイルのカスタムリソースをセグメントで更新する{#step-1--update-profiles-custom-resource-segments}
+## 手順 1:プロファイルのカスタムリソースをセグメントで更新{#step-1--update-profiles-custom-resource-segments}
 
-セグメントコードのレポートを作成する前に、保存するセグメントコードの&#x200B;**[!UICONTROL Profiles]**&#x200B;カスタムリソースを更新する必要があります。
+セグメントコードのレポートを作成する前に、 **[!UICONTROL Profiles]** 保存するセグメントコードのカスタムリソース。
 
-1. 詳細設定メニューのAdobe Campaignロゴから、**[!UICONTROL Administration]** / **[!UICONTROL Development]** / **[!UICONTROL Custom resources]**&#x200B;を選択し、**[!UICONTROL Profile (profile)]**&#x200B;リソースを選択します。
-1. 「**[!UICONTROL Data structure]**」タブの&#x200B;**[!UICONTROL Sending logs extension]**&#x200B;メニューで「**[!UICONTROL Add segment code]**」をオンにして、ターゲティングワークフローのセグメントコードを保存し、動的レポートに送信できるようにします。
+1. 詳細設定メニューのAdobe Campaignロゴから、を選択します。 **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom resources]**&#x200B;を選択し、 **[!UICONTROL Profile (profile)]** リソース。
+1. 内 **[!UICONTROL Sending logs extension]** メニュー **[!UICONTROL Data structure]** タブ、チェック **[!UICONTROL Add segment code]** ：セグメントコードをターゲティングワークフローから保存し、動的レポートに送信できるようにします。
 
-   **[!UICONTROL Segment code]**&#x200B;がレポートの&#x200B;**[!UICONTROL Profile]**&#x200B;ディメンションセクションで使用できるようになります。
+   この **[!UICONTROL Segment code]** が **[!UICONTROL Profile]** ディメンションセクションで使用できます。
 
    ![](assets/report_segment_4.png)
 
 1. カスタムリソースを保存します。
 
 1. 次に、カスタムリソースを公開する必要があります。
-詳細設定メニューから、**[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Publishing]**&#x200B;を選択します。
+詳細設定メニューから、 **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Publishing]**.
 
    ![](assets/custom_profile_7.png)
 
-1. **[!UICONTROL Prepare publication]**&#x200B;をクリックし、準備が完了したら、「**[!UICONTROL Publish]**」ボタンをクリックします。 カスタムリソースの詳細については、この[ページ](../../developing/using/updating-the-database-structure.md)を参照してください。
+1. クリック **[!UICONTROL Prepare publication]** 準備が完了したら、 **[!UICONTROL Publish]** 」ボタンをクリックします。 カスタムリソースについて詳しくは、 [ページ](../../developing/using/updating-the-database-structure.md).
 
 これで、セグメントコードを使用したワークフローの作成を開始できます。
 
-セグメントコードは、**[!UICONTROL Sending logs extension]**&#x200B;でセグメントコードを有効にするとすぐに収集されます。
+セグメントコードは、 **[!UICONTROL Sending logs extension]**.
 
-## 手順2:セグメントを含むワークフローの作成 {#step-2--create-a-workflow-segments}
+## 手順 2:セグメントを含むワークフローの作成 {#step-2--create-a-workflow-segments}
 
 >[!NOTE]
->Eメール配信の入力トランジションが空の場合、デフォルトでは、前のトランジションのセグメントコードが追加されます。
+>E メール配信の入力トランジションが空の場合、前のトランジションのセグメントコードはデフォルトで追加されます。
 
-最初に、異なるターゲット母集団を持つワークフローを作成する必要があります。 ここでは、オーディエンスの年齢に応じてパーソナライズされるEメールを送信します。1つは20歳から30歳のプロファイル用、もう1つは30歳から40歳のプロファイル用です。
+最初に、異なるターゲット母集団を持つワークフローを作成する必要があります。 ここでは、オーディエンスの年齢に応じてパーソナライズされる E メールを送信します。1 つは 20 歳から 30 歳のプロファイル用、もう 1 つは 30 歳から 40 歳のプロファイル用です。
 
-1. ワークフローを作成します。 ワークフローの作成方法について詳しくは、この[ページ](../../automating/using/building-a-workflow.md)を参照してください。
+1. ワークフローを作成します。 ワークフローの作成方法について詳しくは、 [ページ](../../automating/using/building-a-workflow.md).
 
-1. パレットから&#x200B;**[!UICONTROL Query]**&#x200B;アクティビティをドラッグし、ワークスペースにドロップして、アクティビティを追加します。
+1. を追加します。 **[!UICONTROL Query]** アクティビティをドラッグして、ワークスペースにドロップします。
 
-1. 20歳から40歳までのプロファイルをターゲット設定し、後でターゲット母集団にセグメント化します。
+1. 20 歳から 40 歳のプロファイルをターゲティングし、後でそれらをよりターゲット化された母集団にセグメント化します。
 
    ![](assets/report_segment_1.png)
 
-1. **[!UICONTROL Segmentation]**&#x200B;アクティビティを追加して、クエリ結果を2つのターゲット母集団に分割します。 セグメント化について詳しくは、この[ページ](../../automating/using/segmentation.md)を参照してください。
+1. を追加します。 **[!UICONTROL Segmentation]** 「 」アクティビティを使用して、クエリ結果を 2 つのターゲット母集団に分割します。 セグメント化について詳しくは、 [ページ](../../automating/using/segmentation.md).
 
-1. **[!UICONTROL Segmentation]**&#x200B;アクティビティをダブルクリックして設定します。 「**[!UICONTROL Edit properties]**」をクリックして、最初のセグメントを編集します。
+1. 次をダブルクリックします。 **[!UICONTROL Segmentation]** 「 」アクティビティを使用して設定します。 最初のセグメントを編集するには、 **[!UICONTROL Edit properties]**.
 
    ![](assets/report_segment_7.png)
 
-1. 年齢が20歳から30歳までのプロファイルをクエリし、完了したら「**[!UICONTROL Confirm]**」をクリックします。
+1. 20 歳から 30 歳までのプロファイルをクエリし、 **[!UICONTROL Confirm]** 完了したら、
 
    ![](assets/report_segment_8.png)
 
-1. **[!UICONTROL Add an element]**&#x200B;をクリックして2番目のセグメントを作成し、上記の手順に従って設定し、30歳から40歳までのプロファイルをターゲットにします。
+1. クリック **[!UICONTROL Add an element]** 2 番目のセグメントを作成し、上記の手順に従って設定して、30 歳から 40 歳までのプロファイルをターゲットにします。
 
-1. 動的レポートで渡される各母集団の&#x200B;**[!UICONTROL Segment code]**&#x200B;を編集します。
+1. を編集します。 **[!UICONTROL Segment code]** 動的レポートを使用して渡される各母集団の
 
    >[!NOTE]
-   >この手順は必須です。そうしないと、レポートするセグメントを理解できなくなります。
+   >この手順は必須です。必須でない場合は、レポートするセグメントを理解できません。
 
    ![](assets/report_segment_9.png)
 
-1. セグメントの後に&#x200B;**[!UICONTROL Email delivery]**&#x200B;アクティビティをドラッグ&amp;ドロップします。
+1. ドラッグ&amp;ドロップ **[!UICONTROL Email delivery]** アクティビティを作成します。
 
    ![](assets/report_segment_3.png)
 
-1. ターゲット母集団に応じて、配信をパーソナライズします。 Eメールの作成について詳しくは、この[ページ](../../designing/using/designing-content-in-adobe-campaign.md)を参照してください。
+1. ターゲット母集団に応じて、配信をパーソナライズします。 E メールの作成について詳しくは、 [ページ](../../designing/using/designing-content-in-adobe-campaign.md).
 
 1. ワークフローを保存します。
 
-1. ワークフローの準備が整ったら、「**[!UICONTROL Start]**」をクリックします。
+1. クリック **[!UICONTROL Start]** ワークフローの準備が整ったら、次の手順に従います。
 
 これで、レポートにアクセスしてセグメントコードを追跡できます。
 
-## 手順3:セグメントをフィルターする動的レポートの作成 {#step-3--create-a-dynamic-report-filter-segments}
+## 手順 3:セグメントをフィルタリングするための動的レポートの作成 {#step-3--create-a-dynamic-report-filter-segments}
 
-ワークフローで配信を送信した後、ワークフローのセグメントコードを使用してレポートを分類できます。
+ワークフローで配信を送信した後、ワークフローのセグメントコードを使用して分類レポートを作成できます。
 
-1. 「**[!UICONTROL Reports]**」タブで、標準のレポートを選択するか、「**[!UICONTROL Create new project]**」ボタンをクリックして最初からレポートを開始します。
+1. 次の **[!UICONTROL Reports]** 」タブで、標準のレポートを選択するか、 **[!UICONTROL Create new project]** ボタンをクリックして、一から開始します。
 
    ![](assets/custom_profile_18.png)
-1. フリーフォームテーブルに&#x200B;**[!UICONTROL Delivery]**&#x200B;ディメンションをドラッグ&amp;ドロップします。
+1. 次をドラッグ&amp;ドロップ： **[!UICONTROL Delivery]** ディメンションをフリーフォームテーブルに追加します。
 
    ![](assets/report_segment_5.png)
 
-1. **[!UICONTROL Open]**&#x200B;指標や&#x200B;**[!UICONTROL Click]**&#x200B;指標など、様々な指標をテーブルにドラッグ&amp;ドロップして、データのフィルタリングを開始します。
-1. 「**[!UICONTROL Dimensions]**」カテゴリで&#x200B;**[!UICONTROL Profile]**&#x200B;ディメンションをクリックし、ワークフローの配信に&#x200B;**[!UICONTROL Segment code]**&#x200B;ディメンションをドラッグ&amp;ドロップして、ターゲット母集団に応じてEメール配信の成功を測定します。
+1. テーブルに、例えば **[!UICONTROL Open]** および **[!UICONTROL Click]** 指標を使用して、データのフィルタリングを開始します。
+1. 内 **[!UICONTROL Dimensions]** カテゴリの **[!UICONTROL Profile]** ディメンションをドラッグ&amp;ドロップします **[!UICONTROL Segment code]** ディメンションを使用して、ターゲット母集団に応じて e メール配信の成功を測定します。
 
    ![](assets/report_segment_6.png)
 

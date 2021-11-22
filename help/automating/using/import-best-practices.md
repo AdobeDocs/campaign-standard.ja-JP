@@ -1,6 +1,6 @@
 ---
 title: インポートのベストプラクティス
-description: データをデータベースにインポートする際に従うべきベストプラクティスについて詳しく説明します。
+description: データをデータベースにインポートする際に従うべきベストプラクティスの詳細を説明します。
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
@@ -10,7 +10,7 @@ exl-id: bb651b91-145f-4e87-92dd-a8b04662e380
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '568'
-ht-degree: 74%
+ht-degree: 75%
 
 ---
 
@@ -18,25 +18,25 @@ ht-degree: 74%
 
 >[!CAUTION]
 >
->この機能を使用する際は、Adobe Campaign契約に従って、SFTPストレージ、DBストレージ、アクティブなプロファイルの制限に注意してください。
+>この機能を使用する際は、Adobe Campaign契約に従って、SFTP ストレージ、DB ストレージ、アクティブなプロファイルの制限に注意してください。
 
 次に説明するいくつかのシンプルなルールに注意して従うと、データベース内のデータの一貫性を確保し、データベースの更新時またはデータのエクスポート時の一般的なエラーを避けるのに非常に有効です。
 
 ## インポートテンプレートの使用 {#using-import-templates}
 
-ほとんどの読み込みワークフローには、次のアクティビティが含まれます。**[!UICONTROL Load file]**、**[!UICONTROL Reconciliation]**、**[!UICONTROL Segmentation]**、**[!UICONTROL Deduplication]**、**[!UICONTROL Update data]**。
+ほとんどの読み込みワークフローには、次のアクティビティが含まれます。 **[!UICONTROL Load file]**, **[!UICONTROL Reconciliation]**, **[!UICONTROL Segmentation]**, **[!UICONTROL Deduplication]**, **[!UICONTROL Update data]**.
 
 インポートテンプレートを使用すると、同様のインポートを準備したり、データベース内のデータの一貫性を確保したりするのに非常に便利です。
 
-プロジェクトで使用されるファイルには重複がないので、多くのプロジェクトでは、インポートは&#x200B;**[!UICONTROL Deduplication]**&#x200B;アクティビティなしで作成されます。 複数のファイルをインポートすると、重複が発生する場合があります。そうなると、重複排除は困難になります。そのため、すべてのインポートワークフローで重複排除ステップを設けることは、優れた予防措置となります。
+多くのプロジェクトでは、読み込みは **[!UICONTROL Deduplication]** 「 」アクティビティを編集する必要はありません。 複数のファイルをインポートすると、重複が発生する場合があります。そうなると、重複排除は困難になります。そのため、すべてのインポートワークフローで重複排除ステップを設けることは、優れた予防措置となります。
 
 受信データは一貫性があり正しいとか、IT 部門や Adobe Campaign スーパーバイザーが対処するとは思わないでください。プロジェクトの間、データクレンジングに留意してください。データをインポートする際には、重複排除し、紐付けし、一貫性を維持します。
 
-データのインポート用に設計された汎用ワークフローテンプレートの例は、[例で使用できます。ワークフローテンプレート](../../automating/using/creating-import-workflow-templates.md)セクションをインポートします。
+データのインポート用に設計された汎用ワークフローテンプレートの例は、 [例：ワークフローテンプレートをインポート](../../automating/using/creating-import-workflow-templates.md) 」セクションに入力します。
 
 >[!NOTE]
 >
->[インポートテンプレート](../../automating/using/importing-data-with-import-templates.md)を使用することもできます。 ワークフローテンプレートは、管理者が定義したワークフローテンプレートで、アクティブ化すると、インポートするデータを含むファイルを指定できるようになります。
+>また、 [テンプレートをインポート](../../automating/using/importing-data-with-import-templates.md). これは管理者が定義したワークフローテンプレートで、アクティブ化すると、インポートするデータを含むファイルを指定できるようになります。
 
 **関連トピック：**
 
@@ -55,7 +55,7 @@ ht-degree: 74%
 * 区切り記号：タブまたはセミコロン
 * 最初の行は見出し
 * 文字列の区切り記号なし
-* 日付の形式：YYYY/MM/DD HH:mm:SS
+* 日付フォーマット：YYYY/MM/DD HH:mm:SS
 
 インポートするファイルの例：
 
@@ -69,7 +69,7 @@ Durance;Allison;15/12/1978;allison.durance@example.com;120987
 
 ## 圧縮の使用 {#using-compression}
 
-可能な限り、圧縮されたファイルをインポートおよびエクスポートに使用します。GZIP がデフォルトでサポートされています。 **[!UICONTROL Load file]**&#x200B;と&#x200B;**[!UICONTROL Extract file]**&#x200B;のワークフローアクティビティで、ファイルのインポート時やデータの抽出時の前処理を追加できます。
+可能な限り、圧縮されたファイルをインポートおよびエクスポートに使用します。GZIP がデフォルトでサポートされています。 ファイルの読み込み時に前処理を追加したり、データを抽出する際に後処理を **[!UICONTROL Load file]** および **[!UICONTROL Extract file]** ワークフローアクティビティ。
 
 **関連トピック：**
 

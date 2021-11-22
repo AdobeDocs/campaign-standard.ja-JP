@@ -30,10 +30,10 @@ Adobe Campaign には、ユーザーやユーザーグループに割り当て�
 
    >[!NOTE]
    >
-   >Experience Cloudトリガーを操作する場合は、**[!UICONTROL Administration]** 権限で [Experience Cloudトリガー] メニューにアクセスできる必要があります。 Experience Cloudトリガーの詳細については、[ ページ ](../../integrating/using/about-adobe-experience-cloud-triggers.md) を参照してください。
+   >Experience Cloudトリガーを使用する場合、 **[!UICONTROL Administration]** 「Experience Cloudトリガー」メニューにアクセスする権限 Experience Cloudトリガーについて詳しくは、 [ページ](../../integrating/using/about-adobe-experience-cloud-triggers.md).
 
 * **[!UICONTROL Datamodel]**：パブリケーションの実行とカスタムリソースの作成をおこなう権限
-* **[!UICONTROL Generic import]**：データに対する一般的なインポートを実行する権限。これを機能させるには、**[!UICONTROL Generic import]** の役割を **[!UICONTROL Workflow]** の役割にリンクする必要があります。
+* **[!UICONTROL Generic import]**：データに対する一般的なインポートを実行する権限。これを機能させるには、 **[!UICONTROL Generic import]** の役割 **[!UICONTROL Workflow]** 役割。
 * **[!UICONTROL Prepare deliveries]**：配信の作成、変更、準備、削除をおこなう権限。この役割を持つユーザーは、配信の準備はできますが、送信はできません。
 * **[!UICONTROL Start deliveries]**：配信の作成、変更、準備、送信、削除をおこなう権限。
 * **[!UICONTROL Workflow]**：ワークフローの実行（開始、停止、一時停止など）を管理する権限。この役割を持つユーザーは、ワークフロー内でも配信を送信できません。

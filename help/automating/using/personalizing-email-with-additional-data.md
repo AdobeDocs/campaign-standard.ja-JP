@@ -1,6 +1,6 @@
 ---
 title: 追加データによる E メールのパーソナライズ
-description: この使用例では、様々なタイプの追加データをクエリに追加し、Eメールのパーソナライゼーションフィールドとして使用する方法を示します。
+description: この使用例では、様々なタイプの追加データをクエリに追加し、E メールのパーソナライゼーションフィールドとして使用する方法を示します。
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -18,7 +18,7 @@ ht-degree: 86%
 
 # 追加データによる E メールのパーソナライズ {#example--personalizing-an-email-with-additional-data}
 
-次の例は、様々なタイプの追加データをクエリに追加し、E メールのパーソナライゼーションフィールドとして使用する方法を示しています。**[!UICONTROL Query]**&#x200B;アクティビティのターゲットとなるデータのエンリッチメント方法について詳しくは、[この節](../../automating/using/query.md#enriching-data)を参照してください。
+次の例は、様々なタイプの追加データをクエリに追加し、E メールのパーソナライゼーションフィールドとして使用する方法を示しています。を参照してください。 **[!UICONTROL Query]** アクティビティ： [この節](../../automating/using/query.md#enriching-data).
 
 この例では、[カスタムリソース](../../developing/using/data-model-concepts.md)を使用します。
 
@@ -32,7 +32,7 @@ ht-degree: 86%
 
 ![](assets/enrichment_example1.png)
 
-1. [クエリ](../../automating/using/query.md)アクティビティを追加します。このアクティビティを使用して、1つ以上のトランザクションを実行したプロファイルをターゲティングできます。
+1. を追加します。 [クエリ](../../automating/using/query.md) 「 」アクティビティ：1 つ以上のトランザクションを実行したプロファイルをターゲティングできます。
 
    ![](assets/enrichment_example2.png)
 
@@ -53,7 +53,7 @@ ht-degree: 86%
 
    ![](assets/enrichment_example5.png)
 
-1. [Eメール配信](../../automating/using/email-delivery.md)アクティビティを追加します。 E メールコンテンツに、クエリで計算されたデータに対応するパーソナライゼーションフィールドを挿入します。パーソナライゼーションフィールドエクスプローラーの **[!UICONTROL Additional data (targetData)]** リンクからアクセスできます。
+1. を追加します。 [E メール配信](../../automating/using/email-delivery.md) アクティビティ。 E メールコンテンツに、クエリで計算されたデータに対応するパーソナライゼーションフィールドを挿入します。パーソナライゼーションフィールドエクスプローラーの **[!UICONTROL Additional data (targetData)]** リンクからアクセスできます。
 
    ![](assets/enrichment_example3.png)
 

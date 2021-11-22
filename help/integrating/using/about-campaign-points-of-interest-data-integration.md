@@ -1,6 +1,6 @@
 ---
 title: Campaign と POI データの統合について
-description: モバイルアプリケーションの購読者から目標地点データを収集することで、Adobe Campaignでの統合を通じて、場所ベースのマーケティングメッセージを購読者に送信します。
+description: モバイルアプリケーションの購読者から Points of Interest データを収集することで、Adobe Campaignの統合を通じて、購読者に場所ベースのマーケティングメッセージを送信します。
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics-for-mobile
@@ -17,12 +17,12 @@ ht-degree: 6%
 
 # Campaign と POI データの統合について{#about-campaign-points-of-interest-data-integration}
 
-お客様のオンラインプレゼンスを追跡するだけでなく、お客様の物理的な場所を活用することもできます。 Adobe Analytics for Mobileとの統合により、Adobe Campaignを使用して、モバイルアプリケーションの購読者に場所ベースのマーケティングメッセージを送信できます。
+お客様のオンラインプレゼンスを追跡するだけでなく、お客様の物理的な場所を活用することもできます。 Adobe Analytics for Mobile との統合により、Adobe Campaignを使用して、モバイルアプリケーションの購読者に場所ベースのマーケティングメッセージを送信できます。
 
-目標地点は、緯度、経度およびラベルに関連付けられた半径で構成されます。 これらは、[AdobeMobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/home.html)インターフェイスで定義されます。
+目標地点は、緯度、経度、およびラベルに関連付けられた半径で構成されます。 これらは、 [AdobeMobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/home.html) インターフェイス。
 
-購読者がモバイルアプリケーションを開くと、その場所が目標地点と一致する場合、Adobe CampaignはMobile SDKを使用してExperience Cloudをキャプチャします。 この情報を使用して、ユーザーの場所（Eメール、プッシュ通知、SMSメッセージなど）に基づいてパーソナライズされたメッセージを送信できます。
+購読者がモバイルアプリケーションを開くと、その場所が目標地点と一致する場合、Adobe CampaignはExperience CloudMobile SDK を使用してデータをキャプチャします。 この情報を使用して、ユーザーの場所（E メール、プッシュ通知、SMS メッセージなど）に基づいてパーソナライズされたメッセージを送信できます。
 
-例えば、アプリを使用し、過去2週間以内にボストンの店舗の1つを訪問した顧客に10%の割引オファーを送信できます。
+例えば、アプリを使用し、過去 2 週間以内にボストンの店舗の 1 つを訪問した顧客に 10%の割引オファーを送信できます。
 
-使用例については、POIデータを使用したCampaignメッセージのパーソナライズ[の節で説明しています。](../../integrating/using/personalizing-campaign-messages-with-point-of-interest-data.md)
+使用例については、 [POI データを使用した Campaign メッセージのパーソナライズ](../../integrating/using/personalizing-campaign-messages-with-point-of-interest-data.md) 」セクションに入力します。

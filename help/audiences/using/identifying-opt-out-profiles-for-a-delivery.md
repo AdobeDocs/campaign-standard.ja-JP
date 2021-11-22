@@ -17,7 +17,7 @@ ht-degree: 41%
 
 # 配信のオプトアウトプロファイルの識別{#identifying-opt-out-profiles-for-a-delivery}
 
-特定の配信のオプトアウトプロファイルは、準備フェーズの後に、配信ダッシュボードの「**[!UICONTROL Exclusion logs]**」タブに表示されます。
+特定の配信のオプトアウトプロファイルのリストは、準備段階の後、 **[!UICONTROL Exclusion logs]** 配信ダッシュボードの「 」タブ
 
 ![](assets/exclusion_blocklisting.png)
 

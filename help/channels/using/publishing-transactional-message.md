@@ -18,13 +18,13 @@ ht-degree: 74%
 
 # トランザクションメッセージのライフサイクル {#publishing-transactional-message}
 
-[ トランザクションメッセージ ](../../channels/using/editing-transactional-message.md) を送信する準備が整ったら、パブリッシュできます。
+次の場合に [トランザクションメッセージ](../../channels/using/editing-transactional-message.md) を送信する準備が整ったので、公開できます。
 
-トランザクションメッセージを公開、一時停止、非公開、削除する手順については、以下で詳しく説明します。
+トランザクションメッセージを公開、一時停止、非公開および削除する手順については、以下で詳しく説明します。
 
 >[!IMPORTANT]
 >
->トランザクションメッセージにアクセスして公開できるのは、[ 管理 ](../../administration/using/users-management.md#functional-administrators) の役割を持つユーザーだけです。
+>次の条件を満たすユーザーのみ： [管理](../../administration/using/users-management.md#functional-administrators) ロールは、トランザクションメッセージにアクセスして公開できます。
 
 ## トランザクションメッセージの公開プロセス {#transactional-messaging-pub-process}
 
@@ -88,13 +88,13 @@ The steps for sending a proof are detailed in the [Sending proofs](../../sending
 
 ## トランザクションメッセージの公開 {#publishing-a-transactional-message}
 
-トランザクションメッセージを編集およびテストしたら、公開できます。 **[!UICONTROL Publish]** ボタンをクリックします。
+トランザクションメッセージを編集およびテストしたら、公開できます。 単に **[!UICONTROL Publish]** 」ボタンをクリックします。
 
 ![](assets/message-center_12.png)
 
 これで、「買い物かごの放棄」イベントがトリガーされるとすぐに、受信者のタイトルと姓、買い物かごの URL、最後に参照した製品、または製品のリスト（製品リストを定義した場合）と送信される買い物かごの総数を含むメッセージが自動的に表示されます。
 
-トランザクションメッセージに関するレポートにアクセスするには、「**[!UICONTROL Reports]**」ボタンを使用します。[ 動的レポート ](../../reporting/using/about-dynamic-reports.md) を参照してください。
+トランザクションメッセージに関するレポートにアクセスするには、「**[!UICONTROL Reports]**」ボタンを使用します。詳しくは、 [動的レポート](../../reporting/using/about-dynamic-reports.md).
 
 ![](assets/message-center_13.png)
 
@@ -107,7 +107,7 @@ The steps for sending a proof are detailed in the [Sending proofs](../../sending
 
 トランザクションメッセージに含まれるデータを変更する場合など、「**[!UICONTROL Pause]**」ボタンを使用してメッセージの公開を中止できます。したがって、イベントは処理されず、Adobe Campaign データベースのキューに保持されます。
 
-キュー内のトリガーは、REST API で定義されている期間（[REST API のドキュメント ](../../api/using/managing-transactional-messages.md) を参照）または Events コアサービスを使用している場合はトリガーイベント ([Adobe Experience Cloud Triggersについて ](../../integrating/using/about-adobe-experience-cloud-triggers.md) を参照 ) に保持されます。
+キュー内のイベントは、REST API で定義された期間、保持されます ( [REST API ドキュメント](../../api/using/managing-transactional-messages.md)) またはトリガーイベント（Experiences コアサービスを使用している場合）( [Adobe Experience Cloud Triggersについて](../../integrating/using/about-adobe-experience-cloud-triggers.md)) をクリックします。
 
 ![](assets/message-center_pause.png)
 
@@ -123,7 +123,7 @@ The steps for sending a proof are detailed in the [Sending proofs](../../sending
 
 >[!NOTE]
 >
->メッセージを再度公開するには、対応するイベント設定に戻り、[ イベント ](../../channels/using/publishing-transactional-event.md) を公開してから、[ メッセージ ](#publishing-a-transactional-message) を公開する必要があります。
+>メッセージを再度公開するには、対応するイベント設定に戻る必要があります。 [イベントを公開](../../channels/using/publishing-transactional-event.md)、 [メッセージを公開](#publishing-a-transactional-message).
 
 一時停止したトランザクションメッセージを非公開にする場合は、再度公開するまで 24 時間待たなければならない場合があります。これは、キューに送信されたすべてのイベントを「**[!UICONTROL Database cleanup]**」ワークフローで消去するためです。
 
@@ -135,7 +135,7 @@ The steps for sending a proof are detailed in the [Sending proofs](../../sending
 
 トランザクションメッセージが非公開になっている場合、またはトランザクションメッセージがまだ公開されていない場合は、トランザクションメッセージリストから削除できます。手順は次のとおりです。
 
-1. 左上隅の **Adobe** ロゴをクリックし、**[!UICONTROL Marketing plans]** / **[!UICONTROL Transactional messages]** / **[!UICONTROL Transactional messages]** を選択します。
+1. 次をクリック： **Adobe** ロゴ（左上隅）に移動し、「 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**.
 1. 選択したメッセージにマウスを合わせます。
 1. 「**[!UICONTROL Delete element]**」ボタンをクリックします。
 

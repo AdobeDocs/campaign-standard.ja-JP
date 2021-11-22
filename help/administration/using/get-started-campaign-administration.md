@@ -20,7 +20,7 @@ ht-degree: 15%
 <table>
 <tr><td><img src="assets/do-not-localize/icon_menu.svg" width="60px"><p><a href="#administration-menu">管理メニュー</a></p></td>
 <td><img src="assets/do-not-localize/icon_users.svg" width="60px"><p><a href="#users-security">ユーザーとセキュリティ</a></p></td>
-<td><img src="assets/do-not-localize/icon_channels.svg" width="60px"><p><a href="#channels-configuration">チャネルの設定</a></p></td>
+<td><img src="assets/do-not-localize/icon_channels.svg" width="60px"><p><a href="#channels-configuration">チャネル設定</a></p></td>
 <td><img src="assets/do-not-localize/icon_settings.svg" width="60px"><p><a href="#application-settings">アプリケーション設定</a></p></td></tr>
 </table>
 
@@ -28,7 +28,7 @@ ht-degree: 15%
 
 >[!NOTE]
 >
->実装と設定に関する質問やリクエストがある場合は、担当のAdobeアカウント担当者にお問い合わせください。
+>実装と設定に関する質問やリクエストが必要な場合は、担当のAdobeアカウント担当者にお問い合わせください。
 
 管理者ユーザーは、CampaignCampaign コントロールパネルを利用して、各インスタンスの設定を管理し、使用状況を追跡することもできます。 詳しくは、[該当するドキュメント](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja)を参照してください。
 
@@ -36,26 +36,26 @@ ht-degree: 15%
 
 <img src="assets/do-not-localize/icon_menu.svg" width="60px">
 
-様々なAdobe Campaign管理操作は、左上隅のAdobe Campaignロゴをクリックするとアクセスできる **[!UICONTROL Administration]** メニューを使用して実行されます。 インターフェイスのこの部分には、プラットフォームの機能管理者のみがアクセスできます。
+様々なAdobe Campaign管理操作は、 **[!UICONTROL Administration]** メニューは、左上隅のAdobe Campaignロゴをクリックするとアクセスできます。 インターフェイスのこの部分には、プラットフォームの機能管理者のみがアクセスできます。
 
 次のメニューを使用できます。
 
 * [ユーザーとセキュリティ](../../administration/using/about-access-management.md):このメニューを使用すると、プラットフォーム（ユーザー、役割、セキュリティグループ、単位）へのアクセスを管理できます。
-* [チャネル](../../administration/using/about-channel-configuration.md):このメニューは、様々なプラットフォームチャネル（E メール、モバイル）、タイポロジおよび強制隔離の管理にリンクされた技術パラメーターを再グループ化します。
+* [チャネル](../../administration/using/about-channel-configuration.md):このメニューは、様々なプラットフォームチャネル（E メール、モバイル）、タイポロジおよび強制隔離管理にリンクされた技術パラメーターを再グループ化します。
 * [アプリケーション設定](../../administration/using/external-accounts.md):このメニューを使用すると、様々なアプリケーション要素（外部アカウント、オプション、テクニカルワークフロー）を設定できます。
 * [開発](../../developing/using/data-model-concepts.md):このメニューを使用すると、カスタムリソースを管理し、診断ツールにアクセスできます。
-* [インスタンス設定](../../administration/using/branding.md):このメニューでは、様々なブランドを定義し、その設定（ロゴ、トラッキングの管理、ランディングページにアクセスするための URL ドメインなど）を指定します。
+* [インスタンス設定](../../administration/using/branding.md):このメニューでは、様々なブランドを定義し、設定（ロゴ、トラッキングの管理、ランディングページにアクセスするための URL ドメインなど）を指定できます。
 * [導入](../../automating/using/managing-packages.md):このメニューは、パッケージのインポートおよびエクスポートオプションを再グループ化します。
-* [顧客指標](../../audiences/using/active-profiles.md):Adobe Campaignは、アクティブなプロファイルの数を表示するレポートを提供します。このレポートは情報が得られるだけで、請求に直接影響はありません。
+* [顧客指標](../../audiences/using/active-profiles.md):Adobe Campaignには、アクティブなプロファイルの数を表示するレポートが用意されています。 このレポートは情報提供のみで、請求に直接影響しません。
 * [プライバシーツール](../../start/using/privacy-management.md):このメニューを使用すると、GDPR のアクセス要求および削除要求を作成し、その推移を追跡できます。
 
 ## ユーザーとセキュリティ {#users-security}
 
 <img src="assets/do-not-localize/icon_users.svg"  width="60px">
 
-ユーザーをアプリケーションにアクセスするよう招待し、**セキュリティグループ** を管理します。セキュリティグループとは、組織内で同じ役割と権限を共有するユーザーのセットです。 Adobe Campaignには、ユーザーとユーザーグループに割り当てる単一の認証を定義できる **役割** のセットがデフォルトで用意されています。 **組織単位** と組み合わせると、役割によってユーザーはインターフェイスのフィルタ表示が可能になり、様々な機能へのアクセスが定義されます。
+ユーザーをアプリケーションにアクセスして管理するよう招待する **セキュリティグループ**：組織内で同じ役割および権限を共有するユーザーのセットです。 デフォルトで、Adobe Campaignは **役割** ：ユーザーおよびユーザーグループに割り当てる単一の認証を定義できます。 組み合わせ先 **組織単位**、の役割は、ユーザーにインターフェイスのフィルターされた表示を提供し、様々な機能へのアクセスを定義します。
 
-また、Campaign Standard では、セキュリティ関連の情報を監視できます。 ユーザーが実行したデータのエクスポートに関する情報を **[!UICONTROL Export audits]** 画面から取得し、**[!UICONTROL Licenses]** 画面を使用して、組織内にインストールされている Campaign ライセンスのほか、ビルド番号、リリースバージョン、契約条件などの様々な情報を監視できます。
+また、Campaign Standard では、セキュリティ関連の情報を監視することもできます。 ユーザーが実行したデータエクスポートに関する情報は、 **[!UICONTROL Export audits]** 画面を表示し、 **[!UICONTROL Licenses]** 画面を使用して、組織内にインストールされているすべての Campaign ライセンスと、ビルド番号、リリースバージョン、契約条件などの様々な情報を監視できます。
 
 詳しくは、以下を参照してください。
 
@@ -66,15 +66,15 @@ ht-degree: 15%
 * [エクスポートログの監査](../../administration/using/auditing-export-logs.md)
 * [ライセンス](../../administration/using/licenses.md)
 
-## チャネルの設定 {#channels-configuration}
+## チャネル設定 {#channels-configuration}
 
 <img src="assets/do-not-localize/icon_channels.svg" width="60px">
 
-Adobe Campaignのすべての通信チャネルは、メッセージを効果的に送信できるように正しく設定されている必要があります。**[!UICONTROL Channel]**
+Adobe Campaignのすべての通信チャネルは、メッセージを効果的に送信できるように正しく設定されている必要があります。 **[!UICONTROL Channel]**  メニューを使用すると、様々なチャネルにリンクされたテクニカルパラメーターを管理できます。
 
-様々な **email** パラメーターを設定します。バウンス、強制隔離、E メールのプロパティおよびルーティングパラメーター（通常はルール）の処理ルール **SMS** チャネルのルーティング設定とプロパティ、および SMS のエンコードと形式を定義します。
+様々な設定 **電子メール** パラメータ：バウンス、強制隔離、E メールのプロパティおよびルーティングパラメーター（通常のルール）の処理ルール のルーティング設定とプロパティを定義する **SMS** チャネルに含まれます。
 
-Adobe Experience Platform SDK を使用してアプリ内メッセージとプッシュ通知を送信できるように、**モバイルアプリケーション** を設定します。
+設定 **モバイルアプリ** Adobe Experience Platform SDK を使用してアプリ内メッセージおよびプッシュ通知を送信できるようにするため。
 
 詳しくは、以下を参照してください。
 
@@ -89,9 +89,9 @@ Adobe Experience Platform SDK を使用してアプリ内メッセージとプ�
 
 Campaign Standardには、ニーズに合わせて設定できる様々なアプリケーション要素が付属しています。
 
-**外部アカウント** を設定します。外部アカウントは、Adobe Campaignを外部サーバーに接続するのに使用します。 Campaign Standardターゲットマッピングにアクセスし、**テクニカルワークフロー** を使用してプラットフォームを監視します。
+設定 **外部アカウント**:Adobe Campaignを外部サーバーに接続するために使用されます。 Campaign Standardターゲットマッピングへのアクセス、および **テクニカルワークフロー**.
 
-組織の 1 つまたは複数の **ブランド** を定義し、重要なシステムアクティビティの場合は、アプリケーション内で **リアルタイム通知** の送信を設定します。
+1 つまたは複数を定義 **ブランド** 組織で、 **リアルタイム通知** （重要なシステムアクティビティの場合）
 
 詳しくは、以下を参照してください。
 

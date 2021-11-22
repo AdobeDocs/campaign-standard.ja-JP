@@ -1,6 +1,6 @@
 ---
 title: テクニカルワークフロー
-description: テクニカルワークフローは、Adobe Campaignのバックグラウンドテクニカルプロセスを処理し、プラットフォームを正しく動作させるように設計された、標準搭載のワークフローです。
+description: テクニカルワークフローは、Adobe Campaignのバックグラウンド技術プロセスを処理し、プラットフォームを正しく動作させるように設計された、標準搭載のワークフローです。
 audience: administration
 content-type: reference
 topic-tags: application-settings
@@ -97,19 +97,19 @@ ht-degree: 91%
    <td> このワークフローは、Adobe Campaign Standard にインポートした Adobe Experience Platform Launch のモバイルプロパティを同期します。これは 15 分ごとに実行されます。<br /> </td> 
   </tr>
   <tr> 
-   <td> <span class="uicontrol">トラッキングログの回復</span> <br /> </td> 
+   <td> <span class="uicontrol">トラッキングログの復元</span> <br /> </td> 
    <td> <span class="uicontrol">SyncWithLaunch</span> <br /> </td> 
    <td> このワークフローは、Adobe Campaign Standard にインポートした Adobe Experience Platform Launch のモバイルプロパティを同期します。これは 15 分ごとに実行されます。<br /> </td> 
   </tr>
   <tr> 
-   <td> <span class="uicontrol">トラッキングログの復元</span> <br /> </td> 
+   <td> <span class="uicontrol">トラッキングログを復元</span> <br /> </td> 
    <td> <span class="uicontrol">trackingLogRecovery</span> <br /> </td> 
    <td> このワークフローは、失われたトラッキングログを復元します。 このテクニカルワークフローは、特定のコンテキストで使用され、Adobe内部での使用のみに制限されます。 <br>デフォルトでは、10 分ごとに実行されます。<br /> </td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">配信実行情報の更新</span> <br/> </td> 
    <td> <span class="uicontrol">updateDeliveryExecInfo</span> <br/> </td> 
-   <td> このワークフローは、broadlogとトラッキングログをローカルデータベースにコピーします。 デフォルトでは、10 分ごとに実行されます。<br/> </td> 
+   <td> このワークフローは、broadLog とトラッキングログをローカルデータベースにコピーします。 デフォルトでは、10 分ごとに実行されます。<br/> </td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">配信インジケーターの更新</span> <br /> </td> 

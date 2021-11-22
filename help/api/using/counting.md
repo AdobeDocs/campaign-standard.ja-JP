@@ -17,13 +17,13 @@ ht-degree: 2%
 
 # カウント
 
-Adobe Campaign REST APIは、リクエスト内のレコード数をカウントできます。 これをおこなうには、**count**&#x200B;ノードで返されるURLを使用します。
+Adobe Campaign REST API は、リクエスト内のレコード数をカウントできます。 これをおこなうには、 **count** ノード。
 
 <br/>
 
 ***リクエストのサンプル***
 
-値が「sms」に等しい&#x200B;**messageType**&#x200B;を持つすべてのサービスをカウントするには、**byChannel**&#x200B;フィルターを使用してGETリクエストを実行します。
+を持つすべてのサービスをカウントするには、以下を実行します。 **messageType** 値が「sms」に等しい場合は、 **byChannel** フィルター。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel?channel=sms \
@@ -33,7 +33,7 @@ Adobe Campaign REST APIは、リクエスト内のレコード数をカウント
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-フィルターに対応するサービスを返します。
+フィルターに対応するサービスが返されます。
 
 ```
 {
@@ -54,7 +54,7 @@ Adobe Campaign REST APIは、リクエスト内のレコード数をカウント
 }
 ```
 
-**count**&#x200B;ノードのURLに対してGETリクエストを実行し、結果の数を取得します。
+でのGETリクエストの実行 **count** ノードの URL を使用して、結果の数を取得します。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel/_count?channel=sms&_lineStart=@iKTZ2q3IiSEDqZ5Nw1vdoGnQCqF-8DAUJRaVwR9obqqTxhMy \

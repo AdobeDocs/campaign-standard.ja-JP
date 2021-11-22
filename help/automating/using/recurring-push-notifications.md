@@ -1,6 +1,6 @@
 ---
-title: ワークフローを含む繰り返しのプッシュ通知の送信
-description: この例では、パーソナライズされたプッシュ通知が月の初日の午後8時に、それぞれのタイムゾーンに応じてモバイルアプリケーションの購読者に送信されます。
+title: ワークフローでの繰り返しプッシュ通知の送信
+description: この例では、パーソナライズされたプッシュ通知は、月の初日の午後 8 時に、それぞれのタイムゾーンに応じて、モバイルアプリケーションの購読者に送信されます。
 audience: automating
 content-type: reference
 topic-tags: channel-activities
@@ -15,21 +15,21 @@ ht-degree: 4%
 
 ---
 
-# ワークフローを含む繰り返しのプッシュ通知の送信 {#sending-a-recurring-push-notification-with-a-workflow}
+# ワークフローでの繰り返しプッシュ通知の送信 {#sending-a-recurring-push-notification-with-a-workflow}
 
 ![](assets/wkf_push_example_1.png)
 
-この例では、パーソナライズされたプッシュ通知が月の初日の午後8時に、それぞれのタイムゾーンに応じてモバイルアプリケーションの購読者に送信されます。
+この例では、パーソナライズされたプッシュ通知は、月の初日の午後 8 時に、それぞれのタイムゾーンに応じて、モバイルアプリケーションの購読者に送信されます。
 
 ワークフローを構築するには、次の手順に従います。
 
-1. 「[スケジューラー](../../automating/using/scheduler.md)」アクティビティを使用すると、配信開始の前にワークフローを開始し、任意のタイムゾーンの午後8時にすべての購読者に通知を送信できます。
+1. この [スケジューラ](../../automating/using/scheduler.md) 「 」アクティビティを使用すると、配信が開始される前のワークフローを何日か開始し、任意のタイムゾーンの午後 8 時にすべての購読者に通知を送信できます。
 
-   * **[!UICONTROL Execution frequency]**&#x200B;フィールドで、「月別」を選択します。
-   * **[!UICONTROL Time]**&#x200B;フィールドで「午後8時」を選択します。
-   * 毎月配信を送信する日を選択します。
-   * ワークフローの開始日（配信開始の1日前）を選択します。 そうしないと、選択した時間が既にタイムゾーンを超えている場合に、1日後にメッセージを受け取る受信者もいる可能性があります。
-   * 「**[!UICONTROL Execution options]**」タブの「**[!UICONTROL Time zone]**」フィールドで、ワークフローの開始タイムゾーンを選択します。 例えば、ワークフローは太平洋時間の午後8時（月の最初の日の1週間前）に開始され、該当するすべてのタイムゾーンで配信が作成されるまでの時間を考慮します。
+   * 内 **[!UICONTROL Execution frequency]** 「毎月」を選択します。
+   * で午後 8 時を選択します。 **[!UICONTROL Time]** フィールドに入力します。
+   * 毎月、配信を送信する日付を選択します。
+   * ワークフローの開始日（配信が開始される 1 日以上前）を選択します。 そうしないと、選択した時間が既にタイムゾーンを過ぎている場合は、一部の受信者が 1 日後にメッセージを受け取る可能性があります。
+   * 内 **[!UICONTROL Execution options]** 」タブで、ワークフローが開始するタイムゾーンを選択します。 **[!UICONTROL Time zone]** フィールドに入力します。 例えば、ワークフローは太平洋時間の午後 8 時（月の最初の日の 1 週間前）に開始し、該当するすべてのタイムゾーンで配信を作成するのに時間を割くようにします。
 
    >[!NOTE]
    >
@@ -37,27 +37,27 @@ ht-degree: 4%
 
    ![](assets/wkf_push_example_5.png)
 
-1. 「[クエリ](../../automating/using/query.md)」アクティビティを使用すると、20～30歳のVIPの顧客（モバイルアプリケーションを購読し、送信したEメールを開封していない顧客）をターゲットに設定できます。
+1. この [クエリ](../../automating/using/query.md) 「 」アクティビティでは、20 ～ 30 歳の、モバイルアプリケーションを購読していて、送信した E メールを開封していないVIP顧客をターゲットに設定できます。
 
-   * オーディエンス(VIPのお客様)を選択し、年齢に基づいてフィルターします。
-   * 「**Subscriptions to an application**」要素をワークスペースにドラッグ&amp;ドロップします。 「**存在する**」を選択し、使用するモバイルアプリケーションを選択します。
-   * 顧客に送信したEメールを選択します。
-   * **配信ログ(logs)**&#x200B;要素をワークスペースにドラッグ&amp;ドロップし、「**存在する**」を選択して、Eメールを受信したすべての顧客をターゲットにします。
-   * **トラッキングログ（トラッキング）**&#x200B;要素をワークスペースにドラッグ&amp;ドロップし、「**存在しない**」を選択して、Eメールを開封していないすべての顧客をターゲットにします。
+   * オーディエンス (VIPのお客様 ) を選択し、年齢に基づいてフィルタリングします。
+   * 次をドラッグ&amp;ドロップ： **アプリケーションの購読** 要素をワークスペースに追加します。 選択 **存在する** をクリックし、使用するモバイルアプリケーションを選択します。
+   * 顧客に送信した E メールを選択します。
+   * 次をドラッグ&amp;ドロップ： **配信ログ（ログ）** 要素をワークスペースに追加して、 **存在する** ：電子メールを受信したすべての顧客をターゲットにします。
+   * 次をドラッグ&amp;ドロップ： **トラッキングログ（トラッキング）** 要素をワークスペースに追加して、 **存在しない** をクリックして、e メールを開封しなかったすべての顧客をターゲットにします。
 
       ![](assets/wkf_push_example_2.png)
 
-1. [プッシュ通知配信](../../automating/using/push-notification-delivery.md)アクティビティを使用すると、メッセージの内容を入力し、使用するパーソナライゼーションフィールドを選択できます。
+1. この [プッシュ通知配信](../../automating/using/push-notification-delivery.md) 「 」アクティビティでは、メッセージの内容を入力し、使用するパーソナライゼーションフィールドを選択できます。
 
-   * **[!UICONTROL Recurring notification]**&#x200B;オプションを選択します。
-   * プッシュ通知のコンテンツを定義します。 プッシュ通知のコンテンツの詳細については、[](../../channels/using/preparing-and-sending-a-push-notification.md)を参照してください。
-   * **[!UICONTROL Schedule]**&#x200B;ブロックで、**[!UICONTROL Messages to be sent automatically on the time zone specified below]**&#x200B;を選択します。 ここでは、ワークフロー&#x200B;**[!UICONTROL Scheduler]**&#x200B;のように、「**[!UICONTROL Time zone of the contact date]**&#x200B;太平洋」を選択します。
+   * を選択します。 **[!UICONTROL Recurring notification]** オプション。
+   * プッシュ通知のコンテンツを定義します。 プッシュ通知のコンテンツについて詳しくは、 [セクション](../../channels/using/preparing-and-sending-a-push-notification.md).
+   * 内 **[!UICONTROL Schedule]** ブロック、選択 **[!UICONTROL Messages to be sent automatically on the time zone specified below]**. ここでは、 **[!UICONTROL Time zone of the contact date]** ワークフローと同様に太平洋 **[!UICONTROL Scheduler]**.
    * 「**[!UICONTROL Optimize the sending time per recipient]**」フィールドで「**[!UICONTROL Send at the recipient's time zone]**」を選択します。
 
       ![](assets/wkf_push_example_4.png)
 
-1. 「**[!UICONTROL Start]**」ボタンをクリックして、繰り返しワークフローを開始します。
+1. 次をクリック： **[!UICONTROL Start]** ボタンをクリックして、繰り返しワークフローを開始します。
 
    ![](assets/wkf_push_example_3.png)
 
-ワークフローが実行中です。 太平洋時間の午後8時に、**[!UICONTROL Scheduler]**&#x200B;の指定された開始日に開始し、顧客のタイムゾーンに応じて、月の初日の午後8時に繰り返しプッシュが送信されます。
+これで、ワークフローが実行されています。 開始日は **[!UICONTROL Scheduler]** 太平洋時間の午後 8 時に、顧客のタイムゾーンに応じて、月の初日の午後 8 時に繰り返しのプッシュが送信されます。

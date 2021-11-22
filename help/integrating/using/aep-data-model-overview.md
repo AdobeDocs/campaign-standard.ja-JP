@@ -1,6 +1,6 @@
 ---
 title: エクスペリエンスデータモデルの概要
-description: エクスペリエンスデータモデル(XDM)は、Adobe Experience Platformのソリューションや製品で使用するためにデータを取り込むことのできる、標準的なデータスキーマセットです。
+description: エクスペリエンスデータモデル (XDM) は、Adobe Experience Platformのソリューションや製品で使用するためにデータを取り込むことのできる、データスキーマの標準セットです。
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
@@ -19,25 +19,25 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Adobe Experience Platform Data Connectorは現在ベータ版です。通知なしに頻繁に更新される可能性があります。 これらの機能にアクセスするには、Azureでホストする必要があります（現在、北米でのみベータ版）。 にアクセスする場合は、Adobeカスタマーケアにお問い合わせください。
+>Adobe Experience Platform Data Connector は現在ベータ版です。通知なしに頻繁に更新される可能性があります。 お客様は、これらの機能にアクセスするには、Azure 上でホストされている必要があります（現在、北米ではベータ版のみ）。 にアクセスする場合は、Adobeカスタマーケアにお問い合わせください。
 
-エクスペリエンスデータモデル(XDM)は、Adobe Experience Platformのソリューションや製品で使用するためにデータを取り込むことのできる、標準的なデータスキーマセットです。
+エクスペリエンスデータモデル (XDM) は、Adobe Experience Platformのソリューションや製品で使用するためにデータを取り込むことのできる、データスキーマの標準セットです。
 
-XDMスキーマの作成と管理は、専用のAPIまたはXDMユーザーインターフェイスで利用できます。
+XDM スキーマの作成と管理は、専用 API で、または XDM ユーザーインターフェイスで使用できます。
 
-## XDMワークスペース {#xdm-workspace}
+## XDM ワークスペース {#xdm-workspace}
 
-XDM Workspaceは、データスキーマを表示、作成および拡張する機能を備えています。
+XDM Workspace は、データスキーマを表示、作成および拡張する機能を提供します。
 
-XDMユーザーインターフェイスにアクセスするには、 Adobe Experience Platformを開きます。 データモデルウィンドウに移動して、XDMスキーマを作成または拡張します。
+XDM ユーザーインターフェイスにアクセスするには、 Adobe Experience Platformを開きます。 データモデルウィンドウに移動して、XDM スキーマを作成または拡張します。
 
-[XDM Workspaceの完全なドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html)を参照してください。
+詳細を見る [XDM Workspace ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html).
 
 ![](assets/aep_xdmworkspace.png)
 
 ## XDM API {#xdm-api}
 
-XDMスキーマAPIを使用して、次のアクションを実行できます。
+XDM スキーマ API を使用して、次のアクションを実行できます。
 
 * 既存のスキーマのリストの表示
 * 特定のスキーマの表示既存のスキーマの拡張
@@ -46,4 +46,4 @@ XDMスキーマAPIを使用して、次のアクションを実行できます�
 * スキーマ記述子の表示
 * スキーマ記述子の作成、更新、削除
 
-API呼び出しの操作に関する詳細については、『[開発者ガイド](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html)』を参照してください。
+API 呼び出しの操作に関する詳細は、 [開発者ガイド](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html).

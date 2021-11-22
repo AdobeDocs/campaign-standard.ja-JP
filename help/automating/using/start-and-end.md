@@ -15,7 +15,7 @@ ht-degree: 100%
 
 ---
 
-# 開始および終了{#start-and-end}
+# 開始と終了{#start-and-end}
 
 ## 説明 {#description}
 

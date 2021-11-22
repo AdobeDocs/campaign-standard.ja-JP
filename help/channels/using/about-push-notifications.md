@@ -77,26 +77,26 @@ Adobe Campaign では、2 つのプッシュ通知を使用できます。
 
 ## プッシュ通知の FAQ {#push-faq}
 
-### プッシュチャネルの詳細を確認するのに役立つリソース推奨事項を教えてください。 {#resource-push}
+### プッシュチャネルの詳細を確認するのに役立つリソース推奨事項は何ですか？ {#resource-push}
 
 以下のリソースを確認します。
 
 * [ビデオチュートリアル](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html)
 * [製品ドキュメント](../../channels/using/about-push-notifications.md)
-* AEP SDK を使用した設定 [ ドキュメント ](../../administration/using/configuring-a-mobile-application.md)
+* AEP SDK を使用した設定 [ドキュメント](../../administration/using/configuring-a-mobile-application.md)
 * [コミュニティページ](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
-### Campaign でプッシュトークンを取得するには、どうすればよいですか？ {#push-token-acquisition}
+### Campaign でプッシュトークンを取得するには、何をする必要がありますか？ {#push-token-acquisition}
 
 プロビジョニングチームがAdobe Campaign Standardでプッシュチャネルのプロビジョニングを完了していることを確認します。 SDK から setPushIdentifier API を実装します。 詳しくは、この[ページ](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#set-up-push-messaging)を参照してください。
 
 ### Campaign でプッシュトークンと ECID を取得したら、プッシュ通知を送信する他に必要なことは何ですか？ {#sending-push}
 
-プッシュ通知を送信するには、.pem 形式の有効なプッシュ証明書を指定する必要があります。 この証明書にパスワードは必要ありません。
+プッシュ通知を送信するには、.pem 形式の有効なプッシュ証明書を指定する必要があります。 この証明書のパスワードは必要ありません。
 
 ### .pem 証明書ではなく.p12 証明書がある場合はどうなりますか？ {#certificates}
 
-ターミナルで次のコマンドを実行すると、.p12 証明書を.pem 証明書に変換できます。 変換手順に関するオンラインリソースもいくつかあります。
+ターミナルで次のコマンドを実行すると、.p12 証明書を.pem 証明書に変換できます。 変換手順には、複数のオンラインリソースも使用できます。
 
 ```
 openssl pkcs12 -in pushcert.p12 -out pushcert.pem -nodes -clcerts
@@ -108,56 +108,56 @@ openssl pkcs12 -in pushcert.p12 -out pushcert.pem -nodes -clcerts
 
 ![](assets/faq_2.png)
 
-### iOS アプリ用に、実稼動版とサンドボックスの両方の証明書を同時にアップロードできますか（Android 用なし）? {#prod-sandbox-certificate}
+### iOSアプリ（Android の場合はなし）用に、実稼動版とサンドボックスの両方の証明書を同時にアップロードできますか？ {#prod-sandbox-certificate}
 
-いいえ。アプリはサンドボックスモードまたは実稼動モードで動作し、一度設定すると、他の（サンドボックスから実稼動アプリへの）変更はできなくなります。 アプリをサンドボックスモードでテストしてから実稼動モードに移行することをお勧めします。
+いいえ。アプリは、サンドボックスモードまたは実稼動モードで動作し、設定後に他の（サンドボックスから実稼動アプリへ）に変更することはできません。 最初にサンドボックスモードでアプリをテストし、次に実稼動モードに移行することをお勧めします。
 
-実稼動モードに変更するには、別のアプリを作成する必要があります。 また、サンドボックスのチェックボックスをオフにし、実稼動用証明書をアップロードしてください。
+実稼動モードに変更するには、別のアプリを作成する必要があります。 また、サンドボックスのチェックボックスをオフにし、実稼動用証明書をアップロードするようにしてください。
 
-### iOS と Android の両方の資格情報を同時にアップロードできますか？ {#ios-android-credentials}
+### iOSと Android の両方の資格情報を同時にアップロードできますか？ {#ios-android-credentials}
 
-はい。Campaign は両方のプラットフォームを同時にサポートし、両方のプラットフォームの資格情報をアップロードできます。
+はい、Campaign は両方のプラットフォームを同時にサポートし、両方のプラットフォームの資格情報をアップロードできます。
 
 ### プッシュ証明書は正常にアップロードされましたが、プッシュメッセージは送信されません。 {#push-certificates-upload}
 
-[ ここ ](https://pushtry.com/) でプッシュ証明書が有効であることを確認してください。
+プッシュ証明書をテストして、有効であることを確認してください [ここ](https://pushtry.com/).
 
-### プッシュ通知を pushtry.com から正常に送信できますが、Campaign 経由では送信できません。 {#push-not-sending}
+### Campaign を通じてではなく、pushtry.com からプッシュ通知を正常に送信できます。 {#push-not-sending}
 
-[ ここ ](../../administration/using/push-payload.md) に記載されているプッシュペイロードの手順に従っていることを確認してください。
+指定されたプッシュペイロードの手順に従っていることを確認してください [ここ](../../administration/using/push-payload.md).
 
 Android の場合、Campaign はデータペイロードのみをサポートし、通知ペイロードはサポートしません
 
-### Adobe Campaign Standardの「管理」セクションでアプリを設定したのですが、配信プロパティでモバイルアプリを使用できません。 {#mobile-app-unavailable}
+### Adobe Campaign Standardの「管理」セクションでアプリを設定したのに、配信プロパティでモバイルアプリを使用できません。 {#mobile-app-unavailable}
 
-配信プロパティで有効にするには、有効なプッシュ証明書もアップロードする必要があります。
+配信プロパティで使用できるようにするには、アプリに有効なプッシュ証明書もアップロードする必要があります。
 
-### このページのすべての手順を試してみましたが、Campaign からプッシュを送信できません。 {#push-troubleshoot}
+### このページのすべての手順を試行しましたが、Campaign からプッシュを送信できません。 {#push-troubleshoot}
 
 カスタマーケアチケットを開いてください。
 
-### Campaign からプッシュ通知が配信されるが、メディアファイルが表示されない。{#media-file-unavailable}
+### プッシュ通知が Campaign から配信されますが、メディアファイルが表示されません。{#media-file-unavailable}
 
-モバイルアプリ開発者は、アプリでのメディアファイルのサポートを処理する必要があります。 ネットワーク帯域幅によって、メディアファイルのレンダリングが妨げられる場合もあります。 追加のポインタについては、この [ ページ ](../../administration/using/image-push-notification.md) を参照してください。
+モバイルアプリ開発者は、アプリ内でのメディアファイルのサポートを処理する必要があります。 ネットワーク帯域幅によって、メディアファイルのレンダリングが妨げられる場合もあります。 詳しくは、 [ページ](../../administration/using/image-push-notification.md) を参照してください。
 
 ### Campaign でプッシュレポートを有効にするには、どうすればよいですか？ {#push-reporting-enable}
 
 以下の手順に従います。
 
-* プッシュトラッキングポストバックを設定します。 手順は [ ここ ](../../administration/using/configuring-a-mobile-application.md) にあります。
-* Mobile Core から trackAction API を実装します。 詳しくは、この [ ページ ](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference) を参照してください。
+* プッシュトラッキングポストバックを設定します。 説明が見つかります [ここ](../../administration/using/configuring-a-mobile-application.md).
+* Mobile Core から trackAction API を実装します。 詳しくは、 [ページ](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference) を参照してください。
 
-詳しい手順は、この [ ページ ](../../administration/using/push-tracking.md) を参照してください。
+詳しい手順については、こちらを参照してください。 [ページ](../../administration/using/push-tracking.md).
 
-### プッシュチャネルで使用できるレポートはどれですか。 {#push-report-available}
+### プッシュチャネルで使用できるレポートはどれですか？ {#push-report-available}
 
-既製のレポートは、Adobe Campaignでプッシュチャネル用に利用できます。 この [ ドキュメント ](../../reporting/using/push-notification-report.md) を参照してください。
+Adobe Campaignでは、プッシュチャネル用に標準のレポートが利用できます。 詳しくは、 [ドキュメント](../../reporting/using/push-notification-report.md).
 
-各プッシュ指標の計算方法については、この [ ページ ](../../reporting/using/indicator-calculation.md#push-notification-delivery) を参照してください。
+参照 [ページ](../../reporting/using/indicator-calculation.md#push-notification-delivery) を参照して、各プッシュ指標の計算方法を理解してください。
 
 ### ディープリンクはプッシュメッセージとアプリ内メッセージでサポートされていますか？ {#deeplink-push}
 
-はい、ディープリンクはプッシュメッセージでサポートされます。 ディープリンクには次のものが含まれます。
+はい、ディープリンクはプッシュメッセージでサポートされます。 ディープリンクには次が含まれる必要があります。
 
 * ディープリンクを機能させるには、配信トラッキングを無効にする必要があると述べた言語。
-* ディープリンクの追跡を実行できるパートナーとして Branch を持つ Appsflyer。 Branch とAdobe Campaign Standardの統合について詳しくは、この [ ページ ](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1) を参照してください。
+* ディープリンクトラッキングを実行できるパートナーとして、Branch を持つ Appsflyer。 Branch とAdobe Campaign Standardの統合について詳しくは、 [ページ](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1).

@@ -220,7 +220,7 @@ ht-degree: 95%
   </tr> 
   <tr> 
    <td> <strong>ToDateTimeWithTimezone</strong><br /> </td> 
-   <td> 文字列を日付 + タイムゾーンに変換します<br /> 例：ToDateTimeWithTimezone("2019-02-19 08:09:00", "Asia/Tehran")<br /> </td> 
+   <td> 文字列を日付 + タイムゾーンに変換します<br /> 例：ToDateTimeWithTimezone ("2019-02-19 08:09:00", "Asia/Tehran")<br /> </td> 
    <td> ToDateTimeWithTimezone(&lt;文字列&gt;)<br /> </td> 
   </tr> 
   <tr> 
@@ -536,12 +536,12 @@ ht-degree: 95%
   </tr> 
   <tr> 
    <td> <strong>JuxtWords</strong><br /> </td> 
-   <td> パラメーターとして渡された2つの文字列を連結します。 戻り値に含まれる各文字列の間にスペースが追加されます<br /> </td> 
+   <td> パラメーターとして渡された 2 つの文字列を連結します。 戻り値に含まれる各文字列の間にスペースが追加されます<br /> </td> 
    <td> JuxtWords(&lt;文字列&gt;, &lt;文字列&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>JuxtWords3</strong><br /> </td> 
-   <td> パラメーターとして渡された3つの文字列を連結します。 戻り値に含まれる各文字列の間にスペースが追加されます<br /> </td> 
+   <td> パラメーターとして渡された 3 つの文字列を連結します。 戻り値に含まれる各文字列の間にスペースが追加されます<br /> </td> 
    <td> JuxtWords3(&lt;文字列&gt;, &lt;文字列&gt;, &lt;文字列&gt;)<br /> </td> 
   </tr> 
   <tr> 
@@ -657,7 +657,7 @@ ht-degree: 95%
   <tr> 
    <td> <strong>encryption_aescbcEncrypt</strong><br /> </td> 
    <td> AES アルゴリズム（CBC ブロックモード）に基づき、キー（第 2 パラメーター）と初期化ベクター（第 3 パラメーター）を使用して、文字列（第 1 パラメーター）を暗号化します。キーと初期化ベクターは、16 進数表現（<strong>\x</strong> で始まる形式）で指定する必要があります。結果は、<strong>\x</strong> を除いた 16 進数で表されます。<br />キーのサイズには、128 ビット、192 ビット、256 ビット（16 進数文字で順に 16、24、32）のいずれかを指定できますが、256 ビット、およびキーと同じ長さのランダム化初期化ベクターを使用することをお勧めします<br /> </td> 
-   <td> encryption_aescbcEncrypt（&lt;文字列&gt;, &lt;文字列&gt;, &lt;文字列&gt;）<br />例：encryption_aescbcEncrypt(johndoe@example.com, "<strong>\\x0123456789ABCDEF0123456789ABCDEF</strong>", "<strong>\\x0123456789ABCDEFFEDCBA9876543210</strong>")<br /> </td> 
+   <td> encryption_aescbcEncrypt(&lt;string&gt;, &lt;string&gt;, &lt;string&gt;)<br /> 例：encryption_aescbcEncrypt(johndoe@example.com, "<strong>\\x0123456789ABCDEF0123456789ABCDEF</strong>", "<strong>\\x0123456789ABCDEFFEDCBA9876543210</strong>")<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -706,9 +706,9 @@ ht-degree: 95%
    <td> Min(&lt;値&gt;)<br /> </td> 
   </tr>
   <tr>
-   <td> <strong>StringAgg</strong>、String集計<br /> </td>
-   <td> 2番目の引数内の文字で区切られた、文字列型の列の値を連結して返します（デフォルトの区切り文字はコンマです）。<br /> </td>
-   <td> StringAgg（&lt;文字列値&gt;,&lt;区切り文字&gt;）
+   <td> <strong>StringAgg</strong>，文字列集計<br /> </td>
+   <td> 2 番目の引数内の文字で区切られた、文字列タイプの列の値を連結して返します（デフォルトの区切り文字はコンマです）。<br /> </td>
+   <td> StringAgg(&lt;string values=""&gt;,&lt;separator&gt;)
   </tr>
   <tr> 
    <td> <strong>Sum</strong><br /> </td> 

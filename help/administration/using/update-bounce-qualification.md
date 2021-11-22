@@ -15,7 +15,7 @@ ht-degree: 70%
 
 # ISP 機能停止後のバウンス認定条件の更新 {#update-bounce-qualification.md}
 
-最新バージョンのCampaignを実行していない場合は、この節が適用される場合があります。 Adobe Campaignの担当者にお問い合わせください。
+最新バージョンの Campaign を実行していない場合は、この節が適用される場合があります。 Adobe Campaignの担当者にお問い合わせください。
 
 ## コンテキスト
 
@@ -30,7 +30,7 @@ Google は、この問題の原因となった Gmail の機能停止とサービ
 >[このページ](https://www.google.com/appsstatus#hl=ja&amp;v=status)で Google Workspace ステータスダッシュボードを確認できます。
 
 
-Adobe Campaignは、標準のバウンス処理ロジックに従って、**[!UICONTROL Status]**&#x200B;設定が&#x200B;**[!UICONTROL Quarantine]**&#x200B;の強制隔離リストにこれらの受信者を自動的に追加しました。 これを修正するには、Campaignで強制隔離テーブルを更新する必要があります。更新するには、これらの受信者を見つけて削除するか、夜間のクリーンアップワークフローで削除されるように&#x200B;**[!UICONTROL Status]**&#x200B;を&#x200B;**[!UICONTROL Valid]**&#x200B;に変更します。
+Adobe Campaignは、標準のバウンス処理ロジックに従って、これらの受信者を強制隔離リストに自動的に追加し、 **[!UICONTROL Status]** 設定 **[!UICONTROL Quarantine]**. これを修正するには、Campaign で強制隔離テーブルを更新し、それらの受信者を検索および削除するか、テーブルの **[!UICONTROL Status]** から **[!UICONTROL Valid]** そのため、毎晩のクリーンアップワークフローによって削除されます。
 
 この Gmail の問題の影響を受けた受信者を特定する場合や、他の ISP で同じ状況が発生した場合は、以下の手順を参照してください。
 
@@ -44,13 +44,13 @@ Adobe Campaignは、標準のバウンス処理ロジックに従って、**[!UI
 >
 >これらの日時は、米国東部標準時（EST）に基づいています。 お使いのインスタンスのタイムゾーンに合わせて調整してください。
 
-強制隔離リストの&#x200B;**[!UICONTROL Error text]**&#x200B;フィールドにSMTPバウンス応答情報が入っているキャンペーンインスタンスの場合：
+SMTP バウンス応答情報が **[!UICONTROL Error text]** 強制隔離リストのフィールド：
 
 * **エラーテキスト（強制隔離テキスト）**&#x200B;に「550-5.1.1 The email account that you tried does not exist」が含まれ、かつ、**エラーテキスト（強制隔離テキスト）**&#x200B;に「support.google.com」が含まれる**
 * **更新ステータス（@lastModified）**&#x200B;が 2020 年 12 月 14 日午前 6:55:00 以降
-* **更新ステータス(@lastModified)** (12/16/2020 6 00 :00:AM以前)
+* **ステータスを更新 (@lastModified)** 12/16/2020 6 以前:00:午前 00 時
 
-影響を受ける受信者のリストを取得したら、ステータスを&#x200B;**[!UICONTROL Valid]**&#x200B;に設定して、**[!UICONTROL Database cleanup]**&#x200B;ワークフローによって強制隔離リストから削除するか、テーブルから削除します。
+影響を受ける受信者のリストが用意できたら、ステータスを **[!UICONTROL Valid]** したがって、これらは、 **[!UICONTROL Database cleanup]** ワークフローを作成するか、単にテーブルから削除します。
 
 **関連トピック：**
 * [配信エラーについて](../../sending/using/understanding-delivery-failures.md)

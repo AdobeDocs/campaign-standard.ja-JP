@@ -9,15 +9,15 @@ exl-id: 5c266c44-535b-4954-862d-74c83a6f6406
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '326'
-ht-degree: 54%
+ht-degree: 65%
 
 ---
 
 # Campaign への Adobe Experience Platform オーディエンスの取り込み {#destinations}
 
-Adobe Experience PlatformオーディエンスをCampaignに取り込んでワークフローで使用するには、まずAdobe CampaignをAdobe Experience Platform **宛先**&#x200B;として接続し、エクスポートするセグメントを使用して設定する必要があります。
+Adobe Experience Platform オーディエンスを Campaign に取り込んでワークフローで使用するには、まず Adobe Campaign を Adobe Experience Platform の&#x200B;**宛先**&#x200B;として接続し、エクスポート対象のセグメントを設定する必要があります。
 
-宛先が設定されると、データがストレージの場所にエクスポートされ、取得するために専用のワークフローをCampaign Standardで作成する必要があります。
+宛先が設定されると、データがストレージの場所にエクスポートされ、取り込むには、専用のワークフローをCampaign Standardで作成する必要があります。
 
 ## Adobe Campaign を宛先として接続する
 
@@ -27,13 +27,13 @@ Adobe Experience Platform で、Adobe Campaign との接続を設定するには
 
 宛先の設定が完了すると、Adobe Experience Platform は指定したストレージの場所にタブ区切りの .txt または .csv ファイルを作成します。 この操作は、24 時間に 1 回実行されるようスケジュールされています。
 
-セグメントをCampaignに取り込むCampaign Standardワークフローを設定できるようになりました。
+これで、セグメントを Campaign に取り込むCampaign Standardワークフローを設定できるようになりました。
 
-## Campaign Standardでのインポートワークフローの作成
+## インポートワークフローをCampaign Standard
 
-Campaign Standardを宛先として設定したら、Adobe Experience Platformによって書き出されたファイルを読み込むための専用のワークフローを作成する必要があります。
+Campaign Standardを宛先として設定したら、Adobe Experience Platformで書き出されたファイルを読み込むための専用ワークフローを作成する必要があります。
 
-これをおこなうには、**[!UICONTROL Transfer file]**&#x200B;アクティビティを追加して設定する必要があります。 このアクティビティの設定方法について詳しくは、 [こちらの節](../../automating/using/transfer-file.md)を参照してください。
+これをおこなうには、 **[!UICONTROL Transfer file]** アクティビティ。 このアクティビティの設定方法について詳しくは、 [こちらの節](../../automating/using/transfer-file.md)を参照してください。
 
 ![](assets/rtcdp-transfer-file.png)
 
@@ -43,7 +43,7 @@ Campaign Standardを宛先として設定したら、Adobe Experience Platform�
 
 ![](assets/rtcdp-workflow.png)
 
-データ管理ワークフローの例については、[ワークフローの使用例](../../automating/using/about-workflow-use-cases.md#management)の節を参照してください。
+データ管理ワークフローの例は、 [ワークフローの使用例](../../automating/using/about-workflow-use-cases.md#management) 」セクションに入力します。
 
 関連トピック ： 
 

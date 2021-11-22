@@ -1,6 +1,6 @@
 ---
 title: プロファイルの作成
-description: APIを使用してプロファイルを作成する方法について説明します。
+description: API を使用してプロファイルを作成する方法について詳しく説明します。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -17,19 +17,19 @@ ht-degree: 3%
 
 # プロファイルの作成 {#creating-profiles}
 
-プロファイルの作成は、プロファイルリソースに対して&#x200B;**POST**&#x200B;リクエストを使用して実行されます。
+プロファイルの作成は、 **POST** プロファイルリソースに対するリクエスト。
 
 >[!CAUTION]
 >
-><b>orgUnit</b>を作成したプロファイルに関連付ける場合は、このフィールドでプロファイルリソースを拡張し、拡張機能の公開後に、<b>ProfileAndServicesExt</b>エンドポイントでPOSTリクエストを実行します。
+>を <b>orgUnit</b> 作成したプロファイルに対し、このフィールドを使用してプロファイルリソースを拡張し、拡張機能の公開後に、でPOSTリクエストを実行する必要があります。 <b>ProfileAndServicesExt</b> endpoint.
 >
->プロファイルのリソース拡張について詳しくは、<a href="https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles">Campaignのドキュメント</a>を参照してください。
+>プロファイルのリソース拡張について詳しくは、 <a href="https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles">Campaign ドキュメント</a>.
 
 <br/>
 
 ***リクエストのサンプル***
 
-POSTリクエストのサンプルを使用して、Eメール「john.doe@mail.com」でプロファイルを作成します。
+サンプルPOSTリクエストを使用した、電子メール「john.doe@mail.com」を含むプロファイルの作成。
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
@@ -41,7 +41,7 @@ POSTリクエストのサンプルを使用して、Eメール「john.doe@mail.c
 -d '{"email":"john.doe@mail.com"}'
 ```
 
-新しく作成されたプロファイルと、「john.doe@mail.com」の電子メールアドレスが返されます。
+新しく作成されたプロファイルと、「john.doe@mail.com」E メールアドレスが返されます。
 
 ```
 {

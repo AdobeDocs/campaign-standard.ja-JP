@@ -1,6 +1,6 @@
 ---
 title: Adobe Experience Platform オーディエンスのターゲティング
-description: ワークフロー内でAdobe Experience Platformオーディエンスをターゲット設定する方法について説明します。
+description: ワークフロー内でAdobe Experience Platformオーディエンスをターゲットにする方法について説明します。
 audience: automating
 content-type: reference
 topic-tags: channel-activities
@@ -19,47 +19,47 @@ ht-degree: 5%
 
 >[!IMPORTANT]
 >
->Audience Destinationsサービスは現在ベータ版で、予告なく頻繁に更新される可能性があります。 これらの機能にアクセスするには、Azureでホストする必要があります（現在、北米でのみベータ版）。 にアクセスする場合は、Adobeカスタマーケアにお問い合わせください。
+>Audience Destinations サービスは現在ベータ版です。通知なしに頻繁に更新される可能性があります。 お客様は、これらの機能にアクセスするには、Azure 上でホストされている必要があります（現在、北米ではベータ版のみ）。 にアクセスする場合は、Adobeカスタマーケアにお問い合わせください。
 
-セグメントビルダーを使用して[Adobe Experience Platformオーディエンス](../../integrating/using/aep-about-audience-destinations-service.md)を作成したら、ワークフロー内のCampaignオーディエンスがメッセージをパーソナライズおよび送信する場合と同じ方法で使用できます。
+以下を作成したら、 [Adobe Experience Platformオーディエンス](../../integrating/using/aep-about-audience-destinations-service.md) セグメントビルダーを使用すると、ワークフロー内の Campaign オーディエンスがメッセージをパーソナライズおよび送信する際と同じ方法で使用できます。
 
 ワークフローでAdobe Experience Platformオーディエンスをアクティブ化するには、次の手順に従います。
 
-1. ワークフローに&#x200B;**[!UICONTROL Read audience]**&#x200B;アクティビティを追加し、開きます。
+1. を追加します。 **[!UICONTROL Read audience]** 「 」アクティビティをワークフローに追加し、開きます。
 
-1. **[!UICONTROL Type of audience]**&#x200B;の下の&#x200B;**[!UICONTROL Adobe Experience Platform]**&#x200B;オプションを選択し、目的のオーディエンスを追加します。
+1. を選択します。 **[!UICONTROL Adobe Experience Platform]** のオプション **[!UICONTROL Type of audience]**&#x200B;次に、目的のオーディエンスを追加します。
 
    ![](assets/aep_wkf_readaudience.png)
 
 1. （オプション）オーディエンスが選択されたら、目のボタンをクリックして、セグメント定義を確認または編集できます（変更を再度保存してください）。
 
-   目のボタンをクリックすると、Campaign内の選択したオーディエンスに関連付けられた（別のタブにある）セグメントビルダーに移動できます。
+   目のボタンをクリックすると、Campaign 内の選択したオーディエンスに関連付けられている（別のタブの）セグメントビルダーに移動します。
 
-1. **[!UICONTROL Platform data mapping]**&#x200B;要素を選択し、選択したAdobe Experience Platformオーディエンスの目的のターゲティングディメンションを指定します。
+1. を選択します。 **[!UICONTROL Platform data mapping]** 要素を使用して、選択したAdobe Experience Platformオーディエンスの目的のターゲティングディメンションを指定します。
 
-   デフォルトでは、紐付けに使用されるプライマリキー（プロファイルテーブルのiRecipientID、AppSubscriptionテーブルのiAppSubscriptionIDなど）は、ドロップダウンリストから自動的に使用可能になります。 プライマリキー外でターゲットを設定するには、カスタムの&#x200B;**名前空間**&#x200B;を作成する必要があります。
+   デフォルトでは、紐付けに使用されるプライマリキー（例：プロファイルテーブルの iRecipientID、AppSubscription テーブルの iAppSubscriptionID）は、ドロップダウンリストから自動的に使用できます。 プライマリキー以外でターゲット設定するには、カスタムキーを作成する必要があります **名前空間**.
 
    >[!NOTE]
    >
-   >プライマリキー以外のターゲットの場合は、カスタム名前空間に対応するカスタムターゲットマッピングも作成する必要があります。 ターゲットマッピングの詳細については、[この節](../../administration/using/target-mappings-in-campaign.md)を参照してください。
+   >プライマリキー以外のターゲットの場合は、カスタム名前空間に対応するカスタムターゲットマッピングも作成する必要があります。 ターゲットマッピングについて詳しくは、 [この節](../../administration/using/target-mappings-in-campaign.md).
 
    ![](assets/aep_wkf_readaudience_namespace.png)
 
-   このリストには、インスタンスで設定されたすべてのエクスペリエンスデータモデル(XDM)マッピングが含まれます。 Adobe Experience Platform Data Connectorについて詳しくは、この専用ドキュメント](../../integrating/using/aep-about-data-connector.md)を参照してください。[
+   このリストには、インスタンスで設定されたすべての Experience Data Model(XDM) マッピングが含まれています。 Adobe Experience Platform Data Connector について詳しくは、 [この専用ドキュメント](../../integrating/using/aep-about-data-connector.md).
 
    ![](assets/aep_wkf_readaudience_namespace2.png)
 
-1. オーディエンスとターゲティングディメンションが正しく設定されたら、「**[!UICONTROL Confirm]**」ボタンをクリックして変更を保存します。
+1. オーディエンスとターゲティングディメンションが正しく設定されたら、 **[!UICONTROL Confirm]** ボタンをクリックして、変更を保存します。
 
-これで、他のアクティビティを使用してワークフローを設定できます。 例えば、**[!UICONTROL Email delivery]**&#x200B;アクティビティをリンクして、選択したオーディエンスにEメールを送信できます。
+これで、他のアクティビティを使用したワークフローを設定できます。 例えば、 **[!UICONTROL Email delivery]** 「 」アクティビティを選択して、選択したオーディエンスに E メールを送信します。
 
 ![](assets/aep_wkf_email.png)
 
 >[!NOTE]
 >
->Campaign Standardを使用すると、すべての配信チャネル内でAdobe Experience Platformオーディエンスをターゲット設定できます。Eメール、SMSメッセージ、ダイレクトメールメッセージ、プッシュ通知およびアプリ内メッセージ。
+>Campaign Standardを使用すると、すべての配信チャネル内でAdobe Experience Platformオーディエンスをターゲットに設定できます。E メール、SMS メッセージ、ダイレクトメールメッセージ、プッシュ通知およびアプリ内メッセージ。
 >
->*注意：すべてのプッシュメッセージおよびアプリ内メッセージで、Campaign Standardは既知のプロファイルの配信のみをサポートします。
+>*注意：すべてのプッシュメッセージおよびアプリ内メッセージで、Campaign Standardは既知のプロファイルに対する配信のみをサポートします。
 
 ワークフローと配信の使用方法について詳しくは、次の節を参照してください。
 

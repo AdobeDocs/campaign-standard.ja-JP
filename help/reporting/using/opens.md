@@ -1,6 +1,6 @@
 ---
 title: 開封数
-description: 開封数レポートでは、様々な条件に従って最も多く閲覧された配信を確認できます。
+description: 開封数レポートを使用して、様々な条件に従って最も閲覧された配信を確認します。
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
@@ -22,7 +22,7 @@ ht-degree: 50%
 
 ![](assets/delivery_reports_opens.png)
 
-次の4つのテーブルとグラフに基づいて、Eメールを開封した受信者の合計数を分類します。
+以下に基づいて、E メールを開封した受信者の合計数を 4 つのテーブルやグラフで分類します。
 
 * ブラウザー
 * デバイス

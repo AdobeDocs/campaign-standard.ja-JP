@@ -1,6 +1,6 @@
 ---
 title: Campaign でのターゲットマッピング
-description: ターゲットマッピングは、メッセージを配信するためにキャンペーンで使用されるテクニカルオブジェクトです。 配信の送信に必要なすべての技術設定が含まれています。
+description: ターゲットマッピングは、メッセージを配信するために Campaign で使用されるテクニカルオブジェクトです。 配信の送信に必要なすべての技術設定が含まれています。
 audience: administration
 content-type: reference
 topic-tags: application-settings
@@ -17,8 +17,8 @@ ht-degree: 16%
 
 # Campaign でのターゲットマッピング{#target-mappings-in-campaign}
 
-ターゲットマッピングは、メッセージを配信するためにキャンペーンで使用されるテクニカルオブジェクトです。 配信の送信に必要なすべての技術的設定（アドレス、電話番号、オプトイン指標、追加の識別子など）が含まれています。
+ターゲットマッピングは、メッセージを配信するために Campaign で使用されるテクニカルオブジェクトです。 配信レポートには、配信の送信に必要なすべての技術的な設定（住所、電話番号、オプトイン指標、追加の識別子など）が含まれています。
 
-管理者は&#x200B;**[!UICONTROL Administration > Application settings > Target mappings]**&#x200B;メニューからターゲットマッピングにアクセスできます。
+管理者は、 **[!UICONTROL Administration > Application settings > Target mappings]** メニュー
 
-特定のニーズに対応するために、ターゲットマッピングの作成または変更が可能です。 いずれの場合も、ターゲティングディメンションは常にプロファイル（**[!UICONTROL nms:recipient]**&#x200B;テーブル）に対応している必要があります。 ターゲティングディメンションについて詳しくは、[このページ](../../automating/using/query.md#targeting-dimensions-and-resources)を参照してください。
+特定のニーズに対応するために、ターゲットマッピングの作成または変更が可能です。 いずれの場合も、ターゲティングディメンションは常にプロファイル ( **[!UICONTROL nms:recipient]** 表 )。 ターゲティングディメンションについて詳しくは、[このページ](../../automating/using/query.md#targeting-dimensions-and-resources)を参照してください。

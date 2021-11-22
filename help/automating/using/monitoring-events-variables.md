@@ -19,8 +19,8 @@ ht-degree: 19%
 
 宣言された外部パラメーターを含め、ワークフローで使用可能なイベント変数を監視できます。 これは、次の手順に従って行います。
 
-1. **[!UICONTROL External signal]**&#x200B;アクティビティに続くアクティビティを選択し、「**[!UICONTROL Log and tasks]**」ボタンをクリックします。
-1. 「**[!UICONTROL Tasks]**」タブで、「![](assets/edit_darkgrey-24px.png)」ボタンをクリックします。
+1. 次の条件に従うアクティビティを選択します。 **[!UICONTROL External signal]** 「 」アクティビティで、 **[!UICONTROL Log and tasks]** 」ボタンをクリックします。
+1. 内 **[!UICONTROL Tasks]** タブ、クリック ![](assets/edit_darkgrey-24px.png) 」ボタンをクリックします。
 
    ![](assets/extsignal_monitoring_2.png)
 

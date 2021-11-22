@@ -17,41 +17,41 @@ ht-degree: 1%
 
 # トリガーのテスト{#testing-your-triggers}
 
-次のトラブルシューティングのヒントは、Adobe Campaignでトリガーを使用する際に発生する可能性のある最も一般的な問題の解決に役立ちます。
+次のトラブルシューティングのヒントは、Adobe Campaignでトリガーを使用する際に発生する最も一般的な問題を解決するのに役立ちます。
 
-**機能は有効化されていますか。**
+**機能は有効化されていますか？**
 
-トリガー- Campaign 統合がアクティブ化されているかどうかを確認するには、左上隅のAdobe Campaignロゴをクリックし、 **[!UICONTROL Marketing plans]** / **[!UICONTROL Transactional messages]** を選択します。 **[!UICONTROL Experience Cloud Triggers]** 項目が表示されます。
+トリガー- Campaign 統合が有効になっているかどうかを確認するには、左上隅のAdobe Campaignロゴをクリックし、 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]**. 次のように表示されます。 **[!UICONTROL Experience Cloud Triggers]** 項目。
 
 表示されたら、次の手順に進みます。
 
-そうでない場合は、担当のAdobeアカウントエグゼクティブまたはプロフェッショナルサービスパートナーにお問い合わせください。 [ 機能の有効化 ](../../integrating/using/configuring-triggers-in-experience-cloud.md#activating-the-functionality) を参照してください。
+そうでない場合は、Adobeのアカウントエグゼクティブまたはプロフェッショナルサービスパートナーにお問い合わせください。 詳しくは、 [機能の有効化](../../integrating/using/configuring-triggers-in-experience-cloud.md#activating-the-functionality).
 
 **トリガー**
 
-[Campaign でのマッピングされたトリガーの作成 ](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign) で説明されている手順に従って、トリガーを作成します。
+次に示す手順に従います： [Campaign でのマッピングされたトリガーの作成](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign) をクリックしてトリガーを作成
 
-トリガーが作成された場合は、次の手順に進みます。 そうでない場合は、トリガーのエンドポイント接続が失敗したことを意味します。 トリガーがExperience Cloud(Activation Services) でプロビジョニングされているかどうかを確認します。 そうでない場合は、担当のAdobeアカウントエグゼクティブまたはプロフェッショナルサービスパートナーにお問い合わせください。 次の情報が必要です。
+トリガーが作成された場合は、次の手順に進みます。 そうでない場合は、トリガーエンドポイントの接続に失敗したことを意味します。 トリガーがExperience Cloud(Activation services) でプロビジョニングされているかどうかを確認します。 そうでない場合は、Adobeのアカウントエグゼクティブまたはプロフェッショナルサービスパートナーにお問い合わせください。 次の情報が必要です。
 
 * Marketing Cloud会社名
 * IMS 組織 ID
 * Analytics ログイン会社名 (Marketing Cloud会社名と同じ )
 
-**トリガー**
+**トリガーの公開**
 
-[Campaign でのマッピングされたトリガーの作成 ](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign) で説明されている手順に従って、トリガーを公開します。
+次に示す手順に従います： [Campaign でのマッピングされたトリガーの作成](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign) をクリックして、トリガーを公開します。
 
-公開が成功した場合は、次の手順に進みます。 そうでない場合は、Adobeに連絡してインスタンスを再起動し、もう一度やり直してください。
+公開が成功した場合は、次の手順に進みます。 そうでない場合は、Adobeに連絡してインスタンスを再起動し、もう一度試してください。
 
 **Web サイトからトリガーを生成する**
 
-[ トランザクションメッセージテンプレートの編集 ](../../integrating/using/using-triggers-in-campaign.md#editing-the-transactional-message-template) で説明されている手順に従って、トランザクションテンプレートを編集し、公開します。 次に、Web サイトからのトリガーの生成をテストします。
+次に示す手順に従います： [トランザクションメッセージテンプレートの編集](../../integrating/using/using-triggers-in-campaign.md#editing-the-transactional-message-template) トランザクションテンプレートを編集して公開する場合。 次に、Web サイトからのトリガーの生成をテストします。
 
-トリガーが Analytics で受信された場合は、次の手順に進みます。 そうでない場合は、次の項目を確認します。
+Analytics がトリガーを受け取った場合は、次の手順に進みます。 そうでない場合は、次の項目を確認します。
 
-* トリガーは Analytics で有効
+* トリガーは Analytics で有効になっています
 * MCID と Analytics を使用する Web サイトは、DTM で有効になっています
-* トリガーの作成時には、適切な Analytics レポートスイートが使用されます
+* トリガーの作成時に、適切な Analytics レポートスイートが使用される
 
 **トリガーは Campaign で受信されますか？**
 
@@ -64,21 +64,21 @@ ht-degree: 1%
 * Campaign データソースで紐付け ID タイプを確認します。
 * 顧客 ID データソースは、顧客属性を使用して作成されます。
 * データソース ID を確認します。
-* Adobeに、データソース設定の後で Campaign インスタンスを再起動するように依頼します。
-* トリガーレポートでのトリガー解析の問題を確認します。
+* Adobeに、データソースの設定後に Campaign インスタンスを再起動するよう依頼します。
+* トリガーレポートでトリガー解析の問題を確認します。
 
 **トリガーのステータスは保留中ですか？**
 
 そうでない場合は、次の手順に進みます。 その場合は、次のガイドラインに従います。
 
 * トランザクションテンプレートが公開されていることを確認します。
-* プロファイルがオンになっていないことを確ブロックリスト認します。
-* タイポロジルールの適用を確認します。
+* プロファイルがにないことを確認しブロックリストます。
+* タイポロジルールの適用を確認する。
 * トランザクションメッセージのログを確認します。
 
 **メッセージは有効ですか？**
 
-メッセージが無効な場合は、次の項目を確認します。
+メッセージが無効な場合は、次の項目を確認してください。
 
-* 無効とマークされたトリガーエンリッチメントのパーソナライゼーションフィールドについては、関連する eventCusResource コレクションからトランザクションテンプレートを検証します。
+* 無効とマークされたトリガーエンリッチメントパーソナライゼーションフィールドについては、関連する eventCusResource コレクションからトランザクションテンプレートを検証します。
 * メッセージ形式の検証

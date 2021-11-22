@@ -17,16 +17,16 @@ ht-degree: 5%
 
 # エクスポートログの監査{#auditing-export-logs}
 
-管理者は、**[!UICONTROL Administration]** > **[!UICONTROL Users & Security]** > **[!UICONTROL Export audits]**&#x200B;から、エクスポートを実行した日付やユーザーを含む、次のエクスポートのリストを表示できます。
+送信者 **[!UICONTROL Administration]** > **[!UICONTROL Users & Security]** > **[!UICONTROL Export audits]**&#x200B;を使用すると、管理者は、その日付やエクスポートを実行したユーザーを含む、次のすべてのエクスポートのリストを表示できます。
 
-* ワークフローの&#x200B;**[!UICONTROL Transfer file]**&#x200B;アクティビティからのファイルのアップロード。
+* からのファイルのアップロード **[!UICONTROL Transfer file]** 」アクティビティを追加します。
 * リストまたはサブリストからのリストエクスポート。
 * ダイレクトメールメッセージの配信ダッシュボードからダウンロードしたファイル。
 
 >[!NOTE]
 >
->その他の書き出しは追跡されません。 エクスポートのリストは、デフォルトで6か月ごとにパージされます。
+>その他の書き出しは追跡されません。 エクスポートのリストは、デフォルトで 6 か月ごとにパージされます。
 
 左側のウィンドウで、必要に応じて、表示するエクスポートをフィルタリングできます。
 
-[リストの書き出し](../../automating/using/exporting-lists.md)の節で説明したように、リストを別のファイルとして書き出すことができます。
+リストは、 [リストの書き出し](../../automating/using/exporting-lists.md) 」セクションに入力します。

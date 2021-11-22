@@ -1,6 +1,6 @@
 ---
 title: ワークフローのユースケースについて
-description: ワークフローを使用して実行できる使用例について詳しくCampaign Standardします。
+description: ワークフローを使用して実行できる使用例について詳しくは、Campaign Standardを参照してください。
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
@@ -18,7 +18,7 @@ ht-degree: 86%
 
 この節では、Campaign ワークフロー機能を活用する様々なユースケースを示します。
 
-ワークフローを使用できる様々なコンテキストを特定し、ニーズに応えるのに役立ちます。
+ワークフローを使用できる様々なコンテキストを見つけ、ニーズに応えるのに役立ちます。
 
 ## 配信 {#deliveries}
 

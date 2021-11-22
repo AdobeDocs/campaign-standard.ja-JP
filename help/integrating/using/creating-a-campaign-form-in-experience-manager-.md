@@ -17,25 +17,25 @@ ht-degree: 12%
 
 # Experience Manager での Campaign フォームの作成 {#creating-a-campaign-form-in-experience-manager}
 
-AEMサイト上に「フォーム」を作成し、フォーム内のフィールドをAdobe Campaignデータベースのフィールドにマッピングできます。 これにより、プロファイルを作成および更新したり、サービスの購読を管理したりできます。
+AEMサイト上で「フォーム」を作成し、フォーム内のフィールドをAdobe Campaignデータベースのフィールドにマッピングできます。 これにより、プロファイルを作成および更新したり、サービスの購読を管理したりできます。
 
 AEMサイトでAdobe Campaignフォームを作成するには：
 
-1. AEMサイトで、**Adobe Campaignプロファイル**&#x200B;テンプレートに基づいて新しいページを作成します。
+1. AEMサイトで、 **Adobe Campaign Profile** テンプレート。
 
    ![](assets/aem_content_forms.png)
 
-1. ページのプロパティで、Adobe Campaignインスタンスに対応する&#x200B;**[!UICONTROL Cloud Service]**&#x200B;を選択します。
+1. ページのプロパティで、 **[!UICONTROL Cloud Service]** Adobe Campaignインスタンスに対応しています。
 
    ![](assets/aem_content_forms_2.png)
 
-1. **[!UICONTROL Form Start]**&#x200B;コンポーネントからフォームタイプを選択します。
+1. 次の中からフォームタイプを選択します。 **[!UICONTROL Form Start]** コンポーネント：
 
-   * **Adobe Campaign:プロファイルの保存**
-   * **Adobe Campaign:サービスの購読**
-   * **Adobe Campaign:サービスの購読解除**
+   * **Adobe Campaign:プロファイルを保存**
+   * **Adobe Campaign:サービスを購読**
+   * **Adobe Campaign:サービスを購読解除**
 
-1. Adobe Campaignデータベースフィールドにマッピングできる様々なフィールドやコンポーネントを追加して、フォームのコンテンツを編集します。
+1. Adobe Campaignデータベースフィールドにマッピングできる別のフィールドやコンポーネントを追加して、フォームのコンテンツを編集します。
 1. フォームをテストしてパブリッシュし、AEMサイト上でアクセスできるようにします。
 
-詳しくは、[詳細なドキュメント](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/aem-adobe-campaign/adobe-campaign-forms.html)を参照してください。
+詳しくは、[詳細ドキュメント](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/aem-adobe-campaign/adobe-campaign-forms.html)を参照してください。

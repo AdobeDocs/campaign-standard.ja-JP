@@ -47,9 +47,9 @@ ht-degree: 82%
 
    「**[!UICONTROL Condition]**」フィールドの編集時に、2 つのボタンを使用してイベント変数を呼び出し、変数と関数を組み合わせた式を編集できます。
 
-   * ![](assets/extsignal_picker.png):ワークフローで使用可能なすべての変数の中からイベント変数を選択します( [このページ](../../automating/using/customizing-workflow-external-parameters.md)を参照)。
+   * ![](assets/extsignal_picker.png):ワークフローで使用可能なすべての変数の中からイベント変数を選択します ( [このページ](../../automating/using/customizing-workflow-external-parameters.md)) をクリックします。
 
-      例えば、**[!UICONTROL filesCount]**&#x200B;変数を使用して、[ファイル転送](../../automating/using/transfer-file.md)アクティビティの後にダウンロードされたファイルの数を確認できます。
+      例えば、 [ファイル転送](../../automating/using/transfer-file.md) アクティビティ **[!UICONTROL filesCount]** 変数を使用します。
 
       ![](assets/wkf_test_activity_variables.png)
 

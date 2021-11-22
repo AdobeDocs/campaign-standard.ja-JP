@@ -1,6 +1,6 @@
 ---
 title: トラブルシューティング
-description: Campaign StandardAPIに関する一般的な問題の詳細
+description: Campaign StandardAPI に関する一般的な問題の詳細
 audience: developing
 content-type: reference
 topic-tags: use-case--extending-the-api
@@ -17,16 +17,16 @@ ht-degree: 1%
 
 # トラブルシューティング {#troubleshooting}
 
-* **Adobe.ioコンソールに移動すると、次のエラーが表示されます。「Adobe I/Oコンソールは、エンタープライズアカウントのメンバーを選択する場合にのみ使用できます。アクセス権が必要な場合は、システム管理者にお問い合わせください。&quot;**
+* **Adobe.io コンソールに移動すると、次のエラーが表示されます。「Adobe I/O・コンソールは、エンタープライズ・アカウントの一部のメンバーのみが使用できます。 アクセス権が必要な場合は、システム管理者にお問い合わせください。」**
 
-APIキーは、管理者のIMS組織に対してのみ作成できます。 このメッセージが表示され、APIキーを作成してIMS組織の管理者に問い合わせる場合。
+自分が管理している IMS 組織の API キーのみを作成できます。 このメッセージが表示され、API キーを作成して IMS 組織の管理者に問い合わせたい場合。
 
-* **Adobe.ioに対して要求を行うと、{&quot;error_code&quot;:&quot;403023&quot;,&quot;message&quot;:&quot;Profile is not valid&quot;}が返されます**
+* **Adobe.io に対してリクエストを実行すると、{&quot;error_code&quot;:&quot;403023&quot;,&quot;message&quot;:&quot;Profile is not valid&quot;} が表示されます**
 
-つまり、特定のCampaign製品のIMSプロビジョニングに問題があります。IMSチームが修正する必要があります。
+つまり、特定の Campaign 製品の IMS プロビジョニングに問題があるということです。IMS チームが修正する必要があります。
 
-詳細を取得するには、トークンを使用してIMS APIを呼び出し、IMSプロファイルがどのように表示されるかを確認します。prodCtxが必要です。このprodCtxでは、URLに入力したものと同じorganization_idを使用して、Adobe.ioでリクエストをルーティングできます。
-IMSプロビジョニングが見つからない場合は、修正する必要があります。
+詳細を取得するには、トークンを使用して IMS API を呼び出し、IMS プロファイルがどのように表示されるかを確認します。prodCtx が必要です。このとき、organization_id が、Adobe.io がリクエストをルーティングできるように、URL に入力したものと同じである必要があります。
+見つからない場合は、IMS プロビジョニングを修正する必要があります。
 
 ```
 -X GET https://mc.adobe.io/{ORGANIZATION}/campaign/profileAndServices/profile \
@@ -42,7 +42,7 @@ IMSプロビジョニングが見つからない場合は、修正する必要�
 {"error_code":"403023","message":"Profile is not valid"}
 ```
 
-このリクエストでIMSプロファイルを確認します。
+このリクエストで IMS プロファイルを確認します。
 
 ```
 -X GET https://ims-na1.adobelogin.com/ims/profile/v1 \
@@ -52,7 +52,7 @@ IMSプロビジョニングが見つからない場合は、修正する必要�
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-応答では、 ORGANIZATION_IDの値は、最初のGETリクエストで同じである必要があります。
+応答では、 ORGANIZATION_ID の値は最初のGETリクエストと同じである必要があります。
 
 ```
 {
@@ -77,17 +77,17 @@ IMSプロビジョニングが見つからない場合は、修正する必要�
 }
 ```
 
-* **Adobe.ioに対してリクエストを行うと、{&quot;code&quot;:500, &quot;message&quot;:&quot;Oops.エラーが発生しました. URIを確認して、もう一度やり直してください。&quot;}**
+* **Adobe.io に対してリクエストを行うと、{&quot;code&quot;:500, &quot;message&quot;:&quot;Oops が表示されます。 エラーが発生しました. URI を確認し、再度お試しください。&quot;}**
 
-Adobe.ioが無効なURIを宣言します。要求しているURIが有効でない可能性が高くなります。 Adobe.ioでCampaignサービスを選択すると、選択可能なorganization_idのリストを含むピッカーが表示されます。 URLに入力したものが選択したものであることを確認する必要があります。
+Adobe.io が無効な URI を宣言します：要求している URI が有効でない可能性が高くなります。 Adobe.io で Campaign サービスを選択すると、選択ツールに選択可能な organization_ids のリストが表示されます。 選択したものが、URL に配置したものであることを確認する必要があります。
 
-* **Adobe.ioに対して要求を行うと、{&quot;error_code&quot;:&quot;401013&quot;,&quot;message&quot;:&quot;Oauth token is not valid&quot;}が返されます。**
+* **Adobe.io に対してリクエストを行うと、{&quot;error_code&quot;:&quot;401013&quot;、&quot;message&quot;:&quot;OAuth token is not valid&quot;} が表示されます**
 
-トークンが無効である（トークンの生成に使用された不適切なIMS呼び出し）か、トークンの有効期限が切れています。
+トークンが無効（トークンの生成に使用される不適切な IMS 呼び出し）か、トークンの有効期限が切れています。
 
-* **作成後にプロファイルが表示されない**
+* **作成後、自分のプロファイルが表示されない**
 
-インスタンスの設定に応じて、作成したプロファイルを&#x200B;**orgUnit**&#x200B;に関連付ける必要があります。 このフィールドを作成に追加する方法については、[この節](../../api/using/creating-profiles.md)を参照してください。
+インスタンスの設定に応じて、作成したプロファイルを **orgUnit**. このフィールドを作成に追加する方法については、 [この節](../../api/using/creating-profiles.md).
 
 <!-- * (error duplicate key : quand tu crées un profile qui existe déjà , il faut faire un patch pour updater le profile plutôt qu’un POST)
 

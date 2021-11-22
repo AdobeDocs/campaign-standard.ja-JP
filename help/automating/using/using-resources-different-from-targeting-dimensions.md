@@ -1,6 +1,6 @@
 ---
 title: ターゲティングディメンションとは異なるリソースの使用
-description: ターゲティングディメンションとは異なるリソースの使用方法を説明します。
+description: ターゲティングディメンションとは異なるリソースを使用する方法を説明します。
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -20,7 +20,7 @@ ht-degree: 81%
 
 この使用例では、ターゲティングディメンションとは異なるリソースを使用して、例えば、距離テーブル内の特定のレコードを検索する方法を示します。
 
-ターゲティングディメンションとリソースについて詳しくは、[この節](../../automating/using/query.md#targeting-dimensions-and-resources)を参照してください。
+ターゲティングディメンションとリソースについて詳しくは、 [この節](../../automating/using/query.md#targeting-dimensions-and-resources)
 
 **例 1：配信が「お帰りなさい」というラベルでターゲットするプロファイルの識別**。
 

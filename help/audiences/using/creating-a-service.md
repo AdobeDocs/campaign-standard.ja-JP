@@ -20,7 +20,7 @@ ht-degree: 95%
 
 サブスクリプションを管理するには、まずサービスを作成し、設定する必要があります。新しいサービスを設定すると、プロファイルがサービスを登録または登録解除する際に受け取る電子メール確認を指定できます。また、サービスにリンクされている購読と購読解除のランディングページも定義します。例えば、電子メールにサービスサブスクリプションリンクを挿入すると、サービスで指定されたサブスクリプションランディングページにプロファイルが自動的に誘導されます。
 
-![](assets/do-not-localize/how-to-video.png) [この機能をビデオで確認](#video)
+![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](#video)
 
 サービスを設定するには、次の手順に従います。
 
@@ -63,8 +63,8 @@ ht-degree: 95%
 
 ## チュートリアルビデオ {#video}
 
-このビデオでは、サービスの作成方法と購読の管理方法を説明します。
+このビデオでは、サービスの作成方法と購読の管理方法を示します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/24673?quality=12)
 
-追加のCampaign Standardハウツービデオは[こちら](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja)からご覧いただけます。
+その他のCampaign Standardのハウツービデオも利用できます [ここ](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja).

@@ -49,14 +49,14 @@ ht-degree: 84%
    <td> Adobe Experience Manager<br /> </td> 
    <td> E メールコンテンツや Adobe Campaign データベースにマッピングされたフォームを Adobe Experience Manager で直接作成することができます。<br /> </td> 
    <td> 
-     <a href="../../integrating/using/integrating-with-experience-manager.md">キャンペーンとExperience Managerの使用</a>、 <a href="https://helpx.adobe.com/jp/experience-manager/6-4/sites/administering/using/campaignstandard.html">Experience ManagerとCampaign Standardの統合</a>、 <a href="https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html">Experience Managerとキャンペーンを使用したEメールの作成</a> 
+     <a href="../../integrating/using/integrating-with-experience-manager.md">Campaign とExperience Managerの使用</a>, <a href="https://helpx.adobe.com/jp/experience-manager/6-4/sites/administering/using/campaignstandard.html">統合Experience ManagerとCampaign Standard</a>, <a href="https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html">Experience Managerとキャンペーンを含む E メールの作成</a> 
     </td> 
   </tr> 
   <tr> 
    <td> Adobe Target<br /> </td> 
    <td> Adobe Campaign で作成、送信された E メールが開封されたときに Adobe Target が動的に自動生成した画像を挿入することができます。<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-campaign-target-integration.md">CampaignとTargetの使用</a>、CampaignとTargetの統合 <a href="https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html?lang=ja">、Eメール画像のパーソナラ</a>イズ(リアルタイム <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html"></a> ビデオ)（手順3）
+    <a href="../../integrating/using/about-campaign-target-integration.md">Campaign と Target の使用</a>, <a href="https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html?lang=ja">Campaign と Target の統合</a>, <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">リアルタイムでの電子メール画像のパーソナライズ</a> ビデオ（手順 3）
     </td> 
   </tr> 
   <tr> 
@@ -77,7 +77,7 @@ ht-degree: 84%
    <td><a href="../../integrating/using/get-started-sources-destinations.md">ソースと宛先の概要</a></td>
   </tr> 
   <tr> 
-   <td> AdobeアセットコアサービスとAssets On Demand<br /> </td> 
+   <td> AdobeAssets コアサービスと Assets On Demand<br /> </td> 
    <td> Adobe Campaign で作成した E メールとランディングページに Adobe Experience Cloud ライブラリからアセットを挿入することができます。<br /> </td> 
    <td> <a href="../../integrating/using/working-with-campaign-and-assets-core-service.md">Assets コアサービス</a>と Assets On Demand<br /> </td> 
   </tr> 
@@ -95,14 +95,14 @@ ht-degree: 84%
   </tr> 
     <tr> 
    <td> Adobe Journey Orchestration<br /> </td> 
-   <td> 標準のアクションを使用して、Adobe Campaign Standardのトランザクションメッセージング機能をAdobeJourney Orchestrationのコンテキストで使用して、Eメール、プッシュ通知、SMSを送信できます。<br /> </td> 
+   <td> 標準のアクションを使用して、AdobeJourney OrchestrationのコンテキストでAdobe Campaign Standardのトランザクションメッセージ機能を使用して、E メール、プッシュ通知、SMS を送信できます。<br /> </td> 
    <td> <a href="https://experienceleague.adobe.com/docs/journeys/using/action-journeys/working-with-adobe-campaign.html?lang=en">AdobeJourney OrchestrationとAdobe Campaign Standardの使用</a><br /> </td> 
   </tr> 
   <tr> 
    <td> Adobe Dreamweaver<br /> </td> 
    <td> Dreamweaver で E メールコンテンツを編集し、Adobe Campaign と同期できます。<br /> </td> 
    <td> 
-    <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=ja">Dreamweavervideoを使用してパーソナライズさ</a> れたEメールを作成 <a href="https://helpx.adobe.com/jp/dreamweaver/using/working-with-dreamweaver-and-campaign.html">し、Dreamweaver用Campaign拡張機能を使用する</a> 
+    <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=ja">Dreamweaverでパーソナライズされた E メールを作成</a> ビデオ、 <a href="https://helpx.adobe.com/jp/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaverの Campaign 拡張機能を使用する</a> 
   </td> 
   </tr> 
   <tr> 

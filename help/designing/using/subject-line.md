@@ -1,6 +1,6 @@
 ---
-title: Eメールの件名行と送信者の定義
-description: EメールデザイナーでEメールの件名行と送信者を定義する方法を説明します。
+title: E メールの件名行と送信者の定義
+description: E メールデザイナーで E メールの件名行と送信者を定義する方法を説明します。
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
@@ -15,37 +15,37 @@ ht-degree: 11%
 
 ---
 
-# Eメールの件名行と送信者の定義{#defining-the-subject-line-of-an-email}
+# E メールの件名行と送信者の定義{#defining-the-subject-line-of-an-email}
 
-## Eメールの件名行の定義 {#subject-line}
+## E メールの件名行の定義 {#subject-line}
 
 メッセージの件名は、メッセージの準備と送信に必須です。
 
 >[!NOTE]
 >
->件名行が空の場合は、メッセージダッシュボードとEメールデザイナーに警告が表示されます。
+>件名行が空の場合、警告がメッセージダッシュボードと E メールデザイナーに表示されます。
 
 1. メールの作成.
-1. Eメールデザイナーホームページの「**[!UICONTROL Properties]**」タブに移動します（ホームアイコンからアクセス可能）。
-1. **[!UICONTROL Subject]**&#x200B;セクションに入力します。
+1. 次に進みます。 **[!UICONTROL Properties]** Email Designer ホームページの「 」タブ（ホームアイコンからアクセス可能）
+1. 次の項目に入力： **[!UICONTROL Subject]** 」セクションに入力します。
 
    ![](assets/email_designer_subject.png)
 
-1. 対応するアイコンをクリックして、パーソナライゼーションフィールド、コンテンツブロックおよび動的コンテンツを件名行に追加することもできます。 詳しくは、[パーソナライゼーション](../../designing/using/personalization.md)を参照してください。
+1. 対応するアイコンをクリックして、パーソナライゼーションフィールド、コンテンツブロック、動的コンテンツを件名行に追加することもできます。 詳しくは、 [パーソナライズ](../../designing/using/personalization.md).
 
-## EメールのEメール送信者の定義 {#email-sender}
+## E メールの E メール送信者の定義 {#email-sender}
 
-送信するメッセージのヘッダーに表示される送信者の名前を定義するには、Eメールデザイナーホームページ（ホームアイコンからアクセス可能）の「**[!UICONTROL Properties]**」タブに移動します。
+送信するメッセージのヘッダーに表示される送信者の名前を定義するには、 **[!UICONTROL Properties]** Email Designer ホームページの「 」タブ（ホームアイコンからアクセス可能）
 
 ![](assets/delivery_content_edition16.png)
 
-* 「**[!UICONTROL From: name]**」フィールドには、送信者名を入力できます。 デフォルトでは、「**送信者名**」ブロックが自動的にフィールドに入力されます。 デフォルトの送信者Eメールアドレスと送信者名は、詳細設定メニュー&#x200B;**[!UICONTROL Administration > Instance settings > Brand configuration]**&#x200B;のAdobe Campaignのロゴからアクセスできる&#x200B;**[!UICONTROL Brands]**&#x200B;に定義されています。
+* この **[!UICONTROL From: name]** 「 」フィールドには、送信者名を入力できます。 デフォルトでは、 **送信者名** ブロックが自動的に「 」フィールドに入力されます。 デフォルトの送信者 E メールアドレスと送信者名は、 **[!UICONTROL Brands]** 詳細設定メニューのAdobe Campaignロゴからアクセス可能 **[!UICONTROL Administration > Instance settings > Brand configuration]** .
 
-   送信者名は、**送信者名**&#x200B;ブロックをクリックして変更できます。 フィールドが編集可能になり、使用する名前を入力できます。
+   送信者名を変更するには、 **送信者名** ブロック フィールドが編集可能になり、使用する名前を入力できます。
 
-   このフィールドはパーソナライズできます。 これをおこなうには、送信者名の下のアイコンをクリックして、パーソナライゼーションフィールド、コンテンツブロックおよび動的コンテンツを追加します。 詳しくは、[パーソナライゼーション](../../designing/using/personalization.md)を参照してください。
+   このフィールドはパーソナライズできます。 これをおこなうには、送信者名の下のアイコンをクリックして、パーソナライゼーションフィールド、コンテンツブロック、動的コンテンツを追加します。 詳しくは、 [パーソナライズ](../../designing/using/personalization.md).
 
-* **[!UICONTROL From: email address]**&#x200B;フィールドは、このセクションからは編集できません。 電子メールのプロパティをダッシュボードから編集することで、変更できます。 詳しくは、[Eメールの詳細設定パラメーターのリスト](../../administration/using/configuring-email-channel.md#advanced-parameters)を参照してください。
+* この **[!UICONTROL From: email address]** このセクションからはフィールドを編集できません。 電子メールを変更するには、電子メールのダッシュボードからプロパティを編集します。 詳しくは、 [E メールの詳細設定パラメーターのリスト](../../administration/using/configuring-email-channel.md#advanced-parameters).
 
 >[!NOTE]
 >
@@ -55,4 +55,4 @@ ht-degree: 11%
 
 * [パーソナライゼーションフィールドの挿入](../../designing/using/personalization.md#inserting-a-personalization-field)
 * [コンテンツブロックの追加](../../designing/using/personalization.md#adding-a-content-block)
-* [Eメールでの動的コンテンツの定義](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)
+* [E メールでの動的コンテンツの定義](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)

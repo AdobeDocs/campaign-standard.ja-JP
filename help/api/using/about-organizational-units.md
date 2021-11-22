@@ -1,6 +1,6 @@
 ---
 title: 組織単位について
-description: 組織単位とAPIについて詳しく説明します。
+description: 組織単位と API の詳細を説明します。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -14,6 +14,6 @@ ht-degree: 0%
 
 # 組織単位について {#about-organizational-units}
 
-**orgUnitBase**&#x200B;エンドポイントを使用すると、組織単位を操作でき、例えば、属性を更新したり、プロファイルの組織単位を更新したりできます。 Campaignの組織単位について詳しくは、[Campaignのドキュメント](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/users-and-security/organizational-units.html?lang=en#administrating)を参照してください。
+この **orgUnitBase** endpoint を使用すると、組織単位を操作して、例えば、属性を更新したり、プロファイルの組織単位を更新したりできます。 Campaign の組織単位について詳しくは、 [Campaign ドキュメント](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/users-and-security/organizational-units.html?lang=en#administrating).
 
-プロファイルリソースを拡張する際に、「**Organizational unit**」フィールドがプロファイルに追加されます。 そのため、必ず&#x200B;**profileAndServicesExt**&#x200B;エンドポイントを使用して地理的単位とやり取りするようにしてください。 プロファイルのリソース拡張について詳しくは、[Campaignのドキュメント](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/users-and-security/organizational-units.html?lang=en#partitioning-profiles)を参照してください。
+この **組織単位** プロファイルリソースを拡張する際に、フィールドがプロファイルに追加されます。 そのため、必ず **profileAndServicesExt** 地理的単位とやり取りするエンドポイント。 プロファイルのリソース拡張について詳しくは、 [Campaign ドキュメント](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/users-and-security/organizational-units.html?lang=en#partitioning-profiles).

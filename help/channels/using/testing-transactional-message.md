@@ -22,9 +22,9 @@ ht-degree: 37%
 
 ## 特定のテストプロファイルの定義 {#defining-specific-test-profile}
 
-イベントにリンクされるテストプロファイルを定義します。これにより、メッセージをプレビューし、関連する配達確認を送信できます。
+イベントにリンクするテストプロファイルを定義します。これにより、メッセージをプレビューし、関連する配達確認を送信できます。
 
-1. [ トランザクションメッセージダッシュボード ](../../channels/using/editing-transactional-message.md#accessing-transactional-messages) で、「**[!UICONTROL Create test profile]**」ボタンをクリックします。
+1. 次の [トランザクションメッセージダッシュボード](../../channels/using/editing-transactional-message.md#accessing-transactional-messages)、 **[!UICONTROL Create test profile]** 」ボタンをクリックします。
 
    ![](assets/message-center_test-profile.png)
 
@@ -34,7 +34,7 @@ ht-degree: 37%
 
    >[!NOTE]
    >
-   >メッセージをエンリッチメントする場合は、**[!UICONTROL Profile]** など、別のテーブルに関する情報を入力することもできます。 [ イベントのエンリッチメント ](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) および [ トランザクションメッセージのパーソナライズ ](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message) を参照してください。
+   >メッセージをエンリッチメントする場合は、別のテーブルに関連する情報 ( 例： **[!UICONTROL Profile]**. 詳しくは、 [イベントのエンリッチメント](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) および [トランザクションメッセージのパーソナライズ](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message).
 
 1. 作成後、テストプロファイルはトランザクションメッセージで事前に指定されます。 配達確認のターゲットを確認するには、メッセージの「**[!UICONTROL Test profiles]**」ブロックをクリックします。
 
@@ -42,14 +42,14 @@ ht-degree: 37%
 
 新規テストプロファイルを作成するか、既に「**[!UICONTROL Test profiles]**」メニューにあるテストを使用することもできます。手順は次のとおりです。
 
-1. 左上隅の **Adobe** ロゴをクリックし、**[!UICONTROL Profiles & audiences]** / **[!UICONTROL Test profiles]** を選択します。
-1. **[!UICONTROL Event]** セクションで、先ほど作成したイベントを選択します。 この例では、「買い物かごの放棄（EVTcartAbandant）」を選択します。
+1. 次をクリック： **Adobe** ロゴ（左上隅）に移動し、「 **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]**.
+1. 内 **[!UICONTROL Event]** 「 」セクションで、作成したイベントを選択します。 この例では、「買い物かごの放棄（EVTcartAbandant）」を選択します。
 1. JSON 形式で送信する情報を「**[!UICONTROL Event data]**」テキストボックスに指定します。
 
    ![](assets/message-center_3.png)
 
 1. 変更を保存します。
-1. [作成したメッ](../../channels/using/editing-transactional-message.md#accessing-transactional-messages) セージにアクセスし、更新されたテストプロファイルを選択します。
+1. [メッセージにアクセス](../../channels/using/editing-transactional-message.md#accessing-transactional-messages) 作成し、更新されたテストプロファイルを選択したこと
 
 **関連トピック：**
 
@@ -62,4 +62,4 @@ ht-degree: 37%
 
 ![](assets/message-center_10.png)
 
-配達確認の送信手順について詳しくは、[ 配達確認の送信 ](../../sending/using/sending-proofs.md) の節を参照してください。
+配達確認の送信手順について詳しくは、 [配達確認の送信](../../sending/using/sending-proofs.md) 」セクションに入力します。

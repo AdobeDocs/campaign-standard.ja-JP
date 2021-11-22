@@ -1,6 +1,6 @@
 ---
 title: メッセージへのアクセス
-description: 「メッセージとその高度な機能にアクセスする方法を説明します。作成、ターゲティング、パーソナライゼーション、実行、レポート作成を行います。」
+description: 「メッセージとその高度な機能にアクセスする方法を学ぶ：作成、ターゲティング、パーソナライゼーション、実行、レポート作成を行います。」
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels
@@ -18,41 +18,41 @@ ht-degree: 1%
 
 # メッセージへのアクセス{#accessing-messages}
 
-ターゲティング、メッセージの作成とパーソナライズ、通信の実行、関連する運用レポートなど、一連の高度な機能にアクセスできます。
+メッセージのターゲティング、作成およびパーソナライズ、通信の実行、関連する運用可能なレポートなど、一連の高度な機能にアクセスできます。
 
-メッセージには次の場所からアクセスできます。
+メッセージには次のようにアクセスできます。
 
-* キャンペーン内で
+* キャンペーン内
 * Adobe Campaignホームページから
-* マーケティングアクティビティのリストから
+* マーケティング活動のリストから
 
 ## キャンペーン内のメッセージへのアクセス {#accessing-messages-in-campaigns}
 
 キャンペーンのマーケティングアクティビティのリストにアクセスするには：
 
-1. 上部のナビゲーションバーから&#x200B;**[!UICONTROL Marketing activities]**&#x200B;に移動します。
+1. に移動します。 **[!UICONTROL Marketing activities]** 上部ナビゲーションバーから。
 1. 「**[!UICONTROL Marketing activities > Marketing plans > Programs & Campaigns]**」を選択します。
 
-   また、ホームページから&#x200B;**[!UICONTROL Programs & Campaigns]**&#x200B;カードを直接クリックすることもできます。 キャンペーンについて詳しくは、[プログラムとキャンペーン](../../start/using/programs-and-campaigns.md)の節を参照してください。
+   また、 **[!UICONTROL Programs & Campaigns]** カードをホームページから削除します。 キャンペーンについて詳しくは、 [プログラムとキャンペーン](../../start/using/programs-and-campaigns.md) 」セクションに入力します。
 
 1. プログラム、キャンペーンの順に選択します。
 
    ![](assets/delivery_list_1.png)
 
-1. **[!UICONTROL Summary]**&#x200B;ドロップダウンリストをクリックします。
-1. **[!UICONTROL Search]**&#x200B;をクリックして、メッセージの表示方法（名前、日付、ステータス）をフィルターします。
+1. 次をクリック： **[!UICONTROL Summary]** 」ドロップダウンリストから選択できます。
+1. クリック **[!UICONTROL Search]** メッセージの表示方法を（名前、日付、ステータス別に）フィルターする場合。
 
-   繰り返しメッセージをフィルターするには、対応するボックスをオンにします。
+   繰り返しメッセージをフィルタリングするには、該当するボックスをオンにします。
 
 ## メッセージリストへのアクセス {#accessing-the-message-list}
 
 組み合わされたすべてのキャンペーンのマーケティングアクティビティの完全なリストにアクセスするには：
 
-1. 上部のナビゲーションバーから「**[!UICONTROL Marketing activities]**」を選択します。
+1. 選択 **[!UICONTROL Marketing activities]** 上部のナビゲーションバーから。
 
-   ホームページの&#x200B;**[!UICONTROL Marketing activities]**&#x200B;カードからもアクセスできます。 マーケティングアクティビティのリストについて詳しくは、[マーケティングアクティビティの管理](../../start/using/marketing-activities.md#creating-a-marketing-activity)の節を参照してください。
+   また、 **[!UICONTROL Marketing activities]** カードをホームページに表示します。 マーケティングアクティビティのリストについて詳しくは、 [マーケティングアクティビティの管理](../../start/using/marketing-activities.md#creating-a-marketing-activity) 」セクションに入力します。
 
-1. マーケティングアクティビティを（名前、日付、ステータス、アクティビティタイプ別に）フィルターするには、マーケティングアクティビティのリストの左側にある&#x200B;**[!UICONTROL Search]**&#x200B;フィールドを使用します。
+1. マーケティングアクティビティを（名前、日付、ステータス、アクティビティタイプ別に）フィルタリングするには、 **[!UICONTROL Search]** マーケティングアクティビティのリストの左側にあるフィールド。
 
 ![](assets/delivery_list_2.png)
 
@@ -62,9 +62,9 @@ ht-degree: 1%
 
 * **[!UICONTROL Editing]** （グレー）:メッセージは編集中です。
 * **[!UICONTROL In progress]** （青）:メッセージを送信中です。
-* **[!UICONTROL Finished]** （緑）:送信は終了しました。エラーは発生しません。
-* **[!UICONTROL Erroneous]** （赤）:メッセージの準備中または送信中に送信が取り消されたか、エラーが発生しました。
+* **[!UICONTROL Finished]** （緑）:送信は完了しましたが、エラーは発生しませんでした。
+* **[!UICONTROL Erroneous]** （赤）:メッセージの準備中または送信中に送信がキャンセルされたか、エラーが発生しました。
 
    >[!NOTE]
    >
-   >アクションが必要な場合（例えば、メッセージの送信を確認する必要がある場合）は、黄色い通知バナーがカードの上に表示される場合があります。
+   >アクションが必要な場合（例えば、メッセージの送信を確認する必要がある場合）は、黄色の通知バナーがカードの上に表示されます。

@@ -1,6 +1,6 @@
 ---
 title: Campaign と Assets コアサービスの連携
-description: Assetsコアサービスの統合を利用して、Adobe Experience Cloud内で共有されているリソースをAdobe Campaignメッセージとランディングページで使用します。
+description: Assets コアサービスの統合により、Adobe Experience Cloud内で共有されているリソースをAdobe Campaignメッセージとランディングページで使用できます。
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-assets-core-service
@@ -17,13 +17,13 @@ ht-degree: 23%
 
 # Campaign と Assets コアサービスの連携{#working-with-campaign-and-assets-core-service}
 
-AssetsコアサービスまたはAssets on Demand(Adobe Experience Cloud環境の設定に応じて)をAdobe Campaignと統合すると、Adobe Experience Cloud内で共有されている任意のアセットをAdobe Campaignの電子メールとランディングページで使用できます。
+Assets コアサービスまたは Assets on Demand(Adobe Experience Cloud環境の設定に応じて ) をAdobe Campaignと統合すると、Adobe Experience Cloud内で共有されている任意のアセットをAdobe Campaignの電子メールとランディングページで使用できます。
 
-Assetsコアサービスとの統合は、[機能管理者](../../administration/using/users-management.md#functional-administrators)に制限されています。
+Assets コアサービスとの統合は、次のものに制限されています。 [機能管理者](../../administration/using/users-management.md#functional-administrators).
 
-Adobe Experience Cloudから共有されるリソースは、次のようにEメールとランディングページで使用できます。
+Adobe Experience Cloudから共有されるリソースは、次のように E メールやランディングページで使用できます。
 
-1. Eメールまたはランディングページのコンテンツを編集する際に、画像ブロックに移動し、コンテキストメニューから「**[!UICONTROL Image shared from Adobe Experience Cloud]**」を選択します。
+1. E メールまたはランディングページのコンテンツを編集する際に、画像ブロックに移動し、「 **[!UICONTROL Image shared from Adobe Experience Cloud]** コンテキストメニューから。
 
    ![](assets/dam_insert_image_dce.png)
 
@@ -31,7 +31,7 @@ Adobe Experience Cloudから共有されるリソースは、次のようにEメ
 
    ![](assets/dam_shared_image_selection.png)
 
-画像が挿入されます。これで、必要に応じて配信をパーソナライズし、送信できます。
+画像が挿入されます。これで、必要に応じて配信をパーソナライズし、送信できるようになりました。
 
 **関連トピック：**
 

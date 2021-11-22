@@ -1,6 +1,6 @@
 ---
 title: ファイルから特定のサービスへのプロファイルの購読
-description: この使用例では、プロファイルを含むファイルをインポートし、既存のサービスに登録する方法を示します。
+description: この使用例では、プロファイルを含んだファイルをインポートし、既存のサービスに購読登録する方法を示します。
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
@@ -16,7 +16,7 @@ ht-degree: 53%
 
 ---
 
-# ファイルのインポート後の特定のサービスへのプロファイルの購読登録 {#subscribing-profiles-to-a-specific-service-after-importing-a-file}
+# ファイルのインポート後に特定のサービスにプロファイルを購読登録する {#subscribing-profiles-to-a-specific-service-after-importing-a-file}
 
 次の例では、プロファイルを含んだファイルをインポートし、これらのプロファイルを既存のサービスに購読登録する方法を示します。ファイルをインポートした後で、インポートしたデータをプロファイルとして識別できるように紐付けをおこなう必要があります。ファイルに重複が含まれていないことを確認するために、データに対して「重複排除 - 重複」アクティビティが実行されます。
 
@@ -24,7 +24,7 @@ ht-degree: 53%
 
 ![](assets/subscription_activity_example1.png)
 
-* 「[ファイルを読み込み](../../automating/using/load-file.md)」アクティビティがプロファイルファイルを読み込み、インポートした列の構造を定義します。
+* A [ファイルを読み込み](../../automating/using/load-file.md) 「 」アクティビティは、プロファイルファイルを読み込み、インポートした列の構造を定義します。
 
    この例では、読み込まれるファイルは .csv 形式で、次のデータが含まれています。
 
@@ -43,14 +43,14 @@ ht-degree: 53%
 
    ![](assets/subscription_activity_example2.png)
 
-* 「[紐付け](../../automating/using/reconciliation.md)」アクティビティは、ファイルのデータを、Adobe Campaignデータベースのプロファイルディメンションに属するものとして識別します。 「**[!UICONTROL Identification]**」タブのみ設定します。プロファイルの E メールアドレスに従って、ファイルデータを識別します。
+* A [紐付け](../../automating/using/reconciliation.md) 「 」アクティビティで、ファイルのデータを、Adobe Campaignデータベースのプロファイルディメンションに属するものとして識別します。 「**[!UICONTROL Identification]**」タブのみ設定します。プロファイルの E メールアドレスに従って、ファイルデータを識別します。
 
    ![](assets/subscription_activity_example3.png)
 
-* （紐付けの結果生成される）一時リソースの&#x200B;**email**&#x200B;フィールドに基づく[重複排除](../../automating/using/deduplication.md)は、すべての重複を識別します。 ファイルからインポートしたデータに重複が含まれている場合、サービスへの購読登録はすべてのデータで失敗します。
+* A [重複排除](../../automating/using/deduplication.md) 基準 **電子メール** （紐付けの結果生成される）一時リソースのフィールドで、すべての重複を識別します。 ファイルからインポートしたデータに重複が含まれている場合、サービスへの購読登録はすべてのデータで失敗します。
 
    ![](assets/subscription_activity_example5.png)
 
-* 「[購読サービス](../../automating/using/subscription-services.md)」アクティビティでは、プロファイルの購読登録先のサービス、購読登録日に対応するフィールド、購読登録の接触チャネルを選択できます。
+* A [購読サービス](../../automating/using/subscription-services.md) 「 」アクティビティでは、プロファイルの購読登録先のサービス、購読登録日に対応するフィールド、購読登録の接触チャネルを選択できます。
 
    ![](assets/subscription_activity_example4.png)

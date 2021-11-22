@@ -19,9 +19,9 @@ ht-degree: 13%
 
 ## 対応ブラウザー{#compatible-browsers}
 
-Adobe Campaign Standardは、ほとんどのコンピューター用のブラウザーと、タブレット用の主なオペレーティングシステムと互換性があります。
+Adobe Campaign Standardは、コンピューターのほとんどのブラウザーと、タブレットの主なオペレーティングシステムと互換性があります。
 
-Adobe Campaign Standardは、タブレットでの表示モードとして横置きのみをサポートします。
+Adobe Campaign Standardは、タブレットの表示モードとして横置きのみをサポートします。
 
 Adobe Campaign Standardと互換性のあるブラウザーの一覧を次に示します。
 
@@ -34,8 +34,8 @@ Adobe Campaign Standardと互換性のあるブラウザーの一覧を次に示
 
 **タブレット:**
 
-* iOS（バージョン7以降）
-* Android（バージョン4.4以降）
+* iOS（バージョン 7 以降）
+* Android（バージョン 4.4 以降）
 
 ## Campaign Standard ネットワークエンドポイント {#campaign-standard-network-endpoints}
 
@@ -43,11 +43,11 @@ Campaign Standardで使用される様々なエンドポイントを次に示し
 
 | コンテキスト | URL |
 |--- |--- |
-| Campaignインスタンス | `https://*.experiencecloud.adobe.com` （テナントID * +クライアントドメイン）<br>`https://*.campaign.adobe.com` （Campaignインスタンステナント） |
+| Campaign インスタンス | `https://*.experiencecloud.adobe.com` （テナント ID * +クライアントドメイン）<br>`https://*.campaign.adobe.com` （Campaign インスタンステナント） |
 | IMS | `https://adobeid-na1.services.adobe.com`<br>`https://*.adobelogin.com` |
-| Experience cloud | `https://experiencecloud.adobe.com` |
+| Experience Cloud | `https://experiencecloud.adobe.com` |
 | トラッキング | `https://*.adobedtm.com`<br>`https://*.demdex.net`<br>`https://*.omtrdc.net` |
-| Assetsの統合 | `https://*.marketing-assets.adobe.com` |
+| Assets の統合 | `https://*.marketing-assets.adobe.com` |
 | 内部Adobe サービス | `https://*.adobe.io` |
 | 調査 | `https://adobe.allegiancetech.com` |
-| デフォルトのブランディングURL（クライアント設定前） | `https://*.adobe-campaign.com` |
+| デフォルトのブランディング URL （クライアント設定前） | `https://*.adobe-campaign.com` |

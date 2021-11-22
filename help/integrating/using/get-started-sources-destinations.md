@@ -17,10 +17,10 @@ ht-degree: 64%
 
 ## ソースと宛先について
 
-Adobe Experience Platformを使用すると、Campaign StandardとAdobeのリアルタイム顧客データプラットフォーム(RTCDP)の間でデータを共有できます。 これにより、Campaign ワークフローで Adobe Experience Platform のオーディエンスをターゲットにして、オーディエンスに関するデータ（送信数、開封数、クリック数など）をアドビのリアルタイム顧客データプラットフォームに返すことができます。
+Adobe Experience Platformを使用すると、Campaign StandardとAdobe Real-time Customer Data Platform(RTCDP) の間でデータを共有できます。 これにより、Campaign ワークフローで Adobe Experience Platform のオーディエンスをターゲットにして、オーディエンスに関するデータ（送信数、開封数、クリック数など）をアドビのリアルタイム顧客データプラットフォームに返すことができます。
 
-* **宛先**&#x200B;を使用して、オーディエンスをAdobe Experience PlatformからCampaign Standardに取り込みます。 これにより、マーケティングキャンペーンで既知のデータや不明なデータを活用することができます。
-* **Sources**&#x200B;を使用して、Campaign Standardデータ（例：送信、開封、クリック）をAdobe Experience Platformにエクスポートします。 これにより、異なるソースから収集したデータを 1 か所に集め、得られたインサイトを利用してより多くのことを実行できます。
+* を使用 **宛先**、Adobe Experience PlatformからオーディエンスをCampaign Standardに取り込みます。 これにより、マーケティングキャンペーンで既知のデータや不明なデータを活用することができます。
+* を使用 **ソース**、Campaign Standardデータ（送信、開封、クリックなど）をAdobe Experience Platformにエクスポートします。 これにより、異なるソースから収集したデータを 1 か所に集め、得られたインサイトを利用してより多くのことを実行できます。
 
 
 >[!IMPORTANT]
@@ -35,7 +35,7 @@ Adobe Experience Platformを使用すると、Campaign StandardとAdobeのリア
 
 ## Campaign StandardとAdobe Experience Platformの接続
 
-Adobe Experience PlatformとCampaign Standardの間でデータを共有するには、まずAdobe Campaignを&#x200B;**宛先**&#x200B;として接続し、AdobeエクスペリエンスプラットフォームでAWS S3またはAzure BLOBストレージの場所を&#x200B;**ソース**&#x200B;として接続する必要があります。
+Adobe Experience PlatformとCampaign Standardの間でデータを共有するには、まずAdobe Campaign as a **宛先**、およびAWS S3 または Azure BLOB ストレージの場所を **ソース** (Adobeexperience Platform の )
 
 コネクタを設定したら、ワークフローを使用してデータのインポートまたはCampaign Standardへのエクスポートを設定できます。
 

@@ -1,6 +1,6 @@
 ---
 title: 購読の取得
-description: APIを使用してサブスクリプションを取得する方法を説明します。
+description: API を使用してサブスクリプションを取得する方法を説明します。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -19,14 +19,14 @@ ht-degree: 2%
 
 ## サービスを購読しているプロファイルの取得
 
-これは2つの手順で構成される手順です。
+これは、2 つの手順で構成される手順です。
 
-1. 目的のサービスの購読URLを取得します。
-1. 購読URLでGETリクエストを実行します。 サービスの購読のリストと、関連付けられた各プロファイルを返します。
+1. 目的のサービスの購読 URL を取得します。
+1. サブスクリプション URL でGETリクエストを実行します。 サービスの購読のリストと、関連付けられた各プロファイルが返されます。
 
 >[!CAUTION]
 >
->REST APIは、使用するURLを含む「href」プロパティを返します。 <b>後続のAPIリクエストをおこなうには、必ず応答に含まれるURLを使用します</b>。
+>REST API は、使用する URL を含む「href」プロパティを返します。 <b>後続の API リクエストをおこなうには、常に応答に含まれる URL を使用します</b>.
 
 <br/>
 
@@ -42,7 +42,7 @@ ht-degree: 2%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-サービスの購読URLを返します。
+サービスの購読 URL を返します。
 
 ```
   {
@@ -56,7 +56,7 @@ ht-degree: 2%
   },
 ```
 
-購読URLでGETリクエストを実行します。
+サブスクリプション URL でGETリクエストを実行します。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions \
@@ -85,10 +85,10 @@ ht-degree: 2%
 
 ## プロファイルが購読登録したサービスの取得
 
-これは2つの手順で構成される手順です。
+これは、2 つの手順で構成される手順です。
 
-1. 特定のプロファイルの購読URLを取得します。
-1. URLでGETリクエストを実行します。 プロファイルの購読のリストと、関連付けられた各サービスを返します。
+1. 特定のプロファイルの購読 URL を取得します。
+1. URL でGETリクエストを実行します。 プロファイルの購読のリストと、関連する各サービスを返します。
 
 <br/>
 
@@ -104,7 +104,7 @@ GETリクエストを実行して、プロファイルを取得します。
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-プロファイルの購読URLを返します。
+プロファイルの購読 URL が返されます。
 
 ```
   {
@@ -118,7 +118,7 @@ GETリクエストを実行して、プロファイルを取得します。
   }
 ```
 
-購読URLでGETリクエストを実行します。
+サブスクリプション URL でGETリクエストを実行します。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \

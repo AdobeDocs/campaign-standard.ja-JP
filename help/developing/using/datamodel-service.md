@@ -14,7 +14,7 @@ ht-degree: 38%
 
 ---
 
-# サービス(nms:service)
+# サービス (nms:service)
 
 ## オブジェクトの説明
 
@@ -27,14 +27,14 @@ ht-degree: 38%
                </tr>
                <tr>
                   <td>PKey</td>
-                  <td>メインリソースID</td>
+                  <td>メインリソース ID</td>
                   <td>文字列 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>builtIn</td>
                   <td>アプリケーションのビルトインオブジェクト</td>
-                  <td>boolean </td>
+                  <td>ブール型 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -58,7 +58,7 @@ ht-degree: 38%
                <tr>
                   <td>desc</td>
                   <td>説明</td>
-                  <td>文字列(512)</td>
+                  <td>文字列 (512)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -81,20 +81,20 @@ ht-degree: 38%
                </tr>
                <tr>
                   <td>isExternal</td>
-                  <td>外部リソース</td>
-                  <td>boolean </td>
+                  <td>外部リソースです</td>
+                  <td>ブール型 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>isTemplate</td>
                   <td>テンプレート</td>
-                  <td>boolean </td>
+                  <td>ブール型 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>label</td>
                   <td>ラベル</td>
-                  <td>文字列(128)</td>
+                  <td>文字列 (128)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -106,13 +106,13 @@ ht-degree: 38%
                <tr>
                   <td>limitedDuration</td>
                   <td>期間限定</td>
-                  <td>boolean </td>
+                  <td>ブール型 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>mainDate</td>
                   <td>日付</td>
-                  <td>日付(255)</td>
+                  <td>日付 (255)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -121,9 +121,9 @@ ht-degree: 38%
                   <td>列挙（バイト） </td>
                   <td>
                      <ul>
-                        <li>モバイル(SMS) - sms - 1</li>
-                        <li>Eメール — Eメール — 0</li>
-                        <li>無効な値 — __無効な値__ - __無効な値__</li>
+                        <li>モバイル (SMS) - sms - 1</li>
+                        <li>電子メール — 電子メール — 0</li>
+                        <li>無効な値 — __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
@@ -135,7 +135,7 @@ ht-degree: 38%
                      <ul>
                         <li>バイラル — 1</li>
                         <li>ニュースレター — ニュースレター — 0</li>
-                        <li>無効な値 — __無効な値__ - __無効な値__</li>
+                        <li>無効な値 — __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
@@ -148,7 +148,7 @@ ht-degree: 38%
                <tr>
                   <td>name</td>
                   <td>ID</td>
-                  <td>文字列(64)</td>
+                  <td>文字列 (64)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -160,7 +160,7 @@ ht-degree: 38%
                <tr>
                   <td>publicLabel</td>
                   <td>サービスラベル</td>
-                  <td>文字列(128)</td>
+                  <td>文字列 (128)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -196,7 +196,7 @@ ht-degree: 38%
                <tr>
                   <td>targetResource</td>
                   <td>ターゲティングディメンション</td>
-                  <td>文字列(255)</td>
+                  <td>文字列 (255)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -208,13 +208,13 @@ ht-degree: 38%
                <tr>
                   <td>thumbnail</td>
                   <td>サムネイル</td>
-                  <td>文字列(255)</td>
+                  <td>文字列 (255)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>タイトル</td>
                   <td>サービス</td>
-                  <td>文字列(255)</td>
+                  <td>文字列 (255)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -245,7 +245,7 @@ ht-degree: 38%
 
 ## フィルター
 
-特定の期間(byPlanning)に使用可能
+指定した期間 (byPlanning) に使用可能
 
 <table>
     <tr>
@@ -262,7 +262,7 @@ ht-degree: 38%
     </tr>
 </table>
 
-チャネルタイプ別(byChannel)
+チャネルタイプ別 (byChannel)
 
 <table>
 <tr>
@@ -275,7 +275,7 @@ ht-degree: 38%
 </tr>
 </table>
 
-名前またはラベル(byText)
+名前別またはラベル別（テキスト別）
 
 <table>
 <tr>
@@ -288,7 +288,7 @@ ht-degree: 38%
 </tr>
 </table>
 
-ターゲティングリソース(byTargetResource)
+ターゲティングリソース別 (byTargetResource)
 
 <table>
 <tr>

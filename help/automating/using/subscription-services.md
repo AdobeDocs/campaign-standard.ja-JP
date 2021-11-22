@@ -39,7 +39,7 @@ ht-degree: 98%
 **関連トピック：**
 
 * [使用例：ファイルからの複数の購読ステータスの更新](../../automating/using/updating-subscriptions-from-file.md)
-* [使用例：ファイルから特定のサービスへのプロファイルの購読登録](../../automating/using/subscribing-profiles-from-file.md)
+* [使用例：ファイルから特定のサービスへのプロファイルの購読](../../automating/using/subscribing-profiles-from-file.md)
 
 ## 設定 {#configuration}
 

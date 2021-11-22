@@ -18,9 +18,9 @@ ht-degree: 33%
 
 # 外部データを使用したデータベースの更新 {#update-database-file}
 
-次の例は、**[!UICONTROL Load file]**&#x200B;アクティビティの後に&#x200B;**[!UICONTROL Update data]**&#x200B;アクティビティが続く設定を示しています。 このワークフローの目的は、ファイルから回復したデータを使用して、Adobe Campaign データベースにプロファイルを追加または更新することです。
+次の例は、 **[!UICONTROL Update data]** アクティビティ **[!UICONTROL Load file]** アクティビティ。 このワークフローの目的は、ファイルから回復したデータを使用して、Adobe Campaign データベースにプロファイルを追加または更新することです。
 
-この例では、紐付けキーとして&#x200B;**Eメールアドレス**&#x200B;を使用します。 「[ファイルを読み込み](../../automating/using/load-file.md)」アクティビティに読み込まれるファイルは、次のサンプルデータを含む&#x200B;**.txt**&#x200B;形式のファイルです。
+この例では、使用する紐付けキーは **電子メールアドレス**. ファイルが [ファイルを読み込み](../../automating/using/load-file.md) アクティビティは **.txt** 次のサンプルデータを含む形式ファイル：
 
 ```
 lastname;firstname;email;birthdate
@@ -35,7 +35,7 @@ grimes;daryl;daryl_890@testmail.com;12/06/1979
 tycoon;tyreese;tyreese_t@testmail.net;10/08/1971
 ```
 
-「[データを更新](../../automating/using/update-data.md)」アクティビティは、次のように設定します。
+この [データを更新](../../automating/using/update-data.md) 「 」アクティビティは次のように設定します。
 
 ![](assets/deduplication_example2_writer1.png)
 

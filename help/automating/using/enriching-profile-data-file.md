@@ -18,14 +18,14 @@ ht-degree: 75%
 
 # ファイルに含まれるデータによるプロファイルデータのエンリッチメント {#enriching-profile-data-with-data-contained-in-a-file}
 
-この例では、ファイルに含まれる購入データを使用してプロファイルデータをエンリッチメントする方法を示します。ここでは、購入データがサードパーティのシステムに保存されると考えます。 各プロファイルでは、複数の購入をファイルに保存できます。ワークフローの最終目標は、少なくとも 2 つの商品を購入したターゲットプロファイルに E メールを送信して愛顧に感謝することです。
+この例では、ファイルに含まれている購入データを使用してプロファイルデータをエンリッチメントする方法を示します。ここでは、購入データがサードパーティのシステムに保存されていると考えます。 各プロファイルでは、複数の購入をファイルに保存できます。ワークフローの最終目標は、少なくとも 2 つの商品を購入したターゲットプロファイルに E メールを送信して愛顧に感謝することです。
 
 ワークフローは次のように設定します。
 
 ![](assets/enrichment_example_workflow.png)
 
-* メッセージを受信するプロファイルをターゲットにする [ クエリ ](../../automating/using/query.md) アクティビティ。
-* 購入データを読み込む [ ファイル ](../../automating/using/load-file.md) 読み込みアクティビティ。 例：
+* A [クエリ](../../automating/using/query.md) メッセージを受信するプロファイルをターゲットとする「 」アクティビティ。
+* A [ファイルを読み込み](../../automating/using/load-file.md) 購入データを読み込む「 」アクティビティ。 例：
 
    ```
    tcode;tdate;customer;product;tamount
@@ -37,9 +37,9 @@ ht-degree: 75%
    aze128;04/03/2017;clara.smith@example.com;Phone;149
    ```
 
-   このサンプルファイルでは、電子メールアドレスを使用して、データとデータベースプロファイルを紐付けます。 また、[こちらのドキュメント](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)で説明するように、一意の ID を有効にすることもできます。
+   このサンプルファイルでは、E メールアドレスを使用して、データとデータベースプロファイルを紐付けます。 また、[こちらのドキュメント](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)で説明するように、一意の ID を有効にすることもできます。
 
-* ファイルから読み込まれたトランザクションデータと **[!UICONTROL Query]** で選択されたプロファイルとの間にリンクを作成する [ エンリッチメント ](../../automating/using/enrichment.md) アクティビティ。 リンクは、アクティビティの「**[!UICONTROL Advanced relations]**」タブで定義します。リンクは、「**[!UICONTROL Load file]**」アクティビティからのトランジションに基づいています。プロファイルリソースの「email」フィールドとインポートされたファイルの「customer」列を紐付け条件として使用します。
+* An [エンリッチメント](../../automating/using/enrichment.md) ファイルから読み込まれたトランザクションデータと、 **[!UICONTROL Query]**. リンクは、アクティビティの「**[!UICONTROL Advanced relations]**」タブで定義します。リンクは、「**[!UICONTROL Load file]**」アクティビティからのトランジションに基づいています。プロファイルリソースの「email」フィールドとインポートされたファイルの「customer」列を紐付け条件として使用します。
 
    ![](assets/enrichment_example_workflow2.png)
 
@@ -77,11 +77,11 @@ ht-degree: 75%
 
       ![](assets/enrichment_example_workflow9.png)
 
-* 1 つのセグメントのみを含む [Segmentation](../../automating/using/segmentation.md) アクティビティ。最低 2 つのトランザクションが記録されている初期ターゲットのプロファイルを取得します。 1 つのトランザクションのみのプロファイルは除外されます。そのために、セグメント化のクエリは、既に定義されている集計に対して実行されます。
+* A [セグメント化](../../automating/using/segmentation.md) 1 つのセグメントのみの「 」アクティビティ（最低 2 つのトランザクションが記録されている初期ターゲットのプロファイルを取得します）。 1 つのトランザクションのみのプロファイルは除外されます。そのために、セグメント化のクエリは、既に定義されている集計に対して実行されます。
 
    ![](assets/enrichment_example_workflow5.png)
 
-* **[!UICONTROL Enrichment]** で定義された追加データを使用して、プロファイルが最後におこなった 2 つの購入を動的に取得する [E メール配信 ](../../automating/using/email-delivery.md) アクティビティ。 追加データは、パーソナライゼーションフィールドを追加する際に「**Additional data (TargetData)**」ノードに表示されます。
+* An [E メール配信](../../automating/using/email-delivery.md) アクティビティで、 **[!UICONTROL Enrichment]** ：プロファイルが最後におこなった 2 つの購入を動的に取得します。 追加データは、パーソナライゼーションフィールドを追加する際に「**Additional data (TargetData)**」ノードに表示されます。
 
    ![](assets/enrichment_example_workflow10.png)
 

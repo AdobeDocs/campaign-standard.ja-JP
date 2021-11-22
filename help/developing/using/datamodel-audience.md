@@ -14,7 +14,7 @@ ht-degree: 36%
 
 ---
 
-# オーディエンス(nms:audience)
+# オーディエンス (nms:audience)
 
 ## オブジェクトの説明
 
@@ -27,14 +27,14 @@ ht-degree: 36%
                </tr>
                <tr>
                   <td>PKey</td>
-                  <td>メインリソースID</td>
+                  <td>メインリソース ID</td>
                   <td>文字列 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>aamMappingId</td>
-                  <td>Audience ManagerマッピングID</td>
-                  <td>文字列(100)</td>
+                  <td>Audience Managerマッピング ID</td>
+                  <td>文字列 (100)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -45,26 +45,26 @@ ht-degree: 36%
                </tr>
                <tr>
                   <td>audienceData</td>
-                  <td>選択した母集団のプレビュー</td>
+                  <td>選択した母集団をプレビュー</td>
                   <td>コレクション </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>audienceDataSchema</td>
                   <td>データスキーマ</td>
-                  <td>文字列(255)</td>
+                  <td>文字列 (255)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>audienceMetadata</td>
                   <td>AudienceMetadata</td>
-                  <td>文字列(255)</td>
+                  <td>文字列 (255)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>collectLineNumber</td>
-                  <td>行番号をIDとして使用する</td>
-                  <td>boolean </td>
+                  <td>行番号を ID として使用</td>
+                  <td>ブール型 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -82,7 +82,7 @@ ht-degree: 36%
                <tr>
                   <td>countPreview</td>
                   <td>CountPreview</td>
-                  <td>item </td>
+                  <td>項目 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -100,13 +100,13 @@ ht-degree: 36%
                <tr>
                   <td>desc</td>
                   <td>説明</td>
-                  <td>文字列(512)</td>
+                  <td>文字列 (512)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>doNotPersist</td>
                   <td>このジョブを履歴化しない</td>
-                  <td>boolean </td>
+                  <td>ブール型 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -130,19 +130,19 @@ ht-degree: 36%
                <tr>
                   <td>hasSchema</td>
                   <td>HasSchema</td>
-                  <td>boolean </td>
+                  <td>ブール型 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>isAMC</td>
                   <td>Adobe Marketing Cloudオーディエンス</td>
-                  <td>boolean </td>
+                  <td>ブール型 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>isExternal</td>
-                  <td>外部リソース</td>
-                  <td>boolean </td>
+                  <td>外部リソースです</td>
+                  <td>ブール型 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -154,7 +154,7 @@ ht-degree: 36%
                <tr>
                   <td>label</td>
                   <td>ラベル</td>
-                  <td>文字列(128)</td>
+                  <td>文字列 (128)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -172,7 +172,7 @@ ht-degree: 36%
                <tr>
                   <td>name</td>
                   <td>ID</td>
-                  <td>文字列(64)</td>
+                  <td>文字列 (64)</td>
                   <td> </td>
                </tr>
                <tr>
@@ -190,13 +190,13 @@ ht-degree: 36%
                <tr>
                   <td>sharedAudience</td>
                   <td>共有オーディエンスの名前</td>
-                  <td>item </td>
+                  <td>項目 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>ソース</td>
                   <td>ソース</td>
-                  <td>item </td>
+                  <td>項目 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -208,26 +208,26 @@ ht-degree: 36%
                <tr>
                   <td>タイトル</td>
                   <td>オーディエンス</td>
-                  <td>文字列(255)</td>
+                  <td>文字列 (255)</td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>type</td>
                   <td>タイプ</td>
-                  <td>列挙（文字列） (100)</td>
+                  <td>タイプ</td>
+                  <td>enumeration（文字列） (100)</td>
                   <td>
                      <ul>
                         <li>クエリ — クエリ — クエリ</li>
                         <li>リスト — リスト — リスト</li>
                         <li>ファイル — ファイル — ファイル</li>
-                        <li>無効な値 — __無効な値__ - __無効な値__</li>
+                        <li>無効な値 — __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
                <tr>
-                  <td>where</td>
+                  <td>場所</td>
                   <td>クエリ定義</td>
-                  <td>item </td>
+                  <td>項目 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -240,7 +240,7 @@ ht-degree: 36%
 
 ## フィルター
 
-ディメンションのフィルタリング(byFilteringResource)
+ディメンションのフィルタリング (byFilteringResource)
 
 <table>
     <tr>
@@ -253,7 +253,7 @@ ht-degree: 36%
     </tr>
 </table>
 
-名前またはラベル(byText)
+名前別またはラベル別（テキスト別）
 
 <table>
     <tr>
@@ -266,7 +266,7 @@ ht-degree: 36%
     </tr>
 </table>
 
-タイプ(byType)
+タイプ別 (byType)
 
 <table>
     <tr>
@@ -274,7 +274,7 @@ ht-degree: 36%
     <th>タイプ</th>
     </tr>
     <tr>
-    <td>type</td>
+    <td>タイプ</td>
     <td>列挙</td>
     </tr>
     <tr>

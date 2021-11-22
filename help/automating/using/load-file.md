@@ -22,7 +22,7 @@ ht-degree: 93%
 
 >[!CAUTION]
 >
->この機能を使用する際は、Adobe Campaign契約に従って、SFTPストレージ、DBストレージ、アクティブなプロファイルの制限に注意してください。
+>この機能を使用する際は、Adobe Campaign契約に従って、SFTP ストレージ、DB ストレージ、アクティブなプロファイルの制限に注意してください。
 
 ![](assets/data_loading.png)
 
@@ -45,7 +45,7 @@ ht-degree: 93%
 
 * [使用例：外部データを使用したデータベースの更新](../../automating/using/update-database-file.md)
 * [使用例：ファイルの自動ダウンロードに基づくデータの更新](../../automating/using/update-data-automatic-download.md)
-* [使用例：フィールドがエンリッチメントされたEメールの送信](../../automating/using/sending-email-enriched-fields.md)
+* [使用例：フィールドがエンリッチメントされた E メールの送信](../../automating/using/sending-email-enriched-fields.md)
 * [使用例：ファイルオーディエンスとデータベースとの紐付け](../../automating/using/reconcile-file-audience-with-database.md)
 
 ## 設定 {#configuration}
@@ -105,7 +105,7 @@ ht-degree: 93%
 
 1. データの読み込み元のファイルが圧縮されて GZIP ファイル（.gz）になっている場合は、「**[!UICONTROL Add a pre-processing stage]**」フィールドで「**[!UICONTROL Decompression]**」オプションを選択します。これにより、データを読み込む前にファイルを解凍できます。このオプションは、ファイルがアクティビティの受信トランジションから送信されている場合にのみ使用できます。
 
-   **[!UICONTROL Add a pre-processing stage]**&#x200B;フィールドでは、データベースにインポートする前にファイルを復号化することもできます。 暗号化されたファイルの使用方法について詳しくは、[この節](../../automating/using/managing-encrypted-data.md)を参照してください。
+   この **[!UICONTROL Add a pre-processing stage]** また、「 」フィールドでは、データベースにインポートする前にファイルを復号化することもできます。 暗号化されたファイルの操作方法について詳しくは、 [この節](../../automating/using/managing-encrypted-data.md)
 
 1. 「**[!UICONTROL Keep the rejects in a file]**」オプションを使用すると、インポート中に発生したエラーが含まれるファイルをダウンロードし、後処理段階でそのファイルに適用することができます。このオプションを有効にすると、送信トランジションの名前が「却下」に変更されます。
 

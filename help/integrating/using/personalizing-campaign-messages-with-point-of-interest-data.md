@@ -1,6 +1,6 @@
 ---
 title: POI データを使用した Campaign メッセージのパーソナライズ
-description: POIデータ統合を使用して、購読者の場所に基づいてパーソナライズされたメッセージを作成する方法を説明します。
+description: POI データ統合を使用して、購読者の場所に基づいてパーソナライズされたメッセージを作成する方法を説明します。
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics-for-mobile
@@ -19,45 +19,45 @@ ht-degree: 10%
 
 Adobe Campaignでは、モバイルアプリケーションの購読者から収集した目標地点データを使用して、電子メールなどのパーソナライズされたマーケティングメッセージを送信できます。
 
-目標地点データに対する反応は、標準の配信に対してのみ可能です。 [トランザクシ](../../channels/using/getting-started-with-transactional-msg.md) ョンメッセージでは場所データを使用できません。
+目標地点データに対する反応は、標準の配信でのみ可能です。 [トランザクションメッセージ](../../channels/using/getting-started-with-transactional-msg.md) 場所データを使用できません。
 
-反応が早いのは約10分です。
+最も早い反応は約 10 分です。
 
-この場合、過去2週間以内にボストンストアを訪問したすべての購読者に電子メールを送信することにします。
+この場合、過去 2 週間以内にボストンストアを訪問したすべての購読者に E メールを送信することにします。
 
 1. 電子メールマーケティングアクティビティを作成します。
-1. 配信のオーディエンスを定義する際に、**[!UICONTROL Subscriptions to an application]**&#x200B;要素をワークスペースにドラッグ&amp;ドロップします。
+1. 配信のオーディエンスを定義する際に、 **[!UICONTROL Subscriptions to an application]** 要素をワークスペースに追加します。
 
    ![](assets/poi_subscriptions_app.png)
 
-   オーディエンスの管理について詳しくは、[オーディエンスの定義](../../audiences/using/creating-audiences.md)の節を参照してください。
+   オーディエンスの管理について詳しくは、 [オーディエンスの定義](../../audiences/using/creating-audiences.md) 」セクションに入力します。
 
-1. **[!UICONTROL Add a rule - Profile/Subscriptions to an application]**&#x200B;ウィンドウで、**[!UICONTROL POI Location Subscription]**&#x200B;要素をワークスペースにドラッグ&amp;ドロップします。
+1. 内 **[!UICONTROL Add a rule - Profile/Subscriptions to an application]** ウィンドウで、 **[!UICONTROL POI Location Subscription]** 要素をワークスペースに追加します。
 
    ![](assets/poi_add_rule_profile_subscription.png)
 
-1. **[!UICONTROL Add a rule - POI Location Subscription]**&#x200B;ウィンドウで、使用する目標地点のラベルを入力します。
+1. 内 **[!UICONTROL Add a rule - POI Location Subscription]** ウィンドウで、使用する目標地点のラベルを入力します。
 
    ![](assets/poi_location_subscription.png)
 
 1. 「**[!UICONTROL Filter type]**」フィールドで「**[!UICONTROL Relative]**」を選択します。
-1. **[!UICONTROL Preceding days]**&#x200B;オプションをオンにし、対応するフィールドに&#x200B;**[!UICONTROL 15]**&#x200B;と入力します。
-1. ユーザーが目標地点を訪問した回数を定義します。
-1. **[!UICONTROL Confirm]**&#x200B;をクリックして、オーディエンスを保存します。
+1. 次を確認します。 **[!UICONTROL Preceding days]** オプションと入力 **[!UICONTROL 15]** を選択します。
+1. ユーザーが目標地点を訪問する必要がある回数を定義します。
+1. クリック **[!UICONTROL Confirm]** オーディエンスを保存します。
 
    ![](assets/poi_subscriptions_app_audience_defined.png)
 
-1. Eメールにコンテンツを追加します。
+1. E メールにコンテンツを追加します。
 
    ![](assets/poi_email_content.png)
 
-1. Eメールのダッシュボードを表示するアクティビティの作成を確認します。
+1. E メールのダッシュボードを表示するアクティビティの作成を確認します。
 1. メッセージを送信します。
 
-10%割引のオファーを含むEメールは、次の条件を満たす購読者に送信されます。
+10%の割引オファーを含む E メールは、次の条件を満たす購読者に送信されます。
 
-* 少なくとも過去2週間以内に1回はボストンの店を訪れた。
-* 訪問中にモバイルアプリがフォアグラウンドにあった。
+* ボストンの店舗を過去 2 週間以内に少なくとも 1 回訪問しました。
+* 訪問中にモバイルアプリがフォアグラウンドにあったとき。
 
 **関連トピック：**
 

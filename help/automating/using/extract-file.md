@@ -43,7 +43,7 @@ ht-degree: 86%
    ![](assets/wkf_data_export1.png)
 
 1. アクティビティを選択し、表示されるクイックアクションの ![](assets/edit_darkgrey-24px.png) ボタンを使用して開きます。
-1. **Output file** のラベルを入力します。ファイルのラベルは、一意になるように、作成された日時と共に自動的に入力されます。例：recipients_20150815_081532.txt（2015年8月15日08:15:32に生成されたファイル）
+1. **Output file** のラベルを入力します。ファイルのラベルは、一意になるように、作成された日時と共に自動的に入力されます。例：recipients_20150815_081532.txt（2015 年 8 月 15 日 08 に生成されたファイル）:15:32.
 
    >[!NOTE]
    >
@@ -51,9 +51,9 @@ ht-degree: 86%
 
 1. 必要に応じて、「**[!UICONTROL Add a post-processing stage]**」フィールドの **[!UICONTROL Compression]** を選択して、出力ファイルを zip 形式で圧縮できます。出力ファイルは圧縮されて GZIP ファイル（.gz）になります。
 
-   **[!UICONTROL Add a post-processing stage]**&#x200B;フィールドでは、ファイルを抽出する前にファイルを暗号化することもできます。 暗号化されたファイルの使用方法について詳しくは、[この節](../../automating/using/managing-encrypted-data.md)を参照してください。
+   この **[!UICONTROL Add a post-processing stage]** 「 」フィールドでは、ファイルを抽出する前に暗号化することもできます。 暗号化されたファイルの操作方法について詳しくは、 [この節](../../automating/using/managing-encrypted-data.md)
 
-1. **[!UICONTROL Create element]**&#x200B;ボタンをクリックして、出力列を追加します。
+1. 次をクリック： **[!UICONTROL Create element]** ボタンをクリックして出力列を追加します。
 
    ![](assets/wkf_data_export2.png)
 

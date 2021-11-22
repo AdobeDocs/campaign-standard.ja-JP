@@ -69,7 +69,7 @@ ht-degree: 97%
 
    ![](assets/lp_parameters_3_temp.png)
 
-また、**[!UICONTROL Authorize unidentified visitors]**&#x200B;オプションを使用して、すべての訪問者がランディングページにアクセスすることを認証できます。
+また、 **[!UICONTROL Authorize unidentified visitors]** オプション。
 
 <!--Use the URL parameters to identify the visitors, using the **[!UICONTROL Authorize visitor identification via URL parameters]** option: then you must choose the loading key and map the filter parameters with the parameters of the corresponding URL.-->
 

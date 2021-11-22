@@ -14,7 +14,7 @@ ht-degree: 40%
 
 ---
 
-# 訪問者(nms:visitor)
+# 訪問者 (nms:visitor)
 
 ## オブジェクトの説明
 
@@ -27,14 +27,14 @@ ht-degree: 40%
     </tr>
     <tr>
         <td>PKey</td>
-        <td>メインリソースID</td>
+        <td>メインリソース ID</td>
         <td>文字列 </td>
         <td> </td>
     </tr>
     <tr>
         <td>コメント</td>
         <td>転送者のコメント</td>
-        <td>文字列(255)</td>
+        <td>文字列 (255)</td>
         <td> </td>
     </tr>
     <tr>
@@ -57,38 +57,38 @@ ht-degree: 40%
     </tr>
     <tr>
         <td>deliveryId</td>
-        <td>最後の配信のID</td>
+        <td>最後の配信の ID</td>
         <td>整数 </td>
         <td> </td>
     </tr>
     <tr>
         <td>desc</td>
         <td>説明</td>
-        <td>文字列(512)</td>
+        <td>文字列 (512)</td>
         <td> </td>
     </tr>
     <tr>
         <td>電子メール</td>
         <td>メール</td>
-        <td>文字列(128)</td>
+        <td>文字列 (128)</td>
         <td> </td>
     </tr>
     <tr>
         <td>externalId</td>
         <td>外部 ID</td>
-        <td>文字列(64)</td>
+        <td>文字列 (64)</td>
         <td> </td>
     </tr>
     <tr>
         <td>firstName</td>
         <td>名</td>
-        <td>文字列(30)</td>
+        <td>文字列 (30)</td>
         <td> </td>
     </tr>
     <tr>
         <td>forwardUrl</td>
         <td>転送 URL</td>
-        <td>文字列(255)</td>
+        <td>文字列 (255)</td>
         <td> </td>
     </tr>
     <tr>
@@ -106,7 +106,7 @@ ht-degree: 40%
     <tr>
         <td>lastName</td>
         <td>姓</td>
-        <td>文字列(50)</td>
+        <td>文字列 (50)</td>
         <td> </td>
     </tr>
     <tr>
@@ -128,7 +128,7 @@ ht-degree: 40%
         <td>
             <ul>
             <li>未定義 — 未定義 — 0</li>
-            <li>無効な値 — __無効な値__ - __無効な値__</li>
+            <li>無効な値 — __Invalid_value__ - __Invalid_value__</li>
             </ul>
         </td>
     </tr>
@@ -147,25 +147,25 @@ ht-degree: 40%
     <tr>
         <td>referrerEmail</td>
         <td>転送者の E メール</td>
-        <td>文字列(128)</td>
+        <td>文字列 (128)</td>
         <td> </td>
     </tr>
     <tr>
         <td>referrerFirstName</td>
         <td>転送者の名</td>
-        <td>文字列(30)</td>
+        <td>文字列 (30)</td>
         <td> </td>
     </tr>
     <tr>
         <td>referrerId</td>
-        <td>リファラーID</td>
+        <td>リファラー ID</td>
         <td>整数 </td>
         <td> </td>
     </tr>
     <tr>
         <td>referrerLastName</td>
         <td>転送者の姓</td>
-        <td>文字列(50)</td>
+        <td>文字列 (50)</td>
         <td> </td>
     </tr>
     <tr>
@@ -177,14 +177,14 @@ ht-degree: 40%
     <tr>
         <td>タイトル</td>
         <td>ラベル</td>
-        <td>文字列(255)</td>
+        <td>文字列 (255)</td>
         <td> </td>
     </tr>
 </table>
 
 ## フィルター
 
-姓、名または電子メール(byText)</p>
+姓、名または E メール（テキスト別）</p>
 
 <table>
         <tr>

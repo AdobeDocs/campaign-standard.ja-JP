@@ -1,6 +1,6 @@
 ---
 title: Campaign から Adobe Experience Platform へのデータのエクスポート
-description: Adobe Experience PlatformからCampaign Standardにデータを書き出す方法を説明します。
+description: Campaign StandardからAdobe Experience Platformにデータを書き出す方法を説明します。
 audience: integrating
 content-type: reference
 role: Data Architect
@@ -15,25 +15,25 @@ ht-degree: 68%
 
 # Campaign から Adobe Experience Platform へのデータのエクスポート {#sources}
 
-Campaign StandardデータをAdobeのリアルタイム顧客データプラットフォーム(RTCDP)に書き出すには、まずCampaign Standardでワークフローを構築して、Amazonストレージサービス(S3)またはAzure BLOBストレージの場所で共有するデータを書き出す必要があります。
+Campaign StandardデータをAdobe Real-time Customer Data Platform(RTCDP) に書き出すには、まずCampaign Standardでワークフローを作成し、Amazonストレージサービス (S3) または Azure Blob ストレージの場所に、共有するデータを書き出す必要があります。
 
 ワークフローを構成し、ストレージの場所にデータが送信されたら、S3 または Azure Blob のストレージの場所を Adobe Experience Platform の&#x200B;**ソース**&#x200B;として接続する必要があります。
 
 >[!NOTE]
 >
->Campaign で生成されたデータのみ（送信数、開封数、クリック数など）をAdobe Experience Platform にエクスポートすることをお勧めします。サードパーティのソース（CRM など）から取り込まれたデータは、Adobe Experience Platform に直接インポートする必要があります。
+>Campaign で生成されたデータのみ（送信数、開封数、クリック数など）をAdobe Experience Platform にエクスポートすることをお勧めします。サードパーティのソース（CRM など）から取り込まれたデータは、Adobe Experience Platform に直接読み込む必要があります。
 
-## Campaign Standardでの書き出しワークフローの作成
+## Campaign Standardでのエクスポートワークフローの作成
 
-Campaign StandardからS3またはAzure BLOBストレージの場所にデータをエクスポートするには、エクスポートするデータをターゲティングするワークフローを作成し、ストレージの場所に送信する必要があります。
+Campaign Standardから S3 または Azure BLOB ストレージの場所にデータをエクスポートするには、エクスポートするデータをターゲティングするワークフローを作成し、ストレージの場所に送信する必要があります。
 
 これをおこなうには、以下を追加して設定します。
 
-* ターゲットデータをCSVファイルに抽出する&#x200B;**[!UICONTROL Extract file]**&#x200B;アクティビティ。 このアクティビティの設定方法について詳しくは、[こちらの節](../../automating/using/extract-file.md)を参照してください。
+* A **[!UICONTROL Extract file]** 「 」アクティビティを使用してターゲットデータを CSV ファイルに抽出します。 このアクティビティの設定方法について詳しくは、[こちらの節](../../automating/using/extract-file.md)を参照してください。
 
    ![](assets/rtcdp-extract-file.png)
 
-* CSVファイルをストレージの場所に転送する&#x200B;**[!UICONTROL Transfer file]**&#x200B;アクティビティ。 分割アクティビティの設定方法について詳しくは、[こちらの節](../../automating/using/transfer-file.md)を参照してください。
+* A **[!UICONTROL Transfer file]** 「 」アクティビティを使用して、CSV ファイルをストレージの場所に転送します。 分割アクティビティの設定方法について詳しくは、[こちらの節](../../automating/using/transfer-file.md)を参照してください。
 
    ![](assets/rtcdp-transfer-file.png)
 
@@ -41,7 +41,7 @@ Campaign StandardからS3またはAzure BLOBストレージの場所にデータ
 
 ![](assets/aep-export.png)
 
-データ管理ワークフローの例については、[ワークフローの使用例](../../automating/using/about-workflow-use-cases.md#management)の節を参照してください。
+データ管理ワークフローの例は、 [ワークフローの使用例](../../automating/using/about-workflow-use-cases.md#management) 」セクションに入力します。
 
 関連トピック ： 
 
@@ -51,9 +51,9 @@ Campaign StandardからS3またはAzure BLOBストレージの場所にデータ
 
 ## ストレージの場所をソースとして接続する
 
-Amazon Storage Service(S3)またはAzure Blobストレージの場所をExperience Platformの&#x200B;**ソース**&#x200B;として接続する主な手順を以下に示します。 これらの各手順について詳しくは、[ソースコネクタのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja)を参照してください。
+Amazonストレージサービス (S3) または Azure Blob ストレージの場所を **ソース** のAdobeexperience Platform は、次のとおりです。 これらの各手順について詳しくは、[ソースコネクタのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja)を参照してください。
 
-1. Adobe Experience Platformの&#x200B;**[!UICONTROL Sources]**&#x200B;メニューで、ストレージの場所への接続を作成します。
+1. Adobe Experience Platform の場合 **[!UICONTROL Sources]** メニューで、ストレージの場所への接続を作成します。
 
    * [Amazon S3 ソース接続の作成](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3.html?lang=ja)
    * [Azure Blob コネクタ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/cloud-storage/blob.html?lang=ja)
@@ -64,7 +64,7 @@ Amazon Storage Service(S3)またはAzure Blobストレージの場所をExperien
 
    ![](assets/rtcdp-connector.png)
 
-1. クラウドストレージのバッチ接続のデータフローを設定します。 データフローとは、ストレージの場所からデータを取得し、Adobe Experience Platform データセットに取り込むようスケジュール設定されたタスクです。 この手順では、データ選択や、CSV フィールドの XDM スキーマへのマッピングなど、ストレージの場所からデータを取得するよう設定できます。
+1. クラウドストレージのバッチ接続のデータフローを設定します。 データフローとは、ストレージの場所からデータを取得し、Adobe Experience Platform データセットに取り込むようスケジュール設定されたタスクです。 この手順では、データ選択や、CSV フィールドの XDM スキーマへのマッピングを含め、ストレージの場所からのデータ取り込みを設定できます。
 
    詳しくは、[このページ](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/dataflow/cloud-storage.html?lang=ja)を参照してください。
 

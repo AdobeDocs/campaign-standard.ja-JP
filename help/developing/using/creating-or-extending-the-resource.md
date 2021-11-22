@@ -33,10 +33,10 @@ ht-degree: 11%
 
 リソースを作成または拡張するには：
 
-1. **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom Resources]**&#x200B;から、「**[!UICONTROL Create]**」ボタンをクリックします。
+1. 送信者 **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom Resources]**、 **[!UICONTROL Create]** 」ボタンをクリックします。
 1. 実行するアクションを選択します。
 
-   * **[!UICONTROL Create a new resource]**:「 」フィールドと「 」 **[!UICONTROL Label]** フィールドを **[!UICONTROL ID]** 入力します。「**[!UICONTROL ID]**」フィールドは必須です。「ラベル」フィールドを空のままにすると、IDから自動的に入力されます。
+   * **[!UICONTROL Create a new resource]**:次を入力します。 **[!UICONTROL Label]** および **[!UICONTROL ID]** フィールド。 「**[!UICONTROL ID]**」フィールドは必須です。「ラベル」フィールドを空のままにすると、ID から自動的に入力されます。
 
       ![](assets/schema_extension_2.png)
 
@@ -48,6 +48,6 @@ ht-degree: 11%
 
       ![](assets/schema_extension_10.png)
 
-1. **[!UICONTROL Create]**&#x200B;をクリックしてリソースを作成します。新しいリソースの場合は&#x200B;**[!UICONTROL Draft]**&#x200B;ステータス、拡張の場合は&#x200B;**[!UICONTROL Editing]**&#x200B;ステータスを取ります。
+1. クリック **[!UICONTROL Create]** リソースを作成し、 **[!UICONTROL Draft]** 新しいリソースの場合のステータス、または **[!UICONTROL Editing]** ステータス（拡張の場合）
 
-新しいリソースが作成され、設定できるようになります。 リソースの設定について詳しくは、[リソースのデータ構造の設定](../../developing/using/configuring-the-resource-s-data-structure.md)を参照してください。
+新しいリソースが作成され、設定できるようになります。 リソースの設定について詳しくは、 [リソースのデータ構造の設定](../../developing/using/configuring-the-resource-s-data-structure.md).

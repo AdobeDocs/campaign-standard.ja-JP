@@ -19,9 +19,9 @@ ht-degree: 1%
 
 ## フィルターメタデータの取得
 
-各リソースに対してフィルターを使用できます。 リソースに関連付けられているフィルターを特定するには、リソースメタデータに対してGETリクエストを実行する必要があります。 このリクエストは、指定されたリソースに対してすべてのフィルターが定義されたURLを返します。 メタデータについて詳しくは、[この節](../../api/using/metadata-mechanism.md)を参照してください。
+フィルターは、各リソースで使用できます。 リソースに関連付けられているフィルターを識別するには、リソースメタデータに対してGETリクエストを実行する必要があります。 このリクエストは、指定されたリソースに対してすべてのフィルターが定義されている URL を返します。 メタデータについて詳しくは、 [この節](../../api/using/metadata-mechanism.md).
 
-フィルターのメタデータを識別してその使用方法を決定するには、以前に返されたURLに対してGETリクエストを実行する必要があります。
+フィルターのメタデータを識別し、そのメタデータの使用方法を決定するには、以前に返された URL に対してGETリクエストを実行する必要があります。
 
 <br/>
 
@@ -37,7 +37,7 @@ ht-degree: 1%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-フィルターが記述されているURLを返します。
+フィルターが記述されている URL を返します。
 
 ```
 {
@@ -47,7 +47,7 @@ ht-degree: 1%
   }
 ```
 
-URLでGETリクエストを実行します。 プロファイルリソースのフィルターのリストと、各フィルターに関連付けられたメタデータを返します。
+URL でGETリクエストを実行します。 プロファイルリソースのフィルターのリストと、各フィルターに関連付けられたメタデータを返します。
 
 ```
 {
@@ -64,16 +64,16 @@ URLでGETリクエストを実行します。 プロファイルリソースの�
 
 ## フィルターのメタデータ構造
 
-各フィルターに同じメタデータ構造を使用できます。
+各フィルターで同じメタデータ構造を使用できます。
 
-* **@formType**&#x200B;フィールドと&#x200B;**@webPage**&#x200B;フィールドはテクニカルフィールドです。
-* **data**&#x200B;フィールドには、フィルターの使用方法に関するサンプルが表示されます。
-* **metadata**&#x200B;ノードは、フィルターパラメーターを記述します。
-* **condition**&#x200B;ノードは、フィルターの目的を示します。 metadataノードで説明するフィルターパラメーターは、フィルター条件の作成に使用されます。 各フィルター条件に対して、**enabledIf**&#x200B;がtrueの場合、**expr**&#x200B;が適用されます。
+* この **@formType** および **@webPage** フィールドは技術フィールドです。
+* この **データ** 「 」フィールドには、フィルターの使用方法の例が表示されます。
+* この **メタデータ** ノードは、フィルターパラメーターを表します。
+* この **条件** ノードは、フィルターの目的を示します。 metadata ノードで説明するフィルターパラメーターは、フィルター条件の作成に使用されます。 各フィルター条件に対して、 **enabledIf** が true の場合、 **expr** が適用されます。
 
 <br/>
 
-フィルターメタデータ構造の例：
+メタデータ構造のフィルターの例：
 
 ```
 "byText": {
@@ -93,7 +93,7 @@ URLでGETリクエストを実行します。 プロファイルリソースの�
 
 `GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/<resourceName>/by<filterName>?<filterParam>=<filterValue>`
 
-複数のフィルターを1つのリクエストで組み合わせることができます。
+複数のフィルターを 1 つのリクエストで組み合わせることができます。
 
 `GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/<resourceName>/<filter1name>/<filter2name>?<filter1param>=<filter1value>&<filter2param>=<filter2value>`
 
@@ -101,7 +101,7 @@ URLでGETリクエストを実行します。 プロファイルリソースの�
 
 ***リクエストのサンプル***
 
-* タイプが「email」の「service」リソースを取得するサンプルGETリクエスト。
+* タイプが「email」の「service」リソースを取得するためのサンプルGETリクエスト。
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel?channel=email \
@@ -133,8 +133,7 @@ URLでGETリクエストを実行します。 プロファイルリソースの�
    }
    ```
 
-* GETリクエストの例。
-eメールフィールドまたは姓のフィールド（byTextフィルターは、eメールフィールドと姓の両方を検索します）。
+* E メールまたは姓フィールドに「Doe」を含む「プロファイル」リソースを取得するサンプルGETリクエスト（byText フィルターは E メールと姓の両方のフィールドを検索します）。
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=Doe \
@@ -162,7 +161,7 @@ eメールフィールドまたは姓のフィールド（byTextフィルター�
    }
    ```
 
-* タイプが「email」でラベルが「sport」のサービスリソースを取得するGETリクエストのサンプル。
+* タイプが「email」でラベルが「sport」のサービスリソースを取得するためのサンプルGETリクエストです。
 
    ```
    -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel/byText?channel=email&text=sport \
@@ -203,13 +202,13 @@ eメールフィールドまたは姓のフィールド（byTextフィルター�
 詳しくは、次のCampaign Standardドキュメントを参照してください。
 
 * [フィルター定義の設定](https://helpx.adobe.com/campaign/standard/developing/using/configuring-filter-definition.html).
-* [使用例：複合IDキーを使用したリソースの呼び出し](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html)を参照してください。
+* [使用例：複合 ID キーを使用したリソースの呼び出し](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html).
 
 <br/>
 
 ***リクエストのサンプル***
 
-トランザクション金額が100$以上の「プロファイル」リソースを取得するサンプルGETリクエスト。 「byAmount」フィルターは、まずAdobe Campaign Standardインターフェイスで定義され、「トランザクション」カスタムテーブルにリンクされています。
+トランザクション量が 100$以上の「プロファイル」リソースを取得するためのサンプルGETリクエスト。 「byAmount」フィルターは、まずAdobe Campaign Standardインターフェイスで定義され、「トランザクション」カスタムテーブルにリンクされていることに注意してください。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byAmount?amount_parameter=100 \

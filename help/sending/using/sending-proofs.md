@@ -107,4 +107,4 @@ ht-degree: 100%
 * [ターゲットプロファイルを使用した E メールメッセージのテスト](../../sending/using/testing-messages-using-target.md)
 * [テストプロファイルの管理](../../audiences/using/managing-test-profiles.md)
 * [メッセージのプレビュー](../../sending/using/previewing-messages.md)
-* [E メールチャネルの設定](../../administration/using/configuring-email-channel.md)
+* [電子メールチャネルの設定](../../administration/using/configuring-email-channel.md)
