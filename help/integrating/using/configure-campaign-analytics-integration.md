@@ -8,9 +8,9 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: a6748b4b-36c5-4961-a599-ace73a8504cc
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 26260b9e633d8be1652eeb46c982864a7477da27
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '221'
 ht-degree: 9%
 
 ---
@@ -41,7 +41,7 @@ Adobe Campaign StandardとAdobe Analyticsの統合を開始するには、まず
 
    ![](assets/analytics.png)
 
-この **[!UICONTROL Share KPIs with Adobe Analytics]** テクニカルワークフローが自動的に起動し、詳細設定メニューから「 **[!UICONTROL Administration > Application settings > Workflow]**. このテクニカルワークフローは、15 分ごとに自動的に実行され、最大 6 か月前のデータをAdobe Analyticsにプッシュします。
+この **[!UICONTROL Share KPIs with Adobe Analytics]** テクニカルワークフローが自動的に起動し、詳細設定メニューから「 **[!UICONTROL Administration > Application settings > Workflow]**. このテクニカルワークフローは、6 か月前までの broadlog を保持できます。 このワークフローは増分処理であり、前日のデータをプッシュします。
 
 ![](assets/analytics_3.png)
 
