@@ -8,10 +8,10 @@ context-tags: delivery,triggers,back;deliveryCreation,wizard
 feature: In App
 role: User
 exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
-source-git-commit: 2ad76d55785f123b590e00c8d33552f4617c32e2
+source-git-commit: 0523c7cc68661a5593ae2c58382f839c2379f2db
 workflow-type: tm+mt
-source-wordcount: '1157'
-ht-degree: 98%
+source-wordcount: '1170'
+ht-degree: 95%
 
 ---
 
@@ -58,7 +58,9 @@ Adobe Campaign を使用してスタンドアロンのアプリ内メッセー�
    * **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**
    * **[!UICONTROL Target users based on their Mobile profile (inApp)]**
 
-1. アプリ内メッセージのプロパティを入力し、「**[!UICONTROL Associate a Mobile App to a delivery]**」フィールドでモバイルアプリを選択します。モバイルアプリが Adobe Campaign Standard と連携するように設定されていない場合、リストには表示されません。モバイルアプリケーションの設定について詳しくは、この[ページ](../../administration/using/configuring-a-mobile-application.md#channel-specific-config)を参照してください。
+1. アプリ内メッセージのプロパティを入力し、「**[!UICONTROL Associate a Mobile App to a delivery]**」フィールドでモバイルアプリを選択します。
+
+   ドロップダウンリストにアプリが表示されない場合は、モバイルアプリが **設定済み** 状態。 Adobe Analytics のアプリ **設定準備完了** 状態はリストに表示されません。 モバイルアプリケーションの設定について詳しくは、この[ページ](../../administration/using/configuring-a-mobile-application.md#channel-specific-config)を参照してください。
 
    ![](assets/inapp_creating_3.png)
 

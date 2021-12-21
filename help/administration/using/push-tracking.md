@@ -9,9 +9,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 950d24e2-358f-44f8-98ea-643be61d4573
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 95d4b9fbb41f5204f387971be3710817a281a8c4
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '954'
 ht-degree: 1%
 
 ---
@@ -232,13 +232,11 @@ iOS通知の仕組みを理解するには、アプリの次の 3 つの状態�
 * **背景**:is アプリが画面に表示されていないが、プロセスが閉じられていない場合。 ホームボタンをダブルクリックすると、通常はバックグラウンドにあるすべてのアプリを表示します。
 * **オフ/クローズ**:プロセスが強制終了されたアプリ。
 
-アプリが閉じられた場合、Appleは、アプリが再起動されるまでアプリを呼び出しません。 つまり、iOSでいつ通知を受け取ったかを知ることはできません。
-
 まだ **[!UICONTROL Impression]** アプリがバックグラウンドになっている間のトラッキングで、 **[!UICONTROL Content-Available]** 追跡を実行する必要があることをアプリに知らせるために。
 
 >[!CAUTION]
 >
->iOSのインプレッショントラッキングは正確ではないので、信頼できるとは見なされません。
+> アプリが閉じられた場合、Appleは、アプリが再起動されるまでアプリを呼び出しません。 つまり、iOSでいつ通知を受け取ったかを知ることはできません。 </br> この理由により、iOSのインプレッショントラッキングは、正確ではない可能性があり、信頼できるものとは見なされません。
 
 21.1 リリースより前に作成された配信またはカスタムテンプレートを使用した配信については、 [セクション](../../administration/using/push-tracking.md#about-push-tracking).
 
