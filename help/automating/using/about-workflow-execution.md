@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 3b95fc66-d6f4-44b2-be33-925c1109a57f
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 6ca3ffe3ba2cf7629e511e4ba035b170b25ad79e
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 9%
+source-wordcount: '353'
+ht-degree: 10%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 9%
 
 ワークフローは、必ず手動で開始します。ただし、開始した後も、 [スケジューラ](../../automating/using/scheduler.md) アクティビティ。
 
->[!CAUTION]
+>[!IMPORTANT]
 >
-> Adobeでは、ワークフローの実行を優先し、最大 20 個の同時ワークフロー実行を実行して、インスタンス全体で常に最大限のパフォーマンスを達成することをお勧めします。 同時に 20 を超えるワークフローを実行するよう計画しておき、デフォルトで順番に実行します。 チケットをカスタマーケアに送信することで、同時ワークフロー実行の最大数のデフォルト設定を調整できます。
+> Adobeでは、20 個を超えるアクティブなワークフローを同時に実行しないようにし、時間の経過と共にワークフローの実行を優先し、広げることをお勧めします。 詳しくは、 [このページ](../../automating/using/best-practices-workflows.md).
 
 実行に関連するアクション（開始、停止、一時停止など） が **非同期** プロセス：コマンドは保存され、サーバーが適用できるようになると有効になります。
 
