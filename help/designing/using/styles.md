@@ -8,9 +8,9 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: 8daeb12d-4170-464f-ba33-afb681f72a91
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: 5435e1dbfbe08399c488322320ac5bb8e681a79d
 workflow-type: tm+mt
-source-wordcount: '1052'
+source-wordcount: '1038'
 ht-degree: 2%
 
 ---
@@ -103,7 +103,6 @@ E メールデザイナーインターフェイスを使用すると、パディ
 >id="ac_edition_backgroundimage"
 >title="背景設定"
 >abstract="E メールデザイナーを使用すると、コンテンツの背景色や背景画像をパーソナライズできます。背景画像は、すべての E メールクライアントでサポートされているわけではありません。"
->additional-url="https://docs.google.com/spreadsheets/d/1TLo62YKm3tThUWDOIliCQFWs3dpNjpDfw6DdTr1oGOw/edit#gid=0" text="追加情報"
 
 E メールデザイナーで背景を設定する場合、Adobeは次のことを推奨します。
 

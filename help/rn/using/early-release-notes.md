@@ -7,9 +7,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 8bc0b1186e177b6937c1ae72c1f8763c480b12a9
+source-git-commit: 5435e1dbfbe08399c488322320ac5bb8e681a79d
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '734'
 ht-degree: 10%
 
 ---
@@ -53,6 +53,9 @@ ht-degree: 10%
 * アプリ内メッセージを送信した後に、配信の非アクティブ化を選択できるようになりました。 これにより、レポートデータを失うことなく配信を削除できます。 （CAMP-48469）
 * 問題を回避するために、ユーザーは、データベースの自動プライマリキーに使用されたのと同じ名前をカスタムテーブル列に使用できなくなりました。 `"<dataType><resourceName>Id"`. （CAMP-49358）
 * 配信を監視し、新しい **ジョブ履歴** 」ドロップダウンリストが表示されます。 （CAMP-49840）
+* 時間の経過と共にすべてのチャネルに大量のメッセージが送信される場合の、無効なタプルを減らすことで、安定性とデータベースのヘルスが向上しました。 （CAMP-49755、CAMP-49792、CAMP-49849）
+* データベースがクラッシュした場合や再起動した場合にデータベース接続が自動的に更新されるように、Campaign メール転送エージェント (MTA) に機能強化が実装されました。 （CAMP-48063）
+
 
 **パッチ**
 
