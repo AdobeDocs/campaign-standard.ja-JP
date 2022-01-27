@@ -5,7 +5,7 @@ user-guide-description: 'Campaign Standard の使用に必要な主要な機能�
 title: Campaign Standard ガイド
 breadcrumb-title: Adobe Campaign Standard ドキュメント
 source-git-commit: 4c316778c34c14b8d5e5aa1812999ee024a581a0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1807'
 ht-degree: 100%
 
