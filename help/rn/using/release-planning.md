@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
 source-git-commit: 830b81a8adffd39f00b7568dde56cf482eab0806
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '418'
 ht-degree: 100%
 
@@ -60,7 +60,7 @@ A：変更点は[リリースノート](../../rn/using/release-notes.md)に記�
 
 **Q：検証プロセスとは何ですか？**
 
-A：ステージング用インスタンスがアップグレードされたら、お客様のプロセスとユースケースがこの新しいバージョンで正しく動作することを検証し、問題があれば[アドビクライアントケア](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)に報告することをお勧めします。
+A：ステージング用インスタンスがアップグレードされたら、お客様のプロセスとユースケースがこの新しいバージョンで正しく動作することを検証し、問題があれば[アドビクライアントケア](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)に報告することをお勧めします。
 
 **Q：アップグレード中にインスタンスにアクセスできますか？**
 
@@ -82,4 +82,4 @@ A：はい。アップグレード中に新しい E メールは送信できま�
 
 A：Campaign にログオンすると、リリース通知ポップアップが表示され、最新バージョンが表示されます。
 
-その他のご質問については、[アドビクライアントケア](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)にお問い合わせください。
+その他のご質問については、[アドビクライアントケア](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)にお問い合わせください。
