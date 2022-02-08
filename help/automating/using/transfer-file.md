@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 736bf3dc-96c4-4518-96f8-d9aaa46d7f84
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: 41be9f7c13a4b3e0a20e714cc42b9d054812ec07
 workflow-type: tm+mt
-source-wordcount: '1115'
-ht-degree: 88%
+source-wordcount: '1157'
+ht-degree: 84%
 
 ---
 
@@ -54,11 +54,13 @@ ht-degree: 88%
    * [Microsoft Azure Blob Storage](#azure-blob-configuration-wf)
    * [Adobe Campaign サーバーに存在するファイル](#files-server-configuration-wf)
 
-1. 選択したプロトコルによっては「**[!UICONTROL Additional options]**」セクションが使用できます。このセクションではプロトコルにパラメータを追加できます。次の操作をおこなうことができます。
+1. 選択したプロトコルによっては「**[!UICONTROL Additional options]**」セクションが使用できます。このセクションではプロトコルにパラメータを追加できます。
 
-   * **[!UICONTROL Delete the source files after transfer]**
-   * **[!UICONTROL Disable passive mode]**
-   * **[!UICONTROL List all files]**：このオプションは、「**[!UICONTROL General]**」タブで「**[!UICONTROL File listing]**」アクションを選択する場合に使用できます。サーバー上に存在するすべてのファイルのインデックスを **vars.filenames** イベント変数に作成できます。この変数では、ファイル名が **&#39;n&#39;** 文字で区切られています。
+   次をおこなうことができます。
+
+   * **[!UICONTROL Delete the source files after transfer]**:リモートサーバー上のファイルを消去します。 このオプションを選択しない場合は、SFTP ディレクトリにあるアーカイブ済みコンテンツのサイズを手動で監視するようにしてください。
+   * **[!UICONTROL Disable passive mode]**:では、データ転送に使用する接続ポートを指定できます。
+   * **[!UICONTROL List all files]**:このオプションは、 **[!UICONTROL File listing]** アクション **[!UICONTROL General]** タブをクリックします。 サーバー上に存在するすべてのファイルのインデックスを **vars.filenames** イベント変数に作成できます。この変数では、ファイル名が **&#39;n&#39;** 文字で区切られています。
 
 1. 「**[!UICONTROL Advanced options]**」タブの「**[!UICONTROL If no files are found]**」セクションでは、アクティビティの起動時にエラーや存在しないファイルが検出された場合の特定のアクションを設定できます。
 

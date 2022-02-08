@@ -8,10 +8,10 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: bda6f8d5-3bcf-498c-a7c4-d3c2c79b9510
-source-git-commit: 462ebaf8e8f1f056aa92118226ef77aea37b972b
+source-git-commit: b7b9b137de1c62b00895550c7f5bec8ae508bd3b
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 2%
+source-wordcount: '491'
+ht-degree: 3%
 
 ---
 
@@ -87,6 +87,10 @@ ht-degree: 2%
    ![](assets/audit-trail_3.png)
 
 ## 監査証跡の有効化/無効化 {#enable-disable-audit}
+
+>[!NOTE]
+>
+> 監査証跡の有効/無効を切り替えられるのは、機能管理者のみです。 詳しくは、この[ページ](../../administration/using/users-management.md#functional-administrators)を参照してください。
 
 監査証跡は、特定のアクティビティに対して簡単に有効化または無効化できます。
 

@@ -8,10 +8,10 @@ context-tags: delivery,triggers,back;deliveryCreation,wizard
 feature: In App
 role: User
 exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
-source-git-commit: 0523c7cc68661a5593ae2c58382f839c2379f2db
+source-git-commit: 99111a0d8d3bf46aae39b80851ebcabaf30be0a0
 workflow-type: tm+mt
-source-wordcount: '1170'
-ht-degree: 95%
+source-wordcount: '1245'
+ht-degree: 89%
 
 ---
 
@@ -159,6 +159,18 @@ Adobe Campaign を使用してスタンドアロンのアプリ内メッセー�
    ![](assets/inapp_sending_7.png)
 
 1. 配信レポートを使用して、アプリ内メッセージの影響を測定します。レポートについて詳しくは、[この節](../../reporting/using/in-app-report.md)を参照してください。
+
+1. アプリ内メッセージを送信した後で、配信の非アクティブ化を選択できます。 これは、特定の配信を停止する場合や、同じトリガーで新しい配信を実行する場合などに役立ちます。
+
+   クリック **[!UICONTROL Deactivate]** その後 **[!UICONTROL Ok]** をクリックして非アクティブ化リクエストを開始します。
+
+   ![](assets/inapp_sending_8.png)
+
+1. リクエストが送信されると、配信は非アクティブ化され、他のメッセージは送信されません。
+
+   この配信のレポートは、引き続きアクセス可能です。
+
+   ![](assets/inapp_sending_9.png)
 
 **関連トピック：**
 

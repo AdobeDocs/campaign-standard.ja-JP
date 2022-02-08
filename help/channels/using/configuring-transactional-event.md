@@ -9,10 +9,10 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 1b91fb97-fe97-4564-936c-438be7ea7bc0
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: a6768af0cea8891411f81e1782a873b5adb70a0e
 workflow-type: tm+mt
-source-wordcount: '1672'
-ht-degree: 6%
+source-wordcount: '1705'
+ht-degree: 5%
 
 ---
 
@@ -122,6 +122,10 @@ ht-degree: 6%
 1. 以下を使用： **[!UICONTROL Create element]** ボタンを使用して、選択したリソースのフィールドを、イベントに以前追加したフィールドの 1 つにリンクします ( [イベント属性の定義](#defining-the-event-attributes)) をクリックします。
 
    ![](assets/message-center_enrichment-join.png)
+
+   >[!NOTE]
+   >
+   >複数の受信者を選択できる条件（複数のプロファイルに同じ値を持つことができるフィールドなど）を定義した場合、ターゲットとなるプロファイルは複数になりません。
 
 1. この例では、 **[!UICONTROL Last name]** そして **[!UICONTROL First name]** フィールドに、 **[!UICONTROL Profile]** リソース。
 

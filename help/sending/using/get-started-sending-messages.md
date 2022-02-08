@@ -7,10 +7,10 @@ topic-tags: about-sending-messages-with-campaign
 role: User
 level: Intermediate
 exl-id: bcb28ef5-5cad-43c1-b11b-080abc791a72
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: 013293fce8a923e771e10585c41e4ad482003080
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 17%
+source-wordcount: '590'
+ht-degree: 16%
 
 ---
 
@@ -89,7 +89,7 @@ Campaign Standardには次の機能があります。 **配信品質ツール** 
 ## その他のリソース
 
 * [A/B テスト用 E メールのデザイン](../../channels/using/designing-an-a-b-test-email.md)
-* [メールの概要](https://helpx.adobe.com/jp/campaign/kb/acs-get-started-with-emails.html)
+* [メッセージの概要](../../channels/using/key-steps-to-send-a-message.md)
 * [配信のベストプラクティス](../../sending/using/delivery-best-practices.md)
 * [コントロール母集団の追加](../../sending/using/control-group.md)
 

@@ -13,9 +13,9 @@ feature: Privacy
 role: User
 level: Intermediate
 exl-id: 0fc71c2f-f294-43f7-825c-73ab4d43fcf7
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: 013293fce8a923e771e10585c41e4ad482003080
 workflow-type: tm+mt
-source-wordcount: '1476'
+source-wordcount: '1424'
 ht-degree: 100%
 
 ---
@@ -28,7 +28,8 @@ Adobe Campaign は、個人情報や機密データを含む膨大な量のデ�
 
 * 常に、個人情報を責任を持って倫理的に使用してください。
 
-* 迷惑メール／プッシュ通知／SMS メッセージ（「スパム」）を送信しないでください。アドビは、顧客の生涯価値およびロイヤリティを促進するうえで許可型マーケティングの原則を重要視しています。したがって、未承諾メッセージの送信に Adobe Campaign を使用することを固く禁止しています。
+* 迷惑メール／プッシュ通知／SMS メッセージ（「スパム」）を送信しないでください。アドビでは、顧客の生涯価値およびロイヤルティを促進するうえで許可型マーケティングの原則を重視しています。したがって、未承諾メッセージの送信に Adobe Campaign を使用することを固く禁止しています。
+
 
 ### プライバシー規制 {#privacy-regulations}
 
@@ -42,7 +43,7 @@ Adobe Campaign は、個人情報や機密データを含む膨大な量のデ�
 
 >[!NOTE]
 >
->GDPR、CCPA、PDPA が Adobe Campaign にどのように適用されるかについては、[このページ](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy-overview.html#whatisgdpr)を参照してください。
+>GDPR、CCPA、PDPA が Adobe Campaign にどのように適用されるかについては、[このページ](../../start/using/privacy-management.md#privacy-management-regulations)を参照してください。
 
 ### Adobe Experience Cloud プライバシー {#experience-cloud-privacy}
 
@@ -59,7 +60,7 @@ Adobe Campaign は、Adobe Experience Cloud ソリューションの一部です
 * **Adobe Experience Cloud を使用した情報収集の仕組み**
 
    * Adobe Experience Cloud ソリューションでは、情報を収集できるように、web ビーコン（タグやピクセルとも呼ばれます）などの Cookie および同様のテクノロジーを使用します。Cookie および Adobe Campaign を使用した追跡機能について詳しくは、[この節](#tracking-capabilities)を参照してください。
-   * モバイルアプリで Adobe Experience Cloud テクノロジーを使用することもできます。Campaign を使用してモバイル配信を行う方法について詳しくは、[このページ](https://helpx.adobe.com/jp/campaign/kb/acs-mobile.html)を参照してください。
+   * モバイルアプリで Adobe Experience Cloud テクノロジーを使用することもできます。Campaign を使用してモバイル配信を行う方法について詳しくは、[このページ](../../channels/using/mobile-guide.md)を参照してください。
 
 * **Adobe Experience Cloud の使用に関するユーザーのプライバシー選択**
 
@@ -100,14 +101,14 @@ Adobe Campaign を使用すると、個人情報や機密情報などのデー�
 
 ## プライバシー管理 {#privacy-management}
 
-プライバシー管理とは、プライバシー規制（GDPR、CCPA など）の遵守に役立つすべてのプロセスとツールを指します。プライバシー管理の概要については、[このページ](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy-overview.html)で確認してください。
+プライバシー管理とは、プライバシー規制（GDPR、CCPA など）の遵守に役立つすべてのプロセスとツールを指します。プライバシー管理の概要については、[このページ](../../start/using/privacy-management.md#privacy-management-regulations)で確認してください。
 
 Adobe Campaign では、プライバシー管理に関する様々な機能を提供しています。
 * 同意の管理、データ保持、ユーザーの役割：[この節](#consent)を参照してください。
 * プライバシーリクエスト（アクセスする権利と忘れられる権利）：[この節](#privacy-requests)を参照してください。
-* 個人情報の販売のオプトアウト（CCPA 固有）：[この節](https://helpx.adobe.com/jp/campaign/kb/acs-privacy.html#ccpa)を参照してください。
+* 個人情報の販売のオプトアウト（CCPA 固有）：[この節](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa)を参照してください。
 
-Campaign の主なプライバシー機能と関与するペルソナの例を[この節](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy-more.html#gdprpersonasandflow)に示します。
+Campaign の主なプライバシー機能と関与するペルソナの例を[この節](#personal-data)に示します。
 
 
 ### 同意、保持、役割 {#consent}
@@ -118,7 +119,7 @@ Adobe Campaign には、プライバシーに不可欠な重要な機能が最�
 * **データ保持**：すべての組み込みの標準ログテーブルには事前に設定された保存期間があり、通常、データのストレージは 6 か月以下に制限されます。その他の保存期間は、ワークフローで設定できます。詳しくは、アドビのコンサルタントまたは技術管理者にお問い合わせください。
 * **権限管理**：Adobe Campaign では、事前作成された役割またはカスタムの役割を使用して、様々な Campaign オペレーターに割り当てられている権限を管理できます。これにより、会社内で様々なタイプのデータにアクセス、変更、書き出しできるユーザーを管理できます。詳しくは、[アクセス管理について](../../administration/using/about-access-management.md)を参照してください。
 
-これらの機能および Adobe Campaign での管理方法について詳しくは、[このページ](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy-overview.html#consent)を参照してください。
+これらの機能および Adobe Campaign での管理方法について詳しくは、[このページ](../../start/using/privacy-management.md#consent-retention-roles)を参照してください。
 
 ### プライバシーリクエスト {#privacy-requests}
 
@@ -130,15 +131,9 @@ Adobe Campaign には、特定のプライバシーリクエストに対する�
 
 >[!NOTE]
 >
->このツールセットは、GDPR、CCPA および PDPA のプライバシーコンプライアンスを支援するために用意されています。これらの様々な規則について詳しくは、[このページ](https://helpx.adobe.com/campaign/kb/campaign-privacy-overview.html#whatisgdpr)を参照してください。
+>このツールセットは、GDPR、CCPA および PDPA のプライバシーコンプライアンスを支援するために用意されています。これらの様々な規則について詳しくは、[このページ](../../start/using/privacy-management.md#privacy-management-regulations)を参照してください。
 
-<!--* **GDPR** (General Data Protection Regulation) is the European Union’s (EU) privacy law that harmonizes and modernizes data protection requirements. GDPR applies to Adobe Campaign customers who hold data for Data Subjects residing in the EU.
-
-* **CCPA** (California Consumer Privacy Act) provides California residents new rights in regards to their personal information and imposes data protection responsibilities on certain entities whom conduct business in California.
-
-* **Thailand's PDPA** (Personal Data Protection Act) is the new privacy law that harmonizes and modernizes data protection requirements for Thailand. This regulation applies to Adobe Campaign customers who hold data for Data Subjects residing in this country.-->
-
-**アクセス**&#x200B;要求と&#x200B;**削除**&#x200B;要求は、[このページ](https://helpx.adobe.com/jp/campaign/kb/acs-privacy.html#righttoaccess)に表示されます。これらのリクエストを作成するための実装手順については、[このページ](https://helpx.adobe.com/jp/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)で詳しく説明しています。チュートリアルは[こちら](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=ja)からもご利用いただけます。
+**アクセス**&#x200B;要求と&#x200B;**削除**&#x200B;要求は、[このページ](../../start/using/privacy-management.md#right-access-forgotten)に表示されます。これらのリクエストを作成するための実装手順については、[このページ](../../start/using/privacy-requests.md#about-privacy-requests)で詳しく説明しています。チュートリアルは[こちら](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=ja)からもご利用いただけます。
 
 ## トラッキング機能 {#tracking-capabilities}
 

@@ -9,10 +9,10 @@ feature: Performance Monitoring
 role: User
 level: Beginner
 exl-id: ddc92077-df73-411d-a161-3263581e6945
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: ed60bde4785da9a8cc5a6cc0efcdb24e2c1f65e3
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 86%
+source-wordcount: '499'
+ht-degree: 79%
 
 ---
 
@@ -37,6 +37,12 @@ ht-degree: 86%
    「**[!UICONTROL Export list]**」ボタンをクリックすると、ログをエクスポートすることができます。
 
    ![](assets/sending_delivery2.png)
+
+* **ジョブのログ**:配信でトリガーされるバッチジョブのリストにアクセスするには、メッセージダッシュボードで「 **[!UICONTROL Job history]** から **[!UICONTROL Summary]** 」ドロップダウンリストから選択できます。
+
+   リストから任意のジョブを選択して、選択したジョブの詳細を表示します **[!UICONTROL Batch job]**.
+
+   ![](assets/sending_delivery8.png)
 
 * **配信アラート**：配信の成功または失敗を追跡するために、Adobe Campaign は重要なシステムアクティビティをユーザーに通知する E メールアラートシステムを備えています。
 * **レポート**：メッセージダッシュボードから、この特定のメッセージに関する複数のレポートにアクセスできます。また、組み込みレポートやカスタムレポートの完全なリストにアクセスできる **[!UICONTROL Reports]** メニューもあり、メッセージやキャンペーンに関連する特定の指標の概要を示すのに使用できます。
