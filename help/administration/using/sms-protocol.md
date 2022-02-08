@@ -1,14 +1,12 @@
 ---
 title: SMS コネクタのプロトコルと設定
-description: SMS コネクタの詳細と設定方法について説明します。
+description: SMS コネクタの詳細と設定方法を説明します
 audience: administration
-content-type: reference
-topic-tags: configuring-channels
 feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: ea936128-1c51-483d-914c-6d06708456d6
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
 source-wordcount: '8664'
 ht-degree: 86%
@@ -172,7 +170,8 @@ PDU にはオプションのフィールドを指定できます。ここでは�
 
 * **esm_class**：UDH がテキストフィールドで使用されているかどうかを示すために使用します。`message_payload` モードが使用されない場合、分割 SMS のコネクタによって自動的に有効になります。
 
-* **priority_flag**：他のメッセージと比較した場合のこのメッセージの優先順位。これは、配信自体の優先順位に結び付けられます。
+* **priority_flag**：他のメッセージと比較した場合のこのメッセージの優先順位。これは、配信自体の優先度に結び付けられます。
+
 
 * **validity_period**：タイムスタンプ。このタイムスタンプを超えると、再試行はおこなわれません。配信自体に設定されます。
 

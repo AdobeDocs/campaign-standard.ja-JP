@@ -1,18 +1,15 @@
 ---
 title: SMS チャネルの設定
-description: 「SMS の設定手順（ルーティング、エンコーディング、形式および詳細プロパティ）について説明します。」
+description: SMS の設定手順（ルーティング、エンコーディング、形式、詳細プロパティなど）について説明します
 audience: administration
-content-type: reference
-topic-tags: configuring-channels
-context-tags: extAccountMobile,overview;extAccount,main;delivery,smsContent,back
 feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
-source-wordcount: '1566'
-ht-degree: 91%
+source-wordcount: '1565'
+ht-degree: 90%
 
 ---
 
@@ -58,7 +55,7 @@ SMPP プロトコルを使用する場合、新しい外部アカウントを作
 
    期間に対応するすべてのフィールドの値は、秒単位で入力する必要があります。
 
-1. Define the SMS-C specific parameters in case you must define a specific encoding mapping. 詳しくは、[SMSC の詳細](#smsc-specifics)の節を参照してください。
+1. 特定のエンコーディングマッピングを定義する必要がある場合は、SMS-C 固有のパラメーターを定義します。 詳しくは、[SMSC の詳細](#smsc-specifics)の節を参照してください。
 
    SMPP プロトコルを適用せずに、SMS プロバイダー（SMS-C）のサーバーに **[!UICONTROL +]** プレフィックスを転送する場合は、「**[!UICONTROL Send full phone number (send characters other than digits)]**」オプションを有効にします。
 
@@ -316,7 +313,7 @@ Adobe Campaign では、SMS メッセージの送信時に 1 つまたは複数�
 
 ### MO に送信された自動返信 {#automatic-reply-sent-to-the-mo}
 
-When a profile replies to an SMS message which was sent via Campaign, you can configure messages which are automatically sent back to them as well as the action to perform.
+プロファイルが Campaign 経由で送信された SMS メッセージに返信する場合、自動的に返信されるメッセージや、実行するアクションを設定できます。
 
 詳しくは、[この節](../../channels/using/managing-incoming-sms.md)を参照してください。
 
@@ -328,7 +325,7 @@ SMS メッセージを送信するための特定のパラメーターは、「*
 
 ![](assets/sms_options.png)
 
-From the **[!UICONTROL Advanced parameters]** section:
+次の **[!UICONTROL Advanced parameters]** セクション：
 
 * この **[!UICONTROL Short code]** 配信に特定のショートコードを追加できます。 この特定のショートコードをオプトアウトした受信者は、メッセージの準備中に自動的に除外されます。 ショートコードの設定方法について詳しくは、 [この節](../../channels/using/managing-incoming-sms.md).
 
