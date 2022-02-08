@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 736bf3dc-96c4-4518-96f8-d9aaa46d7f84
-source-git-commit: 41be9f7c13a4b3e0a20e714cc42b9d054812ec07
+source-git-commit: 53852538ac1e092dc9376119f29d969ed4b02952
 workflow-type: tm+mt
-source-wordcount: '1157'
-ht-degree: 84%
+source-wordcount: '1168'
+ht-degree: 83%
 
 ---
 
@@ -59,7 +59,11 @@ ht-degree: 84%
    次をおこなうことができます。
 
    * **[!UICONTROL Delete the source files after transfer]**:リモートサーバー上のファイルを消去します。 このオプションを選択しない場合は、SFTP ディレクトリにあるアーカイブ済みコンテンツのサイズを手動で監視するようにしてください。
-   * **[!UICONTROL Disable passive mode]**:では、データ転送に使用する接続ポートを指定できます。
+
+   * **[!UICONTROL Sorting files]**:では、ファイルを英数字で並べ替えることができます。 このオプションはデフォルトでは無効です。
+
+      <!--**[!UICONTROL Disable passive mode]**: allows you to specify the connection port to be used for data transfer.-->
+
    * **[!UICONTROL List all files]**:このオプションは、 **[!UICONTROL File listing]** アクション **[!UICONTROL General]** タブをクリックします。 サーバー上に存在するすべてのファイルのインデックスを **vars.filenames** イベント変数に作成できます。この変数では、ファイル名が **&#39;n&#39;** 文字で区切られています。
 
 1. 「**[!UICONTROL Advanced options]**」タブの「**[!UICONTROL If no files are found]**」セクションでは、アクティビティの起動時にエラーや存在しないファイルが検出された場合の特定のアクションを設定できます。
@@ -81,6 +85,8 @@ HTTP プロトコルを使用すると、外部アカウントまたは URL か�
 
 また、「**[!UICONTROL Quick configuration]**」オプションを選択することもできます。必要なのは「URL」フィールドに URL を入力することだけです。
 ![](assets/wkf_file_transfer_04.png)
+
+**[!UICONTROL Follow redirections]**, **[!UICONTROL Ignore the HTTP return code]**、および **[!UICONTROL Add received HTTP headers to the file]** は、HTTP プロトコルを選択した場合に使用できる追加のオプションです。
 
 ### SFTP を使用した設定 {#SFTP-configuration-wf}
 

@@ -1,14 +1,11 @@
 ---
 title: ワークフローでの繰り返しプッシュ通知の送信
-description: この例では、パーソナライズされたプッシュ通知は、月の初日の午後 8 時に、それぞれのタイムゾーンに応じて、モバイルアプリケーションの購読者に送信されます。
-audience: automating
-content-type: reference
-topic-tags: channel-activities
+description: この例では、パーソナライズされたプッシュ通知が月の初日の午後 8 時に、それぞれのタイムゾーンに応じてモバイルアプリケーションの購読者に送信されます
 feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: d5e6034c-3673-4069-ac0b-49c7ad07259d
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 0ab950d4124bf459ba889e2f1c2954210dd350e0
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 4%

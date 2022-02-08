@@ -1,23 +1,34 @@
 ---
-title: ドキュメントのアップデート
-description: Adobe Campaign Standard ドキュメントのすべての最新アップデートについて説明します。
-audience: rn
-content-type: reference
-topic-tags: campaign-standard-releases
+title: ドキュメントの更新点
+description: Adobe Campaign Standardドキュメントの最新の更新をすべて説明します
 feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: 85c32143f87b1c46dd9aa32e9aac17f5fa9b7c62
 workflow-type: tm+mt
-source-wordcount: '6933'
-ht-degree: 100%
+source-wordcount: '7089'
+ht-degree: 97%
 
 ---
 
 # ドキュメントの更新点{#documentation-updates}
 
 このページでは、Adobe Campaign の[リリースノート](../../rn/using/release-notes.md)に加えて、Adobe Campaign Standard のドキュメントの新規更新をすべて紹介します。
+
+## 2022 年 2 月 {#doc-updates-feb-2022}
+
+URL から読み込まれたコンテンツを含む配信の再試行メカニズムが改善されました。 [詳細情報](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time)
+
+自動 SMS 返信をトリガーするキーワードに関する警告メモを追加しました。英数字のみを含める必要があります。 [詳細情報](../../channels/using/managing-incoming-sms.md)
+
+「監査」を制御するオプションのアクセスレベルを更新しました。有効/無効にする以前のオプション [監査証跡](../../administration/using/audit.md) はアクセスできなかった [機能管理者](../../administration/using/users-management.md#functional-administrators). この変更により、監査のアクセスレベルが変更され、機能管理者が制御できるようになります。 [詳細情報](../../administration/using/audit.md#enable-disable-audit)
+
+A/B テスト用 E メールの節に次の注意事項を追加しました。母集団の合計が 50k 未満の場合、各バリアントは合計母集団の少なくとも 10%を表す必要があります。 そうしないと、ログに警告が表示されます。 [詳細情報](../../channels/using/designing-an-a-b-test-email.md)
+
+の説明を更新しました **[!UICONTROL Delete the source files after transfer]** オプション **ファイル転送** 「 」オプションが選択されていない場合に SFTP ディレクトリにアーカイブされたコンテンツのサイズを手動で監視するリマインダーを含む、アクティビティ。 [詳細情報](../../automating/using/transfer-file.md)
+
+の古いリンクをすべて更新しました。 **プライバシー** セクション。 [詳細情報](../../start/using/privacy.md)
 
 ## リリース 21.3 - 2021 年 9 月 {#release-21-3---september-2021}
 
@@ -850,7 +861,7 @@ A/B テストのサンプルを更新しました。[詳細を表示](../../chan
 
 新しい書き出しトラッキング機能に関する節を追加しました。[詳細を表示](../../administration/using/auditing-export-logs.md)
 
-組み込みパッケージの書き出しに関する精度を追加しました。[詳細を表示](../../automating/using/managing-packages.md)
+ビルトインパッケージの書き出しに関する精度を追加しました。[詳細を表示](../../automating/using/managing-packages.md)
 
 外部アカウントの定義とサンプルを更新しました。[詳細を表示](../../administration/using/external-accounts.md)
 
