@@ -9,10 +9,10 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 07cbf39c-4f53-49b1-8e85-c6df39f014b5
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 2adead5903eb2710207d7aeaaa85418bd616ca5d
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 100%
+source-wordcount: '836'
+ht-degree: 95%
 
 ---
 
@@ -50,6 +50,11 @@ A/B テストの具体的なコンテキストは次のようになります。
    * **[!UICONTROL Number of variants]**：2 つまたは 3 つのバリエーションを使用するように選択できます。バリエーションを 3 つ選択した場合、この手順がウィザードで確認された後は変更できません。
    * **[!UICONTROL Winning strategy]**：勝者バリアントを決定するための条件を選択します。
    * **[!UICONTROL Target breakdown]**：各バリアントを受け取るターゲットの割合（%）を選択します。勝者バリアントが決定されたら、残りのターゲットには、判定後、その勝者バリアントが送信されます。ターゲットプロファイルはランダムに選択されます。
+
+      >[!NOTE]
+      >
+      >母集団の合計が 50k 未満の場合、各バリアントは合計母集団の少なくとも 10%を表す必要があります。
+
    * **[!UICONTROL Winner sending method]**：選択されなかったターゲットに、勝者バリアントを自動的に送信するか、送信を手動で確認するかを選択します。
    * **[!UICONTROL Test duration]**：テスト期間を指定します。勝者バリアントは、テスト期間終了後に自動的に決定されます。テストが終了する前に、電子メールダッシュボードから勝者バリアントを手動で選択できます。
 
@@ -88,4 +93,4 @@ A/B テストの具体的なコンテキストは次のようになります。
 
 E メールダッシュボードには、クリック数、開封回数、バウンス回数など、A/B テストの測定に役立ついくつかのインジケーターが用意されています。
 
-**[!UICONTROL Estimated recipient reactivity]**&#x200B;インジケーターは、クリックした受信者の数と E メールを開いた受信者の数を比較した割合です。例えば、10 人の受信者が E メールを開き、5 人の受信者がクリックした場合、反応率は 50% です。
+**[!UICONTROL Estimated recipient reactivity]**&#x200B;インジケーターは、クリックした受信者の数と E メールを開いた受信者の数を比較した割合です。例えば、10 人の受信者が E メールを開封し、5 人の受信者がクリックした場合、反応率は 50%になります。
