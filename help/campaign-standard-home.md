@@ -6,10 +6,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 9aae75653e3f517e59aae91eaa94c65d247a14dc
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 100%
+source-wordcount: '251'
+ht-degree: 93%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 100%
 ![](start/using/assets/do-not-localize/banner_acs_doc.jpg)
 
 ## 新着情報
+
+* **[Campaign 22.1 リリースノートは公開されています](rn/using/release-notes.md)**<br/> Campaign Standard22.1 リリースの新機能、改善点および修正点について説明します
 
 * **[Apple のメールプライバシー保護に関する FAQ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/technotes/apple-mail-privacy-faq.html?lang=ja)**<br/> iOS 15 に関する Apple の発表に対応した最初のガイダンスを確認します。
 
