@@ -5,9 +5,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 85c32143f87b1c46dd9aa32e9aac17f5fa9b7c62
+source-git-commit: 1311b88313910acd9fa6585adecbd7c8315e2d77
 workflow-type: tm+mt
-source-wordcount: '7089'
+source-wordcount: '7128'
 ht-degree: 97%
 
 ---
@@ -18,17 +18,27 @@ ht-degree: 97%
 
 ## 2022 年 2 月 {#doc-updates-feb-2022}
 
+## リリース 22.1 - 2022年2月 {#release-22-1}
+
+**リリースに含まれる機能強化**
+
 URL から読み込まれたコンテンツを含む配信の再試行メカニズムが改善されました。 [詳細情報](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time)
 
-自動 SMS 返信をトリガーするキーワードに関する警告メモを追加しました。英数字のみを含める必要があります。 [詳細情報](../../channels/using/managing-incoming-sms.md)
-
 「監査」を制御するオプションのアクセスレベルを更新しました。有効/無効にする以前のオプション [監査証跡](../../administration/using/audit.md) はアクセスできなかった [機能管理者](../../administration/using/users-management.md#functional-administrators). この変更により、監査のアクセスレベルが変更され、機能管理者が制御できるようになります。 [詳細情報](../../administration/using/audit.md#enable-disable-audit)
+
+新しい **ジョブ履歴** ドロップダウンがメッセージダッシュボードに追加されました。 [詳細を表示](../../sending/using/monitoring-a-delivery.md)
+
+**その他の変更**
+
+自動 SMS 返信をトリガーするキーワードに関する警告メモを追加しました。英数字のみを含める必要があります。 [詳細情報](../../channels/using/managing-incoming-sms.md)
 
 A/B テスト用 E メールの節に次の注意事項を追加しました。母集団の合計が 50k 未満の場合、各バリアントは合計母集団の少なくとも 10%を表す必要があります。 そうしないと、ログに警告が表示されます。 [詳細情報](../../channels/using/designing-an-a-b-test-email.md)
 
 の説明を更新しました **[!UICONTROL Delete the source files after transfer]** オプション **ファイル転送** 「 」オプションが選択されていない場合に SFTP ディレクトリにアーカイブされたコンテンツのサイズを手動で監視するリマインダーを含む、アクティビティ。 [詳細情報](../../automating/using/transfer-file.md)
 
 の古いリンクをすべて更新しました。 **プライバシー** セクション。 [詳細情報](../../start/using/privacy.md)
+
+コンテンツのドキュメント表に、CampaignCampaign コントロールパネルドキュメントへの直接リンクをCampaign Standardしました。
 
 ## リリース 21.3 - 2021 年 9 月 {#release-21-3---september-2021}
 
