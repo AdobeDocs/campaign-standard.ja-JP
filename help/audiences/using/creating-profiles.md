@@ -8,10 +8,10 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: 827df9f6-070c-466a-890c-e363de6b129b
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 90%
+source-wordcount: '379'
+ht-degree: 87%
 
 ---
 
@@ -21,7 +21,7 @@ Adobe Campaign では、メッセージのメインターゲットを定義す�
 
 >[!NOTE]
 >
->プロファイルの作成は、Adobe Campaign Standard API を使用しても可能です。詳しくは、[該当するドキュメント](../../api/using/creating-profiles.md)を参照してください。
+>プロファイルの作成は、Adobe Campaign Standard API を使用しても可能です。詳しくは、[該当するドキュメント](../../api/using/creating-profiles-api.md)を参照してください。
 
 ![](assets/do-not-localize/how-to-video.png) [ワークフローを使用してプロファイルをインポートする方法をビデオで確認](#video)
 
@@ -31,7 +31,7 @@ Campaign でプロファイルを作成または更新するには、次の操�
 * [ランディングページ](../../channels/using/getting-started-with-landing-pages.md)からオンラインでデータを収集する
 * [REST API](../../api/using/get-started-apis.md) を使用して一括作成する
 * [Microsoft Dynamics](../../integrating/using/d365-acs-get-started.md) からプロファイルを同期する
-* 以下に説明するように、グラフィカルインターフェイス画面からデータを入力する
+* 以下に説明するように、ユーザーインターフェイスを使用してデータを入力します
 
 例えば、ユーザーインターフェイスで直接新しいプロファイルを作成するには、次の手順に従います。
 

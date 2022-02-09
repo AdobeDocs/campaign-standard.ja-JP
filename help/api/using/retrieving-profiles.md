@@ -1,21 +1,18 @@
 ---
 title: プロファイルの取得
-description: API を使用してプロファイルを取得する方法について詳しく説明します。
-audience: developing
-content-type: reference
-topic-tags: campaign-standard-apis
+description: API を使用してプロファイルを取得する方法の詳細を説明します
 feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 19679804-f728-49fa-b26e-8f31b67c29bf
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 5%
+source-wordcount: '231'
+ht-degree: 4%
 
 ---
 
-# プロファイルの取得 {#retrieving-profiles}
+# API を使用したプロファイルの取得 {#retrieving-profiles}
 
 プロファイルの取得は、 **GET** リクエスト。
 

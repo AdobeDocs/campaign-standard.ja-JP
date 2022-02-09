@@ -1,21 +1,18 @@
 ---
 title: トラブルシューティング
 description: Campaign StandardAPI に関する一般的な問題の詳細
-audience: developing
-content-type: reference
-topic-tags: use-case--extending-the-api
 feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 404356cd-021f-4739-a88f-b8b1b79e19bc
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '356'
 ht-degree: 1%
 
 ---
 
-# トラブルシューティング {#troubleshooting}
+# API のトラブルシューティング {#troubleshooting}
 
 * **Adobe.io コンソールに移動すると、次のエラーが表示されます。「Adobe I/O・コンソールは、エンタープライズ・アカウントの一部のメンバーのみが使用できます。 アクセス権が必要な場合は、システム管理者にお問い合わせください。」**
 
@@ -87,7 +84,7 @@ Adobe.io が無効な URI を宣言します：要求している URI が有効�
 
 * **作成後、自分のプロファイルが表示されない**
 
-インスタンスの設定に応じて、作成したプロファイルを **orgUnit**. このフィールドを作成に追加する方法については、 [この節](../../api/using/creating-profiles.md).
+インスタンスの設定に応じて、作成したプロファイルを **orgUnit**. このフィールドを作成に追加する方法については、 [この節](../../api/using/creating-profiles-api.md).
 
 <!-- * (error duplicate key : quand tu crées un profile qui existe déjà , il faut faire un patch pour updater le profile plutôt qu’un POST)
 

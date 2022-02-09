@@ -4,8 +4,8 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Campaign Standard の使用に必要な主要な機能、タスク、設定、その他のリソースに関するヘルプセンター。 '
 title: Campaign Standard ガイド
 breadcrumb-title: Adobe Campaign Standard ドキュメント
-source-git-commit: 4c316778c34c14b8d5e5aa1812999ee024a581a0
-workflow-type: ht
+source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
+workflow-type: tm+mt
 source-wordcount: '1807'
 ht-degree: 100%
 
@@ -490,7 +490,7 @@ ht-degree: 100%
    + プロファイルの管理{#managing-profiles}
       + [プロファイルの取得](api/using/retrieving-profiles.md)
       + [プロファイルの更新](api/using/updating-profiles.md)
-      + [プロファイルの作成](api/using/creating-profiles.md)
+      + [プロファイルの作成](api/using/creating-profiles-api.md)
    + サービスと購読の管理 {#managing-services-and-subscriptiopns}
       + [サービスの作成](api/using/creating-a-service.md)
       + [購読の取得](api/using/retrieving-subscriptions.md)

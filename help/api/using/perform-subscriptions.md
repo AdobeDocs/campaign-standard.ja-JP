@@ -1,21 +1,18 @@
 ---
 title: 購読の実行
-description: API を使用してサブスクリプションを実行する方法を説明します。
-audience: developing
-content-type: reference
-topic-tags: campaign-standard-apis
+description: API を使用してサブスクリプションを実行する方法を説明します
 feature: API
 role: Data Engineer
 level: Experienced
 exl-id: 64f321a3-436a-4b7c-99d8-0c006203012e
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '114'
 ht-degree: 0%
 
 ---
 
-# 購読の実行 {#performing-subscriptions}
+# API を使用したサブスクリプションの実行{#performing-subscriptions}
 
 ## メソッド 1:プロファイルのサービスへの購読登録
 
