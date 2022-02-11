@@ -9,9 +9,9 @@ role: User
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
 source-git-commit: e41667405b54a7ed0e02889e3002807e4bfd3a05
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1591'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -95,9 +95,9 @@ Privacy Core Service からプライバシーリクエストを作成する方�
 
 >[!IMPORTANT]
 >
->カスタムの名前空間タイプを使用してリクエストを送信するには、 [JSON メソッド](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=en#json){target=&quot;_blank&quot;} を実行してリクエストに namespaceId を追加するか、 [API 呼び出し](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=en#access-delete){target=&quot;_blank&quot;} を追加してリクエストをおこないます。
+>カスタムの名前空間タイプを使用してリクエストを送信するには、[JSON メソッド](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ja#json){target=&quot;_blank&quot;} を実行してリクエストに namespaceId を追加するか、[API 呼び出し](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=ja#access-delete){target=&quot;_blank&quot;} を使用してリクエストを行います。
 >
->次のみを使用： [プライバシーユーザーインターフェイス](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=en#request-builder){target=&quot;_blank&quot;} ：標準の名前空間タイプを使用して要求を送信します。
+>標準の名前空間タイプを使用して、[プライバシーユーザーインターフェイス](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ja#request-builder){target=&quot;_blank&quot;} のみを使用してリクエストを送信します。
 
 Privacy Core Service の各ジョブは、使用されている名前空間の数に基づいて、Campaign の複数のプライバシーリクエストに分割されます。1 つの要求が 1 つの名前空間に対応します。また、1 つのジョブを複数のインスタンスで実行できます。 したがって、1 つのジョブに対して複数のファイルが作成されます。 例えば、リクエストに 2 つの名前空間があり、3 つのインスタンスで実行されている場合、合計 6 つのファイルが送信されます。 名前空間およびインスタンスごとに 1 つのファイル。
 
@@ -189,7 +189,7 @@ Adobe Campaign が提供する[同意管理](../../start/using/privacy-managemen
 
 ### カスタムテーブルの前提条件 {#ccpa-prerequisite}
 
-この **[!UICONTROL CCPA Opt-Out]** フィールドが Campaign インターフェイスおよび API で標準で提供されます。 デフォルトでは、このフィールドは標準の **[!UICONTROL Profile]** リソースで使用できます。
+Campaign インターフェイスおよび API では **[!UICONTROL CCPA Opt-Out]** フィールドが標準装備されています。デフォルトでは、このフィールドは標準の **[!UICONTROL Profile]** リソースで使用できます。
 
 カスタムプロファイルリソースを使用する場合は、リソースを拡張し、フィールドを追加する必要があります。次のように、あらかじめ用意されているフィールドとは別の名前を使用することをお勧めします。例：**[!UICONTROL Opt-Out for CCPA]**（optoutccpa）。新しいフィールドが作成されると、Campaign API によって自動的にサポートされます。
 
