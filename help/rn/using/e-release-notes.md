@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
 source-git-commit: fcc4dc0789a02f2a58abed858561f023a53a9d95
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '736'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ ht-degree: 99%
 * 却下されたプッシュ通知が&#x200B;**インプレッション**&#x200B;ではなく&#x200B;**オープン**&#x200B;として表示されるプッシュ通知レポートのエラーを修正しました。（CAMP-45980）
 * レポートを開く際にエラーが発生する可能性がある問題を修正しました。（CAMP-49222）
 * AEM コンテンツへのリンクを削除した後、メールの準備に失敗する可能性がある問題を修正しました。（CAMP-49877）
-* 様々な問題を解決するために、URL から読み込まれたコンテンツを含む配信の再試行メカニズムが改善されました。[詳細情報](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time) (CAMP-48888)
+* 様々な問題を解決するために、URL から読み込まれたコンテンツを含む配信の再試行メカニズムが改善されました。[詳細情報](../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time)（CAMP-48888）
 * カスタムリソースで新しいフィルターを作成し、ランディングページで紐付けキーとして使用した後に発生していた問題を修正しました。カスタムリソースが再度公開された場合、ランディングページで使用可能な紐付けキーのリストからフィルターが削除されました。（CAMP-49516）
 * チェックボックスで動的条件を使用する場合のランディングページの問題を修正しました。（CAMP-48604）
 * 「10月以前」のフィルター条件を使用したときに&#x200B;**クエリ**&#x200B;アクティビティで発生していた問題を修正しました。ヨーロッパのタイムゾーンに設定されたインスタンスから作業する場合、タイムゾーンの変換時に問題が発生したため、フィルターに選択した月に10月ではなく9月が表示されました。（CAMP-48602）
