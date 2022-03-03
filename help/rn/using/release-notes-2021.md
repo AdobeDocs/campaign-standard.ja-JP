@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 225c65cc-2964-4b71-84a9-30fcd22d75bf
-source-git-commit: 97d1de796397f4f801d97790cec39a94734d2af7
-workflow-type: ht
-source-wordcount: '4571'
-ht-degree: 100%
+source-git-commit: 8f04bb9fa8b47b990f0cd6359ce6569d836a9b64
+workflow-type: tm+mt
+source-wordcount: '4587'
+ht-degree: 99%
 
 ---
 
@@ -110,6 +110,7 @@ Campaign Standard の最新リリースに含まれている新機能、改善�
 * バウンス率が高いことを新しいアラートメッセージでユーザーに通知します。
 * トラッキングログを正しく取得できなかった場合のデバッグを容易にするために、ログエラーメッセージと警告を改善しました。（CAMP-48939、CAMP-47360）
 * ドメイン名を含め、URL を完全にパーソナライズできるようになりました。[詳細情報](../../designing/using/personalization.md#personalizing-urls)
+* 配達確認およびトラッププロファイルが、動的レポートの配信パフォーマンスの計算から除外されるようになりました。 （CAMP-47338）
 
 **パッチ**
 

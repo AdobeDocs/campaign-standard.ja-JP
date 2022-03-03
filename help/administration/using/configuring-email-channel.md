@@ -6,9 +6,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: 0d473db5013ecc33b100aa884daac53f36fb2e93
 workflow-type: tm+mt
-source-wordcount: '2596'
+source-wordcount: '2614'
 ht-degree: 77%
 
 ---
@@ -234,6 +234,7 @@ SMTP の設定について詳しくは、[E メール SMTP パラメーターの
 * **[!UICONTROL Activate tracking]**：メッセージ URL 追跡をアクティブ化／非アクティブ化できます。各メッセージ URL の追跡を管理するには、E メールデザイナーのアクションバーにある「**[!UICONTROL Links]**」アイコンを使用します。[追跡する URL について](../../designing/using/links.md#about-tracked-urls)を参照してください。
 * **[!UICONTROL Tracking validity limit]**：URL で追跡を有効にする期間を定義できます。
 * **[!UICONTROL Substitution URL for expired URLs]**：追跡の有効期限が切れた後に表示される web ページへの URL を入力できます。
+* **[!UICONTROL Use tracking pixel at the top of email]**:では、下部ではなく、e メールの上部にあるトラッキングピクセルを移動できます。
 
 ### 詳細設定パラメーター {#advanced-parameters}
 
@@ -311,7 +312,7 @@ SMTP の設定について詳しくは、[E メール SMTP パラメーターの
 
 この **[!UICONTROL Retries]** 設定 [設定メニュー](#email-channel-parameters) そして [送信パラメーター](#retries-parameters) の電子メールプロパティは、送信が開始された翌日に実行する再試行の回数を示します (**[!UICONTROL Number of retries]** / **[!UICONTROL Max. number of retries]**) と再試行間の最小遅延 (**[!UICONTROL Retry period]**) をクリックします。
 
-再試行の回数の変更は、グローバルに (Adobeの技術管理者にお問い合わせください )、または配信または配信テンプレートごとにおこなうことができます。
+再試行の回数は、グローバルに変更することも（アドビの技術管理者にお問い合わせください）、配信または配信テンプレートごとに変更することもできます。
 
 デフォルトでは、最初の日には、最低 1 時間の間隔で 5 回の再試行がスケジュールされ、1 日の 24 時間にわたって配信されます。 その後は、( **[!UICONTROL Delivery parameters]** セクション **[!UICONTROL Configuration]** メニューまたは **[!UICONTROL Validity period]** 配信レベルのセクション ( [配信期間](#legacy-delivery-duration) の節を参照 )。
 

@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 13894dd2ce3922a54e8754dfcb164eb37b18c76c
-workflow-type: ht
-source-wordcount: '724'
-ht-degree: 100%
+source-git-commit: 0d473db5013ecc33b100aa884daac53f36fb2e93
+workflow-type: tm+mt
+source-wordcount: '762'
+ht-degree: 95%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 100%
 * メッセージのダッシュボードにある新しい&#x200B;**ジョブ履歴**&#x200B;ドロップダウンを使用して、配信を監視し、ジョブのログを追跡できるようになりました。[詳細情報](../../sending/using/monitoring-a-delivery.md)（CAMP-49840）
 * 時間の経過と共にすべてのチャネルに大量のメッセージが送信される場合に、無効なタプルを減らすことで、安定性とデータベースの状態が向上しました。（CAMP-49755、CAMP-49792、CAMP-49849）
 * データベースがクラッシュした場合や再起動した場合にデータベース接続が自動的に更新されるように、Campaign メール転送エージェント（MTA）に改善が実装されました。（CAMP-48063）
-
+* 新しいトラッキングオプション **E メールの上部にあるトラッキングピクセルを使用** が e メールプロパティに追加され、下部ではなく E メールの上部でトラッキングピクセルを移動できるようになりました。 （CAMP-49672）
 
 **パッチ**
 
