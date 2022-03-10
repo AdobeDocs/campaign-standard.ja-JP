@@ -8,8 +8,8 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: c9b2c376e3d3c769dc070c24a59219e8f22c8464
-workflow-type: ht
+source-git-commit: 98aa27e4fb5eab9abbce5a9a9ba2c17d04424d70
+workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 100%
 
@@ -25,11 +25,11 @@ ht-degree: 100%
 
 リリース日は変更される場合があります。定期的にこのページにアクセスして、最新情報を確認してください。
 
-## リリース 22.1 - 2022年2月リリース {#release-22-1-release}
+## リリース 22.2 - 2022 年 6 月リリース {#release-22-2-release}
 
 環境のアップデートは、以下に示す期間に順次おこなわれます。正確な日付は、各顧客に E メールで通知されます。
 
-このリリースについて詳しくは、ステージング環境のアップグレード日の[早期リリースノート](../../rn/using/e-release-notes.md)を参照してください。
+このリリースについて詳しくは、ステージング環境のアップグレード日の早期リリースノートを参照してください。
 
 <table>
  <thead>
@@ -41,11 +41,11 @@ ht-degree: 100%
  <tbody>
   <tr>
    <td>ステージング<br /> </td>
-   <td>2022年2月8日～ 9日<br /> </td>
+   <td>2022 年 6 月 7～8 日<br /> </td>
   </tr>
   <tr>
    <td>実稼動<br /> </td>
-   <td>2022年2月15日～22日<br /> </td>
+   <td>2022 年 6 月 14～21 日<br /> </td>
   </tr>
  </tbody>
 </table>
@@ -60,7 +60,7 @@ A：変更点は[リリースノート](../../rn/using/release-notes.md)に記�
 
 **Q：検証プロセスとは何ですか？**
 
-A：ステージング用インスタンスがアップグレードされたら、お客様のプロセスとユースケースがこの新しいバージョンで正しく動作することを検証し、問題があれば[アドビクライアントケア](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)に報告することをお勧めします。
+A：ステージング用インスタンスがアップグレードされたら、お客様のプロセスとユースケースがこの新しいバージョンで正しく動作することを検証し、問題があれば[アドビクライアントケア](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)に報告することをお勧めします。
 
 **Q：アップグレード中にインスタンスにアクセスできますか？**
 
@@ -82,4 +82,4 @@ A：はい。アップグレード中に新しい E メールは送信できま�
 
 A：Campaign にログオンすると、リリース通知ポップアップが表示され、最新バージョンが表示されます。
 
-その他のご質問については、[アドビクライアントケア](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)にお問い合わせください。
+その他のご質問については、[アドビクライアントケア](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)にお問い合わせください。

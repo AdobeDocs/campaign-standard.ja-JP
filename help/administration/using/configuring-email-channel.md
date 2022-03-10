@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: 0d473db5013ecc33b100aa884daac53f36fb2e93
+source-git-commit: 98aa27e4fb5eab9abbce5a9a9ba2c17d04424d70
 workflow-type: tm+mt
-source-wordcount: '2614'
-ht-degree: 77%
+source-wordcount: '2660'
+ht-degree: 76%
 
 ---
 
@@ -234,7 +234,7 @@ SMTP の設定について詳しくは、[E メール SMTP パラメーターの
 * **[!UICONTROL Activate tracking]**：メッセージ URL 追跡をアクティブ化／非アクティブ化できます。各メッセージ URL の追跡を管理するには、E メールデザイナーのアクションバーにある「**[!UICONTROL Links]**」アイコンを使用します。[追跡する URL について](../../designing/using/links.md#about-tracked-urls)を参照してください。
 * **[!UICONTROL Tracking validity limit]**：URL で追跡を有効にする期間を定義できます。
 * **[!UICONTROL Substitution URL for expired URLs]**：追跡の有効期限が切れた後に表示される web ページへの URL を入力できます。
-* **[!UICONTROL Use tracking pixel at the top of email]**:では、下部ではなく、e メールの上部にあるトラッキングピクセルを移動できます。
+* **[!UICONTROL Use tracking pixel at the top of email]**:では、下部ではなく、e メールの上部にあるトラッキングピクセルを移動できます。 デフォルトでは、このピクセルは E メールの下部に配置されています。 大きなメッセージを送信する場合は、開封トラッキングを改善するために、下部ではなく E メールの上部でこのピクセルを移動することを検討してください。そうしないと、一部の E メールプロバイダーがトラッキングピクセルを切り取る可能性があります。
 
 ### 詳細設定パラメーター {#advanced-parameters}
 

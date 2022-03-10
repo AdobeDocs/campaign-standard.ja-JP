@@ -6,10 +6,10 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 6aa53aa9-aa5c-4b29-ad84-d983da241ceb
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: 98aa27e4fb5eab9abbce5a9a9ba2c17d04424d70
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 85%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -28,11 +28,11 @@ Adobe Campaign を使用すると、さまざまなユーザーに割り当て�
 
 役割、グループ、および組織単位は、プラットフォームの機能管理者が **[!UICONTROL Administration > Users & Security]** メニューで管理できます。
 
-![](assets/user_management_1.png)
+![User Management メニュー](assets/user_management_1.png)
 
-ユーザーはAdmin Consoleで管理されます ( [グループとユーザーの管理](../../administration/using/managing-groups-and-users.md) セクションまたは [Admin Console文書](https://helpx.adobe.com/jp/enterprise/managing/user-guide.html)) をクリックします。
+ユーザーは、Admin Consoleで管理します。 詳しくは、 [グループとユーザーの管理](../../administration/using/managing-groups-and-users.md) セクションと [Admin Console文書](https://helpx.adobe.com/jp/enterprise/managing/user-guide.html).
 
-![](assets/user_management_6.png)
+![製品プロファイルへのアクセス](assets/user_management_6.png)
 
 >[!IMPORTANT]
 >
