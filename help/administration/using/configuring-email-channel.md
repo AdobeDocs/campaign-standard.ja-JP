@@ -6,16 +6,16 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: 98aa27e4fb5eab9abbce5a9a9ba2c17d04424d70
+source-git-commit: 897ec46abace9debce45e7dc174e17074b29a0c2
 workflow-type: tm+mt
-source-wordcount: '2660'
-ht-degree: 76%
+source-wordcount: '2655'
+ht-degree: 63%
 
 ---
 
 # 電子メールチャネルの設定{#configuring-email-channel}
 
-Campaign [管理者](../../administration/using/users-management.md#functional-administrators)は、E メールチャネルを設定できます。これらの詳細設定には、一般的な E メールチャネルパラメーター、E メールルーティングアカウント、E メール処理ルールおよび E メールのプロパティが含まれます。ここでは、一般的な E メールおよび送信パラメーターのデフォルト値を編集する方法について説明します。
+Campaign [管理者](../../administration/using/users-management.md#functional-administrators)は、E メールチャネルを設定できます。これらの詳細設定には、一般的な E メールチャネルパラメーター、E メールルーティングアカウント、E メール処理ルールおよび E メールのプロパティが含まれます。このページでは、一般的な E メールおよび送信パラメーターのデフォルト値を編集する方法について説明します。
 
 ## E メールチャネルパラメーター {#email-channel-parameters}
 
@@ -28,7 +28,7 @@ E メール設定画面では、E メールチャネルのパラメーターを�
    「**[!UICONTROL Header parameters of sent emails]**」セクションには、承認された E メールアドレスが一覧表示されます。この E メールアドレスを使用して、受信者に E メールを送信したり、非同期バウンス、不在返信など（エラーアドレス）の自動返信を送信したりできます。Adobe Campaign は、メッセージの準備段階で、入力されたアドレスが有効であるかどうかを確認します。この動作モードでは、配信品質の問題を引き起こす可能性のあるアドレスを一切使用しないようにします。
    * 送信者アドレスとエラーアドレスの両方は Adobe が設定します。これらのフィールドは空にできません。
    * これらのフィールドは編集できません。住所を更新する場合は、Adobe カスタマーケアチームにお問い合わせください。
-   * 別のアドレスを追加する場合は、[Campaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=ja)を使用して新しいサブドメインを設定するか、Adobe カスタマーケアチームにお問い合わせください。複数のマスクを使用する場合は、コンマで区切ります。
+   * 別のアドレスを追加する場合は、 [キャンペーンCampaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=ja) 新しいサブドメインを設定する場合は、アドビカスタマーケアチームにお問い合わせください。Adobeにお問い合わせください。 複数のマスクを使用する場合は、コンマで区切ります。
    * *@yourdomain.com のような星形を使用してアドレスを設定することをお勧めします。サブドメイン名で終わる任意のアドレスを使用できます。
 
 * **配信品質**
@@ -40,7 +40,7 @@ E メール設定画面では、E メールチャネルのパラメーターを�
 
    Adobe Campaign は、開始日にメッセージの送信を開始します。
 
-   「**[!UICONTROL Message delivery duration]**」フィールドでは、一時的なエラーまたはソフトバウンスが発生した配信内のメッセージを再試行する時間枠を指定できます。
+   一時的なエラーまたはソフトバウンスが原因で配信内のメッセージが拒否された場合、Campaign は毎日このメッセージの送信を再試行します。 以下を使用： **[!UICONTROL Message delivery duration]** 再試行が発生する可能性がある期間を指定するフィールド。
 
    >[!IMPORTANT]
    >
@@ -62,7 +62,7 @@ E メール設定画面では、E メールチャネルのパラメーターを�
 
    「**[!UICONTROL Time between two significant errors]**」フィールドに値を入力して、ソフトバウンスのエラーが発生した場合にエラーカウンターを増やすまでのアプリケーションの待機時間を定義します。デフォルト値は「**1d**」（1 日）です。
 
-   **[!UICONTROL Maximum number of errors before quarantine]**&#x200B;値に達すると、E メールアドレスが隔離されます。デフォルト値は「**5**」：アドレスは 5 番目のエラーで隔離されます。これは、連絡先が後続の配信から自動的に除外されることを意味します。
+   **[!UICONTROL Maximum number of errors before quarantine]**&#x200B;値に達すると、E メールアドレスが隔離されます。デフォルト値は **&quot;5&quot;**:アドレスは 5 番目のエラーで強制隔離されます。 これは、連絡先が後続の配信から自動的に除外されることを意味します。
    <!--Actually the way ACS works is that the address is already on the quarantine list on the first bounce, but with a different status meaning that the error count has started.-->
 
    強制隔離について詳しくは、[強制隔離管理の理解](../../sending/using/understanding-quarantine-management.md)を参照してください。
@@ -142,9 +142,9 @@ E メールパラメーター画面の上部で、「**[!UICONTROL Label]**」�
 >
 >ID は一意である必要があります。
 
-「**[!UICONTROL Brand]**」フィールドでは、配信にリンクされているブランドを選択できます。ブランドの使用と設定について詳しくは、[ブランディング](../../administration/using/branding.md)の節を参照してください。
+以下を使用： **[!UICONTROL Brand]** フィールドを使用して、配信にリンクされているブランドを選択します。 ブランドの使用と設定について詳しくは、[ブランディング](../../administration/using/branding.md)の節を参照してください。
 
-「**[!UICONTROL Campaign]**」フィールドには、E メールにリンクされたキャンペーンを入力できます。
+内 **[!UICONTROL Campaign]** 「 」フィールドに、E メールに関連付けられたキャンペーンを入力します。
 
 対応するフィールドの「**[!UICONTROL Description]**」に説明を追加し、リストの E メールサムネイルに表示される画像を編集することもできます。
 
@@ -177,7 +177,8 @@ Campaign で設定した&#x200B;**配信期間設定**（[有効期間パラメ�
 
 #### SMTP テストモード {#smtp-test-mode}
 
-「**[!UICONTROL Enable SMTP test mode]**」オプションを使用すると、実際にメッセージを送信することなく、SMTP 接続を介した E メールの送信をテストできます。
+以下を使用： **[!UICONTROL Enable SMTP test mode]** 実際にメッセージを送信せずに、SMTP 接続を介した e メールの送信をテストするオプション。
+
 SMTP サーバーとの接続が達成されるまでメッセージは処理されますが、送信されません。
 
 ![](assets/smtp-test-mode.png)
@@ -205,36 +206,35 @@ SMTP の設定について詳しくは、[E メール SMTP パラメーターの
 
    ![](assets/delivery-set-explicit-dates.png)
 
-* **[!UICONTROL Delivery duration]**／**[!UICONTROL Validity limit for sending messages]**：Adobe Campaign は、開始日に開始するメッセージを送信します。このフィールドでは、メッセージを送信できる期間を指定できます。
+* **[!UICONTROL Delivery duration]**／**[!UICONTROL Validity limit for sending messages]**：Adobe Campaign は、開始日に開始するメッセージを送信します。このフィールドを使用して、メッセージを送信できる期間を指定します。
 
    >[!IMPORTANT]
    >
    >**最大 3.5 日までの値を定義する必要があります。** 3.5 日を超える値を設定した場合、その値は考慮されません。
+   >
+   >「**[!UICONTROL Delivery duration]**」パラメーターはトランザクションメッセージには適用されません。トランザクションメッセージについて詳しくは、[この節](../../channels/using/getting-started-with-transactional-msg.md)を参照してください。
 
 * **[!UICONTROL Resource validity duration]**／**[!UICONTROL Validity limit date for resources]**：このフィールドは、アップロードされたリソース（主にミラーページと画像）に関して使用されます。ディスクスペースを節約するために、このページ上のリソースが有効な期間は限られています。
-* **[!UICONTROL Mirror page management]**：ミラーページは、Web ブラウザーからオンラインアクセス可能な HTML ページです。コンテンツは E メールの内容と変わりません。デフォルトでは、メールコンテンツ内にリンクが挿入されているとミラーページが生成されます。このフィールドでは、このページの生成方法を変更できます。
-
-   >[!IMPORTANT]
-   >
-   >ミラーページを作成するには、E メールに HTML コンテンツが定義されている必要があります。
+* **[!UICONTROL Mirror page management]**：ミラーページは、Web ブラウザーからオンラインアクセス可能な HTML ページです。コンテンツは E メールの内容と変わりません。デフォルトでは、メールコンテンツ内にリンクが挿入されているとミラーページが生成されます。このページの生成方法を変更するには、このフィールドを使用します。
 
    * **[!UICONTROL Generate the mirror page if a mirror link appears in the email content]**（デフォルトモード）：リンクがメールコンテンツに挿入された場合、ミラーページが生成されます。
    * **Force the generation of the mirror page**：メッセージ内にミラーページへのリンクが挿入されていなくても、ミラーページを生成します。
    * **Do not generate the mirror page**：メッセージ内にリンクが挿入されていても、ミラーページを生成しません。
    * **Generate a mirror page accessible using only the message ID**：配信ログウィンドウで、パーソナライズ機能情報を含むミラーページのコンテンツにアクセスできるようにします。
 
->[!NOTE]
->
->「**[!UICONTROL Delivery duration]**」パラメーターはトランザクションメッセージには適用されません。トランザクションメッセージについて詳しくは、[この節](../../channels/using/getting-started-with-transactional-msg.md)を参照してください。
+   >[!IMPORTANT]
+   >
+   >ミラーページは、E メールのHTMLコンテンツが定義されている場合にのみ生成されます。
+
 
 ### トラッキングパラメーター {#tracking-parameters}
 
 「**[!UICONTROL Tracking]**」セクションでは、次のパラメーターについて説明します。
 
-* **[!UICONTROL Activate tracking]**：メッセージ URL 追跡をアクティブ化／非アクティブ化できます。各メッセージ URL の追跡を管理するには、E メールデザイナーのアクションバーにある「**[!UICONTROL Links]**」アイコンを使用します。[追跡する URL について](../../designing/using/links.md#about-tracked-urls)を参照してください。
-* **[!UICONTROL Tracking validity limit]**：URL で追跡を有効にする期間を定義できます。
-* **[!UICONTROL Substitution URL for expired URLs]**：追跡の有効期限が切れた後に表示される web ページへの URL を入力できます。
-* **[!UICONTROL Use tracking pixel at the top of email]**:では、下部ではなく、e メールの上部にあるトラッキングピクセルを移動できます。 デフォルトでは、このピクセルは E メールの下部に配置されています。 大きなメッセージを送信する場合は、開封トラッキングを改善するために、下部ではなく E メールの上部でこのピクセルを移動することを検討してください。そうしないと、一部の E メールプロバイダーがトラッキングピクセルを切り取る可能性があります。
+* **[!UICONTROL Activate tracking]**:メッセージ URL の追跡を有効化/無効化するには、このオプションを使用します。 各メッセージ URL の追跡を管理するには、E メールデザイナーのアクションバーにある「**[!UICONTROL Links]**」アイコンを使用します。[追跡する URL について](../../designing/using/links.md#about-tracked-urls)を参照してください。
+* **[!UICONTROL Tracking validity limit]**:このオプションを使用して、URL で追跡を有効にする期間を定義します。
+* **[!UICONTROL Substitution URL for expired URLs]**:フォールバック web ページの URL を入力するには、このオプションを使用します。トラッキングの有効期限が切れると表示されます。
+* **[!UICONTROL Use tracking pixel at the top of email]**:このオプションを使用して、下部ではなく e メールの上部にあるトラッキングピクセルを移動します。 デフォルトでは、このピクセルは E メールの下部に配置されています。 大きなメッセージを送信する場合は、開封トラッキングを改善するために、下部ではなく E メールの上部でこのピクセルを移動することを検討してください。そうしないと、一部の E メールプロバイダーがトラッキングピクセルを切り取る可能性があります。
 
 ### 詳細設定パラメーター {#advanced-parameters}
 
@@ -250,7 +250,7 @@ SMTP の設定について詳しくは、[E メール SMTP パラメーターの
 
 #### Targeting context {#target-context}
 
-ターゲティングコンテキストを使用すると、E メールのターゲット設定（オーディエンス定義画面）およびパーソナライズ機能（HTML コンテンツエディターでのパーソナライゼーションフィールドの定義）に使用される一連のテーブルを定義できます。
+ターゲティングコンテキストを使用して、E メールのターゲティング（オーディエンス定義画面）およびパーソナライゼーション (HTMLコンテンツエディターでのパーソナライゼーションフィールドの定義 ) に使用される一連のテーブルを定義します。
 
 #### ルーティング {#routing}
 
@@ -270,15 +270,15 @@ SMTP の設定について詳しくは、[E メール SMTP パラメーターの
    >
    >タイポロジ（、**[!UICONTROL Administration]**／**[!UICONTROL Channels]**／**[!UICONTROL Typologies]**&#x200B;メニューでアクセス可能）は[このセクション](../../sending/using/about-typology-rules.md)に表示されます。
 
-* **[!UICONTROL Compute the label during delivery preparation]**：パーソナライゼーションフィールド、コンテンツブロック、動的テキストを使用して、メッセージの準備段階で E メールのラベル値を計算できます。
+* **[!UICONTROL Compute the label during delivery preparation]**:パーソナライゼーションフィールド、コンテンツブロック、動的テキストを使用して、メッセージの準備段階で e メールのラベル値を計算するには、このオプションを使用します。
 
    ワークフローの外部シグナルアクティビティに宣言されたイベント変数を使用して、配信ラベルをパーソナライズすることもできます。詳しくは、[この節](../../automating/using/calling-a-workflow-with-external-parameters.md)を参照してください。
 
-* **[!UICONTROL Save SQL queries in the log]**：このオプションを使用すると、準備段階でジャーナルに SQL クエリログを追加できます。
+* **[!UICONTROL Save SQL queries in the log]**:準備段階でジャーナルに SQL クエリログを追加するには、このオプションを使用します。
 
 #### Proof settings {#proof-settings}
 
-このセクションでは、配達確認の件名行に使用するデフォルトのプレフィックスを設定できます。詳しくは、[この節](../../sending/using/sending-proofs.md)を参照してください。
+このセクションでは、配達確認メッセージの件名行に使用するデフォルトのプレフィックスを設定できます。 配達確認について詳しくは、 [この節](../../sending/using/sending-proofs.md).
 
 ### E メール SMTP パラメーターのリスト {#list-of-email-smtp-parameters}
 
@@ -296,7 +296,7 @@ SMTP の設定について詳しくは、[E メール SMTP パラメーターの
 
 「**[!UICONTROL Access authorization]**」セクションでは、次のパラメーターについて説明します。
 
-* 「**[!UICONTROL Organizational unit]**」フィールドを使用すると、この E メールへのアクセスを特定のユーザーに制限できます。指定したユニットまたは親ユニットに関連付けられたユーザーは、この E メールに対する読み取りと書き込みをおこなえるようになります。子ユニットに関連付けられたユーザーは、この E メールに対する読み取りのみおこなえるようになります。
+* この **[!UICONTROL Organizational unit]** フィールドは、この電子メールへのアクセスを特定のユーザーに制限するために使用します。 指定したユニットまたは親ユニットに関連付けられたユーザーは、この E メールに対する読み取りと書き込みをおこなえるようになります。子ユニットに関連付けられたユーザーは、この E メールに対する読み取りのみおこなえるようになります。
 
    >[!NOTE]
    >
@@ -318,17 +318,17 @@ SMTP の設定について詳しくは、[E メール SMTP パラメーターの
 
 ### 配信期間 {#legacy-delivery-duration}
 
-この **[!UICONTROL Message delivery duration]** パラメーター [設定メニュー](#email-channel-parameters) 一時的なエラーまたはソフトバウンスが発生した配信内のメッセージを再試行する時間枠を指定できます。
+以下を使用： **[!UICONTROL Message delivery duration]** パラメーター [設定メニュー](#email-channel-parameters) ：一時的なエラーまたはソフトバウンスが発生した配信内のメッセージを再試行する時間枠を指定します。
 
-この **[!UICONTROL Delivery duration]** または **[!UICONTROL Validity limit for sending messages]** パラメーター [有効期間のパラメーター](#validity-period-parameters) 「 」セクションでは、メッセージを送信できる期間を指定できます。
+以下を使用： **[!UICONTROL Delivery duration]** または **[!UICONTROL Validity limit for sending messages]** パラメーター [有効期間のパラメーター](#validity-period-parameters) 「 」セクションには、メッセージを送信できる期間を指定します。
 
 ### E メール処理ルール {#legacy-email-processing-rules}
 
-この **[!UICONTROL MX management]**, **[!UICONTROL Bounce mails]** および **[!UICONTROL Domain management]** ルールには、管理者が **[!UICONTROL Administration > Channels > Email > Email processing rules]** [メニュー](#email-processing-rules).
+この **[!UICONTROL MX management]**, **[!UICONTROL Bounce mails]** および **[!UICONTROL Domain management]** ルールには、管理者が **[!UICONTROL Administration > Channels > Email > Email processing rules]** メニュー [詳細情報](#email-processing-rules)。
 
 ### バウンスメールの認定 {#legacy-bounce-mail-qualification}
 
-様々なバウンスと、それに関連するエラータイプの理由を一覧表示するには、 **Adobe** ロゴ（左上）に移動し、「 **[!UICONTROL Administration > Channels > Quarantines > Message qualification]**.
+様々なバウンス、および関連するエラータイプと理由を一覧表示するには、 **Adobe** ロゴ（左上）に移動し、「 **[!UICONTROL Administration > Channels > Quarantines > Message qualification]**.
 
 バウンスは、次の資格ステータスを持つことができます。
 
@@ -338,12 +338,12 @@ SMTP の設定について詳しくは、[E メール SMTP パラメーターの
 
 >[!NOTE]
 >
->ISP を利用できなくなった場合、Campaign を通じて送信された E メールは、誤ってバウンスとしてマークされます。 これを修正するには、バウンスの認定条件を更新する必要があります。 詳しくは、[このページ](../../administration/using/update-bounce-qualification.md)を参照してください。
+>ISP を利用できなくなった場合、Campaign を通じて送信された E メールは、誤ってバウンスとしてマークされます。 これを修正するには、バウンスの認定条件を更新する必要があります。 [詳細情報](../../administration/using/update-bounce-qualification.md)。
 
 <!--Bounces are qualified through the **[!UICONTROL Bounce mails]** processing rule. For more on accessing this rule, refer to this [section](#legacy-bounce-mail-qualification).-->
 
 ### 配信済み指標レポート {#legacy-delivered-status-report}
 
-内 **[!UICONTROL Summary]** 各メッセージの表示、 **[!UICONTROL Delivered]** ソフトバウンスとハードバウンスが再度レポートされるので、配信の有効期間を通じて、割合は徐々に増加します。
+内 **[!UICONTROL Summary]** 各メッセージの表示、 **[!UICONTROL Delivered]** ソフトバウンスとハードバウンスが再度レポートされるので、配信の有効期間を通じて、割合が徐々に増加します。
 
-ソフトバウンスメッセージは、 **[!UICONTROL Failed]** 1 日目の配信の後に再試行され、その後、配信の有効期間の翌日に再試行されます。
+ソフトバウンスメッセージは、次のように表示されます **[!UICONTROL Failed]** 配信後の最初の日に これらのメッセージは、配信の有効期間が終了するまで、毎日再試行されます。
