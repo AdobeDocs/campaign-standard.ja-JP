@@ -6,16 +6,16 @@ role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: 98aa27e4fb5eab9abbce5a9a9ba2c17d04424d70
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '766'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 
 # 最新リリース{#latest-release}
 
-![Campaign コントロールパネル](assets/do-not-localize/cp-icon.png) **新しいCampaign コントロールパネルリリース** スループット、待ち時間、およびワークフロー監視を使用 [詳細情報](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ja){target=&quot;_blank&quot;}。
+![コントロールパネル](assets/do-not-localize/cp-icon.png) スループット、待ち時間、およびワークフロー監視を備えた&#x200B;**新しいコントロールパネルリリース**[詳細情報](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ja){target=&quot;_blank&quot;}。
 
 ## リリース 22.1 - 2022年2月 {#feb-2022}
 
