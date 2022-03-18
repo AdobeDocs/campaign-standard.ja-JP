@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: 897ec46abace9debce45e7dc174e17074b29a0c2
+source-git-commit: a1b947acf70803a7350dd626e697318e0ed35f26
 workflow-type: tm+mt
-source-wordcount: '2655'
-ht-degree: 63%
+source-wordcount: '2681'
+ht-degree: 62%
 
 ---
 
@@ -177,9 +177,7 @@ Campaign で設定した&#x200B;**配信期間設定**（[有効期間パラメ�
 
 #### SMTP テストモード {#smtp-test-mode}
 
-以下を使用： **[!UICONTROL Enable SMTP test mode]** 実際にメッセージを送信せずに、SMTP 接続を介した e メールの送信をテストするオプション。
-
-SMTP サーバーとの接続が達成されるまでメッセージは処理されますが、送信されません。
+以下を使用： **[!UICONTROL Enable SMTP test mode]** 実際にメッセージを送信せずに、SMTP 接続を介した e メールの送信をテストするオプション。 配信は、SMTP サーバーに接続するまで処理されますが、送信されません。配信のすべての受信者について、Campaign は SMTP プロバイダーサーバーに接続し、SMTP RCPT TO コマンドを実行して、SMTP DATA コマンドの前に接続を閉じます。
 
 ![](assets/smtp-test-mode.png)
 
