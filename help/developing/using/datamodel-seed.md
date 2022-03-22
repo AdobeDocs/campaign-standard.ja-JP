@@ -1,5 +1,5 @@
 ---
-title: DataModel
+title: DataModel シードメンバー
 description: データモデルの詳細
 audience: developing
 content-type: reference
@@ -7,10 +7,10 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 9b522c84-e296-47c7-9588-2e5ed08ab631
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 41%
+source-wordcount: '173'
+ht-degree: 49%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 41%
                <tr>
                   <td>国（国）</td>
                   <td>国</td>
-                  <td>リンク </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -64,7 +64,7 @@ ht-degree: 41%
                <tr>
                   <td>emailRendering</td>
                   <td>E メールのレンダリング</td>
-                  <td>ブール型 </td>
+                  <td>ブール値 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -82,12 +82,12 @@ ht-degree: 41%
                <tr>
                   <td>isExternal</td>
                   <td>外部リソースです</td>
-                  <td>ブール型 </td>
+                  <td>ブール値 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>lastModified</td>
-                  <td>最終変更日時</td>
+                  <td>最終変更日</td>
                   <td>日付 </td>
                   <td> </td>
                </tr>
@@ -154,7 +154,7 @@ ht-degree: 41%
                <tr>
                   <td>配達確認</td>
                   <td>配達確認</td>
-                  <td>ブール型 </td>
+                  <td>ブール値 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -172,7 +172,7 @@ ht-degree: 41%
                <tr>
                   <td>sampleData</td>
                   <td>サンプルデータ</td>
-                  <td>ブール型 </td>
+                  <td>ブール値 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -208,7 +208,7 @@ ht-degree: 41%
                <tr>
                   <td>トラップ</td>
                   <td>トラップ</td>
-                  <td>ブール型 </td>
+                  <td>ブール値 </td>
                   <td> </td>
                </tr>
             </table>
@@ -250,15 +250,15 @@ ht-degree: 41%
         </tr>
         <tr>
         <td>トラップ</td>
-        <td>ブール型</td>
+        <td>ブール値</td>
         </tr>
         <tr>
         <td>emailRendering</td>
-        <td>ブール型</td>
+        <td>ブール値</td>
         </tr>
         <tr>
         <td>配達確認</td>
-        <td>ブール型</td>
+        <td>ブール値</td>
         </tr>
     </table>
 

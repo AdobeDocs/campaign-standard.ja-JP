@@ -1,5 +1,5 @@
 ---
-title: DataModel
+title: DataModel Service
 description: データモデルの詳細
 audience: developing
 content-type: reference
@@ -7,10 +7,10 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: a326b38f-ca88-4a44-a7c2-b6e34497a364
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 38%
+source-wordcount: '214'
+ht-degree: 45%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 38%
                <tr>
                   <td>builtIn</td>
                   <td>アプリケーションのビルトインオブジェクト</td>
-                  <td>ブール型 </td>
+                  <td>ブール値 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -46,7 +46,7 @@ ht-degree: 38%
                <tr>
                   <td>createdBy (userBase)</td>
                   <td>作成者</td>
-                  <td>リンク </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -82,13 +82,13 @@ ht-degree: 38%
                <tr>
                   <td>isExternal</td>
                   <td>外部リソースです</td>
-                  <td>ブール型 </td>
+                  <td>ブール値 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>isTemplate</td>
                   <td>テンプレート</td>
-                  <td>ブール型 </td>
+                  <td>ブール値 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -99,14 +99,14 @@ ht-degree: 38%
                </tr>
                <tr>
                   <td>lastModified</td>
-                  <td>最終変更日時</td>
+                  <td>最終変更日</td>
                   <td>日付 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>limitedDuration</td>
                   <td>期間限定</td>
-                  <td>ブール型 </td>
+                  <td>ブール値 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -121,7 +121,7 @@ ht-degree: 38%
                   <td>列挙（バイト） </td>
                   <td>
                      <ul>
-                        <li>モバイル (SMS) - sms - 1</li>
+                        <li>Mobile(SMS) - sms - 1</li>
                         <li>電子メール — 電子メール — 0</li>
                         <li>無効な値 — __Invalid_value__ - __Invalid_value__</li>
                      </ul>
@@ -238,7 +238,7 @@ ht-degree: 38%
                <tr>
                   <td>validityDuration</td>
                   <td>有効期間</td>
-                  <td>数値 </td>
+                  <td>番号 </td>
                   <td> </td>
                </tr>
             </table>

@@ -1,5 +1,5 @@
 ---
-title: DataModel
+title: DataModel Audience
 description: データモデルの詳細
 audience: developing
 content-type: reference
@@ -7,10 +7,10 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 53da6c4e-d4fb-4677-acff-744e3eb10960
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 36%
+source-wordcount: '208'
+ht-degree: 43%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 36%
                <tr>
                   <td>amcDataSource (amcDataSourceBase)</td>
                   <td>AMC データソース</td>
-                  <td>リンク </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -64,7 +64,7 @@ ht-degree: 36%
                <tr>
                   <td>collectLineNumber</td>
                   <td>行番号を ID として使用</td>
-                  <td>ブール型 </td>
+                  <td>ブール値 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -106,7 +106,7 @@ ht-degree: 36%
                <tr>
                   <td>doNotPersist</td>
                   <td>このジョブを履歴化しない</td>
-                  <td>ブール型 </td>
+                  <td>ブール値 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -130,19 +130,19 @@ ht-degree: 36%
                <tr>
                   <td>hasSchema</td>
                   <td>HasSchema</td>
-                  <td>ブール型 </td>
+                  <td>ブール値 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>isAMC</td>
                   <td>Adobe Marketing Cloudオーディエンス</td>
-                  <td>ブール型 </td>
+                  <td>ブール値 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>isExternal</td>
                   <td>外部リソースです</td>
-                  <td>ブール型 </td>
+                  <td>ブール値 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -159,7 +159,7 @@ ht-degree: 36%
                </tr>
                <tr>
                   <td>lastModified</td>
-                  <td>最終変更日時</td>
+                  <td>最終変更日</td>
                   <td>日付 </td>
                   <td> </td>
                </tr>

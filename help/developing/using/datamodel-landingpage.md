@@ -1,5 +1,5 @@
 ---
-title: DataModel
+title: DataModel landingPage
 description: データモデルの詳細
 audience: designing
 content-type: reference
@@ -9,10 +9,10 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: bd12a214-5998-4fb9-9f54-0c886067b58b
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '1727'
-ht-degree: 7%
+source-wordcount: '1728'
+ht-degree: 9%
 
 ---
 
@@ -48,19 +48,19 @@ ht-degree: 7%
       <tr>
          <td>allowNonIdentifiedTarget</td>
          <td>識別されていない訪問者を許可</td>
-         <td>ブール型 </td>
+         <td>ブール値 </td>
          <td> </td>
       </tr>
       <tr>
          <td>ブランディング (brandingBase)</td>
          <td>ブランド</td>
-         <td>リンク </td>
+         <td>link </td>
          <td> </td>
       </tr>
       <tr>
          <td>builtIn</td>
          <td>アプリケーションのビルトインオブジェクト</td>
-         <td>ブール型 </td>
+         <td>ブール値 </td>
          <td> </td>
       </tr>
       <tr>
@@ -228,7 +228,7 @@ ht-degree: 7%
       <tr>
          <td>dynamicService</td>
          <td>動的サービス</td>
-         <td>ブール型 </td>
+         <td>ブール値 </td>
          <td> </td>
       </tr>
       <tr>
@@ -264,7 +264,7 @@ ht-degree: 7%
       <tr>
          <td>identificationByUrlParam</td>
          <td>URL パラメーターによる識別</td>
-         <td>ブール型 </td>
+         <td>ブール値 </td>
          <td> </td>
       </tr>
       <tr>
@@ -276,13 +276,13 @@ ht-degree: 7%
       <tr>
          <td>isExternal</td>
          <td>外部リソースです</td>
-         <td>ブール型 </td>
+         <td>ブール値 </td>
          <td> </td>
       </tr>
       <tr>
          <td>isTemplate</td>
          <td>テンプレート</td>
-         <td>ブール型 </td>
+         <td>ブール値 </td>
          <td> </td>
       </tr>
       <tr>
@@ -305,7 +305,7 @@ ht-degree: 7%
       </tr>
       <tr>
          <td>lastModified</td>
-         <td>最終変更日時</td>
+         <td>最終変更日</td>
          <td>日付 </td>
          <td> </td>
       </tr>
@@ -339,7 +339,7 @@ ht-degree: 7%
       <tr>
          <td>messageAction</td>
          <td>メッセージの送信を開始</td>
-         <td>ブール型 </td>
+         <td>ブール値 </td>
          <td> </td>
       </tr>
       <tr>
@@ -369,7 +369,7 @@ ht-degree: 7%
       <tr>
          <td>事前入力</td>
          <td>訪問者データをプリロード</td>
-         <td>ブール型 </td>
+         <td>ブール値 </td>
          <td> </td>
       </tr>
       <tr>
@@ -614,7 +614,7 @@ ht-degree: 7%
       <tr>
          <td>trackingEnabled</td>
          <td>応答をログに記録</td>
-         <td>ブール型 </td>
+         <td>ブール値 </td>
          <td> </td>
       </tr>
       <tr>
@@ -647,7 +647,7 @@ ht-degree: 7%
       <tr>
          <td>webTrackingEnabled</td>
          <td>Web トラッキングを有効にする</td>
-         <td>ブール型 </td>
+         <td>ブール値 </td>
          <td> </td>
       </tr>
    </table>
@@ -715,7 +715,7 @@ ht-degree: 7%
     </tr>
     <tr>
     <td>詳細</td>
-    <td>ブール型</td>
+    <td>ブール値</td>
     </tr>
 </table>
 
@@ -728,7 +728,7 @@ ht-degree: 7%
         </tr>
         <tr>
         <td>withContinuous</td>
-        <td>ブール型</td>
+        <td>ブール値</td>
         </tr>
     </table>
 

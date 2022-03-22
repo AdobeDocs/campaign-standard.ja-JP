@@ -1,5 +1,5 @@
 ---
-title: DataModel
+title: DataModel 配信
 description: データモデルの詳細
 audience: developing
 content-type: reference
@@ -7,10 +7,10 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: aea3e72d-8e89-46c7-a796-bf856414c654
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '687'
-ht-degree: 26%
+source-wordcount: '688'
+ht-degree: 30%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 26%
                <tr>
                   <td>FCP</td>
                   <td>配達確認</td>
-                  <td>ブール型 </td>
+                  <td>ブール値 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -46,7 +46,7 @@ ht-degree: 26%
                <tr>
                   <td>詳細</td>
                   <td>高度な配信</td>
-                  <td>ブール型 </td>
+                  <td>ブール値 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -82,7 +82,7 @@ ht-degree: 26%
                <tr>
                   <td>ブランディング (brandingBase)</td>
                   <td>ブランド</td>
-                  <td>リンク </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -94,7 +94,7 @@ ht-degree: 26%
                <tr>
                   <td>builtIn</td>
                   <td>アプリケーションのビルトインオブジェクト</td>
-                  <td>ブール型 </td>
+                  <td>ブール値 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -229,7 +229,7 @@ ht-degree: 26%
                <tr>
                   <td>hasAttachments</td>
                   <td>添付ファイルを追加</td>
-                  <td>ブール型 </td>
+                  <td>ブール値 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -240,13 +240,13 @@ ht-degree: 26%
                      <ul>
                         <li>トランザクションメール — emailLightning - 60</li>
                         <li>FAX - FAX - 4</li>
-                        <li>モバイル (SMS) - sms - 1</li>
+                        <li>Mobile(SMS) - sms - 1</li>
                         <li>繰り返し E メール — emailRefresh - 30</li>
                         <li>ダイレクトメール — 紙 — 3</li>
                         <li>電話 — 電話 — 2</li>
                         <li>その他 — 120</li>
                         <li>繰り返し送信 SMS - smsRefresh - 31</li>
-                        <li>モバイルアプリケーション — pushNotification - 40</li>
+                        <li>Mobileアプリケーション — pushNotification - 40</li>
                         <li>トランザクション SMS - smsLightning - 61</li>
                         <li>電子メール — 電子メール — 0</li>
                         <li>無効な値 — __Invalid_value__ - __Invalid_value__</li>
@@ -256,19 +256,19 @@ ht-degree: 26%
                <tr>
                   <td>isExternal</td>
                   <td>外部リソースです</td>
-                  <td>ブール型 </td>
+                  <td>ブール値 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>isMaster</td>
                   <td>マスター</td>
-                  <td>ブール型 </td>
+                  <td>ブール値 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>isTemplate</td>
                   <td>テンプレート</td>
-                  <td>ブール型 </td>
+                  <td>ブール値 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -303,7 +303,7 @@ ht-degree: 26%
                </tr>
                <tr>
                   <td>lastModified</td>
-                  <td>最終変更日時</td>
+                  <td>最終変更日</td>
                   <td>日付 </td>
                   <td> </td>
                </tr>
@@ -490,15 +490,15 @@ ht-degree: 26%
                         <li>失敗 — 失敗 — 87</li>
                         <li>処理中 — 開始 — 55</li>
                         <li>ターゲティングを保留中 — targetPrepPending - 11</li>
-                        <li>パーソナライゼーション保留中 — messagePrepPending - 21</li>
+                        <li>Personalization保留中 — messagePrepPending - 21</li>
                         <li>一時停止 — 一時停止 — 75</li>
                         <li>編集 — エディション — 0</li>
                         <li>完了 — 完了 — 95</li>
                         <li>カウント中 — targetSelection - 12</li>
                         <li>確定されたメッセージ — messageReady - 25</li>
-                        <li>パーソナライゼーションまたはカウントに失敗しました — preparationError - 37</li>
+                        <li>Personalizationまたは count に失敗しました — preparationError - 37</li>
                         <li>停止 — キャンセル — 85</li>
-                        <li>パーソナライゼーション中 — messagePreparation - 22</li>
+                        <li>Personalization in progress - messagePreparation - 22</li>
                         <li>ターゲット準備完了 — targetReady - 15</li>
                         <li>無効な値 — __Invalid_value__ - __Invalid_value__</li>
                         <li>判別中 — targetArbitration - 13</li>
@@ -705,7 +705,7 @@ ht-degree: 26%
     </tr>
     <tr>
     <td>フォローアップ</td>
-    <td>ブール型</td>
+    <td>ブール値</td>
     </tr>
 </table>
 
@@ -718,7 +718,7 @@ ht-degree: 26%
     </tr>
     <tr>
     <td>詳細</td>
-    <td>ブール型</td>
+    <td>ブール値</td>
     </tr>
 </table>
 
@@ -731,7 +731,7 @@ ht-degree: 26%
     </tr>
     <tr>
     <td>withContinuous</td>
-    <td>ブール型</td>
+    <td>ブール値</td>
     </tr>
 </table>
 
@@ -744,7 +744,7 @@ ht-degree: 26%
     </tr>
     <tr>
     <td>FCP を使用</td>
-    <td>ブール型</td>
+    <td>ブール値</td>
     </tr>
 </table>
 
@@ -791,6 +791,6 @@ ht-degree: 26%
     </tr>
     <tr>
     <td>大きな</td>
-    <td>ブール型</td>
+    <td>ブール値</td>
     </tr>
 </table>

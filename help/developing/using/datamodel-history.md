@@ -1,5 +1,5 @@
 ---
-title: DataModel
+title: DataModel マーケティング履歴
 description: データモデルの詳細
 audience: developing
 content-type: reference
@@ -7,10 +7,10 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 7f2a3139-57eb-48ff-9b1a-ac2caad2f691
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '1204'
-ht-degree: 11%
+source-wordcount: '1206'
+ht-degree: 13%
 
 ---
 
@@ -46,43 +46,43 @@ ht-degree: 11%
                <tr>
                   <td>blackList</td>
                   <td>今後の連絡は不要 (すべてのチャネル)</td>
-                  <td>ブール型 </td>
+                  <td>ブール値 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>blackListEmail</td>
                   <td>今後の E メールによる連絡は不要</td>
-                  <td>ブール型 </td>
+                  <td>ブール値 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>blackListFax</td>
                   <td>今後の FAX による連絡は不要</td>
-                  <td>ブール型 </td>
+                  <td>ブール値 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>blackListMobile</td>
                   <td>今後の SMS による連絡は不要</td>
-                  <td>ブール型 </td>
+                  <td>ブール値 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>blackListPhone</td>
                   <td>今後の電話による連絡は不要</td>
-                  <td>ブール型 </td>
+                  <td>ブール値 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>blackListPostalMail</td>
                   <td>今後のダイレクトメールによる連絡は不要</td>
-                  <td>ブール型 </td>
+                  <td>ブール値 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>blackListPushnotification</td>
                   <td>今後のプッシュ通知による連絡は不要</td>
-                  <td>ブール型 </td>
+                  <td>ブール値 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -100,7 +100,7 @@ ht-degree: 11%
                <tr>
                   <td>国（国）</td>
                   <td>国</td>
-                  <td>リンク </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -179,7 +179,7 @@ ht-degree: 11%
                <tr>
                   <td>isExternal</td>
                   <td>外部リソースです</td>
-                  <td>ブール型 </td>
+                  <td>ブール値 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -190,7 +190,7 @@ ht-degree: 11%
                </tr>
                <tr>
                   <td>lastModified</td>
-                  <td>最終変更日時</td>
+                  <td>最終変更日</td>
                   <td>日付 </td>
                   <td> </td>
                </tr>
@@ -403,7 +403,7 @@ ht-degree: 11%
 </tr>
 <tr>
 <td>includeStart</td>
-<td>ブール型</td>
+<td>ブール値</td>
 </tr>
 <tr>
 <td>previousUnitsValue</td>
@@ -435,7 +435,7 @@ ht-degree: 11%
 </tr>
 <tr>
 <td>includeEnd</td>
-<td>ブール型</td>
+<td>ブール値</td>
 </tr>
 <tr>
 <td>endMonth</td>

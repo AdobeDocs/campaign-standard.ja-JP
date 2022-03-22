@@ -1,5 +1,5 @@
 ---
-title: DataModel
+title: データモデルキャンペーン
 description: データモデルの詳細
 audience: developing
 content-type: reference
@@ -7,10 +7,10 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: a63fe730-a6b2-4ae0-93da-9f8ee7824c9f
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 37%
+source-wordcount: '217'
+ht-degree: 42%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 37%
                <tr>
                   <td>builtIn</td>
                   <td>アプリケーションのビルトインオブジェクト</td>
-                  <td>ブール型 </td>
+                  <td>ブール値 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -52,7 +52,7 @@ ht-degree: 37%
                <tr>
                   <td>createdBy (userBase)</td>
                   <td>作成者</td>
-                  <td>リンク </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -64,7 +64,7 @@ ht-degree: 37%
                <tr>
                   <td>duration</td>
                   <td>キャンペーン期間</td>
-                  <td>数値 </td>
+                  <td>番号 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -82,13 +82,13 @@ ht-degree: 37%
                <tr>
                   <td>isExternal</td>
                   <td>外部リソースです</td>
-                  <td>ブール型 </td>
+                  <td>ブール値 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>isTemplate</td>
                   <td>テンプレート</td>
-                  <td>ブール型 </td>
+                  <td>ブール値 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -99,7 +99,7 @@ ht-degree: 37%
                </tr>
                <tr>
                   <td>lastModified</td>
-                  <td>最終変更日時</td>
+                  <td>最終変更日</td>
                   <td>日付 </td>
                   <td> </td>
                </tr>
@@ -254,7 +254,7 @@ ht-degree: 37%
     </tr>
     <tr>
     <td>withContinuous</td>
-    <td>ブール型</td>
+    <td>ブール値</td>
     </tr>
 </table>
 

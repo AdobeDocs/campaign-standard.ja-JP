@@ -1,5 +1,5 @@
 ---
-title: 外部パラメーターを使用したワークフローの呼び出し
+title: ワークフロー呼び出しの使用例
 description: この節では、外部パラメーターを使用してワークフローを呼び出す方法について詳しく説明します。
 audience: automating
 content-type: reference
@@ -8,9 +8,9 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 7a21f4f6-316f-4f3d-9d53-37d406a46aae
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '977'
+source-wordcount: '976'
 ht-degree: 1%
 
 ---

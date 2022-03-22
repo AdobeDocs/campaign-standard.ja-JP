@@ -1,5 +1,5 @@
 ---
-title: DataModel
+title: DataModel プログラム
 description: データモデルの詳細
 audience: developing
 content-type: reference
@@ -7,10 +7,10 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: b05dc67a-6447-4d22-99f2-8a14a0ee46d2
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 36%
+source-wordcount: '223'
+ht-degree: 41%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 36%
                <tr>
                   <td>builtIn</td>
                   <td>アプリケーションのビルトインオブジェクト</td>
-                  <td>ブール型 </td>
+                  <td>ブール値 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -52,7 +52,7 @@ ht-degree: 36%
                <tr>
                   <td>createdBy (userBase)</td>
                   <td>作成者</td>
-                  <td>リンク </td>
+                  <td>link </td>
                   <td> </td>
                </tr>
                <tr>
@@ -76,13 +76,13 @@ ht-degree: 36%
                <tr>
                   <td>isExternal</td>
                   <td>外部リソースです</td>
-                  <td>ブール型 </td>
+                  <td>ブール値 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>isTemplate</td>
                   <td>テンプレート</td>
-                  <td>ブール型 </td>
+                  <td>ブール値 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -93,7 +93,7 @@ ht-degree: 36%
                </tr>
                <tr>
                   <td>lastModified</td>
-                  <td>最終変更日時</td>
+                  <td>最終変更日</td>
                   <td>日付 </td>
                   <td> </td>
                </tr>
@@ -235,7 +235,7 @@ ht-degree: 36%
     </tr>
     <tr>
     <td>withContinuous</td>
-    <td>ブール型</td>
+    <td>ブール値</td>
     </tr>
 </table>
 
@@ -248,7 +248,7 @@ ht-degree: 36%
         </tr>
         <tr>
         <td>withParent</td>
-        <td>ブール型</td>
+        <td>ブール値</td>
         </tr>
     </table>
 
