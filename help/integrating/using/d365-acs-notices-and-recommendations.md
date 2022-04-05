@@ -8,7 +8,7 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: aab6f005-f3da-4c0b-b856-da8504e611dc
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 4b0c4fb13cc11c06e2487e531ca96574e49b6beb
 workflow-type: tm+mt
 source-wordcount: '2507'
 ht-degree: 1%
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 Dynamics 365 で連絡先が削除されたときに Campaign に対して通常のプロファイル削除呼び出しを発行するように統合を設定している場合は、以下の手順に従う必要があります。 この処理中に、問題のレコードに対して更新が行われていないことを確認します。
 
-1. プライバシー削除リクエストの発行先： [Adobe Experience Platform Privacy Service](https://www.adobe.io/apis/experiencecloud/gdpr.html)
+1. プライバシー削除リクエストの発行先： [Adobe Experience Platform Privacy Service](https://developer.adobe.com/experience-platform-apis/references/privacy-service)
 
 1. リクエストが正常に完了するまで、リクエストを監視します
 
@@ -183,7 +183,7 @@ Campaign のカスタムリソースの包括的な概要については、を�
 
 * オンボーディングのメンテナンスウィンドウは、お客様とAdobeの間で確立する必要がある場合があります。
 
-* 統合の使用が大幅に増加または「スパイク」する（例：新しいレコードや更新されたレコードが急激に増加する）と、データ同期の速度が低下する可能性があることに注意してください。
+* 統合の使用が大幅に増加または「スパイク」する（例：新しいレコードや更新されたレコードの急増）と、データ同期の速度が低下する可能性があることに注意してください。
 
 * 統合の一環として、Microsoft Azure と Dynamics 365 の統合前の設定手順を完了する必要があります。 設定手順を参照してください。 [このページの](../../integrating/using/d365-acs-configure-d365.md)
 

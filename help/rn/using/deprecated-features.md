@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 4b0c4fb13cc11c06e2487e531ca96574e49b6beb
 workflow-type: tm+mt
 source-wordcount: '864'
-ht-degree: 65%
+ht-degree: 64%
 
 ---
 
@@ -119,7 +119,7 @@ Campaign Standard 機能の差し迫った削除／置換を伝達するため�
    <td> <p> Campaign 20.1 リリースより、SDK v4 は非推奨（廃止予定）になります。 <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">詳細情報</a>。</p><br/>
    <p>この <a href="https://aep-sdks.gitbook.io/docs/">Adobe Experience Platform Mobile SDK</a> （旧称 v5）は、今後のAdobe Experience Cloudの機能のみをサポートするようになりました。</p>
    <p>2021 年 8 月 31 日以降、お客様は引き続きバージョン 4 の SDK をダウンロードして使用できますが、カスタマーケアのサポートやフォーラムへのアクセスは利用できません。</p>
-   <p>SDK v4 からAdobe Experience Platform Mobile SDK に移行する方法を説明します <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">このページ</a>.</p></br>
+   <p>SDK v4 からAdobe Experience Platform Mobile SDK に移行する方法について説明します <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">このページ</a>.</p></br>
      </td> 
   </tr> 
  </tbody> 
@@ -133,7 +133,7 @@ Campaign Standard 機能の差し迫った削除／置換を伝達するため�
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>21.2 リリース以降、アクセス要求および削除要求に対する Campaign API およびインターフェイスの使用は廃止されます。2 段階のプロファイルの削除は使用できません。 <a href="https://www.adobe.io/apis/experiencecloud/gdpr.html">Adobe Privacy Core Service</a> を使用します。</p></br>
+   <td> <p>21.2 リリース以降、アクセス要求および削除要求に対する Campaign API およびインターフェイスの使用は廃止されます。2 段階のプロファイルの削除は使用できません。 <a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service">Adobe Privacy Core Service</a> を使用します。</p></br>
    <p><a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=ja">プライバシーリクエストの管理</a>も参照してください。</p>
   </td> 
   </tr> 

@@ -8,9 +8,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: 4b0c4fb13cc11c06e2487e531ca96574e49b6beb
 workflow-type: tm+mt
-source-wordcount: '4623'
+source-wordcount: '4613'
 ht-degree: 7%
 
 ---
@@ -315,7 +315,7 @@ _プッシュ通知_
   </tr> 
   <tr> 
    <td> トランザクションプッシュ通知<br /> </td> 
-   <td> モバイルアプリケーションチャネルが、Adobe Campaignのトランザクションメッセージ機能に追加されました。 トランザクションメッセージで 3 つのチャネルがサポートされるようになりました。電子メール、SMS、プッシュ通知。<br /> 詳しくは、 <a href="../../channels/using/transactional-push-notifications.md">詳細なドキュメント</a>.<br /> </td> 
+   <td> Mobileアプリケーションチャネルは、Adobe Campaignのトランザクションメッセージ機能に追加されました。 トランザクションメッセージで 3 つのチャネルがサポートされるようになりました。電子メール、SMS、プッシュ通知。<br /> 詳しくは、 <a href="../../channels/using/transactional-push-notifications.md">詳細なドキュメント</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 繰り返しプッシュ通知<br /> </td> 
@@ -327,7 +327,7 @@ _プッシュ通知_
   </tr> 
   <tr> 
    <td> Dreamweaver統合ライブ<br /> </td> 
-   <td> Adobe CampaignとDreamweaverの統合が実行されました。 最新リリースバージョンのDreamweaver(17.0.2) と連携するようになりました。<br /> そのためには、次の場所からAdobe Campaign Integration 拡張機能をインストールする必要があります。 <a href="https://adobe.ly/acdw_addon">https://adobe.ly/acdw_addon</a><br /> 詳しくは、 <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=ja">ビデオ</a>.<br /> </td> 
+   <td> Adobe CampaignとDreamweaverの統合が実行されました。 最新リリースバージョンのDreamweaver(17.0.2) と連携するようになりました。<br /> これには、Adobe Campaign Integration 拡張機能をインストールする必要があります。 詳しくは、 <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=ja">ビデオ</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -435,7 +435,7 @@ _プッシュ通知_
   </tr> 
   <tr> 
    <td> 目標地点データ<br /> </td> 
-   <td> 目標地点データは、Adobe CampaignとAdobe Analytics for Mobile を統合します。 ブランドは、ユーザーのモバイル場所 ( <strong>目標地点</strong>  — ユーザーがブランドのアプリを開いたとき。 これにより、ブランドはAdobe Campaignのワークフローを活用して、ユーザーの場所に基づいてパーソナライズされたメッセージを送信できます。 このチャネルは、Mobile コアサービスの SDK を利用します。<br /> この機能を使用するには、有料ソリューションである Analytics for Mobile が必要です。<br /> 詳しくは、 <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">詳細なドキュメント</a>.<br /> </td> 
+   <td> 目標地点データは、Adobe CampaignとAdobe Analytics for Mobileを統合します。 ブランドは、ユーザーのモバイル場所 ( <strong>目標地点</strong>  — ユーザーがブランドのアプリを開いたとき。 これにより、ブランドはAdobe Campaignのワークフローを活用して、ユーザーの場所に基づいてパーソナライズされたメッセージを送信できます。 このチャネルは、Mobileコアサービスの SDK を利用します。<br /> この機能を使用するには、有料ソリューションであるMobile版 Analytics が必要です。<br /> 詳しくは、 <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">詳細なドキュメント</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> REST API<br /> </td> 

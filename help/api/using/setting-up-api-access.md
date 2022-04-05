@@ -8,9 +8,9 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: efbbd0cd-9c56-4ad0-8bcb-efba4b63c28b
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 4b0c4fb13cc11c06e2487e531ca96574e49b6beb
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '364'
 ht-degree: 3%
 
 ---
@@ -43,7 +43,7 @@ Adobe Campaign Standard API アクセスは、以下の手順で設定します�
    * &lt;organization> :本番インスタンス
    * &lt;organization-mkt-stage>:ステージインスタンス
 
-   組織 ID 値を取得するには、管理者または担当のAdobe技術担当者にお問い合わせください。 また、新しい統合を作成する際に、Adobe I/Oに取得することもできます ( <a href="https://www.adobe.io/authentication.html">AdobeIO ドキュメント</a>) をクリックします。
+   組織 ID 値を取得するには、管理者または担当のAdobe技術担当者にお問い合わせください。 また、新しい統合を作成する際に、Adobe I/Oに取得することもできます ( <a href="https://developer.adobe.com/developer-console/docs/guides/authentication/">AdobeIO ドキュメント</a>) をクリックします。
 
 * **&lt;access_token>**:個人用アクセストークン。POSTリクエストを通じて JSON Web トークンを交換する際に取得されました。
 
