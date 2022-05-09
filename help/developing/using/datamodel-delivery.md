@@ -240,13 +240,13 @@ ht-degree: 30%
                      <ul>
                         <li>トランザクションメール — emailLightning - 60</li>
                         <li>FAX - FAX - 4</li>
-                        <li>Mobile(SMS) - sms - 1</li>
+                        <li>モバイル (SMS) - sms - 1</li>
                         <li>繰り返し E メール — emailRefresh - 30</li>
                         <li>ダイレクトメール — 紙 — 3</li>
                         <li>電話 — 電話 — 2</li>
                         <li>その他 — 120</li>
                         <li>繰り返し送信 SMS - smsRefresh - 31</li>
-                        <li>Mobileアプリケーション — pushNotification - 40</li>
+                        <li>モバイルアプリケーション — pushNotification - 40</li>
                         <li>トランザクション SMS - smsLightning - 61</li>
                         <li>電子メール — 電子メール — 0</li>
                         <li>無効な値 — __Invalid_value__ - __Invalid_value__</li>
@@ -359,7 +359,7 @@ ht-degree: 30%
                   <td>
                      <ul>
                         <li>FAX - FAX - 4</li>
-                        <li>モバイル (SMS) - sms - 1</li>
+                        <li>Mobile(SMS) - sms - 1</li>
                         <li>電子メール — 電子メール — 0</li>
                         <li>電話 — 電話 — 2</li>
                         <li>ダイレクトメール — 紙 — 3</li>
@@ -490,15 +490,15 @@ ht-degree: 30%
                         <li>失敗 — 失敗 — 87</li>
                         <li>処理中 — 開始 — 55</li>
                         <li>ターゲティングを保留中 — targetPrepPending - 11</li>
-                        <li>Personalization保留中 — messagePrepPending - 21</li>
+                        <li>パーソナライゼーション保留中 — messagePrepPending - 21</li>
                         <li>一時停止 — 一時停止 — 75</li>
                         <li>編集 — エディション — 0</li>
                         <li>完了 — 完了 — 95</li>
                         <li>カウント中 — targetSelection - 12</li>
                         <li>確定されたメッセージ — messageReady - 25</li>
-                        <li>Personalizationまたは count に失敗しました — preparationError - 37</li>
+                        <li>パーソナライゼーションまたはカウントに失敗しました — preparationError - 37</li>
                         <li>停止 — キャンセル — 85</li>
-                        <li>Personalization in progress - messagePreparation - 22</li>
+                        <li>パーソナライゼーション中 — messagePreparation - 22</li>
                         <li>ターゲット準備完了 — targetReady - 15</li>
                         <li>無効な値 — __Invalid_value__ - __Invalid_value__</li>
                         <li>判別中 — targetArbitration - 13</li>

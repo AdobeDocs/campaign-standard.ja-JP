@@ -8,10 +8,10 @@ feature: People Core Service Integration
 role: Data Architect
 level: Intermediate
 exl-id: 04d0fe26-a8cc-49ae-aaa9-b470169068ee
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 602878233e919d01f3972167cb6d3a1acc4cfc02
 workflow-type: tm+mt
-source-wordcount: '717'
-ht-degree: 40%
+source-wordcount: '704'
+ht-degree: 37%
 
 ---
 
@@ -37,7 +37,7 @@ Audience Manager(AAM) または People コアサービスの統合により、Ad
   </tr> 
   <tr> 
    <td> <strong>IMS Org ID</strong><br /> </td> 
-   <td> 所属する組織の IMS 組織 ID。<br> IMS 組織 ID は、Adobe Experience Cloud の管理メニューで確認できます。これは、Adobe Experience Cloud への初回接続時に付与されるものです。 </td> 
+   <td> 組織 ID。 <br> 組織 ID を見つけるには、 <a href="https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ja">このページ</a></td> 
   </tr> 
   <tr> 
    <td> <strong>環境：</strong><br /> </td> 

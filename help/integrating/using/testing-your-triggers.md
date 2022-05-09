@@ -8,9 +8,9 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 66628f2a-6ed3-4b12-b2ed-9b9eec440dc3
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 602878233e919d01f3972167cb6d3a1acc4cfc02
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '460'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 1%
 トリガーが作成された場合は、次の手順に進みます。 そうでない場合は、トリガーエンドポイントの接続に失敗したことを意味します。 トリガーがExperience Cloud(Activation services) でプロビジョニングされているかどうかを確認します。 そうでない場合は、Adobeのアカウントエグゼクティブまたはプロフェッショナルサービスパートナーにお問い合わせください。 次の情報が必要です。
 
 * Marketing Cloud会社名
-* IMS 組織 ID
+* 組織 ID
 * Analytics ログイン会社名 (Marketing Cloud会社名と同じ )
 
 **トリガーの公開**

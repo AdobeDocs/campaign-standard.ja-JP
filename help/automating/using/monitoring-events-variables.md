@@ -17,7 +17,7 @@ ht-degree: 17%
 
 # イベント変数の監視 {#monitoring-the-events-variables}
 
-宣言された外部パラメーターを含め、ワークフローで使用可能なイベント変数を監視できます。 これは、次の手順に従って行います。
+宣言された外部パラメーターを含め、ワークフローで使用可能なイベント変数を監視できます。 これを行うには、次の手順に従います。
 
 1. 次の条件に従うアクティビティを選択します。 **[!UICONTROL External signal]** 「 」アクティビティで、 **[!UICONTROL Log and tasks]** 」ボタンをクリックします。
 1. 内 **[!UICONTROL Tasks]** タブ、クリック ![](assets/edit_darkgrey-24px.png) 」ボタンをクリックします。

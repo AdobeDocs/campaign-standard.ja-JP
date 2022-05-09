@@ -135,7 +135,7 @@ ht-degree: 14%
                </tr>
                <tr>
                   <td>domain</td>
-                  <td>E メールドメイン</td>
+                  <td>電子メールドメイン</td>
                   <td>文字列 (255)</td>
                   <td> </td>
                </tr>

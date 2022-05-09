@@ -119,7 +119,7 @@ Campaign Standard 機能の差し迫った削除／置換を伝達するため�
    <td> <p> Campaign 20.1 リリースより、SDK v4 は非推奨（廃止予定）になります。 <a href="https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq">詳細情報</a>。</p><br/>
    <p>この <a href="https://aep-sdks.gitbook.io/docs/">Adobe Experience Platform Mobile SDK</a> （旧称 v5）は、今後のAdobe Experience Cloudの機能のみをサポートするようになりました。</p>
    <p>2021 年 8 月 31 日以降、お客様は引き続きバージョン 4 の SDK をダウンロードして使用できますが、カスタマーケアのサポートやフォーラムへのアクセスは利用できません。</p>
-   <p>SDK v4 からAdobe Experience Platform Mobile SDK に移行する方法について説明します <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">このページ</a>.</p></br>
+   <p>SDK v4 からAdobe Experience Platform Mobile SDK に移行する方法を説明します <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">このページ</a>.</p></br>
      </td> 
   </tr> 
  </tbody> 

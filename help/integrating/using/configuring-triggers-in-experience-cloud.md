@@ -8,9 +8,9 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 50e9fb7a-b28a-40b0-9f2c-3673c792529a
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 602878233e919d01f3972167cb6d3a1acc4cfc02
 workflow-type: tm+mt
-source-wordcount: '858'
+source-wordcount: '853'
 ht-degree: 7%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 7%
 Adobeチームがトリガーをアクティブ化するには、次の情報が必要です。
 
 * Marketing Cloud会社名
-* IMS 組織 ID
+* 組織 ID
 * Analytics ログイン会社名 (Marketing Cloud会社名と同じ )
 
 ## ソリューションおよびサービスの設定 {#configuring-solutions-and-services}
@@ -101,7 +101,7 @@ Adobe Experience Cloudトリガーを Campaign で使用できるようにする
 
 以下に、Campaign とトリガーの統合の使用に関するベストプラクティスと制限事項のリストを示します。
 
-* Campaign Standardのインスタンスが複数ある場合、同じ IMS 組織 ID にある限り、すべてのインスタンスがトリガーを受け取ることができます。 また、Analytics は同じ IMS 組織 ID 上にある必要があります。
+* Campaign Standardのインスタンスが複数ある場合、同じ組織にある限り、すべてのインスタンスがトリガーを受け取ることができます。 また、Analytics が同じ組織に属している必要があります。
 * 2 つの異なるレポートスイートのトリガーを使用して、トリガーコアサービスでイベントを作成することはできません。
 * トリガーは、トランザクションメッセージに基づいています。 トランザクションメッセージは、非常に迅速にメッセージを送信する必要がある場合に使用します。 トランザクションメッセージをキューに入れ、バッチでループすることはできません。
 * トリガーは、本質上決定的ではありません。 トリガーが生成されると、cookie に関連付けられているすべてのエイリアスが送信されるので、小売キオスク、ライブラリ、サイバーカフェ、自宅の共有デバイス（同じデバイスからログインする夫婦）などのブラウザーでは、適切な ID にマッピングできません。 ブラウザーでのログインに使用されたすべての ID は、最初の紐付けに基づいてメッセージを送信する Campaign に送信されます。 紐付けの対象となる「電子メール ID」が複数ある場合、Campaign は電子メールを送信しません。 Analytics から取り込んで送信されない限り、Campaign が適切な電子メール ID を把握する方法はありません。

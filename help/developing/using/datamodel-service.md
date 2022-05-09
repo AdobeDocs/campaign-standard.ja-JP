@@ -238,7 +238,7 @@ ht-degree: 45%
                <tr>
                   <td>validityDuration</td>
                   <td>有効期間</td>
-                  <td>番号 </td>
+                  <td>数値 </td>
                   <td> </td>
                </tr>
             </table>

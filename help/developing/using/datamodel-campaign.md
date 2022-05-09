@@ -64,7 +64,7 @@ ht-degree: 42%
                <tr>
                   <td>duration</td>
                   <td>キャンペーン期間</td>
-                  <td>番号 </td>
+                  <td>数値 </td>
                   <td> </td>
                </tr>
                <tr>

@@ -315,7 +315,7 @@ _プッシュ通知_
   </tr> 
   <tr> 
    <td> トランザクションプッシュ通知<br /> </td> 
-   <td> Mobileアプリケーションチャネルは、Adobe Campaignのトランザクションメッセージ機能に追加されました。 トランザクションメッセージで 3 つのチャネルがサポートされるようになりました。電子メール、SMS、プッシュ通知。<br /> 詳しくは、 <a href="../../channels/using/transactional-push-notifications.md">詳細なドキュメント</a>.<br /> </td> 
+   <td> モバイルアプリケーションチャネルが、Adobe Campaignのトランザクションメッセージ機能に追加されました。 トランザクションメッセージで 3 つのチャネルがサポートされるようになりました。電子メール、SMS、プッシュ通知。<br /> 詳しくは、 <a href="../../channels/using/transactional-push-notifications.md">詳細なドキュメント</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 繰り返しプッシュ通知<br /> </td> 
@@ -435,7 +435,7 @@ _プッシュ通知_
   </tr> 
   <tr> 
    <td> 目標地点データ<br /> </td> 
-   <td> 目標地点データは、Adobe CampaignとAdobe Analytics for Mobileを統合します。 ブランドは、ユーザーのモバイル場所 ( <strong>目標地点</strong>  — ユーザーがブランドのアプリを開いたとき。 これにより、ブランドはAdobe Campaignのワークフローを活用して、ユーザーの場所に基づいてパーソナライズされたメッセージを送信できます。 このチャネルは、Mobileコアサービスの SDK を利用します。<br /> この機能を使用するには、有料ソリューションであるMobile版 Analytics が必要です。<br /> 詳しくは、 <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">詳細なドキュメント</a>.<br /> </td> 
+   <td> 目標地点データは、Adobe CampaignとAdobe Analytics for Mobileを統合します。 ブランドは、ユーザーのモバイル場所 ( <strong>目標地点</strong>  — ユーザーがブランドのアプリを開いたとき。 これにより、ブランドはAdobe Campaignのワークフローを活用して、ユーザーの場所に基づいてパーソナライズされたメッセージを送信できます。 このチャネルは、Mobile コアサービスの SDK を利用します。<br /> この機能を使用するには、有料ソリューションであるMobile版 Analytics が必要です。<br /> 詳しくは、 <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">詳細なドキュメント</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> REST API<br /> </td> 
