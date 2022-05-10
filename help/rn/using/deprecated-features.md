@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
-source-git-commit: 4b0c4fb13cc11c06e2487e531ca96574e49b6beb
+source-git-commit: 47d0f4c42d84e2107da65fae5528af0705f2165f
 workflow-type: tm+mt
-source-wordcount: '864'
-ht-degree: 64%
+source-wordcount: '868'
+ht-degree: 63%
 
 ---
 
@@ -48,7 +48,7 @@ Campaign Standard 機能の差し迫った削除／置換を伝達するため�
   <tr> 
    <td> <p> Campaign Standard21.3 リリースより、Audience Destinations サービスとの統合は非推奨（廃止予定）になります。 </p>
    <p>新しい実装の場合、Audience Destinations サービスをAdobe Campaign Standardと統合できなくなりました。 ただし、ソースと宛先を使用して Campaign とAdobe Experience Platformを統合することはできます。 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=en">詳細情報</a>。</p>
-     <em>削除予定：2022 年</em></p>
+     <em>削除のターゲット日：2022 年 9 月</em></p>
      </td> 
   </tr> 
  </tbody> 
@@ -64,7 +64,7 @@ Campaign Standard 機能の差し迫った削除／置換を伝達するため�
   <tr> 
    <td> <p> Campaign Standard21.3 リリースより、Adobe Experience Platform Data Connector との統合は非推奨（廃止予定）になります。 </p>
    <p>新しい実装の場合、Adobe Experience Platform Data Connector とAdobe Campaign Standardを統合できなくなりました。 ただし、ソースと宛先を使用して Campaign とAdobe Experience Platformを統合することはできます。 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=en">詳細情報</a>。</p>
-     <em>削除予定：2022 年</em></p>
+     <em>削除のターゲット日：2022 年 9 月</em></p>
      </td> 
   </tr> 
  </tbody> 
@@ -82,7 +82,7 @@ Campaign Standard 機能の差し迫った削除／置換を伝達するため�
    <td> <p>Campaign 19.0 リリース以降、レガシー E メールエディターは非推奨となりました。 用途 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">Campaign E メールデザイナー</a> e メールコンテンツを作成し、パーソナライズします。 </p></br>
    <p><a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">この節</a>で、新しいエディター用に E メールテンプレートを適応させる方法を説明しています。</p></br>
   <p> 
-  <em>削除予定：2022 年</em></p>
+  <em>削除予定日：2022 年末</em></p>
    </td> 
   </tr> 
  </tbody> 
