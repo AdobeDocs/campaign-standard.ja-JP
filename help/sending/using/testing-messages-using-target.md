@@ -9,9 +9,9 @@ feature: Control Groups
 role: User
 level: Intermediate
 exl-id: aa68914f-0497-40ba-98c8-4d4b2c6705fb
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: d903c6b5e9eefd65f7494fc17fd754a97e44e49e
 workflow-type: tm+mt
-source-wordcount: '1512'
+source-wordcount: '1532'
 ht-degree: 4%
 
 ---
@@ -22,9 +22,9 @@ ht-degree: 4%
 
 さらに [テストプロファイル](../../audiences/using/managing-test-profiles.md)を使用すると、ターゲットプロファイルのいずれかの位置に自分を配置して、電子メールメッセージをテストできます。 これにより、プロファイルが受け取るメッセージ ( カスタムフィールド、動的情報、パーソナライズされた情報（ワークフローからの追加データを含む）が正確に表示されます。
 
->[!NOTE]
+>[!IMPORTANT]
 >
-> この機能は、電子メールメッセージでのみ使用できます。
+>この機能を使用すると、プロファイルの個人情報を外部の E メールアドレスに送信できます。Campaign Standard でプライバシーリクエスト（GDPR および CCPA）を実行しても、リクエストは外部で実行されないことに注意してください。
 
 主な手順は次のとおりです。
 
@@ -35,9 +35,9 @@ ht-degree: 4%
 1. **プレビュー** E メールデザイナーで、プロファイルに対するメッセージの表示方法を指定します。
 1. 配達確認を送信します。
 
->[!IMPORTANT]
->
->この機能を使用すると、プロファイルの個人情報を外部の E メールアドレスに送信できます。Campaign Standard でプライバシーリクエスト（GDPR および CCPA）を実行しても、リクエストは外部で実行されないことに注意してください。
+   >[!IMPORTANT]
+   >
+   >配達確認は次の条件で処理されます： [!DNL Campaign Standard] を標準の配信として使用します。 その結果、プロファイルの置き換えを使用して配達確認を送信すると、選択したプロファイルの配信およびトラッキングログにレコードが追加されます。
 
 ![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](#video)
 

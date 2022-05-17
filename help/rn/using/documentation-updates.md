@@ -5,16 +5,20 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 71f8348488596598f3d3b4f439dc25fb10ab8433
-workflow-type: ht
-source-wordcount: '7127'
-ht-degree: 100%
+source-git-commit: d903c6b5e9eefd65f7494fc17fd754a97e44e49e
+workflow-type: tm+mt
+source-wordcount: '7152'
+ht-degree: 99%
 
 ---
 
 # ドキュメントの更新{#documentation-updates}
 
 このページでは、Adobe Campaign の[リリースノート](../../rn/using/release-notes.md)に加えて、Adobe Campaign Standard のドキュメントの新規更新をすべて紹介します。
+
+## 2022年3月 {#doc-updates-march-2022}
+
+プロファイルの置き換えを使用して配達確認を送信すると、選択したプロファイルのログにレコードが追加されることを指定する注意書きを追加しました。 [詳細情報](../../sending/using/testing-messages-using-target.md)
 
 ## リリース 22.1 - 2022年2月 {#release-22-1}
 
@@ -255,7 +259,7 @@ Experience Cloud ID サービス（ECID）に関する情報が、Adobe Experien
 
 トランザクションメッセージの節が改訂され、最新のトランザクションイベントへのアクセス方法に関する情報と、最新のスクリーンショットが追加されました。[詳細を表示](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
 
-タイポロジとタイポロジルールに関するドキュメントが改訂され、組み込みのタイポロジルール関する情報が追加されました。[詳細を表示](../../sending/using/about-typology-rules.md)
+タイポロジとタイポロジルールに関するドキュメントが改訂され、ビルトインタイポロジルール関する情報が追加されました。[詳細を表示](../../sending/using/about-typology-rules.md)
 
 「**[!UICONTROL Transfer file]**」アクティビティの「**[!UICONTROL File listing]**」アクションに関する情報が追加されました。[詳細を表示](../../automating/using/transfer-file.md)
 
@@ -309,7 +313,7 @@ Campaign E メールデザイナーのドキュメントと関連ページが更
 
 Campaign Standard データモデルのベストプラクティスに関する新しい節が追加されました。[詳細を表示](../../developing/using/data-model-best-practices.md)
 
-**[!UICONTROL Workflow]** の組み込み権限に関する情報が追加されました。[詳細を表示](../../administration/using/list-of-roles.md)
+**[!UICONTROL Workflow]** のビルトイン権限に関する情報が追加されました。[詳細を表示](../../administration/using/list-of-roles.md)
 
 ワークフローのプロパティで使用できる **[!UICONTROL History in days field]** に関する情報が追加されました。[詳細を表示](../../automating/using/about-workflow-execution.md)
 
@@ -323,7 +327,7 @@ Audience Destinations（ベータ版） - [詳細情報](../../integrating/using
 
 **リリースに伴うその他のドキュメントのアップデート**
 
-プライバシー管理に関するドキュメントが更新され、カスタムプロファイルリソース用の CCPA オプトアウトフィールドの作成方法に関する情報が追加されました。[詳細を表示](https://helpx.adobe.com/content/help/jp/campaign/kb/acs-privacy.html)
+プライバシー管理に関するドキュメントが更新され、カスタムプロファイルリソース用の CCPA オプトアウトフィールドの作成方法に関する情報が追加されました。[詳細を表示](https://helpx.adobe.com/content/help/en/campaign/kb/acs-privacy.html)
 
 リリースノートが、構成を変更して改訂されました。[詳細を表示](../../rn/using/release-notes.md)
 
@@ -423,7 +427,7 @@ Campaign Standard 設定に関連する新しい節が追加されました。[�
 
 トラッピングの使用方法に関する新しい節が追加されました。[詳細を表示](../../sending/using/using-traps.md)
 
-Adobe Experience Platform SDK を使用したモバイルアプリケーションの設定方法に関するページに、**Launch_URL_**（Launch_URL_Platform）に関する注意が追加されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/configuring-app-sdk.html)
+Adobe Experience Platform SDK を使用したモバイルアプリケーションの設定方法に関するページに、**Launch_URL_**（Launch_URL_Platform）に関する注意が追加されました。[詳細を表示](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)
 
 E メールデザイナーガイドの構成が変更されました。[詳細を表示](../../designing/using/designing-content-in-adobe-campaign.md)
 
@@ -495,7 +499,7 @@ E メールデザイナーの推奨されるアップデートに関する新し
 
 **リリースに含まれる新機能**
 
-コントロールパネル - [詳細を表示](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja)
+コントロールパネル - [詳細を表示](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html)
 
 ローカル通知 - [詳細を表示](../../channels/using/customizing-an-in-app-message.md#customizing-a-local-notification-message-type)
 
@@ -649,9 +653,9 @@ Microsoft Edge（最新バージョン）が、コンピューター用の互換
 
 SDK V4 を使用したモバイルアプリケーションの設定の節は、[ここ](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/administrating/configuring-channels/configuring-a-mobile-application.html)に移動しました。
 
-Adobe Experience Platform SDK を使用したモバイルアプリケーションの設定の節は、[ここ](https://helpx.adobe.com/jp/campaign/kb/configuring-app-sdk.html)に移動しました。
+Adobe Experience Platform SDK を使用したモバイルアプリケーションの設定の節は、[ここ](https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html)に移動しました。
 
-ビデオが更新され、[ここ](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/overview.html?lang=ja)に移動しました。
+ビデオが更新され、[ここ](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/overview.html)に移動しました。
 
 ユーザーのタイプの節を更新しました。[詳細を表示](../../administration/using/users-management.md)
 
@@ -669,7 +673,7 @@ Adobe Experience Platform SDK を使用したモバイルアプリケーショ�
 
 オーディエンスの削除方法に関する情報を追加しました。[詳細を表示](../../audiences/using/creating-audiences.md#deleting-audiences)
 
-プッシュ通知組み込みレポートの節を更新しました。[詳細を表示](../../reporting/using/push-notification-report.md)
+プッシュ通知のビルトインレポートの節を更新しました。[詳細を表示](../../reporting/using/push-notification-report.md)
 
 ## リリース 18.7 - 2018 年 7 月 {#release-18-7---july-2018}
 
@@ -681,7 +685,7 @@ Adobe Experience Platform SDK を使用したモバイルアプリケーショ�
 
 **リリースに伴うその他のドキュメントのアップデート**
 
-SMS コネクタのプロトコルと設定に関する新しいテクニカルノートを追加しました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/sms-connector-protocol-and-settings.html)
+SMS コネクタのプロトコルと設定に関する新しいテクニカルノートを追加しました。[詳細を表示](https://helpx.adobe.com/campaign/kb/sms-connector-protocol-and-settings.html)
 
 Experience Manager と Adobe Campaign との統合に関するドキュメントを更新しました。[詳細を表示](../../reporting/using/creating-a-custom-profile-dimension.md)
 
@@ -753,7 +757,7 @@ Administration メニューの「ライセンス」オプションに関する�
 
 **リリースに含まれる新機能**
 
-EU 一般データ保護規則（GDPR） - [詳細を表示](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=ja)
+EU 一般データ保護規則（GDPR） - [詳細を表示](https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html)
 
 E メール用 Creative Designer - [詳細を表示](../../designing/using/designing-content-in-adobe-campaign.md)
 
@@ -793,7 +797,7 @@ Campaign Standard の製品内コンテキストヘルプを更新しました�
 
 Campaign とアドビソリューションの統合のほとんどの URL が変更されました。ブックマークを確認してください。[詳細を表示](../../integrating/using/get-started-campaign-integrations.md)
 
-データモデル v1 を、組み込みリソース用の SQL 構造で使用できるようになりました。[詳細を表示](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/developing/datamodel/datamodel-audience.html)
+データモデル v1 を、ビルトインリソース用の SQL 構造で使用できるようになりました。[詳細を表示](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/developing/datamodel/datamodel-audience.html)
 
 配信でのメッセージの準備方法に関する情報を追加しました。[詳細を表示](../../sending/using/preparing-the-send.md)
 
@@ -883,7 +887,7 @@ Adobe Marketing Cloud Mobile SDK をモバイルアプリと統合して Adobe C
 
 モバイルアプリで受け取るペイロードの構造を説明するテクニカルノートを追加しました。[詳細を表示](../../administration/using/push-payload.md)
 
-[プッシュチャネルの設定](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/administrating/configuring-channels/configuring-a-mobile-application.html)の節が更新され、Adobe Mobile Services のインターフェイスでポストバックを定義する際に追加される OS バージョンの新しいペイロードデータが追加されました。
+[プッシュチャネルの設定](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)の節が更新され、Adobe Mobile Services のインターフェイスでポストバックを定義する際に追加される OS バージョンの新しいペイロードデータが追加されました。
 
 SMS ドキュメントが更新され、[SMS 自動返信](../../channels/using/managing-incoming-sms.md#managing-stop-sms)の節に説明が追加されました。
 
@@ -979,7 +983,7 @@ E メール BCC - [詳細を表示](../../sending/using/archiving.md)
 
 多くのスクリーンショットが更新され、インターフェイスの変更が反映されています。
 
-新しいテクニカルノート「Adobe Mobile SDK とモバイルアプリの統合」が発表されました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/integrate-mobile-sdk.html)
+新しいテクニカルノート「Adobe Mobile SDK とモバイルアプリの統合」が発表されました。[詳細を表示](https://helpx.adobe.com/campaign/kb/integrate-mobile-sdk.html)
 
 People コアサービスまたは Audience Manager と Adobe Campaign の統合を設定する手順が追加されました。[詳細を表示](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
 
@@ -1009,9 +1013,9 @@ Adobe Campaign ユーザーの様々なタイプに関する節を追加しま�
 
 動的レポートでレポートインジケーター計算が使用できるようになり、完全な説明や計算式を参照できます。[詳細を表示](../../reporting/using/indicator-calculation.md)
 
-Adobe Campaign でプッシュ通知と目標地点データを使用するための Adobe Mobile Services の設定に関する新しい専用の節。[詳細を表示](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/administrating/configuring-channels/configuring-a-mobile-application.html)
+Adobe Campaign でプッシュ通知と目標地点データを使用するための Adobe Mobile Services の設定に関する新しい専用の節。[詳細を表示](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)
 
-モバイルアプリの設定および実装の節が更新されました。プッシュ通知を設定および送信するための詳細な手順が追加されています。[詳細を表示](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/administrating/configuring-channels/configuring-a-mobile-application.html)
+モバイルアプリの設定および実装の節が更新されました。プッシュ通知を設定および送信するための詳細な手順が追加されています。[詳細を表示](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html)
 
 Campaign での画像の操作方法に関する節を更新しました。[詳細を表示](../../designing/using/images.md#setting-up-image-properties)
 
@@ -1023,7 +1027,7 @@ Adobe Analytics for Mobile（目標地点）との統合が更新され、設定
 
 動的レポート- [詳細を表示](../../reporting/using/about-dynamic-reports.md)
 
-Dreamweaver の統合（ラボ） - [詳細を表示](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=ja)
+Dreamweaver の統合（ラボ） - [詳細を表示](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html)
 
 手動送信時間の最適化 - [詳細を表示](../../sending/using/optimizing-the-sending-time.md)
 
