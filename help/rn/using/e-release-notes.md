@@ -7,9 +7,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 9a57517f308c5394012a92622d62d5e900fb3955
+source-git-commit: 104855851906b96f79a89179108548b3dde17b4f
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '220'
 ht-degree: 24%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 24%
 
 **改善点**
 
-* **Adobe通知サービス** - Campaign にはAdobe通知サービスが付属しており、Experience Cloudソリューションは、知っておくべき重要なアクティビティに関するExperience Cloudをまたいでユーザーにアラートを出すことができます。 22.2 バージョンより、ユーザーエクスペリエンスが向上しました。通知は優先され、製品生成通知はAdobeのステータスのお知らせとは別に表示されます。 さらに、通知が特定のワークフローを参照する場合、電子メール通知または製品内通知から直接、対応するワークフローにアクセスできるようになりました。  Adobe Campaign通知について詳しくは、 [Adobe Campaign通知](../../administration/using/sending-internal-notifications.md).
+* **Adobe通知サービス** - Campaign には、Adobeが知っておくべき重要なアクティビティに関して、Experience CloudソリューションがExperience Cloudをまたいでユーザーにアラートを表示できるようにする、ユーザー通知サービスが付属しています。 22.2 バージョンより、ユーザーエクスペリエンスが向上しました。通知は優先され、製品生成通知はAdobeのステータスのお知らせとは別に表示されます。 さらに、通知が特定のワークフローを参照する場合、電子メール通知または製品内通知から直接、対応するワークフローにアクセスできるようになりました。  Adobe Campaign通知について詳しくは、 [Adobe Campaign通知](../../administration/using/sending-internal-notifications.md).
 
 * **ワークフローの遅延開始** ：オーバーロードを避けるために、ワークフローの実行を遅延できるようになりました。 専用オプションを通じてAdobeが有効にします。このガードレールは、ワークフロー間の開始に遅延が生じることを確認します。 この機能オプションは、同時に実行できるワークフローの数と、その間の遅延（秒）を設定します。
 
