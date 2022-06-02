@@ -4,8 +4,8 @@ user-guide-title: Campaign Standard
 user-guide-description: 'Campaign Standard の使用に必要な主要な機能、タスク、設定、その他のリソースに関するヘルプセンター。 '
 title: Campaign Standard ガイド
 breadcrumb-title: Adobe Campaign Standard ドキュメント
-source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
-workflow-type: ht
+source-git-commit: 5a7e48da3d62b186f96cd7451fb5a7b2cf94e09c
+workflow-type: tm+mt
 source-wordcount: '1807'
 ht-degree: 100%
 
@@ -242,7 +242,7 @@ ht-degree: 100%
       + [Analytics での Campaign のディメンションと指標](integrating/using/campaign-dimensions-and-metrics-in-analytics.md)
    + Campaign と Audience Manager または People コアサービス {#working-with-campaign-and-audience-manager-or-people-core-service}
       + [Campaign と Audience Manager または People コアサービスの統合について](integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
-      + [Audience Manager または People コアサービスとの統合のプロビジョニングと設定](integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md)
+      + [Audience Manager または People コアサービスとの統合のプロビジョニングと設定](integrating/using/integration-with-audience-manager-or-people-core-service.md)
       + [トラブルシューティング](integrating/using/troubleshooting.md)
       + [Audience Manager または People コアサービスとのオーディエンスの共有](integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
       + [Campaign と Assets コアサービスの連携](integrating/using/working-with-campaign-and-assets-core-service.md)

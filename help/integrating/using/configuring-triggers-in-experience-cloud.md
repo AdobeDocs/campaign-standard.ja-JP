@@ -8,7 +8,7 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 50e9fb7a-b28a-40b0-9f2c-3673c792529a
-source-git-commit: 602878233e919d01f3972167cb6d3a1acc4cfc02
+source-git-commit: 5a7e48da3d62b186f96cd7451fb5a7b2cf94e09c
 workflow-type: tm+mt
 source-wordcount: '853'
 ht-degree: 7%
@@ -87,7 +87,7 @@ DTM で以前に参照されたエイリアスは、顧客属性を通じてExpe
 
    >[!NOTE]
    >
-   >匿名ユーザーとログイントリガーの両方について、ユーザーを紐付けできます。 匿名ユーザーの場合、プロファイルはAdobe Campaignに存在し、以前に電子メールがユーザーに送信されているはずです。 そのためには、訪問者 ID の設定で十分です。 ただし、ログインしたユーザーのトリガーを紐付けする場合は、宣言済み ID データソースを設定する必要があります。 詳しくは、 [データソースの設定](../../integrating/using/provisioning-and-configuring-integration-with-audience-manager-or-people-core-service.md#step-2--configure-the-data-sources).
+   >匿名ユーザーとログイントリガーの両方について、ユーザーを紐付けできます。 匿名ユーザーの場合、プロファイルはAdobe Campaignに存在し、以前に電子メールがユーザーに送信されているはずです。 そのためには、訪問者 ID の設定で十分です。 ただし、ログインしたユーザーのトリガーを紐付けする場合は、宣言済み ID データソースを設定する必要があります。 詳しくは、 [データソースの設定](../../integrating/using/integration-with-audience-manager-or-people-core-service.md#step-2--configure-the-data-sources).
 
 ## Experience Cloudインターフェイスでのトリガーの作成 {#creating-a-trigger-in-the-experience-cloud-interface}
 
