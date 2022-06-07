@@ -5,7 +5,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+source-git-commit: 9000b7737e8579aa2389d517d83fde958d8945fe
 workflow-type: tm+mt
 source-wordcount: '7221'
 ht-degree: 99%
@@ -20,7 +20,7 @@ ht-degree: 99%
 
 **リリースに含まれる改善点**
 
-* **アドビ通知サービス** - Experience Cloud ソリューションは、Campaign に搭載されているアドビ通知サービスを使用して、ユーザーが把握しておくべき重要なアクティビティに関して Experience Cloud のどこからでもユーザーにアラートを表示できます。[詳細情報](../../administration/using/sending-internal-notifications.md)。
+**アドビ通知サービス** - Experience Cloud ソリューションは、Campaign に搭載されているアドビ通知サービスを使用して、ユーザーが把握しておくべき重要なアクティビティに関して Experience Cloud のどこからでもユーザーにアラートを表示できます。[詳細情報](../../administration/using/sending-internal-notifications.md)。
 
 **その他の変更**
 
