@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '702'
-ht-degree: 93%
+source-wordcount: '700'
+ht-degree: 89%
 
 ---
 
@@ -92,12 +92,12 @@ ht-degree: 93%
    <tr> 
    <td> <span class="uicontrol">Launch と同期</span> <br /> </td> 
    <td> <span class="uicontrol">SyncWithLaunch</span> <br /> </td> 
-   <td> このワークフローは、Adobe Campaign Standard にインポートした Adobe Experience Platform Launch のモバイルプロパティを同期します。これは 15 分ごとに実行されます。<br /> </td> 
+   <td> このワークフローは、Adobe Campaign Standardで読み込まれたタグモバイルプロパティを同期します。 これは 15 分ごとに実行されます。<br /> </td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">トラッキングログの復元</span> <br /> </td> 
    <td> <span class="uicontrol">SyncWithLaunch</span> <br /> </td> 
-   <td> このワークフローは、Adobe Campaign Standard にインポートした Adobe Experience Platform Launch のモバイルプロパティを同期します。これは 15 分ごとに実行されます。<br /> </td> 
+   <td> このワークフローは、Adobe Campaign Standardで読み込まれたタグモバイルプロパティを同期します。 これは 15 分ごとに実行されます。<br /> </td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">トラッキングログを復元</span> <br /> </td> 

@@ -8,10 +8,10 @@ context-tags: delivery,triggers,back;deliveryCreation,wizard
 feature: In App
 role: User
 exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
-source-git-commit: 99111a0d8d3bf46aae39b80851ebcabaf30be0a0
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '1245'
-ht-degree: 89%
+source-wordcount: '1246'
+ht-degree: 84%
 
 ---
 
@@ -91,7 +91,7 @@ Adobe Campaign を使用してスタンドアロンのアプリ内メッセー�
       Adobe Places について詳しくは、[Places のドキュメント](https://experienceleague.adobe.com/docs/places/using/home.html)を参照してください。
    ![](assets/inapp_creating_4.png)
 
-1. 「**[!UICONTROL Analytics Events]**」を使用する場合、Adobe Analytics イベントおよび画面遷移イベントには、Adobe Experience Platform Launch の Analytics 拡張機能で設定されたレポートスイートに基づいて、自動的に入力がおこなわれます。これに対して、コンテキストデータイベントは手動で追加する必要があります。
+1. 次を使用する場合、 **[!UICONTROL Analytics Events]**&#x200B;コンテキストデータイベントを手動で追加する必要があるのに対し、 Adobe Analyticsおよび表示状態イベントは、データ収集 UI の Analytics 拡張機能で設定されたレポートスイートに基づいて自動的に入力されます。
 
    これらのイベントは、Adobe Analytics のライセンスをお持ちの場合にのみ利用できます。
 
@@ -99,7 +99,7 @@ Adobe Campaign を使用してスタンドアロンのアプリ内メッセー�
 
 1. **[!UICONTROL Places]** トリガーを使用すると、Places コンテキストデータ、Places カスタムメタデータ、Places イベントタイプのいずれかには、すべてのライブラリと Adobe Places で作成されたライブラリ目標点データに従って自動的に入力がおこなわれます。
 
-   なお、デバイスでは、このトリガーは、Experience Platform Launch の Places 拡張機能で選択されたライブラリの目標地点データにのみ適用されます。Places 拡張機能とそのインストール方法について詳しくは、この[ドキュメント](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html)を参照してください。
+   このトリガーは、デバイス上で、データ収集 UI の Places 拡張機能で選択されたライブラリの目標地点に対してのみ適用されます。 Places 拡張機能とそのインストール方法について詳しくは、この[ドキュメント](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html)を参照してください。
 
 1. 「**[!UICONTROL Frequency & duration]**」タブで、トリガーの頻度、開始日と終了日、曜日、アプリ内メッセージを有効にする時刻帯を選択します。
 

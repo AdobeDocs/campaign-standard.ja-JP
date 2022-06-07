@@ -8,10 +8,10 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 0f99a109-2923-4e64-8131-80fcacf79c82
-source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '705'
-ht-degree: 5%
+source-wordcount: '790'
+ht-degree: 4%
 
 ---
 
@@ -181,3 +181,12 @@ P1 は最初の日に E メールを 2 回開き、2 日目にはツリー回開
 
    ![](assets/troubleshooting_4.png)
 
+## 配信のレポートで、カスタムターゲットマッピングを使用すると不完全なデータが表示される
+
+読み込まれたカスタムの Target マッピングを配信で使用していて、異なるレポートにデータが表示されない場合は、それらの Target マッピングに対してレポートエンリッチメントが作成されていなかった可能性があります。
+
+これを解決するには：
+
+* XML から Target マッピングを読み込んだ後、レポートエンリッチメントも読み込む必要があります。
+
+* Target マッピングを読み込む代わりに、Adobe Campaign Standardで直接作成して、レポートエンリッチメントを自動的に作成できます。

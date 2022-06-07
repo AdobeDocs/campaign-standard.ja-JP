@@ -6,7 +6,7 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 3cd8d756-a271-4e53-8ed0-984ce20298bc
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
 source-wordcount: '949'
 ht-degree: 1%
@@ -15,7 +15,7 @@ ht-degree: 1%
 
 # Adobe Campaign Standard でサポートされるモバイルのユースケース {#mobile-use-cases}
 
-このページでは、 [!DNL Adobe Campaign Standard] の使用 [!DNL Adobe Experience Platform SDKs]. これらの使用例をサポートするには、 [!DNL Adobe Experience Platform SDKs], [!DNL Adobe Experience Platform Launch]、および [!DNL Adobe Campaign Standard]. これについて詳しくは、この[ページ](../../administration/using/configuring-a-mobile-application.md)を参照してください。
+このページでは、 [!DNL Adobe Campaign Standard] の使用 [!DNL Adobe Experience Platform SDKs]. これらの使用例をサポートするには、 [!DNL Adobe Experience Platform SDKs], [!DNL tags in Adobe Experience Platform]、および [!DNL Adobe Campaign Standard]. これについて詳しくは、この[ページ](../../administration/using/configuring-a-mobile-application.md)を参照してください。
 
 Adobe Campaign Standardは、次の使用例をサポートしています。
 
@@ -27,9 +27,9 @@ Adobe Campaign Standardは、次の使用例をサポートしています。
 * [モバイルアプリにカスタムイベントを実装してアプリ内メッセージをトリガー](../../administration/using/supported-mobile-use-cases.md#custom-event-inapp)
 * [アプリ内メッセージに基づくプロファイルテンプレートの追加認証用のリンケージフィールドを設定する](../../administration/using/supported-mobile-use-cases.md#linkage-fields-inapp)
 
-これらの使用例を設定するには、次の [!DNL Experience Platform Launch]:
+これらの使用例を設定するには、次の拡張機能が必要です。
 
-* **[!DNL Adobe Campaign Standard]** <br>拡張機能のインストールとCampaign Standardについては、 [Experience Platform LaunchでのCampaign Standard拡張機能の設定](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#configure-the-campaign-standard-extension-in-experience-platform-launch).
+* **[!DNL Adobe Campaign Standard]** <br>拡張機能のインストールとCampaign Standardについては、 [データ収集 UI でのCampaign Standard拡張機能の設定](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#configure-the-campaign-standard-extension-in-experience-platform-launch).
 * **[!DNL Mobile Core]**：自動的にインストールされます。 <br>Mobile Core 拡張機能について詳しくは、 [Mobile Core](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core).
 * **[!DNL Profile]**：自動的にインストールされます。 <br>Profile 拡張機能について詳しくは、 [プロファイル](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/profile).
 

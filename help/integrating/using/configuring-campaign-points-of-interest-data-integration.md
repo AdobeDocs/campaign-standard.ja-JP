@@ -8,9 +8,9 @@ feature: Audiences
 role: Data Architect
 level: Intermediate
 exl-id: b097b3fa-f949-446e-ad44-cc6ca025ee55
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '1328'
+source-wordcount: '1327'
 ht-degree: 3%
 
 ---
@@ -27,11 +27,11 @@ ht-degree: 3%
 
 Adobe Experience Platform SDK を使用して設定されたモバイルアプリケーションでAdobe Experience Platform Location Services を使用するには、次の操作が必要です。
 
-1. を **[!UICONTROL Places]** および **[!UICONTROL Places Monitor]** Adobe Experience Platform Launchでのモバイルアプリ設定の拡張。 Adobe Campaignでモバイルアプリケーションを設定します。 詳しくは、 [Adobe Experience Platform Launchでの Places 拡張機能のインストール](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html#install-the-places-extension-in-adobe-experience-platform-launch) および [Places 監視拡張機能のExperience Platform Launch](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.html#install-the-places-monitor-extension-in-experience-platform-launch).
+1. を **[!UICONTROL Places]** および **[!UICONTROL Places Monitor]** データ収集 UI のモバイルアプリ設定の拡張。 Adobe Campaignでモバイルアプリケーションを設定します。 詳しくは、 [Places 拡張機能のインストール](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html#install-the-places-extension-in-adobe-experience-platform-launch) および [Places 監視拡張機能のインストール](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.html#install-the-places-monitor-extension-in-experience-platform-launch).
 
-1. 拡張機能を設定したら、 **[!UICONTROL Adobe Experience Platform Launch]** をクリックして、これらの拡張機能からデータを取得します。 詳しくは、 [ページ](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Step1Createdataelements) をクリックして、データ要素を作成します。
+1. 拡張機能を設定したら、データ収集 UI 内でデータ要素を作成して、これらの拡張機能からデータを取得します。 詳しくは、 [ページ](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Step1Createdataelements) をクリックして、データ要素を作成します。
 
-1. 次に、 **[!UICONTROL Adobe Experience Platform Launch]**&#x200B;を使用する場合、目標地点とAdobe Campaignの間のモバイル使用例をサポートするルールを作成する必要があります。\
+1. 次に、データ収集 UI で、目標地点とAdobe Campaignの間でモバイルを使用する場合に対応するルールを作成する必要があります。\
    このルールは、ユーザーが地域に入るとトリガーされます **[!UICONTROL Point of Interest]**. 詳しくは、 [ページ](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Locationpostback) をクリックして、ルールを作成します。
 
 1. を定義 **[!UICONTROL Points of Interest]** 場所で 詳しくは、 [目標地点の作成](https://experienceleague.adobe.com/docs/places/using/poi-mgmt-ui/create-a-poi-ui.html).
@@ -188,7 +188,6 @@ Mobile コアサービスのソフトウェア開発キット (SDK) は、モバ
 特定のカスタムリソースを使用すると、アプリケーション購読者から収集するデータを定義できます。
 
 この手順については、 [SDK V4 を使用したモバイルアプリケーションの設定](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) ページ。
-
 
 ## 場所データの収集に使用するモバイルアプリへのアクセス {#accessing-mobile-apps-used-to-collect-location-data}
 

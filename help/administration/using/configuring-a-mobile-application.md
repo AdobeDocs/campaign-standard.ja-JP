@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '1245'
-ht-degree: 6%
+source-wordcount: '1286'
+ht-degree: 4%
 
 ---
 
@@ -19,9 +19,11 @@ ht-degree: 6%
 
 >[!IMPORTANT]
 >
->プッシュ通知およびアプリ内実装は、エキスパートユーザーが実行する必要があります。 不明な点は、担当のAdobeアカウントエグゼクティブまたはプロフェッショナルサービスパートナーにお問い合わせください。
+> Adobe Experience Platform Launchは、Adobe Experience Platformのデータ収集テクノロジーのスイートとしてリブランドされました。 その結果、製品ドキュメント全体でいくつかの用語の変更がロールアウトされました。 詳しくは、 [次の文書](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html) 用語の変更を統合的に参照する場合。
 
-Experience PlatformSDK アプリケーションでプッシュ通知とアプリ内メッセージを送信するには、モバイルアプリケーションをAdobe Experience PlatformExperience PlatformExperience Platform Launchで設定し、Adobe Campaignで設定する必要があります。
+プッシュ通知およびアプリ内実装は、エキスパートユーザーが実行する必要があります。 不明な点は、担当のAdobeアカウントエグゼクティブまたはプロフェッショナルサービスパートナーにお問い合わせください。
+
+Experience PlatformSDK アプリケーションでプッシュ通知とアプリ内メッセージを送信するには、モバイルアプリケーションをデータ収集 UI で設定し、Adobe Campaignで設定する必要があります。
 
 モバイルアプリケーションを設定したら、収集した PII データを取得して、データベースからプロファイルを作成または更新できます。 詳しくは、この節を参照してください。 [モバイルアプリケーションデータに基づくプロファイル情報の作成と更新](../../channels/using/updating-profile-with-mobile-app-data.md).
 
@@ -36,32 +38,32 @@ Adobe Experience Platform SDK を使用してAdobe Campaign Standardでサポー
 
    そうでない場合は、アカウントチームにお問い合わせください。
 
-1. ユーザーがAdobe Campaign StandardおよびExperience Platform Launchで必要な権限を持っていることを確認します。
-   * Adobe Campaign Standardで、IMS ユーザーが Standard User および Administrator 製品プロファイルに含まれていることを確認します。 この手順を使用すると、ユーザーはAdobe Campaign Standardにログインし、Experience PlatformSDK モバイルアプリページに移動して、Experience Platform Launchで作成したモバイルアプリのプロパティを表示できます。
+1. ユーザーがAdobe Campaign Standardで必要な権限を持っていて、Adobe Experience Platformでタグを付けていることを確認します。
+   * Adobe Campaign Standardで、IMS ユーザーが Standard User および Administrator 製品プロファイルに含まれていることを確認します。 この手順を使用すると、ユーザーはAdobe Campaign Standardにログインし、Experience PlatformSDK モバイルアプリページに移動して、データ収集 UI で作成したモバイルアプリのプロパティを表示できます。
 
-   * Experience Platform Launchで、IMS ユーザーが製品プロファイルに含まれていることをExperience Platform Launchします。
-この手順では、ユーザーはExperience Platform Launchにログインして、プロパティを作成および表示できます。 製品プロファイルの詳細については、「Experience Platform Launchプロファイルの作成」を参照してください。 製品プロファイルには、会社やプロパティに対する権限は設定されていませんが、ユーザーは引き続きログインできます。
+   * データ収集 UI で、IMS ユーザーが製品プロファイルに含まれていることをExperience Platform Launchします。
+この手順では、ユーザーはデータ収集 UI にログインして、プロパティを作成および表示できます。 データ収集 UI の製品プロファイルについて詳しくは、 [製品プロファイルの作成](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/manage-permissions.html?lang=en#gain-admin-rights-for-a-tags-product-profile). 製品プロファイルには、会社やプロパティに対する権限は設定されていませんが、ユーザーは引き続きログインできます。
 
    拡張機能のインストール、アプリの公開、環境の設定などの追加のタスクを完了するには、製品プロファイルに権限を設定する必要があります。
 
-1. Experience Platform Launchで、 **[!UICONTROL Mobile property]**. 詳しくは、[モバイルプロパティの設定](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property)を参照してください。
+1. データ収集 UI で、 **[!UICONTROL Mobile property]**. 詳しくは、[モバイルプロパティの設定](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property)を参照してください。
 
-1. Experience Platform Launchで、 **[!UICONTROL Extensions]** タブ、移動 **[!UICONTROL Catalog]**&#x200B;を検索し、 **[!UICONTROL Adobe Campaign Standard]** 拡張子。 詳しくは、 [Adobe Campaign Standard](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard).
+1. データ収集 UI で、 **[!UICONTROL Extensions]** タブ、移動 **[!UICONTROL Catalog]**&#x200B;を検索し、 **[!UICONTROL Adobe Campaign Standard]** 拡張子。 詳しくは、 [Adobe Campaign Standard](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard).
 
 1. 場所の使用例をサポートするには、Campaign Standardで **[!UICONTROL Places]** 拡張機能と **[!UICONTROL Places Monitor]** 拡張子。
-   * のインストール **[!UICONTROL Places]** Experience Platform Launchの拡張。 この[ページ](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html)を参照してください。
-   * のインストール **[!UICONTROL Places Monitor]** Experience Platform Launchの拡張。 この[ページ](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.html)を参照してください。
+   * のインストール **[!UICONTROL Places]** 拡張機能を使用して、データ収集 UI に追加できます。 この[ページ](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html)を参照してください。
+   * のインストール **[!UICONTROL Places Monitor]** 拡張機能を使用して、データ収集 UI に追加できます。 この[ページ](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.html)を参照してください。
 
-1. Adobe Campaign Standard で、Experience Platform Launch で作成したモバイルプロパティを設定します。参照： [Adobe CampaignでのAdobe Experience Platform Launchアプリケーションの設定](../../administration/using/configuring-a-mobile-application.md#set-up-campaign).
+1. Adobe Campaign Standardで、データ収集 UI で作成したモバイルプロパティを設定します。 参照： [Adobe CampaignでのAdobe Experience Platform Launchアプリケーションの設定](../../administration/using/configuring-a-mobile-application.md#set-up-campaign).
 
 1. モバイルアプリケーションの設定にチャネル固有の設定を追加します。詳しくは、[Adobe Campaign のチャネル固有のアプリケーション設定](../../administration/using/configuring-a-mobile-application.md#channel-specific-config)を参照してください。
 
-1. 必要に応じて、Experience Platform Launchプロパティを削除できます。
-詳しくは、 [Experience Platform Launch・アプリケーションの削除](../../administration/using/configuring-a-mobile-application.md#delete-app).
+1. 必要に応じて、タグプロパティを削除できます。
+詳しくは、 [アプリケーションの削除](../../administration/using/configuring-a-mobile-application.md#delete-app).
 
 ## Launch からのモバイルアプリ AEPSDK の同期テクニカルワークフロー {#aepsdk-workflow}
 
-モバイルプロパティをExperience Platform Launchで作成および設定した後、 **[!UICONTROL Sync Mobile app AEPSDK from Launch]** テクニカルワークフローは、Adobe Campaign Standardで読み込まれたAdobeLaunch モバイルプロパティを同期するようになりました。
+データ収集 UI でモバイルプロパティを作成して設定した後、 **[!UICONTROL Sync Mobile app AEPSDK from Launch]** テクニカルワークフローは、Adobe Campaign Standardで読み込まれたタグモバイルプロパティを同期します。
 
 デフォルトでは、テクニカルワークフローは 15 分ごとに開始されます。 必要に応じて、手動で再起動できます。
 
@@ -76,13 +78,13 @@ Adobe Experience Platform SDK を使用してAdobe Campaign Standardでサポー
 
    ![](assets/launch_11.png)
 
-これで、ワークフローが再起動し、Adobe Campaign Standardで読み込まれたAdobeLaunch モバイルプロパティが同期されます。
+これで、ワークフローが再起動し、Adobe Campaign Standardで読み込まれたタグモバイルプロパティが同期されます。
 
-## Adobe CampaignでのAdobe Experience Platform Launchアプリケーションの設定 {#set-up-campaign}
+## Adobe Campaignでのアプリケーションの設定 {#set-up-campaign}
 
-Campaign でExperience Platform Launchモバイルプロパティを使用するには、Adobe Campaignでもこのプロパティを設定する必要があります。 Adobe Campaignで、IMS ユーザーが Standard User および Administrator 製品プロファイルに含まれていることを確認します。
+Campaign でタグモバイルプロパティを使用するには、Adobe Campaignでもこのプロパティを設定する必要があります。 Adobe Campaignで、IMS ユーザーが Standard User および Administrator 製品プロファイルに含まれていることを確認します。
 
-テクニカルワークフローが実行され、Launch モバイルプロパティがAdobe Campaignに同期されるまで待つ必要があります。 その後、Adobe Campaignで設定できます。
+テクニカルワークフローが実行され、モバイルタグのプロパティがAdobe Campaignに同期されるまで待つ必要があります。 その後、Adobe Campaignで設定できます。
 
 Launch からのモバイルアプリ AEPSDK の同期テクニカルワークフローについて詳しくは、これを参照してください。 [セクション](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow).
 
@@ -94,14 +96,14 @@ Launch からのモバイルアプリ AEPSDK の同期テクニカルワーク�
 
    ![](assets/launch.png)
 
-1. 「Experience Platform Launch」で作成したモバイルアプリケーションを選択します。
+1. データ収集 UI で作成したモバイルアプリを選択します。
 その **[!UICONTROL Property Status]** は、 **[!UICONTROL Ready to configure]**.
 
    >[!NOTE]
    >
-   >デフォルトでは、Campaign Standardは、AdobeLaunch で作成されたモバイルアプリケーションのリストを取得するために、 NmsServer_URL オプションで定義された値を使用して、一致するプロパティを検索します。
+   >デフォルトでは、データ収集 UI で作成されたモバイルアプリケーションのリストを取得するために、Campaign Standardは NmsServer_URL オプションで定義された値を使用して、一致するプロパティを探します。
    >
-   >場合によっては、モバイルアプリケーションの Campaign エンドポイントが NmsServer_URL で定義されたエンドポイントと異なることがあります。 その場合は、 Launch_URL_Campaign オプションでエンドポイントを定義します。 Campaign は、このオプションの値を使用して、Launch で一致するプロパティを検索します。Adobe
+   >場合によっては、モバイルアプリケーションの Campaign エンドポイントが NmsServer_URL で定義されたエンドポイントと異なることがあります。 その場合は、 `Launch_URL_Campaign` オプション。 Campaign は、このオプションの値を使用して、データ収集 UI で一致するプロパティを探します。
 
    ![](assets/launch_4.png)
 
@@ -111,15 +113,15 @@ Launch からのモバイルアプリ AEPSDK の同期テクニカルワーク�
 
    ![](assets/launch_12.png)
 
-1. Campaign とExperience Platform Launchの間で **[!UICONTROL Save]**.
+1. Adobe Experience Platformで Campaign とタグを接続するには、 **[!UICONTROL Save]**.
 
 1. モバイルアプリのステータスが **[!UICONTROL Ready to Configure]** から **[!UICONTROL Configured]**.
 
-   Experience Platform Launchキャンペーン拡張機能でキーが正常に設定されたことが示されたら、Campaign でプロパティが正常に設定されたことを確認することもできます。
+   Campaign 拡張機能でキーが正常に設定されたことが示されたら、Campaign でプロパティが正常に設定されたことを確認することもできます。
 
    ![](assets/launch_5.png)
 
-1. この設定を有効にするには、変更をExperience Platform Launchで公開する必要があります。
+1. この設定を有効にするには、変更をデータ収集 UI で公開する必要があります。
 
    詳しくは、 [公開設定](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#publish-configuration).
 
@@ -129,7 +131,7 @@ Launch からのモバイルアプリ AEPSDK の同期テクニカルワーク�
 
 1. 詳細設定メニューから、 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (AEP SDK)]**.
 
-1. 作成し、「Experience Platform Launch」で設定したモバイルアプリケーションを選択します。
+1. データ収集 UI で作成および設定したモバイルアプリケーションを選択します。
 
 1. の **[!UICONTROL Mobile application properties]** 「 」タブを使用して、モバイルアプリケーションでアプリ内メッセージに使用できるイベントの追加を開始できます。
 
@@ -157,15 +159,13 @@ Launch からのモバイルアプリ AEPSDK の同期テクニカルワーク�
 
 1. 次をクリック： **[!UICONTROL Mobile application subscribers]** 「 」タブを使用して、購読者のリストと、これらの購読者に関するその他の情報（通知をオプトアウトしたかどうかなど）を確認できます。
 
-## Adobe Experience Platform Launchアプリケーションの削除 {#delete-app}
-
-Experience Platform Launchアプリの削除を元に戻すことはできません。
+## アプリケーションの削除 {#delete-app}
 
 >[!CAUTION]
 >
->Experience Platform Launchアプリの削除を元に戻すことはできません。
+>アプリケーションの削除を元に戻すことはできません。
 
-Experience Platform Launch・アプリケーションを削除するには、 [モバイルプロパティの削除](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#deleting-mobile-properties-in-experience-platform-launch).
+アプリケーションを削除するには、 [モバイルプロパティの削除](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#deleting-mobile-properties-in-experience-platform-launch).
 
 アプリケーションを削除した後、Adobe Campaignで、アプリケーションのプロパティのステータスが Launch で正しく「削除済み」に更新されているかどうかを確認します。
 

@@ -9,10 +9,10 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: e61daed6-a0ec-49d8-b1ad-77590fafb496
-source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '1237'
-ht-degree: 49%
+source-wordcount: '1238'
+ht-degree: 41%
 
 ---
 
@@ -63,17 +63,17 @@ Adobe Campaign では、2 つのプッシュ通知を使用できます。
 
 1. Adobe Campaign で、**[!UICONTROL Push notification]** チャネルにアクセスできることを確認します。これらのチャネルにアクセスできない場合は、アカウントチームにお問い合わせください。
 
-1. ユーザーが Adobe Campaign Standard および Experience Platform Launch で必要な権限を持っていることを確認します。
+1. ユーザーがAdobe Campaign Standardで必要な権限を持っていて、Adobe Experience Platformでタグを付けていることを確認します。
 
-1. Experience Platform Launch で、モバイルプロパティを作成します。詳しくは、[モバイルプロパティの設定](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property)を参照してください。
+1. データ収集 UI で、モバイルプロパティを作成します。 詳しくは、[モバイルプロパティの設定](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property)を参照してください。
 
-1. Experience Platform Launch で、**[!UICONTROL Adobe Campaign Standard]** 拡張機能をインストールします。
+1. データ収集 UI で、 **[!UICONTROL Adobe Campaign Standard]** 拡張子。
 
-1. Adobe Campaign Standard で、Experience Platform Launch で作成したモバイルプロパティを設定します。詳しくは、[Adobe Campaign での Experience Platform Launch アプリケーションの設定](../../administration/using/configuring-a-mobile-application.md#set-up-campaign)を参照してください。
+1. Adobe Campaign Standardで、データ収集 UI で作成したモバイルプロパティを設定します。 詳しくは、 [Adobe Campaignでのタグアプリケーションの設定](../../administration/using/configuring-a-mobile-application.md#set-up-campaign).
 
 1. モバイルアプリケーションの設定にチャネル固有の設定を追加します。詳しくは、[Adobe Campaign のチャネル固有のアプリケーション設定](../../administration/using/configuring-a-mobile-application.md#channel-specific-config)を参照してください。
 
-1. モバイル使用例の実装をサポートするには、[Adobe Experience Platform SDK を使用して Adobe Campaign Standard でサポートされるモバイル使用例](../../administration/using/configuring-rules-launch.md)の拡張機能、Experience Platform Launch ルールおよび SDK 実装に関する詳細な手順を参照してください。
+1. モバイルユースケース実装をサポートするには、拡張機能、タグルールおよび SDK 実装に関する詳細な手順 ( [Adobe Experience Platform SDK を使用してAdobe Campaign Standardでサポートされるモバイルの使用例](../../administration/using/configuring-rules-launch.md).
 
 ## プッシュ通知の FAQ {#push-faq}
 

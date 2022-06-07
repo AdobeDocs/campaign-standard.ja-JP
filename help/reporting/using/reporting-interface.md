@@ -8,9 +8,9 @@ feature: Reporting
 role: Leader
 level: Beginner
 exl-id: 37e9acff-9576-472f-9fdf-2c0f6da773d1
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: '717'
 ht-degree: 3%
 
 ---
@@ -115,14 +115,14 @@ ht-degree: 3%
 
       ![](assets/tab_share_4.png)
 
-   1. E メールの受信者を選択するには、「 」フィールドをクリックしてドロップダウンで選択するか、E メールアドレスを入力します。
+   1. ドロップダウンから受信者を選択します。 組織外のユーザーは選択できないことに注意してください。
    1. チェック **[!UICONTROL Show scheduling options]** 繰り返し E メールを送信する場合。 これは、 **[!UICONTROL Send Report on schedule]** 内 **[!UICONTROL Share]** タブをクリックします。
    1. 「**[!UICONTROL Send now]**」をクリックします。その後、受信者に、レポートが添付された電子メールが送信されます。
 
 * **[!UICONTROL Send report on schedule]**:レポートのスケジュールを設定し、受信者に定期的な E メールを送信します。
 
    1. 内 **[!UICONTROL Send report]** ウィンドウで、必要に応じて説明を追加します。
-   1. E メールの受信者を選択するには、「 」フィールドをクリックしてドロップダウンで選択するか、E メールアドレスを入力します。
+   1. ドロップダウンから受信者を選択します。 組織外のユーザーは選択できないことに注意してください。
 
       ![](assets/tab_share_5.png)
 

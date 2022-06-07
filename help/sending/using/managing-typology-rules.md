@@ -9,7 +9,7 @@ feature: Typology Rules
 role: User
 level: Intermediate
 exl-id: 5ef66b1b-1c81-42fb-a18c-fcf7f21e1ff7
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
 source-wordcount: '552'
 ht-degree: 96%
@@ -30,7 +30,7 @@ ht-degree: 96%
 
 タイポロジルールは、**[!UICONTROL Administration]**／**[!UICONTROL Channels]**／**[!UICONTROL Typologies]**／**[!UICONTROL Typology rules]** メニューから利用できます。
 
-デフォルトでは、あらかじめ用意されている&#x200B;**フィルター**&#x200B;および&#x200B;**コントロール**&#x200B;タイポロジルールのいくつかを使用できます。これらの詳細は、[フィルタールール](../../sending/using/fatigue-rules.md)および[コントロールルール](../../sending/using/control-rules.md)の節を参照してください。
+デフォルトでは、あらかじめ用意されている&#x200B;**フィルター**&#x200B;および&#x200B;**コントロール**&#x200B;タイポロジルールのいくつかを使用できます。これらの詳細は、[フィルタールール](../../sending/using/filtering-rules.md)および[コントロールルール](../../sending/using/control-rules.md)の節を参照してください。
 
 必要に応じて、既存のタイポロジルールを変更したり、新規作成できます。ただし、「**[!UICONTROL Control]**」ルールは読み取り専用で、変更はできません。
 

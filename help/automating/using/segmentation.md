@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 3761ee4a-1ce5-4f9e-b2a5-84388b6b9db8
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '851'
-ht-degree: 92%
+source-wordcount: '878'
+ht-degree: 82%
 
 ---
 
@@ -94,8 +94,10 @@ ht-degree: 92%
 1. 手順 6～10 を繰り返して、必要な数のセグメントを追加します。
 1. 必要に応じて、「**[!UICONTROL Advanced options]**」タブのパラメーターを編集します。
 
-   * インバウンド母集団のメンバーを同時に複数のセグメントに割り当てる場合は、「**[!UICONTROL Enable overlapping of outbound populations]**」オプションを選択します。アクティビティのアウトバウンド母集団がインバウンド母集団を超える可能性があります。
-   * 保持したいセグメントコードがインバウンド母集団に既に割り当てられている場合は、「**[!UICONTROL Concatenate the code of each segment]**」オプションを選択します。アクティビティで指定されたセグメントコードが、最初のセグメントコードに追加されます。
-   * 残りの母集団を活用する場合は、「**[!UICONTROL Generate complement]**」オプションを選択します。詳しくは、 [使用例：補集合を含む配信の作成](../../automating/using/workflow-created-query-with-complement.md).
+   * この **[!UICONTROL Enable overlapping of outbound populations]** オプションは、複数のセグメントに属するプロファイルの管理方法を定義します。
+      * このオプションが有効になっていない場合、 **[!UICONTROL Segmentation]** 「 」アクティビティは、プロファイルが複数のサブセットの条件を満たす場合でも、複数の出力トランジションにプロファイルが存在しないことを確認します。
+      * このオプションを有効にすると、プロファイルは、フィルター条件を満たす場合、複数のサブセットに表示されます。
+   * 保持したいセグメントコードがインバウンド母集団に既に割り当てられている場合は、 **[!UICONTROL Concatenate the code of each segment]** オプション。 アクティビティで指定されたセグメントコードが、最初のセグメントコードに追加されます。
+   * 残りの母集団を活用する必要がある場合は、 **[!UICONTROL Generate complement]** オプション。 詳しくは、 [使用例：補集合を含む配信の作成](../../automating/using/workflow-created-query-with-complement.md).
 
 1. アクティビティの設定を確認し、ワークフローを保存します。

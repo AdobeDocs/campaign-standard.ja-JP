@@ -8,9 +8,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d4e1b935-b21f-4a24-99ba-f455db0f7cfc
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '786'
 ht-degree: 24%
 
 ---
@@ -96,9 +96,9 @@ Adobe Campaign Standardでは、次の 3 つのチャネルを使用してモバ
 <tr>
   <td>
     <div>
-    <p><strong>Adobe Campaign Standardの使用例をサポートするためのAdobe Experience Platform Launchルールの設定</strong></p>
+    <p><strong>Adobe Campaign Standardの使用例をサポートするタグルールの設定</strong></p>
     </div>
-    <p><a href="../../administration/using/configuring-rules-launch.md"><strong>ここをクリック</strong></a> :Adobe Experience Platform Launchでデータ要素とルールの作成を開始し、モバイルアプリケーションからAdobe Campaign Standardに PII やその他のデータを送信します。</p>
+    <p><a href="../../administration/using/configuring-rules-launch.md"><strong>ここをクリック</strong></a> ：データ収集 UI でデータ要素とルールの作成を開始し、モバイルアプリケーションからAdobe Campaign Standardに PII やその他のデータを送信します。</p>
     <br>
   </td>
   <td>
