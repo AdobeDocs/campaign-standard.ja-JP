@@ -5,9 +5,9 @@ user-guide-description: 'Campaign Standard の使用に必要な主要な機能�
 title: Campaign Standard ガイド
 breadcrumb-title: Adobe Campaign Standard ドキュメント
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1810'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -452,9 +452,9 @@ ht-degree: 99%
       + [画像とビデオの追加（iOS）](administration/using/image-push-notification.md)
       + [プッシュ通知のペイロード構造について](administration/using/push-payload.md)
       + [ローカル通知トラッキングの実装](administration/using/local-tracking.md)
-      + [Adobe Experience Platform同期 FAQ のタグ](administration/using/syncwithlaunch-faq.md)
+      + [Adobe Experience Platform 同期のタグに関する FAQ](administration/using/syncwithlaunch-faq.md)
       + [Experience Platform SDK 統合に関する FAQ](administration/using/aep-faq.md)
-      + [Adobe Campaign Standardの使用例をサポートするタグルールの設定](administration/using/configuring-rules-launch.md)
+      + [Adobe Campaign Standard のユースケースをサポートするタグルールの設定](administration/using/configuring-rules-launch.md)
       + [Adobe Campaign Standard でサポートされるモバイルのユースケース](administration/using/supported-mobile-use-cases.md)
       + [SDK v4 からAdobe Experience Platform SDK にモバイルアプリケーションを移行する方法](administration/using/sdkv4-migration.md)
    + SMS チャネルの設定 {#configuring-sms}
