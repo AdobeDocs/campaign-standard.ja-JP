@@ -10,8 +10,8 @@ level: Beginner
 exl-id: b62c70fe-c838-4a0e-9b0a-2e916a06ff39
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '777'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -53,7 +53,7 @@ Adobe Campaign Standard は、オンラインとオフラインのマーケテ�
 
 **Campaign の通信チャネルを活用**&#x200B;して、適切な場所（E メール、SMS、プッシュ通知、アプリ内メッセージ、ダイレクトメール、ランディングページ）でマーケティングキャンペーンを配信します。あらゆる種類のメッセージ（トランザクション、繰り返し、多言語メッセージ）用のテンプレートを作成することで、メッセージング戦略全体で効率性と一貫性を確保できます。パーソナライズ機能および動的コンテンツ機能を使用して A/B テストを実行し、オーディエンスの興味を引き付けます。[通信チャネルの概要](../../channels/using/get-started-communication-channels.md)
 
-**Campaign E メールデザイナーを使用して**、個別にカスタマイズした魅力的な E メールメッセージを作成します。新規に作成するか、組み込みのコンテンツフラグメントまたはテンプレートを活用して、レスポンシブデザイン向けに最適化された HTML 形式の E メールをデザインします。[E メールコンテンツデザインの概要](../../designing/using/designing-content-in-adobe-campaign.md)
+**Campaign E メールデザイナーを使用して**、個別にカスタマイズした魅力的な E メールメッセージを作成します。新規に作成するか、ビルトインのコンテンツフラグメントまたはテンプレートを活用して、レスポンシブデザイン向けに最適化された HTML 形式のメールをデザインします。[E メールコンテンツデザインの概要](../../designing/using/designing-content-in-adobe-campaign.md)
 
 **プレビュー、配達確認、E メールの件名のテスト、E メールの処理などの複数のテスト機能を使用して**、送信前にメッセージの内容を分析および確認します。送信時間（スケジュール、タイムゾーン管理）を最適化して、メッセージが適切なタイミングで配信されるようにします。[メッセージのテストと送信の概要](../../sending/using/get-started-sending-messages.md)
 
