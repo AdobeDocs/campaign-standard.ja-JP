@@ -8,9 +8,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: 8b049f7decc95d3959feb0193bf51287422ddaec
+source-git-commit: ab4abe7221c88f2c92e765ba2d158b6fb9c2075f
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '418'
 ht-degree: 99%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 99%
 
 環境のアップデートは、以下に示す期間に順次おこなわれます。正確な日付は、各顧客に E メールで通知されます。
 
-このリリースについて詳しくは、ステージング環境のアップグレード日の早期リリースノートを参照してください。
+このリリースについて詳しくは、[初期のリリースノート](e-release-notes.md)を参照してください。
 
 <table>
  <thead>

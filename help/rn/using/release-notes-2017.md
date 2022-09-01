@@ -1,14 +1,12 @@
 ---
 title: リリースノート 2017
 description: このページでは、Adobe Campaign Standard の 2017 年の全リリースを紹介します。
-audience: rn
-content-type: reference
-topic-tags: campaign-standard-releases
 feature: Overview
 role: User
 level: Beginner
+hidefromtoc: true
 exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
-source-git-commit: 4b0c4fb13cc11c06e2487e531ca96574e49b6beb
+source-git-commit: 177d9e0f8d61c000f01ac5e148dbd98fef0538ff
 workflow-type: tm+mt
 source-wordcount: '4613'
 ht-degree: 7%
@@ -435,7 +433,7 @@ _プッシュ通知_
   </tr> 
   <tr> 
    <td> 目標地点データ<br /> </td> 
-   <td> 目標地点データは、Adobe CampaignとAdobe Analytics for Mobileを統合します。 ブランドは、ユーザーのモバイル場所 ( <strong>目標地点</strong>  — ユーザーがブランドのアプリを開いたとき。 これにより、ブランドはAdobe Campaignのワークフローを活用して、ユーザーの場所に基づいてパーソナライズされたメッセージを送信できます。 このチャネルは、Mobile コアサービスの SDK を利用します。<br /> この機能を使用するには、有料ソリューションであるMobile版 Analytics が必要です。<br /> 詳しくは、 <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">詳細なドキュメント</a>.<br /> </td> 
+   <td> 目標地点データは、Adobe CampaignとAdobe Analytics for Mobile を統合します。 ブランドは、ユーザーのモバイル場所 ( <strong>目標地点</strong>  — ユーザーがブランドのアプリを開いたとき。 これにより、ブランドはAdobe Campaignのワークフローを活用して、ユーザーの場所に基づいてパーソナライズされたメッセージを送信できます。 このチャネルは、Mobile コアサービスの SDK を利用します。<br /> この機能を使用するには、有料ソリューションである Analytics for Mobile が必要です。<br /> 詳しくは、 <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">詳細なドキュメント</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> REST API<br /> </td> 

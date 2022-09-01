@@ -1,14 +1,12 @@
 ---
 title: リリースノート 2019
 description: このページでは、Adobe Campaign Standard の 2019 年の全リリースを紹介します。
-audience: rn
-content-type: reference
-topic-tags: campaign-standard-releases
 feature: Overview
 role: User
 level: Beginner
+hidefromtoc: true
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 177d9e0f8d61c000f01ac5e148dbd98fef0538ff
 workflow-type: tm+mt
 source-wordcount: '7588'
 ht-degree: 9%
@@ -265,13 +263,13 @@ ht-degree: 9%
 * 管理者以外のユーザーがレポートを保存またはスケジュールできない場合がある問題を修正しました。 （CAMP-31133）
 * 「ファイル読み込み」ワークフローアクティビティで日付区切り記号として「|」を使用する際の問題を修正しました。 （CAMP-34706）
 
-## リリース 19.2.4 - 2019 年 6 月 {#release-19-2-4---june-2019}
+## リリース 19.2.4 - 2019年6月 {#release-19-2-4---june-2019}
 
 **E メールデザイナー**
 
 * HTMLで空のスタイルタグが使用されている場合に、フラグメントを編集できない問題を修正しました。 これは、19.2.3 の CAMP-33778のフォローアップ修正です。
 
-## リリース 19.2.3 - 2019 年 6 月 {#release-19-2-3---june-2019}
+## リリース 19.2.3 - 2019年6月 {#release-19-2-3---june-2019}
 
 **E メールデザイナー**
 
