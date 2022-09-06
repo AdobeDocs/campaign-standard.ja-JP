@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: ab4abe7221c88f2c92e765ba2d158b6fb9c2075f
+source-git-commit: 17baeabf1e01c58fe0ecbb03f9d4b45831fbaaf7
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 99%
+source-wordcount: '421'
+ht-degree: 98%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 99%
 
 リリース日は変更される場合があります。定期的にこのページにアクセスして、最新情報を確認してください。
 
-## リリース 22.3 - 2022年9月リリース {#release-22-3-release}
+## リリース 22.3 - 2022 年秋/冬リリース {#release-22-3-release}
 
 環境のアップデートは、以下に示す期間に順次おこなわれます。正確な日付は、各顧客に E メールで通知されます。
 
@@ -41,11 +41,11 @@ ht-degree: 99%
  <tbody>
   <tr>
    <td>ステージング<br /> </td>
-   <td>2022 年 9 月 7 日<br /> </td>
+   <td>2022 年 9 月 8 日～ 2023 年初め<br /> </td>
   </tr>
   <tr>
    <td>実稼動<br /> </td>
-   <td>2022 年 9 月 13～29 日<br /> </td>
+   <td>2022 年 9 月 15 日～ 2023 年初め<br /> </td>
   </tr>
  </tbody>
 </table>
