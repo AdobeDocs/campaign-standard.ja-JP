@@ -6,20 +6,14 @@ role: User
 level: Beginner
 hidefromtoc: true
 exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
-source-git-commit: 177d9e0f8d61c000f01ac5e148dbd98fef0538ff
+source-git-commit: 1a2b2ab8b6d23ca021d196909dc3ebdc02fe4e9e
 workflow-type: tm+mt
-source-wordcount: '4613'
+source-wordcount: '4569'
 ht-degree: 7%
 
 ---
 
 # リリースノート 2017{#release-notes}
-
-2017 年のAdobe Campaign Standardの特定のリリースをお探しですか？
-
-各リリースには、新しい機能とパッチが付属しています。 リリースをクリックすると、その内容が表示されます。
-
-最新の [ドキュメントの更新](../../rn/using/documentation-updates.md) Adobe Campaign Standard 新しいリリースをお探しの場合は、こちらをご覧ください [ページ](../../rn/using/release-notes.md).
 
 ## リリース 17.10 - 2017 年 10 月 {#release-17-10---october-2017}
 

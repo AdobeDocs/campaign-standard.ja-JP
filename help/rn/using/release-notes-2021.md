@@ -8,17 +8,14 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 225c65cc-2964-4b71-84a9-30fcd22d75bf
-source-git-commit: 8f04bb9fa8b47b990f0cd6359ce6569d836a9b64
-workflow-type: ht
-source-wordcount: '4587'
+source-git-commit: 1a2b2ab8b6d23ca021d196909dc3ebdc02fe4e9e
+workflow-type: tm+mt
+source-wordcount: '4569'
 ht-degree: 100%
 
 ---
 
 # リリースノート 2021{#release-notes-2021}
-
-[リリース計画](../../rn/using/release-planning.md) | [コントロールパネルのリリース](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ja) | [ドキュメントの更新](../../rn/using/documentation-updates.md) | [以前のリリースノート](../../rn/using/release-notes-2020.md) | [非推奨（廃止予定）の機能](../../rn/using/deprecated-features.md)
-
 
 ## リリース 21.3 - 2021 年 9 月 {#release-21-3---sept-2021}
 

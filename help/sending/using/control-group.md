@@ -9,10 +9,10 @@ feature: Control Groups
 role: User
 level: Intermediate
 exl-id: 553897d4-2652-453f-960e-bb2993889f37
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 9bfae9e956fa86254578eda821aedd240c81288c
 workflow-type: tm+mt
-source-wordcount: '1332'
-ht-degree: 100%
+source-wordcount: '1300'
+ht-degree: 98%
 
 ---
 
@@ -155,7 +155,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Adobe Campaign に接続するには、[管理者の役割](../../administration/using/users-management.md#functional-administrators)が割り当てられており、**[!UICONTROL All]**[&#x200B;組織単位](../../administration/using/organizational-units.md)の一部である必要があります。特定のユーザーまたはユーザーグループに対するアクセスを制限する場合は、配信ログにアクセスできる **[!UICONTROL All]** 単位にこれらのユーザーを関連付けないでください。
+>配信ログにアクセスするには、 [管理者の役割](../../administration/using/users-management.md#functional-administrators) そして、その一部になる **[!UICONTROL All]** [組織単位](../../administration/using/organizational-units.md). <!--If you would like to restrict access for a particular user or group of users, do not link it to **[!UICONTROL All]** units.-->
 
 ### 配信ログの確認 {#checking-logs}
 

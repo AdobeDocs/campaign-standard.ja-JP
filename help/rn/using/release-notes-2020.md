@@ -8,18 +8,16 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
-source-git-commit: df7fce6f2fd98688e5a1fb5bc84603e6b3df5cd4
+source-git-commit: 1a2b2ab8b6d23ca021d196909dc3ebdc02fe4e9e
 workflow-type: tm+mt
-source-wordcount: '5297'
+source-wordcount: '5267'
 ht-degree: 98%
 
 ---
 
 # リリースノート 2020{#release-notes-2020}
 
-[リリース計画](https://helpx.adobe.com/jp/campaign/kb/acs-release-planning.html) | [コントロールパネルのリリース](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ja) | [ドキュメントの更新](../../rn/using/documentation-updates.md) | [以前のリリースノート](../../rn/using/release-notes-2019.md) | [非推奨（廃止予定）の機能](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=ja)
-
-![](assets/do-not-localize/cp-icon.png) **新しいコントロールパネル 6 月のリリース** - アクティブなプロファイルの監視、サブドメイン配信品質の監査、GPG キー管理。[詳細情報](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html)。
+![](assets/do-not-localize/cp-icon.png) **新しいコントロールパネル 6 月のリリース** - アクティブなプロファイルの監視、サブドメイン配信品質の監査、GPG キー管理。[詳細情報](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ja)。
 
 ![](assets/do-not-localize/cp-icon.png) **10 月の新しい Campaign コントロールパネルリリース**&#x200B;で、CNAME を使用したドメイン設定と新しいデータベース監視機能が追加されました。[詳細情報](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html)。
 
@@ -378,15 +376,15 @@ ht-degree: 98%
 * 複数のインバウンドトランジションを含んだアクティビティの実行時にワークフローで生じる可能性がある問題を修正しました。
 * 標準ユーザーがワークフローのクエリまたは配信で「アプリケーションの購読」をターゲットディメンションとして使用できない問題を修正しました。（CAMP-37618）
 
-## リリース 20.1.4 - 2020 年 2 月 {#release-20-1-4---february-2020}
+## リリース 20.1.4 - 2020年2月 {#release-20-1-4---february-2020}
 
 * 既存のワークフローで「**オーディエンスの閲覧**」アクティビティを開く際の問題を修正しました。（CAMP-41002）
 
-## リリース 20.1.3 - 2020 年 2 月 {#release-20-1-3---february-2020}
+## リリース 20.1.3 - 2020年2月 {#release-20-1-3---february-2020}
 
 * ループホール使用に対処する CAMP-39273 が原因で 20.1 リリースに発生するようになった回帰の問題を修正しました。CAMP-39273 による修正は元に戻されました。
 
-## リリース 20.1.2 - 2020 年 2 月 {#release-20-1-2---february-2020}
+## リリース 20.1.2 - 2020年2月 {#release-20-1-2---february-2020}
 
 **E メールデザイナーの機能強化**
 

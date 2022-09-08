@@ -6,16 +6,14 @@ role: User
 level: Beginner
 hidefromtoc: true
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
-source-git-commit: 177d9e0f8d61c000f01ac5e148dbd98fef0538ff
+source-git-commit: 1a2b2ab8b6d23ca021d196909dc3ebdc02fe4e9e
 workflow-type: tm+mt
-source-wordcount: '7588'
+source-wordcount: '7558'
 ht-degree: 9%
 
 ---
 
 # リリースノート 2019{#release-notes-2019}
-
-[リリース計画](https://helpx.adobe.com/jp/campaign/kb/acs-release-planning.html) | [Campaign コントロールパネルリリース](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ja) | [ドキュメントの更新](../../rn/using/documentation-updates.md) | [最新のリリースノート](../../rn/using/release-notes.md) | [廃止された機能](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=ja)
 
 ## リリース 19.4 - 2019 年 12 月 {#release-19-4---october-2019}
 
@@ -33,7 +31,7 @@ ht-degree: 9%
    <p>Adobe Campaignで既に利用可能なプライバシー機能（同意管理、データ保持設定、ユーザーの役割など）に加えて、CCPA に備えるのに役立つ機能を追加する予定です。</p>
    <ul>
     <li>アクセス権と削除権：GDPR 用に追加された機能を活用します。<a href="https://helpx.adobe.com/content/help/jp/campaign/kb/acs-privacy.html#righttoaccess">詳細情報</a> </li>
-    <li><p>プライバシーリクエストを作成する際のプライバシーコアサービスに、規制のタイプ（GDPR または CCPA）が追加されました。 すべてのアクセス要求と削除要求に対して、このメソッドを使用する必要があります。アクセス要求および削除要求に対する Campaign API およびインターフェイスの使用は廃止されています。<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">廃止および削除された機能の記事</a>を参照してください。</p></li>
+    <li><p>プライバシーリクエストを作成する際のプライバシーコアサービスに、規制のタイプ（GDPR または CCPA）が追加されました。 すべてのアクセス要求と削除要求に対して、このメソッドを使用する必要があります。アクセス要求および削除要求に対する Campaign API およびインターフェイスの使用は廃止されています。<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=ja">廃止および削除された機能の記事</a>を参照してください。</p></li>
     <li>A <strong>CCPA オプトアウト</strong> ユーザーが個人情報の販売をオプトアウトしたかどうかをAdobe Campaignユーザーが追跡できるように、プロファイルリソースにフィールドが追加されました。 <a href="https://helpx.adobe.com/jp/campaign/kb/acs-privacy.html#ccpa">詳細情報</a>。</li>
   </ul>
     <p><a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">ハウツービデオ</a>を参照してください。</p>

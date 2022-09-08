@@ -4,16 +4,43 @@ description: このページでは、Adobe Campaign Standard の 2022 年の全�
 feature: Overview
 role: User
 level: Beginner
-source-git-commit: 1d1869a6c503773f4aaecb6a77f1b72585c88865
+source-git-commit: 20a59e064afeb93a2a6260439b09790692971071
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 100%
+source-wordcount: '1098'
+ht-degree: 97%
 
 ---
 
 # リリースノート 2022{#release-notes-2022}
 
-[リリース計画](../../rn/using/release-planning.md) | [コントロールパネルのリリース](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ja) | [ドキュメントの更新](../../rn/using/documentation-updates.md) | [以前のリリースノート](../../rn/using/release-notes-2020.md) | [非推奨（廃止予定）の機能](../../rn/using/deprecated-features.md)
+## リリース 22.2 - 2022年6月 {#june-2022}
+
+**改善点**
+
+* **アドビ通知サービス** - Experience Cloud ソリューションは、Campaign に搭載されているアドビ通知サービスを使用して、ユーザーが把握しておくべき重要なアクティビティに関して Experience Cloud のどこからでもユーザーにアラートを表示できます。バージョン 22.2 以降、ユーザーエクスペリエンスが向上しました。通知が優先され、製品から生成される通知は、ステータスに応じたアドビからのお知らせとは別に表示されます。さらに、通知で特定のワークフローが参照されている場合、メール通知または製品内通知から直接、対応するワークフローにアクセスできるようになりました。Adobe Campaign 通知について詳しくは、[Adobe Campaign 通知](../../administration/using/sending-internal-notifications.md)を参照してください。
+
+<!--
+* **Optimization in Workflow startup** - Adobe has added a new capability which can tune the number of workflows that start around the same time. This would help prevent CPU spikes that could have led to service interruptions or downtime. Adobe would enable it after 22.2 release. There is no further action item on customer regarding the same.
+-->
+
+* **アクセシビリティ** - アプリケーションの全体的な使いやすさを改善するために、アクセシビリティに関する多くの修正を行いました。これらの機能は現在、一連のアーリーアダプターに対してのみ有効になっており、今後のリリースですべてのお客様に展開される予定です。 アクセシビリティの向上には、例えば次のものがあります。
+
+   * 各画面のフォーカス可能な要素に対するフォーカスインジケーターの確実な表示
+   * ナビゲーションを容易にするためのページランドマークの作成
+   * 多くのコントロールの名前、役割、値、状態の追加
+   * メイン画面のダイナミックフォーカス順序で発生した問題の修正
+
+
+**パッチ**
+
+* キーの重複エラーによる請求テクニカルワークフローの問題を修正しました。（CAMP-51029）
+* 欠落していた Microsoft Edge ブラウザーカテゴリをトラッキングレポートに追加しました。以前は、Microsoft Chrome のオープンに分類されていました。（CAMP-51165）
+* GDPR リクエストで子テーブルからデータが削除されない問題を修正しました。（CAMP-48276）
+* 電子メールデザイナーでフラグメントの表示条件がトランザクションメッセージテンプレートに保存されない原因となる問題を修正しました。（CAMP-50338）
+* Campaign レポートで日付範囲が考慮されない原因となる問題を修正しました。（CAMP-50991）
+* スケジュールされたメールが失敗するエラーを修正しました。配信ステータスが「再試行待ち」のままであったことが原因で、配信分析を開始できませんでした。（CAMP-50302）
+* 電子メールデザイナーでプロファイルの置き換えを使用してメールをプレビューする際の問題を修正しました。（CAMP-49312）
+* カスタム列挙の空の値に関する問題を修正しました。値が 1 つしかないテキスト列挙フィールドでカスタムリソースを作成する場合、この値がデフォルトで設定され、このフィールドに単純なリクエストとしてクエリを作成できるようになりました。（CAMP-50606）
 
 
 ## リリース 22.1 - 2022年2月 {#feb-2022}

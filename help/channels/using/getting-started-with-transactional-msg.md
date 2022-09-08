@@ -9,18 +9,14 @@ feature: Transactional Messaging
 role: User
 level: Beginner
 exl-id: 49fba1af-3c99-45b7-bcbb-b9b9678eedcd
-source-git-commit: 0538958289ce19982889f76ed195090a8455fdeb
+source-git-commit: 0e486e87c94e273442de23d6eb65c99f065e5a71
 workflow-type: tm+mt
-source-wordcount: '963'
-ht-degree: 31%
+source-wordcount: '988'
+ht-degree: 30%
 
 ---
 
 # トランザクションメッセージの基本を学ぶ {#getting-started-with-transactional-messaging}
-
-## 概要 {#overview}
-
-<img src="assets/do-not-localize/icon_transactional.svg" width="60px">
 
 トランザクションメッセージは web サイトなどのプロバイダーがリアルタイムに送信する、個々に向けたユニークなコミュニケーションです。受信者が確認したい重要な情報が含まれているので、早い送信が特に期待されます。
 
@@ -93,9 +89,9 @@ Adobe Campaignでパーソナライズされたトランザクションメッセ
 
 <!--<img src="assets/do-not-localize/icon_config.svg" width="60px">-->
 
-| ユーザー | アクション | 結果 |
-|--- |--- |--- |
-| この手順は、管理者が保留中の状態で実行する必要があります [管理権限](../../administration/using/users-management.md#functional-administrators). | 「買い物かごの放棄」という名前のイベントを設定し、このイベント設定を公開します。 | Web サイト開発者が使用する API がデプロイされ、トランザクションメッセージが自動的に作成されます。 |
+| イベントの作成 | ユーザー | アクション | 結果 |
+| --- |--- |--- |--- |
+| <img src="assets/do-not-localize/icon_config.svg" width="60px"> | この手順は、管理者が保留中の状態で実行する必要があります [管理権限](../../administration/using/users-management.md#functional-administrators). | 「買い物かごの放棄」という名前のイベントを設定し、このイベント設定を公開します。 | Web サイト開発者が使用する API がデプロイされ、トランザクションメッセージが自動的に作成されます。 |
 
 イベントの作成と公開について詳しくは、 [トランザクションイベントの設定](../../channels/using/configuring-transactional-event.md) および [トランザクションイベントの公開](../../channels/using/publishing-transactional-event.md) セクション。
 
@@ -103,9 +99,9 @@ Adobe Campaignでパーソナライズされたトランザクションメッセ
 
 <!--<img src="assets/do-not-localize/icon_notification.svg" width="40px">-->
 
-| ユーザー | アクション | 結果 |
-|--- |--- |--- |
-| この手順は、 [管理権限](../../administration/using/users-management.md#functional-administrators). | トランザクションメッセージを編集およびパーソナライズし、テストして公開します。 | これで、トランザクションメッセージを送信する準備が整います。 |
+| メッセージを編集 | ユーザー | アクション | 結果 |
+| --- |--- |--- |--- |
+| <img src="assets/do-not-localize/icon_notification.svg" width="40px"> | この手順は、 [管理権限](../../administration/using/users-management.md#functional-administrators). | トランザクションメッセージを編集およびパーソナライズし、テストして公開します。 | これで、トランザクションメッセージを送信する準備が整います。 |
 
 トランザクションメッセージの編集と公開について詳しくは、 [トランザクションメッセージの編集](../../channels/using/editing-transactional-message.md) および [トランザクションメッセージのライフサイクル](../../channels/using/publishing-transactional-message.md).
 
@@ -113,13 +109,11 @@ Adobe Campaignでパーソナライズされたトランザクションメッセ
 
 <!--<img src="assets/do-not-localize/icon_api.svg" width="55px">-->
 
-<!--**Event triggering integration**-->
-
-| ユーザー | アクション | 結果 |
-|--- |--- |--- |
-| この手順は、Web サイトの開発者が実行します。 | REST トランザクションメッセージ API を使用して、イベントを Web サイトに統合します。 | イベントは、クライアントが買い物かごを放棄したときにトリガーされます。 |
-
 イベントを作成したら、このイベントの発生原因を Web サイトに統合する必要があります。<!--In this example, you want a "Cart abandonment" event to be triggered whenever one of your clients leaves your website before purchasing the products in their cart.--> これをおこなうには、Web サイトの Web デベロッパーが **Adobe Campaign Standard REST API**.
+
+| トリガー | ユーザー | アクション | 結果 |
+| --- |--- |--- |--- |
+| <img src="assets/do-not-localize/icon_api.svg" width="55px"> | この手順は、Web サイトの開発者が実行します。 | REST トランザクションメッセージ API を使用して、イベントを Web サイトに統合します。 | イベントは、クライアントが買い物かごを放棄したときにトリガーされます。 |
 
 トランザクションメッセージの管理に Campaign REST API を使用する方法について詳しくは、 [REST API ドキュメント](../../api/using/managing-transactional-messages.md).
 
@@ -127,9 +121,11 @@ Adobe Campaignでパーソナライズされたトランザクションメッセ
 
 <!--<img src="assets/do-not-localize/icon_channels.svg" width="60px">-->
 
-これらの手順がすべて実行されたら、メッセージを配信できます。
+上記の手順をすべて実行したら、メッセージを配信できます。
 
-ユーザーが買い物かごで製品を注文せずにサイトを離れると、対応する Campaign イベントがトリガーされます。 ユーザーは通知 E メールを自動的に受信します。
+| メッセージを配信 | ユーザー | アクション | 結果 |
+| --- |--- |--- |--- |
+| <img src="assets/do-not-localize/icon_channels.svg" width="60px"> | この手順は、Web サイトを訪問した顧客が実行します。 | ユーザーが買い物かごで製品を注文せずにサイトを離れると、対応する Campaign イベントがトリガーされます。 | ユーザーは通知 E メールを自動的に受信します。 |
 
 ## 関連トピック
 

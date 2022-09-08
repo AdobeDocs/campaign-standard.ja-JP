@@ -6,20 +6,14 @@ role: User
 level: Beginner
 hidefromtoc: true
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
-source-git-commit: 177d9e0f8d61c000f01ac5e148dbd98fef0538ff
+source-git-commit: 1a2b2ab8b6d23ca021d196909dc3ebdc02fe4e9e
 workflow-type: tm+mt
-source-wordcount: '5401'
+source-wordcount: '5357'
 ht-degree: 7%
 
 ---
 
 # リリースノート 2018{#release-notes}
-
-2018 年のAdobe Campaign Standardの特定のリリースをお探しですか？
-
-各リリースには、新しい機能とパッチが付属しています。 リリースをクリックすると、その内容が表示されます。
-
-最新の [ドキュメントの更新](../../rn/using/documentation-updates.md) Adobe Campaign Standard 新しいリリースをお探しの場合は、こちらをご覧ください [ページ](../../rn/using/release-notes.md).
 
 ## リリース 18.9 - 2018 年 9 月 {#release-18-9---september-2018}
 
@@ -71,7 +65,7 @@ ht-degree: 7%
 * ワークフローで、ファイル転送アクティビティを使用する際に、SFTP URL を使用して外部アカウントを設定できない問題を修正しました。 （CAMP-26475）
 * サービスの概要レポートが更新されない問題を修正しました。 （CAMP-26301）
 * エンリッチメントアクティビティを使用する際のワークフローで、カスタムフィールドに正しい日付が表示されない問題を修正しました。 （CAMP-26242）
-* ファイルのインポートによってインポートした場合に、サービスの購読日が更新されない問題を修正しました。
+* ファイルのインポートによってインポートした場合に、サービスの購読登録日が更新されない問題を修正しました。
 * ファイルの読み込みアクティビティで、ワークフローがファイルを読み込めないエラーを修正しました (CAMP-27068)。
 * サービスの概要レポートで、間違った購読数が表示されていた問題を修正しました (CAMP-25587)。
 * Adobe AnalyticsとAdobe Campaignのレポートでデータに相違が生じる問題を修正しました。 （CAMP-25393）
