@@ -8,9 +8,9 @@ feature: Privacy
 role: User
 level: Intermediate
 exl-id: 84cf8f6e-9ba0-4cd5-80e2-a61cefa31e0a
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
-workflow-type: tm+mt
-source-wordcount: '963'
+source-git-commit: ede4bd97ffddca4a5e24f1e4114d50ca5140a01d
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
@@ -68,7 +68,7 @@ Adobe Campaign の機能により、次の規制を遵守できるようにな�
 
 * データ消去としても知られている「**忘れられる権利**」（削除要求）は、データ主体がデータコントローラーに個人データを消去させ、データのさらなる拡散を中止させ、第三者にデータ処理を停止させることができる権利です。
 
-**アクセス**&#x200B;要求と&#x200B;**削除**&#x200B;要求の作成方法、および Adobe Campaign によるリクエストの処理方法については、[実装手順](../../start/using/privacy-requests.md#about-privacy-requests)を参照してください。
+**アクセス**&#x200B;リクエストと&#x200B;**削除**&#x200B;リクエストの作成方法、および Adobe Campaign によるリクエストの処理方法については、[実装手順](../../start/using/privacy-requests.md#about-privacy-requests)を参照してください。
 
 Campaign Standard のプライバシー管理に関するチュートリアルについては、[こちら](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=ja#privacy)を参照してください。
 
@@ -81,7 +81,7 @@ Campaign Standard のプライバシー管理に関するチュートリアル�
 新しく導入された&#x200B;**アクセスする権利**&#x200B;と&#x200B;**忘れられる権利**&#x200B;の他にも、Adobe Campaign はプライバシーに必要な重要機能を各種用意しています。
 
 * [同意管理](#consent-management)：環境設定管理用の購読機能
-* [データ保持](#data-retention)：すべての標準ログテーブルのデータ保持期間。保持期間の追加はワークフローで設定可能
+* [データ保持](../../administration/using/data-retention.md)：すべての標準ログテーブルのデータ保持期間。保持期間の追加はワークフローで設定可能
 * [権限管理](#rights-management)：ネームド権限により管理されるデータアクセス
 
 ### 同意管理 {#consent-management}
@@ -95,27 +95,6 @@ Campaign Standard のプライバシー管理に関するチュートリアル�
 同意管理について詳しくは、[購読について](../../audiences/using/about-subscriptions.md)および[ランディングページの使用を開始する](../../channels/using/getting-started-with-landing-pages.md)を参照してください。
 
 Adobe Campaign が提供する同意管理ツールに加えて、消費者が個人情報の販売をオプトアウトしたかどうかをトラッキングすることもできます。[この節](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa)を参照してください。
-
-### データ保持 {#data-retention}
-
-Campaign の組み込みログテーブルには保持期間がプリセットされており、通常はデータ保存期間が 6 か月以内に制限されています。
-
-組み込みテーブルのデフォルトの保持期間は以下のとおりです。リテンションは実装時にアドビの技術管理者が設定します。値は顧客の要件に基づくため、実装環境によって異なる場合があります。
-
-* **統合されたトラッキング**：6 か月
-* **配信ログ**：6 か月
-* **トラッキングログ**：6 か月
-* **イベント**：1 ヶ月
-* **イベント処理の統計**：6 か月
-* **アーカイブしたイベント**：6 か月
-* **臨時の事業者**：7 日間
-* **無視されたパイプラインイベント**：1 ヶ月
-* **配信アラート**：1 ヶ月
-* **書き出しの監査**：6 か月
-
-削除の場合と同様、標準ワークフロー機能を使用して、任意のカスタムテーブルのリテンション期間を設定することができます。
-
-リテンションの詳細について知りたい場合、またはカスタムテーブルの設定が必要な場合は、アドビのコンサルタントまたは技術管理者にお問い合わせください。
 
 ### 権限管理 {#rights-management}
 
