@@ -1,7 +1,7 @@
 ---
 audience: end-user
 user-guide-title: Campaign Standard
-user-guide-description: 'Campaign Standard の使用に必要な主要な機能、タスク、設定、その他のリソースに関するヘルプセンター。 '
+user-guide-description: Campaign Standard の使用に必要な主要な機能、タスク、設定、その他のリソースに関するヘルプセンター。
 title: Campaign Standard ガイド
 breadcrumb-title: Adobe Campaign Standard ドキュメント
 source-git-commit: 1d1869a6c503773f4aaecb6a77f1b72585c88865
