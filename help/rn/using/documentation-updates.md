@@ -5,16 +5,23 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 9000b7737e8579aa2389d517d83fde958d8945fe
+source-git-commit: 5814bf107a252793911cd34c0dceed35ce58bf69
 workflow-type: tm+mt
-source-wordcount: '7221'
-ht-degree: 100%
+source-wordcount: '7251'
+ht-degree: 99%
 
 ---
 
 # ドキュメントの更新{#documentation-updates}
 
 このページでは、Adobe Campaign の[リリースノート](../../rn/using/release-notes.md)に加えて、Adobe Campaign Standard のドキュメントの新規更新をすべて紹介します。
+
+## リリース 22.3 - 2022 年秋/冬 {#release-22-3}
+
+Campaign Standard22.3 の秋/冬リリースのリリースノートが公開されました。 [詳細情報](release-notes.md)
+
+データ保持期間が更新され、22.3 リリースでの変更が反映されました。 [詳細情報](../../administration/using/data-retention.md)
+
 
 ## リリース 22.2 - 2022年6月 {#release-22-2}
 
