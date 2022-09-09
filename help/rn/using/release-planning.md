@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: 17baeabf1e01c58fe0ecbb03f9d4b45831fbaaf7
+source-git-commit: bba1461acf0db47fd2eefca30f5e759c503a6dc7
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 98%
+source-wordcount: '420'
+ht-degree: 95%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 98%
 
 環境のアップデートは、以下に示す期間に順次おこなわれます。正確な日付は、各顧客に E メールで通知されます。
 
-このリリースについて詳しくは、[初期のリリースノート](e-release-notes.md)を参照してください。
+このリリースの詳細については、 [リリースノート](release-notes.md).
 
 <table>
  <thead>
