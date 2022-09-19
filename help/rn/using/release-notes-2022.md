@@ -1,13 +1,13 @@
 ---
 title: リリースノート 2022
-description: このページでは、Adobe Campaign Standard の 2022 年の全リリースを紹介します。
+description: このページでは、Adobe Campaign Standard の 2022年の全リリースを紹介します。
 feature: Overview
 role: User
 level: Beginner
 source-git-commit: 20a59e064afeb93a2a6260439b09790692971071
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1098'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 97%
 * **Optimization in Workflow startup** - Adobe has added a new capability which can tune the number of workflows that start around the same time. This would help prevent CPU spikes that could have led to service interruptions or downtime. Adobe would enable it after 22.2 release. There is no further action item on customer regarding the same.
 -->
 
-* **アクセシビリティ** - アプリケーションの全体的な使いやすさを改善するために、アクセシビリティに関する多くの修正を行いました。これらの機能は現在、一連のアーリーアダプターに対してのみ有効になっており、今後のリリースですべてのお客様に展開される予定です。 アクセシビリティの向上には、例えば次のものがあります。
+* **アクセシビリティ** - アプリケーションの全体的な使いやすさを改善するために、アクセシビリティに関する多くの修正を行いました。これらの機能は、現在、一部の早期導入ユーザーに対してのみ有効になっており、将来のリリースですべてのお客様にロールアウトされる予定です。アクセシビリティの向上には、例えば次のものがあります。
 
    * 各画面のフォーカス可能な要素に対するフォーカスインジケーターの確実な表示
    * ナビゲーションを容易にするためのページランドマークの作成
