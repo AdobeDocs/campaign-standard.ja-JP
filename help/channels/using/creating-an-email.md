@@ -8,9 +8,9 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 4483e469-0a2b-494d-b768-950168759727
-source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
+source-git-commit: add823f51b0907628ed52cb2f4453743bc939cbf
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '531'
 ht-degree: 20%
 
 ---
@@ -31,7 +31,9 @@ ht-degree: 20%
    >
    >フォローアップおよび A/B テストテンプレートは、デフォルトで非表示になっています。左側のチェックボックスをオンにします ( **[!UICONTROL Filter]** 横置きパネルを参照 )。
 
-1. E メールの一般的なプロパティを入力します。 名前は **ラベル** 「 」フィールドを開き、ID を編集します。 アクティビティ名とアクティビティ ID は両方ともインターフェイスに表示されますが、メッセージ受信者には表示されません。
+1. E メールの一般的なプロパティを入力します。 名前は **ラベル** 「 」フィールドを開き、ID を編集します。
+
+   {{$include /help/_includes/channel-activities-name-id-fields.md}}
 
    キャンペーンコンテンツに表示される説明を追加できます。
 
