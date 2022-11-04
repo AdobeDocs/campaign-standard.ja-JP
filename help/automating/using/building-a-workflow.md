@@ -9,9 +9,9 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 7553588c-4679-4dfd-93cb-e705ad4dc0aa
-source-git-commit: add823f51b0907628ed52cb2f4453743bc939cbf
+source-git-commit: 708bdc1d5dc1c30d609ba0fa1c17debe403afd72
 workflow-type: tm+mt
-source-wordcount: '964'
+source-wordcount: '983'
 ht-degree: 96%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 96%
 
    ![](assets/workflow_creation_2.png)
 
-   「**Label**」フィールドに名前を入力し、「ID」を変更することができます。
+   「**Label**」フィールドに名前を入力し、「ID」を変更することができます。アクティビティ名とアクティビティ ID はインターフェイスに表示されますが、メッセージ受信者には表示されません。
 
    >[!NOTE]
    >

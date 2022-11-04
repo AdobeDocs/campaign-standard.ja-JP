@@ -9,7 +9,7 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: 41b83014-aea9-4ec2-b20e-c0a05bcad503
-source-git-commit: add823f51b0907628ed52cb2f4453743bc939cbf
+source-git-commit: 708bdc1d5dc1c30d609ba0fa1c17debe403afd72
 workflow-type: tm+mt
 source-wordcount: '852'
 ht-degree: 4%
@@ -45,8 +45,6 @@ Adobe Campaignでプッシュ通知を作成する手順は、次のとおりで
 1. プッシュ通知のプロパティを入力し、 **[!UICONTROL Associate a Mobile App to a delivery]** フィールドに入力します。
 
    このドロップダウンには、SDK V4 とExperience PlatformSDK の両方のアプリケーションが表示されます。
-
-   {{$include /help/_includes/channel-activities-name-id-fields.md}}
 
    ![](assets/push_notif_properties.png)
 

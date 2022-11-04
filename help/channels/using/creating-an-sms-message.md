@@ -9,9 +9,9 @@ feature: SMS
 role: User
 level: Beginner
 exl-id: 36442480-c6b6-4b7d-b566-40169a7c8544
-source-git-commit: add823f51b0907628ed52cb2f4453743bc939cbf
+source-git-commit: 708bdc1d5dc1c30d609ba0fa1c17debe403afd72
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '538'
 ht-degree: 96%
 
 ---
@@ -43,9 +43,9 @@ SMS メッセージを作成して携帯電話に送信するには、次のも�
 
 1. SMS の一般的なプロパティを入力します。
 
-   {{$include /help/_includes/channel-activities-name-id-fields.md}}
-
    ![](assets/sms_creation_2.png)
+
+   アクティビティラベルとその ID は両方ともインターフェイスに表示されますが、メッセージ受信者には表示されません。
 
 1. ターゲットとするオーディエンスを指定します。既存のオーディエンスを選択するか、ルールを定義および組み合わせて母集団を直接ターゲットにすることができます。
 
