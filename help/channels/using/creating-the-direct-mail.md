@@ -9,10 +9,10 @@ feature: Direct Mail
 role: User
 level: Intermediate
 exl-id: 3e94c872-bf44-4d4c-b6eb-7731021c7931
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: d234d7fab039b602eff06c03ba0d8f7ce2a0cf3f
 workflow-type: tm+mt
-source-wordcount: '593'
-ht-degree: 95%
+source-wordcount: '636'
+ht-degree: 88%
 
 ---
 
@@ -35,6 +35,12 @@ ht-degree: 95%
 1. 配信の一般的なプロパティを入力します。
 
    ![](assets/direct_mail_3.png)
+
+   >[!NOTE]
+   >
+   >アクティビティ名とアクティビティ ID は両方ともインターフェイスに表示されますが、メッセージ受信者には表示されません。
+   >
+   >例えば、Adobe Analyticsとの統合時など、不一致が生じるのを避けるために、ID フィールドに空白を含めないようにしてください。
 
 1. 抽出ファイルに含めるオーディエンスと、テストおよびトラッププロファイルを定義します。[ダイレクトメールオーディエンスの定義](../../channels/using/defining-the-direct-mail-audience.md)を参照してください。
 

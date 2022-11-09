@@ -9,10 +9,10 @@ feature: SMS
 role: User
 level: Beginner
 exl-id: 36442480-c6b6-4b7d-b566-40169a7c8544
-source-git-commit: 708bdc1d5dc1c30d609ba0fa1c17debe403afd72
+source-git-commit: d234d7fab039b602eff06c03ba0d8f7ce2a0cf3f
 workflow-type: tm+mt
-source-wordcount: '538'
-ht-degree: 96%
+source-wordcount: '561'
+ht-degree: 89%
 
 ---
 
@@ -45,7 +45,11 @@ SMS メッセージを作成して携帯電話に送信するには、次のも�
 
    ![](assets/sms_creation_2.png)
 
-   アクティビティラベルとその ID は両方ともインターフェイスに表示されますが、メッセージ受信者には表示されません。
+   >[!NOTE]
+   >
+   >アクティビティ名とアクティビティ ID は両方ともインターフェイスに表示されますが、メッセージ受信者には表示されません。
+   >
+   >例えば、Adobe Analyticsとの統合時など、不一致が生じるのを避けるために、ID フィールドに空白を含めないようにしてください。
 
 1. ターゲットとするオーディエンスを指定します。既存のオーディエンスを選択するか、ルールを定義および組み合わせて母集団を直接ターゲットにすることができます。
 

@@ -8,7 +8,7 @@ feature: Email
 role: User
 level: Intermediate
 exl-id: fcf192cb-f2d5-4340-bc2f-add0c195ad4e
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: d234d7fab039b602eff06c03ba0d8f7ce2a0cf3f
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 24%
@@ -28,6 +28,7 @@ ht-degree: 24%
    ![](assets/multi_create1.png)
 
 1. 通常の E メールと同様に、E メールの一般的なプロパティとターゲットオーディエンスを定義します。[オーディエンスの作成](../../audiences/using/creating-audiences.md)の節を参照してください。
+
 1. 作成ウィザードの 4 番目の手順で、バリアントオプションを定義します。 この [多言語テンプレート](../../channels/using/multilingual-messages-template.md) には、すべての適切なパラメーターが含まれています。 **[!UICONTROL Create]** 」ボタンをクリックします。
 
    ![](assets/multi_create4.png)
