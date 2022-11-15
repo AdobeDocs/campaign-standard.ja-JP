@@ -54,7 +54,7 @@ ht-degree: 9%
       <tr>
          <td>ブランディング (brandingBase)</td>
          <td>ブランド</td>
-         <td>link </td>
+         <td>リンク </td>
          <td> </td>
       </tr>
       <tr>

@@ -11,7 +11,7 @@ exl-id: 57e85f8e-65b4-44ea-98e6-0c555acf6dee
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '911'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -56,7 +56,7 @@ OAuth アクセストークンを生成するには、次の手順に従いま�
    * 名前：adobe campaign `<stage or prod>`
    * サポートされるアカウントのタイプ： **[!UICONTROL Accounts in this organizational directory only]** （デフォルト値）
 
-新しいアプリケーションの作成について詳しくは、 [この節](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app).
+新しいアプリケーションの作成について詳しくは、 [この節](https://docs.microsoft.com/ja-jp/azure/active-directory/develop/quickstart-register-app).
 
 >[!NOTE]
 >

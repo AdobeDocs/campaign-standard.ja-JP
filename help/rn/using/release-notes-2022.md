@@ -4,8 +4,9 @@ description: このページでは、Adobe Campaign Standard の 2022年の全�
 feature: Overview
 role: User
 level: Beginner
-source-git-commit: 20a59e064afeb93a2a6260439b09790692971071
-workflow-type: ht
+exl-id: 8c722084-988d-47bd-98ad-9f5a422980a0
+source-git-commit: 77c5baaf51b82ea001326f3f20c8ab183155f9e6
+workflow-type: tm+mt
 source-wordcount: '1098'
 ht-degree: 100%
 
@@ -96,4 +97,3 @@ ht-degree: 100%
 * 大きなオーディエンスを扱う際の問題を回避するために、オーディエンスの複製時のパフォーマンスが強化されました。（CAMP-49639）
 * **クエリー**&#x200B;アクティビティで使用したときにカスタムフィルターが正しい結果を表示できない可能性がある問題を修正しました。（CAMP-49417）
 * 配信で名前にコンマを含むフラグメントを使用しようとするとエラーメッセージが表示されるエラーを修正しました。問題は解決され、フラグメント名でコンマを使用できるようになりました。（CAMP-49216）
-

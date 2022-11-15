@@ -37,7 +37,7 @@ ht-degree: 12%
 
 プロファイルの編集は、Adobe Campaign Standard API を使用しておこなうこともできます。 詳しくは、[該当するドキュメント](../../api/using/updating-profiles.md)を参照してください。
 
-関連トピック：
+関連トピック:
 
 * [Integrated Customer Profile](../../audiences/using/integrated-customer-profile.md)
 * [受信者のタイムゾーンでの送信](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md)

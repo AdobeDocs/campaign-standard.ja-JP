@@ -1,5 +1,5 @@
 ---
-title: '"手順 1：プロファイルリソースに拡張フィールドを追加する"'
+title: "手順 1：プロファイルリソースに拡張フィールドを追加する"
 description: プロファイルリソースを拡張する方法を説明します。
 audience: developing
 content-type: reference

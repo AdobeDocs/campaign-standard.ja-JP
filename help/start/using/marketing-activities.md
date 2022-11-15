@@ -45,7 +45,7 @@ ht-degree: 83%
 * ![](assets/marketing_program_icon.png) プログラム
 * ![](assets/marketing_campaign_icon.png) キャンペーン
 * ![](assets/marketing_email_icon.png) メール
-* ![](assets/marketing_sms_icon.png) SMS
+* ![](assets/marketing_sms_icon.png)SMS
 * ![](assets/marketing_push_icon.png) プッシュ通知
 * ![](assets/marketing_lp_icon.png) アプリ内メッセージ
 * ![](assets/marketing_lp_icon.png) ランディングページ

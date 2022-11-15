@@ -46,7 +46,7 @@ ht-degree: 45%
                <tr>
                   <td>createdBy (userBase)</td>
                   <td>作成者</td>
-                  <td>link </td>
+                  <td>リンク </td>
                   <td> </td>
                </tr>
                <tr>
@@ -121,7 +121,7 @@ ht-degree: 45%
                   <td>列挙（バイト） </td>
                   <td>
                      <ul>
-                        <li>Mobile(SMS) - sms - 1</li>
+                        <li>モバイル (SMS) - sms - 1</li>
                         <li>電子メール — 電子メール — 0</li>
                         <li>無効な値 — __Invalid_value__ - __Invalid_value__</li>
                      </ul>

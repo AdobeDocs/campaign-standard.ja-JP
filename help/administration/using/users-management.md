@@ -1,6 +1,6 @@
 ---
 title: ユーザー管理
-description: 'Adobe Campaign ユーザーには、特定の役割が割り当てられます。主なユーザータイプについて説明します。 '
+description: Adobe Campaign ユーザーには、特定の役割が割り当てられます。主なユーザータイプについて説明します。
 audience: administration
 feature: Access Management
 role: Admin

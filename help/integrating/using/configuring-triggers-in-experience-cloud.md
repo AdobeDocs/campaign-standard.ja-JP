@@ -1,6 +1,6 @@
 ---
 title: Experience Cloud での Triggers の設定
-description: '以前の行動に基づいてパーソナライズされた配信を顧客に送信するようにAdobe Experience Cloud Triggers統合を設定する方法について説明します。 '
+description: 以前の行動に基づいてパーソナライズされた配信を顧客に送信するようにAdobe Experience Cloud Triggers統合を設定する方法について説明します。
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers

@@ -1,5 +1,5 @@
 ---
-title: '"手順 3：拡張機能を確認する"'
+title: "手順 3：拡張機能を確認する"
 description: Rest API を使用して拡張フィールドにアクセスする方法を説明します。
 audience: developing
 content-type: reference

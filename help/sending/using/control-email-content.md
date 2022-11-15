@@ -1,6 +1,6 @@
 ---
 title: Adobe Campaign Standardでの E メールコンテンツの制御
-description: Learn how to improve deliverability in Adobe Campaign Standard when editing your email content.
+description: E メールコンテンツを編集する際に、Adobe Campaign Standardで配信品質を向上させる方法を説明します。
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
@@ -36,7 +36,7 @@ E メールが受信者に確実に届くようにし、E メールの配信品�
 
 >[!NOTE]
 >
->For more information on editing email content, consult the [Email Designer overview](../../designing/using/designing-content-in-adobe-campaign.md) and the [Message design best practices](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices).
+>E メールコンテンツの編集について詳しくは、 [E メールデザイナーの概要](../../designing/using/designing-content-in-adobe-campaign.md) そして [メッセージデザインのベストプラクティス](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices).
 
 ## 送信者の名前とアドレス {#sender-name}
 
@@ -44,7 +44,7 @@ E メールが受信者に確実に届くようにし、E メールの配信品�
 
 ![](assets/delivery_content_edition16.png)
 
-You must make sure a correct address is given at the instance level or in the most frequently-used scenarios. これをおこなうには、管理者に問い合わせてください。
+インスタンスレベルまたは最も頻繁に使用されるシナリオで、正しいアドレスが指定されていることを確認する必要があります。 これをおこなうには、管理者に問い合わせてください。
 
 詳しくは、 [E メールの E メール送信者の定義](../../designing/using/subject-line.md#email-sender).
 
@@ -56,7 +56,7 @@ You must make sure a correct address is given at the instance level or in the mo
 
 ## オプトアウトリンクとフォーム {#opt-out}
 
-デフォルトでは、メッセージが分析される場合、タイポロジルールでオプトアウトリンクが含まれているかどうかがチェックされ、見つからない場合は警告が表示されます。For more on managing links, see [this section](../../designing/using/links.md).
+デフォルトでは、メッセージが分析される場合、タイポロジルールでオプトアウトリンクが含まれているかどうかがチェックされ、見つからない場合は警告が表示されます。リンクの管理について詳しくは、 [この節](../../designing/using/links.md).
 
 毎回、送信前に、オプトアウトリンクが適切に機能することを確認する必要があります。例えば、 [配達確認の送信](../../sending/using/sending-proofs.md)をクリックし、リンクが有効であること、フォームがオンラインであること、およびこれを検証することで **[!UICONTROL No longer contact]** ボックス。 リンクの入力時やフォームの変更時にヒューマンエラーが発生する可能性は常にあるので、このチェックは体系的におこなう必要があります。オプトインおよびオプトアウトの管理について詳しくは、 [この節](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md).
 
@@ -64,15 +64,15 @@ You must make sure a correct address is given at the instance level or in the mo
 
 オプトアウトリンクをクリックした受信者が選択を確認できないとしても、配信開始後に購読解除に関する問題が検出された場合は購読解除を手動で実行できます（一括更新機能を使用するなど）。
 
-As a general rule, you should not try to get in the way of recipients who want to opt-out by requiring them to fill out fields such as their email address or name, for example. 購読解除ランディングページには、1 つの検証ボタンのみを含める必要があります。
+原則として、例えば E メールアドレスや名前などのフィールドに入力するよう求めて、オプトアウトしたい受信者を邪魔しないようにする必要があります。 購読解除ランディングページには、1 つの検証ボタンのみを含める必要があります。
 
-追加の確認のリクエストは信頼できません。ユーザーが 2 つの E メールアドレスを同じボックスにリダイレクトさせている可能性があります（firstname.lastname@club.com と firstname.lastname@internet-club.com など）。If the profile is able to remember the first address only and wishes to unsubscribe via a message sent to the other one, the form will refuse this because the encrypted identifier and the email address entered will not match.
+追加の確認のリクエストは信頼できません。ユーザーが 2 つの E メールアドレスを同じボックスにリダイレクトさせている可能性があります（firstname.lastname@club.com と firstname.lastname@internet-club.com など）。プロファイルが最初のアドレスのみを記憶し、もう一方のアドレスに送信されたメッセージを使用して購読解除する場合、暗号化された識別子と入力された E メールアドレスが一致しないので、フォームは拒否します。
 
 ## スパム対策分析 {#anti-spam-analysis}
 
-Adobe Campaign&#39;s message editor integrates an **Anti-spam analysis** which allows you to score emails to determine whether a message runs the risk of being considered as spam by the anti-spam tools used upon receipt. For more on this, see [Previewing messages](../../sending/using/previewing-messages.md).
+Adobe Campaignのメッセージエディターは **スパム対策分析** これを使用すると、e メールをスコアリングして、受信時に使用されるスパム対策ツールによってメッセージがスパムと見なされるリスクがあるかどうかを判断できます。 詳しくは、 [メッセージのプレビュー](../../sending/using/previewing-messages.md).
 
-In the message content editor, click **[!UICONTROL Preview]**. スパム対策チェックで、このメッセージのリスクが高いことが検出されたかどうかを示すメッセージが表示されます。 クリック **[!UICONTROL Anti-spam analysis]** をクリックして詳細を表示します。
+メッセージコンテンツエディターで、 **[!UICONTROL Preview]**. スパム対策チェックで、このメッセージのリスクが高いことが検出されたかどうかを示すメッセージが表示されます。 クリック **[!UICONTROL Anti-spam analysis]** をクリックして詳細を表示します。
 
 ![](assets/sending_anti-spam_analysis.png)
 

@@ -51,7 +51,7 @@ ht-degree: 91%
 * ![](assets/timeline_campaign_icon.png) キャンペーン
 * ![](assets/timeline_lp_icon.png) ランディングページ
 * ![](assets/timeline_email_icon.png) メール
-* ![](assets/timeline_sms_icon.png) SMS
+* ![](assets/timeline_sms_icon.png)SMS
 * ![](assets/timeline_push_icon.png) プッシュ通知
 
 各ボックスの左の境界線にある色付きの線は、関連する要素のステータスを示しています。

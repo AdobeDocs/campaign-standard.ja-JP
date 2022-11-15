@@ -1,6 +1,6 @@
 ---
 title: SMS レポート
-description: '標準の SMS レポートを使用して、SMS 配信の成功を確認します。 '
+description: 標準の SMS レポートを使用して、SMS 配信の成功を確認します。
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports

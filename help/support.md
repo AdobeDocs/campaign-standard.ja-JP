@@ -1,5 +1,5 @@
 ---
-title: 'Campaign Standard のヘルプおよびサポートオプション '
+title: Campaign Standard のヘルプおよびサポートオプション
 description: Campaign Standard のサポートが必要ですか？正しい場所にいます。
 audience: rns
 content-type: reference

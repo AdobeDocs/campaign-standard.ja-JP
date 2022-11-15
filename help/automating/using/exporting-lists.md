@@ -1,6 +1,6 @@
 ---
 title: リストのエクスポート
-description: 'Adobe Campaignでは、リストとして表示されたデータを概要画面から直接ファイルに書き出し、後で使用することができます。 '
+description: Adobe Campaignでは、リストとして表示されたデータを概要画面から直接ファイルに書き出し、後で使用することができます。
 audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data

@@ -50,11 +50,11 @@ Campaign StandardAPI リクエストについて理解するのに役立つリ�
 
 >[!NOTE]
 >
->この例では Postman を使用しています。 ただし、お気に入りの REST クライアントを自由に使用できます。
+>この例ではPostmanを使用しています。 ただし、お気に入りの REST クライアントを自由に使用できます。
 
 1. 「 [ここ](https://helpx.adobe.com/content/dam/help/en/campaign/kb/working-with-acs-api/_jcr_content/main-pars/download_section/download-1/KB_postman_collection.json.zip).
 
-1. Postman を開き、 **ファイル** / **インポート** メニュー
+1. Postmanを開き、 **ファイル** / **インポート** メニュー
 
 1. ダウンロードしたファイルをウィンドウにドラッグ&amp;ドロップします。 事前に設計された API リクエストが表示され、使用可能な状態になります。
 

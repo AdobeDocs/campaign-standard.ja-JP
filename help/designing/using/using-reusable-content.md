@@ -1,5 +1,5 @@
 ---
-title: '再利用可能なコンテンツの作成と使用 '
+title: 再利用可能なコンテンツの作成と使用
 description: E メールデザイナーを使用して、再利用可能な E メールコンテンツの作成を開始します。
 audience: designing
 content-type: reference
@@ -301,7 +301,7 @@ To save as a fragment some email content that you created, follow the steps belo
 
 E メールデザイナーを使用して、再利用可能な各セクションにフラグメントを作成します。 この例では、2 つのフラグメントを作成します。1 つはヘッダー用、もう 1 つはフッター用です。 その後、関連するパーツを既存のコンテンツからこれらのフラグメントにコピーできます。
 
-これは、次の手順に従って行います。
+これを行うには、次の手順に従います。
 
 1. Adobe Campaignで、に移動します。 **[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]** をクリックし、ヘッダー用のフラグメントを作成します。 詳しくは、 [コンテンツフラグメントの作成](#creating-a-content-fragment).
 1. フラグメントに必要な数の構造コンポーネントを追加します。

@@ -1,6 +1,6 @@
 ---
 title: Audience Manager または People コアサービスとの統合のプロビジョニングと設定
-description: 'Audience Manager/People コアサービスの統合を設定して、様々なAdobe Experience Cloudソリューションとのオーディエンスやセグメントの共有を開始する方法について説明します。 '
+description: Audience Manager/People コアサービスの統合を設定して、様々なAdobe Experience Cloudソリューションとのオーディエンスやセグメントの共有を開始する方法について説明します。
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service

@@ -10,7 +10,7 @@ exl-id: 53da6c4e-d4fb-4677-acff-744e3eb10960
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '208'
-ht-degree: 43%
+ht-degree: 45%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 43%
                <tr>
                   <td>amcDataSource (amcDataSourceBase)</td>
                   <td>AMC データソース</td>
-                  <td>link </td>
+                  <td>リンク </td>
                   <td> </td>
                </tr>
                <tr>

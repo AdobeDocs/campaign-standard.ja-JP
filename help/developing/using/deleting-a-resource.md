@@ -1,6 +1,6 @@
 ---
 title: リソースの削除
-description: 'リソースを削除する方法を説明します '
+description: リソースを削除する方法を説明します
 audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource

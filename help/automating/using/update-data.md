@@ -16,7 +16,7 @@ ht-degree: 98%
 
 ---
 
-# データを更新{#update-data}
+# データの更新{#update-data}
 
 ## 説明 {#description}
 

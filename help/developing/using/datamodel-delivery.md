@@ -10,7 +10,7 @@ exl-id: aea3e72d-8e89-46c7-a796-bf856414c654
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '688'
-ht-degree: 30%
+ht-degree: 33%
 
 ---
 
@@ -82,7 +82,7 @@ ht-degree: 30%
                <tr>
                   <td>ブランディング (brandingBase)</td>
                   <td>ブランド</td>
-                  <td>link </td>
+                  <td>リンク </td>
                   <td> </td>
                </tr>
                <tr>
@@ -359,7 +359,7 @@ ht-degree: 30%
                   <td>
                      <ul>
                         <li>FAX - FAX - 4</li>
-                        <li>Mobile(SMS) - sms - 1</li>
+                        <li>モバイル (SMS) - sms - 1</li>
                         <li>電子メール — 電子メール — 0</li>
                         <li>電話 — 電話 — 2</li>
                         <li>ダイレクトメール — 紙 — 3</li>

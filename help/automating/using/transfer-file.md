@@ -12,7 +12,7 @@ exl-id: 736bf3dc-96c4-4518-96f8-d9aaa46d7f84
 source-git-commit: 53852538ac1e092dc9376119f29d969ed4b02952
 workflow-type: tm+mt
 source-wordcount: '1168'
-ht-degree: 83%
+ht-degree: 85%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 83%
 
 1. 選択したプロトコルによっては「**[!UICONTROL Additional options]**」セクションが使用できます。このセクションではプロトコルにパラメータを追加できます。
 
-   次をおこなうことができます。
+   以下を行うことができます。
 
    * **[!UICONTROL Delete the source files after transfer]**:リモートサーバー上のファイルを消去します。 このオプションを選択しない場合は、SFTP ディレクトリにあるアーカイブ済みコンテンツのサイズを手動で監視するようにしてください。
 
@@ -146,7 +146,7 @@ Microsoft Azure Blob プロトコルを使用すると、Microsoft Azure Blob St
 ### Adobe Campaign サーバー上に存在するファイルを使用した設定 {#files-server-configuration-wf}
 
 「**[!UICONTROL File(s) present on the Adobe Campaign server]**」プロトコルは、回復するファイルを含むリポジトリに対応します。
-メタ文字、ワイルドカード（* や ? など）を使用して、ファイルをフィルターできます。
+メタ文字、ワイルドカード（例： ） &#42; または？) を使用して、ファイルをフィルターできます。
 
 必要に応じて「**[!UICONTROL Define a file path]**」または「**[!UICONTROL Use a dynamic file path]**」を選択します。
 「**[!UICONTROL Use a dynamic file path]**」オプションを選択すると、標準の式やイベント変数を使用して、転送するファイルの名前をパーソナライズできます。詳しくは、[このページ](../../automating/using/customizing-workflow-external-parameters.md)を参照してください。

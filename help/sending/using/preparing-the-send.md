@@ -35,7 +35,7 @@ ht-degree: 5%
 
    ![](assets/preparing_delivery_6.png)
 
-1. 配信の準備中、メッセージは自動的に保存されます。 準備手順の後で、メッセージのスケジュールを変更する必要がある場合は、必ず **[!UICONTROL Prepare]** 」ボタンを再度クリックして、変更内容を反映させます。 メッセージのスケジュール方法について詳しくは、 [ページ](../../sending/using/about-scheduling-messages.md).
+1. 配信の準備中、メッセージは自動的に保存されます。 準備手順の後で、メッセージのスケジュールを変更する必要がある場合は、必ず **[!UICONTROL Prepare]** 」ボタンを再度クリックして、変更内容を反映させます。 メッセージのスケジュール方法について詳しくは、次を参照してください。 [ページ](../../sending/using/about-scheduling-messages.md).
 
    ![](assets/preparing_delivery_5.png)
 

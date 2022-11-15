@@ -10,7 +10,7 @@ exl-id: 9b522c84-e296-47c7-9588-2e5ed08ab631
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '173'
-ht-degree: 49%
+ht-degree: 52%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 49%
                <tr>
                   <td>国（国）</td>
                   <td>国</td>
-                  <td>link </td>
+                  <td>リンク </td>
                   <td> </td>
                </tr>
                <tr>

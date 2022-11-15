@@ -10,7 +10,7 @@ exl-id: a63fe730-a6b2-4ae0-93da-9f8ee7824c9f
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '217'
-ht-degree: 42%
+ht-degree: 43%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 42%
                <tr>
                   <td>createdBy (userBase)</td>
                   <td>作成者</td>
-                  <td>link </td>
+                  <td>リンク </td>
                   <td> </td>
                </tr>
                <tr>

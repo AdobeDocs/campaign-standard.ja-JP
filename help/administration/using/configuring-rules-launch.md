@@ -1,5 +1,5 @@
 ---
-title: Adobe Campaign Standardの使用例をサポートするタグルールの設定
+title: Adobe Campaign Standard のユースケースをサポートするタグルールの設定
 description: Adobe Campaign Standardの使用例をサポートするタグルールの設定方法を説明します
 audience: channels
 content-type: reference
@@ -12,11 +12,11 @@ exl-id: b5f4f612-ea23-4007-b427-069777ecdd58
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
 source-wordcount: '998'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# Adobe Campaign Standardの使用例をサポートするタグルールの設定 {#configuring-rules-launch}
+# Adobe Campaign Standard のユースケースをサポートするタグルールの設定 {#configuring-rules-launch}
 
 データ収集 UI で、データ要素とルールを作成し、モバイルアプリケーションからに PII やその他のデータを送信します。 [!DNL Adobe Campaign Standard].
 

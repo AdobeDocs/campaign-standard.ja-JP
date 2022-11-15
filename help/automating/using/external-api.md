@@ -158,7 +158,7 @@ JSON パーサーは、標準の JSON 構造パターンタイプに対応する
 
 ## テスト
 
-簡単なテストエンドポイントで外部 API 機能をテストするには、Postman Echo を使用します。https://docs.postman-echo.com.
+簡単なテストエンドポイントで外部 API 機能をテストするには、 Postman Echo を使用します。https://docs.postman-echo.com.
 
 ## トラブルシューティング
 

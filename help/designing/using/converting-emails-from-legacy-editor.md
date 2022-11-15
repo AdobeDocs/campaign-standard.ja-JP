@@ -1,5 +1,5 @@
 ---
-title: '従来のエディターの E メールから E メールデザイナーへの変換 '
+title: 従来のエディターの E メールから E メールデザイナーへの変換
 description: 従来のエディターの E メールで作成した E メールを E メールデザイナーに使用する方法を説明します。
 audience: designing
 content-type: reference

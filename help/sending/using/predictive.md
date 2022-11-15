@@ -32,7 +32,7 @@ Adobe Campaign Standard は、**予測送信時間の最適化**&#x200B;およ�
 >[!IMPORTANT]
 >この機能は、製品の一部として初期状態では使用できません。実装するには、アドビのコンサルティングサービス部門に依頼する必要があります。詳しくは、アドビ担当者にお問い合わせください。
 
-## 予測送信時間の最適化{#predictive-send-time}
+## 予測送信時間最適化{#predictive-send-time}
 
 ### クリック数と開封数の最適化{#about-predictive-send-time}
 

@@ -11,7 +11,7 @@ exl-id: efbbd0cd-9c56-4ad0-8bcb-efba4b63c28b
 source-git-commit: 4b0c4fb13cc11c06e2487e531ca96574e49b6beb
 workflow-type: tm+mt
 source-wordcount: '364'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -21,7 +21,7 @@ Adobe Campaign Standard API アクセスは、以下の手順で設定します�
 
 >[!IMPORTANT]
 >
->AdobeI/O で証明書を管理するには、 <b>システム管理者</b> 組織または [開発者アカウント](https://helpx.adobe.com/enterprise/using/manage-developers.html)</a> Admin Console
+>AdobeI/O で証明書を管理するには、 <b>システム管理者</b> 組織または [開発者アカウント](https://helpx.adobe.com/jp/enterprise/using/manage-developers.html)</a> Admin Console
 
 1. **電子証明書を持っていることを確認します**&#x200B;または必要に応じて作成します。 証明書と共に提供される公開鍵と秘密鍵は、次の手順で必要になります。
 1. **Adobe Campaign Service への新しい統合の作成** AdobeI/O で設定します。 資格情報が生成されます（API キー、クライアント秘密鍵。.）。

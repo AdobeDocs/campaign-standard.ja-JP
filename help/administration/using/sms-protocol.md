@@ -1,6 +1,6 @@
 ---
 title: SMS コネクタのプロトコルと設定
-description: SMS コネクタの詳細と設定方法を説明します
+description: SMS コネクタの詳細と設定方法について学ぶ
 audience: administration
 feature: Instance Settings
 role: Admin

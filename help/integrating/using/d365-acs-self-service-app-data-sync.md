@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ---
 
-# データを同期
+# データの同期
 
 Microsoft Dynamics 365 のテーブルを Campaign および Campaign のマーケティング指標とMicrosoft Dynamics 365 に同期できます。 同期は、次の 3 つの専用テクニカルワークフローを通じて実行されます。 **[!UICONTROL Microsoft Dynamics 365 to Campaign]**, **[!UICONTROL Campaign to Microsoft Dynamics 365]**, **[!UICONTROL Opt-In/Out]**. この節を参照して、 [詳細情報](../../integrating/using/d365-acs-self-service-app-workflows.md).
 

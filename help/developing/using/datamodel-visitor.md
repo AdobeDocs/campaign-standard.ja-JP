@@ -46,7 +46,7 @@ ht-degree: 47%
     <tr>
         <td>createdBy (userBase)</td>
         <td>作成者</td>
-        <td>link </td>
+        <td>リンク </td>
         <td> </td>
     </tr>
     <tr>

@@ -108,7 +108,7 @@ The default configuration allows five retries at one-hour intervals, followed by
 * **同期エラー**：Adobe Campaign 配信サーバーからアクセスされたリモートサーバーが即座にエラーメッセージを返します。配信をプロファイルのサーバーに送ることは許可されません。
 * **非同期エラー**：バウンスメールまたは SR が受信サーバーによって後で再送信された場合です。非同期エラーは、配信の送信から 1 週間が経過するまで発生する可能性があります。
 
-## バウンスメールの認定 {#bounce-mail-qualification}
+## バウンスメールの選定 {#bounce-mail-qualification}
 
 同期配信失敗のエラーメッセージの場合、Adobe Campaign Enhanced MTA(Message Transfer Agent) はバウンスのタイプと選定を決定し、その情報を Campaign に返します。
 

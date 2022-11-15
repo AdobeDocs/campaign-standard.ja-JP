@@ -14,7 +14,7 @@ role: User
 level: Intermediate
 exl-id: 0fc71c2f-f294-43f7-825c-73ab4d43fcf7
 source-git-commit: 013293fce8a923e771e10585c41e4ad482003080
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1424'
 ht-degree: 100%
 
@@ -116,7 +116,7 @@ Campaign の主なプライバシー機能と関与するペルソナの例を[�
 Adobe Campaign には、プライバシーに不可欠な重要な機能が最初から用意されています。
 
 * **同意の管理**：購読管理プロセスを通じて、受信者の環境設定を管理し、どの受信者がどの購読タイプにオプトインしたかを追跡できます。詳しくは、[購読](../../audiences/using/about-subscriptions.md)と[ランディングページ](../../channels/using/getting-started-with-landing-pages.md)を参照してください。
-* **データ保持**：すべての組み込みの標準ログテーブルには事前に設定された保存期間があり、通常、データのストレージは 6 か月以下に制限されます。その他の保存期間は、ワークフローで設定できます。詳しくは、アドビのコンサルタントまたは技術管理者にお問い合わせください。
+* **データ保持**：すべてのビルトインの標準ログテーブルには事前に設定された保存期間があり、通常、データのストレージは 6 か月以下に制限されます。その他の保存期間は、ワークフローで設定できます。詳しくは、アドビのコンサルタントまたは技術管理者にお問い合わせください。
 * **権限管理**：Adobe Campaign では、事前作成された役割またはカスタムの役割を使用して、様々な Campaign オペレーターに割り当てられている権限を管理できます。これにより、会社内で様々なタイプのデータにアクセス、変更、書き出しできるユーザーを管理できます。詳しくは、[アクセス管理について](../../administration/using/about-access-management.md)を参照してください。
 
 これらの機能および Adobe Campaign での管理方法について詳しくは、[このページ](../../start/using/privacy-management.md#consent-retention-roles)を参照してください。
@@ -143,4 +143,5 @@ Adobe Campaign のトラッキング機能により、セッション Cookie と
 >
 >EU 一般データ保護規則（GDPR）などの規制では、企業は Cookie をインストールする前に Web サイトのユーザーから同意を得ることが規定されています。認証リクエストを通じて、サイトに Web トラッキングツールが装備されていることをユーザーに通知する必要があります。
 
-また、メッセージに[トラッキング用リンク](../../designing/using/links.md#about-tracked-urls)を追加して、[トラッキング指標](../../reporting/using/tracking-indicators.md)の組み込みレポートで配信の影響と受信者の行動を測定したり、独自の[専用レポート](../../reporting/using/about-dynamic-reports.md)を作成したりすることもできます。
+また、メッセージに[トラッキング用リンク](../../designing/using/links.md#about-tracked-urls)を追加して、[トラッキング指標](../../reporting/using/tracking-indicators.md)のビルトインレポートで配信の影響と受信者の行動を測定したり、独自の[専用レポート](../../reporting/using/about-dynamic-reports.md)を作成したりすることもできます。
+

@@ -1,5 +1,5 @@
 ---
-title: 'E メールデザイナーに関するよくある質問 '
+title: E メールデザイナーに関するよくある質問
 description: E メールデザイナーに関するよくある質問 (FAQ) です。
 audience: designing
 content-type: reference

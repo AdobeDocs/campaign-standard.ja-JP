@@ -1,5 +1,5 @@
 ---
-title: '統合ツールの概要 '
+title: 統合ツールの概要
 description: 統合ツールの概要
 products: SG_CAMPAIGN/STANDARD
 audience: integrating

@@ -1,5 +1,5 @@
 ---
-title: 送信前の確認
+title: 送信前のチェック
 audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices

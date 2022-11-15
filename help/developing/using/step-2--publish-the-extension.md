@@ -1,5 +1,5 @@
 ---
-title: '"手順 2：拡張機能を公開する"'
+title: "手順 2：拡張機能を公開する"
 description: 拡張機能を公開する方法について説明します。Campaign Standard シリーズのパート 2。
 audience: developing
 content-type: reference

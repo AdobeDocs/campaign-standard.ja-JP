@@ -1,5 +1,5 @@
 ---
-title: 'コンポーネントのリスト '
+title: コンポーネントのリスト
 description: 動的レポートで使用可能なすべてのコンポーネントとその定義のリストは、こちらをご覧ください。
 audience: reporting
 content-type: reference
@@ -21,7 +21,7 @@ ht-degree: 6%
 
 [![画像](assets/dynamic_report_compatibility.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=en)
 
-## サイズ {#dimensions}
+## ディメンション {#dimensions}
 
 次の表に、レポートで使用されるディメンションとその定義のリストを示します。
 

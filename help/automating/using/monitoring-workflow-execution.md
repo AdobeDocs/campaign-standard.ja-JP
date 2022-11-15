@@ -12,7 +12,7 @@ exl-id: d2ce702b-92d1-4b94-bd47-34ef46a8bd9f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '577'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 6%
 
 選択できるオプションは次のとおりです。
 
-* **[!UICONTROL Supervisors]**:ワークフローでエラーが発生した場合に通知するユーザーのグループ（電子メールおよびアプリ内通知）を定義できます。 グループが定義されていない場合、誰にも通知されません。 Adobe Campaign通知について詳しくは、 [Adobe Campaign通知](../../administration/using/sending-internal-notifications.md).
+* **[!UICONTROL Supervisors]**:ワークフローでエラーが発生した場合に通知するユーザーのグループ（電子メールおよびアプリ内通知）を定義できます。 グループが定義されていない場合、誰にも通知されません。 Adobe Campaign 通知について詳しくは、[Adobe Campaign 通知](../../administration/using/sending-internal-notifications.md)を参照してください。
 
 * **[!UICONTROL In case of error]**:では、アクティビティでエラーが発生した場合に実行するアクションを指定できます。 これには、次の 2 つのオプションを使用できます。
 

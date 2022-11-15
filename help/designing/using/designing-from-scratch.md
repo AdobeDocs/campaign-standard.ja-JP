@@ -1,5 +1,5 @@
 ---
-title: '新規での E メールのデザイン '
+title: 新規での E メールのデザイン
 description: E メールデザイナーでゼロから E メールをデザインする方法を説明します。
 audience: designing
 content-type: reference

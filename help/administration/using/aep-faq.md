@@ -9,7 +9,7 @@ exl-id: 6b3c189d-8ddd-4dc0-8831-65ae62e04c70
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
 source-wordcount: '909'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -23,7 +23,7 @@ Experience PlatformSDK アプリケーションでプッシュ通知とアプリ
 
 * [プッシュ通知の FAQ](../../channels/using/about-push-notifications.md#push-faq)
 * [アプリ内 FAQ](../../channels/using/in-app-faq.md)
-* [Adobe Experience Platform同期 FAQ のタグ](../../administration/using/syncwithlaunch-faq.md)
+* [Adobe Experience Platform 同期のタグに関する FAQ](../../administration/using/syncwithlaunch-faq.md)
 
 ## 開始前に役立つリソース {#resource-mobile-property}
 

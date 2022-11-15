@@ -1,5 +1,5 @@
 ---
-title: 'Adobe Campaign統合を通じた E メールのデザイン '
+title: Adobe Campaign統合を通じた E メールのデザイン
 description: 電子メールデザイナーでAdobe Campaign統合を通じて電子メールを設計する方法を説明します。
 audience: designing
 content-type: reference
@@ -35,7 +35,7 @@ Adobe Campaign StandardとDreamweaverの統合により、Dreamweaverインタ�
 
    電子メール開発者は、次のようなテキストを追加する必要がなくなりました。 `[[FIRSTNAME_PLACEHOLDER]]` また、データモデルのテーブルの構文を調べることもできません。 Dreamweaverの Campaign ツールバーは、Campaign インスタンスのデータモデルに直接接続します。 つまり、名から住所へのパーソナライゼーションに必要なデータを取り込むことができます。 Campaign 内でコンテンツブロックを作成している場合は、それらをDreamweaverに直接取り込むこともできます。
 
-この機能について詳しくは、 Dreamweaver Documentation を参照してください。 [ここ](https://helpx.adobe.com/jp/dreamweaver/using/working-with-dreamweaver-and-campaign.html).
+この機能について詳しくは、 Dreamweaver Documentation を参照してください [ここ](https://helpx.adobe.com/jp/dreamweaver/using/working-with-dreamweaver-and-campaign.html).
 
 ![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](#video)
 

@@ -1,6 +1,6 @@
 ---
 title: 配信不能件数とバウンス数
-description: '標準の配信不能件数とバウンス数レポートでは、配信に発生した可能性のあるエラーについて学びます。 '
+description: 標準の配信不能件数とバウンス数レポートでは、配信に発生した可能性のあるエラーについて学びます。
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports

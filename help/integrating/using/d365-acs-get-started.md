@@ -12,13 +12,13 @@ exl-id: fa0f790d-6a4d-4b83-a51f-f565e9545a1a
 source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: tm+mt
 source-wordcount: '842'
-ht-degree: 5%
+ht-degree: 14%
 
 ---
 
 # Microsoft Dynamics 365 統合の概要
 
-クロスチャネル通信で CRM データをアクティブ化します。Microsoft Dynamics 365 からAdobe Campaignに連絡先を渡し、キャンペーンパフォーマンスデータ（送信数、開封数、クリック数、バウンス数）をAdobe CampaignからMicrosoft Dynamics 365 に共有する方法を説明します。
+クロスチャネル通信で CRM データをアクティブ化します。Microsoft Dynamics 365 から Adobe Campaign に連絡先を渡し、キャンペーンパフォーマンスデータ（送信、開封、クリックおよびバウンス）を Adobe Campaign に戻り Microsoft Dynamics 365 に共有する方法を学びます。
 
 この統合には、次のソフトウェアバージョンが必要です。
 
@@ -89,7 +89,7 @@ Adobe Campaign StandardとMicrosoft Dynamics 365 の統合により、CRM シス
 >
 >各システムに対して、次の手順を **administrator**.
 >
->このドキュメントの手順では、権限の割り当てや管理者アクセスに関連する統合/登録の作成手順を説明します。  これらの手順を実行する前に会社のポリシーに従い、慎重に実行する必要があるのは、お客様の責任です。
+>このドキュメントの手順では、権限の割り当てや管理者アクセスに関連する統合／登録の作成手順を説明します。お客様の責任として、事前に会社のポリシーに従って手順を確認し、慎重に実行する必要があります。
 
 ### サポートをリクエスト
 
