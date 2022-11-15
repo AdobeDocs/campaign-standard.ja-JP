@@ -8,7 +8,7 @@ exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: d234d7fab039b602eff06c03ba0d8f7ce2a0cf3f
 workflow-type: tm+mt
 source-wordcount: '7270'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 99%
 
 ## 2022年11月 {#doc-updates-november-2022}
 
-配信の ID フィールドに空白を含めないことを推奨する注記を追加しました。 [詳細情報](../../channels/using/creating-an-email.md)
+配信の ID フィールドに空白を含めないことを推奨するメモを追加しました。[詳細情報](../../channels/using/creating-an-email.md)
 
 ## リリース 22.3 - 2022年秋／冬 {#release-22-3}
 
