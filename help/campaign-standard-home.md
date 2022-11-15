@@ -6,9 +6,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
-source-git-commit: bba1461acf0db47fd2eefca30f5e759c503a6dc7
+source-git-commit: 7a5d317fb1ebef91a72da73aec387fa671ccf19a
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '232'
 ht-degree: 100%
 
 ---
@@ -19,9 +19,7 @@ ht-degree: 100%
 
 ## 新機能
 
-* **[Campaign 22.3 リリースノートを公開中](rn/using/release-notes.md)**<br/> Campaign Standard 22.2 リリースの新機能、改善点および修正点について説明します
-
-* **[Apple のメールプライバシー保護に関する FAQ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/technotes/apple-mail-privacy-faq.html?lang=ja)**<br/> iOS 15 に関する Apple の発表に対応した最初のガイダンスを確認します。
+* **[Campaign 22.3 リリースノートを公開中](rn/using/release-notes.md)**<br/> Campaign Standard 22.3 リリースの新機能、改善点および修正点について説明します
 
 * **[Campaign - RTCDP の統合](integrating/using/get-started-sources-destinations.md)**<br/>Campaign と Real-time Customer Data Platform（RTCDP）間でデータを共有する方法を説明します。
 
