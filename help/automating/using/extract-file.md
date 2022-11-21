@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: ccf73563-f0f8-4397-ba96-7c5727562acd
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 88035d0e4f77d66e8b2a74650857bf4ef45744c3
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 86%
+source-wordcount: '438'
+ht-degree: 79%
 
 ---
 
@@ -73,6 +73,12 @@ ht-degree: 86%
 1. 「**[!UICONTROL File structure]**」タブをクリックして、書き出すファイルの出力、日付、数値の形式を設定します。
 
    定義済みリストの値を書き出す場合は、「**[!UICONTROL Export labels instead of internal values of enumerations]**」オプションを選択します。このオプションを使用すると、ID の代わりに短くてわかりやすいラベルを取得できます。
+
+   ![](assets/extract-file-file-structure.png)
+
+   >[!NOTE]
+   >
+   >データを特定のエンコーディングで CSV ファイルに抽出する場合は、まず「テキスト」出力形式を選択します。 目的のエンコーディングをドロップダウンリストから選択し、出力形式を「CSV (Excel)」に変更します。
 
 1. 「**[!UICONTROL Properties]**」タブで、インバウンドトランジションが空の場合に空のファイルを SFTP サーバーで作成してアップロードしないようにする「**[!UICONTROL Do not generate a file if the inbound transition is empty]**」オプションを選択します。
 1. アクティビティの設定を確認し、ワークフローを保存します。
