@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 20a59e064afeb93a2a6260439b09790692971071
+source-git-commit: 1cfc5d51c3eeff35664118f3ee114a40067db3cc
 workflow-type: tm+mt
-source-wordcount: '130'
-ht-degree: 100%
+source-wordcount: '147'
+ht-degree: 90%
 
 ---
 
@@ -23,20 +23,15 @@ ht-degree: 100%
 >
 > この内容は、ステージング環境のアップグレード日まで予告なしに変更される場合があります。詳しくは、[リリース計画のページ](../../rn/using/release-planning.md)を参照してください。
 
-## リリース 22.3 - 2022年秋／冬 {#e-rn-2022}
+## リリース 22.3.2 {#dec-22}
 
-<!--
-### Improvement{#e-rn-improvements}
+### セキュリティアップデート{#rn-security2}
 
+このリリースには、次のセキュリティアップグレードが含まれています。Debian は v11.0 にアップグレードされました。
 
-**Accessibility**
+## リリース 22.3 - 2022年秋／冬 {#sept-22}
 
-Campaign Standard 22.3 comes with accessibility fixes and improvements which facilitate users to navigate and get the most out of Adobe Campaign.
-
-These capabilities are released in Limited Availability and rolled out to a set of customers only. To have these improvements enabled on your Campaign environment(s), contact your Adobe representative.
--->
-
-### セキュリティアップデート{#e-rn-security}
+### セキュリティアップデート{#rn-security}
 
 このリリースには、次のセキュリティアップグレードが含まれています。Apache Tomcat が v7.0 から v8.0 にアップグレードされました。
 
@@ -46,3 +41,4 @@ These capabilities are released in Limited Availability and rolled out to a set 
 * 配信ダッシュボードの配信指標が送信ログ（nms:broadLogRcp）と一致しなかった問題を修正しました。 （CAMP-51127）
 * ACS コネクタ（プライムオファー）でカスタムリソースを拡張できない問題を修正しました。 （CAMP-51033）
 * 遅延を避けるために、プライバシーリクエスト応答の公開プロセスを改善しました。 （CAMP-50613）
+
