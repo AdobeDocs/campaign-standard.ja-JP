@@ -8,7 +8,7 @@ feature: Send Time Optimization
 role: User
 level: Intermediate
 exl-id: e1cb04e6-eb38-4bcc-b071-321cc11ccc7e
-source-git-commit: e9d0add383410681dfee43c5a67d37455bc31373
+source-git-commit: 16801092547f41dd94f12e4dbe9c9afe0b550a36
 workflow-type: tm+mt
 source-wordcount: '1078'
 ht-degree: 77%
@@ -20,6 +20,7 @@ ht-degree: 77%
 Adobe Campaign を使用すると、カスタマージャーニーの設計と配信を最適化して、各ユーザーのエンゲージメントの傾向を予測できます。AI と機械学習を活用した、Adobe Campaign の送信時間最適化と予測エンゲージメントスコアリングでは、過去のエンゲージメント指標に基づいて、開封率、最適な送信時間および予想されるチャーンを分析して予測できます。
 
 >[!IMPORTANT]
+>
 >この機能は、製品の一部として初期状態では使用できません。実装するには、アドビのコンサルティングサービス部門に依頼する必要があります。詳しくは、アドビ担当者にお問い合わせください。
 
 Adobe Campaign は、**予測送信時間最適化**&#x200B;および&#x200B;**予測エンゲージメントスコアリング**&#x200B;の 2 つの新しい機械学習モデルを備えています。これら 2 つのモデルは、より良いカスタマージャーニーの設計と提供に特化した機械学習モデルです。
@@ -35,6 +36,7 @@ Adobe Campaign は、**予測送信時間最適化**&#x200B;および&#x200B;**�
 予測送信時間最適化モデルには、次の 2 つのサブモデルがあります。
 
 * **開封数に対する予測送信時間は、開封数を最大化するために、顧客に E メールを送信する最適な時間です。**
+
 * **クリック数に対する予測送信時間は、クリック数を最大化するために、顧客に E メールを送信する最適な時間です。**
 
 **モデル入力**：配信ログ、トラッキングログおよびプロファイル属性（PII 以外）
@@ -77,6 +79,8 @@ Adobe Campaign に機械学習機能を実装すると、開封数およびク�
 ### 最適なタイミングでのメッセージ送信{#use-predictive-send-time}
 
 各プロファイルの最適な時間に E メールが配信されるようにするには、「**[!UICONTROL Send at a custom date defined by a formula]**」オプションを使用して配信をスケジュールする必要があります。
+
+
 送信日の計算方法について詳しくは、[この節](../../sending/using/computing-the-sending-date.md)を参照してください。
 
 数式には、特定の日における最適な送信時間を入力する必要があります。
@@ -86,7 +90,7 @@ Adobe Campaign に機械学習機能を実装すると、開封数およびク�
 数式の例：
 
 ```
-AddHours([currentDelivery/scheduling/@contactDate], 
+AddHours([currentDelivery/scheduling/@contactDate],
 [cusSendTimeScoreByClickprofile_link/@EMAIL_BEST_TIME_TO_CLICK_WEDNESDAY])
 ```
 
