@@ -4,9 +4,9 @@ user-guide-title: Campaign Standard
 user-guide-description: Campaign Standard の使用に必要な主要な機能、タスク、設定、その他のリソースに関するヘルプセンター。
 title: Campaign Standard ガイド
 breadcrumb-title: Adobe Campaign Standard ドキュメント
-source-git-commit: 1d1869a6c503773f4aaecb6a77f1b72585c88865
+source-git-commit: e9d0add383410681dfee43c5a67d37455bc31373
 workflow-type: tm+mt
-source-wordcount: '1812'
+source-wordcount: '1814'
 ht-degree: 100%
 
 ---
@@ -163,7 +163,7 @@ ht-degree: 100%
       + [配信のプレビュー](sending/using/previewing-messages.md)
       + [配達確認の送信](sending/using/sending-proofs.md)
       + [ターゲットプロファイルを使用した E メールメッセージのテスト](sending/using/testing-messages-using-target.md)
-      + [AI を活用した E メール](sending/using/predictive.md)
+      + [予測ユーザーエンゲージメント機能](sending/using/predictive.md)
       + [E メールのレンダリング](sending/using/email-rendering.md)
       + [コントロール母集団の追加](sending/using/control-group.md)
       + [トラップの使用](sending/using/using-traps.md)
