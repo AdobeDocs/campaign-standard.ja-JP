@@ -60,7 +60,7 @@ A：変更点は[リリースノート](../../rn/using/release-notes.md)に記�
 
 **Q：検証プロセスとは何ですか？**
 
-A：ステージング用インスタンスがアップグレードされたら、お客様のプロセスとユースケースがこの新しいバージョンで正しく動作することを検証し、問題があれば[アドビクライアントケア](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)に報告することをお勧めします。
+A：ステージング用インスタンスがアップグレードされたら、お客様のプロセスとユースケースがこの新しいバージョンで正しく動作することを検証し、問題があれば[アドビクライアントケア](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)に報告することをお勧めします。
 
 **Q：アップグレード中にインスタンスにアクセスできますか？**
 
@@ -82,4 +82,4 @@ A：はい。アップグレード中に新しい E メールは送信できま�
 
 A：Campaign にログオンすると、リリース通知ポップアップが表示され、最新バージョンが表示されます。
 
-その他のご質問については、[アドビクライアントケア](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html)にお問い合わせください。
+その他のご質問については、[アドビクライアントケア](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)にお問い合わせください。

@@ -23,15 +23,15 @@ Adobe Campaign Standard API を使用すると、次の機能にアクセスで�
 
 <table><tr>
  <td valign="top"><a href="../../api/using/retrieving-profiles.md"><img width="60px" alt="conditions" src="assets/icon_profile.svg"/></a><p><a href="../../api/using/retrieving-profiles.md">プロファイル</a></p></td>
-<td valign="top"><a href="../../api/using/creating-a-service.md"><img width="60px" alt="条件" src="assets/icon_services.svg"/></a><p><a href="../../api/using/creating-a-service.md">サービスと購読</a></p></td>
-<td valign="top"><a href="../../api/using/interacting-with-custom-resources.md"><img width="60px" alt="条件" src="assets/icon_customresources.svg"/></a><p><a href="../../api/using/interacting-with-custom-resources.md">カスタムリソース</a></p></td>
-<td valign="top"><a href="../../api/using/interacting-with-marketing-history.md"><img width="60px" alt="条件" src="assets/icon_marketinghistory.svg"/></a><p><a href="../../api/using/interacting-with-marketing-history.md">マーケティング履歴</a></p></td>
+<td valign="top"><a href="../../api/using/creating-a-service.md"><img width="60px" alt="conditions" src="assets/icon_services.svg"/></a><p><a href="../../api/using/creating-a-service.md">サービスと購読</a></p></td>
+<td valign="top"><a href="../../api/using/interacting-with-custom-resources.md"><img width="60px" alt="conditions" src="assets/icon_customresources.svg"/></a><p><a href="../../api/using/interacting-with-custom-resources.md">カスタムリソース</a></p></td>
+<td valign="top"><a href="../../api/using/interacting-with-marketing-history.md"><img width="60px" alt="conditions" src="assets/icon_marketinghistory.svg"/></a><p><a href="../../api/using/interacting-with-marketing-history.md">マーケティング履歴</a></p></td>
 </tr>
 <tr>
-<td valign="top"><a href="../../api/using/creating-a-privacy-request.md"><img width="60px" alt="条件" src="assets/icon_privacy.svg"/></a><p><a href="../../api/using/creating-a-privacy-request.md">プライバシーの管理</a></p></td>
-<td valign="top"><a href="../../api/using/managing-transactional-messages.md"><img width="60px" alt="条件" src="assets/icon_transactionalmessage.svg"/></a><p><a href="../../api/using/managing-transactional-messages.md">トランザクションメッセージ</a></p></td>
-<td valign="top"><a href="../../api/using/controlling-a-workflow.md"><img width="60px" alt="条件" src="assets/icon_workflows.svg"/></a><p><a href="../../api/using/controlling-a-workflow.md">ワークフロー</a></p></td>
-<td valign="top"><a href="../../api/using/retrieving-an-organizational-unit.md"><img width="60px" alt="条件" src="assets/icon_units.svg"/></a><p><a href="../../api/using/retrieving-an-organizational-unit.md">組織単位</a></p></td>
+<td valign="top"><a href="../../api/using/creating-a-privacy-request.md"><img width="60px" alt="conditions" src="assets/icon_privacy.svg"/></a><p><a href="../../api/using/creating-a-privacy-request.md">プライバシーの管理</a></p></td>
+<td valign="top"><a href="../../api/using/managing-transactional-messages.md"><img width="60px" alt="conditions" src="assets/icon_transactionalmessage.svg"/></a><p><a href="../../api/using/managing-transactional-messages.md">トランザクションメッセージ</a></p></td>
+<td valign="top"><a href="../../api/using/controlling-a-workflow.md"><img width="60px" alt="conditions" src="assets/icon_workflows.svg"/></a><p><a href="../../api/using/controlling-a-workflow.md">ワークフロー</a></p></td>
+<td valign="top"><a href="../../api/using/retrieving-an-organizational-unit.md"><img width="60px" alt="conditions" src="assets/icon_units.svg"/></a><p><a href="../../api/using/retrieving-an-organizational-unit.md">組織単位</a></p></td>
 </tr></table>
 
 >[!NOTE]
