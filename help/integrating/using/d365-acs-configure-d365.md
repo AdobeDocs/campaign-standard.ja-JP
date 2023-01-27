@@ -8,9 +8,9 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Experienced
 exl-id: 57e85f8e-65b4-44ea-98e6-0c555acf6dee
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 8b450d6570ae26a32daab185621319dd1ac3e983
 workflow-type: tm+mt
-source-wordcount: '911'
+source-wordcount: '913'
 ht-degree: 2%
 
 ---
@@ -43,20 +43,18 @@ OAuth アクセストークンを生成するには、次の手順に従いま�
 
 ### 新しいアプリケーションを登録 {#register-a-new-app}
 
-1. 管理者ログインの下で、 portal.azure.com にログインします。
+1. 管理者ログインで、にログインします。 [portal.azure.com](https://portal.azure.com){target="_blank"}.
 
 1. クリック **[!UICONTROL Azure Active Directory]** 左側のメニューに次に、 **[!UICONTROL App registrations]** をクリックします。
 
 1. クリック **[!UICONTROL New registration]** をクリックします。
-
-   ![](assets/do-not-localize/MSdynACSIntegration-7.png)
 
 1. アプリの登録画面に入力します。
 
    * 名前：adobe campaign `<stage or prod>`
    * サポートされるアカウントのタイプ： **[!UICONTROL Accounts in this organizational directory only]** （デフォルト値）
 
-新しいアプリケーションの作成について詳しくは、 [この節](https://docs.microsoft.com/ja-jp/azure/active-directory/develop/quickstart-register-app).
+新しいアプリケーションの作成について詳しくは、 [この節](https://docs.microsoft.com/ja-jp/azure/active-directory/develop/quickstart-register-app){target="_blank"}.
 
 >[!NOTE]
 >
@@ -65,8 +63,6 @@ OAuth アクセストークンを生成するには、次の手順に従いま�
 ### クライアント秘密鍵を生成 {#generate-a-client-secret}
 
 1. アプリの概要画面で、左側のサブメニューの「 」をクリックします。 **[!UICONTROL Certificates and Secrets > New client secret]**
-
-   ![](assets/do-not-localize/MSdynACSIntegration-8.png)
 
 1. 説明を入力し、期間を設定して、 **[!UICONTROL OK]**.
 
@@ -81,13 +77,9 @@ OAuth アクセストークンを生成するには、次の手順に従いま�
 
 1. この画面またはアプリの概要画面で、 **[!UICONTROL API permissions]** を選択します。  クリック後 **[!UICONTROL Add a permission]**&#x200B;を選択する場合は、 **[!UICONTROL Dynamics CRM]** 」と入力します。
 
-   ![](assets/do-not-localize/MSdynACSIntegration-9.png)
-
 1. 次に、 **[!UICONTROL user_impersonation]**&#x200B;をクリックし、 **[!UICONTROL Add permissions]** 」ボタンをクリックします。
 
-   ![](assets/do-not-localize/MSdynACSIntegration-10.png)
-
-権限の設定について詳しくは、 [この節](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-configure-app-access-web-apis#add-permissions-to-access-web-apis).
+権限の設定について詳しくは、 [この節](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-configure-app-access-web-apis#add-permissions-to-access-web-apis){target="_blank"}.
 
 ### アプリユーザーの作成
 
@@ -109,7 +101,7 @@ OAuth アクセストークンを生成するには、次の手順に従いま�
    * **[!UICONTROL Full Name]**:AdobeAPI `<stage or prod>`
    * **[!UICONTROL Email]**:同じ **[!UICONTROL User Name]** （必要に応じて管理者の電子メールを送信）
 
-   アプリのユーザー作成について詳しくは、 [この節](https://docs.microsoft.com/en-gb/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user).
+   アプリのユーザー作成について詳しくは、 [この節](https://docs.microsoft.com/en-gb/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user){target="_blank"}.
 
 1. ユーザーアイコンをクリックし、 Adobe Campaignアイコンをアップロードします。これは、Dynamics 365 で新しいイベントが表示されたときに、Adobeビューに表示されるアイコンです。
 
@@ -128,7 +120,8 @@ OAuth アクセストークンを生成するには、次の手順に従いま�
 Dynamics 365 アプリをCampaign Standard環境に統合するには、次の手順に従います。
 
 1. 次のリンクに移動します。 [https://appsource.microsoft.com/en-us/marketplace/apps](https://appsource.microsoft.com/en-us/marketplace/apps) およびを検索します。 _Adobe Campaign for Dynamics 365_ をクリックします。
-または、次の場所に移動することもできます： [リンク](https://appsource.microsoft.com/en-us/product/dynamics-365/adobecampaign.re4snj-a4n7-5t6y-a14br-d5d1b?flightCodes=adobesignhide&amp;tab=Overview).
+または、次の場所に移動することもできます： [リンク](https://appsource.microsoft.com/en-us/product/dynamics-365/adobecampaign.re4snj-a4n7-5t6y-a14br-d5d1b?flightCodes=adobesignhide&amp;tab=Overview)
+{target="_blank"}.
 1. 指示に従って、Dynamics 365 インスタンス用のアプリをインストールします。
 1. インストールが完了したら、Dynamics 365 インスタンスに移動し、管理者としてサインインします。
 1. 右上隅の歯車アイコンをクリックし、 **[!UICONTROL Advanced Settings]**. 上部のバナーで、の横にあるドロップダウンをクリックします。 **[!UICONTROL Settings]**&#x200B;をクリックし、 **[!UICONTROL Processes]** under **[!UICONTROL Process Center]**.
