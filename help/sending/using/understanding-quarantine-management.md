@@ -8,10 +8,10 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: ed269751-78ab-4189-89d9-116bf42c0c90
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: 7243a97bdc8f0b6ecba42b606d048a3fbd322a63
 workflow-type: tm+mt
-source-wordcount: '1268'
-ht-degree: 62%
+source-wordcount: '1365'
+ht-degree: 50%
 
 ---
 
@@ -97,25 +97,14 @@ This menu lists quarantined elements for **Email**, **SMS** and **Push notificat
 
 ![](assets/quarantines-create-last-delivery.png)
 
-### 強制隔離アドレスの削除 {#removing-a-quarantined-address}
+## 強制隔離からのアドレスの削除 {#removing-a-quarantined-address}
 
-必要に応じて、強制隔離リストから手動でアドレスを削除できます。これに加えて、特定の条件に一致するアドレスは、 **[!UICONTROL Database cleanup]** ワークフロー。 ( テクニカルワークフローについて詳しくは、 [この節](../../administration/using/technical-workflows.md#list-of-technical-workflows).)
 
-強制隔離リストからアドレスを手動で削除するには、以下のいずれかのアクションを実行します。
 
->[!IMPORTANT]
->
->強制隔離からメールアドレスを手動で削除すると、このアドレスへの配信が再び開始されます。その結果、配信品質と IP のレピュテーションに重大な影響が及ぶ可能性があり、最終的に IP アドレスや送信ドメインがブロックされる可能性があります。強制隔離からアドレスを削除することを検討する場合は、細心の注意を払う必要があります。不明な点がある場合は、配信品質のエキスパートにお問い合わせください。
 
-* 次の中からアドレスを選択します： **[!UICONTROL Administration > Channels > Quarantines > Addresses]** リストと選択 **[!UICONTROL Delete element]**.
+### 自動更新 {#unquarantine-auto}
 
-   ![](assets/quarantine-delete-address.png)
-
-* アドレスを選択して変更 **[!UICONTROL Status]** から **[!UICONTROL Valid]**.
-
-   ![](assets/quarantine-valid-status.png)
-
-   ステータスを **[!UICONTROL On allowlist]**. この場合、アドレスは強制隔離リストに残りますが、エラーが発生した場合でも、自動的にターゲットに設定されます。
+特定の条件に一致するアドレスは、データベースクリーンアップワークフローによって強制隔離リストから自動的に削除されます。 テクニカルワークフローについて詳しくは、 [この節](../../administration/using/technical-workflows.md#list-of-technical-workflows).
 
 次の場合、アドレスは強制隔離リストから自動的に削除されます。
 
@@ -125,11 +114,43 @@ This menu lists quarantined elements for **Email**, **SMS** and **Push notificat
 
 ステータスは「 **[!UICONTROL Valid]**.
 
+実行する再試行の最大回数： **[!UICONTROL Erroneous]** 再試行間のステータスと最小遅延は、IP が特定のドメインでどの程度過去に実行され、現在どの程度の動作を実行しているかに基づくようになりました。
+
+
 >[!IMPORTANT]
 >
->アドレスが **[!UICONTROL Quarantine]** または **[!UICONTROL On denylist]** ステータスは、電子メールを受信した場合でも自動的には削除されません。
+>アドレスが **[!UICONTROL Quarantine]** または **[!UICONTROL Denylisted]** ステータスは、電子メールを受信した場合でも削除されません。
 
-実行する再試行の最大回数： **[!UICONTROL Erroneous]** 再試行間のステータスと最小遅延は、IP が特定のドメインでどの程度過去に実行され、現在どの程度の動作を実行しているかに基づくようになりました。
+
+### 手動更新 {#unquarantine-manual}
+
+アドレスの強制隔離を手動で解除することもできます。  強制隔離リストからアドレスを手動で削除するには、強制隔離リストからアドレスを削除するか、アドレスのステータスを「 」に変更します **[!UICONTROL Valid]**.
+
+* 次の中からアドレスを選択します： **[!UICONTROL Administration > Channels > Quarantines > Addresses]** リストと選択 **[!UICONTROL Delete element]**.
+
+   ![](assets/quarantine-delete-address.png)
+
+* アドレスを選択して変更 **[!UICONTROL Status]** から **[!UICONTROL Valid]**.
+
+   ![](assets/quarantine-valid-status.png)
+
+
+### 一括更新 {#unquarantine-bulk}
+
+例えば、ISP が停止した場合など、強制隔離リストで一括更新を実行する必要が生じる場合があります。 この場合、E メールは受信者に正常に配信できないので、誤ってバウンスとマークされます。 これらのアドレスは、強制隔離リストから削除する必要があります。
+
+これを実行するには、ワークフローを作成し、 **[!UICONTROL Query]** 強制隔離テーブルの「 」アクティビティを使用して、影響を受けたすべての受信者を除外します。 特定された後は、強制隔離リストから削除して、今後の Campaign E メール配信に含めることができます。
+
+インシデントの期間に基づいて、このクエリの推奨ガイドラインを以下に示します。
+
+* **エラーテキスト（強制隔離テキスト）** には、「550-5.1.1」およびが含まれます。 **エラーテキスト（強制隔離テキスト）** には、「support.ISP.com」が含まれます。
+
+   ここで、「support.ISP.com」は次のようになります。例えば、「support.apple.com」または「support.google.com」と入力します。
+
+* **ステータスを更新 (@lastModified)** MM/DD/YYYY HH 以降:MM:午前
+* **ステータスを更新 (@lastModified)** MM/DD/YYYY HH の前またはそれ以前:MM:午後 (SS)
+
+影響を受ける受信者のリストが揃ったら、 **[!UICONTROL Update data]** アクティビティのメールアドレスのステータスを次に設定： **[!UICONTROL Valid]** したがって、これらは、 **[!UICONTROL Database cleanup]** ワークフロー。 また、強制隔離テーブルから削除するだけでもかまいません。
 
 ## アドレスを強制隔離に送信するための条件 {#conditions-for-sending-an-address-to-quarantine}
 
