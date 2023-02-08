@@ -6,9 +6,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+source-git-commit: 884cd5e9c09aa85e744ca06b202eb46f73a33a76
 workflow-type: tm+mt
-source-wordcount: '1286'
+source-wordcount: '1260'
 ht-degree: 4%
 
 ---
@@ -50,9 +50,7 @@ Adobe Experience Platform SDK を使用してAdobe Campaign Standardでサポー
 
 1. データ収集 UI で、 **[!UICONTROL Extensions]** タブ、移動 **[!UICONTROL Catalog]**&#x200B;を検索し、 **[!UICONTROL Adobe Campaign Standard]** 拡張子。 詳しくは、 [Adobe Campaign Standard](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard).
 
-1. 場所の使用例をサポートするには、Campaign Standardで **[!UICONTROL Places]** 拡張機能と **[!UICONTROL Places Monitor]** 拡張子。
-   * のインストール **[!UICONTROL Places]** 拡張機能を使用して、データ収集 UI に追加できます。 この[ページ](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html)を参照してください。
-   * のインストール **[!UICONTROL Places Monitor]** 拡張機能を使用して、データ収集 UI に追加できます。 この[ページ](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.html)を参照してください。
+1. 場所の使用例をサポートするには、Campaign Standardで **[!UICONTROL Places]** 拡張機能を使用して、データ収集 UI に追加できます。 この[ページ](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html)を参照してください。
 
 1. Adobe Campaign Standardで、データ収集 UI で作成したモバイルプロパティを設定します。 参照： [Adobe CampaignでのAdobe Experience Platform Launchアプリケーションの設定](../../administration/using/configuring-a-mobile-application.md#set-up-campaign).
 

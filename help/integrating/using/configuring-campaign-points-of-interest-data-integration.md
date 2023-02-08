@@ -8,9 +8,9 @@ feature: Audiences
 role: Data Architect
 level: Intermediate
 exl-id: b097b3fa-f949-446e-ad44-cc6ca025ee55
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+source-git-commit: 884cd5e9c09aa85e744ca06b202eb46f73a33a76
 workflow-type: tm+mt
-source-wordcount: '1327'
+source-wordcount: '1311'
 ht-degree: 3%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 3%
 
 Adobe Experience Platform SDK を使用して設定されたモバイルアプリケーションでAdobe Experience Platform Location Services を使用するには、次の操作が必要です。
 
-1. を **[!UICONTROL Places]** および **[!UICONTROL Places Monitor]** データ収集 UI のモバイルアプリ設定の拡張。 Adobe Campaignでモバイルアプリケーションを設定します。 詳しくは、 [Places 拡張機能のインストール](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html#install-the-places-extension-in-adobe-experience-platform-launch) および [Places 監視拡張機能のインストール](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.html#install-the-places-monitor-extension-in-experience-platform-launch).
+1. を **[!UICONTROL Places]** データ収集 UI のモバイルアプリ設定の拡張。 Adobe Campaignでモバイルアプリケーションを設定します。 詳しくは、 [Places 拡張機能のインストール](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html#install-the-places-extension-in-adobe-experience-platform-launch).
 
 1. 拡張機能を設定したら、データ収集 UI 内でデータ要素を作成して、これらの拡張機能からデータを取得します。 詳しくは、 [ページ](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Step1Createdataelements) をクリックして、データ要素を作成します。
 
@@ -187,7 +187,7 @@ Mobile コアサービスのソフトウェア開発キット (SDK) は、モバ
 
 特定のカスタムリソースを使用すると、アプリケーション購読者から収集するデータを定義できます。
 
-この手順については、 [SDK V4 を使用したモバイルアプリケーションの設定](https://helpx.adobe.com/campaign/kb/configuring-app-sdkv4.html) ページ。
+この手順については、 [SDK V4 を使用したモバイルアプリケーションの設定](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/administrating/configuring-channels/configuring-a-mobile-application.html) ページ。
 
 ## 場所データの収集に使用するモバイルアプリへのアクセス {#accessing-mobile-apps-used-to-collect-location-data}
 
