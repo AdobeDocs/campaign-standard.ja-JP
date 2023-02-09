@@ -6,9 +6,9 @@ role: User
 level: Beginner
 hidefromtoc: true
 exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
-source-git-commit: 1a2b2ab8b6d23ca021d196909dc3ebdc02fe4e9e
+source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
-source-wordcount: '4569'
+source-wordcount: '4562'
 ht-degree: 7%
 
 ---
@@ -392,7 +392,7 @@ _プッシュ通知_
   </tr> 
   <tr> 
    <td> Dreamweaver統合（ラボ）<br /> </td> 
-   <td> Adobe CampaignとDreamweaverの統合により、Adobeソリューションを使用して電子メールキャンペーンを作成する統合プロセスが可能になりました。<br /> DreamweaverでAdobe Campaign E メールを編集し、コンテンツを両方のソリューション間でシームレスに同期させることができます。<br /> 最初のリリースでは、この統合は「ラボ」機能として使用でき、Dreamweaverプレリリースベータ版でのみ機能します。 統合のアクティブ化をご希望の場合は、AC-DW-integration@adobe.comまでご連絡ください。<br /> 詳しくは、 <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html">ビデオ</a>.<br /> </td> 
+   <td> Adobe CampaignとDreamweaverの統合により、Adobeソリューションを使用して電子メールキャンペーンを作成する統合プロセスが可能になりました。<br /> DreamweaverでAdobe Campaign E メールを編集し、コンテンツを両方のソリューション間でシームレスに同期させることができます。<br /> 最初のリリースでは、この統合は「ラボ」機能として使用でき、Dreamweaverプレリリースベータ版でのみ機能します。 統合のアクティブ化をご希望の場合は、AC-DW-integration@adobe.comまでご連絡ください。<br /> 詳しくは、 <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=ja">ビデオ</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> 手動送信時間の最適化<br /> </td> 
@@ -489,9 +489,9 @@ _ワークフロー_
   </tr> 
   <tr> 
    <td> トランザクションメッセージング API<br /> </td> 
-   <td> トランザクションメッセージ API は、 <a href="https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/developing/adding-or-extending-a-resource/updating-the-database-structure.translate.html">adobe.io</a>を使用すると、との監視が容易になります。<br /> 
+   <td> トランザクションメッセージ API が利用できるようになり、以下をより使いやすく、監視しやすくなりました。<br /> 
     <ul> 
-     <li> adobe.io プラットフォームのレポートおよび監視機能を利用すると、メリットが得られます。 </li> 
+     <li> Adobe Developerプラットフォームのレポートおよび監視機能を利用すると、メリットが得られます。 </li> 
      <li> 認証が IP許可リストに加えるではなく adobe.io トークンベースの認証を使用して実行されるようになり、セキュリティプロセスがより簡単になりました。 </li> 
      <li> すべての API が単一のプラットフォームに統合され、プロファイルおよびサービス API を既にサポートしている場合、統合にトランザクションメッセージ機能をこれまで以上に簡単に追加できます。 </li> 
     </ul> </td> 

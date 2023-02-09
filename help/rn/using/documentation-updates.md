@@ -5,9 +5,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: bfa34136950218d2fd56870247d39be00c725427
+source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
-source-wordcount: '7279'
+source-wordcount: '7229'
 ht-degree: 100%
 
 ---
@@ -422,7 +422,7 @@ Microsoft Dynamics 365 統合（GA） - [詳細情報](../../integrating/using/d
 
 **リリースに伴うその他のドキュメントのアップデート**
 
-Adobe Campaign のエラーメッセージのリストが更新されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+Adobe Campaign のエラーメッセージのリストが更新されました。[詳細を表示](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=ja)
 
 GDPR の入門ガイドが改善され、強化されました。GDPR や CCPA を含む、プライバシー管理に関するドキュメントになりました。[詳細を表示](https://helpx.adobe.com/content/help/jp/campaign/kb/campaign-privacy.html)
 
@@ -504,7 +504,7 @@ E メールデザイナーの推奨されるアップデートに関する新し
 
 ワークフローのベストプラクティスに関する新しい節が追加されました。[詳細を表示](../../automating/using/best-practices-workflows.md)
 
- Standard および Campaign Classic のエラーメッセージのリストが更新されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+ Standard および Campaign Classic のエラーメッセージのリストが更新されました。[詳細を表示](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=ja)
 
 カスタムリソースドキュメントに警告を追加しました。カスタムリソース ID には使用する文字は最大 30 文字にすることをお勧めします。これは、カスタムのリソースフィールド、キー、インデックス、リンクについても同様です。[詳細を表示](../../developing/using/creating-or-extending-the-resource.md)
 
@@ -516,7 +516,7 @@ E メールデザイナーの推奨されるアップデートに関する新し
 
 パラメーターを使用してワークフローを呼び出す場合の、集計期間のない繰り返し配信の使用に関する推奨事項が追加されました。[詳細を表示](../../automating/using/calling-a-workflow-with-external-parameters.md)
 
- Standard および Campaign Classic のエラーメッセージのリストが更新されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+ Standard および Campaign Classic のエラーメッセージのリストが更新されました。[詳細を表示](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=ja)
 
 カスタムリソースドキュメントに警告を追加しました。カスタムリソース ID には使用する文字は最大 30 文字にすることをお勧めします。これは、カスタムのリソースフィールド、キー、インデックス、リンクについても同様です。[詳細を表示](../../developing/using/creating-or-extending-the-resource.md)
 
@@ -624,7 +624,7 @@ Adobe Campaign Standard のプッシュ通知から画像を表示する方法�
 
 プッシュトラッキングの実装に関する新しいテクニカルノートが追加されました。[詳細を表示](../../administration/using/push-tracking.md)
 
- Standard および Campaign Classic のエラーメッセージのリストが更新されました。[詳細を表示](https://docs.campaign.adobe.com/doc/AC/en/technicalResources/error_messages/error_codes.html)
+ Standard および Campaign Classic のエラーメッセージのリストが更新されました。[詳細を表示](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=ja)
 
 トリガー - Campaign の統合ドキュメントが更新されました。[詳細を表示](../../integrating/using/about-adobe-experience-cloud-triggers.md)
 
@@ -748,7 +748,7 @@ API ドキュメントに、**カスタムフィルター**&#x200B;に関連す�
 
 **リリースに含まれる新機能**
 
-GDPR：コアサービスの統合 - [詳細を表示](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=ja)
+GDPR：コアサービスの統合 - [詳細を表示](../../start/using/privacy-management.md)
 
 プッシュ機能の強化 - 詳細な配信フィードバック - [詳細を表示](../../channels/using/preparing-and-sending-a-push-notification.md#sending-the-notification)
 
@@ -782,7 +782,7 @@ Administration メニューの「ライセンス」オプションに関する�
 
 **リリースに含まれる新機能**
 
-EU 一般データ保護規則（GDPR） - [詳細を表示](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=ja)
+EU 一般データ保護規則（GDPR） - [詳細を表示](../../start/using/privacy.md)
 
 E メール用 Creative Designer - [詳細を表示](../../designing/using/designing-content-in-adobe-campaign.md)
 
@@ -822,7 +822,7 @@ Campaign Standard の製品内コンテキストヘルプを更新しました�
 
 Campaign とアドビソリューションの統合のほとんどの URL が変更されました。ブックマークを確認してください。[詳細を表示](../../integrating/using/get-started-campaign-integrations.md)
 
-データモデル v1 を、ビルトインリソース用の SQL 構造で使用できるようになりました。[詳細を表示](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/developing/datamodel/datamodel-audience.html)
+データモデル v1 を、ビルトインリソース用の SQL 構造で使用できるようになりました。[詳細を表示](../../developing/using/datamodel-introduction.md)
 
 配信でのメッセージの準備方法に関する情報を追加しました。[詳細を表示](../../sending/using/preparing-the-send.md)
 
@@ -950,7 +950,7 @@ S3 アカウントの推奨事項を追加しました。[詳細を表示](../..
 
 [配信の警告](../../sending/using/receiving-alerts-when-failures-happen.md#delivery-alerting-reasons)に関するドキュメントが更新され、アラートの受信時に実行できる操作に関するヒントが記載されたトラブルシューティングの節が追加されました。
 
-はじめにガイドが新しく公開されました。配信の作成とターゲティングから送信や監視に至るまで、Adobe Campaign での配信に関するベストプラクティスを説明します。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/delivery-best-practices.html)
+はじめにガイドが新しく公開されました。配信の作成とターゲティングから送信や監視に至るまで、Adobe Campaign での配信に関するベストプラクティスを説明します。[詳細を表示](../../sending/using/delivery-best-practices.md)
 
 フォローアップメッセージのドキュメントが更新され、使用例が改訂されました。[詳細を表示](../../channels/using/follow-up-messages.md#sending-a-follow-up-message)
 

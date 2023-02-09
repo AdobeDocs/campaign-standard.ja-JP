@@ -4,10 +4,10 @@ description: 「Adobe Campaign Standardのリスト画面での表示をカス�
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
-source-wordcount: '785'
-ht-degree: 12%
+source-wordcount: '776'
+ht-degree: 11%
 
 ---
 
@@ -121,11 +121,11 @@ Campaign StandardAPI を使用すると、プロファイルやサービスの�
 
 ## プライバシーの管理 {#privacy-management}
 
-<img width="60px" alt="条件" src="assets/icon_privacy.svg"/>
+<img width="60px" alt="conditions" src="assets/icon_privacy.svg"/>
 
 GDPR は欧州連合（EU）にて新しく施行されるプライバシー保護法律で、データ保護要件を現代の状況に合わせて整合化することを目的としています。GDPR は、EU に居住しているデータ主体のデータを保有している Adobe Campaign の顧客に適用されます。Adobe Campaignでは既にプライバシー機能（同意管理、データ保持設定、ユーザーの役割など）を提供していますが、この機会にデータ処理者としての役割で、特定の GDPR 要求に対するデータ管理者としての準備を容易にする追加機能を導入しました。
 
-詳しくは、 [ガイド](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=ja) を参照して、GDPR に準拠するためのAdobe Campaignのツールと機能に関する詳細情報を確認してください。
+参照： [この節](../../start/using/privacy.md) を参照して、GDPR に準拠するためのAdobe Campaignのツールと機能に関する詳細情報を確認してください。
 
 **詳細情報**
 

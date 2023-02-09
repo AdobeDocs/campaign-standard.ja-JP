@@ -8,9 +8,9 @@ feature: Email Design
 role: User
 level: Beginner
 exl-id: 85d6361b-6c27-42c0-bac4-774b71625bf8
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
-source-wordcount: '1248'
+source-wordcount: '1239'
 ht-degree: 86%
 
 ---
@@ -119,7 +119,7 @@ E メールデザイナーを適切に使用し、最適な E メールを容易
 
 * リファラーメタタグは、E メールデザイナーではサポートされていません。
 
-メッセージに関するデザインと一般的なベストプラクティスについて詳しくは、ステップバイステップ形式のガイド「[Adobe Campaign の配信のベストプラクティス](https://helpx.adobe.com/jp/campaign/kb/delivery-best-practices.html)」を参照してください。
+メッセージに関するデザインと一般的なベストプラクティスについて詳しくは、ステップバイステップ形式のガイド「[Adobe Campaign の配信のベストプラクティス](../../sending/using/delivery-best-practices.md)」を参照してください。
 
 ### フラグメントの更新 {#email-designer-updates}
 

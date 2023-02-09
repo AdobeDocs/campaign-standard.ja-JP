@@ -9,10 +9,10 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: fa39eb54-9ec0-4aff-94a8-5459f4c496d0
-source-git-commit: 41366b6fa7647dbf0e4e5df71e2755189f4ffc42
+source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
-source-wordcount: '779'
-ht-degree: 93%
+source-wordcount: '768'
+ht-degree: 92%
 
 ---
 
@@ -105,4 +105,4 @@ ht-degree: 93%
 >
 >この公開で **[!UICONTROL profilesAndServicesExt]** API が更新されます。**[!UICONTROL profilesAndServices]** API は更新されません。
 
-Adobe Campaign API について詳しくは、[Adobe IO](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/developing/adding-or-extending-a-resource/updating-the-database-structure.translate.html) で Adobe Campaign に関するドキュメントを参照してください。
+Adobe Campaign Standard API について詳しくは、 [この節](../../api/using/get-started-apis.md).

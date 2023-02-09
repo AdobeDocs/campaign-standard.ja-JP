@@ -6,9 +6,9 @@ role: User
 level: Beginner
 hidefromtoc: true
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
-source-git-commit: 1a2b2ab8b6d23ca021d196909dc3ebdc02fe4e9e
+source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
-source-wordcount: '5357'
+source-wordcount: '5355'
 ht-degree: 7%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 7%
   </tr> 
   <tr> 
    <td> モバイルアプリ用のAdobeLaunch 統合（ベータ版）<br /> </td> 
-   <td> Adobe CampaignとのAdobeLaunch の統合により、Mobile SDK V5 を使用した Campaign での Mobile App Property の有効化がシンプルになり、プロセスが自動化されました。<br /> 詳しくは、 <a href="https://helpx.adobe.com/campaign/kb/configuring-app-sdk.html">詳細なドキュメント</a>.<br /> </td> 
+   <td> Adobe CampaignとのAdobeLaunch の統合により、Mobile SDK V5 を使用した Campaign での Mobile App Property の有効化がシンプルになり、プロセスが自動化されました。<br /> 詳しくは、 <a href="https://helpx.adobe.com/jp/campaign/kb/configuring-app-sdk.html">詳細なドキュメント</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -65,7 +65,7 @@ ht-degree: 7%
 * ワークフローで、ファイル転送アクティビティを使用する際に、SFTP URL を使用して外部アカウントを設定できない問題を修正しました。 （CAMP-26475）
 * サービスの概要レポートが更新されない問題を修正しました。 （CAMP-26301）
 * エンリッチメントアクティビティを使用する際のワークフローで、カスタムフィールドに正しい日付が表示されない問題を修正しました。 （CAMP-26242）
-* ファイルのインポートによってインポートした場合に、サービスの購読登録日が更新されない問題を修正しました。
+* ファイルのインポートによってインポートした場合に、サービスの購読日が更新されない問題を修正しました。
 * ファイルの読み込みアクティビティで、ワークフローがファイルを読み込めないエラーを修正しました (CAMP-27068)。
 * サービスの概要レポートで、間違った購読数が表示されていた問題を修正しました (CAMP-25587)。
 * Adobe AnalyticsとAdobe Campaignのレポートでデータに相違が生じる問題を修正しました。 （CAMP-25393）
@@ -195,7 +195,7 @@ ht-degree: 7%
  <tbody> 
   <tr> 
    <td> GDPR:コアサービスの統合<br /> </td> 
-   <td> Privacy Core Service 統合を使用すると、1 回の JSON API 呼び出しで、複数のソリューションのコンテキストで GDPR リクエストを自動化できます。 <br /> Privacy Core Service からすべてのExperience Cloudソリューションにプッシュされた GDPR 要求は、Campaign で自動的に処理されるようになりました。 <br /> 詳しくは、 <a href="https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=ja">詳細なドキュメント</a>.<br /> </td> 
+   <td> Privacy Core Service 統合を使用すると、1 回の JSON API 呼び出しで、複数のソリューションのコンテキストで GDPR リクエストを自動化できます。 <br /> Privacy Core Service からすべてのExperience Cloudソリューションにプッシュされた GDPR 要求は、Campaign で自動的に処理されるようになりました。 <br /> 詳しくは、 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html">詳細なドキュメント</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> プッシュの改善 — 詳細な配信のフィードバック<br /> </td> 
@@ -297,7 +297,7 @@ _カスタムリソース_
     <ul> 
      <li> アクセス権限：データ主体は、データ管理者により取得された自分の個人データのコピーを受け取ることができます。これには Adobe Campaign に保存されているデータも含まれている場合があります。 </li> 
      <li> 削除権限：データ主体は、データ管理者により取得された自分の個人データを消去させることができます。これには Adobe Campaign に保存されているデータも含まれている場合があります。 </li> 
-    </ul> 詳しくは、<a href="https://docs.campaign.adobe.com/doc/standard/getting_started/en/ACS_GDPR.html">詳細ドキュメント</a>を参照してください。<br /> </td> 
+    </ul> 詳しくは、<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html">詳細ドキュメント</a>を参照してください。<br /> </td> 
   </tr> 
   <tr> 
    <td> E メール用 Creative Designer（ベータ版）<br /> </td> 

@@ -1,6 +1,6 @@
 ---
-title: Microsoft Dynamics 365 統合用の Adobe IO の設定
-description: Microsoft Dynamics 365 統合用のAdobeI/O を設定する方法を説明します。
+title: Microsoft Dynamics 365 統合用のAdobe Developerの設定
+description: Microsoft Dynamics 365 統合用にAdobe Developerを設定する方法を説明します
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
@@ -8,14 +8,14 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Intermediate
 exl-id: ab21b694-d05c-4ba4-b828-936803651b82
-source-git-commit: 602878233e919d01f3972167cb6d3a1acc4cfc02
+source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
 source-wordcount: '625'
-ht-degree: 3%
+ht-degree: 1%
 
 ---
 
-# Microsoft Dynamics 365 統合のAdobe Campaign StandardとAdobe I/Oの設定
+# Microsoft Dynamics 365 統合用のAdobe Campaign StandardとAdobe Developerの設定
 
 この記事では、統合アプリケーションがデータにアクセスできるようにAdobe Campaign StandardとAdobe I/Oを設定する方法について説明します。
 
@@ -43,13 +43,13 @@ Adobe I/Oを使用すると、Adobe Campaign Standardおよびその他のAdobe�
 
 ### 設定
 
-新しいAdobeI/O プロジェクトを作成し、統合用に設定する必要があります。
+新しいAdobe Developerプロジェクトを作成し、統合用に設定する必要があります。
 
 #### 新しいプロジェクトを作成
 
 これをおこなうには、次の手順に従います。
 
-1. に移動します。 [AdobeIO コンソール](https://console.adobe.io/home#) を選択し、画面の右上にあるドロップダウンメニューからAdobe組織 ID を選択します。
+1. に移動します。 [Adobe Developer Console](https://console.adobe.io/home#) を選択し、画面の右上にあるドロップダウンメニューからAdobe組織 ID を選択します。
 
 1. 次に、 **[!UICONTROL Create new project]** under **[!UICONTROL Quick Start]**.
 
@@ -63,13 +63,13 @@ Adobe I/Oを使用すると、Adobe Campaign Standardおよびその他のAdobe�
 
    ![](assets/adobeIO3.png)
 
-1. 次の画面では、独自の公開鍵をアップロードするか、AdobeI/O で鍵のペアを生成するかを選択できます。 これらの手順は、後者のオプションに従います。 AdobeI/O にキーペアを生成させる場合は、「1」オプションをクリックします。次に、 **[!UICONTROL Generate keypair]** 」ボタンをクリックします。
+1. 次の画面では、独自の公開鍵をアップロードするか、Adobe Developerにキーペアを生成させるかの選択が可能です。 これらの手順は、後者のオプションに従います。 Adobe Developerにキーペアを生成させる場合は、「1」オプションをクリックします。次に、 **[!UICONTROL Generate keypair]** 」ボタンをクリックします。
 
    ![](assets/adobeIO4.png)
 
 1. 次の画面で、zip キーペアファイルのダウンロード先を選択し、名前を付けるよう求められます。
 
-ダウンロードが完了したら、ファイルを解凍して、公開鍵と秘密鍵を表示できます。 AdobeI/O は、既にAdobeI/O プロジェクトに公開鍵を適用しています。 後で秘密鍵を保持する必要があります。秘密鍵は、統合ツールの統合前の設定時に使用されます。
+ダウンロードが完了したら、ファイルを解凍して、公開鍵と秘密鍵を表示できます。 Adobe Developerは既にAdobe Developerプロジェクトに公開鍵を適用しています。 後で秘密鍵を保持する必要があります。秘密鍵は、統合ツールの統合前の設定時に使用されます。
 
 1. クリック **[!UICONTROL Next]** 続ける
 
@@ -83,7 +83,7 @@ Adobe I/Oを使用すると、Adobe Campaign Standardおよびその他のAdobe�
 
    ![](assets/adobeIO6.png)
 
-1. 次の画面に、新しいAdobeI/O プロジェクトの詳細が表示されます。 クリック **[!UICONTROL Add to Project]** 画面の左上にあるをクリックし、「 **API** 」をドロップダウンから選択します。
+1. 次の画面に、新しいAdobe Developerプロジェクトの詳細が表示されます。 クリック **[!UICONTROL Add to Project]** 画面の左上にあるをクリックし、「 **API** 」をドロップダウンから選択します。
 
    ![](assets/adobeIO7.png)
 
@@ -101,10 +101,10 @@ Adobe I/Oを使用すると、Adobe Campaign Standardおよびその他のAdobe�
 
 **関連トピック**
 
-* [Microsoft Dynamics 365 統合用のAdobeIO の設定](../../integrating/using/d365-acs-configure-adobe-io.md) は、統合を設定する次の手順です。
+* [Microsoft Dynamics 365 統合用のAdobe Developerの設定](../../integrating/using/d365-acs-configure-adobe-io.md) は、統合を設定する次の手順です。
 * [統合セルフサービスアプリケーションの概要](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md) には、統合を導入および実行する手順の完全なリストが含まれています。
 
 
-* [AdobeIO — サービスアカウント統合](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)
+* [Adobe Developer — サービスアカウントの統合](https://developer.adobe.com/developer-console/docs/guides/#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)
 * [Campaign Standard- API アクセスの設定](../../api/using/setting-up-api-access.md)
 * [Campaign Standard- Dynamics 365 統合](../../integrating/using/d365-acs-configure-d365.md)
