@@ -4,10 +4,10 @@ user-guide-title: Campaign Standard
 user-guide-description: Campaign Standard の使用に必要な主要な機能、タスク、設定、その他のリソースに関するヘルプセンター。
 title: Campaign Standard ガイド
 breadcrumb-title: Adobe Campaign Standard ドキュメント
-source-git-commit: 7243a97bdc8f0b6ecba42b606d048a3fbd322a63
+source-git-commit: f81b8a3b076a6e29b697f21ea4d99fa7d5b6788c
 workflow-type: tm+mt
-source-wordcount: '1822'
-ht-degree: 99%
+source-wordcount: '1814'
+ht-degree: 100%
 
 ---
 
@@ -182,7 +182,6 @@ ht-degree: 99%
       + [エラー発生時のアラートの受信](sending/using/receiving-alerts-when-failures-happen.md)
       + [配信エラーについて](sending/using/understanding-delivery-failures.md)
       + [強制隔離管理について](sending/using/understanding-quarantine-management.md)
-      + [Italia Online の停止後に誤ったハードバウンスを更新する](sending/using/update-bounce-it.md)
    + 配信品質の管理 {#managing-deliverability}
       + [配信品質について](sending/using/about-deliverability.md)
       + [E メールコンテンツの制御](sending/using/control-email-content.md)

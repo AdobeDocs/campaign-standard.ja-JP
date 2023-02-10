@@ -4,16 +4,14 @@ description: ISP が機能停止した後にバウンスの認定条件を更新
 audience: delivery
 hidefromtoc: true
 exl-id: b06e9009-70c7-459f-8a9f-d5b7020d662f
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: f81b8a3b076a6e29b697f21ea4d99fa7d5b6788c
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 70%
+source-wordcount: '425'
+ht-degree: 74%
 
 ---
 
 # ISP 機能停止後のバウンス認定条件の更新 {#update-bounce-qualification.md}
-
-最新バージョンの Campaign を実行していない場合は、この節が適用される場合があります。 Adobe Campaignの担当者にお問い合わせください。
 
 ## コンテキスト
 
