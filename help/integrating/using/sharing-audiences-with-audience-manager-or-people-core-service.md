@@ -45,7 +45,7 @@ Adobe Campaignの People コアサービスからオーディエンス/セグメ
 
 >[!NOTE]
 >
->Adobe AnalyticsからAdobe Campaignにオーディエンスをインポートする場合は、まず People コアサービスまたはAudience Managerでそれらのオーディエンスを共有する必要があります。 このプロセスには 12～24 時間を要し、Campaign との同期にはさらに 24～36 時間が必要です。場合により、オーディエンスの共有プロセスは最大 60 時間に及ぶことがあります。People コアサービスと Audience Manager での Adobe Analytics オーディエンスの共有について詳しくは、この[ドキュメント](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html)を参照してください。
+>Adobe AnalyticsからAdobe Campaignにオーディエンスをインポートする場合は、まず People コアサービスまたはAudience Managerでそれらのオーディエンスを共有する必要があります。 このプロセスには 12～24 時間を要し、Campaign との同期にはさらに 24～36 時間が必要です。場合により、オーディエンスの共有プロセスは最大 60 時間に及ぶことがあります。People コアサービスと Audience Manager での Adobe Analytics オーディエンスの共有について詳しくは、この[ドキュメント](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=ja)を参照してください。
 
 ## オーディエンスのエクスポート {#exporting-an-audience}
 
@@ -80,4 +80,4 @@ Adobe Campaign と People コアサービス間の同期には、24～36 時間�
 **関連トピック：**
 
 * [ワークフロー](../../automating/using/get-started-workflows.md)
-* [Audiences](../../audiences/using/about-audiences.md)
+* [オーディエンス](../../audiences/using/about-audiences.md)

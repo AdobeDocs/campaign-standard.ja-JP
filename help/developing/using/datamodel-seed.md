@@ -88,7 +88,7 @@ ht-degree: 52%
                <tr>
                   <td>lastModified</td>
                   <td>最終変更日</td>
-                  <td>日付 </td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>

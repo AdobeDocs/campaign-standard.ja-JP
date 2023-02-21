@@ -11,7 +11,7 @@ exl-id: ed269751-78ab-4189-89d9-116bf42c0c90
 source-git-commit: eec8c66d4947e04cd0eb3dcf0f09d395d9db68b9
 workflow-type: tm+mt
 source-wordcount: '1365'
-ht-degree: 50%
+ht-degree: 61%
 
 ---
 
@@ -101,7 +101,7 @@ This menu lists quarantined elements for **Email**, **SMS** and **Push notificat
 
 ### 自動更新 {#unquarantine-auto}
 
-特定の条件に一致するアドレスは、データベースクリーンアップワークフローによって強制隔離リストから自動的に削除されます。 テクニカルワークフローについて詳しくは、 [この節](../../administration/using/technical-workflows.md#list-of-technical-workflows).
+特定の条件に一致するアドレスは、データベースクリーンアップワークフローによって強制隔離リストから自動的に削除されます。テクニカルワークフローについて詳しくは、 [この節](../../administration/using/technical-workflows.md#list-of-technical-workflows).
 
 次の場合、アドレスは強制隔離リストから自動的に削除されます。
 
@@ -121,7 +121,7 @@ This menu lists quarantined elements for **Email**, **SMS** and **Push notificat
 
 ### 手動更新 {#unquarantine-manual}
 
-アドレスの強制隔離を手動で解除することもできます。  強制隔離リストからアドレスを手動で削除するには、強制隔離リストからアドレスを削除するか、アドレスのステータスを「 」に変更します **[!UICONTROL Valid]**.
+アドレスの強制隔離を手動で解除することもできます。 強制隔離リストからアドレスを手動で削除するには、強制隔離リストからアドレスを削除するか、アドレスのステータスを「 」に変更します **[!UICONTROL Valid]**.
 
 * 次の中からアドレスを選択します： **[!UICONTROL Administration > Channels > Quarantines > Addresses]** リストと選択 **[!UICONTROL Delete element]**.
 
@@ -134,18 +134,18 @@ This menu lists quarantined elements for **Email**, **SMS** and **Push notificat
 
 ### 一括更新 {#unquarantine-bulk}
 
-例えば、ISP が停止した場合など、強制隔離リストで一括更新を実行する必要が生じる場合があります。 この場合、E メールは受信者に正常に配信できないので、誤ってバウンスとマークされます。 これらのアドレスは、強制隔離リストから削除する必要があります。
+例えば、ISP が停止した場合など、強制隔離リストで一括更新を実行する必要が生じる場合があります。 この場合、メールは受信者に正常に配信されないため、誤ってバウンスとマークされます。強制隔離リストからこれらのアドレスを削除する必要があります。
 
-これを実行するには、ワークフローを作成し、 **[!UICONTROL Query]** 強制隔離テーブルの「 」アクティビティを使用して、影響を受けたすべての受信者を除外します。 特定された後は、強制隔離リストから削除して、今後の Campaign E メール配信に含めることができます。
+これを実行するには、ワークフローを作成し、 **[!UICONTROL Query]** 強制隔離テーブルの「 」アクティビティを使用して、影響を受けたすべての受信者を除外します。 特定されると、それらは強制隔離リストから削除され、今後のキャンペーンメール配信に含めることができます。
 
 インシデントの期間に基づいて、このクエリの推奨ガイドラインを以下に示します。
 
-* **エラーテキスト（強制隔離テキスト）** には、「550-5.1.1」およびが含まれます。 **エラーテキスト（強制隔離テキスト）** には、「support.ISP.com」が含まれます。
+* **エラーテキスト（強制隔離テキスト）**&#x200B;には、「550-5.1.1」が含まれ、かつ&#x200B;**エラーテキスト（強制隔離テキスト）**&#x200B;には、「support.ISP.com」が含まれている
 
-   ここで、「support.ISP.com」は次のようになります。例えば、「support.apple.com」または「support.google.com」と入力します。
+   例えば、「support.ISP.com」は「support.apple.com」または「support.google.com」になります
 
-* **ステータスを更新 (@lastModified)** MM/DD/YYYY HH 以降:MM:午前
-* **ステータスを更新 (@lastModified)** MM/DD/YYYY HH の前またはそれ以前:MM:午後 (SS)
+* **ステータスを更新（@lastModified）**（MM/DD/YYYY HH:MM:SS AM 以降）
+* **ステータスを更新（@lastModified）**（MM/DD/YYYY HH:MM:SS PM 以前）
 
 影響を受ける受信者のリストが揃ったら、 **[!UICONTROL Update data]** アクティビティのメールアドレスのステータスを次に設定： **[!UICONTROL Valid]** したがって、これらは、 **[!UICONTROL Database cleanup]** ワークフロー。 また、強制隔離テーブルから削除するだけでもかまいません。
 

@@ -304,7 +304,7 @@ ht-degree: 33%
                <tr>
                   <td>lastModified</td>
                   <td>最終変更日</td>
-                  <td>日付 </td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
@@ -331,7 +331,7 @@ ht-degree: 33%
                <tr>
                   <td>mainDate</td>
                   <td>日付</td>
-                  <td>日付 </td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
@@ -662,7 +662,7 @@ ht-degree: 33%
     </tr>
     <tr>
     <td>startDate</td>
-    <td>日付</td>
+    <td>date</td>
     </tr>
     <tr>
     <td>timePeriod</td>
@@ -757,11 +757,11 @@ ht-degree: 33%
     </tr>
     <tr>
     <td>startDate</td>
-    <td>日付</td>
+    <td>date</td>
     </tr>
     <tr>
     <td>endDate</td>
-    <td>日付</td>
+    <td>date</td>
     </tr>
 </table>
 
@@ -774,11 +774,11 @@ ht-degree: 33%
     </tr>
     <tr>
     <td>startDate</td>
-    <td>日付</td>
+    <td>date</td>
     </tr>
     <tr>
     <td>endDate</td>
-    <td>日付</td>
+    <td>date</td>
     </tr>
 </table>
 

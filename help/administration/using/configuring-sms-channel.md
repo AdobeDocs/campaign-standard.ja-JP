@@ -238,7 +238,7 @@ GSM エンコードを使用する SMS メッセージは 160 文字以内に制
    <td> æ<br /> </td> 
    <td> -<br /> </td> 
    <td> = </td> 
-   <td> M<br /> </td> 
+   <td> M<br /> を参照してください。 </td> 
    <td> Ñ<br /> </td> 
    <td> m<br /> </td> 
    <td> ñ<br /> </td> 

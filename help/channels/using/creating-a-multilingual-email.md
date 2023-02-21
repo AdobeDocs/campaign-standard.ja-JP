@@ -41,6 +41,6 @@ ht-degree: 24%
    ![](assets/multi_selectcontent.png)
 
 1. メッセージをテストし、検証します。 詳しくは、 [配達確認の送信](../../sending/using/sending-proofs.md) 」セクションに入力します。
-1. で送信をスケジュール設定します。 **[!UICONTROL Send after confirmation option]**.
+1. で送信をスケジュールする **[!UICONTROL Send after confirmation option]**.
 1. E メールが送信されたら、ログとレポートにアクセスして、キャンペーンの成功を測定できます。 レポートについて詳しくは、[この節](../../reporting/using/about-dynamic-reports.md)を参照してください。
 

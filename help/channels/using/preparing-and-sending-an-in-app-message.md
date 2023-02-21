@@ -8,7 +8,7 @@ context-tags: delivery,triggers,back;deliveryCreation,wizard
 feature: In App
 role: User
 exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
-source-git-commit: 708bdc1d5dc1c30d609ba0fa1c17debe403afd72
+source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
 source-wordcount: '1246'
 ht-degree: 84%
@@ -127,7 +127,7 @@ Adobe Campaign を使用してスタンドアロンのアプリ内メッセー�
 
    ![](assets/inapp_sending_2.png)
 
-1. 「**[!UICONTROL Select a test profile]**」ボタンをクリックし、テストプロファイルを 1 つ選択して、配信のプレビューを開始します。テスプロファイルについて詳しくは、[こちら](../../audiences/using/managing-test-profiles.md)を参照してください。
+1. 「**[!UICONTROL Select a test profile]**」ボタンをクリックし、テストプロファイルを 1 つ選択して、配信のプレビューを開始します。テストプロファイルについて詳しくは、[こちら](../../audiences/using/managing-test-profiles.md)を参照してください。
 1. Android、iPhone、タブレットなど、様々なデバイスでのメッセージを確認します。また、パーソナライゼーションフィールドが適切なデータを取得しているかどうかも確認できます。
 
    ![](assets/inapp_sending_3.png)

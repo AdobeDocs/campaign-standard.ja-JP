@@ -28,7 +28,7 @@ Adobe Campaignの画像にアクセスする前に、まずAdobe Targetで次の
 * の作成 [フォームベースの Experience Composer](https://experienceleague.adobe.com/docs/target/using/experiences/form-experience-composer.html) アクティビティ（作成したリダイレクトオファーの数に応じて、rawbox を選択し、複数のエクスペリエンスを指定する必要があります）。 エクスペリエンスごとに、作成したリダイレクトオファーの 1 つを選択する必要があります。
 * Adobe Campaignの情報を使用してセグメントを作成し、エクスペリエンスを指定します。 オファーの選択ルールで Adobe Campaign からのデータを使用するには、Adobe Target のローボックスでデータを指定する必要があります。
 
-1. E メール配信を作成します。
+1. メール配信を作成します。
 1. E メールまたはランディングページのコンテンツを編集する際に、画像ブロックに移動し、「 **[!UICONTROL Dynamic image from Adobe Target]** コンテキストメニューから。
 
    ![](assets/tar_insert_dynamic_image.png)

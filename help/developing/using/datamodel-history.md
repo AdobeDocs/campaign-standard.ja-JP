@@ -112,7 +112,7 @@ ht-degree: 14%
                <tr>
                   <td>created</td>
                   <td>作成日時</td>
-                  <td>日付 </td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
@@ -130,7 +130,7 @@ ht-degree: 14%
                <tr>
                   <td>cusLastTransactionDate</td>
                   <td>最終トランザクション日</td>
-                  <td>日付 </td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
@@ -191,7 +191,7 @@ ht-degree: 14%
                <tr>
                   <td>lastModified</td>
                   <td>最終変更日</td>
-                  <td>日付 </td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
@@ -215,13 +215,13 @@ ht-degree: 14%
                <tr>
                   <td>minBroadLogEvents</td>
                   <td>MinBroadLogEvents</td>
-                  <td>日付 </td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>minSubHistoEvents</td>
                   <td>MinSubHistoEvents</td>
-                  <td>日付 </td>
+                  <td>date </td>
                   <td> </td>
                </tr>
                <tr>
@@ -415,7 +415,7 @@ ht-degree: 14%
 </tr>
 <tr>
 <td>endDay</td>
-<td>日付</td>
+<td>date</td>
 </tr>
 <tr>
 <td>精度</td>
@@ -427,7 +427,7 @@ ht-degree: 14%
 </tr>
 <tr>
 <td>ヶ月</td>
-<td>日付</td>
+<td>date</td>
 </tr>
 <tr>
 <td>演算子</td>
@@ -439,15 +439,15 @@ ht-degree: 14%
 </tr>
 <tr>
 <td>endMonth</td>
-<td>日付</td>
+<td>date</td>
 </tr>
 <tr>
 <td>タイプ</td>
 <td>列挙</td>
 </tr>
 <tr>
-<td>day</td>
-<td>日付</td>
+<td>日</td>
+<td>date</td>
 </tr>
 </table>
 

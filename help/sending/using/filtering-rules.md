@@ -38,7 +38,7 @@ ht-degree: 23%
 これらのデフォルトのフィルタールールに加えて、次の 2 つの除外ルールを使用できます。
 
 * **[!UICONTROL Exclusion of addresses]** ( **[!UICONTROL addressExclusions]** )
-* **[!UICONTROL Exclusion of domains]** ( **[!UICONTROL domainExclusions]** ) をクリックします。
+* **[!UICONTROL Exclusion of domains]** ( **[!UICONTROL domainExclusions]** ).
 
 電子メールの分析時には、配信性能インスタンスで管理された暗号化グローバル抑止リストに含まれている禁止アドレスや禁止ドメイン名がこれらのルールによって照合され、受信者の電子メールアドレスが該当していないかどうかの確認処理が実行されます。該当した場合、その受信者宛てにはメッセージが送信されません。
 

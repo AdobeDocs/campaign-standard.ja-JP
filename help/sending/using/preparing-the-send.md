@@ -11,7 +11,7 @@ exl-id: 0140c41a-7255-4b77-a1b7-c6f7b1135e51
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '459'
-ht-degree: 5%
+ht-degree: 12%
 
 ---
 
@@ -31,11 +31,11 @@ ht-degree: 5%
 
 1. を使用して、いつでも準備を停止できます。 **停止** ボタン（アクションバーにあります）
 
-   準備段階では、メッセージは送信されません。 したがって、何かに影響を与えるリスクを伴わずに、これを開始または停止できます。
+   準備段階では、メッセージは送信されません。そのため、何かに影響を与えるリスクなく、準備を開始または停止できます。
 
    ![](assets/preparing_delivery_6.png)
 
-1. 配信の準備中、メッセージは自動的に保存されます。 準備手順の後で、メッセージのスケジュールを変更する必要がある場合は、必ず **[!UICONTROL Prepare]** 」ボタンを再度クリックして、変更内容を反映させます。 メッセージのスケジュール方法について詳しくは、次を参照してください。 [ページ](../../sending/using/about-scheduling-messages.md).
+1. 配信の準備中、メッセージは自動的に保存されます。 準備手順の後で、メッセージのスケジュールを変更する必要がある場合は、必ず **[!UICONTROL Prepare]** 」ボタンを再度クリックして、変更内容を反映させます。 メッセージのスケジュール方法について詳しくは、 [ページ](../../sending/using/about-scheduling-messages.md).
 
    ![](assets/preparing_delivery_5.png)
 

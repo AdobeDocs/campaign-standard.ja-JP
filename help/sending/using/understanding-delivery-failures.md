@@ -11,7 +11,7 @@ exl-id: 92a83400-447a-4d23-b05c-0ea013042ffa
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
 source-wordcount: '1302'
-ht-degree: 71%
+ht-degree: 72%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 71%
 
 * [強制隔離管理について](../../sending/using/understanding-quarantine-management.md)
 * [Campaign のオプトインとオプトアウトについて](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
-* [バウンス](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)
+* [バウンス数](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)
 
 ## メッセージの配信エラーの識別 {#identifying-delivery-failures-for-a-message}
 
@@ -75,12 +75,12 @@ ht-degree: 71%
 
 
 **関連トピック：**
-* [ハードバウンス](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#hard-bounces)
+* [ハードバウンス](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=ja#hard-bounces)
 * [ソフトバウンス](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#soft-bounces)
 
 ## 一時的な配信エラーの後の再試行 {#retries-after-a-delivery-temporary-failure}
 
-一時的なエラーが原因でメッセージ送信が失敗した場合、配信期間中に再試行がおこなわれます。 エラーのタイプについて詳しくは、[配信エラーのタイプと理由](#delivery-failure-types-and-reasons)を参照してください。
+一時的エラーが原因でメッセージ送信が失敗した場合は、配信期間中に再試行が行われます。エラーのタイプについて詳しくは、[配信エラーのタイプと理由](#delivery-failure-types-and-reasons)を参照してください。
 
 再試行の数（送信の開始後の日に実行する再試行の回数）と、再試行間の最小遅延が現在<!--managed by the Adobe Campaign Enhanced MTA,--> 特定のドメインでの IP の履歴と現在の両方のパフォーマンスに基づきます。 Campaign の&#x200B;**再試行**&#x200B;設定は無視されます。
 

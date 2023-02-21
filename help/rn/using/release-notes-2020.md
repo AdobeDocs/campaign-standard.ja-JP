@@ -19,7 +19,7 @@ ht-degree: 98%
 
 ![](assets/do-not-localize/cp-icon.png) **新しいコントロールパネル 6 月のリリース** - アクティブなプロファイルの監視、サブドメイン配信品質の監査、GPG キー管理。[詳細情報](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ja)。
 
-![](assets/do-not-localize/cp-icon.png) **10 月の新しい Campaign コントロールパネルリリース**&#x200B;で、CNAME を使用したドメイン設定と新しいデータベース監視機能が追加されました。[詳細情報](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html)。
+![](assets/do-not-localize/cp-icon.png) **10 月の新しい Campaign コントロールパネルリリース**&#x200B;で、CNAME を使用したドメイン設定と新しいデータベース監視機能が追加されました。[詳細情報](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ja)。
 
 ## リリース 20.4 - 2020 年 10 月 {#release-20-4---october-2020}
 
@@ -289,7 +289,7 @@ ht-degree: 98%
 * ユーザーがレポートを変更できないエラーを修正しました。（CAMP-42505）
 
 
-![](assets/do-not-localize/cp-icon.png) **Campaign コントロールパネルの 5 月の新しいリリース**&#x200B;で、CNAME サブドメインの証明書を更新できるようになりました。詳しくは、[こちら](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html)を参照してください。
+![](assets/do-not-localize/cp-icon.png) **Campaign コントロールパネルの 5 月の新しいリリース**&#x200B;で、CNAME サブドメインの証明書を更新できるようになりました。詳しくは、[こちら](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ja)を参照してください。
 
 ## リリース 20.2 - 2020 年 4 月 {#release-20-2---april-2020}
 
@@ -327,7 +327,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->Google TXT レコード管理、データベース領域の監視、E メールアラートなど、新しい機能が 4 月に Campaign コントロールパネルにリリースされます。これらの機能について詳しくは、[コントロールパネルリリースノート](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html)を参照してください。
+>Google TXT レコード管理、データベース領域の監視、E メールアラートなど、新しい機能が 4 月に Campaign コントロールパネルにリリースされます。これらの機能について詳しくは、[コントロールパネルリリースノート](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ja)を参照してください。
 
 **強化点**
 

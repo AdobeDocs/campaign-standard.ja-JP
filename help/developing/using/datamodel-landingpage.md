@@ -234,7 +234,7 @@ ht-degree: 9%
       <tr>
          <td>終了</td>
          <td>有効期限</td>
-         <td>日付 </td>
+         <td>date </td>
          <td> </td>
       </tr>
       <tr>
@@ -306,7 +306,7 @@ ht-degree: 9%
       <tr>
          <td>lastModified</td>
          <td>最終変更日</td>
-         <td>日付 </td>
+         <td>date </td>
          <td> </td>
       </tr>
       <tr>
@@ -387,7 +387,7 @@ ht-degree: 9%
       <tr>
          <td>publicationDate</td>
          <td>公開日</td>
-         <td>日付 </td>
+         <td>date </td>
          <td> </td>
       </tr>
       <tr>
@@ -437,7 +437,7 @@ ht-degree: 9%
       <tr>
          <td>開始</td>
          <td>デプロイ日</td>
-         <td>日付 </td>
+         <td>date </td>
          <td> </td>
       </tr>
       <tr>
@@ -741,11 +741,11 @@ ht-degree: 9%
         </tr>
         <tr>
         <td>startDate</td>
-        <td>日付</td>
+        <td>date</td>
         </tr>
         <tr>
         <td>endDate</td>
-        <td>日付</td>
+        <td>date</td>
         </tr>
     </table>
 
@@ -758,10 +758,10 @@ ht-degree: 9%
     </tr>
     <tr>
     <td>startDate</td>
-    <td>日付</td>
+    <td>date</td>
     </tr>
     <tr>
     <td>endDate</td>
-    <td>日付</td>
+    <td>date</td>
     </tr>
 </table>

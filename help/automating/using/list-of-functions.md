@@ -497,7 +497,7 @@ ht-degree: 95%
   <tr> 
    <td> <strong>AllNonNull3</strong><br /> </td> 
    <td> すべてのパラメーターが null でなく空でもないかどうかを示します<br /> </td> 
-   <td> AllNonNull3(&lt;文字列&gt;, &lt;文字列&gt;, &lt;文字列&gt;)<br /> </td> 
+   <td> AllNonNull3(&lt;文字列&gt;, &lt;文字列&gt;, &lt;文字列&gt;)<br /> を参照してください。 </td> 
   </tr> 
   <tr> 
    <td> <strong>ASCII</strong><br /> </td> 
@@ -507,7 +507,7 @@ ht-degree: 95%
   <tr> 
    <td> <strong>Char</strong><br /> </td> 
    <td> ASCII コード「n」に対応する文字を返します<br /> </td> 
-   <td> Char(&lt;数値&gt;)<br /> </td> 
+   <td> Char(&lt;数値&gt;)<br /> を参照してください。 </td> 
   </tr> 
   <tr> 
    <td> <strong>Charindex</strong><br /> </td> 
@@ -522,7 +522,7 @@ ht-degree: 95%
   <tr> 
    <td> <strong>GetLine</strong><br /> </td> 
    <td> 文字列の n 番目（1 から n）のラインを返します<br /> </td> 
-   <td> GetLine(&lt;文字列&gt;)<br /> </td> 
+   <td> GetLine(&lt;文字列&gt;)<br /> を参照してください。 </td> 
   </tr> 
   <tr> 
    <td> <strong>IfEquals</strong><br /> </td> 
@@ -552,7 +552,7 @@ ht-degree: 95%
   <tr> 
    <td> <strong>Left</strong><br /> </td> 
    <td> 文字列の最初の n 文字を返します<br /> </td> 
-   <td> Left(&lt;文字列&gt;, &lt;数値&gt;)<br /> </td> 
+   <td> Left(&lt;文字列&gt;, &lt;数値&gt;)<br /> を参照してください。 </td> 
   </tr> 
   <tr> 
    <td> <strong>Length</strong><br /> </td> 
@@ -562,27 +562,27 @@ ht-degree: 95%
   <tr> 
    <td> <strong>Lower</strong><br /> </td> 
    <td> 文字列を小文字で返します<br /> </td> 
-   <td> Lower(&lt;文字列&gt;)<br /> </td> 
+   <td> Lower(&lt;文字列&gt;)<br /> を参照してください。 </td> 
   </tr> 
   <tr> 
    <td> <strong>Ltrim</strong><br /> </td> 
    <td> 文字列の左側の空白を削除します<br /> </td> 
-   <td> Ltrim(&lt;文字列&gt;)<br /> </td> 
+   <td> Ltrim(&lt;文字列&gt;)<br /> を参照してください。 </td> 
   </tr> 
   <tr> 
    <td> <strong>Md5Digest</strong><br /> </td> 
    <td> 文字列の MD5 キーの 16 進数表現を返します<br /> </td> 
-   <td> Md5Digest(&lt;文字列&gt;)<br /> </td> 
+   <td> Md5Digest(&lt;文字列&gt;)<br /> を参照してください。 </td> 
   </tr> 
   <tr> 
    <td> <strong>MemoContains</strong><br /> </td> 
    <td> パラメーターとして渡す文字列をメモに含めるかどうかを指定します<br /> </td> 
-   <td> MemoContains(&lt;メモ&gt;、&lt;文字列&gt;)<br /> </td> 
+   <td> MemoContains(&lt;メモ&gt;、&lt;文字列&gt;)<br /> を参照してください。 </td> 
   </tr> 
   <tr> 
    <td> <strong>RPad</strong><br /> </td> 
    <td> 右側の完成した文字列を返します<br /> </td> 
-   <td> RPad(&lt;文字列&gt;, &lt;数値&gt;, &lt;文字&gt;)<br /> </td> 
+   <td> RPad(&lt;文字列&gt;, &lt;数値&gt;, &lt;文字&gt;)<br /> を参照してください。 </td> 
   </tr> 
   <tr> 
    <td> <strong>置換</strong><br /> </td> 

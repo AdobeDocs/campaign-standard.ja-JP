@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
 source-git-commit: e41667405b54a7ed0e02889e3002807e4bfd3a05
 workflow-type: tm+mt
-source-wordcount: '1591'
-ht-degree: 100%
+source-wordcount: '1573'
+ht-degree: 98%
 
 ---
 
@@ -95,9 +95,9 @@ Privacy Core Service からプライバシーリクエストを作成する方�
 
 >[!IMPORTANT]
 >
->カスタムの名前空間タイプを使用してリクエストを送信するには、[JSON メソッド](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ja#json){target=&quot;_blank&quot;} を実行してリクエストに namespaceId を追加するか、[API 呼び出し](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=ja#access-delete){target=&quot;_blank&quot;} を使用してリクエストを行います。
+>カスタムの名前空間タイプを使用してリクエストを送信するには、 [JSON メソッド](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ja#json){target="_blank"} and add the namespaceId to the request, or use the [API call](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=ja#access-delete){target="_blank"} をクリックしてリクエストを実行します。
 >
->標準の名前空間タイプを使用して、[プライバシーユーザーインターフェイス](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ja#request-builder){target=&quot;_blank&quot;} のみを使用してリクエストを送信します。
+>次のみを使用： [プライバシーユーザーインターフェイス](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ja#request-builder){target="_blank"} を使用して、標準の名前空間タイプを使用してリクエストを送信します。
 
 Privacy Core Service の各ジョブは、使用されている名前空間の数に基づいて、Campaign の複数のプライバシーリクエストに分割されます。1 つの要求が 1 つの名前空間に対応します。また、1 つのジョブを複数のインスタンスで実行できます。 したがって、1 つのジョブに対して複数のファイルが作成されます。例えば、リクエストに 2 つの名前空間があり、3 つのインスタンスで実行されている場合、合計 6 つのファイルが送信されます。名前空間およびインスタンスごとに 1 つのファイル。
 

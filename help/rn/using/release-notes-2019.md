@@ -531,7 +531,7 @@ ht-degree: 9%
      <li> 次の機能： <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">準備時に URL からコンテンツを自動的に取得する</a> </li> 
      <li> 完全に準拠 <a href="../../designing/using/using-reusable-content.md#content-templates">標準のコンテンツテンプレート</a>. </li> 
     </ul> 
-    <p>詳しくは、<a href="../../designing/using/designing-content-in-adobe-campaign.md">詳細ドキュメント</a>および<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html">ハウツービデオ</a>を参照してください。機能強化および修正点を次に示します。</p><p>その結果、従来の E メールコンテンツエディターは非推奨（廃止予定）となりました。 詳しくは、<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html">このページ</a>を参照してください。</p> </td> 
+    <p>詳しくは、<a href="../../designing/using/designing-content-in-adobe-campaign.md">詳細ドキュメント</a>および<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html">ハウツービデオ</a>を参照してください。機能強化および修正点を次に示します。</p><p>その結果、従来の E メールコンテンツエディターは非推奨（廃止予定）となりました。 詳しくは、<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=ja">このページ</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td> トランザクション E メールの製品リスト<br /> </td> 
