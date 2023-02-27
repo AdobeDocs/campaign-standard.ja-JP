@@ -6,9 +6,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: 6c96a5d294c6e96d20571d176898290c9c026f0b
 workflow-type: tm+mt
-source-wordcount: '1565'
+source-wordcount: '1591'
 ht-degree: 90%
 
 ---
@@ -20,6 +20,10 @@ SMS メッセージを送信するには、管理者が **[!UICONTROL Administra
 外部アカウントの作成と変更の手順について詳しくは、[外部アカウント](../../administration/using/external-accounts.md)の節を参照してください。SMS メッセージを送信する外部アカウントに固有のパラメーターは、次のとおりです。
 
 ## SMS ルーティングの定義 {#defining-an-sms-routing}
+
+>[!IMPORTANT]
+>
+>複数の外部 SMS アカウントに同じアカウントとパスワードを使用すると、アカウント間で競合や重複が生じる可能性があります。 [SMS のトラブルシューティングページ](troubleshooting-sms.md#external-account-conflict)を参照してください。
 
 **[!UICONTROL SMS routing via SMPP]** 外部アカウントはデフォルトで提供されていますが、他のアカウントを追加すると便利です。
 
