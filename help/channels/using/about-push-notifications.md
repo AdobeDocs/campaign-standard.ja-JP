@@ -9,10 +9,10 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: e61daed6-a0ec-49d8-b1ad-77590fafb496
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
 workflow-type: tm+mt
-source-wordcount: '1238'
-ht-degree: 41%
+source-wordcount: '1239'
+ht-degree: 40%
 
 ---
 
@@ -65,7 +65,7 @@ Adobe Campaign では、2 つのプッシュ通知を使用できます。
 
 1. ユーザーがAdobe Campaign Standardで必要な権限を持っていて、Adobe Experience Platformでタグを付けていることを確認します。
 
-1. データ収集 UI で、モバイルプロパティを作成します。 詳しくは、[モバイルプロパティの設定](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property)を参照してください。
+1. データ収集 UI で、モバイルプロパティを作成します。 詳しくは、[モバイルプロパティの設定](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/)を参照してください。
 
 1. データ収集 UI で、 **[!UICONTROL Adobe Campaign Standard]** 拡張子。
 
@@ -88,7 +88,7 @@ Adobe Campaign では、2 つのプッシュ通知を使用できます。
 
 ### Campaign でプッシュトークンを取得するには、何をする必要がありますか？ {#push-token-acquisition}
 
-プロビジョニングチームがAdobe Campaign Standardでプッシュチャネルのプロビジョニングを完了していることを確認します。 SDK から setPushIdentifier API を実装します。 詳しくは、この[ページ](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#set-up-push-messaging)を参照してください。
+プロビジョニングチームがAdobe Campaign Standardでプッシュチャネルのプロビジョニングを完了していることを確認します。 SDK から setPushIdentifier API を実装します。 詳しくは、この[ページ](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/#set-up-push-messaging)を参照してください。
 
 ### Campaign でプッシュトークンと ECID を取得したら、プッシュ通知を送信する他に必要なことは何ですか？ {#sending-push}
 
@@ -145,7 +145,7 @@ Android の場合、Campaign はデータペイロードのみをサポートし
 以下の手順に従います。
 
 * プッシュトラッキングポストバックを設定します。 説明が見つかります [ここ](../../administration/using/configuring-a-mobile-application.md).
-* Mobile Core から trackAction API を実装します。 詳しくは、 [ページ](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference) を参照してください。
+* Mobile Core から trackAction API を実装します。 詳しくは、 [ページ](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/) を参照してください。
 
 詳しい手順については、こちらを参照してください。 [ページ](../../administration/using/push-tracking.md).
 

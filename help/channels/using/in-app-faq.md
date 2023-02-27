@@ -8,10 +8,10 @@ context-tags: delivery,triggers,back
 feature: In App
 role: User
 exl-id: 0101773d-b109-49a3-89d4-b4bb226d9ebd
-source-git-commit: 462ebaf8e8f1f056aa92118226ef77aea37b972b
+source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
 workflow-type: tm+mt
 source-wordcount: '668'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 2%
 * プロファイルテンプレートを使用して作成されたメッセージは、ユーザーがアプリにログインしたときにのみ提供されます。
 * この安全なハンドシェイクを容易にするために、モバイルアプリ開発者は setLinkageField API を使用して追加の認証の詳細を渡す必要があります。 リンケージフィールドは、appSubscriberRcp テーブルを拡張する際に、モバイルプロファイルと CRM プロファイルの間のリンクとして識別されるフィールドです。
 * resetLinkageField を使用してユーザーがアプリからログアウトしたときに、デバイスと resetLinkagefields に保存されているアプリ内メッセージをフラッシュする必要があります。 これにより、別のユーザーがアプリにログインしても、以前のユーザー向けのメッセージは表示されなくなります。
-* 参照： [モバイル SDK API](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference) このセキュリティメカニズムを実装するには、クライアント側を使用します。
+* 参照： [モバイル SDK API](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/) このセキュリティメカニズムを実装するには、クライアント側を使用します。
 
 ## Campaign でアプリ内レポートを有効にするには、何をおこなう必要がありますか？ {#enable-inapp-reporting}
 

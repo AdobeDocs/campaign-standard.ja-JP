@@ -6,9 +6,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 3cd8d756-a271-4e53-8ed0-984ce20298bc
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '947'
 ht-degree: 1%
 
 ---
@@ -29,9 +29,9 @@ Adobe Campaign Standardは、次の使用例をサポートしています。
 
 これらの使用例を設定するには、次の拡張機能が必要です。
 
-* **[!DNL Adobe Campaign Standard]** <br>拡張機能のインストールとCampaign Standardについては、 [データ収集 UI でのCampaign Standard拡張機能の設定](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#configure-the-campaign-standard-extension-in-experience-platform-launch).
-* **[!DNL Mobile Core]**：自動的にインストールされます。 <br>Mobile Core 拡張機能について詳しくは、 [Mobile Core](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core).
-* **[!DNL Profile]**：自動的にインストールされます。 <br>Profile 拡張機能について詳しくは、 [プロファイル](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/profile).
+* **[!DNL Adobe Campaign Standard]** <br>拡張機能のインストールとCampaign Standardについては、 [データ収集 UI でのCampaign Standard拡張機能の設定](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/#configure-the-campaign-standard-extension).
+* **[!DNL Mobile Core]**：自動的にインストールされます。 <br>Mobile Core 拡張機能について詳しくは、 [Mobile Core](https://developer.adobe.com/client-sdks/documentation/mobile-core/).
+* **[!DNL Profile]**：自動的にインストールされます。 <br>Profile 拡張機能について詳しくは、 [プロファイル](https://developer.adobe.com/client-sdks/documentation/profile/).
 
 ## モバイルプロファイルのCampaign Standard {#register-mobile-profile}
 
@@ -42,7 +42,7 @@ iOSでは、次の [!DNL Experience Platform APIs] は必須です。
 * **[!UICONTROL Lifecycle Start]**、アプリの起動時とアプリがフォアグラウンドになっているとき。
 * **[!UICONTROL Lifecycle Pause]**（アプリがバックグラウンドになっている場合）
 
-詳しくは、 [iOSのライフサイクル拡張](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/lifecycle/lifecycle-extension-in-ios).
+詳しくは、 [iOSのライフサイクル拡張](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/ios/).
 
 iOSでのこの使用例の実装例を次に示します。
 
@@ -85,7 +85,7 @@ Android では、次のようになります。 [!DNL Experience Platform APIs] 
 * **[!UICONTROL OnResume]**
 * **[!UICONTROL OnPause]**
 
-詳しくは、 [Android のライフサイクル拡張機能](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/lifecycle/lifecycle-extension-in-android).
+詳しくは、 [Android のライフサイクル拡張機能](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/android/).
 
 Android でのこの使用例の実装例を次に示します。
 
@@ -112,7 +112,7 @@ public void onResume() {
 
 iOSでは、次の [!DNL Experience Platform SDK] は必須です。
 
-* **[!UICONTROL setPushIdentifier]** <br>詳しくは、 [setPushIdentifier](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference#setpushidentifier).
+* **[!UICONTROL setPushIdentifier]** <br>詳しくは、 [setPushIdentifier](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/).
 
 iOSのこの使用例の実装例を次に示します。
 
@@ -127,7 +127,7 @@ func application(_ application: UIApplication, didRegisterForRemoteNotifications
 
 Android では、次のようになります。 [!DNL Experience Platform SDK] は必須です。
 
-* **[!UICONTROL setPushIdentifier]** <br>詳しくは、 [setPushIdentifier](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference#setpushidentifier).
+* **[!UICONTROL setPushIdentifier]** <br>詳しくは、 [setPushIdentifier](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/).
 
 Android でのこの使用例の実装例を次に示します。
 
@@ -187,7 +187,7 @@ iOSでは、次の [!DNL Experience Platform APIs] は必須です。
 * **[!UICONTROL Lifecycle Start]**、アプリの起動時とアプリがフォアグラウンドになっているとき。
 * **[!UICONTROL Lifecycle Pause]**（アプリがバックグラウンドになっている場合）
 
-詳しくは、 [iOSのライフサイクル拡張](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/lifecycle/lifecycle-extension-in-ios).
+詳しくは、 [iOSのライフサイクル拡張](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/ios/).
 
 iOSでのこの使用例の実装例を次に示します。
 
@@ -230,7 +230,7 @@ Android では、次のようになります。 [!DNL Experience Platform APIs] 
 * **[!UICONTROL OnResume]**
 * **[!UICONTROL OnPause]**
 
-詳しくは、 [Android のライフサイクル拡張機能](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/lifecycle/lifecycle-extension-in-android).
+詳しくは、 [Android のライフサイクル拡張機能](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/android/).
 
 Android でのこの使用例の実装例を次に示します。
 
@@ -259,7 +259,7 @@ public void onResume() {
 
 iOSでは、次の [!DNL Experience Platform SDK] は必須です。
 
-* **[!UICONTROL trackAction]**.詳しくは、 [アプリのアクションの追跡](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#track-app-actions).
+* **[!UICONTROL trackAction]**.詳しくは、 [アプリのアクションの追跡](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction).
 
 iOSでのこの使用例の実装例を次に示します。
 
@@ -276,7 +276,7 @@ if (deliveryId != nil && broadlogId != nil) {
 Android では、次のようになります。 [!DNL Experience Platform SDK] は必須です。
 
 * **[!UICONTROL trackAction]**
-詳しくは、 [アプリのアクションの追跡](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#track-app-actions).
+詳しくは、 [アプリのアクションの追跡](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction).
 
 Android でのこの使用例の実装例を次に示します。
 
@@ -293,7 +293,7 @@ MobileCore.trackAction("tracking", contextData);
 
 iOSでは、次の [!DNL Experience Platform SDK] は必須です。
 
-* **[!UICONTROL trackAction]**.詳しくは、 [アプリのアクションの追跡](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#track-app-actions).
+* **[!UICONTROL trackAction]**.詳しくは、 [アプリのアクションの追跡](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction).
 
 iOSでのこの使用例の実装例を次に示します。
 
@@ -306,7 +306,7 @@ ACPCore.trackAction(mobileEventName, data: [:] )
 Android では、次のようになります。 [!DNL Experience Platform SDK] は必須です。
 
 * **[!UICONTROL trackAction]**
-詳しくは、 [アプリのアクションの追跡](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#track-app-actions).
+詳しくは、 [アプリのアクションの追跡](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction).
 
 Android でのこの使用例の実装例を次に示します。
 
@@ -320,8 +320,8 @@ MobileCore.trackAction(mobileEventText, new HashMap<String,String>());
 
 iOSのアプリ内メッセージに基づくプロファイルテンプレートの追加認証用のリンケージフィールドを設定するには、次の手順を実行します。 [!DNL Experience Platform SDK] は必須です。
 
-* リンケージフィールドを設定 <br>詳しくは、 [リンケージフィールドを設定](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference#set-linkage-fields).
-* リンケージフィールドをリセット <br>詳しくは、 [リンケージフィールドをリセット](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference#reset-linkage-fields).
+* リンケージフィールドを設定 <br>詳しくは、 [リンケージフィールドを設定](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/#setlinkagefields).
+* リンケージフィールドをリセット <br>詳しくは、 [リンケージフィールドをリセット](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/#setlinkagefields).
 
 iOSでのこの使用例の実装例を以下に示します。
 
@@ -343,8 +343,8 @@ ACPCampaign.resetLinkageFields(linkageFields)
 
 Android のアプリ内メッセージに基づくプロファイルテンプレートの追加認証用のリンケージフィールドを設定するには、次のExperience PlatformSDK が必要です。
 
-* リンケージフィールドを設定 <br>詳しくは、 [リンケージフィールドを設定](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference#set-linkage-fields).
-* リンケージフィールドをリセット <br>詳しくは、 [リンケージフィールドをリセット](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard/adobe-campaign-standard-api-reference#reset-linkage-fields).
+* リンケージフィールドを設定 <br>詳しくは、 [リンケージフィールドを設定](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/#setlinkagefields).
+* リンケージフィールドをリセット <br>詳しくは、 [リンケージフィールドをリセット](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/#resetlinkagefields).
 
 Android でのこの使用例の実装例を以下に示します。
 

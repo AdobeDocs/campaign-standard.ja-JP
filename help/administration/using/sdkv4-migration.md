@@ -6,7 +6,7 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: eb7a209e-069e-4068-966d-05344bd838c7
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
 workflow-type: tm+mt
 source-wordcount: '1193'
 ht-degree: 1%
@@ -55,7 +55,7 @@ AdobeSDK のバージョンを v4 からAdobe Experience Platformにアップグ
 * 移行する前に、必ず **[!UICONTROL Organizational unit]** 移行するモバイルアプリケーションと、移行に使用するAdobe Experience Platformアプリケーションの両方。
 * 移行後、アプリケーションはAdobe Experience Platform SDK アプリケーションになります。 変更は、対応するタグにリンクされます **[!UICONTROL Mobile Property]**.
 
-1. 新しい **[!UICONTROL Mobile property]** （データ収集 UI）を参照してください。 詳しくは、 [ドキュメント](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#create-a-mobile-property).
+1. 新しい **[!UICONTROL Mobile property]** （データ収集 UI）を参照してください。 詳しくは、 [ドキュメント](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/).
 
 1. Adobe Campaign Standardの詳細設定メニューで、「 」を選択します。 **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Workflows]** をクリックし、 **[!UICONTROL syncWithLaunch]** ワークフロー。 ワークフローがエラーなく終了したかどうかを確認します。
 

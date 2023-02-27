@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
+source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
 workflow-type: tm+mt
-source-wordcount: '7229'
-ht-degree: 100%
+source-wordcount: '7230'
+ht-degree: 99%
 
 ---
 
@@ -330,7 +330,7 @@ Enhanced MTA の詳細がコアドキュメントに追加されました。特�
 
 E メール BCC でのアーカイブに関する節が移動され、更新されました。[詳細を表示](../../sending/using/archiving.md)
 
-モバイルアプリケーションの設定ドキュメントと関連ページが更新され、SDK V4 が非推奨になっていることが反映されています。[詳細を表示](https://aep-sdks.gitbook.io/docs/version-4-sdk-end-of-support-faq)
+モバイルアプリケーションの設定ドキュメントと関連ページが更新され、SDK V4 が非推奨になっていることが反映されています。[詳細を表示](https://developer.adobe.com/client-sdks/documentation/v4-end-of-life-faq/)
 
 Adobe Campaign Standard／Adobe Experience Manager の統合に関するドキュメントが更新され、改訂されました。[詳細を表示](../../integrating/using/configure-experience-manager.md)
 

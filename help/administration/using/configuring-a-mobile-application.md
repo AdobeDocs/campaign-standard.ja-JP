@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: 884cd5e9c09aa85e744ca06b202eb46f73a33a76
+source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
 workflow-type: tm+mt
-source-wordcount: '1260'
-ht-degree: 4%
+source-wordcount: '1262'
+ht-degree: 3%
 
 ---
 
@@ -46,9 +46,9 @@ Adobe Experience Platform SDK を使用してAdobe Campaign Standardでサポー
 
    拡張機能のインストール、アプリの公開、環境の設定などの追加のタスクを完了するには、製品プロファイルに権限を設定する必要があります。
 
-1. データ収集 UI で、 **[!UICONTROL Mobile property]**. 詳しくは、[モバイルプロパティの設定](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property)を参照してください。
+1. データ収集 UI で、 **[!UICONTROL Mobile property]**. 詳しくは、[モバイルプロパティの設定](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property)を参照してください。
 
-1. データ収集 UI で、 **[!UICONTROL Extensions]** タブ、移動 **[!UICONTROL Catalog]**&#x200B;を検索し、 **[!UICONTROL Adobe Campaign Standard]** 拡張子。 詳しくは、 [Adobe Campaign Standard](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard).
+1. データ収集 UI で、 **[!UICONTROL Extensions]** タブ、移動 **[!UICONTROL Catalog]**&#x200B;を検索し、 **[!UICONTROL Adobe Campaign Standard]** 拡張子。 詳しくは、 [Adobe Campaign Standard](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard).
 
 1. 場所の使用例をサポートするには、Campaign Standardで **[!UICONTROL Places]** 拡張機能を使用して、データ収集 UI に追加できます。 この[ページ](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html)を参照してください。
 
@@ -121,7 +121,7 @@ Launch からのモバイルアプリ AEPSDK の同期テクニカルワーク�
 
 1. この設定を有効にするには、変更をデータ収集 UI で公開する必要があります。
 
-   詳しくは、 [公開設定](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property#publish-configuration).
+   詳しくは、 [公開設定](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/#publish-the-configuration)
 
 ## Adobe Campaignでのチャネル固有のアプリケーション設定 {#channel-specific-config}
 
@@ -163,7 +163,7 @@ Launch からのモバイルアプリ AEPSDK の同期テクニカルワーク�
 >
 >アプリケーションの削除を元に戻すことはできません。
 
-アプリケーションを削除するには、 [モバイルプロパティの削除](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#deleting-mobile-properties-in-experience-platform-launch).
+アプリケーションを削除するには、 [モバイルプロパティの削除](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/#deleting-mobile-properties-in-the-data-collection-ui).
 
 アプリケーションを削除した後、Adobe Campaignで、アプリケーションのプロパティのステータスが Launch で正しく「削除済み」に更新されているかどうかを確認します。
 

@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 6b3c189d-8ddd-4dc0-8831-65ae62e04c70
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
 workflow-type: tm+mt
-source-wordcount: '909'
-ht-degree: 5%
+source-wordcount: '910'
+ht-degree: 2%
 
 ---
 
@@ -36,7 +36,7 @@ Adobe Experience Platform SDK とCampaign Standardの統合について詳しく
 
 はい、 [!DNL Adobe Experience Platform SDK] 統合は、Adobe Campaign StandardとAdobe Campaign Classicの両方で使用できます。 対応する **[!UICONTROL Extension]** 経由 [!DNL Data Collection UI] をクリックして、統合を有効にします。
 
-詳しくは、この[ページ](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard)を参照してください。
+詳しくは、 [ページ]https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard) です。
 
 ## Adobe CampaignでAdobe Experience Platform SDK を統合すると、どのような機能が容易になりますか？ {#aep-capabilities}
 
@@ -65,16 +65,16 @@ Adobe Experience Platform SDK とCampaign Standardの統合について詳しく
 1. の設定 **[!UICONTROL Mobile property]** in [!DNL Launch].
 1. Adobe Campaign Standard拡張機能をインストールします。 Adobe Campaign Standard拡張機能には、 **[!UICONTROL Mobile Core]**, **[!UICONTROL Profile]** および **[!UICONTROL Lifecycle]** デフォルトでインストールされる拡張機能 [!DNL Launch].
    * ユーザーは、でセッションタイムアウトを設定する必要があります。 **[!UICONTROL Mobile Core]** ライフサイクルイベントの頻度に影響する拡張機能。
-   * 拡張機能が設定されたら、ユーザーは、iOS用 Cocoapods と Android 用 Gradle を使用して、モバイルアプリに適切な依存関係を追加する必要があります。 指示に従う [ここ](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard).
+   * 拡張機能が設定されたら、ユーザーは、iOS用 Cocoapods と Android 用 Gradle を使用して、モバイルアプリに適切な依存関係を追加する必要があります。 指示に従う [ここ](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard).
    * 常に最新バージョンのライブラリを使用してください。
-   * モバイルアプリで、を登録します。 **[!UICONTROL Campaign]**, **[!UICONTROL UserProfile]**, **[!UICONTROL Identity]**, **[!UICONTROL Lifecycle]** および **[!UICONTROL Signal]** 拡張機能。 指示に従う [ここ](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard#register-the-campaign-standard-extension-with-mobile-core).
+   * モバイルアプリで、を登録します。 **[!UICONTROL Campaign]**, **[!UICONTROL UserProfile]**, **[!UICONTROL Identity]**, **[!UICONTROL Lifecycle]** および **[!UICONTROL Signal]** 拡張機能。 指示に従う [ここ](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/#register-the-campaign-standard-extension-with-mobile-core).
    * 拡張機能が登録されたら、ACPCore を起動します。 Android の場合は、必ず setApplication onCreate() を使用してください。 Launch のモバイルプロパティに関するモバイルインストール手順に記載されている手順に従います。
-   * 以下の SDK API も必要です。 ライフサイクル開始および一時停止 API の実装（説明を参照） [ここ](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/lifecycle/lifecycle-extension-in-android) Android の場合は、ここはiOSの場合。
+   * 以下の SDK API も必要です。 ライフサイクル開始および一時停止 API の実装（説明を参照） [ここ](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/android) Android の場合は、ここはiOSの場合。
 1. の設定 **[!UICONTROL Mobile Property]** Adobe Campaign Standard 手順に従います。 [ここ](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
 
 ## Campaign でモバイルプロファイルをエンリッチメントするには、何をおこなう必要がありますか？ {#enrich-mobile-profile}
 
-CollectPII ポストバックを設定する必要があります ( [ページ](../../administration/using/configuring-rules-launch.md#pii-postback)) を実装し、SDK から CollectPII API を実装します（これを参照）。 [ページ](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#collect-pii)) をクリックします。
+CollectPII ポストバックを設定する必要があります ( [ページ](../../administration/using/configuring-rules-launch.md#pii-postback)) を実装し、SDK から CollectPII API を実装します（これを参照）。 [ページ](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference)) をクリックします。
 
 ## CollectPII 呼び出しは、どのくらいの頻度で実行する必要がありますか？ {#collect-pii}
 
@@ -96,9 +96,9 @@ CollectPII 呼び出しの頻度と設計は、ビジネスニーズに基づい
 
 以下のリソースを確認します。
 
-* Experience PlatformSDK [ドキュメント](https://aep-sdks.gitbook.io/docs/)
-* Launch &amp;Experience PlatformSDK の概要 [ドキュメント](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property)
-* Experience PlatformSDK へのアップグレード [ドキュメント](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep)
+* Experience PlatformSDK [ドキュメント](https://developer.adobe.com/client-sdks/documentation/)
+* Launch &amp;Experience PlatformSDK の概要 [ドキュメント](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/)
+* Experience PlatformSDK へのアップグレード [ドキュメント](https://developer.adobe.com/client-sdks/documentation/upgrade-platform-sdks)
 * GithubExperience PlatformSDK [ドキュメント](https://github.com/Adobe-Marketing-Cloud/acp-sdks/)
 
 ## プッシュ通知配信の作成中に、「配信に対する書き込みアクセス権がありません」というエラーが表示されます。 {#write-access-error}
