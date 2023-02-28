@@ -9,10 +9,10 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: ed2e3793-6164-48af-9043-42dc43fa8ed4
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: c2c8d2d05bbc376e2153448ca0a9e6ba0f367420
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 95%
+source-wordcount: '558'
+ht-degree: 78%
 
 ---
 
@@ -42,13 +42,10 @@ ht-degree: 95%
 
    オーディエンスの保存、データベースの更新などを実行できます。
 
-例えば、非標準のデータをデータベースにインポートするために、データの読み込みアクティビティの後に「**[!UICONTROL Reconciliation]**」アクティビティを配置できます。
+例えば、 **[!UICONTROL Reconciliation]** 「 」アクティビティは、「データの読み込み」アクティビティの後に配置して、非標準のデータをデータベースに読み込むことができます。
 
-**関連トピック：**
+また、 **エンリッチメント** 「 」アクティビティを使用すると、ワークフローで処理する追加のデータを定義できます ( **エンリッチメント** 「 」アクティビティを使用して、複数のセットからのデータを組み合わせたり、一時的なリソースへのリンクを作成したりできます。 **紐付け** 「 」アクティビティを使用すると、識別されていないデータを既存のリソースにリンクできます。 紐付け操作は、リンクされたディメンションのデータが既にデータベースに存在することを意味します。 使用例は、 [この節](#use-cases-reconciliation).
 
-* [使用例：関係を使用したデータの紐付け](../../automating/using/reconciliation-using-relations.md)
-* [使用例：紐付けを使用したデータの更新](../../automating/using/data-update-reconciliation.md)
-* [使用例：ファイルオーディエンスとデータベースとの紐付け](../../automating/using/reconcile-file-audience-with-database.md)
 
 ## 設定 {#configuration}
 
@@ -70,3 +67,12 @@ ht-degree: 95%
    * **[!UICONTROL Keep in the outbound population]**：インバウンドトランジションからのすべてのデータは、アクティビティのアウトバウンドトランジションに保持されます。
 
 1. アクティビティの設定を確認し、ワークフローを保存します。
+
+
+## ユースケース{#use-cases-reconciliation}
+
+このアクティビティの使用方法については、次の使用例を参照してください。
+
+* [使用例：関係を使用したデータの紐付け](../../automating/using/reconciliation-using-relations.md)
+* [使用例：紐付けを使用したデータの更新](../../automating/using/data-update-reconciliation.md)
+* [使用例：ファイルオーディエンスとデータベースとの紐付け](../../automating/using/reconcile-file-audience-with-database.md)
