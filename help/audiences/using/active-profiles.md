@@ -5,20 +5,20 @@ feature: Profiles
 role: User
 level: Intermediate
 exl-id: 22516348-7695-4579-99eb-480e5b723ccc
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 0ae2501b5c3ecf6dc9562bb53b5354c52aff7323
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 14%
+source-wordcount: '266'
+ht-degree: 12%
 
 ---
 
 # アクティブなプロファイル{#active-profiles}
 
-Campaign 機能管理者は、 **[!UICONTROL Customer metrics]** から報告 **[!UICONTROL Administration > Customer metrics]**.
+アクティブなプロファイルの詳細には、 **[!UICONTROL Customer metrics]** レポート。 このレポートは、Campaign 機能管理者のみが使用できます。 このレポートにアクセスするには、 [ユーザーインターフェイス](../../start/using/interface-description.md#advanced-menu)をクリックし、 **[!UICONTROL Administration > Customer metrics]**.
 
 ![](assets/audience_customer_metrics.png)
 
-このレポートは、毎月 **[!UICONTROL Billing]** テクニカルワークフローと、 **アクティブなプロファイル**.
+このレポートは、毎月 **[!UICONTROL Billing]** テクニカルワークフローと、 **アクティブなプロファイル**. テクニカルワークフローの詳細については、 [このページ](../../administration/using/technical-workflows.md).
 
 「プロファイル」とは、エンド顧客、見込み客、またはリードを表す情報の記録です。 プロファイルは考慮されます **アクティブ** 過去 12 ヶ月以内に任意のチャネルを介して Campaign 配信のターゲットにされている場合。
 
