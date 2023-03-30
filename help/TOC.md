@@ -4,10 +4,10 @@ user-guide-title: Campaign Standard
 user-guide-description: Campaign Standard の使用に必要な主要な機能、タスク、設定、その他のリソースに関するヘルプセンター。
 title: Campaign Standard ガイド
 breadcrumb-title: Adobe Campaign Standard ドキュメント
-source-git-commit: f81b8a3b076a6e29b697f21ea4d99fa7d5b6788c
+source-git-commit: d7e0912dd7d19a1f5dd2172235f28a40e130cac1
 workflow-type: tm+mt
-source-wordcount: '1814'
-ht-degree: 100%
+source-wordcount: '1818'
+ht-degree: 99%
 
 ---
 
@@ -121,6 +121,7 @@ ht-degree: 100%
    + トランザクションメッセージ {#transactional-messaging}
       + [トランザクションメッセージの基本を学ぶ](channels/using/getting-started-with-transactional-msg.md)
       + [ベストプラクティスと制限事項](channels/using/transactional-messaging-limitations.md)
+      + [トランザクションメッセージの権限の更新](channels/using/transactional-message-permission.md)
       + イベント設定 {#event-configuration}
          + [トランザクションイベントの設定](channels/using/configuring-transactional-event.md)
          + [トランザクションイベントの公開](channels/using/publishing-transactional-event.md)
