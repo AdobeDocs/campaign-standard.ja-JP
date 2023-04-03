@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: bba1461acf0db47fd2eefca30f5e759c503a6dc7
+source-git-commit: f04fd1542dc3b8ccd5e9fe53edd206061edbc3c5
 workflow-type: tm+mt
-source-wordcount: '114'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -17,6 +17,11 @@ ht-degree: 100%
 
 ![コントロールパネル](assets/do-not-localize/cp-icon.png) **新しいコントロールパネルのリリース**。[詳細情報](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ja){target="_blank"}.
 
+## リリース 22.3.2 {#feb-23}
+
+### セキュリティアップデート{#rn-security2}
+
+このリリースには、次のセキュリティアップグレードが含まれています。Debian が v11.0 にアップグレードされました。
 
 ## リリース 22.3 - 2022年秋／冬 {#sept-22}
 
