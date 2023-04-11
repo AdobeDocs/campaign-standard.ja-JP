@@ -5,14 +5,33 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 8c722084-988d-47bd-98ad-9f5a422980a0
-source-git-commit: 77c5baaf51b82ea001326f3f20c8ab183155f9e6
+source-git-commit: 362f1f6605bc9667a80cddf2bd1bef4338cda31a
 workflow-type: tm+mt
-source-wordcount: '1098'
+source-wordcount: '1201'
 ht-degree: 100%
 
 ---
 
 # リリースノート 2022{#release-notes-2022}
+
+## リリース 22.3.2 {#feb-23}
+
+### セキュリティアップデート{#rn-security2}
+
+このリリースには、次のセキュリティアップグレードが含まれています。Debian が v11.0 にアップグレードされました。
+
+## リリース 22.3 - 2022年秋／冬 {#sept-22}
+
+### セキュリティアップデート{#rn-security}
+
+このリリースには、次のセキュリティアップグレードが含まれています。Apache Tomcat が v7.0 から v8.0 にアップグレードされました。
+
+### 修正点{#rn-fixes}
+
+* スケジュールされたタイミングの 1 時間前にトリガーされた予定レポートの問題を修正しました。 （CAMP-51502）
+* 配信ダッシュボードの配信指標が送信ログ（nms:broadLogRcp）と一致しなかった問題を修正しました。 （CAMP-51127）
+* ACS コネクタ（プライムオファー）でカスタムリソースを拡張できない問題を修正しました。 （CAMP-51033）
+* 遅延を避けるために、プライバシーリクエスト応答の公開プロセスを改善しました。 （CAMP-50613）
 
 ## リリース 22.2 - 2022年6月 {#june-2022}
 
