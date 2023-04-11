@@ -5,7 +5,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 362f1f6605bc9667a80cddf2bd1bef4338cda31a
+source-git-commit: f9bd5901d68c09ba20d5d48d263f4818c2e1e86a
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 16%
@@ -25,7 +25,7 @@ ht-degree: 16%
 * SMS メッセージングサービスが改善され、安定性が向上しました。 （CAMP-52217）
 * Adobeでは、アプリケーションの全体的な使いやすさを改善するために、多くのアクセシビリティを修正しました。 アクセシビリティの改善例をいくつか示します。
    * 多くの画面で、インターフェイスのキーボードのアクセシビリティが最適化されています。
-   * アプリケーションがタッチスクリーンユーザーに対してエンチャンスされました。
+   * タッチスクリーンユーザー向けにアプリが強化されました。
    * インターフェイス全体での複数の項目の色が変更され、可視性が向上しました。
 
 ### その他の変更 {#e-rn-changes}
