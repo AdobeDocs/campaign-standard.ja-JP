@@ -9,7 +9,7 @@ role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
 source-git-commit: 362f1f6605bc9667a80cddf2bd1bef4338cda31a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '420'
 ht-degree: 100%
 
@@ -40,11 +40,11 @@ ht-degree: 100%
  </thead>
  <tbody>
   <tr>
-   <td>ステージング </td>
+   <td>ステージ </td>
    <td>2023年4月11日（PT）～2023年7月 </td>
   </tr>
   <tr>
-   <td>Production（本番） </td>
+   <td>実稼動 </td>
    <td>2023年4月18日（PT）～2023年7月 </td>
   </tr>
  </tbody>
