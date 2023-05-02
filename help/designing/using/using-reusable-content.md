@@ -11,7 +11,7 @@ exl-id: 64c3d3dd-0c41-4dbc-abcd-9ddea23759f4
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '1819'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -154,7 +154,7 @@ E メールを作成し、先ほど作成したコンテンツテンプレート
 >[!CONTEXTUALHELP]
 >id="ac_fragments"
 >title="フラグメントについて"
->abstract="フラグメントは、1 つ以上の E メールで参照できる再利用可能なコンテンツブロックです。"
+>abstract="フラグメントは、1 つ以上のメールで参照できる再利用可能なコンテンツブロックです。"
 
 フラグメントは、1 つ以上の E メールで参照できる再利用可能なコンポーネントです。
 これらは、の下のインターフェイスにあります。 **リソース** > **コンテンツフラグメントとテンプレート**.
@@ -249,7 +249,7 @@ E メールデザイナーで E メールを編集する際に、その E メー
 
 * パーソナライゼーションフィールド、動的コンテンツ、別のフラグメントを含む構造をフラグメントとして保存することはできません。
 * 互いに隣接する構造のみを選択できます。
-<!-- - You cannot select an empty structure.-->
+   <!-- - You cannot select an empty structure.-->
 
 1. E メールデザイナーで E メールを編集する際に、 **[!UICONTROL Save as fragment]** を選択します。
 

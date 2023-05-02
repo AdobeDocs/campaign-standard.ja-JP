@@ -11,7 +11,7 @@ exl-id: d5c72f69-68a2-4523-956f-f265ae79b470
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '721'
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 
@@ -48,7 +48,7 @@ E メールのコンテンツは、Experience Managerで編集し、Adobe Campai
 >[!CONTEXTUALHELP]
 >id="ac_product_listing"
 >title="製品リストの使用"
->abstract="製品リストを使用すると、データ収集を参照し、E メールコンテンツに表示できます。"
+>abstract="製品リストを使用すると、データ収集を参照し、メールコンテンツに表示できます。"
 
 製品リストでは、E メールコンテンツ内の 1 つ以上のデータコレクションを参照できます。 これらのリストは、トランザクション E メールで使用できます。 この機能に関する専用の節を利用できます。 [ここ](../../designing/using/using-product-listings.md).
 

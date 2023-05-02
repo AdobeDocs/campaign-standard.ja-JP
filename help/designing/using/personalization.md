@@ -11,7 +11,7 @@ exl-id: 3ea58bcf-234e-4dac-b296-da3f57e18a7d
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '2583'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 5%
 
 Adobe Campaignが配信するメッセージのコンテンツと表示は、様々な方法でパーソナライズできます。 これらの方法は、プロファイルに応じた条件に従って組み合わせることができます。 Adobe Campaign には、全体として次のようなパーソナライゼーション機能が備わっています。
 
-* パーソナライゼーションフィールドの動的な挿入：[パーソナライゼーションフィールドの挿入](#inserting-a-personalization-field)を参照してください。
+* 動的パーソナライゼーションフィールドの挿入[パーソナライゼーションフィールドの挿入](#inserting-a-personalization-field)を参照してください。
 * 定義済みパーソナライゼーションブロックの挿入：[コンテンツブロックの追加](#adding-a-content-block)を参照してください。
 * E メールの送信者をパーソナライズします。 詳しくは、 [送信者のパーソナライズ](#personalizing-the-sender).
 * E メールの件名をパーソナライズします。 詳しくは、 [E メールの件名行のパーソナライズ](../../designing/using/subject-line.md#subject-line).
-* 条件付きコンテンツの作成：詳しくは、 [E メールでの動的コンテンツの定義](#defining-dynamic-content-in-an-email).
+* 条件付きコンテンツの作成詳しくは、 [E メールでの動的コンテンツの定義](#defining-dynamic-content-in-an-email).
 
 ## 送信者のパーソナライズ {#personalizing-the-sender}
 
@@ -335,7 +335,7 @@ E メールは次のように作成されます。
 >[!CONTEXTUALHELP]
 >id="ac_dynamic_image"
 >title="動的画像の管理"
->abstract="定義する条件に従って、動的画像を含む E メールをパーソナライズします。"
+>abstract="定義する条件に従って、動的画像を含むメールをパーソナライズします。"
 
 この例では、画像に適用される動的コンテンツは次のように設定されます。
 

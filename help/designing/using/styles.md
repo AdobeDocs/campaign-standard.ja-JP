@@ -11,7 +11,7 @@ exl-id: 8daeb12d-4170-464f-ba33-afb681f72a91
 source-git-commit: 5435e1dbfbe08399c488322320ac5bb8e681a79d
 workflow-type: tm+mt
 source-wordcount: '1038'
-ht-degree: 25%
+ht-degree: 27%
 
 ---
 
@@ -102,7 +102,7 @@ E メールデザイナーインターフェイスを使用すると、パディ
 >[!CONTEXTUALHELP]
 >id="ac_edition_backgroundimage"
 >title="背景設定"
->abstract="E メールデザイナーを使用すると、コンテンツの背景色や背景画像をパーソナライズできます。背景画像は、すべての E メールクライアントでサポートされているわけではありません。"
+>abstract="メールデザイナーでは、コンテンツの背景色や背景画像をパーソナライズできます。なお、背景画像は、一部のメールクライアントではサポートされていません。"
 
 電子メールデザイナーで背景を設定する際の推奨事項は次のとおりです。
 

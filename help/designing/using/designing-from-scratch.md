@@ -11,7 +11,7 @@ exl-id: 052d24b7-d3e0-41d7-8b2c-92bd3addb3a2
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '1239'
-ht-degree: 21%
+ht-degree: 27%
 
 ---
 
@@ -27,7 +27,7 @@ E メールデザイナーを使用して E メールコンテンツを最初か
 1. 画像を追加し、E メールのテキストを編集します。 [画像の挿入](../../designing/using/images.md#inserting-images)を参照してください。
 1. パーソナライゼーションフィールドやリンクなどを追加して E メールをパーソナライズします。 詳しくは、 [パーソナライゼーションフィールドの挿入](../../designing/using/personalization.md#inserting-a-personalization-field), [リンクの挿入](../../designing/using/links.md#inserting-a-link) および [E メールでの動的コンテンツの定義](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
 1. 電子メールの件名行を定義します。 詳しくは、 [E メールの件名行のパーソナライズ](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
-1. E メールのプレビュー.
+1. メールのプレビュー.
 1. コンテンツを保存し、オーディエンスを定義し、送信を適切にスケジュールしたことを確認した後、メッセージを続行します。
 
 また、 [紹介ビデオ](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true).
@@ -86,7 +86,7 @@ E メールの構造を編集するには：
 >[!CONTEXTUALHELP]
 >id="ac_edition_preheader"
 >title="プリヘッダーの使用"
->abstract="プリヘッダーを使用すると、E メールの開封率を高める短い概要テキストを設定できます。"
+>abstract="プリヘッダーを使用すると、メールの開封率を高める短い概要テキストを設定できます。"
 
 プリヘッダーは、インボックスから E メールを表示する際に件名の後に続く短い概要テキストです。 プリヘッダーは、より高い開封率を提供します。
 
@@ -105,7 +105,7 @@ E メールの構造を編集するには：
 >[!CONTEXTUALHELP]
 >id="ac_content_components"
 >title="コンテンツコンポーネントについて"
->abstract="コンテンツコンポーネントは、空のコンテンツプレースホルダーで、電子メールを作成するために編集できます。"
+>abstract="コンテンツコンポーネントは、メールの作成に編集できる空のコンテンツプレースホルダーです。"
 
 コンテンツコンポーネントは生の空コンポーネントで、E メールに配置すると編集できます。
 
@@ -180,7 +180,7 @@ E メールデザイナーで使用可能なコンポーネントのリストを
 >[!CONTEXTUALHELP]
 >id="ac_edition_carousel"
 >title="カルーセル設定"
->abstract="コンテンツにカルーセルを挿入して設定する方法を説明します。カルーセルは、すべての電子メールクライアントで機能するわけではなく、サポートされていない場合はフォールバック画像が表示されます。"
+>abstract="コンテンツにカルーセルを挿入して設定する方法を説明します。カルーセルは、一部のメールクライアントで機能せず、サポートされていない場合はフォールバック画像が表示されます。"
 
 1. 次をドラッグ&amp;ドロップ： **[!UICONTROL Carousel]** コンポーネントを構造コンポーネント内に配置します。
 1. コンピューターから画像を参照して選択します。
