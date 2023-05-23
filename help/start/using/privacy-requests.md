@@ -8,10 +8,10 @@ feature: Privacy
 role: User
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
-source-git-commit: e41667405b54a7ed0e02889e3002807e4bfd3a05
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1573'
-ht-degree: 98%
+source-wordcount: '1559'
+ht-degree: 95%
 
 ---
 
@@ -45,7 +45,7 @@ Adobe Campaign には、Adobe Campaign に保存されているデータに対�
 
 プライバシーリクエストを作成する前に、使用する名前空間を定義する必要があります。名前空間は、Adobe Campaign データベースでデータ主体を識別するために使用するキーです。標準では、E メールと携帯電話の 2 つの名前空間を使用できます。別の名前空間（例えば、プロファイルのカスタムフィールド）が必要な場合は、次の手順に従います。
 
-名前空間の作成方法については、この[チュートリアル](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/namespaces-for-privacy-requests.html?lang=ja#privacy)も参照してください。
+名前空間の作成方法については、この[チュートリアル](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/namespaces-for-privacy-requests.html#privacy)も参照してください。
 
 >[!NOTE]
 >
@@ -91,13 +91,13 @@ Adobe Campaign には、Adobe Campaign に保存されているデータに対�
 
 Privacy Core Service 統合を使用すると、単一の JSON API の呼び出しで、複数のソリューションのコンテキストでプライバシーリクエストを自動化できます。Privacy Core Service からすべての Experience Cloud ソリューションにプッシュされたプライバシーリクエストは、専用のワークフローで Campaign によって自動的に処理されます。
 
-Privacy Core Service からプライバシーリクエストを作成する方法については、[Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ja) のドキュメントを参照してください。
+Privacy Core Service からプライバシーリクエストを作成する方法については、[Experience Platform Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html) のドキュメントを参照してください。
 
 >[!IMPORTANT]
 >
->カスタムの名前空間タイプを使用してリクエストを送信するには、 [JSON メソッド](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ja#json){target="_blank"} and add the namespaceId to the request, or use the [API call](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=ja#access-delete){target="_blank"} をクリックしてリクエストを実行します。
+>カスタムの名前空間タイプを使用してリクエストを送信するには、 [JSON メソッド](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html#json){target="_blank"} and add the namespaceId to the request, or use the [API call](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html#access-delete){target="_blank"} をクリックしてリクエストを実行します。
 >
->次のみを使用： [プライバシーユーザーインターフェイス](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ja#request-builder){target="_blank"} を使用して、標準の名前空間タイプを使用してリクエストを送信します。
+>次のみを使用： [プライバシーユーザーインターフェイス](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html#request-builder){target="_blank"} を使用して、標準の名前空間タイプを使用してリクエストを送信します。
 
 Privacy Core Service の各ジョブは、使用されている名前空間の数に基づいて、Campaign の複数のプライバシーリクエストに分割されます。1 つの要求が 1 つの名前空間に対応します。また、1 つのジョブを複数のインスタンスで実行できます。 したがって、1 つのジョブに対して複数のファイルが作成されます。例えば、リクエストに 2 つの名前空間があり、3 つのインスタンスで実行されている場合、合計 6 つのファイルが送信されます。名前空間およびインスタンスごとに 1 つのファイル。
 
@@ -125,7 +125,7 @@ Privacy Core Service の各ジョブは、使用されている名前空間の�
 
 プロファイルリソース（独自タイプ）にリンクされるカスタムリソースを作成した場合は、そのリソースも考慮されます。例えば、プロファイルリソースにリンクしているトランザクションリソースと、そのトランザクションリソースにリンクしているトランザクション詳細リソースがある場合、両方のリソースが考慮されます。
 
-また、カスタムリソースの修正方法に関する[このチュートリアル](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/custom-resources-for-privacy-requests.html?lang=ja#privacy)も参照してください。
+また、カスタムリソースの修正方法に関する[このチュートリアル](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/custom-resources-for-privacy-requests.html#privacy)も参照してください。
 
 これを機能させるには、カスタムリソースで **[!UICONTROL Deleting the target record implies deleting records referenced by the link]** オプションを選択する必要があります。
 

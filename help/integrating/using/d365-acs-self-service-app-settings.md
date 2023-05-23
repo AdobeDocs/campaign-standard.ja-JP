@@ -8,10 +8,10 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Intermediate
 exl-id: 184bc656-2107-4380-9b35-148cb4380547
-source-git-commit: f75df49e7957437df72c814aa9055d34770f22d6
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '792'
-ht-degree: 5%
+source-wordcount: '778'
+ht-degree: 3%
 
 ---
 
@@ -55,7 +55,7 @@ SFTP サーバーを設定するもう 1 つの理由は、オプトイン/オ�
 
 >[!IMPORTANT]
 >
->SFTP フォルダーにアクセスしてダウンロードする情報は、ユーザーが担当します。 情報に個人データが含まれる場合、お客様は、適用されるプライバシーに関する法令に準拠する責任を負います。 [詳細情報](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-privacy)。
+>SFTP フォルダーにアクセスしてダウンロードする情報は、ユーザーが担当します。 情報に個人データが含まれる場合、お客様は、適用されるプライバシーに関する法令に準拠する責任を負います。 [詳細情報](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-privacy)
 
 Microsoft Dynamics 365 統合の Campaign SFTP 設定を定義するには、次のセクションにアクセスします。
 
@@ -77,15 +77,15 @@ Microsoft Dynamics 365 統合の Campaign SFTP 設定を定義するには、次
 
 を使用した SFTP 管理の確認 [キャンペーンCampaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja) 以下の節で説明します。
 
-* [SFTP 管理について](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=ja#sftp-management)
+* [SFTP 管理について](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html#sftp-management)
 
-* [SFTP ストレージ管理](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html?lang=en#installing-ssh-key)
+* [SFTP ストレージ管理](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html#installing-ssh-key)
 
-* [IP 範囲を追加](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/ip-range-allow-listing.html?lang=en#sftp-management)
+* [IP 範囲を追加](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/ip-range-allow-listing.html#sftp-management)
 
-* [キーの管理](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html?lang=en#sftp-management)
+* [キーの管理](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html#sftp-management)
 
-* [SFTP サーバーにログオンする](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/logging-into-sftp-server.html?lang=en#sftp-management)
+* [SFTP サーバーにログオンする](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/logging-into-sftp-server.html#sftp-management)
 
 設定が完了したら、秘密鍵で SFTP サーバーにログインし、「d365_loads/exports」ディレクトリを作成します。
 

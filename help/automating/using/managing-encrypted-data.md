@@ -8,9 +8,9 @@ feature: Workflows
 role: Data Architect
 level: Experienced
 exl-id: 1df1552a-6578-47eb-ba14-fb91cd2a3999
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '914'
 ht-degree: 35%
 
 ---
@@ -25,7 +25,7 @@ PII データを含む場合など、Campaign サーバーをインポートす�
 
 >[!NOTE]
 >
->Campaign コントロールパネルは、AWS でホストされるすべてのお客様が利用できます（自分のマーケティングインスタンスをオンプレミスでホストするお客様を除く）。
+>コントロールパネルは、AWS でホストされるすべてのお客様が利用できます（自分のマーケティングインスタンスをオンプレミスでホストするお客様を除く）。
 
 Campaign コントロールパネルを使用する資格がない場合は、Adobeカスタマーケアに連絡して、インスタンスに必要な暗号化/復号化コマンドを提供してもらう必要があります。 これをおこなうには、次の内容を示すリクエストを送信します。
 
@@ -49,7 +49,7 @@ Campaign コントロールパネルを使用する資格がない場合は、Ad
 
 このユースケースを実行する手順は次のとおりです。
 
-1. Campaign コントロールパネルを使用して、キーペア（公開鍵と秘密鍵）を生成します。詳細な手順については、[Campaign コントロールパネルのドキュメント](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=ja#decrypting-data)を参照してください。
+1. コントロールパネルを使用して、キーペア（公開鍵と秘密鍵）を生成します。詳細な手順については、[コントロールパネルのドキュメント](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=ja#decrypting-data)を参照してください。
 
    * 公開鍵は外部システムと共有され、外部システムはこのキーを使用して Campaign に送信するデータを暗号化します。
    * 秘密鍵は、受信する暗号化されたデータを復号化するために Campaign で使用されます。
@@ -93,7 +93,7 @@ Campaign コントロールパネルを使用する資格がない場合は、Ad
 
 このユースケースを実行する手順は次のとおりです。
 
-1. GPG ユーティリティを使用して GPG キーペア（公開鍵／秘密鍵）を生成し、公開キーを Campaign コントロールパネルにインストールします。詳細な手順については、[Campaign コントロールパネルのドキュメント](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html#encrypting-data)を参照してください。
+1. GPG ユーティリティを使用して GPG キーペア（公開鍵／秘密鍵）を生成し、公開キーを コントロールパネルにインストールします。詳細な手順については、[コントロールパネルのドキュメント](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html#encrypting-data)を参照してください。
 
    ![](assets/gpg_install.png)
 

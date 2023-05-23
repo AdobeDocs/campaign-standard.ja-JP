@@ -6,10 +6,10 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 4b9834ab-0f7c-419e-a210-77a018ba874d
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 72%
+source-wordcount: '931'
+ht-degree: 71%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 72%
 
 ユーザーは、常にセキュリティグループにリンクされている必要があります。これにより、ユーザーに特定の役割や組織単位を割り当てることができます。ユーザーのアクセスを制限するには、ユーザーをキャンペーンに追加しないでください **[!UICONTROL Standard Users]** これがリンクされているのでグループ化 **[!UICONTROL All]** 組織単位。
 
-役割の詳細については、次の表に、ユーザーの役割に応じて使用できる操作を示します。 [Adobe Campaign Standard認証](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en).
+役割の詳細については、次の表に、ユーザーの役割に応じて使用できる操作を示します。 [Adobe Campaign Standard認証](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf).
 
 デフォルトのセキュリティグループは次のとおりです。
 

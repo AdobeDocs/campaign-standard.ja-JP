@@ -8,9 +8,9 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: ecf88c7d-6729-4b3a-85c4-60427bb57442
-source-git-commit: affd4f9716235a283df20de5539e43c4832762f7
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '709'
 ht-degree: 84%
 
 ---
@@ -96,7 +96,7 @@ ht-degree: 84%
     <tr> 
    <td> Adobe Journey Orchestration<br /> </td> 
    <td> 標準のアクションを使用して、AdobeJourney OrchestrationのコンテキストでAdobe Campaign Standardのトランザクションメッセージ機能を使用して、E メール、プッシュ通知、SMS を送信できます。<br /> </td> 
-   <td> <a href="https://experienceleague.adobe.com/docs/journeys/using/action-journeys/working-with-adobe-campaign.html?lang=en">AdobeJourney OrchestrationとAdobe Campaign Standardの使用</a><br /> </td> 
+   <td> <a href="https://experienceleague.adobe.com/docs/journeys/using/action-journeys/working-with-adobe-campaign.html">AdobeJourney OrchestrationとAdobe Campaign Standardの使用</a><br /> </td> 
   </tr> 
   <tr> 
    <td> Adobe Dreamweaver<br /> </td> 

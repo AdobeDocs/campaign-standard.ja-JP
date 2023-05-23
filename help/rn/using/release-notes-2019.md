@@ -6,9 +6,9 @@ role: User
 level: Beginner
 hidefromtoc: true
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
-source-git-commit: 1a2b2ab8b6d23ca021d196909dc3ebdc02fe4e9e
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '7558'
+source-wordcount: '7556'
 ht-degree: 9%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 9%
    <ul>
     <li>アクセス権と削除権：GDPR 用に追加された機能を活用します。<a href="https://helpx.adobe.com/content/help/jp/campaign/kb/acs-privacy.html#righttoaccess">詳細情報</a> </li>
     <li><p>プライバシーリクエストを作成する際のプライバシーコアサービスに、規制のタイプ（GDPR または CCPA）が追加されました。 すべてのアクセス要求と削除要求に対して、このメソッドを使用する必要があります。アクセス要求および削除要求に対する Campaign API およびインターフェイスの使用は廃止されています。<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=ja">廃止および削除された機能の記事</a>を参照してください。</p></li>
-    <li>A <strong>CCPA オプトアウト</strong> ユーザーが個人情報の販売をオプトアウトしたかどうかをAdobe Campaignユーザーが追跡できるように、プロファイルリソースにフィールドが追加されました。 <a href="https://helpx.adobe.com/jp/campaign/kb/acs-privacy.html#ccpa">詳細情報</a>。</li>
+    <li>A <strong>CCPA オプトアウト</strong> ユーザーが個人情報の販売をオプトアウトしたかどうかをAdobe Campaignユーザーが追跡できるように、プロファイルリソースにフィールドが追加されました。 <a href="https://helpx.adobe.com/jp/campaign/kb/acs-privacy.html#ccpa">詳細情報</a></li>
   </ul>
     <p><a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">ハウツービデオ</a>を参照してください。</p>
 </td> 
@@ -224,7 +224,7 @@ ht-degree: 9%
 * 一意のプロファイルに対して複数のトリガーを受信した場合に、トリガーが破棄される可能性がある問題を修正しました。
 * ログイン後に誤ったカスタムリソースの公開エラーメッセージが表示される問題を修正しました。
 * カスタムリソースを作成または拡張すると空白のページが表示される問題を修正しました。
-* appSubscriptionrcp をターゲティングディメンションとして使用するオーディエンスが、モバイル配信でのターゲティングに使用できない問題を修正しました。
+* appSubscriptionrcp をターゲティングディメンションとして持つオーディエンスが、モバイル配信でのターゲティングに使用できない問題を修正しました。
 * ハードバウンス E メールアドレスが強制隔離されないエラーを修正しました。 （CAMP-24587）
 * タイポロジルールを追加し、タイポロジを保存する前に削除すると発生していた問題を修正しました。 （CAMP-32789）
 * 動的コンテンツを無効にした場合に、ランディングページのコンテンツが表示されない可能性がある問題を修正しました。 （CAMP-32924）

@@ -7,9 +7,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: b6032160-fd8b-4a19-b868-b2fb85e6a56b
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1280'
 ht-degree: 77%
 
 ---
@@ -103,7 +103,7 @@ Campaign で組織の新しいエンティティを追加したり、別のサ�
 
    * 実稼動 URL :XXX.campaign.adobe.com
 
-1. **配信テンプレートの作成**  — 新しいブランドが使用可能になったら、ベストプラクティスは、この新しいブランドを参照する新しい空の配信テンプレートを少なくとも 1 つ作成することです。 [詳細情報](#linking-a-brand-to-a-template)。
+1. **配信テンプレートの作成**  — 新しいブランドが使用可能になったら、ベストプラクティスは、この新しいブランドを参照する新しい空の配信テンプレートを少なくとも 1 つ作成することです。 [詳細情報](#linking-a-brand-to-a-template)
 
 1. **配信品質のガイドラインを確認する**  — 新しいドメインの使用を開始する前に、その戦略をAdobe配信品質チームと話し合う必要があります。 例えば、ドメイン間で IP を分割するために新しいアフィニティを作成する必要がある場合や、ランプアッププランを定義する必要がある場合に、ベストプラクティスを定義するのに役立ちます。 配信品質のベストプラクティスの詳細を説明します [この節](../../sending/using/about-deliverability.md).
 

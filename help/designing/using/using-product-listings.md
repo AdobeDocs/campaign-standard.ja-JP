@@ -9,9 +9,9 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: 3c8ddd46-05b4-4414-ab2e-052d60da09e5
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '847'
 ht-degree: 79%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 79%
 
 トランザクションメッセージに放棄された製品のリストを追加するには、次の手順に従います。
 
-また、 [このビデオセット](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html?lang=en#configure-product-listings-in-transactional-emails) トランザクション用の e メールで製品リストを設定するために必要な手順について説明します。
+また、 [このビデオセット](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html#configure-product-listings-in-transactional-emails) トランザクション用の e メールで製品リストを設定するために必要な手順について説明します。
 
 >[!NOTE]
 >

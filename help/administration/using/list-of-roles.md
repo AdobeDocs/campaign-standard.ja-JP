@@ -6,10 +6,10 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 00714c80-bdaf-4241-bf2f-51498ca1dbef
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 75%
+source-wordcount: '229'
+ht-degree: 72%
 
 ---
 
@@ -37,7 +37,7 @@ Adobe Campaign には、ユーザーやユーザーグループに割り当て�
 
 詳しくは、[役割と権限の対応表](/help/administration/using/assets/acs_rights.pdf)を参照してください。この表には、選択した権限に応じて、インターフェイスで使用できる機能の詳細が示されています。
 
-[![画像](assets/user_management_3.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=en)
+[![画像](assets/user_management_3.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
 
 **関連トピック：**
 

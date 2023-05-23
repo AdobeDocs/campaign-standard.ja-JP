@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1262'
-ht-degree: 3%
+source-wordcount: '1260'
+ht-degree: 4%
 
 ---
 
@@ -42,7 +42,7 @@ Adobe Experience Platform SDK を使用してAdobe Campaign Standardでサポー
    * Adobe Campaign Standardで、IMS ユーザーが Standard User および Administrator 製品プロファイルに含まれていることを確認します。 この手順を使用すると、ユーザーはAdobe Campaign Standardにログインし、Experience PlatformSDK モバイルアプリページに移動して、データ収集 UI で作成したモバイルアプリのプロパティを表示できます。
 
    * データ収集 UI で、IMS ユーザーが製品プロファイルに含まれていることをExperience Platform Launchします。
-この手順では、ユーザーはデータ収集 UI にログインして、プロパティを作成および表示できます。 データ収集 UI の製品プロファイルについて詳しくは、 [製品プロファイルの作成](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/manage-permissions.html?lang=en#gain-admin-rights-for-a-tags-product-profile). 製品プロファイルには、会社やプロパティに対する権限は設定されていませんが、ユーザーは引き続きログインできます。
+この手順では、ユーザーはデータ収集 UI にログインして、プロパティを作成および表示できます。 データ収集 UI の製品プロファイルについて詳しくは、 [製品プロファイルの作成](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/manage-permissions.html#gain-admin-rights-for-a-tags-product-profile). 製品プロファイルには、会社やプロパティに対する権限は設定されていませんが、ユーザーは引き続きログインできます。
 
    拡張機能のインストール、アプリの公開、環境の設定などの追加のタスクを完了するには、製品プロファイルに権限を設定する必要があります。
 

@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
-source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '863'
-ht-degree: 64%
+source-wordcount: '857'
+ht-degree: 63%
 
 ---
 
@@ -44,7 +44,7 @@ Campaign Standard 機能の差し迫った削除／置換を伝達するため�
  <tbody> 
   <tr> 
    <td> <p> Campaign Standard21.3 リリースより、Audience Destinations サービスとの統合は非推奨（廃止予定）になります。 </p>
-   <p>新しい実装の場合、Audience Destinations サービスをAdobe Campaign Standardと統合できなくなりました。 ただし、ソースと宛先を使用して Campaign とAdobe Experience Platformを統合することはできます。 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=en">詳細情報</a>。</p>
+   <p>新しい実装の場合、Audience Destinations サービスをAdobe Campaign Standardと統合できなくなりました。 ただし、ソースと宛先を使用して Campaign とAdobe Experience Platformを統合することはできます。 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html">詳細情報</a></p>
      <em>削除予定：2023 年</em></p>
      </td> 
   </tr> 
@@ -60,7 +60,7 @@ Campaign Standard 機能の差し迫った削除／置換を伝達するため�
  <tbody> 
   <tr> 
    <td> <p> Campaign Standard21.3 リリースより、Adobe Experience Platform Data Connector との統合は非推奨（廃止予定）になります。 </p>
-   <p>新しい実装の場合、Adobe Experience Platform Data Connector とAdobe Campaign Standardを統合できなくなりました。 ただし、ソースと宛先を使用して Campaign とAdobe Experience Platformを統合することはできます。 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html?lang=en">詳細情報</a>。</p>
+   <p>新しい実装の場合、Adobe Experience Platform Data Connector とAdobe Campaign Standardを統合できなくなりました。 ただし、ソースと宛先を使用して Campaign とAdobe Experience Platformを統合することはできます。 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html">詳細情報</a></p>
      <em>削除予定：2023 年</em></p>
      </td> 
   </tr> 
@@ -111,7 +111,7 @@ Campaign Standard 機能の差し迫った削除／置換を伝達するため�
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p> Campaign 20.1 リリースより、SDK v4 は非推奨（廃止予定）になります。 <a href="https://developer.adobe.com/client-sdks/documentation/v4-end-of-life-faq/">詳細情報</a>。</p><br/>
+   <td> <p> Campaign 20.1 リリースより、SDK v4 は非推奨（廃止予定）になります。 <a href="https://developer.adobe.com/client-sdks/documentation/v4-end-of-life-faq/">詳細情報</a></p><br/>
    <p>この <a href="https://developer.adobe.com/client-sdks/documentation/">Adobe Experience Platform Mobile SDK</a> （旧称 v5）は、今後のAdobe Experience Cloudの機能のみをサポートするようになりました。</p>
    <p>2021 年 8 月 31 日以降、お客様は引き続きバージョン 4 の SDK をダウンロードして使用できますが、カスタマーケアのサポートやフォーラムへのアクセスは利用できません。</p>
    <p>SDK v4 からAdobe Experience Platform Mobile SDK に移行する方法を説明します <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">このページ</a>.</p></br>
@@ -129,7 +129,7 @@ Campaign Standard 機能の差し迫った削除／置換を伝達するため�
  <tbody> 
   <tr> 
    <td> <p>21.2 リリース以降、アクセス要求および削除要求に対する Campaign API およびインターフェイスの使用は廃止されます。2 段階のプロファイルの削除は使用できません。 <a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service">Adobe Privacy Core Service</a> を使用します。</p></br>
-   <p><a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html?lang=ja">プライバシーリクエストの管理</a>も参照してください。</p>
+   <p><a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html">プライバシーリクエストの管理</a>も参照してください。</p>
   </td> 
   </tr> 
  </tbody> 

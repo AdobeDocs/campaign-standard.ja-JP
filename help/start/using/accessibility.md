@@ -8,10 +8,10 @@ feature: Campaigns
 role: User
 level: Intermediate
 exl-id: 958f7beb-ab41-4492-bc0a-e9e342e3c12e
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '650'
-ht-degree: 100%
+source-wordcount: '648'
+ht-degree: 98%
 
 ---
 
@@ -126,4 +126,4 @@ Adobe Campaign Standard では、誰でも使いやすくなるように、ア�
 
 [アドビのアクセシビリティフィードバックフォーム](https://www.adobe.com/accessibility/feedback.html)を使用して、改善の提案とアクセシビリティに関する問題についてご意見をお寄せください。
 
-また、[Adobe Campaign Standard のリリースノート](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html?lang=ja#release-notes)を参照して、最新の改善点と機能をチェックしてください。
+また、[Adobe Campaign Standard のリリースノート](https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html#release-notes)を参照して、最新の改善点と機能をチェックしてください。

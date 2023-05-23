@@ -8,10 +8,10 @@ feature: Reporting
 role: Leader
 level: Beginner
 exl-id: 8980bf05-60a8-4360-a354-445e1faeb5b2
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1271'
-ht-degree: 6%
+source-wordcount: '1269'
+ht-degree: 5%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 6%
 
 ディメンションと指標の互換性について詳しくは、この [表](/help/reporting/using/assets/dynamic_report_compatibility.pdf). 2 つのコンポーネントに互換性がない場合、セルに値が表示されます **なし**.
 
-[![画像](assets/dynamic_report_compatibility.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=en)
+[![画像](assets/dynamic_report_compatibility.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf)
 
 ## ディメンション {#dimensions}
 
