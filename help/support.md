@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: b164942b-0f1c-473e-bf78-f10ec3374244
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '569'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -85,7 +85,7 @@ FAQ、ベストプラクティス、オンラインリソース、サポート�
 ### コントロールパネルとは
 
 コントロールパネルを使用すると、各インスタンスの設定を管理し、使用状況をトラッキングできるので、Campaign Standard の製品管理者としての作業の効率を高めるのに役立ちます。
-詳しくは、[ここをクリック](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html#discover-control-panel)してください。
+詳しくは、[ここをクリック](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja#discover-control-panel)してください。
 
 >[!NOTE]
 >
@@ -93,7 +93,7 @@ FAQ、ベストプラクティス、オンラインリソース、サポート�
 
 ### コントロールパネルにアクセスするには？
 
-コントロールパネルは、Adobe Experience Cloud から直接利用できます。 詳しくは、[ここをクリック](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html#discover-control-panel)してください。
+コントロールパネルは、Adobe Experience Cloud から直接利用できます。 詳しくは、[ここをクリック](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=ja#discover-control-panel)してください。
 
 ### コントロールパネルのよくある質問（FAQ）
 
@@ -107,9 +107,9 @@ Campaign コントロールパネルの FAQ にアクセスするには、[こ�
 
 サブドメインとその証明書を監視できます。 詳細情報：
 
-* [サブドメインのブランディング](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html#subdomains-and-certificates)
-* [新しいサブドメインの設定](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html#subdomains-and-certificates)
-* [SSL 証明書の監視](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#subdomains-and-certificates)
+* [サブドメインのブランディング](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=ja#subdomains-and-certificates)
+* [新しいサブドメインの設定](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=ja#subdomains-and-certificates)
+* [SSL 証明書の監視](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html?lang=ja#subdomains-and-certificates)
 
 ## ヘルプのリクエスト
 
