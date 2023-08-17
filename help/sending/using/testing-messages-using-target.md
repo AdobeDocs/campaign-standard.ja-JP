@@ -31,7 +31,7 @@ ht-degree: 4%
 1. メッセージを設定し、 **準備** フェーズ。
 1. **1 つまたは複数のプロファイルを選択** メッセージのターゲットとなるプロファイルに含めることができます。
 1. 各プロファイル a に関連付け **代替アドレス** 配達確認の送信先となる
-1. （オプション）各プロファイルに対して、 **prefix** 配達確認の件名行に追加します。
+1. （オプション）各プロファイルに対して、 **prefix** をクリックして、配達確認の件名行に追加します。
 1. **プレビュー** E メールデザイナーで、プロファイルに対するメッセージの表示方法を指定します。
 1. 配達確認を送信.
 
@@ -43,7 +43,7 @@ ht-degree: 4%
 
 ## プロファイルと代替アドレスの選択 {#selecting-profiles}
 
-ターゲットプロファイルをテストに使用するには、まずターゲットプロファイルを選択してから、配達確認を受け取る代用アドレスを定義する必要があります。 これをおこなうには、次のいずれかを実行します。 [特定のプロファイルを選択](#selecting-individual-profiles) ターゲットプロファイルの間、または [既存のオーディエンスからプロファイルをインポート](#importing-from-audience).
+ターゲットプロファイルをテストに使用するには、まずターゲットプロファイルを選択してから、配達確認を受け取る代用アドレスを定義する必要があります。 これをおこなうには、次のいずれかを実行します。 [特定のプロファイルを選択](#selecting-individual-profiles) ターゲットプロファイルの間、または [既存のオーディエンスからのプロファイルのインポート](#importing-from-audience).
 
 >[!NOTE]
 >
@@ -51,11 +51,11 @@ ht-degree: 4%
 
 ### 個々のプロファイルの選択 {#selecting-individual-profiles}
 
-1. メッセージダッシュボードで、メッセージの準備が成功したことを確認し、「 **[!UICONTROL Audience]** ブロック
+1. メッセージダッシュボードで、メッセージの準備が成功したことを確認し、「 **[!UICONTROL Audience]** ブロック。
 
    ![](assets/substitution_preparation.png)
 
-1. 内 **[!UICONTROL Profile substitutions]** タブで、 **[!UICONTROL Create element]** ボタンをクリックして、テストに使用するプロファイルを選択します。
+1. Adobe Analytics の **[!UICONTROL Profile substitutions]** タブで、 **[!UICONTROL Create element]** ボタンをクリックして、テストに使用するプロファイルを選択します。
 
    ![](assets/substitution_tab.png)
 
@@ -63,7 +63,7 @@ ht-degree: 4%
 
    ![](assets/substitution_recipient_selection.png)
 
-1. テストに使用するプロファイルを選択し、「 **[!UICONTROL Address]** をクリックし、 **[!UICONTROL Confirm]**. プロファイルをターゲティングするすべての配達確認は、このプロファイルのデータベースで定義された配達確認ではなく、この E メールアドレスに送信されます。
+1. テストに使用するプロファイルを選択し、「 **[!UICONTROL Address]** フィールドに代用アドレスを入力し、 **[!UICONTROL Confirm]**. プロファイルをターゲティングするすべての配達確認は、このプロファイルのデータベースで定義された配達確認ではなく、この E メールアドレスに送信されます。
 
    配達確認の件名行に特定のプレフィックスを追加する場合は、 **[!UICONTROL Subject line prefix]** フィールドに入力します。
 
@@ -109,7 +109,7 @@ Campaign Standardを使用すると、テストに使用できるプロファイ
 
 オーディエンスからのテストに使用するプロファイルをインポートするには、次の手順に従います。
 
-1. メッセージダッシュボードで、メッセージの準備が完了したことを確認し、 **[!UICONTROL Audience]** ブロック
+1. メッセージダッシュボードで、メッセージの準備が完了したことを確認し、「 **[!UICONTROL Audience]** ブロック。
 
    ![](assets/substitution_preparation.png)
 
@@ -153,7 +153,7 @@ Campaign Standardを使用すると、テストに使用できるプロファイ
 
    ![](assets/substitution_preview_access.png)
 
-1. を選択します。 **[!UICONTROL Preview]** 「 」タブで、「 **[!UICONTROL Change profile]**.
+1. を選択します。 **[!UICONTROL Preview]** 「 」タブで、「 」をクリックします。 **[!UICONTROL Change profile]**.
 
    ![](assets/substitution_preview_changeprofile.png)
 
@@ -179,7 +179,7 @@ Campaign Standardを使用すると、テストに使用できるプロファイ
 1. ターゲットプロファイルを使用してメッセージをプレビューします。
 1. 配達確認の送信.
 
-### 手順 1:テストに使用するオーディエンスを作成する
+### 手順 1：テストに使用するオーディエンスを作成する
 
 1. オーディエンスを作成するために、インポートするファイルを準備します。 この場合、配達確認に使用する代替アドレスと、配達確認の件名行に追加するプレフィックスを含める必要があります。
 
@@ -189,8 +189,8 @@ Campaign Standardを使用すると、テストに使用できるプロファイ
 
 1. ワークフローを構築し、ファイルからオーディエンスを作成します。 これをおこなうには、以下のアクティビティを追加して設定します。
 
-   * **[!UICONTROL Load file]** アクティビティ：CSV ファイルをインポートします ( このアクティビティについて詳しくは、 [この節](../../automating/using/load-file.md)) をクリックします。
-   * **[!UICONTROL Reconciliation]** アクティビティ：ファイルの情報をデータベースの情報にリンクします。 この例では、プロファイルの E メールアドレスを紐付けフィールドとして使用します ( このアクティビティについて詳しくは、 [この節](../../automating/using/reconciliation.md)) をクリックします。
+   * **[!UICONTROL Load file]** アクティビティ： CSV ファイルをインポートします ( このアクティビティについて詳しくは、 [この節](../../automating/using/load-file.md)) をクリックします。
+   * **[!UICONTROL Reconciliation]** 「 」アクティビティ：ファイルの情報をデータベースの情報にリンクします。 この例では、プロファイルの E メールアドレスを紐付けフィールドとして使用します ( このアクティビティについて詳しくは、 [この節](../../automating/using/reconciliation.md)) をクリックします。
    * **[!UICONTROL Save audience]** アクティビティ：インポートしたファイルに基づいてオーディエンスを作成します ( このアクティビティについて詳しくは、 [この節](../../automating/using/save-audience.md)) をクリックします。
 
    ![](assets/substitution_uc2.png)
@@ -201,25 +201,25 @@ Campaign Standardを使用すると、テストに使用できるプロファイ
 
    ![](assets/substitution_uc3.png)
 
-### 手順 2:プロファイルをターゲットに設定し、ニュースレターを送信するためのワークフローを作成する
+### 手順 2：プロファイルをターゲットに設定し、ニュースレターを送信するワークフローを作成する
 
-1. 追加 **[!UICONTROL Query]** および **[!UICONTROL Email delivery]** アクティビティを選択してから、必要に応じて設定します ( [クエリ](../../automating/using/query.md) および [E メール配信](../../automating/using/email-delivery.md) セクション )。
+1. 追加 **[!UICONTROL Query]** および **[!UICONTROL Email delivery]** アクティビティを選択してから、必要に応じて設定します ( [クエリ](../../automating/using/query.md) および [E メール配信](../../automating/using/email-delivery.md) 」セクション )。
 
    ![](assets/substitution_uc4.png)
 
 1. ワークフローを実行し、メッセージの準備が成功したことを確認します。
 
-### 手順 3:メッセージの「プロファイルの置き換え」タブの設定
+### 手順 3：メッセージの「プロファイルの置き換え」タブの設定
 
-1. を開きます。 **[!UICONTROL Email delivery]** アクティビティ。 メッセージダッシュボードで、 **[!UICONTROL Audience]** ブロック
+1. を開きます。 **[!UICONTROL Email delivery]** アクティビティ。 メッセージダッシュボードで、 **[!UICONTROL Audience]** ブロック。
 
    ![](assets/substitution_uc5.png)
 
-1. を選択します。 **[!UICONTROL Profile substitutions]** 「 」タブで、「 **[!UICONTROL Import from an audience]**.
+1. を選択します。 **[!UICONTROL Profile substitutions]** 「 」タブで、「 」をクリックします。 **[!UICONTROL Import from an audience]**.
 
    ![](assets/substitution_uc6.png)
 
-1. 内 **[!UICONTROL Audience]**  「 」フィールドで、ファイルから作成したオーディエンスを選択します。
+1. Adobe Analytics の **[!UICONTROL Audience]**  「 」フィールドで、ファイルから作成したオーディエンスを選択します。
 
    ![](assets/substitution_uc7.png)
 
@@ -237,13 +237,13 @@ Campaign Standardを使用すると、テストに使用できるプロファイ
    >
    >この例では、オーディエンスからのすべてのプロファイルが **[!UICONTROL Query]** アクティビティ。 これらのプロファイルの 1 つがメッセージのターゲットに含まれていない場合、リストに追加されません。
 
-### 手順 4:ターゲットプロファイルを使用したメッセージのプレビュー
+### 手順 4：ターゲットプロファイルを使用してメッセージをプレビューする
 
 1. メッセージダッシュボードで、コンテンツのスナップショットをクリックして、E メールデザイナーでメッセージを開きます。
 
    ![](assets/substitution_uc10.png)
 
-1. を選択します。 **[!UICONTROL Preview]** 「 」タブで、「 **[!UICONTROL Change profile]**.
+1. を選択します。 **[!UICONTROL Preview]** 「 」タブで、「 」をクリックします。 **[!UICONTROL Change profile]**.
 
    ![](assets/substitution_uc_preview.png)
 
@@ -257,7 +257,7 @@ Campaign Standardを使用すると、テストに使用できるプロファイ
 
    ![](assets/substitution_uc_previewprofile.png)
 
-### 手順 5:配達確認を送信
+### 手順 5：配達確認の送信
 
 1. メッセージダッシュボードで、 **[!UICONTROL Test]** ボタンをクリックして、確定します。
 

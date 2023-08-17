@@ -20,7 +20,7 @@ ht-degree: 17%
 宣言された外部パラメーターを含め、ワークフローで使用可能なイベント変数を監視できます。 これを行うには、次の手順に従います。
 
 1. 次の条件に従うアクティビティを選択します。 **[!UICONTROL External signal]** 「 」アクティビティで、 **[!UICONTROL Log and tasks]** 」ボタンをクリックします。
-1. 内 **[!UICONTROL Tasks]** タブ、クリック ![](assets/edit_darkgrey-24px.png) 」ボタンをクリックします。
+1. Adobe Analytics の **[!UICONTROL Tasks]** タブ、クリック ![](assets/edit_darkgrey-24px.png) 」ボタンをクリックします。
 
    ![](assets/extsignal_monitoring_2.png)
 

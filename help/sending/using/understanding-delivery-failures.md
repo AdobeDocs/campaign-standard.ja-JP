@@ -27,7 +27,7 @@ ht-degree: 72%
 >
 >**SMS** エラーメッセージまたは SR（「ステータスレポート」の意味）は MTA プロセスによって評価されます。
 
-アドレスが強制隔離されている場合や、プロファイルが配信上にある場合は、配信準備の際にメッセージを除外することもでブロックリストきます。 除外されたメッセージは、配信ダッシュボードの「**[!UICONTROL Exclusion logs]**」タブに表示されます（[こちらの節](../../sending/using/monitoring-a-delivery.md#exclusion-logs)を参照）。
+アドレスが強制隔離されている場合や、プロファイルが配信上にある場合は、配信準備の際にメッセージを除外することもでブロックリストに加えるきます。 除外されたメッセージは、配信ダッシュボードの「**[!UICONTROL Exclusion logs]**」タブに表示されます（[こちらの節](../../sending/using/monitoring-a-delivery.md#exclusion-logs)を参照）。
 
 ![](assets/exclusion_logs.png)
 
@@ -65,9 +65,9 @@ ht-degree: 72%
 | **[!UICONTROL Refused]** | ソフト／ハード | アドレスは、スパムレポートであるというセキュリティフィードバックが原因で強制隔離されました。プロバイダーから返されるエラーに従い、アドレスは強制隔離に直接送られます。また配信は、強制隔離ステータスが妥当と判断されるエラーを Campaign が受け取るまで、またはエラー件数が 5 に達するまで試行されます。 |
 | **[!UICONTROL Duplicate]** | 無視 | このアドレスは既にセグメント化で検出されています。 |
 | **[!UICONTROL Not defined]** | ソフト | エラーが増分されていないので、アドレスは検証中です。 | まだ。 このタイプのエラーは、サーバーが新しいエラーメッセージを送信すると発生します。単独のエラーである可能性もありますが、再度発生した場合はエラーカウンターがインクリメントされ、テクニカルチームに警告されます。 |
-| **[!UICONTROL Error ignored]** | 無視 | アドレスは許可リスト中で、このアドレスにはどのような場合にも E メールが送信されます。 |
+| **[!UICONTROL Error ignored]** | 無視 | アドレスは許可リストに加える中で、このアドレスにはどのような場合にも E メールが送信されます。 |
 | **[!UICONTROL Address on denylist]** | ハード | 送信時にアドレスがブロックリストに追加されました。 |
-| **[!UICONTROL Account disabled]** | ソフト／ハード | インターネットアクセスプロバイダー (IAP) は、長期間使用されていないことを検出すると、そのユーザーのアカウントをクローズできます。その場合、ユーザーのアドレスへの配信は不可能になります。 ソフト／ハードタイプは、受け取ったエラーの種類によって異なります。使用されていない期間が 6 ヶ月に達したのでアカウントが一時的に無効になっても、有効化できる場合は、「**[!UICONTROL Erroneous]**」ステータスが割り当てられ、配信が再試行されます。アカウントが永続的に無効化されたことを、受信したエラーが示している場合、アカウントは強制隔離に直接送られます。 |
+| **[!UICONTROL Account disabled]** | ソフト／ハード | インターネットアクセスプロバイダー (IAP) は、長期間使用されていないことを検出すると、そのユーザーのアカウントをクローズできます。そのユーザーのアドレスへの配信は不可能になります。 ソフト／ハードタイプは、受け取ったエラーの種類によって異なります。使用されていない期間が 6 ヶ月に達したのでアカウントが一時的に無効になっても、有効化できる場合は、「**[!UICONTROL Erroneous]**」ステータスが割り当てられ、配信が再試行されます。アカウントが永続的に無効化されたことを、受信したエラーが示している場合、アカウントは強制隔離に直接送られます。 |
 | **[!UICONTROL Not connected]** | 無視 | メッセージの送信時にプロファイルの携帯電話の電源が入っていないか、ネットワークに接続されていませんでした。 |
 | **[!UICONTROL Invalid domain]** | ソフト | E メールアドレスのドメインが正しくないか、存在しません。このプロファイルは、エラーカウントが 5 にならない限り、再びターゲットになります。その後、レコードは強制隔離ステータスに設定され、以降は再試行されなくなります。 |
 | **[!UICONTROL Text too long]** | 無視 | SMS メッセージの文字数が上限を超えています。 詳しくは、[SMS のエンコーディング、長さ、表記変換](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration)を参照してください。 |
@@ -96,7 +96,7 @@ ht-degree: 72%
 
 >[!NOTE]
 >
->メッセージが最大 3.5 日間再試行キューに入り、配信に失敗した場合は、タイムアウトになり、ステータスは更新されます<!--from **[!UICONTROL Sent]**--> から **[!UICONTROL Failed]** 内 [配信ログ](../../sending/using/monitoring-a-delivery.md#delivery-logs).
+>メッセージが最大 3.5 日間再試行キューに入り、配信に失敗した場合は、タイムアウトになり、ステータスは更新されます<!--from **[!UICONTROL Sent]**--> から **[!UICONTROL Failed]** （内） [配信ログ](../../sending/using/monitoring-a-delivery.md#delivery-logs).
 
 <!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
 The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../administration/using/configuring-email-channel.md#sending-parameters)).-->
@@ -116,7 +116,7 @@ The default configuration allows five retries at one-hour intervals, followed by
 >
 >Campaign の&#x200B;**[!UICONTROL Message qualification]**&#x200B;テーブルでのバウンスの選定は使用されなくなりました。
 
-非同期バウンスは、引き続き「**[!UICONTROL Inbound email]**」ルールを通じて、inMail プロセスで選定されます。これらのルールにアクセスするには、 **Adobe** ロゴ（左上）に移動し、 **[!UICONTROL Administration > Channels > Email > Email processing rules]** を選択し、 **[!UICONTROL Bounce mails]**. このルールについて詳しくは、 [この節](../../administration/using/configuring-email-channel.md#email-processing-rules).
+非同期バウンスは、引き続き「**[!UICONTROL Inbound email]**」ルールを通じて、inMail プロセスで選定されます。これらのルールにアクセスするには、 **Adobe** ロゴ（左上）に移動し、「 **[!UICONTROL Administration > Channels > Email > Email processing rules]** を選択し、 **[!UICONTROL Bounce mails]**. このルールについて詳しくは、 [この節](../../administration/using/configuring-email-channel.md#email-processing-rules).
 
 バウンスと様々な種類のバウンスについて詳しくは、 [この節](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability).
 

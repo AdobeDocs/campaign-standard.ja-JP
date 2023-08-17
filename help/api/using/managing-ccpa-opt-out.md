@@ -21,8 +21,8 @@ ht-degree: 6%
 
 `"ccpaOptOut": <value>`
 
-* **true**:個人情報の販売を禁止します。
-* **false**:個人情報の販売を許可します。
+* **true**：個人情報の販売を禁止します。
+* **false**：個人情報の販売を許可します。
 
 <!--The “CCPA Opt-Out” attribute is only available starting 19.4. For 19.3 environments, you need to extend the Profiles resource and add a boolean field. This field will be added to the API with the chosen label. We suggest you use “Opt-Out for CCPA”.
 >
@@ -34,79 +34,79 @@ ht-degree: 6%
 
 * プロファイルの CCPA オプトアウトステータスを取得するためのGETリクエストの例。
 
-   ```
-   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/<PKEY> \
-   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
-   -H 'Cache-Control: no-cache' \
-   -H 'X-Api-Key: <API_KEY>' \
-   -H 'Content-Type: application/json;charset=utf-8'
-   ```
+  ```
+  -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/<PKEY> \
+  -H 'Authorization: Bearer <ACCESS_TOKEN>' \
+  -H 'Cache-Control: no-cache' \
+  -H 'X-Api-Key: <API_KEY>' \
+  -H 'Content-Type: application/json;charset=utf-8'
+  ```
 
-   GETリクエストへの応答。
+  GETリクエストへの応答。
 
-   ```
-   {
-   "PKey": "<PKEY>",
-     "ccpaOptOut": false,
-     "firstName": "John",
-     "lastName": "Doe",
-   ...
-   }
-   ```
+  ```
+  {
+  "PKey": "<PKEY>",
+    "ccpaOptOut": false,
+    "firstName": "John",
+    "lastName": "Doe",
+  ...
+  }
+  ```
 
 * プロファイルを CCPA オプトアウト用にマークするためのPOSTリクエストの例。
 
-   ```
-   -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/ \
-   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
-   -H 'Cache-Control: no-cache' \
-   -H 'X-Api-Key: <API_KEY>' \
-   -H 'Content-Type: application/json;charset=utf-8'
-   -i
-   -d {
-   -d  "firstName": "John",
-   -d  "lastName": "Doe",
-   -d  "email": "jdoe@mail.com",
-   -d  "ccpaOptOut": true
-   -d }'
-   ```
+  ```
+  -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/ \
+  -H 'Authorization: Bearer <ACCESS_TOKEN>' \
+  -H 'Cache-Control: no-cache' \
+  -H 'X-Api-Key: <API_KEY>' \
+  -H 'Content-Type: application/json;charset=utf-8'
+  -i
+  -d {
+  -d  "firstName": "John",
+  -d  "lastName": "Doe",
+  -d  "email": "jdoe@mail.com",
+  -d  "ccpaOptOut": true
+  -d }'
+  ```
 
-   GETリクエストへの応答。
+  GETリクエストへの応答。
 
-   ```
-   {
-       ...
-       "email": "john.doe@mail.com",
-       "firstName": "John",
-       "lastName": "Doe",
-       "ccpaOptOut": true,
-       ...
-   }
-   ```
+  ```
+  {
+      ...
+      "email": "john.doe@mail.com",
+      "firstName": "John",
+      "lastName": "Doe",
+      "ccpaOptOut": true,
+      ...
+  }
+  ```
 
 * CCPA オプトアウト用にプロファイルを更新するためのPATCHリクエストの例。
 
-   ```
-   -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/<PKEY> \
-   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
-   -H 'Cache-Control: no-cache' \
-   -H 'X-Api-Key: <API_KEY>' \
-   -H 'Content-Type: application/json;charset=utf-8'
-   -i
-   -d {
-   -d  "ccpaOptOut": true
-   -d }'
-   ```
+  ```
+  -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/<PKEY> \
+  -H 'Authorization: Bearer <ACCESS_TOKEN>' \
+  -H 'Cache-Control: no-cache' \
+  -H 'X-Api-Key: <API_KEY>' \
+  -H 'Content-Type: application/json;charset=utf-8'
+  -i
+  -d {
+  -d  "ccpaOptOut": true
+  -d }'
+  ```
 
-   GETリクエストへの応答。
+  GETリクエストへの応答。
 
-   ```
-   {
-       ...
-       "email": "john.doe@mail.com",
-       "firstName": "John",
-       "lastName": "Doe",
-       "ccpaOptOut": true,
-       ...
-   }
-   ```
+  ```
+  {
+      ...
+      "email": "john.doe@mail.com",
+      "firstName": "John",
+      "lastName": "Doe",
+      "ccpaOptOut": true,
+      ...
+  }
+  ```

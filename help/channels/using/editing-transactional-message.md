@@ -51,7 +51,7 @@ ht-degree: 30%
 
 >[!NOTE]
 >
->この節では、 **イベントベース** トランザクションメッセージ。 この **プロファイルベース** トランザクションメッセージ特異性について詳しくは、 [下](#profile-transactional-message-specificities).
+>この節では、 **イベントベース** トランザクションメッセージ。 The **プロファイルベース** トランザクションメッセージ特異性について詳しくは、 [below](#profile-transactional-message-specificities).
 >
 >イベントベースのトランザクションメッセージを作成するための設定手順については、 [この節](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages).
 
@@ -226,13 +226,13 @@ For more on creating a collection and related fields when configuring the event,
 
    ![](assets/message-center_marketing_templates.png)
 
-1. デフォルトの E メールテンプレートを選択します。すべてのマーケティング E メールと同様、 **購読解除リンク**.
+1. デフォルトの E メールテンプレートを選択します。すべてのマーケティング E メールと同様に、 **購読解除リンク**.
 
    ![](assets/message-center_marketing_perso_unsubscription.png)
 
    テンプレートについて詳しくは、 [この節](../../designing/using/using-reusable-content.md#content-templates).
 
-1. また、リアルタイムイベントに基づく設定とは異なり、次の点が考えられます **すべてのプロファイル情報への直接アクセス** メッセージをパーソナライズする 次の項目を追加できます。 [パーソナライゼーションフィールド](../../designing/using/personalization.md#inserting-a-personalization-field) 他の標準のマーケティング電子メールに対して行うように
+1. また、リアルタイムイベントに基づく設定とは異なり、次の点が考えられます。 **すべてのプロファイル情報への直接アクセス** メッセージをパーソナライズする。 次の項目を追加できます。 [パーソナライゼーションフィールド](../../designing/using/personalization.md#inserting-a-personalization-field) 他の標準のマーケティング電子メールに対して行う場合と同様です。
 
 1. メッセージを公開する前に変更を保存します。 詳しくは、[トランザクションメッセージの公開](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)を参照してください。
 

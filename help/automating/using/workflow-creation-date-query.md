@@ -31,7 +31,7 @@ ht-degree: 38%
 1. 配信の実行を設定します。
 1. 「**[!UICONTROL Execution frequency]**」で、「**[!UICONTROL Daily]**」を選択します。
 1. を選択します。 **[!UICONTROL Time]** そして **[!UICONTROL Repetition frequency]** 実行されます。
-1. を選択します。 **[!UICONTROL Start]** 日付と **[!UICONTROL Expiration]** ワークフローの
+1. を選択します。 **[!UICONTROL Start]** 日付と **[!UICONTROL Expiration]** を設定します。
 1. アクティビティを確認し、ワークフローを保存します。
 
 >[!NOTE]
@@ -43,17 +43,17 @@ ht-degree: 38%
 ## クエリアクティビティの作成 {#creating-a-query-activity}
 
 1. 受信者を選択するには、 [クエリ](../../automating/using/query.md) 「 」アクティビティをクリックし、ダブルクリックします。
-1. 追加 **[!UICONTROL Profiles]** を選択し、 **[!UICONTROL no longer contact by email]** 値 **[!UICONTROL no]**.
+1. 追加 **[!UICONTROL Profiles]** を選択し、 **[!UICONTROL no longer contact by email]** と値 **[!UICONTROL no]**.
 
 ### 実行日と同じ日に作成されたプロファイルの取得 {#retrieving-profiles-created-on-the-same-day}
 
 1. In **[!UICONTROL Profile]**、ドラッグ&amp;ドロップ **[!UICONTROL Created]** フィールドに入力します。 をクリックし、 **[!UICONTROL Advanced Mode]**.
    ![](assets/advanced_mode.png)
-1. 内 **[!UICONTROL list of functions]**，ダブルクリック **[!UICONTROL Day]** から **[!UICONTROL Date]** ノード。
-1. 次に、フィールドを挿入します **[!UICONTROL Created]** 引数として。
+1. Adobe Analytics の **[!UICONTROL list of functions]**，ダブルクリック **[!UICONTROL Day]** から **[!UICONTROL Date]** ノード。
+1. 次に、フィールドを挿入します。 **[!UICONTROL Created]** 引数として。
 1. 選択 **[!UICONTROL equals to (=)]** を演算子として使用します。
 1. [ 値 ] で、を選択します。 **[!UICONTROL Day]** から **[!UICONTROL Date]** ノードを **[!UICONTROL List of functions]**.
-1. を **[!UICONTROL GetDate()]** 関数の引数として渡されます。
+1. を挿入します。 **[!UICONTROL GetDate()]** 関数の引数として渡されます。
 
 作成日が現在の日と等しいプロファイルを取得しました。
 
@@ -67,7 +67,7 @@ ht-degree: 38%
 
 ### 実行月と同じ月に作成されたプロファイルの取得{#retrieving-profiles-created-on-the-same-month}
 
-1. の **[!UICONTROL Query]** エディターで、最初のクエリを選択して複製します。
+1. 次の日： **[!UICONTROL Query]** エディターで、最初のクエリを選択して複製します。
 1. 複製を開きます。
 1. 置換 **[!UICONTROL Day]** 作成者 **[!UICONTROL Month]** 」と入力します。
 1. 「**[!UICONTROL Confirm]**」をクリックします。

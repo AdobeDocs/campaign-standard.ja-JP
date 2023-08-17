@@ -45,9 +45,9 @@ ht-degree: 95%
    * **[!UICONTROL No message]**：このモードを使用すると、確認メッセージを表示せずにサービスを作成できます。
    * **[!UICONTROL Default message]**：このモードでは、デフォルトの購読または購読解除確認トランザクションメッセージが使用されます。デフォルトの確認メッセージは汎用で、デフォルトのモードを使用するすべてのサービスで同じになります。
 
-      >[!NOTE]
-      >
-      >デフォルトのメッセージを変更するには、「**[!UICONTROL Service properties]**」セクション内のラベルをクリックするか、「**[!UICONTROL Show internal transactional messages]**」ボックスをオンにした後で Adobe Campaign トランザクションメッセージリストからデフォルトのメッセージを選択します。
+     >[!NOTE]
+     >
+     >デフォルトのメッセージを変更するには、「**[!UICONTROL Service properties]**」セクション内のラベルをクリックするか、「**[!UICONTROL Show internal transactional messages]**」ボックスをオンにした後で Adobe Campaign トランザクションメッセージリストからデフォルトのメッセージを選択します。
 
    * **[!UICONTROL Custom message]**：このモードでは、各サービス特有のカスタム確認メッセージを処理できます。次に、特定の[トランザクションメッセージ](../../channels/using/getting-started-with-transactional-msg.md)テンプレートに関連付けられている **[!UICONTROL Custom subscription event configuration]** を選択します。詳しくは、[サービスのサブスクリプションを確認](../../audiences/using/confirming-subscription-to-a-service.md)を参照してください。
 

@@ -17,7 +17,7 @@ ht-degree: 4%
 
 # カスタムリソースの操作 {#interacting-with-custom-resources}
 
-この **/customResources** endpoint を使用すると、Campaign のカスタムリソースを REST で表示できます。 この API に基づいて、カスタムエンティティと外部エンドポイントの統合を利用できます。
+The **/customResources** endpoint を使用すると、Campaign のカスタムリソースを REST で表示できます。 この API に基づいて、カスタムエンティティと外部エンドポイントの統合を利用できます。
 
 /customResources エンドポイントの動作は、/profileAndServices エンドポイントとまったく同じです。
 

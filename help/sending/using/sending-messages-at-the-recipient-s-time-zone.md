@@ -17,7 +17,7 @@ ht-degree: 88%
 
 # 受信者のタイムゾーンでのメッセージの送信{#sending-messages-at-the-recipient-s-time-zone}
 
-日時が重要なキャンペーンを管理する際に、各受信者のローカル時間を考慮に入れて配信をスケジュールできます。スケジュールした時刻に、電子メール、SMS、プッシュ通知がそれぞれのタイムゾーンで受信されます。
+日時が重要なキャンペーンを管理する場合、各受信者のローカル時間を考慮に入れて配信をスケジュールできます。スケジュールした日時に、E メール、SMS、プッシュ通知がそれぞれのタイムゾーンで受信されます。
 
 >[!NOTE]
 >
@@ -36,7 +36,7 @@ ht-degree: 88%
 
    ![](assets/send-time_opt_valentine_2.png)
 
-1. 以下に示した「**[!UICONTROL Messages to be sent automatically on the date]**」オプションを選択します。次に、「**[!UICONTROL Start sending from]**」フィールドで、コンタクト日を 2 月 14 日午前 8 時に設定して、すべての受信者がバレンタインデーに受信するようにします。
+1. 以下に示した「**[!UICONTROL Messages to be sent automatically on the date]**」オプションを選択します。次に、「**[!UICONTROL Start sending from]**」フィールドで、連絡日を 2 月 14 日午前 8 時に設定して、すべての受信者がバレンタインデーに受信するようにします。
 
    ![](assets/send-time_opt_valentine.png)
 

@@ -19,7 +19,7 @@ ht-degree: 11%
 
 >[!CAUTION]
 >
->この [Privacy Core Service](https://developer.adobe.com/experience-platform-apis/references/privacy-service) 統合は、すべてのアクセスリクエストと削除リクエストに使用する必要があるメソッドです。 <!--Starting 19.4, the use of the Campaign API and interface for access and delete requests is deprecated. For more on Campaign Standard deprecated and removed features, refer to [this page](../../rn/using/deprecated-features.md).-->
+>The [Privacy Core Service](https://developer.adobe.com/experience-platform-apis/references/privacy-service) 統合は、すべてのアクセスリクエストと削除リクエストに使用する必要があるメソッドです。 <!--Starting 19.4, the use of the Campaign API and interface for access and delete requests is deprecated. For more on Campaign Standard deprecated and removed features, refer to [this page](../../rn/using/deprecated-features.md).-->
 
 プライバシーリクエストは、 **POST** リクエスト。
 
@@ -27,12 +27,12 @@ ht-degree: 11%
 
 ペイロードには、次のパラメーターが含まれている必要があります。
 
-* **名前**:一意の内部名
-* **名前空間**:名前空間インターフェイスで設定されたCampaign Standard名
-* **reconciliationValue**:名前空間で定義された紐付けキーに基づく紐付け値
-* **ラベル**:リクエストラベル
-* **type**:リクエストのタイプ。 指定できる値は、「access」または「delete」です。
-* **規則**:規制のタイプ。 例：「GDPR」、「CCPA」などのルールが含まれている場合にのみ有効です。 このパラメーターは必須で、Campaign Standard19.4 リリース以降で使用できます。 古いビルドを使用している場合は、ペイロードに追加する必要はありません。
+* **名前**：一意の内部名
+* **名前空間**：名前空間インターフェイスで設定されたCampaign Standard名
+* **reconciliationValue**：名前空間で定義された紐付けキーに基づく紐付け値
+* **ラベル**：リクエストラベル
+* **type**：リクエストタイプ。 指定できる値は、「access」または「delete」です。
+* **規則**：規制のタイプ。 例：「GDPR」、「CCPA」。 このパラメーターは必須で、Campaign Standard19.4 リリース以降で使用できます。 古いビルドを使用している場合は、ペイロードに追加する必要はありません。
 
 <br/>
 

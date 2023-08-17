@@ -1,6 +1,6 @@
 ---
 title: グループとユーザーの管理
-description: セキュリティグループを作成し、ユーザーを管理する方法を説明します
+description: セキュリティグループを作成し、ユーザーを管理する方法を説明します。
 audience: administration
 feature: Access Management
 role: Admin
@@ -9,7 +9,7 @@ exl-id: 4b9834ab-0f7c-419e-a210-77a018ba874d
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
 source-wordcount: '931'
-ht-degree: 71%
+ht-degree: 72%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 71%
 
 >[!IMPORTANT]
 >
->この **[!UICONTROL Access to the deliverability parameters (Deliverability)]** および **[!UICONTROL Message Center agents (mcExec)]** セキュリティグループはAdobe内部のみで、どのユーザーにも割り当てることはできません。
+>The **[!UICONTROL Access to the deliverability parameters (Deliverability)]** および **[!UICONTROL Message Center agents (mcExec)]** セキュリティグループはAdobe内部のみで、どのユーザーにも割り当てることはできません。
 
 セキュリティグループとは、組織内で同じ役割および権限を共有するユーザーのセットです。
 
 ユーザーは、常にセキュリティグループにリンクされている必要があります。これにより、ユーザーに特定の役割や組織単位を割り当てることができます。ユーザーのアクセスを制限するには、ユーザーをキャンペーンに追加しないでください **[!UICONTROL Standard Users]** これがリンクされているのでグループ化 **[!UICONTROL All]** 組織単位。
 
-役割の詳細については、次の表に、ユーザーの役割に応じて使用できる操作を示します。 [Adobe Campaign Standard認証](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf).
+役割の詳細については、次の表に、ユーザーの役割に応じて使用可能な操作を示します。 [Adobe Campaign Standard認証](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf).
 
 デフォルトのセキュリティグループは次のとおりです。
 
@@ -115,7 +115,7 @@ Admin Console でセキュリティグループに対しておこなった変更
 
 Administrators ユーザーは、組織単位の割り当てに使用する Geometrixx および Geometrixx Clothes セキュリティグループのセットを作成する必要があります。組織単位の作成方法については、[単位の作成と管理](../../administration/using/organizational-units.md#creating-and-managing-units)を参照してください。
 
-1. 次をクリック： **Adobe** ロゴ（左上隅）に移動し、「 **[!UICONTROL Administration > Users & Security > Security groups]**.
+1. 次をクリック： **Adobe** ロゴ（左上隅）に、「 **[!UICONTROL Administration > Users & Security > Security groups]**.
 1. 新しいセキュリティグループを作成し、**[!UICONTROL Label]** と **[!UICONTROL ID]** を指定します。
 
    この ID は、Admin Consoleで選択した ID と同じである必要があります。

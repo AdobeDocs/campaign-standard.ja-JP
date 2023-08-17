@@ -6,7 +6,7 @@ role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '7224'
 ht-degree: 100%
 
@@ -948,7 +948,7 @@ S3 アカウントの推奨事項を追加しました。[詳細を表示](../..
 
 アクティブなプロファイルレポート関するドキュメントが追加されました。[詳細を表示](../../audiences/using/active-profiles.md)
 
-[配信の警告](../../sending/using/receiving-alerts-when-failures-happen.md#delivery-alerting-reasons)に関するドキュメントが更新され、アラートの受信時に実行できる操作に関するヒントが記載されたトラブルシューティングの節が追加されました。
+[配信の警告](../../sending/using/receiving-alerts-when-failures-happen.md#delivery-alerting-reasons)に関するドキュメントが更新され、アラートの受信時に実行できるアクションに関するヒントが記載されたトラブルシューティングの節が追加されました。
 
 はじめにガイドが新しく公開されました。配信の作成とターゲティングから送信や監視に至るまで、Adobe Campaign での配信に関するベストプラクティスを説明します。[詳細を表示](../../sending/using/delivery-best-practices.md)
 

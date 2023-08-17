@@ -53,7 +53,7 @@ Adobe Campaign Standardを使用したトラッキングでは、次の機能に
 <tr>
 <td>E メールトラッキング</td>
 <td>プッシュトラッキング</td>
-<td>トラッキングされる URL</td>
+<td>トラッキングする URL</td>
 <td>トラッキングログ</td>
 <td>トラッキングレポート</td>
 </tr>
@@ -61,7 +61,7 @@ Adobe Campaign Standardを使用したトラッキングでは、次の機能に
 
 ## トラッキングログ {#tracking-logs}
 
-この **[!UICONTROL Tracking logs]** 「 」タブには、この配信のトラッキング履歴が一覧表示されます。 このタブには、Adobe Campaignで追跡されているすべての URL など、送信されたメッセージのトラッキング情報が表示されます。 このタブのトラッキング情報は、10 分ごとに更新されます。
+The **[!UICONTROL Tracking logs]** 「 」タブには、この配信のトラッキング履歴が一覧表示されます。 このタブには、Adobe Campaignで追跡されているすべての URL など、送信されたメッセージのトラッキング情報が表示されます。 このタブのトラッキング情報は、10 分ごとに更新されます。
 
 >[!NOTE]
 >
@@ -75,12 +75,12 @@ Adobe Campaign Standardを使用したトラッキングでは、次の機能に
 * ミラーページのリンクをクリックしました。
 * 「LEARN MORE」カスタムリンクをクリックしました。
 
-内 **[!UICONTROL Type]** 列には、次の値を指定できます。
+Adobe Analytics の **[!UICONTROL Type]** 列には、次の値を指定できます。
 
-* **[!UICONTROL Email click]**:受信者がカスタムリンクをクリックしました。
-* **[!UICONTROL Mirror page]**:受信者がミラーページへのリンクをクリックしました。
-* **[!UICONTROL Open]**:受信者が e メールを開きました。
-* **[!UICONTROL Opt-out]**:受信者が購読解除リンクをクリックしました。
+* **[!UICONTROL Email click]**：受信者がカスタムリンクをクリックしました。
+* **[!UICONTROL Mirror page]**：受信者がミラーページへのリンクをクリックしました。
+* **[!UICONTROL Open]**：受信者が E メールを開封しました。
+* **[!UICONTROL Opt-out]**：受信者が購読解除リンクをクリックしました。
 
 >[!NOTE]
 >
@@ -88,11 +88,11 @@ Adobe Campaign Standardを使用したトラッキングでは、次の機能に
 
 トラッキングリンクの挿入方法について詳しくは、 [このページ](../../designing/using/links.md#inserting-a-link).
 
-この **[!UICONTROL Tracking indicators]** レポートには、電子メールメッセージの受信後の行動をトラッキングするための主要指標が含まれます。 詳しくは、この[ページ](../../reporting/using/tracking-indicators.md)を参照してください。
+The **[!UICONTROL Tracking indicators]** レポートには、電子メールメッセージの受信後の行動をトラッキングするための主要指標が含まれます。 詳しくは、この[ページ](../../reporting/using/tracking-indicators.md)を参照してください。
 
-## トラッキングされる URL {#tracked-urls}
+## トラッキングする URL {#tracked-urls}
 
-この **[!UICONTROL Tracked URLs]** 「 」タブは、送信されたメッセージに含まれている URL を、その URL タイプとソース URL を含めて再グループ化します。
+The **[!UICONTROL Tracked URLs]** 「 」タブは、送信されたメッセージに含まれている URL を、その URL タイプとソース URL を含めて再グループ化します。
 
 ![](assets/sending_delivery6.png)
 

@@ -17,15 +17,15 @@ ht-degree: 6%
 
 # リストのエクスポート{#exporting-lists}
 
-Adobe Campaignでは、将来の使用のためにリストをファイルに直接書き出すことができます。 ファイルでリストを書き出すと、 **[!UICONTROL Export audits]** メニュー エクスポートの監査について詳しくは、[エクスポートの監査](../../administration/using/auditing-export-logs.md)の節を参照してください。
+Adobe Campaignでは、将来の使用のためにリストをファイルに直接書き出すことができます。 ファイル内のリストを書き出すと、 **[!UICONTROL Export audits]** メニュー。 エクスポートの監査について詳しくは、[エクスポートの監査](../../administration/using/auditing-export-logs.md)の節を参照してください。
 
 ![](assets/do-not-localize/how-to-video.png) [リストの設定方法をビデオで確認する](#video)
 
-「リストを書き出し」オプションを使用すると、デフォルトで 100,000 行まで書き出すことができ、 **Nms_ExportListLimit** オプション。 このオプションは、機能管理者が **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]** メニュー
+「リストを書き出し」オプションを使用すると、デフォルトで 100,000 行まで書き出すことができ、 **Nms_ExportListLimit** オプション。 このオプションは、機能管理者が **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]** メニュー。
 
 書き出しリストは、 **リスト** モード表示 ( **[!UICONTROL EXPORT (export)]** 役割。
 
-1. 選択したに移動 **リスト** 画面 例えば、テストプロファイルの概要画面 ( **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]** ) をクリックします。
+1. 選択したに移動 **リスト** 画面。 例えば、テストプロファイルの概要画面 ( **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]** ) をクリックします。
 1. 画面がに表示されていることを確認します。 **リスト** モード。
 
    ![](assets/export_list_mode_switch.png)
@@ -40,9 +40,9 @@ Adobe Campaignでは、将来の使用のためにリストをファイルに直
 
    書き出しを確認するポップアップが表示されます。 エクスポートを確認すると、ファイルが自動的にコンピューターにダウンロードされます。
 
-ファイルは CSV 形式で生成され、拡張子は.TXT です。 この名前は、書き出されたリソースと書き出し日に基づいて付けられます。 例：profileBase_20150426_120253.txt という名前は、2015 年 4 月 26 日 (PT) の 12 に実行されるプロファイルエクスポートに適用されます。:02:53. UTF-8 形式でエンコードされます。
+ファイルは CSV 形式で生成され、拡張子は.TXT です。 この名前は、書き出されたリソースと書き出し日に基づいて付けられます。 例えば、profileBase_20150426_120253.txt という名前は、2015 年 4 月 26 日の 12 に実行されたプロファイルエクスポートに適用されます。:02:53. UTF-8 形式でエンコードされます。
 
-数値および日付は、エクスポートを実行するユーザーの現地時間（ロケール）を考慮に入れます。 例：DD-MM-YYYY または MM-DD-YYYY です。
+数値および日付は、エクスポートを実行するユーザーの現地時間（ロケール）を考慮に入れます。 例： DD-MM-YYYY または MM-DD-YYYY。
 
 これより大きいエクスポートを実行するには、専用のワークフローを作成する必要があります。 詳しくは、 [ファイルを抽出](../../automating/using/extract-file.md) 」セクションに入力します。
 
@@ -50,7 +50,7 @@ Adobe Campaignでは、将来の使用のためにリストをファイルに直
 
 次に、以下に定義するプロファイルリストから実行されるエクスポートの例を示します。
 
-* 表示される列（順番）:姓、名、生年月日、E メールアドレス。
+* 表示される列（順番）：姓、名、生年月日、E メールアドレス。
 * 名前はアルファベット順に並べ替えられます。
 
 ![](assets/export_list_example1.png)

@@ -27,7 +27,7 @@ Adobe Campaign では、モバイルデバイスから送信されたモバイ�
 
    ![](assets/in_app_personal_data_4.png)
 
-1. 内 **[!UICONTROL Fields]** カテゴリ **[!UICONTROL Data structure]** 」タブで、モバイルアプリケーションから取得する顧客データを定義するには、 **[!UICONTROL Add field]** 」ボタンをクリックします。
+1. Adobe Analytics の **[!UICONTROL Fields]** カテゴリ **[!UICONTROL Data structure]** 」タブで、モバイルアプリケーションから取得する顧客データを定義するには、 **[!UICONTROL Add field]** 」ボタンをクリックします。
 
    >[!NOTE]
    >
@@ -39,7 +39,7 @@ Adobe Campaign では、モバイルデバイスから送信されたモバイ�
 
    ![](assets/schema_extension_uc9.png)
 
-1. 内 **[!UICONTROL Link to profiles]** 「 」カテゴリで、Adobe Campaignデータベースのプロファイルをアプリケーションの購読者（E メールなど）にリンクするために使用する紐付けキーを設定します。
+1. Adobe Analytics の **[!UICONTROL Link to profiles]** 「 」カテゴリで、Adobe Campaignデータベースのプロファイルをアプリケーションの購読者（E メールなど）にリンクするために使用する紐付けキーを設定します。
 
    アプリ内メッセージでは、すべてのモバイルアプリに対して 1 つの紐付けキーのみを定義できます。
 

@@ -22,7 +22,7 @@ Adobe CampaignのAdobe Analytics統合により、Adobe Analyticsで直接 E メ
 Adobe Campaign StandardとAdobe Analyticsの統合により、次のことが可能になります。
 
 * Adobe Campaign StandardからAdobe Analyticsに KPI（主要業績評価指標）データを共有します。
-* Adobe Analyticsのパラメーターでトラッキング式を強化します。
+* Adobe Analyticsのパラメーターを使用してトラッキング式を強化します。
 
 これは、最初にAdobe Analyticsにリンクされた外部アカウントを作成することで機能します。 テクニカルワークフローが自動的に起動し、デフォルトでは 15 分ごとに自動実行されます。 KPI データが Analytics にプッシュされます。
 

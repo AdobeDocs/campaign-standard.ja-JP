@@ -22,7 +22,7 @@ ht-degree: 4%
 
 前提条件は次のとおりです。
 
-* 必ず **[!UICONTROL Profile]** リソースは、CRM ID に対応する新しいフィールドで拡張されました。
+* 次を確認します。 **[!UICONTROL Profile]** リソースは、CRM ID に対応する新しいフィールドで拡張されました。
 
 * 購入に対応したカスタムリソースを作成して公開し、 **[!UICONTROL Profile]** リソース。 これにより、このリソースから情報を取得して、メッセージコンテンツをエンリッチメントできます。
 
@@ -58,7 +58,7 @@ ht-degree: 4%
 
    ![](assets/message-center_usecase4.png)
 
-1. 内 **[!UICONTROL Targeting enrichment]** セクションで、 **[!UICONTROL Profile]** リソース：配信の実行中にメッセージのターゲットとして使用されます。
+1. Adobe Analytics の **[!UICONTROL Targeting enrichment]** セクションで、 **[!UICONTROL Profile]** リソース：配信の実行中にメッセージのターゲットとして使用されます。
 
    ![](assets/message-center_usecase5.png)
 
@@ -70,7 +70,7 @@ ht-degree: 4%
 
 1. メッセージを編集し、パーソナライズします。 詳しくは、 [プロファイルトランザクションメッセージの編集](../../channels/using/editing-transactional-message.md#editing-profile-transactional-message).
 
-1. に追加した「CRM ID」フィールドとの紐付けを通じて **[!UICONTROL Profile]** リソースは、 [パーソナライズ](../../designing/using/personalization.md#inserting-a-personalization-field) メッセージ。
+1. に追加した「CRM ID」フィールドとの紐付けを通じて **[!UICONTROL Profile]** リソースは、すべてのプロファイル情報に直接アクセスできます。 [パーソナライズ](../../designing/using/personalization.md#inserting-a-personalization-field) メッセージ。
 
    ![](assets/message-center_usecase6.png)
 
@@ -78,7 +78,7 @@ ht-degree: 4%
 
    ![](assets/message-center_usecase7.png)
 
-   それには、「 **[!UICONTROL Insert personalization field]** を選択します。 次の **[!UICONTROL Context]** > **[!UICONTROL Transactional event]** > **[!UICONTROL Event context]** ノードで、 **[!UICONTROL Purchase]** カスタムリソースを選択し、任意のフィールドを選択します。
+   それには、「 」を選択します。 **[!UICONTROL Insert personalization field]** を選択します。 次から： **[!UICONTROL Context]** > **[!UICONTROL Transactional event]** > **[!UICONTROL Event context]** ノードで、 **[!UICONTROL Purchase]** カスタムリソースを選択し、任意のフィールドを選択します。
 
 1. 特定のテストプロファイルを使用して、メッセージをテストできます。 詳しくは、 [トランザクションメッセージのテスト](../../channels/using/testing-transactional-message.md#testing-a-transactional-message).
 

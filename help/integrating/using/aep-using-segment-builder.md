@@ -68,13 +68,13 @@ ht-degree: 3%
 
 フィールドはタブに整理されています。
 
-* **[!UICONTROL Attributes]**:Adobe CampaignデータベースおよびAdobe Experience Platformから派生できる既存のプロファイル属性。 プロファイルに添付される静的情報（E メールアドレス、居住国、ロイヤルティプログラムのステータスなど）を指します。
+* **[!UICONTROL Attributes]**: Adobe CampaignデータベースまたはAdobe Experience Platformから取得できる既存のプロファイル属性。 プロファイルに添付される静的情報（E メールアドレス、居住国、ロイヤルティプログラムのステータスなど）を指します。
 
-   ![](assets/aep_audiences_attributestab.png)
+  ![](assets/aep_audiences_attributestab.png)
 
 * **[!UICONTROL Events]**:「2 週間に 2 回注文したすべてのユーザー」など、会社の顧客タッチポイントと何らかのインタラクションを持つ消費者を識別するアクティビティ。 これは、Adobe Analyticsからストリーミングすることも、サードパーティの ETL ツールを使用してAdobe Experience Platformに直接取り込むこともできます。
 
-   ![](assets/aep_audiences_eventstab.png)
+  ![](assets/aep_audiences_eventstab.png)
 
 >[!NOTE]
 >
@@ -108,7 +108,7 @@ ht-degree: 3%
 
    セグメントに対応する推定母集団が **[!UICONTROL Segment Properties]** 」セクションに入力します。
 
-1. この **[!UICONTROL View Profiles]** ボタンをクリックすると、ルールに対応する最初の 20 件のレコードのプレビューが表示され、セグメントをすばやく検証できます。
+1. The **[!UICONTROL View Profiles]** ボタンをクリックすると、ルールに対応する最初の 20 件のレコードのプレビューが表示され、セグメントをすばやく検証できます。
 
    ![](assets/aep_audiences_samplepreview.png)
 
@@ -124,7 +124,7 @@ ht-degree: 3%
 
 セグメントビルダーでは、2 つのフィールドを比較してルールを定義できます。 例えば、自宅住所が勤務先住所とは異なる郵便番号の女性など。
 
-次の手順に従います。
+これを行うには、次の手順に従います。
 
 1. 比較する最初のフィールド（住所の郵便番号など）を中央のワークスペースにドラッグします。
 
@@ -132,7 +132,7 @@ ht-degree: 3%
 
 1. 最初のフィールドと比較する 2 番目のフィールド（勤務先住所の郵便番号など）を選択します。
 
-   中央のワークスペース ( 最初のフィールドと同じコンテナ内、 **[!UICONTROL Drop here to compare operands]** ボックス
+   中央のワークスペース ( 最初のフィールドと同じコンテナ内、 **[!UICONTROL Drop here to compare operands]** ボックス。
 
    ![](assets/aep_audiences_comparing_2.png)
 

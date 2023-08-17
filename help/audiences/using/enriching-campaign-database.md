@@ -29,13 +29,13 @@ Campaign Standardには、マーケティングデータベースを拡張する
 
 次の 2 種類のテンプレートを設定できます。
 
-* **ワークフローテンプレート**:これらは、必要に応じて一度設定できる事前設定済みのワークフローで、データのインポートとデータベースの更新をおこなうたびに再利用します。
+* **ワークフローテンプレート**：事前設定済みのワークフローで、必要に応じて 1 回設定することで、データのインポートとデータベースの更新のたびに再利用できます。
 
-   データをインポートするワークフローテンプレートの例について詳しくは、 [この節](../../automating/using/creating-import-workflow-templates.md).
+  データをインポートするワークフローテンプレートの例について詳しくは、 [この節](../../automating/using/creating-import-workflow-templates.md).
 
-* **データテンプレートのインポート**:ワークフローテンプレートと同様に、ワークフローに基づくテンプレートで、データベースを更新するためにファイルをアップロードするように設定されています。 設定が完了すると、ユーザーは、 **[!UICONTROL Profile & audiences]** / **[!UICONTROL Imports]** メニュー
+* **データテンプレートのインポート**：ワークフローテンプレートと同様、これらはワークフローに基づくテンプレートで、データベースを更新するためにファイルをアップロードするように設定されています。 設定が完了すると、ユーザーは、 **[!UICONTROL Profile & audiences]** / **[!UICONTROL Imports]** メニュー。
 
-   データテンプレートのインポートについて詳しくは、 [専用ドキュメント](../../automating/using/importing-data-with-import-templates.md).
+  データテンプレートのインポートについて詳しくは、 [専用ドキュメント](../../automating/using/importing-data-with-import-templates.md).
 
 ## ランディングページからのデータの収集 {#collecting-data-from-landing-pages}
 

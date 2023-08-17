@@ -59,7 +59,7 @@ ht-degree: 67%
 ### プロファイルベースのトランザクションメッセージ
 
 * パーソナライゼーションに関する情報は、イベントに含まれるデータ、または紐付け済みのプロファイルレコードから取得できます。詳しくは、 [プロファイルベースのトランザクションメッセージ設定](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages) および [プロファイルベースのトランザクションメッセージ特有性](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities).
-* あなた **can** use **[!UICONTROL Unsubscription link]** プロファイルトランザクションメッセージのコンテンツブロック [コンテンツブロックの追加](../../designing/using/personalization.md#adding-a-content-block)を参照してください。
+* あなた **can** use **[!UICONTROL Unsubscription link]** プロファイルトランザクションメッセージのコンテンツブロック。 [コンテンツブロックの追加](../../designing/using/personalization.md#adding-a-content-block)を参照してください。
 * 疲労ルールは、プロファイルトランザクションメッセージと互換性があります。[疲労ルール](../../sending/using/fatigue-rules.md)を参照してください。
 
 ### 製品リスト

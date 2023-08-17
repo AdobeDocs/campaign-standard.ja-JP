@@ -29,12 +29,12 @@ ht-degree: 7%
 
 >[!CAUTION]
 >
->If you choose to add an image directly by editing the HTML version of the email, you must not call up **external files in a &lt;script> tag** of the HTML page. これらのファイルは、Adobe Campaign サーバーにインポートされません。
+>電子メールのHTML版を編集して画像を直接追加する場合は、を呼び出さないでください **内の外部ファイル &lt;script> タグ** 」と入力します。 これらのファイルは、Adobe Campaign サーバーにインポートされません。
 
 ### E メールへの画像の挿入 {#inserting-images-in-an-email}
 
 1. 構造コンポーネントを追加します。 詳しくは、[メール構造の編集](../../designing/using/designing-from-scratch.md#defining-the-email-structure)を参照してください。
-1. この構造コンポーネント内に、 **[!UICONTROL Image]** コンテンツコンポーネント
+1. この構造コンポーネント内に、 **[!UICONTROL Image]** コンテンツコンポーネント。
 
    ![](assets/des_insert_images_1.png)
 
@@ -53,7 +53,7 @@ ht-degree: 7%
 
 * **パーソナライゼーションを有効にする** では、画像のソースをカスタマイズできます。 詳しくは、 [画像ソースのパーソナライズ](../../designing/using/personalization.md#personalizing-an-image-source).
 * **画像タイトル** 画像のタイトルを定義できます。
-* **代替テキスト** （電子メール）または **キャプション** （ランディングページ）画像にリンクされたキャプションを定義できます ( **alt** HTML属性 )。
+* **代替テキスト** （E メール）または **キャプション** （ランディングページ）画像にリンクされたキャプションを定義できます ( **alt** HTML属性 )。
 * メールの編集時に、 **スタイル** 画像サイズ、背景および境界線を指定できます。
 * ランディングページの編集時に、 **Dimension** 画像サイズをピクセル単位で指定できます。
 

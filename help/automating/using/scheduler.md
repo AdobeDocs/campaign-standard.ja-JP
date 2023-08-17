@@ -34,12 +34,12 @@ ht-degree: 89%
 >
 >アクティビティの **[!UICONTROL Repetition frequency]** は 10 分以上にする必要があります。つまり、1 つのワークフローを 10 分に1 回以上自動的に実行することはできません。
 
-複数のアクティビティを含むスケジュール済みワークフローを設計する場合は、完了するまでワークフローのスケジュールを再設定しないようにする必要があります。 これをおこなうには、以前の実行の 1 つ以上のタスクがまだ保留中の場合に、実行を防ぐようにワークフローを設定する必要があります。 詳しくは、[このページ](../../automating/using/scheduled-workflows-execution.md)を参照してください。
+複数のアクティビティを含むスケジュール済みワークフローをデザインする場合は、ワークフローが終了するまで再スケジュールされないようにする必要があります。 これをおこなうには、以前の実行の 1 つ以上のタスクがまだ保留中の場合に、実行を防ぐようにワークフローを設定する必要があります。 詳しくは、[このページ](../../automating/using/scheduled-workflows-execution.md)を参照してください。
 
 **関連トピック：**
 
-* [使用例：プロファイルの作成日に配信を作成する](../../automating/using/workflow-creation-date-query.md)
-* [使用例：毎週火曜日の E メール配信の作成](../../automating/using/workflow-weekly-offer.md)
+* [ユースケース：プロファイルの作成日に配信を作成する](../../automating/using/workflow-creation-date-query.md)
+* [使用例：毎週火曜日に E メール配信を作成する](../../automating/using/workflow-weekly-offer.md)
 
 ## 設定 {#configuration}
 

@@ -41,11 +41,11 @@ Adobe Campaign Standardは、オンラインとオフラインの戦略を融合
 
 ほとんどのメールサービスプロバイダーは、リスト中心アプローチを使用して顧客と通信していますが、Adobe Campaign は、リレーショナルデータベースに基づいて、顧客と顧客の属性を幅広く視野に入れて活用しています。
 
-この顧客中心アプローチを以下のグラフに示します。 この **プロファイル** グレーのリソースは、すべてが構築されるメインの顧客テーブルを表します。
+この顧客中心アプローチを以下のグラフに示します。 The **プロファイル** グレーのリソースは、すべてが構築されるメインの顧客テーブルを表します。
 
 ![](assets/customer-centric-data-model.png)
 
-Adobe Campaignのデフォルトのデータモデルは、このドキュメントで示します [セクション](../../developing/using/datamodel-introduction.md).
+Adobe Campaignのデフォルトのデータモデルは、このドキュメントで示します。 [セクション](../../developing/using/datamodel-introduction.md).
 
 <!--You can find a datamodel representation for the out-of-the-box resources [here](../../developing/using/datamodel-introduction.md).-->
 
@@ -69,7 +69,7 @@ Adobe Campaign に送信すべきデータマーケティングアクティビ�
 * **セグメント化**&#x200B;に使用する属性
 * **データ管理プロセス**&#x200B;に使用する属性（集計計算など）
 * **パーソナライゼーション**&#x200B;に使用する属性
-* 使用する属性 **レポート** （カスタムプロファイルデータに基づいてレポートを作成できます）
+* 次に使用する属性： **レポート** （カスタムプロファイルデータに基づいてレポートを作成できます）
 
 これらのいずれにも該当しない場合、その属性は Adobe Campaign でまず必要にならないと思われます。
 
@@ -98,7 +98,7 @@ Adobe Campaign リソースには 3 つの識別情報があり、別の識別�
 |  | PKey | <ul><li>PKey は、Adobe Campaignテーブルの物理的なプライマリキーです。</li><li>この識別子は、通常、特定のAdobe Campaignインスタンスに固有です。</li><li>Adobe Campaign Standardでは、この値はエンドユーザーには表示されません（URL を除く）。</li></ul> | <ul><li>を使用 [API システム](../../api/using/get-started-apis.md)を使用すると、PKey 値（物理キーではなく、生成/ハッシュ化された値）を取得できます。</li><li>API を使用したレコードの取得、更新、削除以外の目的で使用することはお勧めしません。</li></ul> |
 | ID | name または internalName | <ul><li>この情報は、テーブル内のレコードの一意の識別子です。この値は手動で更新できます。</li><li>この識別子は、Adobe Campaignの別のインスタンスにデプロイされる際に、値を保持します。 パッケージ経由で書き出すには、生成された値とは異なる名前を使用する必要があります。</li><li>これは、テーブルの実際のプライマリキーではありません。</li></ul> | <ul><li>スペース「 」、セミコロン「;」、ハイフン「-」などの特殊文字は使用しないでください。</li><li>これらの文字はすべて、アンダースコア「_」（許可されている文字）に置き換えられます。例えば、「abc-def」と「abc:def」は「abc_def」として保存され、相互に上書きされます。</li></ul> |
 | ラベル | label | <ul><li>ラベルは、Adobe Campaign 内のオブジェクトまたはレコードのビジネス識別子です。</li><li>このオブジェクトでは、スペースと特殊文字も使用できます。</li><li>レコードの一意性は保証されません。</li></ul> | <ul><li>オブジェクトラベルの構造を決定することをお勧めします。</li><li>これは、Adobe Campaign ユーザーにとって、レコードまたはオブジェクトを識別するための最も使いやすい解決策です。</li></ul> |
-| ACS ID | acsId | <ul><li>追加の識別子を生成できます。の [ACS ID](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).</li><li>PKey はAdobe Campaignのユーザーインターフェイスでは使用できないので、これは、プロファイルレコードの挿入時に生成される一意の値を取得するためのソリューションです。</li><li>この値は、レコードがAdobe Campaignに挿入される前にリソースでこのオプションが有効になっている場合にのみ、自動的に生成できます。</li></ul> | <ul><li>この UUID は、紐付けキーとして使用できます。</li><li>自動生成された ACS ID は、ワークフロー内またはパッケージ定義内で参照として使用できません。</li><li>この値は、Adobe Campaignインスタンスに固有です。</li></ul> |
+| ACS ID | acsId | <ul><li>追加の識別子を生成できます。 [ACS ID](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources).</li><li>PKey はAdobe Campaignのユーザーインターフェイスでは使用できないので、これは、プロファイルレコードの挿入時に生成される一意の値を取得するためのソリューションです。</li><li>この値は、レコードがAdobe Campaignに挿入される前にリソースでこのオプションが有効になっている場合にのみ、自動的に生成できます。</li></ul> | <ul><li>この UUID は、紐付けキーとして使用できます。</li><li>自動生成された ACS ID は、ワークフロー内またはパッケージ定義内で参照として使用できません。</li><li>この値は、Adobe Campaignインスタンスに固有です。</li></ul> |
 
 ### 識別キー {#keys}
 
@@ -133,11 +133,11 @@ When you are performing an initial import with very high volumes of data insert 
 
 ### リンク {#links}
 
-他のリソースとのリンクの定義については、 [この節](../../developing/using/configuring-the-resource-s-data-structure.md#defining-links-with-other-resources).
+他のリソースとのリンクの定義について詳しくは、 [この節](../../developing/using/configuring-the-resource-s-data-structure.md#defining-links-with-other-resources).
 
 * ワークフロー内の任意のテーブルを結合できますが、リソース間の共通リンクをデータ構造の定義に直接定義することをお勧めします。
 * リンクは、テーブル内の実際のデータと整合するように定義する必要があります。誤った定義は、レコードの予期しない複製など、リンクを介して取得したデータに影響を与える可能性があります。
-* リンクに一貫した名前をリソース名で付ける：リンク名は、遠隔テーブルとは何かを理解するのに役立ちます。
+* リンクには、リソース名と一貫した名前を付けます。リンク名は、距離テーブルが何かを理解するのに役立ちます。
 * 「id」をサフィックスとして含む名前をリンクに付けないでください。例えば、「transactionId」ではなく「transaction」という名前を付けます。
 
 <!--For more on defining links with other resources, see [this section](../../developing/using/configuring-the-resource-s-data-structure.md#defining-links-with-other-resources).-->

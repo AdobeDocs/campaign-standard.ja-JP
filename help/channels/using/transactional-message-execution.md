@@ -1,6 +1,6 @@
 ---
 title: トランザクションメッセージの実行と監視
-description: トランザクションメッセージの実行について説明し、トランザクションメッセージの監視方法を説明します。
+description: トランザクションメッセージの実行について説明し、トランザクションメッセージを監視する方法を説明します。
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
@@ -24,7 +24,7 @@ ht-degree: 62%
 
 <img src="assets/do-not-localize/icon_concepts.svg" width="60px">
 
-An **実行配信** は、トランザクションメッセージごとに月 1 回作成され、トランザクションメッセージが編集されて再び公開されるたびに作成される、実用的でない非機能的な技術メッセージです。
+An **実行配信** は、トランザクションメッセージごとに月 1 回、トランザクションメッセージが編集されて再び公開されるたびに作成される、アクションにつながることのない非機能的な技術メッセージです。
 
 **関連トピック**：
 * [トランザクションメッセージの公開](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)
@@ -55,7 +55,7 @@ An **実行配信** は、トランザクションメッセージごとに月 1 
 
 >[!NOTE]
 >
->イベントが実行配信に割り当てられると、そのイベントはこの実行配信の送信ログに今回のみ表示されます。失敗した配信は、 **[!UICONTROL Execution list]** タブに表示されます。
+>イベントが実行配信に割り当てられると、そのイベントはこの実行配信の送信ログに今回のみ表示されます。失敗した配信は、「 **[!UICONTROL Execution list]** タブに表示されます。
 
 ### 再試行プロセスの制限 {#limitations}
 
@@ -85,7 +85,7 @@ An **実行配信** は、トランザクションメッセージごとに月 1 
 
    ![](assets/message-center_execution_delivery.png)
 
-1. の右下にあるアイコンを再度クリックします。 **[!UICONTROL Deployment]** ブロック
+1. の右下にあるアイコンを再度クリックします。 **[!UICONTROL Deployment]** ブロック。
 
    ![](assets/message-center_execution_access_logs.png)
 
@@ -99,7 +99,7 @@ An **実行配信** は、トランザクションメッセージごとに月 1 
 
 ![](assets/message-center_marketing_sending_logs.png)
 
-を選択します。 **[!UICONTROL Exclusions logs]** タブを使用して、メッセージのターゲットから除外された受信者（「 」のアドレスなど）を表示できブロックリストます。
+を選択します。 **[!UICONTROL Exclusions logs]** タブを使用して、メッセージのターゲットから除外された受信者（「 」のアドレスなど）を表示できブロックリストに加えるます。
 
 ![](assets/message-center_marketing_exclusion_logs.png)
 

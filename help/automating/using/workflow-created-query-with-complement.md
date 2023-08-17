@@ -18,7 +18,7 @@ ht-degree: 41%
 
 # 補完を含んだ配信の作成 {#deliveries-with-complement}
 
-顧客に E メールを送信できます。1 つは 1 年前に作成されたクライアント用、もう 1 つは 1 年前に作成されたクライアント用です。
+顧客に E メールを送信できます。1 年未満に作成されたクライアント向けと 1 年以上前に作成されたクライアント向けです。
 
 1. 「**[!UICONTROL Marketing Activities]**」で、「**[!UICONTROL Create]**」をクリックして「**[!UICONTROL Workflow]**」を選択します。
 1. ワークフローのタイプとして「**[!UICONTROL New Workflow]**」を選択し、「**[!UICONTROL Next]**」をクリックします。
@@ -28,8 +28,8 @@ ht-degree: 41%
 
 1. **[!UICONTROL Activities]**／**[!UICONTROL Targeting]** で、「[クエリ](../../automating/using/query.md)」アクティビティをドラッグ＆ドロップします。
 1. アクティビティをダブルクリックします。
-1. In **[!UICONTROL Shortcuts]**、ドラッグ&amp;ドロップ **[!UICONTROL Profiles]** を選択し、 **[!UICONTROL email]** 演算子 **[!UICONTROL is not empty]**.
-1. In **[!UICONTROL Shortcuts]**、ドラッグ&amp;ドロップ **[!UICONTROL Profiles]** を選択し、 **[!UICONTROL no longer contact by email]** 値 **[!UICONTROL no]**.
+1. In **[!UICONTROL Shortcuts]**、ドラッグ&amp;ドロップ **[!UICONTROL Profiles]** を選択し、 **[!UICONTROL email]** 演算子を使用 **[!UICONTROL is not empty]**.
+1. In **[!UICONTROL Shortcuts]**、ドラッグ&amp;ドロップ **[!UICONTROL Profiles]** を選択し、 **[!UICONTROL no longer contact by email]** と値 **[!UICONTROL no]**.
 1. 「**[!UICONTROL Confirm]**」をクリックします。
 
 ![](assets/wf-complement-query.png)
@@ -37,9 +37,9 @@ ht-degree: 41%
 ## Segmentation アクティビティの作成 {#create-a-segmentation-activity}
 
 1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**、ドラッグ&amp;ドロップ [セグメント化](../../automating/using/segmentation.md) 「 」アクティビティをクリックし、ダブルクリックします。
-1. セグメントの上にマウスポインターを置いて、「 ![](assets/edit_darkgrey-24px.png) を使用して、今年データベースに追加された顧客をターゲット化します。
+1. セグメントの上にマウスポインターを置いて、「 ![](assets/edit_darkgrey-24px.png) を使用して、今年データベースに追加された顧客をターゲット化できます。
 1. ドラッグ&amp;ドロップ **[!UICONTROL Profiles]** を選択し、 **[!UICONTROL Created]** フィルタータイプ **[!UICONTROL Relative]**.
-1. を **[!UICONTROL Level of precision]** から **[!UICONTROL Year]** を選択し、 **[!UICONTROL This year]**.
+1. 次を変更： **[!UICONTROL Level of precision]** から **[!UICONTROL Year]** を選択し、 **[!UICONTROL This year]**.
 1. 「**[!UICONTROL Confirm]**」を 2 回クリックします。
 1. In **[!UICONTROL Advanced Options]**, check **[!UICONTROL Generate complement]** をクリックして、残りの受信者をターゲティングするセグメントを作成します。
 1. 「**[!UICONTROL Confirm]**」をクリックします。

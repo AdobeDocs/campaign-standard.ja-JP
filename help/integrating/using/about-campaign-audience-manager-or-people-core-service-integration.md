@@ -28,26 +28,26 @@ Adobe Campaignでは、様々なAdobe Experience Cloudアプリケーション�
 
 統合では、次の 2 種類のAdobe Experience Cloud ID をサポートしています。
 
-* **訪問者 ID**:このタイプの ID を使用すると、Adobe Experience Cloudの訪問者をAdobe Campaignプロファイルと紐付けできます。 Adobe IMSを介した接続が有効になるとすぐに、Marketing Cloud訪問者 ID サービスがアクティブ化され、Adobe Campaignで使用される永続 Cookie が置き換えられます。 これにより、訪問者を識別し、プロファイルにリンクすることができます。
-   <br>訪問者 ID は、Adobe Campaign経由で送信された電子メールをプロファイルがクリックするとすぐにプロファイルにリンクされます。
+* **訪問者 ID**：このタイプの ID を使用すると、Adobe Experience Cloudの訪問者をAdobe Campaignプロファイルと紐付けできます。 Adobe IMSを介した接続が有効になるとすぐに、Marketing Cloud訪問者 ID サービスがアクティブ化され、Adobe Campaignで使用される永続 Cookie が置き換えられます。 これにより、訪問者を識別し、プロファイルにリンクすることができます。
+  <br>訪問者 ID は、Adobe Campaign経由で送信された電子メールをプロファイルがクリックするとすぐに、プロファイルにリンクされます。
    * プロファイルに既に訪問者 ID が存在する場合、プロファイルのブラウザーデータを使用すると、Adobe Campaignがプロファイルを復元し、自動的に訪問者 ID にリンクすることができます。
    * 訪問者 ID がない場合、新しい ID が作成されます。この訪問者 ID は、プロファイルトラッキングログに保存されます。
 
-   この ID は、他の Adobe Marketing Cloud アプリケーションに同じ CNAME で認識されます。
+  この ID は、他の Adobe Marketing Cloud アプリケーションに同じ CNAME で認識されます。
 
-* **宣言済み ID**:このタイプの ID を使用すると、あらゆるタイプのデータをAdobe Campaignデータベースから取得した要素に紐付けできます。 Adobe Campaign では、事前定義された紐付けキーとして示されます。データを交換する場合、Adobe Campaign データベースの識別子はハッシュ化されます。これらのハッシュ化された ID は、インポートまたはエクスポートに含まれる Adobe Marketing Cloud オーディエンスのハッシュ化された ID と比較されます。
-   <br>この統合では、通常の宣言済み ID、ハッシュ化された宣言済み ID、暗号化された宣言済み ID をサポートします。
+* **宣言済み ID**：このタイプの ID を使用すると、あらゆるタイプのデータをAdobe Campaignデータベースから取得した要素に紐付けできます。 Adobe Campaign では、事前定義された紐付けキーとして示されます。データを交換する場合、Adobe Campaign データベースの識別子はハッシュ化されます。これらのハッシュ化された ID は、インポートまたはエクスポートに含まれる Adobe Marketing Cloud オーディエンスのハッシュ化された ID と比較されます。
+  <br>この統合では、通常の宣言済み ID、ハッシュ化された宣言済み ID、暗号化された宣言済み ID をサポートします。
 
-   >[!NOTE]
-   >
-   >宣言済み ID データソースも People コアサービス統合で使用できるようになりました。 
-   >
-   >People コアサービス統合を使用していて、Audience Manager 統合を追加する場合は、Adobe Audience Manager コンテキストでこの宣言済み ID データソースに移行する際に収集された ID 同期がすべて失われないように、Adobe Audience Manager コンサルタントの支援が必要です。
+  >[!NOTE]
+  >
+  >宣言済み ID データソースも People コアサービス統合で使用できるようになりました。 
+  >
+  >People コアサービス統合を使用していて、Audience Manager 統合を追加する場合は、Adobe Audience Manager コンテキストでこの宣言済み ID データソースに移行する際に収集された ID 同期がすべて失われないように、Adobe Audience Manager コンサルタントの支援が必要です。
 
 
-   暗号化を使用すると、暗号化アルゴリズムを指定することで、宣言された ID を使用して暗号化されたデータをデータソース（PII など）で共有できます。
+  暗号化を使用すると、暗号化アルゴリズムを指定することで、宣言済み ID を使用して暗号化されたデータをデータソース（PII など）で共有できます。
 
-   例えば、暗号化された E メールアドレスや SMS 番号を復号化する機能を使用すると、ユーザーのプロファイルがAdobe Campaignデータベースに存在しない場合でも、トリガーメッセージをユーザーに送信できます。
+  例えば、暗号化された E メールアドレスや SMS 番号を復号化する機能を使用して、ユーザーのプロファイルがAdobe Campaignデータベースに存在しない場合でも、トリガーメッセージをユーザーに送信することができます。
 
 次の図は、この統合の仕組みについて詳しく説明しています。ここで、AAMはAdobe Audience Managerを表し、ACS はAdobe Campaign Standardを表します。
 

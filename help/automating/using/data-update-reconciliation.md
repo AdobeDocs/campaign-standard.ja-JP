@@ -24,23 +24,23 @@ ht-degree: 67%
 
 * A [ファイルを読み込み](../../automating/using/load-file.md) 「 」アクティビティです。読み込むファイルのデータを読み込んで検出します。 インポートされたファイルには、次のデータが含まれています。
 
-   ```
-   lastname;firstname;email;dateofbirth
-   jackman;megan;megan.jackman@testmail.com;07/08/1975
-   phillips;edward;phillips@testmail.com;09/03/1986
-   weaver;justin;justin_w@testmail.com;11/15/1990
-   martin;babeth;babeth_martin@testmail.net;11/25/1964
-   reese;richard;rreese@testmail.com;02/08/1987
-   cage;nathalie;cage.nathalie227@testmail.com;07/03/1989
-   xiuxiu;andrea;andrea.xiuxiu@testmail.com;09/12/1992
-   grimes;daryl;daryl_890@testmail.com;12/06/1979
-   tycoon;tyreese;tyreese_t@testmail.net;10/08/1971
-   ```
+  ```
+  lastname;firstname;email;dateofbirth
+  jackman;megan;megan.jackman@testmail.com;07/08/1975
+  phillips;edward;phillips@testmail.com;09/03/1986
+  weaver;justin;justin_w@testmail.com;11/15/1990
+  martin;babeth;babeth_martin@testmail.net;11/25/1964
+  reese;richard;rreese@testmail.com;02/08/1987
+  cage;nathalie;cage.nathalie227@testmail.com;07/03/1989
+  xiuxiu;andrea;andrea.xiuxiu@testmail.com;09/12/1992
+  grimes;daryl;daryl_890@testmail.com;12/06/1979
+  tycoon;tyreese;tyreese_t@testmail.net;10/08/1971
+  ```
 
-* A [紐付け](../../automating/using/reconciliation.md) 「 」アクティビティ：読み込まれたファイルの各列をプロファイルディメンション列にリンクします。 識別できないファイルレコード（データが見つからない、互換性のないデータタイプなど）は無視され、最終的なオーディエンスデータの整合性が維持されます。
+* A [紐づけ](../../automating/using/reconciliation.md) 「 」アクティビティ：読み込まれたファイルの各列をプロファイルディメンション列にリンクします。 識別できないファイルレコード（データが見つからない、互換性のないデータタイプなど）は無視され、最終的なオーディエンスデータの整合性が維持されます。
 
-   ![](assets/identification_example1.png)
+  ![](assets/identification_example1.png)
 
 * A [オーディエンスを保存](../../automating/using/save-audience.md) 「 」アクティビティを追加します。
 
-   ![](assets/identification_example3.png)
+  ![](assets/identification_example3.png)

@@ -27,7 +27,7 @@ Campaign Standardでは、メッセージを送信する前にプレビューし
 
 テストプロファイルを使用してメッセージをプレビューするには、次の手順に従います。
 
-1. 内 [メールデザイナー](../../designing/using/designing-content-in-adobe-campaign.md)、 **[!UICONTROL Preview]** 」ボタンをクリックします。
+1. Adobe Analytics の [E メールデザイナー](../../designing/using/designing-content-in-adobe-campaign.md)をクリックし、 **[!UICONTROL Preview]** 」ボタンをクリックします。
 
    ![](assets/sending_preview.png)
 
@@ -41,7 +41,7 @@ Campaign Standardでは、メッセージを送信する前にプレビューし
 
    ![](assets/sending_test-profile.png)
 
-1. を終了するには、 **[!UICONTROL Preview]** モード、 **[!UICONTROL Edit]** ボタンをクリックします。
+1. を終了するには、 **[!UICONTROL Preview]** モードで、 **[!UICONTROL Edit]** ボタンをクリックします。
 
    ![](assets/sending_preview_edit.png)
 
@@ -57,13 +57,13 @@ Campaign Standardでは、メッセージを送信する前にプレビューし
 
 テストプロファイルを使用して SMS メッセージをプレビューするには、次の手順に従います。
 
-1. 次に **[!UICONTROL Properties]** SMS メッセージの中から選択したオーディエンスを使用して、配信をパーソナライズできます。 詳しくは、 [セクション](../../channels/using/personalizing-sms-messages.md).
+1. 次に、 **[!UICONTROL Properties]** SMS メッセージの中から選択したオーディエンスを使用して、配信をパーソナライズできます。 詳しくは、 [セクション](../../channels/using/personalizing-sms-messages.md).
 
    ![](assets/sms_preview.png)
 
 1. コンテンツをパーソナライズした後、 **[!UICONTROL Create]** にアクセスするには **[!UICONTROL Summary]** ウィンドウ
 
-1. 次の **[!UICONTROL Summary]** ウィンドウ、クリック **[!UICONTROL Content]** 配信のプレビューを開始します。
+1. 次から： **[!UICONTROL Summary]** ウィンドウ、クリック **[!UICONTROL Content]** をクリックして、配信のプレビューを開始します。
 
    ![](assets/sms_preview_2.png)
 
@@ -71,7 +71,7 @@ Campaign Standardでは、メッセージを送信する前にプレビューし
 
    ![](assets/sms_preview_3.png)
 
-1. クリック **[!UICONTROL Change profile]** テストプロファイルを選択し、 **[!UICONTROL Confirm]**.
+1. クリック **[!UICONTROL Change profile]** テストプロファイルを選択してから、 **[!UICONTROL Confirm]**.
 
    ![](assets/sms_preview_4.png)
 
@@ -89,7 +89,7 @@ Campaign Standardでは、メッセージを送信する前にプレビューし
 
 テストプロファイルを使用してプッシュ通知をプレビューするには、次の手順に従います。
 
-1. 次に **[!UICONTROL Properties]** プッシュ通知を選択し、オーディエンスを選択して、配信をパーソナライズできます。 詳しくは、 [プッシュ通知のカスタマイズ](../../channels/using/customizing-a-push-notification.md).
+1. 次に、 **[!UICONTROL Properties]** プッシュ通知を選択し、オーディエンスを選択して、配信をパーソナライズできます。 詳しくは、 [プッシュ通知のカスタマイズ](../../channels/using/customizing-a-push-notification.md).
 
 1. コンテンツをパーソナライズした後、プレビューウィンドウでデバイスと OS に応じて、プッシュ通知のレンダリングを直接確認できます。
 
@@ -117,7 +117,7 @@ Campaign Standardでは、メッセージを送信する前にプレビューし
 
 テストプロファイルを使用してアプリ内メッセージをプレビューするには、次の手順に従います。
 
-1. 次に **[!UICONTROL Properties]** 」で、オーディエンスを選択し、 **[!UICONTROL Triggers]**&#x200B;を使用すると、配信をパーソナライズできます。 詳しくは、 [アプリ内メッセージのカスタマイズ](../../channels/using/customizing-an-in-app-message.md).
+1. 次に、 **[!UICONTROL Properties]** 」で、オーディエンスを選択し、 **[!UICONTROL Triggers]**&#x200B;を使用すると、配信をパーソナライズできます。 詳しくは、 [アプリ内メッセージのカスタマイズ](../../channels/using/customizing-an-in-app-message.md).
 
 1. コンテンツをパーソナライズした後、プレビューウィンドウでデバイスと OS に応じて、アプリ内メッセージのレンダリングを直接確認できます。
 

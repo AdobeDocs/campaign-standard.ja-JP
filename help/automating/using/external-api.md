@@ -96,7 +96,7 @@ JSON パーサーは、標準の JSON 構造パターンタイプに対応する
 サンプルの JSON 定義には&#x200B;**次の特性**&#x200B;が必要です。
 
 * **配列要素**には、第 1 レベルのプロパティを含める必要があります（これより深いレベルはサポートされていません）。
-   **プロパティ名**&#x200B;は、出力された一時テーブルの出力スキーマの列名になります。
+  **プロパティ名**&#x200B;は、出力された一時テーブルの出力スキーマの列名になります。
 * 取り込む **JSON 要素**&#x200B;は、JSON 応答内のネストが 10 レベル以下であることが必要です。
 * **列名**の定義は、「data」配列の最初の要素に基づいています。
 列定義（追加／削除）とプロパティのタイプ値は、「**COLUMN DEFINITION**」タブで編集できます。
@@ -114,13 +114,13 @@ JSON パーサーは、標準の JSON 構造パターンタイプに対応する
 
 ### 「EXECUTION」タブ
 
-このタブでは、接続エンドポイントを定義できます。この **[!UICONTROL URL]** 「 」フィールドでは、 **HTTPS エンドポイント** そのCampaign Standardは通信をします。
+このタブでは、接続エンドポイントを定義できます。The **[!UICONTROL URL]** 「 」フィールドでは、 **HTTPS エンドポイント** そのCampaign Standardは通信をします。
 
 エンドポイントで必要に応じて、次の 2 種類の認証方法を使用できます。
 
 * 基本認証：ユーザー名/パスワード情報を **[!UICONTROL Request Header(s)]** 」セクションに入力します。
 
-* OAuth 認証：をクリックして、 **[!UICONTROL Use connection parameters defined in an external account]** 外部アカウントでは、OAuth 認証が定義されている外部アカウントを選択できます。 詳しくは、「[外部アカウント](../../administration/using/external-accounts.md)」の節を参照してください。
+* OAuth 認証： **[!UICONTROL Use connection parameters defined in an external account]** 外部アカウントでは、OAuth 認証が定義されている外部アカウントを選択できます。 詳しくは、「[外部アカウント](../../administration/using/external-accounts.md)」の節を参照してください。
 
 ![](assets/externalAPI-execution.png)
 
@@ -158,7 +158,7 @@ JSON パーサーは、標準の JSON 構造パターンタイプに対応する
 
 ## テスト
 
-簡単なテストエンドポイントで外部 API 機能をテストするには、 Postman Echo を使用します。https://docs.postman-echo.com.
+簡単なテストエンドポイントで外部 API 機能をテストアウトするには、 Postman Echo: https://docs.postman-echo.comを使用します。
 
 ## トラブルシューティング
 
@@ -260,7 +260,7 @@ JSON パーサーは、標準の JSON 構造パターンタイプに対応する
    <td> <p>HTTP ヘッダーキーが使用できません (ヘッダーキー : 「Accept」)。</p></td> 
   </tr> 
   <tr> 
-   <td> WKF-560247 - HTTP ヘッダー値が正しくありません ( ヘッダー値：'%s') です。</td> 
+   <td> WKF-560247 - HTTP ヘッダー値が正しくありません（ヘッダー値： 「%s」）。</td> 
    <td> <p>HTTP ヘッダー値が正しくありません (ヘッダー値 : 「%s」)。 </p>
     <p>注意：このエラーは、カスタムヘッダー値が <a href="https://tools.ietf.org/html/rfc7230#section-3.2.html">RFC</a> に従った検証に失敗した場合に記録されます。</p></td> 
   </tr> 

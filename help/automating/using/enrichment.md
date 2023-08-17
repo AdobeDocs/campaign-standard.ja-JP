@@ -34,8 +34,8 @@ ht-degree: 96%
 
 **関連トピック**
 
-* [使用例：ファイルに含まれるデータを使用したプロファイルデータのエンリッチメント](../../automating/using/enriching-profile-data-file.md).
-* [使用例：フィールドがエンリッチメントされた E メールの送信](../../automating/using/sending-email-enriched-fields.md)
+* [使用例：ファイルに含まれているデータを使用したプロファイルデータのエンリッチメント](../../automating/using/enriching-profile-data-file.md).
+* [使用例：強化されたフィールドを含む E メールの送信](../../automating/using/sending-email-enriched-fields.md)
 
 ## 設定 {#configuration}
 

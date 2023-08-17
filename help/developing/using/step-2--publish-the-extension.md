@@ -31,7 +31,7 @@ ht-degree: 23%
 
    これにより、API の公開が profilesAndServicesExt API の現在のバージョンに適用される変更が示されます。
 
-   ここでは、「プロモーションコード」フィールド (ID:cusBrand ) が API に挿入されます。
+   ここで、「プロモーションコード」フィールド (ID: cusBrand) が API に挿入されます。
 
    ![](assets/extendpandsapi_diff.png)
 

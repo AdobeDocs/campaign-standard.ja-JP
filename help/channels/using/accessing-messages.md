@@ -1,6 +1,6 @@
 ---
 title: メッセージへのアクセス
-description: 「メッセージとその高度な機能にアクセスする方法を学ぶ：作成、ターゲティング、パーソナライゼーション、実行、レポート作成を行います。」
+description: 「メッセージとその高度な機能（作成、ターゲティング、パーソナライゼーション、実行、レポート）にアクセスする方法を説明します。」
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels
@@ -22,15 +22,15 @@ ht-degree: 1%
 
 メッセージには次のようにアクセスできます。
 
-* キャンペーン内
+* キャンペーン内で
 * Adobe Campaignホームページから
-* マーケティング活動のリストから
+* マーケティングアクティビティのリストから
 
 ## キャンペーン内のメッセージへのアクセス {#accessing-messages-in-campaigns}
 
 キャンペーンのマーケティングアクティビティのリストにアクセスするには：
 
-1. に移動します。 **[!UICONTROL Marketing activities]** 上部ナビゲーションバーから。
+1. に移動します。 **[!UICONTROL Marketing activities]** 上部のナビゲーションバーから。
 1. 「**[!UICONTROL Marketing activities > Marketing plans > Programs & Campaigns]**」を選択します。
 
    また、 **[!UICONTROL Programs & Campaigns]** カードをホームページから削除します。 キャンペーンについて詳しくは、 [プログラムとキャンペーン](../../start/using/programs-and-campaigns.md) 」セクションに入力します。
@@ -50,7 +50,7 @@ ht-degree: 1%
 
 1. 選択 **[!UICONTROL Marketing activities]** 上部のナビゲーションバーから。
 
-   また、 **[!UICONTROL Marketing activities]** カードをホームページに表示します。 マーケティングアクティビティのリストについて詳しくは、 [マーケティングアクティビティの管理](../../start/using/marketing-activities.md#creating-a-marketing-activity) 」セクションに入力します。
+   また、 **[!UICONTROL Marketing activities]** カードをホームページに貼り付けます。 マーケティングアクティビティのリストについて詳しくは、 [マーケティングアクティビティの管理](../../start/using/marketing-activities.md#creating-a-marketing-activity) 」セクションに入力します。
 
 1. マーケティングアクティビティを（名前、日付、ステータス、アクティビティタイプ別に）フィルタリングするには、 **[!UICONTROL Search]** マーケティングアクティビティのリストの左側にあるフィールド。
 
@@ -60,11 +60,11 @@ ht-degree: 1%
 
 メッセージのステータスは、リスト内の特定の色で表されます。 可能なステータスは次のとおりです。
 
-* **[!UICONTROL Editing]** （グレー）:メッセージは編集中です。
-* **[!UICONTROL In progress]** （青）:メッセージを送信中です。
-* **[!UICONTROL Finished]** （緑）:送信は完了しましたが、エラーは発生しませんでした。
-* **[!UICONTROL Erroneous]** （赤）:メッセージの準備中または送信中に送信がキャンセルされたか、エラーが発生しました。
+* **[!UICONTROL Editing]** （グレー）：メッセージは編集中です。
+* **[!UICONTROL In progress]** （青）：メッセージは送信中です。
+* **[!UICONTROL Finished]** （緑）：送信は完了しましたが、エラーは発生していません。
+* **[!UICONTROL Erroneous]** （赤）：送信がキャンセルされたか、メッセージの準備中または送信中にエラーが発生しました。
 
-   >[!NOTE]
-   >
-   >アクションが必要な場合（例えば、メッセージの送信を確認する必要がある場合）は、黄色の通知バナーがカードの上に表示されます。
+  >[!NOTE]
+  >
+  >アクションが必要な場合（例えば、メッセージの送信を確認する必要がある場合）は、黄色の通知バナーがカードの上に表示されます。

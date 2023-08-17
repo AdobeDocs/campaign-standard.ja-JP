@@ -23,22 +23,22 @@ E メールデザイナーの使用を開始し、レガシーエディターで
 
 >[!NOTE]
 >
->互換性モードと同様に、HTMLコンポーネントは、次の制限付きオプションで編集できます。インプレース編集のみ実行できます。
+>互換モードと同様に、HTMLコンポーネントは、制限付きオプションで編集できます。インプレース編集のみ実行できます。
 
 >[!IMPORTANT]
 >
 >この節は、HTMLコードに詳しい上級ユーザー向けです。
 
-## E メールコンテンツの準備
+## E メールコンテンツを準備中
 
 1. HTMLE メールを選択
 1. HTMLE メールを分割するセクションを特定します。
-1. HTMLから異なるブロックを切り出します。
+1. HTMLから異なるブロックを切り取ります。
 
 ## 電子メール構造を作成する
 
 1. を開きます。 **[!UICONTROL Email Designer]**  空の e メールコンテンツを作成します。
-1. ボディレベルの属性を設定します。背景色、幅など 詳しくは、[メールスタイルの編集](../../designing/using/styles.md)を参照してください。
+1. ボディレベルの属性（背景色、幅など）を設定します。 詳しくは、[メールスタイルの編集](../../designing/using/styles.md)を参照してください。
 1. 構造コンポーネントをセクションと同じ数だけ追加します。 詳しくは、[メール構造の編集](../../designing/using/designing-from-scratch.md#defining-the-email-structure)を参照してください。
 
 ## HTMLコンテンツを追加
@@ -73,14 +73,13 @@ E メールデザイナーの使用を開始し、レガシーエディターで
    >* `<style data-name="media-default-max-width-500px" type="text/css">(##)</style>`
    >* `<style data-name="media-default--webkit-min-device-pixel-ratio-0" type="text/css">(##)</style>`
 
-
 1. モバイル表示に戻って、コンテンツが正しく表示されていることを確認し、変更を保存します。
 
-## 使用例
+## ユースケース
 
-レガシーエディターで作成したこのメールを、 **[!UICONTROL Email Designer]** テンプレート。
+従来のエディターで作成したこのメールを、 **[!UICONTROL Email Designer]** テンプレート。
 
-### 電子メールのセクションを特定する
+### E メールのセクションを特定する
 
 この電子メールで 11 のセクションを特定できます。
 
@@ -102,7 +101,7 @@ E メールのHTMLバージョンを確認するには、 **[!UICONTROL Show sou
 
 ### HTMLコンテンツコンポーネントの挿入
 
-1. 挿入 **[!UICONTROL HTML component]**  各 **[!UICONTROL Structure component]** .
+1. 挿入： **[!UICONTROL HTML component]**  各 **[!UICONTROL Structure component]** .
 
    ![](assets/html-components.png)
 

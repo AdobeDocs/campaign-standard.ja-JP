@@ -31,20 +31,20 @@ ht-degree: 0%
 
 ![](assets/aep_publog.png)
 
-内 **[!UICONTROL Export jobs]** 「 」タブでは、パブリッシュ済みマッピングの書き出しジョブを監視できます。
+Adobe Analytics の **[!UICONTROL Export jobs]** 「 」タブでは、パブリッシュ済みマッピングの書き出しジョブを監視できます。
 
 ![](assets/aep_jobstatus.png)
 
-すべてのデータ書き出しジョブを監視する場合は、次に移動します。 **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]** メニュー
+すべてのデータ書き出しジョブを監視する場合は、次に移動します。 **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]** メニュー。
 
 ![](assets/aep_statusmapping.png)
 
 データ取り込みジョブのステータスは次のとおりです。
 
-* **[!UICONTROL Created]**:データ取り込みジョブが作成され、データ取り込みが進行中です。
-* **[!UICONTROL Failed]**:データ取り込みジョブが失敗しました。 理由フィールドに、失敗の理由が表示されます。 エラーは一時的または永続的です。 一時的なエラーが発生した場合、設定された間隔で新しい取り込みジョブが作成されます。 トラブルシューティングの最初の手順として、ユーザーは失敗の理由フィールドを確認できます。 理由によってユーザーがAdobe Experience Platform UI にリダイレクトされた場合、ユーザーはAdobe Experience Platformにログインし、データセットでバッチステータスを確認して、エラーの正確な理由を特定できます。
-* **[!UICONTROL Uploaded]**:バッチは、最初にAdobe Experience Platformで作成され、次にデータがバッチに取り込まれます。 「バッチ ID 」フィールドに、Adobe Experience Platformでのバッチのバッチ ID が表示されます。 また、Adobe Experience Platformは、バッチに対して後処理の検証を実行します。 Adobe Experience Platformが検証後の手順を完了するまで、バッチはまずアップロード済みとしてマークされます。 ジョブは、アップロード後にバッチのステータスに関するAdobe Experience Platformをポーリングし続けます。 バッチは、Adobe Experience Platformで検証後、「失敗」または「成功」状態になる場合があります。
-* **[!UICONTROL Success]**:バッチがAdobe Experience Platformにアップロードされた後、設定された間隔の後で、ジョブのステータス（platform での検証後）がチェックされます。 「成功」ステータスにより、Adobe Experience Platformでのデータの取り込みが成功していることが示されました。
+* **[!UICONTROL Created]**：データ取り込みジョブが作成され、データ取り込みが進行中です。
+* **[!UICONTROL Failed]**：データ取り込みジョブが失敗しました。 「理由」フィールドに、失敗の理由が表示されます。 エラーは、一時的または永久的に発生する場合があります。 一時的なエラーが発生した場合、設定された間隔で新しい取り込みジョブが作成されます。 トラブルシューティングの最初の手順として、ユーザーは失敗の理由フィールドを確認できます。 理由によってユーザーがAdobe Experience Platform UI にリダイレクトされた場合、ユーザーはAdobe Experience Platformにログインし、データセットでバッチステータスを確認して、エラーの正確な理由を特定できます。
+* **[!UICONTROL Uploaded]**：バッチは、最初にAdobe Experience Platformで作成され、次にデータがバッチに取り込まれます。 「バッチ ID 」フィールドに、Adobe Experience Platformでのバッチのバッチ ID が表示されます。 また、Adobe Experience Platformは、バッチに対して後処理の検証を実行します。 Adobe Experience Platformが検証後の手順を完了するまで、バッチはまずアップロード済みとしてマークされます。 ジョブは、アップロード後にバッチのステータスに関するAdobe Experience Platformをポーリングし続けます。 バッチは、Adobe Experience Platformで検証後、「失敗」または「成功」状態になる場合があります。
+* **[!UICONTROL Success]**：バッチがAdobe Experience Platformにアップロードされた後、設定された間隔の後にジョブのステータス（platform での検証後）がチェックされます。 「成功」ステータスにより、Adobe Experience Platformでのデータの取り込みが成功していることが示されました。
 
 マッピングを公開する際に、以下の検証エラーが発生する場合があります。
 
@@ -58,7 +58,7 @@ XDM スキーマを更新するには、次の手順に従います。
 
 1. XDM スキーマに移動します。
 
-1. を **[!UICONTROL Profile Privacy]** スキーマへの mixin。
+1. 次を追加： **[!UICONTROL Profile Privacy]** スキーマへの mixin。
 
    ![](assets/aep_datamapping_privacyfield.png)
 

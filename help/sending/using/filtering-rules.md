@@ -21,16 +21,16 @@ ht-degree: 23%
 
 ## デフォルトのフィルタータイポロジルール {#default-filtering-typology-rules}
 
-次の表に、標準のフィルタールールと、その関連チャネルに関する情報を示します。
+次の表に、標準のフィルタールールと、それに関連するチャネルに関する情報を示します。
 
 | ラベル | チャネル | 説明 |
 | ---------|----------|---------|
 | **[!UICONTROL Address not specified]** | すべて | 指定したアドレス（E メール、郵送先住所など）を持たないターゲット母集団を除外します。 選択したチャネルに従う )。 |
-| **[!UICONTROL Address on denylist]** | すべて | アドレス上のアドレスを除外しブロックリストます。 |
+| **[!UICONTROL Address on denylist]** | すべて | アドレス上のアドレスを除外しブロックリストに加えるます。 |
 | **[!UICONTROL Duplicate]** | すべて | ターゲット母集団に基づいて重複を除外 **[!UICONTROL Address]** フィールドに入力します。 |
 | **[!UICONTROL Exclude mobile applications]** | モバイルアプリケーション | メッセージで定義されたモバイルアプリと一致しないアプリを除外します。 |
 | **[!UICONTROL Exclude mobile applications for In-App]** | アプリ内 | メッセージに定義されたモバイルアプリと一致しないアプリを除外します（アプリ内テンプレート）。 |
-| **[!UICONTROL Exclude mobile applications for In-App broadcast]** | アプリ内 | メッセージに定義されたモバイルアプリと一致しないアプリを除外する（アプリ内ブロードキャストテンプレート） |
+| **[!UICONTROL Exclude mobile applications for In-App broadcast]** | アプリ内 | メッセージに定義されたモバイルアプリケーションと一致しないアプリを除外する（アプリ内ブロードキャストテンプレート） |
 | **[!UICONTROL Exclude mobile applications for Push]** | モバイルアプリケーション | メッセージで定義されたモバイルアプリと一致しないアプリの購読を除外します（プッシュの場合） |
 | **[!UICONTROL Quarantined address]** | すべて | 強制隔離されたアドレスを除外します。 |
 | **[!UICONTROL Target limited in size]** | すべて | ターゲットの最大配信サイズに達したかどうかを確認します。 「配信制限」オプションが有効なダイレクトメール配信に適用されます。 |
@@ -58,11 +58,11 @@ ht-degree: 23%
 
 1. を選択します。 **[!UICONTROL Filtering]** ルールタイプを選択し、目的のチャネルを指定します。
 
-1. 内 **[!UICONTROL Filtering criteria]** 」タブで、 **[!UICONTROL Subscription]** カテゴリ。
+1. Adobe Analytics の **[!UICONTROL Filtering criteria]** 「 」タブで、 **[!UICONTROL Subscription]** カテゴリ。
 
    ![](assets/typology_create-rule-subscription.png)
 
-1. 内 **[!UICONTROL Explorer]** クエリエディターの「 」タブで、 **[!UICONTROL Subscriber]** ノードを画面のメイン部分に追加します。
+1. Adobe Analytics の **[!UICONTROL Explorer]** クエリエディターの「 」タブで、 **[!UICONTROL Subscriber]** ノードを画面のメイン部分に追加します。
 
    ![](assets/typology_create-rule-subscriber.png)
 
@@ -70,7 +70,7 @@ ht-degree: 23%
 
    ![](assets/typology_create-rule-age.png)
 
-1. 内 **[!UICONTROL Typologies]** 「 」タブで、このルールをタイポロジにリンクします。
+1. Adobe Analytics の **[!UICONTROL Typologies]** 「 」タブで、このルールをタイポロジにリンクします。
 
    ![](assets/typology_create-rule-typology.png)
 
@@ -86,7 +86,7 @@ Campaign Standardでは、  **ターゲット設定** および **フィルタ�
 
 これをおこなうには、タイポロジルールのプロパティを開き、 **[!UICONTROL Advanced information]** 」セクションに入力します。
 
-デフォルトでは、 **[!UICONTROL Profiles]**. 例えば、ルールの対象がモバイルアプリケーションの場合、 **[!UICONTROL Filtering dimension]** は、 **[!UICONTROL Subscriptions to an application]**.
+デフォルトでは、 **[!UICONTROL Profiles]**. 例えば、ルールの対象がモバイルアプリケーションの場合、 **[!UICONTROL Filtering dimension]** は、次の値に変更できます。 **[!UICONTROL Subscriptions to an application]**.
 
 ![](assets/typology_rule-order_2.png)
 

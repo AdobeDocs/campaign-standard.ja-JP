@@ -18,11 +18,11 @@ ht-degree: 14%
 
 # サービスの概要{#service-summary}
 
-この **[!UICONTROL Service summary]** ：サービスの購読と購読解除の推移を説明します。
+The **[!UICONTROL Service summary]** ：サービスの購読と購読解除の推移を説明します。
 このレポートは、詳細設定メニューからのみ、サービスページからアクセスできます **[!UICONTROL Profiles & Audiences]** > **[!UICONTROL Services]**. 詳しくは、この[ページ](../../audiences/using/monitoring-subscriptions.md#service-reports)を参照してください。
 
 ![](assets/service-summary.png)
 
-この **[!UICONTROL Subscription evolution curves]** ビジュアライゼーション： **[!UICONTROL Period]** 」がドロップダウンバーで選択されます。
+The **[!UICONTROL Subscription evolution curves]** ビジュアライゼーション： **[!UICONTROL Period]** 」がドロップダウンバーで選択されます。
 
-この **[!UICONTROL Overall subscription evolution]** を使用すると、様々な期間での購読者の推移を確認できます。
+The **[!UICONTROL Overall subscription evolution]** を使用すると、様々な期間での購読者の推移を確認できます。

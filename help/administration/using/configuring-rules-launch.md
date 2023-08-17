@@ -12,7 +12,7 @@ exl-id: b5f4f612-ea23-4007-b427-069777ecdd58
 source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
 workflow-type: tm+mt
 source-wordcount: '999'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -46,23 +46,23 @@ ht-degree: 2%
 
 1. 次の手順で **[!UICONTROL Experience Cloud ID]** データ要素，クリック **[!UICONTROL Create New Data Element]**.
 
-1. 内 **[!UICONTROL Name]** フィールドに、例えば、次のように入力します。 **mcid**.
+1. Adobe Analytics の **[!UICONTROL Name]** フィールドに、例えば、次のように入力します。 **mcid**.
 
-1. 次の **[!UICONTROL Extension]** ドロップダウンで、「 **[!UICONTROL Mobile Core]**. 次に、 **[!UICONTROL Experience Cloud ID]** 内 **[!UICONTROL Data element]** 「 」ドロップダウンリスト。
+1. 次から： **[!UICONTROL Extension]** ドロップダウンで、「 **[!UICONTROL Mobile Core]**. 次に、 **[!UICONTROL Experience Cloud ID]** （内） **[!UICONTROL Data element]** 「 」ドロップダウンを入力します。
 
    ![](assets/do-not-localize/rules_1.png)
 
 1. データ要素を作成するには、 **[!UICONTROL Add data element]**.
 
-1. 内 **[!UICONTROL Name]** フィールドに、例えば、次のように入力します。 **pkey**.
+1. Adobe Analytics の **[!UICONTROL Name]** フィールドに、例えば、次のように入力します。 **pkey**.
 
-1. 次の **[!UICONTROL Extension]** ドロップダウンで、「 **[!UICONTROL Adobe Campaign Standard]**. 次に、 **[!UICONTROL pkey]** 内 **[!UICONTROL Data element]** 「 」ドロップダウンリスト。
+1. 次から： **[!UICONTROL Extension]** ドロップダウンで、「 **[!UICONTROL Adobe Campaign Standard]**. 次に、 **[!UICONTROL pkey]** （内） **[!UICONTROL Data element]** 「 」ドロップダウンを入力します。
 
 1. Campaign サーバーのデータ要素を作成するには、 **[!UICONTROL Add data element]**.
 
-1. 内 **[!UICONTROL Name]** フィールドに、名前を入力します（例： ）。 **キャンプサーバー**.
+1. Adobe Analytics の **[!UICONTROL Name]** フィールドに、名前を入力します。例： **キャンプサーバー**.
 
-1. 次の **[!UICONTROL Extension]** ドロップダウンで、「 **[!UICONTROL Adobe Campaign Standard]**. すると、 **[!UICONTROL Campaign Server]** 内 **[!UICONTROL Data element]** 「 」ドロップダウンリスト。
+1. 次から： **[!UICONTROL Extension]** ドロップダウンで、「 **[!UICONTROL Adobe Campaign Standard]**. すると、 **[!UICONTROL Campaign Server]** （内） **[!UICONTROL Data element]** 「 」ドロップダウンを入力します。
 
 ## ルールの作成 {#creating-rules}
 
@@ -85,15 +85,15 @@ PII データをに送信するには、以下を実行します。 [!DNL Adobe 
 
 1. 名前を入力します（例： ）。 **モバイルコア — PII を収集**.
 
-1. 内 **[!UICONTROL Events]** セクションで、 **[!UICONTROL Add]**.
+1. Adobe Analytics の **[!UICONTROL Events]** セクションで、 **[!UICONTROL Add]**.
 
-1. 次の **[!UICONTROL Extension]** ドロップダウンで、「 **[!UICONTROL Mobile Core]**. すると、 **[!UICONTROL Collect PII]** 内 **[!UICONTROL Event type]** 」ドロップダウンリストから選択できます。
+1. 次から： **[!UICONTROL Extension]** ドロップダウンで、「 **[!UICONTROL Mobile Core]**. すると、 **[!UICONTROL Collect PII]** （内） **[!UICONTROL Event type]** 」ドロップダウンリストから選択できます。
 
 1. 「**[!UICONTROL Keep changes]**」をクリックします。
 
-1. 内 **[!UICONTROL Actions]** セクションで、 **[!UICONTROL Add]**.
+1. Adobe Analytics の **[!UICONTROL Actions]** セクションで、 **[!UICONTROL Add]**.
 
-1. 次の **[!UICONTROL Extension]** ドロップダウンで、「 **[!UICONTROL Mobile Core]**. すると、 **[!UICONTROL Send PII]** 内 **[!UICONTROL Action type]** 」ドロップダウンリストから選択できます。
+1. 次から： **[!UICONTROL Extension]** ドロップダウンで、「 **[!UICONTROL Mobile Core]**. すると、 **[!UICONTROL Send PII]** （内） **[!UICONTROL Action type]** 」ドロップダウンリストから選択できます。
 
 1. In **[!UICONTROL URL]**、次の URL を入力します。
 
@@ -101,7 +101,7 @@ PII データをに送信するには、以下を実行します。 [!DNL Adobe 
    https://{%%camp-server%%}/rest/head/mobileAppV5/{%%pkey%%}/subscriptions/{%%mcid%%}
    ```
 
-1. を選択します。 **[!UICONTROL Add Post Body]** チェックボックスをオンにします。
+1. を選択します。 **[!UICONTROL Add Post Body]** 」チェックボックスをオンにします。
 
 1. In **[!UICONTROL Post Body]**、次のように入力します。
 
@@ -157,15 +157,15 @@ PII データをに送信するには、以下を実行します。 [!DNL Adobe 
 
 1. 名前を入力します（例： ）。 **Adobe Campaign — アプリ内クリックの追跡**.
 
-1. 内 **[!UICONTROL Events]** セクションで、 **[!UICONTROL Add]**.
+1. Adobe Analytics の **[!UICONTROL Events]** セクションで、 **[!UICONTROL Add]**.
 
-1. 次の **[!UICONTROL Extension]** ドロップダウンで、「 **[!UICONTROL Adobe Campaign Standard]**. すると、 **[!UICONTROL In-App click tracking]** 内 **[!UICONTROL Event type]** 」ドロップダウンリストから選択できます。
+1. 次から： **[!UICONTROL Extension]** ドロップダウンで、「 **[!UICONTROL Adobe Campaign Standard]**. すると、 **[!UICONTROL In-App click tracking]** （内） **[!UICONTROL Event type]** 」ドロップダウンリストから選択できます。
 
 1. 「**[!UICONTROL Keep changes]**」をクリックします。
 
-1. 内 **[!UICONTROL Actions]** セクションで、 **[!UICONTROL Add]**.
+1. Adobe Analytics の **[!UICONTROL Actions]** セクションで、 **[!UICONTROL Add]**.
 
-1. 次の **[!UICONTROL Extension]** ドロップダウンで、「 **[!UICONTROL Mobile Core]**. すると、 **[!UICONTROL Send postback]** 内 **[!UICONTROL Event type]** 」ドロップダウンリストから選択できます。
+1. 次から： **[!UICONTROL Extension]** ドロップダウンで、「 **[!UICONTROL Mobile Core]**. すると、 **[!UICONTROL Send postback]** （内） **[!UICONTROL Event type]** 」ドロップダウンリストから選択できます。
 
 1. In **[!UICONTROL URL]**、次の URL を入力します。
 
@@ -173,7 +173,7 @@ PII データをに送信するには、以下を実行します。 [!DNL Adobe 
    https://{%%camp-server%%}/r/?id={%id%}&mcid={%%mcid%%}
    ```
 
-1. を選択します。 **[!UICONTROL Add post body]** チェックボックスをオンにします。
+1. を選択します。 **[!UICONTROL Add post body]** 」チェックボックスをオンにします。
 
 1. In **[!UICONTROL Post Body]**, type **{}**.
 
@@ -199,15 +199,15 @@ PII データをに送信するには、以下を実行します。 [!DNL Adobe 
 
 1. 名前を入力します（例： ）。 **Adobe Campaign — プッシュクリックの追跡**.
 
-1. 内 **[!UICONTROL Events]** セクションで、 **[!UICONTROL Add]**.
+1. Adobe Analytics の **[!UICONTROL Events]** セクションで、 **[!UICONTROL Add]**.
 
-1. 次の **[!UICONTROL Extension]** ドロップダウンで、「 **[!UICONTROL Mobile Core]**. すると、 **[!UICONTROL Track Action]** 内 **[!UICONTROL Event type]** 」ドロップダウンリストから選択できます。
+1. 次から： **[!UICONTROL Extension]** ドロップダウンで、「 **[!UICONTROL Mobile Core]**. すると、 **[!UICONTROL Track Action]** （内） **[!UICONTROL Event type]** 」ドロップダウンリストから選択できます。
 
-1. 次の **[!UICONTROL Action]** ドロップダウンで、「 **[!UICONTROL Action]**&#x200B;を選択します。 **[!UICONTROL equals]**、および **tracking**.
+1. 次から： **[!UICONTROL Action]** ドロップダウンで、「 **[!UICONTROL Action]**&#x200B;を選択します。 **[!UICONTROL equals]**、およびと入力します。 **tracking**.
 
 1. 「**[!UICONTROL Keep changes]**」をクリックします。次に、 **[!UICONTROL Actions]** セクションで、 **[!UICONTROL Add]**.
 
-1. 次の **[!UICONTROL Extension]** ドロップダウンで、「 **[!UICONTROL Mobile Core]**. すると、 **[!UICONTROL Send postback]** 内 **[!UICONTROL Action type]** 」ドロップダウンリストから選択できます。
+1. 次から： **[!UICONTROL Extension]** ドロップダウンで、「 **[!UICONTROL Mobile Core]**. すると、 **[!UICONTROL Send postback]** （内） **[!UICONTROL Action type]** 」ドロップダウンリストから選択できます。
 
 1. In **[!UICONTROL URL]**、次の URL を入力します。
 
@@ -215,7 +215,7 @@ PII データをに送信するには、以下を実行します。 [!DNL Adobe 
    https://{%%camp-server%%}/r/?id={%contextdata.broadlogId%},{%contextdata.deliveryId%},{%contextdata.action%}&mcId={%%mcid%%}
    ```
 
-1. を選択します。 **[!UICONTROL Add post body]** チェックボックスをオンにします。
+1. を選択します。 **[!UICONTROL Add post body]** 」チェックボックスをオンにします。
 
 1. 投稿の本文を追加します（例： { }）。
 
@@ -229,15 +229,15 @@ PII データをに送信するには、以下を実行します。 [!DNL Adobe 
 
 1. 名前を入力します（例： ）。 **ポストバックの場所**.
 
-1. 内 **[!UICONTROL Events]** セクションで、 **[!UICONTROL Add]**.
+1. Adobe Analytics の **[!UICONTROL Events]** セクションで、 **[!UICONTROL Add]**.
 
-1. イベントを作成します（例： POI を入力、POI を終了）。 次の **[!UICONTROL Extension]** ドロップダウンで、「 **Places — ベータ**. すると、 **POI を入力** または **出口 POI** 内 **[!UICONTROL Event type]** 」ドロップダウンリストから選択できます。
+1. イベントを作成します（例： POI を入力、POI を終了）。 次から： **[!UICONTROL Extension]** ドロップダウンで、「 **Places — ベータ版**. すると、 **POI を入力** または **出口 POI** （内） **[!UICONTROL Event type]** 」ドロップダウンリストから選択できます。
 
 1. 名前を入力します（例： ）。 **Places — ベータ — POI を入力** または **出口 POI**.
 
-1. 内 **[!UICONTROL Actions]** セクションで、 **[!UICONTROL Add]**.
+1. Adobe Analytics の **[!UICONTROL Actions]** セクションで、 **[!UICONTROL Add]**.
 
-1. 次の **[!UICONTROL Extension]** ドロップダウンで、「 **[!UICONTROL Mobile Core]**. すると、 **[!UICONTROL Send postback]** から **[!UICONTROL Action type]** 」ドロップダウンリストから選択できます。
+1. 次から： **[!UICONTROL Extension]** ドロップダウンで、「 **[!UICONTROL Mobile Core]**. すると、 **[!UICONTROL Send postback]** から **[!UICONTROL Action type]** 」ドロップダウンリストから選択できます。
 
 1. 名前を入力します（例： ）。 **モバイルコア — 場所ポストバックを送信**.
 

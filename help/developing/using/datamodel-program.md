@@ -154,7 +154,7 @@ ht-degree: 41%
                   <td>列挙（バイト） </td>
                   <td>
                      <ul>
-                        <li>開始済み — 開始 — 1</li>
+                        <li>開始済み — 開始済み — 1</li>
                         <li>編集 — エディション — 0</li>
                         <li>完了 — 終了 — 2</li>
                         <li>無効な値 — __Invalid_value__ - __Invalid_value__</li>
@@ -191,7 +191,7 @@ ht-degree: 41%
     <th>タイプ</th>
     </tr>
     <tr>
-    <td>state</td>
+    <td>都道府県</td>
     <td>列挙</td>
     </tr>
 </table>

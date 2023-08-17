@@ -11,7 +11,7 @@ exl-id: 1cd471e3-5332-4119-b342-2c3c8503fdd1
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '434'
-ht-degree: 59%
+ht-degree: 61%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 59%
 * [重複排除](../../automating/using/deduplication.md)
 * [エンリッチメント](../../automating/using/enrichment.md)
 
-**[!UICONTROL Targeting]** 「 」アクティビティでは、 **セグメントコード** 送信トランジション用の その結果、これらのセグメントコードに基づいてレポートを作成して、マーケティングキャンペーンの効率を測定できます。詳しくは、[この節](../../reporting/using/creating-a-report-workflow-segment.md)を参照してください。
+**[!UICONTROL Targeting]** 「 」アクティビティでは、 **セグメントコード** 送信トランジション用に作成されます。 その結果、これらのセグメントコードに基づいてレポートを作成して、マーケティングキャンペーンの効率を測定できます。詳しくは、[この節](../../reporting/using/creating-a-report-workflow-segment.md)を参照してください。
 
 ## データの選択 {#selecting-data}
 
@@ -44,14 +44,14 @@ ht-degree: 59%
 
 * 「**[!UICONTROL Query]**」アクティビティを使用すると、Adobe Campaign データベースから要素の母集団をフィルタリングして抽出できます。詳しくは、 [クエリ](../../automating/using/query.md) 」セクションに入力します。
 * 「**[!UICONTROL Incremental query]**」アクティビティを使用すると、Adobe Campaign データベースから要素の母集団をフィルタリングして抽出できます。このアクティビティが実行されるたびに、以前の実行結果が除外されます。これにより、新しい要素のみをターゲットにすることができます。を参照してください。 [増分処理クエリ](../../automating/using/incremental-query.md) 」セクションに入力します。
-* この **[!UICONTROL Read audience]** 「 」アクティビティを使用すると、既存のオーディエンスを取得し、追加のフィルター条件を適用してそのオーディエンスを絞り込むことができます。詳しくは、 [オーディエンスの閲覧](../../automating/using/read-audience.md) 」セクションに入力します。
+* The **[!UICONTROL Read audience]** 「 」アクティビティを使用すると、既存のオーディエンスを取得し、追加のフィルター条件を適用してそのオーディエンスを絞り込むことができます。詳しくは、 [オーディエンスの閲覧](../../automating/using/read-audience.md) 」セクションに入力します。
 
 ## データのセグメント化 {#segmenting-data}
 
 Adobe Campaign では、インバウンドデータをセットで処理できます。したがって、いくつもの母集団を組み合わせて、一部を除外したり、複数のターゲットに共通するデータのみを保持したりできます。
 
-* 「**[!UICONTROL Union]**」アクティビティを使用すると、複数のアクティビティの結果を 1 つのターゲットに再グループ化できます。詳しくは、 [和集合](../../automating/using/union.md) 」セクションに入力します。
-* 「**[!UICONTROL Intersection]**」アクティビティでは、アクティビティ内の異なるインバウンド母集団に共通の要素のみを保持できます。詳しくは、 [積集合](../../automating/using/intersection.md) 」セクションに入力します。
+* 「**[!UICONTROL Union]**」アクティビティを使用すると、複数のアクティビティの結果を 1 つのターゲットに再グループ化できます。[和集合](../../automating/using/union.md)の節を参照してください。
+* 「**[!UICONTROL Intersection]**」アクティビティでは、アクティビティ内の異なるインバウンド母集団に共通の要素のみを保持できます。[積集合](../../automating/using/intersection.md)の節を参照してください。
 * ［**[!UICONTROL Exclusion]**］アクティビティでは、特定の条件に従って、ある母集団から要素を除外することができます。詳しくは、 [除外](../../automating/using/exclusion.md) 」セクションに入力します。
 * 「**[!UICONTROL Segmentation]**」アクティビティを使用すると、ワークフローで既に配置されているアクティビティによって計算された母集団から、1 つまたは複数のセグメントを作成できます。アクティビティの最後に、1 つのトランジションまたは複数のトランジションで処理できます。詳しくは、 [セグメント化](../../automating/using/segmentation.md) 」セクションに入力します。
 
@@ -59,7 +59,7 @@ Adobe Campaign では、インバウンドデータをセットで処理でき�
 
 識別され、収集されたデータに対して、ターゲットの構築を最適化するために、エンリッチメントや集計、操作を行うことができます。データマートでモデル化されていないデータを含めることで、ターゲティングプロセスを簡素化し、最適化できます。
 
-この **[!UICONTROL Additional data]** タブ **[!UICONTROL Query]** および **[!UICONTROL Incremental query]** 「 」アクティビティを使用すると、クエリの対象となるデータをエンリッチメントし、このデータを次のワークフローアクティビティに転送して使用できます。 特に、以下を追加できます。
+The **[!UICONTROL Additional data]** タブ **[!UICONTROL Query]** および **[!UICONTROL Incremental query]** 「 」アクティビティを使用すると、クエリのターゲットとなるデータをエンリッチメントし、このデータを次のワークフローアクティビティに転送して使用できます。 特に、以下を追加できます。
 
 * シンプルなデータ
 * 集計

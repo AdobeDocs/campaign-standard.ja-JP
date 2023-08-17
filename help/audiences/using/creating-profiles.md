@@ -31,7 +31,7 @@ Campaign でプロファイルを作成または更新するには、次の操�
 * [ランディングページ](../../channels/using/getting-started-with-landing-pages.md)からオンラインでデータを収集する
 * [REST API](../../api/using/get-started-apis.md) を使用して一括作成する
 * [Microsoft Dynamics](../../integrating/using/d365-acs-get-started.md) からプロファイルを同期する
-* 以下に説明するように、ユーザーインターフェイスを使用してデータを入力します
+* 以下に説明するように、ユーザーインターフェイスを使用してデータを入力します。
 
 例えば、ユーザーインターフェイスで直接新しいプロファイルを作成するには、次の手順に従います。
 
@@ -51,12 +51,12 @@ Campaign でプロファイルを作成または更新するには、次の操�
    * プロファイルの **[!UICONTROL Time zone]** を設定すると、配信がプロファイルのタイムゾーンに従って送信されます。詳しくは、[この節](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md)を参照してください。
    * E メールアドレス、携帯電話番号、オプトアウト情報などの **[!UICONTROL Channels]** カテゴリを使用すると、プロファイルにリーチ可能なチャネルを把握できます。
 
-      >[!NOTE]
-      > 携帯電話番号は、常に国際形式 (`+<country><number>`) 形式をプロファイルテーブルに追加します。
+     >[!NOTE]
+     > 携帯電話番号は、常に国際形式 (`+<country><number>`) 形式をプロファイルテーブルに追加します。
 
    * プロファイルでチャネルが購読解除されると、**[!UICONTROL No longer contact]** カテゴリはただちに更新されます。
    * **[!UICONTROL Address]** カテゴリには住所の欄があり、このプロファイルに[ダイレクトメール](../../channels/using/about-direct-mail.md)を送る場合は「**[!UICONTROL Address specified]**」オプションと合わせて入力する必要があります。「**[!UICONTROL Address specified]**」オプションを選択しない場合、このプロファイルはすべてのダイレクトメール送付から除外されます。
-   * この **[!UICONTROL Access authorization]** 「カテゴリ」は、次に対するプロファイルの組織単位を示します。 [権限の管理](../../administration/using/about-access-management.md). 組織関連のフィールドをプロファイルに追加するには、[プロファイルの分割](../../administration/using/organizational-units.md#partitioning-profiles)の節を参照してください。
+   * The **[!UICONTROL Access authorization]** 「カテゴリ」は、次に対するプロファイルの組織単位を示します。 [権限の管理](../../administration/using/about-access-management.md). 組織関連のフィールドをプロファイルに追加するには、[プロファイルの分割](../../administration/using/organizational-units.md#partitioning-profiles)の節を参照してください。
    * 「**[!UICONTROL Traceability]**」カテゴリは、プロファイルの作成または変更をおこなったユーザーに関する情報により自動的に更新されます。
 
 1. 「**[!UICONTROL Create]**」をクリックして、プロファイルを保存します。

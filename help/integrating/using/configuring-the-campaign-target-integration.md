@@ -27,11 +27,11 @@ Adobe CampaignとAdobe Targetの統合により、配信に動的コンテンツ
 * Adobe Targetテナント
 * Adobe Campaign との接続を確立するために指定された Adobe Target ローボックス
 
-1. 詳細設定メニューの左上隅にあるAdobe Campaignロゴから、 **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**.
+1. 詳細設定メニューの左上隅にあるAdobe Campaignロゴから、を選択します。 **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**.
 1. Adobe Targetのサーバーおよびテナントオプションを設定するには、それに応じて次のフィールドに入力します。
 
    * **[!UICONTROL TNT_TenantName]**:Adobe Targetテナントの名前。 この値は、Adobe Targetの名前に対応します **[!UICONTROL Client]**.
-   * **[!UICONTROL TNT_EdgeServer]**:統合に使用するAdobe Targetサーバー。 このオプションは、デフォルトで既に提供されています。 この値は、Adobe Target **[!UICONTROL Server Domain]**、その後に **/m2** の値です。 例：**tt.omtrdc.net/m2**。
+   * **[!UICONTROL TNT_EdgeServer]**：統合に使用するAdobe Targetサーバー。 このオプションは、デフォルトで既に提供されています。 この値は、Adobe Target **[!UICONTROL Server Domain]**、その後に **/m2** の値です。 例：**tt.omtrdc.net/m2**。
 
    ![](assets/tar_options.png)
 

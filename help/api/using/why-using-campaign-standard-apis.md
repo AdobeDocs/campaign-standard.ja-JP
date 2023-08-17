@@ -44,7 +44,7 @@ Adobe Campaign Standardは、既存のシステムを Campaign プラットフ�
 
    ![代替テキスト](assets/apis_uc3.png)
 
-Campaign StandardAPI リクエストについて理解するのに役立つリクエストのコレクションを利用できます。 この JSON 形式のコレクションは、一般的な使用例を表す事前設計された API リクエストを提供します。
+Campaign StandardAPI リクエストについて理解するのに役立つリクエストのコレクションを利用できます。 この JSON 形式のコレクションは、一般的な使用例を表す事前に設計された API リクエストを提供します。
 
 次の手順では、コレクションを読み込んで使用し、コレクションデータベース内にプロファイルを作成する手順を順を追って説明します。Campaign Standard
 
@@ -52,9 +52,9 @@ Campaign StandardAPI リクエストについて理解するのに役立つリ�
 >
 >この例ではPostmanを使用しています。 ただし、お気に入りの REST クライアントを自由に使用できます。
 
-1. 「 [ここ](https://helpx.adobe.com/content/dam/help/en/campaign/kb/working-with-acs-api/_jcr_content/main-pars/download_section/download-1/KB_postman_collection.json.zip).
+1. 「 」をクリックして JSON コレクションをダウンロードします [ここ](https://helpx.adobe.com/content/dam/help/en/campaign/kb/working-with-acs-api/_jcr_content/main-pars/download_section/download-1/KB_postman_collection.json.zip).
 
-1. Postmanを開き、 **ファイル** / **インポート** メニュー
+1. Postmanを開き、 **ファイル** / **インポート** メニュー。
 
 1. ダウンロードしたファイルをウィンドウにドラッグ&amp;ドロップします。 事前に設計された API リクエストが表示され、使用可能な状態になります。
 

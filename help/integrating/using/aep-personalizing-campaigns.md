@@ -27,7 +27,7 @@ ht-degree: 8%
 
 これをおこなうには、次の属性を **[!UICONTROL Read audience]** アクティビティ：
 
-1. を開きます。 **[!UICONTROL Read audience]** アクティビティ。 内 **[!UICONTROL Additional data]** タブで、 **[!UICONTROL Create element]** 」ボタンをクリックします。
+1. を開きます。 **[!UICONTROL Read audience]** アクティビティ。 Adobe Analytics の **[!UICONTROL Additional data]** タブで、 **[!UICONTROL Create element]** 」ボタンをクリックします。
 
    なお、 **[!UICONTROL Additional data]** 「 」タブは、Adobe Experience Platformオーディエンスが選択された場合にのみ使用できます。
 

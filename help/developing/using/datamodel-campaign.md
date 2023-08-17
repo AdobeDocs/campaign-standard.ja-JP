@@ -10,7 +10,7 @@ exl-id: a63fe730-a6b2-4ae0-93da-9f8ee7824c9f
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '217'
-ht-degree: 43%
+ht-degree: 44%
 
 ---
 
@@ -160,7 +160,7 @@ ht-degree: 43%
                   <td>列挙（バイト） </td>
                   <td>
                      <ul>
-                        <li>開始済み — 開始 — 1</li>
+                        <li>開始済み — 開始済み — 1</li>
                         <li>編集 — エディション — 0</li>
                         <li>完了 — 終了 — 2</li>
                         <li>無効な値 — __Invalid_value__ - __Invalid_value__</li>
@@ -197,7 +197,7 @@ ht-degree: 43%
     <th>タイプ</th>
     </tr>
     <tr>
-    <td>state</td>
+    <td>都道府県</td>
     <td>列挙</td>
     </tr>
 </table>
@@ -240,7 +240,7 @@ ht-degree: 43%
     <th>タイプ</th>
     </tr>
     <tr>
-    <td>state</td>
+    <td>都道府県</td>
     <td>列挙</td>
     </tr>
 </table>

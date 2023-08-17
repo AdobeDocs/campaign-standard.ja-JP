@@ -29,17 +29,17 @@ ht-degree: 100%
 
 * **[!UICONTROL Messages to be sent once confirmed]**：メッセージは、送信が確認されるとすぐに送信されます。[送信の確認](../../sending/using/confirming-the-send.md)を参照してください。
 
-   ![](assets/delivery_planning_1.png)
+  ![](assets/delivery_planning_1.png)
 
 * **[!UICONTROL Messages to be sent automatically on the date specified below]**：メッセージは、後で送信されます。「**Start sending from**」フィールドに&#x200B;**連絡日時**&#x200B;を指定します。
 
-   送信の準備と確認はできますが、メッセージは選択した日時まで送信されません。送信の準備と確認は、[送信の準備](../../sending/using/preparing-the-send.md)および[送信の確認](../../sending/using/confirming-the-send.md)の節に記載されています。
+  送信の準備と確認はできますが、メッセージは選択した日時まで送信されません。送信の準備と確認は、[送信の準備](../../sending/using/preparing-the-send.md)および[送信の確認](../../sending/using/confirming-the-send.md)の節に記載されています。
 
-   **[!UICONTROL Time zone of the contact date]** ドロップダウンリストを使用すると、送信時間のタイムゾーンを変更できます。例えば、「**[!UICONTROL Start sending from]**」フィールドに「9:00 AM」と入力して **[!UICONTROL Time zone of the contact date]** ドロップダウンリストで「Brussels, Copenhagen, Madrid, Paris (GMT+1)」を選択した場合、すべての受信者はパリ時間の午前 9 時にメッセージを受信します。したがって、モスクワの受信者はモスクワ時間（GMT+3）の午前 11 時にメッセージを受信します。
+  **[!UICONTROL Time zone of the contact date]** ドロップダウンリストを使用すると、送信時間のタイムゾーンを変更できます。例えば、「**[!UICONTROL Start sending from]**」フィールドに「9:00 AM」と入力して **[!UICONTROL Time zone of the contact date]** ドロップダウンリストで「Brussels, Copenhagen, Madrid, Paris (GMT+1)」を選択した場合、すべての受信者はパリ時間の午前 9 時にメッセージを受信します。したがって、モスクワの受信者はモスクワ時間（GMT+3）の午前 11 時にメッセージを受信します。
 
-   手動で送信を確認する場合は、「**[!UICONTROL Request confirmation before sending messages]**」オプションをオンにします。このオプションは、デフォルトでは有効になっています。
+  手動で送信を確認する場合は、「**[!UICONTROL Request confirmation before sending messages]**」オプションをオンにします。このオプションは、デフォルトでは有効になっています。
 
-   ![](assets/delivery_planning.png)
+  ![](assets/delivery_planning.png)
 
 >[!IMPORTANT]
 >

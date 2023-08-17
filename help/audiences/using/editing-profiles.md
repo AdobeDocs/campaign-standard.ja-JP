@@ -44,18 +44,18 @@ ht-degree: 12%
 
 ## 一般的なプロファイルデータ {#general-profile-data}
 
-この **[!UICONTROL General]** 「 」タブには、プロファイルに関する次の情報が表示されます。
+The **[!UICONTROL General]** 「 」タブには、プロファイルに関する次の情報が表示されます。
 
 * 連絡先情報。受信者の名、姓、生年月日、写真、優先言語 ( [多言語の E メール](../../channels/using/creating-a-multilingual-email.md)) など
 * プロファイルに連絡できるチャネル。受信者の E メールアドレス、携帯電話番号、オプトアウト情報が含まれます。
-* 郵送先住所 ( [ダイレクトメール](../../channels/using/about-direct-mail.md))、連絡先のタイムゾーン ( [タイムゾーンでメッセージをスケジュール](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md)) をクリックします。
+* 郵送先住所 ( [ダイレクトメール](../../channels/using/about-direct-mail.md))、連絡先のタイムゾーン ( [タイムゾーンでメッセージをスケジュールする](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md)) をクリックします。
 * アクセス認証。受信者の組織単位 ( [権限の管理](../../administration/using/about-access-management.md)) をクリックします。 [プロファイルの分割](../../administration/using/organizational-units.md#partitioning-profiles)も参照してください。
 
 ![](assets/profile_creation4.png)
 
 ## ログの送信とトラッキング {#sending-and-tracking-logs}
 
-この **[!UICONTROL Sending logs]** および **[!UICONTROL Tracking logs]** タブには、プロファイルに送信された配信のリストと、関連するすべてのトラッキングデータがグループ化されます。
+The **[!UICONTROL Sending logs]** および **[!UICONTROL Tracking logs]** タブには、プロファイルに送信された配信のリストと、関連するすべてのトラッキングデータがグループ化されます。
 
 送信ログとトラッキングログについて詳しくは、 [配信ログ](../../sending/using/monitoring-a-delivery.md#delivery-logs) そして [メッセージのトラッキング](../../sending/using/tracking-messages.md) セクション。
 
@@ -63,4 +63,4 @@ ht-degree: 12%
 
 連絡先の購読が対応するタブに表示されます。 サービスの購読について詳しくは、 [この節](../../audiences/using/about-subscriptions.md).
 
-この **[!UICONTROL Mobile App Subscriptions]** 「 」タブは、プッシュ通知を参照します。 詳しくは、 [プッシュ通知](../../channels/using/about-push-notifications.md) チャネル。
+The **[!UICONTROL Mobile App Subscriptions]** 「 」タブは、プッシュ通知を参照します。 詳しくは、 [プッシュ通知](../../channels/using/about-push-notifications.md) チャネル。

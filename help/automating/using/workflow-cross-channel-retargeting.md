@@ -1,6 +1,6 @@
 ---
 title: メールを開封していないユーザーのリターゲティング
-description: この使用例では、メールを開封していないユーザーのリターゲティング方法を示します。
+description: この使用例では、メールを開封していないユーザーをリターゲティングする方法を示します。
 audience: automating
 content-type: reference
 topic-tags: execution-activities
@@ -28,8 +28,8 @@ ht-degree: 38%
 
 1. **[!UICONTROL Activities]**／**[!UICONTROL Targeting]** で、「[クエリ](../../automating/using/query.md)」アクティビティをドラッグ＆ドロップします。
 1. アクティビティをダブルクリックします。
-1. In **[!UICONTROL Shortcuts]**、ドラッグ&amp;ドロップ **[!UICONTROL Profiles]** を選択し、 **[!UICONTROL email]** 演算子 **[!UICONTROL is not empty]**.
-1. In **[!UICONTROL Shortcuts]**、ドラッグ&amp;ドロップ **[!UICONTROL Profiles]** を選択し、 **[!UICONTROL no longer contact by email]** 値 **[!UICONTROL no ]**.
+1. In **[!UICONTROL Shortcuts]**、ドラッグ&amp;ドロップ **[!UICONTROL Profiles]** を選択し、 **[!UICONTROL email]** 演算子を使用 **[!UICONTROL is not empty]**.
+1. In **[!UICONTROL Shortcuts]**、ドラッグ&amp;ドロップ **[!UICONTROL Profiles]** を選択し、 **[!UICONTROL no longer contact by email]** と値 **[!UICONTROL no]**.
 1. 「**[!UICONTROL Confirm]**」をクリックします。
 
 ![](assets/wf-complement-query.png)
@@ -55,7 +55,7 @@ ht-degree: 38%
 1. **[!UICONTROL Activities]**／**[!UICONTROL Targeting]** で、**[!UICONTROL Query activity]** をドラッグ＆ドロップします。
 1. アクティビティをダブルクリックします。
 1. In **[!UICONTROL Shortcuts]**、ドラッグ&amp;ドロップ **[!UICONTROL Tracking Logs]** および演算子 **[!UICONTROL exists]**.
-1. In **[!UICONTROL Shortcuts]**> **[!UICONTROL Delivery]**、ドラッグ&amp;ドロップ **[!UICONTROL delivery]** 演算子 **[!UICONTROL is equal to]** 配信を値として選択します。
+1. In **[!UICONTROL Shortcuts]**> **[!UICONTROL Delivery]**、ドラッグ&amp;ドロップ **[!UICONTROL delivery]** 演算子を使用 **[!UICONTROL is equal to]** 配信を値として選択します。
 1. In **[!UICONTROL Shortcuts]**> **[!UICONTROL Delivery]**、ドラッグ&amp;ドロップ **[!UICONTROL type]** およびチェック **[!UICONTROL Open]** 値として。
 1. ルール間の演算子を次のように選択します。 **[!UICONTROL except]**.
 1. 「**[!UICONTROL Confirm]**」をクリックします。
@@ -65,7 +65,7 @@ ht-degree: 38%
 1. 各セグメントの後に SMS 配信をドラッグ&amp;ドロップします。
 1. アクティビティをクリックし、![](assets/edit_darkgrey-24px.png) を選択して編集します。
 1. 「**[!UICONTROL Simple sms]**」を選択し、「**[!UICONTROL Next]**」をクリックします。
-1. sms テンプレートを選択し、 **[!UICONTROL Next]**.
+1. sms テンプレートを選択し、「 **[!UICONTROL Next]**.
 1. sms のプロパティを入力し、「 **[!UICONTROL Next]**.
 1. SMS のレイアウトを作成するには、 **[!UICONTROL Email Designer]**.
 1. 要素を挿入するか、既存のテンプレートを選択します。

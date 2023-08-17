@@ -21,12 +21,12 @@ Adobe Campaign では、次の 3 つのタイプのアプリ内メッセージ�
 
 * **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]**：このメッセージタイプでは、モバイルアプリケーションを購読している Adobe Campaign プロファイル（CRM プロファイル）をターゲットとして設定できます。このメッセージタイプは、Adobe Campaign で使用可能なすべてのプロファイル属性を使用してパーソナライズできますが、Mobile SDK と Campaign のアプリ内メッセージングの間でセキュリティ保護されたハンドシェイクを使用する必要があります。これは、個人情報や機密情報を含んだメッセージの使用を、許可されたユーザーのみに制限するために必要になります。
 
-   このメッセージタイプをユーザーのデバイスにダウンロードするには、Mobile SDK が、モバイルプロファイルを Adobe Campaign 内の CRM プロファイルに接続するためのリンケージフィールドを送信する必要があります。アプリ内メッセージのサポートに必要な SDK API について詳しくは、この[ページ](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/)を参照してください。
+  このメッセージタイプをユーザーのデバイスにダウンロードするには、Mobile SDK が、モバイルプロファイルを Adobe Campaign 内の CRM プロファイルに接続するためのリンケージフィールドを送信する必要があります。アプリ内メッセージのサポートに必要な SDK API について詳しくは、この[ページ](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/)を参照してください。
 
 * **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**：このメッセージタイプでは、Adobe Campaign にプロファイルが存在していない場合でも、モバイルアプリケーションの全ユーザー（現在のユーザーも将来のユーザーも含む）にメッセージを送信できるようになります。したがって、メッセージのカスタマイズ時には、Adobe Campaign にユーザープロファイルが存在しない可能性があるので、パーソナライゼーションができません。
 * **[!UICONTROL Target users based on their Mobile profile (inApp)]**：このメッセージタイプでは、Adobe Campaign にモバイルプロファイルを持つモバイルアプリケーションの既知のユーザーや匿名ユーザーすべてをターゲットにすることができます。このメッセージタイプは、個人情報も機密性も含まない属性のみを使用してパーソナライズできるので、Mobile SDK と Adobe Campaign のアプリ内メッセージングサービスの間にセキュリティで保護されたハンドシェイクは必要ありません。
 
-   個人データと機密データの扱い方について詳しくは、[個人データと機密データを含んだモバイルプロファイルフィールドの扱い方](../../channels/using/about-in-app-messaging.md#handling-mobile-profile-fields-with-personal-and-sensitive-data)の節を参照してください。
+  個人データと機密データの扱い方について詳しくは、[個人データと機密データを含んだモバイルプロファイルフィールドの扱い方](../../channels/using/about-in-app-messaging.md#handling-mobile-profile-fields-with-personal-and-sensitive-data)の節を参照してください。
 
 ![](assets/diagram_inapp.png)
 
@@ -76,19 +76,20 @@ Adobe Campaign を使用してスタンドアロンのアプリ内メッセー�
 
    * **[!UICONTROL Mobile Application events]**：モバイルアプリケーションに実装されたカスタムイベント。
 
-      イベント作成について詳しくは、この[ページ](../../administration/using/configuring-a-mobile-application.md)を参照してください。
+     イベント作成について詳しくは、この[ページ](../../administration/using/configuring-a-mobile-application.md)を参照してください。
 
    * **[!UICONTROL Life Cycle events]**：Adobe Mobile SDK でサポートされる既製のライフサイクルイベント。
 
-      ライフサイクルイベントについて詳しくは、この[ページ](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html)を参照してください。
+     ライフサイクルイベントについて詳しくは、この[ページ](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html)を参照してください。
 
    * **[!UICONTROL Analytics Events]**：モバイルアプリに実装されている機能に応じて、Adobe Analytics、コンテキストデータ、画面遷移のいずれかのカテゴリがサポートされます。
 
-      これらのイベントは、Adobe Analytics のライセンスをお持ちの場合にのみ利用できます。
+     これらのイベントは、Adobe Analytics のライセンスをお持ちの場合にのみ利用できます。
 
    * **[!UICONTROL Places]**：Places コンテキストデータ、Places カスタムメタデータ、Places イベントタイプの 3 つのカテゴリでリアルタイムの位置情報データを利用して、コンテキストに応じたモバイルエクスペリエンスを提供します。
 
-      Adobe Places について詳しくは、[Places のドキュメント](https://experienceleague.adobe.com/docs/places/using/home.html)を参照してください。
+     Adobe Places について詳しくは、[Places のドキュメント](https://experienceleague.adobe.com/docs/places/using/home.html)を参照してください。
+
    ![](assets/inapp_creating_4.png)
 
 1. 次を使用する場合、 **[!UICONTROL Analytics Events]**&#x200B;コンテキストデータイベントを手動で追加する必要があるのに対し、 Adobe Analyticsおよび表示状態イベントは、データ収集 UI の Analytics 拡張機能で設定されたレポートスイートに基づいて自動的に入力されます。

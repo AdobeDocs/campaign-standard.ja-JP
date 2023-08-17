@@ -19,13 +19,13 @@ ht-degree: 2%
 
 フォローアップメッセージは、事前に定義されたマーケティング配信テンプレートで、ワークフロー内で使用して、特定のトランザクションメッセージの受信者に別のコミュニケーションを送信できます。
 
-次に示す例を再利用します： [トランザクションメッセージの動作原則](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) セクション：買い物かごの放棄に関する電子メールが、買い物かごに製品を追加したが、購入を経ずにサイトを離れたユーザーに送信されます。
+次に示す例を再利用します： [トランザクションメッセージの動作原則](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) セクション：買い物かごの放棄に関する E メールが、買い物かごに製品を追加したが、購入を経ずにサイトを離れたユーザーに送信されます。
 
 買い物かごの放棄通知を受け取ったが 3 日後に開封しなかったすべての顧客に、わかりやすいリマインダーを送信する場合。 受信者には、最初に送信された E メールと同じデータに基づいて、フォローアップメッセージが届きます。
 
 ## フォローアップメッセージを送信するためのイベントの設定 {#configuring-an-event-to-send-a-follow-up-message}
 
-フォローアップメッセージを送信するには、まず、既に受信したトランザクションメッセージに対応するイベントを適切に設定する必要があります。
+フォローアップメッセージを送信するには、最初に、既に受信したトランザクションメッセージに対応するイベントを適切に設定する必要があります。
 
 1. イベントトランザクションメッセージを送信するために作成したのと同じイベント設定を使用します。 詳しくは、 [トランザクションイベントの設定](../../channels/using/configuring-transactional-event.md).
 1. イベントを設定する際に、 **[!UICONTROL Create follow-up delivery template for this event]** ボックスを使用して、イベントを公開する必要があります。
@@ -64,15 +64,15 @@ ht-degree: 2%
 
    詳しくは、 [ワークフローの作成](../../automating/using/building-a-workflow.md#creating-a-workflow).
 
-1. ドラッグ&amp;ドロップ **[!UICONTROL Scheduler]** アクティビティをワークフローに追加して開きます。 実行頻度を 1 日に 1 回に設定します。
+1. 次をドラッグ&amp;ドロップ： **[!UICONTROL Scheduler]** アクティビティをワークフローに追加して開きます。 実行頻度を 1 日に 1 回に設定します。
 
    スケジューラーアクティビティについて詳しくは、 [スケジューラ](../../automating/using/scheduler.md) 」セクションに入力します。
 
-1. ドラッグ&amp;ドロップ **[!UICONTROL Query]** アクティビティをワークフローに追加して開きます。
+1. 次をドラッグ&amp;ドロップ： **[!UICONTROL Query]** アクティビティをワークフローに追加して開きます。
 
    クエリアクティビティについて詳しくは、 [クエリ](../../automating/using/query.md) 」セクションに入力します。
 
-1. プロファイルリソース以外のリソースに対してクエリを実行するには、アクティビティの **[!UICONTROL Properties]** 」タブで、 **[!UICONTROL Resource]** 」ドロップダウンリストから選択できます。
+1. プロファイルリソース以外のリソースに対してクエリを実行するには、アクティビティの **[!UICONTROL Properties]** 」タブをクリックし、 **[!UICONTROL Resource]** 」ドロップダウンリストから選択できます。
 
    ![](assets/message-center_follow-up-query-properties.png)
 
@@ -92,7 +92,7 @@ ht-degree: 2%
 
    ![](assets/message-center_follow-up-delivery-logs-exists.png)
 
-1. を **[!UICONTROL Tracking logs (tracking)]** 要素をパレットからワークスペースに移動し、「 」を選択します。 **[!UICONTROL Does not exist]** をクリックして、e メールを開封しなかったすべての顧客をターゲットにします。
+1. を移動します。 **[!UICONTROL Tracking logs (tracking)]** 要素をパレットからワークスペースに移動し、「 」を選択します。 **[!UICONTROL Does not exist]** をクリックして、e メールを開封しなかったすべての顧客をターゲットにします。
 
    ![](assets/message-center_follow-up-delivery-and-tracking-logs.png)
 
@@ -132,4 +132,4 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->選択した **[!UICONTROL Profile]** ターゲティングディメンションは、イベント設定を作成する際に、フォローアップメッセージとしてAdobe Campaignマーケティングデータベースも利用します。 [プロファイルトランザクションメッセージ](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities)を参照してください。
+>次を選択した場合、 **[!UICONTROL Profile]** ターゲティングディメンションは、イベント設定を作成する際に、フォローアップメッセージとしてAdobe Campaignマーケティングデータベースも利用します。 [プロファイルトランザクションメッセージ](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities)を参照してください。

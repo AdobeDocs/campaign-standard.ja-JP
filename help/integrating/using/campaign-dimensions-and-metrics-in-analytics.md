@@ -11,7 +11,7 @@ exl-id: 6516c71a-efa8-4778-82bb-10615378f985
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '320'
-ht-degree: 11%
+ht-degree: 17%
 
 ---
 
@@ -31,7 +31,7 @@ Campaign **[!UICONTROL dimensions]** Analytics で見つかったものを以下
  <tbody> 
   <tr> 
    <td> キャンペーン ID<br /> </td> 
-   <td> Campaign で確認できる、キャンペーンの内部名<br /> </td> 
+   <td> Campaign で見たように、キャンペーンの内部名<br /> </td> 
   </tr> 
   <tr> 
    <td> キャンペーンラベル<br /> </td> 
@@ -84,7 +84,7 @@ Campaign **[!UICONTROL metrics]** Analytics で見つかったものを以下に
   </tr> 
   <tr> 
    <td> 合計バウンス数<br /> </td> 
-   <td> 送信されたメッセージの合計数に関する、配信および自動返信処理の間に累積したエラーの合計。<br /> </td> 
+   <td> 送信されたメッセージの合計数に対して、配信と自動返信処理の間に累積したエラーの合計数。<br /> </td> 
   </tr> 
   <tr> 
    <td> ユニーク開封<br /> </td> 

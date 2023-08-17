@@ -31,9 +31,9 @@ AEMサイトでAdobe Campaignフォームを作成するには：
 
 1. 次の中からフォームタイプを選択します。 **[!UICONTROL Form Start]** コンポーネント：
 
-   * **Adobe Campaign:プロファイルを保存**
-   * **Adobe Campaign:サービスを購読**
-   * **Adobe Campaign:サービスを購読解除**
+   * **Adobe Campaign：プロファイルを保存**
+   * **Adobe Campaign：サービスを購読**
+   * **Adobe Campaign：サービスの購読を解除**
 
 1. Adobe Campaignデータベースフィールドにマッピングできる別のフィールドやコンポーネントを追加して、フォームのコンテンツを編集します。
 1. フォームをテストしてパブリッシュし、AEMサイト上でアクセスできるようにします。

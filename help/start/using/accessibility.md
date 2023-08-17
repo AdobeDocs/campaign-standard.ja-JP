@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: 958f7beb-ab41-4492-bc0a-e9e342e3c12e
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 100%
 
@@ -31,13 +31,13 @@ Adobe Campaign Standard のユーザーインターフェイスは、アプリ�
 
 * 大きなテキストと見出しのコントラスト比が 3:1 を満たすよう改善されました。
 
-   ![](assets/accessibility_2.png)
+  ![](assets/accessibility_2.png)
 
 * アプリケーション内のヘルプコンテンツと本文のテキストのコントラスト比が 4.5:1 を満たすよう更新されました。
 
 * ワークフローの一時停止アイコンとキャンセルアイコンが更新され、背景色と前景色のコントラストが改善されました。
 
-   ![](assets/accessibility_1.png)
+  ![](assets/accessibility_1.png)
 
 * アプリケーション内の情報や階層は、色、形状、表示場所以外の方法でも示されている場合があります。
 
@@ -47,11 +47,11 @@ Adobe Campaign Standard のユーザーインターフェイスは、視覚的�
 
 * ユーザーが必須の ID フィールドを空白のままにすると、エラーのあるフィールドがエラーメッセージテキストとともに視覚的に示され、スクリーンリーダーなどの支援技術を利用するユーザーにも同じ情報がプログラム的に伝達されます。
 
-   ![](assets/accessibility_3.png)
+  ![](assets/accessibility_3.png)
 
 * カーソルを合わせたときやフォーカスしたときに表示されるコンテンツは、ユーザーが閉じることができます。また、他のコンテンツがこれにより隠れることはありません。
 
-   ![](assets/accessibility_4.png)
+  ![](assets/accessibility_4.png)
 
 * 画像の代替テキストとボタンのアクセシビリティ機能用の名前が追加され、要素を識別する視覚的な手掛かりに頼るだけでなく、支援技術を使用して読み上げることができます。
 

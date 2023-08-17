@@ -30,7 +30,7 @@ ht-degree: 98%
 
 **関連トピック：**
 
-* [使用例：ファイルに基づくデータの更新](../../automating/using/update-database-file.md)
+* [ユースケース：ファイルに基づくデータの更新](../../automating/using/update-database-file.md)
 * [ファイルの自動ダウンロードに基づくデータの更新](../../automating/using/update-data-automatic-download.md)
 
 ## 設定 {#configuration}
@@ -42,7 +42,7 @@ ht-degree: 98%
    * **[!UICONTROL Insert or update]**：データを挿入するか、データベースに既にレコードが存在する場合は更新します。
    * **[!UICONTROL Insert only]**：データのみ挿入します。既に存在するレコードは更新されません。紐付け条件が定義されている場合は、紐付けされていないレコードのみ追加されます。
 
-      インポートしたデータに、データベースに既に存在する特定のレコードが含まれている場合は、「**[!UICONTROL Generate an outbound transition for rejects]**」チェックボックスをオンにして、起こり得るエラーを回避します。
+     インポートしたデータに、データベースに既に存在する特定のレコードが含まれている場合は、「**[!UICONTROL Generate an outbound transition for rejects]**」チェックボックスをオンにして、起こり得るエラーを回避します。
 
    * **[!UICONTROL Update]**：データベースに既に存在するレコードのみを更新します。
    * **[!UICONTROL Delete]**：データを削除します。

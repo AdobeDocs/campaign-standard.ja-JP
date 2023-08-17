@@ -23,7 +23,7 @@ Campaign StandardデータをAdobe Real-time Customer Data Platform(RTCDP) に�
 >
 >Campaign で生成されたデータのみ（送信数、開封数、クリック数など）をAdobe Experience Platform にエクスポートすることをお勧めします。サードパーティのソース（CRM など）から取り込まれたデータは、Adobe Experience Platform に直接読み込む必要があります。
 
-## Campaign Standardでのエクスポートワークフローの作成
+## 「Campaign Standard」でのエクスポートワークフローの作成
 
 Campaign Standardから S3 または Azure BLOB ストレージの場所にデータをエクスポートするには、エクスポートするデータをターゲティングするワークフローを作成し、ストレージの場所に送信する必要があります。
 
@@ -31,11 +31,11 @@ Campaign Standardから S3 または Azure BLOB ストレージの場所にデ�
 
 * A **[!UICONTROL Extract file]** 「 」アクティビティを使用してターゲットデータを CSV ファイルに抽出します。 このアクティビティの設定方法について詳しくは、[こちらの節](../../automating/using/extract-file.md)を参照してください。
 
-   ![](assets/rtcdp-extract-file.png)
+  ![](assets/rtcdp-extract-file.png)
 
 * A **[!UICONTROL Transfer file]** 「 」アクティビティを使用して、CSV ファイルをストレージの場所に転送します。 分割アクティビティの設定方法について詳しくは、[こちらの節](../../automating/using/transfer-file.md)を参照してください。
 
-   ![](assets/rtcdp-transfer-file.png)
+  ![](assets/rtcdp-transfer-file.png)
 
 例えば、以下のワークフローでは、ログを定期的に CSV ファイルに抽出し、そのファイルをストレージの場所に転送します。
 
@@ -51,9 +51,9 @@ Campaign Standardから S3 または Azure BLOB ストレージの場所にデ�
 
 ## ストレージの場所をソースとして接続する
 
-Amazonストレージサービス (S3) または Azure Blob ストレージの場所を **ソース** のAdobeexperience Platform は、次のとおりです。 これらの各手順について詳しくは、[ソースコネクタのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja)を参照してください。
+Amazonストレージサービス (S3) または Azure BLOB ストレージの場所を **ソース** のAdobeexperience Platform は、次のとおりです。 これらの各手順について詳しくは、[ソースコネクタのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja)を参照してください。
 
-1. Adobe Experience Platform の場合 **[!UICONTROL Sources]** メニューで、ストレージの場所への接続を作成します。
+1. AdobeExperience Platform 内 **[!UICONTROL Sources]** メニューで、ストレージの場所への接続を作成します。
 
    * [Amazon S3 ソース接続の作成](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3.html?lang=ja)
    * [Azure Blob コネクタ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/cloud-storage/blob.html?lang=ja)

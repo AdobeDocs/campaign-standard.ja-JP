@@ -9,7 +9,7 @@ exl-id: 6605203e-78f8-4ebd-b256-a621a3a9d638
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
 source-wordcount: '1198'
-ht-degree: 81%
+ht-degree: 82%
 
 ---
 
@@ -25,7 +25,7 @@ Adobe Campaign では、ユーザーに一連の役割を割り当てて、ユ�
 
 ![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](#video)
 
-ユーザーをAdobe Campaignで表示するには、 **Adobe** ロゴ（左上隅）に移動し、「 **[!UICONTROL Administration > Users & Security > Users]**.
+ユーザーをAdobe Campaignで表示するには、 **Adobe** ロゴ（左上隅）に、「 **[!UICONTROL Administration > Users & Security > Users]**.
 
 Adobe Campaign からユーザー管理インターフェイスにアクセスするには、**[!UICONTROL User administration]** をクリックします。
 
@@ -46,7 +46,7 @@ Adobe Campaign からユーザー管理インターフェイスにアクセス�
 この節では、Adobe Campaign 内の様々なタスクを 3 つの主なユーザータイプに分けて説明します。
 
 * [機能管理者](#functional-administrators)：組織のすべてのユーザーの中で、技術面での最高責任者となるユーザーです。
-* [上級ユーザー](#advanced-users):マーケターが配信を送信および監視するために必要なすべての要素を設定します。
+* [上級ユーザー](#advanced-users)：マーケターが配信を送信および監視するために必要なすべての要素を設定します。
 * [基本ユーザー](#basic-users)：キャンペーンをパーソナライズ、配信、および監視するマーケターです。
 
 >[!NOTE]
@@ -59,7 +59,7 @@ Adobe Campaign からユーザー管理インターフェイスにアクセス�
 
 >[!IMPORTANT]
 >
->機能管理者のみ、 **[!UICONTROL Administration]** 役割とアクセス **すべて** ユニットは、送信ログ、メッセージログ、トラッキングログ、除外ログ、提案ログ、サブスクリプションログにアクセスできます。 管理者以外のユーザーは、リンクされたテーブル（プロファイル、配信）から開始しながら、これらのログをターゲットにすることができます。
+>機能管理者のみ、 **[!UICONTROL Administration]** 役割とアクセス権 **すべて** ユニットは、送信ログ、メッセージログ、トラッキングログ、除外ログ、提案ログ、サブスクリプションログにアクセスできます。 管理者以外のユーザーは、リンクされたテーブル（プロファイル、配信）から開始しながら、これらのログをターゲットにすることができます。
 
 Adobe Campaign インターフェイスで **[!UICONTROL Administration]** メニューにアクセスできるのは、機能管理者のみです。これらのユーザーは技術リソースにアクセスする必要があるので、標準の役割（**[!UICONTROL Administration]** および **[!UICONTROL Datamodel]**）など、より高度な役割を割り当てる必要があります。これらの役割は、標準の **[!UICONTROL Administrators]** セキュリティグループで組み合わされます。詳しくは、[この節](../../administration/using/list-of-roles.md)を参照してください。
 
@@ -102,7 +102,7 @@ Adobe Campaign インターフェイスで **[!UICONTROL Administration]** メ�
 
 ## ユーザーの作成 {#creating-a-user}
 
-ユーザーをインスタンスに追加するには、まずAdmin Consoleでユーザーを作成してから、Adobe Campaign Standardで管理する必要があります。
+インスタンスにユーザーを追加するには、まずAdmin Consoleでユーザーを作成してから、Adobe Campaign Standardで管理する必要があります。
 
 1. 詳細メニューから **[!UICONTROL Administration > Users & Security > Users]** を選択し、**[!UICONTROL User administration]** をクリックして Admin Console にアクセスします。
 
@@ -118,7 +118,7 @@ Adobe Campaign インターフェイスで **[!UICONTROL Administration]** メ�
 
    ![](assets/create_user_3.png)
 
-1. 次の **[!UICONTROL Assign products]** タブで、1 つ以上のセキュリティグループをユーザーに割り当てます。 セキュリティグループについて詳しくは、この[ページ](../../administration/using/managing-groups-and-users.md)を参照してください。
+1. 次から： **[!UICONTROL Assign products]** 」タブで、1 つ以上のセキュリティグループをユーザーに割り当てます。 セキュリティグループについて詳しくは、この[ページ](../../administration/using/managing-groups-and-users.md)を参照してください。
 
    設定が完了したら、「**[!UICONTROL Save]**」をクリックします。
 

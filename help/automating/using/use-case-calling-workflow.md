@@ -24,8 +24,8 @@ ht-degree: 1%
 この使用例を実行するには、次の操作を実行する必要があります。
 
 1. **API 呼び出しを実行する** 外部パラメーターを使用してトリガーワークフロー 1 に追加します。 詳しくは、 [手順 1:API 呼び出しの設定](../../automating/using/use-case-calling-workflow.md#step-1--configuring-the-api-call).
-1. **ワークフロー 1 を作成**:ワークフローはファイルを転送し、データベースに読み込みます。 次に、データが空かどうかをテストし、最終的にプロファイルをオーディエンスに保存します。 最後に、トリガーWorkflow 2 です。 詳しくは、 [手順 2:ワークフロー 1 の設定](../../automating/using/use-case-calling-workflow.md#step-2--configuring-workflow-1).
-1. **ワークフローを作成 2**:ワークフローは、Workflow 1 で作成されたオーディエンスを読み取り、パラメーターを使用してカスタマイズされたセグメントコードと共に、パーソナライズされたメッセージをプロファイルに送信します。 詳しくは、 [手順 3:ワークフロー 2 の設定](../../automating/using/use-case-calling-workflow.md#step-3--configuring-workflow-2).
+1. **ワークフロー 1 を作成**：ワークフローはファイルを転送し、データベースに読み込みます。 次に、データが空かどうかをテストし、最終的にプロファイルをオーディエンスに保存します。 最後に、トリガーWorkflow 2 です。 詳しくは、 [手順 2：ワークフロー 1 の設定](../../automating/using/use-case-calling-workflow.md#step-2--configuring-workflow-1).
+1. **ワークフローを作成 2**：ワークフローは、Workflow 1 で作成されたオーディエンスを読み取り、パラメーターを使用してカスタマイズされたセグメントコードと共に、パーソナライズされたメッセージをプロファイルに送信します。 詳しくは、 [手順 3：ワークフロー 2 の設定](../../automating/using/use-case-calling-workflow.md#step-3--configuring-workflow-2).
 
 ![](assets/extsignal_uc_process.png)
 
@@ -39,8 +39,8 @@ ht-degree: 1%
 
 この場合、次のパラメーターを使用してワークフローを呼び出します。
 
-* **fileToTarget**:データベースにインポートするファイルの名前。
-* **discountDesc**:割引の配信に表示する説明。
+* **fileToTarget**：データベースにインポートするファイルの名前。
+* **discountDesc**：割引の配信に表示する説明。
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/<TRIGGER_URL>
@@ -58,17 +58,17 @@ ht-degree: 1%
 -d } 
 ```
 
-## 手順 2:ワークフロー 1 の設定 {#step-2--configuring-workflow-1}
+## 手順 2：ワークフロー 1 の設定 {#step-2--configuring-workflow-1}
 
 ワークフロー 1 は次のように構築されます。
 
-* **[!UICONTROL External signal]** アクティビティ：ワークフロー内で使用するには、外部パラメーターを宣言する必要があります。
-* **[!UICONTROL Transfer file]** アクティビティ：は、パラメーターで定義された名前でファイルをインポートします。
-* **[!UICONTROL Load file]** アクティビティ：は、インポートしたファイルからデータベースにデータを読み込みます。
-* **[!UICONTROL Update data]** アクティビティ：インポートしたファイルのデータを使用してデータベースを挿入または更新します。
-* **[!UICONTROL Test]** アクティビティ：読み込まれたデータがあるかどうかを確認します。
-* **[!UICONTROL Save audience]** アクティビティ：ファイルにデータが含まれている場合、はプロファイルをオーディエンスに保存します。
-* **[!UICONTROL End activity]** アクティビティ：内で使用するパラメーターを指定して、ワークフロー 2 を呼び出します。
+* **[!UICONTROL External signal]** アクティビティ：ワークフロー内で使用するために外部パラメーターを宣言する必要がある場所です。
+* **[!UICONTROL Transfer file]** 「 」アクティビティ：パラメーターで定義された名前のファイルをインポートします。
+* **[!UICONTROL Load file]** 「 」アクティビティ：インポートしたファイルからデータベースにデータを読み込みます。
+* **[!UICONTROL Update data]** 「 」アクティビティ：データベースを挿入するか、インポートしたファイルのデータで更新します。
+* **[!UICONTROL Test]** アクティビティ：インポートされたデータがあるかどうかを確認します。
+* **[!UICONTROL Save audience]** 「 」アクティビティ：ファイルにデータが含まれている場合、はプロファイルをオーディエンスに保存します。
+* **[!UICONTROL End activity]** アクティビティ：ワークフロー 2 内で使用するパラメーターを指定して、ワークフロー 2 を呼び出します。
 
 ![](assets/extsignal_uc_wkf1.png)
 
@@ -78,8 +78,8 @@ ht-degree: 1%
 
    ![](assets/extsignal_uc1.png)
 
-1. を追加します。 **[!UICONTROL Transfer file]** 「 」アクティビティを使用してデータをデータベースにインポートします。それには、「 」アクティビティをドラッグ&amp;ドロップして開き、 **[!UICONTROL Protocol]** タブをクリックします。
-1. を選択します。 **[!UICONTROL Use a dynamic file path]** オプションを選択した場合、 **fileToTarget** パラメーターを次のように指定して転送します。
+1. を追加します。 **[!UICONTROL Transfer file]** 「 」アクティビティを使用してデータをデータベースにインポートします。それには、「 」アクティビティをドラッグ&amp;ドロップして開き、「 」 **[!UICONTROL Protocol]** タブをクリックします。
+1. を選択します。 **[!UICONTROL Use a dynamic file path]** オプションを選択した場合、 **fileToTarget** パラメーターを次のように指定して、転送するファイルとして指定します。
 
    ```
    $(vars/@fileToTarget)
@@ -93,7 +93,7 @@ ht-degree: 1%
 
 1. データベースを挿入し、インポートしたファイルのデータで更新します。
 
-   これをおこなうには、 **[!UICONTROL Update data]** 「 」アクティビティで、 **[!UICONTROL Identification]** タブをクリックして紐付け条件 ( **電子メール** フィールド ) に書き込まれます。
+   これをおこなうには、 **[!UICONTROL Update data]** 「 」アクティビティで、「 」 **[!UICONTROL Identification]** タブをクリックして紐付け条件 ( **電子メール** フィールド ) に書き込まれます。
 
    ![](assets/extsignal_uc3.png)
 
@@ -101,7 +101,7 @@ ht-degree: 1%
 
    ![](assets/extsignal_uc4.png)
 
-1. データがファイルから取得されるかどうかを確認します。 これをおこなうには、 **[!UICONTROL Test]** 「 」アクティビティをワークフローに追加し、 **[!UICONTROL Add an element]** ボタンを使用して条件を追加します。
+1. データがファイルから取得されるかどうかを確認します。 これをおこなうには、 **[!UICONTROL Test]** 「 」アクティビティをワークフローに追加し、「 **[!UICONTROL Add an element]** ボタンを使用して条件を追加します。
 1. 条件に名前を付けて定義します。 この例では、アウトバウンドトランジションに次の構文のデータが含まれているかどうかをテストします。
 
    ```
@@ -119,7 +119,7 @@ ht-degree: 1%
 
    ![](assets/extsignal_uc6.png)
 
-1. ドラッグ&amp;ドロップ **[!UICONTROL End]** 「 」アクティビティを開きます。
+1. ドラッグ&amp;ドロップ **[!UICONTROL End]** 「 」アクティビティを開きます。このアクティビティは、パラメーターを指定してワークフロー 2 を呼び出し、開きます。
 1. を選択します。 **[!UICONTROL External signal]** 「 」タブをクリックし、ワークフローを指定して、「 」トリガーとそれに関連するシグナルアクティビティを設定します。
 1. ワークフロー 2 内で使用するパラメーターと、それに関連する値を定義します。
 
@@ -129,13 +129,13 @@ ht-degree: 1%
 
 ワークフロー 1 が設定され、ワークフロー 2 を作成できるようになりました。 詳しくは、[この節](../../automating/using/use-case-calling-workflow.md#step-3--configuring-workflow-2)を参照してください。
 
-## 手順 3:ワークフロー 2 の設定 {#step-3--configuring-workflow-2}
+## 手順 3：ワークフロー 2 の設定 {#step-3--configuring-workflow-2}
 
 ワークフロー 2 は、次のように構築されます。
 
-* **[!UICONTROL External signal]** アクティビティ：ワークフロー内で使用するには、ここでパラメーターを宣言する必要があります。
-* **[!UICONTROL Read audience]** アクティビティ：は、Workflow 1 に保存されたオーディエンスを読み取ります。
-* **[!UICONTROL Email delivery]** アクティビティ：は、パラメーターを使用してパーソナライズされた、ターゲットオーディエンスに繰り返しメッセージを送信します。
+* **[!UICONTROL External signal]** アクティビティ：ワークフロー内で使用するためにパラメーターを宣言する必要がある場所です。
+* **[!UICONTROL Read audience]** アクティビティ：ワークフロー 1 に保存されているオーディエンスを読み取ります。
+* **[!UICONTROL Email delivery]** アクティビティ：パラメーターを使用してパーソナライズされた、ターゲットオーディエンスに繰り返しメッセージを送信します。
 
 ![](assets/extsignal_uc_wkf2.png)
 
@@ -160,7 +160,7 @@ ht-degree: 1%
 
    これをおこなうには、「 **[!UICONTROL Transition]** タブ、 **[!UICONTROL Use a dynamic segment code]** オプション。
 
-1. 以下を使用： **segmentCode** アウトバウンドトランジションの名前としてのパラメーター：
+1. 以下を使用します。 **segmentCode** アウトバウンドトランジションの名前としてのパラメーター：
 
    ```
    $(vars/@segmentCode)
@@ -168,7 +168,7 @@ ht-degree: 1%
 
    ![](assets/extsignal_uc10.png)
 
-1. ドラッグ&amp;ドロップ **[!UICONTROL Email delivery]** アクティビティを使用して、オーディエンスにメッセージを送信します。
+1. ドラッグ&amp;ドロップ **[!UICONTROL Email delivery]** 「 」アクティビティを使用して、オーディエンスにメッセージを送信します。
 1. メッセージ内で使用するパラメーターを特定し、 **discountDesc** パラメーター。 これをおこなうには、アクティビティの詳細設定オプションを開き、パラメーター名と値を追加します。
 
    ![](assets/extsignal_uc10b.png)
@@ -178,7 +178,7 @@ ht-degree: 1%
    ![](assets/extsignal_uc11.png)
 
 1. 使用するテンプレートを選択し、必要に応じて E メールのプロパティを定義します。
-1. 以下を使用： **discountDesc** パーソナライゼーションフィールドとしてのパラメーター。 これをおこなうには、パーソナライゼーションフィールドリストから選択します。
+1. 以下を使用します。 **discountDesc** パーソナライゼーションフィールドとしてのパラメーター。 これをおこなうには、パーソナライゼーションフィールドリストから選択します。
 
    ![](assets/extsignal_uc13.png)
 

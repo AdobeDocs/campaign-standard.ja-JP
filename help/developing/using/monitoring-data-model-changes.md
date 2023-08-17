@@ -17,7 +17,7 @@ ht-degree: 8%
 
 # データモデルの変更の監視{#monitoring-data-model-changes}
 
-次の **[!UICONTROL Diagnosis]** メニューを使用すると、アプリケーションで生成された技術オブジェクトを表示して、それらを分析できます。
+次から： **[!UICONTROL Diagnosis]** メニューを使用すると、アプリケーションで生成された技術オブジェクトを表示して、それらを分析できます。
 
 >[!NOTE]
 >

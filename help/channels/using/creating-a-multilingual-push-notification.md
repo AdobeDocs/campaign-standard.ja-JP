@@ -27,11 +27,11 @@ ht-degree: 2%
 
 プッシュ通知配信で多言語のコンテンツバリアントを使用するには、次の手順に従います。
 
-* [手順 1:多言語コンテンツバリアントのアップロード](#step-1--upload-multilingual-content-variant)
-* [手順 2:多言語コンテンツバリアントを使用したプッシュ通知のプレビューと最終決定](#step-2--preview-and-finalize-a-push-notification-using-multilingual-content-variants)
-* [手順 3:多言語プッシュ通知配信の送信と分析](#step-3--send-and-analyze-multilingual-push-notification-delivery)
+* [手順 1：多言語コンテンツバリアントのアップロード](#step-1--upload-multilingual-content-variant)
+* [手順 2：多言語コンテンツバリアントを使用したプッシュ通知のプレビューと最終決定](#step-2--preview-and-finalize-a-push-notification-using-multilingual-content-variants)
+* [手順 3：多言語プッシュ通知配信の送信と分析](#step-3--send-and-analyze-multilingual-push-notification-delivery)
 
-## 手順 1:多言語コンテンツバリアントのアップロード {#step-1--upload-multilingual-content-variant}
+## 手順 1：多言語コンテンツバリアントのアップロード {#step-1--upload-multilingual-content-variant}
 
 多言語プッシュ通知をパーソナライズする前に、まず多言語配信テンプレートでコンテンツのバリエーションをアップロードし、配信を作成する必要があります。
 
@@ -39,7 +39,7 @@ ht-degree: 2%
 >
 >また、各言語バリアントに対して手動でバリアントを作成する場合は、この手順をスキップできます。
 
-1. 内 **[!UICONTROL Marketing activities]**、 **[!UICONTROL Create]** ボタンをクリックし、 **[!UICONTROL Push notification]**.
+1. Adobe Analytics の **[!UICONTROL Marketing activities]**&#x200B;をクリックし、 **[!UICONTROL Create]** ボタンをクリックし、 **[!UICONTROL Push notification]**.
 1. テンプレートを選択 **[!UICONTROL Send multilingual push to Campaign profiles]** モバイルアプリケーションまたはテンプレートを購読しているAdobe Campaignプロファイルをターゲットにする場合 **[!UICONTROL Send multilingual push to app subscriber]** ：モバイルアプリケーションからの通知の受信をオプトインしたすべてのユーザーにプッシュ通知を送信します。
 
    ![](assets/multivariant_push_2.png)
@@ -48,16 +48,16 @@ ht-degree: 2%
 
    ドロップダウンには、SDK V4 とAdobe Experience Platform SDK の両方のアプリケーションが表示されます。
 
-1. 内 **[!UICONTROL Audiences]** ウィンドウを開き、クエリをドラッグ&amp;ドロップしてオーディエンスを微調整します。
+1. Adobe Analytics の **[!UICONTROL Audiences]** ウィンドウを開き、クエリをドラッグ&amp;ドロップしてオーディエンスを微調整します。
 
-   追加されるクエリは、選択したテンプレートによって異なります。もしあなたが **[!UICONTROL Send multilingual push to Campaign profiles]** テンプレートモバイルアプリケーションの既知の受信者に対してクエリを実行できます。 一方、 **[!UICONTROL Send multilingual push to app subscriber]** テンプレートの作成時に、オプトインした特定のアプリのすべての購読者に対してクエリを実行できます。
+   追加されるクエリは、選択したテンプレートによって異なります。選択した場合は、 **[!UICONTROL Send multilingual push to Campaign profiles]** テンプレートモバイルアプリケーションの既知の受信者に対してクエリを実行できます。 一方、 **[!UICONTROL Send multilingual push to app subscriber]** テンプレートの作成時に、オプトインした特定のアプリのすべての購読者に対してクエリを実行できます。
    >[!NOTE]
    >
    >特定の言語でオーディエンスのターゲットを設定する場合は、CSV ファイルにすべてのターゲット言語を一覧表示する必要があります。
 
    ![](assets/push_notif_audience.png)
 
-1. 内 **[!UICONTROL Manage Content Variants]** ウィンドウで、ファイルをドラッグ&amp;ドロップするか、コンピューターからファイルを選択します。
+1. Adobe Analytics の **[!UICONTROL Manage Content Variants]** ウィンドウで、ファイルをドラッグ&amp;ドロップするか、コンピューターからファイルを選択します。
 
    ファイルは UTF8 でエンコードされ、特定のレイアウトを持つ必要があります。レイアウトは、 **[!UICONTROL Download the sample file]** オプション。 また、ロケール値に対しては正しい構文を使用する必要があります。 ファイル形式とサポートされているロケールについて詳しくは、次を参照してください。 [ページ](../../channels/using/generating-csv-multilingual-push.md).
 
@@ -67,7 +67,7 @@ ht-degree: 2%
 
    ![](assets/multivariant_push_5.png)
 
-1. この **[!UICONTROL Variant selection]** 「 」タブには、配信テンプレートに応じて、考慮に入れる言語設定を決定するスクリプトが表示されます。 これは標準のスクリプトで、変更を加える必要はありません。
+1. The **[!UICONTROL Variant selection]** 「 」タブには、配信テンプレートに応じて、考慮に入れる言語設定を決定するスクリプトが表示されます。 これは標準のスクリプトで、変更を加える必要はありません。
 1. インポートしたファイルに存在しないバリアントをさらに追加する場合は、 **[!UICONTROL Add an element]** ボタンをクリックし、必要な数の新しい言語のバリアントを追加します。
 
    ファイルからアップロードされたバリエーション以外のバリエーションを追加すると、コンテンツはこの言語にリンクされません。 配信ダッシュボードで直接コンテンツを編集する必要があります。
@@ -80,19 +80,19 @@ ht-degree: 2%
 
 これで、多言語プッシュ通知のパーソナライズを開始できます。
 
-## 手順 2:多言語コンテンツバリアントを使用したプッシュ通知のプレビューと最終決定 {#step-2--preview-and-finalize-a-push-notification-using-multilingual-content-variants}
+## 手順 2：多言語コンテンツバリアントを使用したプッシュ通知のプレビューと最終決定 {#step-2--preview-and-finalize-a-push-notification-using-multilingual-content-variants}
 
 コンテンツバリアントを含むファイルをアップロードした後、プッシュ通知配信とは異なるバリアントをプレビューできるようになりました。
 
 ファイルからアップロードされたバリエーションに加えて、より多くのバリエーションを作成および編集することもできます。
 
-1. 内 **[!UICONTROL Content]** ウィンドウを開くと、ドロップダウンリストで、選択した言語に応じてプッシュ通知コンテンツをプレビューできます。
+1. Adobe Analytics の **[!UICONTROL Content]** ウィンドウを開くと、ドロップダウンリストで、選択した言語に応じてプッシュ通知コンテンツをプレビューできます。
 
    ![](assets/multivariant_push_7.png)
 
 1. 特定の言語に対してコンテンツバリアントが指定されていない場合は、プレビューの下にあるベルのアイコンをクリックして、この言語バリアントへのコンテンツの追加を開始します。
 
-   この **[!UICONTROL Content]** ウィンドウに表示されるプッシュ通知は、ドロップダウンで選択した言語のコンテンツを表します。 このウィンドウで行った変更は、1 つの言語にのみ影響します。
+   次をクリックすると、 **[!UICONTROL Content]** ウィンドウに表示されるプッシュ通知は、ドロップダウンで選択した言語のコンテンツを表します。 このウィンドウで行った変更は、1 つの言語にのみ影響します。
 
 1. コンテンツバリアントをクリックして、パーソナライゼーションフィールドなどを使用してさらにカスタマイズすることもできます。
 
@@ -108,16 +108,16 @@ ht-degree: 2%
 
 これで、多言語プッシュ通知配信を送信する準備が整いました。
 
-## 手順 3:多言語プッシュ通知配信の送信と分析 {#step-3--send-and-analyze-multilingual-push-notification-delivery}
+## 手順 3：多言語プッシュ通知配信の送信と分析 {#step-3--send-and-analyze-multilingual-push-notification-delivery}
 
 これで、多言語コンテンツバリアントプッシュ通知をユーザーに送信する準備が整いました。
 
 1. 送信の準備を開始するには、 **[!UICONTROL Prepare]** 」ボタンをクリックします。
-1. 警告を出さずに準備が完了したら、 **[!UICONTROL Confirm]** ボタンをクリックして、多言語プッシュの送信を開始します。
+1. 警告を出さずに準備が完了したら、「 **[!UICONTROL Confirm]** ボタンをクリックして、多言語プッシュの送信を開始します。
 
    ![](assets/multivariant_push_12.png)
 
-1. プッシュ通知が正常に送信されたら、 **[!UICONTROL Reports]** アイコンを選択し、 **[!UICONTROL Dynamic reports]** 配信の成功を分析する。
+1. プッシュ通知が正常に送信されたら、 **[!UICONTROL Reports]** アイコンを選択します。 **[!UICONTROL Dynamic reports]** 配信の成功を分析する。
 
    ![](assets/multivariant_push_13.png)
 

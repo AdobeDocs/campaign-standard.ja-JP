@@ -39,13 +39,13 @@ ht-degree: 11%
 
 ![](assets/delivery_content_edition16.png)
 
-* この **[!UICONTROL From: name]** 「 」フィールドには、送信者名を入力できます。 デフォルトでは、 **送信者名** ブロックが自動的に「 」フィールドに入力されます。 デフォルトの送信者 E メールアドレスと送信者名は、 **[!UICONTROL Brands]** 詳細設定メニューのAdobe Campaignロゴからアクセス可能 **[!UICONTROL Administration > Instance settings > Brand configuration]** .
+* The **[!UICONTROL From: name]** 「 」フィールドには、送信者名を入力できます。 デフォルトでは、 **送信者名** ブロックが自動的に「 」フィールドに入力されます。 デフォルトの送信者 E メールアドレスと送信者名は、 **[!UICONTROL Brands]** 詳細設定メニューのAdobe Campaignロゴからアクセス可能 **[!UICONTROL Administration > Instance settings > Brand configuration]** .
 
-   送信者名を変更するには、 **送信者名** ブロック フィールドが編集可能になり、使用する名前を入力できます。
+  送信者名を変更するには、 **送信者名** ブロック。 フィールドが編集可能になり、使用する名前を入力できます。
 
-   このフィールドはパーソナライズできます。 これをおこなうには、送信者名の下のアイコンをクリックして、パーソナライゼーションフィールド、コンテンツブロック、動的コンテンツを追加します。 詳しくは、 [パーソナライズ](../../designing/using/personalization.md).
+  このフィールドはパーソナライズできます。 これをおこなうには、送信者名の下のアイコンをクリックして、パーソナライゼーションフィールド、コンテンツブロック、動的コンテンツを追加します。 詳しくは、 [パーソナライズ](../../designing/using/personalization.md).
 
-* この **[!UICONTROL From: email address]** このセクションからはフィールドを編集できません。 電子メールを変更するには、電子メールのダッシュボードからプロパティを編集します。 詳しくは、 [E メールの詳細設定パラメーターのリスト](../../administration/using/configuring-email-channel.md#advanced-parameters).
+* The **[!UICONTROL From: email address]** このセクションからはフィールドを編集できません。 電子メールを変更するには、電子メールのダッシュボードからプロパティを編集します。 詳しくは、 [E メールの詳細設定パラメーターのリスト](../../administration/using/configuring-email-channel.md#advanced-parameters).
 
 >[!NOTE]
 >

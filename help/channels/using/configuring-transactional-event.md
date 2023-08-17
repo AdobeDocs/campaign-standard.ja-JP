@@ -32,9 +32,9 @@ ht-degree: 5%
 
 開始するには、必要に応じてイベントを作成します。
 
-1. 次をクリック： **Adobe** ロゴ（左上隅）に移動し、「 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
+1. 次をクリック： **Adobe** ロゴ（左上隅）に、「 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
 1. 「**[!UICONTROL Create]**」ボタンをクリックします。
-1. を入力します。 **[!UICONTROL Label]** および **[!UICONTROL ID]** イベントの この **[!UICONTROL ID]** フィールドは必須で、プレフィックス「EVT」で始まる必要があります。 このプレフィックスを使用しない場合、「 **[!UICONTROL Create]**.
+1. を入力します。 **[!UICONTROL Label]** および **[!UICONTROL ID]** イベントの。 The **[!UICONTROL ID]** フィールドは必須で、プレフィックス「EVT」で始まる必要があります。 このプレフィックスを使用しない場合、「 **[!UICONTROL Create]**.
 
    ![](assets/message-center_1.png)
 
@@ -54,7 +54,7 @@ ht-degree: 5%
 
 ## イベント属性の定義 {#defining-the-event-attributes}
 
-内 **[!UICONTROL Fields]** 「 」セクションで、イベントコンテンツに統合され、トランザクションメッセージのパーソナライズに使用できる属性を定義します。
+Adobe Analytics の **[!UICONTROL Fields]** 「 」セクションで、イベントコンテンツに統合され、トランザクションメッセージのパーソナライズに使用できる属性を定義します。
 
 フィールドの追加と変更の手順は、 [カスタムリソース](../../developing/using/configuring-the-resource-s-data-structure.md#adding-fields-to-a-resource).
 
@@ -62,7 +62,7 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->多言語トランザクションメッセージを作成する場合は、 **[!UICONTROL AC_language]** ID。 これは、イベントトランザクションメッセージにのみ適用されます。 イベントが公開された後の多言語トランザクションメッセージのコンテンツを編集する手順は、多言語標準 E メールの場合と同じです。 詳しくは、 [多言語 E メールの作成](../../channels/using/creating-a-multilingual-email.md).
+>多言語トランザクションメッセージを作成する場合は、 **[!UICONTROL AC_language]** ID。 これは、イベントトランザクションメッセージにのみ当てはまります。 イベントが公開された後の多言語トランザクションメッセージのコンテンツを編集する手順は、多言語標準 E メールの場合と同じです。 詳しくは、 [多言語 E メールの作成](../../channels/using/creating-a-multilingual-email.md).
 
 ## データコレクションの定義 {#defining-data-collections}
 
@@ -70,7 +70,7 @@ ht-degree: 5%
 
 このコレクションは、トランザクション E メールで使用して、 [製品リスト](../../designing/using/using-product-listings.md) メッセージのコンテンツ（価格、参照番号、数量などを含む製品のリストなど）に追加します。 リストの各製品に対して
 
-1. 内 **[!UICONTROL Collections]** セクションで、 **[!UICONTROL Create element]** 」ボタンをクリックします。
+1. Adobe Analytics の **[!UICONTROL Collections]** セクションで、 **[!UICONTROL Create element]** 」ボタンをクリックします。
 
    ![](assets/message-center_collection_create.png)
 
@@ -81,11 +81,11 @@ ht-degree: 5%
 
    ![](assets/message-center_collection_fields.png)
 
-1. この **[!UICONTROL Enrichment]** 「 」タブを使用すると、コレクションの各項目をエンリッチメントできます。 これにより、対応する製品リストの要素を、Adobe Campaignデータベースや作成した他のリソースからの情報を使用してパーソナライズできます。
+1. The **[!UICONTROL Enrichment]** 「 」タブを使用すると、コレクションの各項目をエンリッチメントできます。 これにより、対応する製品リストの要素を、Adobe Campaignデータベースや作成した他のリソースからの情報を使用してパーソナライズできます。
 
 >[!NOTE]
 >
->コレクションの要素をエンリッチメントする手順は、 [イベントのエンリッチメント](#enriching-the-transactional-message-content) 」セクションに入力します。 イベントをエンリッチメントすると、次のコレクションのエンリッチメントはできなくなります。コレクション自体にエンリッチメントを追加する必要があるのは、 **[!UICONTROL Collections]** 」セクションに入力します。
+>コレクションの要素をエンリッチメントする手順は、 [イベントのエンリッチメント](#enriching-the-transactional-message-content) 」セクションに入力します。 イベントをエンリッチメントしても、コレクションのエンリッチメントはできないことに注意してください。 **[!UICONTROL Collections]** 」セクションに入力します。
 
 イベントとメッセージが公開されると、このコレクションをトランザクションメッセージで使用できるようになります。
 
@@ -103,15 +103,15 @@ ht-degree: 5%
 
 トランザクションメッセージのコンテンツをAdobe Campaignデータベースの情報でエンリッチメントして、メッセージをパーソナライズできます。 各受信者の姓または CRM ID から、例えば、住所や生年月日などのデータや、プロファイルテーブルに追加された他のカスタムフィールドなどのデータを収集して、送信される情報をパーソナライズできます。
 
-トランザクションメッセージのコンテンツを拡張された **[!UICONTROL Profile and services Ext API]**. 詳しくは、 [API の拡張：拡張機能のパブリッシュ](../../developing/using/step-2--publish-the-extension.md)
+トランザクションメッセージのコンテンツを拡張された **[!UICONTROL Profile and services Ext API]**. 詳しくは、 [API の拡張：拡張機能の公開](../../developing/using/step-2--publish-the-extension.md)
 
-この情報は、新しいリソースに保存することもできます。 その場合、リソースは **[!UICONTROL Profile]** または **[!UICONTROL Service]** リソースは、直接または別のテーブルを使用して取得できます。 例えば、以下の設定では、トランザクションメッセージのコンテンツを **[!UICONTROL Product]** リソース ( **[!UICONTROL Product]** リソースは **[!UICONTROL Profile]** リソース。
+この情報は、新しいリソースに保存することもできます。 その場合、リソースは **[!UICONTROL Profile]** または **[!UICONTROL Service]** リソースは、直接または別のテーブルを使用して取得できます。 例えば、以下の設定では、トランザクションメッセージのコンテンツを **[!UICONTROL Product]** リソース（製品カテゴリや ID など） **[!UICONTROL Product]** リソースは **[!UICONTROL Profile]** リソース。
 
 ![](assets/message-center_usecaseschema.png)
 
 リソースの作成と公開について詳しくは、 [この節](../../developing/using/key-steps-to-add-a-resource.md).
 
-1. 内 **[!UICONTROL Enrichment]** セクションで、 **[!UICONTROL Create element]** 」ボタンをクリックします。
+1. Adobe Analytics の **[!UICONTROL Enrichment]** セクションで、 **[!UICONTROL Create element]** 」ボタンをクリックします。
 
    ![](assets/message-center_addenrichment.png)
 
@@ -119,7 +119,7 @@ ht-degree: 5%
 
    ![](assets/message-center_new-enrichment.png)
 
-1. 以下を使用： **[!UICONTROL Create element]** ボタンを使用して、選択したリソースのフィールドを、イベントに以前追加したフィールドの 1 つにリンクします ( [イベント属性の定義](#defining-the-event-attributes)) をクリックします。
+1. 以下を使用します。 **[!UICONTROL Create element]** ボタンを使用して、選択したリソースのフィールドを、イベントに以前追加したフィールドの 1 つにリンクします ( [イベント属性の定義](#defining-the-event-attributes)) をクリックします。
 
    ![](assets/message-center_enrichment-join.png)
 
@@ -133,13 +133,13 @@ ht-degree: 5%
 
    また、 **[!UICONTROL Service]** リソース。 サービスについて詳しくは、 [この節](../../audiences/using/creating-a-service.md).
 
-1. を作成または編集している場合 [プロファイルベースのイベント](#profile-based-transactional-messages)、 **[!UICONTROL Targeting enrichment]** 「 」セクションで、配信の実行時にメッセージのターゲットとして使用するエンリッチメントを選択します。
+1. を作成または編集している場合、 [プロファイルベースのイベント](#profile-based-transactional-messages)、 **[!UICONTROL Targeting enrichment]** 「 」セクションで、配信の実行時にメッセージのターゲットとして使用するエンリッチメントを選択します。
 
    ![](assets/message-center_marketing_targeting_enrichment.png)
 
    >[!NOTE]
    >
-   >エンリッチメントを作成し、 **[!UICONTROL Profile]** リソースは、プロファイルベースのイベントでは必須です。
+   >エンリッチメントを作成し、 **[!UICONTROL Profile]** プロファイルベースのイベントでは、リソースは必須です。
 
 イベントとメッセージが公開されると、このリンクを使用してトランザクションメッセージのコンテンツをエンリッチメントできます。
 
@@ -153,7 +153,7 @@ ht-degree: 5%
 
 作成済みのトランザクションイベントにアクセスして検索するには、次の手順に従います。
 
-1. 次をクリック： **Adobe** ロゴ（左上隅）に移動し、「 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
+1. 次をクリック： **Adobe** ロゴ（左上隅）に、「 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
 1. 「**[!UICONTROL Show search]**」ボタンをクリックします。
 
    ![](assets/message-center_search-events.png)

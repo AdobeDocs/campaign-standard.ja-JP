@@ -23,7 +23,7 @@ ht-degree: 1%
 
 このパネルを使用すると、必要に応じてレポートを作成できます。 レポートに必要な数のパネルを追加して、様々な期間でデータをフィルタリングできます。
 
-1. 次をクリック： **パネル** アイコン また、 **「挿入」タブ** および選択 **新しい空のパネル**.
+1. 次をクリック： **パネル** アイコン。 また、 **「挿入」タブ** および選択 **新しい空のパネル**.
 
    ![](assets/dynamic_report_panel_1.png)
 
@@ -31,7 +31,7 @@ ht-degree: 1%
 
    ![](assets/dynamic_report_panel.png)
 
-これで、パネルにフリーフォームテーブルを追加して、データのターゲティングを開始できます。
+これで、パネルにフリーフォームテーブルを追加して、データのターゲティングを開始できるようになりました。
 
 ## フリーフォームテーブルの追加 {#adding-a-freeform-table}
 
@@ -39,17 +39,17 @@ ht-degree: 1%
 
 各テーブルとビジュアライゼーションはサイズ変更が可能で、レポートをより適切にカスタマイズするために移動できます。
 
-1. 次をクリック： **[!UICONTROL Panels]** アイコン
+1. 次をクリック： **[!UICONTROL Panels]** アイコン。
 
    ![](assets/dynamic_report_panel_1.png)
 
 1. 次をドラッグ&amp;ドロップ： **[!UICONTROL Freeform]** 」項目をダッシュボードに追加します。
 
-   また、 **[!UICONTROL Insert]** タブと選択 **[!UICONTROL New Freeform]** または、 **[!UICONTROL Add a freeform table]** をクリックします。
+   また、 **[!UICONTROL Insert]** タブと選択 **[!UICONTROL New Freeform]** またはクリックして **[!UICONTROL Add a freeform table]** をクリックします。
 
    ![](assets/dynamic_report_panel_2.png)
 
-1. 内 **[!UICONTROL Drop a segment here]** フィールド、 **[!UICONTROL Segment]** から **[!UICONTROL Components]** タブを上部のバーに移動します。
+1. Adobe Analytics の **[!UICONTROL Drop a segment here]** フィールド、 **[!UICONTROL Segment]** から **[!UICONTROL Components]** 」タブを上部のバーに移動します。
 
    ![](assets/dynamic_report_panel_3.png)
 
@@ -61,15 +61,15 @@ ht-degree: 1%
 
    ![](assets/dynamic_report_freeform_4.png)
 
-   この **[!UICONTROL Column settings]** は、次の要素で構成されます。
+   The **[!UICONTROL Column settings]** は、次の要素で構成されます。
 
-   * **[!UICONTROL Number]**:列に概要番号を表示または非表示にできます。
-   * **[!UICONTROL Percent]**:列で割合の表示/非表示を切り替えることができます。
-   * **[!UICONTROL Interpret zero as no value]**:値がゼロに等しい場合に表示/非表示を切り替えることができます。
-   * **[!UICONTROL Background]**:セル内の水平方向のプログレスバーの表示/非表示を切り替えることができます。
-   * **[!UICONTROL Include retries]**:結果に再試行を含めることができます。 これは、次の場合にのみ使用できます。 **[!UICONTROL Sent]** および **[!UICONTROL Bounces + Errors]**.
+   * **[!UICONTROL Number]**：列内の概要番号の表示/非表示を切り替えます。
+   * **[!UICONTROL Percent]**：列で割合の表示と非表示を切り替えます。
+   * **[!UICONTROL Interpret zero as no value]**：値がゼロに等しい場合に表示/非表示を切り替えます。
+   * **[!UICONTROL Background]**：セル内の水平方向のプログレスバーの表示/非表示を切り替えます。
+   * **[!UICONTROL Include retries]**：結果に再試行を含めることができます。 これは、次の場合にのみ使用できます。 **[!UICONTROL Sent]** および **[!UICONTROL Bounces + Errors]**.
 
-1. 1 つまたは複数の行を選択し、 **[!UICONTROL Visualize]** アイコン 選択した行を反映するビジュアライゼーションが追加されます。
+1. 1 つまたは複数の行を選択し、 **[!UICONTROL Visualize]** アイコン。 選択した行を反映するビジュアライゼーションが追加されます。
 
    ![](assets/dynamic_report_freeform_5.png)
 

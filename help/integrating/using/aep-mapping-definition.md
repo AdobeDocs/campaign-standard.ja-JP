@@ -30,14 +30,14 @@ ht-degree: 0%
 
 1. に移動します。 **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** を選択し、 **[!UICONTROL Data mappings]** エントリ。
 
-1. クリック **[!UICONTROL Create]** をクリックして、新しい XDM マッピングを開始します。
+1. クリック： **[!UICONTROL Create]** をクリックして、新しい XDM マッピングを開始します。
 
    ![](assets/aep_createmapping.png)
 
 1. 必須フィールドに入力し、次を選択します。
 
-   * a **ターゲティングディメンション**:これは、マッピングするCampaign Standardスキーマです
-   * a **データセット**:これは、Adobe Experience Platformの XDM スキーマに関連付けられたデータパッケージです。
+   * a **ターゲティングディメンション**：マッピングするCampaign Standardスキーマです。
+   * a **データセット**:Adobe Experience Platformの XDM スキーマに関連付けられたデータパッケージです。
 
 >[!NOTE]
 >
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 ![](assets/aep_fieldmappings.png)
 
-この **[!UICONTROL Create new field mapping]** ボタンを使用すると、「Campaign Standard」フィールドと、XDM スキーマ内の対応するフィールドパス式を選択できます。
+The **[!UICONTROL Create new field mapping]** ボタンを使用すると、「Campaign Standard」フィールドと、XDM スキーマ内の対応するフィールドパス式を選択できます。
 
 Adobe Campaign Standardフィールドが見つからない場合は、検索フィールドを使用してフィールドを検索できます。 現在、階層で開いているフィールドに対してのみ検索が機能します。
 
@@ -67,7 +67,7 @@ API を介して XDM 拡張機能をカスタマイズし、独自の拡張機�
 
 ![](assets/aep_enummapping.png)
 
-XDM 値が XDM スキーマの列挙として定義されている場合、ネイティブの EXDM 関数を使用して、 **lif** 構文と同じです。
+XDM 値が XDM スキーマの列挙として定義されている場合、ネイティブの EXDM 関数を使用して、 **lif** 構文を使用します。
 
 ![](assets/aep_enummappingexdm.png)
 

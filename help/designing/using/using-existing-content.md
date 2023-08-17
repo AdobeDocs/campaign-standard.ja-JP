@@ -25,7 +25,7 @@ E メールまたはランディングページを作成する際に、別のソ
 
 >[!NOTE]
 >
->以下の画像は、 [メールデザイナー](../../designing/using/designing-content-in-adobe-campaign.md).
+>以下の画像は、 [E メールデザイナー](../../designing/using/designing-content-in-adobe-campaign.md).
 
 1. E メールまたはランディングページを作成したら、そのコンテンツを開きます。
 1. ホームアイコンをクリックして、 **[!UICONTROL Email Designer]** ホームページ。
@@ -34,10 +34,10 @@ E メールまたはランディングページを作成する際に、別のソ
 
 1. 読み込むコンテンツのソースを選択します。
 
-   * [コンテンツテンプレート](../../designing/using/using-reusable-content.md#content-templates):クリック **[!UICONTROL Templates]** タブをクリックします。
-   * [コンテンツを新規に作成](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)、新規に開始します。クリック **[!UICONTROL Create]** 」ボタンをクリックします。
-   * [コンピューターから ZIP ファイルまたはHTMLファイルとしてのコンテンツ](#importing-content-from-a-file):クリック **[!UICONTROL Upload]** 」ボタンをクリックします。
-   * [既存の URL からのコンテンツ](#importing-content-from-a-url) （E メールの場合のみ）:クリック **[!UICONTROL Import from URL]** 」ボタンをクリックします。
+   * [コンテンツテンプレート](../../designing/using/using-reusable-content.md#content-templates)：をクリックします。 **[!UICONTROL Templates]** タブをクリックします。
+   * [コンテンツを新規に作成](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)をクリックし、新規に開始します。 **[!UICONTROL Create]** 」ボタンをクリックします。
+   * [コンピューターから ZIP ファイルまたはHTMLファイルとしてのコンテンツ](#importing-content-from-a-file)：をクリックします。 **[!UICONTROL Upload]** 」ボタンをクリックします。
+   * [既存の URL からのコンテンツ](#importing-content-from-a-url) （E メールの場合のみ）: **[!UICONTROL Import from URL]** 」ボタンをクリックします。
 
    ![](assets/des_loading_2.png)
 
@@ -47,7 +47,7 @@ E メールまたはランディングページを作成する際に、別のソ
 
    >[!NOTE]
    >
-   >この [メールデザイナー](../../designing/using/designing-content-in-adobe-campaign.md) は特定のタグ付けを使用します。 Campaign にアップロードされる標準HTMLコンテンツは、E メールデザイナーから完全に互換性を持ち、編集可能なタグと一致する必要があります。 一致しない場合、コンテンツは [互換モード](#compatibility-mode). 既存のコンテンツに互換性を持たせるには、 [この節](#editing-existing-contents-with-the-email-designer).
+   >The [E メールデザイナー](../../designing/using/designing-content-in-adobe-campaign.md) は特定のタグ付けを使用します。 Campaign にアップロードされる標準HTMLコンテンツは、E メールデザイナーから完全に互換性を持ち、編集可能なタグと一致する必要があります。 一致しない場合、コンテンツは次の場所にアップロードされます： [互換モード](#compatibility-mode). 既存のコンテンツに互換性を持たせるには、 [この節](#editing-existing-contents-with-the-email-designer).
 
 **関連トピック：**
 
@@ -56,7 +56,7 @@ E メールまたはランディングページを作成する際に、別のソ
 
 ## E メールデザイナーでの既存のコンテンツの編集{#editing-existing-contents-with-the-email-designer}
 
-のエディションの可能性を最大限活用するには [メールデザイナー](../../designing/using/designing-content-in-adobe-campaign.md)に設定する場合、アップロードするHTMLには、WYSIWYG エディターに準拠する特定のタグが含まれている必要があります。
+のエディションの可能性を最大限活用するには [E メールデザイナー](../../designing/using/designing-content-in-adobe-campaign.md)に設定する場合、アップロードするHTMLには、WYSIWYG エディターに準拠する特定のタグが含まれている必要があります。
 
 HTMLのすべてまたは一部にこのタグがない場合、コンテンツは「 [互換モード](#compatibility-mode)&#39;.
 
@@ -87,9 +87,9 @@ URL からコンテンツを読み込む前に、次の要件に従っている�
 * セキュリティ上の理由から、URL のみが **[!UICONTROL https]** は許可されています。
 * すべてのリソース（画像、CSS）が絶対リンクと HTTPS で設定されていることを確認します。 そうしないと、E メールを送信した後、ミラーページがリソースなしで表示されます。 絶対リンク定義の例を次に示します。
 
-   ```
-   <a href="https://www.mywebsite.com/images/myimage.png">
-   ```
+  ```
+  <a href="https://www.mywebsite.com/images/myimage.png">
+  ```
 
 >[!NOTE]
 >
@@ -97,7 +97,7 @@ URL からコンテンツを読み込む前に、次の要件に従っている�
 
 URL から既存のコンテンツを取得するには、次の手順に従います。
 
-1. E メールデザイナーのホームページで、 **[!UICONTROL Import from URL]** 」ボタンをクリックします。
+1. E メールデザイナーのホームページから、 **[!UICONTROL Import from URL]** 」ボタンをクリックします。
 
    ![](assets/email_designer_importfromurl.png)
 
@@ -137,11 +137,11 @@ URL から既存のコンテンツを取得するには、次の手順に従い�
 
 1. 目的のパーソナライゼーションフィールド、コンテンツブロックまたは動的テキストを挿入します。
 
-   この **[!UICONTROL Current date - YYYYMMDD]** コンテンツブロックを使用すると、日付を挿入できます。
+   The **[!UICONTROL Current date - YYYYMMDD]** コンテンツブロックを使用すると、日付を挿入できます。
 
    >[!NOTE]
    >
-   >使用可能なパーソナライゼーションフィールドは、 **配信** 属性のみ（E メール作成日、ステータス、キャンペーンラベル…）
+   >使用可能なパーソナライゼーションフィールドは、 **配信** 属性のみ（E メールの作成日、ステータス、キャンペーンラベル…）
 
 コンテンツのダウンロードが最初の試行で失敗した場合は、2 回再試行できます。
 
@@ -151,7 +151,7 @@ URL から既存のコンテンツを取得するには、次の手順に従い�
 これらの再試行は、次の場合に役立ちます。
 
 * 遠隔サーバーでの短時間のサービス障害
-* クラスターでのサーバー障害。この場合、作業用サーバーへのロードバランシングによって再試行が成功する可能性が高くなります
+* クラスターでのサーバー障害。この場合、作業用サーバーへのロードバランシングによって再試行が成功する可能性が高くなります。
 
 ### 互換性モード {#compatibility-mode}
 
@@ -178,7 +178,7 @@ E メールに新しいセクションを追加したり、高度なスタイル
 * [E メールデザイナーの概要ビデオ](../../designing/using/designing-content-in-adobe-campaign.md#video)
 * [新規での E メールコンテンツのデザイン](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)
 
-## HTMLコンテンツの変換 {#converting-an-html-content}
+## HTMLコンテンツを変換中 {#converting-an-html-content}
 
 組み合わせて複数の E メールで再利用できる、モジュール式のテンプレートとフラグメントのフレームワークを構築する場合は、E メールHTMLを E メールデザイナーテンプレートに変換することを検討してください。
 
@@ -190,7 +190,7 @@ E メールに新しいセクションを追加したり、高度なスタイル
 
 >[!NOTE]
 >
->互換性モードと同様に、HTMLコンポーネントは、次の制限付きオプションで編集できます。インプレース編集のみ実行できます。
+>互換モードと同様に、HTMLコンポーネントは、制限付きオプションで編集できます。インプレース編集のみ実行できます。
 
 E メールデザイナー以外では、元のHTMLが再利用可能なセクションに分割されていることを確認します。
 
@@ -219,9 +219,9 @@ E メールデザイナー以外では、元のHTMLが再利用可能なセク�
 すべてのブロックを特定したら、E メールデザイナーで、既存の E メールの各セクションに対して次の手順を繰り返します。
 
 1. E メールデザイナーを開いて、空の E メールコンテンツを作成します。
-1. ボディレベルの属性を設定します。背景色、幅など 詳しくは、[メールスタイルの編集](../../designing/using/styles.md)を参照してください。
+1. ボディレベルの属性（背景色、幅など）を設定します。 詳しくは、[メールスタイルの編集](../../designing/using/styles.md)を参照してください。
 1. 構造コンポーネントを追加します。 詳しくは、[メール構造の編集](../../designing/using/designing-from-scratch.md#defining-the-email-structure)を参照してください。
-1. HTMLコンポーネントを追加 詳しくは、[フラグメントとコンポーネントの追加](../../designing/using/designing-from-scratch.md#defining-the-email-structure)を参照してください。
+1. HTMLコンポーネントを追加。 詳しくは、[フラグメントとコンポーネントの追加](../../designing/using/designing-from-scratch.md#defining-the-email-structure)を参照してください。
 1. そのコンポーネントにHTMLをコピー&amp;ペーストします。
 1. モバイル表示に切り替え. 詳しくは、[この節](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)を参照してください。
 
@@ -249,6 +249,5 @@ E メールデザイナー以外では、元のHTMLが再利用可能なセク�
    >* `<style data-name="mediaIOS8" type="text/css">(##)</style>`
    >* `<style data-name="media-default-max-width-500px" type="text/css">(##)</style>`
    >* `<style data-name="media-default--webkit-min-device-pixel-ratio-0" type="text/css">(##)</style>`
-
 
 1. モバイル表示に戻って、コンテンツが正しく表示されていることを確認し、変更を保存します。

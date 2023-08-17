@@ -24,7 +24,7 @@ ht-degree: 37%
 
 イベントにリンクするテストプロファイルを定義します。これにより、メッセージをプレビューし、関連する配達確認を送信できます。
 
-1. 次の [トランザクションメッセージダッシュボード](../../channels/using/editing-transactional-message.md#accessing-transactional-messages)、 **[!UICONTROL Create test profile]** 」ボタンをクリックします。
+1. 次から： [トランザクションメッセージダッシュボード](../../channels/using/editing-transactional-message.md#accessing-transactional-messages)をクリックし、 **[!UICONTROL Create test profile]** 」ボタンをクリックします。
 
    ![](assets/message-center_test-profile.png)
 
@@ -42,8 +42,8 @@ ht-degree: 37%
 
 新規テストプロファイルを作成するか、既に「**[!UICONTROL Test profiles]**」メニューにあるテストを使用することもできます。手順は次のとおりです。
 
-1. 次をクリック： **Adobe** ロゴ（左上隅）に移動し、「 **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]**.
-1. 内 **[!UICONTROL Event]** 「 」セクションで、作成したイベントを選択します。 この例では、「買い物かごの放棄（EVTcartAbandant）」を選択します。
+1. 次をクリック： **Adobe** ロゴ（左上隅）に、「 **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]**.
+1. Adobe Analytics の **[!UICONTROL Event]** 「 」セクションで、作成したイベントを選択します。 この例では、「買い物かごの放棄（EVTcartAbandant）」を選択します。
 1. JSON 形式で送信する情報を「**[!UICONTROL Event data]**」テキストボックスに指定します。
 
    ![](assets/message-center_3.png)

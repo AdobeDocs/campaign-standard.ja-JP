@@ -54,13 +54,13 @@ ht-degree: 88%
 
    ![](assets/direct_mail_5.png)
 
-1. 配信ダッシュボードの「**[!UICONTROL Schedule]**」セクションをクリックして、コンタクト日を定義します。ダイレクトメールの場合、コンタクト日の設定は必須です。詳しくは、[メッセージのスケジュールについて](../../sending/using/about-scheduling-messages.md)を参照してください。
+1. 配信ダッシュボードの「**[!UICONTROL Schedule]**」セクションをクリックして、連絡日を定義します。ダイレクトメールの場合、連絡日の設定は必須です。詳しくは、[メッセージのスケジュールについて](../../sending/using/about-scheduling-messages.md)を参照してください。
 
    ![](assets/direct_mail_8.png)
 
 1. テストプロファイルを追加すると（[テストおよびトラッププロファイルの追加](../../channels/using/defining-the-direct-mail-audience.md#adding-test-and-trap-profiles)を参照）、最終的なファイルを準備する前に配信をテストできます。選択したテストプロファイルのみを含んだサンプルファイルを作成できます。
 
-   「**[!UICONTROL Test]**」をクリックして、サンプルファイルを生成します。クリック **[!UICONTROL Summary]**&#x200B;を選択し、左上隅で「 **[!UICONTROL Proofs]**. 画面の左側で、配達確認を選択して「**[!UICONTROL Download file]**」をクリックします。
+   「**[!UICONTROL Test]**」をクリックして、サンプルファイルを生成します。クリック： **[!UICONTROL Summary]**&#x200B;を選択し、左上隅で「 **[!UICONTROL Proofs]**. 画面の左側で、配達確認を選択して「**[!UICONTROL Download file]**」をクリックします。
 
    >[!NOTE]
    >
@@ -68,7 +68,7 @@ ht-degree: 88%
 
    ![](assets/direct_mail_19.png)
 
-1. 配信コンテンツ、オーディエンス、コンタクト日を定義したら、配信ダッシュボードの「**[!UICONTROL Prepare]**」ボタンをクリックします。
+1. 配信コンテンツ、オーディエンス、連絡日を定義したら、配信ダッシュボードの「**[!UICONTROL Prepare]**」ボタンをクリックします。
 
    ![](assets/direct_mail_16.png)
 
@@ -103,4 +103,4 @@ ht-degree: 88%
 * ファイルを添付して通常の E メールで送信
 * Campaign で送信：キャンペーン[ワークフロー](../../automating/using/direct-mail-delivery.md)内でダイレクトメールアクティビティを実行し「**[!UICONTROL Transfer file]**」を追加して、例えば FTP でファイルを送信します。詳しくは、[ファイル転送](../../automating/using/transfer-file.md)を参照してください。
 
-プロバイダーは、誤ったアドレスのリストを取得し、この情報をAdobe Campaignに送信します。これにより、誤ったアドレスをブロックリスト自動的にします。 [送信者に返信](../../channels/using/return-to-sender.md)を参照してください。
+プロバイダーは、誤ったアドレスのリストを取得し、この情報をAdobe Campaignに送信します。これにより、誤ったアドレスをブロックリストに加える自動的にします。 [送信者に返信](../../channels/using/return-to-sender.md)を参照してください。

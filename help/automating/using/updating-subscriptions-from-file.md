@@ -26,43 +26,43 @@ ht-degree: 76%
 
 * A [ファイルを読み込み](../../automating/using/load-file.md) 「 」アクティビティは、プロファイルファイルを読み込み、インポートした列の構造を定義します。
 
-   この例では、読み込まれるファイルは .csv 形式で、次のデータが含まれています。
+  この例では、読み込まれるファイルは .csv 形式で、次のデータが含まれています。
 
-   ```
-   lastname;firstname;email;birthdate;service;operation
-   jackman;megan;megan.jackman@testmail.com;07/08/1975;SVC2;sub
-   phillips;edward;phillips@testmail.com;09/03/1986;SVC3;unsub
-   weaver;justin;justin_w@testmail.com;11/15/1990;SVC3;sub
-   martin;babeth;babeth_martin@testmail.net;11/25/1964;SVC3;unsub
-   reese;richard;rreese@testmail.com;02/08/1987;SVC3;sub
-   cage;nathalie;cage.nathalie227@testmail.com;07/03/1989;SVC3;sub
-   xiuxiu;andrea;andrea.xiuxiu@testmail.com;09/12/1992;SVC4;sub
-   grimes;daryl;daryl_890@testmail.com;12/06/1979;SVC3;unsub
-   tycoon;tyreese;tyreese_t@testmail.net;10/08/1971;SVC2;sub
-   ```
+  ```
+  lastname;firstname;email;birthdate;service;operation
+  jackman;megan;megan.jackman@testmail.com;07/08/1975;SVC2;sub
+  phillips;edward;phillips@testmail.com;09/03/1986;SVC3;unsub
+  weaver;justin;justin_w@testmail.com;11/15/1990;SVC3;sub
+  martin;babeth;babeth_martin@testmail.net;11/25/1964;SVC3;unsub
+  reese;richard;rreese@testmail.com;02/08/1987;SVC3;sub
+  cage;nathalie;cage.nathalie227@testmail.com;07/03/1989;SVC3;sub
+  xiuxiu;andrea;andrea.xiuxiu@testmail.com;09/12/1992;SVC4;sub
+  grimes;daryl;daryl_890@testmail.com;12/06/1979;SVC3;unsub
+  tycoon;tyreese;tyreese_t@testmail.net;10/08/1971;SVC2;sub
+  ```
 
-   ![](assets/subscription_example_load_file.png)
+  ![](assets/subscription_example_load_file.png)
 
-   この操作は、ファイル内で「sub」または「unsub」と指定されています。実行する操作を認識するために、**ブール値**&#x200B;または&#x200B;**整数**&#x200B;値が必要です。「0」が購読登録解除、「1」が購読登録です。この要件を満たすために、値の再マッピングが「operation」列の詳細で実行されます。
+  この操作は、ファイル内で「sub」または「unsub」と指定されています。実行する操作を認識するために、**ブール値**&#x200B;または&#x200B;**整数**&#x200B;値が必要です。「0」が購読登録解除、「1」が購読登録です。この要件を満たすために、値の再マッピングが「operation」列の詳細で実行されます。
 
-   ![](assets/subscription_example_remapping.png)
+  ![](assets/subscription_example_remapping.png)
 
-   「0」と「1」が既に操作の識別に使用されているファイルでは、再マッピングの必要はありません。列が&#x200B;**ブール値**&#x200B;または&#x200B;**整数**&#x200B;として処理されていることを「**[!UICONTROL Column definition]**」タブで確認してください。
+  「0」と「1」が既に操作の識別に使用されているファイルでは、再マッピングの必要はありません。列が&#x200B;**ブール値**&#x200B;または&#x200B;**整数**&#x200B;として処理されていることを「**[!UICONTROL Column definition]**」タブで確認してください。
 
-* A [紐付け](../../automating/using/reconciliation.md) 「 」アクティビティで、ファイルのデータを、Adobe Campaignデータベースのプロファイルディメンションに属するものとして識別します。 「**[!UICONTROL Identification]**」タブでは、ファイルの **email** フィールドと、プロファイルリソースの **email** フィールドが照合されます。
+* A [紐づけ](../../automating/using/reconciliation.md) 「 」アクティビティで、ファイルのデータを、Adobe Campaignデータベースのプロファイルディメンションに属するものとして識別します。 「**[!UICONTROL Identification]**」タブでは、ファイルの **email** フィールドと、プロファイルリソースの **email** フィールドが照合されます。
 
-   ![](assets/subscription_activity_example3.png)
+  ![](assets/subscription_activity_example3.png)
 
-   「**[!UICONTROL Relations]**」タブでは、サービスリソースとのリンクが作成されて、ファイルの **service** フィールドを認識できるようになります。この例では、値はサービスリソースの **name** フィールドと一致します。
+  「**[!UICONTROL Relations]**」タブでは、サービスリソースとのリンクが作成されて、ファイルの **service** フィールドを認識できるようになります。この例では、値はサービスリソースの **name** フィールドと一致します。
 
-   ![](assets/subscription_example_service_relation.png)
+  ![](assets/subscription_example_service_relation.png)
 
-* A [重複排除](../../automating/using/deduplication.md) 基準 **電子メール** （紐付けの結果生成される）一時リソースのフィールドで、重複を識別します。 重複がある場合、サービスへの購読登録はすべてのデータで失敗するので、重複を排除することが重要です。
+* A [重複排除](../../automating/using/deduplication.md) 基準： **電子メール** （紐付けの結果生成される）一時リソースのフィールドで、重複を識別します。 重複がある場合、サービスへの購読登録はすべてのデータで失敗するので、重複を排除することが重要です。
 
-   ![](assets/subscription_activity_example5.png)
+  ![](assets/subscription_activity_example5.png)
 
-* A [購読サービス](../../automating/using/subscription-services.md) 「 」アクティビティで、「 」で作成されたリンクを通じて、更新するサービスがトランジションに由来するものと見なされます。 **[!UICONTROL Reconciliation]** アクティビティ。
+* A [購読サービス](../../automating/using/subscription-services.md) 「 」アクティビティで、「 」で作成されたリンクを通じて、更新するサービスがトランジションに由来するものであることを識別します。 **[!UICONTROL Reconciliation]** アクティビティ。
 
-   「**[!UICONTROL Operation type]**」は、ファイルの **operation** フィールドに由来するものとして識別されます。ここで選択できるのは、ブール値フィールドまたは整数フィールドのみです。実行する操作を記述しているファイル列がリストに表示されない場合は、前述のように、「**[!UICONTROL Load file]**」アクティビティで列の形式が正しく設定されていることを確認してください。
+  「**[!UICONTROL Operation type]**」は、ファイルの **operation** フィールドに由来するものとして識別されます。ここで選択できるのは、ブール値フィールドまたは整数フィールドのみです。実行する操作を記述しているファイル列がリストに表示されない場合は、前述のように、「**[!UICONTROL Load file]**」アクティビティで列の形式が正しく設定されていることを確認してください。
 
-   ![](assets/subscription_activity_example_from_file.png)
+  ![](assets/subscription_activity_example_from_file.png)

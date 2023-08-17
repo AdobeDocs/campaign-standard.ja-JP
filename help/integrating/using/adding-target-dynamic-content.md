@@ -29,7 +29,7 @@ Adobe Campaignの画像にアクセスする前に、まずAdobe Targetで次の
 * Adobe Campaignの情報を使用してセグメントを作成し、エクスペリエンスを指定します。 オファーの選択ルールで Adobe Campaign からのデータを使用するには、Adobe Target のローボックスでデータを指定する必要があります。
 
 1. メール配信を作成します。
-1. E メールまたはランディングページのコンテンツを編集する際に、画像ブロックに移動し、「 **[!UICONTROL Dynamic image from Adobe Target]** コンテキストメニューから。
+1. E メールやランディングページのコンテンツを編集する際に、画像ブロックに移動して、「 **[!UICONTROL Dynamic image from Adobe Target]** コンテキストメニューから。
 
    ![](assets/tar_insert_dynamic_image.png)
 
@@ -47,7 +47,7 @@ Adobe Campaignの画像にアクセスする前に、まずAdobe Targetで次の
 
 1. E メールをプレビューして、異なるプロファイルを選択する際に、挿入される画像が、Adobe TargetアクティビティとAdobe Campaignで指定されたパラメーターに応じて変化するかどうかを確認します。
 
-これで、動的画像を含む配信を送信できます。 その結果は、Adobe Targetで確認できます。
+これで、動的画像を含む配信を送信できるようになりました。 その結果は、Adobe Targetで確認できます。
 
 **関連トピック：**
 

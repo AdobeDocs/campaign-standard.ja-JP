@@ -18,7 +18,7 @@ ht-degree: 69%
 
 # パーソナライズされたコンテンツの作成 {#build-personalized-content}
 
-メッセージコンテンツを設計するときは、配信の実行を妨げる可能性がある一般的な問題が発生しないようにします。ほとんどの場合、考えられるエラーは [パーソナライズ](../../designing/using/personalization.md)、書式設定 [既存のコンテンツの使用](../../designing/using/using-existing-content.md)  — および [変換，HTMLの内容](../../designing/using/using-existing-content.md#converting-an-html-content)  — および [画像](../../designing/using/images.md).
+メッセージコンテンツを設計するときは、配信の実行を妨げる可能性がある一般的な問題が発生しないようにします。ほとんどの場合、考えられるエラーは、 [パーソナライゼーション](../../designing/using/personalization.md)、書式設定 [既存のコンテンツの使用](../../designing/using/using-existing-content.md)  — および [変換，HTMLの内容](../../designing/using/using-existing-content.md#converting-an-html-content)  — および [画像](../../designing/using/images.md).
 
 ## パーソナライゼーションの最適化 {#optimize-personalization}
 

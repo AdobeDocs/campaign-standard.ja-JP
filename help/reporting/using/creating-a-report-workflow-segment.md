@@ -18,35 +18,35 @@ ht-degree: 2%
 # ワークフローセグメントに基づくレポートの作成{#creating-a-report-workflow-segment}
 
 >[!CAUTION]
-> **[!UICONTROL Segment code]**は、E メールおよび SMS 配信のみをターゲットにできます。
+> **[!UICONTROL Segment code]** は、E メールおよび SMS 配信のみをターゲットにできます。
 
 ワークフローを作成し、母集団を異なるターゲットオーディエンスにフィルタリングした後、このターゲティングワークフローで定義されたセグメントに基づいて、マーケティングキャンペーンの効率を測定できます。
 レポートでこれらのセグメントをターゲットにするには：
 
-* [手順 1:プロファイルのカスタムリソースをセグメントで更新](#step-1--update-profiles-custom-resource-segments)
-* [手順 2:セグメントを含むワークフローの作成](#step-2--create-a-workflow-segments)
-* [手順 3:セグメントをフィルタリングするための動的レポートの作成](#step-3--create-a-dynamic-report-filter-segments)
+* [手順 1：セグメントを使用したプロファイルのカスタムリソースの更新](#step-1--update-profiles-custom-resource-segments)
+* [手順 2：セグメントを含むワークフローの作成](#step-2--create-a-workflow-segments)
+* [手順 3：セグメントをフィルタリングする動的レポートを作成する](#step-3--create-a-dynamic-report-filter-segments)
 
 >[!CAUTION]
 >これらのデータの収集を開始するには、動的レポート使用契約への同意が必要です。
 >
 >この契約について詳しくは、こちらを参照してください。 [ページ](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement).
 
-## 手順 1:プロファイルのカスタムリソースをセグメントで更新{#step-1--update-profiles-custom-resource-segments}
+## 手順 1：セグメントを使用したプロファイルのカスタムリソースの更新{#step-1--update-profiles-custom-resource-segments}
 
 セグメントコードのレポートを作成する前に、 **[!UICONTROL Profiles]** 保存するセグメントコードのカスタムリソース。
 
 1. 詳細設定メニューのAdobe Campaignロゴから、を選択します。 **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom resources]**&#x200B;を選択し、 **[!UICONTROL Profile (profile)]** リソース。
-1. 内 **[!UICONTROL Sending logs extension]** メニュー **[!UICONTROL Data structure]** タブ、チェック **[!UICONTROL Add segment code]** ：セグメントコードをターゲティングワークフローから保存し、動的レポートに送信できるようにします。
+1. Adobe Analytics の **[!UICONTROL Sending logs extension]** メニュー **[!UICONTROL Data structure]** タブ、チェック **[!UICONTROL Add segment code]** ：セグメントコードをターゲティングワークフローから保存し、動的レポートに送信できるようにします。
 
-   この **[!UICONTROL Segment code]** が **[!UICONTROL Profile]** ディメンションセクションで使用できます。
+   The **[!UICONTROL Segment code]** その後、 **[!UICONTROL Profile]** ディメンションセクションで使用できます。
 
    ![](assets/report_segment_4.png)
 
 1. カスタムリソースを保存します。
 
 1. 次に、カスタムリソースを公開する必要があります。
-詳細設定メニューから、 **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Publishing]**.
+詳細設定メニューから、「 」を選択します。 **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Publishing]**.
 
    ![](assets/custom_profile_7.png)
 
@@ -56,7 +56,7 @@ ht-degree: 2%
 
 セグメントコードは、 **[!UICONTROL Sending logs extension]**.
 
-## 手順 2:セグメントを含むワークフローの作成 {#step-2--create-a-workflow-segments}
+## 手順 2：セグメントを含むワークフローの作成 {#step-2--create-a-workflow-segments}
 
 >[!NOTE]
 >E メール配信の入力トランジションが空の場合、前のトランジションのセグメントコードはデフォルトで追加されます。
@@ -83,7 +83,7 @@ ht-degree: 2%
 
 1. クリック **[!UICONTROL Add an element]** 2 番目のセグメントを作成し、上記の手順に従って設定して、30 歳から 40 歳までのプロファイルをターゲットにします。
 
-1. を編集します。 **[!UICONTROL Segment code]** 動的レポートを使用して渡される各母集団の
+1. を編集します。 **[!UICONTROL Segment code]** 動的レポートを使用して渡される各母集団に対して
 
    >[!NOTE]
    >この手順は必須です。必須でない場合は、レポートするセグメントを理解できません。
@@ -102,11 +102,11 @@ ht-degree: 2%
 
 これで、レポートにアクセスしてセグメントコードを追跡できます。
 
-## 手順 3:セグメントをフィルタリングするための動的レポートの作成 {#step-3--create-a-dynamic-report-filter-segments}
+## 手順 3：セグメントをフィルタリングする動的レポートを作成する {#step-3--create-a-dynamic-report-filter-segments}
 
 ワークフローで配信を送信した後、ワークフローのセグメントコードを使用して分類レポートを作成できます。
 
-1. 次の **[!UICONTROL Reports]** 」タブで、標準のレポートを選択するか、 **[!UICONTROL Create new project]** ボタンをクリックして、一から開始します。
+1. 次から： **[!UICONTROL Reports]** 」タブで、標準のレポートを選択するか、 **[!UICONTROL Create new project]** ボタンをクリックして、一から開始します。
 
    ![](assets/custom_profile_18.png)
 1. 次をドラッグ&amp;ドロップ： **[!UICONTROL Delivery]** ディメンションをフリーフォームテーブルに追加します。
@@ -114,7 +114,7 @@ ht-degree: 2%
    ![](assets/report_segment_5.png)
 
 1. テーブルに、例えば **[!UICONTROL Open]** および **[!UICONTROL Click]** 指標を使用して、データのフィルタリングを開始します。
-1. 内 **[!UICONTROL Dimensions]** カテゴリの **[!UICONTROL Profile]** ディメンションをドラッグ&amp;ドロップします **[!UICONTROL Segment code]** ディメンションを使用して、ターゲット母集団に応じて e メール配信の成功を測定します。
+1. Adobe Analytics の **[!UICONTROL Dimensions]** カテゴリの **[!UICONTROL Profile]** ディメンションをドラッグ&amp;ドロップします。 **[!UICONTROL Segment code]** ディメンションを使用して、ターゲット母集団に応じて e メール配信の成功を測定します。
 
    ![](assets/report_segment_6.png)
 

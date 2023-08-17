@@ -38,14 +38,14 @@ ht-degree: 85%
 
 1. ワークフローに「**[!UICONTROL Transfer file]**」アクティビティをドロップします。
 1. アクティビティを選択し、表示されるクイックアクションの ![](assets/edit_darkgrey-24px.png) ボタンを使用して開きます。
-1. 「**[!UICONTROL Action]**」フィールドのドロップダウンリストを使用して、次のアクティビティ操作のいずれかを選択します。
+1. 「**[!UICONTROL Action]**」フィールドのドロップダウンリストを使用して、次のアクティビティアクションのいずれかを選択します。
 
    ![](assets/wkf_file_transfer_01.png)
 
    * **ファイルのダウンロード**：ファイルをダウンロードできます。
    * **ファイルのアップロード**：ファイルをアップロードできます。Adobe Campaign ファイルからファイルをアップロードすると、**[!UICONTROL Export audits]** メニューにログエントリが生成されます。エクスポートの監査について詳しくは、[エクスポートの監査](../../administration/using/auditing-export-logs.md)の節を参照してください。
    * **テストによりファイルの存在を確認**：ファイルが存在するかどうかを確認できます。
-   * **ファイルリスト**：「**[!UICONTROL Protocol]**」タブで定義されたサーバーに存在するファイルをリストできます。この操作は主にデバッグ目的で使用され、リモートサーバーからファイルをダウンロードする前に、要件を満たすようにアクティビティが設定されているかどうかを確認します。
+   * **ファイルリスト**：「**[!UICONTROL Protocol]**」タブで定義されたサーバーに存在するファイルをリストできます。このアクションは主にデバッグ目的で使用され、リモートサーバーからファイルをダウンロードする前に、要件を満たすようにアクティビティが設定されているかどうかを確認します。
 
 1. 使用するプロトコルを選択します。
    * [HTTP](#HTTP-configuration-wf)
@@ -58,13 +58,13 @@ ht-degree: 85%
 
    以下を行うことができます。
 
-   * **[!UICONTROL Delete the source files after transfer]**:リモートサーバー上のファイルを消去します。 このオプションを選択しない場合は、SFTP ディレクトリにあるアーカイブ済みコンテンツのサイズを手動で監視するようにしてください。
+   * **[!UICONTROL Delete the source files after transfer]**：リモートサーバー上のファイルを消去します。 このオプションを選択しない場合は、SFTP ディレクトリにあるアーカイブ済みコンテンツのサイズを手動で監視するようにしてください。
 
-   * **[!UICONTROL Sorting files]**:では、ファイルを英数字で並べ替えることができます。 このオプションはデフォルトでは無効です。
+   * **[!UICONTROL Sorting files]**：ファイルを英数字で並べ替えることができます。 このオプションはデフォルトでは無効です。
 
-      <!--**[!UICONTROL Disable passive mode]**: allows you to specify the connection port to be used for data transfer.-->
+     <!--**[!UICONTROL Disable passive mode]**: allows you to specify the connection port to be used for data transfer.-->
 
-   * **[!UICONTROL List all files]**:このオプションは、 **[!UICONTROL File listing]** アクション **[!UICONTROL General]** タブをクリックします。 サーバー上に存在するすべてのファイルのインデックスを **vars.filenames** イベント変数に作成できます。この変数では、ファイル名が **&#39;n&#39;** 文字で区切られています。
+   * **[!UICONTROL List all files]**：このオプションは、 **[!UICONTROL File listing]** アクション **[!UICONTROL General]** タブをクリックします。 サーバー上に存在するすべてのファイルのインデックスを **vars.filenames** イベント変数に作成できます。この変数では、ファイル名が **&#39;n&#39;** 文字で区切られています。
 
 1. 「**[!UICONTROL Advanced options]**」タブの「**[!UICONTROL If no files are found]**」セクションでは、アクティビティの起動時にエラーや存在しないファイルが検出された場合の特定のアクションを設定できます。
 
@@ -78,7 +78,7 @@ ht-degree: 85%
 
 HTTP プロトコルを使用すると、外部アカウントまたは URL からファイルをダウンロードできます。
 
-このプロトコルを使用する場合、 **[!UICONTROL Use connection parameters defined in an external account]** オプション。 この場合、目的のアカウントを選択し、ダウンロードするファイルのパスを指定します。
+このプロトコルを使用すると、 **[!UICONTROL Use connection parameters defined in an external account]** オプション。 この場合、目的のアカウントを選択し、ダウンロードするファイルのパスを指定します。
 
 
 ![](assets/wkf_file_transfer_03.png)
@@ -92,7 +92,7 @@ HTTP プロトコルを使用すると、外部アカウントまたは URL か�
 
 SFTP プロトコルを使用すると、URL または外部アカウントからファイルをダウンロードできます。
 
-このプロトコルを使用する場合、 **[!UICONTROL Use connection parameters defined in an external account]** 」オプションを選択し、目的のアカウントを選択して、ダウンロードするファイルのパスを指定します。
+このプロトコルを使用すると、 **[!UICONTROL Use connection parameters defined in an external account]** 」オプションを選択し、目的のアカウントを選択して、ダウンロードするファイルのパスを指定します。
 ![](assets/wkf_file_transfer_07.png)
 
 >[!CAUTION]
@@ -181,11 +181,11 @@ Microsoft Azure Blob プロトコルを使用すると、Microsoft Azure Blob St
 
 ## 出力変数 {#output-variables}
 
-この **[!UICONTROL Transfer file]** 「 」アクティビティでは、出力としてイベント変数が生成されます。これは、例えば、 [テスト](../../automating/using/test.md) アクティビティ。
+The **[!UICONTROL Transfer file]** 「 」アクティビティでは、出力としてイベント変数が生成されます。これは、他のアクティビティで使用できます。例えば、 [テスト](../../automating/using/test.md) アクティビティ。
 
 イベント変数は、外部シグナルを使用して別のワークフローに渡すこともできます ( [外部パラメーターを使用したワークフローのカスタマイズ](../../automating/using/customizing-workflow-external-parameters.md)) をクリックします。
 
 使用可能な出力変数は次のとおりです。
 
-* **[!UICONTROL fileName]**:転送したファイルの名前。
-* **[!UICONTROL filesCount]**:転送されたファイルの数。
+* **[!UICONTROL fileName]**：転送したファイルの名前。
+* **[!UICONTROL filesCount]**：転送されたファイルの数。

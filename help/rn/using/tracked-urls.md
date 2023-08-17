@@ -36,3 +36,4 @@ ht-degree: 100%
 >[!NOTE]
 >
 >これらの変更点に関するご質問は、[アドビのサポート](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)にお問い合わせください。
+>

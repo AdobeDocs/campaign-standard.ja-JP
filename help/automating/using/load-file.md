@@ -45,7 +45,7 @@ ht-degree: 93%
 
 * [使用例：外部データを使用したデータベースの更新](../../automating/using/update-database-file.md)
 * [使用例：ファイルの自動ダウンロードに基づくデータの更新](../../automating/using/update-data-automatic-download.md)
-* [使用例：フィールドがエンリッチメントされた E メールの送信](../../automating/using/sending-email-enriched-fields.md)
+* [使用例：強化されたフィールドを含む E メールの送信](../../automating/using/sending-email-enriched-fields.md)
 * [使用例：ファイルオーディエンスとデータベースとの紐付け](../../automating/using/reconcile-file-audience-with-database.md)
 
 ## 設定 {#configuration}
@@ -71,19 +71,19 @@ ht-degree: 93%
    * 別のファイルの構造を使用する場合は、「**[!UICONTROL Detect structure from a new file]**」オプションを選択します。
    * ファイルに合うように、デフォルトの検出パラメータを変更することができます。「**[!UICONTROL File type]**」フィールドでは、インポートするファイルが固定長の列で構成されているかどうかを指定します。その場合は、「**[!UICONTROL Column definition]**」タブで各列の最大文字数も指定する必要があります。
 
-      ファイルからデータを正しく回復するために必要なすべての検出オプションは、「**[!UICONTROL File format]**」に再グループ化されています。これらのオプションを変更してから、新しい設定を適用すると、アクティビティに最後に読み込まれたファイルの構造が再検出されます。これをおこなうには、「**[!UICONTROL Apply configuration]**」ボタンを使用します。例えば、別の列区切り文字を指定できます。
+     ファイルからデータを正しく回復するために必要なすべての検出オプションは、「**[!UICONTROL File format]**」に再グループ化されています。これらのオプションを変更してから、新しい設定を適用すると、アクティビティに最後に読み込まれたファイルの構造が再検出されます。これをおこなうには、「**[!UICONTROL Apply configuration]**」ボタンを使用します。例えば、別の列区切り文字を指定できます。
 
-      >[!NOTE]
-      >
-      >この操作では、アクティビティに最後に読み込まれたファイルが適用されます。検出されたファイルのサイズが大きい場合、データプレビューには最初の 30 行だけが表示されます。
+     >[!NOTE]
+     >
+     >この操作では、アクティビティに最後に読み込まれたファイルが適用されます。検出されたファイルのサイズが大きい場合、データプレビューには最初の 30 行だけが表示されます。
 
-      ![](assets/wkf_file_loading3.png)
+     ![](assets/wkf_file_loading3.png)
 
-      「**[!UICONTROL File format]**」セクションの「**[!UICONTROL Check columns from file against column definitions]**」オプションを使用すると、アップロードするファイルの列が列定義に対応していることを確認できます。
+     「**[!UICONTROL File format]**」セクションの「**[!UICONTROL Check columns from file against column definitions]**」オプションを使用すると、アップロードするファイルの列が列定義に対応していることを確認できます。
 
-      列の数や名前が列の定義と一致しない場合は、ワークフローの実行時にエラーメッセージが表示されます。このオプションが有効になっていない場合は、ログファイルに警告が表示されます。
+     列の数や名前が列の定義と一致しない場合は、ワークフローの実行時にエラーメッセージが表示されます。このオプションが有効になっていない場合は、ログファイルに警告が表示されます。
 
-      ![](assets/wkf_file_loading_check.png)
+     ![](assets/wkf_file_loading_check.png)
 
 1. 「**[!UICONTROL Column definition]**」タブに移動して各列のデータ形式をチェックし、必要に応じてパラメータを調整します。
 
@@ -101,11 +101,11 @@ ht-degree: 93%
    * 前の手順でアップロードしたものです。
    * ローカルマシンからアップロードする新しいファイルです。「**[!UICONTROL Upload a new file from local machine]**」オプションは、最初のファイルアップロードが既にワークフローで定義されている場合に表示されます。これにより、現在のファイルがニーズに合わない場合は、別のファイルをアップロードして処理できます。
 
-      ![](assets/wkf_file_loading1.png)
+     ![](assets/wkf_file_loading1.png)
 
 1. データの読み込み元のファイルが圧縮されて GZIP ファイル（.gz）になっている場合は、「**[!UICONTROL Add a pre-processing stage]**」フィールドで「**[!UICONTROL Decompression]**」オプションを選択します。これにより、データを読み込む前にファイルを解凍できます。このオプションは、ファイルがアクティビティの受信トランジションから送信されている場合にのみ使用できます。
 
-   この **[!UICONTROL Add a pre-processing stage]** また、「 」フィールドでは、データベースにインポートする前にファイルを復号化することもできます。 暗号化されたファイルの操作方法について詳しくは、 [この節](../../automating/using/managing-encrypted-data.md)
+   The **[!UICONTROL Add a pre-processing stage]** また、「 」フィールドでは、データベースにインポートする前にファイルを復号化することもできます。 暗号化されたファイルの操作方法について詳しくは、 [この節](../../automating/using/managing-encrypted-data.md)
 
 1. 「**[!UICONTROL Keep the rejects in a file]**」オプションを使用すると、インポート中に発生したエラーが含まれるファイルをダウンロードし、後処理段階でそのファイルに適用することができます。このオプションを有効にすると、送信トランジションの名前が「却下」に変更されます。
 
@@ -137,7 +137,7 @@ ht-degree: 93%
 
    * **[!UICONTROL Maximum number of characters]**：文字列タイプの列の最大文字数を指定します。
 
-      固定長の列で構成されるファイルを読み込む場合は、このフィールドを入力する必要があります。
+     固定長の列で構成されるファイルを読み込む場合は、このフィールドを入力する必要があります。
 
    * **[!UICONTROL Letter case management]**：**テキスト**&#x200B;データに文字ケース処理を適用する必要があるかどうかを定義します。
    * **[!UICONTROL White space management]**：**テキスト**&#x200B;データの文字列で特定のスペースを無視する必要があるかどうかを指定します。
@@ -154,9 +154,9 @@ ht-degree: 93%
    * **[!UICONTROL Use a default value in case the value is not remapped]**：エラーの原因となる値を、「**[!UICONTROL Default value]**」フィールドで定義されているデフォルト値に置き換えます。ただし、エラー値についてマッピングが定義されている場合は除きます（前述の「**[!UICONTROL Remapping of values]**」オプションを参照）。
    * **[!UICONTROL Reject the line when there is no remapping value]**：行全体が処理されなくなります。ただし、エラー値についてマッピングが定義されている場合は除きます（前述の「**[!UICONTROL Remapping of values]**」オプションを参照）。
 
-   >[!NOTE]
-   >
-   >「**[!UICONTROL Error processing]**」で対象となるのは、インポートしたファイルの値に関するエラーです。例えば、異常なデータタイプ（「整数」タイプの列で英字の「four」が入力されている）、許可された最大文字数より多い文字を含む文字列、区切り文字の不具合のある日付などです。一方、このオプションでは、空の値の管理によって生成されるエラーは対象となりません。
+  >[!NOTE]
+  >
+  >「**[!UICONTROL Error processing]**」で対象となるのは、インポートしたファイルの値に関するエラーです。例えば、異常なデータタイプ（「整数」タイプの列で英字の「four」が入力されている）、許可された最大文字数より多い文字を含む文字列、区切り文字の不具合のある日付などです。一方、このオプションでは、空の値の管理によって生成されるエラーは対象となりません。
 
 * **[!UICONTROL Default value]**：選択したエラーの処理方法に応じてデフォルトの値を選択します。
 * **[!UICONTROL Empty value management]**：データの読み込み中に空の値を管理する方法を指定します。

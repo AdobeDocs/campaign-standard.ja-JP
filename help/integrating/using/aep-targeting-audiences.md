@@ -27,7 +27,7 @@ ht-degree: 5%
 
 1. を追加します。 **[!UICONTROL Read audience]** 「 」アクティビティをワークフローに追加し、開きます。
 
-1. を選択します。 **[!UICONTROL Adobe Experience Platform]** のオプション **[!UICONTROL Type of audience]**&#x200B;次に、目的のオーディエンスを追加します。
+1. を選択します。 **[!UICONTROL Adobe Experience Platform]** 下のオプション **[!UICONTROL Type of audience]**&#x200B;次に、目的のオーディエンスを追加します。
 
    ![](assets/aep_wkf_readaudience.png)
 
@@ -57,9 +57,9 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->Campaign Standardを使用すると、すべての配信チャネル内でAdobe Experience Platformオーディエンスをターゲットに設定できます。E メール、SMS メッセージ、ダイレクトメールメッセージ、プッシュ通知およびアプリ内メッセージ。
+>Campaign Standardを使用すると、E メール、SMS メッセージ、ダイレクトメールメッセージ、プッシュ通知、アプリ内メッセージなど、すべての配信チャネル内のAdobe Experience Platformオーディエンスをターゲットにすることができます。
 >
->*注意：すべてのプッシュメッセージおよびアプリ内メッセージで、Campaign Standardは既知のプロファイルに対する配信のみをサポートします。
+>*注意：すべてのプッシュメッセージおよびアプリ内メッセージで、Campaign Standardは既知のプロファイルの配信のみをサポートします。
 
 ワークフローと配信の使用方法について詳しくは、次の節を参照してください。
 

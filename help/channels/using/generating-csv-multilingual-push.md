@@ -38,15 +38,15 @@ ht-degree: 1%
 1. language
 1. silentPush
 
-CSV サンプルを確認するには、 **[!UICONTROL Download a sample file]** 内 **[!UICONTROL Manage Content Variants]** ウィンドウ 詳しくは、 [セクション](../../channels/using/creating-a-multilingual-push-notification.md).
+CSV サンプルを確認するには、 **[!UICONTROL Download a sample file]** （内） **[!UICONTROL Manage Content Variants]** ウィンドウ 詳しくは、 [セクション](../../channels/using/creating-a-multilingual-push-notification.md).
 
-* **title, messageBody, sound, badge, deeplinkURI, category, iosMediaAttachmentURL, androidMediaAttachmentURL**:通常のプッシュペイロードコンテンツ。 この情報は、プッシュ配信を作成する場合と同様の方法で提供する必要があります。
-* **カスタムフィールド**:カスタムフィールドには、JSON 形式を使用します（例： ）。 `{"key1":"value1","key2":"value2"}`. カスタムフィールドの例については、上記のサンプルファイルを参照してください。
-* **isContentAvailable**:フラグが使用可能なコンテンツチェックの場合、値 1 は true を示し、値 0 は false を示します。 デフォルト値は 0 です。 この列を空白のままにすると、値は 0 と見なされます。
-* **isMutableContent**:可変コンテンツのフラグの値 1 は true を示し、値 0 は false を示します。 デフォルト値は 0 です。 この列を空白のままにすると、値は 0 と見なされます。
-* **ロケール**:ロケールは言語のバリアントのフィールドです。例：US-English の場合は「en_us」、フランス — フランスの場合は「fr_fr」です。
-* **言語**:ロケールに関連付けられている言語の名前です。 例えば、ロケールが「en_us」の場合、言語の名前は「English-United States」にする必要があります。
-* **silentPush**:プッシュ通知タイプ用のフラグ。 通常のプッシュ通知の場合、値は 0 にする必要があります。 サイレントプッシュの場合、値は 1 にする必要があります。 デフォルト値は 0 です。 この列を空白のままにすると、値は 0 と見なされます。
+* **title, messageBody, sound, badge, deeplinkURI, category, iosMediaAttachmentURL, androidMediaAttachmentURL**：通常のプッシュペイロードコンテンツ。 この情報は、プッシュ配信を作成する場合と同様の方法で提供する必要があります。
+* **カスタムフィールド**：カスタムフィールドには JSON 形式を使用します（例： ）。 `{"key1":"value1","key2":"value2"}`. カスタムフィールドの例については、上記のサンプルファイルを参照してください。
+* **isContentAvailable**：使用可能なコンテンツのチェック用のフラグ、値 1 は true を示し、値 0 は false を示します。 デフォルト値は 0 です。 この列を空白にした場合、値は 0 と見なされます。
+* **isMutableContent**：可変コンテンツのフラグ、値 1 は true を示し、値 0 は false を示します。 デフォルト値は 0 です。 この列を空白にした場合、値は 0 と見なされます。
+* **ロケール**:locale は言語のバリアントのフィールドです。例えば、US-English の場合は「en_us」、フランス — フランス語の場合は「fr_fr」です。
+* **言語**：ロケールに関連付けられている言語の名前。 例えば、ロケールが「en_us」の場合、言語の名前は「English-United States」にする必要があります。
+* **silentPush**：プッシュ通知タイプ用のフラグ。 通常のプッシュ通知の場合、値は 0 にする必要があります。 サイレントプッシュの場合、値は 1 にする必要があります。 デフォルト値は 0 です。 この列を空白にした場合、値は 0 と見なされます。
 
 ## csv ファイル作成の制約とガイドライン {#constraints-guideline-csv}
 
@@ -88,9 +88,9 @@ messageBody に「firstName」パーソナライゼーションフィールド�
 
 * もう 1 つは data-nl-expr で、これはパーソナライゼーションフィールドのパスです。 例えば、UI から「firstName」パーソナライゼーションフィールドを挿入した場合、ナビゲーションパスは **[!UICONTROL Context (context)]** > **[!UICONTROL Profile (profile)]** > **[!UICONTROL First name (firstName)]** （以下の画像を参照）。 この場合、パスは
 
-   ```
-   /context/profile/firstName. data-nl-expr="/context/profile/firstName".
-   ```
+  ```
+  /context/profile/firstName. data-nl-expr="/context/profile/firstName".
+  ```
 
 ![](assets/multilingual_push_2.png)
 
@@ -125,7 +125,7 @@ messageBody に「firstName」パーソナライゼーションフィールド�
 | ca_es | カタロニア語 — スペイン |
 | zh_cn | 中国語（簡体字） — 中国 |
 | zh_sg | 中国語（簡体字） — シンガポール |
-| zh_hk | 中国語（繁体字） — 中国香港特別行政区 |
+| zh_hk | 中国語（繁体字） — 中華人民共和国香港特別行政区 |
 | zh_tw | 中国語（繁体字） — 台湾 |
 | hr_hr | クロアチア語 — クロアチア |
 | cs_cz | チェコ語 — チェコ |

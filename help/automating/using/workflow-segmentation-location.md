@@ -36,7 +36,7 @@ ht-degree: 83%
 
 ## Segmentation アクティビティの作成{#creating-a-segmentation-activity}
 
-1. ドラッグ&amp;ドロップ [セグメント化](../../automating/using/segmentation.md) 「 」アクティビティをクリックし、ダブルクリックします。
+1. 次をドラッグ&amp;ドロップ： [セグメント化](../../automating/using/segmentation.md) 「 」アクティビティをクリックし、ダブルクリックします。
 1. セグメントをクリックし、トランジションを開いて、最初の都市の人をターゲットにします。ボストンです。
 1. 「**[!UICONTROL Location]**」をドラッグ＆ドロップし、演算子「**[!UICONTROL equals to]**」と値「**[!UICONTROL Boston]**」を使用して、「**[!UICONTROL City]**」を選択します。
 注意：ボストンに入ったすべての人に連絡するには、大文字と小文字を区別しないで、「大文字と小文字を区別する」オプションをオフにします。

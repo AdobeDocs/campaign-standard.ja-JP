@@ -21,7 +21,7 @@ ht-degree: 18%
 
 このドキュメントでは、Adobe Campaign Standard iOSのプッシュ通知から画像を表示する方法を説明します。
 
-## 手順 1:プッシュ通知の設定 {#set-up-push}
+## 手順 1：プッシュ通知を設定する {#set-up-push}
 
 プッシュ通知は、Experience PlatformSDK でサポートされています。
 
@@ -46,7 +46,7 @@ iOS 10 以降では、画像、gif、オーディオおよびビデオのファ�
 
 1. プッシュ通知をプレビューして保存します。
 
-## 手順 3:モバイルアプリケーションコードの適応 {#mobile-app-code}
+## 手順 3：モバイルアプリケーションコードの適応 {#mobile-app-code}
 
 Adobe Campaignでプッシュ通知をカスタマイズした後、デバイスに画像を表示するようにモバイルアプリケーションを設定する必要があります。
 
@@ -149,7 +149,7 @@ userInfo: [AnyHashable("media-attachment-url"): https://pbs.twimg.com/profile_im
 }]
 ```
 
-## 手順 4:プッシュの送信をテスト {#test-send-push}
+## 手順 4：プッシュの送信をテストする {#test-send-push}
 
 これで、上記の手順 2 で作成したアプリケーションと配信の構築をテストできます。 プッシュ通知の準備と送信について詳しくは、こちらを参照してください。 [ページ](../../channels/using/preparing-and-sending-a-push-notification.md).
 

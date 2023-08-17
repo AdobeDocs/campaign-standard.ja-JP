@@ -20,7 +20,7 @@ ht-degree: 79%
 
 >[!IMPORTANT]
 >
->製品リストは、次の場合にのみ使用できます： **トランザクション E メールメッセージ** から [メールデザイナー](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface) インターフェイス。
+>製品リストは、次の場合にのみ使用できます： **トランザクション E メールメッセージ** から [E メールデザイナー](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface) インターフェイス。
 
 トランザクション用 E メールのコンテンツを編集する際に、1 つ以上のデータコレクションを参照する製品リストを作成できます。 例えば、買い物かごの放棄に関する電子メールで、ユーザーが Web サイトを離れた際にユーザーの買い物かごに含まれていたすべての製品のリストを、画像、価格、各製品へのリンクと共に含めることができます。
 

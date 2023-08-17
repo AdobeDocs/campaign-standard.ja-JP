@@ -35,11 +35,11 @@ ht-degree: 14%
 
 ![](assets/marketing-activities.png)
 
-メッセージは、マーケティングアクティビティリストから、または [専用アクティビティ](../../automating/using/about-channel-activities.md).
+メッセージは、マーケティングアクティビティリストから、または [専用のアクティビティ](../../automating/using/about-channel-activities.md).
 
 ![](assets/steps-channel.png)
 
-## オーディエンスの定義
+## オーディエンスを定義
 
 メッセージの受信者を定義します。 これをおこなうには、 [クエリエディター](../../automating/using/editing-queries.md) を左側のペインからクリックして、データベースに含まれるデータをフィルタリングし、ルールを作成して、オーディエンスをターゲットにします。
 
@@ -52,7 +52,7 @@ ht-degree: 14%
 
 ## コンテンツの設計とパーソナライズ
 
-内 **[!UICONTROL Content]** データベースのフィールドを使用して、メッセージのコンテンツをブロック、デザインおよびパーソナライズします。 特定のチャネルのコンテンツをデザインする方法について詳しくは、このページの上部にあるセクションを参照してください。
+Adobe Analytics の **[!UICONTROL Content]** データベースのフィールドを使用して、メッセージのコンテンツをブロック、デザインおよびパーソナライズします。 特定のチャネルのコンテンツをデザインする方法について詳しくは、このページの上部にあるセクションを参照してください。
 
 ![](assets/steps-content.png)
 
@@ -62,15 +62,15 @@ ht-degree: 14%
 
 ![](assets/steps-prepare.png)
 
-**メッセージを確認してテストします** Campaign Standard機能を使用して送信する前に、以下の手順に従ってください。プレビュー、E メールのレンダリング、校正など 詳しくは、[この節](../../sending/using/previewing-messages.md)を参照してください。
+**メッセージを確認してテストします** 送信前に、Campaign Standard機能（プレビュー、E メールのレンダリング、校正など）を使用して送信します。 詳しくは、[この節](../../sending/using/previewing-messages.md)を参照してください。
 
-以下を使用： **[!UICONTROL Schedule]** ブロック：メッセージを送信するタイミングを定義します ( [メッセージのスケジュール](../../sending/using/about-scheduling-messages.md)) をクリックします。
+以下を使用します。 **[!UICONTROL Schedule]** ブロック：メッセージを送信するタイミングを定義します ( [メッセージのスケジュール](../../sending/using/about-scheduling-messages.md)) をクリックします。
 
 ![](assets/steps-schedule.png)
 
 ## 送信と追跡
 
-メッセージの準備が整ったら、送信を確認できます。 この **[!UICONTROL Deployment]** ブロックは、送信の進行状況と結果を表示します。
+メッセージの準備が整ったら、送信を確認できます。 The **[!UICONTROL Deployment]** ブロックは、送信の進行状況と結果を表示します。
 
 ![](assets/steps-send.png)
 

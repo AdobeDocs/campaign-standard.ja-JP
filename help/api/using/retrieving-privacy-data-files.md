@@ -19,7 +19,7 @@ ht-degree: 4%
 
 >[!CAUTION]
 >
->この [Privacy Core Service](https://developer.adobe.com/experience-platform-apis/references/privacy-service) 統合は、すべてのアクセスリクエストと削除リクエストに使用する必要があるメソッドです。 <!--Starting 19.4, the use of the Campaign API and interface for access and delete requests is deprecated. For more on Campaign Standard deprecated and removed features, refer to [this page](../../rn/using/deprecated-features.md).-->
+>The [Privacy Core Service](https://developer.adobe.com/experience-platform-apis/references/privacy-service) 統合は、すべてのアクセスリクエストと削除リクエストに使用する必要があるメソッドです。 <!--Starting 19.4, the use of the Campaign API and interface for access and delete requests is deprecated. For more on Campaign Standard deprecated and removed features, refer to [this page](../../rn/using/deprecated-features.md).-->
 
 紐付け値に関連付けられたすべての情報を含むファイルを取得するには、次の 3 つの手順に従います。
 
@@ -27,7 +27,7 @@ ht-degree: 4%
 
 1. の実行 **GET** リクエストを使用して、リクエストに関する情報を取得します。
 
-1. 次を実行してデータファイルを取得： **POST** 返されたに対するリクエスト **privacyRequestData** ペイロード内にプライバシーリクエスト内部名を持つ URL。 例：{&quot;name&quot;:&quot;PT17&quot;}。
+1. 次を実行してデータファイルを取得： **POST** 返されたに対するリクエスト **privacyRequestData** ペイロード内にプライバシーリクエスト内部名を持つ URL。 例： {&quot;name&quot;:&quot;PT17&quot;}。
 
 <br/>
 

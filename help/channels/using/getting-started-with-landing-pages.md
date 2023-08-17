@@ -23,7 +23,7 @@ ht-degree: 97%
 
 このページでは、各手順の情報と、詳細情報を参照できる関連ドキュメントを紹介します。
 
-![](assets/do-not-localize/how-to-video.png) [ランディングページの作成方法をビデオで確認](#video)
+![](assets/do-not-localize/how-to-video.png) [ランディングページの作成方法をビデオで確認する](#video)
 
 **関連トピック：**
 

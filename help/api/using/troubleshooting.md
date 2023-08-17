@@ -14,15 +14,15 @@ ht-degree: 1%
 
 # API のトラブルシューティング {#troubleshooting}
 
-* **Adobe.io コンソールに移動すると、次のエラーが表示されます。「Adobe I/O・コンソールは、エンタープライズ・アカウントの一部のメンバーのみが使用できます。 アクセス権が必要な場合は、システム管理者にお問い合わせください。」**
+* **Adobe.io コンソールに移動すると、次のエラーが表示されます。「Adobe I/Oコンソールは、エンタープライズアカウントのメンバーを選択する場合にのみ使用できます。 アクセス権が必要な場合は、システム管理者にお問い合わせください。」**
 
 API キーは、自分が管理している組織に対してのみ作成できます。 このメッセージが表示され、API キーを作成して組織の管理者に問い合わせたい場合。
 
-* **Adobe.io に対してリクエストを実行すると、{&quot;error_code&quot;:&quot;403023&quot;,&quot;message&quot;:&quot;Profile is not valid&quot;} が表示されます**
+* **Adobe.io に対してリクエストを実行すると、{&quot;error_code&quot;:&quot;403023&quot;,&quot;message&quot;:&quot;Profile is not valid&quot;} が表示されます。**
 
-つまり、特定の Campaign 製品の IMS プロビジョニングに問題があるということです。IMS チームが修正する必要があります。
+つまり、特定の Campaign 製品の IMS プロビジョニングに問題があり、IMS チームが修正する必要があります。
 
-詳細を取得するには、トークンを使用して IMS API を呼び出し、IMS プロファイルがどのように表示されるかを確認します。prodCtx が必要です。このとき、organization_id が、Adobe.io がリクエストをルーティングできるように、URL に入力したものと同じである必要があります。
+詳細を取得するには、トークンで IMS API を呼び出して IMS プロファイルがどのように表示されるかを確認します。リクエストをルーティングするには、URL に指定したAdobe.io と同じ prodCtx が必要です。
 見つからない場合は、IMS プロビジョニングを修正する必要があります。
 
 ```
@@ -76,9 +76,9 @@ API キーは、自分が管理している組織に対してのみ作成でき�
 
 * **Adobe.io に対してリクエストを行うと、{&quot;code&quot;:500, &quot;message&quot;:&quot;Oops が表示されます。 エラーが発生しました. URI を確認し、再度お試しください。&quot;}**
 
-Adobe.io が無効な URI を宣言します：要求している URI が有効でない可能性が高くなります。 Adobe.io で Campaign サービスを選択すると、選択ツールに選択可能な organization_ids のリストが表示されます。 選択したものが、URL に配置したものであることを確認する必要があります。
+Adobe.io が無効な URI を宣言します。要求している URI が無効な可能性が高くなります。 Adobe.io で Campaign サービスを選択すると、選択ツールに選択可能な organization_ids のリストが表示されます。 選択したものが、URL に配置したものであることを確認する必要があります。
 
-* **Adobe.io に対してリクエストを行うと、{&quot;error_code&quot;:&quot;401013&quot;、&quot;message&quot;:&quot;OAuth token is not valid&quot;} が表示されます**
+* **Adobe.io に対してリクエストを行うと、{&quot;error_code&quot;:&quot;401013&quot;、&quot;message&quot;:&quot;OAuth token is not valid&quot;} が表示されます。**
 
 トークンが無効（トークンの生成に使用される不適切な IMS 呼び出し）か、トークンの有効期限が切れています。
 

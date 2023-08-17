@@ -40,9 +40,9 @@ ht-degree: 30%
 >
 >現在、アーカイブされた E メールは、シンプルな SMTP リレーを使用する従来のアーカイブモジュールによって送信されます。
 
-## 電子メールアーカイブの有効化 {#activating-email-archiving}
+## E メールアーカイブの有効化 {#activating-email-archiving}
 
-有効にすると、BCC で E メールが有効化されます [メールテンプレート](../../start/using/marketing-activity-templates.md)、専用のオプションで設定：
+有効にすると、BCC で E メールが有効化されます [電子メールテンプレート](../../start/using/marketing-activity-templates.md)、専用のオプションで設定：
 
 1. **リソース**／**テンプレート**／**配信テンプレート**&#x200B;に移動します。
 1. 標準搭載のを複製 **[!UICONTROL Send via email]** テンプレート。

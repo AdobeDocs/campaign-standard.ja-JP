@@ -9,7 +9,7 @@ exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
 source-wordcount: '1260'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -27,7 +27,7 @@ Experience PlatformSDK アプリケーションでプッシュ通知とアプリ
 
 モバイルアプリケーションを設定したら、収集した PII データを取得して、データベースからプロファイルを作成または更新できます。 詳しくは、この節を参照してください。 [モバイルアプリケーションデータに基づくプロファイル情報の作成と更新](../../channels/using/updating-profile-with-mobile-app-data.md).
 
-Adobe Experience Platform SDK を使用してAdobe Campaign Standardでサポートされる様々なモバイル使用例について詳しくは、こちらを参照してください [ページ](../../administration/using/supported-mobile-use-cases.md).
+Adobe Experience Platform SDK を使用してAdobe Campaign Standardでサポートされる様々なモバイル使用例について詳しくは、こちらを参照してください。 [ページ](../../administration/using/supported-mobile-use-cases.md).
 
 設定を完了するには、次の手順を実行します。
 
@@ -90,12 +90,12 @@ Launch からのモバイルアプリ AEPSDK の同期テクニカルワーク�
 >
 >デフォルトでは、組織単位が「すべて」に設定されている管理者は、モバイルアプリケーションを編集できます。
 
-1. 詳細設定メニューから、 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (AEP SDK)]**.
+1. 詳細設定メニューから、「 」を選択します。 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (AEP SDK)]**.
 
    ![](assets/launch.png)
 
 1. データ収集 UI で作成したモバイルアプリを選択します。
-その **[!UICONTROL Property Status]** は、 **[!UICONTROL Ready to configure]**.
+Its **[!UICONTROL Property Status]** は、 **[!UICONTROL Ready to configure]**.
 
    >[!NOTE]
    >
@@ -127,11 +127,11 @@ Launch からのモバイルアプリ AEPSDK の同期テクニカルワーク�
 
 これで、モバイルアプリケーションを Campaign でプッシュ通知やアプリ内配信に使用する準備が整いました。 必要に応じて、アプリ内メッセージをトリガーするイベントを作成したり、プッシュ証明書をアップロードしたりするために、さらに設定できるようになりました。
 
-1. 詳細設定メニューから、 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (AEP SDK)]**.
+1. 詳細設定メニューから、「 」を選択します。 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (AEP SDK)]**.
 
 1. データ収集 UI で作成および設定したモバイルアプリケーションを選択します。
 
-1. の **[!UICONTROL Mobile application properties]** 「 」タブを使用して、モバイルアプリケーションでアプリ内メッセージに使用できるイベントの追加を開始できます。
+1. 次の日： **[!UICONTROL Mobile application properties]** 「 」タブを使用して、モバイルアプリケーションでアプリ内メッセージに使用できるイベントの追加を開始できます。
 
 1. イベントを設定するには、 **[!UICONTROL Create Element]**.
 
@@ -145,7 +145,7 @@ Launch からのモバイルアプリ AEPSDK の同期テクニカルワーク�
 
    イベントは、アプリ内メッセージの作成時に「トリガー」タブで使用できるようになりました。 詳しくは、 [アプリ内メッセージの準備と送信](../../channels/using/preparing-and-sending-an-in-app-message.md).
 
-1. 内 **[!UICONTROL Device-specific settings]** モバイルアプリケーションダッシュボードの「 」セクションで、各デバイスに対して、iOSの証明書や Android のサーバーキーなど、アプリケーションの詳細を指定します。
+1. Adobe Analytics の **[!UICONTROL Device-specific settings]** モバイルアプリケーションダッシュボードの「 」セクションで、各デバイスに対して、iOSの証明書や Android のサーバーキーなど、アプリケーションの詳細を指定します。
 
    証明書がアップロードされると、アップロードが成功したことを示すメッセージが表示され、証明書の有効期限が表示されます。
 

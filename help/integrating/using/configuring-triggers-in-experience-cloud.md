@@ -35,15 +35,15 @@ Adobeチームがトリガーをアクティブ化するには、次の情報が
 * Adobe Analytics Ultimate、Premium、Foundation、OD、Select、Prime、Mobile Apps、Select、または Standard。
 * Experience Cloud Triggers コアサービス
 
-   ![](assets/trigger_uc_prereq_1.png)
+  ![](assets/trigger_uc_prereq_1.png)
 
 * Experience Cloud DTM コアサービス
 
-   ![](assets/trigger_uc_prereq_2.png)
+  ![](assets/trigger_uc_prereq_2.png)
 
 * Experience Cloud 訪問者 ID と Experience Cloud People コアサービス
 
-   ![](assets/trigger_uc_prereq_3.png)
+  ![](assets/trigger_uc_prereq_3.png)
 
 また、稼働中の Web サイトも必要です。
 
@@ -81,7 +81,7 @@ DTM で以前に参照されたエイリアスは、顧客属性を通じてExpe
 
    ![](assets/remarketing_1.png)
 
-1. エイリアスを使用すると、Analytics の連絡先を Campaign のプロファイルと紐付けできます。 Experience CloudID サービスで定義されたエイリアスを Campaign の共有データソースと照合する必要があります。 データソース ( **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Shared Data Sources]** ) をクリックします。 正しいデータソースが **[!UICONTROL Data Source/Alias]** ドロップダウンメニュー。前の手順で作成したのと同じ顧客属性データソースにマッピングされます。
+1. エイリアスを使用すると、Analytics の連絡先を Campaign のプロファイルと紐付けできます。 Experience CloudID サービスで定義されたエイリアスを Campaign の共有データソースと照合する必要があります。 データソース ( **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Shared Data Sources]** ) をクリックします。 正しいデータソースが **[!UICONTROL Data Source/Alias]** ドロップダウンメニュー（前の手順で作成したのと同じ顧客属性データソースにマッピングされます）。
 
    ![](assets/trigger_uc_conf_5.png)
 

@@ -74,7 +74,7 @@ ht-degree: 33%
                   <td> </td>
                </tr>
                <tr>
-                  <td>添付</td>
+                  <td>添付ファイル</td>
                   <td>添付ファイル</td>
                   <td>コレクション </td>
                   <td> </td>
@@ -248,7 +248,7 @@ ht-degree: 33%
                         <li>繰り返し送信 SMS - smsRefresh - 31</li>
                         <li>モバイルアプリケーション — pushNotification - 40</li>
                         <li>トランザクション SMS - smsLightning - 61</li>
-                        <li>電子メール — 電子メール — 0</li>
+                        <li>E メール — E メール — 0</li>
                         <li>無効な値 — __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
@@ -272,7 +272,7 @@ ht-degree: 33%
                   <td> </td>
                </tr>
                <tr>
-                  <td>繰り返し</td>
+                  <td>反復</td>
                   <td>配信</td>
                   <td>コレクション </td>
                   <td> </td>
@@ -347,7 +347,7 @@ ht-degree: 33%
                   <td> </td>
                </tr>
                <tr>
-                  <td>masterKpi</td>
+                  <td>masterKpis</td>
                   <td>マスター指標</td>
                   <td>項目 </td>
                   <td> </td>
@@ -360,7 +360,7 @@ ht-degree: 33%
                      <ul>
                         <li>FAX - FAX - 4</li>
                         <li>モバイル (SMS) - sms - 1</li>
-                        <li>電子メール — 電子メール — 0</li>
+                        <li>E メール — E メール — 0</li>
                         <li>電話 — 電話 — 2</li>
                         <li>ダイレクトメール — 紙 — 3</li>
                         <li>モバイルアプリケーション — pushNotification - 40</li>
@@ -478,7 +478,7 @@ ht-degree: 33%
                   <td> </td>
                </tr>
                <tr>
-                  <td>state</td>
+                  <td>都道府県</td>
                   <td>ステータス</td>
                   <td>列挙（バイト） </td>
                   <td>
@@ -543,7 +543,7 @@ ht-degree: 33%
                </tr>
                <tr>
                   <td>trackingUrls</td>
-                  <td>トラッキングされる URL</td>
+                  <td>トラッキングする URL</td>
                   <td>コレクション </td>
                   <td> </td>
                </tr>
@@ -618,7 +618,7 @@ ht-degree: 33%
     <th>タイプ</th>
     </tr>
     <tr>
-    <td>state</td>
+    <td>都道府県</td>
     <td>列挙</td>
     </tr>
 </table>
@@ -691,7 +691,7 @@ ht-degree: 33%
     <th>タイプ</th>
     </tr>
     <tr>
-    <td>state</td>
+    <td>都道府県</td>
     <td>列挙</td>
     </tr>
 </table>

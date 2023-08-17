@@ -9,7 +9,7 @@ exl-id: 00714c80-bdaf-4241-bf2f-51498ca1dbef
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
 source-wordcount: '229'
-ht-degree: 72%
+ht-degree: 75%
 
 ---
 
@@ -25,9 +25,9 @@ Adobe Campaign には、ユーザーやユーザーグループに割り当て�
 
 * **[!UICONTROL Administration]**：一般的な管理権限
 
-   >[!NOTE]
-   >
-   >Experience Cloudトリガーを使用する場合、 **[!UICONTROL Administration]** 「Experience Cloudトリガー」メニューにアクセスする権限 Experience Cloudトリガーについて詳しくは、 [ページ](../../integrating/using/about-adobe-experience-cloud-triggers.md).
+  >[!NOTE]
+  >
+  >Experience Cloudトリガーを使用する場合、 **[!UICONTROL Administration]** 「Experience Cloudトリガー」メニューにアクセスする権限 Experience Cloudトリガーについて詳しくは、 [ページ](../../integrating/using/about-adobe-experience-cloud-triggers.md).
 
 * **[!UICONTROL Datamodel]**：パブリケーションの実行とカスタムリソースの作成をおこなう権限
 * **[!UICONTROL Generic import]**：データに対する一般的なインポートを実行する権限。これを機能させるには、 **[!UICONTROL Generic import]** の役割 **[!UICONTROL Workflow]** 役割。

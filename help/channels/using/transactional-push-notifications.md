@@ -35,7 +35,7 @@ Adobe Campaignを使用して、iOSおよび Android モバイルデバイスで
 
 Adobe Campaignを使用して **匿名トランザクションプッシュ通知をすべてのユーザーに送信** モバイルアプリケーションからの通知の受信をオプトインしたユーザー
 
-この場合、 **イベント自体に含まれるデータを使用して、配信ターゲットを定義します**. Adobe Campaign統合プロファイルデータベースのデータは利用されません。
+この場合、 **イベント自体に含まれるデータを使用して、配信ターゲットを定義します。**. Adobe Campaign統合プロファイルデータベースのデータは利用されません。
 
 ### イベントベースのトランザクションプッシュ通知の設定 {#configuring-event-based-transactional-push-notification}
 
@@ -43,7 +43,7 @@ Adobe Campaignを使用して **匿名トランザクションプッシュ通知
 
 >[!NOTE]
 >
->引き続き、 [イベント属性](../../channels/using/configuring-transactional-event.md#defining-the-event-attributes) （イベントのデータ）および [イベントエンリッチメント](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) （Campaign データベースのデータ）。 詳しくは、 [以下の例](#sending-event-based-transactional-push-notification).
+>引き続き、を使用して、イベントベースのトランザクションプッシュ通知のコンテンツをパーソナライズできます。 [イベント属性](../../channels/using/configuring-transactional-event.md#defining-the-event-attributes) （イベントのデータ）および [イベントエンリッチメント](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) （Campaign データベースのデータ）。 詳しくは、 [以下の例](#sending-event-based-transactional-push-notification).
 
 イベントには、次の 3 つの要素が含まれている必要があります。
 
@@ -115,7 +115,7 @@ Adobe Campaignを使用して **匿名トランザクションプッシュ通知
 
 登録トークンが存在する場合、対応するユーザーは、次のコンテンツを含むトランザクションプッシュ通知を受け取ります。
 
-*「こんにちは、ジェーン・グリーンさん、搭乗が始まりました！ B18 番ゲートに進んで下さい」*
+*「こんにちは、ジェーン・グリーンさん、搭乗が始まりました！ B18 番ゲートに進んでください。」*
 
 ## プロファイルをターゲットとしたトランザクションプッシュ通知 {#transactional-push-notifications-targeting-a-profile}
 
@@ -137,7 +137,7 @@ Adobe Campaignを使用して **匿名トランザクションプッシュ通知
 
 1. イベント設定を作成する際に、 **[!UICONTROL Push notification]** チャネルと **[!UICONTROL Profile]** ターゲティングディメンション ( [イベントの作成](../../channels/using/configuring-transactional-event.md#creating-an-event)) をクリックします。
 
-   デフォルトでは、トランザクションプッシュ通知は、受信者がサブスクリプションを購入したすべてのモバイルアプリケーションに送信されます。 特定のモバイルアプリケーションにプッシュ通知を送信するには、リストで選択します。 その他のモバイルアプリはメッセージのターゲットになりますが、送信から除外されます。
+   デフォルトでは、トランザクションプッシュ通知は、受信者がサブスクリプションを購入したすべてのモバイルアプリケーションに送信されます。 特定のモバイルアプリケーションにプッシュ通知を送信するには、リストでその通知を選択します。 その他のモバイルアプリはメッセージのターゲットになりますが、送信から除外されます。
 
    ![](assets/message-center_push_appfilter.png)
 
@@ -216,7 +216,7 @@ Adobe Campaignを使用して **匿名トランザクションプッシュ通知
 
    >[!NOTE]
    >
-   >送信時の配信準備時間とパフォーマンスを最適化 **プロファイルベース** トランザクションプッシュ通知、 **[!UICONTROL Profile - Real-time event for Push (mapRtEventAppSubRcp)]** ターゲットマッピング。
+   >送信時の配信準備時間とパフォーマンスを最適化する **プロファイルベース** トランザクションプッシュ通知、 **[!UICONTROL Profile - Real-time event for Push (mapRtEventAppSubRcp)]** ターゲットマッピング。
 
    ![](assets/message-center_push_target-mapping_change.png)
 

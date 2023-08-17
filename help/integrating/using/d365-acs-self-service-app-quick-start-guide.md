@@ -33,7 +33,7 @@ Adobe Campaign StandardとMicrosoft Dynamics 365 のセルフサービス統合�
 
 ## 前提条件 {#self-service-app-prerequisites}
 
-統合アプリがデータにアクセスできるように、Microsoft Dynamics 365 とAdobe Campaign Standardを設定する必要があります。 Dynamics 365、Adobe Campaign Standard、およびAdobe I/Oでの設定には、時間がかかります。ただし、設定が完了すると、セルフサービス統合アプリケーションのユーザーインターフェイスを通じて統合を制御できるようになります。
+統合アプリがデータにアクセスできるように、Microsoft Dynamics 365 とAdobe Campaign Standardを設定する必要があります。 Dynamics 365、Adobe Campaign Standard、およびAdobe I/Oでの設定には時間がかかりますが、設定後は、セルフサービス統合アプリケーションのユーザーインターフェイスを使用して統合を制御できます。
 
 詳しくは、次の節を参照してください。
 
@@ -45,7 +45,7 @@ Adobe Campaign StandardとMicrosoft Dynamics 365 のセルフサービス統合�
 
 その後、統合ツールから開始できます。 次の手順に従います。
 
-1. [統合アプリへのアクセス権を取得します](../../integrating/using/d365-acs-self-service-app-control-access.md)
+1. [統合アプリへのアクセス権を取得する](../../integrating/using/d365-acs-self-service-app-control-access.md)
 1. [使用する統合アプリの設定](../../integrating/using/d365-acs-self-service-app-settings.md)
 1. [データ同期の実装](../../integrating/using/d365-acs-self-service-app-data-sync.md)
 1. [同期ワークフローの設定](../../integrating/using/d365-acs-self-service-app-workflows.md)
@@ -60,8 +60,8 @@ Adobe Campaign StandardとMicrosoft Dynamics 365 のセルフサービス統合�
 
 ## プライバシーリクエストの確認 {#self-service-app-acknowledgement}
 
-初めてセルフサービス UI を参照する際には、プライバシー確認が表示されます。 続行する前に、Campaign とMicrosoft Dynamics 365 で個別にプライバシーリクエストを実行する際の役割を理解しておく必要があります。
-プライバシーに関する責任と、 [この節](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-privacy).
+初めてセルフサービス UI を参照する際には、プライバシーの確認が表示されます。 続行する前に、Campaign とMicrosoft Dynamics 365 で個別にプライバシーリクエストを実行する際の役割を理解しておく必要があります。
+プライバシーに関する責任と、でのプライバシーリクエストの管理方法について詳しくは、 [この節](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-privacy).
 
 ## 資格情報の設定 {#self-service-app-credentials}
 
@@ -79,38 +79,39 @@ Adobe Campaign StandardとMicrosoft Dynamics 365 のセルフサービス統合�
 >
 > 初めてコネクタを設定する場合や、このプロセスを初めて使用する場合は、 **強く** 「stage」または「dev」インスタンスを選択するよう促します。 実稼動環境で設定を試みる前に、設定が正常に機能することを確認する必要があります。
 
-正しい組織とインスタンスがある場合は、「ハンバーガー」メニューをクリックしてドロップダウンメニューを表示します。 次に、 **[!UICONTROL Settings...]** 「 」ドロップダウンメニューで、Microsoft Dynamics 365 および Campaign の資格情報を入力したページにアクセスします（以下を参照）。
+正しい組織とインスタンスがある場合は、「ハンバーガー」メニューをクリックしてドロップダウンメニューを表示します。 次に、「 **[!UICONTROL Settings...]** 「 」ドロップダウンメニューで、Microsoft Dynamics 365 および Campaign の資格情報を入力したページにアクセスします（以下を参照）。
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-menu-pointers.png)
 
-内 **[!UICONTROL Settings]** ページで、次のセクションに入力します。
+Adobe Analytics の **[!UICONTROL Settings]** ページで、次のセクションに入力します。
 
 * Microsoft Dynamics 365 資格情報
 * Adobe資格情報
 
-移動 [ここ](../../integrating/using/d365-acs-self-service-app-settings.md) をクリックして、各入力の情報を見つける場所に関する詳細情報を確認します。 完了したら、 **[!UICONTROL Save]** ボタンをクリックします。
+移動 [ここ](../../integrating/using/d365-acs-self-service-app-settings.md) をクリックして、各入力の情報を見つける場所に関する詳細情報を確認します。 完了したら、 **[!UICONTROL Save]** 」ボタンをクリックします。
 
 ## 初期設定を確認 {#self-service-app-initial-config}
 
-上記の前提条件を完了し、すべての資格情報を正しく追加している場合は、次に、 **[!UICONTROL Workflows]** ページ。 統合アプリのワークフローについて詳しくは、 [このページ](../../integrating/using/d365-acs-self-service-app-workflows.md).
+上記の前提条件を完了し、すべての資格情報を正しく追加している場合は、次にに移動します。 **[!UICONTROL Workflows]** ページに貼り付けます。 統合アプリのワークフローについて詳しくは、 [このページ](../../integrating/using/d365-acs-self-service-app-workflows.md).
 
-内  **[!UICONTROL Workflows]** ページで、 **[!UICONTROL Microsoft Dynamics 365 to Campaign]** ワークフローを使用して、設定を編集できます。
+Adobe Analytics の  **[!UICONTROL Workflows]** 」ページで、 **[!UICONTROL Microsoft Dynamics 365 to Campaign]** ワークフローを使用して、設定を編集できます。
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-ingress-edit-pointer.png)
 
-内 **[!UICONTROL Microsoft Dynamics 365 to Campaign]** ページから、設定したテーブルマッピングのリストにアクセスできます。  デフォルトでは、デフォルトで標準の連絡先/プロファイルマッピングが使用されます。 その他のすべてのカスタムエンティティは、別々に設定する必要があります。
+Adobe Analytics の **[!UICONTROL Microsoft Dynamics 365 to Campaign]** ページから、設定したテーブルマッピングのリストにアクセスできます。  デフォルトでは、デフォルトで標準で連絡先/プロファイルマッピングが使用されます。 その他のすべてのカスタムエンティティは、別々に設定する必要があります。
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-ingress-top-pointers.png)
 
-内 **[!UICONTROL Edit Table Mapping]** ページで、 **[!UICONTROL Mappings]** 「 」セクションを使用して、Microsoft Dynamics 365 のフィールドが Campaign の正しいフィールドにマッピングされていることを確認してください。 他のマッピングを追加する必要がある場合は、今すぐ追加し、置換やフィルターも追加します。 [詳細情報](../../integrating/using/d365-acs-self-service-app-data-sync.md)。
+Adobe Analytics の **[!UICONTROL Edit Table Mapping]** ページで、 **[!UICONTROL Mappings]** 「 」セクションを使用して、Microsoft Dynamics 365 のフィールドが Campaign の正しいフィールドにマッピングされていることを確認してください。 他のマッピングを追加する必要がある場合は、今すぐ追加し、置換やフィルターも追加します。 [詳細情報](../../integrating/using/d365-acs-self-service-app-data-sync.md)
 
 新しいマッピングを追加する場合は、 [この節](../../integrating/using/d365-acs-self-service-app-data-sync.md#add-a-new-mapping) を参照してください。
 
-設定が正しくなったら、 **[!UICONTROL Play]** ボタン **[!UICONTROL Microsoft Dynamics 365 to Campaign]** ワークフローを使用して、統合とデータのフローを開始できます。
+設定が正しくなったら、 **[!UICONTROL Play]** ボタンの横 **[!UICONTROL Microsoft Dynamics 365 to Campaign]** ワークフローを使用して、統合とデータのフローを開始できます。
 
 >[!IMPORTANT]
 >
 >水 **強く** 実稼動環境で実行する前に、ステージ環境または開発環境で実行することをお勧めします。 ヘッダーでステージ/開発インスタンスが選択されていることを確認してください。
+>
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-ingress-play-pointer.png)
 
@@ -129,15 +130,15 @@ Adobe Campaign StandardとMicrosoft Dynamics 365 のセルフサービス統合�
 
 ドロップダウンメニューのエントリは次のとおりです。
 
-* **設定**:このオプションを選択すると、Microsoft Dynamics 365 とAdobe Campaignの API 資格情報や、アプリケーションのその他の一般的な設定を指定できる画面が表示されます。
+* **設定**：このオプションを選択すると、Microsoft Dynamics 365 とAdobe Campaignの API 資格情報や、アプリケーションのその他の一般設定を指定できる画面が表示されます。
 
-* **ドキュメント**:このオプションは、この統合に固有のAdobe Campaignドキュメントへのリンクです
+* **ドキュメント**：このオプションは、この統合に固有のAdobe Campaignドキュメントへのリンクです。
 
-* **カスタマーケア**:これは、カスタマーケアチケットの開始に関するExperience Cloudドキュメントへのリンクです
+* **カスタマーケア**：カスタマーケアチケットの開始に関するExperience Cloudドキュメントへのリンクです。
 
-* **ログアウト**:これにより、アプリケーションからログアウトし、別のユーザーとして再度サインインできます。
+* **ログアウト**：アプリケーションからログアウトし、別のユーザーとして再度サインインできます。
 
-* **について**:これにより、著作権情報を含む、アプリケーションに関する情報を含むダイアログが表示されます。
+* **について**：著作権情報を含む、アプリケーションに関する情報を含むダイアログが表示されます。
 
 ### パンくずリスト {#app-breadcrumbs}
 

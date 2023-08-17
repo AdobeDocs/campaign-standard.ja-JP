@@ -441,7 +441,7 @@ ht-degree: 9%
          <td> </td>
       </tr>
       <tr>
-         <td>state</td>
+         <td>都道府県</td>
          <td>ステータス</td>
          <td>列挙（バイト） </td>
          <td>
@@ -479,7 +479,7 @@ ht-degree: 9%
          <td> </td>
       </tr>
       <tr>
-         <td>timezone</td>
+         <td>タイムゾーン</td>
          <td>タイムゾーン</td>
          <td>enumeration（文字列） (64)</td>
          <td>
@@ -662,7 +662,7 @@ ht-degree: 9%
     <th>タイプ</th>
     </tr>
     <tr>
-    <td>state</td>
+    <td>都道府県</td>
     <td>列挙</td>
     </tr>
 </table>
@@ -688,7 +688,7 @@ ht-degree: 9%
     <th>タイプ</th>
     </tr>
     <tr>
-    <td>state</td>
+    <td>都道府県</td>
     <td>列挙</td>
     </tr>
 </table>
@@ -749,7 +749,7 @@ ht-degree: 9%
         </tr>
     </table>
 
-特定の期間（Planning による）に公開
+特定の期間（Planning による）に発行済み
 
 <table>
     <tr>

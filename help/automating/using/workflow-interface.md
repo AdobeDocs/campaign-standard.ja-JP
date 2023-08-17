@@ -22,10 +22,10 @@ ht-degree: 4%
 
 ワークフロー編集画面は、次の要素で構成されています。
 
-* この [パレット](#palette)：使用可能なアクティビティを参照します。
-* この [Workspace](#workspace)：アクティビティを設定および整理します。
-* この [アクションバー](#action-bar)：ワークフローやそのコンポーネントを操作するためのボタンで構成されています。
-* この [クイックアクション](#quick-actions)（選択したアクティビティの周囲に表示され、操作できます）
+* The [パレット](#palette)：使用可能なアクティビティを参照します。
+* The [Workspace](#workspace)：アクティビティを設定および整理します。
+* The [アクションバー](#action-bar)：ワークフローやそのコンポーネントを操作するためのボタンで構成されています。
+* The [クイックアクション](#quick-actions)（選択したアクティビティの周囲に表示され、操作できます）
 
 ![](assets/wkf_overview.png)
 
@@ -33,10 +33,10 @@ ht-degree: 4%
 
 パレットは画面の左側に表示されます。 使用可能なすべてのアクティビティは、次のように複数のカテゴリに分類されます。
 
-* [ターゲット設定](../../automating/using/about-targeting-activities.md):ターゲティング、母集団データの操作、アクティビティのフィルタリングに固有のアクティビティ
-* [実行](../../automating/using/about-execution-activities.md):ワークフローの整理と実行に固有のアクティビティ
-* [チャネル](../../automating/using/about-channel-activities.md):使用可能な様々な通信チャネルを表すアクティビティ
-* [データ管理 (ETL)](../../automating/using/about-data-management-activities.md):データの操作に特有のアクティビティ
+* [ターゲット設定](../../automating/using/about-targeting-activities.md)：ターゲティング、母集団データの操作、フィルターアクティビティに固有のアクティビティ
+* [実行](../../automating/using/about-execution-activities.md)：ワークフローの整理と実行に固有のアクティビティ
+* [チャネル](../../automating/using/about-channel-activities.md)：使用可能な様々な通信チャネルを表すアクティビティ
+* [データ管理 (ETL)](../../automating/using/about-data-management-activities.md)：データの操作固有のアクティビティ
 
 ワークフローのパレットの「 」アクティビティを使用するには、ワークスペースに「 」アクティビティをドラッグ&amp;ドロップします。
 
@@ -50,7 +50,7 @@ ht-degree: 4%
 
 2 つのアクティビティをリンクするには、最初のアクティビティの矢印の終わりを、接続するまで次のアクティビティに移動します。 また、前のアクティビティにリンクするために、アクティビティを後ろの矢印のポイントに向かって移動することもできます。 いずれかのアクティビティを移動しても、そのアクティビティはリンクされたままになります。
 
-データを処理するアクティビティに続くトランジションには、中間母集団が含まれます。 これらには、 **[!UICONTROL Keep interim results]** オプション **[!UICONTROL Execution]** 」セクションに表示されます。
+データを処理するアクティビティに続くトランジションには、中間母集団が含まれます。 これらにアクセスするには、 **[!UICONTROL Keep interim results]** オプションを **[!UICONTROL Execution]** 」セクションに表示されます。
 
 >[!CAUTION]
 >
@@ -61,7 +61,7 @@ ht-degree: 4%
 
 特定の関数は、ワークスペースでのみ有効です。
 
-* 複数のアクティビティとトランジションを選択するには、その周りにゾーンを描画します。
+* 複数のアクティビティとトランジションを選択するには、それらのアクティビティとトランジションの周りにゾーンを描画します。
 * 押す **Ctrl** +左クリックして、複数のアクティビティやトランジションを選択します。
 * 押す **入力** ：現在選択されているアクティビティまたはトランジションの詳細を表示します。
 * 押す **削除** をクリックして、現在選択しているアクティビティを削除します。
@@ -119,7 +119,7 @@ ht-degree: 4%
 
 <img height="21px" src="assets/checkdisable.png" /> **[!UICONTROL No execution]**<br/>アクティビティを無効にします。
 
-<img height="21px" src="assets/pending_darkgrey-24px_table.png" /> **[!UICONTROL Immediate execution]**<br/>選択を強制的に即時処理します。 このボタンは、 <span class="uicontrol">スケジューラ</span> および <span class="uicontrol">待機</span> アクティビティ。
+<img height="21px" src="assets/pending_darkgrey-24px_table.png" /> **[!UICONTROL Immediate execution]**<br/>選択を強制的に即時に処理します。 このボタンは、 <span class="uicontrol">スケジューラ</span> および <span class="uicontrol">待機</span> アクティビティ。
 
 <img height="21px" src="assets/delete_darkgrey-24px_table.png" /> **[!UICONTROL Delete selection]**<br/>選択したアクティビティを削除します。
 

@@ -1,6 +1,6 @@
 ---
 title: エクスポートログの監査
-description: 管理者がAdobe Campaignから作成されたエクスポートを追跡する方法を説明します
+description: 管理者がAdobe Campaignから作成されたエクスポートを追跡する方法を説明します。
 audience: administration
 feature: Access Management
 role: Admin
@@ -27,4 +27,4 @@ ht-degree: 5%
 
 左側のウィンドウで、必要に応じて、表示するエクスポートをフィルタリングできます。
 
-リストは、 [リストの書き出し](../../automating/using/exporting-lists.md) 」セクションに入力します。
+リストを別のファイルとして書き出すことができます。詳しくは、 [リストの書き出し](../../automating/using/exporting-lists.md) 」セクションに入力します。

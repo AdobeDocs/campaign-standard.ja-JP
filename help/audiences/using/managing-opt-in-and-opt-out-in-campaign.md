@@ -21,7 +21,7 @@ ht-degree: 8%
 
 オペレーターは、ユーザーをプロファイルから直接オプトインまたはオプトアウトできます **[!UICONTROL General]** タブをクリックします。
 
-内 **[!UICONTROL No longer contact (on denylist)]** 「 」セクションの場合、選択したチェックボックスは、ユーザーがオプトアウトを選択したチャネルに対応しています。 ユーザーのニーズに応じてチャネルを選択します。
+Adobe Analytics の **[!UICONTROL No longer contact (on denylist)]** 「 」セクションの場合、選択したチェックボックスは、ユーザーがオプトアウトを選択したチャネルに対応しています。 ユーザーのニーズに応じてチャネルを選択します。
 
 ![](assets/optin_landingpage_3.png)
 
@@ -53,6 +53,6 @@ ht-degree: 8%
 
 ユーザーがすべての配信をオプトアウトできるようにするには、 **[!UICONTROL Denylist]** ランディングページ。 ランディングページの作成について詳しくは、 [このページ](../../channels/using/getting-started-with-landing-pages.md).
 
-ユーザーがランディングページのリンクをクリックすると、 **[!UICONTROL No longer contact (by any channel)]** オプションが自動的に選択されます。
+ユーザーがランディングページのリンクをクリックすると、 **[!UICONTROL No longer contact (by any channel)]** 」オプションが自動的に選択されます。
 
 ![](assets/blocklisting_allchannels.png)

@@ -33,39 +33,40 @@ ht-degree: 59%
 
 ## ブロックリストと強制隔離の比較 {#denylist-versus-quarantine}
 
-* **上の E メールアドレスと強制隔離 E メールアドレブロックリストスの違いについて教えてください。**
+* **上の E メールアドレスと強制隔離 E メールアドレブロックリストに加えるスの違いについて教えてください。**
 
    * ステータス **[!UICONTROL On denylist]** は、 [フィードバックループ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ja#feedback-loops) （人がメッセージをスパムとしてレポートする場合）。
 
    * ステータス **[!UICONTROL Quarantined]** は、ソフトバウンスまたはハードバウンスの結果です。
-   詳しくは、[こちらの節](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist)を参照してください。
+
+  詳しくは、[こちらの節](../../sending/using/understanding-quarantine-management.md#quarantine-vs-denylist)を参照してください。
 
 * **様々な強制隔離エラーの原因は何を意味しますか。**
 
-   考えられる理由は次の 10 です。未定義、不明なユーザー、無効なドメイン、上のアドレス、拒否、無視されたエラー、未到達、無効なアカウント、メールボックス容量超過、未接続
+  次の 10 個の原因が考えられます。未定義、不明なユーザー、無効なドメイン、上のアドレス、拒否、無視されたエラー、未到達、無効なアカウント、メールボックス容量超過、未接続。
 
-   詳しくは、[強制隔離管理の理解](../../sending/using/understanding-quarantine-management.md)を参照してください。
+  詳しくは、[強制隔離管理の理解](../../sending/using/understanding-quarantine-management.md)を参照してください。
 
 ## ブロックリストからの削除 {#removing-from-denylist}
 
-* **受信者の 1 人が誤ってに追ブロックリスト加されました。 メッセージの送信を再開できるようブロックリストに、メッセージから削除する方法を教えてください。**
+* **受信者の 1 人が誤ってに追ブロックリストに加える加されました。 メッセージの送信を再開できるようブロックリストに加えるに、メッセージから削除する方法を教えてください。**
 
    * 移動 **[!UICONTROL Administration > Channels > Quarantines > Addresses]**.
    * 対応するレコードの詳細で、 **[!UICONTROL Status]** ～に向かって **[!UICONTROL Valid]**.
    * レコードを保存します。
 
-* **IP の 1 つが中かどうかを確認するにはどうすればよいでブロックリストすか。 IP をブロックリストから削除する方法を教えてください。**
+* **IP の 1 つが中かどうかを確認するにはどうすればよいでブロックリストに加えるすか。 IP をブロックリストから削除する方法を教えてください。**
 
-   IP アドレスが上にあるかどうかを確認するにブロックリストは、次のような様々な Web サイトを使用して検証できます。
+  IP アドレスが上にあるかどうかを確認するにブロックリストに加えるは、次のような様々な Web サイトを使用して検証できます。
    * [MX Toolbox](https://mxtoolbox.com/)
    * [What is my IP address](https://whatismyipaddress.com)
 
-   通常、IP アドレスチェックの結果は、の詳細と IP アドレスをブロックした Web サイトの名前を含むリストで返されまブロックリストす。
+  通常、IP アドレスチェックの結果は、の詳細と IP アドレスをブロックした Web サイトの名前を含むリストで返されまブロックリストに加えるす。
 
-   対応するリンクをクリックすると、Web サイトの詳細にアクセスできます。
+  対応するリンクをクリックすると、Web サイトの詳細にアクセスできます。
 
-   次に、IP アドレスがブロックリストに登録された Web サイトのリストから Web サイトを削除するようリクエストできます。
+  次に、IP アドレスがブロックリストに登録された Web サイトのリストから Web サイトを削除するようリクエストできます。
 
-   >[!NOTE]
-   >
-   >リストからの削除のプロセスは、Web サイトによって異なります。サイトによって、アカウントの作成が必要な場合や、IP アドレスを指定するだけの場合があります。
+  >[!NOTE]
+  >
+  >リストからの削除のプロセスは、Web サイトによって異なります。サイトによって、アカウントの作成が必要な場合や、IP アドレスを指定するだけの場合があります。

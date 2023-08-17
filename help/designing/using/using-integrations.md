@@ -21,19 +21,19 @@ Adobe Campaignでは、いくつかの電子メールオーサリングオプシ
 
 ## Dreamweaverでのコンテンツの編集 {#editing-content-in-dreamweaver}
 
-Adobe Campaign StandardとDreamweaverの統合により、Dreamweaverインターフェイスで E メールのコンテンツを編集できます。 Dreamweaverの強力なインターフェイスを使用して、レスポンシブ E メールコンテンツを設計および開発できます。
+Adobe Campaign StandardとDreamweaverの統合により、Dreamweaverインターフェイスで E メールのコンテンツを編集できます。 Dreamweaverの強力なインターフェイスにアクセスして、レスポンシブ E メールコンテンツを設計および開発できます。
 
 * **双方向同期**
 
-   1 つの製品で編集がおこなわれるたびに、他の製品でリアルタイムに更新されます。 Dreamweaverでテキストの色を変更する場合は、編集を行うとすぐに、Campaign でテキストの色が有効になります。 また、Dreamweaverまたは Campaign でコードを選択する場合、行番号が同じなので、2 つの製品の間で選択が維持されるので、コード内の特定の項目を探す際に非常に役立ちます。
+  1 つの製品で編集がおこなわれるたびに、他の製品でリアルタイムに更新されます。 Dreamweaverでテキストの色を変更する場合は、編集を行うとすぐに、Campaign でテキストの色が有効になります。 また、Dreamweaverまたは Campaign でコードを選択する場合、行番号が同じなので、2 つの製品の間で選択が維持されるので、コード内の特定の項目を探す際に非常に役立ちます。
 
 * **Dreamweaver を使用した Adobe Campaign へのローカルイメージのアップロード**
 
-   Dreamweaver内で E メールを作成または編集する際には、デスクトップまたはローカルマシンから画像を選択するだけで済みます。 Dreamweaverでは常にこの操作が可能ですが、Dreamweaverと Campaign が接続されると、ローカルファイルがAdobe Campaignサーバーに直ちにアップロードされます。コンテンツの変更時に画像を手動でアップロードする必要はありません。 さらに、最新の画像が常に Campaign 内で有効になるようにします。
+  Dreamweaver内で E メールを作成または編集する際には、デスクトップまたはローカルマシンから画像を選択するだけで済みます。 Dreamweaverでは常にこの操作が可能ですが、Dreamweaverと Campaign が接続されると、ローカルファイルがAdobe Campaignサーバーに直ちにアップロードされるので、コンテンツの変更に応じて画像を手動でアップロードする必要はありません。 さらに、最新の画像が常に Campaign で有効になるようにします。
 
 * **Dreamweaverでの Campaign パーソナライゼーションの追加**
 
-   電子メール開発者は、次のようなテキストを追加する必要がなくなりました。 `[[FIRSTNAME_PLACEHOLDER]]` また、データモデルのテーブルの構文を調べることもできません。 Dreamweaverの Campaign ツールバーは、Campaign インスタンスのデータモデルに直接接続します。 つまり、名から住所へのパーソナライゼーションに必要なデータを取り込むことができます。 Campaign 内でコンテンツブロックを作成している場合は、それらをDreamweaverに直接取り込むこともできます。
+  電子メール開発者は、次のようなテキストを追加する必要がなくなりました。 `[[FIRSTNAME_PLACEHOLDER]]` また、データモデルのテーブルの構文を調べることもできません。 Dreamweaverの Campaign ツールバーは、Campaign インスタンスのデータモデルに直接接続します。 つまり、名から住所へのパーソナライゼーションに必要なデータを取り込むことができます。 Campaign 内でコンテンツブロックを作成している場合は、それらをDreamweaverに直接取り込むこともできます。
 
 この機能について詳しくは、 Dreamweaver Documentation を参照してください。 [ここ](https://helpx.adobe.com/jp/dreamweaver/using/working-with-dreamweaver-and-campaign.html).
 
@@ -145,9 +145,9 @@ Adobe Campaignでは、いくつかの電子メールオーサリングオプシ
    <td> E メールコンテンツのコーディングとAdobe Campaignとの直接統合をおこなう開発者<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>詳細はこちら</strong><br /> </td> 
+   <td> <strong>詳しくは、以下を参照してください。</strong><br /> </td> 
    <td> 詳しくは、 <a href="../../designing/using/designing-content-in-adobe-campaign.md">E メールデザイナーについて</a>.<br /> </td> 
-   <td> 詳しくは、 <a href="../../integrating/using/integrating-with-experience-manager.md">統合とExperience Manager</a>.<br /> </td> 
+   <td> 詳しくは、 <a href="../../integrating/using/integrating-with-experience-manager.md">Experience Managerとの統合</a>.<br /> </td> 
    <td> 詳しくは、 <a href="https://helpx.adobe.com/jp/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaverと Campaign</a> これを見て <a href="#video">ビデオ</a>.<br /> </td> 
   </tr> 
  </tbody> 

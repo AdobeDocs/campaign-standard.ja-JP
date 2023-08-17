@@ -37,8 +37,8 @@ Adobe Campaign 専用のいくつかのテンプレートを使用できます�
 
 デフォルトでは、2 つの定義済みテンプレートを使用して、Adobe Campaign用の E メールコンテンツを作成できます。
 
-* **[!UICONTROL Adobe Campaign Email]**:このテンプレートには、パーソナライズできる標準コンテンツが含まれています。 Adobe Campaign電子メール (AC6.1) とAdobe Campaign電子メール (ACS) のどちらかを選択できます。
-* **[!UICONTROL Importer Page]**:このテンプレートを使用すると、HTMLファイルを含む ZIP ファイルをインポートし、そのコンテンツをパーソナライズできます。
+* **[!UICONTROL Adobe Campaign Email]**：このテンプレートには、パーソナライズできる標準コンテンツが含まれています。 Adobe Campaign電子メール (AC6.1) とAdobe Campaign電子メール (ACS) のどちらかを選択できます。
+* **[!UICONTROL Importer Page]**：このテンプレートを使用すると、HTMLファイルを含む ZIP ファイルをインポートし、そのコンテンツをパーソナライズできます。
 
 1. Adobe Experience Managerで、 **[!UICONTROL Page]**.
 
@@ -47,7 +47,7 @@ Adobe Campaign 専用のいくつかのテンプレートを使用できます�
 
 1. 新しい E メールコンテンツを開きます。
 
-1. 内 **[!UICONTROL Page properties]**，設定 **[!UICONTROL Adobe Campaign]** を **[!UICONTROL Cloud Service Configuration]**. これにより、コンテンツと Adobe Campaign インスタンスの間の通信が可能になります。
+1. Adobe Analytics の **[!UICONTROL Page properties]**，設定 **[!UICONTROL Adobe Campaign]** として **[!UICONTROL Cloud Service Configuration]**. これにより、コンテンツと Adobe Campaign インスタンスの間の通信が可能になります。
 
    詳しくは、次のビデオをご覧ください。
 
@@ -61,12 +61,12 @@ Adobe Experience Managerで E メールコンテンツを作成するには：
 
 1. 件名と **[!UICONTROL Plain text]** 電子メールのバージョン ( **[!UICONTROL Page properties]** > **[!UICONTROL Email]** タブをサイドキックから開きます。
 
-1. 追加 **[!UICONTROL Personalization fields]** から **[!UICONTROL Text & Personalization]** コンポーネント。 各コンポーネントは、特定の使用方法に対応します。画像の挿入、パーソナライゼーションの追加など
+1. 追加 **[!UICONTROL Personalization fields]** から **[!UICONTROL Text & Personalization]** コンポーネント。 各コンポーネントは、画像の挿入、パーソナライゼーションの追加など、特定の使用方法に対応します。
 
    詳しくは、次のビデオをご覧ください。
    >[!VIDEO](https://video.tv.adobe.com/v/29998)
 
-1. 次の **[!UICONTROL Workflow]** タブで、 **[!UICONTROL Approve for Adobe Campaign]** 検証ワークフロー。 E メールに未承認のコンテンツを使用している場合、その E メールを Adobe Campaign で送信することはできません。
+1. 次から： **[!UICONTROL Workflow]** タブで、 **[!UICONTROL Approve for Adobe Campaign]** 検証ワークフロー。 E メールに未承認のコンテンツを使用している場合、その E メールを Adobe Campaign で送信することはできません。
 
 1. コンテンツと送信パラメーターを定義したら、Adobe Campaign Standardで E メールの承認、準備および送信に進むことができます。
 

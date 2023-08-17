@@ -44,7 +44,7 @@ PII データを使用してプロファイルリソースを作成または更�
 
 ![](assets/update_profile1.png)
 
-この例では、 **[!UICONTROL Fields]** 「 」セクションには、モバイルアプリケーションから送信される PII データが反映されています。 この **[!UICONTROL Link to profiles]** 「 」セクションには、PII をプロファイルデータに関連付けるために使用するフィールドが表示されます。ここで、 **cusEmail** マップ： **@email**.
+この例では、 **[!UICONTROL Fields]** 「 」セクションには、モバイルアプリケーションから送信される PII データが反映されています。 The **[!UICONTROL Link to profiles]** 「 」セクションには、PII をプロファイルデータに関連付けるために使用するフィールドが表示されます。ここで、 **cusEmail** マップ： **@email**.
 
 を拡張する際のプロファイルデータのマッピング **[!UICONTROL Subscriptions to an Application]** リソースは読み取り専用です。 紐付けに使用されます。 プロファイルと PII データを紐付けるには、必要なデータを使用してプロファイルをシステムに入力する必要があります。 この場合、紐付けをおこなうには、プロファイルの電子メールアドレスが Collect PII からの電子メールと一致する必要があります。
 
@@ -80,41 +80,41 @@ PII データを使用してプロファイルリソースを作成または更�
 
 その後、以下の手順に従って各アクティビティを設定します。
 
-### の設定 **[!UICONTROL Scheduler]** アクティビティ
+### を設定します。 **[!UICONTROL Scheduler]** アクティビティ
 
-内 **[!UICONTROL General]** タブ、 **[!UICONTROL Execution frequency]** （例：「日」）、 **[!UICONTROL Time]** ( 例： 1:00:00 AM&quot;)、および **[!UICONTROL Start]** （今日の日付など）。
+Adobe Analytics の **[!UICONTROL General]** タブ、セット **[!UICONTROL Execution frequency]** （例：「日」）、 **[!UICONTROL Time]** ( 例： 1:00:00 AM&quot;)、および **[!UICONTROL Start]** （今日の日付など）。
 
 ![](assets/update_profile2.png)
 
-### の設定 **[!UICONTROL Incremental query]** アクティビティ。
+### を設定します。 **[!UICONTROL Incremental query]** アクティビティ。
 
-1. 内 **[!UICONTROL Properties]** タブで、 **[!UICONTROL Select an element]** アイコン **[!UICONTROL Resource]** 「 」フィールドで、 **[!UICONTROL Subscriptions to an application (nms:appSubscriptionRcp:appSubscriptionRcpDetail)]** 要素。
+1. Adobe Analytics の **[!UICONTROL Properties]** タブで、 **[!UICONTROL Select an element]** アイコン **[!UICONTROL Resource]** 「 」フィールドで、「 **[!UICONTROL Subscriptions to an application (nms:appSubscriptionRcp:appSubscriptionRcpDetail)]** 要素を選択します。
 
    ![](assets/update_profile3.png)
 
-1. 内 **[!UICONTROL Target]** タブで、 **[!UICONTROL Mobile application]** フィルターを使用して、モバイルアプリ名を選択します。
+1. Adobe Analytics の **[!UICONTROL Target]** タブで、 **[!UICONTROL Mobile application]** フィルターを使用して、モバイルアプリ名を選択します。
 
    ![](assets/update_profile4.png)
 
-1. 内 **[!UICONTROL Processed data]** タブ、選択 **[!UICONTROL Use a date field]**&#x200B;をクリックし、 **[!UICONTROL Last modified (lastModified)]**  ～としてのフィールド **[!UICONTROL Path to the date field]**.
+1. Adobe Analytics の **[!UICONTROL Processed data]** タブ、選択 **[!UICONTROL Use a date field]**&#x200B;をクリックし、 **[!UICONTROL Last modified (lastModified)]**  ～としてのフィールド **[!UICONTROL Path to the date field]**.
 
    ![](assets/update_profile5.png)
 
-### の設定 **[!UICONTROL Update data]** アクティビティ。
+### を設定します。 **[!UICONTROL Update data]** アクティビティ。
 
-1. 内 **[!UICONTROL Identification]** タブで、 **[!UICONTROL Dimension to update]** フィールドが「プロファイル (profile)」に設定されている場合、 **[!UICONTROL Create element]** ボタンを使用して、フィールドを紐付け条件として追加します。
+1. Adobe Analytics の **[!UICONTROL Identification]** タブで、 **[!UICONTROL Dimension to update]** フィールドが「プロファイル (profile)」に設定されている場合、 **[!UICONTROL Create element]** ボタンを使用して、フィールドを紐付け条件として追加します。
 
    ![](assets/update_profile_createelement.png)
 
-1. 内 **[!UICONTROL Source]** 「 」フィールドで、appSubscriptionRcp テーブルから紐付けフィールドとしてフィールドを選択します。 プロファイルの電子メール、crmId、marketingCloudId などがあります。 この例では、「Email (cusEmail)」フィールドを使用します。
+1. Adobe Analytics の **[!UICONTROL Source]** 「 」フィールドで、appSubscriptionRcp テーブルから紐付けフィールドとしてフィールドを選択します。 プロファイルの電子メール、crmId、marketingCloudId などがあります。 この例では、「Email (cusEmail)」フィールドを使用します。
 
-1. 内 **[!UICONTROL Destination]** 「 」フィールドで、プロファイルテーブルからフィールドを選択して、 appSubscriptionRcp テーブルからデータを紐付けします。 プロファイルの電子メール、または crmId、marketingCloudId などの拡張フィールドを指定できます。 この例では、「Email (email)」フィールドを選択して、appSubscriptionRcp テーブルの「Email (cusEmail)」フィールドにマッピングする必要があります。
+1. Adobe Analytics の **[!UICONTROL Destination]** 「 」フィールドで、プロファイルテーブルからフィールドを選択して、 appSubscriptionRcp テーブルからデータを紐付けします。 プロファイルの電子メール、または crmId、marketingCloudId などの拡張フィールドを指定できます。 この例では、「Email (email)」フィールドを選択して、appSubscriptionRcp テーブルの「Email (cusEmail)」フィールドにマッピングする必要があります。
 
    ![](assets/update_profile7.png)
 
-1. 内 **[!UICONTROL Fields to update]** タブで、 **[!UICONTROL Create element]** ボタンをクリックし、 appSubscriptionRcp テーブル (**[!UICONTROL Source]** フィールド ) を、プロファイルテーブル (**[!UICONTROL Destination]** フィールド ) に書き込まれます。
+1. Adobe Analytics の **[!UICONTROL Fields to update]** タブで、 **[!UICONTROL Create element]** ボタンをクリックし、 appSubscriptionRcp テーブル (**[!UICONTROL Source]** フィールド ) を、プロファイルテーブル (**[!UICONTROL Destination]** フィールド ) に書き込まれます。
 
-1. 内 **[!UICONTROL Enabled if]** 「 」フィールドに式を追加して、ソースフィールドに値が含まれている場合にのみプロファイルテーブルの対応するフィールドが更新されるようにします。 これをおこなうには、リストからフィールドを選択し、「!=&quot;&quot;式 (「ソース」フィールドが `[target/@cusEmail]` 式エディターで、必ず「 `[target/@cusEmail] != ''"`) をクリックします。
+1. Adobe Analytics の **[!UICONTROL Enabled if]** 「 」フィールドに式を追加して、ソースフィールドに値が含まれている場合にのみプロファイルテーブルの対応するフィールドが更新されるようにします。 これをおこなうには、リストからフィールドを選択し、「!=&quot;&quot;式 (「ソース」フィールドが `[target/@cusEmail]` 式エディターで、必ず「 `[target/@cusEmail] != ''"`) をクリックします。
 
    ![](assets/update_profile8.png)
 

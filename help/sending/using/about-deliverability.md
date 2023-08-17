@@ -95,8 +95,7 @@ Adobe Campaignでは、組み込みのリアルタイム指標を使用して、
 詳しくは、以下の節を参照してください。
 
 * [配信品質の監視](../../sending/using/monitor-deliverability.md)
-
-   <!--[Monitoring a delivery](../../sending/using/monitoring-a-delivery.md)-->
+  <!--[Monitoring a delivery](../../sending/using/monitoring-a-delivery.md)-->
 * [エラー発生時のアラートの受信](../../sending/using/receiving-alerts-when-failures-happen.md)
 * [動的レポート](../../reporting/using/about-dynamic-reports.md)
 

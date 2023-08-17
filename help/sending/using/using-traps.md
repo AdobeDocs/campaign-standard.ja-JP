@@ -39,11 +39,11 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->( [配達確認](../../sending/using/sending-proofs.md) または [電子メールのレンダリング](../../sending/using/email-rendering.md)に設定すると、メッセージがメインターゲットとトラップとして使用されるテストプロファイルに同時に送信されます。
+>に使用されるテストプロファイルとは異なります。 [配達確認](../../sending/using/sending-proofs.md) または [電子メールのレンダリング](../../sending/using/email-rendering.md)に設定すると、メッセージがメインターゲットとトラップとして使用されるテストプロファイルに同時に送信されます。
 
 メッセージのオーディエンスを定義する場合：
 
-1. 次の **[!UICONTROL Test profiles]** 「 」タブで、テストプロファイルを選択します。 必ず **[!UICONTROL Trap]** 意図した用途として
+1. 次から： **[!UICONTROL Test profiles]** 「 」タブで、テストプロファイルを選択します。 必ず **[!UICONTROL Trap]** 意図した用途として。
 
    ![](assets/trap_select.png)
 

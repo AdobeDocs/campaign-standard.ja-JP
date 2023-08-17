@@ -203,23 +203,23 @@ Android ペイロードの側面を理解するには、を参照してくださ
 
 | キャンペーン設定 | iOSの影響を受けた属性 | Android の影響を受ける属性 | 説明 |
 |:-:|:-:|:-:|:-:|
-| メッセージタイトル <br>メッセージ本文 | アラート→タイトル <br> 警告→本文 | タイトル <br>本文 | このデータには、アラートメッセージの詳細が含まれています。<br>タイトルキーと本文キーは、アラートの内容を提供します。 |
+| メッセージのタイトル <br>メッセージ本文 | アラート→タイトル <br> 警告→本文 | タイトル <br>本文 | このデータには、アラートメッセージの詳細が含まれています。<br>タイトルキーと本文キーは、アラートの内容を提供します。 |
 | サウンドの再生 | 音 | 音 | アラートで再生するカスタムサウンド。 |
 | バッジの値 | バッジ | バッジ | アプリのアイコンにバッジを付けるために使用される整数値。 |
 | ディープリンクの追加 | uri | 該当なし | ディープリンクを使用すると、（Web ブラウザーページを開くのではなく）ユーザーをアプリケーション内のコンテンツに直接移動させることができます。 |
 | カテゴリ | カテゴリー | カテゴリー | リモート通知でカスタムアクションを表示する。 <br>カテゴリキーは、そのカテゴリのアクションをアラートインターフェイスのボタンとして表示するのに役立ちます。 |
 | カスタムフィールド | custom_field1、custom_field2 ... | custom_field1、custom_field2 ... | アプリに送信する任意のカスタムデータです。 |
-| リッチメディアコンテンツ URL（画像、gif、オーディオおよびビデオファイル）<br>(iOS 10 以降にのみ適用 ) | media-attachment-url | 該当なし | 通知にリッチコンテンツを追加するためのメディアファイルの URL。 <br>この URL に値を指定すると、mutable-content フラグが自動的にペイロードに送信されます。 <br> (iOS 10 以降にのみ適用 ) |
+| リッチメディアコンテンツの URL（画像、gif、オーディオおよびビデオファイル）<br>(iOS 10 以降にのみ適用 ) | media-attachment-url | 該当なし | 通知にリッチコンテンツを追加するためのメディアファイルの URL。 <br>この URL に値を指定すると、mutable-content フラグが自動的にペイロードに送信されます。 <br> (iOS 10 以降にのみ適用 ) |
 | 可変コンテンツ <br> (iOS 10 以降にのみ適用 ) | mutable-content | 該当なし | アプリの通知サービス拡張は、可変コンテンツキーを使用してすべてのリモート通知を「傍受」し、要求ペイロードの内容を処理または操作できるようにします。これは、通知のカスタマイズに使用できます。 この機能の使用例には、複数のメディアのダウンロードと表示、プッシュペイロードに存在する暗号化されたデータの復号化などがあります。 詳しくは、 [リモート通知のペイロードを変更する](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html). <br>(iOS 10 以降にのみ適用 ) |
 | 利用可能なコンテンツ | content-available | 該当なし | このオプションを選択すると、バックグラウンド/休止状態のiOSアプリをスリープ解除できます。 起動すると、アプリがバックグラウンドで実行され、プッシュ通知データペイロードの受信に対応する適切なイベントハンドラーがコントロールを取得し、データを使用してカスタムプッシュ通知の作成や表示などの計算を実行できます。 詳しくは、 [通知配信でアプリを起動](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html). |
-| リッチメディアコンテンツ URL（画像ファイル）<br>（Android にのみ適用） | 該当なし | media-attachment-url | 通知にリッチコンテンツを追加する画像ファイルの URL。 |
+| リッチメディアコンテンツの URL（画像ファイル）<br>（Android にのみ適用） | 該当なし | media-attachment-url | 通知にリッチコンテンツを追加する画像ファイルの URL。 |
 | 該当なし | _mId<br>_dId | _mId <br>_dId | broadlogId と deliveryId の値。<br>これらの属性は、アプリがトラッキングポストバックを呼び出して、プッシュ通知がいつクリックまたは開かれたかを追跡する場合に必要です。 この情報は、ユーザーの介入なしにアプリサーバーによって計算され、内部的に送信されます。<br>ポストバックに関する情報は、次を参照してください。 [ページ](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback). |
 
 ### モバイルアプリコードでペイロード情報を取得する方法 {#payload-information}
 
 アプリサーバーによって送信されたペイロード情報は、プッシュ通知が受信されたことを示すイベントハンドラーでモバイルアプリコードによって受信されます。 このイベントは、作業対象のモバイルプラットフォームと、アプリがフォアグラウンドで実行されているかバックグラウンドで実行されているかによって異なります。 次のドキュメントは、使用例に基づいて、処理するイベントハンドラーを識別するのに役立ちます。
 
-* iOSアプリケーション： **リモート通知の処理** セクション [リモート通知](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/HandlingRemoteNotifications.html).
+* iOSアプリケーション： **リモート通知の処理** のセクション [リモート通知](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/HandlingRemoteNotifications.html).
 * Android アプリケーション： [Android クライアントアプリでのメッセージの受信](https://firebase.google.com/docs/cloud-messaging/android/receive)
 
 **iOS Mobile アプリのサンプル**

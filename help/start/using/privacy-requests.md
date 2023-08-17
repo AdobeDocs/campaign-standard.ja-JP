@@ -9,7 +9,7 @@ role: User
 level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1559'
 ht-degree: 100%
 
@@ -149,7 +149,7 @@ Privacy Core Service の各ジョブは、使用されている名前空間の�
 * **[!UICONTROL Processing]** / **[!UICONTROL Retry in progress]**：ワークフローはリクエストを処理しています。
 * **[!UICONTROL Delete pending]**：ワークフローにおいて、削除対象のすべての受信者データが特定済みです。
 * **[!UICONTROL Delete in progress]**：ワークフローは削除を処理しています。
-   <!--**[!UICONTROL Delete Confirmation Pending]** (Delete request in 2-steps process mode): the workflow has processed the Access request. Manual confirmation is requested to perform the deletion. The button is available for 15 days.-->
+  <!--**[!UICONTROL Delete Confirmation Pending]** (Delete request in 2-steps process mode): the workflow has processed the Access request. Manual confirmation is requested to perform the deletion. The button is available for 15 days.-->
 * **[!UICONTROL Complete]**：リクエストの処理が完了しました。エラーは発生していません。
 * **[!UICONTROL Error]**：ワークフローにおいて、エラーが発生しました。理由は、「**[!UICONTROL Request status]**」列の「プライバシーリクエスト」リストに表示されます。 例えば、**[!UICONTROL Error data not found]** は、データ主体の&#x200B;**[!UICONTROL Reconciliation value]** に一致する受信者データがデータベース内に見つからないことを意味します。
 

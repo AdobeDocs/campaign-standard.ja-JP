@@ -43,7 +43,7 @@ ht-degree: 81%
 
 ## クエリアクティビティの作成{#creating-a-query-activity}
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**、受信者を選択するには、 [クエリ](../../automating/using/query.md) 「 」アクティビティをクリックし、ダブルクリックします。
+1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**、受信者を選択するには、ドラッグ&amp;ドロップします [クエリ](../../automating/using/query.md) 「 」アクティビティをクリックし、ダブルクリックします。
 1. **[!UICONTROL Shortcuts]**／**[!UICONTROL Profile]**&#x200B;で、**[!UICONTROL Email]** をドラッグ＆ドロップします。
 1. 演算子として「**[!UICONTROL is not empty]**」を選択します。
 1. **[!UICONTROL Shortcuts]**／**[!UICONTROL General]** でプロファイルを追加し、「**[!UICONTROL no longer contact by email]**」を選択して、値を「**[!UICONTROL No]**」に設定します。

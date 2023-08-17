@@ -33,11 +33,11 @@ Adobe Campaign は、外部アカウントを無関係なエンティティと�
 
 * **その問題は 1 つまたは複数のアカウントで発生した**
 
-   この場合、各アカウントに別々にその他のトラブルシューティング手順を適用できます。ネットワークトラフィックとログ数を減らすために、アカウントの診断時に他のアカウントを無効にすることをお勧めします。
+  この場合、各アカウントに別々にその他のトラブルシューティング手順を適用できます。ネットワークトラフィックとログ数を減らすために、アカウントの診断時に他のアカウントを無効にすることをお勧めします。
 
 * **1 つのアカウントのみアクティブの場合は、問題は発生しなかった**
 
-   アカウント間で競合が発生しています。前述したように、Adobe Campaign はアカウントを個別に扱いますが、プロバイダーはアカウントを単一のアカウントとして扱うことができます。
+  アカウント間で競合が発生しています。前述したように、Adobe Campaign はアカウントを個別に扱いますが、プロバイダーはアカウントを単一のアカウントとして扱うことができます。
 
    * すべてのアカウント間で異なるログイン／パスワードの組み合わせを使用しています。プロバイダーに連絡して、プロバイダー側の競合の可能性を診断する必要があります。
 
@@ -47,17 +47,17 @@ Adobe Campaign は、外部アカウントを無関係なエンティティと�
 
 * コネクタが最近変更されたかどうか、およびどのユーザーによって変更されたかを調べます（外部アカウントをグループとして確認します）。
 
-   ```
-   select saccount, (sserver ||':'||sport) as serverPort, iextaccountid, CASE WHEN N0.iactive=1 THEN 'Yes' ELSE 'No' END as "(x) Enabled",
-   
-   (select X1.sname from xtkoperator X1 where N0.icreatedbyid = X1.ioperatorid) as "Created By",
-   
-   (select X1.sname from xtkoperator X1 where N0.imodifiedbyid = X1.ioperatorid) as "Last Modified By",
-   
-   N0.slabel as "External Account", N0.tslastmodified as "LastModifiedDate"
-   
-   from nmsextaccount N0 LEFT JOIN xtkoperator X0 ON (N0.icreatedbyid=X0.ioperatorid) order by 8 DESC LIMIT 50;
-   ```
+  ```
+  select saccount, (sserver ||':'||sport) as serverPort, iextaccountid, CASE WHEN N0.iactive=1 THEN 'Yes' ELSE 'No' END as "(x) Enabled",
+  
+  (select X1.sname from xtkoperator X1 where N0.icreatedbyid = X1.ioperatorid) as "Created By",
+  
+  (select X1.sname from xtkoperator X1 where N0.imodifiedbyid = X1.ioperatorid) as "Last Modified By",
+  
+  N0.slabel as "External Account", N0.tslastmodified as "LastModifiedDate"
+  
+  from nmsextaccount N0 LEFT JOIN xtkoperator X0 ON (N0.icreatedbyid=X0.ioperatorid) order by 8 DESC LIMIT 50;
+  ```
 
 * システムがアップグレードされたかどうか、およびシステムがアップグレードされたタイミングを調べます（/postupgrade ディレクトリ内）。
 * SMS に影響を与えるパッケージが最近アップグレードされた可能性があるかどうかを調べます（/var/log/dpkg.log）。
@@ -152,7 +152,7 @@ Adobe Campaign は、外部アカウントを無関係なエンティティと�
 
 すべての問題を修正したが、無効な SR がプロバイダーのバッファに残っている場合は、 **無効な ID 確認数** オプション。 このオプションは慎重に使用する必要があり、バッファがクリーンになった後、できるだけ早く 0 にリセットする必要があります。
 
-## MO( およびブロックリスト/自動応答 ) を処理する際の問題{#issue-process-MO}
+## MO( およびブロックリストに加える/自動応答 ) を処理する際の問題{#issue-process-MO}
 
 * テスト中に SMPP トレースを有効にします。TLS を有効にしない場合は、MO のトラブルシューティング時にネットワークキャプチャを実行し、PDU に正しい情報が含まれ、正しくフォーマットされていることを確認する必要があります。
 
@@ -262,7 +262,7 @@ SMS の問題について、Adobe Campaign、SMS プロバイダー、または�
 
 **外部アカウントごとの有効化（推奨される方法）**
 
-1. 内 **外部アカウント**&#x200B;を選択します。 **ログファイルの詳細 SMPP トレースを有効にする**.
+1. Adobe Analytics の **外部アカウント**&#x200B;を選択します。 **ログファイルの詳細 SMPP トレースを有効にする**.
 1. 保存します。コネクタはトレースを有効にして再接続します。
 
 **オンザフライでの有効化**

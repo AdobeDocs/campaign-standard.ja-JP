@@ -29,8 +29,8 @@ PII データを含む場合など、Campaign サーバーをインポートす�
 
 Campaign コントロールパネルを使用する資格がない場合は、Adobeカスタマーケアに連絡して、インスタンスに必要な暗号化/復号化コマンドを提供してもらう必要があります。 これをおこなうには、次の内容を示すリクエストを送信します。
 
-* この **ラベル** これが Campaign インターフェイスに表示され、コマンドを使用します。 例：「ファイルを暗号化」。
-* この **command** をクリックして、をインスタンスにインストールします。
+* The **ラベル** これが Campaign インターフェイスに表示され、コマンドを使用します。 例：「ファイルを暗号化」。
+* The **command** をクリックして、をインスタンスにインストールします。
 
 リクエストが処理されると、 encryption / decryption コマンドは **[!UICONTROL Pre-processing stage]** フィールド **[!UICONTROL Load file]** および **[!UICONTROL Extract file]** アクティビティ。 これらを使用して、インポートまたはエクスポートするファイルを復号化または暗号化できます。
 
@@ -63,11 +63,11 @@ Campaign コントロールパネルを使用する資格がない場合は、Ad
    ![](assets/gpg_workflow.png)
 
    * **[!UICONTROL Transfer file]** アクティビティ：ファイルを外部ソースから Campaign に転送します。 この例では、SFTP サーバーからファイルを転送します。
-   * **[!UICONTROL Load file]** アクティビティ：ファイルからデータベースにデータを読み込み、データベースで生成された秘密鍵を使用してCampaign コントロールパネルを復号化します。
+   * **[!UICONTROL Load file]** activity：ファイルからデータベースにデータを読み込み、データベースで生成された秘密鍵を使用してCampaign コントロールパネルします。
 
 1. を開きます。 **[!UICONTROL Transfer file]** アクティビティを設定し、必要に応じて設定します。 アクティビティの設定方法に関するグローバルな概念については、[こちら](../../automating/using/load-file.md)を参照してください。
 
-   内 **[!UICONTROL Protocol]** 「 」タブで、sftp サーバーと、転送する暗号化された.gpg ファイルに関する詳細を指定します。
+   Adobe Analytics の **[!UICONTROL Protocol]** 「 」タブで、sftp サーバーと、転送する暗号化された.gpg ファイルに関する詳細を指定します。
 
    ![](assets/gpg_transfer.png)
 
@@ -93,7 +93,7 @@ Campaign コントロールパネルを使用する資格がない場合は、Ad
 
 このユースケースを実行する手順は次のとおりです。
 
-1. GPG ユーティリティを使用して GPG キーペア（公開鍵／秘密鍵）を生成し、公開キーを コントロールパネルにインストールします。詳細な手順については、[コントロールパネルのドキュメント](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html#encrypting-data)を参照してください。
+1. GPG ユーティリティを使用して GPG キーペア（公開鍵／秘密鍵）を生成し、公開キーを コントロールパネルにインストールします。詳細な手順については、[コントロールパネルのドキュメント](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=ja#encrypting-data)を参照してください。
 
    ![](assets/gpg_install.png)
 
@@ -102,10 +102,10 @@ Campaign コントロールパネルを使用する資格がない場合は、Ad
    ![](assets/gpg-workflow-export.png)
 
    * **[!UICONTROL Query]** アクティビティ：この例では、クエリを実行して、エクスポートするデータをデータベースから選択します。
-   * **[!UICONTROL Extract file]** アクティビティ：データを暗号化してファイルに抽出します。
-   * **[!UICONTROL Transfer file]** アクティビティ：暗号化されたデータを含むファイルを SFTP サーバーに転送します。
+   * **[!UICONTROL Extract file]** activity：データを暗号化してファイルに抽出します。
+   * **[!UICONTROL Transfer file]** activity：暗号化されたデータを含むファイルを SFTP サーバーに転送します。
 
-1. の設定 **[!UICONTROL Query]** 「 」アクティビティを使用して、目的のデータをデータベースから選択します。 詳しくは、[この節](../../automating/using/query.md)を参照してください。
+1. を設定します。 **[!UICONTROL Query]** 「 」アクティビティを使用して、目的のデータをデータベースから選択します。 詳しくは、[この節](../../automating/using/query.md)を参照してください。
 
 1. を開きます。 **[!UICONTROL Extract file]** アクティビティを作成し、必要に応じて設定します（出力ファイル、列、形式など）。 アクティビティの設定方法に関するグローバルな概念については、[こちら](../../automating/using/extract-file.md)を参照してください。
 

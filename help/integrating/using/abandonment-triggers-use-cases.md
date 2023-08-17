@@ -64,7 +64,7 @@ Experience Cloud トリガーを作成したら、Adobe Campaign で使用しま
 
 Adobe Campaign では、Experience Cloud で作成したトリガーにリンクしたトリガーを作成する必要があります。
 
-1. Adobe Campaignでトリガーを作成するには、 **Adobe** ロゴ（左上隅）に移動し、「 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud triggers]**.
+1. Adobe Campaignでトリガーを作成するには、 **Adobe** ロゴ（左上隅）に、「 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Experience Cloud triggers]**.
 
    ![](assets/remarketing_1.png)
 
@@ -81,7 +81,7 @@ Adobe Campaign では、Experience Cloud で作成したトリガーにリンク
 
    ![](assets/trigger_uc_browse_6.png)
 
-1. メッセージテンプレートを表示するには、 **[!UICONTROL More]** ボタンをクリックし、 **[!UICONTROL Trigger Transactional Template]**.
+1. メッセージテンプレートを表示するには、 **[!UICONTROL More]** ボタンをクリックし、右上の「 **[!UICONTROL Trigger Transactional Template]**.
 
 1. 内容と送信者の詳細をパーソナライズします。
 

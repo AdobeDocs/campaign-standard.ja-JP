@@ -41,7 +41,6 @@ Adobe Experience Platform Data Connector は、 **データエンジニア** Ado
 >* [リアルタイム顧客プロファイルのデータセットの有効化](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/datasets/dataset.html)
 >* [API を使用したリアルタイム顧客プロファイルおよび ID サービスのデータセットの設定](https://experienceleague.adobe.com/docs/experience-platform/catalog/api/getting-started.html)
 
-
 ## 主要概念 {#key-concepts}
 
 * 初期設定のマッピングは、デフォルトで「Campaign Standard」で指定されているフィールドでのみ使用できます。 すべてのカスタムフィールドとリソースを取り込む場合、各顧客は独自のマッピングを定義する必要があります。
@@ -60,11 +59,11 @@ Adobe Experience Platform Data Connector は、 **データエンジニア** Ado
 
 * Experience CloudID サービス (ECID) はデバイス識別子で、デフォルトで Experience Events と共に送信されます。
 
-   これは訪問者に割り当てられる一意の永続的 ID で、Platform ID サービスで、異なるExperience Cloudソリューションで同じ訪問者とそのデータを識別するために使用できます。 詳しくは、 [Experience CloudID サービスヘルプ](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja).
+  これは訪問者に割り当てられる一意の永続的 ID で、Platform ID サービスで、異なるExperience Cloudソリューションで同じ訪問者とそのデータを識別するために使用できます。 詳しくは、 [Experience CloudID サービスヘルプ](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja).
 
-   >[!NOTE]
-   >
-   >2 つ以上のプロファイルが同じデバイスを共有している場合、ECID は統合 ID サービスのこれら 2 つのプロファイルで同じになることに注意してください。
+  >[!NOTE]
+  >
+  >2 つ以上のプロファイルが同じデバイスを共有している場合、ECID は統合 ID サービスのこれら 2 つのプロファイルで同じになることに注意してください。
 
 ## 制限事項 {#limitations}
 

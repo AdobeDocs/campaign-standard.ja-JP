@@ -28,20 +28,20 @@ Adobe Campaign StandardとAdobe Analyticsの統合を開始するには、まず
 
    ![](assets/analytics_2.png)
 
-1. 次を指定： **[!UICONTROL Web services user name]** および **[!UICONTROL Web services share secret]** 内 **[!UICONTROL Connection]** フィールドに入力します。
+1. 次の項目を指定： **[!UICONTROL Web services user name]** および **[!UICONTROL Web services share secret]** （内） **[!UICONTROL Connection]** フィールドに入力します。
 
    これらのパラメーターは、Analytics で **[!UICONTROL Admin > Company settings > Web services]**.
 
    ![](assets/analytics_1.png)
 
 1. 「**[!UICONTROL Refresh report suites]**」ボタンをクリックします。
-1. を **[!UICONTROL Analytics default report suite]** Adobe CampaignデータのエンリッチメントをおこなうAdobe Analyticsレポートスイートのドロップダウン。
+1. を選択します。 **[!UICONTROL Analytics default report suite]** Adobe CampaignデータのエンリッチメントをおこなうAdobe Analyticsレポートスイートのドロップダウン。
 
-   これで、外部アカウントが準備でき、Adobe Analyticsにリンクされました。 これは、 **[!UICONTROL Enabled]** ボックス
+   これで、外部アカウントが準備でき、Adobe Analyticsにリンクされました。 この機能は、 **[!UICONTROL Enabled]** ボックス。
 
    ![](assets/analytics.png)
 
-この **[!UICONTROL Share KPIs with Adobe Analytics]** テクニカルワークフローが自動的に起動し、詳細設定メニューから「 **[!UICONTROL Administration > Application settings > Workflow]**. このテクニカルワークフローは、6 か月前までの broadlog を保持できます。 このワークフローは増分処理であり、前日のデータをプッシュします。
+The **[!UICONTROL Share KPIs with Adobe Analytics]** テクニカルワークフローが自動的に起動し、詳細設定メニューから「 **[!UICONTROL Administration > Application settings > Workflow]**. このテクニカルワークフローは、6 か月前までの broadlog を保持できます。 このワークフローは増分処理であり、前日のデータをプッシュします。
 
 ![](assets/analytics_3.png)
 

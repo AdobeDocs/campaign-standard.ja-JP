@@ -66,34 +66,34 @@ ht-degree: 100%
 
    * 文字列または数値&#x200B;**フィールド**&#x200B;の場合、比較演算子と値を指定します。
 
-      ![](assets/query_editor_audience_definition2.png)
+     ![](assets/query_editor_audience_definition2.png)
 
    * 日付または日付と時間&#x200B;**フィールド**&#x200B;の場合、特定の日付、2 つの日付間の範囲、またはクエリの実行日を基準とした期間を定義できます。
 
-      ![](assets/query_editor_date_field.png)
+     ![](assets/query_editor_date_field.png)
 
    * ブール値&#x200B;**フィールド**&#x200B;の場合、フィールドに設定可能な値にリンクされているチェックボックスをオンにします。
    * グループ化&#x200B;**フィールド**&#x200B;の場合、ルールを作成するグループ化フィールドを選択し、他のフィールドと同様に条件を定義します。
 
-      ![](assets/query_editor_audience_definition4.png)
+     ![](assets/query_editor_audience_definition4.png)
 
    * 別のデータベースリソースとの **1 対 1** リンクの場合、対象となるテーブルから直接値を選択します。
 
-      ![](assets/query_editor_audience_definition5.png)
+     ![](assets/query_editor_audience_definition5.png)
 
    * 別のデータベースリソースとの **1 対多**&#x200B;リンクの場合、この 2 番目のリソースのフィールドにサブクエリを定義できます。
 
-      下位条件を指定する必要はありません。
+     下位条件を指定する必要はありません。
 
-      例えば、プロファイルトラッキングログでは **[!UICONTROL Exists]** 演算子のみを選択し、ルールを承認できます。ルールは、トラッキングログが存在するすべてのプロファイルを返します。
+     例えば、プロファイルトラッキングログでは **[!UICONTROL Exists]** 演算子のみを選択し、ルールを承認できます。ルールは、トラッキングログが存在するすべてのプロファイルを返します。
 
-      ![](assets/query_editor_audience_definition6.png)
+     ![](assets/query_editor_audience_definition6.png)
 
    * **定義済みフィルター**&#x200B;の場合、提供された条件に従って、任意の要素を入力または選択します。
 
-      管理者は、複雑な繰り返しクエリを容易にするフィルターを作成できます。これらのフィルターは事前設定されたルールの形式でクエリエディターに表示され、ユーザーが実行する必要のある手順を合理化します。
+     管理者は、複雑な繰り返しクエリを容易にするフィルターを作成できます。これらのフィルターは事前設定されたルールの形式でクエリエディターに表示され、ユーザーが実行する必要のある手順を合理化します。
 
-      ![](assets/query-editor_filter_email-audience_filter.png)
+     ![](assets/query-editor_filter_email-audience_filter.png)
 
 1. ルールの名前を指定できます。これは、ワークスペースでルール名として表示されます。ルールに名前が付けられていない場合は、条件の自動説明が表示されます。
 1. ワークスペース要素を組み合わせるには、それらを相互に連動させて異なるグループやグループレベルを作成します。次に、論理演算子を選択して、同じレベルの要素を組み合わせることができます。

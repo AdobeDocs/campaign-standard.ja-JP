@@ -27,19 +27,19 @@ ht-degree: 6%
 
 レポートには次の場所でアクセスできます。
 
-* ホームページで、 **[!UICONTROL Reports]** 上部のバーのタブまたは **[!UICONTROL Reports]** カードを使用して、すべての配信のレポートにアクセスできます。
+* ホームページで、「 **[!UICONTROL Reports]** 上部のバーのタブまたは **[!UICONTROL Reports]** カードを使用して、すべての配信のレポートにアクセスできます。
 
-   ![](assets/campaign_reports_access.png)
+  ![](assets/campaign_reports_access.png)
 
 * 各プログラム、キャンペーン、メッセージで、 **レポート** ボタンをクリックして **動的レポート** ：配信に関するレポートのみを表示します。
 
-   ![](assets/campaign_reports_description.png)
+  ![](assets/campaign_reports_description.png)
 
 配信後すぐに使用できないレポートもあります。これは、情報の収集と処理に要する時間によって異なります。
 
 動的レポートは、次の 2 つのカテゴリに分かれています。
 
-* **テンプレート**（を使用してコピーすることで変更可能） **名前を付けて保存** オプション (**プロジェクト/名前を付けて保存…**) をテンプレート内に追加します。
+* **テンプレート**（を使用してコピーすることで変更できます） **名前を付けて保存** オプション (**プロジェクト/名前を付けて保存…**) をテンプレート内に追加します。
 * **カスタムレポート** （青で識別）。 **新規プロジェクトを作成** ボタン **レポート** ホームページ。
 
 >[!NOTE]
@@ -54,9 +54,9 @@ ht-degree: 6%
 
 次の 3 つのオプションを選択できます。
 
-* **[!UICONTROL Ask me later]**:クリック **後で確認する**&#x200B;を指定した場合、ウィンドウは 24 時間表示されなくなります。 契約に同意するか拒否するまで、プロファイルディメンションはレポートに表示されず、顧客の個人識別情報は収集も送信もされません。
-* **[!UICONTROL Accept]**:この契約に同意すると、Adobe Campaignがお客様の個人 ID 情報を収集し、それらをレポートまたはデータセンターに転送することを許可します。
-* **[!UICONTROL Decline]**:契約を却下すると、プロファイルのディメンションがレポートに表示されなくなり、顧客の個人 ID 情報は収集も送信もされません。 この場合、 externalID は引き続き収集され、エンドユーザーの識別に使用されます。
+* **[!UICONTROL Ask me later]**：クリック **後で確認する**&#x200B;を指定した場合、ウィンドウは 24 時間表示されなくなります。 契約に同意するか拒否するまで、プロファイルディメンションはレポートに表示されず、顧客の個人識別情報は収集も送信もされません。
+* **[!UICONTROL Accept]**：この契約への同意により、Adobe Campaignがお客様の個人 ID 情報を収集し、それらをレポートまたはデータセンターに転送することを許可します。
+* **[!UICONTROL Decline]**：契約を却下すると、プロファイルのディメンションがレポートに表示されなくなり、顧客の個人 ID 情報は収集も送信もされません。 この場合、 externalID は引き続き収集され、エンドユーザーの識別に使用されます。
 
 以下の表は、お客様の地域に応じて、本契約に同意した後の動作を示します。
 
@@ -72,7 +72,7 @@ ht-degree: 6%
 | アメリカおよび APAC（アジア太平洋） | **使用可能な機能**. <br> ExternalID を除き、標準のおよびカスタムプロファイル情報が米国のレポートセンターにプッシュされることはありません。 | **使用可能な機能**. <br>外部 ID と受信者 ID を除き、標準のプロファイルフィールドやカスタムプロファイルフィールドが US データセンターに送信されない。 <br>ミラーページ ID を除く、米国のデータセンターで処理されるすべてのAdobe Campaign Standardイベントフィールド。 <br>Microsoft Dynamics 365 の統合について詳しくは、こちらを参照してください。 [ページ](../../integrating/using/d365-acs-get-started.md). |
 | EMEA（ヨーロッパ中東およびアフリカ） | **使用可能な機能**. <br>ExternalID を除き、EMEA レポートセンターに既製のプロファイルおよびカスタムプロファイル情報がプッシュされない。 | **機能を使用できます。** <br>外部 ID および受信者 ID を除き、EMEA データセンターに標準またはカスタムのプロファイルフィールドが送信されない。 <br>ミラーページ ID を除く、EMEA データセンターで処理されるすべてのAdobe Campaign Standardイベントフィールド。  <br>**[!UICONTROL Control data]**Adobe I/O登録データと、米国のデータセンターで送信および保存される顧客のエンドユーザーイベントの ID が含まれる<br>Microsoft Dynamics 365 の統合について詳しくは、こちらを参照してください。 [ページ](../../integrating/using/d365-acs-get-started.md). |
 
-この選択は最終的なものではありません。いつでも、「 **[!UICONTROL Enable PII data to be transferred to US region to use reporting on Profile data]** in **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Options]**.
+この選択は最終的なものではありません。いつでも、「 」を選択して変更できます。 **[!UICONTROL Enable PII data to be transferred to US region to use reporting on Profile data]** in **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Options]**.
 
 値はいつでも変更できます。 値 1 は、に対応します。 **[!UICONTROL Ask me later]**, 2 **[!UICONTROL Decline]** および 3 **[!UICONTROL Accept]**.
 

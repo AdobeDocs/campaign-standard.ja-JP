@@ -24,7 +24,7 @@ ht-degree: 3%
 
 ## Adobe Experience Platformオーディエンスへのアクセス
 
-Adobe Experience Platformセグメントビルダーにアクセスするには、 **[!UICONTROL Audiences]** Campaign Standardのホームページ ( または **[!UICONTROL Audiences]** リンクをクリック )、 **[!UICONTROL Adobe Experience Platform]** 環境。
+Adobe Experience Platformセグメントビルダーにアクセスするには、 **[!UICONTROL Audiences]** Campaign Standardホームページのカード ( または **[!UICONTROL Audiences]** リンクをクリック )、 **[!UICONTROL Adobe Experience Platform]** 環境。
 
 ![](assets/aep_audiences_access.png)
 
@@ -38,7 +38,7 @@ Adobe Experience Platformセグメントビルダーにアクセスするには�
 
 Campaign Standardで直接Adobe Experience Platformオーディエンスを作成するには、次の手順に従います。
 
-1. Adobe Experience Platformのセグメントリストページで、 **[!UICONTROL New audience]** ボタンをクリックします。
+1. Adobe Experience Platformのセグメントリストページで、「 **[!UICONTROL New audience]** ボタンをクリックします。
 
    ![](assets/aep_audiences_creation_create.png)
 

@@ -22,4 +22,4 @@ ht-degree: 55%
 1. 「**[!UICONTROL Extend an existing resource]**」オプションを選択します。
 1. **[!UICONTROL Profile]** リソースを選択します。
 1. 「**[!UICONTROL Create]**」をクリックします。
-1. を **[!UICONTROL Text]** type **[!UICONTROL Promo code]** フィールドに **[!UICONTROL Brand]** リソースフィールドの ID。
+1. 次を追加： **[!UICONTROL Text]** type **[!UICONTROL Promo code]** フィールドに **[!UICONTROL Brand]** リソースフィールドの ID。

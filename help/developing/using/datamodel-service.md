@@ -10,7 +10,7 @@ exl-id: a326b38f-ca88-4a44-a7c2-b6e34497a364
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '214'
-ht-degree: 45%
+ht-degree: 46%
 
 ---
 
@@ -122,7 +122,7 @@ ht-degree: 45%
                   <td>
                      <ul>
                         <li>モバイル (SMS) - sms - 1</li>
-                        <li>電子メール — 電子メール — 0</li>
+                        <li>E メール — E メール — 0</li>
                         <li>無効な値 — __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>

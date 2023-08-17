@@ -9,7 +9,7 @@ exl-id: 6b3c189d-8ddd-4dc0-8831-65ae62e04c70
 source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
 workflow-type: tm+mt
 source-wordcount: '910'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -46,14 +46,14 @@ Adobe Experience Platform SDK とCampaign Standardの統合について詳しく
 
 >[!NOTE]
 >
->[!DNL Places] 統合には、places イベントがアプリ内メッセージのトリガーとして含まれます（プッシュ通知の場合はなし）。 [!DNL Places] データとローカル通知のサポート。 詳しくは、 [ページ](../../channels/using/preparing-and-sending-an-in-app-message.md) を参照してください。 <br>[!DNL Places] 制限付き統合には、 [!DNL Places] データ。
+>[!DNL Places] 統合には、places イベントがアプリ内メッセージのトリガーとして含まれます（プッシュ通知の場合はなし）。 [!DNL Places] データとローカル通知のサポート。 これを参照してください。 [ページ](../../channels/using/preparing-and-sending-an-in-app-message.md) を参照してください。 <br>[!DNL Places] 制限付き統合には、 [!DNL Places] データ。
 
 ## Adobe Campaign StandardでAdobe Experience Platform SDK を統合すると、どのようなユースケースが容易になりますか？ {#aep-use-cases}
 
 次の使用例がサポートされます。
 
 * の獲得 **[!UICONTROL Mobile Profile]** Campaign 内 ( **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (AEP SDK)]** > **[!UICONTROL Mobile Application subscribers]** タブ )
-* エンリッチメント： **[!UICONTROL Mobile Profile]** Adobe Campaign( **[!UICONTROL Custom resource Extension]** （appSubscriberRcp テーブル）
+* エンリッチメント： **[!UICONTROL Mobile Profile]** Adobe Campaign内 ( **[!UICONTROL Custom resource Extension]** （appSubscriberRcp テーブル）
 * プッシュメッセージ送信用のプッシュトークンの取得（プッシュメッセージを受け取るにはユーザーのオプトインが必要）
 * プッシュメッセージとアプリ内メッセージの送信
 * プッシュメッセージおよびアプリ内メッセージを使用したユーザーのインタラクションを追跡し、それに関するレポートを提供します
@@ -69,8 +69,8 @@ Adobe Experience Platform SDK とCampaign Standardの統合について詳しく
    * 常に最新バージョンのライブラリを使用してください。
    * モバイルアプリで、を登録します。 **[!UICONTROL Campaign]**, **[!UICONTROL UserProfile]**, **[!UICONTROL Identity]**, **[!UICONTROL Lifecycle]** および **[!UICONTROL Signal]** 拡張機能。 指示に従う [ここ](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/#register-the-campaign-standard-extension-with-mobile-core).
    * 拡張機能が登録されたら、ACPCore を起動します。 Android の場合は、必ず setApplication onCreate() を使用してください。 Launch のモバイルプロパティに関するモバイルインストール手順に記載されている手順に従います。
-   * 以下の SDK API も必要です。 ライフサイクル開始および一時停止 API の実装（説明を参照） [ここ](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/android) Android の場合は、ここはiOSの場合。
-1. の設定 **[!UICONTROL Mobile Property]** Adobe Campaign Standard 手順に従います。 [ここ](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
+   * 以下の SDK API も必要です。 ライフサイクル開始 API と一時停止 API の実装（説明を参照） [ここ](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/android) Android の場合は、ここはiOSの場合。
+1. の設定 **[!UICONTROL Mobile Property]** Adobe Campaign Standardで 手順に従います。 [ここ](../../administration/using/configuring-a-mobile-application.md#channel-specific-config).
 
 ## Campaign でモバイルプロファイルをエンリッチメントするには、何をおこなう必要がありますか？ {#enrich-mobile-profile}
 

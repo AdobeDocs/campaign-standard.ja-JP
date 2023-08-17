@@ -426,7 +426,7 @@ ht-degree: 14%
 <td>文字列</td>
 </tr>
 <tr>
-<td>ヶ月</td>
+<td>月</td>
 <td>date</td>
 </tr>
 <tr>
@@ -490,7 +490,7 @@ E メール別（E メール別）
 </tr>
 </table>
 
-静的オーディエンス (byStaticAudience)
+静的オーディエンス (byStaticAudience) 別
 
 <table>
 <tr>

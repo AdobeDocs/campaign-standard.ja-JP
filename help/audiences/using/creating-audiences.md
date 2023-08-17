@@ -113,11 +113,11 @@ Adobe Campaign からのプロファイルに対してクエリをおこなう&#
 
 * **クエリ**&#x200B;オーディエンスを編集するには、**[!UICONTROL Audiences]** メニューからオーディエンスのリストに移動するか、Adobe Campaign ホームページから **[!UICONTROL Audiences]** カードに移動します。
 
-   関連オーディエンスを開きます。以前に作成したオーディエンスのすべての要素を編集できます。
+  関連オーディエンスを開きます。以前に作成したオーディエンスのすべての要素を編集できます。
 
-   >[!CAUTION]
-   >
-   >クエリで **[!UICONTROL Filtering dimension]** を変更すると、以前に定義されたルールは失われます。
+  >[!CAUTION]
+  >
+  >クエリで **[!UICONTROL Filtering dimension]** を変更すると、以前に定義されたルールは失われます。
 
 * **リスト**&#x200B;オーディエンスまたは&#x200B;**ファイル**&#x200B;オーディエンスを編集するには、作成元のワークフローを編集し、「**[!UICONTROL Save audience]**」アクティビティを変更します。ワークフローを開始すると、オーディエンスが変更されます。
 * **Experience Cloud** オーディエンスを編集するには、[People コアサービスを使用したオーディエンスのインポートとエクスポート](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)の節を参照してください。

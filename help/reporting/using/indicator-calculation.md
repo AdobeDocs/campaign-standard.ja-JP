@@ -11,7 +11,7 @@ exl-id: 47cc11d7-89e8-4d1c-9638-5f66a53cef7e
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '726'
-ht-degree: 10%
+ht-degree: 11%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 10%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> ブロックリスト率<br /> </td> 
+   <td> ブロックリストに加える率<br /> </td> 
    <td> @rateBlacklisted<br /> </td> 
    <td> @blacklisted/@sent<br /> </td> 
    <td> レート計算の分母は、送信済み数（配信済み+バウンス数）に基づきます。<br /> </td> 
@@ -169,7 +169,7 @@ ht-degree: 10%
   </tr> 
   <tr> 
    <td> 処理済み/送信済み<br /> </td> 
-   <td> @sent<br /> </td> 
+   <td> @送信済み<br /> </td> 
    <td> @delivered + @bounces<br /> </td> 
    <td> </td> 
   </tr> 
@@ -237,7 +237,7 @@ ht-degree: 10%
  <tbody> 
   <tr> 
    <td> 処理済み/送信済み<br /> </td> 
-   <td> @sent<br /> </td> 
+   <td> @送信済み<br /> </td> 
    <td> @count(status=sent)<br /> </td> 
   </tr> 
   <tr> 
@@ -312,7 +312,7 @@ ht-degree: 10%
  <tbody> 
   <tr> 
    <td> 処理済み/送信済み<br /> </td> 
-   <td> @sent<br /> </td> 
+   <td> @送信済み<br /> </td> 
    <td> @count(status=sent)<br /> </td> 
    <td> sent=delivered<br /> </td> 
   </tr> 

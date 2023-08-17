@@ -23,7 +23,7 @@ Campaign には、次の一連のランディングページテンプレート�
 * **[!UICONTROL Acquisition]**：ランディングページのデフォルトテンプレートで、これを使用すると、Campaign データベースのデータを取得および更新できます。
 * **[!UICONTROL Subscription]**：サービスのサブスクリプションをオファーする場合に使用するテンプレートです。
 * **[!UICONTROL Unsubscription]**：サービスの購読登録者に送信された E メールからリンクできるテンプレートで、これを使用して登録者がこのサービスを登録解除できます。
-* **[!UICONTROL Denylist]**：プロファイルが Campagin からの配信の受信を中止する場合に使用するテンプレートです。管ブロックリスト理について詳しくは、 [Campaign のオプトインとオプトアウトについて](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+* **[!UICONTROL Denylist]**：プロファイルが Campagin からの配信の受信を中止する場合に使用するテンプレートです。管ブロックリストに加える理について詳しくは、 [Campaign のオプトインとオプトアウトについて](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
 これらのテンプレートは、新しいランディングページを作成する際にデフォルトで提示されます。
 

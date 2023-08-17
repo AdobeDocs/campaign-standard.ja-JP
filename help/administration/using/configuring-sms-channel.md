@@ -280,7 +280,7 @@ CR：キャリッジリターン
 
 **高度な文字（2 回カウント）**
 
-^ { } [ ~ ] | €
+^ { } [～] | €
 
 ### SMSC 固有の設定 {#smsc-specifics}
 
@@ -305,15 +305,15 @@ Adobe Campaign では、SMS メッセージの送信時に 1 つまたは複数�
    * **data_coding = 0** を設定して、GSM エンコードの使用を試行します。
    * GSM エンコードが失敗した場合は、**data_coding = 8** を設定して、**UCS2** エンコードの使用を試行します。
 
-   ![](assets/sms_data_coding.png)
+  ![](assets/sms_data_coding.png)
 
 * **[!UICONTROL Define a specific mapping of encodings]** 機能が有効になっている場合、使用するエンコードとリンクされた「**[!UICONTROL data_coding]**」フィールドの値を定義できます。Adobe Campaign は、リスト内の最初のエンコードを使用しようとしますが、次の場合は、最初のエンコードが使用できないと判断します。
 
-   宣言の順序は重要です。**コスト**&#x200B;が少ない順にリストを設定し、SMS メッセージになるべく多くの文字を使用できるようにすることをお勧めします。
+  宣言の順序は重要です。**コスト**&#x200B;が少ない順にリストを設定し、SMS メッセージになるべく多くの文字を使用できるようにすることをお勧めします。
 
-   使用するエンコードのみを宣言してください。SMS-C から提供されているエンコードの中に、使用目的に該当しないものがあれば、それはリストで宣言しないでください。
+  使用するエンコードのみを宣言してください。SMS-C から提供されているエンコードの中に、使用目的に該当しないものがあれば、それはリストで宣言しないでください。
 
-   ![](assets/sms_data_coding1.png)
+  ![](assets/sms_data_coding1.png)
 
 ### MO に送信された自動返信 {#automatic-reply-sent-to-the-mo}
 
@@ -329,23 +329,23 @@ SMS メッセージを送信するための特定のパラメーターは、「*
 
 ![](assets/sms_options.png)
 
-次の **[!UICONTROL Advanced parameters]** セクション：
+次から： **[!UICONTROL Advanced parameters]** セクション：
 
-* この **[!UICONTROL Short code]** 配信に特定のショートコードを追加できます。 この特定のショートコードをオプトアウトした受信者は、メッセージの準備中に自動的に除外されます。 ショートコードの設定方法について詳しくは、 [この節](../../channels/using/managing-incoming-sms.md).
+* The **[!UICONTROL Short code]** 配信に特定のショートコードを追加できます。 この特定のショートコードをオプトアウトした受信者は、メッセージの準備中に自動的に除外されます。 ショートコードの設定方法について詳しくは、 [この節](../../channels/using/managing-incoming-sms.md).
 
-   >[!NOTE]
-   >
-   >この **[!UICONTROL Short code]** フィールドが空の場合、 **[!UICONTROL Short code]** 外部アカウントのフィールドセットが使用されます。
+  >[!NOTE]
+  >
+  >次の場合、 **[!UICONTROL Short code]** フィールドが空の場合、 **[!UICONTROL Short code]** 外部アカウントのフィールドセットが使用されます。
 
-次の **[!UICONTROL Send]** SMS テンプレートのセクション：
+次から： **[!UICONTROL Send]** SMS テンプレートのセクション：
 
 * 「**[!UICONTROL Maximum number of SMS per message]**」オプションを使用すると、メッセージの送信に使用する SMS メッセージの数を定義できます。この数を超えると、メッセージは送信されません。
 
-   >[!IMPORTANT]
-   >
-   >SMS メッセージのコンテンツにパーソナライゼーションフィールドや条件付きテキストを挿入した場合は、メッセージの長さと送信する SMS メッセージの数が受信者によって異なる場合があります。詳しくは、[SMS メッセージのパーソナライズ](../../channels/using/personalizing-sms-messages.md)の節を参照してください。
+  >[!IMPORTANT]
+  >
+  >SMS メッセージのコンテンツにパーソナライゼーションフィールドや条件付きテキストを挿入した場合は、メッセージの長さと送信する SMS メッセージの数が受信者によって異なる場合があります。詳しくは、[SMS メッセージのパーソナライズ](../../channels/using/personalizing-sms-messages.md)の節を参照してください。
 
-   ![](assets/sms_smpp_3.png)
+  ![](assets/sms_smpp_3.png)
 
 * 「**[!UICONTROL Transmission mode]**」フィールドでは、SMS メッセージの配信方法を指定できます。
 

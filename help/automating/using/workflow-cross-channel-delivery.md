@@ -112,7 +112,7 @@ Adobe Campaign で使用できるワークフローと様々なチャネルの�
 
 ## 配信の作成 {#creating-deliveries}
 
-2 つのトランジションが既に作成されているので、Segmentation アクティビティのアウトバウンドトランジションに 2 種類の配信を追加する必要があります。an [E メール配信](../../automating/using/email-delivery.md) アクティビティと [SMS 配信](../../automating/using/sms-delivery.md) アクティビティ。
+2 つのトランジションが既に作成されているので、Segmentation アクティビティのアウトバウンドトランジションに 2 種類の配信を追加する必要があります。 [E メール配信](../../automating/using/email-delivery.md) アクティビティと [SMS 配信](../../automating/using/sms-delivery.md) アクティビティ。
 
 Adobe Campaign を使用すると、ワークフローに配信を追加できます。これをおこなうには、ワークフローのアクティビティパレットの「**[!UICONTROL Channels]**」カテゴリから配信を選択します。
 
@@ -133,7 +133,7 @@ E メール配信を作成するには：
 1. E メールのプロパティを入力し、「**[!UICONTROL Next]**」をクリックします。
 1. E メールのレイアウトを作成するには、「**[!UICONTROL Use the Email Designer]**」を選択します。
 1. コンテンツを編集して保存します。
-1. 内 **[!UICONTROL Schedule]** 「 」セクションで、 **[!UICONTROL Request confirmation before sending messages]** オプション。
+1. Adobe Analytics の **[!UICONTROL Schedule]** 「 」セクションで、 **[!UICONTROL Request confirmation before sending messages]** オプション。
 
 SMS 配信を作成するには：
 

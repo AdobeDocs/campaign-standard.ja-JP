@@ -76,7 +76,7 @@ ht-degree: 6%
 
 ## イベントの非公開 {#unpublishing-an-event}
 
-この **[!UICONTROL Unpublish]** ボタンをクリックすると、イベントの公開をキャンセルできます。これにより、以前に作成したイベントに対応するリソースが REST API から削除されます。
+The **[!UICONTROL Unpublish]** ボタンをクリックすると、イベントの公開をキャンセルできます。これにより、以前に作成したイベントに対応するリソースが REST API から削除されます。
 
 これで、Web サイトを通じてイベントがトリガーされた場合でも、対応するメッセージは送信されなくなり、データベースには保存されません。
 
@@ -100,14 +100,14 @@ For more on publishing, pausing and unpublishing a transactional message, see [t
 
 イベントを非公開にした後、またはイベントがまだ公開されていない場合は、イベント設定リストから削除できます。 手順は次のとおりです。
 
-1. 次をクリック： **Adobe** ロゴ（左上隅）に移動し、「 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
-1. 目的のイベント設定にマウスを移動し、 **[!UICONTROL Delete element]** 」ボタンをクリックします。
+1. 次をクリック： **Adobe** ロゴ（左上隅）に、「 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
+1. 目的のイベント設定にマウスを移動し、「 **[!UICONTROL Delete element]** 」ボタンをクリックします。
 
    ![](assets/message-center_delete-button.png)
 
    >[!NOTE]
    >
-   >イベント設定に **[!UICONTROL Draft]** ステータスに設定されていない場合、削除できません。 この **[!UICONTROL Draft]** ステータスは、まだ公開されていないイベントまたはまだ公開されていないイベントに適用されます [非公開](#unpublishing-an-event).
+   >イベント設定に **[!UICONTROL Draft]** ステータスに設定されていない場合、削除できません。 The **[!UICONTROL Draft]** ステータスは、まだ公開されていないイベントまたは既に公開されているイベントに適用されます [非公開](#unpublishing-an-event).
 
 1. 「**[!UICONTROL Confirm]**」ボタンをクリックします。
 

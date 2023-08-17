@@ -19,7 +19,7 @@ ht-degree: 1%
 
 Adobe Campaign Standardは、次の使用例をサポートしています。
 
-* [モバイルプロファイルのCampaign Standard](../../administration/using/supported-mobile-use-cases.md#register-mobile-profile)
+* [モバイルプロファイルをCampaign Standardに登録](../../administration/using/supported-mobile-use-cases.md#register-mobile-profile)
 * [Campaign Standardへのプッシュトークンの送信](../../administration/using/supported-mobile-use-cases.md#send-push-token)
 * [アプリケーションのカスタムデータを使用したモバイルプロファイルのエンリッチメント](../../administration/using/supported-mobile-use-cases.md#enrich-mobile-profile-custom)
 * [アプリケーションのライフサイクルデータを使用したモバイルプロファイルのエンリッチメント](../../administration/using/supported-mobile-use-cases.md#enrich-mobile-profile-lifecycle)
@@ -33,9 +33,9 @@ Adobe Campaign Standardは、次の使用例をサポートしています。
 * **[!DNL Mobile Core]**：自動的にインストールされます。 <br>Mobile Core 拡張機能について詳しくは、 [Mobile Core](https://developer.adobe.com/client-sdks/documentation/mobile-core/).
 * **[!DNL Profile]**：自動的にインストールされます。 <br>Profile 拡張機能について詳しくは、 [プロファイル](https://developer.adobe.com/client-sdks/documentation/profile/).
 
-## モバイルプロファイルのCampaign Standard {#register-mobile-profile}
+## モバイルプロファイルをCampaign Standardに登録 {#register-mobile-profile}
 
-### iOS {#register-mobile-profile-ios}
+### iOSを使用 {#register-mobile-profile-ios}
 
 iOSでは、次の [!DNL Experience Platform APIs] は必須です。
 
@@ -108,7 +108,7 @@ public void onResume() {
 
 ## Adobe Campaign Standardへのプッシュトークンの送信 {#send-push-token}
 
-### iOS {#send-push-token-ios}
+### iOSを使用 {#send-push-token-ios}
 
 iOSでは、次の [!DNL Experience Platform SDK] は必須です。
 
@@ -143,7 +143,7 @@ public void onNewToken(String token) {
 
 この使用例を機能させるには、PII ポストバックのルールを作成する必要があります。 詳しくは、 [PII ポストバック](../../administration/using/configuring-rules-launch.md#pii-postback).
 
-### iOS {#enrich-mobile-profile-custom-ios}
+### iOSを使用 {#enrich-mobile-profile-custom-ios}
 
 iOSでは、次の [!DNL Experience Platform API] は必須です。
 
@@ -180,7 +180,7 @@ MobileCore.collectPii(data);
 >
 >Adobe Campaignは、カスタムデータまたはライフサイクルデータをモバイルアプリと区別しません。 モバイルアプリでのイベントに応じて、collectPii ポストバックルールを使用して、両方のタイプのデータをサーバーに送信できます。
 
-### iOS {#enrich-mobile-profile-lifecycle-ios}
+### iOSを使用 {#enrich-mobile-profile-lifecycle-ios}
 
 iOSでは、次の [!DNL Experience Platform APIs] は必須です。
 
@@ -255,7 +255,7 @@ public void onResume() {
 
 プッシュ通知トラッキングポストバック用のルールを作成する必要があります。 詳しくは、 [プッシュ通知トラッキングポストバック](../../administration/using/configuring-rules-launch.md#push-tracking-postback).
 
-### iOS {#track-user-push-ios}
+### iOSを使用 {#track-user-push-ios}
 
 iOSでは、次の [!DNL Experience Platform SDK] は必須です。
 
@@ -289,7 +289,7 @@ MobileCore.trackAction("tracking", contextData);
 
 ## アプリ内メッセージのトリガーへのカスタムイベントの実装 {#custom-event-inapp}
 
-### iOS {#custom-event-inapp-ios}
+### iOSを使用 {#custom-event-inapp-ios}
 
 iOSでは、次の [!DNL Experience Platform SDK] は必須です。
 
@@ -316,7 +316,7 @@ MobileCore.trackAction(mobileEventText, new HashMap<String,String>());
 
 ## 追加の認証用にリンケージフィールドを設定 {#linkage-fields-inapp}
 
-### iOS {#linkage-fields-inapp-ios}
+### iOSを使用 {#linkage-fields-inapp-ios}
 
 iOSのアプリ内メッセージに基づくプロファイルテンプレートの追加認証用のリンケージフィールドを設定するには、次の手順を実行します。 [!DNL Experience Platform SDK] は必須です。
 

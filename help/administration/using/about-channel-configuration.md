@@ -1,6 +1,6 @@
 ---
 title: チャネル設定について
-description: 技術的な設定、メッセージのプロパティ、テンプレートなど、チャネルの設定方法について説明します
+description: 技術的な設定、メッセージのプロパティ、テンプレートなど、チャネルの設定方法について説明します。
 audience: administration
 feature: Instance Settings
 role: Admin
@@ -24,6 +24,6 @@ ht-degree: 5%
 * メッセージのプロパティ. 新しいメッセージを作成する場合、必要に応じてプロパティを最終的に設定できます。
 * 一部のチャネルには、「BCC で E メールを送信」など、オプションの追加設定が用意されています。
 
-この **[!UICONTROL Channel]** メニューは、様々なアプリケーションチャネル（E メール、SMS）、タイポロジおよび強制隔離管理にリンクされた技術パラメーターを再グループ化します。
+The **[!UICONTROL Channel]** メニューは、様々なアプリケーションチャネル（E メール、SMS）、タイポロジおよび強制隔離管理にリンクされた技術パラメーターを再グループ化します。
 
-管理者は、 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** メニュー
+管理者は、 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** メニュー。

@@ -22,7 +22,7 @@ ht-degree: 15%
 
 これをおこなうには、これらのフィールドをデータベースフィールドにマッピングする必要があります。
 
-マッピングは、 **[!UICONTROL Form data]** セクションを左側のパレットに追加します。
+マッピングの定義と管理は、 **[!UICONTROL Form data]** セクションを左側のパレットに追加します。
 
 ![](assets/lp_form-data.png)
 
@@ -48,11 +48,11 @@ ht-degree: 15%
    >
    >ランディングページでのチェックボックスタイプの使用について詳しくは、 [複数のサービス購読を更新](#multiple-subscriptions) および [契約チェックボックス](#agreement-checkbox) セクション。
 
-1. 現在 **[!UICONTROL Field]** ゾーン（警告メッセージが表示されます） 最適なマッピングを行うには、適切な値を選択します。
+1. 現在選択されているデータベースフィールドと互換性のないフィールドタイプを選択した場合、 **[!UICONTROL Field]** ゾーン（警告メッセージが表示されます） 最適なマッピングを行うには、適切な値を選択します。
 
    ![](assets/lp_field-type-warning.png)
 
-1. 以下を使用： **[!UICONTROL Field]** ゾーン：フォームフィールドにリンクするデータベースフィールドを選択します。
+1. 以下を使用します。 **[!UICONTROL Field]** ゾーン：フォームフィールドにリンクするデータベースフィールドを選択します。
 
    ![](assets/lp_select-database-field.png)
 
@@ -60,7 +60,7 @@ ht-degree: 15%
    >
    >ランディングページは、 **[!UICONTROL Profiles]** または **[!UICONTROL Service]** リソース。
 
-   この例では、 **名前** ランディングページのフィールドから **[!UICONTROL Last name]** フィールド **[!UICONTROL Profiles]** リソース。
+   この例では、 **名前** ランディングページのフィールドから **[!UICONTROL Last name]** フィールドの **[!UICONTROL Profiles]** リソース。
 
    ![](assets/lp_database-field-example.png)
 
@@ -70,7 +70,7 @@ ht-degree: 15%
 
    必須フィールドに値が入力されていない場合は、ユーザーがページを送信する際にエラーメッセージが表示されます。
 
-1. クリック **[!UICONTROL Confirm]** 変更を保存します。
+1. クリック **[!UICONTROL Confirm]** をクリックして変更を保存します。
 
 <!--If you choose a mandatory **[!UICONTROL Checkbox]**, make sure that it is of **[!UICONTROL Field]** type.-->
 
@@ -84,11 +84,11 @@ ht-degree: 15%
 
    ![](assets/lp_parameters_job.png)
 
-1. を選択します。 **[!UICONTROL Reconciliation key]**:このデータベースフィールドは、Adobe Campaignデータベース内に訪問者のプロファイルが既に存在するかどうかを判断するために使用されます。 例えば、E メール、名、姓を指定できます。 紐付けキーを使用すると、 **[!UICONTROL Update strategy]** 以下に定義するパラメータ。
+1. を選択します。 **[!UICONTROL Reconciliation key]**：このデータベースフィールドは、Adobe Campaignデータベース内に訪問者のプロファイルが既に存在するかどうかを判断するために使用されます。 例えば、E メール、名、姓を指定できます。 紐付けキーを使用すると、 **[!UICONTROL Update strategy]** 以下に定義するパラメーター。
 
 1. **[!UICONTROL Form parameter mapping]** を定義：このセクションでは、ランディングページフィールドのパラメーターと、紐付けキーで使用するパラメーターをマップできます。
 
-1. を選択します。 **[!UICONTROL Update strategy]**:紐付けキーが既存のデータベースプロファイルを回復した場合、フォームに入力されたデータでこのプロファイルを更新するか、この更新を実行しないかを選択できます。
+1. を選択します。 **[!UICONTROL Update strategy]**：紐付けキーが既存のデータベースプロファイルを回復した場合、フォームに入力されたデータでこのプロファイルを更新するか、この更新を実行しないかを選択できます。
 
    ![](assets/lp_parameters_update-strategy.png)
 
@@ -100,19 +100,19 @@ ht-degree: 15%
 
 1. ランディングページをデザインする場合：
 
-   * ブロックを選択し、 **[!UICONTROL Form data]** セクションで、 **[!UICONTROL Checkbox]** をフィールドタイプとして使用します。
+   * ブロックを選択し、 **[!UICONTROL Form data]** セクション、選択 **[!UICONTROL Checkbox]** をフィールドタイプとして使用します。
 
-      ![](assets/lp_field-type-checkbox.png)
+     ![](assets/lp_field-type-checkbox.png)
 
    * HTMLに詳しい場合は、 **[!UICONTROL Show source]** 」ボタンをクリックします。
 
-      ![](assets/lp_show_source.png)
+     ![](assets/lp_show_source.png)
 
-      これにより、ページ上の任意の場所にチェックボックスを挿入できます。
+     これにより、ページ上の任意の場所にチェックボックスを挿入できます。
 
-      ![](assets/lp_manual-checkbox.png)
+     ![](assets/lp_manual-checkbox.png)
 
-1. コンテンツでチェックボックスが選択されていることを確認します。 この **[!UICONTROL Type]** ドロップダウンリストが **[!UICONTROL Form data]** 」セクションに表示されます。 選択 **[!UICONTROL Service and subscription]** を選択します。
+1. コンテンツでチェックボックスが選択されていることを確認します。 The **[!UICONTROL Type]** ドロップダウンリストが **[!UICONTROL Form data]** 」セクションに表示されます。 選択 **[!UICONTROL Service and subscription]** を選択します。
 
    ![](assets/lp_service-and-subscription.png)
 
@@ -148,15 +148,15 @@ ht-degree: 15%
 
 1. ランディングページをデザインする場合：
 
-   * ブロックを選択し、 **[!UICONTROL Form data]** セクションで、 **[!UICONTROL Checkbox]** をフィールドタイプとして使用します。
+   * ブロックを選択し、 **[!UICONTROL Form data]** セクション、選択 **[!UICONTROL Checkbox]** をフィールドタイプとして使用します。
 
-      ![](assets/lp_field-type-checkbox.png)
+     ![](assets/lp_field-type-checkbox.png)
 
    * HTMLに詳しい場合は、 **[!UICONTROL Show source]** 」ボタンをクリックします。
 
-      ![](assets/lp_show_source.png)
+     ![](assets/lp_show_source.png)
 
-      <!--Manually insert a checkbox, such as in the example below:
+     <!--Manually insert a checkbox, such as in the example below:
 
       <!--Click **[!UICONTROL Hide source]**.-->
 
@@ -164,13 +164,13 @@ ht-degree: 15%
 
    ![](assets/lp_select_checkbox.png)
 
-1. この **[!UICONTROL Type]** ドロップダウンリストが **[!UICONTROL Form data]** 」セクションに表示されます。 選択 **[!UICONTROL Agreement]** を選択します。
+1. The **[!UICONTROL Type]** ドロップダウンリストが **[!UICONTROL Form data]** 」セクションに表示されます。 選択 **[!UICONTROL Agreement]** を選択します。
 
    ![](assets/lp_form_data_drop-down.png)
 
    >[!NOTE]
    >
-   >この **[!UICONTROL Agreement]** 要素が Campaign データベースのフィールドにマッピングされていません。
+   >The **[!UICONTROL Agreement]** 要素が Campaign データベースのフィールドにマッピングされていません。
 
 1. 次をクリック： ![](assets/lp-properties-icon.png) 隣のアイコン **[!UICONTROL Form data]** ：チェックボックスの詳細プロパティにアクセスします。
 
@@ -178,7 +178,7 @@ ht-degree: 15%
 
    ![](assets/lp_agreement_message.png)
 
-   このテキストは、ユーザーがフォームを送信する前にチェックボックスを選択しなかった場合に警告として表示されます。
+   このテキストは、ユーザーがフォームを送信する前にチェックボックスを選択しなかった場合に、警告として表示されます。
 
    >[!NOTE]
    >

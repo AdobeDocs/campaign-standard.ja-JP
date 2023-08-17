@@ -1,6 +1,6 @@
 ---
 title: ブランディング
-description: ブランディング ID の管理に使用できるすべてのツールについて説明します
+description: ブランディング ID の管理に使用できるすべてのツールについて説明します。
 audience: administration
 context-tags: branding,overview;branding,main
 feature: Instance Settings
@@ -44,7 +44,7 @@ ht-degree: 77%
 
 * **Identity**：ブランドを定義しパーソナライズします。このセクションには、次のフィールドが含まれています。
 
-   ![](assets/branding_01.png)
+  ![](assets/branding_01.png)
 
    * **Label**：インターフェイスに表示されます。
    * **Brand name**
@@ -53,7 +53,7 @@ ht-degree: 77%
 
 * **[!UICONTROL Header parameters of sent emails]**：キャンペーンの受信者に表示される内容をパーソナライズします。このセクションには、次のフィールドが含まれています。
 
-   ![](assets/branding_04_header.png)
+  ![](assets/branding_04_header.png)
 
    * **Sender (email address)**：ブランドの電子メールアドレスです。
    * **Sender (name)**：ブランドの名前です。
@@ -61,27 +61,27 @@ ht-degree: 77%
    * ブランド名を含む&#x200B;**Reply to (name)**：ユーザーからの返信先（ブランド）の名前です。
    * **）Error (email address)**：エラーの場合に使用する E メールアドレスです。
 
-   >[!IMPORTANT]
-   >
-   >E メールのヘッダーパラメーターを更新した後、送信者の名前と E メールアドレスが、テンプレートから作成された E メール内で変更されていない場合は、テンプレートの詳細設定を確認します。
+  >[!IMPORTANT]
+  >
+  >E メールのヘッダーパラメーターを更新した後、送信者の名前と E メールアドレスが、テンプレートから作成された E メール内で変更されていない場合は、テンプレートの詳細設定を確認します。
 
 * **Server(s) exposed on the Internet**：トラッキングに使用するサーバーを定義しますが、これはランディングページへのアクセスにも使用します。このセクションには、次のフィールドが含まれています。
 
-   ![](assets/configure_branding_04.png)
+  ![](assets/configure_branding_04.png)
 
    * **External URL of the application server**：作成する様々なランディングページのホスティングとアクセスに使用します。
    * **External URL of the tracking server**：配信時のトラッキング URL として使用します。
    * **External URL of the mirror page server**：配信のデフォルトのミラーページとして使用します。
 
-   >[!NOTE]
-   >
-   >ランディングページのプレビューとミラーページのレンダリングを Campaign ユーザーインターフェイスに表示するには、アプリケーションサーバーとミラーページサーバーの URL をセキュリティで保護する必要があります。この場合、これらの URL の設定時には、http:// ではなく https:// を使用してください。
+  >[!NOTE]
+  >
+  >ランディングページのプレビューとミラーページのレンダリングを Campaign ユーザーインターフェイスに表示するには、アプリケーションサーバーとミラーページサーバーの URL をセキュリティで保護する必要があります。この場合、これらの URL の設定時には、http:// ではなく https:// を使用してください。
 
 * **[!UICONTROL Tracking URL configuration (Web Analytics)]**：ブランドの URL トラッキングの設定を定義します。
 
-   Web 分析ツール（例：Adobe Analytics や Google Analytics）などの外部システムでリンクを追跡するための追加パラメーターをここで定義します。
+  Web 分析ツール（例：Adobe Analytics や Google Analytics）などの外部システムでリンクを追跡するための追加パラメーターをここで定義します。
 
-   ![](assets/branding_05.png)
+  ![](assets/branding_05.png)
 
 ## 新しいブランドの作成 {#creating-a-brand}
 
@@ -95,13 +95,13 @@ Campaign で組織の新しいエンティティを追加したり、別のサ�
 
 1. **チケットの作成**  — サブドメインが設定されると、Adobeは実稼動環境でサブドメインを設定します。 これをリクエストするには、 [ClientCare へのチケットを作成する](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html) を次の情報と共に使用します。
 
-   * 件名：ACS 新しいブランドのセットアップ
+   * 件名： ACS 新しいブランドのセットアップ
 
    * コンテンツ：新しいドメインが設定されました。Campaign プラットフォームで設定します
 
    * ドメイン：XXX
 
-   * 実稼動 URL :XXX.campaign.adobe.com
+   * 実稼動 URL: XXX.campaign.adobe.com
 
 1. **配信テンプレートの作成**  — 新しいブランドが使用可能になったら、ベストプラクティスは、この新しいブランドを参照する新しい空の配信テンプレートを少なくとも 1 つ作成することです。 [詳細情報](#linking-a-brand-to-a-template)
 
@@ -143,7 +143,7 @@ Campaign で組織の新しいエンティティを追加したり、別のサ�
 
 この例では、新しい旅行関連ブランドを作成して E メールで使用します。
 
-#### 手順 1:新しいブランドの設定 {#configure-a-new-brand}
+#### 手順 1：新しいブランドの設定 {#configure-a-new-brand}
 
 >[!IMPORTANT]
 >
@@ -161,7 +161,7 @@ Campaign で組織の新しいエンティティを追加したり、別のサ�
 
 ブランドが正しく作成および設定されました。これで、マーケティングチームで使用できるようになりました。
 
-#### 手順 2:新しいブランドの実装 {#implement-a-new-brand}
+#### 手順 2：新しいブランドの実装 {#implement-a-new-brand}
 
 、新しいブランドを使用する配信テンプレートの作成を配信責任者が担当します。そのための手順は次のとおりです。
 
@@ -180,7 +180,7 @@ Campaign で組織の新しいエンティティを追加したり、別のサ�
 
    これで、配信テンプレートを使用して、オーディエンスに送信する E メールを作成できるようになりました。
 
-#### 手順 3:配信での新しいブランドの使用 {#use-the-new-brand-in-a-delivery}
+#### 手順 3：配信での新しいブランドの使用 {#use-the-new-brand-in-a-delivery}
 
 ブランドにリンクされた E メールを作成するには、次の手順に従います。
 

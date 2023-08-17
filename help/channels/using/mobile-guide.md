@@ -142,7 +142,7 @@ Adobe Campaign Standardでは、次の 3 つのチャネルを使用してモバ
     <div>
     <p><strong>Adobe Campaign Standard のプッシュ通知からの画像の表示</strong></p>
     </div>
-    <p><a href="../../administration/using/image-push-notification.md"><strong>こちらを参照</strong></a> Adobe Campaignのプッシュ通知からiOSデバイスに画像を表示する方法。</p>
+    <p><a href="../../administration/using/image-push-notification.md"><strong>こちらを参照</strong></a> Adobe Campaignのプッシュ通知からの画像をiOSデバイスに表示する方法です。</p>
     <br>
   </td>
 </tr>
@@ -193,7 +193,7 @@ Adobe Campaign Standardでは、次の 3 つのチャネルを使用してモバ
     <div>
     <p><strong>SMS メッセージの作成</strong></p>
     </div>
-    <p>SMS 配信の作成は、通常の E メールの作成と非常に似ています。</br>手順 <a href="../../channels/using/creating-an-sms-message.md"><strong>詳細はこちら</strong></a> このチャネルに固有の設定について説明します。</br></p>
+    <p>SMS 配信の作成は、通常の E メールの作成と非常に似ています。</br>手順 <a href="../../channels/using/creating-an-sms-message.md"><strong>詳細はこちら</strong></a> このチャネルに固有の設定について説明します。</p>
     <br>
   </td>
   <td>
@@ -201,7 +201,7 @@ Adobe Campaign Standardでは、次の 3 つのチャネルを使用してモバ
     <p><strong>SMS メッセージのカスタマイズ
 </strong></p>
     </div>
-    <p>Adobe Campaignでは、配信を微調整するために、SMS メッセージのデザイン中に一連の詳細設定オプションにアクセスできます。詳しくは、</br><a href="../../channels/using/sms-and-push-content-editor-interface.md"><strong>ここをクリックしてください。</br><a href="../../channels/using/sms-and-push-content-editor-interface.md"><strong></p>
+    <p>Adobe Campaignでは、配信を微調整するために、SMS メッセージのデザイン中に一連の詳細設定オプションにアクセスできます。詳しくは、</br><a href="../../channels/using/sms-and-push-content-editor-interface.md"><strong>ここをクリックしてください。</p>
     <br>
   </td>
 </tr>
@@ -210,7 +210,7 @@ Adobe Campaign Standardでは、次の 3 つのチャネルを使用してモバ
     <div>
     <p><strong>受信 SMS の管理</strong></p>
     </div>
-    <p>プロファイルが Campaign 経由で送信された SMS メッセージに返信する場合、自動的に返信されるメッセージと、実行するアクションを設定できます。ローカル通知メッセージタイプのカスタマイズ</br><a href="../../channels/using/managing-incoming-sms.md"><strong>詳しくは、ここをクリックしてください。</br><a href="../../channels/using/managing-incoming-sms.md"><strong></p>
+    <p>プロファイルが Campaign 経由で送信された SMS メッセージに返信する場合、自動的に返信されるメッセージと、実行するアクションを設定できます。ローカル通知メッセージタイプのカスタマイズ</br><a href="../../channels/using/managing-incoming-sms.md"><strong>詳しくは、ここをクリックしてください。</p>
     <br>
   </td>
   <td>

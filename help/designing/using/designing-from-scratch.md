@@ -28,7 +28,7 @@ E メールデザイナーを使用して E メールコンテンツを最初か
 1. パーソナライゼーションフィールドやリンクなどを追加して E メールをパーソナライズします。 詳しくは、 [パーソナライゼーションフィールドの挿入](../../designing/using/personalization.md#inserting-a-personalization-field), [リンクの挿入](../../designing/using/links.md#inserting-a-link) および [E メールでの動的コンテンツの定義](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
 1. 電子メールの件名行を定義します。 詳しくは、 [E メールの件名行のパーソナライズ](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
 1. メールのプレビュー.
-1. コンテンツを保存し、オーディエンスを定義し、送信を適切にスケジュールしたことを確認した後、メッセージを続行します。
+1. コンテンツを保存し、オーディエンスを定義し、送信を適切にスケジュールしたことを確認したら、メッセージを続行します。
 
 また、 [紹介ビデオ](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true).
 
@@ -53,7 +53,7 @@ E メールデザイナーを使用して E メールコンテンツを最初か
 E メールの構造を編集するには：
 
 1. 既存のコンテンツを開くか、新しい E メールコンテンツを作成します。
-1. 次にアクセス： **[!UICONTROL Structure components]** 選択 **+** アイコンをクリックします。
+1. 次にアクセス： **[!UICONTROL Structure components]** 選択して **+** アイコンをクリックします。
 
    ![](assets/email_designer_structure.png)
 
@@ -123,7 +123,7 @@ E メールデザイナーで使用可能なコンポーネントのリストを
 
 ### **[!UICONTROL Text]**
 
-このコンポーネントを使用して、E メールにテキストを挿入します。 テキストの色、スタイル、サイズは **[!UICONTROL Component Settings]**.
+このコンポーネントを使用して、E メールにテキストを挿入します。 テキストの色、スタイル、サイズは、 **[!UICONTROL Component Settings]**.
 
 ### **[!UICONTROL Divider]**
 
@@ -135,11 +135,11 @@ E メールデザイナーで使用可能なコンポーネントのリストを
 
 >[!NOTE]
 >
->フリーHTMLコンポーネントは、制限付きオプションで編集できます。 すべてのスタイルがインライン化されていない場合、 **head** HTMLコードのセクションに含めてください。そうしないと、E メールが応答しなくなります。 以下を使用： **[!UICONTROL Preview]** ボタンを使用して、コンテンツの応答性をテストします ( [メッセージのプレビュー](../../sending/using/previewing-messages.md)) をクリックします。
+>フリーHTMLコンポーネントは、制限付きオプションで編集できます。 すべてのスタイルがインライン化されていない場合は、 **head** HTMLコードのセクションに含めてください。そうしないと、E メールが応答しなくなります。 以下を使用します。 **[!UICONTROL Preview]** ボタンを使用して、コンテンツの応答性をテストします ( [メッセージのプレビュー](../../sending/using/previewing-messages.md)) をクリックします。
 
 外部コンテンツを E メールデザイナーに準拠させる場合には、Adobeは最初からメッセージを作成し、既存の E メールのコンテンツをフラグメントやコンポーネントにコピーすることをお勧めします。
 
-再作成できないコンテンツがある場合は、元の E メールから、 **[!UICONTROL Html]** コンテンツコンポーネント 先に進む前に、HTMLに関する詳細を確認します。
+再作成できないコンテンツがある場合は、元の E メールから、 **[!UICONTROL Html]** コンテンツコンポーネント。 先に進む前に、HTMLに関する詳細を確認します。
 
 >[!NOTE]
 >
@@ -187,7 +187,7 @@ E メールデザイナーで使用可能なコンポーネントのリストを
 
    ![](assets/des_carousel_browse.png)
 
-1. 次の **[!UICONTROL Settings]** パネルで、カルーセルに表示するサムネールの数を設定します。
+1. 次から： **[!UICONTROL Settings]** パネルで、カルーセルに表示するサムネールの数を設定します。
 1. コンピューターからフォールバック画像を選択します。
 
    ![](assets/des_carousel_fallback.png)
@@ -196,7 +196,7 @@ E メールデザイナーで使用可能なコンポーネントのリストを
 
 >[!NOTE]
 >
->カルーセルコンポーネントは、次の電子メールプラットフォームと互換性があります。Apple Mail 7、Apple Mail 8、Outlook 2011 for Mac、Outlook 2016 for Mac、Mozilla Thunderbird、iPadとiPad mini iOS、iPhoneiOS、Android、AOL(Chrome、Firefox、Safari)。
+>カルーセルコンポーネントは、次の E メールプラットフォームと互換性があります。 Apple Mail 7、Apple Mail 8、Outlook 2011 for Mac、Outlook 2016 for Mac、Mozilla Thunderbird、iPadとiPad mini iOS、iPhoneiOS、Android、AOL(Chrome、Firefox、Sari)。
 
 **関連トピック**：
 

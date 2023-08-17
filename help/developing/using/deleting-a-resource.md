@@ -47,9 +47,9 @@ ht-degree: 16%
 
 1. リソースを公開します。詳しい手順については、 [カスタムリソースの公開](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
 
-   リソースは、 **ドラフト** モードとそのアクティベーションステータスは次のとおりです。 **[!UICONTROL Inactive]**.
+   リソースは次に **ドラフト** モードとそのアクティベーションステータスは次のとおりです。 **[!UICONTROL Inactive]**.
 
-1. In **[!UICONTROL List]** モード：削除するリソースを確認し、 ![](assets/delete_darkgrey-24px.png) **[!UICONTROL Delete element]** アイコン
+1. In **[!UICONTROL List]** モード、削除するリソースを確認し、 ![](assets/delete_darkgrey-24px.png) **[!UICONTROL Delete element]** アイコン。
 
    ![](assets/schema_extension_uc28.png)
 

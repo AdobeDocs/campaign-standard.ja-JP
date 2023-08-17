@@ -30,14 +30,15 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
-> これらの手順には、 **管理者** 組織のExperience Cloudの役割。
+> これらの手順には、 **管理者** 組織のExperience Cloud内での役割。
+>
 
 1. https://experience.adobe.com/を参照し、Adobe Experience Cloudにログインします。
 1. 次にアクセス： **Admin Console**.
 
    ![](assets/do-not-localize/d365-to-acs-access-3.png)
 
-1. クリック **[!UICONTROL Products]** をクリックして、Experience Cloudソリューションにアクセスします。
+1. クリック： **[!UICONTROL Products]** をクリックして、Experience Cloudソリューションにアクセスします。
 
    ![](assets/do-not-localize/d365-to-acs-access-6.png)
 
@@ -45,6 +46,7 @@ ht-degree: 1%
    >[!IMPORTANT]
    >
    >この節の残りの手順は、Campaign インスタンス（開発、テキスト、実稼動）ごとに実行されます。
+   >
 
 1. 設定する最初のインスタンスをクリックします。
 
@@ -56,7 +58,7 @@ ht-degree: 1%
 
 1. 次をクリック： **[!UICONTROL New Profile]** ボタンをクリックし、次の名前の新しいエントリを追加します。 **Campaign Standard- your-prod-instance-name - D365/ACS 統合**
 
-   * このエントリがリストに表示されている場合は、続行する必要はありません。 クリック **Adobe Campaign Standard** 左側のメニューで、他の Campaign インスタンスを確認します。
+   * このエントリがリストに表示されている場合は、続行する必要はありません。 クリック： **Adobe Campaign Standard** 左側のメニューで、他の Campaign インスタンスを確認します。
 
    * 「your-prod-instance-name」は、必ずインスタンスの実際の名前に置き換えてください。
 
@@ -72,7 +74,7 @@ ht-degree: 1%
 
 ## ユーザーへのアクセスの許可 {#add-users-to-profile}
 
-次の **[!UICONTROL Products]**  ページで、Campaign インスタンスを選択し、次の手順に従います。
+次から： **[!UICONTROL Products]**  ページで、Campaign インスタンスを選択し、次の手順に従います。
 
 1. 前に作成した新しいプロファイルをクリックします。  **Campaign Standard- your-prod-instance-name - D365/ACS 統合**
 

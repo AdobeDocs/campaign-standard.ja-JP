@@ -28,11 +28,11 @@ ht-degree: 75%
 
 ワークフローを構築するには、次の手順に従います。
 
-1. ドラッグ&amp;ドロップ [クエリ](../../automating/using/query.md) 「 」アクティビティをワークフローに追加し、それを開いてメインターゲットを定義します。
+1. 次をドラッグ&amp;ドロップ： [クエリ](../../automating/using/query.md) 「 」アクティビティをワークフローに追加し、それを開いてメインターゲットを定義します。
 
    <!--The Query activity is presented in the [Query](../../automating/using/query.md) section.-->
 
-1. ドラッグ&amp;ドロップ [ファイルを読み込み](../../automating/using/load-file.md) 「 」アクティビティを使用して、一部のデータをプロファイルに割り当てます。 この例では、データベースの一部のプロファイルに対応するアカウント番号が含まれているファイルを読み込みます。
+1. 次をドラッグ&amp;ドロップ： [ファイルを読み込み](../../automating/using/load-file.md) 「 」アクティビティを使用して、一部のデータをプロファイルに割り当てます。 この例では、データベースの一部のプロファイルに対応するアカウント番号が含まれているファイルを読み込みます。
 
    ![](assets/load_file_activity.png)
 
@@ -50,7 +50,7 @@ ht-degree: 75%
 
    詳しくは、[エンリッチメント](../../automating/using/enrichment.md)の節を参照してください。
 
-1. ドラッグ&amp;ドロップ [セグメント化](../../automating/using/segmentation.md) 「 」アクティビティをワークフローに追加して開き、メインターゲットを絞り込みます。
+1. 次をドラッグ&amp;ドロップ： [セグメント化](../../automating/using/segmentation.md) 「 」アクティビティをワークフローに追加して開き、メインターゲットを絞り込みます。
 
    ![](assets/load_file_segmentation.png)
 

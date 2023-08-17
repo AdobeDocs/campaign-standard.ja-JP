@@ -24,13 +24,12 @@ E メールが受信者に確実に届くようにし、E メールの配信品�
 
 メッセージのコンテンツを設計する際は、以下の原則に従います。
 
-* [送信者の名前とアドレス](#sender-name):アドレスは、送信者を明示的に識別する必要があります。 ドメインは、送信者に所有および登録されている必要があります。ドメイン登録は非公開にはしません。
-
-   <!--**Subject**: Avoid excessive capitalization and punctuation, and words that are frequently used by spammers ("Win", "Free", etc.).-->
-* [パーソナライゼーションと送信時間の最適化](#perso-send-time-optimization):コンテンツをパーソナライズし、受信者ごとに送信時間を定義すると、メッセージが開かれる可能性が高くなります。
+* [送信者の名前とアドレス](#sender-name)：アドレスは、送信者を明示的に識別する必要があります。 ドメインは、送信者に所有および登録されている必要があります。ドメイン登録は非公開にはしません。
+  <!--**Subject**: Avoid excessive capitalization and punctuation, and words that are frequently used by spammers ("Win", "Free", etc.).-->
+* [パーソナライゼーションと送信時間の最適化](#perso-send-time-optimization)：コンテンツをパーソナライズし、受信者ごとに送信時間を定義すると、メッセージが開かれる可能性が高くなります。
 * 画像とテキスト：適切なテキスト／画像比率（例：テキスト 60%、画像 40％）に従います。
 * [購読解除リンク](#opt-out)とランディングページ：購読解除リンクは必須です。表示されており、有効である必要があります。また、フォームは機能している必要があります。
-* プレビュー：Adobe Campaignが提供するツールを使用して、E メールの内容を確認および最適化します ([スパム対策分析](#anti-spam-analysis), [E メールのレンダリング](#message-responsiveness)) をクリックします。
+* プレビュー： Adobe Campaignが提供するツールを使用して、E メールの内容を確認および最適化します ([スパム対策分析](#anti-spam-analysis), [E メールのレンダリング](#message-responsiveness)) をクリックします。
 
 コンテンツの設計時に配信品質を最適化するためのその他のヒントについては、[アドビの配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/content-best-practices-for-optimal-delivery.html?lang=ja)を参照してください。
 
@@ -66,13 +65,13 @@ E メールが受信者に確実に届くようにし、E メールの配信品�
 
 原則として、例えば E メールアドレスや名前などのフィールドに入力するよう求めて、オプトアウトしたい受信者を邪魔しないようにする必要があります。 購読解除ランディングページには、1 つの検証ボタンのみを含める必要があります。
 
-追加の確認のリクエストは信頼できません。ユーザーが 2 つの E メールアドレスを同じボックスにリダイレクトさせている可能性があります（firstname.lastname@club.com と firstname.lastname@internet-club.com など）。プロファイルが最初のアドレスのみを記憶し、もう一方のアドレスに送信されたメッセージを使用して購読解除する場合、暗号化された識別子と入力された E メールアドレスが一致しないので、フォームは拒否します。
+追加の確認のリクエストは信頼できません。ユーザーが 2 つの E メールアドレスを同じボックスにリダイレクトさせている可能性があります（firstname.lastname@club.com と firstname.lastname@internet-club.com など）。プロファイルが最初のアドレスのみを記憶し、もう一方のアドレスに送信されたメッセージを使用して購読解除する場合、暗号化された識別子と入力された E メールアドレスが一致しないので、フォームはこの処理を拒否します。
 
 ## スパム対策分析 {#anti-spam-analysis}
 
 Adobe Campaignのメッセージエディターは **スパム対策分析** これを使用すると、e メールをスコアリングして、受信時に使用されるスパム対策ツールによってメッセージがスパムと見なされるリスクがあるかどうかを判断できます。 詳しくは、 [メッセージのプレビュー](../../sending/using/previewing-messages.md).
 
-メッセージコンテンツエディターで、 **[!UICONTROL Preview]**. スパム対策チェックで、このメッセージのリスクが高いことが検出されたかどうかを示すメッセージが表示されます。 クリック **[!UICONTROL Anti-spam analysis]** をクリックして詳細を表示します。
+メッセージコンテンツエディターで、 **[!UICONTROL Preview]**. スパム対策チェックで、このメッセージのリスクが高いことが検出されたかどうかを警告するメッセージが表示されます。 クリック **[!UICONTROL Anti-spam analysis]** をクリックして詳細を表示します。
 
 ![](assets/sending_anti-spam_analysis.png)
 

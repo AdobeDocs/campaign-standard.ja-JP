@@ -18,7 +18,7 @@ ht-degree: 81%
 
 # 配信の最適化 {#optimize-delivery}
 
-配信の作成に入る前に、送信プロセスを保証し、最適化するためにいくつかの作業をおこないます。
+配信の作成に入る前に、送信プロセスを保証し、最適化するためにいくつかのアクションを実行します。
 
 以下の節では、Adobe Campaign を最適に設定するためのベストプラクティスと推奨手順について説明します。このベストプラクティスに従えば、後で問題が発生する可能性を最小限に抑えることができます。
 
@@ -28,13 +28,13 @@ ht-degree: 81%
 
 * パーソナライゼーション要素の数とタイプ：E メールのパーソナライゼーションでは、各受信者のデータベースからデータを取り出します。パーソナライゼーション要素が多数ある場合は、配信の準備に必要なデータの量もそれだけ多くなります。電子メールのパーソナライゼーションについて詳しくは、 [この節](../../designing/using/personalization.md)
 
-* サーバーの負荷：キャンペーンが様々なタスクをいくつも同時に処理していると、パフォーマンスが低下する可能性があります。 サーバーは、すべての配信ですべての受信および送信データを調整し、データが正しく、かつ時間通りに動作するようにする必要があります。
+* サーバーの負荷：Campaign が様々なタスクを多数同時に処理している場合、パフォーマンスが低下する可能性があります。 サーバーは、すべての配信ですべての受信および送信データを調整し、データが正しく、かつ時間通りに動作するようにする必要があります。
 
-   **ヒント**：パフォーマンスの低下を避けるには、他のチームメンバーと話し合い、最適なパフォーマンスが得られるように配信スケジュールを調整します。
+  **ヒント**：パフォーマンスの低下を避けるには、他のチームメンバーと話し合い、最適なパフォーマンスが得られるように配信スケジュールを調整します。
 
-* この [ワークフローの実行](../../automating/using/about-workflow-execution.md):ワークフローの監視は、プラットフォームのパフォーマンスの問題を回避するために必要です。 一覧に表示されたガイドラインに従います [このページ](../../automating/using/monitoring-workflow-execution.md). 詳しくは、 [ワークフローのベストプラクティス](../../automating/using/best-practices-workflows.md) 」セクションに入力します。
+* The [ワークフローの実行](../../automating/using/about-workflow-execution.md)：プラットフォームのパフォーマンスの問題を回避するには、ワークフローの監視が必要です。 一覧に表示されたガイドラインに従います [このページの](../../automating/using/monitoring-workflow-execution.md). 詳しくは、 [ワークフローのベストプラクティス](../../automating/using/best-practices-workflows.md) 」セクションに入力します。
 
-* 以下を利用して、 [Campaign のCampaign コントロールパネル機能](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja) プラットフォームを監視するには、次を使用します。 [パフォーマンス監視](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=ja) 機能。
+* 以下を行うと、 [Campaign のCampaign コントロールパネル機能](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja) プラットフォームを監視するには、次を使用します。 [パフォーマンス監視](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=ja) 機能。
 
 ## ネットワーク設定の確認 {#network-config}
 

@@ -36,7 +36,7 @@ ht-degree: 79%
    ![](assets/wkf_file_transfer_07.png)
 
 1. アクティビティを確認します。
-1. ドラッグ&amp;ドロップ [ファイルを読み込み](../../automating/using/load-file.md) アクティビティをワークフロー内に追加し、その後に配置します。 **[!UICONTROL Transfer file]** アクティビティ。
+1. 次をドラッグ&amp;ドロップ： [ファイルを読み込み](../../automating/using/load-file.md) アクティビティをワークフロー内に追加し、その後に配置します。 **[!UICONTROL Transfer file]** アクティビティ。
 1. アクティビティを選択し、表示されるクイックアクションの ![](assets/edit_darkgrey-24px.png) ボタンを使用して開きます。
 1. 「**[!UICONTROL Execution]**」タブの「**[!UICONTROL File to load]**」セクションで、「**[!UICONTROL Use the file specified in the inbound transition]**」オプションをオンにします。
 

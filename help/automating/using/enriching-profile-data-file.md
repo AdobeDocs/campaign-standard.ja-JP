@@ -27,63 +27,63 @@ ht-degree: 75%
 * A [クエリ](../../automating/using/query.md) メッセージを受信するプロファイルをターゲットとする「 」アクティビティ。
 * A [ファイルを読み込み](../../automating/using/load-file.md) 購入データを読み込む「 」アクティビティ。 例：
 
-   ```
-   tcode;tdate;customer;product;tamount
-   aze123;21/05/2017;dannymars@example.com;TV;799
-   aze124;28/05/2017;dannymars@example.com;Headphones;8
-   aze125;31/07/2017;john.smith@example.com;Headphones;8
-   aze126;14/12/2017;john.smith@example.com;Plastic Cover;4
-   aze127;02/01/2018;dannymars@example.com;Case Cover;79
-   aze128;04/03/2017;clara.smith@example.com;Phone;149
-   ```
+  ```
+  tcode;tdate;customer;product;tamount
+  aze123;21/05/2017;dannymars@example.com;TV;799
+  aze124;28/05/2017;dannymars@example.com;Headphones;8
+  aze125;31/07/2017;john.smith@example.com;Headphones;8
+  aze126;14/12/2017;john.smith@example.com;Plastic Cover;4
+  aze127;02/01/2018;dannymars@example.com;Case Cover;79
+  aze128;04/03/2017;clara.smith@example.com;Phone;149
+  ```
 
-   このサンプルファイルでは、E メールアドレスを使用して、データとデータベースプロファイルを紐付けます。 また、[こちらのドキュメント](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)で説明するように、一意の ID を有効にすることもできます。
+  このサンプルファイルでは、E メールアドレスを使用して、データとデータベースプロファイルを紐付けます。 また、[こちらのドキュメント](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)で説明するように、一意の ID を有効にすることもできます。
 
 * An [エンリッチメント](../../automating/using/enrichment.md) ファイルから読み込まれたトランザクションデータと、 **[!UICONTROL Query]**. リンクは、アクティビティの「**[!UICONTROL Advanced relations]**」タブで定義します。リンクは、「**[!UICONTROL Load file]**」アクティビティからのトランジションに基づいています。プロファイルリソースの「email」フィールドとインポートされたファイルの「customer」列を紐付け条件として使用します。
 
-   ![](assets/enrichment_example_workflow2.png)
+  ![](assets/enrichment_example_workflow2.png)
 
-   リンクが作成されると、次の 2 つの&#x200B;**[!UICONTROL Additional data]**&#x200B;セットが追加されます。
+  リンクが作成されると、次の 2 つの&#x200B;**[!UICONTROL Additional data]**&#x200B;セットが追加されます。
 
    * 各プロファイルの 2 つの最終トランザクションに対応する 2 行のコレクション。このコレクションの場合は、製品名、トランザクション日、製品の価格が追加データとして追加されます。データに降順ソートが適用されます。コレクションを作成するには、「**[!UICONTROL Additional data]**」タブで次の操作を実行します。
 
-      アクティビティの「**[!UICONTROL Advanced relations]**」タブで既に定義されているリンクを選択します。
+     アクティビティの「**[!UICONTROL Advanced relations]**」タブで既に定義されているリンクを選択します。
 
-      ![](assets/enrichment_example_workflow3.png)
+     ![](assets/enrichment_example_workflow3.png)
 
-      「**[!UICONTROL Collection]**」を選択して、取得する行数を指定します（この例では 2）。この画面で、コレクションの「**[!UICONTROL Alias]**」と「**[!UICONTROL Label]**」をカスタマイズできます。ワークフローの後続のアクティビティでこのコレクションを参照する際に、これらの値が表示されます。
+     「**[!UICONTROL Collection]**」を選択して、取得する行数を指定します（この例では 2）。この画面で、コレクションの「**[!UICONTROL Alias]**」と「**[!UICONTROL Label]**」をカスタマイズできます。ワークフローの後続のアクティビティでこのコレクションを参照する際に、これらの値が表示されます。
 
-      ![](assets/enrichment_example_workflow4.png)
+     ![](assets/enrichment_example_workflow4.png)
 
-      コレクション用に保持する「**[!UICONTROL Data]**」として、最終配信で使用する列を選択します。
+     コレクション用に保持する「**[!UICONTROL Data]**」として、最終配信で使用する列を選択します。
 
-      ![](assets/enrichment_example_workflow6.png)
+     ![](assets/enrichment_example_workflow6.png)
 
-      トランザクション日に降順ソートを適用して、最新のトランザクションを確実に取得します。
+     トランザクション日に降順ソートを適用して、最新のトランザクションを確実に取得します。
 
-      ![](assets/enrichment_example_workflow7.png)
+     ![](assets/enrichment_example_workflow7.png)
 
    * 各プロファイルのトランザクションの合計数をカウントする集計。この集計は、後で、少なくとも 2 つのトランザクションが記録されたプロファイルをフィルターするために使用されます。集計を作成するには、「**[!UICONTROL Additional data]**」タブで次の操作を実行します。
 
-      アクティビティの「**[!UICONTROL Advanced relations]**」タブで既に定義されているリンクを選択します。
+     アクティビティの「**[!UICONTROL Advanced relations]**」タブで既に定義されているリンクを選択します。
 
-      ![](assets/enrichment_example_workflow3.png)
+     ![](assets/enrichment_example_workflow3.png)
 
-      「**[!UICONTROL Aggregate]**」を選択します。
+     「**[!UICONTROL Aggregate]**」を選択します。
 
-      ![](assets/enrichment_example_workflow8.png)
+     ![](assets/enrichment_example_workflow8.png)
 
-      保持する「**[!UICONTROL Data]**」として、「**Count All**」集計を定義します。必要に応じて、後続のアクティビティですばやく見つけられるように、カスタムエイリアスを指定します。
+     保持する「**[!UICONTROL Data]**」として、「**Count All**」集計を定義します。必要に応じて、後続のアクティビティですばやく見つけられるように、カスタムエイリアスを指定します。
 
-      ![](assets/enrichment_example_workflow9.png)
+     ![](assets/enrichment_example_workflow9.png)
 
 * A [セグメント化](../../automating/using/segmentation.md) 1 つのセグメントのみの「 」アクティビティ（最低 2 つのトランザクションが記録されている初期ターゲットのプロファイルを取得します）。 1 つのトランザクションのみのプロファイルは除外されます。そのために、セグメント化のクエリは、既に定義されている集計に対して実行されます。
 
-   ![](assets/enrichment_example_workflow5.png)
+  ![](assets/enrichment_example_workflow5.png)
 
 * An [E メール配信](../../automating/using/email-delivery.md) アクティビティで、 **[!UICONTROL Enrichment]** ：プロファイルが最後におこなった 2 つの購入を動的に取得します。 追加データは、パーソナライゼーションフィールドを追加する際に「**Additional data (TargetData)**」ノードに表示されます。
 
-   ![](assets/enrichment_example_workflow10.png)
+  ![](assets/enrichment_example_workflow10.png)
 
 **関連トピック：**
 

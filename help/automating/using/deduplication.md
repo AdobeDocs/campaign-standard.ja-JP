@@ -36,8 +36,8 @@ ht-degree: 97%
 
 **関連トピック**
 
-* [使用例：配信前の重複の識別](../../automating/using/identifying-duplicated-before-delivery.md)
-* [使用例：インポートしたファイルからのデータの重複排除](../../automating/using/deduplicating-data-imported-file.md)
+* [ユースケース：配信前の重複の識別](../../automating/using/identifying-duplicated-before-delivery.md)
+* [使用例：インポートしたファイルからデータの重複を排除する](../../automating/using/deduplicating-data-imported-file.md)
 
 ## 設定 {#configuration}
 
@@ -67,15 +67,15 @@ ht-degree: 97%
    * **[!UICONTROL Choose for me]**：重複に含めないレコードがランダムに選択されます。
    * **[!UICONTROL Following a list of values]**：1 つまたは複数のフィールドに値の優先度を定義できます。優先度の値を定義するには、フィールドを選択するか式を作成し、適切なフィールドに値を追加します。新しいフィールドを定義するには、値のリストの上の「**[!UICONTROL Add]**」ボタンをクリックします。
 
-      ![](assets/deduplication_2.png)
+     ![](assets/deduplication_2.png)
 
    * **[!UICONTROL Non-empty value]**：選択した式の値が空でないレコードを優先して保持できます。
 
-      ![](assets/deduplication_3.png)
+     ![](assets/deduplication_3.png)
 
    * **[!UICONTROL Using an expression]**：入力した式の値が最小または最大のレコードを保持できます。
 
-      ![](assets/deduplication_4.png)
+     ![](assets/deduplication_4.png)
 
 1. 必要に応じて、アクティビティの[トランジション](../../automating/using/activity-properties.md)を管理して、アウトバウンド母集団の詳細設定オプションにアクセスします。
 1. アクティビティの設定を確認し、ワークフローを保存します。

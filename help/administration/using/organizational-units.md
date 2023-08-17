@@ -21,7 +21,7 @@ ht-degree: 5%
 
 >[!IMPORTANT]
 >
->ユーザーがどのユニットにもリンクされていない場合、そのユーザーはAdobe Campaignに接続できません。 特定のユーザーまたはユーザーグループに対するアクセスを制限する場合は、これを **[!UICONTROL All]** 単位。 オプションを追加することをお勧めします **認証管理フィールドへのアクセス** プロファイルを読み込む前に 詳しくは、[この節](../../administration/using/organizational-units.md#partitioning-profiles)を参照してください。
+>ユーザーがどのユニットにもリンクされていない場合、そのユーザーはAdobe Campaignに接続できません。 特定のユーザーまたはユーザーグループに対するアクセスを制限する場合は、このユーザーを **[!UICONTROL All]** 単位。 オプションを追加することをお勧めします **認証管理フィールドへのアクセス** プロファイルを読み込む前に、次の手順を実行します。 詳しくは、[この節](../../administration/using/organizational-units.md#partitioning-profiles)を参照してください。
 >
 >デフォルトでは、**[!UICONTROL All (all)]** 組織単位は **[!UICONTROL Administrators]** セキュリティグループに割り当てられます。これは読み取り専用で、変更できません。
 
@@ -41,11 +41,11 @@ ht-degree: 5%
 
 組織単位では、ユーザーがリンクされている組織に応じて、インスタンスをフィルタリングできます。 この単位は、インスタンス内の地域、国またはブランドを表すことができます。
 
-ここでは、2 人のユーザーに対して異なる役割を持つセキュリティグループを以前に作成しました。1 人のユーザーにセキュリティグループが割り当てられました管理者とGeometrixx、もう 1 人のユーザーはセキュリティグループに属しています。標準ユーザーとGeometrixx服参照 [セキュリティグループの作成とユーザーの割り当て](../../administration/using/managing-groups-and-users.md#creating-a-security-group-and-assigning-users) を参照してください。
+ここでは、2 人のユーザーに異なる役割を持つセキュリティグループを作成しました。1 人のユーザーにセキュリティグループ管理者とGeometrixxが割り当てられ、もう 1 人のユーザーにセキュリティグループが割り当てられます。 [セキュリティグループの作成とユーザーの割り当て](../../administration/using/managing-groups-and-users.md#creating-a-security-group-and-assigning-users) を参照してください。
 
 次に、Geometrixx服とGeometrixxセキュリティグループの組織単位を作成する必要があります。
 
-1. Adobeキャンペーンの詳細設定メニューから、 **[!UICONTROL Administration]** > **[!UICONTROL Users & security]** > **[!UICONTROL Organizational units]**.
+1. Adobeキャンペーンの詳細設定メニューから、「 」を選択します。 **[!UICONTROL Administration]** > **[!UICONTROL Users & security]** > **[!UICONTROL Organizational units]**.
 1. クリック **[!UICONTROL Create]** をクリックして、組織単位の設定を開始します。
 
    ![](assets/manage_units_1.png)
@@ -62,13 +62,13 @@ ht-degree: 5%
 
 異なるユニットを異なるセキュリティグループに割り当てた場合の影響を確認するために、管理者とGeometrixxグループに割り当てたユーザーは 2 つの E メールテンプレートを作成し、Standard User とGeometrixx服に割り当てたユーザーがアクセスできるかどうかを確認します。
 
-1. 詳細設定メニューから、 **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery Templates]**.
+1. 詳細設定メニューから、「 」を選択します。 **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery Templates]**.
 1. 既存のテンプレートを複製し、必要に応じてパーソナライズします。 詳しくは、[テンプレートについて](../../start/using/marketing-activity-templates.md)の節を参照してください。
 1. テンプレートを作成したら、 **[!UICONTROL Edit properties]** アイコンを使用して、テンプレートに単位を割り当てます。
 
    ![](assets/manage_units_6.png)
 
-1. 内 **[!UICONTROL Access authorization]** ドロップダウンメニューから、組織単位を選択します。
+1. Adobe Analytics の **[!UICONTROL Access authorization]** ドロップダウンメニューから、組織単位を選択します。
 
    ここでは、前に作成した組織単位Geometrixxを使用して 1 つのテンプレートを作成します。
 

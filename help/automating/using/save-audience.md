@@ -45,25 +45,27 @@ ht-degree: 100%
 
       * **[!UICONTROL Replace audience content with new data]**：オーディエンスコンテンツ全体を置き換えます。古いデータは失われます。「オーディエンスの保存」アクティビティのインバウンドトランジションからのデータのみが保持されます。
       * **[!UICONTROL Complete audience with new data]**：古いオーディエンスデータは保持され、「オーディエンスの保存」アクティビティのインバウンドトランジションのデータが追加されます。
+
    * **[!UICONTROL Create then update an audience]**：オーディエンスの名前を入力し、更新タイプを選択します。オーディエンスが存在しない場合は、作成されます。既に存在する場合は、選択したモードに従って更新されます。
 
       * **[!UICONTROL Replace audience content with new data]**：オーディエンスコンテンツ全体を置き換えます。古いデータは失われます。「オーディエンスの保存」アクティビティのインバウンドトランジションからのデータのみが保持されます。
 
-         警告：このオプションを選択すると、オーディエンスの種類と、更新されたオーディエンスのターゲティングディメンションが削除されます。
+        警告：このオプションを選択すると、オーディエンスの種類と、更新されたオーディエンスのターゲティングディメンションが削除されます。
 
       * **[!UICONTROL Complete audience with new data]**：古いオーディエンスデータは保持され、「オーディエンスの保存」アクティビティのインバウンドトランジションのデータが追加されます。
 
-         警告：このオプションを選択すると、更新されたオーディエンスの種類またはターゲティングディメンションが現在のワークフローの設定と互換性がない場合、エラーが発生します。例えば、クエリーからのプロファイルを含むファイルタイプオーディエンスを完了することはできません。
+        警告：このオプションを選択すると、更新されたオーディエンスの種類またはターゲティングディメンションが現在のワークフローの設定と互換性がない場合、エラーが発生します。例えば、クエリーからのプロファイルを含むファイルタイプオーディエンスを完了することはできません。
+
    * **[!UICONTROL Create a new audience]**：作成するオーディエンスの名前を入力します。オーディエンスの作成日時が、オーディエンス名に自動的に追加されます。これにより、ワークフローが実行されるたびにオーディエンスが一意になります。
    * **[!UICONTROL Share in Adobe Experience Cloud]**：ターゲットプロファイルがあり、オーディエンスを Adobe Experience Cloud に書き出す場合は、このオプションを選択し、その後既存の共有オーディエンスを選択するか、新しいオーディエンスを作成します。
 
-      また、データが Adobe Experience Cloud で正しく調整されるように、オーディエンスに含まれるデータのリソースに対応する **[!UICONTROL Shared Data source]** を選択します。
+     また、データが Adobe Experience Cloud で正しく調整されるように、オーディエンスに含まれるデータのリソースに対応する **[!UICONTROL Shared Data source]** を選択します。
 
-      このオプションを使用した場合、共有オーディエンスは **[!UICONTROL Audiences]** メニューから使用できる Adobe Campaign オーディエンスのリストに追加されません。
+     このオプションを使用した場合、共有オーディエンスは **[!UICONTROL Audiences]** メニューから使用できる Adobe Campaign オーディエンスのリストに追加されません。
 
-      >[!NOTE]
-      >
-      >このオプションは、Adobe Experience Cloud の共有オーディエンス機能が管理者によって設定されている場合にのみ使用できます。詳しくは、[Campaign と People コアサービスの使用](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)を参照してください。
+     >[!NOTE]
+     >
+     >このオプションは、Adobe Experience Cloud の共有オーディエンス機能が管理者によって設定されている場合にのみ使用できます。詳しくは、[Campaign と People コアサービスの使用](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)を参照してください。
 
    更新時に保存または使用できるオーディエンスのタイプは、ワークフローの上流に配置されているアクティビティによって異なります。
 

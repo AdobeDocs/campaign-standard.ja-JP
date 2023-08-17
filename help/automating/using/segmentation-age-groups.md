@@ -28,16 +28,16 @@ ht-degree: 66%
 
 * A [スケジューラーアクティビティ](../../automating/using/segmentation.md) をクリックして、ワークフローの実行日を指定します。
 * A [クエリ](../../automating/using/query.md) 「 」アクティビティを使用して、誕生日と E メールアドレスが入力されたユーザーのプロファイルをターゲット設定します。
-* A [セグメント化](../../automating/using/segmentation.md) アクティビティを使用して、異なるアウトバウンドトランジションに分割された 3 つのセグメントを作成します。18-25-year歳、26-32-year歳、32 歳を超えるプロファイル。 セグメントは、次のパラメーターに従って定義されます。
+* A [セグメント化](../../automating/using/segmentation.md) 「 」アクティビティを使用して、様々なアウトバウンドトランジション (18-25-year歳、26-32-year歳、32 歳を超えるプロファイル ) に分割された 3 つのセグメントを作成します。 セグメントは、次のパラメーターに従って定義されます。
 
-   ![](assets/wkf_segment_example_3.png)
+  ![](assets/wkf_segment_example_3.png)
 
    * セグメントの年齢グループを定義する年齢に関するフィルター
 
-      ![](assets/wkf_segment_new_segment.png)
+     ![](assets/wkf_segment_new_segment.png)
 
    * **[!UICONTROL Maximum size]** の上限（100）にリンクされた **[!UICONTROL Random sampling]** タイプ制限
 
-      ![](assets/wkf_segment_example_1.png)
+     ![](assets/wkf_segment_example_1.png)
 
-* An [E メール配信](../../automating/using/email-delivery.md) セグメントごとのアクティビティ。
+* An [E メール配信](../../automating/using/email-delivery.md) セグメントごとのアクティビティ数。

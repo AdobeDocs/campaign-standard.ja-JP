@@ -12,7 +12,7 @@ exl-id: a7f22d92-dbf9-4c2b-8fc1-1e31d1e5e79c
 source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
 source-wordcount: '264'
-ht-degree: 31%
+ht-degree: 32%
 
 ---
 
@@ -50,7 +50,7 @@ Adobe Campaignは、モバイルデバイス用の配信テンプレートを提
 1. 次の項目にカーソルを合わせます。 **[!UICONTROL Send via SMS]** マウスでテンプレートを選択し、 **要素を複製** オプション。
 1. 新しいテンプレートを選択します。
 1. 「**[!UICONTROL Edit properties]**」ボタンをクリックします。
-1. 内 **[!UICONTROL Advanced parameters]** 「 」セクションで、SMS の配信に使用する外部アカウントにテンプレートがリンクされていることを確認します。
+1. Adobe Analytics の **[!UICONTROL Advanced parameters]** 「 」セクションで、SMS の配信に使用する外部アカウントにテンプレートがリンクされていることを確認します。
 
    ![](assets/sms_template.png)
 

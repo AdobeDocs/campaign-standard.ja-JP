@@ -45,7 +45,7 @@ ht-degree: 15%
 
    ![](assets/aem_acs_4.png)
 
-1. 次の **[!UICONTROL Workflow]** タブで、 **[!UICONTROL Approve for Adobe Campaign]** 検証ワークフロー。 E メールに未承認のコンテンツを使用している場合、その E メールを Adobe Campaign で送信することはできません。
+1. 次から： **[!UICONTROL Workflow]** タブで、 **[!UICONTROL Approve for Adobe Campaign]** 検証ワークフロー。 E メールに未承認のコンテンツを使用している場合、その E メールを Adobe Campaign で送信することはできません。
 
    ![](assets/aem_acs_7.png)
 
@@ -67,7 +67,7 @@ E メールコンテンツをデザインした後、バリエーションとし
 
    ![](assets/aem_acs_6.png)
 
-1. 内 **[!UICONTROL Target language(s)]** ドロップダウンで、コンテンツの翻訳言語を選択し、「 **[!UICONTROL Next]**.
+1. Adobe Analytics の **[!UICONTROL Target language(s)]** ドロップダウンで、コンテンツを翻訳する言語を選択し、「 **[!UICONTROL Next]**.
 
    ![](assets/aem_acs_9.png)
 
@@ -87,7 +87,7 @@ E メールコンテンツをデザインした後、バリエーションとし
 
    ![](assets/aem_acs_12.png)
 
-1. Adobe Experience Managerコンテンツを受け取るように設定したAdobe Campaign多言語 E メールテンプレートを選択します。 Adobe Experience Managerインスタンスにリンクするテンプレートの作成方法について詳しくは、 [ページ](../../integrating/using/configure-experience-manager.md#config-acs).
+1. Adobe Experience Managerコンテンツを受け取るように設定したAdobe Campaign多言語 E メールテンプレートを選択します。 Adobe Experience Managerインスタンスにリンクするテンプレートの作成方法について詳しくは、こちらを参照してください。 [ページ](../../integrating/using/configure-experience-manager.md#config-acs).
 
    >[!NOTE]
    >
@@ -97,7 +97,7 @@ E メールコンテンツをデザインした後、バリエーションとし
 
 1. 次の項目に入力： **[!UICONTROL Properties]** および **[!UICONTROL Audience]** 」と入力します。 **[!UICONTROL Create]**.
 
-1. 内 **[!UICONTROL Edit properties]**&#x200B;を設定する場合、Adobe Experience Managerアカウントが **[!UICONTROL Content]** 」ドロップダウンリストから選択できます。
+1. Adobe Analytics の **[!UICONTROL Edit properties]**&#x200B;を設定する場合、Adobe Experience Managerアカウントが **[!UICONTROL Content]** 」ドロップダウンリストから選択できます。
 
    ![](assets/aem_acs_20.png)
 
@@ -109,7 +109,7 @@ E メールコンテンツをデザインした後、バリエーションとし
 
    >[!NOTE]
    >
-   >選択した言語コピーがデフォルトとして設定され、後で **[!UICONTROL Content variant]** ブロック
+   >選択した言語コピーがデフォルトとして設定され、後で **[!UICONTROL Content variant]** ブロック。
 
    ![](assets/aem_acs_17.png)
 
@@ -129,4 +129,4 @@ E メールコンテンツをデザインした後、バリエーションとし
    >
    >未承認のAEMコンテンツを使用している場合、Adobe Campaignで E メールを送信することはできません。
 
-オーディエンスは、 **[!UICONTROL Preferred languages]** 彼らの **[!UICONTROL Profiles]**. プロファイルと優先言語の編集方法について詳しくは、こちらを参照してください [ページ](../../audiences/using/editing-profiles.md).
+オーディエンスは、 **[!UICONTROL Preferred languages]** 彼らの **[!UICONTROL Profiles]**. プロファイルと優先言語の編集方法について詳しくは、こちらを参照してください。 [ページ](../../audiences/using/editing-profiles.md).

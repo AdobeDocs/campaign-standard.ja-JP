@@ -71,7 +71,7 @@ ht-degree: 93%
 
 ターゲティングディメンションとリソースを使用すると、配信のターゲットを指定するためにクエリで使用する要素を定義できます。
 
-これらは、で設定されます。 [ターゲットマッピング](../../administration/using/target-mappings-in-campaign.md)、およびは、ワークフローの作成時に、 **[!UICONTROL Properties]** 「クエリ」アクティビティの「 」タブ
+これらは、で設定されます。 [ターゲットマッピング](../../administration/using/target-mappings-in-campaign.md)、およびは、ワークフローの作成時に、 **[!UICONTROL Properties]** 「クエリ」アクティビティの「 」タブ。
 
 >[!NOTE]
 >

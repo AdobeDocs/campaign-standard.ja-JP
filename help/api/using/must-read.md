@@ -25,23 +25,23 @@ ht-degree: 0%
 
 ## 権限とアクセス
 
-* デフォルトでは、Adobe Campaign API は管理者のコンテキストを使用するので、組織の単位と役割は適用されません。
+* デフォルトでは、Adobe Campaign API は管理者のコンテキストを使用するので、組織単位と役割は適用されません。
 * Adobe Campaign API は、役割コンテキストから除外されます。
 * 組織単位またはロールで API を設定する場合は、まず担当の担当者に問い合わせて、テクニカルコンタクトのAdobeにお問い合わせください。
 
 ## リソース表現
 
-すべての API リソースは、 **JSON** URL 拡張子または HTTP Accept ヘッダー内に
+すべての API リソースは、 **JSON** URL 拡張子または HTTP Accept ヘッダー内に：
 
 `GET /profileAndServices/<resourceName>.json`
 
 >[!NOTE]
 >
->URL に拡張子がない場合、 **json 形式はデフォルトの形式です** content-type の場合。
+>URL に拡張子がない場合、 **json 形式はデフォルトの形式です。** content-type の場合は。
 
 <br/>
 
-***リクエストサンプル***
+***リクエストのサンプル***
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile.json \

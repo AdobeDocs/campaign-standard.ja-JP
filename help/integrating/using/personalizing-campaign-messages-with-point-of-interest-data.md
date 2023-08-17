@@ -32,11 +32,11 @@ Adobe Campaignでは、モバイルアプリケーションの購読者から収
 
    オーディエンスの管理について詳しくは、 [オーディエンスの定義](../../audiences/using/creating-audiences.md) 」セクションに入力します。
 
-1. 内 **[!UICONTROL Add a rule - Profile/Subscriptions to an application]** ウィンドウで、 **[!UICONTROL POI Location Subscription]** 要素をワークスペースに追加します。
+1. Adobe Analytics の **[!UICONTROL Add a rule - Profile/Subscriptions to an application]** ウィンドウを開き、 **[!UICONTROL POI Location Subscription]** 要素をワークスペースに追加します。
 
    ![](assets/poi_add_rule_profile_subscription.png)
 
-1. 内 **[!UICONTROL Add a rule - POI Location Subscription]** ウィンドウで、使用する目標地点のラベルを入力します。
+1. Adobe Analytics の **[!UICONTROL Add a rule - POI Location Subscription]** ウィンドウで、使用する目標地点のラベルを入力します。
 
    ![](assets/poi_location_subscription.png)
 

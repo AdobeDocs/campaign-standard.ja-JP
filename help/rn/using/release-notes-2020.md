@@ -243,7 +243,7 @@ ht-degree: 98%
 * インスタンスに公開できるリアルタイムイベントの最大数が 350 から 2000 に増えました。（CAMP-41608）
 * Adobe Launch と Campaign Standard の同期が、syncWithLaunch テクニカルワークフローを使用して改善されました。このワークフローにより、Adobe Launch のすべてのモバイルプロパティを Adobe Campaign Standard に自動インポートできます。詳しくは、[このページ](../../administration/using/technical-workflows.md)を参照してください。
 
-   お使いの Campaign インスタンスで syncWithLaunch テクニカルワークフローを有効にするには、チケットをアドビカスタマーケアに（直接またはアドビの担当者を通じて）送信する必要があります。（CAMP-40082）
+  お使いの Campaign インスタンスで syncWithLaunch テクニカルワークフローを有効にするには、チケットをアドビカスタマーケアに（直接またはアドビの担当者を通じて）送信する必要があります。（CAMP-40082）
 
 **E メールデザイナーの機能強化**
 

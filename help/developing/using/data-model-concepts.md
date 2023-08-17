@@ -42,4 +42,4 @@ Adobe Campaign が使用するデータは、様々なリソースを通じて�
 
 >[!CAUTION]
 >
->機能のみ [管理者](../../administration/using/users-management.md#functional-administrators)を **[!UICONTROL Administration]** 役割とアクセス **すべて** ユニットは、送信ログ、メッセージログ、トラッキングログ、除外ログ、購読ログにアクセスできます。 管理者以外のユーザーは、リンクされたテーブル（プロファイル、配信）から開始しながら、これらのログをターゲットにすることができます。
+>機能のみ [管理者](../../administration/using/users-management.md#functional-administrators)、を **[!UICONTROL Administration]** 役割とアクセス権 **すべて** ユニットは、送信ログ、メッセージログ、トラッキングログ、除外ログ、購読ログにアクセスできます。 管理者以外のユーザーは、リンクされたテーブル（プロファイル、配信）から開始しながら、これらのログをターゲットにすることができます。

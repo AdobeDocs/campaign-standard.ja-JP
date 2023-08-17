@@ -59,9 +59,9 @@ ht-degree: 43%
 * メッセージの開封率
 * メッセージ内クリック率（E メールの場合）
 
-   >[!NOTE]
-   >
-   >**[!UICONTROL Open rate]** と **[!UICONTROL Click-through rate]** は、1 時間ごとに更新されます。
+  >[!NOTE]
+  >
+  >**[!UICONTROL Open rate]** と **[!UICONTROL Click-through rate]** は、1 時間ごとに更新されます。
 
 ![](assets/sending_delivery.png)
 
@@ -82,9 +82,9 @@ KPI の更新に時間がかかりすぎる場合、または送信ログの結�
 >
 >この節の内容は、E メールチャネルにのみ適用されます。
 
-内 **[!UICONTROL Summary]** 各電子メールのビュー、 **[!UICONTROL Delivered]** 割合は、100%から始まり、次に配信全体で徐々に減少します [有効期間](../../administration/using/configuring-email-channel.md#validity-period-parameters)（ソフトバウンスとハードバウンスがレポートされるため）<!--from the Enhanced MTA to Campaign-->.
+Adobe Analytics の **[!UICONTROL Summary]** 各電子メールのビュー、 **[!UICONTROL Delivered]** 割合は、100%から始まり、次に配信全体で徐々に減少します [有効期間](../../administration/using/configuring-email-channel.md#validity-period-parameters)（ソフトバウンスとハードバウンスがレポートされるため）<!--from the Enhanced MTA to Campaign-->.
 
-実際、すべてのメッセージは **[!UICONTROL Sent]** 内 [ログの送信](../../sending/using/monitoring-a-delivery.md#sending-logs) キャンペーンから Enhanced MTA（メッセージ転送エージェント）に正常にリレーされたら、すぐに実行します。 メッセージの[バウンス](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)が Enhanced MTA からキャンペーンに返されるまで、メッセージのステータスは変わりません。
+実際、すべてのメッセージは、 **[!UICONTROL Sent]** （内） [ログの送信](../../sending/using/monitoring-a-delivery.md#sending-logs) キャンペーンから Enhanced MTA（メッセージ転送エージェント）に正常にリレーされたら、すぐに実行します。 メッセージの[バウンス](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)が Enhanced MTA からキャンペーンに返されるまで、メッセージのステータスは変わりません。
 
 ハードバウンスメッセージが Enhanced MTA から返されると、そのステータスは **[!UICONTROL Sent]** から **[!UICONTROL Failed]** そして **[!UICONTROL Delivered]** 割合は、それに応じて減少します。
 
@@ -94,7 +94,7 @@ KPI の更新に時間がかかりすぎる場合、または送信ログの結�
 
 * それ以外の場合、ステータスは「 **[!UICONTROL Failed]** そして **[!UICONTROL Delivered]** 割合は、それに応じて減少します。
 
-したがって、最終的な **[!UICONTROL Delivered]** 割合と最終的な数 **[!UICONTROL Sent]** および **[!UICONTROL Failed]** メッセージ。
+したがって、最終的な **[!UICONTROL Delivered]** 割合、および最終的な数 **[!UICONTROL Sent]** および **[!UICONTROL Failed]** メッセージ。
 
 ### E メールフィードバックサービス（ベータ版） {#email-feedback-service}
 
@@ -112,15 +112,15 @@ E メールフィードバックサービス（EFS）機能を使用すると、
 
 ![](assets/efs-pending.png)
 
-ターゲットプロファイルに対するメッセージ配信が Enhanced MTA からリアルタイムでレポートされると、配信ログに **[!UICONTROL Sent]** メッセージを正常に受信した各アドレスのステータス。 この **[!UICONTROL Delivered]** 配信が成功するたびに、割合が増加します。
+ターゲットプロファイルに対するメッセージ配信が Enhanced MTA からリアルタイムでレポートされると、配信ログに **[!UICONTROL Sent]** メッセージを正常に受信した各アドレスのステータス。 The **[!UICONTROL Delivered]** 配信が成功するたびに、割合が増えます。
 
 ハードバウンスメッセージが Enhanced MTA から返されると、ログのステータスは **[!UICONTROL Pending]** から **[!UICONTROL Failed]** そして **[!UICONTROL Bounces + errors]** 割合は、それに応じて増加します。
 
-ソフトバウンスメッセージが Enhanced MTA から返されると、ログのステータスも **[!UICONTROL Pending]** から **[!UICONTROL Failed]** そして **[!UICONTROL Bounces + errors]** 割合は、それに応じて増加します。 この **[!UICONTROL Delivered]** 割合は変更されません。 その後、ソフトバウンスメッセージが配信[有効期間](../../administration/using/configuring-email-channel.md#validity-period-parameters)中ずっと再試行されます。
+ソフトバウンスメッセージが Enhanced MTA から返されると、ログのステータスも **[!UICONTROL Pending]** から **[!UICONTROL Failed]** そして **[!UICONTROL Bounces + errors]** 割合は、それに応じて増加します。 The **[!UICONTROL Delivered]** 割合は変更されません。 その後、ソフトバウンスメッセージが配信[有効期間](../../administration/using/configuring-email-channel.md#validity-period-parameters)中ずっと再試行されます。
 
 * 有効期間が終了する前に再試行が成功した場合、メッセージのステータスは「 **[!UICONTROL Sent]** そして **[!UICONTROL Delivered]** 割合は、それに応じて増加します。
 
-* それ以外の場合、ステータスは「 **[!UICONTROL Failed]**. この **[!UICONTROL Delivered]** および **[!UICONTROL Bounces + errors]** パーセンテージは変更されません。
+* それ以外の場合、ステータスは「 **[!UICONTROL Failed]**. The **[!UICONTROL Delivered]** および **[!UICONTROL Bounces + errors]** パーセンテージは変更されません。
 
 >[!NOTE]
 >

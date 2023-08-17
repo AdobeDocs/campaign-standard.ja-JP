@@ -1,6 +1,6 @@
 ---
 title: 複合 ID キーを使用したリソースの呼び出し
-description: 複合 ID キーを使用したリソースの呼び出し方法を説明します
+description: 複合 ID キーを使用したリソースの呼び出し方法を説明します。
 feature: Data Model
 role: Developer
 level: Experienced
@@ -30,7 +30,7 @@ ht-degree: 7%
 * [識別キーの定義](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys)
 * [Campaign StandardREST API](../../api/using/get-started-apis.md)
 
-## 手順 1:識別キーの設定{#step-1-configure-the-identification-key}
+## 手順 1：識別キーの設定{#step-1-configure-the-identification-key}
 
 >[!NOTE]
 > 識別キーを設定する際のグローバル概念について詳しくは、 [この節](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys).
@@ -41,11 +41,11 @@ ht-degree: 7%
 
    ![](assets/uc_idkey1.png)
 
-1. 内 **[!UICONTROL Identification keys]** セクションで、 **[!UICONTROL Create element]** 」ボタンをクリックします。
+1. Adobe Analytics の **[!UICONTROL Identification keys]** セクションで、 **[!UICONTROL Create element]** 」ボタンをクリックします。
 
    ![](assets/uc_idkey2.png)
 
-1. 2 つのカスタム「CRM ID」フィールドと「カテゴリ」フィールドを追加し、 **[!UICONTROL Confirm]**.
+1. 2 つのカスタム「CRM ID」フィールドと「カテゴリ」フィールドを追加し、「 **[!UICONTROL Confirm]**.
 
    ![](assets/uc_idkey3.png)
 
@@ -54,12 +54,12 @@ ht-degree: 7%
 
 1. これで、フィルター定義の識別キーを使用してリソースを呼び出せるように、フィルター定義を設定できます。
 
-## 手順 2:フィルター定義の設定{#step-2-configure-the-filter-definition}
+## 手順 2：フィルター定義の設定{#step-2-configure-the-filter-definition}
 
 >[!NOTE]
 > フィルター定義を設定する際のグローバル概念について詳しくは、 [この節](../../developing/using/configuring-filter-definition.md).
 
-1. 内 **[!UICONTROL Filter definition]** タブ、クリック **[!UICONTROL Add an element]**&#x200B;次に、フィルター定義のラベルと ID を入力します。
+1. Adobe Analytics の **[!UICONTROL Filter definition]** タブ、クリック **[!UICONTROL Add an element]**&#x200B;次に、フィルター定義のラベルと ID を入力します。
 
 1. フィルター定義のプロパティを編集して、ルールを設定します。
 
@@ -73,7 +73,7 @@ ht-degree: 7%
 
    ![](assets/uc_idkey6.png)
 
-1. 内 **[!UICONTROL Filter conditions]** セクション、 **[!UICONTROL Equal]** 演算子を使用して、パラメーターの名前を定義し、プラス記号をクリックして作成します。
+1. Adobe Analytics の **[!UICONTROL Filter conditions]** セクション、 **[!UICONTROL Equal]** 演算子を使用して、パラメーターの名前を定義し、プラス記号をクリックして作成します。
 
    ![](assets/uc_idkey7.png)
 
@@ -86,11 +86,11 @@ ht-degree: 7%
 
 1. これで、フィルター定義が設定されました。 フィルターを使用できるように、リソースを公開できます。
 
-## 手順 3:識別キーに基づいてリソースを呼び出す{#step-3-call-the-resource-based-on-its-identification-key}
+## 手順 3：識別キーに基づいてリソースを呼び出す{#step-3-call-the-resource-based-on-its-identification-key}
 
 識別キーとそのフィルター定義を設定したら、それらを使用して、Campaign Standard インターフェイスまたは REST API からリソースを呼び出すことができます。
 
-インターフェイスでフィルター定義を使用するには、 **[!UICONTROL Query]** ワークフローのアクティビティ ( [この節](../../automating/using/query.md)) をクリックします。 これで、左側のウィンドウでフィルターを使用できるようになります。
+インターフェイスでフィルター定義を使用するには、 **[!UICONTROL Query]** ワークフロー内のアクティビティ ( [この節](../../automating/using/query.md)) をクリックします。 これで、左側のウィンドウでフィルターを使用できるようになります。
 
 ![](assets/uc_idkey9.png)
 
@@ -101,7 +101,7 @@ GET /profileAndServicesExt/<resourceName>/by<filterName>?<param1_parameter>=<val
 ```
 
 >[!NOTE]
->カスタムフィルターを呼び出すには、「by」プレフィックスを使用し、その後に [手順 2](../../developing/using/uc-calling-resource-id-key.md#step-2-configure-the-filter-definition).
+>カスタムフィルターを呼び出すには、「by」プレフィックスを使用し、次の場所でフィルター定義を設定する際に定義したフィルター名を指定します。 [手順 2](../../developing/using/uc-calling-resource-id-key.md#step-2-configure-the-filter-definition).
 
 この例では、「123456」 CRM ID を使用して「spring」カテゴリからプロファイルを取得する構文は次のようになります。
 

@@ -11,13 +11,13 @@ exl-id: 8980bf05-60a8-4360-a354-445e1faeb5b2
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
 source-wordcount: '1269'
-ht-degree: 5%
+ht-degree: 12%
 
 ---
 
 # コンポーネントのリスト {#list-of-components}
 
-ディメンションと指標の互換性について詳しくは、この [表](/help/reporting/using/assets/dynamic_report_compatibility.pdf). 2 つのコンポーネントに互換性がない場合、セルに値が表示されます **なし**.
+ディメンションと指標の互換性について詳しくは、こちらを参照してください。 [表](/help/reporting/using/assets/dynamic_report_compatibility.pdf). 2 つのコンポーネントに互換性がない場合、セルに値が表示されます **なし**.
 
 [![画像](assets/dynamic_report_compatibility.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf)
 
@@ -46,7 +46,7 @@ ht-degree: 5%
    <td> 受信者のプロファイルに登録されている市区町村。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 国/地域<br /> </td> 
+   <td> 国 / 地域<br /> </td> 
    <td> 受信者のプロファイルに登録されている国。<br /> </td> 
   </tr> 
   <tr> 
@@ -151,12 +151,12 @@ ht-degree: 5%
    <td> E メールをスパムまたは迷惑メールとして宣言した受信者の数です。<br /> </td> 
   </tr> 
   <tr> 
-   <td> ブロックリスト率<br /> </td> 
-   <td> 配信の割合が「」にマーブロックリストクされます。<br /> </td> 
+   <td> ブロックリストに加える率<br /> </td> 
+   <td> 配信の割合が「」にマーブロックリストに加えるクされました。<br /> </td> 
   </tr> 
   <tr> 
    <td> バウンス数 + エラー数<br /> </td> 
-   <td> 送信されたメッセージの合計数に関する、配信および自動返信処理の間に累積したエラーの合計。<br /> </td> 
+   <td> 送信されたメッセージの合計数に対して、配信と自動返信処理の間に累積したエラーの合計数。<br /> </td> 
   </tr> 
   <tr> 
    <td> バウンス率+エラー率<br /> </td> 
@@ -199,7 +199,7 @@ ht-degree: 5%
    <td> 配信でオファーがクリックされた回数。<br /> </td> 
   </tr> 
   <tr> 
-   <td> オファークリック率<br /> </td> 
+   <td> オファーのクリック率<br /> </td> 
    <td> オファーのクリック率。<br /> </td> 
   </tr> 
   <tr> 
@@ -248,7 +248,7 @@ ht-degree: 5%
   </tr> 
   <tr> 
    <td> 一意の購読解除<br /> </td> 
-   <td> 購読解除リンクをクリックした受信者数。<br /> </td> 
+   <td> 購読解除リンクをクリックした受信者の数。<br /> </td> 
   </tr> 
   <tr> 
    <td> 配信停止率<br /> </td> 
@@ -392,63 +392,63 @@ ht-degree: 5%
  </thead> 
  <tbody> 
   <tr> 
-   <td> 年齢：団塊 1<br /> </td> 
+   <td> 年齢 : ブーマー 1<br /> </td> 
    <td> 1946 年から 1954 年まで生まれた受信者<br /> </td> 
   </tr> 
   <tr> 
-   <td> 年齢：団塊 2<br /> </td> 
+   <td> 年齢 : ブーマー 2<br /> </td> 
    <td> 1955 年から 1965 年まで生まれた受信者<br /> </td> 
   </tr> 
   <tr> 
-   <td> 年齢：18 ～ 25<br /> </td> 
+   <td> 年齢 : 18 ～ 25 歳<br /> </td> 
    <td> 18 歳から 25 歳までの受信者<br /> </td> 
   </tr> 
   <tr> 
-   <td> 年齢：26 ～ 30<br /> </td> 
-   <td> 26 歳から 30 歳までの受信者<br /> </td> 
+   <td> 年齢 : 26 ～ 30 歳<br /> </td> 
+   <td> 26 歳から 30 歳までの受信者。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 年齢：31 ～ 40<br /> </td> 
-   <td> 31 歳から 40 歳までの受信者<br /> </td> 
+   <td> 年齢 : 31 ～ 40 歳<br /> </td> 
+   <td> 31 歳から 40 歳までの受信者。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 年齢：41 ～ 50<br /> </td> 
+   <td> 年齢 : 41 ～ 50 歳<br /> </td> 
    <td> 41 歳から 50 歳までの受信者。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 年齢：ジェネレーション X<br /> </td> 
+   <td> 年齢 : X 世代<br /> </td> 
    <td> 1966 年から 1976 年まで生まれた受信者<br /> </td> 
   </tr> 
   <tr> 
-   <td> 年齢：世代 Y（ミレニアル世代）<br /> </td> 
+   <td> 年齢 : Y 世代 (ミレニアル世代)<br /> </td> 
    <td> 1977 年から 1994 年まで生まれた受信者<br /> </td> 
   </tr> 
   <tr> 
-   <td> 年齢：生成 Z<br /> </td> 
+   <td> 年齢 : Z 世代<br /> </td> 
    <td> 1995 年から今日まで生まれた受信者<br /> </td> 
   </tr> 
   <tr> 
-   <td> 年齢：50 より大きい<br /> </td> 
+   <td> 年齢 : 50 歳以上<br /> </td> 
    <td> 年齢が 50 歳以上の受信者<br /> </td> 
   </tr> 
   <tr> 
-   <td> 年齢：25 未満<br /> </td> 
+   <td> 年齢 : 25 歳未満<br /> </td> 
    <td> 年齢が 25 歳未満の受信者<br /> </td> 
   </tr> 
   <tr> 
-   <td> 年齢：30 未満<br /> </td> 
+   <td> 年齢 : 30 歳未満<br /> </td> 
    <td> 年齢が 30 歳未満の受信者<br /> </td> 
   </tr> 
   <tr> 
-   <td> 年齢：40 未満<br /> </td> 
+   <td> 年齢 : 40 歳未満<br /> </td> 
    <td> 年齢が 40 歳未満の受信者<br /> </td> 
   </tr> 
   <tr> 
-   <td> 年齢：50 未満<br /> </td> 
+   <td> 年齢 : 50 歳未満<br /> </td> 
    <td> 年齢が 50 歳未満の受信者<br /> </td> 
   </tr> 
   <tr> 
-   <td> 年齢：サイレント生成<br /> </td> 
+   <td> 年齢 : サイレントジェネレーション<br /> </td> 
    <td> 1945 年以前に生まれた受信者<br /> </td> 
   </tr> 
   <tr> 

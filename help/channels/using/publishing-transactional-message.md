@@ -123,7 +123,7 @@ The steps for sending a proof are detailed in the [Sending proofs](../../sending
 
 >[!NOTE]
 >
->メッセージを再度公開するには、対応するイベント設定に戻る必要があります。 [イベントを公開](../../channels/using/publishing-transactional-event.md)、 [メッセージを公開](#publishing-a-transactional-message).
+>メッセージを再度公開するには、対応するイベント設定に戻る必要があります。 [イベントを公開する](../../channels/using/publishing-transactional-event.md)を、 [メッセージを公開](#publishing-a-transactional-message).
 
 一時停止したトランザクションメッセージを非公開にする場合は、再度公開するまで 24 時間待たなければならない場合があります。これは、キューに送信されたすべてのイベントを「**[!UICONTROL Database cleanup]**」ワークフローで消去するためです。
 
@@ -135,7 +135,7 @@ The steps for sending a proof are detailed in the [Sending proofs](../../sending
 
 トランザクションメッセージが非公開になっている場合、またはトランザクションメッセージがまだ公開されていない場合は、トランザクションメッセージリストから削除できます。手順は次のとおりです。
 
-1. 次をクリック： **Adobe** ロゴ（左上隅）に移動し、「 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**.
+1. 次をクリック： **Adobe** ロゴ（左上隅）に、「 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**.
 1. 選択したメッセージにマウスを合わせます。
 1. 「**[!UICONTROL Delete element]**」ボタンをクリックします。
 
@@ -147,9 +147,9 @@ The steps for sending a proof are detailed in the [Sending proofs](../../sending
 
 * **トランザクションメッセージ**：対応するイベントに別のトランザクションメッセージがリンクされている場合を除き、トランザクションメッセージが非公開の場合は、イベントを正常に削除するために、トランザクションメッセージ設定も非公開にする必要があります。詳しくは、[イベントの非公開](../../channels/using/publishing-transactional-event.md#unpublishing-an-event)を参照してください。
 
-   >[!IMPORTANT]
-   >
-   >既に通知を送信したトランザクションメッセージを削除すると、その送信およびトラッキングログも削除されます。
+  >[!IMPORTANT]
+  >
+  >既に通知を送信したトランザクションメッセージを削除すると、その送信およびトラッキングログも削除されます。
 
 * **標準搭載のイベントテンプレート（内部トランザクションメッセージ）**：内部トランザクションメッセージが、対応する内部イベントに関連付けられている唯一のものである場合、削除できません。別のトランザクションメッセージを作成する場合は、まず複製するか、**[!UICONTROL Resources]**／**[!UICONTROL Templates]**／**[!UICONTROL Transactional message templates]** メニューを使用します。
 

@@ -32,15 +32,15 @@ API を使用する前に、データマッピングを設定し、Campaign Stan
 * [マッピングの定義](../../integrating/using/aep-mapping-definition.md)
 * [マッピングのアクティベーション](../../integrating/using/aep-mapping-activation.md)
 
-データマッピングを作成したら、実行を停止し、必要に応じて API からトリガーを設定する必要があります。 次の手順に従います。
+データマッピングを作成したら、実行を停止し、必要に応じて API からトリガーを設定する必要があります。 これを行うには、次の手順に従います。
 
-1. Campaign Standardで、 **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]** メニュー
+1. Campaign Standardで、 **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]** メニュー。
 
 1. データマッピングをダブルクリックして開き、 **[!UICONTROL Stop]** 」ボタンをクリックします。
 
    ![](assets/aep_datamapping_stop.png)
 
-1. 変更を保存します
+1. 変更を保存します。
 
 これで、データマッピングの実行が停止しました。 Campaign StandardAPI を使用して、手動でトリガーを設定できます。
 
@@ -54,11 +54,11 @@ XDM マッピングのAdobe Experience Platformへの即時取り込みは、次
 >
 >取り込みPOSTAPI 呼び出しを実行するには、 **SQL 関数の実行** ロール。以下の JS スクリプトを実行することで、Campaign Standard管理者から提供されます。
 >
->
-```
+>```
 >var sqlRoleObj = REST.head.roleBase.sql.get();
 >REST.head.securityGroup.Administrators.roles.post(sqlRoleObj);
 >```
+>
 
 POST操作は、作成されたリクエストのステータスに関する情報を返します。
 
@@ -95,7 +95,7 @@ POST操作は、作成されたリクエストのステータスに関する情�
 }
 ```
 
-## 取得リクエストのステータスの取得 {#retrieving-status}
+## 取り込みリクエストのステータスの取得 {#retrieving-status}
 
 取り込みリクエストのステータスは、GET操作で取得でき、必要なリクエスト ID をパラメーターに指定して取得できます。
 
@@ -110,69 +110,69 @@ GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM 
 
 このGET操作は、次の情報を返します。
 
-* **batchId**:このフィールドは、バッチの準備とアップロード後にエラーが発生した場合にのみ入力されます。
+* **batchId**：このフィールドは、バッチの準備とアップロード後にエラーが発生した場合にのみ入力されます。
 * **情報**:XDM マッピング ID
-* **numRecords**:取り込まれたレコードの数（成功ステータスのみ）
-* **ステータス**:取り込みリクエストのステータス（成功/失敗/進行中）
+* **numRecords**：取り込まれたレコードの数（成功ステータスのみ）
+* **ステータス**：取り込みリクエストのステータス（成功/失敗/進行中）
 
 以下に、GET操作に対する応答を示します。
 
 * 取り込みリクエストが成功しました：
 
-   ```
-   {
-   "batchId": "",
-   "info": "Mapping Id: <value>. ",
-   "numRecords": 15,
-   "requestId": 3520,
-   "status": "Success"
-   }
-   ```
+  ```
+  {
+  "batchId": "",
+  "info": "Mapping Id: <value>. ",
+  "numRecords": 15,
+  "requestId": 3520,
+  "status": "Success"
+  }
+  ```
 
 * 取り込みリクエストが 0 件のレコードを取り込んで失敗しました：
 
-   ```
-   {
-   "batchId": "",
-   "info": "Mapping Id: <value>. ACP-880056 Failed to fetch the record from the database.",
-   "numRecords": 0,
-   "requestId": 3520,
-   "status": "Failed"
-   }
-   ```
+  ```
+  {
+  "batchId": "",
+  "info": "Mapping Id: <value>. ACP-880056 Failed to fetch the record from the database.",
+  "numRecords": 0,
+  "requestId": 3520,
+  "status": "Failed"
+  }
+  ```
 
 * 取り込みリクエストが失敗し、一部のレコードがバッチにアップロードされました：
 
-   ```
-   {
-   "batchId": "<value>",
-   "info": "Mapping Id: <value>. ACP-880096 Sync Job failed to upload. Please check the error in the Platform UI.",
-   "numRecords": 0,
-   "requestId": <value>,
-   "status": "Failed"
-   }
-   ```
+  ```
+  {
+  "batchId": "<value>",
+  "info": "Mapping Id: <value>. ACP-880096 Sync Job failed to upload. Please check the error in the Platform UI.",
+  "numRecords": 0,
+  "requestId": <value>,
+  "status": "Failed"
+  }
+  ```
 
 * 一部のレコードを取り込んだ後に取り込みリクエストが中止されました（クラッシュシナリオで発生する場合があります）。
 
-   ```
-   {
-   "batchId": "",
-   "info": "Mapping Id: <value>. Ingestion request aborted due to some issue with data ingestion service. Please submit a new request",
-   "numRecords": 0,
-   "requestId": <value>,
-   "status": "Aborted"
-   }
-   ```
+  ```
+  {
+  "batchId": "",
+  "info": "Mapping Id: <value>. Ingestion request aborted due to some issue with data ingestion service. Please submit a new request",
+  "numRecords": 0,
+  "requestId": <value>,
+  "status": "Aborted"
+  }
+  ```
 
 * 取り込みリクエストが進行中です（リクエストがバッチでデータをアップロードした場合、またはバッチがリクエストの準備を行っている場合）。
 
-   ```
-   {
-   "batchId": "",
-   "info": "Mapping Id: <value>.",
-   "numRecords": 0,
-   "requestId": <value>,
-   "status": "In Progress"
-   }
-   ```
+  ```
+  {
+  "batchId": "",
+  "info": "Mapping Id: <value>.",
+  "numRecords": 0,
+  "requestId": <value>,
+  "status": "In Progress"
+  }
+  ```

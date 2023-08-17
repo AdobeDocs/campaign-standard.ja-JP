@@ -51,7 +51,7 @@ Adobe I/Oを使用すると、Adobe Campaign Standardおよびその他のAdobe�
 
 1. に移動します。 [Adobe Developer Console](https://console.adobe.io/home#) を選択し、画面の右上にあるドロップダウンメニューからAdobe組織 ID を選択します。
 
-1. 次に、 **[!UICONTROL Create new project]** under **[!UICONTROL Quick Start]**.
+1. 次に、「 **[!UICONTROL Create new project]** under **[!UICONTROL Quick Start]**.
 
    ![](assets/adobeIO1.png)
 
@@ -63,21 +63,21 @@ Adobe I/Oを使用すると、Adobe Campaign Standardおよびその他のAdobe�
 
    ![](assets/adobeIO3.png)
 
-1. 次の画面では、独自の公開鍵をアップロードするか、Adobe Developerにキーペアを生成させるかの選択が可能です。 これらの手順は、後者のオプションに従います。 Adobe Developerにキーペアを生成させる場合は、「1」オプションをクリックします。次に、 **[!UICONTROL Generate keypair]** 」ボタンをクリックします。
+1. 次の画面では、独自の公開鍵をアップロードするか、Adobe Developerにキーペアを生成させるかの選択が可能です。 これらの手順は、後者のオプションに従います。 Adobe Developerにキーペアを生成させる場合は、「1」オプションをクリックし、 **[!UICONTROL Generate keypair]** 」ボタンをクリックします。
 
    ![](assets/adobeIO4.png)
 
 1. 次の画面で、zip キーペアファイルのダウンロード先を選択し、名前を付けるよう求められます。
 
-ダウンロードが完了したら、ファイルを解凍して、公開鍵と秘密鍵を表示できます。 Adobe Developerは既にAdobe Developerプロジェクトに公開鍵を適用しています。 後で秘密鍵を保持する必要があります。秘密鍵は、統合ツールの統合前の設定時に使用されます。
+ダウンロードが完了したら、ファイルを解凍して、公開鍵と秘密鍵を表示できます。 Adobe Developerは既にAdobe Developerプロジェクトに公開鍵を適用しています。 秘密鍵は、後で保持する必要があります。秘密鍵は、統合ツールの統合前の設定時に使用されます。
 
 1. クリック **[!UICONTROL Next]** 続ける
 
    ![](assets/adobeIO5.png)
 
-1. 次の画面で、このプロジェクトに関連付ける製品プロファイルを選択します。 タイトルに「 」を含む製品プロファイルを選択します。Campaign インスタンスのテナント ID - [!UICONTROL Administrators]
+1. 次の画面で、このプロジェクトに関連付ける製品プロファイルを選択します。 タイトルにが含まれる製品プロファイルを選択します。 Campaign インスタンスのテナント ID - [!UICONTROL Administrators]
 
-   例：Campaign Standard- your-campaign-tenantID — 管理者
+   例：Campaign Standard- your-campaign-tenantID - Administrators
 
 1. 「**[!UICONTROL Save configured API]**」をクリックします。
 

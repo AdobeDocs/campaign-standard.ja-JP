@@ -21,19 +21,19 @@ ht-degree: 1%
 
 ## タグプロパティを作成しました（組織単位 ALL の非管理者）。 アプリケーションはAdobe Campaignで設定の準備ができましたが、開いたり設定したりできません。 {#configuring-property}
 
-組織単位の管理者のみ ALL がAdobe Campaign Standardでモバイルアプリケーションを設定できます。 設定が完了すると、割り当てられた組織単位のユーザーのみがアプリケーションを編集できます。 組織単位の詳細については、 [ページ](../../administration/using/organizational-units.md).
+組織単位の管理者のみ ALL がAdobe Campaign Standardでモバイルアプリケーションを設定できます。 設定が完了すると、割り当てられた組織単位のユーザーのみがアプリケーションを編集できます。 組織単位の詳細については、次を参照してください。 [ページ](../../administration/using/organizational-units.md).
 
 ## 設定済みのモバイルアプリをAdobe Campaign Standardで編集できず、モバイルアプリが読み取りモードのみの場合。 {#read-mode-mobile-app}
 
 でモバイルアプリケーションの組織単位を確認する **[!UICONTROL Access Authorization]** 」セクションに入力します。 割り当てられた組織単位のユーザーのみがモバイルアプリケーションを編集できます。
 
-組織単位の詳細については、 [ページ](../../administration/using/organizational-units.md).
+組織単位の詳細については、次を参照してください。 [ページ](../../administration/using/organizational-units.md).
 
 ## Adobe Campaign Standardで組織単位 ALL を持つ管理者ですが、モバイルアプリケーションを設定できません。 {#org-unit-mobile}
 
 組織単位を「すべて」に設定した管理者は、すべてのタグモバイルプロパティに対して、モバイルアプリケーションを設定する権限を持っている必要があります。
 
-組織単位の詳細については、 [ページ](../../administration/using/organizational-units.md).
+組織単位の詳細については、次を参照してください。 [ページ](../../administration/using/organizational-units.md).
 
 ## タグモバイルプロパティを作成しましたが、プロパティがAdobe Campaign Standardに表示されません。 {#visibility-mobile-property}
 
@@ -43,7 +43,7 @@ ht-degree: 1%
 
 1. 「Launch_URL_Campaign」または「NmsServer_URL」が正しいことを確認します。
 
-1. 次に、 **[!UICONTROL syncWithLaunch]** テクニカルワークフロー。
+1. 次に、同期が **[!UICONTROL syncWithLaunch]** テクニカルワークフロー。
 
 ## Adobe Experience PlatformのAdobe Campaignとタグの間の同期が完了したかどうかを確認する方法 {#sync-campaign-launch}
 

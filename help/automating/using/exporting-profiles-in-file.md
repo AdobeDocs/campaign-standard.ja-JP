@@ -38,14 +38,14 @@ ht-degree: 68%
 
    * CSV 出力形式
 
-      ![](assets/wkf_data_export7.png)
+     ![](assets/wkf_data_export7.png)
 
    * 日付フォーマット
 
-      ![](assets/wkf_data_export9.png)
+     ![](assets/wkf_data_export9.png)
 
 1. アクティビティを確認します。
-1. ドラッグ&amp;ドロップ [ファイル転送](../../automating/using/transfer-file.md) アクティビティ **[!UICONTROL Extract file]** 「 」アクティビティを使用して、抽出したファイルを外部アカウントで復元します。
+1. 次をドラッグ&amp;ドロップ： [ファイル転送](../../automating/using/transfer-file.md) アクティビティ **[!UICONTROL Extract file]** 「 」アクティビティを使用して、抽出したファイルを外部アカウントで復元します。
 1. アクティビティを開き、**[!UICONTROL File upload]** アクションを選択します。
 
    ![](assets/wkf_data_export11.png)

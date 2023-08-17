@@ -32,14 +32,14 @@ E メールの場合は、サーバーの負荷と再試行の回数に応じて
 
 * **[!UICONTROL No optimization]**：メッセージはユーザーの時間帯で送信されます。
 
-   例えば、送信側のタイムゾーンが GMT+1 で、「**[!UICONTROL Start sending from]**」フィールドに午前 9 時と入力した場合、GMT+3 のタイムゾーンにいる受信者は、現地時間の午前 11 時にそのメッセージを受け取ります。
+  例えば、送信側のタイムゾーンが GMT+1 で、「**[!UICONTROL Start sending from]**」フィールドに午前 9 時と入力した場合、GMT+3 のタイムゾーンにいる受信者は、現地時間の午前 11 時にそのメッセージを受け取ります。
 
 * **[!UICONTROL Send at the recipient's time zone]**：すべての受信者に、それぞれのタイムゾーンを考慮してメッセージが届けられます。
 
-   例えば、「**[!UICONTROL Start sending from]**」フィールドに午前 9 時と入力した場合、GMT+3 タイムゾーンの受信者は、現地時刻の午前 9 時にそのメッセージを受信します。
+  例えば、「**[!UICONTROL Start sending from]**」フィールドに午前 9 時と入力した場合、GMT+3 タイムゾーンの受信者は、現地時刻の午前 9 時にそのメッセージを受信します。
 
-   [受信者のタイムゾーンでのメッセージの送信](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md)を参照してください。
+  [受信者のタイムゾーンでのメッセージの送信](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md)を参照してください。
 
 * **[!UICONTROL Send at a custom date defined by a formula]**：各受信者は、指定された数式で設定された日時にメッセージを受信します。
 
-   [送信日の計算](../../sending/using/computing-the-sending-date.md)を参照してください。
+  [送信日の計算](../../sending/using/computing-the-sending-date.md)を参照してください。

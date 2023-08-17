@@ -38,7 +38,7 @@ ht-degree: 98%
 
 ## ターゲット母集団からの抽出 {#extraction-target-population}
 
-コントロール母集団を定義するには、ターゲット母集団から一定の割合または一定数のプロファイルを、無作為または並べ替えに基づいて抽出できます。
+コントロール母集団を定義するには、ターゲット母集団から無作為に、または並べ替えに基づいて、一定の割合または一定数のプロファイルを抽出できます。
 
 ### ターゲットからの抽出 {#target-extraction}
 
@@ -48,23 +48,23 @@ ht-degree: 98%
 
 * **[!UICONTROL Random sampling]**：配信を準備すると、[サイズ制限](#size-limit)として設定する割合または最大数に応じてプロファイルが無作為に抽出されます。
 
-   例：「**[!UICONTROL Limits]**」セクションでしきい値を 10 に設定した場合、コントロール母集団は、ターゲット母集団から無作為に選択された 10％で構成されます。<!--Change screenshot to match example)-->
+  例：「**[!UICONTROL Limits]**」セクションでしきい値を 10 に設定した場合、コントロール母集団は、ターゲット母集団から無作為に選択された 10％で構成されます。<!--Change screenshot to match example)-->
 
-   ![](assets/control-group-random-sampling.png)
+  ![](assets/control-group-random-sampling.png)
 
 * **[!UICONTROL Keep only the first records after sorting]**：このオプションを使用すると、1 つ以上の並べ替え順に基づく制限を定義できます。
 
-   例：
+  例：
 
    * 「**[!UICONTROL Age]**」フィールドを並べ替え条件として選択します。
    * 「**[!UICONTROL Limits]**」セクションで 100 をしきい値として定義します（[サイズ制限](#size-limit)を参照）。
    * 「**[!UICONTROL Descending sort]**」オプションは選択したままにします。
 
-   これで、このコントロール母集団は年齢が高い順の受信者 100 人で構成されるようになります。<!--Change screenshot to match example)-->
+  これで、このコントロール母集団は年齢が高い順の受信者 100 人で構成されるようになります。<!--Change screenshot to match example)-->
 
-   ![](assets/control-group-keep-first-records.png)
+  ![](assets/control-group-keep-first-records.png)
 
-   ほとんど購入していないプロファイルや、頻繁に購入するプロファイルを含むコントロール母集団を定義して、その行動をメッセージを受信した集団の行動と比較すると、興味深い結果が得られる可能性があります。
+  ほとんど購入していないプロファイルや、頻繁に購入するプロファイルを含むコントロール母集団を定義して、その行動をメッセージを受信した集団の行動と比較すると、興味深い結果が得られる可能性があります。
 
 >[!NOTE]
 >
@@ -78,23 +78,23 @@ ht-degree: 98%
 
 * 「**[!UICONTROL Size (as a % of the initial population)]**」を選択して対応するフレームに値を入力します。
 
-   例えば、10 を設定した場合、上で選択したオプションに応じて、Adobe Campaign は次のいずれかを実行します。
+  例えば、10 を設定した場合、上で選択したオプションに応じて、Adobe Campaign は次のいずれかを実行します。
    * ターゲットの母集団の 10％ を無作為に抽出します。
    * 並べ替え条件として「**[!UICONTROL Age]**」フィールドを選択した場合は、ターゲット母集団から年齢の高い順に 10％ のプロファイルを抽出します。
 
-   >[!NOTE]
-   >
-   >「**[!UICONTROL Descending sort]**」オプションをオフにすると、年齢の低い順に 10％ のプロファイルが抽出されます。
+  >[!NOTE]
+  >
+  >「**[!UICONTROL Descending sort]**」オプションをオフにすると、年齢の低い順に 10％ のプロファイルが抽出されます。
 
 * 「**[!UICONTROL Maximum size]**」を選択して対応するフレームに値を入力します。
 
-   例えば、100 を設定した場合、Adobe Campaign は次のいずれかを実行します。
+  例えば、100 を設定した場合、Adobe Campaign は次のいずれかを実行します。
    * ターゲット母集団から 100 人のプロファイルを無作為に抽出します。
    * 並べ替え条件として「**[!UICONTROL Age]**」フィールドを選択した場合は、ターゲット母集団から年齢の高い順に 100 人のプロファイルを抽出します。
 
-   >[!NOTE]
-   >
-   >「**[!UICONTROL Descending sort]**」オプションをオフにすると、年齢の低い順に 100 人のプロファイルが抽出されます。
+  >[!NOTE]
+  >
+  >「**[!UICONTROL Descending sort]**」オプションをオフにすると、年齢の低い順に 100 人のプロファイルが抽出されます。
 
 ## 特定の母集団の除外 {#excluding-specific-population}
 
@@ -163,11 +163,11 @@ ht-degree: 98%
 
 * 「**[!UICONTROL Sending logs]**」タブで、抽出および除外されたプロファイルを確認できます。ステータスが「**[!UICONTROL Ignored]**」、失敗の理由が「**[!UICONTROL Control group]**」となっています。
 
-   ![](assets/control-group-sending-logs.png)
+  ![](assets/control-group-sending-logs.png)
 
 * また、「**[!UICONTROL Exclusion causes]**」タブでは、配信に含まれていないプロファイルの数を確認できます。
 
-   ![](assets/control-group-exclusion-causes.png)
+  ![](assets/control-group-exclusion-causes.png)
 
 ### コントロール母集団ログの使用 {#using-logs}
 

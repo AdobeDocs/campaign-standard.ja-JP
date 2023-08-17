@@ -45,7 +45,7 @@ ht-degree: 24%
 
 <img width="60px" alt="条件" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. 前庭の placerat mauris levero、非非非非難の sapien rhoncus id. 整数 luctus blandit リグラ。 ヌラ・クイス・ビヒュラ・オーグエ、ラシニア・リサス。 Nunc pharetra fringilla enim eu suscipit. Mauris consectur maximus euismod. CRAS と車の NULL。 Aenean tellus quam, tristique quis risus consectur, pulvinar elementum dui.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. 前庭の placerat mauris levero、非非非非難の sapien rhoncus id. 整数 luctus blandit リグラ。 ヌラ・クイス・ビヒュラ・オーグエ、ラシニア・リサス。 Nunc pharetra fringilla enim eu suscipit. Mauris consectur maximus euismod. CRAS と車の NULLA。 Aenean tellus quam, tristique quis risus consectur, pulvinar elementum dui.
 
 **詳細情報**
 
@@ -56,7 +56,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. 前庭の placerat maur
 
 <img width="60px" alt="条件" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. 前庭の placerat mauris levero、非非非非難の sapien rhoncus id. 整数 luctus blandit リグラ。 ヌラ・クイス・ビヒュラ・オーグエ、ラシニア・リサス。 Nunc pharetra fringilla enim eu suscipit. Mauris consectur maximus euismod. CRAS と車の NULL。 Aenean tellus quam, tristique quis risus consectur, pulvinar elementum dui.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. 前庭の placerat mauris levero、非非非非難の sapien rhoncus id. 整数 luctus blandit リグラ。 ヌラ・クイス・ビヒュラ・オーグエ、ラシニア・リサス。 Nunc pharetra fringilla enim eu suscipit. Mauris consectur maximus euismod. CRAS と車の NULLA。 Aenean tellus quam, tristique quis risus consectur, pulvinar elementum dui.
 
 **詳細情報**
 
@@ -76,7 +76,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. 前庭の placerat maur
 * [送信者をパーソナライズ](../../designing/using/subject-line.md) 電子メールまたは SMS の
 * [件名行をパーソナライズ](../../designing/using/subject-line.md) 電子メールの
 * 作成 [E メール内の条件付きコンテンツ](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) または [ランディングページ内](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)
-* 挿入 [ダイナミックテキスト](../../channels/using/defining-dynamic-text.md) （SMS メッセージまたはプッシュ通知内）
+* 挿入 [動的テキスト](../../channels/using/defining-dynamic-text.md) （SMS メッセージまたはプッシュ通知内）
 
 ![](assets/delivery_content_43.png)
 
@@ -111,7 +111,7 @@ Adobe Campaignでは、各配信を個別に監視およびトラッキングで
 
 <img width="60px" alt="条件" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. 前庭の placerat mauris levero、非非非非難の sapien rhoncus id. 整数 luctus blandit リグラ。 ヌラ・クイス・ビヒュラ・オーグエ、ラシニア・リサス。 Nunc pharetra fringilla enim eu suscipit. Mauris consectur maximus euismod. CRAS と車の NULL。 Aenean tellus quam, tristique quis risus consectur, pulvinar elementum dui.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. 前庭の placerat mauris levero、非非非非難の sapien rhoncus id. 整数 luctus blandit リグラ。 ヌラ・クイス・ビヒュラ・オーグエ、ラシニア・リサス。 Nunc pharetra fringilla enim eu suscipit. Mauris consectur maximus euismod. CRAS と車の NULLA。 Aenean tellus quam, tristique quis risus consectur, pulvinar elementum dui.
 
 **詳細情報**
 

@@ -17,13 +17,13 @@ ht-degree: 19%
 
 # E メールの作成{#creating-an-email}
 
-電子メールは、 [campaign](../../start/using/marketing-activities.md#creating-a-marketing-activity)Adobe Campaignから [ホームページ](../../start/using/interface-description.md#home-page)または [マーケティングアクティビティリスト](../../start/using/marketing-activities.md#about-marketing-activities). ワークフローから 1 回限りの電子メールや定期的な電子メールを作成することもできます。
+E メールは、 [campaign](../../start/using/marketing-activities.md#creating-a-marketing-activity)(Adobe Campaignから ) [ホームページ](../../start/using/interface-description.md#home-page)、または [マーケティングアクティビティリスト](../../start/using/marketing-activities.md#about-marketing-activities). ワークフローから 1 回限りの電子メールや定期的な電子メールを作成することもできます。
 
 ![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](#video)
 
 1. 電子メールマーケティングアクティビティの作成を開始したら、使用するテンプレートを選択します。
 
-   デフォルトでは、各マーケティングアクティビティに対して複数のテンプレートから選択できます。 これにより、必要に応じて特定のパラメーターを事前設定し、ブランドを配信に割り当てることもできます。 詳しくは、 [テンプレートの管理](../../start/using/marketing-activity-templates.md).
+   デフォルトでは、各マーケティングアクティビティに対して複数のテンプレートから選択できます。 これにより、必要に応じて特定のパラメーターを事前設定し、ブランドを配信に割り当てることができます。 詳しくは、 [テンプレートの管理](../../start/using/marketing-activity-templates.md).
 
    ![](assets/email_creation_1.png)
 
@@ -31,7 +31,7 @@ ht-degree: 19%
    >
    >フォローアップおよび A/B テストテンプレートは、デフォルトで非表示になっています。左側のチェックボックスをオンにします ( **[!UICONTROL Filter]** 横置きパネルを参照 )。
 
-1. E メールの一般的なプロパティを入力します。 名前は **ラベル** 「 」フィールドを開き、ID を編集します。
+1. E メールの一般的なプロパティを入力します。 名前を **ラベル** 「 」フィールドに値を入力し、ID を編集します。
 
    >[!NOTE]
    >
@@ -53,7 +53,7 @@ ht-degree: 19%
 
    ![](assets/email_creation_3.png)
 
-1. を使用して、メッセージの内容、送信者名、件名を定義し、パーソナライズします。 [メールデザイナー](../../designing/using/designing-content-in-adobe-campaign.md). 詳しくは、 [E メールコンテンツデザインについて](../../designing/using/designing-content-in-adobe-campaign.md).
+1. を使用して、メッセージの内容、送信者名、件名を定義し、パーソナライズします。 [E メールデザイナー](../../designing/using/designing-content-in-adobe-campaign.md). 詳しくは、 [E メールコンテンツデザインについて](../../designing/using/designing-content-in-adobe-campaign.md).
 
    ![](assets/email_creation_4.png)
 
@@ -68,7 +68,7 @@ ht-degree: 19%
 
    E メールダッシュボードが表示されます。 メッセージを確認し、 [送信の準備](../../sending/using/preparing-the-send.md).
 
-   この **[!UICONTROL Edit properties]** ボタンを使用して、E メールのプロパティを編集できます。 例えば、配信準備時にラベルが計算されるように E メールを設定できます。  使用可能なパラメーターは、 [この節](../../administration/using/configuring-email-channel.md#list-of-email-properties).
+   The **[!UICONTROL Edit properties]** ボタンを使用して、E メールのプロパティを編集できます。 例えば、配信準備時にラベルが計算されるように E メールを設定できます。  使用可能なパラメーターは、 [この節](../../administration/using/configuring-email-channel.md#list-of-email-properties).
 
    ![](assets/delivery_dashboard_2.png)
 

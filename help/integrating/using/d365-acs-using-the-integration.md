@@ -21,19 +21,19 @@ Microsoft Dynamics 365 とのAdobe Campaign Standard統合で実行されるデ�
 
 データフローの詳細については、このドキュメントの詳細を参照してください。 [データフロー](#data-flows)  」セクションに入力します。
 
-## Adobe Campaign Standardユーザーエクスペリエンス
+## Adobe Campaign Standard User Experience
 
 Microsoft Dynamics 365 で連絡先が作成、変更または削除されると（削除が有効な場合）、その連絡先はCampaign Standardに送信されます。 これらの連絡先は、Campaign のプロファイル画面に表示され、マーケティングキャンペーンのターゲットに設定できます。 下のプロファイル画面を参照してください。
 
 ![](assets/MSdynamicsACS-usage1.png)
 
-Campaign でオプトアウト属性を変更すると、Dynamics 365 で **単方向 (Campaign からMicrosoft Dynamics 365)** または **双方向** オプトアウト設定を使用する場合と、その特定の属性が正しくマッピングされている場合に、個別の属性を選択します。
+Campaign でオプトアウト属性を変更すると、Dynamics 365 に反映されます ( **単方向 (Campaign からMicrosoft Dynamics 365)** または **双方向** オプトアウト設定を使用する場合と、その特定の属性が正しくマッピングされている場合に、個別の属性を使用することをお勧めします。
 
-## Microsoft Dynamics 365 ユーザーエクスペリエンス
+## Microsoft Dynamics 365 のユーザーエクスペリエンス
 
 エグレスについて、次の電子メールマーケティングイベントが Campaign から Dynamics 365 に送信され、Microsoft Dynamics 365 タイムラインビューにカスタムアクティビティとして表示されます。
 
-* Adobe Campaign電子メール送信
+* Adobe Campaign E メール送信
 
 * Adobe Campaign E メールオープン
 
@@ -45,9 +45,9 @@ Campaign でオプトアウト属性を変更すると、Dynamics 365 で **単�
 
 >[!NOTE]
 >
->この **Adobe Campaign for Microsoft Dynamics 365** これらのイベントを表示するには、Microsoft Dynamics 365 インスタンスに AppSource のアプリがインストールされている必要があります。 [詳細情報](../../integrating/using/d365-acs-configure-d365.md#install-appsource-app)。
+>The **Adobe Campaign for Microsoft Dynamics 365** これらのイベントを表示するには、Microsoft Dynamics 365 インスタンスに AppSource のアプリがインストールされている必要があります。 [詳細情報](../../integrating/using/d365-acs-configure-d365.md#install-appsource-app)
 
-以下に、「Dynamics ユーザ」の連絡先画面のスナップショットを示します。 タイムラインビューでは、Dynamics ユーザーがキャンペーン名「2019LoyaltyCamp」および配信名「DM190」に関連付けられたメールを送信したことがわかります。 Dynamics ユーザーがメールを開き、メール内の URL もクリックしました。これらの両方のアクションによって、以下に示すイベントが作成されました。 右隅を見ると、リレーションシップアシスタント (RA) カードが表示されます。現在、クリックされた URL を追跡するタスクが含まれています。
+以下に、「Dynamics ユーザ」の連絡先画面のスナップショットを示します。 タイムラインビューでは、Dynamics ユーザーがキャンペーン名「2019LoyaltyCamp」および配信名「DM190」に関連付けられたメールを送信したことがわかります。 Dynamics ユーザーがメールを開き、メール内の URL をクリックしました。これらの両方のアクションによって、以下に示すイベントが作成されました。 右隅を見ると、リレーションシップアシスタント (RA) カードが表示されます。現在は、クリックされた URL を追跡するタスクが含まれています。
 
 ![](assets/do-not-localize/MSdynamicsACS-usage4.png)
 
@@ -67,43 +67,43 @@ Dynamics User のタイムラインビューを閉じるには、以下を参照
 
 ![](assets/do-not-localize/mirror_page_url_click.png)
 
-以下は、属性と説明のリストです。
+以下に、属性と説明のリストを示します。
 
-* **件名**:イベントの件名E メール配信のキャンペーン ID と配信 ID で構成されます
+* **件名**：イベントの件名。E メール配信のキャンペーン ID と配信 ID で構成されます。
 
-* **所有者**:プロビジョニング後の手順で作成されたアプリケーションユーザー
+* **所有者**：プロビジョニング後の手順で作成されたアプリケーションユーザー
 
-* **関連**:連絡先の名前
+* **関連**：連絡先の名前
 
 * **キャンペーン名**:Campaign Standardのキャンペーン ID
 
 * **配信名**:Campaign Standardの配信 ID
 
-* **送信日/開封日/クリック日/バウンス日**:イベントが作成された日時
+* **送信日/開封日/クリック日/バウンス日**：イベントが作成された日時
 
-* **トラッキング URL**:クリックされた URL
+* **トラッキング URL**：クリックされた URL
 
-* **ミラーページの URL**:送信、開封、クリック、バウンスの順に実行された電子メールのミラーページへの URL。 E メールミラーページの有効期限は、対応する Campaign E メールチャネルアクティビティの設定画面で変更できます。 [詳細情報](../../administration/using/configuring-email-channel.md#validity-period-parameters)。
+* **ミラーページの URL**：送信、開封、クリック、バウンスの順に実行された電子メールのミラーページへの URL。 E メールミラーページの有効期限は、対応する Campaign E メールチャネルアクティビティの設定画面で変更できます。 [詳細情報](../../administration/using/configuring-email-channel.md#validity-period-parameters)
 
 >[!NOTE]
 >
->オプトアウトの場合、Microsoft Dynamics 365 でオプトアウト属性を変更すると、 **単方向 (Campaign からMicrosoft Dynamics 365)** または **双方向** オプトアウト設定を使用する場合と、その特定の属性が正しくマッピングされている場合に、個別の属性を選択します。
+>オプトアウトの場合、Microsoft Dynamics 365 でオプトアウト属性を変更すると、 **単方向 (Campaign からMicrosoft Dynamics 365)** または **双方向** オプトアウト設定を使用する場合と、その特定の属性が正しくマッピングされている場合に、個別の属性を使用することをお勧めします。
 
 ## データフロー {#data-flows}
 
 ### 連絡先とカスタムエンティティの入力
 
-新規レコード、更新レコード、削除されたレコード ( 注意：削除する必要があります ) をMicrosoft Dynamics 365 の連絡先テーブルから Campaign プロファイルテーブルに送信します。
+新規、更新および削除されたレコード（注意：削除は有効にする必要があります）は、Microsoft Dynamics 365 の連絡先テーブルから Campaign プロファイルテーブルに送信されます。
 
 統合アプリケーション UI で、Microsoft Dynamics 365 テーブル属性を Campaign テーブル属性にマッピングするようにテーブルマッピングを設定できます。 必要に応じて、テーブルマッピングを変更して属性を追加または削除できます。
 
-データフローの初回実行は、「非アクティブ」とマークされたレコードを含む、すべてのマッピングされたレコードを転送するように設計されています。その後、統合で処理されるのは、増分更新のみです。 ただし、データが再生された場合や、フィルターが設定されている場合は例外です。基本的な属性ベースのフィルタリングルールを設定して、Campaign に同期するレコードを決定できます。
+データフローの初回実行は、「非アクティブ」とマークされたレコードを含む、すべてのマッピング済みレコードを転送するように設計されています。その後、統合では増分更新のみが処理されます。 例外は、データが再生された場合、またはフィルターが設定されている場合です。基本的な、属性ベースのフィルタリングルールを設定して、Campaign に同期するレコードを決定できます。
 
 統合アプリケーションの UI で、属性値を別の値に置き換えるように基本的な置き換えルールを設定できます ( 例えば、「#00FF00」は「green」、「F」は「1」など )。
 
-レコードの量に応じて、最初のデータ転送に Campaign の SFTP ストレージを使用する必要が生じる場合があります。 [詳細情報](#initial-data-transfer)。
+レコードの量に応じて、最初のデータ転送に Campaign の SFTP ストレージを使用する必要が生じる場合があります。 [詳細情報](#initial-data-transfer)
 
-連絡先の入力が機能するには、Campaign プロファイルテーブル属性 externalId に Dynamics 365 連絡先属性 contactId を設定する必要があります。 また、Campaign のカスタムエンティティには、Dynamics 365 の一意の ID 属性を設定する必要があります。ただし、この属性は任意の Campaign カスタムエンティティ属性に保存できます（つまり、externalId を指定する必要はありません）。
+連絡先の入力が機能するには、Campaign プロファイルテーブル属性 externalId に Dynamics 365 連絡先属性 contactId を設定する必要があります。 また、Campaign のカスタムエンティティには、Dynamics 365 の一意の ID 属性を設定する必要があります。ただし、この属性は、Campaign のカスタムエンティティ属性に格納できます（つまり、externalId にする必要はありません）。
 
 >[!NOTE]
 >
@@ -111,7 +111,7 @@ Dynamics User のタイムラインビューを閉じるには、以下を参照
 
 #### カスタムエンティティ
 
-この [Microsoft Dynamics 365 とAdobe Campaign Standardの統合](../../integrating/using/d365-acs-get-started.md) はカスタムエンティティをサポートし、Dynamics 365 のカスタムエンティティを Campaign の対応するカスタムリソースに同期できます。
+The [Microsoft Dynamics 365 とAdobe Campaign Standardの統合](../../integrating/using/d365-acs-get-started.md) はカスタムエンティティをサポートし、Dynamics 365 のカスタムエンティティを Campaign の対応するカスタムリソースに同期できます。
 
 カスタムリソースの新しいデータは、セグメント化やパーソナライゼーションなど、複数の目的で使用できます。
 
@@ -120,6 +120,7 @@ Dynamics User のタイムラインビューを閉じるには、以下を参照
 >[!IMPORTANT]
 >
 >Campaign のカスタムリソースレコードに個人情報が含まれている場合は、特定の推奨事項が適用されます。 詳しくは、[この節](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-data)を参照してください。
+>
 
 カスタムエンティティのデータフローを設定する場合は、次の点に注意する必要があります。
 
@@ -156,23 +157,24 @@ Dynamics 365 内には、次のイベント属性が表示されます。
 
 ### オプトアウトフロー {#opt-out-flow}
 
-オプトアウト ( 例：ブロックリスト) 値はシステム間で同期されます。オンボーディングの際に、次の選択肢から選択できます。
+オプトアウト（例：）値はシブロックリストに加えるステム間で同期されます。オンボーディング時に次のオプションから選択できます。
 
-* **単方向 (Microsoft Dynamics 365 ～ Campaign)**:Dynamics 365 は、オプトアウトの情報源です。 オプトアウト属性は、Dynamics 365 からCampaign Standardへの一方向で同期されます。
-* **単方向 (Campaign からMicrosoft Dynamics 365)**:Campaign Standardは、オプトアウトの情報源です。 オプトアウト属性は、Campaign Standardから Dynamics 365 への一方向で同期されます
-* **双方向**:Dynamics 365 ANDCampaign Standardはどちらも真実の源です。 オプトアウト属性は、Dynamics と Dynamics 365 の間で双方向にCampaign Standardされます
+* **単方向 (Microsoft Dynamics 365 ～ Campaign)**:Dynamics 365 は、オプトアウトに関する情報源です。 オプトアウト属性は、Dynamics 365 からCampaign Standardへの一方向で同期されます。
+* **単方向 (Campaign からMicrosoft Dynamics 365)**:Campaign Standardは、オプトアウトに関する情報源です。 オプトアウト属性は、Campaign Standardから Dynamics 365 への一方向で同期されます
+* **双方向**:Dynamics 365 ANDCampaign Standardは、どちらも真理の源です。 オプトアウト属性は、Dynamics と Dynamics 365 の間で双方向にCampaign Standardされます
 
 また、システム間でオプトアウト同期を管理する別のプロセスがある場合は、統合のオプトアウトデータフローを無効にできます。
 
 >[!NOTE]
 >
->統合アプリケーション UI で、 **単方向 (Microsoft Dynamics 365 ～ Campaign)** そして **双方向** オプトアウトの使用例は、別のオプトアウトワークフローで設定します。 [詳細情報](../../integrating/using/d365-acs-self-service-app-data-sync.md#opt-in-out-wf)。
+>統合アプリケーションの UI で、 **単方向 (Microsoft Dynamics 365 ～ Campaign)** そして **双方向** オプトアウトの使用例は、別のオプトアウトワークフローで設定します。 [詳細情報](../../integrating/using/d365-acs-self-service-app-data-sync.md#opt-in-out-wf)
 >
->この **単方向 (Campaign からMicrosoft Dynamics 365)** オプトアウトの使用例は例外です。これは、入口（プロファイルへの連絡）ワークフロー内で設定されます。
+>The **単方向 (Campaign からMicrosoft Dynamics 365)** オプトアウトの使用例は例外です。これは、入口（プロファイルへの連絡）ワークフロー内で設定されます。
+>
 
 ビジネス要件は会社によって異なる場合があるので、オプトアウトフローマッピングは顧客が指定します。 キャンペーン側では、オプトアウトマッピングに使用できるのは OOTB オプトアウト属性のみです。
 
-* ブロックリスト
+* ブロックリストに加える
 * denyListEmail
 * denyListFax
 * denyListMobile
@@ -181,7 +183,7 @@ Dynamics 365 内には、次のイベント属性が表示されます。
 * denyListPushnotification
 * ccpaOptOut
 
-Dynamics 365 では、ほとんどのオプトアウトフィールドには「donot」プレフィックスが付きます。ただし、データタイプに互換性がある場合は、他の属性をオプトアウト用に利用することもできます。
+Dynamics 365 では、ほとんどのオプトアウトフィールドには「donot」プレフィックスが付きますが、データタイプに互換性がある場合は、他の属性をオプトアウト用に利用することもできます。
 
 ### 初期データ転送 {#initial-data-transfer}
 

@@ -19,7 +19,7 @@ ht-degree: 0%
 
 パラメーターを指定してワークフローを呼び出す最初の手順は、パラメーターを指定してワークフローを **[!UICONTROL External signal]** アクティビティ。
 
-1. を開きます。 **[!UICONTROL External signal]** 「 」アクティビティで、 **[!UICONTROL Parameters]** タブをクリックします。
+1. を開きます。 **[!UICONTROL External signal]** 「 」アクティビティで、「 」 **[!UICONTROL Parameters]** タブをクリックします。
 1. 次をクリック： **[!UICONTROL Create element]** ボタンをクリックして、各パラメーターの名前とタイプを指定します。
 
    >[!CAUTION]

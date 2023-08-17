@@ -11,7 +11,7 @@ exl-id: 184bc656-2107-4380-9b35-148cb4380547
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
 source-wordcount: '778'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 3%
 
 ## 統合アプリへの資格情報の追加
 
-この **[!UICONTROL Settings]** 画面では、Microsoft Dynamics 365 とAdobeAPI の資格情報を指定できます。 また、Adobe Campaign SFTP インスタンスに関連する設定を指定することもできます。
+The **[!UICONTROL Settings]** 画面では、Microsoft Dynamics 365 とAdobeAPI の資格情報を指定できます。 また、Adobe Campaign SFTP インスタンスに関連する設定を指定することもできます。
 
 ### Microsoft Dynamics 365 資格情報
 
@@ -27,13 +27,13 @@ Microsoft Dynamics 365 資格情報は、統合アプリケーションがMicros
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-settings-d365.png)
 
-* **[!UICONTROL Client ID]**:クライアント ID をで参照する方法を説明します。 [この節](../../integrating/using/d365-acs-configure-d365.md#register-a-new-app)
+* **[!UICONTROL Client ID]**：でクライアント ID を参照する方法を説明します。 [この節](../../integrating/using/d365-acs-configure-d365.md#register-a-new-app)
 
-* **[!UICONTROL Client Secret]**:でクライアントシークレットを生成する方法を説明します。 [この節](../../integrating/using/d365-acs-configure-d365.md#generate-a-client-secret)
+* **[!UICONTROL Client Secret]**：でクライアントシークレットを生成する方法を説明します。 [この節](../../integrating/using/d365-acs-configure-d365.md#generate-a-client-secret)
 
-* **[!UICONTROL Tenant]**:でテナント ID を検索する方法を説明します。 [この節](../../integrating/using/d365-acs-configure-d365.md#get-the-tenant-id)
+* **[!UICONTROL Tenant]**：でテナント ID を見つける方法を説明します。 [この節](../../integrating/using/d365-acs-configure-d365.md#get-the-tenant-id)
 
-* **[!UICONTROL URL]**:URL の形式は次のようになります。 `https://&lt;servername&gt;.api.crm.dynamics.com/`
+* **[!UICONTROL URL]**:URL はの形式を持ちます `https://&lt;servername&gt;.api.crm.dynamics.com/`
 
 ### AdobeAPI 資格情報
 
@@ -43,9 +43,9 @@ Adobe Campaign資格情報は、 [Adobe I/O](https://www.adobe.io/). 画面に�
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-settings-adobeio.png)
 
-* *秘密鍵*:これを定義するプロセスは、まず「公開鍵と秘密鍵のペアを生成」ボタンをクリックします。 これにより、ダウンロードする必要のある zip ファイルが作成されます。 ダウンロードしたら、ファイルを解凍します。これにより、certificate_pub.crt および private.key という 2 つのファイルが作成されます。 秘密鍵は、必ず安全な場所に配置し、共有しないでください。 private.key ファイルをテキストエディターで開きます。 テキストエディターの値全体をコピーします (PC では Ctrl + A キー、Macでは Command + A キー、Command + C キー )。 これには、「BEGIN PRIVATE KEY」と「END PRIVATE KEY」全体を含む行を含める必要があります。 この複数行テキスト全体を、設定画面の「秘密鍵」入力に貼り付けます。
+* *秘密鍵*：これを定義するプロセスは、まず「公開鍵と秘密鍵のペアを生成」ボタンをクリックします。 これにより、ダウンロードする必要のある zip ファイルが作成されます。 ダウンロードしたら、ファイルを解凍します。これにより、certificate_pub.crt および private.key という 2 つのファイルが作成されます。 秘密鍵は、必ず安全な場所に配置し、共有しないでください。 private.key ファイルをテキストエディターで開きます。 テキストエディターの値全体をコピーします (PC では Ctrl + A キー、Macでは Command + A キー、Command + C キー )。 これには、「BEGIN PRIVATE KEY」と「END PRIVATE KEY」全体を含む行を含める必要があります。 この複数行のテキスト全体を、設定画面の「秘密鍵」入力に貼り付けます。
 
-* *URL*:この値は、https\://mc.adobe.io/のパターンに適合します。&lt;campaign-instance-name>. 統合アプリのヘッダーには、「Org」と「Instance」の両方が含まれます。 URL の「campaign-instance-name」部分は、このインスタンス値にある名前に過ぎません。
+* *URL*：この値は、https\://mc.adobe.io/のパターンに合わせます。&lt;campaign-instance-name>. 統合アプリのヘッダーには、「Org」と「Instance」の両方が含まれます。 URL の「campaign-instance-name」部分は、このインスタンス値にある名前に過ぎません。
 
 ## Adobe Campaign SFTP 設定 {#ac-smtp-settings}
 
@@ -56,6 +56,7 @@ SFTP サーバーを設定するもう 1 つの理由は、オプトイン/オ�
 >[!IMPORTANT]
 >
 >SFTP フォルダーにアクセスしてダウンロードする情報は、ユーザーが担当します。 情報に個人データが含まれる場合、お客様は、適用されるプライバシーに関する法令に準拠する責任を負います。 [詳細情報](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-privacy)
+>
 
 Microsoft Dynamics 365 統合の Campaign SFTP 設定を定義するには、次のセクションにアクセスします。
 
@@ -63,21 +64,21 @@ Microsoft Dynamics 365 統合の Campaign SFTP 設定を定義するには、次
 
 次を指定する必要があります。
 
-* **SFTP ホスト**:このフィールドには次が含まれます： &lt;campaign-instance-name>.campaign.adobe.com. 統合アプリのヘッダーには、 **組織** および **インスタンス**. URL の「campaign-instance-name」部分は、このインスタンス値にある名前に過ぎません。
+* **SFTP ホスト**：このフィールドにはが含まれます。 &lt;campaign-instance-name>.campaign.adobe.com. 統合アプリのヘッダーには、 **組織** および **インスタンス**. URL の「campaign-instance-name」部分は、このインスタンス値にある名前に過ぎません。
 
 * **SFTP ユーザー**:SFTP ユーザーがいる場合は、ここに追加します。 それ以外の場合は、 [この節](#ac-control-panel-settings). プロセスの一部として、ユーザー名が表示されます。
 
 * **SFTP キー**:SSH キーを持っている場合は、ここに追加します。 それ以外の場合は、 [この節](#ac-control-panel-settings).
 
-* この **IP 範囲** がAdobe Campaign SFTP 設定に含まれる必要があります。 統合で SFTP エンドポイントを許可リストに加えるするには、これらの値を使用する必要があります。
+* The **IP 範囲** がAdobe Campaign SFTP 設定に含まれる必要があります。 統合で SFTP エンドポイントを許可リストに加えるするには、これらの値を使用する必要があります。
 
-* この **ログをAdobe Campaign SFTP に書き出しますか？** では、統合によってログ情報が SFTP エンドポイントに出力されるかどうかを決定できます。 これは、Adobe CampaignまたはMicrosoft Dynamics 365 が期待する情報を表示していない場合のデバッグに役立ちます。
+* The **ログをAdobe Campaign SFTP に書き出しますか？** では、統合によってログ情報が SFTP エンドポイントに出力されるかどうかを決定できます。 これは、Adobe CampaignまたはMicrosoft Dynamics 365 が期待する情報を表示していない場合のデバッグに役立ちます。
 
-## Adobe Campaignでの SFTP 設定 {#ac-control-panel-settings}
+## Adobe Campaignでの SFTP の設定 {#ac-control-panel-settings}
 
 を使用した SFTP 管理の確認 [キャンペーンCampaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja) 以下の節で説明します。
 
-* [SFTP 管理について](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html#sftp-management)
+* [SFTP 管理について](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=ja#sftp-management)
 
 * [SFTP ストレージ管理](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html#installing-ssh-key)
 

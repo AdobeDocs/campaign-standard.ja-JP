@@ -18,31 +18,31 @@ ht-degree: 79%
 
 # 配信の監視{#monitoring-a-delivery}
 
-配信を監視し、その影響を測定する方法はいくつかあります。 機能管理者は、メッセージログと配信ログにアクセスできます。
+配信を監視し、その影響を測定するには、いくつかの方法があります。 機能管理者は、メッセージログと配信ログにアクセスできます。
 
 >[!IMPORTANT]
 >
->機能のみ [管理者](../../administration/using/users-management.md#functional-administrators)を **[!UICONTROL Administration]** 役割とアクセス **すべて** ユニットは、送信ログ、メッセージログ、トラッキングログ、除外ログ、購読ログにアクセスできます。 管理者以外のユーザーは、リンクされたテーブル（プロファイル、配信）から開始しながら、これらのログをターゲットにすることができます。
+>機能のみ [管理者](../../administration/using/users-management.md#functional-administrators)、を **[!UICONTROL Administration]** 役割とアクセス権 **すべて** ユニットは、送信ログ、メッセージログ、トラッキングログ、除外ログ、購読ログにアクセスできます。 管理者以外のユーザーは、リンクされたテーブル（プロファイル、配信）から開始しながら、これらのログをターゲットにすることができます。
 
 * **メッセージログ**：これらのログは、メッセージダッシュボードから直接アクセスできます。送信の詳細、除外されたターゲットとその理由、および開封数やクリック数などの追跡情報が表示されます。
 
-   メッセージログを表示するには、**[!UICONTROL Deployment]** ブロックの右下にあるアイコンをクリックします。
+  メッセージログを表示するには、**[!UICONTROL Deployment]** ブロックの右下にあるアイコンをクリックします。
 
-   いくつかのタブには、**[!UICONTROL Sending logs]**、**[!UICONTROL Exclusion logs]**、**[!UICONTROL Exclusion causes]**、**[!UICONTROL Tracking logs]**、**[!UICONTROL Tracked URLs]** に関する情報（存在する場合）が含まれます。[配信ログ](#delivery-logs)を参照してください。
+  いくつかのタブには、**[!UICONTROL Sending logs]**、**[!UICONTROL Exclusion logs]**、**[!UICONTROL Exclusion causes]**、**[!UICONTROL Tracking logs]**、**[!UICONTROL Tracked URLs]** に関する情報（存在する場合）が含まれます。[配信ログ](#delivery-logs)を参照してください。
 
-   ![](assets/sending_delivery1.png)
+  ![](assets/sending_delivery1.png)
 
-   ログには、配信と配達確認に関するすべてのメッセージが含まれます。特別なアイコンによって、エラーまたは警告を識別できます。詳しくは、[メッセージの承認](../../sending/using/previewing-messages.md)を参照してください。
+  ログには、配信と配達確認に関するすべてのメッセージが含まれます。特別なアイコンによって、エラーまたは警告を識別できます。詳しくは、[メッセージの承認](../../sending/using/previewing-messages.md)を参照してください。
 
-   「**[!UICONTROL Export list]**」ボタンをクリックすると、ログをエクスポートすることができます。
+  「**[!UICONTROL Export list]**」ボタンをクリックすると、ログをエクスポートすることができます。
 
-   ![](assets/sending_delivery2.png)
+  ![](assets/sending_delivery2.png)
 
-* **ジョブのログ**:配信でトリガーされるバッチジョブのリストにアクセスするには、メッセージダッシュボードで「 **[!UICONTROL Job history]** から **[!UICONTROL Summary]** 」ドロップダウンリストから選択できます。
+* **ジョブのログ**：配信でトリガーされるバッチジョブのリストは、メッセージダッシュボードから、「 **[!UICONTROL Job history]** から **[!UICONTROL Summary]** 」ドロップダウンリストから選択できます。
 
-   リストから任意のジョブを選択して、選択したジョブの詳細を表示します **[!UICONTROL Batch job]**.
+  リストから任意のジョブを選択して、選択したジョブの詳細を表示します **[!UICONTROL Batch job]**.
 
-   ![](assets/sending_delivery8.png)
+  ![](assets/sending_delivery8.png)
 
 * **配信アラート**：配信の成功または失敗を追跡するために、Adobe Campaign は重要なシステムアクティビティをユーザーに通知する E メールアラートシステムを備えています。
 * **レポート**：メッセージダッシュボードから、この特定のメッセージに関する複数のレポートにアクセスできます。また、組み込みレポートやカスタムレポートの完全なリストにアクセスできる **[!UICONTROL Reports]** メニューもあり、メッセージやキャンペーンに関連する特定の指標の概要を示すのに使用できます。

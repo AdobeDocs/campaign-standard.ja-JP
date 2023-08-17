@@ -30,7 +30,7 @@ ht-degree: 82%
 
 **関連トピック：**
 * [使用例：場所でのセグメント化](../../automating/using/workflow-segmentation-location.md)
-* [使用例：年齢層別のセグメント化](../../automating/using/segmentation-age-groups.md)
+* [使用例：年齢グループに応じたセグメント化](../../automating/using/segmentation-age-groups.md)
 
 ## 使用状況 {#context-of-use}
 
@@ -38,13 +38,13 @@ ht-degree: 82%
 
 **関連トピック**
 
-* [使用例：年齢グループに従ったプロファイルのセグメント化](../../automating/using/segmentation-age-groups.md).
+* [ユースケース：年齢グループに従ったプロファイルのセグメント化](../../automating/using/segmentation-age-groups.md).
 
 ## 設定 {#configuration}
 
 1. ワークフローに「**[!UICONTROL Segmentation]**」アクティビティをドラッグ＆ドロップします。
 1. アクティビティを選択し、表示されるクイックアクションの ![](assets/edit_darkgrey-24px.png) ボタンを使用して開きます。
-1. 内 **[!UICONTROL General]** タブで、 **[!UICONTROL Resource type]** セグメント化を実行する際に使用する手順は次のとおりです。
+1. Adobe Analytics の **[!UICONTROL General]** タブで、 **[!UICONTROL Resource type]** セグメント化を実行する際に使用する手順は次のとおりです。
 
    * データベースに既に存在するデータに対してセグメント化が実行される場合は **[!UICONTROL Database resource]** を選択します。セグメント化するデータに応じて、**[!UICONTROL Filtering dimension]** を選択します。デフォルトでは、セグメント化は&#x200B;**プロファイル**&#x200B;で実行されます。
    * ワークフローの一時データでセグメント化が実行される場合は **[!UICONTROL Temporary resource]** を選択します。セグメント化するデータを含む **[!UICONTROL Targeted set]** を選択します。この使用例は、ファイルのインポート後、またはデータベース内のデータがエンリッチメントされた場合に発生する可能性があります。
@@ -61,7 +61,7 @@ ht-degree: 82%
    * **[!UICONTROL Limit segment population]**：セグメントのサイズを制限できます。
    * **[!UICONTROL Filter and limit segment population]**：セグメント母集団をフィルターしてサイズを制限できます。
    * **[!UICONTROL Label]**：セグメントラベル。
-   * **[!UICONTROL Segment code]**:コードをセグメント母集団に割り当てます。このセグメントコードは、標準の式およびイベント変数を使用してパーソナライズできます ( [このページ](../../automating/using/customizing-workflow-external-parameters.md)) をクリックします。
+   * **[!UICONTROL Segment code]**：コードをセグメント母集団に割り当てます。このセグメントコードは、標準の式およびイベント変数を使用してパーソナライズできます ( [このページ](../../automating/using/customizing-workflow-external-parameters.md)) をクリックします。
    * **[!UICONTROL Exclude segment from population]**：指定したセグメントをアクティビティのアウトバウンド母集団から除外できます。このオプションは、「**[!UICONTROL Generate all segments in the same transition]**」オプションが選択されている場合にのみ使用できます。
 
    ![](assets/wkf_segment_new_segment.png)
@@ -85,19 +85,20 @@ ht-degree: 82%
    * **[!UICONTROL By data grouping]**：インバウンド母集団の特定のフィールドの値に従って、セグメント母集団を制限できます。グループ化するフィールドを選択し、使用する値を指定します。
    * **[!UICONTROL By data grouping (as a %)]**：割合を使用して、インバウンド母集団の特定のフィールドの値に従って、セグメント母集団を制限できます。グループ化を適用するフィールドを選択し、使用する値を指定します。
 
-      >[!NOTE]
-      >
-      >値ごとに異なる制限を使用できます。例えば、「**[!UICONTROL Gender]**」フィールドのグループを指定して、**[!UICONTROL Male]** メンバーを含む母集団を 10 人に制限し、**[!UICONTROL Female]** メンバーを含む母集団を 30 人に制限することができます。複数のデータグループ化フィールドを使用する場合は、すべてのグループのサイズを同じにする必要があります。
+     >[!NOTE]
+     >
+     >値ごとに異なる制限を使用できます。例えば、「**[!UICONTROL Gender]**」フィールドのグループを指定して、**[!UICONTROL Male]** メンバーを含む母集団を 10 人に制限し、**[!UICONTROL Female]** メンバーを含む母集団を 30 人に制限することができます。複数のデータグループ化フィールドを使用する場合は、すべてのグループのサイズを同じにする必要があります。
+
    ![](assets/wkf_segment_limit_by_grouping.png)
 
 1. セグメントの設定を確認します。
 1. 手順 6～10 を繰り返して、必要な数のセグメントを追加します。
 1. 必要に応じて、「**[!UICONTROL Advanced options]**」タブのパラメーターを編集します。
 
-   * この **[!UICONTROL Enable overlapping of outbound populations]** オプションは、複数のセグメントに属するプロファイルの管理方法を定義します。
+   * The **[!UICONTROL Enable overlapping of outbound populations]** オプションは、複数のセグメントに属するプロファイルの管理方法を定義します。
       * このオプションが有効になっていない場合、 **[!UICONTROL Segmentation]** 「 」アクティビティは、プロファイルが複数のサブセットの条件を満たす場合でも、複数の出力トランジションにプロファイルが存在しないことを確認します。
       * このオプションを有効にすると、プロファイルは、フィルター条件を満たす場合、複数のサブセットに表示されます。
    * 保持したいセグメントコードがインバウンド母集団に既に割り当てられている場合は、 **[!UICONTROL Concatenate the code of each segment]** オプション。 アクティビティで指定されたセグメントコードが、最初のセグメントコードに追加されます。
-   * 残りの母集団を活用する必要がある場合は、 **[!UICONTROL Generate complement]** オプション。 詳しくは、 [使用例：補集合を含む配信の作成](../../automating/using/workflow-created-query-with-complement.md).
+   * 残りの母集団を活用する必要がある場合は、 **[!UICONTROL Generate complement]** オプション。 詳しくは、 [ユースケース：補集合を使用した配信の作成](../../automating/using/workflow-created-query-with-complement.md).
 
 1. アクティビティの設定を確認し、ワークフローを保存します。

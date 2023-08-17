@@ -1,6 +1,6 @@
 ---
 title: 地理的単位属性の更新
-description: API を使用して地理的単位属性を更新する方法について説明します
+description: API を使用して地理的単位属性を更新する方法について説明します。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis

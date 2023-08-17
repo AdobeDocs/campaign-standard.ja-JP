@@ -19,17 +19,17 @@ ht-degree: 10%
 
 Adobe Campaign REST API で使用可能なエンドポイントは次のとおりです。
 
-* **/profileAndServices**:標準のフィールドを操作します。 このエンドポイントでは、拡張フィールドにアクセスできません。
-* **/profileAndServicesExt**:プロファイルまたはサービスのカスタムリソース拡張時に追加されたカスタムフィールドを操作します。 カスタムリソースについて詳しくは、 [この節](../../api/using/custom-resources.md).
-* **/&lt;transactionalapi>**:トランザクションメッセージ API とのやり取り（トランザクションメッセージ API エンドポイントの名前は、インスタンスの設定に応じて異なります）。 詳しくは、[この節](../../api/using/managing-transactional-messages.md)を参照してください。
-* **/workflow/execution**:ワークフローの操作 詳しくは、[この節](../../api/using/controlling-a-workflow.md)を参照してください。
-* **/privacy/privacyTool**:プライバシー API を操作して、プライバシーリクエストの自動処理を許可する。 詳しくは、[この節](../../api/using/creating-a-privacy-request.md)を参照してください。
-* **/history**:プロファイルのマーケティング履歴を取得します。 Campaign での統合顧客プロファイルについて詳しくは、 [Campaign ドキュメント](https://helpx.adobe.com/campaign/standard/audiences/using/integrated-customer-profile.html).
+* **/profileAndServices**：標準搭載のフィールドを操作します。 このエンドポイントでは、拡張フィールドにアクセスできません。
+* **/profileAndServicesExt**：プロファイルまたはサービスのカスタムリソース拡張時に追加されたカスタムフィールドを操作します。 カスタムリソースについて詳しくは、 [この節](../../api/using/custom-resources.md).
+* **/&lt;transactionalapi>**：トランザクションメッセージ API とのやり取り（トランザクションメッセージ API エンドポイントの名前は、インスタンスの設定に応じて異なります）。 詳しくは、[この節](../../api/using/managing-transactional-messages.md)を参照してください。
+* **/workflow/execution**：ワークフローの操作 詳しくは、[この節](../../api/using/controlling-a-workflow.md)を参照してください。
+* **/privacy/privacyTool**：プライバシー API を操作して、プライバシーリクエストの自動処理を許可します。 詳しくは、[この節](../../api/using/creating-a-privacy-request.md)を参照してください。
+* **/history**：プロファイルのマーケティング履歴を取得します。 Campaign での統合顧客プロファイルについて詳しくは、 [Campaign ドキュメント](https://helpx.adobe.com/campaign/standard/audiences/using/integrated-customer-profile.html).
 
 デフォルトでは、 **profileAndServices** および **profileAndServicesExt** API は次のとおりです。
 
 * **/profile**:Campaign データベースからプロファイルを操作します。 サービスにプロファイルを追加するには、 **/service** endpoint. Campaign のプロファイルについて詳しくは、 [Campaign ドキュメント](https://helpx.adobe.com/campaign/standard/audiences/using/about-profiles.html).
-* **/service**:購読サービスを管理します。 Campaign のサービスについて詳しくは、 [Campaign ドキュメント](https://helpx.adobe.com/campaign/standard/audiences/using/creating-a-service.html).
+* **/service**：購読サービスを管理します。 Campaign のサービスについて詳しくは、 [Campaign ドキュメント](https://helpx.adobe.com/campaign/standard/audiences/using/creating-a-service.html).
 
 >[!NOTE]
 >

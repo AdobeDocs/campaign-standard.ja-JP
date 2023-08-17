@@ -17,7 +17,7 @@ ht-degree: 86%
 
 # Campaign E メールデザイナー{#designing-content-in-adobe-campaign}
 
-Adobe Campaign で E メールを作成したら、そのコンテンツを定義する必要があります。
+Adobe Campaign でメールを作成したら、そのコンテンツを定義する必要があります。
 
 E メールデザイナーを使用すると、ドラッグ&amp;ドロップインターフェイスを通じて、個別にカスタマイズした魅力的な E メールを作成できます。 新規のコンテンツを作成する場合でも、既存のコンテンツフラグメントやテンプレートを活用する場合でも、プロモーションやトランザクションなど、あらゆる E メールコンテンツの設計と強化に対応します。
 
@@ -105,17 +105,17 @@ E メールデザイナーを適切に使用し、最適な E メールを容易
 
 * 個別の CSS や HTML の &lt;head> セクションでの CSS の代わりに、インラインスタイルを使用します。インラインスタイルを使用すると、コンテンツフラグメントの保存と再利用を最適化できます。
 
-   [インラインスタイル属性の追加](../../designing/using/styles.md#adding-inline-styling-attributes)を参照してください。
+  [インラインスタイル属性の追加](../../designing/using/styles.md#adding-inline-styling-attributes)を参照してください。
 
 * HTML コンテンツを含む ZIP ファイルを読み込む場合は、通常の CSS を使用します。SCSS スタイルシートはサポートされていません。
 
 * コンテンツフラグメントを作成および再利用すると、マーケティングキャンペーンの一貫性を保ち、ブランディングを容易に確立できます。
 
-   [コンテンツフラグメントの作成](../../designing/using/using-reusable-content.md#creating-a-content-fragment)を参照してください。
+  [コンテンツフラグメントの作成](../../designing/using/using-reusable-content.md#creating-a-content-fragment)を参照してください。
 
 * **E メールコンテンツ**&#x200B;の編集時：
 
-   送信する前に、メッセージをプレビューします。Adobe Campaign は、Litmus を使用した E メールレンダリングのテスト機能を備えています。詳しくは、[E メールレンダリング](../../sending/using/email-rendering.md)を参照してください。
+  送信する前に、メッセージをプレビューします。Adobe Campaign は、Litmus を使用した E メールレンダリングのテスト機能を備えています。詳しくは、[E メールレンダリング](../../sending/using/email-rendering.md)を参照してください。
 
 * リファラーメタタグは、E メールデザイナーではサポートされていません。
 

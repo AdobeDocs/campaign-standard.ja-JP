@@ -25,7 +25,7 @@ Adobe Campaign StandardとAdobe Experience Managerのこの統合により、Ado
 
 事前に次の要素を用意しておく必要があります。
 
-* Adobe Experience Manager **オーサリング** インスタンス
+* Adobe Experience Manager **authoring** インスタンス
 * Adobe Experience Manager **公開** インスタンス
 * Adobe Campaignインスタンス
 
@@ -39,9 +39,9 @@ Adobe Campaign StandardとAdobe Experience Managerのこの統合により、Ado
 
    ![](assets/aem_1.png)
 
-1. 以下を確認します。 **[!UICONTROL AEMResourceTypeFilter]** 」オプションが正しく設定されていることを確認します。 次にアクセス： **[!UICONTROL Options]** 下のメニュー **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]** メニュー
+1. 以下を確認します。 **[!UICONTROL AEMResourceTypeFilter]** 」オプションが正しく設定されていることを確認します。 次にアクセス： **[!UICONTROL Options]** 下のメニュー **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]** メニュー。
 
-1. 内 **[!UICONTROL Value (text)]** フィールドで、次の構文が正しいことを確認します。
+1. Adobe Analytics の **[!UICONTROL Value (text)]** フィールドで、次の構文が正しいことを確認します。
 
    ```
    mcm/campaign/components/newsletter,mcm/campaign/components/campaign_newsletterpage,mcm/neolane/components/newsletter
@@ -53,11 +53,11 @@ Adobe Campaign StandardとAdobe Experience Managerのこの統合により、Ado
 
    ![](assets/aem_3.png)
 
-1. 次をクリック： **[!UICONTROL Edit properties]** アイコン
+1. 次をクリック： **[!UICONTROL Edit properties]** アイコン。
 
    ![](assets/aem_4.png)
 
-1. 以下 **[!UICONTROL Content]** ドロップダウンで、「 **[!UICONTROL Adobe Experience Manager]** 内 **[!UICONTROL Content source]** フィールドに入力し、以前に作成した外部アカウントを **[!UICONTROL Adobe Experience Manager account]**.
+1. の下 **[!UICONTROL Content]** ドロップダウンで、「 **[!UICONTROL Adobe Experience Manager]** （内） **[!UICONTROL Content source]** フィールドに入力し、以前に作成した外部アカウントを **[!UICONTROL Adobe Experience Manager account]**.
 
 次に、Adobe Experience Managerで統合を設定する必要があります。
 

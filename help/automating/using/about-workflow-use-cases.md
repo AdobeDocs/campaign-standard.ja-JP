@@ -62,5 +62,5 @@ ht-degree: 86%
 * [外部ファイルへのプロファイルのエクスポート](../../automating/using/exporting-profiles-in-file.md)
 * [ファイルからの複数の購読ステータスの更新](../../automating/using/updating-subscriptions-from-file.md)
 * [ファイルから特定のサービスへのプロファイルの購読](../../automating/using/subscribing-profiles-from-file.md)
-* [Campaign コントロールパネルで生成したキーを使用した暗号化されたデータのインポート](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt)
-* [Campaign コントロールパネルにインストールされたキーを使用したデータの暗号化とエクスポート](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt)
+* [コントロールパネルで生成したキーを使用した暗号化されたデータのインポート](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt)
+* [コントロールパネルにインストールされたキーを使用したデータの暗号化とエクスポート](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt)

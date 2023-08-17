@@ -1,5 +1,5 @@
 ---
-title: 電子メールデザイナーの基本を学ぶ
+title: メールデザイナーの基本を学ぶ
 description: E メールデザイナーで E メールコンテンツの作成を開始します。
 audience: designing
 content-type: reference
@@ -15,7 +15,7 @@ ht-degree: 5%
 
 ---
 
-# 電子メールデザイナーの基本を学ぶ {#quick-start}
+# メールデザイナーの基本を学ぶ {#quick-start}
 
 E メールデザイナーでは、E メールを作成する 4 つの方法が用意されています。
 
@@ -27,7 +27,7 @@ E メールを作成できます [E メールデザイナーでの新規起動](
 
 また、E メールを作成することもできます [既存のコンテンツを使用](#with-existing-content):
 
-1. 以下が可能です。 **既存のコンテンツをHTMLする** （外部またはレガシーエディターで作成）。 [詳細情報](#converting-an-html-content)
+1. 以下が可能です。 **既存のコンテンツをHTMLする** （外部または従来のエディターで作成）。 [詳細情報](#converting-an-html-content)
 1. 以下が可能です。 **既存のHTML内容の読み込み** 互換モードですぐに使用できます。 [詳細情報](#compatibility-mode)
 
 | コンテンツなし | コンテンツを使用 |
@@ -78,7 +78,7 @@ E メールを簡単に作成し、コンポーネントを追加し、コンテ
    1. クリック **参照**.
    1. お使いのコンピューターからイメージファイルを選択します。
 
-   ![](assets/browse-image-quick-start.png)
+  ![](assets/browse-image-quick-start.png)
 
 * **パーソナライゼーションを含むテキスト**
 
@@ -87,7 +87,7 @@ E メールを簡単に作成し、コンポーネントを追加し、コンテ
    1. パーソナライゼーションフィールドを追加するには、 **パーソナライゼーションフィールドを挿入** 」と入力します。
    1. 「名」など、必要なフィールドを選択します。
 
-   ![](assets/edit-text-quick-start.png)
+  ![](assets/edit-text-quick-start.png)
 
 * **HTML**
 
@@ -96,11 +96,11 @@ E メールを簡単に作成し、コンポーネントを追加し、コンテ
    1. HTMLの内容を入力します。
    1. 「**保存**」をクリックします。
 
-   ![](assets/html-component-source-code.png)
+  ![](assets/html-component-source-code.png)
 
-   HTMLに詳しい場合は、 **[!UICONTROL Html]** コンテンツコンポーネント 詳しくは、 [コンテンツコンポーネントについて](../../designing/using/designing-from-scratch.md#about-content-components).
+  HTMLに詳しい場合は、元のフッターからHTMLコードをコピー&amp;ペーストし、 **[!UICONTROL Html]** コンテンツコンポーネント。 詳しくは、 [コンテンツコンポーネントについて](../../designing/using/designing-from-scratch.md#about-content-components).
 
-   ![](assets/des_loading_compatible_fragment_9.png)
+  ![](assets/des_loading_compatible_fragment_9.png)
 
 ### 電子メールコンポーネントのスタイル設定
 
@@ -129,16 +129,16 @@ E メールを簡単に作成し、コンポーネントを追加し、コンテ
 1. これらの要素を組み合わせて、多数の E メールのバリアントを作成できます。 例えば、構造コンポーネントを選択し、 **[!UICONTROL Duplicate]** を選択します。
 1. 左側の青い矢印を使用して要素を移動し、構造コンポーネントを別のコンポーネントの下または上にドラッグできます。 詳しくは、[メール構造の編集](../../designing/using/designing-from-scratch.md#defining-the-email-structure)を参照してください。
 1. また、コンポーネントを移動して、各構造要素の構成を変更することもできます。 詳しくは、[フラグメントとコンポーネントの追加](../../designing/using/designing-from-scratch.md#defining-the-email-structure)を参照してください。
-1. 必要に応じて、各要素のコンテンツを変更します。画像、テキスト、リンク。
+1. 必要に応じて、各要素のコンテンツ（画像、テキスト、リンク）を変更します。
 1. 必要に応じて、スタイル設定オプションをコンテンツに合わせます。 詳しくは、[メールスタイルの編集](../../designing/using/styles.md)を参照してください。
 
 ## 既存の E メールコンテンツの使用 {#with-existing-content}
 
 組み合わせて複数の E メールで再利用できる、モジュール式のテンプレートとフラグメントのフレームワークを構築する場合は、E メールHTMLを E メールデザイナーテンプレートに変換することを検討してください。
 
-### HTMLコンテンツの変換 {#converting-an-html-content}
+### HTMLコンテンツを変換中 {#converting-an-html-content}
 
-この使用例では、HTML電子メールを電子メールデザイナーコンポーネントにすばやく変換できます。 このトピックについて詳しくは、 [HTMLコンテンツの変換](../../designing/using/using-existing-content.md#converting-an-html-content).
+この使用例では、HTML電子メールを電子メールデザイナーコンポーネントにすばやく変換できます。 このトピックについて詳しくは、 [HTMLコンテンツを変換中](../../designing/using/using-existing-content.md#converting-an-html-content).
 
 >[!CAUTION]
 >
@@ -146,7 +146,7 @@ E メールを簡単に作成し、コンポーネントを追加し、コンテ
 
 >[!NOTE]
 >
->互換性モードと同様に、HTMLコンポーネントは、次の制限付きオプションで編集できます。インプレース編集のみ実行できます。
+>互換モードと同様に、HTMLコンポーネントは、制限付きオプションで編集できます。インプレース編集のみ実行できます。
 
 
 ### HTMLE メールの読み込みと編集 {#compatibility-mode}
