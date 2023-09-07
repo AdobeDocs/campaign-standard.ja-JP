@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
-source-git-commit: 1a2b2ab8b6d23ca021d196909dc3ebdc02fe4e9e
+source-git-commit: 9533654ac4476b359da8cf00f9ef2015d9f8ccdf
 workflow-type: tm+mt
-source-wordcount: '5267'
-ht-degree: 98%
+source-wordcount: '5211'
+ht-degree: 99%
 
 ---
 
@@ -72,7 +72,7 @@ ht-degree: 98%
   <P>ジャーニー AI は、次の 2 つの ML 機能で構成されています。</p>
 <ul> 
      <li> <strong>予測エンゲージメントスコアリング</strong> - メッセージのターゲティングとパーソナライゼーションを強化し、コンバージョンとリテンションを向上させるために、顧客が望むエンゲージメントレベルをインテリジェントに識別します。<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-engagement-scoring.html">ビデオガイド、チュートリアル</a>をご覧ください。</li> 
-     <li> <strong>予測送信時間の最適化</strong> - キャンペーン中に各顧客に E メールを送信する最適な時間を予測して、エンゲージメント率を最大化し、E メールキャンペーンの ROI を向上させます。<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-send-time-optimization.html">ビデオガイド、チュートリアル</a>をご覧ください。</li>
+     <li> <strong>予測送信時間の最適化</strong> - キャンペーン中に各顧客にメールを送信する最適な時間を予測して、エンゲージメント率を最大化し、メールキャンペーンの ROI を向上させます。<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-send-time-optimization.html">ビデオガイド、チュートリアル</a>をご覧ください。</li>
     </ul>
   <p>ジャーニー AI の概要について詳しくは、<a href="../../sending/using/predictive.md">詳細なドキュメント</a>を確認し、担当のアカウント担当者にお問い合わせください。ジャーニー AI は、既存の Adobe Campaign のお客様には無償で提供されます。実装に要する時間は約 50 時間です。</p>
     </td> 
@@ -84,7 +84,7 @@ ht-degree: 98%
 
 * **プライバシー管理**：Campaign インターフェイスおよび API から利用できる「**CCPA オプトアウト**」フィールドが、Privacy コアサービスを通じてサポートされるようになりました。このフィールドを使用して、顧客が個人情報の販売をオプトアウトしたかどうかを追跡できます。[詳細情報](https://helpx.adobe.com/jp/campaign/kb/acs-privacy.html#ccpa)
 * **ワークフロー実行の改善**（ベータ版）：ワークフローに関するグローバルイニシアチブの観点から、メモリ管理の安定化、レイテンシの低減、ワークフロー実行時のメモリ使用量の最適化を目的として、いくつかの大きな改善が進められています。現時点では、これらの改善点はベータ版をご利用のお客様にのみ適用されます。2021 年初頭までに、すべてのお客様に適用される予定です。
-* セキュリティを強化するために、Campaign では、E メール内のリンクの追跡に&#x200B;**署名メカニズム**&#x200B;が使用されるようになりました。
+* セキュリティを強化するために、Campaign では、メール内のリンクの追跡に&#x200B;**署名メカニズム**&#x200B;が使用されるようになりました。
 * iOS 証明書または Android キーをアップロードする際の&#x200B;**エラーメッセージが明確**&#x200B;になり、モバイルアプリの設定が改善されました。
 * **SMS エラー管理**&#x200B;が改善され、強制隔離リストへのプロファイルの過剰な追加を阻止できるようになりました。デフォルトでは、SMS エラーは、ハードエラーではなくソフトエラーとして構成されるようになりました。[このページ](https://helpx.adobe.com/jp/campaign/kb/sms-connector-protocol-and-settings.html)を参照してください。
 
@@ -130,7 +130,7 @@ ht-degree: 98%
 
 * トラッキングが有効な場合に、プッシュ通知またはアプリ内メッセージに宛先リンクを使用できない問題を修正しました。
 * 大幅な一括配信が発生した場合に、トランザクションメッセージの優先度が高く認識されない問題を修正しました。
-* ブランドをトランザクション用の E メールに割り当てられない可能性がある問題を修正しました。公開の段階で、いくつかのエラーメッセージが表示される場合がありました。（CAMP-44988）
+* ブランドをトランザクション用のメールに割り当てられない可能性がある問題を修正しました。公開の段階で、いくつかのエラーメッセージが表示される場合がありました。（CAMP-44988）
 * ワークフローユーザーインターフェイスで、数値を要求するフィールドに情報が保存されない可能性がある問題を修正しました。（CAMP-44025）
 * インポートテンプレートワークフローで「**テスト**」アクティビティを使用した場合に、エラーメッセージが表示される可能性がある問題を修正しました。（CAMP-42910）
 * 定義済みリストタイプのフィールドを含む「**オーディエンスの閲覧**」アクティビティを使用して「**和集合**」または「**エンリッチメント**」アクティビティに接続する場合に発生していた問題を修正しました。（CAMP-42795）
@@ -156,7 +156,7 @@ ht-degree: 98%
 * ワークフローを削除できないエラーを修正しました。ワークフローを削除するには、ログをパージする必要がありました。（CAMP-44144）
 * HTML コードを含むランディングページを作成する際のエラーを修正しました。Campaign で必須のチェックボックスが認識されず、公開されたランディングページで利用できませんでした。（CAMP-44181）
 * 「**待機**」アクティビティの使用時にワークフローがループする問題を修正しました。（CAMP-43981）
-* 複数の E メールアドレスが同じ配信で複数回ターゲットにされる原因となっていた、トランザクションメッセージを送信する際に発生する問題を修正しました。（CAMP-44202）
+* 複数のメールアドレスが同じ配信で複数回ターゲットにされる原因となっていた、トランザクションメッセージを送信する際に発生する問題を修正しました。（CAMP-44202）
 * targetData パーソナライゼーションでプロファイルの置換を使用する際に発生するエラーを修正しました。（CAMP-44996）
 * パッケージ内の配信テンプレートの書き出し時に配信プレビューが失敗する問題を修正しました。（CAMP-44084）
 * カスタムターゲットマッピングを使用した場合に、配達確認がテストプロファイルに送信されない問題を修正しました。（CAMP-43701）
@@ -261,12 +261,12 @@ ht-degree: 98%
 * 不要な管理者の役割がインターフェイスから削除されました。
 * ランディングページでチェックボックスを必須にできるようになりました。
 * 動的レポートの CSV ファイルをダウンロードする場合、200 行までという制限がなくなりました。レポートのすべての行を含めることができるようになりました。（CAMP-40810）
-* 多言語の E メール用の標準言語リストに ES-US が追加されました。（CAMP-42279）
+* 多言語のメール用の標準言語リストに ES-US が追加されました。（CAMP-42279）
 * ファイル転送アクティビティでダウンロードされたファイルは、X 日後に削除されるようになりました。X は、ワークフロープロパティの **Execution** メニューの「**History in days**」フィールドによって決定されます。[詳細を表示](../../automating/using/managing-execution-options.md)
 
 **Experience Platform との統合**
 
-* 「**オーディエンスの閲覧**」アクティビティからの Adobe [Experience Platform オーディエンス](../../integrating/using/aep-targeting-audiences.md)のアクティベーションが改善され、パフォーマンスと安定性が向上しました。さらに、アクティベーションジョブに関するワークフローログがより明確で詳細になり、Adobe Experience Platform オーディエンスを閲覧する際の監視とトラブルシューティングが容易になりました。
+* 「**オーディエンスの閲覧**」アクティビティからの Adobe Experience Platform オーディエンスのアクティベーションが改善され、パフォーマンスと安定性が向上しました。さらに、アクティベーションジョブに関するワークフローログがより明確で詳細になり、Adobe Experience Platform オーディエンスを閲覧する際の監視とトラブルシューティングが容易になりました。
 
 **パッチ**
 
@@ -284,7 +284,7 @@ ht-degree: 98%
 * リンクされているターゲットリソースを含む 2 つの入力アクティビティで「**Enrichment**」アクティビティを使用すると発生する可能性があるワークフローの問題を修正しました。（CAMP-42133）
 * 不明な関数を使用した場合に、ワークフローが実行されない可能性がある問題を修正しました。（CAMP-41873）
 * アウトバウンド補集合トランジションを伴う複数の「**Save audience**」アクティビティを使用してオーディエンスを作成する場合に発生する可能性があるワークフローの問題を修正しました。（CAMP-39992）
-* トランザクション E メールでパーソナライズ機能を使用するとデータに矛盾が生じる問題を修正しました。（CAMP-41842）
+* トランザクションメールでパーソナライズ機能を使用するとデータに矛盾が生じる問題を修正しました。（CAMP-41842）
 * プッシュ通知配信のカスタムフィールドを削除する際に発生していた問題を修正しました。（CAMP-37586）
 * ユーザーがレポートを変更できないエラーを修正しました。（CAMP-42505）
 
@@ -313,12 +313,12 @@ ht-degree: 98%
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>ターゲットプロファイルを使用した E メールテスト</strong><br /> </th> 
+   <th> <strong>ターゲットプロファイルを使用したメールテスト</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>テストプロファイルに加えて、実際のターゲットプロファイルを対象に E メールをテストできるようになりました。これにより、プロファイルが受け取るメッセージ（ワークフローからの追加データを含め、カスタムフィールド、動的情報、パーソナライズされた情報など）が正確に表示されます。 </p>
+   <td> <p>テストプロファイルに加えて、実際のターゲットプロファイルを対象にメールをテストできるようになりました。これにより、プロファイルが受け取るメッセージ（ワークフローからの追加データを含め、カスタムフィールド、動的情報、パーソナライズされた情報など）が正確に表示されます。 </p>
     <p>詳しくは、<a href="../../sending/using/testing-messages-using-target.md">詳細ドキュメント</a>および<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html">チュートリアルビデオ</a>を参照してください。 </p>
    </td> 
   </tr> 
@@ -327,7 +327,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->Google TXT レコード管理、データベース領域の監視、E メールアラートなど、新しい機能が 4 月に Campaign コントロールパネルにリリースされます。これらの機能について詳しくは、[コントロールパネルリリースノート](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ja)を参照してください。
+>Google TXT レコード管理、データベース領域の監視、メールアラートなど、新しい機能が 4 月に Campaign コントロールパネルにリリースされます。これらの機能について詳しくは、[コントロールパネルリリースノート](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ja)を参照してください。
 
 **強化点**
 
@@ -343,9 +343,9 @@ ht-degree: 98%
 * HTML モードに切り替えると画像の幅が変更される問題を修正しました。（CAMP-41116）
 * アイコンに代替テキストを指定すると、ソーシャルメディアコンポーネントにアクセスできなくなる問題を修正しました。（CAMP-41345）
 * E メールデザイナーでコピー＆ペーストを使用すると `<br>` タグが表示される問題を修正しました。
-* HTML コンテンツからプレーンテキストに切り替えた後、E メールに HTML タグが表示される問題を修正しました。（CAMP-41138）
+* HTML コンテンツからプレーンテキストに切り替えた後、メールに HTML タグが表示される問題を修正しました。（CAMP-41138）
 * 境界が 1 つしか定義されていないボタンのレンダリングができない問題を修正しました。
-* Microsoft Outlook で HTML インデントにより E メールのフッターが左側に配置される問題を修正しました。（CAMP-40987）
+* Microsoft Outlook で HTML インデントによりメールのフッターが左側に配置される問題を修正しました。（CAMP-40987）
 * プレーンテキストモードへの切り替え時に、HTML で定義されたコレクション属性をターゲットとするパーソナライゼーションフィールドがプレーンテキストコンテンツにコピーされる問題を修正しました。（CAMP-40365）
 * 選択されたテキストセグメントにリンクを挿入できない問題を修正しました。（CAMP-41406）
 * クエリエディターでタイムゾーンを選択すると日付が変更される問題を修正しました。（CAMP-38277）
@@ -359,7 +359,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->Campaign Standard の Adobe Experience Platform 機能は現在ベータ版であるため、予告なしに頻繁にアップデートされる場合があります。詳細なドキュメント（[Adobe Experience Platform Data Connector について](../../integrating/using/aep-about-data-connector.md)、[Audience Destinations サービスについて](../../integrating/using/aep-about-audience-destinations-service.md)）を参照してください。
+>Campaign Standard の Adobe Experience Platform 機能は現在ベータ版であるため、予告なしに頻繁にアップデートされる場合があります。詳細なドキュメント（Adobe Experience Platform Data Connector について、Audience Destinations サービスについて）を参照してください。
 
 * ワークフローログで、現在実行中のジョブで既に処理されたレコードの件数が 10 分ごとに Campaign に表示されるようになりました。
 * データベースから削除された Adobe Experience Platform プロファイルをインポートするときに生じる可能性のある問題を修正しました。
@@ -390,7 +390,7 @@ ht-degree: 98%
 
 * パッチを適用してコンテンツを保存すると旧フラグメントに HTML タグ要素が追加される問題を修正しました。（CAMP-40685）
 * 動的コンテンツの使用時にスペースが追加される問題を修正しました。（CAMP-40605）
-* トランザクション E メールテンプレートの設定時に生じていた問題を修正しました。（CAMP-40604）
+* トランザクションメールテンプレートの設定時に生じていた問題を修正しました。（CAMP-40604）
 
 ## リリース 20.1 - 2020 年 2 月 {#release-20-1---february-2020}
 
@@ -406,7 +406,7 @@ ht-degree: 98%
  <tbody> 
   <tr> 
    <td> <p>Adobe Experience Platform Data Connector が Adobe Campaign Standard に統合されるようになりました。XTK データ（Campaign でインジェストされたデータ）を Adobe Experience Platform Data Model（XDM）にマッピングすることにより、Campaign のデータを Adobe Experience Platform で利用できるようになります。 </p>
-    <p>なお、この機能は Azure でホストされるお客様のみが利用できることにご注意ください。この機能、およびその有効化の条件について詳しくは、<a href="../../integrating/using/aep-about-data-connector.md">詳細なドキュメント</a>と<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html">ハウツービデオ</a>を参照してください。</p>
+    <p>なお、この機能は Azure でホストされるお客様のみが利用できることにご注意ください。</p>
    </td> 
   </tr> 
  </tbody> 
@@ -421,7 +421,7 @@ ht-degree: 98%
  <tbody> 
   <tr> 
    <td> <p>Audience Destinations を使用することにより、Adobe Experience Platform のセグメントを Adobe Campaign で共有できるようになります。</p>
-    <p>なお、この機能は Azure でホストされるお客様のみが利用できることにご注意ください。この機能、およびその有効化の条件について詳しくは、<a href="../../integrating/using/aep-about-audience-destinations-service.md">詳細なドキュメント</a>と<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html">ハウツービデオ</a>を参照してください。 </p>
+    <p>なお、この機能は Azure でホストされるお客様のみが利用できることにご注意ください。</p>
    </td> 
   </tr> 
  </tbody> 
@@ -440,7 +440,7 @@ ht-degree: 98%
 **E メールデザイナーの機能強化**
 
 * オーディエンスの作成時に、不足していた必須のテキスト説明を補いました。
-* 従来の E メールエディターのウィザードで「**Change content**」ボタンをクリックしたときの問題を修正しました。
+* 従来のメールエディターのウィザードで「**Change content**」ボタンをクリックしたときの問題を修正しました。
 * 「サービスの概要」レポートで、ヘッダーがコンテンツの位置と一致しない問題を修正しました。（CAMP-38103）
 * 動的コンテンツのバージョンを削除すると、件名行の残りの部分に影響が及ぶ問題を修正しました。（CAMP-40096）
 * 件名行で B バージョンを使用するときの A/B テストの問題を修正しました。（CAMP-40327）
@@ -478,7 +478,7 @@ ht-degree: 98%
 * 公開した後、ランディングページが使用できなくなる問題を修正しました。（CAMP-38695）
 * 2 つの異なるリソースから得られる積集合トランジションのデータを表示する際に生じる問題を修正しました。（CAMP-38974）
 * 配信テンプレートの定義済みリストが正しく設定されない問題を修正しました。（CAMP-38388）
-* E メールの一括配信で、配信状態が「保留」、送信済みステータスが「完了」と表示されるエラーを修正しました。（CAMP-35355）
+* メールの一括配信で、配信状態が「保留」、送信済みステータスが「完了」と表示されるエラーを修正しました。（CAMP-35355）
 * 動的レポートで送信者のドメインが正しく表示されないエラーを修正しました。（CAMP-33123）
 * 動的レポートで購読解除数に不一致が生じる問題を修正しました。（CAMP-39949）
 * アプリ内メッセージの送信時に送信ログ画面にアドレスが表示されない問題を修正しました。

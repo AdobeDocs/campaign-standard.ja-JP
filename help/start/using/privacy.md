@@ -13,10 +13,10 @@ feature: Privacy
 role: User
 level: Intermediate
 exl-id: 0fc71c2f-f294-43f7-825c-73ab4d43fcf7
-source-git-commit: 013293fce8a923e771e10585c41e4ad482003080
+source-git-commit: 9533654ac4476b359da8cf00f9ef2015d9f8ccdf
 workflow-type: tm+mt
-source-wordcount: '1424'
-ht-degree: 100%
+source-wordcount: '1418'
+ht-degree: 96%
 
 ---
 
@@ -37,7 +37,7 @@ Adobe Campaign は、個人情報や機密データを含む膨大な量のデ�
 * [GDPR](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_en)（ヨーロッパの一般データ保護規則）
 * [DPA](https://www.gov.uk/data-protection)（英国での GDPR）
 * [プライバシーと電子通信に関する欧州指令](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02002L0058-20091219)
-* [CAN-SPAM 法](https://www.ftc.gov/tips-advice/business-center/guidance/can-spam-act-compliance-guide-business)（商用 E メールのルールと要件を設定する米国の法律）
+* [CAN-SPAM 法](https://www.ftc.gov/tips-advice/business-center/guidance/can-spam-act-compliance-guide-business)（商用メールのルールと要件を設定する米国の法律）
 * [CCPA](https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&amp;division=3.&amp;title=1.81.5.&amp;part=4.&amp;chapter=&amp;article=)（カリフォルニア州消費者プライバシー法）
 * [PDPA](https://secureprivacy.ai/thailand-pdpa-summary-what-businesses-need-to-know/)（タイ個人データ保護法）
 
@@ -88,7 +88,7 @@ Adobe Experience Cloud のプライバシーについて詳しくは、[この�
 
 したがって、個人データを収集し共有する会社はデータ管理者で、そのクライアントはデータ主体です。Adobe Campaign は、お客様の指示に従って個人データを処理する際に、データ処理者として機能します。[プライバシーリクエスト](#privacy-requests)を管理する場合など、データ主体との関係を処理するのはデータ管理者側の責任となるため注意が必要です。
 
-Campaign を、[Audience Destinations サービス](../../integrating/using/aep-about-audience-destinations-service.md)、[Adobe Analytics](../../integrating/using/about-campaign-analytics-integration.md)、[Audience Manager または People コアサービス](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md) などのシステム間でオーディエンスを転送できる他の Experience Cloud ソリューションと統合する場合、または [Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md) などの他のソリューションと統合する場合は、個人データの保護に特別な注意を払う必要があります。
+オーディエンスを別のExperience Cloudに転送できる他のシステムソリューションと Campaign を統合する場合、 [Adobe Analytics](../../integrating/using/about-campaign-analytics-integration.md), [Audience Managerまたは People コアサービス](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)、または他のソリューション ( [Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md)の場合は、個人データ保護に対して特別なケアを払う必要があります。
 
 ## データの取得 {#data-acquisition}
 
