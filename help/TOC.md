@@ -4,9 +4,9 @@ user-guide-title: Campaign Standard
 user-guide-description: Campaign Standard の使用に必要な主要な機能、タスク、設定、その他のリソースに関するヘルプセンター。
 title: Campaign Standard ガイド
 breadcrumb-title: Adobe Campaign Standard ドキュメント
-source-git-commit: d7e0912dd7d19a1f5dd2172235f28a40e130cac1
-workflow-type: tm+mt
-source-wordcount: '1818'
+source-git-commit: 957064f708390c33a3295ed7d107cc9c488be875
+workflow-type: ht
+source-wordcount: '1812'
 ht-degree: 100%
 
 ---
@@ -87,11 +87,11 @@ ht-degree: 100%
       + [適切なオーディエンスの定義](sending/using/define-the-right-audience.md)
       + [送信前の確認](sending/using/check-before-sending.md)
       + [トラッキングと監視](sending/using/track-and-monitor.md)
-   + E メールメッセージ {#email-messages}
-      + [E メールについて](channels/using/about-emails.md)
-      + [E メールの作成](channels/using/creating-an-email.md)
-      + [A/B テスト用 E メールのデザイン](channels/using/designing-an-a-b-test-email.md)
-      + [多言語 E メールの作成](channels/using/creating-a-multilingual-email.md)
+   + メールメッセージ {#email-messages}
+      + [メールについて](channels/using/about-emails.md)
+      + [メールの作成](channels/using/creating-an-email.md)
+      + [A/B テスト用メールのデザイン](channels/using/designing-an-a-b-test-email.md)
+      + [多言語メールの作成](channels/using/creating-a-multilingual-email.md)
    + SMS メッセージ {#sms-messages}
       + [SMS メッセージについて](channels/using/about-sms-messages.md)
       + [SMS メッセージの作成](channels/using/creating-an-sms-message.md)
@@ -141,20 +141,20 @@ ht-degree: 100%
       + [ランディングページフォームデータの管理](channels/using/managing-landing-page-form-data.md)
       + [ランディングページのテストと公開](channels/using/testing-publishing-landing-page.md)
       + [ダブルオプトインプロセスのセットアップ](channels/using/setting-up-a-double-opt-in-process.md)
-+ E メールコンテンツのデザイン {#designing-content}
++ メールコンテンツのデザイン {#designing-content}
    + [Campaign E メールデザイナー](designing/using/designing-content-in-adobe-campaign.md)
    + [E メールデザイナーの基本を学ぶ](designing/using/quick-start.md)
    + [件名行と送信者の定義](designing/using/subject-line.md)
-   + E メールコンテンツの作成{#building-email-content}
-      + [新規での E メールのデザイン](designing/using/designing-from-scratch.md)
+   + メールコンテンツの作成{#building-email-content}
+      + [新規でのメールのデザイン](designing/using/designing-from-scratch.md)
       + [既存コンテンツの使用](designing/using/using-existing-content.md)
       + [再利用可能なコンテンツの使用](designing/using/using-reusable-content.md)
       + [マルチソリューション統合の使用](designing/using/using-integrations.md)
-      + [プレーンテキスト、HTML およびモバイル E メールの編集](designing/using/plain-text-html-modes.md)
+      + [プレーンテキスト、HTML およびモバイルメールの編集](designing/using/plain-text-html-modes.md)
       + [従来のエディターによる E メールから E メールデザイナーへの変換](designing/using/converting-emails-from-legacy-editor.md)
-   + [E メールコンテンツのパーソナライズ](designing/using/personalization.md)
+   + [メールコンテンツのパーソナライズ](designing/using/personalization.md)
    + [製品リストの使用](designing/using/using-product-listings.md)
-   + [E メールスタイルの管理](designing/using/styles.md)
+   + [メールスタイルの管理](designing/using/styles.md)
    + [リンクの管理](designing/using/links.md)
    + [画像の管理](designing/using/images.md)
    + [よくある質問](designing/using/faq-email-designer.md)
@@ -163,9 +163,9 @@ ht-degree: 100%
    + メッセージの準備とテスト {#preparing-and-testing-messages}
       + [配信のプレビュー](sending/using/previewing-messages.md)
       + [配達確認の送信](sending/using/sending-proofs.md)
-      + [ターゲットプロファイルを使用した E メールメッセージのテスト](sending/using/testing-messages-using-target.md)
+      + [ターゲットプロファイルを使用したメールメッセージのテスト](sending/using/testing-messages-using-target.md)
       + [予測ユーザーエンゲージメント機能](sending/using/predictive.md)
-      + [E メールのレンダリング](sending/using/email-rendering.md)
+      + [メールのレンダリング](sending/using/email-rendering.md)
       + [コントロール母集団の追加](sending/using/control-group.md)
       + [トラップの使用](sending/using/using-traps.md)
       + [送信の準備](sending/using/preparing-the-send.md)
@@ -177,7 +177,7 @@ ht-degree: 100%
    + メッセージの送信とトラッキング {#sending-and-tracking-messages}
       + [送信の確認](sending/using/confirming-the-send.md)
       + [メッセージのトラッキング](sending/using/tracking-messages.md)
-      + [E メールの BCC を使用したアーカイブ](sending/using/archiving.md)
+      + [メールの BCC を使用したアーカイブ](sending/using/archiving.md)
    + メッセージの監視 {#monitoring-messages}
       + [配信の監視](sending/using/monitoring-a-delivery.md)
       + [エラー発生時のアラートの受信](sending/using/receiving-alerts-when-failures-happen.md)
@@ -185,7 +185,7 @@ ht-degree: 100%
       + [強制隔離管理について](sending/using/understanding-quarantine-management.md)
    + 配信品質の管理 {#managing-deliverability}
       + [配信品質について](sending/using/about-deliverability.md)
-      + [E メールコンテンツの制御](sending/using/control-email-content.md)
+      + [メールコンテンツの制御](sending/using/control-email-content.md)
       + [配信品質の監視](sending/using/monitor-deliverability.md)
       + [トラブルシューティング](sending/using/troubleshooting.md)
    + タイポロジルールの使用 {#working-with-typology-rules}
@@ -231,9 +231,9 @@ ht-degree: 100%
    + Campaign と Experience Manager {#working-with-campaign-and-experience-manager}
       + [Campaign と Experience Manager の統合について](integrating/using/integrating-with-experience-manager.md)
       + [Campaign と Experience Manager の統合の設定](integrating/using/configure-experience-manager.md)
-      + [Adobe Experience Manager での E メールコンテンツの作成](integrating/using/creating-email-experience-manager.md)
+      + [Adobe Experience Manager でのメールコンテンツの作成](integrating/using/creating-email-experience-manager.md)
       + [Experience Manager での Campaign フォームの作成](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
-      + [Adobe Experience Manager との統合による多言語 E メールの作成](integrating/using/creating-multilingual-email-aem.md)
+      + [Adobe Experience Manager との統合による多言語メールの作成](integrating/using/creating-multilingual-email-aem.md)
    + Campaign と Target {#working-with-campaign-and-target}
       + [Campaign と Target の統合について](integrating/using/about-campaign-target-integration.md)
       + [Campaign と Target の統合の設定](integrating/using/configuring-the-campaign-target-integration.md)
@@ -271,22 +271,21 @@ ht-degree: 100%
          + [Microsoft Dynamics 365 と Campaign 間のデータのマッピング](integrating/using/d365-acs-self-service-app-data-sync.md)
       + [Microsoft Dynamics 365 統合の使用](integrating/using/d365-acs-using-the-integration.md)
    + Campaign と Adobe Experience Platform {#adobe-experience-platform}
-      + Adobe Experience Platform のソースと宛先 {#aep-sources-destinations}
-         + [ソースと宛先の基本を学ぶ](integrating/using/get-started-sources-destinations.md)
-         + [Campaign への Adobe Experience Platform オーディエンスの取り込み](integrating/using/ingest-aep-data.md)
-         + [Campaign から Adobe Experience Platform へのデータのエクスポート](integrating/using/export-campaign-data.md)
-      + Audience Destinations サービス（ベータ版）{#audience-destinations}
-         + [Audience Destinations サービスについて](integrating/using/aep-about-audience-destinations-service.md)
-         + [Adobe Experience Platform オーディエンスの管理](integrating/using/aep-managing-audiences.md)
-         + [セグメントビルダーの使用](integrating/using/aep-using-segment-builder.md)
-         + [Adobe Experience Platform オーディエンスのターゲティング](integrating/using/aep-targeting-audiences.md)
-         + [Adobe Experience Platform 属性を使用したキャンペーンのパーソナライズ](integrating/using/aep-personalizing-campaigns.md)
-      + Adobe Experience Platform Data Connector（ベータ版）{#data-connector}
-         + [Adobe Experience Platform Data Connector について](integrating/using/aep-about-data-connector.md)
-         + [Experience Platform データモデルの概要](integrating/using/aep-data-model-overview.md)
-         + [マッピングの定義](integrating/using/aep-mapping-definition.md)
-         + [マッピングのアクティベーション](integrating/using/aep-mapping-activation.md)
-         + [API によるデータ取り込みのトリガー](integrating/using/aep-triggering-data-ingestion.md)
+      + [ソースと宛先の基本を学ぶ](integrating/using/get-started-sources-destinations.md)
+      + [Campaign への Adobe Experience Platform オーディエンスの取り込み](integrating/using/ingest-aep-data.md)
+      + [Campaign から Adobe Experience Platform へのデータのエクスポート](integrating/using/export-campaign-data.md)
+         + Audience Destinations サービス（ベータ版）{#audience-destinations}
+            + [Audience Destinations サービスについて](integrating/using/aep-about-audience-destinations-service.md)
+            + [Adobe Experience Platform オーディエンスの管理](integrating/using/aep-managing-audiences.md)
+            + [セグメントビルダーの使用](integrating/using/aep-using-segment-builder.md)
+            + [Adobe Experience Platform オーディエンスのターゲティング](integrating/using/aep-targeting-audiences.md)
+            + [Adobe Experience Platform 属性を使用したキャンペーンのパーソナライズ](integrating/using/aep-personalizing-campaigns.md)
+         + Adobe Experience Platform Data Connector（ベータ版）{#data-connector}
+            + [Adobe Experience Platform Data Connector について](integrating/using/aep-about-data-connector.md)
+            + [Experience Platform データモデルの概要](integrating/using/aep-data-model-overview.md)
+            + [マッピングの定義](integrating/using/aep-mapping-definition.md)
+            + [マッピングのアクティベーション](integrating/using/aep-mapping-activation.md)
+            + [API によるデータ取り込みのトリガー](integrating/using/aep-triggering-data-ingestion.md)
 + プロセスとデータの管理 {#managing-processes-and-data}
    + [データとプロセスの管理の基本を学ぶ](automating/using/get-started-workflows.md)
    + ワークフローの一般操作 {#workflow-general-operation}
@@ -331,7 +330,7 @@ ht-degree: 100%
       + [テスト](automating/using/test.md)
    + チャネルアクティビティ {#channel-activities}
       + [チャネルアクティビティについて](automating/using/about-channel-activities.md)
-      + [E メール配信](automating/using/email-delivery.md)
+      + [メール配信](automating/using/email-delivery.md)
       + [SMS 配信](automating/using/sms-delivery.md)
       + [プッシュ通知配信](automating/using/push-notification-delivery.md)
       + [ダイレクトメール配信](automating/using/direct-mail-delivery.md)
@@ -368,9 +367,9 @@ ht-degree: 100%
          + [クロスチャネル配信の作成](automating/using/workflow-cross-channel-delivery.md)
          + [配信前の重複の特定](automating/using/identifying-duplicated-before-delivery.md)
          + [誕生日配信](automating/using/birthday-delivery.md)
-         + [E メールとダイレクトメールの配信の結合](automating/using/coupling-email-direct-mail.md)
-         + [フィールドがエンリッチメントされた E メールの送信](automating/using/sending-email-enriched-fields.md)
-         + [追加データによる E メールのパーソナライズ](automating/using/personalizing-email-with-additional-data.md)
+         + [メールとダイレクトメールの配信の結合](automating/using/coupling-email-direct-mail.md)
+         + [フィールドがエンリッチメントされたメールの送信](automating/using/sending-email-enriched-fields.md)
+         + [追加データによるメールのパーソナライズ](automating/using/personalizing-email-with-additional-data.md)
          + [繰り返しプッシュ通知の送信](automating/using/recurring-push-notifications.md)
       + セグメント化とターゲティング {#segmentation-targeting}
          + [クエリのサンプル](automating/using/query-samples.md)
@@ -446,7 +445,7 @@ ht-degree: 100%
       + [ライセンス](administration/using/licenses.md)
    + チャネルの設定 {#configuring-channels}
       + [チャネル設定について](administration/using/about-channel-configuration.md)
-      + [E メールチャネルの設定](administration/using/configuring-email-channel.md)
+      + [メールチャネルの設定](administration/using/configuring-email-channel.md)
       + [ISP 機能停止後のバウンス認定条件の更新](administration/using/update-bounce-qualification.md)
       + [モバイルアプリケーションの設定](administration/using/configuring-a-mobile-application.md)
    + モバイルチャネルの設定 {#configuring-mobile}
