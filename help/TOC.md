@@ -4,9 +4,9 @@ user-guide-title: Campaign Standard
 user-guide-description: Campaign Standard の使用に必要な主要な機能、タスク、設定、その他のリソースに関するヘルプセンター。
 title: Campaign Standard ガイド
 breadcrumb-title: Adobe Campaign Standard ドキュメント
-source-git-commit: 957064f708390c33a3295ed7d107cc9c488be875
-workflow-type: tm+mt
-source-wordcount: '1812'
+source-git-commit: 9533654ac4476b359da8cf00f9ef2015d9f8ccdf
+workflow-type: ht
+source-wordcount: '1756'
 ht-degree: 100%
 
 ---
@@ -274,18 +274,6 @@ ht-degree: 100%
       + [ソースと宛先の基本を学ぶ](integrating/using/get-started-sources-destinations.md)
       + [Campaign への Adobe Experience Platform オーディエンスの取り込み](integrating/using/ingest-aep-data.md)
       + [Campaign から Adobe Experience Platform へのデータのエクスポート](integrating/using/export-campaign-data.md)
-         + Audience Destinations サービス（ベータ版）{#audience-destinations}
-            + [Audience Destinations サービスについて](integrating/using/aep-about-audience-destinations-service.md)
-            + [Adobe Experience Platform オーディエンスの管理](integrating/using/aep-managing-audiences.md)
-            + [セグメントビルダーの使用](integrating/using/aep-using-segment-builder.md)
-            + [Adobe Experience Platform オーディエンスのターゲティング](integrating/using/aep-targeting-audiences.md)
-            + [Adobe Experience Platform 属性を使用したキャンペーンのパーソナライズ](integrating/using/aep-personalizing-campaigns.md)
-         + Adobe Experience Platform Data Connector（ベータ版）{#data-connector}
-            + [Adobe Experience Platform Data Connector について](integrating/using/aep-about-data-connector.md)
-            + [Experience Platform データモデルの概要](integrating/using/aep-data-model-overview.md)
-            + [マッピングの定義](integrating/using/aep-mapping-definition.md)
-            + [マッピングのアクティベーション](integrating/using/aep-mapping-activation.md)
-            + [API によるデータ取り込みのトリガー](integrating/using/aep-triggering-data-ingestion.md)
 + プロセスとデータの管理 {#managing-processes-and-data}
    + [データとプロセスの管理の基本を学ぶ](automating/using/get-started-workflows.md)
    + ワークフローの一般操作 {#workflow-general-operation}
@@ -517,3 +505,4 @@ ht-degree: 100%
       + [地理的単位属性の更新](api/using/updating-geographical-unit-attributes.md)
    + [トラブルシューティング](api/using/troubleshooting.md)
 + [Campaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja)
+
