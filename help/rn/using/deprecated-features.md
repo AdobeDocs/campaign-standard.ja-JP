@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 03797137-c01c-48dc-b25b-8e72741abb04
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: 99a2ae8b383d5a8437882be065781a2317b88bfe
 workflow-type: tm+mt
-source-wordcount: '857'
-ht-degree: 63%
+source-wordcount: '863'
+ht-degree: 61%
 
 ---
 
@@ -35,49 +35,17 @@ Campaign Standard 機能の差し迫った削除／置換を伝達するため�
 
 顧客は現在のデプロイメントで機能を利用しているかどうかを確認し、提供される代替機能を使用するように実装を変更する計画を立てるようお勧めします。ターゲットの削除バージョンを参照し、それに応じて環境やプロジェクトの更新を計画してください。
 
-<table> 
- <thead> 
-  <tr> 
-   <th> <strong>Audience Destinations サービスとの統合</strong><br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p> Campaign Standard21.3 リリースより、Audience Destinations サービスとの統合は非推奨（廃止予定）になります。 </p>
-   <p>新しい実装の場合、Audience Destinations サービスをAdobe Campaign Standardと統合できなくなりました。 ただし、ソースと宛先を使用して Campaign とAdobe Experience Platformを統合することはできます。 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html">詳細情報</a></p>
-     <em>削除予定：2023 年</em></p>
-     </td> 
-  </tr> 
- </tbody> 
-</table>
 
 <table> 
  <thead> 
   <tr> 
-   <th> <strong>Adobe Experience Platform Data Connector との統合</strong><br /> </th> 
+   <th> <strong>メールデザイン - レガシーメールエディター</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p> Campaign Standard21.3 リリースより、Adobe Experience Platform Data Connector との統合は非推奨（廃止予定）になります。 </p>
-   <p>新しい実装の場合、Adobe Experience Platform Data Connector とAdobe Campaign Standardを統合できなくなりました。 ただし、ソースと宛先を使用して Campaign とAdobe Experience Platformを統合することはできます。 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html">詳細情報</a></p>
-     <em>削除予定：2023 年</em></p>
-     </td> 
-  </tr> 
- </tbody> 
-</table>
-
-
-<table> 
- <thead> 
-  <tr> 
-   <th> <strong>E メールデザイン - レガシー E メールエディター</strong><br /> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td> <p>Campaign 19.0 リリース以降、レガシー E メールエディターは非推奨となりました。 用途 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">Campaign E メールデザイナー</a> e メールコンテンツを作成し、パーソナライズします。 </p></br>
-   <p><a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">この節</a>で、新しいエディター用に E メールテンプレートを適応させる方法を説明しています。</p></br>
+   <td> <p>Campaign 19.0 リリース以降、レガシーメールエディターは非推奨となりました。 用途 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/designing-content-in-adobe-campaign.html">Campaign E メールデザイナー</a> e メールコンテンツを作成し、パーソナライズします。 </p></br>
+   <p><a href="https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/building-email-content/using-existing-content.html">この節</a>で、新しいエディター用にメールテンプレートを適応させる方法を説明しています。</p></br>
   </td> 
   </tr> 
  </tbody> 
@@ -101,7 +69,35 @@ Campaign Standard 機能の差し迫った削除／置換を伝達するため�
 
 この節では、Campaign Standard から削除された機能を一覧表示します。
 
+<table> 
+ <thead> 
+  <tr> 
+   <th> <strong>Audience Destinations サービスとの統合</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p> Campaign Standard21.3 リリースより、Audience Destinations サービスとの統合は非推奨（廃止予定）になります。  現在は削除されています。</p>
+   <p>新しい実装の場合、Audience Destinations サービスをAdobe Campaign Standardと統合できなくなりました。 ただし、ソースと宛先を使用して Campaign とAdobe Experience Platformを統合することはできます。 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html">詳細情報</a></p>
+     </td> 
+  </tr> 
+ </tbody> 
+</table>
 
+<table> 
+ <thead> 
+  <tr> 
+   <th> <strong>Adobe Experience Platform Data Connector との統合</strong><br /> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p> Campaign Standard21.3 リリースより、Adobe Experience Platform Data Connector との統合は非推奨（廃止予定）になります。  現在は削除されています。</p>
+   <p>新しい実装の場合、Adobe Experience Platform Data Connector とAdobe Campaign Standardを統合できなくなりました。 ただし、ソースと宛先を使用して Campaign とAdobe Experience Platformを統合することはできます。 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/adobe-experience-platform/aep-sources-destinations/get-started-sources-destinations.html">詳細情報</a></p>
+     </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 <table> 
  <thead> 
@@ -111,7 +107,7 @@ Campaign Standard 機能の差し迫った削除／置換を伝達するため�
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p> Campaign 20.1 リリースより、SDK v4 は非推奨（廃止予定）になります。 <a href="https://developer.adobe.com/client-sdks/documentation/v4-end-of-life-faq/">詳細情報</a></p><br/>
+   <td> <p> Campaign 20.1 リリースより、SDK v4 は非推奨（廃止予定）になります。 現在は削除されています。 <a href="https://developer.adobe.com/client-sdks/documentation/v4-end-of-life-faq/">詳細情報</a></p><br/>
    <p>The <a href="https://developer.adobe.com/client-sdks/documentation/">Adobe Experience Platform Mobile SDK</a> （旧称 v5）は、今後のAdobe Experience Cloudの機能のみをサポートするようになりました。</p>
    <p>2021 年 8 月 31 日以降、お客様は引き続きバージョン 4 の SDK をダウンロードして使用できますが、カスタマーケアのサポートやフォーラムへのアクセスは利用できません。</p>
    <p>SDK v4 からAdobe Experience Platform Mobile SDK に移行する方法を説明します。 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html">このページの</a>.</p></br>
@@ -128,7 +124,7 @@ Campaign Standard 機能の差し迫った削除／置換を伝達するため�
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>21.2 リリース以降、アクセス要求および削除要求に対する Campaign API およびインターフェイスの使用は廃止されます。2 段階のプロファイルの削除は使用できません。 <a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service">Adobe Privacy Core Service</a> を使用します。</p></br>
+   <td> <p>21.2 リリース以降、アクセス要求および削除要求に対する Campaign API およびインターフェイスの使用は廃止されます。2 段階のプロファイルの削除は使用できなくなりました。 <a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service">Adobe Privacy Core Service</a> を使用します。</p></br>
    <p><a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy-requests.html">プライバシーリクエストの管理</a>も参照してください。</p>
   </td> 
   </tr> 
