@@ -6,7 +6,7 @@ role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: 9533654ac4476b359da8cf00f9ef2015d9f8ccdf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '7214'
 ht-degree: 100%
 
@@ -120,7 +120,7 @@ Adobe Experience Platform のソースと宛先を使用して Campaign Standard
 
 クエリで au オーディエンスを選択するとき、その定義が参照されるのではなくコピーされるように指定するための情報が追加されました。[詳細情報](../../audiences/using/selecting-an-audience-in-a-message.md)
 
-オーディエンス宛先サービスおよび Adobe Experience Platform データコネクタに関する情報が、新しい節に再編成されました。 
+オーディエンス宛先サービスおよび Adobe Experience Platform データコネクタに関する情報が、新しい節に再編成されました。
 
 **宣言済み ID** データソースを People コアサービス統合でも使用できるようになりました。 Campaign-Audience Manager または People コアサービス統合ドキュメントに情報が追加されました。 [詳細情報](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
 
@@ -346,9 +346,9 @@ Campaign Standard データモデルのベストプラクティスに関する�
 
 **本リリースに含まれる新機能**
 
-Adobe Experience Platform Data Connector（ベータ版）
+Adobe Experience Platform データコネクタ（ベータ版）
 
-Audience Destinations（ベータ）
+Audience Destinations（ベータ版）
 
 **リリースに伴うその他のドキュメントのアップデート**
 
