@@ -14,9 +14,9 @@ role: User
 level: Intermediate
 exl-id: 0fc71c2f-f294-43f7-825c-73ab4d43fcf7
 source-git-commit: 9533654ac4476b359da8cf00f9ef2015d9f8ccdf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1418'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -88,7 +88,7 @@ Adobe Experience Cloud のプライバシーについて詳しくは、[この�
 
 したがって、個人データを収集し共有する会社はデータ管理者で、そのクライアントはデータ主体です。Adobe Campaign は、お客様の指示に従って個人データを処理する際に、データ処理者として機能します。[プライバシーリクエスト](#privacy-requests)を管理する場合など、データ主体との関係を処理するのはデータ管理者側の責任となるため注意が必要です。
 
-オーディエンスを別のExperience Cloudに転送できる他のシステムソリューションと Campaign を統合する場合、 [Adobe Analytics](../../integrating/using/about-campaign-analytics-integration.md), [Audience Managerまたは People コアサービス](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)、または他のソリューション ( [Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md)の場合は、個人データ保護に対して特別なケアを払う必要があります。
+Campaign を、[Adobe Analytics](../../integrating/using/about-campaign-analytics-integration.md)、[Audience Manager または People コアサービス](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)などのシステム間でオーディエンスを転送できる他の Experience Cloud ソリューションと統合する場合、または [Microsoft Dynamics 365](../../integrating/using/d365-acs-get-started.md) などの他のソリューションと統合する場合は、個人データの保護に特別な注意を払う必要があります。
 
 ## データの取得 {#data-acquisition}
 
