@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: a15959b34979678e6ed53758e0ba5a00401a765b
+source-git-commit: 1437559bc1310e8daadcdeeb1a3874e673bff75f
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 30%
+source-wordcount: '254'
+ht-degree: 24%
 
 ---
 
@@ -41,3 +41,10 @@ ht-degree: 30%
 
   Adobe Campaign と Experience Cloud のトリガーについて詳しくは、[このページ](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html){target="_blank"}を参照してください。
 
+* **ローカリゼーション**  — メッセージの受信をターゲットとするプロファイルのグループを参照する際の「オーディエンス」という用語の翻訳は、次の言語に関して、すべての Digital Experience 製品間で調整されました。
+
+   * ドイツ語： Zielgruppe
+   * ポルトガル語（ブラジル）: público-alvo
+   * スペイン語： público destinatario
+
+  これらの変更は、次の UI およびドキュメントリリースで徐々にロールアウトされます。
