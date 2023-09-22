@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: 362f1f6605bc9667a80cddf2bd1bef4338cda31a
+source-git-commit: a15959b34979678e6ed53758e0ba5a00401a765b
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 100%
+source-wordcount: '426'
+ht-degree: 95%
 
 ---
 
@@ -25,11 +25,15 @@ ht-degree: 100%
 
 リリース日は変更される場合があります。定期的にこのページにアクセスして、最新情報を確認してください。
 
-## リリース 23.1 - 2023年春／夏リリース {#release-23-1-release}
+## リリース 23.2 - 2023年秋／冬リリース {#release-23-2-release}
 
-環境のアップデートは、以下に示す期間に順次おこなわれます。正確な日付は、各顧客に E メールで通知されます。
+環境のアップデートは、以下に示す期間に順次おこなわれます。正確な日付は、各顧客にメールで通知されます。
 
-このリリースについて詳しくは、[リリースノート](release-notes.md)を参照してください。
+>[!AVAILABILITY]
+>
+>このリリースは、一連の組織（限定提供）でのみ利用できます。 詳しくは、Adobe担当者にお問い合わせください。
+
+<!--Detailed information about this release is available in the [Release Notes](release-notes.md).-->
 
 <table>
  <thead>
@@ -41,11 +45,11 @@ ht-degree: 100%
  <tbody>
   <tr>
    <td>ステージ </td>
-   <td>2023年4月11日（PT）～2023年7月 </td>
+   <td>2023 年 10 月 3 日～9 日 </td>
   </tr>
   <tr>
    <td>実稼動 </td>
-   <td>2023年4月18日（PT）～2023年7月 </td>
+   <td>2023 年 10 月 12～18 日 </td>
   </tr>
  </tbody>
 </table>
@@ -76,7 +80,7 @@ A：いいえ。ビルドのアップグレード中は、ワークフローサ�
 
 **Q：アップグレード中も、メッセージ内のトラッキングリンクは機能しますか？**
 
-A：はい。アップグレード中に新しい E メールは送信できませんが、既に送信されている E メールに含まれるトラッキングリンクは機能します。
+A：はい。アップグレード中に新しいメールは送信できませんが、既に送信されているメールに含まれるトラッキングリンクは機能します。
 
 **Q：アップグレードが完了したことを確認するにはどうすればよいですか？**
 
