@@ -7,9 +7,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 1437559bc1310e8daadcdeeb1a3874e673bff75f
+source-git-commit: 637ec6d0f98be7b76ed3f26821a9f66541503ca6
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '250'
 ht-degree: 24%
 
 ---
@@ -31,9 +31,9 @@ ht-degree: 24%
 
 ### 改善点 {#e-rn-improvements}
 
-* **Adobe Experience Managerとの統合**. Adobe Experience Managerでトランザクションメッセージ用の配信テンプレートを作成する際に、「Campaign Standard」で定義したパーソナライゼーションフィールドを選択して使用することで、メッセージをパーソナライズできるようになりました。 Adobe Experience Manager内で新しいドロップダウンが使用できます。
+* **Adobe Experience Managerとの統合**. Adobe Experience Managerでトランザクションメッセージ用のパーソナライズされた配信テンプレートを作成する際に、ドロップダウンで、Campaign Standardで定義されたパーソナライゼーションフィールドを選択して使用できるようになりました。
 
-* **Cookie の有効期限**  — フランスの規制に合わせて、デフォルトの Cookie 有効期限が 6 ヶ月に設定されました。
+* **Cookie の有効期限**  — フランスのデータ保護庁 (CNIL) の推奨に従って、デフォルトの cookie 有効期限が 6 ヶ月に設定されるようになりました。
 
 * **プロファイル検索の改善**  — 検索のタイムアウトシナリオを短縮できるように、プロファイル検索が最適化されました
 
