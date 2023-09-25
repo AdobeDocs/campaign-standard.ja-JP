@@ -8,9 +8,9 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 50e9fb7a-b28a-40b0-9f2c-3673c792529a
-source-git-commit: 5a7e48da3d62b186f96cd7451fb5a7b2cf94e09c
+source-git-commit: cf2ded703e53d6db27e62712734f7ea846da9a21
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '842'
 ht-degree: 7%
 
 ---
@@ -95,7 +95,7 @@ Adobe Experience Cloudトリガーを Campaign で使用できるようにする
 
 「 」Experience Cloudで新しいトリガーを作成し、Web サイトで使用するレポートスイートを必ず選択してください。 トリガーが実行されるように、適切なディメンションを選択していることを確認します。
 
-詳しくは、 [Adobe Experience Cloudドキュメント](https://experienceleague.adobe.com/docs/core-services/interface/activation/triggers.html) これを見て [ビデオ](https://helpx.adobe.com/jp/marketing-cloud/how-to/email-marketing.html#step-two).
+詳しくは、 [Adobe Experience Cloudドキュメント](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html?lang=ja).
 
 ## トリガーのベストプラクティスと制限事項 {#triggers-best-practices-and-limitations}
 

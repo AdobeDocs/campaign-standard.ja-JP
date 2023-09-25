@@ -8,9 +8,9 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 6b8d5118-89ed-49c2-b601-0aff472fcadd
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: cf2ded703e53d6db27e62712734f7ea846da9a21
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '740'
 ht-degree: 80%
 
 ---
@@ -23,11 +23,9 @@ ht-degree: 80%
 >
 >トリガーを作成するには、 **[!UICONTROL Administration]** 役割またはに含まれる **[!UICONTROL Administrators]** セキュリティグループ。 これについて詳しくは、この[ページ](../../administration/using/list-of-roles.md)を参照してください。
 
-Adobe Experience Cloud（**[!UICONTROL Triggers]** コアサービス）では、事前に監視するビヘイビアーを定義する必要があります。詳しくは、[Adobe Experience Cloud のドキュメント](https://experienceleague.adobe.com/docs/core-services/interface/activation/triggers.html)を参照してください。トリガーを定義する場合は、エイリアスを有効にする必要があります。各ビヘイビアー（ブラウジング／フォームの放棄、製品の追加／削除、セッションの有効期限切れなど）について、Adobe Experience Cloud に新規トリガーを追加する必要があります。
+Adobe Experience Cloud（**[!UICONTROL Triggers]** コアサービス）では、事前に監視するビヘイビアーを定義する必要があります。詳しくは、[Adobe Experience Cloud のドキュメント](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html?lang=ja)を参照してください。トリガーを定義する場合は、エイリアスを有効にする必要があります。各ビヘイビアー（ブラウジング／フォームの放棄、製品の追加／削除、セッションの有効期限切れなど）について、Adobe Experience Cloud に新規トリガーを追加する必要があります。
 
 次に、既存の Adobe Experience Cloud のトリガーを基にして、Adobe Campaign でトリガーイベントを作成する必要があります。
-
-この[ビデオ](https://helpx.adobe.com/jp/marketing-cloud/how-to/email-marketing.html#step-two)を見ると、Adobe Campaign でのトリガーの設定方法を理解できます。
 
 これをおこなうには、次の手順に従います。
 
