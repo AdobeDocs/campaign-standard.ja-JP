@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 637ec6d0f98be7b76ed3f26821a9f66541503ca6
+source-git-commit: 668412b6385aafcaf8bb55096758731b8076666a
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 24%
+source-wordcount: '256'
+ht-degree: 23%
 
 ---
 
@@ -37,10 +37,6 @@ ht-degree: 24%
 
 * **プロファイル検索の改善**  — 検索のタイムアウトシナリオを短縮できるように、プロファイル検索が最適化されました
 
-* **Adobe Experience Cloud Triggersとの統合** -Experience Cloudトリガーの新しいユーザーインターフェイスは、消費者の行動を管理し、ユーザーエクスペリエンスをパーソナライズするための直感的なエクスペリエンスを提供します。 Adobe Experience Cloud Triggersの新しいユーザーインターフェイスは、すべての顧客に段階的に展開されます。
-
-  Adobe Campaign と Experience Cloud のトリガーについて詳しくは、[このページ](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html){target="_blank"}を参照してください。
-
 * **ローカリゼーション**  — メッセージの受信をターゲットとするプロファイルのグループを参照する際の「オーディエンス」という用語の翻訳は、次の言語に関して、すべての Digital Experience 製品間で調整されました。
 
    * ドイツ語： Zielgruppe
@@ -48,3 +44,7 @@ ht-degree: 24%
    * スペイン語： público destinatario
 
   これらの変更は、次の UI およびドキュメントリリースで徐々にロールアウトされます。
+
+* **Adobe Experience Cloud Triggersとの統合** -Experience Cloudトリガーの新しいユーザーインターフェイスが利用できるようになりました。 これにより、消費者の行動を管理し、ユーザーエクスペリエンスをパーソナライズするための直感的なエクスペリエンスが提供されます。 2023 年 10 月 11 日～16 日の間に、Adobe Experience Cloud Triggersの新しいユーザーインターフェイスはすべてのお客様に段階的に展開されます。
+
+  Adobe Campaign と Experience Cloud のトリガーについて詳しくは、[このページ](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html){target="_blank"}を参照してください。
