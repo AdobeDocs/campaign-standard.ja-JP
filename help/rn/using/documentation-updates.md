@@ -5,16 +5,29 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 9533654ac4476b359da8cf00f9ef2015d9f8ccdf
-workflow-type: ht
-source-wordcount: '7214'
-ht-degree: 100%
+source-git-commit: b1158d718cd799914e46f53947e840b1af8c7a37
+workflow-type: tm+mt
+source-wordcount: '7263'
+ht-degree: 98%
 
 ---
 
 # ドキュメントの更新{#documentation-updates}
 
 このページでは、Adobe Campaign の[リリースノート](../../rn/using/release-notes.md)に加えて、Adobe Campaign Standard のドキュメントの新規更新をすべて紹介します。
+
+<!--## Release 23.2 - Fall/Winter 2023 {#release-23-2}
+
+Release notes for Campaign Standard 23.2 Fall/Winter 2023 release have been published. [Read more](release-notes.md)-->
+
+## 2023年9月 {#doc-updates-sept-2023}
+
+* 新しいユーザーインターフェイスを使用して、Experience Cloudトリガーを実行できるようになりました。 これにより、消費者の行動を管理し、ユーザーエクスペリエンスをパーソナライズするための直感的なエクスペリエンスが提供されます。 [詳細情報](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html){target="_blank"}。
+
+## リリース 23.1 - 2023 年春/夏 {#release-23-1}
+
+Campaign Standard23.1 Spring/Summer 2023 リリースのリリースノートが公開されました。 [詳細情報](release-notes.md)
+
 
 ## 2022年11月 {#doc-updates-november-2022}
 
@@ -24,7 +37,7 @@ ht-degree: 100%
 
 ## リリース 22.3 - 2022年秋／冬 {#release-22-3}
 
-Campaign Standard 22.3 の秋／冬リリースのリリースノートが公開されました。[詳細情報](release-notes.md)
+Campaign Standard22.3 Fall/Winter 2022 リリースのリリースノートが公開されました。 [詳細情報](release-notes.md)
 
 <!--Data retention periods have been updated to reflect changes coming with 22.3 release. [Read more](../../administration/using/data-retention.md)-->
 
@@ -224,9 +237,9 @@ Campaign Standard と Microsoft Dynamics 365 の統合を新たに利用でき�
 
 Campaign Standard の監視に関するガイドラインを含む新しい節が追加されました。[詳細を表示](../../administration/using/monitoring-guidelines.md)
 
-外部 API ガードレールと制限の節が更新されました。[詳細を表示](../../automating/using/external-api.md#guardrails)
+外部 API ガードレールと制限の節が更新されました。[詳細情報](../../automating/using/external-api.md#guardrails)
 
-「プライバシー管理の概要」ページが更新され、タイの個人データ保護法（PDPA）とブラジルの Lei Geral de Proteção de Dados（LGPD）に関する情報が含まれるようになりました。[詳細を表示](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
+「プライバシー管理の概要」ページが更新され、タイの個人データ保護法 (PDPA) とブラジルの Lei Geral de Proteção de Dados(LGPD) に関する情報が含まれるようになりました。 [詳細情報](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy-overview.html#whatisgdpr)
 
 モバイルチャネルガイドが、構成を変更して改訂されました。新しいモバイルチャネルの設定ガイドと、モバイル設定に関するテクニカルドキュメントが追加されました。[詳細を表示](../../administration/using/push-tracking.md)
 
@@ -396,7 +409,7 @@ S3 外部アカウントの設定に関するドキュメントが更新され�
 
 Campaign Standard 内のワークフローを使用してコントロール母集団を構築する方法を説明する新しい使用例が追加されました。
 
-ランディングページのプロパティに関する情報が、専用の節に移動されました。[詳細を表示](../../channels/using/configuring-landing-page.md)
+ランディングページのプロパティに関する情報が、専用の節に移動されました。 [詳細を表示](../../channels/using/configuring-landing-page.md)
 
 コントロールパネルのドキュメントは、新しいコラボレーションドキュメントセットに統合されました。[詳細を表示](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja)
 
@@ -484,7 +497,7 @@ Microsoft Dynamics 365 コネクタの実装と使用に関する一連の新し
 
 配信の準備とその集計期間に関する注意事項が[パラメーターを使用したワークフローの呼び出し](../../automating/using/calling-a-workflow-with-external-parameters.md)の節に追加されました。
 
-ワークフローの外部シグナルアクティビティで宣言されたイベント変数を使用して、配信のラベルをパーソナライズする方法に関する情報が追加されました。[詳細を表示](../../automating/using/external-signal.md)
+ワークフローの外部シグナルアクティビティで宣言されたイベント変数を使用して、配信のラベルをパーソナライズする方法に関する情報が追加されました。 [詳細を表示](../../automating/using/external-signal.md)
 
 Adobe Campaign Standard でユーザーを作成する方法の詳細を説明する新しい節が追加されました。[詳細を表示](../../administration/using/users-management.md)
 
@@ -770,7 +783,7 @@ Administration メニューの「ライセンス」オプションに関する�
 
 「クエリ」アクティビティの節が更新され、クエリの例が追加されました。[詳細を表示](../../automating/using/query.md#query-samples)
 
-ブロックリストに関する節の名称を「オプトインおよびオプトアウトプロセスについて」に変更しました。特定のチャネルに対するオプトインの管理方法、およびオプトインとオプトアウトを管理するランディングページの設定方法に関する情報が更新されました。[詳細を表示](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
+に関する節ブロックリストに加えるの名称を「オプトインおよびオプトアウトプロセスについて」に変更しました。 特定のチャネルに対するオプトインの管理方法、およびオプトインとオプトアウトを管理するランディングページの設定方法に関する情報が更新されました。[詳細を表示](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
 
 アドビがホストする SFTP サーバーを使用する際のベストプラクティスについて説明します。[詳細を表示](../../administration/using/external-accounts.md#sftp-external-account)
 
@@ -1012,7 +1025,7 @@ Campaign から Analytics への KPI 共有 - [詳細を表示](../../integratin
 
 People コアサービスまたは Audience Manager と Adobe Campaign の統合を設定する手順が追加されました。[詳細を表示](../../integrating/using/integration-with-audience-manager-or-people-core-service.md)
 
-特定の役割の機能を明確にするために、認証表が改訂されました。[詳細を表示](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
+特定の役割の機能を明確にするために、認証表が改訂されました。 [詳細を表示](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
 
 Adobe Campaign から直接利用できるコンテキストヘルプリンクが更新されました。
 
