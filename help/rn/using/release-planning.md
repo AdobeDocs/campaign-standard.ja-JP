@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: 668412b6385aafcaf8bb55096758731b8076666a
+source-git-commit: e7c9c79a72b9f1ce36d0c60464b36be7d36a50a6
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 92%
+source-wordcount: '437'
+ht-degree: 95%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 92%
 >
 >このリリースは、一連の組織（限定提供）でのみ利用できます。 詳しくは、Adobe担当者にお問い合わせください。
 
-このリリースの詳細については、 [先行リリースノート](e-release-notes.md).
+このリリースについて詳しくは、[リリースノート](release-notes.md)を参照してください。
 
 <table>
  <thead>

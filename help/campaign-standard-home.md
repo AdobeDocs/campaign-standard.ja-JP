@@ -6,7 +6,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
-source-git-commit: 7a5d317fb1ebef91a72da73aec387fa671ccf19a
+source-git-commit: f6e70bf8015b31ea98e8ecca1c8df61be5f7f212
 workflow-type: tm+mt
 source-wordcount: '232'
 ht-degree: 100%
@@ -19,13 +19,13 @@ ht-degree: 100%
 
 ## 新機能
 
-* **[Campaign 22.3 リリースノートを公開中](rn/using/release-notes.md)**<br/> Campaign Standard 22.3 リリースの新機能、改善点および修正点を確認する
+* **[Campaign 23.2 リリースノートを公開中](rn/using/release-notes.md)**<br/> Campaign Standard 23.2 リリースの新機能、改善点および修正点を確認する
 
 * **[Campaign - RTCDP の統合](integrating/using/get-started-sources-destinations.md)**<br/>Campaign と Real-time Customer Data Platform（RTCDP）間でデータを共有する方法を説明します。
 
 * **[コントロール母集団](sending/using/control-group.md)**<br/>オーディエンスの一部を除外して、キャンペーンの影響を測定します
 
-* **[AI を利用した E メール](sending/using/predictive.md)**<br/>AI を利用して E メールの設計と配信を最適化します
+* **[AI を利用したメール](sending/using/predictive.md)**<br/>AI を利用してメールの設計と配信を最適化します
 
 * **[外部 API](automating/using/external-api.md)**<br/> 外部 API アクティビティを使用して、外部システムからデータをワークフローに取り込みます
 

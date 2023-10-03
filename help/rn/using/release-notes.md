@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: f9bd5901d68c09ba20d5d48d263f4818c2e1e86a
+source-git-commit: c1271bc0128c583e9b39ef98a422487e1df20fce
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 100%
+source-wordcount: '452'
+ht-degree: 59%
 
 ---
 
@@ -16,6 +16,40 @@ ht-degree: 100%
 # 最新リリース{#latest-release}
 
 ![コントロールパネル](assets/do-not-localize/cp-icon.png) **新しいコントロールパネルのリリース**。[詳細情報](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ja){target="_blank"}.
+
+
+
+## リリース 23.2 - 2023年秋／冬リリース {#fall-23}
+
+>[!AVAILABILITY]
+>
+>このリリースは、一連の組織（限定提供）でのみ利用できます。 詳しくは、Adobe担当者にお問い合わせください。
+
+### 改善点 {#fall-23-rn-improvements}
+
+* **Adobe Experience Managerとの統合**. Adobe Experience Managerでトランザクションメッセージ用のパーソナライズされた配信テンプレートを作成する際に、ドロップダウンで、Campaign Standardで定義されたパーソナライゼーションフィールドを選択して使用できるようになりました。 [詳細情報](../../integrating/using/creating-email-experience-manager.md)
+
+* **Cookie の有効期限**  — フランスのデータ保護庁 (CNIL) の推奨に従って、デフォルトの cookie 有効期限が 6 ヶ月に設定されるようになりました。
+
+* **プロファイル検索の改善**  — 検索のタイムアウトシナリオを短縮できるように、プロファイル検索が最適化されました
+
+* **ローカリゼーション**  — メッセージの受信をターゲットとするプロファイルのグループを参照する際の「オーディエンス」という用語の翻訳は、次の言語に関して、すべての Digital Experience 製品間で調整されました。
+
+   * ドイツ語： Zielgruppe
+   * ポルトガル語（ブラジル）: público-alvo
+   * スペイン語： público destinatario
+
+  これらの変更は、次の UI およびドキュメントリリースで徐々にロールアウトされます。
+
+
+### その他の変更 {#fall-23-rn-other-changes}
+
+* トランザクションメッセージで、複数のコンマ区切りの親和性を使用できるようになりました。
+
+### 修正点 {#fall-23-rn-fixes}
+
+* 大きなワークフローを使用する際にパフォーマンスの問題が発生する可能性がある問題を修正しました。 （CAMP-53369）
+* ワークフローのアラートまたは通知の電子メールリンクが機能しない問題を修正しました。 （CAMP-51874）
 
 ## リリース 23.1 - 2023年春／夏リリース {#apr-23}
 
