@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: c1271bc0128c583e9b39ef98a422487e1df20fce
+source-git-commit: 4158a5aedf990651a0205f7eac4f4294e2538cba
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 59%
+source-wordcount: '454'
+ht-degree: 60%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 59%
 
 * **Adobe Experience Managerとの統合**. Adobe Experience Managerでトランザクションメッセージ用のパーソナライズされた配信テンプレートを作成する際に、ドロップダウンで、Campaign Standardで定義されたパーソナライゼーションフィールドを選択して使用できるようになりました。 [詳細情報](../../integrating/using/creating-email-experience-manager.md)
 
-* **Cookie の有効期限**  — フランスのデータ保護庁 (CNIL) の推奨に従って、デフォルトの cookie 有効期限が 6 ヶ月に設定されるようになりました。
+* **Cookie の有効期限**  — フランスのデータ保護庁 (CNIL) の推奨に従って、デフォルトの Cookie の有効期限が 6 ヶ月に設定されるようになりました。
 
 * **プロファイル検索の改善**  — 検索のタイムアウトシナリオを短縮できるように、プロファイル検索が最適化されました
 
@@ -44,12 +44,12 @@ ht-degree: 59%
 
 ### その他の変更 {#fall-23-rn-other-changes}
 
-* トランザクションメッセージで、複数のコンマ区切りの親和性を使用できるようになりました。
+* トランザクションメッセージで、複数のコンマ区切りの親和性を使用できるようになりました。 [詳細情報](../../sending/using/managing-typologies.md)
 
 ### 修正点 {#fall-23-rn-fixes}
 
 * 大きなワークフローを使用する際にパフォーマンスの問題が発生する可能性がある問題を修正しました。 （CAMP-53369）
-* ワークフローのアラートまたは通知の電子メールリンクが機能しない問題を修正しました。 （CAMP-51874）
+* ワークフローの電子メールアラートまたは通知内のリンクが機能しない問題を修正しました。 （CAMP-51874）
 
 ## リリース 23.1 - 2023年春／夏リリース {#apr-23}
 
