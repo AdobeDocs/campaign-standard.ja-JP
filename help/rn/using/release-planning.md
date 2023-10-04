@@ -11,7 +11,7 @@ exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
 source-git-commit: e7c9c79a72b9f1ce36d0c60464b36be7d36a50a6
 workflow-type: tm+mt
 source-wordcount: '437'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 95%
 
 >[!AVAILABILITY]
 >
->このリリースは、一連の組織（限定提供）でのみ利用できます。 詳しくは、Adobe担当者にお問い合わせください。
+>このリリースは、一連の組織のみが使用できます（限定提供）。詳しくは、アドビ担当者にお問い合わせください。
 
 このリリースについて詳しくは、[リリースノート](release-notes.md)を参照してください。
 
@@ -45,11 +45,11 @@ ht-degree: 95%
  <tbody>
   <tr>
    <td>ステージ </td>
-   <td>2023 年 10 月 3 日～9 日 </td>
+   <td>2023年10月3日～9日（PT） </td>
   </tr>
   <tr>
    <td>実稼動 </td>
-   <td>2023 年 10 月 12～18 日 </td>
+   <td>2023年10月12日～18日（PT） </td>
   </tr>
  </tbody>
 </table>
