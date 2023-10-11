@@ -11,9 +11,9 @@ level: Experienced
 exl-id: 34235749-d056-4d4c-9939-7dc52f980a76
 hide: true
 hidefromtoc: true
-source-git-commit: 110f3ccb5865e70c78e18485b4ff4ba7a648af3f
+source-git-commit: 376f00576ca1d0dfb536b29dbf25d88f7c93b9a8
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '354'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->Audience Destinations サービスは現在ベータ版です。通知なしに頻繁に更新される可能性があります。 お客様は、これらの機能にアクセスするには、Azure 上でホストされている必要があります（現在、北米ではベータ版のみ）。 にアクセスする場合は、Adobeカスタマーケアにお問い合わせください。
+>Audience Destinations サービスは非推奨（廃止予定）となりました。 非推奨（廃止予定）の機能は引き続き使用できますが、それ以上の機能強化やサポートはおこなわれません。 詳細情報 [このページの](../../rn/using/deprecated-features.md)
 
 次の機能を活用して、消費者エクスペリエンスを強化 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html) 大規模で複雑なデータセットに基づいて、ターゲットを絞り込んだオーディエンスを構築する。 Adobe Experience Platformは、Adobe Analyticsを含むオンラインおよびオフラインのソースにわたるプロファイル、行動および複数エンティティのデータを統合し、顧客の 360 度のビューを構築し、顧客体験を効果的に管理できます。
 

@@ -10,9 +10,9 @@ level: Experienced
 exl-id: f4fcf256-e030-4d7b-b4b7-2448acc2ae1c
 hide: true
 hidefromtoc: true
-source-git-commit: 110f3ccb5865e70c78e18485b4ff4ba7a648af3f
+source-git-commit: 376f00576ca1d0dfb536b29dbf25d88f7c93b9a8
 workflow-type: tm+mt
-source-wordcount: '771'
+source-wordcount: '749'
 ht-degree: 5%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 5%
 
 >[!IMPORTANT]
 >
->Adobe Experience Platform Data Connector は現在ベータ版です。通知なしに頻繁に更新される可能性があります。 お客様は、これらの機能にアクセスするには、Azure 上でホストされている必要があります（現在、北米ではベータ版のみ）。 にアクセスする場合は、Adobeカスタマーケアにお問い合わせください。
+>Adobe Experience Platform Data Connector は非推奨（廃止予定）となりました。 非推奨（廃止予定）の機能は引き続き使用できますが、それ以上の機能強化やサポートはおこなわれません。 詳細情報 [このページの](../../rn/using/deprecated-features.md)
 
 Adobe Experience Platform Data Connector を使用すると、既存のお客様は、XTK データ（Campaign で取り込んだデータ）をAdobe Experience Platformの Experience Data Model(XDM) データにマッピングすることで、Adobe Experience Platformでデータを利用できるようになります。
 
