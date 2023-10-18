@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: 59404b16e145ded31bf3a374adf4087f6d1817c6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '7299'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Campaign Standard 23.2 の 2023年秋／冬リリースのリリースノート�
 
 * Experience Cloud トリガーで新しいユーザーインターフェイスを使用できるようになりました。これにより、消費者の行動を管理し、ユーザーエクスペリエンスをパーソナライズするための直感的なエクスペリエンスが提供されます。[詳細情報](https://experienceleague.adobe.com/docs/experience-cloud/triggers/overview.html?lang=ja){target="_blank"}。
 
-* トラップテストプロファイルとフィルタリングまたは疲労ルールを組み合わせた使用に関する注意事項を追加しました。 [詳細情報](../../sending/using/using-traps.md)
+* フィルタリングまたは疲労ルールと組み合わせたトラップテストプロファイルの使用に関するメモを追加しました。[詳細情報](../../sending/using/using-traps.md)
 
 ## リリース 23.1 - 2023年春／夏 {#release-23-1}
 
@@ -209,7 +209,7 @@ SMS コネクタのプロトコルと設定についてのページが[こちら
 
 外部パラメーターを使用したワークフローの呼び出し方法に関する節に、式エディターで利用できる新しい関数が追加されました。[詳細を表示](../../automating/using/customizing-workflow-external-parameters.md)
 
-ワークフローのベストプラクティスに、1 つのワークフローで使用するアクティビティ数に関する推奨事項が追加されました。[詳細を表示](../../automating/using/best-practices-workflows.md#number-activities)
+ワークフローのベストプラクティスに、1 つのワークフローで使用するアクティビティ数に関するレコメンデーションが追加されました。[詳細を表示](../../automating/using/best-practices-workflows.md#number-activities)
 
 配信のベストプラクティスに関する新しい節が追加されました。[詳細を表示](../../sending/using/delivery-best-practices.md)
 
@@ -529,7 +529,7 @@ E メールデザイナーの推奨されるアップデートに関する新し
 
 複合識別キーを使用したプロファイルの呼び出し方法に関する使用例が追加されました。[詳細を表示](../../developing/using/uc-calling-resource-id-key.md)
 
-パラメーターを使用してワークフローを呼び出す場合の、集計期間のない繰り返し配信の使用に関する推奨事項が追加されました。[詳細を表示](../../automating/using/calling-a-workflow-with-external-parameters.md)
+パラメーターを使用してワークフローを呼び出す場合の、集計期間のない繰り返し配信の使用に関するレコメンデーションが追加されました。[詳細を表示](../../automating/using/calling-a-workflow-with-external-parameters.md)
 
  Standard および Campaign Classic のエラーメッセージのリストが更新されました。[詳細を表示](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=ja)
 
@@ -955,7 +955,7 @@ Adobe Analytics と共有される KPI の詳細リストです。[詳細を表�
 
 新しい動的レポートのビデオです。
 
-S3 アカウントの推奨事項を追加しました。[詳細を表示](../../administration/using/external-accounts.md#amazon-s3-account-recommendations)
+S3 アカウントのレコメンデーションを追加しました。[詳細を表示](../../administration/using/external-accounts.md#amazon-s3-account-recommendations)
 
 様々なユーザーのタイプに関する節を更新しました。[詳細を表示](../../administration/using/users-management.md)
 
