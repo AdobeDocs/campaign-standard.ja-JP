@@ -137,7 +137,7 @@ E メールを作成し、先ほど作成したコンテンツテンプレート
 
 **関連トピック**：
 
-* [E メールの作成](../../channels/using/creating-an-email.md)
+* [メールの作成](../../channels/using/creating-an-email.md)
 * [E メールデザイナーの概要ビデオ](../../designing/using/designing-content-in-adobe-campaign.md#video)
 * [新規での E メールコンテンツのデザイン](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)
 

@@ -60,7 +60,7 @@ Adobe Campaignでは、いくつかの電子メールオーサリングオプシ
  <thead> 
   <tr> 
    <th> </th> 
-   <th> 電子メールデザイナー<br /> </th> 
+   <th> E メールデザイナー<br /> </th> 
    <th> Experience Manager<br /> </th> 
    <th> Dreamweaver<br /> </th> 
   </tr> 
