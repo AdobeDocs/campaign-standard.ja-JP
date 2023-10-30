@@ -6,18 +6,18 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
-source-git-commit: f6e70bf8015b31ea98e8ecca1c8df61be5f7f212
+source-git-commit: 5577f764beb3c5c6635d14073edcd2387f47ce5c
 workflow-type: ht
-source-wordcount: '232'
+source-wordcount: '229'
 ht-degree: 100%
 
 ---
 
 # Adobe Campaign Standard ドキュメント {#campaign-standard-documentation}
 
-![Adobe Campaign Standard](start/using/assets/do-not-localize/banner_acs_doc.jpg)
+<!--![Adobe Campaign Standard](start/using/assets/do-not-localize/banner_acs_doc.jpg) -->
 
-## 新機能
+## 新着情報
 
 * **[Campaign 23.2 リリースノートを公開中](rn/using/release-notes.md)**<br/> Campaign Standard 23.2 リリースの新機能、改善点および修正点を確認する
 
