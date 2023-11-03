@@ -36,7 +36,7 @@ E メールデザイナーを使用して E メールコンテンツを最初か
 >
 >E メールコンテンツをゼロからデザインするのを避けるために、標準のコンテンツテンプレートを使用できます。 詳しくは、 [コンテンツテンプレート](../../designing/using/using-reusable-content.md#content-templates).
 
-## 電子メール構造の定義 {#defining-the-email-structure}
+## メール構造の定義 {#defining-the-email-structure}
 
 >[!CONTEXTUALHELP]
 >id="ac_structure_components"
