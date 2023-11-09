@@ -7,22 +7,22 @@ role: Admin
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 870b01f118974ed62755dd79143b990cfa2e4e85
+source-git-commit: 6d1a5cb1d467d7d74fe41e66125fe0fcbf2e3d9b
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '427'
 ht-degree: 0%
 
 ---
 
 # プッシュ通知チャネルの今後の変更 {#push-upgrade}
 
-このページでは、Adobe Campaign Standardの Android およびiOSプッシュ通知チャネルに対する今後の変更について説明します。
-
 Android およびiOSデバイスにまたがるプッシュ通知チャネルの今後の変更に関して、Adobe Campaign Standardの実装に影響を与える可能性のある重要なアップデートがあります。
 
 ## Android {#push-android}
 
-Googleは、サービス向上のための継続的な取り組みの一環として、Googleは Firebase Cloud Messaging HTTP プロトコルを変更しています。 その結果、2023 年 6 月 20 日に廃止された Firebase Cloud Messaging 「HTTP レガシー API」は、2024 年 6 月に「HTTP v1 API」に置き換えられます。 (https://firebase.google.com/docs/cloud-messaging/http-server-ref)。 現在、Adobe Campaign Standardは、Android プッシュ通知メッセージの送信に HTTP レガシー API を使用しており、今後数ヶ月中に HTTP v1 API にアップグレードする予定です。 これらの変更に関する詳細は、Adobeがこれらの更新で作業する際に提供されます。
+Googleは、サービス向上に向けた継続的な取り組みの一環として、Google社は、 [Firebase Cloud Messaging HTTP プロトコル](https://firebase.google.com/docs/cloud-messaging/http-server-ref). その結果、2023 年 6 月 20 日に廃止された Firebase Cloud Messaging 「HTTP レガシー API」は、2024 年 6 月に「HTTP v1 API」に置き換えられます。
+
+現在、Adobe Campaign Standardは、Android プッシュ通知メッセージの送信に HTTP レガシー API を使用しており、今後数ヶ月中に HTTP v1 API にアップグレードする予定です。 これらの変更に関する詳細は、Adobeがこれらの更新で作業する際に提供されます。
 
 ## iOS {#push-ios}
 
