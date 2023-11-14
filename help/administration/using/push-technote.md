@@ -7,47 +7,41 @@ role: Admin
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 6d1a5cb1d467d7d74fe41e66125fe0fcbf2e3d9b
+source-git-commit: f9a0d01196ac4c31e57ae14cdfa448a9ffd6106f
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 0%
+source-wordcount: '325'
+ht-degree: 3%
 
 ---
 
 # プッシュ通知チャネルの今後の変更 {#push-upgrade}
 
-Android およびiOSデバイスにまたがるプッシュ通知チャネルの今後の変更に関して、Adobe Campaign Standardの実装に影響を与える可能性のある重要なアップデートがあります。
+Campaign を使用して、Android およびiOSデバイスでプッシュ通知を送信できます。 これを実行するには、Campaign は特定の購読サービスに依存しています。 Android Firebase Cloud Messaging(FCM) サービスに対する重要な変更の一部は 2024 年にリリースされ、Adobe Campaignの実装に影響を与えます。 また、iOSアプリの場合、Adobeは、管理者に証明書の設定を許可する方法を変更しています。
 
-## Android {#push-android}
+## 変更点 {#push-changes}
 
-Googleは、サービス向上に向けた継続的な取り組みの一環として、Google社は、 [Firebase Cloud Messaging HTTP プロトコル](https://firebase.google.com/docs/cloud-messaging/http-server-ref). その結果、2023 年 6 月 20 日に廃止された Firebase Cloud Messaging 「HTTP レガシー API」は、2024 年 6 月に「HTTP v1 API」に置き換えられます。
+### Android {#push-android}
 
-現在、Adobe Campaign Standardは、Android プッシュ通知メッセージの送信に HTTP レガシー API を使用しており、今後数ヶ月中に HTTP v1 API にアップグレードする予定です。 これらの変更に関する詳細は、Adobeがこれらの更新で作業する際に提供されます。
+Googleのサービス向上のための継続的な取り組みの一環として、従来の FCM API は、 **2024 年 6 月 21 日**. Firebase Cloud Messaging HTTP プロトコルについて詳しくは、 [Google Firebase ドキュメント](https://firebase.google.com/docs/cloud-messaging/http-server-ref){target="_blank"}.
 
-## iOS {#push-ios}
+現在、Adobe Campaign Standardは、Android プッシュ通知メッセージの送信に HTTP レガシー API を使用しており、今後数ヶ月中に HTTP v1 API にアップグレードする予定です。
+
+### iOS {#push-ios}
 
 また、Adobeは、iOSプッシュ通知チャネル用にAdobe Campaign Standardをアップグレードし、管理者がiOSアプリケーション用の証明書を設定できる方法を変更します。 管理者は、Adobe Campaign Standardのユーザーインターフェイスを使用して、iOS証明書をアップロードする必要があります。
 
-お客様は、マーケティングキャンペーンやコミュニケーションニーズに対してこれらのサービスを利用し、今後の計画やサポートを確実に把握していただきたいと考えています。
+## 影響の有無 {#push-impact}
 
-## 何をしてる？
+Campaign Standardユーザーは、オーディエンスにプッシュ通知メッセージを送信する場合、影響を受けます。
 
-* **製品の変更点**:Android/iOSのプッシュ通知チャネルでテクニカルスタックのアップグレードをサポートするために、製品の変更に対する作業。
+## 移行方法 {#push-migration}
 
-* **詳細な手順**：スムーズな移行プロセスを実現するための詳細な手順ガイドやその他のリソースを提供します。
+これらの更新は、モバイルCampaign Standardの設定と権限管理に影響するので、チャネルビルドのアップグレードが必要です。
 
-* **サポート**：この移行を通じて、アドビのカスタマーサポートチームが支援を受けることができます。 また、ウェビナーやイネーブルメントセッションを開催して、移行に関する技術的側面やベストプラクティスを取り上げることもできます。
+移行プロセスをスムーズに進めるため、詳細な手順が近日中に提供されます。
 
-## これはどのように影響を与えますか？
+この移行を通じて、カスタマーサポートチームがお客様をサポートします。 また、ウェビナーやイネーブルメントセッションを開催して、移行に関する技術的側面やベストプラクティスを取り上げることもできます。
 
-* **常に情報を提供**：詳細な移行計画を含む、アドビからの詳細なコミュニケーションについて、インボックスに目を通してください。
+当面は、必要に応じて必要な変更を加える準備が整うよう、この時間を要してAdobe Campaign Standardでの現在の設定とカスタマイズを確認することをお勧めします。
 
-* **現在の設定を確認**：ここで、Adobe Campaign Standardでの現在の設定とカスタマイズを確認し、必要に応じて必要な変更をおこなう準備をします。
-
-* **お問い合わせ**：すぐに関心や質問がある場合は、アドビのサポートチームに気軽にお問い合わせください。
-
-## 次の手順
-
-今後数週間で、タイムラインやアクション項目を含め、Android/iOS向けプッシュチャネルに予定されている変更に関する詳細を共有する予定です。 主な目標は、お客様とお客様のチームに対し、できる限りシームレスにこの移行を行うことです。
-
-これらの変化に対応して、ご理解いただきありがとうございます。 お客様の成功が最優先事項であり、お客様のサポートに全力で取り組んでいます。
+すぐにご不明な点やご質問がある場合は、アドビのサポートチームにお気軽にお問い合わせください。
