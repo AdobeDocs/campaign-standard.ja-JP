@@ -9,10 +9,10 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: d6aaec6e-c718-46a2-88e8-7402970def1a
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 2d3ef53d5ea5603d90da169366be6ea516d96823
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 67%
+source-wordcount: '755'
+ht-degree: 66%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 67%
 
 ## トランザクションメッセージ数 {#transactional-message-number}
 
-公開されたトランザクションメッセージの数は、プラットフォームに大きな影響を与える可能性があります。 最適なパフォーマンスを得るには、公開されたトランザクションメッセージの数を 100 未満に抑える必要があります。 これを確実におこなうには、未使用のトランザクションメッセージを非公開にするか削除します。 詳しくは、 [トランザクションメッセージの非公開](../../channels/using/publishing-transactional-message.md#unpublishing-a-transactional-message) および [トランザクションメッセージの削除](../../channels/using/publishing-transactional-message.md#deleting-a-transactional-message).
+公開されたトランザクションメッセージの数は、プラットフォームに大きな影響を与える可能性があります。 最適なパフォーマンスを得るには、公開されたトランザクションメッセージの数を 100 未満に抑える必要があります。そうしないと、パフォーマンスが低下する可能性があります。 これを確実におこなうには、前述のガードレールを満たすために、未使用のトランザクションメッセージを非公開にするか削除します。 詳しくは、 [トランザクションメッセージの非公開](../../channels/using/publishing-transactional-message.md#unpublishing-a-transactional-message) および [トランザクションメッセージの削除](../../channels/using/publishing-transactional-message.md#deleting-a-transactional-message).
 
 最高のパフォーマンスを確保するために、未使用のイベントを非公開または削除することもできます。 イベントを非公開または削除すると、対応するトランザクションメッセージと、その送信およびトラッキングログ（存在する場合）の非公開または削除もおこなわれます。 詳しくは、 [イベントの非公開](../../channels/using/publishing-transactional-event.md#unpublishing-an-event) および [イベントの削除](../../channels/using/publishing-transactional-event.md#deleting-an-event).
 
