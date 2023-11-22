@@ -8,10 +8,10 @@ feature: API
 role: Data Engineer
 level: Experienced
 exl-id: efbbd0cd-9c56-4ad0-8bcb-efba4b63c28b
-source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
+source-git-commit: 7ca7e9bd9541a4db708565e65e2ff87e44393238
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 5%
+source-wordcount: '406'
+ht-degree: 4%
 
 ---
 
@@ -26,6 +26,11 @@ Adobe Campaign Standard API アクセスは、以下の手順で設定します�
 1. **電子証明書を持っていることを確認します**&#x200B;または必要に応じて作成します。 証明書と共に提供される公開鍵と秘密鍵は、次の手順で必要になります。
 1. **Adobe Campaign Service への新しい統合の作成** in [Adobe Developer](https://developer.adobe.com/) をクリックし、設定します。 資格情報が生成されます（API キー、クライアント秘密鍵。.）。
 1. **JSON Web トークン (JWT) の作成** 以前に生成された資格情報から、秘密鍵で署名します。 JWT は、ID を検証し、API へのアクセス権を付与するためにAdobeが必要とするすべての ID およびセキュリティ情報をエンコードします。
+
+   >[!AVAILABILITY]
+   >
+   >JWT（JSON Web トークン）は、現在、が非推奨（廃止予定）の段階で、OAuth に置き換えられています。 トランジションは Campaign の今後のリリース内で段階的に実行されており、これらの更新を反映するためにドキュメントが更新されます。
+
 1. **アクセストークンとの JWT の交換** POST要求 このアクセストークンは、API リクエストの各ヘッダーで使用する必要があります。
 
 セキュアなサービス間Adobe I/OAPI セッションを確立するには、Adobe サービスへのすべてのリクエストに、以下の情報を Authorization ヘッダーに含める必要があります。
