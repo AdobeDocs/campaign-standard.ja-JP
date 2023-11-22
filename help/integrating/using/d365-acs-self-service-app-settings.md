@@ -8,10 +8,10 @@ feature: Microsoft CRM Integration
 role: Data Architect
 level: Intermediate
 exl-id: 184bc656-2107-4380-9b35-148cb4380547
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: c701043cbba22711de1ea7ddc5266e193d771e14
 workflow-type: tm+mt
-source-wordcount: '778'
-ht-degree: 4%
+source-wordcount: '670'
+ht-degree: 5%
 
 ---
 
@@ -39,11 +39,10 @@ Microsoft Dynamics 365 資格情報は、統合アプリケーションがMicros
 
 Adobe Campaign資格情報は、 [Adobe I/O](https://www.adobe.io/). 画面にアクセスする必要があります [設定Adobe I/O](../../integrating/using/d365-acs-configure-adobe-io.md) この節の入力を行う前に、ここでの指示に従ってください。
 
-次の図は、設定と設定画面の入力との間のマッピングの詳細をAdobe I/Oで説明しています。
+* JWT ベースの認証は非推奨なので、「認証の種類」を「 OAUTH 」として選択します。
+* 次の図は、設定と設定画面の入力との間のマッピングの詳細をAdobe I/Oで説明しています。
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-settings-adobeio.png)
-
-* *秘密鍵*：これを定義するプロセスは、まず「公開鍵と秘密鍵のペアを生成」ボタンをクリックします。 これにより、ダウンロードする必要のある zip ファイルが作成されます。 ダウンロードしたら、ファイルを解凍します。これにより、certificate_pub.crt および private.key という 2 つのファイルが作成されます。 秘密鍵は、必ず安全な場所に配置し、共有しないでください。 private.key ファイルをテキストエディターで開きます。 テキストエディターの値全体をコピーします (PC では Ctrl + A キー、Macでは Command + A キー、Command + C キー )。 これには、「BEGIN PRIVATE KEY」と「END PRIVATE KEY」全体を含む行を含める必要があります。 この複数行のテキスト全体を、設定画面の「秘密鍵」入力に貼り付けます。
 
 * *URL*：この値は、https\://mc.adobe.io/のパターンに合わせます。&lt;campaign-instance-name>. 統合アプリのヘッダーには、「Org」と「Instance」の両方が含まれます。 URL の「campaign-instance-name」部分は、このインスタンス値にある名前に過ぎません。
 
@@ -55,7 +54,7 @@ SFTP サーバーを設定するもう 1 つの理由は、オプトイン/オ�
 
 >[!IMPORTANT]
 >
->SFTP フォルダーにアクセスしてダウンロードする情報は、ユーザーが担当します。 情報に個人データが含まれる場合、お客様は、適用されるプライバシーに関する法令に準拠する責任を負います。 [詳細情報](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-privacy)
+>SFTP フォルダーにアクセスしてダウンロードする情報は、ユーザーが担当します。 情報に個人データが含まれる場合、お客様は、適用されるプライバシーに関する法令に準拠する責任を負います。 [詳細情報](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-privacy)。
 >
 
 Microsoft Dynamics 365 統合の Campaign SFTP 設定を定義するには、次のセクションにアクセスします。
