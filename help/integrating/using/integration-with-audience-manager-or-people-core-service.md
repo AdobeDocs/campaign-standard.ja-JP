@@ -8,10 +8,10 @@ feature: People Core Service Integration
 role: Data Architect
 level: Intermediate
 exl-id: 04d0fe26-a8cc-49ae-aaa9-b470169068ee
-source-git-commit: 5a7e48da3d62b186f96cd7451fb5a7b2cf94e09c
+source-git-commit: 26e37cea37b33924ac634c5e4ab7c60804a738f1
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 39%
+source-wordcount: '769'
+ht-degree: 38%
 
 ---
 
@@ -23,7 +23,7 @@ Adobe CampaignのAudience Managerと People コアのプロビジョニングと
 
 Audience Manager(AAM) または People コアサービスの統合により、Adobe Campaignでオーディエンスやセグメントをインポートおよびエクスポートできます。
 
-この統合を最初に設定する必要があります。この統合のプロビジョニングをリクエストするには、次の情報を記載のうえ、[Digital-Request@adobe.com](mailto:Digital-Request@adobe.com) まで E メールを送信します。
+この統合を最初に設定する必要があります。この統合のプロビジョニングをリクエストするには、次の情報を記載のうえ、[Digital-Request@adobe.com](mailto:Digital-Request@adobe.com) までメールを送信します。
 
 <table> 
  <tbody> 
@@ -124,10 +124,16 @@ Audience Manager 内で作成されるデータソースは、Adobe Campaign(MID
 
 People コアサービスまたは Audience Manager との統合を設定する場合は、Campaign トラッキングサーバーも設定する必要があります。
 
-ここでは、Campaign トラッキングサーバーがドメイン (CNAME) に登録されていることを確認する必要があります。 ドメイン名の設定について詳しくは、 [この記事](https://helpx.adobe.com/jp/campaign/kb/domain-name-delegation.html).
+共有オーディエンスが訪問者 ID で機能できるようにするには、トラッキングサーバードメインを、クリックされた URL またはメイン Web サイトのサブドメインにする必要があります。
+
+>[!IMPORTANT]
+>
+> Campaign トラッキングサーバーがドメインに登録されていることを確認する必要があります（CNAME）。ドメイン名の設定について詳しくは、 [この記事](https://helpx.adobe.com/jp/campaign/kb/domain-name-delegation.html).
 
 ### 手順 4：訪問者 ID サービスの設定 {#step-4--configure-the-visitor-id-service}
 
 訪問者 ID サービスを web プロパティや web サイトで設定したことがない場合は、次の[ドキュメント](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-aam-analytics.html?lang=ja)を参照してサービスの設定方法を確認するか、次の[ビデオ](https://helpx.adobe.com/jp/marketing-cloud/how-to/email-marketing.html#step-two)をご覧ください。
+
+を使用して顧客識別子を宣言済み ID と同期 `setCustomerID` 関数を次のExperience CloudID サービスに追加します。 `AdobeCampaignID`. The `AdobeCampaignID` は、 [手順 2：データソースの設定](#step-2--configure-the-data-sources).
 
 設定とプロビジョニングが完了し、統合を使用してオーディエンスやセグメントのインポートおよびエクスポートを行えるようになりました。
