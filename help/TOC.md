@@ -5,9 +5,9 @@ user-guide-description: Campaign Standard の使用に必要な主要な機能�
 title: Campaign Standard ガイド
 breadcrumb-title: Adobe Campaign Standard ドキュメント
 source-git-commit: 01ac9b91a5b4af445bdd6209a0b9494731a47362
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1768'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -269,7 +269,7 @@ ht-degree: 99%
          + [システムと統合アプリの接続](integrating/using/d365-acs-self-service-app-settings.md)
          + [同期ワークフローの管理](integrating/using/d365-acs-self-service-app-workflows.md)
          + [Microsoft Dynamics 365 と Campaign 間のデータのマッピング](integrating/using/d365-acs-self-service-app-data-sync.md)
-         + [JWT から OAuth サーバー間への認証情報の移行](integrating/using/d365-acs-self-service-app-migrate-credentials.md)
+         + [JWT から OAuth へのサーバー間での資格情報の移行](integrating/using/d365-acs-self-service-app-migrate-credentials.md)
       + [Microsoft Dynamics 365 統合の使用](integrating/using/d365-acs-using-the-integration.md)
    + Campaign と Adobe Experience Platform {#adobe-experience-platform}
       + [ソースと宛先の基本を学ぶ](integrating/using/get-started-sources-destinations.md)
