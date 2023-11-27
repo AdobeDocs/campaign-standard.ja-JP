@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: 7ca7e9bd9541a4db708565e65e2ff87e44393238
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '7336'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 99%
 
 * Campaign Standard 23.2 の 2023年秋／冬リリースのリリースノートが公開されました。[詳細情報](release-notes.md)
 
-* JWT（JSON Web トークン）は、現在、が非推奨（廃止予定）の段階で、OAuth に置き換えられています。 トランジションは Campaign の今後のリリース内で段階的に実行されており、これらの更新を反映するためにドキュメントが更新されます。
+* JWT（JSON web トークン）は、現在非推奨（廃止予定）の段階で、OAuth に置き換えられています。トランジションは、Campaign の今後のリリース内で段階的に実行され、ドキュメントはこれらの更新を反映して更新されます。
 
 ## 2023年10月 {#doc-updates-oct-2023}
 
