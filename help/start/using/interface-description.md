@@ -8,9 +8,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: afdd981d-f6c7-4800-9e60-3018e0e41c74
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 9faf94d3f2643d1fdeeed9156355147bf3b6be58
 workflow-type: tm+mt
-source-wordcount: '1256'
+source-wordcount: '1260'
 ht-degree: 77%
 
 ---
@@ -34,12 +34,12 @@ Campaign ホームページは、主な Adobe Campaign 機能にすばやくア�
 
 ![](assets/overview_home_page.png)
 
-* 「**[!UICONTROL Create an email]**」カードを選択すると、E メール作成アシスタントが表示されます。このアシスタントでは、E メールのタイプの選択、メッセージ受信者の選択、コンテンツの定義をおこなうことができます。[E メールの作成](../../channels/using/creating-an-email.md)の節を参照してください。
+* 「**[!UICONTROL Create an email]**」カードを選択すると、メール作成アシスタントが表示されます。このアシスタントでは、メールのタイプの選択、メッセージ受信者の選択、コンテンツの定義をおこなうことができます。[メールの作成](../../channels/using/creating-an-email.md)の節を参照してください。
 * 「**[!UICONTROL Create an SMS]**」カードを選択すると、SMS 作成アシスタントが表示されます。このアシスタントでは、SMS のタイプの選択、メッセージ受信者の選択、コンテンツの定義をおこなうことができます。[SMS の作成](../../channels/using/creating-an-sms-message.md)の節を参照してください。
 * 「**[!UICONTROL Create a Direct mail]**」カードを選択すると、ダイレクトメール作成アシスタントが表示されます。[ダイレクトメールの作成](../../channels/using/creating-the-direct-mail.md)を参照してください。
 * 「**[!UICONTROL Create a push notification]**」カードを選択すると、通知作成アシスタントが表示されます。このアシスタントではプッシュ通知のタイプの選択、メッセージ受信者の選択、コンテンツの定義をおこなうことができます。[プッシュ通知の作成](../../channels/using/preparing-and-sending-a-push-notification.md)を参照してください。
 * The **[!UICONTROL Create an In-App message]** 「 」カードを選択すると、アプリ内メッセージ作成アシスタントが表示されます。 このアシスタントでは、作成するアプリ内メッセージのタイプを選択し、そのプロパティ、オーディエンスおよびコンテンツを定義できます。 詳しくは、 [アプリ内メッセージの作成](../../channels/using/about-in-app-messaging.md) 」セクションに入力します。
-* 「**[!UICONTROL Marketing activities]**」カードを選択すると、すべてのアクティビティ、プログラムおよびキャンペーン、特に E メール、SMS、ワークフロー、ランディングページの一覧が表示されます。ここから、名前、日付、ステータスまたはアクティビティタイプで検索して、要素をフィルタリングできます。詳しくは、[マーケティングアクティビティリスト](../../start/using/marketing-activities.md#about-marketing-activities)の節を参照してください。
+* 「**[!UICONTROL Marketing activities]**」カードを選択すると、すべてのアクティビティ、プログラムおよびキャンペーン、特にメール、SMS、ワークフロー、ランディングページの一覧が表示されます。ここから、名前、日付、ステータスまたはアクティビティタイプで検索して、要素をフィルタリングできます。詳しくは、[マーケティングアクティビティリスト](../../start/using/marketing-activities.md#about-marketing-activities)の節を参照してください。
 * 「**[!UICONTROL Programs & campaigns]**」カードを選択すると、キャンペーンを作成、管理できるプログラムのリストに移動します。[プログラムリスト](../../start/using/programs-and-campaigns.md#about-plans--programs-and-campaigns)を参照してください。
 * 「**[!UICONTROL Timeline]**」カードを使用すると、マーケティングアクティビティのインタラクティブなタイムラインに直接移動し、進行中のプログラムとそのコンテンツを参照することができます。[タイムライン](../../start/using/timeline.md)を参照してください。
 * 「**[!UICONTROL Customer profiles]**」カードを選択すると、プロファイルのリストに直接移動します。ここから、リスト内の各プロファイルに関するイベントを参照できます。[プロファイルの管理](../../audiences/using/about-profiles.md)を参照してください。
@@ -77,7 +77,7 @@ Campaign ホームページは、主な Adobe Campaign 機能にすばやくア�
    * a **[!UICONTROL Learning]** リンク：Adobe Campaignコースライブラリにアクセスできます。
    * a **[!UICONTROL Community]** リンクをクリックして、Campaign に関するご質問専用のフォーラムにアクセスします。
    * ヘルプセンター、カスタマーケア、Experience Cloud製品のステータス、デベロッパー向け連携、リリースノート、リリース計画および **[!UICONTROL About]** 画面。
-1. The **[!UICONTROL Support]** 「 」タブでは、サポートケースを開き、電話またはTwitterでお問い合わせいただけます。
+1. The **[!UICONTROL Support]** 「 」タブでは、サポートケースを開いて、電話または X( 旧称：Twitter) でお問い合わせいただけます。
 1. The **[!UICONTROL Feedback]**  「 」タブを使用すると、問題の報告やアイデアの共有が容易になります。
 
 ## 詳細設定メニュー {#advanced-menu}
