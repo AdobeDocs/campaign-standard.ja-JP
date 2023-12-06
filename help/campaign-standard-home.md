@@ -2,79 +2,111 @@
 keywords: Campaign Standard;home;popular topics
 title: Adobe Campaign Standard 製品ドキュメント
 description: Campaign Standard 製品ドキュメントの参照
-feature: Overview
-role: User
-level: Beginner
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
-source-git-commit: 5577f764beb3c5c6635d14073edcd2387f47ce5c
+source-git-commit: 7dc9871c3fdc12242e22d094907bd48777a9a95a
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 100%
+source-wordcount: '283'
+ht-degree: 10%
 
 ---
 
 # Adobe Campaign Standard ドキュメント {#campaign-standard-documentation}
 
-<!--![Adobe Campaign Standard](start/using/assets/do-not-localize/banner_acs_doc.jpg) -->
-
 ## 新着情報
 
-* **[Campaign 23.2 リリースノートを公開中](rn/using/release-notes.md)**<br/> Campaign Standard 23.2 リリースの新機能、改善点および修正点を確認する
+Adobe Campaign Standard製品およびドキュメントの最新の機能強化の概要を説明します。 機能、改善点、修正点の包括的なリストについては、詳細をご覧ください。 [リリースノート](rn/using/release-notes.md). ドキュメントの最新の変更については、 [ドキュメントの更新ページ](rn/using/documentation-updates.md).
 
-* **[Campaign - RTCDP の統合](integrating/using/get-started-sources-destinations.md)**<br/>Campaign と Real-time Customer Data Platform（RTCDP）間でデータを共有する方法を説明します。
+>[!BEGINTABS]
 
-* **[コントロール母集団](sending/using/control-group.md)**<br/>オーディエンスの一部を除外して、キャンペーンの影響を測定します
+>[!TAB Campaign 23.2 リリースがライブになりました。]
 
-* **[AI を利用したメール](sending/using/predictive.md)**<br/>AI を利用してメールの設計と配信を最適化します
+Campaign Standard23.2 リリースの新機能、改善点および修正点について説明します。
 
-* **[外部 API](automating/using/external-api.md)**<br/> 外部 API アクティビティを使用して、外部システムからデータをワークフローに取り込みます
+[![画像](assets/do-not-localize/learn-more-button.svg)](rn/using/release-notes.md)
 
-* **[モバイル配信の概要](https://helpx.adobe.com/jp/campaign/kb/acs-mobile.html)**<br/>&#x200B;モバイル配信（SMS、プッシュ、アプリ内）の一般的なガイドラインについて説明します
+>[!TAB AI を活用したメール]
 
-[その他の更新](rn/using/documentation-updates.md)
+AI を利用した E メールのデザインと配信を最適化します。
 
-## トップページ
+[![画像](assets/do-not-localize/learn-more-button.svg)](sending/using/predictive.md)
 
-<table>
-<tr>
-  <td valign="top">
-    <a href="administration/using/about-access-management.md">
-      <img alt="役割" src="start/using/assets/roles.png"/>
-    </a>
-    <div>
-    <a href="administration/using/about-access-management.md"><strong>役割とセキュリティグループ</strong></a>
-    </div>
-    <em>権限を定義し、Campaign ユーザーに役割を割り当てる方法について説明します。</em>
-    <br>
-  </td>
-  <td valign="top">
-    <a href="designing/using/designing-content-in-adobe-campaign.md">
-      <img alt="デザイナー" src="start/using/assets/design.png" />
-    </a>
-    <div>
-    <a href="designing/using/designing-content-in-adobe-campaign.md"><strong>電子メールのデザイン</strong></a>
-    </div>
-    <em>電子メールデザイナーを使用して、レスポンシブでパーソナライズされた電子メールを作成する方法を説明します</em>
-    <br>
-  </td>
-  <td valign="top">
-       <img alt="サポート" src="start/using/assets/do-not-localize/help.jpeg" />
-    <div><a href="support.md">
-    <strong>サポートを受ける</strong></a>
-    </div>
-    <p><em>FAQ、ベストプラクティス、ヘルプリソースの利用、およびエキスパートへの問い合わせ</em></p>
-    <br>
-  </td>
-</tr>
+>[!TAB Campaign - RTCDP 統合]
+
+Campaign とReal-time Customer Data Platform(RTCDP) の間でデータを共有する方法について説明します。
+
+[![画像](assets/do-not-localize/learn-more-button.svg)](integrating/using/get-started-sources-destinations.md)
+
+>[!ENDTABS]
+
+## 基本事項から始めます
+
+<table style="table-layout:fixed">
+  <tr style="border: 0;">
+    <td>
+    <a href="start/using/about-the-interface.md"><img src="assets/do-not-localize/start-interface.jpeg"></a>
+    <div><strong>ユーザーインターフェイス</strong><br/>Journey Optimizerでエクスペリエンスをナビゲートおよび最適化する方法について説明します。</div>
+    </td>
+    <td>
+    <a href="designing/using/designing-content-in-adobe-campaign.md"><img src="assets/do-not-localize/start-designer.png"></a>
+    <div><strong>E メールデザイナー</strong><br/>電子メールデザイナーを使用して、レスポンシブでパーソナライズされた電子メールを作成する方法を説明します。</div>
+    </td>
+    <td>
+    <a href="channels/using/get-started-communication-channels.md"><img src="assets/do-not-localize/start-deliveries.jpeg"></a>
+    <div><strong>通信チャネル</strong><br/>電子メール、SMS、プッシュ通知など、様々なチャネルをまたいでメッセージを送信する方法を説明します。
+    </td>
+    <td>
+    <a href="automating/using/building-a-workflow.md"><img src="assets/do-not-localize/start-workflows.jpeg"></a>
+    <div><strong>最初のワークフローを作成する</strong><br/>ワークフロー構築の主な原則とベストプラクティスについて説明します。</div>
+    </td>
+  </tr>
+  <tr style="border: 0;">
+    <td align="center"><a href="start/using/about-the-interface.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="designing/using/designing-content-in-adobe-campaign.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="channels/using/get-started-communication-channels.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
+    <td align="center"><a href="automating/using/building-a-workflow.md"><img src="assets/do-not-localize/learn-more-button.svg"></a></td>
+    </tr>
+</table>
+
+## ドキュメントを参照
+
+<table style="table-layout:auto">
+  <tr style="border: 0;">
+    <td>
+      <img src="assets/do-not-localize/icon-quick-start.svg" width="35px"><br/>
+      <strong>顧客のエクスペリエンス</strong><br/><a href="sending/using/track-and-monitor.md">メッセージの監視</a> - <a href="channels/using/getting-started-with-transactional-msg.md">トランザクションメッセージ</a> - <a href="channels/using/getting-started-with-landing-pages.md">ランディングページ</a> - <a href="reporting/using/about-dynamic-reports.md">レポート</a> - <a href="start/using/privacy-management.md">プライバシー</a>
+    </td>
+    <td>
+      <img src="assets/do-not-localize/icon-configure.svg" width="35px"><br/>
+      <strong>設定<br/>administration</strong><br/><a href="administration/using/about-channel-configuration.md">チャネルの設定</a> - <a href="administration/using/about-campaign-standard-settings.md">Campaign Standard設定</a>  - <a href="administration/using/about-access-management.md">アクセス管理</a> - <a href="administration/using/monitoring-guidelines.md">監視のガイドライン</a> - <a href="integrating/using/get-started-campaign-integrations.md">Campaign と他のソリューションの統合</a>
+    </td>
+    <td>
+      <img src="assets/do-not-localize/icon-campaign.svg" width="35px"><br/>
+      <strong>通信チャネル</strong><br/><a href="channels/using/about-emails.md">電子メール</a> - <a href="channels/using/about-sms-messages.md">SMS</a> - <a href="channels/using/about-in-app-messaging.md">アプリ内</a> - <a href="channels/using/about-push-notifications.md">プッシュ通知</a> - <a href="channels/using/about-direct-mail.md">ダイレクトメール</a> - <a href="channels/using/about-direct-mail.md">Web</a>
+    </td>
+  </tr>
+  <tr style="border: 0;">
+    <td>
+      <img src="assets/do-not-localize/icon-content.svg" width="35px"><br/>
+      <strong>コンテンツ管理</strong><br/><a href="sending/using/design-and-personalize.md">パーソナライズされたコンテンツの作成</a> - <a href="sending/using/sending-proofs.md">配達確認を送信</a> - <a href="sending/using/previewing-messages.md">配信のプレビュー</a> - <a href="sending/using/use-templates.md">テンプレートの使用</a>
+    </td>
+    <td>
+      <img src="assets/do-not-localize/icon_profile-audience.svg" width="35px"><br/>
+      <strong>プロファイルとオーディエンス</strong><br/><a href="audiences/using/about-audiences.md">オーディエンス</a> - <a href="audiences/using/about-profiles.md">プロファイル</a> - <a href="audiences/using/about-subscriptions.md">購読</a> - <a href="audiences/using/about-opt-in-and-opt-out-in-campaign.md">オプトインとオプトアウト</a>
+    </td>
+    <td>
+      <img src="assets/do-not-localize/icon-data.svg" width="35px"><br/>
+      <strong>データ管理</strong><br/><a href="developing/using/data-model-concepts.md">Campaign Standardデータモデル</a> - <a href="developing/using/key-steps-to-add-a-resource.md">リソースの追加または拡張</a> - <a href="automating/using/about-data-import-and-export.md">データのインポートとエクスポート</a> - <a href="automating/using/managing-encrypted-data.md">暗号化されたデータの管理</a>
+    </td>
+  </tr>
 </table>
 
 ## その他のリソース
 
-| 便利なページ | 開発者向けリソース |
-|---|---|
-| [リリースノート](rn/using/release-notes.md) | [Experience Cloud のトリガー](integrating/using/about-adobe-experience-cloud-triggers.md) |
-| [コントロールパネルに関するドキュメント](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja) | [Campaign API](api/using/get-started-apis.md) |
-| [実装ガイド](https://helpx.adobe.com/jp/campaign/kb/campaign-standard-implementation-guide.html) | [エラーメッセージのリスト](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html) |
-| [リリース計画](rn/using/release-planning.md) | [Campaign データモデル](developing/using/datamodel-introduction.md) |
-| [廃止および削除された機能](rn/using/deprecated-features.md) | [マルチソリューションガイド](integrating/using/get-started-campaign-integrations.md) |
-| [Campaign Standard の基礎知識](start/using/about-campaign-standard.md) | [テクニカルノート](https://helpx.adobe.com/jp/campaign/kb/acs-article-list.html) |
+<table style="table-layout:fixed"><tr style="border: 0;">
+<td><strong>役立つページ</strong><br/>
+<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja" target="_blank">Tutorials</a> - <a href="https://helpx.adobe.com/jp/legal/product-descriptions/campaign-standard.html" target="_blank">製品の説明</a> - <a href="rn/using/deprecated-features.md">非推奨（廃止予定）の機能と削除された機能</a> - <a href="rn/using/release-planning.md">リリース計画</a>
+</td>
+<td><strong>技術リソース</strong><br/>
+<a href="integrating/using/about-adobe-experience-cloud-triggers.md">Experience Cloudトリガー</a> - <a href="api/using/get-started-apis.md">Campaign API</a> - <a href="https://helpx.adobe.com/jp/campaign/kb/acs-article-list.html" target="blank">テクニカルノート</a> - <a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja" target="_blank">Campaign コントロールパネル文書</a> - <a href="https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=ja">エラーメッセージのリスト</a>
+</td>
+</tr></table>
