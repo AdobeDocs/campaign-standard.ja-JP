@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
 workflow-type: tm+mt
-source-wordcount: '1260'
-ht-degree: 5%
+source-wordcount: '1220'
+ht-degree: 2%
 
 ---
 
@@ -50,11 +50,12 @@ Adobe Experience Platform SDK を使用してAdobe Campaign Standardでサポー
 
 1. データ収集 UI で、 **[!UICONTROL Extensions]** タブ、移動 **[!UICONTROL Catalog]**&#x200B;を検索し、 **[!UICONTROL Adobe Campaign Standard]** 拡張子。 詳しくは、 [Adobe Campaign Standard](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard).
 
-1. 場所の使用例をサポートするには、Campaign Standardで **[!UICONTROL Places]** 拡張機能を使用して、データ収集 UI に追加できます。 この[ページ](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html)を参照してください。
+1. 場所の使用例をサポートするには、Campaign Standardで **[!UICONTROL Places]** 拡張機能を使用して、データ収集 UI に追加できます。 この[ページ](https://developer.adobe.com/client-sdks/solution/places)を参照してください。
 
 1. Adobe Campaign Standardで、データ収集 UI で作成したモバイルプロパティを設定します。 参照： [Adobe CampaignでのAdobe Experience Platform Launchアプリケーションの設定](../../administration/using/configuring-a-mobile-application.md#set-up-campaign).
 
-1. モバイルアプリケーションの設定にチャネル固有の設定を追加します。詳しくは、[Adobe Campaign のチャネル固有のアプリケーション設定](../../administration/using/configuring-a-mobile-application.md#channel-specific-config)を参照してください。
+1. モバイルアプリケーションの設定にチャネル固有の設定を追加します。
+詳しくは、[Adobe Campaign のチャネル固有のアプリケーション設定](../../administration/using/configuring-a-mobile-application.md#channel-specific-config)を参照してください。
 
 1. 必要に応じて、タグプロパティを削除できます。
 詳しくは、 [アプリケーションの削除](../../administration/using/configuring-a-mobile-application.md#delete-app).

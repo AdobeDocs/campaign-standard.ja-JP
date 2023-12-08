@@ -8,10 +8,10 @@ feature: Audiences
 role: Data Architect
 level: Intermediate
 exl-id: b097b3fa-f949-446e-ad44-cc6ca025ee55
-source-git-commit: 884cd5e9c09aa85e744ca06b202eb46f73a33a76
+source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
 workflow-type: tm+mt
-source-wordcount: '1311'
-ht-degree: 3%
+source-wordcount: '1252'
+ht-degree: 1%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 3%
 
 Adobe Experience Platform SDK を使用して設定されたモバイルアプリケーションでAdobe Experience Platform Location Services を使用するには、次の操作が必要です。
 
-1. 次を追加： **[!UICONTROL Places]** データ収集 UI のモバイルアプリ設定の拡張。 Adobe Campaignでモバイルアプリケーションを設定します。 詳しくは、 [Places 拡張機能のインストール](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html#install-the-places-extension-in-adobe-experience-platform-launch).
+1. 次を追加： **[!UICONTROL Places]** データ収集 UI のモバイルアプリ設定の拡張。 Adobe Campaignでモバイルアプリケーションを設定します。 詳しくは、 [Places 拡張機能のインストール](https://developer.adobe.com/client-sdks/solution/places).
 
 1. 拡張機能を設定したら、データ収集 UI 内でデータ要素を作成して、これらの拡張機能からデータを取得します。 これを参照してください。 [ページ](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Step1Createdataelements) をクリックして、データ要素を作成します。
 
@@ -103,7 +103,7 @@ Adobe Campaignのモバイルアプリケーションパラメーターセット
    * Adobe Analytics の **[!UICONTROL URL]** フィールドに、 **[!UICONTROL Collect PII Endpoint]** Adobe Campaignインターフェイスで設定したモバイルアプリケーションからの URL。先頭にサーバー名が付きます。 詳しくは、 [Campaign でのモバイルアプリの設定](#setting-up-a-mobile-app-in-campaign).
    * 次の項目に入力： **[!UICONTROL Post Body]** フィールドに次のように入力します。
 
-     iOS の場合:
+     iOSの場合：
 
      ```
      {
@@ -116,7 +116,7 @@ Adobe Campaignのモバイルアプリケーションパラメーターセット
      }
      ```
 
-     Android の場合:
+     Android の場合：
 
      ```
      {

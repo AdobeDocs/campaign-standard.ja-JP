@@ -13,16 +13,16 @@ feature: Privacy
 role: User
 level: Intermediate
 exl-id: 0fc71c2f-f294-43f7-825c-73ab4d43fcf7
-source-git-commit: 9533654ac4476b359da8cf00f9ef2015d9f8ccdf
-workflow-type: ht
-source-wordcount: '1418'
-ht-degree: 100%
+source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
+workflow-type: tm+mt
+source-wordcount: '1377'
+ht-degree: 97%
 
 ---
 
 # プライバシーと同意{#privacy-and-consent}
 
-## 一般的な推奨事項 {#general-recommendations}
+## 一般的なレコメンデーション {#general-recommendations}
 
 Adobe Campaign は、個人情報や機密データを含む膨大な量のデータを収集および処理するための強力なツールです。そのため、プライバシー管理は慎重におこなう必要があります。
 
@@ -35,9 +35,9 @@ Adobe Campaign は、個人情報や機密データを含む膨大な量のデ�
 
 プライバシーを正しく取り扱い、個人データを管理するには、事業をおこなう地域に適用される法律の範囲内で作業してください。次の規則が含まれます。
 * [GDPR](https://ec.europa.eu/info/law/law-topic/data-protection/reform/what-does-general-data-protection-regulation-gdpr-govern_en)（ヨーロッパの一般データ保護規則）
-* [DPA](https://www.gov.uk/data-protection)（英国での GDPR）
+* [DPA](https://www.gov.uk/data-protection) （英国の GDPR 導入）
 * [プライバシーと電子通信に関する欧州指令](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02002L0058-20091219)
-* [CAN-SPAM 法](https://www.ftc.gov/tips-advice/business-center/guidance/can-spam-act-compliance-guide-business)（商用メールのルールと要件を設定する米国の法律）
+* [CAN-SPAM 法](https://www.ftc.gov/business-guidance/resources/can-spam-act-compliance-guide-business)（商用メールのルールと要件を設定する米国の法律）
 * [CCPA](https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=CIV&amp;division=3.&amp;title=1.81.5.&amp;part=4.&amp;chapter=&amp;article=)（カリフォルニア州消費者プライバシー法）
 * [PDPA](https://secureprivacy.ai/thailand-pdpa-summary-what-businesses-need-to-know/)（タイ個人データ保護法）
 
@@ -79,7 +79,7 @@ Adobe Experience Cloud のプライバシーについて詳しくは、[この�
 
 プライバシーを管理する場合、どのデータを誰がどのように扱うかを定義することが重要です。
 * **個人データ**&#x200B;は、生存する個人を直接または間接的に識別できる情報です。
-* **個人の機密データ**&#x200B;は、個人の人種、政治観、宗教的信念、犯罪歴、遺伝情報、健康データ、性的嗜好、生体認証情報、および労働組合の組合員に関する情報です。
+* **機密性の高い個人データ** は、個人の人種、政治観、宗教的信念、犯罪的背景、遺伝情報、健康データ、性的嗜好、生体認証情報、および労働組合の加盟に関する情報です。
 
 [主な法律](#privacy-regulations)では、データを管理する様々なエンティティを以下のように定義しています。
 * **データ管理者**&#x200B;は、個人データの収集、使用、共有の方法と目的を決定する権限を有する関係者です。

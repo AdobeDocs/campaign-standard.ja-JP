@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 7ca7e9bd9541a4db708565e65e2ff87e44393238
-workflow-type: ht
-source-wordcount: '7336'
-ht-degree: 100%
+source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
+workflow-type: tm+mt
+source-wordcount: '7211'
+ht-degree: 99%
 
 ---
 
@@ -232,7 +232,7 @@ Campaign Standard と Microsoft Dynamics 365 の統合を新たに利用でき�
 
 トランザクションメッセージの概要に関する節が更新されました。[詳細を表示](../../channels/using/getting-started-with-transactional-msg.md)
 
-**トランザクションメッセージの制限**&#x200B;の節が、[こちら](../../channels/using/transactional-messaging-limitations.md)に移動しました。.
+The **トランザクションメッセージの制限** セクションが移動されました [ここ](../../channels/using/transactional-messaging-limitations.md).
 
 **送信の準備**&#x200B;の節が[こちら](../../sending/using/preparing-the-send.md)に移動しました。
 
@@ -346,7 +346,7 @@ Enhanced MTA の詳細がコアドキュメントに追加されました。特�
 
 メール BCC でのアーカイブに関する節が移動され、更新されました。[詳細を表示](../../sending/using/archiving.md)
 
-モバイルアプリケーションの設定ドキュメントと関連ページが更新され、SDK V4 が非推奨になっていることが反映されています。[詳細を表示](https://developer.adobe.com/client-sdks/documentation/v4-end-of-life-faq/)
+モバイルアプリケーションの設定ドキュメントと関連ページが更新され、SDK V4 が非推奨になっていることが反映されています。[詳細を表示](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html)
 
 Adobe Campaign Standard／Adobe Experience Manager の統合に関するドキュメントが更新され、改訂されました。[詳細を表示](../../integrating/using/configure-experience-manager.md)
 

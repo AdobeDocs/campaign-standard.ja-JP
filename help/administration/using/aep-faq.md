@@ -6,14 +6,14 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 6b3c189d-8ddd-4dc0-8831-65ae62e04c70
-source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
+source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
 workflow-type: tm+mt
-source-wordcount: '910'
+source-wordcount: '856'
 ht-degree: 3%
 
 ---
 
-# Experience Platform SDK 統合に関する FAQ {#aep-faq}
+# Experience PlatformSDK 統合 FAQ {#aep-faq}
 
 Experience PlatformSDK アプリケーションでプッシュ通知とアプリ内メッセージを送信するには、モバイルアプリケーションをAdobe Experience Platform SDK で設定し、Adobe Campaignで設定する必要があります。
 
@@ -36,7 +36,7 @@ Adobe Experience Platform SDK とCampaign Standardの統合について詳しく
 
 はい、 [!DNL Adobe Experience Platform SDK] 統合は、Adobe Campaign StandardとAdobe Campaign Classicの両方で使用できます。 対応する **[!UICONTROL Extension]** 経由 [!DNL Data Collection UI] をクリックして、統合を有効にします。
 
-詳しくは、 [ページ]https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard) です。
+詳しくは、この[ページ](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard)を参照してください。
 
 ## Adobe CampaignでAdobe Experience Platform SDK を統合すると、どのような機能が容易になりますか？ {#aep-capabilities}
 
@@ -98,7 +98,7 @@ CollectPII 呼び出しの頻度と設計は、ビジネスニーズに基づい
 
 * Experience PlatformSDK [ドキュメント](https://developer.adobe.com/client-sdks/documentation/)
 * Launch &amp;Experience PlatformSDK の概要 [ドキュメント](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/)
-* Experience PlatformSDK へのアップグレード [ドキュメント](https://developer.adobe.com/client-sdks/documentation/upgrade-platform-sdks)
+* Experience PlatformSDK へのアップグレード [ドキュメント](https://developer.adobe.com/client-sdks/resources/upgrade-platform-sdks/)
 * GithubExperience PlatformSDK [ドキュメント](https://github.com/Adobe-Marketing-Cloud/acp-sdks/)
 
 ## プッシュ通知配信の作成中に、「配信に対する書き込みアクセス権がありません」というエラーが表示されます。 {#write-access-error}

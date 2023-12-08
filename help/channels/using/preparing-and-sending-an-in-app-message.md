@@ -8,10 +8,10 @@ context-tags: delivery,triggers,back;deliveryCreation,wizard
 feature: In App
 role: User
 exl-id: ef83d991-302b-491e-9cdb-07f5da7a5971
-source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
+source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
 workflow-type: tm+mt
-source-wordcount: '1246'
-ht-degree: 83%
+source-wordcount: '1224'
+ht-degree: 80%
 
 ---
 
@@ -58,7 +58,7 @@ Adobe Campaign を使用してスタンドアロンのアプリ内メッセー�
    * **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**
    * **[!UICONTROL Target users based on their Mobile profile (inApp)]**
 
-1. アプリ内メッセージのプロパティを入力し、「**[!UICONTROL Associate a Mobile App to a delivery]**」フィールドでモバイルアプリを選択します。
+1. アプリ内メッセージのプロパティを入力し、「 **[!UICONTROL Associate a Mobile App to a delivery]** フィールドに入力します。
 
    ドロップダウンリストにアプリが表示されない場合は、モバイルアプリが **設定済み** 状態。 Adobe Analytics のアプリ **設定準備完了** 状態はリストに表示されません。 モバイルアプリケーションの設定について詳しくは、この[ページ](../../administration/using/configuring-a-mobile-application.md#channel-specific-config)を参照してください。
 
@@ -100,7 +100,7 @@ Adobe Campaign を使用してスタンドアロンのアプリ内メッセー�
 
 1. **[!UICONTROL Places]** トリガーを使用すると、Places コンテキストデータ、Places カスタムメタデータ、Places イベントタイプのいずれかには、すべてのライブラリと Adobe Places で作成されたライブラリ目標点データに従って自動的に入力がおこなわれます。
 
-   このトリガーは、デバイス上で、データ収集 UI の Places 拡張機能で選択されたライブラリの目標地点に対してのみ適用されます。 Places 拡張機能とそのインストール方法について詳しくは、この[ドキュメント](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html)を参照してください。
+   このトリガーは、デバイス上で、データ収集 UI の Places 拡張機能で選択されたライブラリの目標地点に対してのみ適用されます。 Places 拡張機能とそのインストール方法について詳しくは、この[ドキュメント](https://developer.adobe.com/client-sdks/solution/places)を参照してください。
 
 1. 「**[!UICONTROL Frequency & duration]**」タブで、トリガーの頻度、開始日と終了日、曜日、アプリ内メッセージを有効にする時刻帯を選択します。
 
@@ -133,7 +133,7 @@ Adobe Campaign を使用してスタンドアロンのアプリ内メッセー�
 
    ![](assets/inapp_sending_3.png)
 
-1. これで、メッセージを送信し、配信レポートを使用して影響を測定できるようになりました。
+1. これで、メッセージを送信し、配信レポートを使用してその影響を測定できるようになりました。
 
 ## アプリ内メッセージの送信 {#sending-your-in-app-message}
 
