@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: e7c9c79a72b9f1ce36d0c60464b36be7d36a50a6
-workflow-type: ht
-source-wordcount: '437'
-ht-degree: 100%
+source-git-commit: 311fdf000333c03cb3b21fc6fea786251ced045f
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,11 +23,34 @@ ht-degree: 100%
 
 アップグレードは 2 段階でデプロイされます。まず、ステージインスタンスがアップグレードされて、新しい機能をテストしたり、必要に応じて設定を調整したりできるようになります。次に、実稼動インスタンスがアップグレードされます。
 
-リリース日は変更される場合があります。定期的にこのページにアクセスして、最新情報を確認してください。
+すべてのリリース日は変更される場合があります。このページに定期的にアクセスして、更新を確認してください。 環境のアップデートは、以下に示す期間に順次おこなわれます。正確な日付は、各顧客にメールで通知されます。
 
-## リリース 23.2 - 2023年秋／冬リリース {#release-23-2-release}
+## リリース 24.1 - 2024 年冬リリース {#release-24-1-release}
 
-環境のアップデートは、以下に示す期間に順次おこなわれます。正確な日付は、各顧客にメールで通知されます。
+このリリースの詳細については、 [リリースノート](release-notes.md) ステージング環境のアップグレードが開始する 1 週間前。
+
+<table>
+ <thead>
+  <tr>
+   <th> 環境 </th>
+   <th> 日付 </th>
+  </tr>
+ </thead>
+ <tbody>
+  <tr>
+   <td>ステージ </td>
+   <td>2024 年 1 月 16 日～2 月 13 日 </td>
+  </tr>
+  <tr>
+   <td>実稼動 </td>
+   <td>2024 年 1 月 23 日～2 月 20 日 </td>
+  </tr>
+ </tbody>
+</table>
+
+
+## リリース 23.2 - 2023 年秋限定リリース {#release-23-2-release}
+
 
 >[!AVAILABILITY]
 >
