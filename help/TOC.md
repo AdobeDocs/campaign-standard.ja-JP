@@ -4,9 +4,9 @@ user-guide-title: Campaign Standard
 user-guide-description: Campaign Standard の使用に必要な主要な機能、タスク、設定、その他のリソースに関するヘルプセンター。
 title: Campaign Standard ガイド
 breadcrumb-title: Adobe Campaign Standard ドキュメント
-source-git-commit: 01ac9b91a5b4af445bdd6209a0b9494731a47362
-workflow-type: ht
-source-wordcount: '1768'
+source-git-commit: 54910a648abfcf479562d7b66792976ae0aa37cc
+workflow-type: tm+mt
+source-wordcount: '1777'
 ht-degree: 100%
 
 ---
@@ -350,7 +350,7 @@ ht-degree: 100%
    + ユースケース {#workflow-use-case}
       + [ワークフローのユースケースについて](automating/using/about-workflow-use-cases.md)
       + 配信 {#deliveries}
-         + [補完を含んだ配信の作成](automating/using/workflow-created-query-with-complement.md)
+         + [補集合を含む配信の作成](automating/using/workflow-created-query-with-complement.md)
          + [プロファイルの作成日での配信作成](automating/using/workflow-creation-date-query.md)
          + [週次配信の作成](automating/using/workflow-weekly-offer.md)
          + [クロスチャネル配信の作成](automating/using/workflow-cross-channel-delivery.md)
