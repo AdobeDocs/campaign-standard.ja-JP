@@ -7,11 +7,12 @@ topic-tags: campaign-standard-releases
 feature: Overview
 role: User
 level: Beginner
+hidefromtoc: true
 exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
-source-git-commit: 9533654ac4476b359da8cf00f9ef2015d9f8ccdf
+source-git-commit: 1d8baca669235be10d373d985ea62f6f014c16f8
 workflow-type: tm+mt
-source-wordcount: '5211'
-ht-degree: 99%
+source-wordcount: '5267'
+ht-degree: 97%
 
 ---
 
@@ -68,7 +69,7 @@ ht-degree: 99%
 <tbody> 
 <tr> 
   <td> <p>Adobe Campaign Standard では、「ジャーニー AI」と呼ばれる機能が新たに導入されました。</p>
-  <p>ジャーニー AI は、高度な機械学習（ML）を搭載しており、各ユーザーのエンゲージメントの傾向を予測し、カスタマージャーニーの設計と配信を最適化できます。</p>
+  <p>ジャーニーAI は高度な機械学習 (ML) を使用して、各ユーザーのエンゲージメントの傾向を予測し、カスタマージャーニーの設計と配信を最適化します。</p>
   <P>ジャーニー AI は、次の 2 つの ML 機能で構成されています。</p>
 <ul> 
      <li> <strong>予測エンゲージメントスコアリング</strong> - メッセージのターゲティングとパーソナライゼーションを強化し、コンバージョンとリテンションを向上させるために、顧客が望むエンゲージメントレベルをインテリジェントに識別します。<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-engagement-scoring.html">ビデオガイド、チュートリアル</a>をご覧ください。</li> 
@@ -235,7 +236,7 @@ ht-degree: 99%
 **その他の機能**（7 月 13 日より開始）
 
 * **AI を利用した送信時間の最適化とプロファイルスコアリング** - カスタマージャーニーの設計と配信を最適化して、各ユーザーのエンゲージメントの傾向を予測できるようになりました。Adobe Campaign は、ジャーニー AI を活用して、過去のエンゲージメント指標に基づいて開封率や最適な送信時間、顧客離れの可能性を分析および予測できます。[詳細情報](../../sending/using/predictive.md)
-* **ブラジルの新しいプライバシー規制** - Campaign で既に提供されているプライバシー機能に加えて、アドビはブラジルの Lei Geral de Proteçao de Datos（LGPD）に対する準備を進めています。プライバシーリクエストを作成する際に、LGPD 規制が Adobe Privacy コアサービスに追加されました。[詳細情報](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy-overview.html)
+* **ブラジルの新しいプライバシー規則** - Campaign で既に利用可能なプライバシー機能に加えて、Adobeは、ブラジルの Lei Geral de Proteçao de Datos(LGPD) に対する準備を容易にします。 プライバシーリクエストを作成する際に、LGPD 規制が Adobe Privacy コアサービスに追加されました。[詳細情報](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy-overview.html)
 
 **強化点**
 
@@ -266,7 +267,7 @@ ht-degree: 99%
 
 **Experience Platform との統合**
 
-* 「**オーディエンスの閲覧**」アクティビティからの Adobe Experience Platform オーディエンスのアクティベーションが改善され、パフォーマンスと安定性が向上しました。さらに、アクティベーションジョブに関するワークフローログがより明確で詳細になり、Adobe Experience Platform オーディエンスを閲覧する際の監視とトラブルシューティングが容易になりました。
+* からのAdobe Experience Platform Audiences のアクティブ化 **オーディエンスの閲覧** アクティビティが改善され、パフォーマンスと安定性が向上しました。 さらに、アクティベーションジョブに関するワークフローログがより明確で詳細になり、Adobe Experience Platform オーディエンスを閲覧する際の監視とトラブルシューティングが容易になりました。
 
 **パッチ**
 
@@ -359,7 +360,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->Campaign Standard の Adobe Experience Platform 機能は現在ベータ版であるため、予告なしに頻繁にアップデートされる場合があります。詳細なドキュメント（Adobe Experience Platform Data Connector について、Audience Destinations サービスについて）を参照してください。
+>Campaign Standard の Adobe Experience Platform 機能は現在ベータ版であるため、予告なしに頻繁にアップデートされる場合があります。詳細なドキュメント (Experience Platformデータコネクタ、Audience Destinations) を参照してください。
 
 * ワークフローログで、現在実行中のジョブで既に処理されたレコードの件数が 10 分ごとに Campaign に表示されるようになりました。
 * データベースから削除された Adobe Experience Platform プロファイルをインポートするときに生じる可能性のある問題を修正しました。
@@ -376,15 +377,15 @@ ht-degree: 99%
 * 複数のインバウンドトランジションを含んだアクティビティの実行時にワークフローで生じる可能性がある問題を修正しました。
 * 標準ユーザーがワークフローのクエリまたは配信で「アプリケーションの購読」をターゲットディメンションとして使用できない問題を修正しました。（CAMP-37618）
 
-## リリース 20.1.4 - 2020年2月 {#release-20-1-4---february-2020}
+## リリース 20.1.4 - 2020 年 2 月 {#release-20-1-4---february-2020}
 
 * 既存のワークフローで「**オーディエンスの閲覧**」アクティビティを開く際の問題を修正しました。（CAMP-41002）
 
-## リリース 20.1.3 - 2020年2月 {#release-20-1-3---february-2020}
+## リリース 20.1.3 - 2020 年 2 月 {#release-20-1-3---february-2020}
 
 * ループホール使用に対処する CAMP-39273 が原因で 20.1 リリースに発生するようになった回帰の問題を修正しました。CAMP-39273 による修正は元に戻されました。
 
-## リリース 20.1.2 - 2020年2月 {#release-20-1-2---february-2020}
+## リリース 20.1.2 - 2020 年 2 月 {#release-20-1-2---february-2020}
 
 **E メールデザイナーの機能強化**
 
@@ -406,7 +407,7 @@ ht-degree: 99%
  <tbody> 
   <tr> 
    <td> <p>Adobe Experience Platform Data Connector が Adobe Campaign Standard に統合されるようになりました。XTK データ（Campaign でインジェストされたデータ）を Adobe Experience Platform Data Model（XDM）にマッピングすることにより、Campaign のデータを Adobe Experience Platform で利用できるようになります。 </p>
-    <p>なお、この機能は Azure でホストされるお客様のみが利用できることにご注意ください。</p>
+    <p>この機能は、Azure でホストされているお客様のみが利用できることに注意してください。</p>
    </td> 
   </tr> 
  </tbody> 
@@ -421,7 +422,7 @@ ht-degree: 99%
  <tbody> 
   <tr> 
    <td> <p>Audience Destinations を使用することにより、Adobe Experience Platform のセグメントを Adobe Campaign で共有できるようになります。</p>
-    <p>なお、この機能は Azure でホストされるお客様のみが利用できることにご注意ください。</p>
+    <p>この機能は、Azure でホストされているお客様のみが利用できることに注意してください。</p>
    </td> 
   </tr> 
  </tbody> 

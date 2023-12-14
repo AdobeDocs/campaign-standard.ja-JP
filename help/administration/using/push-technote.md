@@ -5,24 +5,23 @@ audience: channels
 feature: Push
 role: Admin
 level: Experienced
-hide: true
-hidefromtoc: true
-source-git-commit: 9b7b127d92628169249c64ce85147d530b32a2cc
+exl-id: e273b443-7c43-482b-8f86-60ada4b57cbf
+source-git-commit: 1d8baca669235be10d373d985ea62f6f014c16f8
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 3%
+source-wordcount: '322'
+ht-degree: 26%
 
 ---
 
 # プッシュ通知チャネルの今後の変更 {#push-upgrade}
 
-Campaign を使用して、Android およびiOSデバイスでプッシュ通知を送信できます。 これを実行するには、Campaign は特定の購読サービスに依存しています。 Android Firebase Cloud Messaging(FCM) サービスに対する重要な変更の一部は 2024 年にリリースされ、Adobe Campaignの実装に影響を与えます。 また、iOSアプリの場合、Adobeは、管理者に証明書の設定を許可する方法を変更しています。
+Campaign を使用して、Android およびiOSデバイスでプッシュ通知を送信できます。 これを実行するには、Campaign を特定の購読サービスに依存させます。Android Firebase Cloud Messaging(FCM) サービスに対する重要な変更の一部は 2024 年にリリースされ、Adobe Campaignの実装に影響を与えます。 また、iOSアプリの場合、Adobeは、管理者に証明書の設定を許可する方法を変更しています。
 
 ## 変更点 {#push-changes}
 
 ### Android {#push-android}
 
-Googleのサービス向上のための継続的な取り組みの一環として、従来の FCM API は、 **2024 年 6 月 21 日**. Firebase Cloud Messaging HTTP プロトコルについて詳しくは、 [Google Firebase ドキュメント](https://firebase.google.com/docs/cloud-messaging/http-server-ref){target="_blank"}.
+Google のサービス向上への継続的な取り組みの一環として、レガシー FCM API は **2024年6月20日（PT）**&#x200B;に廃止されます。Firebase Cloud Messaging HTTP プロトコルについて詳しくは、[Google Firebase ドキュメント](https://firebase.google.com/docs/cloud-messaging/http-server-ref?hl=ja){target="_blank"}を参照してください。
 
 現在、Adobe Campaign Standardは、Android プッシュ通知メッセージの送信に HTTP レガシー API を使用しており、今後数ヶ月中に HTTP v1 API にアップグレードする予定です。
 
@@ -40,7 +39,7 @@ Campaign Standardユーザーは、オーディエンスにプッシュ通知メ
 
 移行プロセスをスムーズに進めるため、詳細な手順が近日中に提供されます。
 
-この移行を通じて、カスタマーサポートチームがお客様をサポートします。 また、ウェビナーやイネーブルメントセッションを開催して、移行に関する技術的側面やベストプラクティスを取り上げることもできます。
+この移行を通じて、カスタマーサポートチームがお客様をサポートします。 また、移行に関する技術的側面とベストプラクティスを対象とするウェビナーやイネーブルメントセッションを主催する場合もあります。
 
 当面は、必要に応じて必要な変更を加える準備が整うよう、この時間を要してAdobe Campaign Standardでの現在の設定とカスタマイズを確認することをお勧めします。
 

@@ -5,9 +5,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
+source-git-commit: 1d8baca669235be10d373d985ea62f6f014c16f8
 workflow-type: tm+mt
-source-wordcount: '7211'
+source-wordcount: '7241'
 ht-degree: 99%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 99%
 # ドキュメントの更新{#documentation-updates}
 
 このページでは、Adobe Campaign の[リリースノート](../../rn/using/release-notes.md)に加えて、Adobe Campaign Standard のドキュメントの新規更新をすべて紹介します。
+
+## 2023年12月 {#doc-updates-dec-2023}
+
+Android Firebase Cloud Messaging(FCM) サービスに対する重要な変更の一部は 2024 年にリリースされ、Adobe Campaignの実装に影響を与えます。 詳しくは、 [このテクニカルノート](../../administration/using/push-technote.md).
 
 ## リリース 23.2 - 2023年秋／冬 {#release-23-2}
 
