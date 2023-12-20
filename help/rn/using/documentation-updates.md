@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: cd1650801bf31edc99d93901da232ff618673eed
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '7240'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 99%
 
 ## 2023年12月 {#doc-updates-dec-2023}
 
-Android Firebase Cloud Messaging(FCM) サービスに対する重要な変更の一部は 2024 年にリリースされ、Adobe Campaignの実装に影響を与えます。 詳しくは、 [このテクニカルノート](../../administration/using/push-technote.md).
+Android Firebase Cloud Messaging（FCM）サービスに対するいくつかの重要な変更は、2024 年にリリースする予定であり、Adobe Campaign の実装に影響を与えます。詳しくは、[このテクニカルノート](../../administration/using/push-technote.md)を参照してください。
 
-## リリース 23.2 - 2023 年秋 {#release-23-2}
+## リリース 23.2 - 2023年秋 {#release-23-2}
 
 * Campaign Standard 23.2 の 2023年秋／冬リリースのリリースノートが公開されました。[詳細情報](release-notes.md)
 
@@ -236,7 +236,7 @@ Campaign Standard と Microsoft Dynamics 365 の統合を新たに利用でき�
 
 トランザクションメッセージの概要に関する節が更新されました。[詳細を表示](../../channels/using/getting-started-with-transactional-msg.md)
 
-The **トランザクションメッセージの制限** セクションが移動されました [ここ](../../channels/using/transactional-messaging-limitations.md).
+**トランザクションメッセージの制限**&#x200B;の節が、[こちら](../../channels/using/transactional-messaging-limitations.md)に移動しました。
 
 **送信の準備**&#x200B;の節が[こちら](../../sending/using/preparing-the-send.md)に移動しました。
 
@@ -350,7 +350,7 @@ Enhanced MTA の詳細がコアドキュメントに追加されました。特�
 
 メール BCC でのアーカイブに関する節が移動され、更新されました。[詳細を表示](../../sending/using/archiving.md)
 
-モバイルアプリケーションの設定ドキュメントと関連ページが更新され、SDK V4 が非推奨になっていることが反映されています。[詳細を表示](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html)
+モバイルアプリケーションの設定ドキュメントと関連ページが更新され、SDK V4 が非推奨になっていることが反映されています。[詳細を表示](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html?lang=ja)
 
 Adobe Campaign Standard／Adobe Experience Manager の統合に関するドキュメントが更新され、改訂されました。[詳細を表示](../../integrating/using/configure-experience-manager.md)
 
