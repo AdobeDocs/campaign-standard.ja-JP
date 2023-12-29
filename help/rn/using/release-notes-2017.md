@@ -8,8 +8,8 @@ hidefromtoc: true
 exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
 source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
-source-wordcount: '4562'
-ht-degree: 7%
+source-wordcount: '4572'
+ht-degree: 6%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 7%
 
 **パッチ**
 
-_プラットフォーム_
+_Platform_
 
 * 大きな zip 形式のファイルが正しく解凍されない可能性がある問題を修正しました。
 * ブランド管理のセキュリティが向上しました。 ブランド名と送信者アドレスの変更は、Adobeの技術管理者がおこなえるようになりました。
@@ -123,7 +123,7 @@ _カスタムリソース_
 
 **パッチ**
 
-_プラットフォーム_
+_Platform_
 
 * レコードを識別する一意のキーを管理しないので、Adobe Campaign Standardから取得した ID を活用できる必要があるお客様もいます。 この ID (**ACS ID**) は、書き出したり、データの更新時に紐付けキーとして使用したりできます。 詳しくは、[詳細なドキュメント](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)を参照してください。
 * FTP プロトコルは廃止されます。 次は、代わりに SFTP を使用する必要があります。 既存の実装をブロックしないように、FTP の既存の設定は、以前と同じように機能しますが、新しいアクティビティではオプションは表示されません。
@@ -314,8 +314,8 @@ _プッシュ通知_
    <td> ワークフロー内で、繰り返しのプッシュ通知を設定できるようになりました。 顧客が定期的な更新を期待する状況（新しいコンテンツやプロモーションをチェックアウトするための週別リマインダーなど）で、繰り返しプッシュ通知を使用できます。<br /> 詳しくは、 <a href="../../automating/using/push-notification-delivery.md">詳細なドキュメント</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> Amazon Simple Storage Service（S3）コネクタ<br /> </td> 
-   <td> Amazon Simple Storage Service（S3）コネクタを使用して Adobe Campaign との間でデータのインポートまたはエクスポートをおこなえるようになりました。コネクタのセットアップはワークフローアクティビティでおこなえます。設定は外部アカウントでおこないます。<br /> 詳しくは、 <a href="../../administration/using/external-accounts.md">詳細なドキュメント</a>.<br /> </td> 
+   <td> Amazon Simple Storage Service(S3) コネクタ<br /> </td> 
+   <td> Amazon Simple Storage Service(S3) コネクタを使用して、Adobe Campaignにデータをインポートまたはエクスポートできるようになりました。 コネクタのセットアップはワークフローアクティビティでおこなえます。設定は外部アカウントでおこないます。<br /> 詳しくは、 <a href="../../administration/using/external-accounts.md">詳細なドキュメント</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> Dreamweaver統合ライブ<br /> </td> 
@@ -326,7 +326,7 @@ _プッシュ通知_
 
 **パッチ**
 
-_プラットフォーム_
+_Platform_
 
 * メモリ消費の問題を修正しました。
 

@@ -10,8 +10,8 @@ level: Experienced
 exl-id: 06ad2e13-922b-4f35-8726-007427125c63
 source-git-commit: 4b0c4fb13cc11c06e2487e531ca96574e49b6beb
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 11%
+source-wordcount: '172'
+ht-degree: 4%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 11%
 
 プライバシーリクエストは、 **POST** リクエスト。
 
- 要求を作成する前に、使用する名前空間を定義する必要があります。詳しくは、 [プライバシー管理に関するドキュメント](../../start/using/privacy-requests.md).
+リクエストを作成する前に、使用する名前空間を定義する必要があります。 詳しくは、 [プライバシー管理に関するドキュメント](../../start/using/privacy-requests.md).
 
 ペイロードには、次のパラメーターが含まれている必要があります。
 

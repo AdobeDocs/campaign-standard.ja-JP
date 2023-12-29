@@ -12,7 +12,7 @@ exl-id: 0b9795e9-83e6-4399-a3b1-fc69081f6a82
 source-git-commit: 17522f4df86c7fb46593472316d57b4ba4acee2b
 workflow-type: tm+mt
 source-wordcount: '653'
-ht-degree: 97%
+ht-degree: 93%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 97%
 
    ![](assets/lp_edit_properties_button.png)
 
-1. 自動メッセージを送信するよう指定する場合（サービスのサブスクリプションを確認する場合など）、「**[!UICONTROL Specific actions]**」セクションで「**[!UICONTROL Start sending message]**」を選択します。その後、E メール配信テンプレートを選択する必要があります。
+1. 自動メッセージを送信するよう指定する場合（サービスのサブスクリプションを確認する場合など）、「**[!UICONTROL Specific actions]**」セクションで「**[!UICONTROL Start sending message]**」を選択します。その後、メール配信テンプレートを選択する必要があります。
 
    確認メッセージがサービスレベルで既に設定されている場合は、複数の確認メッセージが送信されないように、この画面では確認メッセージを選択しないでください。「[サービスの設定](../../audiences/using/creating-a-service.md)」を参照してください。
 
@@ -115,4 +115,4 @@ ht-degree: 97%
 
 ![](assets/lp_parameters_google2.png)
 
-その後、Google reCAPTCHA は、ページでのユーザーのインタラクションに基づいてスコアを返します。スコアを確認するには、Google 管理コンソールに接続します。
+その後、Google reCAPTCHA は、ページでのユーザーのインタラクションに基づいてスコアを返します。スコアを確認するには、Google Admin Console に接続します。

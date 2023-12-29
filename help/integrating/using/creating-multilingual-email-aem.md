@@ -1,5 +1,5 @@
 ---
-title: Adobe Experience Manager との統合による多言語 E メールの作成.
+title: Adobe Experience Manager統合を使用した多言語の E メールの作成
 description: Adobe Experience Manager統合を使用すると、AEMで直接コンテンツを作成し、後でAdobe Campaignで使用することができます。
 audience: integrating
 content-type: reference
@@ -10,12 +10,12 @@ level: Intermediate
 exl-id: 0f66fe2b-22b1-49d7-a080-29b00941a2cc
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 15%
+source-wordcount: '616'
+ht-degree: 12%
 
 ---
 
-# Adobe Experience Manager との統合による多言語 E メールの作成 {#creating-multilingual-email-aem}
+# Adobe Experience Manager との統合による多言語メールの作成 {#creating-multilingual-email-aem}
 
 このドキュメントを使用して、Adobe Experience Managerのコンテンツと言語コピーを使用して多言語の E メールを作成する方法を学びます。
 
@@ -51,7 +51,7 @@ ht-degree: 15%
 
 1. クリック **[!UICONTROL Complete]** その後 **[!UICONTROL Newsletter review]** から **[!UICONTROL Complete work item]** ウィンドウ
 
-1. 「**[!UICONTROL Complete]**」、「**[!UICONTROL Newsletter approval]**」の順にクリックします。コンテンツと送信パラメーターを定義したら、Adobe Campaign Standardで E メールの承認、準備および送信に進むことができます。
+1. クリック **[!UICONTROL Complete]** その後 **[!UICONTROL Newsletter approval]**. コンテンツと送信パラメーターを定義したら、Adobe Campaign Standardで E メールの承認、準備および送信に進むことができます。
 
    ![](assets/aem_acs_8.png)
 
@@ -123,7 +123,7 @@ E メールコンテンツをデザインした後、バリエーションとし
 
 1. コンテンツやバリアントがAdobe Experience Managerで更新された場合、Adobe Campaign Standardで直接 **[!UICONTROL Refresh AEM contents]** 」ボタンをクリックします。
 
-1. これで、E メールを送信する準備が整いました。 これについて詳しくは、この[ページ](../../sending/using/get-started-sending-messages.md)を参照してください。
+1. これで、E メールを送信する準備が整いました。 詳しくは、 [ページ](../../sending/using/get-started-sending-messages.md).
 
    >[!NOTE]
    >

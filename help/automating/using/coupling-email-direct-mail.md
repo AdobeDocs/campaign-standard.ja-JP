@@ -1,5 +1,5 @@
 ---
-title: E メールとダイレクトメールの配信の結合
+title: メールとダイレクトメールの配信の結合
 description: この使用例では、ワークフローからの E メールおよびダイレクトメールの送信の例を示します。
 audience: channels
 content-type: reference
@@ -11,12 +11,12 @@ level: Intermediate
 exl-id: 2783f282-681a-40c0-ae57-d25ad641b124
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '120'
 ht-degree: 84%
 
 ---
 
-# E メールとダイレクトメールの配信の結合 {#coupling-email-direct-mail}
+# メールとダイレクトメールの配信の結合 {#coupling-email-direct-mail}
 
 マーケターは、ダイレクトメールでカタログを送信する場合があります。ペーパーカタログでは、特定のページで、Web サイトでの商品購入に使用できるプロモーションコードとリンクを使用した 10％の割引が紹介されています。
 
@@ -26,7 +26,7 @@ ht-degree: 84%
 
 ![](assets/direct_mail_9.png)
 
-ダイレクトメールと E メールのチャネルを併用するワークフローの例を以下に示します。
+ダイレクトメールとメールのチャネルを併用するワークフローの例を以下に示します。
 
 ![](assets/direct_mail_10.png)
 

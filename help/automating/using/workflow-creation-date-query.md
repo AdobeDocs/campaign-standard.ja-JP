@@ -12,7 +12,7 @@ exl-id: f611e023-f74c-476e-83b9-aff451f68c81
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '354'
-ht-degree: 38%
+ht-degree: 33%
 
 ---
 
@@ -89,11 +89,12 @@ ht-degree: 38%
 1. ドラッグ&amp;ドロップ [E メール配信](../../automating/using/email-delivery.md) アクティビティ。
 1. アクティビティをクリックし、![](assets/edit_darkgrey-24px.png) を選択して編集します。
 1. 「**[!UICONTROL Recurring email]**」を選択し、「**[!UICONTROL Next]**」をクリックします。
-1. E メールテンプレートを選択し、「**[!UICONTROL Next]**」をクリックします。
-1. E メールのプロパティを入力し、「**[!UICONTROL Next]**」をクリックします。
-1. E メールのレイアウトを作成するには、「**[!UICONTROL Email Designer]**」をクリックします。
+1. メールテンプレートを選択し、「**[!UICONTROL Next]**」をクリックします。
+1. メールのプロパティを入力し、「**[!UICONTROL Next]**」をクリックします。
+1. メールのレイアウトを作成するには、「**[!UICONTROL Email Designer]**」をクリックします。
 1. 要素を挿入するか、既存のテンプレートを選択します。
-1. フィールドとリンクを使用して E メールをパーソナライズします。詳しくは、[E メールのデザイン](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)を参照してください。
+1. フィールドとリンクを使用して E メールをパーソナライズします。
+詳しくは、[メールのデザイン](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)を参照してください。
 1. 「**[!UICONTROL Preview]**」をクリックして、レイアウトを確認します。
 1. 「**[!UICONTROL Save]**」をクリックします。
 

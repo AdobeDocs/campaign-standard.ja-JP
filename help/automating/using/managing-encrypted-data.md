@@ -10,8 +10,8 @@ level: Experienced
 exl-id: 1df1552a-6578-47eb-ba14-fb91cd2a3999
 source-git-commit: 69c47c8f3cbb405acbef634aa1ebaef8e767f159
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 35%
+source-wordcount: '889'
+ht-degree: 28%
 
 ---
 
@@ -41,7 +41,7 @@ Campaign コントロールパネルを使用する資格がない場合は、Ad
 * [ファイルを読み込み](../../automating/using/load-file.md)
 * [ファイルを抽出](../../automating/using/extract-file.md)
 
-## ユースケース：コントロールパネルで生成されたキーを使用して暗号化されたデータのインポート {#use-case-gpg-decrypt}
+## 使用例：Campaign コントロールパネルで生成されたキーを使用して暗号化されたデータのインポート {#use-case-gpg-decrypt}
 
 この使用例では、Campaign コントロールパネルで生成されたキーを使用して、外部システムで暗号化されたデータをインポートするためのワークフローを作成します。
 
@@ -81,11 +81,11 @@ Campaign コントロールパネルを使用する資格がない場合は、Ad
 
    ![](assets/gpg_load.png)
 
-1. 「**[!UICONTROL OK]**」をクリックして、アクティビティの設定を確定します。
+1. クリック **[!UICONTROL OK]** をクリックして、アクティビティの設定を確定します。
 
-1. これで、ワークフローを開始できます。
+1. これで、ワークフローを実行できます。
 
-## ユースケース：コントロールパネルにインストールされたキーを使用したデータの暗号化および書き出し {#use-case-gpg-encrypt}
+## 使用例：Campaign コントロールパネルにインストールされたキーを使用したデータの暗号化および書き出し {#use-case-gpg-encrypt}
 
 この使用例では、Campaign コントロールパネルにインストールされたキーを使用してデータを暗号化およびエクスポートするためのワークフローを作成します。
 

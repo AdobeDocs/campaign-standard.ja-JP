@@ -11,7 +11,7 @@ exl-id: 85d6361b-6c27-42c0-bac4-774b71625bf8
 source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
 source-wordcount: '1239'
-ht-degree: 86%
+ht-degree: 84%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 86%
 
 Adobe Campaign でメールを作成したら、そのコンテンツを定義する必要があります。
 
-E メールデザイナーを使用すると、ドラッグ&amp;ドロップインターフェイスを通じて、個別にカスタマイズした魅力的な E メールを作成できます。 新規のコンテンツを作成する場合でも、既存のコンテンツフラグメントやテンプレートを活用する場合でも、プロモーションやトランザクションなど、あらゆる E メールコンテンツの設計と強化に対応します。
+E メールデザイナーを使用すると、ドラッグ&amp;ドロップインターフェイスを通じて、個別にカスタマイズした魅力的な E メールを作成できます。 新規のコンテンツを作成する場合でも、既存のコンテンツフラグメントやテンプレートを活用する場合でも、プロモーションやトランザクションなど、あらゆるメールコンテンツの設計と強化に対応します。
 
-レスポンシブデザイン向けに最適化された HTML の配信に対応するユーザーインターフェイスを利用して、表示条件や動的コンテンツを容易に定義し、E メール、テンプレートまたはフラグメントに適用できます。ドラッグ&amp;ドロップインターフェイスとHTMLコードは、ボタンをクリックするだけでシームレスに切り替えることができます。
+レスポンシブデザイン向けに最適化された HTML の配信に対応する E メールデザイナーを利用して、表示条件や動的コンテンツを容易に定義し、メール、テンプレートまたはフラグメントに適用できます。ドラッグ&amp;ドロップインターフェイスとHTMLコードは、ボタンをクリックするだけでシームレスに切り替えることができます。
 
-E メールデザイナーでは、E メールコンテンツと E メールコンテンツテンプレートを作成できます。シンプルな E メール、トランザクション E メール、A/B テスト用 E メール、多言語 E メール、繰り返し E メールと互換性があります。
+E メールデザイナーでは、E メールコンテンツと E メールコンテンツテンプレートを作成できます。シンプルなメール、トランザクションメール、A/B テスト用メール、多言語メール、繰り返しメールと互換性があります。
 
 <!--The Email Designer has more features than the Legacy Editor and is backward compatible.-->
 
@@ -32,16 +32,16 @@ E メールデザイナーでは、E メールコンテンツと E メールコ�
 * E メールコンテンツの作成方法について詳しくは、[E メールデザイナーの概要](../../designing/using/quick-start.md)を参照してください。
 * E メールデザイナーの概要については、[E メールデザイナーの使用](../../designing/using/designing-content-in-adobe-campaign.md)を参照してください。
 * コンテンツ作成の詳細：
-   * コンテンツを新規に作成する場合は、[新規での E メールのデザイン](../../designing/using/designing-from-scratch.md)を参照してください。
+   * コンテンツを新規に作成する場合は、[新規でのメールのデザイン](../../designing/using/designing-from-scratch.md)を参照してください。
    * 既存のコンテンツを使用する場合は、[既存のコンテンツを使用したデザイン](../../designing/using/using-existing-content.md)を参照してください。
-   * Creative Cloud 統合の使用については、[マルチソリューション E メールデザイン](../../designing/using/using-integrations.md)を参照してください。
+   * Creative Cloud 統合の使用については、[マルチソリューションメールデザイン](../../designing/using/using-integrations.md)を参照してください。
 * パーソナライゼーションについて詳しくは、[パーソナライゼーション](../../designing/using/personalization.md)を参照してください。
 
-E メールを作成する場合、定義済みのテンプレートを使用するか、別のソースから既存のコンテンツを読み込むかを選択できます。詳しくは、[既存のコンテンツの選択](../../designing/using/using-existing-content.md#selecting-an-existing-content)を参照してください。
+メールを作成する場合、定義済みのテンプレートを使用するか、別のソースから既存のコンテンツを読み込むかを選択できます。詳しくは、[既存のコンテンツの選択](../../designing/using/using-existing-content.md#selecting-an-existing-content)を参照してください。
 
 マーケティングキャンペーンの効率を高めるには、コンテンツをパーソナライズします。詳しくは、[パーソナライゼーションフィールドの挿入](../../designing/using/personalization.md#inserting-a-personalization-field)および[コンテンツブロックの追加](../../designing/using/personalization.md#adding-a-content-block)を参照してください。
 
-また、各プロファイルに応じて変化する動的コンテンツを定義することもできます。詳しくは、[E メールでの動的コンテンツの定義](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)および[ランディングページでの動的コンテンツの定義](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)を参照してください。
+また、各プロファイルに応じて変化する動的コンテンツを定義することもできます。詳しくは、[メールでの動的コンテンツの定義](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)および[ランディングページでの動的コンテンツの定義](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)を参照してください。
 
 リンクや画像を使用して、メッセージやランディングページを強化します。詳しくは、[リンクの挿入](../../designing/using/links.md#inserting-a-link)および[画像の挿入](../../designing/using/images.md#inserting-images)を参照してください。
 
@@ -67,15 +67,15 @@ E メールデザイナーには、コンテンツのあらゆる要素を作成
 
 ### E メールデザイナーホームページ {#email-designer-home-page}
 
-[E メールを作成する](../../channels/using/creating-an-email.md)場合、E メールのコンテンツを選択すると、**[!UICONTROL Email Designer]** ホームページが自動的に表示されます。
+[メールを作成する](../../channels/using/creating-an-email.md)場合、メールのコンテンツを選択すると、**[!UICONTROL Email Designer]** ホームページが自動的に表示されます。
 
 ![](assets/email_designer_home_page.png)
 
-「**[!UICONTROL Properties]**」タブでは、ラベル、送信者のアドレスと名前、件名などの E メールの詳細を編集できます。このタブは、画面上部の E メールラベルをクリックしてアクセスすることもできます。
+「**[!UICONTROL Properties]**」タブでは、ラベル、送信者のアドレスと名前、件名などのメールの詳細を編集できます。このタブは、画面上部のメールラベルをクリックしてアクセスすることもできます。
 
 ![](assets/email_designer_home_properties.png)
 
-「**[!UICONTROL Templates]**」タブでは、標準搭載された HTML コンテンツまたは作成済みのテンプレートを選択して、E メールのデザインをすばやく開始できます。詳しくは、[コンテンツテンプレート](../../designing/using/using-reusable-content.md#content-templates)を参照してください。
+「**[!UICONTROL Templates]**」タブでは、標準搭載された HTML コンテンツまたは作成済みのテンプレートを選択して、メールのデザインをすばやく開始できます。詳しくは、[コンテンツテンプレート](../../designing/using/using-reusable-content.md#content-templates)を参照してください。
 
 ![](assets/email_designer_home_templates.png)
 
@@ -85,19 +85,19 @@ E メールデザイナーには、コンテンツのあらゆる要素を作成
 
 テンプレートを選択しない場合、E メールデザイナーのホームページでもコンテンツのデザインを開始する方法を選択できます。
 
-* コンテンツを新規に作成するには、「**[!UICONTROL Create]**」ボタンをクリックします。詳しくは、[新規での E メールコンテンツのデザイン](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)を参照してください。
+* コンテンツを新規に作成するには、「**[!UICONTROL Create]**」ボタンをクリックします。詳しくは、[新規でのメールコンテンツのデザイン](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)を参照してください。
 * 「**[!UICONTROL Upload]**」ボタンをクリックして、コンピューターからファイルをアップロードします。詳しくは、[ファイルからのコンテンツの読み込み](../../designing/using/using-existing-content.md#importing-content-from-a-file)を参照してください。
 * URL から既存のコンテンツを取得するには、「**[!UICONTROL Import from URL]**」ボタンをクリックします。[URL からのコンテンツの読み込み](../../designing/using/using-existing-content.md#importing-content-from-a-url)を参照してください。
 
 ## 用語 {#terminology}
 
-**テンプレート**：テンプレートは、複数の配信で作成および再利用できる E メールの構造です。
+**テンプレート**：テンプレートは、複数の配信で作成および再利用できるメールの構造です。
 
-**フラグメント**：フラグメントは、1 つ以上の E メールで参照できる再利用可能なコンポーネントです。
+**フラグメント**：フラグメントは、1 つ以上のメールで参照できる再利用可能なコンポーネントです。
 
-**構造コンポーネント**：E メールのレイアウトを定義する構造要素です。
+**構造コンポーネント**：メールのレイアウトを定義する構造要素です。
 
-**コンテンツコンポーネント**：コンテンツコンポーネントは生の空コンポーネントで、E メールに配置すると編集できます。
+**コンテンツコンポーネント**：コンテンツコンポーネントは生の空コンポーネントで、メールに配置すると編集できます。
 
 ## コンテンツデザインのベストプラクティス {#content-design-best-practices}
 
@@ -113,9 +113,9 @@ E メールデザイナーを適切に使用し、最適な E メールを容易
 
   [コンテンツフラグメントの作成](../../designing/using/using-reusable-content.md#creating-a-content-fragment)を参照してください。
 
-* **E メールコンテンツ**&#x200B;の編集時：
+* **メールコンテンツ**&#x200B;の編集時：
 
-  送信する前に、メッセージをプレビューします。Adobe Campaign は、Litmus を使用した E メールレンダリングのテスト機能を備えています。詳しくは、[E メールレンダリング](../../sending/using/email-rendering.md)を参照してください。
+  送信する前に、メッセージをプレビューします。Adobe Campaign は、Litmus を使用したメールのレンダリングのテスト機能を備えています。詳しくは、[メールのレンダリング](../../sending/using/email-rendering.md)を参照してください。
 
 * リファラーメタタグは、E メールデザイナーではサポートされていません。
 
@@ -123,7 +123,7 @@ E メールデザイナーを適切に使用し、最適な E メールを容易
 
 ### フラグメントの更新 {#email-designer-updates}
 
-E メールデザイナーの機能強化は継続的におこなわれています。E メールコンテンツを新規に作成した場合、標準テンプレートを利用した場合、またはフラグメントを作成した場合は、次回コンテンツを開いたときに次の更新メッセージが表示される場合があります。
+E メールデザイナーの機能強化は継続的におこなわれています。メールコンテンツを新規に作成した場合、標準テンプレートを利用した場合、またはフラグメントを作成した場合は、次回コンテンツを開いたときに次の更新メッセージが表示される場合があります。
 
 ![](assets/email_designer_fragment_patch_message.png)
 
@@ -133,15 +133,15 @@ CSS のコリジョンなどの問題を回避するために、コンテンツ�
 
 フラグメントについては、次の点に注意してください。
 
-* 新しい E メールまたはテンプレートにフラグメントを追加する場合、このメッセージが表示されたら、最初にこのフラグメントを更新する必要があります。
+* 新しいメールまたはテンプレートにフラグメントを追加する場合、このメッセージが表示されたら、最初にこのフラグメントを更新する必要があります。
 
-* 複数のフラグメントがある場合は、E メールコンテンツで使用する各フラグメントを更新する必要があります。
+* 複数のフラグメントがある場合は、メールコンテンツで使用する各フラグメントを更新する必要があります。
 
-* まだ準備されていない現在の E メールメッセージへの影響を回避するために、一部のフラグメントを更新しないように選択できます。
+* まだ準備されていない現在のメールメッセージへの影響を回避するために、一部のフラグメントを更新しないように選択できます。
 
-* 更新されていないフラグメントが既に使用されていて、そのフラグメントを編集できない場合でも、E メールを送信できます。
+* 更新されていないフラグメントが既に使用されていて、そのフラグメントを編集できない場合でも、メールを送信できます。
 
-* 既に準備済みの E メールで使用されているフラグメントを更新しても、その E メールには影響しません。
+* 既に準備済みのメールで使用されているフラグメントを更新しても、そのメールには影響しません。
 
 ## E メールデザイナーの制限 {#email-designer-limitations}
 
@@ -149,14 +149,14 @@ CSS のコリジョンなどの問題を回避するために、コンテンツ�
 
 <!--* You cannot save directly as a fragment some content of an email that you are editing within the Email Designer. You need to copy-paste the HTML corresponding to that content into a new fragment. For more on this, see [Saving content as a fragment](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).-->
 
-* スタイルを編集する場合、ほとんどの E メールクライアントで正式にサポートされている Web フォントのみを使用できます。
-* スタイルは、後で再利用するためにテーマとして保存することはできません。ただし、CSS スタイルは、コンテンツテンプレートまたは E メールに保存できます。スタイルについて詳しくは、[この節](../../designing/using/styles.md)を参照してください。
+* スタイルを編集する場合、ほとんどのメールクライアントで正式にサポートされている Web フォントのみを使用できます。
+* スタイルは、後で再利用するためにテーマとして保存することはできません。ただし、CSS スタイルは、コンテンツテンプレートまたはメールに保存できます。スタイルについて詳しくは、[この節](../../designing/using/styles.md)を参照してください。
 * リファラーメタタグは、E メールデザイナーではサポートされていません。
 * サロゲートペア（Unicode 文字セットの基本多言語面に含まれない文字）は、2 バイト（16 ビット）で格納できず、2 つの UTF-16 文字にエンコードする必要があります。 これらの文字には、CJK のイデオグラフ、ほとんどの絵文字、一部の言語が含まれます。<br>これらの文字は、ダイナミックテキストでいくつかの非互換性の問題を引き起こす可能性があります。 メッセージを送信する前に、強力なテストを実行する必要があります。
 
 **関連トピック**
 
-* [E メールの作成](../../channels/using/creating-an-email.md)
+* [メールの作成](../../channels/using/creating-an-email.md)
 * [ランディングページのデザイン](../../channels/using/designing-a-landing-page.md)
 * [SMS メッセージの作成](../../channels/using/creating-an-sms-message.md)
 * [プッシュ通知の作成と送信](../../channels/using/preparing-and-sending-a-push-notification.md)

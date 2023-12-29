@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 9676b5e8-4c34-4848-8616-235e0bac5d6b
 source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 15%
+source-wordcount: '631'
+ht-degree: 13%
 
 ---
 
@@ -77,7 +77,7 @@ Adobe Campaignのすべての通信チャネルは、メッセージを効果的
 詳しくは、以下を参照してください。
 
 * [チャネル設定について](../../administration/using/about-channel-configuration.md)
-* [E メールチャネルの設定](../../administration/using/configuring-email-channel.md)
+* [メールチャネルの設定](../../administration/using/configuring-email-channel.md)
 * [SMS チャネルの設定](../../administration/using/configuring-sms-channel.md)
 * [モバイルアプリケーションの設定](../../administration/using/configuring-a-mobile-application.md)
 

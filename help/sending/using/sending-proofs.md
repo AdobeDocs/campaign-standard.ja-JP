@@ -12,7 +12,7 @@ exl-id: 75b64c43-f066-45e7-8d61-95eba8f52b05
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '583'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 * **テストプロファイル**：定義されたターゲット条件に一致しない追加の受信者をターゲットにできます。
 
-  これをメッセージのオーディエンスに追加して、受信者データベースの不正使用を検出したり、E メールが確実に届くようにすることができます。詳しくは、[テストプロファイルの管理](../../audiences/using/managing-test-profiles.md)を参照してください。
+  これをメッセージのオーディエンスに追加して、受信者データベースの不正使用を検出したり、メールが確実に届くようにすることができます。詳しくは、[テストプロファイルの管理](../../audiences/using/managing-test-profiles.md)を参照してください。
 
   >[!NOTE]
   >
@@ -36,7 +36,7 @@ ht-degree: 100%
 
   >[!NOTE]
   >
-  >この機能は、E メールチャネルでのみ使用できます。
+  >この機能は、メールチャネルでのみ使用できます。
 
 ## 配達確認の送信 {#sending-a-proof}
 
@@ -52,7 +52,7 @@ ht-degree: 100%
 
 1. 使用する配達確認の種類を選択します。
 
-   * **[!UICONTROL Email rendering]**：このオプションは、ターゲットのインボックスに応じてメッセージを受信する方法をテストする場合に選択します。詳しくは、[E メールのレンダリング](../../sending/using/email-rendering.md)を参照してください。
+   * **[!UICONTROL Email rendering]**：このオプションは、ターゲットのインボックスに応じてメッセージを受信する方法をテストする場合に選択します。詳しくは、[メールのレンダリング](../../sending/using/email-rendering.md)を参照してください。
    * **[!UICONTROL Proof]**：このオプションは、メッセージをメインターゲットに送信する前にテストする場合に選択します。配達確認受信者は、配信の内容と形式の両方を確認して、承認をおこないます。
    * **[!UICONTROL Proof + Email rendering]**：このオプションは、前の 2 つのオプションを組み合わせたものです。
 
@@ -60,7 +60,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >E メールのレンダリングは、テストプロファイルでのみ使用できます。メッセージにテストプロファイルが追加されていない場合、選択できるのは「**[!UICONTROL Proof]**」オプションのみです。
+   >メールのレンダリングは、テストプロファイルでのみ使用できます。メッセージにテストプロファイルが追加されていない場合、選択できるのは「**[!UICONTROL Proof]**」オプションのみです。
 
 1. 選択内容を確認します。
 
@@ -72,11 +72,11 @@ ht-degree: 100%
 
    ![](assets/bat_view.png)
 
-1. 概要にアクセスする配達確認を選択します。E メールの場合、配達確認タイプとして「**E メールのレンダリング**」オプションを選択した場合は、配達確認ラベルの右側に「**[!UICONTROL Access email rendering]**」アイコンが表示されます。[E メールのレンダリング](../../sending/using/email-rendering.md)を参照してください。
+1. 概要にアクセスする配達確認を選択します。メールの場合、配達確認タイプとして「**メールのレンダリング**」オプションを選択した場合は、配達確認ラベルの右側に「**[!UICONTROL Access email rendering]**」アイコンが表示されます。[メールのレンダリング](../../sending/using/email-rendering.md)を参照してください。
 
    ![](assets/bat_view2.png)
 
-配達確認を受け取った人からのコメントに応じて、配信のコンテンツを変更するように求められる場合があります。変更がおこなわれたら、E メールの準備を一からやり直し、配達確認を再送信する必要があります。新しい各配達確認は、「**[!UICONTROL Show proofs]**」ボタンを使用してアクセスできます。
+配達確認を受け取った人からのコメントに応じて、配信のコンテンツを変更するように求められる場合があります。変更がおこなわれたら、メールの準備を一からやり直し、配達確認を再送信する必要があります。新しい各配達確認は、「**[!UICONTROL Show proofs]**」ボタンを使用してアクセスできます。
 
 配信のコンテンツが完成するまで、必要な数の配達確認を送信する必要があります。この操作が完了したら、配信をメインターゲットに送信し、承認サイクルを終了することができます。
 
@@ -103,8 +103,8 @@ ht-degree: 100%
 
 **関連トピック：**
 
-* [テストの送信、E メールの準備と送信](../../sending/using/get-started-sending-messages.md#video)（ビデオ）
-* [ターゲットプロファイルを使用した E メールメッセージのテスト](../../sending/using/testing-messages-using-target.md)
+* [テストの送信、メールの準備と送信](../../sending/using/get-started-sending-messages.md#video)（ビデオ）
+* [ターゲットプロファイルを使用したメールメッセージのテスト](../../sending/using/testing-messages-using-target.md)
 * [テストプロファイルの管理](../../audiences/using/managing-test-profiles.md)
 * [メッセージのプレビュー](../../sending/using/previewing-messages.md)
 * [電子メールチャネルの設定](../../administration/using/configuring-email-channel.md)

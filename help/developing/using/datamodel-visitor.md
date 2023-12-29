@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 20dafd81-8546-450a-87a0-59a2509efb7a
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 47%
+source-wordcount: '155'
+ht-degree: 39%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 47%
     <tr>
         <td>created</td>
         <td>作成日時</td>
-        <td>date </td>
+        <td>日付 </td>
         <td> </td>
     </tr>
     <tr>
@@ -68,7 +68,7 @@ ht-degree: 47%
         <td> </td>
     </tr>
     <tr>
-        <td>電子メール</td>
+        <td>メール</td>
         <td>メール</td>
         <td>文字列 (128)</td>
         <td> </td>
@@ -99,8 +99,8 @@ ht-degree: 47%
     </tr>
     <tr>
         <td>lastModified</td>
-        <td>最終変更日</td>
-        <td>date </td>
+        <td>最終変更日時</td>
+        <td>日付 </td>
         <td> </td>
     </tr>
     <tr>
@@ -146,7 +146,7 @@ ht-degree: 47%
     </tr>
     <tr>
         <td>referrerEmail</td>
-        <td>転送者の E メール</td>
+        <td>転送者のメール</td>
         <td>文字列 (128)</td>
         <td> </td>
     </tr>

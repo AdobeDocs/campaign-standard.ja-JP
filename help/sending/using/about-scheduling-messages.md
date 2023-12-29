@@ -10,7 +10,7 @@ role: User
 exl-id: 6b26615b-4aa6-401d-a12d-25cef4cd0524
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '270'
 ht-degree: 100%
 
 ---
@@ -21,11 +21,11 @@ ht-degree: 100%
 >
 >配信のスケジュールを変更する場合は、必ず「**Prepare**」ボタンをクリックして配信を準備し直してから、「**Confirm**」をクリックする必要があります。
 
-メッセージダッシュボードの **[!UICONTROL Schedule]** ブロックを使用すると、メッセージ（E メール、SMS、プッシュ通知）を送信するタイミングを定義できます。
+メッセージダッシュボードの **[!UICONTROL Schedule]** ブロックを使用すると、メッセージ（メール、SMS、プッシュ通知）を送信するタイミングを定義できます。
 
 ![](assets/delivery_dashboard.png)
 
-**[!UICONTROL Schedule]** プロパティを使用すると、E メール、SMS、プッシュ通知の送信オプションを設定できます。
+**[!UICONTROL Schedule]** プロパティを使用すると、メール、SMS、プッシュ通知の送信オプションを設定できます。
 
 * **[!UICONTROL Messages to be sent once confirmed]**：メッセージは、送信が確認されるとすぐに送信されます。[送信の確認](../../sending/using/confirming-the-send.md)を参照してください。
 

@@ -11,7 +11,7 @@ exl-id: e8b96c66-82f7-4adb-88b2-b7e0f7c4a96f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '518'
-ht-degree: 38%
+ht-degree: 31%
 
 ---
 
@@ -31,11 +31,11 @@ Adobe Campaignでは、様々なAdobe Experience Cloudアプリケーション�
 * **訪問者 ID**：このタイプの ID を使用すると、Adobe Experience Cloudの訪問者をAdobe Campaignプロファイルと紐付けできます。 Adobe IMSを介した接続が有効になるとすぐに、Marketing Cloud訪問者 ID サービスがアクティブ化され、Adobe Campaignで使用される永続 Cookie が置き換えられます。 これにより、訪問者を識別し、プロファイルにリンクすることができます。
   <br>訪問者 ID は、Adobe Campaign経由で送信された電子メールをプロファイルがクリックするとすぐに、プロファイルにリンクされます。
    * プロファイルに既に訪問者 ID が存在する場合、プロファイルのブラウザーデータを使用すると、Adobe Campaignがプロファイルを復元し、自動的に訪問者 ID にリンクすることができます。
-   * 訪問者 ID がない場合、新しい ID が作成されます。この訪問者 ID は、プロファイルトラッキングログに保存されます。
+   * 訪問者 ID が見つからない場合は、新しい ID が作成されます。 この訪問者 ID は、プロファイルトラッキングログに保存されます。
 
   この ID は、他の Adobe Marketing Cloud アプリケーションに同じ CNAME で認識されます。
 
-* **宣言済み ID**：このタイプの ID を使用すると、あらゆるタイプのデータをAdobe Campaignデータベースから取得した要素に紐付けできます。 Adobe Campaign では、事前定義された紐付けキーとして示されます。データを交換する場合、Adobe Campaign データベースの識別子はハッシュ化されます。これらのハッシュ化された ID は、インポートまたはエクスポートに含まれる Adobe Marketing Cloud オーディエンスのハッシュ化された ID と比較されます。
+* **宣言済み ID**：このタイプの ID を使用すると、あらゆるタイプのデータをAdobe Campaignデータベースから取得した要素に紐付けできます。 これは、Adobe Campaignでは事前定義された紐付けキーとして表されます。 データを交換する際、Adobe Campaignデータベースの識別子はハッシュ化されます。 これらのハッシュ化された ID は、インポートまたはエクスポートに含まれる Adobe Marketing Cloud オーディエンスのハッシュ化された ID と比較されます。
   <br>この統合では、通常の宣言済み ID、ハッシュ化された宣言済み ID、暗号化された宣言済み ID をサポートします。
 
   >[!NOTE]

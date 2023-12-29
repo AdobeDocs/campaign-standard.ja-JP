@@ -12,13 +12,13 @@ exl-id: 8de120e9-014f-4faa-948b-843b2ec03f5e
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '86'
-ht-degree: 17%
+ht-degree: 2%
 
 ---
 
 # 苦情{#complaints}
 
-**[!UICONTROL Complaints]** レポートは、スパムとしての宣言を最も多く受け取った配信を特定します。
+The **[!UICONTROL Complaints]** レポートは、スパムとしての宣言を最も多く受け取った配信を特定します。
 
 ![](assets/delivery_reports_complaints.png)
 

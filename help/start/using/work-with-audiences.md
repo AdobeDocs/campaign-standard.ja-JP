@@ -6,8 +6,8 @@ content-type: reference
 topic-tags: discovering-the-interface
 source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
 workflow-type: tm+mt
-source-wordcount: '776'
-ht-degree: 11%
+source-wordcount: '775'
+ht-degree: 6%
 
 ---
 
@@ -123,7 +123,7 @@ Campaign StandardAPI を使用すると、プロファイルやサービスの�
 
 <img width="60px" alt="conditions" src="assets/icon_privacy.svg"/>
 
-GDPR は欧州連合（EU）にて新しく施行されるプライバシー保護法律で、データ保護要件を現代の状況に合わせて整合化することを目的としています。GDPR は、EU に居住しているデータ主体のデータを保有している Adobe Campaign の顧客に適用されます。Adobe Campaignでは既にプライバシー機能（同意管理、データ保持設定、ユーザーの役割など）を提供していますが、この機会にデータ処理者としての役割で、特定の GDPR 要求に対するデータ管理者としての準備を進めます。
+GDPR は欧州連合 (EU) の新しいプライバシー法で、データ保護要件を現代の状況に合わせて整合化させることを目的としています。 GDPR は、EU に居住しているデータ主体のデータを保有しているAdobe Campaignのお客様に適用されます。 Adobe Campaignでは既にプライバシー機能（同意管理、データ保持設定、ユーザーの役割など）を提供していますが、この機会にデータ処理者としての役割で、特定の GDPR 要求に対するデータ管理者としての準備を進めます。
 
 参照： [この節](../../start/using/privacy.md) を参照して、GDPR に準拠するためのAdobe Campaignのツールと機能に関する詳細情報を確認してください。
 

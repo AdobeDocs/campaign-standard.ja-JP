@@ -25,7 +25,7 @@ ht-degree: 100%
 
 「**[!UICONTROL Channels]**」セクションでは、次のアクティビティオプションを提供しています。
 
-* [E メール配信](../../automating/using/email-delivery.md)
+* [メール配信](../../automating/using/email-delivery.md)
 * [SMS 配信](../../automating/using/sms-delivery.md)
 * [プッシュ通知配信](../../automating/using/push-notification-delivery.md)
 * [ダイレクトメール配信](../../automating/using/direct-mail-delivery.md)

@@ -73,7 +73,7 @@ ht-degree: 95%
 
 **[!UICONTROL Profiles]** リソース拡張が公開されると、[クエリエディター](../../automating/using/editing-queries.md)インターフェイスのショートカットタブにこのフィルターが表示されます。
 
-これにより、過去 3 ヶ月間に一定金額以上を支払ったすべてのクライアントに送信する E メールを作成する際に、オーディエンスを容易に定義できます。
+これにより、過去 3 ヶ月間に一定金額以上を支払ったすべてのクライアントに送信するメールを作成する際に、オーディエンスを容易に定義できます。
 
 ![](assets/custom_resource_filter-definition_email-audience.png)
 

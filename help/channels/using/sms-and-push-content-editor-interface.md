@@ -12,7 +12,7 @@ exl-id: d430d0e7-1201-49c6-aad3-a2c03d02290c
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '330'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -41,7 +41,7 @@ SMS およびプッシュコンテンツエディターは、メッセージの�
    <td> <img height="21px" src="assets/viewon_darkgrey-24px.png" /> <br /> </td> 
    <td> <span class="uicontrol">Preview</span> <br /> </td> 
    <td> SMS のみ<br /> </td> 
-   <td> 受信者の E メールがどのようにレンダリングされるかを表示できます。<a href="../../sending/using/previewing-messages.md">メッセージのプレビュー</a>を参照してください。<br /> </td> 
+   <td> 受信者のメールがどのようにレンダリングされるかを表示できます。<a href="../../sending/using/previewing-messages.md">メッセージのプレビュー</a>を参照してください。<br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/undo_darkgrey-24px.png" /> <br /> </td> 

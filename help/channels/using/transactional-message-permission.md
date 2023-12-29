@@ -12,7 +12,7 @@ exl-id: 995da330-6c86-444b-86b2-61d887f37db4
 source-git-commit: 7247fe596494690ac0676196fbb72c6139aeb0c7
 workflow-type: tm+mt
 source-wordcount: '797'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->これらの機能は、現在、一連の組織（限定提供）でのみ使用できます。 詳しくは、Adobe担当者にお問い合わせください。
+>これらの機能は、現在、一連の組織（限定提供）でのみ使用できます。 詳しくは、アドビ担当者にお問い合わせください。
 
 現在、Adobe Campaign Standardでは、Administrator セキュリティグループを持たないユーザーは、トランザクションイベントにアクセス、作成または公開できず、イベントの設定と公開を必要とするが管理者権限を持たないビジネスユーザーに問題が発生しています。 また、トランザクションイベントを複製することはできません。
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 を割り当てるには、以下を実行します。 **MC ユーザー** の役割をセキュリティグループに割り当てます。
 
-1. 新規作成 **[!UICONTROL Security group]** 既存のものを更新する。 [詳細情報](../../administration/using/managing-groups-and-users.md)
+1. 新規作成 **[!UICONTROL Security group]** 既存のものを更新する。 [詳細情報](../../administration/using/managing-groups-and-users.md)。
 
 1. クリック **[!UICONTROL Create element]** ：役割をセキュリティグループに割り当てます。
 

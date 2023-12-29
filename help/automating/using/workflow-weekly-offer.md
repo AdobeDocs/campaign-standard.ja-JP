@@ -12,13 +12,13 @@ exl-id: 32d9d174-8438-48d7-b876-33a0c35d9549
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '242'
-ht-degree: 81%
+ht-degree: 76%
 
 ---
 
 # 毎週火曜日の E メール配信の作成{#creating-email-every-tuesday}
 
-毎週火曜日にすべての顧客あてに特別オファーの E メールを送信できます。
+毎週火曜日にすべての顧客あてに特別オファーのメールを送信できます。
 
 1. 「**[!UICONTROL Marketing Activities]**」で、「**[!UICONTROL Create]**」をクリックして「**[!UICONTROL Workflow]**」を選択します。
 1. ワークフローのタイプとして「**[!UICONTROL New Workflow]**」を選択し、「**[!UICONTROL Next]**」をクリックします。
@@ -56,14 +56,14 @@ ht-degree: 81%
 1. In **[!UICONTROL Activities]** > **[!UICONTROL Channels]**、ドラッグ&amp;ドロップ [E メール配信](../../automating/using/email-delivery.md) アクティビティ。
 1. アクティビティをクリックし、![](assets/edit_darkgrey-24px.png) を選択して編集します。
 1. 「**[!UICONTROL Recurring email]**」を選択し、「**[!UICONTROL Next]**」をクリックします。
-1. E メールテンプレートを選択し、「**[!UICONTROL Next]**」をクリックします。
-1. E メールのプロパティを入力し、「**[!UICONTROL Next]**」をクリックします。
-1. E メールのレイアウトを作成するには、「**[!UICONTROL Use Email Designer]**」をクリックします。
+1. メールテンプレートを選択し、「**[!UICONTROL Next]**」をクリックします。
+1. メールのプロパティを入力し、「**[!UICONTROL Next]**」をクリックします。
+1. メールのレイアウトを作成するには、「**[!UICONTROL Use Email Designer]**」をクリックします。
 1. 要素を挿入するか、既存のテンプレートを選択します。
-1. フィールドとリンクを使用して E メールをパーソナライズします。
+1. フィールドとリンクを使用してメールをパーソナライズします。
 1. 「**[!UICONTROL Save]**」をクリックします。
 
-詳しくは、[E メールのデザイン](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)を参照してください。
+詳しくは、[メールのデザイン](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)を参照してください。
 
 **関連トピック：**
 

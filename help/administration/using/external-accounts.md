@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 747e82ff-d3e6-4945-8f29-80e4a190c96f
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1764'
-ht-degree: 80%
+source-wordcount: '1720'
+ht-degree: 78%
 
 ---
 
@@ -62,7 +62,7 @@ SFTP 外部アカウントの場合は、次の詳細情報を入力します。
 * ポート番号。例えば、**22**。
 * SFTP サーバーの資格情報：サーバーへの接続時に使用するアカウント名とパスワード。
 
-### アドビがホストする SFTP サーバーに関する推奨事項 {#adobe-hosted-sftp-server-recommendations}
+### Adobeがホストする SFTP サーバーに関する推奨事項 {#adobe-hosted-sftp-server-recommendations}
 
 ETL のためのファイルやデータを管理する際、これらのファイルはアドビがホストする SFTP サーバー上に保存されます。この SFTP は、ファイルの保持や削除を制御できる一時的なストレージスペースになるように設計されています。
 
@@ -126,13 +126,13 @@ Amazon S3 サーバーフィールドには、次のように入力する必要�
 
 ### Amazon S3 アカウントに関する推奨事項 {#amazon-s3-account-recommendations}
 
-Amazon S3 アカウントの設定に役立つように、次の推奨事項に従うことをお勧めします。
+Amazon S3 アカウントの設定に役立つように、次のレコメンデーションに従うことをお勧めします。
 
 * S3 バケットへのアクセスを制限するために、厳密なバケットポリシーを作成する。バケットポリシーは、バケットの作成時に設定できます。詳しくは、[Amazon S3 のドキュメント](https://docs.aws.amazon.com/AmazonS3/latest/dev//example-bucket-policies.html)を参照してください。
 * 外部アカウントを作成する際は、「**[!UICONTROL Keep files in S3 encrypted]**」ボックスをオンにして、機密データを S3 バケットに保存するための暗号化を有効にする。
 * バケットの権限を付与して、バケット内のオブジェクトにアクセスできるユーザーを指定する。バケット権限について詳しくは、[Amazon S3 のドキュメントを](https://docs.aws.amazon.com/AmazonS3/latest/dev//access-control-overview.html)参照してください。
 
-## Adobe Experience Manager 外部アカウント {#adobe-experience-manager-external-account}
+## Adobe Experience Manager の外部アカウント {#adobe-experience-manager-external-account}
 
 Adobe Experience Manager 外部アカウントは、Campaign と Experience Manager を統合する場合に使用します。
 
@@ -190,7 +190,7 @@ Microsoft Azure BLOB ストレージ外部アカウントの場合は、次の�
 
 設定が完了したら、「**[!UICONTROL Test connection]**」をクリックして Adobe Campaign を Microsoft Azure BLOB ストレージにリンクします。
 
-### Microsoft Azure BLOB ストレージ外部アカウントに関する推奨事項 {#azure-blob-recommendations}
+### Microsoft Azure BLOB ストレージに関する推奨事項 {#azure-blob-recommendations}
 
 **暗号化**
 

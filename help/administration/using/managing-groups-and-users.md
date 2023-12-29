@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 4b9834ab-0f7c-419e-a210-77a018ba874d
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '931'
-ht-degree: 72%
+source-wordcount: '921'
+ht-degree: 70%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 72%
 
 セキュリティグループとは、組織内で同じ役割および権限を共有するユーザーのセットです。
 
-ユーザーは、常にセキュリティグループにリンクされている必要があります。これにより、ユーザーに特定の役割や組織単位を割り当てることができます。ユーザーのアクセスを制限するには、ユーザーをキャンペーンに追加しないでください **[!UICONTROL Standard Users]** これがリンクされているのでグループ化 **[!UICONTROL All]** 組織単位。
+ユーザーは、常にセキュリティグループにリンクされている必要があります。これにより、特定の役割や組織単位を割り当てることができます。 ユーザーのアクセスを制限するには、ユーザーをキャンペーンに追加しないでください **[!UICONTROL Standard Users]** これがリンクされているのでグループ化 **[!UICONTROL All]** 組織単位。
 
 役割の詳細については、次の表に、ユーザーの役割に応じて使用可能な操作を示します。 [Adobe Campaign Standard認証](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf).
 
@@ -58,7 +58,7 @@ Admin Console でセキュリティグループに対しておこなった変更
 
    ![](assets/manage_security_group_2.png)
 
-1. 「**[!UICONTROL Add user]**」ボタンをクリックして、ユーザーの E メールアドレスを入力します。
+1. 「**[!UICONTROL Add user]**」ボタンをクリックして、ユーザーのメールアドレスを入力します。
 1. 「**[!UICONTROL Assign Products]**」タブで、インスタンスを選択し、ドロップダウンリストから標準の **[!UICONTROL Administrators]** セキュリティグループを選択します。これにより、ユーザーは管理メニューにアクセスし、次のセキュリティグループを作成できます。
 
    ![](assets/ootb_security_group_2.png)
@@ -137,4 +137,4 @@ Administrators ユーザーは、組織単位の割り当てに使用する Geom
 
 >[!IMPORTANT]
 >
->Admin Console内のセキュリティグループから削除されたユーザーは、Adobe Campaignセキュリティグループに引き続き属し、Adobe Campaignにログインできなくなります。 この場合、ユーザーが機密情報を受け取らないように、Admin Console でユーザーの E メールアドレスを削除します。
+>Admin Console内のセキュリティグループから削除されたユーザーは、Adobe Campaignセキュリティグループに引き続き属し、Adobe Campaignにログインできなくなります。 この場合、ユーザーが機密情報を受け取らないように、Admin Console でユーザーのメールアドレスを削除します。

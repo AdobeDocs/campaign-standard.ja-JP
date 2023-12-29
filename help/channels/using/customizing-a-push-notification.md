@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 3fe3495b-e360-4169-b295-86ad93753468
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
-source-wordcount: '1500'
-ht-degree: 96%
+source-wordcount: '1439'
+ht-degree: 93%
 
 ---
 
@@ -29,7 +29,7 @@ Adobe Campaign では、プッシュ通知のデザイン中に一連の詳細�
 * [プッシュ通知レポート](../../reporting/using/push-notification-report.md)
 * [ワークフロー内でのプッシュ通知の送信](../../automating/using/push-notification-delivery.md)
 
-## サウンドの再生 {#play-a-sound}
+## サウンドを再生 {#play-a-sound}
 
 「**[!UICONTROL Play a sound]**」機能を使用すると、デバイス上でアプリケーションが実行されていなくても、プッシュ通知を配信してサウンドを再生できます。
 
@@ -107,7 +107,7 @@ Adobe Campaign では、プッシュ通知のデザイン中に一連の詳細�
 
 ユーザーのアクションに応じて、関連するタスクを実行できるようにアプリケーションは通知を受け取ります。
 
-## 有効期限の追加 {#add-expiration-date}
+## 有効期限を追加 {#add-expiration-date}
 
 プッシュ通知に有効期限を設定すると、Apple（[APNS](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/sending_notification_requests_to_apns)）または Android（[FCM](https://firebase.google.com/docs/cloud-messaging/concept-options)）からメッセージが送信されなくなる特定の有効期限を設定できます。
 
@@ -123,7 +123,7 @@ Adobe Campaign では、プッシュ通知のデザイン中に一連の詳細�
 
 プッシュ通知は、有効期限より前に送信されなかった場合は破棄されます。
 
-## カスタムフィールドの追加 {#add-custom-fields}
+## カスタムフィールドを追加 {#add-custom-fields}
 
 カスタムフィールドを使用すると、キーと値のペアの形式でペイロードにカスタムデータを格納して渡すことができます。このオプションは、事前に定義されたキー以外の追加データをアプリケーションに渡す場合に使用できます。
 
@@ -160,7 +160,7 @@ Adobe Campaign では、プッシュ通知のデザイン中に一連の詳細�
 
    ![](assets/push_notif_advanced_2.png)
 
-## 通知動作の変更（iOS の場合） {#change-the-notification-behavior-for-ios}
+## iOSの通知動作の変更 {#change-the-notification-behavior-for-ios}
 
 ![](assets/push_notif_advanced_5.png)
 

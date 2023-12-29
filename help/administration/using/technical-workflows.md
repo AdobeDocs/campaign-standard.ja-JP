@@ -8,8 +8,8 @@ level: Experienced
 exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '700'
-ht-degree: 89%
+source-wordcount: '704'
+ht-degree: 88%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 89%
   <tr> 
    <td> <span class="uicontrol">即時レポート共有</span> <br /> </td> 
    <td> <span class="uicontrol">reportSendingNow</span> <br /> </td> 
-   <td> このワークフローは、レポートの送信がスケジュールされるとすぐに実行されます。レポートは PDF ファイルに変換され、ターゲットの受信者に電子メールで送信されます。<br /> </td> 
+   <td> このワークフローは、レポートの送信がスケジュールされるとすぐに実行されます。レポートは PDF ファイルに変換され、ターゲットの受信者にメールで送信されます。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">KPI と Adobe Analytics との紐付け</span> <br /> </td> 
@@ -102,7 +102,7 @@ ht-degree: 89%
   <tr> 
    <td> <span class="uicontrol">トラッキングログを復元</span> <br /> </td> 
    <td> <span class="uicontrol">trackingLogRecovery</span> <br /> </td> 
-   <td> このワークフローは、失われたトラッキングログを復元します。 このテクニカルワークフローは、特定のコンテキストで使用され、Adobe内部での使用のみに制限されます。 <br>デフォルトでは、10 分ごとに実行されます。<br /> </td> 
+   <td> このワークフローは、失われたトラッキングログを復元します。 このテクニカルワークフローは、特定のコンテキストで使用され、Adobe内部での使用のみに制限されます。 <br> デフォルトでは、10 分ごとに実行されます。<br /> </td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">配信実行情報の更新</span> <br/> </td> 

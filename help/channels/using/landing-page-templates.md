@@ -11,7 +11,7 @@ level: Intermediate
 exl-id: 29d1badf-9ce3-470c-9bdc-169586d2e943
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '220'
 ht-degree: 94%
 
 ---
@@ -22,7 +22,7 @@ Campaign には、次の一連のランディングページテンプレート�
 
 * **[!UICONTROL Acquisition]**：ランディングページのデフォルトテンプレートで、これを使用すると、Campaign データベースのデータを取得および更新できます。
 * **[!UICONTROL Subscription]**：サービスのサブスクリプションをオファーする場合に使用するテンプレートです。
-* **[!UICONTROL Unsubscription]**：サービスの購読登録者に送信された E メールからリンクできるテンプレートで、これを使用して登録者がこのサービスを登録解除できます。
+* **[!UICONTROL Unsubscription]**：サービスの購読登録者に送信されたメールからリンクできるテンプレートで、これを使用して登録者がこのサービスを登録解除できます。
 * **[!UICONTROL Denylist]**：プロファイルが Campagin からの配信の受信を中止する場合に使用するテンプレートです。管ブロックリストに加える理について詳しくは、 [Campaign のオプトインとオプトアウトについて](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
 これらのテンプレートは、新しいランディングページを作成する際にデフォルトで提示されます。

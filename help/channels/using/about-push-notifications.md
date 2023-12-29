@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: e61daed6-a0ec-49d8-b1ad-77590fafb496
 source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
 workflow-type: tm+mt
-source-wordcount: '1239'
-ht-degree: 41%
+source-wordcount: '1206'
+ht-degree: 39%
 
 ---
 
@@ -49,13 +49,12 @@ Adobe Campaign では、2 つのプッシュ通知を使用できます。
 * [プッシュ通知の準備と送信](../../channels/using/preparing-and-sending-a-push-notification.md)
 * [多言語プッシュ通知の作成](../../channels/using/creating-a-multilingual-push-notification.md)
 * [プッシュ通知レポート](../../reporting/using/push-notification-report.md)
-* [Campaign Standard モバイルガイド](../../channels/using/get-started-communication-channels.md)
+* [Campaign Standardモバイルガイド](../../channels/using/get-started-communication-channels.md)
 
 ## 前提条件 {#prerequisites}
 
 >[!NOTE]
->Campaign のプッシュ通知機能を利用するには、パスワードなしで .pem 形式の有効なプッシュ証明書を指定する必要があります。
-
+>Campaign のプッシュ通知機能を利用するには、パスワードを指定せずに、.pem 形式の有効なプッシュ証明書を指定する必要があります。
 >
 >有効な p12 証明書がある場合は、オンラインリソースを使用して .pem ファイルに容易に変換できます。
 
@@ -81,7 +80,7 @@ Adobe Campaign では、2 つのプッシュ通知を使用できます。
 
 以下のリソースを確認します。
 
-* [ビデオチュートリアル](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html)
+* [ビデオTutorials](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html)
 * [製品ドキュメント](../../channels/using/about-push-notifications.md)
 * AEP SDK を使用した設定 [ドキュメント](../../administration/using/configuring-a-mobile-application.md)
 * [コミュニティページ](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)

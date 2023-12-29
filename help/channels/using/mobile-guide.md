@@ -1,5 +1,5 @@
 ---
-title: Campaign Standard モバイルガイド
+title: Campaign Standardモバイルガイド
 description: モバイルアプリの設定方法やプッシュ通知およびアプリ内メッセージの作成方法など、Adobe Campaign Standardのモバイル配信に関する一般的なガイドラインについて詳しく説明します。
 audience: channels
 content-type: reference
@@ -11,7 +11,7 @@ exl-id: d4e1b935-b21f-4a24-99ba-f455db0f7cfc
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
 source-wordcount: '786'
-ht-degree: 25%
+ht-degree: 21%
 
 ---
 
@@ -140,7 +140,7 @@ Adobe Campaign Standardでは、次の 3 つのチャネルを使用してモバ
   </td>
   <td>
     <div>
-    <p><strong>Adobe Campaign Standard のプッシュ通知からの画像の表示</strong></p>
+    <p><strong>Adobe Campaign Standardのプッシュ通知からの画像の表示</strong></p>
     </div>
     <p><a href="../../administration/using/image-push-notification.md"><strong>こちらを参照</strong></a> Adobe Campaignのプッシュ通知からの画像をiOSデバイスに表示する方法です。</p>
     <br>
@@ -193,7 +193,7 @@ Adobe Campaign Standardでは、次の 3 つのチャネルを使用してモバ
     <div>
     <p><strong>SMS メッセージの作成</strong></p>
     </div>
-    <p>SMS 配信の作成は、通常の E メールの作成と非常に似ています。</br>手順 <a href="../../channels/using/creating-an-sms-message.md"><strong>詳細はこちら</strong></a> このチャネルに固有の設定について説明します。</p>
+    <p>SMS 配信の作成は、通常のメールの作成と非常に似ています。</br>手順 <a href="../../channels/using/creating-an-sms-message.md"><strong>詳細はこちら</strong></a> このチャネルに固有の設定について説明します。</p>
     <br>
   </td>
   <td>
@@ -201,7 +201,7 @@ Adobe Campaign Standardでは、次の 3 つのチャネルを使用してモバ
     <p><strong>SMS メッセージのカスタマイズ
 </strong></p>
     </div>
-    <p>Adobe Campaignでは、配信を微調整するために、SMS メッセージのデザイン中に一連の詳細設定オプションにアクセスできます。詳しくは、</br><a href="../../channels/using/sms-and-push-content-editor-interface.md"><strong>ここをクリックしてください。</p>
+    <p>Adobe Campaignでは、配信を微調整するために、SMS メッセージのデザイン中に一連の詳細設定オプションにアクセスできます。</br><a href="../../channels/using/sms-and-push-content-editor-interface.md"><strong>詳しくは、ここをクリックしてください。</p>
     <br>
   </td>
 </tr>

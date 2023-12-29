@@ -10,7 +10,7 @@ level: Beginner
 exl-id: 052d24b7-d3e0-41d7-8b2c-92bd3addb3a2
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1239'
+source-wordcount: '1232'
 ht-degree: 27%
 
 ---
@@ -27,7 +27,7 @@ E メールデザイナーを使用して E メールコンテンツを最初か
 1. 画像を追加し、E メールのテキストを編集します。 [画像の挿入](../../designing/using/images.md#inserting-images)を参照してください。
 1. パーソナライゼーションフィールドやリンクなどを追加して E メールをパーソナライズします。 詳しくは、 [パーソナライゼーションフィールドの挿入](../../designing/using/personalization.md#inserting-a-personalization-field), [リンクの挿入](../../designing/using/links.md#inserting-a-link) および [E メールでの動的コンテンツの定義](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
 1. 電子メールの件名行を定義します。 詳しくは、 [E メールの件名行のパーソナライズ](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
-1. メールのプレビュー.
+1. メールをプレビューします。
 1. コンテンツを保存し、オーディエンスを定義し、送信を適切にスケジュールしたことを確認したら、メッセージを続行します。
 
 また、 [紹介ビデオ](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true).
@@ -202,6 +202,6 @@ E メールデザイナーで使用可能なコンポーネントのリストを
 
 - [メールの作成](../../channels/using/creating-an-email.md)
 - [メッセージ内のオーディエンスの選択](../../audiences/using/selecting-an-audience-in-a-message.md)
-- [メッセージのスケジュール設定](../../sending/using/about-scheduling-messages.md)
+- [メッセージのスケジュール](../../sending/using/about-scheduling-messages.md)
 - [メッセージのプレビュー](../../sending/using/previewing-messages.md)
 - [メールのレンダリング](../../sending/using/email-rendering.md)

@@ -1,5 +1,5 @@
 ---
-title: 多言語 E メールの作成
+title: 多言語メールの作成
 description: 次の手順に従って、優先言語が異なる受信者をターゲットにした多言語の E メールを作成します。
 audience: channels
 content-type: reference
@@ -15,7 +15,7 @@ ht-degree: 24%
 
 ---
 
-# 多言語 E メールの作成{#creating-a-multilingual-email}
+# 多言語メールの作成{#creating-a-multilingual-email}
 
 様々な優先言語のプロファイルに多言語の E メールを送信できます。各プロファイルは、優先言語の E メールのバリアントを受け取ります。
 
@@ -27,7 +27,7 @@ ht-degree: 24%
 
    ![](assets/multi_create1.png)
 
-1. 通常の E メールと同様に、E メールの一般的なプロパティとターゲットオーディエンスを定義します。[オーディエンスの作成](../../audiences/using/creating-audiences.md)の節を参照してください。
+1. 通常のメールと同様に、メールの一般的なプロパティとターゲットオーディエンスを定義します。[オーディエンスの作成](../../audiences/using/creating-audiences.md)の節を参照してください。
 
 1. 作成ウィザードの 4 番目の手順で、バリアントオプションを定義します。 次の場合、 [多言語テンプレート](../../channels/using/multilingual-messages-template.md) には、すべての適切なパラメーターが含まれています。 **[!UICONTROL Create]** 」ボタンをクリックします。
 

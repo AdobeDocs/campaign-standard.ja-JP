@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 28398843-a170-48cf-b9c0-dca7af56236d
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1666'
-ht-degree: 97%
+source-wordcount: '1672'
+ht-degree: 93%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->E メールデザインに関しては、Adobe Campaign Standard 19.0 リリースより前にインストールしたインスタンスでも、従来の E メールコンテンツエディターにアクセスできます。 インターフェイス、使用上の原則、設定は、ランディングページについて以下で説明するものとほとんど同じです。ただし、19.0 リリース以降では非推奨となる、従来のメールコンテンツエディターでは、すべての機能を使用または維持できない場合があります。拡張機能を備えたドラッグ＆ドロップインターフェイスでメールコンテンツをすばやく編集するには、[メールデザイナー](../../designing/using/designing-content-in-adobe-campaign.md)を使用します。
+>E メールデザインに関しては、Adobe Campaign Standard 19.0 リリースより前にインストールしたインスタンスでも、従来の E メールコンテンツエディターにアクセスできます。 インターフェイス、使用上の原則、設定は、ランディングページについて以下で説明するものとほとんど同じです。ただし、19.0 リリース以降では非推奨となる、従来のメールコンテンツエディターでは、すべての機能を使用または維持できない場合があります。拡張機能を備えたドラッグ＆ドロップインターフェイスでメールコンテンツを素早く編集するには、[E メールデザイナー](../../designing/using/designing-content-in-adobe-campaign.md)を使用します。
 
 ここでは、ランディングページコンテンツエディターに特有の事項について説明します。1 つ以上のマーケティングアクティビティに共通するアクションについて詳しくは、次の&#x200B;**メールコンテンツのデザイン**&#x200B;ガイドの節を参照してください。
 
@@ -304,7 +304,7 @@ ht-degree: 97%
 
    ![](assets/des_insert_images_lp_4.png)
 
-## ランディングページへの動的コンテンツの定義{#defining-dynamic-content-in-a-landing-page}
+## ランディングページでの動的コンテンツの定義{#defining-dynamic-content-in-a-landing-page}
 
 ランディングページに動的コンテンツを定義するには、パンくずリストを使用するか要素を直接クリックして、ブロックを選択します。
 
@@ -314,7 +314,7 @@ ht-degree: 97%
 
 パンくずリストについては、[ブロックの管理](../../channels/using/designing-a-landing-page.md#managing-landing-page-structure-and-style)の節を参照してください。
 
-ランディングページに動的コンテンツを定義するための次の手順は、E メールの場合と似ています。[こちらの節](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)を参照してください。
+ランディングページに動的コンテンツを定義するための次の手順は、メールの場合と似ています。[こちらの節](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)を参照してください。
 
 >[!NOTE]
 >

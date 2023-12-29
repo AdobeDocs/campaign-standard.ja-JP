@@ -11,7 +11,7 @@ level: Intermediate
 exl-id: 66623c76-96aa-45cd-9637-19d8a9732c04
 source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: tm+mt
-source-wordcount: '1795'
+source-wordcount: '1839'
 ht-degree: 0%
 
 ---
@@ -219,7 +219,7 @@ The **オプトイン/オプトアウト** ワークフローを使用すると�
 
 * **[!UICONTROL Unidirectional (Campaign to Microsoft Dynamics 365)]**：このオプションを選択すると、が表示されます。 **マッピング** 」セクションに入力します。 これらの入力により、Microsoft Dynamics 365 のどのフィールドにデータをマッピングするかをAdobe Campaignフィールドで定義できます。 つまり、Microsoft Dynamics 365 の値を手動で更新した場合、変更された場合にその値がAdobe Campaign値で上書きされます。
 
-* **[!UICONTROL Bidirectional]**：このオプションを選択すると、が表示されます。 **マッピング** 」セクションに入力します。 これらのペアは、Microsoft Dynamics 365 とAdobe Campaignのどのフィールドが互いにマッピングされるかを識別します。 [詳細情報](../../integrating/using/d365-acs-notices-and-recommendations.md)
+* **[!UICONTROL Bidirectional]**：このオプションを選択すると、が表示されます。 **マッピング** 」セクションに入力します。 これらのペアは、Microsoft Dynamics 365 とAdobe Campaignのどのフィールドが互いにマッピングされるかを識別します。 [詳細情報](../../integrating/using/d365-acs-notices-and-recommendations.md)。
 
 ### マッピング
 

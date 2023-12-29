@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 6b8d5118-89ed-49c2-b601-0aff472fcadd
 source-git-commit: cf2ded703e53d6db27e62712734f7ea846da9a21
 workflow-type: tm+mt
-source-wordcount: '740'
-ht-degree: 80%
+source-wordcount: '736'
+ht-degree: 74%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 80%
 
 >[!NOTE]
 >
->トリガーを作成するには、 **[!UICONTROL Administration]** 役割またはに含まれる **[!UICONTROL Administrators]** セキュリティグループ。 これについて詳しくは、この[ページ](../../administration/using/list-of-roles.md)を参照してください。
+>トリガーを作成するには、 **[!UICONTROL Administration]** 役割またはに含まれる **[!UICONTROL Administrators]** セキュリティグループ。 詳しくは、 [ページ](../../administration/using/list-of-roles.md).
 
-Adobe Experience Cloud（**[!UICONTROL Triggers]** コアサービス）では、事前に監視するビヘイビアーを定義する必要があります。詳しくは、[Adobe Experience Cloud のドキュメント](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html?lang=ja)を参照してください。トリガーを定義する場合は、エイリアスを有効にする必要があります。各ビヘイビアー（ブラウジング／フォームの放棄、製品の追加／削除、セッションの有効期限切れなど）について、Adobe Experience Cloud に新規トリガーを追加する必要があります。
+ADOBE EXPERIENCE CLOUD(**[!UICONTROL Triggers]** コアサービス )。 詳しくは、[Adobe Experience Cloud のドキュメント](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html?lang=ja)を参照してください。トリガーを定義する場合は、エイリアスを有効にする必要があります。各ビヘイビアー（ブラウジング／フォームの放棄、製品の追加／削除、セッションの有効期限切れなど）について、Adobe Experience Cloud に新規トリガーを追加する必要があります。
 
 次に、既存の Adobe Experience Cloud のトリガーを基にして、Adobe Campaign でトリガーイベントを作成する必要があります。
 

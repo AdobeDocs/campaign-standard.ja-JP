@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: d6aaec6e-c718-46a2-88e8-7402970def1a
 source-git-commit: 2d3ef53d5ea5603d90da169366be6ea516d96823
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 66%
+source-wordcount: '756'
+ht-degree: 61%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 66%
 * パーソナライゼーションに関する情報は、イベント自体に含まれるデータから取得されます。詳しくは、 [イベントベースのトランザクションメッセージ設定](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages).
 * あなた **できません** use **[!UICONTROL Unsubscription link]** コンテンツブロックを含むイベントトランザクションメッセージ内に含まれます。
 * イベントベースのトランザクションメッセージでは、受信者とメッセージコンテンツのパーソナライゼーションを定義するために、送信イベント内のデータのみを使用することが想定されています。ただし、Adobe Campaign データベースの情報を使用して、トランザクションメッセージの内容をエンリッチメントすることができます。詳しくは、 [イベントのエンリッチメント](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) および [トランザクションメッセージのパーソナライズ](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message).
-* イベントトランザクションメッセージにはプロファイル情報が含まれないので、プロファイルのエンリッチメントの場合でも、疲労ルールとの互換性はありません。
+* イベントトランザクションメッセージにはプロファイル情報が含まれないので、プロファイルとのエンリッチメントの場合でも、疲労ルールとの互換性はありません。
 
 ### プロファイルベースのトランザクションメッセージ
 

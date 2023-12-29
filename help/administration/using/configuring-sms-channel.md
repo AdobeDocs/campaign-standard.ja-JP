@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
 source-git-commit: 6c96a5d294c6e96d20571d176898290c9c026f0b
 workflow-type: tm+mt
-source-wordcount: '1591'
-ht-degree: 90%
+source-wordcount: '1596'
+ht-degree: 89%
 
 ---
 
@@ -72,7 +72,7 @@ SMPP プロトコルを使用する場合、新しい外部アカウントを作
 
 ## SMS のエンコードと形式 {#sms-encoding-and-formats}
 
-### SMS のエンコード、長さ、および変換 {#sms-encoding--length-and-transliteration}
+### SMS のエンコーディング、長さ、および変換 {#sms-encoding--length-and-transliteration}
 
 デフォルトでは、SMS の文字数は GSM（Global System for Mobile Communications）標準に準じています。
 
@@ -99,7 +99,7 @@ GSM エンコードを使用する SMS メッセージは 160 文字以内に制
 
 ただし、SMS メッセージに Unicode メッセージ用の文字が多数含まれる場合、このオプションを有効にしてメッセージ送信のコストを抑えることもできます。
 
-### 文字の一覧 - GSM 標準 {#table-of-characters---gsm-standard}
+### 文字の一覧 — GSM 標準 {#table-of-characters---gsm-standard}
 
 この節では、GSM 標準に準じている文字を紹介します。メッセージ本文に、ここで紹介されていない文字が含まれている場合、メッセージ全体がバイナリフォーマット（Unicode）に変換され、文字数が 70 文字以内に制限されます。詳しくは、[SMS のエンコード、長さ、および変換](#sms-encoding--length-and-transliteration)の節を参照してください。
 
@@ -242,7 +242,7 @@ GSM エンコードを使用する SMS メッセージは 160 文字以内に制
    <td> æ<br /> </td> 
    <td> -<br /> </td> 
    <td> = </td> 
-   <td> M<br /> を参照してください。 </td> 
+   <td> M<br /> </td> 
    <td> Ñ<br /> </td> 
    <td> m<br /> </td> 
    <td> ñ<br /> </td> 

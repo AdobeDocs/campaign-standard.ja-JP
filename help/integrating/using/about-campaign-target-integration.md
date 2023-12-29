@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: e0d281f7-d522-425c-9854-894e84a0a422
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 37%
+source-wordcount: '158'
+ht-degree: 35%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 37%
 
 Adobe Experience Cloud内でのAdobe CampaignとAdobe Target（Classic と Standard）の統合により、Adobe TargetからAdobe Campaignの E メール配信に動的画像を挿入できます。
 
-この統合により、Adobe Targetを通じて、Adobe Campaignから送信された E メールを受信できます。コンテンツの動的バージョンも含まれます。 この動的バージョンは、E メールの作成時に事前に指定したルールに応じて自動生成されます。
+この統合により、Adobe Targetを通じて、Adobe Campaignから送信された E メールを受信できます。コンテンツの動的バージョンも含まれます。 この動的バージョンは、メールの作成時に事前に指定したルールに応じて自動生成されます。
 
 Adobe Targetでは、次の複数のタイプのデータを使用できます。
 

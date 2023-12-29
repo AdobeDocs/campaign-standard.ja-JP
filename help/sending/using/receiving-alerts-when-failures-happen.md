@@ -10,8 +10,8 @@ level: Beginner
 exl-id: dc8bd1d3-e199-4901-9b1f-7b485879897d
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '2031'
-ht-degree: 3%
+source-wordcount: '2038'
+ht-degree: 2%
 
 ---
 
@@ -75,7 +75,7 @@ Adobe Campaignインターフェイスから、次の操作を実行できます
 
 特定の条件に基づいて通知を様々なユーザーグループに送信する場合は、複数のダッシュボードを使用する必要があります。 新しいダッシュボードを作成するには：
 
-1. **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Delivery alerting]**&#x200B;に移動してください。
+1. に移動します。 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Delivery alerting]**.
 1. 「**[!UICONTROL Delivery alerting dashboards]**」を選択し、「**[!UICONTROL Create]**」をクリックします。
 1. 次を確認します。 **[!UICONTROL Enabled]** ボックスをクリックして、現在のダッシュボードをアクティブにします。
 
@@ -85,7 +85,7 @@ Adobe Campaignインターフェイスから、次の操作を実行できます
 
 1. 通知する受信者のグループを「 **[!UICONTROL Alert group]** 」ドロップダウンリストから選択できます。 グループを変更または作成するには、 [セキュリティグループの作成とユーザーの割り当て](../../administration/using/managing-groups-and-users.md#creating-a-security-group-and-assigning-users).
 1. 次から： **[!UICONTROL Delivery alerting criteria]** セクションで、 **[!UICONTROL Create element]** をクリックして条件を追加します。 詳しくは、 [アラート条件について](#about-alerting-criteria).
-1. 「**[!UICONTROL Edit properties]**」ボタンをクリックします。Adobe Analytics の **[!UICONTROL Criteria parameters]** 」タブで、条件の適用方法を定義します。 詳しくは、 [条件パラメーター](#criteria-parameters).
+1. を選択します。 **[!UICONTROL Edit properties]** 」ボタンをクリックします。 Adobe Analytics の **[!UICONTROL Criteria parameters]** 」タブで、条件の適用方法を定義します。 詳しくは、 [条件パラメーター](#criteria-parameters).
 1. クリック **[!UICONTROL Create]** をクリックしてダッシュボードを保存します。
 
 これで、配信がこのダッシュボードで定義した条件を満たすたびに、指定したユーザーグループに警告通知が送信されます。
@@ -132,7 +132,7 @@ Adobe Campaignインターフェイスから、次の操作を実行できます
 
 **関連トピック：**
 
-* [ログの送信](../../sending/using/monitoring-a-delivery.md#sending-logs)
+* [ログを送信](../../sending/using/monitoring-a-delivery.md#sending-logs)
 * [アラート頻度](#alerting-frequency)
 * [マーケティングアクティビティのアイコンとステータス](../../start/using/marketing-activities.md#marketing-activity-icons-and-statuses)
 
@@ -264,7 +264,7 @@ The **配信アラート** 機能を使用すると、関係するすべてのAd
   ソフトバウンスエラーとハードバウンスエラーを回避するには、次のベストプラクティスに従います。
 
    * 配信分析中に、メッセージターゲットの一部を除外するフィルタータイポロジルール（強制隔離された受信者など）を作成します。 詳しくは、 [フィルタールールの作成](../../sending/using/filtering-rules.md).
-   * 強制隔離の管理プロセスを適切に維持するために、顧客データベースを定期的に更新します。 [強制隔離について](../../sending/using/understanding-quarantine-management.md#about-quarantines)を参照してください。
+   * 強制隔離の管理プロセスを適切に維持するために、顧客データベースを定期的に更新します。 詳しくは、 [強制隔離について](../../sending/using/understanding-quarantine-management.md#about-quarantines).
    * 一般に、配信品質はできる限り最高に向上します。 Adobe Campaign [配信品質](../../sending/using/about-deliverability.md) 詳細なドキュメントを参照し、Adobe Campaign管理者にお問い合わせください。
 
 * **[!UICONTROL Deliveries with long start pending]**：通常、これは、MTA（メッセージ転送エージェント）レベルに問題があることを意味します。 実行プロセスが、リソースが使用可能になるのを待っています。MTA が開始されていない可能性があります。

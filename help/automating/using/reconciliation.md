@@ -1,6 +1,6 @@
 ---
 title: 紐付け
-description: 「Reconciliation」アクティビティを使用すると、識別されていないデータを既存のリソースにリンクできます。
+description: 紐付けアクティビティを使用すると、識別されていないデータを既存のリソースにリンクできます。
 audience: automating
 content-type: reference
 topic-tags: data-management-activities

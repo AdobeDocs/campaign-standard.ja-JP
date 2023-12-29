@@ -11,7 +11,7 @@ level: Intermediate
 exl-id: 373e4012-9daf-4da7-aad6-54726d991544
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1364'
+source-wordcount: '1366'
 ht-degree: 93%
 
 ---
@@ -119,7 +119,7 @@ ht-degree: 93%
 
 ワークフローの実行後にアクティビティでエラーが発生した場合は、ログを参照して、ファイル内の誤った値の詳細を確認します。ワークフローのログについて詳しくは、[この節](../../automating/using/monitoring-workflow-execution.md)を参照してください。
 
-## 列の形式 {#column-format}
+## 列のフォーマット {#column-format}
 
 サンプルファイルを読み込む際に、各データタイプのデフォルトのパラメーターを使用して列の形式が自動的に検出されます。このデフォルトのパラメーターを編集して（特に誤りや空の値がある場合）、特定の処理を指定してデータに適用することができます。
 

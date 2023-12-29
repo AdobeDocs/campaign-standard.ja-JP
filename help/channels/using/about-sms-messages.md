@@ -11,8 +11,8 @@ level: Beginner
 exl-id: a7f22d92-dbf9-4c2b-8fc1-1e31d1e5e79c
 source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
 workflow-type: tm+mt
-source-wordcount: '264'
-ht-degree: 32%
+source-wordcount: '266'
+ht-degree: 29%
 
 ---
 
@@ -40,7 +40,7 @@ SMS メッセージは **[!UICONTROL Marketing activities]** メニュー、キ�
 * [テンプレートの管理](../../start/using/marketing-activity-templates.md)
 * [SMS 設定](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing)
 * [SMS レポート](../../reporting/using/sms-report.md)
-* [Campaign Standard モバイルガイド](../../channels/using/get-started-communication-channels.md)
+* [Campaign Standardモバイルガイド](../../channels/using/get-started-communication-channels.md)
 
 ## SMS 配信テンプレート {#sms-delivery-template}
 

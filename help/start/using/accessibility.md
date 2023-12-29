@@ -69,7 +69,7 @@ Adobe Campaign Standard allows you to design and test emails and push notificati
 
 コンテキストヘルプは、様々な入力必須フィールドや使用可能な機能をより深く理解するのに役立ちます。また、製品ドキュメントの情報の中から、選択した機能に関する詳細情報を確認できます。
 
-E メールをデザインする際に、機能の説明と製品ドキュメントへのリンクを示すツールチップにアクセスできます。
+メールをデザインする際に、機能の説明と製品ドキュメントへのリンクを示すツールチップにアクセスできます。
 
 ![](assets/accessibility_7.png)
 
@@ -92,7 +92,7 @@ Adobe Campaign Standard は、英語、フランス語、ドイツ語の各言�
 | ユーザーインターフェイスの個々の要素間を移動する | タブ |
 | 選択した項目をアクティブにする | Enter またはスペースバー |
 
-### 電子メールデザイナー {#email-designer-shortcuts}
+### E メールデザイナー {#email-designer-shortcuts}
 
 | アクション | Windows ショートカット | macOS ショートカット |
 | --- | --- | --- |

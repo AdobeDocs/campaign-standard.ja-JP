@@ -10,8 +10,8 @@ level: Beginner
 exl-id: afdd981d-f6c7-4800-9e60-3018e0e41c74
 source-git-commit: 9faf94d3f2643d1fdeeed9156355147bf3b6be58
 workflow-type: tm+mt
-source-wordcount: '1260'
-ht-degree: 77%
+source-wordcount: '1261'
+ht-degree: 76%
 
 ---
 
@@ -95,7 +95,7 @@ Campaign ホームページは、主な Adobe Campaign 機能にすばやくア�
 * **[!UICONTROL Timeline]**：詳しくは、[タイムライン](../../start/using/timeline.md)の節を参照してください。
 * **[!UICONTROL Transactional messages]**（サブメニュー&#x200B;**[!UICONTROL Deliveries]**&#x200B;および&#x200B;**[!UICONTROL Event configuration]**&#x200B;を含む）：詳しくは、[トランザクションメッセージ](../../channels/using/getting-started-with-transactional-msg.md)の節を参照してください。
 
-### プロファイルおよびオーディエンス {#profiles-e-audiences}
+### プロファイルとオーディエンス {#profiles-e-audiences}
 
 **[!UICONTROL Profiles & audiences]**&#x200B;アイコンを使用すると、次の機能にアクセスできます。
 

@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 9b522c84-e296-47c7-9588-2e5ed08ab631
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 52%
+source-wordcount: '183'
+ht-degree: 45%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 52%
                <tr>
                   <td>created</td>
                   <td>作成日時</td>
-                  <td>date </td>
+                  <td>日付 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -56,20 +56,20 @@ ht-degree: 52%
                   <td> </td>
                </tr>
                <tr>
-                  <td>電子メール</td>
+                  <td>メール</td>
                   <td>メール</td>
                   <td>文字列 (128)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>emailRendering</td>
-                  <td>E メールのレンダリング</td>
+                  <td>メールのレンダリング</td>
                   <td>ブール値 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>fax</td>
-                  <td>FAX</td>
+                  <td>ファックス</td>
                   <td>文字列 (32)</td>
                   <td> </td>
                </tr>
@@ -87,8 +87,8 @@ ht-degree: 52%
                </tr>
                <tr>
                   <td>lastModified</td>
-                  <td>最終変更日</td>
-                  <td>date </td>
+                  <td>最終変更日時</td>
+                  <td>日付 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -146,7 +146,7 @@ ht-degree: 52%
                   <td> </td>
                </tr>
                <tr>
-                  <td>phone</td>
+                  <td>電話</td>
                   <td>電話</td>
                   <td>文字列 (32)</td>
                   <td> </td>

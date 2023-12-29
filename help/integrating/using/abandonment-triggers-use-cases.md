@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 88007e6f-2cdd-4fea-9739-525beaf7c658
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
-source-wordcount: '994'
-ht-degree: 94%
+source-wordcount: '996'
+ht-degree: 91%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 94%
 
 >[!NOTE]
 >
->この節で説明する使用例では、Experience Cloud の訪問者 ID を使用しています。Experience Cloud の宣言済み ID を使用して実装することもできます。ハッシュ化および暗号化された宣言済み ID もサポートされます。暗号化された E メールアドレス／携帯電話番号を直接暗号化解除することで、キャンペーンに存在しないプロファイルに E メール／SMS を送信できます。ただし、この場合、プロファイルデータを使用したパーソナライゼーションは使用できません。
+>この節で説明する使用例では、Experience Cloud の訪問者 ID を使用しています。Experience Cloud の宣言済み ID を使用して実装することもできます。ハッシュ化および暗号化された宣言済み ID もサポートされます。暗号化されたメールアドレス／携帯電話番号を直接暗号化解除することで、キャンペーンに存在しないプロファイルにメール／SMS を送信できます。ただし、この場合、プロファイルデータを使用したパーソナライゼーションは使用できません。
 
 ## 前提条件 {#pre-requisites}
 
@@ -44,7 +44,7 @@ ht-degree: 94%
 
 この使用例では、クライアントが Web サイトの訪問を中断するたびに実行される単純なトリガーを作成します。この例では、DTM で既にデータを収集して Adobe Analytics にプッシュしていて、すべてのイベントが作成されていることを前提としています。
 
-### Experience Cloud トリガーの作成 {#creating-an-experience-cloud-trigger}
+### Experience Cloudトリガーの作成 {#creating-an-experience-cloud-trigger}
 
 1. Experience Cloud アクティベーションコアサービスメニューから「**[!UICONTROL Manage Triggers]**」を選択します。
 
@@ -58,7 +58,7 @@ ht-degree: 94%
 
    ![](assets/trigger_uc_browse_3.png)
 
-### Adobe Campaign でのトリガーの使用 {#using-the-trigger-in-adobe-campaign}
+### Adobe Campaignでのトリガーの使用 {#using-the-trigger-in-adobe-campaign}
 
 Experience Cloud トリガーを作成したら、Adobe Campaign で使用します。
 
@@ -93,11 +93,11 @@ Adobe Campaign では、Experience Cloud で作成したトリガーにリンク
 
 ### シナリオの実行 {#running-the-scenario}
 
-1. この使用例では、まず Adobe Campaign でオーディエンスに最初の E メールを送信します。
+1. この使用例では、まず Adobe Campaign でオーディエンスに最初のメールを送信します。
 
    ![](assets/trigger_uc_browse_9.png)
 
-1. 受信者が E メールを開きます。
+1. 受信者がメールを開きます。
 
    ![](assets/trigger_uc_browse_10.png)
 
@@ -119,17 +119,17 @@ Adobe Campaign では、Experience Cloud で作成したトリガーにリンク
 
 ## 検索中断トリガー {#search-abandonment-trigger}
 
-この使用例では、旅行予約 Web サイトを訪問し、目的地を検索し、望む結果を得られず、その後予約をしていない訪問者に再度接触するためのトリガーを作成します。全体的なプロセスは、前の使用例と同じです（[閲覧中断トリガー](#browse-abandonment-trigger)を参照）。ここでは、リマーケティング用の E メールメッセージをパーソナライズする方法を説明します。
+この使用例では、旅行予約 Web サイトを訪問し、目的地を検索し、望む結果を得られず、その後予約をしていない訪問者に再度接触するためのトリガーを作成します。全体的なプロセスは、前の使用例と同じです（[閲覧中断トリガー](#browse-abandonment-trigger)を参照）。ここでは、リマーケティング用のメールメッセージをパーソナライズする方法を説明します。
 
-### Experience Cloud トリガーの作成 {#creating-an-experience-cloud-trigger-1}
+### Experience Cloudトリガーの作成 {#creating-an-experience-cloud-trigger-1}
 
 前の使用例で説明した手順に従って、Experience Cloud トリガーを作成します。詳しくは、[Experience Cloud トリガーの作成](#creating-an-experience-cloud-trigger)を参照してください。主な違いは、トリガーの定義です。
 
 ![](assets/trigger_uc_search_1.png)
 
-「**[!UICONTROL Include Meta Data]**」セクションでは、Analytics から収集されたすべてのデータをトリガーペイロードに渡すことができます。この例では、カスタム eVar（eVar 3 など）を作成して、訪問者が入力した検索語を収集します。この用語は、同じ訪問者に送信されるトランザクション用の E メールメッセージで使用されます。
+「**[!UICONTROL Include Meta Data]**」セクションでは、Analytics から収集されたすべてのデータをトリガーペイロードに渡すことができます。この例では、カスタム eVar（eVar 3 など）を作成して、訪問者が入力した検索語を収集します。この用語は、同じ訪問者に送信されるトランザクション用のメールメッセージで使用されます。
 
-### Adobe Campaign でのトリガーの使用 {#using-the-trigger-in-adobe-campaign-1}
+### Adobe Campaignでのトリガーの使用 {#using-the-trigger-in-adobe-campaign-1}
 
 1. 前の使用例で説明した手順に従って、Adobe Campaign でトリガーを作成します。[Adobe Campaign でのトリガーの使用](#using-the-trigger-in-adobe-campaign)を参照してください。主な違いは、トリガーペイロードにプッシュされたメタデータに Adobe Campaign でアクセスし使用する方法です。
 1. Adobe Campaign で作成した検索中断トリガーで、「**[!UICONTROL Event content and enrichment]**」アイコンをクリックして、Adobe Campaign にプッシュされたペイロードを表示します。
@@ -140,7 +140,7 @@ Adobe Campaign では、Experience Cloud で作成したトリガーにリンク
 
    ![](assets/trigger_uc_search_3.png)
 
-1. この例では、件名行と E メール本文に目的地検索語を入れることにします。
+1. この例では、件名行とメール本文に目的地検索語を入れることにします。
 
    ![](assets/trigger_uc_search_4.png)
 
@@ -156,7 +156,7 @@ Adobe Campaign では、Experience Cloud で作成したトリガーにリンク
 
    >[!NOTE]
    >
-   >この使用例では、訪問者／受信者が既に同じ Web サイトからの E メールを開いてクリックしているものと仮定しています。これにより、訪問者 ID を使用および収集し、受信者にマッピングできます。この操作が必要なのは 1 回だけです。
+   >この使用例では、訪問者／受信者が既に同じ Web サイトからのメールを開いてクリックしているものと仮定しています。これにより、訪問者 ID を使用および収集し、受信者にマッピングできます。この操作が必要なのは 1 回だけです。
 
 1. しばらくすると、同じ訪問者／受信者がリマーケティングメッセージを受信します。このメッセージには、最近検索された目的地が記載されています。
 

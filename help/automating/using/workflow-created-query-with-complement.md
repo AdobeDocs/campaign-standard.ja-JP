@@ -1,5 +1,5 @@
 ---
-title: 補完を含んだ配信の作成
+title: 補集合を含む配信の作成
 description: この使用例は、補集合を含む配信の作成方法を示しています。
 audience: automating
 content-type: reference
@@ -12,11 +12,11 @@ exl-id: 5cd71e07-f955-4c15-bdfb-14b0daccec1a
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '239'
-ht-degree: 41%
+ht-degree: 39%
 
 ---
 
-# 補完を含んだ配信の作成 {#deliveries-with-complement}
+# 補集合を含む配信の作成 {#deliveries-with-complement}
 
 顧客に E メールを送信できます。1 年未満に作成されたクライアント向けと 1 年以上前に作成されたクライアント向けです。
 
@@ -56,14 +56,14 @@ ht-degree: 41%
 1. In **[!UICONTROL Activities]** > **[!UICONTROL Channels]**、ドラッグ&amp;ドロップ [E メール配信](../../automating/using/email-delivery.md) 」アクティビティが表示されます。
 1. アクティビティをクリックし、![](assets/edit_darkgrey-24px.png) を選択して編集します。
 1. 「**[!UICONTROL Single send email]**」を選択し、「**[!UICONTROL Next]**」をクリックします。
-1. E メールテンプレートを選択し、「**[!UICONTROL Next]**」をクリックします。
-1. E メールのプロパティを入力し、「**[!UICONTROL Next]**」をクリックします。
-1. E メールのレイアウトを作成するには、「**[!UICONTROL Email Designer]**」をクリックします。
+1. メールテンプレートを選択し、「**[!UICONTROL Next]**」をクリックします。
+1. メールのプロパティを入力し、「**[!UICONTROL Next]**」をクリックします。
+1. メールのレイアウトを作成するには、「**[!UICONTROL Email Designer]**」をクリックします。
 1. 要素を挿入するか、既存のテンプレートを選択します。
 1. 各配信に固有のオファーを使用して、E メールをパーソナライズします。
 1. 「**[!UICONTROL Preview]**」をクリックして、レイアウトを確認します。
 1. 「**[!UICONTROL Save]**」をクリックします。
 
-詳しくは、[E メールのデザイン](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)を参照してください。
+詳しくは、[メールのデザイン](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)を参照してください。
 
 ![](assets/wf-deliveries-with-a-complement.png)

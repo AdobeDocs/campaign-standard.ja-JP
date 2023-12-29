@@ -11,14 +11,14 @@ level: Intermediate
 exl-id: 3e94c872-bf44-4d4c-b6eb-7731021c7931
 source-git-commit: d234d7fab039b602eff06c03ba0d8f7ce2a0cf3f
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '637'
 ht-degree: 88%
 
 ---
 
 # ダイレクトメールの作成{#creating-the-direct-mail}
 
-ダイレクトメール配信の作成方法は、通常の E メールの作成方法とよく似ています。次の手順では、このチャネルに固有の設定について説明します。その他のオプションについて詳しくは、[E メールの作成](../../channels/using/creating-an-email.md)を参照してください。
+ダイレクトメール配信の作成方法は、通常のメールの作成方法とよく似ています。次の手順では、このチャネルに固有の設定について説明します。その他のオプションについて詳しくは、[メールの作成](../../channels/using/creating-an-email.md)を参照してください。
 
 >[!NOTE]
 >
@@ -48,7 +48,7 @@ ht-degree: 88%
 
    >[!NOTE]
    >
-   >オーディエンスの定義は、通常の E メールオーディエンスを定義する場合とよく似ています。[オーディエンスの作成](../../audiences/using/creating-audiences.md)を参照してください。
+   >オーディエンスの定義は、通常のメールオーディエンスを定義する場合とよく似ています。[オーディエンスの作成](../../audiences/using/creating-audiences.md)を参照してください。
 
 1. ファイルの内容（各プロファイルに含める列、ファイル構造、ヘッダーおよびフッター）を編集します。[ダイレクトメールコンテンツの定義](../../channels/using/defining-the-direct-mail-content.md)を参照してください。
 
@@ -72,7 +72,7 @@ ht-degree: 88%
 
    ![](assets/direct_mail_16.png)
 
-   タイポロジルールが適用されます。例えば、指定されていない郵送先住所はすべてターゲットから除外されます。プロファイルの情報で「**[!UICONTROL Address specified]**」チェックボックスがオンになっていることを確認する必要がある（[推奨事項](../../channels/using/about-direct-mail.md#recommendations)を参照）のは、このためですダイレクトメールのプロパティまたはテンプレートレベルで「**[!UICONTROL Maximum volume of message]**」を定義した場合は、それがここでも適用されます。
+   タイポロジルールが適用されます。例えば、指定されていない郵送先住所はすべてターゲットから除外されます。プロファイルの情報で「**[!UICONTROL Address specified]**」チェックボックスがオンになっていることを確認する必要がある（[レコメンデーション](../../channels/using/about-direct-mail.md#recommendations)を参照）のは、このためですダイレクトメールのプロパティまたはテンプレートレベルで「**[!UICONTROL Maximum volume of message]**」を定義した場合は、それがここでも適用されます。
 
    ![](assets/direct_mail_25.png)
 
@@ -100,7 +100,7 @@ ht-degree: 88%
 
 これで、抽出ファイルをダイレクトメールプロバイダーに送信する準備ができました。ここで、次のいくつかのオプションがあります。
 
-* ファイルを添付して通常の E メールで送信
+* ファイルを添付して通常のメールで送信
 * Campaign で送信：キャンペーン[ワークフロー](../../automating/using/direct-mail-delivery.md)内でダイレクトメールアクティビティを実行し「**[!UICONTROL Transfer file]**」を追加して、例えば FTP でファイルを送信します。詳しくは、[ファイル転送](../../automating/using/transfer-file.md)を参照してください。
 
 プロバイダーは、誤ったアドレスのリストを取得し、この情報をAdobe Campaignに送信します。これにより、誤ったアドレスをブロックリストに加える自動的にします。 [送信者に返信](../../channels/using/return-to-sender.md)を参照してください。

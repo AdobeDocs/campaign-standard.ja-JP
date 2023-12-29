@@ -9,8 +9,8 @@ level: Experienced
 exl-id: b05dc67a-6447-4d22-99f2-8a14a0ee46d2
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 41%
+source-wordcount: '228'
+ht-degree: 37%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 41%
                <tr>
                   <td>created</td>
                   <td>作成日時</td>
-                  <td>date </td>
+                  <td>日付 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -64,7 +64,7 @@ ht-degree: 41%
                <tr>
                   <td>終了</td>
                   <td>終了日</td>
-                  <td>date </td>
+                  <td>日付 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -86,15 +86,15 @@ ht-degree: 41%
                   <td> </td>
                </tr>
                <tr>
-                  <td>label</td>
+                  <td>ラベル</td>
                   <td>ラベル</td>
                   <td>文字列 (128)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>lastModified</td>
-                  <td>最終変更日</td>
-                  <td>date </td>
+                  <td>最終変更日時</td>
+                  <td>日付 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -145,7 +145,7 @@ ht-degree: 41%
                <tr>
                   <td>開始</td>
                   <td>開始日</td>
-                  <td>date </td>
+                  <td>日付 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -218,7 +218,7 @@ ht-degree: 41%
     </tr>
     <tr>
     <td>startDate</td>
-    <td>date</td>
+    <td>日付</td>
     </tr>
     <tr>
     <td>timePeriod</td>
@@ -274,11 +274,11 @@ ht-degree: 41%
     </tr>
     <tr>
     <td>startDate</td>
-    <td>date</td>
+    <td>日付</td>
     </tr>
     <tr>
     <td>endDate</td>
-    <td>date</td>
+    <td>日付</td>
     </tr>
 </table>
 
@@ -291,10 +291,10 @@ ht-degree: 41%
     </tr>
     <tr>
     <td>startDate</td>
-    <td>date</td>
+    <td>日付</td>
     </tr>
     <tr>
     <td>endDate</td>
-    <td>date</td>
+    <td>日付</td>
     </tr>
 </table>

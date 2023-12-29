@@ -12,7 +12,7 @@ exl-id: 18d6ffc0-cfc3-436e-8f0c-ea9c307541e4
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '614'
-ht-degree: 98%
+ht-degree: 94%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 98%
 
 * データをエクスポートする。
 
-  「**[!UICONTROL Incremental query]**」アクティビティを使用して、新規ログを定期的にファイルにエクスポートできます。この機能は、例えば、外部レポートや BI ツールでログデータを使用する場合に役に立ちます。完全な例については、[ログのエクスポート](../../automating/using/exporting-logs.md)の節を参照してください。
+  「**[!UICONTROL Incremental query]**」アクティビティを使用して、新規ログを定期的にファイルにエクスポートできます。これは、例えば、外部レポートや BI ツールでログデータを使用する場合に役立ちます。 完全な例については、[ログのエクスポート](../../automating/using/exporting-logs.md)の節を参照してください。
 
 **関連トピック**
 

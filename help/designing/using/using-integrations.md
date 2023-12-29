@@ -10,12 +10,12 @@ level: Intermediate
 exl-id: d5c72f69-68a2-4523-956f-f265ae79b470
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 10%
+source-wordcount: '706'
+ht-degree: 5%
 
 ---
 
-# マルチソリューション電子メールデザイン {#multi-solution-email-design}
+# マルチソリューション E メールデザイン {#multi-solution-email-design}
 
 Adobe Campaignでは、いくつかの電子メールオーサリングオプションを提供しています。 Dreamweaverなどのソリューションを使用して、電子メールコンテンツを編集し、電子メールデザイナーでレスポンシブメッセージを作成できます。 また、コンテンツをAdobe Experience Managerで電子メールで送信し、Adobe Campaign Standardの電子メールで使用することもできます。
 
@@ -27,7 +27,7 @@ Adobe Campaign StandardとDreamweaverの統合により、Dreamweaverインタ�
 
   1 つの製品で編集がおこなわれるたびに、他の製品でリアルタイムに更新されます。 Dreamweaverでテキストの色を変更する場合は、編集を行うとすぐに、Campaign でテキストの色が有効になります。 また、Dreamweaverまたは Campaign でコードを選択する場合、行番号が同じなので、2 つの製品の間で選択が維持されるので、コード内の特定の項目を探す際に非常に役立ちます。
 
-* **Dreamweaver を使用した Adobe Campaign へのローカルイメージのアップロード**
+* **Dreamweaverを使用したAdobe Campaignへのローカル画像のアップロード**
 
   Dreamweaver内で E メールを作成または編集する際には、デスクトップまたはローカルマシンから画像を選択するだけで済みます。 Dreamweaverでは常にこの操作が可能ですが、Dreamweaverと Campaign が接続されると、ローカルファイルがAdobe Campaignサーバーに直ちにアップロードされるので、コンテンツの変更に応じて画像を手動でアップロードする必要はありません。 さらに、最新の画像が常に Campaign で有効になるようにします。
 
@@ -109,7 +109,7 @@ Adobe Campaignでは、いくつかの電子メールオーサリングオプシ
    <td> サポートなし<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>利点</strong><br /> </td> 
+   <td> <strong>メリット</strong><br /> </td> 
    <td> 
      <p> — ドラッグ&amp;ドロップ操作で簡単に E メールを作成</p>
      <p> — 従来のコンテンツエディターと似た機能</p>

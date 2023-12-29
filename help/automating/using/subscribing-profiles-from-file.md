@@ -43,7 +43,7 @@ ht-degree: 53%
 
   ![](assets/subscription_activity_example2.png)
 
-* A [紐づけ](../../automating/using/reconciliation.md) 「 」アクティビティで、ファイルのデータを、Adobe Campaignデータベースのプロファイルディメンションに属するものとして識別します。 「**[!UICONTROL Identification]**」タブのみ設定します。プロファイルの E メールアドレスに従って、ファイルデータを識別します。
+* A [紐づけ](../../automating/using/reconciliation.md) 「 」アクティビティで、ファイルのデータを、Adobe Campaignデータベースのプロファイルディメンションに属するものとして識別します。 「**[!UICONTROL Identification]**」タブのみ設定します。プロファイルのメールアドレスに従って、ファイルデータを識別します。
 
   ![](assets/subscription_activity_example3.png)
 

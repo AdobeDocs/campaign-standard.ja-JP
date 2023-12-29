@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 04d0fe26-a8cc-49ae-aaa9-b470169068ee
 source-git-commit: 26e37cea37b33924ac634c5e4ab7c60804a738f1
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 38%
+source-wordcount: '759'
+ht-degree: 45%
 
 ---
 
@@ -124,7 +124,7 @@ Audience Manager 内で作成されるデータソースは、Adobe Campaign(MID
 
 People コアサービスまたは Audience Manager との統合を設定する場合は、Campaign トラッキングサーバーも設定する必要があります。
 
-共有オーディエンスが訪問者 ID で機能できるようにするには、トラッキングサーバードメインを、クリックされた URL またはメイン Web サイトのサブドメインにする必要があります。
+共有オーディエンスが訪問者 ID で機能できるようにするには、トラッキングサーバードメインを、クリックした URL またはメイン web サイトのサブドメインにする必要があります。
 
 >[!IMPORTANT]
 >
@@ -134,6 +134,6 @@ People コアサービスまたは Audience Manager との統合を設定する�
 
 訪問者 ID サービスを web プロパティや web サイトで設定したことがない場合は、次の[ドキュメント](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-aam-analytics.html?lang=ja)を参照してサービスの設定方法を確認するか、次の[ビデオ](https://helpx.adobe.com/jp/marketing-cloud/how-to/email-marketing.html#step-two)をご覧ください。
 
-を使用して顧客識別子を宣言済み ID と同期 `setCustomerID` 関数を次のExperience CloudID サービスに追加します。 `AdobeCampaignID`. The `AdobeCampaignID` は、 [手順 2：データソースの設定](#step-2--configure-the-data-sources).
+Experience Cloud ID サービスの `setCustomerID` 関数と統合コード `AdobeCampaignID` を使用して、顧客 ID を宣言済み ID と同期します。`AdobeCampaignID` は、[手順 2：データソースの設定](#step-2--configure-the-data-sources)で設定した受信者データソースに設定された調整キーの値と一致させる必要があります。
 
-設定とプロビジョニングが完了し、統合を使用してオーディエンスやセグメントのインポートおよびエクスポートを行えるようになりました。
+設定とプロビジョニングが完了し、統合を使用してオーディエンスやセグメントの読み込みおよび書き出しを行えるようになりました。

@@ -11,8 +11,8 @@ level: Experienced
 exl-id: bd12a214-5998-4fb9-9f54-0c886067b58b
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '1728'
-ht-degree: 9%
+source-wordcount: '1817'
+ht-degree: 8%
 
 ---
 
@@ -90,7 +90,7 @@ ht-degree: 9%
       <tr>
          <td>created</td>
          <td>作成日時</td>
-         <td>date </td>
+         <td>日付 </td>
          <td> </td>
       </tr>
       <tr>
@@ -234,7 +234,7 @@ ht-degree: 9%
       <tr>
          <td>終了</td>
          <td>有効期限</td>
-         <td>date </td>
+         <td>日付 </td>
          <td> </td>
       </tr>
       <tr>
@@ -298,15 +298,15 @@ ht-degree: 9%
          <td> </td>
       </tr>
       <tr>
-         <td>label</td>
+         <td>ラベル</td>
          <td>ラベル</td>
          <td>文字列 (128)</td>
          <td> </td>
       </tr>
       <tr>
          <td>lastModified</td>
-         <td>最終変更日</td>
-         <td>date </td>
+         <td>最終変更日時</td>
+         <td>日付 </td>
          <td> </td>
       </tr>
       <tr>
@@ -387,7 +387,7 @@ ht-degree: 9%
       <tr>
          <td>publicationDate</td>
          <td>公開日</td>
-         <td>date </td>
+         <td>日付 </td>
          <td> </td>
       </tr>
       <tr>
@@ -437,7 +437,7 @@ ht-degree: 9%
       <tr>
          <td>開始</td>
          <td>デプロイ日</td>
-         <td>date </td>
+         <td>日付 </td>
          <td> </td>
       </tr>
       <tr>
@@ -741,11 +741,11 @@ ht-degree: 9%
         </tr>
         <tr>
         <td>startDate</td>
-        <td>date</td>
+        <td>日付</td>
         </tr>
         <tr>
         <td>endDate</td>
-        <td>date</td>
+        <td>日付</td>
         </tr>
     </table>
 
@@ -758,10 +758,10 @@ ht-degree: 9%
     </tr>
     <tr>
     <td>startDate</td>
-    <td>date</td>
+    <td>日付</td>
     </tr>
     <tr>
     <td>endDate</td>
-    <td>date</td>
+    <td>日付</td>
     </tr>
 </table>

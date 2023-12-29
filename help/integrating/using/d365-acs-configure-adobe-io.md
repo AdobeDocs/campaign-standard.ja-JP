@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: ab21b694-d05c-4ba4-b828-936803651b82
 source-git-commit: c701043cbba22711de1ea7ddc5266e193d771e14
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 1%
+source-wordcount: '568'
+ht-degree: 0%
 
 ---
 
@@ -29,7 +29,7 @@ Adobe Campaign Standardで「プロファイル拡張」を有効にしてくだ
 1. 「公開を準備」をクリックして、公開を準備します。
 1. 準備が完了したら、「Profiles &amp; Services Ext API の作成」をチェックし、「公開」をクリックします。
 
-## Adobe I/O の設定 {#adobe-io}
+## 設定Adobe I/O {#adobe-io}
 
 Adobe I/Oを使用すると、Adobe Campaign Standardおよびその他のAdobe製品への API アクセスを有効にできます。   この記事では、Adobe Campaign StandardとMicrosoft Dynamics 365 の統合にデータを同期するためのアクセス権を付与するためのAdobe I/Oの設定方法について詳しく説明します。
 

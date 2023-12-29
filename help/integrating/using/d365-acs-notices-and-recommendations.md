@@ -10,7 +10,7 @@ level: Experienced
 exl-id: aab6f005-f3da-4c0b-b856-da8504e611dc
 source-git-commit: 17522f4df86c7fb46593472316d57b4ba4acee2b
 workflow-type: tm+mt
-source-wordcount: '2471'
+source-wordcount: '2523'
 ht-degree: 1%
 
 ---
@@ -96,7 +96,7 @@ Dynamics 365 では、ほとんどのオプトアウトフィールドには「d
 
 >[!IMPORTANT]
 >
->SFTP フォルダーにアクセスしてダウンロードする情報は、ユーザーが担当します。 情報に個人データが含まれる場合、お客様は、適用されるプライバシーに関する法令に準拠する責任を負います。 [詳細情報](#acs-msdyn-manage-privacy)
+>SFTP フォルダーにアクセスしてダウンロードする情報は、ユーザーが担当します。 情報に個人データが含まれる場合、お客様は、適用されるプライバシーに関する法令に準拠する責任を負います。 [詳細情報](#acs-msdyn-manage-privacy)。
 
 ## データ管理
 

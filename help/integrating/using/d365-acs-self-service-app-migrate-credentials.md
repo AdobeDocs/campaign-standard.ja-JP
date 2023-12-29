@@ -7,14 +7,15 @@ topic-tags: working-with-campaign-and-microsoft-dynamics-365
 feature: Microsoft CRM Integration
 role: Data Architect
 level: Intermediate
-source-git-commit: 736e8b7e863409779c153567f6e5fc577ac3c519
+exl-id: e0fb289a-6b6e-473d-80af-50f6d0d72af1
+source-git-commit: abdcd3f9f7f709818dee794b4c830e486fefa290
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 0%
+source-wordcount: '559'
+ht-degree: 1%
 
 ---
 
-# JWT から OAuth サーバー間への認証情報の移行
+# JWT から OAuth へのサーバー間での資格情報の移行
 
 新しい OAuth サーバー間秘密鍵証明書のために、サービスアカウント (JWT) 秘密鍵証明書は非推奨になりました。 新しい資格情報により、Adobe・アプリケーションの保守が容易になります。 また、証明書を定期的に交換する必要がなくなり、標準の OAuth2 ライブラリを使用して標準で動作します。
 

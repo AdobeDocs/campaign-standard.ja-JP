@@ -10,8 +10,8 @@ level: Experienced
 exl-id: efbbd0cd-9c56-4ad0-8bcb-efba4b63c28b
 source-git-commit: 7ca7e9bd9541a4db708565e65e2ff87e44393238
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 4%
+source-wordcount: '384'
+ht-degree: 11%
 
 ---
 
@@ -29,7 +29,7 @@ Adobe Campaign Standard API アクセスは、以下の手順で設定します�
 
    >[!AVAILABILITY]
    >
-   >JWT（JSON Web トークン）は、現在、が非推奨（廃止予定）の段階で、OAuth に置き換えられています。 トランジションは Campaign の今後のリリース内で段階的に実行されており、これらの更新を反映するためにドキュメントが更新されます。
+   >JWT（JSON web トークン）は、現在非推奨（廃止予定）の段階で、OAuth に置き換えられています。トランジションは、Campaign の今後のリリース内で段階的に実行され、ドキュメントはこれらの更新を反映して更新されます。
 
 1. **アクセストークンとの JWT の交換** POST要求 このアクセストークンは、API リクエストの各ヘッダーで使用する必要があります。
 

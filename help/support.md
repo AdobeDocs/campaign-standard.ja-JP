@@ -10,7 +10,7 @@ level: Beginner
 exl-id: b164942b-0f1c-473e-bf78-f10ec3374244
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '493'
 ht-degree: 100%
 
 ---
@@ -60,7 +60,7 @@ FAQ、ベストプラクティス、オンラインリソース、サポート�
         <li><a href="automating/using/creating-import-workflow-templates.md">ワークフローを使用したデータのインポート</a></li>
         <li><a href="sending/using/sending-messages-at-the-recipient-s-time-zone.md">タイムゾーン管理</a></li>
         <li><a href="sending/using/receiving-alerts-when-failures-happen.md">エラー発生時の通知の受信</a></li>
-        <li><a href="designing/using/using-existing-content.md">E メールコンテンツのインポートまたは変換</a></li>
+        <li><a href="designing/using/using-existing-content.md">メールコンテンツのインポートまたは変換</a></li>
         <li><a href="sending/using/delivery-best-practices.md">配信のベストプラクティス</a></li>
         </ul>
     </td>

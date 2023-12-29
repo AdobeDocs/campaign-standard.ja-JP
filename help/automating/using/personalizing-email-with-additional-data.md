@@ -1,5 +1,5 @@
 ---
-title: 追加データによる E メールのパーソナライズ
+title: 追加データによるメールのパーソナライズ
 description: この使用例では、様々なタイプの追加データをクエリに追加し、E メールのパーソナライゼーションフィールドとして使用する方法を示します。
 audience: automating
 content-type: reference
@@ -11,14 +11,14 @@ level: Intermediate
 exl-id: b207dc73-03dc-4f25-95e5-573e4b4bce54
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 86%
+source-wordcount: '480'
+ht-degree: 81%
 
 ---
 
-# 追加データによる E メールのパーソナライズ {#example--personalizing-an-email-with-additional-data}
+# 追加データによるメールのパーソナライズ {#example--personalizing-an-email-with-additional-data}
 
-次の例は、様々なタイプの追加データをクエリに追加し、E メールのパーソナライゼーションフィールドとして使用する方法を示しています。を参照してください。 **[!UICONTROL Query]** アクティビティ： [この節](../../automating/using/query.md#enriching-data).
+次の例は、様々なタイプの追加データをクエリに追加し、E メールのパーソナライゼーションフィールドとして使用する方法を示しています。 を参照してください。 **[!UICONTROL Query]** アクティビティ： [この節](../../automating/using/query.md#enriching-data).
 
 この例では、[カスタムリソース](../../developing/using/data-model-concepts.md)を使用します。
 
@@ -26,7 +26,7 @@ ht-degree: 86%
 * **トランザクション**&#x200B;リソースが作成され、データベース内のプロファイルが実行したすべての購入を識別します。購入した日付、価格、商品は、トランザクションごとに保存されます。
 * **商品**&#x200B;リソースが作成され、購入可能な商品を参照します。
 
-この目的は、1 つ以上のトランザクションが保存されたプロファイルに E メールを送信することです。この E メールを通じて、クライアントは、最後に実行したトランザクションに関するリマインダーと、すべてのトランザクションの概要（購入した商品数、合計金額、発生したロイヤルティポイントの合計数を確認するメッセージ）を受け取ります。
+この目的は、1 つ以上のトランザクションが保存されたプロファイルにメールを送信することです。このメールを通じて、クライアントは、最後に実行したトランザクションに関するリマインダーと、すべてのトランザクションの概要（購入した商品数、合計金額、発生したロイヤルティポイントの合計数を確認するメッセージ）を受け取ります。
 
 ワークフローは次のとおりです。
 
@@ -36,7 +36,7 @@ ht-degree: 86%
 
    ![](assets/enrichment_example2.png)
 
-1. クエリの「**[!UICONTROL Additional data]**」タブで、最後の E メールに表示する様々なデータを定義します。
+1. クエリの「**[!UICONTROL Additional data]**」タブで、最後のメールに表示する様々なデータを定義します。
 
    * ロイヤルティポイントに対応する&#x200B;**プロファイル**&#x200B;ディメンションのシンプルなフィールド。[シンプルなフィールドの追加](../../automating/using/query.md#adding-a-simple-field)の節を参照してください。
    * トランザクションコレクションに基づく 2 つの集計：購入した商品数と合計金額。これらは、**Count** 集計および **Sum** 集計を使用して、集計設定ウィンドウの「**[!UICONTROL Data]**」タブから追加できます。[集計の追加](../../automating/using/query.md#adding-an-aggregate)を参照してください。
@@ -54,8 +54,8 @@ ht-degree: 86%
 
    ![](assets/enrichment_example5.png)
 
-1. を追加します。 [E メール配信](../../automating/using/email-delivery.md) アクティビティ。 E メールコンテンツに、クエリで計算されたデータに対応するパーソナライゼーションフィールドを挿入します。パーソナライゼーションフィールドエクスプローラーの **[!UICONTROL Additional data (targetData)]** リンクからアクセスできます。
+1. を追加します。 [E メール配信](../../automating/using/email-delivery.md) アクティビティ。 メールコンテンツに、クエリで計算されたデータに対応するパーソナライゼーションフィールドを挿入します。パーソナライゼーションフィールドエクスプローラーの **[!UICONTROL Additional data (targetData)]** リンクからアクセスできます。
 
    ![](assets/enrichment_example3.png)
 
-これでワークフローを実行する準備が整いました。クエリでターゲットされたプロファイルは、トランザクションから計算されたデータを含むパーソナライズされた E メールを受信します。
+これでワークフローを実行する準備が整いました。クエリでターゲットされたプロファイルは、トランザクションから計算されたデータを含むパーソナライズされたメールを受信します。

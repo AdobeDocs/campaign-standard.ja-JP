@@ -12,7 +12,7 @@ exl-id: dc45f487-7502-478d-a2b3-51669cc6b225
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '614'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 100%
 
 リソースは、「**[!UICONTROL Client data]**」セクション内のサブエントリとして表示されます。
 
-## デフォルトのリスト設定を定義する {#defining-the-default-list-configuration}
+## デフォルトのリスト設定の定義 {#defining-the-default-list-configuration}
 
 画面定義の「**[!UICONTROL List configuration]**」セクションでは、リソースの概要にデフォルトで表示される列と情報を定義できます。
 
@@ -88,7 +88,7 @@ ht-degree: 100%
 
 これでリソースの詳細画面が設定されました。
 
-## 「データへのアクション」セクション  {#actions-on-data-section}
+## 「データへのアクション」セクション {#actions-on-data-section}
 
 以下の設定により、カスタムリソース画面にコントロールバーを表示できます。次の 3 つのオプションを使用できます。
 

@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 41b83014-aea9-4ec2-b20e-c0a05bcad503
 source-git-commit: affd4f9716235a283df20de5539e43c4832762f7
 workflow-type: tm+mt
-source-wordcount: '852'
-ht-degree: 4%
+source-wordcount: '841'
+ht-degree: 3%
 
 ---
 
@@ -118,7 +118,7 @@ Adobe Campaignでプッシュ通知を作成する手順は、次のとおりで
 
    >[!NOTE]
    >
-   >理由は、Adobe Campaignの下流にあるエラーになる可能性があります。 apns や fcm などのプロバイダーからエラーが発生した場合、その理由も同様に反映されます。 プロバイダーのエラーの詳細については、 [Apple](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CommunicatingwithAPNs.html) および [Android](https://firebase.google.com/docs/cloud-messaging/http-server-ref) ドキュメント。
+   >理由は、Adobe Campaignの下流にあるエラーになる可能性があります。 apns や fcm などのプロバイダーからエラーが発生した場合、その理由も同様に反映されます。 プロバイダーのエラーの詳細については、 [Apple](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CommunicatingwithAPNs.html) および [Android](https://firebase.google.com/docs/cloud-messaging/http-server-ref?hl=ja) ドキュメント。
 
    ![](assets/push_send_6.png)
 

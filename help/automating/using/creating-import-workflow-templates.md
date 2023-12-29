@@ -10,8 +10,8 @@ level: Experienced
 exl-id: 5974a52c-8721-4575-b452-2982d6497235
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1172'
-ht-degree: 38%
+source-wordcount: '1176'
+ht-degree: 37%
 
 ---
 
@@ -73,7 +73,7 @@ ht-degree: 38%
 
      ![](assets/import_template_example3.png)
 
-   * データベースに挿入される十分なデータを持つ紐付けられていないレコードを選択する 2 つ目のセグメントを追加します。 （例：E メールアドレス、姓名）。紐付けされていないレコードのプロファイルの CRM ID の値が 0 に等しい。
+   * データベースに挿入される十分なデータを持つ紐付けられていないレコードを選択する 2 つ目のセグメントを追加します。 （例：E メールアドレス、名、姓）。 紐付けされていないレコードのプロファイルの CRM ID の値が 0 に等しい。
 
      ![](assets/import_template_example3_2.png)
 
@@ -100,7 +100,7 @@ ht-degree: 38%
 
      ![](assets/import_template_example4.png)
 
-   * この例では、一意のプロファイルを見つけるために、E メールフィールドが使用されています。入力されていることがわかっており、一意の組み合わせを構成する任意のフィールドを使用できます。
+   * この例では、一意のプロファイルを見つけるために、メールフィールドが使用されています。入力されていることがわかっており、一意の組み合わせを構成する任意のフィールドを使用できます。
    * を選択します。 **[!UICONTROL Deduplication method]**. この場合、重複が発生した場合にどのレコードを保持するかは、アプリケーションによって自動的に決定されます。
 
    ![](assets/import_template_example7.png)

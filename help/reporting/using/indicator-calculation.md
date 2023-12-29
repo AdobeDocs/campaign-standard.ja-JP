@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 47cc11d7-89e8-4d1c-9638-5f66a53cef7e
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 11%
+source-wordcount: '738'
+ht-degree: 7%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 11%
 
 次の表に、様々なレポートで使用される指標のリストと、配信タイプに応じた計算式を示します。
 
-## E メール配信 {#email-delivery}
+## メール配信 {#email-delivery}
 
 <table> 
  <thead> 
@@ -54,7 +54,7 @@ ht-degree: 11%
    <td> レート計算の分母は、送信済み数（配信済み+バウンス数）に基づきます。<br /> </td> 
   </tr> 
   <tr> 
-   <td> バウンス数 + エラー数<br /> </td> 
+   <td> バウンス数+エラー数<br /> </td> 
    <td> @bounces<br /> </td> 
    <td> count(@status=2)<br /> </td> 
    <td> </td> 
@@ -169,7 +169,7 @@ ht-degree: 11%
   </tr> 
   <tr> 
    <td> 処理済み/送信済み<br /> </td> 
-   <td> @送信済み<br /> </td> 
+   <td> @sent<br /> </td> 
    <td> @delivered + @bounces<br /> </td> 
    <td> </td> 
   </tr> 
@@ -204,7 +204,7 @@ ht-degree: 11%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> 登録解除<br /> </td> 
+   <td> 配信停止<br /> </td> 
    <td> @unsubscribes<br /> </td> 
    <td> count(@trackingUrlType=3)<br /> </td> 
    <td> </td> 
@@ -237,7 +237,7 @@ ht-degree: 11%
  <tbody> 
   <tr> 
    <td> 処理済み/送信済み<br /> </td> 
-   <td> @送信済み<br /> </td> 
+   <td> @sent<br /> </td> 
    <td> @count(status=sent)<br /> </td> 
   </tr> 
   <tr> 
@@ -271,7 +271,7 @@ ht-degree: 11%
    <td> 個別開封数は、ThetaSketch の一意の RecipientIds の概念を使用して計算されます。 詳しくは、 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match">例</a>.<br /> </td> 
   </tr> 
   <tr> 
-   <td> インプレッション<br /> </td> 
+   <td> Impressions<br /> </td> 
    <td> @impressions<br /> </td> 
    <td> @count(status=delivered)<br /> </td> 
   </tr> 
@@ -312,7 +312,7 @@ ht-degree: 11%
  <tbody> 
   <tr> 
    <td> 処理済み/送信済み<br /> </td> 
-   <td> @送信済み<br /> </td> 
+   <td> @sent<br /> </td> 
    <td> @count(status=sent)<br /> </td> 
    <td> sent=delivered<br /> </td> 
   </tr> 
@@ -323,7 +323,7 @@ ht-degree: 11%
    <td> delivered=sent<br /> </td> 
   </tr> 
   <tr> 
-   <td> インプレッション<br /> </td> 
+   <td> Impressions<br /> </td> 
    <td> @impressions<br /> </td> 
    <td> @count(status=view) または@count(status=button 1 click + button 2 click + dissals)<br /> </td> 
    <td> </td> 

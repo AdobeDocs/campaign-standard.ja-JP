@@ -11,8 +11,8 @@ level: Experienced
 exl-id: f11754fb-188e-4cae-bd5b-0dfbf74befb3
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1092'
-ht-degree: 98%
+source-wordcount: '1100'
+ht-degree: 97%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 98%
 
 高度な式の編集では、具体的な要件に応じて式を手動で定義することができます。
 
-式の編集は、E メールの作成時にオーディエンスウィンドウで、また、ワークフローの作成時に「クエリ」アクティビティで使用することができます。
+式の編集は、メールの作成時にオーディエンスウィンドウで、また、ワークフローの作成時に「クエリ」アクティビティで使用することができます。
 
 1. [高度な式の編集について](../../automating/using/advanced-expression-editing.md#about-advanced-expression-editing)の節で説明した方法のいずれかで、式の編集ウィンドウにアクセスします。このウィンドウには次の要素が含まれています。
 
@@ -101,7 +101,7 @@ JavaScript 式は 1 つ以上の条件で構成され、次の構文要素を使
 
 * それぞれの条件は、**&lt;コンテキスト> &lt;比較演算子> &lt;値 2**> の形式で記述します。
 
-   * ここで、**&lt;コンテキスト>** はコンテキストを指定できるフィールドまたは関数です。例えば、プロファイルの E メールアドレスを表す **context.profile.@email** や、プロファイルの名の文字数を表す **context.profile.firstName.length()** を指定します。
+   * ここで、**&lt;コンテキスト>** はコンテキストを指定できるフィールドまたは関数です。例えば、プロファイルの E メールアドレスを表す **context.profile.プロファイルのメールアドレスを表す @email** や、プロファイルの名の文字数を表す **context.profile.firstName.length()** を指定します。
    * **&lt;比較演算子>** は、[比較演算子](../../automating/using/advanced-expression-editing.md#comparison-operators)の節に記載されている演算子の 1 つです。**&lt;コンテキスト>** と **&lt;値 2>** の間の比較方法をこの演算子で定義します。
    * **&lt;値 2>** は、手動で入力したフィールド、関数、値のいずれかです。
 

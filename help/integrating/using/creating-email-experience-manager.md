@@ -1,5 +1,5 @@
 ---
-title: Adobe Experience Manager でのメールコンテンツの作成.
+title: Adobe Experience Managerで E メールコンテンツを作成する。
 description: Adobe Experience Manager統合を使用すると、AEMで直接コンテンツを作成し、後でAdobe Campaignで使用することができます。
 audience: integrating
 content-type: reference
@@ -11,7 +11,7 @@ exl-id: 72b99864-d9d9-4cf4-be06-dc5719a2e4f2
 source-git-commit: 579404ddc128e25cc7f8f93dfec30663c7cf754e
 workflow-type: tm+mt
 source-wordcount: '511'
-ht-degree: 15%
+ht-degree: 12%
 
 ---
 
@@ -33,7 +33,7 @@ Adobe Experience Managerオーサリングインスタンスにログインし�
 
 ## Adobe Experience Manager での新しい E メールコンテンツの作成 {#creating-email-content-aem}
 
-Adobe Campaign 専用のいくつかのテンプレートを使用できます。これらのテンプレートには Adobe Campaign でサポートされる定義済みのコンポーネントが含まれているので、これらのいずれかを必ず使用してください。
+Adobe Campaign専用のテンプレートをいくつか使用できます。 これらのテンプレートには Adobe Campaign でサポートされる定義済みのコンポーネントが含まれているので、これらのいずれかを必ず使用してください。
 
 デフォルトでは、2 つの定義済みテンプレートを使用して、Adobe Campaign用の E メールコンテンツを作成できます。
 

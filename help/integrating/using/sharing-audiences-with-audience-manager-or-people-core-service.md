@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: b0d063de-863c-42e7-98dd-c4c86da3281e
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 29%
+source-wordcount: '790'
+ht-degree: 26%
 
 ---
 
@@ -27,7 +27,7 @@ Adobe Campaignの People コアサービスからオーディエンス/セグメ
 1. アクションバーで、「 」を選択します。 **[!UICONTROL Create]** をクリックして、オーディエンスを作成する画面に移動します。
 1. 新しいオーディエンスのラベルを指定します。
 1. オーディエンスの設定 **[!UICONTROL Type]** から **[!UICONTROL Experience Cloud]** をクリックして、作成されるオーディエンスが People コアサービスからインポートされたオーディエンスであることを示します。
-1. 次から： **[!UICONTROL Name of the shared audience]** 「 」フィールドで、インポートするオーディエンスを選択します。 インポートできるのはセグメントのみです。キーと値のペア、特徴、ルールなどの詳細データはサポートされません。
+1. 次から： **[!UICONTROL Name of the shared audience]** 「 」フィールドで、インポートするオーディエンスを選択します。 インポートできるのはセグメントのみです。キーと値のペア、特性、ルールなどの詳細データはサポートされません。
 
    ![](assets/aam_import_audience.png)
 
@@ -45,7 +45,7 @@ Adobe Campaignの People コアサービスからオーディエンス/セグメ
 
 >[!NOTE]
 >
->Adobe AnalyticsからAdobe Campaignにオーディエンスをインポートする場合は、まず People コアサービスまたはAudience Managerでそれらのオーディエンスを共有する必要があります。 このプロセスには 12～24 時間を要し、Campaign との同期にはさらに 24～36 時間が必要です。場合により、オーディエンスの共有プロセスは最大 60 時間に及ぶことがあります。People コアサービスと Audience Manager での Adobe Analytics オーディエンスの共有について詳しくは、この[ドキュメント](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=ja)を参照してください。
+>Adobe AnalyticsからAdobe Campaignにオーディエンスをインポートする場合は、まず People コアサービスまたはAudience Managerでそれらのオーディエンスを共有する必要があります。 このプロセスには 12 ～ 24 時間を要し、Campaign との同期には 24 ～ 36 時間が必要です。 場合により、オーディエンスの共有プロセスは最大 60 時間に及ぶことがあります。People コアサービスと Audience Manager での Adobe Analytics オーディエンスの共有について詳しくは、この[ドキュメント](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=ja)を参照してください。
 
 ## オーディエンスのエクスポート {#exporting-an-audience}
 

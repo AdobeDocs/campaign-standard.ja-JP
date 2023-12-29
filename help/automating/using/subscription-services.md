@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 612b6203-1cc9-4015-a026-e5a249f3d03d
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1110'
-ht-degree: 98%
+source-wordcount: '1116'
+ht-degree: 96%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 98%
 
 >[!CAUTION]
 >
->サブスクリプションがワークフローのコンテキストで管理される場合、サービスプロパティで定義されている様々な確認 E メールは、登録済みまたは登録解除済みのプロファイルには配信されません。
+>サブスクリプションがワークフローのコンテキストで管理される場合、サービスプロパティで定義されている様々な確認メールは、登録済みまたは登録解除済みのプロファイルには配信されません。
 
 ## 使用状況 {#context-of-use}
 
@@ -96,7 +96,7 @@ ht-degree: 98%
 
   ![](assets/subscription_activity_example2.png)
 
-* 「**[!UICONTROL Reconciliation]**」アクティビティで、ファイルのデータを、Adobe Campaign データベースのプロファイルディメンションに属するものとして識別します。「**[!UICONTROL Identification]**」タブのみ設定します。プロファイルの E メールアドレスに従って、ファイルデータを識別します。
+* 「**[!UICONTROL Reconciliation]**」アクティビティで、ファイルのデータを、Adobe Campaign データベースのプロファイルディメンションに属するものとして識別します。「**[!UICONTROL Identification]**」タブのみ設定します。プロファイルのメールアドレスに従って、ファイルデータを識別します。
 
   ![](assets/subscription_activity_example3.png)
 

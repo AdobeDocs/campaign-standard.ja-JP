@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 553897d4-2652-453f-960e-bb2993889f37
 source-git-commit: 9bfae9e956fa86254578eda821aedd240c81288c
 workflow-type: tm+mt
-source-wordcount: '1300'
-ht-degree: 98%
+source-wordcount: '1317'
+ht-degree: 95%
 
 ---
 
@@ -123,7 +123,7 @@ ht-degree: 98%
 1. ワークフローを作成します。ワークフローを作成する詳細な手順については、[ワークフローの作成](../../automating/using/building-a-workflow.md)の節を参照してください。
 1. **[!UICONTROL Activities]**／**[!UICONTROL Targeting]** で、「[クエリ](../../automating/using/query.md)」アクティビティをドラッグ＆ドロップします。アクティビティをダブルクリックし、ターゲットを定義します。<!--For example, in **[!UICONTROL Shortcuts]**, drag and drop **[!UICONTROL Profile]**, select **[!UICONTROL Age]** with the operator **[!UICONTROL Greater than]** and type 25 in the **[!UICONTROL Value]** field.-->
 
-1. **[!UICONTROL Activities]**／**[!UICONTROL Channels]** で、メインターゲットのセグメントの後に「[E メール配信](../../automating/using/email-delivery.md)」アクティビティをドラッグ＆ドロップして編集します。
+1. **[!UICONTROL Activities]**／**[!UICONTROL Channels]** で、メインターゲットのセグメントの後に「[メール配信](../../automating/using/email-delivery.md)」アクティビティをドラッグ＆ドロップして編集します。
 1. 配信ダッシュボードの「**[!UICONTROL Audience]**」ブロックをクリックします。
 
 1. 「**[!UICONTROL Control group]**」タブを選択します。
@@ -214,7 +214,7 @@ ht-degree: 98%
 
    ![](assets/control-group-rule-delivery.png)
 
-1. 送信した E メールをフィルター条件として選択します。「**[!UICONTROL Confirm]**」をクリックします。
+1. 送信したメールをフィルター条件として選択します。「**[!UICONTROL Confirm]**」をクリックします。
 
    ![](assets/control-group-email-sent.png)
 
@@ -232,8 +232,8 @@ ht-degree: 98%
 
 1. 「**[!UICONTROL Confirm]**」をクリックします。
 
-これで、コントロール母集団の一部であったために最初のメッセージを受信しなかったプロファイルをターゲットし、別の E メールを送信できるようになります。
+これで、コントロール母集団の一部であったために最初のメッセージを受信しなかったプロファイルをターゲットし、別のメールを送信できるようになります。
 
-同じワークフローで、E メールを受信したプロファイルにターゲットし、別のメッセージを送信するために別のクエリを作成することもできます。
+同じワークフローで、メールを受信したプロファイルにターゲットし、別のメッセージを送信するために別のクエリを作成することもできます。
 
 ![](assets/control-group-targeted-by-delivery.png)

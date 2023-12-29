@@ -1,6 +1,6 @@
 ---
 title: インポートされたファイルからのデータの重複排除
-description: この例は、データをデータベースに読み込む前に、インポートしたファイルからデータの重複を除外する方法を示します。
+description: この例では、データをデータベースに読み込む前に、インポートしたファイルからデータの重複を排除する方法を示します。
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 631eb661-a696-4352-aa58-9097b391723e
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 89%
+source-wordcount: '329'
+ht-degree: 83%
 
 ---
 
@@ -46,13 +46,13 @@ ht-degree: 89%
 
 * A [重複排除](../../automating/using/deduplication.md) アクティビティ。 ファイルをインポートした後、データベースにデータを挿入する前に重複排除が直接実行されます。したがって、「**[!UICONTROL Load file]**」アクティビティの「**[!UICONTROL Temporary resource]**」に基づいている必要があります。
 
-  この例では、ファイルに含まれている一意の E メールアドレスごとに 1 つのエントリを保持します。そのため、重複の識別は一時リソースの **email** 列に対しておこなわれます。ただし、2 つの E メールアドレスがファイルに 2 回出現します。したがって、2 行が重複と見なされます。
+  この例では、ファイルに含まれている一意のメールアドレスごとに 1 つのエントリを保持します。そのため、重複の識別は一時リソースの **email** 列に対しておこなわれます。ただし、2 つのメールアドレスがファイルに 2 回出現します。したがって、2 行が重複と見なされます。
 
   ![](assets/deduplication_example2_dedup.png)
 
 * An [データを更新](../../automating/using/update-data.md) 「 」アクティビティを使用すると、重複排除プロセスで保持されたデータをデータベースに挿入できます。 インポートされたデータがプロファイルディメンションに属していると識別されるのは、データの更新時のみです。
 
-  ここでは、「**[!UICONTROL Insert only]**」を指定して、データベースにまだ存在しないプロファイルだけを挿入します。それには、ファイルの email 列と&#x200B;**プロファイル**&#x200B;ディメンションの E メールフィールドを紐付けキーとして使用します。
+  ここでは、「**[!UICONTROL Insert only]**」を指定して、データベースにまだ存在しないプロファイルだけを挿入します。それには、ファイルの email 列と&#x200B;**プロファイル**&#x200B;ディメンションのメールフィールドを紐付けキーとして使用します。
 
   ![](assets/deduplication_example2_writer1.png)
 

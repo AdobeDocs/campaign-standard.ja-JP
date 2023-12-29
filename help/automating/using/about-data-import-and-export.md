@@ -11,7 +11,7 @@ exl-id: 208e8629-c3e2-4f36-bae7-46ffc3f56a1b
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '324'
-ht-degree: 24%
+ht-degree: 12%
 
 ---
 
@@ -23,8 +23,8 @@ ht-degree: 24%
 * **リスト**：すべてのリスト画面を設定し、別のファイルに書き出した表示データを指定できます。
 * **ワークフロー**：ファイルからデータをインポートし、それを使用してデータベースを更新したり、E メールを送信したりします。 また、ファイルに書き出すデータを選択することもできます。 ワークフローは、プロファイルのインポートなど、定期的な更新を自動化する最適な方法です。
 
-   * 「**[!UICONTROL Load file]**」アクティビティを使用すると、1 つの構造化されたフォームにデータをインポートして、Adobe Campaign で使用することができます。データは一時的にインポートされます。このデータを Adobe Campaign データベースに確実に統合するには別のアクティビティが必要です。このアクティビティの使用方法について詳しくは、 [この節](../../automating/using/load-file.md).
-   * 「**[!UICONTROL Transfer file]**」アクティビティを使用すると、ファイルの送受信、ファイルの有無のテスト、Adobe Campaign 内のファイルの一覧表示ができます。このアクティビティは、 **[!UICONTROL Load file]** 外部ソースからファイルを取得する必要がある場合に備えて、 このアクティビティの使用方法について詳しくは、 [この節](../../automating/using/transfer-file.md).
+   * 「**[!UICONTROL Load file]**」アクティビティを使用すると、1 つの構造化されたフォームにデータをインポートして、Adobe Campaign で使用することができます。データは一時的にインポートされます。このデータをAdobe Campaignデータベースに確実に統合するには、別のアクティビティが必要です。 このアクティビティの使用方法について詳しくは、 [この節](../../automating/using/load-file.md).
+   * The **[!UICONTROL Transfer file]** 「 」アクティビティを使用すると、ファイルの送受信、ファイルの有無のテスト、Adobe Campaign内のファイルの一覧表示ができます。 このアクティビティは、 **[!UICONTROL Load file]** 外部ソースからファイルを取得する必要がある場合に備えて、 このアクティビティの使用方法について詳しくは、 [この節](../../automating/using/transfer-file.md).
 
 インポートプロセスを設計する際には、必要に応じて適応可能なワークフローテンプレートを使用することをお勧めします。 データをインポートするためのワークフローテンプレートの設定方法について詳しくは、 [この使用例](../../automating/using/creating-import-workflow-templates.md).
 

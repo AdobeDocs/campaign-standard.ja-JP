@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: 51f07f08-5d57-4c4c-aff2-d03e5956ec6f
 source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '658'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ The **[!UICONTROL Workflows]** ページには、テクニカルワークフロ�
 
 **オプトイン/オプトアウト**
 
-オプトアウトステータス（例：）は、Microsoft ブロックリストに加える Dynamics 365 からAdobe Campaignに、またはAdobe CampaignからMicrosoft Dynamics 365 に同期できます。 データは双方向に同期する（つまり、両方向にデータフローを行う）ことでも可能です。 [詳細情報](../../integrating/using/d365-acs-self-service-app-data-sync.md#opt-in-out-wf)
+オプトアウトステータス（例：）は、Microsoft ブロックリストに加える Dynamics 365 からAdobe Campaignに、またはAdobe CampaignからMicrosoft Dynamics 365 に同期できます。 データは双方向に同期する（つまり、両方向にデータフローを行う）ことでも可能です。 [詳細情報](../../integrating/using/d365-acs-self-service-app-data-sync.md#opt-in-out-wf)。
 
 >[!IMPORTANT]
 >

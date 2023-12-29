@@ -8,7 +8,7 @@ hidefromtoc: true
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '7556'
+source-wordcount: '7674'
 ht-degree: 9%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 9%
    <ul>
     <li>アクセス権と削除権：GDPR 用に追加された機能を活用します。<a href="https://helpx.adobe.com/content/help/jp/campaign/kb/acs-privacy.html#righttoaccess">詳細情報</a> </li>
     <li><p>プライバシーリクエストを作成する際のプライバシーコアサービスに、規制のタイプ（GDPR または CCPA）が追加されました。 すべてのアクセス要求と削除要求に対して、このメソッドを使用する必要があります。アクセス要求および削除要求に対する Campaign API およびインターフェイスの使用は廃止されています。<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=ja">廃止および削除された機能の記事</a>を参照してください。</p></li>
-    <li>A <strong>CCPA オプトアウト</strong> ユーザーが個人情報の販売をオプトアウトしたかどうかをAdobe Campaignユーザーが追跡できるように、プロファイルリソースにフィールドが追加されました。 <a href="https://helpx.adobe.com/jp/campaign/kb/acs-privacy.html#ccpa">詳細情報</a></li>
+    <li>A <strong>CCPA オプトアウト</strong> ユーザーが個人情報の販売をオプトアウトしたかどうかをAdobe Campaignユーザーが追跡できるように、プロファイルリソースにフィールドが追加されました。 <a href="https://helpx.adobe.com/jp/campaign/kb/acs-privacy.html#ccpa">詳細情報</a>。</li>
   </ul>
     <p><a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">ハウツービデオ</a>を参照してください。</p>
 </td> 
@@ -210,7 +210,7 @@ ht-degree: 9%
 **その他の変更**
 
 * 配信プロパティインターフェイスに警告が追加されました。 この式では、1 日に複数回ワークフローを呼び出すために、集計期間に基づいて配信が準備され、解除されるように指定します。期間がないことを確認する必要があります。 （CAMP-34393）
-* カスタムリソース設定画面に警告が追加されました。 カスタムリソース ID には使用する文字は最大 30 文字にすることをお勧めします。これは、カスタムのリソースフィールド、キー、インデックス、リンクについても同様です。
+* カスタムリソース設定画面に警告が追加されました。 カスタムリソース ID には使用する文字は最大 30 文字にすることをお勧めします。これは、カスタムのリソースフィールド、キー、インデックス、リンクにも当てはまります。
 * ランディングページで確認メッセージとして使用されているトランザクションメッセージを削除しようとすると、メッセージが表示されるようになりました。
 * アクティビティが 6 時間以上実行されている場合、ワークフローのログに警告が表示されるようになりました。 これは、プッシュ通知、配信、シグナル、開始、終了、分岐、 AND 結合、スケジュール、待機のアクティビティには適用されません。
 * 同時に実行されるワークフローが最大数に達すると、ワークフローのログに警告が表示されるようになりました。
@@ -261,13 +261,13 @@ ht-degree: 9%
 * 管理者以外のユーザーがレポートを保存またはスケジュールできない場合がある問題を修正しました。 （CAMP-31133）
 * 「ファイル読み込み」ワークフローアクティビティで日付区切り記号として「|」を使用する際の問題を修正しました。 （CAMP-34706）
 
-## リリース 19.2.4 - 2019年6月 {#release-19-2-4---june-2019}
+## リリース 19.2.4 - 2019 年 6 月 {#release-19-2-4---june-2019}
 
 **E メールデザイナー**
 
 * HTMLで空のスタイルタグが使用されている場合に、フラグメントを編集できない問題を修正しました。 これは、19.2.3 における CAMP-33778のフォローアップ修正です。
 
-## リリース 19.2.3 - 2019年6月 {#release-19-2-3---june-2019}
+## リリース 19.2.3 - 2019 年 6 月 {#release-19-2-3---june-2019}
 
 **E メールデザイナー**
 
@@ -531,7 +531,7 @@ ht-degree: 9%
      <li> 次の操作が可能： <a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">準備時に URL からコンテンツを自動的に取得する</a> </li> 
      <li> 完全に準拠 <a href="../../designing/using/using-reusable-content.md#content-templates">標準のコンテンツテンプレート</a>. </li> 
     </ul> 
-    <p>詳しくは、<a href="../../designing/using/designing-content-in-adobe-campaign.md">詳細ドキュメント</a>および<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html">ハウツービデオ</a>を参照してください。機能強化および修正点を次に示します。</p><p>その結果、従来の E メールコンテンツエディターは非推奨（廃止予定）となりました。 詳しくは、<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=ja">このページ</a>を参照してください。</p> </td> 
+    <p>詳しくは、 <a href="../../designing/using/designing-content-in-adobe-campaign.md">詳細なドキュメント</a> そして <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html">ハウツービデオ</a>. 機能強化および修正点を次に示します。</p><p>その結果、従来の E メールコンテンツエディターは非推奨（廃止予定）となりました。 詳しくは、<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=ja">このページ</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td> トランザクション E メールの製品リスト<br /> </td> 

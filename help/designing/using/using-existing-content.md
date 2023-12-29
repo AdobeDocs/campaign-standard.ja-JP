@@ -1,5 +1,5 @@
 ---
-title: 既存のコンテンツを使用した電子メールのデザイン
+title: 既存のコンテンツを使用した E メールのデザイン
 description: E メールデザイナーで既存のコンテンツ E メールコンテンツを使用して E メールをデザインする方法を説明します。
 audience: designing
 content-type: reference
@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 3bda4227-2a6e-4813-a288-93a4388a9787
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1280'
-ht-degree: 6%
+source-wordcount: '1277'
+ht-degree: 4%
 
 ---
 
@@ -51,7 +51,7 @@ E メールまたはランディングページを作成する際に、別のソ
 
 **関連トピック：**
 
-* [E メールの作成](../../channels/using/creating-an-email.md)
+* [メールの作成](../../channels/using/creating-an-email.md)
 * [ランディングページの管理](../../channels/using/getting-started-with-landing-pages.md)
 
 ## E メールデザイナーでの既存のコンテンツの編集{#editing-existing-contents-with-the-email-designer}
@@ -104,7 +104,7 @@ URL から既存のコンテンツを取得するには、次の手順に従い�
 1. コンテンツの取得元となる URL を定義します。
 1. 「**[!UICONTROL Confirm]**」をクリックします。
 
-ビデオでこの機能を確認する.
+この機能をビデオで確認します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/25926?quality=12)
 
@@ -174,7 +174,7 @@ E メールに新しいセクションを追加したり、高度なスタイル
 
 **関連トピック**：
 
-* [E メールの作成](../../channels/using/creating-an-email.md)
+* [メールの作成](../../channels/using/creating-an-email.md)
 * [E メールデザイナーの概要ビデオ](../../designing/using/designing-content-in-adobe-campaign.md#video)
 * [新規での E メールコンテンツのデザイン](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)
 
@@ -223,7 +223,7 @@ E メールデザイナー以外では、元のHTMLが再利用可能なセク�
 1. 構造コンポーネントを追加します。 詳しくは、[メール構造の編集](../../designing/using/designing-from-scratch.md#defining-the-email-structure)を参照してください。
 1. HTMLコンポーネントを追加。 詳しくは、[フラグメントとコンポーネントの追加](../../designing/using/designing-from-scratch.md#defining-the-email-structure)を参照してください。
 1. そのコンポーネントにHTMLをコピー&amp;ペーストします。
-1. モバイル表示に切り替え. 詳しくは、[この節](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)を参照してください。
+1. モバイル表示に切り替えます。 詳しくは、[この節](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)を参照してください。
 
    CSS がないので、レスポンシブビューが壊れています。
 

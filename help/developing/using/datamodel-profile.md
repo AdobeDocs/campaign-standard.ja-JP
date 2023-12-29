@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 652c22a5-7fff-4d08-9396-f0b292aaca76
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '1249'
-ht-degree: 15%
+source-wordcount: '1392'
+ht-degree: 12%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 15%
                <tr>
                   <td>birthDate</td>
                   <td>誕生日</td>
-                  <td>date </td>
+                  <td>日付 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -100,7 +100,7 @@ ht-degree: 15%
                <tr>
                   <td>created</td>
                   <td>作成日時</td>
-                  <td>date </td>
+                  <td>日付 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -124,7 +124,7 @@ ht-degree: 15%
                <tr>
                   <td>cusLastTransactionDate</td>
                   <td>最終トランザクション日</td>
-                  <td>date </td>
+                  <td>日付 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -134,20 +134,20 @@ ht-degree: 15%
                   <td> </td>
                </tr>
                <tr>
-                  <td>domain</td>
-                  <td>電子メールドメイン</td>
+                  <td>ドメイン</td>
+                  <td>メールドメイン</td>
                   <td>文字列 (255)</td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>電子メール</td>
+                  <td>メール</td>
                   <td>メール</td>
                   <td>文字列 (128)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>emailFormat</td>
-                  <td>E メールフォーマット</td>
+                  <td>メールフォーマット</td>
                   <td>列挙（バイト） </td>
                   <td>
                      <ul>
@@ -178,7 +178,7 @@ ht-degree: 15%
                </tr>
                <tr>
                   <td>fax</td>
-                  <td>FAX</td>
+                  <td>ファックス</td>
                   <td>文字列 (32)</td>
                   <td> </td>
                </tr>
@@ -189,7 +189,7 @@ ht-degree: 15%
                   <td> </td>
                </tr>
                <tr>
-                  <td>gender</td>
+                  <td>性別</td>
                   <td>性別</td>
                   <td>列挙（バイト） </td>
                   <td>
@@ -209,8 +209,8 @@ ht-degree: 15%
                </tr>
                <tr>
                   <td>lastModified</td>
-                  <td>最終変更日</td>
-                  <td>date </td>
+                  <td>最終変更日時</td>
+                  <td>日付 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -250,7 +250,7 @@ ht-degree: 15%
                   <td> </td>
                </tr>
                <tr>
-                  <td>phone</td>
+                  <td>電話</td>
                   <td>電話</td>
                   <td>文字列 (32)</td>
                   <td> </td>
@@ -268,7 +268,7 @@ ht-degree: 15%
                   <td> </td>
                </tr>
                <tr>
-                  <td>salutation</td>
+                  <td>敬称</td>
                   <td>タイトル</td>
                   <td>文字列 (20)</td>
                   <td> </td>
@@ -460,7 +460,7 @@ ht-degree: 15%
 </tr>
 <tr>
 <td>endDay</td>
-<td>date</td>
+<td>日付</td>
 </tr>
 <tr>
 <td>精度</td>
@@ -472,7 +472,7 @@ ht-degree: 15%
 </tr>
 <tr>
 <td>月</td>
-<td>date</td>
+<td>日付</td>
 </tr>
 <tr>
 <td>演算子</td>
@@ -484,7 +484,7 @@ ht-degree: 15%
 </tr>
 <tr>
 <td>endMonth</td>
-<td>date</td>
+<td>日付</td>
 </tr>
 <tr>
 <td>タイプ</td>
@@ -492,7 +492,7 @@ ht-degree: 15%
 </tr>
 <tr>
 <td>日</td>
-<td>date</td>
+<td>日付</td>
 </tr>
 </table>
 
@@ -504,7 +504,7 @@ E メール別（E メール別）
 <th>タイプ</th>
 </tr>
 <tr>
-<td>電子メール</td>
+<td>メール</td>
 <td>文字列</td>
 </tr>
 </table>
@@ -517,7 +517,7 @@ E メール別（E メール別）
 <th>タイプ</th>
 </tr>
 <tr>
-<td>電子メール</td>
+<td>メール</td>
 <td>文字列</td>
 </tr>
 </table>

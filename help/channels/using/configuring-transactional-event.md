@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 1b91fb97-fe97-4564-936c-438be7ea7bc0
 source-git-commit: fc6788bf62fa66bd43b3e50fb9bc676ccb466078
 workflow-type: tm+mt
-source-wordcount: '1705'
-ht-degree: 5%
+source-wordcount: '1709'
+ht-degree: 3%
 
 ---
 
@@ -146,7 +146,7 @@ Adobe Analytics の **[!UICONTROL Fields]** 「 」セクションで、イベ�
 **関連トピック：**
 
 * [イベントのプレビューと公開](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
-* [トランザクションメッセージのパーソナライズ機能](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message)
+* [トランザクションメッセージのパーソナライズ](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message)
 * [トランザクションメッセージの公開](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)
 
 ## トランザクションイベントの検索 {#searching-transactional-events}
@@ -181,7 +181,7 @@ Adobe Analytics の **[!UICONTROL Fields]** 「 」セクションで、イベ�
 
 1. イベント設定を作成する際に、 **[!UICONTROL Real-time event]** ターゲティングディメンション ( [イベントの作成](#creating-an-event)) をクリックします。
 1. トランザクションメッセージをパーソナライズするために、イベントにフィールドを追加します ( [イベント属性の定義](#defining-the-event-attributes)) をクリックします。
-1. イベントベースのトランザクションメッセージでは、受信者とメッセージコンテンツのパーソナライゼーションを定義するために、送信イベント内のデータのみを使用することが想定されています。
+1. イベントベースのトランザクションメッセージでは、受信者とメッセージコンテンツのパーソナライゼーションを定義するために、送信イベント内のデータのみを使用する必要があります。
 
    ただし、Adobe Campaignデータベースの追加情報を使用する場合は、トランザクションメッセージの内容をエンリッチメントできます ( [トランザクションメッセージコンテンツのエンリッチメント](#enriching-the-transactional-message-content)) をクリックします。
 

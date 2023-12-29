@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 57c56e4a-892c-46d6-9bb4-6a345a8d9f5b
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 97%
+source-wordcount: '574'
+ht-degree: 96%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 97%
    * このフィールドの値が 0 の場合：すべてのレコードが保持されます。
    * このフィールドの値が 2 の場合：C レコードと Z レコードが保持されます。さらに、偶然に、またはその後選択した重複排除方法によっては、A、B、Y のレコードのうち、2 つのレコードが保持されます。
 
-1. 提供されるリストに条件を追加して、「**[!UICONTROL Duplicate identification]**」条件を定義します。E メールアドレス、名、姓など、同一の値が存在することで重複を識別できるフィールドや式を指定します。条件の順序によって、最初に処理する条件を指定できます。
+1. 提供されるリストに条件を追加して、「**[!UICONTROL Duplicate identification]**」条件を定義します。メールアドレス、名、姓など、同一の値が存在することで重複を識別できるフィールドや式を指定します。条件の順序によって、最初に処理する条件を指定できます。
 1. ドロップダウンリストで、使用する「**[!UICONTROL Deduplication method]**」を選択します。
 
    * **[!UICONTROL Choose for me]**：重複に含めないレコードがランダムに選択されます。

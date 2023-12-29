@@ -12,7 +12,7 @@ exl-id: 61988c1d-d538-47b1-94c1-f3fbdf314b65
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '1451'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -75,7 +75,7 @@ Adobe Campaignを使用して **匿名トランザクションプッシュ通知
 
 会社は、1 台のデバイスを通じて、1 つのモバイルアプリケーションを使用して、ユーザー（登録トークンで識別）ごとに 1 つのトランザクションプッシュ通知を送信します。
 
-1. 作成したトランザクションメッセージに移動して編集します。詳しくは、 [トランザクションメッセージへのアクセス](../../channels/using/editing-transactional-message.md#accessing-transactional-messages).
+1. 作成したトランザクションメッセージに移動して編集します。 詳しくは、 [トランザクションメッセージへのアクセス](../../channels/using/editing-transactional-message.md#accessing-transactional-messages).
 
    ![](assets/message-center_push_message.png)
 
@@ -165,7 +165,7 @@ Adobe Campaignを使用して **匿名トランザクションプッシュ通知
 
 例えば、航空会社がモバイルアプリを購読したすべてのAdobe Campaignユーザーに対して、ボーディング用の最後の呼び出しを送信するとします。
 
-1. 作成したトランザクションメッセージに移動して編集します。詳しくは、 [トランザクションメッセージへのアクセス](../../channels/using/editing-transactional-message.md#accessing-transactional-messages).
+1. 作成したトランザクションメッセージに移動して編集します。 詳しくは、 [トランザクションメッセージへのアクセス](../../channels/using/editing-transactional-message.md#accessing-transactional-messages).
 
 1. 次をクリック： **[!UICONTROL Content]** ブロックを使用して、メッセージのタイトルと本文を変更します。
 

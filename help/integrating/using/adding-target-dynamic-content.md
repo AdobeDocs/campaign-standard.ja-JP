@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 7dfbd89f-877e-4598-bfe3-d743bb31ae9e
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 34%
+source-wordcount: '406'
+ht-degree: 31%
 
 ---
 
@@ -52,5 +52,5 @@ Adobe Campaignの画像にアクセスする前に、まずAdobe Targetで次の
 **関連トピック：**
 
 * [Adobe Target Portal](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html?lang=ja)
-* [電子メールコンテンツデザインについて](../../designing/using/designing-content-in-adobe-campaign.md)
+* [メールコンテンツデザインについて](../../designing/using/designing-content-in-adobe-campaign.md)
 * [リアルタイムでの電子メール画像のパーソナライズ](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html) ビデオ

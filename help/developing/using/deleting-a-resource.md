@@ -11,7 +11,7 @@ exl-id: 4ddfdbcc-a154-4c10-a97e-73ad888d1f1f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '242'
-ht-degree: 16%
+ht-degree: 14%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 16%
    >
    >標準搭載の拡張機能を再ドラフト化する場合 **プロファイル (profile)** リソースを再度ドラフトする必要があります。 **テストプロファイル (seedMember)** 定義済みの拡張機能。 プロファイルリソースの拡張について詳しくは、 [この節](../../developing/using/extending-the-profile-resource-with-a-new-field.md).
 
-1. リソースを公開します。詳しい手順については、 [カスタムリソースの公開](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
+1. リソースを公開します。 詳しい手順については、 [カスタムリソースの公開](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
 
    リソースは次に **ドラフト** モードとそのアクティベーションステータスは次のとおりです。 **[!UICONTROL Inactive]**.
 

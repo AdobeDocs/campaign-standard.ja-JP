@@ -12,7 +12,7 @@ exl-id: 5138826d-ae08-403b-91ef-91027ef6e78e
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
 source-wordcount: '278'
-ht-degree: 37%
+ht-degree: 31%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 37%
 
    ![](assets/message-center_5.png)
 
-新規テストプロファイルを作成するか、既に「**[!UICONTROL Test profiles]**」メニューにあるテストを使用することもできます。手順は次のとおりです。
+また、新しいテストプロファイルを作成するか、 **[!UICONTROL Test profiles]** メニュー。 手順は次のとおりです。
 
 1. 次をクリック： **Adobe** ロゴ（左上隅）に、「 **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]**.
 1. Adobe Analytics の **[!UICONTROL Event]** 「 」セクションで、作成したイベントを選択します。 この例では、「買い物かごの放棄（EVTcartAbandant）」を選択します。

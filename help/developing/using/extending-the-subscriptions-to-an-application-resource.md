@@ -11,13 +11,13 @@ exl-id: ac9c556d-c0f6-4b33-8855-1f5f669c148f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '232'
-ht-degree: 24%
+ht-degree: 10%
 
 ---
 
 # アプリケーションリソースの購読の拡張{#extending-the-subscriptions-to-an-application-resource}
 
-Adobe Campaign では、モバイルデバイスから送信されたモバイルプロファイル属性データは、アプリケーション購読者から収集するデータを定義できる「**[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]**」リソースに保存されます。カスタムリソースについて詳しくは、 [このページ](../../developing/using/key-steps-to-add-a-resource.md).
+Adobe Campaignでは、モバイルデバイスから送信されたモバイルプロファイル属性データは、 **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** リソースを使用して、アプリケーション購読者から収集するデータを定義できます。 カスタムリソースについて詳しくは、 [このページ](../../developing/using/key-steps-to-add-a-resource.md).
 
 このリソースを拡張して、モバイルデバイスからAdobe Campaignに送信するデータを収集できます。
 

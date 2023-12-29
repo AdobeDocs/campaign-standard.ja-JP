@@ -9,8 +9,8 @@ level: Intermediate
 exl-id: bcb28ef5-5cad-43c1-b11b-080abc791a72
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 16%
+source-wordcount: '578'
+ht-degree: 12%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 16%
 <table>
 <tr>
 <td><img src="assets/do-not-localize/icon_prepare.svg" width="60px"><p><a href="#prepare-test-send">準備とテスト</a></p></td>
-<td><img src="assets/do-not-localize/icon_send.svg" width="60px"><p><a href="#send-track-messages"> の送信、監視、トラッキング</a></p></td>
+<td><img src="assets/do-not-localize/icon_send.svg" width="60px"><p><a href="#send-track-messages">送信、監視、およびトラッキング</a></p></td>
 <td><img src="assets/do-not-localize/icon_deliverability.svg" width="60px"><p><a href="#improve-deliverability">配信品質のガイドライン</a></p></td></tr>
 </table>
 
@@ -48,11 +48,11 @@ Campaign Standard **メッセージの準備** は、ターゲット、パーソ
 * [送信の準備](../../sending/using/preparing-the-send.md)
 * [メッセージのプレビュー](../../sending/using/previewing-messages.md)
 * [配達確認の送信](../../sending/using/sending-proofs.md)
-* [E メールのレンダリング](../../sending/using/email-rendering.md)
-* [メッセージのスケジュール設定](../../sending/using/about-scheduling-messages.md)
+* [メールのレンダリング](../../sending/using/email-rendering.md)
+* [メッセージのスケジュール](../../sending/using/about-scheduling-messages.md)
 * [タイポロジとタイポロジルールについて](../../sending/using/about-typology-rules.md)
 
-##  の送信、監視、トラッキング {#send-track-messages}
+## 送信、監視、およびトラッキング {#send-track-messages}
 
 <img src="assets/do-not-localize/icon_send.svg"  width="60px">
 
@@ -66,7 +66,7 @@ Campaign Standard **メッセージの準備** は、ターゲット、パーソ
 
 * [送信の確認](../../sending/using/confirming-the-send.md)
 * [メッセージのトラッキング](../../sending/using/tracking-messages.md)
-* [E メールの BCC を使用したアーカイブ](../../sending/using/archiving.md)
+* [メールの BCC を使用したアーカイブ](../../sending/using/archiving.md)
 * [配信の監視](../../sending/using/monitoring-a-delivery.md)
 * [配信エラーについて](../../sending/using/understanding-delivery-failures.md)
 * [強制隔離管理について](../../sending/using/understanding-quarantine-management.md)

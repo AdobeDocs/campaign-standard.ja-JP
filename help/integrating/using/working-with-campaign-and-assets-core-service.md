@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 0ef8bbae-03a2-4369-bc57-a56302e0ab21
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 23%
+source-wordcount: '161'
+ht-degree: 17%
 
 ---
 
@@ -31,7 +31,7 @@ Adobe Experience Cloudから共有されるリソースは、次のように E �
 
    ![](assets/dam_shared_image_selection.png)
 
-画像が挿入されます。これで、必要に応じて配信をパーソナライズし、送信できるようになりました。
+画像が挿入されます。 これで、必要に応じて配信をパーソナライズし、送信できるようになりました。
 
 **関連トピック：**
 

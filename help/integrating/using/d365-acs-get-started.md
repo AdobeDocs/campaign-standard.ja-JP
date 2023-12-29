@@ -11,14 +11,14 @@ level: Intermediate
 exl-id: fa0f790d-6a4d-4b83-a51f-f565e9545a1a
 source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: tm+mt
-source-wordcount: '842'
-ht-degree: 14%
+source-wordcount: '874'
+ht-degree: 6%
 
 ---
 
 # Microsoft Dynamics 365 統合の概要
 
-クロスチャネル通信で CRM データをアクティブ化します。Microsoft Dynamics 365 から Adobe Campaign に連絡先を渡し、キャンペーンパフォーマンスデータ（送信、開封、クリックおよびバウンス）を Adobe Campaign に戻り Microsoft Dynamics 365 に共有する方法を学びます。
+クロスチャネル通信での CRM データのアクティブ化：Microsoft Dynamics 365 の連絡先をAdobe Campaignに渡し、キャンペーンパフォーマンスデータ（送信、開封、クリック、バウンス）をAdobe CampaignからMicrosoft Dynamics 365 に共有する方法を説明します。
 
 この統合には、次のソフトウェアバージョンが必要です。
 
@@ -77,7 +77,7 @@ Adobe Campaign StandardとMicrosoft Dynamics 365 の統合により、CRM シス
 
   >[!IMPORTANT]
   >
-  > 双方向または Campaign から Dynamics 365 へのオプトアウト設定が必要な場合は、Adobeにテクニカルコンタクトにリクエストして、オプトアウトワークフローを Campaign インスタンスに設定する必要があります。 [詳細情報](../../integrating/using/d365-acs-notices-and-recommendations.md#opt-out)
+  > 双方向または Campaign から Dynamics 365 へのオプトアウト設定が必要な場合は、Adobeにテクニカルコンタクトにリクエストして、オプトアウトワークフローを Campaign インスタンスに設定する必要があります。 [詳細情報](../../integrating/using/d365-acs-notices-and-recommendations.md#opt-out)。
 
 ### この統合を設定 {#configure-this-integration}
 
@@ -91,7 +91,7 @@ Adobe Campaign StandardとMicrosoft Dynamics 365 の統合により、CRM シス
 >
 >各システムに対して、次の手順を **administrator**.
 >
->このドキュメントの手順では、権限の割り当てや管理者アクセスに関連する統合／登録の作成手順を説明します。お客様の責任として、事前に会社のポリシーに従って手順を確認し、慎重に実行する必要があります。
+>このドキュメントの手順では、権限の割り当てや管理者アクセスに関連する統合/登録の作成手順を説明します。  お客様の責任として、事前に会社のポリシーに従って手順を確認し、慎重に実行する必要があります。
 >
 
 ### サポートをリクエスト

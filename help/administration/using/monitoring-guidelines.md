@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 5f25f2b2-ca41-4baf-ade2-42bbafb4790d
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 21%
+source-wordcount: '491'
+ht-degree: 13%
 
 ---
 
@@ -34,7 +34,7 @@ Campaign Standardインターフェイスには、イベントのステータス
 
 **テクニカルワークフロー**
 
-テクニカルワークフローは、サーバー上で定期的に実行されるようにスケジュールされた処理またはジョブです。インスタンスが正常に機能し、正常に動作していることを確認するには、インスタンスが常に起動して動作していることを確認する必要があります。 [詳細情報](../../administration/using/technical-workflows.md)
+テクニカルワークフローは、サーバー上で定期的に実行されるようにスケジュールされた操作またはジョブです。 インスタンスが正常に機能し、正常に動作していることを確認するには、インスタンスが常に起動して動作していることを確認する必要があります。 [詳細情報](../../administration/using/technical-workflows.md)
 
 **コントロールパネル**
 
@@ -44,7 +44,7 @@ Campaign Standardインターフェイスには、イベントのステータス
 >
 >コントロールパネルは、すべての管理者ユーザーがアクセスできます。 ユーザーに管理者アクセス権を付与する手順については、[このページ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ja#discover-control-panel)で詳しく説明しています。
 
-**技術的なオブジェクト**
+**技術オブジェクト**
 
 The **[!UICONTROL Diagnosis]** メニューは、データスキーマ、web ページ、バッチジョブなど、アプリケーションによって生成される様々な技術オブジェクトを監視および分析するための重要なツールです。 [詳細情報](../../developing/using/monitoring-data-model-changes.md)
 

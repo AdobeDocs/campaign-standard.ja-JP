@@ -8,14 +8,14 @@ level: Experienced
 exl-id: 88684ed6-6d8d-4691-987f-812e7e1d834c
 source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 13%
+source-wordcount: '119'
+ht-degree: 7%
 
 ---
 
 # 設定のガイドライン {#about-configuration-guidelines}
 
-## 対応ブラウザー{#compatible-browsers}
+## 互換性のあるブラウザー{#compatible-browsers}
 
 Adobe Campaign Standardは、コンピューターのほとんどのブラウザーと、タブレットの主なオペレーティングシステムと互換性があります。
 
@@ -30,12 +30,12 @@ Adobe Campaign Standardと互換性のあるブラウザーの一覧を次に示
 * Safari（最新バージョン）
 * Microsoft Edge（最新バージョン）
 
-**タブレット:**
+**タブレット：**
 
 * iOS（バージョン 7 以降）
 * Android（バージョン 4.4 以降）
 
-## Campaign Standard ネットワークエンドポイント {#campaign-standard-network-endpoints}
+## Campaign Standardネットワークエンドポイント {#campaign-standard-network-endpoints}
 
 Campaign Standardで使用される様々なエンドポイントを次に示します。
 

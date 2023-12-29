@@ -12,7 +12,7 @@ exl-id: d012e2e7-8022-4bfe-8290-3c512b60d9cf
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '372'
-ht-degree: 91%
+ht-degree: 89%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 91%
 * ![](assets/timeline_zoom_in.png) 日が表示されるまで、境界を狭めるか、より限られた期間詳細レベルを上げる
 * ![](assets/timeline_zoom_out.png) 周長を増やす、またはより大きな期間を表示する
 
-各プログラム名の右にある矢印をクリックして、対応するコンテンツを表示します。プログラムには、サブプログラム、キャンペーン、ランディングページを含めることができます。キャンペーンは、プログラムと同じ方法でデプロイされ、内部に E メール、SMS、ランディングページを組み込むことができます。
+各プログラム名の右にある矢印をクリックして、対応するコンテンツを表示します。プログラムには、サブプログラム、キャンペーン、ランディングページを含めることができます。キャンペーンは、プログラムと同じ方法でデプロイされ、内部にメール、SMS、ランディングページを組み込むことができます。
 
 >[!NOTE]
 >
@@ -48,9 +48,9 @@ ht-degree: 91%
 各要素には、それぞれのタイプに対応するアイコンがあります。
 
 * ![](assets/timeline_program_icon.png) プログラム
-* ![](assets/timeline_campaign_icon.png) キャンペーン
+* ![](assets/timeline_campaign_icon.png) Campaign
 * ![](assets/timeline_lp_icon.png) ランディングページ
-* ![](assets/timeline_email_icon.png) メール
+* ![](assets/timeline_email_icon.png) 電子メール
 * ![](assets/timeline_sms_icon.png) SMS
 * ![](assets/timeline_push_icon.png) プッシュ通知
 

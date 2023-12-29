@@ -10,8 +10,8 @@ level: Experienced
 exl-id: 625d5e10-3d68-440e-a60c-4fcdfca34b5f
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
-source-wordcount: '1022'
-ht-degree: 98%
+source-wordcount: '1032'
+ht-degree: 92%
 
 ---
 
@@ -147,7 +147,7 @@ ht-degree: 98%
 
 プロファイルを新しいカスタムフィールドのデータで更新するには、**[!UICONTROL Profile acquisition]** テンプレートを使用してランディングページを作成します。ランディングページについて詳しくは、この[ページ](../../channels/using/getting-started-with-landing-pages.md)を参照してください。
 
-ここでは、このフィールドに入力しなかったワークフロープロファイルにターゲットを設定します。各プロファイルには、パーソナライズされたニュースレターやオファーを受信するためにプロファイルの更新を求める E メールが届きます。その後、選択した興味に応じてパーソナライズされたニュースレターを受け取るようになります。
+ここでは、このフィールドに入力しなかったワークフロープロファイルにターゲットを設定します。各プロファイルには、パーソナライズされたニュースレターやオファーを受信するためにプロファイルの更新を求めるメールが届きます。その後、選択した興味に応じてパーソナライズされたニュースレターを受け取るようになります。
 
 まず、ターゲットプロファイルの「**Interest**」フィールドを更新するランディングページを作成する必要があります。
 
@@ -170,12 +170,12 @@ ht-degree: 98%
 
 1. 「**[!UICONTROL Marketing activities]**」タブで「**[!UICONTROL Create]**」をクリックし、「**[!UICONTROL Workflow]**」を選択します。
 1. 「**[!UICONTROL Query]**」アクティビティをドラッグ＆ドロップして、必要なプロファイルやオーディエンスをターゲットします。
-1. 「**[!UICONTROL Email delivery]**」アクティビティをドラッグ＆ドロップして、ランディングページへのリンクを含む E メールの設定を開始します。「**[!UICONTROL Add an outbound transition with the population]**」を選択します。
+1. 「**[!UICONTROL Email delivery]**」アクティビティをドラッグ＆ドロップして、ランディングページへのリンクを含むメールの設定を開始します。「**[!UICONTROL Add an outbound transition with the population]**」を選択します。
 
    ![](assets/schema_extension_uc3.png)
 
-1. 必要に応じて E メールを作成し、デザインします。E メールのパーソナライゼーションについて詳しくは、この[ページ](../../designing/using/quick-start.md)を参照してください。
-1. プロファイルをランディングページにリダイレクトするためのボタンを E メールに追加します。
+1. 必要に応じてメールを作成し、デザインします。メールのパーソナライゼーションについて詳しくは、この[ページ](../../designing/using/quick-start.md)を参照してください。
+1. プロファイルをランディングページにリダイレクトするためのボタンをメールに追加します。
 1. 追加されたボタンを選択し、左側のペインの「**[!UICONTROL Link]**」セクションで ![](assets/schema_extension_uc7.png) をクリックします。
 
    ![](assets/schema_extension_uc23.png)
@@ -184,16 +184,16 @@ ht-degree: 98%
 
    ![](assets/schema_extension_uc24.png)
 
-1. 「**[!UICONTROL Save]**」をクリックします。E メールの準備が整ったので、ワークフローに戻ります。
+1. 「**[!UICONTROL Save]**」をクリックします。メールの準備が整ったので、ワークフローに戻ります。
 1. プロファイルがランディングページで必要事項を入力する時間を確保するために、「**[!UICONTROL Wait]**」アクティビティを追加します。
 1. アウトバウンドトランジションを&#x200B;**興味**&#x200B;に応じて分割するために、「**[!UICONTROL Segmentation]**」アクティビティを追加します。
 1. 各&#x200B;**興味**&#x200B;に対してアウトバウンドセグメントを作成します。
 
    ![](assets/schema_extension_uc4.png)
 
-1. 各トランジションの後に「**[!UICONTROL Email delivery]**」アクティビティを追加して、選択された&#x200B;**興味**&#x200B;に応じてパーソナライズされた E メールを作成します。
+1. 各トランジションの後に「**[!UICONTROL Email delivery]**」アクティビティを追加して、選択された&#x200B;**興味**&#x200B;に応じてパーソナライズされたメールを作成します。
 1. 設定が完了したら、ワークフローを開始します。
 
    ![](assets/schema_extension_uc25.png)
 
-プロファイルは、この Interest フィールドに必要事項を入力するように求める E メールを受け取り、その後選択した値に応じてパーソナライズされた E メールを受信します。
+プロファイルは、この Interest フィールドに必要事項を入力するように求めるメールを受け取り、その後選択した値に応じてパーソナライズされたメールを受信します。

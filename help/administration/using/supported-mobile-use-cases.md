@@ -8,14 +8,14 @@ level: Experienced
 exl-id: 3cd8d756-a271-4e53-8ed0-984ce20298bc
 source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
 workflow-type: tm+mt
-source-wordcount: '947'
-ht-degree: 1%
+source-wordcount: '852'
+ht-degree: 0%
 
 ---
 
 # Adobe Campaign Standard でサポートされるモバイルのユースケース {#mobile-use-cases}
 
-このページでは、 [!DNL Adobe Campaign Standard] の使用 [!DNL Adobe Experience Platform SDKs]. これらの使用例をサポートするには、 [!DNL Adobe Experience Platform SDKs], [!DNL tags in Adobe Experience Platform]、および [!DNL Adobe Campaign Standard]. これについて詳しくは、この[ページ](../../administration/using/configuring-a-mobile-application.md)を参照してください。
+このページでは、 [!DNL Adobe Campaign Standard] の使用 [!DNL Adobe Experience Platform SDKs]. これらの使用例をサポートするには、 [!DNL Adobe Experience Platform SDKs], [!DNL tags in Adobe Experience Platform]、および [!DNL Adobe Campaign Standard]. 詳しくは、 [ページ](../../administration/using/configuring-a-mobile-application.md).
 
 Adobe Campaign Standardは、次の使用例をサポートしています。
 

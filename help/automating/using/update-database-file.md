@@ -12,13 +12,13 @@ exl-id: 2df7fbed-b979-4706-bd56-83f712cc3070
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '106'
-ht-degree: 33%
+ht-degree: 11%
 
 ---
 
 # 外部データを使用したデータベースの更新 {#update-database-file}
 
-次の例は、 **[!UICONTROL Update data]** 次のアクティビティ **[!UICONTROL Load file]** アクティビティ。 このワークフローの目的は、ファイルから回復したデータを使用して、Adobe Campaign データベースにプロファイルを追加または更新することです。
+次の例は、 **[!UICONTROL Update data]** 次のアクティビティ **[!UICONTROL Load file]** アクティビティ。 このワークフローの目的は、ファイルから回復したデータを使用して、Adobe Campaignデータベースにプロファイルを追加または更新することです。
 
 この例では、使用する紐付けキーは **電子メールアドレス**. に読み込まれたファイル [ファイルを読み込み](../../automating/using/load-file.md) アクティビティは **.txt** 次のサンプルデータを含む形式ファイル：
 

@@ -11,7 +11,7 @@ exl-id: 1cd471e3-5332-4119-b342-2c3c8503fdd1
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '434'
-ht-degree: 61%
+ht-degree: 44%
 
 ---
 
@@ -48,12 +48,12 @@ ht-degree: 61%
 
 ## データのセグメント化 {#segmenting-data}
 
-Adobe Campaign では、インバウンドデータをセットで処理できます。したがって、いくつもの母集団を組み合わせて、一部を除外したり、複数のターゲットに共通するデータのみを保持したりできます。
+Adobe Campaignを使用すると、受信データのセットを処理できます。 したがって、いくつもの母集団を組み合わせて、一部を除外したり、複数のターゲットに共通するデータのみを保持したりできます。
 
-* 「**[!UICONTROL Union]**」アクティビティを使用すると、複数のアクティビティの結果を 1 つのターゲットに再グループ化できます。[和集合](../../automating/using/union.md)の節を参照してください。
-* 「**[!UICONTROL Intersection]**」アクティビティでは、アクティビティ内の異なるインバウンド母集団に共通の要素のみを保持できます。[積集合](../../automating/using/intersection.md)の節を参照してください。
-* ［**[!UICONTROL Exclusion]**］アクティビティでは、特定の条件に従って、ある母集団から要素を除外することができます。詳しくは、 [除外](../../automating/using/exclusion.md) 」セクションに入力します。
-* 「**[!UICONTROL Segmentation]**」アクティビティを使用すると、ワークフローで既に配置されているアクティビティによって計算された母集団から、1 つまたは複数のセグメントを作成できます。アクティビティの最後に、1 つのトランジションまたは複数のトランジションで処理できます。詳しくは、 [セグメント化](../../automating/using/segmentation.md) 」セクションに入力します。
+* The **[!UICONTROL Union]** 「 」アクティビティを使用すると、複数のアクティビティの結果を 1 つのターゲットに再グループ化できます。 [和集合](../../automating/using/union.md)の節を参照してください。
+* The **[!UICONTROL Intersection]** 「 」アクティビティでは、アクティビティ内の異なるインバウンド母集団に共通の要素のみを保持できます。 [積集合](../../automating/using/intersection.md)の節を参照してください。
+* The **[!UICONTROL Exclusion]** 「 」アクティビティでは、特定の条件に従って、ある母集団から要素を除外することができます。 詳しくは、 [除外](../../automating/using/exclusion.md) 」セクションに入力します。
+* 「**[!UICONTROL Segmentation]**」アクティビティを使用すると、ワークフローで既に配置されているアクティビティによって計算された母集団から、1 つまたは複数のセグメントを作成できます。アクティビティの最後に、1 つのトランジションまたは異なるトランジションで処理できます。 詳しくは、 [セグメント化](../../automating/using/segmentation.md) 」セクションに入力します。
 
 ## データのエンリッチメント {#enriching-data}
 

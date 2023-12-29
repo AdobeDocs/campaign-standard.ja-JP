@@ -10,8 +10,8 @@ level: Experienced
 exl-id: d1575626-55bb-4303-a796-ad323a399330
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
-source-wordcount: '1970'
-ht-degree: 95%
+source-wordcount: '2011'
+ht-degree: 93%
 
 ---
 
@@ -422,7 +422,7 @@ ht-degree: 95%
   </tr> 
   <tr> 
    <td> <strong>GetEmailDomain</strong><br /> </td> 
-   <td> E メールアドレスからドメインを抽出します<br /> </td> 
+   <td> メールアドレスからドメインを抽出します<br /> </td> 
    <td> GetEmailDomain(&lt;値&gt;)<br /> </td> 
   </tr>
   <tr> 
@@ -492,12 +492,12 @@ ht-degree: 95%
   <tr> 
    <td> <strong>AllNonNull2</strong><br /> </td> 
    <td> すべてのパラメーターが null でなく空でもないかどうかを示します<br /> </td> 
-   <td> AllNonNull2(&lt;文字列&gt;, &lt;文字列&gt;)<br /> </td> 
+   <td> AllNonNull2(&lt;string&gt;, &lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>AllNonNull3</strong><br /> </td> 
    <td> すべてのパラメーターが null でなく空でもないかどうかを示します<br /> </td> 
-   <td> AllNonNull3(&lt;文字列&gt;, &lt;文字列&gt;, &lt;文字列&gt;)<br /> を参照してください。 </td> 
+   <td> AllNonNull3(&lt;string&gt;, &lt;string&gt;, &lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>ASCII</strong><br /> </td> 
@@ -507,7 +507,7 @@ ht-degree: 95%
   <tr> 
    <td> <strong>Char</strong><br /> </td> 
    <td> ASCII コード「n」に対応する文字を返します<br /> </td> 
-   <td> Char(&lt;数値&gt;)<br /> を参照してください。 </td> 
+   <td> Char(&lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Charindex</strong><br /> </td> 
@@ -522,7 +522,7 @@ ht-degree: 95%
   <tr> 
    <td> <strong>GetLine</strong><br /> </td> 
    <td> 文字列の n 番目（1 から n）のラインを返します<br /> </td> 
-   <td> GetLine(&lt;文字列&gt;)<br /> を参照してください。 </td> 
+   <td> GetLine(&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>IfEquals</strong><br /> </td> 
@@ -552,7 +552,7 @@ ht-degree: 95%
   <tr> 
    <td> <strong>Left</strong><br /> </td> 
    <td> 文字列の最初の n 文字を返します<br /> </td> 
-   <td> Left(&lt;文字列&gt;, &lt;数値&gt;)<br /> を参照してください。 </td> 
+   <td> Left(&lt;string&gt;, &lt;number&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Length</strong><br /> </td> 
@@ -562,27 +562,27 @@ ht-degree: 95%
   <tr> 
    <td> <strong>Lower</strong><br /> </td> 
    <td> 文字列を小文字で返します<br /> </td> 
-   <td> Lower(&lt;文字列&gt;)<br /> を参照してください。 </td> 
+   <td> Lower(&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Ltrim</strong><br /> </td> 
    <td> 文字列の左側の空白を削除します<br /> </td> 
-   <td> Ltrim(&lt;文字列&gt;)<br /> を参照してください。 </td> 
+   <td> Ltrim(&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Md5Digest</strong><br /> </td> 
    <td> 文字列の MD5 キーの 16 進数表現を返します<br /> </td> 
-   <td> Md5Digest(&lt;文字列&gt;)<br /> を参照してください。 </td> 
+   <td> Md5Digest(&lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>MemoContains</strong><br /> </td> 
    <td> パラメーターとして渡す文字列をメモに含めるかどうかを指定します<br /> </td> 
-   <td> MemoContains(&lt;メモ&gt;、&lt;文字列&gt;)<br /> を参照してください。 </td> 
+   <td> MemoContains(&lt;memo&gt;, &lt;string&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>RPad</strong><br /> </td> 
    <td> 右側の完成した文字列を返します<br /> </td> 
-   <td> RPad(&lt;文字列&gt;, &lt;数値&gt;, &lt;文字&gt;)<br /> を参照してください。 </td> 
+   <td> RPad(&lt;string&gt;, &lt;number&gt;, &lt;character&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>置換</strong><br /> </td> 
@@ -676,7 +676,7 @@ ht-degree: 95%
    <td> <strong>構文</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Avg</strong><br /> </td> 
+   <td> <strong>Avg</strong>，平均<br /> </td> 
    <td> 数値列の平均値を返します<br /> </td> 
    <td> Avg(&lt;値&gt;)<br /> </td> 
   </tr> 
@@ -691,7 +691,7 @@ ht-degree: 95%
    <td> CountAll()<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Countdistinct</strong><br /> </td> 
+   <td> <strong>Countdistinct</strong>、個別カウント数<br /> </td> 
    <td> 列内の null 以外のユニーク値をカウントします<br /> </td> 
    <td> Countdistinct(&lt;値&gt;)<br /> </td> 
   </tr> 
@@ -718,7 +718,7 @@ ht-degree: 95%
  </tbody> 
 </table>
 
-## 表現 {#representation}
+## 表示域 {#representation}
 
 表現関数は、値を並べ替える場合に使用します。
 

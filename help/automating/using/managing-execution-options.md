@@ -11,8 +11,8 @@ level: Beginner
 exl-id: b0cc38fe-cf71-4350-8b4e-7daf0bf94066
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 12%
+source-wordcount: '525'
+ht-degree: 8%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 12%
 
 * **[!UICONTROL History in days]**：履歴をパージする必要がある日数を指定します。 履歴には、ワークフローに関する要素 ( ログ、タスク、イベント（ワークフロー操作にリンクされた技術オブジェクト）、および **[!UICONTROL Transfer file]** アクティビティ。 標準のワークフローテンプレートのデフォルト値は 30 日です。
 
-  履歴のパージは、デフォルトで毎日実行されるデータベースクリーンアップテクニカルワークフローによって実行されます ( [テクニカルワークフローのリスト](../../administration/using/technical-workflows.md).)
+  履歴のパージは、データベースクリーンアップテクニカルワークフローによって実行され、デフォルトで毎日実行されます ( [テクニカルワークフローのリスト](../../administration/using/technical-workflows.md).)
 
   >[!IMPORTANT]
   >

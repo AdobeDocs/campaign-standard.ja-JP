@@ -8,7 +8,7 @@ level: Experienced
 exl-id: 01cfa2a0-4ff5-4520-a515-11676de82528
 source-git-commit: 4d67d1d0239c7439cc1f4b8e1fd7fb2f7a99adec
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '194'
 ht-degree: 10%
 
 ---
@@ -34,4 +34,4 @@ Campaign の標準ログテーブルには、事前に設定された保持期�
 * **臨時の事業者**：7 日間
 * **無視されたパイプラインイベント**：1 ヶ月
 * **配信アラート**：1 ヶ月
-* **書き出しの監査**：6 か月 （推奨：1 か月）
+* **監査の書き出し**:6 か月（推奨：1 か月）

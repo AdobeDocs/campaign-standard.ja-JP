@@ -11,7 +11,7 @@ exl-id: d1714101-bad0-40c1-8d60-90469d033197
 source-git-commit: 146dfea38bd456a5d9200b0632d4aa279b10a7b9
 workflow-type: tm+mt
 source-wordcount: '592'
-ht-degree: 14%
+ht-degree: 11%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 14%
 
 ![](assets/des_link_edit.png)
 
-電子メールを編集する際に、 [E メールデザイナー](../../designing/using/designing-content-in-adobe-campaign.md)を使用すると、電子メールに含まれるすべての URL を一覧表示する表から、作成したリンクに簡単にアクセスして変更できます。 このリストを使用すると、一元表示が可能になり、メールコンテンツ内の各 URL を特定できます。アクセスするには、 [トラッキングする URL について](#about-tracked-urls).
+電子メールを編集する際に、 [E メールデザイナー](../../designing/using/designing-content-in-adobe-campaign.md)を使用すると、電子メールに含まれるすべての URL を一覧表示する表から、作成したリンクに簡単にアクセスして変更できます。 このリストを使用すると、一元表示が可能になり、E メールコンテンツ内の各 URL を特定できます。 アクセスするには、 [トラッキングする URL について](#about-tracked-urls).
 
 ![](assets/des_link_list.png)
 

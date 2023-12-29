@@ -1,5 +1,5 @@
 ---
-title: Campaign Standard API を使用する理由?
+title: Campaign StandardAPI を使用する理由
 description: Campaign StandardAPI と、それらを使用する理由について詳しく説明します。
 audience: developing
 content-type: reference
@@ -10,12 +10,12 @@ level: Experienced
 exl-id: ef045e5d-cd02-44a0-9a1e-d468483a38d9
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 3%
+source-wordcount: '472'
+ht-degree: 1%
 
 ---
 
-# Campaign Standard API を使用する理由 {#why-using-campaign-standard-apis}
+# Campaign StandardAPI を使用する理由 {#why-using-campaign-standard-apis}
 
 Adobe Campaign Standardは、既存のシステムを Campaign プラットフォームと統合して、リアルタイムで実際の問題を解決できる API を提供します。
 

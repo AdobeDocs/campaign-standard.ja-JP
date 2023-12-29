@@ -12,7 +12,7 @@ exl-id: f5dcb715-7cbd-49f2-8713-7e16cfa04184
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
 source-wordcount: '653'
-ht-degree: 30%
+ht-degree: 27%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 30%
 
 また、対応するイベント設定画面の左側の領域にあるリンクを使用して、トランザクションメッセージに直接アクセスすることもできます。 詳しくは、 [イベントのプレビューと公開](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)
 
-## トランザクションメッセージのパーソナライズ機能 {#personalizing-a-transactional-message}
+## トランザクションメッセージのパーソナライズ {#personalizing-a-transactional-message}
 
 トランザクションメッセージを編集およびパーソナライズするには、次の手順に従います。
 
@@ -221,12 +221,12 @@ For more on creating a collection and related fields when configuring the event,
 
 相違点を次に示します。
 
-1. [作成したトランザクションメッセージに移動して編集します。](#accessing-transactional-messages)
+1. [トランザクションメッセージに移動](#accessing-transactional-messages) 編集用に作成されたもの。
 1. トランザクションメッセージで、「**[!UICONTROL Content]**」セクションをクリックします。トランザクション E メールテンプレートに加えて、 **[!UICONTROL Profile]** リソース。
 
    ![](assets/message-center_marketing_templates.png)
 
-1. デフォルトの E メールテンプレートを選択します。すべてのマーケティング E メールと同様に、 **購読解除リンク**.
+1. デフォルトの E メールテンプレートを選択します。 すべてのマーケティング E メールと同様に、 **購読解除リンク**.
 
    ![](assets/message-center_marketing_perso_unsubscription.png)
 

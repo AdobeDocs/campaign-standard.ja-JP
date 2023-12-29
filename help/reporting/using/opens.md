@@ -12,13 +12,13 @@ exl-id: 654957b0-98b5-43f2-8699-4531859ef76e
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '64'
-ht-degree: 50%
+ht-degree: 9%
 
 ---
 
 # 開封数{#opens}
 
-**[!UICONTROL Opens]** レポートは、受信者が最も閲覧した配信を特定します。
+The **[!UICONTROL Opens]** レポートは、受信者が最も閲覧した配信を特定します。
 
 ![](assets/delivery_reports_opens.png)
 
@@ -29,4 +29,4 @@ ht-degree: 50%
 * プラットフォーム
 * ドメイン
 
-**[!UICONTROL TOP 5]** のテーブルおよびグラフには、配信されたメッセージの数が最も多い配信が表示されます。
+The **[!UICONTROL TOP 5]** テーブルおよびグラフには、配信されたメッセージの数が最も多い配信が表示されます。

@@ -9,8 +9,8 @@ level: Experienced
 exl-id: aea3e72d-8e89-46c7-a796-bf856414c654
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '688'
-ht-degree: 33%
+source-wordcount: '725'
+ht-degree: 29%
 
 ---
 
@@ -116,7 +116,7 @@ ht-degree: 33%
                   <td> </td>
                </tr>
                <tr>
-                  <td>content</td>
+                  <td>コンテンツ</td>
                   <td>コンテンツ</td>
                   <td>項目 </td>
                   <td> </td>
@@ -142,7 +142,7 @@ ht-degree: 33%
                <tr>
                   <td>created</td>
                   <td>作成日時</td>
-                  <td>date </td>
+                  <td>日付 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -296,15 +296,15 @@ ht-degree: 33%
                   <td> </td>
                </tr>
                <tr>
-                  <td>label</td>
+                  <td>ラベル</td>
                   <td>ラベル</td>
                   <td>文字列 (128)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>lastModified</td>
-                  <td>最終変更日</td>
-                  <td>date </td>
+                  <td>最終変更日時</td>
+                  <td>日付 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -324,14 +324,14 @@ ht-degree: 33%
                </tr>
                <tr>
                   <td>mailParameters</td>
-                  <td>E メールヘッダーのパラメーター</td>
+                  <td>メールヘッダーのパラメーター</td>
                   <td>項目 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>mainDate</td>
                   <td>日付</td>
-                  <td>date </td>
+                  <td>日付 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -662,7 +662,7 @@ ht-degree: 33%
     </tr>
     <tr>
     <td>startDate</td>
-    <td>date</td>
+    <td>日付</td>
     </tr>
     <tr>
     <td>timePeriod</td>
@@ -757,11 +757,11 @@ ht-degree: 33%
     </tr>
     <tr>
     <td>startDate</td>
-    <td>date</td>
+    <td>日付</td>
     </tr>
     <tr>
     <td>endDate</td>
-    <td>date</td>
+    <td>日付</td>
     </tr>
 </table>
 
@@ -774,11 +774,11 @@ ht-degree: 33%
     </tr>
     <tr>
     <td>startDate</td>
-    <td>date</td>
+    <td>日付</td>
     </tr>
     <tr>
     <td>endDate</td>
-    <td>date</td>
+    <td>日付</td>
     </tr>
 </table>
 

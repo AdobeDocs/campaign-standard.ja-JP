@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 0c26a0f9-9d71-4692-ae86-d47e2df53bb7
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '1757'
-ht-degree: 93%
+source-wordcount: '1765'
+ht-degree: 90%
 
 ---
 
@@ -99,7 +99,7 @@ ht-degree: 93%
 
 ![](assets/targeting_dimension5.png)
 
-デフォルトでは、ターゲティングディメンションとリソースはプロファイルをターゲットするために設定されます。ただし、距離テーブル内の特定のレコードを検索する場合は、ターゲティングディメンションとは別のリソースを使用すると便利です。
+デフォルトでは、ターゲティングディメンションとリソースは、プロファイルをターゲティングするために設定されます。 ただし、距離テーブル内の特定のレコードを検索する場合は、ターゲティングディメンションとは別のリソースを使用すると便利です。
 
 詳しくは、次の使用例を参照してください。 [ターゲティングディメンションとは異なるリソースの使用](../../automating/using/using-resources-different-from-targeting-dimensions.md)
 

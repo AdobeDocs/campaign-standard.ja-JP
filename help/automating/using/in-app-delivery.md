@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: 8d5a35c4-e22b-498e-b71c-c5922cf8c2fd
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 43%
+source-wordcount: '693'
+ht-degree: 39%
 
 ---
 
@@ -44,7 +44,7 @@ The **[!UICONTROL In-App delivery]** 「 」アクティビティは、通常、
 
    >[!NOTE]
    >
-   >アクティビティのクイックアクションの ![](assets/dlv_activity_params-24px.png) ボタンを使用して、（配信自体のオプションではなく）アクティビティの一般的なプロパティや詳細設定オプションにアクセスできます。
+   >を使用して、（配信自体のオプションではなく）アクティビティの一般的なプロパティや詳細設定オプションにアクセスできます。 ![](assets/dlv_activity_params-24px.png) ボタンを使用して、アクティビティのクイックアクションを編集できます。
 
    ![](assets/wkf_in_app_3.png)
 

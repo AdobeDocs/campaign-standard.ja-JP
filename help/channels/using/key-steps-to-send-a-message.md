@@ -11,7 +11,7 @@ exl-id: a903d7e2-7654-46b3-bc61-4653a065faad
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '368'
-ht-degree: 14%
+ht-degree: 13%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 14%
 
 各通信チャネルの作成および設定方法に関する具体的な情報は、次の節で確認できます。
 
-* [E メールの作成](../../channels/using/creating-an-email.md)
+* [メールの作成](../../channels/using/creating-an-email.md)
 * [SMS の作成](../../channels/using/creating-an-sms-message.md)
 * [ダイレクトメール配信の作成](../../channels/using/creating-the-direct-mail.md)
 * [プッシュ通知の作成](../../channels/using/preparing-and-sending-a-push-notification.md).
@@ -50,7 +50,7 @@ ht-degree: 14%
 
 ![](assets/steps-audience.png)
 
-## コンテンツの設計とパーソナライズ
+## コンテンツのデザインとパーソナライズ
 
 Adobe Analytics の **[!UICONTROL Content]** データベースのフィールドを使用して、メッセージのコンテンツをブロック、デザインおよびパーソナライズします。 特定のチャネルのコンテンツをデザインする方法について詳しくは、このページの上部にあるセクションを参照してください。
 

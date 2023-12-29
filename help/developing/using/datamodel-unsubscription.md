@@ -38,7 +38,7 @@ ht-degree: 60%
                   <td>False</td>
                </tr>
                <tr>
-                  <td>電子メール</td>
+                  <td>メール</td>
                   <td>False</td>
                   <td>文字列</td>
                   <td>False</td>
@@ -73,7 +73,7 @@ byEmail
     <th>タイプ</th>
     </tr>
     <tr>
-    <td>電子メール</td>
+    <td>メール</td>
     <td>文字列</td>
     </tr>
 </table>

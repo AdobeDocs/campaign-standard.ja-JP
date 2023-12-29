@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 736bf3dc-96c4-4518-96f8-d9aaa46d7f84
 source-git-commit: 53852538ac1e092dc9376119f29d969ed4b02952
 workflow-type: tm+mt
-source-wordcount: '1168'
-ht-degree: 85%
+source-wordcount: '1170'
+ht-degree: 77%
 
 ---
 
@@ -51,10 +51,10 @@ ht-degree: 85%
    * [HTTP](#HTTP-configuration-wf)
    * [SFTP](#SFTP-configuration-wf)
    * [Amazon S3](#S3-configuration-wf)
-   * [Microsoft Azure Blob Storage](#azure-blob-configuration-wf)
-   * [Adobe Campaign サーバーに存在するファイル](#files-server-configuration-wf)
+   * [Microsoft Azure BLOB ストレージ](#azure-blob-configuration-wf)
+   * [Adobe Campaignサーバーに存在するファイル](#files-server-configuration-wf)
 
-1. 選択したプロトコルによっては「**[!UICONTROL Additional options]**」セクションが使用できます。このセクションではプロトコルにパラメータを追加できます。
+1. The **[!UICONTROL Additional options]** 「 」セクションは、選択したプロトコルに応じて使用でき、プロトコルにパラメータを追加できます。
 
    以下を行うことができます。
 
@@ -79,7 +79,6 @@ ht-degree: 85%
 HTTP プロトコルを使用すると、外部アカウントまたは URL からファイルをダウンロードできます。
 
 このプロトコルを使用すると、 **[!UICONTROL Use connection parameters defined in an external account]** オプション。 この場合、目的のアカウントを選択し、ダウンロードするファイルのパスを指定します。
-
 
 ![](assets/wkf_file_transfer_03.png)
 
@@ -121,7 +120,7 @@ Amazon S3 プロトコルを使用すると、Amazon Simple Storage Service（S3
 
 4. 転送の完了時にソースファイルを削除する場合は、「**[!UICONTROL Delete the source files after transfer]**」をオンにします。
 
-### Microsoft Azure Blob Storage を使用した設定 {#azure-blob-configuration-wf}
+### Microsoft Azure BLOB ストレージを使用した設定 {#azure-blob-configuration-wf}
 
 Microsoft Azure Blob プロトコルを使用すると、Microsoft Azure Blob Storage アカウントにある BLOB にアクセスできます。
 
@@ -143,7 +142,7 @@ Microsoft Azure Blob プロトコルを使用すると、Microsoft Azure Blob St
    * **&quot;campaign/new-&quot;**：ファイル名が「new-」で始まり、Campaign フォルダーの下にあるすべての BLOB と一致します。
    * **&quot;&quot;**：空のパスを追加すると、コンテナで使用可能なすべての BLOB と一致します。
 
-### Adobe Campaign サーバー上に存在するファイルを使用した設定 {#files-server-configuration-wf}
+### Adobe Campaignサーバー上に存在するファイルを使用した設定 {#files-server-configuration-wf}
 
 「**[!UICONTROL File(s) present on the Adobe Campaign server]**」プロトコルは、回復するファイルを含むリポジトリに対応します。
 メタ文字、ワイルドカード（例： ） &#42; または？) を使用して、ファイルをフィルターできます。

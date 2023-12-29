@@ -11,7 +11,7 @@ exl-id: af849377-686f-45b3-bf6e-5069a8966987
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '383'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 100%
 >
 >ランディングページプレビューを Campaign ユーザーインターフェイスに表示するには、アプリケーションサーバーの URL がセキュリティで保護されている必要があります。この場合、[ブランドを設定](../../administration/using/branding.md#configuring-and-using-brands)する際に http:// ではなく https:// を使用してこの URL を設定します。
 
-## 有効期限パラメーターの設定 {#setting-up-validity-parameters}
+## 有効性パラメーターの設定 {#setting-up-validity-parameters}
 
 ランディングページを公開する前に、セキュリティ上の理由とプラットフォームのパフォーマンス上の理由により、ランディングページのプロパティで有効期限を設定することを強くお勧めします。選択した日付に達すると、ランディングページは自動的に非公開になります。手順は次のとおりです。
 

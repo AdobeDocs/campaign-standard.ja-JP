@@ -7,8 +7,8 @@ level: Experienced
 exl-id: 404356cd-021f-4739-a88f-b8b1b79e19bc
 source-git-commit: b65bf28565c25072c6a95cebdb999ce38a2e2e1a
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 1%
+source-wordcount: '351'
+ht-degree: 0%
 
 ---
 
@@ -74,7 +74,7 @@ API キーは、自分が管理している組織に対してのみ作成でき�
 }
 ```
 
-* **Adobe.io に対してリクエストを行うと、{&quot;code&quot;:500, &quot;message&quot;:&quot;Oops が表示されます。 エラーが発生しました. URI を確認し、再度お試しください。&quot;}**
+* **Adobe.io に対してリクエストを行うと、{&quot;code&quot;:500, &quot;message&quot;:&quot;Oops が表示されます。 問題が発生しました。 URI を確認し、再度お試しください。&quot;}**
 
 Adobe.io が無効な URI を宣言します。要求している URI が無効な可能性が高くなります。 Adobe.io で Campaign サービスを選択すると、選択ツールに選択可能な organization_ids のリストが表示されます。 選択したものが、URL に配置したものであることを確認する必要があります。
 

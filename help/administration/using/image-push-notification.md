@@ -1,5 +1,5 @@
 ---
-title: Adobe Campaign Standard のプッシュ通知からの画像の表示
+title: Adobe Campaign Standardのプッシュ通知からの画像の表示
 description: iOSデバイスでAdobe Campaignのプッシュ通知から画像を表示する方法を説明します
 audience: channels
 feature: Instance Settings
@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 474c8002-4263-4617-9480-6a9b603bde8e
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 18%
+source-wordcount: '414'
+ht-degree: 12%
 
 ---
 
@@ -35,7 +35,7 @@ Experience CloudSDK アプリケーションでプッシュ通知を送信する
 
 Adobe Campaign では、プッシュ通知のデザイン中に一連の詳細設定オプションにアクセスして、プッシュ通知を微調整することができます。
 
-1. プッシュ通知の作成. 詳しくは、この[ページ](../../channels/using/preparing-and-sending-a-push-notification.md)を参照してください。
+1. プッシュ通知を作成します。 詳しくは、この[ページ](../../channels/using/preparing-and-sending-a-push-notification.md)を参照してください。
 
 1. プッシュ通知コンテンツページから、 **[!UICONTROL Advanced options]** 」セクションに入力します。
 

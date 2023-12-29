@@ -8,8 +8,8 @@ level: Experienced
 exl-id: b983d0a3-c345-44d4-bc82-202bf6ed26ab
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '568'
-ht-degree: 2%
+source-wordcount: '574'
+ht-degree: 1%
 
 ---
 
@@ -63,7 +63,7 @@ Adobe Experience Platform Mobile SDK は、追加の設定なしで、Android �
 
   このシナリオでは、クリックとオープンが発生します。 このクリックを追跡することは、開封を追跡するために必要な実装の一部です。 詳しくは、 [オープントラッキングの実装](#implement-open-tracking).
 
-### iOS の場合 {#implement-click-tracking-ios}
+### iOS向け {#implement-click-tracking-ios}
 
 クリックの追跡情報を送信するには、以下を追加する必要があります。
 
@@ -164,7 +164,7 @@ private void handleTracking() {
 }
 ```
 
-### iOS の場合 {#implement-open-tracking-ios}
+### iOS向け {#implement-open-tracking-ios}
 
 ```
 import os.log

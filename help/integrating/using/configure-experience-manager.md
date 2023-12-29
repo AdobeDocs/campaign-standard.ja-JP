@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: f56f5a19-6283-4eef-8127-c69a16a42a37
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 12%
+source-wordcount: '314'
+ht-degree: 8%
 
 ---
 
@@ -31,7 +31,8 @@ Adobe Campaign StandardとAdobe Experience Managerのこの統合により、Ado
 
 ## Adobe Campaign Standardでの設定 {#config-acs}
 
-2 つのソリューションを同時に使用するには、相互接続を設定する必要があります。Adobe Campaign を設定するには：
+これら 2 つのソリューションを同時に使用するには、相互に接続するように設定する必要があります。
+Adobe Campaign を設定するには：
 
 1. 最初に、 **[!UICONTROL Adobe Experience Manager instance]** 下の外部アカウント **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL External accounts menu]**.
 

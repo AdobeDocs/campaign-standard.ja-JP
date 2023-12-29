@@ -11,7 +11,7 @@ level: Intermediate
 exl-id: e73e2069-e86d-4be2-bf73-22e6dc164340
 source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
 workflow-type: tm+mt
-source-wordcount: '1071'
+source-wordcount: '1079'
 ht-degree: 2%
 
 ---
@@ -24,7 +24,7 @@ Adobe Campaign StandardとMicrosoft Dynamics 365 のセルフサービス統合�
 
 統合ツールを使用する前に、統合に関連する概念とガードレールを理解し、アクセス権を取得するための最初の手順を実行する必要があります。
 
-詳しくは、次の節を参照してください。
+詳しくは、以下の節を参照してください。
 
 * [Microsoft Dynamics 365 統合の概要](../../integrating/using/d365-acs-get-started.md)
 * [統合のベストプラクティスと制限事項](../../integrating/using/d365-acs-notices-and-recommendations.md)
@@ -35,10 +35,10 @@ Adobe Campaign StandardとMicrosoft Dynamics 365 のセルフサービス統合�
 
 統合アプリがデータにアクセスできるように、Microsoft Dynamics 365 とAdobe Campaign Standardを設定する必要があります。 Dynamics 365、Adobe Campaign Standard、およびAdobe I/Oでの設定には時間がかかりますが、設定後は、セルフサービス統合アプリケーションのユーザーインターフェイスを使用して統合を制御できます。
 
-詳しくは、次の節を参照してください。
+詳しくは、以下の節を参照してください。
 
-* [Campaign 統合用の Microsoft Dynamics 365 の設定](../../integrating/using/d365-acs-configure-d365.md)
-* [Adobe I/O の設定](../../integrating/using/d365-acs-configure-adobe-io.md)
+* [Campaign 統合用のMicrosoft Dynamics 365 の設定](../../integrating/using/d365-acs-configure-d365.md)
+* [設定Adobe I/O](../../integrating/using/d365-acs-configure-adobe-io.md)
 * [Campaign のカスタムリソースとMicrosoft Dynamics 365 カスタムエンティティのマッピング](../../integrating/using/d365-acs-notices-and-recommendations.md)
 
 ## セルフサービス統合アプリを設定するための主な手順 {#self-service-app-configuration-steps}
@@ -102,7 +102,7 @@ Adobe Analytics の **[!UICONTROL Microsoft Dynamics 365 to Campaign]** ペー�
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-ingress-top-pointers.png)
 
-Adobe Analytics の **[!UICONTROL Edit Table Mapping]** ページで、 **[!UICONTROL Mappings]** 「 」セクションを使用して、Microsoft Dynamics 365 のフィールドが Campaign の正しいフィールドにマッピングされていることを確認してください。 他のマッピングを追加する必要がある場合は、今すぐ追加し、置換やフィルターも追加します。 [詳細情報](../../integrating/using/d365-acs-self-service-app-data-sync.md)
+Adobe Analytics の **[!UICONTROL Edit Table Mapping]** ページで、 **[!UICONTROL Mappings]** 「 」セクションを使用して、Microsoft Dynamics 365 のフィールドが Campaign の正しいフィールドにマッピングされていることを確認してください。 他のマッピングを追加する必要がある場合は、今すぐ追加し、置換やフィルターも追加します。 [詳細情報](../../integrating/using/d365-acs-self-service-app-data-sync.md)。
 
 新しいマッピングを追加する場合は、 [この節](../../integrating/using/d365-acs-self-service-app-data-sync.md#add-a-new-mapping) を参照してください。
 

@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 53da6c4e-d4fb-4677-acff-744e3eb10960
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 45%
+source-wordcount: '214'
+ht-degree: 40%
 
 ---
 
@@ -69,14 +69,14 @@ ht-degree: 45%
                </tr>
                <tr>
                   <td>count</td>
-                  <td>Count</td>
+                  <td>カウント</td>
                   <td>整数 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>countDate</td>
                   <td>カウント日</td>
-                  <td>date </td>
+                  <td>日付 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -88,7 +88,7 @@ ht-degree: 45%
                <tr>
                   <td>created</td>
                   <td>作成日時</td>
-                  <td>date </td>
+                  <td>日付 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -118,7 +118,7 @@ ht-degree: 45%
                <tr>
                   <td>expirationDate</td>
                   <td>有効期限</td>
-                  <td>date </td>
+                  <td>日付 </td>
                   <td> </td>
                </tr>
                <tr>
@@ -152,15 +152,15 @@ ht-degree: 45%
                   <td> </td>
                </tr>
                <tr>
-                  <td>label</td>
+                  <td>ラベル</td>
                   <td>ラベル</td>
                   <td>文字列 (128)</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>lastModified</td>
-                  <td>最終変更日</td>
-                  <td>date </td>
+                  <td>最終変更日時</td>
+                  <td>日付 </td>
                   <td> </td>
                </tr>
                <tr>

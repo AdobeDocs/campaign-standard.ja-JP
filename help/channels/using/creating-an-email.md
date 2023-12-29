@@ -1,5 +1,5 @@
 ---
-title: E メールの作成
+title: メールの作成
 description: Adobe Campaignで単一送信 E メールを作成するには、次の手順に従います。
 audience: channels
 content-type: reference
@@ -10,14 +10,14 @@ level: Beginner
 exl-id: 4483e469-0a2b-494d-b768-950168759727
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 19%
+source-wordcount: '567'
+ht-degree: 15%
 
 ---
 
-# E メールの作成{#creating-an-email}
+# メールの作成{#creating-an-email}
 
-E メールは、 [campaign](../../start/using/marketing-activities.md#creating-a-marketing-activity)(Adobe Campaignから ) [ホームページ](../../start/using/interface-description.md#home-page)、または [マーケティングアクティビティリスト](../../start/using/marketing-activities.md#about-marketing-activities). ワークフローから 1 回限りの電子メールや定期的な電子メールを作成することもできます。
+E メールは、 [campaign](../../start/using/marketing-activities.md#creating-a-marketing-activity)(Adobe Campaignから ) [ホームページ](../../start/using/interface-description.md#home-page)、または [マーケティングアクティビティリスト](../../start/using/marketing-activities.md#about-marketing-activities). また、ワークフローから単一送信 E メールと繰り返し E メールを作成することもできます。
 
 ![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](#video)
 
@@ -59,7 +59,7 @@ E メールは、 [campaign](../../start/using/marketing-activities.md#creating-
 
    事前定義済みのコンテンツテンプレートを使用して、またはDreamweaverやAdobe Experience Managerを使用して、メッセージを直接デザインできます。 デザイナーのような気がしない場合は、準備済みのコンテンツをアップロードしたり、URL から既存のコンテンツを読み込んだりすることもできます。 詳しくは、[既存のコンテンツの選択](../../designing/using/using-existing-content.md)を参照してください。
 
-1. メッセージのプレビュー. [メッセージのプレビュー](../../sending/using/previewing-messages.md)を参照してください。
+1. メッセージをプレビューします。 [メッセージのプレビュー](../../sending/using/previewing-messages.md)を参照してください。
 1. E メールの作成を確認します。
 
    >[!NOTE]

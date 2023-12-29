@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: dccb9545-0d7e-4d40-9a8f-2915b4da99a7
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 100%
+source-wordcount: '251'
+ht-degree: 98%
 
 ---
 
@@ -45,6 +45,6 @@ ht-degree: 100%
 
 ## 例 {#example}
 
-年齢が 18～27 歳で無効な E メールアドレスを持っているプロファイルを Adobe Campaign データベースからフィルターするように設定した 2 つのクエリアクティビティの例を以下に示します。以降、E メールアドレスが無効なプロファイルが、最初のセットから除外されます。これにより、E メールの送信といった操作ができるようになります。
+年齢が 18～27 歳で無効なメールアドレスを持っているプロファイルを Adobe Campaign データベースからフィルターするように設定した 2 つのクエリアクティビティの例を以下に示します。以降、メールアドレスが無効なプロファイルが、最初のセットから除外されます。これにより、メールの送信といった操作ができるようになります。
 
 ![](assets/wkf_exclusion_example.png)

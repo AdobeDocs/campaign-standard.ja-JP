@@ -48,7 +48,7 @@ Campaign Standardでは、メッセージを送信する前にプレビューし
 **関連トピック**
 
 * [テストプロファイルの管理](../../audiences/using/managing-test-profiles.md)
-* [ターゲットプロファイルを使用した E メールメッセージのテスト](../../sending/using/testing-messages-using-target.md)
+* [ターゲットプロファイルを使用したメールメッセージのテスト](../../sending/using/testing-messages-using-target.md)
 * [配達確認の送信](../../sending/using/sending-proofs.md)
 
 ## SMS メッセージのプレビュー {#previewing-sms}

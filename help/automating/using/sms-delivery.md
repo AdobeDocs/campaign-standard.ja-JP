@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 65d3f3d8-039d-4188-a6a4-0065724aa82b
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '784'
-ht-degree: 100%
+source-wordcount: '785'
+ht-degree: 93%
 
 ---
 
@@ -26,8 +26,8 @@ ht-degree: 100%
 
 「**[!UICONTROL SMS delivery]**」アクティビティでは、ワークフローでの SMS の送信を設定できます。これは、1 回だけ送信する単一送信 SMS か、繰り返し送信 SMS のどちらかです。
 
-* **単一送信の SMS メッセージは、1 回だけ送信される標準の SMS です。**
-* **繰り返し送信の SMS メッセージでは、一定の期間にわたって様々なターゲットに向けて同じ SMS を何度も送信することができます。**&#x200B;期間ごとの配信を集計して、ニーズに応じたレポートを取得できます。
+* **単一送信** SMS メッセージは、1 回だけ送信される標準の SMS です。
+* **定期** SMS メッセージを使用すると、定義した期間に同じ SMS を異なるターゲットに複数回送信できます。 期間ごとの配信を集計して、ニーズに応じたレポートを取得できます。
 
 ## 使用状況 {#context-of-use}
 

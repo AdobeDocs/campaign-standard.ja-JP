@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 0a71e3a7-60e6-49ec-af2e-099ad0d69a15
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 90%
+source-wordcount: '338'
+ht-degree: 76%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 90%
 
 この節では、 **[!UICONTROL Query]** アクティビティ。 の使用方法の詳細 **[!UICONTROL Query]** アクティビティ： [この節](../../automating/using/query.md).
 
-## シンプルなプロファイルの属性のターゲティング {#targeting-on-simple-profile-attributes}
+## シンプルなプロファイル属性のターゲティング {#targeting-on-simple-profile-attributes}
 
 次の例は、ロンドンに居住している 18～30 歳の男性をターゲットするように設定されたクエリアクティビティを示しています。
 
@@ -28,11 +28,11 @@ ht-degree: 90%
 
 ## E メールの属性のターゲティング {#targeting-on-email-attributes}
 
-次の例は、E メールアドレスドメインが「orange.co.uk」のプロファイルをターゲットするように設定されたクエリアクティビティを示しています。
+次の例は、メールアドレスドメインが「orange.co.uk」のプロファイルをターゲットするように設定されたクエリアクティビティを示しています。
 
 ![](assets/query_sample_emaildomain.png)
 
-次の例は、E メールアドレスを提供したプロファイルをターゲットするように設定されたクエリアクティビティを示しています。
+次の例は、メールアドレスを提供したプロファイルをターゲットするように設定されたクエリアクティビティを示しています。
 
 ![](assets/query_sample_emailnotempty.png)
 

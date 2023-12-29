@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: fac29bc2-57fa-40f9-a160-cd75f695b91e
 source-git-commit: affd4f9716235a283df20de5539e43c4832762f7
 workflow-type: tm+mt
-source-wordcount: '480'
-ht-degree: 36%
+source-wordcount: '475'
+ht-degree: 33%
 
 ---
 
@@ -27,7 +27,7 @@ Cookie の使用を許可するチェックボックスが付いた認証リク�
 
 Adobe Campaign は、次の 2 つのタイプの Cookie を使用します。
 
-* セッション Cookie （nlid）：連絡先に送信される E メールの識別子（broadlogId）およびメッセージテンプレートの識別子（deliveryId）が含まれています。Adobe Campaign が送信した E メールに含まれている URL を連絡先のユーザーがクリックすると追加され、この連絡先での web 上の行動をトラッキングできるようになります。このセッション Cookie は、ブラウザーが閉じられると自動的に消去されます。連絡先のユーザーは、Cookie を拒否するようにブラウザーを設定できます。
+* セッション Cookie (nlid)。 連絡先に送信されるメールの識別子（broadlogId）およびメッセージテンプレートの識別子（deliveryId）が含まれています。Adobe Campaign が送信したメールに含まれている URL を連絡先のユーザーがクリックすると追加され、この連絡先での web 上の行動をトラッキングできるようになります。このセッション Cookie は、ブラウザーが閉じられると自動的に消去されます。連絡先のユーザーは、Cookie を拒否するようにブラウザーを設定できます。
 * Adobe Experience Cloudソリューション間で共有される cookie。 これにより、Web サイトの訪問時に Experience Cloud ソリューションとやり取りするユーザーを識別できます。この Cookie の説明については、[こちら](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html)を参照してください。
 
 Adobe Campaign Standardを使用したトラッキングでは、次の機能にアクセスできます。
@@ -51,7 +51,7 @@ Adobe Campaign Standardを使用したトラッキングでは、次の機能に
           <a href="../../reporting/using/tracking-indicators.md"><img width="60px" alt="条件" src="assets/icon_report.png"/></a>
 </tr>
 <tr>
-<td>E メールトラッキング</td>
+<td>メールトラッキング</td>
 <td>プッシュトラッキング</td>
 <td>トラッキングする URL</td>
 <td>トラッキングログ</td>
@@ -65,7 +65,7 @@ The **[!UICONTROL Tracking logs]** 「 」タブには、この配信のトラ�
 
 >[!NOTE]
 >
->配信トラッキングが有効になっていない場合、このタブは表示されません。トラッキングログは、 **電子メール** および **プッシュ通知** チャネルのみ。
+>配信のトラッキングが有効になっていない場合、このタブは表示されません。 トラッキングログは、 **電子メール** および **プッシュ通知** チャネルのみ。
 
 ![](assets/tracking_logs.png)
 

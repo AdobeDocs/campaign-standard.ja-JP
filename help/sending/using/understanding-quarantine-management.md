@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: ed269751-78ab-4189-89d9-116bf42c0c90
 source-git-commit: eec8c66d4947e04cd0eb3dcf0f09d395d9db68b9
 workflow-type: tm+mt
-source-wordcount: '1429'
-ht-degree: 58%
+source-wordcount: '1442'
+ht-degree: 54%
 
 ---
 
@@ -19,15 +19,15 @@ ht-degree: 58%
 
 ## 強制隔離について {#about-quarantines}
 
-例えば、メールボックスの容量が超過している場合や、アドレスが存在しない場合などに、E メールアドレスや電話番号を強制隔離できます。
+例えば、メールボックスの容量が超過している場合や、アドレスが存在しない場合などに、メールアドレスや電話番号を強制隔離できます。
 
 どのような場合でも、強制隔離手順は、この[節](#conditions-for-sending-an-address-to-quarantine)で説明する特定のルールに従います。
 
 ### 強制隔離による配信の最適化 {#optimizing-your-delivery-through-quarantines}
 
-E メールアドレスまたは電話番号が強制隔離されているプロファイルは、メッセージ準備の際に自動的に除外されます（[配信用の強制隔離アドレスの識別](#identifying-quarantined-addresses-for-a-delivery)を参照）。これによって配信が迅速になります。エラー率は配信の速度に大きく影響するからです。
+メールアドレスまたは電話番号が強制隔離されているプロファイルは、メッセージ準備の際に自動的に除外されます（[配信用の強制隔離アドレスの識別](#identifying-quarantined-addresses-for-a-delivery)を参照）。これによって配信が迅速になります。エラー率は配信の速度に大きく影響するからです。
 
-一部のインターネットアクセスプロバイダーは、無効なアドレスの割合が高すぎる場合、E メールを自動的にスパムと見なします。したがって、強制隔離を使用すると、これらのプロバイダーによってブロックリストに追加されるのを回避できます。
+一部のインターネットアクセスプロバイダーは、無効なアドレスの割合が高すぎる場合、メールを自動的にスパムと見なします。したがって、強制隔離を使用すると、これらのプロバイダーによってブロックリストに追加されるのを回避できます。
 
 また、強制隔離は、誤りのある電話番号を配信から除外することで、SMS の送信コスト削減にも役立ちます。
 
@@ -41,7 +41,7 @@ E メールアドレスまたは電話番号が強制隔離されているプロ
 
   強制隔離されたアドレスまたは電話番号は、[除外ログ](#identifying-quarantined-addresses-for-a-delivery)（配信の場合）または[強制隔離リスト](#identifying-quarantined-addresses-for-the-entire-platform)（プラットフォーム全体の場合）に表示されます。
 
-* 一方、**ブロックリスト**&#x200B;への登録では、特定のチャネルを購読解除（オプトアウト）した後などは、**プロファイル**&#x200B;は配信のターゲットとなりません。例えば、メールチャネルのブロックリストのプロファイルに 2 つのメールアドレスがある場合、両方のアドレスが配信から除外されます。プロブロックリストに加えるセスについて詳しくは、 [Campaign のオプトインとオプトアウトについて](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+* 一方、**ブロックリスト**&#x200B;への登録では、特定のチャネルを購読解除（オプトアウト）した後などは、**プロファイル**&#x200B;は配信のターゲットとなりません。例えば、E メールチャネルの上のプロブロックリストに加えるファイルに 2 つの E メールアドレスがある場合、両方のアドレスが配信から除外されます。 プロブロックリストに加えるセスについて詳しくは、 [Campaign のオプトインとオプトアウトについて](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
   プロファイルが上にあブロックリストに加えるり、 **[!UICONTROL No longer contact (on denylist)]** プロファイルのセクション **[!UICONTROL General]** タブをクリックします。 詳しくは、[この節](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md#managing-opt-in-and-opt-out-from-a-profile)を参照してください。
 
@@ -101,7 +101,7 @@ This menu lists quarantined elements for **Email**, **SMS** and **Push notificat
 
 ### 自動更新 {#unquarantine-auto}
 
-特定の条件に一致するアドレスは、データベースクリーンアップワークフローによって強制隔離リストから自動的に削除されます。テクニカルワークフローについて詳しくは、 [この節](../../administration/using/technical-workflows.md#list-of-technical-workflows).
+特定の条件に一致するアドレスは、データベースクリーンアップワークフローによって強制隔離リストから自動的に削除されます。 テクニカルワークフローについて詳しくは、 [この節](../../administration/using/technical-workflows.md#list-of-technical-workflows).
 
 次の場合、アドレスは強制隔離リストから自動的に削除されます。
 
@@ -121,7 +121,7 @@ This menu lists quarantined elements for **Email**, **SMS** and **Push notificat
 
 ### 手動更新 {#unquarantine-manual}
 
-アドレスの強制隔離を手動で解除することもできます。 強制隔離リストからアドレスを手動で削除するには、強制隔離リストからアドレスを削除するか、アドレスのステータスを「 」に変更します **[!UICONTROL Valid]**.
+アドレスの強制隔離を手動で解除することもできます。  強制隔離リストからアドレスを手動で削除するには、強制隔離リストからアドレスを削除するか、アドレスのステータスを「 」に変更します **[!UICONTROL Valid]**.
 
 * 次の中からアドレスを選択します： **[!UICONTROL Administration > Channels > Quarantines > Addresses]** リストと選択 **[!UICONTROL Delete element]**.
 
@@ -154,7 +154,7 @@ This menu lists quarantined elements for **Email**, **SMS** and **Push notificat
 Adobe Campaign は、エラーメッセージの選定時に割り当てられた配信エラーのタイプと理由に従って強制隔離を管理します（[配信エラーのタイプと理由](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)および[バウンスメールの選定](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification)を参照）。
 
 * **無視のエラー**：アドレスを強制隔離しません。
-* **ハードエラー**：対応する E メールアドレスがただちに強制隔離されます。
+* **ハードエラー**：対応するメールアドレスがただちに強制隔離されます。
 * **ソフトエラー**：ただちにアドレスが強制隔離されることはありませんが、エラーカウンターがインクリメントされます。詳しくは、[ソフトエラー管理](#soft-error-management)を参照してください。
 
   <!--
@@ -162,11 +162,11 @@ Adobe Campaign は、エラーメッセージの選定時に割り当てられ�
   When a delivery is successful after a retry, the error counter of the address which was prior to that quarantined is reinitialized. The address status changes to **[!UICONTROL Valid]** and it is deleted from the list of quarantines after two days by the **[!UICONTROL Database cleanup]** workflow.
   -->
 
-ユーザーが E メールをスパム（[フィードバックループ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ja#feedback-loops)）と見なした場合、メッセージは、アドビが管理するテクニカルメールボックスに自動的にリダイレクトされます。さらに、その E メールアドレスは自動的に強制隔離され、ステータスが「**[!UICONTROL On denylist]**」となります。このステータスはアドレスのみに適用され、プロファイルはブロックリストに登録されていないので、ユーザーは引き続き SMS メッセージやプッシュ通知を受信します。
+ユーザーがメールをスパム（[フィードバックループ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ja#feedback-loops)）と見なした場合、メッセージは、アドビが管理するテクニカルメールボックスに自動的にリダイレクトされます。さらに、そのメールアドレスは自動的に強制隔離され、ステータスが「**[!UICONTROL On denylist]**」となります。このステータスはアドレスのみに適用され、プロファイルはブロックリストに登録されていないので、ユーザーは引き続き SMS メッセージやプッシュ通知を受信します。
 
 >[!NOTE]
 >
->Adobe Campaign の強制隔離では、大文字と小文字が区別されます。後から再度ターゲットされることのないよう、E メールアドレスは必ず小文字でインポートしてください。
+>Adobe Campaign の強制隔離では、大文字と小文字が区別されます。後から再度ターゲットされることのないよう、メールアドレスは必ず小文字でインポートしてください。
 
 隔離されたアドレスのリスト（[プラットフォーム全体の強制隔離されたアドレスの識別](#identifying-quarantined-addresses-for-the-entire-platform)を参照）の「**[!UICONTROL Error reason]**」フィールドは、選択したアドレスが強制隔離された理由を示します。
 
@@ -181,4 +181,4 @@ Adobe Campaign は、エラーメッセージの選定時に割り当てられ�
 <!--In the default configuration, the threshold is set at five errors, where two errors are significant if they occur at least 24 hours apart. The address is placed in quarantine at the fifth error.
 The error counter threshold can be modified.-->
 
-最後に重大なエラーが発生したのが 10 日以上前の場合、エラーカウンターが再初期化されます。アドレスのステータスが「**有効**」に変わり、**データベースクリーンアップ**&#x200B;ワークフローが強制隔離のリストからアドレスを削除します。( テクニカルワークフローについて詳しくは、 [この節](../../administration/using/technical-workflows.md#list-of-technical-workflows).)
+最後に重大なエラーが発生したのが 10 日以上前の場合、エラーカウンターが再初期化されます。アドレスのステータスは、 **有効** 強制隔離のリストから、 **データベースのクリーンアップ** ワークフロー。 ( テクニカルワークフローについて詳しくは、 [この節](../../administration/using/technical-workflows.md#list-of-technical-workflows).)

@@ -1,5 +1,5 @@
 ---
-title: フィールドがエンリッチメントされた E メールの送信
+title: フィールドがエンリッチメントされたメールの送信
 description: 次の例は、「ファイル読み込み」アクティビティで外部ファイルから取得した追加データを使用して電子メールを送信する方法を示しています。
 audience: automating
 content-type: reference
@@ -12,17 +12,17 @@ exl-id: 5ca7571d-d4d2-4b59-86d4-4f1f3a620b54
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '351'
-ht-degree: 75%
+ht-degree: 68%
 
 ---
 
-# フィールドがエンリッチメントされた E メールの送信 {#sending-email-enriched-fields}
+# フィールドがエンリッチメントされたメールの送信 {#sending-email-enriched-fields}
 
 <!--A new example showing how to send an email containing additional data retrieved from a load file activity has been added. [Read more](example-2-email-with-enriched-fields)-->
 
-「ファイル読み込み」アクティビティを使用すると、同じワークフロー内の外部ファイルからの追加データを使用して、強化された電子メールを送信することもできます。
+「ファイル読み込み」アクティビティを使用すると、同じワークフロー内の外部ファイルからの追加データを使用して、強化されたメールを送信することもできます。
 
-次の例は、「ファイル読み込み」アクティビティで外部ファイルから取得した追加データを使用して電子メールを送信する方法を示しています。この例では、プロファイルと、関連付けられているアカウント番号のリストが、外部ファイルに格納されています。このデータをインポートして、各プロファイルに、アカウント番号を通知する E メールを送信します。
+次の例は、「ファイル読み込み」アクティビティで外部ファイルから取得した追加データを使用してメールを送信する方法を示しています。この例では、プロファイルと、関連付けられているアカウント番号のリストが、外部ファイルに格納されています。このデータをインポートして、各プロファイルに、アカウント番号を通知するメールを送信します。
 
 ![](assets/load_file_workflow_ex2.png)
 
@@ -42,7 +42,7 @@ ht-degree: 75%
 
    ![](assets/load_file_enrichment_relation.png)
 
-1. 「**[!UICONTROL Additional data]**」タブで、E メールに使用する要素を選択します。次に、アカウント番号（「ファイル読み込み」アクティビティから取得したファイルの列）を選択します。
+1. 「**[!UICONTROL Additional data]**」タブで、メールに使用する要素を選択します。次に、アカウント番号（「ファイル読み込み」アクティビティから取得したファイルの列）を選択します。
 
    ![](assets/load_file_enrichment_select_element.png)
 
@@ -60,12 +60,12 @@ ht-degree: 75%
 
    <!--The Email delivery activity is presented in the [Email delivery](../../automating/using/email-delivery.md) section.-->
 
-1. パーソナライゼーションフィールドを追加し、エンリッチメントアクティビティで定義した追加データ（ここでは「アカウント番号」）を「**[!UICONTROL Additional data (targetData)]**」ノードから選択します。これにより、E メールコンテンツ内の各プロファイルのアカウント番号を動的に取得できます。
+1. パーソナライゼーションフィールドを追加し、エンリッチメントアクティビティで定義した追加データ（ここでは「アカウント番号」）を「**[!UICONTROL Additional data (targetData)]**」ノードから選択します。これにより、メールコンテンツ内の各プロファイルのアカウント番号を動的に取得できます。
 
    ![](assets/load_file_perso_field.png)
 
-1. E メールを保存し、ワークフローを開始します。
+1. メールを保存し、ワークフローを開始します。
 
-E メールがターゲットに送信されます。各プロファイルは、該当するアカウント番号が記載された E メールを受信します。
+メールがターゲットに送信されます。各プロファイルは、該当するアカウント番号が記載されたメールを受信します。
 
 ![](assets/load_file_email.png)

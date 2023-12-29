@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: 7d06cf9c-06b6-4041-8360-4f6bdbd48dd3
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '975'
-ht-degree: 100%
+source-wordcount: '976'
+ht-degree: 97%
 
 ---
 
@@ -167,7 +167,7 @@ Adobe Campaign では、アプリ内メッセージのデザイン中に、一�
 
 1. Apple のモバイルアプリケーションで使用可能な場合は、「**[!UICONTROL Apple options]**」カテゴリの「**[!UICONTROL Category]**」フィールドにカスタムアクションのカテゴリ ID を入力して追加します。
 
-## カスタム HTML メッセージを使用したカスタマイズ {#customizing-with-a-custom-html-message}
+## カスタムメッセージを使用したHTML {#customizing-with-a-custom-html-message}
 
 >[!NOTE]
 >

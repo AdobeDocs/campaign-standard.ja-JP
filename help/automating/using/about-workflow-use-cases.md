@@ -10,7 +10,7 @@ exl-id: 210d1477-9536-4308-bdb7-b9ccfe4c85bc
 source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
 workflow-type: tm+mt
 source-wordcount: '233'
-ht-degree: 86%
+ht-degree: 85%
 
 ---
 
@@ -24,15 +24,15 @@ ht-degree: 86%
 
 <img src="assets/do-not-localize/icon_workflows.svg" width="60px">
 
-* [補完を含んだ配信の作成](../../automating/using/workflow-created-query-with-complement.md)
+* [補集合を含む配信の作成](../../automating/using/workflow-created-query-with-complement.md)
 * [プロファイルの作成日での配信作成](../../automating/using/workflow-creation-date-query.md)
 * [週次配信の作成](../../automating/using/workflow-weekly-offer.md)
 * [クロスチャネル配信の作成](../../automating/using/workflow-cross-channel-delivery.md)
 * [配信前の重複の特定](../../automating/using/identifying-duplicated-before-delivery.md)
 * [誕生日配信](../../automating/using/birthday-delivery.md)
-* [E メールとダイレクトメールの配信の結合](../../automating/using/coupling-email-direct-mail.md)
-* [フィールドがエンリッチメントされた E メールの送信](../../automating/using/sending-email-enriched-fields.md)
-* [追加データによる E メールのパーソナライズ](../../automating/using/personalizing-email-with-additional-data.md)
+* [メールとダイレクトメールの配信の結合](../../automating/using/coupling-email-direct-mail.md)
+* [フィールドがエンリッチメントされたメールの送信](../../automating/using/sending-email-enriched-fields.md)
+* [追加データによるメールのパーソナライズ](../../automating/using/personalizing-email-with-additional-data.md)
 * [繰り返しプッシュ通知の送信](../../automating/using/recurring-push-notifications.md)
 
 ## セグメント化とターゲティング {#segmentation-and-targeting}

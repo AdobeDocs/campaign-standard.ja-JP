@@ -11,7 +11,7 @@ exl-id: d0c7dc09-6f2b-4336-b545-7afe3a704164
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '314'
-ht-degree: 12%
+ht-degree: 7%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 12%
 
 既存のプロファイルを編集し、そのプロファイルに関連付けられているデータを参照または変更する手順は、次のとおりです。
 
-1. Adobe Campaign ホームページで、**[!UICONTROL Customer profiles]**&#x200B;カードまたは「**[!UICONTROL Profiles]**」タブをクリックします。
+1. Adobe Campaignのホームページで、 **[!UICONTROL Customer profiles]** カードまたは **[!UICONTROL Profiles]** タブをクリックします。
 1. 連絡先を選択します。
 1. 次をクリック： **[!UICONTROL Edit profile properties]** アイコンをクリックして、プロファイルの詳細情報にアクセスします。
 
@@ -37,7 +37,7 @@ ht-degree: 12%
 
 プロファイルの編集は、Adobe Campaign Standard API を使用しておこなうこともできます。 詳しくは、[該当するドキュメント](../../api/using/updating-profiles.md)を参照してください。
 
-関連トピック:
+関連トピック：
 
 * [Integrated Customer Profile](../../audiences/using/integrated-customer-profile.md)
 * [受信者のタイムゾーンでの送信](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md)

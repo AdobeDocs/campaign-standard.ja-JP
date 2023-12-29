@@ -12,7 +12,7 @@ exl-id: 9cee2005-a99b-47cb-b573-a25812614409
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '856'
-ht-degree: 86%
+ht-degree: 84%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 86%
 
 このドキュメントでは、標準的な使用例を基に Adobe Campaign のクロスチャネル配信ワークフロー作成機能を紹介します。
 
-ここでは、1 つのグループに E メールを送信し、もう 1 つのグループに SMS メッセージを送信することを目的に、データベースの受信者からオーディエンスを選択し、2 つの別々のグループにセグメント化します。
+ここでは、1 つのグループにメールを送信し、もう 1 つのグループに SMS メッセージを送信することを目的に、データベースの受信者からオーディエンスを選択し、2 つの別々のグループにセグメント化します。
 
 ![](assets/wkf_segment_overview.png)
 
@@ -63,15 +63,15 @@ Adobe Campaign で使用できるワークフローと様々なチャネルの�
 
 ## Segmentation アクティビティの作成 {#creating-segmentation-activity}
 
-クエリアクティビティでターゲットを特定したら、ターゲットを 2 つの別々の母集団にセグメント化する条件を選択する必要があります。一方は E メールを受信し、もう一方は SMS を受信します。
+クエリアクティビティでターゲットを特定したら、ターゲットを 2 つの別々の母集団にセグメント化する条件を選択する必要があります。一方はメールを受信し、もう一方は SMS を受信します。
 
 を使用する必要があります。 [セグメント化](../../automating/using/segmentation.md) 「 」アクティビティを使用して、クエリで upstream を計算した母集団から 1 つ以上のセグメントを作成します。
 
 ![](assets/wkf_segment_activity.png)
 
-**E メール**&#x200B;グループでは、E メールアドレスが定義されているが、携帯電話番号がない受信者をターゲットにします。**SMS** グループには、携帯電話番号がプロファイルに保存されている受信者が含まれます。
+**メール**&#x200B;グループでは、メールアドレスが定義されているが、携帯電話番号がない受信者をターゲットにします。**SMS** グループには、携帯電話番号がプロファイルに保存されている受信者が含まれます。
 
-最初のトランジション（E メール）を設定するには：
+最初のトランジション（メール）を設定するには：
 
 1. デフォルトでは、「**[!UICONTROL Segments]**」タブに最初のセグメントが表示されます。プロパティを編集して、そのセグメントを設定します。
 
@@ -89,7 +89,7 @@ Adobe Campaign で使用できるワークフローと様々なチャネルの�
 
    ![](assets/wkf_segment_mobile_empty.png)
 
-   E メールが定義されているが、携帯電話番号が定義されていないクエリからのプロファイルはすべて、このトランジションに含まれます。
+   メールが定義されているが、携帯電話番号が定義されていないクエリからのプロファイルはすべて、このトランジションに含まれます。
 
 1. ワークフローをより明確にするために、トランジションラベルを編集できます。変更を確認します。
 
@@ -118,7 +118,7 @@ Adobe Campaign を使用すると、ワークフローに配信を追加でき�
 
 ![](assets/wkf_segment_deliveries1.png)
 
-E メール配信を作成するには：
+メール配信を作成するには：
 
 1. ドラッグ&amp;ドロップ [E メール配信](../../automating/using/email-delivery.md) アクティビティを開始します。
 1. アクティビティを編集するには、ダブルクリックします。
@@ -129,9 +129,9 @@ E メール配信を作成するには：
 
    送信トランジションでは、母集団とトラッキングログを回復できます。例えば、これを使用して、最初のメールをクリックしなかったユーザーに 2 番目のメールを送信できます。
 
-1. E メールテンプレートを選択し、「**[!UICONTROL Next]**」をクリックします。
-1. E メールのプロパティを入力し、「**[!UICONTROL Next]**」をクリックします。
-1. E メールのレイアウトを作成するには、「**[!UICONTROL Use the Email Designer]**」を選択します。
+1. メールテンプレートを選択し、「**[!UICONTROL Next]**」をクリックします。
+1. メールのプロパティを入力し、「**[!UICONTROL Next]**」をクリックします。
+1. メールのレイアウトを作成するには、「**[!UICONTROL Use the Email Designer]**」を選択します。
 1. コンテンツを編集して保存します。
 1. Adobe Analytics の **[!UICONTROL Schedule]** 「 」セクションで、 **[!UICONTROL Request confirmation before sending messages]** オプション。
 
@@ -154,4 +154,4 @@ SMS 配信を作成するには：
 
 ワークフローを実行するには、アクションバーの「**[!UICONTROL Start]**」ボタンをクリックします。
 
-Adobe Campaign ロゴの、**[!UICONTROL Marketing plans]**／**[!UICONTROL Marketing activities]** 詳細設定メニューから、配信にアクセスできます。配信をクリックし、「**[!UICONTROL Reports]**」ボタンをクリックすると、配信の概要、開封率、受信者の受信ボックスに基づく E メールのレンダリングなどの[配信レポート](../../reporting/using/about-dynamic-reports.md#accessing-dynamic-reports)にアクセスできます。
+Adobe Campaign ロゴの、**[!UICONTROL Marketing plans]**／**[!UICONTROL Marketing activities]** 詳細設定メニューから、配信にアクセスできます。配信をクリックし、「**[!UICONTROL Reports]**」ボタンをクリックすると、配信の概要、開封率、受信者の受信ボックスに基づくメールのレンダリングなどの[配信レポート](../../reporting/using/about-dynamic-reports.md#accessing-dynamic-reports)にアクセスできます。

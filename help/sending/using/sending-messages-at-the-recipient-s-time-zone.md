@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: 48f222bd-9c2f-4eeb-a12b-bbfc62119024
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '377'
 ht-degree: 88%
 
 ---
@@ -27,8 +27,8 @@ ht-degree: 88%
 
 次の例では、バレンタインデーでのみ有効なプロモーションコードを世界中のすべての顧客に送信します。当日、時間的に余裕を持ってコードを利用できるように、すべての顧客が自分のタイムゾーンの 2 月 14 日午前 8 時にメッセージを受け取る必要があります。
 
-1. 「**[!UICONTROL Marketing activities]**」タブで、配信（この例では E メール）の作成を開始します。配信の作成について詳しくは、[こちらの節](../../channels/using/creating-an-email.md)を参照してください。
-1. バレンタインデーの E メールをデザインしたら、「**[!UICONTROL Create]**」をクリックして配信ダッシュボードにアクセスします。E メールのデザインについて詳しくは、[こちらのページ](../../designing/using/personalization.md#example-email-personalization)を参照してください。
+1. 「**[!UICONTROL Marketing activities]**」タブで、配信（この例ではメール）の作成を開始します。配信の作成について詳しくは、[こちらの節](../../channels/using/creating-an-email.md)を参照してください。
+1. バレンタインデーのメールをデザインしたら、「**[!UICONTROL Create]**」をクリックして配信ダッシュボードにアクセスします。メールのデザインについて詳しくは、[こちらのページ](../../designing/using/personalization.md#example-email-personalization)を参照してください。
 
    ![](assets/send-time_opt_valentine_1.png)
 
@@ -44,7 +44,7 @@ ht-degree: 88%
 
    プロファイルの「**[!UICONTROL Time zone]**」を「**[!UICONTROL Default]**」のままにしておくと、受信者はここで選択されたタイムゾーンで配信を受け取ります。
 
-1. ドロップダウンメニュー&#x200B;**[!UICONTROL Optimize the sending time per recipient]**&#x200B;から、「**[!UICONTROL Send at the recipient's time zone]**」を選択します。これで、受信者は自分のタイムゾーンの 2 月 14 日にバレンタインデーの E メールを受け取ることができます。
+1. ドロップダウンメニュー&#x200B;**[!UICONTROL Optimize the sending time per recipient]**&#x200B;から、「**[!UICONTROL Send at the recipient's time zone]**」を選択します。これで、受信者は自分のタイムゾーンの 2 月 14 日にバレンタインデーのメールを受け取ることができます。
 
    ![](assets/send-time_opt_valentine_3.png)
 

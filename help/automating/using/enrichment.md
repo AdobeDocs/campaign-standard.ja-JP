@@ -11,8 +11,8 @@ level: Intermediate
 exl-id: c8af67b0-6789-4b4e-9d01-e2dfa14f1e8f
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 96%
+source-wordcount: '546'
+ht-degree: 95%
 
 ---
 
@@ -69,4 +69,4 @@ ht-degree: 96%
 
 1. アクティビティの設定を確認し、ワークフローを保存します。
 
-これで、**[!UICONTROL Enrichment]**&#x200B;の後に接続されたアクティビティでデータが使用できるようになりました。例えば、E メールコンテンツのパーソナライゼーションフィールドエクスプローラーの「**[!UICONTROL Additional data (targetData)]**」リンクの下に表示されます。
+これで、**[!UICONTROL Enrichment]**&#x200B;の後に接続されたアクティビティでデータが使用できるようになりました。例えば、メールコンテンツのパーソナライゼーションフィールドエクスプローラーの「**[!UICONTROL Additional data (targetData)]**」リンクの下に表示されます。

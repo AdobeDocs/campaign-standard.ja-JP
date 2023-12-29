@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: ecf88c7d-6729-4b3a-85c4-60427bb57442
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '709'
-ht-degree: 84%
+source-wordcount: '657'
+ht-degree: 78%
 
 ---
 
@@ -47,21 +47,21 @@ ht-degree: 84%
  <tbody> 
   <tr> 
    <td> Adobe Experience Manager<br /> </td> 
-   <td> E メールコンテンツや Adobe Campaign データベースにマッピングされたフォームを Adobe Experience Manager で直接作成することができます。<br /> </td> 
+   <td> メールコンテンツや Adobe Campaign データベースにマッピングされたフォームを Adobe Experience Manager で直接作成することができます。<br /> </td> 
    <td> 
      <a href="../../integrating/using/integrating-with-experience-manager.md">Campaign とExperience Managerの使用</a>, <a href="https://helpx.adobe.com/jp/experience-manager/6-4/sites/administering/using/campaignstandard.html">統合Experience ManagerとCampaign Standard</a>, <a href="https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html">Experience Managerとキャンペーンを含む E メールの作成</a> 
     </td> 
   </tr> 
   <tr> 
    <td> Adobe Target<br /> </td> 
-   <td> Adobe Campaign で作成、送信された E メールが開封されたときに Adobe Target が動的に自動生成した画像を挿入することができます。<br /> </td> 
+   <td> Adobe Campaign で作成、送信されたメールが開封されたときに Adobe Target が動的に自動生成した画像を挿入することができます。<br /> </td> 
    <td> 
     <a href="../../integrating/using/about-campaign-target-integration.md">Campaign と Target の使用</a>, <a href="https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html?lang=ja">Campaign と Target の統合</a>, <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">リアルタイムでの電子メール画像のパーソナライズ</a> ビデオ（手順 3）
     </td> 
   </tr> 
   <tr> 
    <td> Adobe Analytics<br /> </td> 
-   <td> E メール配信の成功を Adobe Analytics で直接追跡できます。<br /> </td> 
+   <td> メール配信の成功を Adobe Analytics で直接追跡できます。<br /> </td> 
    <td> 
     <a href="../../integrating/using/about-campaign-analytics-integration.md">Analytics との Campaign データの共有</a>、<a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">Campaign で統合レポートを作成するための KPI の共有</a>ビデオ（手順 1）
     </td> 
@@ -72,13 +72,13 @@ ht-degree: 84%
    <td> <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">People コアサービス（プロファイルとオーディエンス）</a><br /> </td> 
   </tr> 
    <tr> 
-   <td> アドビのリアルタイムカスタマーデータプラットフォーム（RTCDP）<br /> </td> 
-   <td> Adobe Campaign とアドビのリアルタイムカスタマーデータプラットフォーム（RTCDP）の統合により、セグメントデータを共有し、オーディエンスを Adobe Campaign にインポートできます。</td>
+   <td> Adobe Real-time Customer Data Platform(RTCDP)<br /> </td> 
+   <td> Adobe CampaignとAdobe Real-time Customer Data Platform(RTCDP) の統合により、セグメントデータを共有し、オーディエンスをAdobe Campaignにインポートできます。</td>
    <td><a href="../../integrating/using/get-started-sources-destinations.md">ソースと宛先の概要</a></td>
   </tr> 
   <tr> 
    <td> AdobeAssets コアサービスと Assets On Demand<br /> </td> 
-   <td> Adobe Campaign で作成した E メールとランディングページに Adobe Experience Cloud ライブラリからアセットを挿入することができます。<br /> </td> 
+   <td> Adobe Campaign で作成したメールとランディングページに Adobe Experience Cloud ライブラリからアセットを挿入することができます。<br /> </td> 
    <td> <a href="../../integrating/using/working-with-campaign-and-assets-core-service.md">Assets コアサービス</a>と Assets On Demand<br /> </td> 
   </tr> 
   <tr> 
@@ -87,20 +87,20 @@ ht-degree: 84%
    <td> <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">Campaign および Points of Interest データを利用した位置情報マーケティングメッセージの送信</a>（Analytics for Mobile）<br /> </td> 
   </tr> 
   <tr> 
-   <td> Adobe Experience Cloud トリガー<br /> </td> 
-   <td> Adobe Analytics によって Web サイト上で追跡される特定の行動に応じて、Adobe Campaign を使用して顧客にパーソナライズされた E メールを送信できます。<br /> </td> 
+   <td> Adobe Experience Cloud Triggers<br /> </td> 
+   <td> Adobe Analytics によって Web サイト上で追跡される特定の行動に応じて、Adobe Campaign を使用して顧客にパーソナライズされたメールを送信できます。<br /> </td> 
    <td> 
     <a href="../../integrating/using/about-adobe-experience-cloud-triggers.md">Campaign Standard での Experience Cloud Triggers の使用</a>、<a href="../../integrating/using/abandonment-triggers-use-cases.md">離脱トリガー（Campaign の使用例）</a>、<a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">サイトアクティビティに基づくリマーケティングメッセージのトリガー</a>ビデオ（手順 2）
     </td> 
   </tr> 
     <tr> 
-   <td> Adobe Journey Orchestration<br /> </td> 
+   <td> AdobeJourney Orchestration<br /> </td> 
    <td> 標準のアクションを使用して、AdobeJourney OrchestrationのコンテキストでAdobe Campaign Standardのトランザクションメッセージ機能を使用して、E メール、プッシュ通知、SMS を送信できます。<br /> </td> 
    <td> <a href="https://experienceleague.adobe.com/docs/journeys/using/action-journeys/working-with-adobe-campaign.html">AdobeJourney OrchestrationとAdobe Campaign Standardの使用</a><br /> </td> 
   </tr> 
   <tr> 
    <td> Adobe Dreamweaver<br /> </td> 
-   <td> Dreamweaver で E メールコンテンツを編集し、Adobe Campaign と同期できます。<br /> </td> 
+   <td> Dreamweaver でメールコンテンツを編集し、Adobe Campaign と同期できます。<br /> </td> 
    <td> 
     <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=ja">Dreamweaverでパーソナライズされた E メールを作成</a> ビデオ、 <a href="https://helpx.adobe.com/jp/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Dreamweaverの Campaign 拡張機能を使用する</a> 
   </td> 

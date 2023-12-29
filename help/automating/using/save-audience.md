@@ -12,7 +12,7 @@ exl-id: c3f029d7-779e-47e7-a925-1e8f672da4dd
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '803'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 100%
    * **[!UICONTROL Create a new audience]**：作成するオーディエンスの名前を入力します。オーディエンスの作成日時が、オーディエンス名に自動的に追加されます。これにより、ワークフローが実行されるたびにオーディエンスが一意になります。
    * **[!UICONTROL Share in Adobe Experience Cloud]**：ターゲットプロファイルがあり、オーディエンスを Adobe Experience Cloud に書き出す場合は、このオプションを選択し、その後既存の共有オーディエンスを選択するか、新しいオーディエンスを作成します。
 
-     また、データが Adobe Experience Cloud で正しく調整されるように、オーディエンスに含まれるデータのリソースに対応する **[!UICONTROL Shared Data source]** を選択します。
+     また、データが Adobe Experience Cloud で正しく紐付けられるように、オーディエンスに含まれるデータのリソースに対応する **[!UICONTROL Shared Data source]** を選択します。
 
      このオプションを使用した場合、共有オーディエンスは **[!UICONTROL Audiences]** メニューから使用できる Adobe Campaign オーディエンスのリストに追加されません。
 

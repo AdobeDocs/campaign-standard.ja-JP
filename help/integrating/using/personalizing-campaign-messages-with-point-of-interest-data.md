@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: fcc79829-902d-4547-87c5-8a213e1257b7
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '262'
 ht-degree: 10%
 
 ---
@@ -61,6 +61,6 @@ Adobe Campaignでは、モバイルアプリケーションの購読者から収
 
 **関連トピック：**
 
-* [E メールの作成](../../channels/using/creating-an-email.md)
+* [メールの作成](../../channels/using/creating-an-email.md)
 * [コンテンツの定義](../../designing/using/personalization.md#example-email-personalization)
 * [メッセージの送信](../../sending/using/confirming-the-send.md)

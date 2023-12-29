@@ -10,8 +10,8 @@ level: Intermediate
 exl-id: a8d15053-c20f-4334-a732-3b36cb00794d
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 31%
+source-wordcount: '334'
+ht-degree: 22%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 31%
 <td><img src="assets/do-not-localize/icon_custom.svg" width="60px"><p><a href="#custom-resources">カスタムリソース</a></p></td><td><img src="assets/do-not-localize/icon_api.svg" width="60px"><p><a href="#custom-resources">API の操作</a></p></td></tr>
 </table>
 
-フィールドとリソースをカスタマイズして Campaign Standard データモデルを拡張し、統合された 1 つのビューで、あらゆるデータモデルの変更を監視します。
+独自のフィールドとリソースを使用してCampaign Standardデータモデルを拡張し、すべてのデータモデルの変更を 1 つのビューで監視します。
 
 ## データモデル {#data-model}
 

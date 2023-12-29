@@ -8,8 +8,8 @@ level: Experienced
 exl-id: 6605203e-78f8-4ebd-b256-a621a3a9d638
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1198'
-ht-degree: 82%
+source-wordcount: '1171'
+ht-degree: 81%
 
 ---
 
@@ -93,8 +93,8 @@ Adobe Campaign インターフェイスで **[!UICONTROL Administration]** メ�
 
 実行できる主なタスクは次のとおりです。
 
-* [プログラムとキャンペーンの管理](../../start/using/programs-and-campaigns.md)：様々な種類のアクティビティ（E メール、SMS メッセージ、プッシュ通知、ワークフロー、ランディングページ）を含むマーケティングキャンペーンを作成します。
-* [プロファイル](../../audiences/using/about-profiles.md)および[テストプロファイル](../../audiences/using/managing-test-profiles.md)の管理：配信のターゲットとなる特定の受信者およびテスト受信者を管理します。姓名、連絡先情報、購読、E メールなどの情報を追加します。
+* [プログラムとキャンペーンの管理](../../start/using/programs-and-campaigns.md)：様々な種類のアクティビティ（メール、SMS メッセージ、プッシュ通知、ワークフロー、ランディングページ）を含むマーケティングキャンペーンを作成します。
+* [プロファイル](../../audiences/using/about-profiles.md)および[テストプロファイル](../../audiences/using/managing-test-profiles.md)の管理：配信のターゲットとなる特定の受信者およびテスト受信者を管理します。姓名、連絡先情報、購読、メールなどの情報を追加します。
 * [メッセージの作成と送信](../../sending/using/confirming-the-send.md)：メッセージの作成、オーディエンスの選択、メッセージの内容とパーソナライゼーション要素の定義、配達確認の送信、オーディエンスへの最終メッセージの送信をおこないます。
 * [ランディングページの作成と公開](../../channels/using/getting-started-with-landing-pages.md)：購読フォームや購読解除フォームなど、クライアントにオファーする一連のサービスを作成および管理します。
 * [キャンペーンワークフローの作成と実行](../../automating/using/building-a-workflow.md)：ワークフローを使用してキャンペーンプロセスを自動化します。
@@ -114,7 +114,7 @@ Adobe Campaign インターフェイスで **[!UICONTROL Administration]** メ�
 
    ![](assets/create_user_2.png)
 
-1. 「**[!UICONTROL User details]**」タブで、E メールアドレスや姓名などのユーザーの詳細情報を入力します。
+1. 「**[!UICONTROL User details]**」タブで、メールアドレスや姓名などのユーザーの詳細情報を入力します。
 
    ![](assets/create_user_3.png)
 
@@ -124,7 +124,7 @@ Adobe Campaign インターフェイスで **[!UICONTROL Administration]** メ�
 
    ![](assets/create_user_4.png)
 
-ユーザーが作成されます。ユーザーは E メールを受け取り、下のウィンドウにリダイレクトされます。このウィンドウでは、ユーザーはパスワードを設定して利用規約に同意する必要があります。これで、ユーザーは Adobe Campaign Standard インスタンスに接続できるようになります。
+ユーザーが作成されます。ユーザーはメールを受け取り、下のウィンドウにリダイレクトされます。このウィンドウでは、ユーザーはパスワードを設定して利用規約に同意する必要があります。これで、ユーザーは Adobe Campaign Standard インスタンスに接続できるようになります。
 
 ![](assets/create_user_5.png)
 
