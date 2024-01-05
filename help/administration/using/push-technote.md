@@ -6,16 +6,16 @@ feature: Push
 role: Admin
 level: Experienced
 exl-id: e273b443-7c43-482b-8f86-60ada4b57cbf
-source-git-commit: 1d8baca669235be10d373d985ea62f6f014c16f8
+source-git-commit: ac4a52263482557a6d5c370af6df5d54a42671b4
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 33%
+source-wordcount: '338'
+ht-degree: 25%
 
 ---
 
 # プッシュ通知チャネルの今後の変更 {#push-upgrade}
 
-Campaign を使用して、Android およびiOSデバイスでプッシュ通知を送信できます。 これを実行するには、Campaign を特定の購読サービスに依存させます。Android Firebase Cloud Messaging（FCM）サービスに対するいくつかの重要な変更は、2024 年にリリースする予定であり、Adobe Campaign の実装に影響を与えます。また、iOSアプリの場合、Adobeは、管理者に証明書の設定を許可する方法を変更しています。
+Campaign を使用して、Android およびiOSデバイスでプッシュ通知を送信できます。 これを実行するには、Campaign を特定の購読サービスに依存させます。Android Firebase Cloud Messaging(FCM) サービスに対する重要な変更の一部は、2024 年 24 月 1 日の冬リリースでリリースされ、Adobe Campaignの実装に影響を与えます。 また、iOSアプリの場合、Adobeは、管理者に証明書の設定を許可する方法を変更しています。
 
 ## 変更点 {#push-changes}
 
@@ -27,7 +27,7 @@ Google のサービス向上への継続的な取り組みの一環として、�
 
 ### iOS {#push-ios}
 
-また、Adobeは、iOSプッシュ通知チャネル用にAdobe Campaign Standardをアップグレードし、管理者がiOSアプリケーション用の証明書を設定できる方法を変更します。 管理者は、Adobe Campaign Standardのユーザーインターフェイスを使用して、iOS証明書をアップロードする必要があります。
+また、Adobeは、iOSプッシュ通知チャネル用にAdobe Campaign Standardをアップグレードし、管理者がiOSアプリケーション用の証明書を設定できる方法を変更します。 2024 年 2 月 24 日以降のリリースでは、管理者は、Adobe Campaign Standardのユーザーインターフェイスを通じて、モバイルアプリケーションプロパティにiOS証明書をアップロードする必要があります。
 
 ## 影響の有無 {#push-impact}
 
@@ -35,7 +35,7 @@ Campaign Standardユーザーは、オーディエンスにプッシュ通知メ
 
 ## 移行方法 {#push-migration}
 
-これらの更新は、モバイルCampaign Standardの設定と権限管理に影響するので、チャネルビルドのアップグレードが必要です。
+これらの更新は、モバイルチャネルの設定と権限管理に影響を与えるので、Campaign Standardビルドを 24.1 2024 年冬リリースにアップグレードする必要があります。
 
 移行プロセスをスムーズに進めるため、詳細な手順が近日中に提供されます。
 

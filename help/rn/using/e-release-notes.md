@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: 602aca18af81625b9756a8f2020b5bc636199b96
+source-git-commit: ac4a52263482557a6d5c370af6df5d54a42671b4
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 68%
+source-wordcount: '159'
+ht-degree: 52%
 
 ---
 
@@ -33,7 +33,10 @@ ht-degree: 68%
 
 Adobe Campaign Standard 24.1 は、HTTP v1 API を使用して Android プッシュ通知メッセージを送信し、今後の FCM の変更との互換性を確保します。 詳しくは、[このテクニカルノート](../../administration/using/push-technote.md)を参照してください。
 
+Adobe Campaign Standard 24.1 で、iOSのプッシュ通知用に p8 認証証明書がサポートされるようになりました。 これらの変更をアクティブ化するには、実装を適応させる必要があります。 詳しくは、[このテクニカルノート](../../administration/using/push-technote.md)を参照してください。
+
 
 ### 修正点 {#e-rn-fixes}
 
+* 30 日後にバウンス E メールアドレスが強制隔離から削除されない問題を修正しました。 （CAMP-52977）
 * 次のエラーで配信アラートワークフローが停止する問題を修正しました。 `division by zero`. （CAMP-49786）
