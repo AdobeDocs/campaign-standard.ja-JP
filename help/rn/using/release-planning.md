@@ -8,9 +8,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: 311fdf000333c03cb3b21fc6fea786251ced045f
+source-git-commit: 7678628193f025ae9bfe4c70afe0cb5f0bbc4a4d
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '464'
 ht-degree: 100%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 ## リリース 24.1 - 2024年冬リリース {#release-24-1-release}
 
-このリリースに関する詳細は、ステージング環境のアップグレードが開始される 1 週間前に[リリースノート](release-notes.md)で確認できます。
+このリリースについて詳しくは、[初期のリリースノート](e-release-notes.md)を参照してください。
 
 <table>
  <thead>
