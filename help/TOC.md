@@ -1,18 +1,18 @@
 ---
 audience: end-user
 user-guide-title: Campaign Standard
-user-guide-description: Campaign Standard の使用に必要な主要な機能、タスク、設定、その他のリソースに関するヘルプセンター。
+user-guide-description: Adobe Campaign Standardの製品ドキュメント。
 title: Campaign Standard ガイド
-breadcrumb-title: Adobe Campaign Standard ドキュメント
-source-git-commit: 54910a648abfcf479562d7b66792976ae0aa37cc
+breadcrumb-title: Campaign Standard ドキュメント
+source-git-commit: 604ca02130bdc92d26cebdff32617fa6b3495a1a
 workflow-type: tm+mt
-source-wordcount: '1777'
-ht-degree: 100%
+source-wordcount: '1766'
+ht-degree: 99%
 
 ---
 
 
-# Adobe Campaign Standard ヘルプ {#using}
+# Adobe Campaign Standard ドキュメント {#using}
 
 + [Campaign Standard ドキュメント](campaign-standard-home.md)
 + [最新の更新](rn/using/documentation-updates.md)
