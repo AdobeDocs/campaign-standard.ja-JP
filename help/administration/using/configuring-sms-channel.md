@@ -6,9 +6,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5ff1d636-eac7-4909-be16-4f4b439b19ff
-source-git-commit: 6c96a5d294c6e96d20571d176898290c9c026f0b
+source-git-commit: b023e07c337e3352b8d1e26254ce342e0d560a27
 workflow-type: tm+mt
-source-wordcount: '1596'
+source-wordcount: '1595'
 ht-degree: 89%
 
 ---
@@ -27,7 +27,7 @@ SMS メッセージを送信するには、管理者が **[!UICONTROL Administra
 
 **[!UICONTROL SMS routing via SMPP]** 外部アカウントはデフォルトで提供されていますが、他のアカウントを追加すると便利です。
 
-SMPP プロトコルを使用する場合、新しい外部アカウントを作成することもできます。SMS のプロトコルと設定について詳しくは、この[テクニカルノート](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol.html)を参照してください。
+SMPP プロトコルを使用する場合、新しい外部アカウントを作成することもできます。SMS のプロトコルと設定について詳しくは、この[テクニカルノート](../../administration/using/sms-protocol.md)を参照してください。
 
 1. **[!UICONTROL Administration > Application settings > External accounts]** で新しい外部アカウントを作成します。
 1. アカウントタイプを **[!UICONTROL Routing]** として定義し、チャネルを　**[!UICONTROL Mobile (SMS)]** として定義します。配信モードは **[!UICONTROL Bulk delivery]** として定義します。
