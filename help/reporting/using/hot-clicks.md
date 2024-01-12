@@ -9,20 +9,24 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 5af37156-e93b-4ae9-9856-053364f211ef
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: d0ef11f26a52603107af28231d70821b44753abb
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '496'
 ht-degree: 0%
 
 ---
 
 # ホットクリック{#hot-clicks}
 
+>[!IMPORTANT]
+>
+>ホットクリック数レポートは、電子メールのHTMLバージョンのみを示し、テキストバージョンはサポートしていません。
+
 このレポートは、 **[!UICONTROL Reports]** ボタンをクリックします。
 
 ![](assets/delivery_reports_hot-clicks_4.png)
 
-メッセージの内容 (HTMLやテキスト ) と各リンクでのクリック率が表示されます。
+各リンクでのクリック率と共に、メッセージコンテンツが表示されます。
 
 ![](assets/delivery_reports_10.png)
 
