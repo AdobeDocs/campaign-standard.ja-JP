@@ -4,9 +4,9 @@ user-guide-title: Campaign Standard
 user-guide-description: Adobe Campaign Standardの製品ドキュメント。
 title: Campaign Standard ガイド
 breadcrumb-title: Campaign Standard ドキュメント
-source-git-commit: 604ca02130bdc92d26cebdff32617fa6b3495a1a
+source-git-commit: 64e3bb463497548d6fbae80f00b8c963b65c4f40
 workflow-type: tm+mt
-source-wordcount: '1766'
+source-wordcount: '1769'
 ht-degree: 99%
 
 ---
@@ -20,6 +20,7 @@ ht-degree: 99%
    + [最新リリース](rn/using/release-notes.md)
    + [早期リリースノート](rn/using/e-release-notes.md)
    + 以前のリリース {#previous-releases}
+      + [リリースノート 2023](rn/using/release-notes-2023.md)
       + [リリースノート 2022](rn/using/release-notes-2022.md)
       + [リリースノート 2021](rn/using/release-notes-2021.md)
       + [リリースノート 2020](rn/using/release-notes-2020.md)

@@ -5,16 +5,20 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: cd1650801bf31edc99d93901da232ff618673eed
+source-git-commit: 8702a07c50afa82a24b79cf768ab079f6384cf3f
 workflow-type: tm+mt
-source-wordcount: '7240'
-ht-degree: 100%
+source-wordcount: '7258'
+ht-degree: 99%
 
 ---
 
 # ドキュメントの更新{#documentation-updates}
 
 このページでは、Adobe Campaign の[リリースノート](../../rn/using/release-notes.md)に加えて、Adobe Campaign Standard のドキュメントの新規更新をすべて紹介します。
+
+## リリース 24.1 - 2024 年冬 {#release-24-1}
+
+Campaign Standard24.1 Winter 2024 リリースのリリースノートが公開されました。 [詳細情報](release-notes.md)
 
 ## 2023年12月 {#doc-updates-dec-2023}
 

@@ -7,9 +7,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 4b10eb63-3fea-438e-a1a7-25fbf7b0e5b0
-source-git-commit: ac4a52263482557a6d5c370af6df5d54a42671b4
-workflow-type: ht
-source-wordcount: '159'
+source-git-commit: d6421cda301eed85fddf2df7b2d6fc2cf1db96b3
+workflow-type: tm+mt
+source-wordcount: '140'
 ht-degree: 100%
 
 ---
@@ -24,10 +24,6 @@ ht-degree: 100%
 > この内容は、ステージング環境のアップグレード日まで予告なしに変更される場合があります。詳しくは、[リリース計画のページ](../../rn/using/release-planning.md)を参照してください。
 
 ## リリース 24.1 - 2024年冬リリース {#winter-24}
-
->[!AVAILABILITY]
->
->このリリースは、一連の組織のみが使用できます（限定提供）。詳しくは、アドビ担当者にお問い合わせください。
 
 ### 改善点 {#e-rn-improvements}
 

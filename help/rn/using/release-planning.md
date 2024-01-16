@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: 7678628193f025ae9bfe4c70afe0cb5f0bbc4a4d
-workflow-type: ht
-source-wordcount: '464'
-ht-degree: 100%
+source-git-commit: ff6e926b66547632b74e58cc0e419c83a4ea556e
+workflow-type: tm+mt
+source-wordcount: '408'
+ht-degree: 96%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 ## リリース 24.1 - 2024年冬リリース {#release-24-1-release}
 
-このリリースについて詳しくは、[初期のリリースノート](e-release-notes.md)を参照してください。
+このリリースの詳細については、 [リリースノート](release-notes.md) ステージ環境の更新が開始されたとき。
 
 <table>
  <thead>
@@ -47,37 +47,6 @@ ht-degree: 100%
   </tr>
  </tbody>
 </table>
-
-
-## リリース 23.2 - 2023年秋限定リリース {#release-23-2-release}
-
-
->[!AVAILABILITY]
->
->このリリースは、一連の組織のみが使用できます（限定提供）。詳しくは、アドビ担当者にお問い合わせください。
-
-このリリースについて詳しくは、[リリースノート](release-notes.md)を参照してください。
-
-<table>
- <thead>
-  <tr>
-   <th> 環境 </th>
-   <th> 日付 </th>
-  </tr>
- </thead>
- <tbody>
-  <tr>
-   <td>ステージ </td>
-   <td>2023年10月3日～9日（PT） </td>
-  </tr>
-  <tr>
-   <td>実稼動 </td>
-   <td>2023年10月12日～18日（PT） </td>
-  </tr>
- </tbody>
-</table>
-
-その他の質問があれば、[Adobe Client Care](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html) にお問い合わせください。
 
 ## 質問と回答 {#questions-and-answers}
 
