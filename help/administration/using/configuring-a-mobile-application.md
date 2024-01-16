@@ -6,9 +6,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: 630a4d0d0ced73d469fe81431f8bcf954b74cb45
+source-git-commit: 1619e1f434742b89d0f0802c40e82d7b59773a59
 workflow-type: tm+mt
-source-wordcount: '1271'
+source-wordcount: '1307'
 ht-degree: 2%
 
 ---
@@ -153,7 +153,7 @@ Its **[!UICONTROL Property Status]** は、 **[!UICONTROL Ready to configure]**.
      次のアプリケーションの詳細を入力します。
 
       * **アプリ ID (iOS Bundle ID)**：を参照してください。 [Appleドキュメント](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids) バンドル ID の詳細を参照してください。
-      * **iOS証明書 (P8) ファイル**: .p8 認証キーをドラッグ&amp;ドロップします。
+      * **iOS証明書 (P8) ファイル**: .p8 認証キーをドラッグ&amp;ドロップします。 .p8 認証ファイルの生成方法については、 [Apple開発者アカウント](https://developer.apple.com/account/ios/authkey/create).
       * **キー ID**：を参照してください。 [Appleドキュメント](https://developer.apple.com/help/account/manage-keys/get-a-key-identifier/) を参照してください。
       * **iOS Team ID**：を参照してください。 [Appleドキュメント](https://developer.apple.com/help/account/manage-your-team/locate-your-team-id//) を参照してください。iOS Team ID の詳細については、を参照してください。
 
@@ -165,7 +165,7 @@ Its **[!UICONTROL Property Status]** は、 **[!UICONTROL Ready to configure]**.
      次のアプリケーションの詳細を入力します。
 
       * **アプリ ID （Android パッケージ名）**：を参照してください。 [Android ドキュメント](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores) を参照してください。
-      * **Android キー (Json) ファイル**: .json 秘密鍵ファイルをドラッグ&amp;ドロップします。
+      * **Android キー (Json) ファイル**: .json 秘密鍵ファイルをドラッグ&amp;ドロップします。 .json 秘密鍵ファイルの生成方法については、 [Firebase の開発者向けドキュメント](https://firebase.google.com/docs/admin/setup#initialize_the_sdk_in_non-google_environments).
 
         ![](assets/mobile_app_android_config.png)
 +++
