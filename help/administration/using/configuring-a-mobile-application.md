@@ -6,9 +6,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
+source-git-commit: 630a4d0d0ced73d469fe81431f8bcf954b74cb45
 workflow-type: tm+mt
-source-wordcount: '1220'
+source-wordcount: '1271'
 ht-degree: 2%
 
 ---
@@ -146,15 +146,31 @@ Its **[!UICONTROL Property Status]** は、 **[!UICONTROL Ready to configure]**.
 
    イベントは、アプリ内メッセージの作成時に「トリガー」タブで使用できるようになりました。 詳しくは、 [アプリ内メッセージの準備と送信](../../channels/using/preparing-and-sending-an-in-app-message.md).
 
-1. Adobe Analytics の **[!UICONTROL Device-specific settings]** モバイルアプリケーションダッシュボードの「 」セクションで、各デバイスに対して、iOSの証明書や Android のサーバーキーなど、アプリケーションの詳細を指定します。
+1. Adobe Analytics の **[!UICONTROL Device-specific settings]** モバイルアプリケーションダッシュボードの「 」セクションで、各デバイスに対してアプリケーションの詳細を指定します。
 
-   証明書がアップロードされると、アップロードが成功したことを示すメッセージが表示され、証明書の有効期限が表示されます。
+   * +++ iOS向け
 
-   >[!NOTE]
-   >
-   >Adobe Campaign Standardで証明書が正常に追加されると、設定を元に戻すことはできなくなります。MCPNS アプリに追加できる APNS プラットフォームは 1 つ（実稼動またはサンドボックス）だけです。
+     次のアプリケーションの詳細を入力します。
 
-   ![](assets/launch_8.png)
+      * **アプリ ID (iOS Bundle ID)**：を参照してください。 [Appleドキュメント](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids) バンドル ID の詳細を参照してください。
+      * **iOS証明書 (P8) ファイル**: .p8 認証キーをドラッグ&amp;ドロップします。
+      * **キー ID**：を参照してください。 [Appleドキュメント](https://developer.apple.com/help/account/manage-keys/get-a-key-identifier/) を参照してください。
+      * **iOS Team ID**：を参照してください。 [Appleドキュメント](https://developer.apple.com/help/account/manage-your-team/locate-your-team-id//) を参照してください。iOS Team ID の詳細については、を参照してください。
+
+        ![](assets/mobile_app_ios_config.png)
++++
+
+   * +++ Android の場合
+
+     次のアプリケーションの詳細を入力します。
+
+      * **アプリ ID （Android パッケージ名）**：を参照してください。 [Android ドキュメント](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores) を参照してください。
+      * **Android キー (Json) ファイル**: .json 秘密鍵ファイルをドラッグ&amp;ドロップします。
+
+        ![](assets/mobile_app_android_config.png)
++++
+
+1. 証明書がアップロードされると、アップロードが成功したことを示すメッセージが表示され、証明書の有効期限が表示されます。
 
 1. 次をクリック： **[!UICONTROL Mobile application subscribers]** 「 」タブを使用して、購読者のリストと、これらの購読者に関するその他の情報（通知をオプトアウトしたかどうかなど）を確認できます。
 
