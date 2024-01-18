@@ -1,13 +1,13 @@
 ---
 title: リリースノート 2023
-description: このページでは、Adobe Campaign Standardの 2023 年の全リリースの一覧を示します
+description: このページでは、Adobe Campaign Standard の 2023年の全リリースを紹介します。
 feature: Overview
 role: User
 level: Beginner
 source-git-commit: e5feb1c5e66130fc56d53a9473414743017b0003
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '458'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
