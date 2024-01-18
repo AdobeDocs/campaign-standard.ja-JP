@@ -1,13 +1,13 @@
 ---
 audience: end-user
 user-guide-title: Campaign Standard
-user-guide-description: Adobe Campaign Standardの製品ドキュメント。
+user-guide-description: Adobe Campaign Standard に関する製品ドキュメント
 title: Campaign Standard ガイド
 breadcrumb-title: Campaign Standard ドキュメント
 source-git-commit: 64e3bb463497548d6fbae80f00b8c963b65c4f40
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1769'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
