@@ -6,16 +6,18 @@ feature: Push
 role: Admin
 level: Experienced
 exl-id: e273b443-7c43-482b-8f86-60ada4b57cbf
-source-git-commit: ac4a52263482557a6d5c370af6df5d54a42671b4
+source-git-commit: f6190139e474800a88ece6fa7d4c6aa3e296e492
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 25%
+source-wordcount: '352'
+ht-degree: 24%
 
 ---
 
 # プッシュ通知チャネルの今後の変更 {#push-upgrade}
 
 Campaign を使用して、Android およびiOSデバイスでプッシュ通知を送信できます。 これを実行するには、Campaign を特定の購読サービスに依存させます。Android Firebase Cloud Messaging(FCM) サービスに対する重要な変更の一部は、2024 年 24 月 1 日の冬リリースでリリースされ、Adobe Campaignの実装に影響を与えます。 また、iOSアプリの場合、Adobeは、管理者に証明書の設定を許可する方法を変更しています。
+
+[Adobe Campaign Standardでモバイルアプリケーション証明書を設定する方法について詳しく説明します。](configuring-a-mobile-application.md#channel-specific-config)
 
 ## 変更点 {#push-changes}
 
