@@ -9,7 +9,7 @@ feature: Triggers
 role: Data Architect
 level: Intermediate
 exl-id: 9dc75d6a-d79a-49aa-a0c0-b1dd6c144ce6
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: ea69225fdf8b69025ff93b87b5b47ac9095b0eea
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 91%
@@ -30,7 +30,7 @@ Adobe Campaign では、以前に作成したトリガーを選択し、デー�
 
 **関連トピック：**
 
-* トリガーの様々なタイプについて詳しくは、[Adobe Experience Cloud ドキュメント](https://experienceleague.adobe.com/docs/core-services/interface/activation/triggers.html)を参照してください。
+* トリガーの様々なタイプについて詳しくは、[Adobe Experience Cloud ドキュメント](https://experienceleague.adobe.com/docs/core-services/interface/triggers.html)を参照してください。
 * [サイトアクティビティに基づくリマーケティングメッセージのトリガー](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two)に関するビデオを参照してください。
 * 2 つの[放棄トリガーの使用例](../../integrating/using/abandonment-triggers-use-cases.md)を参照してください。
 
