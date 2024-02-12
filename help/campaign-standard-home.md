@@ -3,7 +3,7 @@ keywords: Campaign Standard;home;popular topics
 title: Adobe Campaign Standard 製品ドキュメント
 description: Campaign Standard 製品ドキュメントの参照
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
-source-git-commit: 7dc9871c3fdc12242e22d094907bd48777a9a95a
+source-git-commit: 8b94b632bbc4fc8e190cccb05018043cdeb00fdd
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 100%
@@ -18,9 +18,9 @@ Adobe Campaign Standard 製品とドキュメントの最新の機能強化に�
 
 >[!BEGINTABS]
 
->[!TAB Campaign 23.2 の2月リリースが公開されました。]
+>[!TAB Campaign 24.1 の2月リリースが公開されました。]
 
-Campaign Standard 23.2 リリースの新機能、改善点および修正点について説明します。
+Campaign Standard 24.1 リリースの新機能、改善点および修正点について説明します。
 
 [![画像](assets/do-not-localize/learn-more-button.svg)](rn/using/release-notes.md)
 
