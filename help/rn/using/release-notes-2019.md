@@ -6,7 +6,7 @@ role: User
 level: Beginner
 hidefromtoc: true
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
 workflow-type: tm+mt
 source-wordcount: '7674'
 ht-degree: 9%
@@ -61,7 +61,7 @@ ht-degree: 9%
 * 動的レポートの同意ポップアップが更新され、Adobe Campaign StandardとMicrosoft Dynamics 365 の統合が含まれるようになりました。 利用条件に同意すると、Adobe Campaign Standard/Microsoft Dynamics 365 統合と Dynamic Reporting を使用する際に、プロファイルデータが含まれます。 [詳細を表示](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement) (CAMP-29766)
 * 配信アラートを受け取ったときに、間違ったコンタクト日が表示される問題を修正しました。
 * 不明なコンテキストパラメーターを含むトランザクションメッセージイベントが送信されると、Campaign は、「500」ではなく「400」エラーメッセージを返すようになりました。 （CAMP-28632）
-* 新しい **配達確認を除外** セグメントが動的レポートに追加されました。 このセグメントは、レポートをフィルターするためにデフォルトで選択されるようになりました。 [詳細情報](../../reporting/using/list-of-components-.md#segments)
+* 新しい **配達確認を除外** セグメントが動的レポートに追加されました。 このセグメントは、レポートをフィルターするためにデフォルトで選択されるようになりました。 [詳細情報](../../reporting/using/list-of-components.md#segments)
 * The **メッセージの有効期限** オプションがプッシュ通知に追加されました。 Apple(APNS) または Android(FCM) からメッセージが送信されなくなる有効期限を指定できます。 [詳細情報](../../channels/using/customizing-a-push-notification.md#add-expiration-date)
 * の機能が強化されました。 **ファイルを読み込み** アクティビティ：ワークフローログは、ファイルの読み込みに失敗した場合に発生するエラーに関するより明確で詳細になりました。 をアクティブ化すると生成されるアウトバウンドトランジション **ファイルに却下を保持** オプションの名前が変更されました **却下**. [詳細情報](../../automating/using/load-file.md)
 * アップロードされた CSV ファイルで言語が見つからないことが原因で送信が失敗したことをより深く理解するために、多言語の関連ログが送信ログに追加されました。

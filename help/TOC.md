@@ -4,7 +4,7 @@ user-guide-title: Campaign Standard
 user-guide-description: Adobe Campaign Standard に関する製品ドキュメント
 title: Campaign Standard ガイド
 breadcrumb-title: Campaign Standard ドキュメント
-source-git-commit: 64e3bb463497548d6fbae80f00b8c963b65c4f40
+source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
 workflow-type: tm+mt
 source-wordcount: '1769'
 ht-degree: 100%
@@ -201,7 +201,7 @@ ht-degree: 100%
    + レポートについて {#about-reporting}
       + [動的レポートについて](reporting/using/about-dynamic-reports.md)
       + [レポートインターフェイス](reporting/using/reporting-interface.md)
-      + [コンポーネントのリスト](reporting/using/list-of-components-.md)
+      + [コンポーネントのリスト](reporting/using/list-of-components.md)
       + [指標の計算](reporting/using/indicator-calculation.md)
       + [トラブルシューティング](reporting/using/troubleshooting.md)
    + レポートのリスト {#list-of-reports}
@@ -233,7 +233,7 @@ ht-degree: 100%
       + [Campaign と Experience Manager の統合について](integrating/using/integrating-with-experience-manager.md)
       + [Campaign と Experience Manager の統合の設定](integrating/using/configure-experience-manager.md)
       + [Adobe Experience Manager でのメールコンテンツの作成](integrating/using/creating-email-experience-manager.md)
-      + [Experience Manager での Campaign フォームの作成](integrating/using/creating-a-campaign-form-in-experience-manager-.md)
+      + [Experience Manager での Campaign フォームの作成](integrating/using/creating-a-campaign-form-in-experience-manager.md)
       + [Adobe Experience Manager との統合による多言語メールの作成](integrating/using/creating-multilingual-email-aem.md)
    + Campaign と Target {#working-with-campaign-and-target}
       + [Campaign と Target の統合について](integrating/using/about-campaign-target-integration.md)
@@ -397,11 +397,11 @@ ht-degree: 100%
       + [データベース構造の更新](developing/using/updating-the-database-structure.md)
       + [リソースの削除](developing/using/deleting-a-resource.md)
       + [複合 ID キーを使用したリソースの呼び出し](developing/using/uc-calling-resource-id-key.md)
-   + ユースケース：API の拡張 {#use-case--extending-the-api}
+   + ユースケース：API の拡張 {#use-case-extending-the-api}
       + [API の拡張について](developing/using/about-extending-the-api.md)
-      + [手順 1：プロファイルリソースに拡張フィールドを追加する](developing/using/step-1--add-extension-fields-to-the-profile-resource.md)
-      + [手順 2：拡張機能を公開する](developing/using/step-2--publish-the-extension.md)
-      + [手順 3：拡張機能を確認する](developing/using/step-3--verify-the-extension.md)
+      + [手順 1：プロファイルリソースに拡張フィールドを追加する](developing/using/step-1-add-extension-fields-to-the-profile-resource.md)
+      + [手順 2：拡張機能を公開する](developing/using/step-2-publish-the-extension.md)
+      + [手順 3：拡張機能を確認する](developing/using/step-3-verify-the-extension.md)
    + ユースケース：リソースの拡張 {#use-cases--extending-resources}
       + [新しいフィールドを使用したプロファイルリソースの拡張](developing/using/extending-the-profile-resource-with-a-new-field.md)
       + [アプリケーションリソースの購読の拡張](developing/using/extending-the-subscriptions-to-an-application-resource.md)

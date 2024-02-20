@@ -9,7 +9,7 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 1b91fb97-fe97-4564-936c-438be7ea7bc0
-source-git-commit: fc6788bf62fa66bd43b3e50fb9bc676ccb466078
+source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
 workflow-type: tm+mt
 source-wordcount: '1709'
 ht-degree: 3%
@@ -103,7 +103,7 @@ Adobe Analytics の **[!UICONTROL Fields]** 「 」セクションで、イベ�
 
 トランザクションメッセージのコンテンツをAdobe Campaignデータベースの情報でエンリッチメントして、メッセージをパーソナライズできます。 各受信者の姓または CRM ID から、例えば、住所や生年月日などのデータや、プロファイルテーブルに追加された他のカスタムフィールドなどのデータを収集して、送信される情報をパーソナライズできます。
 
-トランザクションメッセージのコンテンツを拡張された **[!UICONTROL Profile and services Ext API]**. 詳しくは、 [API の拡張：拡張機能の公開](../../developing/using/step-2--publish-the-extension.md)
+トランザクションメッセージのコンテンツを拡張された **[!UICONTROL Profile and services Ext API]**. 詳しくは、 [API の拡張：拡張機能の公開](../../developing/using/step-2-publish-the-extension.md)
 
 この情報は、新しいリソースに保存することもできます。 その場合、リソースは **[!UICONTROL Profile]** または **[!UICONTROL Service]** リソースは、直接または別のテーブルを使用して取得できます。 例えば、以下の設定では、トランザクションメッセージのコンテンツを **[!UICONTROL Product]** リソース（製品カテゴリや ID など） **[!UICONTROL Product]** リソースは **[!UICONTROL Profile]** リソース。
 

@@ -8,7 +8,7 @@ feature: Reporting
 role: Leader
 level: Beginner
 exl-id: fc3b28f3-63f6-4edc-923d-c7eb7925d1b7
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 2%
@@ -62,8 +62,8 @@ ht-degree: 2%
 
 |  | 動的レポート | Microsoft Dynamics 365 コネクタ |
 |---|---|---|
-| アメリカおよび APAC（アジア太平洋） | **使用可能な機能**. <br>すべての標準（市区町村、国/地域、州、性別、年齢ベースのセグメント）とカスタムプロファイル情報が、米国のレポートセンターにプッシュされました。 プロファイルディメンションについて詳しくは、 [ページ](../../reporting/using/list-of-components-.md) | **使用可能な機能**. <br>すべての標準およびカスタムプロファイルフィールドとAdobe Campaign Standardイベントフィールドは、米国のデータセンターで処理されます。 |
-| EMEA（ヨーロッパ中東およびアフリカ） | **使用可能な機能**. <br>標準（市区町村、国/地域、州、性別、年齢ベースのセグメント）と、EMEA レポートセンターにプッシュされたカスタムプロファイル情報。 プロファイルディメンションについて詳しくは、 [ページ](../../reporting/using/list-of-components-.md) | **機能を使用できます。** <br>EMEA データセンターで処理される、すべての標準およびカスタムプロファイルフィールドとAdobe Campaign Standardイベントフィールド。 <br>**[!UICONTROL Control data]**Adobe I/O登録データと、米国のデータセンターで送信および保存される顧客のエンドユーザーイベントの ID が含まれる |
+| アメリカおよび APAC（アジア太平洋） | **使用可能な機能**. <br>すべての標準（市区町村、国/地域、州、性別、年齢ベースのセグメント）とカスタムプロファイル情報が、米国のレポートセンターにプッシュされました。 プロファイルディメンションについて詳しくは、 [ページ](../../reporting/using/list-of-components.md) | **使用可能な機能**. <br>すべての標準およびカスタムプロファイルフィールドとAdobe Campaign Standardイベントフィールドは、米国のデータセンターで処理されます。 |
+| EMEA（ヨーロッパ中東およびアフリカ） | **使用可能な機能**. <br>標準（市区町村、国/地域、州、性別、年齢ベースのセグメント）と、EMEA レポートセンターにプッシュされたカスタムプロファイル情報。 プロファイルディメンションについて詳しくは、 [ページ](../../reporting/using/list-of-components.md) | **機能を使用できます。** <br>EMEA データセンターで処理される、すべての標準およびカスタムプロファイルフィールドとAdobe Campaign Standardイベントフィールド。 <br>**[!UICONTROL Control data]**Adobe I/O登録データと、米国のデータセンターで送信および保存される顧客のエンドユーザーイベントの ID が含まれる |
 
 下の表は、お住まいの地域に応じてこの契約を却下した後の結果を示しています。 この契約に同意しない場合でも、配信とMicrosoft Dynamics 365 統合に関するレポートは引き続き使用できます。
 

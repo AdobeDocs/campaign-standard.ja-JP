@@ -9,7 +9,7 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: b00fdeb9-2431-4209-8a3f-59c7e6ce7c31
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
 workflow-type: tm+mt
 source-wordcount: '1663'
 ht-degree: 98%
@@ -26,7 +26,7 @@ ht-degree: 98%
 * [識別キー](#defining-identification-keys)
 * [インデックス](#defining-indexes)
 * [リンク](#defining-links-with-other-resources)
-* [ログを送信](#defining-sending-logs-extension)
+* [送信ログ](#defining-sending-logs-extension)
 
 ## リソースへのフィールドの追加 {#adding-fields-to-a-resource}
 
@@ -250,7 +250,7 @@ ht-degree: 98%
 
 動的レポートから、カスタムフィールドディメンションをフリーフォームテーブルにドラッグ＆ドロップできます。
 
-動的レポートについて詳しくは、[コンポーネントのリスト](../../reporting/using/list-of-components-.md)を参照してください。
+動的レポートについて詳しくは、[コンポーネントのリスト](../../reporting/using/list-of-components.md)を参照してください。
 
 >[!IMPORTANT]
 >
