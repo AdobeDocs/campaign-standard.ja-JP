@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: a1b947acf70803a7350dd626e697318e0ed35f26
+source-git-commit: 3acca24c9a5616ae993b7e734e2448c3520baf79
 workflow-type: tm+mt
-source-wordcount: '2683'
-ht-degree: 61%
+source-wordcount: '2714'
+ht-degree: 59%
 
 ---
 
@@ -25,11 +25,15 @@ Campaign [管理者](../../administration/using/users-management.md#functional-a
 
 * **許可されたマスクフィールド**
 
-  「**[!UICONTROL Header parameters of sent emails]**」セクションには、承認されたメールアドレスが一覧表示されます。このメールアドレスを使用して、受信者にメールを送信したり、非同期バウンス、不在返信など（エラーアドレス）の自動返信を送信したりできます。Adobe Campaign は、メッセージの準備段階で、入力されたアドレスが有効であるかどうかを確認します。この動作モードでは、配信品質の問題を引き起こす可能性のあるアドレスを一切使用しないようにします。
+  「**[!UICONTROL Header parameters of sent emails]**」セクションには、承認されたメールアドレスが一覧表示されます。このメールアドレスを使用して、受信者にメールを送信したり、非同期バウンス、不在返信など（エラーアドレス）。
+
+  Adobe Campaign は、メッセージの準備段階で、入力されたアドレスが有効であるかどうかを確認します。この動作モードでは、配信品質の問題を引き起こす可能性のあるアドレスを一切使用しないようにします。
+
    * 送信者アドレスとエラーアドレスの両方は Adobe が設定します。これらのフィールドは空にできません。
    * これらのフィールドは編集できません。住所を更新する場合は、Adobe カスタマーケアチームにお問い合わせください。
    * 別のアドレスを追加する場合は、 [キャンペーンCampaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=ja) 新しいサブドメインを設定する場合は、アドビカスタマーケアチームにお問い合わせください。Adobeにお問い合わせください。 複数のマスクを使用する場合は、コンマで区切ります。
-   * *@yourdomain.com のような星形を使用してアドレスを設定することをお勧めします。サブドメイン名で終わる任意のアドレスを使用できます。
+   * アドレスは、 **@yourdomain.com**：サブドメイン名で終わる任意のアドレスを使用できます。
+   * Campaign では、すぐに使用できる、Googleおよび Yahoo がサポートされています **ワンクリック List-Unsubscribe** 機能。 カスタムテンプレートのヘッダー値を変更すると、Google/Yahoo への準拠が失われる可能性があることに注意してください **ワンクリック List-Unsubscribe**.
 
 * **配信品質**
 
