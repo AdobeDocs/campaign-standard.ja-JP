@@ -4,7 +4,7 @@ user-guide-title: Campaign Standard
 user-guide-description: Adobe Campaign Standard に関する製品ドキュメント
 title: Campaign Standard ガイド
 breadcrumb-title: Campaign Standard ドキュメント
-source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
+source-git-commit: 1b218f7f19b0ebc4d77903688e1f2c502d8b5234
 workflow-type: ht
 source-wordcount: '1769'
 ht-degree: 100%
@@ -402,7 +402,7 @@ ht-degree: 100%
       + [手順 1：プロファイルリソースに拡張フィールドを追加する](developing/using/step-1-add-extension-fields-to-the-profile-resource.md)
       + [手順 2：拡張機能を公開する](developing/using/step-2-publish-the-extension.md)
       + [手順 3：拡張機能を確認する](developing/using/step-3-verify-the-extension.md)
-   + ユースケース：リソースの拡張 {#use-cases--extending-resources}
+   + ユースケース：リソースの拡張 {#use-cases-extending-resources}
       + [新しいフィールドを使用したプロファイルリソースの拡張](developing/using/extending-the-profile-resource-with-a-new-field.md)
       + [アプリケーションリソースの購読の拡張](developing/using/extending-the-subscriptions-to-an-application-resource.md)
    + データモデル {#datamodel}
