@@ -6,9 +6,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: 3acca24c9a5616ae993b7e734e2448c3520baf79
+source-git-commit: 3baadaf774092bb48a029e098e8f56170660400b
 workflow-type: tm+mt
-source-wordcount: '2714'
+source-wordcount: '2737'
 ht-degree: 59%
 
 ---
@@ -33,7 +33,6 @@ Campaign [管理者](../../administration/using/users-management.md#functional-a
    * これらのフィールドは編集できません。住所を更新する場合は、Adobe カスタマーケアチームにお問い合わせください。
    * 別のアドレスを追加する場合は、 [キャンペーンCampaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=ja) 新しいサブドメインを設定する場合は、アドビカスタマーケアチームにお問い合わせください。Adobeにお問い合わせください。 複数のマスクを使用する場合は、コンマで区切ります。
    * アドレスは、 **@yourdomain.com**：サブドメイン名で終わる任意のアドレスを使用できます。
-   * Campaign では、すぐに使用できる、Googleおよび Yahoo がサポートされています **ワンクリック List-Unsubscribe** 機能。 カスタムテンプレートのヘッダー値を変更すると、Google/Yahoo への準拠が失われる可能性があることに注意してください **ワンクリック List-Unsubscribe**.
 
 * **配信品質**
 
@@ -294,6 +293,14 @@ SMTP の設定について詳しくは、[メール SMTP パラメーターの�
   >[!IMPORTANT]
   >
   >スクリプトを追加すると、挿入する SMTP ヘッダーを追加できます。これは高度な知識を持つユーザー向けに用意されています。スクリプトの構文は、このコンテンツタイプの要件を満たしている必要があります（不要なスペースや空行を含まないなど）。
+
+  2024 年 6 月 1 日より、Googleと Yahoo! 送信者が次に従うよう求める **ワンクリック List-Unsubscribe**. Campaign は、この機能を（標準で）サポートします。 [この変更の詳細を表示](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#1-click-(list)-unsubscribe%3A){target="_blank"}
+
+  >[!CAUTION]
+  >
+  >ヘッダーの値を **[!UICONTROL Additional SMTP headers]** 電子メールテンプレートのコンプライアンスが崩れる可能性があります **ワンクリック List-Unsubscribe** Googleと Yahoo！からの要件
+
+  <!--Campaign supports, out-of-the-box, Google and Yahoo **One-Click List-Unsubscribe** capability. Be aware that if you modify the header value in custom templates, it could break the compliance with Google/Yahoo **One-Click List-Unsubscribe**.-->
 
 ### アクセス認証パラメーターのリスト {#list-of-access-authorization-parameters}
 
