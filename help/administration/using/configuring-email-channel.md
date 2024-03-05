@@ -6,9 +6,9 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
-source-git-commit: 3baadaf774092bb48a029e098e8f56170660400b
+source-git-commit: 26a1c36003645446fb8b827d76afba749d64e9f2
 workflow-type: tm+mt
-source-wordcount: '2737'
+source-wordcount: '2729'
 ht-degree: 59%
 
 ---
@@ -294,13 +294,11 @@ SMTP の設定について詳しくは、[メール SMTP パラメーターの�
   >
   >スクリプトを追加すると、挿入する SMTP ヘッダーを追加できます。これは高度な知識を持つユーザー向けに用意されています。スクリプトの構文は、このコンテンツタイプの要件を満たしている必要があります（不要なスペースや空行を含まないなど）。
 
-  2024 年 6 月 1 日より、Googleと Yahoo! 送信者が次に従うよう求める **ワンクリック List-Unsubscribe**. Campaign は、この機能を（標準で）サポートします。 [この変更の詳細を表示](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/guidance-around-changes-to-google-and-yahoo.html#1-click-(list)-unsubscribe%3A){target="_blank"}
+  2024 年 6 月 1 日より、Googleと Yahoo! 送信者が次に従うよう求める **ワンクリック List-Unsubscribe**. Campaign では、この機能をすぐに使用できます。
 
   >[!CAUTION]
   >
   >ヘッダーの値を **[!UICONTROL Additional SMTP headers]** 電子メールテンプレートのコンプライアンスが崩れる可能性があります **ワンクリック List-Unsubscribe** Googleと Yahoo！からの要件
-
-  <!--Campaign supports, out-of-the-box, Google and Yahoo **One-Click List-Unsubscribe** capability. Be aware that if you modify the header value in custom templates, it could break the compliance with Google/Yahoo **One-Click List-Unsubscribe**.-->
 
 ### アクセス認証パラメーターのリスト {#list-of-access-authorization-parameters}
 
