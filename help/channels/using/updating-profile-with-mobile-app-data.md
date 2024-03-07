@@ -9,7 +9,7 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: 1b48456e-9aae-485c-a7c4-7e3e2f53cbca
-source-git-commit: b5e98c07ee55cab0b6a628a97162ccd64711501a
+source-git-commit: 21bcc9818b881212985988ef3377687069a1dbea
 workflow-type: tm+mt
 source-wordcount: '1000'
 ht-degree: 2%
@@ -88,7 +88,7 @@ Adobe Analytics の **[!UICONTROL General]** タブ、セット **[!UICONTROL Ex
 
 ### を設定します。 **[!UICONTROL Incremental query]** アクティビティ。
 
-1. Adobe Analytics の **[!UICONTROL Properties]** タブで、 **[!UICONTROL Select an element]** アイコン **[!UICONTROL Resource]** 「 」フィールドで、「 **[!UICONTROL Subscriptions to an application (nms:appSubscriptionRcp:appSubscriptionRcpDetail)]** 要素を選択します。
+1. Adobe Analytics の **[!UICONTROL Properties]** タブで、 **[!UICONTROL Select an element]** アイコン **[!UICONTROL Resource]** 「 」フィールドで、「 **[!UICONTROL Subscriptions to an application (`nms:appSubscriptionRcp:appSubscriptionRcpDetail`)]** 要素を選択します。
 
    ![](assets/update_profile3.png)
 

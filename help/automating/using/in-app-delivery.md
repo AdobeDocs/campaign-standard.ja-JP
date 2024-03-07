@@ -8,7 +8,7 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 8d5a35c4-e22b-498e-b71c-c5922cf8c2fd
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 21bcc9818b881212985988ef3377687069a1dbea
 workflow-type: tm+mt
 source-wordcount: '693'
 ht-degree: 39%
@@ -37,7 +37,7 @@ The **[!UICONTROL In-App delivery]** 「 」アクティビティは、通常、
 
    * ターゲティングディメンションは、次のように設定する必要があります。 **[!UICONTROL mobileApp (mobileAppV5)]** （の） **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]** テンプレート。
    * ターゲティングディメンションは、次のように設定する必要があります。 **[!UICONTROL profile (profile)]** （の） **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]** テンプレート。
-   * ターゲティングディメンションは、次のように設定する必要があります。 **[!UICONTROL subscriptions to an application (nms:appSubscriptionRcp:appSubscriptionRcpDetail)]** （の） **[!UICONTROL Target users based on their Mobile profile (inApp)]** テンプレート。
+   * ターゲティングディメンションは、次のように設定する必要があります。 **[!UICONTROL subscriptions to an application (`nms:appSubscriptionRcp:appSubscriptionRcpDetail`)]** （の） **[!UICONTROL Target users based on their Mobile profile (inApp)]** テンプレート。
 
 1. ワークフローに「**[!UICONTROL In-App delivery]**」アクティビティをドラッグ＆ドロップします。
 1. アクティビティを選択し、表示されるクイックアクションの ![](assets/edit_darkgrey-24px.png) ボタンを使用して開きます。

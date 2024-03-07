@@ -7,10 +7,10 @@ topic-tags: workflow-general-operation
 feature: Workflows
 role: Data Architect
 exl-id: bb651b91-145f-4e87-92dd-a8b04662e380
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 21bcc9818b881212985988ef3377687069a1dbea
 workflow-type: tm+mt
-source-wordcount: '568'
-ht-degree: 75%
+source-wordcount: '563'
+ht-degree: 74%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 75%
 * 区切り記号：タブまたはセミコロン
 * 最初の行は見出し
 * 文字列の区切り記号なし
-* 日付フォーマット：YYYY/MM/DD HH:mm:SS
+* 日付の形式： `YYYY/MM/DD HH:mm:SS`
 
 インポートするファイルの例：
 

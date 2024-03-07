@@ -8,10 +8,10 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: ed269751-78ab-4189-89d9-116bf42c0c90
-source-git-commit: eec8c66d4947e04cd0eb3dcf0f09d395d9db68b9
+source-git-commit: 21bcc9818b881212985988ef3377687069a1dbea
 workflow-type: tm+mt
-source-wordcount: '1442'
-ht-degree: 54%
+source-wordcount: '1430'
+ht-degree: 52%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 54%
 
 * 一方、**ブロックリスト**&#x200B;への登録では、特定のチャネルを購読解除（オプトアウト）した後などは、**プロファイル**&#x200B;は配信のターゲットとなりません。例えば、E メールチャネルの上のプロブロックリストに加えるファイルに 2 つの E メールアドレスがある場合、両方のアドレスが配信から除外されます。 プロブロックリストに加えるセスについて詳しくは、 [Campaign のオプトインとオプトアウトについて](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
 
-  プロファイルが上にあブロックリストに加えるり、 **[!UICONTROL No longer contact (on denylist)]** プロファイルのセクション **[!UICONTROL General]** タブをクリックします。 詳しくは、[この節](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md#managing-opt-in-and-opt-out-from-a-profile)を参照してください。
+  プロファイルが上にあブロックリストに加えるり、 **[!UICONTROL No longer contact (on denylist)]** プロファイルのセクション **[!UICONTROL General]** タブをクリックします。 詳しくは、[このセクション](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md#managing-opt-in-and-opt-out-from-a-profile)を参照してください。
 
 >[!NOTE]
 >
@@ -116,7 +116,7 @@ This menu lists quarantined elements for **Email**, **SMS** and **Push notificat
 
 >[!IMPORTANT]
 >
->アドレスが **[!UICONTROL Quarantine]** または **[!UICONTROL Denylisted]** ステータスは、電子メールを受信した場合でも削除されません。
+アドレスが **[!UICONTROL Quarantine]** または **[!UICONTROL Denylisted]** ステータスは、電子メールを受信した場合でも削除されません。
 
 
 ### 手動更新 {#unquarantine-manual}
@@ -144,8 +144,8 @@ This menu lists quarantined elements for **Email**, **SMS** and **Push notificat
 
   例えば、「support.ISP.com」は「support.apple.com」または「support.google.com」になります
 
-* **ステータスを更新（@lastModified）**（MM/DD/YYYY HH:MM:SS AM 以降）
-* **ステータスを更新（@lastModified）**（MM/DD/YYYY HH:MM:SS PM 以前）
+* **ステータスを更新 (@lastModified)** 以降 `MM/DD/YYYY HH:MM:SS AM`
+* **ステータスを更新 (@lastModified)** 以前  `MM/DD/YYYY HH:MM:SS PM`
 
 影響を受ける受信者のリストが揃ったら、 **[!UICONTROL Update data]** アクティビティのメールアドレスのステータスを次に設定： **[!UICONTROL Valid]** したがって、これらは、 **[!UICONTROL Database cleanup]** ワークフロー。 また、強制隔離テーブルから削除するだけでもかまいません。
 
@@ -166,7 +166,7 @@ Adobe Campaign は、エラーメッセージの選定時に割り当てられ�
 
 >[!NOTE]
 >
->Adobe Campaign の強制隔離では、大文字と小文字が区別されます。後から再度ターゲットされることのないよう、メールアドレスは必ず小文字でインポートしてください。
+Adobe Campaign の強制隔離では、大文字と小文字が区別されます。後から再度ターゲットされることのないよう、メールアドレスは必ず小文字でインポートしてください。
 
 隔離されたアドレスのリスト（[プラットフォーム全体の強制隔離されたアドレスの識別](#identifying-quarantined-addresses-for-the-entire-platform)を参照）の「**[!UICONTROL Error reason]**」フィールドは、選択したアドレスが強制隔離された理由を示します。
 
