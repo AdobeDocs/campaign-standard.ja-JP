@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: 26a1c36003645446fb8b827d76afba749d64e9f2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '136'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Campaign Standard 24.1 では、HTTP v1 API を使用して Android プッ
 
 Adobe Campaign Standard 24.1 では、iOS プッシュ通知の p8 認証証明書をサポートするようになりました。これらの変更をアクティブ化するには、実装を調整する必要があります。詳しくは、[このテクニカルノート](../../administration/using/push-technote.md)を参照してください。
 
-2024 年 6 月 1 日より、Googleと Yahoo! 送信者に対して、ワンクリックでの List-Unsubscribe への準拠を義務付ける予定です。Campaign でこの機能が標準でサポートされるようになりました。 詳しくは、[こちら](../../administration/using/configuring-email-channel.md#email-channel-parameters)を参照してください。
+2024年6月1日（PT）以降、Google と Yahoo! は、ワンクリックでの List-Unsubscribe への準拠を送信者に義務付ける予定です。Campaign では、この機能を標準でサポートするようになりました。詳しくは、[こちら](../../administration/using/configuring-email-channel.md#email-channel-parameters)を参照してください。
 
 ### 修正点 {#e-rn-fixes}
 
