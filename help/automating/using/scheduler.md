@@ -9,7 +9,7 @@ feature: Workflows
 role: Data Architect
 level: Intermediate
 exl-id: 39f7b216-b3cd-4aa6-b5df-23e6805076df
-source-git-commit: 7deb1147febfcc8956768715a65416806752c92f
+source-git-commit: 6107f5e43b25037f7f5a7f130922a3a22d0047af
 workflow-type: tm+mt
 source-wordcount: '877'
 ht-degree: 52%
@@ -107,3 +107,4 @@ ht-degree: 52%
 次の例では、アクティビティは、毎週月曜日の午前 7 時に、未定の期間、ワークフローを週単位で開始するように設定されています。
 
 ![](assets/wkf_scheduler_example.png)
+
