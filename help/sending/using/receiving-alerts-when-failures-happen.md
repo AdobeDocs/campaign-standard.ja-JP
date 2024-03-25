@@ -11,7 +11,7 @@ exl-id: dc8bd1d3-e199-4901-9b1f-7b485879897d
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '2038'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -29,7 +29,7 @@ The **配信アラート** 機能は、配信の実行に関する情報を含�
 * ハードバウンスのエラー率が悪い配信
 * 保留中ステータスが通常より長い配信
 * スループットの低い配信
-* 配信を処理中
+* 配信中
 
 アラートの受信者は、Adobe Campaignが処理している配信を監視し、実行に問題がある場合に適切な対応を取ることができます。
 
@@ -90,7 +90,7 @@ Adobe Campaignインターフェイスから、次の操作を実行できます
 
 これで、配信がこのダッシュボードで定義した条件を満たすたびに、指定したユーザーグループに警告通知が送信されます。
 
-## 配信アラート条件 {#delivery-alerting-criteria}
+## 配信アラート基準 {#delivery-alerting-criteria}
 
 ### アラート条件について {#about-alerting-criteria}
 
@@ -132,7 +132,7 @@ Adobe Campaignインターフェイスから、次の操作を実行できます
 
 **関連トピック：**
 
-* [ログを送信](../../sending/using/monitoring-a-delivery.md#sending-logs)
+* [送信ログ](../../sending/using/monitoring-a-delivery.md#sending-logs)
 * [アラート頻度](#alerting-frequency)
 * [マーケティングアクティビティのアイコンとステータス](../../start/using/marketing-activities.md#marketing-activity-icons-and-statuses)
 

@@ -11,7 +11,7 @@ exl-id: d1575626-55bb-4303-a796-ad323a399330
 source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
 workflow-type: tm+mt
 source-wordcount: '2011'
-ht-degree: 93%
+ht-degree: 94%
 
 ---
 
@@ -386,7 +386,7 @@ ht-degree: 93%
 
 ## その他 {#others}
 
-この表には、残りの使用可能な関数が表示されます。
+以下の表には、上記以外の使用可能な関数が記載されています。
 
 <table> 
  <tbody> 

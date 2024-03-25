@@ -55,7 +55,7 @@ ht-degree: 79%
 
 ## 配信ログ {#delivery-logs}
 
-### ログを送信 {#sending-logs}
+### 送信ログ {#sending-logs}
 
 「**[!UICONTROL Sending logs]**」タブには、この配信のすべての発生履歴が表示されます。送信されたメッセージのリストとそのステータスがここに保存されます。各受信者の配信ステータスを表示できます。
 

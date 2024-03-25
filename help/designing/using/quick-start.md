@@ -1,5 +1,5 @@
 ---
-title: E メールデザイナーの基本を学ぶ
+title: メールデザイナーの基本を学ぶ
 description: E メールデザイナーで E メールコンテンツの作成を開始します。
 audience: designing
 content-type: reference
@@ -15,7 +15,7 @@ ht-degree: 5%
 
 ---
 
-# E メールデザイナーの基本を学ぶ {#quick-start}
+# メールデザイナーの基本を学ぶ {#quick-start}
 
 E メールデザイナーでは、E メールを作成する 4 つの方法が用意されています。
 

@@ -14,7 +14,7 @@ hidefromtoc: true
 source-git-commit: 376f00576ca1d0dfb536b29dbf25d88f7c93b9a8
 workflow-type: tm+mt
 source-wordcount: '335'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -30,7 +30,7 @@ Adobe Campaign Standardが **オーディエンスの宛先** プロファイル
 
 **オーディエンス** 最初のビルで作成 **セグメント**：基本的に、Adobe Experience Platformから顧客プロファイル内のほぼすべての変数（プロファイル、イベント、マルチエンティティデータなど）に基づいて、多次元ターゲットを作成する一連のルールです。 リアルタイム顧客プロファイルとセグメント化サービスに関するグローバルな概念は、次の専用ドキュメントで参照されています。
 
-* [リアルタイム顧客プロファイルの概要](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html)
+* [リアルタイム顧客プロファイルの概要](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja)
 * [セグメント化サービスの概要](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html)
 
 セグメントを作成したら、そのセグメントを、 [Campaign Standardワークフロー](../../integrating/using/aep-targeting-audiences.md). さらに、Adobe Experience Platformからのコンテキストデータを [パーソナライズ](../../integrating/using/aep-personalizing-campaigns.md) キャンペーンに動的コンテンツを追加します。

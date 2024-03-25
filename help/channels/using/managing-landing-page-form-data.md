@@ -12,7 +12,7 @@ exl-id: 7083447c-4cac-41cb-8453-369819e0c7c1
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '835'
-ht-degree: 14%
+ht-degree: 18%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 14%
 
    ![](assets/lp_mandatory-option.png)
 
-   必須フィールドに値が入力されていない場合は、ユーザーがページを送信する際にエラーメッセージが表示されます。
+   必須フィールドが未入力の場合、ユーザーがページを送信するとエラーメッセージが表示されます。
 
 1. クリック **[!UICONTROL Confirm]** をクリックして変更を保存します。
 

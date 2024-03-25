@@ -10,7 +10,7 @@ exl-id: a326b38f-ca88-4a44-a7c2-b6e34497a364
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '222'
-ht-degree: 40%
+ht-degree: 42%
 
 ---
 
@@ -171,7 +171,7 @@ ht-degree: 40%
                </tr>
                <tr>
                   <td>subLandingPage (landingPageSubscriptionBase)</td>
-                  <td>サブスクリプションランディングページ</td>
+                  <td>購読のランディングページ</td>
                   <td>リンク </td>
                   <td> </td>
                </tr>
@@ -219,7 +219,7 @@ ht-degree: 40%
                </tr>
                <tr>
                   <td>unsubLandingPage (landingPageUnsubscriptionBase)</td>
-                  <td>購読解除ランディングページ</td>
+                  <td>登録解除のランディングページ</td>
                   <td>リンク </td>
                   <td> </td>
                </tr>

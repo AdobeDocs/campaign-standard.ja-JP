@@ -11,7 +11,7 @@ exl-id: ed269751-78ab-4189-89d9-116bf42c0c90
 source-git-commit: 21bcc9818b881212985988ef3377687069a1dbea
 workflow-type: tm+mt
 source-wordcount: '1430'
-ht-degree: 52%
+ht-degree: 53%
 
 ---
 
@@ -144,8 +144,8 @@ This menu lists quarantined elements for **Email**, **SMS** and **Push notificat
 
   例えば、「support.ISP.com」は「support.apple.com」または「support.google.com」になります
 
-* **ステータスを更新 (@lastModified)** 以降 `MM/DD/YYYY HH:MM:SS AM`
-* **ステータスを更新 (@lastModified)** 以前  `MM/DD/YYYY HH:MM:SS PM`
+* **更新ステータス（@lastModified）**&#x200B;が `MM/DD/YYYY HH:MM:SS AM` 以降
+* **更新ステータス（@lastModified）**&#x200B;が `MM/DD/YYYY HH:MM:SS PM` 以前
 
 影響を受ける受信者のリストが揃ったら、 **[!UICONTROL Update data]** アクティビティのメールアドレスのステータスを次に設定： **[!UICONTROL Valid]** したがって、これらは、 **[!UICONTROL Database cleanup]** ワークフロー。 また、強制隔離テーブルから削除するだけでもかまいません。
 

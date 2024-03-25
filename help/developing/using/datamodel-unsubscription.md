@@ -57,7 +57,7 @@ ht-degree: 60%
                </tr>
                <tr>
                   <td>serverUrl</td>
-                  <td>True</td>
+                  <td>はい</td>
                   <td>文字列</td>
                   <td>False</td>
                </tr>

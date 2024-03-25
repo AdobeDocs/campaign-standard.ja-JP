@@ -123,7 +123,7 @@ ht-degree: 39%
     </tr>
     <tr>
         <td>接触チャネル</td>
-        <td>起源</td>
+        <td>接触チャネル</td>
         <td>列挙（バイト） </td>
         <td>
             <ul>
