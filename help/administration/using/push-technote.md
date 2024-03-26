@@ -6,7 +6,7 @@ feature: Push
 role: Admin
 level: Experienced
 exl-id: e273b443-7c43-482b-8f86-60ada4b57cbf
-source-git-commit: 2d3210f681bef0f94b7f22f43906ac62b29541f2
+source-git-commit: db035a41515e94836bdfbfc3d620586dc1f5ce31
 workflow-type: tm+mt
 source-wordcount: '1134'
 ht-degree: 37%
@@ -31,7 +31,7 @@ Campaign を使用して、Android およびiOSデバイスでプッシュ通知
 
 Google のサービス向上への継続的な取り組みの一環として、レガシー FCM API は **2024年6月20日（PT）**&#x200B;に廃止されます。Firebase Cloud Messaging HTTP プロトコルについて詳しくは、[Google Firebase ドキュメント](https://firebase.google.com/docs/cloud-messaging/http-server-ref){target="_blank"}を参照してください。
 
-24.2 リリースより、Adobe Campaign Standardは、Android プッシュ通知メッセージを送信する HTTP v1 API をサポートします。
+開始中 [24.1 リリース](../../rn/using/release-notes.md), Adobe Campaign Standardは、Android プッシュ通知メッセージを送信する HTTP v1 API をサポートしています。
 
 ### 影響の有無 {#fcm-impact}
 
@@ -49,7 +49,7 @@ Google のサービス向上への継続的な取り組みの一環として、�
 
 #### 前提条件 {#fcm-transition-prerequisites}
 
-* のサポート **HTTP v1 AP** モードが 24.1 リリースで追加されました。 環境が古いバージョンで実行されている場合、この変更の前提条件は、環境を [最新Campaign Standardリリース](../../rn/using/release-notes.md).
+* のサポート **HTTP v1 API** モードが 24.1 リリースで追加されました。 環境が古いバージョンで実行されている場合、この変更の前提条件は、環境を [最新Campaign Standardリリース](../../rn/using/release-notes.md).
 
 * モバイルアプリケーションを HTTP v1 に移行するには、Android Firebase Admin SDK サービスのアカウント JSON ファイルが必要です。このファイルを取得する方法について詳しくは、[Google Firebase ドキュメント](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}を参照してください。
 
@@ -118,7 +118,7 @@ Adobe Campaign Standardは、トークンベースの接続と証明書ベース
 
 #### 前提条件 {#ios-transition-prerequisites}
 
-* のサポート **トークンベースの認証** モードが 24.1 リリースで追加されました。 環境が古いバージョンで実行されている場合、この変更の前提条件は、環境を [最新Campaign Standardリリース](../../rn/using/release-notes.md).
+* のサポート **トークンベースの認証** モードが [24.1 リリース](../../rn/using/release-notes.md). 環境が古いバージョンで実行されている場合、この変更の前提条件は、環境を [最新Campaign Standardリリース](../../rn/using/release-notes.md).
 
 * サーバーが使用するトークンを生成するには、APNs 認証トークン署名キーが必要です。[Apple 開発者向けドキュメント](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}で説明するように、Apple 開発者アカウントからこのキーをリクエストします。
 

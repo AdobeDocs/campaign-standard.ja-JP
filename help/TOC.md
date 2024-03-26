@@ -4,9 +4,9 @@ user-guide-title: Campaign Standard
 user-guide-description: Adobe Campaign Standard に関する製品ドキュメント
 title: Campaign Standard ガイド
 breadcrumb-title: Campaign Standard ドキュメント
-source-git-commit: 1b218f7f19b0ebc4d77903688e1f2c502d8b5234
+source-git-commit: db035a41515e94836bdfbfc3d620586dc1f5ce31
 workflow-type: tm+mt
-source-wordcount: '1769'
+source-wordcount: '1768'
 ht-degree: 100%
 
 ---
@@ -448,7 +448,7 @@ ht-degree: 100%
       + [Adobe Campaign Standard のユースケースをサポートするタグルールの設定](administration/using/configuring-rules-launch.md)
       + [Adobe Campaign Standard でサポートされるモバイルのユースケース](administration/using/supported-mobile-use-cases.md)
       + [SDK v4 からAdobe Experience Platform SDK にモバイルアプリケーションを移行する方法](administration/using/sdkv4-migration.md)
-      + [プッシュ通知チャネルの今後の変更](administration/using/push-technote.md)
+      + [プッシュ通知チャネルの変更](administration/using/push-technote.md)
    + SMS チャネルの設定 {#configuring-sms}
       + [SMS チャネルの実装](administration/using/configuring-sms-channel.md)
       + [SMS コネクタのプロトコルと設定](administration/using/sms-protocol.md)
