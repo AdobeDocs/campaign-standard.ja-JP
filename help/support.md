@@ -8,10 +8,10 @@ hidefromtoc: true
 role: User
 level: Beginner
 exl-id: b164942b-0f1c-473e-bf78-f10ec3374244
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: afb988281f00dc17b484872259d44f51864d55f1
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 100%
+source-wordcount: '492'
+ht-degree: 96%
 
 ---
 
@@ -115,11 +115,11 @@ Campaign コントロールパネルの FAQ にアクセスするには、[こ�
 
 <img src="start/using/assets/do-not-localize/icon-support.svg" width="60px">
 
-新しいチケット発行システムが [Adobe Admin Console](https://adminconsole.adobe.com/overview) に開設されました。 新しいシステムでは、ユーザーごとに、正しい権限を持つ新しい個別のアカウントが必要です。 Adobe ID でログインできない場合は、Experience League 経由でアクセスをリクエストしてください。カスタマーケアチームが、できるだけ早く設定を行います。 [詳細情報](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
+新しいチケット発行システムが [Adobe Admin Console](https://adminconsole.adobe.com/overview) に開設されました。 新しいシステムでは、ユーザーごとに、正しい権限を持つ新しい個別のアカウントが必要です。 Adobe ID でログインできない場合は、Experience League 経由でアクセスをリクエストしてください。カスタマーケアチームが、できるだけ早く設定を行います。[詳細情報](https://helpx.adobe.com/jp/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
 
 ### エキスパートへの質問
 
-Campaign Classic コミュニティへの参加：既存の質問の回答を検索したり、コミュニティに質問したりできます。 [会話に参加](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
+Campaign コミュニティに参加：既存の質問の回答を検索するか、コミュニティで質問してください。 [会話に参加](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
 ### チケットの作成またはチャットの開始
 

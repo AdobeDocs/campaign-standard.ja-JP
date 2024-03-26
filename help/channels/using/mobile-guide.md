@@ -8,7 +8,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d4e1b935-b21f-4a24-99ba-f455db0f7cfc
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+source-git-commit: afb988281f00dc17b484872259d44f51864d55f1
 workflow-type: tm+mt
 source-wordcount: '786'
 ht-degree: 22%
@@ -225,7 +225,7 @@ Adobe Campaign Standardでは、次の 3 つのチャネルを使用してモバ
 
 ## モバイルのトラブルシューティング {#mobile-troubleshooting}
 
-以下のページは、Adobe Campaign Classicでモバイル配信を使用する際に発生する最も一般的な問題の解決に役立ちます。
+以下のページは、Adobe Campaign Standardでモバイル配信を使用する際に発生する最も一般的な問題の解決に役立ちます。
 
 <table style="table-layout:fixed">
 <tr>

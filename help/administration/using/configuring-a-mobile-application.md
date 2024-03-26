@@ -6,7 +6,7 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-source-git-commit: 1619e1f434742b89d0f0802c40e82d7b59773a59
+source-git-commit: 58b07f023f52e2bf4972b4a86bf4412f613f38da
 workflow-type: tm+mt
 source-wordcount: '1307'
 ht-degree: 2%
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
-> Adobe Experience Platform Launchは、Adobe Experience Platformのデータ収集テクノロジーのスイートとしてリブランドされました。 その結果、製品ドキュメント全体でいくつかの用語の変更がロールアウトされました。 詳しくは、 [次の文書](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html) 用語の変更を統合的に参照する場合。
+> Adobe Experience Platform Launchは、Adobe Experience Platformのデータ収集テクノロジーのスイートとしてリブランドされました。 その結果、製品ドキュメント全体でいくつかの用語の変更がロールアウトされました。 詳しくは、 [次の文書](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html){target="_blank"} 用語の変更を統合的に参照する場合。
 
 プッシュ通知およびアプリ内実装は、エキスパートユーザーが実行する必要があります。 不明な点は、担当のAdobeアカウントエグゼクティブまたはプロフェッショナルサービスパートナーにお問い合わせください。
 
@@ -39,6 +39,7 @@ Adobe Experience Platform SDK を使用してAdobe Campaign Standardでサポー
    そうでない場合は、アカウントチームにお問い合わせください。
 
 1. ユーザーがAdobe Campaign Standardで必要な権限を持っていて、Adobe Experience Platformでタグを付けていることを確認します。
+
    * Adobe Campaign Standardで、IMS ユーザーが Standard User および Administrator 製品プロファイルに含まれていることを確認します。 この手順を使用すると、ユーザーはAdobe Campaign Standardにログインし、Experience PlatformSDK モバイルアプリページに移動して、データ収集 UI で作成したモバイルアプリのプロパティを表示できます。
 
    * データ収集 UI で、IMS ユーザーが製品プロファイルに含まれていることをExperience Platform Launchします。
@@ -152,10 +153,10 @@ Its **[!UICONTROL Property Status]** は、 **[!UICONTROL Ready to configure]**.
 
      次のアプリケーションの詳細を入力します。
 
-      * **アプリ ID (iOS Bundle ID)**：を参照してください。 [Appleドキュメント](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids) バンドル ID の詳細を参照してください。
-      * **iOS証明書 (P8) ファイル**: .p8 認証キーをドラッグ&amp;ドロップします。 .p8 認証ファイルの生成方法については、 [Apple開発者アカウント](https://developer.apple.com/account/ios/authkey/create).
-      * **キー ID**：を参照してください。 [Appleドキュメント](https://developer.apple.com/help/account/manage-keys/get-a-key-identifier/) を参照してください。
-      * **iOS Team ID**：を参照してください。 [Appleドキュメント](https://developer.apple.com/help/account/manage-your-team/locate-your-team-id//) を参照してください。iOS Team ID の詳細については、を参照してください。
+      * **アプリ ID (iOS Bundle ID)**：を参照してください。 [Appleドキュメント](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids){target="_blank"} バンドル ID の詳細を参照してください。
+      * **iOS証明書 (P8) ファイル**: .p8 認証キーをドラッグ&amp;ドロップします。 .p8 認証ファイルの生成方法については、 [Apple開発者アカウント](https://developer.apple.com/account/ios/authkey/create){target="_blank"}.
+      * **キー ID**：を参照してください。 [Appleドキュメント](https://developer.apple.com/help/account/manage-keys/get-a-key-identifier/){target="_blank"} を参照してください。
+      * **iOS Team ID**：を参照してください。 [Appleドキュメント](https://developer.apple.com/help/account/manage-your-team/locate-your-team-id/){target="_blank"} を参照してください。iOS Team ID の詳細については、を参照してください。
 
         ![](assets/mobile_app_ios_config.png)
 +++
@@ -164,8 +165,8 @@ Its **[!UICONTROL Property Status]** は、 **[!UICONTROL Ready to configure]**.
 
      次のアプリケーションの詳細を入力します。
 
-      * **アプリ ID （Android パッケージ名）**：を参照してください。 [Android ドキュメント](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores) を参照してください。
-      * **Android キー (Json) ファイル**: .json 秘密鍵ファイルをドラッグ&amp;ドロップします。 .json 秘密鍵ファイルの生成方法については、 [Firebase の開発者向けドキュメント](https://firebase.google.com/docs/admin/setup#initialize_the_sdk_in_non-google_environments).
+      * **アプリ ID （Android パッケージ名）**：を参照してください。 [Android ドキュメント](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores){target="_blank"} を参照してください。
+      * **Android キー (Json) ファイル**: .json 秘密鍵ファイルをドラッグ&amp;ドロップします。 .json 秘密鍵ファイルの生成方法については、 [Firebase の開発者向けドキュメント](https://firebase.google.com/docs/admin/setup#initialize_the_sdk_in_non-google_environments){target="_blank"}.
 
         ![](assets/mobile_app_android_config.png)
 +++
