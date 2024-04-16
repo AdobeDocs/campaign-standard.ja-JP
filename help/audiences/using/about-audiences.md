@@ -9,7 +9,7 @@ feature: Audiences
 role: User
 level: Beginner
 exl-id: f99987d8-b1bf-4ec7-885c-fb511f4168ac
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 8412c728edabf72680ddfdb1fd7547442890150f
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 91%
@@ -26,7 +26,7 @@ Adobe Campaign を使用すると、クエリを使用してオーディエン�
 
 Adobe Campaign では、様々な種類のオーディエンスを操作できます。オーディエンスのタイプは、その作成方法に対応します。
 
-* **[!UICONTROL Query]**：オーディエンスが [クエリ](../../automating/using/editing-queries.md#about-query-editor) Adobe Campaignデータベースのデータを、オーディエンスのリストを介して取得します。 クエリが定義したオーディエンスは、それ以降使用されるたびに再計算されます。
+* **[!UICONTROL Query]**：オーディエンスがを使用して作成されたことを示します [クエリ](../../automating/using/editing-queries.md#about-query-editor) オーディエンスのリストを介したAdobe Campaign データベースからのデータ。 クエリが定義したオーディエンスは、それ以降使用されるたびに再計算されます。
 * **[!UICONTROL List]**：オーディエンスがプロファイルの固定リストであることを示します。これらのリストは、オーディエンスの保存時にデータディメンションが認識されている[ワークフロー](../../automating/using/get-started-workflows.md)で作成されます。例えば、ターゲティングアクティビティの後（特に「**[!UICONTROL Query]**」）、またはファイルからインポートしたデータの紐付け後などです。
 * **[!UICONTROL File]**：オーディエンスが[ファイルインポート](../../automating/using/load-file.md)ワークフローから直接作成されたもので、オーディエンスの保存時にデータディメンションが不明であったことを示します。
 * **[!UICONTROL Experience Cloud]**：オーディエンスが Adobe Experience Cloud からインポートされたことを示します。このオプションは、オーディエンス共有機能が設定されている場合にのみ使用できます。詳しくは、[Adobe Experience Cloud からのオーディエンスのインポート](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md#importing-an-audience)を参照してください。
