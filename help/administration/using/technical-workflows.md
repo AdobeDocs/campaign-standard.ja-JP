@@ -1,15 +1,15 @@
 ---
 title: テクニカルワークフロー
-description: テクニカルワークフローの詳細を説明します
+description: テクニカルワークフローの詳細情報
 audience: administration
 feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+source-git-commit: 2e81a05b1b647991250d13d7d37f5da275a8db44
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 88%
+source-wordcount: '820'
+ht-degree: 76%
 
 ---
 
@@ -47,6 +47,12 @@ ht-degree: 88%
    <td> <span class="uicontrol">請求</span> <br /> </td> 
    <td> <span class="uicontrol">billing</span> <br /> </td> 
    <td> システムアクティビティレポートを「請求」ユーザーにメールで送信します。デフォルトでは、毎日午前 1 時に自動的に実行されます。<br /> </td> 
+  </tr> 
+  <tr> 
+   <td> <span class="uicontrol">配信テンプレートからヘッダーをコピー</span> <br /> </td> 
+   <td> <span class="uicontrol">smtpHeaderupdate</span> <br /> </td> 
+   <td> このワークフローは、メール配信テンプレート用に設定された SMTP ヘッダーを、テンプレート以外の対応する子配信にコピーします。 このワークフローでピックアップされるのは、メールマーケティング配信のみです。 SMTP ヘッダーは、トランザクション配信と配達確認配信にはコピーされません。 <br> このワークフローは定期的に実行されません。 ユーザーが使用ごとに開始する必要があります。 <!--So it'not really a technical workflow like all workflows on this page, because it's not run automatically - TBC--> <br> インスタンスに大量の配信がある場合は、で NmsCleanup_DeliveryPurgeDelay オプションを更新できます。 <strong>アプリケーション設定</strong>. 任意のテンプレートの SMTP ヘッダーに変更を加えた場合は、変更後にワークフローを再実行して、修正したヘッダーがテンプレート以外の配信にコピーされるようにする必要があります。<a href="data-retention.md#deliveries">詳細情報</a>
+   <br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">データベースのクリーンアップ</span> <br /> </td> 
@@ -92,22 +98,22 @@ ht-degree: 88%
    <tr> 
    <td> <span class="uicontrol">Launch と同期</span> <br /> </td> 
    <td> <span class="uicontrol">SyncWithLaunch</span> <br /> </td> 
-   <td> このワークフローは、Adobe Campaign Standardで読み込まれたタグモバイルプロパティを同期します。 これは 15 分ごとに実行されます。<br /> </td> 
+   <td> このワークフローでは、Adobe Campaign Standardに読み込まれたタグモバイルプロパティを同期します。 これは 15 分ごとに実行されます。<br /> </td> 
   </tr>
   <tr> 
-   <td> <span class="uicontrol">トラッキングログの復元</span> <br /> </td> 
+   <td> <span class="uicontrol">トラッキングログの回復</span> <br /> </td> 
    <td> <span class="uicontrol">SyncWithLaunch</span> <br /> </td> 
-   <td> このワークフローは、Adobe Campaign Standardで読み込まれたタグモバイルプロパティを同期します。 これは 15 分ごとに実行されます。<br /> </td> 
+   <td> このワークフローでは、Adobe Campaign Standardに読み込まれたタグモバイルプロパティを同期します。 これは 15 分ごとに実行されます。<br /> </td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">トラッキングログを復元</span> <br /> </td> 
    <td> <span class="uicontrol">trackingLogRecovery</span> <br /> </td> 
-   <td> このワークフローは、失われたトラッキングログを復元します。 このテクニカルワークフローは、特定のコンテキストで使用され、Adobe内部での使用のみに制限されます。 <br> デフォルトでは、10 分ごとに実行されます。<br /> </td> 
+   <td> このワークフローは、失われたトラッキングログを復元します。 このテクニカルワークフローは特定のコンテキストで使用され、Adobe内部での使用のみに制限されます。 <br> デフォルトでは、10 分ごとに開始されます。<br /> </td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">配信実行情報の更新</span> <br/> </td> 
    <td> <span class="uicontrol">updateDeliveryExecInfo</span> <br/> </td> 
-   <td> このワークフローは、broadLog とトラッキングログをローカルデータベースにコピーします。 デフォルトでは、10 分ごとに実行されます。<br/> </td> 
+   <td> このワークフローは、broadlog とトラッキングログをローカルデータベースにコピーします。 デフォルトでは、10 分ごとに実行されます。<br/> </td> 
   </tr>
   <tr> 
    <td> <span class="uicontrol">配信インジケーターの更新</span> <br /> </td> 
