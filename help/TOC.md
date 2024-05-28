@@ -4,9 +4,9 @@ user-guide-title: Campaign Standard
 user-guide-description: Adobe Campaign Standard に関する製品ドキュメント
 title: Campaign Standard ガイド
 breadcrumb-title: Campaign Standard ドキュメント
-source-git-commit: db035a41515e94836bdfbfc3d620586dc1f5ce31
-workflow-type: ht
-source-wordcount: '1768'
+source-git-commit: 63cd437c5a19791ffb9d3c0b8690ee1532a4774d
+workflow-type: tm+mt
+source-wordcount: '1754'
 ht-degree: 100%
 
 ---
@@ -20,13 +20,13 @@ ht-degree: 100%
    + [最新リリース](rn/using/release-notes.md)
    + [早期リリースノート](rn/using/e-release-notes.md)
    + 以前のリリース {#previous-releases}
-      + [リリースノート 2023](rn/using/release-notes-2023.md)
-      + [リリースノート 2022](rn/using/release-notes-2022.md)
-      + [リリースノート 2021](rn/using/release-notes-2021.md)
-      + [リリースノート 2020](rn/using/release-notes-2020.md)
-      + [リリースノート 2019](rn/using/release-notes-2019.md)
-      + [リリースノート 2018](rn/using/release-notes-2018.md)
-      + [リリースノート 2017](rn/using/release-notes-2017.md)
+      + [2023](rn/using/release-notes-2023.md)
+      + [2022](rn/using/release-notes-2022.md)
+      + [2021](rn/using/release-notes-2021.md)
+      + [2020](rn/using/release-notes-2020.md)
+      + [2019](rn/using/release-notes-2019.md)
+      + [2018](rn/using/release-notes-2018.md)
+      + [2017](rn/using/release-notes-2017.md)
    + [リリース計画](rn/using/release-planning.md)
    + [非推奨（廃止予定）の機能](rn/using/deprecated-features.md)
    + [トラッキングされた URL の署名に関する問題](rn/using/tracked-urls.md)
