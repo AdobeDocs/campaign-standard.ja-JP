@@ -8,7 +8,7 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: 3ea58bcf-234e-4dac-b296-da3f57e18a7d
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: 9291eb06c35b1d06c0a992fa64a460215477f57e
 workflow-type: tm+mt
 source-wordcount: '2611'
 ht-degree: 6%
@@ -37,7 +37,7 @@ Adobe Campaignが配信するメッセージの内容や表示は、様々な方
 >
 >ヘッダーパラメーターの値は省略できません。メールの送信を許可するには、送信者のアドレスが必須です（RFC 標準）。 入力したメールアドレスの形式はチェックされます。
 
-## URL のパーソナライズ{#personalizing-urls}
+## URL のパーソナライズ {#personalizing-urls}
 
 Adobe Campaignでは、パーソナライゼーションフィールド、コンテンツブロック、動的コンテンツを追加して、メッセージに含まれる 1 つまたは複数の URL をパーソナライズできます。 手順は次のとおりです。
 
@@ -85,7 +85,7 @@ Adobe Campaignでは、データベースのフィールドをページに挿入
 >
 >メールをワークフローから作成した場合は、ワークフローで計算された追加データをパーソナライゼーションフィールドでも使用できます。 ワークフローから追加データを追加する方法については、を参照してください [データの強化](../../automating/using/about-targeting-activities.md#enriching-data) セクション。
 
-## コンテンツブロックの追加{#adding-a-content-block}
+## コンテンツブロックの追加 {#adding-a-content-block}
 
 Adobe Campaign は、事前設定済みのコンテンツブロックのリストを提供します。これらのコンテンツブロックは動的で、パーソナライズされており、特定のレンダリングが可能です。 例えば、挨拶やリンクをミラーページに追加できます。
 
