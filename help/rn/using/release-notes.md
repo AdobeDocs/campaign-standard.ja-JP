@@ -5,7 +5,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 9291eb06c35b1d06c0a992fa64a460215477f57e
+source-git-commit: a8013bac719a45442e09d710db12df0abe721cc4
 workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 38%
@@ -26,7 +26,7 @@ ht-degree: 38%
 
 * **iOSのプッシュ通知** - Adobe Campaign Standard 24.1 で、iOS プッシュ通知用の p8 認証証明書がサポートされるようになりました。 これらの変更をアクティブ化するには、実装を調整する必要があります。詳しくは、[このテクニカルノート](../../administration/using/push-technote.md)を参照してください。
 
-**ワンクリックリスト – 登録解除** - 2024 年 6 月 1 日以降、Googleと Yahoo! ワンクリックでの List-Unsubscribe への準拠を送信者に義務付ける予定です。Campaign では、この機能を標準でサポートするようになりました。詳しくは、[こちら](../../administration/using/configuring-email-channel.md#list-of-email-smtp-parameters)を参照してください。
+* **ワンクリックリスト – 登録解除** - 2024 年 6 月 1 日以降、Googleと Yahoo! ワンクリックでの List-Unsubscribe への準拠を送信者に義務付ける予定です。Campaign では、この機能を標準でサポートするようになりました。詳しくは、[こちら](../../administration/using/configuring-email-channel.md#list-of-email-smtp-parameters)を参照してください。
 
 * **インフラストラクチャ** - Postgres データベースをバージョン 11.22 からバージョン 12.17 にアップグレードしました。
 
