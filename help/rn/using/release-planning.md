@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: ff6e926b66547632b74e58cc0e419c83a4ea556e
+source-git-commit: c35f8caeab9b6605b042618705eecc347d13fd18
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 100%
+source-wordcount: '419'
+ht-degree: 94%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 リリース日は変更される場合があります。定期的にこのページにアクセスして、最新情報を確認してください。環境のアップデートは、以下に示す期間に順次おこなわれます。正確な日付は、各顧客にメールで通知されます。
 
-## リリース 24.1 - 2024年冬リリース {#release-24-1-release}
+## リリース 24.2 - 2024 年夏リリース {#release-24-2-release}
 
 このリリースに関する詳細は、ステージング環境のアップグレードが開始されたときに[リリースノート](release-notes.md)で確認できます。
 
@@ -33,17 +33,20 @@ ht-degree: 100%
  <thead>
   <tr>
    <th> 環境 </th>
-   <th> 日付 </th>
+   <th> 限定提供（LA） </th>
+   <th> 一般公開（GA） </th>
   </tr>
  </thead>
  <tbody>
   <tr>
    <td>ステージ </td>
-   <td>2024年1月16日～2月13日（PT） </td>
+   <td>2024 年 8 月 6 日～13 日 </td>
+   <td>2025 年 – 確定日付</td>
   </tr>
   <tr>
    <td>実稼動 </td>
-   <td>2024年1月23日～2月20日（PT） </td>
+   <td>2024 年 8 月 20 日～27 日 </td>
+   <td>2025 年 – 確定日付</td>
   </tr>
  </tbody>
 </table>
