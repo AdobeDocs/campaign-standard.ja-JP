@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
-source-git-commit: 2e81a05b1b647991250d13d7d37f5da275a8db44
+source-git-commit: dba7ed7d68a33ddf1a1e62ea0f20e855c0b7eb20
 workflow-type: tm+mt
-source-wordcount: '820'
-ht-degree: 76%
+source-wordcount: '839'
+ht-degree: 73%
 
 ---
 
@@ -62,7 +62,8 @@ ht-degree: 76%
   <tr> 
    <td> <span class="uicontrol">予測</span> <br /> </td> 
    <td> <span class="uicontrol">forecasting</span> <br /> </td> 
-   <td> このワークフローは、暫定予測に保存されている配信の分析を実行します（暫定ログの作成）。デフォルトでは、毎週月曜日の午前 1 時に実行されます。<br /> </td> 
+   <td> このワークフローは、暫定予測に保存されている配信の分析を実行します（暫定ログの作成）。デフォルトでは、毎日午前 1 時に開始されます。 <br />
+   予測ワークフローは、Campaign Standardで停止され、動作しなくなった従来のワークフローです。</td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">共有オーディエンスのインポート</span> <br /> </td> 
