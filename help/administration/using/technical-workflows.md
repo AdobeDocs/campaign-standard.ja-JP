@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: da3a3af5-207a-4289-bd07-00a8c5d1cf57
-source-git-commit: dba7ed7d68a33ddf1a1e62ea0f20e855c0b7eb20
+source-git-commit: f87795ee2378a1e9e1b393c6cce002bcb70178b8
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 73%
+source-wordcount: '791'
+ht-degree: 75%
 
 ---
 
@@ -49,22 +49,16 @@ ht-degree: 73%
    <td> システムアクティビティレポートを「請求」ユーザーにメールで送信します。デフォルトでは、毎日午前 1 時に自動的に実行されます。<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">配信テンプレートからヘッダーをコピー</span> <br /> </td> 
+   <td> <span class="uicontrol"> 配信テンプレートからヘッダーをコピー </span> <br /> </td> 
    <td> <span class="uicontrol">smtpHeaderupdate</span> <br /> </td> 
-   <td> このワークフローは、メール配信テンプレート用に設定された SMTP ヘッダーを、テンプレート以外の対応する子配信にコピーします。 このワークフローでピックアップされるのは、メールマーケティング配信のみです。 SMTP ヘッダーは、トランザクション配信と配達確認配信にはコピーされません。 <br> このワークフローは定期的に実行されません。 ユーザーが使用ごとに開始する必要があります。 <!--So it'not really a technical workflow like all workflows on this page, because it's not run automatically - TBC--> <br> インスタンスに大量の配信がある場合は、で NmsCleanup_DeliveryPurgeDelay オプションを更新できます。 <strong>アプリケーション設定</strong>. 任意のテンプレートの SMTP ヘッダーに変更を加えた場合は、変更後にワークフローを再実行して、修正したヘッダーがテンプレート以外の配信にコピーされるようにする必要があります。<a href="data-retention.md#deliveries">詳細情報</a>
+   <td> このワークフローは、メール配信テンプレート用に設定された SMTP ヘッダーを、テンプレート以外の対応する子配信にコピーします。 このワークフローでピックアップされるのは、メールマーケティング配信のみです。 SMTP ヘッダーは、トランザクション配信と配達確認配信にはコピーされません。 <br> このワークフローは定期的に実行されません。 ユーザーが使用ごとに開始する必要があります。 <!--So it'not really a technical workflow like all workflows on this page, because it's not run automatically - TBC--> <br> インスタンスに大量の配信がある場合は、<strong> アプリケーション設定 </strong> の NmsCleanup_DeliveryPurgeDelay オプションを更新できます。 任意のテンプレートの SMTP ヘッダーに変更を加えた場合は、変更後にワークフローを再実行して、修正したヘッダーがテンプレート以外の配信にコピーされるようにする必要があります。<a href="data-retention.md#deliveries"> 詳細情報 </a>
    <br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">データベースのクリーンアップ</span> <br /> </td> 
    <td> <span class="uicontrol">cleanup</span> <br /> </td> 
    <td> このワークフローは、データベースのメンテナンスワークフローです。各種の統計とプロセスを実行し、定義された設定に従って、古いデータをデータベースから削除します。デフォルトでは、毎日午前 4 時に自動的に実行されます。<br /> </td> 
-  </tr> 
-  <tr> 
-   <td> <span class="uicontrol">予測</span> <br /> </td> 
-   <td> <span class="uicontrol">forecasting</span> <br /> </td> 
-   <td> このワークフローは、暫定予測に保存されている配信の分析を実行します（暫定ログの作成）。デフォルトでは、毎日午前 1 時に開始されます。 <br />
-   予測ワークフローは、Campaign Standardで停止され、動作しなくなった従来のワークフローです。</td> 
-  </tr> 
+  </tr>
   <tr> 
    <td> <span class="uicontrol">共有オーディエンスのインポート</span> <br /> </td> 
    <td> <span class="uicontrol">importSharedAudience</span> <br /> </td> 
@@ -102,12 +96,12 @@ ht-degree: 73%
    <td> このワークフローでは、Adobe Campaign Standardに読み込まれたタグモバイルプロパティを同期します。 これは 15 分ごとに実行されます。<br /> </td> 
   </tr>
   <tr> 
-   <td> <span class="uicontrol">トラッキングログの回復</span> <br /> </td> 
+   <td> <span class="uicontrol"> トラッキングログの回復 </span> <br /> </td> 
    <td> <span class="uicontrol">SyncWithLaunch</span> <br /> </td> 
    <td> このワークフローでは、Adobe Campaign Standardに読み込まれたタグモバイルプロパティを同期します。 これは 15 分ごとに実行されます。<br /> </td> 
   </tr>
   <tr> 
-   <td> <span class="uicontrol">トラッキングログを復元</span> <br /> </td> 
+   <td> <span class="uicontrol"> トラッキングログの復元 </span> <br /> </td> 
    <td> <span class="uicontrol">trackingLogRecovery</span> <br /> </td> 
    <td> このワークフローは、失われたトラッキングログを復元します。 このテクニカルワークフローは特定のコンテキストで使用され、Adobe内部での使用のみに制限されます。 <br> デフォルトでは、10 分ごとに開始されます。<br /> </td> 
   </tr>

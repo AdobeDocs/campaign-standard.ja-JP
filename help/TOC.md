@@ -4,9 +4,9 @@ user-guide-title: Campaign Standard
 user-guide-description: Adobe Campaign Standard に関する製品ドキュメント
 title: Campaign Standard ガイド
 breadcrumb-title: Campaign Standard ドキュメント
-source-git-commit: 63cd437c5a19791ffb9d3c0b8690ee1532a4774d
-workflow-type: ht
-source-wordcount: '1754'
+source-git-commit: e8cf96da88f68680be1ff5f770036b012654b160
+workflow-type: tm+mt
+source-wordcount: '1752'
 ht-degree: 100%
 
 ---
@@ -15,10 +15,8 @@ ht-degree: 100%
 # Adobe Campaign Standard ドキュメント {#using}
 
 + [Campaign Standard ドキュメント](campaign-standard-home.md)
-+ [最新の更新](rn/using/documentation-updates.md)
 + リリースノート {#release-notes}
    + [最新リリース](rn/using/release-notes.md)
-   + [早期リリースノート](rn/using/e-release-notes.md)
    + 以前のリリース {#previous-releases}
       + [2023](rn/using/release-notes-2023.md)
       + [2022](rn/using/release-notes-2022.md)
@@ -30,6 +28,7 @@ ht-degree: 100%
    + [リリース計画](rn/using/release-planning.md)
    + [非推奨（廃止予定）の機能](rn/using/deprecated-features.md)
    + [トラッキングされた URL の署名に関する問題](rn/using/tracked-urls.md)
+   + [最新のドキュメントのアップデート](rn/using/documentation-updates.md)
 + はじめに {#getting-started}
    + [Adobe Campaign Standard について](start/using/about-campaign-standard.md)
    + インターフェイスの理解 {#discovering-the-interface}

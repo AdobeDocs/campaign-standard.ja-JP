@@ -8,7 +8,7 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: ed269751-78ab-4189-89d9-116bf42c0c90
-source-git-commit: 21bcc9818b881212985988ef3377687069a1dbea
+source-git-commit: 449187bba167f9ce00e644d44a124b36030ba001
 workflow-type: tm+mt
 source-wordcount: '1430'
 ht-degree: 53%
@@ -33,23 +33,23 @@ ht-degree: 53%
 
 配信を保護および最適化するベストプラクティスについて詳しくは、[このページ](../../sending/using/delivery-best-practices.md)を参照してください。
 
-### 強制隔離とブロックリストに加える {#quarantine-vs-denylist}
+### 強制隔離とブロックリスト {#quarantine-vs-denylist}
 
 強制隔離とブロックリストは、同じオブジェクトには適用されません。
 
-* **強制隔離**&#x200B;は、プロファイル自体ではなく、**アドレス**（または電話番号など）にのみ適用されます。例えば、E メールアドレスが強制隔離されているプロファイルは、プロファイルを更新して新しいアドレスを入力し、再び配信アクションのターゲットにされる可能性があります。 同様に、2 つのプロファイルの電話番号が同じ場合、その番号が強制隔離されると、両方のプロファイルが影響を受けます。
+* **強制隔離**&#x200B;は、プロファイル自体ではなく、**アドレス**（または電話番号など）にのみ適用されます。例えば、メールアドレスが強制隔離されているプロファイルは、プロファイルを更新して新しいアドレスを入力できるので、再び配信アクションのターゲットになる可能性があります。 同様に、2 つのプロファイルの電話番号が同じ場合、その番号が強制隔離されると、両方のプロファイルが影響を受けます。
 
   強制隔離されたアドレスまたは電話番号は、[除外ログ](#identifying-quarantined-addresses-for-a-delivery)（配信の場合）または[強制隔離リスト](#identifying-quarantined-addresses-for-the-entire-platform)（プラットフォーム全体の場合）に表示されます。
 
-* 一方、**ブロックリスト**&#x200B;への登録では、特定のチャネルを購読解除（オプトアウト）した後などは、**プロファイル**&#x200B;は配信のターゲットとなりません。例えば、E メールチャネルの上のプロブロックリストに加えるファイルに 2 つの E メールアドレスがある場合、両方のアドレスが配信から除外されます。 プロブロックリストに加えるセスについて詳しくは、 [Campaign のオプトインとオプトアウトについて](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+* 一方、**ブロックリスト**&#x200B;への登録では、特定のチャネルを購読解除（オプトアウト）した後などは、**プロファイル**&#x200B;は配信のターゲットとなりません。例えば、メールチャネルのブロックリスト上のプロファイルに 2 つのメールアドレスがある場合、両方のアドレスが配信から除外されます。 ブロックリストプロセスについて詳しくは、[Campaign のオプトインとオプトアウトについて ](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md) を参照してください。
 
-  プロファイルが上にあブロックリストに加えるり、 **[!UICONTROL No longer contact (on denylist)]** プロファイルのセクション **[!UICONTROL General]** タブをクリックします。 詳しくは、[このセクション](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md#managing-opt-in-and-opt-out-from-a-profile)を参照してください。
+  プロファイルが 1 つ以上のチャネルのブロックリストに含まれているかどうかは、プロファイルの「**[!UICONTROL General]**」タブの「**[!UICONTROL No longer contact (on denylist)]**」セクションで確認できます。 詳しくは、[この節](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md#managing-opt-in-and-opt-out-from-a-profile)を参照してください。
 
 >[!NOTE]
 >
->強制隔離には **時** ステータス。受信者がメッセージをスパムとして報告したり、「STOP」などのキーワードを含む SMS メッセージに返信したりする場合に適用されます。 この場合、プロファイルに関係するアドレスまたは電話番号は、 **[!UICONTROL On denylist]** ステータス。 STOP SMS メッセージの管理について詳しくは、[この節](../../channels/using/managing-incoming-sms.md#managing-stop-sms)を参照してください。
+>強制隔離には、受信者がメッセージをスパムとして報告したり、「STOP」などのキーワードを使用して SMS メッセージに返信したりする場合に適用される **オン^ブロックリスト** ステータスが含まれます。 この場合、プロファイルの関連するアドレスまたは電話番号は、**[!UICONTROL On denylist]** ステータスで強制隔離に送信されます。 STOP SMS メッセージの管理について詳しくは、[この節](../../channels/using/managing-incoming-sms.md#managing-stop-sms)を参照してください。
 
-&lt;! — ユーザーが SMS 配信をオプトアウトするために STOP などのキーワードで SMS メッセージに返信した場合、電子メールオプトアウトプロセスとは異なり、そのプロファイルはに追加されませブロックリストに加えるん。 代わりに、プロファイルの電話番号が **[!UICONTROL On denylist]** ステータス。 このステータスは、電話番号のみを表し、プロファイルは引き続き E メールメッセージを受信します。<!-- Also, if the profile has another phone number, he can still receive SMS messages on the other number. For more on this, refer to [this section](../../channels/using/managing-incoming-sms.md#managing-stop-sms).-->
+&lt;!- SMS 配信からオプトアウトするために、ユーザーが STOP などのキーワードを使用して SMS メッセージに返信した場合、そのユーザーのプロファイルは、メールオプトアウトプロセスのようにブロックリストには追加されません。 代わりに、プロファイルの電話番号は、**[!UICONTROL On denylist]** ステータスで強制隔離に送信されます。 このステータスは電話番号のみを参照し、プロファイルは引き続きメールメッセージを受信します。<!-- Also, if the profile has another phone number, he can still receive SMS messages on the other number. For more on this, refer to [this section](../../channels/using/managing-incoming-sms.md#managing-stop-sms).-->
 
 ## 強制隔離アドレスの識別 {#identifying-quarantined-addresses}
 
@@ -67,7 +67,7 @@ If you need to remove an address from quarantine, contact your technical adminis
 
 ### プラットフォーム全体の強制隔離アドレスの識別 {#identifying-quarantined-addresses-for-the-entire-platform}
 
-管理者は、プラットフォーム全体の強制隔離された E メールアドレスの詳細なリストに、 **[!UICONTROL Administration > Channels > Quarantines > Addresses]** メニュー。
+管理者は、**[!UICONTROL Administration > Channels > Quarantines > Addresses]** メニューから、プラットフォーム全体の強制隔離中のメールアドレスの詳細なリストにアクセスできます。
 
 <!--
 This menu lists quarantined elements for **Email**, **SMS** and **Push notification** channels.
@@ -77,23 +77,23 @@ This menu lists quarantined elements for **Email**, **SMS** and **Push notificat
 
 >[!NOTE]
 >
->強制隔離数の増加は、データベースの「老朽化」に関連する、正常な影響です。 例えば、E メールアドレスの有効期間が 3 年と考えられ、受信者テーブルが毎年 50%増加する場合、強制隔離の増加は次のように計算できます。1 年目の終わり： (1)&#42;0.33)/(1+0.5)=22% 2 年目の終了時：((1.22&#42;0.33)+0.33)/(1.5+0.75)=32.5%。
+>強制隔離件数の増加は、データベースの「消耗」に関連する通常の影響です。 例えば、メールアドレスの有効期間が 3 年と考えられ、受信者テーブルが毎年 50% 増加する場合、強制隔離の増加は次のように計算できます。1 年目の終了時：（1&#42;0.33）/（1+0.5）=22%。 2 年目の終了時：((1.22&#42;0.33)+0.33)/(1.5+0.75)=32.5%。
 
-リストを参照する際に役立つフィルターを使用できます。 アドレス、ステータスまたはチャネルに基づいてフィルタリングできます。
+リストの参照に役立つフィルターを使用できます。 アドレス、ステータスまたはチャネル（あるいはその両方）でフィルタリングできます。
 
 ![](assets/quarantines-filters.png)
 
-編集または [削除](#removing-a-quarantined-address) 各エントリに加えて、新しいエントリを作成します。
+エントリごとに編集または [ 削除 ](#removing-a-quarantined-address) したり、新しいエントリを作成したりできます。
 
 エントリを編集するには、対応する行をクリックし、必要に応じてフィールドを変更します。
 
 ![](assets/quarantines-edit.png)
 
-新しいエントリを手動で追加するには、 **[!UICONTROL Create]** 」ボタンをクリックします。
+新しいエントリを手動で追加するには、「**[!UICONTROL Create]**」ボタンを使用します。
 
 ![](assets/quarantines-create-button.png)
 
-住所（または電話番号など）を定義し、 およびチャネルタイプ。 強制隔離リストに含まれるステータスとエラー理由を設定できます。 また、エラーが発生した日付、エラー数を指定し、エラーテキストを入力することもできます。 必要に応じて、アドレスに最後に送信された配信をドロップダウンリストから選択します。
+アドレス（または電話番号など）を定義 およびチャネルタイプ。 強制隔離リストに表示するステータスとエラー理由を設定できます。 また、エラーが発生した日付、エラー数を指定し、エラーテキストを入力することもできます。 そのアドレスに送信された最後の配信を、必要に応じてドロップダウンリストから選択します。
 
 ![](assets/quarantines-create-last-delivery.png)
 
@@ -101,33 +101,33 @@ This menu lists quarantined elements for **Email**, **SMS** and **Push notificat
 
 ### 自動更新 {#unquarantine-auto}
 
-特定の条件に一致するアドレスは、データベースクリーンアップワークフローによって強制隔離リストから自動的に削除されます。 テクニカルワークフローについて詳しくは、 [この節](../../administration/using/technical-workflows.md#list-of-technical-workflows).
+特定の条件に一致するアドレスは、データベースクリーンアップ ワークフローによって強制隔離リストから自動的に削除されます。 テクニカルワークフローについて詳しくは、[ この節 ](../../administration/using/technical-workflows.md#list-of-technical-workflows) を参照してください。
 
 次の場合、アドレスは強制隔離リストから自動的に削除されます。
 
-* アドレスの **[!UICONTROL Erroneous]** 配信が成功すると、ステータスが強制隔離リストから削除されます。
-* アドレスの **[!UICONTROL Erroneous]** 最後のソフトバウンスが 10 日以上前に発生した場合、ステータスは強制隔離リストから削除されます。 ソフトエラー管理について詳しくは、[この節](#soft-error-management)を参照してください。
-* アドレスの **[!UICONTROL Erroneous]** ～で跳ね返った状態 **[!UICONTROL Mailbox full]** エラーは、30 日後に強制隔離リストから削除されます。
+* **[!UICONTROL Erroneous]** ステータスのアドレスは、配信が成功した後に強制隔離リストから削除されます。
+* 前回のソフトバウンスが 10 日以上前に発生した場合、**[!UICONTROL Erroneous]** ステータスのアドレスは強制隔離リストから削除されます。 ソフトエラー管理について詳しくは、[この節](#soft-error-management)を参照してください。
+* **[!UICONTROL Mailbox full]** エラーでバウンスした **[!UICONTROL Erroneous]** ステータスのアドレスは、30 日後に強制隔離リストから削除されます。
 
-その後、ステータスは「 **[!UICONTROL Valid]**.
+その後、ステータスは **[!UICONTROL Valid]** に変わります。
 
-実行する再試行の最大回数： **[!UICONTROL Erroneous]** 再試行間のステータスと最小遅延は、IP が特定のドメインでどの程度過去に実行され、現在どの程度の動作を実行しているかに基づくようになりました。
+ステータスが **[!UICONTROL Erroneous]** の場合に実行される再試行の最大数と再試行間の最小遅延は、現在、IP が特定のドメインで過去と現在の両方でどの程度機能しているかに基づいています。
 
 
 >[!IMPORTANT]
 >
-アドレスが **[!UICONTROL Quarantine]** または **[!UICONTROL Denylisted]** ステータスは、電子メールを受信した場合でも削除されません。
+アドレスのステータスが **[!UICONTROL Quarantine]** または **[!UICONTROL Denylisted]** の受信者は、メールを受信した場合でも削除されません。
 
 
 ### 手動更新 {#unquarantine-manual}
 
-アドレスの強制隔離を手動で解除することもできます。  強制隔離リストからアドレスを手動で削除するには、強制隔離リストからアドレスを削除するか、アドレスのステータスを「 」に変更します **[!UICONTROL Valid]**.
+アドレスの強制隔離を手動で解除することもできます。  強制隔離リストからアドレスを手動で削除するには、強制隔離リストからアドレスを削除するか、ステータスを **[!UICONTROL Valid]** に変更します。
 
-* 次の中からアドレスを選択します： **[!UICONTROL Administration > Channels > Quarantines > Addresses]** リストと選択 **[!UICONTROL Delete element]**.
+* **[!UICONTROL Administration > Channels > Quarantines > Addresses]** リストからアドレスを選択し、「**[!UICONTROL Delete element]**」を選択します。
 
   ![](assets/quarantine-delete-address.png)
 
-* アドレスを選択して変更 **[!UICONTROL Status]** から **[!UICONTROL Valid]**.
+* アドレスを選択し、その **[!UICONTROL Status]** を **[!UICONTROL Valid]** に変更します。
 
   ![](assets/quarantine-valid-status.png)
 
@@ -136,7 +136,7 @@ This menu lists quarantined elements for **Email**, **SMS** and **Push notificat
 
 例えば、ISP が停止した場合など、強制隔離リストで一括更新を実行する必要が生じる場合があります。 この場合、メールは受信者に正常に配信されないため、誤ってバウンスとマークされます。強制隔離リストからこれらのアドレスを削除する必要があります。
 
-これを実行するには、ワークフローを作成し、 **[!UICONTROL Query]** 強制隔離テーブルの「 」アクティビティを使用して、影響を受けたすべての受信者を除外します。 特定されると、それらは強制隔離リストから削除され、今後のキャンペーンメール配信に含めることができます。
+これを実行するには、ワークフローを作成し、強制隔離テーブルに **[!UICONTROL Query]** アクティビティを追加して、影響を受けたすべての受信者を除外します。 特定されると、それらは強制隔離リストから削除され、今後のキャンペーンメール配信に含めることができます。
 
 インシデントの期間に基づいて、このクエリの推奨ガイドラインを以下に示します。
 
@@ -147,7 +147,7 @@ This menu lists quarantined elements for **Email**, **SMS** and **Push notificat
 * **更新ステータス（@lastModified）**&#x200B;が `MM/DD/YYYY HH:MM:SS AM` 以降
 * **更新ステータス（@lastModified）**&#x200B;が `MM/DD/YYYY HH:MM:SS PM` 以前
 
-影響を受ける受信者のリストが揃ったら、 **[!UICONTROL Update data]** アクティビティのメールアドレスのステータスを次に設定： **[!UICONTROL Valid]** したがって、これらは、 **[!UICONTROL Database cleanup]** ワークフロー。 また、強制隔離テーブルから削除するだけでもかまいません。
+影響を受ける受信者のリストを受信したら、**[!UICONTROL Update data]** アクティビティを追加して、メール アドレスのステータスを **[!UICONTROL Valid]** に設定し、**[!UICONTROL Database cleanup]** ワークフローで強制隔離リストから削除されるようにします。 また、強制隔離テーブルから削除するだけでもかまいません。
 
 ## アドレスを強制隔離に送信するための条件 {#conditions-for-sending-an-address-to-quarantine}
 
@@ -181,4 +181,4 @@ Adobe Campaign の強制隔離では、大文字と小文字が区別されま�
 <!--In the default configuration, the threshold is set at five errors, where two errors are significant if they occur at least 24 hours apart. The address is placed in quarantine at the fifth error.
 The error counter threshold can be modified.-->
 
-最後に重大なエラーが発生したのが 10 日以上前の場合、エラーカウンターが再初期化されます。アドレスのステータスは、 **有効** 強制隔離のリストから、 **データベースのクリーンアップ** ワークフロー。 ( テクニカルワークフローについて詳しくは、 [この節](../../administration/using/technical-workflows.md#list-of-technical-workflows).)
+最後に重大なエラーが発生したのが 10 日以上前の場合、エラーカウンターが再初期化されます。その後、アドレスのステータスは **有効** に変わり、**データベースクリーンアップ** ワークフローによって強制隔離のリストから削除されます。 （テクニカルワークフローについて詳しくは、[ この節 ](../../administration/using/technical-workflows.md#list-of-technical-workflows) を参照してください）。

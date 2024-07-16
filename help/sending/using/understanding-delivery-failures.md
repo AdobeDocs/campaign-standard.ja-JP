@@ -8,10 +8,10 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 92a83400-447a-4d23-b05c-0ea013042ffa
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 449187bba167f9ce00e644d44a124b36030ba001
 workflow-type: tm+mt
 source-wordcount: '1281'
-ht-degree: 69%
+ht-degree: 66%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 69%
 >
 >**SMS** エラーメッセージまたは SR（「ステータスレポート」の意味）は MTA プロセスによって評価されます。
 
-アドレスが強制隔離されている場合や、プロファイルが配信上にある場合は、配信準備の際にメッセージを除外することもでブロックリストに加えるきます。 除外されたメッセージは、配信ダッシュボードの「**[!UICONTROL Exclusion logs]**」タブに表示されます（[こちらの節](../../sending/using/monitoring-a-delivery.md#exclusion-logs)を参照）。
+アドレスが強制隔離された場合や、プロファイルがブロックリストに登録されている場合は、配信の準備中にメッセージを除外することもできます。 除外されたメッセージは、配信ダッシュボードの「**[!UICONTROL Exclusion logs]**」タブに表示されます（[こちらの節](../../sending/using/monitoring-a-delivery.md#exclusion-logs)を参照）。
 
 ![](assets/exclusion_logs.png)
 
@@ -35,9 +35,9 @@ ht-degree: 69%
 
 * [強制隔離管理について](../../sending/using/understanding-quarantine-management.md)
 * [Campaign のオプトインとオプトアウトについて](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
-* [バウンス](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)
+* [ バウンス数 ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)
 
-## メッセージの配信エラーの識別 {#identifying-delivery-failures-for-a-message}
+## メッセージの配信エラーの特定 {#identifying-delivery-failures-for-a-message}
 
 配信が送られると、「**[!UICONTROL Sending logs]**」タブ（[こちらの節](../../sending/using/monitoring-a-delivery.md#sending-logs)を参照）で、各プロファイルの配信ステータス、関連するエラーのタイプと理由（「[配信エラーのタイプと理由](#delivery-failure-types-and-reasons)」を参照）を確認できます。
 
@@ -59,30 +59,30 @@ ht-degree: 69%
 | ---------|----------|---------|
 | **[!UICONTROL User unknown]** | ハード | アドレスが存在しません。このプロファイルに対する配信はこれ以上試行されません。 |
 | **[!UICONTROL Quarantined address]** | ハード | アドレスは強制隔離されました。 |
-| **[!UICONTROL Unreachable]** | ソフト/ハード | メッセージ配信チェーンにエラーが発生しました（一時的に到達できないドメインなど）。 プロバイダーから返されるエラーに従い、アドレスは強制隔離に直接送られます。また配信は、強制隔離ステータスが妥当と判断されるエラーを Campaign が受け取るまで、またはエラー件数が 5 に達するまで試行されます。 |
+| **[!UICONTROL Unreachable]** | ソフト/ハード | メッセージ配信チェーンでエラーが発生しました（ドメインに一時的に到達できないなど）。 プロバイダーから返されるエラーに従い、アドレスは強制隔離に直接送られます。また配信は、強制隔離ステータスが妥当と判断されるエラーを Campaign が受け取るまで、またはエラー件数が 5 に達するまで試行されます。 |
 | **[!UICONTROL Address empty]** | ハード | アドレスが定義されていません。 |
 | **[!UICONTROL Mailbox full]** | ソフト | このユーザーのメールボックスはいっぱいになっていて、メッセージをこれ以上受け入れることができません。このアドレスを強制隔離リストから削除して、再度試行できます。30 日後に自動的に削除されます。 強制隔離されたアドレスのリストからアドレスを自動的に削除するには、**[!UICONTROL Database cleanup]**&#x200B;テクニカルワークフローを開始する必要があります。 |
 | **[!UICONTROL Refused]** | ソフト/ハード | アドレスは、スパムレポートであるというセキュリティフィードバックが原因で強制隔離されました。プロバイダーから返されるエラーに従い、アドレスは強制隔離に直接送られます。また配信は、強制隔離ステータスが妥当と判断されるエラーを Campaign が受け取るまで、またはエラー件数が 5 に達するまで試行されます。 |
-| **[!UICONTROL Duplicate]** | 無視 | このアドレスは既にセグメント化で検出されています。 |
-| **[!UICONTROL Not defined]** | ソフト | エラーが増分されていないので、アドレスは検証中です。 | まだ。 このタイプのエラーは、サーバーが新しいエラーメッセージを送信すると発生します。単独のエラーである可能性もありますが、再度発生した場合はエラーカウンターがインクリメントされ、テクニカルチームに警告されます。 |
-| **[!UICONTROL Error ignored]** | 無視 | アドレスは許可リストに加える中で、このアドレスにはどのような場合にも E メールが送信されます。 |
-| **[!UICONTROL Address on denylist]** | ハード | 送信時にアドレスがブロックリストに加えるに追加されました。 |
-| **[!UICONTROL Account disabled]** | ソフト/ハード | インターネットアクセスプロバイダー (IAP) は、長期間使用されていないことを検出すると、そのユーザーのアカウントをクローズできます。そのユーザーのアドレスへの配信は不可能になります。 ソフト／ハードタイプは、受け取ったエラーの種類によって異なります。使用されていない期間が 6 ヶ月に達したのでアカウントが一時的に無効になっても、有効化できる場合は、「**[!UICONTROL Erroneous]**」ステータスが割り当てられ、配信が再試行されます。アカウントが永続的に無効化されたことを、受信したエラーが示している場合、アカウントは強制隔離に直接送られます。 |
-| **[!UICONTROL Not connected]** | 無視 | メッセージの送信時にプロファイルの携帯電話の電源が入っていないか、ネットワークに接続されていませんでした。 |
+| **[!UICONTROL Duplicate]** | 無視 | アドレスはセグメント化で既に検出されています。 |
+| **[!UICONTROL Not defined]** | ソフト | エラーがインクリメントされていないので、アドレスは選定中です。 | まだ。 このタイプのエラーは、サーバーが新しいエラーメッセージを送信すると発生します。単独のエラーである可能性もありますが、再度発生した場合はエラーカウンターがインクリメントされ、テクニカルチームに警告されます。 |
+| **[!UICONTROL Error ignored]** | 無視 | その住所は許可リストに書いてあり、いかなる場合でも電子メールが送られます。 |
+| **[!UICONTROL Address on denylist]** | ハード | このアドレスは送信時にブロックリストに追加されました。 |
+| **[!UICONTROL Account disabled]** | ソフト/ハード | インターネットアクセスプロバイダー（IAP）は、無操作状態が長時間続いていることを検出すると、ユーザーのアカウントを閉じることができます。その場合、ユーザーのアドレスへの配信は不可能になります。 ソフト／ハードタイプは、受け取ったエラーの種類によって異なります。使用されていない期間が 6 ヶ月に達したのでアカウントが一時的に無効になっても、有効化できる場合は、「**[!UICONTROL Erroneous]**」ステータスが割り当てられ、配信が再試行されます。アカウントが永続的に無効化されたことを、受信したエラーが示している場合、アカウントは強制隔離に直接送られます。 |
+| **[!UICONTROL Not connected]** | 無視 | メッセージの送信時に、プロファイルの携帯電話の電源がオフになっているか、ネットワークに接続されていません。 |
 | **[!UICONTROL Invalid domain]** | ソフト | メールアドレスのドメインが正しくないか、存在しません。このプロファイルは、エラーカウントが 5 にならない限り、再びターゲットになります。その後、レコードは強制隔離ステータスに設定され、以降は再試行されなくなります。 |
-| **[!UICONTROL Text too long]** | 無視 | SMS メッセージの文字数が上限を超えています。 詳しくは、[SMS のエンコーディング、長さ、表記変換](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration)を参照してください。 |
-| **[!UICONTROL Character not supported by encoding]** | 無視 | SMS メッセージに、エンコーディングでサポートされていない文字が 1 つ以上含まれています。 詳しくは、[文字の一覧 - GSM 標準](../../administration/using/configuring-sms-channel.md#table-of-characters---gsm-standard)を参照してください。 |
+| **[!UICONTROL Text too long]** | 無視 | SMS メッセージの文字数が制限を超えています。 詳しくは、[SMS のエンコーディング、長さ、表記変換](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration)を参照してください。 |
+| **[!UICONTROL Character not supported by encoding]** | 無視 | SMS メッセージに、エンコーディングでサポートされていない 1 つ以上の文字が含まれています。 詳しくは、[文字の一覧 - GSM 標準](../../administration/using/configuring-sms-channel.md#table-of-characters---gsm-standard)を参照してください。 |
 
 
 **関連トピック：**
-* [ハードバウンス](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=ja#hard-bounces)
-* [ソフトバウンス](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#soft-bounces)
+* [ ハードバウンス ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=ja#hard-bounces)
+* [ ソフトバウンス ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#soft-bounces)
 
 ## 一時的な配信エラーの後の再試行 {#retries-after-a-delivery-temporary-failure}
 
-一時的なエラーが原因でメッセージ送信が失敗した場合、配信期間中に再試行がおこなわれます。 エラーのタイプについて詳しくは、[配信エラーのタイプと理由](#delivery-failure-types-and-reasons)を参照してください。
+一時的エラーが原因でメッセージ送信が失敗した場合は、配信期間中に再試行が行われます。 エラーのタイプについて詳しくは、[配信エラーのタイプと理由](#delivery-failure-types-and-reasons)を参照してください。
 
-再試行の数（送信の開始後の日に実行する再試行の回数）と、再試行間の最小遅延が現在<!--managed by the Adobe Campaign Enhanced MTA,--> 特定のドメインでの IP の履歴と現在の両方のパフォーマンスに基づきます。 Campaign の&#x200B;**再試行**&#x200B;設定は無視されます。
+再試行の回数（送信の開始翌日に実行する必要がある再試行回数）と再試行間の最小遅延は <!--managed by the Adobe Campaign Enhanced MTA,--> 特定のドメインで IP が過去と現在の両方でどの程度機能しているかに基づきます。 Campaign の&#x200B;**再試行**&#x200B;設定は無視されます。
 
 <!--Please note that Adobe Campaign Enhanced MTA is not available for the Push channel.-->
 
@@ -92,11 +92,11 @@ ht-degree: 69%
 >
 >**Campaign 配信の「**[!UICONTROL Delivery duration]**」パラメーターは、3.5 日以下に設定した場合にのみ、使用されるようになりました。** 3.5 日を超える値を定義した場合、その値は考慮されません。
 
-例えば、配信の再試行を 1 日後に停止させたい場合、配信期間を **1d**&#x200B;に設定されていない場合、再試行キュー内のメッセージは 1 日後に削除されます。
+例えば、配信の再試行を 1 日後に停止する場合は、配信期間を **1d** に設定すると、再試行キューのメッセージは 1 日後に削除されます。
 
 >[!NOTE]
 >
->メッセージが最大 3.5 日間再試行キューに入り、配信に失敗した場合は、タイムアウトになり、ステータスは更新されます<!--from **[!UICONTROL Sent]**--> から **[!UICONTROL Failed]** （内） [配信ログ](../../sending/using/monitoring-a-delivery.md#delivery-logs).
+>メッセージが最大 3.5 日間再試行キューに入れられましたが、配信に失敗した場合は、タイムアウトになり、メッセージのステータスが更新され <!--from **[!UICONTROL Sent]**-->[ 配信ログ ](../../sending/using/monitoring-a-delivery.md#delivery-logs) に **[!UICONTROL Failed]** 示されます。
 
 <!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
 The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../administration/using/configuring-email-channel.md#sending-parameters)).-->
@@ -110,15 +110,15 @@ The default configuration allows five retries at one-hour intervals, followed by
 
 ## バウンスメールの選定 {#bounce-mail-qualification}
 
-同期配信失敗のエラーメッセージの場合、Adobe Campaign Enhanced MTA(Message Transfer Agent) はバウンスのタイプと選定を決定し、その情報を Campaign に返します。
+同期配信失敗のエラーメッセージについては、Adobe Campaign Enhanced MTA （Message Transfer Agent）がバウンスのタイプと検証を判断し、その情報を Campaign に返します。
 
 >[!NOTE]
 >
 >Campaign の&#x200B;**[!UICONTROL Message qualification]**&#x200B;テーブルでのバウンスの選定は使用されなくなりました。
 
-非同期バウンスは、引き続き「**[!UICONTROL Inbound email]**」ルールを通じて、inMail プロセスで選定されます。これらのルールにアクセスするには、 **Adobe** ロゴ（左上）に移動し、「 **[!UICONTROL Administration > Channels > Email > Email processing rules]** を選択し、 **[!UICONTROL Bounce mails]**. このルールについて詳しくは、 [この節](../../administration/using/configuring-email-channel.md#email-processing-rules).
+非同期バウンスは、引き続き「**[!UICONTROL Inbound email]**」ルールを通じて、inMail プロセスで選定されます。これらの規則にアクセスするには、左上の **0}Adobe} ロゴをクリックし、「**[!UICONTROL Administration > Channels > Email > Email processing rules]**」を選択して「**[!UICONTROL Bounce mails]**」を選択します。**&#x200B;このルールについて詳しくは、[ この節 ](../../administration/using/configuring-email-channel.md#email-processing-rules) を参照してください。
 
-バウンスと様々な種類のバウンスについて詳しくは、 [この節](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability).
+バウンスとさまざまなバウンスについて詳しくは、[ この節 ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability) を参照してください。
 
 <!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
 
@@ -132,10 +132,10 @@ To list the various bounces and their associated error types et reasons, click t
 
 ![](assets/qualification.png)-->
 
-## ダブルオプトインメカニズムによる E メール配信品質の最適化 {#optimizing-mail-deliverability-with-double-opt-in-mechanism}
+## ダブルオプトインメカニズムによるメール配信品質の最適化 {#optimizing-mail-deliverability-with-double-opt-in-mechanism}
 
 ダブルオプトインは、メールを送信する際のベストプラクティスです。不正なメールアアドレスや、無効なメールアドレス、スパムボットからプラットフォームを保護し、スパムの苦情が報告されないようにします。
 
-ダブルオプトインの原則は、訪問者を「プロファイル」としてキャンペーンのデータベースに保存する前に、メールを送信して合意を確認することです。オンラインランディングページに入力した訪問者は、受信したメールの確認リンクをクリックして購読を確定する必要があります。
+原則として、訪問者の同意を確認するメールを送信してから、Campaign データベースに「プロファイル」として保存します。訪問者がオンラインランディングページに入力すると、メールを受け取り、確認リンクをクリックして購読を確定します。
 
 詳しくは、[この節](../../channels/using/setting-up-a-double-opt-in-process.md)を参照してください。

@@ -1,6 +1,6 @@
 ---
 title: Adobe Campaign Standardの配信品質について
-description: 配信品質に関する概念とベストプラクティス、配信の送信を最適化するためにAdobe Campaign Standardが提供するツールについて説明します。
+description: 配信品質に関連する概念とベストプラクティスに加えて、配信の送信を最適化するためにAdobe Campaign Standardが提供するツールについて説明します。
 audience: sending
 content-type: reference
 topic-tags: sheduling-messages
@@ -9,20 +9,24 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 5e523519-7192-4031-9d96-559af23074d9
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: 449187bba167f9ce00e644d44a124b36030ba001
 workflow-type: tm+mt
-source-wordcount: '676'
-ht-degree: 69%
+source-wordcount: '697'
+ht-degree: 70%
 
 ---
 
 # 配信品質とは{#about-deliverability}
 
-配信品質を使用すると、バウンスしたりスパムとしてマークされたりせずに受信者の受信ボックスに到達したかに基づいて、キャンペーンの成功を測定できます。 [配信品質が重要な理由について説明します](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/deliverability-strategy-and-definition.html?lang=ja#why-deliverability-matters)。
+配信品質は、バウンスしたりスパムと見なされたりすることなく、受信者のインボックスに到達するキャンペーンの成否を測定する手法です。 [配信品質が重要な理由について説明します](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/deliverability-strategy-and-definition.html?lang=ja#why-deliverability-matters)。
 
-より正確に言えば、E メール配信品質とは、期待される品質のコンテンツとフォーマットを持つメッセージが、個人の E メールアドレスを通じて短時間で宛先に到達する能力を判断する一連の特性のことを指します。 <!--These characteristics fall into four main categories: data quality, message and content, sending infrastructure, and reputation. Together, they form the foundation of a successful email deliverability program.-->
+より正確には、メールの配信品質とは、個人のメールアドレスを介して、メッセージが短時間で、コンテンツや形式の面で期待される品質で宛先に届くかどうかを決定する一連の特性を指します。<!--These characteristics fall into four main categories: data quality, message and content, sending infrastructure, and reputation. Together, they form the foundation of a successful email deliverability program.-->
 
 配信品質とは何か、配信品質の主要な用語、概念およびアプローチの詳細については、[アドビの配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja)を参照してください
+
+>[!NOTE]
+>
+>配信品質チームのエンゲージメントは契約に基づいており、配信品質エンゲージメントに関する情報については、お客様はアドビ担当者に問い合わせる必要があります。
 
 ## 配信品質を向上させる方法 {#deliverability-key-points}
 
@@ -30,7 +34,7 @@ ht-degree: 69%
 
 * 成功するメールマーケティングキャンペーンを設計する方法に関する一般的なレコメンデーションについては、[配信品質の戦略と定義](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/deliverability-strategy-and-definition.html?lang=ja)を参照してください。
 
-* Adobe Campaign E メールの配信品質の最適化方法に関するより具体的な推奨事項については、この節に示すベストプラクティスを使用することをお勧めします。
+* Adobe Campaignのメールの配信品質を最適化する方法に関する具体的な推奨事項については、この節に示すベストプラクティスを使用することをお勧めします。
 
 >[!NOTE]
 >
@@ -38,7 +42,7 @@ ht-degree: 69%
 
 ### 配信品質率
 
-配信品質率は、受信者のインボックスに届いたメッセージの数と配信されたメッセージの数との比率ですこの比率を高めることにより、配信品質を向上させることができます。
+配信品質率は、受信者のインボックスに届いたメッセージの数と配信されたメッセージの数との比率です。この比率を高めることにより、配信品質を向上させることができます。
 
 Adobe Campaign では、配信品質は多くの要因に左右されます。特に次のような要因があげられます。
 
@@ -53,11 +57,11 @@ Adobe Campaign では、配信品質は多くの要因に左右されます。�
 
 ## Campaign の配信品質ツール {#deliverability-tools}
 
-Adobe Campaignには、プラットフォームの配信品質のパフォーマンスを追跡し改善するための様々なツールが用意されています。 また、Campaign を使用する際に配信品質を最適化するために考慮すべき主な原則についても説明します。
+Adobe Campaignには、プラットフォームの配信品質のパフォーマンスを追跡および向上させるための多くのツールが用意されています。 また、Campaign を使用する際に配信品質を最適化するために考慮すべき主な原則についても説明します。
 
 ### メッセージの慎重な作成
 
-メッセージを設定、設計、テストする場合は、次の節に記載されているベストプラクティスに従ってください。 Adobe Campaign で提供されるすべての機能を活用すると、配信品質の向上に役立ちます。
+メッセージを設定、設計、テストする場合は、以下に示す節に記載されているベストプラクティスに従ってください。 Adobe Campaign で提供されるすべての機能を活用すると、配信品質の向上に役立ちます。
 
 * [配信のベストプラクティス](../../sending/using/delivery-best-practices.md)
 * [メールコンテンツの制御](../../sending/using/control-email-content.md)
@@ -66,9 +70,9 @@ Adobe Campaignには、プラットフォームの配信品質のパフォーマ
 
 ### ダブルオプトインによる同意確認 {#double-opt-in}
 
-無効なアドレスへのメッセージ送信を回避し、不適切な通信を制限し、送信者の評判を向上させるには、ダブルオプトインのメカニズムの実装をお勧めします。これにより、受信者が意図的に購読したことを確認できます。
+無効なアドレスへのメッセージ送信を回避し、不適切な通信を制限し、送信者の評判を向上させるには、ダブルオプトインのメカニズムの実装をお勧めします。これにより、受信者が意図的に購読していることを確認できます。
 
-詳しくは、 [Campaign のオプトインとオプトアウトについて](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+詳しくは、[Campaign のオプトインとオプトアウトについて ](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md) を参照してください。
 
 顧客からデータを収集する際のベストプラクティスについて詳しくは、[アドビの配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/first-impressions/address-collection-and-list-growth.html?lang=ja#data-quality-and-hygiene)を参照してください。
 
@@ -90,7 +94,7 @@ Adobe Campaign は、絶えず発生するスパムの苦情、ハードバウ�
 
 Adobe Campaign が提供する機能を使用して、配信品質を監視します。
 
-Adobe Campaignでは、組み込みのリアルタイム指標を使用して、配信のパフォーマンスを確認できます。 <!--For example, you can check the number of messages that are successfully executed, sent and delivered. You can also verify the number of messages that have been opened and the number of messages/links that have been clicked.-->また、完全にカスタマイズ可能なリアルタイムレポートを作成して、配信に関するインサイトを改善することもできます。
+Adobe Campaignでは、一連のビルトインのリアルタイムインジケーターを使用して、配信のパフォーマンスを確認できます。 <!--For example, you can check the number of messages that are successfully executed, sent and delivered. You can also verify the number of messages that have been opened and the number of messages/links that have been clicked.--> 完全にカスタマイズ可能なリアルタイムのレポートを作成して、配信に関するインサイトを強化することもできます。
 
 詳しくは、以下の節を参照してください。
 
