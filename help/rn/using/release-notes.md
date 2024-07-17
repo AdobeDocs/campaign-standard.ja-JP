@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: 44c436a74a0a4aa688427bfb36d506566d57ac3a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '387'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -21,21 +21,21 @@ ht-degree: 79%
 
 ## 早期リリースノート {#e-new-release}
 
-この節では、次回のCampaign Standardリリースに含まれる改善点および変更点を示します。
+この節では、次回の Campaign Standard リリースに含まれる改善点および変更点について説明します。
 
 >[!CAUTION]
 >
->この内容は、ステージング環境のアップグレード日まで予告なしに変更される場合があります。詳しくは、[ リリース計画のページ ](../../rn/using/release-planning.md) を参照してください。
+>この内容は、ステージング環境のアップグレード日まで予告なしに変更される場合があります。詳しくは、[リリース計画のページ](../../rn/using/release-planning.md)を参照してください。
 
-**リリース 24.2 - 2024 年夏リリース**
+**リリース 24.2 - 2024年夏リリース**
 
-* **リリース日**:2024 年 8 月（限定提供） – [ 詳細情報 ](../../rn/using/release-planning.md)。
+* **リリース日**：2024年8月（限定提供） - [詳細情報](../../rn/using/release-planning.md)。
 
-* **OAuth サーバー間資格情報への移行**
+* **OAuth サーバー間の資格情報への移行**
 
   このバージョン以降、サービスアカウント（JWT）資格情報はアドビによって廃止され、アドビのソリューションおよびアプリとの Campaign アウトバウンド統合は OAuth サーバー間の資格情報に依存するようになりました。アドビでは、Campaign と Analytics 統合や Experience Cloud トリガー統合などのアウトバウンド統合に対して、JWT から OAuth への移行を実行します。
 
-  Campaign とのインバウンド統合を実装して、[Campaign API](../../api/using/get-started-apis.md) を使用している場合は、[ このドキュメント ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"} に記載されているようにテクニカルアカウントを移行する必要があります。 既存のサービスアカウント（JWT）資格情報は、**2025 年 1 月 27 日** に動作を停止します。
+  Campaign とのインバウンド統合を実装していて、[Campaign API](../../api/using/get-started-apis.md) を使用している場合は、[このドキュメント](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}の説明に従って、テクニカルアカウントを移行する必要があります。既存のサービスアカウント（JWT）資格情報は、**2025年1月27日（PT）**&#x200B;に機能しなくなります。
 
 
 ## リリース 24.1 - 2024年冬リリース {#winter-24}
