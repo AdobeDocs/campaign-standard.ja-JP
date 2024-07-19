@@ -1,6 +1,6 @@
 ---
 title: リソースの作成または拡張
-description: リソースを最初から定義する方法を説明します。
+description: リソースをゼロから定義する方法を説明します。
 audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
@@ -17,9 +17,9 @@ ht-degree: 11%
 
 # リソースの作成または拡張{#creating-or-extending-the-resource}
 
-組み込みデータモデルに含まれていないデータを操作する必要がある場合は、管理者が最初から新しいリソースを作成したり、既存のリソースの拡張を作成したりできます。
+ビルトインデータモデルに含まれていないデータを操作する必要がある場合、管理者は新しいリソースをゼロから作成したり、既存のリソースの拡張機能を作成したりできます。
 
-拡張できる組み込みリソースは次のみです。
+拡張できるのは、次の組み込みリソースのみです。
 
 * **[!UICONTROL Campaign (campaign)]**
 * **[!UICONTROL Deliveries (delivery)]**
@@ -33,10 +33,10 @@ ht-degree: 11%
 
 リソースを作成または拡張するには：
 
-1. 送信者 **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom Resources]**&#x200B;をクリックし、 **[!UICONTROL Create]** 」ボタンをクリックします。
+1. **[!UICONTROL Administration]**/**[!UICONTROL Development]**/**[!UICONTROL Custom Resources]** から、「**[!UICONTROL Create]**」ボタンをクリックします。
 1. 実行するアクションを選択します。
 
-   * **[!UICONTROL Create a new resource]**: **[!UICONTROL Label]** および **[!UICONTROL ID]** フィールド。 「**[!UICONTROL ID]**」フィールドは必須です。「ラベル」フィールドを空のままにすると、ID から自動的に入力されます。
+   * **[!UICONTROL Create a new resource]**:「**[!UICONTROL Label]**」フィールドと「**[!UICONTROL ID]**」フィールドを入力します。 「**[!UICONTROL ID]**」フィールドは必須です。「ラベル」フィールドを空のままにすると、ID から自動的に入力されます。
 
      ![](assets/schema_extension_2.png)
 
@@ -48,6 +48,6 @@ ht-degree: 11%
 
      ![](assets/schema_extension_10.png)
 
-1. クリック **[!UICONTROL Create]** リソースを作成します。このリソースは、 **[!UICONTROL Draft]** 新しいリソースの場合のステータス、または **[!UICONTROL Editing]** ステータス（拡張の場合）。
+1. 「**[!UICONTROL Create]**」をクリックしてリソースを作成します。これにより、新しいリソースの場合は **[!UICONTROL Draft]** ステータスが取得され、拡張機能の場合は **[!UICONTROL Editing]** ステータスが取得されます。
 
-新しいリソースが作成され、設定できるようになります。 リソースの設定について詳しくは、 [リソースのデータ構造の設定](../../developing/using/configuring-the-resource-s-data-structure.md).
+新しいリソースが作成され、設定できるようになります。 リソースの設定について詳しくは、[ リソースのデータ構造の設定 ](../../developing/using/configuring-the-resource-s-data-structure.md) を参照してください。

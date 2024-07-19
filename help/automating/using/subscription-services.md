@@ -28,7 +28,7 @@ ht-degree: 96%
 >
 >サブスクリプションがワークフローのコンテキストで管理される場合、サービスプロパティで定義されている様々な確認メールは、登録済みまたは登録解除済みのプロファイルには配信されません。
 
-## 使用状況 {#context-of-use}
+## 使用コンテキスト {#context-of-use}
 
 「**[!UICONTROL Subscription Services]**」アクティビティは、複数のプロファイルのサービスへの購読登録とサービスからの購読登録解除を Adobe Campaign で一括で行える唯一の機能です。
 
@@ -38,8 +38,8 @@ ht-degree: 96%
 
 **関連トピック：**
 
-* [ユースケース：ファイルから複数の購読ステータスを更新する](../../automating/using/updating-subscriptions-from-file.md)
-* [使用例：ファイルから特定のサービスへのプロファイルの購読登録](../../automating/using/subscribing-profiles-from-file.md)
+* [ユースケース：ファイルからの複数の購読ステータスの更新](../../automating/using/updating-subscriptions-from-file.md)
+* [ユースケース：ファイルから特定のサービスへのプロファイルの購読](../../automating/using/subscribing-profiles-from-file.md)
 
 ## 設定 {#configuration}
 
@@ -69,7 +69,7 @@ ht-degree: 96%
 
    これでワークフローを実行する準備が整いました。ワークフローを実行したら、サービスに購読登録またはサービスから購読登録解除したプロファイルがサービスの詳細に表示されます。
 
-## 例：ファイルをインポートした後で特定のサービスにプロファイルを購読登録する {#example--subscribing-profiles-to-a-specific-service-after-importing-a-file}
+## 例：ファイルのインポート後の特定のサービスへのプロファイルの購読 {#example--subscribing-profiles-to-a-specific-service-after-importing-a-file}
 
 次の例では、プロファイルを含んだファイルをインポートし、これらのプロファイルを既存のサービスに購読登録する方法を示します。ファイルをインポートした後で、インポートしたデータをプロファイルとして識別できるように紐付けをおこなう必要があります。ファイルに重複が含まれていないことを確認するために、データに対して「重複排除 - 重複」アクティビティが実行されます。
 
@@ -108,7 +108,7 @@ ht-degree: 96%
 
   ![](assets/subscription_activity_example4.png)
 
-## 例：ファイルから複数の購読ステータスを更新する {#example--updating-multiple-subscription-statuses-from-a-file}
+## 例：ファイルからの複数の購読ステータスの更新 {#example--updating-multiple-subscription-statuses-from-a-file}
 
 次の例では、プロファイルを含んだファイルをインポートして、プロファイルの購読登録先を、ファイルで指定されたいくつかのサービスに更新する方法を示します。ファイルをインポートした後で、インポートしたデータを、サービスにリンクされたプロファイルとして識別できるように紐付けをおこなう必要があります。ファイルに重複が含まれていないことを確認するために、データに対して「重複排除 - 重複」アクティビティが実行されます。
 

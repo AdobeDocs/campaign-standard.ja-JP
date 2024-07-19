@@ -1,6 +1,6 @@
 ---
 title: Adobe Experience Platform オーディエンスのターゲティング
-description: ワークフロー内でAdobe Experience Platformオーディエンスをターゲットにする方法について説明します。
+description: ワークフロー内でAdobe Experience Platform オーディエンスをターゲットにする方法を説明します。
 audience: automating
 content-type: reference
 topic-tags: channel-activities
@@ -21,47 +21,47 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->Audience Destinations サービスは現在ベータ版です。通知なしに頻繁に更新される可能性があります。 お客様は、これらの機能にアクセスするには、Azure 上でホストされている必要があります（現在、北米ではベータ版のみ）。 にアクセスする場合は、Adobeカスタマーケアにお問い合わせください。
+>Audience Destinations サービスは現在ベータ版です。予告なく頻繁に更新される場合があります。 これらの機能にアクセスするには、お客様を Azure でホストする必要があります（現在は北米向けのベータ版のみ）。 アクセスをご希望の場合は、Adobeカスタマーケアにお問い合わせください。
 
-以下を作成したら、 [Adobe Experience Platformオーディエンス](../../integrating/using/aep-about-audience-destinations-service.md) セグメントビルダーを使用すると、ワークフロー内の Campaign オーディエンスがメッセージをパーソナライズおよび送信する際と同じ方法で使用できます。
+セグメントビルダーを使用して [Adobe Experience Platform オーディエンスを作成すると ](../../integrating/using/aep-about-audience-destinations-service.md) ワークフロー内のキャンペーンオーディエンスと同じように使用して、メッセージをパーソナライズして送信できます。
 
-ワークフローでAdobe Experience Platformオーディエンスをアクティブ化するには、次の手順に従います。
+ワークフローでAdobe Experience Platform オーディエンスをアクティブ化するには、次の手順に従います。
 
-1. を追加します。 **[!UICONTROL Read audience]** 「 」アクティビティをワークフローに追加し、開きます。
+1. **[!UICONTROL Read audience]** アクティビティをワークフローに追加してから開きます。
 
-1. を選択します。 **[!UICONTROL Adobe Experience Platform]** 下のオプション **[!UICONTROL Type of audience]**&#x200B;次に、目的のオーディエンスを追加します。
+1. **[!UICONTROL Type of audience]** の下の「**[!UICONTROL Adobe Experience Platform]**」オプションを選択し、目的のオーディエンスを追加します。
 
    ![](assets/aep_wkf_readaudience.png)
 
-1. （オプション）オーディエンスが選択されたら、目のボタンをクリックして、セグメント定義を確認または編集できます（変更を再度保存してください）。
+1. （任意）オーディエンスを選択したら、「目」ボタンをクリックして、セグメント定義を確認や編集できます（必ず変更内容を再度保存します）。
 
-   目のボタンをクリックすると、Campaign 内の選択したオーディエンスに関連付けられている（別のタブの）セグメントビルダーに移動します。
+   目のボタンをクリックすると、Campaign 内の選択したオーディエンスに関連付けられた（別のタブの）セグメントビルダーに移動します。
 
-1. を選択します。 **[!UICONTROL Platform data mapping]** 要素を使用して、選択したAdobe Experience Platformオーディエンスの目的のターゲティングディメンションを指定します。
+1. **[!UICONTROL Platform data mapping]** 要素を選択し、選択したAdobe Experience Platform オーディエンスに対して目的のターゲティングディメンションを指定します。
 
-   デフォルトでは、紐付けに使用されるプライマリキー（例：プロファイルテーブルの iRecipientID、AppSubscription テーブルの iAppSubscriptionID）は、ドロップダウンリストから自動的に使用できます。 プライマリキー以外でターゲット設定するには、カスタムキーを作成する必要があります **名前空間**.
+   デフォルトでは、紐付けに使用するプライマリキー（プロファイルテーブルの iRecipientID、AppSubscription テーブルの iAppSubscriptionID など）は、ドロップダウンリストから自動的に使用できます。 プライマリキーの外部をターゲットにするには、カスタム **名前空間** を作成する必要があります。
 
    >[!NOTE]
    >
-   >プライマリキー以外のターゲットの場合は、カスタム名前空間に対応するカスタムターゲットマッピングも作成する必要があります。 ターゲットマッピングについて詳しくは、 [この節](../../administration/using/target-mappings-in-campaign.md).
+   >プライマリキー以外のターゲットの場合は、カスタム名前空間に対応するカスタムターゲットマッピングも作成する必要があります。 ターゲットマッピングについて詳しくは、[ この節 ](../../administration/using/target-mappings-in-campaign.md) を参照してください。
 
    ![](assets/aep_wkf_readaudience_namespace.png)
 
-   このリストには、インスタンスで設定されたすべての Experience Data Model(XDM) マッピングが含まれています。 Adobe Experience Platform Data Connector について詳しくは、 [この専用ドキュメント](../../integrating/using/aep-about-data-connector.md).
+   このリストには、インスタンスで設定されたすべてのエクスペリエンスデータモデル（XDM）マッピングが含まれています。 Adobe Experience Platform Data Connector について詳しくは、[ この専用ドキュメント ](../../integrating/using/aep-about-data-connector.md) を参照してください。
 
    ![](assets/aep_wkf_readaudience_namespace2.png)
 
-1. オーディエンスとターゲティングディメンションが正しく設定されたら、 **[!UICONTROL Confirm]** ボタンをクリックして、変更を保存します。
+1. オーディエンスとターゲティングディメンションを正しく設定したら、「**[!UICONTROL Confirm]**」ボタンをクリックして変更を保存します。
 
-これで、他のアクティビティを使用したワークフローを設定できます。 例えば、 **[!UICONTROL Email delivery]** 「 」アクティビティを選択して、選択したオーディエンスに E メールを送信します。
+これで、他のアクティビティでワークフローを設定できるようになりました。 例えば、**[!UICONTROL Email delivery]** アクティビティをリンクして、選択したオーディエンスにメールを送信できます。
 
 ![](assets/aep_wkf_email.png)
 
 >[!NOTE]
 >
->Campaign Standardを使用すると、E メール、SMS メッセージ、ダイレクトメールメッセージ、プッシュ通知、アプリ内メッセージなど、すべての配信チャネル内のAdobe Experience Platformオーディエンスをターゲットにすることができます。
+>Campaign Standardを使用すると、メール、SMS メッセージ、ダイレクトメールメッセージ、プッシュ通知、アプリ内メッセージなどのすべての配信チャネル内で、Adobe Experience Platform オーディエンスをターゲットに設定できます。
 >
->*注意：すべてのプッシュメッセージおよびアプリ内メッセージで、Campaign Standardは既知のプロファイルの配信のみをサポートします。
+>*メモ：すべてのプッシュメッセージおよびアプリ内メッセージで、Campaign Standardは、既知のプロファイルのみの配信をサポートします。
 
 ワークフローと配信の使用方法について詳しくは、次の節を参照してください。
 

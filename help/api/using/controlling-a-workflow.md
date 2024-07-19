@@ -23,20 +23,20 @@ ht-degree: 11%
 
 >[!CAUTION]
 >
->Adobe Campaignでワークフロー ID が変更された場合、API リクエストは機能しなくなります。
+>Adobe Campaignでワークフロー ID が変更されると、API リクエストは機能しなくなります。
 
-ワークフローを制御するために、次の 4 つの実行コマンドを使用できます。
+ワークフローの制御には、次の 4 つの実行コマンドを使用できます。
 
 * 開始
 * 一時停止
 * 再開
 * 停止
 
-実行コマンドについて詳しくは、 [Campaign ドキュメント](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/about-workflow-execution.html).
+実行コマンドについて詳しくは、[Campaign ドキュメント ](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/about-workflow-execution.html) を参照してください。
 
 <br/>
 
-***リクエストのサンプル***
+***サンプルリクエスト***
 
 * ワークフローを開始します。
 

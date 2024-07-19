@@ -1,6 +1,6 @@
 ---
 title: リストのカスタマイズ
-description: 「Adobe Campaign Standardのリスト画面での表示をカスタマイズし、操作する方法（要素の並べ替え、フィルタリング、削除または複製）について説明します。 リスト画面には、指定した 1 つまたは複数のリソースの表示要素が表示されます。」
+description: 「Adobe Campaign Standardでリスト画面の表示をカスタマイズし、操作する方法を説明します。並べ替え、フィルタリング、削除、複製などです。 指定された 1 つまたは複数のリソースの要素を画面に表示します。」
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
@@ -32,7 +32,7 @@ ht-degree: 8%
 <tr>
 <td>Campaign データモデル</td>
 <td>REST API の操作</td>
-<td>ユーザーを管理</td>
+<td>ユーザー管理</td>
 <td>インスタンスの設定と監視</td>
 </tr>
 </table>
@@ -41,7 +41,7 @@ ht-degree: 8%
 
 <img width="60px" alt="条件" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. 前庭の placerat mauris levero、非非非非難の sapien rhoncus id. 整数 luctus blandit リグラ。 ヌラ・クイス・ビヒュラ・オーグエ、ラシニア・リサス。 Nunc pharetra fringilla enim eu suscipit. Mauris consectur maximus euismod. CRAS と車の NULLA。 Aenean tellus quam, tristique quis risus consectur, pulvinar elementum dui.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id.（セイヨウキョウ） 整数の Luctus blandit ligula。 Nulla quis vehicula augue、lacinia risus （カワタケ） Nunc pharetra fringilla enim eu suscipit. （英語） Mauris consectur maximus euismod （モウリス・コンセクチュール・マクシムス・オイスモド） カーゼット ビーチュラ ヌーラ。 Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui. （アエネイ・テルス・クアム、トリスティーク・クイス・リサス・コンセクトゥール、プルビナール・エレメンタム・ドゥイ）
 
 **詳細情報**
 
@@ -52,18 +52,18 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. 前庭の placerat maur
 
 <img width="60px" alt="条件" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. 前庭の placerat mauris levero、非非非非難の sapien rhoncus id. 整数 luctus blandit リグラ。 ヌラ・クイス・ビヒュラ・オーグエ、ラシニア・リサス。 Nunc pharetra fringilla enim eu suscipit. Mauris consectur maximus euismod. CRAS と車の NULLA。 Aenean tellus quam, tristique quis risus consectur, pulvinar elementum dui.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id.（セイヨウキョウ） 整数の Luctus blandit ligula。 Nulla quis vehicula augue、lacinia risus （カワタケ） Nunc pharetra fringilla enim eu suscipit. （英語） Mauris consectur maximus euismod （モウリス・コンセクチュール・マクシムス・オイスモド） カーゼット ビーチュラ ヌーラ。 Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui. （アエネイ・テルス・クアム、トリスティーク・クイス・リサス・コンセクトゥール、プルビナール・エレメンタム・ドゥイ）
 
 **詳細情報**
 
 * xxxx
 * xxxx
 
-## ユーザーを管理
+## ユーザー管理
 
 <img width="60px" alt="条件" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. 前庭の placerat mauris levero、非非非非難の sapien rhoncus id. 整数 luctus blandit リグラ。 ヌラ・クイス・ビヒュラ・オーグエ、ラシニア・リサス。 Nunc pharetra fringilla enim eu suscipit. Mauris consectur maximus euismod. CRAS と車の NULLA。 Aenean tellus quam, tristique quis risus consectur, pulvinar elementum dui.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id.（セイヨウキョウ） 整数の Luctus blandit ligula。 Nulla quis vehicula augue、lacinia risus （カワタケ） Nunc pharetra fringilla enim eu suscipit. （英語） Mauris consectur maximus euismod （モウリス・コンセクチュール・マクシムス・オイスモド） カーゼット ビーチュラ ヌーラ。 Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui. （アエネイ・テルス・クアム、トリスティーク・クイス・リサス・コンセクトゥール、プルビナール・エレメンタム・ドゥイ）
 
 **詳細情報**
 
@@ -74,7 +74,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. 前庭の placerat maur
 
 <img width="60px" alt="条件" src="assets/icon_profile.svg"/>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. 前庭の placerat mauris levero、非非非非難の sapien rhoncus id. 整数 luctus blandit リグラ。 ヌラ・クイス・ビヒュラ・オーグエ、ラシニア・リサス。 Nunc pharetra fringilla enim eu suscipit. Mauris consectur maximus euismod. CRAS と車の NULLA。 Aenean tellus quam, tristique quis risus consectur, pulvinar elementum dui.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mauris libero, non congue sapien rhoncus id.（セイヨウキョウ） 整数の Luctus blandit ligula。 Nulla quis vehicula augue、lacinia risus （カワタケ） Nunc pharetra fringilla enim eu suscipit. （英語） Mauris consectur maximus euismod （モウリス・コンセクチュール・マクシムス・オイスモド） カーゼット ビーチュラ ヌーラ。 Aenean tellus quam, tristique quis risus consectetur, pulvinar elementum dui. （アエネイ・テルス・クアム、トリスティーク・クイス・リサス・コンセクトゥール、プルビナール・エレメンタム・ドゥイ）
 
 **詳細情報**
 

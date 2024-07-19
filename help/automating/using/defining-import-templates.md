@@ -48,7 +48,7 @@ ht-degree: 96%
 
 1. 「**[!UICONTROL Workflow]**」タブに移動します。ここでは、必要に応じて新しいアクティビティを追加することで、デフォルトで提供されるワークフローを拡張できます。
 
-   ワークフローアクティビティを設定する方法の詳細については、[例：インポートワークフローテンプレート](../../automating/using/creating-import-workflow-templates.md)の節にある使用例を参照してください。この使用例は、Adobe Campaignデータベースの CRM からのプロファイルのインポートに再利用できるワークフローを設定する場合に役立ちます。
+   ワークフローアクティビティを設定する方法の詳細については、[例：インポートワークフローテンプレート](../../automating/using/creating-import-workflow-templates.md)の節にある使用例を参照してください。このユースケースは、Adobe Campaign データベースの CRM からプロファイルを読み込むために再利用できるワークフローを設定する際に役立ちます。
 
 1. ワークフローの設定が正しく適用されるように、テンプレートを保存します。
 1. 「**[!UICONTROL Properties]**」タブからサンプルファイルをアップロードします。アップロードされたファイルには、今後のインポートやサンプルデータに必要な列のみを含めることができます。サンプルファイルのデータを使用すると、ワークフローを定義した後、簡易インポートをテストできます。
@@ -80,5 +80,5 @@ ht-degree: 96%
 
 * [ワークフロー](../../automating/using/get-started-workflows.md)
 * [データのインポートおよびエクスポート](../../automating/using/about-data-import-and-export.md)
-* [例：インポートワークフローテンプレート](../../automating/using/creating-import-workflow-templates.md)
+* [例：ワークフローテンプレートの読み込み](../../automating/using/creating-import-workflow-templates.md)
 

@@ -1,6 +1,6 @@
 ---
-title: DataModel Audience
-description: データモデルの詳細
+title: データモデルオーディエンス
+description: データモデルについて説明します
 audience: developing
 content-type: reference
 feature: Data Model
@@ -14,7 +14,7 @@ ht-degree: 40%
 
 ---
 
-# オーディエンス (nms:audience)
+# オーディエンス （nms:audience）
 
 ## オブジェクトの説明
 
@@ -22,7 +22,7 @@ ht-degree: 40%
                <tr>
                   <th>名前</th>
                   <th>ラベル</th>
-                  <th>タイプ（長さ）</th>
+                  <th>タイプ （長さ）</th>
                   <th>列挙値</th>
                </tr>
                <tr>
@@ -34,11 +34,11 @@ ht-degree: 40%
                <tr>
                   <td>aamMappingId</td>
                   <td>Audience Managerマッピング ID</td>
-                  <td>文字列 (100)</td>
+                  <td>文字列（100）</td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>amcDataSource (amcDataSourceBase)</td>
+                  <td>amcDataSource （amcDataSourceBase）</td>
                   <td>AMC データソース</td>
                   <td>リンク </td>
                   <td> </td>
@@ -52,18 +52,18 @@ ht-degree: 40%
                <tr>
                   <td>audienceDataSchema</td>
                   <td>データスキーマ</td>
-                  <td>文字列 (255)</td>
+                  <td>文字列（255）</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>audienceMetadata</td>
                   <td>AudienceMetadata</td>
-                  <td>文字列 (255)</td>
+                  <td>文字列（255）</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>collectLineNumber</td>
-                  <td>行番号を ID として使用</td>
+                  <td>ライン番号を ID として使用</td>
                   <td>ブール値 </td>
                   <td> </td>
                </tr>
@@ -75,7 +75,7 @@ ht-degree: 40%
                </tr>
                <tr>
                   <td>countDate</td>
-                  <td>カウント日</td>
+                  <td>日付をカウント</td>
                   <td>日付 </td>
                   <td> </td>
                </tr>
@@ -92,15 +92,15 @@ ht-degree: 40%
                   <td> </td>
                </tr>
                <tr>
-                  <td>createdBy (userBase)</td>
+                  <td>createdBy （userBase）</td>
                   <td>作成者</td>
                   <td>リンク </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>desc</td>
+                  <td>降順</td>
                   <td>説明</td>
-                  <td>文字列 (512)</td>
+                  <td>文字列（512）</td>
                   <td> </td>
                </tr>
                <tr>
@@ -122,7 +122,7 @@ ht-degree: 40%
                   <td> </td>
                </tr>
                <tr>
-                  <td>geoUnit (geoUnitBase)</td>
+                  <td>geoUnit （geoUnitBase）</td>
                   <td>地理的単位</td>
                   <td>リンク </td>
                   <td> </td>
@@ -135,18 +135,18 @@ ht-degree: 40%
                </tr>
                <tr>
                   <td>isAMC</td>
-                  <td>Adobe Marketing Cloudオーディエンス</td>
+                  <td>Adobe Marketing Cloud オーディエンス</td>
                   <td>ブール値 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>isExternal</td>
-                  <td>外部リソースです</td>
+                  <td>外部リソース</td>
                   <td>ブール値 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>jobLogs</td>
+                  <td>jobLog</td>
                   <td>ログ</td>
                   <td>コレクション </td>
                   <td> </td>
@@ -154,17 +154,17 @@ ht-degree: 40%
                <tr>
                   <td>ラベル</td>
                   <td>ラベル</td>
-                  <td>文字列 (128)</td>
+                  <td>文字列（128）</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>lastModified</td>
-                  <td>最終変更日時</td>
+                  <td>最終変更日</td>
                   <td>日付 </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>modifiedBy (userBase)</td>
+                  <td>modifiedBy （userBase）</td>
                   <td>変更者</td>
                   <td>リンク </td>
                   <td> </td>
@@ -172,11 +172,11 @@ ht-degree: 40%
                <tr>
                   <td>name</td>
                   <td>ID</td>
-                  <td>文字列 (64)</td>
+                  <td>文字列（64）</td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>orgUnit (orgUnitBase)</td>
+                  <td>orgUnit （orgUnitBase）</td>
                   <td>組織単位</td>
                   <td>リンク </td>
                   <td> </td>
@@ -208,24 +208,24 @@ ht-degree: 40%
                <tr>
                   <td>タイトル</td>
                   <td>オーディエンス</td>
-                  <td>文字列 (255)</td>
+                  <td>文字列（255）</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>タイプ</td>
                   <td>タイプ</td>
-                  <td>enumeration（文字列） (100)</td>
+                  <td>列挙（文字列）（100）</td>
                   <td>
                      <ul>
-                        <li>クエリ — クエリ — クエリ</li>
-                        <li>リスト — リスト — リスト</li>
-                        <li>ファイル — ファイル — ファイル</li>
-                        <li>無効な値 — __Invalid_value__ - __Invalid_value__</li>
+                        <li>クエリ – クエリ – クエリ</li>
+                        <li>リスト – リスト – リスト</li>
+                        <li>ファイル – ファイル – ファイル</li>
+                        <li>無効な値 – __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
                <tr>
-                  <td>場所</td>
+                  <td>ここで、</td>
                   <td>クエリ定義</td>
                   <td>項目 </td>
                   <td> </td>
@@ -240,7 +240,7 @@ ht-degree: 40%
 
 ## フィルター
 
-ディメンションのフィルタリング (byFilteringResource)
+ディメンションのフィルター別（byFilteringResource）
 
 <table>
     <tr>
@@ -253,7 +253,7 @@ ht-degree: 40%
     </tr>
 </table>
 
-名前別またはラベル別（テキスト別）
+名前またはラベル （byText）
 
 <table>
     <tr>
@@ -266,7 +266,7 @@ ht-degree: 40%
     </tr>
 </table>
 
-タイプ別 (byType)
+タイプ別（byType）
 
 <table>
     <tr>
@@ -275,7 +275,7 @@ ht-degree: 40%
     </tr>
     <tr>
     <td>タイプ</td>
-    <td>列挙</td>
+    <td>定義済みリスト</td>
     </tr>
     <tr>
     <td>isAMC</td>

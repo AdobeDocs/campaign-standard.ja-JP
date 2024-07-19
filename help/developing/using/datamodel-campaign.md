@@ -1,6 +1,6 @@
 ---
 title: データモデルキャンペーン
-description: データモデルの詳細
+description: データモデルについて説明します
 audience: developing
 content-type: reference
 feature: Data Model
@@ -14,7 +14,7 @@ ht-degree: 40%
 
 ---
 
-# キャンペーン (nms:campaign)
+# キャンペーン（nms:campaign）
 
 ## オブジェクトの説明
 
@@ -22,7 +22,7 @@ ht-degree: 40%
                <tr>
                   <th>名前</th>
                   <th>ラベル</th>
-                  <th>タイプ（長さ）</th>
+                  <th>タイプ （長さ）</th>
                   <th>列挙値</th>
                </tr>
                <tr>
@@ -50,15 +50,15 @@ ht-degree: 40%
                   <td> </td>
                </tr>
                <tr>
-                  <td>createdBy (userBase)</td>
+                  <td>createdBy （userBase）</td>
                   <td>作成者</td>
                   <td>リンク </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>desc</td>
+                  <td>降順</td>
                   <td>説明</td>
-                  <td>文字列 (512)</td>
+                  <td>文字列（512）</td>
                   <td> </td>
                </tr>
                <tr>
@@ -74,14 +74,14 @@ ht-degree: 40%
                   <td> </td>
                </tr>
                <tr>
-                  <td>geoUnit (geoUnitBase)</td>
+                  <td>geoUnit （geoUnitBase）</td>
                   <td>地理的単位</td>
                   <td>リンク </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>isExternal</td>
-                  <td>外部リソースです</td>
+                  <td>外部リソース</td>
                   <td>ブール値 </td>
                   <td> </td>
                </tr>
@@ -94,32 +94,32 @@ ht-degree: 40%
                <tr>
                   <td>ラベル</td>
                   <td>ラベル</td>
-                  <td>文字列 (128)</td>
+                  <td>文字列（128）</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>lastModified</td>
-                  <td>最終変更日時</td>
+                  <td>最終変更日</td>
                   <td>日付 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>logicalStatus</td>
                   <td>実行ステータス</td>
-                  <td>enumeration（文字列） (255)</td>
+                  <td>列挙（文字列） （255）</td>
                   <td>
                      <ul>
-                        <li>進行中 — 開始 — 開始済み</li>
-                        <li>編集 — エディション — エディション</li>
-                        <li>完了 — 完了 — 終了</li>
-                        <li>警告 — 警告 — 警告</li>
-                        <li>エラー — エラー — エラー</li>
-                        <li>無効な値 — __Invalid_value__ - __Invalid_value__</li>
+                        <li>処理中 – 開始 – 開始</li>
+                        <li>編集 – エディション – エディション</li>
+                        <li>完了 – 完了 – 完了</li>
+                        <li>警告 – 警告 – 警告</li>
+                        <li>エラー – エラー – エラー</li>
+                        <li>無効な値 – __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
                <tr>
-                  <td>modifiedBy (userBase)</td>
+                  <td>modifiedBy （userBase）</td>
                   <td>変更者</td>
                   <td>リンク </td>
                   <td> </td>
@@ -127,17 +127,17 @@ ht-degree: 40%
                <tr>
                   <td>name</td>
                   <td>ID</td>
-                  <td>文字列 (64)</td>
+                  <td>文字列（64）</td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>orgUnit (orgUnitBase)</td>
+                  <td>orgUnit （orgUnitBase）</td>
                   <td>組織単位</td>
                   <td>リンク </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>プログラム (programBase)</td>
+                  <td>プログラム（programBase）</td>
                   <td>プログラム</td>
                   <td>リンク </td>
                   <td> </td>
@@ -160,15 +160,15 @@ ht-degree: 40%
                   <td>列挙（バイト） </td>
                   <td>
                      <ul>
-                        <li>開始済み — 開始済み — 1</li>
-                        <li>編集 — エディション — 0</li>
-                        <li>完了 — 終了 — 2</li>
-                        <li>無効な値 — __Invalid_value__ - __Invalid_value__</li>
+                        <li>開始日 – 開始日 – 1</li>
+                        <li>編集中 – エディション - 0</li>
+                        <li>終了 – 終了 – 2</li>
+                        <li>無効な値 – __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
                <tr>
-                  <td>テンプレート（キャンペーン）</td>
+                  <td>テンプレート （campaign）</td>
                   <td>キャンペーンテンプレート</td>
                   <td>リンク </td>
                   <td> </td>
@@ -176,20 +176,20 @@ ht-degree: 40%
                <tr>
                   <td>thumbnail</td>
                   <td>サムネイル</td>
-                  <td>文字列 (255)</td>
+                  <td>文字列（255）</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>タイトル</td>
                   <td>キャンペーン</td>
-                  <td>文字列 (255)</td>
+                  <td>文字列（255）</td>
                   <td> </td>
                </tr>
             </table>
 
 ## フィルター
 
-論理ステータス別 (byLogicalStatus)
+論理ステータス別（byLogicalStatus）
 
 <table>
     <tr>
@@ -198,11 +198,11 @@ ht-degree: 40%
     </tr>
     <tr>
     <td>都道府県</td>
-    <td>列挙</td>
+    <td>定義済みリスト</td>
     </tr>
 </table>
 
-名前別またはラベル別（テキスト別）
+名前またはラベル （byText）
 
 <table>
     <tr>
@@ -215,7 +215,7 @@ ht-degree: 40%
     </tr>
 </table>
 
-期間別（期間別）
+期間別（byPeriod）
 
 <table>
     <tr>
@@ -232,7 +232,7 @@ ht-degree: 40%
     </tr>
 </table>
 
-ステータス別（状態別）
+ステータス別（byState）
 
 <table>
     <tr>
@@ -241,11 +241,11 @@ ht-degree: 40%
     </tr>
     <tr>
     <td>都道府県</td>
-    <td>列挙</td>
+    <td>定義済みリスト</td>
     </tr>
 </table>
 
-異種のリスト (withContinuous) からの連続配信を含める
+異機種リストからの連続配信を含める（withContinuous）
 
 <table>
     <tr>
@@ -258,7 +258,7 @@ ht-degree: 40%
     </tr>
 </table>
 
-指定した期間に計画済 (byPlanning)
+指定された期間に予定（byPlanning）
 
 <table>
     <tr>
@@ -275,7 +275,7 @@ ht-degree: 40%
     </tr>
 </table>
 
-指定された期間 (byCalendar) に存在
+指定された期間に存在（byCalendar）
 
 <table>
     <tr>

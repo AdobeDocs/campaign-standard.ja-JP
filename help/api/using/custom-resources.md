@@ -1,6 +1,6 @@
 ---
 title: カスタムリソース
-description: API を使用したカスタムリソース管理の詳細
+description: API を使用したカスタムリソース管理の詳細情報/
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -17,27 +17,27 @@ ht-degree: 3%
 
 # カスタムリソース {#custom-resources}
 
-Adobe Campaignには、様々なリソースを使用してデータが定義される、事前定義済みのデータモデルが付属しています。 リソースを拡張して独自のカスタムフィールドや、購入テーブルや製品テーブルなどのカスタムテーブルを追加することで、提供されるデータモデルをエンリッチメントできます。
+Adobe Campaignには事前定義済みのデータモデルが付属しており、データは様々なリソースを使用して定義されます。 リソースを拡張することで提供されるデータモデルをエンリッチメントし、独自のカスタムフィールドや、購入テーブルや製品テーブルなどのカスタムテーブルを追加できます。
 
-カスタムリソースには、 **/profileAndServicesExt** エンドポイント、およびカスタムリソース名。
+カスタムリソースには、API から **/profileAndServicesExt** エンドポイントとカスタムリソース名を使用してアクセスできます。
 
 `https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/<resourceName>/`
 
 >[!NOTE]
 >
->標準では提供されていないリソースの場合、常に <b>&quot;cus&quot;</b> プレフィックスを付けます。
+>標準で使用されていないリソースの場合は、リソース名の前に必ず <b>&quot;cus&quot;</b> プレフィックスを付けてください。
 
-プロファイルテーブルにリンクされている限り、カスタムリソースを使用して任意の操作を実行できます。 例えば、以下のテーブル構造を考えてみましょう。
+カスタムリソースがプロファイルテーブルにリンクされている限り、カスタムリソースを使用してあらゆる操作を実行できます。 例えば、次のテーブル構造について考えてみましょう。
 
-![代替テキスト](assets/cusresources.png)
+![ 代替テキスト ](assets/cusresources.png)
 
-その場合、 **トランザクション**, **TransactionDetails** および **製品** テーブルは、リンクされている限り使用できます **プロファイル** 表。
+この場合、**Profile** テーブルにリンクされている限り、**Transaction** テーブル、**TransactionDetails** テーブル、および **Product** テーブルのすべてのリソースを使用できます。
 
 <br/>
 
 ***リクエストのサンプル***
 
-拡張 profileAndServicesExt リソースにアクセスするためのGETリクエストの例。
+拡張された profileAndServicesExt リソースにアクセスするためのサンプルGETリクエスト。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/\
@@ -47,7 +47,7 @@ Adobe Campaignには、様々なリソースを使用してデータが定義さ
 -H 'X-Api-Key: <API_KEY>' \
 ```
 
-リンクされたすべてのカスタムリソースのリストを返します。 その後、リソース URL を使用して、このドキュメントで説明されている任意の API タスクを実行できます。
+リンクされたすべてのカスタムリソースのリストを返します。 その後、リソースの URL を使用して、このドキュメントで説明している API タスクを実行できます。
 
 ```
 {
@@ -72,8 +72,8 @@ Adobe Campaignには、様々なリソースを使用してデータが定義さ
 }
 ```
 
-データモデルの拡張について詳しくは、次の Campaign ドキュメントを参照してください。
+データモデル拡張について詳しくは、次の Campaign ドキュメントを参照してください。
 
 * [データモデルの概念](../../developing/using/data-model-concepts.md)
 * [API の拡張](../../developing/using/about-extending-the-api.md)
-* [他のリソースとのリンクの定義](https://helpx.adobe.com/campaign/standard/developing/using/configuring-the-resource-s-data-structure.html#defining-links-with-other-resources)
+* [ 他のリソースとのリンクの定義 ](https://helpx.adobe.com/campaign/standard/developing/using/configuring-the-resource-s-data-structure.html#defining-links-with-other-resources)

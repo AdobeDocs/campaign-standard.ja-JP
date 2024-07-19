@@ -109,4 +109,4 @@ Adobe Campaign には、[ワークフロー](../../automating/using/get-started-
 **関連トピック：**
 
 * [ワークフロー](../../automating/using/get-started-workflows.md)
-* [例：インポートワークフローテンプレート](../../automating/using/creating-import-workflow-templates.md)
+* [例：ワークフローテンプレートの読み込み](../../automating/using/creating-import-workflow-templates.md)

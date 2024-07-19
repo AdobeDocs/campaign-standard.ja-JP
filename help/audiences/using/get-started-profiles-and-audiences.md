@@ -20,29 +20,29 @@ ht-degree: 14%
 <table>
 <tr>
 <td><img src="assets/do-not-localize/icon_segment.svg" width="60px"><p><a href="#segmenting-targeting">セグメント化とターゲティング</a></p></td>
-<td><img src="assets/do-not-localize/icon_permission.svg" width="60px"><p><a href="#permission">権限と同意</a></p></td>
+<td><img src="assets/do-not-localize/icon_permission.svg" width="60px"><p><a href="#permission">許可と同意</a></p></td>
 <td><img src="assets/do-not-localize/icon_privacy.svg" width="60px"><p><a href="#privacy">プライバシーコンプライアンス</a></p></td></tr>
 </table>
 
-Campaign の統合顧客プロファイルを使用すると、1 つのビュー内ですべてのチャネルにわたって顧客とのすべてのやり取りを追跡し、顧客に関連するパーソナライズされたメッセージを配信できます。
+Campaign 統合顧客プロファイルを使用すると、1 つのビュー内のすべてのチャネルをまたいで顧客とのすべてのインタラクションを追跡でき、関連性が高くパーソナライズされたメッセージを顧客に提供できます。
 
-データベースをオーディエンスにセグメント化して、マーケティングキャンペーンのターゲットを最適化します。
+データベースを個々のオーディエンスにセグメント化し、マーケティングキャンペーンのターゲットを最適化します。
 
-顧客の権限と同意を管理し、サービスとランディングページを使用して、簡単なオプトインおよびオプトアウトメカニズムを設定します。
+顧客の権限および同意を管理し、サービスとランディングページを使用して、オプトインとオプトアウト用の容易なメカニズムを設定します。
 
 ## セグメント化とターゲティング {#segmenting-targeting}
 
 <img src="assets/do-not-localize/icon_segment.svg" width="60px">
 
-キャンペーンまたはメッセージを作成する際に、Campaign データベース内の連絡先から、単純な条件または詳細な条件を使用して選択するか、オーディエンスを選択することで、配信のターゲットを指定できます。
+キャンペーンやメッセージを作成する際は、Campaign データベースの連絡先から選択するか、簡単または高度な条件を使用するか、オーディエンスを選択することで、配信のターゲットを指定できます。
 
-を使用して、すべてのチャネルにわたってより効果的に顧客を特定する **統合顧客プロファイル**, **カスタマイズされたセグメント** および **コントロール母集団**. 顧客、興味、デモグラフィック、チャネルの環境設定を把握していれば、パーソナライズされたエクスペリエンスを簡単に作成して、気付きを得ることができます。
+**統合顧客プロファイル**、**カスタマイズされたセグメント** および **コントロール母集団** を使用して、すべてのチャネルにわたって効果的に顧客を特定します。 顧客、興味、人口統計、チャネルの環境設定がわかっている場合は、パーソナライズされたエクスペリエンスを作成して気づくことがより簡単になります。
 
-Adobe Campaignは、豊富な顧客プロファイルをリアルタイムで作成し、顧客の環境設定が変更されたときに、より関連性の高いパーソナライズされたオファーを配信できます。 また、Adobe Campaignは、高度な分析、データ管理、ターゲティング機能を統合して、オーディエンスを構築します。
+Adobe Campaignは、豊富な顧客プロファイルをリアルタイムで構築するので、顧客の好みの変化に合わせて、より関連性が高く、パーソナライズされたオファーを提供できます。 さらに、Adobe Campaignでは、高度な分析、データ管理およびターゲティング機能を統合して、オーディエンスを構築します。
 
-**プロファイル** は、データベースに保存されている個々の連絡先です。 各プロファイルは、ターゲット設定、選定、個別追跡のために必要な情報を含む、データベース内の 1 つのエントリに対応します。Adobe Campaignでは、オンラインとオフラインの両方のチャネルからすべてのインタラクションを追跡し、1 つのプロファイルに結合できます。
+**プロファイル** は、データベースに保存される個々の連絡先です。 各プロファイルは、データベース内の 1 つのエントリに対応します。このエントリには、そのプロファイルがターゲットとなり、選定され、個別に追跡されるために必要な情報が含まれています。Adobe Campaignでは、オンラインチャネルとオフラインチャネルの両方からのすべてのインタラクションを追跡し、それを 1 つのプロファイルに結合できます。
 
-**オーディエンス** は、特定の条件または条件のセットに基づいて作成されたプロファイルのリストです。 ワークフローとクエリエディターを使用すると、閲覧中の情報、閲覧中のアクティビティ、および閲覧履歴に応じて、マーケティングキャンペーンのターゲットとなるオーディエンスを構築できます。 これにより、無制限数の条件に基づいて、購読済みのプロファイルやサンプルを絞り込んだり、ターゲットオーディエンスを作成したりできます。
+**オーディエンス** は、特定の条件または一連の条件に基づいて作成されたプロファイルのリストです。 ワークフローとクエリエディターを使用すると、マーケティングキャンペーンに関する情報、アクティビティ、マーケティング履歴に応じて、マーケティングキャンペーンのターゲットとなるオーディエンスを構築できます。 これにより、購読しているプロファイルやサンプルをフィルタリングしたり、無制限の数の条件でターゲットオーディエンスを作成したりできます。
 
 詳しくは、以下を参照してください。
 
@@ -54,19 +54,19 @@ Adobe Campaignは、豊富な顧客プロファイルをリアルタイムで作
 * [メッセージ内のオーディエンスの選択](../../audiences/using/selecting-an-audience-in-a-message.md)
 * [コントロール母集団の追加](../../sending/using/control-group.md)
 
-## 権限と同意 {#permission}
+## 許可と同意 {#permission}
 
 <img src="assets/do-not-localize/icon_permission.svg"  width="60px">
 
-連絡先へのメッセージの送信を開始する前に、その連絡先の権限を取得していることを確認する必要があります。 そうでない場合、E メールがスパムとしてマークされている可能性があり、プラットフォームの配信品質に影響を与えます。 正常なプロファイルデータベースを確実に構築するには、最初の手順としてこの権限を保護します。
+連絡先にメッセージを送信する前に、その連絡先の権限を取得する必要があります。 そうでない場合、メールはスパムとしてマークされる可能性があり、プラットフォームの配信品質に影響を与えます。 正常なプロファイルデータベースを確実に作成するには、最初の手順としてこの権限を保護します。
 
-Campaign では、 **簡単なオプトインおよびオプトアウトメカニズム** 経由 [services](../../audiences/using/creating-a-service.md)、および [ランディングページ](../../channels/using/getting-started-with-landing-pages.md) 連絡先情報を更新し、データベースを拡張する場合。
+Campaign では、[ サービス ](../../audiences/using/creating-a-service.md) および [ ランディングページ **を通じて** 簡単なオプトインおよびオプトアウトメカニズム ](../../channels/using/getting-started-with-landing-pages.md) を使用して、連絡先情報を更新し、データベースを強化することをお勧めします。
 
-提供中 **購読解除リンク** メッセージ内でプロファイルを必要に応じてブロックリストに加えるに追加できるので、プラットフォームの配信品質を向上できます。 管ブロックリストに加える理について詳しくは、 [Campaign のオプトインとオプトアウトについて](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md).
+メッセージに **購読解除リンク** を提供すると、必要に応じてプロファイルをブロックリストに追加できるので、プラットフォームの配信品質が向上します。 ブロックリストの管理について詳しくは、[Campaign のオプトインとオプトアウトについて ](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md) を参照してください。
 
 >[!IMPORTANT]
 >
->次の項目を尊重する必要があります。 [Adobe Campaign使用許諾ポリシー](https://www.adobe.com/legal/terms/aup.html).
+>[Adobe Campaignの利用規定 ](https://www.adobe.com/legal/terms/aup.html) に従う必要があります。
 
 詳しくは、以下を参照してください。
 
@@ -77,16 +77,16 @@ Campaign では、 **簡単なオプトインおよびオプトアウトメカ�
 
 <img src="assets/do-not-localize/icon_privacy.svg" width="60px">
 
-Adobe Campaignには、 **プライバシーコンプライアンス** GDPR、CCPA およびその他のプライバシーに関する法律に準拠する必要があります。
+Adobe Campaignには、GDPR、CCPA およびその他のプライバシー保護法に関する **プライバシーコンプライアンス** に役立つ各種のツールが用意されています。
 
-詳しくは、こちらを参照してください。 [この記事](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy.html) プライバシー管理と、アクセスする権利、忘れられる権利、同意、データ保持、ユーザーの役割を管理するために提供される機能について説明します。
+プライバシー管理と、アクセス権、忘れられる権利、同意、データ保持、ユーザーの役割を管理するために提供する機能について詳しくは、この [ この記事 ](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy.html) を参照してください。
 
-Campaign のプライバシーと同意およびその管理方法については、 [この節](../../start/using/privacy.md). また、アドビのサービスを利用する際にプライバシーの順守に役立つベストプラクティスもご覧いただけます。
+Campaign のプライバシーと同意、およびその管理方法については、[ この節 ](../../start/using/privacy.md) を参照してください。 また、アドビのサービスを利用する際にプライバシーの順守に役立つベストプラクティスもご覧いただけます。
 
 ## その他のリソース
 
 * [Campaign への Adobe Experience Platform オーディエンスの取り込み](../../integrating/using/ingest-aep-data.md)
 * [Microsoft Dynamics 365 の操作](../../integrating/using/d365-acs-get-started.md)
-* [Adobe共有オーディエンス](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
+* [共有オーディエンスのAdobe](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
 * [ワークフローを使用したプロファイルのインポート](../../automating/using/creating-import-workflow-templates.md)
-* [プロファイルとオーディエンスのビデオ](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html)
+* [ プロファイルとオーディエンスビデオ ](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html)

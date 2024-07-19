@@ -24,7 +24,7 @@ ht-degree: 95%
 
 「**[!UICONTROL Enrichment]**」アクティビティは、ワークフローで処理する追加のデータを定義できる高度なアクティビティです。
 
-## 使用状況 {#context-of-use}
+## 使用コンテキスト {#context-of-use}
 
 「**[!UICONTROL Enrichment]**」アクティビティは、通常、ターゲティングアクティビティの後またはファイルをインポートした後、およびターゲットデータを使用できるアクティビティの前に使用されます。
 
@@ -34,8 +34,8 @@ ht-degree: 95%
 
 **関連トピック**
 
-* [使用例：ファイルに含まれているデータを使用したプロファイルデータのエンリッチメント](../../automating/using/enriching-profile-data-file.md).
-* [使用例：強化されたフィールドを含む E メールの送信](../../automating/using/sending-email-enriched-fields.md)
+* [ ユースケース：ファイルに含まれるデータでプロファイルデータを強化する ](../../automating/using/enriching-profile-data-file.md)
+* [ユースケース：フィールドがエンリッチメントされたメールの送信](../../automating/using/sending-email-enriched-fields.md)
 
 ## 設定 {#configuration}
 

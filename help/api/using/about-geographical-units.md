@@ -16,12 +16,12 @@ ht-degree: 0%
 
 >[!CAUTION]
 >
->地理的単位機能は、Campaign Standard18.7 リリースで廃止されました。
+>地理的単位機能は、Campaign Standard 18.7 リリースで廃止されました。
 >
->その結果、新しいCampaign Standardインスタンスと、地理的単位が作成されていない既存のインスタンスは、18.7 リリース以降、この機能を実装することができません。
+>その結果、新しいCampaign Standardインスタンスと、地理的ユニットが作成されていない既存のインスタンスでは、18.7 リリース以降、この機能を実装できません。
 >
->詳しくは、 <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=ja">非推奨（廃止予定）の機能</a> ページに貼り付けます。
+>詳しくは、<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=ja"> 非推奨（廃止予定）の機能 </a> ページを参照してください。
 
-The **geoUnitBase** endpoint を使用すると、地理的単位を操作して、例えば、属性を更新したり、プロファイルの単位を更新したりできます。
+**geoUnitBase** エンドポイントを使用すると、地理的単位を操作でき、例えば、属性を更新したり、プロファイルの単位を更新したりできます。
 
-The **地理的単位** プロファイルリソースを拡張する際に、フィールドがプロファイルに追加されます。 そのため、必ず **profileAndServicesExt** 地理的単位とやり取りするエンドポイント。 プロファイルのリソース拡張について詳しくは、 [Campaign ドキュメント](https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles).
+プロファイルリソースを拡張する際に、「**地理的単位**」フィールドがプロファイルに追加されます。 そのため、地理的単位を操作する場合は、必ず **profileAndServicesExt** エンドポイントを使用してください。 プロファイルのリソース拡張機能について詳しくは、[Campaign ドキュメント ](https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles) を参照してください。

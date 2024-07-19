@@ -1,6 +1,6 @@
 ---
 title: トランザクションイベントの設定
-description: Adobe Campaignでトランザクションイベントを設定する方法について説明します。
+description: Adobe Campaignでトランザクションイベントを設定する方法を説明します。
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
@@ -18,59 +18,59 @@ ht-degree: 3%
 
 # トランザクションイベントの設定 {#configuring-transactional-event}
 
-トランザクションメッセージをAdobe Campaignで送信するには、まずイベントを作成し設定することで、イベントデータの構造を説明する必要があります。
+Adobe Campaignでトランザクションメッセージを送信するには、まずイベントを作成して設定し、イベントデータの構造を記述する必要があります。
 
 >[!IMPORTANT]
 >
->のみ [機能管理者](../../administration/using/users-management.md#functional-administrators) <!--being part of the **[!UICONTROL All]** [organizational unit](../../administration/using/organizational-units.md) -->イベント設定を作成および編集するための適切な権限を持っている。
+>イベント設定を作成および編集する適切な権限を持つのは [ 機能管理者 ](../../administration/using/users-management.md#functional-administrators)<!--being part of the **[!UICONTROL All]** [organizational unit](../../administration/using/organizational-units.md) --> のみです。
 
-設定は、 [トランザクションメッセージのタイプ](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types) を送信し、使用するチャネルで送信します。 詳しくは、 [特定の設定](#transactional-event-specific-configurations).
+設定は、送信する [ トランザクションメッセージのタイプ ](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types) と、使用するチャネルによって異なります。 詳しくは、[ 特定の設定 ](#transactional-event-specific-configurations) を参照してください。
 
-設定が完了したら、イベントを公開する必要があります。 詳しくは、 [トランザクションイベントの公開](../../channels/using/publishing-transactional-event.md).
+設定が完了したら、イベントを公開する必要があります。 [ トランザクションイベントの公開 ](../../channels/using/publishing-transactional-event.md) を参照してください。
 
 ## イベントの作成 {#creating-an-event}
 
 開始するには、必要に応じてイベントを作成します。
 
-1. 次をクリック： **Adobe** ロゴ（左上隅）に、「 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
+1. 左上隅の **0}Adobe} ロゴをクリックし、**[!UICONTROL Marketing plans]**/**[!UICONTROL Transactional messages]**/**[!UICONTROL Event configuration]**を選択します。**
 1. 「**[!UICONTROL Create]**」ボタンをクリックします。
-1. を入力します。 **[!UICONTROL Label]** および **[!UICONTROL ID]** イベントの。 The **[!UICONTROL ID]** フィールドは必須で、プレフィックス「EVT」で始まる必要があります。 このプレフィックスを使用しない場合、「 **[!UICONTROL Create]**.
+1. イベントの **[!UICONTROL Label]** と **[!UICONTROL ID]** を入力します。 **[!UICONTROL ID]** フィールドは必須で、プレフィックス「EVT」で始める必要があります。 このプレフィックスを使用しない場合は、[**[!UICONTROL Create]**] をクリックすると自動的に追加されます。
 
    ![](assets/message-center_1.png)
 
    >[!IMPORTANT]
    >
-   >ID は、EVT プレフィックスを含めて 64 文字以下にする必要があります。
+   >ID は、EVT プレフィックスを含めて 64 文字以内にする必要があります。
 
-1. トランザクションメッセージの送信に使用するチャネルを選択します **[!UICONTROL Email]**, **[!UICONTROL Mobile (SMS)]** または **[!UICONTROL Push notification]**. 各イベントで使用できるチャネルは 1 つだけで、後で変更することはできません。
+1. トランザクションメッセージを **[!UICONTROL Mobile (SMS)]**、**[!UICONTROL Push notification]** のいずれか **[!UICONTROL Email]** 送信するために使用するチャネルを選択します。 各イベントで使用できるチャネルは 1 つだけです。後で変更することはできません。
 
-1. 目的のイベント設定に対応するターゲティングディメンションを選択し、 **[!UICONTROL Create]**.
+1. 目的のイベント設定に対応するターゲティングディメンションを選択し、「**[!UICONTROL Create]**」をクリックします。
 
-   イベントベースのトランザクションメッセージのターゲットデータはイベント自体に含まれるデータに対して、プロファイルベースのトランザクションメッセージのターゲットデータはAdobe Campaignデータベースに含まれるデータに対して設定されます。 詳しくは、 [特定の設定](#transactional-event-specific-configurations).
+   イベントベースのトランザクションメッセージはイベント自体に含まれるデータをターゲットにし、プロファイルベースのトランザクションメッセージはAdobe Campaign データベースに含まれるデータをターゲットにします。 詳しくは、[ 特定の設定 ](#transactional-event-specific-configurations) を参照してください。
 
 >[!NOTE]
 >
->トランザクションイベントの数は、プラットフォームに影響を与える可能性があります。 最適なパフォーマンスを確保するには、未使用のイベントを必ず削除してください。 詳しくは、 [イベントの削除](../../channels/using/publishing-transactional-event.md#deleting-an-event).
+>トランザクションイベントの数は、プラットフォームに影響を与える可能性があります。 最適なパフォーマンスを確保するには、未使用のイベントを必ず削除してください。 [ イベントの削除 ](../../channels/using/publishing-transactional-event.md#deleting-an-event) を参照してください。
 
 ## イベント属性の定義 {#defining-the-event-attributes}
 
-Adobe Analytics の **[!UICONTROL Fields]** 「 」セクションで、イベントコンテンツに統合され、トランザクションメッセージのパーソナライズに使用できる属性を定義します。
+**[!UICONTROL Fields]** セクションでは、イベントコンテンツに統合され、トランザクションメッセージのパーソナライズに使用できる属性を定義します。
 
-フィールドの追加と変更の手順は、 [カスタムリソース](../../developing/using/configuring-the-resource-s-data-structure.md#adding-fields-to-a-resource).
+フィールドの追加と変更の手順は、[ カスタムリソース ](../../developing/using/configuring-the-resource-s-data-structure.md#adding-fields-to-a-resource) の場合と同じです。
 
 ![](assets/message-center_2.png)
 
 >[!NOTE]
 >
->多言語トランザクションメッセージを作成する場合は、 **[!UICONTROL AC_language]** ID。 これは、イベントトランザクションメッセージにのみ当てはまります。 イベントが公開された後の多言語トランザクションメッセージのコンテンツを編集する手順は、多言語標準 E メールの場合と同じです。 詳しくは、 [多言語 E メールの作成](../../channels/using/creating-a-multilingual-email.md).
+>多言語トランザクションメッセージを作成する場合は、**[!UICONTROL AC_language]** ID を持つ追加のイベント属性を定義します。 これは、イベントトランザクションメッセージにのみ適用されます。 イベントの公開後、多言語トランザクションメッセージのコンテンツを編集する手順は、多言語標準メールの場合と同じです。 [ 多言語メールの作成 ](../../channels/using/creating-a-multilingual-email.md) を参照してください。
 
 ## データコレクションの定義 {#defining-data-collections}
 
-イベントコンテンツに要素のコレクションを追加し、各要素自体に複数の属性を含めることができます。
+イベントコンテンツに要素のコレクションを追加できます。各要素自体には、複数の属性が含まれます。
 
-このコレクションは、トランザクション E メールで使用して、 [製品リスト](../../designing/using/using-product-listings.md) メッセージのコンテンツ（価格、参照番号、数量などを含む製品のリストなど）に追加します。 リストの各製品に対して
+このコレクションをトランザクションメールで使用すると、価格、参照番号、数量などの [ 製品リスト ](../../designing/using/using-product-listings.md) をメッセージのコンテンツに追加できます。 リストの各製品。
 
-1. Adobe Analytics の **[!UICONTROL Collections]** セクションで、 **[!UICONTROL Create element]** 」ボタンをクリックします。
+1. **[!UICONTROL Collections]** セクションで、「**[!UICONTROL Create element]**」ボタンをクリックします。
 
    ![](assets/message-center_collection_create.png)
 
@@ -81,15 +81,15 @@ Adobe Analytics の **[!UICONTROL Fields]** 「 」セクションで、イベ�
 
    ![](assets/message-center_collection_fields.png)
 
-1. The **[!UICONTROL Enrichment]** 「 」タブを使用すると、コレクションの各項目をエンリッチメントできます。 これにより、対応する製品リストの要素を、Adobe Campaignデータベースや作成した他のリソースからの情報を使用してパーソナライズできます。
+1. 「**[!UICONTROL Enrichment]**」タブを使用すると、コレクションの各項目をエンリッチメントできます。 これにより、Adobe Campaign データベースまたは自分で作成したその他のリソースの情報を使用して、対応する商品リストの要素をパーソナライズできます。
 
 >[!NOTE]
 >
->コレクションの要素をエンリッチメントする手順は、 [イベントのエンリッチメント](#enriching-the-transactional-message-content) 」セクションに入力します。 イベントをエンリッチメントしても、コレクションのエンリッチメントはできないことに注意してください。 **[!UICONTROL Collections]** 」セクションに入力します。
+>コレクションの要素をエンリッチメントする手順は、「[ イベントのエンリッチメント ](#enriching-the-transactional-message-content)」節で説明する手順と同じです。 イベントをエンリッチメントしても、コレクションをエンリッチメントすることはできません。コレクション自体にエンリッチメントを追加する必要が **[!UICONTROL Collections]** ります。
 
 イベントとメッセージが公開されると、このコレクションをトランザクションメッセージで使用できるようになります。
 
-この例の API プレビューを次に示します。
+この例での API プレビューは次のとおりです。
 
 ![](assets/message-center_collection_api-preview.png)
 
@@ -99,47 +99,47 @@ Adobe Analytics の **[!UICONTROL Fields]** 「 」セクションで、イベ�
 * [トランザクションメッセージでの製品リストの使用](../../designing/using/using-product-listings.md)
 * [トランザクションメッセージの公開](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)
 
-## イベントのエンリッチメント {#enriching-the-transactional-message-content}
+## イベントの機能強化 {#enriching-the-transactional-message-content}
 
-トランザクションメッセージのコンテンツをAdobe Campaignデータベースの情報でエンリッチメントして、メッセージをパーソナライズできます。 各受信者の姓または CRM ID から、例えば、住所や生年月日などのデータや、プロファイルテーブルに追加された他のカスタムフィールドなどのデータを収集して、送信される情報をパーソナライズできます。
+メッセージをパーソナライズするために、Adobe Campaign データベースの情報を使用してトランザクションメッセージのコンテンツを強化できます。 例えば、各受信者の姓または CRM ID から、住所や生年月日などのデータや、プロファイルテーブルに追加されたその他のカスタムフィールドを復元して、受信者に送信される情報をパーソナライズできます。
 
-トランザクションメッセージのコンテンツを拡張された **[!UICONTROL Profile and services Ext API]**. 詳しくは、 [API の拡張：拡張機能の公開](../../developing/using/step-2-publish-the-extension.md)
+拡張 **[!UICONTROL Profile and services Ext API]** ータからの情報を使用して、トランザクションメッセージのコンテンツを強化できます。 詳しくは、[API の拡張：拡張機能の公開 ](../../developing/using/step-2-publish-the-extension.md) を参照してください。
 
-この情報は、新しいリソースに保存することもできます。 その場合、リソースは **[!UICONTROL Profile]** または **[!UICONTROL Service]** リソースは、直接または別のテーブルを使用して取得できます。 例えば、以下の設定では、トランザクションメッセージのコンテンツを **[!UICONTROL Product]** リソース（製品カテゴリや ID など） **[!UICONTROL Product]** リソースは **[!UICONTROL Profile]** リソース。
+この情報は、新しいリソースに保存することもできます。 その場合、リソースは、直接または別のテーブルを介して **[!UICONTROL Profile]** または **[!UICONTROL Service]** リソースにリンクされている必要があります。 例えば、以下の設定では、**[!UICONTROL Product]** リソースが **[!UICONTROL Profile]** リソースにリンクされている場合、製品カテゴリや ID など、**[!UICONTROL Product]** リソースからの情報でトランザクションメッセージのコンテンツをエンリッチメントすることができます。
 
 ![](assets/message-center_usecaseschema.png)
 
-リソースの作成と公開について詳しくは、 [この節](../../developing/using/key-steps-to-add-a-resource.md).
+リソースの作成と公開について詳しくは、[ この節 ](../../developing/using/key-steps-to-add-a-resource.md) を参照してください。
 
-1. Adobe Analytics の **[!UICONTROL Enrichment]** セクションで、 **[!UICONTROL Create element]** 」ボタンをクリックします。
+1. **[!UICONTROL Enrichment]** セクションで、「**[!UICONTROL Create element]**」ボタンをクリックします。
 
    ![](assets/message-center_addenrichment.png)
 
-1. メッセージをリンクするリソースを選択します。 この場合、 **[!UICONTROL Profile]** リソース。
+1. メッセージをリンクするリソースを選択します。 この場合は、**[!UICONTROL Profile]** リソースを選択します。
 
    ![](assets/message-center_new-enrichment.png)
 
-1. 以下を使用します。 **[!UICONTROL Create element]** ボタンを使用して、選択したリソースのフィールドを、イベントに以前追加したフィールドの 1 つにリンクします ( [イベント属性の定義](#defining-the-event-attributes)) をクリックします。
+1. 「**[!UICONTROL Create element]**」ボタンを使用して、選択したリソースのフィールドを、イベントに以前に追加したフィールドの 1 つにリンクします（[ イベント属性の定義 ](#defining-the-event-attributes) を参照）。
 
    ![](assets/message-center_enrichment-join.png)
 
    >[!NOTE]
    >
-   >複数の受信者を選択できる条件（複数のプロファイルに同じ値を持つことができるフィールドなど）を定義した場合、ターゲットとなるプロファイルは複数になりません。
+   >複数の受信者を選択できる条件（複数のプロファイルに対して同じ値を持つフィールドなど）を定義した場合、複数のプロファイルはターゲットになりません。
 
-1. この例では、 **[!UICONTROL Last name]** そして **[!UICONTROL First name]** フィールドに、 **[!UICONTROL Profile]** リソース。
+1. この例では、「**[!UICONTROL Last name]**」フィールドと「**[!UICONTROL First name]**」フィールドを、**[!UICONTROL Profile]** リソース内の対応するフィールドと紐付けます。
 
    ![](assets/message-center_enrichment-join-fields.png)
 
-   また、 **[!UICONTROL Service]** リソース。 サービスについて詳しくは、 [この節](../../audiences/using/creating-a-service.md).
+   また、**[!UICONTROL Service]** リソースを使用して、トランザクションメッセージのコンテンツをエンリッチメントすることもできます。 サービスについて詳しくは、[ この節 ](../../audiences/using/creating-a-service.md) を参照してください。
 
-1. を作成または編集している場合、 [プロファイルベースのイベント](#profile-based-transactional-messages)、 **[!UICONTROL Targeting enrichment]** 「 」セクションで、配信の実行時にメッセージのターゲットとして使用するエンリッチメントを選択します。
+1. [ プロファイルベースのイベント ](#profile-based-transactional-messages) を作成または編集する場合は、「**[!UICONTROL Targeting enrichment]**」セクションで、配信の実行中にメッセージターゲットとして使用されるエンリッチメントを選択します。
 
    ![](assets/message-center_marketing_targeting_enrichment.png)
 
    >[!NOTE]
    >
-   >エンリッチメントを作成し、 **[!UICONTROL Profile]** プロファイルベースのイベントでは、リソースは必須です。
+   >プロファイルベースのイベントの場合は、エンリッチメントの作成と、**[!UICONTROL Profile]** リソースに基づくターゲティングエンリッチメントの選択が必須です。
 
 イベントとメッセージが公開されると、このリンクを使用してトランザクションメッセージのコンテンツをエンリッチメントできます。
 
@@ -153,13 +153,13 @@ Adobe Analytics の **[!UICONTROL Fields]** 「 」セクションで、イベ�
 
 作成済みのトランザクションイベントにアクセスして検索するには、次の手順に従います。
 
-1. 次をクリック： **Adobe** ロゴ（左上隅）に、「 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Event configuration]**.
+1. 左上隅の **0}Adobe} ロゴをクリックし、**[!UICONTROL Marketing plans]**/**[!UICONTROL Transactional messages]**/**[!UICONTROL Event configuration]**を選択します。**
 1. 「**[!UICONTROL Show search]**」ボタンをクリックします。
 
    ![](assets/message-center_search-events.png)
 
-1. 次の項目でフィルタリングできます。 **[!UICONTROL Publication status]**. これにより、例えば、公開されたイベントのみを表示できます。
-1. また、 **[!UICONTROL Last event received]**. 例えば、10 と入力した場合は、10 日以上前に受け取った最後のイベントを含むイベント設定のみが表示されます。 これにより、特定の期間非アクティブになったイベントを表示できます。
+1. **[!UICONTROL Publication status]** ージに対してフィルタリングできます。 これにより、例えば、公開済みのイベントのみを表示できます。
+1. **[!UICONTROL Last event received]** を使用してイベントをフィルタリングすることもできます。 例えば、10 と入力した場合、最後に受信したイベントが 10 日以上前のイベント設定のみが表示されます。 これにより、特定の期間に非アクティブであったイベントを表示できます。
 
    ![](assets/message-center_last-event-received.png)
 
@@ -169,51 +169,51 @@ Adobe Analytics の **[!UICONTROL Fields]** 「 」セクションで、イベ�
 
 ## 特定の設定 {#transactional-event-specific-configurations}
 
-トランザクションイベントの設定は、 [トランザクションメッセージのタイプ](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types) （イベントまたはプロファイル）を送信し、使用するチャネルで送信します。
+トランザクションイベントの設定は、[ トランザクションメッセージのタイプ ](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types) 送信する（イベントまたはプロファイル）、および使用するチャネルによって異なります。
 
-次の節では、目的のトランザクションメッセージに応じて設定する特定の設定について詳しく説明します。 イベントを設定する一般的な手順について詳しくは、 [イベントの作成](#creating-an-event).
+以下の節では、目的のトランザクションメッセージに応じて設定すべき特定の設定について詳しく説明します。 イベントを設定するための一般的な手順について詳しくは、[ イベントの作成 ](#creating-an-event) を参照してください。
 
 ### イベントベースのトランザクションメッセージ {#event-based-transactional-messages}
 
 イベントをターゲットにしたイベントトランザクションメッセージを送信できます。この種類のトランザクションメッセージには、プロファイル情報が含まれません。配信ターゲットは、イベント自体に含まれるデータによって定義されます。
 
-イベントベースのトランザクションメッセージを送信するには、まず、 **イベント自体に含まれるデータ**.
+イベントベースのトランザクションメッセージを送信するには、まず、**イベント自体に含まれるデータ** をターゲットにするイベントを作成して設定する必要があります。
 
-1. イベント設定を作成する際に、 **[!UICONTROL Real-time event]** ターゲティングディメンション ( [イベントの作成](#creating-an-event)) をクリックします。
-1. トランザクションメッセージをパーソナライズするために、イベントにフィールドを追加します ( [イベント属性の定義](#defining-the-event-attributes)) をクリックします。
-1. イベントベースのトランザクションメッセージでは、受信者とメッセージコンテンツのパーソナライゼーションを定義するために、送信イベント内のデータのみを使用する必要があります。
+1. イベント設定を作成する場合は、**[!UICONTROL Real-time event]** のターゲティングディメンションを選択します（[ イベントの作成 ](#creating-an-event) を参照）。
+1. トランザクションメッセージをパーソナライズできるように、イベントにフィールドを追加します（[ イベント属性の定義 ](#defining-the-event-attributes) を参照）。
+1. イベントベースのトランザクションメッセージでは、送信されたイベントにあるデータのみを使用して、受信者とメッセージコンテンツのパーソナライゼーションを定義します。
 
-   ただし、Adobe Campaignデータベースの追加情報を使用する場合は、トランザクションメッセージの内容をエンリッチメントできます ( [トランザクションメッセージコンテンツのエンリッチメント](#enriching-the-transactional-message-content)) をクリックします。
+   ただし、Adobe Campaign データベースから追加情報を使用する場合は、トランザクションメッセージコンテンツをエンリッチメントできます（[ トランザクションメッセージコンテンツのエンリッチメント ](#enriching-the-transactional-message-content) を参照）。
 
-1. イベントをプレビューして公開します ( [イベントのプレビューと公開](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)) をクリックします。
+1. イベントをプレビューして公開します（[ イベントのプレビューと公開 ](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event) を参照）。
 
-   イベントをプレビューする際、REST API には、選択したチャネルに応じて、E メールアドレス、携帯電話、またはプッシュ通知に特有の属性を指定する属性が含まれます。
+   イベントをプレビューする際、REST API には、選択したチャネルに応じて、メールアドレス、携帯電話、プッシュ通知固有の属性を指定する属性が含まれます。
 
-   イベントが公開されると、新しいイベントにリンクされたトランザクションメッセージが自動的に作成されます。 イベントでトランザクションメッセージのトリガー送信を実行するには、次の手順を実行する必要があります。 [変更](../../channels/using/editing-transactional-message.md) および [公開](../../channels/using/publishing-transactional-message.md) 作成されたばかりのメッセージ。
+   イベントが公開されると、新規イベントにリンクされたトランザクションメッセージが自動的に作成されます。 イベントがトランザクションメッセージの送信をトリガーにするには、作成したメッセージを [ 変更 ](../../channels/using/editing-transactional-message.md) および [ 公開 ](../../channels/using/publishing-transactional-message.md) する必要があります。
 
-1. イベントを Web サイトに統合する ( [イベントトリガーの統合](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)) をクリックします。
+1. イベントを Web サイトに統合します（[ イベントトリガーの統合 ](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger) を参照）。
 
 ### プロファイルベースのトランザクションメッセージ {#profile-based-transactional-messages}
 
-顧客プロファイルに基づいてトランザクションメッセージを送信し、マーケティングタイポロジルールを適用し、購読解除リンクを含めて、メッセージをグローバル配信レポートに追加して、カスタマージャーニーで活用できます。
+顧客プロファイルに基づいてトランザクションメッセージを送信できます。これにより、マーケティングタイポロジルールの適用、登録解除リンクの組み込み、グローバル配信レポートへのメッセージの追加およびカスタマージャーニーでの活用を行うことができます。
 
-プロファイルベースのトランザクションメッセージを送信するには、まずイベントのターゲット設定を作成して設定する必要があります **Adobe Campaignデータベースからのデータ**.
+プロファイルベースのトランザクションメッセージを送信するには、まず、**Adobe Campaign データベースからのデータ** をターゲットにするイベントを作成して設定する必要があります。
 
-1. イベント設定を作成する際に、 **[!UICONTROL Profile event]** ターゲティングディメンション ( [イベントの作成](#creating-an-event)) をクリックします。
-1. トランザクションメッセージをパーソナライズするために、イベントにフィールドを追加します ( [イベント属性の定義](#defining-the-event-attributes)) をクリックします。 エンリッチメントを作成するには、少なくとも 1 つのフィールドを追加する必要があります。 他のフィールド ( **名** および **姓** Adobe Campaignデータベースのパーソナライゼーションフィールドを使用できるようになります。
-1. イベントを **[!UICONTROL Profile]** リソース ( [イベントのエンリッチメント](#enriching-the-transactional-message-content)) をクリックし、このエンリッチメントを選択します。 **[!UICONTROL Targeting enrichment]**.
+1. イベント設定を作成する場合は、**[!UICONTROL Profile event]** のターゲティングディメンションを選択します（[ イベントの作成 ](#creating-an-event) を参照）。
+1. トランザクションメッセージをパーソナライズできるように、イベントにフィールドを追加します（[ イベント属性の定義 ](#defining-the-event-attributes) を参照）。 エンリッチメントを作成するには、少なくとも 1 つのフィールドを追加する必要があります。 Adobe Campaign データベースからパーソナライゼーションフィールドを使用できるので、**名** や **姓** など、他のフィールドを作成する必要はありません。
+1. エンリッチメントを作成して、イベントを **[!UICONTROL Profile]** リソースにリンクし（[ イベントのエンリッチメント ](#enriching-the-transactional-message-content) を参照）、このエンリッチメントを **[!UICONTROL Targeting enrichment]** として選択します。
 
    >[!IMPORTANT]
    >
-   >この手順は、プロファイルベースのイベントでは必須です。
+   >この手順は、プロファイルベースのイベントに必須です。
 
-1. イベントをプレビューして公開します ( [イベントのプレビューと公開](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)) をクリックします。
+1. イベントをプレビューして公開します（[ イベントのプレビューと公開 ](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event) を参照）。
 
-   イベントをプレビューする際、REST API には、電子メールアドレス、携帯電話、またはプッシュ通知に特有の属性を指定する属性が含まれていません。これは、 **[!UICONTROL Profile]** リソース。
+   イベントのプレビュー時に、REST API にはメールアドレス、携帯電話、プッシュ通知固有の属性を指定する属性は含まれていません。この属性は **[!UICONTROL Profile]** リソースから取得されるからです。
 
-   イベントが公開されると、新しいイベントにリンクされたトランザクションメッセージが自動的に作成されます。 イベントでトランザクションメッセージのトリガー送信を実行するには、次の手順を実行する必要があります。 [変更](../../channels/using/editing-transactional-message.md) および [公開](../../channels/using/publishing-transactional-message.md) 作成されたメッセージ
+   イベントが公開されると、新規イベントにリンクされたトランザクションメッセージが自動的に作成されます。 イベントがトランザクションメッセージの送信をトリガーにするには、作成したメッセージを [ 変更 ](../../channels/using/editing-transactional-message.md) および [ 公開 ](../../channels/using/publishing-transactional-message.md) する必要があります。
 
-1. イベントを Web サイトに統合する ( [イベントトリガーの統合](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)) をクリックします。
+1. イベントを Web サイトに統合します（[ イベントトリガーの統合 ](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger) を参照）。
 
 <!--### Transactional SMS messages {#transactional-sms}
 
@@ -227,16 +227,16 @@ The steps to configure an  event to send an SMS transactional message are the sa
 
 ### トランザクションプッシュ通知 {#transactional-push-notifications}
 
-次の 2 種類のトランザクションプッシュ通知を送信できます。
-* モバイルアプリケーションからの通知の受信をオプトインしたすべてのユーザーに対する匿名トランザクションプッシュ通知。 詳しくは、 [イベントベースのトランザクションプッシュ通知の設定](../../channels/using/transactional-push-notifications.md#event-based-transactional-push-notifications).
-* モバイルアプリケーションを購読したAdobe Campaignプロファイルに対するトランザクションプッシュ通知。 詳しくは、 [プロファイルベースのトランザクションプッシュ通知の設定](../../channels/using/transactional-push-notifications.md#profile-based-transactional-push-notifications).
+2 種類のトランザクションプッシュ通知を送信できます。
+* モバイルアプリケーションから通知を受信することをオプトインしたすべてのユーザーに対する匿名のトランザクションプッシュ通知。 [ イベントベースのトランザクションプッシュ通知の設定 ](../../channels/using/transactional-push-notifications.md#event-based-transactional-push-notifications) を参照してください。
+* モバイルアプリケーションを購読しているAdobe Campaign プロファイルへのトランザクションプッシュ通知。 [ プロファイルベースのトランザクションプッシュ通知の設定 ](../../channels/using/transactional-push-notifications.md#profile-based-transactional-push-notifications) を参照してください。
 
 >[!IMPORTANT]
 >
->トランザクションプッシュ通知を送信できるようにするには、それに応じてAdobe Campaignを設定する必要があります。 詳しくは、 [モバイルアプリケーションの設定](../../administration/using/configuring-a-mobile-application.md).
+>トランザクションプッシュ通知を送信するには、それに応じてAdobe Campaignを設定する必要があります。 [ モバイルアプリケーションの設定 ](../../administration/using/configuring-a-mobile-application.md) を参照してください。
 
 ### フォローアップメッセージ {#follow-up-messages}
 
-特定のトランザクションメッセージを受け取った顧客にフォローアップメッセージを送信できます。
+特定のトランザクションメッセージを受信した顧客にフォローアップメッセージを送信できます。
 
-フォローアップメッセージを送信するイベントを設定する手順について詳しくは、 [この節](../../channels/using/follow-up-messages.md#configuring-an-event-to-send-a-follow-up-message).
+フォローアップメッセージを送信できるイベントを設定する手順については、[ この節 ](../../channels/using/follow-up-messages.md#configuring-an-event-to-send-a-follow-up-message) を参照してください。

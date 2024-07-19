@@ -28,13 +28,13 @@ ht-degree: 97%
 >
 >セットは、同質である必要はありません。
 
-## 使用状況 {#context-of-use}
+## 使用コンテキスト {#context-of-use}
 
 「**[!UICONTROL Union]**」アクティビティは、セグメント化の実行、オーディエンスの定義、またはメッセージターゲットの準備などの際に、インバウンドトランジションからの母集団を組み合わせるために使用します。
 
 **関連トピック：**
 
-* [使用例：2 つの絞り込まれたオーディエンスの和集合](../../automating/using/union-on-two-refined-audiences.md)
+* [ユースケース：2 つの絞り込まれたオーディエンスの和集合](../../automating/using/union-on-two-refined-audiences.md)
 
 ## 設定 {#configuration}
 

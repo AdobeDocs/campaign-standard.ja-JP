@@ -15,14 +15,14 @@ ht-degree: 37%
 
 # プッシュ通知チャネルの変更 {#push-upgrade}
 
-Campaign を使用して、Android およびiOSデバイスでプッシュ通知を送信できます。 これを実行するには、Campaign を特定の購読サービスに依存させます。2024 年に Android Firebase Cloud Messaging（FCM）サービスに対するいくつかの重要な変更をリリースします。このリリースは、Adobe Campaign の実装に影響を与える場合があります。この変更をサポートするには、Android プッシュメッセージの購読サービス設定を更新する必要がある場合があります。
+Campaign を使用すると、AndroidとiOSのデバイスでプッシュ通知を送信できます。 これを実行するには、Campaign を特定の購読サービスに依存させます。2024 年に Android Firebase Cloud Messaging（FCM）サービスに対するいくつかの重要な変更をリリースします。このリリースは、Adobe Campaign の実装に影響を与える場合があります。この変更をサポートするには、Android プッシュメッセージの購読サービス設定を更新する必要がある場合があります。
 
 さらに、アドビでは、証明書ベースの接続ではなく、より安全で拡張性の高いトークンベースの APN への接続に移行することを強くお勧めします。
 
-中断のないサービスを確保するには、Adobe Campaignに登録されているモバイルアプリケーションをアップグレードして、FCM(Android) と APNs(iOS) の最新の認証メカニズムを組み込む必要があります。
+サービスが中断されないようにするには、Adobe Campaignに登録されているモバイルアプリケーションをアップグレードして、FCM （Android）および APN （iOS）の最新の認証メカニズムを組み込む必要があります。
 
 
-[Adobe Campaign Standardでモバイルアプリケーション証明書を設定する方法の詳細](configuring-a-mobile-application.md#channel-specific-config)
+[Adobe Campaign Standardでモバイルアプリケーション証明書を設定する方法について詳しく説明します](configuring-a-mobile-application.md#channel-specific-config)
 
 
 ## Google Android Firebase Cloud Messaging（FCM）サービス {#fcm-push-upgrade}
@@ -31,13 +31,13 @@ Campaign を使用して、Android およびiOSデバイスでプッシュ通知
 
 Google のサービス向上への継続的な取り組みの一環として、レガシー FCM API は **2024年6月20日（PT）**&#x200B;に廃止されます。Firebase Cloud Messaging HTTP プロトコルについて詳しくは、[Google Firebase ドキュメント](https://firebase.google.com/docs/cloud-messaging/http-server-ref){target="_blank"}を参照してください。
 
-開始中 [24.1 リリース](../../rn/using/release-notes.md), Adobe Campaign Standardは、Android プッシュ通知メッセージを送信する HTTP v1 API をサポートしています。
+[24.1 リリース ](../../rn/using/release-notes.md) 以降、Adobe Campaign Standardでは、Android プッシュ通知メッセージを送信する HTTP v1 API をサポートしています。
 
 ### 影響の有無 {#fcm-impact}
 
-既にAdobe Campaign Standardを使用してプッシュ通知を送信している場合は、実装を更新する必要があります。
+既にAdobe Campaign Standardを使用してプッシュ通知を送信している場合は、を更新する必要があります。
 
-サービスの分散を避けるには、最新の API への移行が必須です。
+サービスの中断を避けるには、最新の API への移行が必須となります。
 
 <!--To check if you are impacted, you can filter your **Services and Subscriptions** as per the filter below
 
@@ -49,32 +49,32 @@ Google のサービス向上への継続的な取り組みの一環として、�
 
 #### 前提条件 {#fcm-transition-prerequisites}
 
-* のサポート **HTTP v1 API** モードが 24.1 リリースで追加されました。 環境が古いバージョンで実行されている場合、この変更の前提条件は、環境を [最新Campaign Standardリリース](../../rn/using/release-notes.md).
+* **HTTP v1 API** モードのサポートが 24.1 リリースで追加されました。 環境が古いバージョンで実行されている場合、この変更の前提条件は、環境を [ 最新のCampaign Standardリリース ](../../rn/using/release-notes.md) にアップグレードすることです。
 
 * モバイルアプリケーションを HTTP v1 に移行するには、Android Firebase Admin SDK サービスのアカウント JSON ファイルが必要です。このファイルを取得する方法について詳しくは、[Google Firebase ドキュメント](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}を参照してください。
 
-* このレガシーバージョンの SDK をまだ使用している場合は、Adobe Experience Platform SDK で実装を更新する必要があります。 で Experience Platform SDK にAdobeする方法を説明します。 [この記事](sdkv4-migration.md).
+* このレガシーバージョンの SDK をまだ使用している場合は、Adobe Experience Platform SDK を使用して実装を更新する必要があります。 Adobe Experience Plaform SDK に移行する方法については、[ この記事 ](sdkv4-migration.md) を参照してください。
 
-* 次の項目を確認します。 **モバイルアプリ設定** 以下の手順を実行する前に、Adobe Experience Platform Data Collection Mobile の権限を設定してください。 [詳細情報](https://experienceleague.adobe.com/docs/experience-platform/collection/permissions.html?lang=en#adobe-experience-platform-data-collection-permissions){target="_blank"}.
+* 次の手順を実行する前に、Adobe Experience Platform Data Collection Mobile に **モバイルアプリ設定** 権限があることを確認してください。 [詳細情報](https://experienceleague.adobe.com/docs/experience-platform/collection/permissions.html?lang=en#adobe-experience-platform-data-collection-permissions){target="_blank"}
 
 
 #### トランジション手順 {#fcm-transition-steps}
 
 環境を HTTP v1 に移行するには、次の手順に従います。
 
-1. 参照先 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (AEP SDK)]**.
+1. **[!UICONTROL Administration]**/**[!UICONTROL Channels]**/**[!UICONTROL Mobile app (AEP SDK)]** を参照します。
 
    ![](assets/push_technote_1.png)
 
 1. 証明書の更新を必要とする特定のモバイルアプリケーションを選択します。
 
-1. 次を確認します。 **[!UICONTROL Update app credentials]** チェックボックス。
+1. 「**[!UICONTROL Update app credentials]**」チェックボックスをオンにします。
 
    ![](assets/push_technote_5.png)
 
-1. Android プロジェクトの `build.gradle` ファイル。 例： `com.android.test.testApp`. ステージング環境と実稼動環境では異なる ID を必ず使用してください。
+1. Android プロジェクトの `build.gradle` ファイルからアプリ ID （Android パッケージ名）を指定します。 例：`com.android.test.testApp`。 ステージング環境と実稼動環境では必ず異なる ID を使用してください。
 
-1. Android 秘密鍵 JSON キーファイルをアップロードします。
+1. Android秘密鍵の JSON キーファイルをアップロードします。
 
    ![](assets/push_technote_3.png)
 
@@ -82,7 +82,7 @@ Google のサービス向上への継続的な取り組みの一環として、�
 
 >[!NOTE]
 >
->これらの変更が適用されると、Android デバイスへのすべての新しいプッシュ通知配信で HTTP v1 API が使用されます。 再試行中、処理中、使用中の既存のプッシュ配信では、HTTP（レガシー）API を引き続き使用します。
+>これらの変更が適用されると、Android デバイスへの新しいプッシュ通知配信はすべて HTTP v1 API を使用します。 再試行中、処理中、使用中の既存のプッシュ配信では、HTTP（レガシー）API を引き続き使用します。
 
 
 ## Apple iOS プッシュ通知サービス（APNs） {#apns-push-upgrade}
@@ -118,7 +118,7 @@ Adobe Campaign Standardは、トークンベースの接続と証明書ベース
 
 #### 前提条件 {#ios-transition-prerequisites}
 
-* のサポート **トークンベースの認証** モードが [24.1 リリース](../../rn/using/release-notes.md). 環境が古いバージョンで実行されている場合、この変更の前提条件は、環境を [最新Campaign Standardリリース](../../rn/using/release-notes.md).
+* **トークンベースの認証** モードのサポートが、[24.1 リリース ](../../rn/using/release-notes.md) で追加されました。 環境が古いバージョンで実行されている場合、この変更の前提条件は、環境を [ 最新のCampaign Standardリリース ](../../rn/using/release-notes.md) にアップグレードすることです。
 
 * サーバーが使用するトークンを生成するには、APNs 認証トークン署名キーが必要です。[Apple 開発者向けドキュメント](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}で説明するように、Apple 開発者アカウントからこのキーをリクエストします。
 
@@ -127,21 +127,21 @@ Adobe Campaign Standardは、トークンベースの接続と証明書ベース
 
 iOS モバイルアプリケーションをトークンベースの認証モードに移行するには、次の手順に従います。
 
-1. 参照先 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (AEP SDK)]**.
+1. **[!UICONTROL Administration]**/**[!UICONTROL Channels]**/**[!UICONTROL Mobile app (AEP SDK)]** を参照します。
 
    ![](assets/push_technote_1.png)
 
 1. 証明書の更新を必要とする特定のモバイルアプリケーションを選択します。
 
-1. 次を確認します。 **[!UICONTROL Update app credentials]** チェックボックス。
+1. 「**[!UICONTROL Update app credentials]**」チェックボックスをオンにします。
 
    ![](assets/push_technote_2.png)
 
-1. 次を提供： **アプリ ID** (iOSバンドル ID)。 Xcode で、iOSバンドル ID（アプリ ID）をアプリのプライマリターゲットで検索できます。
+1. **アプリ ID** （iOS バンドル ID）を指定します。 iOS バンドル ID （アプリ ID）は、Xcode のアプリのメインターゲットにあります。
 
-1. 次をアップロード： **iOS p8 証明書ファイル**.
+1. **iOS p8 証明書ファイル** をアップロードします。
 
-1. APNs 接続設定を入力します **[!UICONTROL Key Id]** および **[!UICONTROL iOS Team Id]**.
+1. APN 接続設定 **[!UICONTROL Key Id]** と **[!UICONTROL iOS Team Id]** を入力します。
 
    ![](assets/push_technote_4.png)
 
@@ -151,63 +151,63 @@ iOS モバイルアプリケーションをトークンベースの認証モー�
 
 ## よくある質問{#push-upgrade-faq}
 
-+++ステージング&amp;実稼働インスタンスに同じ appID を保持できますか？
++++ステージと実稼動インスタンスに同じ appID を保持できますか？
 
-iOSモバイルアプリケーションの場合、ステージング環境と実稼動環境の両方で、同じアプリ ID(iOSアプリバンドル ID) を使用できます。 ただし、Android では、アプリ ID は環境ごとに一意である必要があります。 したがって、ステージング環境で作成したアプリ ID に「stage」を追加することをお勧めします
-
-+++
-
-
-+++Android アプリのみを移行できますか？
-
-いいえ。Android アプリとiOSアプリの両方を、上記の手順に従って移行する必要があります。
+iOS モバイルアプリケーションの場合、同じアプリ ID （iOS アプリバンドル ID）をステージング環境と実稼動環境の両方に使用できます。 ただし、Androidでは、アプリ ID は環境ごとに一意である必要があります。 そのため、ステージング環境で作成したアプリ ID に「ステージ」を追加することをお勧めします
 
 +++
 
-+++移行後に実行する必要がある検証の種類
 
-すべてのプッシュ関連の使用例に対して機能検証を実行することをお勧めします。
++++Android アプリケーションのみを移行できますか？
 
-+++
-
-+++モバイルアプリの保存中に「認証されていません」というエラーが発生した場合は、どうすればよいですか？
-
-これは、Adobe Experience Platform Data Collection に関連する権限の問題のようです。 これを解決するには、この記事の前提条件の節で説明されているように、Adobe Admin Consoleに「モバイル」および「モバイルアプリ設定」権限を追加する必要があります。
+いいえ。上記の手順に従って、AndroidとiOSの両方のアプリを移行する必要があります。
 
 +++
 
-+++変更がモバイルアプリコードに必要ですか？
++++移行後にどのような検証を行う必要がありますか？
 
-いいえ。必要なのは、Firebase とアプリ開発者アカウントの設定関連の変更のみです。 顧客モバイルアプリの変更は必要ありません。
-
-+++
-
-+++毎年iOS証明書を更新する必要がありますか？
-
-いいえ、この移行後は、毎年iOS証明書を更新する必要はありません。
+プッシュ関連のすべてのユースケースに対して機能検証を実施することをお勧めします。
 
 +++
 
-+++この移行が行われていない場合はどうなりますか？
++++モバイルアプリの保存中に「認証されていません」エラーが発生した場合は、どうすればよいですか？
 
-Googleからの通知に従って、2024 年 6 月 20 日以降、Android のプッシュメッセージは失敗します。 [詳細情報](https://firebase.google.com/docs/cloud-messaging/migrate-v1){target="_blank"}。
-
-+++
-
-+++FCMv1 の移行を完了した後、お客様は FCM に戻すことができますか？
-
-はい、2024 年 6 月 20 日までに FCM に移行できます。 この日以降、移行オプションは使用できなくなります。
+これは、Adobe Experience Platform Data Collection に関連する権限の問題のようです。 これを解決するには、この記事の前提条件の節で説明しているように、Adobe Admin Consoleで「モバイル」および「モバイルアプリ設定」権限を追加する必要があります。
 
 +++
 
-+++HTTP v1 API の移行は、SDK V4 モバイルアプリでサポートされていますか？
++++モバイルアプリコードでは変更が必要ですか？
 
-いいえ。まずモバイルアプリを V5 SDK に移行し、次に上記の移行を進める必要があります。 Googleからの通知に従って、2024 年 6 月からプッシュサービスが失敗し始めるので、優先しておこなう必要があります。
+いいえ、Firebase とアプリ開発者アカウントの設定関連の変更のみが必要です。 顧客モバイルアプリの変更は必須ではありません。
 
 +++
 
-+++ステージインスタンスでの変更は、実稼動インスタンスに影響を与えますか？
++++iOS証明書を毎年更新する必要がありますか？
 
-いいえ。ステージングモバイルアプリでの変更が実稼動インスタンスに及ぼす影響はありません。
+いいえ。この移行の後は、iOS証明書を毎年更新する必要はありません。
+
++++
+
++++この移行が行われない場合はどうなりますか？
+
+Androidのプッシュメッセージは、Googleからの通知に従って、2024 年 6 月 20 日（PT）以降に失敗し始めます。 [詳細情報](https://firebase.google.com/docs/cloud-messaging/migrate-v1){target="_blank"}。
+
++++
+
++++FCMv1 の移行が完了した後で、お客様は FCM に戻すことはできますか？
+
+はい、2024 年 6 月 20 日（PT）まで FCM に移行できます。 この期限を過ぎると、移行オプションは使用できなくなります。
+
++++
+
++++HTTP v1 API 移行は SDK V4 モバイルアプリでサポートされていますか？
+
+いいえ。お客様はまずモバイルアプリを V5 SDK に移行してから、上記の移行を進める必要があります。 Googleからの通知に従って、プッシュサービスが 2024 年 6 月から失敗し始めるため、これらのユーザーは優先事項としてこれを行う必要があります。
+
++++
+
++++ステージインスタンスでの変更は、実稼動インスタンスに何らかの影響を与えますか？
+
+いいえ。実稼動インスタンスにおけるステージモバイルアプリの変更の影響はありません。
 
 +++

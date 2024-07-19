@@ -1,6 +1,6 @@
 ---
 title: ファイルからの複数の購読ステータスの更新
-description: この使用例では、プロファイルを含むファイルをインポートし、その購読を、ファイルで指定された複数のサービスに更新する方法を示しています。
+description: このユースケースは、プロファイルを含むファイルをインポートし、ファイルで指定された複数のサービスに対してそのプロファイルの購読を更新する方法を示しています。
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
@@ -12,7 +12,7 @@ exl-id: 2e98561a-97fd-483a-a547-c4e6d33993dc
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '421'
-ht-degree: 77%
+ht-degree: 81%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 77%
 
 ![](assets/subscription_activity_example1.png)
 
-* A [ファイルを読み込み](../../automating/using/load-file.md) 「 」アクティビティは、プロファイルファイルを読み込み、インポートした列の構造を定義します。
+* [ ファイルを読み込み ](../../automating/using/load-file.md) アクティビティは、プロファイルファイルを読み込み、読み込んだ列の構造を定義します。
 
   この例では、読み込まれるファイルは .csv 形式で、次のデータが含まれています。
 
@@ -49,7 +49,7 @@ ht-degree: 77%
 
   「0」と「1」が既に操作の識別に使用されているファイルでは、再マッピングの必要はありません。列が&#x200B;**ブール値**&#x200B;または&#x200B;**整数**&#x200B;として処理されていることを「**[!UICONTROL Column definition]**」タブで確認してください。
 
-* A [紐づけ](../../automating/using/reconciliation.md) 「 」アクティビティで、ファイルのデータを、Adobe Campaignデータベースのプロファイルディメンションに属するものとして識別します。 「**[!UICONTROL Identification]**」タブでは、ファイルの **email** フィールドと、プロファイルリソースの **email** フィールドが照合されます。
+* [紐付け](../../automating/using/reconciliation.md)アクティビティでは、Adobe Campaign データベースのプロファイルディメンションに属するものとして、ファイルのデータが識別されます。「**[!UICONTROL Identification]**」タブでは、ファイルの **email** フィールドと、プロファイルリソースの **email** フィールドが照合されます。
 
   ![](assets/subscription_activity_example3.png)
 
@@ -57,11 +57,11 @@ ht-degree: 77%
 
   ![](assets/subscription_example_service_relation.png)
 
-* A [重複排除](../../automating/using/deduplication.md) 基準： **電子メール** （紐付けの結果生成される）一時リソースのフィールドで、重複を識別します。 重複がある場合、サービスへの購読登録はすべてのデータで失敗するので、重複を排除することが重要です。
+* [ 重複排除 ](../../automating/using/deduplication.md) 一時リソースの **メール** フィールド（紐付けの結果）に基づいて、重複を識別します。 重複がある場合、サービスへの購読登録はすべてのデータで失敗するので、重複を排除することが重要です。
 
   ![](assets/subscription_activity_example5.png)
 
-* A [購読サービス](../../automating/using/subscription-services.md) 「 」アクティビティで、「 」で作成されたリンクを通じて、更新するサービスがトランジションに由来するものであることを識別します。 **[!UICONTROL Reconciliation]** アクティビティ。
+* [ 購読サービス ](../../automating/using/subscription-services.md) アクティビティは、更新アクティビティで作成されたリンクを通じて、トランジシ **[!UICONTROL Reconciliation]** ンから取得されたものとして更新するサービスを識別します。
 
   「**[!UICONTROL Operation type]**」は、ファイルの **operation** フィールドに由来するものとして識別されます。ここで選択できるのは、ブール値フィールドまたは整数フィールドのみです。実行する操作を記述しているファイル列がリストに表示されない場合は、前述のように、「**[!UICONTROL Load file]**」アクティビティで列の形式が正しく設定されていることを確認してください。
 

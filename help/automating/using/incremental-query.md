@@ -28,7 +28,7 @@ ht-degree: 94%
 
 このアクティビティではクエリエディターツールを使用します。このツールについては、[該当する節](../../automating/using/editing-queries.md#about-query-editor)で詳しく説明します。
 
-## 使用状況 {#context-of-use}
+## 使用コンテキスト {#context-of-use}
 
 ワークフローしたがってクエリの実行頻度を定義するには、「**[!UICONTROL Incremental query]**」を「**[!UICONTROL Scheduler]**」にリンクする必要があります。
 
@@ -40,11 +40,11 @@ ht-degree: 94%
 
 * データをエクスポートする。
 
-  「**[!UICONTROL Incremental query]**」アクティビティを使用して、新規ログを定期的にファイルにエクスポートできます。これは、例えば、外部レポートや BI ツールでログデータを使用する場合に役立ちます。 完全な例については、[ログのエクスポート](../../automating/using/exporting-logs.md)の節を参照してください。
+  「**[!UICONTROL Incremental query]**」アクティビティを使用して、新規ログを定期的にファイルにエクスポートできます。例えば、ログデータを外部のレポートや BI ツールで使用する場合に便利です。 完全な例については、[ログのエクスポート](../../automating/using/exporting-logs.md)の節を参照してください。
 
 **関連トピック**
 
-* [使用例：サービスの購読者に対する増分処理クエリ](../../automating/using/incremental-query-on-subscribers.md)
+* [ユースケース：サービス購読者に対する増分クエリ](../../automating/using/incremental-query-on-subscribers.md)
 
 ## 設定 {#configuration}
 

@@ -40,7 +40,7 @@ ht-degree: 95%
 
 コントロール母集団を定義するには、ターゲット母集団から無作為に、または並べ替えに基づいて、一定の割合または一定数のプロファイルを抽出できます。
 
-### ターゲットからの抽出 {#target-extraction}
+### ターゲットの抽出 {#target-extraction}
 
 まず、ターゲットからプロファイルを抽出する方法（**無作為**&#x200B;または&#x200B;**並べ替えに基づいて選択**）を定義します。
 
@@ -116,7 +116,7 @@ ht-degree: 95%
 
 <!--For more on using the query editor, see the [Editing queries](../../automating/using/editing-queries.md) section.-->
 
-## 使用例：コントロール母集団の設定 {#control-group-example}
+## ユースケース：コントロール母集団の設定 {#control-group-example}
 
 次の例では、メインターゲットからプロファイルを抽出する方法と、クエリを使用して特定の母集団を除外する方法の 2 つの方法により、コントロール母集団を定義します。
 
@@ -155,7 +155,7 @@ ht-degree: 95%
 
 >[!IMPORTANT]
 >
->配信ログにアクセスするには、 [管理者の役割](../../administration/using/users-management.md#functional-administrators) そして、その一部になる **[!UICONTROL All]** [組織単位](../../administration/using/organizational-units.md). <!--If you would like to restrict access for a particular user or group of users, do not link it to **[!UICONTROL All]** units.-->
+>配信ログにアクセスするには、[ 管理者の役割 ](../../administration/using/users-management.md#functional-administrators) と、**[!UICONTROL All]** [ 組織単位 ](../../administration/using/organizational-units.md) の一部である必要があります。<!--If you would like to restrict access for a particular user or group of users, do not link it to **[!UICONTROL All]** units.-->
 
 ### 配信ログの確認 {#checking-logs}
 
@@ -196,7 +196,7 @@ ht-degree: 95%
 
 次に、例えば、「**ファイルを抽出**」アクティビティに続いて「**ファイルを転送**」アクティビティを実行して、ログデータを書き出します。これにより、コントロール母集団と比較した効果的なターゲットに対するキャンペーンの結果を、独自のレポートツールで分析できます。ログの書き出しについて詳しくは、[この節](../../automating/using/exporting-logs.md)を参照してください。
 
-### コントロール母集団のターゲティング {#targeting-control-group}
+### コントロール母集団のターゲット設定 {#targeting-control-group}
 
 メッセージを受信しなかったプロファイルに基づいてターゲティングをおこなう場合は、配信ログも使用できます。次の手順に従います。
 

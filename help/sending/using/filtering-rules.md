@@ -17,28 +17,28 @@ ht-degree: 23%
 
 # フィルタリングルール {#filtering-rules}
 
-フィルタリングルールを使用すると、強制隔離されたプロファイルや、特定の数の E メールを既に送信したプロファイルなど、クエリで定義された条件に従って、メッセージターゲットの一部を除外できます。
+フィルタリングルールを使用すると、強制隔離されたプロファイルや一定数のメールが既に送信されているプロファイルなど、クエリで定義された条件に従ってメッセージターゲットの一部を除外できます。
 
 ## デフォルトのフィルタータイポロジルール {#default-filtering-typology-rules}
 
-次の表に、標準のフィルタールールと、それに関連するチャネルに関する情報を示します。
+標準のフィルタールールと、関連チャネルの情報を次の表に示します。
 
 | ラベル | チャネル | 説明 |
 | ---------|----------|---------|
-| **[!UICONTROL Address not specified]** | すべて | 指定したアドレス（E メール、郵送先住所など）を持たないターゲット母集団を除外します。 選択したチャネルに従う )。 |
-| **[!UICONTROL Address on denylist]** | すべて | アドレス上のアドレスを除外しブロックリストに加えるます。 |
-| **[!UICONTROL Duplicate]** | すべて | ターゲット母集団に基づいて重複を除外 **[!UICONTROL Address]** フィールドに入力します。 |
-| **[!UICONTROL Exclude mobile applications]** | モバイルアプリケーション | メッセージで定義されたモバイルアプリと一致しないアプリを除外します。 |
-| **[!UICONTROL Exclude mobile applications for In-App]** | アプリ内 | メッセージに定義されたモバイルアプリと一致しないアプリを除外します（アプリ内テンプレート）。 |
-| **[!UICONTROL Exclude mobile applications for In-App broadcast]** | アプリ内 | メッセージに定義されたモバイルアプリケーションと一致しないアプリを除外する（アプリ内ブロードキャストテンプレート） |
-| **[!UICONTROL Exclude mobile applications for Push]** | モバイルアプリケーション | メッセージで定義されたモバイルアプリと一致しないアプリの購読を除外します（プッシュの場合） |
+| **[!UICONTROL Address not specified]** | すべて | アドレス（メール、住所など）が指定されていないターゲット母集団を除外します。 （選択したチャネルによる） |
+| **[!UICONTROL Address on denylist]** | すべて | ブロックリスト上のアドレスを除外します。 |
+| **[!UICONTROL Duplicate]** | すべて | ターゲット母集団の **[!UICONTROL Address]** フィールドに基づいて重複を除外します。 |
+| **[!UICONTROL Exclude mobile applications]** | モバイルアプリケーション | メッセージで定義されたモバイルアプリケーションに一致しないアプリ購読を除外します。 |
+| **[!UICONTROL Exclude mobile applications for In-App]** | アプリ内 | メッセージで定義されたモバイルアプリケーション （アプリ内テンプレート）に一致しないアプリ購読を除外します。 |
+| **[!UICONTROL Exclude mobile applications for In-App broadcast]** | アプリ内 | メッセージで定義されたモバイルアプリケーション （アプリ内ブロードキャストテンプレート）に一致しないアプリ購読を除外します。 |
+| **[!UICONTROL Exclude mobile applications for Push]** | モバイルアプリケーション | メッセージで定義されたモバイルアプリケーションに一致しないアプリ購読を除外します（プッシュ用） |
 | **[!UICONTROL Quarantined address]** | すべて | 強制隔離されたアドレスを除外します。 |
-| **[!UICONTROL Target limited in size]** | すべて | ターゲットの最大配信サイズに達したかどうかを確認します。 「配信制限」オプションが有効なダイレクトメール配信に適用されます。 |
+| **[!UICONTROL Target limited in size]** | すべて | ターゲットの最大配信サイズに達したかどうかを確認します。 「配信制限」オプションが有効になっているダイレクトメール配信に適用されます。 |
 
-これらのデフォルトのフィルタールールに加えて、次の 2 つの除外ルールを使用できます。
+これらのデフォルトのフィルタリングルールに加えて、次の 2 つの除外ルールを使用できます。
 
-* **[!UICONTROL Exclusion of addresses]** ( **[!UICONTROL addressExclusions]** )
-* **[!UICONTROL Exclusion of domains]** ( **[!UICONTROL domainExclusions]** ) をクリックします。
+* **[!UICONTROL Exclusion of addresses]** （**[!UICONTROL addressExclusions]**）
+* **[!UICONTROL Exclusion of domains]** （**[!UICONTROL domainExclusions]**）。
 
 電子メールの分析時には、配信性能インスタンスで管理された暗号化グローバル抑止リストに含まれている禁止アドレスや禁止ドメイン名がこれらのルールによって照合され、受信者の電子メールアドレスが該当していないかどうかの確認処理が実行されます。該当した場合、その受信者宛てにはメッセージが送信されません。
 
@@ -50,31 +50,31 @@ ht-degree: 23%
 
 ## フィルタールールの作成 {#creating-a-filtering-rule}
 
-必要に応じて、独自のフィルタールールを作成できます。 例えば、ニュースレターのターゲット母集団をフィルタリングして、18 歳未満の購読者が通信を受け取らないようにすることができます。
+必要に応じて、独自のフィルタールールを作成できます。 例えば、ニュースレターのターゲット母集団をフィルタリングして、18 歳未満の購読者がコミュニケーションを受け取らないようにすることができます。
 
 フィルタータイポロジルールを作成するには、次の手順に従います。
 
-1. 新しいタイポロジルールを作成します。 タイポロジルールを作成する主な手順について詳しくは、 [この節](../../sending/using/managing-typology-rules.md).
+1. 新しいタイポロジルールを作成します。 タイポロジルールを作成する主な手順については、[ この節 ](../../sending/using/managing-typology-rules.md) を参照してください。
 
-1. を選択します。 **[!UICONTROL Filtering]** ルールタイプを選択し、目的のチャネルを指定します。
+1. **[!UICONTROL Filtering]** のルールタイプを選択してから、目的のチャネルを指定します。
 
-1. Adobe Analytics の **[!UICONTROL Filtering criteria]** 「 」タブで、 **[!UICONTROL Subscription]** カテゴリ。
+1. 「**[!UICONTROL Filtering criteria]**」タブで、**[!UICONTROL Subscription]** カテゴリ内の購読を選択します。
 
    ![](assets/typology_create-rule-subscription.png)
 
-1. Adobe Analytics の **[!UICONTROL Explorer]** クエリエディターの「 」タブで、 **[!UICONTROL Subscriber]** ノードを画面のメイン部分に追加します。
+1. クエリエディターの「**[!UICONTROL Explorer]**」タブで、**[!UICONTROL Subscriber]** ノードを画面のメイン部分にドラッグ&amp;ドロップします。
 
    ![](assets/typology_create-rule-subscriber.png)
 
-1. を選択します。 **[!UICONTROL Age]** 「 」フィールドでフィルター条件を定義し、購読者の年齢が 18 歳未満になるようにします。
+1. 「**[!UICONTROL Age]**」フィールドを選択し、購読者の年齢が 18 歳未満になるようにフィルター条件を定義します。
 
    ![](assets/typology_create-rule-age.png)
 
-1. Adobe Analytics の **[!UICONTROL Typologies]** 「 」タブで、このルールをタイポロジにリンクします。
+1. 「**[!UICONTROL Typologies]**」タブで、このルールをタイポロジにリンクします。
 
    ![](assets/typology_create-rule-typology.png)
 
-1. 使用する配信または配信テンプレートで、タイポロジが選択されていることを確認します。 詳しくは、[この節](../../sending/using/managing-typologies.md#applying-typologies-to-messages)を参照してください。
+1. 使用する配信または配信テンプレートでタイポロジが選択されていることを確認します。 詳しくは、[この節](../../sending/using/managing-typologies.md#applying-typologies-to-messages)を参照してください。
 
    ![](assets/typology_template.png)
 
@@ -82,24 +82,24 @@ ht-degree: 23%
 
 ## フィルタールールのターゲティングコンテキストの設定 {#configuring-filtering-rules-targeting-context}
 
-Campaign Standardでは、  **ターゲット設定** および **フィルター** ターゲットにするデータに応じて使用するディメンション。
+Campaign Standardでは、ターゲット設定するデータに応じて、使用する **ターゲティング** ディメンションと **フィルタリング** ディメンションを設定できます。
 
-これをおこなうには、タイポロジルールのプロパティを開き、 **[!UICONTROL Advanced information]** 」セクションに入力します。
+それには、タイポロジルールのプロパティを開き、「**[!UICONTROL Advanced information]**」セクションにアクセスします。
 
-デフォルトでは、 **[!UICONTROL Profiles]**. 例えば、ルールの対象がモバイルアプリケーションの場合、 **[!UICONTROL Filtering dimension]** は、次の値に変更できます。 **[!UICONTROL Subscriptions to an application]**.
+デフォルトでは、**[!UICONTROL Profiles]** ージに対してフィルタリングが実行されます。 例えば、ルールがモバイルアプリケーションを対象としている場合、**[!UICONTROL Filtering dimension]** を **[!UICONTROL Subscriptions to an application]** に変更できます。
 
 ![](assets/typology_rule-order_2.png)
 
-## フィルタリングルールの適用の制限 {#restricting-the-applicability-of-a-filtering-rule}
+## フィルタールールの適用可能性の制限 {#restricting-the-applicability-of-a-filtering-rule}
 
-送信するメッセージに応じて、フィルタリングルールの適用を制限できます。
+送信するメッセージに応じて、フィルタールールの適用を制限できます。
 
-1. タイポロジルールの **[!UICONTROL Application criteria]** タブを選択し、「 」チェックボックスをオフにします。 **[!UICONTROL Apply the rule on all deliveries]** オプションに含まれます。これはデフォルトで有効になっています。
+1. タイポロジルールの「**[!UICONTROL Application criteria]**」タブで、デフォルトで有効になっている「**[!UICONTROL Apply the rule on all deliveries]**」オプションのチェックを外します。
 
    ![](assets/typology_limit.png)
 
-1. クエリエディターを使用して、フィルターを定義します。 例えば、特定の単語で始まるラベルや、特定の文字が ID に含まれるメッセージに対してのみ、ルールを適用できます。
+1. クエリエディターを使用してフィルターを定義します。 例えば、特定の単語でラベルが始まるメッセージや、特定の文字を含む ID のメッセージにのみルールを適用できます。
 
    ![](assets/typology_limit-rule.png)
 
-この場合、ルールは定義された条件に対応するメッセージにのみ適用されます。
+この場合、ルールは、定義された条件に対応するメッセージにのみ適用されます。

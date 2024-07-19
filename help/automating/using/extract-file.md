@@ -24,7 +24,7 @@ ht-degree: 78%
 
 「**[!UICONTROL Extract file]**」アクティビティを使用すると、Adobe Campaign から外部ファイルの形式でデータを書き出すことができます。
 
-## 使用状況 {#context-of-use}
+## 使用コンテキスト {#context-of-use}
 
 データの抽出方法は、アクティビティの設定時に定義されます。
 
@@ -34,7 +34,7 @@ ht-degree: 78%
 
 **関連トピック：**
 
-* [使用例：外部ファイル内のプロファイルの書き出し](../../automating/using/exporting-profiles-in-file.md)
+* [ユースケース：外部ファイルへのプロファイルの書き出し](../../automating/using/exporting-profiles-in-file.md)
 
 ## 設定 {#configuration}
 
@@ -43,7 +43,7 @@ ht-degree: 78%
    ![](assets/wkf_data_export1.png)
 
 1. アクティビティを選択し、表示されるクイックアクションの ![](assets/edit_darkgrey-24px.png) ボタンを使用して開きます。
-1. **Output file** のラベルを入力します。ファイルのラベルは、一意になるように、作成された日時と共に自動的に入力されます。例： recipients_20150815_081532.txt（2015 年 8 月 15 日 08 に生成されたファイル）:15:32.
+1. **Output file** のラベルを入力します。ファイルのラベルは、一意になるように、作成された日時と共に自動的に入力されます。例：2015 年 8 月 15 日の 08:15:32 に生成されたファイルの recipients_20150815_081532.txt。
 
    >[!NOTE]
    >
@@ -51,9 +51,9 @@ ht-degree: 78%
 
 1. 必要に応じて、「**[!UICONTROL Add a post-processing stage]**」フィールドの **[!UICONTROL Compression]** を選択して、出力ファイルを zip 形式で圧縮できます。出力ファイルは圧縮されて GZIP ファイル（.gz）になります。
 
-   The **[!UICONTROL Add a post-processing stage]** 「 」フィールドでは、ファイルを抽出する前に暗号化することもできます。 暗号化されたファイルの操作方法について詳しくは、 [この節](../../automating/using/managing-encrypted-data.md)
+   また、**[!UICONTROL Add a post-processing stage]** フィールドを使用すると、ファイルを抽出する前に暗号化することもできます。 暗号化ファイルの操作方法について詳しくは、[ この節 ](../../automating/using/managing-encrypted-data.md) を参照してください。
 
-1. 次をクリック： **[!UICONTROL Create element]** ボタンをクリックして出力列を追加します。
+1. 「**[!UICONTROL Create element]**」ボタンをクリックして、出力列を追加します。
 
    ![](assets/wkf_data_export2.png)
 
@@ -78,7 +78,7 @@ ht-degree: 78%
 
    >[!NOTE]
    >
-   >データを特定のエンコーディングで CSV ファイルに抽出する場合は、まず「テキスト」出力形式を選択します。 目的のエンコーディングをドロップダウンリストから選択し、出力形式を「CSV (Excel)」に変更します。
+   >特定のエンコーディングで CSV ファイルにデータを抽出する場合は、まず「テキスト」出力形式を選択します。 ドロップダウンリストから目的のエンコーディングを選択し、出力形式を「CSV （Excel）」に変更します。
 
 1. 「**[!UICONTROL Properties]**」タブで、インバウンドトランジションが空の場合に空のファイルを SFTP サーバーで作成してアップロードしないようにする「**[!UICONTROL Do not generate a file if the inbound transition is empty]**」オプションを選択します。
 1. アクティビティの設定を確認し、ワークフローを保存します。

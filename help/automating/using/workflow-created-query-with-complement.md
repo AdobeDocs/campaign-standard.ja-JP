@@ -1,6 +1,6 @@
 ---
 title: 補集合を含む配信の作成
-description: この使用例は、補集合を含む配信の作成方法を示しています。
+description: このユースケースは、補完を含んだ配信の作成方法を示しています。
 audience: automating
 content-type: reference
 topic-tags: execution-activities
@@ -18,30 +18,30 @@ ht-degree: 39%
 
 # 補集合を含む配信の作成 {#deliveries-with-complement}
 
-顧客に E メールを送信できます。1 年未満に作成されたクライアント向けと 1 年以上前に作成されたクライアント向けです。
+顧客にメールを送信できます。1 年以内に作成されたクライアント用に 1 つ、1 年以上前に作成されたクライアント用に 1 つ。
 
 1. 「**[!UICONTROL Marketing Activities]**」で、「**[!UICONTROL Create]**」をクリックして「**[!UICONTROL Workflow]**」を選択します。
 1. ワークフローのタイプとして「**[!UICONTROL New Workflow]**」を選択し、「**[!UICONTROL Next]**」をクリックします。
 1. ワークフローのプロパティを入力し、「**[!UICONTROL Create]**」をクリックします。
 
-## クエリアクティビティの作成 {#create-a-query-activity}
+## クエリ アクティビティを作成します {#create-a-query-activity}
 
 1. **[!UICONTROL Activities]**／**[!UICONTROL Targeting]** で、「[クエリ](../../automating/using/query.md)」アクティビティをドラッグ＆ドロップします。
 1. アクティビティをダブルクリックします。
-1. In **[!UICONTROL Shortcuts]**、ドラッグ&amp;ドロップ **[!UICONTROL Profiles]** を選択し、 **[!UICONTROL email]** 演算子を使用 **[!UICONTROL is not empty]**.
-1. In **[!UICONTROL Shortcuts]**、ドラッグ&amp;ドロップ **[!UICONTROL Profiles]** を選択し、 **[!UICONTROL no longer contact by email]** と値 **[!UICONTROL no]**.
+1. **[!UICONTROL Shortcuts]** で、**[!UICONTROL Profiles]** をドラッグ&amp;ドロップし、演算子 **[!UICONTROL is not empty]** を使用して **[!UICONTROL email]** を選択します。
+1. **[!UICONTROL Shortcuts]** で、**[!UICONTROL Profiles]** をドラッグ&amp;ドロップし、値が **[!UICONTROL no]** の **[!UICONTROL no longer contact by email]** を選択します。
 1. 「**[!UICONTROL Confirm]**」をクリックします。
 
 ![](assets/wf-complement-query.png)
 
-## Segmentation アクティビティの作成 {#create-a-segmentation-activity}
+## セグメント化アクティビティの作成 {#create-a-segmentation-activity}
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**、ドラッグ&amp;ドロップ [セグメント化](../../automating/using/segmentation.md) 「 」アクティビティをクリックし、ダブルクリックします。
-1. セグメントの上にマウスポインターを置いて、「 ![](assets/edit_darkgrey-24px.png) を使用して、今年データベースに追加された顧客をターゲット化できます。
-1. ドラッグ&amp;ドロップ **[!UICONTROL Profiles]** を選択し、 **[!UICONTROL Created]** フィルタータイプ **[!UICONTROL Relative]**.
-1. 次を変更： **[!UICONTROL Level of precision]** から **[!UICONTROL Year]** を選択し、 **[!UICONTROL This year]**.
+1. **[!UICONTROL Activities]**/**[!UICONTROL Targeting]** で [ セグメント化 ](../../automating/using/segmentation.md) アクティビティをドラッグ&amp;ドロップし、ダブルクリックします。
+1. セグメントの上にマウスポインターを置いて「![](assets/edit_darkgrey-24px.png)」をクリックすると、今年データベースに追加された顧客をターゲットできます。
+1. **[!UICONTROL Profiles]** をドラッグ&amp;ドロップし、フィルタータイプが **[!UICONTROL Relative]** の **[!UICONTROL Created]** を選択します。
+1. **[!UICONTROL Level of precision]** を **[!UICONTROL Year]** に変更し、「**[!UICONTROL This year]**」を選択します。
 1. 「**[!UICONTROL Confirm]**」を 2 回クリックします。
-1. In **[!UICONTROL Advanced Options]**, check **[!UICONTROL Generate complement]** をクリックして、残りの受信者をターゲティングするセグメントを作成します。
+1. **[!UICONTROL Advanced Options]** で、「**[!UICONTROL Generate complement]**」をチェックして、残りの受信者をターゲットにしたセグメントを作成します。
 1. 「**[!UICONTROL Confirm]**」をクリックします。
 1. 「**[!UICONTROL Save]**」をクリックします。
 
@@ -49,18 +49,18 @@ ht-degree: 39%
 
 >[!NOTE]
 >
->ルールの構造を観察するには、 **[!UICONTROL Advanced Mode]**.
+>ルールの構造を確認するには、「**[!UICONTROL Advanced Mode]**」をクリックします。
 
-## E メール配信の作成 {#create-an-email-delivery}
+## メール配信の作成 {#create-an-email-delivery}
 
-1. In **[!UICONTROL Activities]** > **[!UICONTROL Channels]**、ドラッグ&amp;ドロップ [E メール配信](../../automating/using/email-delivery.md) 」アクティビティが表示されます。
+1. **[!UICONTROL Activities]**/**[!UICONTROL Channels]** で、[ メール配信 ](../../automating/using/email-delivery.md) アクティビティを各セグメントの後にドラッグ&amp;ドロップします。
 1. アクティビティをクリックし、![](assets/edit_darkgrey-24px.png) を選択して編集します。
 1. 「**[!UICONTROL Single send email]**」を選択し、「**[!UICONTROL Next]**」をクリックします。
 1. メールテンプレートを選択し、「**[!UICONTROL Next]**」をクリックします。
 1. メールのプロパティを入力し、「**[!UICONTROL Next]**」をクリックします。
 1. メールのレイアウトを作成するには、「**[!UICONTROL Email Designer]**」をクリックします。
 1. 要素を挿入するか、既存のテンプレートを選択します。
-1. 各配信に固有のオファーを使用して、E メールをパーソナライズします。
+1. 各配信に固有のオファーを使用してメールをパーソナライズします。
 1. 「**[!UICONTROL Preview]**」をクリックして、レイアウトを確認します。
 1. 「**[!UICONTROL Save]**」をクリックします。
 

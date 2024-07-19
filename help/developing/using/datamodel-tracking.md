@@ -1,6 +1,6 @@
 ---
-title: DataModel トラッキングログ
-description: データモデルの詳細
+title: データモデルトラッキングログ
+description: データモデルについて説明します
 audience: developing
 content-type: reference
 feature: Data Model
@@ -14,7 +14,7 @@ ht-degree: 33%
 
 ---
 
-# トラッキングログ (nms:remoteTracking)
+# トラッキングログ （nms:remoteTracking）
 
 ## オブジェクトの説明
 
@@ -22,7 +22,7 @@ ht-degree: 33%
                <tr>
                   <th>名前</th>
                   <th>ラベル</th>
-                  <th>タイプ（長さ）</th>
+                  <th>タイプ （長さ）</th>
                   <th>列挙値</th>
                </tr>
                <tr>

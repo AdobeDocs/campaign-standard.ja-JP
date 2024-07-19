@@ -18,84 +18,84 @@ ht-degree: 3%
 
 # トランザクションプッシュ通知{#transactional-push-notifications}
 
-Adobe Campaignを使用して、iOSおよび Android モバイルデバイスでトランザクションプッシュ通知を送信できます。 これらのメッセージは、Experience CloudMobile SDK を利用して、Adobe Campaignで設定したモバイルアプリケーションで受信されます。
+Adobe Campaignを使用すると、iOSやAndroidのモバイルデバイスでトランザクションプッシュ通知を送信できます。 これらのメッセージは、Experience Cloud Mobile SDK を利用してAdobe Campaignにセットアップしたモバイルアプリケーションで受信されます。
 
 >[!NOTE]
 >
->プッシュチャネルはオプションです。 使用許諾契約書を確認してください。標準のプッシュ通知について詳しくは、 [プッシュ通知について](../../channels/using/about-push-notifications.md).
+>プッシュチャネルはオプションです。 使用許諾契約書を確認してください。標準のプッシュ通知について詳しくは、[ プッシュ通知について ](../../channels/using/about-push-notifications.md) を参照してください。
 
-トランザクションプッシュ通知を送信できるようにするには、それに応じてAdobe Campaignを設定する必要があります。 詳しくは、 [モバイルアプリケーションの設定](../../administration/using/configuring-a-mobile-application.md).
+トランザクションプッシュ通知を送信するには、それに応じてAdobe Campaignを設定する必要があります。 [ モバイルアプリケーションの設定 ](../../administration/using/configuring-a-mobile-application.md) を参照してください。
 
-次の 2 種類のトランザクションプッシュ通知を送信できます。
+2 種類のトランザクションプッシュ通知を送信できます。
 
-* [イベントをターゲットとしたトランザクションプッシュ通知](#transactional-push-notifications-targeting-an-event)
-* [プロファイルをターゲットとするトランザクションプッシュ通知](#transactional-push-notifications-targeting-a-profile) Adobe Campaignデータベースから
+* [イベントをターゲットにしたトランザクションプッシュ通知](#transactional-push-notifications-targeting-an-event)
+* [ プロファイルをターゲットとするトランザクションプッシュ通知 ](#transactional-push-notifications-targeting-a-profile) Adobe Campaign データベースから
 
-## イベントをターゲットとしたトランザクションプッシュ通知 {#transactional-push-notifications-targeting-an-event}
+## イベントをターゲットにしたトランザクションプッシュ通知 {#transactional-push-notifications-targeting-an-event}
 
-Adobe Campaignを使用して **匿名トランザクションプッシュ通知をすべてのユーザーに送信** モバイルアプリケーションからの通知の受信をオプトインしたユーザー
+Adobe Campaignを使用すると、モバイルアプリケーションから通知を受け取ることをオプトインしたすべてのユーザーに **匿名のトランザクションプッシュ通知** を送信できます。
 
-この場合、 **イベント自体に含まれるデータを使用して、配信ターゲットを定義します。**. Adobe Campaign統合プロファイルデータベースのデータは利用されません。
+この場合、**イベント自体に含まれるデータは、配信ターゲットの定義に使用されます** のみです。 Adobe Campaign統合プロファイルデータベースのデータは利用されません。
 
 ### イベントベースのトランザクションプッシュ通知の設定 {#configuring-event-based-transactional-push-notification}
 
-モバイルアプリケーションからの通知の受信をオプトインしたすべてのユーザーにトランザクションプッシュ通知を送信するには、まず、イベント自体に含まれるデータをターゲットにしたイベントを作成し、設定する必要があります。
+モバイルアプリケーションからの通知の受信をオプトインしたすべてのユーザーにトランザクションプッシュ通知を送信するには、まずイベント自体に含まれるデータをターゲットにするイベントを作成し、設定する必要があります。
 
 >[!NOTE]
 >
->引き続き、を使用して、イベントベースのトランザクションプッシュ通知のコンテンツをパーソナライズできます。 [イベント属性](../../channels/using/configuring-transactional-event.md#defining-the-event-attributes) （イベントのデータ）および [イベントエンリッチメント](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) （Campaign データベースのデータ）。 詳しくは、 [以下の例](#sending-event-based-transactional-push-notification).
+>引き続き、[ イベント属性 ](../../channels/using/configuring-transactional-event.md#defining-the-event-attributes) （イベントからのデータ）と [ イベントエンリッチメント ](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) （Campaign データベースからのデータ）を使用して、イベントベースのトランザクションプッシュ通知のコンテンツをパーソナライズできます。 [ 以下の例 ](#sending-event-based-transactional-push-notification) を参照してください。
 
-イベントには、次の 3 つの要素が含まれている必要があります。
+イベントには、次の 3 つの要素を含める必要があります。
 
-* A **登録トークン**:1 つのモバイルアプリケーションと 1 つのデバイスのユーザー ID。 Adobe Campaignデータベースのどのプロファイルにも対応していない可能性があります。
-* A **モバイルアプリ名** ( すべてのデバイス用 — Android とiOS)。 これは、Adobe Campaignで設定され、ユーザーのデバイスでのプッシュ通知の受信に使用されるモバイルアプリケーションの ID です。 詳しくは、 [モバイルアプリケーションの設定](../../administration/using/configuring-a-mobile-application.md).
-* A **プッシュプラットフォーム** (Android の場合は「gcm」、iOSの場合は「apns」)。
+* **登録トークン**:1 つのモバイルアプリケーションと 1 つのデバイスのユーザー ID Adobe Campaign データベースのプロファイルに対応していない可能性があります。
+* **モバイルアプリケーション名** （すべてのデバイス（AndroidおよびiOS）に対応）。 これは、ユーザーのデバイスでプッシュ通知を受け取るために使用される、Adobe Campaignで設定されたモバイルアプリケーションの ID です。 詳しくは、[ モバイルアプリケーションの設定 ](../../administration/using/configuring-a-mobile-application.md) を参照してください。
+* **プッシュプラットフォーム** （Androidの場合は「gcm」、iOSの場合は「apns」）。
 
 イベントを設定するには、次の手順に従います。
 
-1. イベント設定を作成する際に、 **[!UICONTROL Push notification]** チャネルと **[!UICONTROL Real-time event]** ターゲティングディメンション ( [イベントの作成](../../channels/using/configuring-transactional-event.md#creating-an-event)) をクリックします。
-1. イベントにフィールドを追加します。 これにより、トランザクションメッセージをパーソナライズできます ( [イベント属性の定義](../../channels/using/configuring-transactional-event.md#defining-the-event-attributes)) をクリックします。 この例では、「gateNumber」、「lastname」および「firstname」フィールドを定義します。
-1. また、メッセージの内容をエンリッチメントすることもできます。 これをおこなうには、イベント設定にリンクしたテーブルからフィールドを追加します ( [イベントのエンリッチメント](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)) をクリックします。
+1. イベント設定を作成する場合は、**[!UICONTROL Push notification]** チャネルと **[!UICONTROL Real-time event]** ターゲティングディメンションを選択します（[ イベントの作成 ](../../channels/using/configuring-transactional-event.md#creating-an-event) を参照）。
+1. イベントにフィールドを追加します。 これにより、トランザクションメッセージをパーソナライズできます（[ イベント属性の定義 ](../../channels/using/configuring-transactional-event.md#defining-the-event-attributes) を参照）。 この例では、「gateNumber」、「lastname」および「firstname」フィールドを定義します。
+1. また、メッセージのコンテンツをエンリッチメントすることもできます。 それには、イベント設定にリンクしたテーブルからフィールドを追加します（「[ イベントのエンリッチメント ](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)」を参照）。
 
    <!--Event-based transactional messaging is supposed to use only the data that are in the sent event to define the recipient and the message content personalization. However, you can enrich the content of your transactional message using information from the Adobe Campaign database.-->
 
-1. [イベントをプレビューして公開します。](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event).
+1. [ イベントのプレビューと公開 ](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)。
 
-   イベントをプレビューする際、REST API には、配信のターゲット設定に使用される「registrationToken」、「application」および「pushPlatform」属性が含まれます。
+   イベントをプレビューする場合、REST API には、配信のターゲットとして使用される「registrationToken」、「application」および「pushPlatform」属性が含まれています。
 
    ![](assets/message-center_push_api.png)
 
-   イベントが公開されると、新しいイベントにリンクされたトランザクションプッシュ通知が自動的に作成されます。 作成したメッセージを変更して公開できるようになりました ( [この節](#sending-event-based-transactional-push-notification)) をクリックします。
+   イベントが公開されると、新規イベントにリンクされたトランザクションプッシュ通知が自動的に作成されます。 作成したメッセージを変更して公開できるようになりました（[ この節 ](#sending-event-based-transactional-push-notification) を参照）。
 
-1. イベントを Web サイトに統合する ( [イベントトリガーの統合](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)) をクリックします。
+1. イベントを Web サイトに統合します（[ イベントトリガーの統合 ](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger) を参照）。
 
 ### イベントベースのトランザクションプッシュ通知の送信 {#sending-event-based-transactional-push-notification}
 
-例えば、航空会社がモバイルアプリのユーザーを招待して、搭乗用に関連するゲートに進みたいとします。
+例えば、ある航空会社は、モバイルアプリケーションのユーザーを搭乗用の関連ゲートに進めるように招待したいとします。
 
-会社は、1 台のデバイスを通じて、1 つのモバイルアプリケーションを使用して、ユーザー（登録トークンで識別）ごとに 1 つのトランザクションプッシュ通知を送信します。
+会社は、1 つのモバイルアプリケーションを使用して、1 つのデバイスを通じて、ユーザーごとに 1 つのトランザクションプッシュ通知（登録トークンで識別）を送信します。
 
-1. 作成したトランザクションメッセージに移動して編集します。 詳しくは、 [トランザクションメッセージへのアクセス](../../channels/using/editing-transactional-message.md#accessing-transactional-messages).
+1. 作成されたトランザクションメッセージに移動して編集します。 [ トランザクションメッセージへのアクセス ](../../channels/using/editing-transactional-message.md#accessing-transactional-messages) を参照してください。
 
    ![](assets/message-center_push_message.png)
 
-1. 次をクリック： **[!UICONTROL Content]** ブロックを使用して、メッセージのタイトルと本文を変更します。
+1. **[!UICONTROL Content]** ブロックをクリックして、メッセージのタイトルと本文を変更します。
 
-1. パーソナライゼーションフィールドを挿入して、イベントの作成時に定義した要素を追加できます ( [イベント属性の定義](../../channels/using/configuring-transactional-event.md#defining-the-event-attributes)) をクリックします。
+1. パーソナライゼーションフィールドを挿入して、イベントの作成時に定義した要素を追加できます（[ イベント属性の定義 ](../../channels/using/configuring-transactional-event.md#defining-the-event-attributes) を参照）。
 
    ![](assets/message-center_push_content.png)
 
-   これらのフィールドを検索するには、項目の横にある鉛筆アイコンをクリックし、 **[!UICONTROL Insert personalization field]** を選択し、 **[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**.
+   これらのフィールドを検索するには、項目の横にある鉛筆をクリックして「**[!UICONTROL Insert personalization field]**」をクリックし、**[!UICONTROL Context]**/**[!UICONTROL Real-time event]**/**[!UICONTROL Event context]** を選択します。
 
    ![](assets/message-center_push_personalization.png)
 
-   プッシュ通知コンテンツの編集について詳しくは、 [プッシュ通知の準備と送信](../../channels/using/preparing-and-sending-a-push-notification.md).
+   プッシュ通知コンテンツの編集について詳しくは、[ プッシュ通知の準備と送信 ](../../channels/using/preparing-and-sending-a-push-notification.md) を参照してください。
 
-1. また、Adobe Campaignデータベースからの追加情報を使用する場合は、トランザクションメッセージのコンテンツをエンリッチメントすることもできます ( [イベントのエンリッチメント](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)) をクリックします。
+1. Adobe Campaign Database から追加情報を使用する場合は、トランザクションメッセージのコンテンツもエンリッチメントできます（[ イベントのエンリッチメント ](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) を参照）。
 
 1. 変更を保存し、メッセージを公開します。[トランザクションメッセージの公開](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)を参照してください。
 
-1. Adobe Campaign Standard REST API を使用して、ボーディングデータを含む Android(gcm) 上の 1 つのモバイルアプリケーション (WeFlight) を使用して、登録トークン (ABCDEF123456789) にイベントを送信します。
+1. Adobe Campaign Standard REST API を使用し、Android（gcm）上の 1 つのモバイルアプリケーション（WeFlight）を使用して、イベントを登録トークン（ABCDEF123456789）に送信します。このトークンには、ボーディングデータが含まれます。
 
    ```
    {
@@ -111,67 +111,67 @@ Adobe Campaignを使用して **匿名トランザクションプッシュ通知
    }
    ```
 
-   外部システムへのイベントトリガーの組み込みについて詳しくは、 [イベントトリガーの統合](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger).
+   イベントのトリガーを外部システムに統合する方法について詳しくは、[ イベントトリガーの統合 ](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger) を参照してください。
 
-登録トークンが存在する場合、対応するユーザーは、次のコンテンツを含むトランザクションプッシュ通知を受け取ります。
+登録トークンが存在する場合、対応するユーザーは、次の内容を含むトランザクションプッシュ通知を受け取ります。
 
-*「こんにちは、ジェーン・グリーンさん、搭乗が始まりました！ B18 番ゲートに進んでください。」*
+*「こんにちは、ジェーン・グリーンさん、搭乗が始まりました。 B18 ゲートに進んでください」*
 
-## プロファイルをターゲットとしたトランザクションプッシュ通知 {#transactional-push-notifications-targeting-a-profile}
+## プロファイルをターゲットにしたトランザクションプッシュ通知 {#transactional-push-notifications-targeting-a-profile}
 
-トランザクションプッシュ通知を送信できます **モバイルアプリケーションを購読しているAdobe Campaignプロファイルに追加します。**. この配信には、 [パーソナライゼーションフィールド](../../designing/using/personalization.md#inserting-a-personalization-field)( 受信者の名など、Adobe Campaignデータベースから直接取得したもの )。
+トランザクションプッシュ通知 **モバイルアプリケーションを購読しているAdobe Campaign プロファイルに送信** できます。 この配信には、Adobe Campaign データベースから直接取得した受信者の名などの [ パーソナライゼーションフィールド ](../../designing/using/personalization.md#inserting-a-personalization-field) を含めることができます。
 
-この場合、イベントにはいくつかのフィールドが含まれている必要があります **Adobe Campaignデータベースのプロファイルとの紐付けの許可**.
+この場合、イベントには、（Adobe Campaign データベースからのプロファイルとの紐付けを許可する **いくつかのフィールドが含まれている必要があ** ます。
 
-プロファイルをターゲティングする場合、モバイルアプリケーションおよびデバイスごとに 1 つのトランザクションプッシュ通知が送信されます。 例えば、Adobe Campaignユーザーが 2 つのアプリケーションを購読している場合、このユーザーは 2 つの通知を受け取ります。 ユーザーが 2 つの異なるデバイスを使用して同じアプリケーションを購読した場合、このユーザーは各デバイスで通知を受け取ります。
+プロファイルをターゲティングする場合、モバイルアプリケーションとデバイスごとに 1 つのトランザクションプッシュ通知が送信されます。 例えば、Adobe Campaign ユーザーが 2 つのアプリケーションを購読すると、このユーザーに 2 つの通知が届きます。 ユーザーが 2 つの異なるデバイスで同じアプリケーションを購読した場合、このユーザーは各デバイスで通知を受け取ります。
 
-プロファイルが購読登録したモバイルアプリが **[!UICONTROL Mobile App Subscriptions]** 」タブをクリックします。 このタブにアクセスするには、プロファイルを選択し、 **[!UICONTROL Edit profile properties]** 」ボタンをクリックします。
+プロファイルが購読しているモバイルアプリケーションは、このプロファイルの「**[!UICONTROL Mobile App Subscriptions]**」タブに表示されます。 このタブにアクセスするには、プロファイルを選択し、右側の「**[!UICONTROL Edit profile properties]**」ボタンをクリックします。
 
 ![](assets/push_notif_subscriptions.png)
 
-プロファイルへのアクセスと編集について詳しくは、 [プロファイルについて](../../audiences/using/about-profiles.md).
+プロファイルへのアクセスと編集について詳しくは、[ プロファイルについて ](../../audiences/using/about-profiles.md) を参照してください。
 
 ### プロファイルベースのトランザクションプッシュ通知の設定 {#configuring-profile-based-transactional-push-notification}
 
-モバイルアプリケーションを購読したAdobe Campaignプロファイルにトランザクションプッシュ通知を送信するには、まずAdobe Campaignデータベースをターゲットとするイベントを作成し、設定する必要があります。
+モバイルアプリケーションを購読しているAdobe Campaign プロファイルにトランザクションプッシュ通知を送信するには、まず、Adobe Campaign データベースをターゲットとするイベントを作成し、設定する必要があります。
 
-1. イベント設定を作成する際に、 **[!UICONTROL Push notification]** チャネルと **[!UICONTROL Profile]** ターゲティングディメンション ( [イベントの作成](../../channels/using/configuring-transactional-event.md#creating-an-event)) をクリックします。
+1. イベント設定を作成する場合は、**[!UICONTROL Push notification]** チャネルと **[!UICONTROL Profile]** ターゲティングディメンションを選択します（[ イベントの作成 ](../../channels/using/configuring-transactional-event.md#creating-an-event) を参照）。
 
-   デフォルトでは、トランザクションプッシュ通知は、受信者がサブスクリプションを購入したすべてのモバイルアプリケーションに送信されます。 特定のモバイルアプリケーションにプッシュ通知を送信するには、リストでその通知を選択します。 その他のモバイルアプリはメッセージのターゲットになりますが、送信から除外されます。
+   デフォルトでは、トランザクションプッシュ通知は、受信者が購読しているすべてのモバイルアプリケーションに送信されます。 特定のモバイルアプリケーションにプッシュ通知を送信するには、リストでプッシュ通知を選択します。 その他のモバイルアプリケーションは、メッセージのターゲットとなりますが、送信から除外されます。
 
    ![](assets/message-center_push_appfilter.png)
 
-1. トランザクションメッセージをパーソナライズする場合は、イベントにフィールドを追加します ( [イベント属性の定義](../../channels/using/configuring-transactional-event.md#defining-the-event-attributes)) をクリックします。
+1. トランザクションメッセージをパーソナライズする場合は、イベントにフィールドを追加します（[ イベント属性の定義 ](../../channels/using/configuring-transactional-event.md#defining-the-event-attributes) を参照）。
 
    >[!NOTE]
    >
-   >エンリッチメントを作成するには、少なくとも 1 つのフィールドを追加する必要があります。 他のフィールド ( **名** および **姓** Adobe Campaignデータベースのパーソナライゼーションフィールドを使用できるようになります。
+   >エンリッチメントを作成するには、少なくとも 1 つのフィールドを追加する必要があります。 Adobe Campaign データベースからパーソナライゼーションフィールドを使用できるので、**名** や **姓** など、他のフィールドを作成する必要はありません。
 
-1. イベントを **[!UICONTROL Profile]** リソース ( [イベントのエンリッチメント](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)) をクリックし、このエンリッチメントを選択します。 **[!UICONTROL Targeting enrichment]**.
+1. エンリッチメントを作成して、イベントを **[!UICONTROL Profile]** リソースにリンクし（[ イベントのエンリッチメント ](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) を参照）、このエンリッチメントを **[!UICONTROL Targeting enrichment]** として選択します。
 
    >[!IMPORTANT]
    >
-   >この手順は、プロファイルベースのイベントでは必須です。
+   >この手順は、プロファイルベースのイベントに必須です。
 
-1. [イベントをプレビューして公開します。](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event).
+1. [ イベントのプレビューと公開 ](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)。
 
-   イベントをプレビューする際、REST API には、登録トークン、アプリケーション名、プッシュプラットフォームを指定する属性は含まれません。これらは、 **[!UICONTROL Profile]** リソース。
+   イベントのプレビュー時、REST API には、**[!UICONTROL Profile]** リソースから取得される登録トークン、アプリケーション名、プッシュプラットフォームを指定する属性が含まれていません。
 
-   イベントが公開されると、新しいイベントにリンクされたトランザクションプッシュ通知が自動的に作成されます。 作成したメッセージを変更して公開できるようになりました ( [この節](#sending-profile-based-transactional-push-notification)) をクリックします。
+   イベントが公開されると、新規イベントにリンクされたトランザクションプッシュ通知が自動的に作成されます。 作成したメッセージを変更して公開できるようになりました（[ この節 ](#sending-profile-based-transactional-push-notification) を参照）。
 
-1. イベントを Web サイトに統合する ( [イベントトリガーの統合](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)) をクリックします。
+1. イベントを Web サイトに統合します（[ イベントトリガーの統合 ](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger) を参照）。
 
 ### プロファイルベースのトランザクションプッシュ通知の送信 {#sending-profile-based-transactional-push-notification}
 
-例えば、航空会社がモバイルアプリを購読したすべてのAdobe Campaignユーザーに対して、ボーディング用の最後の呼び出しを送信するとします。
+例えば、ある航空会社が、モバイルアプリケーションを購読しているすべてのAdobe Campaign ユーザーに、搭乗のための最後の呼び出しを送信したいとします。
 
-1. 作成したトランザクションメッセージに移動して編集します。 詳しくは、 [トランザクションメッセージへのアクセス](../../channels/using/editing-transactional-message.md#accessing-transactional-messages).
+1. 作成されたトランザクションメッセージに移動して編集します。 [ トランザクションメッセージへのアクセス ](../../channels/using/editing-transactional-message.md#accessing-transactional-messages) を参照してください。
 
-1. 次をクリック： **[!UICONTROL Content]** ブロックを使用して、メッセージのタイトルと本文を変更します。
+1. **[!UICONTROL Content]** ブロックをクリックして、メッセージのタイトルと本文を変更します。
 
    リアルタイムイベントに基づく設定とは異なり、すべてのプロファイル情報に直接アクセスして、メッセージをパーソナライズできます。 [パーソナライゼーションフィールドの挿入](../../designing/using/personalization.md#inserting-a-personalization-field)を参照してください。
 
-   プッシュ通知コンテンツの編集について詳しくは、 [プッシュ通知の準備と送信](../../channels/using/preparing-and-sending-a-push-notification.md).
+   プッシュ通知コンテンツの編集について詳しくは、[ プッシュ通知の準備と送信 ](../../channels/using/preparing-and-sending-a-push-notification.md) を参照してください。
 
 1. 変更を保存し、メッセージを公開します。[トランザクションメッセージの公開](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)を参照してください。
 1. Adobe Campaign Standard REST API を使用して、イベントをプロファイルに送信します。
@@ -186,27 +186,27 @@ Adobe Campaignを使用して **匿名トランザクションプッシュ通知
    }
    ```
 
-外部システムへのイベントトリガーの組み込みについて詳しくは、 [イベントトリガーの統合](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger).
+イベントのトリガーを外部システムに統合する方法について詳しくは、[ イベントトリガーの統合 ](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger) を参照してください。
 
-対応するユーザーは、Adobe Campaignデータベースから取得したすべてのパーソナライゼーション要素を含むトランザクションプッシュ通知を受け取ります。
+対応するユーザーは、Adobe Campaign データベースから取得されたすべてのパーソナライゼーション要素を含むトランザクションプッシュ通知を受け取ります。
 
 >[!NOTE]
 >
->登録トークン、アプリケーション、プッシュプラットフォームの各フィールドはありません。 この例では、E メールフィールドとの紐付けが実行されます。
+>登録トークン、アプリケーション、プッシュプラットフォームのフィールドはありません。 この例では、紐付けはメールフィールドで実行されます。
 
 ## トランザクションプッシュ通知でのターゲットマッピングの変更 {#change-target-mapping}
 
-トランザクションプッシュ通知では、特定の [ターゲットマッピング](../../administration/using/target-mappings-in-campaign.md) このタイプの配信を送信するために必要な技術設定が含まれています。
+トランザクションプッシュ通知では、特定の [ ターゲットマッピング ](../../administration/using/target-mappings-in-campaign.md) を使用します。このマッピングには、このタイプの配信の送信に必要な技術設定が含まれています。
 
 このターゲットマッピングを変更するには、次の手順に従います。
 
-1. トランザクションメッセージリストで、プッシュ通知を選択します。
+1. トランザクションメッセージリストから、プッシュ通知を選択します。
 
-1. メッセージダッシュボードで、 **[!UICONTROL Edit properties]** 」ボタンをクリックします。
+1. メッセージダッシュボードで、「**[!UICONTROL Edit properties]**」ボタンをクリックします。
 
    ![](assets/message-center_push_edit.png)
 
-1. を展開します。 **[!UICONTROL Advanced parameters]** 」セクションに入力します。
+1. 「**[!UICONTROL Advanced parameters]**」セクションを展開します。
 
 1. 「**[!UICONTROL Select a 'Target mapping' element]**」をクリックします。
 
@@ -216,7 +216,7 @@ Adobe Campaignを使用して **匿名トランザクションプッシュ通知
 
    >[!NOTE]
    >
-   >送信時の配信準備時間とパフォーマンスを最適化する **プロファイルベース** トランザクションプッシュ通知、 **[!UICONTROL Profile - Real-time event for Push (mapRtEventAppSubRcp)]** ターゲットマッピング。
+   >**プロファイルベース** のトランザクションプッシュ通知を送信する際に最適な配信準備時間とパフォーマンスを得るには、**[!UICONTROL Profile - Real-time event for Push (mapRtEventAppSubRcp)]** ターゲットマッピングを使用します。
 
    ![](assets/message-center_push_target-mapping_change.png)
 
@@ -224,6 +224,6 @@ Adobe Campaignを使用して **匿名トランザクションプッシュ通知
 
    >[!IMPORTANT]
    >
-   >変更を有効にするには、メッセージを再度公開する必要があります。公開しない場合、以前のターゲットマッピングが引き続き使用されます。
+   >変更を有効にするには、メッセージを再度公開する必要があります。そうしないと、以前のターゲットマッピングが引き続き使用されます。
 
 

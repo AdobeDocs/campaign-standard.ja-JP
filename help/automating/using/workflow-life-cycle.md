@@ -1,6 +1,6 @@
 ---
 title: ワークフローのライフサイクル
-description: ワークフローのライフサイクルの詳細を説明します
+description: ワークフローのライフサイクルの詳細情報
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
@@ -18,30 +18,30 @@ ht-degree: 3%
 
 # ワークフローのライフサイクル {#life-cycle}
 
-ワークフローのライフサイクルには、3 つの主なステップが含まれ、各ステップはステータスと色にリンクされます。
+ワークフローのライフサイクルには 3 つの主なステップが含まれ、各ステップはステータスとカラーにリンクされています。
 
-* **編集中** （グレー）
+* **編集中** （灰色）
 
-  これは、ワークフローの最初のデザインフェーズです ( [ワークフローの作成](../../automating/using/building-a-workflow.md#creating-a-workflow)) をクリックします。 ワークフローはまだサーバーで処理されておらず、安全に変更できます。
+  これは、ワークフローの初期デザインフェーズです（[ ワークフローの作成 ](../../automating/using/building-a-workflow.md#creating-a-workflow) を参照）。 ワークフローはまだサーバーで処理されず、リスクを伴わずに変更できます。
 
 * **処理中** （青）
 
-  最初のデザインフェーズが完了したら、ワークフローを開始し、サーバーによって処理できます。
+  初期デザインフェーズが完了したら、ワークフローを開始し、サーバーで処理することができます。
 
 * **完了** （緑）
 
-  進行中のタスクがなくなった後、またはオペレーターがインスタンスを明示的に停止した後、ワークフローは終了します。
+  ワークフローは、進行中のタスクがなくなるか、オペレーターがインスタンスを明示的に停止すると終了します。
 
-ワークフローを開始すると、その他に 2 つのステータスも表示されます。
+開始されると、ワークフローには他に 2 つのステータスが含まれる場合もあります。
 
 * **警告** （黄色）
 
-  ワークフローを完了できなかったか、 ![](assets/pause_darkgrey-24px.png) または ![](assets/check_pause_darkgrey-24px.png) ボタン。
+  ワークフローを完了できなかったか、「![](assets/pause_darkgrey-24px.png)」または「![](assets/check_pause_darkgrey-24px.png)」ボタンを使用して一時停止しました。
 
 * **エラー** （赤）
 
-  ワークフローの実行中にエラーが発生しました。 ワークフローが停止し、ユーザーはアクションを実行する必要があります。 このエラーの詳細については、 ![](assets/printpreview_darkgrey-24px.png) ボタンを使用して、ワークフローログにアクセスします ( [監視](../../automating/using/monitoring-workflow-execution.md)) をクリックします。
+  ワークフローの実行時にエラーが発生しました。 ワークフローが停止されました。ユーザーはアクションを実行する必要があります。 このエラーの詳細については、「![](assets/printpreview_darkgrey-24px.png)」ボタンを使用してワークフローログにアクセスしてください（[ モニタリング ](../../automating/using/monitoring-workflow-execution.md) を参照）。
 
-マーケティングアクティビティのリストを使用すると、すべてのワークフローとそのステータスを表示できます。 詳しくは、 [マーケティングアクティビティの管理](../../start/using/marketing-activities.md#about-marketing-activities).
+マーケティングアクティビティのリストを使用すると、すべてのワークフローとそのステータスを表示できます。 詳しくは、[ マーケティングアクティビティの管理 ](../../start/using/marketing-activities.md#about-marketing-activities) を参照してください。
 
 ![](assets/wkf_execution_3.png)

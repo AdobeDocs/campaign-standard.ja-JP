@@ -23,7 +23,7 @@ ht-degree: 98%
 
 「**[!UICONTROL Intersection]**」アクティビティでは、アクティビティ内の異なるインバウンド母集団に共通の要素のみを保持できます。
 
-## 使用状況 {#context-of-use}
+## 使用コンテキスト {#context-of-use}
 
 「**[!UICONTROL Intersection]**」アクティビティは、通常、インバウンドトランジションからの母集団に対して追加のフィルタリングをおこなうのに使用されます。
 

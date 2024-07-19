@@ -19,40 +19,40 @@ ht-degree: 8%
 
 ## プロファイルからのオプトインとオプトアウトの管理 {#managing-opt-in-and-opt-out-from-a-profile}
 
-オペレーターは、ユーザーをプロファイルから直接オプトインまたはオプトアウトできます **[!UICONTROL General]** タブをクリックします。
+ユーザーは、オペレーターが「プロファイルのオプトイン」タブから直接オプトインまたはオプトア **[!UICONTROL General]** トできます。
 
-Adobe Analytics の **[!UICONTROL No longer contact (on denylist)]** 「 」セクションの場合、選択したチェックボックスは、ユーザーがオプトアウトを選択したチャネルに対応しています。 ユーザーのニーズに応じてチャネルを選択します。
+「**[!UICONTROL No longer contact (on denylist)]**」セクションでは、選択したチェックボックスが、ユーザーがオプトアウトを選択したチャネルに対応しています。 ユーザーのニーズに応じてチャネルを選択します。
 
 ![](assets/optin_landingpage_3.png)
 
 ## オプトインおよびオプトアウトランディングページの設定 {#setting-up-opt-in-and-opt-out-landing-pages}
 
-ユーザーがオプトインまたはオプトアウトできるようにするには、 **[!UICONTROL Profile acquisition]** ランディングページ。 その後、必要に応じてチャネルを選択できるようになります。 それには、次の手順に従います。
+ユーザーがオプトインまたはオプトアウトできるようにするには、**[!UICONTROL Profile acquisition]** ランディングページを作成して公開する必要があります。 その後、必要に応じてチャネルを選択できます。 それには、次の手順に従います。
 
-また、 **[!UICONTROL Denylist]** すべての配信のオプトアウトをユーザーに許可するランディングページ。 詳しくは、 [すべての配信をオプトアウトするためのランディングページの設定](#setting-up-a-landing-page-to-opt-out-from-all-deliveries).
+また、ユーザーがすべての配信をオプトアウトできる **[!UICONTROL Denylist]** しいランディングページを設定することもできます。 詳しくは、[ すべての配信をオプトアウトするためのランディングページの設定 ](#setting-up-a-landing-page-to-opt-out-from-all-deliveries) を参照してください。
 
 >[!NOTE]
 >
->ランディングページは、サービスの購読を有効にする場合にも使用できます。 詳しくは、[このページ](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)を参照してください。
+>ランディングページを使用してサービス購読を有効にすることもできます。 詳しくは、[このページ](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)を参照してください。
 
-1. の作成 **[!UICONTROL Profile acquisition]** ランディングページ ( [この節](../../channels/using/getting-started-with-landing-pages.md)) をクリックします。
-1. 目的のチャネルのランディングページコンテンツにチェックボックスを追加し、Campaign データベースから対応するフィールドにリンクします。
+1. **[!UICONTROL Profile acquisition]** ランディングページを作成します（[ この節 ](../../channels/using/getting-started-with-landing-pages.md) を参照）。
+1. 目的の各チャネルのランディングページコンテンツにチェックボックスを追加し、Campaign データベースから対応するフィールドにリンクします。
 
    ![](assets/optin_landingpage_1.png)
 
 1. ランディングページを保存して公開します。
-1. ランディングページでは、プロファイルに従ってチェックボックスが既に選択されています **[!UICONTROL General]** タブをクリックします。 ユーザーは、必要に応じてチャネルの選択または選択解除を行い、フォームを送信できます。
+1. ランディングページでは、「プロファイルの選 **[!UICONTROL General]**」タブに従って、チェックボックスが既に選択されています。 ユーザーは、必要に応じてチャネルを選択または選択解除し、フォームを送信することができます。
 
    ![](assets/optin_landingpage_2.png)
 
-1. フォームが送信されると、プロファイル **[!UICONTROL General]** タブは、ユーザーの選択に応じて更新されます。
+1. フォームが送信されると、ユーザーの選択に従って「プロファイル **[!UICONTROL General]** 定」タブが更新されます。
 
    ![](assets/optin_landingpage_3.png)
 
 ### すべての配信をオプトアウトするためのランディングページの設定 {#setting-up-a-landing-page-to-opt-out-from-all-deliveries}
 
-ユーザーがすべての配信をオプトアウトできるようにするには、 **[!UICONTROL Denylist]** ランディングページ。 ランディングページの作成について詳しくは、 [このページ](../../channels/using/getting-started-with-landing-pages.md).
+ユーザーがすべての配信をオプトアウトできるようにするには、**[!UICONTROL Denylist]** しいランディングページを作成して公開する必要があります。 ランディングページの作成について詳しくは、[ このページ ](../../channels/using/getting-started-with-landing-pages.md) を参照してください。
 
-ユーザーがランディングページのリンクをクリックすると、 **[!UICONTROL No longer contact (by any channel)]** 」オプションが自動的に選択されます。
+ユーザーがランディングページのリンクをクリックすると、プロファイルの「**[!UICONTROL No longer contact (by any channel)]**」オプションが自動的に選択されます。
 
 ![](assets/blocklisting_allchannels.png)

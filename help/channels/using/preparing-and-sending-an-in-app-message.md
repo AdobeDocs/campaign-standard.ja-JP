@@ -58,9 +58,9 @@ Adobe Campaign を使用してスタンドアロンのアプリ内メッセー�
    * **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]**
    * **[!UICONTROL Target users based on their Mobile profile (inApp)]**
 
-1. アプリ内メッセージのプロパティを入力し、「 **[!UICONTROL Associate a Mobile App to a delivery]** フィールドに入力します。
+1. アプリ内メッセージのプロパティを入力し、「**[!UICONTROL Associate a Mobile App to a delivery]**」フィールドでモバイルアプリを選択します。
 
-   ドロップダウンリストにアプリが表示されない場合は、モバイルアプリが **設定済み** 状態。 Adobe Analytics のアプリ **設定準備完了** 状態はリストに表示されません。 モバイルアプリケーションの設定について詳しくは、この[ページ](../../administration/using/configuring-a-mobile-application.md#channel-specific-config)を参照してください。
+   ドロップダウンリストにアプリケーションが表示されない場合は、モバイルアプリケーションが **設定済み** 状態であることを確認します。 **設定準備完了** 状態のアプリケーションは、リストに表示されません。 モバイルアプリケーションの設定について詳しくは、この[ページ](../../administration/using/configuring-a-mobile-application.md#channel-specific-config)を参照してください。
 
    ![](assets/inapp_creating_3.png)
 
@@ -92,7 +92,7 @@ Adobe Campaign を使用してスタンドアロンのアプリ内メッセー�
 
    ![](assets/inapp_creating_4.png)
 
-1. 次を使用する場合、 **[!UICONTROL Analytics Events]**&#x200B;コンテキストデータイベントを手動で追加する必要があるのに対し、 Adobe Analyticsおよび表示状態イベントは、データ収集 UI の Analytics 拡張機能で設定されたレポートスイートに基づいて自動的に入力されます。
+1. **[!UICONTROL Analytics Events]** を使用する場合、Adobe Analyticsおよびビューステートイベントは、データ収集 UI の Analytics 拡張機能で設定されたレポートスイートに基づいて自動的に入力されますが、コンテキストデータイベントは手動で追加する必要があります。
 
    これらのイベントは、Adobe Analytics のライセンスをお持ちの場合にのみ利用できます。
 
@@ -100,7 +100,7 @@ Adobe Campaign を使用してスタンドアロンのアプリ内メッセー�
 
 1. **[!UICONTROL Places]** トリガーを使用すると、Places コンテキストデータ、Places カスタムメタデータ、Places イベントタイプのいずれかには、すべてのライブラリと Adobe Places で作成されたライブラリ目標点データに従って自動的に入力がおこなわれます。
 
-   このトリガーは、デバイス上で、データ収集 UI の Places 拡張機能で選択されたライブラリの目標地点に対してのみ適用されます。 Places 拡張機能とそのインストール方法について詳しくは、この[ドキュメント](https://developer.adobe.com/client-sdks/solution/places)を参照してください。
+   なお、このトリガーは、Data Collection UI の Places 拡張機能で選択した Libraries 内の Points of Interest に対してのみ適用されます。 Places 拡張機能とそのインストール方法について詳しくは、この[ドキュメント](https://developer.adobe.com/client-sdks/solution/places)を参照してください。
 
 1. 「**[!UICONTROL Frequency & duration]**」タブで、トリガーの頻度、開始日と終了日、曜日、アプリ内メッセージを有効にする時刻帯を選択します。
 
@@ -133,7 +133,7 @@ Adobe Campaign を使用してスタンドアロンのアプリ内メッセー�
 
    ![](assets/inapp_sending_3.png)
 
-1. これで、メッセージを送信し、配信レポートを使用してその影響を測定できるようになりました。
+1. 配信レポートを使用して、メッセージを送信し、その影響を測定できるようになりました。
 
 ## アプリ内メッセージの送信 {#sending-your-in-app-message}
 
@@ -161,15 +161,15 @@ Adobe Campaign を使用してスタンドアロンのアプリ内メッセー�
 
 1. 配信レポートを使用して、アプリ内メッセージの影響を測定します。レポートについて詳しくは、[この節](../../reporting/using/in-app-report.md)を参照してください。
 
-1. アプリ内メッセージを送信した後で、配信の非アクティブ化を選択できます。 これは、特定の配信を停止する場合や、同じトリガーで新しい配信を実行する場合などに役立ちます。
+1. アプリ内メッセージを送信した後、配信の非アクティブ化を選択できます。 これは、特定の配信を停止する場合や、同じトリガーで新しい配信を実行する場合などに便利です。
 
-   クリック **[!UICONTROL Deactivate]** その後 **[!UICONTROL Ok]** をクリックして非アクティブ化リクエストを開始します。
+   「**[!UICONTROL Deactivate]**」をクリックしてから「**[!UICONTROL Ok]**」をクリックして、アクティベートリクエストを開始します。
 
    ![](assets/inapp_sending_8.png)
 
-1. リクエストが送信されると、配信は非アクティブ化され、他のメッセージは送信されません。
+1. リクエストが送信されると、配信が非アクティブ化され、他のメッセージは送信されません。
 
-   この配信のレポートは、引き続きアクセス可能です。
+   この配信のレポートには、引き続きアクセスできます。
 
    ![](assets/inapp_sending_9.png)
 

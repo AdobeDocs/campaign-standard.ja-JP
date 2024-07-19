@@ -1,6 +1,6 @@
 ---
 title: CCPA オプトアウトの管理
-description: API を使用した CCPA オプトアウトの管理方法について説明します。
+description: API を使用して CCPA オプトアウトを管理する方法を説明します
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -17,7 +17,7 @@ ht-degree: 6%
 
 # CCPA オプトアウトの管理 {#managing-ccpa-optout}
 
-プロファイルの CCPA オプトアウトステータスは、 **ccpaOptOut** profile 属性と「true」または「false」の値：
+プロファイルの CCPA オプトアウトステータスは、**ccpaOptOut** プロファイル属性と「true」または「false」の値を使用して監視および管理できます。
 
 `"ccpaOptOut": <value>`
 
@@ -30,9 +30,9 @@ ht-degree: 6%
 
 <br/>
 
-***リクエストのサンプル***
+***サンプルリクエスト***
 
-* プロファイルの CCPA オプトアウトステータスを取得するためのGETリクエストの例。
+* プロファイルの CCPA オプトアウトステータスを取得するサンプルGETリクエスト。
 
   ```
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/<PKEY> \
@@ -54,7 +54,7 @@ ht-degree: 6%
   }
   ```
 
-* プロファイルを CCPA オプトアウト用にマークするためのPOSTリクエストの例。
+* CCPA オプトアウト用のプロファイルをマークするサンプルPOSTリクエスト。
 
   ```
   -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/ \
@@ -84,7 +84,7 @@ ht-degree: 6%
   }
   ```
 
-* CCPA オプトアウト用にプロファイルを更新するためのPATCHリクエストの例。
+* CCPA オプトアウト用のプロファイルを更新するサンプルPATCHリクエスト。
 
   ```
   -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/<PKEY> \

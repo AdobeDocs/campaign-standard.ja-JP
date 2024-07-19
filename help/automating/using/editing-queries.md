@@ -114,7 +114,7 @@ ht-degree: 94%
 
 * [高度な関数](../../automating/using/advanced-expression-editing.md)
 * [フィルターの定義](../../developing/using/configuring-filter-definition.md)
-* [ユースケース：週 1 回の E メール配信の作成](../../automating/using/workflow-weekly-offer.md)
-* [ユースケース：ロケーション別にセグメント化した配信の作成](../../automating/using/workflow-segmentation-location.md)
-* [ユースケース：補集合を使用した配信の作成](../../automating/using/workflow-created-query-with-complement.md)
-* [ユースケース：メールを開封していないユーザーに新しい配信を送信する再ターゲティングワークフロー](../../automating/using/workflow-cross-channel-retargeting.md)
+* [ユースケース：週に 1 回のメール配信の作成](../../automating/using/workflow-weekly-offer.md)
+* [ユースケース：場所でセグメント化された配信の作成](../../automating/using/workflow-segmentation-location.md)
+* [ユースケース：補完を含んだ配信の作成](../../automating/using/workflow-created-query-with-complement.md)
+* [ユースケース：リターゲティングワークフローで開封者以外に新しい配信を送信する](../../automating/using/workflow-cross-channel-retargeting.md)

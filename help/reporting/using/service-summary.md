@@ -1,6 +1,6 @@
 ---
 title: サービスの概要
-description: 標準のサービス概要レポートで、購読と購読解除の推移を確認します。
+description: 標準のサービス概要レポートで、購読と購読解除の進化について説明します。
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
@@ -18,11 +18,11 @@ ht-degree: 14%
 
 # サービスの概要{#service-summary}
 
-The **[!UICONTROL Service summary]** ：サービスの購読と購読解除の推移を説明します。
-このレポートは、詳細設定メニューからのみ、サービスページからアクセスできます **[!UICONTROL Profiles & Audiences]** > **[!UICONTROL Services]**. 詳しくは、この[ページ](../../audiences/using/monitoring-subscriptions.md#service-reports)を参照してください。
+**[!UICONTROL Service summary]** は、サービスの購読と購読解除の変化を詳しく説明します。
+このレポートには、詳細メニュー **[!UICONTROL Profiles & Audiences]** / **[!UICONTROL Services]** を使用して、「サービス」ページからのみアクセスできます。 詳しくは、この[ページ](../../audiences/using/monitoring-subscriptions.md#service-reports)を参照してください。
 
 ![](assets/service-summary.png)
 
-The **[!UICONTROL Subscription evolution curves]** ビジュアライゼーション： **[!UICONTROL Period]** 」がドロップダウンバーで選択されます。
+**[!UICONTROL Subscription evolution curves]** のビジュアライゼーションは、ドロップダウンバーで選択された **[!UICONTROL Period]** に応じた購読数と購読解除数の詳細を表示します。
 
-The **[!UICONTROL Overall subscription evolution]** を使用すると、様々な期間での購読者の推移を確認できます。
+**[!UICONTROL Overall subscription evolution]** を使用すると、様々な期間における購読者の変化を確認できます。

@@ -14,17 +14,17 @@ ht-degree: 4%
 
 # API を使用したプロファイルの取得 {#retrieving-profiles}
 
-プロファイルの取得は、 **GET** リクエスト。
+プロファイルの取得は、**GET** リクエストで実行されます。
 
-その後、フィルター、並べ替えおよびページネーションを使用して、検索を絞り込むことができます。 詳しくは、 [その他の操作](../../api/using/sorting.md) 」セクションに入力します。
+その後、フィルター、順序、ページネーションを使用して、検索を絞り込むことができます。 詳しくは、[ その他の操作 ](../../api/using/sorting.md) の節を参照してください。
 
-さらに、Campaign StandardAPI を使用すると、E メール、名、姓または任意のカスタムフィールドのいずれかのフィールドに基づいてプロファイルを検索できます。 詳しくは、[この節](#searching-field)を参照してください。
+さらに、Campaign StandardAPI では、「メール」、「名」、「姓」または任意のカスタムフィールドのいずれか 1 つに基づいてプロファイルを検索できます。 詳しくは、[この節](#searching-field)を参照してください。
 
 <br/>
 
-***リクエストのサンプル***
+***サンプルリクエスト***
 
-* すべてのプロファイルを取得するGETリクエストのサンプル。
+* すべてのプロファイルを取得するサンプルGETリクエスト。
 
   ```
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
@@ -34,7 +34,7 @@ ht-degree: 4%
   -H 'X-Api-Key: <API_KEY>'
   ```
 
-  リクエストへの応答。
+  リクエストに対する応答。
 
   ```
   {
@@ -50,7 +50,7 @@ ht-degree: 4%
   }
   ```
 
-* 最初の 10 個の電子メール値を取得するGETリクエストのサンプル。
+* 最初の 10 個のメール値を取得するサンプルGETリクエスト。
 
   ```
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_lineCount=10 \
@@ -60,7 +60,7 @@ ht-degree: 4%
   -H 'X-Api-Key: <API_KEY>'
   ```
 
-  リクエストへの応答。 「次へ」ノードは、次の 10 個の電子メール値へのアクセスを提供する URL を返します。
+  リクエストに対する応答。 「next」ノードは、次の 10 件のメール値へのアクセスを許可する URL を返します。
 
   ```
   {
@@ -85,15 +85,15 @@ ht-degree: 4%
 
 ## フィールドに基づくプロファイルの検索 {#searching-field}
 
-The **[!UICONTROL filterType]** パラメーターを使用すると、E メール、名、姓、またはプロファイルリソースを拡張する際にアドバンスフィルターで追加されたカスタムフィールドのいずれかに基づいて、プロファイルを取得できます。
+**[!UICONTROL filterType]** パラメーターを使用すると、次のいずれかのフィールドに基づいてプロファイルを取得できます。メール、名、姓、またはプロファイルリソースを拡張する際に詳細フィルタリングで追加されたカスタムフィールド。
 
 >[!NOTE]
 >
->検索は大文字と小文字が区別され、プレフィックスでのみ実行されます。 例えば、姓の最後の文字を使用してプロファイルを検索することはできません。
+>検索では大文字と小文字が区別され、プレフィックスに対してのみ実行されます。 例えば、姓の最後の文字を使用してプロファイルを検索することはできません。
 
-***リクエストのサンプル***
+***サンプルリクエスト***
 
-* 名に基づいてプロファイルをフィルタリングするリクエストの例です。
+* 名に基づいてプロファイルをフィルタリングするリクエストのサンプル。
 
   ```
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=John&filterType=firstName \
@@ -103,7 +103,7 @@ The **[!UICONTROL filterType]** パラメーターを使用すると、E メー�
   -H 'X-Api-Key: <API_KEY>'
   ```
 
-* 姓に基づいてプロファイルをフィルタリングするリクエストの例です。
+* 姓に基づいてプロファイルをフィルタリングするサンプルリクエスト。
 
   ```
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=Miller&filterType=lastName \
@@ -113,7 +113,7 @@ The **[!UICONTROL filterType]** パラメーターを使用すると、E メー�
   -H 'X-Api-Key: <API_KEY>'
   ```
 
-* E メールに基づいてプロファイルをフィルタリングするリクエストの例。
+* メールに基づいてプロファイルをフィルタリングするリクエストのサンプル。
 
   ```
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=John%40gmail.com&filterType=email \
@@ -123,7 +123,7 @@ The **[!UICONTROL filterType]** パラメーターを使用すると、E メー�
   -H 'X-Api-Key: <API_KEY>'
   ```
 
-* 「ホビー」カスタムフィールドに基づいてプロファイルをフィルタリングするリクエストの例。
+* 「Hobby」カスタムフィールドに基づいてプロファイルをフィルタリングするリクエストのサンプル。
 
   ```
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byText?cusHobby=Dancing&filterType=Hobby \

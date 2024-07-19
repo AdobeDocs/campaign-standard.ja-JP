@@ -1,6 +1,6 @@
 ---
-title: DataModel 購読解除イベント
-description: データモデルの詳細
+title: データモデル購読解除イベント
+description: データモデルについて説明します
 audience: developing
 content-type: reference
 feature: Data Model
@@ -14,7 +14,7 @@ ht-degree: 60%
 
 ---
 
-# 購読解除イベント (nms:rtEvent)
+# 購読解除イベント （nms:rtEvent）
 
 ## オブジェクトの説明
 
@@ -46,7 +46,7 @@ ht-degree: 60%
                <tr>
                   <td>emailFormat</td>
                   <td>False</td>
-                  <td>列挙</td>
+                  <td>定義済みリスト</td>
                   <td>False</td>
                </tr>
                <tr>
@@ -87,7 +87,7 @@ byStatusOrType
         </tr>
         <tr>
         <td>ステータス</td>
-        <td>列挙</td>
+        <td>定義済みリスト</td>
         </tr>
         <tr>
         <td>タイプ</td>

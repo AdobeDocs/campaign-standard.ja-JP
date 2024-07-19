@@ -84,4 +84,4 @@ ht-degree: 94%
 
 >[!VIDEO](https://video.tv.adobe.com/v/24094?quality=12)
 
-その他のCampaign Standardのハウツービデオも利用できます [ここ](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja).
+その他のCampaign Standardチュートリアルビデオについては、[ こちら ](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja) を参照してください。

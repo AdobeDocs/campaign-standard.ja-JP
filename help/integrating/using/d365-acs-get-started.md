@@ -1,6 +1,6 @@
 ---
 title: Microsoft Dynamics 365 統合の概要
-description: Microsoft Dynamics 365 統合の概要
+description: Microsoft Dynamics 365 統合の概要を説明します
 products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
@@ -18,13 +18,13 @@ ht-degree: 6%
 
 # Microsoft Dynamics 365 統合の概要
 
-クロスチャネル通信での CRM データのアクティブ化：Microsoft Dynamics 365 の連絡先をAdobe Campaignに渡し、キャンペーンパフォーマンスデータ（送信、開封、クリック、バウンス）をAdobe CampaignからMicrosoft Dynamics 365 に共有する方法を説明します。
+クロスチャネル通信で CRM データをアクティブ化します。Microsoft Dynamics 365 からAdobe Campaignに連絡先を渡し、キャンペーンパフォーマンスデータ（送信、開封、クリックおよびバウンス）をAdobe Campaignに戻りMicrosoft Dynamics 365 に共有する方法を学びます。
 
 この統合には、次のソフトウェアバージョンが必要です。
 
-* Microsoft Dynamics 365 for Sales Online のみ、最新バージョン
+* Microsoft Dynamics 365 for Sales Online のみ、最新版
 
-* Adobe Campaign Standard、最新バージョン
+* Adobe Campaign Standard、最新版
 
 >[!CAUTION]
 >
@@ -33,76 +33,76 @@ ht-degree: 6%
 
 ## 原則
 
-Adobe Campaign StandardとMicrosoft Dynamics 365 の統合により、CRM システムで使用可能なすべての連絡先データを同期でき、関連するすべての連絡先データをキャンペーンアクティビティで使用できます。
+Adobe Campaign StandardとMicrosoft Dynamics 365 の統合により、CRM システムで使用可能なすべての連絡先データの同期が可能になり、キャンペーンアクティビティに関連するすべての連絡先データを利用できるようになります。
 
-反対に、Adobe Campaign Standard内のプロファイルがメッセージとやり取りする際に、それらのデータ（例：送信、開封、クリック、バウンス）はMicrosoft Dynamics 365 に自動的に送られ、マーケティング活動と共に連絡先記録も完全に維持されます。
+逆に、Adobe Campaign Standard内のプロファイルがメッセージとやり取りする際、これらのデータ（送信、開封、クリック、バウンスなど）はMicrosoft Dynamics 365 に自動的に送られ、連絡先レコードがマーケティングアクティビティでも完全に使用されます。
 
-この統合では、の有効化もサポートしています。 [カスタムエンティティ](../../integrating/using/d365-acs-self-service-app-settings.md) 対応するに同期される Dynamics 365 内 **カスタムリソース** Campaign 内。
+この統合では、Dynamics 365 の [ カスタムエンティティ ](../../integrating/using/d365-acs-self-service-app-settings.md) を、Campaign の対応する **カスタムリソース** に同期することもサポートされています。
 
-この統合は、次の 4 つの主な使用例をサポートするように設計されています。
+この統合は、次の 4 つの主なユースケースをサポートするように設計されています。
 
-1. Dynamics 365 から Campaign への連絡先の同期で、マーケティングキャンペーンのターゲットに
-1. Dynamics 365 から Campaign へのカスタムエンティティの同期（セグメント化とパーソナライゼーションに使用可能）
-1. Campaign から Dynamics 365 に電子メールマーケティングイベント（送信、開封、クリック、バウンス）を送信し、Dynamics 365 インターフェイスの販売リポジトリに表示します
-1. Dynamics 365 と Campaign 間でオプトアウト（E メール送信なしなど）ステータスを同期して、顧客のプライバシー設定を維持する。
+1. マーケティングキャンペーンでターゲット設定ができるように、Dynamics 365 から Campaign に連絡先を同期
+1. セグメント化やパーソナライゼーションに使用できるように、Dynamics 365 から Campaign にカスタムエンティティを同期
+1. Dynamics 365 インターフェイスの営業リポジトリに表示するためのメールマーケティングイベント（送信、開封、クリック、バウンス）を Campaign から Dynamics 365 に送信する
+1. 顧客のプライバシー設定を維持するために、Dynamics 365 と Campaign の間でオプトアウト （メール拒否など）状態を同期しています。
 
 主なメリットは次のとおりです。
 
-* セールスとマーケティングの間で一貫したメッセージを送信：Adobe Campaign Standardと Dynamics 365 の統合により、顧客インサイトと電子メールマーケティング履歴に両方のシステムからアクセスでき、顧客に対するすべてのメッセージで一貫したメッセージを共有できます。
+* 営業とマーケティング間で一貫したメッセージを表示：Adobe Campaign Standardと Dynamics 365 の統合により、両方のシステムから顧客インサイトと電子メールマーケティング履歴にアクセスできるようになりました。また、お客様に対するすべてのメッセージで同じ一貫性のあるメッセージの共有もできます。
 
-* すべての見込み客と顧客データの全体像：Adobe Campaign Standardと Dynamics 365 を統合すると、CRM システム内から各連絡先の電子メールマーケティング履歴を共有し、アクセスできます。
+* すべての見込み客と顧客データの総合的なビュー：Adobe Campaign Standardを Dynamics 365 と統合すると、CRM システム内から各連絡先の電子メールマーケティング履歴を共有し、アクセスできます。
 
-* 任意のチャネルで Dynamics 365 データを有効化：連絡先データをAdobe Campaignに同期すると、モバイルプッシュ、アプリ内、電子メール、ダイレクトメールなど、Campaign を使用した任意のオンラインまたはオフラインチャネルで通信できます。 各連絡先の優先チャネルに関係なく、キャンペーン「対象」になりました。
+* 任意のチャネルで Dynamics 365 データをアクティブ化：連絡先データをAdobe Campaignに同期すると、モバイルプッシュ、アプリ内、メール、ダイレクトメールなど、Campaign を使用した任意のオンラインまたはオフラインチャネルでやり取りできます。 Campaign では、各連絡先の優先チャネルに関係なく、「対応しました」
 
 >[!CAUTION]
 >
->この統合では、Dynamics 365 を連絡先とカスタムエンティティの同期の真実のソースと見なします。  同期済み属性に対する変更は、Adobe Campaign Standardではなく、Dynamics 365 で行う必要があります。  Campaign で変更を加えると、同期中に上書きされる可能性があります。
+>この統合では、Dynamics 365 を連絡先およびカスタムエンティティ同期の信頼できる情報源と見なします。  同期された属性に対する変更は、Adobe Campaign Standardではなく Dynamics 365 で行う必要があります。  Campaign で変更を加えると、同期中に最終的に上書きされる可能性があります。
 >
 
 ## Microsoft Dynamics 365 統合を実装するための主な手順{#request-and-implement-this-integration}
 
 この統合をプロビジョニングするには、次の手順に従う必要があります。
 
-以下のフローチャートとフローチャートの詳細に従って、統合をリクエストおよび設定してください。
+以下のフローチャートおよびフローチャートの詳細に従って、統合をリクエストし設定してください。
 
 ![](assets/provisioning-wf.png)
 
-フローチャートの詳細（上記のステップにマップ）:
+フローチャートの詳細（上記の手順に対応）:
 
-* **手順 1** - Microsoft Dynamics 365 for Sales およびAdobe Campaign Standardのライセンスを既に取得済み、または調達中であることを前提としています。
-* **手順 2**  — 標準の統合機能は、すべてのお客様が無料で利用できます。ただし、要件に応じて、追加のコストがかかる場合があります。 詳細情報： [ベストプラクティスと制限事項](../../integrating/using/d365-acs-notices-and-recommendations.md). 統合を利用するには、元の SO に統合が含まれていない場合は、新しい販売注文 (SO) にサインインする必要があります。
-* **手順 3** - Dynamics 365 と Campaign の統合前の手順の完了。 詳しくは、 [この統合を設定](#configure-this-integration).
-* **手順 4** -Adobeのオンボーディングチームが統合アプリケーションユーザーインターフェイス (UI) にアクセスできるようになります。
-* **手順 5**  — データマッピング、置き換え、フィルターなどを設定できます。 統合アプリケーションの UI 内から統合をテストします。
+* **手順 1** - Microsoft Dynamics 365 for Sales およびAdobe Campaign Standardのライセンスが既に存在するか、調達中であることを前提としています。
+* **手順 2** – 標準統合機能は、すべてのお客様に無料で提供されますが、要件に応じて追加コストが発生する可能性があります。 詳細情報 [ ベストプラクティスと制限事項 ](../../integrating/using/d365-acs-notices-and-recommendations.md)。 元の SO に含まれていない場合は、統合を活用するために新しい SO に署名する必要があります。
+* **手順 3** - Dynamics 365 と Campaign の統合前手順を完了します。 [ この統合の設定 ](#configure-this-integration) を参照してください。
+* **手順 4** – 統合のオンボーディングチームから、Adobeアプリケーションのユーザーインターフェイス（UI）にアクセスできるようになります。
+* **手順 5** - データマッピング、置き換え、フィルターなどを設定できるようになります。 さらに、統合アプリケーションの UI 内から統合をテストします。
 
   >[!IMPORTANT]
   >
-  > 双方向または Campaign から Dynamics 365 へのオプトアウト設定が必要な場合は、Adobeにテクニカルコンタクトにリクエストして、オプトアウトワークフローを Campaign インスタンスに設定する必要があります。 [詳細情報](../../integrating/using/d365-acs-notices-and-recommendations.md#opt-out)。
+  > Dynamics 365 への双方向またはキャンペーンのオプトアウト設定が必要な場合、Campaign インスタンスにオプトアウトワークフローを設定するには、Adobeの技術担当者にリクエストを送信する必要があります。 [詳細情報](../../integrating/using/d365-acs-notices-and-recommendations.md#opt-out)。
 
-### この統合を設定 {#configure-this-integration}
+### この統合の設定 {#configure-this-integration}
 
-この統合には、次の 3 つのシステムをプロビジョニングして設定する必要があります。
+この統合用に 3 つのシステムをプロビジョニングし設定する必要があります。
 
-* **Adobe Campaign Standard**:API アクセスを設定し、統合ツール用に新しい統合を設定する必要があります。 これを実現するには、 [この記事](../../integrating/using/d365-acs-configure-adobe-io.md).
-* **Microsoft Dynamics 365**：新しいアプリ登録を作成し、アプリケーションユーザーが統合を使用できるようにする必要があります。  この統合用にMicrosoft Dynamics 365 を設定するには、 [この記事](../../integrating/using/d365-acs-configure-d365.md).
-* **Adobe Campaign StandardとMicrosoft Dynamics 365 セルフサービスアプリの統合**: [この記事](../../integrating/using/d365-acs-self-service-app-control-access.md).
+* **Adobe Campaign Standard**: API アクセスを設定して、統合ツールの新しい統合を構成する必要があります。 これを行うには、[ この記事 ](../../integrating/using/d365-acs-configure-adobe-io.md) を参照してください。
+* **Microsoft Dynamics 365**：新しいアプリ登録を作成し、アプリ ユーザーが統合を使用できるようにする必要があります。  この統合用にMicrosoft Dynamics 365 を設定するには、[ この記事 ](../../integrating/using/d365-acs-configure-d365.md) を参照してください。
+* **Adobe Campaign StandardとMicrosoft Dynamics 365 セルフサービスアプリとの統合**: [ この記事 ](../../integrating/using/d365-acs-self-service-app-control-access.md) の手順に従う必要があります。
 
 >[!IMPORTANT]
 >
->各システムに対して、次の手順を **administrator**.
+>システムごとに、**管理者** がこれらの手順を実行する必要があります。
 >
 >このドキュメントの手順では、権限の割り当てや管理者アクセスに関連する統合/登録の作成手順を説明します。  お客様の責任として、事前に会社のポリシーに従って手順を確認し、慎重に実行する必要があります。
 >
 
 ### サポートをリクエスト
 
-サポートチケットは、カスタマーケアでAdobeでログに記録できます。
+サポートチケットは、Adobeカスタマーケアに記録することができます。
 
-統合データフローに関する問題が発生した場合は、必ず次の情報を含めてください。
+統合データフローの問題については、必ず次の情報を含めてください。
 
-* **プロセス所有者**：エンジニアリングアーキテクト
-* **ES Process ID**：オンボーディングプロセス中に提供されます。
-* **プロセスタイトル**: Microsoft Dynamics 365 / Adobe Campaign Standard統合
+* **プロセスオーナー**：エンジニアリングアーキテクト
+* **ES プロセス ID**：オンボーディングプロセス中に提供されます
+* **プロセスのタイトル**:Microsoft Dynamics 365/Adobe Campaign Standardの統合
 * **問題の説明**：問題の説明
 
-現在、統合サポートの対象は 24 時間 365 日（月～金）です。Adobeの休日と休憩期間を除きます。
+現在、統合サポートは 24 時間 365 日（月曜日から金曜日で利用可能。Adobeの休日と休憩時間は除く）です。

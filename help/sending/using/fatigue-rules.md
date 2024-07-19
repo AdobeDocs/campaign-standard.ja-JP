@@ -38,7 +38,7 @@ ht-degree: 98%
 
 **[!UICONTROL Fatigue]**&#x200B;のタイポロジルールを作成および設定するには、次の手順に従います。
 
-1. インターフェイスの左上隅にあるAdobe Campaignのロゴをクリックし、「 」を選択します。 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Typologies]** > **[!UICONTROL Typology rules]**.
+1. インターフェイスの左上隅にあるAdobe Campaign ロゴをクリックし、**[!UICONTROL Administration]** / **[!UICONTROL Channels]** / **[!UICONTROL Typologies]** / **[!UICONTROL Typology rules]** を選択します。
 
    ![](assets/fatigue4.png)
 
@@ -166,7 +166,7 @@ ht-degree: 98%
 
 考慮に入れる配信の期間を 2 週間に制限するには、「**Day**」と「**７**」つまり「1 週間」を「**Sliding period**」セクションに入力します。そうすれば、配信日の最大 ７ 日前までに送信され、配信日の最大 7 日後まで予定されている配信がルールの適用対象となり、計算で考慮されます。
 
-## 疲労ルールの実行結果の表示 {#viewing-the-fatigue-results}
+## 疲労結果の表示 {#viewing-the-fatigue-results}
 
 配信の準備中に、既に配信が最大数を超えているプロファイルはメッセージから除外されます。疲労ルールの実行結果を表示するには、「**[!UICONTROL Deployment]**」ブロックの右下隅にあるボタンをクリックします。
 
@@ -186,7 +186,7 @@ ht-degree: 98%
 
   ![](assets/fatigue19.png)
 
-## 疲労ルールの概要レポートの表示 {#viewing-the-fatigue-rule-summary-report}
+## 疲労ルール要約レポートの表示 {#viewing-the-fatigue-rule-summary-report}
 
 Adobe Campaign には、疲労ルールがキャンペーンにどのように適用されているかを理解するのに役立つ、疲労ルール専用のレポートが用意されています。レポートの内容から、お客様のキャンペーンが相互に与える影響を把握し、適切な調整をおこな行うことができます。
 

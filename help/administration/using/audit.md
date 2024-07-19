@@ -1,6 +1,6 @@
 ---
 title: 監査記録
-description: キャンペーン監査証跡を使用したアクションとイベントの監視
+description: Campaign 監査記録を使用したアクションとイベントの監視
 audience: administration
 feature: Access Management
 role: Admin
@@ -9,109 +9,109 @@ exl-id: bda6f8d5-3bcf-498c-a7c4-d3c2c79b9510
 source-git-commit: 64da7ac09e1b0fbf13ba1e563b6dc7be995b1640
 workflow-type: tm+mt
 source-wordcount: '495'
-ht-degree: 3%
+ht-degree: 7%
 
 ---
 
 # 監査記録 {#audit}
 
-The **[!UICONTROL Audit trail]** では、インスタンス内でおこなわれた変更の完全な履歴にアクセスできます。
+**[!UICONTROL Audit trail]** を使用すると、インスタンス内で行われた変更の完全な履歴にアクセスできます。
 
-**[!UICONTROL Audit trail]** は、Adobe Campaign Standardインスタンス内で発生するアクションとイベントの包括的なリストをリアルタイムでキャプチャします。 データの履歴にアクセスして、ワークフローに起こったこと、最後に更新したユーザー、インスタンスでのユーザーの行動などの質問に回答するセルフサービスが含まれています。
+**[!UICONTROL Audit trail]** は、Adobe Campaign Standard インスタンス内で発生するアクションとイベントの包括的なリストをリアルタイムで取得します。 これには、データの履歴を確認することにより、ワークフローで発生した事象、カスタムリソースやオプション、ワークフローを最後に更新したユーザー、インスタンス内でユーザーが行った操作などを知るのに役立つセルフサービス式の方法が含まれています。
 
 ![](assets/audit-trail.png)
 
 **[!UICONTROL Audit trail]** は、次の 3 つのコンポーネントで構成されます。
 
-* **カスタムリソース監査証跡**:「 」アクティビティをオンにし、カスタムリソースに対する最終変更をおこないました。
+* **カスタムリソース監査証跡**：アクティビティと、カスタムリソースに最後に加えた変更を確認します。
 
-  詳しくは、 **[!UICONTROL Custom resources]**（これを参照） [ページ](../../developing/using/key-steps-to-add-a-resource.md).
+  **[!UICONTROL Custom resources]** について詳しくは、この [ ページ ](../../developing/using/key-steps-to-add-a-resource.md) を参照してください。
 
-* **ワークフロー監査証跡**：アクティビティとワークフローに対する最終変更日、およびさらに、ワークフローの状態を確認します。例：
+* **ワークフロー監査記録**：アクティビティ、ワークフローに最後に加えられた変更およびワークフローの状態を確認します。例えば、次のようなものがあります。
 
    * 作成日時
    * 変更済み
    * 削除済み
    * ワークフロー開始
-   * ワークフローの一時停止
+   * ワークフロー一時停止
    * ワークフローの停止
    * ワークフローの再開
    * ワークフロークリーンアップ
-   * ワークフローシミュレーション
+   * ワークフローシミュレート
    * ワークフローのウェイクアップ
-   * ワークフローの即時停止
-   * 同じユーザーでワークフローを再起動
-   * ワークフローの再起動の不明なコマンド
+   * ワークフロー即時停止
+   * 同じユーザーでのワークフローの再開
+   * ワークフロー再起動不明コマンド
 
-  詳しくは、 **[!UICONTROL Workflows]**（これを参照） [ページ](../../automating/using/get-started-workflows.md).
+  **[!UICONTROL Workflows]** について詳しくは、この [ ページ ](../../automating/using/get-started-workflows.md) を参照してください。
 
-* **オプション監査証跡**:「 」アクティビティをオンにし、「 」オプションに対する最終変更をオンにします。
+* **オプション監査記録**：アクティビティと、オプションに対して実行された最終変更を確認します。
 
-  詳しくは、 **[!UICONTROL Options]**（これを参照） [ページ](../../administration/using/about-campaign-standard-settings.md).
+  **[!UICONTROL Options]** について詳しくは、この [ ページ ](../../administration/using/about-campaign-standard-settings.md) を参照してください。
 
-デフォルトでは、リテンション期間は 30 日です。
+デフォルトでは、保持期間は 30 日です。
 
-## 監査証跡へのアクセス {#audit-access}
+## 監査記録へのアクセス {#audit-access}
 
-インスタンスの監査記録にアクセスするには、次の手順に従います。
+インスタンスの監査記録にアクセスするには：
 
-1. Adobe Campaign Standardの詳細設定メニューで、「 」を選択します。 **[!UICONTROL Administration]** > **[!UICONTROL Audit trail]**.
+1. Adobe Campaign Standardの詳細メニューで、**[!UICONTROL Administration]**/**[!UICONTROL Audit trail]** を選択します。
 
    ![](assets/audit-trail.png)
 
-1. The **[!UICONTROL Audit trail]** ウィンドウが開き、エンティティのリストが表示されます。 Adobe Campaign Standardは、ワークフロー、オプションおよびカスタムリソースの作成、編集および削除アクションに対する監査を実施します。
+1. エンティティのリストを含む **[!UICONTROL Audit trail]** ウィンドウが開きます。 Adobe Campaign Standardは、ワークフロー、オプションおよびカスタムリソースに対する作成、編集および削除アクションを監査します。
 
-   次から： **[!UICONTROL Search]** メニューでエンティティをフィルタリングできます。
+   **[!UICONTROL Search]** メニューから、次の項目でエンティティをフィルタリングできます。
 
    * **[!UICONTROL Start date]**
    * **[!UICONTROL End date]**
-   * **[!UICONTROL Type]**：エンティティのタイプ（「すべて」、「ワークフロー」、「カスタムリソース」、「オプション」）。
-   * **[!UICONTROL Entity name]**：ワークフロー、オプションまたはカスタムリソースの ID。
+   * **[!UICONTROL Type]**：すべて、ワークフロー、カスタムリソースおよびオプションのエンティティのタイプ。
+   * **[!UICONTROL Entity name]**：ワークフロー、オプション、カスタムリソースの ID
 
    ![](assets/audit-trail_2.png)
 
-1. エンティティを 1 つ選択して、最後の変更の詳細を確認します。
+1. 最後の変更の詳細を確認するには、いずれかのエンティティを選択します。
 
-1. 「監査エンティティ」ウィンドウには、次のような選択したエンティティに関する詳細情報が表示されます。
+1. 「監査エンティティ」ウィンドウには、選択したエンティティに関する次のような詳細情報が表示されます。
 
-   * **[!UICONTROL Entity]**：ワークフロー、オプションまたはカスタムリソースの ID。
-   * **[!UICONTROL Action]**：このエンティティに対して最後に実行されたアクション。
-   * **[!UICONTROL Changed by]**：このエンティティを最後に変更した人のユーザー名。
-   * **[!UICONTROL Changed date]**：このエンティティで最後に実行されたアクションの日付。
-   * **[!UICONTROL Content]**：エンティティ内で変更された内容に関する詳細情報を提供するコードブロック。
+   * **[!UICONTROL Entity]**：ワークフロー、オプション、カスタムリソースの ID。
+   * **[!UICONTROL Action]**：このエンティティで最後に実行されたアクション。
+   * **[!UICONTROL Changed by]**：このエンティティを最後に変更したユーザー名。
+   * **[!UICONTROL Changed date]**：このエンティティに対して最後に実行されたアクションの日付。
+   * **[!UICONTROL Content]**：エンティティ内で正確に変更された内容に関する詳細情報を提供するコードブロック。
 
-   この例では、このインスタンスのビジネス管理者が、8 月 26 日に WKF110 ワークフローを開始しています。
+   この例では、ワークフロー WKF110 が、このインスタンスのビジネス管理者によって 8 月 26 日に開始されたことがわかります。
 
    ![](assets/audit-trail_3.png)
 
-## 監査証跡を有効/無効にする {#enable-disable-audit}
+## 監査記録を有効／無効にする {#enable-disable-audit}
 
 >[!NOTE]
 >
-> 監査証跡の有効/無効を切り替えられるのは、機能管理者のみです。 詳しくは、この[ページ](../../administration/using/users-management.md#functional-administrators)を参照してください。
+> 監査記録を有効または無効にできるのは、機能管理者のみです。 詳しくは、この[ページ](../../administration/using/users-management.md#functional-administrators)を参照してください。
 
-監査証跡は、特定のアクティビティに対して簡単に有効化または無効化できます。
+監査記録は、特定のアクティビティに対して簡単にアクティブ化または非アクティブ化できます。
 
 それには、次の手順に従います。
 
-1. Adobe Campaign Standardの詳細設定メニューで、「 」を選択します。 **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]**.
+1. Adobe Campaign Standardの詳細メニューで、**[!UICONTROL Administration]**/**[!UICONTROL Application settings]**/**[!UICONTROL Options]** を選択します。
 
    ![](assets/audit-trail_4.png)
 
 1. 無効にするエンティティに応じて、次のいずれかのオプションを選択します。
 
-   * **[!UICONTROL XtkAudit_Workflows]** オプションを使用して、ワークフローの監査証跡を管理できます。
-   * **[!UICONTROL XtkAudit_Option]** オプションを使用して、オプションの監査証跡を管理できます。
-   * **[!UICONTROL XtkAudit_CusResource]** カスタムリソースの監査証跡を管理するオプション。
-   * **[!UICONTROL XtkAudit_Enable_All]** すべてのエンティティの監査記録を管理するオプション。
+   * ワ **[!UICONTROL XtkAudit_Workflows]** クフローの監査記録を管理するオプション。
+   * オ **[!UICONTROL XtkAudit_Option]** ションの監査記録を管理するオプション。
+   * カ **[!UICONTROL XtkAudit_CusResource]** タムリソースの監査記録を管理するオプション。
+   * **[!UICONTROL XtkAudit_Enable_All]** べてのエンティティの監査記録を管理するオプション。
 
      >[!NOTE]
      >
-     >次の場合、 **[!UICONTROL XtkAudit_Enable_All]** オプションを 0 に設定すると、 **[!UICONTROL Audit trail]** 他の個々のオプション値に関係なく、機能は完全に無効になります。
+     >**[!UICONTROL XtkAudit_Enable_All]** オプションを 0 に設定すると、他の個々のオプションの値に関係なく、**[!UICONTROL Audit trail]** 機能は完全に無効になります。
 
    ![](assets/audit-trail_5.png)
 
-1. お使いの **[!UICONTROL Options]** ページ、 **[!UICONTROL Value (integer)]** を 0 に設定します。 **[!UICONTROL Audit trail]** または 1 に設定して有効にします。
+1. **[!UICONTROL Options]** ページで、**[!UICONTROL Audit trail]** を無効にする場合は **[!UICONTROL Value (integer)]** を 0 に、有効にする場合は 1 に設定します。
 
    ![](assets/audit-trail_6.png)
 

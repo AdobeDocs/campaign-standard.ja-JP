@@ -1,6 +1,6 @@
 ---
-title: DataModel サブスクリプションイベント
-description: データモデルの詳細
+title: データモデル購読イベント
+description: データモデルについて説明します
 audience: developing
 content-type: reference
 feature: Data Model
@@ -10,11 +10,11 @@ exl-id: cf0fac4e-59fd-4d6e-a411-41361f45938d
 source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
 workflow-type: tm+mt
 source-wordcount: '82'
-ht-degree: 31%
+ht-degree: 34%
 
 ---
 
-# 購読イベント (nms:rtEvent)
+# 購読イベント （nms:rtEvent）
 
 ## オブジェクトの説明
 
@@ -22,7 +22,7 @@ ht-degree: 31%
     <tr>
         <th>名前</th>
         <th>ラベル</th>
-        <th>タイプ（長さ）</th>
+        <th>タイプ （長さ）</th>
         <th>列挙値</th>
     </tr>
     <tr>
@@ -40,7 +40,7 @@ ht-degree: 31%
     <tr>
         <td>メール</td>
         <td>メール</td>
-        <td>文字列 (128)</td>
+        <td>文字列（128）</td>
         <td> </td>
     </tr>
     <tr>
@@ -49,10 +49,10 @@ ht-degree: 31%
         <td>列挙（バイト） </td>
         <td>
             <ul>
-            <li>テキスト — テキスト — 1</li>
+            <li>テキスト – テキスト - 1</li>
             <li>HTML- html - 2</li>
-            <li>無効な値 — __Invalid_value__ - __Invalid_value__</li>
-            <li>不明 — 不明 — 0</li>
+            <li>無効な値 – __Invalid_value__ - __Invalid_value__</li>
+            <li>不明 – 不明 – 0</li>
             </ul>
         </td>
     </tr>
@@ -65,7 +65,7 @@ ht-degree: 31%
     <tr>
         <td>mobilePhone</td>
         <td>モバイル番号</td>
-        <td>文字列 (32)</td>
+        <td>文字列（32）</td>
         <td> </td>
     </tr>
     <tr>
@@ -78,7 +78,7 @@ ht-degree: 31%
 
 ## フィルター
 
-E メール別（E メール別）
+電子メールによる（byEmail）
 
 <table>
     <tr>
@@ -91,7 +91,7 @@ E メール別（E メール別）
     </tr>
 </table>
 
-ステータス別またはタイプ別 (byStatusOrType)
+ステータスまたはタイプ別（byStatusOrType）
 
 <table>
         <tr>
@@ -100,7 +100,7 @@ E メール別（E メール別）
         </tr>
         <tr>
         <td>ステータス</td>
-        <td>列挙</td>
+        <td>定義済みリスト</td>
         </tr>
         <tr>
         <td>タイプ</td>

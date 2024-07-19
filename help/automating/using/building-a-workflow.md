@@ -20,7 +20,7 @@ ht-degree: 91%
 
 ここでは、新しいワークフローの作成に関する主な原則およびベストプラクティスについて説明します。
 
-## ワークフローの運用原則{#workflow-operating-principles}
+## ワークフローの動作原理{#workflow-operating-principles}
 
 ワークフローとは、**設定可能な一連のアクティビティ**&#x200B;のことです。個々のアクティビティには、プロセス内で果たすべき特定の役割があります。各アクティビティの結果は、矢印で表される&#x200B;**トランジション**&#x200B;で後続のアクティビティに送られます。
 
@@ -40,7 +40,7 @@ ht-degree: 91%
 
 ワークフローは、プログラム、キャンペーン、マーケティングアクティビティリストのいずれかから作成できます。
 
-![](assets/do-not-localize/how-to-video.png) [ワークフローの作成方法をビデオで確認](#video)
+![](assets/do-not-localize/how-to-video.png) [ ビデオでワークフローの作成方法を確認する ](#video)
 
 マーケティングアクティビティの作成について詳しくは、[マーケティングアクティビティの作成](../../start/using/marketing-activities.md#creating-a-marketing-activity)の節を参照してください。
 
@@ -68,11 +68,11 @@ ht-degree: 91%
 
 1. アクティビティの作成を確認すると、該当するアクティビティのダッシュボードが表示されます。詳しくは、[ワークフローインターフェイス](../../automating/using/workflow-interface.md)の節を参照してください。
 
-1. ワークフローを設定する準備が整ったら、「 **[!UICONTROL Edit properties]** 」ボタンをクリックします。
+1. ワークフローを設定する準備が整ったら、「**[!UICONTROL Edit properties]** 定」ボタンをクリックして、追加のオプションにアクセスできます。
 
    例えば、ワークフローのすべてのアクティビティでデフォルトで使用する特定のタイムゾーンを定義できます。デフォルトでは、現在の Campaign オペレーターに指定されたタイムゾーンがワークフローのタイムゾーンになります。
 
-   ワークフローのプロパティについて詳しくは、 [このページ](../../automating/using/managing-execution-options.md).
+   ワークフローのプロパティについて詳しくは、[ このページ ](../../automating/using/managing-execution-options.md) を参照してください。
 
    ![](assets/workflow_properties.png)
 
@@ -115,10 +115,10 @@ ht-degree: 91%
 
 **ワークフローのユースケース：**
 
-* [ユースケース：週 1 回の E メール配信の作成](../../automating/using/workflow-weekly-offer.md)
-* [ユースケース：ロケーション別にセグメント化した配信の作成](../../automating/using/workflow-segmentation-location.md)
-* [ユースケース：補集合を使用した配信の作成](../../automating/using/workflow-created-query-with-complement.md)
-* [ユースケース：メールを開封していないユーザーに新しい配信を送信する再ターゲティングワークフロー](../../automating/using/workflow-cross-channel-retargeting.md)
+* [ユースケース：週に 1 回のメール配信の作成](../../automating/using/workflow-weekly-offer.md)
+* [ユースケース：場所でセグメント化された配信の作成](../../automating/using/workflow-segmentation-location.md)
+* [ユースケース：補完を含んだ配信の作成](../../automating/using/workflow-created-query-with-complement.md)
+* [ユースケース：リターゲティングワークフローで開封者以外に新しい配信を送信する](../../automating/using/workflow-cross-channel-retargeting.md)
 
 ## アクティビティの設定 {#configuring-activities}
 
@@ -137,4 +137,4 @@ ht-degree: 91%
 
 >[!VIDEO](https://video.tv.adobe.com/v/23937?quality=12)
 
-その他のCampaign Standardのハウツービデオも利用できます [ここ](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja).
+その他のCampaign Standardチュートリアルビデオについては、[ こちら ](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja) を参照してください。

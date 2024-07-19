@@ -1,6 +1,6 @@
 ---
 title: API の拡張について
-description: パブリックプロファイル API でカスタムリソースプロファイルの拡張フィールドを公開する方法を説明します。
+description: 公開プロファイル API でカスタムリソースプロファイルの拡張フィールドを公開する方法を説明します。
 audience: developing
 content-type: reference
 topic-tags: use-case-extending-the-api
@@ -17,17 +17,17 @@ ht-degree: 10%
 
 # API の拡張について{#about-extending-the-api}
 
-この使用例では、パブリックプロファイル API でのカスタムリソースプロファイルの拡張フィールドの説明を詳しく説明します。 例えば、請求システムから生成されたプロモーションコードを使用して、顧客のプロファイルを即座に更新できます。
+このユースケースでは、パブリックプロファイル API におけるカスタムリソースプロファイルの拡張フィールドの説明を詳細に説明します。 例えば、請求システムから生成されたプロモーションコードを使用して顧客のプロファイルを即座に更新する場合などです。
 
 >[!NOTE]
 >
->API を公開するには、 **[!UICONTROL Datamodel]** 役割。
+>API を公開するには、**[!UICONTROL Datamodel]** の役割を持っていることを確認します。
 
 パブリック API で拡張フィールドを公開する手順は次のとおりです。
 
-1. [プロファイルリソースに拡張フィールドを追加する](../../developing/using/step-1-add-extension-fields-to-the-profile-resource.md)
-1. [拡張機能の公開](../../developing/using/step-2-publish-the-extension.md)
-1. [新しい拡張フィールドが API で使用可能であることを確認します。](../../developing/using/step-3-verify-the-extension.md)
+1. [拡張機能フィールドをプロファイルリソースに追加します](../../developing/using/step-1-add-extension-fields-to-the-profile-resource.md)
+1. [拡張機能のPublish](../../developing/using/step-2-publish-the-extension.md)
+1. [新しい拡張フィールドが API で使用できることを確認します。](../../developing/using/step-3-verify-the-extension.md)
 
 **関連トピック：**
 

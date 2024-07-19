@@ -1,6 +1,6 @@
 ---
-title: DataModel 配信
-description: データモデルの詳細
+title: データモデル配信
+description: データモデルについて説明します
 audience: developing
 content-type: reference
 feature: Data Model
@@ -14,7 +14,7 @@ ht-degree: 29%
 
 ---
 
-# 配信 (nms:delivery)
+# 配信（nms:delivery）
 
 ## オブジェクトの説明
 
@@ -22,7 +22,7 @@ ht-degree: 29%
                <tr>
                   <th>名前</th>
                   <th>ラベル</th>
-                  <th>タイプ（長さ）</th>
+                  <th>タイプ （長さ）</th>
                   <th>列挙値</th>
                </tr>
                <tr>
@@ -45,7 +45,7 @@ ht-degree: 29%
                </tr>
                <tr>
                   <td>詳細</td>
-                  <td>高度な配信</td>
+                  <td>アドバンス配信</td>
                   <td>ブール値 </td>
                   <td> </td>
                </tr>
@@ -57,7 +57,7 @@ ht-degree: 29%
                </tr>
                <tr>
                   <td>aemContents</td>
-                  <td>Adobe Experience Managerコンテンツ</td>
+                  <td>Adobe Experience Manager コンテンツ</td>
                   <td>コレクション </td>
                   <td> </td>
                </tr>
@@ -74,19 +74,19 @@ ht-degree: 29%
                   <td> </td>
                </tr>
                <tr>
-                  <td>添付ファイル</td>
+                  <td>attachment</td>
                   <td>添付ファイル</td>
                   <td>コレクション </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>ブランディング (brandingBase)</td>
+                  <td>ブランディング （brandingBase）</td>
                   <td>ブランド</td>
                   <td>リンク </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>broadLogs</td>
+                  <td>broadLog</td>
                   <td>配信ログ</td>
                   <td>コレクション </td>
                   <td> </td>
@@ -98,14 +98,14 @@ ht-degree: 29%
                   <td> </td>
                </tr>
                <tr>
-                  <td>キャンペーン (campaignBase)</td>
+                  <td>campaign （campaignBase）</td>
                   <td>キャンペーン</td>
                   <td>リンク </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>cmsAccount (extAccountAEMBase)</td>
-                  <td>Adobe Experience Managerアカウント</td>
+                  <td>cmsAccount （extAccountAEMBase）</td>
+                  <td>Adobe Experience Manager アカウント</td>
                   <td>リンク </td>
                   <td> </td>
                </tr>
@@ -128,8 +128,8 @@ ht-degree: 29%
                   <td>
                      <ul>
                         <li>Adobe Experience Manager - aem - 1</li>
-                        <li>Adobe Campaign — キャンペーン — 0</li>
-                        <li>無効な値 — __Invalid_value__ - __Invalid_value__</li>
+                        <li>Adobe Campaign- キャンペーン - 0</li>
+                        <li>無効な値 – __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
@@ -146,7 +146,7 @@ ht-degree: 29%
                   <td> </td>
                </tr>
                <tr>
-                  <td>createdBy (userBase)</td>
+                  <td>createdBy （userBase）</td>
                   <td>作成者</td>
                   <td>リンク </td>
                   <td> </td>
@@ -157,29 +157,29 @@ ht-degree: 29%
                   <td>列挙（バイト） </td>
                   <td>
                      <ul>
-                        <li>一括配信 — 一括 — 1</li>
-                        <li>ミッドソーシング — midSourcing - 4</li>
-                        <li>説明 — 説明 — 2</li>
-                        <li>無効な値 — __Invalid_value__ - __Invalid_value__</li>
-                        <li>外部 — 外部 — 0</li>
+                        <li>一括配信 – 一括 – 1</li>
+                        <li>ミッドソーシング – ミッドソーシング - 4</li>
+                        <li>説明 – 説明 – 2</li>
+                        <li>無効な値 – __Invalid_value__ - __Invalid_value__</li>
+                        <li>外部 – 外部 – 0</li>
                      </ul>
                   </td>
                </tr>
                <tr>
-                  <td>deliveryProvider (extAccountBase)</td>
+                  <td>deliveryProvider （extAccountBase）</td>
                   <td>ルーティング</td>
                   <td>リンク </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>desc</td>
+                  <td>降順</td>
                   <td>説明</td>
-                  <td>文字列 (512)</td>
+                  <td>文字列（512）</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>emailPreview</td>
-                  <td>E メールのプレビュー</td>
+                  <td>メールのプレビュー</td>
                   <td>項目 </td>
                   <td> </td>
                </tr>
@@ -190,7 +190,7 @@ ht-degree: 29%
                   <td> </td>
                </tr>
                <tr>
-                  <td>除外</td>
+                  <td>除外数</td>
                   <td>除外の原因</td>
                   <td>コレクション </td>
                   <td> </td>
@@ -207,10 +207,10 @@ ht-degree: 29%
                   <td>列挙（バイト） </td>
                   <td>
                      <ul>
-                        <li>ユニーク — oneTime - 0</li>
-                        <li>連続 — 連続 — 1</li>
+                        <li>一意 – oneTime - 0</li>
+                        <li>連続 – 連続 – 1</li>
                         <li>Message Center - messageCenter - 2</li>
-                        <li>無効な値 — __Invalid_value__ - __Invalid_value__</li>
+                        <li>無効な値 – __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
@@ -221,7 +221,7 @@ ht-degree: 29%
                   <td> </td>
                </tr>
                <tr>
-                  <td>geoUnit (geoUnitBase)</td>
+                  <td>geoUnit （geoUnitBase）</td>
                   <td>地理的単位</td>
                   <td>リンク </td>
                   <td> </td>
@@ -238,24 +238,24 @@ ht-degree: 29%
                   <td>列挙（バイト） </td>
                   <td>
                      <ul>
-                        <li>トランザクションメール — emailLightning - 60</li>
-                        <li>FAX - FAX - 4</li>
-                        <li>モバイル (SMS) - sms - 1</li>
-                        <li>繰り返し E メール — emailRefresh - 30</li>
-                        <li>ダイレクトメール — 紙 — 3</li>
-                        <li>電話 — 電話 — 2</li>
-                        <li>その他 — 120</li>
-                        <li>繰り返し送信 SMS - smsRefresh - 31</li>
-                        <li>モバイルアプリケーション — pushNotification - 40</li>
+                        <li>トランザクションメール - emailLightning - 60</li>
+                        <li>FAX 番号 – 4</li>
+                        <li>モバイル （SMS） - sms - 1</li>
+                        <li>繰り返しメール - emailRefresh - 30</li>
+                        <li>ダイレクトメール – 紙 – 3</li>
+                        <li>電話 – 電話 – 2</li>
+                        <li>その他 – その他 – 120</li>
+                        <li>繰り返し SMS - smsRefresh - 31</li>
+                        <li>モバイルアプリケーション - pushNotification - 40</li>
                         <li>トランザクション SMS - smsLightning - 61</li>
-                        <li>E メール — E メール — 0</li>
-                        <li>無効な値 — __Invalid_value__ - __Invalid_value__</li>
+                        <li>電子メール – 電子メール - 0</li>
+                        <li>無効な値 – __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
                <tr>
                   <td>isExternal</td>
-                  <td>外部リソースです</td>
+                  <td>外部リソース</td>
                   <td>ブール値 </td>
                   <td> </td>
                </tr>
@@ -284,13 +284,13 @@ ht-degree: 29%
                   <td> </td>
                </tr>
                <tr>
-                  <td>jobLogs</td>
+                  <td>jobLog</td>
                   <td>ログ</td>
                   <td>コレクション </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>kpis</td>
+                  <td>kpi</td>
                   <td>指標</td>
                   <td>項目 </td>
                   <td> </td>
@@ -298,27 +298,27 @@ ht-degree: 29%
                <tr>
                   <td>ラベル</td>
                   <td>ラベル</td>
-                  <td>文字列 (128)</td>
+                  <td>文字列（128）</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>lastModified</td>
-                  <td>最終変更日時</td>
+                  <td>最終変更日</td>
                   <td>日付 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>logicalStatus</td>
                   <td>実行ステータス</td>
-                  <td>enumeration（文字列） (255)</td>
+                  <td>列挙（文字列） （255）</td>
                   <td>
                      <ul>
-                        <li>進行中 — 開始 — 開始済み</li>
-                        <li>編集 — エディション — エディション</li>
-                        <li>完了 — 完了 — 終了</li>
-                        <li>警告 — 警告 — 警告</li>
-                        <li>エラー — エラー — エラー</li>
-                        <li>無効な値 — __Invalid_value__ - __Invalid_value__</li>
+                        <li>処理中 – 開始 – 開始</li>
+                        <li>編集 – エディション – エディション</li>
+                        <li>完了 – 完了 – 完了</li>
+                        <li>警告 – 警告 – 警告</li>
+                        <li>エラー – エラー – エラー</li>
+                        <li>無効な値 – __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
@@ -335,19 +335,19 @@ ht-degree: 29%
                   <td> </td>
                </tr>
                <tr>
-                  <td>マッピング (deliveryMapping)</td>
+                  <td>マッピング（deliveryMapping）</td>
                   <td>ターゲットマッピング</td>
                   <td>リンク </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>マスター (deliveryBase)</td>
+                  <td>マスター（deliveryBase）</td>
                   <td>マスターインスタンス</td>
                   <td>リンク </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>masterKpis</td>
+                  <td>masterKpi</td>
                   <td>マスター指標</td>
                   <td>項目 </td>
                   <td> </td>
@@ -358,19 +358,19 @@ ht-degree: 29%
                   <td>列挙（バイト） </td>
                   <td>
                      <ul>
-                        <li>FAX - FAX - 4</li>
-                        <li>モバイル (SMS) - sms - 1</li>
-                        <li>E メール — E メール — 0</li>
-                        <li>電話 — 電話 — 2</li>
-                        <li>ダイレクトメール — 紙 — 3</li>
-                        <li>モバイルアプリケーション — pushNotification - 40</li>
-                        <li>その他 — 120</li>
-                        <li>無効な値 — __Invalid_value__ - __Invalid_value__</li>
+                        <li>FAX 番号 – 4</li>
+                        <li>モバイル （SMS） - sms - 1</li>
+                        <li>電子メール – 電子メール - 0</li>
+                        <li>電話 – 電話 – 2</li>
+                        <li>ダイレクトメール – 紙 – 3</li>
+                        <li>モバイルアプリケーション - pushNotification - 40</li>
+                        <li>その他 – その他 – 120</li>
+                        <li>無効な値 – __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
                <tr>
-                  <td>modifiedBy (userBase)</td>
+                  <td>modifiedBy （userBase）</td>
                   <td>変更者</td>
                   <td>リンク </td>
                   <td> </td>
@@ -378,7 +378,7 @@ ht-degree: 29%
                <tr>
                   <td>name</td>
                   <td>ID</td>
-                  <td>文字列 (64)</td>
+                  <td>文字列（64）</td>
                   <td> </td>
                </tr>
                <tr>
@@ -388,13 +388,13 @@ ht-degree: 29%
                   <td> </td>
                </tr>
                <tr>
-                  <td>orgUnit (orgUnitBase)</td>
+                  <td>orgUnit （orgUnitBase）</td>
                   <td>組織単位</td>
                   <td>リンク </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>親 (deliveryBase)</td>
+                  <td>親（deliveryBase）</td>
                   <td>親配信</td>
                   <td>リンク </td>
                   <td> </td>
@@ -405,14 +405,14 @@ ht-degree: 29%
                   <td>列挙（バイト） </td>
                   <td>
                      <ul>
-                        <li>高 — 高 — 20</li>
-                        <li>無効な値 — __Invalid_value__ - __Invalid_value__</li>
-                        <li>標準 — 標準 — 10</li>
+                        <li>高 – 高 – 20</li>
+                        <li>無効な値 – __Invalid_value__ - __Invalid_value__</li>
+                        <li>法線 – 法線 – 10</li>
                      </ul>
                   </td>
                </tr>
                <tr>
-                  <td>プログラム (programBase)</td>
+                  <td>プログラム（programBase）</td>
                   <td>プログラム</td>
                   <td>リンク </td>
                   <td> </td>
@@ -444,7 +444,7 @@ ht-degree: 29%
                <tr>
                   <td>resourceVersion</td>
                   <td>リソースのバージョン</td>
-                  <td>文字列 (255)</td>
+                  <td>文字列（255）</td>
                   <td> </td>
                </tr>
                <tr>
@@ -460,7 +460,7 @@ ht-degree: 29%
                   <td> </td>
                </tr>
                <tr>
-                  <td>スケジューリング</td>
+                  <td>スケジュール</td>
                   <td>配信のスケジュール</td>
                   <td>項目 </td>
                   <td> </td>
@@ -483,25 +483,25 @@ ht-degree: 29%
                   <td>列挙（バイト） </td>
                   <td>
                      <ul>
-                        <li>開始保留中 — startPending - 51</li>
-                        <li>配信準備完了 — 準備完了 — 45</li>
-                        <li>再試行待ち — retryPending - 61</li>
-                        <li>再試行中 — retryInProgress - 62</li>
-                        <li>失敗 — 失敗 — 87</li>
-                        <li>処理中 — 開始 — 55</li>
-                        <li>ターゲティングを保留中 — targetPrepPending - 11</li>
-                        <li>パーソナライゼーション保留中 — messagePrepPending - 21</li>
-                        <li>一時停止 — 一時停止 — 75</li>
-                        <li>編集 — エディション — 0</li>
-                        <li>完了 — 完了 — 95</li>
-                        <li>カウント中 — targetSelection - 12</li>
-                        <li>確定されたメッセージ — messageReady - 25</li>
-                        <li>パーソナライゼーションまたはカウントに失敗しました — preparationError - 37</li>
-                        <li>停止 — キャンセル — 85</li>
-                        <li>パーソナライゼーション中 — messagePreparation - 22</li>
-                        <li>ターゲット準備完了 — targetReady - 15</li>
-                        <li>無効な値 — __Invalid_value__ - __Invalid_value__</li>
-                        <li>判別中 — targetArbitration - 13</li>
+                        <li>開始保留中 – startPending - 51</li>
+                        <li>配信準備完了 – 準備完了 – 45</li>
+                        <li>再試行待ち – retryPending - 61</li>
+                        <li>再試行中 – retryInProgress - 62</li>
+                        <li>失敗 – 失敗 – 87</li>
+                        <li>処理中 – 開始 – 55</li>
+                        <li>ターゲティング保留中 – targetPrepPending - 11</li>
+                        <li>Personalization保留中 – messagePrepPending - 21</li>
+                        <li>一時停止 – 一時停止 – 75</li>
+                        <li>編集中 – エディション - 0</li>
+                        <li>終了 – 終了 – 95</li>
+                        <li>カウント中 – targetSelection - 12</li>
+                        <li>メッセージが最終処理されました – messageReady - 25</li>
+                        <li>Personalizationまたはカウントに失敗しました – preparationError - 37</li>
+                        <li>中止 – 取り消し – 85</li>
+                        <li>Personalization中 – messagePreparation - 22</li>
+                        <li>ターゲット準備完了 – targetReady - 15</li>
+                        <li>無効な値 – __Invalid_value__ - __Invalid_value__</li>
+                        <li>判別中 – targetArbitration - 13</li>
                      </ul>
                   </td>
                </tr>
@@ -512,21 +512,21 @@ ht-degree: 29%
                   <td> </td>
                </tr>
                <tr>
-                  <td>template (deliveryTemplateSummary)</td>
+                  <td>テンプレート（deliveryTemplateSummary）</td>
                   <td>配信テンプレート</td>
                   <td>リンク </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>thumbnail</td>
-                  <td>配信のサムネール</td>
-                  <td>文字列 (255)</td>
+                  <td>配信サムネール</td>
+                  <td>文字列（255）</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>タイトル</td>
                   <td>配信</td>
-                  <td>文字列 (255)</td>
+                  <td>文字列（255）</td>
                   <td> </td>
                </tr>
                <tr>
@@ -542,7 +542,7 @@ ht-degree: 29%
                   <td> </td>
                </tr>
                <tr>
-                  <td>trackingUrls</td>
+                  <td>trackingUrl</td>
                   <td>トラッキングする URL</td>
                   <td>コレクション </td>
                   <td> </td>
@@ -554,13 +554,13 @@ ht-degree: 29%
                   <td> </td>
                </tr>
                <tr>
-                  <td>タイポロジ (typologyBase)</td>
+                  <td>タイポロジ （typologyBase）</td>
                   <td>タイポロジ</td>
                   <td>リンク </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>ワークフロー (workflowBase)</td>
+                  <td>ワークフロー（workflowBase）</td>
                   <td>ターゲティングワークフロー</td>
                   <td>リンク </td>
                   <td> </td>
@@ -568,15 +568,15 @@ ht-degree: 29%
                <tr>
                   <td>workflowStatus</td>
                   <td>ワークフローステータス</td>
-                  <td>enumeration（文字列） (255)</td>
+                  <td>列挙（文字列） （255）</td>
                   <td>
                      <ul>
-                        <li>進行中 — 開始 — 開始済み</li>
-                        <li>編集 — エディション — エディション</li>
-                        <li>完了 — 完了 — 終了</li>
-                        <li>警告 — 警告 — 警告</li>
-                        <li>エラー — エラー — エラー</li>
-                        <li>無効な値 — __Invalid_value__ - __Invalid_value__</li>
+                        <li>処理中 – 開始 – 開始</li>
+                        <li>編集 – エディション – エディション</li>
+                        <li>完了 – 完了 – 完了</li>
+                        <li>警告 – 警告 – 警告</li>
+                        <li>エラー – エラー – エラー</li>
+                        <li>無効な値 – __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
@@ -584,7 +584,7 @@ ht-degree: 29%
 
 ## フィルター
 
-チャネルタイプ別 (byChannel)
+チャネルタイプ別（byChannel）
 
 <table>
     <tr>
@@ -593,11 +593,11 @@ ht-degree: 29%
     </tr>
     <tr>
     <td>チャネル</td>
-    <td>列挙</td>
+    <td>定義済みリスト</td>
     </tr>
 </table>
 
-実行タイプ別 (byExecutionType)
+実行タイプ別（byExecutionType）
 
 <table>
     <tr>
@@ -606,11 +606,11 @@ ht-degree: 29%
     </tr>
     <tr>
     <td>executionType</td>
-    <td>列挙</td>
+    <td>定義済みリスト</td>
     </tr>
 </table>
 
-論理ステータス別 (byLogicalStatus)
+論理ステータス別（byLogicalStatus）
 
 <table>
     <tr>
@@ -619,11 +619,11 @@ ht-degree: 29%
     </tr>
     <tr>
     <td>都道府県</td>
-    <td>列挙</td>
+    <td>定義済みリスト</td>
     </tr>
 </table>
 
-名前別またはラベル別（テキスト別）
+名前またはラベル （byText）
 
 <table>
     <tr>
@@ -640,7 +640,7 @@ ht-degree: 29%
     </tr>
 </table>
 
-期間別（期間別）
+期間別（byPeriod）
 
 <table>
     <tr>
@@ -653,7 +653,7 @@ ht-degree: 29%
     </tr>
 </table>
 
-期間別 (byStartPeriod)
+期間別（byStartPeriod）
 
 <table>
     <tr>
@@ -670,7 +670,7 @@ ht-degree: 29%
     </tr>
 </table>
 
-公開ステータス別 (byPublicationStatus)
+公開ステータス別（byPublicationStatus）
 
 <table>
     <tr>
@@ -679,11 +679,11 @@ ht-degree: 29%
     </tr>
     <tr>
     <td>pStatus</td>
-    <td>列挙</td>
+    <td>定義済みリスト</td>
     </tr>
 </table>
 
-ステータス別（状態別）
+ステータス別（byState）
 
 <table>
     <tr>
@@ -692,11 +692,11 @@ ht-degree: 29%
     </tr>
     <tr>
     <td>都道府県</td>
-    <td>列挙</td>
+    <td>定義済みリスト</td>
     </tr>
 </table>
 
-フォローアップメッセージ (showFollowup)
+フォローアップメッセージ（showFolloup）
 
 <table>
     <tr>
@@ -709,7 +709,7 @@ ht-degree: 29%
     </tr>
 </table>
 
-高度な配信を含める（詳細設定を使用）
+高度な配信を含める（withAdvanced）
 
 <table>
     <tr>
@@ -722,7 +722,7 @@ ht-degree: 29%
     </tr>
 </table>
 
-異種のリスト (withContinuous) からの連続配信を含める
+異機種リストからの連続配信を含める（withContinuous）
 
 <table>
     <tr>
@@ -743,12 +743,12 @@ ht-degree: 29%
     <th>タイプ</th>
     </tr>
     <tr>
-    <td>FCP を使用</td>
+    <td>withFCP</td>
     <td>ブール値</td>
     </tr>
 </table>
 
-指定した期間 (byPlanning) に計画済み
+指定された期間に予定される（byPlanning）
 
 <table>
     <tr>
@@ -765,7 +765,7 @@ ht-degree: 29%
     </tr>
 </table>
 
-指定された期間 (byCalendar) に存在
+指定された期間に存在（byCalendar）
 
 <table>
     <tr>
@@ -782,7 +782,7 @@ ht-degree: 29%
     </tr>
 </table>
 
-標準で表示 (showOob)
+標準で表示（showOob）
 
 <table>
     <tr>
@@ -790,7 +790,7 @@ ht-degree: 29%
     <th>タイプ</th>
     </tr>
     <tr>
-    <td>大きな</td>
+    <td>oob</td>
     <td>ブール値</td>
     </tr>
 </table>

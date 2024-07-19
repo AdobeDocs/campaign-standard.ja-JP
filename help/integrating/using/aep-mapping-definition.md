@@ -1,6 +1,6 @@
 ---
 title: マッピングの定義
-description: エクスペリエンスデータモデル (XDM) フィールドを使用してCampaign Standardフィールドをマッピングする方法について説明します。
+description: Campaign Standardフィールドをエクスペリエンスデータモデル（XDM）フィールドにマッピングする方法について説明します。
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
@@ -21,62 +21,62 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Adobe Experience Platform Data Connector は現在ベータ版です。通知なしに頻繁に更新される可能性があります。 お客様は、これらの機能にアクセスするには、Azure 上でホストされている必要があります（現在、北米ではベータ版のみ）。 にアクセスする場合は、Adobeカスタマーケアにお問い合わせください。
+>現在、Adobe Experience Platform Data Connector はベータ版です。予告なく頻繁に更新される可能性があります。 これらの機能にアクセスするには、お客様を Azure でホストする必要があります（現在は北米向けのベータ版のみ）。 アクセスをご希望の場合は、Adobeカスタマーケアにお問い合わせください。
 
-この節では、エクスペリエンスデータモデル (XDM) フィールドを使用してCampaign Standardフィールドをマッピングする方法について説明します。
+この節では、Campaign Standardフィールドをエクスペリエンスデータモデル（XDM）フィールドにマッピングする方法について説明します。
 
-このタスクを実行するための前提条件は次のとおりです。
+このタスクを実行するには、次の前提条件があります。
 
-* インターフェイスを介した、または XDM に関連付けられた REST API を使用した XDM スキーマ定義
+* インターフェイスを介して、または XDM に関連付けられた REST API を使用して XDM スキーマを定義します
 * XDM スキーマ定義に基づくデータセットの作成
 
-1. に移動します。 **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** を選択し、 **[!UICONTROL Data mappings]** エントリ。
+1. **[!UICONTROL Administration]**/**[!UICONTROL Development]**/**[!UICONTROL Platform]** に移動し、**[!UICONTROL Data mappings]** エントリを選択します。
 
-1. クリック： **[!UICONTROL Create]** をクリックして、新しい XDM マッピングを開始します。
+1. 「**[!UICONTROL Create]**」をクリックして、新しい XDM マッピングを開始します。
 
    ![](assets/aep_createmapping.png)
 
-1. 必須フィールドに入力し、次を選択します。
+1. 必須フィールドに入力し、以下を選択します。
 
-   * a **ターゲティングディメンション**：マッピングするCampaign Standardスキーマです。
-   * a **データセット**:Adobe Experience Platformの XDM スキーマに関連付けられたデータパッケージです。
+   * **ターゲティングディメンション**：これは、マッピングするCampaign Standardスキーマです
+   * **データセット**：これは、Adobe Experience Platformの XDM スキーマに関連付けられたデータパッケージです。
 
 >[!NOTE]
 >
->バッチをリアルタイム顧客プロファイルまたは ID サービスに取り込むには、データセットを [リアルタイム顧客プロファイルに対して有効](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/get-started.html).
+>バッチをリアルタイム顧客プロファイルまたは ID サービスに取り込むには、データセットを [ リアルタイム顧客プロファイルに対して有効にする ](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/get-started.html) 必要があります。
 >
->選択したデータセットが既存のデータマッピングで既に使用されている場合は、Adobe Experience Platformでデータが上書きされる可能性があることを知らせる警告が表示されます。 この問題は、同じデータセットを使用するデータマッピングに、一部の一般的な受信者がある場合に発生する可能性があります。
+>選択したデータセットが既存のデータマッピングで既に使用されている場合は、Adobe Experience Platformでデータが上書きされる可能性があることを知らせる警告が表示されます。 これは、同じデータセットを使用したデータマッピングに一般的な受信者が複数ある場合に発生する可能性があります。
 
-次の画面に、 **[!UICONTROL Field mappings]** 「 」セクションで、マッピングスキーマの各フィールドに対して新しいマッピングをCampaign Standardできます。
+次の画面では、Campaign Standardスキーマの各フィールドに対して新しいマッピングを作成できる、**[!UICONTROL Field mappings]** のセクションを示します。
 
 ![](assets/aep_fieldmappings.png)
 
-The **[!UICONTROL Create new field mapping]** ボタンを使用すると、「Campaign Standard」フィールドと、XDM スキーマ内の対応するフィールドパス式を選択できます。
+「**[!UICONTROL Create new field mapping]**」ボタンを使用すると、Campaign Standardフィールドおよび対応するフィールドパス式を XDM スキーマで選択できます。
 
-Adobe Campaign Standardフィールドが見つからない場合は、検索フィールドを使用してフィールドを検索できます。 現在、階層で開いているフィールドに対してのみ検索が機能します。
+Adobe Campaign Standard フィールドが見つからない場合は、検索フィールドを使用してフィールドを検索できます。 現在、検索は階層で開かれているフィールドに対してのみ機能します。
 
 ![](assets/aep_mapfield.png)
 
-「Campaign Standard」で定義された拡張リソースは、すべてのネイティブフィールドに「いいね！」されます。 これらは XDM の_customer/default 拡張に定義されます。
+Campaign Standardで定義された拡張リソースは、すべてのネイティブフィールドと同様にマッピングされます。 これらは、XDM の_customer/default 拡張機能に定義されます。
 
 ![](assets/aep_fieldscusmapping.png)
 
-API を介して XDM 拡張機能をカスタマイズし、独自の拡張機能を定義して、マッピングをより適切に制御できます。
+API を介して XDM 拡張機能をカスタマイズし、独自の拡張機能を定義すると、マッピングをより詳細に制御できます。
 
-詳しくは、 [スキーマレジストリ API のチュートリアル](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html) を参照してください。
+XDM API について詳しくは、[ スキーマレジストリ API チュートリアル ](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html) を参照してください。
 
-列挙フィールドをマッピングするには、式エディターを使用して、XDM 値に対応する各列挙値を定義する必要があります。 例えば、postaladdress フィールドを次のように定義する必要があります。
+列挙フィールドをマッピングするには、式エディターを使用して、XDM 値に対応する各列挙値を定義する必要があります。 例えば、postaladdressfield は、次のように定義する必要があります。
 
 ![](assets/aep_enummapping.png)
 
-XDM 値が XDM スキーマの列挙として定義されている場合、ネイティブの EXDM 関数を使用して、 **lif** 構文を使用します。
+XDM 値が XDM スキーマの列挙として定義されている場合は、**lif** 構文を自動的に置き換えるネイティブの EXDM 関数を使用できます。
 
 ![](assets/aep_enummappingexdm.png)
 
-XDM マッピングを編集するには、XDM マッピングを開き、必要な情報を変更して保存します。
+XDM マッピングを編集するには、マッピングを開き、目的の情報を変更して保存します。
 
 ![](assets/aep_editmapping.png)
 
 >[!IMPORTANT]
 >
->現時点では、 **[!UICONTROL Field mappings]** セクションで「 」をクリックしてから、「 」フィールドの外側をクリックすると、「 **[!UICONTROL Save]** 」ボタンをクリックします。 この動作は、編集時に 1 回だけ発生します。 **[!UICONTROL Field Mappings]** は、ページの最初の編集です。
+>現時点では、「**[!UICONTROL Field mappings]**」セクションの値を編集してフィールドの外側をクリックしても、「**[!UICONTROL Save]**」ボタンをクリックするまで変更内容はインターフェイスに表示されません。 この動作は、ページ上で **[!UICONTROL Field Mappings]** の編集が最初の編集である場合に 1 回だけ発生します。

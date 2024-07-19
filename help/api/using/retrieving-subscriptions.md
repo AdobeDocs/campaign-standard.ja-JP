@@ -1,6 +1,6 @@
 ---
 title: 購読の取得
-description: API を使用してサブスクリプションを取得する方法を説明します
+description: API を使用して購読を取得する方法を説明します
 feature: API
 role: Data Engineer
 level: Experienced
@@ -12,24 +12,24 @@ ht-degree: 1%
 
 ---
 
-# API を使用したサブスクリプションの取得 {#retrieving-subscriptions-api}
+# API を使用した購読の取得 {#retrieving-subscriptions-api}
 
 ## サービスを購読しているプロファイルの取得
 
-これは、2 つの手順で構成される手順です。
+これは、2 段階の手順です。
 
 1. 目的のサービスの購読 URL を取得します。
-1. サブスクリプション URL でGETリクエストを実行します。 サービスの購読のリストと、関連付けられた各プロファイルが返されます。
+1. 購読 URL でGETリクエストを実行します。 サービスの購読のリストと、関連する各プロファイルを返します。
 
 >[!CAUTION]
 >
->REST API は、使用する URL を含む「href」プロパティを返します。 <b>後続の API リクエストをおこなうには、常に応答に含まれる URL を使用します</b>.
+>REST API は「href」プロパティを返します。このプロパティには、使用する URL が含まれています。 <b> 応答に含まれる URL を常に使用して、後続の API リクエストを実行します </b>。
 
 <br/>
 
 ***リクエストのサンプル***
 
-サービスを取得するGETリクエストを実行します。
+GETリクエストを実行して、サービスを取得します。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY> \
@@ -39,7 +39,7 @@ ht-degree: 1%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-サービスの購読 URL を返します。
+これは、サービスの購読 URL を返します。
 
 ```
   {
@@ -53,7 +53,7 @@ ht-degree: 1%
   },
 ```
 
-サブスクリプション URL でGETリクエストを実行します。
+購読 URL でGETリクエストを実行します。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions \
@@ -63,7 +63,7 @@ ht-degree: 1%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-サービスの購読のリストと、関連付けられた各プロファイルが表示されます。
+サービスの購読のリストが、関連する各プロファイルと共に表示されます。
 
 ```
   {
@@ -80,9 +80,9 @@ ht-degree: 1%
   }
 ```
 
-## プロファイルが購読登録したサービスの取得
+## プロファイルが購読しているサービスの取得
 
-これは、2 つの手順で構成される手順です。
+これは、2 段階の手順です。
 
 1. 特定のプロファイルの購読 URL を取得します。
 1. URL でGETリクエストを実行します。 プロファイルの購読のリストと、関連する各サービスを返します。
@@ -101,7 +101,7 @@ GETリクエストを実行して、プロファイルを取得します。
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-プロファイルの購読 URL が返されます。
+プロファイルの購読 URL を返します。
 
 ```
   {
@@ -115,7 +115,7 @@ GETリクエストを実行して、プロファイルを取得します。
   }
 ```
 
-サブスクリプション URL でGETリクエストを実行します。
+購読 URL でGETリクエストを実行します。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \
@@ -125,7 +125,7 @@ GETリクエストを実行して、プロファイルを取得します。
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-プロファイルが購読したサービスのリストを返します。
+プロファイルが購読しているサービスのリストを返します。
 
 ```
   {

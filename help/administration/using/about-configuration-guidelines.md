@@ -1,6 +1,6 @@
 ---
 title: 設定のガイドライン
-description: Campaign Standard設定のガイドライン
+description: Campaign Standard設定のガイドラインについて学ぶ
 audience: administration
 feature: Access Management
 role: Admin
@@ -17,18 +17,18 @@ ht-degree: 7%
 
 ## 互換性のあるブラウザー{#compatible-browsers}
 
-Adobe Campaign Standardは、コンピューターのほとんどのブラウザーと、タブレットの主なオペレーティングシステムと互換性があります。
+Adobe Campaign Standardは、コンピューターのほとんどのブラウザーと互換性があり、タブレットの主要なオペレーティングシステムとも互換性があります。
 
-Adobe Campaign Standardは、タブレットの表示モードとして横置きのみをサポートします。
+Adobe Campaign Standardでは、タブレットでのディスプレイモードとして横置きのみサポートしています。
 
-Adobe Campaign Standardと互換性のあるブラウザーの一覧を次に示します。
+以下に、Adobe Campaign Standardと互換性のあるブラウザーのリストを示します。
 
-**コンピュータ：**
+**コンピューター：**
 
-* Chrome（最新バージョン）
-* Firefox（最新バージョン）
-* Safari（最新バージョン）
-* Microsoft Edge（最新バージョン）
+* Chrome（最新版）
+* Firefox （最新バージョン）
+* Safari （最新バージョン）
+* Microsoft Edge（最新版）
 
 **タブレット：**
 
@@ -41,11 +41,11 @@ Campaign Standardで使用される様々なエンドポイントを次に示し
 
 | コンテキスト | URL |
 |--- |--- |
-| Campaign インスタンス | `https://*.experiencecloud.adobe.com` （テナント ID * +クライアントドメイン）<br>`https://*.campaign.adobe.com` （Campaign インスタンステナント） |
+| Campaign インスタンス | `https://*.experiencecloud.adobe.com` （テナント ID * + クライアントドメイン） <br>`https://*.campaign.adobe.com` （Campaign インスタンステナント） |
 | IMS | `https://adobeid-na1.services.adobe.com`<br>`https://*.adobelogin.com` |
-| Experience Cloud | `https://experiencecloud.adobe.com` |
+| Experience cloud | `https://experiencecloud.adobe.com` |
 | トラッキング | `https://*.adobedtm.com`<br>`https://*.demdex.net`<br>`https://*.omtrdc.net` |
-| Assets の統合 | `https://*.marketing-assets.adobe.com` |
+| Assetsの統合 | `https://*.marketing-assets.adobe.com` |
 | 内部Adobe サービス | `https://*.adobe.io` |
 | 調査 | `https://adobe.allegiancetech.com` |
-| デフォルトのブランディング URL （クライアント設定前） | `https://*.adobe-campaign.com` |
+| デフォルトのブランディング URL （クライアント設定の前） | `https://*.adobe-campaign.com` |

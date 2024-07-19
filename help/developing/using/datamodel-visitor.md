@@ -1,6 +1,6 @@
 ---
-title: DataModel 訪問者
-description: データモデルの詳細
+title: データモデル訪問者
+description: データモデルについて説明します
 audience: developing
 content-type: reference
 feature: Data Model
@@ -14,7 +14,7 @@ ht-degree: 39%
 
 ---
 
-# 訪問者 (nms:visitor)
+# 訪問者（nms:visitor）
 
 ## オブジェクトの説明
 
@@ -22,7 +22,7 @@ ht-degree: 39%
     <tr>
         <th>名前</th>
         <th>ラベル</th>
-        <th>タイプ（長さ）</th>
+        <th>タイプ （長さ）</th>
         <th>列挙値</th>
     </tr>
     <tr>
@@ -34,7 +34,7 @@ ht-degree: 39%
     <tr>
         <td>コメント</td>
         <td>転送者のコメント</td>
-        <td>文字列 (255)</td>
+        <td>文字列（255）</td>
         <td> </td>
     </tr>
     <tr>
@@ -44,7 +44,7 @@ ht-degree: 39%
         <td> </td>
     </tr>
     <tr>
-        <td>createdBy (userBase)</td>
+        <td>createdBy （userBase）</td>
         <td>作成者</td>
         <td>リンク </td>
         <td> </td>
@@ -57,78 +57,78 @@ ht-degree: 39%
     </tr>
     <tr>
         <td>deliveryId</td>
-        <td>最後の配信の ID</td>
+        <td>最終配信の ID</td>
         <td>整数 </td>
         <td> </td>
     </tr>
     <tr>
-        <td>desc</td>
+        <td>降順</td>
         <td>説明</td>
-        <td>文字列 (512)</td>
+        <td>文字列（512）</td>
         <td> </td>
     </tr>
     <tr>
         <td>メール</td>
         <td>メール</td>
-        <td>文字列 (128)</td>
+        <td>文字列（128）</td>
         <td> </td>
     </tr>
     <tr>
         <td>externalId</td>
         <td>外部 ID</td>
-        <td>文字列 (64)</td>
+        <td>文字列（64）</td>
         <td> </td>
     </tr>
     <tr>
         <td>firstName</td>
         <td>名</td>
-        <td>文字列 (30)</td>
+        <td>文字列（30）</td>
         <td> </td>
     </tr>
     <tr>
         <td>forwardUrl</td>
         <td>転送 URL</td>
-        <td>文字列 (255)</td>
+        <td>文字列（255）</td>
         <td> </td>
     </tr>
     <tr>
-        <td>geoUnit (geoUnitBase)</td>
+        <td>geoUnit （geoUnitBase）</td>
         <td>地理的単位</td>
         <td>リンク </td>
         <td> </td>
     </tr>
     <tr>
         <td>lastModified</td>
-        <td>最終変更日時</td>
+        <td>最終変更日</td>
         <td>日付 </td>
         <td> </td>
     </tr>
     <tr>
         <td>lastName</td>
         <td>姓</td>
-        <td>文字列 (50)</td>
+        <td>文字列（50）</td>
         <td> </td>
     </tr>
     <tr>
-        <td>modifiedBy (userBase)</td>
+        <td>modifiedBy （userBase）</td>
         <td>変更者</td>
         <td>リンク </td>
         <td> </td>
     </tr>
     <tr>
-        <td>orgUnit (orgUnitBase)</td>
+        <td>orgUnit （orgUnitBase）</td>
         <td>組織単位</td>
         <td>リンク </td>
         <td> </td>
     </tr>
     <tr>
         <td>接触チャネル</td>
-        <td>接触チャネル</td>
+        <td>作成元</td>
         <td>列挙（バイト） </td>
         <td>
             <ul>
-            <li>未定義 — 未定義 — 0</li>
-            <li>無効な値 — __Invalid_value__ - __Invalid_value__</li>
+            <li>未定義 – 未定義 – 0</li>
+            <li>無効な値 – __Invalid_value__ - __Invalid_value__</li>
             </ul>
         </td>
     </tr>
@@ -147,13 +147,13 @@ ht-degree: 39%
     <tr>
         <td>referrerEmail</td>
         <td>転送者のメール</td>
-        <td>文字列 (128)</td>
+        <td>文字列（128）</td>
         <td> </td>
     </tr>
     <tr>
         <td>referrerFirstName</td>
         <td>転送者の名</td>
-        <td>文字列 (30)</td>
+        <td>文字列（30）</td>
         <td> </td>
     </tr>
     <tr>
@@ -165,11 +165,11 @@ ht-degree: 39%
     <tr>
         <td>referrerLastName</td>
         <td>転送者の姓</td>
-        <td>文字列 (50)</td>
+        <td>文字列（50）</td>
         <td> </td>
     </tr>
     <tr>
-        <td>referrerRcp(recipient)</td>
+        <td>referrerRcp （受信者）</td>
         <td>転送者</td>
         <td>リンク </td>
         <td> </td>
@@ -177,14 +177,14 @@ ht-degree: 39%
     <tr>
         <td>タイトル</td>
         <td>ラベル</td>
-        <td>文字列 (255)</td>
+        <td>文字列（255）</td>
         <td> </td>
     </tr>
 </table>
 
 ## フィルター
 
-姓、名または E メール（テキスト別）</p>
+姓、名またはメール （byText）別</p>
 
 <table>
         <tr>

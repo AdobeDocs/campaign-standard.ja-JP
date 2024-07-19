@@ -1,6 +1,6 @@
 ---
 title: 外部アカウント
-description: SFTP サーバーなどの外部システムとの接続を設定する外部アカウントの設定方法について説明します。
+description: 外部アカウントを設定して、SFTP サーバーなどの外部システムとの接続をセットアップする方法を説明します
 audience: administration
 feature: Instance Settings
 role: Admin
@@ -27,7 +27,7 @@ ht-degree: 78%
 * Adobe Analytics。詳しくは、[この節](../../integrating/using/configure-campaign-analytics-integration.md)を参照してください。
 * Google reCAPTCHA。詳しくは、[この節](#google-recaptcha-external-account)を参照してください。
 * Microsoft Azure Blob ストレージ。詳しくは、[この節](#microsoft-azure-external-account)を参照してください。
-* OAuth 2.0。詳しくは、 [この節](#oauth-account).
+* OAuth 2.0。詳しくは、[ この節 ](#oauth-account) を参照してください。
 
 >[!NOTE]
 >
@@ -62,7 +62,7 @@ SFTP 外部アカウントの場合は、次の詳細情報を入力します。
 * ポート番号。例えば、**22**。
 * SFTP サーバーの資格情報：サーバーへの接続時に使用するアカウント名とパスワード。
 
-### Adobeがホストする SFTP サーバーに関する推奨事項 {#adobe-hosted-sftp-server-recommendations}
+### Adobeがホストする SFTP サーバーの推奨事項 {#adobe-hosted-sftp-server-recommendations}
 
 ETL のためのファイルやデータを管理する際、これらのファイルはアドビがホストする SFTP サーバー上に保存されます。この SFTP は、ファイルの保持や削除を制御できる一時的なストレージスペースになるように設計されています。
 
@@ -79,7 +79,7 @@ ETL のためのファイルやデータを管理する際、これらのファ�
 * 時々 SFTP にログインして、問題がないか直接確認します。
 * SFTP のディスク管理は、基本的に管理者の責任となります。
 
-また、SFTP 接続の開始の試行元となるパブリック IP は、Campaign インスタンスのに追加されている必許可リストに加える要があります。 IP アドレスをに追加す許可リストに加えるると、 [サポートチケット](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)認証に使用する公開鍵を提供するのと共に。
+また、SFTP 接続を開始しようとしているパブリック IP を、Campaign インスタンスの許可リストに追加する必要もあります。 許可リストへの IP アドレスの追加は、認証に使用する公開鍵と共に [ サポートチケット ](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html) を介してリクエストできます。
 
 SFTP サーバーは、コントロールパネルから管理できます。詳しくは、[コントロールパネルのドキュメント](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=ja)を参照してください。
 
@@ -89,20 +89,20 @@ SFTP サーバーは、コントロールパネルから管理できます。詳
 
 ## OAuth 2.0 アカウント {#oauth-account}
 
-OAuth 2.0 外部アカウントの場合は、次の詳細情報を入力します。
+OAuth 2.0 外部アカウントの場合は、次の詳細を入力します。
 
-* A **付与タイプ**：のみ **クライアント資格情報** はサポートされています。
-* A **セキュア API URL**：認証エンドポイントを入力します。
-* **OAuth 2.0 の機密資格情報**：この節の目的は、本質的に機密性の高い資格情報に対するものです。 秘密鍵証明書の値は、追加後、画面上でマスクされます。その時点では、読み取りや編集はできません。 認証エンドポイントで、POST本文パラメーターの代わりに HTTP 認証ヘッダーに特定の証明書を挿入する必要がある場合は、その証明書の「ヘッダーに含める」オプションを選択できます。
-* **OAuth 2.0 の機密性の低い資格情報**：この節の目的は、本質的に機密性が低い資格情報に関するものです。 秘密鍵証明書の値は、追加後に画面に表示され、編集も可能になります。  認証エンドポイントで、POST本文パラメーターの代わりに HTTP 認証ヘッダーに特定の証明書を挿入する必要がある場合は、その証明書の「ヘッダーに含める」オプションを選択できます。
+* **付与タイプ**: **クライアント資格情報** のみがサポートされます。
+* **セキュア API URL**：認証エンドポイントを入力します。
+* **OAuth 2.0 機密資格情報**：このセクションは、本質的に機密性が高い資格情報を対象としています。 資格情報は、追加後、画面上でマスクされます。その時点では、読み取りも編集もできません。 認証エンドポイントで、POST本文パラメーターではなく特定の資格情報を HTTP 認証ヘッダーに挿入する必要がある場合は、その資格情報に対して「ヘッダーに含める」オプションを選択できます。
+* **OAuth 2.0 非依存資格情報**：このセクションは、本質的に非機密の資格情報を対象としています。 秘密鍵証明書の値は、追加後に画面に表示され、編集することもできます。  認証エンドポイントで、POST本文パラメーターではなく特定の資格情報を HTTP 認証ヘッダーに挿入する必要がある場合は、その資格情報に対して「ヘッダーに含める」オプションを選択できます。
 
-アカウント情報を入力したら、 **接続をテスト** 外部アカウントが正しく設定されていることを確認します。
+アカウント情報を入力したら、「**接続をテスト**」をクリックして、外部アカウントが正しく設定されていることを確認します。
 
 ![](assets/external_accounts_OAuth.png)
 
 >[!NOTE]
 >
->資格情報「Content-Type: application/x-www-form-urlencoded」と「grant_type=client_credentials」は API 呼び出しに自動的に追加されるので、資格情報セクションに追加する必要はありません。
+>「Content-Type: application/x-www-form-urlencoded」および「grant_type=client_credentials」資格情報が API 呼び出しに自動的に追加されるので、資格情報セクションでそれらを追加する必要はありません。
 
 ## Amazon S3 外部アカウント {#amazon-s3-external-account}
 
@@ -138,7 +138,7 @@ Adobe Experience Manager 外部アカウントは、Campaign と Experience Mana
 
 この統合に関連するプロセスと要件については、[こちらのドキュメント](../../integrating/using/get-started-campaign-integrations.md)を参照してください。
 
-この新しい外部アカウントを設定する際は、次の詳細を指定する必要があります。
+この新しい外部アカウントを設定する際には、次の詳細を指定する必要があります。
 
 * サーバー：Adobe Experience Manager サーバーの URL を入力します。例：
 
@@ -156,7 +156,7 @@ Adobe Experience Manager 外部アカウントは、Campaign と Experience Mana
 
 Google reCAPTCHA のメカニズムによって、ランディングページをスパムやボットによる不正使用から守ることができます。このメカニズムは、ユーザーによる操作が不要で、お客様のサイトとのやり取りに基づいているので、ユーザーにとっては負担になりません。サイトの登録については、[こちらのページ](https://www.google.com/recaptcha/admin/create)を参照してください。V3 reCAPTCHA タイプを選択する必要があります。
 
-ランディングページにGoogle reCAPTCHA V3 を追加するには、外部アカウントでその V3 を設定します。 ランディングページに Google reCAPTCHA V3 を追加する方法について詳しくは、[この節](../../channels/using/configuring-landing-page.md#setting-google-recaptcha)を参照してください。
+Google reCAPTCHA V3 をランディングページに追加するには、外部アカウントで設定します。 ランディングページに Google reCAPTCHA V3 を追加する方法について詳しくは、[この節](../../channels/using/configuring-landing-page.md#setting-google-recaptcha)を参照してください。
 
 Google reCAPTCHA V3 外部アカウントの場合は、次の詳細情報を入力します。
 
@@ -169,7 +169,7 @@ Google reCAPTCHA V3 外部アカウントの場合は、次の詳細情報を入
 
 ![](assets/external_accounts_3.png)
 
-## Microsoft Azure BLOB ストレージ外部アカウント {#microsoft-azure-external-account}
+## Microsoft Azure Blob ストレージ外部アカウント {#microsoft-azure-external-account}
 
 >[!NOTE]
 >
@@ -183,14 +183,14 @@ Microsoft Azure BLOB ストレージ外部アカウントの場合は、次の�
 * **[!UICONTROL Type]**：Microsoft Azure Blob storage
 * お使いの「**[!UICONTROL Account name]**」と「**[!UICONTROL Account key]**」。アカウント名とアカウントキーの確認方法については、[こちらのページ](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage)を参照してください。
 * お使いの「**[!UICONTROL Endpoint suffix]**」。これは、Azure Portal の&#x200B;**[!UICONTROL Access keys]**&#x200B;メニューの「**[!UICONTROL Connection string]**」内で確認できます。詳しくは、この[ページ](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage)を参照してください。
-* お使いの「**[!UICONTROL Container]**」。複数のコンテナを使用する予定がある場合は、コンテナと同数の外部アカウントを作成します。
+* お使いの「**[!UICONTROL Container]**」。複数のコンテナを使用する場合は、コンテナと同じ数だけ外部アカウントを作成します。
 * 「**[!UICONTROL Concurrency]**」オプションを使用すると、ファイル転送速度を微調整できます。
 
 ![](assets/external_accounts_4.png)
 
 設定が完了したら、「**[!UICONTROL Test connection]**」をクリックして Adobe Campaign を Microsoft Azure BLOB ストレージにリンクします。
 
-### Microsoft Azure BLOB ストレージに関する推奨事項 {#azure-blob-recommendations}
+### Microsoft Azure Blob ストレージの推奨事項 {#azure-blob-recommendations}
 
 **暗号化**
 

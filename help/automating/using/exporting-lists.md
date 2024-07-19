@@ -1,6 +1,6 @@
 ---
 title: リストのエクスポート
-description: Adobe Campaignでは、リストとして表示されたデータを概要画面から直接ファイルに書き出し、後で使用することができます。
+description: Adobe Campaignでは、概要画面からリストとして表示されたデータをファイルに直接書き出して、後で使用できます。
 audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
@@ -17,45 +17,45 @@ ht-degree: 5%
 
 # リストのエクスポート{#exporting-lists}
 
-Adobe Campaignでは、将来の使用のためにリストをファイルに直接書き出すことができます。 ファイル内のリストを書き出すと、 **[!UICONTROL Export audits]** メニュー。 エクスポートの監査について詳しくは、[エクスポートの監査](../../administration/using/auditing-export-logs.md)の節を参照してください。
+Adobe Campaignでは、リストをファイルに直接エクスポートして、後で使用できます。 ファイルにリストを書き出すと、**[!UICONTROL Export audits]** メニューにログエントリが生成されます。 エクスポートの監査について詳しくは、[エクスポートの監査](../../administration/using/auditing-export-logs.md)の節を参照してください。
 
-![](assets/do-not-localize/how-to-video.png) [リストの設定方法をビデオで確認する](#video)
+![](assets/do-not-localize/how-to-video.png) [ ビデオでリストを設定する方法を確認する ](#video)
 
-「リストを書き出し」オプションを使用すると、デフォルトで 100,000 行まで書き出すことができ、 **Nms_ExportListLimit** オプション。 このオプションは、機能管理者が **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]** メニュー。
+エクスポートリストオプションを使用すると、デフォルトで、**Nms_ExportListLimit** オプションで定義された最大 100,000 行をエクスポートできます。 このオプションは、機能管理者が **[!UICONTROL Administration]** / **[!UICONTROL Application settings]** / **[!UICONTROL Options]** メニューで管理できます。
 
-書き出しリストは、 **リスト** モード表示 ( **[!UICONTROL EXPORT (export)]** 役割。
+リストの書き出しは、**[!UICONTROL EXPORT (export)]** の役割を持つユーザー向けに、**リスト** モードのビューを持つすべての画面で使用できます。
 
-1. 選択したに移動 **リスト** 画面。 例えば、テストプロファイルの概要画面 ( **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]** ) をクリックします。
-1. 画面がに表示されていることを確認します。 **リスト** モード。
+1. 選択した **リスト** 画面に移動します。 例えば、テストプロファイルの概要画面（**[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]**）が表示されます。
+1. 画面が **リスト** モードであることを確認します。
 
    ![](assets/export_list_mode_switch.png)
 
-1. を使用して、リストの列を書き出す順序に整理します。 **[!UICONTROL Configure list]** 」ボタンを使用します。 設定された列に加えて、リソースのプライマリキーも書き出されます。
-1. 必要に応じて、フィルターを適用できます。 これをおこなうには、左上隅の「 」ボタンをクリックして、検索ペインを表示します。
+1. 右上隅の「**[!UICONTROL Configure list]**」ボタンを使用して、リスト内の列を書き出す順序に整理します。 設定済みの列に加えて、リソースのプライマリキーも書き出されます。
+1. 必要に応じて、フィルターを適用できます。 これを行うには、左上隅のボタンをクリックして検索ペインを表示します。
 
-   異なるリソースを含むリストから書き出す場合、1 つのタイプのリソースのみがリストに表示されるようにフィルターを適用する必要があります。
+   異なるリソースを含むリストから書き出しを実行する場合は、1 つのタイプのリソースのみがリストに表示されるようにフィルターを適用する必要があります。
 
-1. 必要に応じて、選択した列を並べ替えます。
-1. 「書き出し」ボタンを選択します。 ![](assets/exportlistbutton.png).
+1. 選択した列を並べ替えます。
+1. 「書き出し」ボタン ![](assets/exportlistbutton.png) を選択します。
 
-   書き出しを確認するポップアップが表示されます。 エクスポートを確認すると、ファイルが自動的にコンピューターにダウンロードされます。
+   書き出しを確認するポップアップが表示されます。 書き出しを確認すると、ファイルが自動的にコンピューターにダウンロードされます。
 
-ファイルは CSV 形式で生成され、拡張子は.TXT です。 この名前は、書き出されたリソースと書き出し日に基づいて付けられます。 例えば、profileBase_20150426_120253.txt という名前は、2015 年 4 月 26 日の 12 に実行されたプロファイルエクスポートに適用されます。:02:53. UTF-8 形式でエンコードされます。
+ファイルは、拡張子が.TXT の CSV 形式で生成されます。 この名前は、書き出されたリソースと書き出し日に応じて付けられます。 例：名前 profileBase_20150426_120253.txt は、2015 年 4 月 26 日の 12:02:53 に実行されたプロファイル書き出しに適用されます。 UTF-8 形式でエンコードされます。
 
-数値および日付は、エクスポートを実行するユーザーの現地時間（ロケール）を考慮に入れます。 例： DD-MM-YYYY または MM-DD-YYYY。
+数値と日付は、書き出しを実行するユーザーのローカル時間（ロケール）を考慮に入れます。 例：DD-MM-YYYY または MM-DD-YYYY
 
-これより大きいエクスポートを実行するには、専用のワークフローを作成する必要があります。 詳しくは、 [ファイルを抽出](../../automating/using/extract-file.md) 」セクションに入力します。
+これを超える書き出しを実行するには、専用のワークフローを作成する必要があります。 [ ファイルの抽出 ](../../automating/using/extract-file.md) の節を参照してください。
 
 **例**
 
-次に、以下に定義するプロファイルリストから実行されるエクスポートの例を示します。
+次に、以下で定義するプロファイルリストから実行する書き出しの例を示します。
 
-* 表示される列（順番）：姓、名、生年月日、E メールアドレス。
+* 表示される列（順序）：姓、名、生年月日、メールアドレス。
 * 名前はアルファベット順に並べ替えられます。
 
 ![](assets/export_list_example1.png)
 
-生成されたファイルは、次のように表示されます（最初の 10 件のレコード）。
+生成されるファイルは次のように表示されます（最初の 10 件のレコード）。
 
 ```
 Last name;First name;Birth date;Email;Zip code
@@ -82,4 +82,4 @@ Adama;Henry;22/09/1992 02:00:00;henry.adama@mail.com;64120
 
 >[!VIDEO](https://video.tv.adobe.com/v/25288/?quality=12)
 
-その他のCampaign Standardのハウツービデオも利用できます [ここ](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja).
+その他のCampaign Standardチュートリアルビデオについては、[ こちら ](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja) を参照してください。

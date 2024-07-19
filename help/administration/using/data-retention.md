@@ -40,20 +40,20 @@ Campaign の標準ログテーブルには、システムの過負荷を回避�
 
 デフォルトでは、配信の保持期間は無制限です。
 
-ただし、インスタンスに大量の配信がある場合は、 **NmsCleanup_DeliveryPurgeDelay** オプションはから使用できます **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** メニュー。
+ただし、インスタンスに大量の配信がある場合は、**[!UICONTROL Administration]**/**[!UICONTROL Application settings]** メニューから使用できる **NmsCleanup_DeliveryPurgeDelay** オプションを更新できます。
 
-毎回 **[!UICONTROL Database cleanup]** ワークフローが実行されると、このオプションに設定された条件を満たす配信が削除されます。
+**[!UICONTROL Database cleanup]** ワークフローが実行されるたびに、このオプションに設定された条件を満たす配信が削除されます。
 
-このアクションは、次のようなプロセスの高速化に役立ちます **[!UICONTROL Copy headers from delivery templates]** ワークフロー。
+このアクションは、**[!UICONTROL Copy headers from delivery templates]** ワークフローなどのプロセスを高速化するのに役立ちます。
 
 >[!NOTE]
 >
->テクニカルワークフローについて詳しくは、を参照してください。 [この節](technical-workflows.md).
+>テクニカルワークフローについて詳しくは、[ この節 ](technical-workflows.md) を参照してください。
 
 
-のデフォルト値 **NmsCleanup_DeliveryPurgeDelay** オプションは `-1`. この場合、配信は削除されません。
+**NmsCleanup_DeliveryPurgeDelay** オプションのデフォルト値は `-1` です。 この場合、配信は削除されません。
 
-例えば、に設定した場合 `180`。過去 180 日間に更新されていないテンプレート以外の配信は、 **[!UICONTROL Database cleanup]** ワークフローが実行されました。
+例えば、`180` に設定した場合、過去 180 日間に更新されていないテンプレート以外の配信は、**[!UICONTROL Database cleanup]** ワークフローの実行時にすべて削除されます。
 
 >[!NOTE]
 >
@@ -61,5 +61,5 @@ Campaign の標準ログテーブルには、システムの過負荷を回避�
 >
 >* 繰り返し配信の場合、集計期間が月または年に設定された子配信は削除されません。
 
-の更新時 **NmsCleanup_DeliveryPurgeDelay** オプションとして、複数のイテレーションを使用して徐々に進めることをお勧めします。 例えば、値を 300 日、180 日、120 日などに設定して開始し、反復を 2 日以上離すことができます。 そうでない場合、 **[!UICONTROL Database cleanup]** 削除する配信が多数あるので、ワークフローにははるかに時間がかかる可能性があります。
+**NmsCleanup_DeliveryPurgeDelay** オプションを更新する際は、複数回の繰り返しを使用して、徐々に続行することをお勧めします。 例えば、値を 300 日、180 日、120 日などに設定して開始し、反復を 2 日以上離すことができます。 そうでない場合、削除する配信が多数あるので、**[!UICONTROL Database cleanup]** ワークフローの処理に時間がかかる可能性があります。
 

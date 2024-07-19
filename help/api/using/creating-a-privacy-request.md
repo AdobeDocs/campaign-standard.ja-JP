@@ -19,26 +19,26 @@ ht-degree: 4%
 
 >[!CAUTION]
 >
->The [Privacy Core Service](https://developer.adobe.com/experience-platform-apis/references/privacy-service) 統合は、すべてのアクセスリクエストと削除リクエストに使用する必要があるメソッドです。 <!--Starting 19.4, the use of the Campaign API and interface for access and delete requests is deprecated. For more on Campaign Standard deprecated and removed features, refer to [this page](../../rn/using/deprecated-features.md).-->
+>[Privacy Core Service](https://developer.adobe.com/experience-platform-apis/references/privacy-service) 統合は、すべてのアクセスリクエストと削除リクエストに使用する必要がある方法です。<!--Starting 19.4, the use of the Campaign API and interface for access and delete requests is deprecated. For more on Campaign Standard deprecated and removed features, refer to [this page](../../rn/using/deprecated-features.md).-->
 
-プライバシーリクエストは、 **POST** リクエスト。
+プライバシーリクエストは、**POST** リクエストを使用して作成されます。
 
-リクエストを作成する前に、使用する名前空間を定義する必要があります。 詳しくは、 [プライバシー管理に関するドキュメント](../../start/using/privacy-requests.md).
+リクエストを作成する前に、名前空間を定義する必要があります。 詳しくは、[ プライバシー管理ドキュメント ](../../start/using/privacy-requests.md) を参照してください。
 
-ペイロードには、次のパラメーターが含まれている必要があります。
+ペイロードには、次のパラメーターを含める必要があります。
 
-* **名前**：一意の内部名
-* **名前空間**：名前空間インターフェイスで設定されたCampaign Standard名
+* **name**：一意の内部名
+* **namespace**:Campaign Standardインターフェイスで設定された名前空間名
 * **reconciliationValue**：名前空間で定義された紐付けキーに基づく紐付け値
-* **ラベル**：リクエストラベル
-* **type**：リクエストタイプ。 指定できる値は、「access」または「delete」です。
-* **規則**：規制のタイプ。 例：「GDPR」、「CCPA」。 このパラメーターは必須で、Campaign Standard19.4 リリース以降で使用できます。 古いビルドを使用している場合は、ペイロードに追加する必要はありません。
+* **label**：リクエストラベル
+* **type**：リクエストのタイプ。 指定できる値は、「access」または「delete」です。
+* **regulation**：規制タイプ。 例：「GDPR」、「CCPA」。 このパラメーターは必須で、Campaign Standard 19.4 リリース以降で使用できます。 古いビルドを使用している場合は、ペイロードに追加する必要はありません。
 
 <br/>
 
 ***リクエストのサンプル***
 
-このPOSTリクエストは、名前空間 AMCDS2 で定義された E メールの紐付けキーに基づいて、プライバシーリクエストを作成します。
+このPOSTリクエストは、名前空間 AMCDS2 で定義された電子メールの紐付けキーに基づいてプライバシーリクエストを作成します。
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/privacy/privacyTool \
@@ -57,7 +57,7 @@ ht-degree: 4%
 }
 ```
 
-応答リクエストに対するPOST。
+POSTリクエストへの応答。
 
 ```
 {

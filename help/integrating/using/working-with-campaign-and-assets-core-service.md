@@ -1,6 +1,6 @@
 ---
 title: Campaign と Assets コアサービスの連携
-description: Assets コアサービスの統合により、Adobe Experience Cloud内で共有されているリソースをAdobe Campaignメッセージとランディングページで使用できます。
+description: Assets コアサービスの統合により、Adobe Experience Cloud内で共有されたリソースをAdobe Campaignのメッセージやランディングページで使用できます。
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-assets-core-service
@@ -17,13 +17,13 @@ ht-degree: 17%
 
 # Campaign と Assets コアサービスの連携{#working-with-campaign-and-assets-core-service}
 
-Assets コアサービスまたは Assets on Demand(Adobe Experience Cloud環境の設定に応じて ) をAdobe Campaignと統合すると、Adobe Experience Cloud内で共有されている任意のアセットをAdobe Campaignの電子メールとランディングページで使用できます。
+Assets コアサービスまたはAssets on Demand （Adobe Experience Cloud環境の設定に応じて）をAdobe Campaignと統合すると、Adobe Experience Cloudで共有される任意のアセットを、Adobe Campaignのメールおよびランディングページで使用できます。
 
-Assets コアサービスとの統合は、次のものに制限されています。 [機能管理者](../../administration/using/users-management.md#functional-administrators).
+Assets コアサービスとの統合は、[Functional Administrators](../../administration/using/users-management.md#functional-administrators) に制限されています。
 
-Adobe Experience Cloudから共有されるリソースは、次のように E メールやランディングページで使用できます。
+Adobe Experience Cloudで共有されたリソースは、次のようにメールやランディングページで使用できます。
 
-1. E メールまたはランディングページのコンテンツを編集する際に、画像ブロックに移動し、「 **[!UICONTROL Image shared from Adobe Experience Cloud]** コンテキストメニューから。
+1. メールまたはランディングページのコンテンツを編集する際は、画像ブロックに移動し、コンテキストメニューから「**[!UICONTROL Image shared from Adobe Experience Cloud]**」を選択します。
 
    ![](assets/dam_insert_image_dce.png)
 
@@ -31,9 +31,9 @@ Adobe Experience Cloudから共有されるリソースは、次のように E �
 
    ![](assets/dam_shared_image_selection.png)
 
-画像が挿入されます。 これで、必要に応じて配信をパーソナライズし、送信できるようになりました。
+次に、画像が挿入されます。 これで、必要に応じて配信をパーソナライズして送信できます。
 
 **関連トピック：**
 
-* [アセットと共有](https://experienceleague.adobe.com/docs/core-services/interface/assets/experience-cloud-assets.html?lang=ja)
+* [Assetsと共有 ](https://experienceleague.adobe.com/docs/core-services/interface/assets/experience-cloud-assets.html?lang=ja)
 * [コンテンツエディター](../../designing/using/personalization.md#example-email-personalization)

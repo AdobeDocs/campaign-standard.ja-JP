@@ -23,7 +23,7 @@ ht-degree: 93%
 
 このページでは、各手順の情報と、詳細情報を参照できる関連ドキュメントを紹介します。
 
-![](assets/do-not-localize/how-to-video.png) [ランディングページの作成方法をビデオで確認する](#video)
+![](assets/do-not-localize/how-to-video.png) [ ビデオでランディングページの作成方法を確認する ](#video)
 
 **関連トピック：**
 
@@ -67,7 +67,7 @@ ht-degree: 93%
 
 * ランディングページはプロファイルでのみ機能し、テストプロファイルでは機能しません。つまり、ランディングページをメール配達確認の一部としてテストすることはできません。
 
-## 手順 1 — ランディングページテンプレートの設定 {#configure-the-landing-page-template}
+## 手順 1 - ランディングページテンプレートの設定 {#configure-the-landing-page-template}
 
 ランディングページを設定する前に、必要に応じてランディングページテンプレートを設定します。テンプレートの設定が完了すると、テンプレートに基づくすべてのランディングページが、任意のパラメーターで事前設定されます。
 
@@ -79,7 +79,7 @@ ht-degree: 93%
 
 ![](assets/lp-steps1.png)
 
-## 手順 2 — ランディングページの作成と設定 {#create-and-configure-the-landing-page}
+## 手順 2 - ランディングページの作成と設定 {#create-and-configure-the-landing-page}
 
 前の手順で定義したテンプレートを使用して、プログラムまたはキャンペーンに新しいランディングページを作成します。
 
@@ -94,7 +94,7 @@ ht-degree: 93%
 >
 >変更は、編集中のランディングページに対してのみ有効です。これらの変更を他のランディングページに適用する場合は、該当するテンプレートを変更し、そのテンプレートから他のランディングページを作成できます。
 
-## 手順 3 — ランディングページのデザイン {#design-the-landing-page}
+## 手順 3 - ランディングページのデザイン {#design-the-landing-page}
 
 ランディングページのコンテンツを定義できます。デフォルトでは、ランディングページには、メインコンテンツページ、確認ページ、エラーページの 3 つのページが含まれており、スクロールする矢印を使用してアクセスできます。
 
@@ -106,7 +106,7 @@ ht-degree: 93%
 
 ランディングページのデザインについて詳しくは、[この節](../../channels/using/designing-a-landing-page.md)を参照してください。
 
-## 手順 4 — ランディングページのテスト {#test-the-landing-page}
+## 手順 4 - ランディングページのテスト {#test-the-landing-page}
 
 ランディングページを定義したら、オンライン上での稼働状況や動作をシミュレートできます。
 
@@ -120,7 +120,7 @@ ht-degree: 93%
 
 ランディングページのテスト方法について詳しくは、[この節](../../channels/using/testing-publishing-landing-page.md#testing-the-landing-page-)を参照してください。
 
-## 手順 5 — ランディングページの公開 {#publish-the-landing-page}
+## 手順 5 - ランディングページのPublish {#publish-the-landing-page}
 
 テストが成功したら、ダッシュボードのアクションバーの「**[!UICONTROL Publish]**」ボタンを使用してランディングページを公開できます。監視ブロックは、公開の進行状況とステータスを示します。
 
@@ -134,8 +134,8 @@ ht-degree: 93%
 
 ## チュートリアルビデオ {#video}
 
-このビデオでは、ランディングページの作成方法と編集方法を示します。
+このビデオでは、ランディングページの作成および編集方法を説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/24093?quality=12)
 
-その他のCampaign Standardのハウツービデオも利用できます [ここ](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja).
+その他のCampaign Standardチュートリアルビデオについては、[ こちら ](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja) を参照してください。

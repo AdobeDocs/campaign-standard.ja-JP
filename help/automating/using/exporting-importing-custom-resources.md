@@ -31,7 +31,7 @@ ht-degree: 95%
 その他のリソース：
 
 * [パッケージの管理](../../automating/using/managing-packages.md)
-* [パッケージのデプロイ：動作の仕組み](../../developing/using/data-model-concepts.md)
+* [パッケージのデプロイ：動作原理](../../developing/using/data-model-concepts.md)
 * [リソースの追加または拡張](../../developing/using/key-steps-to-add-a-resource.md)
 
 ## 構造のエクスポート {#exporting-the-structure}

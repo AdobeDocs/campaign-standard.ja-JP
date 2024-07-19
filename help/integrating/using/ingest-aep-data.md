@@ -1,6 +1,6 @@
 ---
 title: Campaign への Adobe Experience Platform オーディエンスの取り込み
-description: Adobe Experience PlatformオーディエンスをCampaign Standardに取り込む方法を説明します。
+description: Adobe Experience Platform オーディエンスをCampaign Standardに取り込む方法を説明します。
 audience: integrating
 content-type: reference
 role: Data Architect
@@ -17,7 +17,7 @@ ht-degree: 64%
 
 Adobe Experience Platform オーディエンスを Campaign に取り込んでワークフローで使用するには、まず Adobe Campaign を Adobe Experience Platform の&#x200B;**宛先**&#x200B;として接続し、エクスポート対象のセグメントを設定する必要があります。
 
-宛先が設定されると、データがストレージの場所にエクスポートされ、取り込むには、専用のワークフローをCampaign Standardで作成する必要があります。
+出力先を設定すると、データはストレージの場所に書き出され、データを取り込むにはCampaign Standardして専用のワークフローを作成する必要があります。
 
 ## Adobe Campaign を宛先として接続する
 
@@ -27,13 +27,13 @@ Adobe Experience Platform で、Adobe Campaign との接続を設定するには
 
 宛先の設定が完了すると、Adobe Experience Platform は指定したストレージの場所にタブ区切りの .txt または .csv ファイルを作成します。 この操作は、24 時間に 1 回実行されるようスケジュールされています。
 
-これで、セグメントを Campaign に取り込むCampaign Standardワークフローを設定できるようになりました。
+セグメントを Campaign に取り込むためのCampaign Standardワークフローを設定できるようになりました。
 
-## インポートワークフローをCampaign Standard
+## Campaign Standardでの読み込みワークフローの作成
 
-Campaign Standardを宛先として設定したら、Adobe Experience Platformで書き出されたファイルを読み込むための専用ワークフローを作成する必要があります。
+Campaign Standardを宛先として設定したら、Adobe Experience Platformによって書き出されたファイルを読み込む専用のワークフローを作成する必要があります。
 
-これをおこなうには、 **[!UICONTROL Transfer file]** アクティビティ。 このアクティビティの設定方法について詳しくは、 [こちらの節](../../automating/using/transfer-file.md)を参照してください。
+これを行うには、**[!UICONTROL Transfer file]** アクティビティを追加して設定する必要があります。 このアクティビティの設定方法について詳しくは、 [こちらの節](../../automating/using/transfer-file.md)を参照してください。
 
 ![](assets/rtcdp-transfer-file.png)
 
@@ -43,7 +43,7 @@ Campaign Standardを宛先として設定したら、Adobe Experience Platform�
 
 ![](assets/rtcdp-workflow.png)
 
-データ管理ワークフローの例は、 [ワークフローの使用例](../../automating/using/about-workflow-use-cases.md#management) 」セクションに入力します。
+データ管理ワークフローの例については、[ ワークフローのユースケース ](../../automating/using/about-workflow-use-cases.md#management) の節を参照してください。
 
 関連トピック ： 
 

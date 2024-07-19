@@ -1,6 +1,6 @@
 ---
 title: トランザクションメッセージのライフサイクル
-description: トランザクションメッセージを公開、一時停止、非公開および削除する方法について説明します。
+description: トランザクションメッセージを公開、一時停止、非公開、削除する方法について説明します。
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
@@ -18,17 +18,17 @@ ht-degree: 70%
 
 # トランザクションメッセージのライフサイクル {#publishing-transactional-message}
 
-次の場合に [トランザクションメッセージ](../../channels/using/editing-transactional-message.md) を送信する準備が整ったので、公開できます。
+[ トランザクションメッセージ ](../../channels/using/editing-transactional-message.md) を送信する準備が整ったら、公開できます。
 
-トランザクションメッセージを公開、一時停止、非公開および削除する手順については、以下で詳しく説明します。
+トランザクションメッセージを公開、一時停止、非公開、削除する手順について詳しくは、以下を参照してください。
 
 >[!IMPORTANT]
 >
->次の条件を満たすユーザーのみ： [管理](../../administration/using/users-management.md#functional-administrators) ロールは、トランザクションメッセージにアクセスして公開できます。
+>トランザクションメッセージにアクセスして公開できるのは、[ 管理 ](../../administration/using/users-management.md#functional-administrators) の役割を持つユーザーのみです。
 
 ## トランザクションメッセージの公開プロセス {#transactional-messaging-pub-process}
 
-次の図は、トランザクションメッセージの公開プロセス全体を示しています。
+次のグラフは、トランザクションメッセージの公開プロセス全体を示しています。
 
 ![](assets/message-center_pub-process.png)
 
@@ -88,13 +88,13 @@ The steps for sending a proof are detailed in the [Sending proofs](../../sending
 
 ## トランザクションメッセージの公開 {#publishing-a-transactional-message}
 
-トランザクションメッセージを編集およびテストしたら、公開できます。 単に **[!UICONTROL Publish]** 」ボタンをクリックします。
+トランザクションメッセージを編集およびテストしたら、公開できます。 「**[!UICONTROL Publish]**」ボタンをクリックするだけです。
 
 ![](assets/message-center_12.png)
 
 これで、「買い物かごの放棄」イベントがトリガーされるとすぐに、受信者のタイトルと姓、買い物かごの URL、最後に参照した製品、または製品のリスト（製品リストを定義した場合）と送信される買い物かごの総数を含むメッセージが自動的に表示されます。
 
-トランザクションメッセージに関するレポートにアクセスするには、「**[!UICONTROL Reports]**」ボタンを使用します。詳しくは、 [動的レポート](../../reporting/using/about-dynamic-reports.md).
+トランザクションメッセージに関するレポートにアクセスするには、「**[!UICONTROL Reports]**」ボタンを使用します。[ 動的レポート ](../../reporting/using/about-dynamic-reports.md) を参照してください。
 
 ![](assets/message-center_13.png)
 
@@ -103,11 +103,11 @@ The steps for sending a proof are detailed in the [Sending proofs](../../sending
 * [トランザクションメッセージのテスト](../../channels/using/testing-transactional-message.md)
 * [イベントトリガーの統合](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)
 
-## トランザクションメッセージ公開の一時停止 {#suspending-a-transactional-message-publication}
+## トランザクションメッセージのパブリケーションの休止 {#suspending-a-transactional-message-publication}
 
 トランザクションメッセージに含まれるデータを変更する場合など、「**[!UICONTROL Pause]**」ボタンを使用してメッセージの公開を中止できます。したがって、イベントは処理されず、Adobe Campaign データベースのキューに保持されます。
 
-キュー内のイベントは、REST API で定義された期間、保持されます ( [REST API ドキュメント](../../api/using/managing-transactional-messages.md)) またはトリガーイベント（Experiences コアサービスを使用している場合）( [Adobe Experience Cloud Triggersについて](../../integrating/using/about-adobe-experience-cloud-triggers.md)) をクリックします。
+キュー内のイベントは、REST API （[REST API ドキュメント ](../../api/using/managing-transactional-messages.md) を参照）で定義された期間、またはトリガー コアサービスを使用している場合はトリガーイベントで定義された期間、保持されます（[Adobe Experience Cloud Triggersについて ](../../integrating/using/about-adobe-experience-cloud-triggers.md) を参照）。
 
 ![](assets/message-center_pause.png)
 
@@ -123,7 +123,7 @@ The steps for sending a proof are detailed in the [Sending proofs](../../sending
 
 >[!NOTE]
 >
->メッセージを再度公開するには、対応するイベント設定に戻る必要があります。 [イベントを公開する](../../channels/using/publishing-transactional-event.md)を、 [メッセージを公開](#publishing-a-transactional-message).
+>メッセージを再度公開するには、対応するイベント設定に戻り、[ イベントを公開 ](../../channels/using/publishing-transactional-event.md) してから、[ メッセージを公開 ](#publishing-a-transactional-message) する必要があります。
 
 一時停止したトランザクションメッセージを非公開にする場合は、再度公開するまで 24 時間待たなければならない場合があります。これは、キューに送信されたすべてのイベントを「**[!UICONTROL Database cleanup]**」ワークフローで消去するためです。
 
@@ -135,7 +135,7 @@ The steps for sending a proof are detailed in the [Sending proofs](../../sending
 
 トランザクションメッセージが非公開になっている場合、またはトランザクションメッセージがまだ公開されていない場合は、トランザクションメッセージリストから削除できます。手順は次のとおりです。
 
-1. 次をクリック： **Adobe** ロゴ（左上隅）に、「 **[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**.
+1. 左上隅の **0}Adobe} ロゴをクリックし、**[!UICONTROL Marketing plans]**/**[!UICONTROL Transactional messages]**/**[!UICONTROL Transactional messages]**を選択します。**
 1. 選択したメッセージにマウスを合わせます。
 1. 「**[!UICONTROL Delete element]**」ボタンをクリックします。
 

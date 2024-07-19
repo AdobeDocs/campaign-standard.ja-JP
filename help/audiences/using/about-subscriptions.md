@@ -14,7 +14,7 @@ ht-degree: 40%
 
 # 購読について{#about-subscriptions}
 
-Adobe Campaignを使用して、一連の **services**：メッセージは、サービスを購読している（オプトインしている）プロファイルにのみ送信されます。 これらのプロファイルは、メッセージを作成する際に、専用のフィルターを使用して特定されます。
+Adobe Campaignを使用すると、一連の **services** を介して、ニュースレターとクロスチャネルコミュニケーションを作成および管理できます。メッセージは、サービス（オプトイン）を購読しているプロファイルにのみ送信されます。 これらのプロファイルは、メッセージを作成する際に、専用のフィルターを使用して特定されます。
 
 サブスクリプションメカニズムの設定により、顧客がこれらのサービスを（特にメール&#x200B;**と**&#x200B;ランディングページ&#x200B;**から）購読できるようにすることができます。**
 
@@ -30,14 +30,14 @@ Adobe Campaignを使用して、一連の **services**：メッセージは、�
 
 購読メカニズムを作成するには、次の手順に従います。
 
-1. **サービスの作成**  — 説明されている手順に従います。 [この節](../../audiences/using/creating-a-service.md) 購読サービスを作成するには
-1. **リンクを共有**  — サービスの昇格と共有の方法を学ぶ [このページの](../../audiences/using/promoting-a-service.md)
-1. **購読の監視**  — サービスの購読を監視する方法をいくつか見つけます [この節](../../audiences/using/monitoring-subscriptions.md)
-1. **購読を確認**  — フォロー [このチュートリアル](../../audiences/using/confirming-subscription-to-a-service.md) 購読確認メッセージを送信するには
+1. **サービスの作成** – 購読サービスを作成するには、[ この節 ](../../audiences/using/creating-a-service.md) で説明されている手順に従います
+1. **リンクを共有** - サービスを昇格および共有する方法については、このページを参照してください [ このページ ](../../audiences/using/promoting-a-service.md)
+1. **購読の監視** - サービスの購読を監視する方法をいくつか紹介します [ この節 ](../../audiences/using/monitoring-subscriptions.md)。
+1. **購読を確認** - [ このチュートリアル ](../../audiences/using/confirming-subscription-to-a-service.md) に従って、購読確認メッセージを送信します
 
 ## その他のリソース
 
-* [使用例：サービスの購読者に対する増分処理クエリ](../../automating/using/incremental-query-on-subscribers.md)
-* [ユースケース：ファイルから複数の購読ステータスを更新する](../../automating/using/updating-subscriptions-from-file.md)
-* [ファイルのインポート後に特定のサービスにプロファイルを購読登録する](../../automating/using/subscribing-profiles-from-file.md)
+* [ユースケース：サービス購読者に対する増分クエリ](../../automating/using/incremental-query-on-subscribers.md)
+* [ユースケース：ファイルからの複数の購読ステータスの更新](../../automating/using/updating-subscriptions-from-file.md)
+* [ファイルのインポート後の特定のサービスへのプロファイルの購読](../../automating/using/subscribing-profiles-from-file.md)
 * [Campaign のオプトインとオプトアウト](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)

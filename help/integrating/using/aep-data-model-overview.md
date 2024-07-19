@@ -1,6 +1,6 @@
 ---
 title: エクスペリエンスデータモデルの概要
-description: エクスペリエンスデータモデル (XDM) は、Adobe Experience Platformのソリューションや製品で使用するためにデータを取り込むことのできる、データスキーマの標準セットです。
+description: Experience Data Model （XDM）は、Adobe Experience Platformのソリューションや製品で使用するためにデータを取り込む可能性のあるデータスキーマの標準セットです。
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
@@ -21,19 +21,19 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Adobe Experience Platform Data Connector は現在ベータ版です。通知なしに頻繁に更新される可能性があります。 お客様は、これらの機能にアクセスするには、Azure 上でホストされている必要があります（現在、北米ではベータ版のみ）。 にアクセスする場合は、Adobeカスタマーケアにお問い合わせください。
+>現在、Adobe Experience Platform Data Connector はベータ版です。予告なく頻繁に更新される可能性があります。 これらの機能にアクセスするには、お客様を Azure でホストする必要があります（現在は北米向けのベータ版のみ）。 アクセスをご希望の場合は、Adobeカスタマーケアにお問い合わせください。
 
-エクスペリエンスデータモデル (XDM) は、Adobe Experience Platformのソリューションや製品で使用するためにデータを取り込むことのできる、データスキーマの標準セットです。
+Experience Data Model （XDM）は、Adobe Experience Platformのソリューションや製品で使用するためにデータを取り込む可能性のあるデータスキーマの標準セットです。
 
-XDM スキーマの作成と管理は、専用 API で、または XDM ユーザーインターフェイスで使用できます。
+XDM スキーマの作成と管理は、専用の API または XDM ユーザーインターフェイスで利用できます。
 
 ## XDM ワークスペース {#xdm-workspace}
 
-XDM Workspace は、データスキーマを表示、作成および拡張する機能を提供します。
+XDM Workspaceでは、データスキーマの表示、作成、拡張を行うことができます。
 
-XDM ユーザーインターフェイスにアクセスするには、 Adobe Experience Platformを開きます。 データモデルウィンドウに移動して、XDM スキーマを作成または拡張します。
+XDM ユーザーインターフェイスにアクセスするには、Adobe Experience Platformを開きます。 データモデルウィンドウに移動して、XDM スキーマを作成または拡張します。
 
-詳細を見る [XDM Workspace ドキュメント](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html).
+完全な [XDM Workspaceのドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html) を参照してください。
 
 ![](assets/aep_xdmworkspace.png)
 
@@ -43,9 +43,9 @@ XDM スキーマ API を使用して、次のアクションを実行できま�
 
 * 既存のスキーマのリストの表示
 * 特定のスキーマの表示既存のスキーマの拡張
-* 拡張機能にフィールドを追加する
+* 拡張機能へのフィールドの追加
 * 新しいスキーマの作成と更新
 * スキーマ記述子の表示
 * スキーマ記述子の作成、更新、削除
 
-API 呼び出しの操作に関する詳細は、 [開発者ガイド](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html).
+API 呼び出しを操作する詳細については、[ 開発者ガイド ](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html) を参照してください。

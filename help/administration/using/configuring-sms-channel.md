@@ -1,6 +1,6 @@
 ---
 title: SMS チャネルの設定
-description: SMS の設定手順（ルーティング、エンコーディング、形式、詳細プロパティなど）について説明します
+description: ルーティング、エンコーディング、形式、詳細プロパティを含む、SMS 設定手順を説明します
 audience: administration
 feature: Instance Settings
 role: Admin
@@ -70,9 +70,9 @@ SMPP プロトコルを使用する場合、新しい外部アカウントを作
 
 これで、Adobe Campaign で新しいルーティングを使用して SMS メッセージを送信できるようになりました。
 
-## SMS のエンコードと形式 {#sms-encoding-and-formats}
+## SMS のエンコーディングと形式 {#sms-encoding-and-formats}
 
-### SMS のエンコーディング、長さ、および変換 {#sms-encoding--length-and-transliteration}
+### SMS のエンコーディング、長さおよび表記変換 {#sms-encoding--length-and-transliteration}
 
 デフォルトでは、SMS の文字数は GSM（Global System for Mobile Communications）標準に準じています。
 
@@ -99,7 +99,7 @@ GSM エンコードを使用する SMS メッセージは 160 文字以内に制
 
 ただし、SMS メッセージに Unicode メッセージ用の文字が多数含まれる場合、このオプションを有効にしてメッセージ送信のコストを抑えることもできます。
 
-### 文字の一覧 — GSM 標準 {#table-of-characters---gsm-standard}
+### 目次 – GSM 標準 {#table-of-characters---gsm-standard}
 
 この節では、GSM 標準に準じている文字を紹介します。メッセージ本文に、ここで紹介されていない文字が含まれている場合、メッセージ全体がバイナリフォーマット（Unicode）に変換され、文字数が 70 文字以内に制限されます。詳しくは、[SMS のエンコード、長さ、および変換](#sms-encoding--length-and-transliteration)の節を参照してください。
 
@@ -317,7 +317,7 @@ Adobe Campaign では、SMS メッセージの送信時に 1 つまたは複数�
 
 ### MO に送信された自動返信 {#automatic-reply-sent-to-the-mo}
 
-プロファイルが Campaign 経由で送信された SMS メッセージに返信する場合、自動的に返信されるメッセージや、実行するアクションを設定できます。
+Campaign 経由で送信された SMS メッセージにプロファイルが返信した場合、自動的に送り返されるメッセージと実行するアクションを設定できます。
 
 詳しくは、[この節](../../channels/using/managing-incoming-sms.md)を参照してください。
 
@@ -329,15 +329,15 @@ SMS メッセージを送信するための特定のパラメーターは、「*
 
 ![](assets/sms_options.png)
 
-次から： **[!UICONTROL Advanced parameters]** セクション：
+**[!UICONTROL Advanced parameters]** のセクションから：
 
-* The **[!UICONTROL Short code]** 配信に特定のショートコードを追加できます。 この特定のショートコードをオプトアウトした受信者は、メッセージの準備中に自動的に除外されます。 ショートコードの設定方法について詳しくは、 [この節](../../channels/using/managing-incoming-sms.md).
+* **[!UICONTROL Short code]** を使用すると、配信に特定のショートコードを追加できます。 この特定のショートコードをオプトアウトした受信者は、メッセージの準備中に自動的に除外されます。 ショートコードの設定方法について詳しくは、[ この節 ](../../channels/using/managing-incoming-sms.md) を参照してください。
 
   >[!NOTE]
   >
-  >次の場合、 **[!UICONTROL Short code]** フィールドが空の場合、 **[!UICONTROL Short code]** 外部アカウントのフィールドセットが使用されます。
+  >**[!UICONTROL Short code]** フィールドを空のままにすると、外部アカウントに設定された **[!UICONTROL Short code]** フィールドの値が使用されます。
 
-次から： **[!UICONTROL Send]** SMS テンプレートのセクション：
+SMS テンプレートの「**[!UICONTROL Send]**」セクションから：
 
 * 「**[!UICONTROL Maximum number of SMS per message]**」オプションを使用すると、メッセージの送信に使用する SMS メッセージの数を定義できます。この数を超えると、メッセージは送信されません。
 

@@ -1,6 +1,6 @@
 ---
 title: アプリケーションリソースの購読の拡張
-description: アプリケーションリソースに対するサブスクリプションの拡張方法を説明します
+description: アプリケーションリソースの購読を拡張する方法を説明します
 audience: developing
 content-type: reference
 topic-tags: use-cases--extending-resources
@@ -17,32 +17,32 @@ ht-degree: 10%
 
 # アプリケーションリソースの購読の拡張{#extending-the-subscriptions-to-an-application-resource}
 
-Adobe Campaignでは、モバイルデバイスから送信されたモバイルプロファイル属性データは、 **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** リソースを使用して、アプリケーション購読者から収集するデータを定義できます。 カスタムリソースについて詳しくは、 [このページ](../../developing/using/key-steps-to-add-a-resource.md).
+Adobe Campaignでは、モバイルデバイスから送信されたモバイルプロファイル属性データが **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** リソースに保存されるので、アプリケーションの購読者から収集するデータを定義できます。 カスタムリソースについて詳しくは、[ このページ ](../../developing/using/key-steps-to-add-a-resource.md) を参照してください。
 
-このリソースを拡張して、モバイルデバイスからAdobe Campaignに送信するデータを収集できます。
+このリソースは、モバイルデバイスからAdobe Campaignに送信するデータを収集するように拡張できます。
 
 1. 詳細設定メニューの Adobe Campaign ロゴから、**[!UICONTROL Administration]**／**[!UICONTROL Development]**／**[!UICONTROL Custom resources]** を選択します。
-1. クリック **[!UICONTROL Create]** を選択し、 **[!UICONTROL Extend an existing resource]** オプション。
-1. を選択します。 **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** リソースとクリック **[!UICONTROL Create]**.
+1. 「**[!UICONTROL Create]**」をクリックし、「**[!UICONTROL Extend an existing resource]**」オプションを選択します。
+1. **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** リソースを選択し、「**[!UICONTROL Create]**」をクリックします。
 
    ![](assets/in_app_personal_data_4.png)
 
-1. Adobe Analytics の **[!UICONTROL Fields]** カテゴリ **[!UICONTROL Data structure]** 」タブで、モバイルアプリケーションから取得する顧客データを定義するには、 **[!UICONTROL Add field]** 」ボタンをクリックします。
+1. 「**[!UICONTROL Data structure]**」タブの「**[!UICONTROL Fields]**」カテゴリで、「**[!UICONTROL Add field]**」ボタンをクリックして、モバイルアプリケーションから取得する顧客データを定義します。
 
    >[!NOTE]
    >
-   >複数のモバイルアプリケーションを管理している場合は、すべてのアプリケーションで使用されるすべてのフィールドを一覧表示する必要があります。 iOSまたは Android の収集 PII 呼び出しは、各アプリで取り込むフィールドを定義します。
+   >複数のモバイルアプリケーションを管理している場合は、すべてのアプリケーションで使用されているすべてのフィールドがリストされている必要があります。 iOSまたはAndroidの Collect PII 呼び出しは、各アプリケーションでキャプチャされるフィールドを定義します。
 
    ![](assets/in_app_personal_data.png)
 
-1. を追加します。 **[!UICONTROL Label]** および **[!UICONTROL ID]** を新しいフィールドに追加します。 フィールドの **[!UICONTROL Type]**.
+1. 新しいフィールドに **[!UICONTROL Label]** と **[!UICONTROL ID]** を追加します。 フィールドの **[!UICONTROL Type]** を選択します。
 
    ![](assets/schema_extension_uc9.png)
 
-1. Adobe Analytics の **[!UICONTROL Link to profiles]** 「 」カテゴリで、Adobe Campaignデータベースのプロファイルをアプリケーションの購読者（E メールなど）にリンクするために使用する紐付けキーを設定します。
+1. **[!UICONTROL Link to profiles]** カテゴリで、Adobe Campaign データベースからアプリケーションのサブスクライバーにプロファイルをリンクするために使用する紐付けキー（メールなど）を設定します。
 
-   アプリ内メッセージでは、すべてのモバイルアプリに対して 1 つの紐付けキーのみを定義できます。
+   アプリ内メッセージの場合、すべてのモバイルアプリケーションに対して 1 つの紐付けキーのみを定義できます。
 
    ![](assets/in_app_personal_data_3.png)
 
-1. **[!UICONTROL Save]** カスタムリソースを公開します。 カスタムリソースのパブリッシュについて詳しくは、 [ページ](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource).
+1. カスタムリソースを **[!UICONTROL Save]** 開して公開します。 カスタムリソースの公開について詳しくは、この [ ページ ](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource) を参照してください。

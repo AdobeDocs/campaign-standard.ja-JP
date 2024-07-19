@@ -1,6 +1,6 @@
 ---
-title: リソースを追加する主な手順
-description: Adobe Campaignデータモデルでリソースを追加する主な手順を以下に示します。
+title: リソースを追加するための主な手順
+description: ここでは、Adobe Campaign データモデルにリソースを追加するための主な手順を説明します。
 audience: developing
 content-type: reference
 topic-tags: adding-or-extending-a-resource
@@ -17,7 +17,7 @@ ht-degree: 43%
 
 # リソースを追加するための主な手順{#key-steps-to-add-a-resource}
 
-新しいリソースを作成する場合、または新しいフィールドを使用して既存のリソースを拡張する場合は、次の手順を実行する必要があります。
+新しいリソースを作成したり、新しいフィールドで既存のリソースを拡張したりするには、次の手順が必要です。
 
 1. [リソースの作成または拡張](../../developing/using/creating-or-extending-the-resource.md)
 1. [リソースのデータ構造の設定](../../developing/using/configuring-the-resource-s-data-structure.md)
@@ -33,4 +33,4 @@ ht-degree: 43%
 
 >[!VIDEO](https://video.tv.adobe.com/v/27715?quality=9&captions=eng)
 
-その他のCampaign Standardのハウツービデオも利用できます [ここ](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja).
+その他のCampaign Standardチュートリアルビデオについては、[ こちら ](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja) を参照してください。

@@ -24,7 +24,7 @@ ht-degree: 96%
 
 「**[!UICONTROL Deduplication]**」アクティビティでは、インバウンドアクティビティの結果から重複を削除できます。
 
-## 使用状況 {#context-of-use}
+## 使用コンテキスト {#context-of-use}
 
 「**[!UICONTROL Deduplication]**」アクティビティは、通常、ターゲティングアクティビティの後またはファイルをインポートした後、およびターゲットデータを使用できるアクティビティの前に使用されます。
 
@@ -36,8 +36,8 @@ ht-degree: 96%
 
 **関連トピック**
 
-* [ユースケース：配信前の重複の識別](../../automating/using/identifying-duplicated-before-delivery.md)
-* [使用例：インポートしたファイルからデータの重複を排除する](../../automating/using/deduplicating-data-imported-file.md)
+* [ユースケース：配信前の重複の特定](../../automating/using/identifying-duplicated-before-delivery.md)
+* [ユースケース：インポートされたファイルからのデータの重複排除](../../automating/using/deduplicating-data-imported-file.md)
 
 ## 設定 {#configuration}
 

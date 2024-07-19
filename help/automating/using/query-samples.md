@@ -1,6 +1,6 @@
 ---
 title: クエリのサンプル
-description: この節では、クエリアクティビティを使用する際の使用例を示します。
+description: この節では、クエリ アクティビティを使用する際のユースケースを示します。
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -18,15 +18,15 @@ ht-degree: 76%
 
 # クエリのサンプル {#query-samples}
 
-この節では、 **[!UICONTROL Query]** アクティビティ。 の使用方法の詳細 **[!UICONTROL Query]** アクティビティ： [この節](../../automating/using/query.md).
+この節では、**[!UICONTROL Query]** アクティビティを使用する際のユースケースを示します。 **[!UICONTROL Query]** アクティビティの使用方法について詳しくは、[ この節 ](../../automating/using/query.md) を参照してください。
 
-## シンプルなプロファイル属性のターゲティング {#targeting-on-simple-profile-attributes}
+## 単純なプロファイル属性に対するターゲティング {#targeting-on-simple-profile-attributes}
 
 次の例は、ロンドンに居住している 18～30 歳の男性をターゲットするように設定されたクエリアクティビティを示しています。
 
 ![](assets/query_sample_1.png)
 
-## E メールの属性のターゲティング {#targeting-on-email-attributes}
+## メール属性に対するターゲティング {#targeting-on-email-attributes}
 
 次の例は、メールアドレスドメインが「orange.co.uk」のプロファイルをターゲットするように設定されたクエリアクティビティを示しています。
 
@@ -36,7 +36,7 @@ ht-degree: 76%
 
 ![](assets/query_sample_emailnotempty.png)
 
-## 今日が誕生日のプロファイルのターゲティング {#targeting-profiles-whose-birthday-is-today}
+## 当日が誕生日のターゲティングプロファイル {#targeting-profiles-whose-birthday-is-today}
 
 次の例は、今日が誕生日のプロファイルをターゲットするように設定されたクエリアクティビティを示しています。
 
@@ -48,7 +48,7 @@ ht-degree: 76%
 
    ![](assets/query_sample_birthday2.png)
 
-## 特定の配信を開いたプロファイルのターゲティング {#targeting-profiles-who-opened-a-specific-delivery}
+## 特定の配信を開封したターゲティングプロファイル {#targeting-profiles-who-opened-a-specific-delivery}
 
 次の例は、「Summer Time」というラベルの配信を開いたプロファイルをフィルターするように設定されたクエリアクティビティを示しています。
 
@@ -60,7 +60,7 @@ ht-degree: 76%
 
    ![](assets/query_sample_opened2.png)
 
-## 特定の理由で配信が失敗したプロファイルのターゲティング {#targeting-profiles-for-whom-deliveries-failed-for-a-specific-reason}
+## 特定の理由で配信が失敗したターゲティングプロファイル {#targeting-profiles-for-whom-deliveries-failed-for-a-specific-reason}
 
 次の例は、メールボックスの容量が超過したために配信が失敗したプロファイルをフィルターするように設定されたクエリアクティビティを示しています。このクエリは、管理権限を持ち、**[!UICONTROL All (all)]** 組織単位に属するユーザーのみが使用できます（[この節](../../administration/using/organizational-units.md)を参照）。
 
@@ -76,7 +76,7 @@ ht-degree: 76%
 
    ![](assets/query_sample_failure3.png)
 
-## 過去 7 日間に連絡していないプロファイルのターゲティング {#targeting-profiles-not-contacted-during-the-last-7-days}
+## 過去 7 日間に連絡されていないターゲティングプロファイル {#targeting-profiles-not-contacted-during-the-last-7-days}
 
 次の例は、過去 7 日間に連絡していないプロファイルをフィルターするように設定されたクエリアクティビティを示しています。
 
@@ -92,7 +92,7 @@ ht-degree: 76%
 
    ![](assets/query_sample_7days2.png)
 
-## 特定のリンクをクリックしたプロファイルのターゲティング {#targeting-profiles-who-clicked-a-specific-link-}
+## 特定のリンクをクリックしたターゲティングプロファイル {#targeting-profiles-who-clicked-a-specific-link-}
 
 1. クエリに **[!UICONTROL Tracking logs (tracking)]** フィルターをドラッグします。
 

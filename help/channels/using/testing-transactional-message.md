@@ -18,13 +18,13 @@ ht-degree: 31%
 
 # トランザクションメッセージのテスト {#testing-a-transactional-message}
 
-トランザクションメッセージを公開する前に、メッセージを適切に確認できる特定のテストプロファイルを作成できます。
+トランザクションメッセージを公開する前に、特定のテストプロファイルを作成すると、メッセージを適切に確認できます。
 
 ## 特定のテストプロファイルの定義 {#defining-specific-test-profile}
 
-イベントにリンクするテストプロファイルを定義します。これにより、メッセージをプレビューし、関連する配達確認を送信できます。
+イベントにリンクされるテストプロファイルを定義します。これにより、メッセージをプレビューし、関連する配達確認を送信できます。
 
-1. 次から： [トランザクションメッセージダッシュボード](../../channels/using/editing-transactional-message.md#accessing-transactional-messages)をクリックし、 **[!UICONTROL Create test profile]** 」ボタンをクリックします。
+1. [ トランザクションメッセージダッシュボード ](../../channels/using/editing-transactional-message.md#accessing-transactional-messages) で、「**[!UICONTROL Create test profile]**」ボタンをクリックします。
 
    ![](assets/message-center_test-profile.png)
 
@@ -34,22 +34,22 @@ ht-degree: 31%
 
    >[!NOTE]
    >
-   >メッセージをエンリッチメントする場合は、別のテーブルに関連する情報 ( 例： **[!UICONTROL Profile]**. 詳しくは、 [イベントのエンリッチメント](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) および [トランザクションメッセージのパーソナライズ](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message).
+   >メッセージをエンリッチメントした場合は、**[!UICONTROL Profile]** など、別のテーブルに関する情報も入力できます。 [ イベントの機能強化 ](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) および [ トランザクションメッセージのパーソナライズ ](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message) を参照してください。
 
-1. 作成後、テストプロファイルはトランザクションメッセージで事前に指定されます。 配達確認のターゲットを確認するには、メッセージの「**[!UICONTROL Test profiles]**」ブロックをクリックします。
+1. 作成したテストプロファイルは、トランザクションメッセージで事前に指定されます。 配達確認のターゲットを確認するには、メッセージの「**[!UICONTROL Test profiles]**」ブロックをクリックします。
 
    ![](assets/message-center_5.png)
 
-また、新しいテストプロファイルを作成するか、 **[!UICONTROL Test profiles]** メニュー。 手順は次のとおりです。
+また、新しいテストプロファイルを作成したり、**[!UICONTROL Test profiles]** メニューに既に存在するテストプロファイルを使用したりすることもできます。 手順は次のとおりです。
 
-1. 次をクリック： **Adobe** ロゴ（左上隅）に、「 **[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]**.
-1. Adobe Analytics の **[!UICONTROL Event]** 「 」セクションで、作成したイベントを選択します。 この例では、「買い物かごの放棄（EVTcartAbandant）」を選択します。
+1. 左上隅の **0}Adobe} ロゴをクリックし、**[!UICONTROL Profiles & audiences]**/**[!UICONTROL Test profiles]**を選択します。**
+1. **[!UICONTROL Event]** セクションで、作成したばかりのイベントを選択します。 この例では、「買い物かごの放棄（EVTcartAbandant）」を選択します。
 1. JSON 形式で送信する情報を「**[!UICONTROL Event data]**」テキストボックスに指定します。
 
    ![](assets/message-center_3.png)
 
 1. 変更を保存します。
-1. [メッセージにアクセス](../../channels/using/editing-transactional-message.md#accessing-transactional-messages) 作成し、更新されたテストプロファイルを選択したこと
+1. 作成した [ メッセージにアクセス ](../../channels/using/editing-transactional-message.md#accessing-transactional-messages) し、更新されたテストプロファイルを選択します。
 
 **関連トピック：**
 
@@ -62,4 +62,4 @@ ht-degree: 31%
 
 ![](assets/message-center_10.png)
 
-配達確認の送信手順について詳しくは、 [配達確認の送信](../../sending/using/sending-proofs.md) 」セクションに入力します。
+配達確認の送信手順について詳しくは、[ 配達確認の送信 ](../../sending/using/sending-proofs.md) の節を参照してください。

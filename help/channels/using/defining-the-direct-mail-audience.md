@@ -32,7 +32,7 @@ ht-degree: 96%
 >
 >住所はダイレクトメールプロバイダーにとって重要なものなので、プロファイルに住所が含まれていることを確認してください。また、プロファイル情報の「**[!UICONTROL Address specified]**」ボックスがオンになっていることも確認してください。[レコメンデーション](../../channels/using/about-direct-mail.md#recommendations)を参照してください。
 
-## テストおよびトラッププロファイルの追加 {#adding-test-and-trap-profiles}
+## テストプロファイルとトラッププロファイルの追加 {#adding-test-and-trap-profiles}
 
 テストプロファイルを追加して、少数のプロファイルを対象にファイルをテストできるようにします。テストプロファイルを使用すると、実際のファイルを準備する前にファイルサンプルをすばやく作成して構造を検証できます。[テストプロファイルの管理](../../audiences/using/managing-test-profiles.md)を参照してください。
 

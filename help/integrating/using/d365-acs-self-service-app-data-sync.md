@@ -1,6 +1,6 @@
 ---
-title: Campaign とMicrosoft Dynamics 間のデータの同期
-description: Campaign と Dynamics の間でのデータの同期
+title: Campaign とMicrosoft Dynamics 間のデータ同期
+description: Campaign と Dynamics 間のデータ同期
 products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
@@ -18,161 +18,162 @@ ht-degree: 0%
 
 # データの同期
 
-Microsoft Dynamics 365 のテーブルを Campaign および Campaign のマーケティング指標とMicrosoft Dynamics 365 に同期できます。 同期は、次の 3 つの専用テクニカルワークフローを通じて実行されます。 **[!UICONTROL Microsoft Dynamics 365 to Campaign]**, **[!UICONTROL Campaign to Microsoft Dynamics 365]**, **[!UICONTROL Opt-In/Out]**. この節を参照して、 [詳細情報](../../integrating/using/d365-acs-self-service-app-workflows.md).
+Microsoft Dynamics 365 から Campaign および Campaign マーケティング指標に対してMicrosoft Dynamics 365 にテーブルを同期できます。 同期は、**[!UICONTROL Microsoft Dynamics 365 to Campaign]**、**[!UICONTROL Campaign to Microsoft Dynamics 365]**、**[!UICONTROL Opt-In/Out]** の 3 つの専用のテクニカルワークフローを通じて実行されます。 詳しくは、この節を参照してください [ 詳細情報 ](../../integrating/using/d365-acs-self-service-app-workflows.md)。
 
 >[!IMPORTANT]
->を停止/開始する必要があります。 **[!UICONTROL Microsoft Dynamics 365 to Campaign]** ワークフローを使用して、変更を反映させることができます。 [詳細情報](../../integrating/using/d365-acs-self-service-app-workflows.md)
+>変更を反映させるには、**[!UICONTROL Microsoft Dynamics 365 to Campaign]** ワークフローを停止または開始する必要があります。 [詳細情報](../../integrating/using/d365-acs-self-service-app-workflows.md)
 >
 
 ## Microsoft Dynamics 365 から Campaign へのテーブルのマッピング
 
-The **[!UICONTROL Microsoft Dynamics 365 to Campaign]** ページには、Microsoft Dynamics 365 のエンティティのリストと、それらが同期されるAdobe Campaignのカスタムリソースが表示されます。 新しいマッピングの追加、既存のマッピングの編集または削除をおこなうことができます。
+**[!UICONTROL Microsoft Dynamics 365 to Campaign]** のページには、Microsoft Dynamics 365 内のエンティティのリストと、それらのエンティティが同期されるAdobe Campaign内のカスタムリソースが表示されます。 新しいマッピングを追加したり、既存のマッピングを編集または削除したりできます。
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-ingress-top.png)
 
 この表の各列の説明を次に示します。
 
-* **[!UICONTROL MICROSOFT DYNAMICS 365 TABLE]**：この列は、マッピングのデータソースとなるMicrosoft Dynamics 365 のエンティティを識別します。
+* **[!UICONTROL MICROSOFT DYNAMICS 365 TABLE]**：この列は、マッピングのデータ ソースとなるMicrosoft Dynamics 365 のエンティティを示します。
 
-* **[!UICONTROL CAMPAIGN TABLE]**：この列は、マッピングのデータの宛先となるAdobe Campaign内のリソースを識別します。
+* **[!UICONTROL CAMPAIGN TABLE]**：この列は、マッピングのデータ先となるAdobe Campaignのリソースを示します。
 
-* **[!UICONTROL ACTIONS]**：可能なアクションを次に示します。
+* **[!UICONTROL ACTIONS]**：可能なアクションを以下に示します。
 
-   * 次をクリック： **[!UICONTROL Edit]** アイコンをクリックして、このマッピングを編集します。
+   * **[!UICONTROL Edit]** アイコンをクリックして、このマッピングを編集します。
 
-   * 以下を使用します。  **[!UICONTROL Delete]** アイコンをクリックして、テーブルマッピングを削除します。
+   * テーブルマッピングを削除するには、「**[!UICONTROL Delete]**」アイコンを使用します。
 
-   * 次をクリック： **[!UICONTROL Replay Data]** アイコンをクリックして、Microsoft Dynamics 365 テーブル内のすべてのデータを再同期します。 通常、統合アプリケーションは最近変更されたMicrosoft Dynamics 365 のデータのみを同期します。  ただし、場合によっては（変更を加えた場合や誤った場合など）、すべてのデータを再同期させたい場合があります。  この場合、次回、を停止または開始する際に、このボタンをクリックし、 **[!UICONTROL Microsoft Dynamics 365 to Campaign]** ワークフローで、データの同期が開始されます。
+   * **[!UICONTROL Replay Data]** アイコンをクリックして、Microsoft Dynamics 365 テーブル内のすべてのデータを再同期します。 通常、統合アプリケーションは、最近変更されたMicrosoft Dynamics 365 のデータのみを同期します。  ただし、場合によっては（変更を加えた、間違いをした、など）、すべてのデータを再同期する必要が生じることがあります。  この場合、このボタンをクリックすると、次に **[!UICONTROL Microsoft Dynamics 365 to Campaign]** ワークフローを停止または開始したときに、データの同期が開始されます。
 
-     次の項目をクリックした場合、 **[!UICONTROL Replay Data]** ボタンとチェックが正常に完了すると、アイコンは無効になります。これは、このテーブルマッピングペアのデータが次回の **[!UICONTROL Microsoft Dynamics 365 to Campaign]** ワークフロー。
+     「**[!UICONTROL Replay Data]**」ボタンをクリックしてチェックに成功すると、アイコンが無効になります。これは、**[!UICONTROL Microsoft Dynamics 365 to Campaign]** ワークフローの次回の実行で、このテーブルマッピングペアのデータが再同期されることを示しています。
 
      次の条件に当てはまる場合は、データの再生を選択できません。
 
-      * バックログ指標に 2,000,000 個以上の項目がある場合、 **[!UICONTROL Microsoft Dynamics 365 to Campaign]** ワークフロー ( **[!UICONTROL Workflows]** ページ )
-      * Microsoft Dynamics 365 テーブルに 2,000,000 以上のレコードがある場合
+      * **[!UICONTROL Microsoft Dynamics 365 to Campaign]** ワークフロー（**[!UICONTROL Workflows]** ページに表示）に関連付けられたバックログ指標に 2,000,000 （またはそれ以上）の項目がある場合
+      * Microsoft Dynamics 365 テーブルに 200 万件以上のレコードがある場合
 
-     再同期が必要なレコードの数は、それぞれ異なります。 レコード数が多い場合は、同期プロセスの完了に時間がかかる場合があります。 詳しくは、 **[!UICONTROL Backlog]** 指標 **[!UICONTROL Workflows]** ページを開きます。
+     再同期が必要なレコードの数は異なります。 レコード数が多い場合は、同期プロセスが完了するまでに時間がかかることがあります。 統合アプリケーションが同期プロセスを完了するように動作するので、**[!UICONTROL Workflows]** ページの **[!UICONTROL Backlog]** の指標を参照してください。
 
      >[!IMPORTANT]
      >
-     > Adobe Campaign StandardまたはMicrosoft Dynamics 365 に変更を公開する際に、統合ワークフローを停止することを強くお勧めします。 該当する変更には、リソース/エンティティ（および関連するフィールド）、リンク、識別子列などの更新が含まれます。 現在統合で使用中のもの。
+     > Adobe Campaign StandardまたはMicrosoft Dynamics 365 に変更内容を公開する際は、統合ワークフローを停止することを強くお勧めします。 適用可能な変更：リソース/エンティティ（およびその関連フィールド）の更新、リンク、識別子の列など。 は、現在、統合で使用されています。
      >
 
 ## 新しいマッピングを作成 {#add-a-new-mapping}
 
 新しいマッピングを作成するには、次の手順に従います。
 
-1. （内） **[!UICONTROL Microsoft Dynamics 365 to Campaign]** ページで、 **[!UICONTROL Add New Mapping]** 」ボタンをクリックします。
+1. **[!UICONTROL Microsoft Dynamics 365 to Campaign]** ページで、「**[!UICONTROL Add New Mapping]**」ボタンをクリックします。
 
-1. ドロップダウンリストを使用して、マッピングするMicrosoft Dynamics 365 および Campaign テーブルを選択します。
+1. ドロップダウンリストを使用して、Microsoft Dynamics 365 とマッピングする Campaign テーブルを選択します。
 ページ上のその他の入力のほとんどは、選択したテーブルによって異なります。
 
    ![](assets/do-not-localize/d365-to-acs-ui-page-ingress-choose-tables.png)
 
    >[!NOTE]
-   >各テーブルを複数回マッピングすることはできません。 そのため、ドロップダウンで選択した項目には、既にマッピングされているテーブルは含まれません。
+   >各テーブルを複数回マッピングすることはできません。 そのため、ドロップダウン選択には、既にマッピングされているテーブルが含まれないことに注意してください。
 
-1. クリック **[!UICONTROL OK]** 確認するには：選択したテーブルに関連付けられたフィールド情報を読み込むのに、しばらく待つ必要があります。
+1. **[!UICONTROL OK]** をクリックして確認します。選択したテーブルに関連付けられているフィールド情報を読み込むには、アプリケーションにしばらく時間がかかります。
 
 その後、マッピング設定を続行できます。 [詳細情報](#new-mapping-settings)
 
 >[!IMPORTANT]
 >
->最初にマッピングを追加するときにのみ、このページでテーブルを選択できます。 正しいテーブルが選択されていることを確認してから、 **[!UICONTROL Save]** ボタン：保存すると、テーブル選択フィールドが **読み取り専用**.
+>このページで選択できるのは、マッピングを最初に追加する際のみです。 「**[!UICONTROL Save]**」ボタンをクリックする前に、正しいテーブルを選択していることを確認します。保存すると、テーブル選択フィールドは **読み取り専用** になります。
 
-### 既存のマッピングの編集
+### 既存のマッピングを編集
 
-既存のマッピングを編集すると、テーブルの選択は編集できないことがわかります。
+既存のマッピングを編集すると、テーブルの選択が編集できないことがわかります。
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-ingress-table-read-only.png)
 
-ページの下の方の入力は、これらのテーブルに関連付けられたフィールドに基づいているので、これは設計によるものです。 テーブルを変更すると、これらのテーブルに関連付けられているすべてのフィールドが無効になります。  マッピング先のテーブルを変更する場合は、前のページに戻り、変更するマッピングを削除し、新しいマッピングを追加する必要があります。
+これは意図的なもので、ページの下部にある入力は、これらのテーブルに関連付けられたフィールドに基づくからです。 テーブルを変更すると、これらのテーブルに関連付けられているすべてのフィールドが無効になります。  マッピング先のテーブルを変更する場合は、前のページに戻り、変更するマッピングを削除して、新しいマッピングを追加する必要があります。
 
 ### 個々のテーブルマッピングの設定 {#new-mapping-settings}
 
-この節では、 **シングル** 1 つのMicrosoft Dynamics 365 テーブルの 1 つのAdobe Campaignテーブルへのマッピング。
+この節では、1 つのMicrosoft Dynamics 365 テーブルから 1 つのAdobe Campaign テーブルへの **シングル** マッピングを設定する方法について説明します。
 
 次の設定を定義できます。
 
-* **[!UICONTROL Tables]**：このセクションには、Microsoft Dynamics 365 テーブルの名前と、マッピング先の Campaign テーブルが一覧表示されます。
-* **[!UICONTROL Field Mappings]**：詳細は、を参照してください。 [この節](#field-mappings)
-* **[!UICONTROL Field Replacements]**：詳細は、を参照してください。 [この節](#field-replacements)
-* **[!UICONTROL Filters]**：詳細は、を参照してください。 [この節](#filters)
-* **[!UICONTROL Advanced Settings]**：詳細は、を参照してください。 [この節](#advanced-settings)
+* **[!UICONTROL Tables]**：このセクションには、Microsoft Dynamics 365 テーブルの名前と、そのマッピング先のキャンペーンテーブルが一覧表示されます。
+* **[!UICONTROL Field Mappings]**：詳しくは、[ この節 ](#field-mappings) を参照してください
+* **[!UICONTROL Field Replacements]**：詳しくは、[ この節 ](#field-replacements) を参照してください
+* **[!UICONTROL Filters]**：詳しくは、[ この節 ](#filters) を参照してください
+* **[!UICONTROL Advanced Settings]**：詳しくは、[ この節 ](#advanced-settings) を参照してください
 
 ### フィールドマッピング {#field-mappings}
 
 #### プライマリキー
 
-新しいMicrosoft Dynamics 365 を Campaign テーブルマッピングに追加する場合は、ID フィールドを識別する必要があります。
+新しいMicrosoft Dynamics 365 をキャンペーンテーブルマッピングに追加する場合、ID フィールドを特定する必要があります。
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-ingress-mappings-first-key.png)
 
-Microsoft Dynamics 365 プライマリキーは、アプリケーションが検出するので、読み取り専用です。
+アプリケーションによって検出されるので、Microsoft Dynamics 365 の主キーは読み取り専用です。
 
-Campaign の場合、一意のキーとなるフィールドを選択する必要があります。 これは、as a として設定する必要があります [CRM ID カスタムリソース](../../developing/using/uc-calling-resource-id-key.md) とは重複していない必要があります。
+Campaign の場合は、一意のキーにするフィールドを選択する必要があります。 [CRM ID カスタムリソース ](../../developing/using/uc-calling-resource-id-key.md) として設定する必要があり、重複がないようにする必要があります。
 
 >[!NOTE]
 >
->テーブルで ID フィールドを選択できるのは、 **[!UICONTROL Add New Mapping]**. 編集ボタンをクリックして既存のテーブルマッピングを編集した場合、ID フィールドは読み取り専用になります。
+>テーブルの ID フィールドは、**[!UICONTROL Add New Mapping]** を選択した場合にのみ選択できます。 「編集」ボタンをクリックして既存のテーブルマッピングを編集すると、「ID」フィールドは読み取り専用になります。
 
-プライマリキーは、常に **[!UICONTROL Field Mappings]** 」セクションに入力します。 右側に次のアイコンが表示され、これらが主キーであることを示します。
+プライマリキーは、常に「**[!UICONTROL Field Mappings]**」セクションにリストされる最初のフィールド名になります。 次のアイコンが右側に表示され、これがプライマリキーであることを示しています。
 
 ![](assets/do-not-localize/d365-to-acs-icon-primary-key.png)
 
-#### 他のフィールドマッピングを追加
+#### 他のフィールドマッピングの追加
 
-The **[!UICONTROL Field Mappings]** 「 」セクションでは、「キーのプライマリ」以外のフィールドマッピングを追加できます。 フィールドの新しいマッピングをMicrosoft Dynamics 365 からAdobe Campaignに追加するには、 **[!UICONTROL Add new field mapping]** 」ボタンをクリックします。
+**[!UICONTROL Field Mappings]** セクションでは、プライマリキー以外のフィールドマッピングを追加できます。 Microsoft Dynamics 365 からAdobe Campaignにフィールドの新しいマッピングを追加するには、「**[!UICONTROL Add new field mapping]**」ボタンをクリックします。
 
-リストの「 Microsoft Dynamics 365 」フィールドと「 Campaign 」フィールドを選択します。
+リストからMicrosoft Dynamics 365 およびキャンペーン フィールドを選択します。
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-ingress-new-field-mapping.png)
 
-これらのリストには、ページ上部で選択したMicrosoft Dynamics 365 および Campaign テーブルに関連付けられたフィールド名が含まれます。
+これらのリストには、ページ上部で選択したMicrosoft Dynamics 365 および Campaign テーブルに関連付けられているフィールド名が含まれています。
 
-The **[!UICONTROL Apply updates]** switcher を使用すると、このフィールドに対する更新をMicrosoft Dynamics 365 から Campaign に反映するかどうかを制御できます。
-* 電源が入っている場合 ![](assets/do-not-localize/d365-to-acs-icon-switch-on.png)の場合、Microsoft Dynamics 365 の値の更新は、更新がおこなわれるとAdobe Campaignに反映されます。
+**[!UICONTROL Apply updates]** スイッチャーを使用すると、このフィールドに対する更新をMicrosoft Dynamics 365 から Campaign に反映するかどうかを制御できます。
+* ![](assets/do-not-localize/d365-to-acs-icon-switch-on.png) をオンにすると、Microsoft Dynamics 365 の値に対する更新が、更新の際にAdobe Campaignに反映されます。
 
-* 電源を切った場合 ![](assets/do-not-localize/d365-to-acs-icon-switch-off.png)の値は、データが最初に読み込まれたとき（または再生されたとき）に反映されますが、Microsoft Dynamics 365 のフィールドに対する増分更新は反映されません。
+* ![](assets/do-not-localize/d365-to-acs-icon-switch-off.png) をオフにした場合、データが最初に読み込まれる（または再生される）ときに値が反映されますが、Microsoft Dynamics 365 のフィールドに対する増分更新は反映されません。
 
 >[!NOTE]
 >
->をクリックします。 **[!UICONTROL Apply updates]** 更新する列見出し **すべて** のスイッチをオンまたはオフにします。
+>**[!UICONTROL Apply updates]** 列の見出しをクリックして、スイッチの **すべて** をオンまたはオフに更新します。
 >
 
-フィールド値を選択すると、ドロップダウンメニューの下にデータタイプが表示されます。   これは、あるフィールドから別のフィールドに値をマッピングする際に注意すべき点です。
+フィールド値を選択すると、ドロップダウンメニューの下にデータタイプが表示されます。   これは、あるフィールドから別のフィールドに値をマッピングする際に留意すべきことです。
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-ingress-mappings-fields-selected.png)
 
 >[!NOTE]
 >
-> 複数のMicrosoft Dynamics 365 フィールドを 1 つの Campaign フィールドにマッピングすることはできません。
+> 複数のMicrosoft Dynamics 365 フィールドを 1 つのキャンペーンフィールドにマッピングすることはできません。
 
-### フィールド置換 {#field-replacements}
+### フィールドの置換 {#field-replacements}
 
-以下を使用します。 **[!UICONTROL Add New Field Replacement]** ボタンをクリックして、新しいフィールド置換を定義します。
+「**[!UICONTROL Add New Field Replacement]**」ボタンを使用して、新しいフィールド置換を定義します。
 
-フィールド置き換えでは、次の項目を識別できます。
+フィールド置換を使用すると、次の項目を識別できます。
 
-* Microsoft Dynamics 365 フィールド名（上記のフィールドマッピングセクションで追加された名前）
-* (Microsoft Dynamics 365 に存在する ) 既存の値
+* Microsoft Dynamics 365 フィールド名（「フィールドマッピング」セクションで上記に追加されたもの）
+* （Microsoft Dynamics 365 に存在する）既存の値
 * Adobe Campaignに書き込む新しい値
 
-選択リスト、列挙、ブール値のドロップダウンリストが表示されます。 テキストボックスは、他の文字列タイプや数値タイプに使用されます。
+選択リスト、列挙およびブール値用のドロップダウンリストが提供されます。 テキストボックスは、他の文字列タイプや数値タイプにも使用されます。
 
 ### フィルター {#filters}
 
-以下を使用します。 **[!UICONTROL Add New Filter]** ボタンをクリックして、Campaign に反映するMicrosoft Dynamics 365 レコードを選択します。 フィルターに追加するレコードに関連付けられている任意のフィールドを選択できます（フィールド名をフィールドマッピングに追加する必要はありません）。
+「**[!UICONTROL Add New Filter]**」ボタンを使用して、Campaign に生成するMicrosoft Dynamics 365 レコードを選択します。 フィルターに追加するレコードに関連付けられた任意のフィールドを選択できます（フィールド名をフィールドマッピングに追加する必要はありません）。
 
-次の情報を入力して、フィルターを指定します。
+フィルターを指定するには、次の情報を入力します。
 
 * Microsoft Dynamics 365 フィールド名
 * 比較値、および
-* 値 (Microsoft Dynamics 365 の値 ) フィールド名、比較および値が特定のレコードに対して true と評価される場合、レコードはAdobe Campaignに反映されます。
+* 値（Microsoft Dynamics 365 から）
+特定のレコードに対してフィールド名、比較および値が true と評価された場合、レコードはAdobe Campaignに反映されます。
 
-これらのフィルターの評価方法は、「 **[!UICONTROL Choose the filter comparison operator]**.  次を選択した場合： **および**&#x200B;レコードを Campaign に反映させるには、すべてのフィルターが true である必要があります。 次を選択した場合： **または**&#x200B;を指定した場合、いずれかのレコードが true と評価された場合は、レコードが伝播されます。
+**[!UICONTROL Choose the filter comparison operator]** というラベルの付いた入力を設定することで、これらのフィルターの評価方法を選択できます。  **And** を選択した場合、レコードが Campaign に反映されるためには、すべてのフィルターが true である必要があります。 **Or** を選択すると、いずれかの値が true と評価された場合にレコードが反映されます。
 
-オプション **[!UICONTROL Do you want to delete records in Adobe Campaign Standard that will be filtered out from Microsoft Dynamics 365?]** は、除外したレコードを Campaign から削除するかどうかを制御します。 次を選択した場合、 **いいえ** その後、レコードはAdobe Campaignに残ります。 選択 **はい** を追加して、統合ロジックで削除する必要があります。
+**[!UICONTROL Do you want to delete records in Adobe Campaign Standard that will be filtered out from Microsoft Dynamics 365?]** のオプションは、除外されたレコードを Campaign から削除するかどうかを制御します。 「**いいえ** を選択した場合、レコードはAdobe Campaignに残ります。 「**はい**」を選択して、統合ロジックで削除されるようにします。
 
 >[!NOTE]
 >
@@ -181,50 +182,50 @@ The **[!UICONTROL Apply updates]** switcher を使用すると、このフィー
 
 ### 詳細設定 {#advanced-settings}
 
-マッピングを設定する際に、次の追加オプションを設定できます。
+マッピングを設定する際には、次の追加オプションを設定できます。
 
-* を設定します。 **[!UICONTROL Apply deletes in Microsoft Dynamics 365 to Campaign?]** 選択肢 **はい** Microsoft Dynamics 365 で発生した削除をAdobe Campaignの対応するフィールド（フィールド名のマッピングに基づく）に反映する場合は、を選択します。 選択 **いいえ** をクリックして、Microsoft Dynamics 365 の削除を無視します。
+* Microsoft Dynamics 365 で発生した削除を、（フィールド名マッピングに基づいて **Adobe Campaignの対応するフィールドに反映させる場合は、「**[!UICONTROL Apply deletes in Microsoft Dynamics 365 to Campaign?]**」オプションを「** はい」に設定します。 Microsoft Dynamics 365 の削除を無視する場合は、「**いいえ**」を選択します。
 
-* を設定します。 **[!UICONTROL Use technical values in Microsoft Dynamics 365 picklists?]** 選択肢 **いいえ** キャンペーンに反映する場合は、Microsoft Dynamics 365 ピックリストに関連付けられた表示値を使用します。 選択 **はい** 技術的な値を反映します。
+* Microsoft Dynamics 365 の選択リストに関連付けられた表示値を Campaign に反映する場合は、「**[!UICONTROL Use technical values in Microsoft Dynamics 365 picklists?]**」オプションを「**いいえ**」に設定します。 **はい** を選択して、テクニカル値を反映させます。
 
-## Campaign マーケティングイベントをMicrosoft Dynamics 365 に同期
+## Campaign マーケティングイベントのMicrosoft Dynamics 365 への同期
 
-The **[!UICONTROL Campaign to Microsoft Dynamics 365]** ページでは、Adobe CampaignからMicrosoft Dynamics 365 にマッピングされる電子メールマーケティングイベントを識別できます。
+**[!UICONTROL Campaign to Microsoft Dynamics 365]** ページでは、Adobe CampaignからMicrosoft Dynamics 365 にマッピングするメールマーケティングイベントを指定できます。
 
-制御できる 4 つの指標は次のとおりです。 **送信数**, **クリック数**, **開封数**、および **バウンス**.
+制御できる 4 つの指標は、**送信数**、**クリック数**、**開封数**、**バウンス数** です。
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-egress.png)
 
-選択 **はい** をクリックして、そのタイプのイベントをMicrosoft Dynamics 365 に送信することを確認します。
+**はい** を選択して、そのタイプのイベントをMicrosoft Dynamics 365 に送ることを確認します。
 
-クリック [ここ](../../integrating/using/d365-acs-self-service-app-workflows.md) を参照してください。
+これらのメールイベントフローについて詳しくは、[ ここ ](../../integrating/using/d365-acs-self-service-app-workflows.md) をクリックしてください。
 
 ## オプトイン/オプトアウトワークフロー {#opt-in-out-wf}
 
-The **オプトイン/オプトアウト** ワークフローを使用すると、Microsoft Dynamics 365 とAdobe Campaignの間のオプトイン/オプトアウト情報のフローを識別できます。 ここでは、データがMicrosoft Dynamics 365 エンティティの「連絡先」とAdobe Campaignリソースの「プロファイル」に関連付けられていることを前提としています。
+**オプトイン/オプトアウト** ワークフローを使用すると、Microsoft Dynamics 365 とAdobe Campaignの間のオプトイン/オプトアウト情報のフローを特定できます。 この場合、データがMicrosoft Dynamics 365 エンティティ「連絡先」およびAdobe Campaign リソース「プロファイル」に関連付けられていることを前提としています。
 
-でのオプトアウト管理の詳細を説明します。 [この節](../../integrating/using/d365-acs-notices-and-recommendations.md#opt-out).
+オプトアウト管理の詳細については、[ この節 ](../../integrating/using/d365-acs-notices-and-recommendations.md#opt-out) を参照してください。
 
-「保存」をクリックして選択内容を保存する必要があることに注意してください。 また、 **Campaign からMicrosoft Dynamics 365** ワークフローを開き、「再生」をクリックして、変更を組み込みます。
+選択内容を保存するには、「保存」をクリックする必要があります。 また、**Microsoft Dynamics 365 にキャンペーン** ワークフローを停止したあと、「再生」をクリックして統合の変更内容を取り込む必要があります。
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-optinout-disabled.png)
 
 ### オプトイン/オプトアウトの同期方向
 
-次に、データを同期するために使用可能なオプションのリストを示します。
+データの同期に使用できるオプションのリストを以下に示します。
 
-* **[!UICONTROL Disabled]**：このオプションを選択した場合、Adobe CampaignとMicrosoft Dynamics 365 の間をオプトイン/オプトアウト情報が移動しません。
+* **[!UICONTROL Disabled]**：このオプションを選択すると、Adobe CampaignとMicrosoft Dynamics 365 の間でオプトイン/オプトアウトに関する情報が移動しません。
 
-* **[!UICONTROL Unidirectional (Microsoft Dynamics 365 to Campaign)]**：このオプションは、オプトイン/オプトアウトをMicrosoft Dynamics 365 からAdobe Campaignにのみ送る場合に使用します。 統合アプリケーションでは、この画面でフローを設定することはできません。代わりに、 **[!UICONTROL Save button]**&#x200B;をクリックし、 **[!UICONTROL Microsoft Dynamics 365 to Campaign]** ワークフロー。 このワークフローでは、連絡先/プロファイルテーブルのマッピングを編集して、オプトイン/オプトアウトフィールドのマッピング方法を指定できます。
+* **[!UICONTROL Unidirectional (Microsoft Dynamics 365 to Campaign)]**：このオプションは、Microsoft Dynamics 365 からAdobe Campaignのみにオプトイン/オプトアウトするために使用されます。 統合アプリケーションでは、この画面でフローを設定することはできません。代わりに、**[!UICONTROL Save button]** をクリックして、**[!UICONTROL Microsoft Dynamics 365 to Campaign]** ワークフローに移動します。 このワークフローでは、連絡先/プロファイルテーブルのマッピングを編集して、オプトイン/オプトアウトフィールドのマッピング方法を特定できます。
 
-* **[!UICONTROL Unidirectional (Campaign to Microsoft Dynamics 365)]**：このオプションを選択すると、が表示されます。 **マッピング** 」セクションに入力します。 これらの入力により、Microsoft Dynamics 365 のどのフィールドにデータをマッピングするかをAdobe Campaignフィールドで定義できます。 つまり、Microsoft Dynamics 365 の値を手動で更新した場合、変更された場合にその値がAdobe Campaign値で上書きされます。
+* **[!UICONTROL Unidirectional (Campaign to Microsoft Dynamics 365)]**：このオプションを選択すると、「**マッピング** セクションが表示されます。 これらの入力を使用すると、Microsoft Dynamics 365 のフィールドにデータをマッピングするAdobe Campaign フィールドを定義できます。 つまり、Microsoft Dynamics 365 で値を手動で更新した場合、その値が変わると、Adobe Campaignの値で上書きされます。
 
-* **[!UICONTROL Bidirectional]**：このオプションを選択すると、が表示されます。 **マッピング** 」セクションに入力します。 これらのペアは、Microsoft Dynamics 365 とAdobe Campaignのどのフィールドが互いにマッピングされるかを識別します。 [詳細情報](../../integrating/using/d365-acs-notices-and-recommendations.md)。
+* **[!UICONTROL Bidirectional]**：このオプションを選択すると、「**マッピング** セクションが表示されます。 これらのペアは、Microsoft Dynamics 365 とAdobe Campaignのどのフィールドを相互にマッピングするかを識別します。 [詳細情報](../../integrating/using/d365-acs-notices-and-recommendations.md)。
 
 ### マッピング
 
-この節は、「オプトイン/オプトアウト同期の方向」フィールドが **[!UICONTROL Unidirectional (Campaign to Microsoft Dynamics 365)]** または **[!UICONTROL Bidirectional]**. Microsoft Dynamics 365 で、どのフィールドをAdobe Campaignの入力にマッピングするかを定義できます。
+この節は、「オプトイン/オプトアウト同期方向」フィールドが「**[!UICONTROL Unidirectional (Campaign to Microsoft Dynamics 365)]**」または「**[!UICONTROL Bidirectional]**」に設定されている場合にのみ適用されます。 Adobe Campaignの入力にマッピングするMicrosoft Dynamics 365 のフィールドを定義できます。
 
-Microsoft Dynamics 365 のフィールド名には、タイプのすべてのフィールド名が含まれます **ブール型**.
+Microsoft Dynamics 365 のフィールド名には、タイプ **ブール値** のすべてのフィールド名が含まれています。
 
-Adobe Campaignのフィールド名は、オプトイン/オプトアウトに固有の一連の値です。 Adobe Campaignのフィールド名は、オプトイン/オプトアウトに固有の一連の値です。 **このリストの値のセットは変更できません**.
+Adobe Campaign フィールド名は、オプトイン/オプトアウトに固有の固定の値セットです。 Adobe Campaign フィールド名は、オプトイン/オプトアウトに固有の固定の値セットです。 **このリストの値セットは変更できません**。

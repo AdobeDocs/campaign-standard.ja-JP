@@ -26,7 +26,7 @@ Google は、この問題の原因となった Gmail の機能停止とサービ
 >[このページ](https://www.google.com/appsstatus#hl=ja&amp;v=status)で Google Workspace ステータスダッシュボードを確認できます。
 
 
-Adobe Campaignは、標準のバウンス処理ロジックに従って、これらの受信者を強制隔離リストに自動的に追加し、 **[!UICONTROL Status]** の設定 **[!UICONTROL Quarantine]**. これを修正するには、Campaign で強制隔離テーブルを更新し、それらの受信者を検索および削除するか、強制隔離テーブルを変更する必要があります **[!UICONTROL Status]** から **[!UICONTROL Valid]** そのため、毎晩のクリーンアップワークフローによって削除されます。
+標準のバウンス処理ロジックに従って、Adobe Campaignは、これらの受信者を **[!UICONTROL Quarantine]** の **[!UICONTROL Status]** 設定で強制隔離リストに自動的に追加しました。 これを修正するには、これらの受信者を検索して削除するか、毎晩のクリーンアップワークフローで受信者を削除するように **[!UICONTROL Status]** を **[!UICONTROL Valid]** に変更して、Campaign で強制隔離テーブルを更新する必要があります。
 
 この Gmail の問題の影響を受けた受信者を特定する場合や、他の ISP で同じ状況が発生した場合は、以下の手順を参照してください。
 
@@ -40,13 +40,13 @@ Adobe Campaignは、標準のバウンス処理ロジックに従って、これ
 >
 >これらの日時は、米国東部標準時（EST）に基づいています。 お使いのインスタンスのタイムゾーンに合わせて調整してください。
 
-SMTP バウンス応答情報が **[!UICONTROL Error text]** 強制隔離リストのフィールド：
+強制隔離リストの「**[!UICONTROL Error text]**」フィールドに SMTP バウンス応答情報が含まれている Campaign インスタンスの場合：
 
 * **エラーテキスト（強制隔離テキスト）**&#x200B;に「550-5.1.1 The email account that you tried does not exist」が含まれ、かつ、**エラーテキスト（強制隔離テキスト）**&#x200B;に「support.google.com」が含まれる**
-* **ステータスを更新 (@lastModified)** 12/14/2020 6 以降:55:午前 00 時
-* **ステータスを更新 (@lastModified)** 12/16/2020 6 以前:00:午前 00 時
+* **更新ステータス（@lastModified）** が 2020 年 12 月 14 日午前 6:55:00 以降
+* **更新ステータス（@lastModified）** が 2020 年 12 月 16 日午前 6:00:00 以前
 
-影響を受ける受信者のリストが用意できたら、ステータスを「 **[!UICONTROL Valid]** したがって、これらは、 **[!UICONTROL Database cleanup]** ワークフローを作成するか、単にテーブルから削除します。
+影響を受ける受信者のリストを受信したら、リストのステータスを **[!UICONTROL Valid]** に設定して、**[!UICONTROL Database cleanup]** ワークフローで強制隔離リストから削除されるようにするか、テーブルから削除します。
 
 **関連トピック：**
 * [配信エラーについて](../../sending/using/understanding-delivery-failures.md)

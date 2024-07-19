@@ -1,6 +1,6 @@
 ---
 title: Campaign と Analytics の統合の設定
-description: Adobe Analytics統合を設定して、E メール配信の成功の測定を開始する方法について説明します。
+description: メール配信の成功の測定を開始するためにAdobe Analytics統合を設定する方法について説明します。
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics
@@ -17,38 +17,38 @@ ht-degree: 7%
 
 # Campaign と Analytics の統合の設定{#configure-campaign-analytics-integration}
 
-この統合により、主要業績評価指標のデータをAdobe CampaignからAdobe Analytics Standardまたは Premium に直接共有できます。
+この統合により、主要業績評価指標データをAdobe CampaignからAdobe Analytics Standardまたは Premium に直接共有できます。
 
-Adobe Campaign StandardとAdobe Analyticsの統合を開始するには、まずAdobe Analyticsにリンクされた外部アカウントを設定する必要があります。
+Adobe Campaign StandardとAdobe Analyticsの統合を開始するには、まず、Adobe Analyticsにリンクされた外部アカウントを設定する必要があります。
 
 外部アカウントとテクニカルワークフローは、プラットフォームの機能管理者のみが管理できます。
 
-1. 詳細設定メニューのAdobe Campaignロゴから、を選択します。 **[!UICONTROL Administration > Application settings > External accounts]**.
-1. を選択します。 **[!UICONTROL Share KPIs with Adobe Analytics]** 外部アカウント。
+1. Adobe Campaign ロゴを使用して、詳細メニューから「**[!UICONTROL Administration > Application settings > External accounts]**」を選択します。
+1. **[!UICONTROL Share KPIs with Adobe Analytics]** 外部アカウントを選択します。
 
    ![](assets/analytics_2.png)
 
-1. 次の項目を指定： **[!UICONTROL Web services user name]** および **[!UICONTROL Web services share secret]** （内） **[!UICONTROL Connection]** フィールドに入力します。
+1. **[!UICONTROL Connection]** フィールドに **[!UICONTROL Web services user name]** と **[!UICONTROL Web services share secret]** を指定します。
 
-   これらのパラメーターは、Analytics で **[!UICONTROL Admin > Company settings > Web services]**.
+   これらのパラメーターは、**[!UICONTROL Admin > Company settings > Web services]** を選択すると Analytics で見つかります。
 
    ![](assets/analytics_1.png)
 
 1. 「**[!UICONTROL Refresh report suites]**」ボタンをクリックします。
-1. を選択します。 **[!UICONTROL Analytics default report suite]** Adobe CampaignデータのエンリッチメントをおこなうAdobe Analyticsレポートスイートのドロップダウン。
+1. **[!UICONTROL Analytics default report suite]** ドロップダウンで、Adobe Campaign データをエンリッチメントするAdobe Analytics レポートスイートを選択します。
 
-   これで、外部アカウントが準備でき、Adobe Analyticsにリンクされました。 この機能は、 **[!UICONTROL Enabled]** ボックス。
+   これで外部アカウントの準備が整い、Adobe Analyticsとリンクされました。 **[!UICONTROL Enabled]** のチェックボックスをオンにすると、いつでも無効にすることができます。
 
    ![](assets/analytics.png)
 
-The **[!UICONTROL Share KPIs with Adobe Analytics]** テクニカルワークフローが自動的に起動し、詳細設定メニューから「 **[!UICONTROL Administration > Application settings > Workflow]**. このテクニカルワークフローは、6 か月前までの broadlog を保持できます。 このワークフローは増分処理であり、前日のデータをプッシュします。
+**[!UICONTROL Share KPIs with Adobe Analytics]** テクニカルワークフローが自動的に起動し、「**[!UICONTROL Administration > Application settings > Workflow]**」を選択して、詳細メニューから表示できるようになりました。 このテクニカルワークフローでは、最大 6 か月前の broadlog を保持できます。 このワークフローは増分処理であり、前日のデータがプッシュされます。
 
 ![](assets/analytics_3.png)
 
-これで、データがAdobe Analyticsで使用できるようになりました。
+これで、データをAdobe Analyticsで使用できるようになります。
 
 **関連トピック：**
 
 * [外部アカウント](../../administration/using/external-accounts.md)
 * [テクニカルワークフロー](../../administration/using/technical-workflows.md)
-* [統合キャンペーンレポートの KPI を共有](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html) ビデオ
+* [ 統合キャンペーンレポート用の KPI の共有 ](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html) ビデオ

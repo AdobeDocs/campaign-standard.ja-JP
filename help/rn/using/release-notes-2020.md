@@ -69,7 +69,7 @@ ht-degree: 97%
 <tbody> 
 <tr> 
   <td> <p>Adobe Campaign Standard では、「ジャーニー AI」と呼ばれる機能が新たに導入されました。</p>
-  <p>ジャーニーAI は高度な機械学習 (ML) を使用して、各ユーザーのエンゲージメントの傾向を予測し、カスタマージャーニーの設計と配信を最適化します。</p>
+  <p>ジャーニーAI は、高度な機械学習（ML）を使用して、企業が各個人のエンゲージメントの好みを予測することで、カスタマージャーニーの設計と配信を最適化できるようにします。</p>
   <P>ジャーニー AI は、次の 2 つの ML 機能で構成されています。</p>
 <ul> 
      <li> <strong>予測エンゲージメントスコアリング</strong> - メッセージのターゲティングとパーソナライゼーションを強化し、コンバージョンとリテンションを向上させるために、顧客が望むエンゲージメントレベルをインテリジェントに識別します。<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-engagement-scoring.html">ビデオガイド、チュートリアル</a>をご覧ください。</li> 
@@ -236,7 +236,7 @@ ht-degree: 97%
 **その他の機能**（7 月 13 日より開始）
 
 * **AI を利用した送信時間の最適化とプロファイルスコアリング** - カスタマージャーニーの設計と配信を最適化して、各ユーザーのエンゲージメントの傾向を予測できるようになりました。Adobe Campaign は、ジャーニー AI を活用して、過去のエンゲージメント指標に基づいて開封率や最適な送信時間、顧客離れの可能性を分析および予測できます。[詳細情報](../../sending/using/predictive.md)
-* **ブラジルの新しいプライバシー規則** - Campaign で既に利用可能なプライバシー機能に加えて、Adobeは、ブラジルの Lei Geral de Proteçao de Datos(LGPD) に対する準備を容易にします。 プライバシーリクエストを作成する際に、LGPD 規制が Adobe Privacy コアサービスに追加されました。[詳細情報](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy-overview.html)
+* **ブラジルの新しいプライバシー規制** - Campaign で既に利用可能なプライバシー機能に加えて、Adobeは、ブラジルの Lei Geral de Proteçao de Datos （LGPD）への対応を容易にするのに役立ちます。 プライバシーリクエストを作成する際に、LGPD 規制が Adobe Privacy コアサービスに追加されました。[詳細情報](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy-overview.html)
 
 **強化点**
 
@@ -267,7 +267,7 @@ ht-degree: 97%
 
 **Experience Platform との統合**
 
-* からのAdobe Experience Platform Audiences のアクティブ化 **オーディエンスの閲覧** アクティビティが改善され、パフォーマンスと安定性が向上しました。 さらに、アクティベーションジョブに関するワークフローログがより明確で詳細になり、Adobe Experience Platform オーディエンスを閲覧する際の監視とトラブルシューティングが容易になりました。
+* **オーディエンスを読み取り** アクティビティからのAdobe Experience Platform オーディエンスのアクティベーションが改善され、パフォーマンスと安定性が向上しました。 さらに、アクティベーションジョブに関するワークフローログがより明確で詳細になり、Adobe Experience Platform オーディエンスを閲覧する際の監視とトラブルシューティングが容易になりました。
 
 **パッチ**
 
@@ -360,7 +360,7 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->Campaign Standard の Adobe Experience Platform 機能は現在ベータ版であるため、予告なしに頻繁にアップデートされる場合があります。詳細なドキュメント (Experience Platformデータコネクタ、Audience Destinations) を参照してください。
+>Campaign Standard の Adobe Experience Platform 機能は現在ベータ版であるため、予告なしに頻繁にアップデートされる場合があります。詳しくは、Experience Platformデータコネクタ、オーディエンスの宛先のドキュメントを参照してください。
 
 * ワークフローログで、現在実行中のジョブで既に処理されたレコードの件数が 10 分ごとに Campaign に表示されるようになりました。
 * データベースから削除された Adobe Experience Platform プロファイルをインポートするときに生じる可能性のある問題を修正しました。
@@ -407,7 +407,7 @@ ht-degree: 97%
  <tbody> 
   <tr> 
    <td> <p>Adobe Experience Platform Data Connector が Adobe Campaign Standard に統合されるようになりました。XTK データ（Campaign でインジェストされたデータ）を Adobe Experience Platform Data Model（XDM）にマッピングすることにより、Campaign のデータを Adobe Experience Platform で利用できるようになります。 </p>
-    <p>この機能は、Azure でホストされているお客様のみが利用できることに注意してください。</p>
+    <p>この機能は、Azure でホストされているお客様のみが使用できます。</p>
    </td> 
   </tr> 
  </tbody> 
@@ -422,7 +422,7 @@ ht-degree: 97%
  <tbody> 
   <tr> 
    <td> <p>Audience Destinations を使用することにより、Adobe Experience Platform のセグメントを Adobe Campaign で共有できるようになります。</p>
-    <p>この機能は、Azure でホストされているお客様のみが利用できることに注意してください。</p>
+    <p>この機能は、Azure でホストされているお客様のみが使用できます。</p>
    </td> 
   </tr> 
  </tbody> 

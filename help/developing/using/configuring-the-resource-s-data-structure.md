@@ -277,7 +277,7 @@ ht-degree: 98%
 
 変更内容が保存されます。変更内容を適用するには、リソースを再度、公開する必要があります。
 
-## プロファイルおよびカスタムリソースに対する一意の ID の生成 {#generating-a-unique-id-for-profiles-and-custom-resources}
+## プロファイルとカスタムリソースの一意の ID の生成 {#generating-a-unique-id-for-profiles-and-custom-resources}
 
 デフォルトでは、プロファイルおよびカスタムリソースの作成時に、ビジネス ID は付与されていません。要素の作成時に、自動的に一意の ID を生成するオプションを有効にすることができます。この ID は、次の目的で使用できます。
 

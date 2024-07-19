@@ -1,6 +1,6 @@
 ---
 title: メタデータのメカニズム
-description: メタデータメカニズムの詳細を説明します。
+description: 詳しくは、メタデータメカニズムを参照してください。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -17,24 +17,24 @@ ht-degree: 1%
 
 # メタデータのメカニズム {#metadata-mechanism}
 
-リソースメタデータは、 **resourceType** GETリクエスト：
+データリクエストで **resourceType** を使用して、リソースのメタGETを取得できます。
 
 `GET /profileAndServices/resourceType/<resourceName>`
 
-応答は、リソースからメインメタデータを返します（その他のフィールドはすべて、説明的または内部的です）。
+応答は、リソースからメインメタデータを返します（他のすべてのフィールドは説明的または内部的です）。
 
-* The **コンテンツ** ノードは、リソースのフィールドを返します。 次の項目に対して： **コンテンツ** ノードにある場合、次のフィールドを確認できます。
+* **コンテンツ** ノードは、リソースのフィールドを返します。 **content** ノードの各フィールドには、次のフィールドがあります。
 
-   * &quot;apiName&quot;:API で使用される属性の名前。
-   * &quot;type&quot;：これは、大まかなタイプ定義（文字列、数値、リンク、コレクション、列挙など）です。
-   * 「dataPolicy」：フィールドの値は、指定されたポリシールールに従う必要があります。 例えば、dataPolicy ルールが「email」に設定されている場合、値は有効な電子メールである必要があります。 PATCH中またはPOST中に、dataPolicy は値を確認したり、変換する値を変更したりできます（smartCase など）。
-   * &quot;category&quot;：クエリエディターで、フィールドのカテゴリを指定します。
+   * 「apiName」:API で使用される属性の名前。
+   * 「type」：これは、高レベルのタイプ定義（文字列、数値、リンク、コレクション、列挙など）です。
+   * 「dataPolicy」：フィールドの値は、指定されたポリシールールに従う必要があります。 例えば、dataPolicy ルールが「email」に設定されている場合、値は有効なメールである必要があります。 dataPolicy は、PATCHまたはPOST中に値を確認したり、変換する値を変更したりできます（smartCase など）。
+   * 「カテゴリ」：クエリエディターのフィールドのカテゴリを示します。
    * &quot;resType&quot;：これは技術的なタイプです。
 
-     「type」に「link」または「collection」という値を指定して設定した場合、resTarget の値はリンクのターゲットとなるリソースの名前になります。
-「タイプ」が値「enumeration」で完了する場合、「値」フィールドが追加され、各列挙値の詳細が **値** ノード。
+     「type」の値が「link」または「collection」で完了した場合、resTarget の値は、リンクのターゲットとなるリソースの名前になります。
+「type」に値「enumeration」が入力されている場合は、「values」フィールドが追加され、各列挙値について **values** ノードに詳しく記載されます。
 
-* The **フィルター** ノードは、関連するフィルターを取得する URL を返します。 フィルターについて詳しくは、 [この節](../../api/using/filtering.md) 」セクションに入力します。
+* **Filters** ノードは、関連するフィルターを取得する URL を返します。 フィルターについて詳しくは、[ この節 ](../../api/using/filtering.md) を参照してください。
 
 <!-- créer une section au même niveau sur les liens -->
 <!-- dans l'exemple: birthdate, email +  mettre 2 liens : un de type 1-1 , 1-N
@@ -55,7 +55,7 @@ si on prend l'exemple de l'org unit, on aura un bon exemple lien -->
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-プロファイルリソースの完全な説明が返されます。
+プロファイルリソースの完全な説明を返します。
 
 ```
 {

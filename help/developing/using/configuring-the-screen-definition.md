@@ -28,7 +28,7 @@ ht-degree: 96%
 * リソースを構成する要素のリストを表示する形式をパーソナライズする
 * リソースの各要素の詳細ビューを表示する形式を定義する
 
-## ナビゲーションメニューからアクセスを有効にする {#enabling-access-from-the-navigation-menu}
+## ナビゲーションメニューからのアクセスの有効化 {#enabling-access-from-the-navigation-menu}
 
 リソースに専用の画面を割り当てる必要がある場合、ナビゲーションメニューからアクセス可能にできます。
 
@@ -61,7 +61,7 @@ ht-degree: 96%
 
 これでリソースの概要画面が定義されました。
 
-## 詳細画面の設定を定義する {#defining-the-detail-screen-configuration}
+## 詳細画面の設定の定義 {#defining-the-detail-screen-configuration}
 
 画面定義の「**[!UICONTROL Detail screen configuration]**」セクションでは、リソースの各要素に対する詳細画面に表示する列と情報を定義することができます。
 
@@ -88,7 +88,7 @@ ht-degree: 96%
 
 これでリソースの詳細画面が設定されました。
 
-## 「データへのアクション」セクション {#actions-on-data-section}
+## データセクションに対するアクション {#actions-on-data-section}
 
 以下の設定により、カスタムリソース画面にコントロールバーを表示できます。次の 3 つのオプションを使用できます。
 

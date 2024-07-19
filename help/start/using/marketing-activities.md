@@ -43,8 +43,8 @@ ht-degree: 79%
 メインゾーンでは、リスト内のアクティビティの各タイプにアイコンが表示されます。
 
 * ![](assets/marketing_program_icon.png) プログラム
-* ![](assets/marketing_campaign_icon.png) Campaign
-* ![](assets/marketing_email_icon.png) 電子メール
+* ![](assets/marketing_campaign_icon.png) キャンペーン
+* ![](assets/marketing_email_icon.png) Email
 * ![](assets/marketing_sms_icon.png) SMS
 * ![](assets/marketing_push_icon.png) プッシュ通知
 * ![](assets/marketing_lp_icon.png) アプリ内メッセージ
@@ -81,15 +81,15 @@ ht-degree: 79%
 
 コンテキストに応じて、以下をおこなうことができます。
 
-* E メールの作成 — [詳細情報](../../channels/using/creating-an-email.md)
-* SMS の作成 — [詳細情報](../../channels/using/creating-an-sms-message.md)
-* プッシュ通知の作成 — [詳細情報](../../channels/using/preparing-and-sending-a-push-notification.md)
-* アプリ内メッセージの作成 — [詳細情報](../../channels/using/about-in-app-messaging.md)
-* ワークフローの作成 — [詳細情報](../../automating/using/building-a-workflow.md#creating-a-workflow)
-* ランディングページの作成 — [詳細情報](../../channels/using/getting-started-with-landing-pages.md)
-* キャンペーンの作成 — [詳細情報](../../start/using/programs-and-campaigns.md#creating-a-campaign)
-* プログラムの作成 — [詳細情報](../../start/using/programs-and-campaigns.md#creating-a-program)
+* メールの作成 – [ 詳細情報 ](../../channels/using/creating-an-email.md)
+* SMS の作成 – [ 詳細情報 ](../../channels/using/creating-an-sms-message.md)
+* プッシュ通知の作成 – [ 詳細情報 ](../../channels/using/preparing-and-sending-a-push-notification.md)
+* アプリ内メッセージの作成 – [ 詳細情報 ](../../channels/using/about-in-app-messaging.md)
+* ワークフローの作成 – [ 詳細情報 ](../../automating/using/building-a-workflow.md#creating-a-workflow)
+* ランディングページの作成 – [ 詳細情報 ](../../channels/using/getting-started-with-landing-pages.md)
+* キャンペーンの作成 – [ 詳細情報 ](../../start/using/programs-and-campaigns.md#creating-a-campaign)
+* プログラムの作成 – [ 詳細情報 ](../../start/using/programs-and-campaigns.md#creating-a-program)
 
 >[!NOTE]
 >
->また、マーケティングアクティビティリストからマーケティングアクティビティを作成することもできます。この場合、任意のタイプのアクティビティを作成し、アクティビティのプロパティを使用して、マーケティングアクティビティを親キャンペーン（またはプログラムを作成した場合は親プログラム）にリンクすることができます。
+>また、マーケティングアクティビティリストからマーケティングアクティビティを作成することもできます。この場合、任意のタイプのアクティビティを作成し、そのプロパティを使用して、マーケティングアクティビティを親キャンペーン（またはプログラムを作成する場合は親プログラム）にリンクすることを選択できます。

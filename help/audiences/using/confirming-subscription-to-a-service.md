@@ -17,7 +17,7 @@ ht-degree: 85%
 
 # サービスの購読の確認{#confirming-subscription-to-a-service}
 
-## 購読確認の送信について {#sending-subscription-confirmation}
+## 購読の確認の送信について {#sending-subscription-confirmation}
 
 この節では、特定のサービスを購読しているプロファイルに、自動カスタム確認メールを送信する方法について説明します。
 
@@ -39,7 +39,7 @@ ht-degree: 85%
 
 サービスから設定する場合、確認トランザクションメッセージは、各訪問者が初めてそのサービスを購読したときにのみ送信されます。プロファイルが既に購読されている場合、そのプロファイルに確認メッセージは再送信されません。
 
-### 手順 1：確認 E メールの作成 {#step-1--create-the-confirmation-email-1}
+### 手順 1：確認メールの作成 {#step-1--create-the-confirmation-email-1}
 
 ニュースレターを（ランディングページなどの方法で）購読した各プロファイルに、確認のメールが自動的に送信されます。このサブスクリプションはイベントと見なされます。また、このメールはサービスを購読した各プロファイルを対象とする[トランザクションメッセージ](../../channels/using/getting-started-with-transactional-msg.md)です。
 
@@ -52,7 +52,7 @@ ht-degree: 85%
 1. イベントを作成するには、Adobe Campaign のロゴから **[!UICONTROL Marketing plans]**／**[!UICONTROL Transactional messages]**／**[!UICONTROL Event configuration]** メニューにアクセスします。
 1. ラベルを入力し、ターゲティングディメンションを選択して「**[!UICONTROL Create]**」をクリックします。
 
-   設定手順については、 [トランザクションイベントの設定](../../channels/using/configuring-transactional-event.md) 」セクションに入力します。
+   設定手順については、[ トランザクションイベントの設定 ](../../channels/using/configuring-transactional-event.md) を参照してください。
 
 1. 「**[!UICONTROL Fields]**」セクションで、紐付けを有効にするために、「**[!UICONTROL Create element]**」をクリックして **[!UICONTROL publicLabel]** をデータ構造に追加します。
 
@@ -85,19 +85,19 @@ ht-degree: 85%
 1. Adobe Campaign のロゴから **[!UICONTROL Marketing plans]**／**[!UICONTROL Transactional messages]** を選択し、「**[!UICONTROL Transactional messages]**」をクリックします。
 1. 先ほど公開したイベントに対応するトランザクションメールを選択します。
 
-1. 「**[!UICONTROL Content]**」セクションをクリックし、メールテンプレートを選択します。トランザクションメッセージコンテンツの編集について詳しくは、 [トランザクションメッセージの編集](../../channels/using/editing-transactional-message.md).
+1. 「**[!UICONTROL Content]**」セクションをクリックし、メールテンプレートを選択します。トランザクションメッセージコンテンツの編集について詳しくは、[ トランザクションメッセージの編集 ](../../channels/using/editing-transactional-message.md) を参照してください。
 1. **[!UICONTROL Service]** リソースのすべてのフィールドに直接アクセスできるので、**[!UICONTROL Context]**／**[!UICONTROL Real-time event (rtEvent)]**／**[!UICONTROL Event context (ctx)]**／「**[!UICONTROL Service]**」ノードから任意のフィールドを選択して、コンンツをパーソナライズできます。
 
    ![](assets/confirmation_personalization-service.png)
 
    トランザクションメッセージのパーソナライズについて詳しくは、[この節](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message)を参照してください。
 
-1. テストプロファイルを使用してプレビューします。詳しくは、 [特定のテストプロファイルの定義](../../channels/using/testing-transactional-message.md#defining-specific-test-profile).
+1. テストプロファイルを使用してプレビューします。詳しくは、[ 特定のテストプロファイルの定義 ](../../channels/using/testing-transactional-message.md#defining-specific-test-profile) を参照してください。
 
 1. 「**[!UICONTROL Save & close]**」をクリックして、コンテンツを保存します。
 1. トランザクションメッセージを公開します。[トランザクションメッセージの公開](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)を参照してください。
 
-### 手順 2：サービスの作成と設定 {#step-2--create-and-configure-the-service-1}
+### 手順 2：サービスを作成および設定する {#step-2--create-and-configure-the-service-1}
 
 1. Adobe Campaign のロゴから、詳細メニューの **Profiles &amp; audiences**／**Services** にアクセスしてサービスを作成します。
 1. サービスダッシュボードの ![](assets/edit_darkgrey-24px.png) ボタンから、「**[!UICONTROL Service properties]**」セクションに移動します。
@@ -116,11 +116,11 @@ ht-degree: 85%
 
 1. 「**[!UICONTROL Confirm]**」をクリックしてサービスを保存します。
 
-これで、プロファイルがこのサービスを購読すると、定義したトランザクションメッセージを受け取り、パーソナライズされたフィールドが選択したサービスにマッピングされます。
+プロファイルがこのサービスに登録すると、定義したトランザクションメッセージを受け取り、選択したサービスにマッピングされたパーソナライズされたフィールドを表示するようになりました。
 
 >[!NOTE]
 >
->ユーザーが初めて購読する際にのみ、メッセージが送信されます。
+>メッセージは、ユーザーが初めて購読した場合にのみ送信されます。
 
 ## ランディングページからの確認メッセージの設定 {#configuring-confirmation-message-from-landing-page}
 
@@ -128,7 +128,7 @@ ht-degree: 85%
 
 ランディングページから確認メッセージを参照する場合、ランディングページが送信されるたびに（プロファイルが既に購読されている場合でも）メッセージが送信されます。
 
-### 手順 1：確認 E メールの作成 {#step-1--create-the-confirmation-email-2}
+### 手順 1：確認メールの作成 {#step-1--create-the-confirmation-email-2}
 
 ニュースレターにランディングページから購読した各プロファイルに、確認メールが自動的に送信されます。このサブスクリプションはイベントと見なされます。また、このメールはサービスを購読した各プロファイルを対象とする[トランザクションメッセージ](../../channels/using/getting-started-with-transactional-msg.md)です。
 
@@ -141,7 +141,7 @@ ht-degree: 85%
 1. イベントを作成するには、Adobe Campaign のロゴから **[!UICONTROL Marketing plans]**／**[!UICONTROL Transactional messages]**／**[!UICONTROL Event configuration]** メニューにアクセスします。
 1. ラベルを入力し、ターゲティングディメンションを選択して「**[!UICONTROL Create]**」をクリックします。
 
-   設定手順については、 [トランザクションイベントの設定](../../channels/using/configuring-transactional-event.md) 」セクションに入力します。
+   設定手順については、[ トランザクションイベントの設定 ](../../channels/using/configuring-transactional-event.md) を参照してください。
 
 1. 「**[!UICONTROL Fields]**」セクションで、紐付けを有効にするために、「**[!UICONTROL Create element]**」をクリックして **[!UICONTROL serviceName]** をデータ構造に追加します。
 
@@ -164,7 +164,7 @@ ht-degree: 85%
 
 トランザクションメッセージを設計する手順は、[この節](#design-the-confirmation-message-1)で説明しています。
 
-### 手順 2：サービスの作成と設定 {#step-2--create-and-configure-the-service-2}
+### 手順 2：サービスを作成および設定する {#step-2--create-and-configure-the-service-2}
 
 1. Adobe Campaign のロゴから、詳細メニューの **[!UICONTROL Profiles & audiences]**／**[!UICONTROL Services]** にアクセスして、サービスを作成します。
 1. サービスダッシュボードの ![](assets/edit_darkgrey-24px.png) ボタンから、「**[!UICONTROL Service properties]**」セクションに移動します。
@@ -190,8 +190,8 @@ Web サイトに公開するサブスクリプションランディングペー�
 
 1. ランディングページを[テストして公開](../../channels/using/testing-publishing-landing-page.md)します。
 
-これで、プロファイルがランディングページを送信してニュースレターを購読すると、サービスにマッピングされたパーソナライズされたフィールドで定義した確認メッセージがプロファイルに届きます。
+プロファイルは、ランディングページを送信してニュースレターに登録すると、サービスにマッピングされたパーソナライズされたフィールドを使用して定義した確認メッセージを受け取るようになりました。
 
 >[!NOTE]
 >
->ランディングページが送信されるたびに（プロファイルが既に購読されている場合でも）メッセージが送信されます。
+>プロファイルが既に購読されている場合でも、ランディングページが送信されるたびにメッセージが送信されます。

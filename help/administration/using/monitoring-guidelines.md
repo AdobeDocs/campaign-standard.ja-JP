@@ -1,6 +1,6 @@
 ---
 title: 監視のガイドライン
-description: このページでは、Campaign Standardの監視に関する一般的なガイドラインを示します
+description: ここでは、Campaign Standardのモニタリングに関する一般的なガイドラインを示します
 audience: production
 feature: Access Management
 role: Admin
@@ -21,7 +21,7 @@ ht-degree: 13%
 <td><img src="assets/do-not-localize/icon_send.svg" width="60px"><p><a href="#monitoring-deliveries">配信の監視</a></p></td></tr>
 </table>
 
-Campaign Standardでは、インスタンスを監視して、システムの正常性を確認し、ワークフローの設定や配信の送信など時に発生する可能性のある問題のトラブルシューティングをおこなう方法がいくつか用意されています。
+Campaign Standardでは、システムが正常であることを確認するためにインスタンスを監視する方法をいくつか提供しており、最終的には、ワークフローの設定や配信の送信などで発生する可能性のある問題のトラブルシューティングを行います。
 
 ## システムの監視 {#monitoring-system}
 
@@ -29,33 +29,33 @@ Campaign Standardでは、インスタンスを監視して、システムの正
 
 **システム通知**
 
-Campaign Standardインターフェイスには、イベントのステータス、システムの更新、必要なアクションなど、システムで発生していることを常に知らせる通知ウィンドウが用意されています。 [詳細情報](../../start/using/interface-description.md#top-bar)
+Campaign Standardインターフェイスには、イベントのステータス、システムのアップデート、必要なアクションなど、システムで何が起きているかを常に把握できる通知ペインが用意されています。 [詳細情報](../../start/using/interface-description.md#top-bar)
 
 
 **テクニカルワークフロー**
 
-テクニカルワークフローは、サーバー上で定期的に実行されるようにスケジュールされた操作またはジョブです。 インスタンスが正常に機能し、正常に動作していることを確認するには、インスタンスが常に起動して動作していることを確認する必要があります。 [詳細情報](../../administration/using/technical-workflows.md)
+テクニカルワークフローは、サーバーで定期的に実行するようにスケジュールされた操作またはジョブです。 インスタンスが正常で正常に機能するようにするには、インスタンスが常に起動し実行中であることを確認する必要があります。 [詳細情報](../../administration/using/technical-workflows.md)
 
 **コントロールパネル**
 
-このCampaign コントロールパネルを使用すると、URL 権限、サーバーのビルドバージョンなどのインスタンスの詳細の確認、アクティブなプロファイルの使用状況の監視など、インスタンスの複数の設定を管理できます。 また、インスタンスに接続されている SFTP サーバーの使用可能な領域を監視することもできます。 [詳細情報](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja)。
+Campaign コントロールパネルを使用すると、インスタンスの複数の設定を管理できます。URL 権限、サーバーのビルドバージョンなどのインスタンスの詳細の確認、アクティブなプロファイルの使用状況の監視などです。 また、インスタンスに接続されている SFTP サーバーの使用可能な領域を監視することもできます。 [詳細情報](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja)
 
 >[!NOTE]
 >
 >コントロールパネルは、すべての管理者ユーザーがアクセスできます。 ユーザーに管理者アクセス権を付与する手順については、[このページ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ja#discover-control-panel)で詳しく説明しています。
 
-**技術オブジェクト**
+**技術的目標**
 
-The **[!UICONTROL Diagnosis]** メニューは、データスキーマ、web ページ、バッチジョブなど、アプリケーションによって生成される様々な技術オブジェクトを監視および分析するための重要なツールです。 [詳細情報](../../developing/using/monitoring-data-model-changes.md)
+**[!UICONTROL Diagnosis]** メニューは、アプリケーションによって生成される様々な技術的オブジェクト（データスキーマ、web ページ、バッチジョブなど）を監視および分析するための重要なツールです。 [詳細情報](../../developing/using/monitoring-data-model-changes.md)
 
-**監査の書き出し**
+**輸出監査**
 
-エクスポートの監査を使用すると、ワークフローからアップロードされたファイル、リストエクスポート、ダイレクトメールメッセージからダウンロードされたファイルなど、インスタンスで実行されたエクスポートを監視できます。
+書き出し監査を使用すると、ワークフローからアップロードされたファイル、リスト書き出し、ダイレクトメールメッセージからダウンロードされたファイルなど、インスタンスで実行された書き出しを監視できます。
 [詳細情報](../../administration/using/auditing-export-logs.md)
 
 **ライセンス**
 
-を使用 **[!UICONTROL Licenses]** メニュー、インスタンスに関する情報を監視します。インストール済みライセンス、ビルドバージョン、利用規約同意書です。
+**[!UICONTROL Licenses]** メニューを使用して、インストールされているライセンス、ビルドバージョン、利用条件の同意など、インスタンスに関する情報を監視します。
 [詳細情報](../../administration/using/licenses.md)
 
 ## ワークフローの監視 {#monitoring-workflows}
@@ -64,7 +64,7 @@ The **[!UICONTROL Diagnosis]** メニューは、データスキーマ、web ペ
 
 **ベストプラクティスとトラブルシューティング**
 
-ワークフローを使用する際に、ベストプラクティスとトラブルシューティングのガイドラインに従うと、パフォーマンスを向上できます。
+ワークフローを使用する際に、ベストプラクティスとトラブルシューティングガイドラインに従うと、パフォーマンスの向上に役立ちます。
 [詳細情報](../../automating/using/best-practices-workflows.md)
 
 **ログとタスク**
@@ -74,7 +74,7 @@ The **[!UICONTROL Diagnosis]** メニューは、データスキーマ、web ペ
 
 **通知**
 
-Campaign Standardでは、ワークフローの実行を監視し、注意が必要なエラーがあるかどうかをスーパーバイザーに通知して確認できます。
+Campaign Standardを使用すると、スーパーバイザーに通知を送信し、ワークフローの実行を監視し、注意を要するエラーがあるかどうかを確認できます。
 [詳細情報](../../automating/using/monitoring-workflow-execution.md#error-management)
 
 ## 配信の監視 {#monitoring-deliveries}
@@ -83,20 +83,20 @@ Campaign Standardでは、ワークフローの実行を監視し、注意が必
 
 **配信品質**
 
-Campaign Standardには、配信スループットレポート、送信時間の最適化、メッセージのプレビュー、E メールのレンダリング、強制隔離管理など、正常に配信されたメッセージの数を改善するための配信品質ツールがいくつか用意されています。
+Campaign Standardには、正常に配信されたメッセージ数を増やすのに役立つ、配信品質ツールがいくつか用意されています（配信スループットレポート、送信時間の最適化、メッセージのプレビュー、メールのレンダリング、強制隔離管理など）。
 [詳細情報](../../sending/using/about-deliverability.md)
 
 **配信**
 
-メッセージが送信されると、詳細なログで、配信を監視し、キャンペーンの成功を測定したり、メッセージ受信者の行動をトラッキングしたりできます。
+メッセージが送信されると、詳細なログで配信を監視したり、キャンペーンの成功を測定したり、メッセージ受信者の行動をトラッキングしたりできます。
 [詳細情報](../../sending/using/monitoring-a-delivery.md)
 
 **配信アラート**
 
-配信アラート機能を使用すると、配信の実行に関してユーザーのグループに自動的に送信されるアラート（送信の失敗または準備の失敗、バウンス率の無効、低スループットなど）を設定できます。
+配信アラート機能を使用すると、配信の実行に関して、ユーザーのグループ（送信または準備の失敗、無効なバウンス率、低スループットなど）に自動的に送信されるアラートを設定できます。
 [詳細情報](../../sending/using/receiving-alerts-when-failures-happen.md)
 
 **動的レポート**
 
-動的レポートには、バウンス、受信者が最も閲覧した配信、配信のスループットなど、配信のパフォーマンスを常に把握できる様々なレポートが用意されています。
+動的レポートには、配信のパフォーマンスに関する情報を常に把握するのに役立つ様々なレポートが用意されています。バウンス、受信者が最も表示した配信、配信のスループットなどです。
 [詳細情報](../../reporting/using/about-dynamic-reports.md)

@@ -1,6 +1,6 @@
 ---
 title: プライバシーリクエストの監視
-description: API を使用してプライバシーリクエストを監視する方法について説明します
+description: API を使用してプライバシーリクエストを監視する方法を説明します
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -17,9 +17,9 @@ ht-degree: 16%
 
 # プライバシーリクエストの監視 {#monitoring-a-privacy-request}
 
-作成したプライバシーリクエストに関する情報は、 **GET** リクエスト。
+**GET** リクエストを使用して、作成されたプライバシーリクエストに関する情報を監視できます。
 
-ステータスリストの説明は、 [プライバシー管理に関するドキュメント](../../start/using/privacy-requests.md).
+ステータスリストの説明については、[ プライバシー管理ドキュメント ](../../start/using/privacy-requests.md) を参照してください。
 
 <br/>
 

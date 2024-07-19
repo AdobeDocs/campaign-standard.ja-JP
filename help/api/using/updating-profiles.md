@@ -1,6 +1,6 @@
 ---
 title: プロファイルの更新
-description: API を使用してプロファイルを更新する方法の詳細を説明します
+description: API でプロファイルを更新する方法の詳細情報
 feature: API
 role: Data Engineer
 level: Experienced
@@ -14,13 +14,13 @@ ht-degree: 2%
 
 # API を使用したプロファイルの更新{#updating-profiles-api}
 
-プロファイルの更新は、 **PATCH** リクエスト。
+プロファイルの更新は、**PATCH** リクエストで実行されます。
 
 `https://mc.adobe.io/<ORGANIZATION>/campaign/<apiName>/<resourceName>/<PKEY>`
 
-1. 最初の手順は、次のとおりです。 **プロファイルの取得**.
+1. 最初の手順は、**プロファイルを取得** することです。
 
-1. 2 番目のリクエストで、 **PATCHリクエスト** ペイロードに完了した情報を含むプロファイルのを確認します。
+1. 2 回目のリクエストで、ペイロードに完了情報を含めて **プロファイルに対して** PATCHリクエスト } を実行します。
 
 1. PATCHリクエストがプロファイルを更新したかどうかを確認するには、最終的なGETリクエストを実行します。
 
@@ -28,7 +28,7 @@ ht-degree: 2%
 
 ***リクエストのサンプル***
 
-プロファイルを取得するGETリクエストの例。
+プロファイルを取得するサンプルGETリクエスト。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>\
@@ -38,7 +38,7 @@ ht-degree: 2%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-リクエストへの応答。
+リクエストに対する応答。
 
 ```
 {
@@ -65,7 +65,7 @@ ht-degree: 2%
 -d '{"phone":"3301020304"}'
 ```
 
-PKEY と URL を返し、更新されたプロファイルを取得します。
+更新されたプロファイルを取得する PKEY と URL を返します。
 
 ```
 {

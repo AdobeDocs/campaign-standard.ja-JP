@@ -1,6 +1,6 @@
 ---
 title: Adobe Experience Platform オーディエンスの管理
-description: Campaign Standard内でAdobe Experience Platformを管理する方法を学ぶ。
+description: Campaign Standard内でAdobe Experience Platformを管理する方法を説明します。
 audience: audiences
 content-type: reference
 topic-tags: managing-audiences
@@ -22,52 +22,52 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->Audience Destinations Service は現在ベータ版です。通知なしに頻繁に更新される可能性があります。 お客様は、これらの機能にアクセスするには、Azure 上でホストされている必要があります（現在、北米ではベータ版のみ）。 にアクセスする場合は、Adobeカスタマーケアにお問い合わせください。
+>Audience Destinations サービスは現在ベータ版です。予告なく頻繁に更新される場合があります。 これらの機能にアクセスするには、お客様を Azure でホストする必要があります（現在は北米向けのベータ版のみ）。 アクセスをご希望の場合は、Adobeカスタマーケアにお問い合わせください。
 
-## Adobe Experience Platformオーディエンスへのアクセス
+## Adobe Experience Platform オーディエンスへのアクセス
 
-Adobe Experience Platformセグメントビルダーにアクセスするには、 **[!UICONTROL Audiences]** Campaign Standardホームページのカード ( または **[!UICONTROL Audiences]** リンクをクリック )、 **[!UICONTROL Adobe Experience Platform]** 環境。
+Adobe Experience Platform セグメントビルダーにアクセスするには、Campaign Standardホームページの **[!UICONTROL Audiences]** カード（またはヘッダー内の **[!UICONTROL Audiences]** リンク）に移動して、**[!UICONTROL Adobe Experience Platform]** 環境を選択します。
 
 ![](assets/aep_audiences_access.png)
 
-最初に、Adobe Experience Platformのセグメントリストページが表示されます。このページでは、既に存在するAdobe Experience Platformセグメントにアクセスして、さらに編集することができます。
+最初にAdobe Experience Platform セグメントリストページに移動します。このページから既存のAdobe Experience Platform セグメントにアクセスして、さらに編集することができます。
 
-目的のAdobe Experience Platformセグメントを見つけるのに役立つ検索バーとフィルターが使用できます。
+検索バーとフィルターを使用すると、目的のAdobe Experience Platform セグメントを見つけるのに役立ちます。
 
 ![](assets/aep_audiences_list.png)
 
-## Adobe Experience Platformオーディエンスの作成
+## Adobe Experience Platform オーディエンスの作成
 
-Campaign Standardで直接Adobe Experience Platformオーディエンスを作成するには、次の手順に従います。
+Adobe Experience Platform オーディエンスをCampaign Standardで直接作成するには、次の手順に従います。
 
-1. Adobe Experience Platformのセグメントリストページで、「 **[!UICONTROL New audience]** ボタンをクリックします。
+1. Adobe Experience Platform セグメントリストページで、右隅にある「**[!UICONTROL New audience]**」ボタンをクリックします。
 
    ![](assets/aep_audiences_creation_create.png)
 
-1. セグメントビルダーがワークスペースに表示されます。 これにより、Adobe Experience Platformのデータを使用してセグメントを構築し、最終的にオーディエンスの作成に使用できます。
+1. セグメントビルダーがワークスペースに表示されます。 これにより、Adobe Experience Platformのデータを使用してセグメントを作成し、最終的にオーディエンスの作成に使用できます。
 
-1. 右側のウィンドウでセグメントに名前を付け、説明を入力します（オプション）。
+1. 右側のペインでセグメントに名前を付け、説明を入力します（オプション）。
 
    ![](assets/aep_audiences_creation_edit_name.png)
 
-1. セグメントを正常に作成するには、 **結合ポリシー** このセグメントのマーケティング目的に一致する
+1. セグメントを正常に作成するには、このセグメントのマーケティング目的に一致する **結合ポリシー** を選択する必要があります。
 
-   設定ウィンドウで、Platform のデフォルトの結合ポリシーが選択されます。 結合ポリシーについて詳しくは、 [セグメントビルダーユーザーガイド](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html).
+   設定ペインで、Platform のデフォルトの結合ポリシーが選択されます。 結合ポリシーについて詳しくは、『 [ セグメントビルダーユーザーガイド ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html) の該当する節を参照してください。
 
    ![](assets/aep_audiences_mergepolicy.png)
 
 1. オーディエンスで取得するプロファイルを識別するルールを定義します。
 
-   これをおこなうには、目的の属性やイベントを左側のパネルからワークスペースにドラッグし、対応するルールを定義してから、 **[!UICONTROL Create segment]** ボタンをクリックしてセグメントを保存します ( [セグメントビルダーの使用](../../integrating/using/aep-using-segment-builder.md)) をクリックします。
+   これを行うには、目的の属性やイベントを左側のペインからワークスペースにドラッグし、対応するルールを定義して、「**[!UICONTROL Create segment]**」ボタンをクリックしてセグメントを保存します（[ セグメントビルダーの使用 ](../../integrating/using/aep-using-segment-builder.md) を参照）。
 
    ![](assets/aep_audiences_creation_query.png)
 
-オーディエンスをアクティブ化する準備が整い、キャンペーンのターゲットとして使用できます ( [Adobe Experience Platformオーディエンスのターゲティング](../../integrating/using/aep-targeting-audiences.md)) をクリックします。
+これでオーディエンスをアクティブ化する準備が整い、キャンペーンのターゲットとして使用できるようになります（[Adobe Experience Platform オーディエンスのターゲティング ](../../integrating/using/aep-targeting-audiences.md) を参照）。
 
 ## オーディエンスの編集
 
-オーディエンスを編集するには、オーディエンスを開き、必要に応じてセグメントビルダーインターフェイス内でルールを変更します ( [セグメントビルダーの使用](../../integrating/using/aep-using-segment-builder.md)) をクリックします。
+オーディエンスを編集するには、オーディエンスを開き、セグメントビルダーインターフェイス内で必要に応じてルールを変更します（[ セグメントビルダーの使用 ](../../integrating/using/aep-using-segment-builder.md) を参照）。
 
-変更が完了したら、 **[!UICONTROL Save segment]** 」ボタンをクリックして、オーディエンスを更新します。
+変更が完了したら、「**[!UICONTROL Save segment]**」ボタンをクリックしてオーディエンスを更新します。
 
 ![](assets/aep_audiences_editing.png)

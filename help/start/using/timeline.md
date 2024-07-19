@@ -32,8 +32,8 @@ ht-degree: 89%
 
 アイコンを使用して、
 
-* ![](assets/timeline_zoom_in.png) 日が表示されるまで、境界を狭めるか、より限られた期間詳細レベルを上げる
-* ![](assets/timeline_zoom_out.png) 周長を増やす、またはより大きな期間を表示する
+* 日数 ![](assets/timeline_zoom_in.png) 表示されるまで、周囲を狭めたり、より制限された期間の詳細レベルを上げたりします
+* 周囲 ![](assets/timeline_zoom_out.png) 拡大したり、期間を拡大して表示するには
 
 各プログラム名の右にある矢印をクリックして、対応するコンテンツを表示します。プログラムには、サブプログラム、キャンペーン、ランディングページを含めることができます。キャンペーンは、プログラムと同じ方法でデプロイされ、内部にメール、SMS、ランディングページを組み込むことができます。
 
@@ -48,9 +48,9 @@ ht-degree: 89%
 各要素には、それぞれのタイプに対応するアイコンがあります。
 
 * ![](assets/timeline_program_icon.png) プログラム
-* ![](assets/timeline_campaign_icon.png) Campaign
+* ![](assets/timeline_campaign_icon.png) キャンペーン
 * ![](assets/timeline_lp_icon.png) ランディングページ
-* ![](assets/timeline_email_icon.png) 電子メール
+* ![](assets/timeline_email_icon.png) Email
 * ![](assets/timeline_sms_icon.png) SMS
 * ![](assets/timeline_push_icon.png) プッシュ通知
 

@@ -30,7 +30,7 @@ ht-degree: 90%
 
 繰り返しメールでは、定義済みの期間中に同じメールを異なるターゲットに何度でも送信できます。期間ごとの配信を集計して、ニーズに応じたレポートを取得できます。
 
-## 使用状況 {#context-of-use}
+## 使用コンテキスト {#context-of-use}
 
 「**[!UICONTROL Email delivery]**」アクティビティは、一般的に、同じワークフロー内で計算されるターゲットへのメール送信を自動化するために使用されます。
 
@@ -42,11 +42,11 @@ ht-degree: 90%
 
 **関連トピック：**
 
-* [ユースケース：週 1 回の E メール配信の作成](../../automating/using/workflow-weekly-offer.md)
-* [ユースケース：ロケーション別にセグメント化した配信の作成](../../automating/using/workflow-segmentation-location.md)
-* [ユースケース：補集合を使用した配信の作成](../../automating/using/workflow-created-query-with-complement.md)
-* [ユースケース：メールを開封していないユーザーに新しい配信を送信する再ターゲティングワークフロー](../../automating/using/workflow-cross-channel-retargeting.md)
-* [使用例：誕生日配信](../../automating/using/birthday-delivery.md)
+* [ユースケース：週に 1 回のメール配信の作成](../../automating/using/workflow-weekly-offer.md)
+* [ユースケース：場所でセグメント化された配信の作成](../../automating/using/workflow-segmentation-location.md)
+* [ユースケース：補完を含んだ配信の作成](../../automating/using/workflow-created-query-with-complement.md)
+* [ユースケース：リターゲティングワークフローで開封者以外に新しい配信を送信する](../../automating/using/workflow-cross-channel-retargeting.md)
+* [ユースケース：誕生日配信](../../automating/using/birthday-delivery.md)
 
 ## 設定 {#configuration}
 
@@ -66,7 +66,7 @@ ht-degree: 90%
 
    >[!NOTE]
    >
-   >繰り返し配信は、 **集計期間**. 例えば、集計期間が「日別」の場合、配信は 1 日に 1 回だけ再準備されます。 このワークフローを 1 日に複数回呼び出す予定がある場合は、 [!UICONTROL No aggregation].
+   >繰り返し配信は、**集計期間** に基づいて準備されます。 例えば、集計期間が「日別」の場合、配信は 1 日に 1 回だけ再準備されます。 このワークフローを 1 日に複数回呼び出す予定がある場合は、[!UICONTROL No aggregation] を使用します。
 
 1. メールのタイプを選択します。メールのタイプは、**[!UICONTROL Resources]**／**[!UICONTROL Templates]**／**[!UICONTROL Delivery templates]**&#x200B;メニューに定義されているメールテンプレートに基づいています。
 1. メールの一般的なプロパティを入力します。既存のキャンペーンに E メールを添付することもできます。ワークフローの配信アクティビティのラベルが、メールのラベルに更新されます。

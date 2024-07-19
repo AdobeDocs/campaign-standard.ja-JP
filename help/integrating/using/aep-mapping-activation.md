@@ -1,6 +1,6 @@
 ---
 title: マッピングのアクティベーション
-description: データマッピングを有効化する方法を説明します
+description: データマッピングをアクティブ化する方法について説明します
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
@@ -21,49 +21,49 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Adobe Experience Platform Data Connector は現在ベータ版です。通知なしに頻繁に更新される可能性があります。 お客様は、これらの機能にアクセスするには、Azure 上でホストされている必要があります（現在、北米ではベータ版のみ）。 にアクセスする場合は、Adobeカスタマーケアにお問い合わせください。
+>現在、Adobe Experience Platform Data Connector はベータ版です。予告なく頻繁に更新される可能性があります。 これらの機能にアクセスするには、お客様を Azure でホストする必要があります（現在は北米向けのベータ版のみ）。 アクセスをご希望の場合は、Adobeカスタマーケアにお問い合わせください。
 
-マッピング定義が完了したら、マッピングを公開できます。 デプロイメント手順の後、Campaign StandardとAdobe Experience Platform間のデータレプリケーションが自動的に開始されます。 いつでも、 **[!UICONTROL Stop]** 」ボタンをクリックします。
+マッピングの定義が完了したら、マッピングを公開できます。 デプロイメントステップの後、Campaign StandardとAdobe Experience Platformの間のデータレプリケーションが自動的に開始されます。 「**[!UICONTROL Stop]**」ボタンをクリックすると、いつでもレプリケーションを停止できます。
 
-マッピングの変更に応じて、すべてのレコードをAdobe Experience Platformに再送信するように選択できます。
+マッピングの変更に応じて、すべてのレコードをAdobe Experience Platformに再送信することもできます。
 
 ![](assets/aep_publishmapping.png)
 
-デプロイメントタイルから、パブリッシュログにアクセスし、ログを書き出すことができます。
+デプロイメントタイルから、公開ログにアクセスしたり、ログを書き出したりできます。
 
 ![](assets/aep_publog.png)
 
-Adobe Analytics の **[!UICONTROL Export jobs]** 「 」タブでは、パブリッシュ済みマッピングの書き出しジョブを監視できます。
+「**[!UICONTROL Export jobs]**」タブでは、公開されたマッピングの書き出しジョブを監視できます。
 
 ![](assets/aep_jobstatus.png)
 
-すべてのデータ書き出しジョブを監視する場合は、次に移動します。 **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]** メニュー。
+すべてのデータ書き出しジョブを監視する場合は、**[!UICONTROL Administration]** / **[!UICONTROL Development]** / **[!UICONTROL Platform]** / **[!UICONTROL Status of data export to platform]** メニューに移動します。
 
 ![](assets/aep_statusmapping.png)
 
 データ取り込みジョブのステータスは次のとおりです。
 
-* **[!UICONTROL Created]**：データ取り込みジョブが作成され、データ取り込みが進行中です。
-* **[!UICONTROL Failed]**：データ取り込みジョブが失敗しました。 「理由」フィールドに、失敗の理由が表示されます。 エラーは、一時的または永久的に発生する場合があります。 一時的なエラーが発生した場合、設定された間隔で新しい取り込みジョブが作成されます。 トラブルシューティングの最初の手順として、ユーザーは失敗の理由フィールドを確認できます。 理由によってユーザーがAdobe Experience Platform UI にリダイレクトされた場合、ユーザーはAdobe Experience Platformにログインし、データセットでバッチステータスを確認して、エラーの正確な理由を特定できます。
-* **[!UICONTROL Uploaded]**：バッチは、最初にAdobe Experience Platformで作成され、次にデータがバッチに取り込まれます。 「バッチ ID 」フィールドに、Adobe Experience Platformでのバッチのバッチ ID が表示されます。 また、Adobe Experience Platformは、バッチに対して後処理の検証を実行します。 Adobe Experience Platformが検証後の手順を完了するまで、バッチはまずアップロード済みとしてマークされます。 ジョブは、アップロード後にバッチのステータスに関するAdobe Experience Platformをポーリングし続けます。 バッチは、Adobe Experience Platformで検証後、「失敗」または「成功」状態になる場合があります。
-* **[!UICONTROL Success]**：バッチがAdobe Experience Platformにアップロードされた後、設定された間隔の後にジョブのステータス（platform での検証後）がチェックされます。 「成功」ステータスにより、Adobe Experience Platformでのデータの取り込みが成功していることが示されました。
+* **[!UICONTROL Created]**: データ取り込みジョブが作成され、データ取り込みが進行中です。
+* **[!UICONTROL Failed]**: データ取り込みジョブが失敗しました。 「理由」フィールドは、失敗の理由を説明します。 障害は一時的な場合もあれば、永続的な場合もあります。 一時的なエラーの場合は、設定した間隔の後に新しい取り込みジョブが作成されます。 トラブルシューティングの最初の手順として、エラーの理由フィールドを確認できます。 その理由でAdobe Experience Platform UI にリダイレクトされたユーザーは、Adobe Experience Platformにログインして、データセットのバッチステータスを確認することで、正確なエラー理由を判断できます。
+* **[!UICONTROL Uploaded]**：最初にAdobe Experience Platformでバッチが作成され、次にデータがバッチに取り込まれます。 バッチ ID フィールドには、Adobe Experience Platformのバッチのバッチ ID が表示されます。 Adobe Experience Platformは、バッチに対しても post 検証を実行します。 バッチは、Adobe Experience Platformが検証後ステップを完了するまで、最初にアップロード済みとしてマークされます。 ジョブは、アップロード後にバッチのステータスに関してAdobe Experience Platformをポーリングし続けます。 Adobe Experience Platformでの検証後、バッチは失敗または成功状態になります。
+* **[!UICONTROL Success]**：バッチがAdobe Experience Platformにアップロードされると、ジョブのステータス（Platform での検証後）が、設定された間隔の後に確認されます。 ステータス「成功」は、Adobe Experience Platformでのデータの取り込みが成功したことを識別しました。
 
-マッピングを公開する際に、以下の検証エラーが発生する場合があります。
+場合によっては、マッピングを公開する際に、以下の検証エラーが発生することがあります。
 
 ![](assets/aep_datamapping_ccpa.png)
 
-これは、使用している XDM スキーマが、プライバシー管理に関連する最新の XDM フィールドで更新されておらず、非推奨の「ccpa」XDM フィールドが含まれている場合に発生します。
+この問題は、使用している XDM スキーマが、プライバシー管理に関連する最新の XDM フィールドで更新されておらず、非推奨の「ccpa」 XDM フィールドがまだ含まれている場合に発生します。
 
 XDM スキーマを更新するには、次の手順に従います。
 
-1. XDM マッピングページに存在するリンクを使用して、Adobe Experience Platformのデータセットに移動します。
+1. XDM マッピングページにあるリンクを使用して、Adobe Experience Platformのデータセットに移動します。
 
 1. XDM スキーマに移動します。
 
-1. 次を追加： **[!UICONTROL Profile Privacy]** スキーマへの mixin。
+1. **[!UICONTROL Profile Privacy]** Mixin をスキーマに追加します。
 
    ![](assets/aep_datamapping_privacyfield.png)
 
-1. スキーマを保存してから、マッピングの公開を再試行します。 これで、パブリケーションが渡されます。
+1. スキーマを保存してから、マッピングの公開を再試行してください。 これで、パブリケーションが渡されます。
 
    ![](assets/aep_save_mapping.png)

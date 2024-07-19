@@ -38,9 +38,9 @@ ht-degree: 88%
 
    >[!NOTE]
    >
-   >アクティビティ名とアクティビティ ID は両方ともインターフェイスに表示されますが、メッセージ受信者には表示されません。
+   >アクティビティ名と ID の両方がインターフェイスに表示されますが、メッセージ受信者には表示されません。
    >
-   >例えば、Adobe Analyticsとの統合時など、不一致が生じるのを避けるために、ID フィールドに空白を含めないようにしてください。
+   >Adobe Analyticsと統合する場合など、不一致を避けるために、ID フィールドに空白が含まれていないことを確認します。
 
 1. 抽出ファイルに含めるオーディエンスと、テストおよびトラッププロファイルを定義します。[ダイレクトメールオーディエンスの定義](../../channels/using/defining-the-direct-mail-audience.md)を参照してください。
 
@@ -60,7 +60,7 @@ ht-degree: 88%
 
 1. テストプロファイルを追加すると（[テストおよびトラッププロファイルの追加](../../channels/using/defining-the-direct-mail-audience.md#adding-test-and-trap-profiles)を参照）、最終的なファイルを準備する前に配信をテストできます。選択したテストプロファイルのみを含んだサンプルファイルを作成できます。
 
-   「**[!UICONTROL Test]**」をクリックして、サンプルファイルを生成します。クリック： **[!UICONTROL Summary]**&#x200B;を選択し、左上隅で「 **[!UICONTROL Proofs]**. 画面の左側で、配達確認を選択して「**[!UICONTROL Download file]**」をクリックします。
+   「**[!UICONTROL Test]**」をクリックして、サンプルファイルを生成します。左上隅の「**[!UICONTROL Summary]**」をクリックし、「**[!UICONTROL Proofs]**」を選択します。 画面の左側で、配達確認を選択して「**[!UICONTROL Download file]**」をクリックします。
 
    >[!NOTE]
    >
@@ -103,4 +103,4 @@ ht-degree: 88%
 * ファイルを添付して通常のメールで送信
 * Campaign で送信：キャンペーン[ワークフロー](../../automating/using/direct-mail-delivery.md)内でダイレクトメールアクティビティを実行し「**[!UICONTROL Transfer file]**」を追加して、例えば FTP でファイルを送信します。詳しくは、[ファイル転送](../../automating/using/transfer-file.md)を参照してください。
 
-プロバイダーは、誤ったアドレスのリストを取得し、この情報をAdobe Campaignに送信します。これにより、誤ったアドレスをブロックリストに加える自動的にします。 [送信者に返信](../../channels/using/return-to-sender.md)を参照してください。
+プロバイダーは、誤ったアドレスのリストを取得し、この情報をAdobe Campaignに送信します。これにより、誤ったアドレスが自動的にブロックリストに加えるされます。 [送信者に返信](../../channels/using/return-to-sender.md)を参照してください。

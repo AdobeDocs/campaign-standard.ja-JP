@@ -1,6 +1,6 @@
 ---
-title: 従来のエディターの E メールから E メールデザイナーへの変換
-description: 従来のエディターの E メールで作成した E メールを E メールデザイナーに使用する方法を説明します。
+title: 従来のエディターによる E メールから E メールDesignerへの変換
+description: 従来のエディターのメールで作成されたメールを使用してメールDesignerに送信する方法を説明します。
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
@@ -15,42 +15,42 @@ ht-degree: 8%
 
 ---
 
-# レガシーエディターの E メールコンテンツの変換 {#converting-an-html-content}
+# 従来のエディターのメールコンテンツの変換 {#converting-an-html-content}
 
-E メールデザイナーの使用を開始し、レガシーエディターで作成した E メールHTMLから、再利用可能なテンプレートとフラグメントを構築します。
+メールDesignerの使用を開始し、従来のエディターで作成したメールエディターから、再利用可能なテンプレートとフラグメントをHTMLします。
 
-この使用例では、HTMLE メールを使用し、E メールデザイナーでHTMLコンポーネントに分割することで、E メールデザイナーテンプレートを作成できます。
+このユースケースを使用すると、HTMLのメールを使用し、メールDesignerでHTMLのコンポーネントに分割することで、メールDesignerテンプレートを作成できます。
 
 >[!NOTE]
 >
->互換モードと同様に、HTMLコンポーネントは、制限付きオプションで編集できます。インプレース編集のみ実行できます。
+>互換モードと同様に、HTMLコンポーネントも編集できますが、編集できるオプションは限られています。つまり、インプレース編集のみを実行できます。
 
 >[!IMPORTANT]
 >
->この節は、HTMLコードに詳しい上級ユーザー向けです。
+>この節は、HTMLコードに精通した上級ユーザーを対象としています。
 
-## E メールコンテンツを準備中
+## メールコンテンツの準備
 
-1. HTMLE メールを選択
-1. HTMLE メールを分割するセクションを特定します。
-1. HTMLから異なるブロックを切り取ります。
+1. HTMLメールを選択します。
+1. HTMLメールを分割するセクションを特定します。
+1. HTMLから様々なブロックを切り取ります。
 
-## 電子メール構造を作成する
+## メール構造の作成
 
-1. を開きます。 **[!UICONTROL Email Designer]**  空の e メールコンテンツを作成します。
-1. ボディレベルの属性（背景色、幅など）を設定します。 詳しくは、[メールスタイルの編集](../../designing/using/styles.md)を参照してください。
-1. 構造コンポーネントをセクションと同じ数だけ追加します。 詳しくは、[メール構造の編集](../../designing/using/designing-from-scratch.md#defining-the-email-structure)を参照してください。
+1. **[!UICONTROL Email Designer]** を開いて、空のメールコンテンツを作成します。
+1. 背景色や幅など、本文レベルの属性を設定します。 詳しくは、[メールスタイルの編集](../../designing/using/styles.md)を参照してください。
+1. セクションと同じ数の構造コンポーネントを追加します。 詳しくは、[メール構造の編集](../../designing/using/designing-from-scratch.md#defining-the-email-structure)を参照してください。
 
 ## HTMLコンテンツを追加
 
 1. 各構造コンポーネントにHTMLコンポーネントを追加します。 詳しくは、[フラグメントとコンポーネントの追加](../../designing/using/designing-from-scratch.md#defining-the-email-structure)を参照してください。
-1. すべてのコンポーネントにHTMLをコピー&amp;ペーストします。
+1. HTMLした内容を、すべてのコンポーネントにコピー&amp;ペーストします。
 
-## E メールのスタイルを管理 {#manage-the-style-of-your-email}
+## メールのスタイルの管理 {#manage-the-style-of-your-email}
 
-1. 切り替え先 **[!UICONTROL Mobile view]**. 詳しくは、[この節](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)を参照してください。
+1. **[!UICONTROL Mobile view]** に切り替えます。 詳しくは、[この節](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)を参照してください。
 
-1. これを修正するには、ソースコードモードに切り替えて、スタイルセクションを新しいスタイルセクションにコピー&amp;ペーストします。 例：
+1. これを修正するには、ソースコードモードに切り替えて、「スタイル」セクションをコピーして新しい「スタイル」セクションに貼り付けます。 例：
 
    ```
    <style type="text/css">
@@ -63,9 +63,9 @@ E メールデザイナーの使用を開始し、レガシーエディターで
 
    >[!NOTE]
    >
-   >別のカスタムスタイルタグで、この後にスタイルを必ず追加してください。
+   >この後に、必ず別のカスタムスタイルタグでスタイルを追加してください。
    >
-   >E メールデザイナーで生成された CSS を変更しないでください。
+   >メールDesignerで生成された CSS を変更しないでください。
    >
    >* `<style data-name="default" type="text/css">(##)</style>`
    >* `<style data-name="supportIOS10" type="text/css">(##)</style>`
@@ -73,56 +73,56 @@ E メールデザイナーの使用を開始し、レガシーエディターで
    >* `<style data-name="media-default-max-width-500px" type="text/css">(##)</style>`
    >* `<style data-name="media-default--webkit-min-device-pixel-ratio-0" type="text/css">(##)</style>`
 
-1. モバイル表示に戻って、コンテンツが正しく表示されていることを確認し、変更を保存します。
+1. モバイルビューに戻ってコンテンツが正しく表示されていることを確認し、変更を保存します。
 
 ## ユースケース
 
-従来のエディターで作成したこのメールを、 **[!UICONTROL Email Designer]** テンプレート。
+従来のエディターで作成されたこのメールを、**[!UICONTROL Email Designer]** テンプレートに変換してみましょう。
 
-### E メールのセクションを特定する
+### メールのセクションを識別
 
-この電子メールで 11 のセクションを特定できます。
+このメールでは、11 のセクションを特定できます。
 
 ![](assets/html-dce-view-mail.png)
 
-要素のどのセクションかを識別するには、HTMLを選択します。
+HTMLのどのセクションかを特定するには、要素を選択します。
 
 ![](assets/breadcrumbs.png)
 
-E メールのHTMLバージョンを確認するには、 **[!UICONTROL Show source]**.
+メールのHTMLバージョンを確認するには、「**[!UICONTROL Show source]**」をクリックします。
 
-### E メールテンプレートとその構造を作成します。
+### メールテンプレートとその構造の作成
 
-1. ドラッグ&amp;ドロップ **[!UICONTROL Structure components]**  メールのレイアウトを反映します。
+1. ドラッグ&amp;ドロップ **[!UICONTROL Structure components]**、メールのレイアウトを反映させます。
 
-1. 必要な回数だけ繰り返します。 11 個の構造コンポーネントを作成する必要があります。
+1. 必要なだけ繰り返します。 11 個の構造コンポーネントを作成する必要があります。
 
    ![](assets/structure-components-migration.png)
 
 ### HTMLコンテンツコンポーネントの挿入
 
-1. 挿入： **[!UICONTROL HTML component]**  各 **[!UICONTROL Structure component]** .
+1. 各 **[!UICONTROL Structure component]** に **[!UICONTROL HTML component]** を挿入します。
 
    ![](assets/html-components.png)
 
-1. 各セクションで、 **[!UICONTROL Show source code]** .
+1. 各セクションで、「**[!UICONTROL Show source code]**」をクリックします。
 
    ![](assets/show-source-code.png)
 
-1. 「HTML」セクションを挿入します。
+1. HTMLセクションを挿入します。
 
 1. 「**[!UICONTROL Save]**」をクリックします。
 
-これで、E メールのレンダリングを確認できます。
+メールのレンダリングを確認できるようになりました。
 
 ![](assets/migrated-email-result.png)
 
 ### モバイルビューに合わせたスタイルの管理
 
-1. CSS 要素を挿入して、電子メールがモバイル表示に適していることを確認します。
+1. CSS 要素を挿入して、メールがモバイルビューに適していることを確認します。
 
-1. ソースコードに切り替え、スタイルセクションを新しいスタイルセクションにコピー&amp;ペーストします。
+1. ソースコードに切り替え、スタイルセクションをコピーして新しいスタイルセクションに貼り付けます。
 
-詳しくは、 [E メールのスタイルを管理](#manage-the-style-of-your-email).
+詳しくは、[ メールのスタイルの管理 ](#manage-the-style-of-your-email) を参照してください。
 
-従来の E メールを E メールデザイナーで使用できるようになりました。
+従来のメールが、メールDesignerで使用できるようになりました。

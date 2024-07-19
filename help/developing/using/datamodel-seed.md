@@ -1,6 +1,6 @@
 ---
-title: DataModel シードメンバー
-description: データモデルの詳細
+title: データモデルのシードメンバー
+description: データモデルについて説明します
 audience: developing
 content-type: reference
 feature: Data Model
@@ -14,7 +14,7 @@ ht-degree: 45%
 
 ---
 
-# シードメンバー (nms:seedMember)
+# シードメンバー（nms:seedMember）
 
 ## オブジェクトの説明
 
@@ -22,7 +22,7 @@ ht-degree: 45%
                <tr>
                   <th>名前</th>
                   <th>ラベル</th>
-                  <th>タイプ（長さ）</th>
+                  <th>タイプ （長さ）</th>
                   <th>列挙値</th>
                </tr>
                <tr>
@@ -44,21 +44,21 @@ ht-degree: 45%
                   <td> </td>
                </tr>
                <tr>
-                  <td>createdBy (userBase)</td>
+                  <td>createdBy （userBase）</td>
                   <td>作成者</td>
                   <td>リンク </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>desc</td>
+                  <td>降順</td>
                   <td>説明</td>
-                  <td>文字列 (512)</td>
+                  <td>文字列（512）</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>メール</td>
                   <td>メール</td>
-                  <td>文字列 (128)</td>
+                  <td>文字列（128）</td>
                   <td> </td>
                </tr>
                <tr>
@@ -70,24 +70,24 @@ ht-degree: 45%
                <tr>
                   <td>fax</td>
                   <td>ファックス</td>
-                  <td>文字列 (32)</td>
+                  <td>文字列（32）</td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>geoUnit (geoUnitBase)</td>
+                  <td>geoUnit （geoUnitBase）</td>
                   <td>地理的単位</td>
                   <td>リンク </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>isExternal</td>
-                  <td>外部リソースです</td>
+                  <td>外部リソース</td>
                   <td>ブール値 </td>
                   <td> </td>
                </tr>
                <tr>
                   <td>lastModified</td>
-                  <td>最終変更日時</td>
+                  <td>最終変更日</td>
                   <td>日付 </td>
                   <td> </td>
                </tr>
@@ -99,8 +99,8 @@ ht-degree: 45%
                </tr>
                <tr>
                   <td>marketingCloudId</td>
-                  <td>Marketing CloudID</td>
-                  <td>文字列 (256)</td>
+                  <td>MARKETING CLOUDID</td>
+                  <td>文字列（256）</td>
                   <td> </td>
                </tr>
                <tr>
@@ -112,11 +112,11 @@ ht-degree: 45%
                <tr>
                   <td>mobilePhone</td>
                   <td>モバイル</td>
-                  <td>文字列 (32)</td>
+                  <td>文字列（32）</td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>modifiedBy (userBase)</td>
+                  <td>modifiedBy （userBase）</td>
                   <td>変更者</td>
                   <td>リンク </td>
                   <td> </td>
@@ -124,7 +124,7 @@ ht-degree: 45%
                <tr>
                   <td>name</td>
                   <td>ID</td>
-                  <td>文字列 (64)</td>
+                  <td>文字列（64）</td>
                   <td> </td>
                </tr>
                <tr>
@@ -140,7 +140,7 @@ ht-degree: 45%
                   <td> </td>
                </tr>
                <tr>
-                  <td>orgUnit (orgUnitBase)</td>
+                  <td>orgUnit （orgUnitBase）</td>
                   <td>組織単位</td>
                   <td>リンク </td>
                   <td> </td>
@@ -148,7 +148,7 @@ ht-degree: 45%
                <tr>
                   <td>電話</td>
                   <td>電話</td>
-                  <td>文字列 (32)</td>
+                  <td>文字列（32）</td>
                   <td> </td>
                </tr>
                <tr>
@@ -160,13 +160,13 @@ ht-degree: 45%
                <tr>
                   <td>pushNotification</td>
                   <td>プッシュ通知</td>
-                  <td>文字列 (255)</td>
+                  <td>文字列（255）</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>registrationToken</td>
                   <td>登録トークン</td>
-                  <td>文字列 (256)</td>
+                  <td>文字列（256）</td>
                   <td> </td>
                </tr>
                <tr>
@@ -178,11 +178,11 @@ ht-degree: 45%
                <tr>
                   <td>SMS</td>
                   <td>モバイル</td>
-                  <td>文字列 (255)</td>
+                  <td>文字列（255）</td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>stateLink (state)</td>
+                  <td>stateLink （状態）</td>
                   <td>状態</td>
                   <td>リンク </td>
                   <td> </td>
@@ -196,17 +196,17 @@ ht-degree: 45%
                <tr>
                   <td>thumbnail</td>
                   <td>サムネイル</td>
-                  <td>文字列 (255)</td>
+                  <td>文字列（255）</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>タイトル</td>
                   <td>テストプロファイル</td>
-                  <td>文字列 (255)</td>
+                  <td>文字列（255）</td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>トラップ</td>
+                  <td>わな</td>
                   <td>トラップ</td>
                   <td>ブール値 </td>
                   <td> </td>
@@ -215,7 +215,7 @@ ht-degree: 45%
 
 ## フィルター
 
-イベントタイプ別 (byEventType)
+イベントタイプ別（byEventType）
 
 <table>
         <tr>
@@ -228,7 +228,7 @@ ht-degree: 45%
         </tr>
     </table>
 
-名前別またはラベル別（テキスト別）
+名前またはラベル （byText）
 
 <table>
         <tr>
@@ -241,7 +241,7 @@ ht-degree: 45%
         </tr>
     </table>
 
-使用状況別 (byUsage)
+用途別（byUsage）
 
 <table>
         <tr>
@@ -249,7 +249,7 @@ ht-degree: 45%
         <th>タイプ</th>
         </tr>
         <tr>
-        <td>トラップ</td>
+        <td>わな</td>
         <td>ブール値</td>
         </tr>
         <tr>
@@ -262,7 +262,7 @@ ht-degree: 45%
         </tr>
     </table>
 
-テストプロファイル（プロファイル）
+テストプロファイル （プロファイル）
 
 <table>
     <tr>

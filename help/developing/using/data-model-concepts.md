@@ -34,7 +34,7 @@ Adobe Campaign が使用するデータは、様々なリソースを通じて�
 
 >[!NOTE]
 >
->の組み込みリソースのデータモデル表現は、 [このページ](../../developing/using/datamodel-introduction.md).
+>組み込みリソースのデータモデル表現については、[ このページ ](../../developing/using/datamodel-introduction.md) を参照してください。
 
 また、作成したリソースに対応する画面で[ナビゲーションを設定](configuring-the-screen-definition.md)することもできます。
 
@@ -42,4 +42,4 @@ Adobe Campaign が使用するデータは、様々なリソースを通じて�
 
 >[!CAUTION]
 >
->機能のみ [管理者](../../administration/using/users-management.md#functional-administrators)、を **[!UICONTROL Administration]** 役割とアクセス権 **すべて** ユニットは、送信ログ、メッセージログ、トラッキングログ、除外ログ、購読ログにアクセスできます。 管理者以外のユーザーは、リンクされたテーブル（プロファイル、配信）から開始しながら、これらのログをターゲットにすることができます。
+>**[!UICONTROL Administration]** の役割と **すべて ](../../administration/using/users-management.md#functional-administrators) ユニットへのアクセス権を持つ機能 [ 管理者** のみが、送信ログ、メッセージログ、トラッキングログ、除外またはサブスクリプションログにアクセスできます。 管理者以外のユーザーは、これらのログをターゲットにすることができますが、これはリンクされたテーブル（プロファイル、配信）から開始します。

@@ -1,6 +1,6 @@
 ---
-title: プライバシー管理について
-description: API を使用したプライバシー管理の詳細を説明します
+title: プライバシーの管理について
+description: API を使用したプライバシー管理の詳細
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -12,19 +12,19 @@ ht-degree: 0%
 ---
 
 
-# プライバシー管理について {#about-privacy-management}
+# プライバシーの管理について {#about-privacy-management}
 
-Campaign StandardAPI は、GDPR や CCPA などのプライバシー規制に関連するリクエストを自動処理できる機能を提供します。
+Campaign StandardAPI は、GDPR や CCPA などのプライバシー規制に関連するリクエストの自動処理を可能にする機能を提供します。
 
 実行できるアクションは次のとおりです。
 
 * 新しいプライバシーリクエストを作成し、
 * プライバシーリクエストの監視
-* プライバシーデータファイルの取得
+* プライバシーデータファイルの取得。
 * プロファイルの CCPA オプトアウトステータスを管理します。
 
-プライバシー API エンドポイントは、 **/privacy/privacyTool**. PrivacyTool リソースの説明と関連フィルターは、リソースのメタデータ内で使用できます。 詳しくは、 [メタデータのメカニズム](../../api/using/metadata-mechanism.md).
+プライバシー API エンドポイントは、**/privacy/privacyTool** です。 PrivacyTool リソースの説明と関連するフィルターを、リソースのメタデータで使用できます。 [ メタデータメカニズム ](../../api/using/metadata-mechanism.md) を参照してください。
 
-CCPA のオプトアウトは、 **ccpaOptOut** プロファイル属性。
+CCPA オプトアウトは、**ccpaOptOut** プロファイル属性を使用して管理されます。
 
-Adobe Campaign Standardおよびプライバシーコンプライアンスについて詳しくは、 [専用ドキュメント](../../start/using/privacy-requests.md).
+Adobe Campaign Standardとプライバシーコンプライアンスについて詳しくは、[ 専用ドキュメント ](../../start/using/privacy-requests.md) を参照してください。

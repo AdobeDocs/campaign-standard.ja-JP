@@ -1,6 +1,6 @@
 ---
 title: 外部データを使用したデータベースの更新
-description: この使用例では、ファイルから回復したデータを使用して、Adobe Campaignデータベースにプロファイルを追加または更新する方法を示します。
+description: このユースケースでは、ファイルから復元したデータを使用して、Adobe Campaign データベースにプロファイルを追加または更新する方法を示します。
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
@@ -18,9 +18,9 @@ ht-degree: 11%
 
 # 外部データを使用したデータベースの更新 {#update-database-file}
 
-次の例は、 **[!UICONTROL Update data]** 次のアクティビティ **[!UICONTROL Load file]** アクティビティ。 このワークフローの目的は、ファイルから回復したデータを使用して、Adobe Campaignデータベースにプロファイルを追加または更新することです。
+次の例は、**[!UICONTROL Load file]** アクティビティに続く **[!UICONTROL Update data]** アクティビティの設定を示しています。 このワークフローの目的は、ファイルから復元されたデータを使用して、Adobe Campaign データベースにプロファイルを追加または更新することです。
 
-この例では、使用する紐付けキーは **電子メールアドレス**. に読み込まれたファイル [ファイルを読み込み](../../automating/using/load-file.md) アクティビティは **.txt** 次のサンプルデータを含む形式ファイル：
+この例で使用される紐付けキーは **メールアドレス** です。 [ ファイルを読み込み ](../../automating/using/load-file.md) アクティビティで読み込まれるファイルは、次のサンプルデータを含んだ **.txt** 形式のファイルです。
 
 ```
 lastname;firstname;email;birthdate
@@ -35,7 +35,7 @@ grimes;daryl;daryl_890@testmail.com;12/06/1979
 tycoon;tyreese;tyreese_t@testmail.net;10/08/1971
 ```
 
-The [データを更新](../../automating/using/update-data.md) 「 」アクティビティは次のように設定します。
+[ データを更新 ](../../automating/using/update-data.md) アクティビティは、次のように設定されます。
 
 ![](assets/deduplication_example2_writer1.png)
 

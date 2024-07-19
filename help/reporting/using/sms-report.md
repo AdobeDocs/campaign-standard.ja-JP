@@ -1,6 +1,6 @@
 ---
 title: SMS レポート
-description: 標準の SMS レポートを使用して、SMS 配信の成功を確認します。
+description: 標準の SMS レポートを使用して、SMS 配信の成功について説明します。
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
@@ -17,12 +17,12 @@ ht-degree: 5%
 
 # SMS レポート{#sms-report}
 
-The **SMS** レポートには、配信率やバウンス率など、SMS 配信に関する詳細が表示されます。
+**SMS** レポートは、配信やバウンス率など、SMS 配信に関する詳細を提供します。
 
 ![](assets/dynamic_report_sms.png)
 
-The **SMS の概要** テーブル、グラフ、および概要番号には、送信された SMS 配信で使用可能なデータが含まれています。
+**SMS の概要** テーブル、グラフ、概要番号には、送信された SMS 配信に使用できるデータが含まれています。
 
 * **処理済み/送信済み**：送信された SMS の数。
 * **配信済み**：配信された SMS の数。
-* **バウンス数+エラー数**：配信できなかったメッセージの数。
+* **バウンス + エラー**：配信できなかったメッセージの数。

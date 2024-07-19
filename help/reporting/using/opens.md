@@ -1,6 +1,6 @@
 ---
 title: 開封数
-description: 開封数レポートを使用して、様々な条件に従って最も閲覧された配信を確認します。
+description: 開封数レポートでは、様々な条件に照らして、最も多く閲覧された配信を確認できます。
 audience: reporting
 content-type: reference
 topic-tags: list-of-reports
@@ -18,15 +18,15 @@ ht-degree: 9%
 
 # 開封数{#opens}
 
-The **[!UICONTROL Opens]** レポートは、受信者が最も閲覧した配信を特定します。
+**[!UICONTROL Opens]** レポートは、受信者によって最も多く表示された配信を識別します。
 
 ![](assets/delivery_reports_opens.png)
 
-以下に基づいて、E メールを開封した受信者の合計数を 4 つのテーブルやグラフで分類します。
+4 つの表とグラフが、メールを開封した受信者の合計数を次の条件に基づいて分類します。
 
 * ブラウザー
 * デバイス
 * プラットフォーム
 * ドメイン
 
-The **[!UICONTROL TOP 5]** テーブルおよびグラフには、配信されたメッセージの数が最も多い配信が表示されます。
+**[!UICONTROL TOP 5]** のテーブルとグラフには、配信されたメッセージの数が最も多い配信が表示されます。

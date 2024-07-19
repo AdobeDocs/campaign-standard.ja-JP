@@ -18,7 +18,7 @@ ht-degree: 93%
 
 # ランディングページの設定 {#configuring-landing-page}
 
-## ランディングページの送信の確認 {#confirm-a-landing-page-submission}
+## ランディングページの送信を確認 {#confirm-a-landing-page-submission}
 
 訪問者がランディングページを送信した場合に、アクションをトリガーするように設定できます。手順は次のとおりです。
 
@@ -69,7 +69,7 @@ ht-degree: 93%
 
    ![](assets/lp_parameters_3_temp.png)
 
-また、 **[!UICONTROL Authorize unidentified visitors]** オプション。
+また、**[!UICONTROL Authorize unidentified visitors]** オプションを使用して、ランディングページへのアクセスを任意の訪問者に許可することもできます。
 
 <!--Use the URL parameters to identify the visitors, using the **[!UICONTROL Authorize visitor identification via URL parameters]** option: then you must choose the loading key and map the filter parameters with the parameters of the corresponding URL.-->
 
@@ -115,4 +115,4 @@ ht-degree: 93%
 
 ![](assets/lp_parameters_google2.png)
 
-その後、Google reCAPTCHA は、ページでのユーザーのインタラクションに基づいてスコアを返します。スコアを確認するには、Google Admin Console に接続します。
+その後、Google reCAPTCHA は、ページでのユーザーのインタラクションに基づいてスコアを返します。スコアを確認するには、Google Admin Console に接続してください。

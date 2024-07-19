@@ -19,16 +19,16 @@ ht-degree: 33%
 
 ## トラッキングについて {#about-tracking}
 
-Adobe Campaignでは、トラッキング機能を使用して、配信受信者の行動をトラッキングできます。 そのために、Adobe Campaign ではセッション Cookie および永続 Cookie を使用します。
+Adobe Campaignのトラッキング機能では、配信の受信者の行動をトラッキングできます。 そのために、Adobe Campaign ではセッション Cookie および永続 Cookie を使用します。
 
-Cookie の使用を許可するチェックボックスが付いた認証リクエスト（例：ページ上で表示される）を介して、サイトに Web トラッキングツールが装備されていることをユーザーに通知したり、最初のページの上部にバナーを追加したりできます。 ポップアップウィンドウはブラウザーでブロックされていることが多いので、避ける必要があります。
+サイトに承認リクエスト（ページ上に表示されるなど）を通じて、Cookie の使用を許可するチェックボックスを備えた web トラッキングツールが搭載されていることをユーザーに通知したり、サイトが最初に表示されるページの上部にバナーを追加したりできます。 ポップアップウィンドウはブラウザーでブロックされていることが多いので、避ける必要があります。
 
-トラッキング情報は、データベースの各連絡先に対して、次の項目に対して使用できます。 **[!UICONTROL integrated customer profiles]**. 詳しくは、[この節](../../audiences/using/integrated-customer-profile.md)を参照してください。
+トラッキング情報は、**[!UICONTROL integrated customer profiles]** へのデータベースの各連絡先で使用できます。 詳しくは、[この節](../../audiences/using/integrated-customer-profile.md)を参照してください。
 
 Adobe Campaign は、次の 2 つのタイプの Cookie を使用します。
 
-* セッション Cookie (nlid)。 連絡先に送信されるメールの識別子（broadlogId）およびメッセージテンプレートの識別子（deliveryId）が含まれています。Adobe Campaign が送信したメールに含まれている URL を連絡先のユーザーがクリックすると追加され、この連絡先での web 上の行動をトラッキングできるようになります。このセッション Cookie は、ブラウザーが閉じられると自動的に消去されます。連絡先のユーザーは、Cookie を拒否するようにブラウザーを設定できます。
-* Adobe Experience Cloudソリューション間で共有される cookie。 これにより、Web サイトの訪問時に Experience Cloud ソリューションとやり取りするユーザーを識別できます。この Cookie の説明については、[こちら](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html)を参照してください。
+* セッション cookie （nlid）。 連絡先に送信されるメールの識別子（broadlogId）およびメッセージテンプレートの識別子（deliveryId）が含まれています。Adobe Campaign が送信したメールに含まれている URL を連絡先のユーザーがクリックすると追加され、この連絡先での web 上の行動をトラッキングできるようになります。このセッション Cookie は、ブラウザーが閉じられると自動的に消去されます。連絡先のユーザーは、Cookie を拒否するようにブラウザーを設定できます。
+* Adobe Experience Cloud ソリューション間で共有される cookie。 これにより、Web サイトの訪問時に Experience Cloud ソリューションとやり取りするユーザーを識別できます。この Cookie の説明については、[こちら](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html)を参照してください。
 
 Adobe Campaign Standardを使用したトラッキングでは、次の機能にアクセスできます。
 
@@ -61,11 +61,11 @@ Adobe Campaign Standardを使用したトラッキングでは、次の機能に
 
 ## トラッキングログ {#tracking-logs}
 
-The **[!UICONTROL Tracking logs]** 「 」タブには、この配信のトラッキング履歴が一覧表示されます。 このタブには、Adobe Campaignで追跡されているすべての URL など、送信されたメッセージのトラッキング情報が表示されます。 このタブのトラッキング情報は、10 分ごとに更新されます。
+「**[!UICONTROL Tracking logs]**」タブには、この配信のトラッキング履歴が一覧表示されます。 このタブには、Adobe Campaignでトラッキングされたすべての URL など、送信済みメッセージのトラッキング情報が表示されます。 このタブのトラッキング情報は 10 分ごとに更新されます。
 
 >[!NOTE]
 >
->配信のトラッキングが有効になっていない場合、このタブは表示されません。 トラッキングログは、 **電子メール** および **プッシュ通知** チャネルのみ。
+>配信トラッキングが有効になっていない場合、このタブは表示されません。 トラッキングログは、**電子メール** および **プッシュ通知** チャネルでのみ使用できます。
 
 ![](assets/tracking_logs.png)
 
@@ -73,27 +73,27 @@ The **[!UICONTROL Tracking logs]** 「 」タブには、この配信のトラ�
 
 * メッセージを開きました。
 * ミラーページのリンクをクリックしました。
-* 「LEARN MORE」カスタムリンクをクリックしました。
+* 「詳細情報」カスタムリンクをクリックしました。
 
-Adobe Analytics の **[!UICONTROL Type]** 列には、次の値を指定できます。
+**[!UICONTROL Type]** 列に表示できる値は次のとおりです。
 
-* **[!UICONTROL Email click]**：受信者がカスタムリンクをクリックしました。
-* **[!UICONTROL Mirror page]**：受信者がミラーページへのリンクをクリックしました。
-* **[!UICONTROL Open]**：受信者が E メールを開封しました。
-* **[!UICONTROL Opt-out]**：受信者が購読解除リンクをクリックしました。
+* **[!UICONTROL Email click]**：受信者がカスタムリンクをクリックした。
+* **[!UICONTROL Mirror page]**：受信者がミラーページへのリンクをクリックした。
+* **[!UICONTROL Open]**：受信者がメールを開封しました。
+* **[!UICONTROL Opt-out]**：受信者が購読解除リンクをクリックした。
 
 >[!NOTE]
 >
->の **プッシュ通知** チャネルに送信された場合、モバイル通知のクリックのみが追跡されます。 その場合、値は **[!UICONTROL Click on mobile notification]**.
+>**プッシュ通知** チャネルの場合、モバイル通知のクリックのみがトラッキングされます。 この場合、値は **[!UICONTROL Click on mobile notification]** になります。
 
-トラッキングリンクの挿入方法について詳しくは、 [このページ](../../designing/using/links.md#inserting-a-link).
+トラッキングリンクの挿入方法について詳しくは、[ このページ ](../../designing/using/links.md#inserting-a-link) を参照してください。
 
-The **[!UICONTROL Tracking indicators]** レポートには、電子メールメッセージの受信後の行動をトラッキングするための主要指標が含まれます。 詳しくは、この[ページ](../../reporting/using/tracking-indicators.md)を参照してください。
+**[!UICONTROL Tracking indicators]** レポートには、メールメッセージを受信した後の行動をトラッキングする主要な指標が含まれています。 詳しくは、この[ページ](../../reporting/using/tracking-indicators.md)を参照してください。
 
 ## トラッキングする URL {#tracked-urls}
 
-The **[!UICONTROL Tracked URLs]** 「 」タブは、送信されたメッセージに含まれている URL を、その URL タイプとソース URL を含めて再グループ化します。
+「**[!UICONTROL Tracked URLs]**」タブは、送信されたメッセージに含まれている URL を、その URL タイプとソース URL を含めて再グループ化します。
 
 ![](assets/sending_delivery6.png)
 
-トラッキングリンクについて詳しくは、 [この節](../../designing/using/links.md#about-tracked-urls).
+トラッキングリンクについて詳しくは、[ この節 ](../../designing/using/links.md#about-tracked-urls) を参照してください。

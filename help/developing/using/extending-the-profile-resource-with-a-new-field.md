@@ -25,10 +25,10 @@ ht-degree: 92%
 
 これをおこなうには、以下の手順に従います。
 
-* [手順 1：プロファイルリソースの拡張](#step-1--extend-the-profile-resource)
-* [手順 2：テストプロファイルの拡張](#step-2--extend-the-test-profile)
-* [手順 3：カスタムリソースの公開](#step-3--publish-your-custom-resource)
-* [手順 4：ワークフローを使用したプロファイルの更新とターゲティング](#step-4--update-and-target-profiles-with-a-workflow)
+* [手順 1：プロファイルリソースを拡張する](#step-1--extend-the-profile-resource)
+* [手順 2：テストプロファイルを拡張する](#step-2--extend-the-test-profile)
+* [手順 3：カスタムリソースのPublish](#step-3--publish-your-custom-resource)
+* [手順 4：ワークフローでのプロファイルの更新とターゲット設定](#step-4--update-and-target-profiles-with-a-workflow)
 
 次のフィールドがプロファイルに追加され、配信でプロファイルのターゲティングを実行できます。
 
@@ -40,7 +40,7 @@ ht-degree: 92%
 * [プロファイルの管理](../../audiences/using/about-profiles.md)
 * [テストプロファイルの管理](../../audiences/using/managing-test-profiles.md)
 
-## 手順 1：プロファイルリソースの拡張 {#step-1--extend-the-profile-resource}
+## 手順 1：プロファイルリソースを拡張する {#step-1--extend-the-profile-resource}
 
 プロファイルの新しい「**Interest**」フィールドを作成するには、まず標準の **[!UICONTROL Profiles (profile)]** リソースを拡張する必要があります。
 
@@ -71,7 +71,7 @@ ht-degree: 92%
 
 1. 「**[!UICONTROL Add an element]**」をクリックし、**[!UICONTROL Label]** と **[!UICONTROL ID]** を追加して「**[!UICONTROL Add]**」をクリックし、必要な数だけ値を追加します。
 
-   この例では、プロファイルがこれらのオプションから選択する「Books」、「Exhibitions」、「Movies」および「N/A」の値を作成します。
+   この例では、書籍、展覧会、映画、プロファイルの N/A 値を作成して、これらのオプションから選択します。
 
    ![](assets/schema_extension_uc11.png)
 
@@ -94,7 +94,7 @@ ht-degree: 92%
 >
 >テストプロファイルリソースを拡張する必要がない場合は、公開の手順に進むことができます。
 
-## 手順 2：テストプロファイルの拡張 {#step-2--extend-the-test-profile}
+## 手順 2：テストプロファイルを拡張する {#step-2--extend-the-test-profile}
 
 新しく作成されたフィールドが正しく設定されているかどうかをテストするには、配信をテストプロファイルに送信します。まず、新しく作成されたフィールドをテストプロファイルに対しても実行する必要があります。
 
@@ -119,7 +119,7 @@ ht-degree: 92%
 
 これで、プロファイルとテストプロファイルの両方で、新しいフィールドが使用可能になります。正しく設定するには、カスタムリソースを公開する必要があります。
 
-## 手順 3：カスタムリソースの公開 {#step-3--publish-your-custom-resource}
+## 手順 3：カスタムリソースのPublish {#step-3--publish-your-custom-resource}
 
 リソースでおこなわれた変更を適用して使用できるようにするには、データベースの更新を実行する必要があります。
 
@@ -143,7 +143,7 @@ ht-degree: 92%
 
 これで、新しいリソースフィールドを使用して、配信でターゲットを設定できる状態になりました。
 
-## 手順 4：ワークフローを使用したプロファイルの更新とターゲティング {#step-4--update-and-target-profiles-with-a-workflow}
+## 手順 4：ワークフローでのプロファイルの更新とターゲット設定 {#step-4--update-and-target-profiles-with-a-workflow}
 
 プロファイルを新しいカスタムフィールドのデータで更新するには、**[!UICONTROL Profile acquisition]** テンプレートを使用してランディングページを作成します。ランディングページについて詳しくは、この[ページ](../../channels/using/getting-started-with-landing-pages.md)を参照してください。
 

@@ -1,6 +1,6 @@
 ---
-title: DataModel Service
-description: データモデルの詳細
+title: データモデルサービス
+description: データモデルについて説明します
 audience: developing
 content-type: reference
 feature: Data Model
@@ -14,7 +14,7 @@ ht-degree: 42%
 
 ---
 
-# サービス (nms:service)
+# サービス （nms:service）
 
 ## オブジェクトの説明
 
@@ -22,7 +22,7 @@ ht-degree: 42%
                <tr>
                   <th>名前</th>
                   <th>ラベル</th>
-                  <th>タイプ（長さ）</th>
+                  <th>タイプ （長さ）</th>
                   <th>列挙値</th>
                </tr>
                <tr>
@@ -44,7 +44,7 @@ ht-degree: 42%
                   <td> </td>
                </tr>
                <tr>
-                  <td>createdBy (userBase)</td>
+                  <td>createdBy （userBase）</td>
                   <td>作成者</td>
                   <td>リンク </td>
                   <td> </td>
@@ -56,9 +56,9 @@ ht-degree: 42%
                   <td> </td>
                </tr>
                <tr>
-                  <td>desc</td>
+                  <td>降順</td>
                   <td>説明</td>
-                  <td>文字列 (512)</td>
+                  <td>文字列（512）</td>
                   <td> </td>
                </tr>
                <tr>
@@ -68,7 +68,7 @@ ht-degree: 42%
                   <td> </td>
                </tr>
                <tr>
-                  <td>geoUnit (geoUnitBase)</td>
+                  <td>geoUnit （geoUnitBase）</td>
                   <td>地理的単位</td>
                   <td>リンク </td>
                   <td> </td>
@@ -81,7 +81,7 @@ ht-degree: 42%
                </tr>
                <tr>
                   <td>isExternal</td>
-                  <td>外部リソースです</td>
+                  <td>外部リソース</td>
                   <td>ブール値 </td>
                   <td> </td>
                </tr>
@@ -94,12 +94,12 @@ ht-degree: 42%
                <tr>
                   <td>ラベル</td>
                   <td>ラベル</td>
-                  <td>文字列 (128)</td>
+                  <td>文字列（128）</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>lastModified</td>
-                  <td>最終変更日時</td>
+                  <td>最終変更日</td>
                   <td>日付 </td>
                   <td> </td>
                </tr>
@@ -112,7 +112,7 @@ ht-degree: 42%
                <tr>
                   <td>mainDate</td>
                   <td>日付</td>
-                  <td>日付 (255)</td>
+                  <td>日付（255）</td>
                   <td> </td>
                </tr>
                <tr>
@@ -121,26 +121,26 @@ ht-degree: 42%
                   <td>列挙（バイト） </td>
                   <td>
                      <ul>
-                        <li>モバイル (SMS) - sms - 1</li>
-                        <li>E メール — E メール — 0</li>
-                        <li>無効な値 — __Invalid_value__ - __Invalid_value__</li>
+                        <li>モバイル （SMS） - sms - 1</li>
+                        <li>電子メール – 電子メール - 0</li>
+                        <li>無効な値 – __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
                <tr>
-                  <td>mode</td>
+                  <td>モード</td>
                   <td>モード</td>
                   <td>列挙（バイト） </td>
                   <td>
                      <ul>
-                        <li>バイラル — 1</li>
-                        <li>ニュースレター — ニュースレター — 0</li>
-                        <li>無効な値 — __Invalid_value__ - __Invalid_value__</li>
+                        <li>バイラル – バイラル - 1</li>
+                        <li>ニュースレター – ニュースレター – 0</li>
+                        <li>無効な値 – __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
                <tr>
-                  <td>modifiedBy (userBase)</td>
+                  <td>modifiedBy （userBase）</td>
                   <td>変更者</td>
                   <td>リンク </td>
                   <td> </td>
@@ -148,11 +148,11 @@ ht-degree: 42%
                <tr>
                   <td>name</td>
                   <td>ID</td>
-                  <td>文字列 (64)</td>
+                  <td>文字列（64）</td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>orgUnit (orgUnitBase)</td>
+                  <td>orgUnit （orgUnitBase）</td>
                   <td>組織単位</td>
                   <td>リンク </td>
                   <td> </td>
@@ -160,7 +160,7 @@ ht-degree: 42%
                <tr>
                   <td>publicLabel</td>
                   <td>サービスラベル</td>
-                  <td>文字列 (128)</td>
+                  <td>文字列（128）</td>
                   <td> </td>
                </tr>
                <tr>
@@ -170,13 +170,13 @@ ht-degree: 42%
                   <td> </td>
                </tr>
                <tr>
-                  <td>subLandingPage (landingPageSubscriptionBase)</td>
+                  <td>subLandingPage （landingPageSubscriptionBase）</td>
                   <td>購読のランディングページ</td>
                   <td>リンク </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>subScenario (deliveryMCTemplateBase)</td>
+                  <td>subScenario （deliveryMCTemplateBase）</td>
                   <td>購読の確認</td>
                   <td>リンク </td>
                   <td> </td>
@@ -188,7 +188,7 @@ ht-degree: 42%
                   <td> </td>
                </tr>
                <tr>
-                  <td>購読</td>
+                  <td>subscriptions</td>
                   <td>購読</td>
                   <td>コレクション </td>
                   <td> </td>
@@ -196,11 +196,11 @@ ht-degree: 42%
                <tr>
                   <td>targetResource</td>
                   <td>ターゲティングディメンション</td>
-                  <td>文字列 (255)</td>
+                  <td>文字列（255）</td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>template (service)</td>
+                  <td>テンプレート （サービス）</td>
                   <td>サービステンプレート</td>
                   <td>リンク </td>
                   <td> </td>
@@ -208,23 +208,23 @@ ht-degree: 42%
                <tr>
                   <td>thumbnail</td>
                   <td>サムネイル</td>
-                  <td>文字列 (255)</td>
+                  <td>文字列（255）</td>
                   <td> </td>
                </tr>
                <tr>
                   <td>タイトル</td>
                   <td>サービス</td>
-                  <td>文字列 (255)</td>
+                  <td>文字列（255）</td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>unsubLandingPage (landingPageUnsubscriptionBase)</td>
+                  <td>unsubLandingPage （landingPageUnsubscriptionBase）</td>
                   <td>登録解除のランディングページ</td>
                   <td>リンク </td>
                   <td> </td>
                </tr>
                <tr>
-                  <td>unsubScenario (deliveryMCTemplateBase)</td>
+                  <td>unsubScenario （deliveryMCTemplateBase）</td>
                   <td>購読解除の確認</td>
                   <td>リンク </td>
                   <td> </td>
@@ -245,7 +245,7 @@ ht-degree: 42%
 
 ## フィルター
 
-指定した期間 (byPlanning) に使用可能
+指定された期間に使用可能（byPlanning）
 
 <table>
     <tr>
@@ -262,7 +262,7 @@ ht-degree: 42%
     </tr>
 </table>
 
-チャネルタイプ別 (byChannel)
+チャネルタイプ別（byChannel）
 
 <table>
 <tr>
@@ -271,11 +271,11 @@ ht-degree: 42%
 </tr>
 <tr>
 <td>チャネル</td>
-<td>列挙</td>
+<td>定義済みリスト</td>
 </tr>
 </table>
 
-名前別またはラベル別（テキスト別）
+名前またはラベル （byText）
 
 <table>
 <tr>
@@ -288,7 +288,7 @@ ht-degree: 42%
 </tr>
 </table>
 
-ターゲティングリソース別 (byTargetResource)
+ターゲティングリソースによる（byTargetResource）
 
 <table>
 <tr>

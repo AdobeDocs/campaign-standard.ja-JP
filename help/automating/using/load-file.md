@@ -22,13 +22,13 @@ ht-degree: 93%
 
 >[!CAUTION]
 >
->この機能を使用する際は、Adobe Campaign契約に従って、SFTP ストレージ、DB ストレージ、アクティブなプロファイルの制限に注意してください。
+>この機能を使用する際は、Adobe Campaignの契約に従って、SFTP ストレージ、DB ストレージ、アクティブなプロファイルの制限に注意してください。
 
 ![](assets/data_loading.png)
 
 「**[!UICONTROL Load file]**」アクティビティを使用すると、1 つの構造化されたフォームにデータをインポートして、Adobe Campaign で使用することができます。データは一時的にインポートされます。このデータを Adobe Campaign データベースに確実に統合するには別のアクティビティが必要です。
 
-## 使用状況 {#context-of-use}
+## 使用コンテキスト {#context-of-use}
 
 データの抽出方法は、アクティビティの設定時に定義されます。読み込むファイルとしては、例えば連絡先のリストなどがあります。
 
@@ -43,10 +43,10 @@ ht-degree: 93%
 
 **関連トピック：**
 
-* [使用例：外部データを使用したデータベースの更新](../../automating/using/update-database-file.md)
-* [使用例：ファイルの自動ダウンロードに基づくデータの更新](../../automating/using/update-data-automatic-download.md)
-* [使用例：強化されたフィールドを含む E メールの送信](../../automating/using/sending-email-enriched-fields.md)
-* [使用例：ファイルオーディエンスとデータベースとの紐付け](../../automating/using/reconcile-file-audience-with-database.md)
+* [ユースケース：外部データを使用したデータベースの更新](../../automating/using/update-database-file.md)
+* [ユースケース：ファイルの自動ダウンロードに基づくデータの更新](../../automating/using/update-data-automatic-download.md)
+* [ユースケース：フィールドがエンリッチメントされたメールの送信](../../automating/using/sending-email-enriched-fields.md)
+* [ユースケース：ファイルオーディエンスとデータベースの紐付け](../../automating/using/reconcile-file-audience-with-database.md)
 
 ## 設定 {#configuration}
 
@@ -105,7 +105,7 @@ ht-degree: 93%
 
 1. データの読み込み元のファイルが圧縮されて GZIP ファイル（.gz）になっている場合は、「**[!UICONTROL Add a pre-processing stage]**」フィールドで「**[!UICONTROL Decompression]**」オプションを選択します。これにより、データを読み込む前にファイルを解凍できます。このオプションは、ファイルがアクティビティの受信トランジションから送信されている場合にのみ使用できます。
 
-   The **[!UICONTROL Add a pre-processing stage]** また、「 」フィールドでは、データベースにインポートする前にファイルを復号化することもできます。 暗号化されたファイルの操作方法について詳しくは、 [この節](../../automating/using/managing-encrypted-data.md)
+   また、「**[!UICONTROL Add a pre-processing stage]**」フィールドを使用すると、ファイルをデータベースに読み込む前に復号化できます。 暗号化ファイルの操作方法について詳しくは、[ この節 ](../../automating/using/managing-encrypted-data.md) を参照してください。
 
 1. 「**[!UICONTROL Keep the rejects in a file]**」オプションを使用すると、インポート中に発生したエラーが含まれるファイルをダウンロードし、後処理段階でそのファイルに適用することができます。このオプションを有効にすると、送信トランジションの名前が「却下」に変更されます。
 
@@ -119,7 +119,7 @@ ht-degree: 93%
 
 ワークフローの実行後にアクティビティでエラーが発生した場合は、ログを参照して、ファイル内の誤った値の詳細を確認します。ワークフローのログについて詳しくは、[この節](../../automating/using/monitoring-workflow-execution.md)を参照してください。
 
-## 列のフォーマット {#column-format}
+## 列の形式 {#column-format}
 
 サンプルファイルを読み込む際に、各データタイプのデフォルトのパラメーターを使用して列の形式が自動的に検出されます。このデフォルトのパラメーターを編集して（特に誤りや空の値がある場合）、特定の処理を指定してデータに適用することができます。
 

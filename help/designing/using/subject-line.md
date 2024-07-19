@@ -1,6 +1,6 @@
 ---
-title: E メールの件名行と送信者の定義
-description: E メールデザイナーで E メールの件名行と送信者を定義する方法を説明します。
+title: メールの件名と送信者の定義
+description: メールDesignerでメールの件名と送信者を定義する方法を説明します。
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
@@ -15,44 +15,44 @@ ht-degree: 6%
 
 ---
 
-# E メールの件名行と送信者の定義{#defining-the-subject-line-of-an-email}
+# メールの件名と送信者の定義{#defining-the-subject-line-of-an-email}
 
-## E メールの件名行の定義 {#subject-line}
+## メールの件名の定義 {#subject-line}
 
 メッセージの件名は、メッセージの準備と送信に必須です。
 
 >[!NOTE]
 >
->件名行が空の場合、警告がメッセージダッシュボードと E メールデザイナーに表示されます。
+>件名が空の場合、メッセージダッシュボードと電子メールDesignerに警告が表示されます。
 
-1. E メールを作成します。
-1. 次に進みます。 **[!UICONTROL Properties]** Email Designer ホームページの「 」タブ（ホームアイコンからアクセス可能）
-1. 次の項目に入力： **[!UICONTROL Subject]** 」セクションに入力します。
+1. メールを作成します。
+1. メールDesignerのホームページの「**[!UICONTROL Properties]**」タブに移動します（「ホーム」アイコンからアクセスできます）。
+1. 「**[!UICONTROL Subject]**」セクションに入力します。
 
    ![](assets/email_designer_subject.png)
 
-1. 対応するアイコンをクリックして、パーソナライゼーションフィールド、コンテンツブロック、動的コンテンツを件名行に追加することもできます。 詳しくは、 [パーソナライズ](../../designing/using/personalization.md).
+1. 対応するアイコンをクリックして、パーソナライゼーションフィールド、コンテンツブロック、動的コンテンツを件名に追加することもできます。 詳しくは、[Personalization](../../designing/using/personalization.md) を参照してください。
 
-## E メールの E メール送信者の定義 {#email-sender}
+## メールの送信者の定義 {#email-sender}
 
-送信するメッセージのヘッダーに表示される送信者の名前を定義するには、 **[!UICONTROL Properties]** Email Designer ホームページの「 」タブ（ホームアイコンからアクセス可能）
+送信されるメッセージのヘッダーに表示される送信者名を定義するには、メールDesignerのホームページの「**[!UICONTROL Properties]**」タブ（「ホーム」アイコンからアクセスできます）に移動します。
 
 ![](assets/delivery_content_edition16.png)
 
-* The **[!UICONTROL From: name]** 「 」フィールドには、送信者名を入力できます。 デフォルトでは、 **送信者名** ブロックが自動的に「 」フィールドに入力されます。 デフォルトの送信者 E メールアドレスと送信者名は、 **[!UICONTROL Brands]** 詳細設定メニューのAdobe Campaignロゴからアクセス可能 **[!UICONTROL Administration > Instance settings > Brand configuration]** .
+* 「**[!UICONTROL From: name]**」フィールドには、送信者名を入力できます。 デフォルトでは、デフォルトの **送信者名** ブロックがフィールドに自動的に入力されます。 デフォルトの送信者のメールアドレスと送信者名は、の詳細メニューでAdobe Campaign ロゴからアクセスできる **[!UICONTROL Brands]** で定義され **[!UICONTROL Administration > Instance settings > Brand configuration]** す。
 
-  送信者名を変更するには、 **送信者名** ブロック。 フィールドが編集可能になり、使用する名前を入力できます。
+  送信者名を変更するには、「送信者名 **ブロックをクリックし** す。 その後、フィールドが編集可能になり、使用する名前を入力できます。
 
-  このフィールドはパーソナライズできます。 これをおこなうには、送信者名の下のアイコンをクリックして、パーソナライゼーションフィールド、コンテンツブロック、動的コンテンツを追加します。 詳しくは、 [パーソナライズ](../../designing/using/personalization.md).
+  このフィールドはパーソナライズできます。 これを行うには、送信者名の下にあるアイコンをクリックして、パーソナライゼーションフィールド、コンテンツブロック、動的コンテンツを追加します。 詳しくは、[Personalization](../../designing/using/personalization.md) を参照してください。
 
-* The **[!UICONTROL From: email address]** このセクションからはフィールドを編集できません。 電子メールを変更するには、電子メールのダッシュボードからプロパティを編集します。 詳しくは、 [E メールの詳細設定パラメーターのリスト](../../administration/using/configuring-email-channel.md#advanced-parameters).
+* このセクションから **[!UICONTROL From: email address]** フィールドを編集することはできません。 ダッシュボードからメールのプロパティを編集することで変更できます。 詳しくは、[ メールの詳細設定パラメーターのリスト ](../../administration/using/configuring-email-channel.md#advanced-parameters) を参照してください。
 
 >[!NOTE]
 >
->ヘッダーパラメーターの値は省略できません。送信者のアドレスは、E メールの送信を許可するために必須です（RFC 標準規格）。 入力したメールアドレスの形式はチェックされます。
+>ヘッダーパラメーターの値は省略できません。メールの送信を許可するには、送信者のアドレスが必須です（RFC 標準）。 入力したメールアドレスの形式はチェックされます。
 
 **関連トピック：**
 
 * [パーソナライゼーションフィールドの挿入](../../designing/using/personalization.md#inserting-a-personalization-field)
 * [コンテンツブロックの追加](../../designing/using/personalization.md#adding-a-content-block)
-* [E メールでの動的コンテンツの定義](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)
+* [メールの動的コンテンツの定義](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)

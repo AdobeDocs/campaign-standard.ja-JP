@@ -18,13 +18,13 @@ ht-degree: 97%
 
 # 高度な式の編集{#advanced-expression-editing}
 
-## 高度な式の編集について {#about-advanced-expression-editing}
+## 高度な式編集について {#about-advanced-expression-editing}
 
 式を編集する場合は、条件を手動で入力してルールを作成します。
 
 このモードでは、高度な関数を使用できます。これらの関数を使用すると、日付、文字列、数値の各フィールドの操作や並べ替えなど、具体的なクエリの実行に使用する値を操作できます。
 
-また、式の編集時にワークフローのイベント変数を使用することもできます。 詳しくは、[イベント変数を使用したアクティビティのカスタマイズ](../../automating/using/customizing-workflow-external-parameters.md)の節を参照してください。
+式を編集する際に、ワークフローのイベント変数を使用することもできます。 詳しくは、[イベント変数を使用したアクティビティのカスタマイズ](../../automating/using/customizing-workflow-external-parameters.md)の節を参照してください。
 
 式は、次の目的で使用できます。
 
@@ -93,7 +93,7 @@ Year(@created) = Year(GetDate()) AND Month(@created) = Month(GetDate())
 
 この例では、作成日が現在の月と年に該当するプロファイルがターゲットになります。
 
-### JavaScript 構文 {#javascript-syntax}
+### JavaScript構文 {#javascript-syntax}
 
 HTML コンテンツエディターでテキストタイプのブロックの表示条件を定義する場合は、JavaScript タイプ構文に従った式を使用する必要があります。
 

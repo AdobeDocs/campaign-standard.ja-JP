@@ -1,6 +1,6 @@
 ---
-title: 既存のコンテンツを使用した E メールのデザイン
-description: E メールデザイナーで既存のコンテンツ E メールコンテンツを使用して E メールをデザインする方法を説明します。
+title: 既存のコンテンツを使用したメールのデザイン
+description: メールDesignerで既存のコンテンツのメールコンテンツを使用してメールをデザインする方法について説明します。
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
@@ -19,73 +19,73 @@ ht-degree: 4%
 
 ## 既存のコンテンツの選択{#selecting-an-existing-content}
 
-Adobe Campaignには、使い始めるのに役立つ、事前定義済みのコンテンツのセットが付属しています。 これらのいずれかを使用するか、送信する必要があるメッセージのコンテンツがAdobe Campaign以外で準備されている場合は、コンピューターまたは URL から読み込むことができます。
+Adobe Campaignには、利用を開始するのに役立つ、事前定義済みの一連のコンテンツが付属しています。 これらのいずれかを使用できます。または、送信する必要があるメッセージのコンテンツがAdobe Campaign以外で準備されている場合は、コンピューターまたは URL から読み込むことができます。
 
-E メールまたはランディングページを作成する際に、別のソースから既存のコンテンツを読み込むように選択できます。
+メールまたはランディングページの作成時に、別のソースから既存のコンテンツを読み込むように選択できます。
 
 >[!NOTE]
 >
->以下の画像は、 [E メールデザイナー](../../designing/using/designing-content-in-adobe-campaign.md).
+>以下の画像は、[ メールDesigner](../../designing/using/designing-content-in-adobe-campaign.md) を使用して既存のコンテンツを読み込む方法を示しています。
 
-1. E メールまたはランディングページを作成したら、そのコンテンツを開きます。
-1. ホームアイコンをクリックして、 **[!UICONTROL Email Designer]** ホームページ。
+1. メールまたはランディングページを作成したら、そのコンテンツを開きます。
+1. ホームアイコンをクリックして、**[!UICONTROL Email Designer]** のホームページにアクセスします。
 
    ![](assets/des_loading_1.png)
 
 1. 読み込むコンテンツのソースを選択します。
 
-   * [コンテンツテンプレート](../../designing/using/using-reusable-content.md#content-templates)：をクリックします。 **[!UICONTROL Templates]** タブをクリックします。
-   * [コンテンツを新規に作成](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)をクリックし、新規に開始します。 **[!UICONTROL Create]** 」ボタンをクリックします。
-   * [コンピューターから ZIP ファイルまたはHTMLファイルとしてのコンテンツ](#importing-content-from-a-file)：をクリックします。 **[!UICONTROL Upload]** 」ボタンをクリックします。
-   * [既存の URL からのコンテンツ](#importing-content-from-a-url) （E メールの場合のみ）: **[!UICONTROL Import from URL]** 」ボタンをクリックします。
+   * [ コンテンツテンプレート ](../../designing/using/using-reusable-content.md#content-templates):「コンテン **[!UICONTROL Templates]**」タブをクリックします。
+   * [ コンテンツをゼロから ](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)、新規に開始するには、「**[!UICONTROL Create]** 開」ボタンをクリックします。
+   * [ZIP ファイルまたはHTMLファイルとしてコンピューターからコンテンツを取得 ](#importing-content-from-a-file):「**[!UICONTROL Upload]**」ボタンをクリックします。
+   * [ 既存の URL のコンテンツ ](#importing-content-from-a-url) （メールの場合のみ）:「**[!UICONTROL Import from URL]** 信」ボタンをクリックします。
 
    ![](assets/des_loading_2.png)
 
 1. コンテンツを読み込みます。 選択したコンテンツが現在のコンテンツを置き換えます。
 
-   読み込まれたコンテンツは、編集やパーソナライズが可能です。
+   インポートすると、コンテンツを編集してパーソナライズできます。
 
    >[!NOTE]
    >
-   >The [E メールデザイナー](../../designing/using/designing-content-in-adobe-campaign.md) は特定のタグ付けを使用します。 Campaign にアップロードされる標準HTMLコンテンツは、E メールデザイナーから完全に互換性を持ち、編集可能なタグと一致する必要があります。 一致しない場合、コンテンツは次の場所にアップロードされます： [互換モード](#compatibility-mode). 既存のコンテンツに互換性を持たせるには、 [この節](#editing-existing-contents-with-the-email-designer).
+   >[ 電子メールDesigner](../../designing/using/designing-content-in-adobe-campaign.md) では、特定のタグ付けを使用します。 Campaign にアップロードされる標準HTMLコンテンツは、電子メールDesignerから完全に互換性を持ち編集可能にするために、期待されるタグと一致する必要があります。 一致しない場合、コンテンツは [ 互換性モード ](#compatibility-mode) でアップロードされます。 既存のコンテンツに互換性を持たせるには、[ この節 ](#editing-existing-contents-with-the-email-designer) を参照してください。
 
 **関連トピック：**
 
 * [メールの作成](../../channels/using/creating-an-email.md)
 * [ランディングページの管理](../../channels/using/getting-started-with-landing-pages.md)
 
-## E メールデザイナーでの既存のコンテンツの編集{#editing-existing-contents-with-the-email-designer}
+## メールDesignerを使用した既存のコンテンツの編集{#editing-existing-contents-with-the-email-designer}
 
-のエディションの可能性を最大限活用するには [E メールデザイナー](../../designing/using/designing-content-in-adobe-campaign.md)に設定する場合、アップロードするHTMLには、WYSIWYG エディターに準拠する特定のタグが含まれている必要があります。
+[ メールDesigner](../../designing/using/designing-content-in-adobe-campaign.md) の編集機能を最大限に活用するには、アップロードするHTMLに、WYSIWYG エディターに準拠するための固有のタグが含まれている必要があります。
 
-HTMLのすべてまたは一部にこのタグがない場合、コンテンツは「 [互換モード](#compatibility-mode)&#39;.
+HTMLのすべてまたは一部にこのタグ付けがない場合、コンテンツは「[ 互換モード ](#compatibility-mode)」で読み込まれます。
 
-既存の外部コンテンツを E メールデザイナー内で完全に編集可能にするには、 [既存のコンテンツを使用した E メールのデザイン](../../designing/using/using-existing-content.md) 」セクションに入力します。
+既存の外部コンテンツをメールDesigner内で完全に編集可能にするには、[ 既存のコンテンツを使用したメールのデザイン ](../../designing/using/using-existing-content.md) の節を参照してください。
 
-## 既存の E メールコンテンツのインポート {#importing}
+## 既存のメールコンテンツの読み込み {#importing}
 
 ### ファイルからのコンテンツの読み込み {#importing-content-from-a-file}
 
-E メールデザイナーのホームページで、 **[!UICONTROL Upload]** ボタンをクリックして、お使いのコンピューターからファイルをアップロードし、確定します。
+メールDesignerのホームページで、「**[!UICONTROL Upload]**」ボタンをクリックしてコンピューターからファイルをアップロードし、確認します。
 
-zip ファイル構造に制約はありません。 ただし、HTMLファイルの参照は、zip フォルダーのツリー構造に従って相対パスで指定する必要があります。
+zip ファイル構造に制約はありません。 ただし、HTMLファイルの参照は相対パスにする必要があり、zip フォルダーのツリー構造に従う必要があります。
 
-読み込みでは、次の形式がサポートされます。
+読み込みでは、次の形式がサポートされています。
 
-* スタイルHTMLが組み込まれたシートファイル
-* HTMLファイル、スタイルシート (.CSS) および画像を格納した.zip フォルダー
+* スタイルシートが組み込まれたHTMLファイル
+* HTMLファイル、スタイルシート（.CSS）、画像を含んだ.zip フォルダー
 
 >[!NOTE]
 >
->E メールコンテンツの場合は、スタイルシートを組み込んだ単一のHTMLファイルを読み込むことをお勧めします。
+>メールコンテンツの場合は、スタイルシートが組み込まれたシングルHTMLファイルを読み込むことをお勧めします。
 
 #### URL からのコンテンツの読み込み {#importing-content-from-a-url}
 
-URL からコンテンツを読み込む前に、次の要件に従っていることを確認します。
+URL からコンテンツを読み込む前に、以下の要件に従っていることを確認してください。
 
-* コンテンツは、この URL 経由で公開されている必要があります。
-* セキュリティ上の理由から、URL のみが **[!UICONTROL https]** は許可されています。
-* すべてのリソース（画像、CSS）が絶対リンクと HTTPS で設定されていることを確認します。 そうしないと、E メールを送信した後、ミラーページがリソースなしで表示されます。 絶対リンク定義の例を次に示します。
+* コンテンツは、この URL を通じて公開する必要があります。
+* セキュリティ上の理由から、**[!UICONTROL https]** で始まる URL のみを使用できます。
+* すべてのリソース（画像、CSS）が絶対リンクと HTTPS で設定されていることを確認します。 そうでない場合は、メールを送信した後、リソースのないミラーページが表示されます。 絶対リンク定義の例を次に示します。
 
   ```
   <a href="https://www.mywebsite.com/images/myimage.png">
@@ -93,108 +93,108 @@ URL からコンテンツを読み込む前に、次の要件に従っている�
 
 >[!NOTE]
 >
->URL からのコンテンツの読み込みは、E メールチャネルでのみ使用できます。
+>URL からのコンテンツの読み込みは、メールチャネルでのみ使用できます。
 
 URL から既存のコンテンツを取得するには、次の手順に従います。
 
-1. E メールデザイナーのホームページから、 **[!UICONTROL Import from URL]** 」ボタンをクリックします。
+1. メールDesignerのホームページで、「**[!UICONTROL Import from URL]**」ボタンを選択します。
 
    ![](assets/email_designer_importfromurl.png)
 
 1. コンテンツの取得元となる URL を定義します。
 1. 「**[!UICONTROL Confirm]**」をクリックします。
 
-この機能をビデオで確認します。
+ビデオでこの機能を確認します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/25926?quality=12)
 
-その他のCampaign Standardのハウツービデオも利用できます [ここ](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja).
+その他のCampaign Standardチュートリアルビデオについては、[ こちら ](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja) を参照してください。
 
-### 準備時に URL からコンテンツを自動的に取得する {#retrieving-content-from-a-url-automatically-at-preparation-time}
+### 準備時に URL からコンテンツを自動的に取得 {#retrieving-content-from-a-url-automatically-at-preparation-time}
 
-メッセージの準備中に URL からコンテンツを読み込むと、E メールが準備されるたびに最新のHTMLコンテンツを取得できます。 これにより、繰り返し E メールのコンテンツは、送信時に常に最新の状態に保たれます。 また、この機能を使用すると、コンテンツがまだ準備できていなくても、特定の日付にスケジュールされたメッセージを作成できます。
+メッセージの準備中に URL からコンテンツを読み込むと、メールを準備するたびに最新のHTMLコンテンツを取得できます。 これにより、繰り返しメールのコンテンツは常に最新の送信時のコンテンツになります。 また、この機能を使用すると、コンテンツの準備がまだ整っていない場合でも、特定の日付にスケジュールされたメッセージを作成できます。
 
 準備時にコンテンツを取得するには、次の手順に従います。
 
-1. を選択します。 **[!UICONTROL Content imported during preparation]** オプション。
+1. **[!UICONTROL Content imported during preparation]** オプションを選択します。
 
    ![](assets/email_designer_importfromurl2.png)
 
-1. URL コンテンツは、読み取り専用としてエディターに表示されます。
+1. URL コンテンツは、エディターに読み取り専用として表示されます。
 
    >[!CAUTION]
    >
-   >この手順では、HTMLのコンテンツエディターでの表示を考慮に入れないでください。 準備段階で取得されます。
+   >この段階では、コンテンツエディターでのHTML表示は考慮しないでください。 準備段階で取得されます。
 
-1. 取得された URL コンテンツをプレビューするには、メッセージを作成後に開き、 **[!UICONTROL Preview]** 」ボタンをクリックします。
+1. 取得した URL コンテンツをプレビューするには、メッセージの作成後にメッセージを開き、「**[!UICONTROL Preview]**」ボタンをクリックします。
 
 コンテンツの取得元となるリモート URL をパーソナライズできます。 これを行うには、次の手順に従います。
 
-1. 画面上部の E メールラベルをクリックして、E メールデザイナーにアクセスします **[!UICONTROL Properties]** タブをクリックします。
-1. 次を検索： **[!UICONTROL Remote URL]** フィールドに入力します。
+1. 画面上部のメールラベルをクリックして、「メールDesigner **[!UICONTROL Properties]**」タブにアクセスします。
+1. 「**[!UICONTROL Remote URL]**」フィールドを検索します。
 
    ![](assets/email_designer_importfromurl4.png)
 
-1. 目的のパーソナライゼーションフィールド、コンテンツブロックまたは動的テキストを挿入します。
+1. 目的のパーソナライゼーションフィールド、コンテンツブロック、動的テキストを挿入します。
 
-   The **[!UICONTROL Current date - YYYYMMDD]** コンテンツブロックを使用すると、日付を挿入できます。
+   例えば、**[!UICONTROL Current date - YYYYMMDD]** コンテンツブロックを使用すると、日付を挿入できます。
 
    >[!NOTE]
    >
-   >使用可能なパーソナライゼーションフィールドは、 **配信** 属性のみ（E メールの作成日、ステータス、キャンペーンラベル…）
+   >使用可能なパーソナライゼーションフィールドは、**配信** 属性（メール作成日、ステータス、キャンペーンラベルなど）にのみリンクされています。
 
-コンテンツのダウンロードが最初の試行で失敗した場合は、2 回再試行できます。
+1 回目にコンテンツのダウンロードに失敗した場合は、2 回再試行できます。
 
-1. 2 回目の試行は、最初の試行から 50 ミリ秒後に開始します。
-1. 3 回目の試行は、2 回目の試行後、100 ミリ秒後に開始します。
+1. 2 回目の試行は、1 回目の試行から 50 ミリ秒後に開始されます。
+1. 3 回目のトライは、2 回目のトライから 100 ミリ秒後に開始されます。
 
 これらの再試行は、次の場合に役立ちます。
 
 * 遠隔サーバーでの短時間のサービス障害
-* クラスターでのサーバー障害。この場合、作業用サーバーへのロードバランシングによって再試行が成功する可能性が高くなります。
+* クラスターでのサーバー障害。この場合、動作中のサーバーへのロードバランシングによって再試行が成功する可能性が高くなります。
 
-### 互換性モード {#compatibility-mode}
+### 互換モード {#compatibility-mode}
 
-コンテンツをアップロードする際、電子メールデザイナーの WYSIWYG エディターに完全に準拠して編集可能にするには、特定のタグがそのコンテンツに含まれている必要があります。
+コンテンツをアップロードする場合、メールDesignerの WYSIWYG エディターで完全に準拠し編集可能にするには、特定のタグが含まれている必要があります。
 
-アップロードされたHTMLのすべてまたは一部が想定されるタグ付けに準拠していない場合、コンテンツは「互換性モード」で読み込まれ、UI を使用した編集の可能性が制限されます。
+アップロードされたHTMLの全部または一部が期待されるタグ付けに準拠していない場合、コンテンツは「互換モード」で読み込まれ、UI を使用した編集の可能性が制限されます。
 
-コンテンツが互換モードで読み込まれる場合でも、インターフェイスを通じて次の変更を実行できます（使用できないアクションは非表示になります）。
+コンテンツが互換性モードで読み込まれた場合でも、インターフェイスを通じて次の変更を実行できます（使用できないアクションは非表示になります）。
 
 * テキストの変更または画像の変更
 * リンクとパーソナライゼーションフィールドの挿入
-* 選択したオプションブロックのスタイル設定HTMLを編集
+* 選択したHTMLブロックのスタイルオプションを編集します
 * 条件付きコンテンツの定義
 
 ![](assets/email_designer_compatibility.png)
 
-E メールに新しいセクションを追加したり、高度なスタイル設定をおこなうなど、その他の変更は、HTMLモードで E メールのソースコードで直接おこなう必要があります。
+メールに新しいセクションを追加したり、高度なスタイルを設定したりするなどの他の変更は、HTMLモードを使用して、メールのソースコードで直接行う必要があります。
 
-既存の E メールを E メールデザイナー互換の E メールに変換する方法について詳しくは、 [この節](../../designing/using/using-existing-content.md).
+既存のメールをメールDesigner互換のメールに変換する方法については、[ この節 ](../../designing/using/using-existing-content.md) を参照してください。
 
 **関連トピック**：
 
 * [メールの作成](../../channels/using/creating-an-email.md)
-* [E メールデザイナーの概要ビデオ](../../designing/using/designing-content-in-adobe-campaign.md#video)
-* [新規での E メールコンテンツのデザイン](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)
+* [メールDesignerの概要ビデオ](../../designing/using/designing-content-in-adobe-campaign.md#video)
+* [メールコンテンツのゼロからのデザイン](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)
 
-## HTMLコンテンツを変換中 {#converting-an-html-content}
+## HTMLコンテンツの変換 {#converting-an-html-content}
 
-組み合わせて複数の E メールで再利用できる、モジュール式のテンプレートとフラグメントのフレームワークを構築する場合は、E メールHTMLを E メールデザイナーテンプレートに変換することを検討してください。
+複数のメールで再利用できるように組み合わせることができるモジュール型テンプレートおよびフラグメントのフレームワークを構築する場合は、メールテンプレートをメールDesignerHTMLに変換することを検討する必要があります。
 
-この使用例では、HTML電子メールを電子メールデザイナーコンポーネントにすばやく変換できます。
+このユースケースは、HTMLメールをメールDesignerコンポーネントに簡単に変換する方法を提供します。
 
 >[!CAUTION]
 >
->この節は、HTMLコードに詳しい上級ユーザー向けです。
+>この節は、HTMLコードに精通した上級ユーザーを対象としています。
 
 >[!NOTE]
 >
->互換モードと同様に、HTMLコンポーネントは、制限付きオプションで編集できます。インプレース編集のみ実行できます。
+>互換モードと同様に、HTMLコンポーネントも編集可能で、オプションは限られています。つまり、インプレース編集のみを実行できます。
 
-E メールデザイナー以外では、元のHTMLが再利用可能なセクションに分割されていることを確認します。
+メールDesignerの外部で、元のHTMLが再利用可能なセクションに分割されていることを確認します。
 
-そうでない場合は、HTMLから別のブロックを切り離します。 例：
+そうでない場合は、HTMLから別のブロックを切り取ります。 例：
 
 ```
 <!-- 3 COLUMN w/CTA (SCALED) -->
@@ -216,18 +216,18 @@ E メールデザイナー以外では、元のHTMLが再利用可能なセク�
 <!-- //3 COLUMN w/CTA (SCALED) -->
 ```
 
-すべてのブロックを特定したら、E メールデザイナーで、既存の E メールの各セクションに対して次の手順を繰り返します。
+メールDesignerで、すべてのブロックを識別したら、既存のメールの各セクションに対して次の手順を繰り返します。
 
-1. E メールデザイナーを開いて、空の E メールコンテンツを作成します。
-1. ボディレベルの属性（背景色、幅など）を設定します。 詳しくは、[メールスタイルの編集](../../designing/using/styles.md)を参照してください。
+1. メールDesignerを開いて、空のメールコンテンツを作成します。
+1. 背景色や幅など、本文レベルの属性を設定します。 詳しくは、[メールスタイルの編集](../../designing/using/styles.md)を参照してください。
 1. 構造コンポーネントを追加します。 詳しくは、[メール構造の編集](../../designing/using/designing-from-scratch.md#defining-the-email-structure)を参照してください。
-1. HTMLコンポーネントを追加。 詳しくは、[フラグメントとコンポーネントの追加](../../designing/using/designing-from-scratch.md#defining-the-email-structure)を参照してください。
-1. そのコンポーネントにHTMLをコピー&amp;ペーストします。
+1. HTMLコンポーネントを追加します。 詳しくは、[フラグメントとコンポーネントの追加](../../designing/using/designing-from-scratch.md#defining-the-email-structure)を参照してください。
+1. HTMLした内容を、そのコンポーネントにコピー&amp;ペーストします。
 1. モバイル表示に切り替えます。 詳しくは、[この節](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view)を参照してください。
 
-   CSS がないので、レスポンシブビューが壊れています。
+   CSS がないので、レスポンシブビューが壊れます。
 
-1. これを修正するには、ソースコードモードに切り替えて、スタイルセクションを新しいスタイルセクションにコピー&amp;ペーストします。 例：
+1. これを修正するには、ソースコードモードに切り替えて、「スタイル」セクションをコピーして新しい「スタイル」セクションに貼り付けます。 例：
 
    ```
    <style type="text/css">
@@ -240,9 +240,9 @@ E メールデザイナー以外では、元のHTMLが再利用可能なセク�
 
    >[!NOTE]
    >
-   >別のカスタムスタイルタグで、この後にスタイルを必ず追加してください。
+   >この後に、必ず別のカスタムスタイルタグでスタイルを追加してください。
    >
-   >E メールデザイナーで生成された CSS を変更しないでください。
+   >メールDesignerで生成された CSS を変更しないでください。
    >
    >* `<style data-name="default" type="text/css">(##)</style>`
    >* `<style data-name="supportIOS10" type="text/css">(##)</style>`
@@ -250,4 +250,4 @@ E メールデザイナー以外では、元のHTMLが再利用可能なセク�
    >* `<style data-name="media-default-max-width-500px" type="text/css">(##)</style>`
    >* `<style data-name="media-default--webkit-min-device-pixel-ratio-0" type="text/css">(##)</style>`
 
-1. モバイル表示に戻って、コンテンツが正しく表示されていることを確認し、変更を保存します。
+1. モバイルビューに戻ってコンテンツが正しく表示されていることを確認し、変更を保存します。

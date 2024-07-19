@@ -1,6 +1,6 @@
 ---
 title: アクセス管理について
-description: 役割、グループ、および組織単位を使用してAdobe Campaignオペレーターを管理する方法を説明します
+description: 役割、グループ、組織単位を使用して、Adobe Campaign オペレーターを管理する方法について説明します
 audience: administration
 feature: Access Management
 role: Admin
@@ -28,11 +28,11 @@ Adobe Campaign を使用すると、さまざまなユーザーに割り当て�
 
 役割、グループ、および組織単位は、プラットフォームの機能管理者が **[!UICONTROL Administration > Users & Security]** メニューで管理できます。
 
-![User Management メニュー](assets/user_management_1.png)
+![User Management メニュー ](assets/user_management_1.png)
 
-ユーザーは、Admin Consoleで管理します。 詳しくは、 [グループとユーザーの管理](../../administration/using/managing-groups-and-users.md) セクションと [Admin Console文書](https://helpx.adobe.com/jp/enterprise/managing/user-guide.html).
+ユーザーはAdmin Consoleで管理されます。 詳しくは、[ グループとユーザーの管理 ](../../administration/using/managing-groups-and-users.md) の節および [Admin Consoleドキュメント ](https://helpx.adobe.com/jp/enterprise/managing/user-guide.html) を参照してください。
 
-![製品プロファイルへのアクセス](assets/user_management_6.png)
+![ 製品プロファイルへのアクセス ](assets/user_management_6.png)
 
 >[!IMPORTANT]
 >

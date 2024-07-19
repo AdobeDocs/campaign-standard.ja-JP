@@ -1,6 +1,6 @@
 ---
 title: 地理的単位属性の更新
-description: API を使用して地理的単位属性を更新する方法について説明します。
+description: API を使用して地理的単位属性を更新する方法を説明します
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -17,8 +17,8 @@ ht-degree: 0%
 
 # 地理的単位属性の更新 {#managing-geographical-units}
 
-1. でのGETリクエストの実行 **geoUnitBase** 地理的単位 PKey を取得するリソース。
-1. 地理的単位でPATCHリクエストを実行し、ペイロードで更新する属性を指定します。
+1. **geoUnitBase** リソースに対してGETリクエストを実行し、地理的単位 PKey を取得します。
+1. ペイロードで更新する属性を指定して、地理的単位でPATCHリクエストを実行します。
 
 <br/>
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-すべての地理的単位が返されます。 目的のユニットの PKey を取得します。
+すべての地理的単位を返します。 目的の単位の PKey を取得します。
 
 ```
 {
@@ -50,7 +50,7 @@ ht-degree: 0%
 },
 ```
 
-地理的単位でPATCHリクエストを実行し、ペイロードで更新する属性を指定します。
+ペイロードで更新する属性を指定して、地理的単位でPATCHリクエストを実行します。
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/orgUnitBase/<PKEY> \

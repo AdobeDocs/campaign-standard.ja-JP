@@ -58,13 +58,13 @@ ht-degree: 92%
 **関連トピック：**
 
 * [サービスのプロモーション](../../audiences/using/promoting-a-service.md)
-* [購読者で構成されたオーディエンスの作成](../../audiences/using/creating-audiences.md#creating-list-audiences)
+* [購読者で構成されるオーディエンスの作成](../../audiences/using/creating-audiences.md#creating-list-audiences)
 * [ランディングページのサービスへのリンク](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)
 
 ## チュートリアルビデオ {#video}
 
-このビデオでは、サービスの作成方法と購読の管理方法を示します。
+このビデオでは、サービスを作成し、その購読を管理する方法を説明します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/24673?quality=12)
 
-その他のCampaign Standardのハウツービデオも利用できます [ここ](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja).
+その他のCampaign Standardチュートリアルビデオについては、[ こちら ](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja) を参照してください。

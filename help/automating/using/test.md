@@ -24,7 +24,7 @@ ht-degree: 77%
 
 「**[!UICONTROL Test]**」アクティビティは、テスト結果に基づくトランジションを有効にします。
 
-## 使用状況 {#context-of-use}
+## 使用コンテキスト {#context-of-use}
 
 「**Test**」アクティビティは、自身に関連付けられている条件を最初に満たしたトランジションを有効化します。
 
@@ -47,9 +47,9 @@ ht-degree: 77%
 
    「**[!UICONTROL Condition]**」フィールドの編集時に、2 つのボタンを使用してイベント変数を呼び出し、変数と関数を組み合わせた式を編集できます。
 
-   * ![](assets/extsignal_picker.png)：ワークフローで使用可能なすべての変数の中からイベント変数を選択します ( [このページ](../../automating/using/customizing-workflow-external-parameters.md)) をクリックします。
+   * ![](assets/extsignal_picker.png)：ワークフローで使用可能なすべての変数の中からイベント変数を選択します（[ このページ ](../../automating/using/customizing-workflow-external-parameters.md) を参照）。
 
-     例えば、 [ファイル転送](../../automating/using/transfer-file.md) アクティビティを **[!UICONTROL filesCount]** 変数を使用します。
+     例えば、**[!UICONTROL filesCount]** 変数を使用して、「[ ファイル転送 ](../../automating/using/transfer-file.md)」アクティビティ後のダウンロードされたファイルの数を確認できます。
 
      ![](assets/wkf_test_activity_variables.png)
 

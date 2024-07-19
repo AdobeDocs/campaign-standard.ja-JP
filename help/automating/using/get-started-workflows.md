@@ -1,5 +1,5 @@
 ---
-title: プロセスとデータ管理の概要
+title: プロセスとデータ管理の基本を学ぶ
 description: ワークフローを使用すれば、データおよびオーディエンスの管理やメッセージの送信などのプロセスを自動化できます。
 audience: automating
 content-type: reference
@@ -15,7 +15,7 @@ ht-degree: 30%
 
 ---
 
-# プロセスとデータ管理の概要 {#get-started-processes-data-management}
+# プロセスとデータ管理の基本を学ぶ {#get-started-processes-data-management}
 
 <table>
 <tr>
@@ -34,7 +34,7 @@ Adobe Campaign は、セグメント化、キャンペーン実行、ファイ�
 
 >[!IMPORTANT]
 >
-> Adobeでは、20 個を超えるアクティブなワークフローを同時に実行しないようにし、時間の経過と共にワークフローの実行を優先し、広げることをお勧めします。 詳しくは、 [このページ](../../automating/using/best-practices-workflows.md).
+> Adobeでは、20 を超えるアクティブなワークフローの実行を同時に実行せず、ワークフローの実行を時間の経過と共に優先順位を付けて分散することをお勧めします。 詳しくは、[ このページ ](../../automating/using/best-practices-workflows.md) に記載されているベストプラクティスを参照してください。
 
 ## ワークフローアクティビティ {#workflow-activities}
 
@@ -42,11 +42,11 @@ Adobe Campaign は、セグメント化、キャンペーン実行、ファイ�
 
 ワークフローの設計に役立つ様々なアクティビティを利用できます。
 
-[ターゲティングアクティビティ](../../automating/using/about-targeting-activities.md) では、セットを定義し、積集合、和集合、除外の各操作を使用して分割または組み合わせることで、1 つ以上のターゲットを作成できます。
+[ ターゲティングアクティビティ ](../../automating/using/about-targeting-activities.md) では、セットを定義するか、積集合、和集合、除外の各操作を使用して分割または結合することで、1 つまたは複数のターゲットを作成できます。
 
-を使用 [実行アクティビティ](../../automating/using/about-execution-activities.md)を使用して、ワークフローとそのアクティビティを調整します。 [チャネルアクティビティ](../../automating/using/about-channel-activities.md) では、Campaign Standardの通信チャネルを組み合わせて、クロスチャネルのワークフローを作成できます。
+[ 実行アクティビティ ](../../automating/using/about-execution-activities.md) を使用すると、ワークフローとそのアクティビティを調整でき、[ チャネルアクティビティ ](../../automating/using/about-channel-activities.md) を使用すると、Campaign Standardのコミュニケーションチャネルを組み合わせて、クロスチャネルワークフローを作成できます。
 
-最後に [データ管理アクティビティ](../../automating/using/about-data-management-activities.md) を使用すると、データベースのデータを操作できます。
+最後に、[ データ管理アクティビティ ](../../automating/using/about-data-management-activities.md) を使用して、データベースからデータを操作できます。
 
 詳しくは、以下を参照してください。
 
@@ -58,9 +58,9 @@ Adobe Campaign は、セグメント化、キャンペーン実行、ファイ�
 
 <img src="assets/do-not-localize/icon_filter.svg" width="60px">
 
-以下を利用する： **クエリエディター** データベースのデータをフィルタリングし、受信者をより適切にターゲティングするための母集団を作成します。 クエリエディターを使用して、Campaign Standardで複数のアクション（クエリタイプのオーディエンスの作成、配信ターゲットの定義、ワークフローアクティビティでの母集団）を実行できます。
+**クエリエディター** を活用してデータベースのデータをフィルタリングし、受信者をより適切にターゲット設定できる母集団を作成します。 クエリエディターを使用して、クエリタイプのオーディエンスの作成、配信ターゲットの定義、ワークフローアクティビティの母集団の定義など、複数のアクションをCampaign Standardで実行できます。
 
-クエリエディターには、 **定義済みフィルターとルール** 迅速で簡単なフィルタリングのために。 ただし、 **高度な式の編集** 機能。 これにより、独自のルールを作成するために、条件を手動で入力し、関数を使用することができます。
+クエリエディターには、すばやく簡単にフィルタリングできる **定義済みフィルターとルール** が付属しています。 ただし、高度な式の編集 **機能を使用するこ** もできます。 これにより、手動で条件を入力し、関数を使用して、独自のルールを作成できます。
 
 詳しくは、以下を参照してください。
 
@@ -72,17 +72,17 @@ Adobe Campaign は、セグメント化、キャンペーン実行、ファイ�
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 
-Campaign Standardには複数の **データ管理機能** をクリックして、データのインポートとエクスポートを行います。
+Campaign Standardには、データのインポートとエクスポートを行うための **データ管理機能** がいくつか付属しています。
 
-[ワークフローのデータ管理アクティビティ](../../automating/using/about-data-management-activities.md) では、データのインポート、フィールドの一括更新、ファイルの受信と送信、または識別されていないデータの既存のリソースへのリンクを行うことができます。
+[ ワークフローデータ管理アクティビティ ](../../automating/using/about-data-management-activities.md) を使用すると、データのインポート、フィールドの一括更新の実行、ファイルの送受信、未識別データの既存リソースへのリンクなどを行うことができます。
 
-を使用 [テンプレートのインポート](../../automating/using/importing-data-with-import-templates.md)では、管理者が定義した特定のタイプのインポートを、簡易インポート機能を使用して管理できます。
+[ インポートテンプレート ](../../automating/using/importing-data-with-import-templates.md) を使用すると、管理者が定義した特定のタイプのインポートを、簡略化されたインポート機能を使用して管理できます。
 
-[ログの書き出し](../../automating/using/exporting-logs.md) を使用すると、シンプルなワークフローでログデータをエクスポートし、独自のレポートまたは BI ツールでマーケティングキャンペーンの結果を分析できます。
+[ ログのエクスポート ](../../automating/using/exporting-logs.md) を使用すると、シンプルなワークフローでログデータをエクスポートでき、独自のレポートまたは BI ツールでマーケティングキャンペーンの結果を分析できます。
 
-活用 [パッケージ](../../automating/using/managing-packages.md) 別のキャンペーンインスタンス間でリソースを交換する場合（例えば、インスタンスの設定をレプリケートする場合、またはカスタムリソースを含むサーバー間でデータを転送する場合）。
+[ パッケージ ](../../automating/using/managing-packages.md) を活用して、異なる Campaign インスタンス間でリソースを交換します。例えば、インスタンスの設定をレプリケートしたり、サーバーからカスタムリソースを含む別のサーバーにデータを転送したりします。
 
-最後に [リストの書き出し](../../automating/using/exporting-lists.md) を使用すると、Campaign Standardから任意のリストを書き出すことができます（例：テストプロファイルのリスト、強制隔離 E メールアドレスのリストなど）。
+最後に、[ リストの書き出し ](../../automating/using/exporting-lists.md) を使用すると、テストプロファイルのリストや強制隔離のメールアドレスのリストなど、Campaign Standardから任意のリストを書き出すことができます。
 
 詳しくは、以下を参照してください。
 
@@ -91,6 +91,6 @@ Campaign Standardには複数の **データ管理機能** をクリックして
 
 ## その他のリソース
 
-* [プロセスとデータ管理のチュートリアルビデオ](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/managing-processes-and-data/creating-a-workflow.html?lang=ja)
+* [ プロセスとデータ管理のチュートリアルビデオ ](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/managing-processes-and-data/creating-a-workflow.html?lang=ja)
 * [テクニカルワークフロー](../../administration/using/technical-workflows.md)
 * [Campaign Standard データモデルの基本を学ぶ](../../developing/using/get-started-data-model.md)

@@ -10,7 +10,7 @@ level: Intermediate
 exl-id: b30f1395-965b-4709-ba4b-8cf6b010ef0b
 source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
 workflow-type: tm+mt
-source-wordcount: '1514'
+source-wordcount: '1526'
 ht-degree: 100%
 
 ---
@@ -95,7 +95,7 @@ Privacy Core Service からプライバシーリクエストを作成する方�
 
 >[!IMPORTANT]
 >
->カスタムの名前空間タイプを使用してリクエストを送信するには、[JSON メソッド](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ja#json){target="_blank"} and add the namespaceId to the request, or use the [API call](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=ja#access-delete){target="_blank"}を活用してリクエストを実行します。
+>カスタムの名前空間タイプを使用してリクエストを送信するには、[JSON メソッド](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ja#json){target="_blank"}を活用してリクエストに namespaceId を追加するか、[API 呼び出し](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=ja#access-delete){target="_blank"}を使用してリクエストを実行します。
 >
 >標準の名前空間タイプを使用してリクエストを送信するには、[プライバシーユーザーインターフェイス](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=ja#request-builder){target="_blank"}のみを使用します。
 

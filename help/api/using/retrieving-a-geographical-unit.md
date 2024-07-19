@@ -1,6 +1,6 @@
 ---
 title: プロファイルの地理的単位の取得
-description: API を使用してプロファイルの地理的単位を取得する方法について説明します。
+description: API を使用してプロファイルの地理的単位を取得する方法を説明します。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -17,7 +17,7 @@ ht-degree: 12%
 
 # プロファイルの地理的単位の取得 {#retrieving-geographical-unit}
 
-1. プロファイル PKey でGETリクエストを実行し、 **geoUnit** URL。
+1. プロファイル PKey でGETリクエストを実行し、**geoUnit** URL を取得します。
 1. URL でGETリクエストを実行して、地理的単位に関する詳細を取得します。
 
 <br/>
@@ -48,7 +48,7 @@ ht-degree: 12%
 }
 ```
 
-URL でGETリクエストを実行して、詳細を取得します。
+URL でGETリクエストを実行すると、詳細情報を取得できます。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/geoUnitBase/<PKEY> \

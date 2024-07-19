@@ -42,11 +42,11 @@ Adobe Campaign では、プッシュ通知のデザイン中に一連の詳細�
 
    ![](assets/push_notif_advanced_7.png)
 
-1. サウンドファイルがモバイルアプリケーションのパッケージに定義されている場合は、そのファイルが通知の配信時に再生されます。次のように設定できます。 **デフォルト** デバイスのデフォルトのサウンドを再生します。
+1. サウンドファイルがモバイルアプリケーションのパッケージに定義されている場合は、そのファイルが通知の配信時に再生されます。デバイスのデフォルトのサウンドを再生するには、これを **デフォルト** に設定します。
 
-   次の場合、 **[!UICONTROL Play a sound]** フィールドが空のままの場合、サウンドは再生されません。
+   **[!UICONTROL Play a sound]** フィールドを空のままにすると、サウンドは再生されません。
 
-その後、電話がミュートされていない場合にのみ、ユーザーはプッシュ通知とサウンドを受け取ります。
+その後、電話がミュートされていない場合にのみ、プッシュ通知とサウンドがユーザーに届きます。
 
 ## バッジ値の更新 {#refresh-the-badge-value}
 
@@ -69,7 +69,7 @@ Adobe Campaign では、プッシュ通知のデザイン中に一連の詳細�
 
    ![](assets/push_notif_advanced_1.png)
 
-## ディープリンクの追加 {#add-a-deeplink}
+## ディープリンクを追加 {#add-a-deeplink}
 
 ディープリンクを使用すると、（Web ブラウザーページを開くのではなく）ユーザーをアプリケーション内のコンテンツに直接移動させることができます。
 
@@ -113,7 +113,7 @@ Adobe Campaign では、プッシュ通知のデザイン中に一連の詳細�
 
 プッシュ通知に有効期限を追加するには、次の手順に従います。
 
-1. 次を確認します。 **[!UICONTROL Expire message]** オプション：選択 **[!UICONTROL Expire message]** 」オプションを選択すると、デュレーションは自動的に 0 に設定されます。 値を変更しない場合、APNS も FCM もメッセージの送信を直ちに試みます。失敗した場合、メッセージは再送信されません。
+1. 「**[!UICONTROL Expire message]**」オプションをオンにする：「**[!UICONTROL Expire message]**」オプションを選択すると、期間が自動的に 0 に設定されます。 値を変更しない場合、APNS も FCM もメッセージの送信を直ちに試みます。失敗した場合、メッセージは再送信されません。
 
 1. 「**[!UICONTROL Duration]**」フィールドで、プッシュ通知の有効期限を選択します。
 
@@ -177,7 +177,7 @@ iOS 10 以降では、プッシュ通知の「**[!UICONTROL Advanced options]**�
 
 「**[!UICONTROL Content available]**」をオンにすると、コンテンツ使用可能フラグがプッシュペイロードで送信されるようになります。その結果、プッシュ通知を受け取るとすぐにアプリが起動されて、ペイロードデータにアクセスできるようになります。この動作は、アプリがバックグラウンドで実行されていてユーザーからの操作（プッシュ通知のタップなど）が不要な場合でも機能しますが、アプリが実行されていない場合は当てはまりません。詳しくは、[Apple 開発者向けドキュメント](https://developer.apple.com/library/content/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html)を参照してください。
 
-## 通知動作の変更（Android の場合） {#change-the-notification-behavior-for-android}
+## Androidの通知動作の変更 {#change-the-notification-behavior-for-android}
 
 Android の場合は、「**Rich media content URL**」フィールドにファイルの URL を入力できます。Android では画像のみを含めることができます。iOS バージョンのように gif、オーディオ、ビデオのファイルは含めることはできません。
 

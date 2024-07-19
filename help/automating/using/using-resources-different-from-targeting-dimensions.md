@@ -1,6 +1,6 @@
 ---
 title: ターゲティングディメンションとは異なるリソースの使用
-description: ターゲティングディメンションとは異なるリソースを使用する方法を説明します。
+description: ターゲティングディメンションとは異なるリソースの使用方法を説明します。
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -18,14 +18,14 @@ ht-degree: 76%
 
 # ターゲティングディメンションとは異なるリソースの使用 {#using-resources-different-from-targeting-dimensions}
 
-この使用例では、ターゲティングディメンションとは異なるリソースを使用して、例えば、距離テーブル内の特定のレコードを検索する方法を示します。
+このユースケースでは、ターゲティングディメンションとは異なるリソースを使用する方法を示します（例えば、離れたテーブル内の特定のレコードを検索する場合）。
 
-ターゲティングディメンションとリソースについて詳しくは、 [この節](../../automating/using/query.md#targeting-dimensions-and-resources)
+ターゲティングディメンションとリソースについて詳しくは、[ この節 ](../../automating/using/query.md#targeting-dimensions-and-resources) を参照してください
 
 **例 1：配信が「お帰りなさい」というラベルでターゲットするプロファイルの識別**。
 
 * この場合、プロファイルをターゲットします。ターゲティングディメンションを **[!UICONTROL Profiles (profile)]** に設定します。
-* 配信のラベルに従って、選択したプロファイルをフィルターします。したがって、リソースを **[!UICONTROL Delivery logs]** に設定します。これにより、配信ログテーブルで直接フィルタリングをおこない、パフォーマンスが向上します。
+* 配信のラベルに従って、選択したプロファイルをフィルターします。したがって、リソースを **[!UICONTROL Delivery logs]** に設定します。このようにして、配信ログテーブルで直接フィルタリングするので、パフォーマンスが向上します。
 
 ![](assets/targeting_dimension6.png)
 

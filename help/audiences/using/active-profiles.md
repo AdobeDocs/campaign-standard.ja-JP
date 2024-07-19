@@ -1,6 +1,6 @@
 ---
-title: キャンペーンのアクティブなプロファイル
-description: 顧客指標とアクティブなプロファイルにアクセスする方法を説明します
+title: Campaign のアクティブなプロファイル
+description: 顧客指標とアクティブなプロファイルにアクセスする方法を学ぶ
 feature: Profiles
 role: User
 level: Intermediate
@@ -14,31 +14,31 @@ ht-degree: 10%
 
 # アクティブなプロファイル{#active-profiles}
 
-アクティブなプロファイルの詳細には、 **[!UICONTROL Customer metrics]** レポート。 このレポートは、Campaign 機能管理者のみが使用できます。 このレポートにアクセスするには、 [ユーザーインターフェイス](../../start/using/interface-description.md#advanced-menu)をクリックし、 **[!UICONTROL Administration > Customer metrics]**.
+**[!UICONTROL Customer metrics]** レポートからアクティブなプロファイルの詳細にアクセスできます。 このレポートは、Campaign 機能管理者のみが使用できます。 このレポートにアクセスするには、[ ユーザーインターフェイス ](../../start/using/interface-description.md#advanced-menu) の左上にあるAdobe Campaign アイコンをクリックして、**[!UICONTROL Administration > Customer metrics]** を参照します。
 
 ![](assets/audience_customer_metrics.png)
 
-このレポートは、毎月 **[!UICONTROL Billing]** テクニカルワークフローと、 **アクティブなプロファイル**. テクニカルワークフローの詳細については、 [このページ](../../administration/using/technical-workflows.md).
+このレポートは、**[!UICONTROL Billing]** テクニカルワークフローによって毎月生成され、**アクティブなプロファイル** の数を表示します。 テクニカルワークフローについて詳しくは、[ このページ ](../../administration/using/technical-workflows.md) を参照してください。
 
-「プロファイル」とは、エンド顧客、見込み客、またはリードを表す情報の記録です。 プロファイルは考慮されます **アクティブ** 過去 12 ヶ月以内に任意のチャネルを介して Campaign 配信のターゲットにされている場合。
+「プロファイル」は、エンドカスタマー、見込み客またはリードを表す情報のレコードです。 過去 12 か月以内に任意のチャネルを介してキャンペーン配信のターゲットとなったプロファイルは、**アクティブ** と見なされます。
 
-各 Campaign インスタンスには、契約に従って特定数のアクティブなプロファイルがプロビジョニングされます。 購入したアクティブなプロファイルの数については、使用許諾契約を参照してください。
+各 Campaign インスタンスには、契約に従って特定数のアクティブなプロファイルがプロビジョニングされます。 購入したアクティブなプロファイルの数については、使用許諾契約書を参照してください。
 
 ![](assets/audience_active_profiles_list.png)
 
 
 
-* （タイポロジルールや強制隔離メカニズムなどによって）配信の準備中に除外されたプロファイルは、考慮されません。
+* 配信準備（タイポロジルールや強制隔離メカニズムなど）の際に除外されたプロファイルは考慮されません。
 
 * トランザクションメッセージの受信者は、アクティブなプロファイルにカウントされます。
 
 * プロファイルは、複数の配信のターゲットになっていても一度しかカウントされません。
 
-* このレポートは情報提供のみで、請求に直接影響しません。
+* このレポートは情報提供だけを目的としており、請求に直接影響を与えるものではありません。
 
-ページの下部に、ターゲティングディメンションと、それぞれのプロファイル数が表示されます。 トランザクションメッセージの受信者は、 **匿名** ディメンション。
+ページの下部に、ターゲティングディメンションと、それぞれのプロファイル数が表示されます。 トランザクションメッセージの受信者は、**匿名** ディメンションに関連付けられます。
 
 >[!NOTE]
 >
->管理者ユーザーは、インスタンスで使用されるアクティブなプロファイルの数をCampaign コントロールパネルから直接監視することもできます。 詳しくは、[コントロールパネルのドキュメント](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html?lang=ja)を参照してください。
+>管理者ユーザーは、インスタンスで使用されているアクティブなプロファイルの数をCampaign コントロールパネルから直接監視することもできます。 詳しくは、[コントロールパネルのドキュメント](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html?lang=ja)を参照してください。
 >

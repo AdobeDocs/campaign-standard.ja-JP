@@ -17,8 +17,8 @@ ht-degree: 0%
 
 # 組織単位属性の更新 {#updating-organizational-unit-attributes}
 
-1. でのGETリクエストの実行 **orgUnitBase** 組織単位 PKey を取得するリソース。
-1. 組織単位でPATCHリクエストを実行し、ペイロードで更新する属性を指定します。
+1. **orgUnitBase** リソースでGETリクエストを実行し、組織単位 PKey を取得します。
+1. ペイロードで更新する属性を使用して、組織単位でPATCHリクエストを実行します。
 
 <br/>
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-すべての組織単位が返されます。 目的のユニットの PKey を取得します。
+すべての組織単位を返します。 目的の単位の PKey を取得します。
 
 ```
 {
@@ -50,7 +50,7 @@ ht-degree: 0%
 },
 ```
 
-組織単位でPATCHリクエストを実行し、ペイロードで更新する属性を指定します。
+ペイロードで更新する属性を使用して、組織単位でPATCHリクエストを実行します。
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/orgUnitBase/<PKEY> \

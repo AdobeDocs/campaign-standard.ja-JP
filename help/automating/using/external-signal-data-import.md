@@ -1,6 +1,6 @@
 ---
-title: 外部シグナルとデータのインポート
-description: 次の例は、データインポートで使用される「外部シグナル」アクティビティを示しています。
+title: 外部シグナルおよびデータインポート
+description: 次の例は、データのインポートで使用する外部シグナルアクティビティを示しています。
 audience: automating
 content-type: reference
 topic-tags: execution-activities
@@ -16,7 +16,7 @@ ht-degree: 79%
 
 ---
 
-# 外部シグナルとデータのインポート {#external-signal-data-import}
+# 外部シグナルおよびデータインポート {#external-signal-data-import}
 
 以下に、「**[!UICONTROL External signal]**」アクティビティの一般的なユースケースを示します。ソースワークフローでデータインポートが実行されます。インポートが完了し、データベースが更新されると、2 番目のワークフローがトリガーされます。この 2 番目のワークフローでは、インポートされたデータを対象として集計を更新します。
 
@@ -38,13 +38,13 @@ ht-degree: 79%
 
 * 「[紐付け](../../automating/using/reconciliation.md)」アクティビティで、インポートしたデータとデータベースの間にリンクが作成されます。その結果、トランザクションデータがプロファイルおよび製品に正しく接続されるようになります。
 * 「[データ更新](../../automating/using/update-data.md)」アクティビティによって、データベースのトランザクションリソースが挿入され、受信データで更新されます。
-* An [終了](../../automating/using/start-and-end.md) 「 」アクティビティ：宛先ワークフローをトリガーし、集計の更新に使用します。
+* [ 終了 ](../../automating/using/start-and-end.md) アクティビティは、集計の更新に使用される宛先ワークフローのトリガーを設定します。
 
 ![](assets/signal_example_source1.png)
 
 宛先ワークフローは次のとおりです。
 
-* An [外部シグナル](../../automating/using/external-signal.md) 「 」アクティビティは、ソースワークフローが正常に完了するのを待ちます。
+* [ 外部シグナル ](../../automating/using/external-signal.md) アクティビティは、ソースワークフローが正常に完了するのを待ちます。
 * 「[クエリ](../../automating/using/query.md#enriching-data)」アクティビティで、プロファイルをターゲットとし、コレクションセットでエンリッチメントを実行して最終購入日を取得します。
 * 「[データ更新](../../automating/using/update-data.md)」アクティビティで、専用のカスタムフィールドに追加データを保存します。なお、プロファイルリソースは、「**最終購入日**」フィールドを追加するために拡張されています。
 

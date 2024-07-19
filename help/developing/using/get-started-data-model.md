@@ -23,15 +23,15 @@ ht-degree: 22%
 <td><img src="assets/do-not-localize/icon_custom.svg" width="60px"><p><a href="#custom-resources">カスタムリソース</a></p></td><td><img src="assets/do-not-localize/icon_api.svg" width="60px"><p><a href="#custom-resources">API の操作</a></p></td></tr>
 </table>
 
-独自のフィールドとリソースを使用してCampaign Standardデータモデルを拡張し、すべてのデータモデルの変更を 1 つのビューで監視します。
+フィールドとリソースをカスタマイズしてCampaign Standardデータモデルを拡張し、統合された 1 つのビューで、あらゆるデータモデルの変更をモニタリングします。
 
 ## データモデル {#data-model}
 
 <img src="assets/do-not-localize/icon_datamodel.svg" width="60px">
 
-Campaign で使用されるデータは、 **事前定義済みデータモデル**. データモデルは、配信、オーディエンス、ランディングページ、プロファイルなど、一連のマーケティング関連リソースの標準の SQL 構造を表示します。 各リソースには関連フィルターが付属しており、リソース間を移動できます。
+Campaign で使用するデータは、（事前定義済みのデータモデル **で定義された様々なリソースを通じて定義され** す。 データモデルには、一連のマーケティング関連リソース（配信、オーディエンス、ランディングページ、プロファイルなど）に対する標準の SQL 構造が表示されます。 各リソースにはフィルターが関連付けられているので、リソース間を移動できます。
 
-The **診断** メニューを使用すると、データスキーマ、Web ページ、フィルターなど、Campaign Standardによって生成された技術オブジェクトをリストでき、データモデルと、その変更を監視できます。
+**診断** メニューを使用すると、Campaign Standardで生成された技術的なオブジェクト（データスキーマ、web ページ、フィルターなど）を一覧表示でき、データモデルと、データモデルに加えられた変更を監視できます。
 
 詳しくは、以下を参照してください。
 
@@ -44,24 +44,24 @@ The **診断** メニューを使用すると、データスキーマ、Web ペ�
 
 <img src="assets/do-not-localize/icon_custom.svg" width="60px">
 
-Campaign Standardでは、次のことが可能です。 **事前定義済みデータモデルのエンリッチメント** ：独自のリソース（例えば、Purchase テーブルや Product テーブルの追加）を作成したり、新しいフィールドを使用して既存のリソースを拡張したりする場合。 また、作成した新しいリソースやフィールドを使用してナビゲーションを最適化するよう、Campaign 画面を設定することもできます。
+Campaign Standardを使用すると、**事前定義済みのデータモデルをエンリッチメント** して、独自のリソースを作成（購入テーブルや商品テーブルを追加するなど）、または新しいフィールドで既存のリソースを拡張できます。 また、Campaign Screens を設定して、作成された新しいリソースとフィールドのナビゲーションを最適化することもできます。
 
-また、 **Campaign StandardREST API の拡張** をカスタムリソースプロファイルの API 拡張フィールドに公開するため。 これにより、例えば、請求システムから生成されたプロモーションコードで顧客のプロファイルを更新できます。
+さらに、API でカスタムリソースプロファイルの拡張フィールドを公開するために、**Campaign Standard REST API を拡張** できます。 これにより、例えば、顧客のプロファイルを請求システムから生成されたプロモーションコードで更新できます。
 
 詳しくは、以下を参照してください。
 
 * [リソースの追加または拡張](../../developing/using/key-steps-to-add-a-resource.md)
 * [API の拡張](../../developing/using/about-extending-the-api.md)
-* [使用例：新しいフィールドを使用したプロファイルリソースの拡張](../../developing/using/extending-the-profile-resource-with-a-new-field.md)
-* [使用例：アプリケーションリソースへのサブスクリプションの拡張](../../developing/using/extending-the-subscriptions-to-an-application-resource.md)
+* [ユースケース：新しいフィールドを使用したプロファイルリソースの拡張](../../developing/using/extending-the-profile-resource-with-a-new-field.md)
+* [ユースケース：アプリケーションリソースに対する購読の拡張](../../developing/using/extending-the-subscriptions-to-an-application-resource.md)
 
 ## API の操作 {#apis}
 
 <img src="assets/do-not-localize/icon_api.svg" width="60px">
 
-Campaign StandardAPI を使用すると、Adobe Campaign Standardの統合を作成し、Campaign と使用するテクノロジーのパネルを連携させて独自のエコシステムを構築できます。 [Campaign Standard REST API の概要](../../api/using/get-started-apis.md)
+Campaign StandardAPI を使用すると、Campaign に使用するテクノロジーのパネルを接続することで、Adobe Campaign Standardとの統合を作成し、独自のエコシステムを構築できます。 [Campaign Standard REST API の概要](../../api/using/get-started-apis.md)
 
 ## その他のリソース
 
-* [カスタムリソースのエクスポートとインポート](https://helpx.adobe.com/campaign/kb/acs-get-started-with-cusres.html)
+* [ カスタムリソースの書き出し/読み込み ](https://helpx.adobe.com/campaign/kb/acs-get-started-with-cusres.html)
 * [Campaign から Adobe Experience Platform へのデータのエクスポート](../../integrating/using/export-campaign-data.md)

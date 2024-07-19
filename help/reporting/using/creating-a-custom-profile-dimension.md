@@ -17,152 +17,152 @@ ht-degree: 5%
 
 # カスタムプロファイルディメンションの作成{#creating-a-custom-profile-dimension}
 
-また、プロファイルのカスタムリソース拡張中に作成されたカスタムプロファイルデータに基づいて、レポートの作成と管理をおこなうこともできます。
+レポートは、プロファイルカスタムリソース拡張機能で作成したカスタムプロファイルデータに基づいて作成および管理することもできます。
 
-この例では、カスタムプロファイルフィールドを作成します。 **ロイヤルティプログラム** それは金、銀、青銅の 3 つのレベルに分けられます。 次に、このカスタムプロファイルは、動的レポートでカスタムプロファイルディメンションとして使用できるように拡張されます。
+この例では、カスタムプロファイルフィールド **ロイヤルティプログラム** を作成します。これは、金、銀、銅の 3 つのレベルに分割されます。 その後、このカスタムプロファイルは拡張され、動的レポートのカスタムプロファイルディメンションとして使用できるようになります。
 
-* [手順 1：新しいプロファイルフィールドを作成する](#step-1--create-a-new-profile-field)
-* [手順 2：プロファイルフィールドを使用して送信ログを拡張する](#step-2--extend-the-sending-logs-with-the-profile-field)
-* [手順 3：ロイヤルティプログラムに登録された受信者をターゲティングした配信を作成します](#step-3--create-a-delivery-targeting-recipients-enrolled-in-the-loyalty-program)
-* [手順 4：動的レポートを作成して、カスタムプロファイルディメンションで受信者をフィルターします](#step-4--create-a-dynamic-report-to-filter-recipients-with-the-custom-profile-dimension)
+* [手順 1：新しいプロファイルフィールドの作成](#step-1--create-a-new-profile-field)
+* [手順 2：プロファイルフィールドを使用した送信ログの拡張](#step-2--extend-the-sending-logs-with-the-profile-field)
+* [手順 3：ロイヤルティプログラムに登録した受信者をターゲティングする配信を作成する](#step-3--create-a-delivery-targeting-recipients-enrolled-in-the-loyalty-program)
+* [手順 4：カスタムプロファイルディメンションを使用して受信者をフィルタリングするための動的レポートの作成](#step-4--create-a-dynamic-report-to-filter-recipients-with-the-custom-profile-dimension)
 
-## 手順 1：新しいプロファイルフィールドを作成する {#step-1--create-a-new-profile-field}
+## 手順 1：新しいプロファイルフィールドの作成 {#step-1--create-a-new-profile-field}
 
-最初に、新しいプロファイルフィールドを作成する必要があります **ロイヤルティプログラム** これにより、受信者にロイヤルティレベル（ゴールド、シルバー、ブロンズ）が割り当てられます。
+まず、受信者にロイヤルティレベル（ゴールド、シルバー、ブロンズ **を割り当てる新しいプロファイルフィールド** ロイヤルティプログラム）を作成する必要があります。
 
 >[!NOTE]
 >
->カスタムリソースは管理者のみが管理できます。
+>カスタムリソースは、管理者のみが管理できます。
 
 それには、次の手順に従います。
 
-1. 詳細設定メニューから、「 」を選択します。 **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom resources]** その後、 **[!UICONTROL Profile (profile)]** カスタムリソース。
+1. 詳細メニューで、**[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom resources]** を選択し、**[!UICONTROL Profile (profile)]** カスタムリソースを選択します。
 
    ![](assets/custom_profile_1.png)
 
-1. 次から： **[!UICONTROL Data structure]** タブ、 **[!UICONTROL Fields]** カテゴリの **[!UICONTROL Add field]** 」ボタンをクリックします。
+1. 「**[!UICONTROL Data structure]**」タブの「**[!UICONTROL Fields]**」カテゴリで、「**[!UICONTROL Add field]**」ボタンをクリックします。
 
    ![](assets/custom_profile_2.png)
 
-1. 次を入力します。 **[!UICONTROL Label]**, **[!UICONTROL ID]** カスタムリソースを選択します。 **[!UICONTROL Type]**. ここでは、 **[!UICONTROL Text]** 受信者は金、銀、青銅から選択できるので
+1. **[!UICONTROL Label]**、**[!UICONTROL ID]** を入力し、カスタムリソース **[!UICONTROL Type]** を選択します。 ここでは、受信者がゴールド、シルバー、ブロンズから選択できるので、**[!UICONTROL Text]** を選択しました。
 
    ![](assets/custom_profile_3.png)
 
-1. 次をクリック： ![](assets/custom_profile_22.png) アイコンを使用してフィールドを定義します。
+1. ![](assets/custom_profile_22.png) アイコンをクリックして、フィールドを定義します。
 
    ![](assets/custom_profile_12.png)
 
-1. ここでは、 **[!UICONTROL Specify a list of authorized valued]** をクリックして、各値を作成します。 **[!UICONTROL Create element]**.
+1. ここでは、**[!UICONTROL Specify a list of authorized valued]** をチェックして許可された値を指定し、**[!UICONTROL Create element]** をクリックして各値を作成する必要があります。
 
    ![](assets/custom_profile_13.png)
 
-1. 次を入力します。 **[!UICONTROL Label]** および **[!UICONTROL Value]** 次に、「 **[!UICONTROL Add]**. この例では、値 gold、silver、bronze を作成する必要があります。 クリック **[!UICONTROL Confirm]** 完了したら、
+1. **[!UICONTROL Label]** を入力 **[!UICONTROL Value]**、「**[!UICONTROL Add]**」をクリックします。 この例では、値 gold、silver、bronze を作成する必要があります。 終了したら「**[!UICONTROL Confirm]**」をクリックします。
 
    ![](assets/custom_profile_14.png)
 
-1. 「**[!UICONTROL Screen definition]**」タブを選択します。Adobe Analytics の **[!UICONTROL Detail screen configuration]** ドロップダウン、チェック **[!UICONTROL Add personalized fields]** セクションを開いて、プロファイルに新しいセクションを作成します。
+1. 「**[!UICONTROL Screen definition]**」タブを選択します。**[!UICONTROL Detail screen configuration]** ドロップダウンで、「」セクション **[!UICONTROL Add personalized fields]** チェックして、プロファイルに新しいセクションを作成します。
 
    ![](assets/custom_profile_4.png)
 
-1. 次をクリック： **[!UICONTROL Add an element]** ボタンをクリックして、新しいセクションを作成します。 を選択します。 **[!UICONTROL Type]**: **[!UICONTROL Input field]**, **[!UICONTROL Value]** または **[!UICONTROL List]**&#x200B;を選択し、この新しいセクションに追加するフィールドを選択します。
+1. 「**[!UICONTROL Add an element]**」ボタンをクリックして、新しいセクションを作成します。 **[!UICONTROL Input field]**、**[!UICONTROL Value]**、**[!UICONTROL List]** のい **[!UICONTROL Type]** れかのフィールドを選択した後、この新しいセクションに追加するフィールドを選択します。
 
    ![](assets/custom_profile_5.png)
 
-1. また、「 」フィールドでセクションにタイトルを追加することもできます **[!UICONTROL Customize the title of the section where the fields will be displayed]**.
+1. また、フィールド **[!UICONTROL Customize the title of the section where the fields will be displayed]** でセクションにタイトルを追加することもできます。
 
-   クリック **[!UICONTROL Save]** 設定が完了したとき。
+   設定が完了したら、「**[!UICONTROL Save]**」をクリックします。
 
    ![](assets/custom_profile_6.png)
 
-1. 詳細設定メニューから、「 」を選択します。 **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Publication]** をクリックして、カスタムリソースの公開を開始します。
-1. クリック **[!UICONTROL Prepare publication]** 準備が完了したら、 **[!UICONTROL Publish]** 」ボタンをクリックします。
+1. 詳細メニューから、**[!UICONTROL Administration]** / **[!UICONTROL Development]** / **[!UICONTROL Publication]** を選択して、カスタムリソースの公開を開始します。
+1. 「」をクリック **[!UICONTROL Prepare publication]**、準備が完了したら「**[!UICONTROL Publish]**」ボタンをクリックします。
 
    ![](assets/custom_profile_7.png)
 
-これで、新しいプロファイルフィールドを使用して、受信者が選択できる状態になりました。
+これで、受信者が新しいプロファイルフィールドを使用して選択する準備が整いました。
 
 ![](assets/custom_profile_8.png)
 
-## 手順 2：プロファイルフィールドを使用して送信ログを拡張する {#step-2--extend-the-sending-logs-with-the-profile-field}
+## 手順 2：プロファイルフィールドを使用した送信ログの拡張 {#step-2--extend-the-sending-logs-with-the-profile-field}
 
-これで、プロファイルフィールドが作成されたので、送信ログをプロファイルフィールドで拡張して、動的レポートで関連するカスタムプロファイルディメンションを作成する必要があります。
+プロファイルフィールドを作成したので、次は、プロファイルフィールドで送信ログを拡張して、関連するカスタムプロファイルディメンションを動的レポートに作成する必要があります。
 
-プロファイルフィールドを使用してログを拡張する前に、PII ウィンドウが **[!UICONTROL Sending logs extension]** タブをクリックします。 詳しくは、この[ページ](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement)を参照してください。
+プロファイルフィールドを使用してログを拡張する前に、PII ウィンドウが「**[!UICONTROL Sending logs extension]**」タブへのアクセス権を持つことを確認します。 詳しくは、この[ページ](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement)を参照してください。
 
 >[!NOTE]
 >
->ログは、管理者がプロファイルフィールドでのみ拡張できます。
+>ログは、管理者によるプロファイルフィールドでのみ拡張できます。
 
-1. 詳細設定メニューから、「 」を選択します。 **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom resources]** その後、 **[!UICONTROL Profile (profile)]** カスタムリソース。
-1. を開きます。 **[!UICONTROL Sending logs extension]** 」ドロップダウンリストから選択できます。
+1. 詳細メニューで、**[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Custom resources]** を選択し、**[!UICONTROL Profile (profile)]** カスタムリソースを選択します。
+1. **[!UICONTROL Sending logs extension]** ドロップダウンを開きます。
 1. 「**[!UICONTROL Create element]**」ボタンをクリックします。
 
    ![](assets/custom_profile_9.png)
 
-1. 以前に作成したフィールドを選択し、「 **[!UICONTROL Confirm]**.
-1. チェック **[!UICONTROL Add this field in Dynamic reporting as a new dimension]** をクリックして、カスタムプロファイルディメンションを作成します。
+1. 以前に作成したフィールドを選択し、「**[!UICONTROL Confirm]**」をクリックします。
+1. カスタムプロファイルディメンションを作成する **[!UICONTROL Add this field in Dynamic reporting as a new dimension]** 合は、「」をオンにします。
 
    ![](assets/custom_profile_10.png)
 
-   このオプションは、PII ウィンドウが受け入れられた場合にのみ使用できます。 詳しくは、この[ページ](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement)を参照してください。
+   このオプションは、PII ウィンドウが承認された場合にのみ使用できます。 詳しくは、この[ページ](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement)を参照してください。
 
-1. クリック **[!UICONTROL Add]** 次に、カスタムリソースを保存します。
-1. カスタムリソースは変更されたので、新しい変更を実装するにはパブリッシュする必要があります。
+1. 「」 **[!UICONTROL Add]** クリックして、カスタムリソースを保存します。
+1. カスタムリソースは変更されたので、新しい変更を実装するには公開する必要があります。
 
-   詳細設定メニューから、「 」を選択します。 **[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Publication]** をクリックして、カスタムリソースの公開を開始します。
+   詳細メニューから、**[!UICONTROL Administration]** / **[!UICONTROL Development]** / **[!UICONTROL Publication]** を選択して、カスタムリソースの公開を開始します。
 
-1. クリック **[!UICONTROL Prepare publication]** 準備が完了したら、 **[!UICONTROL Publish]** 」ボタンをクリックします。
+1. 「」をクリック **[!UICONTROL Prepare publication]**、準備が完了したら「**[!UICONTROL Publish]**」ボタンをクリックします。
 
    ![](assets/custom_profile_7.png)
 
-これで、カスタムプロファイルが、レポートでカスタムプロファイルディメンションとして使用できるようになりました。
+カスタムプロファイルは、レポートのカスタムプロファイルディメンションとして使用できるようになりました。
 
-これで、フィールドが作成され、送信ログがこのプロファイルフィールドを使用して拡張されたので、配信で受信者のターゲティングを開始できます。
+フィールドが作成され、このプロファイルフィールドで送信ログが拡張されたので、配信での受信者のターゲティングを開始できます。
 
-## 手順 3：ロイヤルティプログラムに登録された受信者をターゲティングした配信を作成します {#step-3--create-a-delivery-targeting-recipients-enrolled-in-the-loyalty-program}
+## 手順 3：ロイヤルティプログラムに登録した受信者をターゲティングする配信を作成する {#step-3--create-a-delivery-targeting-recipients-enrolled-in-the-loyalty-program}
 
-プロファイルフィールドが公開されたら、配信を開始できます。 この例では、ロイヤリティープログラムに登録されたすべての受信者をターゲットにします。
+プロファイルフィールドが公開されたら、配信を開始できます。 この例では、ロイヤルティプログラムに登録したすべての受信者をターゲットにします。
 
 1. 「**[!UICONTROL Marketing activities]**」タブで「**[!UICONTROL Create]**」をクリックし、「**[!UICONTROL Email]**」を選択します。
-1. を選択します。 **[!UICONTROL Email type]** 次に、電子メールのプロパティを入力します。
-1. ロイヤリティープログラムに登録された受信者をターゲットにするには、 **[!UICONTROL Profiles (attributes)]** アクティビティ。
-1. 以前に作成したフィールドを **[!UICONTROL Field]** 」ドロップダウンリストから選択できます。
+1. **[!UICONTROL Email type]** を選択し、メールのプロパティを入力します。
+1. ロイヤルティプログラムに登録されている受信者をターゲットにするには、**[!UICONTROL Profiles (attributes)]** アクティビティをドラッグ&amp;ドロップします。
+1. 以前に作成したフィールドを **[!UICONTROL Field]** ドロップダウンから選択します。
 
    ![](assets/custom_profile_16.png)
 
-1. を選択します。 **[!UICONTROL Filter conditions]**. ここでは、3 つのロイヤリティープログラムのレベルの 1 つに属する受信者をターゲットにします。
+1. **[!UICONTROL Filter conditions]** を選択します。 ここでは、3 つのロイヤルティプログラムのレベルのいずれかに属する受信者をターゲットにします。
 
    ![](assets/custom_profile_17.png)
 
-1. クリック **[!UICONTROL Confirm]** 次に、フィルタリングが完了したら、「 **[!UICONTROL Next]**.
-1. メッセージの内容、送信者名、件名を定義し、パーソナライズします。 E メール作成について詳しくは、 [ページ](../../designing/using/designing-content-in-adobe-campaign.md).
+1. 「」をクリック **[!UICONTROL Confirm]**、フィルタリングが完了したら「**[!UICONTROL Next]**」をクリックします。
+1. メッセージの内容、送信者名、件名を定義してパーソナライズします。 メール作成について詳しくは、この [ ページ ](../../designing/using/designing-content-in-adobe-campaign.md) を参照してください。
 
-   次に、「 **[!UICONTROL Create]**.
+   次に、「**[!UICONTROL Create]**」をクリックします。
 
-1. 準備が整ったら、メッセージをプレビューして送信できます。 メッセージの準備と送信の方法について詳しくは、次を参照してください。 [ページ](../../sending/using/preparing-the-send.md).
+1. 準備が整ったら、メッセージをプレビューして送信できます。 メッセージの準備および送信方法について詳しくは、この [ ページ ](../../sending/using/preparing-the-send.md) を参照してください。
 
-選択した受信者に E メールが正しく送信されたら、データのフィルタリングを開始し、レポートを使用して配信の成功をトラッキングできます。
+選択した受信者にメールを正しく送信したら、データのフィルタリングを開始し、レポートを使用して配信の成功を追跡できます。
 
-## 手順 4：動的レポートを作成して、カスタムプロファイルディメンションで受信者をフィルターします {#step-4--create-a-dynamic-report-to-filter-recipients-with-the-custom-profile-dimension}
+## 手順 4：カスタムプロファイルディメンションを使用して受信者をフィルタリングするための動的レポートの作成 {#step-4--create-a-dynamic-report-to-filter-recipients-with-the-custom-profile-dimension}
 
-配信を送信した後、 **[!UICONTROL Profile]** 表。
+配信を送信したら、**[!UICONTROL Profile]** のテーブルのカスタムプロファイルディメンションを使用してレポートを分類できます。
 
-1. 次から： **[!UICONTROL Reports]** 」タブで、標準のレポートを選択するか、 **[!UICONTROL Create]** ボタンをクリックして、一から開始します。
+1. 「**[!UICONTROL Reports]**」タブから、標準提供のレポートを選択するか、「**[!UICONTROL Create]**」ボタンをクリックして最初から作成します。
 
    ![](assets/custom_profile_18.png)
 
-1. Adobe Analytics の **[!UICONTROL Dimensions]** カテゴリ、クリック **[!UICONTROL Profile]** 次に、カスタムをドラッグ&amp;ドロップします **ロイヤルティプログラム** プロファイルディメンションをフリーフォームテーブルに追加します。
+1. **[!UICONTROL Dimensions]** カテゴリで、「」をクリック **[!UICONTROL Profile]**、カスタム **ロイヤルティプログラム** プロファイルディメンションをフリーフォームテーブルにドラッグ&amp;ドロップします。
 
    ![](assets/custom_profile_19.png)
 
-1. 次をドラッグ&amp;ドロップ： **[!UICONTROL Processed/Sent]** および **[!UICONTROL Open]** 指標を使用して、データのフィルタリングを開始します。
+1. **[!UICONTROL Processed/Sent]** と **[!UICONTROL Open]** の指標をドラッグ&amp;ドロップして、データのフィルタリングを開始します。
 
    ![](assets/custom_profile_20.png)
 
-1. 必要に応じて、ワークスペースにビジュアライゼーションをドラッグ&amp;ドロップします。
+1. 必要に応じて、ビジュアライゼーションをワークスペースにドラッグ&amp;ドロップします。
 
    ![](assets/custom_profile_21.png)
 
 **関連トピック：**
 
-* [カスタムプロファイルデータを使用した洞察に富んだレポートの作成](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)
+* [ カスタムプロファイルデータを使用した洞察に満ちたレポートの作成 ](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)

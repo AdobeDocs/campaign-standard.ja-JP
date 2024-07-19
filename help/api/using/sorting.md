@@ -1,6 +1,6 @@
 ---
 title: 並べ替え
-description: 並べ替え操作の実行方法の詳細
+description: 詳しくは、並べ替え操作の実行方法を参照してください
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -17,15 +17,15 @@ ht-degree: 11%
 
 # 並べ替え
 
-並べ替えは、デフォルトで昇順で使用できます。 降順で並べ替えるには、「 **%20desc** から **_order** パラメーターの値。
+デフォルトでは、昇順で並べ替えることができます。 降順で並べ替えるには、**_order** パラメーターの値に **%20desc** を追加します。
 
-フィールドを並べ替えることができるかどうかを知るには、リソースメタデータに「sortable」パラメーターをチェックします。 詳しくは、[この節](../../api/using/metadata-mechanism.md)を参照してください。
+フィールドが並べ替え可能かどうかを知るには、リソースメタデータに対して「並べ替え可能」パラメーターを確認します。 詳しくは、[この節](../../api/using/metadata-mechanism.md)を参照してください。
 
 <br/>
 
-***リクエストのサンプル***
+***サンプルリクエスト***
 
-* GET内の E メールをアルファベット順に取得するサンプルデータリクエスト。
+* データベース内のメールをアルファベット順に取得するサンプルGETリクエスト。
 
   ```
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_order=email \
@@ -35,7 +35,7 @@ ht-degree: 11%
   -H 'X-Api-Key: <API_KEY>'
   ```
 
-  リクエストへの応答。
+  リクエストに対する応答。
 
   ```
   {
@@ -50,7 +50,7 @@ ht-degree: 11%
   }
   ```
 
-* GET内の E メールを降順で取得するサンプルデータリクエスト。
+* データベース内のメールをアルファベットの降順で取得するサンプルGETリクエスト。
 
   ```
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_order=email%20desc \
@@ -60,7 +60,7 @@ ht-degree: 11%
   -H 'X-Api-Key: <API_KEY>'
   ```
 
-  リクエストへの応答。
+  リクエストに対する応答。
 
   ```
   {

@@ -1,6 +1,6 @@
 ---
 title: 新規でのメールのデザイン
-description: E メールデザイナーでゼロから E メールをデザインする方法を説明します。
+description: メールDesignerでメールをゼロのメールコンテンツからデザインする方法を説明します。
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
@@ -17,24 +17,24 @@ ht-degree: 27%
 
 # 新規でのメールのデザイン {#designing-an-email-content-from-scratch}
 
-E メールコンテンツのマスター方法を説明します。 E メールデザイナーを使用すると、独自の定義済みコンテンツを使用して、または使用せずに E メールやテンプレートを作成できます。
+メールコンテンツ編集をマスターする方法を説明します。 メールDesignerを使用すると、定義済みのコンテンツの有無に関わらず、メールとテンプレートを作成できます。
 
-E メールデザイナーを使用して E メールコンテンツを最初から作成および設計する主な手順は次のとおりです。
+以下は、メールDesignerを使用してメールコンテンツをゼロから作成およびデザインする主な手順です。
 
-1. E メールを作成し、そのコンテンツを開きます。
-1. 電子メールの形状を作成する構造コンポーネントを追加します。 詳しくは、 [メール構造の編集](#defining-the-email-structure).
-1. 構造コンポーネントにコンテンツコンポーネントとフラグメントを挿入します。 詳しくは、 [フラグメントとコンテンツコンポーネントの追加](#defining-the-email-structure).
-1. 画像を追加し、E メールのテキストを編集します。 [画像の挿入](../../designing/using/images.md#inserting-images)を参照してください。
-1. パーソナライゼーションフィールドやリンクなどを追加して E メールをパーソナライズします。 詳しくは、 [パーソナライゼーションフィールドの挿入](../../designing/using/personalization.md#inserting-a-personalization-field), [リンクの挿入](../../designing/using/links.md#inserting-a-link) および [E メールでの動的コンテンツの定義](../../designing/using/personalization.md#defining-dynamic-content-in-an-email).
-1. 電子メールの件名行を定義します。 詳しくは、 [E メールの件名行のパーソナライズ](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email).
-1. メールをプレビューします。
-1. コンテンツを保存し、オーディエンスを定義し、送信を適切にスケジュールしたことを確認したら、メッセージを続行します。
+1. メールを作成し、そのコンテンツを開きます。
+1. 構造コンポーネントを追加して、メールを形作ります。 [ メール構造の編集 ](#defining-the-email-structure) を参照してください。
+1. 構造コンポーネントにコンテンツコンポーネントとフラグメントを挿入します。 詳しくは、[ フラグメントとコンテンツコンポーネントの追加 ](#defining-the-email-structure) を参照してください。
+1. 画像を追加し、メールのテキストを編集します。 [画像の挿入](../../designing/using/images.md#inserting-images)を参照してください。
+1. パーソナライゼーションフィールド、リンクなどを追加して、メールをパーソナライズします。 [ パーソナライゼーションフィールドの挿入 ](../../designing/using/personalization.md#inserting-a-personalization-field)、[ リンクの挿入 ](../../designing/using/links.md#inserting-a-link) および [ メールへの動的コンテンツの定義 ](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) を参照してください。
+1. メールの件名を定義します。 [ メールの件名のパーソナライズ ](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email) を参照してください。
+1. メールのプレビュー。
+1. コンテンツを保存し、オーディエンスを定義し、送信を適切にスケジュールしたことを確認した後、メッセージに進みます。
 
-また、 [紹介ビデオ](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true).
+こちらの [ 紹介ビデオ ](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true) も確認できます。
 
 >[!NOTE]
 >
->E メールコンテンツをゼロからデザインするのを避けるために、標準のコンテンツテンプレートを使用できます。 詳しくは、 [コンテンツテンプレート](../../designing/using/using-reusable-content.md#content-templates).
+>メールコンテンツをゼロからデザインしないようにするには、標準提供のコンテンツテンプレートを使用できます。 詳しくは、[ コンテンツテンプレート ](../../designing/using/using-reusable-content.md#content-templates) を参照してください。
 
 ## メール構造の定義 {#defining-the-email-structure}
 
@@ -50,28 +50,28 @@ E メールデザイナーを使用して E メールコンテンツを最初か
 
 E メールデザイナーを使用すると、メールの構造を簡単に定義できます。簡単なドラッグ＆ドロップ操作で構造要素を追加して移動することで、メールの形状を数秒でデザインできます。
 
-E メールの構造を編集するには：
+メールの構造を編集するには：
 
-1. 既存のコンテンツを開くか、新しい E メールコンテンツを作成します。
-1. 次にアクセス： **[!UICONTROL Structure components]** 選択して **+** アイコンをクリックします。
+1. 既存のコンテンツを開くか、新しいメールコンテンツを作成します。
+1. **[!UICONTROL Structure components]** にアクセスするには、左側の「**+**」アイコンを選択します。
 
    ![](assets/email_designer_structure.png)
 
-1. 電子メールの形成に必要な構造コンポーネントをドラッグ&amp;ドロップします。
+1. メールを形作るのに必要な構造コンポーネントをドラッグ&amp;ドロップします。
 
    ![](assets/email_designer_structure_components.png)
 
-   青い線は、ドロップする前に構造コンポーネントの正確な位置を具現化します。 上、他のコンポーネントの間または下にドロップできますが、内部にはドロップできません。
+   青い線は、構造コンポーネントをドロップする前の、構造コンポーネントの正確な場所を具体化しています。 他のどのコンポーネントの上、間、下にドロップしても構いませんが、コンポーネント内にはドロップできません。
 
    >[!NOTE]
    >
    >列のスタックは、すべてのメールプログラムと互換性があるわけではないことに注意してください。サポートされていない場合、列はスタックされません。
    >
-   >E メールに配置した後は、既にコンテンツコンポーネントまたはフラグメントが配置されていない限り、コンポーネントを移動または削除することはできません。
+   >メールに配置した後は、既にコンテンツコンポーネントまたはフラグメントが内部に配置されていない限り、コンポーネントを移動または削除できません。
 
-1. 1 つ以上の列で構成される構造コンポーネントを使用できます。
+1. 1 つ以上の列で構成される、複数の構造コンポーネントを使用できます。
 
-   を選択します。 **[!UICONTROL n:n column]** コンポーネントを使用して、選択する列の数を定義します (3 ～ 10)。 また、各列の下部にある矢印を移動して、各列の幅を定義することもできます。
+   **[!UICONTROL n:n column]** コンポーネントを選択して、列数（3～10）を任意に定義します。 また、各列の下部にある矢印を移動して、各列の幅を定義することもできます。
 
    ![](assets/email_designer_n-n-column.png)
 
@@ -79,7 +79,7 @@ E メールの構造を編集するには：
    >
    >各列のサイズは、構造コンポーネントの全幅の 10％未満にすることはできません。空でない列は削除できません。
 
-構造を定義したら、コンテンツフラグメントとコンポーネントを E メールに追加できます。
+構造を定義すると、コンテンツフラグメントやコンポーネントをメールに追加できます。
 
 ## プリヘッダーの使用 {#preheader}
 
@@ -88,13 +88,13 @@ E メールの構造を編集するには：
 >title="プリヘッダーの使用"
 >abstract="プリヘッダーを使用すると、メールの開封率を高める短い概要テキストを設定できます。"
 
-プリヘッダーは、インボックスから E メールを表示する際に件名の後に続く短い概要テキストです。 プリヘッダーは、より高い開封率を提供します。
+プリヘッダーは、インボックスからメールを表示する際に件名の後に表示される短い概要テキストです。 プリヘッダーは、より高い開封率を提供します。
 
-を選択します。 **[!UICONTROL Preheader]** 編集ボックスを開き、コンテンツを完成させます。
+「**[!UICONTROL Preheader]**」編集ボックスを選択し、コンテンツを入力します。
 
 ![](assets/email_designer_preheader.png)
 
-次の項目を追加できます： **[!UICONTROL Content block]**, a **[!UICONTROL Dynamic content]** または **[!UICONTROL Personalization fields]** をプリヘッダーコンテンツに追加します。
+プリヘッダーコンテンツには、**[!UICONTROL Content block]**、**[!UICONTROL Dynamic content]** または **[!UICONTROL Personalization fields]** を追加できます。
 
 >[!NOTE]
 >
@@ -107,49 +107,49 @@ E メールの構造を編集するには：
 >title="コンテンツコンポーネントについて"
 >abstract="コンテンツコンポーネントは、メールの作成に編集できる空のコンテンツプレースホルダーです。"
 
-コンテンツコンポーネントは生の空コンポーネントで、E メールに配置すると編集できます。
+コンテンツコンポーネントは、メールに配置して編集できる生の空コンポーネントです。
 
-コンテンツコンポーネントは、必要な数だけ構造コンポーネントに追加できます。 また、構造コンポーネント内や別の構造コンポーネントに移動することもできます。
+構造コンポーネントには、必要な数だけコンテンツコンポーネントを追加できます。 これらは、構造コンポーネント内または別の構造コンポーネントに移動することもできます。
 
-E メールデザイナーで使用可能なコンポーネントのリストを次に示します。
+以下は、メールDesignerで使用できるコンポーネントのリストです。
 
 ### **[!UICONTROL Button]**
 
-複数のボタンを使用する必要がある場合は、各ボタンを一から編集するのではなく、 **[!UICONTROL Button]** コンポーネントを使用します。
+複数のボタンを使用する必要がある場合は、各ボタンを最初から編集するのではなく、コンテキストツールバーを使用して **[!UICONTROL Button]** コンポーネントを複製できます。
 
-また、ボタンをフラグメントに保存して再利用することもできます。 詳しくは、 [コンテンツフラグメントの作成](../../designing/using/using-reusable-content.md#creating-a-content-fragment) および [コンテンツをフラグメントとして保存](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment).
+再利用可能なフラグメントにボタンを保存することもできます。 詳しくは、[ コンテンツフラグメントの作成 ](../../designing/using/using-reusable-content.md#creating-a-content-fragment) および [ コンテンツをフラグメントとして保存 ](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment) を参照してください。
 
-選択 **[!UICONTROL Fallback view]** をクリックして、E メールデザイナーにフォールバック画像を表示します。
+「**[!UICONTROL Fallback view]**」を選択すると、メールDesignerにフォールバック画像が表示されます。
 
 ### **[!UICONTROL Text]**
 
-このコンポーネントを使用して、E メールにテキストを挿入します。 テキストの色、スタイル、サイズは、 **[!UICONTROL Component Settings]**.
+このコンポーネントを使用すると、メールにテキストを挿入できます。 テキストの色、スタイル、サイズは **[!UICONTROL Component Settings]** で調整できます。
 
 ### **[!UICONTROL Divider]**
 
-このコンポーネントを使用して、E メールに分割線を挿入します。 区切り線の色、スタイル、サイズは、 **[!UICONTROL Component Settings]**.
+このコンポーネントを使用すると、メールに分割線を挿入できます。 **[!UICONTROL Component Settings]** で区切り線の色、スタイル、およびサイズを選択できます。
 
 ### **[!UICONTROL HTML]**
 
-このコンポーネントを使用して、既存のHTMLの異なる部分をコピー&amp;ペーストします。 これにより、無料のモジュラーHTMLコンポーネントを作成できます。
+このコンポーネントを使用すると、既存のHTMLの別の部分をコピーして貼り付けることができます。 これにより、無料のモジュラーHTMLコンポーネントを作成できます。
 
 >[!NOTE]
 >
->フリーHTMLコンポーネントは、制限付きオプションで編集できます。 すべてのスタイルがインライン化されていない場合は、 **head** HTMLコードのセクションに含めてください。そうしないと、E メールが応答しなくなります。 以下を使用します。 **[!UICONTROL Preview]** ボタンを使用して、コンテンツの応答性をテストします ( [メッセージのプレビュー](../../sending/using/previewing-messages.md)) をクリックします。
+>無料のHTMLコンポーネントは、制限付きオプションを使用して編集できます。 すべてのスタイルがインライン化されていない場合は、HTMLコードの **head** セクションに適切な CSS を必ず追加してください。そうしないと、メールは応答しません。 「**[!UICONTROL Preview]**」ボタンを使用して、コンテンツの応答性をテストします（[ メッセージのプレビュー ](../../sending/using/previewing-messages.md) を参照）。
 
-外部コンテンツを E メールデザイナーに準拠させる場合には、Adobeは最初からメッセージを作成し、既存の E メールのコンテンツをフラグメントやコンポーネントにコピーすることをお勧めします。
+外部コンテンツを簡単にメールDesignerAdobeに準拠させるには、ゼロからメッセージを作成し、既存のメールのコンテンツをフラグメントとコンポーネントにコピーすることをお勧めします。
 
-再作成できないコンテンツがある場合は、元の E メールから、 **[!UICONTROL Html]** コンテンツコンポーネント。 先に進む前に、HTMLに関する詳細を確認します。
+再作成できないコンテンツがある場合は、**[!UICONTROL Html]** コンテンツコンポーネントを使用して、元のメールからHTMLコードをコピー&amp;ペーストできます。 続行する前に、HTMLに精通していることを確認してください。
 
 >[!NOTE]
 >
->新しいコンテンツは、元の E メールの正確なコピーではありませんが、以下の手順で、できるだけ近いメッセージを作成する手順を説明します。
+>新しいコンテンツは、元のメールの正確なコピーではありませんが、以下の手順に従って、できるだけ近いメッセージを作成できます。
 
-**コンテンツをコピーする前に**
+**コンテンツのコピー前**
 
-1. 元の E メールで、送信する各 E メールに固有のセクションから再利用可能なセクションを特定します。
+1. 元のメールで、送信する各メールに固有のセクションから再利用可能なセクションを特定します。
 1. 使用するすべての画像とアセットを保存します。
-1. HTMLに詳しい場合は、元のHTMLコンテンツを別の部分に分割します。
+1. HTMLに詳しい場合は、元のHTMLコンテンツを様々な部分に分割します。
 
 ### ビデオ {#video-settings}
 
@@ -159,7 +159,7 @@ E メールデザイナーで使用可能なコンポーネントのリストを
 >abstract="このコンポーネントを使用して、メールにビデオを挿入します。ただし、ビデオはすべてのメールクライアントで機能するわけではありません。フォールバック画像を設定することをお勧めします。"
 >additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="追加情報"
 
-ビデオコンポーネントを電子メールの構造コンポーネントに挿入し、 **[!UICONTROL Component Settings]**.
+ビデオ コンポーネントをメールの構造コンポーネントに挿入し、**[!UICONTROL Component Settings]** ールバーにビデオリンクを入力します。
 
 >[!NOTE]
 >
@@ -167,13 +167,13 @@ E メールデザイナーで使用可能なコンポーネントのリストを
 
 ### 画像
 
-このコンポーネントを使用して、電子メールに画像を挿入します。
+このコンポーネントを使用して、メールに画像を挿入します。
 
 画像コンポーネントを構造コンポーネントに挿入し、「参照」をクリックして、コンピューターから画像ファイルをアップロードします。
 
 ### **[!UICONTROL Social]**
 
-このコンポーネントを使用して、E メールにソーシャルメディアページへのリンクを挿入します。 表示するリンクと、そのアイコンのサイズを **[!UICONTROL Component Settings]**.
+このコンポーネントを使用すると、メールにソーシャルメディアページへのリンクを挿入できます。 表示するリンクと、**[!UICONTROL Component Settings]** に表示されるリンクのアイコンのサイズを選択できます。
 
 ### カルーセル {#carousel-settings}
 
@@ -182,12 +182,12 @@ E メールデザイナーで使用可能なコンポーネントのリストを
 >title="カルーセル設定"
 >abstract="コンテンツにカルーセルを挿入して設定する方法を説明します。カルーセルは、一部のメールクライアントで機能せず、サポートされていない場合はフォールバック画像が表示されます。"
 
-1. 次をドラッグ&amp;ドロップ： **[!UICONTROL Carousel]** コンポーネントを構造コンポーネント内に配置します。
+1. **[!UICONTROL Carousel]** コンポーネントを構造コンポーネントの中にドラッグ&amp;ドロップします。
 1. コンピューターから画像を参照して選択します。
 
    ![](assets/des_carousel_browse.png)
 
-1. 次から： **[!UICONTROL Settings]** パネルで、カルーセルに表示するサムネールの数を設定します。
+1. **[!UICONTROL Settings]** パネルから、カルーセルに表示するサムネールの数を設定します。
 1. コンピューターからフォールバック画像を選択します。
 
    ![](assets/des_carousel_fallback.png)
@@ -196,12 +196,12 @@ E メールデザイナーで使用可能なコンポーネントのリストを
 
 >[!NOTE]
 >
->カルーセルコンポーネントは、次の E メールプラットフォームと互換性があります。 Apple Mail 7、Apple Mail 8、Outlook 2011 for Mac、Outlook 2016 for Mac、Mozilla Thunderbird、iPadとiPad mini iOS、iPhoneiOS、Android、AOL(Chrome、Firefox、Sari)。
+>カルーセルコンポーネントは、次のメールプラットフォームと互換性があります。Apple Mail 7、Apple Mail 8、Mac用の Outlook 2011、Mac用の Outlook 2016、Mozilla Thunderbird、iPadおよびiPad mini iOS、iPhone iOS、Android、AOL （Chrome、Firefox、Safari）。
 
 **関連トピック**：
 
 - [メールの作成](../../channels/using/creating-an-email.md)
 - [メッセージ内のオーディエンスの選択](../../audiences/using/selecting-an-audience-in-a-message.md)
-- [メッセージのスケジュール](../../sending/using/about-scheduling-messages.md)
+- [メッセージのスケジュール設定](../../sending/using/about-scheduling-messages.md)
 - [メッセージのプレビュー](../../sending/using/previewing-messages.md)
 - [メールのレンダリング](../../sending/using/email-rendering.md)

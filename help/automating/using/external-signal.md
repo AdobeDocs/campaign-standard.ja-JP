@@ -24,7 +24,7 @@ ht-degree: 95%
 
 「**[!UICONTROL External signal]**」アクティビティでは、別のワークフローで特定の条件が満足されたときに、または REST API 呼び出しからワークフローをトリガーします。
 
-## 使用状況 {#context-of-use}
+## 使用コンテキスト {#context-of-use}
 
 「**[!UICONTROL External signal]**」アクティビティは、同じカスタマージャーニーの構成要素である様々なプロセスを様々なワークフローに編成する場合に使用します。このアクティビティでは、あるワークフローを別のワークフローから起動できるので、さらに複雑なカスタマージャーニーをサポートできる一方、問題が発生した場合の監視と対応を改善することができます。
 
@@ -40,8 +40,8 @@ ht-degree: 95%
 
 **関連トピック**
 
-* [使用例：外部シグナルのアクティビティとデータのインポート](../../automating/using/external-signal-data-import.md).
-* [使用例：ワークフローを呼び出し、外部パラメーターを使用してファイルからオーディエンスを作成する](../../automating/using/use-case-calling-workflow.md)
+* [ ユースケース：外部シグナルアクティビティとデータのインポート ](../../automating/using/external-signal-data-import.md)。
+* [ユースケース：外部パラメーターを使用してファイルからオーディエンスを作成するためのワークフローの呼び出し](../../automating/using/use-case-calling-workflow.md)
 
 ## 設定 {#configuration}
 

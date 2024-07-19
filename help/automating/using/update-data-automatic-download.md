@@ -1,6 +1,6 @@
 ---
 title: ファイルの自動ダウンロードに基づくデータの更新
-description: 次の例は、「ファイル転送」アクティビティから自動的に「ファイル読み込み」アクティビティがダウンロードされ、「データ更新」アクティビティがその後に実行された場合の結果を示しています。
+description: 次の例は、ファイル転送アクティビティに続いて「データを更新」アクティビティを使用して、自動的にダウンロードされたファイルを読み込みアクティビティの結果を示しています。
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
@@ -24,11 +24,11 @@ ht-degree: 70%
 
 ![](assets/load_file_workflow_ex1.png)
 
-ワークフローを構築するには、次の手順に従います。
+ワークフローを作成するには、次の手順に従います。
 
 1. 「[Transfer file](../../automating/using/transfer-file.md)」アクティビティをワークフローにドラッグ＆ドロップします。
 1. アクティビティを選択し、表示されるクイックアクションの ![](assets/edit_darkgrey-24px.png) ボタンを使用して開きます。
-1. 目的のファイルが回復されるように、アクティビティを設定します。 「**[!UICONTROL Protocol]**」タブで「**SFTP**」を選択します。
+1. 目的のファイルを復元するようにアクティビティを設定します。 「**[!UICONTROL Protocol]**」タブで「**SFTP**」を選択します。
 1. 「**Use connection parameters defined in an external account**」オプションを選択します。
 1. 外部アカウントの名前を入力します。
 1. **リモートサーバーのファイルパス**&#x200B;を入力します。
@@ -36,13 +36,13 @@ ht-degree: 70%
    ![](assets/wkf_file_transfer_07.png)
 
 1. アクティビティを確認します。
-1. 次をドラッグ&amp;ドロップ： [ファイルを読み込み](../../automating/using/load-file.md) アクティビティをワークフロー内に追加し、その後に配置します。 **[!UICONTROL Transfer file]** アクティビティ。
+1. [ ファイルを読み込み ](../../automating/using/load-file.md) アクティビティをワークフローにドラッグ&amp;ドロップし、**[!UICONTROL Transfer file]** アクティビティの後に配置します。
 1. アクティビティを選択し、表示されるクイックアクションの ![](assets/edit_darkgrey-24px.png) ボタンを使用して開きます。
 1. 「**[!UICONTROL Execution]**」タブの「**[!UICONTROL File to load]**」セクションで、「**[!UICONTROL Use the file specified in the inbound transition]**」オプションをオンにします。
 
    ![](assets/wkf_file_loading8.png)
 
 1. 前の指定内容に従って、アクティビティを設定します。
-1. ドラッグ&amp;ドロップ [データを更新](../../automating/using/update-data.md) アクティビティをワークフロー内に追加し、その後に配置します。 **[!UICONTROL Load file]** アクティビティを設定します。
+1. [ データを更新 ](../../automating/using/update-data.md) アクティビティをワークフローにドラッグ&amp;ドロップし、**[!UICONTROL Load file]** アクティビティの後に配置してから、設定します。
 
 ワークフローが開始されると、アップロードされたファイルのデータが抽出され、Adobe Campaign データベースの拡張に使用されます。

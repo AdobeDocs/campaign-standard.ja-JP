@@ -1,6 +1,6 @@
 ---
 title: Adobe Experience Platform SDK への SDK v4 モバイルアプリケーションの移行
-description: SDK v4 からAdobe Experience Platform SDK にモバイルアプリケーションを移行する方法について説明します
+description: SDK v4 からAdobe Experience Platform SDK にモバイルアプリケーションを移行する方法を説明します
 audience: channels
 feature: Instance Settings
 role: Admin
@@ -16,118 +16,118 @@ ht-degree: 1%
 # SDK v4 からAdobe Experience Platform SDK にモバイルアプリケーションを移行する方法 {#sdkv4-migration}
 
 
-Adobe Experience Platform Mobile バージョン 4 SDK のサポートは 2021 年 8 月 31 日をもって終了しました。 このレガシーバージョンの SDK をまだ使用している場合は、Adobe Experience Platform SDK で実装を更新する必要があります **2024 年 6 月末まで**. Experience Platform SDK に移行する方法については、このAdobeを参照してください。
+Adobe Experience Platform Mobile version 4 SDK のサポートは 2021 年 8 月 31 日（PT）をもって終了しました。 引き続きこのレガシーバージョンの SDK を使用する場合は、**2024 年 6 月末までに**、Adobe Experience Platform SDK で実装を更新する必要があります。 Adobe Experience Platform SDK に移行する方法については、この記事を参照してください。
 
 >[!IMPORTANT]
 >
 > SDK V4 モバイルアプリケーションのAdobe Experience Platform SDK への移行を開始する前に、ドキュメントをよくお読みください。
 
-## SDK V4 移行について
+## SDK V4 の移行について
 
-Adobe Campaign Standardは、SDK V4 を使用してモバイルアプリケーションを、Adobe Experience Platform SDK を使用するアプリケーションとは別のアプリケーションとして処理します。
+Adobe Campaign Standardは、Adobe Experience Platform SDK を使用するアプリケーションとは別のアプリケーションとして、SDK V4 を使用するモバイルアプリケーションを処理します。
 
-AdobeSDK のバージョンを v4 からAdobe Experience Platformにアップグレードした後、モバイルアプリケーションは、既存のアプリケーション購読者のデータとキャンペーンを引き続き使用する必要があります。そのため、移行が必要です。
+Adobe SDK バージョンを v4 からAdobe Experience Platformにアップグレードした後、モバイルアプリケーションでは既存のアプリケーション購読者データとキャンペーンを引き続き使用する必要があります。そのため、移行が必要です。
 
 >[!NOTE]
 >
-> このページでは、SDK v4 モバイルアプリケーションを新しく作成したAdobe Experience Platform SDK アプリケーションに移行する方法について説明します。 お使いの SDK v4 モバイルアプリケーションは、Adobe Experience Platform SDK モバイルアプリケーションと **[!UICONTROL Configured]** **[!UICONTROL Property status]**.
+> このページでは、新しく作成したAdobe Experience Platform SDK アプリケーションへの SDK v4 モバイルアプリケーションの移行について説明します。 SDK v4 モバイルアプリケーションは、**[!UICONTROL Configured]** **[!UICONTROL Property status]** を持つAdobe Experience Platform SDK モバイルアプリケーションとは結合されません。
 
-| 移行後に変更されないもの |
+| 移行後に変更されない内容 |
 |:-:|
-| 移行された SDK V4 アプリケーションを使用している既存の配信およびキャンペーンには影響しません。 |
-| モバイルアプリケーションの名前は変わりません。 |
-| iOSおよび Android のプラットフォーム資格情報は保持されます。 |
-| アプリケーションのすべての購読者とそのデータは保持されます。 |
-| 既存の SDK v4 モバイルアプリケーションは、引き続きAdobe Campaign Standardにデータ（PII データ、購読者およびトークン情報）を送信します。 |
-| The **[!UICONTROL Organizational unit]** の両方が同じ状態に保たれます。 |
+| 移行された SDK V4 アプリケーションを使用している既存の配信およびキャンペーンには影響はありません。 |
+| モバイルアプリケーションの名前は同じままです。 |
+| iOSとAndroidのプラットフォーム資格情報は保持されます。 |
+| アプリケーションのすべてのサブスクライバーとそのデータは保持されます。 |
+| 既存の SDK v4 モバイルアプリケーションは、データ（PII データ、購読者およびトークン情報）を引き続きAdobe Campaign Standardに送信します。 |
+| モバイルアプリケーションの **[!UICONTROL Organizational unit]** は同じままです。 |
 
 | 移行後の変更点 |
 |:-:|
-| モバイルアプリケーションは、 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (Adobe Experience Platform SDK)]**. 移行前は、で使用できました。 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (SDK V4)]**. |
-| The **[!UICONTROL Collect PII Endpoint]** の値が変更されます。 古い **[!UICONTROL Collect PII Endpoint]** は引き続き機能し、送信されたデータは失われません。 |
-| アプリケーションはタグに結び付けられます **[!UICONTROL Mobile Property]**. 新しく作成されたモバイルアプリケーションとして処理されます。 |
-| 移行で使用される元のAdobe Experience Platform SDK アプリケーションは、別のアプリケーションとして存在しません。 移行された SDK v4 アプリケーションのみを使用できます。 |
+| モバイルアプリケーションは、**[!UICONTROL Administration]**/**[!UICONTROL Channels]**/**[!UICONTROL Mobile app (Adobe Experience Platform SDK)]** で使用できます。 移行前は、**[!UICONTROL Administration]**/**[!UICONTROL Channels]**/**[!UICONTROL Mobile app (SDK V4)]** で使用できました。 |
+| アプリケーションの **[!UICONTROL Collect PII Endpoint]** が変更されます。 古い **[!UICONTROL Collect PII Endpoint]** は引き続き機能し、送信されたデータは失われません。 |
+| アプリケーションはタグ **[!UICONTROL Mobile Property]** に関連付けられます。 新しく作成されたモバイルアプリケーションとして処理されます。 |
+| 移行で使用される元のAdobe Experience Platform SDK アプリケーションは、別のアプリケーションとしては存在しません。 移行された SDK v4 アプリケーションのみ使用できます。 |
 
 ## SDK v4 からAdobe Experience Platform SDK へのモバイルアプリケーションの移行 {#how-to-migrate}
 
-移行する前に、次の推奨事項を考慮する必要があります。
+移行する前に、次の推奨事項を考慮に入れる必要があります。
 
-* 移行プロセスを元に戻せません。
-* 複数のアプリケーションの移行を同時に実行しないでください。 また、同じアプリケーションの移行が複数のウィンドウで同時にトリガーされないようにする必要があります。
-* 移行する前に、必ず **[!UICONTROL Organizational unit]** 移行するモバイルアプリケーションと、移行に使用するAdobe Experience Platformアプリケーションの両方。
-* 移行後、アプリケーションはAdobe Experience Platform SDK アプリケーションになります。 変更は、対応するタグにリンクされます **[!UICONTROL Mobile Property]**.
+* 移行プロセスは元に戻せません。
+* 複数のアプリケーションの移行を同時に実行しないでください。 また、同じアプリケーションの移行が複数のウィンドウで同時にトリガーされないようにしてください。
+* 移行前に、移行するモバイルアプリケーションと、移行に使用するAdobe Experience Platform アプリケーションの **[!UICONTROL Organizational unit]** が割り当てられていることを確認してください。
+* 移行後、アプリケーションはAdobe Experience Platform SDK アプリケーションになります。 変更内容は、対応するタグ **[!UICONTROL Mobile Property]** にリンクされます。
 
-1. 新規作成 **[!UICONTROL Mobile property]** （データ収集 UI）を参照してください。 詳しくは、 [ドキュメント](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/).
+1. データ収集 UI で新しい **[!UICONTROL Mobile property]** を作成します。 詳しくは、[ ドキュメント ](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/) を参照してください。
 
-1. Adobe Campaign Standardの詳細設定メニューで、「 」を選択します。 **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Workflows]** をクリックし、 **[!UICONTROL syncWithLaunch]** ワークフロー。 ワークフローがエラーなく終了したかどうかを確認します。
+1. Adobe Campaign Standardで、詳細メニューから **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Workflows]** を選択し、**[!UICONTROL syncWithLaunch]** ワークフローを開きます。 ワークフローがエラーなく終了したかどうかを確認します。
 
-1. ワークフローの完了後、 **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (Adobe Experience Platform SDK)]** メニューで、モバイルアプリがAdobe Campaign Standardで使用可能かどうか、およびが **[!UICONTROL Ready to Configure]** 状態。
+1. ワークフロー完了後、**[!UICONTROL Administration]** / **[!UICONTROL Channels]** / **[!UICONTROL Mobile app (Adobe Experience Platform SDK)]** メニューから、モバイルアプリケーションがAdobe Campaign Standardで使用可能で、ステータスが **[!UICONTROL Ready to Configure]** しいかどうかを確認します。
 
    ![](assets/aep_v4_2.png)
 
-1. In **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (SDK V4)]**、移行する SDK V4 アプリケーションを選択します。
+1. **[!UICONTROL Administration]**/**[!UICONTROL Channels]**/**[!UICONTROL Mobile app (SDK V4)]** で、移行する SDK V4 アプリケーションを選択します。
 
 1. 「**[!UICONTROL Mobile application migration to AEP SDK]**」タブを選択します。
 
    ![](assets/aep_v4_3.png)
 
-1. 次から： **[!UICONTROL Select AEP SDK mobile application to merge current application with]** ドロップダウンから、以前に作成したAdobe Experience Platform SDK モバイルアプリケーションを選択します。
+1. **[!UICONTROL Select AEP SDK mobile application to merge current application with]** ドロップダウンから、以前に作成したAdobe Experience Platform SDK モバイルアプリケーションを選択します。
 
 1. 「**[!UICONTROL Migrate]**」をクリックします。
 
    ![](assets/aep_v4_4.png)
 
-1. 次から： **[!UICONTROL Migration application]** ウィンドウ、クリック **[!UICONTROL Ok]**.
+1. **[!UICONTROL Migration application]** ウィンドウで、「**[!UICONTROL Ok]**」をクリックします。
 
    ![](assets/aep_v4_5.png)
 
-1. 正常に完了したウィンドウが表示され、「 **[!UICONTROL Go to Adobe Experience Platform SDK Channel list]**.
+1. 正常な完了ウィンドウが表示されたら、「**[!UICONTROL Go to Adobe Experience Platform SDK Channel list]**」をクリックします。
 
-1. Adobe Experience Platform SDK チャネルリストページで、以前の V4 モバイルアプリケーションがに設定されていることを確認します。 **[!UICONTROL Ready To Configure]**.
+1. Adobe Experience Platform SDK チャネルリストページで、以前の V4 モバイルアプリケーションが **[!UICONTROL Ready To Configure]** に設定されていることを確認します。
 
-1. モバイルアプリケーションを選択し、 **[!UICONTROL Save]** をクリックして、移行を完了します。
+1. モバイルアプリケーションを選択し、「**[!UICONTROL Save]**」をクリックして移行を完了します。
 
-この移行後、モバイルアプリケーションの V4 バージョンで収集された購読者と、モバイルアプリケーションの AEP バージョンで収集された新しい購読者を、移行されたアプリケーションで使用できるようになります。
+この移行後、モバイルアプリケーションの V4 バージョンで収集されたサブスクライバーと、モバイルアプリケーションの AEP バージョンで収集された新しいサブスクライバーは、移行されたアプリケーションで使用できます。
 
-2 つの異なるタイプの購読者を区別するために、 **[!UICONTROL Text]** カスタムリソースを拡張する際のタイプ **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** as `sdkversion` または `appVersion` 例： カスタムリソースの拡張方法について詳しくは、 [ページ](../../developing/using/creating-or-extending-the-resource.md).
-次に、関連するタグを設定する必要があります **[!UICONTROL Mobile property]** をクリックしてこのカスタムフィールド値を PII 収集呼び出しで送信し、それに応じてモバイルアプリケーションの設定を変更します。
+2 つの異なるタイプのサブスクライバーを区別するには、カスタムリソースフィールドを拡張する際に、**[!UICONTROL Text]** タイプの新しいカスタムフ **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** ールドを、例えば `sdkversion` や `appVersion` のように追加できます。 カスタムリソースの拡張方法について詳しくは、この [ ページ ](../../developing/using/creating-or-extending-the-resource.md) を参照してください。
+次に、関連するタグ **[!UICONTROL Mobile property]** を設定して、PII 呼び出しを収集でこのカスタムフィールド値を送信し、それに応じてモバイルアプリケーション設定を変更する必要があります。
 
 ## FAQ {#faq}
 
-### Q:SDK v4 モバイルアプリケーションでは、「 Adobe Experience Platform SDK へのモバイルアプリケーションの移行」タブは表示されません。 {#tab-not-visible}
+### Q:SDK v4 モバイルアプリケーションで、「Adobe Experience Platform SDK へのモバイルアプリケーションの移行」タブが表示されません。 {#tab-not-visible}
 
-A：詳細設定メニューから **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Options]**&#x200B;を使用する場合、 **[!UICONTROL Enable migration of mobile app from SDK v4 to Adobe Experience Platform SDK option]** オプション。 これは 1 に設定し、デフォルトで有効にする必要があります。 管理者が手動で無効にした可能性があります。
+A：詳細メニュー **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Options]** で、「**[!UICONTROL Enable migration of mobile app from SDK v4 to Adobe Experience Platform SDK option]**」オプションの値をチェックします。 1 に設定し、デフォルトで有効にする必要があります。 管理者が手動で無効にしている可能性があります。
 
 ![](assets/aep_v4_1.png)
 
-### Q:「モバイルアプリケーションをAdobe Experience Platform SDK に移行する」タブから、「データがありません」というメッセージが表示されます。 {#no-data}
+### Q: 「モバイルアプリケーションのAdobe Experience Platform SDK への移行」タブで、「データがありません」というメッセージが表示されます。 {#no-data}
 
-A：お客様の適格な申し込みのみ **[!UICONTROL Organizational unit]** がリストに表示されます。 移行に適したAdobe Experience Platformアプリケーションがあることを確認してください。 The **[!UICONTROL Property Status]** の値は、Adobe Experience Platformアプリケーションで **[!UICONTROL Ready to Configure]**  そして **[!UICONTROL Mobile app migration status]** に設定 **[!UICONTROL Not Migrated]**.
+回答：**[!UICONTROL Organizational unit]** ールの適格なアプリケーションのみがリストに表示されます。 移行用の正しいAdobe Experience Platform アプリケーションがあることを確認してください。 Adobe Experience Platform アプリケーションの **[!UICONTROL Property Status]** を **[!UICONTROL Ready to Configure]** に設定し、**[!UICONTROL Mobile app migration status]** を **[!UICONTROL Not Migrated]** に設定する必要があります。
 
 ![](assets/aep_v4_6.png)
 
-### Q：設定済みのプロパティステータスを持つAdobe Experience Platform SDK アプリケーションを移行に使用できないのはなぜですか。 {#property-status}
+### Q：設定済みプロパティのステータスを持つAdobe Experience Platform SDK アプリケーションを移行に使用できないのはなぜですか？ {#property-status}
 
-A：移行プロセスでは、SDK v4 の購読者と属性を保持します。 Adobe Experience Platform SDK アプリケーションからタグ関連の情報を保持するだけです。 Adobe Experience Platform SDK アプリケーションからの購読者とその他のデータは失われます。 データの損失を避けるために、Adobe Experience Platform SDK アプリケーションのみが **[!UICONTROL Ready to Configure]** **[!UICONTROL Property Status]** は移行の資格を持ちます。
+回答：移行プロセスでは、SDK v4 サブスクライバーと属性が保持されます。 Adobe Experience Platform SDK アプリケーションから取得したタグ関連情報のみを保持します。 Adobe Experience Platform SDK アプリケーションの購読者とその他のデータは失われます。 データ損失を避けるために、**[!UICONTROL Ready to Configure]** **[!UICONTROL Property Status]** を持つAdobe Experience Platform SDK アプリケーションのみが移行の対象となります。
 
-### Q：移行後、以前の SDK v4 モバイルアプリケーションはどこで見つかりましたか。 {#v4-app-not-visible}
+### Q：移行後、以前の SDK v4 モバイルアプリケーションはどこにありますか？ {#v4-app-not-visible}
 
-A：移行後のモバイルアプリケーションは、詳細設定メニューから表示されます **[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Mobile app (Adobe Experience Platform SDK)]**.
+回答：移行後のモバイルアプリケーションが、詳細メニュー **[!UICONTROL Administration]**/**[!UICONTROL Channels]**/**[!UICONTROL Mobile app (Adobe Experience Platform SDK)]** に表示されます。
 
-### Q：移行後、新しく作成したAdobe Experience Platform SDK アプリケーションはどこに見つかりますか。 {#aep-not-visible}
+### Q：移行後、新しく作成したAdobe Experience Platform SDK アプリケーションはどこで見つけられますか？ {#aep-not-visible}
 
-A：移行に使用する新しく作成したAdobe Experience Platform SDK アプリケーションは、別のアプリケーションとして存在しません。 移行された SDK v4 アプリケーションのみを使用できます。
+回答：移行に使用される、新しく作成されたAdobe Experience Platform SDK アプリケーションは、個別のアプリケーションとしては存在しません。 移行された SDK v4 アプリケーションのみ使用できます。
 
-### Q:SDK v4 モバイルアプリケーションの組織単位が A（組織単位 ALL の子）に設定され、Adobe Experience Platform SDK が ALL に設定されている場合。 モバイルアプリケーションを移行するにはどうすればよいですか？ {#v4-org-unit}
+### Q:SDK v4 モバイルアプリケーションの組織単位が A （組織単位 ALL の子）に設定されていて、Adobe Experience Platform SDK が ALL に設定されている場合。 モバイルアプリケーションを移行するにはどうすればよいですか？ {#v4-org-unit}
 
-A: **[!UICONTROL Organizational unit]** すべてのユーザーには、両方のモバイルアプリケーションを管理する権限が付与され、移行が担当されます。
+A:**[!UICONTROL Organizational unit]** の管理者は、モバイルアプリケーションの両方を管理する権限を持ち、移行を担当します。
 
-### Q:SDK v4 モバイルアプリケーションの組織単位が A に設定され、Adobe Experience Platform SDK アプリケーションが B（組織単位 A の兄弟）に設定されている場合。 モバイルアプリケーションを移行するにはどうすればよいですか？ {#aep-org-unit}
+### Q:SDK v4 モバイルアプリケーションの組織単位が A に設定されていて、Adobe Experience Platform SDK アプリケーションが B （組織単位 A の兄弟）に設定されている場合。 モバイルアプリケーションを移行するにはどうすればよいですか？ {#aep-org-unit}
 
-A：兄弟のアセットであるAdobe Experience Platform SDK アプリケーション **[!UICONTROL Organizational unit]**&#x200B;に設定されていない場合、モバイルアプリケーションは **[!UICONTROL Organizational unit]** A.モバイルアプリケーションは、 **[!UICONTROL Organizational unit]** これらの管理者には、モバイルアプリケーションの移行はお勧めしません。
-この場合、モバイルアプリを同じ内に移動する必要があります **[!UICONTROL Organizational unit]** または **[!UICONTROL Organizational unit]** を親リンクに置き換えます。
-詳しくは、 **[!UICONTROL Organizational unit]**&#x200B;詳しくは、こちらを参照してください。 [セクション](../../administration/using/organizational-units.md).
+回答：Adobe Experience Platform SDK アプリケーションは兄弟 **[!UICONTROL Organizational unit]** ーザーのアセットなので、**[!UICONTROL Organizational unit]** A のユーザーにはモバイルアプリケーションは表示されません。モバイルアプリケーションは、**[!UICONTROL Organizational unit]** ALL の管理者が使用できますが、これらの管理者にモバイルアプリケーションを移行することはお勧めしません。
+この場合、モバイルアプリケーションを同じ **[!UICONTROL Organizational unit]**、または親リンクを持つ **[!UICONTROL Organizational unit]** 内で移動する必要があります。
+**[!UICONTROL Organizational unit]** について詳しくは、この [ 節 ](../../administration/using/organizational-units.md) を参照してください。
 
-### Q:Adobe Experience Platform SDK モバイルアプリケーション（v4 モバイルアプリケーションから移行）ページの「プッシュチャネル設定」ドロップダウンで、Android キーまたはiOS証明書のアップロード日/名前などの情報は表示されません {#no-information-v5}
+### 質問：Adobe Experience Platform SDK モバイルアプリケーション（v4 モバイルアプリケーションから移行）ページの「プッシュチャネル設定」ドロップダウンに、Android キーやiOS証明書のアップロード日や名前などの情報が表示されません {#no-information-v5}
 
-A:SDK V4 モバイルアプリケーションを作成する際、システムはこの情報を保存しません。 SDK V4 モバイルアプリケーションをAdobe Experience Platform SDK モバイルアプリケーションに移行する場合、移行したモバイルアプリケーションにもこの種の情報は含まれません。 ユーザーが新しいiOS証明書または Android キーをアップロードすると、すぐにキーまたは証明書の様々な詳細が保存され、 **[!UICONTROL Push channel settings]** 」ドロップダウンリストから選択できます。
+回答：SDK V4 モバイルアプリケーションの作成時には、この情報は保存されません。 SDK V4 モバイルアプリケーションをAdobe Experience Platform SDK モバイルアプリケーションに移行する場合、移行されたモバイルアプリケーションにもこのような情報は含まれません。 新しいiOS証明書またはAndroid キーをアップロードするとすぐに、キーまたは証明書の様々な詳細が保存され、**[!UICONTROL Push channel settings]** ドロップダウンに正しく表示されます。

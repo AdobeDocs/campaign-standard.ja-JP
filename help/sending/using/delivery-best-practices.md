@@ -4,7 +4,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
-description: Adobe Campaignでの配信のデザインと送信に関するベストプラクティスについて説明します。
+description: Adobe Campaignでの配信デザインと送信に関するベストプラクティスを説明します。
 feature: Deliverability
 role: User
 level: Intermediate
@@ -22,29 +22,29 @@ Adobe Campaign を使用した配信のデザインと送信に関するベス�
 
 <img src="assets/do-not-localize/optimize.svg"  width="60px">
 
-**[配信の最適化](optimize-delivery.md)**  — 送信プロセスを保護および最適化します。
+**[配信の最適化](optimize-delivery.md)** – 送信プロセスを保護し最適化します
 
 <img src="assets/do-not-localize/design.svg"  width="60px">
 
-**[テンプレートの使用](use-templates.md)**  — 新しい配信を促進および高速化
+**[テンプレートの使用](use-templates.md)** – 新しい配信を促進および高速化します
 
 <img src="assets/do-not-localize/custom.svg"  width="60px">
 
-**[コンテンツをパーソナライズ](design-and-personalize.md)**  — 正しい設定を適用します
+**[コンテンツのパーソナライズ](design-and-personalize.md)** – 正しい設定を適用します
 
 <img src="assets/do-not-localize/profiles.svg"  width="60px">
 
-**[適切なオーディエンスの定義](define-the-right-audience.md)**  — 正しい設定を適用します
+**[適切なオーディエンスの定義](define-the-right-audience.md)** – 正しい設定を適用
 
 <img src="assets/do-not-localize/start.svg"  width="60px">
 
-**[送信前の確認](check-before-sending.md)**  — 一般的なミスを避けます。
+**[送信前に確認](check-before-sending.md)** – 一般的なミスを避ける
 
 <img src="assets/do-not-localize/troubleshoot.svg"  width="60px">
 
-**[トラッキングと監視](track-and-monitor.md)**  — 送信の制御とトラブルシューティング
+**[追跡と監視](track-and-monitor.md)** – 送信とトラブルシューティングを制御します。
 
-## 関連するコンテンツ
+## 関連コンテンツ
 
 * [配信品質の概要](../../sending/using/about-deliverability.md)
 

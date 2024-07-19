@@ -1,6 +1,6 @@
 ---
 title: 購読の削除
-description: API を使用してサブスクリプションを削除する方法を説明します
+description: API を使用して購読を削除する方法を説明します
 feature: API
 role: Data Engineer
 level: Experienced
@@ -12,25 +12,25 @@ ht-degree: 0%
 
 ---
 
-# API を使用したサブスクリプションの削除 {#mdeleting-subscriptions-api}
+# API を使用した購読の削除 {#mdeleting-subscriptions-api}
 
 <!--NOTE TO WRITER: There are two duplicate headings that seem to have the same content. Delete one? Rename if different?-->
 
-## 特定のプロファイルのサービス購読の削除 {#deleting-service-subscription}
+## 特定プロファイルのサービス購読の削除 {#deleting-service-subscription}
 
 これは、3 つの手順で構成される手順です。
 
 1. 目的のプロファイルの購読 URL を取得します。
-1. サブスクリプション URL でGETリクエストを実行します。
-1. 目的のサービス URL に対してDELETEリクエストを実行します。
+1. 購読 URL でGETリクエストを実行します。
+1. 目的のサービス URL でDELETEリクエストを実行します。
 
-削除リクエストが成功した場合、応答のステータスは「204 コンテンツなし」になります。
+削除リクエストが成功した場合、応答ステータスは 204 コンテンツなしになります。
 
 <br/>
 
 ***リクエストのサンプル***
 
-以下のサンプルペイロードは、サービスからプロファイルを購読解除する方法を示しています。 最初に、GETリクエストを実行してプロファイルを取得します。
+以下のサンプルペイロードは、プロファイルをサービスから購読解除する方法を示しています。 まず、GETリクエストを実行してプロファイルを取得します。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -40,7 +40,7 @@ ht-degree: 0%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-プロファイルの購読 URL が返されます。
+プロファイルの購読 URL を返します。
 
 ```
   {
@@ -53,7 +53,7 @@ ht-degree: 0%
   }
 ```
 
-サブスクリプション URL でGETリクエストを実行します。
+購読 URL でGETリクエストを実行します。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \
@@ -63,7 +63,7 @@ ht-degree: 0%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-選択したプロファイルの購読のリストと、購読した各サービスの URL を返します。
+選択したプロファイルの購読のリストと、購読している各サービスの URL が返されます。
 
 ```
 ...
@@ -77,7 +77,7 @@ ht-degree: 0%
 ...
 ```
 
-目的のサービス URL に対してDELETEリクエストを実行します。
+目的のサービス URL でDELETEリクエストを実行します。
 
 ```
 -X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY> \
@@ -89,15 +89,15 @@ ht-degree: 0%
 
 <!-- + réponse -->
 
-## 特定のプロファイルのサービス購読の削除
+## 特定プロファイルのサービス購読の削除
 
 これは、3 つの手順で構成される手順です。
 
 1. 目的のサービスとその購読 URL を取得します。
 1. 購読 URL でGETリクエストを実行して、すべてのプロファイル購読を取得します。
-1. 目的のプロファイルDELETEURL に対して購読リクエストを実行します。
+1. 目的のプロファイル購読 URL でDELETEリクエストを実行します。
 
-削除リクエストが成功した場合、応答のステータスは「204 コンテンツなし」になります。
+削除リクエストが成功した場合、応答ステータスは 204 コンテンツなしになります。
 
 <br/>
 
@@ -113,7 +113,7 @@ ht-degree: 0%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-サービスの購読 URL を返します。
+これは、サービスの購読 URL を返します。
 
 ```
 {
@@ -130,7 +130,7 @@ ht-degree: 0%
 },
 ```
 
-サブスクリプション URL でGETリクエストを実行します。
+購読 URL でGETリクエストを実行します。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions \
@@ -140,7 +140,7 @@ ht-degree: 0%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-選択したサービスの購読のリストと、各プロファイル購読の URL(href) を返します。
+選択したサービスの購読のリストと、各プロファイル購読の URL （href）が返されます。
 
 ```
 {
@@ -157,7 +157,7 @@ ht-degree: 0%
 }
 ```
 
-目的のプロファイルDELETEURL に対して購読リクエストを実行します。
+目的のプロファイル購読 URL でDELETEリクエストを実行します。
 
 ```
 -X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions/<PKEY> \

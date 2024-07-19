@@ -30,7 +30,7 @@ ht-degree: 99%
 
 また、このアクティビティでは、プロファイルを Adobe Experience Cloud のオーディエンス／セグメントとして書き出すこともできます。これにより、他の Adobe Experience Cloud ソリューションでこれらのオーディエンスを活用できます。共有オーディエンスの詳細については、[Campaign と People コアサービスの使用](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)を参照してください。
 
-## 使用状況 {#context-of-use}
+## 使用コンテキスト {#context-of-use}
 
 「**[!UICONTROL Save audience]**」アクティビティは基本的に、同じワークフローで計算された母集団グループを再利用可能なオーディエンスに変換することで、このグループを維持するために使用されます。
 

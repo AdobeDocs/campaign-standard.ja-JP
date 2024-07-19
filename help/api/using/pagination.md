@@ -1,6 +1,6 @@
 ---
 title: ページネーション
-description: ページネーション操作を実行する方法を説明します。
+description: ページネーション操作の実行方法を説明します。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -17,21 +17,21 @@ ht-degree: 1%
 
 # ページネーション
 
-デフォルトでは、25 個のリソースがリストに読み込まれます。
+デフォルトでは、25 個のリソースが 1 つのリストに読み込まれます。
 
-The **_lineCount** パラメーターを使用すると、応答に表示されるリソースの数を制限できます。  その後、 **次へ** ノードを選択し、次の結果を表示します。
+**_lineCount** パラメーターを使用すると、応答にリストされるリソースの数を制限できます。  その後、「**next**」ノードを使用して、次の結果を表示できます。
 
 >[!NOTE]
 >
->常に、 **次へ** ノードを使用して、ページネーションリクエストを実行します。
+>ページネーションリクエストを実行する場合は、必ず **next** ノードで返された URL 値を使用します。
 >
->The **_lineStart** リクエストが計算され、常に **次へ** ノード。
+>**_lineStart** リクエストは計算され、**next** ノードで返される URL 内で常に使用される必要があります。
 
 <br/>
 
 ***リクエストのサンプル***
 
-プロファイルGETの 1 レコードを表示するサンプルリソースです。
+プロファイルリソースの 1 件のレコードを表示するサンプルGETリクエスト。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile?_lineCount=1 \
@@ -41,7 +41,7 @@ The **_lineCount** パラメーターを使用すると、応答に表示され�
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-リクエストに対する応答。 **次へ** ページネーションを実行するノード。
+ページネーションを実行する **next** ノードを使用した、リクエストへの応答。
 
 ```
 {
@@ -62,7 +62,7 @@ The **_lineCount** パラメーターを使用すると、応答に表示され�
 }
 ```
 
-デフォルトでは、 **次へ** 大量のデータを含むテーブルを操作する場合、ノードは使用できません。 ページネーションを実行するには、 **_forcePagination=true** パラメーターを呼び出し URL に追加します。
+デフォルトでは、大量のデータを含むテーブルを操作する場合は **next** ノードを使用できません。 ページネーションを実行するには、呼び出し URL に **_forcePagination=true** パラメーターを追加する必要があります。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile?_forcePagination=true \
@@ -74,4 +74,4 @@ The **_lineCount** パラメーターを使用すると、応答に表示され�
 
 >[!NOTE]
 >
->テーブルが大きいと見なされるレコードの数は、Campaign Standardで定義されます **XtkBigTableThreshold** オプション。 デフォルト値は 100,000 レコードです。
+>テーブルが大きいと見なされるレコード数は、Campaign Standard **XtkBigTableThreshold** オプションで定義されます。 デフォルト値は 100,000 レコードです。

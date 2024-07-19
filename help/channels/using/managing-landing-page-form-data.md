@@ -18,49 +18,49 @@ ht-degree: 18%
 
 # ランディングページフォームデータの管理{#managing-landing-page-form-data}
 
-ランディングページのコンテンツでは、入力フィールドを使用して Campaign データベースのデータを保存または更新します。
+ランディングページのコンテンツでは、入力フィールドを使用して、Campaign データベースからのデータを保存または更新します。
 
-これをおこなうには、これらのフィールドをデータベースフィールドにマッピングする必要があります。
+そのためには、これらのフィールドをデータベースフィールドにマッピングする必要があります。
 
-マッピングの定義と管理は、 **[!UICONTROL Form data]** セクションを左側のパレットに追加します。
+左側のパレットの「**[!UICONTROL Form data]**」セクションを使用して、マッピングを定義および管理できます。
 
 ![](assets/lp_form-data.png)
 
 ## フォームフィールドのマッピング {#mapping-form-fields}
 
-必要に応じて Campaign データベースを更新するには、関連するデータベースフィールドをランディングページの入力ゾーン、ラジオボタンまたはチェックボックスタイプのブロックにリンクします。
+必要に応じて Campaign データベースを更新するには、関連するデータベースフィールドをランディングページの入力ゾーン、ラジオボタン、チェックボックスタイプブロックにリンクします。
 
 これを行うには、次の手順に従います。
 
-1. ランディングページコンテンツのブロックを選択します。
+1. ランディングページのコンテンツのブロックを選択します。
 
    >[!NOTE]
    >
    >組み込みランディングページのデフォルトのフィールドは事前に設定されています。必要に応じて変更できます。
 
-1. 次にアクセス： **[!UICONTROL Form data]** セクションを左側のパレットに追加します。
+1. 左側のパレットの「**[!UICONTROL Form data]**」セクションにアクセスします。
 
-1. フィールドタイプを変更するには、 **[!UICONTROL HTML type of the field]** 」ドロップダウンリストから選択できます。
+1. フィールドタイプを変更するには、「**[!UICONTROL HTML type of the field]**」ドロップダウンリストから値を選択します。
 
    ![](assets/lp_html-field-type.png)
 
    >[!NOTE]
    >
-   >ランディングページでのチェックボックスタイプの使用について詳しくは、 [複数のサービス購読を更新](#multiple-subscriptions) および [契約チェックボックス](#agreement-checkbox) セクション。
+   >ランディングページでのチェックボックスタイプの使用について詳しくは、[ 複数のサービス購読の更新 ](#multiple-subscriptions) および [ 契約チェックボックス ](#agreement-checkbox) の節を参照してください。
 
-1. 現在選択されているデータベースフィールドと互換性のないフィールドタイプを選択した場合、 **[!UICONTROL Field]** ゾーン（警告メッセージが表示されます） 最適なマッピングを行うには、適切な値を選択します。
+1. **[!UICONTROL Field]** ゾーンで現在選択されているデータベース フィールドと互換性のないフィールド タイプを選択すると、警告メッセージが表示されます。 最適なマッピングを行うには、適切な値を選択します。
 
    ![](assets/lp_field-type-warning.png)
 
-1. 以下を使用します。 **[!UICONTROL Field]** ゾーン：フォームフィールドにリンクするデータベースフィールドを選択します。
+1. **[!UICONTROL Field]** ゾーンを使用して、フォームフィールドにリンクするデータベースフィールドを選択します。
 
    ![](assets/lp_select-database-field.png)
 
    >[!NOTE]
    >
-   >ランディングページは、 **[!UICONTROL Profiles]** または **[!UICONTROL Service]** リソース。
+   >ランディングページは、**[!UICONTROL Profiles]** または **[!UICONTROL Service]** リソースでのみマッピングできます。
 
-   この例では、 **名前** ランディングページのフィールドから **[!UICONTROL Last name]** フィールドの **[!UICONTROL Profiles]** リソース。
+   この例では、ランディングページの **名前** フィールドを **[!UICONTROL Profiles]** リソースの **[!UICONTROL Last name]** フィールドにマッピングします。
 
    ![](assets/lp_database-field-example.png)
 
@@ -70,11 +70,11 @@ ht-degree: 18%
 
    必須フィールドが未入力の場合、ユーザーがページを送信するとエラーメッセージが表示されます。
 
-1. クリック **[!UICONTROL Confirm]** をクリックして変更を保存します。
+1. 「**[!UICONTROL Confirm]**」をクリックして変更を保存します。
 
 <!--If you choose a mandatory **[!UICONTROL Checkbox]**, make sure that it is of **[!UICONTROL Field]** type.-->
 
-## データのストレージと紐付け{#data-storage-and-reconciliation}
+## データの保存と紐付け{#data-storage-and-reconciliation}
 
 データ紐付けパラメーターを使用すると、ランディングページに入力されたデータが送信された後の管理方法を定義できます。
 
@@ -84,11 +84,11 @@ ht-degree: 18%
 
    ![](assets/lp_parameters_job.png)
 
-1. を選択します。 **[!UICONTROL Reconciliation key]**：このデータベースフィールドは、Adobe Campaignデータベース内に訪問者のプロファイルが既に存在するかどうかを判断するために使用されます。 例えば、E メール、名、姓を指定できます。 紐付けキーを使用すると、 **[!UICONTROL Update strategy]** 以下に定義するパラメーター。
+1. 「**[!UICONTROL Reconciliation key]**：このデータベースフィールドは、訪問者がAdobe Campaign データベースに既に存在するプロファイルを持っているかどうかを判断するために使用されます。 メール、名、姓などを指定できます。 紐付けキーを使用すると、以下で定義する **[!UICONTROL Update strategy]** パラメーターに従って、プロファイルを更新または作成できます。
 
 1. **[!UICONTROL Form parameter mapping]** を定義：このセクションでは、ランディングページフィールドのパラメーターと、紐付けキーで使用するパラメーターをマップできます。
 
-1. を選択します。 **[!UICONTROL Update strategy]**：紐付けキーが既存のデータベースプロファイルを回復した場合、フォームに入力されたデータでこのプロファイルを更新するか、この更新を実行しないかを選択できます。
+1. 紐付けキーで既存のデータベースプロファイルを復元する場合は、このプロファイルを、フォームに入力されたデータで更新するか、代わりにこの更新を防ぐかを選択できます。**[!UICONTROL Update strategy]**
 
    ![](assets/lp_parameters_update-strategy.png)
 
@@ -100,59 +100,59 @@ ht-degree: 18%
 
 1. ランディングページをデザインする場合：
 
-   * ブロックを選択し、 **[!UICONTROL Form data]** セクション、選択 **[!UICONTROL Checkbox]** をフィールドタイプとして使用します。
+   * ブロックを選択し、「**[!UICONTROL Form data]**」セクションで、フィールドタイプとして「**[!UICONTROL Checkbox]**」を選択します。
 
      ![](assets/lp_field-type-checkbox.png)
 
-   * HTMLに詳しい場合は、 **[!UICONTROL Show source]** 」ボタンをクリックします。
+   * HTMLに精通している場合は、「**[!UICONTROL Show source]**」ボタンを使用してチェックボックスを手動で挿入することもできます。
 
      ![](assets/lp_show_source.png)
 
-     これにより、ページ上の任意の場所にチェックボックスを挿入できます。
+     これにより、ページ上の都合の良い場所にチェックボックスを挿入できます。
 
      ![](assets/lp_manual-checkbox.png)
 
-1. コンテンツでチェックボックスが選択されていることを確認します。 The **[!UICONTROL Type]** ドロップダウンリストが **[!UICONTROL Form data]** 」セクションに表示されます。 選択 **[!UICONTROL Service and subscription]** を選択します。
+1. コンテンツ内でチェックボックスが選択されていることを確認します。 **[!UICONTROL Type]** ドロップダウンリストは、左側のパレットの「**[!UICONTROL Form data]**」セクションに表示されます。 リストから「**[!UICONTROL Service and subscription]**」を選択します。
 
    ![](assets/lp_service-and-subscription.png)
 
-1. 次の中からオプションを選択します。 **[!UICONTROL Behavior]** 」ドロップダウンリストから選択できます。
+1. **[!UICONTROL Behavior]** ドロップダウンリストからオプションを選択します。
 
    ![](assets/lp_checkbox-behavior.png)
 
-1. を選択します。 [サービス](../../audiences/using/creating-a-service.md) を選択します。
+1. 対応するリストから [ サービス ](../../audiences/using/creating-a-service.md) を選択します。
 
    ![](assets/lp_checkbox-service.png)
 
-1. 次を確認します。 **[!UICONTROL Mandatory]** オプションがオフになっている。 そうしないと、ユーザーは選択できなくなります。
+1. **[!UICONTROL Mandatory]** オプションがオフになっていることを確認します。 そうしないと、ユーザーに選択肢がなくなります。
 
    ![](assets/lp_uncheck-mandatory.png)
 
-1. 他のサービスを購読できるチェックボックスをさらに追加するには、上記の手順を必要な回数だけ繰り返します。
+1. 他のサービスに登録できるチェックボックスを追加するには、上記の手順を必要な回数だけ繰り返します。
 
    ![](assets/lp_multiple-checkboxes.png)
 
-ランディングページが公開されると、ユーザーは複数のチェックボックスをオンにして、同じページから複数のニュースレターを購読できます。
+ランディングページが公開されると、ユーザーは複数のチェックボックスを選択して、同じページから複数のニュースレターを購読できます。
 
 ## 契約チェックボックス {#agreement-checkbox}
 
-ランディングページを送信する前にプロファイルが確認する必要があるチェックボックスを追加できます。
+ランディングページを送信する前に、プロファイルがチェックする必要があるチェックボックスを追加できます。
 
-例えば、ユーザーがフォームを送信する前に、プライバシーポリシーに対する同意を要求したり、ユーザーが利用条件に同意するように設定したりできます。
+例えば、これにより、ユーザーがフォームを送信する前に、プライバシーポリシーに対する同意をリクエストしたり、ユーザーに利用条件に同意させることができます。
 
 >[!IMPORTANT]
 >
->このチェックボックスを選択すると、ユーザーに必須です。 選択しない場合、ランディングページを送信できません。
+>ユーザーにとって、このチェックボックスの選択は必須です。 選択しない場合、ランディングページを送信できません。
 
 このチェックボックスを挿入して設定するには、次の手順を実行します。
 
 1. ランディングページをデザインする場合：
 
-   * ブロックを選択し、 **[!UICONTROL Form data]** セクション、選択 **[!UICONTROL Checkbox]** をフィールドタイプとして使用します。
+   * ブロックを選択し、「**[!UICONTROL Form data]**」セクションで、フィールドタイプとして「**[!UICONTROL Checkbox]**」を選択します。
 
      ![](assets/lp_field-type-checkbox.png)
 
-   * HTMLに詳しい場合は、 **[!UICONTROL Show source]** 」ボタンをクリックします。
+   * HTMLに精通している場合は、「**[!UICONTROL Show source]**」ボタンを使用してチェックボックスを手動で挿入することもできます。
 
      ![](assets/lp_show_source.png)
 
@@ -164,26 +164,26 @@ ht-degree: 18%
 
    ![](assets/lp_select_checkbox.png)
 
-1. The **[!UICONTROL Type]** ドロップダウンリストが **[!UICONTROL Form data]** 」セクションに表示されます。 選択 **[!UICONTROL Agreement]** を選択します。
+1. **[!UICONTROL Type]** ドロップダウンリストは、左側のパレットの「**[!UICONTROL Form data]**」セクションに表示されます。 リストから「**[!UICONTROL Agreement]**」を選択します。
 
    ![](assets/lp_form_data_drop-down.png)
 
    >[!NOTE]
    >
-   >The **[!UICONTROL Agreement]** 要素が Campaign データベースのフィールドにマッピングされていません。
+   >**[!UICONTROL Agreement]** 要素は、Campaign データベースのフィールドにマッピングされていません。
 
-1. 次をクリック： ![](assets/lp-properties-icon.png) 隣のアイコン **[!UICONTROL Form data]** ：チェックボックスの詳細プロパティにアクセスします。
+1. **[!UICONTROL Form data]** の横にある「![](assets/lp-properties-icon.png)」アイコンをクリックして、チェックボックスの詳細プロパティにアクセスします。
 
 1. 必要に応じて、メッセージを編集できます。
 
    ![](assets/lp_agreement_message.png)
 
-   このテキストは、ユーザーがフォームを送信する前にチェックボックスを選択しなかった場合に、警告として表示されます。
+   フォームの送信前にチェックボックスを選択しなかった場合、このテキストは警告として表示されます。
 
    >[!NOTE]
    >
-   >このアクションはデフォルトで必須で、変更できません。
+   >このアクションは、デフォルトでは必須であり、変更できません。
 
 1. 「**[!UICONTROL Confirm]**」をクリックします。
 
-これで、ランディングページが表示されるたびに、フォームを送信する前にこのチェックボックスをオンにする必要があります。 そうでない場合は、警告が表示され、チェックボックスが有効になるまでユーザーはフォームを送信できません。
+これで、ランディングページが表示されるたびに、フォームを送信する前にこのチェックボックスを選択する必要があります。 そうでない場合は警告が表示され、チェックボックスがアクティブ化されるまでユーザーはフォームを送信できません。

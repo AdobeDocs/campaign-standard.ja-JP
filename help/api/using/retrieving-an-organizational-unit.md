@@ -1,6 +1,6 @@
 ---
 title: プロファイルの組織単位の取得
-description: API を使用してプロファイルの組織単位を設定する方法について説明します。
+description: API を使用してプロファイルの組織単位を定義する方法を説明します。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -17,8 +17,8 @@ ht-degree: 12%
 
 # プロファイルの組織単位の取得 {#retrieving-organizational-units}
 
-1. プロファイル PKey でGETリクエストを実行し、 **orgUnit** URL。
-1. URL でGETリクエストを実行して、組織単位の詳細を取得します。
+1. プロファイル PKey でGETリクエストを実行し、**orgUnit** URL を取得します。
+1. URL でGETリクエストを実行して、組織単位に関する詳細を取得します。
 
 <br/>
 
@@ -34,7 +34,7 @@ ht-degree: 12%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-プロファイルの orgUnit URL を返します。
+プロファイルの組織単位 URL を返します。
 
 ```
 {
@@ -48,7 +48,7 @@ ht-degree: 12%
 }
 ```
 
-URL でGETリクエストを実行して、詳細を取得します。
+URL でGETリクエストを実行すると、詳細情報を取得できます。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/orgUnitBase/<PKEY> \
@@ -58,7 +58,7 @@ URL でGETリクエストを実行して、詳細を取得します。
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-組織単位に関する詳細が返されます。
+組織単位に関する詳細を返します。
 
 ```
 {

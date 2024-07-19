@@ -49,14 +49,14 @@ ht-degree: 78%
    <td> Adobe Experience Manager<br /> </td> 
    <td> メールコンテンツや Adobe Campaign データベースにマッピングされたフォームを Adobe Experience Manager で直接作成することができます。<br /> </td> 
    <td> 
-     <a href="../../integrating/using/integrating-with-experience-manager.md">Campaign とExperience Managerの使用</a>, <a href="https://helpx.adobe.com/jp/experience-manager/6-4/sites/administering/using/campaignstandard.html">Experience ManagerとCampaign Standardの統合</a>, <a href="https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html">Experience Managerと Campaign を使用したメールの作成</a> 
+     <a href="../../integrating/using/integrating-with-experience-manager.md">Campaign とExperience Managerの操作 </a>、<a href="https://helpx.adobe.com/jp/experience-manager/6-4/sites/administering/using/campaignstandard.html">Experience ManagerとCampaign Standardの統合 </a>、<a href="https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html">Experience Managerと Campaign を使用したメールの作成 </a> 
     </td> 
   </tr> 
   <tr> 
    <td> Adobe Target<br /> </td> 
    <td> Adobe Campaign で作成、送信されたメールが開封されたときに Adobe Target が動的に自動生成した画像を挿入することができます。<br /> </td> 
    <td> 
-    <a href="../../integrating/using/about-campaign-target-integration.md">Campaign と Target の連携</a>, <a href="https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html?lang=ja">Campaign と Target の統合</a>, <a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">メール画像をリアルタイムでパーソナライズ</a> ビデオ（手順 3）
+    <a href="../../integrating/using/about-campaign-target-integration.md">Campaign と Target の連携 </a>、<a href="https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html?lang=ja">Campaign と Target の統合 </a>、<a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html"> リアルタイムでのメール画像のパーソナライズ </a> ビデオ（手順 3）
     </td> 
   </tr> 
   <tr> 
@@ -72,12 +72,12 @@ ht-degree: 78%
    <td> <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">People コアサービス（プロファイルとオーディエンス）</a><br /> </td> 
   </tr> 
    <tr> 
-   <td> Adobe Real-time Customer Data Platform（RTCDP）<br /> </td> 
+   <td> Adobe Real-time Customer Data Platform（RTCDP） <br /> </td> 
    <td> Adobe CampaignとAdobe Real-time Customer Data Platform（RTCDP）の統合により、セグメントデータの共有およびAdobe Campaignへのオーディエンスの読み込みが可能になります。</td>
    <td><a href="../../integrating/using/get-started-sources-destinations.md">ソースと宛先の概要</a></td>
   </tr> 
   <tr> 
-   <td> Asset Core Service とAssets On Demand のAdobe<br /> </td> 
+   <td> Asset Core Service とAssets On Demand のAdobe版 <br /> </td> 
    <td> Adobe Campaign で作成したメールとランディングページに Adobe Experience Cloud ライブラリからアセットを挿入することができます。<br /> </td> 
    <td> <a href="../../integrating/using/working-with-campaign-and-assets-core-service.md">Assets コアサービス</a>と Assets On Demand<br /> </td> 
   </tr> 
@@ -95,18 +95,18 @@ ht-degree: 78%
   </tr> 
     <tr> 
    <td> AdobeJourney Orchestration<br /> </td> 
-   <td> では、標準のアクションを通じて、AdobeJourney OrchestrationのコンテキストでAdobe Campaign Standardのトランザクションメッセージ機能を使用して、メール、プッシュ通知、SMS を送信できます。<br /> </td> 
-   <td> <a href="https://experienceleague.adobe.com/docs/journeys/using/action-journeys/working-with-adobe-campaign.html">AdobeJourney OrchestrationとAdobe Campaign Standardの使用</a><br /> </td> 
+   <td> 標準搭載のアクションにより、AdobeJourney Orchestrationのコンテキストで、Adobe Campaign Standardのトランザクションメッセージ機能を使用して、メール、プッシュ通知、SMS を送信できます。<br /> </td> 
+   <td> <a href="https://experienceleague.adobe.com/docs/journeys/using/action-journeys/working-with-adobe-campaign.html">AdobeJourney OrchestrationとAdobe Campaign Standardの操作 </a><br /> </td> 
   </tr> 
   <tr> 
    <td> Adobe Dreamweaver<br /> </td> 
    <td> Dreamweaver でメールコンテンツを編集し、Adobe Campaign と同期できます。<br /> </td> 
    <td> 
-    <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=ja">Dreamweaverでのパーソナライズされたメールの作成</a> ビデオ、 <a href="https://helpx.adobe.com/jp/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Campaign extension for Dreamweaverの使用</a> 
+    <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/dreamweaver-integration.html?lang=ja">Dreamweaverでのパーソナライズされたメールの作成 </a> ビデオ、<a href="https://helpx.adobe.com/jp/dreamweaver/using/working-with-dreamweaver-and-campaign.html">Campaign Extension for Dreamweaverの使用 </a> 
   </td> 
   </tr> 
   <tr> 
-   <td> ADOBE EXPERIENCE PLATFORM SDK<br /> </td> 
+   <td> Adobe Experience Platform SDK<br /> </td> 
    <td> Experience PlatformSDK を使用して、Adobe Campaign でのモバイルアプリケーションプロパティのアクティベーションプロセスを自動化できます。<br /> </td> 
    <td> <a href="https://helpx.adobe.com/jp/campaign/kb/configuring-app-sdk.html">Experience Platform SDK を使用したモバイルアプリケーションの設定</a><br /> </td> 
   </tr> 
