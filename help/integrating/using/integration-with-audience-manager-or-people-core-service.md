@@ -8,10 +8,10 @@ feature: People Core Service Integration
 role: Data Architect
 level: Intermediate
 exl-id: 04d0fe26-a8cc-49ae-aaa9-b470169068ee
-source-git-commit: 26e37cea37b33924ac634c5e4ab7c60804a738f1
+source-git-commit: 60386a9e6e424d76b1de0f2ecbeab48dd06fb354
 workflow-type: tm+mt
-source-wordcount: '759'
-ht-degree: 45%
+source-wordcount: '757'
+ht-degree: 43%
 
 ---
 
@@ -23,7 +23,7 @@ Adobe CampaignでのAudience Managerコアと People コアのプロビジョニ
 
 Audience Manager（AAM）または People コアサービスの統合により、Adobe Campaignでオーディエンスやセグメントの読み込みおよび書き出しを行うことができます。
 
-この統合を最初に設定する必要があります。この統合のプロビジョニングをリクエストするには、次の情報を記載のうえ、[Digital-Request@adobe.com](mailto:Digital-Request@adobe.com) までメールを送信します。
+この統合を最初に設定する必要があります。この統合のプロビジョニングをリクエストするには、以下を添えてAdobeサポートにお問い合わせください。
 
 <table> 
  <tbody> 
