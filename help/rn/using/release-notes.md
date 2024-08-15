@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 44c436a74a0a4aa688427bfb36d506566d57ac3a
+source-git-commit: 625b2341b1f7da17d202ef1edcdf97f3cb46b801
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 100%
+source-wordcount: '489'
+ht-degree: 73%
 
 ---
 
@@ -18,25 +18,38 @@ ht-degree: 100%
 <!--
 ![Control Panel](assets/do-not-localize/cp-icon.png) **New Control Panel release**. [Learn more](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html){target="_blank"}.-->
 
+<!--
+## Early release notes {#e-new-release}
 
-## 早期リリースノート {#e-new-release}
-
-この節では、次回の Campaign Standard リリースに含まれる改善点および変更点について説明します。
+This section lists improvements and changes included in the next Campaign Standard release.
 
 >[!CAUTION]
 >
->この内容は、ステージング環境のアップグレード日まで予告なしに変更される場合があります。詳しくは、[リリース計画のページ](../../rn/using/release-planning.md)を参照してください。
+>This content is subject to changes without prior notice until the stage environments upgrade date. Learn more in the [Release planning page](../../rn/using/release-planning.md).
+-->
 
-**リリース 24.2 - 2024年夏リリース**
+## リリース 24.2 - 2024年夏リリース {#summer-24}
 
-* **リリース日**：2024年8月（限定提供） - [詳細情報](../../rn/using/release-planning.md)。
+<!--**Release date**: August 2024 (Limited Availability) - [Learn more](../../rn/using/release-planning.md).-->
 
-* **OAuth サーバー間の資格情報への移行**
+### 改善 {#summer-24-rn-improvements}
 
-  このバージョン以降、サービスアカウント（JWT）資格情報はアドビによって廃止され、アドビのソリューションおよびアプリとの Campaign アウトバウンド統合は OAuth サーバー間の資格情報に依存するようになりました。アドビでは、Campaign と Analytics 統合や Experience Cloud トリガー統合などのアウトバウンド統合に対して、JWT から OAuth への移行を実行します。
+**OAuth サーバー間の資格情報への移行**
 
-  Campaign とのインバウンド統合を実装していて、[Campaign API](../../api/using/get-started-apis.md) を使用している場合は、[このドキュメント](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}の説明に従って、テクニカルアカウントを移行する必要があります。既存のサービスアカウント（JWT）資格情報は、**2025年1月27日（PT）**&#x200B;に機能しなくなります。
+このバージョン以降、サービスアカウント（JWT）資格情報はアドビによって廃止され、アドビのソリューションおよびアプリとの Campaign アウトバウンド統合は OAuth サーバー間の資格情報に依存するようになりました。アドビでは、Campaign と Analytics 統合や Experience Cloud トリガー統合などのアウトバウンド統合に対して、JWT から OAuth への移行を実行します。
 
+Campaign とのインバウンド統合を実装していて、[Campaign API](../../api/using/get-started-apis.md) を使用している場合は、[このドキュメント](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}の説明に従って、テクニカルアカウントを移行する必要があります。既存のサービスアカウント（JWT）資格情報は、**2025年1月27日（PT）**&#x200B;に機能しなくなります。
+
+### 修正点 {#summer-24-rn-fixes}
+
+* スケジュールされた時間より前にワークフロースケジューラーが開始する問題を修正しました。 （CAMP-55412）
+* トランザクションプッシュ通知でカスタムフィールドを複製するとエラーが発生する問題を修正しました。 （CAMP-54459）
+* アプリ内メッセージの時間と日付のスケジューラーの使いやすさに影響を与えていた問題を修正しました。 （CAMP-54495）
+* カスタムトラッキングエイリアス機能を利用し、リンク全体が動的な場合に、トラッキングが機能しない問題を修正しました。 （CAMP-56044）
+* 検索を使用して特定のテンプレートを検索する際に、表示されるテンプレートの数が制限される問題を修正しました。 （CAMP-55273）
+* 優先言語ドロップダウンリストに次の言語を追加しました：en_kz （英語 – カザフスタン）および en_ua （英語 – ウクライナ）。 （CAMP-55336）
+* スケジューラー設定で時間調整ボタンが機能しない問題を修正しました。 （CAMP-53602）
+* スケジューラー設定の時間調整バーに関するいくつかのユーザーインターフェイスの問題を修正しました。 （CAMP-55291）
 
 ## リリース 24.1 - 2024年冬リリース {#winter-24}
 
