@@ -6,14 +6,18 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 01cfa2a0-4ff5-4520-a515-11676de82528
-source-git-commit: 2e81a05b1b647991250d13d7d37f5da275a8db44
+source-git-commit: 99c092bc40c9176a25a6ec2a164ee1d3f85d5cbe
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 5%
+source-wordcount: '420'
+ht-degree: 4%
 
 ---
 
 # データ保持{#data-retention}
+
+>[!NOTE]
+>
+>データレポートは過去 3 年間のみ使用できます。 データ保持期間について詳しくは、Adobeコンサルタントまたは技術管理者にお問い合わせください。
 
 Campaign の標準ログテーブルには、システムの過負荷を回避するために、データストレージ期間を制限する保持期間が事前に設定されています。
 
