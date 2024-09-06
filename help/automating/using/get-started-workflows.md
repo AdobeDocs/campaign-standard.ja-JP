@@ -8,7 +8,7 @@ feature: Workflows
 role: Data Architect
 level: Beginner
 exl-id: 26be942a-c252-458f-a590-eb235567ca67
-source-git-commit: c7c4826f69ac988911b9d72a3e06240ed9582862
+source-git-commit: 69621657e1d367043200f741d93972664e6eb8fb
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 30%
@@ -38,8 +38,6 @@ Adobe Campaign は、セグメント化、キャンペーン実行、ファイ�
 
 ## ワークフローアクティビティ {#workflow-activities}
 
-<img src="assets/do-not-localize/icon_workflows.svg" width="10px">
-
 ワークフローの設計に役立つ様々なアクティビティを利用できます。
 
 [ ターゲティングアクティビティ ](../../automating/using/about-targeting-activities.md) では、セットを定義するか、積集合、和集合、除外の各操作を使用して分割または結合することで、1 つまたは複数のターゲットを作成できます。
@@ -56,8 +54,6 @@ Adobe Campaign は、セグメント化、キャンペーン実行、ファイ�
 
 ## データのフィルタリング {#filter-data}
 
-<img src="assets/do-not-localize/icon_filter.svg" width="15px">
-
 **クエリエディター** を活用してデータベースのデータをフィルタリングし、受信者をより適切にターゲット設定できる母集団を作成します。 クエリエディターを使用して、クエリタイプのオーディエンスの作成、配信ターゲットの定義、ワークフローアクティビティの母集団の定義など、複数のアクションをCampaign Standardで実行できます。
 
 クエリエディターには、すばやく簡単にフィルタリングできる **定義済みフィルターとルール** が付属しています。 ただし、高度な式の編集 **機能を使用するこ** もできます。 これにより、手動で条件を入力し、関数を使用して、独自のルールを作成できます。
@@ -69,8 +65,6 @@ Adobe Campaign は、セグメント化、キャンペーン実行、ファイ�
 * [関数のリスト](../../automating/using/list-of-functions.md)
 
 ## データのインポート/エクスポート {#import-export-data}
-
-<img src="assets/do-not-localize/icon_manage.svg" width="20px">
 
 Campaign Standardには、データのインポートとエクスポートを行うための **データ管理機能** がいくつか付属しています。
 
