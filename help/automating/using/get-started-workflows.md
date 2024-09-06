@@ -8,7 +8,7 @@ feature: Workflows
 role: Data Architect
 level: Beginner
 exl-id: 26be942a-c252-458f-a590-eb235567ca67
-source-git-commit: 47f47a624b8a1d941d1ab4b49e67f0260ac68cf1
+source-git-commit: c7c4826f69ac988911b9d72a3e06240ed9582862
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 30%
@@ -38,7 +38,7 @@ Adobe Campaign は、セグメント化、キャンペーン実行、ファイ�
 
 ## ワークフローアクティビティ {#workflow-activities}
 
-<img src="assets/do-not-localize/icon_workflows.svg" width="10%px">
+<img src="assets/do-not-localize/icon_workflows.svg" width="10px">
 
 ワークフローの設計に役立つ様々なアクティビティを利用できます。
 
@@ -56,7 +56,7 @@ Adobe Campaign は、セグメント化、キャンペーン実行、ファイ�
 
 ## データのフィルタリング {#filter-data}
 
-<img src="assets/do-not-localize/icon_filter.svg" width="60px">
+<img src="assets/do-not-localize/icon_filter.svg" width="15px">
 
 **クエリエディター** を活用してデータベースのデータをフィルタリングし、受信者をより適切にターゲット設定できる母集団を作成します。 クエリエディターを使用して、クエリタイプのオーディエンスの作成、配信ターゲットの定義、ワークフローアクティビティの母集団の定義など、複数のアクションをCampaign Standardで実行できます。
 
@@ -70,7 +70,7 @@ Adobe Campaign は、セグメント化、キャンペーン実行、ファイ�
 
 ## データのインポート/エクスポート {#import-export-data}
 
-<img src="assets/do-not-localize/icon_manage.svg" width="60px">
+<img src="assets/do-not-localize/icon_manage.svg" width="20px">
 
 Campaign Standardには、データのインポートとエクスポートを行うための **データ管理機能** がいくつか付属しています。
 
