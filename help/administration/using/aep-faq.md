@@ -6,7 +6,7 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 6b3c189d-8ddd-4dc0-8831-65ae62e04c70
-source-git-commit: 6b683ccd93e10f78ff643eed9f374a794c085cb1
+source-git-commit: 2f3a0f4233df2915c5b7d293452246c688d69228
 workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 3%
@@ -29,14 +29,14 @@ Experience PlatformSDK アプリケーションでプッシュ通知およびア
 
 Adobe Experience Platform SDK とCampaign Standardの統合について詳しくは、次のリソースを参照してください。
 
-* Launch/Mobile[ 概要ビデオ ](https://www.adobe.com/experience-platform/launch.html#acpl-mobile-video)
+* Launch/Mobile[ 概要ビデオ ](https://www.adobe.com/experience-platform/launch.html#acpl-mobile-video){target="_blank"}
 * Launch/Mobile[ ヒントとコツのガイド ](https://www.adobe.com/content/dam/dx/us/en/products/experience-platform/launch-tag-manager/pdfs/adobe-cloud-platform-launch-tips-and-tricks-sheet.pdf)
 
 ## Adobe Experience Platform SDK 統合は、Adobe Campaign StandardとAdobe Campaign Classicの両方で利用できますか。 {#aep-validity}
 
 はい、[!DNL Adobe Experience Platform SDK] 統合はAdobe Campaign StandardとAdobe Campaign Classicの両方で利用できます。 統合を有効にするには、[!DNL Data Collection UI] を介して対応する **[!UICONTROL Extension]** をインストールする必要があります。
 
-詳しくは、この[ページ](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard)を参照してください。
+詳しくは、こちらの[ページ](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard){target="_blank"}を参照してください。
 
 ## Adobe Experience Platform SDK 統合は、Adobe Campaignでどのような機能を容易にしますか。 {#aep-capabilities}
 
