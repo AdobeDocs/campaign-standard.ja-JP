@@ -9,9 +9,9 @@ feature: Workflows
 role: Data Architect
 level: Beginner
 exl-id: a3f35bb9-e61e-4f3f-b855-1d677422f75a
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: ea524bdcef0324c7fc4b9da0bb443b6abc66a23a
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '829'
 ht-degree: 4%
 
 ---
@@ -28,6 +28,8 @@ ht-degree: 4%
 * 選択したアクティビティの周囲に表示される [ クイックアクション ](#quick-actions) を使用して、アクティビティを操作できます。
 
 ![](assets/wkf_overview.png)
+
+![](assets/do-not-localize/how-to-video.png) [ ビデオでワークフローの作成方法を確認する ](#video)
 
 ## パレット {#palette}
 
@@ -154,3 +156,11 @@ ht-degree: 4%
 それには、アクティビティの周囲にゾーンを描画して、アクティビティを選択します。 次に、アクションバーの「**[!UICONTROL Copy selection]**」ボタンをクリックします（または **Ctrl+C** キーを押します）。 その後、目的の場所に貼り付けることができます。
 
 ![](assets/wkf_copypaste3.png)
+
+## チュートリアルビデオ {#video}
+
+このビデオでは、ワークフローの作成方法を説明します。
+
+>[!VIDEO](https://video.tv.adobe.com/v/23937?quality=12)
+
+その他のCampaign Standardチュートリアルビデオについては、[ こちら ](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja) を参照してください。
