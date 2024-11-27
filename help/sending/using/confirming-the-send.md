@@ -9,10 +9,10 @@ feature: Performance Monitoring
 role: User
 level: Intermediate
 exl-id: 0a0fe969-cdfd-4b0c-a746-081038424d86
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 058c59136c28e7fce2a79686919f900f410e324a
 workflow-type: tm+mt
-source-wordcount: '947'
-ht-degree: 41%
+source-wordcount: '982'
+ht-degree: 39%
 
 ---
 
@@ -49,6 +49,10 @@ ht-degree: 41%
 ![](assets/confirmation_recurring_deliveries.png)
 
 ## メッセージ指標について {#message-indicators}
+
+>[!NOTE]
+>
+> **デプロイメントダッシュボード** は、クイックリファレンス用のデータを提供します。このデータは、動的レポート内の数値と一致しない場合があります。 正確で信頼性の高い情報を得るには、動的レポートを情報源として使用することをお勧めします。 [詳細情報](../../reporting/using/get-started-reporting.md)
 
 メッセージが連絡先に送信されると、**[!UICONTROL Deployment]** ゾーンに次のような KPI （主要業績評価指標） データが表示されます。
 
