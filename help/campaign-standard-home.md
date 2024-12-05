@@ -4,9 +4,9 @@ title: Adobe Campaign Standard 製品ドキュメント
 description: Campaign Standard 製品ドキュメントの参照
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
 source-git-commit: 2f3a0f4233df2915c5b7d293452246c688d69228
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '301'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -18,11 +18,11 @@ Adobe Campaign Standard 製品とドキュメントの最新の機能強化に�
 
 >[!BEGINTABS]
 
->[!TAB Campaign v8 への移行 ]
+>[!TAB Campaign v8 への移行]
 
-Adobe Campaign Standard ユーザーがAdobe Campaign Managed Cloud Services v8 へ移行する資格を得ました。
+Adobe Campaign Standard ユーザーは、Adobe Campaign Managed Cloud Services v8 に移行できるようになりました。
 
-[![画像](assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign-web/acs-to-ac/home){target="_blank"}
+[![画像](assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ja/docs/campaign-web/acs-to-ac/home){target="_blank"}
 
 >[!TAB Campaign 24.2 の2月リリースが公開されました。]
 

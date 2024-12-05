@@ -9,9 +9,9 @@ role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
 source-git-commit: 8da7d90905745b99f52841483a2d540e9781104e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '408'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -40,12 +40,12 @@ ht-degree: 97%
  <tbody>
   <tr>
    <td>ステージ </td>
-   <td>2025 年 1 月 7 日～2 月 4 日 </td>
+   <td>2025年1月7日～2月4日（PT） </td>
    <!--td>2025 - Dates to be confirmed</td-->
   </tr>
   <tr>
    <td>実稼動 </td>
-   <td>2025 年 1 月 13 日～2 月 25 日 </td>
+   <td>2025年1月13日～2月25日（PT） </td>
    <!--td>2025 - Dates to be confirmed</td-->
   </tr>
  </tbody>
