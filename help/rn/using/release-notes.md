@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 0beb4934d1412c3f64d28106f9243673907629f3
-workflow-type: ht
-source-wordcount: '497'
-ht-degree: 100%
+source-git-commit: c2d2f3843801d108f007fea52a76e41abe16d76c
+workflow-type: tm+mt
+source-wordcount: '390'
+ht-degree: 76%
 
 ---
 
@@ -18,19 +18,32 @@ ht-degree: 100%
 <!--
 ![Control Panel](assets/do-not-localize/cp-icon.png) **New Control Panel release**. [Learn more](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html){target="_blank"}.-->
 
-<!--
-## Early release notes {#e-new-release}
 
-This section lists improvements and changes included in the next Campaign Standard release.
+## 早期リリースノート {#e-new-release}
+
+この節では、次回の Campaign Standard リリースに含まれる改善点および変更点について説明します。
 
 >[!CAUTION]
 >
->This content is subject to changes without prior notice until the stage environments upgrade date. Learn more in the [Release planning page](../../rn/using/release-planning.md).
--->
+>この内容は、ステージング環境のアップグレード日まで予告なしに変更される場合があります。詳しくは、[リリース計画のページ](../../rn/using/release-planning.md)を参照してください。
 
-## リリース 24.2 - 2024年夏リリース {#summer-24}
+### リリース 25.1 - 2025年冬リリース {#winter-25}
 
-**リリース日**：2024年8月（限定提供） - [詳細情報](../../rn/using/release-planning.md)。
+#### セキュリティの修正 {#winter-25-security}
+
+* このリリースでは、セキュリティが修正されています。
+* このリリースには、次のセキュリティアップグレードが含まれています。Apache Tomcat が v10.1.33 にアップグレードされました。
+
+#### その他の修正点 {#winter-25-fixes}
+
+* テンプレートでの重複の問題を修正しました（CAMP-56340）
+* Adobe Experience Manager テンプレートで動的 URL が使用された際のトラッキングの問題を修正しました（CAMP-51932）
+* 請求プロセスのパフォーマンスの問題を修正しました（CAMP-56796）
+* JSSP web ページの `>` 文字のHTMLエンコーディングの問題を修正しました（CAMP-56497）
+* **選択した行に表示** オプションを使用する際の動的レポートの問題を修正しました（CAMP-55895）
+
+
+## リリース 24.2 - 2024 年夏リリース（LA） {#summer-24}
 
 ### 改善点 {#summer-24-rn-improvements}
 
@@ -50,25 +63,3 @@ Campaign とのインバウンド統合を実装していて、[Campaign API](..
 * 優先言語ドロップダウンリストに en_kz（英語 - カザフスタン）および en_ua（英語 - ウクライナ）を追加しました。（CAMP-55336）
 * スケジューラー設定で時間調整ボタンが機能しない問題を修正しました。（CAMP-53602）
 * スケジューラー設定の時間調整バーに関するいくつかのユーザーインターフェイスの問題を修正しました。（CAMP-55291）
-
-## リリース 24.1 - 2024年冬リリース {#winter-24}
-
-### 改善点 {#e-rn-improvements}
-
-* **Android プッシュ通知** - Adobe Campaign Standard 24.1 では、HTTP v1 API を使用して Android プッシュ通知メッセージを送信し、今後の FCM 変更との互換性を確保します。詳しくは、[このテクニカルノート](../../administration/using/push-technote.md)を参照してください。
-
-* **iOS プッシュ通知** - Adobe Campaign Standard 24.1 では、iOS プッシュ通知の p8 認証証明書をサポートするようになりました。これらの変更をアクティブ化するには、実装を調整する必要があります。詳しくは、[このテクニカルノート](../../administration/using/push-technote.md)を参照してください。
-
-* **ワンクリックでのリストの購読解除** - 2024年6月1日（PT）以降、Google と Yahoo! は、ワンクリックでの List-Unsubscribe への準拠を送信者に義務付ける予定です。Campaign では、この機能を標準でサポートするようになりました。詳しくは、[こちら](../../administration/using/configuring-email-channel.md#list-of-email-smtp-parameters)を参照してください。
-
-* **インフラストラクチャ** - Postgres データベースがバージョン 11.22 からバージョン 12.17 にアップグレードされました。
-
-* **CTA トラッキング** - ユーザーがパーソナライズされた URL を開いてクリックすると、コード化されたパーソナライズされた URL の代わりに、解決されたパーソナライズされた URL がトラッキングされるようになりました。この変更はデフォルトでは有効になっていません。Campaign インスタンスで有効にするには、アドビ担当者にお問い合わせください。
-
-* **パーソナライゼーションフィールドのドロップダウン** - Adobe Experience Manager でトランザクションメールメッセージテンプレートを作成する際に、ドロップダウンリストからパーソナライゼーション フィールドを選択できるようになりました。この変更はデフォルトでは有効になっていません。Campaign インスタンスで有効にするには、アドビ担当者にお問い合わせください。
-
-### 修正点 {#e-rn-fixes}
-
-* バウンスされたメールアドレスが 30 日後に強制隔離から削除されない問題を修正しました。（CAMP-52977）
-* `division by zero` のエラーで配信アラートワークフローが停止する問題を修正しました。（CAMP-49786）
-

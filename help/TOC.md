@@ -4,9 +4,9 @@ user-guide-title: Campaign Standard
 user-guide-description: Adobe Campaign Standard に関する製品ドキュメント
 title: Campaign Standard ガイド
 breadcrumb-title: Campaign Standard ドキュメント
-source-git-commit: e8cf96da88f68680be1ff5f770036b012654b160
+source-git-commit: c70e3058f75ba2b11a8311628198e5c02d489964
 workflow-type: tm+mt
-source-wordcount: '1752'
+source-wordcount: '1753'
 ht-degree: 100%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 100%
 + リリースノート {#release-notes}
    + [最新リリース](rn/using/release-notes.md)
    + 以前のリリース {#previous-releases}
+      + [2024](rn/using/release-notes-2024.md)
       + [2023](rn/using/release-notes-2023.md)
       + [2022](rn/using/release-notes-2022.md)
       + [2021](rn/using/release-notes-2021.md)
@@ -83,7 +84,7 @@ ht-degree: 100%
       + [優れたプラクティスを学ぶ](sending/using/delivery-best-practices.md)
       + [配信の最適化](sending/using/optimize-delivery.md)
       + [テンプレートの使用](sending/using/use-templates.md)
-      + [パーソナライズしたコンテンツの作成](sending/using/design-and-personalize.md)
+      + [パーソナライズされたコンテンツの作成](sending/using/design-and-personalize.md)
       + [適切なオーディエンスの定義](sending/using/define-the-right-audience.md)
       + [送信前の確認](sending/using/check-before-sending.md)
       + [トラッキングと監視](sending/using/track-and-monitor.md)
