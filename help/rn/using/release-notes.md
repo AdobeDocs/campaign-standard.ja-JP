@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: c2d2f3843801d108f007fea52a76e41abe16d76c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '390'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -29,21 +29,21 @@ ht-degree: 76%
 
 ### リリース 25.1 - 2025年冬リリース {#winter-25}
 
-#### セキュリティの修正 {#winter-25-security}
+#### セキュリティ関連の修正 {#winter-25-security}
 
-* このリリースでは、セキュリティが修正されています。
+* このリリースでは、セキュリティ上の問題が修正されています。
 * このリリースには、次のセキュリティアップグレードが含まれています。Apache Tomcat が v10.1.33 にアップグレードされました。
 
 #### その他の修正点 {#winter-25-fixes}
 
 * テンプレートでの重複の問題を修正しました（CAMP-56340）
-* Adobe Experience Manager テンプレートで動的 URL が使用された際のトラッキングの問題を修正しました（CAMP-51932）
+* Adobe Experience Manager テンプレートで動的 URL が使用された際のトラッキングリグレッションを修正しました（CAMP-51932）
 * 請求プロセスのパフォーマンスの問題を修正しました（CAMP-56796）
-* JSSP web ページの `>` 文字のHTMLエンコーディングの問題を修正しました（CAMP-56497）
-* **選択した行に表示** オプションを使用する際の動的レポートの問題を修正しました（CAMP-55895）
+* JSSP web ページの `>` 文字の HTML エンコーディングの問題を修正しました（CAMP-56497）
+* 「**選択した行に表示**」オプションを使用する際の動的レポートの問題を修正しました（CAMP-55895）
 
 
-## リリース 24.2 - 2024 年夏リリース（LA） {#summer-24}
+## リリース 24.2 - 2024年夏リリース（LA） {#summer-24}
 
 ### 改善点 {#summer-24-rn-improvements}
 
