@@ -4,14 +4,38 @@ description: このページでは、Adobe Campaign Standard の 2024年の全�
 feature: Overview
 role: User
 level: Beginner
-source-git-commit: c70e3058f75ba2b11a8311628198e5c02d489964
+exl-id: 26616ecc-a009-485c-b13d-d4e0c23969f2
+source-git-commit: 85f3a3d8fe9e41eaa78fac955bc2d0f3f3d2c35e
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 97%
+source-wordcount: '490'
+ht-degree: 98%
 
 ---
 
 # リリースノート 2024 {#release-notes-2024}
+
+
+## リリース 24.2 - 2024年夏リリース（LA） {#summer-24}
+
+### 改善点 {#summer-24-rn-improvements}
+
+**OAuth サーバー間の資格情報への移行**
+
+このバージョン以降、サービスアカウント（JWT）資格情報はアドビによって廃止され、アドビのソリューションおよびアプリとの Campaign アウトバウンド統合は OAuth サーバー間の資格情報に依存するようになりました。アドビでは、Campaign と Analytics 統合や Experience Cloud トリガー統合などのアウトバウンド統合に対して、JWT から OAuth への移行を実行します。
+
+Campaign とのインバウンド統合を実装していて、[Campaign API](../../api/using/get-started-apis.md) を使用している場合は、[このドキュメント](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}の説明に従って、テクニカルアカウントを移行する必要があります。既存のサービスアカウント（JWT）資格情報は、**2025年1月27日（PT）**&#x200B;に機能しなくなります。
+
+### 修正点 {#summer-24-rn-fixes}
+
+* ワークフロースケジューラーがスケジュールされた時間より前に開始される問題を修正しました。（CAMP-55412）
+* トランザクションプッシュ通知でカスタムフィールドを複製する際にエラーが発生する問題を修正しました。（CAMP-54459）
+* アプリ内メッセージングの日時スケジューラーの使いやすさに影響を与える問題を修正しました。（CAMP-54495）
+* カスタムトラッキングエイリアス機能を使用し、リンク全体が動的な場合に、トラッキングが機能しない問題を修正しました。（CAMP-56044）
+* 検索を使用して特定のテンプレートを検索する際に、表示されるテンプレートの数が制限される問題を修正しました。（CAMP-55273）
+* 優先言語ドロップダウンリストに en_kz（英語 - カザフスタン）および en_ua（英語 - ウクライナ）を追加しました。（CAMP-55336）
+* スケジューラー設定で時間調整ボタンが機能しない問題を修正しました。（CAMP-53602）
+* スケジューラー設定の時間調整バーに関するいくつかのユーザーインターフェイスの問題を修正しました。（CAMP-55291）
+
 
 ## リリース 24.1 - 2024年冬リリース {#winter-24}
 
@@ -33,4 +57,3 @@ ht-degree: 97%
 
 * バウンスされたメールアドレスが 30 日後に強制隔離から削除されない問題を修正しました。（CAMP-52977）
 * `division by zero` のエラーで配信アラートワークフローが停止する問題を修正しました。（CAMP-49786）
-
