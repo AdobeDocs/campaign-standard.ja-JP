@@ -3,10 +3,10 @@ keywords: Campaign Standard;home;popular topics
 title: Adobe Campaign Standard 製品ドキュメント
 description: Campaign Standard 製品ドキュメントの参照
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
-source-git-commit: 2f3a0f4233df2915c5b7d293452246c688d69228
-workflow-type: ht
-source-wordcount: '301'
-ht-degree: 100%
+source-git-commit: 9924d811359a6845ee6fd230eb6ffd73985404ba
+workflow-type: tm+mt
+source-wordcount: '284'
+ht-degree: 96%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 ## 新着情報
 
-Adobe Campaign Standard 製品とドキュメントの最新の機能強化について説明します。機能、改善点、修正点の包括的なリストについては、詳細な[リリースノート](rn/using/release-notes.md)をご確認ください。ドキュメントの最新の変更については、 [ドキュメントの更新ページ](rn/using/documentation-updates.md)で随時ご確認ください。
+Adobe Campaign Standard 製品とドキュメントの最新の機能強化について説明します。機能、改善点、修正の包括的なリストについては、詳細な[リリースノート](rn/using/release-notes.md)を参照してください。
 
 >[!BEGINTABS]
 
@@ -24,9 +24,9 @@ Adobe Campaign Standard ユーザーは、Adobe Campaign Managed Cloud Services 
 
 [![画像](assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/ja/docs/campaign-web/acs-to-ac/home){target="_blank"}
 
->[!TAB Campaign 24.2 の2月リリースが公開されました。]
+>[!TAB Campaign 25.1 の2月リリースが公開されました。]
 
-Campaign Standard 24.2 リリースの新機能、改善点および修正点について説明します。
+Campaign Standard 25.1 リリースに伴う改善点と修正点について説明します。
 
 [![画像](assets/do-not-localize/learn-more-button.svg)](rn/using/release-notes.md)
 

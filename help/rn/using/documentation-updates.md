@@ -4,10 +4,12 @@ description: Adobe Campaign Standard ドキュメントのすべての最新ア�
 feature: Overview
 role: User
 level: Beginner
+hide: true
+hidefromtoc: true
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
+source-git-commit: 9924d811359a6845ee6fd230eb6ffd73985404ba
 workflow-type: tm+mt
-source-wordcount: '7258'
+source-wordcount: '7276'
 ht-degree: 100%
 
 ---
@@ -15,6 +17,11 @@ ht-degree: 100%
 # ドキュメントの更新{#documentation-updates}
 
 このページでは、Adobe Campaign の[リリースノート](../../rn/using/release-notes.md)に加えて、Adobe Campaign Standard のドキュメントの新規更新をすべて紹介します。
+
+
+## リリース 25.1 - 2025年冬 {#release-24-1}
+
+Campaign Standard 24.1 の 2024年冬リリースのリリースノートが公開されました。[詳細情報](release-notes.md)
 
 ## リリース 24.1 - 2024年冬 {#release-24-1}
 
