@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: ec96a9c3320a570f80863b1189f350c5f62f8466
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '143'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -37,8 +37,8 @@ This section lists improvements and changes included in the next Campaign Standa
 ### その他の修正点 {#winter-25-fixes}
 
 
-* 購読概要画面の「データスキーマ」 URL を修正しました（CAMP-56168、CAMP-56296）
-* **メッセージを直ちに送信** オプションが使用される場合に、疲労ルールをバイパスする問題を修正しました（CAMP-56866、CAMP-57033）
+* 購読の概要画面の「データスキーマ」URLを修正しました（CAMP-56168、CAMP-56296）
+* 「**メッセージをすぐに送信**」オプションを使用する際に、疲労ルールがバイパスされる問題を修正しました（CAMP-56866、CAMP-57033）
 * テンプレートでの重複の問題を修正しました（CAMP-56340）
 * Adobe Experience Manager テンプレートで動的 URL が使用された際のトラッキングリグレッションを修正しました（CAMP-51932）
 * 請求プロセスのパフォーマンスの問題を修正しました（CAMP-56796）

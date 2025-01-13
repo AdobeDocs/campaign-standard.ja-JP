@@ -4,9 +4,9 @@ title: Adobe Campaign Standard 製品ドキュメント
 description: Campaign Standard 製品ドキュメントの参照
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
 source-git-commit: 9924d811359a6845ee6fd230eb6ffd73985404ba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '284'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Campaign Standard ユーザーは、Adobe Campaign Managed Cloud Services 
 
 >[!TAB Campaign 25.1 の2月リリースが公開されました。]
 
-Campaign Standard 25.1 リリースに伴う改善点と修正点について説明します。
+Campaign Standard 25.1 リリースの改善点および修正点について説明します。
 
 [![画像](assets/do-not-localize/learn-more-button.svg)](rn/using/release-notes.md)
 
