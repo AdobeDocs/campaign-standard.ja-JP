@@ -151,6 +151,6 @@ E メールDesignerでは、4 とおりの方法でメールを作成できま�
 
 ### HTMLメールの読み込みと編集 {#compatibility-mode}
 
-コンテンツをアップロードする場合、メールDesignerの WYSIWYG エディターで完全に準拠し編集可能にするには、特定のタグが含まれている必要があります。
+コンテンツをアップロードする場合、電子メールDesignerのWYSIWYG エディターに完全に準拠し編集可能にするには、特定のタグが含まれている必要があります。
 
 既存のメールをメールDesigner互換のメールに変換する方法については、[ この節 ](../../designing/using/using-existing-content.md#compatibility-mode) を参照してください。

@@ -9,7 +9,7 @@ exl-id: eccd2922-0e75-4525-9b60-b48f628deeae
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '499'
-ht-degree: 66%
+ht-degree: 62%
 
 ---
 
@@ -21,7 +21,7 @@ Campaign StandardデータをAdobe Real-time Customer Data Platform（RTCDP）�
 
 >[!NOTE]
 >
->Campaign で生成されたデータのみ（送信数、開封数、クリック数など）をAdobe Experience Platform にエクスポートすることをお勧めします。サードパーティのソース（CRM など）から取り込まれたデータは、Adobe Experience Platform に直接読み込む必要があります。
+>Campaign で生成されたデータ（送信数、開封数、クリック数など）のみをAdobe Experience Platformに書き出すことをお勧めします。 サードパーティのソース（CRM など）から取り込まれたデータは、Adobe Experience Platform に直接読み込む必要があります。
 
 ## Campaign Standardでのエクスポートワークフローの作成
 

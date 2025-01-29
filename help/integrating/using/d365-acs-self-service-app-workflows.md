@@ -15,7 +15,7 @@ ht-degree: 1%
 
 ---
 
-# Campaign とMicrosoft Dynamics 365 の統合ワークフロー
+# Campaign - Microsoft Dynamics 365 統合ワークフロー
 
 **[!UICONTROL Workflows]** のページには、テクニカルワークフローとそのステータスが一覧表示されます。
 
@@ -26,19 +26,19 @@ ht-degree: 1%
 **Microsoft Dynamics 365 から Campaign へ**
 * Microsoft Dynamics 365 からAdobe Campaignへの *連絡先* の送信
 * *カスタムエンティティ*:Microsoft Dynamics 365 からAdobe Campaignにカスタムテーブルを取り込みます。 [詳細情報](../../integrating/using/d365-acs-using-the-integration.md#data-flows)
-* これは、**入力** とも呼ばれます（Microsoft Dynamics 365 からAdobe Campaignへのデータの入力を指します）
+* これは、**入口** とも呼ばれます（Microsoft Dynamics 365 からAdobe Campaignへのデータの入口を指します）
 
-**Campaign からMicrosoft Dynamics 365**
+**Campaign からMicrosoft Dynamics 365 へ**
 * Adobe Campaign Standardからのメールマーケティングイベントは Dynamics 365 に送信されます（メール送信、開封、クリック、バウンス）。 [詳細情報](../../integrating/using/d365-acs-using-the-integration.md#email-marketing-event-flow)
 * これは、**エグレス** とも呼ばれます（Adobe CampaignからMicrosoft Dynamics 365 へのデータのエグレスを指します）
 
 **オプトイン/オプトアウト**
 
-オプトアウトステータス（例：^ブロックリスト）は、Microsoft Dynamics 365 からAdobe Campaignに、またはAdobe CampaignからMicrosoft Dynamics 365 に同期させることができます。 データは、双方向に同期することもできます（つまり、双方向のデータフロー）。 [詳細情報](../../integrating/using/d365-acs-self-service-app-data-sync.md#opt-in-out-wf)。
+オプトアウトステータス（例：^ブロックリスト）は、Microsoft Dynamics 365 からAdobe Campaignへ、またはAdobe CampaignからMicrosoft Dynamics 365 へ同期させることができます。 データは、双方向に同期することもできます（つまり、双方向のデータフロー）。 [詳細情報](../../integrating/using/d365-acs-self-service-app-data-sync.md#opt-in-out-wf)。
 
 >[!IMPORTANT]
 >
->変更内容をAdobe Campaign StandardまたはMicrosoft Dynamics 365 に公開する前に、**Microsoft Dynamics 365 to Campaign** ワークフローを停止することを強くお勧めします。 これらの変更には、統合で現在使用されているリソース/エンティティ（およびその関連フィールド）、リンク、識別子列などの更新が含まれます。 そうしないと、データが失われたり、ワークフローが予期せず停止したりする可能性があります。
+>変更内容をAdobe Campaign StandardまたはMicrosoft Dynamics 365 に公開する前に、**Microsoft Dynamics 365 から Campaign** へのワークフローを停止することを強くお勧めします。 これらの変更には、統合で現在使用されているリソース/エンティティ（およびその関連フィールド）、リンク、識別子列などの更新が含まれます。 そうしないと、データが失われたり、ワークフローが予期せず停止したりする可能性があります。
 
 ## ワークフローバックログ
 

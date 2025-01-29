@@ -1,5 +1,5 @@
 ---
-title: 「手順 3：拡張機能を確認する」
+title: 手順 3：拡張機能を確認する
 description: Rest API を使用して拡張フィールドにアクセスする方法を説明します。
 audience: developing
 content-type: reference
@@ -11,7 +11,7 @@ exl-id: 34cb416c-ee3d-4b7c-a75b-640432db320d
 source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
 workflow-type: tm+mt
 source-wordcount: '61'
-ht-degree: 8%
+ht-degree: 16%
 
 ---
 

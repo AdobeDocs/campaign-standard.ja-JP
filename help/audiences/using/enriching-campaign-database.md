@@ -58,7 +58,7 @@ Microsoft Dynamics 365 とのCampaign Standard統合により、Microsoft Dynami
 
 >[!NOTE]
 >
->Campaign StandardとMicrosoftの Dynamics 365 コネクタは現在限定提供であり、ドキュメントで詳しく説明されているように、いくつかの制限が適用されることに注意してください。
+>Campaign Standard-Microsoft Dynamics 365 コネクタは現在限定提供であり、ドキュメントで詳しく説明されているように、いくつかの制限が適用されることに注意してください。
 
 ## API 呼び出しを使用したデータの読み込み
 

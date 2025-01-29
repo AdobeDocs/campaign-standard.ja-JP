@@ -40,13 +40,13 @@ Campaign Standard 機能の差し迫った削除／置換を伝達するため�
 <table> 
  <thead> 
   <tr> 
-   <th> モバイルアプリケーション用 <strong>SDK V4</strong><br /> </th> 
+   <th> <strong> モバイルアプリケーション用SDK V4</strong><br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Experience Platform Mobile version 4 SDK のサポートは 2021 年 8 月 31 日（PT）をもって終了しました。 Adobe Campaign Standardでこのレガシーバージョンの SDK をまだ使用している場合は、Adobe Experience Platform SDK を使用して実装を更新する必要があります <strong>2024 年 6 月末までに </strong>。 </p></br>
-   <p>実装を適応させて最新のExperience PlatformSDK に移行する方法については、<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html"> この記事 </a> を参照してください。</p></br>
+   <td> <p>Adobe Experience Platform Mobile version 4 SDK のサポートは 2021 年 8 月 31 日（PT）をもって終了しました。 Adobe Campaign Standardでこの従来のバージョンのSDKをまだ使用している場合は、<strong>2024 年 6 月末までに </strong>、Adobe Experience Platform SDKで実装を更新する必要があります。 </p></br>
+   <p>実装を適応させて最新Experience PlatformのSDKに移行する方法については、<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html"> この記事 </a> を参照してください。</p></br>
    <p><strong> 注意 </strong>:SDK V4 は、2024 年 6 月末よりCampaign Standardでサポートされなくなります。</p>
   </td> 
   </tr> 
@@ -128,9 +128,9 @@ Campaign Standard 機能の差し迫った削除／置換を伝達するため�
  <tbody> 
   <tr> 
    <td> <p> Campaign 20.1 リリース以降、SDK v4 は非推奨（廃止予定）になりました。 現在は削除されています。 <a href="https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html?lang=ja">詳細情報</a>。</p><br/>
-   <p><a href="https://developer.adobe.com/client-sdks/documentation/">Adobe Experience Platform Mobile SDK</a> （旧称：v5）は、今後のAdobe Experience Cloudの機能を排他的にサポートするようになりました。</p>
+   <p><a href="https://developer.adobe.com/client-sdks/documentation/">Adobe Experience Platform Mobile SDK</a> （以前の v5）では、今後のAdobe Experience Cloudの機能のみをサポートするようになりました。</p>
    <p>2021 年 8 月 31 日（PT）以降、お客様はバージョン 4 SDK を引き続きダウンロードして使用できますが、カスタマーケアのサポートやフォーラムへのアクセスはできません。</p>
-   <p>SDK v4 からAdobe Experience Platform Mobile SDK に移行する方法を説明します <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html"> このページを参照 </a>。</p></br>
+   <p>SDK v4 からAdobe Experience Platform Mobile SDKに移行する方法については、このページ <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/sdkv4-migration.html"> を参照してください </a>。</p></br>
      </td> 
   </tr> 
  </tbody> 

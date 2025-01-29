@@ -12,7 +12,7 @@ exl-id: 3761ee4a-1ce5-4f9e-b2a5-84388b6b9db8
 source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
 workflow-type: tm+mt
 source-wordcount: '885'
-ht-degree: 82%
+ht-degree: 79%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 82%
 
 ## 使用コンテキスト {#context-of-use}
 
-通常、「**[!UICONTROL Segmentation]**」アクティビティは、セグメントが形成される基準となる標準母集団を定義するために、ターゲティングアクティビティ（クエリ、積集合、和集合、除外など）の後に配置されます。
+**[!UICONTROL Segmentation]** アクティビティは、通常、ターゲティングアクティビティ（クエリ、積集合、和集合、除外など）の後に配置され、セグメントの形成に基づいて標準母集団を定義します。
 
 **関連トピック**
 

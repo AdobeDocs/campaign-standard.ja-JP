@@ -18,7 +18,7 @@ ht-degree: 1%
 
 # Microsoft Dynamics 365 セルフサービスアプリとAdobe Campaign Standard統合にアクセスする
 
-この設定では、Experience Cloud（EC）管理者と協力する必要があります。 これらは、セルフサービス統合アプリケーションインターフェイスへのアクセスを提供するために必要な最初の手順です。 ツールにアクセスできるようになったら、データへの接続を設定し、Adobe CampaignとMicrosoft Dynamics 365 の間のデータフローを設定します。
+この設定では、Experience Cloud（EC）管理者と協力する必要があります。 これらは、セルフサービス統合アプリケーションインターフェイスへのアクセスを提供するために必要な最初の手順です。 ツールにアクセスしたら、データへの接続を設定し、Adobe CampaignとMicrosoft Dynamics 365 の間のデータフローを設定します。
 
 >[!NOTE]
 >

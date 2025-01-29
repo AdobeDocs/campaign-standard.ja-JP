@@ -1,13 +1,13 @@
 ---
 title: リストのカスタマイズ
-description: 「Adobe Campaign Standardでリスト画面の表示をカスタマイズし、操作する方法を説明します。並べ替え、フィルタリング、削除、複製などです。 指定された 1 つまたは複数のリソースの要素を画面に表示します。」
+description: Adobe Campaign Standardでリスト画面の表示をカスタマイズする方法、およびリスト画面に対する操作（要素の並べ替え、フィルタリング、削除、複製）を説明します。 指定された 1 つまたは複数のリソースの要素を画面に表示します。
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '295'
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 

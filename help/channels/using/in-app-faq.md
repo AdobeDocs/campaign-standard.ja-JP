@@ -27,14 +27,14 @@ ht-degree: 0%
 
 ## Campaign 拡張機能 API の setLinkageField および resetLinkageField の目的は何ですか？ {#extensions-apis}
 
-アプリ内メッセージは Campaign から SDK によって取り込まれるので、PII データを含んだアプリ内メッセージが悪意のあるユーザーの手に渡らないようにする安全なメカニズムを提供する必要があります。 そのため、デバイスへのメッセージの安全な配信を確保するために、次のメカニズムが用意されています。
+アプリ内メッセージはSDKによって Campaign から取り込まれるので、PII データを含んだアプリ内メッセージが悪意のあるユーザーの手に渡らないようにする安全なメカニズムを提供する必要があります。 そのため、デバイスへのメッセージの安全な配信を確保するために、次のメカニズムが用意されています。
 
 * 顧客は、この特定の情報を安全に配信する必要がある場合、モバイルプロファイルフィールド（appSubscriberRcp テーブル）フィールドを個人用および機密としてマークします。
 * そのようにマークされたフィールドは、追加のセキュリティメカニズムが組み込まれたプロファイルテンプレート（appSubscriber テンプレートまたはブロードキャストテンプレートではない）でのみ使用できます。
 * プロファイルテンプレートを使用して作成されたメッセージは、ユーザーがアプリにログインした場合にのみ提供されます。
 * この安全なハンドシェイクを容易にするために、モバイルアプリ開発者は setLinkageField API を使用して、追加の認証詳細を渡す必要があります。 リンケージフィールドは、appSubscriberRcp テーブルの拡張時にモバイルプロファイルと CRM プロファイル間のリンクとして識別されるフィールドです。
 * ユーザーが resetLinkageField を使用してアプリからログアウトすると、デバイスと resetLinkageFields に保存されているアプリ内メッセージをフラッシュする必要があります。 これにより、別のユーザーがアプリにログインした場合、以前のユーザー向けのメッセージが表示されなくなります。
-* このセキュリティメカニズムをクライアントサイドで実装するには、[Mobile SDK API](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/) を参照してください。
+* このセキュリティ機構をクライアントサイドで実装するには、[Mobile SDK API](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/) を参照してください。
 
 ## Campaign でアプリ内レポートを有効にするには、どうすればよいですか？ {#enable-inapp-reporting}
 

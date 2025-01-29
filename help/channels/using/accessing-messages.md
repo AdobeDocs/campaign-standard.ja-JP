@@ -1,6 +1,6 @@
 ---
 title: メッセージへのアクセス
-description: メッセージへのアクセス方法と高度な機能（作成、ターゲティング、パーソナライゼーション、実行、レポート）について説明します。
+description: メッセージへのアクセス方法と、作成、ターゲティング、パーソナライゼーション、実行、レポートなどの高度な機能について説明します。
 audience: channels
 content-type: reference
 topic-tags: about-communication-channels

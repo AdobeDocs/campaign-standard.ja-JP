@@ -1,6 +1,6 @@
 ---
 title: マーケティングアクティビティ
-description: 「マーケティングアクティビティを作成および管理する方法を学びます。キャンペーン、メール、SMS、プッシュ通知配信、ランディングページ、ワークフローが含まれます。新規アクティビティを簡単に設計し、既存のアクティビティを編集し、そのステータスと有効性を確認できます。」
+description: キャンペーン、メール、SMS およびプッシュ通知配信、ランディングページ、ワークフローなどのマーケティングアクティビティを作成および管理する方法について説明します。 新しいアクティビティを簡単にデザインし、既存のアクティビティを編集して、そのステータスや有効性を確認できます。
 audience: start
 content-type: reference
 topic-tags: marketing-plans
@@ -12,7 +12,7 @@ exl-id: c75471aa-b947-4488-a569-5412d3825c64
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '487'
-ht-degree: 79%
+ht-degree: 71%
 
 ---
 

@@ -12,7 +12,7 @@ exl-id: 65d3f3d8-039d-4188-a6a4-0065724aa82b
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '785'
-ht-degree: 93%
+ht-degree: 91%
 
 ---
 
@@ -61,7 +61,7 @@ SMS 受信者は、同じワークフロー内アクティビティの上流で�
 1. デフォルトでは、「**[!UICONTROL SMS delivery]**」アクティビティにアウトバウンドトランジションは含まれていません。アウトバウンドトランジションを「**[!UICONTROL SMS delivery]**」アクティビティに追加する場合は、アクティビティの詳細設定オプション（アクティビティのクイックアクションにある ![](assets/dlv_activity_params-24px.png) ボタンで開く）の「**[!UICONTROL General]**」タブに移動し、次のいずれかのオプションをオンにします。
 
    * **[!UICONTROL Add outbound transition without the population]**：インバウンドトランジションとまったく同じ母集団を含んだアウトバウンドトランジションを生成できます。
-   * **[!UICONTROL Add outbound transition with the population]**：SMS の送信先となった母集団を含んだアウトバウンドトランジションを生成できます。配信の準備中に（強制隔離、無効な番号などにより）ターゲットから除外されたメンバーは、このトランジションから除外されます。
+   * **[!UICONTROL Add outbound transition with the population]**：SMS の送信先となった母集団を含んだアウトバウンドトランジションを生成できます。配信準備の際に除外されるターゲットのメンバー（強制隔離、無効な数など）は、このトランジションから除外されます。
 
 1. アクティビティの設定を確認し、ワークフローを保存します。
 

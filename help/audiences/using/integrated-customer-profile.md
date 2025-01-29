@@ -1,6 +1,6 @@
 ---
-title: 統合顧客プロファイル
-description: 「1 つのビューですべての顧客インタラクションを追跡：Adobe Campaign の統合顧客プロファイルは、顧客のライフサイクル全体を通じて更新されます。」
+title: Integrated Customer Profile
+description: すべての顧客インタラクションを 1 つのビューでトラッキングする：Adobe Campaign統合カスタマープロファイルは、カスタマーライフサイクルを通じて更新されます。
 audience: audiences
 content-type: reference
 topic-tags: managing-profiles
@@ -12,7 +12,7 @@ exl-id: cf3c6408-7fa0-423a-b34b-f4fee771fb47
 source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
 workflow-type: tm+mt
 source-wordcount: '281'
-ht-degree: 48%
+ht-degree: 41%
 
 ---
 

@@ -56,7 +56,7 @@ Adobe Campaignには、利用を開始するのに役立つ、事前定義済み
 
 ## メールDesignerを使用した既存のコンテンツの編集{#editing-existing-contents-with-the-email-designer}
 
-[ メールDesigner](../../designing/using/designing-content-in-adobe-campaign.md) の編集機能を最大限に活用するには、アップロードするHTMLに、WYSIWYG エディターに準拠するための固有のタグが含まれている必要があります。
+[ メールDesigner](../../designing/using/designing-content-in-adobe-campaign.md) の編集機能を最大限に活用するには、アップロードするHTMLに、WYSIWYG エディターに準拠するための特定のタグが含まれている必要があります。
 
 HTMLのすべてまたは一部にこのタグ付けがない場合、コンテンツは「[ 互換モード ](#compatibility-mode)」で読み込まれます。
 
@@ -155,7 +155,7 @@ URL から既存のコンテンツを取得するには、次の手順に従い�
 
 ### 互換モード {#compatibility-mode}
 
-コンテンツをアップロードする場合、メールDesignerの WYSIWYG エディターで完全に準拠し編集可能にするには、特定のタグが含まれている必要があります。
+コンテンツをアップロードする場合、電子メールDesignerのWYSIWYG エディターに完全に準拠し編集可能にするには、特定のタグが含まれている必要があります。
 
 アップロードされたHTMLの全部または一部が期待されるタグ付けに準拠していない場合、コンテンツは「互換モード」で読み込まれ、UI を使用した編集の可能性が制限されます。
 

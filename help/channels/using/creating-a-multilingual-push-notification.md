@@ -46,7 +46,7 @@ ht-degree: 1%
 
 1. プッシュ通知のプロパティを入力し、「**[!UICONTROL Associate a Mobile App to a delivery]**」フィールドでモバイルアプリを選択します。
 
-   ドロップダウンに SDK V4 とAdobe Experience Platform SDK の両方のアプリケーションが表示されることに注意してください。
+   ドロップダウンに、SDK V4 とAdobe Experience Platform SDK の両方のアプリケーションが表示されることに注意してください。
 
 1. **[!UICONTROL Audiences]** ウィンドウで、クエリをドラッグ&amp;ドロップして、オーディエンスを微調整します。
 

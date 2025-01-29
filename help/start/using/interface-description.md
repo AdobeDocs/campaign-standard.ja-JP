@@ -1,6 +1,6 @@
 ---
 title: インターフェイスの説明
-description: Adobe Campaign ワークスペースのホームページ、上部バー、詳細設定メニュー、アクションバーのナビゲーションおよび使用方法について説明します。
+description: ホームページ、トップバー、詳細メニュー、アクションバーなど、Adobe Campaign Workspace に移動して使用する方法について説明します。
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
@@ -11,7 +11,7 @@ exl-id: afdd981d-f6c7-4800-9e60-3018e0e41c74
 source-git-commit: 9faf94d3f2643d1fdeeed9156355147bf3b6be58
 workflow-type: tm+mt
 source-wordcount: '1261'
-ht-degree: 76%
+ht-degree: 75%
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: リストのカスタマイズ
-description: 「Adobe Campaign Standardでリスト画面の表示をカスタマイズし、操作する方法を説明します。並べ替え、フィルタリング、削除、複製などです。 指定された 1 つまたは複数のリソースの要素を画面に表示します。」
+description: Adobe Campaign Standardでリスト画面の表示をカスタマイズする方法、およびリスト画面に対する操作（要素の並べ替え、フィルタリング、削除、複製）を説明します。 指定された 1 つまたは複数のリソースの要素を画面に表示します。
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
@@ -86,7 +86,7 @@ Microsoft Dynamics 365 とのCampaign Standard統合により、Microsoft Dynami
 
 >[!NOTE]
 >
->Campaign StandardとMicrosoftの Dynamics 365 コネクタは現在限定提供であり、ドキュメントで詳しく説明されているように、いくつかの制限が適用されることに注意してください。
+>Campaign Standard-Microsoft Dynamics 365 コネクタは現在限定提供であり、ドキュメントで詳しく説明されているように、いくつかの制限が適用されることに注意してください。
 
 **詳細情報**
 

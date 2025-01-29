@@ -44,7 +44,7 @@ _プラットフォーム_
 
 * 大きな zip 形式ファイルが正しく解凍されない可能性がある問題を修正しました。
 * ブランド管理のセキュリティが向上しました。 ブランドの名前と送信者のアドレスを変更する機能が、Adobeの技術管理者向けに予約されるようになりました。
-* セキュリティを向上させるために、ユーザー作成コンテンツ（画像、ミラーページ、ランディングページなど） は、adobe.com ドメインでは提供できなくなりました。 ブランディングを通じてこれらのリソースを処理するには、独自のドメインを使用することが必須になりました。
+* セキュリティを強化するために、ユーザー生成コンテンツ（画像、ミラーページ、ランディングページなど）はadobe.com ドメインから提供できなくなりました。 ブランディングを通じてこれらのリソースを処理するには、独自のドメインを使用することが必須になりました。
 * マーケティングアクティビティを表示およびフィルタリングする際のインターフェイスの問題を修正しました。
 * POSTの Rest API 呼び出しで購読日付フィールドが更新されない問題を修正しました。
 
@@ -302,8 +302,8 @@ _プッシュ通知_
  </thead> 
  <tbody> 
   <tr> 
-   <td> Creative SDK を使用した画像エディション機能の強化 <br /> </td> 
-   <td> Creative SDK を活用した完全な機能セットにアクセスして、メールやランディングページの編集時にコンテンツエディターで直接画像を強化できるようになりました。<br /> この機能を使用するために、Creative Cloudソリューションを別途購入する必要はありません。<br /> 詳しくは、<a href="../../designing/using/images.md#modifying-images-with-the-adobe-creative-sdk"> 詳細ドキュメント </a> を参照してください。<br /> </td> 
+   <td> Creative SDKによる Image Edition 機能の強化 <br /> </td> 
+   <td> Creative SDKを活用した一連の機能にアクセスして、メールやランディングページの編集時にコンテンツエディターで直接画像を強化できるようになりました。<br /> この機能を使用するために、Creative Cloudソリューションを別途購入する必要はありません。<br /> 詳しくは、<a href="../../designing/using/images.md#modifying-images-with-the-adobe-creative-sdk"> 詳細ドキュメント </a> を参照してください。<br /> </td> 
   </tr> 
   <tr> 
    <td> トランザクションプッシュ通知 <br /> </td> 
@@ -427,7 +427,7 @@ _プッシュ通知_
   </tr> 
   <tr> 
    <td> POI データ <br /> </td> 
-   <td> POI データは、Adobe Campaignとモバイル用Adobe Analyticsを統合したものです。 ブランドは、ユーザーがブランドのアプリを開くと、ユーザーのモバイル場所 <strong> 目標点 </strong> と呼ばれます）からデータを収集できます。 これにより、ブランドはAdobe Campaign ワークフローを活用して、ユーザーの場所に基づいてパーソナライズされたメッセージを送信できます。 このチャネルは、Mobile コアサービスの SDK を利用します。<br /> この機能を使用するには、有料のソリューションである Analytics for Mobile が必要です。<br /> 詳しくは、<a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md"> 詳細ドキュメント </a> を参照してください。<br /> </td> 
+   <td> POI データは、Adobe Campaignとモバイル用Adobe Analyticsを統合したものです。 ブランドは、ユーザーがブランドのアプリを開くと、ユーザーのモバイル場所 <strong> 目標点 </strong> と呼ばれます）からデータを収集できます。 これにより、ブランドはAdobe Campaign ワークフローを活用して、ユーザーの場所に基づいてパーソナライズされたメッセージを送信できます。 このチャネルは、Mobile コアサービスのSDKを利用します。<br /> この機能を使用するには、有料のソリューションである Analytics for Mobile が必要です。<br /> 詳しくは、<a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md"> 詳細ドキュメント </a> を参照してください。<br /> </td> 
   </tr> 
   <tr> 
    <td> REST API<br /> </td> 

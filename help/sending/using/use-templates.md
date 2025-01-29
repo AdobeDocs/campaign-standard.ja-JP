@@ -4,7 +4,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
-description: 「配信テンプレートを使用すると、最も一般的なタイプのアクティビティに対してすぐに使用できるシナリオを提供できるので、効率を向上できます」。
+description: 配信テンプレートは、一般的なアクティビティについての既製のシナリオを提供し、作業の効率化に役立ちます。
 feature: Deliverability
 role: User
 level: Intermediate
@@ -12,7 +12,7 @@ exl-id: ca134a7f-9035-4885-b4cb-1170b6ec10cc
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '815'
-ht-degree: 60%
+ht-degree: 62%
 
 ---
 

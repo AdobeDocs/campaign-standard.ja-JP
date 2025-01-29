@@ -1,6 +1,6 @@
 ---
 title: モバイルアプリケーションの設定
-description: Experience Platform SDK を使用してプッシュ通知またはアプリ内メッセージを送信するようにAdobe Campaignを設定する方法について説明します
+description: Experience Platform SDKを使用してプッシュ通知またはアプリ内メッセージを送信するようにAdobe Campaignを設定する方法について説明します
 audience: administration
 feature: Instance Settings
 role: Admin
@@ -40,7 +40,7 @@ Adobe Experience Platform SDK を使用してAdobe Campaign Standardでサポー
 
 1. ユーザーがAdobe Campaign StandardとAdobe Experience Platformのタグで必要な権限を持っていることを確認します。
 
-   * Adobe Campaign Standardで、IMS ユーザーが標準のユーザー/管理者製品プロファイルに属していることを確認します。 この手順で、ユーザーはAdobe Campaign Standardにログインし、Experience PlatformSDK モバイルアプリページに移動して、データ収集 UI で作成したモバイルアプリプロパティを表示できます。
+   * Adobe Campaign Standardで、IMS ユーザーが標準のユーザー/管理者製品プロファイルに属していることを確認します。 この手順を実行すると、ユーザーはAdobe Campaign Standardにログインし、Experience Platform SDK モバイルアプリページに移動して、データ収集 UI で作成したモバイルアプリプロパティを表示できます。
 
    * データ収集 UI で、IMS ユーザーがExperience Platform Launchの製品プロファイルに属していることを確認します。
 この手順を使用すると、ユーザーはデータ収集 UI にログインして、プロパティを作成および表示できます。 データ収集 UI の製品プロファイルについて詳しくは、[ 製品プロファイルの作成 ](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/manage-permissions.html#gain-admin-rights-for-a-tags-product-profile) を参照してください。 製品プロファイルでは、会社やプロパティに対する権限は設定されていないはずですが、ユーザーは引き続きログインできます。

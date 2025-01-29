@@ -12,7 +12,7 @@ exl-id: e38ff3dd-8fb0-419b-9090-a3165852bf83
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '858'
-ht-degree: 90%
+ht-degree: 88%
 
 ---
 
@@ -74,7 +74,7 @@ ht-degree: 90%
 1. デフォルトでは、「**[!UICONTROL Email delivery]**」アクティビティにアウトバウンドトランジションは含まれていません。アウトバウンドトランジションを「**[!UICONTROL Email delivery]**」アクティビティに追加する場合は、アクティビティの詳細設定オプション（アクティビティのクイックアクションにある ![](assets/dlv_activity_params-24px.png) ボタンで開く）の「**[!UICONTROL General]**」タブに移動し、次のいずれかのオプションをオンにします。
 
    * **[!UICONTROL Add outbound transition without the population]**：インバウンドトランジションとまったく同じ母集団を含んだアウトバウンドトランジションを生成できます。
-   * **[!UICONTROL Add outbound transition with the population]**：メールの送信先となった母集団を含んだアウトバウンドトランジションを生成できます。配信の準備中に（強制隔離、無効なメールなどにより）ターゲットから除外されたメンバーは、このトランジションから除外されます。
+   * **[!UICONTROL Add outbound transition with the population]**：メールの送信先となった母集団を含んだアウトバウンドトランジションを生成できます。配信準備の際に除外されるターゲットのメンバー（強制隔離、無効なメールなど）は、このトランジションから除外されます。
 
 1. アクティビティの設定を確認し、ワークフローを保存します。
 

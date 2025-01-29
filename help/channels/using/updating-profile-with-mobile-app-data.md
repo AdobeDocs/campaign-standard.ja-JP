@@ -32,7 +32,7 @@ ht-degree: 2%
 モバイルアプリ購読データに基づいてプロファイルを作成または更新する前に、Campaign Standardでプッシュ通知を有効にするために従うべき設定手順がいくつかあります。
 
 1. [モバイルアプリケーションの作成](../../administration/using/configuring-a-mobile-application.md)
-1. [AdobeMobile SDK をモバイルアプリケーションと統合します ](../../administration/using/supported-mobile-use-cases.md)。
+1. [Adobe Mobile SDKをモバイルアプリケーションと統合します ](../../administration/using/supported-mobile-use-cases.md)。
 1. [ プッシュ通知を送信するようにAdobe Campaignを設定する ](../../administration/using/configuring-a-mobile-application.md)。
 
 ## 手順 1 - プッシュ通知/購読用のプロファイルリソースを拡張

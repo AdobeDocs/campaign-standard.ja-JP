@@ -12,7 +12,7 @@ exl-id: c7854b7b-f955-47ce-99d6-86b3186fd297
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '915'
-ht-degree: 93%
+ht-degree: 91%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 93%
 1. デフォルトでは、「**[!UICONTROL Direct mail delivery]**」アクティビティにアウトバウンドトランジションは含まれていません。アウトバウンドトランジションを「**[!UICONTROL Direct mail delivery]**」アクティビティに追加する場合は、アクティビティの詳細設定オプション（アクティビティのクイックアクションにある ![](assets/dlv_activity_params-24px.png) ボタンで開く）の「**[!UICONTROL General]**」タブに移動し、次のいずれかのオプションをオンにします。
 
    * **[!UICONTROL Add outbound transition without the population]**：インバウンドトランジションとまったく同じ母集団を含んだアウトバウンドトランジションを生成できます。このトランジションには、「ダイレクトメール」アクティビティで生成されたファイルと、「ダイレクトメール」アクティビティで受信された生の母集団が含まれています。
-   * **[!UICONTROL Add outbound transition with the population]**：ダイレクトメールの送信先となる母集団を含んだアウトバウンドトランジションが生成できます。ダイレクトメールの準備中に除外されたターゲットのメンバー（強制隔離、無効なアドレスなど）は、このトランジションから除外されます。トランジションには、ダイレクトメールで生成されたファイルも含まれています。
+   * **[!UICONTROL Add outbound transition with the population]**：ダイレクトメールの送信先となる母集団を含んだアウトバウンドトランジションが生成できます。ダイレクトメール準備中に除外されたターゲットのメンバー（強制隔離、無効なアドレスなど）は、この移行から除外されます。 トランジションには、ダイレクトメールで生成されたファイルも含まれています。
 
 1. アクティビティの設定を確認し、ワークフローを保存します。
 

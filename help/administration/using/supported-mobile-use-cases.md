@@ -341,7 +341,7 @@ ACPCampaign.resetLinkageFields(linkageFields)
 
 ### （Androidを使用） {#linkage-fields-inapp-android}
 
-Androidのアプリ内メッセージに基づくプロファイルテンプレートに対して追加の認証のリンケージフィールドを設定するには、次のExperience Platform SDK が必要です。
+Androidのアプリ内メッセージに基づくプロファイルテンプレートに対して追加の認証用のリンケージフィールドを設定するには、次のSDKExperience Platformが必要です。
 
 * リンクフィールドを設定します <br> 詳しくは、[ リンクフィールドを設定 ](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/#setlinkagefields) を参照してください。
 * リンケージフィールドのリセット <br> 詳しくは、[ リンケージフィールドのリセット ](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/#resetlinkagefields) を参照してください。

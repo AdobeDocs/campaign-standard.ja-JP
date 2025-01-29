@@ -1,6 +1,6 @@
 ---
 title: Microsoft Dynamics 365 統合の使用
-description: Campaign Standard統合でのMicrosoft Dynamics 365 の使用方法を学ぶ
+description: Microsoft Dynamics 365 をCampaign Standardと統合して使用する方法を学ぶ
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 # Microsoft Dynamics 365 統合の使用
 
-Adobe Campaign StandardとMicrosoft Dynamics 365 の統合で実行されるデータフローはいくつかあります。 これらのフローについて詳しくは、[ このページ ](../../integrating/using/d365-acs-self-service-app-workflows.md) を参照してください。
+Microsoft Dynamics 365 とのAdobe Campaign Standard統合で実行されるデータフローはいくつかあります。 これらのフローについて詳しくは、[ このページ ](../../integrating/using/d365-acs-self-service-app-workflows.md) を参照してください。
 
 データフローの詳細については、このドキュメントの [ データフロー ](#data-flows) の節を参照してください。
 
@@ -27,9 +27,9 @@ Microsoft Dynamics 365 で連絡先が作成、変更または削除されると
 
 ![](assets/MSdynamicsACS-usage1.png)
 
-Campaign でオプトアウト属性を変更しても、「**一方向（Microsoft Dynamics 365 に対するキャンペーン）**」または「**双方向**」のオプトアウト設定を選択し、その特定の属性を正しくマッピングしていると、Dynamics 365 に反映されます。
+Campaign でオプトアウト属性を変更しても、「**一方向（Microsoft Dynamics 365 に対するキャンペーン）**」または「**双方向**」を選択し、その特定の属性を正しくマッピングしていると、Dynamics 365 に反映されます。
 
-## Microsoft Dynamics 365 のユーザーエクスペリエンス
+## Microsoft Dynamics 365 ユーザーエクスペリエンス
 
 エグレスの場合、次のメールマーケティングイベントが Campaign から Dynamics 365 に送信され、Microsoft Dynamics 365 のタイムライン ビューにカスタムアクティビティとして表示されます。
 
@@ -45,7 +45,7 @@ Campaign でオプトアウト属性を変更しても、「**一方向（Micros
 
 >[!NOTE]
 >
->これらのイベントを表示するには、AppSource の **Adobe Campaign for Microsoft Dynamics 365** アプリをMicrosoft Dynamics 365 インスタンスにインストールする必要があります。 [詳細情報](../../integrating/using/d365-acs-configure-d365.md#install-appsource-app)。
+>Adobe Campaignこれらのイベントを表示するには、AppSource のMicrosoft Dynamics 365 **アプリの** Microsoft Dynamics 365 インスタンスにインストールする必要があります。 [詳細情報](../../integrating/using/d365-acs-configure-d365.md#install-appsource-app)。
 
 以下に、「Dynamics ユーザー」の連絡先画面のスナップショットを示します。 タイムライン ビューでは、キャンペーン名「2019LoyaltyCamp」と配信名「DM190」に関連付けられたメールが Dynamics ユーザーに送信されたことがわかります。 Dynamics ユーザーがメールを開き、メールの URL をクリックしました。これらのアクションは両方ともイベントを作成し、以下も表示されます。 右隅を見ると、関係アシスタント（RA）カードが表示されます。現在は、クリックされた URL を追跡するタスクが含まれています。
 
@@ -87,15 +87,15 @@ Dynamics ユーザーのタイムライン ビューのクローズアップに�
 
 >[!NOTE]
 >
->オプトアウトの場合、Microsoft Dynamics 365 でオプトアウト属性を変更すると、**一方向（Microsoft Dynamics 365 に対するキャンペーン）または** 双方向 **オプトアウト設定を選択し** その特定の属性が正しくマッピングされていれば、Campaign に反映されます。
+>オプトアウトの場合、Microsoft Dynamics 365 でオプトアウト属性を変更すると、**一方向（Microsoft Dynamics 365 に対するキャンペーン）または** 双方向 **オプトアウトの設定を選択し** その特定の属性が正しくマッピングされていれば、Campaign に反映されます。
 
 ## データフロー {#data-flows}
 
 ### 連絡先とカスタムエンティティの入口
 
-新規、更新、削除されたレコード（メモ：削除を有効にする必要があります）がMicrosoft Dynamics 365 の連絡先テーブルから Campaign のプロファイルテーブルに送信されます。
+新規、更新、削除されたレコード（メモ：削除を有効にする必要があります）は、Microsoft Dynamics 365 の連絡先テーブルから Campaign のプロファイルテーブルに送信されます。
 
-テーブルマッピングは統合アプリケーション UI で設定し、Microsoft Dynamics 365 のテーブル属性を Campaign のテーブル属性にマッピングできます。 必要に応じて、テーブルマッピングを変更して属性を追加または削除できます。
+テーブルマッピングは、統合アプリケーション UI で設定して、Microsoft Dynamics 365 のテーブル属性を Campaign のテーブル属性にマッピングできます。 必要に応じて、テーブルマッピングを変更して属性を追加または削除できます。
 
 データフローの最初の実行は、マッピングされたすべてのレコード（「非アクティブ」とマークされたレコードを含む）を転送するように設計されています。その後、統合は増分更新のみを処理します。 ただし、データが再生されたり、フィルターが設定されたりすると、例外が発生します。基本的な属性ベースのフィルタリングルールを設定して、Campaign に同期するレコードを決定できます。
 
@@ -160,14 +160,14 @@ Campaign カスタムリソースのより包括的な概要については、[ 
 オプトアウト（ブロックリストなど）の値はシステム間で同期されます。オンボーディング時に次のオプションから選択できます。
 
 * **一方向（Microsoft Dynamics 365 から Campaign）**:Dynamics 365 は、オプトアウトの情報源です。 オプトアウト属性は、Dynamics 365 からCampaign Standardに一方向に同期されます」
-* **単方向（Campaign からMicrosoft Dynamics 365）**：オプトアウトの情報源はCampaign Standardです。 オプトアウト属性は、Campaign Standardから Dynamics 365 に一方向に同期されます
+* **単方向（Microsoft Dynamics 365 に対する Campaign）**：オプトアウトの情報源はCampaign Standardです。 オプトアウト属性は、Campaign Standardから Dynamics 365 に一方向に同期されます
 * **双方向**:Dynamics 365 とCampaign Standardはどちらも信頼できる情報源です。 オプトアウト属性は、Campaign Standardと Dynamics 365 間で双方向に同期されます
 
 または、システム間のオプトアウト同期を管理する別のプロセスがある場合、統合のオプトアウトデータフローを無効にできます。
 
 >[!NOTE]
 >
->統合アプリケーション UI では、**一方向（Microsoft Dynamics 365 から Campaign へ）** および **双方向** オプトアウトのユースケースが、別のオプトアウトワークフローで設定されます。 [詳細情報](../../integrating/using/d365-acs-self-service-app-data-sync.md#opt-in-out-wf)。
+>統合アプリケーション UI では、**一方向（Microsoft Dynamics 365 から Campaign）** および **双方向** オプトアウトのユースケースが、別のオプトアウトワークフローで設定されます。 [詳細情報](../../integrating/using/d365-acs-self-service-app-data-sync.md#opt-in-out-wf)。
 >
 >**一方向（Campaign からMicrosoft Dynamics 365）** オプトアウトのユースケースは例外で、入口（プロファイルへの連絡）ワークフロー内で設定されます。
 >
@@ -187,4 +187,4 @@ Dynamics 365 では、ほとんどのオプトアウトフィールドに「dono
 
 ### 初回のデータ転送 {#initial-data-transfer}
 
-Microsoft Dynamics 365 から取り込むレコード数によっては、最初のデータ転送に時間がかかる場合があります。 最初のデータ転送が完了すると、統合機能によって増分更新が取得されます。
+Microsoft Dynamics 365 から取り込むレコードの数によっては、最初のデータ転送に時間がかかる場合があります。 最初のデータ転送が完了すると、統合機能によって増分更新が取得されます。

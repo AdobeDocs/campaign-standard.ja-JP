@@ -53,7 +53,7 @@ Google のサービス向上への継続的な取り組みの一環として、�
 
 * モバイルアプリケーションを HTTP v1 に移行するには、Android Firebase Admin SDK サービスのアカウント JSON ファイルが必要です。このファイルを取得する方法について詳しくは、[Google Firebase ドキュメント](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}を参照してください。
 
-* このレガシーバージョンの SDK をまだ使用している場合は、Adobe Experience Platform SDK を使用して実装を更新する必要があります。 Adobe Experience Plaform SDK に移行する方法については、[ この記事 ](sdkv4-migration.md) を参照してください。
+* このレガシーバージョンのSDKをまだ使用している場合は、Adobe Experience Platform SDKを使用して実装を更新する必要があります。 Adobe Experience Plaform SDKに移行する方法については、[ この記事 ](sdkv4-migration.md) を参照してください。
 
 * 次の手順を実行する前に、Adobe Experience Platform Data Collection Mobile に **モバイルアプリ設定** 権限があることを確認してください。 [詳細情報](https://experienceleague.adobe.com/docs/experience-platform/collection/permissions.html?lang=en#adobe-experience-platform-data-collection-permissions){target="_blank"}
 
@@ -200,9 +200,9 @@ Androidのプッシュメッセージは、Googleからの通知に従って、2
 
 +++
 
-+++HTTP v1 API 移行は SDK V4 モバイルアプリでサポートされていますか？
++++HTTP v1 API 移行はSDK V4 モバイルアプリでサポートされていますか？
 
-いいえ。お客様はまずモバイルアプリを V5 SDK に移行してから、上記の移行を進める必要があります。 Googleからの通知に従って、プッシュサービスが 2024 年 6 月から失敗し始めるため、これらのユーザーは優先事項としてこれを行う必要があります。
+いいえ。お客様はまずモバイルアプリを V5 SDKに移行してから、上記の移行を進める必要があります。 Googleからの通知に従って、プッシュサービスが 2024 年 6 月から失敗し始めるため、これらのユーザーは優先事項としてこれを行う必要があります。
 
 +++
 

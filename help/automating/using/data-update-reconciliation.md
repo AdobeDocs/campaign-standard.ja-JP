@@ -12,7 +12,7 @@ exl-id: cfca6202-791d-4baf-b5ed-677d2480cf06
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '128'
-ht-degree: 52%
+ht-degree: 33%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 52%
   tycoon;tyreese;tyreese_t@testmail.net;10/08/1971
   ```
 
-* [ 紐付け ](../../automating/using/reconciliation.md) アクティビティ。読み込まれたファイルの各列をプロファイルディメンション列にリンクします。 識別できないファイルレコード（データが見つからない、互換性のないデータタイプなど）は無視され、最終的なオーディエンスデータの整合性が維持されます。
+* [ 紐付け ](../../automating/using/reconciliation.md) アクティビティ。読み込まれたファイルの各列をプロファイルディメンション列にリンクします。 識別できないファイルレコード（データが見つからない、互換性のないデータタイプなど）は、最終的なオーディエンスデータの整合性を維持するために無視されます。
 
   ![](assets/identification_example1.png)
 

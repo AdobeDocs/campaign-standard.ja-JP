@@ -12,7 +12,7 @@ exl-id: f11754fb-188e-4cae-bd5b-0dfbf74befb3
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '1100'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
@@ -200,7 +200,7 @@ context.profile.age > 21 && context.profile.firstName.length() > 0
    <td> NOT<br /> </td> 
    <td> 該当なし<br /> </td> 
    <td> 「<span class="uicontrol">次に類似</span>」と似ています。入力した値を除外することができます。この演算子でも、入力した値にワイルドカード文字 <span class="uicontrol">%</span> が含まれている必要があります。<br /> </td> 
-   <td> <strong>@lastName NOT Smi%h</strong>。この場合、「Smi%h」に該当する名前（Smith など）の受信者は、結果として返されません。<br /> </td> 
+   <td> <strong>@lastName NOT Smi%h</strong>。ここで、受信者は「Smi%h」という名前に対応します（Smith など）。結果として返されません。<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">空である</span><br /> </td> 

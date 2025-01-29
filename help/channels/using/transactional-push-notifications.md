@@ -18,7 +18,7 @@ ht-degree: 3%
 
 # トランザクションプッシュ通知{#transactional-push-notifications}
 
-Adobe Campaignを使用すると、iOSやAndroidのモバイルデバイスでトランザクションプッシュ通知を送信できます。 これらのメッセージは、Experience Cloud Mobile SDK を利用してAdobe Campaignにセットアップしたモバイルアプリケーションで受信されます。
+Adobe Campaignを使用すると、iOSやAndroidのモバイルデバイスでトランザクションプッシュ通知を送信できます。 これらのメッセージは、Experience CloudモバイルSDKを利用してAdobe Campaignに設定したモバイルアプリケーションで受信されます。
 
 >[!NOTE]
 >

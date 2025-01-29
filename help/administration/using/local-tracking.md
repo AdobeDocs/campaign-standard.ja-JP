@@ -27,7 +27,7 @@ ht-degree: 1%
 
 * **ローカルオープン** - ローカル通知がデバイスに配信され、ユーザーが通知をクリックしてアプリケーションを開いたとき。 これは、ローカルクリックと似ていますが、通知が閉じられた場合にローカルオープンがトリガーされない点が異なります。
 
-Adobe Campaign Standard用のトラッキングを実装するには、モバイルアプリケーションに Mobile SDK を含める必要があります。 これらの SDK は [!DNL Adobe Mobile Services] で入手できます。
+Adobe Campaign Standardのトラッキングを実装するには、モバイルアプリケーションで Mobile SDKをアプリケーションに含める必要があります。 これらの SDK は [!DNL Adobe Mobile Services] で入手できます。
 
 トラッキング情報を送信するには、3 つの変数を送信する必要があります。2 つはAdobe Campaignから受信したデータの一部で、もう 1 つはインプレッション、クリック、開くかどうかを指示するアクション変数です。
 
@@ -39,7 +39,7 @@ Adobe Campaign Standard用のトラッキングを実装するには、モバイ
 
 ## ローカルインプレッショントラッキングの実装 {#implement-local-impression-tracking}
 
-Adobe Experience Platform Mobile SDK は、AndroidとiOSの両方に対して、追加の設定なしでインプレッションイベントを自動的に送信します。
+Adobe Experience Platform モバイル SDKは、追加の設定を行わずに、AndroidとiOSの両方に対してインプレッションイベントを自動的に送信します。
 
 ## クリックの追跡の実装 {#implementing-click-tracking}
 

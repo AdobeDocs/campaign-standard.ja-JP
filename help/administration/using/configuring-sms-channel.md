@@ -23,7 +23,7 @@ SMS メッセージを送信するには、管理者が **[!UICONTROL Administra
 
 >[!IMPORTANT]
 >
->複数の外部 SMS アカウントに同じアカウントとパスワードを使用すると、アカウント間で競合や重複が生じる可能性があります。 [SMS のトラブルシューティングページ](troubleshooting-sms.md#external-account-conflict)を参照してください。
+>複数の外部 SMS アカウントに同じアカウントとパスワードを使用すると、アカウント間で競合や重複が生じる可能性があります。[SMS のトラブルシューティングページ](troubleshooting-sms.md#external-account-conflict)を参照してください。
 
 **[!UICONTROL SMS routing via SMPP]** 外部アカウントはデフォルトで提供されていますが、他のアカウントを追加すると便利です。
 

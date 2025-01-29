@@ -197,7 +197,7 @@ ht-degree: 9%
 
 **その他の機能強化**
 
-* Adobe Experience Platform Location Services との統合により、Adobe Campaignは、Location SDK を介してモバイルアプリケーションの購読者に場所ベースのマーケティングExperience Platformを送信できるようになりました。 詳しくは、[詳細なドキュメント](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md)を参照してください。
+* Adobe Experience Platform Location Services との統合により、Adobe Campaignは、Experience Platform SDKを介してモバイルアプリケーションの購読者に場所ベースのマーケティングメッセージを送信できるようになりました。 詳しくは、[詳細なドキュメント](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md)を参照してください。
 * レポート機能が改善され、エクスペリエンスが向上しました。 この機能を使用するには、動的レポート使用契約に同意する必要があります。 詳しくは、[ 詳細ドキュメント ](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement) を参照してください。
 * ワークフローでは、ワークフローの次の 10 回の実行をプレビューできる新しいオプションが追加されました。 詳しくは、[ 詳細ドキュメント ](../../automating/using/scheduler.md) を参照してください。
 * スケジューラーアクティビティで、新しいオプションを使用すると、毎月配信する特定の曜日を選択できます。 詳しくは、[ 詳細ドキュメント ](../../automating/using/scheduler.md) を参照してください。
@@ -281,7 +281,7 @@ ht-degree: 9%
 * SMS コネクタの切断後に SMS 送信が再開されない可能性がある問題を修正しました。
 * TLS が有効になっている場合に SMPP 接続が閉じてしまう可能性がある問題を修正しました。
 * TLS が有効になっている場合に SMPP 接続が閉じてしまう可能性がある問題を修正しました。
-* Adobe Experience Platform Mobile SDK で作成されたモバイルアプリケーションのプロパティを管理する目的で、Campaign に「Launch_URL_Campaign」オプションが追加されました。
+* Adobe Experience Platform モバイルSDKで作成されたモバイルアプリケーションのプロパティを管理するために、Campaign に「Launch_URL_Campaign」オプションが追加されました。
 * 新しく作成したモバイルプロパティの証明書をアップロードしてモバイルアプリケーションのプロパティページを終了した後、「サンドボックス環境」オプションがオフになるエラーを修正しました。
 * サービスリソースからの情報でトランザクションメッセージコンテンツを強化できない問題を修正しました。 （CAMP-33707）
 * サービスからプロファイルを登録解除しようとすると発生したブロックリストランディングページの問題を修正しました。
@@ -426,7 +426,7 @@ ht-degree: 9%
   </tr> 
   <tr> 
    <td> モバイルアプリ内メッセージ <br /> </td> 
-   <td> <p>このリリースには、Campaign のアプリ内チャネルの GA バージョンが含まれています。 機能的な観点から見ると、Beta リリースで最も注目すべき追加点は、Mobile SDK と MCIAS （SDK に対してアプリ内ルールを提供するMarketing Cloudのアプリ内メッセージサービス）間のアプリ内チャネルの動的レポートとセキュアなハンドシェイクです。 セキュアなハンドシェイクにより、ユーザーの PII データが悪意のあるユーザーの手に渡らないようにするほか、ユーザーがログアウトするたびにメッセージキャッシュをクリアすることで、共有デバイスでのユーザーのプライバシーを維持できます。</p><p>詳しくは、<a href="../../channels/using/about-in-app-messaging.md"> 詳細なドキュメント </a> および専用の <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/communication-channels/mobile/in-app/in-app-message-overview.html"> アプリ内チュートリアル </a> を参照してください。</p> </td> 
+   <td> <p>このリリースには、Campaign のアプリ内チャネルの GA バージョンが含まれています。 機能的な観点から見ると、Beta リリースで最も注目すべき追加点は、Mobile SDKと MCIAS （SDKにアプリ内ルールを提供するMarketing Cloudのアプリ内メッセージサービス）間のアプリ内チャネルの動的レポートとセキュアなハンドシェイクです。 セキュアなハンドシェイクにより、ユーザーの PII データが悪意のあるユーザーの手に渡らないようにするほか、ユーザーがログアウトするたびにメッセージキャッシュをクリアすることで、共有デバイスでのユーザーのプライバシーを維持できます。</p><p>詳しくは、<a href="../../channels/using/about-in-app-messaging.md"> 詳細なドキュメント </a> および専用の <a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/communication-channels/mobile/in-app/in-app-message-overview.html"> アプリ内チュートリアル </a> を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td> ワークフローの機能強化 <br /> </td> 

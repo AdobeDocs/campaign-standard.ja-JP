@@ -1,6 +1,6 @@
 ---
 title: Microsoft Dynamics 365 統合の概要
-description: Microsoft Dynamics 365 統合の概要を説明します
+description: Microsoft Dynamics 365 統合の概要
 products: SG_CAMPAIGN/STANDARD
 audience: integrating
 content-type: reference
@@ -22,7 +22,7 @@ ht-degree: 6%
 
 この統合には、次のソフトウェアバージョンが必要です。
 
-* Microsoft Dynamics 365 for Sales Online のみ、最新版
+* Microsoft Dynamics 365 for Sales Online 最新バージョン
 
 * Adobe Campaign Standard、最新版
 
@@ -33,9 +33,9 @@ ht-degree: 6%
 
 ## 原則
 
-Adobe Campaign StandardとMicrosoft Dynamics 365 の統合により、CRM システムで使用可能なすべての連絡先データの同期が可能になり、キャンペーンアクティビティに関連するすべての連絡先データを利用できるようになります。
+Adobe Campaign StandardとMicrosoft Dynamics 365 の統合により、CRM システムで使用可能なすべての連絡先データの同期が可能になり、関連するすべての連絡先データをキャンペーンアクティビティで使用できるようになります。
 
-逆に、Adobe Campaign Standard内のプロファイルがメッセージとやり取りする際、これらのデータ（送信、開封、クリック、バウンスなど）はMicrosoft Dynamics 365 に自動的に送られ、連絡先レコードがマーケティングアクティビティでも完全に使用されます。
+逆に、Adobe Campaign Standard内のプロファイルがメッセージとやり取りする際、これらのデータ（送信、開封、クリック、バウンスなど）はMicrosoft Dynamics 365 に自動的に送られ、連絡先レコードがマーケティングアクティビティでも完全に保持されます。
 
 この統合では、Dynamics 365 の [ カスタムエンティティ ](../../integrating/using/d365-acs-self-service-app-settings.md) を、Campaign の対応する **カスタムリソース** に同期することもサポートされています。
 
@@ -69,7 +69,7 @@ Adobe Campaign StandardとMicrosoft Dynamics 365 の統合により、CRM シス
 
 フローチャートの詳細（上記の手順に対応）:
 
-* **手順 1** - Microsoft Dynamics 365 for Sales およびAdobe Campaign Standardのライセンスが既に存在するか、調達中であることを前提としています。
+* **手順 1** – 販売用およびAdobe Campaign Standard用のMicrosoft Dynamics 365 のライセンスを既に保有しているか、または調達中であることを前提としています。
 * **手順 2** – 標準統合機能は、すべてのお客様に無料で提供されますが、要件に応じて追加コストが発生する可能性があります。 詳細情報 [ ベストプラクティスと制限事項 ](../../integrating/using/d365-acs-notices-and-recommendations.md)。 元の SO に含まれていない場合は、統合を活用するために新しい SO に署名する必要があります。
 * **手順 3** - Dynamics 365 と Campaign の統合前手順を完了します。 [ この統合の設定 ](#configure-this-integration) を参照してください。
 * **手順 4** – 統合のオンボーディングチームから、Adobeアプリケーションのユーザーインターフェイス（UI）にアクセスできるようになります。

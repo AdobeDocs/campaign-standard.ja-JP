@@ -12,7 +12,7 @@ exl-id: 28398843-a170-48cf-b9c0-dca7af56236d
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '1672'
-ht-degree: 93%
+ht-degree: 92%
 
 ---
 
@@ -257,7 +257,7 @@ ht-degree: 93%
 
 ![](assets/des_lp_content_3.png)
 
-ブロック内の要素（リンク、パーソナライゼーションフィールド、コンテンツブロックなど）に対して定義されたパラメーターは、パレットからいつでも変更できます。
+ブロック内の要素に対して定義したパラメーター（リンク、パーソナライゼーションフィールド、コンテンツブロックなど）は、パレットからいつでも変更できます。
 
 ![](assets/des_lp_content_4.png)
 

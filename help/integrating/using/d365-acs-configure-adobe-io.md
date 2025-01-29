@@ -1,6 +1,6 @@
 ---
 title: Microsoft Dynamics 365 統合用のAdobe Developerの設定
-description: Microsoft Dynamics 365 統合用にAdobe Developerを設定する方法について説明します
+description: Microsoft Dynamics 365 統合用のAdobe Developerを設定する方法について説明します
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 ---
 
-# Microsoft Dynamics 365 統合用のAdobe Campaign StandardおよびAdobe Developerの設定
+# Microsoft Dynamics 365 統合用のAdobe Campaign StandardとAdobe Developerの設定
 
 この記事では、Adobe Campaign StandardとAdobe I/Oを設定して、統合アプリケーションにデータへのアクセスを許可する方法について説明します。
 
@@ -31,7 +31,7 @@ Adobe Campaign Standardで「プロファイル拡張機能」を有効にして
 
 ## Adobe I/Oの設定 {#adobe-io}
 
-Adobe I/Oを使用すると、Adobe Campaign Standardや他のAdobe製品への API アクセスを有効にできます。   この記事では、Adobe Campaign StandardをMicrosoft Dynamics 365 と統合し、データをAdobe I/Oするためのアクセス権を付与するために同期を設定する方法について詳しく説明します。
+Adobe I/Oを使用すると、Adobe Campaign Standardや他のAdobe製品への API アクセスを有効にできます。   この記事では、Adobe Campaign StandardをMicrosoft Dynamics 365 と統合してデータをAdobe I/Oするためのアクセス権を付与するために同期を設定する方法について詳しく説明します。
 
 ### 概要
 
@@ -93,7 +93,7 @@ Adobe I/Oを使用すると、Adobe Campaign Standardや他のAdobe製品への 
 
 **関連トピック**
 
-* [Microsoft Dynamics 365 統合用にAdobe Developerを設定 ](../../integrating/using/d365-acs-configure-adobe-io.md) は、統合を設定する次の手順です
+* [Microsoft Dynamics 365 統合用のAdobe Developerの設定 ](../../integrating/using/d365-acs-configure-adobe-io.md) は、統合を設定する次の手順です
 * [ 統合セルフサービスアプリケーションの概要 ](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md) には、統合を実行する手順の完全なリストが含まれています。
 * [Adobe Developer - サービス アカウントの統合 ](https://developer.adobe.com/developer-console/docs/guides/#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)
 * [Campaign Standard - API アクセスの設定](../../api/using/setting-up-api-access.md)

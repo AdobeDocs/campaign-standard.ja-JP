@@ -27,13 +27,13 @@ Adobe Campaign StandardとMicrosoft Dynamics 365 の統合に関する一般的�
 
 ## 前提条件
 
-このドキュメントでは、事前統合設定を実行する前に、既にプロビジョニングが完了し、組織のMicrosoft Dynamics 365 インスタンスに対する管理者アクセス権を持っていることを前提としています。  問題が発生していない場合は、Microsoft カスタマーサポートに連絡して、Dynamics 365 のプロビジョニングを完了する必要があります。
+このドキュメントの事前統合設定を実行する前に、既にプロビジョニングが完了し、組織のMicrosoft Dynamics 365 インスタンスに対する管理者アクセス権を持っていることを前提としています。  問題が発生していない場合は、Microsoft カスタマーサポートに連絡して、Dynamics 365 のプロビジョニングを完了する必要があります。
 
 ステージング環境と実稼動環境の両方で統合を設定している場合は、ステージングと実稼動の両方の Dynamics 365 インスタンスに対して、次の手順を実行する必要があります。 以下の手順は、ステージングまたは実稼動の Dynamics 365 インスタンスを設定しているかどうかによって若干異なります（例：実稼動インスタンスの場合は、「prod」（`<stage or prod>`）を選択します）
 
 ## アプリケーションと権限の設定
 
-OAuth アクセストークンを使用すると、Campaign StandardエクスペリエンスイベントをMicrosoft Dynamics 365 インターフェイスのタイムラインビューに投稿するために、統合ツールで web API を介してMicrosoft Dynamics 365 インスタンスに対して認証を行うことができます。
+OAuth アクセストークンを使用すると、統合ツールは、web API を介してMicrosoft Dynamics 365 インスタンスで認証を行い、Microsoft Dynamics 365 インターフェイスのタイムラインビューにCampaign Standardエクスペリエンスイベントを投稿できます。
 
 主な手順の概要を次のビデオで説明します。
 
@@ -83,7 +83,7 @@ OAuth アクセストークンを生成するには、次に示す手順に従�
 
 ### アプリユーザーの作成
 
-この新しいユーザーは汎用のユーザーです。 この API は、アプリケーションによって使用されます。API を使用したMicrosoft Dynamics 365 の変更は、このユーザーが行います。 作成するには、次の手順に従います。
+この新しいユーザーは汎用のユーザーです。 この API はアプリケーションによって使用されます。API を使用したMicrosoft Dynamics 365 の変更は、このユーザーが行います。 作成するには、次の手順に従います。
 
 1. Dynamics 365 インスタンスに移動し、管理者としてログインします。
 
@@ -135,5 +135,5 @@ Dynamics 365 アプリをCampaign Standard環境に統合するには、次の�
 
 **関連トピック**
 
-* [Microsoft Dynamics 365 統合用にAdobe Developerを設定 ](../../integrating/using/d365-acs-configure-adobe-io.md) は、統合を設定する次の手順です
+* [Microsoft Dynamics 365 統合用のAdobe Developerの設定 ](../../integrating/using/d365-acs-configure-adobe-io.md) は、統合を設定する次の手順です
 * [ セルフサービス統合アプリの基本を学ぶ ](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md) には、統合を起動および実行する手順の完全なリストが含まれています。

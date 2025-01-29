@@ -44,7 +44,7 @@ Adobe Campaignでプッシュ通知を作成する手順は次のとおりです
 
 1. プッシュ通知のプロパティを入力し、「**[!UICONTROL Associate a Mobile App to a delivery]**」フィールドでモバイルアプリを選択します。
 
-   ドロップダウンに SDK V4 とExperience PlatformSDK の両方のアプリケーションが表示されることに注意してください。
+   ドロップダウンに、SDK V4 とExperience Platform SDKの両方のアプリケーションが表示されることに注意してください。
 
    ![](assets/push_notif_properties.png)
 

@@ -18,7 +18,7 @@ ht-degree: 2%
 
 # セルフサービス統合アプリの基本を学ぶ {#gs-self-service-app}
 
-Adobe Campaign StandardとMicrosoft Dynamics 365 セルフサービス統合アプリケーションの統合を使用すると、データフローの設定、データフローが実行されているかどうか、およびどの環境で実行するかを制御できます。 ただし、セルフサービス統合アプリケーションを使用する前に、いくつかの前提条件を満たす必要があります。
+Adobe Campaign StandardとMicrosoft Dynamics 365 セルフサービス統合アプリケーションの統合により、データフローの設定、データフローが実行されているかどうかの制御、およびどの環境での実行が可能になります。 ただし、セルフサービス統合アプリケーションを使用する前に、いくつかの前提条件を満たす必要があります。
 
 ## 概念と制限 {#concepts-and-restrictions}
 
@@ -39,7 +39,7 @@ Adobe Campaign StandardとMicrosoft Dynamics 365 セルフサービス統合ア�
 
 * [Campaign 統合用のMicrosoft Dynamics 365 の設定](../../integrating/using/d365-acs-configure-d365.md)
 * [Adobe I/Oの設定](../../integrating/using/d365-acs-configure-adobe-io.md)
-* [Campaign のカスタムリソースとMicrosoft Dynamics 365 のカスタムエンティティのマッピング](../../integrating/using/d365-acs-notices-and-recommendations.md)
+* [Campaign カスタムリソースとMicrosoft Dynamics 365 カスタムエンティティのマッピング](../../integrating/using/d365-acs-notices-and-recommendations.md)
 
 ## セルフサービス統合アプリを設定するための主な手順 {#self-service-app-configuration-steps}
 
@@ -60,7 +60,7 @@ Adobe Campaign StandardとMicrosoft Dynamics 365 セルフサービス統合ア�
 
 ## プライバシーリクエストの確認 {#self-service-app-acknowledgement}
 
-初めてセルフサービス UI にアクセスすると、プライバシー確認が表示されます。 続行する前に、Campaign とMicrosoft Dynamics 365 でプライバシーリクエストを個別に実行する際の自身の役割を理解していることを確認する必要があります。
+初めてセルフサービス UI にアクセスすると、プライバシー確認が表示されます。 続行する前に、Campaign とMicrosoft Dynamics 365 でプライバシーリクエストを個別に実行する自身の役割を理解していることを確認する必要があります。
 プライバシーの責任と、プライバシーリクエストの管理方法について詳しくは、[ この節 ](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-privacy) を参照してください。
 
 ## 認証情報の設定 {#self-service-app-credentials}
@@ -71,7 +71,7 @@ Adobe Campaign StandardとMicrosoft Dynamics 365 セルフサービス統合ア�
 
 >[!NOTE]
 >
-> アプリ設定がまだ行われていない場合は、Adobe Campaign StandardまたはMicrosoft Dynamics 365 に「接続できません」というアラートを受け取るのは通常です。
+> アプリの設定がまだ行われていない場合は、Adobe Campaign StandardまたはMicrosoft Dynamics 365 に「接続できません」というアラートを受け取るのは通常です。
 
 「ORG」と「INSTANCE」の選択内容が、設定しようとしている項目であることを確認してください。  表示されない場合は、ドロップダウンリストをクリックして、正しい組織とインスタンスを選択します。
 
@@ -79,7 +79,7 @@ Adobe Campaign StandardとMicrosoft Dynamics 365 セルフサービス統合ア�
 >
 > 初めてコネクタを設定する場合やこのプロセスを初めて使用する場合は **強く** 「stage」または「dev」インスタンスを選択することを推奨します。 実稼動環境でセットアップを試す前に、設定が正常に動作することを確認する必要があります。
 
-正しい組織とインスタンスがある場合は、「ハンバーガー」メニューをクリックして、ドロップダウンメニューを表示します。 次に、ドロップダウンメニューの「**[!UICONTROL Settings...]**」をクリックして、Microsoft Dynamics 365 および Campaign の資格情報を入力するページにアクセスします（以下を参照）。
+正しい組織とインスタンスがある場合は、「ハンバーガー」メニューをクリックして、ドロップダウンメニューを表示します。 次に、ドロップダウンメニューの **[!UICONTROL Settings...]** をクリックして、Microsoft Dynamics 365 および Campaign の資格情報を入力するページにアクセスします（以下を参照）。
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-menu-pointers.png)
 
@@ -102,7 +102,7 @@ Adobe Campaign StandardとMicrosoft Dynamics 365 セルフサービス統合ア�
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-ingress-top-pointers.png)
 
-「**[!UICONTROL Edit Table Mapping]**」ページで、「**[!UICONTROL Mappings]**」セクションをチェックし、Microsoft Dynamics 365 のフィールドが Campaign の正しいフィールドにマッピングされていることを確認します。 他のマッピングを追加する必要がある場合は、置換やフィルターと同様に、今すぐ追加します。 [詳細情報](../../integrating/using/d365-acs-self-service-app-data-sync.md)。
+**[!UICONTROL Edit Table Mapping]** ページで、「**[!UICONTROL Mappings]**」セクションをチェックし、Microsoft Dynamics 365 のフィールドが Campaign の正しいフィールドにマッピングされていることを確認します。 他のマッピングを追加する必要がある場合は、置換やフィルターと同様に、今すぐ追加します。 [詳細情報](../../integrating/using/d365-acs-self-service-app-data-sync.md)。
 
 新しいマッピングを追加する場合は、[ この節 ](../../integrating/using/d365-acs-self-service-app-data-sync.md#add-a-new-mapping) を参照してください。
 

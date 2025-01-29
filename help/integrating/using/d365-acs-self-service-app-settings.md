@@ -23,7 +23,7 @@ ht-degree: 2%
 
 ### Microsoft Dynamics 365 資格情報
 
-Microsoft Dynamics 365 資格情報には、Microsoft Dynamics 365 からデータを取り込むための統合申込権限が付与されます。  この画面に貼り付ける値を生成するには、まず画面に表示される手順 [Campaign 統合用のMicrosoft Dynamics 365 の設定 ](../../integrating/using/d365-acs-configure-d365.md) に従う必要があります。 以下に説明する入力は、この画面を参照します。
+Microsoft Dynamics 365 資格情報は、Microsoft Dynamics 365 からデータを取り込むための権限を統合アプリケーションに付与します。  この画面に貼り付ける値を生成するには、まず画面に表示される手順 [Campaign 統合用のMicrosoft Dynamics 365 の設定 ](../../integrating/using/d365-acs-configure-d365.md) に従う必要があります。 以下に説明する入力は、この画面を参照します。
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-settings-d365.png)
 
@@ -50,14 +50,14 @@ Adobe Campaign資格情報は、[Adobe I/O](https://www.adobe.io/) を使用し�
 
 これらの設定はオプションです。 Adobe Campaign SFTP インスタンスを使用してコネクタからログを出力する予定がある場合は、それらを定義する必要があります。 これは、統合の実行中に問題が発生し、出力が期待に沿わない理由をデバッグする必要がある場合に役立ちます。
 
-SFTP サーバーを設定するもう 1 つの理由は、オプトイン/オプトアウトワークフローを実行する予定で、Adobe CampaignからMicrosoft Dynamics 365 に **[!UICONTROL Unidirectional (Campaign to Microsoft Dynamics 365)]** または **[!UICONTROL Bidirectional]** のいずれかのデータが流れる場合です。
+SFTP サーバーを設定するもう 1 つの理由は、オプトイン/オプトアウトワークフローを実行する予定で、Adobe CampaignからMicrosoft Dynamics 365 へのデータのフロー（**[!UICONTROL Unidirectional (Campaign to Microsoft Dynamics 365)]** または **[!UICONTROL Bidirectional]**）がある場合です。
 
 >[!IMPORTANT]
 >
 >SFTP フォルダーにアクセスしてダウンロードする情報については、ユーザーが責任を負います。 情報に個人データが含まれている場合、適用されるプライバシー法および規制を遵守する責任があります。 [詳細情報](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-privacy)。
 >
 
-Microsoft Dynamics 365 統合用に Campaign の SFTP 設定を定義するには、次のセクションにアクセスします。
+Microsoft Dynamics 365 統合用の Campaign SFTP 設定を定義するには、次のセクションにアクセスします。
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-settings-sftp.png)
 
@@ -71,7 +71,7 @@ Microsoft Dynamics 365 統合用に Campaign の SFTP 設定を定義するに�
 
 * **IP 範囲** をAdobe Campaign SFTP 設定に含める必要があります。 これらは、統合で SFTP エンドポイントを利用するために許可リストに加えるする必要があります。
 
-* **Adobe Campaign SFTP にログを書き出しますか？統合** ログ情報を SFTP エンドポイントに出力するかどうかを指定できます。 これは、Adobe CampaignまたはMicrosoft Dynamics 365 で期待する情報が表示されない場合のデバッグに役立ちます。
+* **Adobe Campaign SFTP にログを書き出しますか？統合** ログ情報を SFTP エンドポイントに出力するかどうかを指定できます。 これは、Adobe CampaignまたはMicrosoft Dynamics 365 で想定する情報が表示されない場合のデバッグに役立ちます。
 
 ## Adobe Campaignでの SFTP 設定 {#ac-control-panel-settings}
 

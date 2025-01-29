@@ -27,7 +27,7 @@ Experience Platform SDK を利用したモバイルアプリケーションで�
 
 1. Adobe Campaign で、**[!UICONTROL In-App]** チャネルにアクセスできることを確認します。これらのチャネルにアクセスできない場合は、アカウントチームにお問い合わせください。
 
-1. Adobe Campaign StandardのモバイルユースケースをExperience CloudSDK アプリケーションで活用するには、データ収集 UI でモバイルアプリを作成し、Adobe Campaign Standardで設定する必要があります。 ステップバイステップガイドについては、この[ページ](../../administration/using/configuring-a-mobile-application.md)を参照してください。
+1. Experience Cloud SDK アプリケーションでAdobe Campaign Standardのモバイルの使用例を活用するには、データ収集 UI でモバイルアプリを作成し、Adobe Campaign Standardで設定する必要があります。 ステップバイステップガイドについては、この[ページ](../../administration/using/configuring-a-mobile-application.md)を参照してください。
 
 1. 設定が完了すると、アプリ内メッセージを準備できるようになります。詳しくは、この[ページ](../../channels/using/preparing-and-sending-an-in-app-message.md#preparing-your-in-app-message)を参照してください。
 

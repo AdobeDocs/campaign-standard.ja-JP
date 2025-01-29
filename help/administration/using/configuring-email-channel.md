@@ -90,7 +90,7 @@ Campaign [管理者](../../administration/using/users-management.md#functional-a
 >
 >メールドメインと MX ルールが自動的に管理されるようになり <!--by the Adobe Campaign Enhanced MTA (Message Transfer Agent)--> 変更できなくなりました。
 
-* **DKIM （DomainKeys Identified Mail）** メール認証の署名は、すべてのドメインを含むすべてのメッセージに対して行われます。 **送信者 ID**、**DomainKeys** または **S/MIME** は使用しません。
+* **DKIM （DomainKeys Identified Mail）** 電子メール認証の署名は、すべてのドメインを使用するすべてのメッセージに対して行われます。 **送信者 ID**、**DomainKeys** または **S/MIME** は使用しません。
 * MX ルールは、独自のメールレピュテーション履歴およびメールを送信しているドメインから送信されるリアルタイムのフィードバックに基づいて、ドメイン別にスループットを自動的にカスタマイズします。
 
 <!--Note that the email domains and the MX rules are now managed by the Adobe Campaign Enhanced MTA:

@@ -4,7 +4,7 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: y
-description: 「コンテンツの準備が整ったら、メッセージを受け取るユーザーを慎重に定義する方法を学びます。」
+description: コンテンツの準備が整ったら、メッセージを受け取るユーザーを慎重に定義する方法を説明します。
 feature: Deliverability
 role: User
 level: Intermediate

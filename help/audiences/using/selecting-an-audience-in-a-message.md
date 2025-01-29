@@ -1,6 +1,6 @@
 ---
 title: メッセージ内のオーディエンスの選択
-description: 「メールのオーディエンスを選択するためのステップバイステップの手順：主なターゲットの母集団とテストプロファイル」
+description: メールのオーディエンスを選択する手順：メインターゲット母集団とテストプロファイル。
 audience: audiences
 content-type: reference
 topic-tags: managing-audiences
@@ -12,7 +12,7 @@ exl-id: 239959ad-6386-42bf-a86a-5694cdaecd83
 source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
 workflow-type: tm+mt
 source-wordcount: '411'
-ht-degree: 70%
+ht-degree: 66%
 
 ---
 

@@ -12,7 +12,7 @@ exl-id: e61daed6-a0ec-49d8-b1ad-77590fafb496
 source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
 workflow-type: tm+mt
 source-wordcount: '1206'
-ht-degree: 39%
+ht-degree: 37%
 
 ---
 
@@ -32,7 +32,7 @@ Adobe Campaign では、モバイルデバイスから送信されたモバイ�
 
 Adobe Campaign では、2 つのプッシュ通知を使用できます。
 
-* **[!UICONTROL Alert/Message/Badge]** タイプの通知を使用すると、標準のテキストベースのメッセージに追加のコンテンツ（音声、バッジ、ディープリンクなど）を添付して送信できます。これらは「**[!UICONTROL Advanced options]**」セクションで定義できます。
+* **[!UICONTROL Alert/Message/Badge]** タイプの通知を使用すると、標準のテキストベースのメッセージに、**[!UICONTROL Advanced options]** セクションで定義できる追加のコンテンツ（音声、バッジ、ディープリンクなど）を付けて送信できます。
 
   この通知タイプでは、パーソナライゼーションフィールドを使用できるタイトルとメッセージを追加できます。メッセージをパーソナライズするには、必ず **[!UICONTROL Send push on profiles]** テンプレートを選択してください。
 
@@ -72,7 +72,7 @@ Adobe Campaign では、2 つのプッシュ通知を使用できます。
 
 1. モバイルアプリケーションの設定にチャネル固有の設定を追加します。詳しくは、[Adobe Campaign のチャネル固有のアプリケーション設定](../../administration/using/configuring-a-mobile-application.md#channel-specific-config)を参照してください。
 
-1. モバイルユースケースの実装をサポートするには、拡張機能、タグルール、SDK 実装に関する詳細な手順 [Adobe Experience Platform SDK を使用してAdobe Campaign Standardでサポートされるモバイルユースケース ](../../administration/using/configuring-rules-launch.md) を参照してください。
+1. モバイルユースケースの実装をサポートするには、[Adobe Experience Platform SDK を使用してAdobe Campaign Standardでサポートされるモバイルユースケース ](../../administration/using/configuring-rules-launch.md) の拡張機能、タグルール、SDK実装に関する詳細な手順を参照してください。
 
 ## プッシュ通知の FAQ {#push-faq}
 
@@ -82,12 +82,12 @@ Adobe Campaign では、2 つのプッシュ通知を使用できます。
 
 * [ ビデオTutorials](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html)
 * [製品ドキュメント](../../channels/using/about-push-notifications.md)
-* AEP SDK を使用したの設定 [ ドキュメント ](../../administration/using/configuring-a-mobile-application.md)
+* AEP SDKを使用したの設定 [ ドキュメント ](../../administration/using/configuring-a-mobile-application.md)
 * [ コミュニティページ ](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
 ### Campaign でプッシュトークンを取得するにはどうすればよいですか？ {#push-token-acquisition}
 
-プロビジョニングチームがAdobe Campaign Standardでプッシュチャネルのプロビジョニングを完了したことを確認します。 SDK から setPushIdentifier API を実装します。 詳しくは、この[ページ](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/#set-up-push-messaging)を参照してください。
+プロビジョニングチームがAdobe Campaign Standardでプッシュチャネルのプロビジョニングを完了したことを確認します。 SDKから setPushIdentifier API を実装します。 詳しくは、この[ページ](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/#set-up-push-messaging)を参照してください。
 
 ### Campaign にプッシュトークンと ECID を取得した後、他にプッシュ通知を送信するには何が必要ですか？ {#sending-push}
 

@@ -33,7 +33,7 @@ ht-degree: 7%
   </tr> 
   <tr> 
    <td> モバイルアプリ用のAdobeローンチの統合（ベータ版） <br /> </td> 
-   <td> Adobe Campaignと Launch の統合により、Mobile SDK V5 を使用した Campaign でのモバイルアプリプロパティのAdobe化プロセスが簡素化および自動化されるようになりました。<br /> 詳しくは、<a href="https://helpx.adobe.com/jp/campaign/kb/configuring-app-sdk.html"> 詳細ドキュメント </a> を参照してください。<br /> </td> 
+   <td> Adobe Adobe Campaignと Launch の統合により、モバイル SDK V5 を使用した Campaign でのモバイルアプリプロパティのアクティブ化プロセスが簡素化および自動化されるようになりました。<br /> 詳しくは、<a href="https://helpx.adobe.com/jp/campaign/kb/configuring-app-sdk.html"> 詳細ドキュメント </a> を参照してください。<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -47,7 +47,7 @@ ht-degree: 7%
 * broadLog で、接続の最大数と 1 時間あたりのメッセージの最大数が区別されるようになりました。限界値に達した場合、スループットが制限される理由を判別できます。これまでは、どちらの場合にも同じメッセージ（「割り当てに達しました」）が表示されていました。
 * Campaign でモバイルアプリケーションを設定する際に、iOS証明書とAndroid サーバーキーが正常にアップロードされたかどうか、および有効期限がわかるようになりました。
 
-  詳しくは、[SDK V4](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/administrating/configuring-channels/configuring-a-mobile-application.html) および [SDK V5](https://helpx.adobe.com/jp/campaign/kb/configuring-app-sdk.html) を使用してモバイルアプリケーションを設定する方法に関する詳細なドキュメントを参照してください。
+  詳しくは、[SDK V4 および [SDK V5](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/administrating/configuring-channels/configuring-a-mobile-application.html) を使用してモバイルアプリケーションを設定する方法に関する詳細なドキュメントを参照してくだ ](https://helpx.adobe.com/jp/campaign/kb/configuring-app-sdk.html) い。
 
 * Campaign プロパティを定義する際にモバイルアプリを選択することで、特定のモバイルアプリでユーザーをターゲットに設定することができます。 この機能は、プッシュチャネルとアプリ内メッセージチャネルの両方で使用できます。
 
@@ -218,7 +218,7 @@ ht-degree: 7%
 
 **改善点**
 
-* アプリケーションの全体的なメモリと CPU 使用率が向上しました
+* アプリケーションの全体的なメモリおよびCPUの使用状況が強化されました
 
 **その他の変更**
 
@@ -305,7 +305,7 @@ _カスタムリソース_
     <ul> 
      <li> ネイティブのCreative Cloud統合によって強化された、ドラッグ&amp;ドロップインターフェイスを通じて、完全にパーソナライズされたレスポンシブなメールを視覚的にデザインおよび作成します </li> 
      <li> メールコンテンツテンプレートを作成および保存し、保存済みのテンプレートを活用してメール作成の規模を拡大する </li> 
-     <li> コンテンツフラグメント（ヘッダー、フッター、記事など）を作成して保存する コンテンツ作成を効率化し、ブランド一貫性を確保する </li> 
+     <li> コンテンツフラグメント（ヘッダー、フッター、記事など）を作成して保存し、コンテンツ作成を効率化し、ブランド一貫性を確保します </li> 
      <li> ドラッグ&amp;ドロップインターフェイスでの作成と、メールのHTMLの直接編集を、ボタンをクリックするだけでシームレスに切り替えることができます </li> 
     </ul> Creative Designer for Email は英語でのみご利用いただけます。<br /> 詳しくは、<a href="../../designing/using/designing-content-in-adobe-campaign.md"> 詳細なドキュメント </a> を参照し、この <a href="https://www.youtube.com/watch?time_continue=1&amp;v=5S_6A4fsfms"> ビデオ </a> をご覧ください。<br /> </td> 
   </tr> 
