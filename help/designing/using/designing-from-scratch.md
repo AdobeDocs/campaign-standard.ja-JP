@@ -8,9 +8,9 @@ feature: Email Design
 role: User
 level: Beginner
 exl-id: 052d24b7-d3e0-41d7-8b2c-92bd3addb3a2
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: 0079a924db522de8afc628ef50aa2c861e5a12ee
 workflow-type: tm+mt
-source-wordcount: '1232'
+source-wordcount: '1229'
 ht-degree: 27%
 
 ---
@@ -131,15 +131,15 @@ E メールデザイナーを使用すると、メールの構造を簡単に定
 
 ### **[!UICONTROL HTML]**
 
-このコンポーネントを使用すると、既存のHTMLの別の部分をコピーして貼り付けることができます。 これにより、無料のモジュラーHTMLコンポーネントを作成できます。
+このコンポーネントを使用して、既存のHTMLの別の部分をコピーして貼り付けることができます。 これにより、無料のモジュラーHTML コンポーネントを作成できます。
 
 >[!NOTE]
 >
->無料のHTMLコンポーネントは、制限付きオプションを使用して編集できます。 すべてのスタイルがインライン化されていない場合は、HTMLコードの **head** セクションに適切な CSS を必ず追加してください。そうしないと、メールは応答しません。 「**[!UICONTROL Preview]**」ボタンを使用して、コンテンツの応答性をテストします（[ メッセージのプレビュー ](../../sending/using/previewing-messages.md) を参照）。
+>無料のHTML コンポーネントは、編集できますが、オプションは限られています。 すべてのスタイルがインライン化されていない場合は、HTML コードの **head** セクションに適切な CSS を必ず追加してください。そうしないと、メールは応答しません。 「**[!UICONTROL Preview]**」ボタンを使用して、コンテンツの応答性をテストします（[ メッセージのプレビュー ](../../sending/using/previewing-messages.md) を参照）。
 
 外部コンテンツを簡単にメールDesignerAdobeに準拠させるには、ゼロからメッセージを作成し、既存のメールのコンテンツをフラグメントとコンポーネントにコピーすることをお勧めします。
 
-再作成できないコンテンツがある場合は、**[!UICONTROL Html]** コンテンツコンポーネントを使用して、元のメールからHTMLコードをコピー&amp;ペーストできます。 続行する前に、HTMLに精通していることを確認してください。
+再作成できないコンテンツがある場合は、**[!UICONTROL Html]** コンテンツコンポーネントを使用して、元のメールからHTML コードをコピー&amp;ペーストできます。 続行する前に、HTMLについて熟知していることを確認してください。
 
 >[!NOTE]
 >
@@ -149,7 +149,7 @@ E メールデザイナーを使用すると、メールの構造を簡単に定
 
 1. 元のメールで、送信する各メールに固有のセクションから再利用可能なセクションを特定します。
 1. 使用するすべての画像とアセットを保存します。
-1. HTMLに詳しい場合は、元のHTMLコンテンツを様々な部分に分割します。
+1. HTMLに精通している場合は、元のHTML コンテンツを様々な部分に分割します。
 
 ### ビデオ {#video-settings}
 
@@ -157,7 +157,6 @@ E メールデザイナーを使用すると、メールの構造を簡単に定
 >id="ac_edition_video"
 >title="ビデオ設定"
 >abstract="このコンポーネントを使用して、メールにビデオを挿入します。ただし、ビデオはすべてのメールクライアントで機能するわけではありません。フォールバック画像を設定することをお勧めします。"
->additional-url="https://www.emailonacid.com/blog/article/email-development/a_how_to_guide_to_embedding_html5_video_in_email/" text="追加情報"
 
 ビデオ コンポーネントをメールの構造コンポーネントに挿入し、**[!UICONTROL Component Settings]** ールバーにビデオリンクを入力します。
 

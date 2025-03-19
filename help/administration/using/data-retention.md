@@ -6,10 +6,10 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 01cfa2a0-4ff5-4520-a515-11676de82528
-source-git-commit: 99c092bc40c9176a25a6ec2a164ee1d3f85d5cbe
+source-git-commit: 0079a924db522de8afc628ef50aa2c861e5a12ee
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 4%
+source-wordcount: '353'
+ht-degree: 5%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->データレポートは過去 3 年間のみ使用できます。 データ保持期間について詳しくは、Adobeコンサルタントまたは技術管理者にお問い合わせください。
+>データレポートは過去 3 年間のみ使用できます。 データ保持期間について詳しくは、Adobe コンサルタントまたは技術管理者にお問い合わせください。
 
 Campaign の標準ログテーブルには、システムの過負荷を回避するために、データストレージ期間を制限する保持期間が事前に設定されています。
 
-データ・リテンションは導入時にAdobeの技術管理者が設定します。値はお客様の要件に基づくため、導入ごとに異なる場合があります。
+データ保持の設定は、実装時にAdobeの技術管理者が指定します。値は顧客の要件に基づくため、実装ごとに異なる場合があります。
 
-お客様の環境に適した保存期間の詳細やカスタム保存期間の設定については、Adobeコンサルタントまたは技術管理者にお問い合わせください。
+お使いの環境に適した保存期間の詳細やカスタム保存期間の設定については、Adobeのコンサルタントまたは技術管理者にお問い合わせください。
 
 標準のワークフロー機能を使用すると、任意のカスタムテーブルに保持期間を設定できます。
 
@@ -39,31 +39,40 @@ Campaign の標準ログテーブルには、システムの過負荷を回避�
 * **無視されたパイプラインイベント**：1 ヶ月
 * **配信アラート**：1 ヶ月
 * **書き出しの監査**:6 か月（推奨：1 か月）
+* **配信**:2 年
 
 ## 配信の保持期間 {#deliveries}
 
-デフォルトでは、配信の保持期間は無制限です。
+<!-- By default, the retention period for deliveries is unlimited.-->
 
-ただし、インスタンスに大量の配信がある場合は、**[!UICONTROL Administration]**/**[!UICONTROL Application settings]** メニューから使用できる **NmsCleanup_DeliveryPurgeDelay** オプションを更新できます。
+2025 年 6 月 1 日（PT）より、過去 2 年間の配信のみがシステムで引き続き使用できるようになります。 詳しくは、以下を参照してください。
 
-**[!UICONTROL Database cleanup]** ワークフローが実行されるたびに、このオプションに設定された条件を満たす配信が削除されます。
+* 2 年以上経過した配信は完全に削除され、アクセスできなくなります。
+* このクリーンアップには、送信された配信と失敗した配信のみが含まれます。繰り返し配信、ドラフト配信およびテンプレートは影響を受けません。
+* 配信を削除すると、リンクされたトラッキング情報や送信情報も完全に削除されます。
+* マーケティングテンプレートまたはトランザクション配信テンプレートは削除されません。
+* 繰り返し配信の場合、集計期間が月または年に設定された子配信は削除されません。
 
-このアクションは、**[!UICONTROL Copy headers from delivery templates]** ワークフローなどのプロセスを高速化するのに役立ちます。
+**[!UICONTROL Copy headers from delivery templates]** ワークフローなどのプロセスを高速化したい場合は、配信保持期間を短くすることができます。 詳しくは、Adobe担当者にお問い合わせください。
 
->[!NOTE]
->
->テクニカルワークフローについて詳しくは、[ この節 ](technical-workflows.md) を参照してください。
+<!--
 
+However, if there is a high volume of deliveries on your instance, you can update the **NmsCleanup_DeliveryPurgeDelay** option available from the **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** menu.
 
-**NmsCleanup_DeliveryPurgeDelay** オプションのデフォルト値は `-1` です。 この場合、配信は削除されません。
+Each time the **[!UICONTROL Database cleanup]** workflow is run, the deliveries meeting the conditions set for this option will be deleted.
 
-例えば、`180` に設定した場合、過去 180 日間に更新されていないテンプレート以外の配信は、**[!UICONTROL Database cleanup]** ワークフローの実行時にすべて削除されます。
+-->
 
->[!NOTE]
->
->* マーケティングテンプレートまたはトランザクション配信テンプレートは削除されません。
->
->* 繰り返し配信の場合、集計期間が月または年に設定された子配信は削除されません。
+<!--
 
-**NmsCleanup_DeliveryPurgeDelay** オプションを更新する際は、複数回の繰り返しを使用して、徐々に続行することをお勧めします。 例えば、値を 300 日、180 日、120 日などに設定して開始し、反復を 2 日以上離すことができます。 そうでない場合、削除する配信が多数あるので、**[!UICONTROL Database cleanup]** ワークフローの処理に時間がかかる可能性があります。
+When updating the **NmsCleanup_DeliveryPurgeDelay** option, it is recommended to proceed gradually with multiple iterations. For example, you can start by setting the value to 300 days, then 180 days, then 120 days, and so on - making sure iterations are at least 2 days apart. Otherwise, the **[!UICONTROL Database cleanup]** workflow may take much longer because of a large number of deliveries to delete.
+
+This action can help speeding up processes such as the **[!UICONTROL Copy headers from delivery templates]** workflow. Learn more on technical workflows in [this section](technical-workflows.md).
+
+The default value for the **NmsCleanup_DeliveryPurgeDelay** option is `-1`. In this case, no delivery is deleted.
+
+For example, if you set it to `180`, any non-template deliveries that have not been updated in the last 180 days will be deleted when the **[!UICONTROL Database cleanup]** workflow is run.
+
+-->
+
 
