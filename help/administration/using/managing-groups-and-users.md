@@ -6,10 +6,10 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 4b9834ab-0f7c-419e-a210-77a018ba874d
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: 52217326ec7f17ab7ce4d058d185b2680681a9c0
 workflow-type: tm+mt
-source-wordcount: '921'
-ht-degree: 70%
+source-wordcount: '947'
+ht-degree: 65%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 70%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL Access to the deliverability parameters (Deliverability)]** と **[!UICONTROL Message Center agents (mcExec)]** のセキュリティ グループはAdobe内部のみなので、どのユーザーにも割り当てないでください。
+>**[!UICONTROL Access to the deliverability parameters (Deliverability)]** と **[!UICONTROL Message Center agents (mcExec)]** のセキュリティグループはAdobe内部のみで、どのユーザーにも割り当てないでください。
 
 セキュリティグループとは、組織内で同じ役割および権限を共有するユーザーのセットです。
 
@@ -42,7 +42,7 @@ ht-degree: 70%
 >
 >Admin Consoleでは、セキュリティグループはプロファイルと呼ばれます。
 
-標準グループでユーザーを適切に管理できない場合は、独自のセキュリティグループを作成できます。管理者は、Adobe Campaign管理メニューとAdmin Consoleの両方にアクセスできる権限を持っています。 Admin Consoleについて詳しくは、この [ ドキュメント ](https://helpx.adobe.com/jp/enterprise/managing/user-guide.html) を参照してください。
+標準グループでユーザーを適切に管理できない場合は、独自のセキュリティグループを作成できます。管理者は、Adobe Campaign管理メニューとAdmin Consoleの両方にアクセスできる管理者が管理できます。 Admin Consoleについて詳しくは、この [ ドキュメント ](https://helpx.adobe.com/jp/enterprise/managing/user-guide.html) を参照してください。
 
 ここでは、最初に 2 つの標準グループ（Standard Users と Administrators）をユーザーに割り当てる必要があります。これらのセキュリティグループは、Adobe Campaign 機能の一部を制限します。Standard Users には基本的な Adobe Campaign アクセス権がある一方、Administrators は管理メニューなどにアクセスできます。
 
@@ -105,7 +105,7 @@ Admin Console でセキュリティグループに対しておこなった変更
 
    * 異なるグループの役割は累積されます。ここでは、ユーザーは 2 つの異なるグループに属しています。1 つは役割ベースで、もう 1 つは単位ベースです。
    * 単位は使用される階層の中で最高のものです（[組織単位](../../administration/using/organizational-units.md)の節の例を参照）。
-   * 単位のレベルが同じで、階層内の並列分岐にある場合、ユーザーは接続できなくなります。
+   * ユーザーに割り当てられている組織単位が階層内の分岐に並行している場合（つまり、共通の割り当てられた親単位がない場合）、システムはユーザーの組織単位を選択し、ユーザーはシステムが選択した組織単位とその子にアクセスできます。
 
 1. 同じ手順に従って、Geometrixx Clothes セキュリティグループを Standard Users ユーザーに割り当てます。
 
@@ -115,10 +115,10 @@ Admin Console でセキュリティグループに対しておこなった変更
 
 Administrators ユーザーは、組織単位の割り当てに使用する Geometrixx および Geometrixx Clothes セキュリティグループのセットを作成する必要があります。組織単位の作成方法については、[単位の作成と管理](../../administration/using/organizational-units.md#creating-and-managing-units)を参照してください。
 
-1. 左上隅の **0}Adobe} ロゴをクリックし、[**[!UICONTROL Administration > Users & Security > Security groups]**] を選択します。**
+1. 左上隅の **Adobe** ロゴをクリックし、「**[!UICONTROL Administration > Users & Security > Security groups]**」を選択します。
 1. 新しいセキュリティグループを作成し、**[!UICONTROL Label]** と **[!UICONTROL ID]** を指定します。
 
-   ID は、Admin Consoleで選択されたものと同じにする必要があります。
+   ID は、Admin Consoleで選択したものと同じである必要があります。
 
 1. 「**[!UICONTROL User access]**」フィールドで、組織単位を割り当てます。ここでは、Geometrixx セキュリティグループに **[!UICONTROL All]** 組織単位が割り当てられます。
 
@@ -137,4 +137,4 @@ Administrators ユーザーは、組織単位の割り当てに使用する Geom
 
 >[!IMPORTANT]
 >
->ユーザーがAdmin Console内のセキュリティグループから削除された場合、Adobe Campaign セキュリティグループに属し続け、Adobe Campaignにログインできなくなります。 この場合、ユーザーが機密情報を受け取らないように、Admin Console でユーザーのメールアドレスを削除します。
+>ユーザーがAdmin Consoleのセキュリティグループから削除された場合、Adobe Campaign セキュリティグループに残り、Adobe Campaignにログインできなくなります。 この場合、ユーザーが機密情報を受け取らないように、Admin Console でユーザーのメールアドレスを削除します。
