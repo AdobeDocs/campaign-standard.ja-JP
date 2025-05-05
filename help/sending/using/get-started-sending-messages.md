@@ -97,6 +97,6 @@ Campaign Standardでは、正常に配信されたメッセージ数を増やす
 
 このビデオでは、テストメールを送信し、Campaign Standardでメール配信を準備して送信する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/24013/)
+>[!VIDEO](https://video.tv.adobe.com/v/328368?captions=jpn)
 
 その他のCampaign Standardチュートリアルビデオについては、[ こちら ](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja) を参照してください。

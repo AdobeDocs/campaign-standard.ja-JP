@@ -65,6 +65,6 @@ ht-degree: 92%
 
 このビデオでは、サービスを作成し、その購読を管理する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/24673?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/328371?quality=12&captions=jpn)
 
 その他のCampaign Standardチュートリアルビデオについては、[ こちら ](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja) を参照してください。

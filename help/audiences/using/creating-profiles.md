@@ -70,6 +70,6 @@ Campaign でプロファイルを作成または更新するには、次の操�
 
 このビデオでは、ワークフローでプロファイルを読み込む方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/24993?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/328487?quality=12&captions=jpn)
 
 その他のCampaign Standardチュートリアルビデオについては、[ こちら ](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja) を参照してください。

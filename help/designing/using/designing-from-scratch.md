@@ -30,7 +30,7 @@ ht-degree: 27%
 1. メールのプレビュー。
 1. コンテンツを保存し、オーディエンスを定義し、送信を適切にスケジュールしたことを確認した後、メッセージに進みます。
 
-こちらの [ 紹介ビデオ ](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true) も確認できます。
+こちらの [ 紹介ビデオ ](https://video.tv.adobe.com/v/330102/?autoplay=true&hidetitle=true&captions=jpn) も確認できます。
 
 >[!NOTE]
 >

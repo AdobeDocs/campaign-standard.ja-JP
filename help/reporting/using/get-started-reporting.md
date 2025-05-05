@@ -82,6 +82,6 @@ Campaign Standardには、一連の **すぐに使用できる動的レポート
 
 このビデオでは、Adobe Campaign Standardのレポート機能の概要を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/23021?quality=12&captions=eng)
+>[!VIDEO](https://video.tv.adobe.com/v/38315?quality=12&captions=jpn)
 
 その他のCampaign Standardチュートリアルビデオについては、[ こちら ](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja) を参照してください。

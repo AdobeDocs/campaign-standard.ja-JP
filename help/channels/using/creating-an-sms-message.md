@@ -89,6 +89,6 @@ SMS メッセージを作成して携帯電話に送信するには、次のも�
 
 このビデオでは、SMS 配信の作成方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/25265/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/328377/?quality=12&captions=jpn)
 
 その他のCampaign Standardチュートリアルビデオについては、[ こちら ](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja) を参照してください。

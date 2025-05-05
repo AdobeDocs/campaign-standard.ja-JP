@@ -166,6 +166,6 @@ CSS のコリジョンなどの問題を回避するために、コンテンツ�
 
 このビデオでは、メールDesignerの概要を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/22771?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/330102?quality=12&captions=jpn)
 
 メールDesignerの使用を開始するには、メールDesignerの一般的な機能と、メールをゼロからデザインする方法またはテンプレートを使用する方法を説明した、この [ 一連のビデオ ](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html?lang=ja#GettingStarted) をご覧ください

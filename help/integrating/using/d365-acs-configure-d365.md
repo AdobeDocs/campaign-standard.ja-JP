@@ -37,7 +37,7 @@ OAuth アクセストークンを使用すると、統合ツールは、web API 
 
 主な手順の概要を次のビデオで説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/27637)
+>[!VIDEO](https://video.tv.adobe.com/v/35054?captions=jpn)
 
 OAuth アクセストークンを生成するには、次に示す手順に従います。
 

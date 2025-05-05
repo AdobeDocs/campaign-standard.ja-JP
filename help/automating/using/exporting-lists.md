@@ -80,6 +80,6 @@ Adama;Henry;22/09/1992 02:00:00;henry.adama@mail.com;64120
 
 このビデオでは、リストの設定方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/25288/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/328383/?quality=12&captions=jpn)
 
 その他のCampaign Standardチュートリアルビデオについては、[ こちら ](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja) を参照してください。
