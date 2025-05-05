@@ -589,7 +589,7 @@ Adobe Campaign から直接利用できるコンテキストヘルプリンク�
 
 動的レポートのインジケーターの計算に関する節が更新されました。[詳細を表示](../../reporting/using/indicator-calculation.md)
 
-ディメンションと指標の互換性をより深く理解できるように、動的レポートの互換性の表が追加されました。[詳細を表示](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf)
+ディメンションと指標の互換性をより深く理解できるように、動的レポートの互換性の表が追加されました。[詳細を表示](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=ja)
 
 ワークフローの関数のリストが更新されました。[詳細を表示](../../automating/using/list-of-functions.md)
 
@@ -867,7 +867,7 @@ Campaign とアドビソリューションの統合のほとんどの URL が変
 
 配信の準備方法に関するステップバイステップの使用例を追加しました。[詳細を表示](../../sending/using/preparing-the-send.md)
 
-認証のリストが記載された節は削除されました。[詳細を表示](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)（PDF）
+認証のリストが記載された節は削除されました。[詳細を表示](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=ja)（PDF）
 
 SMS 自動返信に関するステップバイステップの使用例を追加しました。[詳細を表示](../../channels/using/managing-incoming-sms.md#managing-stop-sms)
 
@@ -1039,7 +1039,7 @@ Campaign から Analytics への KPI 共有 - [詳細を表示](../../integratin
 
 People コアサービスまたは Audience Manager と Adobe Campaign の統合を設定する手順が追加されました。[詳細を表示](../../integrating/using/integration-with-audience-manager-or-people-core-service.md)
 
-特定の役割の機能を明確にするために、認証表が改訂されました。[詳細を表示](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
+特定の役割の機能を明確にするために、認証表が改訂されました。[詳細を表示](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=ja)
 
 Adobe Campaign から直接利用できるコンテキストヘルプリンクが更新されました。
 

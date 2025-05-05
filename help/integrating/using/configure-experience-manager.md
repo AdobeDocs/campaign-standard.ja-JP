@@ -66,8 +66,8 @@ Adobe Campaign を設定するには：
 
 Adobe Experience ManagerとAdobe Campaign Standardを設定するには、次の手順に従う必要があります。
 
-1. 最初に、Adobe Experience Manager オーサリングインスタンスとパブリッシュインスタンス間のレプリケーションを設定する必要があります。 [こちら](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html#configuring-adobe-experience-manager)を参照してください。
+1. 最初に、Adobe Experience Manager オーサリングインスタンスとパブリッシュインスタンス間のレプリケーションを設定する必要があります。 [こちら](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html?lang=ja#configuring-adobe-experience-manager)を参照してください。
 
-1. 次に、専用の **[!UICONTROL Cloud Service]** を設定して、Adobe Experience ManagerをAdobe Campaignに接続します。 [こちら](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html#connecting-aem-to-adobe-campaign)を参照してください。
+1. 次に、専用の **[!UICONTROL Cloud Service]** を設定して、Adobe Experience ManagerをAdobe Campaignに接続します。 [こちら](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html?lang=ja#connecting-aem-to-adobe-campaign)を参照してください。
 
-1. ここで、オーサーインスタンスのAdobe Experience Managerで Externalizer を設定する必要があります。 [こちら](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html#configuring-the-externalizer)を参照してください。
+1. ここで、オーサーインスタンスのAdobe Experience Managerで Externalizer を設定する必要があります。 [こちら](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html?lang=ja#configuring-the-externalizer)を参照してください。

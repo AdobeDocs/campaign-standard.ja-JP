@@ -168,4 +168,4 @@ CSS のコリジョンなどの問題を回避するために、コンテンツ�
 
 >[!VIDEO](https://video.tv.adobe.com/v/22771?quality=12)
 
-メールDesignerの使用を開始するには、メールDesignerの一般的な機能と、メールをゼロからデザインする方法またはテンプレートを使用する方法を説明した、この [ 一連のビデオ ](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted) をご覧ください
+メールDesignerの使用を開始するには、メールDesignerの一般的な機能と、メールをゼロからデザインする方法またはテンプレートを使用する方法を説明した、この [ 一連のビデオ ](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html?lang=ja#GettingStarted) をご覧ください

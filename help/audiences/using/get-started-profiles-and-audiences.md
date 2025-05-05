@@ -89,4 +89,4 @@ Campaign のプライバシーと同意、およびその管理方法につい�
 * [Microsoft Dynamics 365 の操作](../../integrating/using/d365-acs-get-started.md)
 * [共有オーディエンスのAdobe](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
 * [ワークフローを使用したプロファイルのインポート](../../automating/using/creating-import-workflow-templates.md)
-* [ プロファイルとオーディエンスビデオ ](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html)
+* [ プロファイルとオーディエンスビデオ ](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html?lang=ja)

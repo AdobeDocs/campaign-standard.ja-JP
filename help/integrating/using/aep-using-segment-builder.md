@@ -26,7 +26,7 @@ ht-degree: 3%
 
 セグメントビルダーを使用すると、（リアルタイム顧客プロファイル [ からのデータに基づいてルールを定義することで、オーディエンスを構築 ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja) きます。
 
-この節では、セグメントを作成する際のグローバルな概念を示します。 セグメントビルダー自体の詳細については、『 [ セグメントビルダーユーザーガイド ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html) 』を参照してください。
+この節では、セグメントを作成する際のグローバルな概念を示します。 セグメントビルダー自体の詳細については、『 [ セグメントビルダーユーザーガイド ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja) 』を参照してください。
 
 セグメントビルダーインターフェイスは、次のように構成されます。
 
@@ -48,7 +48,7 @@ ht-degree: 3%
 
 1. 設定ペインで目的の結合ポリシーが選択されていることを確認します。
 
-   結合ポリシーについて詳しくは、『 [ セグメントビルダーユーザーガイド ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html) の該当する節を参照してください。
+   結合ポリシーについて詳しくは、『 [ セグメントビルダーユーザーガイド ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja) の該当する節を参照してください。
 
    ![](assets/aep_audiences_mergepolicy.png)
 
@@ -66,7 +66,7 @@ ht-degree: 3%
 
 左側のペインには、ルールの作成に使用できるすべての属性、イベントおよびオーディエンスが一覧表示されます。
 
-一覧表示されるフィールドは、会社が取得した属性であり、[ エクスペリエンスデータモデル（XDM）システム ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html) を通じて使用できます。
+一覧表示されるフィールドは、会社が取得した属性であり、[ エクスペリエンスデータモデル（XDM）システム ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja) を通じて使用できます。
 
 フィールドは次のタブに整理されます。
 
@@ -82,7 +82,7 @@ ht-degree: 3%
 >
 >**マルチエンティティのセグメント化** を使用すると、製品、ストア、その他のプロファイル以外のクラスに基づく追加データで、プロファイルデータを拡張できます。 接続すると、追加のクラスのデータは、プロファイルスキーマ本来のデータと同じように使用できるようになります。
 >
->詳しくは、[該当するドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/multi-entity-segmentation.html)を参照してください。
+>詳しくは、[該当するドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/multi-entity-segmentation.html?lang=ja)を参照してください。
 
 デフォルトでは、セグメントビルダーには、既にデータが存在するフィールドが表示されます。 データが存在しないフィールドを含むスキーマ全体を表示するには、設定から「**[!UICONTROL Show full XDM schema]**」オプションを有効にします。
 
@@ -96,7 +96,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->以下の節では、ルール定義に関する全体的な情報を示します。 詳しくは、[ セグメントビルダーユーザーガイド ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html) を参照してください。
+>以下の節では、ルール定義に関する全体的な情報を示します。 詳しくは、[ セグメントビルダーユーザーガイド ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja) を参照してください。
 
 ルールを作成するには、次の手順に従います。
 

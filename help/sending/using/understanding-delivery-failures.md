@@ -35,7 +35,7 @@ ht-degree: 66%
 
 * [強制隔離管理について](../../sending/using/understanding-quarantine-management.md)
 * [Campaign のオプトインとオプトアウトについて](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
-* [ バウンス数 ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)
+* [ バウンス数 ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=ja#metrics-for-deliverability)
 
 ## メッセージの配信エラーの特定 {#identifying-delivery-failures-for-a-message}
 
@@ -76,7 +76,7 @@ ht-degree: 66%
 
 **関連トピック：**
 * [ ハードバウンス ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=ja#hard-bounces)
-* [ ソフトバウンス ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#soft-bounces)
+* [ ソフトバウンス ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=ja#soft-bounces)
 
 ## 一時的な配信エラーの後の再試行 {#retries-after-a-delivery-temporary-failure}
 
@@ -118,7 +118,7 @@ The default configuration allows five retries at one-hour intervals, followed by
 
 非同期バウンスは、引き続き「**[!UICONTROL Inbound email]**」ルールを通じて、inMail プロセスで選定されます。これらの規則にアクセスするには、左上の **0&rbrace;Adobe&rbrace; ロゴをクリックし、「**&#x200B;[!UICONTROL Administration > Channels > Email > Email processing rules]&#x200B;**」を選択して「**&#x200B;[!UICONTROL Bounce mails]&#x200B;**」を選択します。**&#x200B;このルールについて詳しくは、[ この節 ](../../administration/using/configuring-email-channel.md#email-processing-rules) を参照してください。
 
-バウンスとさまざまなバウンスについて詳しくは、[ この節 ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability) を参照してください。
+バウンスとさまざまなバウンスについて詳しくは、[ この節 ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=ja#metrics-for-deliverability) を参照してください。
 
 <!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
 

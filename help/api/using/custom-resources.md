@@ -76,4 +76,4 @@ Adobe Campaignには事前定義済みのデータモデルが付属しており
 
 * [データモデルの概念](../../developing/using/data-model-concepts.md)
 * [API の拡張](../../developing/using/about-extending-the-api.md)
-* [ 他のリソースとのリンクの定義 ](https://helpx.adobe.com/campaign/standard/developing/using/configuring-the-resource-s-data-structure.html#defining-links-with-other-resources)
+* [ 他のリソースとのリンクの定義 ](https://helpx.adobe.com/jp/campaign/standard/developing/using/configuring-the-resource-s-data-structure.html#defining-links-with-other-resources)

@@ -30,7 +30,7 @@ Adobe Campaign では、以前に作成したトリガーを選択し、デー�
 
 **関連トピック：**
 
-* トリガーの様々なタイプについて詳しくは、[Adobe Experience Cloud ドキュメント](https://experienceleague.adobe.com/docs/core-services/interface/triggers.html)を参照してください。
+* トリガーの様々なタイプについて詳しくは、[Adobe Experience Cloud ドキュメント](https://experienceleague.adobe.com/docs/core-services/interface/triggers.html?lang=ja)を参照してください。
 * [サイトアクティビティに基づくリマーケティングメッセージのトリガー](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html#step-two)に関するビデオを参照してください。
 * 2 つの[放棄トリガーの使用例](../../integrating/using/abandonment-triggers-use-cases.md)を参照してください。
 

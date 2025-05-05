@@ -28,7 +28,7 @@ Adobe Campaignのトラッキング機能では、配信の受信者の行動を
 Adobe Campaign は、次の 2 つのタイプの Cookie を使用します。
 
 * セッション cookie （nlid）。 連絡先に送信されるメールの識別子（broadlogId）およびメッセージテンプレートの識別子（deliveryId）が含まれています。Adobe Campaign が送信したメールに含まれている URL を連絡先のユーザーがクリックすると追加され、この連絡先での web 上の行動をトラッキングできるようになります。このセッション Cookie は、ブラウザーが閉じられると自動的に消去されます。連絡先のユーザーは、Cookie を拒否するようにブラウザーを設定できます。
-* Adobe Experience Cloud ソリューション間で共有される cookie。 これにより、Web サイトの訪問時に Experience Cloud ソリューションとやり取りするユーザーを識別できます。この Cookie の説明については、[こちら](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html)を参照してください。
+* Adobe Experience Cloud ソリューション間で共有される cookie。 これにより、Web サイトの訪問時に Experience Cloud ソリューションとやり取りするユーザーを識別できます。この Cookie の説明については、[こちら](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html?lang=ja)を参照してください。
 
 Adobe Campaign Standardを使用したトラッキングでは、次の機能にアクセスできます。
 

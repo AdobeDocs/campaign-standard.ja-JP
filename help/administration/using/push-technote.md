@@ -55,7 +55,7 @@ Google のサービス向上への継続的な取り組みの一環として、�
 
 * このレガシーバージョンのSDKをまだ使用している場合は、Adobe Experience Platform SDKを使用して実装を更新する必要があります。 Adobe Experience Plaform SDKに移行する方法については、[ この記事 ](sdkv4-migration.md) を参照してください。
 
-* 次の手順を実行する前に、Adobe Experience Platform Data Collection Mobile に **モバイルアプリ設定** 権限があることを確認してください。 [詳細情報](https://experienceleague.adobe.com/docs/experience-platform/collection/permissions.html?lang=en#adobe-experience-platform-data-collection-permissions){target="_blank"}
+* 次の手順を実行する前に、Adobe Experience Platform Data Collection Mobile に **モバイルアプリ設定** 権限があることを確認してください。 [詳細情報](https://experienceleague.adobe.com/docs/experience-platform/collection/permissions.html?lang=ja#adobe-experience-platform-data-collection-permissions){target="_blank"}
 
 
 #### トランジション手順 {#fcm-transition-steps}

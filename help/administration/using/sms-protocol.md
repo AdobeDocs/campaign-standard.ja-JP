@@ -17,7 +17,7 @@ ht-degree: 85%
 
 >[!NOTE]
 >
->Adobe Campaign Classicの **SMS コネクタのプロトコルと設定** については、この [ ページ ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol.html) を参照してください。
+>Adobe Campaign Classicの **SMS コネクタのプロトコルと設定** については、この [ ページ ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol.html?lang=ja) を参照してください。
 >
 >このドキュメントでは、プロトコル、フィールド名とフィールド値の詳細については、すべて [SMPP 3.4 仕様](https://smpp.org/SMPP_v3_4_Issue1_2.pdf)を参照しています。
 

@@ -49,4 +49,4 @@ Campaign Standard API を使用するには、Adobe I/O アカウントが必要
 
 このドキュメントでは、すべてのエンドポイントについて詳述するほか、API の操作に関する一般的な基本事項、完全な API リファレンス、コード例、クイックスタートガイドを紹介します。
 
-API について不明な点や問題がある場合は、[アドビコミュニティ](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)で質問してください。
+API について不明な点や問題がある場合は、[アドビコミュニティ](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community?profile.language=ja)で質問してください。

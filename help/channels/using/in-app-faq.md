@@ -21,9 +21,9 @@ ht-degree: 0%
 
 以下のリソースを確認してください。
 
-* [ ビデオTutorials](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/in-app/in-app-message-overview.html)
+* [ ビデオTutorials](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/in-app/in-app-message-overview.html?lang=ja)
 * [ ブログ投稿 ](https://theblog.adobe.com/get-more-out-of-the-new-in-app-message-channel-from-adobe-campaign/)
-* [ コミュニティページ ](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
+* [ コミュニティページ ](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community?profile.language=ja)
 
 ## Campaign 拡張機能 API の setLinkageField および resetLinkageField の目的は何ですか？ {#extensions-apis}
 

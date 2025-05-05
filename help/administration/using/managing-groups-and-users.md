@@ -25,7 +25,7 @@ ht-degree: 65%
 
 ユーザーは、常にセキュリティグループにリンクされている必要があります。これにより、特定の役割と組織単位を割り当てることができます。 ユーザーのアクセスを制限する場合、Campaign **[!UICONTROL Standard Users]** グループにユーザーを追加しないでください。このグループは組織単位にリンクされ **[!UICONTROL All]** います。
 
-ロールの詳細については、次のページの表に、ユーザーのロールに応じて使用可能な操作を示します。[Adobe Campaign Standard権限 ](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)。
+ロールの詳細については、次のページの表に、ユーザーのロールに応じて使用可能な操作を示します。[Adobe Campaign Standard権限 ](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=ja)。
 
 デフォルトのセキュリティグループは次のとおりです。
 

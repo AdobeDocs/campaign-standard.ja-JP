@@ -188,7 +188,7 @@ ht-degree: 7%
   <tr> 
    <td> ユニーククリック数 <br /> </td> 
    <td> @uniqueclicks<br /> </td> 
-   <td> ユニーククリック数は、ThetaSketch の概念を使用して計算されます。 詳しくは、この <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match"> 例 </a>.<br /> を参照してください。 </td> 
+   <td> ユニーククリック数は、ThetaSketch の概念を使用して計算されます。 詳しくは、この <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html?lang=ja#unique-open-clicks-no-match"> 例 </a>.<br /> を参照してください。 </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -268,7 +268,7 @@ ht-degree: 7%
   <tr> 
    <td> ユニーク開封数 <br /> </td> 
    <td> @uniqueopens<br /> </td> 
-   <td> ユニーク開封数は、一意の RecipientIds の ThetaSketch の概念を使用して計算されます。 詳しくは、この <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match"> 例 </a>.<br /> を参照してください。 </td> 
+   <td> ユニーク開封数は、一意の RecipientIds の ThetaSketch の概念を使用して計算されます。 詳しくは、この <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html?lang=ja#unique-open-clicks-no-match"> 例 </a>.<br /> を参照してください。 </td> 
   </tr> 
   <tr> 
    <td> インプレッション数 <br /> </td> 
@@ -288,7 +288,7 @@ ht-degree: 7%
   <tr> 
    <td> ユニーククリック数 <br /> </td> 
    <td> @uniqueclicks<br /> </td> 
-   <td> ユニーククリック数は、ThetaSketch の概念を使用して計算されます。 詳しくは、この <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html#unique-open-clicks-no-match"> 例 </a>.<br /> を参照してください。 </td> 
+   <td> ユニーククリック数は、ThetaSketch の概念を使用して計算されます。 詳しくは、この <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/troubleshooting.html?lang=ja#unique-open-clicks-no-match"> 例 </a>.<br /> を参照してください。 </td> 
   </tr> 
   <tr> 
    <td> クリックスルー率 <br /> </td> 

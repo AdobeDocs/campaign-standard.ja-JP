@@ -88,7 +88,7 @@ Adobe Campaign を使用してスタンドアロンのアプリ内メッセー�
 
    * **[!UICONTROL Places]**：Places コンテキストデータ、Places カスタムメタデータ、Places イベントタイプの 3 つのカテゴリでリアルタイムの位置情報データを利用して、コンテキストに応じたモバイルエクスペリエンスを提供します。
 
-     Adobe Places について詳しくは、[Places のドキュメント](https://experienceleague.adobe.com/docs/places/using/home.html)を参照してください。
+     Adobe Places について詳しくは、[Places のドキュメント](https://experienceleague.adobe.com/docs/places/using/home.html?lang=ja)を参照してください。
 
    ![](assets/inapp_creating_4.png)
 

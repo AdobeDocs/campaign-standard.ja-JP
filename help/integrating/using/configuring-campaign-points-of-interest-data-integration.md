@@ -34,7 +34,7 @@ Adobe Experience Platform SDKで設定されたモバイルアプリケーショ
 1. 次に、データ収集 UI で、目標点とAdobe Campaignの間のモバイルユースケースをサポートするルールを作成する必要があります。\
    このルールは、ユーザーが地域 **[!UICONTROL Point of Interest]** 囲に入るとトリガーされます。 ルールを作成するには、この [ ページ ](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Locationpostback) を参照してください。
 
-1. **[!UICONTROL Points of Interest]** を場所で定義します。 [ 目標点の作成 ](https://experienceleague.adobe.com/docs/places/using/poi-mgmt-ui/create-a-poi-ui.html) を参照してください。
+1. **[!UICONTROL Points of Interest]** を場所で定義します。 [ 目標点の作成 ](https://experienceleague.adobe.com/docs/places/using/poi-mgmt-ui/create-a-poi-ui.html?lang=ja) を参照してください。
 
 1. モバイルアプリケーションと、収集したAdobe Campaignの場所データに必ずアクセスしてください。 [ 場所データの収集に使用するモバイルアプリへのアクセス ](#accessing-mobile-apps-used-to-collect-location-data) および [ 収集された場所データへのアクセス ](#accessing-collected-location-data) を参照してください。
 
@@ -162,7 +162,7 @@ Adobe Campaignで設定されたモバイルアプリケーションのパラメ
 
 >[!NOTE]
 >
->ポストバックの構成の詳細については、[Adobe Mobile Services ドキュメント ](https://experienceleague.adobe.com/docs/mobile-services/using/manage-app-settings-ug/configuring-app/signals.html) を参照してください。
+>ポストバックの構成の詳細については、[Adobe Mobile Services ドキュメント ](https://experienceleague.adobe.com/docs/mobile-services/using/manage-app-settings-ug/configuring-app/signals.html?lang=ja) を参照してください。
 
 ### モバイルアプリケーションへのSDKの統合 {#integrating-the-sdk-into-a-mobile-application}
 
@@ -177,11 +177,11 @@ Mobile コアサービスのソフトウェア開発キット（SDK）は、モ�
 1. Adobe Mobile Services インターフェイスに移動します。
 1. アプリケーションを追加します。
 
-   Mobile Services でのアプリケーションの管理について詳しくは、[Mobile Services のAdobeドキュメント ](https://experienceleague.adobe.com/docs/mobile-services/using/manage-apps-ug/t-new-app.html) を参照してください。
+   Mobile Services でのアプリケーションの管理について詳しくは、[Mobile Services のAdobeドキュメント ](https://experienceleague.adobe.com/docs/mobile-services/using/manage-apps-ug/t-new-app.html?lang=ja) を参照してください。
 
 1. 目標点を定義します。
 
-   POI の管理について詳しくは、[Adobe Mobile Services ドキュメント ](https://experienceleague.adobe.com/docs/mobile-services/using/location-ug/t-manage-points.html) を参照してください。
+   POI の管理について詳しくは、[Adobe Mobile Services ドキュメント ](https://experienceleague.adobe.com/docs/mobile-services/using/location-ug/t-manage-points.html?lang=ja) を参照してください。
 
 ### 購読者の POI データの収集 {#collecting-subscribers--points-of-interest-data}
 

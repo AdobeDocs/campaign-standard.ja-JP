@@ -38,14 +38,14 @@ Adobe Experience Platform Data Connector は、Adobe Campaign Standardのカス�
 >
 >これは、API またはAdobe Experience Platform インターフェイスを使用して実行できます。 詳しくは、該当するドキュメントを参照してください。
 >
->* [ リアルタイム顧客プロファイルのデータセットを有効にする ](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/datasets/dataset.html)
->* [API を使用したリアルタイム顧客プロファイルおよび ID サービスのデータセットの設定 ](https://experienceleague.adobe.com/docs/experience-platform/catalog/api/getting-started.html)
+>* [ リアルタイム顧客プロファイルのデータセットを有効にする ](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/datasets/dataset.html?lang=ja)
+>* [API を使用したリアルタイム顧客プロファイルおよび ID サービスのデータセットの設定 ](https://experienceleague.adobe.com/docs/experience-platform/catalog/api/getting-started.html?lang=ja)
 
 ## 主要概念 {#key-concepts}
 
 * 標準マッピングは、Campaign Standardでデフォルトで提供されるフィールドでのみ使用できます。 すべてのカスタムフィールドとリソースを取り込む場合、各顧客は独自のマッピングを定義する必要があります。
 
-* Adobe Experience Platform Data Connector は、一定の間隔でプラットフォームを介してプロファイルデータをプッシュします&#x200B; 間隔の期間は 15 分です。 この値は、[Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html) を使用して変更できます。
+* Adobe Experience Platform Data Connector は、一定の間隔でプラットフォームを介してプロファイルデータをプッシュします&#x200B; 間隔の期間は 15 分です。 この値は、[Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=ja) を使用して変更できます。
 
 * データエンジニアは、Campaign からAdobe Experience Platformへのマッピングを公開、変更および一時停止できます。
 
@@ -69,7 +69,7 @@ Adobe Experience Platform Data Connector は、Adobe Campaign Standardのカス�
 
 * 初期状態のサブスクリプションイベントの転送はサポートされていません。 購読イベントを転送するには、対応する XDM とデータセットをAdobe Experience Platformで作成してから、これらのデータのカスタムデータマッピングを設定します。
 
-* プライバシーリクエスト（アクセスアクションと削除アクションの両方）については、お客様は [Privacy Core Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html#how-to-use-privacy-service-to-manage-privacy-job-requests) を介して、Campaign 用とAdobe Experience Platform用に 1 つの個別のリクエストを配置する必要があります。 詳しくは、Campaign の [ プライバシーリクエストについて ](https://helpx.adobe.com/jp/campaign/kb/acs-privacy.html#righttoaccess) および [ プライバシーリクエストの管理 ](https://helpx.adobe.com/jp/campaign/kb/acs-privacy.html#ManagingPrivacyRequests) を参照してください。
+* プライバシーリクエスト（アクセスアクションと削除アクションの両方）については、お客様は [Privacy Core Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ja#how-to-use-privacy-service-to-manage-privacy-job-requests) を介して、Campaign 用とAdobe Experience Platform用に 1 つの個別のリクエストを配置する必要があります。 詳しくは、Campaign の [ プライバシーリクエストについて ](https://helpx.adobe.com/jp/campaign/kb/acs-privacy.html#righttoaccess) および [ プライバシーリクエストの管理 ](https://helpx.adobe.com/jp/campaign/kb/acs-privacy.html#ManagingPrivacyRequests) を参照してください。
 
 * XDM フィールドごとに、Adobe Experience Platformで DULE のラベル付けを行う必要があります。 これは、DULE ラベルを適用するお客様の責任です。
 
@@ -83,4 +83,4 @@ Adobe Experience Platform Data Connector は、Adobe Campaign Standardのカス�
 
 >[!VIDEO](https://video.tv.adobe.com/v/27304?quality=12&captions=eng)
 
-Adobe Experience Platform コネクタに関するその他のビデオは [ こちら ](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html) で参照できます。
+Adobe Experience Platform コネクタに関するその他のビデオは [ こちら ](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html?lang=ja) で参照できます。

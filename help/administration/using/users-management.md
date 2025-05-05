@@ -19,7 +19,7 @@ ht-degree: 81%
 
 Adobe Campaign では、ユーザーに一連の役割を割り当てて、ユーザーがアクセスできるインターフェイス領域を定義できます。
 
-特定の役割とそれに対応する認証については、[役割の概要](../../administration/using/list-of-roles.md)の節および[認証](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)の節で詳しく説明します。
+特定の役割とそれに対応する認証については、[役割の概要](../../administration/using/list-of-roles.md)の節および[認証](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=ja)の節で詳しく説明します。
 
 管理者は、Admin Consoleからユーザーを管理できます。 ユーザーは、Adobe Campaign と自動的に同期されるようになります。詳しくは、[Admin Console](https://helpx.adobe.com/jp/enterprise/using/users.html) ドキュメントを参照してください。
 
@@ -33,9 +33,9 @@ Adobe Campaign からユーザー管理インターフェイスにアクセス�
 
 **関連トピック：**
 
-* [ユーザー権限の管理](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/administrating/managing-user-access-rights.html)（ビデオ）
+* [ユーザー権限の管理](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/administrating/managing-user-access-rights.html?lang=ja)（ビデオ）
 * [役割のリスト](../../administration/using/list-of-roles.md)
-* [認証のリスト](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
+* [認証のリスト](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=ja)
 
 ## ユーザーのタイプ {#type-of-users}
 
