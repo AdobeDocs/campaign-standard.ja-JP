@@ -21,7 +21,7 @@ ht-degree: 14%
 
 >[!CAUTION]
 >
->**[!UICONTROL Administration]** の役割と **すべて ](../../administration/using/users-management.md#functional-administrators) ユニットへのアクセス権を持つ機能 [ 管理者** のみが、送信ログ、メッセージログ、トラッキングログ、除外またはサブスクリプションログにアクセスできます。 管理者以外のユーザーは、これらのログをターゲットにすることができますが、これはリンクされたテーブル（プロファイル、配信）から開始します。
+>**[!UICONTROL Administration]** の役割と **すべて [&#128279;](../../administration/using/users-management.md#functional-administrators) ユニットへのアクセス権を持つ機能  管理者** のみが、送信ログ、メッセージログ、トラッキングログ、除外またはサブスクリプションログにアクセスできます。 管理者以外のユーザーは、これらのログをターゲットにすることができますが、これはリンクされたテーブル（プロファイル、配信）から開始します。
 
 ワークフローを実行するたびに新しいログのみを取得する **[!UICONTROL Incremental query]** と、出力列を定義するシンプルな **[!UICONTROL Extract file]** アクティビティを使用すると、形式と必要なすべてのデータを含んだファイルを取得できます。 次に、**[!UICONTROL Transfer file]** アクティビティを使用して、最終的なファイルを取得します。 各ワークフローの実行は、**[!UICONTROL Scheduler]** ーザーが計画します。
 

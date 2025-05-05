@@ -29,7 +29,7 @@ Adobe Experience Cloud（**[!UICONTROL Triggers]** コアサービス）で事�
 
 これをおこなうには、次の手順に従います。
 
-1. 左上隅の **0}Adobe} ロゴをクリックし、**[!UICONTROL Marketing plans]**/**[!UICONTROL Transactional messages]**/**[!UICONTROL Experience Cloud Triggers]**を選択します。**
+1. 左上隅の **0&rbrace;Adobe&rbrace; ロゴをクリックし、**&#x200B;[!UICONTROL Marketing plans]&#x200B;**/**&#x200B;[!UICONTROL Transactional messages]&#x200B;**/**&#x200B;[!UICONTROL Experience Cloud Triggers]&#x200B;**を選択します。**
 
    ![](assets/remarketing_1.png)
 

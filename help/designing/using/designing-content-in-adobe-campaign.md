@@ -28,7 +28,7 @@ E メールデザイナーでは、E メールコンテンツと E メールコ�
 
 <!--The Email Designer has more features than the Legacy Editor and is backward compatible.-->
 
-![](assets/do-not-localize/how-to-video.png)[ ビデオでメールDesignerを確認する ](#video)
+![](assets/do-not-localize/how-to-video.png) [ ビデオでメールDesignerを確認する ](#video)
 
 * E メールコンテンツの作成方法について詳しくは、[E メールデザイナーの概要](../../designing/using/quick-start.md)を参照してください。
 * E メールデザイナーの概要については、[E メールデザイナーの使用](../../designing/using/designing-content-in-adobe-campaign.md)を参照してください。

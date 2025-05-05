@@ -60,7 +60,7 @@ SDK V4 で設定されたモバイルアプリケーションで目標点デー�
 
 Adobe Campaignで目標地点データを収集できるようにするには、Adobe Campaignがデータを受信するモバイルアプリケーションを設定する必要があります。
 
-1. 左上隅の **0}Adobe} ロゴをクリックし、**[!UICONTROL Administration]**/**[!UICONTROL Channels]**/**[!UICONTROL Mobile app]**を選択します。**
+1. 左上隅の **0&rbrace;Adobe&rbrace; ロゴをクリックし、**&#x200B;[!UICONTROL Administration]&#x200B;**/**&#x200B;[!UICONTROL Channels]&#x200B;**/**&#x200B;[!UICONTROL Mobile app]&#x200B;**を選択します。**
 1. 「**[!UICONTROL Create]**」をクリックしてアプリケーションを設定します。
 1. **[!UICONTROL Application name]** フィールドに名前を入力し、「**[!UICONTROL Create]**」をクリックします。
 

@@ -184,7 +184,7 @@ Microsoft Dynamics 365 および Campaign のフィールドをリストから�
 
 マッピングを設定する際には、次の追加オプションを設定できます。
 
-* Microsoft Dynamics 365 で発生した削除を（フィールド名のマッピングに基づいて **Adobe Campaignの対応するフィールドに反映する場合は、「**[!UICONTROL Apply deletes in Microsoft Dynamics 365 to Campaign?]**」オプションを「** はい」に設定します。 Microsoft Dynamics 365 で削除を無視する場合は、「**いいえ**」を選択します。
+* Microsoft Dynamics 365 で発生した削除を（フィールド名のマッピングに基づいて **Adobe Campaignの対応するフィールドに反映する場合は、「**&#x200B;[!UICONTROL Apply deletes in Microsoft Dynamics 365 to Campaign?]&#x200B;**」オプションを「** はい」に設定します。 Microsoft Dynamics 365 で削除を無視する場合は、「**いいえ**」を選択します。
 
 * Microsoft Dynamics 365 選択リストに関連付けられた表示値を Campaign に反映する場合は、「**[!UICONTROL Use technical values in Microsoft Dynamics 365 picklists?]**」オプションを「**いいえ**」に設定します。 **はい** を選択して、テクニカル値を反映させます。
 

@@ -47,7 +47,7 @@ ht-degree: 7%
 * broadLog で、接続の最大数と 1 時間あたりのメッセージの最大数が区別されるようになりました。限界値に達した場合、スループットが制限される理由を判別できます。これまでは、どちらの場合にも同じメッセージ（「割り当てに達しました」）が表示されていました。
 * Campaign でモバイルアプリケーションを設定する際に、iOS証明書とAndroid サーバーキーが正常にアップロードされたかどうか、および有効期限がわかるようになりました。
 
-  詳しくは、[SDK V4 および [SDK V5](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/administrating/configuring-channels/configuring-a-mobile-application.html) を使用してモバイルアプリケーションを設定する方法に関する詳細なドキュメントを参照してくだ ](https://helpx.adobe.com/jp/campaign/kb/configuring-app-sdk.html) い。
+  詳しくは、[&#128279;](https://helpx.adobe.com/jp/campaign/kb/configuring-app-sdk.html)SDK V4 および [SDK V5](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/administrating/configuring-channels/configuring-a-mobile-application.html) を使用してモバイルアプリケーションを設定する方法に関する詳細なドキュメントを参照してくだ  い。
 
 * Campaign プロパティを定義する際にモバイルアプリを選択することで、特定のモバイルアプリでユーザーをターゲットに設定することができます。 この機能は、プッシュチャネルとアプリ内メッセージチャネルの両方で使用できます。
 

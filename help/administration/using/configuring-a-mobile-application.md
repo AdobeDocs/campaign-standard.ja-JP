@@ -149,7 +149,7 @@ Launch テクニカルワークフローからのモバイルアプリ AEPSDK �
 
 1. モバイルアプリケーションダッシュボードの「**[!UICONTROL Device-specific settings]**」セクションで、デバイスごとにアプリケーションの詳細を指定します。
 
-   * +++ iOS用
+   +++*  iOS用
 
      次のアプリケーション詳細を入力します。
 
@@ -159,9 +159,9 @@ Launch テクニカルワークフローからのモバイルアプリ AEPSDK �
       * **iOS Team ID**:iOS Team ID について詳しくは、[Apple ドキュメント ](https://developer.apple.com/help/account/manage-your-team/locate-your-team-id/){target="_blank"} を参照してください。
 
         ![](assets/mobile_app_ios_config.png)
-+++
+   +++
 
-   * +++ Android の場合
+   +++*  Android の場合
 
      次のアプリケーション詳細を入力します。
 
@@ -169,7 +169,7 @@ Launch テクニカルワークフローからのモバイルアプリ AEPSDK �
       * **Android キー（Json） ファイル**: .json 秘密鍵ファイルをドラッグ&amp;ドロップします。 .json 秘密鍵ファイルの生成方法については、[Firebase 開発者向けドキュメント ](https://firebase.google.com/docs/admin/setup#initialize_the_sdk_in_non-google_environments){target="_blank"} を参照してください。
 
         ![](assets/mobile_app_android_config.png)
-+++
+   +++
 
 1. 証明書がアップロードされると、アップロードが成功したことを示すメッセージと証明書の有効期限が表示されます。
 

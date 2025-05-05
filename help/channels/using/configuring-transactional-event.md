@@ -32,7 +32,7 @@ Adobe Campaignでトランザクションメッセージを送信するには、
 
 開始するには、必要に応じてイベントを作成します。
 
-1. 左上隅の **0}Adobe} ロゴをクリックし、**[!UICONTROL Marketing plans]**/**[!UICONTROL Transactional messages]**/**[!UICONTROL Event configuration]**を選択します。**
+1. 左上隅の **0&rbrace;Adobe&rbrace; ロゴをクリックし、**&#x200B;[!UICONTROL Marketing plans]&#x200B;**/**&#x200B;[!UICONTROL Transactional messages]&#x200B;**/**&#x200B;[!UICONTROL Event configuration]&#x200B;**を選択します。**
 1. 「**[!UICONTROL Create]**」ボタンをクリックします。
 1. イベントの **[!UICONTROL Label]** と **[!UICONTROL ID]** を入力します。 **[!UICONTROL ID]** フィールドは必須で、プレフィックス「EVT」で始める必要があります。 このプレフィックスを使用しない場合は、[**[!UICONTROL Create]**] をクリックすると自動的に追加されます。
 
@@ -153,7 +153,7 @@ Adobe Campaignでトランザクションメッセージを送信するには、
 
 作成済みのトランザクションイベントにアクセスして検索するには、次の手順に従います。
 
-1. 左上隅の **0}Adobe} ロゴをクリックし、**[!UICONTROL Marketing plans]**/**[!UICONTROL Transactional messages]**/**[!UICONTROL Event configuration]**を選択します。**
+1. 左上隅の **0&rbrace;Adobe&rbrace; ロゴをクリックし、**&#x200B;[!UICONTROL Marketing plans]&#x200B;**/**&#x200B;[!UICONTROL Transactional messages]&#x200B;**/**&#x200B;[!UICONTROL Event configuration]&#x200B;**を選択します。**
 1. 「**[!UICONTROL Show search]**」ボタンをクリックします。
 
    ![](assets/message-center_search-events.png)

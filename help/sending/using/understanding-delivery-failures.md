@@ -90,7 +90,7 @@ ht-degree: 66%
 
 >[!IMPORTANT]
 >
->**Campaign 配信の「**[!UICONTROL Delivery duration]**」パラメーターは、3.5 日以下に設定した場合にのみ、使用されるようになりました。** 3.5 日を超える値を定義した場合、その値は考慮されません。
+>**Campaign 配信の「**&#x200B;[!UICONTROL Delivery duration]&#x200B;**」パラメーターは、3.5 日以下に設定した場合にのみ、使用されるようになりました。** 3.5 日を超える値を定義した場合、その値は考慮されません。
 
 例えば、配信の再試行を 1 日後に停止する場合は、配信期間を **1d** に設定すると、再試行キューのメッセージは 1 日後に削除されます。
 
@@ -116,7 +116,7 @@ The default configuration allows five retries at one-hour intervals, followed by
 >
 >Campaign の&#x200B;**[!UICONTROL Message qualification]**&#x200B;テーブルでのバウンスの選定は使用されなくなりました。
 
-非同期バウンスは、引き続き「**[!UICONTROL Inbound email]**」ルールを通じて、inMail プロセスで選定されます。これらの規則にアクセスするには、左上の **0}Adobe} ロゴをクリックし、「**[!UICONTROL Administration > Channels > Email > Email processing rules]**」を選択して「**[!UICONTROL Bounce mails]**」を選択します。**&#x200B;このルールについて詳しくは、[ この節 ](../../administration/using/configuring-email-channel.md#email-processing-rules) を参照してください。
+非同期バウンスは、引き続き「**[!UICONTROL Inbound email]**」ルールを通じて、inMail プロセスで選定されます。これらの規則にアクセスするには、左上の **0&rbrace;Adobe&rbrace; ロゴをクリックし、「**&#x200B;[!UICONTROL Administration > Channels > Email > Email processing rules]&#x200B;**」を選択して「**&#x200B;[!UICONTROL Bounce mails]&#x200B;**」を選択します。**&#x200B;このルールについて詳しくは、[ この節 ](../../administration/using/configuring-email-channel.md#email-processing-rules) を参照してください。
 
 バウンスとさまざまなバウンスについて詳しくは、[ この節 ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability) を参照してください。
 

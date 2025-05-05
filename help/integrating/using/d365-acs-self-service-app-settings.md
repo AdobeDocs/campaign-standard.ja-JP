@@ -89,4 +89,4 @@ Microsoft Dynamics 365 統合用の Campaign SFTP 設定を定義するには、
 
 設定が完了したら、秘密鍵を使用して SFTP サーバーにログインし、「d365_loads/exports」ディレクトリを作成します。
 
-Adobe Campaign Standard SFTP サーバーについて詳しくは ](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/monitoring-server-capacity.html?lang=ja#sftp-management) このページを参照 [ てください。
+Adobe Campaign Standard SFTP サーバーについて詳しくは [&#128279;](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/monitoring-server-capacity.html?lang=ja#sftp-management) このページを参照  てください。

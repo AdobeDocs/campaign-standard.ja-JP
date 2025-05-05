@@ -68,7 +68,7 @@ ht-degree: 61%
 
 ## ブランディング {#permissions-and-branding}
 
-[ブランディング](../../administration/using/branding.md)管理の場合、トランザクションメッセージは標準のメッセージよりも柔軟性が低くなります。トランザクションメッセージで使用されるすべてのブランドを&#x200B;**[!UICONTROL All]**[&#x200B;組織単位](../../administration/using/organizational-units.md)にリンクすることをお勧めします。詳しくは、以下の詳細を参照してください。
+[ブランディング](../../administration/using/branding.md)管理の場合、トランザクションメッセージは標準のメッセージよりも柔軟性が低くなります。トランザクションメッセージで使用されるすべてのブランドを&#x200B;**[!UICONTROL All]**&#x200B;[&#x200B;組織単位](../../administration/using/organizational-units.md)にリンクすることをお勧めします。詳しくは、以下の詳細を参照してください。
 
 トランザクションメッセージを編集する際に、ブランドにリンクして、ブランド名やブランドロゴなどのパラメーターを自動的に適用できます。トランザクションメッセージプロパティでは、デフォルトで **[!UICONTROL Default brand]** が選択されています。
 

@@ -36,7 +36,7 @@ Campaign [管理者](../../administration/using/users-management.md#functional-a
 
 * **配信品質**
 
-  **[!UICONTROL Delivery reports ID]**は、Adobe カスタマーケアチームによって提供されます。これは、技術的な配信品質レポートで使用される配信品質 ID で各インスタンスを識別します。
+  **[!UICONTROL Delivery reports ID]**&#x200B;は、Adobe カスタマーケアチームによって提供されます。これは、技術的な配信品質レポートで使用される配信品質 ID で各インスタンスを識別します。
   <!--The Technical Deliverability report is not accessible through the UI in ACS. It will be replaced with 250ok in the future (project starting).-->
 
 * **配信パラメーター**
@@ -338,7 +338,7 @@ SMTP の設定について詳しくは、[メール SMTP パラメーターの�
 
 ### バウンスメールの選定 {#legacy-bounce-mail-qualification}
 
-様々なバウンス、関連するエラータイプおよび理由のリストを表示するには、左上の **0}Adobe} ロゴをクリックし、「**[!UICONTROL Administration > Channels > Quarantines > Message qualification]**」を選択します。**
+様々なバウンス、関連するエラータイプおよび理由のリストを表示するには、左上の **0&rbrace;Adobe&rbrace; ロゴをクリックし、「**&#x200B;[!UICONTROL Administration > Channels > Quarantines > Message qualification]&#x200B;**」を選択します。**
 
 バウンスには、次の選定ステータスを含めることができます。
 

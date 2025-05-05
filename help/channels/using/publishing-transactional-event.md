@@ -100,7 +100,7 @@ For more on publishing, pausing and unpublishing a transactional message, see [t
 
 イベントが非公開になっているか、まだ公開されていない場合は、イベント設定リストから削除できます。 手順は次のとおりです。
 
-1. 左上隅の **0}Adobe} ロゴをクリックし、**[!UICONTROL Marketing plans]**/**[!UICONTROL Transactional messages]**/**[!UICONTROL Event configuration]**を選択します。**
+1. 左上隅の **0&rbrace;Adobe&rbrace; ロゴをクリックし、**&#x200B;[!UICONTROL Marketing plans]&#x200B;**/**&#x200B;[!UICONTROL Transactional messages]&#x200B;**/**&#x200B;[!UICONTROL Event configuration]&#x200B;**を選択します。**
 1. 選択したイベント設定にマウスポインターを置いて、「**[!UICONTROL Delete element]**」ボタンを選択します。
 
    ![](assets/message-center_delete-button.png)

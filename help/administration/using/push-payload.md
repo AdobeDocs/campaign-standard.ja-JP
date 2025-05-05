@@ -149,7 +149,7 @@ Aps 内の属性について詳しくは、Apple開発者向けドキュメン�
 }
 ```
 
-**1}Google FCM テスターを使用するための JSON サンプルペイロード ](https://pushtry.com/)**[
+**1&rbrace;Google FCM テスターを使用するための JSON サンプルペイロード [&#128279;](https://pushtry.com/)**
 
 ```
 {

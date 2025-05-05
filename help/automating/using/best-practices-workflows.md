@@ -129,7 +129,7 @@ Adobe Campaign を使用すると、あらゆる種類のワークフローを�
 
 ## リストのエクスポート{#exporting-lists}
 
-リスト書き出しオプションを使用すると、デフォルトで 100,000 行まで書き出すことができ、**Nms_ExportListLimit オプション**&#x200B;で定義できます。このオプションは、機能管理者により&#x200B;**[!UICONTROL Administration]**／**[!UICONTROL Application settings]**／**[!UICONTROL Options]**で管理できます。
+リスト書き出しオプションを使用すると、デフォルトで 100,000 行まで書き出すことができ、**Nms_ExportListLimit オプション**&#x200B;で定義できます。このオプションは、機能管理者により&#x200B;**[!UICONTROL Administration]**／**[!UICONTROL Application settings]**／**[!UICONTROL Options]**&#x200B;で管理できます。
 詳しくは、[リストの書き出し](../../automating/using/exporting-lists.md)を参照してください。
 
 ## トラブルシューティング{#workflow-troubleshooting}

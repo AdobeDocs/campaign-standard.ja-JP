@@ -82,7 +82,7 @@ ht-degree: 1%
 
 イベント設定を複製するには、次の手順に従います。
 
-1. 左上隅の **0}Adobe} ロゴをクリックし、**[!UICONTROL Marketing plans]**/**[!UICONTROL Transactional messages]**/**[!UICONTROL Event configuration]**を選択します。**
+1. 左上隅の **0&rbrace;Adobe&rbrace; ロゴをクリックし、**&#x200B;[!UICONTROL Marketing plans]&#x200B;**/**&#x200B;[!UICONTROL Transactional messages]&#x200B;**/**&#x200B;[!UICONTROL Event configuration]&#x200B;**を選択します。**
 
 1. 選択した公開済みイベント設定にポインタを合わせて、「**[!UICONTROL Duplicate element]**」ボタンを選択します。
 

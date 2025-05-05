@@ -25,7 +25,7 @@ Adobe Campaign では、ユーザーに一連の役割を割り当てて、ユ�
 
 ![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](#video)
 
-Adobe Campaignでユーザーを表示するには、左上隅の **0}Adobe} ロゴをクリックし、「**[!UICONTROL Administration > Users & Security > Users]**」を選択します。**
+Adobe Campaignでユーザーを表示するには、左上隅の **0&rbrace;Adobe&rbrace; ロゴをクリックし、「**&#x200B;[!UICONTROL Administration > Users & Security > Users]&#x200B;**」を選択します。**
 
 Adobe Campaign からユーザー管理インターフェイスにアクセスするには、**[!UICONTROL User administration]** をクリックします。
 

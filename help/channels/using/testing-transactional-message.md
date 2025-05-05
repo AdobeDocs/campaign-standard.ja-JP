@@ -42,7 +42,7 @@ ht-degree: 31%
 
 また、新しいテストプロファイルを作成したり、**[!UICONTROL Test profiles]** メニューに既に存在するテストプロファイルを使用したりすることもできます。 手順は次のとおりです。
 
-1. 左上隅の **0}Adobe} ロゴをクリックし、**[!UICONTROL Profiles & audiences]**/**[!UICONTROL Test profiles]**を選択します。**
+1. 左上隅の **0&rbrace;Adobe&rbrace; ロゴをクリックし、**&#x200B;[!UICONTROL Profiles & audiences]&#x200B;**/**&#x200B;[!UICONTROL Test profiles]&#x200B;**を選択します。**
 1. **[!UICONTROL Event]** セクションで、作成したばかりのイベントを選択します。 この例では、「買い物かごの放棄（EVTcartAbandant）」を選択します。
 1. JSON 形式で送信する情報を「**[!UICONTROL Event data]**」テキストボックスに指定します。
 

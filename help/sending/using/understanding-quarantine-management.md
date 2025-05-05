@@ -116,7 +116,7 @@ This menu lists quarantined elements for **Email**, **SMS** and **Push notificat
 
 >[!IMPORTANT]
 >
-アドレスのステータスが **[!UICONTROL Quarantine]** または **[!UICONTROL Denylisted]** の受信者は、メールを受信した場合でも削除されません。
+>アドレスのステータスが **[!UICONTROL Quarantine]** または **[!UICONTROL Denylisted]** の受信者は、メールを受信した場合でも削除されません。
 
 
 ### 手動更新 {#unquarantine-manual}
@@ -166,7 +166,7 @@ Adobe Campaign は、エラーメッセージの選定時に割り当てられ�
 
 >[!NOTE]
 >
-Adobe Campaign の強制隔離では、大文字と小文字が区別されます。後から再度ターゲットされることのないよう、メールアドレスは必ず小文字でインポートしてください。
+>Adobe Campaign の強制隔離では、大文字と小文字が区別されます。後から再度ターゲットされることのないよう、メールアドレスは必ず小文字でインポートしてください。
 
 隔離されたアドレスのリスト（[プラットフォーム全体の強制隔離されたアドレスの識別](#identifying-quarantined-addresses-for-the-entire-platform)を参照）の「**[!UICONTROL Error reason]**」フィールドは、選択したアドレスが強制隔離された理由を示します。
 
