@@ -80,7 +80,7 @@ Adobe Campaign を使用してスタンドアロンのアプリ内メッセー�
 
    * **[!UICONTROL Life Cycle events]**：Adobe Mobile SDK でサポートされる既製のライフサイクルイベント。
 
-     ライフサイクルイベントについて詳しくは、この[ページ](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html)を参照してください。
+     ライフサイクルイベントについて詳しくは、この[ページ](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html?lang=ja)を参照してください。
 
    * **[!UICONTROL Analytics Events]**：モバイルアプリに実装されている機能に応じて、Adobe Analytics、コンテキストデータ、画面遷移のいずれかのカテゴリがサポートされます。
 
