@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: 8da7d90905745b99f52841483a2d540e9781104e
+source-git-commit: c2c732bc3dff7ee1a140af5a102e388f394ade52
 workflow-type: tm+mt
 source-wordcount: '408'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 リリース日は変更される場合があります。定期的にこのページにアクセスして、最新情報を確認してください。環境のアップデートは、以下に示す期間に順次おこなわれます。正確な日付は、各顧客にメールで通知されます。
 
-## リリース 25.1 - 2025年冬リリース {#release-25-1-release}
+## リリース 25.2 - 2025年夏リリース {#release-25-2-release}
 
 このリリースに関する詳細は、ステージング環境のアップグレードが開始されたときに[リリースノート](release-notes.md)で確認できます。
 
@@ -40,12 +40,12 @@ ht-degree: 100%
  <tbody>
   <tr>
    <td>ステージ </td>
-   <td>2025年1月7日～2月4日（PT） </td>
+   <td>2025 年 7 月 8 日～8 月 19 日 </td>
    <!--td>2025 - Dates to be confirmed</td-->
   </tr>
   <tr>
    <td>実稼動 </td>
-   <td>2025年1月13日～2月25日（PT） </td>
+   <td>2025 年 7 月 15 日～8 月 27 日 </td>
    <!--td>2025 - Dates to be confirmed</td-->
   </tr>
  </tbody>
