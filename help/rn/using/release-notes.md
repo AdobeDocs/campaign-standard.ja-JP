@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
 source-git-commit: 48cb3341c9f987bd275414c91dc8141f4fae719d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '201'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -36,8 +36,8 @@ This section lists improvements and changes included in the next Campaign Standa
 
 ### その他の修正点 {#25.1.2-fixes}
 
-* ユーザーが IMS 経由でログインできない可能性があったトークン解析の問題を修正しました。 （CAMP-57337）
-* 自動シーケンス ID 生成メカニズムを改善し、システムの信頼性を向上しました。 （CAMP-57281）
+* ユーザーが IMS 経由でログインできない可能性があったトークン解析の問題を修正しました。（CAMP-57337）
+* 自動シーケンス ID 生成メカニズムを改善し、システムの信頼性を向上しました。（CAMP-57281）
 
 ## リリース 25.1 - 2025年冬リリース {#winter-25}
 
