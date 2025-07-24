@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: e1f55a9b-be51-4f57-8719-fed7efc89113
-source-git-commit: 48cb3341c9f987bd275414c91dc8141f4fae719d
-workflow-type: ht
-source-wordcount: '201'
-ht-degree: 100%
+source-git-commit: c1f64589578c144a9b8eb879684f27834efaf8d8
+workflow-type: tm+mt
+source-wordcount: '290'
+ht-degree: 77%
 
 ---
 
@@ -26,6 +26,21 @@ This section lists improvements and changes included in the next Campaign Standa
 >This content is subject to changes without prior notice until the stage environments upgrade date. Learn more in the [Release planning page](../../rn/using/release-planning.md).
 
 -->
+
+## リリース 25.2 - 2025年夏リリース {#summer-25}
+
+### セキュリティ関連の修正 {#summer-25-security}
+
+* このリリースでは、セキュリティ上の問題が修正されています。
+* このリリースには、次のセキュリティアップグレードが含まれています：PostgreSQL 14.18、Azure インスタンスの CentOS から Rocky への移行。
+
+### その他の修正点 {#summer-25-fixes}
+
+* システムの信頼性を高めるために、シーケンスの枯渇に対する処理を改善しました。 （CAMP-57281）
+* 製品の安定化に関する全般的なアップデートです。 （CAMP-57339）
+* 動的レポート機能が改善されて、堅牢性が向上し、データの不一致が減少しました。 （CAMP-58157）
+* ドロップダウンメニューでテキストが正しく折り返されない問題を修正しました。 （CAMP-57360）
+* ユーザーが 2 年以上前のデータをクエリできないようにレポート機能を更新しました。 （CAMP-59262）
 
 ## リリース 25.1.2 {#25.1.2}
 
