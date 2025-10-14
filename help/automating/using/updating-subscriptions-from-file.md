@@ -24,7 +24,7 @@ ht-degree: 81%
 
 ![](assets/subscription_activity_example1.png)
 
-* [ ファイルを読み込み ](../../automating/using/load-file.md) アクティビティは、プロファイルファイルを読み込み、読み込んだ列の構造を定義します。
+* [&#x200B; ファイルを読み込み &#x200B;](../../automating/using/load-file.md) アクティビティは、プロファイルファイルを読み込み、読み込んだ列の構造を定義します。
 
   この例では、読み込まれるファイルは .csv 形式で、次のデータが含まれています。
 
@@ -57,11 +57,11 @@ ht-degree: 81%
 
   ![](assets/subscription_example_service_relation.png)
 
-* [ 重複排除 ](../../automating/using/deduplication.md) 一時リソースの **メール** フィールド（紐付けの結果）に基づいて、重複を識別します。 重複がある場合、サービスへの購読登録はすべてのデータで失敗するので、重複を排除することが重要です。
+* [&#x200B; 重複排除 &#x200B;](../../automating/using/deduplication.md) 一時リソースの **メール** フィールド（紐付けの結果）に基づいて、重複を識別します。 重複がある場合、サービスへの購読登録はすべてのデータで失敗するので、重複を排除することが重要です。
 
   ![](assets/subscription_activity_example5.png)
 
-* [ 購読サービス ](../../automating/using/subscription-services.md) アクティビティは、更新アクティビティで作成されたリンクを通じて、トランジシ **[!UICONTROL Reconciliation]** ンから取得されたものとして更新するサービスを識別します。
+* [&#x200B; 購読サービス &#x200B;](../../automating/using/subscription-services.md) アクティビティは、更新アクティビティで作成されたリンクを通じて、トランジシ **[!UICONTROL Reconciliation]** ンから取得されたものとして更新するサービスを識別します。
 
   「**[!UICONTROL Operation type]**」は、ファイルの **operation** フィールドに由来するものとして識別されます。ここで選択できるのは、ブール値フィールドまたは整数フィールドのみです。実行する操作を記述しているファイル列がリストに表示されない場合は、前述のように、「**[!UICONTROL Load file]**」アクティビティで列の形式が正しく設定されていることを確認してください。
 

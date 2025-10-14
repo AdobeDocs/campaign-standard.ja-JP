@@ -30,7 +30,7 @@ ht-degree: 90%
 
 >[!NOTE]
 >
->イベントで使用されているカスタムリソースのフィールドが変更または削除された場合、対応するイベントは自動的に非公開になります。[ トランザクションイベントの非公開 ](../../channels/using/publishing-transactional-event.md#unpublishing-an-event) を参照してください。
+>イベントで使用されているカスタムリソースのフィールドが変更または削除された場合、対応するイベントは自動的に非公開になります。[&#x200B; トランザクションイベントの非公開 &#x200B;](../../channels/using/publishing-transactional-event.md#unpublishing-an-event) を参照してください。
 
 1. 詳細設定メニューの Adobe Campaign ロゴから、**[!UICONTROL Administration]**／**[!UICONTROL Development]**／**[!UICONTROL Publishing]** を選択します。
 1. デフォルトでは、「**[!UICONTROL Determine modifications since the last publication]**」オプションはオンになっており、最後の更新以降に実行された変更のみが適用されます。
@@ -49,7 +49,7 @@ ht-degree: 90%
 
    >[!NOTE]
    >
-   >重複したインデックスが原因で公開が失敗するため、準備手順では、リソースに対して定義されたインデックスが別のリソースに対して同じ名前で既に存在するかどうかを確認します。 この場合は、インデックスの名前を変更するように求めるエラーメッセージが表示されます。 [ インデックスの定義 ](configuring-the-resource-s-data-structure.md#defining-indexes) を参照してください。
+   >重複したインデックスが原因で公開が失敗するため、準備手順では、リソースに対して定義されたインデックスが別のリソースに対して同じ名前で既に存在するかどうかを確認します。 この場合は、インデックスの名前を変更するように求めるエラーメッセージが表示されます。 [&#x200B; インデックスの定義 &#x200B;](configuring-the-resource-s-data-structure.md#defining-indexes) を参照してください。
 
 1. 公開が実行されたら、「**[!UICONTROL Publish]**」ボタンをクリックして新しい設定を適用します。
 1. 公開された各リソースの&#x200B;**[!UICONTROL Summary]**&#x200B;ウィンドウには、現在の状態が「**[!UICONTROL Published]**」と表示され、最新の公開日が示されます。
@@ -105,4 +105,4 @@ ht-degree: 90%
 >
 >この公開で **[!UICONTROL profilesAndServicesExt]** API が更新されます。**[!UICONTROL profilesAndServices]** API は更新されません。
 
-Adobe Campaign Standard API について詳しくは、[ この節 ](../../api/using/get-started-apis.md) を参照してください。
+Adobe Campaign Standard API について詳しくは、[&#x200B; この節 &#x200B;](../../api/using/get-started-apis.md) を参照してください。

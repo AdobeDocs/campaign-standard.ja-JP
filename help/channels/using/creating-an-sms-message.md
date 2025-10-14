@@ -91,4 +91,4 @@ SMS メッセージを作成して携帯電話に送信するには、次のも�
 
 >[!VIDEO](https://video.tv.adobe.com/v/328377/?quality=12&captions=jpn)
 
-その他のCampaign Standardチュートリアルビデオについては、[ こちら ](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja) を参照してください。
+その他のCampaign Standardチュートリアルビデオについては、[&#x200B; こちら &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja) を参照してください。

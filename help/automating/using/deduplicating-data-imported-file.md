@@ -24,7 +24,7 @@ ht-degree: 83%
 
 ![](assets/deduplication_example2_workflow.png)
 
-* プロファイルのリストを含んだファイルは、[ ファイルを読み込み ](../../automating/using/load-file.md) アクティビティを使用して読み込まれます。 この例では、インポートされるファイルは .csv 形式で、10 個のプロファイルを含んでいます。
+* プロファイルのリストを含んだファイルは、[&#x200B; ファイルを読み込み &#x200B;](../../automating/using/load-file.md) アクティビティを使用して読み込まれます。 この例では、インポートされるファイルは .csv 形式で、10 個のプロファイルを含んでいます。
 
   ```
   lastname;firstname;dateofbirth;email
@@ -44,13 +44,13 @@ ht-degree: 83%
 
   ![](assets/deduplication_example2_fileloading.png)
 
-* [ 重複排除 ](../../automating/using/deduplication.md) アクティビティ。 ファイルをインポートした後、データベースにデータを挿入する前に重複排除が直接実行されます。したがって、「**[!UICONTROL Load file]**」アクティビティの「**[!UICONTROL Temporary resource]**」に基づいている必要があります。
+* [&#x200B; 重複排除 &#x200B;](../../automating/using/deduplication.md) アクティビティ。 ファイルをインポートした後、データベースにデータを挿入する前に重複排除が直接実行されます。したがって、「**[!UICONTROL Load file]**」アクティビティの「**[!UICONTROL Temporary resource]**」に基づいている必要があります。
 
   この例では、ファイルに含まれている一意のメールアドレスごとに 1 つのエントリを保持します。そのため、重複の識別は一時リソースの **email** 列に対しておこなわれます。ただし、2 つのメールアドレスがファイルに 2 回出現します。したがって、2 行が重複と見なされます。
 
   ![](assets/deduplication_example2_dedup.png)
 
-* [ データを更新 ](../../automating/using/update-data.md) アクティビティを使用すると、重複排除プロセスで保持されたデータをデータベースに挿入できます。 インポートされたデータがプロファイルディメンションに属していると識別されるのは、データの更新時のみです。
+* [&#x200B; データを更新 &#x200B;](../../automating/using/update-data.md) アクティビティを使用すると、重複排除プロセスで保持されたデータをデータベースに挿入できます。 インポートされたデータがプロファイルディメンションに属していると識別されるのは、データの更新時のみです。
 
   ここでは、「**[!UICONTROL Insert only]**」を指定して、データベースにまだ存在しないプロファイルだけを挿入します。それには、ファイルの email 列と&#x200B;**プロファイル**&#x200B;ディメンションのメールフィールドを紐付けキーとして使用します。
 

@@ -26,25 +26,25 @@ ht-degree: 4%
 
 * 購入に対応するカスタムリソースを作成して公開し、**[!UICONTROL Profile]** リソースにリンクします。 これにより、このリソースから情報を取得して、メッセージコンテンツを充実させることができます。
 
-リソースの拡張、作成、公開について詳しくは、[ この節 ](../../developing/using/key-steps-to-add-a-resource.md) を参照してください。
+リソースの拡張、作成、公開について詳しくは、[&#x200B; この節 &#x200B;](../../developing/using/key-steps-to-add-a-resource.md) を参照してください。
 
 このユースケースを実装する主な手順を以下に示します。
 
 >[!NOTE]
 >
->トランザクションメッセージの一般的なプロセスを図で表すには、[ このスキーマ ](../../channels/using/getting-started-with-transactional-msg.md#key-steps) を参照してください。
+>トランザクションメッセージの一般的なプロセスを図で表すには、[&#x200B; このスキーマ &#x200B;](../../channels/using/getting-started-with-transactional-msg.md#key-steps) を参照してください。
 
 ## 手順 1 - イベント設定の作成と公開 {#create-event-configuration}
 
 1. **[!UICONTROL Email]** チャネルを使用して新しいイベントを作成します。 詳しくは、[イベントの作成](../../channels/using/configuring-transactional-event.md#creating-an-event)を参照してください。
 
-1. **[!UICONTROL Profile]** ターゲティングディメンションを選択して、[ プロファイルベースのトランザクションメッセージ ](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages) を作成します。
+1. **[!UICONTROL Profile]** ターゲティングディメンションを選択して、[&#x200B; プロファイルベースのトランザクションメッセージ &#x200B;](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages) を作成します。
 
-1. トランザクションメッセージをパーソナライズするために使用できる属性を定義します。 この例では、「CRM ID」と「製品識別子」フィールドを追加します。 [ イベント属性の定義 ](../../channels/using/configuring-transactional-event.md#defining-the-event-attributes) を参照してください。
+1. トランザクションメッセージをパーソナライズするために使用できる属性を定義します。 この例では、「CRM ID」と「製品識別子」フィールドを追加します。 [&#x200B; イベント属性の定義 &#x200B;](../../channels/using/configuring-transactional-event.md#defining-the-event-attributes) を参照してください。
 
    ![](assets/message-center_usecase1.png)
 
-1. 顧客の購入に関する情報でメッセージコンテンツをエンリッチメントするには、**[!UICONTROL Purchase]** リソースをターゲットにしたエンリッチメントを作成します。 [ イベントのエンリッチメント ](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) を参照してください。
+1. 顧客の購入に関する情報でメッセージコンテンツをエンリッチメントするには、**[!UICONTROL Purchase]** リソースをターゲットにしたエンリッチメントを作成します。 [&#x200B; イベントのエンリッチメント &#x200B;](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) を参照してください。
 
    ![](assets/message-center_usecase2.png)
 
@@ -66,11 +66,11 @@ ht-degree: 4%
 
 ## 手順 2 - トランザクションメッセージを編集して公開する {#create-transactional-message}
 
-1. イベントの公開時に自動的に作成されたトランザクションメッセージに移動します。 [ トランザクションメッセージへのアクセス ](../../channels/using/editing-transactional-message.md#accessing-transactional-messages) を参照してください。
+1. イベントの公開時に自動的に作成されたトランザクションメッセージに移動します。 [&#x200B; トランザクションメッセージへのアクセス &#x200B;](../../channels/using/editing-transactional-message.md#accessing-transactional-messages) を参照してください。
 
-1. メッセージを編集およびパーソナライズします。 [ プロファイルトランザクションメッセージの編集 ](../../channels/using/editing-transactional-message.md#editing-profile-transactional-message) を参照してください。
+1. メッセージを編集およびパーソナライズします。 [&#x200B; プロファイルトランザクションメッセージの編集 &#x200B;](../../channels/using/editing-transactional-message.md#editing-profile-transactional-message) を参照してください。
 
-1. **[!UICONTROL Profile]** リソースに追加した「CRM ID」フィールドとの紐付けを通じて、すべてのプロファイル情報に直接アクセスし、メッセージを [ パーソナライズ ](../../designing/using/personalization.md#inserting-a-personalization-field) できます。
+1. **[!UICONTROL Profile]** リソースに追加した「CRM ID」フィールドとの紐付けを通じて、すべてのプロファイル情報に直接アクセスし、メッセージを [&#x200B; パーソナライズ &#x200B;](../../designing/using/personalization.md#inserting-a-personalization-field) できます。
 
    ![](assets/message-center_usecase6.png)
 
@@ -80,13 +80,13 @@ ht-degree: 4%
 
    これを行うには、コンテキストツールバーから **[!UICONTROL Insert personalization field]** を選択します。 **[!UICONTROL Context]**/**[!UICONTROL Transactional event]**/**[!UICONTROL Event context]** ノードから、**[!UICONTROL Purchase]** カスタムリソースに対応するノードを開き、任意のフィールドを選択します。
 
-1. 特定のテストプロファイルを使用して、メッセージをテストできます。 [ トランザクションメッセージのテスト ](../../channels/using/testing-transactional-message.md#testing-a-transactional-message) を参照してください。
+1. 特定のテストプロファイルを使用して、メッセージをテストできます。 [&#x200B; トランザクションメッセージのテスト &#x200B;](../../channels/using/testing-transactional-message.md#testing-a-transactional-message) を参照してください。
 
 1. コンテンツの準備が整ったら、変更を保存し、メッセージを公開します。 [トランザクションメッセージの公開](../../channels/using/publishing-transactional-message.md#publishing-a-transactional-message)を参照してください。
 
 ## 手順 3 - イベントトリガーの統合 {#integrate-event-trigger}
 
-イベントを Web サイトに統合します。 [ イベントトリガーの統合 ](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger) を参照してください。
+イベントを Web サイトに統合します。 [&#x200B; イベントトリガーの統合 &#x200B;](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger) を参照してください。
 
 ## 手順 4 - メッセージ配信 {#message-delivery}
 

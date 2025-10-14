@@ -14,11 +14,11 @@ ht-degree: 10%
 
 # アクティブなプロファイル{#active-profiles}
 
-**[!UICONTROL Customer metrics]** レポートからアクティブなプロファイルの詳細にアクセスできます。 このレポートは、Campaign 機能管理者のみが使用できます。 このレポートにアクセスするには、[ ユーザーインターフェイス ](../../start/using/interface-description.md#advanced-menu) の左上にあるAdobe Campaign アイコンをクリックして、**[!UICONTROL Administration > Customer metrics]** を参照します。
+**[!UICONTROL Customer metrics]** レポートからアクティブなプロファイルの詳細にアクセスできます。 このレポートは、Campaign 機能管理者のみが使用できます。 このレポートにアクセスするには、[&#x200B; ユーザーインターフェイス &#x200B;](../../start/using/interface-description.md#advanced-menu) の左上にあるAdobe Campaign アイコンをクリックして、**[!UICONTROL Administration > Customer metrics]** を参照します。
 
 ![](assets/audience_customer_metrics.png)
 
-このレポートは、**[!UICONTROL Billing]** テクニカルワークフローによって毎月生成され、**アクティブなプロファイル** の数を表示します。 テクニカルワークフローについて詳しくは、[ このページ ](../../administration/using/technical-workflows.md) を参照してください。
+このレポートは、**[!UICONTROL Billing]** テクニカルワークフローによって毎月生成され、**アクティブなプロファイル** の数を表示します。 テクニカルワークフローについて詳しくは、[&#x200B; このページ &#x200B;](../../administration/using/technical-workflows.md) を参照してください。
 
 「プロファイル」は、エンドカスタマー、見込み客またはリードを表す情報のレコードです。 過去 12 か月以内に任意のチャネルを介してキャンペーン配信のターゲットとなったプロファイルは、**アクティブ** と見なされます。
 

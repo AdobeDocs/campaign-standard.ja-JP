@@ -17,7 +17,7 @@ ht-degree: 43%
 
 # Audience Manager または People コアサービスとの統合のプロビジョニングと設定{#integration-with-audience-manager-or-people-core-service}
 
-Adobe CampaignでのAudience Managerコアと People コアのプロビジョニングと設定には、[ 統合へのリクエストの送信 ](#submitting-request-to-adobe) 次に [Adobe CampaignでのAdobeの設定 ](#configuring-the-integration-in-adobe-campaign) の 2 つの手順があります。
+Adobe CampaignでのAudience Managerコアと People コアのプロビジョニングと設定には、[&#x200B; 統合へのリクエストの送信 &#x200B;](#submitting-request-to-adobe) 次に [Adobe CampaignでのAdobeの設定 &#x200B;](#configuring-the-integration-in-adobe-campaign) の 2 つの手順があります。
 
 ## アドビへのリクエストの送信 {#submitting-request-to-adobe}
 
@@ -118,7 +118,7 @@ Audience Manager 内では、Adobe Campaign（MID）とAdobe Campaign（Declared
 
 >[!NOTE]
 >
->[ キャンペーンとトリガーの統合 ](../../integrating/using/configuring-triggers-in-experience-cloud.md) 用に共有データソースを設定している場合、「**[!UICONTROL AAM Destination ID]**」フィールドは必須ではありません。 **[!UICONTROL Priority]** は、トリガー - キャンペーン統合を設定する場合にのみ必要です。 優先度は、最初に設定されるデータSourceを決定します。 優先度には、1 や 100 などの任意の数を指定できます。 優先度が高いほど、紐付け時の環境設定が高くなります。
+>[&#x200B; キャンペーンとトリガーの統合 &#x200B;](../../integrating/using/configuring-triggers-in-experience-cloud.md) 用に共有データソースを設定している場合、「**[!UICONTROL AAM Destination ID]**」フィールドは必須ではありません。 **[!UICONTROL Priority]** は、トリガー - キャンペーン統合を設定する場合にのみ必要です。 優先度は、最初に設定されるデータSourceを決定します。 優先度には、1 や 100 などの任意の数を指定できます。 優先度が高いほど、紐付け時の環境設定が高くなります。
 
 ### 手順 3：Campaignトラッキングサーバーの設定 {#step-3--configure-campaign-tracking-server}
 
@@ -128,7 +128,7 @@ People コアサービスまたは Audience Manager との統合を設定する�
 
 >[!IMPORTANT]
 >
-> Campaign トラッキングサーバーがドメインに登録されていることを確認する必要があります（CNAME）。ドメイン名の設定について詳しくは、[ この記事 ](https://helpx.adobe.com/jp/campaign/kb/domain-name-delegation.html) を参照してください。
+> Campaign トラッキングサーバーがドメインに登録されていることを確認する必要があります（CNAME）。ドメイン名の設定について詳しくは、[&#x200B; この記事 &#x200B;](https://helpx.adobe.com/jp/campaign/kb/domain-name-delegation.html) を参照してください。
 
 ### 手順 4：訪問者 ID サービスの設定 {#step-4--configure-the-visitor-id-service}
 

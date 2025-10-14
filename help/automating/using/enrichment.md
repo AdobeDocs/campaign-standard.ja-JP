@@ -34,7 +34,7 @@ ht-degree: 95%
 
 **関連トピック**
 
-* [ ユースケース：ファイルに含まれるデータでプロファイルデータを強化する ](../../automating/using/enriching-profile-data-file.md)
+* [&#x200B; ユースケース：ファイルに含まれるデータでプロファイルデータを強化する &#x200B;](../../automating/using/enriching-profile-data-file.md)
 * [ユースケース：フィールドがエンリッチメントされたメールの送信](../../automating/using/sending-email-enriched-fields.md)
 
 ## 設定 {#configuration}

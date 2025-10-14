@@ -42,16 +42,16 @@ ht-degree: 27%
 1. 構造コンポーネントを（メール内で直接選択するか、左側の **パレット** から使用可能な構造ツリーを使用して）選択します。
 1. **コンテキストツールバー** から、「**[!UICONTROL Select a column]**」をクリックして目的の列を選択します。
 
-[ この節 ](#example--adjusting-vertical-alignment-and-padding) の例を参照してください。
+[&#x200B; この節 &#x200B;](#example--adjusting-vertical-alignment-and-padding) の例を参照してください。
 
 ## スタイル設定の調整 {#adjusting-style-settings}
 
-1. メールの要素を選択します。 詳しくは、[ 要素の選択 ](#selecting-an-element) を参照してください。
+1. メールの要素を選択します。 詳しくは、[&#x200B; 要素の選択 &#x200B;](#selecting-an-element) を参照してください。
 1. 必要に応じて設定を調整します。 選択した要素ごとに異なる設定セットが用意されています。
 
-   背景の挿入、サイズの変更、水平方向または垂直方向の整列の変更、色の管理、[ パディングまたは余白 ](#selecting-an-element) の追加などを行うことができます。
+   背景の挿入、サイズの変更、水平方向または垂直方向の整列の変更、色の管理、[&#x200B; パディングまたは余白 &#x200B;](#selecting-an-element) の追加などを行うことができます。
 
-   それには、**[!UICONTROL Settings]** ペインに表示されるオプションを使用するか、[ インラインスタイル属性を追加 ](#adding-inline-styling-attributes) します。
+   それには、**[!UICONTROL Settings]** ペインに表示されるオプションを使用するか、[&#x200B; インラインスタイル属性を追加 &#x200B;](#adding-inline-styling-attributes) します。
 
    ![](assets/des_settings_pane.png)
 

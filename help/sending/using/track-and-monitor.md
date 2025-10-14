@@ -32,7 +32,7 @@ ht-degree: 39%
 
 * メッセージダッシュボードから、この特定のメッセージに関する複数のレポートにアクセスできます。
 
-詳しくは、[ 配信の監視 ](../../sending/using/monitoring-a-delivery.md) を参照してください。
+詳しくは、[&#x200B; 配信の監視 &#x200B;](../../sending/using/monitoring-a-delivery.md) を参照してください。
 
 ## トラッキング {#tracking-deliveries}
 
@@ -40,7 +40,7 @@ ht-degree: 39%
 
 **ヒント**：メッセージトラッキングは、デフォルトで有効になっています。URL を設定するには、配信ウィザードの下部のセクションで「URL を表示」オプションを選択します。メッセージの URL ごとに、トラッキングを有効化するかどうかを選択できます。
 
-詳しくは、[ トラッキングメッセージ ](../../sending/using/tracking-messages.md) の節と [ トラッキング指標 ](../../reporting/using/tracking-indicators.md) の説明を参照してください。
+詳しくは、[&#x200B; トラッキングメッセージ &#x200B;](../../sending/using/tracking-messages.md) の節と [&#x200B; トラッキング指標 &#x200B;](../../reporting/using/tracking-indicators.md) の説明を参照してください。
 
 ## 動的レポート {#dyn-reports}
 
@@ -48,13 +48,13 @@ ht-degree: 39%
 
 **ヒント** - キャンペーンを監視するためのビルトインレポートを使用できますが、これらのレポートは、指標やディメンションをレポートにドラッグ&amp;ドロップしてカスタマイズすることもできます。
 
-詳しくは、[ レポートガイド ](../../reporting/using/about-dynamic-reports.md) を参照してください。
+詳しくは、[&#x200B; レポートガイド &#x200B;](../../reporting/using/about-dynamic-reports.md) を参照してください。
 
 ## ホットクリック
 
 ホットクリック レポートは、メッセージコンテンツ（HTMLまたはテキスト）と各リンクのクリック率を表示します。 各動的コンテンツのクリック率を表示することで、受信者に最も魅力的なコンテンツを測定できます。
 
-詳しくは、[ ホットクリックレポート ](../../reporting/using/hot-clicks.md) を参照してください。
+詳しくは、[&#x200B; ホットクリックレポート &#x200B;](../../reporting/using/hot-clicks.md) を参照してください。
 
 ## 配信パフォーマンスのヒント {#performance-tips}
 

@@ -24,7 +24,7 @@ ht-degree: 0%
 
    >[!CAUTION]
    >
-   >名前とパラメーター数が、ワークフローを呼び出す際に定義した名前と数と同じであることを確認します（[ このページ ](../../automating/using/defining-parameters-calling-workflow.md) を参照）。 さらに、パラメーターのタイプは、期待される値と一致する必要があります。
+   >名前とパラメーター数が、ワークフローを呼び出す際に定義した名前と数と同じであることを確認します（[&#x200B; このページ &#x200B;](../../automating/using/defining-parameters-calling-workflow.md) を参照）。 さらに、パラメーターのタイプは、期待される値と一致する必要があります。
 
    ![](assets/extsignal_declaringparameters_1.png)
 

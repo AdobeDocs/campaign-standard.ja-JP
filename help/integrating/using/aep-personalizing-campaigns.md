@@ -25,7 +25,7 @@ ht-degree: 6%
 >
 >**プッシュ** チャネルと **アプリ内** チャネルは、Adobe Experience Platformのコンテキストデータを使用したパーソナライゼーションではまだ使用できません。
 
-ワークフローに [Adobe Experience Platform オーディエンス ](../../integrating/using/aep-about-audience-destinations-service.md) が設定されたら、エクスペリエンスデータモデル（XDM）にのみ存在するプロファイル属性を使用してメッセージをパーソナライズできます。
+ワークフローに [Adobe Experience Platform オーディエンス &#x200B;](../../integrating/using/aep-about-audience-destinations-service.md) が設定されたら、エクスペリエンスデータモデル（XDM）にのみ存在するプロファイル属性を使用してメッセージをパーソナライズできます。
 
 これを行うには、次の属性を **[!UICONTROL Read audience]** アクティビティに追加する必要があります。
 

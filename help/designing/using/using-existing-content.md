@@ -25,7 +25,7 @@ Adobe Campaignには、利用を開始するのに役立つ、事前定義済み
 
 >[!NOTE]
 >
->以下の画像は、[ メールDesigner](../../designing/using/designing-content-in-adobe-campaign.md) を使用して既存のコンテンツを読み込む方法を示しています。
+>以下の画像は、[&#x200B; メールDesigner](../../designing/using/designing-content-in-adobe-campaign.md) を使用して既存のコンテンツを読み込む方法を示しています。
 
 1. メールまたはランディングページを作成したら、そのコンテンツを開きます。
 1. ホームアイコンをクリックして、**[!UICONTROL Email Designer]** のホームページにアクセスします。
@@ -34,10 +34,10 @@ Adobe Campaignには、利用を開始するのに役立つ、事前定義済み
 
 1. 読み込むコンテンツのソースを選択します。
 
-   * [ コンテンツテンプレート ](../../designing/using/using-reusable-content.md#content-templates):「コンテン **[!UICONTROL Templates]**」タブをクリックします。
-   * [ コンテンツをゼロから ](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)、新規に開始するには、「**[!UICONTROL Create]** 開」ボタンをクリックします。
-   * [ZIP ファイルまたはHTMLファイルとしてコンピューターからコンテンツを取得 ](#importing-content-from-a-file):「**[!UICONTROL Upload]**」ボタンをクリックします。
-   * [ 既存の URL のコンテンツ ](#importing-content-from-a-url) （メールの場合のみ）:「**[!UICONTROL Import from URL]** 信」ボタンをクリックします。
+   * [&#x200B; コンテンツテンプレート &#x200B;](../../designing/using/using-reusable-content.md#content-templates):「コンテン **[!UICONTROL Templates]**」タブをクリックします。
+   * [&#x200B; コンテンツをゼロから &#x200B;](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)、新規に開始するには、「**[!UICONTROL Create]** 開」ボタンをクリックします。
+   * [ZIP ファイルまたはHTMLファイルとしてコンピューターからコンテンツを取得 &#x200B;](#importing-content-from-a-file):「**[!UICONTROL Upload]**」ボタンをクリックします。
+   * [&#x200B; 既存の URL のコンテンツ &#x200B;](#importing-content-from-a-url) （メールの場合のみ）:「**[!UICONTROL Import from URL]** 信」ボタンをクリックします。
 
    ![](assets/des_loading_2.png)
 
@@ -47,7 +47,7 @@ Adobe Campaignには、利用を開始するのに役立つ、事前定義済み
 
    >[!NOTE]
    >
-   >[ 電子メールDesigner](../../designing/using/designing-content-in-adobe-campaign.md) では、特定のタグ付けを使用します。 Campaign にアップロードされる標準HTMLコンテンツは、電子メールDesignerから完全に互換性を持ち編集可能にするために、期待されるタグと一致する必要があります。 一致しない場合、コンテンツは [ 互換性モード ](#compatibility-mode) でアップロードされます。 既存のコンテンツに互換性を持たせるには、[ この節 ](#editing-existing-contents-with-the-email-designer) を参照してください。
+   >[&#x200B; 電子メールDesigner](../../designing/using/designing-content-in-adobe-campaign.md) では、特定のタグ付けを使用します。 Campaign にアップロードされる標準HTMLコンテンツは、電子メールDesignerから完全に互換性を持ち編集可能にするために、期待されるタグと一致する必要があります。 一致しない場合、コンテンツは [&#x200B; 互換性モード &#x200B;](#compatibility-mode) でアップロードされます。 既存のコンテンツに互換性を持たせるには、[&#x200B; この節 &#x200B;](#editing-existing-contents-with-the-email-designer) を参照してください。
 
 **関連トピック：**
 
@@ -56,11 +56,11 @@ Adobe Campaignには、利用を開始するのに役立つ、事前定義済み
 
 ## メールDesignerを使用した既存のコンテンツの編集{#editing-existing-contents-with-the-email-designer}
 
-[ メールDesigner](../../designing/using/designing-content-in-adobe-campaign.md) の編集機能を最大限に活用するには、アップロードするHTMLに、WYSIWYG エディターに準拠するための特定のタグが含まれている必要があります。
+[&#x200B; メールDesigner](../../designing/using/designing-content-in-adobe-campaign.md) の編集機能を最大限に活用するには、アップロードするHTMLに、WYSIWYG エディターに準拠するための特定のタグが含まれている必要があります。
 
-HTMLのすべてまたは一部にこのタグ付けがない場合、コンテンツは「[ 互換モード ](#compatibility-mode)」で読み込まれます。
+HTMLのすべてまたは一部にこのタグ付けがない場合、コンテンツは「[&#x200B; 互換モード &#x200B;](#compatibility-mode)」で読み込まれます。
 
-既存の外部コンテンツをメールDesigner内で完全に編集可能にするには、[ 既存のコンテンツを使用したメールのデザイン ](../../designing/using/using-existing-content.md) の節を参照してください。
+既存の外部コンテンツをメールDesigner内で完全に編集可能にするには、[&#x200B; 既存のコンテンツを使用したメールのデザイン &#x200B;](../../designing/using/using-existing-content.md) の節を参照してください。
 
 ## 既存のメールコンテンツの読み込み {#importing}
 
@@ -108,7 +108,7 @@ URL から既存のコンテンツを取得するには、次の手順に従い�
 
 >[!VIDEO](https://video.tv.adobe.com/v/25926?quality=12)
 
-その他のCampaign Standardチュートリアルビデオについては、[ こちら ](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja) を参照してください。
+その他のCampaign Standardチュートリアルビデオについては、[&#x200B; こちら &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja) を参照してください。
 
 ### 準備時に URL からコンテンツを自動的に取得 {#retrieving-content-from-a-url-automatically-at-preparation-time}
 
@@ -170,7 +170,7 @@ URL から既存のコンテンツを取得するには、次の手順に従い�
 
 メールに新しいセクションを追加したり、高度なスタイルを設定したりするなどの他の変更は、HTMLモードを使用して、メールのソースコードで直接行う必要があります。
 
-既存のメールをメールDesigner互換のメールに変換する方法については、[ この節 ](../../designing/using/using-existing-content.md) を参照してください。
+既存のメールをメールDesigner互換のメールに変換する方法については、[&#x200B; この節 &#x200B;](../../designing/using/using-existing-content.md) を参照してください。
 
 **関連トピック**：
 

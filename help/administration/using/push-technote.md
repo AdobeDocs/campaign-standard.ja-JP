@@ -31,7 +31,7 @@ Campaign を使用すると、AndroidとiOSのデバイスでプッシュ通知�
 
 Google のサービス向上への継続的な取り組みの一環として、レガシー FCM API は **2024年6月20日（PT）**&#x200B;に廃止されます。Firebase Cloud Messaging HTTP プロトコルについて詳しくは、[Google Firebase ドキュメント](https://firebase.google.com/docs/cloud-messaging/http-server-ref){target="_blank"}を参照してください。
 
-[24.1 リリース ](../../rn/using/release-notes.md) 以降、Adobe Campaign Standardでは、Android プッシュ通知メッセージを送信する HTTP v1 API をサポートしています。
+[24.1 リリース &#x200B;](../../rn/using/release-notes.md) 以降、Adobe Campaign Standardでは、Android プッシュ通知メッセージを送信する HTTP v1 API をサポートしています。
 
 ### 影響の有無 {#fcm-impact}
 
@@ -49,11 +49,11 @@ Google のサービス向上への継続的な取り組みの一環として、�
 
 #### 前提条件 {#fcm-transition-prerequisites}
 
-* **HTTP v1 API** モードのサポートが 24.1 リリースで追加されました。 環境が古いバージョンで実行されている場合、この変更の前提条件は、環境を [ 最新のCampaign Standardリリース ](../../rn/using/release-notes.md) にアップグレードすることです。
+* **HTTP v1 API** モードのサポートが 24.1 リリースで追加されました。 環境が古いバージョンで実行されている場合、この変更の前提条件は、環境を [&#x200B; 最新のCampaign Standardリリース &#x200B;](../../rn/using/release-notes.md) にアップグレードすることです。
 
 * モバイルアプリケーションを HTTP v1 に移行するには、Android Firebase Admin SDK サービスのアカウント JSON ファイルが必要です。このファイルを取得する方法について詳しくは、[Google Firebase ドキュメント](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}を参照してください。
 
-* このレガシーバージョンのSDKをまだ使用している場合は、Adobe Experience Platform SDKを使用して実装を更新する必要があります。 Adobe Experience Plaform SDKに移行する方法については、[ この記事 ](sdkv4-migration.md) を参照してください。
+* このレガシーバージョンのSDKをまだ使用している場合は、Adobe Experience Platform SDKを使用して実装を更新する必要があります。 Adobe Experience Plaform SDKに移行する方法については、[&#x200B; この記事 &#x200B;](sdkv4-migration.md) を参照してください。
 
 * 次の手順を実行する前に、Adobe Experience Platform Data Collection Mobile に **モバイルアプリ設定** 権限があることを確認してください。 [詳細情報](https://experienceleague.adobe.com/docs/experience-platform/collection/permissions.html?lang=ja#adobe-experience-platform-data-collection-permissions){target="_blank"}
 
@@ -118,7 +118,7 @@ Adobe Campaign Standardは、トークンベースの接続と証明書ベース
 
 #### 前提条件 {#ios-transition-prerequisites}
 
-* **トークンベースの認証** モードのサポートが、[24.1 リリース ](../../rn/using/release-notes.md) で追加されました。 環境が古いバージョンで実行されている場合、この変更の前提条件は、環境を [ 最新のCampaign Standardリリース ](../../rn/using/release-notes.md) にアップグレードすることです。
+* **トークンベースの認証** モードのサポートが、[24.1 リリース &#x200B;](../../rn/using/release-notes.md) で追加されました。 環境が古いバージョンで実行されている場合、この変更の前提条件は、環境を [&#x200B; 最新のCampaign Standardリリース &#x200B;](../../rn/using/release-notes.md) にアップグレードすることです。
 
 * サーバーが使用するトークンを生成するには、APNs 認証トークン署名キーが必要です。[Apple 開発者向けドキュメント](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}で説明するように、Apple 開発者アカウントからこのキーをリクエストします。
 

@@ -25,7 +25,7 @@ ht-degree: 13%
 
 >[!NOTE]
 >
->以下の画像は、[ メールDesigner](../../designing/using/designing-content-in-adobe-campaign.md) を使用してメールにリンクを挿入する方法を示しています。
+>以下の画像は、[&#x200B; メールDesigner](../../designing/using/designing-content-in-adobe-campaign.md) を使用してメールにリンクを挿入する方法を示しています。
 
 1. 要素を選択し、コンテキストツールバーから **[!UICONTROL Insert link]** をクリックします。
 
@@ -35,7 +35,7 @@ ht-degree: 13%
 
    * **外部リンク**：外部 URL へのリンクを挿入します。
 
-     URL に対してパーソナライゼーションを定義できます。 [URL のパーソナライズ ](personalization.md#personalizing-urls) を参照してください。
+     URL に対してパーソナライゼーションを定義できます。 [URL のパーソナライズ &#x200B;](personalization.md#personalizing-urls) を参照してください。
 
    * **ランディングページ**:Adobe Campaign ランディングページへのアクセス権を付与します。
    * **購読リンク**:Adobe Campaign サービスを購読するためのリンクを挿入します。
@@ -59,7 +59,7 @@ ht-degree: 13%
 
 ![](assets/des_link_edit.png)
 
-[ メールDesigner](../../designing/using/designing-content-in-adobe-campaign.md) を使用してメールを編集する際に、メールに含まれるすべての URL をリストした表から、作成したリンクに簡単にアクセスして変更できます。 このリストを使用すると、一元表示が可能になり、メールコンテンツ内の各 URL を見つけることができます。 アクセスするには、[ トラッキングされる URL について ](#about-tracked-urls) を参照してください。
+[&#x200B; メールDesigner](../../designing/using/designing-content-in-adobe-campaign.md) を使用してメールを編集する際に、メールに含まれるすべての URL をリストした表から、作成したリンクに簡単にアクセスして変更できます。 このリストを使用すると、一元表示が可能になり、メールコンテンツ内の各 URL を見つけることができます。 アクセスするには、[&#x200B; トラッキングされる URL について &#x200B;](#about-tracked-urls) を参照してください。
 
 ![](assets/des_link_list.png)
 
@@ -83,7 +83,7 @@ Adobe Campaignを使用すると、メールに含まれる URL を受信者が�
 
 >[!NOTE]
 >
->トラッキングはデフォルトで有効になっています。 この機能は、Adobe Campaignでトラッキングが有効化されている場合に、メールでのみ使用できます。 トラッキングパラメーターについて詳しくは、[ この節 ](../../administration/using/configuring-email-channel.md#tracking-parameters) を参照してください。
+>トラッキングはデフォルトで有効になっています。 この機能は、Adobe Campaignでトラッキングが有効化されている場合に、メールでのみ使用できます。 トラッキングパラメーターについて詳しくは、[&#x200B; この節 &#x200B;](../../administration/using/configuring-email-channel.md#tracking-parameters) を参照してください。
 
 各リンクの URL、カテゴリ、ラベル、トラッキングタイプは、このリストから変更できます。 リンクを編集するには、対応する鉛筆アイコンをクリックします。
 
@@ -104,7 +104,7 @@ Adobe Campaignを使用すると、メールに含まれる URL を受信者が�
 >
 >Adobe Campaignでは、デフォルトで、**ミラーページ URL** リンクと **購読解除** リンクを除くすべてのコンテンツ URL がトラッキングされます。
 
-メッセージで使用される URL に応じて **[!UICONTROL Category]** フィールドを編集することで、URL を再グループ化できます。 これらのカテゴリは、例えば [URL とクリックストリーム ](../../reporting/using/urls-and-click-streams.md) などのレポートを表示できます。
+メッセージで使用される URL に応じて **[!UICONTROL Category]** フィールドを編集することで、URL を再グループ化できます。 これらのカテゴリは、例えば [URL とクリックストリーム &#x200B;](../../reporting/using/urls-and-click-streams.md) などのレポートを表示できます。
 
 ![](assets/des_link_tracking_category.png)
 
@@ -112,4 +112,4 @@ Adobe Campaignを使用すると、メールに含まれる URL を受信者が�
 
 ![](assets/des_link_tracking_report.png)
 
-カスタマイズされたレポートの作成について詳しくは、[ この節 ](../../reporting/using/about-dynamic-reports.md) を参照してください。
+カスタマイズされたレポートの作成について詳しくは、[&#x200B; この節 &#x200B;](../../reporting/using/about-dynamic-reports.md) を参照してください。

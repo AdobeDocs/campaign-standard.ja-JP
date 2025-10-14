@@ -26,7 +26,7 @@ ht-degree: 73%
 
 ブランドの設定と使用に関する主な原則は次のとおりです。
 
-1. ブランドの作成と設定 – この操作には特定の権限が必要で、Adobe Campaignの技術管理者が実行します。 Campaign で新しいブランドを取得する手順について詳しくは [ この節 ](#creating-a-brand) を参照してください。
+1. ブランドの作成と設定 – この操作には特定の権限が必要で、Adobe Campaignの技術管理者が実行します。 Campaign で新しいブランドを取得する手順について詳しくは [&#x200B; この節 &#x200B;](#creating-a-brand) を参照してください。
 1. ブランドの配信とランディングページテンプレートを 1 つまたは複数作成します。[テンプレートの作成](../../start/using/marketing-activity-templates.md)の節を参照してください。
 1. このテンプレートに基づいてメッセージとランディングページを作成します。[メールの作成](../../channels/using/creating-an-email.md)と[ランディングページの作成](../../channels/using/designing-a-landing-page.md)の節を参照してください。
 
@@ -87,13 +87,13 @@ ht-degree: 73%
 
 Campaign で組織の新しいエンティティを追加したり、新しいタイプのメールを作成したりできます。このメールは、別のサブドメインで送信する必要があります。 手順は次のとおりです。
 
-1. **新しいサブドメインの設定** - Adobeで新しいサブドメインを使用する場合、最初の手順としてそのサブドメインを設定します。 これは、[Campaign Campaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=ja) を通じて実行するか、Adobeの技術担当者にお問い合わせください。 サブドメイン設定について詳しくは [ この記事 ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup.html?lang=ja) を参照してください。
+1. **新しいサブドメインの設定** - Adobeで新しいサブドメインを使用する場合、最初の手順としてそのサブドメインを設定します。 これは、[Campaign Campaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=ja) を通じて実行するか、Adobeの技術担当者にお問い合わせください。 サブドメイン設定について詳しくは [&#x200B; この記事 &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-domain-name-setup.html?lang=ja) を参照してください。
 
    >[!NOTE]
    >
    >コントロールパネルは、すべての管理者ユーザーがアクセスできます。 ユーザーに管理者アクセス権を付与する手順については、[このページ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ja#discover-control-panel)で詳しく説明しています。
 
-1. **チケットの作成** - サブドメインを設定すると、Adobeによって実稼動環境でサブドメインが設定されます。 これをリクエストするには、次の情報を使用して [ クライアントケアへのチケットを作成 ](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html) します。
+1. **チケットの作成** - サブドメインを設定すると、Adobeによって実稼動環境でサブドメインが設定されます。 これをリクエストするには、次の情報を使用して [&#x200B; クライアントケアへのチケットを作成 &#x200B;](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html) します。
 
    * 件名：ACS 新しいブランドの設定
 
@@ -105,7 +105,7 @@ Campaign で組織の新しいエンティティを追加したり、新しい�
 
 1. **配信テンプレートの作成** – 新しいブランドが使用可能になったら、この新しいブランドを参照する新しい空白の配信テンプレートを少なくとも 1 つ作成することをお勧めします。 [詳細情報](#linking-a-brand-to-a-template)。
 
-1. **配信品質のガイドラインを確認する** – 新しいドメインの使用を開始する前に、戦略についてAdobe配信品質チームに問い合わせる必要があります。 ドメイン間で IP を分割するために新しいアフィニティを作成する必要がある場合（例：や、ランプアッププランを定義する必要がある場合）は、ベストプラクティスの定義に役立ちます。 配信品質のベストプラクティスについて詳しくは [ この節 ](../../sending/using/about-deliverability.md) を参照してください。
+1. **配信品質のガイドラインを確認する** – 新しいドメインの使用を開始する前に、戦略についてAdobe配信品質チームに問い合わせる必要があります。 ドメイン間で IP を分割するために新しいアフィニティを作成する必要がある場合（例：や、ランプアッププランを定義する必要がある場合）は、ベストプラクティスの定義に役立ちます。 配信品質のベストプラクティスについて詳しくは [&#x200B; この節 &#x200B;](../../sending/using/about-deliverability.md) を参照してください。
 
 ## メールへのブランドの割り当て {#assigning-a-brand-to-an-email}
 

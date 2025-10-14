@@ -21,9 +21,9 @@ ht-degree: 0%
 
 以下のリソースを確認してください。
 
-* [ ビデオTutorials](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/in-app/in-app-message-overview.html?lang=ja)
-* [ ブログ投稿 ](https://theblog.adobe.com/get-more-out-of-the-new-in-app-message-channel-from-adobe-campaign/)
-* [ コミュニティページ ](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community?profile.language=ja)
+* [&#x200B; ビデオTutorials](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/in-app/in-app-message-overview.html?lang=ja)
+* [&#x200B; ブログ投稿 &#x200B;](https://theblog.adobe.com/get-more-out-of-the-new-in-app-message-channel-from-adobe-campaign/)
+* [&#x200B; コミュニティページ &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community?profile.language=ja)
 
 ## Campaign 拡張機能 API の setLinkageField および resetLinkageField の目的は何ですか？ {#extensions-apis}
 
@@ -38,15 +38,15 @@ ht-degree: 0%
 
 ## Campaign でアプリ内レポートを有効にするには、どうすればよいですか？ {#enable-inapp-reporting}
 
-アプリ内トラッキングのポストバックを設定する必要があります。 手順については、[ こちら ](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback) を参照してください。
+アプリ内トラッキングのポストバックを設定する必要があります。 手順については、[&#x200B; こちら &#x200B;](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback) を参照してください。
 
-ローカル通知トラッキングを実装するには、この [ ページ ](../../administration/using/local-tracking.md) を参照してください。
+ローカル通知トラッキングを実装するには、この [&#x200B; ページ &#x200B;](../../administration/using/local-tracking.md) を参照してください。
 
 ## アプリ内チャネルで使用できるレポートはどれですか？ {#report-inapp}
 
-アプリ内チャネル用のAdobe Campaignでは、標準レポートを使用できます。 この [ ドキュメント ](../../reporting/using/in-app-report.md) を参照してください。
+アプリ内チャネル用のAdobe Campaignでは、標準レポートを使用できます。 この [&#x200B; ドキュメント &#x200B;](../../reporting/using/in-app-report.md) を参照してください。
 
-各アプリ内指標の計算方法については、この [ ページ ](../../reporting/using/indicator-calculation.md#in-app-delivery) を参照してください。
+各アプリ内指標の計算方法については、この [&#x200B; ページ &#x200B;](../../reporting/using/indicator-calculation.md#in-app-delivery) を参照してください。
 
 ## プッシュと同様に、アプリ内の多言語コンテンツのバリエーションをサポートしていますか？ {#multilingual-inapp}
 
@@ -73,7 +73,7 @@ iOSのカスタムサウンドの場合は、ローカル通知を作成する�
 はい、ディープリンクはアプリ内メッセージでサポートされています。 ディープリンクには、次を含める必要があります。
 
 * ディープリンクを機能させるには、配信トラッキングを無効にする必要があることを示す言語です。
-* ディープリンクトラッキングを実行できるパートナーとして支店を持つ Appsflyer。 ブランチとAdobe Campaign Standardの統合について詳しくは、この [ ページ ](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1) を参照してください。
+* ディープリンクトラッキングを実行できるパートナーとして支店を持つ Appsflyer。 ブランチとAdobe Campaign Standardの統合について詳しくは、この [&#x200B; ページ &#x200B;](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1) を参照してください。
 
 ## ユーザーがプッシュ通知からアプリを起動すると、アプリ内メッセージをトリガーできますか？ {#inapp-push-trigger}
 

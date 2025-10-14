@@ -35,13 +35,13 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->ユーザーが異なるユニットにリンクされた複数のグループに属する場合、特定のルールが適用されます。 詳しくは、[ グループとユーザーの管理 ](../../administration/using/managing-groups-and-users.md) の節を参照してください。
+>ユーザーが異なるユニットにリンクされた複数のグループに属する場合、特定のルールが適用されます。 詳しくは、[&#x200B; グループとユーザーの管理 &#x200B;](../../administration/using/managing-groups-and-users.md) の節を参照してください。
 
 ## ユニットの作成と管理 {#creating-and-managing-units}
 
 組織単位を使用すると、ユーザーがリンクされている組織に応じてインスタンスをフィルタリングできます。 この単位は、インスタンス内の地域、国、またはブランドを表すことができます。
 
-ここでは、以前に 2 人のユーザーに対して異なるロールを持つセキュリティグループを作成しました。一方のユーザーはセキュリティグループ Administrators とGeometrixxに割り当てられ、もう一方のユーザーはセキュリティグループ Standard user とGeometrixx服に属します。詳細は [ セキュリティグループの作成とユーザーの割り当て ](../../administration/using/managing-groups-and-users.md#creating-a-security-group-and-assigning-users) を参照してください。
+ここでは、以前に 2 人のユーザーに対して異なるロールを持つセキュリティグループを作成しました。一方のユーザーはセキュリティグループ Administrators とGeometrixxに割り当てられ、もう一方のユーザーはセキュリティグループ Standard user とGeometrixx服に属します。詳細は [&#x200B; セキュリティグループの作成とユーザーの割り当て &#x200B;](../../administration/using/managing-groups-and-users.md#creating-a-security-group-and-assigning-users) を参照してください。
 
 次に、Geometrixx衣料およびGeometrixxセキュリティグループの組織単位を作成する必要があります。
 
@@ -103,13 +103,13 @@ Geometrixx組織単位（OU）を持つプロファイルは読み取り専用�
 デフォルトでは、組織単位フィールドはプロファイルで使用できないので、追加する必要があります。
 
 1. Adobe Campaign ロゴを使用して、詳細メニューで、**管理/開発/カスタムリソース** を選択します。
-1. **プロファイル** を選択するか、新しいカスタムリソースを作成してプロファイルを拡張します。 プロファイルの拡張方法について詳しくは、この [ ページ ](../../developing/using/extending-the-profile-resource-with-a-new-field.md#step-1--extend-the-profile-resource) を参照してください。
+1. **プロファイル** を選択するか、新しいカスタムリソースを作成してプロファイルを拡張します。 プロファイルの拡張方法について詳しくは、この [&#x200B; ページ &#x200B;](../../developing/using/extending-the-profile-resource-with-a-new-field.md#step-1--extend-the-profile-resource) を参照してください。
 1. **アクセス認証管理フィールドを追加** ボックスをオンにして、**Profile** 拡張機能に組織単位を追加します。
 
    ![](assets/user_management_9.png)
 
 1. 「**[!UICONTROL Save]**」をクリックします。
-1. カスタムリソースを再公開して、構造を更新します。 公開プロセスについて詳しくは、[ 構造の更新 ](../../developing/using/updating-the-database-structure.md) を参照してください。
+1. カスタムリソースを再公開して、構造を更新します。 公開プロセスについて詳しくは、[&#x200B; 構造の更新 &#x200B;](../../developing/using/updating-the-database-structure.md) を参照してください。
 
 組織単位フィールドは、「**[!UICONTROL Access authorization]**」セクションのプロファイルに追加されます。
 

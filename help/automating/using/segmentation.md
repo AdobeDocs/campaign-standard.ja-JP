@@ -38,7 +38,7 @@ ht-degree: 79%
 
 **関連トピック**
 
-* [ ユースケース：年齢層に応じたプロファイルのセグメント化 ](../../automating/using/segmentation-age-groups.md)
+* [&#x200B; ユースケース：年齢層に応じたプロファイルのセグメント化 &#x200B;](../../automating/using/segmentation-age-groups.md)
 
 ## 設定 {#configuration}
 
@@ -61,7 +61,7 @@ ht-degree: 79%
    * **[!UICONTROL Limit segment population]**：セグメントのサイズを制限できます。
    * **[!UICONTROL Filter and limit segment population]**：セグメント母集団をフィルターしてサイズを制限できます。
    * **[!UICONTROL Label]**：セグメントラベル。
-   * **[!UICONTROL Segment code]**：セグメント母集団に割り当てられたコード。セグメントコードは、標準の式およびイベント変数を使用してパーソナライズできます（[ このページ ](../../automating/using/customizing-workflow-external-parameters.md) を参照）。
+   * **[!UICONTROL Segment code]**：セグメント母集団に割り当てられたコード。セグメントコードは、標準の式およびイベント変数を使用してパーソナライズできます（[&#x200B; このページ &#x200B;](../../automating/using/customizing-workflow-external-parameters.md) を参照）。
    * **[!UICONTROL Exclude segment from population]**：指定したセグメントをアクティビティのアウトバウンド母集団から除外できます。このオプションは、「**[!UICONTROL Generate all segments in the same transition]**」オプションが選択されている場合にのみ使用できます。
 
    ![](assets/wkf_segment_new_segment.png)
@@ -99,6 +99,6 @@ ht-degree: 79%
       * このオプションが有効になっていない場合、**[!UICONTROL Segmentation]** アクティビティは、このプロファイルが複数のサブセットの条件を満たす場合でも、プロファイルが複数の出力トランジションに存在しないことを確認します。
       * このオプションを有効にすると、プロファイルがフィルター条件を満たす場合、複数のサブセットに含めることができます。
    * インバウンド母集団に、保持するセグメントコードが既に割り当てられている場合は、「**[!UICONTROL Concatenate the code of each segment]**」オプションをオンにします。 アクティビティで指定されたセグメントコードが、最初のセグメントコードに追加されます。
-   * 残りの母集団を悪用する必要がある場合は、「**[!UICONTROL Generate complement]**」オプションをオンにします。 [ ユースケース：補完を含んだ配信の作成 ](../../automating/using/workflow-created-query-with-complement.md) を参照してください。
+   * 残りの母集団を悪用する必要がある場合は、「**[!UICONTROL Generate complement]**」オプションをオンにします。 [&#x200B; ユースケース：補完を含んだ配信の作成 &#x200B;](../../automating/using/workflow-created-query-with-complement.md) を参照してください。
 
 1. アクティビティの設定を確認し、ワークフローを保存します。

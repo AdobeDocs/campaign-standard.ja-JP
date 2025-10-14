@@ -23,5 +23,5 @@ ht-degree: 29%
 
 **関連トピック：**
 
-* [ 配信の監視 ](../../sending/using/monitoring-a-delivery.md#exclusion-logs)。
-* [ 送信の準備 ](../../sending/using/preparing-the-send.md)。
+* [&#x200B; 配信の監視 &#x200B;](../../sending/using/monitoring-a-delivery.md#exclusion-logs)。
+* [&#x200B; 送信の準備 &#x200B;](../../sending/using/preparing-the-send.md)。

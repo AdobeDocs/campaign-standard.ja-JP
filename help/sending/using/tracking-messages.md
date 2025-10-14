@@ -86,7 +86,7 @@ Adobe Campaign Standardを使用したトラッキングでは、次の機能に
 >
 >**プッシュ通知** チャネルの場合、モバイル通知のクリックのみがトラッキングされます。 この場合、値は **[!UICONTROL Click on mobile notification]** になります。
 
-トラッキングリンクの挿入方法について詳しくは、[ このページ ](../../designing/using/links.md#inserting-a-link) を参照してください。
+トラッキングリンクの挿入方法について詳しくは、[&#x200B; このページ &#x200B;](../../designing/using/links.md#inserting-a-link) を参照してください。
 
 **[!UICONTROL Tracking indicators]** レポートには、メールメッセージを受信した後の行動をトラッキングする主要な指標が含まれています。 詳しくは、この[ページ](../../reporting/using/tracking-indicators.md)を参照してください。
 
@@ -96,4 +96,4 @@ Adobe Campaign Standardを使用したトラッキングでは、次の機能に
 
 ![](assets/sending_delivery6.png)
 
-トラッキングリンクについて詳しくは、[ この節 ](../../designing/using/links.md#about-tracked-urls) を参照してください。
+トラッキングリンクについて詳しくは、[&#x200B; この節 &#x200B;](../../designing/using/links.md#about-tracked-urls) を参照してください。

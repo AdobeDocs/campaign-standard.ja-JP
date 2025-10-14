@@ -41,7 +41,7 @@ ht-degree: 53%
 
   強制隔離されたアドレスまたは電話番号は、[除外ログ](#identifying-quarantined-addresses-for-a-delivery)（配信の場合）または[強制隔離リスト](#identifying-quarantined-addresses-for-the-entire-platform)（プラットフォーム全体の場合）に表示されます。
 
-* 一方、**ブロックリスト**&#x200B;への登録では、特定のチャネルを購読解除（オプトアウト）した後などは、**プロファイル**&#x200B;は配信のターゲットとなりません。例えば、メールチャネルのブロックリスト上のプロファイルに 2 つのメールアドレスがある場合、両方のアドレスが配信から除外されます。 ブロックリストプロセスについて詳しくは、[Campaign のオプトインとオプトアウトについて ](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md) を参照してください。
+* 一方、**ブロックリスト**&#x200B;への登録では、特定のチャネルを購読解除（オプトアウト）した後などは、**プロファイル**&#x200B;は配信のターゲットとなりません。例えば、メールチャネルのブロックリスト上のプロファイルに 2 つのメールアドレスがある場合、両方のアドレスが配信から除外されます。 ブロックリストプロセスについて詳しくは、[Campaign のオプトインとオプトアウトについて &#x200B;](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md) を参照してください。
 
   プロファイルが 1 つ以上のチャネルのブロックリストに含まれているかどうかは、プロファイルの「**[!UICONTROL General]**」タブの「**[!UICONTROL No longer contact (on denylist)]**」セクションで確認できます。 詳しくは、[この節](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md#managing-opt-in-and-opt-out-from-a-profile)を参照してください。
 
@@ -83,7 +83,7 @@ This menu lists quarantined elements for **Email**, **SMS** and **Push notificat
 
 ![](assets/quarantines-filters.png)
 
-エントリごとに編集または [ 削除 ](#removing-a-quarantined-address) したり、新しいエントリを作成したりできます。
+エントリごとに編集または [&#x200B; 削除 &#x200B;](#removing-a-quarantined-address) したり、新しいエントリを作成したりできます。
 
 エントリを編集するには、対応する行をクリックし、必要に応じてフィールドを変更します。
 
@@ -101,7 +101,7 @@ This menu lists quarantined elements for **Email**, **SMS** and **Push notificat
 
 ### 自動更新 {#unquarantine-auto}
 
-特定の条件に一致するアドレスは、データベースクリーンアップ ワークフローによって強制隔離リストから自動的に削除されます。 テクニカルワークフローについて詳しくは、[ この節 ](../../administration/using/technical-workflows.md#list-of-technical-workflows) を参照してください。
+特定の条件に一致するアドレスは、データベースクリーンアップ ワークフローによって強制隔離リストから自動的に削除されます。 テクニカルワークフローについて詳しくは、[&#x200B; この節 &#x200B;](../../administration/using/technical-workflows.md#list-of-technical-workflows) を参照してください。
 
 次の場合、アドレスは強制隔離リストから自動的に削除されます。
 
@@ -181,4 +181,4 @@ Adobe Campaign は、エラーメッセージの選定時に割り当てられ�
 <!--In the default configuration, the threshold is set at five errors, where two errors are significant if they occur at least 24 hours apart. The address is placed in quarantine at the fifth error.
 The error counter threshold can be modified.-->
 
-最後に重大なエラーが発生したのが 10 日以上前の場合、エラーカウンターが再初期化されます。その後、アドレスのステータスは **有効** に変わり、**データベースクリーンアップ** ワークフローによって強制隔離のリストから削除されます。 （テクニカルワークフローについて詳しくは、[ この節 ](../../administration/using/technical-workflows.md#list-of-technical-workflows) を参照してください）。
+最後に重大なエラーが発生したのが 10 日以上前の場合、エラーカウンターが再初期化されます。その後、アドレスのステータスは **有効** に変わり、**データベースクリーンアップ** ワークフローによって強制隔離のリストから削除されます。 （テクニカルワークフローについて詳しくは、[&#x200B; この節 &#x200B;](../../administration/using/technical-workflows.md#list-of-technical-workflows) を参照してください）。

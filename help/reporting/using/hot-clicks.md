@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ![](assets/delivery_reports_10.png)
 
-配信の動的コンテンツを作成した場合は、定義した各条件に対する割合を表示できます。 配信への条件付きコンテンツの挿入について詳しくは、[ 動的コンテンツの定義 ](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) を参照してください。
+配信の動的コンテンツを作成した場合は、定義した各条件に対する割合を表示できます。 配信への条件付きコンテンツの挿入について詳しくは、[&#x200B; 動的コンテンツの定義 &#x200B;](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) を参照してください。
 
 例えば、次の条件を持つ配信を作成したとします。
 
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 25 を超える受信者のクリック数を表示するには、「**[!UICONTROL Change profile]**」ボタンをクリックし、生年月日がこの条件に一致するテストプロファイルを選択します。
 
-テストプロファイルについて詳しくは、[ テストプロファイルについて ](../../audiences/using/managing-test-profiles.md) を参照してください。
+テストプロファイルについて詳しくは、[&#x200B; テストプロファイルについて &#x200B;](../../audiences/using/managing-test-profiles.md) を参照してください。
 
 >[!NOTE]
 >
@@ -63,11 +63,11 @@ ht-degree: 0%
 
   例えば、この配信を管理するワークフローが月に 1 回実行される場合、実行配信は月に 1 回になります。 これに加えて、配信のコンテンツが更新されるたびに、追加の実行配信が作成されます。
 
-  繰り返しメール配信について詳しくは、「[ メール配信 ](../../automating/using/email-delivery.md)」を参照してください。
+  繰り返しメール配信について詳しくは、「[&#x200B; メール配信 &#x200B;](../../automating/using/email-delivery.md)」を参照してください。
 
 * デフォルトでは、トランザクションメッセージは月に 1 回で、トランザクションメッセージを編集して再度公開するたびに行われます。
 
-  トランザクションメッセージについて詳しくは、[ トランザクションメッセージの概要 ](../../channels/using/getting-started-with-transactional-msg.md) を参照してください。
+  トランザクションメッセージについて詳しくは、[&#x200B; トランザクションメッセージの概要 &#x200B;](../../channels/using/getting-started-with-transactional-msg.md) を参照してください。
 
 >[!NOTE]
 >

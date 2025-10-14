@@ -22,19 +22,19 @@ ht-degree: 27%
 以下は、メールDesignerを使用してメールコンテンツをゼロから作成およびデザインする主な手順です。
 
 1. メールを作成し、そのコンテンツを開きます。
-1. 構造コンポーネントを追加して、メールを形作ります。 [ メール構造の編集 ](#defining-the-email-structure) を参照してください。
-1. 構造コンポーネントにコンテンツコンポーネントとフラグメントを挿入します。 詳しくは、[ フラグメントとコンテンツコンポーネントの追加 ](#defining-the-email-structure) を参照してください。
+1. 構造コンポーネントを追加して、メールを形作ります。 [&#x200B; メール構造の編集 &#x200B;](#defining-the-email-structure) を参照してください。
+1. 構造コンポーネントにコンテンツコンポーネントとフラグメントを挿入します。 詳しくは、[&#x200B; フラグメントとコンテンツコンポーネントの追加 &#x200B;](#defining-the-email-structure) を参照してください。
 1. 画像を追加し、メールのテキストを編集します。 [画像の挿入](../../designing/using/images.md#inserting-images)を参照してください。
-1. パーソナライゼーションフィールド、リンクなどを追加して、メールをパーソナライズします。 [ パーソナライゼーションフィールドの挿入 ](../../designing/using/personalization.md#inserting-a-personalization-field)、[ リンクの挿入 ](../../designing/using/links.md#inserting-a-link) および [ メールへの動的コンテンツの定義 ](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) を参照してください。
-1. メールの件名を定義します。 [ メールの件名のパーソナライズ ](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email) を参照してください。
+1. パーソナライゼーションフィールド、リンクなどを追加して、メールをパーソナライズします。 [&#x200B; パーソナライゼーションフィールドの挿入 &#x200B;](../../designing/using/personalization.md#inserting-a-personalization-field)、[&#x200B; リンクの挿入 &#x200B;](../../designing/using/links.md#inserting-a-link) および [&#x200B; メールへの動的コンテンツの定義 &#x200B;](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) を参照してください。
+1. メールの件名を定義します。 [&#x200B; メールの件名のパーソナライズ &#x200B;](../../designing/using/subject-line.md#defining-the-subject-line-of-an-email) を参照してください。
 1. メールのプレビュー。
 1. コンテンツを保存し、オーディエンスを定義し、送信を適切にスケジュールしたことを確認した後、メッセージに進みます。
 
-こちらの [ 紹介ビデオ ](https://video.tv.adobe.com/v/330102/?autoplay=true&hidetitle=true&captions=jpn) も確認できます。
+こちらの [&#x200B; 紹介ビデオ &#x200B;](https://video.tv.adobe.com/v/330102/?autoplay=true&hidetitle=true&captions=jpn) も確認できます。
 
 >[!NOTE]
 >
->メールコンテンツをゼロからデザインしないようにするには、標準提供のコンテンツテンプレートを使用できます。 詳しくは、[ コンテンツテンプレート ](../../designing/using/using-reusable-content.md#content-templates) を参照してください。
+>メールコンテンツをゼロからデザインしないようにするには、標準提供のコンテンツテンプレートを使用できます。 詳しくは、[&#x200B; コンテンツテンプレート &#x200B;](../../designing/using/using-reusable-content.md#content-templates) を参照してください。
 
 ## メール構造の定義 {#defining-the-email-structure}
 
@@ -117,7 +117,7 @@ E メールデザイナーを使用すると、メールの構造を簡単に定
 
 複数のボタンを使用する必要がある場合は、各ボタンを最初から編集するのではなく、コンテキストツールバーを使用して **[!UICONTROL Button]** コンポーネントを複製できます。
 
-再利用可能なフラグメントにボタンを保存することもできます。 詳しくは、[ コンテンツフラグメントの作成 ](../../designing/using/using-reusable-content.md#creating-a-content-fragment) および [ コンテンツをフラグメントとして保存 ](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment) を参照してください。
+再利用可能なフラグメントにボタンを保存することもできます。 詳しくは、[&#x200B; コンテンツフラグメントの作成 &#x200B;](../../designing/using/using-reusable-content.md#creating-a-content-fragment) および [&#x200B; コンテンツをフラグメントとして保存 &#x200B;](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment) を参照してください。
 
 「**[!UICONTROL Fallback view]**」を選択すると、メールDesignerにフォールバック画像が表示されます。
 
@@ -135,7 +135,7 @@ E メールデザイナーを使用すると、メールの構造を簡単に定
 
 >[!NOTE]
 >
->無料のHTML コンポーネントは、編集できますが、オプションは限られています。 すべてのスタイルがインライン化されていない場合は、HTML コードの **head** セクションに適切な CSS を必ず追加してください。そうしないと、メールは応答しません。 「**[!UICONTROL Preview]**」ボタンを使用して、コンテンツの応答性をテストします（[ メッセージのプレビュー ](../../sending/using/previewing-messages.md) を参照）。
+>無料のHTML コンポーネントは、編集できますが、オプションは限られています。 すべてのスタイルがインライン化されていない場合は、HTML コードの **head** セクションに適切な CSS を必ず追加してください。そうしないと、メールは応答しません。 「**[!UICONTROL Preview]**」ボタンを使用して、コンテンツの応答性をテストします（[&#x200B; メッセージのプレビュー &#x200B;](../../sending/using/previewing-messages.md) を参照）。
 
 外部コンテンツを簡単にメールDesignerAdobeに準拠させるには、ゼロからメッセージを作成し、既存のメールのコンテンツをフラグメントとコンポーネントにコピーすることをお勧めします。
 

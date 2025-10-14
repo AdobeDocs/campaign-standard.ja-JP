@@ -20,7 +20,7 @@ ht-degree: 4%
 
 ワークフローを作成するには、次の手順に従います。
 
-1. [ スケジューラー ](../../automating/using/scheduler.md) アクティビティを使用すると、配信開始の日前のワークフローを開始して、任意のタイムゾーンの午後 8 時にすべての購読者に通知を送信できます。
+1. [&#x200B; スケジューラー &#x200B;](../../automating/using/scheduler.md) アクティビティを使用すると、配信開始の日前のワークフローを開始して、任意のタイムゾーンの午後 8 時にすべての購読者に通知を送信できます。
 
    * 「**[!UICONTROL Execution frequency]**」フィールドで、「毎月」を選択します。
    * 「**[!UICONTROL Time]**」フィールドで「午後 8 時」を選択します。
@@ -34,7 +34,7 @@ ht-degree: 4%
 
    ![](assets/wkf_push_example_5.png)
 
-1. [ クエリ ](../../automating/using/query.md) アクティビティを使用すると、20～30 歳でモバイルアプリケーションを購読しており、送信したメールを開いていないVIP顧客をターゲットにすることができます。
+1. [&#x200B; クエリ &#x200B;](../../automating/using/query.md) アクティビティを使用すると、20～30 歳でモバイルアプリケーションを購読しており、送信したメールを開いていないVIP顧客をターゲットにすることができます。
 
    * オーディエンス（VIP顧客）を選択し、年齢でフィルタリングします。
    * **購読をアプリケーションに** 要素をワークスペースにドラッグ&amp;ドロップします。 「**存在する**」を選択し、使用するモバイルアプリケーションを選択します。
@@ -44,10 +44,10 @@ ht-degree: 4%
 
      ![](assets/wkf_push_example_2.png)
 
-1. [ プッシュ通知配信 ](../../automating/using/push-notification-delivery.md) アクティビティでは、メッセージの内容を入力し、使用するパーソナライゼーションフィールドを選択できます。
+1. [&#x200B; プッシュ通知配信 &#x200B;](../../automating/using/push-notification-delivery.md) アクティビティでは、メッセージの内容を入力し、使用するパーソナライゼーションフィールドを選択できます。
 
    * **[!UICONTROL Recurring notification]** オプションを選択します。
-   * プッシュ通知の内容を定義します。 プッシュ通知コンテンツについて詳しくは、この [ 節 ](../../channels/using/preparing-and-sending-a-push-notification.md) を参照してください。
+   * プッシュ通知の内容を定義します。 プッシュ通知コンテンツについて詳しくは、この [&#x200B; 節 &#x200B;](../../channels/using/preparing-and-sending-a-push-notification.md) を参照してください。
    * **[!UICONTROL Schedule]** ブロックで、[**[!UICONTROL Messages to be sent automatically on the time zone specified below]**] を選択します。 ここでは、ワークフロー **[!UICONTROL Scheduler]** ードで **[!UICONTROL Time zone of the contact date]** 太平洋を選択しました。
    * 「**[!UICONTROL Optimize the sending time per recipient]**」フィールドで「**[!UICONTROL Send at the recipient's time zone]**」を選択します。
 

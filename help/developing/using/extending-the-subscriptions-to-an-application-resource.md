@@ -17,7 +17,7 @@ ht-degree: 10%
 
 # アプリケーションリソースの購読の拡張{#extending-the-subscriptions-to-an-application-resource}
 
-Adobe Campaignでは、モバイルデバイスから送信されたモバイルプロファイル属性データが **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** リソースに保存されるので、アプリケーションの購読者から収集するデータを定義できます。 カスタムリソースについて詳しくは、[ このページ ](../../developing/using/key-steps-to-add-a-resource.md) を参照してください。
+Adobe Campaignでは、モバイルデバイスから送信されたモバイルプロファイル属性データが **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** リソースに保存されるので、アプリケーションの購読者から収集するデータを定義できます。 カスタムリソースについて詳しくは、[&#x200B; このページ &#x200B;](../../developing/using/key-steps-to-add-a-resource.md) を参照してください。
 
 このリソースは、モバイルデバイスからAdobe Campaignに送信するデータを収集するように拡張できます。
 
@@ -45,4 +45,4 @@ Adobe Campaignでは、モバイルデバイスから送信されたモバイル
 
    ![](assets/in_app_personal_data_3.png)
 
-1. カスタムリソースを **[!UICONTROL Save]** 開して公開します。 カスタムリソースの公開について詳しくは、この [ ページ ](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource) を参照してください。
+1. カスタムリソースを **[!UICONTROL Save]** 開して公開します。 カスタムリソースの公開について詳しくは、この [&#x200B; ページ &#x200B;](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource) を参照してください。

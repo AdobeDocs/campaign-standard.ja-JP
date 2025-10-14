@@ -43,9 +43,9 @@ ht-degree: 14%
 
    >[!NOTE]
    >
-   >標準の **Profiles （profile）** リソースの拡張機能を再ドラフトする場合は、定義した **テストプロファイル （seedMember）** 拡張機能も再ドラフトする必要があります。 プロファイルリソースの拡張について詳しくは、[ この節 ](../../developing/using/extending-the-profile-resource-with-a-new-field.md) を参照してください。
+   >標準の **Profiles （profile）** リソースの拡張機能を再ドラフトする場合は、定義した **テストプロファイル （seedMember）** 拡張機能も再ドラフトする必要があります。 プロファイルリソースの拡張について詳しくは、[&#x200B; この節 &#x200B;](../../developing/using/extending-the-profile-resource-with-a-new-field.md) を参照してください。
 
-1. リソースをPublishします。 詳しい手順については、[ カスタムリソースの公開 ](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource) を参照してください。
+1. リソースをPublishします。 詳しい手順については、[&#x200B; カスタムリソースの公開 &#x200B;](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource) を参照してください。
 
    その後、リソースは **ドラフト** モードになり、アクティベーションステータスは **[!UICONTROL Inactive]** になります。
 
@@ -57,4 +57,4 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->イベントで使用されているカスタムリソースのフィールドが変更または削除された場合、対応するイベントは自動的に非公開になります。[ トランザクションイベントの非公開 ](../../channels/using/publishing-transactional-event.md#unpublishing-an-event) を参照してください。
+>イベントで使用されているカスタムリソースのフィールドが変更または削除された場合、対応するイベントは自動的に非公開になります。[&#x200B; トランザクションイベントの非公開 &#x200B;](../../channels/using/publishing-transactional-event.md#unpublishing-an-event) を参照してください。

@@ -29,7 +29,7 @@ ht-degree: 12%
 
 最後に、Campaign Standardで使用可能な配信品質のガイドラインとツールを活用して、配信されるメッセージの数を増やし、マーケティングキャンペーンを確実に成功させます。
 
-![](assets/do-not-localize/how-to-video.png) [ テストメールの送信方法、メール配信の準備および送信方法をビデオで確認 ](#video)
+![](assets/do-not-localize/how-to-video.png) [&#x200B; テストメールの送信方法、メール配信の準備および送信方法をビデオで確認 &#x200B;](#video)
 
 ## 準備とテスト {#prepare-test-send}
 
@@ -83,7 +83,7 @@ Campaign Standardでは、正常に配信されたメッセージ数を増やす
 
 * [配信品質について](../../sending/using/about-deliverability.md)
 * [配信品質の監視](../../sending/using/monitor-deliverability.md)
-* [Adobe配信品質のベストプラクティスガイド ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja)
+* [Adobe配信品質のベストプラクティスガイド &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=ja)
 * [配信スループットの制御](../../reporting/using/delivery-throughput.md)
 
 ## その他のリソース
@@ -99,4 +99,4 @@ Campaign Standardでは、正常に配信されたメッセージ数を増やす
 
 >[!VIDEO](https://video.tv.adobe.com/v/328368?captions=jpn)
 
-その他のCampaign Standardチュートリアルビデオについては、[ こちら ](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja) を参照してください。
+その他のCampaign Standardチュートリアルビデオについては、[&#x200B; こちら &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja) を参照してください。

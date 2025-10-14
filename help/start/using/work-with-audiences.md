@@ -56,13 +56,13 @@ Campaign Standardには、マーケティングデータベースの拡張に役
 
 ### ワークフローでのデータの読み込み {#importing-data-through-workflows}
 
-ワークフローでは、[**[!UICONTROL Data management]**](../../automating/using/about-data-management-activities.md) アクティビティを使用してデータを収集し、Campaign データベースに読み込むことができます。 ワークフローを通じてデータをインポートする際の一般的な情報とベストプラクティスについては、[ この節 ](../../automating/using/about-data-import-and-export.md) を参照してください。
+ワークフローでは、[**[!UICONTROL Data management]**](../../automating/using/about-data-management-activities.md) アクティビティを使用してデータを収集し、Campaign データベースに読み込むことができます。 ワークフローを通じてデータをインポートする際の一般的な情報とベストプラクティスについては、[&#x200B; この節 &#x200B;](../../automating/using/about-data-import-and-export.md) を参照してください。
 
 さらに、データをインポートするためのテンプレートを設定できます。 インポートテンプレートの使用は、同じ構造を持つファイルを定期的にインポートするためのベストプラクティスです。 次の 2 種類のテンプレートを設定できます。
 
-* **ワークフローテンプレート**：必要に応じて一度設定し、データの読み込みとデータベースの更新を行うたびに再利用できる、事前設定済みのワークフローです。 データをインポートするワークフローテンプレートの例について詳しくは、[ この節 ](../../automating/using/creating-import-workflow-templates.md) を参照してください。
+* **ワークフローテンプレート**：必要に応じて一度設定し、データの読み込みとデータベースの更新を行うたびに再利用できる、事前設定済みのワークフローです。 データをインポートするワークフローテンプレートの例について詳しくは、[&#x200B; この節 &#x200B;](../../automating/using/creating-import-workflow-templates.md) を参照してください。
 
-* **データテンプレートの読み込み**：ワークフローテンプレートと同様に、これらはワークフローに基づくテンプレートであり、データベースを更新するためにファイルをアップロードするために設定されます。 設定が完了すると、**[!UICONTROL Profile & audiences]** / **[!UICONTROL Imports]** メニューの下の簡略化されたビューでユーザーが使用できるようになります。 データインポートテンプレートについて詳しくは、[ 専用ドキュメント ](../../automating/using/importing-data-with-import-templates.md) を参照してください。
+* **データテンプレートの読み込み**：ワークフローテンプレートと同様に、これらはワークフローに基づくテンプレートであり、データベースを更新するためにファイルをアップロードするために設定されます。 設定が完了すると、**[!UICONTROL Profile & audiences]** / **[!UICONTROL Imports]** メニューの下の簡略化されたビューでユーザーが使用できるようになります。 データインポートテンプレートについて詳しくは、[&#x200B; 専用ドキュメント &#x200B;](../../automating/using/importing-data-with-import-templates.md) を参照してください。
 
 ### ランディングページからのデータの収集 {#collecting-data-from-landing-pages}
 
@@ -72,7 +72,7 @@ Campaign Standardには、マーケティングデータベースの拡張に役
 * 各入力フィールドを、データベースの対応するフィールドにマッピングします。
 * Web サイトを介して、またはメッセージへの直接リンクを介して、ランディングページをオンラインで使用できるようにします。
 
-ランディングページについて詳しくは、[ 専用ドキュメント ](../../channels/using/getting-started-with-landing-pages.md) を参照してください。
+ランディングページについて詳しくは、[&#x200B; 専用ドキュメント &#x200B;](../../channels/using/getting-started-with-landing-pages.md) を参照してください。
 
 **詳細情報**
 
@@ -82,7 +82,7 @@ Campaign Standardには、マーケティングデータベースの拡張に役
 ### Microsoft Dynamics 365 からのプロファイルの同期
 
 Microsoft Dynamics 365 とのCampaign Standard統合により、Microsoft Dynamics 365 から Campaign データベースに連絡先データを渡すことができます。
-これらの連絡先は、プロファイルリストに表示され、マーケティングキャンペーンでターゲットに設定できます。 この統合について詳しくは、[ 専用ドキュメント ](../../integrating/using/d365-acs-get-started.md) を参照してください。
+これらの連絡先は、プロファイルリストに表示され、マーケティングキャンペーンでターゲットに設定できます。 この統合について詳しくは、[&#x200B; 専用ドキュメント &#x200B;](../../integrating/using/d365-acs-get-started.md) を参照してください。
 
 >[!NOTE]
 >
@@ -95,7 +95,7 @@ Microsoft Dynamics 365 とのCampaign Standard統合により、Microsoft Dynami
 
 ### API 呼び出しを使用したデータの読み込み
 
-Campaign StandardAPI を使用すると、プロファイルやサービスの作成、更新、削除など、データベースを更新する操作を実行できます。 API の使用方法について詳しくは、[ 専用ドキュメント ](../../api/using/get-started-apis.md) を参照してください。
+Campaign StandardAPI を使用すると、プロファイルやサービスの作成、更新、削除など、データベースを更新する操作を実行できます。 API の使用方法について詳しくは、[&#x200B; 専用ドキュメント &#x200B;](../../api/using/get-started-apis.md) を参照してください。
 
 >[!CAUTION]
 >
@@ -125,7 +125,7 @@ Campaign StandardAPI を使用すると、プロファイルやサービスの�
 
 GDPR は、データ保護要件を現代の状況に合わせて整合化する、欧州連合（EU）の新しいプライバシー法です。 GDPR は、EU 在住のデータ主体のデータを保持するAdobe Campaignのお客様に適用されます。 アドビは、Adobe Campaignで既に利用可能なプライバシー機能（同意管理、データ保持設定、ユーザーの役割など）に加え、この機会にデータ処理者としての役割を担って、特定の GDPR 要求に対するデータ管理者としての準備を容易にするためのその他の機能も含めています。
 
-GDPR に準拠するためのAdobe Campaignのツールと機能の詳細については、[ この節 ](../../start/using/privacy.md) を参照してください。
+GDPR に準拠するためのAdobe Campaignのツールと機能の詳細については、[&#x200B; この節 &#x200B;](../../start/using/privacy.md) を参照してください。
 
 **詳細情報**
 

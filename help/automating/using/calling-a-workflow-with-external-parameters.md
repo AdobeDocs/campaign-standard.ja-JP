@@ -23,7 +23,7 @@ Campaign Standardを使用すると、パラメーター（ターゲットにす
 
 パラメーターを使用してワークフローを呼び出すプロセスは次のとおりです。
 
-1. **[!UICONTROL External signal]** アクティビティでパラメーターを宣言します。 [ 外部シグナルアクティビティでのパラメーターの宣言 ](../../automating/using/declaring-parameters-external-signal.md) を参照してください。
+1. **[!UICONTROL External signal]** アクティビティでパラメーターを宣言します。 [&#x200B; 外部シグナルアクティビティでのパラメーターの宣言 &#x200B;](../../automating/using/declaring-parameters-external-signal.md) を参照してください。
 1. **[!UICONTROL End]** アクティビティまたは API 呼び出しを設定して、パラメーターを定義し、ワークフロー **[!UICONTROL External signal]** アクティビティをトリガーします。 [このページ](../../automating/using/defining-parameters-calling-workflow.md)を参照してください
 1. ワークフローがトリガーされると、パラメーターがワークフローのイベント変数に取り込まれ、ワークフロー内で使用できるようになります。 [このページ](../../automating/using/customizing-workflow-external-parameters.md)を参照してください。
 

@@ -135,11 +135,11 @@ ht-degree: 5%
    ![](assets/custom_profile_17.png)
 
 1. 「」をクリック **[!UICONTROL Confirm]**、フィルタリングが完了したら「**[!UICONTROL Next]**」をクリックします。
-1. メッセージの内容、送信者名、件名を定義してパーソナライズします。 メール作成について詳しくは、この [ ページ ](../../designing/using/designing-content-in-adobe-campaign.md) を参照してください。
+1. メッセージの内容、送信者名、件名を定義してパーソナライズします。 メール作成について詳しくは、この [&#x200B; ページ &#x200B;](../../designing/using/designing-content-in-adobe-campaign.md) を参照してください。
 
    次に、「**[!UICONTROL Create]**」をクリックします。
 
-1. 準備が整ったら、メッセージをプレビューして送信できます。 メッセージの準備および送信方法について詳しくは、この [ ページ ](../../sending/using/preparing-the-send.md) を参照してください。
+1. 準備が整ったら、メッセージをプレビューして送信できます。 メッセージの準備および送信方法について詳しくは、この [&#x200B; ページ &#x200B;](../../sending/using/preparing-the-send.md) を参照してください。
 
 選択した受信者にメールを正しく送信したら、データのフィルタリングを開始し、レポートを使用して配信の成功を追跡できます。
 
@@ -165,4 +165,4 @@ ht-degree: 5%
 
 **関連トピック：**
 
-* [ カスタムプロファイルデータを使用した洞察に満ちたレポートの作成 ](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)
+* [&#x200B; カスタムプロファイルデータを使用した洞察に満ちたレポートの作成 &#x200B;](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)

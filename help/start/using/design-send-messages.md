@@ -71,18 +71,18 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mau
 
 パーソナライズされたメッセージは、関連するコンテンツを送信し、パーソナライズされたエクスペリエンスを提供し、オープン率とコンバージョン率を高めるための鍵となります。 Adobe Campaignが配信するクロスチャネルメッセージは、様々な方法でパーソナライズできます。 これらの方法は、プロファイルに応じた条件と組み合わせることができます。 以下を行うことができます。
 
-* メッセージへの [ 動的パーソナライゼーションフィールド ](../../designing/using/personalization.md#inserting-a-personalization-field) の挿入
-* 挿入 [ 定義済みパーソナライゼーションブロック ](../../designing/using/personalization.md#adding-a-content-block)
-* メールまたは SMS の [ 送信者のパーソナライズ ](../../designing/using/subject-line.md)
-* メールの [ 件名のパーソナライズ ](../../designing/using/subject-line.md)
-* [ メール内の条件付きコンテンツ ](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) または [ ランディングページ内のコンテンツ ](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page) を作成
-* SMS メッセージまたはプッシュ通知への [ 動的テキスト ](../../channels/using/defining-dynamic-text.md) の挿入
+* メッセージへの [&#x200B; 動的パーソナライゼーションフィールド &#x200B;](../../designing/using/personalization.md#inserting-a-personalization-field) の挿入
+* 挿入 [&#x200B; 定義済みパーソナライゼーションブロック &#x200B;](../../designing/using/personalization.md#adding-a-content-block)
+* メールまたは SMS の [&#x200B; 送信者のパーソナライズ &#x200B;](../../designing/using/subject-line.md)
+* メールの [&#x200B; 件名のパーソナライズ &#x200B;](../../designing/using/subject-line.md)
+* [&#x200B; メール内の条件付きコンテンツ &#x200B;](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) または [&#x200B; ランディングページ内のコンテンツ &#x200B;](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page) を作成
+* SMS メッセージまたはプッシュ通知への [&#x200B; 動的テキスト &#x200B;](../../channels/using/defining-dynamic-text.md) の挿入
 
 ![](assets/delivery_content_43.png)
 
 **詳細情報**
 
-* [ エンドツーエンドのサンプル ](../../designing/using/personalization.md#example-email-personalization) を通じてメールのパーソナライゼーションを確認します
+* [&#x200B; エンドツーエンドのサンプル &#x200B;](../../designing/using/personalization.md#example-email-personalization) を通じてメールのパーソナライゼーションを確認します
 * [URL のパーソナライズ](../../designing/using/personalization.md#personalizing-urls)
 * [画像のパーソナライゼーションの設定](../../designing/using/personalization.md#personalizing-an-image-source)
 

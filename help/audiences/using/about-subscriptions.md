@@ -30,10 +30,10 @@ Adobe Campaignを使用すると、一連の **services** を介して、ニュ�
 
 購読メカニズムを作成するには、次の手順に従います。
 
-1. **サービスの作成** – 購読サービスを作成するには、[ この節 ](../../audiences/using/creating-a-service.md) で説明されている手順に従います
-1. **リンクを共有** - サービスを昇格および共有する方法については、このページを参照してください [ このページ ](../../audiences/using/promoting-a-service.md)
-1. **購読の監視** - サービスの購読を監視する方法をいくつか紹介します [ この節 ](../../audiences/using/monitoring-subscriptions.md)。
-1. **購読を確認** - [ このチュートリアル ](../../audiences/using/confirming-subscription-to-a-service.md) に従って、購読確認メッセージを送信します
+1. **サービスの作成** – 購読サービスを作成するには、[&#x200B; この節 &#x200B;](../../audiences/using/creating-a-service.md) で説明されている手順に従います
+1. **リンクを共有** - サービスを昇格および共有する方法については、このページを参照してください [&#x200B; このページ &#x200B;](../../audiences/using/promoting-a-service.md)
+1. **購読の監視** - サービスの購読を監視する方法をいくつか紹介します [&#x200B; この節 &#x200B;](../../audiences/using/monitoring-subscriptions.md)。
+1. **購読を確認** - [&#x200B; このチュートリアル &#x200B;](../../audiences/using/confirming-subscription-to-a-service.md) に従って、購読確認メッセージを送信します
 
 ## その他のリソース
 

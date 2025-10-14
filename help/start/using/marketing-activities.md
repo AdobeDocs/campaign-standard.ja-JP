@@ -81,14 +81,14 @@ ht-degree: 71%
 
 コンテキストに応じて、以下をおこなうことができます。
 
-* メールの作成 – [ 詳細情報 ](../../channels/using/creating-an-email.md)
-* SMS の作成 – [ 詳細情報 ](../../channels/using/creating-an-sms-message.md)
-* プッシュ通知の作成 – [ 詳細情報 ](../../channels/using/preparing-and-sending-a-push-notification.md)
-* アプリ内メッセージの作成 – [ 詳細情報 ](../../channels/using/about-in-app-messaging.md)
-* ワークフローの作成 – [ 詳細情報 ](../../automating/using/building-a-workflow.md#creating-a-workflow)
-* ランディングページの作成 – [ 詳細情報 ](../../channels/using/getting-started-with-landing-pages.md)
-* キャンペーンの作成 – [ 詳細情報 ](../../start/using/programs-and-campaigns.md#creating-a-campaign)
-* プログラムの作成 – [ 詳細情報 ](../../start/using/programs-and-campaigns.md#creating-a-program)
+* メールの作成 – [&#x200B; 詳細情報 &#x200B;](../../channels/using/creating-an-email.md)
+* SMS の作成 – [&#x200B; 詳細情報 &#x200B;](../../channels/using/creating-an-sms-message.md)
+* プッシュ通知の作成 – [&#x200B; 詳細情報 &#x200B;](../../channels/using/preparing-and-sending-a-push-notification.md)
+* アプリ内メッセージの作成 – [&#x200B; 詳細情報 &#x200B;](../../channels/using/about-in-app-messaging.md)
+* ワークフローの作成 – [&#x200B; 詳細情報 &#x200B;](../../automating/using/building-a-workflow.md#creating-a-workflow)
+* ランディングページの作成 – [&#x200B; 詳細情報 &#x200B;](../../channels/using/getting-started-with-landing-pages.md)
+* キャンペーンの作成 – [&#x200B; 詳細情報 &#x200B;](../../start/using/programs-and-campaigns.md#creating-a-campaign)
+* プログラムの作成 – [&#x200B; 詳細情報 &#x200B;](../../start/using/programs-and-campaigns.md#creating-a-program)
 
 >[!NOTE]
 >

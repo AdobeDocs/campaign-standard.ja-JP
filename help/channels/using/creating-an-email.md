@@ -17,13 +17,13 @@ ht-degree: 15%
 
 # メールの作成{#creating-an-email}
 
-メールは、[ キャンペーン ](../../start/using/marketing-activities.md#creating-a-marketing-activity)、Adobe Campaign[ ホームページ ](../../start/using/interface-description.md#home-page) または [ マーケティングアクティビティリスト ](../../start/using/marketing-activities.md#about-marketing-activities) から作成できます。 ワークフローから 1 回送信のメールや繰り返しメールを作成することもできます。
+メールは、[&#x200B; キャンペーン &#x200B;](../../start/using/marketing-activities.md#creating-a-marketing-activity)、Adobe Campaign[&#x200B; ホームページ &#x200B;](../../start/using/interface-description.md#home-page) または [&#x200B; マーケティングアクティビティリスト &#x200B;](../../start/using/marketing-activities.md#about-marketing-activities) から作成できます。 ワークフローから 1 回送信のメールや繰り返しメールを作成することもできます。
 
 ![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](#video)
 
 1. メールマーケティングアクティビティの作成を開始したら、使用するテンプレートを選択します。
 
-   デフォルトでは、各マーケティングアクティビティに対して複数のテンプレートから選択できます。 これにより、ニーズに応じて特定のパラメーターを事前設定し、配信にブランドを割り当てることもできます。 詳しくは、[ テンプレートの管理 ](../../start/using/marketing-activity-templates.md) を参照してください。
+   デフォルトでは、各マーケティングアクティビティに対して複数のテンプレートから選択できます。 これにより、ニーズに応じて特定のパラメーターを事前設定し、配信にブランドを割り当てることもできます。 詳しくは、[&#x200B; テンプレートの管理 &#x200B;](../../start/using/marketing-activity-templates.md) を参照してください。
 
    ![](assets/email_creation_1.png)
 
@@ -47,13 +47,13 @@ ht-degree: 15%
    >
    >親キャンペーン内にホームページまたはマーケティングアクティビティのリストからメールを作成できます。 作成済みのキャンペーンから選択します。
 
-1. ビジネス条件に基づいてメッセージのターゲットを定義します。 [ プロファイルについて ](../../audiences/using/about-profiles.md) を参照してください。
+1. ビジネス条件に基づいてメッセージのターゲットを定義します。 [&#x200B; プロファイルについて &#x200B;](../../audiences/using/about-profiles.md) を参照してください。
 
    また、メッセージを検証するテストプロファイルを定義することもできます。 [テストプロファイルの管理](../../audiences/using/managing-test-profiles.md)を参照してください。
 
    ![](assets/email_creation_3.png)
 
-1. [ メールDesigner](../../designing/using/designing-content-in-adobe-campaign.md) を使用して、メッセージのコンテンツ、送信者名、件名を定義およびパーソナライズします。 詳しくは、[ メールコンテンツデザインについて ](../../designing/using/designing-content-in-adobe-campaign.md) を参照してください。
+1. [&#x200B; メールDesigner](../../designing/using/designing-content-in-adobe-campaign.md) を使用して、メッセージのコンテンツ、送信者名、件名を定義およびパーソナライズします。 詳しくは、[&#x200B; メールコンテンツデザインについて &#x200B;](../../designing/using/designing-content-in-adobe-campaign.md) を参照してください。
 
    ![](assets/email_creation_4.png)
 
@@ -66,9 +66,9 @@ ht-degree: 15%
    >
    >メールを保存するには、まずコンテンツを編集する必要があります。 この時点で [**[!UICONTROL Cancel]**] をクリックすると、ウィザードは完了せず、電子メールは作成されません。
 
-   メールダッシュボードが表示されます。 メッセージを確認し [ 送信を準備 ](../../sending/using/preparing-the-send.md) できます。
+   メールダッシュボードが表示されます。 メッセージを確認し [&#x200B; 送信を準備 &#x200B;](../../sending/using/preparing-the-send.md) できます。
 
-   右上隅の「**[!UICONTROL Edit properties]**」ボタンを使用すると、メールのプロパティを編集できます。 例えば、配信準備時にラベルが計算されるようにメールを設定できます。  使用可能なパラメーターは [ この節 ](../../administration/using/configuring-email-channel.md#list-of-email-properties) に記載されています。
+   右上隅の「**[!UICONTROL Edit properties]**」ボタンを使用すると、メールのプロパティを編集できます。 例えば、配信準備時にラベルが計算されるようにメールを設定できます。  使用可能なパラメーターは [&#x200B; この節 &#x200B;](../../administration/using/configuring-email-channel.md#list-of-email-properties) に記載されています。
 
    ![](assets/delivery_dashboard_2.png)
 
@@ -76,27 +76,27 @@ ht-degree: 15%
 
    ![](assets/delivery_planning.png)
 
-1. ターゲットを分析するためのメッセージを準備します。 [ 送信の準備 ](../../sending/using/confirming-the-send.md) を参照してください。
+1. ターゲットを分析するためのメッセージを準備します。 [&#x200B; 送信の準備 &#x200B;](../../sending/using/confirming-the-send.md) を参照してください。
 
    ![](assets/preparing_delivery_2.png)
 
    >[!NOTE]
    >
-   >過剰に配信を受けているプロファイルをキャンペーンから自動的に除外するグローバルなクロスチャネル疲労ルールを設定できます。詳しくは、[ 疲労ルール ](../../sending/using/fatigue-rules.md) を参照してください。
+   >過剰に配信を受けているプロファイルをキャンペーンから自動的に除外するグローバルなクロスチャネル疲労ルールを設定できます。詳しくは、[&#x200B; 疲労ルール &#x200B;](../../sending/using/fatigue-rules.md) を参照してください。
 
-1. 配達確認を送信してメッセージを確認および検証し、インボックスのレンダリングを監視します。[ 配達確認の送信 ](../../sending/using/sending-proofs.md) を参照してください。
+1. 配達確認を送信してメッセージを確認および検証し、インボックスのレンダリングを監視します。[&#x200B; 配達確認の送信 &#x200B;](../../sending/using/sending-proofs.md) を参照してください。
 
    ![](assets/bat_select.png)
 
-1. メッセージを送信し、メッセージダッシュボードとログで配信を確認します。 [ メッセージの送信 ](../../sending/using/confirming-the-send.md) を参照してください。
+1. メッセージを送信し、メッセージダッシュボードとログで配信を確認します。 [&#x200B; メッセージの送信 &#x200B;](../../sending/using/confirming-the-send.md) を参照してください。
 
    ![](assets/confirm_delivery.png)
 
-1. 配信レポートを使用して、メッセージの影響を測定します。 レポートについて詳しくは、[ この節 ](../../reporting/using/about-dynamic-reports.md) を参照してください。
+1. 配信レポートを使用して、メッセージの影響を測定します。 レポートについて詳しくは、[&#x200B; この節 &#x200B;](../../reporting/using/about-dynamic-reports.md) を参照してください。
 
 **関連トピック**：
 
-* [ パーソナライズされたメールの作成 ](../../channels/using/key-steps-to-send-a-message.md) 手順ガイド
+* [&#x200B; パーソナライズされたメールの作成 &#x200B;](../../channels/using/key-steps-to-send-a-message.md) 手順ガイド
 * [Adobe CampaignとDreamweaverの統合](../../designing/using/using-integrations.md#editing-content-in-dreamweaver)
 * [Adobe Experience Managerとの統合](../../integrating/using/integrating-with-experience-manager.md)
 
@@ -106,4 +106,4 @@ ht-degree: 15%
 
 >[!VIDEO](https://video.tv.adobe.com/v/29751?quality=12&captions=jpn)
 
-その他のCampaign Standardチュートリアルビデオについては、[ こちら ](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja) を参照してください。
+その他のCampaign Standardチュートリアルビデオについては、[&#x200B; こちら &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja) を参照してください。

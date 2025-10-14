@@ -57,7 +57,7 @@ Adobe SDKのバージョンを v4 からAdobe Experience Platformにアップグ
 * 移行前に、移行するモバイルアプリケーションと、移行に使用するAdobe Experience Platform アプリケーションの **[!UICONTROL Organizational unit]** が割り当てられていることを確認してください。
 * 移行後、アプリケーションはAdobe Experience Platform SDK アプリケーションになります。 変更内容は、対応するタグ **[!UICONTROL Mobile Property]** にリンクされます。
 
-1. データ収集 UI で新しい **[!UICONTROL Mobile property]** を作成します。 詳しくは、[ ドキュメント ](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/) を参照してください。
+1. データ収集 UI で新しい **[!UICONTROL Mobile property]** を作成します。 詳しくは、[&#x200B; ドキュメント &#x200B;](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/) を参照してください。
 
 1. Adobe Campaign Standardで、詳細メニューから **[!UICONTROL Administration]** > **[!UICONTROL Application Settings]** > **[!UICONTROL Workflows]** を選択し、**[!UICONTROL syncWithLaunch]** ワークフローを開きます。 ワークフローがエラーなく終了したかどうかを確認します。
 
@@ -89,7 +89,7 @@ Adobe SDKのバージョンを v4 からAdobe Experience Platformにアップグ
 
 この移行後、モバイルアプリケーションの V4 バージョンで収集されたサブスクライバーと、モバイルアプリケーションの AEP バージョンで収集された新しいサブスクライバーは、移行されたアプリケーションで使用できます。
 
-2 つの異なるタイプのサブスクライバーを区別するには、カスタムリソースフィールドを拡張する際に、**[!UICONTROL Text]** タイプの新しいカスタムフ **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** ールドを、例えば `sdkversion` や `appVersion` のように追加できます。 カスタムリソースの拡張方法について詳しくは、この [ ページ ](../../developing/using/creating-or-extending-the-resource.md) を参照してください。
+2 つの異なるタイプのサブスクライバーを区別するには、カスタムリソースフィールドを拡張する際に、**[!UICONTROL Text]** タイプの新しいカスタムフ **[!UICONTROL Subscriptions to an application (appSubscriptionRcp)]** ールドを、例えば `sdkversion` や `appVersion` のように追加できます。 カスタムリソースの拡張方法について詳しくは、この [&#x200B; ページ &#x200B;](../../developing/using/creating-or-extending-the-resource.md) を参照してください。
 次に、関連するタグ **[!UICONTROL Mobile property]** を設定して、PII 呼び出しを収集でこのカスタムフィールド値を送信し、それに応じてモバイルアプリケーション設定を変更する必要があります。
 
 ## FAQ {#faq}
@@ -126,7 +126,7 @@ A:**[!UICONTROL Organizational unit]** の管理者は、モバイルアプリ�
 
 A:Adobe Experience Platform SDK アプリケーションは兄弟 **[!UICONTROL Organizational unit]** のアセットなので、**[!UICONTROL Organizational unit]** A のユーザーにはモバイルアプリケーションが表示されません。モバイルアプリケーションは、**[!UICONTROL Organizational unit]** ALL の管理者が使用できますが、これらの管理者にモバイルアプリケーションを移行することはお勧めしません。
 この場合、モバイルアプリケーションを同じ **[!UICONTROL Organizational unit]**、または親リンクを持つ **[!UICONTROL Organizational unit]** 内で移動する必要があります。
-**[!UICONTROL Organizational unit]** について詳しくは、この [ 節 ](../../administration/using/organizational-units.md) を参照してください。
+**[!UICONTROL Organizational unit]** について詳しくは、この [&#x200B; 節 &#x200B;](../../administration/using/organizational-units.md) を参照してください。
 
 ### 質問：Adobe Experience Platform SDK モバイルアプリケーション（v4 モバイルアプリケーションから移行）ページの「プッシュチャネル設定」ドロップダウンに、Android キーやiOS証明書のアップロード日や名前などの情報が表示されません {#no-information-v5}
 

@@ -63,7 +63,7 @@ ht-degree: 90%
 
 1. 「**[!UICONTROL Transition]**」タブの「**[!UICONTROL Enable an outbound transition]**」オプションを使用すると、クエリアクティビティがデータを取得しない場合でも、このアクティビティの後にアウトバウンドトランジションを追加できます。
 
-   アウトバウンドトランジションのセグメントコードは、標準式とイベント変数を使用してパーソナライズできます（[ このページ ](../../automating/using/customizing-workflow-external-parameters.md) を参照）。
+   アウトバウンドトランジションのセグメントコードは、標準式とイベント変数を使用してパーソナライズできます（[&#x200B; このページ &#x200B;](../../automating/using/customizing-workflow-external-parameters.md) を参照）。
 
 1. アクティビティの設定を確認し、ワークフローを保存します。
 
@@ -71,7 +71,7 @@ ht-degree: 90%
 
 ターゲティングディメンションとリソースを使用すると、配信のターゲットを指定するためにクエリで使用する要素を定義できます。
 
-[ ターゲットマッピング ](../../administration/using/target-mappings-in-campaign.md) で設定し、ワークフローの作成時にクエリアクティビティの「**[!UICONTROL Properties]**」タブで定義します。
+[&#x200B; ターゲットマッピング &#x200B;](../../administration/using/target-mappings-in-campaign.md) で設定し、ワークフローの作成時にクエリアクティビティの「**[!UICONTROL Properties]**」タブで定義します。
 
 >[!NOTE]
 >
@@ -101,7 +101,7 @@ ht-degree: 90%
 
 デフォルトでは、プロファイルをターゲットにするために、ターゲティングディメンションとリソースが設定されます。 ただし、距離テーブル内の特定のレコードを検索する場合は、ターゲティングディメンションとは別のリソースを使用すると便利です。
 
-詳しくは、次のユースケースを参照してください。[ ターゲティングディメンションとは異なるリソースの使用 ](../../automating/using/using-resources-different-from-targeting-dimensions.md)
+詳しくは、次のユースケースを参照してください。[&#x200B; ターゲティングディメンションとは異なるリソースの使用 &#x200B;](../../automating/using/using-resources-different-from-targeting-dimensions.md)
 
 ## データのエンリッチメント {#enriching-data}
 
@@ -123,7 +123,7 @@ ht-degree: 90%
 >
 >デフォルトでは、クエリの「**[!UICONTROL Additional data]**」タブの「**[!UICONTROL Advanced options]**」で「**[!UICONTROL Remove duplicate rows (DISTINCT)]**」オプションがオンになっています。パフォーマンス上の理由から、追加のデータが「**[!UICONTROL Query]**」アクティビティに多数（100 以上）含まれている場合は、このオプションをオフにすることをお勧めします。このオプションをオフにすると、クエリされたデータに応じて重複が取得される可能性があるので注意してください。
 
-追加データでメールをパーソナライズする方法のユースケースについては、[ この節 ](../../automating/using/personalizing-email-with-additional-data.md) を参照してください。
+追加データでメールをパーソナライズする方法のユースケースについては、[&#x200B; この節 &#x200B;](../../automating/using/personalizing-email-with-additional-data.md) を参照してください。
 
 ### シンプルなフィールドの追加 {#adding-a-simple-field}
 

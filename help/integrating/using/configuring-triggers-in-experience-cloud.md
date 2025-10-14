@@ -53,7 +53,7 @@ Adobeチームがトリガーをアクティブ化するには、次の情報が
 >
 >サブドメイン設定は、配信品質キー要素です。 Adobe Campaignのメールは、web サイトで使用されるドメインと同じドメインから送信されるようにしてください。
 
-これらのユースケースを実行するには、[Experience Cloud DTM コアサービス ](#configuring-experience-cloud-dtm-core-service)、[Experience Cloud人物コアサービス ](#configuring-experience-cloud-people-core-service) および [ キャンペーン ](#configuring-triggers-and-aliases-in-campaign) を設定する必要があります。
+これらのユースケースを実行するには、[Experience Cloud DTM コアサービス &#x200B;](#configuring-experience-cloud-dtm-core-service)、[Experience Cloud人物コアサービス &#x200B;](#configuring-experience-cloud-people-core-service) および [&#x200B; キャンペーン &#x200B;](#configuring-triggers-and-aliases-in-campaign) を設定する必要があります。
 
 ### Experience Cloud DTM コアサービスの設定 {#configuring-experience-cloud-dtm-core-service}
 
@@ -87,7 +87,7 @@ DTM で以前に参照されたエイリアスは、顧客属性を通じてExpe
 
    >[!NOTE]
    >
-   >匿名ユーザーとログインしたユーザーの両方に対するトリガーを調整できます。 匿名ユーザーの場合、プロファイルはAdobe Campaignに存在する必要があり、以前にメールが送信されています。 このためには、訪問者 ID を設定するだけで十分です。 ただし、ログインユーザーのトリガーを調整する場合、宣言済み ID データのSourceを設定する必要があります。 詳しくは、[Data Sourceの設定 ](../../integrating/using/integration-with-audience-manager-or-people-core-service.md#step-2--configure-the-data-sources) を参照してください。
+   >匿名ユーザーとログインしたユーザーの両方に対するトリガーを調整できます。 匿名ユーザーの場合、プロファイルはAdobe Campaignに存在する必要があり、以前にメールが送信されています。 このためには、訪問者 ID を設定するだけで十分です。 ただし、ログインユーザーのトリガーを調整する場合、宣言済み ID データのSourceを設定する必要があります。 詳しくは、[Data Sourceの設定 &#x200B;](../../integrating/using/integration-with-audience-manager-or-people-core-service.md#step-2--configure-the-data-sources) を参照してください。
 
 ## Experience Cloudインターフェイスでのトリガーの作成 {#creating-a-trigger-in-the-experience-cloud-interface}
 
@@ -95,7 +95,7 @@ Campaign で使用できるように、Adobe Experience Cloud トリガーを作
 
 Experience Cloudに新しいトリガーを作成し、web サイトで使用するレポートスイートを選択していることを確認します。 トリガーが発生するように、適切な寸法を選択してください。
 
-[Adobe Experience Cloud ドキュメント ](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html?lang=ja) を参照してください。
+[Adobe Experience Cloud ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html?lang=ja) を参照してください。
 
 ## トリガーのベストプラクティスと制限事項 {#triggers-best-practices-and-limitations}
 

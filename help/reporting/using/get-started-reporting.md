@@ -26,7 +26,7 @@ ht-degree: 16%
 
 動的レポート機能は、完全にカスタマイズ可能なリアルタイムのレポートを提供して、マーケティングアクティビティの影響を測定します。 プロファイルデータへのアクセスを追加し、開封数やクリック数などの機能的なメールキャンペーンデータに加えて、性別、市区町村、年齢などのプロファイルディメンション別の人口統計学的分析を可能にします。
 
-![](assets/do-not-localize/how-to-video.png) [ ビデオで動的レポートを確認する ](#video)
+![](assets/do-not-localize/how-to-video.png) [&#x200B; ビデオで動的レポートを確認する &#x200B;](#video)
 
 ## レポートの管理と共有 {#manage-share-reports}
 
@@ -84,4 +84,4 @@ Campaign Standardには、一連の **すぐに使用できる動的レポート
 
 >[!VIDEO](https://video.tv.adobe.com/v/38315?quality=12&captions=jpn)
 
-その他のCampaign Standardチュートリアルビデオについては、[ こちら ](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja) を参照してください。
+その他のCampaign Standardチュートリアルビデオについては、[&#x200B; こちら &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja) を参照してください。

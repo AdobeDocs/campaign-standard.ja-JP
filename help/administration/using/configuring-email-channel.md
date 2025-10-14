@@ -320,17 +320,17 @@ SMTP の設定について詳しくは、[メール SMTP パラメーターの�
 
 ### 再試行 {#legacy-retries}
 
-メールプロパティの [ 設定メニュー ](#email-channel-parameters) と [ 送信パラメーター ](#retries-parameters) の **[!UICONTROL Retries]** の設定は、送信が開始された翌日（**[!UICONTROL Number of retries]**/**[!UICONTROL Max. number of retries]**）に実行する必要がある再試行の数と、再試行間の最小遅延（**[!UICONTROL Retry period]**）を示します。
+メールプロパティの [&#x200B; 設定メニュー &#x200B;](#email-channel-parameters) と [&#x200B; 送信パラメーター &#x200B;](#retries-parameters) の **[!UICONTROL Retries]** の設定は、送信が開始された翌日（**[!UICONTROL Number of retries]**/**[!UICONTROL Max. number of retries]**）に実行する必要がある再試行の数と、再試行間の最小遅延（**[!UICONTROL Retry period]**）を示します。
 
 再試行の回数は、グローバルに変更することも（Adobeの技術管理者にお問い合わせください）、配信または配信テンプレートごとに変更することもできます。
 
-デフォルトでは、1 日目に最低 1 時間の間隔で 24 時間に 5 回の再試行がスケジュールされます。 その後は、配信メニューの「**[!UICONTROL Delivery parameters]**」セクションまたは配信レベルの「**[!UICONTROL Validity period]**」セクションでグローバルに定義される **[!UICONTROL Configuration]** 信期限まで、1 日 1 回の再試行がスケジュールされます（以下の [ 配信期間 ](#legacy-delivery-duration) の節を参照）。
+デフォルトでは、1 日目に最低 1 時間の間隔で 24 時間に 5 回の再試行がスケジュールされます。 その後は、配信メニューの「**[!UICONTROL Delivery parameters]**」セクションまたは配信レベルの「**[!UICONTROL Validity period]**」セクションでグローバルに定義される **[!UICONTROL Configuration]** 信期限まで、1 日 1 回の再試行がスケジュールされます（以下の [&#x200B; 配信期間 &#x200B;](#legacy-delivery-duration) の節を参照）。
 
 ### 配信期間 {#legacy-delivery-duration}
 
-[ 設定メニュー ](#email-channel-parameters) の **[!UICONTROL Message delivery duration]** パラメーターを使用して、一時的なエラーまたはソフトバウンスが発生した配信内のメッセージを再試行する時間枠を指定します。
+[&#x200B; 設定メニュー &#x200B;](#email-channel-parameters) の **[!UICONTROL Message delivery duration]** パラメーターを使用して、一時的なエラーまたはソフトバウンスが発生した配信内のメッセージを再試行する時間枠を指定します。
 
-「[ 有効期間パラメーター ](#validity-period-parameters)」セクションの **[!UICONTROL Delivery duration]** または **[!UICONTROL Validity limit for sending messages]** パラメーターを使用して、メッセージを送信できる期間を指定します。
+「[&#x200B; 有効期間パラメーター &#x200B;](#validity-period-parameters)」セクションの **[!UICONTROL Delivery duration]** または **[!UICONTROL Validity limit for sending messages]** パラメーターを使用して、メッセージを送信できる期間を指定します。
 
 ### メール処理ルール {#legacy-email-processing-rules}
 

@@ -38,14 +38,14 @@ Adobe Campaignは、クラウドベースのソリューションとして、管
 
 使用できる様々なメニューを次に示します。
 
-* [ ユーザーとセキュリティ ](../../administration/using/about-access-management.md)：このメニューを使用すると、プラットフォーム（ユーザー、役割、セキュリティグループ、ユニット）へのアクセスを管理できます。
-* [ チャネル ](../../administration/using/about-channel-configuration.md)：このメニューは、様々なプラットフォームチャネル（メール、モバイル）にリンクされた技術的なパラメーターのほか、タイポロジおよび強制隔離管理を再グループ化します。
-* [ アプリケーション設定 ](../../administration/using/external-accounts.md)：このメニューを使用すると、様々なアプリケーション要素（外部アカウント、オプション、テクニカルワークフロー）を設定できます。
-* [ 開発 ](../../developing/using/data-model-concepts.md)：このメニューを使用すると、カスタムリソースを管理し、診断ツールにアクセスできます。
-* [ インスタンス設定 ](../../administration/using/branding.md)：このメニューでは、様々なブランドを定義し、その設定（ロゴ、トラッキングの管理、ランディングページにアクセスするための URL ドメインなど）を設定できます。
-* [ デプロイメント ](../../automating/using/managing-packages.md)：このメニューは、パッケージのインポートおよびエクスポートオプションを再グループ化します。
-* [ 顧客指標 ](../../audiences/using/active-profiles.md):Adobe Campaignは、アクティブなプロファイルの数を表示するレポートを提供します。 このレポートは情報提供だけを目的としており、請求に直接影響を与えるものではありません。
-* [ プライバシーツール ](../../start/using/privacy-management.md)：このメニューを使用すると、GDPR のアクセスリクエストと削除リクエストを作成し、それらの進化を追跡できます。
+* [&#x200B; ユーザーとセキュリティ &#x200B;](../../administration/using/about-access-management.md)：このメニューを使用すると、プラットフォーム（ユーザー、役割、セキュリティグループ、ユニット）へのアクセスを管理できます。
+* [&#x200B; チャネル &#x200B;](../../administration/using/about-channel-configuration.md)：このメニューは、様々なプラットフォームチャネル（メール、モバイル）にリンクされた技術的なパラメーターのほか、タイポロジおよび強制隔離管理を再グループ化します。
+* [&#x200B; アプリケーション設定 &#x200B;](../../administration/using/external-accounts.md)：このメニューを使用すると、様々なアプリケーション要素（外部アカウント、オプション、テクニカルワークフロー）を設定できます。
+* [&#x200B; 開発 &#x200B;](../../developing/using/data-model-concepts.md)：このメニューを使用すると、カスタムリソースを管理し、診断ツールにアクセスできます。
+* [&#x200B; インスタンス設定 &#x200B;](../../administration/using/branding.md)：このメニューでは、様々なブランドを定義し、その設定（ロゴ、トラッキングの管理、ランディングページにアクセスするための URL ドメインなど）を設定できます。
+* [&#x200B; デプロイメント &#x200B;](../../automating/using/managing-packages.md)：このメニューは、パッケージのインポートおよびエクスポートオプションを再グループ化します。
+* [&#x200B; 顧客指標 &#x200B;](../../audiences/using/active-profiles.md):Adobe Campaignは、アクティブなプロファイルの数を表示するレポートを提供します。 このレポートは情報提供だけを目的としており、請求に直接影響を与えるものではありません。
+* [&#x200B; プライバシーツール &#x200B;](../../start/using/privacy-management.md)：このメニューを使用すると、GDPR のアクセスリクエストと削除リクエストを作成し、それらの進化を追跡できます。
 
 ## ユーザーとセキュリティ {#users-security}
 

@@ -28,11 +28,11 @@ Adobe Campaign を使用すると、さまざまなユーザーに割り当て�
 
 役割、グループ、および組織単位は、プラットフォームの機能管理者が **[!UICONTROL Administration > Users & Security]** メニューで管理できます。
 
-![User Management メニュー ](assets/user_management_1.png)
+![User Management メニュー &#x200B;](assets/user_management_1.png)
 
-ユーザーはAdmin Consoleで管理されます。 詳しくは、[ グループとユーザーの管理 ](../../administration/using/managing-groups-and-users.md) の節および [Admin Consoleドキュメント ](https://helpx.adobe.com/jp/enterprise/managing/user-guide.html) を参照してください。
+ユーザーはAdmin Consoleで管理されます。 詳しくは、[&#x200B; グループとユーザーの管理 &#x200B;](../../administration/using/managing-groups-and-users.md) の節および [Admin Consoleドキュメント &#x200B;](https://helpx.adobe.com/jp/enterprise/managing/user-guide.html) を参照してください。
 
-![ 製品プロファイルへのアクセス ](assets/user_management_6.png)
+![&#x200B; 製品プロファイルへのアクセス &#x200B;](assets/user_management_6.png)
 
 >[!IMPORTANT]
 >

@@ -85,4 +85,4 @@ ht-degree: 95%
 
 `GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/<resourceName>/by<customFilterName>?<customFilterparam>=<customFilterValue>`
 
-詳しくは、[Campaign StandardAPI ドキュメント ](../../api/using/filtering.md#custom-filters) を参照してください。
+詳しくは、[Campaign StandardAPI ドキュメント &#x200B;](../../api/using/filtering.md#custom-filters) を参照してください。

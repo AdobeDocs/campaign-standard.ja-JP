@@ -86,7 +86,7 @@ KPI の更新に時間がかかりすぎるか、送信ログの結果が反映�
 >
 >この節は、メールチャネルにのみ適用されます。
 
-各メールの **[!UICONTROL Summary]** 表示では、**[!UICONTROL Delivered]** の割合は 100% から始まり、ソフトバウンスとハードバウンスがレポートされ返されるので、配信 [ 有効期間 ](../../administration/using/configuring-email-channel.md#validity-period-parameters) を通じて徐々に低下し <!--from the Enhanced MTA to Campaign--> す。
+各メールの **[!UICONTROL Summary]** 表示では、**[!UICONTROL Delivered]** の割合は 100% から始まり、ソフトバウンスとハードバウンスがレポートされ返されるので、配信 [&#x200B; 有効期間 &#x200B;](../../administration/using/configuring-email-channel.md#validity-period-parameters) を通じて徐々に低下し <!--from the Enhanced MTA to Campaign--> す。
 
 実際、Campaign から Enhanced MTA （メッセージ転送エージェント [&#128279;](../../sending/using/monitoring-a-delivery.md#sending-logs) に正常に中継されるとすぐに、すべてのメッセージが  送信ログ）に **[!UICONTROL Sent]** のように表示されます。 メッセージの[バウンス](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)が Enhanced MTA からキャンペーンに返されるまで、メッセージのステータスは変わりません。
 

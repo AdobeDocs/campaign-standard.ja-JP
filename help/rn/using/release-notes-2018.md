@@ -55,7 +55,7 @@ ht-degree: 7%
 
 * クリエイティブ Designer インターフェイスを使用してコンテンツブロックを選択すると、リストのすべてのコンテンツブロックが読み込まれて表示されるようになりました。 （CAMP-27311）
 
-  詳しくは、[ 詳細ドキュメント ](../../designing/using/personalization.md#adding-a-content-block) を参照してください。
+  詳しくは、[&#x200B; 詳細ドキュメント &#x200B;](../../designing/using/personalization.md#adding-a-content-block) を参照してください。
 
 **パッチ**
 
@@ -117,14 +117,14 @@ ht-degree: 7%
 
 **改善点**
 
-* Adobe CampaignとAdobe Targetの統合により、Target の [ 権限 ](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html?lang=ja) 機能を活用できるようになりました。 Adobe Targetの動的画像をメールに含める際に、ターゲットプロパティ（at_property コード）を指定できるようになりました。
+* Adobe CampaignとAdobe Targetの統合により、Target の [&#x200B; 権限 &#x200B;](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html?lang=ja) 機能を活用できるようになりました。 Adobe Targetの動的画像をメールに含める際に、ターゲットプロパティ（at_property コード）を指定できるようになりました。
 * プロファイルリソースへのオーナーコピーリンクを持つカスタムリソースが、GDPR プライバシーアクセス/削除リクエストで考慮されるようになりました。 カーディナリティが 1 のシンプルリンクとカーディナリティ N のコレクションリンクの場合、カスタムリソースで「ターゲットレコードの削除/複製は、リンクで参照されるレコードの削除/複製を意味します」を選択する必要があります。 カーディナリティ 0 または 1 のシンプルリンクの場合、「レコードの削除/複製は、リンクによって参照されるターゲットレコードの削除/複製を意味します」を選択します。
 
 **その他の変更**
 
 * レポート共有のタイムアウトが 1 分から 4 分に増え、タイムアウトエラーが発生しないようにしました。
-* メールのコンテンツを編集する場合、新しいクリエイティブDesignerがデフォルトで開きます。 必要に応じて、変更を保存した後でいつでもデフォルトのコンテンツエディターに戻ることができます。 詳しくは、[ 詳細ドキュメント ](../../designing/using/designing-content-in-adobe-campaign.md) を参照してください。
-* クリエイティブ Designerで、新しいコンテンツコンポーネントをメールに追加できるようになりました。これは、カルーセルです。 詳しくは、[ 詳細ドキュメント ](../../designing/using/designing-from-scratch.md#about-content-components) を参照してください。
+* メールのコンテンツを編集する場合、新しいクリエイティブDesignerがデフォルトで開きます。 必要に応じて、変更を保存した後でいつでもデフォルトのコンテンツエディターに戻ることができます。 詳しくは、[&#x200B; 詳細ドキュメント &#x200B;](../../designing/using/designing-content-in-adobe-campaign.md) を参照してください。
+* クリエイティブ Designerで、新しいコンテンツコンポーネントをメールに追加できるようになりました。これは、カルーセルです。 詳しくは、[&#x200B; 詳細ドキュメント &#x200B;](../../designing/using/designing-from-scratch.md#about-content-components) を参照してください。
 * トランザクションメッセージホットクリックレポートでは、「**プロファイルを変更**」ボタンをクリックすると、トランザクションメッセージに定義したイベントにリンクされたテストプロファイルのみが表示されるようになりました。
 
 **パッチ**
@@ -147,7 +147,7 @@ ht-degree: 7%
 
 **改善点**
 
-* **[!UICONTROL History]** API がAdobe.IO に追加されました。 タッチポイント数、送信された配信、ミラーページ URL など、プロファイルのマーケティング履歴に関連する情報にアクセスできます。 詳しくは、[ 専用のユースケース ](../../api/using/interacting-with-marketing-history.md) を参照してください。
+* **[!UICONTROL History]** API がAdobe.IO に追加されました。 タッチポイント数、送信された配信、ミラーページ URL など、プロファイルのマーケティング履歴に関連する情報にアクセスできます。 詳しくは、[&#x200B; 専用のユースケース &#x200B;](../../api/using/interacting-with-marketing-history.md) を参照してください。
 * データベースバックアップのパフォーマンスを向上させるために、**[!UICONTROL Database cleanup]** のテクニカルワークフローを最適化しました。
 * Creative Designer for Email がフランス語およびドイツ語でも使用できるようになりました。
 
@@ -157,7 +157,7 @@ ht-degree: 7%
 * **配信品質の更新** 標準のテクニカルワークフローで、機能管理者が **ルールを更新** JavaScript アクティビティで無視する連続エラー数を定義できるようになりました。 デフォルトでは、フィールド値は 0 に設定されています。これは、すべてのエラーが無視されることを意味します。
 * ユニット・アクセス制限条件の管理時に生成される SQL が最適化されました。
 * **[!UICONTROL Update]** アクティビティで、購読に関連するデータ（nms:appSubscriptionRcp テーブル）の追加、更新、削除が可能になりました。
-* **[!UICONTROL Update delivery execution]** のテクニカルワークフローは、パフォーマンスを最適化するために 2 つのワークフローに分かれています。- **[!UICONTROL Update delivery execution]**：配信のトラッキングを更新します。 デフォルトでは、10 分ごとに開始されます。 **[!UICONTROL Update delivery indicators]**：配信の KPI を更新します。デフォルトでは 1 時間ごとに開始されます。 テクニカルワークフローについて詳しくは、この節 [ 参照してください ](../../administration/using/technical-workflows.md#list-of-technical-workflows)。
+* **[!UICONTROL Update delivery execution]** のテクニカルワークフローは、パフォーマンスを最適化するために 2 つのワークフローに分かれています。- **[!UICONTROL Update delivery execution]**：配信のトラッキングを更新します。 デフォルトでは、10 分ごとに開始されます。 **[!UICONTROL Update delivery indicators]**：配信の KPI を更新します。デフォルトでは 1 時間ごとに開始されます。 テクニカルワークフローについて詳しくは、この節 [&#x200B; 参照してください &#x200B;](../../administration/using/technical-workflows.md#list-of-technical-workflows)。
 * 配信がメッセージを送信する際、「**[!UICONTROL Deployment]**」セクションのステータスに 2 つの値を使用できるようになりました。**[!UICONTROL Sending]**：メッセージを送信中です。 **[!UICONTROL Sending (retry)]**：再試行パスが進行中です。
 * **[!UICONTROL Delivery preparation]** の役割を持つユーザーは、配達確認を送信できるようになりました。 （CAMP-24313）
 * **TLS over SMPP を有効にする** オプションが、SMPP を使用した **SMS ルーティング** 外部アカウントに追加されました。 詳しくは、この[節](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing)を参照してください。
@@ -222,7 +222,7 @@ ht-degree: 7%
 
 **その他の変更**
 
-* オーディエンスを読み取りワークフローアクティビティで、Experience Cloudオーディエンスを読み取れるようになりました。 以前は、このアクティビティは、クエリを読み取り、オーディエンスをリストすることしかできませんでした。 [ 詳細なドキュメント ](../../automating/using/read-audience.md) を参照してください。 （CAMP-23623）
+* オーディエンスを読み取りワークフローアクティビティで、Experience Cloudオーディエンスを読み取れるようになりました。 以前は、このアクティビティは、クエリを読み取り、オーディエンスをリストすることしかできませんでした。 [&#x200B; 詳細なドキュメント &#x200B;](../../automating/using/read-audience.md) を参照してください。 （CAMP-23623）
 * デフォルトの共有データソースの識別子は読み取り専用モードになり、変更できなくなりました。 この識別子を変更すると、オーディエンスをExperience Cloudと共有する際に問題が発生する可能性があります。
 * Audience Manager からのオーディエンスのインポートが分割ファイルで正しく機能するようになりました。これまでは、importSharedAudience テクニカルワークフローによってセグメントの最後のファイルのみがインポートされていました。
 * AWS S3 外部アカウントで、リージョンとバージョン 4 認証メカニズムがサポートされるようになりました。 [詳細ドキュメント](../../administration/using/external-accounts.md)を参照してください。
@@ -307,7 +307,7 @@ _カスタムリソース_
      <li> メールコンテンツテンプレートを作成および保存し、保存済みのテンプレートを活用してメール作成の規模を拡大する </li> 
      <li> コンテンツフラグメント（ヘッダー、フッター、記事など）を作成して保存し、コンテンツ作成を効率化し、ブランド一貫性を確保します </li> 
      <li> ドラッグ&amp;ドロップインターフェイスでの作成と、メールのHTMLの直接編集を、ボタンをクリックするだけでシームレスに切り替えることができます </li> 
-    </ul> Creative Designer for Email は英語でのみご利用いただけます。<br /> 詳しくは、<a href="../../designing/using/designing-content-in-adobe-campaign.md"> 詳細なドキュメント </a> を参照し、この <a href="https://www.youtube.com/watch?time_continue=1&amp;v=5S_6A4fsfms"> ビデオ </a> をご覧ください。<br /> </td> 
+    </ul> Creative Designer for Email は英語でのみご利用いただけます。<br /> 詳しくは、<a href="../../designing/using/designing-content-in-adobe-campaign.md"> 詳細なドキュメント </a> を参照し、この <a href="https://www.youtube.com/watch?time_continue=1&v=5S_6A4fsfms"> ビデオ </a> をご覧ください。<br /> </td> 
   </tr> 
   <tr> 
    <td> 多言語プッシュ配信 <br /> </td> 
@@ -403,7 +403,7 @@ _メール、SMS メッセージおよびダイレクトメール_
 
 * 配信準備フェーズが強化され、パフォーマンスが向上しました。
 * ニッチな状況でトラッキングログが破損する可能性がある問題を修正しました。
-* 配信準備と確認の間でコンタクト日が変更された場合に発生していたコンタクト日更新の問題を修正しました。 準備が完了してからコンタクト日を変更する場合、送信を確認する前に再度配信の準備が必要になります。 [ 詳細なドキュメント ](../../sending/using/preparing-the-send.md) を参照してください。
+* 配信準備と確認の間でコンタクト日が変更された場合に発生していたコンタクト日更新の問題を修正しました。 準備が完了してからコンタクト日を変更する場合、送信を確認する前に再度配信の準備が必要になります。 [&#x200B; 詳細なドキュメント &#x200B;](../../sending/using/preparing-the-send.md) を参照してください。
 
 _プッシュ通知_
 

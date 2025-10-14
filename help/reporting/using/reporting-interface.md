@@ -45,7 +45,7 @@ ht-degree: 3%
 * [パネルの追加](../../reporting/using/adding-panels.md)
 * [ビジュアライゼーションの追加](../../reporting/using/adding-visualizations.md)
 * [コンポーネントの追加](../../reporting/using/adding-components.md)
-* [ メールを通じた関係者とのレポートの自動共有 ](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)
+* [&#x200B; メールを通じた関係者とのレポートの自動共有 &#x200B;](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)
 
 ## タブ {#tabs}
 
@@ -147,4 +147,4 @@ ht-degree: 3%
 
 **関連トピック：**
 
-* [ メールを通じた関係者とのレポートの自動共有 ](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)
+* [&#x200B; メールを通じた関係者とのレポートの自動共有 &#x200B;](https://helpx.adobe.com/campaign/kb/simplify-campaign-management.html#Reportandshareinsightswithallstakeholders)

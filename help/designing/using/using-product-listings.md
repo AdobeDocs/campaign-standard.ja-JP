@@ -20,13 +20,13 @@ ht-degree: 77%
 
 >[!IMPORTANT]
 >
->商品リストは、**メールDesigner** インターフェイスを介した [ トランザクションメールメッセージ ](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface) でのみ使用できます。
+>商品リストは、**メールDesigner** インターフェイスを介した [&#x200B; トランザクションメールメッセージ &#x200B;](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-interface) でのみ使用できます。
 
 トランザクションメールのコンテンツを編集する際に、1 つ以上のデータコレクションを参照する製品リストを作成できます。 例えば、買い物かご放棄に関するメールに、Web サイトを離れた際にユーザーの買い物かごに入っていたすべての製品のリストを、画像、価格、各製品へのリンクと共に含めることができます。
 
 トランザクションメッセージに放棄された製品のリストを追加するには、次の手順に従います。
 
-また、トランザクションメールでの製品リストの設定に必要な手順について説明した [ このビデオセット ](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html?lang=ja#configure-product-listings-in-transactional-emails) を視聴することもできます。
+また、トランザクションメールでの製品リストの設定に必要な手順について説明した [&#x200B; このビデオセット &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html?lang=ja#configure-product-listings-in-transactional-emails) を視聴することもできます。
 
 >[!NOTE]
 >
@@ -37,9 +37,9 @@ ht-degree: 77%
 トランザクションメッセージ内の製品リストを使用する前に、表示するリストの各製品のリストとフィールドをイベントレベルで定義する必要があります。詳しくは、[データコレクションの定義](../../channels/using/configuring-transactional-event.md#defining-data-collections)を参照してください。
 
 1. トランザクションメッセージで、「**[!UICONTROL Content]**」ブロックをクリックしてメールの内容を変更します。
-1. 構造コンポーネントをワークスペースにドラッグ＆ドロップします。詳しくは、[ メール構造の定義 ](../../designing/using/designing-from-scratch.md#defining-the-email-structure) を参照してください。
+1. 構造コンポーネントをワークスペースにドラッグ＆ドロップします。詳しくは、[&#x200B; メール構造の定義 &#x200B;](../../designing/using/designing-from-scratch.md#defining-the-email-structure) を参照してください。
 
-   例えば、1 列の構造コンポーネントを選択し、テキストコンポーネント、画像コンポーネント、ボタンコンポーネントを追加します。詳しくは、[ コンテンツコンポーネントの使用 ](../../designing/using/designing-from-scratch.md#about-content-components) を参照してください。
+   例えば、1 列の構造コンポーネントを選択し、テキストコンポーネント、画像コンポーネント、ボタンコンポーネントを追加します。詳しくは、[&#x200B; コンテンツコンポーネントの使用 &#x200B;](../../designing/using/designing-from-scratch.md#about-content-components) を参照してください。
 
 1. 先ほど作成した構造コンポーネントを選択し、コンテキストツールバーの「**[!UICONTROL Enable product listing]**」アイコンをクリックします。
 
@@ -56,7 +56,7 @@ ht-degree: 77%
 
    >[!NOTE]
    >
-   >この **[!UICONTROL Column]** オプションは、複数列の構造コンポーネント（**[!UICONTROL 2:2 column]**、**[!UICONTROL 3:3 column]** および **[!UICONTROL 4:4 column]**）を使用する場合にのみ使用できます。製品リストを編集する場合は、最初の列にのみ入力します。他の列は考慮されません。構造コンポーネントの選択について詳しくは、[ メール構造の定義 ](../../designing/using/designing-from-scratch.md#defining-the-email-structure) を参照してください。
+   >この **[!UICONTROL Column]** オプションは、複数列の構造コンポーネント（**[!UICONTROL 2:2 column]**、**[!UICONTROL 3:3 column]** および **[!UICONTROL 4:4 column]**）を使用する場合にのみ使用できます。製品リストを編集する場合は、最初の列にのみ入力します。他の列は考慮されません。構造コンポーネントの選択について詳しくは、[&#x200B; メール構造の定義 &#x200B;](../../designing/using/designing-from-scratch.md#defining-the-email-structure) を参照してください。
 
 1. トランザクションメッセージに関連するイベントを設定する際に作成したデータ収集を選択します。これは、**[!UICONTROL Context]**／**[!UICONTROL Real-time event]**／**[!UICONTROL Event context]** ノードの下にあります。
 
@@ -129,7 +129,7 @@ ht-degree: 77%
 
    フォールバックコンテンツは、イベントがトリガーされたときにコレクションが空の場合（例えば、顧客の買い物かごに何もない場合）に表示されます。
 
-1. 設定ペインで、製品リストのスタイルを編集します。詳しくは、[ メールスタイルの管理 ](../../designing/using/styles.md) を参照してください。
+1. 設定ペインで、製品リストのスタイルを編集します。詳しくは、[&#x200B; メールスタイルの管理 &#x200B;](../../designing/using/styles.md) を参照してください。
 1. 関連するトランザクションイベントにリンクされ、収集データを定義したテストプロファイルを使用して、メールをプレビューします。例えば、使用するテストプロファイルの「**[!UICONTROL Event data]**」セクションに次の情報を追加します。
 
    ![](assets/message-center_loop_test-profile_payload.png)

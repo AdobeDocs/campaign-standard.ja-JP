@@ -20,12 +20,12 @@ ht-degree: 2%
 
 データ収集 UI で、データ要素とルールを作成して、モバイルアプリケーションから [!DNL Adobe Campaign Standard] に PII やその他のデータを送信します。
 
-データ収集 UI のすべての設定変更を有効にするには、これらの変更を公開する必要があります。 詳しくは、「[ 公開 ](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/#publish-the-configuration)」を参照してください。
+データ収集 UI のすべての設定変更を有効にするには、これらの変更を公開する必要があります。 詳しくは、「[&#x200B; 公開 &#x200B;](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/#publish-the-configuration)」を参照してください。
 
 データ収集 UI でルールを作成するには、次の手順に従います。
 
 1. [データ要素の作成](../../administration/using/configuring-rules-launch.md#create-data-elements)
-2. [ ルールの作成 ](../../administration/using/configuring-rules-launch.md#create-data-elements)：サポートを必要とするユースケースに対応
+2. [&#x200B; ルールの作成 &#x200B;](../../administration/using/configuring-rules-launch.md#create-data-elements)：サポートを必要とするユースケースに対応
    * [PII ポストバック](../../administration/using/configuring-rules-launch.md#pii-postback)
    * [アプリ内トラッキングのポストバック](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback)
    * [ポストバックを追跡するプッシュ通知](../../administration/using/configuring-rules-launch.md#push-tracking-postback)
@@ -191,9 +191,9 @@ PII データを [!DNL Adobe Campaign Standard] に送信するには、デー�
 
 プッシュ通知配信とモバイルアプリケーションとのユーザーのインタラクションを追跡するのに役立つトラッキングデータを [!DNL Adobe Campaign Standard] に送信するには、データ収集 UI でルールを作成する必要があります。
 
-プッシュトラッキングについて詳しくは、[ プッシュトラッキング ](../../administration/using/push-tracking.md) を参照してください。
+プッシュトラッキングについて詳しくは、[&#x200B; プッシュトラッキング &#x200B;](../../administration/using/push-tracking.md) を参照してください。
 
-アプリのアクションを追跡するには、trackAction API を使用します。 詳しくは、「[ アプリのアクションのトラッキング ](https://app.gitbook.com/@aep-sdks/s/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#track-app-actions)」を参照してください。
+アプリのアクションを追跡するには、trackAction API を使用します。 詳しくは、「[&#x200B; アプリのアクションのトラッキング &#x200B;](https://app.gitbook.com/@aep-sdks/s/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#track-app-actions)」を参照してください。
 
 1. データ収集 UI で、モバイルアプリケーションダッシュボードから「**[!UICONTROL Rules]**」タブをクリックし、「**[!UICONTROL Add Rule]**」をクリックします。
 
@@ -264,7 +264,7 @@ PII データを [!DNL Adobe Campaign Standard] に送信するには、デー�
 
    >[!NOTE]
    >
-   >上記の例では、[ データ要素の作成 ](../../administration/using/configuring-rules-launch.md#create-data-elements) の手順を利用して、右側のデータ要素をデータ収集 UI で設定する必要があります。 左側のデータ要素は [!DNL Adobe Campaign Standard] でサポートされており、設定は必要ありません。 追加のデータが必要な場合は、[!DNL Adobe Campaign Standard] でカスタムリソース拡張を実行する必要があります。
+   >上記の例では、[&#x200B; データ要素の作成 &#x200B;](../../administration/using/configuring-rules-launch.md#create-data-elements) の手順を利用して、右側のデータ要素をデータ収集 UI で設定する必要があります。 左側のデータ要素は [!DNL Adobe Campaign Standard] でサポートされており、設定は必要ありません。 追加のデータが必要な場合は、[!DNL Adobe Campaign Standard] でカスタムリソース拡張を実行する必要があります。
 
 1. **[!UICONTROL Content Type]** に **application/json** と入力します。
 

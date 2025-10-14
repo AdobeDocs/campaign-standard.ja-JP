@@ -24,18 +24,18 @@ ht-degree: 45%
 
 メッセージのコンテンツを設計する際は、以下の原則に従います。
 
-* [ 送信者の名前とアドレス ](#sender-name)：アドレスは送信者を明示的に識別する必要があります。 ドメインは、送信者に所有および登録されている必要があります。ドメイン登録は非公開にはしません。
+* [&#x200B; 送信者の名前とアドレス &#x200B;](#sender-name)：アドレスは送信者を明示的に識別する必要があります。 ドメインは、送信者に所有および登録されている必要があります。ドメイン登録は非公開にはしません。
   <!--**Subject**: Avoid excessive capitalization and punctuation, and words that are frequently used by spammers ("Win", "Free", etc.).-->
-* [Personalizationと送信時間の最適化 ](#perso-send-time-optimization): コンテンツをパーソナライズし、受信者ごとの送信時間を定義すると、メッセージが開かれる可能性が高くなります。
+* [Personalizationと送信時間の最適化 &#x200B;](#perso-send-time-optimization): コンテンツをパーソナライズし、受信者ごとの送信時間を定義すると、メッセージが開かれる可能性が高くなります。
 * 画像とテキスト：適切なテキスト／画像比率（例：テキスト 60%、画像 40％）に従います。
 * [購読解除リンク](#opt-out)とランディングページ：購読解除リンクは必須です。表示されており、有効である必要があります。また、フォームは機能している必要があります。
-* プレビュー：Adobe Campaignのツールを使用し、メールのコンテンツを確認し最適化します（[ スパム対策分析 ](#anti-spam-analysis)、[ メールレンダリング ](#message-responsiveness)）。
+* プレビュー：Adobe Campaignのツールを使用し、メールのコンテンツを確認し最適化します（[&#x200B; スパム対策分析 &#x200B;](#anti-spam-analysis)、[&#x200B; メールレンダリング &#x200B;](#message-responsiveness)）。
 
 コンテンツの設計時に配信品質を最適化するためのその他のヒントについては、[アドビの配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/content-best-practices-for-optimal-delivery.html?lang=ja)を参照してください。
 
 >[!NOTE]
 >
->メールコンテンツの編集について詳しくは、[ メールDesignerの概要 ](../../designing/using/designing-content-in-adobe-campaign.md) および [ メッセージデザインのベストプラクティス ](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices) を参照してください。
+>メールコンテンツの編集について詳しくは、[&#x200B; メールDesignerの概要 &#x200B;](../../designing/using/designing-content-in-adobe-campaign.md) および [&#x200B; メッセージデザインのベストプラクティス &#x200B;](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices) を参照してください。
 
 ## 送信者の名前とアドレス {#sender-name}
 
@@ -45,19 +45,19 @@ ht-degree: 45%
 
 インスタンスレベルまたは最も頻繁に使用するシナリオで正しいアドレスが指定されていることを確認する必要があります。 これを行うには、管理者に問い合わせてください。
 
-詳しくは、[ メールの送信者の定義 ](../../designing/using/subject-line.md#email-sender) を参照してください。
+詳しくは、[&#x200B; メールの送信者の定義 &#x200B;](../../designing/using/subject-line.md#email-sender) を参照してください。
 
 ## Personalizationと送信時間の最適化 {#perso-send-time-optimization}
 
 Adobe Campaignでは、受信者のエクスペリエンスを向上させ、メールを開くことができるように、メッセージをパーソナライズできます。 詳しくは、[この節](../../designing/using/personalization.md)を参照してください。
 
-メッセージの開封率を高めるために、受信者ごとの送信時間を手動で定義することもできます。 各プロファイルは、可能な限り指定した日時にメッセージを受信します。 詳しくは、[ 送信時間の最適化 ](../../sending/using/optimizing-the-sending-time.md) を参照してください。
+メッセージの開封率を高めるために、受信者ごとの送信時間を手動で定義することもできます。 各プロファイルは、可能な限り指定した日時にメッセージを受信します。 詳しくは、[&#x200B; 送信時間の最適化 &#x200B;](../../sending/using/optimizing-the-sending-time.md) を参照してください。
 
 ## オプトアウトリンクとフォーム {#opt-out}
 
-デフォルトでは、メッセージが分析される場合、タイポロジルールでオプトアウトリンクが含まれているかどうかがチェックされ、見つからない場合は警告が表示されます。リンクの管理について詳しくは、[ この節 ](../../designing/using/links.md) を参照してください。
+デフォルトでは、メッセージが分析される場合、タイポロジルールでオプトアウトリンクが含まれているかどうかがチェックされ、見つからない場合は警告が表示されます。リンクの管理について詳しくは、[&#x200B; この節 &#x200B;](../../designing/using/links.md) を参照してください。
 
-毎回、送信前に、オプトアウトリンクが適切に機能することを確認する必要があります。例えば、[ 配達確認を送信 ](../../sending/using/sending-proofs.md) する場合は、リンクが有効であり、フォームがオンラインであり、これを検証することで **[!UICONTROL No longer contact]** のチェックボックスがオンになることを確認します。 リンクの入力時やフォームの変更時には常に人的エラーが発生する可能性があるので、このチェックは系統的に行う必要があります。 オプトインとオプトアウトの管理について詳しくは、[ この節 ](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md) を参照してください。
+毎回、送信前に、オプトアウトリンクが適切に機能することを確認する必要があります。例えば、[&#x200B; 配達確認を送信 &#x200B;](../../sending/using/sending-proofs.md) する場合は、リンクが有効であり、フォームがオンラインであり、これを検証することで **[!UICONTROL No longer contact]** のチェックボックスがオンになることを確認します。 リンクの入力時やフォームの変更時には常に人的エラーが発生する可能性があるので、このチェックは系統的に行う必要があります。 オプトインとオプトアウトの管理について詳しくは、[&#x200B; この節 &#x200B;](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md) を参照してください。
 
 ![](assets/optin_landingpage_3.png)
 
@@ -69,7 +69,7 @@ Adobe Campaignでは、受信者のエクスペリエンスを向上させ、メ
 
 ## スパム対策分析 {#anti-spam-analysis}
 
-Adobe Campaignのメッセージエディターには、**スパム対策分析** が統合されています。これにより、E メールにスコアを付けて、受信時に使用されるスパム対策ツールで、メッセージがスパムと見なされるリスクを冒すかどうかを判断できます。 詳しくは、[ メッセージのプレビュー ](../../sending/using/previewing-messages.md) を参照してください。
+Adobe Campaignのメッセージエディターには、**スパム対策分析** が統合されています。これにより、E メールにスコアを付けて、受信時に使用されるスパム対策ツールで、メッセージがスパムと見なされるリスクを冒すかどうかを判断できます。 詳しくは、[&#x200B; メッセージのプレビュー &#x200B;](../../sending/using/previewing-messages.md) を参照してください。
 
 メッセージコンテンツエディターで、「**[!UICONTROL Preview]**」をクリックします。 スパム対策チェックによってこのメッセージの高リスクが検出された場合は、メッセージが警告を表示します。 「**[!UICONTROL Anti-spam analysis]**」をクリックすると、詳細が表示されます。
 

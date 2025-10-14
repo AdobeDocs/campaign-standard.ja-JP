@@ -18,7 +18,7 @@ ht-degree: 66%
 
 # パーソナライズされたコンテンツの作成 {#build-personalized-content}
 
-メッセージコンテンツを設計するときは、配信の実行を妨げる可能性がある一般的な問題が発生しないようにします。ほとんどの場合、発生する可能性のあるエラーは、[ パーソナライズ機能 ](../../designing/using/personalization.md)、[ 既存のコンテンツを使用 ](../../designing/using/using-existing-content.md) しているときの書式設定、[HTMLコンテンツの変換 ](../../designing/using/using-existing-content.md#converting-an-html-content) および [ 画像 ](../../designing/using/images.md) に関連しています。
+メッセージコンテンツを設計するときは、配信の実行を妨げる可能性がある一般的な問題が発生しないようにします。ほとんどの場合、発生する可能性のあるエラーは、[&#x200B; パーソナライズ機能 &#x200B;](../../designing/using/personalization.md)、[&#x200B; 既存のコンテンツを使用 &#x200B;](../../designing/using/using-existing-content.md) しているときの書式設定、[HTMLコンテンツの変換 &#x200B;](../../designing/using/using-existing-content.md#converting-an-html-content) および [&#x200B; 画像 &#x200B;](../../designing/using/images.md) に関連しています。
 
 ## パーソナライゼーションの最適化 {#optimize-personalization}
 
@@ -29,7 +29,7 @@ Adobe Campaign データベースに保存されている受信者データや�
 エラーを避けるために、メッセージコンテンツが適切に設計されていることを確認します。多くのエラーはパーソナライゼーションに関係しています。
 
 動的コンテンツを手動で追加すると、式エディターで定義された条件に従って、受信者に異なるコンテンツを表示できます。 動的コンテンツを追加する場合は、選択した条件を満たさない受信者に対して常にデフォルトのバリアントを残す必要があります。
-動的コンテンツについて詳しくは、[ この節 ](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) を参照してください。
+動的コンテンツについて詳しくは、[&#x200B; この節 &#x200B;](../../designing/using/personalization.md#defining-dynamic-content-in-an-email) を参照してください。
 
 **ヒント** – 様々なテストプロファイルでメールをプレビューし、動的コンテンツが正しく設定されていることを確認します。
 
@@ -63,9 +63,9 @@ Adobe Campaign データベースに保存されている受信者データや�
 
 ### 購読解除リンク
 
-購読解除リンクは不可欠です。購読解除リンクが表示され、有効である必要があり、フォームが機能する必要があります。購読解除リンクのガイドラインについては [ この節 ](../../designing/using/personalization.md#about-targeting-dimension) を参照してください。
+購読解除リンクは不可欠です。購読解除リンクが表示され、有効である必要があり、フォームが機能する必要があります。購読解除リンクのガイドラインについては [&#x200B; この節 &#x200B;](../../designing/using/personalization.md#about-targeting-dimension) を参照してください。
 
-デフォルトでは、メッセージの分析時に、コントロール [ タイポロジルール ](../../sending/using/control-rules.md) がオプトアウトリンクが含まれているかどうかを確認し、含まれていない場合は警告を表示します。
+デフォルトでは、メッセージの分析時に、コントロール [&#x200B; タイポロジルール &#x200B;](../../sending/using/control-rules.md) がオプトアウトリンクが含まれているかどうかを確認し、含まれていない場合は警告を表示します。
 
 **ヒント**：ヒューマンエラーが発生する可能性は常にあるので、毎回、送信前に、オプトアウトリンクが適切に機能することを確認する必要があります。例えば、配達確認を送信するときは、リンクが有効であること、フォームがオンラインであること、「今後のこの受信者への連絡は不要」フィールドが「はい」に変更されていることを確認します。
 
@@ -79,7 +79,7 @@ Adobe Campaign データベースに保存されている受信者データや�
 
 * 冗長なスタイル、または使用されていないスタイルの削除
 
-* メールコンテンツの一部を [ ランディングページ ](../../channels/using/getting-started-with-landing-pages.md) に移動
+* メールコンテンツの一部を [&#x200B; ランディングページ &#x200B;](../../channels/using/getting-started-with-landing-pages.md) に移動
 
 * コードの縮小
 
@@ -89,7 +89,7 @@ Adobe Campaignでは、メールのデフォルトの最大サイズは **100MB*
 
 制限に達すると、制限を超えたメッセージは失敗し、エラーメッセージが配信ログに表示されます。 同じ配信の他のメッセージは影響を受けません。 その場合、配信で使用されるメールテンプレートまたはコンテンツフラグメントの動的部分を適応させる必要があります。<!--If you need assistance, or if you have any question or request about the **[!UICONTROL Maximum message size]** option, reach out to your Adobe contact.-->
 
-Adobeは、最大メッセージサイズのデフォルト値を維持することをお勧めします。 ただし、この値は、**[!UICONTROL Administration]**/**[!UICONTROL Application settings]**/**[!UICONTROL Options]** メニューから [ 機能管理者 ](../../administration/using/users-management.md#functional-administrators) のみによって **[!UICONTROL Maximum message size]** オプションで変更できます。
+Adobeは、最大メッセージサイズのデフォルト値を維持することをお勧めします。 ただし、この値は、**[!UICONTROL Administration]**/**[!UICONTROL Application settings]**/**[!UICONTROL Options]** メニューから [&#x200B; 機能管理者 &#x200B;](../../administration/using/users-management.md#functional-administrators) のみによって **[!UICONTROL Maximum message size]** オプションで変更できます。
 
 >[!IMPORTANT]
 >
@@ -116,7 +116,7 @@ Adobeは、最大メッセージサイズのデフォルト値を維持するこ
 
 * web HTML ではなく、レスポンシブメール HTML を使用します
 
-* プレビューモードを使用し、配達確認を送信して、できるだけ多くのデバイスでレンダリングをテストします。 送信前に [ メッセージをプレビュー ](../../sending/using/previewing-messages.md) する方法を説明します。
+* プレビューモードを使用し、配達確認を送信して、できるだけ多くのデバイスでレンダリングをテストします。 送信前に [&#x200B; メッセージをプレビュー &#x200B;](../../sending/using/previewing-messages.md) する方法を説明します。
 
 * Campaign メールDesignerには、モバイル用のレスポンシブデザイン形式のテンプレートが付属しています。 詳しくは、[このページ](../../designing/using/using-reusable-content.md#content-templates)を参照してください。
 

@@ -23,7 +23,7 @@ Campaign Standardには、マーケティングデータベースの拡張に役
 
 ワークフローでは、[[!UICONTROL Data management]](../../automating/using/about-data-management-activities.md) アクティビティを使用してデータを収集し、Campaign データベースに読み込むことができます。
 
-ワークフローを通じてデータをインポートする際の一般的な情報とベストプラクティスについては、[ この節 ](../../automating/using/about-data-import-and-export.md) を参照してください。
+ワークフローを通じてデータをインポートする際の一般的な情報とベストプラクティスについては、[&#x200B; この節 &#x200B;](../../automating/using/about-data-import-and-export.md) を参照してください。
 
 さらに、データをインポートするためのテンプレートを設定できます。 同じ構造を持つファイルを定期的にインポートする必要がある場合は、インポートテンプレートの使用がベストプラクティスです。
 
@@ -31,11 +31,11 @@ Campaign Standardには、マーケティングデータベースの拡張に役
 
 * **ワークフローテンプレート**：必要に応じて一度設定し、データの読み込みとデータベースの更新を行うたびに再利用できる、事前設定済みのワークフローです。
 
-  データをインポートするワークフローテンプレートの例について詳しくは、[ この節 ](../../automating/using/creating-import-workflow-templates.md) を参照してください。
+  データをインポートするワークフローテンプレートの例について詳しくは、[&#x200B; この節 &#x200B;](../../automating/using/creating-import-workflow-templates.md) を参照してください。
 
 * **データテンプレートの読み込み**：ワークフローテンプレートと同様に、これらはワークフローに基づくテンプレートであり、データベースを更新するためにファイルをアップロードするために設定されます。 設定が完了すると、**[!UICONTROL Profile & audiences]** / **[!UICONTROL Imports]** メニューの下の簡略化されたビューでユーザーが使用できるようになります。
 
-  データインポートテンプレートについて詳しくは、[ 専用ドキュメント ](../../automating/using/importing-data-with-import-templates.md) を参照してください。
+  データインポートテンプレートについて詳しくは、[&#x200B; 専用ドキュメント &#x200B;](../../automating/using/importing-data-with-import-templates.md) を参照してください。
 
 ## ランディングページからのデータの収集 {#collecting-data-from-landing-pages}
 
@@ -47,14 +47,14 @@ Campaign Standardには、マーケティングデータベースの拡張に役
 * 各入力フィールドを、データベースの対応するフィールドにマッピングします。
 * Web サイトを介して、またはメッセージへの直接リンクを介して、ランディングページをオンラインで使用できるようにします。
 
-ランディングページについて詳しくは、[ 専用ドキュメント ](../../channels/using/getting-started-with-landing-pages.md) を参照してください。
+ランディングページについて詳しくは、[&#x200B; 専用ドキュメント &#x200B;](../../channels/using/getting-started-with-landing-pages.md) を参照してください。
 
 ## Microsoft Dynamics 365 からのプロファイルの同期
 
 Microsoft Dynamics 365 とのCampaign Standard統合により、Microsoft Dynamics 365 から Campaign データベースに連絡先データを渡すことができます。
 これらの連絡先は、プロファイルリストに表示され、マーケティングキャンペーンでターゲットに設定できます。
 
-この統合について詳しくは、[ 専用ドキュメント ](../../integrating/using/d365-acs-get-started.md) を参照してください。
+この統合について詳しくは、[&#x200B; 専用ドキュメント &#x200B;](../../integrating/using/d365-acs-get-started.md) を参照してください。
 
 >[!NOTE]
 >
@@ -64,7 +64,7 @@ Microsoft Dynamics 365 とのCampaign Standard統合により、Microsoft Dynami
 
 Campaign StandardAPI を使用すると、プロファイルやサービスの作成、更新、削除など、データベースを更新する操作を実行できます。
 
-API の使用方法について詳しくは、[ 専用ドキュメント ](../../api/using/get-started-apis.md) を参照してください。
+API の使用方法について詳しくは、[&#x200B; 専用ドキュメント &#x200B;](../../api/using/get-started-apis.md) を参照してください。
 
 >[!IMPORTANT]
 >

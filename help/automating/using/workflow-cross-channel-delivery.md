@@ -65,7 +65,7 @@ Adobe Campaign で使用できるワークフローと様々なチャネルの�
 
 クエリアクティビティでターゲットを特定したら、ターゲットを 2 つの別々の母集団にセグメント化する条件を選択する必要があります。一方はメールを受信し、もう一方は SMS を受信します。
 
-[ セグメント化 ](../../automating/using/segmentation.md) アクティビティを使用して、クエリのアップストリームで計算された母集団から 1 つまたは複数のセグメントを作成する必要があります。
+[&#x200B; セグメント化 &#x200B;](../../automating/using/segmentation.md) アクティビティを使用して、クエリのアップストリームで計算された母集団から 1 つまたは複数のセグメントを作成する必要があります。
 
 ![](assets/wkf_segment_activity.png)
 
@@ -112,7 +112,7 @@ Adobe Campaign で使用できるワークフローと様々なチャネルの�
 
 ## 配信の作成 {#creating-deliveries}
 
-2 つのトランジションが既に作成されているので、セグメント化アクティビティのアウトバウンドトランジションに 2 種類の配信（[ メール配信 ](../../automating/using/email-delivery.md) アクティビティおよび [SMS 配信 ](../../automating/using/sms-delivery.md) アクティビティを追加する必要があります。
+2 つのトランジションが既に作成されているので、セグメント化アクティビティのアウトバウンドトランジションに 2 種類の配信（[&#x200B; メール配信 &#x200B;](../../automating/using/email-delivery.md) アクティビティおよび [SMS 配信 &#x200B;](../../automating/using/sms-delivery.md) アクティビティを追加する必要があります。
 
 Adobe Campaign を使用すると、ワークフローに配信を追加できます。これをおこなうには、ワークフローのアクティビティパレットの「**[!UICONTROL Channels]**」カテゴリから配信を選択します。
 
@@ -120,7 +120,7 @@ Adobe Campaign を使用すると、ワークフローに配信を追加でき�
 
 メール配信を作成するには：
 
-1. [ メール配信 ](../../automating/using/email-delivery.md) アクティビティを最初のセグメントの後にドラッグ&amp;ドロップします。
+1. [&#x200B; メール配信 &#x200B;](../../automating/using/email-delivery.md) アクティビティを最初のセグメントの後にドラッグ&amp;ドロップします。
 1. アクティビティを編集するには、ダブルクリックします。
 1. 「**[!UICONTROL Simple email]**」を選択します。
 1. 「**[!UICONTROL Add an outbound transition with the population]**」を選択し、「**[!UICONTROL Next]**」をクリックします。
@@ -137,7 +137,7 @@ Adobe Campaign を使用すると、ワークフローに配信を追加でき�
 
 SMS 配信を作成するには：
 
-1. [SMS 配信 ](../../automating/using/sms-delivery.md) アクティビティを他のセグメントの後にドラッグ&amp;ドロップします。
+1. [SMS 配信 &#x200B;](../../automating/using/sms-delivery.md) アクティビティを他のセグメントの後にドラッグ&amp;ドロップします。
 1. アクティビティを編集するには、ダブルクリックします。
 1. 「**[!UICONTROL SMS]**」を選択し、「**[!UICONTROL Next]**」をクリックします。
 1. SMS テンプレートを選択し、「**[!UICONTROL Next]**」をクリックします。

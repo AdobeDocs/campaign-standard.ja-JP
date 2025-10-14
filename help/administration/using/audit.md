@@ -25,7 +25,7 @@ ht-degree: 7%
 
 * **カスタムリソース監査証跡**：アクティビティと、カスタムリソースに最後に加えた変更を確認します。
 
-  **[!UICONTROL Custom resources]** について詳しくは、この [ ページ ](../../developing/using/key-steps-to-add-a-resource.md) を参照してください。
+  **[!UICONTROL Custom resources]** について詳しくは、この [&#x200B; ページ &#x200B;](../../developing/using/key-steps-to-add-a-resource.md) を参照してください。
 
 * **ワークフロー監査記録**：アクティビティ、ワークフローに最後に加えられた変更およびワークフローの状態を確認します。例えば、次のようなものがあります。
 
@@ -43,11 +43,11 @@ ht-degree: 7%
    * 同じユーザーでのワークフローの再開
    * ワークフロー再起動不明コマンド
 
-  **[!UICONTROL Workflows]** について詳しくは、この [ ページ ](../../automating/using/get-started-workflows.md) を参照してください。
+  **[!UICONTROL Workflows]** について詳しくは、この [&#x200B; ページ &#x200B;](../../automating/using/get-started-workflows.md) を参照してください。
 
 * **オプション監査記録**：アクティビティと、オプションに対して実行された最終変更を確認します。
 
-  **[!UICONTROL Options]** について詳しくは、この [ ページ ](../../administration/using/about-campaign-standard-settings.md) を参照してください。
+  **[!UICONTROL Options]** について詳しくは、この [&#x200B; ページ &#x200B;](../../administration/using/about-campaign-standard-settings.md) を参照してください。
 
 デフォルトでは、保持期間は 30 日です。
 

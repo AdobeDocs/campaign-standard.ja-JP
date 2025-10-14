@@ -36,13 +36,13 @@ ht-degree: 70%
    ![](assets/wkf_file_transfer_07.png)
 
 1. アクティビティを確認します。
-1. [ ファイルを読み込み ](../../automating/using/load-file.md) アクティビティをワークフローにドラッグ&amp;ドロップし、**[!UICONTROL Transfer file]** アクティビティの後に配置します。
+1. [&#x200B; ファイルを読み込み &#x200B;](../../automating/using/load-file.md) アクティビティをワークフローにドラッグ&amp;ドロップし、**[!UICONTROL Transfer file]** アクティビティの後に配置します。
 1. アクティビティを選択し、表示されるクイックアクションの ![](assets/edit_darkgrey-24px.png) ボタンを使用して開きます。
 1. 「**[!UICONTROL Execution]**」タブの「**[!UICONTROL File to load]**」セクションで、「**[!UICONTROL Use the file specified in the inbound transition]**」オプションをオンにします。
 
    ![](assets/wkf_file_loading8.png)
 
 1. 前の指定内容に従って、アクティビティを設定します。
-1. [ データを更新 ](../../automating/using/update-data.md) アクティビティをワークフローにドラッグ&amp;ドロップし、**[!UICONTROL Load file]** アクティビティの後に配置してから、設定します。
+1. [&#x200B; データを更新 &#x200B;](../../automating/using/update-data.md) アクティビティをワークフローにドラッグ&amp;ドロップし、**[!UICONTROL Load file]** アクティビティの後に配置してから、設定します。
 
 ワークフローが開始されると、アップロードされたファイルのデータが抽出され、Adobe Campaign データベースの拡張に使用されます。

@@ -25,4 +25,4 @@ ht-degree: 6%
 
 例えば、アプリケーションを使用して過去 2 週間以内にボストンのいずれかの店舗を訪問した顧客に 10% の割引オファーを送信できます。
 
-使用例については、[POI データを使用した Campaign メッセージのパーソナライズ ](../../integrating/using/personalizing-campaign-messages-with-point-of-interest-data.md) の節を参照してください。
+使用例については、[POI データを使用した Campaign メッセージのパーソナライズ &#x200B;](../../integrating/using/personalizing-campaign-messages-with-point-of-interest-data.md) の節を参照してください。

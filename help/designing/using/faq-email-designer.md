@@ -41,26 +41,26 @@ HTMLパンくずリストを使用して、パディングを追加できます�
 
 独自のHTMLコンテンツをメールDesignerにアップロードできます。 メールDesignerで作成されていない場合は、元のHTMLを維持するように設計された互換モードで読み込まれますが、UI を使用すると特定のエディションの機能が制限されます。
 
-詳しくは、「互換モード [ を参照してください ](../../designing/using/using-existing-content.md#compatibility-mode)
+詳しくは、「互換モード [&#x200B; を参照してください &#x200B;](../../designing/using/using-existing-content.md#compatibility-mode)
 
 ## 最初のメールコンテンツを作成するにはどうすればよいですか？
 
 まず、ホームページからメールを作成します。
 次に、メールにコンテンツを追加するには、構造コンポーネントを追加し、そこにコンテンツコンポーネントを挿入する必要があります。
 
-詳しくは、「メールをゼロから作成 [ を参照してください ](../../designing/using/quick-start.md#from-scratch-email)
+詳しくは、「メールをゼロから作成 [&#x200B; を参照してください &#x200B;](../../designing/using/quick-start.md#from-scratch-email)
 
 ## フラグメントを更新する必要があるのはなぜですか？
 
 E メールデザイナーの機能強化は継続的におこなわれています。メールコンテンツをゼロから作成した場合、デフォルトのテンプレートから作成した場合、またはフラグメントを作成した場合は、CSS の競合の問題などの問題を回避するために、コンテンツを最新バージョンに更新する必要がある場合があります。
 
-詳しくは、「フラグメントの更新 [ を参照してください ](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-updates)
+詳しくは、「フラグメントの更新 [&#x200B; を参照してください &#x200B;](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-updates)
 
 ## テーマ内にスタイルを保存できますか？
 
 スタイルは、後で再利用するためにテーマとして保存することはできません。ただし、CSS スタイルはコンテンツテンプレートまたはメールに保存できます。
 
-詳しくは、[ スタイル ](../../designing/using/styles.md) を参照してください。
+詳しくは、[&#x200B; スタイル &#x200B;](../../designing/using/styles.md) を参照してください。
 
 ## 使用可能なフォント
 

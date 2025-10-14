@@ -18,7 +18,7 @@ ht-degree: 1%
 
 # バウンス概要{#bounce-summary}
 
-このレポートは、配信中に発生した全体的なハードエラーとソフトエラーおよびバウンスの自動処理について詳しく説明します（[ 配信エラーについて ](../../sending/using/understanding-delivery-failures.md) を参照）。
+このレポートは、配信中に発生した全体的なハードエラーとソフトエラーおよびバウンスの自動処理について詳しく説明します（[&#x200B; 配信エラーについて &#x200B;](../../sending/using/understanding-delivery-failures.md) を参照）。
 
 ![](assets/campaign_reports_bounces.png)
 

@@ -62,15 +62,15 @@ ht-degree: 6%
 
 |  | 動的レポート | Microsoft Dynamics 365 コネクタ |
 |---|---|---|
-| 南北アメリカおよび APAC （アジア太平洋） | **利用可能な機能**。 <br> すべての標準提供（市区町村、国/地域、州、性別、年齢ベースのセグメント）と、米国レポートセンターにプッシュされたカスタムプロファイル情報。 プロファイルディメンションについて詳しくは、この [ ページ ](../../reporting/using/list-of-components.md) を参照してください | **利用可能な機能**。 <br> すべての標準およびカスタムプロファイルフィールドとAdobe Campaign Standard イベントフィールドは、米国データセンターで処理されます。 |
-| EMEA （ヨーロッパ、中東、アフリカ） | **利用可能な機能**。 <br> すべての標準提供（市区町村、国/地域、都道府県、性別、年齢ベースのセグメント）と、EMEA レポートセンターにプッシュされたカスタムプロファイル情報。 プロファイルディメンションについて詳しくは、この [ ページ ](../../reporting/using/list-of-components.md) を参照してください | **機能を使用できます。** <br>EMEA データセンターで処理されるすべての標準およびカスタムプロファイルフィールドとAdobe Campaign Standard イベントフィールド。 米国データセンターで送信および保存されるAdobe I/Oのエンドユーザーイベントの顧客登録データおよび ID を含む <br>**[!UICONTROL Control data]**。 |
+| 南北アメリカおよび APAC （アジア太平洋） | **利用可能な機能**。 <br> すべての標準提供（市区町村、国/地域、州、性別、年齢ベースのセグメント）と、米国レポートセンターにプッシュされたカスタムプロファイル情報。 プロファイルディメンションについて詳しくは、この [&#x200B; ページ &#x200B;](../../reporting/using/list-of-components.md) を参照してください | **利用可能な機能**。 <br> すべての標準およびカスタムプロファイルフィールドとAdobe Campaign Standard イベントフィールドは、米国データセンターで処理されます。 |
+| EMEA （ヨーロッパ、中東、アフリカ） | **利用可能な機能**。 <br> すべての標準提供（市区町村、国/地域、都道府県、性別、年齢ベースのセグメント）と、EMEA レポートセンターにプッシュされたカスタムプロファイル情報。 プロファイルディメンションについて詳しくは、この [&#x200B; ページ &#x200B;](../../reporting/using/list-of-components.md) を参照してください | **機能を使用できます。** <br>EMEA データセンターで処理されるすべての標準およびカスタムプロファイルフィールドとAdobe Campaign Standard イベントフィールド。 米国データセンターで送信および保存されるAdobe I/Oのエンドユーザーイベントの顧客登録データおよび ID を含む <br>**[!UICONTROL Control data]**。 |
 
 次の表は、お客様の地域に応じて、この契約を拒否した後の動作を示しています。 この契約を拒否した場合でも、配信とMicrosoft Dynamics 365 の統合に関するレポートは引き続き使用できます。
 
 | 地域 | 動的レポート | Microsoft Dynamics 365 コネクタ |
 |---|---|---|
-| 南北アメリカおよび APAC （アジア太平洋） | **利用可能な機能**。 <br>ExternalID を除き、米国のレポートセンターにプッシュされた標準およびカスタムプロファイル情報はありません。 | **利用可能な機能**。 <br> 外部 ID と受信者 ID を除き、米国データセンターに送信される標準またはカスタムプロファイルフィールドはありません。 <br> ミラーページ ID を除く、米国データセンターで処理されるすべてのAdobe Campaign Standard イベントフィールド。 <br>Microsoft Dynamics 365 の統合について詳しくは、この [ ページ ](../../integrating/using/d365-acs-get-started.md) を参照してください。 |
-| EMEA （ヨーロッパ、中東、アフリカ） | **利用可能な機能**。 <br>ExternalID を除き、EMEA のレポートセンターにプッシュされた標準およびカスタムプロファイル情報はありません。 | **機能を使用できます。** <br> 外部 ID と受信者 ID を除き、EMEA データセンターに送信される、標準またはカスタムプロファイルフィールドはありません。 <br> ミラーページ ID を除く、EMEA データセンターで処理されるすべてのAdobe Campaign Standard イベントフィールド。  米国データセンターで送信および保存されるAdobe I/Oのエンドユーザーイベントの顧客登録データおよび ID を含む <br>**[!UICONTROL Control data]**。<br>Microsoft Dynamics 365 の統合について詳しくは、この [ ページ ](../../integrating/using/d365-acs-get-started.md) を参照してください。 |
+| 南北アメリカおよび APAC （アジア太平洋） | **利用可能な機能**。 <br>ExternalID を除き、米国のレポートセンターにプッシュされた標準およびカスタムプロファイル情報はありません。 | **利用可能な機能**。 <br> 外部 ID と受信者 ID を除き、米国データセンターに送信される標準またはカスタムプロファイルフィールドはありません。 <br> ミラーページ ID を除く、米国データセンターで処理されるすべてのAdobe Campaign Standard イベントフィールド。 <br>Microsoft Dynamics 365 の統合について詳しくは、この [&#x200B; ページ &#x200B;](../../integrating/using/d365-acs-get-started.md) を参照してください。 |
+| EMEA （ヨーロッパ、中東、アフリカ） | **利用可能な機能**。 <br>ExternalID を除き、EMEA のレポートセンターにプッシュされた標準およびカスタムプロファイル情報はありません。 | **機能を使用できます。** <br> 外部 ID と受信者 ID を除き、EMEA データセンターに送信される、標準またはカスタムプロファイルフィールドはありません。 <br> ミラーページ ID を除く、EMEA データセンターで処理されるすべてのAdobe Campaign Standard イベントフィールド。  米国データセンターで送信および保存されるAdobe I/Oのエンドユーザーイベントの顧客登録データおよび ID を含む <br>**[!UICONTROL Control data]**。<br>Microsoft Dynamics 365 の統合について詳しくは、この [&#x200B; ページ &#x200B;](../../integrating/using/d365-acs-get-started.md) を参照してください。 |
 
 この選択は最終的なものではなく、**[!UICONTROL Administration]**/**[!UICONTROL Application Settings]**/**[!UICONTROL Options]** で **[!UICONTROL Enable PII data to be transferred to US region to use reporting on Profile data]** を選択することでいつでも変更できます。
 

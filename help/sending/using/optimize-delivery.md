@@ -26,15 +26,15 @@ ht-degree: 82%
 
 いくつかの要因がサーバーのパフォーマンスに直接影響し、プラットフォームの速度が低下することがあります。
 
-* パーソナライゼーション要素の数とタイプ：メールのパーソナライゼーションでは、各受信者のデータベースからデータを取り出します。パーソナライゼーション要素が多数ある場合は、配信の準備に必要なデータの量もそれだけ多くなります。メールのパーソナライゼーションについて詳しくは、[ この節 ](../../designing/using/personalization.md) を参照してください
+* パーソナライゼーション要素の数とタイプ：メールのパーソナライゼーションでは、各受信者のデータベースからデータを取り出します。パーソナライゼーション要素が多数ある場合は、配信の準備に必要なデータの量もそれだけ多くなります。メールのパーソナライゼーションについて詳しくは、[&#x200B; この節 &#x200B;](../../designing/using/personalization.md) を参照してください
 
 * サーバーの読み込み：Campaign で多数の異なるタスクが同時に処理されると、パフォーマンスが低下する可能性があります。 サーバーは、すべての配信について、受信データと送信データをすべて調整し、データが正しくオンタイムであることを確認する必要があります。
 
   **ヒント**：パフォーマンスの低下を避けるには、他のチームメンバーと話し合い、最適なパフォーマンスが得られるように配信スケジュールを調整します。
 
-* [ ワークフローの実行 ](../../automating/using/about-workflow-execution.md)：ワークフローの監視は、プラットフォームのパフォーマンスの問題を回避するために不可欠です。 [ このページ ](../../automating/using/monitoring-workflow-execution.md) に記載されているガイドラインに従います。 詳しくは、[ ワークフローのベストプラクティス ](../../automating/using/best-practices-workflows.md) の節を参照してください。
+* [&#x200B; ワークフローの実行 &#x200B;](../../automating/using/about-workflow-execution.md)：ワークフローの監視は、プラットフォームのパフォーマンスの問題を回避するために不可欠です。 [&#x200B; このページ &#x200B;](../../automating/using/monitoring-workflow-execution.md) に記載されているガイドラインに従います。 詳しくは、[&#x200B; ワークフローのベストプラクティス &#x200B;](../../automating/using/best-practices-workflows.md) の節を参照してください。
 
-* [CampaignCampaign コントロールパネル機能 ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja) を利用すると、[ パフォーマンス監視 ](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=ja) 機能を使用してプラットフォームを監視できます。
+* [CampaignCampaign コントロールパネル機能 &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja) を利用すると、[&#x200B; パフォーマンス監視 &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=ja) 機能を使用してプラットフォームを監視できます。
 
 ## ネットワーク設定の確認 {#network-config}
 
@@ -52,7 +52,7 @@ ht-degree: 82%
 
    * メールの配信品質を確認するときは、データ品質、メッセージとコンテンツ、送信インフラストラクチャ、レピュテーションという 4 つの主要カテゴリを中心に調べます。このトピックについて詳しくは、[この節](../../sending/using/about-deliverability.md)を参照してください。
 
-* 新しいプラットフォームを開始する際には、[ このページ ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html?lang=ja#transition-process) で詳細に説明されている推奨事項を適用します。
+* 新しいプラットフォームを開始する際には、[&#x200B; このページ &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html?lang=ja#transition-process) で詳細に説明されている推奨事項を適用します。
 
 * サポートが必要な場合は、アドビ担当者にお問い合わせください。
 
@@ -78,4 +78,4 @@ ht-degree: 82%
 
 このメカニズムの実装の詳細については、[この節](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)で説明します。
 
-詳しくは、[ プロファイルとオーディエンスの概要 ](../../audiences/using/get-started-profiles-and-audiences.md) を参照してください。
+詳しくは、[&#x200B; プロファイルとオーディエンスの概要 &#x200B;](../../audiences/using/get-started-profiles-and-audiences.md) を参照してください。

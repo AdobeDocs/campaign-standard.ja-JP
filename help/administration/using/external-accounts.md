@@ -27,7 +27,7 @@ ht-degree: 78%
 * Adobe Analytics。詳しくは、[この節](../../integrating/using/configure-campaign-analytics-integration.md)を参照してください。
 * Google reCAPTCHA。詳しくは、[この節](#google-recaptcha-external-account)を参照してください。
 * Microsoft Azure Blob ストレージ。詳しくは、[この節](#microsoft-azure-external-account)を参照してください。
-* OAuth 2.0。詳しくは、[ この節 ](#oauth-account) を参照してください。
+* OAuth 2.0。詳しくは、[&#x200B; この節 &#x200B;](#oauth-account) を参照してください。
 
 >[!NOTE]
 >
@@ -79,7 +79,7 @@ ETL のためのファイルやデータを管理する際、これらのファ�
 * 時々 SFTP にログインして、問題がないか直接確認します。
 * SFTP のディスク管理は、基本的に管理者の責任となります。
 
-また、SFTP 接続を開始しようとしているパブリック IP を、Campaign インスタンスの許可リストに追加する必要もあります。 許可リストへの IP アドレスの追加は、認証に使用する公開鍵と共に [ サポートチケット ](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html) を介してリクエストできます。
+また、SFTP 接続を開始しようとしているパブリック IP を、Campaign インスタンスの許可リストに追加する必要もあります。 許可リストへの IP アドレスの追加は、認証に使用する公開鍵と共に [&#x200B; サポートチケット &#x200B;](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html) を介してリクエストできます。
 
 SFTP サーバーは、コントロールパネルから管理できます。詳しくは、[コントロールパネルのドキュメント](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=ja)を参照してください。
 

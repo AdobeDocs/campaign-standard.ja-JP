@@ -33,7 +33,7 @@ ht-degree: 6%
 ## 手順 1：識別キーの設定{#step-1-configure-the-identification-key}
 
 >[!NOTE]
-> 識別キーを設定する際の全体的な概念については、[ この節 ](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys) を参照してください。
+> 識別キーを設定する際の全体的な概念については、[&#x200B; この節 &#x200B;](../../developing/using/configuring-the-resource-s-data-structure.md#defining-identification-keys) を参照してください。
 
 1. 識別キーを設定する前に、リソースが目的のフィールドを使用して拡張されていることと、リソースが公開されていることを確認してください。 詳しくは、[この節](../../developing/using/creating-or-extending-the-resource.md)を参照してください。
 
@@ -57,7 +57,7 @@ ht-degree: 6%
 ## 手順 2：フィルター定義の設定{#step-2-configure-the-filter-definition}
 
 >[!NOTE]
-> フィルター定義を設定する際の全体的な概念については、[ この節 ](../../developing/using/configuring-filter-definition.md) を参照してください。
+> フィルター定義を設定する際の全体的な概念については、[&#x200B; この節 &#x200B;](../../developing/using/configuring-filter-definition.md) を参照してください。
 
 1. 「**[!UICONTROL Filter definition]**」タブで「**[!UICONTROL Add an element]**」をクリックし、フィルター定義のラベルと ID を入力します。
 
@@ -90,7 +90,7 @@ ht-degree: 6%
 
 識別キーとそのフィルター定義を設定したら、それらを使用して Campaign Standard インターフェイスまたは REST API からリソースを呼び出すことができます。
 
-インターフェイスからフィルター定義を使用するには、ワークフローで **[!UICONTROL Query]** アクティビティを使用します（[ この節 ](../../automating/using/query.md) を参照）。 フィルターは左側のパネルで使用できます。
+インターフェイスからフィルター定義を使用するには、ワークフローで **[!UICONTROL Query]** アクティビティを使用します（[&#x200B; この節 &#x200B;](../../automating/using/query.md) を参照）。 フィルターは左側のパネルで使用できます。
 
 ![](assets/uc_idkey9.png)
 
@@ -101,7 +101,7 @@ GET /profileAndServicesExt/<resourceName>/by<filterName>?<param1_parameter>=<val
 ```
 
 >[!NOTE]
->カスタムフィルターを呼び出すには、「by」プレフィックスの後に、[ 手順 2](../../developing/using/uc-calling-resource-id-key.md#step-2-configure-the-filter-definition) でフィルター定義を設定する際に定義したフィルター名を使用します。
+>カスタムフィルターを呼び出すには、「by」プレフィックスの後に、[&#x200B; 手順 2](../../developing/using/uc-calling-resource-id-key.md#step-2-configure-the-filter-definition) でフィルター定義を設定する際に定義したフィルター名を使用します。
 
 この場合、「spring」カテゴリから CRM ID 「123456」を持つプロファイルを取得する構文は次のようになります。
 
@@ -109,4 +109,4 @@ GET /profileAndServicesExt/<resourceName>/by<filterName>?<param1_parameter>=<val
 GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byidentification_key?category_parameter=spring&crm_id_parameter=123456
 ```
 
-詳しくは、[Campaign Standard REST API ドキュメント ](../../api/using/filtering.md) を参照してください。
+詳しくは、[Campaign Standard REST API ドキュメント &#x200B;](../../api/using/filtering.md) を参照してください。

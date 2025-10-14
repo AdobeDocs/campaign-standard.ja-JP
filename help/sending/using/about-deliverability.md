@@ -72,7 +72,7 @@ Adobe Campaignには、プラットフォームの配信品質のパフォーマ
 
 無効なアドレスへのメッセージ送信を回避し、不適切な通信を制限し、送信者の評判を向上させるには、ダブルオプトインのメカニズムの実装をお勧めします。これにより、受信者が意図的に購読していることを確認できます。
 
-詳しくは、[Campaign のオプトインとオプトアウトについて ](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md) を参照してください。
+詳しくは、[Campaign のオプトインとオプトアウトについて &#x200B;](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md) を参照してください。
 
 顧客からデータを収集する際のベストプラクティスについて詳しくは、[アドビの配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/first-impressions/address-collection-and-list-growth.html?lang=ja#data-quality-and-hygiene)を参照してください。
 

@@ -24,8 +24,8 @@ ht-degree: 7%
 設定に応じて、次のタイプの画像を使用できます。
 
 * ローカル画像
-* Adobe Experience Cloudから共有される画像 – [Campaign とAssets コアサービスの使用 ](../../integrating/using/working-with-campaign-and-assets-core-service.md)/Assets On Demand を参照してください
-* Adobe Targetからの動的画像 – [Campaign と Target の使用 ](../../integrating/using/about-campaign-target-integration.md) を参照してください。
+* Adobe Experience Cloudから共有される画像 – [Campaign とAssets コアサービスの使用 &#x200B;](../../integrating/using/working-with-campaign-and-assets-core-service.md)/Assets On Demand を参照してください
+* Adobe Targetからの動的画像 – [Campaign と Target の使用 &#x200B;](../../integrating/using/about-campaign-target-integration.md) を参照してください。
 
 >[!CAUTION]
 >
@@ -51,7 +51,7 @@ ht-degree: 7%
 
 イメージを含むブロックを選択すると、パレットに次のプロパティが表示されます。
 
-* **パーソナライゼーションを有効にする** 画像ソースをカスタマイズできます。 [ 画像ソースのパーソナライズ ](../../designing/using/personalization.md#personalizing-an-image-source) を参照してください。
+* **パーソナライゼーションを有効にする** 画像ソースをカスタマイズできます。 [&#x200B; 画像ソースのパーソナライズ &#x200B;](../../designing/using/personalization.md#personalizing-an-image-source) を参照してください。
 * **画像タイトル** 画像のタイトルを指定できます。
 * **代替テキスト** （メール）または **キャプション** （ランディングページ）を使用すると、画像にリンクするキャプションを設定できます（「**alt**」HTML属性に対応）。
 * メールの編集時に、画像のサイズ、背景、境界線を **スタイル** で指定できます。

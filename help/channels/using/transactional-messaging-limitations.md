@@ -26,7 +26,7 @@ ht-degree: 61%
 
 ## 権限 {#permissions}
 
-トランザクションイベントを設定してトランザクションメッセージにアクセスできるのは、[ 管理 ](../../administration/using/users-management.md#functional-administrators) の役割を持つユーザーだけです。
+トランザクションイベントを設定してトランザクションメッセージにアクセスできるのは、[&#x200B; 管理 &#x200B;](../../administration/using/users-management.md#functional-administrators) の役割を持つユーザーだけです。
 
 ## イベントの設定と公開 {#design-and-publication}
 
@@ -41,9 +41,9 @@ ht-degree: 61%
 
 ## トランザクションメッセージ数 {#transactional-message-number}
 
-公開されたトランザクションメッセージの数は、プラットフォームに大きな影響を与える可能性があります。 最適なパフォーマンスを得るには、公開されたトランザクションメッセージの数を 100 未満にしておく必要があります。この数を超えると、パフォーマンスが低下する可能性があります。 これを確実に行うには、前述のガードレールを満たすために、未使用のトランザクションメッセージを非公開にするか削除します。 [ トランザクションメッセージの非公開 ](../../channels/using/publishing-transactional-message.md#unpublishing-a-transactional-message) および [ トランザクションメッセージの削除 ](../../channels/using/publishing-transactional-message.md#deleting-a-transactional-message) を参照してください。
+公開されたトランザクションメッセージの数は、プラットフォームに大きな影響を与える可能性があります。 最適なパフォーマンスを得るには、公開されたトランザクションメッセージの数を 100 未満にしておく必要があります。この数を超えると、パフォーマンスが低下する可能性があります。 これを確実に行うには、前述のガードレールを満たすために、未使用のトランザクションメッセージを非公開にするか削除します。 [&#x200B; トランザクションメッセージの非公開 &#x200B;](../../channels/using/publishing-transactional-message.md#unpublishing-a-transactional-message) および [&#x200B; トランザクションメッセージの削除 &#x200B;](../../channels/using/publishing-transactional-message.md#deleting-a-transactional-message) を参照してください。
 
-最高のパフォーマンスを確保するために、未使用のイベントを非公開にしたり削除したりすることもできます。 イベントを非公開または削除すると、対応するトランザクションメッセージと、その送信ログおよびトラッキングログ（存在する場合）も非公開または削除されます。 [ イベントの非公開 ](../../channels/using/publishing-transactional-event.md#unpublishing-an-event) および [ イベントの削除 ](../../channels/using/publishing-transactional-event.md#deleting-an-event) を参照してください。
+最高のパフォーマンスを確保するために、未使用のイベントを非公開にしたり削除したりすることもできます。 イベントを非公開または削除すると、対応するトランザクションメッセージと、その送信ログおよびトラッキングログ（存在する場合）も非公開または削除されます。 [&#x200B; イベントの非公開 &#x200B;](../../channels/using/publishing-transactional-event.md#unpublishing-an-event) および [&#x200B; イベントの削除 &#x200B;](../../channels/using/publishing-transactional-event.md#deleting-an-event) を参照してください。
 
 ## パーソナライズ機能 {#personalization}
 
@@ -51,14 +51,14 @@ ht-degree: 61%
 
 ### イベントベースのトランザクションメッセージ
 
-* パーソナライゼーションに関する情報は、イベント自体に含まれるデータから取得されます。[ イベントベースのトランザクションメッセージ設定 ](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages) を参照してください。
+* パーソナライゼーションに関する情報は、イベント自体に含まれるデータから取得されます。[&#x200B; イベントベースのトランザクションメッセージ設定 &#x200B;](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages) を参照してください。
 * イベントトランザクションメッセージでは、**[!UICONTROL Unsubscription link]** コンテンツブロックは使用 **できません**。
-* イベントベースのトランザクションメッセージでは、受信者とメッセージコンテンツのパーソナライゼーションを定義するために、送信イベント内のデータのみを使用することが想定されています。ただし、Adobe Campaign データベースの情報を使用して、トランザクションメッセージの内容をエンリッチメントすることができます。[ イベントの機能強化 ](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) および [ トランザクションメッセージのパーソナライズ ](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message) を参照してください。
+* イベントベースのトランザクションメッセージでは、受信者とメッセージコンテンツのパーソナライゼーションを定義するために、送信イベント内のデータのみを使用することが想定されています。ただし、Adobe Campaign データベースの情報を使用して、トランザクションメッセージの内容をエンリッチメントすることができます。[&#x200B; イベントの機能強化 &#x200B;](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) および [&#x200B; トランザクションメッセージのパーソナライズ &#x200B;](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message) を参照してください。
 * イベントトランザクションメッセージにはプロファイル情報が含まれていないので、プロファイルがエンリッチメントされた場合でも、疲労ルールと互換性がありません。
 
 ### プロファイルベースのトランザクションメッセージ
 
-* パーソナライゼーションに関する情報は、イベントに含まれるデータ、または紐付け済みのプロファイルレコードから取得できます。[ プロファイルベースのトランザクションメッセージ設定 ](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages) および [ プロファイルベースのトランザクションメッセージの特異性 ](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities) を参照してください。
+* パーソナライゼーションに関する情報は、イベントに含まれるデータ、または紐付け済みのプロファイルレコードから取得できます。[&#x200B; プロファイルベースのトランザクションメッセージ設定 &#x200B;](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages) および [&#x200B; プロファイルベースのトランザクションメッセージの特異性 &#x200B;](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities) を参照してください。
 * プロファイルトランザクションメッセージでは、**[!UICONTROL Unsubscription link]** コンテンツブロックを使用で **ます**。 [コンテンツブロックの追加](../../designing/using/personalization.md#adding-a-content-block)を参照してください。
 * 疲労ルールは、プロファイルトランザクションメッセージと互換性があります。[疲労ルール](../../sending/using/fatigue-rules.md)を参照してください。
 

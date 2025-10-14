@@ -21,7 +21,7 @@ Microsoft Dynamics 365 統合を設定し、Adobe Campaign Standardとのクロ�
 
 ## 概要
 
-Adobe Campaign StandardとMicrosoft Dynamics 365 の統合に関する一般的な説明については、[ このページ ](../../integrating/using/d365-acs-get-started.md) を参照してください。
+Adobe Campaign StandardとMicrosoft Dynamics 365 の統合に関する一般的な説明については、[&#x200B; このページ &#x200B;](../../integrating/using/d365-acs-get-started.md) を参照してください。
 
 統合を有効にするには複数のアプリケーションを設定する必要がありますが、この記事では、Dynamics 365 内で必要な手順を重点的に説明します。
 
@@ -54,7 +54,7 @@ OAuth アクセストークンを生成するには、次に示す手順に従�
    * 名前：adobe campaign `<stage or prod>`
    * サポートされるアカウントタイプ：**[!UICONTROL Accounts in this organizational directory only]** （デフォルト値）
 
-新しいアプリケーションの作成について詳しくは、[ この節 ](https://docs.microsoft.com/ja-jp/azure/active-directory/develop/quickstart-register-app){target="_blank"} を参照してください。
+新しいアプリケーションの作成について詳しくは、[&#x200B; この節 &#x200B;](https://docs.microsoft.com/ja-jp/azure/active-directory/develop/quickstart-register-app){target="_blank"} を参照してください。
 
 >[!NOTE]
 >
@@ -79,7 +79,7 @@ OAuth アクセストークンを生成するには、次に示す手順に従�
 
 1. 次に、**[!UICONTROL user_impersonation]** のチェックボックスをオンにして、「**[!UICONTROL Add permissions]**」ボタンをクリックします。
 
-権限の設定について詳しくは、[ この節 ](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-configure-app-access-web-apis#add-permissions-to-access-web-apis){target="_blank"} を参照してください。
+権限の設定について詳しくは、[&#x200B; この節 &#x200B;](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-configure-app-access-web-apis#add-permissions-to-access-web-apis){target="_blank"} を参照してください。
 
 ### アプリユーザーの作成
 
@@ -101,7 +101,7 @@ OAuth アクセストークンを生成するには、次に示す手順に従�
    * **[!UICONTROL Full Name]**:AdobeAPI `<stage or prod>`
    * **[!UICONTROL Email]**: **[!UICONTROL User Name]** （または必要に応じて管理者の電子メール）と同じ
 
-   アプリユーザーの作成について詳しくは、[ この節 ](https://docs.microsoft.com/en-gb/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user){target="_blank"} を参照してください。
+   アプリユーザーの作成について詳しくは、[&#x200B; この節 &#x200B;](https://docs.microsoft.com/en-gb/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user){target="_blank"} を参照してください。
 
 1. ユーザーアイコンをクリックし、Adobe Campaign アイコンをアップロードします。これは、Dynamics 365 に新しいAdobeイベントが表示される際にタイムラインビューに表示されるアイコンです。
 
@@ -113,13 +113,13 @@ OAuth アクセストークンを生成するには、次に示す手順に従�
 
 ### テナント ID を取得 {#get-the-tenant-id}
 
-手順 [ このページ ](https://docs.microsoft.com/en-us/onedrive/find-your-office-365-tenant-id) に従って、テナント ID を見つけます。  この ID は、統合ツールの事前統合設定時に必要になります。
+手順 [&#x200B; このページ &#x200B;](https://docs.microsoft.com/en-us/onedrive/find-your-office-365-tenant-id) に従って、テナント ID を見つけます。  この ID は、統合ツールの事前統合設定時に必要になります。
 
 ## Microsoft Dynamics 365 のCampaign Standardのインストール {#install-appsource-app}
 
 Dynamics 365 アプリをCampaign Standard環境に統合するには、次の手順に従います。
 
-1. [Microsoft ビジネスアプリ ](https://appsource.microsoft.com/en-us/marketplace/apps) を参照し、検索バーで_Adobe Campaign Standard_を検索します。
+1. [Microsoft ビジネスアプリ &#x200B;](https://appsource.microsoft.com/en-us/marketplace/apps) を参照し、検索バーで_Adobe Campaign Standard_を検索します。
 または、この [link](https://appsource.microsoft.com/en-us/product/dynamics-365/adobe.adobe_campaign_d365?tab=Overview){target="_blank"} に移動することもできます。
 1. 手順に従って、Dynamics 365 インスタンス用のアプリをインストールします。
 1. インストールが完了したら、Dynamics 365 インスタンスに移動し、管理者としてログインします。
@@ -135,5 +135,5 @@ Dynamics 365 アプリをCampaign Standard環境に統合するには、次の�
 
 **関連トピック**
 
-* [Microsoft Dynamics 365 統合用のAdobe Developerの設定 ](../../integrating/using/d365-acs-configure-adobe-io.md) は、統合を設定する次の手順です
-* [ セルフサービス統合アプリの基本を学ぶ ](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md) には、統合を起動および実行する手順の完全なリストが含まれています。
+* [Microsoft Dynamics 365 統合用のAdobe Developerの設定 &#x200B;](../../integrating/using/d365-acs-configure-adobe-io.md) は、統合を設定する次の手順です
+* [&#x200B; セルフサービス統合アプリの基本を学ぶ &#x200B;](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md) には、統合を起動および実行する手順の完全なリストが含まれています。

@@ -17,7 +17,7 @@ ht-degree: 85%
 
 >[!NOTE]
 >
->Adobe Campaign Classicの **SMS コネクタのプロトコルと設定** については、この [ ページ ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol.html?lang=ja) を参照してください。
+>Adobe Campaign Classicの **SMS コネクタのプロトコルと設定** については、この [&#x200B; ページ &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol.html?lang=ja) を参照してください。
 >
 >このドキュメントでは、プロトコル、フィールド名とフィールド値の詳細については、すべて [SMPP 3.4 仕様](https://smpp.org/SMPP_v3_4_Issue1_2.pdf)を参照しています。
 
@@ -255,7 +255,7 @@ Adobe Campaign Standardは、すべての処理手順が正常に完了した場
 
 SMPP プロトコルは、`RESP PDU` に標準の同期エラーを定義しますが、SR のエラーコードは定義しません。各プロバイダーは、独自のエラーコードと意味を使用します。
 
-[SMPP プロトコル仕様 ](https://smpp.org/SMPP_v3_4_Issue1_2.pdf) の付録 B の節（167 ページ）で推奨されていますが、実際のエラーコードやその意味は記載されていません。
+[SMPP プロトコル仕様 &#x200B;](https://smpp.org/SMPP_v3_4_Issue1_2.pdf) の付録 B の節（167 ページ）で推奨されていますが、実際のエラーコードやその意味は記載されていません。
 
 エラー管理に対応するために、Adobe Campaign の broadLog メッセージシステムを活用して、エラーとその重大度（ハード、ソフトなど）を適切にプロビジョニングできます。
 
@@ -719,9 +719,9 @@ SR フィールド内の ID の `Extraction` 正規表現が十分に具体的�
 
 ### 自動応答オプションパラメーター（TLV） {#automatic-reply-tlv}
 
-21.1 リリースの時点では、自動応答 MT にオプションのパラメーターを追加できます。 これらは、[SMPP の仕様 ](https://smpp.org/SMPP_v3_4_Issue1_2.pdf) の 5.3 節（131 ページ）で説明されているように、応答の `SUBMIT_SM PDU` にオプションの TLV パラメーターとして追加されます。
+21.1 リリースの時点では、自動応答 MT にオプションのパラメーターを追加できます。 これらは、[SMPP の仕様 &#x200B;](https://smpp.org/SMPP_v3_4_Issue1_2.pdf) の 5.3 節（131 ページ）で説明されているように、応答の `SUBMIT_SM PDU` にオプションの TLV パラメーターとして追加されます。
 
-オプションパラメーターについて詳しくは、この [ 節 ](../../administration/using/sms-protocol.md#smpp-optional-parameters) を参照してください。
+オプションパラメーターについて詳しくは、この [&#x200B; 節 &#x200B;](../../administration/using/sms-protocol.md#smpp-optional-parameters) を参照してください。
 
 ## SMS 配信テンプレートパラメーター {#sms-delivery-template-parameters}
 
@@ -737,7 +737,7 @@ SMPP 仕様では、このフィールドの文字数が 21 文字に制限さ�
 
 #### メッセージあたりの SMS の最大数 {#maximum-sms}
 
-この設定は、**メッセージペイロード**&#x200B;設定が無効な場合にのみ機能します。詳しくは、この [ ページ ](../../administration/using/configuring-sms-channel.md) を参照してください。 メッセージにこの値より多くの SMS が必要な場合は、エラーがトリガーされます。
+この設定は、**メッセージペイロード**&#x200B;設定が無効な場合にのみ機能します。詳しくは、この [&#x200B; ページ &#x200B;](../../administration/using/configuring-sms-channel.md) を参照してください。 メッセージにこの値より多くの SMS が必要な場合は、エラーがトリガーされます。
 
 SMS プロトコルでは SMS は 255 のパーツに制限されていますが、携帯電話では 10 のパーツを超える長いメッセージを組み合わせるのに問題が生じる場合があります。この制限はモデルによって異なります。1 通のメッセージにつきパーツは 5 を超えないことをお勧めします。
 
@@ -765,7 +765,7 @@ Adobe Campaign でのパーソナライズされたメッセージの動作に�
 
 #### SMPP オプションパラメーター（TLV） {#smpp-optional-parameters}
 
-21.1 リリースの時点では、この配信で送信されるすべての MT に対して、複数のオプションパラメーターを追加できます。 これらのオプションパラメーターは、[SMPP の仕様 ](https://smpp.org/SMPP_v3_4_Issue1_2.pdf) の 5.3 節（131 ページ）で説明されているように、返信の `SUBMIT_SM PDU` に追加されます。
+21.1 リリースの時点では、この配信で送信されるすべての MT に対して、複数のオプションパラメーターを追加できます。 これらのオプションパラメーターは、[SMPP の仕様 &#x200B;](https://smpp.org/SMPP_v3_4_Issue1_2.pdf) の 5.3 節（131 ページ）で説明されているように、返信の `SUBMIT_SM PDU` に追加されます。
 
 テーブルの各行は、オプションのパラメーターを表しています。
 

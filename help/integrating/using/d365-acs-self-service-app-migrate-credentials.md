@@ -19,7 +19,7 @@ ht-degree: 1%
 
 サービスアカウント（JWT）資格情報は廃止され、新しい OAuth サーバー間資格情報に置き換わりました。 新しい資格情報により、Adobeアプリケーションの管理が容易になります。 また、証明書を定期的にローテーションする必要がなくなり、標準の OAuth2 ライブラリを使用してすぐに機能します。
 
-サービスアカウント（JWT）資格情報は廃止予定としてマークされていますが、2025 年 1 月 1 日（PT）まで引き続き機能します。 したがって、2025 年 1 月 1 日（PT）より前に、新しい OAuth サーバー間資格情報を使用するように統合を移行する必要があります。 詳しくは、[ 非推奨タイムライン ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#deperecation-timelines) を確認してください
+サービスアカウント（JWT）資格情報は廃止予定としてマークされていますが、2025 年 1 月 1 日（PT）まで引き続き機能します。 したがって、2025 年 1 月 1 日（PT）より前に、新しい OAuth サーバー間資格情報を使用するように統合を移行する必要があります。 詳しくは、[&#x200B; 非推奨タイムライン &#x200B;](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#deperecation-timelines) を確認してください
 
 ## JWT から OAuth サーバー間で資格情報を移行する手順
 

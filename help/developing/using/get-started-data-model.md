@@ -63,5 +63,5 @@ Campaign StandardAPI を使用すると、Campaign に使用するテクノロ�
 
 ## その他のリソース
 
-* [ カスタムリソースの書き出し/読み込み ](https://helpx.adobe.com/jp/campaign/kb/acs-get-started-with-cusres.html)
+* [&#x200B; カスタムリソースの書き出し/読み込み &#x200B;](https://helpx.adobe.com/jp/campaign/kb/acs-get-started-with-cusres.html)
 * [Campaign から Adobe Experience Platform へのデータのエクスポート](../../integrating/using/export-campaign-data.md)

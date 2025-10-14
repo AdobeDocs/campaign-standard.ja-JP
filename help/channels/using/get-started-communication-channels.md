@@ -102,5 +102,5 @@ Campaign にはランディングページが付属しています。この web 
 * [E メールコンテンツのデザイン](../../designing/using/designing-content-in-adobe-campaign.md)
 * [AEM コンテンツのインポート](../../integrating/using/creating-email-experience-manager.md)
 * [ワークフローでのメッセージの送信](../../automating/using/about-channel-activities.md)
-* [ 通信チャネルのチュートリアルビデオ ](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/create-email-from-homepage.html?lang=ja)
+* [&#x200B; 通信チャネルのチュートリアルビデオ &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/create-email-from-homepage.html?lang=ja)
 * [ユースケース：クロスチャネル配信の作成](../../automating/using/workflow-cross-channel-delivery.md)

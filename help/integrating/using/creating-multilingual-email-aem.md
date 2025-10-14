@@ -87,7 +87,7 @@ ht-degree: 12%
 
    ![](assets/aem_acs_12.png)
 
-1. Adobe Experience Manager コンテンツを受け取るように設定されたAdobe Campaignの多言語メールテンプレートを選択します。 Adobe Experience Manager インスタンスにリンクされたテンプレートの作成方法については、この [ ページ ](../../integrating/using/configure-experience-manager.md#config-acs) を参照してください。
+1. Adobe Experience Manager コンテンツを受け取るように設定されたAdobe Campaignの多言語メールテンプレートを選択します。 Adobe Experience Manager インスタンスにリンクされたテンプレートの作成方法については、この [&#x200B; ページ &#x200B;](../../integrating/using/configure-experience-manager.md#config-acs) を参照してください。
 
    >[!NOTE]
    >
@@ -123,10 +123,10 @@ ht-degree: 12%
 
 1. Adobe Experience Managerでコンテンツまたはバリアントを更新した場合は、「**[!UICONTROL Refresh AEM contents]**」ボタンを使用して、Adobe Campaign Standardで直接同期させることができます。
 
-1. これで、メールを送信する準備が整いました。 詳しくは、この [ ページ ](../../sending/using/get-started-sending-messages.md) を参照してください。
+1. これで、メールを送信する準備が整いました。 詳しくは、この [&#x200B; ページ &#x200B;](../../sending/using/get-started-sending-messages.md) を参照してください。
 
    >[!NOTE]
    >
    >承認されていないAEM コンテンツを使用した場合、Adobe Campaignでメールを送信することはできません。
 
-オーディエンスは、**[!UICONTROL Profiles]** ージで設定された **[!UICONTROL Preferred languages]** に応じてメールを受け取ります。 プロファイルと優先言語の編集方法について詳しくは、この [ ページ ](../../audiences/using/editing-profiles.md) を参照してください。
+オーディエンスは、**[!UICONTROL Profiles]** ージで設定された **[!UICONTROL Preferred languages]** に応じてメールを受け取ります。 プロファイルと優先言語の編集方法について詳しくは、この [&#x200B; ページ &#x200B;](../../audiences/using/editing-profiles.md) を参照してください。

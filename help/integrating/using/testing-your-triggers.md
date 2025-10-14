@@ -25,11 +25,11 @@ Adobe Campaignでトリガーを使用する際に発生する可能性のある
 
 表示された場合は、次の手順に進みます。
 
-そうでない場合は、Adobeアカウントのエグゼクティブまたはプロフェッショナルサービスパートナーにお問い合わせください。 [ 機能のアクティベート ](../../integrating/using/configuring-triggers-in-experience-cloud.md#activating-the-functionality) を参照してください。
+そうでない場合は、Adobeアカウントのエグゼクティブまたはプロフェッショナルサービスパートナーにお問い合わせください。 [&#x200B; 機能のアクティベート &#x200B;](../../integrating/using/configuring-triggers-in-experience-cloud.md#activating-the-functionality) を参照してください。
 
 **トリガーを作成してみる**
 
-[Campaign でのマッピングされたトリガーの作成 ](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign) の手順に従って、トリガーを作成します。
+[Campaign でのマッピングされたトリガーの作成 &#x200B;](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign) の手順に従って、トリガーを作成します。
 
 トリガーを作成した場合は、次の手順に進みます。 そうでない場合は、トリガーエンドポイントの接続が失敗したことを示します。 トリガーがExperience Cloud（アクティベーションサービス）でプロビジョニングされているかどうかを確認します。 そうでない場合は、Adobeアカウントのエグゼクティブまたはプロフェッショナルサービスパートナーにお問い合わせください。 次の情報が必要です。
 
@@ -39,13 +39,13 @@ Adobe Campaignでトリガーを使用する際に発生する可能性のある
 
 **トリガーを公開してみてください**
 
-[Campaign でのマッピングされたトリガーの作成 ](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign) の手順に従って、トリガーを公開します。
+[Campaign でのマッピングされたトリガーの作成 &#x200B;](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign) の手順に従って、トリガーを公開します。
 
 公開が成功した場合は、次の手順に進みます。 そうでない場合は、Adobeに連絡してインスタンスを再起動し、もう一度試してください。
 
 **Web サイトからトリガーを生成**
 
-[ トランザクションメッセージテンプレートの編集 ](../../integrating/using/using-triggers-in-campaign.md#editing-the-transactional-message-template) の手順に従って、トランザクションテンプレートを編集して公開します。 次に、web サイトからトリガーを生成するテストを行います。
+[&#x200B; トランザクションメッセージテンプレートの編集 &#x200B;](../../integrating/using/using-triggers-in-campaign.md#editing-the-transactional-message-template) の手順に従って、トランザクションテンプレートを編集して公開します。 次に、web サイトからトリガーを生成するテストを行います。
 
 Analytics がトリガーを受け取った場合は、次の手順に進みます。 表示されない場合は、次の項目を確認してください。
 

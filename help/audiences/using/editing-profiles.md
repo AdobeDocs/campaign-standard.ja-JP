@@ -29,7 +29,7 @@ ht-degree: 7%
 
    プロファイルのプロパティウィンドウには、すべてのプロファイル情報にアクセスできる複数のタブが用意されています。
 
-   Adobe Campaignで作成または拡張したカスタムリソースによっては、その他のタブも表示される場合があります。 カスタムリソースについて詳しくは、「[ カスタムリソースについて ](../../developing/using/data-model-concepts.md) を参照してください。
+   Adobe Campaignで作成または拡張したカスタムリソースによっては、その他のタブも表示される場合があります。 カスタムリソースについて詳しくは、「[&#x200B; カスタムリソースについて &#x200B;](../../developing/using/data-model-concepts.md) を参照してください。
 
    >[!NOTE]
    >
@@ -46,10 +46,10 @@ Adobe Campaign Standard API を使用してプロファイルを編集するこ�
 
 「**[!UICONTROL General]**」タブには、プロファイルに関する次の情報がグループ化されます。
 
-* 連絡先情報：受信者の名、姓、生年月日、写真、優先言語（[ 多言語メール ](../../channels/using/creating-a-multilingual-email.md) 用）などが含まれます。
+* 連絡先情報：受信者の名、姓、生年月日、写真、優先言語（[&#x200B; 多言語メール &#x200B;](../../channels/using/creating-a-multilingual-email.md) 用）などが含まれます。
 * プロファイルに連絡できるチャネル。受信者のメールアドレス、携帯電話番号、オプトアウト情報が含まれます。
-* 郵送先住所（[ ダイレクトメール ](../../channels/using/about-direct-mail.md) 用）と連絡先のタイムゾーン（[ タイムゾーンでメッセージをスケジュール ](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md) するため）。
-* アクセス認証。受信者の組織単位を示します（[ 権限を管理 ](../../administration/using/about-access-management.md)）。 [プロファイルの分割](../../administration/using/organizational-units.md#partitioning-profiles)も参照してください。
+* 郵送先住所（[&#x200B; ダイレクトメール &#x200B;](../../channels/using/about-direct-mail.md) 用）と連絡先のタイムゾーン（[&#x200B; タイムゾーンでメッセージをスケジュール &#x200B;](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md) するため）。
+* アクセス認証。受信者の組織単位を示します（[&#x200B; 権限を管理 &#x200B;](../../administration/using/about-access-management.md)）。 [プロファイルの分割](../../administration/using/organizational-units.md#partitioning-profiles)も参照してください。
 
 ![](assets/profile_creation4.png)
 
@@ -57,10 +57,10 @@ Adobe Campaign Standard API を使用してプロファイルを編集するこ�
 
 「**[!UICONTROL Sending logs]**」タブと「**[!UICONTROL Tracking logs]**」タブには、プロファイルに送信された配信のリストと、関連するすべてのトラッキングデータがグループ化されます。
 
-送信ログとトラッキングログについて詳しくは、[ 配信ログ ](../../sending/using/monitoring-a-delivery.md#delivery-logs) および [ トラッキングメッセージ ](../../sending/using/tracking-messages.md) の節を参照してください。
+送信ログとトラッキングログについて詳しくは、[&#x200B; 配信ログ &#x200B;](../../sending/using/monitoring-a-delivery.md#delivery-logs) および [&#x200B; トラッキングメッセージ &#x200B;](../../sending/using/tracking-messages.md) の節を参照してください。
 
 ## 購読 {#subscriptions}
 
-連絡先の購読は、対応するタブに表示されます。 サービスの購読について詳しくは、[ この節 ](../../audiences/using/about-subscriptions.md) を参照してください。
+連絡先の購読は、対応するタブに表示されます。 サービスの購読について詳しくは、[&#x200B; この節 &#x200B;](../../audiences/using/about-subscriptions.md) を参照してください。
 
-「**[!UICONTROL Mobile App Subscriptions]**」タブは、プッシュ通知を参照します。 詳しくは、[ プッシュ通知 ](../../channels/using/about-push-notifications.md) チャネルを参照してください。
+「**[!UICONTROL Mobile App Subscriptions]**」タブは、プッシュ通知を参照します。 詳しくは、[&#x200B; プッシュ通知 &#x200B;](../../channels/using/about-push-notifications.md) チャネルを参照してください。

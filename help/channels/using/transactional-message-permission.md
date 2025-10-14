@@ -104,7 +104,7 @@ ht-degree: 1%
 
    ![](assets/message-center_duplicated-draft-message.png)
 
-1. このメッセージを編集してパーソナライズできるようになりました。 [ トランザクションメッセージの編集 ](../../channels/using/editing-transactional-message.md) を参照してください。
+1. このメッセージを編集してパーソナライズできるようになりました。 [&#x200B; トランザクションメッセージの編集 &#x200B;](../../channels/using/editing-transactional-message.md) を参照してください。
 
 ## 影響 {#impacts}
 

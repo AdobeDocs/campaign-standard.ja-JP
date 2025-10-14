@@ -23,31 +23,31 @@ ht-degree: 2%
 
 >[!NOTE]
 >
-> Adobe Campaign Standardでは、**リソース**/**テンプレート** メニューからアクセスできる様々なタイプのテンプレートを作成できます。 メールDesignerで使用されるテンプレートは、コンテンツテンプレートです。 詳しくは、[ テンプレートについて ](../../start/using/marketing-activity-templates.md) を参照してください。
+> Adobe Campaign Standardでは、**リソース**/**テンプレート** メニューからアクセスできる様々なタイプのテンプレートを作成できます。 メールDesignerで使用されるテンプレートは、コンテンツテンプレートです。 詳しくは、[&#x200B; テンプレートについて &#x200B;](../../start/using/marketing-activity-templates.md) を参照してください。
 
-![](assets/do-not-localize/how-to-video.png) [ ビデオでテンプレートを作成する方法を確認する ](#video)
+![](assets/do-not-localize/how-to-video.png) [&#x200B; ビデオでテンプレートを作成する方法を確認する &#x200B;](#video)
 
 ### コンテンツテンプレートについて {#content-templates}
 
-[ メールHTML](../../designing/using/designing-content-in-adobe-campaign.md) ホームページの「**[!UICONTROL Templates]**」タブで提供されるDesignerコンテンツを管理できます。
+[&#x200B; メールHTML](../../designing/using/designing-content-in-adobe-campaign.md) ホームページの「**[!UICONTROL Templates]**」タブで提供されるDesignerコンテンツを管理できます。
 
 標準のメールコンテンツテンプレートには、Behanceのアーティストによってデザインされた、モバイル向けに最適化された 18 のレイアウトと、クラス最高の 4 つのレスポンシブテンプレートが含まれています。 これらは、顧客歓迎メッセージ、ニュースレター、リエンゲージメントメールなど、最新の用途に対応しています。 ブランドのコンテンツに合わせて簡単にカスタマイズでき、メールをゼロから簡単に設計できます。
 
 ![](assets/template_content.png)
 
-HTMLコンテンツテンプレートには、[ 詳細メニュー ](../../start/using/interface-description.md#advanced-menu) の **[!UICONTROL Resources]**/**[!UICONTROL Content templates & fragments]** 画面からアクセスできます。 ここから、ランディングページのコンテンツテンプレート、メールコンテンツテンプレートおよびフラグメントを管理できます。
+HTMLコンテンツテンプレートには、[&#x200B; 詳細メニュー &#x200B;](../../start/using/interface-description.md#advanced-menu) の **[!UICONTROL Resources]**/**[!UICONTROL Content templates & fragments]** 画面からアクセスできます。 ここから、ランディングページのコンテンツテンプレート、メールコンテンツテンプレートおよびフラグメントを管理できます。
 
 ![](assets/content_templates_list.png)
 
 標準提供のコンテンツテンプレートは読み取り専用です。 このうちのいずれかを編集するには、まず目的のテンプレートを複製する必要があります。
 
-新しいテンプレートやフラグメントを作成し、独自のコンテンツを定義できます。 詳しくは、[ コンテンツテンプレートの作成 ](#creating-a-content-template) および [ コンテンツフラグメントの作成 ](#creating-a-content-fragment) を参照してください。
+新しいテンプレートやフラグメントを作成し、独自のコンテンツを定義できます。 詳しくは、[&#x200B; コンテンツテンプレートの作成 &#x200B;](#creating-a-content-template) および [&#x200B; コンテンツフラグメントの作成 &#x200B;](#creating-a-content-fragment) を参照してください。
 
-メールDesignerでコンテンツを編集する際に、コンテンツをフラグメントまたはテンプレートとして保存して、コンテンツテンプレートを作成することもできます。 詳しくは、[ コンテンツをテンプレートとして保存 ](#saving-content-as-template) および [ コンテンツをフラグメントとして保存 ](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment) を参照してください。
+メールDesignerでコンテンツを編集する際に、コンテンツをフラグメントまたはテンプレートとして保存して、コンテンツテンプレートを作成することもできます。 詳しくは、[&#x200B; コンテンツをテンプレートとして保存 &#x200B;](#saving-content-as-template) および [&#x200B; コンテンツをフラグメントとして保存 &#x200B;](../../designing/using/using-reusable-content.md#saving-content-as-a-fragment) を参照してください。
 
 **関連トピック：**
 
-* コンテンツの編集について詳しくは、「[ メールコンテンツデザインについて ](../../designing/using/designing-content-in-adobe-campaign.md) を参照してください。
+* コンテンツの編集について詳しくは、「[&#x200B; メールコンテンツデザインについて &#x200B;](../../designing/using/designing-content-in-adobe-campaign.md) を参照してください。
 
 ### コンテンツテンプレートの作成 {#creating-a-content-template}
 
@@ -68,7 +68,7 @@ HTMLコンテンツテンプレートには、[ 詳細メニュー ](../../start
 
    ![](assets/email_designer_create-template_thumbnail.png)
 
-   このサムネールは、[ メールDesigner](../../designing/using/designing-content-in-adobe-campaign.md) ホームページの「**[!UICONTROL Templates]**」タブに表示されます。
+   このサムネールは、[&#x200B; メールDesigner](../../designing/using/designing-content-in-adobe-campaign.md) ホームページの「**[!UICONTROL Templates]**」タブに表示されます。
 
 1. 「**[!UICONTROL Properties]**」タブを閉じて、メインワークスペースに戻ります。
 1. 必要に応じてカスタマイズできる構造コンポーネントとコンテンツコンポーネントを追加します。
@@ -77,7 +77,7 @@ HTMLコンテンツテンプレートには、[ 詳細メニュー ](../../start
    > コンテンツテンプレート内に、パーソナライゼーションフィールドや条件付きコンテンツを挿入することはできません。
 1. 編集が完了したら、テンプレートを保存します。
 
-このテンプレートは、メールDesignerで作成されたすべてのメールで使用できるようになりました。 [ メールDesigner](../../designing/using/designing-content-in-adobe-campaign.md) ホームページの「**[!UICONTROL Templates]**」タブから選択します。
+このテンプレートは、メールDesignerで作成されたすべてのメールで使用できるようになりました。 [&#x200B; メールDesigner](../../designing/using/designing-content-in-adobe-campaign.md) ホームページの「**[!UICONTROL Templates]**」タブから選択します。
 
 ![](assets/content_template_new.png)
 
@@ -99,7 +99,7 @@ HTMLコンテンツテンプレートには、[ 詳細メニュー ](../../start
 
 1. 作成したテンプレートを見つけるには、**[!UICONTROL Resources]**/**[!UICONTROL Content templates & fragments]** に移動します。
 
-1. 新しいテンプレートを使用するには、[ メールDesigner](../../designing/using/designing-content-in-adobe-campaign.md) ホームページの「**[!UICONTROL Templates]**」タブから選択します。
+1. 新しいテンプレートを使用するには、[&#x200B; メールDesigner](../../designing/using/designing-content-in-adobe-campaign.md) ホームページの「**[!UICONTROL Templates]**」タブから選択します。
 
    ![](assets/content_template_new.png)
 
@@ -107,13 +107,13 @@ HTMLコンテンツテンプレートには、[ 詳細メニュー ](../../start
 
 メールDesignerを使用して、メールテンプレートを作成できるようになりました。 コンテンツコンポーネントを使用してメールの様々なセクションを反映し、設定を調整して元のニュースレターにできるだけ近づけます。 最後に、作成したフラグメントを挿入します。
 
-1. メールDesignerを使用して、テンプレートを作成します。 詳しくは、[ コンテンツテンプレート ](#content-templates) を参照してください。
-1. メールのヘッダー、フッター、本文に対応する複数の構造コンポーネントをテンプレートに挿入します。 構造コンポーネントの追加について詳しくは、[ メールDesignerを使用したメール構造の編集 ](../../designing/using/designing-from-scratch.md#defining-the-email-structure) を参照してください。
+1. メールDesignerを使用して、テンプレートを作成します。 詳しくは、[&#x200B; コンテンツテンプレート &#x200B;](#content-templates) を参照してください。
+1. メールのヘッダー、フッター、本文に対応する複数の構造コンポーネントをテンプレートに挿入します。 構造コンポーネントの追加について詳しくは、[&#x200B; メールDesignerを使用したメール構造の編集 &#x200B;](../../designing/using/designing-from-scratch.md#defining-the-email-structure) を参照してください。
 1. ニュースレターの本文を作成するために必要な数のコンテンツコンポーネントを挿入します。 これは、毎月更新するメールの編集可能なコンテンツになります。
 
    ![](assets/des_loading_compatible_fragment_5.png)
 
-   HTMLAdobe コードに精通している場合は、元のメールのより複雑な要素をコピーして貼り付けることができる **[!UICONTROL Html]** コンポーネントを利用することをお勧めします。 残りのコンテンツには、**[!UICONTROL Button]**、**[!UICONTROL Image]**、**[!UICONTROL Text]** などの他のコンポーネントを使用します。 詳しくは、[ コンテンツコンポーネントについて ](../../designing/using/designing-from-scratch.md#about-content-components) を参照してください。
+   HTMLAdobe コードに精通している場合は、元のメールのより複雑な要素をコピーして貼り付けることができる **[!UICONTROL Html]** コンポーネントを利用することをお勧めします。 残りのコンテンツには、**[!UICONTROL Button]**、**[!UICONTROL Image]**、**[!UICONTROL Text]** などの他のコンポーネントを使用します。 詳しくは、[&#x200B; コンテンツコンポーネントについて &#x200B;](../../designing/using/designing-from-scratch.md#about-content-components) を参照してください。
 
    >[!NOTE]
    >
@@ -123,7 +123,7 @@ HTMLコンテンツテンプレートには、[ 詳細メニュー ](../../start
 
    ![](assets/des_loading_compatible_fragment_6.png)
 
-   スタイル設定とインライン属性の管理について詳しくは、[ メールスタイルの編集 ](../../designing/using/styles.md) を参照してください。
+   スタイル設定とインライン属性の管理について詳しくは、[&#x200B; メールスタイルの編集 &#x200B;](../../designing/using/styles.md) を参照してください。
 
 1. 前に作成した 2 つのフラグメント（ヘッダーとフッター）を、目的の構造コンポーネントに挿入します。
 
@@ -147,7 +147,7 @@ HTMLコンテンツテンプレートには、[ 詳細メニュー ](../../start
 
 >[!VIDEO](https://video.tv.adobe.com/v/37616?quality=12&captions=jpn)
 
-その他のCampaign Standardチュートリアルビデオについては、[ こちら ](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja) を参照してください。
+その他のCampaign Standardチュートリアルビデオについては、[&#x200B; こちら &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja) を参照してください。
 
 ## フラグメントについて {#about-fragments}
 
@@ -161,8 +161,8 @@ HTMLコンテンツテンプレートには、[ 詳細メニュー ](../../start
 
 メールDesignerでフラグメントを最大限に活用するには：
 
-* 独自のフラグメントを作成します。 [ コンテンツフラグメントの作成 ](#creating-a-content-fragment) および [ コンテンツをフラグメントとして保存 ](#saving-content-as-a-fragment) を参照してください。
-* 必要な回数だけメールで使用します。 [ メールへの要素の挿入 ](#inserting-elements-into-an-email) を参照してください。
+* 独自のフラグメントを作成します。 [&#x200B; コンテンツフラグメントの作成 &#x200B;](#creating-a-content-fragment) および [&#x200B; コンテンツをフラグメントとして保存 &#x200B;](#saving-content-as-a-fragment) を参照してください。
+* 必要な回数だけメールで使用します。 [&#x200B; メールへの要素の挿入 &#x200B;](#inserting-elements-into-an-email) を参照してください。
 * フラグメントを編集すると、変更内容が同期され、そのフラグメントを含むすべてのメール（準備や送信が済んでいない場合）に自動的に生成されます。
 
 メールに追加すると、フラグメントはデフォルトでロックされます。 特定のメールのフラグメントを変更する場合は、元のフラグメントを使用しているメール内でフラグメントをロック解除することにより、フラグメントとの同期を解除できます。 変更内容は同期されなくなります。
@@ -171,13 +171,13 @@ HTMLコンテンツテンプレートには、[ 詳細メニュー ](../../start
 
 ![](assets/des_unlocking_fragment.png)
 
-そのフラグメントは、元のフラグメントにリンクされなくなったスタンドアロンのコンポーネントになります。 その後、他のコンテンツコンポーネントと同様に編集できます。 詳しくは [ コンテンツコンポーネントについて ](../../designing/using/designing-from-scratch.md#about-content-components) を参照してください。
+そのフラグメントは、元のフラグメントにリンクされなくなったスタンドアロンのコンポーネントになります。 その後、他のコンテンツコンポーネントと同様に編集できます。 詳しくは [&#x200B; コンテンツコンポーネントについて &#x200B;](../../designing/using/designing-from-scratch.md#about-content-components) を参照してください。
 
 ### メールへのフラグメントの挿入 {#inserting-elements-into-an-email}
 
-メールのコンテンツを定義するには、事前に配置した構造コンポーネントにコンテンツ要素を追加します。 [ メール構造の編集 ](../../designing/using/designing-from-scratch.md#defining-the-email-structure) を参照してください。
+メールのコンテンツを定義するには、事前に配置した構造コンポーネントにコンテンツ要素を追加します。 [&#x200B; メール構造の編集 &#x200B;](../../designing/using/designing-from-scratch.md#defining-the-email-structure) を参照してください。
 
-1. 左側の「**+**」アイコンを選択してコンテンツ要素にアクセスします。 [ フラグメント ](#about-fragments) または [ コンテンツコンポーネント ](../../designing/using/designing-from-scratch.md#about-content-components) を選択します。
+1. 左側の「**+**」アイコンを選択してコンテンツ要素にアクセスします。 [&#x200B; フラグメント &#x200B;](#about-fragments) または [&#x200B; コンテンツコンポーネント &#x200B;](../../designing/using/designing-from-scratch.md#about-content-components) を選択します。
 1. 追加するフラグメントのラベルまたはラベルの一部が既にわかっている場合は、そのラベルを検索できます。
 
    ![](assets/email_designer_fragmentsearch.png)
@@ -194,16 +194,16 @@ HTMLコンテンツテンプレートには、[ 詳細メニュー ](../../start
 
    >[!NOTE]
    >
-   >メールに追加された場合、フラグメントはデフォルトでロックされます。 特定のメールのフラグメントを変更する場合や、フラグメント内で直接変更を行う場合は、元のフラグメントとの同期を解除できます。 [ フラグメントについて ](#about-fragments) を参照してください。
+   >メールに追加された場合、フラグメントはデフォルトでロックされます。 特定のメールのフラグメントを変更する場合や、フラグメント内で直接変更を行う場合は、元のフラグメントとの同期を解除できます。 [&#x200B; フラグメントについて &#x200B;](#about-fragments) を参照してください。
 
 1. メールに追加する必要があるすべての要素に対して、この手順を繰り返します。
 1. メールを保存します。
 
-メール構造が入力されたので、各コンテンツ要素のスタイルを編集できます。 [ 要素の編集 ](../../designing/using/styles.md) を参照してください。
+メール構造が入力されたので、各コンテンツ要素のスタイルを編集できます。 [&#x200B; 要素の編集 &#x200B;](../../designing/using/styles.md) を参照してください。
 
 >[!NOTE]
 >
->フラグメントが変更された場合、変更内容はフラグメントが使用されているメールに自動的に反映されます。 詳しくは、[ フラグメントについて ](#about-fragments) を参照してください。
+>フラグメントが変更された場合、変更内容はフラグメントが使用されているメールに自動的に反映されます。 詳しくは、[&#x200B; フラグメントについて &#x200B;](#about-fragments) を参照してください。
 
 ### コンテンツフラグメントの作成 {#creating-a-content-fragment}
 
@@ -233,7 +233,7 @@ HTMLコンテンツテンプレートには、[ 詳細メニュー ](../../start
    >
    >空の構造コンポーネントを含むフラグメントコンテンツとして保存しないでください。 > フラグメントを挿入した後は、編集できなくなります。
    >
-   >[ モバイル表示 ](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view) は、フラグメントでは使用できません。
+   >[&#x200B; モバイル表示 &#x200B;](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view) は、フラグメントでは使用できません。
 
 1. 編集が完了したら、フラグメントを保存します。
 
@@ -241,7 +241,7 @@ HTMLコンテンツテンプレートには、[ 詳細メニュー ](../../start
 
 >[!NOTE]
 >
->メールで使用され、ロックが解除されていない場合は、フラグメント内にパーソナライゼーションフィールドを挿入できません。 [ フラグメントについて ](#about-fragments) を参照してください。
+>メールで使用され、ロックが解除されていない場合は、フラグメント内にパーソナライゼーションフィールドを挿入できません。 [&#x200B; フラグメントについて &#x200B;](#about-fragments) を参照してください。
 
 ### コンテンツをフラグメントとして保存 {#saving-content-as-a-fragment}
 
@@ -279,7 +279,7 @@ HTMLコンテンツテンプレートには、[ 詳細メニュー ](../../start
 ![](assets/email_designer_save-as-fragment_in-new-email.png)
 
 >[!NOTE]
->[ モバイル表示 ](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view) は、フラグメントでは使用できません。 メールモバイルビューを編集する場合は、コンテンツをフラグメントとして保存する前に編集します。
+>[&#x200B; モバイル表示 &#x200B;](../../designing/using/plain-text-html-modes.md#switching-to-mobile-view) は、フラグメントでは使用できません。 メールモバイルビューを編集する場合は、コンテンツをフラグメントとして保存する前に編集します。
 
 <!--You need to copy-paste the HTML corresponding to the section that you want to save into a new fragment.
 
@@ -303,7 +303,7 @@ To save as a fragment some email content that you created, follow the steps belo
 
 これを行うには、次の手順に従います。
 
-1. Adobe Campaignで、**[!UICONTROL Resources]** / **[!UICONTROL Content templates & fragments]** に移動し、ヘッダーのフラグメントを作成します。 詳しくは、[ コンテンツフラグメントの作成 ](#creating-a-content-fragment) を参照してください。
+1. Adobe Campaignで、**[!UICONTROL Resources]** / **[!UICONTROL Content templates & fragments]** に移動し、ヘッダーのフラグメントを作成します。 詳しくは、[&#x200B; コンテンツフラグメントの作成 &#x200B;](#creating-a-content-fragment) を参照してください。
 1. 必要な数の構造コンポーネントをフラグメントに追加します。
 
    ![](assets/des_loading_compatible_fragment_1.png)

@@ -60,13 +60,13 @@ Adobe Campaignは、豊富な顧客プロファイルをリアルタイムで構
 
 連絡先にメッセージを送信する前に、その連絡先の権限を取得する必要があります。 そうでない場合、メールはスパムとしてマークされる可能性があり、プラットフォームの配信品質に影響を与えます。 正常なプロファイルデータベースを確実に作成するには、最初の手順としてこの権限を保護します。
 
-Campaign では、[ サービス ](../../audiences/using/creating-a-service.md) および [ ランディングページ **を通じて** 簡単なオプトインおよびオプトアウトメカニズム ](../../channels/using/getting-started-with-landing-pages.md) を使用して、連絡先情報を更新し、データベースを強化することをお勧めします。
+Campaign では、[&#x200B; サービス &#x200B;](../../audiences/using/creating-a-service.md) および [&#x200B; ランディングページ **を通じて** 簡単なオプトインおよびオプトアウトメカニズム &#x200B;](../../channels/using/getting-started-with-landing-pages.md) を使用して、連絡先情報を更新し、データベースを強化することをお勧めします。
 
-メッセージに **購読解除リンク** を提供すると、必要に応じてプロファイルをブロックリストに追加できるので、プラットフォームの配信品質が向上します。 ブロックリストの管理について詳しくは、[Campaign のオプトインとオプトアウトについて ](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md) を参照してください。
+メッセージに **購読解除リンク** を提供すると、必要に応じてプロファイルをブロックリストに追加できるので、プラットフォームの配信品質が向上します。 ブロックリストの管理について詳しくは、[Campaign のオプトインとオプトアウトについて &#x200B;](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md) を参照してください。
 
 >[!IMPORTANT]
 >
->[Adobe Campaignの利用規定 ](https://www.adobe.com/legal/terms/aup.html) に従う必要があります。
+>[Adobe Campaignの利用規定 &#x200B;](https://www.adobe.com/legal/terms/aup.html) に従う必要があります。
 
 詳しくは、以下を参照してください。
 
@@ -79,9 +79,9 @@ Campaign では、[ サービス ](../../audiences/using/creating-a-service.md) 
 
 Adobe Campaignには、GDPR、CCPA およびその他のプライバシー保護法に関する **プライバシーコンプライアンス** に役立つ各種のツールが用意されています。
 
-プライバシー管理と、アクセス権、忘れられる権利、同意、データ保持、ユーザーの役割を管理するために提供する機能について詳しくは、この [ この記事 ](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy.html) を参照してください。
+プライバシー管理と、アクセス権、忘れられる権利、同意、データ保持、ユーザーの役割を管理するために提供する機能について詳しくは、この [&#x200B; この記事 &#x200B;](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy.html) を参照してください。
 
-Campaign のプライバシーと同意、およびその管理方法については、[ この節 ](../../start/using/privacy.md) を参照してください。 また、アドビのサービスを利用する際にプライバシーの順守に役立つベストプラクティスもご覧いただけます。
+Campaign のプライバシーと同意、およびその管理方法については、[&#x200B; この節 &#x200B;](../../start/using/privacy.md) を参照してください。 また、アドビのサービスを利用する際にプライバシーの順守に役立つベストプラクティスもご覧いただけます。
 
 ## その他のリソース
 
@@ -89,4 +89,4 @@ Campaign のプライバシーと同意、およびその管理方法につい�
 * [Microsoft Dynamics 365 の操作](../../integrating/using/d365-acs-get-started.md)
 * [共有オーディエンスのAdobe](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
 * [ワークフローを使用したプロファイルのインポート](../../automating/using/creating-import-workflow-templates.md)
-* [ プロファイルとオーディエンスビデオ ](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html?lang=ja)
+* [&#x200B; プロファイルとオーディエンスビデオ &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html?lang=ja)

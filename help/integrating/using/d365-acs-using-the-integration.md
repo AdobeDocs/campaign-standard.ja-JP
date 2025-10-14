@@ -17,9 +17,9 @@ ht-degree: 1%
 
 # Microsoft Dynamics 365 統合の使用
 
-Microsoft Dynamics 365 とのAdobe Campaign Standard統合で実行されるデータフローはいくつかあります。 これらのフローについて詳しくは、[ このページ ](../../integrating/using/d365-acs-self-service-app-workflows.md) を参照してください。
+Microsoft Dynamics 365 とのAdobe Campaign Standard統合で実行されるデータフローはいくつかあります。 これらのフローについて詳しくは、[&#x200B; このページ &#x200B;](../../integrating/using/d365-acs-self-service-app-workflows.md) を参照してください。
 
-データフローの詳細については、このドキュメントの [ データフロー ](#data-flows) の節を参照してください。
+データフローの詳細については、このドキュメントの [&#x200B; データフロー &#x200B;](#data-flows) の節を参照してください。
 
 ## Adobe Campaign Standardのユーザーエクスペリエンス
 
@@ -111,7 +111,7 @@ Dynamics ユーザーのタイムライン ビューのクローズアップに�
 
 #### カスタムエンティティ
 
-[Microsoft Dynamics 365 とAdobe Campaign Standardの統合 ](../../integrating/using/d365-acs-get-started.md) は、カスタムエンティティをサポートしており、Dynamics 365 のカスタムエンティティを Campaign の対応するカスタムリソースに同期できます。
+[Microsoft Dynamics 365 とAdobe Campaign Standardの統合 &#x200B;](../../integrating/using/d365-acs-get-started.md) は、カスタムエンティティをサポートしており、Dynamics 365 のカスタムエンティティを Campaign の対応するカスタムリソースに同期できます。
 
 カスタムリソースの新しいデータは、セグメント化やパーソナライゼーションなど、いくつかの目的で使用できます。
 
@@ -134,7 +134,7 @@ Dynamics ユーザーのタイムライン ビューのクローズアップに�
 
 * 非表示の子レコードがあり、それにアクセスする方法がないと思われる状況になった場合は、カーディナリティ リンクタイプを一時的に **0 または 1 のカーディナリティ シンプルリンク** に変更して、それらのレコードにアクセスできます。
 
-Campaign カスタムリソースのより包括的な概要については、[ この節 ](../../developing/using/key-steps-to-add-a-resource.md) を参照してください。
+Campaign カスタムリソースのより包括的な概要については、[&#x200B; この節 &#x200B;](../../developing/using/key-steps-to-add-a-resource.md) を参照してください。
 
 ### メールマーケティングイベントフロー{#email-marketing-event-flow}
 

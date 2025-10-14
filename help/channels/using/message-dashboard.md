@@ -27,7 +27,7 @@ ht-degree: 4%
 灰色のバーは、メッセージにリンクされた様々なアイコンを再グループ化します。
 
 * **[!UICONTROL Summary]**：メッセージに関する主な情報の表示/非表示を切り替えます。
-* **[!UICONTROL Edit properties]**：メッセージの [ 詳細設定パラメーター ](../../administration/using/configuring-email-channel.md#list-of-email-properties) を編集できます。
+* **[!UICONTROL Edit properties]**：メッセージの [&#x200B; 詳細設定パラメーター &#x200B;](../../administration/using/configuring-email-channel.md#list-of-email-properties) を編集できます。
 * **[!UICONTROL Reports]**：メッセージに関するレポートへのアクセスを許可します。
 
 **関連トピック：**
@@ -45,13 +45,13 @@ ht-degree: 4%
 
 * **[!UICONTROL Show proofs]**：送信された配達確認が存在する場合、そのリストを表示または非表示にします。 このボタンは、配達確認を送信した場合にのみ有効になります。
 
-  配達確認について詳しくは、[ 配達確認の送信 ](../../sending/using/sending-proofs.md) を参照してください。
+  配達確認について詳しくは、[&#x200B; 配達確認の送信 &#x200B;](../../sending/using/sending-proofs.md) を参照してください。
 
-* **[!UICONTROL Send a test]**：使用する承認モード（**[!UICONTROL Email rendering]** （メールのみ）、**[!UICONTROL Proof]** またはその両方）を選択できます。 テストプロファイルについて詳しくは、[ 配達確認の送信 ](../../sending/using/sending-proofs.md) を参照してください。 このボタンは、テストプロファイルを作成した場合にのみ有効になります。
+* **[!UICONTROL Send a test]**：使用する承認モード（**[!UICONTROL Email rendering]** （メールのみ）、**[!UICONTROL Proof]** またはその両方）を選択できます。 テストプロファイルについて詳しくは、[&#x200B; 配達確認の送信 &#x200B;](../../sending/using/sending-proofs.md) を参照してください。 このボタンは、テストプロファイルを作成した場合にのみ有効になります。
 
-* **[!UICONTROL Prepare send]**：送信の準備を開始します。 **[!UICONTROL Deployment]** ブロックが表示され、準備の結果が表示されます。 このボタンは、ターゲットが入力された場合にのみ表示されます。 対応するボタンを使用して、いつでも準備を停止できます。 メッセージの準備について詳しくは、[ 送信の準備 ](../../sending/using/preparing-the-send.md) を参照してください。
+* **[!UICONTROL Prepare send]**：送信の準備を開始します。 **[!UICONTROL Deployment]** ブロックが表示され、準備の結果が表示されます。 このボタンは、ターゲットが入力された場合にのみ表示されます。 対応するボタンを使用して、いつでも準備を停止できます。 メッセージの準備について詳しくは、[&#x200B; 送信の準備 &#x200B;](../../sending/using/preparing-the-send.md) を参照してください。
 
-* **[!UICONTROL Confirm send]**: メッセージの送信を確認します。 送信統計が **[!UICONTROL Deployment]** ブロックに表示されます。 このボタンは、送信の準備が完了した後にのみ表示されます。 **送信を停止** ボタンと送信ボタンを使用して、送信をいつでも停止または一時停止 **[!UICONTROL Pause]** きます。 送信の確認について詳しくは、[ メッセージの送信 ](../../sending/using/confirming-the-send.md) を参照してください。
+* **[!UICONTROL Confirm send]**: メッセージの送信を確認します。 送信統計が **[!UICONTROL Deployment]** ブロックに表示されます。 このボタンは、送信の準備が完了した後にのみ表示されます。 **送信を停止** ボタンと送信ボタンを使用して、送信をいつでも停止または一時停止 **[!UICONTROL Pause]** きます。 送信の確認について詳しくは、[&#x200B; メッセージの送信 &#x200B;](../../sending/using/confirming-the-send.md) を参照してください。
 
 ## ブロック {#blocks}
 
@@ -59,10 +59,10 @@ ht-degree: 4%
 
 ![](assets/delivery_dashboard_3.png)
 
-* **[!UICONTROL Deployment]**：メッセージの準備または送信の進行状況を追跡できます。 送信ログと分析ログにアクセスするには、このブロックの右下のセクションにあるボタンをクリックします。 このブロックは、送信が準備された場合にのみ表示されます。 詳しくは、こちらを参照してください。 [ 送信の確認 ](../../sending/using/confirming-the-send.md) を参照してください。
+* **[!UICONTROL Deployment]**：メッセージの準備または送信の進行状況を追跡できます。 送信ログと分析ログにアクセスするには、このブロックの右下のセクションにあるボタンをクリックします。 このブロックは、送信が準備された場合にのみ表示されます。 詳しくは、こちらを参照してください。 [&#x200B; 送信の確認 &#x200B;](../../sending/using/confirming-the-send.md) を参照してください。
 * **[!UICONTROL Audience]**：メッセージのメインターゲットとテストプロファイルを確立できます。 [オーディエンスの作成](../../audiences/using/creating-audiences.md)を参照してください。
-* **[!UICONTROL Schedule]**: メッセージを送信する日付を指定できます。 [ スケジュール設定 ](../../sending/using/about-scheduling-messages.md) を参照してください。
-* **[!UICONTROL Content]**: メッセージのコンテンツを定義し、プレビューできます。 [ メッセージを送信するための主な手順 ](../../channels/using/key-steps-to-send-a-message.md) を参照してください。
+* **[!UICONTROL Schedule]**: メッセージを送信する日付を指定できます。 [&#x200B; スケジュール設定 &#x200B;](../../sending/using/about-scheduling-messages.md) を参照してください。
+* **[!UICONTROL Content]**: メッセージのコンテンツを定義し、プレビューできます。 [&#x200B; メッセージを送信するための主な手順 &#x200B;](../../channels/using/key-steps-to-send-a-message.md) を参照してください。
 
 ## 警告 {#warnings}
 
@@ -78,7 +78,7 @@ ht-degree: 4%
 
 * *「ルーティング外部アカウントが無効になりました。」*
 
-  詳しくは、[ 外部アカウント ](../../administration/using/external-accounts.md) を参照してください。
+  詳しくは、[&#x200B; 外部アカウント &#x200B;](../../administration/using/external-accounts.md) を参照してください。
 
 * *「現在の IP アフィニティがどの送信プロセスでも処理されないので、メッセージを送信できません。」*
 
@@ -90,4 +90,4 @@ ht-degree: 4%
 
 * *「このメッセージは、テクニカルトランザクションメッセージテンプレートです。 変更や公開はできません。」*
 
-  この警告は、編集できない空のトランザクションメッセージテンプレートに表示されます。 トランザクションメッセージについて詳しくは、[ この節 ](../../channels/using/getting-started-with-transactional-msg.md) を参照してください。
+  この警告は、編集できない空のトランザクションメッセージテンプレートに表示されます。 トランザクションメッセージについて詳しくは、[&#x200B; この節 &#x200B;](../../channels/using/getting-started-with-transactional-msg.md) を参照してください。

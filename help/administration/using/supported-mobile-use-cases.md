@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Adobe Campaign Standard でサポートされるモバイルのユースケース {#mobile-use-cases}
 
-このページでは、[!DNL Adobe Experience Platform SDKs] を使用して [!DNL Adobe Campaign Standard] でサポートされているすべてのモバイルユースケースのリストを示します。 これらのユースケースをサポートするには、[!DNL Adobe Experience Platform SDKs]、[!DNL tags in Adobe Experience Platform]、[!DNL Adobe Campaign Standard] のインストールと設定が必要です。 詳しくは、この [ ページ ](../../administration/using/configuring-a-mobile-application.md) を参照してください。
+このページでは、[!DNL Adobe Experience Platform SDKs] を使用して [!DNL Adobe Campaign Standard] でサポートされているすべてのモバイルユースケースのリストを示します。 これらのユースケースをサポートするには、[!DNL Adobe Experience Platform SDKs]、[!DNL tags in Adobe Experience Platform]、[!DNL Adobe Campaign Standard] のインストールと設定が必要です。 詳しくは、この [&#x200B; ページ &#x200B;](../../administration/using/configuring-a-mobile-application.md) を参照してください。
 
 Adobe Campaign Standardでは、次のユースケースをサポートしています。
 
@@ -29,9 +29,9 @@ Adobe Campaign Standardでは、次のユースケースをサポートしてい
 
 これらのユースケースを設定するには、次の拡張機能が必要です。
 
-* **[!DNL Adobe Campaign Standard]** <br> 拡張機能をインストールして設定するには、[Data Collection UI のCampaign StandardCampaign Standardの設定 ](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/#configure-the-campaign-standard-extension) を参照してください。
+* **[!DNL Adobe Campaign Standard]** <br> 拡張機能をインストールして設定するには、[Data Collection UI のCampaign StandardCampaign Standardの設定 &#x200B;](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/#configure-the-campaign-standard-extension) を参照してください。
 * 自動的にインストールされる **[!DNL Mobile Core]**。 <br>Mobile Core 拡張機能について詳しくは、「[Mobile Core](https://developer.adobe.com/client-sdks/documentation/mobile-core/)」を参照してください。
-* 自動的にインストールされる **[!DNL Profile]**。 <br> プロファイル拡張機能について詳しくは、[ プロファイル ](https://developer.adobe.com/client-sdks/documentation/profile/) を参照してください。
+* 自動的にインストールされる **[!DNL Profile]**。 <br> プロファイル拡張機能について詳しくは、[&#x200B; プロファイル &#x200B;](https://developer.adobe.com/client-sdks/documentation/profile/) を参照してください。
 
 ## Campaign Standardへのモバイルプロファイルの登録 {#register-mobile-profile}
 
@@ -42,7 +42,7 @@ iOSでは、次の [!DNL Experience Platform APIs] が必要です。
 * つまり、アプリの起動時と、フォアグラウンドでの **[!UICONTROL Lifecycle Start]** 動です。
 * **[!UICONTROL Lifecycle Pause]**：アプリがバックグラウンドにある場合。
 
-詳しくは、[iOSのライフサイクル拡張 ](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/ios/) を参照してください。
+詳しくは、[iOSのライフサイクル拡張 &#x200B;](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/ios/) を参照してください。
 
 以下は、iOSを使用したこのユースケースの実装例です。
 
@@ -85,7 +85,7 @@ Androidでは、次の [!DNL Experience Platform APIs] が必要です。
 * **[!UICONTROL OnResume]**
 * **[!UICONTROL OnPause]**
 
-詳しくは、[Androidのライフサイクル拡張 ](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/android/) を参照してください。
+詳しくは、[Androidのライフサイクル拡張 &#x200B;](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/android/) を参照してください。
 
 以下は、Androidを使用したこのユースケースの実装例です。
 
@@ -141,7 +141,7 @@ public void onNewToken(String token) {
 
 ## アプリケーションのカスタムデータでモバイルプロファイルを強化 {#enrich-mobile-profile-custom}
 
-このユースケースが機能するには、PII ポストバックのルールを作成する必要があります。 詳しくは、[PII ポストバック ](../../administration/using/configuring-rules-launch.md#pii-postback) を参照してください。
+このユースケースが機能するには、PII ポストバックのルールを作成する必要があります。 詳しくは、[PII ポストバック &#x200B;](../../administration/using/configuring-rules-launch.md#pii-postback) を参照してください。
 
 ### （iOSを使用） {#enrich-mobile-profile-custom-ios}
 
@@ -174,7 +174,7 @@ MobileCore.collectPii(data);
 
 ## アプリケーションのライフサイクルデータでモバイルプロファイルを強化 {#enrich-mobile-profile-lifecycle}
 
-このユースケースが機能するには、PII ポストバックのルールを作成する必要があります。 詳しくは、[PII ポストバック ](../../administration/using/configuring-rules-launch.md#pii-postback) を参照してください。
+このユースケースが機能するには、PII ポストバックのルールを作成する必要があります。 詳しくは、[PII ポストバック &#x200B;](../../administration/using/configuring-rules-launch.md#pii-postback) を参照してください。
 
 >[!NOTE]
 >
@@ -187,7 +187,7 @@ iOSでは、次の [!DNL Experience Platform APIs] が必要です。
 * つまり、アプリの起動時と、フォアグラウンドでの **[!UICONTROL Lifecycle Start]** 動です。
 * **[!UICONTROL Lifecycle Pause]**：アプリがバックグラウンドにある場合。
 
-詳しくは、[iOSのライフサイクル拡張 ](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/ios/) を参照してください。
+詳しくは、[iOSのライフサイクル拡張 &#x200B;](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/ios/) を参照してください。
 
 以下は、iOSを使用したこのユースケースの実装例です。
 
@@ -230,7 +230,7 @@ Androidでは、次の [!DNL Experience Platform APIs] が必要です。
 * **[!UICONTROL OnResume]**
 * **[!UICONTROL OnPause]**
 
-詳しくは、[Androidのライフサイクル拡張 ](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/android/) を参照してください。
+詳しくは、[Androidのライフサイクル拡張 &#x200B;](https://developer.adobe.com/client-sdks/documentation/mobile-core/lifecycle/android/) を参照してください。
 
 以下は、Androidを使用したこのユースケースの実装例です。
 
@@ -253,13 +253,13 @@ public void onResume() {
 
 ## プッシュ通知を使用したユーザーインタラクションを追跡 {#track-user-push}
 
-ポストバックを追跡するプッシュ通知のルールを作成する必要があります。 詳しくは、[ プッシュ通知のトラッキングポストバック ](../../administration/using/configuring-rules-launch.md#push-tracking-postback) を参照してください。
+ポストバックを追跡するプッシュ通知のルールを作成する必要があります。 詳しくは、[&#x200B; プッシュ通知のトラッキングポストバック &#x200B;](../../administration/using/configuring-rules-launch.md#push-tracking-postback) を参照してください。
 
 ### （iOSを使用） {#track-user-push-ios}
 
 iOSでは、次の [!DNL Experience Platform SDK] が必要です。
 
-* **[!UICONTROL trackAction]**.詳しくは、「[ アプリのアクションのトラッキング ](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction)」を参照してください。
+* **[!UICONTROL trackAction]**.詳しくは、「[&#x200B; アプリのアクションのトラッキング &#x200B;](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction)」を参照してください。
 
 以下は、iOSを使用したこのユースケースの実装例です。
 
@@ -276,7 +276,7 @@ if (deliveryId != nil && broadlogId != nil) {
 Androidでは、次の [!DNL Experience Platform SDK] が必要です。
 
 * **[!UICONTROL trackAction]**
-詳しくは、「[ アプリのアクションのトラッキング ](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction)」を参照してください。
+詳しくは、「[&#x200B; アプリのアクションのトラッキング &#x200B;](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction)」を参照してください。
 
 以下は、Androidを使用したこのユースケースの実装例です。
 
@@ -293,7 +293,7 @@ MobileCore.trackAction("tracking", contextData);
 
 iOSでは、次の [!DNL Experience Platform SDK] が必要です。
 
-* **[!UICONTROL trackAction]**.詳しくは、「[ アプリのアクションのトラッキング ](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction)」を参照してください。
+* **[!UICONTROL trackAction]**.詳しくは、「[&#x200B; アプリのアクションのトラッキング &#x200B;](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction)」を参照してください。
 
 以下は、iOSを使用したこのユースケースの実装例です。
 
@@ -306,7 +306,7 @@ ACPCore.trackAction(mobileEventName, data: [:] )
 Androidでは、次の [!DNL Experience Platform SDK] が必要です。
 
 * **[!UICONTROL trackAction]**
-詳しくは、「[ アプリのアクションのトラッキング ](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction)」を参照してください。
+詳しくは、「[&#x200B; アプリのアクションのトラッキング &#x200B;](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction)」を参照してください。
 
 以下は、Androidを使用したこのユースケースの実装例です。
 
@@ -320,8 +320,8 @@ MobileCore.trackAction(mobileEventText, new HashMap<String,String>());
 
 iOSのアプリ内メッセージに基づくプロファイルテンプレートに対して追加の認証用のリンケージフィールドを設定するには、次の [!DNL Experience Platform SDK] が必要です。
 
-* リンクフィールドを設定します <br> 詳しくは、[ リンクフィールドを設定 ](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/#setlinkagefields) を参照してください。
-* リンケージフィールドのリセット <br> 詳しくは、[ リンケージフィールドのリセット ](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/#setlinkagefields) を参照してください。
+* リンクフィールドを設定します <br> 詳しくは、[&#x200B; リンクフィールドを設定 &#x200B;](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/#setlinkagefields) を参照してください。
+* リンケージフィールドのリセット <br> 詳しくは、[&#x200B; リンケージフィールドのリセット &#x200B;](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/#setlinkagefields) を参照してください。
 
 iOSを使用したこのユースケースの実装例を次に示します。
 
@@ -343,8 +343,8 @@ ACPCampaign.resetLinkageFields(linkageFields)
 
 Androidのアプリ内メッセージに基づくプロファイルテンプレートに対して追加の認証用のリンケージフィールドを設定するには、次のSDKExperience Platformが必要です。
 
-* リンクフィールドを設定します <br> 詳しくは、[ リンクフィールドを設定 ](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/#setlinkagefields) を参照してください。
-* リンケージフィールドのリセット <br> 詳しくは、[ リンケージフィールドのリセット ](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/#resetlinkagefields) を参照してください。
+* リンクフィールドを設定します <br> 詳しくは、[&#x200B; リンクフィールドを設定 &#x200B;](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/#setlinkagefields) を参照してください。
+* リンケージフィールドのリセット <br> 詳しくは、[&#x200B; リンケージフィールドのリセット &#x200B;](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/#resetlinkagefields) を参照してください。
 
 Androidを使用したこのユースケースの実装例を次に示します。
 

@@ -23,7 +23,7 @@ ht-degree: 3%
 >
 >Audience Destinations サービスは現在ベータ版です。予告なく頻繁に更新される場合があります。 これらの機能にアクセスするには、お客様を Azure でホストする必要があります（現在は北米向けのベータ版のみ）。 アクセスをご希望の場合は、Adobeカスタマーケアにお問い合わせください。
 
-セグメントビルダーを使用して [Adobe Experience Platform オーディエンスを作成すると ](../../integrating/using/aep-about-audience-destinations-service.md) ワークフロー内のキャンペーンオーディエンスと同じように使用して、メッセージをパーソナライズして送信できます。
+セグメントビルダーを使用して [Adobe Experience Platform オーディエンスを作成すると &#x200B;](../../integrating/using/aep-about-audience-destinations-service.md) ワークフロー内のキャンペーンオーディエンスと同じように使用して、メッセージをパーソナライズして送信できます。
 
 ワークフローでAdobe Experience Platform オーディエンスをアクティブ化するには、次の手順に従います。
 
@@ -43,11 +43,11 @@ ht-degree: 3%
 
    >[!NOTE]
    >
-   >プライマリキー以外のターゲットの場合は、カスタム名前空間に対応するカスタムターゲットマッピングも作成する必要があります。 ターゲットマッピングについて詳しくは、[ この節 ](../../administration/using/target-mappings-in-campaign.md) を参照してください。
+   >プライマリキー以外のターゲットの場合は、カスタム名前空間に対応するカスタムターゲットマッピングも作成する必要があります。 ターゲットマッピングについて詳しくは、[&#x200B; この節 &#x200B;](../../administration/using/target-mappings-in-campaign.md) を参照してください。
 
    ![](assets/aep_wkf_readaudience_namespace.png)
 
-   このリストには、インスタンスで設定されたすべてのエクスペリエンスデータモデル（XDM）マッピングが含まれています。 Adobe Experience Platform Data Connector について詳しくは、[ この専用ドキュメント ](../../integrating/using/aep-about-data-connector.md) を参照してください。
+   このリストには、インスタンスで設定されたすべてのエクスペリエンスデータモデル（XDM）マッピングが含まれています。 Adobe Experience Platform Data Connector について詳しくは、[&#x200B; この専用ドキュメント &#x200B;](../../integrating/using/aep-about-data-connector.md) を参照してください。
 
    ![](assets/aep_wkf_readaudience_namespace2.png)
 

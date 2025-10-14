@@ -42,7 +42,7 @@ ht-degree: 30%
 
 ## メールアーカイブのアクティブ化 {#activating-email-archiving}
 
-有効にすると、専用オプションを使用して、「BCC でメールを送信 [ が ](../../start/using/marketing-activity-templates.md) メールテンプレート」で有効化されます。
+有効にすると、専用オプションを使用して、「BCC でメールを送信 [&#x200B; が &#x200B;](../../start/using/marketing-activity-templates.md) メールテンプレート」で有効化されます。
 
 1. **リソース**／**テンプレート**／**配信テンプレート**&#x200B;に移動します。
 1. 標準の **[!UICONTROL Send via email]** テンプレートを複製します。

@@ -30,7 +30,7 @@ ht-degree: 2%
 >[!CAUTION]
 >これらのデータの収集を開始するには、動的レポート使用契約に同意する必要があります。
 >
->本契約について詳しくは、この [ ページ ](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement) を参照してください。
+>本契約について詳しくは、この [&#x200B; ページ &#x200B;](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement) を参照してください。
 
 ## 手順 1：セグメントを使用したプロファイルのカスタムリソースの更新{#step-1--update-profiles-custom-resource-segments}
 
@@ -50,7 +50,7 @@ ht-degree: 2%
 
    ![](assets/custom_profile_7.png)
 
-1. 「」をクリック **[!UICONTROL Prepare publication]**、準備が完了したら「**[!UICONTROL Publish]**」ボタンをクリックします。 カスタムリソースについて詳しくは、この [ ページ ](../../developing/using/updating-the-database-structure.md) を参照してください。
+1. 「」をクリック **[!UICONTROL Prepare publication]**、準備が完了したら「**[!UICONTROL Publish]**」ボタンをクリックします。 カスタムリソースについて詳しくは、この [&#x200B; ページ &#x200B;](../../developing/using/updating-the-database-structure.md) を参照してください。
 
 これで、セグメントコードを使用してワークフローの作成を開始できます。
 
@@ -63,7 +63,7 @@ ht-degree: 2%
 
 まず、ターゲット母集団が異なるワークフローを作成する必要があります。 ここでは、オーディエンスの年齢に応じてパーソナライズされたメールを送信します。1 つは 20～30 歳のプロファイル用の配信、もう 1 つは 30～40 歳のプロファイル用の配信です。
 
-1. ワークフローを作成します。 ワークフローの作成方法について詳しくは、この [ ページ ](../../automating/using/building-a-workflow.md) を参照してください。
+1. ワークフローを作成します。 ワークフローの作成方法について詳しくは、この [&#x200B; ページ &#x200B;](../../automating/using/building-a-workflow.md) を参照してください。
 
 1. **[!UICONTROL Query]** アクティビティをパレットからドラッグし、ワークスペースにドロップして追加します。
 
@@ -71,7 +71,7 @@ ht-degree: 2%
 
    ![](assets/report_segment_1.png)
 
-1. **[!UICONTROL Segmentation]** アクティビティを追加して、クエリ結果を 2 つのターゲット母集団に分割します。 セグメント化について詳しくは、この [ ページ ](../../automating/using/segmentation.md) を参照してください。
+1. **[!UICONTROL Segmentation]** アクティビティを追加して、クエリ結果を 2 つのターゲット母集団に分割します。 セグメント化について詳しくは、この [&#x200B; ページ &#x200B;](../../automating/using/segmentation.md) を参照してください。
 
 1. **[!UICONTROL Segmentation]** アクティビティをダブルクリックして設定します。 **[!UICONTROL Edit properties]** をクリックして、最初のセグメントを編集します。
 
@@ -94,7 +94,7 @@ ht-degree: 2%
 
    ![](assets/report_segment_3.png)
 
-1. 様々なターゲット母集団に応じて配信をパーソナライズします。 メール作成について詳しくは、この [ ページ ](../../designing/using/designing-content-in-adobe-campaign.md) を参照してください。
+1. 様々なターゲット母集団に応じて配信をパーソナライズします。 メール作成について詳しくは、この [&#x200B; ページ &#x200B;](../../designing/using/designing-content-in-adobe-campaign.md) を参照してください。
 
 1. ワークフローを保存します。
 

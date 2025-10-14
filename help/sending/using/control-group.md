@@ -155,7 +155,7 @@ ht-degree: 95%
 
 >[!IMPORTANT]
 >
->配信ログにアクセスするには、[ 管理者の役割 ](../../administration/using/users-management.md#functional-administrators) と、**[!UICONTROL All]** [ 組織単位 ](../../administration/using/organizational-units.md) の一部である必要があります。<!--If you would like to restrict access for a particular user or group of users, do not link it to **[!UICONTROL All]** units.-->
+>配信ログにアクセスするには、[&#x200B; 管理者の役割 &#x200B;](../../administration/using/users-management.md#functional-administrators) と、**[!UICONTROL All]** [&#x200B; 組織単位 &#x200B;](../../administration/using/organizational-units.md) の一部である必要があります。<!--If you would like to restrict access for a particular user or group of users, do not link it to **[!UICONTROL All]** units.-->
 
 ### 配信ログの確認 {#checking-logs}
 

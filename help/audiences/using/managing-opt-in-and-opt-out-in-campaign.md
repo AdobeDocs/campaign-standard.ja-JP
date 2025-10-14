@@ -29,13 +29,13 @@ ht-degree: 8%
 
 ユーザーがオプトインまたはオプトアウトできるようにするには、**[!UICONTROL Profile acquisition]** ランディングページを作成して公開する必要があります。 その後、必要に応じてチャネルを選択できます。 それには、次の手順に従います。
 
-また、ユーザーがすべての配信をオプトアウトできる **[!UICONTROL Denylist]** しいランディングページを設定することもできます。 詳しくは、[ すべての配信をオプトアウトするためのランディングページの設定 ](#setting-up-a-landing-page-to-opt-out-from-all-deliveries) を参照してください。
+また、ユーザーがすべての配信をオプトアウトできる **[!UICONTROL Denylist]** しいランディングページを設定することもできます。 詳しくは、[&#x200B; すべての配信をオプトアウトするためのランディングページの設定 &#x200B;](#setting-up-a-landing-page-to-opt-out-from-all-deliveries) を参照してください。
 
 >[!NOTE]
 >
 >ランディングページを使用してサービス購読を有効にすることもできます。 詳しくは、[このページ](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)を参照してください。
 
-1. **[!UICONTROL Profile acquisition]** ランディングページを作成します（[ この節 ](../../channels/using/getting-started-with-landing-pages.md) を参照）。
+1. **[!UICONTROL Profile acquisition]** ランディングページを作成します（[&#x200B; この節 &#x200B;](../../channels/using/getting-started-with-landing-pages.md) を参照）。
 1. 目的の各チャネルのランディングページコンテンツにチェックボックスを追加し、Campaign データベースから対応するフィールドにリンクします。
 
    ![](assets/optin_landingpage_1.png)
@@ -51,7 +51,7 @@ ht-degree: 8%
 
 ### すべての配信をオプトアウトするためのランディングページの設定 {#setting-up-a-landing-page-to-opt-out-from-all-deliveries}
 
-ユーザーがすべての配信をオプトアウトできるようにするには、**[!UICONTROL Denylist]** しいランディングページを作成して公開する必要があります。 ランディングページの作成について詳しくは、[ このページ ](../../channels/using/getting-started-with-landing-pages.md) を参照してください。
+ユーザーがすべての配信をオプトアウトできるようにするには、**[!UICONTROL Denylist]** しいランディングページを作成して公開する必要があります。 ランディングページの作成について詳しくは、[&#x200B; このページ &#x200B;](../../channels/using/getting-started-with-landing-pages.md) を参照してください。
 
 ユーザーがランディングページのリンクをクリックすると、プロファイルの「**[!UICONTROL No longer contact (by any channel)]**」オプションが自動的に選択されます。
 

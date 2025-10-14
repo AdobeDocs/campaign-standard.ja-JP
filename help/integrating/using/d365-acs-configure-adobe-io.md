@@ -93,9 +93,9 @@ Adobe I/Oを使用すると、Adobe Campaign Standardや他のAdobe製品への 
 
 **関連トピック**
 
-* [Microsoft Dynamics 365 統合用のAdobe Developerの設定 ](../../integrating/using/d365-acs-configure-adobe-io.md) は、統合を設定する次の手順です
-* [ 統合セルフサービスアプリケーションの概要 ](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md) には、統合を実行する手順の完全なリストが含まれています。
-* [Adobe Developer - サービス アカウントの統合 ](https://developer.adobe.com/developer-console/docs/guides/#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)
+* [Microsoft Dynamics 365 統合用のAdobe Developerの設定 &#x200B;](../../integrating/using/d365-acs-configure-adobe-io.md) は、統合を設定する次の手順です
+* [&#x200B; 統合セルフサービスアプリケーションの概要 &#x200B;](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md) には、統合を実行する手順の完全なリストが含まれています。
+* [Adobe Developer - サービス アカウントの統合 &#x200B;](https://developer.adobe.com/developer-console/docs/guides/#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)
 * [Campaign Standard - API アクセスの設定](../../api/using/setting-up-api-access.md)
 * [Campaign Standard- Dynamics 365 統合](../../integrating/using/d365-acs-configure-d365.md)
-* [JWT から OAuth サーバー間への資格情報の移行 ](../../integrating/using/d365-acs-self-service-app-migrate-credentials.md) には、JWT から OAuth サーバー間に資格情報を移行する手順が含まれています。
+* [JWT から OAuth サーバー間への資格情報の移行 &#x200B;](../../integrating/using/d365-acs-self-service-app-migrate-credentials.md) には、JWT から OAuth サーバー間に資格情報を移行する手順が含まれています。

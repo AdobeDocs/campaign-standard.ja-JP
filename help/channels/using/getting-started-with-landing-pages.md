@@ -23,7 +23,7 @@ ht-degree: 93%
 
 このページでは、各手順の情報と、詳細情報を参照できる関連ドキュメントを紹介します。
 
-![](assets/do-not-localize/how-to-video.png) [ ビデオでランディングページの作成方法を確認する ](#video)
+![](assets/do-not-localize/how-to-video.png) [&#x200B; ビデオでランディングページの作成方法を確認する &#x200B;](#video)
 
 **関連トピック：**
 
@@ -138,4 +138,4 @@ ht-degree: 93%
 
 >[!VIDEO](https://video.tv.adobe.com/v/36316?quality=12&captions=jpn)
 
-その他のCampaign Standardチュートリアルビデオについては、[ こちら ](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja) を参照してください。
+その他のCampaign Standardチュートリアルビデオについては、[&#x200B; こちら &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja) を参照してください。

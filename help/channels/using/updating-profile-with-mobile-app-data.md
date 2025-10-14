@@ -22,7 +22,7 @@ ht-degree: 2%
 
 このページでは、モバイルアプリケーションがスケジュールに従って収集 PII データを送信した後にプロファイルデータを作成/更新するワークフローを開発する手順について説明します。
 
-* **PII** は、「個人を特定できる情報」を表します。 Analytics for Mobile [ 目標地点 ](../../integrating/using/about-campaign-points-of-interest-data-integration.md) など、Campaign データベースからプロファイルテーブルに表示されない情報を含む、任意のデータを指定できます。 PII は、モバイルアプリ開発者が（通常はマーケターと）定義します。
+* **PII** は、「個人を特定できる情報」を表します。 Analytics for Mobile [&#x200B; 目標地点 &#x200B;](../../integrating/using/about-campaign-points-of-interest-data-integration.md) など、Campaign データベースからプロファイルテーブルに表示されない情報を含む、任意のデータを指定できます。 PII は、モバイルアプリ開発者が（通常はマーケターと）定義します。
 * **PII を収集** は、モバイルアプリからAdobe Campaign Standardの Rest API に対する HTTPPOST操作です。
 
 このユースケースの目的は、モバイルアプリケーションから返される PII データにプロファイル関連のデータが含まれている場合、Campaign Standardプロファイルを作成または更新することです。
@@ -32,8 +32,8 @@ ht-degree: 2%
 モバイルアプリ購読データに基づいてプロファイルを作成または更新する前に、Campaign Standardでプッシュ通知を有効にするために従うべき設定手順がいくつかあります。
 
 1. [モバイルアプリケーションの作成](../../administration/using/configuring-a-mobile-application.md)
-1. [Adobe Mobile SDKをモバイルアプリケーションと統合します ](../../administration/using/supported-mobile-use-cases.md)。
-1. [ プッシュ通知を送信するようにAdobe Campaignを設定する ](../../administration/using/configuring-a-mobile-application.md)。
+1. [Adobe Mobile SDKをモバイルアプリケーションと統合します &#x200B;](../../administration/using/supported-mobile-use-cases.md)。
+1. [&#x200B; プッシュ通知を送信するようにAdobe Campaignを設定する &#x200B;](../../administration/using/configuring-a-mobile-application.md)。
 
 ## 手順 1 - プッシュ通知/購読用のプロファイルリソースを拡張
 
@@ -53,8 +53,8 @@ PII データを使用してプロファイルリソースを作成または更�
 
 **関連トピック：**
 
-* [ アプリケーションリソースの購読の拡張 ](../../developing/using/extending-the-subscriptions-to-an-application-resource.md)。
-* [ 既存のリソースの作成または拡張 ](../../developing/using/key-steps-to-add-a-resource.md)。
+* [&#x200B; アプリケーションリソースの購読の拡張 &#x200B;](../../developing/using/extending-the-subscriptions-to-an-application-resource.md)。
+* [&#x200B; 既存のリソースの作成または拡張 &#x200B;](../../developing/using/key-steps-to-add-a-resource.md)。
 
 ## 手順 2 - ワークフローの作成
 

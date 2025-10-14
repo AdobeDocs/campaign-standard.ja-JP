@@ -26,9 +26,9 @@ Adobe Campaignでは、SMS （ショートメッセージサービス）メッ�
 
 SMS メッセージの場合、テキスト形式のメッセージのみを作成、変更およびパーソナライズできます。SMS メッセージは、送信前にプレビューすることもできます。
 
-SMS メッセージの長さは、GSM エンコーディングの場合は 160 文字、Unicode の場合は 70 文字に制限されます。 ただし、特定の特殊文字がメッセージの長さに影響を与える可能性があります。 詳しくは、「[SMS エンコーディング ](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration)」の節を参照してください。
+SMS メッセージの長さは、GSM エンコーディングの場合は 160 文字、Unicode の場合は 70 文字に制限されます。 ただし、特定の特殊文字がメッセージの長さに影響を与える可能性があります。 詳しくは、「[SMS エンコーディング &#x200B;](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration)」の節を参照してください。
 
-SMS メッセージは、**[!UICONTROL Marketing activities]** メニュー、キャンペーンまたはワークフローで作成できます。[SMS メッセージの作成 ](../../channels/using/creating-an-sms-message.md) を参照してください。
+SMS メッセージは、**[!UICONTROL Marketing activities]** メニュー、キャンペーンまたはワークフローで作成できます。[SMS メッセージの作成 &#x200B;](../../channels/using/creating-an-sms-message.md) を参照してください。
 
 携帯電話に SMS メッセージを配信するには、次が必要です。
 

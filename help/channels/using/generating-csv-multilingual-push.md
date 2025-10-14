@@ -38,7 +38,7 @@ ht-degree: 1%
 1. language
 1. silentPush
 
-**[!UICONTROL Manage Content Variants]** ウィンドウで **[!UICONTROL Download a sample file]** をクリックして、CSV サンプルを確認します。 詳しくは、この [ 節 ](../../channels/using/creating-a-multilingual-push-notification.md) を参照してください。
+**[!UICONTROL Manage Content Variants]** ウィンドウで **[!UICONTROL Download a sample file]** をクリックして、CSV サンプルを確認します。 詳しくは、この [&#x200B; 節 &#x200B;](../../channels/using/creating-a-multilingual-push-notification.md) を参照してください。
 
 * **title、messageBody、sound、badge、deeplinkURI、category、iosMediaAttachmentURL、androidMediaAttachmentURL**：通常のプッシュペイロードコンテンツ。 この情報は、プッシュ配信を作成する場合と同様の方法で提供する必要があります。
 * **カスタムフィールド**：カスタムフィールドには JSON 形式を使用します（例：`{"key1":"value1","key2":"value2"}`）。 カスタムフィールドの例については、上記のサンプルファイルを参照してください。

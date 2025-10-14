@@ -45,7 +45,7 @@ ht-degree: 6%
 
   このフィールドはパーソナライズできます。 これを行うには、送信者名の下にあるアイコンをクリックして、パーソナライゼーションフィールド、コンテンツブロック、動的コンテンツを追加します。 詳しくは、[Personalization](../../designing/using/personalization.md) を参照してください。
 
-* このセクションから **[!UICONTROL From: email address]** フィールドを編集することはできません。 ダッシュボードからメールのプロパティを編集することで変更できます。 詳しくは、[ メールの詳細設定パラメーターのリスト ](../../administration/using/configuring-email-channel.md#advanced-parameters) を参照してください。
+* このセクションから **[!UICONTROL From: email address]** フィールドを編集することはできません。 ダッシュボードからメールのプロパティを編集することで変更できます。 詳しくは、[&#x200B; メールの詳細設定パラメーターのリスト &#x200B;](../../administration/using/configuring-email-channel.md#advanced-parameters) を参照してください。
 
 >[!NOTE]
 >

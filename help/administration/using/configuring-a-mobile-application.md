@@ -19,15 +19,15 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
-> Adobe Experience Platform Launchは、Adobe Experience Platformのデータ収集テクノロジースイートとしてリブランドされました。 その結果、製品ドキュメント全体でいくつかの用語が変更されました。 用語の変更点の一覧については、[ 次のドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=ja){target="_blank"} を参照してください。
+> Adobe Experience Platform Launchは、Adobe Experience Platformのデータ収集テクノロジースイートとしてリブランドされました。 その結果、製品ドキュメント全体でいくつかの用語が変更されました。 用語の変更点の一覧については、[&#x200B; 次のドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=ja){target="_blank"} を参照してください。
 
 プッシュ通知とアプリ内実装は、エキスパートユーザーが実行する必要があります。 サポートが必要な場合は、Adobeアカウント担当者またはプロフェッショナルサービスパートナーにお問い合わせください。
 
 Experience PlatformSDK アプリケーションでプッシュ通知およびアプリ内メッセージを送信するには、データ収集 UI でモバイルアプリケーションを設定し、Adobe Campaignで設定する必要があります。
 
-モバイルアプリケーションを設定すると、収集した PII データを取得して、データベースからプロファイルを作成または更新できます。 詳しくは、この節 [ モバイルアプリケーションデータに基づくプロファイル情報の作成と更新 ](../../channels/using/updating-profile-with-mobile-app-data.md) を参照してください。
+モバイルアプリケーションを設定すると、収集した PII データを取得して、データベースからプロファイルを作成または更新できます。 詳しくは、この節 [&#x200B; モバイルアプリケーションデータに基づくプロファイル情報の作成と更新 &#x200B;](../../channels/using/updating-profile-with-mobile-app-data.md) を参照してください。
 
-Adobe Experience Platform SDK を使用してAdobe Campaign Standardでサポートされている様々なモバイルユースケースについて詳しくは、この [ ページ ](../../administration/using/supported-mobile-use-cases.md) を参照してください。
+Adobe Experience Platform SDK を使用してAdobe Campaign Standardでサポートされている様々なモバイルユースケースについて詳しくは、この [&#x200B; ページ &#x200B;](../../administration/using/supported-mobile-use-cases.md) を参照してください。
 
 設定を完了するには、次の手順を実行します。
 
@@ -43,7 +43,7 @@ Adobe Experience Platform SDK を使用してAdobe Campaign Standardでサポー
    * Adobe Campaign Standardで、IMS ユーザーが標準のユーザー/管理者製品プロファイルに属していることを確認します。 この手順を実行すると、ユーザーはAdobe Campaign Standardにログインし、Experience Platform SDK モバイルアプリページに移動して、データ収集 UI で作成したモバイルアプリプロパティを表示できます。
 
    * データ収集 UI で、IMS ユーザーがExperience Platform Launchの製品プロファイルに属していることを確認します。
-この手順を使用すると、ユーザーはデータ収集 UI にログインして、プロパティを作成および表示できます。 データ収集 UI の製品プロファイルについて詳しくは、[ 製品プロファイルの作成 ](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/manage-permissions.html?lang=ja#gain-admin-rights-for-a-tags-product-profile) を参照してください。 製品プロファイルでは、会社やプロパティに対する権限は設定されていないはずですが、ユーザーは引き続きログインできます。
+この手順を使用すると、ユーザーはデータ収集 UI にログインして、プロパティを作成および表示できます。 データ収集 UI の製品プロファイルについて詳しくは、[&#x200B; 製品プロファイルの作成 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/manage-permissions.html?lang=ja#gain-admin-rights-for-a-tags-product-profile) を参照してください。 製品プロファイルでは、会社やプロパティに対する権限は設定されていないはずですが、ユーザーは引き続きログインできます。
 
    拡張機能のインストール、アプリの公開、環境の設定などの追加タスクを実行するには、製品プロファイルで権限を設定する必要があります。
 
@@ -53,13 +53,13 @@ Adobe Experience Platform SDK を使用してAdobe Campaign Standardでサポー
 
 1. Campaign Standardでの場所のユースケースをサポートするには、データ収集 UI で **[!UICONTROL Places]** 拡張機能をインストールします。 この[ページ](https://developer.adobe.com/client-sdks/solution/places)を参照してください。
 
-1. Adobe Campaign Standardで、データ収集 UI で作成したモバイルプロパティを設定します。 [Adobe CampaignでのAdobe Experience Platform Launch アプリケーションの設定 ](../../administration/using/configuring-a-mobile-application.md#set-up-campaign) を参照してください。
+1. Adobe Campaign Standardで、データ収集 UI で作成したモバイルプロパティを設定します。 [Adobe CampaignでのAdobe Experience Platform Launch アプリケーションの設定 &#x200B;](../../administration/using/configuring-a-mobile-application.md#set-up-campaign) を参照してください。
 
 1. モバイルアプリケーション設定にチャネル固有の設定を追加します。
 詳しくは、[Adobe Campaign のチャネル固有のアプリケーション設定](../../administration/using/configuring-a-mobile-application.md#channel-specific-config)を参照してください。
 
 1. 必要に応じて、タグプロパティを削除できます。
-詳しくは、[ アプリケーションの削除 ](../../administration/using/configuring-a-mobile-application.md#delete-app) を参照してください。
+詳しくは、[&#x200B; アプリケーションの削除 &#x200B;](../../administration/using/configuring-a-mobile-application.md#delete-app) を参照してください。
 
 ## Launch テクニカルワークフローからのモバイルアプリ AEPSDK の同期 {#aepsdk-workflow}
 
@@ -86,7 +86,7 @@ Campaign でタグモバイルプロパティを使用するには、Adobe Campa
 
 テクニカルワークフローが実行されるのを待ち、タグモバイルプロパティをAdobe Campaignに同期する必要があります。 その後、Adobe Campaignで設定できます。
 
-Launch テクニカルワークフローからのモバイルアプリ AEPSDK の同期について詳しくは、この [ 節 ](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow) を参照してください。
+Launch テクニカルワークフローからのモバイルアプリ AEPSDK の同期について詳しくは、この [&#x200B; 節 &#x200B;](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow) を参照してください。
 
 >[!NOTE]
 >
@@ -123,7 +123,7 @@ Launch テクニカルワークフローからのモバイルアプリ AEPSDK �
 
 1. この設定を有効にするには、変更をデータ収集 UI で公開する必要があります。
 
-   詳しくは、[Publishの設定を参照してください ](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/#publish-the-configuration)
+   詳しくは、[Publishの設定を参照してください &#x200B;](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/#publish-the-configuration)
 
 ## Adobe Campaignでのチャネル固有のアプリケーション設定 {#channel-specific-config}
 
@@ -145,7 +145,7 @@ Launch テクニカルワークフローからのモバイルアプリ AEPSDK �
 
 1. 「**[!UICONTROL Add]**」をクリックします。
 
-   アプリ内メッセージを作成する際に、「トリガー」タブでイベントを使用できるようになりました。 詳しくは、[ アプリ内メッセージの準備と送信 ](../../channels/using/preparing-and-sending-an-in-app-message.md) を参照してください。
+   アプリ内メッセージを作成する際に、「トリガー」タブでイベントを使用できるようになりました。 詳しくは、[&#x200B; アプリ内メッセージの準備と送信 &#x200B;](../../channels/using/preparing-and-sending-an-in-app-message.md) を参照してください。
 
 1. モバイルアプリケーションダッシュボードの「**[!UICONTROL Device-specific settings]**」セクションで、デバイスごとにアプリケーションの詳細を指定します。
 
@@ -153,10 +153,10 @@ Launch テクニカルワークフローからのモバイルアプリ AEPSDK �
 
      次のアプリケーション詳細を入力します。
 
-      * **アプリ ID （iOS バンドル ID）**：バンドル ID について詳しくは、[Apple ドキュメント ](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids){target="_blank"} を参照してください。
-      * **iOS証明書（P8） ファイル**: .p8 認証キーをドラッグ&amp;ドロップします。 .p8 認証ファイルの生成方法については、[Apple開発者アカウント ](https://developer.apple.com/account/ios/authkey/create){target="_blank"} を参照してください。
-      * **キー ID**：キー ID について詳しくは、[Apple ドキュメント ](https://developer.apple.com/help/account/manage-keys/get-a-key-identifier/){target="_blank"} を参照してください。
-      * **iOS Team ID**:iOS Team ID について詳しくは、[Apple ドキュメント ](https://developer.apple.com/help/account/manage-your-team/locate-your-team-id/){target="_blank"} を参照してください。
+      * **アプリ ID （iOS バンドル ID）**：バンドル ID について詳しくは、[Apple ドキュメント &#x200B;](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids){target="_blank"} を参照してください。
+      * **iOS証明書（P8） ファイル**: .p8 認証キーをドラッグ&amp;ドロップします。 .p8 認証ファイルの生成方法については、[Apple開発者アカウント &#x200B;](https://developer.apple.com/account/ios/authkey/create){target="_blank"} を参照してください。
+      * **キー ID**：キー ID について詳しくは、[Apple ドキュメント &#x200B;](https://developer.apple.com/help/account/manage-keys/get-a-key-identifier/){target="_blank"} を参照してください。
+      * **iOS Team ID**:iOS Team ID について詳しくは、[Apple ドキュメント &#x200B;](https://developer.apple.com/help/account/manage-your-team/locate-your-team-id/){target="_blank"} を参照してください。
 
         ![](assets/mobile_app_ios_config.png)
    +++
@@ -165,8 +165,8 @@ Launch テクニカルワークフローからのモバイルアプリ AEPSDK �
 
      次のアプリケーション詳細を入力します。
 
-      * **アプリ ID （Android パッケージ名）**：パッケージ名について詳しくは、[Android ドキュメント ](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores){target="_blank"} を参照してください。
-      * **Android キー（Json） ファイル**: .json 秘密鍵ファイルをドラッグ&amp;ドロップします。 .json 秘密鍵ファイルの生成方法については、[Firebase 開発者向けドキュメント ](https://firebase.google.com/docs/admin/setup#initialize_the_sdk_in_non-google_environments){target="_blank"} を参照してください。
+      * **アプリ ID （Android パッケージ名）**：パッケージ名について詳しくは、[Android ドキュメント &#x200B;](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores){target="_blank"} を参照してください。
+      * **Android キー（Json） ファイル**: .json 秘密鍵ファイルをドラッグ&amp;ドロップします。 .json 秘密鍵ファイルの生成方法については、[Firebase 開発者向けドキュメント &#x200B;](https://firebase.google.com/docs/admin/setup#initialize_the_sdk_in_non-google_environments){target="_blank"} を参照してください。
 
         ![](assets/mobile_app_android_config.png)
    +++
@@ -181,7 +181,7 @@ Launch テクニカルワークフローからのモバイルアプリ AEPSDK �
 >
 >アプリケーションを削除すると、元に戻すことはできません。
 
-アプリケーションを削除するには、[ モバイルプロパティの削除 ](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/#deleting-mobile-properties-in-the-data-collection-ui) の手順を実行します。
+アプリケーションを削除するには、[&#x200B; モバイルプロパティの削除 &#x200B;](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/#deleting-mobile-properties-in-the-data-collection-ui) の手順を実行します。
 
 アプリケーションを削除した後、Adobe Campaignで、アプリケーションのプロパティのステータスが Launch で正しく「削除済み」に更新されているかどうかを確認します。
 

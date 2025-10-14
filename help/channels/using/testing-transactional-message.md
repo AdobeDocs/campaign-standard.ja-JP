@@ -24,7 +24,7 @@ ht-degree: 31%
 
 イベントにリンクされるテストプロファイルを定義します。これにより、メッセージをプレビューし、関連する配達確認を送信できます。
 
-1. [ トランザクションメッセージダッシュボード ](../../channels/using/editing-transactional-message.md#accessing-transactional-messages) で、「**[!UICONTROL Create test profile]**」ボタンをクリックします。
+1. [&#x200B; トランザクションメッセージダッシュボード &#x200B;](../../channels/using/editing-transactional-message.md#accessing-transactional-messages) で、「**[!UICONTROL Create test profile]**」ボタンをクリックします。
 
    ![](assets/message-center_test-profile.png)
 
@@ -34,7 +34,7 @@ ht-degree: 31%
 
    >[!NOTE]
    >
-   >メッセージをエンリッチメントした場合は、**[!UICONTROL Profile]** など、別のテーブルに関する情報も入力できます。 [ イベントの機能強化 ](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) および [ トランザクションメッセージのパーソナライズ ](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message) を参照してください。
+   >メッセージをエンリッチメントした場合は、**[!UICONTROL Profile]** など、別のテーブルに関する情報も入力できます。 [&#x200B; イベントの機能強化 &#x200B;](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) および [&#x200B; トランザクションメッセージのパーソナライズ &#x200B;](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message) を参照してください。
 
 1. 作成したテストプロファイルは、トランザクションメッセージで事前に指定されます。 配達確認のターゲットを確認するには、メッセージの「**[!UICONTROL Test profiles]**」ブロックをクリックします。
 
@@ -49,7 +49,7 @@ ht-degree: 31%
    ![](assets/message-center_3.png)
 
 1. 変更を保存します。
-1. 作成した [ メッセージにアクセス ](../../channels/using/editing-transactional-message.md#accessing-transactional-messages) し、更新されたテストプロファイルを選択します。
+1. 作成した [&#x200B; メッセージにアクセス &#x200B;](../../channels/using/editing-transactional-message.md#accessing-transactional-messages) し、更新されたテストプロファイルを選択します。
 
 **関連トピック：**
 
@@ -62,4 +62,4 @@ ht-degree: 31%
 
 ![](assets/message-center_10.png)
 
-配達確認の送信手順について詳しくは、[ 配達確認の送信 ](../../sending/using/sending-proofs.md) の節を参照してください。
+配達確認の送信手順について詳しくは、[&#x200B; 配達確認の送信 &#x200B;](../../sending/using/sending-proofs.md) の節を参照してください。

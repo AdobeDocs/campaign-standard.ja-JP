@@ -20,7 +20,7 @@ ht-degree: 4%
 
 ## 概要 {#overview}
 
-[ テストプロファイル ](../../audiences/using/managing-test-profiles.md) に加えて、ターゲットプロファイルの 1 つの位置に自分を配置することで、メールメッセージをテストできます。 これにより、プロファイルが受け取るメッセージの正確な表現（カスタムフィールド、動的でパーソナライズされた情報、ワークフローからの追加データなど）を取得できます。
+[&#x200B; テストプロファイル &#x200B;](../../audiences/using/managing-test-profiles.md) に加えて、ターゲットプロファイルの 1 つの位置に自分を配置することで、メールメッセージをテストできます。 これにより、プロファイルが受け取るメッセージの正確な表現（カスタムフィールド、動的でパーソナライズされた情報、ワークフローからの追加データなど）を取得できます。
 
 >[!IMPORTANT]
 >
@@ -43,7 +43,7 @@ ht-degree: 4%
 
 ## プロファイルと代用アドレスの選択 {#selecting-profiles}
 
-ターゲットプロファイルをテストに使用するには、まずプロファイルを選択してから、配達確認を受け取る代用アドレスを定義する必要があります。 これを行うには、[ ターゲットプロファイルから特定のプロファイルを選択 ](#selecting-individual-profiles) するか、[ 既存のオーディエンスからプロファイルをインポート ](#importing-from-audience) することができます。
+ターゲットプロファイルをテストに使用するには、まずプロファイルを選択してから、配達確認を受け取る代用アドレスを定義する必要があります。 これを行うには、[&#x200B; ターゲットプロファイルから特定のプロファイルを選択 &#x200B;](#selecting-individual-profiles) するか、[&#x200B; 既存のオーディエンスからプロファイルをインポート &#x200B;](#importing-from-audience) することができます。
 
 >[!NOTE]
 >
@@ -89,7 +89,7 @@ ht-degree: 4%
 
 1. すべてのプロファイルと代用アドレスを定義したら、配達確認を送信してメッセージをテストできます。 それには、「**[!UICONTROL Test]**」ボタンをクリックし、実行するテストのタイプを選択します。
 
-   テストプロファイルがメッセージターゲットに追加されていない場合、「**[!UICONTROL Email rendering]**」オプションと「**[!UICONTROL Proof + Email rendering]**」オプションは使用できません。  配達確認の送信について詳しくは、[ この節 ](../../sending/using/sending-proofs.md) を参照してください。
+   テストプロファイルがメッセージターゲットに追加されていない場合、「**[!UICONTROL Email rendering]**」オプションと「**[!UICONTROL Proof + Email rendering]**」オプションは使用できません。  配達確認の送信について詳しくは、[&#x200B; この節 &#x200B;](../../sending/using/sending-proofs.md) を参照してください。
 
    ![](assets/substitution_send_test.png)
 
@@ -101,7 +101,7 @@ ht-degree: 4%
 
 Campaign Standardでは、テストに使用できるプロファイルのオーディエンスをインポートできます。 これにより、例えば、異なるプロファイルをターゲットにした一連のメッセージ全体を一意のメールアドレスに送信できます。
 
-さらに、オーディエンスが既にアドレス列とプレフィックス列で設定されている場合は、「**[!UICONTROL Profile substitutions]**」タブでこれらの情報を読み込むことができます。 代用アドレスを使用したオーディエンスのインポート例について詳しくは、[ この節 ](#use-case) を参照してください。
+さらに、オーディエンスが既にアドレス列とプレフィックス列で設定されている場合は、「**[!UICONTROL Profile substitutions]**」タブでこれらの情報を読み込むことができます。 代用アドレスを使用したオーディエンスのインポート例について詳しくは、[&#x200B; この節 &#x200B;](#use-case) を参照してください。
 
 >[!NOTE]
 >
@@ -143,7 +143,7 @@ Campaign Standardでは、テストに使用できるプロファイルのオー
 >
 >プレビューは、メールDesignerでのみ使用できます。
 
-ターゲットプロファイルを使用してメッセージをプレビューできるようにするには、これらのプロファイルを **[!UICONTROL Profile substitution]** リストに追加したことを確認します（[ プロファイルと代用アドレスの定義 ](#selecting-profiles) を参照）。
+ターゲットプロファイルを使用してメッセージをプレビューできるようにするには、これらのプロファイルを **[!UICONTROL Profile substitution]** リストに追加したことを確認します（[&#x200B; プロファイルと代用アドレスの定義 &#x200B;](#selecting-profiles) を参照）。
 
 メッセージでパーソナライゼーションフィールドを使用する場合は、メッセージの準備を開始する **前** に追加する必要があります。 そうでない場合、これらはプレビューでは考慮されません。 そのため、パーソナライゼーションフィールドに変更が加えられた場合は、メッセージの準備を再度開始してください。
 
@@ -189,9 +189,9 @@ Campaign Standardでは、テストに使用できるプロファイルのオー
 
 1. ファイルからオーディエンスを作成するワークフローを作成します。 それには、以下のアクティビティを追加して設定します。
 
-   * **[!UICONTROL Load file]** アクティビティ：CSV ファイルをインポートします（詳しくは、[ この節 ](../../automating/using/load-file.md) を参照してください）。
-   * **[!UICONTROL Reconciliation]** アクティビティ：ファイルの情報をデータベースの情報にリンクします。 この例では、プロファイルのメールアドレスを紐付けフィールドとして使用します（このアクティビティについて詳しくは、[ この節 ](../../automating/using/reconciliation.md)）を参照してください）。
-   * **[!UICONTROL Save audience]** アクティビティ：読み込んだファイルに基づいてオーディエンスを作成します（このアクティビティについて詳しくは、[ この節 ](../../automating/using/save-audience.md) を参照してください）。
+   * **[!UICONTROL Load file]** アクティビティ：CSV ファイルをインポートします（詳しくは、[&#x200B; この節 &#x200B;](../../automating/using/load-file.md) を参照してください）。
+   * **[!UICONTROL Reconciliation]** アクティビティ：ファイルの情報をデータベースの情報にリンクします。 この例では、プロファイルのメールアドレスを紐付けフィールドとして使用します（このアクティビティについて詳しくは、[&#x200B; この節 &#x200B;](../../automating/using/reconciliation.md)）を参照してください）。
+   * **[!UICONTROL Save audience]** アクティビティ：読み込んだファイルに基づいてオーディエンスを作成します（このアクティビティについて詳しくは、[&#x200B; この節 &#x200B;](../../automating/using/save-audience.md) を参照してください）。
 
    ![](assets/substitution_uc2.png)
 
@@ -203,7 +203,7 @@ Campaign Standardでは、テストに使用できるプロファイルのオー
 
 ### 手順 2：プロファイルを対象とするワークフローを作成してニュースレターを送信する
 
-1. **[!UICONTROL Query]** アクティビティと **[!UICONTROL Email delivery]** アクティビティを追加し、必要に応じて設定します（「[ クエリ ](../../automating/using/query.md)」および「[ メール配信 ](../../automating/using/email-delivery.md)」の節を参照）。
+1. **[!UICONTROL Query]** アクティビティと **[!UICONTROL Email delivery]** アクティビティを追加し、必要に応じて設定します（「[&#x200B; クエリ &#x200B;](../../automating/using/query.md)」および「[&#x200B; メール配信 &#x200B;](../../automating/using/email-delivery.md)」の節を参照）。
 
    ![](assets/substitution_uc4.png)
 
@@ -273,4 +273,4 @@ Campaign Standardでは、テストに使用できるプロファイルのオー
 
 >[!VIDEO](https://video.tv.adobe.com/v/36510?quality=12&captions=jpn)
 
-その他のCampaign Standardチュートリアルビデオについては、[ こちら ](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja) を参照してください。
+その他のCampaign Standardチュートリアルビデオについては、[&#x200B; こちら &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja) を参照してください。

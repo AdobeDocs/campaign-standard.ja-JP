@@ -45,4 +45,4 @@ POST /customResources/<customResourceName>
 
 >[!NOTE]
 >プライバシー API エンドポイントとワークフロー（/privacy/privacyTool）が、プロファイルエンティティにリンクされていないカスタムリソースを管理していません。
->これらのカスタムリソースの PII を管理およびクリーンアップする責任があります。 プライバシーツールについて詳しくは、[ ここをクリック ](../../api/using/creating-a-privacy-request.md) してください。
+>これらのカスタムリソースの PII を管理およびクリーンアップする責任があります。 プライバシーツールについて詳しくは、[&#x200B; ここをクリック &#x200B;](../../api/using/creating-a-privacy-request.md) してください。

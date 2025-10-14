@@ -50,4 +50,4 @@ ht-degree: 11%
 
 1. 「**[!UICONTROL Create]**」をクリックしてリソースを作成します。これにより、新しいリソースの場合は **[!UICONTROL Draft]** ステータスが取得され、拡張機能の場合は **[!UICONTROL Editing]** ステータスが取得されます。
 
-新しいリソースが作成され、設定できるようになります。 リソースの設定について詳しくは、[ リソースのデータ構造の設定 ](../../developing/using/configuring-the-resource-s-data-structure.md) を参照してください。
+新しいリソースが作成され、設定できるようになります。 リソースの設定について詳しくは、[&#x200B; リソースのデータ構造の設定 &#x200B;](../../developing/using/configuring-the-resource-s-data-structure.md) を参照してください。

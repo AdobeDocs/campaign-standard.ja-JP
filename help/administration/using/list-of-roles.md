@@ -27,7 +27,7 @@ Adobe Campaign には、ユーザーやユーザーグループに割り当て�
 
   >[!NOTE]
   >
-  >Experience Cloudトリガーを使用する場合は、「Experience Cloudトリガー」メニューにアクセスできる **[!UICONTROL Administration]** 権限が必要です。 Experience Cloudトリガーについて詳しくは、この [ ページ ](../../integrating/using/about-adobe-experience-cloud-triggers.md) を参照してください。
+  >Experience Cloudトリガーを使用する場合は、「Experience Cloudトリガー」メニューにアクセスできる **[!UICONTROL Administration]** 権限が必要です。 Experience Cloudトリガーについて詳しくは、この [&#x200B; ページ &#x200B;](../../integrating/using/about-adobe-experience-cloud-triggers.md) を参照してください。
 
 * **[!UICONTROL Datamodel]**：パブリケーションの実行とカスタムリソースの作成をおこなう権限
 * **[!UICONTROL Generic import]**：データに対する一般的なインポートを実行する権限。これを機能させるには、**[!UICONTROL Generic import]** の役割を **[!UICONTROL Workflow]** の役割にリンクする必要があります。

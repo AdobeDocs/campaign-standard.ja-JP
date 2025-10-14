@@ -18,7 +18,7 @@ ht-degree: 0%
 
 # データの同期
 
-Microsoft Dynamics 365 のテーブルを Campaign と Campaign のマーケティング指標に同期して、Microsoft Dynamics 365 に同期させることができます。 同期は、**[!UICONTROL Microsoft Dynamics 365 to Campaign]**、**[!UICONTROL Campaign to Microsoft Dynamics 365]**、**[!UICONTROL Opt-In/Out]** の 3 つの専用のテクニカルワークフローを通じて実行されます。 詳しくは、この節を参照してください [ 詳細情報 ](../../integrating/using/d365-acs-self-service-app-workflows.md)。
+Microsoft Dynamics 365 のテーブルを Campaign と Campaign のマーケティング指標に同期して、Microsoft Dynamics 365 に同期させることができます。 同期は、**[!UICONTROL Microsoft Dynamics 365 to Campaign]**、**[!UICONTROL Campaign to Microsoft Dynamics 365]**、**[!UICONTROL Opt-In/Out]** の 3 つの専用のテクニカルワークフローを通じて実行されます。 詳しくは、この節を参照してください [&#x200B; 詳細情報 &#x200B;](../../integrating/using/d365-acs-self-service-app-workflows.md)。
 
 >[!IMPORTANT]
 >変更を反映させるには、**[!UICONTROL Microsoft Dynamics 365 to Campaign]** ワークフローを停止または開始する必要があります。 [詳細情報](../../integrating/using/d365-acs-self-service-app-workflows.md)
@@ -95,10 +95,10 @@ Microsoft Dynamics 365 のテーブルを Campaign と Campaign のマーケテ�
 次の設定を定義できます。
 
 * **[!UICONTROL Tables]**：このセクションには、Microsoft Dynamics 365 テーブルの名前と、そのテーブルのマッピング先となる Campaign テーブルが一覧表示されます。
-* **[!UICONTROL Field Mappings]**：詳しくは、[ この節 ](#field-mappings) を参照してください
-* **[!UICONTROL Field Replacements]**：詳しくは、[ この節 ](#field-replacements) を参照してください
-* **[!UICONTROL Filters]**：詳しくは、[ この節 ](#filters) を参照してください
-* **[!UICONTROL Advanced Settings]**：詳しくは、[ この節 ](#advanced-settings) を参照してください
+* **[!UICONTROL Field Mappings]**：詳しくは、[&#x200B; この節 &#x200B;](#field-mappings) を参照してください
+* **[!UICONTROL Field Replacements]**：詳しくは、[&#x200B; この節 &#x200B;](#field-replacements) を参照してください
+* **[!UICONTROL Filters]**：詳しくは、[&#x200B; この節 &#x200B;](#filters) を参照してください
+* **[!UICONTROL Advanced Settings]**：詳しくは、[&#x200B; この節 &#x200B;](#advanced-settings) を参照してください
 
 ### フィールドマッピング {#field-mappings}
 
@@ -110,7 +110,7 @@ Microsoft Dynamics 365 のテーブルを Campaign と Campaign のマーケテ�
 
 Microsoft Dynamics 365 のプライマリキーは、アプリケーションで検出されるので、読み取り専用です。
 
-Campaign の場合は、一意のキーにするフィールドを選択する必要があります。 [CRM ID カスタムリソース ](../../developing/using/uc-calling-resource-id-key.md) として設定する必要があり、重複がないようにする必要があります。
+Campaign の場合は、一意のキーにするフィールドを選択する必要があります。 [CRM ID カスタムリソース &#x200B;](../../developing/using/uc-calling-resource-id-key.md) として設定する必要があり、重複がないようにする必要があります。
 
 >[!NOTE]
 >
@@ -198,13 +198,13 @@ Microsoft Dynamics 365 および Campaign のフィールドをリストから�
 
 **はい** を選択して、そのタイプのイベントをMicrosoft Dynamics 365 にフローすることを確認します。
 
-これらのメールイベントフローについて詳しくは、[ ここ ](../../integrating/using/d365-acs-self-service-app-workflows.md) をクリックしてください。
+これらのメールイベントフローについて詳しくは、[&#x200B; ここ &#x200B;](../../integrating/using/d365-acs-self-service-app-workflows.md) をクリックしてください。
 
 ## オプトイン/オプトアウトワークフロー {#opt-in-out-wf}
 
 **オプトイン/オプトアウト** ワークフローを使用すると、Microsoft Dynamics 365 とAdobe Campaignの間のオプトイン/オプトアウト情報のフローを特定できます。 これは、データがMicrosoft Dynamics 365 エンティティ「連絡先」およびAdobe Campaign リソース「プロファイル」に関連付けられていることを前提としています。
 
-オプトアウト管理の詳細については、[ この節 ](../../integrating/using/d365-acs-notices-and-recommendations.md#opt-out) を参照してください。
+オプトアウト管理の詳細については、[&#x200B; この節 &#x200B;](../../integrating/using/d365-acs-notices-and-recommendations.md#opt-out) を参照してください。
 
 選択内容を保存するには、「保存」をクリックする必要があります。 また、**Microsoft Dynamics 365 に対するキャンペーン** ワークフローを停止し、「再生」をクリックして統合の変更内容を組み込む必要があります。
 
