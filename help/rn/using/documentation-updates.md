@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: a2a524eb3d90bbe41064bdcb078f69d483f90dac
+source-git-commit: c14a52f5425972899f51af7ee6ea2d5796c46765
 workflow-type: tm+mt
-source-wordcount: '7258'
-ht-degree: 100%
+source-wordcount: '7259'
+ht-degree: 99%
 
 ---
 
@@ -70,7 +70,7 @@ SMTP テストモードの使用方法が詳しく説明されています。[�
 
 ## 2022年3月 {#doc-updates-march-2022}
 
-プロファイルの置き換えを使用して配達確認を送信すると、選択したプロファイルのログにレコードが追加されることを明記したメモを追加しました。[詳細情報](../../sending/using/testing-messages-using-target.md)
+プロファイルの置き換えを使用して配達確認を送信すると、選択したプロファイルのログにレコードが追加されることを示すメモを追加しました。 [詳細情報](../../sending/using/testing-messages-using-target.md)
 
 ## リリース 22.1 - 2022年2月 {#release-22-1}
 
@@ -293,7 +293,7 @@ Adobe Experience Platform SDK を使用したモバイルアプリケーショ�
 
 ワークフローのプロパティの「**[!UICONTROL History in days]**」フィールドについての情報が追加され、「**[!UICONTROL Transfer file]**」アクティビティでダウンロードされたファイルについて記述されています。[詳細を表示](../../automating/using/managing-execution-options.md)
 
-プロファイルの置き換えの節に、件名行のプレフィックスの文字数制限（500 文字）に関する情報が追加されました。[詳細を表示](../../sending/using/testing-messages-using-target.md)
+プロファイルの置き換えの節に、件名行の接頭辞の文字数制限（500 文字）に関する情報が追加されました。[詳細を表示](../../sending/using/testing-messages-using-target.md)
 
 プライバシーと同意に関する新しい節がコアドキュメントに追加されました。[詳細を表示](../../start/using/privacy.md)
 
@@ -395,7 +395,7 @@ Adobe Campaign Enhanced MTA のドキュメントが利用できるようにな�
 
 Campaign のユーザーインターフェイスからランディングページとミラーページのプレビューを表示するには、アプリケーションサーバーとミラーページサーバーの URL がセキュリティで保護されている必要があることを示すメモが追加されました。[詳細を表示](../../administration/using/branding.md#configuring-and-using-brands)
 
-ログの書き出しの節が更新されました。配信ログとトラッキングログのリソースで配信ログ ID が使用でき、各ログの一意の識別子を書き出せるようになったことが反映されています。[詳細情報](../../automating/using/exporting-logs.md)
+ログのエクスポートの節が更新されました。配信ログとトラッキングログのリソースで配信ログ ID が使用でき、各ログの一意の識別子をエクスポートできるようになったことが反映されています。[詳細情報](../../automating/using/exporting-logs.md)
 
 ## 2020 年 1 月 {#doc-updates-january-2020}
 
@@ -419,7 +419,7 @@ S3 外部アカウントの設定に関するドキュメントが更新され�
 
 配信品質の入門ガイドは、コアドキュメントに統合され、更新されました。[詳細を表示](../../sending/using/about-deliverability.md)
 
-カスタムリソースの書き出し／インポートの方法に関する入門ガイドが、コアドキュメントに統合されました。[詳細を表示](../../automating/using/exporting-importing-custom-resources.md)
+カスタムリソースのエクスポート／インポートの方法に関する入門ガイドが、コアドキュメントに統合されました。[詳細を表示](../../automating/using/exporting-importing-custom-resources.md)
 
 Campaign Standard 内のワークフローを使用してコントロール母集団を構築する方法を説明する新しい使用例が追加されました。
 
@@ -589,7 +589,7 @@ Adobe Campaign から直接利用できるコンテキストヘルプリンク�
 
 動的レポートのインジケーターの計算に関する節が更新されました。[詳細を表示](../../reporting/using/indicator-calculation.md)
 
-ディメンションと指標の互換性をより深く理解できるように、動的レポートの互換性の表が追加されました。[詳細を表示](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=ja)
+ディメンションと指標の互換性をより深く理解できるように、動的レポートの互換性の表が追加されました。[詳細を表示](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf)
 
 ワークフローの関数のリストが更新されました。[詳細を表示](../../automating/using/list-of-functions.md)
 
@@ -867,7 +867,7 @@ Campaign とアドビソリューションの統合のほとんどの URL が変
 
 配信の準備方法に関するステップバイステップの使用例を追加しました。[詳細を表示](../../sending/using/preparing-the-send.md)
 
-認証のリストが記載された節は削除されました。[詳細を表示](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=ja)（PDF）
+認証のリストが記載された節は削除されました。[詳細を表示](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)（PDF）
 
 SMS 自動返信に関するステップバイステップの使用例を追加しました。[詳細を表示](../../channels/using/managing-incoming-sms.md#managing-stop-sms)
 
@@ -923,9 +923,9 @@ A/B テストのサンプルを更新しました。[詳細を表示](../../chan
 
 モバイルアプリが「PII 収集」データを送信する際のプロファイルデータの作成または更新方法に関する新しいテクニカルノート。[詳細を表示](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/communication-channels/push-notifications/updating-profile-with-mobile-app-data.html)
 
-新しい書き出しトラッキング機能に関する節を追加しました。[詳細を表示](../../administration/using/auditing-export-logs.md)
+新しいエクスポートトラッキング機能に関する節を追加しました。[詳細を表示](../../administration/using/auditing-export-logs.md)
 
-ビルトインパッケージの書き出しに関する精度を追加しました。[詳細を表示](../../automating/using/managing-packages.md)
+ビルトインパッケージのエクスポートに関する精度を追加しました。[詳細を表示](../../automating/using/managing-packages.md)
 
 外部アカウントの定義とサンプルを更新しました。[詳細を表示](../../administration/using/external-accounts.md)
 
@@ -1009,7 +1009,7 @@ Campaign から Analytics への KPI 共有 - [詳細を表示](../../integratin
 
 入門ガイドと使い方に関するビデオは、専用の節にまとめられました。
 
-メールレンダリングのドキュメントが更新されました。[詳細を表示](../../sending/using/email-rendering.md)
+メールのレンダリングのドキュメントが更新されました。[詳細を表示](../../sending/using/email-rendering.md)
 
 レポートインジケーターの計算表が更新されました。[詳細を表示](../../reporting/using/indicator-calculation.md)
 
@@ -1039,7 +1039,7 @@ Campaign から Analytics への KPI 共有 - [詳細を表示](../../integratin
 
 People コアサービスまたは Audience Manager と Adobe Campaign の統合を設定する手順が追加されました。[詳細を表示](../../integrating/using/integration-with-audience-manager-or-people-core-service.md)
 
-特定の役割の機能を明確にするために、認証表が改訂されました。[詳細を表示](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=ja)
+特定の役割の機能を明確にするために、認証表が改訂されました。[詳細を表示](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
 
 Adobe Campaign から直接利用できるコンテキストヘルプリンクが更新されました。
 
