@@ -265,7 +265,7 @@ AI を利用した新しいメール機能（送信時間の最適化とプロ�
 
 ワークフローの使用例が更新され、主題の節に再構成されました。[詳細を表示](../../automating/using/about-workflow-use-cases.md)
 
-コントロールパネルと Campaign ワークフローを使用したデータの[暗号化](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt)および[](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt)復号化の方法に関する使用例が追加されました。
+コントロールパネルと Campaign ワークフローを使用したデータの[暗号化](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt)および[&#128279;](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt)復号化の方法に関する使用例が追加されました。
 
 従来のサポート Web サイトへの参照は、新しい URL に置き換えられました。[詳細情報](../../support.md)
 
