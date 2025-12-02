@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 86810821-6f62-46ab-ba0b-2175797fe9dd
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 0%
@@ -17,8 +18,8 @@ ht-degree: 0%
 
 # 地理的単位属性の更新 {#managing-geographical-units}
 
-1. **geoUnitBase** リソースに対してGETリクエストを実行し、地理的単位 PKey を取得します。
-1. ペイロードで更新する属性を指定して、地理的単位でPATCHリクエストを実行します。
+1. **geoUnitBase** リソースに対してGET リクエストを実行し、地理的単位 PKey を取得します。
+1. ペイロードで更新する属性を指定して、地理的単位でPATCH リクエストを実行します。
 
 <br/>
 
@@ -50,7 +51,7 @@ ht-degree: 0%
 },
 ```
 
-ペイロードで更新する属性を指定して、地理的単位でPATCHリクエストを実行します。
+ペイロードで更新する属性を指定して、地理的単位でPATCH リクエストを実行します。
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/orgUnitBase/<PKEY> \

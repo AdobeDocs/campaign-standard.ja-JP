@@ -1,14 +1,15 @@
 ---
 title: Audience Manager または People コアサービスとの統合のプロビジョニングと設定
-description: 様々なAdobe Experience Cloud ソリューションでオーディエンスやセグメントの共有を開始するために、Audience Manager/People コアサービスの統合を設定する方法について説明します。
+description: Audience Manager/People コアサービスの統合を設定し、様々なAdobe Experience Cloud ソリューションでオーディエンスやセグメントの共有を開始する方法について説明します。
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 feature: People Core Service Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 04d0fe26-a8cc-49ae-aaa9-b470169068ee
-source-git-commit: 60386a9e6e424d76b1de0f2ecbeab48dd06fb354
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '757'
 ht-degree: 43%
@@ -17,13 +18,13 @@ ht-degree: 43%
 
 # Audience Manager または People コアサービスとの統合のプロビジョニングと設定{#integration-with-audience-manager-or-people-core-service}
 
-Adobe CampaignでのAudience Managerコアと People コアのプロビジョニングと設定には、[&#x200B; 統合へのリクエストの送信 &#x200B;](#submitting-request-to-adobe) 次に [Adobe CampaignでのAdobeの設定 &#x200B;](#configuring-the-integration-in-adobe-campaign) の 2 つの手順があります。
+Adobe CampaignでのAudience Managerと People コアのプロビジョニングと設定は、[Adobeへのリクエストの送信 ](#submitting-request-to-adobe) 次に [Adobe Campaignでの統合の設定 ](#configuring-the-integration-in-adobe-campaign) の 2 つの手順で行います。
 
 ## アドビへのリクエストの送信 {#submitting-request-to-adobe}
 
 Audience Manager（AAM）または People コアサービスの統合により、Adobe Campaignでオーディエンスやセグメントの読み込みおよび書き出しを行うことができます。
 
-この統合を最初に設定する必要があります。この統合のプロビジョニングをリクエストするには、以下を添えてAdobeサポートにお問い合わせください。
+この統合を最初に設定する必要があります。この統合のプロビジョニングを依頼するには、Adobe サポートに次の情報を連絡してください。
 
 <table> 
  <tbody> 
@@ -60,7 +61,7 @@ Audience Manager（AAM）または People コアサービスの統合により�
 
 ## Adobe Campaignでの統合の設定 {#configuring-the-integration-in-adobe-campaign}
 
-このリクエストを送信すると、Adobe側で統合のプロビジョニングが進められます。また、設定を完了するための詳細情報がお客様に届きます。
+このリクエストを送信すると、Adobeによって統合のプロビジョニングが進められます。また、設定を完了するための詳細情報がお客様に届きます。
 
 * [手順 1：Adobe Campaign での外部アカウントの設定または確認](#step-1--configure-or-check-the-external-accounts-in-adobe-campaign)
 * [手順 2：データソースの設定](#step-2--configure-the-data-sources)
@@ -69,7 +70,7 @@ Audience Manager（AAM）または People コアサービスの統合により�
 
 ### 手順 1：Adobe Campaign での外部アカウントの設定または確認 {#step-1--configure-or-check-the-external-accounts-in-adobe-campaign}
 
-まず、Adobe Campaignで外部アカウントを設定または確認する必要があります。 これらのアカウントはAdobeが設定する必要があり、必要な情報がお客様に伝えられている必要があります。
+まず、Adobe Campaignで外部アカウントを設定または確認する必要があります。 これらのアカウントはAdobeで設定され、必要な情報がお客様に伝えられている必要があります。
 
 それには、次の手順に従います。
 
@@ -99,7 +100,7 @@ Audience Manager 内では、Adobe Campaign（MID）とAdobe Campaign（Declared
 
    ![](assets/integration_aam_2.png)
 
-1. **[!UICONTROL Data Source/ Alias]** ドロップダウンで「**[!UICONTROL Adobe Campaign]**」を選択します。
+1. **[!UICONTROL Adobe Campaign]** ドロップダウンで「**[!UICONTROL Data Source/ Alias]**」を選択します。
 1. Adobeから提供された **[!UICONTROL AAM Destination ID]** を入力します。
 
    ![](assets/integration_aam_3.png)
@@ -111,14 +112,14 @@ Audience Manager 内では、Adobe Campaign（MID）とAdobe Campaign（Declared
 
 1. **[!UICONTROL Administration]**/**[!UICONTROL Application settings]**/**[!UICONTROL Shared Data Sources]** で、「**[!UICONTROL Create]**」ボタンをクリックします。
 1. データソースの **[!UICONTROL Label]** を編集します。
-1. **[!UICONTROL Data Source/ Alias]** ドロップダウンで、Audience Managerの **[!UICONTROL DeclaredID]** データソースに対応するデータSourceを選択します。
-1. Adobeから提供された **[!UICONTROL Data Source / Alias]** と **[!UICONTROL AAM Destination ID]** を入力して、データソースを設定します。
+1. **[!UICONTROL Data Source/ Alias]** ドロップダウンで、Audience Manager内の **[!UICONTROL DeclaredID]** データソースに対応するデータSourceを選択します。
+1. Adobeから提供される **[!UICONTROL Data Source / Alias]** と **[!UICONTROL AAM Destination ID]** を入力して、データソースを設定します。
 1. 必要に応じて **[!UICONTROL Reconciliation process]** を設定します。
 1. 「**[!UICONTROL Save]**」をクリックします。
 
 >[!NOTE]
 >
->[&#x200B; キャンペーンとトリガーの統合 &#x200B;](../../integrating/using/configuring-triggers-in-experience-cloud.md) 用に共有データソースを設定している場合、「**[!UICONTROL AAM Destination ID]**」フィールドは必須ではありません。 **[!UICONTROL Priority]** は、トリガー - キャンペーン統合を設定する場合にのみ必要です。 優先度は、最初に設定されるデータSourceを決定します。 優先度には、1 や 100 などの任意の数を指定できます。 優先度が高いほど、紐付け時の環境設定が高くなります。
+>**[!UICONTROL AAM Destination ID]** キャンペーンとトリガーの統合 [ 用に共有データソースを設定している場合、「](../../integrating/using/configuring-triggers-in-experience-cloud.md)」フィールドは必須ではありません。 **[!UICONTROL Priority]** は、トリガー - キャンペーン統合を設定する場合にのみ必要です。 優先度は、最初に設定されるデータSourceを決定します。 優先度には、1 や 100 などの任意の数を指定できます。 優先度が高いほど、紐付け時の環境設定が高くなります。
 
 ### 手順 3：Campaignトラッキングサーバーの設定 {#step-3--configure-campaign-tracking-server}
 
@@ -128,7 +129,7 @@ People コアサービスまたは Audience Manager との統合を設定する�
 
 >[!IMPORTANT]
 >
-> Campaign トラッキングサーバーがドメインに登録されていることを確認する必要があります（CNAME）。ドメイン名の設定について詳しくは、[&#x200B; この記事 &#x200B;](https://helpx.adobe.com/jp/campaign/kb/domain-name-delegation.html) を参照してください。
+> Campaign トラッキングサーバーがドメインに登録されていることを確認する必要があります（CNAME）。ドメイン名の設定について詳しくは、[ この記事 ](https://helpx.adobe.com/jp/campaign/kb/domain-name-delegation.html) を参照してください。
 
 ### 手順 4：訪問者 ID サービスの設定 {#step-4--configure-the-visitor-id-service}
 
@@ -136,4 +137,4 @@ People コアサービスまたは Audience Manager との統合を設定する�
 
 Experience Cloud ID サービスの `setCustomerID` 関数と統合コード `AdobeCampaignID` を使用して、顧客 ID を宣言済み ID と同期します。`AdobeCampaignID` は、[手順 2：データソースの設定](#step-2--configure-the-data-sources)で設定した受信者データソースに設定された調整キーの値と一致させる必要があります。
 
-設定とプロビジョニングが完了し、統合を使用してオーディエンスやセグメントの読み込みおよび書き出しを行えるようになりました。
+設定とプロビジョニングが完了し、統合を使用してオーディエンスやセグメントのインポートおよびエクスポートを行えるようになりました。

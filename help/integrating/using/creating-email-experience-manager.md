@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-experience-manager
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 72b99864-d9d9-4cf4-be06-dc5719a2e4f2
-source-git-commit: 579404ddc128e25cc7f8f93dfec30663c7cf754e
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '511'
 ht-degree: 12%
@@ -38,7 +39,7 @@ Adobe Campaign固有の複数のテンプレートを使用できます。 こ�
 デフォルトでは、2 つの事前定義済みテンプレートを使用して、Adobe Campaignのメールコンテンツを作成できます。
 
 * **[!UICONTROL Adobe Campaign Email]**：このテンプレートには、パーソナライズできる標準コンテンツが含まれています。 Adobe Campaign メール（AC6.1）とAdobe Campaign メール（ACS）から選択できます。
-* **[!UICONTROL Importer Page]**：このテンプレートを使用すると、HTMLファイルを含む ZIP ファイルをコンテンツと共に読み込んで、コンテンツをパーソナライズできます。
+* **[!UICONTROL Importer Page]**：このテンプレートを使用すると、HTML ファイルを含む ZIP ファイルをコンテンツと共に読み込んで、コンテンツをパーソナライズできます。
 
 1. Adobe Experience Managerで、新しい **[!UICONTROL Page]** を作成します。
 
@@ -48,7 +49,7 @@ Adobe Campaign固有の複数のテンプレートを使用できます。 こ�
 
 1. 新しいメールコンテンツを開きます。
 
-1. **[!UICONTROL Page properties]** で、**[!UICONTROL Cloud Service Configuration]** として **[!UICONTROL Adobe Campaign]** を設定します。 これにより、コンテンツと Adobe Campaign インスタンスの間の通信が可能になります。
+1. **[!UICONTROL Page properties]** で、**[!UICONTROL Adobe Campaign]** として **[!UICONTROL Cloud Service Configuration]** を設定します。 これにより、コンテンツと Adobe Campaign インスタンスの間の通信が可能になります。
 
    詳しくは、次のビデオをご覧ください。
 
@@ -60,9 +61,9 @@ Adobe Campaign固有の複数のテンプレートを使用できます。 こ�
 
 Adobe Experience Managerでメールコンテンツを作成するには：
 
-1. サイドキックから **[!UICONTROL Page properties]** ール/**[!UICONTROL Email]** ールタブにアクセスして、メールの件名と **[!UICONTROL Plain text]** バージョンを編集します。
+1. サイドキックから **[!UICONTROL Plain text]** ール/**[!UICONTROL Page properties]** ールタブにアクセスして、メールの件名と **[!UICONTROL Email]** バージョンを編集します。
 
-1. **[!UICONTROL Text & Personalization]** コンポーネントを使用して **[!UICONTROL Personalization fields]** を追加します。 各コンポーネントは、画像の挿入、パーソナライゼーションの追加などの特定の用途に対応します。
+1. **[!UICONTROL Personalization fields]** コンポーネントを使用して **[!UICONTROL Text & Personalization]** を追加します。 各コンポーネントは、画像の挿入、パーソナライゼーションの追加などの特定の用途に対応します。
 
    詳しくは、次のビデオをご覧ください。
 
@@ -74,9 +75,9 @@ Adobe Campaign Standardでメールを送信するには：
 
 1. コンテンツと送信パラメーターを定義したら、Adobe Campaign StandardでAEM固有のメールテンプレートに基づいてメールを作成します。
 
-+++ AEM固有のテンプレートの詳細情報。
+   +++ AEM固有のテンプレートの詳細情報。
 
-   1. 詳細メニューから、**[!UICONTROL Templates]** `>` **[!UICONTROL Delivery templates]** ージ **[!UICONTROL Resources]**`>` アクセスします。
+   1. 詳細メニューから、**[!UICONTROL Resources]** `>` **[!UICONTROL Templates]** ージ `>`**[!UICONTROL Delivery templates]** アクセスします。
 
       ![](assets/aem_templates_1.png)
 
@@ -86,7 +87,7 @@ Adobe Campaign Standardでメールを送信するには：
 
       ![](assets/aem_templates_2.png)
 
-+++
+   +++
 
    ![](assets/aem_send_1.png)
 

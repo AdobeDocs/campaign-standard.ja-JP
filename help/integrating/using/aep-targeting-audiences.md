@@ -5,12 +5,13 @@ audience: automating
 content-type: reference
 topic-tags: channel-activities
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 11e2cd7e-99b7-45cc-a0c2-41049128fe49
 hide: true
 hidefromtoc: true
-source-git-commit: 110f3ccb5865e70c78e18485b4ff4ba7a648af3f
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 3%
@@ -21,15 +22,15 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->Audience Destinations サービスは現在ベータ版です。予告なく頻繁に更新される場合があります。 これらの機能にアクセスするには、お客様を Azure でホストする必要があります（現在は北米向けのベータ版のみ）。 アクセスをご希望の場合は、Adobeカスタマーケアにお問い合わせください。
+>Audience Destinations サービスは現在ベータ版です。予告なく頻繁に更新される場合があります。 これらの機能にアクセスするには、お客様を Azure でホストする必要があります（現在は北米向けのベータ版のみ）。 へのアクセスを希望する場合は、Adobe カスタマーケアにお問い合わせください。
 
-セグメントビルダーを使用して [Adobe Experience Platform オーディエンスを作成すると &#x200B;](../../integrating/using/aep-about-audience-destinations-service.md) ワークフロー内のキャンペーンオーディエンスと同じように使用して、メッセージをパーソナライズして送信できます。
+セグメントビルダーを使用して [Adobe Experience Platform オーディエンスを作成すると ](../../integrating/using/aep-about-audience-destinations-service.md) ワークフロー内のキャンペーンオーディエンスと同じように使用して、メッセージをパーソナライズして送信できます。
 
 ワークフローでAdobe Experience Platform オーディエンスをアクティブ化するには、次の手順に従います。
 
 1. **[!UICONTROL Read audience]** アクティビティをワークフローに追加してから開きます。
 
-1. **[!UICONTROL Type of audience]** の下の「**[!UICONTROL Adobe Experience Platform]**」オプションを選択し、目的のオーディエンスを追加します。
+1. **[!UICONTROL Adobe Experience Platform]** の下の「**[!UICONTROL Type of audience]**」オプションを選択し、目的のオーディエンスを追加します。
 
    ![](assets/aep_wkf_readaudience.png)
 
@@ -43,11 +44,11 @@ ht-degree: 3%
 
    >[!NOTE]
    >
-   >プライマリキー以外のターゲットの場合は、カスタム名前空間に対応するカスタムターゲットマッピングも作成する必要があります。 ターゲットマッピングについて詳しくは、[&#x200B; この節 &#x200B;](../../administration/using/target-mappings-in-campaign.md) を参照してください。
+   >プライマリキー以外のターゲットの場合は、カスタム名前空間に対応するカスタムターゲットマッピングも作成する必要があります。 ターゲットマッピングについて詳しくは、[ この節 ](../../administration/using/target-mappings-in-campaign.md) を参照してください。
 
    ![](assets/aep_wkf_readaudience_namespace.png)
 
-   このリストには、インスタンスで設定されたすべてのエクスペリエンスデータモデル（XDM）マッピングが含まれています。 Adobe Experience Platform Data Connector について詳しくは、[&#x200B; この専用ドキュメント &#x200B;](../../integrating/using/aep-about-data-connector.md) を参照してください。
+   このリストには、インスタンスで設定されたすべてのエクスペリエンスデータモデル（XDM）マッピングが含まれています。 Adobe Experience Platform Data Connector について詳しくは、[ この専用ドキュメント ](../../integrating/using/aep-about-data-connector.md) を参照してください。
 
    ![](assets/aep_wkf_readaudience_namespace2.png)
 

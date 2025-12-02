@@ -2,10 +2,11 @@
 title: 購読の削除
 description: API を使用して購読を削除する方法を説明します
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 76e2d102-c877-41a6-af87-2f407201a572
-source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 0%
@@ -21,8 +22,8 @@ ht-degree: 0%
 これは、3 つの手順で構成される手順です。
 
 1. 目的のプロファイルの購読 URL を取得します。
-1. 購読 URL でGETリクエストを実行します。
-1. 目的のサービス URL でDELETEリクエストを実行します。
+1. 購読 URL でGET リクエストを実行します。
+1. 目的のサービス URL でDELETE リクエストを実行します。
 
 削除リクエストが成功した場合、応答ステータスは 204 コンテンツなしになります。
 
@@ -30,7 +31,7 @@ ht-degree: 0%
 
 ***リクエストのサンプル***
 
-以下のサンプルペイロードは、プロファイルをサービスから購読解除する方法を示しています。 まず、GETリクエストを実行してプロファイルを取得します。
+以下のサンプルペイロードは、プロファイルをサービスから購読解除する方法を示しています。 まず、GET リクエストを実行してプロファイルを取得します。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -53,7 +54,7 @@ ht-degree: 0%
   }
 ```
 
-購読 URL でGETリクエストを実行します。
+購読 URL でGET リクエストを実行します。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \
@@ -77,7 +78,7 @@ ht-degree: 0%
 ...
 ```
 
-目的のサービス URL でDELETEリクエストを実行します。
+目的のサービス URL でDELETE リクエストを実行します。
 
 ```
 -X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY> \
@@ -94,8 +95,8 @@ ht-degree: 0%
 これは、3 つの手順で構成される手順です。
 
 1. 目的のサービスとその購読 URL を取得します。
-1. 購読 URL でGETリクエストを実行して、すべてのプロファイル購読を取得します。
-1. 目的のプロファイル購読 URL でDELETEリクエストを実行します。
+1. 購読 URL でGET リクエストを実行して、すべてのプロファイル購読を取得します。
+1. 目的のプロファイル購読 URL でDELETE リクエストを実行します。
 
 削除リクエストが成功した場合、応答ステータスは 204 コンテンツなしになります。
 
@@ -130,7 +131,7 @@ ht-degree: 0%
 },
 ```
 
-購読 URL でGETリクエストを実行します。
+購読 URL でGET リクエストを実行します。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions \
@@ -157,7 +158,7 @@ ht-degree: 0%
 }
 ```
 
-目的のプロファイル購読 URL でDELETEリクエストを実行します。
+目的のプロファイル購読 URL でDELETE リクエストを実行します。
 
 ```
 -X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions/<PKEY> \

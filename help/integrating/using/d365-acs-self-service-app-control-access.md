@@ -6,10 +6,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 44b59f56-99be-41ae-af8d-76272bb94d18
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 1%
@@ -18,7 +19,7 @@ ht-degree: 1%
 
 # Microsoft Dynamics 365 セルフサービスアプリとAdobe Campaign Standard統合にアクセスする
 
-この設定では、Experience Cloud（EC）管理者と協力する必要があります。 これらは、セルフサービス統合アプリケーションインターフェイスへのアクセスを提供するために必要な最初の手順です。 ツールにアクセスしたら、データへの接続を設定し、Adobe CampaignとMicrosoft Dynamics 365 の間のデータフローを設定します。
+この設定を行うには、所属する組織のExperience Cloud（EC）管理者と協力する必要があります。 これらは、セルフサービス統合アプリケーションインターフェイスへのアクセスを提供するために必要な最初の手順です。 ツールにアクセスしたら、データへの接続を設定し、Adobe CampaignとMicrosoft Dynamics 365 の間のデータフローを設定します。
 
 >[!NOTE]
 >
@@ -30,7 +31,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
-> これらの手順を実行するには、組織のExperience Cloudで **管理者** のロールが必要です。
+> これらの手順を実行するには、組織のExperience Cloudで **管理者** の役割が必要になります。
 >
 
 1. https://experience.adobe.com/を参照し、Adobe Experience Cloudにログインします。
@@ -38,7 +39,7 @@ ht-degree: 1%
 
    ![](assets/do-not-localize/d365-to-acs-access-3.png)
 
-1. 「**[!UICONTROL Products]**」をクリックして、Experience Cloudソリューションにアクセスします。
+1. 「**[!UICONTROL Products]**」をクリックして、Experience Cloud ソリューションにアクセスします。
 
    ![](assets/do-not-localize/d365-to-acs-access-6.png)
 
@@ -56,9 +57,9 @@ ht-degree: 1%
 
    ![](assets/do-not-localize/d365-to-acs-access-8.png)
 
-1. 「**[!UICONTROL New Profile]**」ボタンをクリックし、「**Campaign Standard- your-prod-instance-name - D365/ACS Integration**」という名前の新しいエントリを追加します。
+1. 「**[!UICONTROL New Profile]**」ボタンをクリックし、**Campaign Standard - your-prod-instance-name - D365/ACS Integration** という名前の新しいエントリを追加します。
 
-   * リストにこのエントリが表示された場合は、続行する必要はありません。 左側のメニューで **0&rbrace;Adobe Campaign Standard&rbrace; をクリックし、他の Campaign インスタンスを確認します。**
+   * リストにこのエントリが表示された場合は、続行する必要はありません。 左側のメニューで **0}Adobe Campaign Standard} をクリックし、他の Campaign インスタンスを確認します。**
 
    * 「your-prod-instance-name」をインスタンスの実際の名前に必ず置き換えてください。
 
@@ -76,7 +77,7 @@ ht-degree: 1%
 
 **[!UICONTROL Products]** ページで Campaign インスタンスを選択し、次の手順に従います。
 
-1. 先ほど作成した新しいプロファイルをクリックします。**Campaign Standard-your-prod-instance-name - D365/ACS Integration**
+1. 先ほど作成した新しいプロファイルをクリックします。**Campaign Standard - your-prod-instance-name - D365/ACS Integration**
 
    ![](assets/do-not-localize/d365-to-acs-access-15.png)
 

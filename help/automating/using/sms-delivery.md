@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: channel-activities
 context-tags: sms,main;delivery,smsContent,back
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 65d3f3d8-039d-4188-a6a4-0065724aa82b
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '785'
 ht-degree: 91%
@@ -35,7 +36,7 @@ ht-degree: 91%
 
 スケジューラーにリンクされている場合は、繰り返し送信の SMS メッセージを定義できます。
 
-SMS 受信者は、同じワークフロー内アクティビティの上流でクエリやインタセクションなどのターゲティングアクティビティによって定義されます。
+SMS 受信者は、同じワークフロー内アクティビティの上流でクエリや積集合などのターゲティングアクティビティによって定義されます。
 
 メッセージの準備は、ワークフロー実行パラメーターに従ってトリガーされます。メッセージを送信するために手動確認を要求するかどうかをメッセージダッシュボードで選択できます（デフォルトでは必須）。ワークフローは、手動で開始するか、ワークフロー内に「スケジューラー」アクティビティを配置して自動的に実行することができます。
 

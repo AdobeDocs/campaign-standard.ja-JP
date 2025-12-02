@@ -1,16 +1,17 @@
 ---
 title: Adobe Experience Platform 属性を使用したキャンペーンのパーソナライズ
-description: Adobeの Experience Platform 属性を使用してキャンペーンをパーソナライズする方法について説明します。
+description: Adobe Experience Platform 属性を使用してキャンペーンをパーソナライズする方法について説明します。
 audience: automating
 content-type: reference
 topic-tags: channel-activities
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 4d4e7e58-e161-4e5a-898a-b5c29ffb20e0
 hide: true
 hidefromtoc: true
-source-git-commit: 110f3ccb5865e70c78e18485b4ff4ba7a648af3f
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 6%
@@ -21,11 +22,11 @@ ht-degree: 6%
 
 >[!IMPORTANT]
 >
->Audience Destinations サービスは現在ベータ版です。予告なく頻繁に更新される場合があります。 これらの機能にアクセスするには、お客様を Azure でホストする必要があります（現在は北米向けのベータ版のみ）。 アクセスをご希望の場合は、Adobeカスタマーケアにお問い合わせください。
+>Audience Destinations サービスは現在ベータ版です。予告なく頻繁に更新される場合があります。 これらの機能にアクセスするには、お客様を Azure でホストする必要があります（現在は北米向けのベータ版のみ）。 へのアクセスを希望する場合は、Adobe カスタマーケアにお問い合わせください。
 >
 >**プッシュ** チャネルと **アプリ内** チャネルは、Adobe Experience Platformのコンテキストデータを使用したパーソナライゼーションではまだ使用できません。
 
-ワークフローに [Adobe Experience Platform オーディエンス &#x200B;](../../integrating/using/aep-about-audience-destinations-service.md) が設定されたら、エクスペリエンスデータモデル（XDM）にのみ存在するプロファイル属性を使用してメッセージをパーソナライズできます。
+ワークフローに [Adobe Experience Platform オーディエンス ](../../integrating/using/aep-about-audience-destinations-service.md) が設定されたら、エクスペリエンスデータモデル（XDM）にのみ存在するプロファイル属性を使用してメッセージをパーソナライズできます。
 
 これを行うには、次の属性を **[!UICONTROL Read audience]** アクティビティに追加する必要があります。
 
@@ -55,7 +56,7 @@ ht-degree: 6%
 
 1. すべてのフィールドを追加したら、「**[!UICONTROL Confirm]**」ボタンをクリックして変更を保存します。 これで、配信をパーソナライズできるようになります。
 
-配信の作成およびパーソナライズ方法について詳しくは、次のCampaign Standardドキュメントを参照してください。
+配信の作成およびパーソナライズ方法について詳しくは、次のCampaign Standard ドキュメントを参照してください。
 
 * [通信チャネルの検出](../../channels/using/get-started-communication-channels.md)
 * [チャネルアクティビティについて](../../automating/using/about-channel-activities.md)

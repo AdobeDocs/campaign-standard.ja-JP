@@ -5,10 +5,11 @@ audience: automating
 content-type: reference
 topic-tags: channel-activities
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: b6a43d51-32d4-4806-b4e4-33236f1e27f5
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '773'
 ht-degree: 46%
@@ -60,7 +61,7 @@ ht-degree: 46%
 
 1. 通知タイプを選択します。 これらのタイプは、**[!UICONTROL Resources]** / **[!UICONTROL Templates]** / **[!UICONTROL Delivery templates]** メニューで定義されたプッシュ通知テンプレートから取得します。
 1. プッシュ通知の一般プロパティを入力します。 既存のキャンペーンに SMS を添付することもできます。ワークフローの配信アクティビティのラベルがプッシュ通知のラベルで更新されます。
-1. プッシュ通知の内容を定義します。 [&#x200B; プッシュ通知の作成 &#x200B;](../../channels/using/preparing-and-sending-a-push-notification.md) を参照してください。
+1. プッシュ通知の内容を定義します。 [ プッシュ通知の作成 ](../../channels/using/preparing-and-sending-a-push-notification.md) を参照してください。
 1. デフォルトでは、「**[!UICONTROL Push notification]**」アクティビティにアウトバウンドトランジションは含まれていません。アウトバウンドトランジションを「**[!UICONTROL Push Notification]**」アクティビティに追加する場合は、アクティビティの詳細設定オプション（アクティビティのクイックアクションにある ![](assets/dlv_activity_params-24px.png) ボタンで開く）の「**[!UICONTROL General]**」タブに移動し、次のいずれかのオプションをオンにします。
 
    * **[!UICONTROL Add outbound transition without the population]**：インバウンドトランジションとまったく同じ母集団を含んだアウトバウンドトランジションを生成できます。

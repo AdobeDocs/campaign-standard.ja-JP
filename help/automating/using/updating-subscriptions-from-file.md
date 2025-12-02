@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: setOfService,workflow,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 2e98561a-97fd-483a-a547-c4e6d33993dc
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 81%
@@ -24,7 +25,7 @@ ht-degree: 81%
 
 ![](assets/subscription_activity_example1.png)
 
-* [&#x200B; ファイルを読み込み &#x200B;](../../automating/using/load-file.md) アクティビティは、プロファイルファイルを読み込み、読み込んだ列の構造を定義します。
+* [ ファイルを読み込み ](../../automating/using/load-file.md) アクティビティは、プロファイルファイルを読み込み、読み込んだ列の構造を定義します。
 
   この例では、読み込まれるファイルは .csv 形式で、次のデータが含まれています。
 
@@ -57,11 +58,11 @@ ht-degree: 81%
 
   ![](assets/subscription_example_service_relation.png)
 
-* [&#x200B; 重複排除 &#x200B;](../../automating/using/deduplication.md) 一時リソースの **メール** フィールド（紐付けの結果）に基づいて、重複を識別します。 重複がある場合、サービスへの購読登録はすべてのデータで失敗するので、重複を排除することが重要です。
+* [ 重複排除 ](../../automating/using/deduplication.md) 一時リソースの **メール** フィールド（紐付けの結果）に基づいて、重複を識別します。 重複がある場合、サービスへの購読登録はすべてのデータで失敗するので、重複を排除することが重要です。
 
   ![](assets/subscription_activity_example5.png)
 
-* [&#x200B; 購読サービス &#x200B;](../../automating/using/subscription-services.md) アクティビティは、更新アクティビティで作成されたリンクを通じて、トランジシ **[!UICONTROL Reconciliation]** ンから取得されたものとして更新するサービスを識別します。
+* [ 購読サービス ](../../automating/using/subscription-services.md) アクティビティは、更新アクティビティで作成されたリンクを通じて、トランジシ **[!UICONTROL Reconciliation]** ンから取得されたものとして更新するサービスを識別します。
 
   「**[!UICONTROL Operation type]**」は、ファイルの **operation** フィールドに由来するものとして識別されます。ここで選択できるのは、ブール値フィールドまたは整数フィールドのみです。実行する操作を記述しているファイル列がリストに表示されない場合は、前述のように、「**[!UICONTROL Load file]**」アクティビティで列の形式が正しく設定されていることを確認してください。
 

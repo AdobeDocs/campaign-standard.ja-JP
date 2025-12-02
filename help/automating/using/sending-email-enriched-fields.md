@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: fileImport,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 5ca7571d-d4d2-4b59-86d4-4f1f3a620b54
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 68%
@@ -28,15 +29,15 @@ ht-degree: 68%
 
 ワークフローを作成するには、次の手順に従います。
 
-1. [&#x200B; クエリ &#x200B;](../../automating/using/query.md) アクティビティをワークフローにドラッグ&amp;ドロップし、開いてメインターゲットを定義します。
+1. [ クエリ ](../../automating/using/query.md) アクティビティをワークフローにドラッグ&amp;ドロップし、開いてメインターゲットを定義します。
 
    <!--The Query activity is presented in the [Query](../../automating/using/query.md) section.-->
 
-1. [&#x200B; ファイルを読み込み &#x200B;](../../automating/using/load-file.md) アクティビティをドラッグ&amp;ドロップして、一部のデータをプロファイルに割り当てます。 この例では、データベースの一部のプロファイルに対応するアカウント番号が含まれているファイルを読み込みます。
+1. [ ファイルを読み込み ](../../automating/using/load-file.md) アクティビティをドラッグ&amp;ドロップして、一部のデータをプロファイルに割り当てます。 この例では、データベースの一部のプロファイルに対応するアカウント番号が含まれているファイルを読み込みます。
 
    ![](assets/load_file_activity.png)
 
-1. [&#x200B; エンリッチメント &#x200B;](../../automating/using/enrichment.md) アクティビティをワークフローにドラッグ&amp;ドロップし、「ファイルを読み込み」アクティビティと「クエリ」アクティビティをリンクします。
+1. [ エンリッチメント ](../../automating/using/enrichment.md) アクティビティをワークフローにドラッグ&amp;ドロップし、「ファイルを読み込み」アクティビティと「クエリ」アクティビティをリンクします。
 
 1. エンリッチメントアクティビティの「**[!UICONTROL Advanced relations]**」タブで、「**[!UICONTROL 0 or 1 cardinality simple link]**」を選択し、紐付けに使用するフィールドを定義します。ここでは、姓を使用してデータをデータベースプロファイルに紐付けします。
 
@@ -50,13 +51,13 @@ ht-degree: 68%
 
    詳しくは、[エンリッチメント](../../automating/using/enrichment.md)の節を参照してください。
 
-1. [&#x200B; セグメント化 &#x200B;](../../automating/using/segmentation.md) アクティビティをワークフローにドラッグ&amp;ドロップし、開いてメインターゲットを絞り込みます。
+1. [ セグメント化 ](../../automating/using/segmentation.md) アクティビティをワークフローにドラッグ&amp;ドロップし、開いてメインターゲットを絞り込みます。
 
    ![](assets/load_file_segmentation.png)
 
    詳しくは、[セグメント化](../../automating/using/segmentation.md)の節を参照してください。
 
-1. [&#x200B; メール配信 &#x200B;](../../automating/using/email-delivery.md) アクティビティをワークフローにドラッグ&amp;ドロップして開きます。
+1. [ メール配信 ](../../automating/using/email-delivery.md) アクティビティをワークフローにドラッグ&amp;ドロップして開きます。
 
    <!--The Email delivery activity is presented in the [Email delivery](../../automating/using/email-delivery.md) section.-->
 

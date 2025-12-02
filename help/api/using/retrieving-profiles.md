@@ -2,10 +2,11 @@
 title: プロファイルの取得
 description: API を使用してプロファイルを取得する方法の詳細を説明します
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 19679804-f728-49fa-b26e-8f31b67c29bf
-source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 4%
@@ -16,15 +17,15 @@ ht-degree: 4%
 
 プロファイルの取得は、**GET** リクエストで実行されます。
 
-その後、フィルター、順序、ページネーションを使用して、検索を絞り込むことができます。 詳しくは、[&#x200B; その他の操作 &#x200B;](../../api/using/sorting.md) の節を参照してください。
+その後、フィルター、順序、ページネーションを使用して、検索を絞り込むことができます。 詳しくは、[ その他の操作 ](../../api/using/sorting.md) の節を参照してください。
 
-さらに、Campaign StandardAPI では、「メール」、「名」、「姓」または任意のカスタムフィールドのいずれか 1 つに基づいてプロファイルを検索できます。 詳しくは、[この節](#searching-field)を参照してください。
+さらに、Campaign Standard API では、「メール」、「名」、「姓」または任意のカスタムフィールドのいずれか 1 つに基づいてプロファイルを検索できます。 詳しくは、[この節](#searching-field)を参照してください。
 
 <br/>
 
 ***サンプルリクエスト***
 
-* すべてのプロファイルを取得するサンプルGETリクエスト。
+* すべてのプロファイルを取得するサンプル GET リクエスト。
 
   ```
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
@@ -50,7 +51,7 @@ ht-degree: 4%
   }
   ```
 
-* 最初の 10 個のメール値を取得するサンプルGETリクエスト。
+* 最初の 10 個のメール値を取得するサンプル GET リクエスト。
 
   ```
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_lineCount=10 \

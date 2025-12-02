@@ -2,10 +2,11 @@
 title: 購読の取得
 description: API を使用して購読を取得する方法を説明します
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 6d935074-3196-45c5-97cd-ccb7c80bbba8
-source-git-commit: 64f24fb692754973331b4fb2f7b95e9a6f31cd0d
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 1%
@@ -19,7 +20,7 @@ ht-degree: 1%
 これは、2 段階の手順です。
 
 1. 目的のサービスの購読 URL を取得します。
-1. 購読 URL でGETリクエストを実行します。 サービスの購読のリストと、関連する各プロファイルを返します。
+1. 購読 URL でGET リクエストを実行します。 サービスの購読のリストと、関連する各プロファイルを返します。
 
 >[!CAUTION]
 >
@@ -29,7 +30,7 @@ ht-degree: 1%
 
 ***リクエストのサンプル***
 
-GETリクエストを実行して、サービスを取得します。
+GET リクエストを実行して、サービスを取得します。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY> \
@@ -53,7 +54,7 @@ GETリクエストを実行して、サービスを取得します。
   },
 ```
 
-購読 URL でGETリクエストを実行します。
+購読 URL でGET リクエストを実行します。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions \
@@ -85,13 +86,13 @@ GETリクエストを実行して、サービスを取得します。
 これは、2 段階の手順です。
 
 1. 特定のプロファイルの購読 URL を取得します。
-1. URL でGETリクエストを実行します。 プロファイルの購読のリストと、関連する各サービスを返します。
+1. URL でGET リクエストを実行します。 プロファイルの購読のリストと、関連する各サービスを返します。
 
 <br/>
 
 ***リクエストのサンプル***
 
-GETリクエストを実行して、プロファイルを取得します。
+GET リクエストを実行してプロファイルを取得します。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -115,7 +116,7 @@ GETリクエストを実行して、プロファイルを取得します。
   }
 ```
 
-購読 URL でGETリクエストを実行します。
+購読 URL でGET リクエストを実行します。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \

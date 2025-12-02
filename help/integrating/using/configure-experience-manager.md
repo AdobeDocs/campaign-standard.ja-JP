@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-experience-manager
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: f56f5a19-6283-4eef-8127-c69a16a42a37
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 8%
@@ -34,13 +35,13 @@ Adobe Campaign StandardとAdobe Experience Managerの統合により、Adobe Exp
 これらの 2 つのソリューションを一緒に使用するには、相互に接続するように設定する必要があります。
 Adobe Campaign を設定するには：
 
-1. 最初に、**[!UICONTROL Administration]**/**[!UICONTROL Application settings]**/**[!UICONTROL External accounts menu]** で **[!UICONTROL Adobe Experience Manager instance]** 外部アカウントを設定する必要があります。
+1. 最初に、**[!UICONTROL Adobe Experience Manager instance]**/**[!UICONTROL Administration]**/**[!UICONTROL Application settings]** で **[!UICONTROL External accounts menu]** 外部アカウントを設定する必要があります。
 
 1. Adobe Experience Manager タイプの外部アカウントに **[!UICONTROL Server]** URL、**[!UICONTROL Account]**、**[!UICONTROL Password]** を設定します。
 
    ![](assets/aem_1.png)
 
-1. **[!UICONTROL AEMResourceTypeFilter]** オプションが正しく設定されていることを確認します。 **[!UICONTROL Administration]**/**[!UICONTROL Application settings]**/**[!UICONTROL Options]** メニューの下の **[!UICONTROL Options]** メニューにアクセスします。
+1. **[!UICONTROL AEMResourceTypeFilter]** オプションが正しく設定されていることを確認します。 **[!UICONTROL Options]**/**[!UICONTROL Administration]**/**[!UICONTROL Application settings]** メニューの下の **[!UICONTROL Options]** メニューにアクセスします。
 
 1. 「**[!UICONTROL Value (text)]**」フィールドで、次の構文が正しいことを確認します。
 
@@ -58,7 +59,7 @@ Adobe Campaign を設定するには：
 
    ![](assets/aem_4.png)
 
-1. 「**[!UICONTROL Content]**」ドロップダウンで、「**[!UICONTROL Content source]**」フィールドの「**[!UICONTROL Adobe Experience Manager]**」を選択し、以前に作成した外部アカウントを **[!UICONTROL Adobe Experience Manager account]** で選択します。
+1. 「**[!UICONTROL Content]**」ドロップダウンで、「**[!UICONTROL Adobe Experience Manager]**」フィールドの「**[!UICONTROL Content source]**」を選択し、以前に作成した外部アカウントを **[!UICONTROL Adobe Experience Manager account]** で選択します。
 
 ここで、Adobe Experience Managerで統合を設定する必要があります。
 
@@ -66,8 +67,8 @@ Adobe Campaign を設定するには：
 
 Adobe Experience ManagerとAdobe Campaign Standardを設定するには、次の手順に従う必要があります。
 
-1. 最初に、Adobe Experience Manager オーサリングインスタンスとパブリッシュインスタンス間のレプリケーションを設定する必要があります。 [こちら](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html?lang=ja#configuring-adobe-experience-manager)を参照してください。
+1. 最初に、Adobe Experience Manager オーサリングインスタンスとパブリッシュインスタンス間のレプリケーションを設定する必要があります。 [こちら](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html#configuring-adobe-experience-manager)を参照してください。
 
-1. 次に、専用の **[!UICONTROL Cloud Service]** を設定して、Adobe Experience ManagerをAdobe Campaignに接続します。 [こちら](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html?lang=ja#connecting-aem-to-adobe-campaign)を参照してください。
+1. 次に、専用の **[!UICONTROL Cloud Service]** を設定して、Adobe Experience ManagerをAdobe Campaignに接続します。 [こちら](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html#connecting-aem-to-adobe-campaign)を参照してください。
 
-1. ここで、オーサーインスタンスのAdobe Experience Managerで Externalizer を設定する必要があります。 [こちら](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html?lang=ja#configuring-the-externalizer)を参照してください。
+1. ここで、オーサーインスタンスのAdobe Experience Managerで Externalizer を設定する必要があります。 [こちら](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html#configuring-the-externalizer)を参照してください。

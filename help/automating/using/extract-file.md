@@ -1,15 +1,16 @@
 ---
 title: ファイル抽出
-description: 「Extract file」アクティビティを使用すると、Adobe Campaign から外部ファイルの形式でデータを書き出すことができます。
+description: 「抽出ファイル」アクティビティを使用すると、Adobe Campaign から外部ファイルの形式でデータをエクスポートできます。
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
 context-tags: fileExport,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: ccf73563-f0f8-4397-ba96-7c5727562acd
-source-git-commit: 88035d0e4f77d66e8b2a74650857bf4ef45744c3
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 78%
@@ -22,7 +23,7 @@ ht-degree: 78%
 
 ![](assets/export.png)
 
-「**[!UICONTROL Extract file]**」アクティビティを使用すると、Adobe Campaign から外部ファイルの形式でデータを書き出すことができます。
+「**[!UICONTROL Extract file]**」アクティビティを使用すると、Adobe Campaign から外部ファイルの形式でデータをエクスポートできます。
 
 ## 使用コンテキスト {#context-of-use}
 
@@ -51,7 +52,7 @@ ht-degree: 78%
 
 1. 必要に応じて、「**[!UICONTROL Add a post-processing stage]**」フィールドの **[!UICONTROL Compression]** を選択して、出力ファイルを zip 形式で圧縮できます。出力ファイルは圧縮されて GZIP ファイル（.gz）になります。
 
-   また、**[!UICONTROL Add a post-processing stage]** フィールドを使用すると、ファイルを抽出する前に暗号化することもできます。 暗号化ファイルの操作方法について詳しくは、[&#x200B; この節 &#x200B;](../../automating/using/managing-encrypted-data.md) を参照してください。
+   また、**[!UICONTROL Add a post-processing stage]** フィールドを使用すると、ファイルを抽出する前に暗号化することもできます。 暗号化ファイルの操作方法について詳しくは、[ この節 ](../../automating/using/managing-encrypted-data.md) を参照してください。
 
 1. 「**[!UICONTROL Create element]**」ボタンをクリックして、出力列を追加します。
 
@@ -68,11 +69,11 @@ ht-degree: 78%
 
 1. 必要な数の列を作成します。列の式とラベルをクリックすると、列を編集できます。
 
-   プロファイルを書き出して外部ツールで使用する場合は、一意の識別子を書き出す必要があります。デフォルトでは、すべてのプロファイルが一意の識別子を有しているわけではありません。一意の識別子の有無は、プロファイルがデータベースに追加される方法に左右されます。詳しくは、[プロファイルに対する一意の ID の生成](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)を参照してください。
+   プロファイルをエクスポートして外部ツールで使用する場合は、一意の識別子をエクスポートする必要があります。デフォルトでは、すべてのプロファイルが一意の識別子を有しているわけではありません。一意の識別子の有無は、プロファイルがデータベースに追加される方法に左右されます。詳しくは、[プロファイルに対する一意の ID の生成](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)を参照してください。
 
-1. 「**[!UICONTROL File structure]**」タブをクリックして、書き出すファイルの出力、日付、数値の形式を設定します。
+1. 「**[!UICONTROL File structure]**」タブをクリックして、エクスポートするファイルの出力、日付、数値の形式を設定します。
 
-   定義済みリストの値を書き出す場合は、「**[!UICONTROL Export labels instead of internal values of enumerations]**」オプションを選択します。このオプションを使用すると、ID の代わりに短くてわかりやすいラベルを取得できます。
+   定義済みリストの値をエクスポートする場合は、「**[!UICONTROL Export labels instead of internal values of enumerations]**」オプションを選択します。このオプションを使用すると、ID の代わりに短くてわかりやすいラベルを取得できます。
 
    ![](assets/extract-file-file-structure.png)
 

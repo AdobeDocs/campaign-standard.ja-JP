@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: reconciliation,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: ed2e3793-6164-48af-9043-42dc43fa8ed4
-source-git-commit: c2c8d2d05bbc376e2153448ca0a9e6ba0f367420
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 78%
@@ -44,7 +45,7 @@ ht-degree: 78%
 
 例えば、**[!UICONTROL Reconciliation]** アクティビティを「データを読み込み」アクティビティの後に配置して、非標準のデータをデータベースに読み込むことができます。
 
-**エンリッチメント** アクティビティでは、ワークフローで処理する追加データを定義できますが（**エンリッチメント** アクティビティを使用すると、複数のセットからのデータを組み合わせたり、一時的なリソースへのリンクを作成したりできます）、**紐付け** アクティビティを使用すると、未識別データを既存のリソースにリンクできます。 紐付け操作は、リンクされたディメンションのデータが既にデータベースに存在することを意味します。 ユースケースについては、[&#x200B; この節 &#x200B;](#use-cases-reconciliation) を参照してください。
+**エンリッチメント** アクティビティでは、ワークフローで処理する追加データを定義できますが（**エンリッチメント** アクティビティを使用すると、複数のセットからのデータを組み合わせたり、一時的なリソースへのリンクを作成したりできます）、**紐付け** アクティビティを使用すると、未識別データを既存のリソースにリンクできます。 紐付け操作は、リンクされたディメンションのデータが既にデータベースに存在することを意味します。 ユースケースについては、[ この節 ](#use-cases-reconciliation) を参照してください。
 
 
 ## 設定 {#configuration}

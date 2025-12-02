@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: setOfService,workflow,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 06ae4a5c-f112-4aac-b776-437ac35a8f02
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 61%
@@ -24,7 +25,7 @@ ht-degree: 61%
 
 ![](assets/subscription_activity_example1.png)
 
-* [&#x200B; ファイルを読み込み &#x200B;](../../automating/using/load-file.md) アクティビティは、プロファイルファイルを読み込み、読み込んだ列の構造を定義します。
+* [ ファイルを読み込み ](../../automating/using/load-file.md) アクティビティは、プロファイルファイルを読み込み、読み込んだ列の構造を定義します。
 
   この例では、読み込まれるファイルは .csv 形式で、次のデータが含まれています。
 
@@ -47,10 +48,10 @@ ht-degree: 61%
 
   ![](assets/subscription_activity_example3.png)
 
-* [&#x200B; 重複排除 &#x200B;](../../automating/using/deduplication.md) 一時リソースの **メール** フィールド（紐付けの結果）に基づいて、重複を識別します。 ファイルからインポートしたデータに重複が含まれている場合、サービスへの購読登録はすべてのデータで失敗します。
+* [ 重複排除 ](../../automating/using/deduplication.md) 一時リソースの **メール** フィールド（紐付けの結果）に基づいて、重複を識別します。 ファイルからインポートしたデータに重複が含まれている場合、サービスへの購読登録はすべてのデータで失敗します。
 
   ![](assets/subscription_activity_example5.png)
 
-* [&#x200B; 購読サービス &#x200B;](../../automating/using/subscription-services.md) アクティビティでは、プロファイルを購読する必要があるサービス、購読日に対応するフィールド、購読の接触チャネルを選択できます。
+* [ 購読サービス ](../../automating/using/subscription-services.md) アクティビティでは、プロファイルを購読する必要があるサービス、購読日に対応するフィールド、購読の接触チャネルを選択できます。
 
   ![](assets/subscription_activity_example4.png)

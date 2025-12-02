@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: enrichment,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: c8af67b0-6789-4b4e-9d01-e2dfa14f1e8f
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 95%
@@ -34,7 +35,7 @@ ht-degree: 95%
 
 **関連トピック**
 
-* [&#x200B; ユースケース：ファイルに含まれるデータでプロファイルデータを強化する &#x200B;](../../automating/using/enriching-profile-data-file.md)
+* [ ユースケース：ファイルに含まれるデータでプロファイルデータを強化する ](../../automating/using/enriching-profile-data-file.md)
 * [ユースケース：フィールドがエンリッチメントされたメールの送信](../../automating/using/sending-email-enriched-fields.md)
 
 ## 設定 {#configuration}

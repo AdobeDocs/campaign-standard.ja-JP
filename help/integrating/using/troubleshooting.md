@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 5882ada6-dff4-4fd1-a433-0eb31570f73c
-source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 18%
@@ -17,7 +18,7 @@ ht-degree: 18%
 
 # トラブルシューティング{#troubleshooting}
 
-Audience Managerまたは人物コアサービスとの統合の使用中にエラーが発生する場合があります。
+Audience Managerまたは People コアサービスとの統合の使用中にエラーが発生する場合があります。
 
 この場合、次の要素が正しく設定されていることを確認します。
 
@@ -46,6 +47,6 @@ Audience Managerまたは人物コアサービスとの統合の使用中にエ�
    * AES の **Encryption IV** （初期化ベクトル）
    * **チャネル** （メール/SMS/その他）：このフィールドでは、メールアドレスと SMS 番号を直接復号化できます。 紐付けキーが「**チャネル**」フィールドの設定と一致することを確認します。 「その他」を選択した場合、この特定の復号化は実行されず、紐付けキーがデータの紐付けに使用されます。
 
-  テクニカルワークフローが停止または一時停止しているので、Experience Cloudオーディエンスが共有されない可能性があります。 データソースの「**[!UICONTROL Import shared audience]**」オプションを直接クリックして、**[!UICONTROL Show ImportShared Audience workflow]** ワークフローにアクセスします。
+  テクニカルワークフローが停止または一時停止しているので、Experience Cloud オーディエンスが共有されない可能性があります。 データソースの「**[!UICONTROL Import shared audience]**」オプションを直接クリックして、**[!UICONTROL Show ImportShared Audience workflow]** ワークフローにアクセスします。
 
 People コアサービス経由でオーディエンスを共有したり、オーディエンスをインポートしたりすると、データが一部失われることがあります。ID（「訪問者 ID」または「宣言済み ID」）をプロファイルディメンションに紐付けることができたレコードだけが転送されます。Adobe Campaign によって認識されない People コアサービスセグメントからの ID はインポートされません。

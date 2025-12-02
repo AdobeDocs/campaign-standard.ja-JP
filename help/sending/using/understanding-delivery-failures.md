@@ -8,7 +8,7 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 92a83400-447a-4d23-b05c-0ea013042ffa
-source-git-commit: 449187bba167f9ce00e644d44a124b36030ba001
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1281'
 ht-degree: 66%
@@ -35,7 +35,7 @@ ht-degree: 66%
 
 * [強制隔離管理について](../../sending/using/understanding-quarantine-management.md)
 * [Campaign のオプトインとオプトアウトについて](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
-* [&#x200B; バウンス数 &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=ja#metrics-for-deliverability)
+* [ バウンス数 ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)
 
 ## メッセージの配信エラーの特定 {#identifying-delivery-failures-for-a-message}
 
@@ -64,7 +64,7 @@ ht-degree: 66%
 | **[!UICONTROL Mailbox full]** | ソフト | このユーザーのメールボックスはいっぱいになっていて、メッセージをこれ以上受け入れることができません。このアドレスを強制隔離リストから削除して、再度試行できます。30 日後に自動的に削除されます。 強制隔離されたアドレスのリストからアドレスを自動的に削除するには、**[!UICONTROL Database cleanup]**&#x200B;テクニカルワークフローを開始する必要があります。 |
 | **[!UICONTROL Refused]** | ソフト/ハード | アドレスは、スパムレポートであるというセキュリティフィードバックが原因で強制隔離されました。プロバイダーから返されるエラーに従い、アドレスは強制隔離に直接送られます。また配信は、強制隔離ステータスが妥当と判断されるエラーを Campaign が受け取るまで、またはエラー件数が 5 に達するまで試行されます。 |
 | **[!UICONTROL Duplicate]** | 無視 | アドレスはセグメント化で既に検出されています。 |
-| **[!UICONTROL Not defined]** | ソフト | エラーがインクリメントされていないので、アドレスは選定中です。 | まだ。 このタイプのエラーは、サーバーが新しいエラーメッセージを送信すると発生します。単独のエラーである可能性もありますが、再度発生した場合はエラーカウンターがインクリメントされ、テクニカルチームに警告されます。 |
+| **[!UICONTROL Not defined]** | ソフト | エラーがまだインクリメントされていないので、アドレスは選定中です。 このタイプのエラーは、サーバーが新しいエラーメッセージを送信すると発生します。単独のエラーである可能性もありますが、再度発生した場合はエラーカウンターがインクリメントされ、テクニカルチームに警告されます。 |
 | **[!UICONTROL Error ignored]** | 無視 | その住所は許可リストに書いてあり、いかなる場合でも電子メールが送られます。 |
 | **[!UICONTROL Address on denylist]** | ハード | このアドレスは送信時にブロックリストに追加されました。 |
 | **[!UICONTROL Account disabled]** | ソフト/ハード | インターネットアクセスプロバイダー（IAP）は、無操作状態が長時間続いていることを検出すると、ユーザーのアカウントを閉じることができます。その場合、ユーザーのアドレスへの配信は不可能になります。 ソフト／ハードタイプは、受け取ったエラーの種類によって異なります。使用されていない期間が 6 ヶ月に達したのでアカウントが一時的に無効になっても、有効化できる場合は、「**[!UICONTROL Erroneous]**」ステータスが割り当てられ、配信が再試行されます。アカウントが永続的に無効化されたことを、受信したエラーが示している場合、アカウントは強制隔離に直接送られます。 |
@@ -75,8 +75,8 @@ ht-degree: 66%
 
 
 **関連トピック：**
-* [&#x200B; ハードバウンス &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=ja#hard-bounces)
-* [&#x200B; ソフトバウンス &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=ja#soft-bounces)
+* [ ハードバウンス ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=ja#hard-bounces)
+* [ ソフトバウンス ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#soft-bounces)
 
 ## 一時的な配信エラーの後の再試行 {#retries-after-a-delivery-temporary-failure}
 
@@ -90,13 +90,13 @@ ht-degree: 66%
 
 >[!IMPORTANT]
 >
->**Campaign 配信の「**&#x200B;[!UICONTROL Delivery duration]&#x200B;**」パラメーターは、3.5 日以下に設定した場合にのみ、使用されるようになりました。** 3.5 日を超える値を定義した場合、その値は考慮されません。
+>**Campaign 配信の「**[!UICONTROL Delivery duration]**」パラメーターは、3.5 日以下に設定した場合にのみ、使用されるようになりました。** 3.5 日を超える値を定義した場合、その値は考慮されません。
 
 例えば、配信の再試行を 1 日後に停止する場合は、配信期間を **1d** に設定すると、再試行キューのメッセージは 1 日後に削除されます。
 
 >[!NOTE]
 >
->メッセージが最大 3.5 日間再試行キューに入れられましたが、配信に失敗した場合は、タイムアウトになり、メッセージのステータスが更新され <!--from **[!UICONTROL Sent]**-->[&#x200B; 配信ログ &#x200B;](../../sending/using/monitoring-a-delivery.md#delivery-logs) に **[!UICONTROL Failed]** 示されます。
+>メッセージが最大 3.5 日間再試行キューに入れられましたが、配信に失敗した場合は、タイムアウトになり、メッセージのステータスが更新され <!--from **[!UICONTROL Sent]**-->**[!UICONTROL Failed]** 配信ログ [ に ](../../sending/using/monitoring-a-delivery.md#delivery-logs) 示されます。
 
 <!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
 The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../administration/using/configuring-email-channel.md#sending-parameters)).-->
@@ -116,9 +116,9 @@ The default configuration allows five retries at one-hour intervals, followed by
 >
 >Campaign の&#x200B;**[!UICONTROL Message qualification]**&#x200B;テーブルでのバウンスの選定は使用されなくなりました。
 
-非同期バウンスは、引き続き「**[!UICONTROL Inbound email]**」ルールを通じて、inMail プロセスで選定されます。これらの規則にアクセスするには、左上の **0&rbrace;Adobe&rbrace; ロゴをクリックし、「**&#x200B;[!UICONTROL Administration > Channels > Email > Email processing rules]&#x200B;**」を選択して「**&#x200B;[!UICONTROL Bounce mails]&#x200B;**」を選択します。**&#x200B;このルールについて詳しくは、[&#x200B; この節 &#x200B;](../../administration/using/configuring-email-channel.md#email-processing-rules) を参照してください。
+非同期バウンスは、引き続き「**[!UICONTROL Inbound email]**」ルールを通じて、inMail プロセスで選定されます。これらの規則にアクセスするには、左上の **Adobe** ロゴをクリックしてから、「**[!UICONTROL Administration > Channels > Email > Email processing rules]**」を選択し、「**[!UICONTROL Bounce mails]**」を選択します。 このルールについて詳しくは、[ この節 ](../../administration/using/configuring-email-channel.md#email-processing-rules) を参照してください。
 
-バウンスとさまざまなバウンスについて詳しくは、[&#x200B; この節 &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=ja#metrics-for-deliverability) を参照してください。
+バウンスとさまざまなバウンスについて詳しくは、[ この節 ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability) を参照してください。
 
 <!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
 

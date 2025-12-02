@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,wizard;workflow,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 7553588c-4679-4dfd-93cb-e705ad4dc0aa
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '976'
 ht-degree: 91%
@@ -40,7 +41,7 @@ ht-degree: 91%
 
 ワークフローは、プログラム、キャンペーン、マーケティングアクティビティリストのいずれかから作成できます。
 
-![](assets/do-not-localize/how-to-video.png) [&#x200B; ビデオでワークフローの作成方法を確認する &#x200B;](#video)
+![](assets/do-not-localize/how-to-video.png) [ ビデオでワークフローの作成方法を確認する ](#video)
 
 マーケティングアクティビティの作成について詳しくは、[マーケティングアクティビティの作成](../../start/using/marketing-activities.md#creating-a-marketing-activity)の節を参照してください。
 
@@ -72,7 +73,7 @@ ht-degree: 91%
 
    例えば、ワークフローのすべてのアクティビティでデフォルトで使用する特定のタイムゾーンを定義できます。デフォルトでは、現在の Campaign オペレーターに指定されたタイムゾーンがワークフローのタイムゾーンになります。
 
-   ワークフローのプロパティについて詳しくは、[&#x200B; このページ &#x200B;](../../automating/using/managing-execution-options.md) を参照してください。
+   ワークフローのプロパティについて詳しくは、[ このページ ](../../automating/using/managing-execution-options.md) を参照してください。
 
    ![](assets/workflow_properties.png)
 
@@ -135,6 +136,6 @@ ht-degree: 91%
 
 このビデオでは、ワークフローの作成方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/27575?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/23937?quality=12)
 
-その他のCampaign Standardチュートリアルビデオについては、[&#x200B; こちら &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja) を参照してください。
+Campaign Standardに関するその他のチュートリアルビデオについては [ こちら ](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja) を参照してください。

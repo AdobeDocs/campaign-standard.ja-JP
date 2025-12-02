@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 63864f0f-2c22-4a65-86ae-21897031f30a
-source-git-commit: 013293fce8a923e771e10585c41e4ad482003080
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '48'
 ht-degree: 16%
@@ -19,7 +20,7 @@ ht-degree: 16%
 
 **GET** リクエストを使用して、作成されたプライバシーリクエストに関する情報を監視できます。
 
-ステータスリストの説明については、[&#x200B; プライバシー管理ドキュメント &#x200B;](../../start/using/privacy-requests.md) を参照してください。
+ステータスリストの説明については、[ プライバシー管理ドキュメント ](../../start/using/privacy-requests.md) を参照してください。
 
 <br/>
 
@@ -33,7 +34,7 @@ ht-degree: 16%
 -H 'Content-Type: application/json;charset=utf-8'
 ```
 
-GETリクエストへの応答。
+GET リクエストへの応答。
 
 ```
 {

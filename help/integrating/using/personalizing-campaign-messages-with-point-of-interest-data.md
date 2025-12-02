@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics-for-mobile
 feature: Audiences
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: fcc79829-902d-4547-87c5-8a213e1257b7
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 10%
@@ -19,7 +20,7 @@ ht-degree: 10%
 
 Adobe Campaignでは、モバイルアプリケーションの購読者から収集した POI データを使用して、パーソナライズされたマーケティングメッセージ（メールなど）を送信できます。
 
-標準配信を使用して反応できるのは、目標点データのみです。 [&#x200B; トランザクションメッセージ &#x200B;](../../channels/using/getting-started-with-transactional-msg.md) は場所データを使用できません。
+標準配信を使用して反応できるのは、目標点データのみです。 [ トランザクションメッセージ ](../../channels/using/getting-started-with-transactional-msg.md) は場所データを使用できません。
 
 反応できる最も早い時間は約 10 分です。
 
@@ -30,7 +31,7 @@ Adobe Campaignでは、モバイルアプリケーションの購読者から収
 
    ![](assets/poi_subscriptions_app.png)
 
-   オーディエンスの管理について詳しくは、[&#x200B; オーディエンスの定義 &#x200B;](../../audiences/using/creating-audiences.md) の節を参照してください。
+   オーディエンスの管理について詳しくは、[ オーディエンスの定義 ](../../audiences/using/creating-audiences.md) の節を参照してください。
 
 1. **[!UICONTROL Add a rule - Profile/Subscriptions to an application]** ウィンドウで、**[!UICONTROL POI Location Subscription]** 要素をワークスペースにドラッグ&amp;ドロップします。
 

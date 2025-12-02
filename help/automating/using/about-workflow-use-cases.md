@@ -1,13 +1,14 @@
 ---
 title: ワークフローのユースケースについて
-description: Campaign Standardワークフローを使用して実行できるユースケースについて詳しく説明します。
+description: Campaign Standard ワークフローを使用して実行できるユースケースについて詳しく説明します。
 audience: automating
 content-type: reference
 topic-tags: about-workflows-and-data-management
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 exl-id: 210d1477-9536-4308-bdb7-b9ccfe4c85bc
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 85%

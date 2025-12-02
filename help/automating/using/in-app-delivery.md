@@ -5,10 +5,11 @@ audience: automating
 content-type: reference
 topic-tags: channel-activities
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 8d5a35c4-e22b-498e-b71c-c5922cf8c2fd
-source-git-commit: 21bcc9818b881212985988ef3377687069a1dbea
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '693'
 ht-degree: 39%
@@ -21,7 +22,7 @@ ht-degree: 39%
 
 ![](assets/wkf_in_app_1.png)
 
-**アプリ内配信** アクティビティでは、ワークフロー内でアプリ内メッセージの送信を設定できます。 アプリ内メッセージを使用すると、アプリケーション内でユーザーがアクティブな場合にメッセージを表示できます。 アプリ内配信について詳しくは、この [&#x200B; 節 &#x200B;](../../channels/using/about-in-app-messaging.md) を参照してください。
+**アプリ内配信** アクティビティでは、ワークフロー内でアプリ内メッセージの送信を設定できます。 アプリ内メッセージを使用すると、アプリケーション内でユーザーがアクティブな場合にメッセージを表示できます。 アプリ内配信について詳しくは、この [ 節 ](../../channels/using/about-in-app-messaging.md) を参照してください。
 
 ## 使用コンテキスト {#context-of-use}
 
@@ -33,11 +34,11 @@ ht-degree: 39%
 
 ## 設定 {#configuration}
 
-1. **[!UICONTROL Query]** アクティビティをワークフローにドラッグ&amp;ドロップします。 手順 4 で選択したテンプレートに従って、「**[!UICONTROL Properties]**」タブの **[!UICONTROL Query]** アクティビティのターゲティングディメンションを更新する必要があります。
+1. **[!UICONTROL Query]** アクティビティをワークフローにドラッグ&amp;ドロップします。 手順 4 で選択したテンプレートに従って、「**[!UICONTROL Query]**」タブの **[!UICONTROL Properties]** アクティビティのターゲティングディメンションを更新する必要があります。
 
-   * ターゲティングディメンションは、**[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]** テンプレートの **[!UICONTROL mobileApp (mobileAppV5)]** に設定する必要があります。
-   * ターゲティングディメンションは、**[!UICONTROL Target users based on their Campaign profile (inAppProfile)]** テンプレートの **[!UICONTROL profile (profile)]** に設定する必要があります。
-   * ターゲティングディメンションは、**[!UICONTROL Target users based on their Mobile profile (inApp)]** テンプレートの **[!UICONTROL subscriptions to an application (`nms:appSubscriptionRcp:appSubscriptionRcpDetail`）]** 設定する必要があります。
+   * ターゲティングディメンションは、**[!UICONTROL mobileApp (mobileAppV5)]** テンプレートの **[!UICONTROL Target all users of a Mobile app (inAppBroadcast)]** に設定する必要があります。
+   * ターゲティングディメンションは、**[!UICONTROL profile (profile)]** テンプレートの **[!UICONTROL Target users based on their Campaign profile (inAppProfile)]** に設定する必要があります。
+   * ターゲティングディメンションは、**[!UICONTROL subscriptions to an application (`nms:appSubscriptionRcp:appSubscriptionRcpDetail`テンプレートの]**） **[!UICONTROL Target users based on their Mobile profile (inApp)]** 設定する必要があります。
 
 1. ワークフローに「**[!UICONTROL In-App delivery]**」アクティビティをドラッグ＆ドロップします。
 1. アクティビティを選択し、表示されるクイックアクションの ![](assets/edit_darkgrey-24px.png) ボタンを使用して開きます。
@@ -58,7 +59,7 @@ ht-degree: 39%
 
 1. アプリ内メッセージのプロパティを入力し、「**[!UICONTROL Associate a Mobile App to a delivery]**」フィールドでモバイルアプリを選択します。
 1. 「**[!UICONTROL Triggers]**」タブで、メッセージのトリガーとして使用するイベントをドラッグ＆ドロップします。次の 3 つのカテゴリのイベントを使用できます。
-1. アプリ内コンテンツを定義します。 [&#x200B; アプリ内カスタマイズ &#x200B;](../../channels/using/customizing-an-in-app-message.md) に関する節を参照してください。
+1. アプリ内コンテンツを定義します。 [ アプリ内カスタマイズ ](../../channels/using/customizing-an-in-app-message.md) に関する節を参照してください。
 1. デフォルトでは、「**[!UICONTROL In-App delivery]**」アクティビティにアウトバウンドトランジションは含まれていません。アウトバウンドトランジションを「**[!UICONTROL In-App delivery]**」アクティビティに追加する場合は、アクティビティの詳細設定オプション（アクティビティのクイックアクションにある ![](assets/dlv_activity_params-24px.png) ボタンで開く）の「**[!UICONTROL General]**」タブに移動し、次のいずれかのオプションをオンにします。
 
    * **[!UICONTROL Add outbound transition without the population]**：インバウンドトランジションとまったく同じ母集団を含んだアウトバウンドトランジションを生成できます。

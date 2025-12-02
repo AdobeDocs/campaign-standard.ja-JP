@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: fileImport,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 373e4012-9daf-4da7-aad6-54726d991544
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1366'
 ht-degree: 91%
@@ -71,7 +72,7 @@ ht-degree: 91%
    * 別のファイルの構造を使用する場合は、「**[!UICONTROL Detect structure from a new file]**」オプションを選択します。
    * ファイルに合うように、デフォルトの検出パラメータを変更することができます。「**[!UICONTROL File type]**」フィールドでは、インポートするファイルが固定長の列で構成されているかどうかを指定します。その場合は、「**[!UICONTROL Column definition]**」タブで各列の最大文字数も指定する必要があります。
 
-     ファイルからデータを正しく回復するために必要なすべての検出オプションは、「**[!UICONTROL File format]**」に再グループ化されています。これらのオプションを変更してから、新しい設定を適用すると、アクティビティに最後に読み込まれたファイルの構造が再検出されます。これをおこなうには、「**[!UICONTROL Apply configuration]**」ボタンを使用します。例えば、別の列区切り文字を指定できます。
+     ファイルからデータを正しく回復するために必要なすべての検出オプションは、「**[!UICONTROL File format]**」に再グループ化されています。これらのオプションを変更してから、新しい設定を適用すると、アクティビティに最後に読み込まれたファイルの構造が再検出されます。これをおこなうには、「**[!UICONTROL Apply configuration]**」ボタンを使用します。例えば、別の列区切り記号を指定できます。
 
      >[!NOTE]
      >
@@ -105,7 +106,7 @@ ht-degree: 91%
 
 1. データの読み込み元のファイルが圧縮されて GZIP ファイル（.gz）になっている場合は、「**[!UICONTROL Add a pre-processing stage]**」フィールドで「**[!UICONTROL Decompression]**」オプションを選択します。これにより、データを読み込む前にファイルを解凍できます。このオプションは、ファイルがアクティビティの受信トランジションから送信されている場合にのみ使用できます。
 
-   また、「**[!UICONTROL Add a pre-processing stage]**」フィールドを使用すると、ファイルをデータベースに読み込む前に復号化できます。 暗号化ファイルの操作方法について詳しくは、[&#x200B; この節 &#x200B;](../../automating/using/managing-encrypted-data.md) を参照してください。
+   また、「**[!UICONTROL Add a pre-processing stage]**」フィールドを使用すると、ファイルをデータベースに読み込む前に復号化できます。 暗号化ファイルの操作方法について詳しくは、[ この節 ](../../automating/using/managing-encrypted-data.md) を参照してください。
 
 1. 「**[!UICONTROL Keep the rejects in a file]**」オプションを使用すると、インポート中に発生したエラーが含まれるファイルをダウンロードし、後処理段階でそのファイルに適用することができます。このオプションを有効にすると、送信トランジションの名前が「却下」に変更されます。
 
@@ -133,7 +134,7 @@ ht-degree: 91%
 
 * **[!UICONTROL Ignore column]**：データの読み込み時の処理で、この列をスキップします。
 * **[!UICONTROL Data type]**：各列に適用されるデータタイプを指定します。
-* **[!UICONTROL Format and separators]**、**プロパティ**：テキスト、時間、日付、数値の形式のプロパティ、および列コンテキストで指定される区切り文字を指定します。
+* **[!UICONTROL Format and separators]**、**プロパティ**：テキスト、時間、日付、数値の形式のプロパティ、および列コンテキストで指定される区切り記号を指定します。
 
    * **[!UICONTROL Maximum number of characters]**：文字列タイプの列の最大文字数を指定します。
 
@@ -143,7 +144,7 @@ ht-degree: 91%
    * **[!UICONTROL White space management]**：**テキスト**&#x200B;データの文字列で特定のスペースを無視する必要があるかどうかを指定します。
    * **[!UICONTROL Time format]**、**[!UICONTROL Date format]**：**日付**、**時間**、**日時**&#x200B;の各データの形式を指定します。
    * **[!UICONTROL Format]**：**整数**&#x200B;および&#x200B;**浮動小数点数**&#x200B;データの数値の形式を定義します。
-   * **[!UICONTROL Separator]**：**日付**、**時間**、**日時**、**整数**、**浮動小数点**&#x200B;の各データについて、列コンテキストで指定される区切り文字（数値の場合は桁区切り文字や小数点、日付と時間の場合は区切り文字）を定義します。
+   * **[!UICONTROL Separator]**：**日付**、**時間**、**日時**、**整数**、**浮動小数点**&#x200B;の各データについて、列コンテキストで指定される区切り記号（数値の場合は桁区切り記号や小数点、日付と時間の場合は区切り記号）を定義します。
 
 * **[!UICONTROL Remapping of values]**：このフィールドは、列の詳細設定でのみ使用できます。この設定により、特定の値をインポート時に変換できます。例えば、「three」を「3」に変換できます。
 * **[!UICONTROL Error processing]**：エラーが発生した場合の処理を定義します。
@@ -156,7 +157,7 @@ ht-degree: 91%
 
   >[!NOTE]
   >
-  >「**[!UICONTROL Error processing]**」で対象となるのは、インポートしたファイルの値に関するエラーです。例えば、異常なデータタイプ（「整数」タイプの列で英字の「four」が入力されている）、許可された最大文字数より多い文字を含む文字列、区切り文字の不具合のある日付などです。一方、このオプションでは、空の値の管理によって生成されるエラーは対象となりません。
+  >「**[!UICONTROL Error processing]**」で対象となるのは、インポートしたファイルの値に関するエラーです。例えば、異常なデータタイプ（「整数」タイプの列で英字の「four」が入力されている）、許可された最大文字数より多い文字を含む文字列、区切り記号の不具合のある日付などです。一方、このオプションでは、空の値の管理によって生成されるエラーは対象となりません。
 
 * **[!UICONTROL Default value]**：選択したエラーの処理方法に応じてデフォルトの値を選択します。
 * **[!UICONTROL Empty value management]**：データの読み込み中に空の値を管理する方法を指定します。

@@ -5,10 +5,11 @@ audience: automating
 content-type: reference
 topic-tags: filtering-data
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: d1575626-55bb-4303-a796-ad323a399330
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '2011'
 ht-degree: 94%
@@ -651,7 +652,7 @@ ht-degree: 94%
   </tr> 
   <tr> 
    <td> <strong>encryption_aescbcDecrypt</strong><br /> </td> 
-   <td> 暗号化された値を 16 進数形式で復号化します。その際に、プレフィックスとして「<strong>x</strong>」（第 1 パラメーター）を付け、16 進数形式のキー（第 2 パラメーター）と 16 進数形式の初期化ベクター（第 3 パラメーター）を使用します<br /> </td> 
+   <td> 暗号化された値を 16 進数形式で復号化します。その際に、接頭辞として「<strong>x</strong>」（第 1 パラメーター）を付け、16 進数形式のキー（第 2 パラメーター）と 16 進数形式の初期化ベクター（第 3 パラメーター）を使用します<br /> </td> 
    <td> encryption_aescbcDecrypt(&lt;文字列&gt;, &lt;文字列&gt;, &lt;文字列&gt;)<br /> </td> 
   </tr> 
   <tr> 

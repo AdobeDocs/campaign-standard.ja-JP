@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: ab21b694-d05c-4ba4-b828-936803651b82
-source-git-commit: c701043cbba22711de1ea7ddc5266e193d771e14
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '568'
 ht-degree: 0%
@@ -27,15 +28,15 @@ Adobe Campaign Standardで「プロファイル拡張機能」を有効にして
 
 1. 設定/管理/開発/公開に移動します。
 1. 「パブリケーションの準備」をクリックして、パブリケーションを準備します。
-1. 準備が完了したら、「Profiles &amp; Services Ext API を作成」をチェックし、「Publish」をクリックします。
+1. 準備が完了したら、「Profiles &amp; Services Ext API を作成」をチェックし、「公開」をクリックします。
 
 ## Adobe I/Oの設定 {#adobe-io}
 
-Adobe I/Oを使用すると、Adobe Campaign Standardや他のAdobe製品への API アクセスを有効にできます。   この記事では、Adobe Campaign StandardをMicrosoft Dynamics 365 と統合してデータをAdobe I/Oするためのアクセス権を付与するために同期を設定する方法について詳しく説明します。
+Adobe I/Oを使用すると、Adobe Campaign Standardや他のAdobe製品への API アクセスを有効にできます。   この記事では、Adobe Campaign StandardをAdobe I/O 365 と統合してデータを同期するためのアクセス権を付与するためにMicrosoft Dynamicsを設定する方法について詳しく説明します。
 
 ### 概要
 
-この記事では、事前統合設定を実行する前に、既にプロビジョニングされており、組織のCampaign Standardインスタンスへの管理者アクセス権を持っていることを前提としています。  まだ実行されていない場合は、Adobeカスタマーケアに連絡して Campaign のプロビジョニングを完了してください。
+この記事の事前統合設定を実行する前に、既にプロビジョニングされており、組織のCampaign Standard インスタンスに対する管理者アクセス権を持っていることを前提としています。  問題が発生していない場合は、Adobe カスタマーケアに連絡して、Campaign のプロビジョニングを完了してください。
 
 >[!CAUTION]
 >
@@ -51,7 +52,7 @@ Adobe I/Oを使用すると、Adobe Campaign Standardや他のAdobe製品への 
 
 1. [Adobe Developer Console](https://console.adobe.io/home#) に移動し、画面右上のドロップダウンメニューからAdobe組織 ID を選択します。
 
-1. 次に、「**[!UICONTROL Quick Start]**」の下の「**[!UICONTROL Create new project]**」をクリックします。
+1. 次に、「**[!UICONTROL Create new project]**」の下の「**[!UICONTROL Quick Start]**」をクリックします。
 
    ![](assets/adobeIO1.png)
 
@@ -69,7 +70,7 @@ Adobe I/Oを使用すると、Adobe Campaign Standardや他のAdobe製品への 
 
 1. 次の画面で、このプロジェクトに関連付ける製品プロファイルを選択します。 次のタイトルで、を含む製品プロファイルを選択します。Campaign インスタンスのテナント ID - [!UICONTROL Administrators]
 
-   例：Campaign Standard- your-campaign-tenantID - Administrators
+   例：Campaign Standard - your-campaign-tenantID - Administrators
 
 1. 「**[!UICONTROL Save configured API]**」をクリックします。
 
@@ -93,9 +94,9 @@ Adobe I/Oを使用すると、Adobe Campaign Standardや他のAdobe製品への 
 
 **関連トピック**
 
-* [Microsoft Dynamics 365 統合用のAdobe Developerの設定 &#x200B;](../../integrating/using/d365-acs-configure-adobe-io.md) は、統合を設定する次の手順です
-* [&#x200B; 統合セルフサービスアプリケーションの概要 &#x200B;](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md) には、統合を実行する手順の完全なリストが含まれています。
-* [Adobe Developer - サービス アカウントの統合 &#x200B;](https://developer.adobe.com/developer-console/docs/guides/#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)
+* [Microsoft Dynamics 365 統合用のAdobe Developerの設定 ](../../integrating/using/d365-acs-configure-adobe-io.md) は、統合を設定する次の手順です
+* [ 統合セルフサービスアプリケーションの概要 ](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md) には、統合を実行する手順の完全なリストが含まれています。
+* [Adobe Developer - サービス アカウントの統合 ](https://developer.adobe.com/developer-console/docs/guides/#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md)
 * [Campaign Standard - API アクセスの設定](../../api/using/setting-up-api-access.md)
-* [Campaign Standard- Dynamics 365 統合](../../integrating/using/d365-acs-configure-d365.md)
-* [JWT から OAuth サーバー間への資格情報の移行 &#x200B;](../../integrating/using/d365-acs-self-service-app-migrate-credentials.md) には、JWT から OAuth サーバー間に資格情報を移行する手順が含まれています。
+* [Campaign Standard - Dynamics 365 統合](../../integrating/using/d365-acs-configure-d365.md)
+* [JWT から OAuth サーバー間への資格情報の移行 ](../../integrating/using/d365-acs-self-service-app-migrate-credentials.md) には、JWT から OAuth サーバー間に資格情報を移行する手順が含まれています。

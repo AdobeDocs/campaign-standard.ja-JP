@@ -1,14 +1,15 @@
 ---
 title: GET/POST/PATCH/DELETE動詞
-description: Campaign StandardAPI で使用される動詞の詳細を説明します。
+description: Campaign Standard API で使用される動詞の詳細を説明します。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: de97a194-d497-4665-906e-53178fd3b119
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 0%
@@ -30,7 +31,7 @@ ht-degree: 0%
 
 ***サンプルリクエスト***
 
-* プロファイルコレクションに対するサンプルGETリクエスト。
+* プロファイルコレクションに対するGET リクエストのサンプル。
 
 
   ```
@@ -66,7 +67,7 @@ ht-degree: 0%
   }
   ```
 
-* 特定のプロファイルに対するサンプルGETリクエスト。
+* 特定のプロファイルでのサンプル GET リクエスト。
 
 
   ```
@@ -92,7 +93,7 @@ ht-degree: 0%
   }
   ```
 
-* プロファイルを作成するためのサンプルPOSTリクエスト。
+* プロファイルを作成するためのサンプル POST リクエスト。
 
 
   ```
@@ -116,7 +117,7 @@ ht-degree: 0%
   }
   ```
 
-* プロファイルを更新するサンプルPATCHリクエスト。
+* プロファイルを更新するPATCH リクエストのサンプル
 
   ```
   -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -136,7 +137,7 @@ ht-degree: 0%
   }
   ```
 
-* プロファイルを削除するサンプルDELETEリクエスト。
+* プロファイルを削除するDELETE リクエストのサンプル
 
   ```
   -X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \

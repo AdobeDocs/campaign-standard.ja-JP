@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: saveAudience,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: c3f029d7-779e-47e7-a925-1e8f672da4dd
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 99%
@@ -28,7 +29,7 @@ ht-degree: 99%
 >
 >「**[!UICONTROL Save audience]**」アクティビティを通じて作成されたオーディエンスが追加データで強化された場合、これらのデータを使用してスタンドアロン配信をパーソナライズすることはできません。ワークフローで実行される配信からのみ使用できます。
 
-また、このアクティビティでは、プロファイルを Adobe Experience Cloud のオーディエンス／セグメントとして書き出すこともできます。これにより、他の Adobe Experience Cloud ソリューションでこれらのオーディエンスを活用できます。共有オーディエンスの詳細については、[Campaign と People コアサービスの使用](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)を参照してください。
+また、このアクティビティでは、プロファイルを Adobe Experience Cloud のオーディエンス／セグメントとしてエクスポートすることもできます。これにより、他の Adobe Experience Cloud ソリューションでこれらのオーディエンスを活用できます。共有オーディエンスの詳細については、[Campaign と People コアサービスの使用](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)を参照してください。
 
 ## 使用コンテキスト {#context-of-use}
 
@@ -57,7 +58,7 @@ ht-degree: 99%
         警告：このオプションを選択すると、更新されたオーディエンスの種類またはターゲティングディメンションが現在のワークフローの設定と互換性がない場合、エラーが発生します。例えば、クエリーからのプロファイルを含むファイルタイプオーディエンスを完了することはできません。
 
    * **[!UICONTROL Create a new audience]**：作成するオーディエンスの名前を入力します。オーディエンスの作成日時が、オーディエンス名に自動的に追加されます。これにより、ワークフローが実行されるたびにオーディエンスが一意になります。
-   * **[!UICONTROL Share in Adobe Experience Cloud]**：ターゲットプロファイルがあり、オーディエンスを Adobe Experience Cloud に書き出す場合は、このオプションを選択し、その後既存の共有オーディエンスを選択するか、新しいオーディエンスを作成します。
+   * **[!UICONTROL Share in Adobe Experience Cloud]**：ターゲットプロファイルがあり、オーディエンスを Adobe Experience Cloud にエクスポートする場合は、このオプションを選択し、その後既存の共有オーディエンスを選択するか、新しいオーディエンスを作成します。
 
      また、データが Adobe Experience Cloud で正しく紐付けられるように、オーディエンスに含まれるデータのリソースに対応する **[!UICONTROL Shared Data source]** を選択します。
 

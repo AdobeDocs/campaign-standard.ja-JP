@@ -6,12 +6,13 @@ content-type: reference
 topic-tags: managing-audiences
 context-tags: audience,wizard;audience,overview;delivery,audience,back
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 9a6c542e-10ed-4e77-abb3-36324e1cb38f
 hide: true
 hidefromtoc: true
-source-git-commit: 110f3ccb5865e70c78e18485b4ff4ba7a648af3f
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '834'
 ht-degree: 3%
@@ -22,11 +23,11 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->Audience Destinations サービスは現在ベータ版です。予告なく頻繁に更新される場合があります。 これらの機能にアクセスするには、お客様を Azure でホストする必要があります（現在は北米向けのベータ版のみ）。 アクセスをご希望の場合は、Adobeカスタマーケアにお問い合わせください。
+>Audience Destinations サービスは現在ベータ版です。予告なく頻繁に更新される場合があります。 これらの機能にアクセスするには、お客様を Azure でホストする必要があります（現在は北米向けのベータ版のみ）。 へのアクセスを希望する場合は、Adobe カスタマーケアにお問い合わせください。
 
-セグメントビルダーを使用すると、（リアルタイム顧客プロファイル [&#x200B; からのデータに基づいてルールを定義することで、オーディエンスを構築 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja) きます。
+セグメントビルダーを使用すると、（リアルタイム顧客プロファイル [ からのデータに基づいてルールを定義することで、オーディエンスを構築 ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja) きます。
 
-この節では、セグメントを作成する際のグローバルな概念を示します。 セグメントビルダー自体の詳細については、『 [&#x200B; セグメントビルダーユーザーガイド &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja) 』を参照してください。
+この節では、セグメントを作成する際のグローバルな概念を示します。 セグメントビルダー自体の詳細については、『 [ セグメントビルダーユーザーガイド ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html) 』を参照してください。
 
 セグメントビルダーインターフェイスは、次のように構成されます。
 
@@ -48,7 +49,7 @@ ht-degree: 3%
 
 1. 設定ペインで目的の結合ポリシーが選択されていることを確認します。
 
-   結合ポリシーについて詳しくは、『 [&#x200B; セグメントビルダーユーザーガイド &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja) の該当する節を参照してください。
+   結合ポリシーについて詳しくは、『 [ セグメントビルダーユーザーガイド ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html) の該当する節を参照してください。
 
    ![](assets/aep_audiences_mergepolicy.png)
 
@@ -66,7 +67,7 @@ ht-degree: 3%
 
 左側のペインには、ルールの作成に使用できるすべての属性、イベントおよびオーディエンスが一覧表示されます。
 
-一覧表示されるフィールドは、会社が取得した属性であり、[&#x200B; エクスペリエンスデータモデル（XDM）システム &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja) を通じて使用できます。
+一覧表示されるフィールドは、会社が取得した属性であり、[ エクスペリエンスデータモデル（XDM）システム ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html) を通じて使用できます。
 
 フィールドは次のタブに整理されます。
 
@@ -82,7 +83,7 @@ ht-degree: 3%
 >
 >**マルチエンティティのセグメント化** を使用すると、製品、ストア、その他のプロファイル以外のクラスに基づく追加データで、プロファイルデータを拡張できます。 接続すると、追加のクラスのデータは、プロファイルスキーマ本来のデータと同じように使用できるようになります。
 >
->詳しくは、[該当するドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/multi-entity-segmentation.html?lang=ja)を参照してください。
+>詳しくは、[該当するドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/multi-entity-segmentation.html)を参照してください。
 
 デフォルトでは、セグメントビルダーには、既にデータが存在するフィールドが表示されます。 データが存在しないフィールドを含むスキーマ全体を表示するには、設定から「**[!UICONTROL Show full XDM schema]**」オプションを有効にします。
 
@@ -96,7 +97,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->以下の節では、ルール定義に関する全体的な情報を示します。 詳しくは、[&#x200B; セグメントビルダーユーザーガイド &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja) を参照してください。
+>以下の節では、ルール定義に関する全体的な情報を示します。 詳しくは、[ セグメントビルダーユーザーガイド ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html) を参照してください。
 
 ルールを作成するには、次の手順に従います。
 

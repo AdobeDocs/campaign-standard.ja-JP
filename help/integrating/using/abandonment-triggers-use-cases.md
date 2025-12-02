@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 88007e6f-2cdd-4fea-9739-525beaf7c658
-source-git-commit: 8be43668d1a4610c3388ad27e493a689925dc88c
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '996'
 ht-degree: 91%
@@ -44,7 +45,7 @@ ht-degree: 91%
 
 この使用例では、クライアントが Web サイトの訪問を中断するたびに実行される単純なトリガーを作成します。この例では、DTM で既にデータを収集して Adobe Analytics にプッシュしていて、すべてのイベントが作成されていることを前提としています。
 
-### Experience Cloudトリガーの作成 {#creating-an-experience-cloud-trigger}
+### Experience Cloud トリガーの作成 {#creating-an-experience-cloud-trigger}
 
 1. Experience Cloud アクティベーションコアサービスメニューから「**[!UICONTROL Manage Triggers]**」を選択します。
 
@@ -64,7 +65,7 @@ Experience Cloud トリガーを作成したら、Adobe Campaign で使用しま
 
 Adobe Campaign では、Experience Cloud で作成したトリガーにリンクしたトリガーを作成する必要があります。
 
-1. Adobe Campaignでトリガーを作成するには、左上隅の **0&rbrace;Adobe&rbrace; ロゴをクリックし、**&#x200B;[!UICONTROL Marketing plans]&#x200B;**/**&#x200B;[!UICONTROL Transactional messages]&#x200B;**/**&#x200B;[!UICONTROL Experience Cloud triggers]&#x200B;**を選択します。**
+1. Adobe Campaignでトリガーを作成するには、左上隅の **Adobe** ロゴをクリックし、**[!UICONTROL Marketing plans]**/**[!UICONTROL Transactional messages]**/**[!UICONTROL Experience Cloud triggers]** を選択します。
 
    ![](assets/remarketing_1.png)
 
@@ -121,7 +122,7 @@ Adobe Campaign では、Experience Cloud で作成したトリガーにリンク
 
 この使用例では、旅行予約 Web サイトを訪問し、目的地を検索し、望む結果を得られず、その後予約をしていない訪問者に再度接触するためのトリガーを作成します。全体的なプロセスは、前の使用例と同じです（[閲覧中断トリガー](#browse-abandonment-trigger)を参照）。ここでは、リマーケティング用のメールメッセージをパーソナライズする方法を説明します。
 
-### Experience Cloudトリガーの作成 {#creating-an-experience-cloud-trigger-1}
+### Experience Cloud トリガーの作成 {#creating-an-experience-cloud-trigger-1}
 
 前の使用例で説明した手順に従って、Experience Cloud トリガーを作成します。詳しくは、[Experience Cloud トリガーの作成](#creating-an-experience-cloud-trigger)を参照してください。主な違いは、トリガーの定義です。
 

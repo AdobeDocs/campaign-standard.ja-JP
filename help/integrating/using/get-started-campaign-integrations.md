@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: get-started-campaign-integrations
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: ecf88c7d-6729-4b3a-85c4-60427bb57442
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '657'
 ht-degree: 78%
@@ -49,7 +50,7 @@ ht-degree: 78%
    <td> Adobe Experience Manager<br /> </td> 
    <td> メールコンテンツや Adobe Campaign データベースにマッピングされたフォームを Adobe Experience Manager で直接作成することができます。<br /> </td> 
    <td> 
-     <a href="../../integrating/using/integrating-with-experience-manager.md">Campaign とExperience Managerの操作 </a>、<a href="https://helpx.adobe.com/jp/experience-manager/6-4/sites/administering/using/campaignstandard.html">Experience ManagerとCampaign Standardの統合 </a>、<a href="https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html?lang=ja">Experience Managerと Campaign を使用したメールの作成 </a> 
+     <a href="../../integrating/using/integrating-with-experience-manager.md">Campaign とExperience Managerの操作 </a>、<a href="https://helpx.adobe.com/jp/experience-manager/6-4/sites/administering/using/campaignstandard.html">Experience ManagerとCampaign Standardの統合 </a>、<a href="https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html">Experience Managerと Campaign を使用したメールの作成 </a> 
     </td> 
   </tr> 
   <tr> 
@@ -72,12 +73,12 @@ ht-degree: 78%
    <td> <a href="../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md">People コアサービス（プロファイルとオーディエンス）</a><br /> </td> 
   </tr> 
    <tr> 
-   <td> Adobe Real-time Customer Data Platform（RTCDP） <br /> </td> 
-   <td> Adobe CampaignとAdobe Real-time Customer Data Platform（RTCDP）の統合により、セグメントデータの共有およびAdobe Campaignへのオーディエンスの読み込みが可能になります。</td>
+   <td> Adobe Real-time Customer Data Platform （RTCDP） <br /> </td> 
+   <td> Adobe Campaignと Adobe Real-time Customer Data Platform （RTCDP）の統合により、セグメントデータの共有およびAdobe Campaignへのオーディエンスのインポートが可能になります。</td>
    <td><a href="../../integrating/using/get-started-sources-destinations.md">ソースと宛先の概要</a></td>
   </tr> 
   <tr> 
-   <td> Asset Core Service とAssets On Demand のAdobe版 <br /> </td> 
+   <td> Adobe Asset コアサービスおよびAssets オンデマンド <br /> </td> 
    <td> Adobe Campaign で作成したメールとランディングページに Adobe Experience Cloud ライブラリからアセットを挿入することができます。<br /> </td> 
    <td> <a href="../../integrating/using/working-with-campaign-and-assets-core-service.md">Assets コアサービス</a>と Assets On Demand<br /> </td> 
   </tr> 
@@ -87,7 +88,7 @@ ht-degree: 78%
    <td> <a href="../../integrating/using/about-campaign-points-of-interest-data-integration.md">Campaign および Points of Interest データを利用した位置情報マーケティングメッセージの送信</a>（Analytics for Mobile）<br /> </td> 
   </tr> 
   <tr> 
-   <td> Adobe Experience Cloud Triggers<br /> </td> 
+   <td> Adobe Experience Cloud トリガー <br /> </td> 
    <td> Adobe Analytics によって Web サイト上で追跡される特定の行動に応じて、Adobe Campaign を使用して顧客にパーソナライズされたメールを送信できます。<br /> </td> 
    <td> 
     <a href="../../integrating/using/about-adobe-experience-cloud-triggers.md">Campaign Standard での Experience Cloud Triggers の使用</a>、<a href="../../integrating/using/abandonment-triggers-use-cases.md">離脱トリガー（Campaign の使用例）</a>、<a href="https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html">サイトアクティビティに基づくリマーケティングメッセージのトリガー</a>ビデオ（手順 2）
@@ -95,8 +96,8 @@ ht-degree: 78%
   </tr> 
     <tr> 
    <td> AdobeJourney Orchestration<br /> </td> 
-   <td> 標準搭載のアクションにより、AdobeJourney Orchestrationのコンテキストで、Adobe Campaign Standardのトランザクションメッセージ機能を使用して、メール、プッシュ通知、SMS を送信できます。<br /> </td> 
-   <td> <a href="https://experienceleague.adobe.com/docs/journeys/using/action-journeys/working-with-adobe-campaign.html?lang=ja">AdobeJourney OrchestrationとAdobe Campaign Standardの操作 </a><br /> </td> 
+   <td> 標準搭載のアクションにより、Adobe Journey Orchestrationのコンテキストで、Adobe Campaign Standardのトランザクションメッセージ機能を使用して、メール、プッシュ通知、SMS を送信できます。<br /> </td> 
+   <td> <a href="https://experienceleague.adobe.com/docs/journeys/using/action-journeys/working-with-adobe-campaign.html">Adobe Journey OrchestrationとAdobe Campaign Standardの操作 </a><br /> </td> 
   </tr> 
   <tr> 
    <td> Adobe Dreamweaver<br /> </td> 

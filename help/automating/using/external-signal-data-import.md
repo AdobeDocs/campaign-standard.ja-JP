@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: execution-activities
 context-tags: signal,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: e2997cf5-861b-4202-aeb7-3a47c4d55bef
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 79%
@@ -38,13 +39,13 @@ ht-degree: 79%
 
 * 「[紐付け](../../automating/using/reconciliation.md)」アクティビティで、インポートしたデータとデータベースの間にリンクが作成されます。その結果、トランザクションデータがプロファイルおよび製品に正しく接続されるようになります。
 * 「[データ更新](../../automating/using/update-data.md)」アクティビティによって、データベースのトランザクションリソースが挿入され、受信データで更新されます。
-* [&#x200B; 終了 &#x200B;](../../automating/using/start-and-end.md) アクティビティは、集計の更新に使用される宛先ワークフローのトリガーを設定します。
+* [ 終了 ](../../automating/using/start-and-end.md) アクティビティは、集計の更新に使用される宛先ワークフローのトリガーを設定します。
 
 ![](assets/signal_example_source1.png)
 
 宛先ワークフローは次のとおりです。
 
-* [&#x200B; 外部シグナル &#x200B;](../../automating/using/external-signal.md) アクティビティは、ソースワークフローが正常に完了するのを待ちます。
+* [ 外部シグナル ](../../automating/using/external-signal.md) アクティビティは、ソースワークフローが正常に完了するのを待ちます。
 * 「[クエリ](../../automating/using/query.md#enriching-data)」アクティビティで、プロファイルをターゲットとし、コレクションセットでエンリッチメントを実行して最終購入日を取得します。
 * 「[データ更新](../../automating/using/update-data.md)」アクティビティで、専用のカスタムフィールドに追加データを保存します。なお、プロファイルリソースは、「**最終購入日**」フィールドを追加するために拡張されています。
 

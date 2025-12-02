@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: execution-activities
 context-tags: workflow,use-case,query
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: f611e023-f74c-476e-83b9-aff451f68c81
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 33%
@@ -26,7 +27,7 @@ ht-degree: 33%
 
 ## スケジューラーアクティビティの作成 {#creating-a-scheduler-activity}
 
-1. **[!UICONTROL Activities]**/**[!UICONTROL Execution]** で、「[&#x200B; スケジューラー &#x200B;](../../automating/using/scheduler.md)」アクティビティをドラッグ&amp;ドロップします。
+1. **[!UICONTROL Activities]**/**[!UICONTROL Execution]** で、「[ スケジューラー ](../../automating/using/scheduler.md)」アクティビティをドラッグ&amp;ドロップします。
 1. アクティビティをダブルクリックします。
 1. 配信の実行を設定します。
 1. 「**[!UICONTROL Execution frequency]**」で、「**[!UICONTROL Daily]**」を選択します。
@@ -42,17 +43,17 @@ ht-degree: 33%
 
 ## クエリ アクティビティの作成 {#creating-a-query-activity}
 
-1. 受信者を選択するには、[&#x200B; クエリ &#x200B;](../../automating/using/query.md) アクティビティをドラッグ&amp;ドロップし、ダブルクリックします。
-1. **[!UICONTROL Profiles]** を追加し、値が **[!UICONTROL no]** の **[!UICONTROL no longer contact by email]** を選択します。
+1. 受信者を選択するには、[ クエリ ](../../automating/using/query.md) アクティビティをドラッグ&amp;ドロップし、ダブルクリックします。
+1. **[!UICONTROL Profiles]** を追加し、値が **[!UICONTROL no longer contact by email]** の **[!UICONTROL no]** を選択します。
 
 ### 実行日と同じ日に作成されたプロファイルを取得 {#retrieving-profiles-created-on-the-same-day}
 
 1. **[!UICONTROL Profile]** で、**[!UICONTROL Created]** フィールドをドラッグ&amp;ドロップします。 「**[!UICONTROL Advanced Mode]**」をクリックします。
    ![](assets/advanced_mode.png)
-1. **[!UICONTROL list of functions]** で、**[!UICONTROL Date]** ノードの **[!UICONTROL Day]** をダブルクリックします。
+1. **[!UICONTROL list of functions]** で、**[!UICONTROL Day]** ノードの **[!UICONTROL Date]** をダブルクリックします。
 1. 次に、フィールド **[!UICONTROL Created]** を引数として挿入します。
 1. 演算子として「**[!UICONTROL equals to (=)]**」を選択します。
-1. 「値」で、**[!UICONTROL List of functions]** の **[!UICONTROL Date]** ノードから「**[!UICONTROL Day]**」を選択します。
+1. 「値」で、**[!UICONTROL Day]** の **[!UICONTROL Date]** ノードから「**[!UICONTROL List of functions]**」を選択します。
 1. **[!UICONTROL GetDate()]** 関数を引数として挿入します。
 
 作成日が現在の日付に等しいプロファイルを取得しました。
@@ -86,7 +87,7 @@ ht-degree: 33%
 
 ## メール配信の作成{#creating-an-email-delivery}
 
-1. [&#x200B; メール配信 &#x200B;](../../automating/using/email-delivery.md) アクティビティをドラッグ&amp;ドロップします。
+1. [ メール配信 ](../../automating/using/email-delivery.md) アクティビティをドラッグ&amp;ドロップします。
 1. アクティビティをクリックし、![](assets/edit_darkgrey-24px.png) を選択して編集します。
 1. 「**[!UICONTROL Recurring email]**」を選択し、「**[!UICONTROL Next]**」をクリックします。
 1. メールテンプレートを選択し、「**[!UICONTROL Next]**」をクリックします。

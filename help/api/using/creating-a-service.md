@@ -2,10 +2,11 @@
 title: API を使用したサービスの作成
 description: API を使用してサービスを作成する方法を学ぶ
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 91bbce9e-a618-4be2-840b-c7d021271f4e
-source-git-commit: 02f1ef1f960cf98b5277b2db960e61ae20e22209
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '77'
 ht-degree: 0%
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 # API を使用したサービスの作成{#creating-a-service-api}
 
-サービスの作成は、サービス リソースの **POST** リクエストで実行されます。
+サービスの作成は、サービスリソースに対する **POST** リクエストで実行されます。
 
 特定の属性でサービスを作成する場合は、それらをペイロードに追加します。 それ以外の場合は、新しいサービスがデフォルトのサービスで作成されます。
 
@@ -22,7 +23,7 @@ ht-degree: 0%
 
 ***リクエストのサンプル***
 
-特定の属性を持つサービスを作成するためのサンプルPOSTリクエスト。
+特定の属性を持つサービスを作成するためのサンプル POST リクエスト。
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/ \

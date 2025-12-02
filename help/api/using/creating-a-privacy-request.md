@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 06ad2e13-922b-4f35-8726-007427125c63
-source-git-commit: 4b0c4fb13cc11c06e2487e531ca96574e49b6beb
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 4%
@@ -23,12 +24,12 @@ ht-degree: 4%
 
 プライバシーリクエストは、**POST** リクエストを使用して作成されます。
 
-リクエストを作成する前に、名前空間を定義する必要があります。 詳しくは、[&#x200B; プライバシー管理ドキュメント &#x200B;](../../start/using/privacy-requests.md) を参照してください。
+リクエストを作成する前に、名前空間を定義する必要があります。 詳しくは、[ プライバシー管理ドキュメント ](../../start/using/privacy-requests.md) を参照してください。
 
 ペイロードには、次のパラメーターを含める必要があります。
 
 * **name**：一意の内部名
-* **namespace**:Campaign Standardインターフェイスで設定された名前空間名
+* **namespace**:Campaign Standard インターフェイスで設定された名前空間名
 * **reconciliationValue**：名前空間で定義された紐付けキーに基づく紐付け値
 * **label**：リクエストラベル
 * **type**：リクエストのタイプ。 指定できる値は、「access」または「delete」です。
@@ -38,7 +39,7 @@ ht-degree: 4%
 
 ***リクエストのサンプル***
 
-このPOSTリクエストは、名前空間 AMCDS2 で定義された電子メールの紐付けキーに基づいてプライバシーリクエストを作成します。
+この POST リクエストは、名前空間 AMCDS2 で定義されたメール紐付けキーに基づいてプライバシーリクエストを作成します。
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/privacy/privacyTool \
@@ -57,7 +58,7 @@ ht-degree: 4%
 }
 ```
 
-POSTリクエストへの応答。
+POST リクエストへの応答。
 
 ```
 {

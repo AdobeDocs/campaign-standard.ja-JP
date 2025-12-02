@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 19bfeecb-da60-479c-a929-0cfb72ef59e3
-source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 0%
@@ -37,7 +38,7 @@ ht-degree: 0%
 GET /customResources/resourceType/<customResourceName>
 ```
 
-作成、更新、削除を行うには、GET、POST、PATCH、DELETEを使用します。
+作成、更新または削除を実行するには、GET、POST、PATCH、DELETEを使用します。
 
 ```
 POST /customResources/<customResourceName>
@@ -45,4 +46,4 @@ POST /customResources/<customResourceName>
 
 >[!NOTE]
 >プライバシー API エンドポイントとワークフロー（/privacy/privacyTool）が、プロファイルエンティティにリンクされていないカスタムリソースを管理していません。
->これらのカスタムリソースの PII を管理およびクリーンアップする責任があります。 プライバシーツールについて詳しくは、[&#x200B; ここをクリック &#x200B;](../../api/using/creating-a-privacy-request.md) してください。
+>これらのカスタムリソースの PII を管理およびクリーンアップする責任があります。 プライバシーツールについて詳しくは、[ ここをクリック ](../../api/using/creating-a-privacy-request.md) してください。

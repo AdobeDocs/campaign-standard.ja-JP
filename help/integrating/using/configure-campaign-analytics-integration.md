@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: a6748b4b-36c5-4961-a599-ace73a8504cc
-source-git-commit: 26260b9e633d8be1652eeb46c982864a7477da27
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 7%
@@ -28,7 +29,7 @@ Adobe Campaign StandardとAdobe Analyticsの統合を開始するには、まず
 
    ![](assets/analytics_2.png)
 
-1. **[!UICONTROL Connection]** フィールドに **[!UICONTROL Web services user name]** と **[!UICONTROL Web services share secret]** を指定します。
+1. **[!UICONTROL Web services user name]** フィールドに **[!UICONTROL Web services share secret]** と **[!UICONTROL Connection]** を指定します。
 
    これらのパラメーターは、**[!UICONTROL Admin > Company settings > Web services]** を選択すると Analytics で見つかります。
 
@@ -51,4 +52,4 @@ Adobe Campaign StandardとAdobe Analyticsの統合を開始するには、まず
 
 * [外部アカウント](../../administration/using/external-accounts.md)
 * [テクニカルワークフロー](../../administration/using/technical-workflows.md)
-* [&#x200B; 統合キャンペーンレポート用の KPI の共有 &#x200B;](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html) ビデオ
+* [ 統合キャンペーンレポート用の KPI の共有 ](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html) ビデオ

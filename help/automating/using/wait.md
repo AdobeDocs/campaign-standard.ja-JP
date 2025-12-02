@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: execution-activities
 context-tags: wait,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 2ddc1b2b-0df5-4c91-a381-451cc094f2eb
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 98%
@@ -48,7 +49,7 @@ ht-degree: 98%
 
 ![](assets/wait_example_workflow.png)
 
-* 最初の「**[!UICONTROL Query]**」アクティビティでは、招待メールを送信するプロファイルのターゲティングをおこないます。
+* 最初の「**[!UICONTROL Query]**」アクティビティでは、招待メールを送信するプロファイルをターゲットにします。
 * 「**[!UICONTROL Email delivery]**」では、選択したプロファイルに対して最初の招待メールを送信します。
 * 24 時間の「**[!UICONTROL Wait]**」アクティビティにより、招待メールが送信された後、その他のワークフローを実行するまで一定の時間を空けます。
 * 2 つ目の「**[!UICONTROL Query]**」では、最初のメールを受信したものの記載されているサブスクリプションリンクをクリックしなかったプロファイルをターゲットに指定します。

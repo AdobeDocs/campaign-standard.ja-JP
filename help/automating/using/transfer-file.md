@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: fileTransfer,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 736bf3dc-96c4-4518-96f8-d9aaa46d7f84
-source-git-commit: 53852538ac1e092dc9376119f29d969ed4b02952
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1170'
 ht-degree: 77%
@@ -64,7 +65,7 @@ ht-degree: 77%
 
      <!--**[!UICONTROL Disable passive mode]**: allows you to specify the connection port to be used for data transfer.-->
 
-   * **[!UICONTROL List all files]**：このオプションは、「**[!UICONTROL General]**」タブの「**[!UICONTROL File listing]**」アクションを選択した場合に使用できます。 サーバー上に存在するすべてのファイルのインデックスを **vars.filenames** イベント変数に作成できます。この変数では、ファイル名が **&#39;n&#39;** 文字で区切られています。
+   * **[!UICONTROL List all files]**：このオプションは、「**[!UICONTROL File listing]**」タブの「**[!UICONTROL General]**」アクションを選択した場合に使用できます。 サーバー上に存在するすべてのファイルのインデックスを **vars.filenames** イベント変数に作成できます。この変数では、ファイル名が **&#39;n&#39;** 文字で区切られています。
 
 1. 「**[!UICONTROL Advanced options]**」タブの「**[!UICONTROL If no files are found]**」セクションでは、アクティビティの起動時にエラーや存在しないファイルが検出された場合の特定のアクションを設定できます。
 
@@ -134,7 +135,7 @@ Microsoft Azure Blob プロトコルを使用すると、Microsoft Azure Blob St
 
    >[!CAUTION]
    >
-   >ワイルドカードを使用して複数のファイル名と一致させることはできません。代わりに、プレフィックスを入力する必要があります。そのプレフィックスに一致するすべての BLOB 名が対象です。
+   >ワイルドカードを使用して複数のファイル名と一致させることはできません。代わりに、接頭辞を入力する必要があります。その接頭辞に一致するすべての BLOB 名が対象です。
 
    以下のリストはファイルのパスの例です。
 
@@ -180,9 +181,9 @@ Microsoft Azure Blob プロトコルを使用すると、Microsoft Azure Blob St
 
 ## 出力変数 {#output-variables}
 
-**[!UICONTROL Transfer file]** アクティビティは、出力としてイベント変数を生成します。このイベント変数を他のアクティビティで利用することができます（例えば、ダウンロードされたファイルの数を [&#x200B; テスト &#x200B;](../../automating/using/test.md) アクティビティで確認する場合）。
+**[!UICONTROL Transfer file]** アクティビティは、出力としてイベント変数を生成します。このイベント変数を他のアクティビティで利用することができます（例えば、ダウンロードされたファイルの数を [ テスト ](../../automating/using/test.md) アクティビティで確認する場合）。
 
-イベント変数は、外部シグナルを使用して別のワークフローに渡すこともできます（[&#x200B; 外部パラメーターを使用したワークフローのカスタマイズ &#x200B;](../../automating/using/customizing-workflow-external-parameters.md) を参照）。
+イベント変数は、外部シグナルを使用して別のワークフローに渡すこともできます（[ 外部パラメーターを使用したワークフローのカスタマイズ ](../../automating/using/customizing-workflow-external-parameters.md) を参照）。
 
 使用可能な出力変数は次のとおりです。
 

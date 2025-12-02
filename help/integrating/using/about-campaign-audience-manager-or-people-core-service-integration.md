@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-audience-manager-or-people-core-service
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: e8b96c66-82f7-4adb-88b2-b7e0f7c4a96f
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 31%
@@ -28,7 +29,7 @@ Adobe Campaignでは、様々なAdobe Experience Cloud アプリケーション�
 
 の統合では、次の 2 種類のAdobe Experience Cloud ID をサポートしています。
 
-* **訪問者 ID**：このタイプの ID を使用すると、Adobe Experience Cloudの訪問者をAdobe Campaign プロファイルと紐付けできます。 Adobe IMSで接続が有効になるとすぐに、Marketing Cloud訪問者 ID サービスがアクティブになります。これはAdobe Campaignで使用される永続的な cookie に代わるものです。 これにより、訪問者を識別してプロファイルにリンクできます。
+* **訪問者 ID**：このタイプの ID を使用すると、Adobe Experience Cloudの訪問者をAdobe Campaign プロファイルと紐付けできます。 Adobe IMSで接続が有効になるとすぐに、Marketing Cloud訪問者 ID サービスがアクティブになります。これは、Adobe Campaignで使用される永続的な cookie に代わるものです。 これにより、訪問者を識別してプロファイルにリンクできます。
   <br> 訪問者 ID は、Adobe Campaign経由で送信されたメールでプロファイルがクリックされるとすぐに、プロファイルにリンクされます。
    * プロファイルに既に訪問者 ID がある場合、プロファイルのブラウザーデータを使用すると、Adobe Campaignを復元して、プロファイルを訪問者 ID に自動的にリンクできます。
    * 訪問者 ID が見つからない場合は、新しい ID が作成されます。 この訪問者 ID は、プロファイルトラッキングログに保存されます。

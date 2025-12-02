@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Beginner
 exl-id: fddd88b1-603a-465b-b5e7-624632c0d5cd
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 20%
@@ -18,7 +19,7 @@ ht-degree: 20%
 
 # 実行コマンド {#execution-commands}
 
-アクションバーのアイコンを使用すると、ワークフローの実行を開始、追跡、変更できます。 [&#x200B; アクションバー &#x200B;](../../automating/using/workflow-interface.md#action-bar) を参照してください。
+アクションバーのアイコンを使用すると、ワークフローの実行を開始、追跡、変更できます。 [ アクションバー ](../../automating/using/workflow-interface.md#action-bar) を参照してください。
 
 ![](assets/wkf_execution_2.png)
 

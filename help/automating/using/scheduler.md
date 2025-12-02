@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: execution-activities
 context-tags: schedule,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 39f7b216-b3cd-4aa6-b5df-23e6805076df
-source-git-commit: 6107f5e43b25037f7f5a7f130922a3a22d0047af
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '877'
 ht-degree: 52%
@@ -26,7 +27,7 @@ ht-degree: 52%
 
 ## 使用コンテキスト {#context-of-use}
 
-「**[!UICONTROL Scheduler]**」アクティビティは、予約済みの開始とみなされます。アクティビティのグラフ内の配置ルールは、「**[!UICONTROL Start]**」アクティビティのルールと同じものです。このアクティビティはインバウンドトランジションを持つことはできません。
+「**[!UICONTROL Scheduler]**」アクティビティは、スケジュール済みの開始とみなされます。アクティビティのグラフ内の配置ルールは、「**[!UICONTROL Start]**」アクティビティのルールと同じものです。このアクティビティはインバウンドトランジションを持つことはできません。
 
 ワークフローを作成する場合は、ブランチごとに 1 つの「**[!UICONTROL Scheduler]**」アクティビティのみを使用し、タイムゾーンの設定をおこなってください。これにより、特定のタイムゾーンでワークフローを開始できます。それ以外の場合は、ワークフローのプロパティで定義されたタイムゾーンでワークフローが実行されます（[ワークフローの作成](../../automating/using/building-a-workflow.md)を参照）。
 
@@ -62,7 +63,7 @@ ht-degree: 52%
 
    実行頻度を **[!UICONTROL Several times a day]** に設定すると、特定の時間帯にワークフローを実行するか、1 日を通して定期的に実行するかを柔軟に選択できます。
 
-+++ **[!UICONTROL "Several times a day"]** 実行頻度を設定する方法を学ぶ
+   +++ **[!UICONTROL "Several times a day"]** 実行頻度を設定する方法を学ぶ
 
    * 1 日の特定の時間にワークフローを複数回実行するには、「実 **[!UICONTROL Specific times]**」オプションをオンに切り替えてから「実 **[!UICONTROL Add an element]**」をクリックして、目的の実行時間を指定します。 要件に合わせて必要な回数だけ追加します。
 
@@ -74,7 +75,7 @@ ht-degree: 52%
          >
          >このオプションでは、毎日、毎月または毎年の繰り返し頻度も可能です。 この場合、ワークフローは 1 日に数回ではなく、このフィールドで指定した頻度に従って実行されます。
          >
-         > ワークフローを 1 日に複数回実行する必要がなく、代わりに日単位、月単位、年単位で実行する必要がある場合は、「**[!UICONTROL Execution frequency]**」ドロップダウンリストで使用できる **[!UICONTROL Daily]**、**[!UICONTROL Monthly]**、**[!UICONTROL Yearly]** のオプションを使用することをお勧めします。
+         > ワークフローを 1 日に複数回実行する必要がなく、代わりに日単位、月単位、年単位で実行する必要がある場合は、「**[!UICONTROL Daily]**」ドロップダウンリストで使用できる **[!UICONTROL Monthly]**、**[!UICONTROL Yearly]**、**[!UICONTROL Execution frequency]** のオプションを使用することをお勧めします。
 
       1. **[!UICONTROL Start]**/**[!UICONTROL End]** 時間フィールドで、ワークフローの実行を開始および終了する時間を定義します。
 
@@ -86,7 +87,7 @@ ht-degree: 52%
 
    ![](assets/wkf_scheduler_day.png)
 
-+++
+   +++
 
 1. 実行の有効期限を指定します。
 

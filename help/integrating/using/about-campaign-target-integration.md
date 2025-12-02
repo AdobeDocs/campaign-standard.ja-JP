@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-target
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: e0d281f7-d522-425c-9854-894e84a0a422
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 35%
@@ -27,4 +28,4 @@ Adobe Targetでは、次の複数のタイプのデータを使用できます�
 * Adobe Target で訪問者 ID にリンクされたセグメント。ただし、使用されるデータに法的制限がない場合に限ります。
 * Adobe Target データ：ユーザーエージェント、IP アドレス、位置情報データ
 
-Adobe CampaignとAdobe Targetの統合について詳しくは、[Adobe Target ポータル &#x200B;](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html?lang=ja) も参照してください。
+Adobe CampaignとAdobe Targetの統合について詳しくは、[Adobe Target ポータル ](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html?lang=ja) も参照してください。

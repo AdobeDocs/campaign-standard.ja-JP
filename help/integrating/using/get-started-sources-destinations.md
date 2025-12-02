@@ -3,10 +3,11 @@ title: ソースと宛先の基本を学ぶ
 description: Adobe Experience Platform のソースと宛先について説明します。
 audience: integrating
 content-type: reference
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: ba6205fa-dbcf-497a-882f-f15c00f12e68
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 62%
@@ -17,10 +18,10 @@ ht-degree: 62%
 
 ## ソースと宛先について
 
-Adobe Experience Platformを使用すると、Campaign StandardとAdobe Real-time Customer Data Platform（RTCDP）の間でデータを共有できます。 これにより、Campaign ワークフローで Adobe Experience Platform のオーディエンスをターゲットにして、オーディエンスに関するデータ（送信数、開封数、クリック数など）をアドビのリアルタイム顧客データプラットフォームに返すことができます。
+Adobe Experience Platformを使用すると、Campaign Standardと Adobe Real-time Customer Data Platform （RTCDP）の間でデータを共有できます。 これにより、Campaign ワークフローで Adobe Experience Platform のオーディエンスをターゲットにして、オーディエンスに関するデータ（送信数、開封数、クリック数など）をアドビのリアルタイム顧客データプラットフォームに返すことができます。
 
 * **宛先** で、Adobe Experience PlatformのオーディエンスをCampaign Standardに取り込みます。 これにより、マーケティングキャンペーンで既知のデータや不明なデータを活用することができます。
-* **ソース** を使用して、Campaign Standardデータ（送信数、開封数、クリック数など）をAdobe Experience Platformに書き出します。 これにより、異なるソースから収集したデータを 1 か所に集め、得られたインサイトを利用してより多くのことを実行できます。
+* **ソース** を使用して、Campaign Standard データ（送信数、開封数、クリック数など）をAdobe Experience Platformに書き出します。 これにより、異なるソースから収集したデータを 1 か所に集め、得られたインサイトを利用してより多くのことを実行できます。
 
 
 >[!IMPORTANT]

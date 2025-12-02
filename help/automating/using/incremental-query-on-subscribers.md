@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: incremental,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: c80ed1f6-ad8a-4448-a6df-b9881327228a
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 79%
@@ -32,10 +33,10 @@ ht-degree: 79%
 
   ![](assets/incremental_query_example3.png)
 
-* [&#x200B; メール配信 &#x200B;](../../automating/using/email-delivery.md) アクティビティ。 ワークフローは週に 1 回実行されますが、送信されたメールとその結果を 1 ヶ月ごとに集計できます。例えば、1 週間単位ではなく、1 ヶ月全体でのレポートを生成できます。
+* [ メール配信 ](../../automating/using/email-delivery.md) アクティビティ。 ワークフローは週に 1 回実行されますが、送信されたメールとその結果を 1 ヶ月ごとに集計できます。例えば、1 週間単位ではなく、1 ヶ月全体でのレポートを生成できます。
 
   それには、ここで&#x200B;**[!UICONTROL Recurring email]**&#x200B;を作成し、「**[!UICONTROL By month]**」で指定した月数を単位としてメールとその結果を再グループ化します。
 
-  メールのコンテンツを定義し、ウェルカムプロモーションコードを挿入します。 詳しくは、[&#x200B; メールコンテンツの定義 &#x200B;](../../designing/using/personalization.md) の節を参照してください。
+  メールのコンテンツを定義し、ウェルカムプロモーションコードを挿入します。 詳しくは、[ メールコンテンツの定義 ](../../designing/using/personalization.md) の節を参照してください。
 
 そのあと、ワークフローの実行を開始します。毎週、新規購読者には、プロモーションコードが記載されたウェルカムメールが送信されます。

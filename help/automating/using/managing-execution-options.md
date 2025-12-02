@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Beginner
 exl-id: b0cc38fe-cf71-4350-8b4e-7daf0bf94066
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 8%
@@ -28,7 +29,7 @@ ht-degree: 8%
 
 * **[!UICONTROL History in days]**：履歴をパージする必要があるまでの日数を指定します。 履歴には、ログ、タスク、イベント（ワークフロー操作にリンクされた技術的なオブジェクト）、**[!UICONTROL Transfer file]** アクティビティによってダウンロードされたファイルなど、ワークフローに関連する要素が含まれます。 標準のワークフローテンプレートのデフォルト値は 30 日です。
 
-  履歴のパージは、デフォルトで毎日実行されるデータベースクリーンアップテクニカルワークフローによって実行されます（[&#x200B; テクニカルワークフローのリスト &#x200B;](../../administration/using/technical-workflows.md) を参照）。
+  履歴のパージは、デフォルトで毎日実行されるデータベースクリーンアップテクニカルワークフローによって実行されます（[ テクニカルワークフローのリスト ](../../administration/using/technical-workflows.md) を参照）。
 
   >[!IMPORTANT]
   >
@@ -38,7 +39,7 @@ ht-degree: 8%
 
 * **[!UICONTROL Diagnostic mode (Log execution plan of long running queries and give recommendations)]**：実行計画全体をログに記録する場合は、このオプションをオンにします。 この機能は、デフォルトでは無効になっています。
 
-  このオプションについて詳しくは、この [&#x200B; 節 &#x200B;](#diagnostic-mode) を参照してください。
+  このオプションについて詳しくは、この [ 節 ](#diagnostic-mode) を参照してください。
 
 * **[!UICONTROL Keep interim results]**：トランジションの詳細を表示する場合は、このオプションをオンにします。
 
@@ -48,9 +49,9 @@ ht-degree: 8%
 
 * **[!UICONTROL Execute in the engine (do not use in production)]**：開発環境のテストを目的として、ワークフローをローカルで実行できます。
 
-* **[!UICONTROL Severity]**:Adobe Campaign インスタンスでワークフローを実行するための優先度レベルを指定できます。 このフィールドは、Adobeチームがモニタリング目的でのみ使用します。
+* **[!UICONTROL Severity]**:Adobe Campaign インスタンスでワークフローを実行するための優先度レベルを指定できます。 このフィールドは、Adobe チームがモニタリング目的でのみ使用します。
 
-**[!UICONTROL Error management]** の節では、エラーが発生した場合のワークフローの動作を管理できる追加のオプションを提供します。 これらのオプションについて詳しくは、[&#x200B; エラー管理 &#x200B;](../../automating/using/monitoring-workflow-execution.md#error-management) の節を参照してください。
+**[!UICONTROL Error management]** の節では、エラーが発生した場合のワークフローの動作を管理できる追加のオプションを提供します。 これらのオプションについて詳しくは、[ エラー管理 ](../../automating/using/monitoring-workflow-execution.md#error-management) の節を参照してください。
 
 ## 診断モード {#diagnostic-mode}
 
@@ -58,13 +59,13 @@ ht-degree: 8%
 >
 >このオプションは、ワークフローのパフォーマンスに大きな影響を与える可能性があるので、慎重に使用してください。
 
-有効にすると、クエリに 1 分以上かかる場合に、ワークフロープロパティの **[!UICONTROL Execution]** セクションにある「**[!UICONTROL Diagnostic mode (Log execution plan of long running queries and give recommendations)]**」オプションが実行プラン全体をログに記録します。
+有効にすると、クエリに 1 分以上かかる場合に、ワークフロープロパティの **[!UICONTROL Diagnostic mode (Log execution plan of long running queries and give recommendations)]** セクションにある「**[!UICONTROL Execution]**」オプションが実行プラン全体をログに記録します。
 
 ![](assets/wkf_diagnostic.png)
 
 このオプションを有効にしてワークフローを起動した後、クエリの処理に 1 分以上かかる場合は、実行プランがログに記録されます。 その後、EXPLAIN ANALYZE を使用して実行プランを取得できます。
 
-詳しくは、[PostgreSQL のドキュメント &#x200B;](https://www.postgresql.org/docs/9.4/using-explain.html) を参照してください。
+詳しくは、[PostgreSQL のドキュメント ](https://www.postgresql.org/docs/9.4/using-explain.html) を参照してください。
 
 このクエリにシーケンススキャンがある場合、**[!UICONTROL Diagnostic mode]** は、フィルター式を使用してインデックスを作成するための推奨事項も提供します。
 

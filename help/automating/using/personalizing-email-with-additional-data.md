@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: targeting-activities
 context-tags: query,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: b207dc73-03dc-4f25-95e5-573e4b4bce54
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 81%
@@ -18,7 +19,7 @@ ht-degree: 81%
 
 # 追加データによるメールのパーソナライズ {#example--personalizing-an-email-with-additional-data}
 
-次の例は、様々なタイプの追加データをクエリに追加し、メールのパーソナライゼーションフィールドとして使用する方法を示しています。 **[!UICONTROL Query]** アクティビティによってターゲットされるデータのエンリッチメント方法について詳しくは、[&#x200B; この節 &#x200B;](../../automating/using/query.md#enriching-data) を参照してください。
+次の例は、様々なタイプの追加データをクエリに追加し、メールのパーソナライゼーションフィールドとして使用する方法を示しています。 **[!UICONTROL Query]** アクティビティによってターゲットされるデータのエンリッチメント方法について詳しくは、[ この節 ](../../automating/using/query.md#enriching-data) を参照してください。
 
 この例では、[カスタムリソース](../../developing/using/data-model-concepts.md)を使用します。
 
@@ -32,7 +33,7 @@ ht-degree: 81%
 
 ![](assets/enrichment_example1.png)
 
-1. [&#x200B; クエリ &#x200B;](../../automating/using/query.md) アクティビティを追加し、1 つ以上のトランザクションを実行したプロファイルをターゲットにすることができます。
+1. [ クエリ ](../../automating/using/query.md) アクティビティを追加し、1 つ以上のトランザクションを実行したプロファイルをターゲットにすることができます。
 
    ![](assets/enrichment_example2.png)
 
@@ -54,7 +55,7 @@ ht-degree: 81%
 
    ![](assets/enrichment_example5.png)
 
-1. [&#x200B; メール配信 &#x200B;](../../automating/using/email-delivery.md) アクティビティを追加します。 メールコンテンツに、クエリで計算されたデータに対応するパーソナライゼーションフィールドを挿入します。パーソナライゼーションフィールドエクスプローラーの **[!UICONTROL Additional data (targetData)]** リンクからアクセスできます。
+1. [ メール配信 ](../../automating/using/email-delivery.md) アクティビティを追加します。 メールコンテンツに、クエリで計算されたデータに対応するパーソナライゼーションフィールドを挿入します。パーソナライゼーションフィールドエクスプローラーの **[!UICONTROL Additional data (targetData)]** リンクからアクセスできます。
 
    ![](assets/enrichment_example3.png)
 

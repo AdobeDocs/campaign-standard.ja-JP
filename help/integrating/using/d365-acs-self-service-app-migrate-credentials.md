@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: e0fb289a-6b6e-473d-80af-50f6d0d72af1
-source-git-commit: abdcd3f9f7f709818dee794b4c830e486fefa290
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 1%
@@ -17,9 +18,9 @@ ht-degree: 1%
 
 # JWT から OAuth へのサーバー間での資格情報の移行
 
-サービスアカウント（JWT）資格情報は廃止され、新しい OAuth サーバー間資格情報に置き換わりました。 新しい資格情報により、Adobeアプリケーションの管理が容易になります。 また、証明書を定期的にローテーションする必要がなくなり、標準の OAuth2 ライブラリを使用してすぐに機能します。
+サービスアカウント（JWT）資格情報は廃止され、新しい OAuth サーバー間資格情報に置き換わりました。 新しい資格情報により、Adobe アプリケーションのメンテナンスが容易になります。 また、証明書を定期的にローテーションする必要がなくなり、標準の OAuth2 ライブラリを使用してすぐに機能します。
 
-サービスアカウント（JWT）資格情報は廃止予定としてマークされていますが、2025 年 1 月 1 日（PT）まで引き続き機能します。 したがって、2025 年 1 月 1 日（PT）より前に、新しい OAuth サーバー間資格情報を使用するように統合を移行する必要があります。 詳しくは、[&#x200B; 非推奨タイムライン &#x200B;](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#deperecation-timelines) を確認してください
+サービスアカウント（JWT）資格情報は廃止予定としてマークされていますが、2025 年 1 月 1 日（PT）まで引き続き機能します。 したがって、2025 年 1 月 1 日（PT）より前に、新しい OAuth サーバー間資格情報を使用するように統合を移行する必要があります。 詳しくは、[ 非推奨タイムライン ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#deperecation-timelines) を確認してください
 
 ## JWT から OAuth サーバー間で資格情報を移行する手順
 
@@ -35,7 +36,6 @@ OAuth サーバー間資格情報への移行は、アプリケーションの�
 4. 新しい資格情報 **OAuth サーバー間** が左側のナビゲーションに追加されます。
    * 移行をキャンセルする場合は、「移行をキャンセル」をクリックします。
    * 新しい資格情報 OAuth サーバー間で認証が機能しているかどうかを確認するまでは、「確認して削除」ボタンをクリックしないでください。
-
      ![](assets/JwtToOAuthMigration3.png)
 
 5. Microsoft Dynamics 365 の資格情報をAdobe Campaign Standard アプリに更新します。
@@ -44,7 +44,6 @@ OAuth サーバー間資格情報への移行は、アプリケーションの�
    * 新しい OAuth サーバー間資格情報は、古いサービスアカウント（JWT）資格情報と同じ資格情報を使用するので、ほとんどのフィールドは既に入力されています。
    * クライアント ID とクライアント秘密鍵を入力します。 これらは、Adobe Developer Consoleのプロジェクトにあります。
    * 「保存」をクリックして、設定を保存します。
-
      ![](assets/JwtToOAuthMigration4.png)
 
 6. 新しい資格情報が機能しているかどうかを確認
@@ -58,11 +57,8 @@ OAuth サーバー間資格情報への移行は、アプリケーションの�
    * プロジェクトをクリックし、移行したプロジェクトを選択します。
    * 左側のナビゲーションから「サービスアカウント （JWT）資格情報」タブをクリックします。
    * 「確認と削除」ボタンをクリックします。
-
      ![](assets/JwtToOAuthMigration5.png)
    * 最後のアクセス メニューまたは最後に使用されたメニューのタイムスタンプを確認し、統合アプリが新しい OAuth 資格情報を使用してアクセストークンを生成しているか、古い JWT 資格情報を引き続き使用しているかを検証します。
-
      ![](assets/JwtToOAuthMigration6.png)
    * 統合アプリが新しい OAuth 認証情報を使用しており、JWT 認証情報を使用していないことを確認したら、「**確認して続行**」ボタンをクリックして古い認証情報を削除し、移行を完了します。
-
      ![](assets/JwtToOAuthMigration7.png)

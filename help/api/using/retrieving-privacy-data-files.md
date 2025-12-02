@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: df06cb86-dba2-41e4-81d0-66f3a86e47bd
-source-git-commit: 4b0c4fb13cc11c06e2487e531ca96574e49b6beb
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 4%
@@ -23,11 +24,11 @@ ht-degree: 4%
 
 紐付け値に関連付けられたすべての情報を含むファイルを取得するには、次の 3 つの手順に従います。
 
-1. **POST** リクエストを実行して、属性 **type=&quot;access&quot;** を持つ新しいリクエストを作成します。[&#x200B; 新しいプライバシーリクエストの作成 &#x200B;](../../api/using/creating-a-privacy-request.md) を参照してください。
+1. **POST** リクエストを実行して、属性 **type=&quot;access&quot;** を持つ新しいリクエストを作成します。[ 新しいプライバシーリクエストの作成 ](../../api/using/creating-a-privacy-request.md) を参照してください。
 
 1. **GET** リクエストを実行して、リクエストに関する情報を取得します。
 
-1. ペイロード内にプライバシーリクエストの内部名を指定して、返された **privacyRequestData** URL に対して **POST** リクエストを実行することで、データファイルを取得します。 例：{&quot;name&quot;:&quot;PT17&quot;}。
+1. 返された **privacyRequestData** URL に対して、ペイロード内にプライバシーリクエストの内部名を指定して **POST** リクエストを実行することで、データファイルを取得します。 例：{&quot;name&quot;:&quot;PT17&quot;}。
 
 <br/>
 
@@ -54,7 +55,7 @@ type=&quot;access&quot;属性を持つプライバシーリクエストを作成
 
 <!-- + réponse -->
 
-GETリクエストを実行して、リクエストに関する情報を取得します。
+GET リクエストを実行して、リクエストに関する情報を取得します。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/privacy/privacyTool \
@@ -85,7 +86,7 @@ GETリクエストを実行して、リクエストに関する情報を取得�
 },
 ```
 
-privacyRequestData URL で、ペイロード内にリクエスト内部名を指定してPOSTリクエストを実行します。
+privacyRequestData URL で、ペイロード内にリクエスト内部名を指定して POST リクエストを実行します。
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/privacy/privacyTool/<PKEY>/privacyRequestData \

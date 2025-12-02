@@ -5,10 +5,11 @@ audience: automating
 content-type: reference
 topic-tags: importing-and-exporting-data
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: b39ce1f6-0c5b-4270-86a1-b79c49cd199c
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 5%
@@ -19,11 +20,11 @@ ht-degree: 5%
 
 Adobe Campaignでは、リストをファイルに直接エクスポートして、後で使用できます。 ファイルにリストを書き出すと、**[!UICONTROL Export audits]** メニューにログエントリが生成されます。 エクスポートの監査について詳しくは、[エクスポートの監査](../../administration/using/auditing-export-logs.md)の節を参照してください。
 
-![](assets/do-not-localize/how-to-video.png) [&#x200B; ビデオでリストを設定する方法を確認する &#x200B;](#video)
+![](assets/do-not-localize/how-to-video.png) [ ビデオでリストを設定する方法を確認する ](#video)
 
 エクスポートリストオプションを使用すると、デフォルトで、**Nms_ExportListLimit** オプションで定義された最大 100,000 行をエクスポートできます。 このオプションは、機能管理者が **[!UICONTROL Administration]** / **[!UICONTROL Application settings]** / **[!UICONTROL Options]** メニューで管理できます。
 
-リストの書き出しは、**[!UICONTROL EXPORT (export)]** の役割を持つユーザー向けに、**リスト** モードのビューを持つすべての画面で使用できます。
+リストの書き出しは、**の役割を持つユーザー向けに、** リスト **[!UICONTROL EXPORT (export)]** モードのビューを持つすべての画面で使用できます。
 
 1. 選択した **リスト** 画面に移動します。 例えば、テストプロファイルの概要画面（**[!UICONTROL Profiles & audiences]** > **[!UICONTROL Test profiles]**）が表示されます。
 1. 画面が **リスト** モードであることを確認します。
@@ -44,7 +45,7 @@ Adobe Campaignでは、リストをファイルに直接エクスポートして
 
 数値と日付は、書き出しを実行するユーザーのローカル時間（ロケール）を考慮に入れます。 例：DD-MM-YYYY または MM-DD-YYYY
 
-これを超える書き出しを実行するには、専用のワークフローを作成する必要があります。 [&#x200B; ファイルの抽出 &#x200B;](../../automating/using/extract-file.md) の節を参照してください。
+これを超える書き出しを実行するには、専用のワークフローを作成する必要があります。 [ ファイルの抽出 ](../../automating/using/extract-file.md) の節を参照してください。
 
 **例**
 
@@ -80,6 +81,6 @@ Adama;Henry;22/09/1992 02:00:00;henry.adama@mail.com;64120
 
 このビデオでは、リストの設定方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/328383/?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/25288/?quality=12)
 
-その他のCampaign Standardチュートリアルビデオについては、[&#x200B; こちら &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja) を参照してください。
+Campaign Standardに関するその他のチュートリアルビデオについては [ こちら ](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja) を参照してください。

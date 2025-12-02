@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Beginner
 exl-id: ba968add-25a3-4962-9e90-f0a06d9b74a8
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 3%
@@ -22,7 +23,7 @@ ht-degree: 3%
 
 * **編集中** （灰色）
 
-  これは、ワークフローの初期デザインフェーズです（[&#x200B; ワークフローの作成 &#x200B;](../../automating/using/building-a-workflow.md#creating-a-workflow) を参照）。 ワークフローはまだサーバーで処理されず、リスクを伴わずに変更できます。
+  これは、ワークフローの初期デザインフェーズです（[ ワークフローの作成 ](../../automating/using/building-a-workflow.md#creating-a-workflow) を参照）。 ワークフローはまだサーバーで処理されず、リスクを伴わずに変更できます。
 
 * **処理中** （青）
 
@@ -40,8 +41,8 @@ ht-degree: 3%
 
 * **エラー** （赤）
 
-  ワークフローの実行時にエラーが発生しました。 ワークフローが停止されました。ユーザーはアクションを実行する必要があります。 このエラーの詳細については、「![](assets/printpreview_darkgrey-24px.png)」ボタンを使用してワークフローログにアクセスしてください（[&#x200B; モニタリング &#x200B;](../../automating/using/monitoring-workflow-execution.md) を参照）。
+  ワークフローの実行時にエラーが発生しました。 ワークフローが停止されました。ユーザーはアクションを実行する必要があります。 このエラーの詳細については、「![](assets/printpreview_darkgrey-24px.png)」ボタンを使用してワークフローログにアクセスしてください（[ モニタリング ](../../automating/using/monitoring-workflow-execution.md) を参照）。
 
-マーケティングアクティビティのリストを使用すると、すべてのワークフローとそのステータスを表示できます。 詳しくは、[&#x200B; マーケティングアクティビティの管理 &#x200B;](../../start/using/marketing-activities.md#about-marketing-activities) を参照してください。
+マーケティングアクティビティのリストを使用すると、すべてのワークフローとそのステータスを表示できます。 詳しくは、[ マーケティングアクティビティの管理 ](../../start/using/marketing-activities.md#about-marketing-activities) を参照してください。
 
 ![](assets/wkf_execution_3.png)

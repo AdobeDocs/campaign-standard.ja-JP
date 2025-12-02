@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Beginner
 exl-id: 9f5ec2dc-7881-4c68-a5bb-403b01b8b7f8
-source-git-commit: 6ca3ffe3ba2cf7629e511e4ba035b170b25ad79e
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1212'
 ht-degree: 77%
@@ -52,7 +53,7 @@ Adobe Campaign を使用すると、あらゆる種類のワークフローを�
 
 >[!IMPORTANT]
 >
->ワークフロー数が 20 のしきい値に達していない場合でも、Adobeでは **ワークフローの実行を時間をかけて分散させる** ことをお勧めします。 ワークフローの実行を分散させると、インスタンスのパフォーマンスが向上します。
+>ワークフロー数が 20 のしきい値に達していない場合でも、Adobeでは **ワークフローの実行を時間の経過と共に分散させる** ことをお勧めします。 ワークフローの実行を分散させると、インスタンスのパフォーマンスが向上します。
 
 ワークフローを開始 [!DNL Campaign Standard] る前に、ワークフローを実行するのに十分なシステム物理メモリがあるかどうかを確認します。 使用可能なメモリが十分にない場合は、サーバーの負荷が低下してシステムメモリが増加するまで、ワークフローの実行が遅延することを知らせるメッセージが表示されます。
 
@@ -116,7 +117,7 @@ Adobe Campaign を使用すると、あらゆる種類のワークフローを�
 
 ## パラメーターを使用したワークフローの呼び出し{#workflow-with-parameters}
 
-名前とパラメーター数が、ワークフローを呼び出す際に定義した内容と一致していることを確認します（[&#x200B; このページ &#x200B;](../../automating/using/defining-parameters-calling-workflow.md)。 また、パラメーターのタイプは、想定される値と一致する必要があります。
+名前とパラメーター数が、ワークフローを呼び出す際に定義した内容と一致していることを確認します（[ このページ ](../../automating/using/defining-parameters-calling-workflow.md)。 また、パラメーターのタイプは、想定される値と一致する必要があります。
 
 **[!UICONTROL External signal activity]**&#x200B;内ですべてのパラメーターが宣言されていることを確認します。それ以外の場合は、アクティビティの実行時にエラーが発生します。
 
@@ -124,13 +125,13 @@ Adobe Campaign を使用すると、あらゆる種類のワークフローを�
 
 ## パッケージのエクスポート{#exporting-packages}
 
-パッケージを書き出すには、書き出すリソースにデフォルトの ID を含めないでください。したがって、Adobe Campaign Standard で標準として提供されているテンプレートとは異なる名前を使用して、書き出し可能なリソースの ID を変更する必要があります。
+パッケージをエクスポートするには、エクスポートするリソースにデフォルトの ID を含めないでください。したがって、Adobe Campaign Standard で標準として提供されているテンプレートとは異なる名前を使用して、エクスポート可能なリソースの ID を変更する必要があります。
 詳しくは、[パッケージの管理](../../automating/using/managing-packages.md)を参照してください。
 
 ## リストのエクスポート{#exporting-lists}
 
-リスト書き出しオプションを使用すると、デフォルトで 100,000 行まで書き出すことができ、**Nms_ExportListLimit オプション**&#x200B;で定義できます。このオプションは、機能管理者により&#x200B;**[!UICONTROL Administration]**／**[!UICONTROL Application settings]**／**[!UICONTROL Options]**&#x200B;で管理できます。
-詳しくは、[リストの書き出し](../../automating/using/exporting-lists.md)を参照してください。
+リストエクスポートオプションを使用すると、デフォルトで 100,000 行までエクスポートでき、**Nms_ExportListLimit オプション**&#x200B;で定義できます。このオプションは、機能管理者により&#x200B;**[!UICONTROL Administration]**／**[!UICONTROL Application settings]**／**[!UICONTROL Options]**で管理できます。
+詳しくは、[リストのエクスポート](../../automating/using/exporting-lists.md)を参照してください。
 
 ## トラブルシューティング{#workflow-troubleshooting}
 

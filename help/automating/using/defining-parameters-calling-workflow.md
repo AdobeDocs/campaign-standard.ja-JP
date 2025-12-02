@@ -5,10 +5,11 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: f7de0186-4136-4603-8f80-9f58c641cd9d
-source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 13%
@@ -17,7 +18,7 @@ ht-degree: 13%
 
 # ワークフロー呼び出し時のパラメーターの定義 {#defining-the-parameters-when-calling-the-workflow}
 
-この節では、ワークフローを呼び出す際にパラメーターを定義する方法について詳しく説明します。 API 呼び出しからこの操作を実行する方法について詳しくは、[REST API ドキュメント &#x200B;](../../api/using/triggering-a-signal-activity.md) を参照してください。
+この節では、ワークフローを呼び出す際にパラメーターを定義する方法について詳しく説明します。 API 呼び出しからこの操作を実行する方法について詳しくは、[REST API ドキュメント ](../../api/using/triggering-a-signal-activity.md) を参照してください。
 
 パラメーターを定義する前に、以下を確認します。
 
@@ -30,8 +31,8 @@ ht-degree: 13%
 1. 呼び出すワークフローと外部シグナルアクティビティを選択します。
 1. 「**[!UICONTROL Create element]**」ボタンをクリックしてパラメーターを追加し、その名前と値を入力します。
 
-   * **[!UICONTROL Name]**:**[!UICONTROL External signal]** アクティビティで宣言された名前（[&#x200B; このページ &#x200B;](../../automating/using/declaring-parameters-external-signal.md) を参照）。
-   * **[!UICONTROL Value]**: パラメーターに割り当てる値。 値は、[&#x200B; この節 &#x200B;](../../automating/using/advanced-expression-editing.md#standard-syntax) で説明されている **標準構文** に従う必要があります。
+   * **[!UICONTROL Name]**:**[!UICONTROL External signal]** アクティビティで宣言された名前（[ このページ ](../../automating/using/declaring-parameters-external-signal.md) を参照）。
+   * **[!UICONTROL Value]**: パラメーターに割り当てる値。 値は、**この節** で説明されている [ 標準構文 ](../../automating/using/advanced-expression-editing.md#standard-syntax) に従う必要があります。
 
    ![](assets/extsignal_definingparameters_2.png)
 

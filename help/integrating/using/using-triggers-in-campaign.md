@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 6b8d5118-89ed-49c2-b601-0aff472fcadd
-source-git-commit: cf2ded703e53d6db27e62712734f7ea846da9a21
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '736'
 ht-degree: 74%
@@ -21,7 +22,7 @@ ht-degree: 74%
 
 >[!NOTE]
 >
->トリガーを作成するには、**[!UICONTROL Administration]** の役割または **[!UICONTROL Administrators]** セキュリティ グループに属している必要があります。 詳しくは、この [&#x200B; ページ &#x200B;](../../administration/using/list-of-roles.md) を参照してください。
+>トリガーを作成するには、**[!UICONTROL Administration]** の役割または **[!UICONTROL Administrators]** セキュリティ グループに属している必要があります。 詳しくは、この [ ページ ](../../administration/using/list-of-roles.md) を参照してください。
 
 Adobe Experience Cloud（**[!UICONTROL Triggers]** コアサービス）で事前にモニタリングするビヘイビアーを定義しておく必要があります。 詳しくは、[Adobe Experience Cloud のドキュメント](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html?lang=ja)を参照してください。トリガーを定義する場合は、エイリアスを有効にする必要があります。各ビヘイビアー（ブラウジング／フォームの放棄、製品の追加／削除、セッションの有効期限切れなど）について、Adobe Experience Cloud に新規トリガーを追加する必要があります。
 
@@ -29,7 +30,7 @@ Adobe Experience Cloud（**[!UICONTROL Triggers]** コアサービス）で事�
 
 これをおこなうには、次の手順に従います。
 
-1. 左上隅の **0&rbrace;Adobe&rbrace; ロゴをクリックし、**&#x200B;[!UICONTROL Marketing plans]&#x200B;**/**&#x200B;[!UICONTROL Transactional messages]&#x200B;**/**&#x200B;[!UICONTROL Experience Cloud Triggers]&#x200B;**を選択します。**
+1. 左上隅の **Adobe** ロゴをクリックし、**[!UICONTROL Marketing plans]**/**[!UICONTROL Transactional messages]**/**[!UICONTROL Experience Cloud Triggers]** を選択します。
 
    ![](assets/remarketing_1.png)
 
@@ -47,7 +48,7 @@ Adobe Experience Cloud（**[!UICONTROL Triggers]** コアサービス）で事�
 
    ![](assets/remarketing_4.png)
 
-1. これで、トリガーを公開できます。 詳しくは、[Campaign でのトリガーの公開 &#x200B;](../../integrating/using/using-triggers-in-campaign.md#publishing-trigger-in-campaign) を参照してください。
+1. これで、トリガーを公開できます。 詳しくは、[Campaign でのトリガーの公開 ](../../integrating/using/using-triggers-in-campaign.md#publishing-trigger-in-campaign) を参照してください。
 
 ## Campaign でのトリガーの公開 {#publishing-trigger-in-campaign}
 
@@ -79,7 +80,7 @@ Adobe Experience Cloud（**[!UICONTROL Triggers]** コアサービス）で事�
 
 トリガーイベントを作成して公開すると、対応するトランザクションテンプレートが自動的に作成されます。詳しくは、[Campaign でのマッピングされたトリガーの作成](#creating-a-mapped-trigger-in-campaign)の節を参照してください。
 
-イベントがトランザクションメッセージの送信をトリガーするには、テンプレートをパーソナライズしてテストし、公開する必要があります。これらの手順は、標準トランザクションメッセージの場合と同じです。詳しくは、[&#x200B; トランザクションメッセージの編集 &#x200B;](../../channels/using/editing-transactional-message.md) の節を参照してください。
+イベントがトランザクションメッセージの送信をトリガーするには、テンプレートをパーソナライズしてテストし、公開する必要があります。これらの手順は、標準トランザクションメッセージの場合と同じです。詳しくは、[ トランザクションメッセージの編集 ](../../channels/using/editing-transactional-message.md) の節を参照してください。
 
 >[!NOTE]
 >

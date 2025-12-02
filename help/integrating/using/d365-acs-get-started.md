@@ -6,10 +6,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: fa0f790d-6a4d-4b83-a51f-f565e9545a1a
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '874'
 ht-degree: 6%
@@ -37,7 +38,7 @@ Adobe Campaign StandardとMicrosoft Dynamics 365 の統合により、CRM シス
 
 逆に、Adobe Campaign Standard内のプロファイルがメッセージとやり取りする際、これらのデータ（送信、開封、クリック、バウンスなど）はMicrosoft Dynamics 365 に自動的に送られ、連絡先レコードがマーケティングアクティビティでも完全に保持されます。
 
-この統合では、Dynamics 365 の [&#x200B; カスタムエンティティ &#x200B;](../../integrating/using/d365-acs-self-service-app-settings.md) を、Campaign の対応する **カスタムリソース** に同期することもサポートされています。
+この統合では、Dynamics 365 の [ カスタムエンティティ ](../../integrating/using/d365-acs-self-service-app-settings.md) を、Campaign の対応する **カスタムリソース** に同期することもサポートされています。
 
 この統合は、次の 4 つの主なユースケースをサポートするように設計されています。
 
@@ -48,7 +49,7 @@ Adobe Campaign StandardとMicrosoft Dynamics 365 の統合により、CRM シス
 
 主なメリットは次のとおりです。
 
-* 営業とマーケティング間で一貫したメッセージを表示：Adobe Campaign Standardと Dynamics 365 の統合により、両方のシステムから顧客インサイトと電子メールマーケティング履歴にアクセスできるようになりました。また、お客様に対するすべてのメッセージで同じ一貫性のあるメッセージの共有もできます。
+* 営業とマーケティング間で一貫したメッセージを表示：Adobe Campaign Standardと Dynamics 365 の統合により、両方のシステムからカスタマーinsightとメールマーケティング履歴にアクセスできるようになりました。また、お客様に対するすべてのメッセージで同じ一貫性のあるメッセージの共有も可能になりました。
 
 * すべての見込み客と顧客データの総合的なビュー：Adobe Campaign Standardを Dynamics 365 と統合すると、CRM システム内から各連絡先の電子メールマーケティング履歴を共有し、アクセスできます。
 
@@ -70,9 +71,9 @@ Adobe Campaign StandardとMicrosoft Dynamics 365 の統合により、CRM シス
 フローチャートの詳細（上記の手順に対応）:
 
 * **手順 1** – 販売用およびAdobe Campaign Standard用のMicrosoft Dynamics 365 のライセンスを既に保有しているか、または調達中であることを前提としています。
-* **手順 2** – 標準統合機能は、すべてのお客様に無料で提供されますが、要件に応じて追加コストが発生する可能性があります。 詳細情報 [&#x200B; ベストプラクティスと制限事項 &#x200B;](../../integrating/using/d365-acs-notices-and-recommendations.md)。 元の SO に含まれていない場合は、統合を活用するために新しい SO に署名する必要があります。
-* **手順 3** - Dynamics 365 と Campaign の統合前手順を完了します。 [&#x200B; この統合の設定 &#x200B;](#configure-this-integration) を参照してください。
-* **手順 4** – 統合のオンボーディングチームから、Adobeアプリケーションのユーザーインターフェイス（UI）にアクセスできるようになります。
+* **手順 2** – 標準統合機能は、すべてのお客様に無料で提供されますが、要件に応じて追加コストが発生する可能性があります。 詳細情報 [ ベストプラクティスと制限事項 ](../../integrating/using/d365-acs-notices-and-recommendations.md)。 元の SO に含まれていない場合は、統合を活用するために新しい SO に署名する必要があります。
+* **手順 3** - Dynamics 365 と Campaign の統合前手順を完了します。 [ この統合の設定 ](#configure-this-integration) を参照してください。
+* **手順 4** - Adobeのオンボーディングチームから、統合アプリケーションのユーザーインターフェイス（UI）にアクセスできるようになります。
 * **手順 5** - データマッピング、置き換え、フィルターなどを設定できるようになります。 さらに、統合アプリケーションの UI 内から統合をテストします。
 
   >[!IMPORTANT]
@@ -83,9 +84,9 @@ Adobe Campaign StandardとMicrosoft Dynamics 365 の統合により、CRM シス
 
 この統合用に 3 つのシステムをプロビジョニングし設定する必要があります。
 
-* **Adobe Campaign Standard**: API アクセスを設定して、統合ツールの新しい統合を構成する必要があります。 これを行うには、[&#x200B; この記事 &#x200B;](../../integrating/using/d365-acs-configure-adobe-io.md) を参照してください。
-* **Microsoft Dynamics 365**：新しいアプリ登録を作成し、アプリ ユーザーが統合を使用できるようにする必要があります。  この統合用にMicrosoft Dynamics 365 を設定するには、[&#x200B; この記事 &#x200B;](../../integrating/using/d365-acs-configure-d365.md) を参照してください。
-* **Adobe Campaign StandardとMicrosoft Dynamics 365 セルフサービスアプリとの統合**: [&#x200B; この記事 &#x200B;](../../integrating/using/d365-acs-self-service-app-control-access.md) の手順に従う必要があります。
+* **Adobe Campaign Standard**: API アクセスを設定して、統合ツールの新しい統合を構成する必要があります。 これを行うには、[ この記事 ](../../integrating/using/d365-acs-configure-adobe-io.md) を参照してください。
+* **Microsoft Dynamics 365**：新しいアプリ登録を作成し、アプリ ユーザーが統合を使用できるようにする必要があります。  この統合用にMicrosoft Dynamics 365 を設定するには、[ この記事 ](../../integrating/using/d365-acs-configure-d365.md) を参照してください。
+* **Adobe Campaign StandardとMicrosoft Dynamics 365 セルフサービスアプリとの統合**: [ この記事 ](../../integrating/using/d365-acs-self-service-app-control-access.md) の手順に従う必要があります。
 
 >[!IMPORTANT]
 >
@@ -96,7 +97,7 @@ Adobe Campaign StandardとMicrosoft Dynamics 365 の統合により、CRM シス
 
 ### サポートをリクエスト
 
-サポートチケットは、Adobeカスタマーケアに記録することができます。
+サポートチケットは、Adobe カスタマーケアに記録することができます。
 
 統合データフローの問題については、必ず次の情報を含めてください。
 
@@ -105,4 +106,4 @@ Adobe Campaign StandardとMicrosoft Dynamics 365 の統合により、CRM シス
 * **プロセスのタイトル**:Microsoft Dynamics 365/Adobe Campaign Standardの統合
 * **問題の説明**：問題の説明
 
-現在、統合サポートは 24 時間 365 日（月曜日から金曜日で利用可能。Adobeの休日と休憩時間は除く）です。
+現在、統合サポートは 24 時間年中無休（Adobeの休日と休憩時間を除く月曜から金曜まで利用可能）です。

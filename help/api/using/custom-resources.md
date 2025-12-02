@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: d7b2231d-46ff-4966-9ea7-27a775e5236b
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 3%
@@ -29,7 +30,7 @@ Adobe Campaignには事前定義済みのデータモデルが付属しており
 
 カスタムリソースがプロファイルテーブルにリンクされている限り、カスタムリソースを使用してあらゆる操作を実行できます。 例えば、次のテーブル構造について考えてみましょう。
 
-![&#x200B; 代替テキスト &#x200B;](assets/cusresources.png)
+![ 代替テキスト ](assets/cusresources.png)
 
 この場合、**Profile** テーブルにリンクされている限り、**Transaction** テーブル、**TransactionDetails** テーブル、および **Product** テーブルのすべてのリソースを使用できます。
 
@@ -37,7 +38,7 @@ Adobe Campaignには事前定義済みのデータモデルが付属しており
 
 ***リクエストのサンプル***
 
-拡張された profileAndServicesExt リソースにアクセスするためのサンプルGETリクエスト。
+拡張された profileAndServicesExt リソースにアクセスするGET リクエストのサンプル
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/\
@@ -76,4 +77,4 @@ Adobe Campaignには事前定義済みのデータモデルが付属しており
 
 * [データモデルの概念](../../developing/using/data-model-concepts.md)
 * [API の拡張](../../developing/using/about-extending-the-api.md)
-* [&#x200B; 他のリソースとのリンクの定義 &#x200B;](https://helpx.adobe.com/jp/campaign/standard/developing/using/configuring-the-resource-s-data-structure.html#defining-links-with-other-resources)
+* [ 他のリソースとのリンクの定義 ](https://helpx.adobe.com/campaign/standard/developing/using/configuring-the-resource-s-data-structure.html#defining-links-with-other-resources)

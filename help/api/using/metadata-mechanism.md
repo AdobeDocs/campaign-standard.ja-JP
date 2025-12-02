@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 58ec0999-b28a-4198-8d57-729b074c6a6d
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 1%
@@ -17,7 +18,7 @@ ht-degree: 1%
 
 # メタデータのメカニズム {#metadata-mechanism}
 
-データリクエストで **resourceType** を使用して、リソースのメタGETを取得できます。
+GET リクエストで **resourceType** を使用して、リソースのメタデータを取得できます。
 
 `GET /profileAndServices/resourceType/<resourceName>`
 
@@ -27,14 +28,14 @@ ht-degree: 1%
 
    * 「apiName」:API で使用される属性の名前。
    * 「type」：これは、高レベルのタイプ定義（文字列、数値、リンク、コレクション、列挙など）です。
-   * 「dataPolicy」：フィールドの値は、指定されたポリシールールに従う必要があります。 例えば、dataPolicy ルールが「email」に設定されている場合、値は有効なメールである必要があります。 dataPolicy は、PATCHまたはPOST中に値を確認したり、変換する値を変更したりできます（smartCase など）。
+   * 「dataPolicy」：フィールドの値は、指定されたポリシールールに従う必要があります。 例えば、dataPolicy ルールが「email」に設定されている場合、値は有効なメールである必要があります。 PATCHまたは POST の実行中に、dataPolicy は値をチェックしたり、変換する値を変更したりできます（smartCase など）。
    * 「カテゴリ」：クエリエディターのフィールドのカテゴリを示します。
    * &quot;resType&quot;：これは技術的なタイプです。
 
      「type」の値が「link」または「collection」で完了した場合、resTarget の値は、リンクのターゲットとなるリソースの名前になります。
 「type」に値「enumeration」が入力されている場合は、「values」フィールドが追加され、各列挙値について **values** ノードに詳しく記載されます。
 
-* **Filters** ノードは、関連するフィルターを取得する URL を返します。 フィルターについて詳しくは、[&#x200B; この節 &#x200B;](../../api/using/filtering.md) を参照してください。
+* **Filters** ノードは、関連するフィルターを取得する URL を返します。 フィルターについて詳しくは、[ この節 ](../../api/using/filtering.md) を参照してください。
 
 <!-- créer une section au même niveau sur les liens -->
 <!-- dans l'exemple: birthdate, email +  mettre 2 liens : un de type 1-1 , 1-N
@@ -45,7 +46,7 @@ si on prend l'exemple de l'org unit, on aura un bon exemple lien -->
 
 ***リクエストのサンプル***
 
-リソースでGETリクエストを実行します。
+リソースでGET リクエストを実行します。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/resourceType/profile \

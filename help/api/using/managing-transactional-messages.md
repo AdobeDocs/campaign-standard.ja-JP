@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 00d39438-a232-49f1-ae5e-1e98c73397e3
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '675'
 ht-degree: 3%
@@ -21,16 +22,16 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->イベントの設定について詳しくは、[&#x200B; この節 &#x200B;](../../channels/using/configuring-transactional-event.md) を参照してください。
+>イベントの設定について詳しくは、[ この節 ](../../channels/using/configuring-transactional-event.md) を参照してください。
 
 例えば、クライアントの 1 人が Web サイトを離れてから買い物かごの商品を購入するたびに、「買い物かごの放棄」イベントをトリガーしたいとします。 これを行うには、web 開発者は、REST トランザクションメッセージ API を使用する必要があります。
 
-1. POSTメソッドに従ってリクエストを送信します。このメソッドは [&#x200B; トランザクションイベントの送信 &#x200B;](#sending-a-transactional-event) をトリガーにします。
-1. POSTリクエストへの応答にはプライマリキーが含まれており、GETリクエストを通じて 1 つまたは複数のリクエストを送信できます。 これにより、[&#x200B; イベントステータス &#x200B;](#transactional-event-status) を取得できるようになります。
+1. POST メソッドに従ってリクエストを送信します。このメソッドは [ トランザクションイベントの送信 ](#sending-a-transactional-event) をトリガーにします。
+1. POST リクエストへの応答にはプライマリキーが含まれており、GET リクエストを通じて 1 つまたは複数のリクエストを送信できます。 これにより、[ イベントステータス ](#transactional-event-status) を取得できるようになります。
 
 ## トランザクションイベントの送信 {#sending-a-transactional-event}
 
-トランザクションイベントは、次の URL 構造を持つPOSTリクエストを介して送信されます。
+トランザクションイベントは、次の URL 構造を持つ POST リクエストを介して送信されます。
 
 ```
 POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
@@ -40,15 +41,15 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
 * **&lt;transactionalAPI>**：トランザクションメッセージ API のエンドポイント。
 
-  トランザクションメッセージ API エンドポイントの名前は、インスタンス設定によって異なります。 これは、値「mc」に続いて個人の組織 ID に対応します。 Geometrixx会社の例で、組織 ID として「geometrixx」を使用するとします。 その場合、POSTリクエストは次のようになります。
+  トランザクションメッセージ API エンドポイントの名前は、インスタンス設定によって異なります。 これは、値「mc」に続いて個人の組織 ID に対応します。 Geometrixx会社の例で、組織 ID として「geometrixx」を使用します。 この場合、POST リクエストは次のようになります。
 
   `POST https://mc.adobe.io/geometrixx/campaign/mcgeometrixx/<eventID>`
 
   なお、トランザクションメッセージ API エンドポイントは、API プレビュー中にも表示されます。
 
-* **&lt;eventID>**：送信するイベントのタイプ。 この ID は、イベント設定の作成時に生成されます（[&#x200B; この節 &#x200B;](../../channels/using/configuring-transactional-event.md#creating-an-event) を参照）。
+* **&lt;eventID>**：送信するイベントのタイプ。 この ID は、イベント設定の作成時に生成されます（[ この節 ](../../channels/using/configuring-transactional-event.md#creating-an-event) を参照）。
 
-### POSTリクエストヘッダー
+### POST リクエストヘッダー
 
 リクエストには、「Content-Type: application/json」ヘッダーが含まれている必要があります。
 
@@ -63,9 +64,9 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 -H 'Content-Length:79' \
 ```
 
-### POSTリクエスト本文
+### POST リクエスト本文
 
-イベントデータは JSON POST本文内に含まれます。 イベントの構造は定義によって異なります。 リソース定義画面の「API プレビュー」ボタンに、リクエストサンプルが表示されます。 [この節](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)を参照してください。
+イベントデータは JSON POST 本文内に含まれます。 イベントの構造は定義によって異なります。 リソース定義画面の「API プレビュー」ボタンに、リクエストサンプルが表示されます。 [この節](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)を参照してください。
 
 イベントにリンクされたトランザクションメッセージの送信を管理するために、次のオプションのパラメーターをイベントコンテンツに追加できます。
 
@@ -76,9 +77,9 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 >
 >「expiration」パラメーターと「scheduled」パラメーターの値は、ISO 8601 形式に従います。 ISO 8601 では、大文字「T」を使用して日付と時刻を区切るように指定されています。 ただし、読みやすくするために、入力または出力から削除できます。
 
-### POSTリクエストへの応答
+### POST リクエストへの応答
 
-POSTレスポンスは、作成時のトランザクションイベントのステータスを返します。 現在のステータス（イベントデータ、イベントステータスなど）を取得するには、GETリクエストでPOSTレスポンスから返されるプライマリキーを使用します。
+POST 応答は、作成時のトランザクションイベントステータスを返します。 現在のステータス（イベントデータ、イベントステータスなど）を取得するには、GET リクエストで POST レスポンスによって返されるプライマリキーを使用します。
 
 `GET https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>/`
 
@@ -86,7 +87,7 @@ POSTレスポンスは、作成時のトランザクションイベントのス�
 
 ***リクエストのサンプル***
 
-イベントを送信するためのPOSTリクエスト。
+イベントを送信するための POST リクエスト。
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/mcAdobe/EVTcartAbandonment \
@@ -109,7 +110,7 @@ POSTレスポンスは、作成時のトランザクションイベントのス�
 }
 ```
 
-POSTリクエストへの応答。
+POST リクエストへの応答。
 
 ```
 {
@@ -142,4 +143,4 @@ POSTリクエストへの応答。
 * **deliveryFailed**: イベントの処理中に配信エラーが発生しました。
 * **routingFailed**：ルーティングフェーズが失敗しました。これは、指定されたイベントのタイプが見つからない場合などに発生する可能性があります。
 * **tooOld**：処理可能になる前にイベントの有効期限が切れました。これは、様々な理由で発生する可能性があります。例えば、送信が数回失敗した場合（イベントが最新ではなくなる結果となる）、オーバーロードされた後にサーバーがイベントを処理できなくなった場合などです。
-* **targetingFailed**: Campaign Standardは、メッセージのターゲティングに使用されているリンクをエンリッチメントできませんでした。
+* **targetingFailed**:Campaign Standardで、メッセージのターゲティングに使用されているリンクをエンリッチメントできませんでした。

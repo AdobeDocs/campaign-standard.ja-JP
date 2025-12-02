@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: fileExport,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 3fc286a9-bba4-4e3d-95cd-600eed4943e7
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 68%
@@ -20,9 +21,9 @@ ht-degree: 68%
 
 次の例は、「**[!UICONTROL Query]**」アクティビティの後に「**[!UICONTROL Extract file]**」アクティビティを設定する方法を示しています。
 
-このワークフローの目的は、プロファイルのリストを外部ファイルの形式で書き出し、Adobe Campaign 外でデータを使用できるようにすることです。
+このワークフローの目的は、プロファイルのリストを外部ファイルの形式でエクスポート、Adobe Campaign 外でデータを使用できるようにすることです。
 
-1. [&#x200B; ファイルを抽出 &#x200B;](../../automating/using/extract-file.md) アクティビティをワークフローにドラッグ&amp;ドロップし、[&#x200B; クエリ &#x200B;](../../automating/using/query.md) アクティビティの後に配置します。
+1. [ ファイルを抽出 ](../../automating/using/extract-file.md) アクティビティをワークフローにドラッグ&amp;ドロップし、[ クエリ ](../../automating/using/query.md) アクティビティの後に配置します。
 
    この例では、クエリは 18～30 歳のすべてのプロファイルで実行されます。
 
@@ -45,7 +46,7 @@ ht-degree: 68%
      ![](assets/wkf_data_export9.png)
 
 1. アクティビティを確認します。
-1. [&#x200B; ファイルを転送 &#x200B;](../../automating/using/transfer-file.md) アクティビティを **[!UICONTROL Extract file]** アクティビティの後にドラッグ&amp;ドロップして、抽出ファイルを外部アカウントに復元します。
+1. [ ファイルを転送 ](../../automating/using/transfer-file.md) アクティビティを **[!UICONTROL Extract file]** アクティビティの後にドラッグ&amp;ドロップして、抽出ファイルを外部アカウントに復元します。
 1. アクティビティを開き、**[!UICONTROL File upload]** アクションを選択します。
 
    ![](assets/wkf_data_export11.png)

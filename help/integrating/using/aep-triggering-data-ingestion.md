@@ -5,12 +5,13 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: d67a796a-0730-4502-802c-d0b3583dd1dc
 hide: true
 hidefromtoc: true
-source-git-commit: 110f3ccb5865e70c78e18485b4ff4ba7a648af3f
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 6%
@@ -21,15 +22,15 @@ ht-degree: 6%
 
 >[!IMPORTANT]
 >
->現在、Adobe Experience Platform Data Connector はベータ版です。予告なく頻繁に更新される可能性があります。 これらの機能にアクセスするには、お客様を Azure でホストする必要があります（現在は北米向けのベータ版のみ）。 アクセスをご希望の場合は、Adobeカスタマーケアにお問い合わせください。
+>現在、Adobe Experience Platform Data Connector はベータ版です。予告なく頻繁に更新される可能性があります。 これらの機能にアクセスするには、お客様を Azure でホストする必要があります（現在は北米向けのベータ版のみ）。 へのアクセスを希望する場合は、Adobe カスタマーケアにお問い合わせください。
 
 Adobe Campaign Standardでは、API を使用してデータマッピングの即時取り込みをトリガーし、取り込みリクエストのステータスを取得できます。
 
-このページでは、データマッピングの取り込みステータスをトリガーおよび取得する方法について説明します。 Campaign StandardAPI について詳しくは、[&#x200B; この節 &#x200B;](../../api/using/get-started-apis.md) を参照してください。
+このページでは、データマッピングの取り込みステータスをトリガーおよび取得する方法について説明します。 Campaign Standard API に関する全般的な情報については、[ この節 ](../../api/using/get-started-apis.md) を参照してください。
 
 ## 前提条件 {#prerequisites}
 
-API を使用する前に、まずデータマッピングを設定し、Campaign Standardインターフェイス内で公開する必要があります。 詳しくは、以下の節を参照してください。
+API を使用する前に、まずCampaign Standard インターフェイス内でデータマッピングを設定して公開する必要があります。 詳しくは、以下の節を参照してください。
 
 * [マッピングの定義](../../integrating/using/aep-mapping-definition.md)
 * [マッピングのアクティベーション](../../integrating/using/aep-mapping-activation.md)
@@ -44,17 +45,17 @@ API を使用する前に、まずデータマッピングを設定し、Campaig
 
 1. 変更を保存します
 
-データマッピングの実行は停止しました。 Campaign StandardAPI を使用すると、手動でトリガーを設定できます。
+データマッピングの実行は停止しました。 Campaign Standard API を使用すると、手動でトリガーできます。
 
 ## データマッピングの即時取り込みの開始 {#starting-immediate-ingestion}
 
-XDM マッピングのAdobe Experience Platformへの即時取り込みは、POSTの操作でトリガーされます。
+Adobe Experience Platformへの XDM マッピングの即時取り込みは、POST 操作でトリガーされます。
 
 `POST https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM Mapping ID>/ingest`
 
 >[!NOTE]
 >
->POSTー API 呼び出しの取り込みを実行するには、ユーザーに **SQL function execution** ロールが必要です。このロールは、以下の JS スクリプトを実行することでCampaign Standard管理者から提供できます。
+>POST API 呼び出しの取り込みを実行するには、ユーザーに **SQL function execution** ロールが必要です。このロールは、以下の JS スクリプトを実行することでCampaign Standard管理者から提供されます。
 >
 >```
 >var sqlRoleObj = REST.head.roleBase.sql.get();
@@ -62,7 +63,7 @@ XDM マッピングのAdobe Experience Platformへの即時取り込みは、POS
 >```
 >
 
-POST操作は、作成されたリクエストステータスに関する情報を返します。
+POST 操作は、作成されたリクエストステータスに関する情報を返します。
 
 * XDM マッピングのリクエストが正常に送信されました：
 
@@ -108,7 +109,7 @@ GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM 
 
 >[!NOTE]
 >
->XDM マッピングリクエストのステータスとその関連ジョブに関する詳細は、Campaign Standardインターフェイスの **[!UICONTROL Status of data export to platform]** メニューで確認できます（[&#x200B; マッピングのアクティブ化 &#x200B;](../../integrating/using/aep-mapping-activation.md) を参照）。
+>XDM マッピングリクエストのステータスとその関連ジョブに関する詳細は、Campaign Standard インターフェイスの **[!UICONTROL Status of data export to platform]** メニューで確認できます（[ マッピングのアクティブ化 ](../../integrating/using/aep-mapping-activation.md) を参照）。
 
 GET操作を実行すると、次の情報が返されます。
 

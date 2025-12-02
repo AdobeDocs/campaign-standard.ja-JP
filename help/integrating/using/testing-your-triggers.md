@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-triggers
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 66628f2a-6ed3-4b12-b2ed-9b9eec440dc3
-source-git-commit: 602878233e919d01f3972167cb6d3a1acc4cfc02
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 1%
@@ -25,27 +26,27 @@ Adobe Campaignでトリガーを使用する際に発生する可能性のある
 
 表示された場合は、次の手順に進みます。
 
-そうでない場合は、Adobeアカウントのエグゼクティブまたはプロフェッショナルサービスパートナーにお問い合わせください。 [&#x200B; 機能のアクティベート &#x200B;](../../integrating/using/configuring-triggers-in-experience-cloud.md#activating-the-functionality) を参照してください。
+そうでない場合は、Adobe アカウントのエグゼクティブまたはプロフェッショナルサービスパートナーにお問い合わせください。 [ 機能のアクティベート ](../../integrating/using/configuring-triggers-in-experience-cloud.md#activating-the-functionality) を参照してください。
 
 **トリガーを作成してみる**
 
-[Campaign でのマッピングされたトリガーの作成 &#x200B;](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign) の手順に従って、トリガーを作成します。
+[Campaign でのマッピングされたトリガーの作成 ](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign) の手順に従って、トリガーを作成します。
 
-トリガーを作成した場合は、次の手順に進みます。 そうでない場合は、トリガーエンドポイントの接続が失敗したことを示します。 トリガーがExperience Cloud（アクティベーションサービス）でプロビジョニングされているかどうかを確認します。 そうでない場合は、Adobeアカウントのエグゼクティブまたはプロフェッショナルサービスパートナーにお問い合わせください。 次の情報が必要です。
+トリガーを作成した場合は、次の手順に進みます。 そうでない場合は、トリガーエンドポイントの接続が失敗したことを示します。 Experience Cloud（アクティベーションサービス）でトリガーがプロビジョニングされているかどうかを確認します。 そうでない場合は、Adobe アカウントのエグゼクティブまたはプロフェッショナルサービスパートナーにお問い合わせください。 次の情報が必要です。
 
-* Marketing Cloud会社名
+* Marketing Cloudの会社名
 * 組織 ID
 * Analytics ログイン会社（Marketing Cloudの会社名と同じ場合があります）
 
 **トリガーを公開してみてください**
 
-[Campaign でのマッピングされたトリガーの作成 &#x200B;](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign) の手順に従って、トリガーを公開します。
+[Campaign でのマッピングされたトリガーの作成 ](../../integrating/using/using-triggers-in-campaign.md#creating-a-mapped-trigger-in-campaign) の手順に従って、トリガーを公開します。
 
 公開が成功した場合は、次の手順に進みます。 そうでない場合は、Adobeに連絡してインスタンスを再起動し、もう一度試してください。
 
 **Web サイトからトリガーを生成**
 
-[&#x200B; トランザクションメッセージテンプレートの編集 &#x200B;](../../integrating/using/using-triggers-in-campaign.md#editing-the-transactional-message-template) の手順に従って、トランザクションテンプレートを編集して公開します。 次に、web サイトからトリガーを生成するテストを行います。
+[ トランザクションメッセージテンプレートの編集 ](../../integrating/using/using-triggers-in-campaign.md#editing-the-transactional-message-template) の手順に従って、トランザクションテンプレートを編集して公開します。 次に、web サイトからトリガーを生成するテストを行います。
 
 Analytics がトリガーを受け取った場合は、次の手順に進みます。 表示されない場合は、次の項目を確認してください。
 
@@ -57,7 +58,7 @@ Analytics がトリガーを受け取った場合は、次の手順に進みま�
 
 そうでない場合は、パイプラインからトリガーを受信したかどうかを確認します。
 
-そうでない場合は、Adobeに連絡して、パイプラインエンドポイントの設定を確認してください。
+設定されていない場合は、Adobeに連絡して、パイプラインエンドポイントの設定を確認してください。
 
 その場合は、次のガイドラインに従います。
 

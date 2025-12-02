@@ -1,16 +1,17 @@
 ---
 title: マッピングの定義
-description: Campaign Standardフィールドをエクスペリエンスデータモデル（XDM）フィールドにマッピングする方法について説明します。
+description: Campaign Standard フィールドをエクスペリエンスデータモデル（XDM）フィールドにマッピングする方法について説明します。
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 6383ddbe-922a-4363-a1da-166cf717b0dd
 hide: true
 hidefromtoc: true
-source-git-commit: 110f3ccb5865e70c78e18485b4ff4ba7a648af3f
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 0%
@@ -21,9 +22,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->現在、Adobe Experience Platform Data Connector はベータ版です。予告なく頻繁に更新される可能性があります。 これらの機能にアクセスするには、お客様を Azure でホストする必要があります（現在は北米向けのベータ版のみ）。 アクセスをご希望の場合は、Adobeカスタマーケアにお問い合わせください。
+>現在、Adobe Experience Platform Data Connector はベータ版です。予告なく頻繁に更新される可能性があります。 これらの機能にアクセスするには、お客様を Azure でホストする必要があります（現在は北米向けのベータ版のみ）。 へのアクセスを希望する場合は、Adobe カスタマーケアにお問い合わせください。
 
-この節では、Campaign Standardフィールドをエクスペリエンスデータモデル（XDM）フィールドにマッピングする方法について説明します。
+この節では、Campaign Standard フィールドをエクスペリエンスデータモデル（XDM）フィールドにマッピングする方法について説明します。
 
 このタスクを実行するには、次の前提条件があります。
 
@@ -38,20 +39,20 @@ ht-degree: 0%
 
 1. 必須フィールドに入力し、以下を選択します。
 
-   * **ターゲティングディメンション**：これは、マッピングするCampaign Standardスキーマです
+   * **ターゲティングディメンション**：これは、マッピングするCampaign Standard スキーマです
    * **データセット**：これは、Adobe Experience Platformの XDM スキーマに関連付けられたデータパッケージです。
 
 >[!NOTE]
 >
->バッチをリアルタイム顧客プロファイルまたは ID サービスに取り込むには、データセットを [&#x200B; リアルタイム顧客プロファイルに対して有効にする &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/get-started.html?lang=ja) 必要があります。
+>バッチをリアルタイム顧客プロファイルまたは ID サービスに取り込むには、データセットを [ リアルタイム顧客プロファイルに対して有効にする ](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/get-started.html) 必要があります。
 >
 >選択したデータセットが既存のデータマッピングで既に使用されている場合は、Adobe Experience Platformでデータが上書きされる可能性があることを知らせる警告が表示されます。 これは、同じデータセットを使用したデータマッピングに一般的な受信者が複数ある場合に発生する可能性があります。
 
-次の画面では、Campaign Standardスキーマの各フィールドに対して新しいマッピングを作成できる、**[!UICONTROL Field mappings]** のセクションを示します。
+次の画面では、Campaign Standard スキーマの各フィールドに対して新しいマッピングを作成できる、**[!UICONTROL Field mappings]** の節を示します。
 
 ![](assets/aep_fieldmappings.png)
 
-「**[!UICONTROL Create new field mapping]**」ボタンを使用すると、Campaign Standardフィールドおよび対応するフィールドパス式を XDM スキーマで選択できます。
+「**[!UICONTROL Create new field mapping]**」ボタンを使用すると、Campaign Standard フィールドと、XDM スキーマ内の対応するフィールドパス式を選択できます。
 
 Adobe Campaign Standard フィールドが見つからない場合は、検索フィールドを使用してフィールドを検索できます。 現在、検索は階層で開かれているフィールドに対してのみ機能します。
 
@@ -63,7 +64,7 @@ Campaign Standardで定義された拡張リソースは、すべてのネイテ
 
 API を介して XDM 拡張機能をカスタマイズし、独自の拡張機能を定義すると、マッピングをより詳細に制御できます。
 
-XDM API について詳しくは、[&#x200B; スキーマレジストリ API チュートリアル &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=ja) を参照してください。
+XDM API について詳しくは、[ スキーマレジストリ API チュートリアル ](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html) を参照してください。
 
 列挙フィールドをマッピングするには、式エディターを使用して、XDM 値に対応する各列挙値を定義する必要があります。 例えば、postaladdressfield は、次のように定義する必要があります。
 

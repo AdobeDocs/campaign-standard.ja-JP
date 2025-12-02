@@ -1,15 +1,16 @@
 ---
 title: 外部 API
-description: 「外部 API」アクティビティは、HTTP API 呼び出しを使用して、外部システムからCampaign Standardワークフローにデータを取り込みます。
+description: 「外部 API」アクティビティは、HTTP API 呼び出しを使用して、外部システムからCampaign Standard ワークフローにデータを取り込みます。
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
 context-tags: externalAPI,workflow,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 44ad654e-bde9-4189-8765-0479d81dc0f7
-source-git-commit: 13d419c5fc51845ee14f8a3b288f4c467e0a60d9
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '2208'
 ht-degree: 93%
@@ -38,7 +39,7 @@ ht-degree: 93%
 
 ### 後方互換性に関する注意事項 {#from-beta-to-ga}
 
-Campaign Standard 20.4 リリースでは、ベストプラクティスに合わせて、http 応答のデータサイズ制限と応答のタイムアウトガードレールの値が下げられました。[&#x200B; 制限とガードレール &#x200B;](#guardrails) を参照してください。 これらのガードレールの変更は、既存の外部 API アクティビティには影響しません。したがって、既存の外部 API アクティビティを、すべてのワークフローの新しいバージョンで置き換えることをお勧めします。
+Campaign Standard 20.4 リリースでは、ベストプラクティスに合わせて、http 応答のデータサイズ制限と応答のタイムアウトガードレールの値が下げられました。[ 制限とガードレール ](#guardrails) を参照してください。 これらのガードレールの変更は、既存の外部 API アクティビティには影響しません。したがって、既存の外部 API アクティビティを、すべてのワークフローの新しいバージョンで置き換えることをお勧めします。
 
 「外部 API」アクティビティを置き換える場合は、新しい「外部 API」アクティビティをワークフローに追加し、設定の詳細を手動でコピーしてから、古いアクティビティを削除します。
 
@@ -95,10 +96,10 @@ JSON パーサーは、標準の JSON 構造パターンタイプに対応する
 
 サンプルの JSON 定義には&#x200B;**次の特性**&#x200B;が必要です。
 
-* **配列要素**&#x200B;には、第 1 レベルのプロパティを含める必要があります（これより深いレベルはサポートされていません）。
+* **配列要素**には、第 1 レベルのプロパティを含める必要があります（これより深いレベルはサポートされていません）。
   **プロパティ名**&#x200B;は、出力された一時テーブルの出力スキーマの列名になります。
 * 取り込む **JSON 要素**&#x200B;は、JSON 応答内のネストが 10 レベル以下であることが必要です。
-* **列名**&#x200B;の定義は、「data」配列の最初の要素に基づいています。
+* **列名**の定義は、「data」配列の最初の要素に基づいています。
 列定義（追加／削除）とプロパティのタイプ値は、「**COLUMN DEFINITION**」タブで編集できます。
 
 **「Flatten」ェックボックス**&#x200B;の動作：
@@ -114,7 +115,7 @@ JSON パーサーは、標準の JSON 構造パターンタイプに対応する
 
 ### 「EXECUTION」タブ
 
-このタブでは、接続エンドポイントを定義できます。**[!UICONTROL URL]** フィールドでは、Campaign Standardがやり取りする **HTTPS エンドポイント** を定義できます。
+このタブでは、接続エンドポイントを定義できます。**[!UICONTROL URL]** フィールドでは、Campaign Standardが通信する **HTTPS エンドポイント** を定義できます。
 
 エンドポイントで必要な場合、次の 2 種類の認証方法を使用できます。
 
@@ -185,7 +186,7 @@ JSON パーサーは、標準の JSON 構造パターンタイプに対応する
   </tr> 
   <tr> 
    <td> Transferring content from '%s' (%s / %s).</td> 
-   <td> <p>「https://example.com/api/v1/web-coupon?count=2」からコンテンツを転送しています (1234/1234)。</p></td> 
+   <td> <p>「Https://example.com/api/v1/web-coupon?count=2」からコンテンツを転送しています (1234/1234)。</p></td> 
   </tr>
   <tr> 
    <td> Using cached access token for provider ID '%s'.</td> 

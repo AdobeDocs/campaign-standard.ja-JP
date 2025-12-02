@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: workflow-general-operation
 context-tags: workflow,overview;workflow,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 8d9820a4-3c44-45f5-815e-4ed48a96276d
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 1%
@@ -20,7 +21,7 @@ ht-degree: 1%
 
 ## スケジュールされたワークフローの実行について
 
-これにCampaign Standardして、ワークフローエンジンは、ワークフローインスタンスが 1 つのプロセスによってのみ実行されることを保証します。 インポート、長時間実行されているクエリ、データベースへの書き込みなどのアクティビティをブロックすると、実行中に他のタスクを実行できなくなります。
+Campaign Standardでは、ワークフローエンジンは、ワークフローインスタンスが 1 つのプロセスによってのみ実行されることを保証します。 インポート、長時間実行されているクエリ、データベースへの書き込みなどのアクティビティをブロックすると、実行中に他のタスクを実行できなくなります。
 
 一方、ノンブロッキングアクティビティでは、他のタスク（通常は **[!UICONTROL Scheduler]** アクティビティなどのイベントを待機しているアクティビティ）の実行はブロックされません。
 

@@ -6,10 +6,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: e73e2069-e86d-4be2-bf73-22e6dc164340
-source-git-commit: e7fdaa4b1d77afdae8004a88bbe41bbbe75a3f3c
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '1079'
 ht-degree: 2%
@@ -33,7 +34,7 @@ Adobe Campaign StandardとMicrosoft Dynamics 365 セルフサービス統合ア�
 
 ## 前提条件 {#self-service-app-prerequisites}
 
-統合アプリがデータにアクセスできるように、Microsoft Dynamics 365 とAdobe Campaign Standardを設定する必要があります。 Dynamics 365、Adobe Campaign Standard、およびAdobe I/Oでの設定にはある程度の時間がかかりますが、設定が完了すると、セルフサービス統合アプリケーションのユーザーインターフェイスを通じて統合を制御できるようになります。
+統合アプリがデータにアクセスできるように、Microsoft Dynamics 365 とAdobe Campaign Standardを設定する必要があります。 Dynamics 365、Adobe Campaign Standard、Adobe I/Oでの設定にはある程度の時間がかかりますが、設定が完了すると、セルフサービス統合アプリケーションのユーザーインターフェイスを使用して、統合を制御できるようになります。
 
 詳しくは、以下の節を参照してください。
 
@@ -54,14 +55,14 @@ Adobe Campaign StandardとMicrosoft Dynamics 365 セルフサービス統合ア�
 
 ブラウザーを開き、地域に関連付けられているコネクタを参照します。
 
-* [&#x200B; アジア太平洋 &#x200B;](https://d365-acs-ap.ea.adobe.com/)
-* [&#x200B; ヨーロッパ、中東、アフリカ（EMEA） &#x200B;](https://d365-acs-em.ea.adobe.com/)
-* [&#x200B; アメリカ &#x200B;](https://d365-acs-am.ea.adobe.com/)
+* [ アジア太平洋 ](https://d365-acs-ap.ea.adobe.com/)
+* [ ヨーロッパ、中東、アフリカ（EMEA） ](https://d365-acs-em.ea.adobe.com/)
+* [ アメリカ ](https://d365-acs-am.ea.adobe.com/)
 
 ## プライバシーリクエストの確認 {#self-service-app-acknowledgement}
 
 初めてセルフサービス UI にアクセスすると、プライバシー確認が表示されます。 続行する前に、Campaign とMicrosoft Dynamics 365 でプライバシーリクエストを個別に実行する自身の役割を理解していることを確認する必要があります。
-プライバシーの責任と、プライバシーリクエストの管理方法について詳しくは、[&#x200B; この節 &#x200B;](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-privacy) を参照してください。
+プライバシーの責任と、プライバシーリクエストの管理方法について詳しくは、[ この節 ](../../integrating/using/d365-acs-notices-and-recommendations.md#acs-msdyn-manage-privacy) を参照してください。
 
 ## 認証情報の設定 {#self-service-app-credentials}
 
@@ -88,11 +89,11 @@ Adobe Campaign StandardとMicrosoft Dynamics 365 セルフサービス統合ア�
 * Microsoft Dynamics 365 資格情報
 * Adobe資格情報
 
-各入力の情報の場所の詳細については、[&#x200B; ここ &#x200B;](../../integrating/using/d365-acs-self-service-app-settings.md) を参照してください。 完了したら、下部にある「**[!UICONTROL Save]**」ボタンをクリックします。
+各入力の情報の場所の詳細については、[ ここ ](../../integrating/using/d365-acs-self-service-app-settings.md) を参照してください。 完了したら、下部にある「**[!UICONTROL Save]**」ボタンをクリックします。
 
 ## 初期設定の確認 {#self-service-app-initial-config}
 
-上記の前提条件を満たし、すべての資格情報が正しく追加されている場合は、**[!UICONTROL Workflows]** のページに移動しましょう。 統合アプリワークフローについて詳しくは、[&#x200B; このページ &#x200B;](../../integrating/using/d365-acs-self-service-app-workflows.md) を参照してください。
+上記の前提条件を満たし、すべての資格情報が正しく追加されている場合は、**[!UICONTROL Workflows]** のページに移動しましょう。 統合アプリワークフローについて詳しくは、[ このページ ](../../integrating/using/d365-acs-self-service-app-workflows.md) を参照してください。
 
 **[!UICONTROL Workflows]** ページで、**[!UICONTROL Microsoft Dynamics 365 to Campaign]** ワークフローに関連付けられている鉛筆アイコンをクリックして、設定を編集します。
 
@@ -104,9 +105,9 @@ Adobe Campaign StandardとMicrosoft Dynamics 365 セルフサービス統合ア�
 
 **[!UICONTROL Edit Table Mapping]** ページで、「**[!UICONTROL Mappings]**」セクションをチェックし、Microsoft Dynamics 365 のフィールドが Campaign の正しいフィールドにマッピングされていることを確認します。 他のマッピングを追加する必要がある場合は、置換やフィルターと同様に、今すぐ追加します。 [詳細情報](../../integrating/using/d365-acs-self-service-app-data-sync.md)。
 
-新しいマッピングを追加する場合は、[&#x200B; この節 &#x200B;](../../integrating/using/d365-acs-self-service-app-data-sync.md#add-a-new-mapping) を参照してください。
+新しいマッピングを追加する場合は、[ この節 ](../../integrating/using/d365-acs-self-service-app-data-sync.md#add-a-new-mapping) を参照してください。
 
-設定が正しければ、**[!UICONTROL Microsoft Dynamics 365 to Campaign]** ワークフローの横にある「**[!UICONTROL Play]**」ボタンをクリックして、統合とデータのフローを開始します。
+設定が正しければ、**[!UICONTROL Play]** ワークフローの横にある「**[!UICONTROL Microsoft Dynamics 365 to Campaign]**」ボタンをクリックして、統合とデータのフローを開始します。
 
 >[!IMPORTANT]
 >
@@ -134,7 +135,7 @@ Adobe Campaign StandardとMicrosoft Dynamics 365 セルフサービス統合ア�
 
 * **ドキュメント**：このオプションは、この統合固有のAdobe Campaign ドキュメントへのリンクです
 
-* **カスタマーケア**：カスタマーケアチケットのオープンに関連するExperience Cloudドキュメントへのリンクです
+* **カスタマーケア**：カスタマーケアチケットのオープンに関連するExperience Cloud ドキュメントへのリンクです
 
 * **ログアウト**：これにより、アプリケーションからログアウトし、別のユーザーとしてログインし直すことができます。
 

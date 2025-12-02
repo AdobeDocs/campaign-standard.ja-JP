@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: data-management-activities
 context-tags: reconciliation,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 7d0e3f17-ef04-4890-b63b-6957fc6cd648
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 81%
@@ -28,7 +29,7 @@ ht-degree: 81%
 
 ![](assets/reconciliation_example1.png)
 
-* [&#x200B; ファイルを読み込み &#x200B;](../../automating/using/load-file.md) アクティビティ。読み込むファイルのデータを読み込んで検出します。 インポートされたファイルには、次のデータが含まれています。
+* [ ファイルを読み込み ](../../automating/using/load-file.md) アクティビティ。読み込むファイルのデータを読み込んで検出します。 インポートされたファイルには、次のデータが含まれています。
 
    * トランザクション日
    * クライアントのメールアドレス
@@ -47,7 +48,7 @@ ht-degree: 81%
   2015-05-19 09:06:00;mail9@email.com;ZZ6
   ```
 
-* 購入データをデータベースプロファイルと製品にバインドする [&#x200B; 紐付け &#x200B;](../../automating/using/reconciliation.md) アクティビティ。 ファイルデータ、プロファイルテーブル、および商品テーブルの間のリレーションを定義する必要があります。この設定は、アクティビティの「**[!UICONTROL Relations]**」タブで実行されます。
+* 購入データをデータベースプロファイルと製品にバインドする [ 紐付け ](../../automating/using/reconciliation.md) アクティビティ。 ファイルデータ、プロファイルテーブル、および商品テーブルの間のリレーションを定義する必要があります。この設定は、アクティビティの「**[!UICONTROL Relations]**」タブで実行されます。
 
    * **Profiles** とのリレーション：ファイルの&#x200B;**クライアント**&#x200B;列は、**Profiles** ディメンションのメール&#x200B;**フィールドにリンクされています。**
    * **Products** との関係：ファイルの&#x200B;**商品**&#x200B;列は、**Profiles** ディメンションの&#x200B;**商品コード**&#x200B;フィールドにリンクされています。
@@ -56,7 +57,7 @@ ht-degree: 81%
 
   ![](assets/reconciliation_example3.png)
 
-* [&#x200B; データを更新 &#x200B;](../../automating/using/update-data.md) アクティビティでは、読み込んだデータを使用して更新するデータベースフィールドを定義できます。 前のアクティビティで **Transactions** ディメンションに属するデータが既に識別されているので、**[!UICONTROL Directly using the targeting dimension]** 識別オプションを使用できます。
+* [ データを更新 ](../../automating/using/update-data.md) アクティビティでは、読み込んだデータを使用して更新するデータベースフィールドを定義できます。 前のアクティビティで **Transactions** ディメンションに属するデータが既に識別されているので、**[!UICONTROL Directly using the targeting dimension]** 識別オプションを使用できます。
 
   更新するフィールドを自動的に検出するオプションを使用すると、前のアクティビティで設定したリンク（プロファイルや商品へのリンク）が **[!UICONTROL Fields to update]** のリストに追加されます。また、トランザクション日に対応するフィールドがこのリストに正しく追加されていることを確認する必要があります。
 

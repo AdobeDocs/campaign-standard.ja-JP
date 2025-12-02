@@ -5,10 +5,11 @@ audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
 feature: API
-role: Data Engineer
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: 6ce49aeb-a113-43ee-bfe3-f26a4a9e2a56
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 10%
@@ -17,8 +18,8 @@ ht-degree: 10%
 
 # プロファイルの組織単位の更新 {#managing-organizational-units}
 
-1. **orgUnitBase** リソースでGETリクエストを実行し、組織単位 PKey を取得します
-1. ペイロードに目的の組織単位 PKey を含めたプロファイル PKey に対してPATCHリクエストを実行します。
+1. **orgUnitBase** リソースでGET リクエストを実行して、組織単位 PKey を取得します
+1. ペイロードに目的の組織単位 PKey を含んだプロファイル PKey に対してPATCH リクエストを実行します。
 
 <br/>
 
@@ -50,7 +51,7 @@ ht-degree: 10%
 },
 ```
 
-ペイロードに目的の組織単位の PKey を使用して、プロファイルに対してPATCHリクエストを実行します。
+ペイロードに目的の組織単位の PKey を使用して、プロファイルに対してPATCH リクエストを実行します。
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/<PKEY> \

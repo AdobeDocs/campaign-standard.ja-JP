@@ -5,9 +5,10 @@ audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 exl-id: bb651b91-145f-4e87-92dd-a8b04662e380
-source-git-commit: 21bcc9818b881212985988ef3377687069a1dbea
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 75%
@@ -32,11 +33,11 @@ ht-degree: 75%
 
 受信データは一貫性があり正しいとか、IT 部門や Adobe Campaign スーパーバイザーが対処するとは思わないでください。プロジェクトの間、データクレンジングに留意してください。データをインポートする際には、重複排除し、紐付けし、一貫性を維持します。
 
-データの読み込み用に設計された汎用のワークフローテンプレートの例については、「例：ワークフローテンプレートの読み込み [&#128279;](../../automating/using/creating-import-workflow-templates.md) の節を参照してください 。
+データの読み込み用に設計された汎用のワークフローテンプレートの例については、「例：ワークフローテンプレートの読み込み [ の節を参照してください ](../../automating/using/creating-import-workflow-templates.md)。
 
 >[!NOTE]
 >
->[&#x200B; テンプレートをインポート &#x200B;](../../automating/using/importing-data-with-import-templates.md) を使用することもできます。 これらは、管理者が定義したワークフローテンプレートで、アクティブ化すると、読み込むデータを含むファイルを指定する機能のみが提供されます。
+>[ テンプレートをインポート ](../../automating/using/importing-data-with-import-templates.md) を使用することもできます。 これらは、管理者が定義したワークフローテンプレートで、アクティブ化すると、読み込むデータを含むファイルを指定する機能のみが提供されます。
 
 **関連トピック：**
 

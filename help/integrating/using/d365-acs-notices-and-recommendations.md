@@ -5,10 +5,11 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-ms-dynamics
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: aab6f005-f3da-4c0b-b856-da8504e611dc
-source-git-commit: 17522f4df86c7fb46593472316d57b4ba4acee2b
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '2523'
 ht-degree: 1%
@@ -21,7 +22,7 @@ ht-degree: 1%
 
 連絡先とカスタムエンティティの同期の場合、この統合は **Microsoft Dynamics 365 を情報源として扱います**。  同期された属性に対する変更は、Adobe Campaign Standardではなく Dynamics 365 で行う必要があります）。  Campaign で変更を加えると、同期が一方向にあるので、最終的には同期中に Campaign で変更が上書きされる可能性があります。
 
-この統合は、Dynamics 365 で連絡先が削除された場合に Campaign にプロファイル削除呼び出しを発行してデータの整合性を維持するように、オプションで設定できます。 ただし、プロファイルの削除は、プライバシーの削除とは異なります。 Campaign のプライバシー削除では、Campaign プロファイルレコードと関連するログエントリが削除されます。一方、通常のプロファイル削除では、Campaign プロファイルレコードのみが削除され、Campaign ログに残りのエントリが残ります。 プロファイル削除機能が統合で有効になっている場合、データ主体のプライバシーリクエストを適切に処理するには、追加の手順に従う必要があります。 詳しくは、以下の [&#x200B; プライバシーの節 &#x200B;](#manage-privacy-requests) の手順を参照してください。
+この統合は、Dynamics 365 で連絡先が削除された場合に Campaign にプロファイル削除呼び出しを発行してデータの整合性を維持するように、オプションで設定できます。 ただし、プロファイルの削除は、プライバシーの削除とは異なります。 Campaign のプライバシー削除では、Campaign プロファイルレコードと関連するログエントリが削除されます。一方、通常のプロファイル削除では、Campaign プロファイルレコードのみが削除され、Campaign ログに残りのエントリが残ります。 プロファイル削除機能が統合で有効になっている場合、データ主体のプライバシーリクエストを適切に処理するには、追加の手順に従う必要があります。 詳しくは、以下の [ プライバシーの節 ](#manage-privacy-requests) の手順を参照してください。
 
 ## プライバシー{#acs-msdyn-manage-privacy}
 
@@ -58,21 +59,21 @@ Microsoft Dynamics 365 と Campaign の間でオプトアウト属性に違い�
 
 * ccpa の特定の属性
 
-プロファイルエンティティフィールドについて詳しくは [&#x200B; こちら &#x200B;](../../developing/using/datamodel-profile.md) を参照してください。
+プロファイルエンティティフィールドについて詳しくは [ こちら ](../../developing/using/datamodel-profile.md) を参照してください。
 
 Dynamics 365 では、ほとんどのオプトアウトフィールドに「dono」というプレフィックスが付きますが、データタイプに互換性がある場合は、オプトアウトのために他の属性を利用することもできます。
 
 統合をプロビジョニングする際には、ビジネスで必要なオプトアウト設定を指定できます。
 
 * **一方向（Microsoft Dynamics 365 から Campaign）**:Dynamics 365 は、オプトアウトの情報源です。 オプトアウト属性は、Dynamics 365 からCampaign Standardに一方向に同期されます
-* **単方向（Microsoft Dynamics 365 に対する Campaign）**：オプトアウトの情報源はCampaign Standardです。 オプトアウト属性は、Campaign Standardから Dynamics 365 に一方向に同期されます
+* **一方向性（Microsoft Dynamics 365 に対する Campaign）**:Campaign Standardはオプトアウトの情報源です。 オプトアウト属性は、Campaign Standardから Dynamics 365 に一方向に同期されます
 * **双方向**:Dynamics 365 とCampaign Standardはどちらも信頼できる情報源です。 オプトアウト属性は、Campaign Standardと Dynamics 365 間で双方向に同期されます
 
 または、システム間のオプトアウト同期を管理する別のプロセスがある場合、統合のオプトアウトデータフローを無効にできます。
 
 双方向オプトアウト設定では、ロジックを使用して、両方のシステムに書き込む値を決定します。 ロジックでは、2 つのシステム間でタイムスタンプを比較し（Dynamics 365 のレコードレベルの変更、Campaign の属性レベルの変更）、優先されるシステムを判断します。 Campaign により新しいタイムスタンプが含まれる場合は、Campaign 値が優先されます。 Dynamics 365 により新しいタイムスタンプが含まれている場合、またはそれらが等しい場合、opt-out=TRUE が勝ちます（値の 1 つが TRUE であると仮定）。
 
-オプトイン/オプトアウトオプションを選択する方法については、[&#x200B; この節 &#x200B;](../../integrating/using/d365-acs-self-service-app-data-sync.md#opt-in-out-wf) を参照してください。
+オプトイン/オプトアウトオプションを選択する方法については、[ この節 ](../../integrating/using/d365-acs-self-service-app-data-sync.md#opt-in-out-wf) を参照してください。
 
 >[!NOTE]
 >
@@ -82,7 +83,7 @@ Dynamics 365 では、ほとんどのオプトアウトフィールドに「dono
 
 >[!IMPORTANT]
 >
->**双方向** または **一方向（Campaign からMicrosoft Dynamics 365）** のオプトアウト設定が必要な場合、Campaign インスタンスでオプトアウトワークフローを設定するには、Adobeの技術担当者にリクエストを送信する必要があります
+>**双方向** または **単方向（Campaign からMicrosoft Dynamics 365）** のオプトアウト設定が必要な場合、Campaign インスタンスでオプトアウトワークフローを設定するには、Adobeの技術担当者にリクエストを行う必要があります
 
 ## Campaign SFTP の使用状況
 
@@ -130,7 +131,7 @@ Microsoft Dynamics 365 は依然として信頼できる情報源であり、統
 
 ### カスタムエンティティ
 
-[Microsoft Dynamics 365 とAdobe Campaign Standardの統合 &#x200B;](../../integrating/using/d365-acs-get-started.md) は、カスタムエンティティをサポートしており、Dynamics 365 のカスタムエンティティを Campaign の対応するカスタムリソースに同期できます。
+[Microsoft Dynamics 365 とAdobe Campaign Standardの統合 ](../../integrating/using/d365-acs-get-started.md) は、カスタムエンティティをサポートしており、Dynamics 365 のカスタムエンティティを Campaign の対応するカスタムリソースに同期できます。
 
 統合では、リンクされたテーブルとリンクされていないテーブルの両方がサポートされます。
 
@@ -146,7 +147,7 @@ Microsoft Dynamics 365 は依然として信頼できる情報源であり、統
 
 * 非表示の子レコードがあり、それにアクセスする方法がないと思われる状況になった場合は、カーディナリティ リンクタイプを一時的に **0 または 1 のカーディナリティ シンプルリンク** に変更して、それらのレコードにアクセスできます。
 
-Campaign カスタムリソースのより包括的な概要については、[&#x200B; この節 &#x200B;](../../developing/using/key-steps-to-add-a-resource.md) を参照してください。
+Campaign カスタムリソースのより包括的な概要については、[ この節 ](../../developing/using/key-steps-to-add-a-resource.md) を参照してください。
 
 ### 統合ガードレール
 
@@ -162,7 +163,7 @@ Campaign カスタムリソースのより包括的な概要については、[&
 
   Campaign エンジン呼び出し全体の量を見積もる場合は、ランディングページ、Web アプリ、JSSP、API、モバイルアプリ登録など、エンジン呼び出しの他のソースを考慮することが重要です。
 
-  Adobe Campaign Standard パッケージの情報はこちら：[https://helpx.adobe.com/jp/legal/product-descriptions/campaign-standard.html](https://helpx.adobe.com/jp/legal/product-descriptions/campaign-standard.html) をご覧ください。
+  Adobe Campaign Standard パッケージの情報はこちら：[https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html](https://helpx.adobe.com/jp/legal/product-descriptions/campaign-standard.html) をご覧ください。
 
 * 統合では、Campaign 内のリソースとの初期同期に最大 1,500 万件の合計レコードをサポートしています。 増分同期は、Adobe Campaign Standard パッケージによって制限されます。
 
@@ -176,11 +177,11 @@ Campaign カスタムリソースのより包括的な概要については、[&
 
 * この統合は、プリミティブ Microsoft Dynamics 365 データタイプ（ブール値、整数、小数、倍精度浮動小数点数、文字列、日時、日付）とAdobe Campaign Standard データタイプ（整数、ブール値、浮動小数、倍精度浮動小数点数、日付、日時、文字列）間の変換をサポートします。 より高度なデータタイプは文字列として解釈され、そのまま同期されます。
 
-* Adobeとお客様の間で、オンボーディングのメンテナンスウィンドウを確立する必要が生じる場合があります。
+* Adobeとお客様の間で、オンボーディングメンテナンスウィンドウの確立が必要になる場合があります。
 
 * 統合の使用状況の大幅な増加または「スパイク」は、新しいレコードや更新されたレコードの急激な増加など、データ同期の速度低下を引き起こす可能性があることに注意してください。
 
-* 統合の一環として、Microsoft Azure と Dynamics 365 の統合前の設定手順を完了する必要があります。 設定手順 [&#x200B; このページ &#x200B;](../../integrating/using/d365-acs-configure-d365.md) を参照してください
+* 統合の一環として、Microsoft Azure と Dynamics 365 の統合前の設定手順を完了する必要があります。 設定手順 [ このページ ](../../integrating/using/d365-acs-configure-d365.md) を参照してください
 
 * Dynamics 365 と Campaign のデータモデルが統合され、維持されることになっています。
 
@@ -188,7 +189,7 @@ Campaign カスタムリソースのより包括的な概要については、[&
 
 この統合は、Microsoft Dynamics 365 と Campaign の間で行われる一般的なデータ移動の一般的なユースケースを解決するように設計されましたが、お客様ごとに固有のすべてのユースケースに対応するものではありません。
 
-* この統合では、プライバシー（GDPR など）の削除は発行されません。 エンドユーザーのプライバシーリクエストを処理する責任はお客様にあります。このようなリクエストは、Campaign （Adobe Experience Platform Privacy Service経由）と Dynamics 365 の両方で個別に行う必要があります。 必要に応じて、統合はデータ同期に役立つ定期的な削除を発行できます。   詳しくは [&#x200B; プライバシーの節 &#x200B;](#manage-privacy-requests) を参照してください。
+* この統合では、プライバシー（GDPR など）の削除は発行されません。 エンドユーザーのプライバシーリクエストを処理する責任はお客様にあります。このようなリクエストは、Campaign （Adobe Experience Platform Privacy Service経由）と Dynamics 365 の両方で個別に行う必要があります。 必要に応じて、統合はデータ同期に役立つ定期的な削除を発行できます。   詳しくは [ プライバシーの節 ](#manage-privacy-requests) を参照してください。
 
 * オプトアウト情報（顧客が設定した場合）を除き、プロファイルまたはカスタムエンティティデータは Campaign から Dynamics 365 に同期されません。
 
@@ -196,4 +197,4 @@ Campaign カスタムリソースのより包括的な概要については、[&
 
 * Dynamics 365 内からの Campaign メールキャンペーンの作成とトリガーはサポートされていません。
 
-* この統合では、Dynamics 365 とCampaign Standardデータモデル間のデータのリモデリングはサポートされていま **ん**。 この統合では、1 つの Dynamics 365 テーブルを 1 つの Campaign テーブルに同期する必要があります。
+* この統合では、Dynamics 365 とCampaign Standardのデータモデル間のデータのリモデリングはサポートされていま **ん**。 この統合では、1 つの Dynamics 365 テーブルを 1 つの Campaign テーブルに同期する必要があります。

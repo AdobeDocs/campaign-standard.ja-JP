@@ -5,13 +5,14 @@ audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-analytics
 feature: Triggers
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 6516c71a-efa8-4778-82bb-10615378f985
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '320'
-ht-degree: 4%
+ht-degree: 32%
 
 ---
 
@@ -24,8 +25,8 @@ Analytics にある Campaign **[!UICONTROL dimensions]** を以下に示しま�
 <table> 
  <thead> 
   <tr> 
-   <th> Dimension<br /> </th> 
-   <th> 定義 <br /> </th> 
+   <th> ディメンション<br /> </th> 
+   <th> 定義<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -61,42 +62,42 @@ Analytics にある Campaign **[!UICONTROL metrics]** を以下に示します�
 <table> 
  <thead> 
   <tr> 
-   <th> 指標 <br /> </th> 
-   <th> 定義 <br /> </th> 
+   <th> 指標<br /> </th> 
+   <th> 定義<br /> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td> クリック <br /> </td> 
-   <td> 配信でコンテンツがクリックされた回数。<br /> </td> 
+   <td> 1 つの配信で、あるコンテンツがクリックされた回数。<br /> </td> 
   </tr> 
   <tr> 
    <td> 配信済み<br /> </td> 
-   <td> 送信されたメッセージの総数に対する、正常に送信されたメッセージの数。<br /> </td> 
+   <td> 送信されたメッセージの合計数に対して、正常に送信されたメッセージの数。<br /> </td> 
   </tr> 
   <tr> 
    <td> 開封済み<br /> </td> 
-   <td> 配信でメッセージが開かれた回数。<br /> </td> 
+   <td> 1 つの配信で、あるメッセージが開かれた回数。<br /> </td> 
   </tr> 
   <tr> 
    <td> 送信済み<br /> </td> 
-   <td> 配信の送信の合計数。<br /> </td> 
+   <td> 配信の合計送信数。<br /> </td> 
   </tr> 
   <tr> 
    <td> 合計バウンス数 <br /> </td> 
-   <td> 送信されたメッセージの総数に対して、配信と自動返信の処理中に発生したエラーの累計。<br /> </td> 
+   <td> 送信されたメッセージの合計数に対して、配信および自動返信処理時のエラー累計の合計。<br /> </td> 
   </tr> 
   <tr> 
    <td> ユニーク開封数 <br /> </td> 
-   <td> 配信されたメッセージを開いた受信者の数。<br /> </td> 
+   <td> 配信を開いた受信者の数。<br /> </td> 
   </tr> 
   <tr> 
    <td> ユニーククリック <br /> </td> 
-   <td> 配信のコンテンツをクリックした受信者の数。<br /> </td> 
+   <td> 1 つの配信で、あるコンテンツをクリックした受信者の数。<br /> </td> 
   </tr> 
   <tr> 
-   <td> 登録解除 <br /> </td> 
-   <td> 購読解除リンクのクリック数。<br /> </td> 
+   <td> 購読解除済み<br /> </td> 
+   <td> 購読解除リンクがクリックされた回数。<br /> </td> 
   </tr> 
  </tbody> 
 </table>

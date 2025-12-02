@@ -3,29 +3,30 @@ title: Campaign から Adobe Experience Platform へのデータのエクスポ�
 description: Campaign StandardからAdobe Experience Platformにデータを書き出す方法を説明します。
 audience: integrating
 content-type: reference
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: eccd2922-0e75-4525-9b60-b48f628deeae
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '499'
-ht-degree: 62%
+ht-degree: 66%
 
 ---
 
 # Campaign から Adobe Experience Platform へのデータのエクスポート {#sources}
 
-Campaign StandardデータをAdobe Real-time Customer Data Platform（RTCDP）に書き出すには、まずCampaign Standardしてワークフローを作成し、共有するデータをAmazon ストレージサービス（S3）または Azure Blob ストレージの場所に書き出す必要があります。
+Campaign Standard データを Adobe Real-time Customer Data Platform （RTCDP）に書き出すには、まずCampaign Standardでワークフローを作成して、共有するデータをAmazon ストレージサービス（S3）または Azure Blob ストレージの場所に書き出す必要があります。
 
 ワークフローを構成し、ストレージの場所にデータが送信されたら、S3 または Azure Blob のストレージの場所を Adobe Experience Platform の&#x200B;**ソース**&#x200B;として接続する必要があります。
 
 >[!NOTE]
 >
->Campaign で生成されたデータ（送信数、開封数、クリック数など）のみをAdobe Experience Platformに書き出すことをお勧めします。 サードパーティのソース（CRM など）から取り込まれたデータは、Adobe Experience Platform に直接読み込む必要があります。
+>Campaign で生成されたデータのみ（送信数、開封数、クリック数など）を Adobe Experience Platform にエクスポートすることをお勧めします。サードパーティのソース（CRM など）から取り込まれたデータは、Adobe Experience Platform に直接読み込む必要があります。
 
 ## Campaign Standardでのエクスポートワークフローの作成
 
-Campaign Standardから S3 または Azure Blob ストレージの場所にデータをエクスポートするには、エクスポートするデータをターゲットにするワークフローを作成し、ストレージの場所に送信する必要があります。
+Campaign Standardから S3 または Azure Blob ストレージの場所にデータを書き出すには、書き出すデータをターゲットにするワークフローを作成し、ストレージの場所に送信する必要があります。
 
 これをおこなうには、以下を追加して設定します。
 
@@ -41,7 +42,7 @@ Campaign Standardから S3 または Azure Blob ストレージの場所にデ�
 
 ![](assets/aep-export.png)
 
-データ管理ワークフローの例については、[&#x200B; ワークフローのユースケース &#x200B;](../../automating/using/about-workflow-use-cases.md#management) の節を参照してください。
+データ管理ワークフローの例については、[ ワークフローのユースケース ](../../automating/using/about-workflow-use-cases.md#management) の節を参照してください。
 
 関連トピック ： 
 
@@ -51,9 +52,9 @@ Campaign Standardから S3 または Azure Blob ストレージの場所にデ�
 
 ## ストレージの場所をソースとして接続する
 
-Amazon Storage サービス（S3）または Azure Blob ストレージの場所をAdobe Experience Platform の **Source** として接続する主な手順を以下に示します。 これらの各手順について詳しくは、[ソースコネクタのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja)を参照してください。
+Adobe Experience Platform でAmazon Storage サービス（S3）または Azure Blob ストレージの場所を **Source** として接続する主な手順を以下に示します。 これらの各手順について詳しくは、[ソースコネクタのドキュメント](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=ja)を参照してください。
 
-1. Adobeの Experience Platform **[!UICONTROL Sources]** メニューで、ストレージの場所への接続を作成します。
+1. Adobe Experience Platform **[!UICONTROL Sources]** メニューで、ストレージの場所への接続を作成します。
 
    * [Amazon S3 ソース接続の作成](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/cloud-storage/s3.html?lang=ja)
    * [Azure Blob コネクタ](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/cloud-storage/blob.html?lang=ja)

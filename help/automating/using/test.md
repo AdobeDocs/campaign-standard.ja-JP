@@ -6,10 +6,11 @@ content-type: reference
 topic-tags: execution-activities
 context-tags: jstest,main
 feature: Workflows
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Intermediate
 exl-id: 62a064f7-6d0b-49ca-9834-eccb5bf42496
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 77%
@@ -47,9 +48,9 @@ ht-degree: 77%
 
    「**[!UICONTROL Condition]**」フィールドの編集時に、2 つのボタンを使用してイベント変数を呼び出し、変数と関数を組み合わせた式を編集できます。
 
-   * ![](assets/extsignal_picker.png)：ワークフローで使用可能なすべての変数の中からイベント変数を選択します（[&#x200B; このページ &#x200B;](../../automating/using/customizing-workflow-external-parameters.md) を参照）。
+   * ![](assets/extsignal_picker.png)：ワークフローで使用可能なすべての変数の中からイベント変数を選択します（[ このページ ](../../automating/using/customizing-workflow-external-parameters.md) を参照）。
 
-     例えば、**[!UICONTROL filesCount]** 変数を使用して、「[&#x200B; ファイル転送 &#x200B;](../../automating/using/transfer-file.md)」アクティビティ後のダウンロードされたファイルの数を確認できます。
+     例えば、[ 変数を使用して、「](../../automating/using/transfer-file.md) ファイル転送 **[!UICONTROL filesCount]**」アクティビティ後のダウンロードされたファイルの数を確認できます。
 
      ![](assets/wkf_test_activity_variables.png)
 

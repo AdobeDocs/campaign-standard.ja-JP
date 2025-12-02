@@ -5,12 +5,13 @@ audience: administration
 content-type: reference
 topic-tags: configuring-channels
 feature: Microsoft CRM Integration
-role: Data Architect
+old-role: Data Architect
+role: Developer
 level: Experienced
 exl-id: cc1aa669-30cd-4ea4-9fab-4d1b6c373744
 hide: true
 hidefromtoc: true
-source-git-commit: 110f3ccb5865e70c78e18485b4ff4ba7a648af3f
+source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 0%
@@ -21,7 +22,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->現在、Adobe Experience Platform Data Connector はベータ版です。予告なく頻繁に更新される可能性があります。 これらの機能にアクセスするには、お客様を Azure でホストする必要があります（現在は北米向けのベータ版のみ）。 アクセスをご希望の場合は、Adobeカスタマーケアにお問い合わせください。
+>現在、Adobe Experience Platform Data Connector はベータ版です。予告なく頻繁に更新される可能性があります。 これらの機能にアクセスするには、お客様を Azure でホストする必要があります（現在は北米向けのベータ版のみ）。 へのアクセスを希望する場合は、Adobe カスタマーケアにお問い合わせください。
 
 Experience Data Model （XDM）は、Adobe Experience Platformのソリューションや製品で使用するためにデータを取り込む可能性のあるデータスキーマの標準セットです。
 
@@ -33,7 +34,7 @@ XDM Workspaceでは、データスキーマの表示、作成、拡張を行う�
 
 XDM ユーザーインターフェイスにアクセスするには、Adobe Experience Platformを開きます。 データモデルウィンドウに移動して、XDM スキーマを作成または拡張します。
 
-完全な [XDM Workspaceのドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=ja) を参照してください。
+完全な [XDM Workspaceのドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html) を参照してください。
 
 ![](assets/aep_xdmworkspace.png)
 
@@ -48,4 +49,4 @@ XDM スキーマ API を使用して、次のアクションを実行できま�
 * スキーマ記述子の表示
 * スキーマ記述子の作成、更新、削除
 
-API 呼び出しを操作する詳細については、[&#x200B; 開発者ガイド &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=ja) を参照してください。
+API 呼び出しを操作する詳細については、[ 開発者ガイド ](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html) を参照してください。
