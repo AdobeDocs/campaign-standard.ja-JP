@@ -20,7 +20,7 @@ ht-degree: 6%
 
 顧客のオンラインプレゼンスを追跡するだけでなく、顧客の物理的な場所を利用することもできます。 Adobe Analytics for Mobile との統合により、Adobe Campaignを使用して、モバイルアプリケーションの購読者に場所ベースのマーケティングメッセージを送信できます。
 
-目標点は、ラベルに関連付けられた緯度、経度、および半径で構成されます。 これらは、[Adobe Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/home.html) インターフェイスで定義されます。
+目標点は、ラベルに関連付けられた緯度、経度、および半径で構成されます。 これらは、[Adobe Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/home.html?lang=ja) インターフェイスで定義されます。
 
 購読者がモバイルアプリケーションを開くと、その場所が目標地点に一致する場合、Adobe CampaignはExperience Cloud Mobile SDKを介してデータをキャプチャします。 この情報を使用して、ユーザーの場所（メール、プッシュ通知、SMS メッセージなど）に基づいてパーソナライズされたメッセージを送信できます。
 

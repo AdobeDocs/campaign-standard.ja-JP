@@ -25,8 +25,8 @@ Adobe Target統合を使用すると、動的な画像を配信に追加して�
 Adobe Campaignで画像にアクセスする前に、まずAdobe Targetで次のタスクを実行する必要があります。
 
 * 使用する画像の URL を指定する必要がある、1 つまたは複数の [&#x200B; リダイレクトオファー &#x200B;](https://experienceleague.adobe.com/docs/target/using/experiences/offers/offer-redirect.html?lang=ja) を作成します。
-* 1 つ以上の[オーディエンス](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html)を作成します。アクティビティのターゲットをそこで定義します。
-* [&#x200B; フォームベースの Experience Composer](https://experienceleague.adobe.com/docs/target/using/experiences/form-experience-composer.html) アクティビティを作成し、作成するリダイレクトオファーの数に応じて、rawbox を選択して複数のエクスペリエンスを指定する必要があります。 エクスペリエンスごとに、作成されたリダイレクトオファーの 1 つを選択する必要があります。
+* 1 つ以上の[オーディエンス](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html?lang=ja)を作成します。アクティビティのターゲットをそこで定義します。
+* [&#x200B; フォームベースの Experience Composer](https://experienceleague.adobe.com/docs/target/using/experiences/form-experience-composer.html?lang=ja) アクティビティを作成し、作成するリダイレクトオファーの数に応じて、rawbox を選択して複数のエクスペリエンスを指定する必要があります。 エクスペリエンスごとに、作成されたリダイレクトオファーの 1 つを選択する必要があります。
 * Adobe Campaignの情報を使用してセグメントを作成し、エクスペリエンスを指定します。 オファーの選択ルールで Adobe Campaign からのデータを使用するには、Adobe Target のローボックスでデータを指定する必要があります。
 
 1. メール配信を作成します。

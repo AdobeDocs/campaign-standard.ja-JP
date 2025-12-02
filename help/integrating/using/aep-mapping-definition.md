@@ -44,7 +44,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->バッチをリアルタイム顧客プロファイルまたは ID サービスに取り込むには、データセットを [&#x200B; リアルタイム顧客プロファイルに対して有効にする &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/get-started.html) 必要があります。
+>バッチをリアルタイム顧客プロファイルまたは ID サービスに取り込むには、データセットを [&#x200B; リアルタイム顧客プロファイルに対して有効にする &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/get-started.html?lang=ja) 必要があります。
 >
 >選択したデータセットが既存のデータマッピングで既に使用されている場合は、Adobe Experience Platformでデータが上書きされる可能性があることを知らせる警告が表示されます。 これは、同じデータセットを使用したデータマッピングに一般的な受信者が複数ある場合に発生する可能性があります。
 
@@ -64,7 +64,7 @@ Campaign Standardで定義された拡張リソースは、すべてのネイテ
 
 API を介して XDM 拡張機能をカスタマイズし、独自の拡張機能を定義すると、マッピングをより詳細に制御できます。
 
-XDM API について詳しくは、[&#x200B; スキーマレジストリ API チュートリアル &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html) を参照してください。
+XDM API について詳しくは、[&#x200B; スキーマレジストリ API チュートリアル &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=ja) を参照してください。
 
 列挙フィールドをマッピングするには、式エディターを使用して、XDM 値に対応する各列挙値を定義する必要があります。 例えば、postaladdressfield は、次のように定義する必要があります。
 

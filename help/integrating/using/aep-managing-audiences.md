@@ -53,7 +53,7 @@ Adobe Experience Platform オーディエンスをCampaign Standardで直接作�
 
 1. セグメントを正常に作成するには、このセグメントのマーケティング目的に一致する **結合ポリシー** を選択する必要があります。
 
-   設定ペインで、Platform のデフォルトの結合ポリシーが選択されます。 結合ポリシーについて詳しくは、『 [&#x200B; セグメントビルダーユーザーガイド &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html) の該当する節を参照してください。
+   設定ペインで、Platform のデフォルトの結合ポリシーが選択されます。 結合ポリシーについて詳しくは、『 [&#x200B; セグメントビルダーユーザーガイド &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja) の該当する節を参照してください。
 
    ![](assets/aep_audiences_mergepolicy.png)
 
