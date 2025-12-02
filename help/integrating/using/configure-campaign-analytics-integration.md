@@ -52,4 +52,4 @@ Adobe Campaign StandardとAdobe Analyticsの統合を開始するには、まず
 
 * [外部アカウント](../../administration/using/external-accounts.md)
 * [テクニカルワークフロー](../../administration/using/technical-workflows.md)
-* [ 統合キャンペーンレポート用の KPI の共有 ](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html) ビデオ
+* [&#x200B; 統合キャンペーンレポート用の KPI の共有 &#x200B;](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html) ビデオ

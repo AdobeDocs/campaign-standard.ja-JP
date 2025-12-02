@@ -52,7 +52,7 @@ ht-degree: 78%
 
 1. 必要に応じて、「**[!UICONTROL Add a post-processing stage]**」フィールドの **[!UICONTROL Compression]** を選択して、出力ファイルを zip 形式で圧縮できます。出力ファイルは圧縮されて GZIP ファイル（.gz）になります。
 
-   また、**[!UICONTROL Add a post-processing stage]** フィールドを使用すると、ファイルを抽出する前に暗号化することもできます。 暗号化ファイルの操作方法について詳しくは、[ この節 ](../../automating/using/managing-encrypted-data.md) を参照してください。
+   また、**[!UICONTROL Add a post-processing stage]** フィールドを使用すると、ファイルを抽出する前に暗号化することもできます。 暗号化ファイルの操作方法について詳しくは、[&#x200B; この節 &#x200B;](../../automating/using/managing-encrypted-data.md) を参照してください。
 
 1. 「**[!UICONTROL Create element]**」ボタンをクリックして、出力列を追加します。
 

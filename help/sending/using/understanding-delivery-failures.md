@@ -35,7 +35,7 @@ ht-degree: 66%
 
 * [強制隔離管理について](../../sending/using/understanding-quarantine-management.md)
 * [Campaign のオプトインとオプトアウトについて](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
-* [ バウンス数 ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)
+* [&#x200B; バウンス数 &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)
 
 ## メッセージの配信エラーの特定 {#identifying-delivery-failures-for-a-message}
 
@@ -75,8 +75,8 @@ ht-degree: 66%
 
 
 **関連トピック：**
-* [ ハードバウンス ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=ja#hard-bounces)
-* [ ソフトバウンス ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#soft-bounces)
+* [&#x200B; ハードバウンス &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=ja#hard-bounces)
+* [&#x200B; ソフトバウンス &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#soft-bounces)
 
 ## 一時的な配信エラーの後の再試行 {#retries-after-a-delivery-temporary-failure}
 
@@ -90,13 +90,13 @@ ht-degree: 66%
 
 >[!IMPORTANT]
 >
->**Campaign 配信の「**[!UICONTROL Delivery duration]**」パラメーターは、3.5 日以下に設定した場合にのみ、使用されるようになりました。** 3.5 日を超える値を定義した場合、その値は考慮されません。
+>**Campaign 配信の「**&#x200B;[!UICONTROL Delivery duration]&#x200B;**」パラメーターは、3.5 日以下に設定した場合にのみ、使用されるようになりました。** 3.5 日を超える値を定義した場合、その値は考慮されません。
 
 例えば、配信の再試行を 1 日後に停止する場合は、配信期間を **1d** に設定すると、再試行キューのメッセージは 1 日後に削除されます。
 
 >[!NOTE]
 >
->メッセージが最大 3.5 日間再試行キューに入れられましたが、配信に失敗した場合は、タイムアウトになり、メッセージのステータスが更新され <!--from **[!UICONTROL Sent]**-->**[!UICONTROL Failed]** 配信ログ [ に ](../../sending/using/monitoring-a-delivery.md#delivery-logs) 示されます。
+>メッセージが最大 3.5 日間再試行キューに入れられましたが、配信に失敗した場合は、タイムアウトになり、メッセージのステータスが更新され <!--from **[!UICONTROL Sent]**-->**[!UICONTROL Failed]** 配信ログ [&#x200B; に &#x200B;](../../sending/using/monitoring-a-delivery.md#delivery-logs) 示されます。
 
 <!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
 The default configuration allows five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally (contact your Adobe technical administrator) or for each delivery or delivery template (see [this section](../../administration/using/configuring-email-channel.md#sending-parameters)).-->
@@ -116,9 +116,9 @@ The default configuration allows five retries at one-hour intervals, followed by
 >
 >Campaign の&#x200B;**[!UICONTROL Message qualification]**&#x200B;テーブルでのバウンスの選定は使用されなくなりました。
 
-非同期バウンスは、引き続き「**[!UICONTROL Inbound email]**」ルールを通じて、inMail プロセスで選定されます。これらの規則にアクセスするには、左上の **Adobe** ロゴをクリックしてから、「**[!UICONTROL Administration > Channels > Email > Email processing rules]**」を選択し、「**[!UICONTROL Bounce mails]**」を選択します。 このルールについて詳しくは、[ この節 ](../../administration/using/configuring-email-channel.md#email-processing-rules) を参照してください。
+非同期バウンスは、引き続き「**[!UICONTROL Inbound email]**」ルールを通じて、inMail プロセスで選定されます。これらの規則にアクセスするには、左上の **Adobe** ロゴをクリックしてから、「**[!UICONTROL Administration > Channels > Email > Email processing rules]**」を選択し、「**[!UICONTROL Bounce mails]**」を選択します。 このルールについて詳しくは、[&#x200B; この節 &#x200B;](../../administration/using/configuring-email-channel.md#email-processing-rules) を参照してください。
 
-バウンスとさまざまなバウンスについて詳しくは、[ この節 ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability) を参照してください。
+バウンスとさまざまなバウンスについて詳しくは、[&#x200B; この節 &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability) を参照してください。
 
 <!--MOVED TO configuring-email-channel.md > LEGACY SETTINGS
 

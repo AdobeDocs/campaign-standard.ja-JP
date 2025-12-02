@@ -38,7 +38,7 @@ Adobe Campaign StandardとMicrosoft Dynamics 365 の統合により、CRM シス
 
 逆に、Adobe Campaign Standard内のプロファイルがメッセージとやり取りする際、これらのデータ（送信、開封、クリック、バウンスなど）はMicrosoft Dynamics 365 に自動的に送られ、連絡先レコードがマーケティングアクティビティでも完全に保持されます。
 
-この統合では、Dynamics 365 の [ カスタムエンティティ ](../../integrating/using/d365-acs-self-service-app-settings.md) を、Campaign の対応する **カスタムリソース** に同期することもサポートされています。
+この統合では、Dynamics 365 の [&#x200B; カスタムエンティティ &#x200B;](../../integrating/using/d365-acs-self-service-app-settings.md) を、Campaign の対応する **カスタムリソース** に同期することもサポートされています。
 
 この統合は、次の 4 つの主なユースケースをサポートするように設計されています。
 
@@ -71,8 +71,8 @@ Adobe Campaign StandardとMicrosoft Dynamics 365 の統合により、CRM シス
 フローチャートの詳細（上記の手順に対応）:
 
 * **手順 1** – 販売用およびAdobe Campaign Standard用のMicrosoft Dynamics 365 のライセンスを既に保有しているか、または調達中であることを前提としています。
-* **手順 2** – 標準統合機能は、すべてのお客様に無料で提供されますが、要件に応じて追加コストが発生する可能性があります。 詳細情報 [ ベストプラクティスと制限事項 ](../../integrating/using/d365-acs-notices-and-recommendations.md)。 元の SO に含まれていない場合は、統合を活用するために新しい SO に署名する必要があります。
-* **手順 3** - Dynamics 365 と Campaign の統合前手順を完了します。 [ この統合の設定 ](#configure-this-integration) を参照してください。
+* **手順 2** – 標準統合機能は、すべてのお客様に無料で提供されますが、要件に応じて追加コストが発生する可能性があります。 詳細情報 [&#x200B; ベストプラクティスと制限事項 &#x200B;](../../integrating/using/d365-acs-notices-and-recommendations.md)。 元の SO に含まれていない場合は、統合を活用するために新しい SO に署名する必要があります。
+* **手順 3** - Dynamics 365 と Campaign の統合前手順を完了します。 [&#x200B; この統合の設定 &#x200B;](#configure-this-integration) を参照してください。
 * **手順 4** - Adobeのオンボーディングチームから、統合アプリケーションのユーザーインターフェイス（UI）にアクセスできるようになります。
 * **手順 5** - データマッピング、置き換え、フィルターなどを設定できるようになります。 さらに、統合アプリケーションの UI 内から統合をテストします。
 
@@ -84,9 +84,9 @@ Adobe Campaign StandardとMicrosoft Dynamics 365 の統合により、CRM シス
 
 この統合用に 3 つのシステムをプロビジョニングし設定する必要があります。
 
-* **Adobe Campaign Standard**: API アクセスを設定して、統合ツールの新しい統合を構成する必要があります。 これを行うには、[ この記事 ](../../integrating/using/d365-acs-configure-adobe-io.md) を参照してください。
-* **Microsoft Dynamics 365**：新しいアプリ登録を作成し、アプリ ユーザーが統合を使用できるようにする必要があります。  この統合用にMicrosoft Dynamics 365 を設定するには、[ この記事 ](../../integrating/using/d365-acs-configure-d365.md) を参照してください。
-* **Adobe Campaign StandardとMicrosoft Dynamics 365 セルフサービスアプリとの統合**: [ この記事 ](../../integrating/using/d365-acs-self-service-app-control-access.md) の手順に従う必要があります。
+* **Adobe Campaign Standard**: API アクセスを設定して、統合ツールの新しい統合を構成する必要があります。 これを行うには、[&#x200B; この記事 &#x200B;](../../integrating/using/d365-acs-configure-adobe-io.md) を参照してください。
+* **Microsoft Dynamics 365**：新しいアプリ登録を作成し、アプリ ユーザーが統合を使用できるようにする必要があります。  この統合用にMicrosoft Dynamics 365 を設定するには、[&#x200B; この記事 &#x200B;](../../integrating/using/d365-acs-configure-d365.md) を参照してください。
+* **Adobe Campaign StandardとMicrosoft Dynamics 365 セルフサービスアプリとの統合**: [&#x200B; この記事 &#x200B;](../../integrating/using/d365-acs-self-service-app-control-access.md) の手順に従う必要があります。
 
 >[!IMPORTANT]
 >

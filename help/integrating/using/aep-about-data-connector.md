@@ -22,7 +22,7 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->Adobe Experience Platform コネクタは非推奨（廃止予定）になりました。 廃止される機能は引き続き使用できますが、それ以上の機能強化やサポートは行われません。 詳しくは [ このページを参照してください ](../../rn/using/deprecated-features.md)
+>Adobe Experience Platform コネクタは非推奨（廃止予定）になりました。 廃止される機能は引き続き使用できますが、それ以上の機能強化やサポートは行われません。 詳しくは [&#x200B; このページを参照してください &#x200B;](../../rn/using/deprecated-features.md)
 
 Adobe Experience Platform Data Connector は、XTK データ（Campaign に取り込まれたデータ）をAdobe Experience Platformの Experience Data Model （XDM）データにマッピングすることで、既存のお客様がAdobe Experience Platformでデータを使用できるようにします。
 
@@ -39,8 +39,8 @@ Adobe Experience Platform Data Connector は、Adobe Campaign Standardのカス�
 >
 >これは、API またはAdobe Experience Platform インターフェイスを使用して実行できます。 詳しくは、該当するドキュメントを参照してください。
 >
->* [ リアルタイム顧客プロファイルのデータセットを有効にする ](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/datasets/dataset.html)
->* [API を使用したリアルタイム顧客プロファイルおよび ID サービスのデータセットの設定 ](https://experienceleague.adobe.com/docs/experience-platform/catalog/api/getting-started.html)
+>* [&#x200B; リアルタイム顧客プロファイルのデータセットを有効にする &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/datasets/dataset.html)
+>* [API を使用したリアルタイム顧客プロファイルおよび ID サービスのデータセットの設定 &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/catalog/api/getting-started.html)
 
 ## 主な概念 {#key-concepts}
 
@@ -60,7 +60,7 @@ Adobe Experience Platform Data Connector は、Adobe Campaign Standardのカス�
 
 * Experience Cloud ID サービス（ECID）は、エクスペリエンスイベントでデフォルトで送信されるデバイス識別子です。
 
-  これは、訪問者に割り当てられた一意の永続的な ID で、Platform ID サービスで異なるExperience Cloud ソリューションで同じ訪問者とそのデータを識別するために使用できます。 詳しくは、[Experience Cloud ID サービスのヘルプ ](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja) を参照してください。
+  これは、訪問者に割り当てられた一意の永続的な ID で、Platform ID サービスで異なるExperience Cloud ソリューションで同じ訪問者とそのデータを識別するために使用できます。 詳しくは、[Experience Cloud ID サービスのヘルプ &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja) を参照してください。
 
   >[!NOTE]
   >
@@ -70,7 +70,7 @@ Adobe Experience Platform Data Connector は、Adobe Campaign Standardのカス�
 
 * 初期状態のサブスクリプションイベントの転送はサポートされていません。 購読イベントを転送するには、対応する XDM とデータセットをAdobe Experience Platformで作成してから、これらのデータのカスタムデータマッピングを設定します。
 
-* プライバシーリクエスト（アクセスアクションと削除アクションの両方）については、お客様は [Privacy Core Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html#how-to-use-privacy-service-to-manage-privacy-job-requests) を介して、Campaign 用とAdobe Experience Platform用に 1 つの個別のリクエストを配置する必要があります。 詳しくは、Campaign の [ プライバシーリクエストについて ](https://helpx.adobe.com/jp/campaign/kb/acs-privacy.html#righttoaccess) および [ プライバシーリクエストの管理 ](https://helpx.adobe.com/jp/campaign/kb/acs-privacy.html#ManagingPrivacyRequests) を参照してください。
+* プライバシーリクエスト（アクセスアクションと削除アクションの両方）については、お客様は [Privacy Core Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html#how-to-use-privacy-service-to-manage-privacy-job-requests) を介して、Campaign 用とAdobe Experience Platform用に 1 つの個別のリクエストを配置する必要があります。 詳しくは、Campaign の [&#x200B; プライバシーリクエストについて &#x200B;](https://helpx.adobe.com/jp/campaign/kb/acs-privacy.html#righttoaccess) および [&#x200B; プライバシーリクエストの管理 &#x200B;](https://helpx.adobe.com/jp/campaign/kb/acs-privacy.html#ManagingPrivacyRequests) を参照してください。
 
 * XDM フィールドごとに、Adobe Experience Platformで DULE のラベル付けを行う必要があります。 これは、DULE ラベルを適用するお客様の責任です。
 
@@ -84,4 +84,4 @@ Adobe Experience Platform Data Connector は、Adobe Campaign Standardのカス�
 
 >[!VIDEO](https://video.tv.adobe.com/v/27304?quality=12&captions=eng)
 
-Adobe Experience Platform コネクタに関するその他のビデオは [ こちら ](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html) で参照できます。
+Adobe Experience Platform コネクタに関するその他のビデオは [&#x200B; こちら &#x200B;](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html) で参照できます。

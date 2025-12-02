@@ -30,7 +30,7 @@ Adobe Campaignには事前定義済みのデータモデルが付属しており
 
 カスタムリソースがプロファイルテーブルにリンクされている限り、カスタムリソースを使用してあらゆる操作を実行できます。 例えば、次のテーブル構造について考えてみましょう。
 
-![ 代替テキスト ](assets/cusresources.png)
+![&#x200B; 代替テキスト &#x200B;](assets/cusresources.png)
 
 この場合、**Profile** テーブルにリンクされている限り、**Transaction** テーブル、**TransactionDetails** テーブル、および **Product** テーブルのすべてのリソースを使用できます。
 
@@ -77,4 +77,4 @@ Adobe Campaignには事前定義済みのデータモデルが付属しており
 
 * [データモデルの概念](../../developing/using/data-model-concepts.md)
 * [API の拡張](../../developing/using/about-extending-the-api.md)
-* [ 他のリソースとのリンクの定義 ](https://helpx.adobe.com/campaign/standard/developing/using/configuring-the-resource-s-data-structure.html#defining-links-with-other-resources)
+* [&#x200B; 他のリソースとのリンクの定義 &#x200B;](https://helpx.adobe.com/campaign/standard/developing/using/configuring-the-resource-s-data-structure.html#defining-links-with-other-resources)

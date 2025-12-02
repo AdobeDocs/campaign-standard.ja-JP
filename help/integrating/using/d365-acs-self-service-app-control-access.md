@@ -59,7 +59,7 @@ ht-degree: 1%
 
 1. 「**[!UICONTROL New Profile]**」ボタンをクリックし、**Campaign Standard - your-prod-instance-name - D365/ACS Integration** という名前の新しいエントリを追加します。
 
-   * リストにこのエントリが表示された場合は、続行する必要はありません。 左側のメニューで **0}Adobe Campaign Standard} をクリックし、他の Campaign インスタンスを確認します。**
+   * リストにこのエントリが表示された場合は、続行する必要はありません。 左側のメニューで **0&rbrace;Adobe Campaign Standard&rbrace; をクリックし、他の Campaign インスタンスを確認します。**
 
    * 「your-prod-instance-name」をインスタンスの実際の名前に必ず置き換えてください。
 

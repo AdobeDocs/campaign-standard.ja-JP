@@ -61,7 +61,7 @@ ht-degree: 46%
 
 1. 通知タイプを選択します。 これらのタイプは、**[!UICONTROL Resources]** / **[!UICONTROL Templates]** / **[!UICONTROL Delivery templates]** メニューで定義されたプッシュ通知テンプレートから取得します。
 1. プッシュ通知の一般プロパティを入力します。 既存のキャンペーンに SMS を添付することもできます。ワークフローの配信アクティビティのラベルがプッシュ通知のラベルで更新されます。
-1. プッシュ通知の内容を定義します。 [ プッシュ通知の作成 ](../../channels/using/preparing-and-sending-a-push-notification.md) を参照してください。
+1. プッシュ通知の内容を定義します。 [&#x200B; プッシュ通知の作成 &#x200B;](../../channels/using/preparing-and-sending-a-push-notification.md) を参照してください。
 1. デフォルトでは、「**[!UICONTROL Push notification]**」アクティビティにアウトバウンドトランジションは含まれていません。アウトバウンドトランジションを「**[!UICONTROL Push Notification]**」アクティビティに追加する場合は、アクティビティの詳細設定オプション（アクティビティのクイックアクションにある ![](assets/dlv_activity_params-24px.png) ボタンで開く）の「**[!UICONTROL General]**」タブに移動し、次のいずれかのオプションをオンにします。
 
    * **[!UICONTROL Add outbound transition without the population]**：インバウンドトランジションとまったく同じ母集団を含んだアウトバウンドトランジションを生成できます。

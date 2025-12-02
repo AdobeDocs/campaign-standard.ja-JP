@@ -20,7 +20,7 @@ ht-degree: 26%
 
 ## オーディエンスのインポート {#importing-an-audience}
 
-People コアサービス統合を使用すると、テクニカルワークフローを通じてオーディエンスをAdobe Campaignに直接読み込み、データベースを強化できます。 People コアサービスでのオーディエンス共有について詳しくは、この [ ドキュメント ](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=ja) を参照してください。
+People コアサービス統合を使用すると、テクニカルワークフローを通じてオーディエンスをAdobe Campaignに直接読み込み、データベースを強化できます。 People コアサービスでのオーディエンス共有について詳しくは、この [&#x200B; ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=ja) を参照してください。
 
 Adobe Campaignの People コアサービスからのオーディエンス/セグメントの読み込みは、IMS （Adobe ID経由の認証）で接続したユーザーのみが **[!UICONTROL Audiences]** メニューから実行できます。
 

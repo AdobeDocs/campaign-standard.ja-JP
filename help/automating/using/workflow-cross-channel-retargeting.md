@@ -37,7 +37,7 @@ ht-degree: 38%
 
 ## メール配信の作成{#creating-an-email-delivery}
 
-1. 各セグメントの後に [ メール配信 ](../../automating/using/email-delivery.md) をドラッグ&amp;ドロップします。
+1. 各セグメントの後に [&#x200B; メール配信 &#x200B;](../../automating/using/email-delivery.md) をドラッグ&amp;ドロップします。
 1. アクティビティをクリックし、![](assets/edit_darkgrey-24px.png) を選択して編集します。
 1. 「**[!UICONTROL Simple email]**」を選択し、「**[!UICONTROL Next]**」をクリックします。
 1. 「**[!UICONTROL Add an outbound transition without the population]**」を選択し、「**[!UICONTROL Next]**」をクリックします。
@@ -45,13 +45,13 @@ ht-degree: 38%
 1. メールのプロパティを入力し、「**[!UICONTROL Next]**」をクリックします。
 1. メールのレイアウトを作成するには、「**[!UICONTROL Using the Email Designer]**」をクリックします。
 1. 要素を挿入するか、既存のテンプレートを選択します。
-1. 各場所に固有のオファーを使用してメールをパーソナライズします。詳しくは、[ メールのデザイン ](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch) を参照してください。
+1. 各場所に固有のオファーを使用してメールをパーソナライズします。詳しくは、[&#x200B; メールのデザイン &#x200B;](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch) を参照してください。
 1. 「**[!UICONTROL Preview]**」をクリックして、レイアウトを確認します。
 1. 「**[!UICONTROL Save]**」をクリックします。
 
 ## クエリアクティビティでの非オープナーのターゲティング{#targeting-non-openers-in-a-query-activity}
 
-1. **[!UICONTROL Activities]**/**[!UICONTROL Execution]** で、「[ 待機 ](../../automating/using/wait.md)」アクティビティをドラッグ&amp;ドロップします。
+1. **[!UICONTROL Activities]**/**[!UICONTROL Execution]** で、「[&#x200B; 待機 &#x200B;](../../automating/using/wait.md)」アクティビティをドラッグ&amp;ドロップします。
 1. **[!UICONTROL Duration]** で、「![](assets/duration-icon.png)」をクリックして 1 日を選択します。
 1. **[!UICONTROL Activities]**／**[!UICONTROL Targeting]** で、**[!UICONTROL Query activity]** をドラッグ＆ドロップします。
 1. アクティビティをダブルクリックします。
@@ -71,7 +71,7 @@ ht-degree: 38%
 1. SMS のレイアウトを作成するには、「**[!UICONTROL Email Designer]**」をクリックします。
 1. 要素を挿入するか、既存のテンプレートを選択します。
 1. 各場所に固有のオファーを使用して SMS をパーソナライズします。
-詳しくは、[SMS のデザイン ](../../channels/using/creating-an-sms-message.md) の節を参照してください。
+詳しくは、[SMS のデザイン &#x200B;](../../channels/using/creating-an-sms-message.md) の節を参照してください。
 1. 「**[!UICONTROL Preview]**」をクリックして、レイアウトを確認します。
 1. 「**[!UICONTROL Save]**」をクリックします。
 

@@ -25,7 +25,7 @@ ht-degree: 61%
 
 ![](assets/subscription_activity_example1.png)
 
-* [ ファイルを読み込み ](../../automating/using/load-file.md) アクティビティは、プロファイルファイルを読み込み、読み込んだ列の構造を定義します。
+* [&#x200B; ファイルを読み込み &#x200B;](../../automating/using/load-file.md) アクティビティは、プロファイルファイルを読み込み、読み込んだ列の構造を定義します。
 
   この例では、読み込まれるファイルは .csv 形式で、次のデータが含まれています。
 
@@ -48,10 +48,10 @@ ht-degree: 61%
 
   ![](assets/subscription_activity_example3.png)
 
-* [ 重複排除 ](../../automating/using/deduplication.md) 一時リソースの **メール** フィールド（紐付けの結果）に基づいて、重複を識別します。 ファイルからインポートしたデータに重複が含まれている場合、サービスへの購読登録はすべてのデータで失敗します。
+* [&#x200B; 重複排除 &#x200B;](../../automating/using/deduplication.md) 一時リソースの **メール** フィールド（紐付けの結果）に基づいて、重複を識別します。 ファイルからインポートしたデータに重複が含まれている場合、サービスへの購読登録はすべてのデータで失敗します。
 
   ![](assets/subscription_activity_example5.png)
 
-* [ 購読サービス ](../../automating/using/subscription-services.md) アクティビティでは、プロファイルを購読する必要があるサービス、購読日に対応するフィールド、購読の接触チャネルを選択できます。
+* [&#x200B; 購読サービス &#x200B;](../../automating/using/subscription-services.md) アクティビティでは、プロファイルを購読する必要があるサービス、購読日に対応するフィールド、購読の接触チャネルを選択できます。
 
   ![](assets/subscription_activity_example4.png)

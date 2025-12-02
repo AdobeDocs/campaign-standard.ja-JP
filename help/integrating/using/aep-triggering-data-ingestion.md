@@ -26,7 +26,7 @@ ht-degree: 6%
 
 Adobe Campaign Standardでは、API を使用してデータマッピングの即時取り込みをトリガーし、取り込みリクエストのステータスを取得できます。
 
-このページでは、データマッピングの取り込みステータスをトリガーおよび取得する方法について説明します。 Campaign Standard API に関する全般的な情報については、[ この節 ](../../api/using/get-started-apis.md) を参照してください。
+このページでは、データマッピングの取り込みステータスをトリガーおよび取得する方法について説明します。 Campaign Standard API に関する全般的な情報については、[&#x200B; この節 &#x200B;](../../api/using/get-started-apis.md) を参照してください。
 
 ## 前提条件 {#prerequisites}
 
@@ -109,7 +109,7 @@ GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM 
 
 >[!NOTE]
 >
->XDM マッピングリクエストのステータスとその関連ジョブに関する詳細は、Campaign Standard インターフェイスの **[!UICONTROL Status of data export to platform]** メニューで確認できます（[ マッピングのアクティブ化 ](../../integrating/using/aep-mapping-activation.md) を参照）。
+>XDM マッピングリクエストのステータスとその関連ジョブに関する詳細は、Campaign Standard インターフェイスの **[!UICONTROL Status of data export to platform]** メニューで確認できます（[&#x200B; マッピングのアクティブ化 &#x200B;](../../integrating/using/aep-mapping-activation.md) を参照）。
 
 GET操作を実行すると、次の情報が返されます。
 

@@ -27,9 +27,9 @@ ht-degree: 51%
 
 ワークフローは、次の要素で構成されています。
 
-* ワークフローの実行日を指定する [ スケジューラーアクティビティ ](../../automating/using/segmentation.md)。
-* 誕生日とメールアドレスが入力された人物のプロファイルをターゲットにする [ クエリ ](../../automating/using/query.md) アクティビティ。
-* 3 つのセグメントを作成する [ セグメント化 ](../../automating/using/segmentation.md) アクティビティ。18～25 歳、26～32 歳のアウトバウンドトランジション、32 歳以上のプロファイルに分かれています。 セグメントは、次のパラメーターに従って定義されます。
+* ワークフローの実行日を指定する [&#x200B; スケジューラーアクティビティ &#x200B;](../../automating/using/segmentation.md)。
+* 誕生日とメールアドレスが入力された人物のプロファイルをターゲットにする [&#x200B; クエリ &#x200B;](../../automating/using/query.md) アクティビティ。
+* 3 つのセグメントを作成する [&#x200B; セグメント化 &#x200B;](../../automating/using/segmentation.md) アクティビティ。18～25 歳、26～32 歳のアウトバウンドトランジション、32 歳以上のプロファイルに分かれています。 セグメントは、次のパラメーターに従って定義されます。
 
   ![](assets/wkf_segment_example_3.png)
 
@@ -41,4 +41,4 @@ ht-degree: 51%
 
      ![](assets/wkf_segment_example_1.png)
 
-* セグメントごとの [ メール配信 ](../../automating/using/email-delivery.md) アクティビティ。
+* セグメントごとの [&#x200B; メール配信 &#x200B;](../../automating/using/email-delivery.md) アクティビティ。

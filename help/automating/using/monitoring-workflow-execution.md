@@ -23,7 +23,7 @@ ht-degree: 8%
 
 ![](assets/printpreview_darkgrey-24px.png) アイコンをクリックすると、ワークフローログとタスク メニューが開きます。
 
-ワークフローの履歴は、ワークフローの実行オプションで指定された期間保存されます（[ ワークフローのプロパティ ](../../automating/using/managing-execution-options.md) を参照）。 この期間中は、再起動後も、すべてのメッセージが保存されます。 以前の実行したメッセージを保存しない場合は、「![](assets/delete_darkgrey-24px.png)」ボタンをクリックして履歴をパージする必要があります。
+ワークフローの履歴は、ワークフローの実行オプションで指定された期間保存されます（[&#x200B; ワークフローのプロパティ &#x200B;](../../automating/using/managing-execution-options.md) を参照）。 この期間中は、再起動後も、すべてのメッセージが保存されます。 以前の実行したメッセージを保存しない場合は、「![](assets/delete_darkgrey-24px.png)」ボタンをクリックして履歴をパージする必要があります。
 
 「**[!UICONTROL Log]**」タブには、すべてのアクティビティまたは選択したアクティビティの実行履歴が表示されます。 実行された操作と実行エラーのインデックスを時系列順に作成します。
 
@@ -51,9 +51,9 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->この設定は、各アクティビティに個別に適用できます。これをおこなうには、アクティビティを選択し、クイックアクション ![](assets/edit_darkgrey-24px.png) ールを使用して開きます。 次に、「**実行オプション** タブでエラー管理モードを選択します。 [ アクティビティ実行オプション ](../../automating/using/activity-properties.md) を参照してください。
+>この設定は、各アクティビティに個別に適用できます。これをおこなうには、アクティビティを選択し、クイックアクション ![](assets/edit_darkgrey-24px.png) ールを使用して開きます。 次に、「**実行オプション** タブでエラー管理モードを選択します。 [&#x200B; アクティビティ実行オプション &#x200B;](../../automating/using/activity-properties.md) を参照してください。
 
-[ ワークフローのプロパティ ](../../automating/using/managing-execution-options.md) では、エラー管理に関連する追加のオプションを使用できます。
+[&#x200B; ワークフローのプロパティ &#x200B;](../../automating/using/managing-execution-options.md) では、エラー管理に関連する追加のオプションを使用できます。
 
 ![](assets/wkf_execution_error.png)
 

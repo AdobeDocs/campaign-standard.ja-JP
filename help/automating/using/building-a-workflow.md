@@ -41,7 +41,7 @@ ht-degree: 91%
 
 ワークフローは、プログラム、キャンペーン、マーケティングアクティビティリストのいずれかから作成できます。
 
-![](assets/do-not-localize/how-to-video.png) [ ビデオでワークフローの作成方法を確認する ](#video)
+![](assets/do-not-localize/how-to-video.png) [&#x200B; ビデオでワークフローの作成方法を確認する &#x200B;](#video)
 
 マーケティングアクティビティの作成について詳しくは、[マーケティングアクティビティの作成](../../start/using/marketing-activities.md#creating-a-marketing-activity)の節を参照してください。
 
@@ -73,7 +73,7 @@ ht-degree: 91%
 
    例えば、ワークフローのすべてのアクティビティでデフォルトで使用する特定のタイムゾーンを定義できます。デフォルトでは、現在の Campaign オペレーターに指定されたタイムゾーンがワークフローのタイムゾーンになります。
 
-   ワークフローのプロパティについて詳しくは、[ このページ ](../../automating/using/managing-execution-options.md) を参照してください。
+   ワークフローのプロパティについて詳しくは、[&#x200B; このページ &#x200B;](../../automating/using/managing-execution-options.md) を参照してください。
 
    ![](assets/workflow_properties.png)
 
@@ -138,4 +138,4 @@ ht-degree: 91%
 
 >[!VIDEO](https://video.tv.adobe.com/v/23937?quality=12)
 
-Campaign Standardに関するその他のチュートリアルビデオについては [ こちら ](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja) を参照してください。
+Campaign Standardに関するその他のチュートリアルビデオについては [&#x200B; こちら &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja) を参照してください。

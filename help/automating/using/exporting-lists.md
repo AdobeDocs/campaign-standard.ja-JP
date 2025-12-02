@@ -20,7 +20,7 @@ ht-degree: 5%
 
 Adobe Campaignでは、リストをファイルに直接エクスポートして、後で使用できます。 ファイルにリストを書き出すと、**[!UICONTROL Export audits]** メニューにログエントリが生成されます。 エクスポートの監査について詳しくは、[エクスポートの監査](../../administration/using/auditing-export-logs.md)の節を参照してください。
 
-![](assets/do-not-localize/how-to-video.png) [ ビデオでリストを設定する方法を確認する ](#video)
+![](assets/do-not-localize/how-to-video.png) [&#x200B; ビデオでリストを設定する方法を確認する &#x200B;](#video)
 
 エクスポートリストオプションを使用すると、デフォルトで、**Nms_ExportListLimit** オプションで定義された最大 100,000 行をエクスポートできます。 このオプションは、機能管理者が **[!UICONTROL Administration]** / **[!UICONTROL Application settings]** / **[!UICONTROL Options]** メニューで管理できます。
 
@@ -45,7 +45,7 @@ Adobe Campaignでは、リストをファイルに直接エクスポートして
 
 数値と日付は、書き出しを実行するユーザーのローカル時間（ロケール）を考慮に入れます。 例：DD-MM-YYYY または MM-DD-YYYY
 
-これを超える書き出しを実行するには、専用のワークフローを作成する必要があります。 [ ファイルの抽出 ](../../automating/using/extract-file.md) の節を参照してください。
+これを超える書き出しを実行するには、専用のワークフローを作成する必要があります。 [&#x200B; ファイルの抽出 &#x200B;](../../automating/using/extract-file.md) の節を参照してください。
 
 **例**
 
@@ -83,4 +83,4 @@ Adama;Henry;22/09/1992 02:00:00;henry.adama@mail.com;64120
 
 >[!VIDEO](https://video.tv.adobe.com/v/25288/?quality=12)
 
-Campaign Standardに関するその他のチュートリアルビデオについては [ こちら ](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja) を参照してください。
+Campaign Standardに関するその他のチュートリアルビデオについては [&#x200B; こちら &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja) を参照してください。

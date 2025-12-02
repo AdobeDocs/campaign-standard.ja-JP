@@ -21,7 +21,7 @@ ht-degree: 76%
 
 このユースケースでは、ターゲティングディメンションとは異なるリソースを使用する方法を示します（例えば、離れたテーブル内の特定のレコードを検索する場合）。
 
-ターゲティングディメンションとリソースについて詳しくは、[ この節 ](../../automating/using/query.md#targeting-dimensions-and-resources) を参照してください
+ターゲティングディメンションとリソースについて詳しくは、[&#x200B; この節 &#x200B;](../../automating/using/query.md#targeting-dimensions-and-resources) を参照してください
 
 **例 1：配信が「お帰りなさい」というラベルでターゲットするプロファイルの識別**。
 

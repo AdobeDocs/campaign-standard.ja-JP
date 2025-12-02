@@ -23,23 +23,23 @@ ht-degree: 4%
 
 ワークフロー編集画面は、次の要素で構成されています。
 
-* 使用可能なアクティビティを参照する [ パレット ](#palette)。
-* アクティビティが設定および整理される [0}Workspace}。](#workspace)
-* [ アクションバー ](#action-bar) は、ワークフローやそのコンポーネントを操作できるボタンで構成されています。
-* 選択したアクティビティの周囲に表示される [ クイックアクション ](#quick-actions) を使用して、アクティビティを操作できます。
+* 使用可能なアクティビティを参照する [&#x200B; パレット &#x200B;](#palette)。
+* アクティビティが設定および整理される [0&rbrace;Workspace&rbrace;。](#workspace)
+* [&#x200B; アクションバー &#x200B;](#action-bar) は、ワークフローやそのコンポーネントを操作できるボタンで構成されています。
+* 選択したアクティビティの周囲に表示される [&#x200B; クイックアクション &#x200B;](#quick-actions) を使用して、アクティビティを操作できます。
 
 ![](assets/wkf_overview.png)
 
-![](assets/do-not-localize/how-to-video.png) [ ビデオでワークフローの作成方法を確認する ](#video)
+![](assets/do-not-localize/how-to-video.png) [&#x200B; ビデオでワークフローの作成方法を確認する &#x200B;](#video)
 
 ## パレット {#palette}
 
 パレットは画面の左側にあります。 使用可能なすべてのアクティビティは、複数のカテゴリに分類されます。
 
-* [ ターゲティング ](../../automating/using/about-targeting-activities.md)：ターゲティング、母集団データの操作およびフィルタリングアクティビティに固有のアクティビティ
-* [ 実行 ](../../automating/using/about-execution-activities.md)：ワークフローの整理と実行に固有のアクティビティ
-* [ チャネル ](../../automating/using/about-channel-activities.md)：使用可能な様々な通信チャネルを表すアクティビティ
-* [ データ管理（ETL） ](../../automating/using/about-data-management-activities.md)：データの操作に固有のアクティビティ
+* [&#x200B; ターゲティング &#x200B;](../../automating/using/about-targeting-activities.md)：ターゲティング、母集団データの操作およびフィルタリングアクティビティに固有のアクティビティ
+* [&#x200B; 実行 &#x200B;](../../automating/using/about-execution-activities.md)：ワークフローの整理と実行に固有のアクティビティ
+* [&#x200B; チャネル &#x200B;](../../automating/using/about-channel-activities.md)：使用可能な様々な通信チャネルを表すアクティビティ
+* [&#x200B; データ管理（ETL） &#x200B;](../../automating/using/about-data-management-activities.md)：データの操作に固有のアクティビティ
 
 ワークフローでパレットのアクティビティを使用するには、アクティビティをワークスペースにドラッグ&amp;ドロップします。
 
@@ -164,4 +164,4 @@ ht-degree: 4%
 
 >[!VIDEO](https://video.tv.adobe.com/v/23937?quality=12)
 
-Campaign Standardに関するその他のチュートリアルビデオについては [ こちら ](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja) を参照してください。
+Campaign Standardに関するその他のチュートリアルビデオについては [&#x200B; こちら &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja) を参照してください。

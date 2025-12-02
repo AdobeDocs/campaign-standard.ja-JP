@@ -22,12 +22,12 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->イベントの設定について詳しくは、[ この節 ](../../channels/using/configuring-transactional-event.md) を参照してください。
+>イベントの設定について詳しくは、[&#x200B; この節 &#x200B;](../../channels/using/configuring-transactional-event.md) を参照してください。
 
 例えば、クライアントの 1 人が Web サイトを離れてから買い物かごの商品を購入するたびに、「買い物かごの放棄」イベントをトリガーしたいとします。 これを行うには、web 開発者は、REST トランザクションメッセージ API を使用する必要があります。
 
-1. POST メソッドに従ってリクエストを送信します。このメソッドは [ トランザクションイベントの送信 ](#sending-a-transactional-event) をトリガーにします。
-1. POST リクエストへの応答にはプライマリキーが含まれており、GET リクエストを通じて 1 つまたは複数のリクエストを送信できます。 これにより、[ イベントステータス ](#transactional-event-status) を取得できるようになります。
+1. POST メソッドに従ってリクエストを送信します。このメソッドは [&#x200B; トランザクションイベントの送信 &#x200B;](#sending-a-transactional-event) をトリガーにします。
+1. POST リクエストへの応答にはプライマリキーが含まれており、GET リクエストを通じて 1 つまたは複数のリクエストを送信できます。 これにより、[&#x200B; イベントステータス &#x200B;](#transactional-event-status) を取得できるようになります。
 
 ## トランザクションイベントの送信 {#sending-a-transactional-event}
 
@@ -47,7 +47,7 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
   なお、トランザクションメッセージ API エンドポイントは、API プレビュー中にも表示されます。
 
-* **&lt;eventID>**：送信するイベントのタイプ。 この ID は、イベント設定の作成時に生成されます（[ この節 ](../../channels/using/configuring-transactional-event.md#creating-an-event) を参照）。
+* **&lt;eventID>**：送信するイベントのタイプ。 この ID は、イベント設定の作成時に生成されます（[&#x200B; この節 &#x200B;](../../channels/using/configuring-transactional-event.md#creating-an-event) を参照）。
 
 ### POST リクエストヘッダー
 

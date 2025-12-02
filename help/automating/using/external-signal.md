@@ -41,7 +41,7 @@ ht-degree: 95%
 
 **関連トピック**
 
-* [ ユースケース：外部シグナルアクティビティとデータのインポート ](../../automating/using/external-signal-data-import.md)。
+* [&#x200B; ユースケース：外部シグナルアクティビティとデータのインポート &#x200B;](../../automating/using/external-signal-data-import.md)。
 * [ユースケース：外部パラメーターを使用してファイルからオーディエンスを作成するためのワークフローの呼び出し](../../automating/using/use-case-calling-workflow.md)
 
 ## 設定 {#configuration}

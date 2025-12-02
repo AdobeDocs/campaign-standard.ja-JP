@@ -36,5 +36,5 @@ Adobe Experience Cloudで共有されたリソースは、次のようにメー�
 
 **関連トピック：**
 
-* [Assetsと共有 ](https://experienceleague.adobe.com/docs/core-services/interface/assets/experience-cloud-assets.html?lang=ja)
+* [Assetsと共有 &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/assets/experience-cloud-assets.html?lang=ja)
 * [コンテンツエディター](../../designing/using/personalization.md#example-email-personalization)

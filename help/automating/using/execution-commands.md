@@ -19,7 +19,7 @@ ht-degree: 20%
 
 # 実行コマンド {#execution-commands}
 
-アクションバーのアイコンを使用すると、ワークフローの実行を開始、追跡、変更できます。 [ アクションバー ](../../automating/using/workflow-interface.md#action-bar) を参照してください。
+アクションバーのアイコンを使用すると、ワークフローの実行を開始、追跡、変更できます。 [&#x200B; アクションバー &#x200B;](../../automating/using/workflow-interface.md#action-bar) を参照してください。
 
 ![](assets/wkf_execution_2.png)
 

@@ -20,7 +20,7 @@ ht-degree: 10%
 
 Adobe Campaignでは、モバイルアプリケーションの購読者から収集した POI データを使用して、パーソナライズされたマーケティングメッセージ（メールなど）を送信できます。
 
-標準配信を使用して反応できるのは、目標点データのみです。 [ トランザクションメッセージ ](../../channels/using/getting-started-with-transactional-msg.md) は場所データを使用できません。
+標準配信を使用して反応できるのは、目標点データのみです。 [&#x200B; トランザクションメッセージ &#x200B;](../../channels/using/getting-started-with-transactional-msg.md) は場所データを使用できません。
 
 反応できる最も早い時間は約 10 分です。
 
@@ -31,7 +31,7 @@ Adobe Campaignでは、モバイルアプリケーションの購読者から収
 
    ![](assets/poi_subscriptions_app.png)
 
-   オーディエンスの管理について詳しくは、[ オーディエンスの定義 ](../../audiences/using/creating-audiences.md) の節を参照してください。
+   オーディエンスの管理について詳しくは、[&#x200B; オーディエンスの定義 &#x200B;](../../audiences/using/creating-audiences.md) の節を参照してください。
 
 1. **[!UICONTROL Add a rule - Profile/Subscriptions to an application]** ウィンドウで、**[!UICONTROL POI Location Subscription]** 要素をワークスペースにドラッグ&amp;ドロップします。
 

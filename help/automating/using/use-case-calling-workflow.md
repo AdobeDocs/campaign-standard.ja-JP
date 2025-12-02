@@ -24,9 +24,9 @@ ht-degree: 1%
 
 このユースケースを実行するには、以下のアクションを実行する必要があります。
 
-1. 外部パラメーターを使用して、ワークフロー 1 をトリガーにする **API 呼び出しを実行**。 [ 手順 1:API 呼び出しの設定 ](../../automating/using/use-case-calling-workflow.md#step-1--configuring-the-api-call) を参照してください。
-1. **ビルドワークフロー 1**：ワークフローでファイルが転送され、データベースに読み込まれます。 次に、データが空かどうかをテストし、最終的にプロファイルをオーディエンスに保存します。 最後に、ワークフロー 2 がトリガーされます。 [ 手順 2：ワークフローの設定 1](../../automating/using/use-case-calling-workflow.md#step-2--configuring-workflow-1) を参照してください。
-1. **ビルドワークフロー 2**：ワークフローは、ワークフロー 1 で作成されたオーディエンスを読み取り、パラメーターでカスタマイズされたセグメントコードを使用して、パーソナライズされたメッセージをプロファイルに送信します。 [ 手順 3：ワークフローの設定 2](../../automating/using/use-case-calling-workflow.md#step-3--configuring-workflow-2) を参照してください。
+1. 外部パラメーターを使用して、ワークフロー 1 をトリガーにする **API 呼び出しを実行**。 [&#x200B; 手順 1:API 呼び出しの設定 &#x200B;](../../automating/using/use-case-calling-workflow.md#step-1--configuring-the-api-call) を参照してください。
+1. **ビルドワークフロー 1**：ワークフローでファイルが転送され、データベースに読み込まれます。 次に、データが空かどうかをテストし、最終的にプロファイルをオーディエンスに保存します。 最後に、ワークフロー 2 がトリガーされます。 [&#x200B; 手順 2：ワークフローの設定 1](../../automating/using/use-case-calling-workflow.md#step-2--configuring-workflow-1) を参照してください。
+1. **ビルドワークフロー 2**：ワークフローは、ワークフロー 1 で作成されたオーディエンスを読み取り、パラメーターでカスタマイズされたセグメントコードを使用して、パーソナライズされたメッセージをプロファイルに送信します。 [&#x200B; 手順 3：ワークフローの設定 2](../../automating/using/use-case-calling-workflow.md#step-3--configuring-workflow-2) を参照してください。
 
 ![](assets/extsignal_uc_process.png)
 
@@ -36,7 +36,7 @@ ht-degree: 1%
 
 ## 手順 1:API 呼び出しの設定 {#step-1--configuring-the-api-call}
 
-パラメーターを使用して、トリガーワークフロー 1 への API 呼び出しを行います。 API 呼び出しの構文について詳しくは、[Campaign Standard REST API ドキュメント ](../../api/using/triggering-a-signal-activity.md) を参照してください。
+パラメーターを使用して、トリガーワークフロー 1 への API 呼び出しを行います。 API 呼び出しの構文について詳しくは、[Campaign Standard REST API ドキュメント &#x200B;](../../api/using/triggering-a-signal-activity.md) を参照してください。
 
 この例では、以下のパラメーターを指定してワークフローを呼び出します。
 

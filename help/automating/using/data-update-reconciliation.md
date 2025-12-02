@@ -23,7 +23,7 @@ ht-degree: 33%
 
 ![](assets/identification_example2.png)
 
-* [ ファイルを読み込み ](../../automating/using/load-file.md) アクティビティ。読み込むファイルの tshe データを読み込んで検出します。 インポートされたファイルには、次のデータが含まれています。
+* [&#x200B; ファイルを読み込み &#x200B;](../../automating/using/load-file.md) アクティビティ。読み込むファイルの tshe データを読み込んで検出します。 インポートされたファイルには、次のデータが含まれています。
 
   ```
   lastname;firstname;email;dateofbirth
@@ -38,10 +38,10 @@ ht-degree: 33%
   tycoon;tyreese;tyreese_t@testmail.net;10/08/1971
   ```
 
-* [ 紐付け ](../../automating/using/reconciliation.md) アクティビティ。読み込まれたファイルの各列をプロファイルディメンション列にリンクします。 識別できないファイルレコード（データが見つからない、互換性のないデータタイプなど）は、最終的なオーディエンスデータの整合性を維持するために無視されます。
+* [&#x200B; 紐付け &#x200B;](../../automating/using/reconciliation.md) アクティビティ。読み込まれたファイルの各列をプロファイルディメンション列にリンクします。 識別できないファイルレコード（データが見つからない、互換性のないデータタイプなど）は、最終的なオーディエンスデータの整合性を維持するために無視されます。
 
   ![](assets/identification_example1.png)
 
-* プロファイルのオーディエンスを保存する [ オーディエンスを保存 ](../../automating/using/save-audience.md) アクティビティ。
+* プロファイルのオーディエンスを保存する [&#x200B; オーディエンスを保存 &#x200B;](../../automating/using/save-audience.md) アクティビティ。
 
   ![](assets/identification_example3.png)

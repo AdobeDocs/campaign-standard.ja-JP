@@ -134,4 +134,4 @@ Campaign コントロールパネルを使用する資格がない場合は、Ad
 
 >[!VIDEO](https://video.tv.adobe.com/v/36380?quality=12)
 
-Campaign Standardに関するその他のチュートリアルビデオについては [ こちら ](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja) を参照してください。
+Campaign Standardに関するその他のチュートリアルビデオについては [&#x200B; こちら &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja) を参照してください。
