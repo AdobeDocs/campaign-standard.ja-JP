@@ -136,6 +136,6 @@ ht-degree: 91%
 
 このビデオでは、ワークフローの作成方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/23937?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/27575?captions=jpn&quality=12)
 
 Campaign Standardに関するその他のチュートリアルビデオについては [&#x200B; こちら &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja) を参照してください。

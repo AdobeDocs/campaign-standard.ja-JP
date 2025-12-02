@@ -128,10 +128,10 @@ Campaign コントロールパネルを使用する資格がない場合は、Ad
 
 このビデオでは、GPG キーを使用してデータを復号化する方法を紹介します。
 
->[!VIDEO](https://video.tv.adobe.com/v/35753?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/41350?captions=jpn&quality=12)
 
 このビデオでは、GPG キーを使用してデータを暗号化する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/36380?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/41336?captions=jpn&quality=12)
 
 Campaign Standardに関するその他のチュートリアルビデオについては [&#x200B; こちら &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja) を参照してください。
