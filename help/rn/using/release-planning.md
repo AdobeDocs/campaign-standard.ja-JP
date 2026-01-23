@@ -8,10 +8,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: d69dfd5cb214f1655563fc4a255b1f8aba834848
+source-git-commit: a9137d1230bd4d975593cfcc3f9c5e2e985f603d
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 100%
+source-wordcount: '397'
+ht-degree: 99%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 100%
 
 アップグレードは 2 段階でデプロイされます。まず、ステージインスタンスがアップグレードされて、新しい機能をテストしたり、必要に応じて設定を調整したりできるようになります。次に、実稼動インスタンスがアップグレードされます。
 
-リリース日は変更される場合があります。定期的にこのページにアクセスして、最新情報を確認してください。環境のアップデートは、以下に示す期間に順次おこなわれます。正確な日付は、各顧客にメールで通知されます。
+リリース日は変更される場合があります。定期的にこのページにアクセスして、アップデートを確認してください。環境のアップデートは、以下に示す期間に順次おこなわれます。正確な日付は、各顧客にメールで通知されます。
 
-## リリース 25.2 - 2025年夏リリース {#release-25-2-release}
+## リリース 26.1 {#release-26.1}
 
 このリリースに関する詳細は、ステージング環境のアップグレードが開始されたときに[リリースノート](release-notes.md)で確認できます。
 
@@ -40,12 +40,12 @@ ht-degree: 100%
  <tbody>
   <tr>
    <td>ステージ </td>
-   <td>8月 </td>
+   <td>3 月 </td>
    <!--td>2025 - Dates to be confirmed</td-->
   </tr>
   <tr>
-   <td>実稼動 </td>
-   <td>9月 </td>
+   <td>Production（本番） </td>
+   <td>4 月 </td>
    <!--td>2025 - Dates to be confirmed</td-->
   </tr>
  </tbody>
