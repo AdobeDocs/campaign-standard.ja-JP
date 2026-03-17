@@ -8,7 +8,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
-source-git-commit: 4df02bb5bbac105057a33d61a7158482bbc48a53
+source-git-commit: f0d21b5eaac74eb27790eb342e56c334e0a04990
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 99%
@@ -25,7 +25,7 @@ ht-degree: 99%
 
 リリース日は変更される場合があります。定期的にこのページにアクセスして、アップデートを確認してください。環境のアップデートは、以下に示す期間に順次おこなわれます。正確な日付は、各顧客にメールで通知されます。
 
-## リリース 26.2 - {#release-26-2-release}
+## リリース 26.3 {#release-26-2-release}
 
 このリリースに関する詳細は、ステージング環境のアップグレードが開始されたときに[リリースノート](release-notes.md)で確認できます。
 
@@ -40,12 +40,12 @@ ht-degree: 99%
  <tbody>
   <tr>
    <td>ステージ </td>
-   <td>4 月 </td>
+   <td>8月 </td>
    <!--td>2025 - Dates to be confirmed</td-->
   </tr>
   <tr>
-   <td>Production（本番） </td>
-   <td>4 月 </td>
+   <td>実稼動 </td>
+   <td>9月 </td>
    <!--td>2025 - Dates to be confirmed</td-->
   </tr>
  </tbody>
