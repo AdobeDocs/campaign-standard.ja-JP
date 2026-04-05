@@ -1,6 +1,6 @@
 ---
 title: CCPA オプトアウトの管理
-description: API を使用して CCPA オプトアウトを管理する方法を説明します
+description: APIを使用したCCPA オプトアウトの管理方法について説明します
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -9,7 +9,7 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: bfc52511-f66f-4948-a939-d0d77e8ef03c
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 6%
@@ -18,22 +18,24 @@ ht-degree: 6%
 
 # CCPA オプトアウトの管理 {#managing-ccpa-optout}
 
-プロファイルの CCPA オプトアウトステータスは、**ccpaOptOut** プロファイル属性と「true」または「false」の値を使用して監視および管理できます。
+プロファイルのCCPA オプトアウトステータスは、**ccpaOptOut** プロファイル属性と「true」または「false」の値を使用して監視および管理できます。
 
 `"ccpaOptOut": <value>`
 
 * **true**：個人情報の販売を禁止します。
 * **false**：個人情報の販売を許可します。
 
-<!--The “CCPA Opt-Out” attribute is only available starting 19.4. For 19.3 environments, you need to extend the Profiles resource and add a boolean field. This field will be added to the API with the chosen label. We suggest you use “Opt-Out for CCPA”.
+<!--
+The “CCPA Opt-Out” attribute is only available starting 19.4. For 19.3 environments, you need to extend the Profiles resource and add a boolean field. This field will be added to the API with the chosen label. We suggest you use “Opt-Out for CCPA”.
 >
->For more on this, refer to the [Managing Privacy requests documentation](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa).-->
+>For more on this, refer to the [Managing Privacy requests documentation](../../start/using/privacy-requests.md#sale-of-personal-information-ccpa).
+-->
 
 <br/>
 
-***サンプルリクエスト***
+***リクエストのサンプル***
 
-* プロファイルの CCPA オプトアウトステータスを取得するGET リクエストのサンプル
+* プロファイルのCCPA オプトアウトステータスを取得するためのGET リクエストのサンプル。
 
   ```
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/<PKEY> \
@@ -43,7 +45,7 @@ ht-degree: 6%
   -H 'Content-Type: application/json;charset=utf-8'
   ```
 
-  GET リクエストへの応答。
+  GET リクエストに対する応答。
 
   ```
   {
@@ -55,7 +57,7 @@ ht-degree: 6%
   }
   ```
 
-* CCPA オプトアウト用のプロファイルをマークするサンプル POST リクエスト。
+* CCPA オプトアウトのプロファイルをマークするPOST リクエストのサンプル。
 
   ```
   -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/ \
@@ -72,7 +74,7 @@ ht-degree: 6%
   -d }'
   ```
 
-  GET リクエストへの応答。
+  GET リクエストに対する応答。
 
   ```
   {
@@ -85,7 +87,7 @@ ht-degree: 6%
   }
   ```
 
-* CCPA オプトアウト用のプロファイルを更新するPATCH リクエストのサンプル
+* CCPA オプトアウトのプロファイルを更新するためのPATCH リクエストのサンプル。
 
   ```
   -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profilesAndServices/profile/<PKEY> \
@@ -99,7 +101,7 @@ ht-degree: 6%
   -d }'
   ```
 
-  GET リクエストへの応答。
+  GET リクエストに対する応答。
 
   ```
   {

@@ -9,7 +9,7 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 12fe13c2-899d-4c85-8381-ba812ff26f54
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
 workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 70%
@@ -18,17 +18,17 @@ ht-degree: 70%
 
 # トランザクションメッセージのライフサイクル {#publishing-transactional-message}
 
-[&#x200B; トランザクションメッセージ &#x200B;](../../channels/using/editing-transactional-message.md) を送信する準備が整ったら、公開できます。
+[ トランザクションメッセージ ](../../channels/using/editing-transactional-message.md)を送信する準備ができたら、公開できます。
 
-トランザクションメッセージを公開、一時停止、非公開、削除する手順について詳しくは、以下を参照してください。
+トランザクションメッセージを公開、一時停止、非公開および削除する手順について詳しくは、以下を参照してください。
 
 >[!IMPORTANT]
 >
->トランザクションメッセージにアクセスして公開できるのは、[&#x200B; 管理 &#x200B;](../../administration/using/users-management.md#functional-administrators) の役割を持つユーザーのみです。
+>トランザクション メッセージにアクセスして公開できるのは、[管理](../../administration/using/users-management.md#functional-administrators)の役割を持つユーザーのみです。
 
 ## トランザクションメッセージの公開プロセス {#transactional-messaging-pub-process}
 
-次のグラフは、トランザクションメッセージの公開プロセス全体を示しています。
+下の図は、トランザクションメッセージの公開プロセス全体を示しています。
 
 ![](assets/message-center_pub-process.png)
 
@@ -38,7 +38,8 @@ ht-degree: 70%
 * [トランザクションメッセージの非公開](#unpublishing-a-transactional-message)
 * [イベントの公開](../../channels/using/publishing-transactional-event.md)
 
-<!--## Testing a transactional message {#testing-a-transactional-message}
+<!--
+## Testing a transactional message {#testing-a-transactional-message}
 
 You first need to create a specific test profile that will allow you to properly check the transactional message.
 
@@ -84,7 +85,8 @@ Once you have created one or more specific test profiles and saved your transact
 
 ![](assets/message-center_10.png)
 
-The steps for sending a proof are detailed in the [Sending proofs](../../sending/using/sending-proofs.md) section.-->
+The steps for sending a proof are detailed in the [Sending proofs](../../sending/using/sending-proofs.md) section.
+-->
 
 ## トランザクションメッセージの公開 {#publishing-a-transactional-message}
 
@@ -94,7 +96,7 @@ The steps for sending a proof are detailed in the [Sending proofs](../../sending
 
 これで、「買い物かごの放棄」イベントがトリガーされるとすぐに、受信者のタイトルと姓、買い物かごの URL、最後に参照した製品、または製品のリスト（製品リストを定義した場合）と送信される買い物かごの総数を含むメッセージが自動的に表示されます。
 
-トランザクションメッセージに関するレポートにアクセスするには、「**[!UICONTROL Reports]**」ボタンを使用します。[&#x200B; 動的レポート &#x200B;](../../reporting/using/about-dynamic-reports.md) を参照してください。
+トランザクションメッセージに関するレポートにアクセスするには、「**[!UICONTROL Reports]**」ボタンを使用します。[動的レポート ](../../reporting/using/about-dynamic-reports.md)を参照してください。
 
 ![](assets/message-center_13.png)
 
@@ -103,11 +105,11 @@ The steps for sending a proof are detailed in the [Sending proofs](../../sending
 * [トランザクションメッセージのテスト](../../channels/using/testing-transactional-message.md)
 * [イベントトリガーの統合](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)
 
-## トランザクションメッセージのパブリケーションの休止 {#suspending-a-transactional-message-publication}
+## トランザクションメッセージの公開の一時停止 {#suspending-a-transactional-message-publication}
 
 トランザクションメッセージに含まれるデータを変更する場合など、「**[!UICONTROL Pause]**」ボタンを使用してメッセージの公開を中止できます。したがって、イベントは処理されず、Adobe Campaign データベースのキューに保持されます。
 
-キュー内のイベントは、REST API （[REST API ドキュメント &#x200B;](../../api/using/managing-transactional-messages.md) を参照）で定義された期間、またはトリガー コアサービスを使用している場合はトリガーイベントで定義された期間、保持されます（[Adobe Experience Cloud Triggersについて &#x200B;](../../integrating/using/about-adobe-experience-cloud-triggers.md) を参照）。
+キューに入れられたイベントは、REST APIで定義された時間内に保持されます（[REST API ドキュメント ](../../api/using/managing-transactional-messages.md)を参照）。また、トリガー コアサービスを使用している場合は、トリガーイベントで保持されます（[Adobe Experience Cloud Triggers](../../integrating/using/about-adobe-experience-cloud-triggers.md)について参照）。
 
 ![](assets/message-center_pause.png)
 
@@ -123,7 +125,7 @@ The steps for sending a proof are detailed in the [Sending proofs](../../sending
 
 >[!NOTE]
 >
->メッセージを再度公開するには、対応するイベント設定に戻り、[&#x200B; イベントを公開 &#x200B;](../../channels/using/publishing-transactional-event.md) してから、[&#x200B; メッセージを公開 &#x200B;](#publishing-a-transactional-message) する必要があります。
+>メッセージを再度公開するには、対応するイベント設定に戻り、[ イベントを公開](../../channels/using/publishing-transactional-event.md)してから[ メッセージを公開](#publishing-a-transactional-message)する必要があります。
 
 一時停止したトランザクションメッセージを非公開にする場合は、再度公開するまで 24 時間待たなければならない場合があります。これは、キューに送信されたすべてのイベントを「**[!UICONTROL Database cleanup]**」ワークフローで消去するためです。
 
@@ -135,7 +137,7 @@ The steps for sending a proof are detailed in the [Sending proofs](../../sending
 
 トランザクションメッセージが非公開になっている場合、またはトランザクションメッセージがまだ公開されていない場合は、トランザクションメッセージリストから削除できます。手順は次のとおりです。
 
-1. 左上隅の **0&rbrace;Adobe&rbrace; ロゴをクリックし、**&#x200B;[!UICONTROL Marketing plans]&#x200B;**/**&#x200B;[!UICONTROL Transactional messages]&#x200B;**/**&#x200B;[!UICONTROL Transactional messages]&#x200B;**を選択します。**
+1. 左上隅の&#x200B;**Adobe** ロゴをクリックし、**[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**&#x200B;を選択します。
 1. 選択したメッセージにマウスを合わせます。
 1. 「**[!UICONTROL Delete element]**」ボタンをクリックします。
 
@@ -153,7 +155,8 @@ The steps for sending a proof are detailed in the [Sending proofs](../../sending
 
 * **標準搭載のイベントテンプレート（内部トランザクションメッセージ）**：内部トランザクションメッセージが、対応する内部イベントに関連付けられている唯一のものである場合、削除できません。別のトランザクションメッセージを作成する場合は、まず複製するか、**[!UICONTROL Resources]**／**[!UICONTROL Templates]**／**[!UICONTROL Transactional message templates]** メニューを使用します。
 
-<!--## Monitoring transactional message delivery {#monitoring-transactional-message-delivery}
+<!--
+## Monitoring transactional message delivery {#monitoring-transactional-message-delivery}
 
 Once the message is published and your site integration is done, you can monitor the delivery.
 
@@ -245,4 +248,5 @@ In the retry process, the sending logs of the new execution delivery are not imm
 
 You cannot stop an execution delivery. However, if the current execution delivery fails, a new one is created as soon as a new event is received, and all new events are processed by this new execution delivery. No new events are processed by the failed execution delivery.
 
-If some events already assigned to an execution delivery have been postponed as part of the retry process and if that execution delivery fails, the retry system does not assign the postponed events to the new execution delivery, which means that these events are lost. Check the [delivery logs](#monitoring-transactional-message-delivery) to see the recipients that may have been impacted.-->
+If some events already assigned to an execution delivery have been postponed as part of the retry process and if that execution delivery fails, the retry system does not assign the postponed events to the new execution delivery, which means that these events are lost. Check the [delivery logs](#monitoring-transactional-message-delivery) to see the recipients that may have been impacted.
+-->
