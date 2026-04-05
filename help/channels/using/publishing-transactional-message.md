@@ -18,7 +18,7 @@ ht-degree: 70%
 
 # トランザクションメッセージのライフサイクル {#publishing-transactional-message}
 
-[ トランザクションメッセージ ](../../channels/using/editing-transactional-message.md)を送信する準備ができたら、公開できます。
+[&#x200B; トランザクションメッセージ &#x200B;](../../channels/using/editing-transactional-message.md)を送信する準備ができたら、公開できます。
 
 トランザクションメッセージを公開、一時停止、非公開および削除する手順について詳しくは、以下を参照してください。
 
@@ -96,7 +96,7 @@ The steps for sending a proof are detailed in the [Sending proofs](../../sending
 
 これで、「買い物かごの放棄」イベントがトリガーされるとすぐに、受信者のタイトルと姓、買い物かごの URL、最後に参照した製品、または製品のリスト（製品リストを定義した場合）と送信される買い物かごの総数を含むメッセージが自動的に表示されます。
 
-トランザクションメッセージに関するレポートにアクセスするには、「**[!UICONTROL Reports]**」ボタンを使用します。[動的レポート ](../../reporting/using/about-dynamic-reports.md)を参照してください。
+トランザクションメッセージに関するレポートにアクセスするには、「**[!UICONTROL Reports]**」ボタンを使用します。[動的レポート &#x200B;](../../reporting/using/about-dynamic-reports.md)を参照してください。
 
 ![](assets/message-center_13.png)
 
@@ -109,7 +109,7 @@ The steps for sending a proof are detailed in the [Sending proofs](../../sending
 
 トランザクションメッセージに含まれるデータを変更する場合など、「**[!UICONTROL Pause]**」ボタンを使用してメッセージの公開を中止できます。したがって、イベントは処理されず、Adobe Campaign データベースのキューに保持されます。
 
-キューに入れられたイベントは、REST APIで定義された時間内に保持されます（[REST API ドキュメント ](../../api/using/managing-transactional-messages.md)を参照）。また、トリガー コアサービスを使用している場合は、トリガーイベントで保持されます（[Adobe Experience Cloud Triggers](../../integrating/using/about-adobe-experience-cloud-triggers.md)について参照）。
+キューに入れられたイベントは、REST APIで定義された時間内に保持されます（[REST API ドキュメント &#x200B;](../../api/using/managing-transactional-messages.md)を参照）。また、トリガー コアサービスを使用している場合は、トリガーイベントで保持されます（[Adobe Experience Cloud Triggers](../../integrating/using/about-adobe-experience-cloud-triggers.md)について参照）。
 
 ![](assets/message-center_pause.png)
 
@@ -125,7 +125,7 @@ The steps for sending a proof are detailed in the [Sending proofs](../../sending
 
 >[!NOTE]
 >
->メッセージを再度公開するには、対応するイベント設定に戻り、[ イベントを公開](../../channels/using/publishing-transactional-event.md)してから[ メッセージを公開](#publishing-a-transactional-message)する必要があります。
+>メッセージを再度公開するには、対応するイベント設定に戻り、[&#x200B; イベントを公開](../../channels/using/publishing-transactional-event.md)してから[&#x200B; メッセージを公開](#publishing-a-transactional-message)する必要があります。
 
 一時停止したトランザクションメッセージを非公開にする場合は、再度公開するまで 24 時間待たなければならない場合があります。これは、キューに送信されたすべてのイベントを「**[!UICONTROL Database cleanup]**」ワークフローで消去するためです。
 

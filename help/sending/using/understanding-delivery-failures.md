@@ -35,7 +35,7 @@ ht-degree: 66%
 
 * [強制隔離管理について](../../sending/using/understanding-quarantine-management.md)
 * [Campaign のオプトインとオプトアウトについて](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)
-* [ バウンス ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)
+* [&#x200B; バウンス &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)
 
 ## メッセージの配信エラーの特定 {#identifying-delivery-failures-for-a-message}
 
@@ -75,8 +75,8 @@ ht-degree: 66%
 
 
 **関連トピック：**
-* [ ハードバウンス ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=ja#hard-bounces)
-* [ ソフトバウンス ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#soft-bounces)
+* [&#x200B; ハードバウンス &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=ja#hard-bounces)
+* [&#x200B; ソフトバウンス &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#soft-bounces)
 
 ## 一時的な配信エラーの後の再試行 {#retries-after-a-delivery-temporary-failure}
 
@@ -90,7 +90,7 @@ ht-degree: 66%
 
 >[!IMPORTANT]
 >
->**Campaign 配信の「**[!UICONTROL Delivery duration]**」パラメーターは、3.5 日以下に設定した場合にのみ、使用されるようになりました。** 3.5 日を超える値を定義した場合、その値は考慮されません。
+>**Campaign 配信の「**&#x200B;[!UICONTROL Delivery duration]&#x200B;**」パラメーターは、3.5 日以下に設定した場合にのみ、使用されるようになりました。** 3.5 日を超える値を定義した場合、その値は考慮されません。
 
 例えば、配信の再試行を1日後に停止する場合、配信期間を&#x200B;**1d**&#x200B;に設定すると、再試行キュー内のメッセージは1日後に削除されます。
 
@@ -118,7 +118,7 @@ The default configuration allows five retries at one-hour intervals, followed by
 >
 >Campaign の&#x200B;**[!UICONTROL Message qualification]**&#x200B;テーブルでのバウンスの選定は使用されなくなりました。
 
-非同期バウンスは、引き続き「**[!UICONTROL Inbound email]**」ルールを通じて、inMail プロセスで選定されます。これらのルールにアクセスするには、左上の&#x200B;**Adobe** ロゴをクリックし、**[!UICONTROL Administration > Channels > Email > Email processing rules]**&#x200B;を選択して&#x200B;**[!UICONTROL Bounce mails]**&#x200B;を選択します。 このルールについて詳しくは、[このセクション ](../../administration/using/configuring-email-channel.md#email-processing-rules)を参照してください。
+非同期バウンスは、引き続き「**[!UICONTROL Inbound email]**」ルールを通じて、inMail プロセスで選定されます。これらのルールにアクセスするには、左上の&#x200B;**Adobe** ロゴをクリックし、**[!UICONTROL Administration > Channels > Email > Email processing rules]**&#x200B;を選択して&#x200B;**[!UICONTROL Bounce mails]**&#x200B;を選択します。 このルールについて詳しくは、[このセクション &#x200B;](../../administration/using/configuring-email-channel.md#email-processing-rules)を参照してください。
 
 バウンスとバウンスの種類について詳しくは、[この節](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html#metrics-for-deliverability)を参照してください。
 

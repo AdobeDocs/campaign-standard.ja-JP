@@ -183,4 +183,4 @@ In the default configuration, the threshold is set at five errors, where two err
 The error counter threshold can be modified.
 -->
 
-最後に重大なエラーが発生したのが 10 日以上前の場合、エラーカウンターが再初期化されます。次に、アドレスのステータスが&#x200B;**有効**&#x200B;に変更され、**データベース クリーンアップ** ワークフローによって強制隔離のリストから削除されます。 （技術的なワークフローについて詳しくは、[このセクション ](../../administration/using/technical-workflows.md#list-of-technical-workflows)を参照してください）。
+最後に重大なエラーが発生したのが 10 日以上前の場合、エラーカウンターが再初期化されます。次に、アドレスのステータスが&#x200B;**有効**&#x200B;に変更され、**データベース クリーンアップ** ワークフローによって強制隔離のリストから削除されます。 （技術的なワークフローについて詳しくは、[このセクション &#x200B;](../../administration/using/technical-workflows.md#list-of-technical-workflows)を参照してください）。

@@ -37,7 +37,7 @@ ht-degree: 48%
 
 タイムスケールを変更することで、表示される値を設定できます。
 
-**[!UICONTROL Delivery summary]**&#x200B;や&#x200B;**[!UICONTROL Non-deliverables and bounces]**&#x200B;など、その他のレポートを利用できます。 詳しくは、[動的レポート ](../../reporting/using/about-dynamic-reports.md)を参照してください。
+**[!UICONTROL Delivery summary]**&#x200B;や&#x200B;**[!UICONTROL Non-deliverables and bounces]**&#x200B;など、その他のレポートを利用できます。 詳しくは、[動的レポート &#x200B;](../../reporting/using/about-dynamic-reports.md)を参照してください。
 
 ## 配信の監視 {#monitoring-deliveries}
 
@@ -51,7 +51,7 @@ ht-degree: 48%
 
 **[!UICONTROL Delivery alerting]**&#x200B;機能は、ユーザーのグループが配信の実行に関する情報を含む通知を自動的に受信できるようにするアラート管理システムです。
 
-詳しくは、「[ エラーが発生したときにアラートを受信する](../../sending/using/receiving-alerts-when-failures-happen.md)」を参照してください。
+詳しくは、「[&#x200B; エラーが発生したときにアラートを受信する](../../sending/using/receiving-alerts-when-failures-happen.md)」を参照してください。
 
 <!--
 ## External tools (#external-tools)

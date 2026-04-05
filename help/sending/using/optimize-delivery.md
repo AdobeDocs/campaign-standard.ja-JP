@@ -32,9 +32,9 @@ ht-degree: 82%
 
   **ヒント**：パフォーマンスの低下を避けるには、他のチームメンバーと話し合い、最適なパフォーマンスが得られるように配信スケジュールを調整します。
 
-* [ ワークフロー実行](../../automating/using/about-workflow-execution.md)：ワークフローの監視は、プラットフォームのパフォーマンスの問題を回避するために不可欠です。 このページの[に記載されているガイドラインに従います](../../automating/using/monitoring-workflow-execution.md)。 詳しくは、[ ワークフローのベストプラクティス ](../../automating/using/best-practices-workflows.md)の節を参照してください。
+* [&#x200B; ワークフロー実行](../../automating/using/about-workflow-execution.md)：ワークフローの監視は、プラットフォームのパフォーマンスの問題を回避するために不可欠です。 このページの[に記載されているガイドラインに従います](../../automating/using/monitoring-workflow-execution.md)。 詳しくは、[&#x200B; ワークフローのベストプラクティス &#x200B;](../../automating/using/best-practices-workflows.md)の節を参照してください。
 
-* [ パフォーマンスモニタリング ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja)機能を使用すると、[ キャンペーンCampaign コントロールパネル機能](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=ja)を利用して、プラットフォームをモニタリングできます。
+* [&#x200B; パフォーマンスモニタリング &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=ja)機能を使用すると、[&#x200B; キャンペーンCampaign コントロールパネル機能](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=ja)を利用して、プラットフォームをモニタリングできます。
 
 ## ネットワーク設定の確認 {#network-config}
 
@@ -52,7 +52,7 @@ ht-degree: 82%
 
    * メールの配信品質を確認するときは、データ品質、メッセージとコンテンツ、送信インフラストラクチャ、レピュテーションという 4 つの主要カテゴリを中心に調べます。このトピックについて詳しくは、[この節](../../sending/using/about-deliverability.md)を参照してください。
 
-* 新しいプラットフォームを開始するときは、[このページ ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html#transition-process)で詳細に説明されている推奨事項を適用してください。
+* 新しいプラットフォームを開始するときは、[このページ &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html#transition-process)で詳細に説明されている推奨事項を適用してください。
 
 * サポートが必要な場合は、アドビ担当者にお問い合わせください。
 
@@ -78,4 +78,4 @@ ht-degree: 82%
 
 このメカニズムの実装の詳細については、[この節](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)で説明します。
 
-詳細については、[ プロファイルとオーディエンスの基本を学ぶ](../../audiences/using/get-started-profiles-and-audiences.md)を参照してください。
+詳細については、[&#x200B; プロファイルとオーディエンスの基本を学ぶ](../../audiences/using/get-started-profiles-and-audiences.md)を参照してください。

@@ -46,7 +46,7 @@ ht-degree: 18%
 
    >[!NOTE]
    >
-   >ランディングページでチェックボックスタイプを使用する方法について詳しくは、[複数のサービスのサブスクリプションを更新](#multiple-subscriptions)および[契約書のチェックボックス ](#agreement-checkbox)の節を参照してください。
+   >ランディングページでチェックボックスタイプを使用する方法について詳しくは、[複数のサービスのサブスクリプションを更新](#multiple-subscriptions)および[契約書のチェックボックス &#x200B;](#agreement-checkbox)の節を参照してください。
 
 1. 現在&#x200B;**[!UICONTROL Field]** ゾーンで選択されているデータベースフィールドと互換性のないフィールドタイプを選択すると、警告メッセージが表示されます。 最適なマッピングを行うには、適切な値を選択します。
 
@@ -120,7 +120,7 @@ ht-degree: 18%
 
    ![](assets/lp_checkbox-behavior.png)
 
-1. 対応するリストから[ サービス ](../../audiences/using/creating-a-service.md)を選択します。
+1. 対応するリストから[&#x200B; サービス &#x200B;](../../audiences/using/creating-a-service.md)を選択します。
 
    ![](assets/lp_checkbox-service.png)
 
