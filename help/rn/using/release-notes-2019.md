@@ -197,14 +197,14 @@ ht-degree: 9%
 **その他の機能強化**
 
 * Adobe Experience Platform Location Servicesとの統合により、Adobe Campaignは、Experience Platform SDKを介してモバイルアプリケーションのサブスクライバーにロケーションベースマーケティングメッセージを送信することが可能になりました。 詳しくは、[詳細ドキュメント](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md)を参照してください。
-* レポート機能が改善され、エクスペリエンスが向上しました。 この機能を使用するには、Dynamic Reporting使用許諾契約書に同意する必要があります。 詳しくは、[詳細ドキュメント ](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement)を参照してください。
-* ワークフローでは、ワークフローの次の10回の実行をプレビューする新しいオプションが追加されました。 詳しくは、[詳細ドキュメント ](../../automating/using/scheduler.md)を参照してください。
-* 「スケジューラー」アクティビティでは、月次配信の特定の曜日を選択できる新しいオプションが追加されました。 詳しくは、[詳細ドキュメント ](../../automating/using/scheduler.md)を参照してください。
-* 集計期間のない定期的な配信を作成する場合、配信ダッシュボードでは、配信が送信される前に確認をリクエストできるようになりました。 詳しくは、[詳細ドキュメント ](../../sending/using/confirming-the-send.md)を参照してください。
-* ワークフローの外部シグナルアクティビティで宣言されたイベント変数で、配信のラベルをパーソナライズできるようになりました。 詳しくは、[詳細ドキュメント ](../../automating/using/calling-a-workflow-with-external-parameters.md)を参照してください。
+* レポート機能が改善され、エクスペリエンスが向上しました。 この機能を使用するには、Dynamic Reporting使用許諾契約書に同意する必要があります。 詳しくは、[詳細ドキュメント &#x200B;](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement)を参照してください。
+* ワークフローでは、ワークフローの次の10回の実行をプレビューする新しいオプションが追加されました。 詳しくは、[詳細ドキュメント &#x200B;](../../automating/using/scheduler.md)を参照してください。
+* 「スケジューラー」アクティビティでは、月次配信の特定の曜日を選択できる新しいオプションが追加されました。 詳しくは、[詳細ドキュメント &#x200B;](../../automating/using/scheduler.md)を参照してください。
+* 集計期間のない定期的な配信を作成する場合、配信ダッシュボードでは、配信が送信される前に確認をリクエストできるようになりました。 詳しくは、[詳細ドキュメント &#x200B;](../../sending/using/confirming-the-send.md)を参照してください。
+* ワークフローの外部シグナルアクティビティで宣言されたイベント変数で、配信のラベルをパーソナライズできるようになりました。 詳しくは、[詳細ドキュメント &#x200B;](../../automating/using/calling-a-workflow-with-external-parameters.md)を参照してください。
 * GDPR削除クエリが改善され、パフォーマンスが向上しました。 （CAMP-33504）
 * 外部アカウント設定インターフェイスから「ftp」オプションが削除されました。 （CAMP-34472）
-* メールメッセージごとにSMTP テストモードオプションを有効または無効にできるようになりました。 詳しくは、[詳細ドキュメント ](../../administration/using/configuring-email-channel.md#smtp-test-mode)を参照してください。 （CAMP-34602）
+* メールメッセージごとにSMTP テストモードオプションを有効または無効にできるようになりました。 詳しくは、[詳細ドキュメント &#x200B;](../../administration/using/configuring-email-channel.md#smtp-test-mode)を参照してください。 （CAMP-34602）
 
 **その他の変更**
 
@@ -349,13 +349,13 @@ ht-degree: 9%
 * トランザクションメッセージングプロセスは、同じメッセージの複数の分析を並行して開始できるように最適化されています。
 * トランザクションプッシュ通知のスループットと待ち時間に一貫性がない可能性がある問題を修正しました。
 * トランザクションメッセージの実行配信に誤ったターゲットオーディエンスが表示される問題を修正しました。
-* イベント設定と関連するトランザクションメッセージを含むパッケージを読み込む際に発生する問題を修正しました。 詳しくは、[詳細ドキュメント ](../../channels/using/getting-started-with-transactional-msg.md#exporting-and-importing-transactional-messages)を参照してください。
+* イベント設定と関連するトランザクションメッセージを含むパッケージを読み込む際に発生する問題を修正しました。 詳しくは、[詳細ドキュメント &#x200B;](../../channels/using/getting-started-with-transactional-msg.md#exporting-and-importing-transactional-messages)を参照してください。
 * 製品リストを含むトランザクションメッセージ用に作成されたテストプロファイルから収集データを削除する問題を修正しました。
 
 **その他の変更**
 
 * SMS外部アカウントに新しいオプションが追加されました。 これにより、並列接続の数をより適切に制御するために、SMSを送信するMTA プロセスの最大数を制限できます。 詳細については、[SMS コネクタプロトコルと設定](https://helpx.adobe.com/jp/campaign/kb/sms-connector-protocol-and-settings.html)のテクニカルノートを参照してください。
-* API拡張機能を使用してリソースを公開する場合、APIが既に公開されている場合は、再度公開されるたびに自動的に更新されるようになりました。 以前は、このアクションは手動でしたが、APIの更新に失敗すると、このAPIのプロファイルまたはサービスリソースが壊れる可能性がありました。 詳しくは、[詳細ドキュメント ](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension)を参照してください。
+* API拡張機能を使用してリソースを公開する場合、APIが既に公開されている場合は、再度公開されるたびに自動的に更新されるようになりました。 以前は、このアクションは手動でしたが、APIの更新に失敗すると、このAPIのプロファイルまたはサービスリソースが壊れる可能性がありました。 詳しくは、[詳細ドキュメント &#x200B;](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension)を参照してください。
 * 動的レポートから郵便番号ディメンションが削除されました。 代わりに、City、Country、State ディメンションを使用することをお勧めします。
 * アプリ内メッセージの「最初の起動」ライフサイクルイベントトリガーが削除されました。
 * セキュリティグループを含むパッケージを書き出す際に、各グループに割り当てられた役割が含まれるようになりました。 （CAMP-32960）

@@ -29,7 +29,7 @@ ht-degree: 89%
       + {hide-from-toc}[2017](rn/using/release-notes-2017.md)
    + [リリース計画](rn/using/release-planning.md)
    + [非推奨（廃止予定）の機能](rn/using/deprecated-features.md)
-   + {hide-from-toc}[ トラッキングされたURLの署名に関する問題](rn/using/tracked-urls.md)
+   + {hide-from-toc}[&#x200B; トラッキングされたURLの署名に関する問題](rn/using/tracked-urls.md)
    + {hide-from-toc}[最新のドキュメント更新](rn/using/documentation-updates.md)
 + はじめに {#getting-started}
    + [Adobe Campaign Standard について](start/using/about-campaign-standard.md)
@@ -48,7 +48,7 @@ ht-degree: 89%
       + [プライバシー管理](start/using/privacy-management.md)
       + [プライバシーリクエスト](start/using/privacy-requests.md)
       + [プライバシーに関する FAQ](start/using/privacy-faq.md)
-   + {hide-from-toc}[ ヘルプとサポートのオプション ](support.md)
+   + {hide-from-toc}[&#x200B; ヘルプとサポートのオプション &#x200B;](support.md)
 + プロファイルとオーディエンス {#profiles-and-audiences}
    + [プロファイルとオーディエンスの基本を学ぶ](audiences/using/get-started-profiles-and-audiences.md)
    + プロファイルの管理 {#managing-profiles}

@@ -63,7 +63,7 @@ Campaign Standardで定義された拡張リソースは、すべてのネイテ
 
 APIを介してXDM拡張機能をカスタマイズし、独自の拡張機能を定義することで、マッピングをより適切に制御できます。
 
-XDM APIについて詳しくは、[Schema Registry API チュートリアル ](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html)を参照してください。
+XDM APIについて詳しくは、[Schema Registry API チュートリアル &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html)を参照してください。
 
 列挙フィールドをマッピングするには、式エディターを使用して、XDM値に対応する各列挙値を定義する必要があります。 例えば、postaladdressfieldは次のように定義する必要があります。
 
