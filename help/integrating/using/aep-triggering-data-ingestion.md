@@ -1,6 +1,6 @@
 ---
 title: API によるデータ取り込みのトリガー
-description: API を使用してデータ取得のトリガーを設定する方法を説明します。
+description: APIを通じてデータ取り込みをトリガー化する方法について説明します。
 audience: administration
 content-type: reference
 topic-tags: configuring-channels
@@ -10,8 +10,7 @@ role: Developer
 level: Experienced
 exl-id: d67a796a-0730-4502-802c-d0b3583dd1dc
 hide: true
-hidefromtoc: true
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 6%
@@ -22,40 +21,40 @@ ht-degree: 6%
 
 >[!IMPORTANT]
 >
->現在、Adobe Experience Platform Data Connector はベータ版です。予告なく頻繁に更新される可能性があります。 これらの機能にアクセスするには、お客様を Azure でホストする必要があります（現在は北米向けのベータ版のみ）。 へのアクセスを希望する場合は、Adobe カスタマーケアにお問い合わせください。
+>Adobe Experience Platform Data Connectorは現在ベータ版で、予告なく頻繁に更新される可能性があります。 これらの機能にアクセスするには、Azure（現在は北米のみベータ版）でホスティングされている必要があります。 アクセスをご希望の場合は、Adobe カスタマーケアにお問い合わせください。
 
-Adobe Campaign Standardでは、API を使用してデータマッピングの即時取り込みをトリガーし、取り込みリクエストのステータスを取得できます。
+Adobe Campaign Standardでは、APIを介したデータマッピングの即時の取り込みをトリガーし、取り込みリクエストのステータスを取得できます。
 
-このページでは、データマッピングの取り込みステータスをトリガーおよび取得する方法について説明します。 Campaign Standard API に関する全般的な情報については、[&#x200B; この節 &#x200B;](../../api/using/get-started-apis.md) を参照してください。
+ここでは、データマッピングの取り込みステータスをトリガーおよび取得する方法について説明します。 Campaign Standard APIに関するグローバルな情報については、[この節](../../api/using/get-started-apis.md)を参照してください。
 
 ## 前提条件 {#prerequisites}
 
-API を使用する前に、まずCampaign Standard インターフェイス内でデータマッピングを設定して公開する必要があります。 詳しくは、以下の節を参照してください。
+APIを使用する前に、データマッピングを最初に設定し、Campaign Standard インターフェイス内で公開する必要があります。 詳しくは、以下の節を参照してください。
 
 * [マッピングの定義](../../integrating/using/aep-mapping-definition.md)
 * [マッピングのアクティベーション](../../integrating/using/aep-mapping-activation.md)
 
-データマッピングが作成されたら、必要に応じて API からトリガーできるように、データマッピングの実行を停止する必要があります。 これを行うには、次の手順に従います。
+データマッピングを作成したら、必要なときにいつでもAPIからトリガーできるように、データマッピングの実行を停止する必要があります。 これを行うには、次の手順に従います。
 
-1. Campaign Standardで、**[!UICONTROL Administration]** / **[!UICONTROL Development]** / **[!UICONTROL Platform]** / **[!UICONTROL Status of data export to platform]** メニューに移動します。
+1. Campaign Standardで、**[!UICONTROL Administration]** > **[!UICONTROL Development]** > **[!UICONTROL Platform]** > **[!UICONTROL Status of data export to platform]** メニューに移動します。
 
-1. データマッピングをダブルクリックして開き、「**[!UICONTROL Stop]**」ボタンをクリックします。
+1. データマッピングをダブルクリックして開き、**[!UICONTROL Stop]** ボタンをクリックします。
 
    ![](assets/aep_datamapping_stop.png)
 
-1. 変更を保存します
+1. 変更を保存
 
-データマッピングの実行は停止しました。 Campaign Standard API を使用すると、手動でトリガーできます。
+これで、データマッピングの実行は停止しました。 Campaign Standard APIを使用して、手動でトリガーすることもできます。
 
-## データマッピングの即時取り込みの開始 {#starting-immediate-ingestion}
+## データマッピングの即時取り込みを開始する {#starting-immediate-ingestion}
 
-Adobe Experience Platformへの XDM マッピングの即時取り込みは、POST 操作でトリガーされます。
+XDM マッピングのAdobe Experience Platformへの即時の取り込みは、POST操作でトリガーされます。
 
 `POST https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM Mapping ID>/ingest`
 
 >[!NOTE]
 >
->POST API 呼び出しの取り込みを実行するには、ユーザーに **SQL function execution** ロールが必要です。このロールは、以下の JS スクリプトを実行することでCampaign Standard管理者から提供されます。
+>取り込みPOST API呼び出しを実行するには、以下のJS スクリプトを実行することでCampaign Standard管理者が提供できる&#x200B;**SQL関数の実行** ロールが必要です。
 >
 >```
 >var sqlRoleObj = REST.head.roleBase.sql.get();
@@ -63,7 +62,7 @@ Adobe Experience Platformへの XDM マッピングの即時取り込みは、PO
 >```
 >
 
-POST 操作は、作成されたリクエストステータスに関する情報を返します。
+POST操作は、作成されたリクエストステータスに関する情報を返します。
 
 * XDM マッピングのリクエストが正常に送信されました：
 
@@ -75,7 +74,7 @@ POST 操作は、作成されたリクエストステータスに関する情報
 }
 ```
 
-* XDM マッピングのリクエストは既に処理中です。
+* XDM マッピングのリクエストは既に進行中です：
 
 ```
 {
@@ -85,7 +84,7 @@ POST 操作は、作成されたリクエストステータスに関する情報
 }
 ```
 
-* XDM マッピングが公開されていないか、停止しているので、リクエストに失敗しました：
+* XDM マッピングが公開されていないか停止しているため、リクエストが失敗しました：
 
 ```
 {
@@ -100,7 +99,7 @@ POST 操作は、作成されたリクエストステータスに関する情報
 
 ## 取り込みリクエストのステータスの取得 {#retrieving-status}
 
-取り込みリクエストのステータスは、GET操作と、目的のリクエスト ID をパラメーターで取得できます。
+取り込みリクエストのステータスは、GET操作とパラメーター内の目的のリクエスト IDで取得できます。
 
 ```
 GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM Mapping ID>/ingest
@@ -109,18 +108,18 @@ GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM 
 
 >[!NOTE]
 >
->XDM マッピングリクエストのステータスとその関連ジョブに関する詳細は、Campaign Standard インターフェイスの **[!UICONTROL Status of data export to platform]** メニューで確認できます（[&#x200B; マッピングのアクティブ化 &#x200B;](../../integrating/using/aep-mapping-activation.md) を参照）。
+>XDM マッピングリクエストのステータスと関連ジョブの詳細は、**[!UICONTROL Status of data export to platform]** メニューのCampaign Standard インターフェイスで確認できます（[ マッピングのアクティベーション ](../../integrating/using/aep-mapping-activation.md)を参照）。
 
-GET操作を実行すると、次の情報が返されます。
+GET操作は、次の情報を返します。
 
-* **batchId**：このフィールドは、バッチ準備とアップロード後にエラーが発生した場合にのみ設定されます。
-* **info**:XDM マッピング ID、
-* **numRecords**：取り込まれたレコードの数（成功ステータスのみ）
-* **ステータス**：取り込みリクエストのステータス（成功/失敗/処理中）
+* **batchId**：このフィールドは、バッチ準備とアップロード後にエラーが発生した場合にのみ入力されます。
+* **info**: XDM マッピング ID,
+* **numRecords**：取り込まれたレコードの数（成功ステータスのみ）、
+* **status**：取り込み要求の状態（成功/失敗/処理中）
 
-GET操作に対して可能な応答は次のとおりです。
+GET操作に対する可能な応答は次のとおりです。
 
-* 取り込みリクエストに成功しました：
+* 正常な取り込み要求：
 
   ```
   {
@@ -132,7 +131,7 @@ GET操作に対して可能な応答は次のとおりです。
   }
   ```
 
-* 0 件のレコードが取り込まれましたが、取り込みリクエストに失敗しました：
+* 取り込み要求が失敗しました。取り込まれたレコードは0件です：
 
   ```
   {
@@ -144,7 +143,7 @@ GET操作に対して可能な応答は次のとおりです。
   }
   ```
 
-* 一部のレコードがバッチでアップロードされたため、取り込みリクエストが失敗しました：
+* 取り込み要求が失敗し、一部のレコードがバッチでアップロードされました：
 
   ```
   {
@@ -156,7 +155,7 @@ GET操作に対して可能な応答は次のとおりです。
   }
   ```
 
-* 一部のレコードの取り込み後に取り込みリクエストが中止されました（これはクラッシュシナリオで発生する場合があります）。
+* 一部のレコードの取り込み後に取り込みリクエストが中止されました（これはクラッシュシナリオで発生する可能性があります）。
 
   ```
   {
@@ -168,7 +167,7 @@ GET操作に対して可能な応答は次のとおりです。
   }
   ```
 
-* 取り込みリクエストの処理中（リクエストがデータをバッチにアップロードした場合、またはリクエストのバッチ準備を行っている場合）:
+* 処理中のリクエストの取り込み（リクエストがデータをバッチでアップロードした場合、またはリクエストの準備をバッチで行う場合）:
 
   ```
   {
