@@ -9,6 +9,6 @@ ht-degree: 6%
 
 このプロジェクトには、Campaign Standardの技術ドキュメントが含まれています。 オンラインで[ここに](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=ja) アクセスできます。
 
-トラブルシューティング、ハウツー、ベストプラクティスについて詳しくは、[ テクニカルノート ](https://helpx.adobe.com/jp/campaign/kb/acs-article-list.html)を参照してください。
+トラブルシューティング、ハウツー、ベストプラクティスについて詳しくは、[&#x200B; テクニカルノート &#x200B;](https://helpx.adobe.com/jp/campaign/kb/acs-article-list.html)を参照してください。
 
-Adobe Campaign Standardの機能に関するビデオについては、[ チュートリアル ](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/overview.html?lang=ja)をご覧ください。
+Adobe Campaign Standardの機能に関するビデオについては、[&#x200B; チュートリアル &#x200B;](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/overview.html?lang=ja)をご覧ください。
