@@ -26,7 +26,7 @@ ht-degree: 3%
 
 セグメントビルダーを使用すると、[&#x200B; リアルタイム顧客プロファイル &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja)からのデータに基づいてルールを定義して、オーディエンスを構築できます。
 
-このセクションでは、セグメントを構築する際のグローバルな概念について説明します。 セグメントビルダー自体について詳しくは、[&#x200B; セグメントビルダーユーザーガイド &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html)を参照してください。
+このセクションでは、セグメントを構築する際のグローバルな概念について説明します。 セグメントビルダー自体について詳しくは、[&#x200B; セグメントビルダーユーザーガイド &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja)を参照してください。
 
 セグメントビルダーのインターフェイスは次のように構成されています。
 
@@ -48,7 +48,7 @@ ht-degree: 3%
 
 1. 設定パネルで目的の結合ポリシーが選択されていることを確認します。
 
-   結合ポリシーについて詳しくは、[&#x200B; セグメントビルダーユーザーガイド &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html)の専用セクションを参照してください。
+   結合ポリシーについて詳しくは、[&#x200B; セグメントビルダーユーザーガイド &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja)の専用セクションを参照してください。
 
    ![](assets/aep_audiences_mergepolicy.png)
 
@@ -66,7 +66,7 @@ ht-degree: 3%
 
 左側のペインには、ルールの作成に使用できるすべての属性、イベント、オーディエンスが一覧表示されます。
 
-リストされているフィールドは、会社によって取得された属性で、[Experience Data Model （XDM） システム &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)を通じて使用できるようになっています。
+リストされているフィールドは、会社によって取得された属性で、[Experience Data Model （XDM） システム &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=ja)を通じて使用できるようになっています。
 
 フィールドはタブに整理されます。
 
@@ -82,7 +82,7 @@ ht-degree: 3%
 >
 >**複数エンティティのセグメント化**&#x200B;を使用すると、製品、店舗、またはその他のプロファイル以外のクラスに基づく追加データを使用して、プロファイルデータを拡張できます。 接続すると、追加のクラスのデータが、プロファイルスキーマにネイティブであるかのように、利用可能になります。
 >
->詳しくは、[該当するドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/multi-entity-segmentation.html)を参照してください。
+>詳しくは、[該当するドキュメント](https://experienceleague.adobe.com/docs/experience-platform/segmentation/multi-entity-segmentation.html?lang=ja)を参照してください。
 
 デフォルトでは、セグメントビルダーにはデータが既に存在するフィールドが表示されます。 データが存在しないフィールドを含む完全なスキーマを表示するには、設定から&#x200B;**[!UICONTROL Show full XDM schema]** オプションを有効にします。
 
@@ -96,7 +96,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->以下の節では、ルール定義に関するグローバル情報を提供します。 詳しくは、[&#x200B; セグメントビルダーユーザーガイド &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html)を参照してください。
+>以下の節では、ルール定義に関するグローバル情報を提供します。 詳しくは、[&#x200B; セグメントビルダーユーザーガイド &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja)を参照してください。
 
 ルールを作成するには、次の手順に従います。
 

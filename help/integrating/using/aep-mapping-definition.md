@@ -43,7 +43,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->バッチをリアルタイム顧客プロファイルまたはID サービスに取り込むには、リアルタイム顧客プロファイル [に対してデータセットを](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/get-started.html)有効にする必要があります。
+>バッチをリアルタイム顧客プロファイルまたはID サービスに取り込むには、リアルタイム顧客プロファイル [に対してデータセットを](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/intro/get-started.html?lang=ja)有効にする必要があります。
 >
 >選択したデータセットが既存のデータマッピングで既に使用されている場合、データがAdobe Experience Platformで上書きされる可能性があることを知らせる警告が表示されます。 これは、同じデータセットを使用するデータマッピングに共通の受信者が存在する場合に発生する可能性があります。
 
@@ -63,7 +63,7 @@ Campaign Standardで定義された拡張リソースは、すべてのネイテ
 
 APIを介してXDM拡張機能をカスタマイズし、独自の拡張機能を定義することで、マッピングをより適切に制御できます。
 
-XDM APIについて詳しくは、[Schema Registry API チュートリアル &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html)を参照してください。
+XDM APIについて詳しくは、[Schema Registry API チュートリアル &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=ja)を参照してください。
 
 列挙フィールドをマッピングするには、式エディターを使用して、XDM値に対応する各列挙値を定義する必要があります。 例えば、postaladdressfieldは次のように定義する必要があります。
 
