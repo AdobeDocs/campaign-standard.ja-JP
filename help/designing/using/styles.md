@@ -42,16 +42,16 @@ To select a column, you can also do the following:
 1. Select a structure component (directly in the email or using the structure tree available from the left **Palette**).
 1. From the **contextual toolbar**, click **[!UICONTROL Select a column]** to choose the desired column.
 
-[このセクション ](#example--adjusting-vertical-alignment-and-padding)の例を参照してください。
+[このセクション &#x200B;](#example--adjusting-vertical-alignment-and-padding)の例を参照してください。
 
 ## スタイル設定の調整 {#adjusting-style-settings}
 
 1. メール内の要素を選択します。 詳しくは、[要素の選択](#selecting-an-element)を参照してください。
 1. 必要に応じて設定を調整します。 選択した各要素には、異なる設定セットが用意されています。
 
-   背景の挿入、サイズの変更、水平方向または垂直方向の整列の変更、カラーの管理、[ パディングまたはマージン ](#selecting-an-element)の追加などを行うことができます。
+   背景の挿入、サイズの変更、水平方向または垂直方向の整列の変更、カラーの管理、[&#x200B; パディングまたはマージン &#x200B;](#selecting-an-element)の追加などを行うことができます。
 
-   これを行うには、**[!UICONTROL Settings]** ペインに表示されるオプションを使用するか、[ インラインスタイル属性を追加](#adding-inline-styling-attributes)します。
+   これを行うには、**[!UICONTROL Settings]** ペインに表示されるオプションを使用するか、[&#x200B; インラインスタイル属性を追加](#adding-inline-styling-attributes)します。
 
    ![](assets/des_settings_pane.png)
 
