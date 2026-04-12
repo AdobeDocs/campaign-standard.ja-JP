@@ -147,7 +147,7 @@ HTML コンテンツテンプレートには、**[!UICONTROL Resources]**&#x200B
 
 このビデオでは、独自のテンプレートの作成方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/23106?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/37616?captions=jpn&quality=12)
 
 その他のCampaign Standardのハウツー動画は[こちら](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja)でご覧いただけます。
 
