@@ -30,12 +30,12 @@ ht-degree: 3%
 
 **オーディエンス**&#x200B;は、最初に&#x200B;**セグメント**&#x200B;を構築することによって作成されます。これは、基本的に、Adobe Experience Platformから顧客プロファイル内の事実上あらゆる変数（プロファイル、イベント、マルチエンティティティデータなど）に基づく一連のルールであり、多次元ターゲットを作成します。 リアルタイム顧客プロファイルとセグメンテーションサービスに関するグローバルな概念については、次の専用ドキュメントで紹介しています。
 
-* [ リアルタイム顧客プロファイルの概要](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja)
-* [ セグメント化サービスの概要](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html)
+* [&#x200B; リアルタイム顧客プロファイルの概要](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja)
+* [&#x200B; セグメント化サービスの概要](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html)
 
-セグメントを作成したら、[Campaign Standard ワークフロー](../../integrating/using/aep-targeting-audiences.md)で配信のオーディエンスとしてアクティブ化できます。 さらに、Adobe Experience Platformのコンテキストデータを使用して[ パーソナライズ ](../../integrating/using/aep-personalizing-campaigns.md)し、キャンペーンに動的コンテンツを追加できます。
+セグメントを作成したら、[Campaign Standard ワークフロー](../../integrating/using/aep-targeting-audiences.md)で配信のオーディエンスとしてアクティブ化できます。 さらに、Adobe Experience Platformのコンテキストデータを使用して[&#x200B; パーソナライズ &#x200B;](../../integrating/using/aep-personalizing-campaigns.md)し、キャンペーンに動的コンテンツを追加できます。
 
-![](assets/do-not-localize/how-to-video.png)のハウツー動画は[このセクション ](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html)でも利用できます。
+![](assets/do-not-localize/how-to-video.png)のハウツー動画は[このセクション &#x200B;](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html)でも利用できます。
 
 これらのセクションで使用される用語：
 

@@ -108,7 +108,7 @@ GET https://mc.adobe.io/<ORGANIZATION>/campaign/dataIngestion/xdmIngestion/<XDM 
 
 >[!NOTE]
 >
->XDM マッピングリクエストのステータスと関連ジョブの詳細は、**[!UICONTROL Status of data export to platform]** メニューのCampaign Standard インターフェイスで確認できます（[ マッピングのアクティベーション ](../../integrating/using/aep-mapping-activation.md)を参照）。
+>XDM マッピングリクエストのステータスと関連ジョブの詳細は、**[!UICONTROL Status of data export to platform]** メニューのCampaign Standard インターフェイスで確認できます（[&#x200B; マッピングのアクティベーション &#x200B;](../../integrating/using/aep-mapping-activation.md)を参照）。
 
 GET操作は、次の情報を返します。
 
