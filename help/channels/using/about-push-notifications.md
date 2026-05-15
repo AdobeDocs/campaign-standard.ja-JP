@@ -99,10 +99,10 @@ Adobe Campaign では、2 つのプッシュ通知を使用できます。
 
 以下のリソースをご覧ください。
 
-* [ビデオチュートリアル](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html)
+* [ビデオチュートリアル](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html?lang=ja)
 * [製品ドキュメント](../../channels/using/about-push-notifications.md)
 * AEP SDK [&#x200B; ドキュメント &#x200B;](../../administration/using/configuring-a-mobile-application.md)を使用して設定
-* [コミュニティページ](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
+* [コミュニティページ](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community?profile.language=ja)
 
 ### Campaignでプッシュトークンを取得するにはどうすればよいですか？ {#push-token-acquisition}
 

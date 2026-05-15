@@ -62,7 +62,7 @@ Adobe Campaignでプッシュ通知をカスタマイズした後、モバイル
 
 >[!NOTE]
 >
->アプリケーションがObjective-Cの場合は、次の[&#x200B; ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/mobile-services/ios/messaging-ios/push-messaging/c-set-up-rich-push-notif-ios.html)を参照してください。
+>アプリケーションがObjective-Cの場合は、次の[&#x200B; ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/mobile-services/ios/messaging-ios/push-messaging/c-set-up-rich-push-notif-ios.html?lang=ja)を参照してください。
 
 アプリが[!DNL Swift]にある場合は、次の手順に従います。
 

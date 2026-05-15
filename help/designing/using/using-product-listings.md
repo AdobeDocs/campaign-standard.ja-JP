@@ -37,7 +37,7 @@ ht-degree: 74%
 
 トランザクションメッセージに放棄された製品のリストを追加するには、次の手順に従います。
 
-また、トランザクションメールで製品リストを設定するために必要な手順を説明する[この一連のビデオ &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html#configure-product-listings-in-transactional-emails)を視聴することもできます。
+また、トランザクションメールで製品リストを設定するために必要な手順を説明する[この一連のビデオ &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html?lang=ja#configure-product-listings-in-transactional-emails)を視聴することもできます。
 
 >[!NOTE]
 >

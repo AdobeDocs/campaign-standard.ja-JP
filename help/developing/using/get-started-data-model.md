@@ -75,5 +75,5 @@ Campaign Standard APIを使用すれば、Adobe Campaign Standard向けの統合
 
 ## その他のリソース
 
-* [カスタムリソースのエクスポートとインポート](https://helpx.adobe.com/campaign/kb/acs-get-started-with-cusres.html)
+* [カスタムリソースのエクスポートとインポート](https://helpx.adobe.com/jp/campaign/kb/acs-get-started-with-cusres.html)
 * [Campaign から Adobe Experience Platform へのデータのエクスポート](../../integrating/using/export-campaign-data.md)

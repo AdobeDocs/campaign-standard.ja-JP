@@ -68,7 +68,7 @@ To check if you are impacted, you can filter your **Services and Subscriptions**
 
 * このレガシーバージョンのSDKをまだ使用している場合は、Adobe Experience Platform SDKを使用して実装を更新する必要があります。 [この記事](sdkv4-migration.md)では、Adobe Experience Platform SDKへの移行方法について説明します。
 
-* 次の手順を実行する前に、Adobe Experience Platform Data Collection Mobileで&#x200B;**Mobile App Configuration**&#x200B;権限があることを確認してください。 [詳細情報](https://experienceleague.adobe.com/docs/experience-platform/collection/permissions.html?lang=en#adobe-experience-platform-data-collection-permissions){target="_blank"}。
+* 次の手順を実行する前に、Adobe Experience Platform Data Collection Mobileで&#x200B;**Mobile App Configuration**&#x200B;権限があることを確認してください。 [詳細情報](https://experienceleague.adobe.com/docs/experience-platform/collection/permissions.html?lang=ja#adobe-experience-platform-data-collection-permissions){target="_blank"}。
 
 
 #### トランジション手順 {#fcm-transition-steps}

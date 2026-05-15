@@ -46,4 +46,4 @@ AEM サイトでAdobe Campaign フォームを作成するには：
 1. Adobe Campaign データベースのフィールドにマッピングできる様々なフィールドとコンポーネントを追加して、フォームのコンテンツを編集します。
 1. フォームをテストして公開し、AEM サイトからアクセスできるようにします。
 
-詳しくは、[詳細ドキュメント](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/aem-adobe-campaign/adobe-campaign-forms.html)を参照してください。
+詳しくは、[詳細ドキュメント](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/aem-adobe-campaign/adobe-campaign-forms.html?lang=ja)を参照してください。

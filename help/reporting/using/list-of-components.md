@@ -28,7 +28,7 @@ ht-degree: 58%
 
 ディメンションと指標の互換性について詳しくは、この[表](/help/reporting/using/assets/dynamic_report_compatibility.pdf)を参照してください。 2つのコンポーネントが互換性がない場合、セルには値&#x200B;**None**&#x200B;が表示されます。
 
-[![画像](assets/dynamic_report_compatibility.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf)
+[![画像](assets/dynamic_report_compatibility.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=ja)
 
 ## ディメンション {#dimensions}
 
