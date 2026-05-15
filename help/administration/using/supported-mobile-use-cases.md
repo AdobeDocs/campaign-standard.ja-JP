@@ -7,10 +7,16 @@ role: Admin
 level: Experienced
 exl-id: 3cd8d756-a271-4e53-8ed0-984ce20298bc
 TQID: https://experienceleague.adobe.com/sIwJVutJ9iO9GIKSPquL5LOKVqkj34x3LTaI072C8V4
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 1006
@@ -35,8 +41,8 @@ Adobe Campaign Standardでは、次のユースケースをサポートしてい
 これらのユースケースを設定するには、次の拡張機能が必要です。
 
 * **[!DNL Adobe Campaign Standard]** <br>Campaign Standard拡張機能をインストールして設定するには、[Data Collection UIでのCampaign Standard拡張機能の設定](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/#configure-the-campaign-standard-extension)を参照してください。
-* **[!DNL Mobile Core]**&#x200B;が自動的にインストールされます。 <br> モバイルコア拡張機能について詳しくは、[ モバイルコア ](https://developer.adobe.com/client-sdks/documentation/mobile-core/)を参照してください。
-* **[!DNL Profile]**&#x200B;が自動的にインストールされます。 <br> プロファイル拡張機能について詳しくは、[ プロファイル ](https://developer.adobe.com/client-sdks/documentation/profile/)を参照してください。
+* **[!DNL Mobile Core]**&#x200B;が自動的にインストールされます。 <br> モバイルコア拡張機能について詳しくは、[&#x200B; モバイルコア &#x200B;](https://developer.adobe.com/client-sdks/documentation/mobile-core/)を参照してください。
+* **[!DNL Profile]**&#x200B;が自動的にインストールされます。 <br> プロファイル拡張機能について詳しくは、[&#x200B; プロファイル &#x200B;](https://developer.adobe.com/client-sdks/documentation/profile/)を参照してください。
 
 ## Campaign Standardでのモバイルプロファイルの登録 {#register-mobile-profile}
 
@@ -258,13 +264,13 @@ public void onResume() {
 
 ## プッシュ通知によるユーザーインタラクションの追跡 {#track-user-push}
 
-ポストバックを追跡するプッシュ通知のルールを作成する必要があります。 詳細については、[ ポストバックを追跡するプッシュ通知](../../administration/using/configuring-rules-launch.md#push-tracking-postback)を参照してください。
+ポストバックを追跡するプッシュ通知のルールを作成する必要があります。 詳細については、[&#x200B; ポストバックを追跡するプッシュ通知](../../administration/using/configuring-rules-launch.md#push-tracking-postback)を参照してください。
 
 ### IOSで実現 {#track-user-push-ios}
 
 IOSでは、次の[!DNL Experience Platform SDK]が必要です。
 
-* **[!UICONTROL trackAction]**. 詳しくは、[ アプリのアクションを追跡](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction)を参照してください。
+* **[!UICONTROL trackAction]**. 詳しくは、[&#x200B; アプリのアクションを追跡](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction)を参照してください。
 
 IOSを使用したユースケースのサンプルを以下に示します。
 
@@ -281,7 +287,7 @@ if (deliveryId != nil && broadlogId != nil) {
 Androidでは、次の[!DNL Experience Platform SDK]が必要です。
 
 * **[!UICONTROL trackAction]**
-詳しくは、[ アプリのアクションを追跡](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction)を参照してください。
+詳しくは、[&#x200B; アプリのアクションを追跡](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction)を参照してください。
 
 Androidを使用したこのユースケースのサンプル実装を次に示します。
 
@@ -298,7 +304,7 @@ MobileCore.trackAction("tracking", contextData);
 
 IOSでは、次の[!DNL Experience Platform SDK]が必要です。
 
-* **[!UICONTROL trackAction]**. 詳しくは、[ アプリのアクションを追跡](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction)を参照してください。
+* **[!UICONTROL trackAction]**. 詳しくは、[&#x200B; アプリのアクションを追跡](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction)を参照してください。
 
 IOSを使用したユースケースのサンプルを以下に示します。
 
@@ -311,7 +317,7 @@ ACPCore.trackAction(mobileEventName, data: [:] )
 Androidでは、次の[!DNL Experience Platform SDK]が必要です。
 
 * **[!UICONTROL trackAction]**
-詳しくは、[ アプリのアクションを追跡](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction)を参照してください。
+詳しくは、[&#x200B; アプリのアクションを追跡](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/#trackaction)を参照してください。
 
 Androidを使用したこのユースケースのサンプル実装を次に示します。
 
@@ -325,8 +331,8 @@ MobileCore.trackAction(mobileEventText, new HashMap<String,String>());
 
 IOSのアプリ内メッセージに基づくプロファイルテンプレートの追加認証にリンクフィールドを設定するには、次の[!DNL Experience Platform SDK]が必要です。
 
-* リンク フィールドの設定<br>詳細については、[ リンク フィールドの設定](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/#setlinkagefields)を参照してください。
-* リンクフィールドのリセット <br>詳細については、[ リンクフィールドのリセット ](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/#setlinkagefields)を参照してください。
+* リンク フィールドの設定<br>詳細については、[&#x200B; リンク フィールドの設定](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/#setlinkagefields)を参照してください。
+* リンクフィールドのリセット <br>詳細については、[&#x200B; リンクフィールドのリセット &#x200B;](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/#setlinkagefields)を参照してください。
 
 IOSのユースケースのサンプルを以下に示します。
 
@@ -348,8 +354,8 @@ ACPCampaign.resetLinkageFields(linkageFields)
 
 Androidのアプリ内メッセージに基づくプロファイルテンプレートの追加認証にリンクフィールドを設定するには、次のExperience Platform SDKが必要です。
 
-* リンク フィールドの設定<br>詳細については、[ リンク フィールドの設定](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/#setlinkagefields)を参照してください。
-* リンクフィールドのリセット <br>詳細については、[ リンクフィールドのリセット ](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/#resetlinkagefields)を参照してください。
+* リンク フィールドの設定<br>詳細については、[&#x200B; リンク フィールドの設定](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/#setlinkagefields)を参照してください。
+* リンクフィールドのリセット <br>詳細については、[&#x200B; リンクフィールドのリセット &#x200B;](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/#resetlinkagefields)を参照してください。
 
 Androidのユースケースのサンプルを以下に示します。
 

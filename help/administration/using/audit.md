@@ -7,9 +7,13 @@ role: Admin
 level: Experienced
 exl-id: bda6f8d5-3bcf-498c-a7c4-d3c2c79b9510
 TQID: https://experienceleague.adobe.com/EE3jnXvxis0E3rnCRqLX2Gc9Aivhx2d4o3l8dZnFzgQ
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 497
@@ -29,7 +33,7 @@ ht-degree: 7%
 
 * **カスタムリソース監査証跡**: アクティビティとカスタムリソースに対する最後の変更を確認してください。
 
-  **[!UICONTROL Custom resources]**&#x200B;について詳しくは、この[ ページ ](../../developing/using/key-steps-to-add-a-resource.md)を参照してください。
+  **[!UICONTROL Custom resources]**&#x200B;について詳しくは、この[&#x200B; ページ &#x200B;](../../developing/using/key-steps-to-add-a-resource.md)を参照してください。
 
 * **ワークフロー監査証跡**: ワークフローに対して行われたアクティビティと最後の変更、さらにワークフローの状態を次のように確認します。
 
@@ -47,11 +51,11 @@ ht-degree: 7%
    * 同じユーザーでのワークフローの再起動
    * ワークフロー再起動の不明なコマンド
 
-  **[!UICONTROL Workflows]**&#x200B;について詳しくは、この[ ページ ](../../automating/using/get-started-workflows.md)を参照してください。
+  **[!UICONTROL Workflows]**&#x200B;について詳しくは、この[&#x200B; ページ &#x200B;](../../automating/using/get-started-workflows.md)を参照してください。
 
 * **オプション監査記録**: アクティビティと最後に行った変更をオプションに確認します。
 
-  **[!UICONTROL Options]**&#x200B;について詳しくは、この[ ページ ](../../administration/using/about-campaign-standard-settings.md)を参照してください。
+  **[!UICONTROL Options]**&#x200B;について詳しくは、この[&#x200B; ページ &#x200B;](../../administration/using/about-campaign-standard-settings.md)を参照してください。
 
 デフォルトでは、保持期間は30日です。
 

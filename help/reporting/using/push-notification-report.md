@@ -9,10 +9,14 @@ role: Leader
 level: Intermediate
 exl-id: acfe0b9c-77a4-46ad-8151-7bf9c21fa4b0
 TQID: https://experienceleague.adobe.com/Z7fXMSiDxpF6LXWMV2aYc71UvOYWlUzyOv8TS6ogS7k
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 389
@@ -28,7 +32,7 @@ ht-degree: 53%
 
 **プッシュ通知**&#x200B;レポートは、Adobe Campaign におけるプッシュ通知のマーケティングパフォーマンスの詳細を提供します。 この標準レポートを使用すると、ユーザーがプッシュ通知、モバイルアプリケーション、配信に対してどのようなアクションを起こしているのかを理解できます。
 
-プッシュトラッキングを実装するには、モバイルアプリケーションで一部の設定が必要です。詳細な手順については、この[ ページ ](../../administration/using/push-tracking.md)を参照してください。
+プッシュトラッキングを実装するには、モバイルアプリケーションで一部の設定が必要です。詳細な手順については、この[&#x200B; ページ &#x200B;](../../administration/using/push-tracking.md)を参照してください。
 
 ![](assets/dynamic_report_push.png)
 

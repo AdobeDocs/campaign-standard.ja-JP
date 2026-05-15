@@ -9,10 +9,15 @@ role: User
 level: Intermediate
 exl-id: 1b81f6e9-cb31-4664-af78-22e70043fbc8
 TQID: https://experienceleague.adobe.com/OM-y0enczhi0WBeNrYFx-BQnlJXOymyzdpud4D8T-J4
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 913
@@ -26,7 +31,7 @@ ht-degree: 1%
 
 顧客が好む言語や地域にもとづいてメッセージを送信することで、プッシュ通知コンテンツをパーソナライズできます。 多言語プッシュ通知コンテンツのバリエーションをコンテンツエディターに直接読み込み、1回の配信で多言語プッシュ通知を送信できます。
 
-この機能は、プッシュ通知に使用する配信テンプレートに応じて、受信者のプロファイルで指定された優先言語またはモバイルアプリ購読者のシステム言語の環境設定を活用します。 特定のユーザーの言語設定が入力されていない場合、多言語プッシュ通知の作成時に定義されたデフォルトのバリアントがシステムで使用されます。 プロファイルとサブスクライバーの管理方法について詳しくは、この[ ガイド ](../../audiences/using/get-started-profiles-and-audiences.md)を参照してください。
+この機能は、プッシュ通知に使用する配信テンプレートに応じて、受信者のプロファイルで指定された優先言語またはモバイルアプリ購読者のシステム言語の環境設定を活用します。 特定のユーザーの言語設定が入力されていない場合、多言語プッシュ通知の作成時に定義されたデフォルトのバリアントがシステムで使用されます。 プロファイルとサブスクライバーの管理方法について詳しくは、この[&#x200B; ガイド &#x200B;](../../audiences/using/get-started-profiles-and-audiences.md)を参照してください。
 
 ![](assets/multivariant_push_1.png)
 
@@ -64,7 +69,7 @@ ht-degree: 1%
 
 1. **[!UICONTROL Manage Content Variants]** ウィンドウで、ファイルをドラッグ&amp;ドロップするか、コンピューターからファイルを選択します。
 
-   ファイルはUTF8 エンコードされている必要があり、**[!UICONTROL Download the sample file]** オプションをクリックして見つけることができる特定のレイアウトが必要です。 また、ロケール値に適切な構文を使用する必要があります。 ファイル形式とサポートされているロケールについて詳しくは、この[ ページ ](../../channels/using/generating-csv-multilingual-push.md)を参照してください。
+   ファイルはUTF8 エンコードされている必要があり、**[!UICONTROL Download the sample file]** オプションをクリックして見つけることができる特定のレイアウトが必要です。 また、ロケール値に適切な構文を使用する必要があります。 ファイル形式とサポートされているロケールについて詳しくは、この[&#x200B; ページ &#x200B;](../../channels/using/generating-csv-multilingual-push.md)を参照してください。
 
    ![](assets/multivariant_push_4.png)
 
@@ -101,7 +106,7 @@ ht-degree: 1%
 
 1. また、コンテンツのバリエーションをクリックして、パーソナライゼーションフィールドなどでさらにカスタマイズすることもできます。
 
-   プッシュ通知のカスタマイズ方法について詳しくは、この[ セクション ](../../channels/using/customizing-a-push-notification.md)を参照してください。
+   プッシュ通知のカスタマイズ方法について詳しくは、この[&#x200B; セクション &#x200B;](../../channels/using/customizing-a-push-notification.md)を参照してください。
 
    ![](assets/multivariant_push_9.png)
 

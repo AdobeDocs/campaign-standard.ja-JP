@@ -11,9 +11,12 @@ role: Developer
 level: Intermediate
 exl-id: 06ae4a5c-f112-4aac-b776-437ac35a8f02
 TQID: https://experienceleague.adobe.com/5W-TDffLY-3PfPrNq6AsoiCripfouAusuV8-sO9EYcM
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 238
@@ -29,7 +32,7 @@ ht-degree: 61%
 
 ![](assets/subscription_activity_example1.png)
 
-* [ ファイルの読み込み](../../automating/using/load-file.md) アクティビティは、プロファイルファイルを読み込み、読み込まれた列の構造を定義します。
+* [&#x200B; ファイルの読み込み](../../automating/using/load-file.md) アクティビティは、プロファイルファイルを読み込み、読み込まれた列の構造を定義します。
 
   この例では、読み込まれるファイルは .csv 形式で、次のデータが含まれています。
 
@@ -56,6 +59,6 @@ ht-degree: 61%
 
   ![](assets/subscription_activity_example5.png)
 
-* [ サブスクリプションサービス ](../../automating/using/subscription-services.md) アクティビティを使用すると、プロファイルを購読する必要があるサービス、購読日に対応するフィールド、購読の送信元を選択できます。
+* [&#x200B; サブスクリプションサービス &#x200B;](../../automating/using/subscription-services.md) アクティビティを使用すると、プロファイルを購読する必要があるサービス、購読日に対応するフィールド、購読の送信元を選択できます。
 
   ![](assets/subscription_activity_example4.png)

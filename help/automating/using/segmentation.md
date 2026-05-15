@@ -11,9 +11,12 @@ role: Developer
 level: Intermediate
 exl-id: 3761ee4a-1ce5-4f9e-b2a5-84388b6b9db8
 TQID: https://experienceleague.adobe.com/0JaRwv07dtCgzlGeRxr-AnLlPzvWUpH2zxS-Nzk1hVw
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 886
@@ -66,7 +69,7 @@ ht-degree: 79%
    * **[!UICONTROL Limit segment population]**：セグメントのサイズを制限できます。
    * **[!UICONTROL Filter and limit segment population]**：セグメント母集団をフィルターしてサイズを制限できます。
    * **[!UICONTROL Label]**：セグメントラベル。
-   * **[!UICONTROL Segment code]**: セグメント母集団に割り当てられたコード。セグメントコードは、標準式とイベント変数を使用してパーソナライズできます（[このページ ](../../automating/using/customizing-workflow-external-parameters.md)を参照）。
+   * **[!UICONTROL Segment code]**: セグメント母集団に割り当てられたコード。セグメントコードは、標準式とイベント変数を使用してパーソナライズできます（[このページ &#x200B;](../../automating/using/customizing-workflow-external-parameters.md)を参照）。
    * **[!UICONTROL Exclude segment from population]**：指定したセグメントをアクティビティのアウトバウンド母集団から除外できます。 このオプションは、「**[!UICONTROL Generate all segments in the same transition]**」オプションが選択されている場合にのみ使用できます。
 
    ![](assets/wkf_segment_new_segment.png)
@@ -104,6 +107,6 @@ ht-degree: 79%
       * このオプションが有効になっていない場合、**[!UICONTROL Segmentation]** アクティビティは、このプロファイルが複数のサブセットの条件を満たしている場合でも、プロファイルが複数の出力遷移に存在しないことを確認します。
       * このオプションを有効にすると、フィルター条件を満たすプロファイルが複数のサブセットに見つかります。
    * インバウンド母集団に保持するセグメント コードが既に割り当てられている場合は、**[!UICONTROL Concatenate the code of each segment]** オプションを確認してください。 アクティビティで指定されたセグメントコードが、最初のセグメントコードに追加されます。
-   * 残りの母集団を活用する必要がある場合は、**[!UICONTROL Generate complement]** オプションを確認してください。 [ ユースケース：補集合を含む配信の作成](../../automating/using/workflow-created-query-with-complement.md)を参照してください。
+   * 残りの母集団を活用する必要がある場合は、**[!UICONTROL Generate complement]** オプションを確認してください。 [&#x200B; ユースケース：補集合を含む配信の作成](../../automating/using/workflow-created-query-with-complement.md)を参照してください。
 
 1. アクティビティの設定を確認し、ワークフローを保存します。

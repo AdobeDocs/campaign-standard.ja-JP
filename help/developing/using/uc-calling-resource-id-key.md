@@ -6,11 +6,16 @@ role: Developer
 level: Experienced
 exl-id: c7aca0c3-525d-4195-8c04-2fad32ca43b7
 TQID: https://experienceleague.adobe.com/sOXv3QMAjOt2gadC9uDyaZA8SVVfoXspzpJ8NOZQkzQ
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
-subfeature_v2: id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+subfeature_v2:
+  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 593
@@ -96,7 +101,7 @@ ht-degree: 6%
 
 識別キーとそのフィルター定義を設定したら、それらを使用して、Campaign標準インターフェイスまたはREST APIからリソースを呼び出すことができます。
 
-インターフェイスからフィルター定義を使用するには、ワークフローで&#x200B;**[!UICONTROL Query]** アクティビティを使用します（[このセクション ](../../automating/using/query.md)を参照）。 その後、左側のペインでフィルターを利用できます。
+インターフェイスからフィルター定義を使用するには、ワークフローで&#x200B;**[!UICONTROL Query]** アクティビティを使用します（[このセクション &#x200B;](../../automating/using/query.md)を参照）。 その後、左側のペインでフィルターを利用できます。
 
 ![](assets/uc_idkey9.png)
 
@@ -115,4 +120,4 @@ GET /profileAndServicesExt/<resourceName>/by<filterName>?<param1_parameter>=<val
 GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byidentification_key?category_parameter=spring&crm_id_parameter=123456
 ```
 
-詳しくは、[Campaign Standard REST API ドキュメント ](../../api/using/filtering.md)を参照してください。
+詳しくは、[Campaign Standard REST API ドキュメント &#x200B;](../../api/using/filtering.md)を参照してください。

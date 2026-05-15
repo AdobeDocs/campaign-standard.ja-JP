@@ -7,9 +7,14 @@ role: Admin
 level: Experienced
 exl-id: aaaceb3a-5e54-47da-9be4-b70747282830
 TQID: https://experienceleague.adobe.com/0ixw0iKTFcM1081kmmLNj0iPuH-XwWWKETDALpobe8k
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 497
@@ -19,26 +24,26 @@ ht-degree: 1%
 
 # Adobe Experience Platform 同期のタグに関する FAQ {#syncwithlaunch-faq}
 
-タグのモバイルプロパティは、**[!UICONTROL Sync with Launch]**&#x200B;専用のテクニカルワークフローを通じてAdobe Campaign Standardに読み込むことができます。 詳しくは、この[ ページ ](../../administration/using/technical-workflows.md)を参照してください
+タグのモバイルプロパティは、**[!UICONTROL Sync with Launch]**&#x200B;専用のテクニカルワークフローを通じてAdobe Campaign Standardに読み込むことができます。 詳しくは、この[&#x200B; ページ &#x200B;](../../administration/using/technical-workflows.md)を参照してください
 
 以下の節では、この同期に関する一般的な質問を示します。
 
 ## タグプロパティを作成しました（組織単位ALLの管理者以外）。 アプリケーションがAdobe Campaignの「設定の準備完了」状態になっているが、アプリケーションを開いたり設定したりできない。 {#configuring-property}
 
 Adobe Campaign Standardでモバイルアプリケーションを設定できるのは、組織単位ALLの管理者のみです。 設定が完了すると、割り当てられた組織単位のユーザーのみが
-アプリケーション： 組織単位について詳しくは、この[ ページ ](../../administration/using/organizational-units.md)を参照してください。
+アプリケーション： 組織単位について詳しくは、この[&#x200B; ページ &#x200B;](../../administration/using/organizational-units.md)を参照してください。
 
 ## Adobe Campaign Standardで設定済みのモバイルアプリケーションを編集できず、モバイルアプリケーションが読み取りモードのみになっています。 {#read-mode-mobile-app}
 
 **[!UICONTROL Access Authorization]** セクションのモバイル アプリケーションの組織単位を確認してください。 割り当てられた組織単位のユーザーのみがモバイルアプリケーションを編集できます。
 
-組織単位について詳しくは、この[ ページ ](../../administration/using/organizational-units.md)を参照してください。
+組織単位について詳しくは、この[&#x200B; ページ &#x200B;](../../administration/using/organizational-units.md)を参照してください。
 
 ## Adobe Campaign Standardの組織単位ALLを持つ管理者ですが、モバイルアプリケーションを設定できません。 {#org-unit-mobile}
 
 組織単位がALLに設定されている管理者は、モバイルアプリケーションを設定するためにすべてのタグモバイルプロパティに対する権限を持っている必要があります。
 
-組織単位について詳しくは、この[ ページ ](../../administration/using/organizational-units.md)を参照してください。
+組織単位について詳しくは、この[&#x200B; ページ &#x200B;](../../administration/using/organizational-units.md)を参照してください。
 
 ## タグモバイルプロパティを作成しましたが、自分のプロパティはAdobe Campaign Standardに表示されません。 {#visibility-mobile-property}
 

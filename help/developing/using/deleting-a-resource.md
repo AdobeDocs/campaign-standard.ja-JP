@@ -9,8 +9,10 @@ role: Developer
 level: Experienced
 exl-id: 4ddfdbcc-a154-4c10-a97e-73ad888d1f1f
 TQID: https://experienceleague.adobe.com/cDShxyrLISaGidkLNnhtMwZHbo8SlRie6DTV0yVR6IY
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 251
@@ -48,7 +50,7 @@ ht-degree: 15%
    >
    >標準の&#x200B;**プロファイル（プロファイル）** リソースの拡張機能を再ドラフトする場合は、定義した&#x200B;**テストプロファイル（シードメンバー）**&#x200B;拡張機能も再ドラフトする必要があります。 プロファイルリソースの拡張について詳しくは、[この節](../../developing/using/extending-the-profile-resource-with-a-new-field.md)を参照してください。
 
-1. リソースを公開します。 詳細な手順については、[ カスタムリソースの公開](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)を参照してください。
+1. リソースを公開します。 詳細な手順については、[&#x200B; カスタムリソースの公開](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)を参照してください。
 
    その後、リソースは&#x200B;**ドラフト** モードになり、アクティベーションのステータスは&#x200B;**[!UICONTROL Inactive]**&#x200B;です。
 
@@ -60,4 +62,4 @@ ht-degree: 15%
 
 >[!NOTE]
 >
->イベントで使用されているカスタムリソースのフィールドが変更または削除された場合、対応するイベントは自動的に非公開になります。 「[ トランザクションイベントの非公開](../../channels/using/publishing-transactional-event.md#unpublishing-an-event)」を参照してください。
+>イベントで使用されているカスタムリソースのフィールドが変更または削除された場合、対応するイベントは自動的に非公開になります。 「[&#x200B; トランザクションイベントの非公開](../../channels/using/publishing-transactional-event.md#unpublishing-an-event)」を参照してください。

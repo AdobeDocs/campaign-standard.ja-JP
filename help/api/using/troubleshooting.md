@@ -7,10 +7,14 @@ role: Developer
 level: Experienced
 exl-id: 404356cd-021f-4739-a88f-b8b1b79e19bc
 TQID: https://experienceleague.adobe.com/uXYP0rBCW5loGzDKt--hLMmUZqfu7XxVn2qL0xgAcek
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 352
@@ -90,7 +94,7 @@ Adobe.ioが無効なURIを宣言します。リクエストしているURIが無
 
 * **作成後にプロファイルが表示されない**
 
-インスタンス設定に応じて、作成したプロファイルを&#x200B;**orgUnit**&#x200B;に関連付ける必要があります。 このフィールドを作成に追加する方法については、[このセクション ](../../api/using/creating-profiles-api.md)を参照してください。
+インスタンス設定に応じて、作成したプロファイルを&#x200B;**orgUnit**&#x200B;に関連付ける必要があります。 このフィールドを作成に追加する方法については、[このセクション &#x200B;](../../api/using/creating-profiles-api.md)を参照してください。
 
 <!--
 * (error duplicate key : quand tu crées un profile qui existe déjà , il faut faire un patch pour updater le profile plutôt qu’un POST)

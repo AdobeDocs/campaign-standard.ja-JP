@@ -11,9 +11,12 @@ role: Developer
 level: Intermediate
 exl-id: 62a064f7-6d0b-49ca-9834-eccb5bf42496
 TQID: https://experienceleague.adobe.com/oyXhQ4Fgx2-cooFelMxsoFiP1qx48-ZQ1eoAudNivF8
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 190
@@ -52,9 +55,9 @@ ht-degree: 80%
 
    「**[!UICONTROL Condition]**」フィールドの編集時に、2 つのボタンを使用してイベント変数を呼び出し、変数と関数を組み合わせた式を編集できます。
 
-   * ![](assets/extsignal_picker.png): ワークフローで使用可能なすべての変数の中からイベント変数を選択します（[このページ ](../../automating/using/customizing-workflow-external-parameters.md)を参照）。
+   * ![](assets/extsignal_picker.png): ワークフローで使用可能なすべての変数の中からイベント変数を選択します（[このページ &#x200B;](../../automating/using/customizing-workflow-external-parameters.md)を参照）。
 
-     例えば、**[!UICONTROL filesCount]**&#x200B;変数を使用して、[ ファイル転送](../../automating/using/transfer-file.md) アクティビティの後にダウンロードされたファイルの数を確認できます。
+     例えば、**[!UICONTROL filesCount]**&#x200B;変数を使用して、[&#x200B; ファイル転送](../../automating/using/transfer-file.md) アクティビティの後にダウンロードされたファイルの数を確認できます。
 
      ![](assets/wkf_test_activity_variables.png)
 

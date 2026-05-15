@@ -9,9 +9,12 @@ role: Developer
 level: Experienced
 exl-id: 7290ebc5-8a58-4b7f-99bf-d942e37c944e
 TQID: https://experienceleague.adobe.com/f0ihge9X4opmgRRdswkBt7yMWSmJc36viZKWXPoQCe4
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 233
@@ -32,7 +35,7 @@ ht-degree: 1%
 * **ドラフト**: リソースが作成または再作成されました。 データベーステーブルと対応するAPIを作成するには、リソースを再公開する必要があります。 リソースが再作成される場合、公開ステップの後にリソースは自動的に非アクティブになります。
 * **リドラフトの保留中**: リソースがリドラフトされました。 再作成プロセスは、次の公開中に行われます。 再作成は不可逆的です。 再作成と公開の準備の両方で、ユーザーに通知する警告メッセージがいくつか表示されます。
 
-  再作成について詳しくは、[ リソースの削除](../../developing/using/deleting-a-resource.md)を参照してください。
+  再作成について詳しくは、[&#x200B; リソースの削除](../../developing/using/deleting-a-resource.md)を参照してください。
 
   >[!NOTE]
   >

@@ -10,10 +10,16 @@ role: Developer
 level: Experienced
 exl-id: d74e2a2c-3ce1-44d6-a058-67b0600360ca
 TQID: https://experienceleague.adobe.com/Xu174CF9RsD4nhFs6KBm0TzsHFnuiBJgnHgK6-r5cI0
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 599
@@ -33,7 +39,7 @@ ht-degree: 14%
 
 書き出しログの操作は、標準ユーザーが実行できます。 **プロファイル**&#x200B;のブロードログ、トラッキングログ、除外ログ、サブスクリプションログ、サブスクリプション履歴ログなどのプライベートリソースは、機能管理者のみが管理できます。
 
-1. [このセクション ](../../automating/using/building-a-workflow.md#creating-a-workflow)で詳しく説明されているように、新しいワークフローを作成します。
+1. [このセクション &#x200B;](../../automating/using/building-a-workflow.md#creating-a-workflow)で詳しく説明されているように、新しいワークフローを作成します。
 1. **[!UICONTROL Scheduler]** アクティビティを追加し、必要に応じて設定します。 以下は、月間実行の例です。
 
    ![](assets/export_logs_scheduler.png)
@@ -44,7 +50,7 @@ ht-degree: 14%
 
      ![](assets/export_logs_query_properties.png)
 
-   * 「**[!UICONTROL Target]**」タブで、2016年以降に送信された配信に対応するすべての配信ログを取得する条件を設定します。 詳しくは、「[ クエリの編集](../../automating/using/editing-queries.md#creating-queries)」の節を参照してください。
+   * 「**[!UICONTROL Target]**」タブで、2016年以降に送信された配信に対応するすべての配信ログを取得する条件を設定します。 詳しくは、「[&#x200B; クエリの編集](../../automating/using/editing-queries.md#creating-queries)」の節を参照してください。
 
      ![](assets/export_logs_query_target.png)
 
@@ -75,7 +81,7 @@ ht-degree: 14%
 1. **[!UICONTROL Transfer file]** アクティビティを追加し、新しく作成したファイルをAdobe Campaign サーバーからSFTP サーバーなどの別の場所に転送するように設定します。
 
    * 「**[!UICONTROL General]**」タブで、「**[!UICONTROL File upload]**」を選択します。その目的は、ファイルをAdobe Campaignから別のサーバーに送信することです。
-   * 「**[!UICONTROL Protocol]**」タブで、転送パラメーターを指定し、使用する[外部アカウント ](../../administration/using/external-accounts.md#creating-an-external-account)を選択します。
+   * 「**[!UICONTROL Protocol]**」タブで、転送パラメーターを指定し、使用する[外部アカウント &#x200B;](../../administration/using/external-accounts.md#creating-an-external-account)を選択します。
 
 1. **[!UICONTROL End]** アクティビティを追加して、適切に終了し、ワークフローを保存します。
 

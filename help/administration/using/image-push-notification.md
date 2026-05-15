@@ -7,10 +7,15 @@ role: Admin
 level: Experienced
 exl-id: 474c8002-4263-4617-9480-6a9b603bde8e
 TQID: https://experienceleague.adobe.com/dQyZVT7Q5Fdh4IdjkSGn0yEd8JmIUCPAN6qDjgYbdjo
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 434
@@ -57,7 +62,7 @@ Adobe Campaignでプッシュ通知をカスタマイズした後、モバイル
 
 >[!NOTE]
 >
->アプリケーションがObjective-Cの場合は、次の[ ドキュメント ](https://experienceleague.adobe.com/docs/mobile-services/ios/messaging-ios/push-messaging/c-set-up-rich-push-notif-ios.html)を参照してください。
+>アプリケーションがObjective-Cの場合は、次の[&#x200B; ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/mobile-services/ios/messaging-ios/push-messaging/c-set-up-rich-push-notif-ios.html)を参照してください。
 
 アプリが[!DNL Swift]にある場合は、次の手順に従います。
 
@@ -156,6 +161,6 @@ userInfo: [AnyHashable("media-attachment-url"): https://pbs.twimg.com/profile_im
 
 ## 手順4：プッシュの送信をテストする {#test-send-push}
 
-これで、上記の手順2で作成したアプリケーションと配信の構築をテストできます。 プッシュ通知の準備と送信について詳しくは、この[ ページ ](../../channels/using/preparing-and-sending-a-push-notification.md)を参照してください。
+これで、上記の手順2で作成したアプリケーションと配信の構築をテストできます。 プッシュ通知の準備と送信について詳しくは、この[&#x200B; ページ &#x200B;](../../channels/using/preparing-and-sending-a-push-notification.md)を参照してください。
 
 ![](assets/push_notif_advanced_34.png)

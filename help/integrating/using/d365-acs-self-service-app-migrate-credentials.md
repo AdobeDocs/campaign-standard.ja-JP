@@ -10,9 +10,12 @@ role: Developer
 level: Intermediate
 exl-id: e0fb289a-6b6e-473d-80af-50f6d0d72af1
 TQID: https://experienceleague.adobe.com/2EyFx8q78HBTmD0-txQnkiMA-IGn0OjMRhCft0FvC0k
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 598
@@ -24,7 +27,7 @@ ht-degree: 1%
 
 新しいOAuth サーバー間資格情報のために、サービスアカウント （JWT）資格情報が非推奨になりました。 新しい資格情報を使用すると、Adobe アプリケーションの保守が簡単になります。 また、証明書を定期的にローテーションする必要がなくなり、標準のOAuth2 ライブラリを使用してすぐに使用できます。
 
-サービスアカウント（JWT）資格情報は非推奨とマークされていますが、2025年1月1日まで引き続き機能します。 したがって、2025年1月1日より前に、新しいOAuth サーバー間資格情報を使用するように統合を移行する必要があります。 詳しくは、[非推奨タイムライン ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#deperecation-timelines)を確認してください
+サービスアカウント（JWT）資格情報は非推奨とマークされていますが、2025年1月1日まで引き続き機能します。 したがって、2025年1月1日より前に、新しいOAuth サーバー間資格情報を使用するように統合を移行する必要があります。 詳しくは、[非推奨タイムライン &#x200B;](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#deperecation-timelines)を確認してください
 
 ## JWTからOAuth サーバー間で資格情報を移行する手順
 

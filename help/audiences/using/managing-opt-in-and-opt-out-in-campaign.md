@@ -9,9 +9,12 @@ role: User
 level: Intermediate
 exl-id: 4aeb90c5-f5b5-4cfe-93fb-2fd01fb8d70e
 TQID: https://experienceleague.adobe.com/RLzfw7dzg3MhpYR7scuOTBdmsIHr5aKHllFjb-RkM-I
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 319
@@ -39,7 +42,7 @@ ht-degree: 9%
 >
 >ランディングページは、サービスのサブスクリプションを有効にするためにも使用できます。 詳しくは、[このページ](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)を参照してください。
 
-1. **[!UICONTROL Profile acquisition]** ランディングページを作成します（[このセクション ](../../channels/using/getting-started-with-landing-pages.md)を参照）。
+1. **[!UICONTROL Profile acquisition]** ランディングページを作成します（[このセクション &#x200B;](../../channels/using/getting-started-with-landing-pages.md)を参照）。
 1. 目的の各チャネルのランディングページコンテンツにチェックボックスを追加し、Campaign データベースの対応するフィールドにリンクします。
 
    ![](assets/optin_landingpage_1.png)
@@ -55,7 +58,7 @@ ht-degree: 9%
 
 ### すべての配信からオプトアウトするためのランディングページの設定 {#setting-up-a-landing-page-to-opt-out-from-all-deliveries}
 
-ユーザーがすべての配信からオプトアウトできるようにするには、**[!UICONTROL Denylist]** ランディングページを作成して公開する必要があります。 ランディングページの作成について詳しくは、[このページ ](../../channels/using/getting-started-with-landing-pages.md)を参照してください。
+ユーザーがすべての配信からオプトアウトできるようにするには、**[!UICONTROL Denylist]** ランディングページを作成して公開する必要があります。 ランディングページの作成について詳しくは、[このページ &#x200B;](../../channels/using/getting-started-with-landing-pages.md)を参照してください。
 
 ユーザーがランディングページのリンクをクリックすると、プロファイルの&#x200B;**[!UICONTROL No longer contact (by any channel)]** オプションが自動的に選択されます。
 

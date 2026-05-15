@@ -11,9 +11,12 @@ role: Developer
 level: Intermediate
 exl-id: 2e98561a-97fd-483a-a547-c4e6d33993dc
 TQID: https://experienceleague.adobe.com/gXDQV8YTYmi5-UD-2GGy-JlxkzfaHcWgKvVLt2ihqNs
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 421
@@ -29,7 +32,7 @@ ht-degree: 81%
 
 ![](assets/subscription_activity_example1.png)
 
-* [ ファイルの読み込み](../../automating/using/load-file.md) アクティビティは、プロファイルファイルを読み込み、読み込まれた列の構造を定義します。
+* [&#x200B; ファイルの読み込み](../../automating/using/load-file.md) アクティビティは、プロファイルファイルを読み込み、読み込まれた列の構造を定義します。
 
   この例では、読み込まれるファイルは .csv 形式で、次のデータが含まれています。
 
@@ -66,7 +69,7 @@ ht-degree: 81%
 
   ![](assets/subscription_activity_example5.png)
 
-* [ サブスクリプションサービス ](../../automating/using/subscription-services.md) アクティビティは、**[!UICONTROL Reconciliation]** アクティビティで作成されたリンクを使用して、移行から更新するサービスを特定します。
+* [&#x200B; サブスクリプションサービス &#x200B;](../../automating/using/subscription-services.md) アクティビティは、**[!UICONTROL Reconciliation]** アクティビティで作成されたリンクを使用して、移行から更新するサービスを特定します。
 
   「**[!UICONTROL Operation type]**」は、ファイルの **operation** フィールドに由来するものとして識別されます。 ここで選択できるのは、ブール値フィールドまたは整数フィールドのみです。 実行する操作を記述しているファイル列がリストに表示されない場合は、前述のように、「**[!UICONTROL Load file]**」アクティビティで列の形式が正しく設定されていることを確認してください。
 

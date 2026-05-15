@@ -10,10 +10,14 @@ role: Developer
 level: Experienced
 exl-id: 342911c5-0746-4205-b380-be195b9cb82a
 TQID: https://experienceleague.adobe.com/LZNc1yJEI9GGnxAs-eLhrDoX91RtZKXRMhqQxkiSN-g
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
-subfeature_v2: id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+subfeature_v2:
+  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 542
@@ -90,4 +94,4 @@ ht-degree: 97%
 
 `GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/<resourceName>/by<customFilterName>?<customFilterparam>=<customFilterValue>`
 
-詳しくは、[Campaign Standard API ドキュメント ](../../api/using/filtering.md#custom-filters)を参照してください。
+詳しくは、[Campaign Standard API ドキュメント &#x200B;](../../api/using/filtering.md#custom-filters)を参照してください。

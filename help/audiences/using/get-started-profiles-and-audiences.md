@@ -9,12 +9,26 @@ role: User
 level: Beginner
 exl-id: b4de2f1a-09ec-486d-b1ef-66208cbe211f
 TQID: https://experienceleague.adobe.com/SC-25nzjfan6OmPZny5QnaeheMiHf2OiJXO9SGVimfo
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: a658c786-869b-4194-a780-2594d663addaid: afa4204e-6d08-4e29-bc35-26aafb656d48
-subfeature_v2: id: af6750fd-3c1b-4ad2-9fe3-99e81510998did: d6330382-c886-4f7a-a4f7-74e3f36c0d9cid: f5293531-9312-4099-bfa3-9e67df6a8750id: f529d0bd-1401-4c88-9833-43228cc1d40fid: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: a658c786-869b-4194-a780-2594d663adda
+  - id: afa4204e-6d08-4e29-bc35-26aafb656d48
+subfeature_v2:
+  - id: af6750fd-3c1b-4ad2-9fe3-99e81510998d
+  - id: d6330382-c886-4f7a-a4f7-74e3f36c0d9c
+  - id: f5293531-9312-4099-bfa3-9e67df6a8750
+  - id: f529d0bd-1401-4c88-9833-43228cc1d40f
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 621
@@ -67,7 +81,7 @@ Adobe Campaignを利用すれば、豊富な顧客プロファイルをリアル
 
 連絡先にメッセージを送信する前に、連絡先の許可を得ることを確認する必要があります。 そうでない場合、電子メールがスパムとしてマークされ、プラットフォームの配信品質に影響を与える可能性があります。 健全なプロファイルデータベースを構築するには、最初のステップとしてこの権限を保護してください。
 
-Campaignでは、[ サービス ](../../audiences/using/creating-a-service.md)を通じて&#x200B;**簡単なオプトインとオプトアウトのメカニズム**&#x200B;を使用し、[ ランディングページ ](../../channels/using/getting-started-with-landing-pages.md)を使用して、連絡先情報を更新し、データベースを拡張することをお勧めします。
+Campaignでは、[&#x200B; サービス &#x200B;](../../audiences/using/creating-a-service.md)を通じて&#x200B;**簡単なオプトインとオプトアウトのメカニズム**&#x200B;を使用し、[&#x200B; ランディングページ &#x200B;](../../channels/using/getting-started-with-landing-pages.md)を使用して、連絡先情報を更新し、データベースを拡張することをお勧めします。
 
 メッセージに&#x200B;**購読解除リンク**&#x200B;を含めると、必要に応じてプロファイルをメッセージに追加できるので、プラットフォームの配信品質が向上します。 ブロックリスト管理について詳しくは、[Campaignでのオプトインとオプトアウトについて](../../audiences/using/about-opt-in-and-opt-out-in-campaign.md)を参照してください。
 

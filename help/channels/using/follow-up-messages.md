@@ -9,10 +9,16 @@ role: User
 level: Intermediate
 exl-id: 0a05cf20-7c8f-406b-acfd-7aece2c5dd26
 TQID: https://experienceleague.adobe.com/TE3qON93QPjpzT15J3ind7T1nlyAvhkzlGV1tGVRPlU
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 795
@@ -24,7 +30,7 @@ ht-degree: 3%
 
 フォローアップメッセージとは、ワークフローで使用できる、事前定義されたマーケティング配信テンプレートです。このテンプレートを使用して、特定のトランザクションメッセージの受信者に別のコミュニケーションを送信できます。
 
-「[ トランザクションメッセージの操作原則](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle)」の節で説明した例を再利用してみましょう。カート放棄メールは、カートに商品を追加したものの、購入を完了せずにサイトを離れたweb サイトのユーザーに送信されます。
+「[&#x200B; トランザクションメッセージの操作原則](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle)」の節で説明した例を再利用してみましょう。カート放棄メールは、カートに商品を追加したものの、購入を完了せずにサイトを離れたweb サイトのユーザーに送信されます。
 
 カート放棄通知を受け取ったものの、3日後に開封しなかったすべての顧客に、リマインダーを送信する必要があります。 最初のメールで使用したのと同じデータにもとづくフォローアップメッセージが送信されます。
 
@@ -32,18 +38,18 @@ ht-degree: 3%
 
 フォローアップメッセージを送信するには、まず、既に受信したトランザクションメッセージに対応するイベントを設定する必要があります。
 
-1. 作成したのと同じイベント設定を使用して、イベントトランザクションメッセージを送信します。 [ トランザクションイベントの設定](../../channels/using/configuring-transactional-event.md)を参照してください。
+1. 作成したのと同じイベント設定を使用して、イベントトランザクションメッセージを送信します。 [&#x200B; トランザクションイベントの設定](../../channels/using/configuring-transactional-event.md)を参照してください。
 1. イベントを設定する際は、イベントを公開する前に&#x200B;**[!UICONTROL Create follow-up delivery template for this event]** ボックスをオンにします。
 
    ![](assets/message-center_follow-up-checkbox.png)
 
-1. [ イベントをプレビューして公開](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)。
+1. [&#x200B; イベントをプレビューして公開](../../channels/using/publishing-transactional-event.md#previewing-and-publishing-the-event)。
 
 イベントが公開されると、新しいイベントにリンクされたトランザクションメッセージとフォローアップ配信テンプレートが自動的に作成されます。 フォローアップメッセージを送信する手順について詳しくは、[この節](#sending-a-follow-up-message)を参照してください。
 
 ## フォローアップメッセージへのアクセス {#accessing-the-follow-up-messages}
 
-ワークフロー内のイベントを処理するには、配信テンプレートが必要です。 ただし、イベントを公開する場合、作成された[ トランザクションメッセージ ](../../channels/using/editing-transactional-message.md)をテンプレートとして使用することはできません。 そのため、このイベントタイプをサポートし、ワークフローのテンプレートとして使用できるように設計された、特定のフォローアップ配信テンプレートを作成する必要があります。
+ワークフロー内のイベントを処理するには、配信テンプレートが必要です。 ただし、イベントを公開する場合、作成された[&#x200B; トランザクションメッセージ &#x200B;](../../channels/using/editing-transactional-message.md)をテンプレートとして使用することはできません。 そのため、このイベントタイプをサポートし、ワークフローのテンプレートとして使用できるように設計された、特定のフォローアップ配信テンプレートを作成する必要があります。
 
 このテンプレートにアクセスするには：
 
@@ -67,15 +73,15 @@ ht-degree: 3%
 
 1. マーケティングアクティビティリストにアクセスし、新しいワークフローを作成します。
 
-   [ ワークフローの作成](../../automating/using/building-a-workflow.md#creating-a-workflow)を参照してください。
+   [&#x200B; ワークフローの作成](../../automating/using/building-a-workflow.md#creating-a-workflow)を参照してください。
 
 1. ワークフローに&#x200B;**[!UICONTROL Scheduler]** アクティビティをドラッグ&amp;ドロップして開きます。 実行頻度を1日1回に設定します。
 
-   スケジューラーアクティビティは、[ スケジューラー](../../automating/using/scheduler.md) セクションに表示されます。
+   スケジューラーアクティビティは、[&#x200B; スケジューラー](../../automating/using/scheduler.md) セクションに表示されます。
 
 1. ワークフローに&#x200B;**[!UICONTROL Query]** アクティビティをドラッグ&amp;ドロップして開きます。
 
-   クエリ アクティビティは、[ クエリ ](../../automating/using/query.md) セクションに表示されます。
+   クエリ アクティビティは、[&#x200B; クエリ &#x200B;](../../automating/using/query.md) セクションに表示されます。
 
 1. プロファイルリソース以外のリソースでクエリを実行するには、アクティビティの&#x200B;**[!UICONTROL Properties]** タブに移動し、**[!UICONTROL Resource]** ドロップダウンリストをクリックします。
 
@@ -111,11 +117,11 @@ ht-degree: 3%
 
 1. **メール配信** アクティビティをワークフローにドラッグ&amp;ドロップします。
 
-   メール配信アクティビティは、[ メール配信](../../automating/using/email-delivery.md) セクションに表示されます。
+   メール配信アクティビティは、[&#x200B; メール配信](../../automating/using/email-delivery.md) セクションに表示されます。
 
    ![](assets/message-center_follow-up-workflow.png)
 
-   [SMS配信](../../automating/using/sms-delivery.md)または[ プッシュ通知配信](../../automating/using/push-notification-delivery.md) アクティビティを使用することもできます。 この場合、イベント設定を作成する際は、必ず&#x200B;**[!UICONTROL Mobile (SMS)]**&#x200B;または&#x200B;**[!UICONTROL Mobile application]** チャネルを選択してください。 詳しくは、[イベントの作成](../../channels/using/configuring-transactional-event.md#creating-an-event)を参照してください。
+   [SMS配信](../../automating/using/sms-delivery.md)または[&#x200B; プッシュ通知配信](../../automating/using/push-notification-delivery.md) アクティビティを使用することもできます。 この場合、イベント設定を作成する際は、必ず&#x200B;**[!UICONTROL Mobile (SMS)]**&#x200B;または&#x200B;**[!UICONTROL Mobile application]** チャネルを選択してください。 詳しくは、[イベントの作成](../../channels/using/configuring-transactional-event.md#creating-an-event)を参照してください。
 
 1. **メール配信** アクティビティを開きます。 作成ウィザードで、**[!UICONTROL Follow-up messages]** ボックスにチェックを入れ、イベントの公開後に作成されたフォローアップ配信テンプレートを選択します。
 
@@ -125,7 +131,7 @@ ht-degree: 3%
 
    ![](assets/message-center_follow-up-content.png)
 
-1. イベントの作成時に定義したフィールドを検索するには、**[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**&#x200B;を選択します。 [ トランザクションメッセージのパーソナライズ ](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message)を参照してください。
+1. イベントの作成時に定義したフィールドを検索するには、**[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**&#x200B;を選択します。 [&#x200B; トランザクションメッセージのパーソナライズ &#x200B;](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message)を参照してください。
 
    ![](assets/message-center_follow-up-personalization.png)
 
