@@ -94,6 +94,6 @@ Campaign Standardには、マーケティングキャンペーンの複数の側
 
 このビデオでは、Adobe Campaign Standardのレポート機能の概要を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/23021?quality=12&captions=eng)
+>[!VIDEO](https://video.tv.adobe.com/v/38315?quality=12&captions=jpn)
 
 その他のCampaign Standardのハウツー動画は[こちら](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja)でご覧いただけます。

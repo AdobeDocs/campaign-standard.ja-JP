@@ -144,6 +144,6 @@ ht-degree: 89%
 
 このビデオでは、ランディングページを作成および編集する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/24093?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/36316?captions=jpn&quality=12)
 
 その他のCampaign Standardのハウツー動画は[こちら](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja)でご覧いただけます。

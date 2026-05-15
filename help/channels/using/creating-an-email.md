@@ -119,6 +119,6 @@ ht-degree: 16%
 
 このビデオでは、メールの作成方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/23721?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/29751?captions=jpn&quality=12)
 
 その他のCampaign Standardのハウツー動画は[こちら](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja)でご覧いただけます。
