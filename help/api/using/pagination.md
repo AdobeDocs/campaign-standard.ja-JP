@@ -1,6 +1,6 @@
 ---
 title: ページネーション
-description: ページネーション操作の実行方法を説明します。
+description: ページネーション操作の実行方法について説明します。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -9,30 +9,34 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: d6ebce3c-1e84-4b3b-a68d-90df4680af64
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/DIJnMC-Y1Bk2I4qexYlNlnQDm76SbjDzAFmBnxCA9qs
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: 160
 ht-degree: 1%
 
 ---
 
 # ページネーション
 
-デフォルトでは、25 個のリソースが 1 つのリストに読み込まれます。
+デフォルトでは、25個のリソースがリストに読み込まれます。
 
-**_lineCount** パラメーターを使用すると、応答にリストされるリソースの数を制限できます。  その後、「**next**」ノードを使用して、次の結果を表示できます。
+**_lineCount** パラメーターを使用すると、応答にリストされるリソースの数を制限できます。  次に、**next** ノードを使用して、次の結果を表示できます。
 
 >[!NOTE]
 >
->ページネーションリクエストを実行する場合は、必ず **next** ノードで返された URL 値を使用します。
+>ページネーション要求を実行するには、常に&#x200B;**next** ノードで返されるURL値を使用してください。
 >
->**_lineStart** リクエストは計算され、**next** ノードで返される URL 内で常に使用される必要があります。
+>**_lineStart** リクエストは計算され、**next** ノードで返されるURL内で常に使用する必要があります。
 
 <br/>
 
-***リクエストのサンプル***
+***サンプルリクエスト***
 
-プロファイルリソースの 1 つのレコードを表示するGET リクエストのサンプル。
+プロファイルリソースの1つのレコードを表示するためのGET リクエストのサンプル。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile?_lineCount=1 \
@@ -42,7 +46,7 @@ ht-degree: 1%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-ページネーションを実行する **next** ノードを使用した、リクエストへの応答。
+リクエストに応答し、**next** ノードを使用してページネーションを実行します。
 
 ```
 {
@@ -63,7 +67,7 @@ ht-degree: 1%
 }
 ```
 
-デフォルトでは、大量のデータを含むテーブルを操作する場合は **next** ノードを使用できません。 ページネーションを実行するには、呼び出し URL に **_forcePagination=true** パラメーターを追加する必要があります。
+デフォルトでは、大量のデータを含むテーブルを操作する場合、**next** ノードは使用できません。 ページネーションを実行するには、呼び出しURLに&#x200B;**_forcePagination=true** パラメーターを追加する必要があります。
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile?_forcePagination=true \
@@ -75,4 +79,4 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->テーブルの大きさが上位にあると見なされるレコード数は、Campaign Standard **XtkBigTableThreshold** オプションで定義されます。 デフォルト値は 100,000 レコードです。
+>テーブルが大きいと見なされるレコードの数は、Campaign Standard **XtkBigTableThreshold** オプションで定義されています。 デフォルト値は100,000 レコードです。

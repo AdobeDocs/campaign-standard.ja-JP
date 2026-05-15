@@ -9,9 +9,15 @@ feature: Control Groups
 role: User
 level: Intermediate
 exl-id: 553897d4-2652-453f-960e-bb2993889f37
-source-git-commit: 9bfae9e956fa86254578eda821aedd240c81288c
+TQID: https://experienceleague.adobe.com/JIR0DIeokRtjXbXBl8cHhhC2N9xnVypjNlVllHpQn14
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1317'
+source-wordcount: 1319
 ht-degree: 95%
 
 ---
@@ -20,27 +26,27 @@ ht-degree: 95%
 
 コントロール母集団を使用すると、キャンペーンの影響を測定するために、オーディエンスの一部にメッセージを送信しないようにできます。
 
-これを Adobe Campaign でおこなうには、配信のターゲットを定義する際に<b>コントロール母集団</b>を作成します。プロファイルは、無作為、フィルターの有無、または条件に基づいてコントロール母集団に追加されます。
+これを Adobe Campaign でおこなうには、配信のターゲットを定義する際に<b>コントロール母集団</b>を作成します。 プロファイルは、無作為、フィルターの有無、または条件に基づいてコントロール母集団に追加されます。
 
-その後、メッセージを受け取ったターゲット母集団の行動と、ターゲット設定されていない連絡先の行動を比較できます。送信ログに基づいて、今後のキャンペーンでコントロール母集団をターゲットすることもできます。
+その後、メッセージを受け取ったターゲット母集団の行動と、ターゲット設定されていない連絡先の行動を比較できます。 送信ログに基づいて、今後のキャンペーンでコントロール母集団をターゲットすることもできます。
 
 <!--The control group is built when the delivery is prepared.-->
 
 ## 概要 {#overview}
 
-コントロール母集団は、メインターゲットから無作為に抽出できます。特定の母集団から選択することもできます。したがって、コントロール母集団を定義する方法は主に 2 つあります。
+コントロール母集団は、メインターゲットから無作為に抽出できます。特定の母集団から選択することもできます。 したがって、コントロール母集団を定義する方法は主に 2 つあります。
 * メインターゲットから複数のプロファイルを&#x200B;**抽出**&#x200B;します。
 * クエリで定義された条件に基づいて、一部のプロファイルを&#x200B;**除外**&#x200B;します。
 
 コントロール母集団を定義する際は、両方の方法を使用できます。
 
-配信の準備手順でコントロール母集団に含まれているすべてのプロファイルが、メインターゲットから削除されます。これらのプロファイルは、送信されたメッセージを受信しません。
+配信の準備手順でコントロール母集団に含まれているすべてのプロファイルが、メインターゲットから削除されます。 これらのプロファイルは、送信されたメッセージを受信しません。
 
 ## ターゲット母集団からの抽出 {#extraction-target-population}
 
 コントロール母集団を定義するには、ターゲット母集団から無作為に、または並べ替えに基づいて、一定の割合または一定数のプロファイルを抽出できます。
 
-### ターゲットの抽出 {#target-extraction}
+### ターゲット抽出 {#target-extraction}
 
 まず、ターゲットからプロファイルを抽出する方法（**無作為**&#x200B;または&#x200B;**並べ替えに基づいて選択**）を定義します。
 
@@ -74,7 +80,7 @@ ht-degree: 95%
 
 ### サイズ制限 {#size-limit}
 
-「**[!UICONTROL Random sampling]**」と「**[!UICONTROL Keep only the first records after sorting]**」のいずれを選択した場合でも、メインターゲットから抽出するプロファイル数を制限する方法を設定する必要があります。次のいずれかを実行します。
+「**[!UICONTROL Random sampling]**」と「**[!UICONTROL Keep only the first records after sorting]**」のいずれを選択した場合でも、メインターゲットから抽出するプロファイル数を制限する方法を設定する必要があります。 次のいずれかを実行します。
 
 * 「**[!UICONTROL Size (as a % of the initial population)]**」を選択して対応するフレームに値を入力します。
 
@@ -106,7 +112,7 @@ ht-degree: 95%
 
    ![](assets/control-group-define-target-exclusion.png)
 
-1. [クエリエディター](../../automating/using/editing-queries.md)を使用して除外条件を定義します。また、以前に作成した[オーディエンス](../../audiences/using/about-audiences.md)も選択できます。
+1. [クエリエディター](../../automating/using/editing-queries.md)を使用して除外条件を定義します。 また、以前に作成した[オーディエンス](../../audiences/using/about-audiences.md)も選択できます。
 
    ![](assets/control-group-target-exclusion.png)
 
@@ -116,12 +122,12 @@ ht-degree: 95%
 
 <!--For more on using the query editor, see the [Editing queries](../../automating/using/editing-queries.md) section.-->
 
-## ユースケース：コントロール母集団の設定 {#control-group-example}
+## ユースケース：コントロールグループの設定 {#control-group-example}
 
 次の例では、メインターゲットからプロファイルを抽出する方法と、クエリを使用して特定の母集団を除外する方法の 2 つの方法により、コントロール母集団を定義します。
 
-1. ワークフローを作成します。ワークフローを作成する詳細な手順については、[ワークフローの作成](../../automating/using/building-a-workflow.md)の節を参照してください。
-1. **[!UICONTROL Activities]**／**[!UICONTROL Targeting]** で、「[クエリ](../../automating/using/query.md)」アクティビティをドラッグ＆ドロップします。アクティビティをダブルクリックし、ターゲットを定義します。<!--For example, in **[!UICONTROL Shortcuts]**, drag and drop **[!UICONTROL Profile]**, select **[!UICONTROL Age]** with the operator **[!UICONTROL Greater than]** and type 25 in the **[!UICONTROL Value]** field.-->
+1. ワークフローを作成します。 ワークフローを作成する詳細な手順については、[ワークフローの作成](../../automating/using/building-a-workflow.md)の節を参照してください。
+1. **[!UICONTROL Activities]**／**[!UICONTROL Targeting]** で、「[クエリ](../../automating/using/query.md)」アクティビティをドラッグ＆ドロップします。 アクティビティをダブルクリックし、ターゲットを定義します。<!--For example, in **[!UICONTROL Shortcuts]**, drag and drop **[!UICONTROL Profile]**, select **[!UICONTROL Age]** with the operator **[!UICONTROL Greater than]** and type 25 in the **[!UICONTROL Value]** field.-->
 
 1. **[!UICONTROL Activities]**／**[!UICONTROL Channels]** で、メインターゲットのセグメントの後に「[メール配信](../../automating/using/email-delivery.md)」アクティビティをドラッグ＆ドロップして編集します。
 1. 配信ダッシュボードの「**[!UICONTROL Audience]**」ブロックをクリックします。
@@ -135,9 +141,9 @@ ht-degree: 95%
 
    ![](assets/control-group-sorting-column.png)
 
-1. 最大サイズを 100 に設定します。ターゲットから年齢の高い順に 100 人のプロファイルが抽出されます。
+1. 最大サイズを 100 に設定します。 ターゲットから年齢の高い順に 100 人のプロファイルが抽出されます。
 
-1. 「**[!UICONTROL Target exclusion]**」セクションで、[クエリエディター](../../automating/using/editing-queries.md)で選択した条件に基づいて、ターゲットから除外するプロファイルを定義します。例えば、「Age is less than 20」とします。
+1. 「**[!UICONTROL Target exclusion]**」セクションで、[クエリエディター](../../automating/using/editing-queries.md)で選択した条件に基づいて、ターゲットから除外するプロファイルを定義します。 例えば、「Age is less than 20」とします。
 
    ![](assets/control-group-target-exclusion-example.png)
 
@@ -145,23 +151,23 @@ ht-degree: 95%
 
 1. [配信の準備](../../sending/using/preparing-the-send.md)を開始し、[送信を確認](../../sending/using/confirming-the-send.md)します。
 
-抽出されたプロファイル（年齢の高い順の 100 人のプロファイル）と、クエリ（20 歳未満のプロファイル）に基づいて定義されたプロファイルは、メインターゲットから排除されます。これらのプロファイルは、メッセージを受信しません。
+抽出されたプロファイル（年齢の高い順の 100 人のプロファイル）と、クエリ（20 歳未満のプロファイル）に基づいて定義されたプロファイルは、メインターゲットから排除されます。 これらのプロファイルは、メッセージを受信しません。
 
 ## 結果の比較 {#delivery-logs}
 
 配信後のコントロール母集団の処理について説明します。
 
-**送信ログ**&#x200B;を抽出して、メッセージを受信しなかったコントロール母集団と有効なターゲットの行動を比較できます。また、配信ログを使用して&#x200B;**別のターゲティングを作成**&#x200B;することもできます。
+**送信ログ**&#x200B;を抽出して、メッセージを受信しなかったコントロール母集団と有効なターゲットの行動を比較できます。 また、配信ログを使用して&#x200B;**別のターゲティングを作成**&#x200B;することもできます。
 
 >[!IMPORTANT]
 >
->配信ログにアクセスするには、[&#x200B; 管理者の役割 &#x200B;](../../administration/using/users-management.md#functional-administrators) と、**[!UICONTROL All]** [&#x200B; 組織単位 &#x200B;](../../administration/using/organizational-units.md) の一部である必要があります。<!--If you would like to restrict access for a particular user or group of users, do not link it to **[!UICONTROL All]** units.-->
+>配信ログにアクセスするには、[管理者の役割](../../administration/using/users-management.md#functional-administrators)を持ち、**[!UICONTROL All]** [組織ユニット ](../../administration/using/organizational-units.md)に所属している必要があります。<!--If you would like to restrict access for a particular user or group of users, do not link it to **[!UICONTROL All]** units.-->
 
 ### 配信ログの確認 {#checking-logs}
 
-メッセージの送信後にターゲットから削除されたプロファイルを確認するには、**[!UICONTROL Delivery logs]** を確認します。配信ログとそのアクセス方法について詳しくは、[この節](../../sending/using/monitoring-a-delivery.md#delivery-logs)を参照してください。
+メッセージの送信後にターゲットから削除されたプロファイルを確認するには、**[!UICONTROL Delivery logs]** を確認します。 配信ログとそのアクセス方法について詳しくは、[この節](../../sending/using/monitoring-a-delivery.md#delivery-logs)を参照してください。
 
-* 「**[!UICONTROL Sending logs]**」タブで、抽出および除外されたプロファイルを確認できます。ステータスが「**[!UICONTROL Ignored]**」、失敗の理由が「**[!UICONTROL Control group]**」となっています。
+* 「**[!UICONTROL Sending logs]**」タブで、抽出および除外されたプロファイルを確認できます。 ステータスが「**[!UICONTROL Ignored]**」、失敗の理由が「**[!UICONTROL Control group]**」となっています。
 
   ![](assets/control-group-sending-logs.png)
 
@@ -169,11 +175,11 @@ ht-degree: 95%
 
   ![](assets/control-group-exclusion-causes.png)
 
-### コントロール母集団ログの使用 {#using-logs}
+### コントロールグループログの使用 {#using-logs}
 
-配信が送信されたら、配信ログを使用して、メッセージを受信しなかったプロファイルをフィルターできます。次の手順に従います。
+配信が送信されたら、配信ログを使用して、メッセージを受信しなかったプロファイルをフィルターできます。 次の手順に従います。
 
-1. ワークフローを作成します。ワークフローを作成する詳細な手順については、[ワークフローの作成](../../automating/using/building-a-workflow.md)の節を参照してください。
+1. ワークフローを作成します。 ワークフローを作成する詳細な手順については、[ワークフローの作成](../../automating/using/building-a-workflow.md)の節を参照してください。
 1. **[!UICONTROL Activities]**／**[!UICONTROL Targeting]** で、「[クエリ](../../automating/using/query.md)」アクティビティをドラッグ＆ドロップします。
 1. 「**[!UICONTROL Properties]**」タブで、「**[!UICONTROL Delivery logs]**」を「**[!UICONTROL Resource]**」として設定し、「**[!UICONTROL Profile]**」を「**[!UICONTROL Targeting dimension]**」として設定します。
 
@@ -194,13 +200,13 @@ ht-degree: 95%
 
    ![](assets/control-group-delivery-target.png)
 
-次に、例えば、「**ファイルを抽出**」アクティビティに続いて「**ファイルを転送**」アクティビティを実行して、ログデータを書き出します。これにより、コントロール母集団と比較した効果的なターゲットに対するキャンペーンの結果を、独自のレポートツールで分析できます。ログの書き出しについて詳しくは、[この節](../../automating/using/exporting-logs.md)を参照してください。
+次に、例えば、「**ファイルを抽出**」アクティビティに続いて「**ファイルを転送**」アクティビティを実行して、ログデータをエクスポートします。 これにより、コントロール母集団と比較した効果的なターゲットに対するキャンペーンの結果を、独自のレポートツールで分析できます。 ログのエクスポートについて詳しくは、[この節](../../automating/using/exporting-logs.md)を参照してください。
 
-### コントロール母集団のターゲット設定 {#targeting-control-group}
+### コントロール母集団をターゲットにする {#targeting-control-group}
 
-メッセージを受信しなかったプロファイルに基づいてターゲティングをおこなう場合は、配信ログも使用できます。次の手順に従います。
+メッセージを受信しなかったプロファイルに基づいてターゲティングをおこなう場合は、配信ログも使用できます。 次の手順に従います。
 
-1. ワークフローを作成します。ワークフローを作成する詳細な手順については、[ワークフローの作成](../../automating/using/building-a-workflow.md)の節を参照してください。
+1. ワークフローを作成します。 ワークフローを作成する詳細な手順については、[ワークフローの作成](../../automating/using/building-a-workflow.md)の節を参照してください。
 1. **[!UICONTROL Activities]**／**[!UICONTROL Targeting]** で、最初の「[クエリ](../../automating/using/query.md)」アクティビティをドラッグ＆ドロップします。
 1. 「**[!UICONTROL Properties]**」タブで、**[!UICONTROL Profile]** リソースが「**[!UICONTROL Resource]**」および「**[!UICONTROL Targeting dimension]**」として選択されていることを確認します。
 
@@ -214,15 +220,15 @@ ht-degree: 95%
 
    ![](assets/control-group-rule-delivery.png)
 
-1. 送信したメールをフィルター条件として選択します。「**[!UICONTROL Confirm]**」をクリックします。
+1. 送信したメールをフィルター条件として選択します。 「**[!UICONTROL Confirm]**」をクリックします。
 
    ![](assets/control-group-email-sent.png)
 
-1. **[!UICONTROL Add a rule]** ウィンドウに戻り、「**[!UICONTROL Status]**」をドラッグ＆ドロップして、フィルター条件として「**[!UICONTROL Ignored]**」を選択します。「**[!UICONTROL Confirm]**」をクリックします。
+1. **[!UICONTROL Add a rule]** ウィンドウに戻り、「**[!UICONTROL Status]**」をドラッグ＆ドロップして、フィルター条件として「**[!UICONTROL Ignored]**」を選択します。 「**[!UICONTROL Confirm]**」をクリックします。
 
    ![](assets/control-group-status-ignored.png)
 
-1. 「**[!UICONTROL Nature of failure]**」をドラッグ＆ドロップし、フィルター条件として「**[!UICONTROL Control group]**」を選択します。「**[!UICONTROL Confirm]**」をクリックします。
+1. 「**[!UICONTROL Nature of failure]**」をドラッグ＆ドロップし、フィルター条件として「**[!UICONTROL Control group]**」を選択します。 「**[!UICONTROL Confirm]**」をクリックします。
 
    ![](assets/control-group-nature-of-failure.png)
 

@@ -9,9 +9,14 @@ feature: Direct Mail
 role: User
 level: Intermediate
 exl-id: 0a4c45ea-acc2-424f-8596-73376e344172
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/Kt-KqyEadpziu8z5snOeg717epieMst36-gkdSt0Th8
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: 337
 ht-degree: 96%
 
 ---
@@ -22,25 +27,25 @@ ht-degree: 96%
 
 ![](assets/direct_mail_6.png)
 
-**[!UICONTROL Content]** 定義画面は、ダイレクトメールチャネルごとに異なります。この画面には「**[!UICONTROL Extraction]**」、「**[!UICONTROL File structure]**」、「**[!UICONTROL Header]**」、「**[!UICONTROL Footer]**」の 4 つのタブがあります。
+**[!UICONTROL Content]** 定義画面は、ダイレクトメールチャネルごとに異なります。 この画面には「**[!UICONTROL Extraction]**」、「**[!UICONTROL File structure]**」、「**[!UICONTROL Header]**」、「**[!UICONTROL Footer]**」の 4 つのタブがあります。
 
 ![](assets/direct_mail_11.png)
 
 ## 抽出の定義 {#defining-the-extraction}
 
-1. 最初に、抽出ファイルの名前を定義します。「**[!UICONTROL Output file]**」フィールドの右側にあるボタンをクリックし、目的のラベルを入力します。パーソナライゼーションフィールド、コンテンツブロックおよび動的テキストを使用できます（[コンテンツの定義](../../designing/using/personalization.md#example-email-personalization)を参照）。例えば、配信 ID や抽出日を使用してラベルを完成させることができます。
+1. 最初に、抽出ファイルの名前を定義します。 「**[!UICONTROL Output file]**」フィールドの右側にあるボタンをクリックし、目的のラベルを入力します。 パーソナライゼーションフィールド、コンテンツブロックおよび動的テキストを使用できます（[コンテンツの定義](../../designing/using/personalization.md#example-email-personalization)を参照）。 例えば、配信 ID や抽出日を使用してラベルを完成させることができます。
 
    ![](assets/direct_mail_12.png)
 
-1. 出力列を追加するには、**[!UICONTROL +]** または「**[!UICONTROL Add an element]**」ボタンをクリックします。**[!UICONTROL Output columns]** を使用すると、出力ファイルに書き出すプロファイル情報（列）を定義できます。
+1. 出力列を追加するには、**[!UICONTROL +]** または「**[!UICONTROL Add an element]**」ボタンをクリックします。 **[!UICONTROL Output columns]** を使用すると、出力ファイルにエクスポートするプロファイル情報（列）を定義できます。
 
    >[!IMPORTANT]
    >
-   >住所はダイレクトメールプロバイダーにとって重要なものなので、プロファイルに住所が含まれていることを確認してください。また、プロファイル情報の「**[!UICONTROL Address specified]**」ボックスがオンになっていることも確認してください。[レコメンデーション](../../channels/using/about-direct-mail.md#recommendations)を参照してください。
+   >住所はダイレクトメールプロバイダーにとって重要なものなので、プロファイルに住所が含まれていることを確認してください。 また、プロファイル情報の「**[!UICONTROL Address specified]**」ボックスがオンになっていることも確認してください。 [レコメンデーション](../../channels/using/about-direct-mail.md#recommendations)を参照してください。
 
    ![](assets/direct_mail_13.png)
 
-1. 必要な数の列を作成します。列の式とラベルをクリックすると、列を編集できます。
+1. 必要な数の列を作成します。 列の式とラベルをクリックすると、列を編集できます。
 
 >[!NOTE]
 >
@@ -48,7 +53,7 @@ ht-degree: 96%
 
 ## ファイル構造の定義 {#defining-the-file-structure}
 
-「**ファイル構造**」タブでは、書き出すファイルの出力、日付、数値の形式を設定できます。
+「**ファイル構造**」タブでは、エクスポートするファイルの出力、日付、数値の形式を設定できます。
 
 ![](assets/direct_mail_14.png)
 
@@ -58,11 +63,11 @@ ht-degree: 96%
 
 ## ヘッダーとフッターの定義 {#defining-the-header-and-footer}
 
-抽出ファイルの先頭または末尾に情報を追加することが必要となる場合があります。この場合は、**[!UICONTROL Content]**&#x200B;設定画面の「**[!UICONTROL Header]**」タブと「**[!UICONTROL Footer]**」タブを使用します。
+抽出ファイルの先頭または末尾に情報を追加することが必要となる場合があります。 この場合は、**[!UICONTROL Content]**&#x200B;設定画面の「**[!UICONTROL Header]**」タブと「**[!UICONTROL Footer]**」タブを使用します。
 
 ![](assets/direct_mail_7.png)
 
-例えば、ダイレクトメールプロバイダーの場合、送信者情報をファイルのヘッダーに含めることがあります。フッターとヘッダーは、配信のコンテキストで利用できる情報を使用してパーソナライズできます。詳しくは、[コンテンツの定義](../../designing/using/personalization.md#example-email-personalization)を参照してください。
+例えば、ダイレクトメールプロバイダーの場合、送信者情報をファイルのヘッダーに含めることがあります。 フッターとヘッダーは、配信のコンテキストで利用できる情報を使用してパーソナライズできます。 詳しくは、[コンテンツの定義](../../designing/using/personalization.md#example-email-personalization)を参照してください。
 
 送信者のアドレスは、ダイレクトメールプロパティの「**[!UICONTROL Send]**」セクションまたはテンプレートレベルで定義します。
 

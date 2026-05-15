@@ -9,9 +9,14 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 683341fb-fef5-4aa1-8606-9526d9ae6290
-source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
+TQID: https://experienceleague.adobe.com/e185wubn3YVJGYrzxDtT6CquM1hojLGStmxbsvtV0oE
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: 310
 ht-degree: 48%
 
 ---
@@ -37,7 +42,7 @@ ht-degree: 48%
 
 タイムスケールを変更することで、表示される値を設定できます。
 
-**[!UICONTROL Delivery summary]**&#x200B;や&#x200B;**[!UICONTROL Non-deliverables and bounces]**&#x200B;など、その他のレポートを利用できます。 詳しくは、[動的レポート &#x200B;](../../reporting/using/about-dynamic-reports.md)を参照してください。
+**[!UICONTROL Delivery summary]**&#x200B;や&#x200B;**[!UICONTROL Non-deliverables and bounces]**&#x200B;など、その他のレポートを利用できます。 詳しくは、[動的レポート ](../../reporting/using/about-dynamic-reports.md)を参照してください。
 
 ## 配信の監視 {#monitoring-deliveries}
 
@@ -51,7 +56,7 @@ ht-degree: 48%
 
 **[!UICONTROL Delivery alerting]**&#x200B;機能は、ユーザーのグループが配信の実行に関する情報を含む通知を自動的に受信できるようにするアラート管理システムです。
 
-詳しくは、「[&#x200B; エラーが発生したときにアラートを受信する](../../sending/using/receiving-alerts-when-failures-happen.md)」を参照してください。
+詳しくは、「[ エラーが発生したときにアラートを受信する](../../sending/using/receiving-alerts-when-failures-happen.md)」を参照してください。
 
 <!--
 ## External tools (#external-tools)

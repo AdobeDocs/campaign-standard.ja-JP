@@ -10,10 +10,15 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 736bf3dc-96c4-4518-96f8-d9aaa46d7f84
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/tl7zyRjRGu9XFjQbPnubDvwqTY-HV7DDPDfOdiKHSi4
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1170'
-ht-degree: 77%
+source-wordcount: 1172
+ht-degree: 75%
 
 ---
 
@@ -25,15 +30,15 @@ ht-degree: 77%
 
 「**[!UICONTROL Transfer file]**」アクティビティを使用すると、ファイルの送受信、ファイルの有無のテスト、Adobe Campaign 内のファイルの一覧表示ができます。
 
-## 使用コンテキスト {#context-of-use}
+## Context of use {#context-of-use}
 
-データの抽出方法は、アクティビティの設定時に定義されます。読み込むファイルとしては、例えば連絡先のリストなどがあります。
+データの抽出方法は、アクティビティの設定時に定義されます。 読み込むファイルとしては、例えば連絡先のリストなどがあります。
 
 このアクティビティを使用すると、データが回復され、「**[!UICONTROL Load file]**」アクティビティで構造化されます。
 
 **関連トピック：**
 
-* [ユースケース：ファイルの自動ダウンロードに基づくデータの更新](../../automating/using/update-data-automatic-download.md)
+* [ユースケース：自動ファイルダウンロードに基づくデータの更新](../../automating/using/update-data-automatic-download.md)
 
 ## 設定 {#configuration}
 
@@ -44,68 +49,68 @@ ht-degree: 77%
    ![](assets/wkf_file_transfer_01.png)
 
    * **ファイルのダウンロード**：ファイルをダウンロードできます。
-   * **ファイルのアップロード**：ファイルをアップロードできます。Adobe Campaign ファイルからファイルをアップロードすると、**[!UICONTROL Export audits]** メニューにログエントリが生成されます。エクスポートの監査について詳しくは、[エクスポートの監査](../../administration/using/auditing-export-logs.md)の節を参照してください。
+   * **ファイルのアップロード**：ファイルをアップロードできます。 Adobe Campaign ファイルからファイルをアップロードすると、**[!UICONTROL Export audits]** メニューにログエントリが生成されます。 エクスポートの監査について詳しくは、[エクスポートの監査](../../administration/using/auditing-export-logs.md)の節を参照してください。
    * **テストによりファイルの存在を確認**：ファイルが存在するかどうかを確認できます。
-   * **ファイルリスト**：「**[!UICONTROL Protocol]**」タブで定義されたサーバーに存在するファイルをリストできます。このアクションは主にデバッグ目的で使用され、リモートサーバーからファイルをダウンロードする前に、要件を満たすようにアクティビティが設定されているかどうかを確認します。
+   * **ファイルリスト**：「**[!UICONTROL Protocol]**」タブで定義されたサーバーに存在するファイルをリストできます。 このアクションは主にデバッグ目的で使用され、リモートサーバーからファイルをダウンロードする前に、要件を満たすようにアクティビティが設定されているかどうかを確認します。
 
 1. 使用するプロトコルを選択します。
    * [HTTP](#HTTP-configuration-wf)
    * [SFTP](#SFTP-configuration-wf)
    * [Amazon S3](#S3-configuration-wf)
-   * [Microsoft Azure Blob ストレージ](#azure-blob-configuration-wf)
-   * [ファイルがAdobe Campaign サーバーに存在する](#files-server-configuration-wf)
+   * [Microsoft Azure Blob storage](#azure-blob-configuration-wf)
+   * [Adobe Campaign サーバーに存在するファイル](#files-server-configuration-wf)
 
-1. **[!UICONTROL Additional options]** のセクションは、選択したプロトコルに応じて使用でき、プロトコルにパラメーターを追加できます。
+1. 選択したプロトコルに応じて利用できる&#x200B;**[!UICONTROL Additional options]** セクションでは、プロトコルにパラメーターを追加できます。
 
    以下を行うことができます。
 
-   * **[!UICONTROL Delete the source files after transfer]**: リモートサーバー上のファイルを消去します。 このオプションを選択しない場合は、SFTP ディレクトリにあるアーカイブ済みコンテンツのサイズを手動で監視するようにしてください。
+   * **[!UICONTROL Delete the source files after transfer]**: リモート サーバーのファイルを消去します。 このオプションを選択しない場合は、SFTP ディレクトリにあるアーカイブ済みコンテンツのサイズを手動で監視するようにしてください。
 
-   * **[!UICONTROL Sorting files]**: ファイルをアルファベット順に並べ替えることができます。 このオプションはデフォルトでは無効です。
+   * **[!UICONTROL Sorting files]**: ファイルを英数字で並べ替えることができます。 このオプションはデフォルトでは無効です。
 
      <!--**[!UICONTROL Disable passive mode]**: allows you to specify the connection port to be used for data transfer.-->
 
-   * **[!UICONTROL List all files]**：このオプションは、「**[!UICONTROL File listing]**」タブの「**[!UICONTROL General]**」アクションを選択した場合に使用できます。 サーバー上に存在するすべてのファイルのインデックスを **vars.filenames** イベント変数に作成できます。この変数では、ファイル名が **&#39;n&#39;** 文字で区切られています。
+   * **[!UICONTROL List all files]**：このオプションは、**[!UICONTROL General]** タブで&#x200B;**[!UICONTROL File listing]** アクションを選択する際に使用できます。 サーバー上に存在するすべてのファイルのインデックスを **vars.filenames** イベント変数に作成できます。この変数では、ファイル名が **&#39;n&#39;** 文字で区切られています。
 
 1. 「**[!UICONTROL Advanced options]**」タブの「**[!UICONTROL If no files are found]**」セクションでは、アクティビティの起動時にエラーや存在しないファイルが検出された場合の特定のアクションを設定できます。
 
-   また、再試行も定義できます。ワークフローの実行ログに各種の再試行が表示されます。
+   また、再試行も定義できます。 ワークフローの実行ログに各種の再試行が表示されます。
 
    ![](assets/wkf_file_transfer_09.png)
 
 1. アクティビティの設定を確認し、ワークフローを保存します。
 
-### HTTP を使用した設定 {#HTTP-configuration-wf}
+### HTTPを使用した設定 {#HTTP-configuration-wf}
 
 HTTP プロトコルを使用すると、外部アカウントまたは URL からファイルをダウンロードできます。
 
-このプロトコルを使用すると、**[!UICONTROL Use connection parameters defined in an external account]** のオプションを選択できます。 この場合は、目的のアカウントを選択し、ダウンロードするファイルのパスを指定します。
+このプロトコルでは、**[!UICONTROL Use connection parameters defined in an external account]** オプションを選択できます。 この場合は、ダウンロードするアカウントを選択し、ダウンロードするファイルのパスを指定します。
 
 ![](assets/wkf_file_transfer_03.png)
 
-また、「**[!UICONTROL Quick configuration]**」オプションを選択することもできます。必要なのは「URL」フィールドに URL を入力することだけです。
+また、「**[!UICONTROL Quick configuration]**」オプションを選択することもできます。 必要なのは「URL」フィールドに URL を入力することだけです。
 ![](assets/wkf_file_transfer_04.png)
 
-HTTP プロトコルを選択した場合に使用できるその他のオプションは、**[!UICONTROL Follow redirections]**、**[!UICONTROL Ignore the HTTP return code]**、**[!UICONTROL Add received HTTP headers to the file]** です。
+**[!UICONTROL Follow redirections]**、**[!UICONTROL Ignore the HTTP return code]**&#x200B;および&#x200B;**[!UICONTROL Add received HTTP headers to the file]**&#x200B;は、HTTP プロトコルを選択するときに使用できる追加オプションです。
 
-### SFTP を使用した設定 {#SFTP-configuration-wf}
+### SFTPを使用した設定 {#SFTP-configuration-wf}
 
 SFTP プロトコルを使用すると、URL または外部アカウントからファイルをダウンロードできます。
 
-このプロトコルを使用すると、オプション **[!UICONTROL Use connection parameters defined in an external account]** 選択してから、必要なアカウントを選択し、ダウンロードするファイルのパスを指定できます。
+このプロトコルでは、**[!UICONTROL Use connection parameters defined in an external account]** オプションを選択してから、ダウンロードするアカウントを選択し、ダウンロードするファイルのパスを指定できます。
 ![](assets/wkf_file_transfer_07.png)
 
 >[!CAUTION]
 >
 >ワイルドカードを使用できます。
 
-また、「**[!UICONTROL Quick configuration]**」オプションを選択することもできます。必要なのは「URL」フィールドに URL を入力することだけです。
+また、「**[!UICONTROL Quick configuration]**」オプションを選択することもできます。 必要なのは「URL」フィールドに URL を入力することだけです。
 
-### Amazon S3 を使用した設定 {#S3-configuration-wf}
+### Amazon S3での設定 {#S3-configuration-wf}
 
 Amazon S3 プロトコルを使用すると、Amazon Simple Storage Service（S3）を使用して URL または外部アカウントからファイルをダウンロードできます。
 
-1. Amazon S3 外部アカウントを選択します。詳しくは、この[ページ](../../administration/using/external-accounts.md#amazon-s3-external-account)を参照してください。
+1. Amazon S3 外部アカウントを選択します。 詳しくは、この[ページ](../../administration/using/external-accounts.md#amazon-s3-external-account)を参照してください。
 
 2. 「**[!UICONTROL Define a file path]**」または「**[!UICONTROL Use a dynamic file path]**」を選択します。
 
@@ -115,27 +120,27 @@ Amazon S3 プロトコルを使用すると、Amazon Simple Storage Service（S3
 
    >[!CAUTION]
    >
-   > ワイルドカードはAmazon S3 ではサポートされていません。
+   > Amazon S3では、ワイルドカードはサポートされていません。
    >
-   > `my_file_02` や `my _file_3433` など複数のファイルをターゲットにするには、次の構文を使用できます。`acs-myawsbucket.s3.amazonaws.com/object-path/my_file_`
+   > `my_file_02`や`my _file_3433`などの複数のファイルをターゲットにするには、次の構文を使用できます：`acs-myawsbucket.s3.amazonaws.com/object-path/my_file_`。
 
 4. 転送の完了時にソースファイルを削除する場合は、「**[!UICONTROL Delete the source files after transfer]**」をオンにします。
 
-### Microsoft Azure Blob Storage を使用した設定 {#azure-blob-configuration-wf}
+### Microsoft Azure Blob Storageを使用した設定 {#azure-blob-configuration-wf}
 
 Microsoft Azure Blob プロトコルを使用すると、Microsoft Azure Blob Storage アカウントにある BLOB にアクセスできます。
 
-1. **[!UICONTROL Microsoft Azure Blob]** 外部アカウントを選択します。詳しくは、この[ページ](../../administration/using/external-accounts.md#microsoft-azure-external-account)を参照してください。
+1. **[!UICONTROL Microsoft Azure Blob]** 外部アカウントを選択します。 詳しくは、この[ページ](../../administration/using/external-accounts.md#microsoft-azure-external-account)を参照してください。
 
 1. 「**[!UICONTROL Define a file path]**」または「**[!UICONTROL Use a dynamic file path]**」を選択します。
 
    ![](assets/wkf_file_transfer_10.png)
 
-1. ダウンロードするファイルのパスを指定します。複数の BLOB と一致する場合があります。この場合、「**[!UICONTROL File transfer]**」アクティビティは、BLOB が見つかるたびに送信トランジションをアクティブ化します。その後、アルファベット順に処理されます。
+1. ダウンロードするファイルのパスを指定します。複数の BLOB と一致する場合があります。 この場合、「**[!UICONTROL File transfer]**」アクティビティは、BLOB が見つかるたびに送信トランジションをアクティブ化します。 その後、アルファベット順に処理されます。
 
    >[!CAUTION]
    >
-   >ワイルドカードを使用して複数のファイル名と一致させることはできません。代わりに、接頭辞を入力する必要があります。その接頭辞に一致するすべての BLOB 名が対象です。
+   >ワイルドカードを使用して複数のファイル名と一致させることはできません。 代わりに、接頭辞を入力する必要があります。 その接頭辞に一致するすべての BLOB 名が対象です。
 
    以下のリストはファイルのパスの例です。
 
@@ -143,31 +148,31 @@ Microsoft Azure Blob プロトコルを使用すると、Microsoft Azure Blob St
    * **&quot;campaign/new-&quot;**：ファイル名が「new-」で始まり、Campaign フォルダーの下にあるすべての BLOB と一致します。
    * **&quot;&quot;**：空のパスを追加すると、コンテナで使用可能なすべての BLOB と一致します。
 
-### Adobe Campaign サーバーにファイルが存在する場合の設定 {#files-server-configuration-wf}
+### Adobe Campaign サーバーに存在するファイルを使用した設定 {#files-server-configuration-wf}
 
 「**[!UICONTROL File(s) present on the Adobe Campaign server]**」プロトコルは、回復するファイルを含むリポジトリに対応します。
-メタ文字、ワイルドカード（&#42; や？など） を使用して、ファイルをフィルターできます。
+メタ文字、またはワイルドカード（例：&#42;または？） を使用して、ファイルをフィルターできます。
 
-必要に応じて「**[!UICONTROL Define a file path]**」または「**[!UICONTROL Use a dynamic file path]**」を選択します。
-「**[!UICONTROL Use a dynamic file path]**」オプションを選択すると、標準の式やイベント変数を使用して、転送するファイルの名前をパーソナライズできます。詳しくは、[このページ](../../automating/using/customizing-workflow-external-parameters.md)を参照してください。
+**[!UICONTROL Define a file path]**&#x200B;または **[!UICONTROL Use a dynamic file path]**
+**[!UICONTROL Use a dynamic file path]** オプションでは、標準式とイベント変数を使用して、転送するファイル名をパーソナライズできます。 詳しくは、[このページ](../../automating/using/customizing-workflow-external-parameters.md)を参照してください。
 
-パスは、Adobe Campaign サーバーのストレージスペースディレクトリを基準とした相対パスである必要があります。ファイルは、**sftp&lt;インスタンス名>/** ディレクトリにあります。また、記憶域の上のディレクトリを参照することもできません。
+パスは、Adobe Campaign サーバーのストレージスペースディレクトリを基準とした相対パスである必要があります。 ファイルは、**sftp&lt;インスタンス名>/** ディレクトリにあります。 また、ストレージスペースの上にあるディレクトリを参照することはできません。
 
 例：
 
-`user&lt;yourinstancename>/my_recipients.csv` が正しいです。
+`user&lt;yourinstancename>/my_recipients.csv`が正しいです。
 
-`../hello/my_recipients.csv` が正しくありません。
+`../hello/my_recipients.csv`が正しくありません。
 
-`//myserver/hello/myrecipients.csv` が正しくありません。
+`//myserver/hello/myrecipients.csv`が正しくありません。
 
 ## 履歴化設定 {#historization-settings}
 
-「**[!UICONTROL Transfer file]**」アクティビティが実行されるたびに、アップロードされたファイルまたはダウンロードされたファイルが専用のフォルダーに保存されます。ワークフローの「**[!UICONTROL Transfer file]**」アクティビティごとに 1 つのフォルダーが作成されます。したがって、サーバー上の物理領域を保持するために、このフォルダーのサイズを制限できるようにする必要があります。
+「**[!UICONTROL Transfer file]**」アクティビティが実行されるたびに、アップロードされたファイルまたはダウンロードされたファイルが専用のフォルダーに保存されます。 ワークフローの「**[!UICONTROL Transfer file]**」アクティビティごとに 1 つのフォルダーが作成されます。 したがって、サーバー上の物理領域を保持するために、このフォルダーのサイズを制限できるようにする必要があります。
 
 そのためには、「**[!UICONTROL Transfer File]**」アクティビティの **[!UICONTROL Advanced options]** で「**[!UICONTROL Historization settings]**」を定義します。
 
-「**[!UICONTROL Historization settings]**」では、アクティビティのフォルダーのファイルの最大数または合計サイズを定義できます。デフォルトで許可されている値はそれぞれ 100 個と 50 MB です。
+「**[!UICONTROL Historization settings]**」では、アクティビティのフォルダーのファイルの最大数または合計サイズを定義できます。 デフォルトで許可されている値はそれぞれ 100 個と 50 MB です。
 
 このアクティビティを実行するたびに、次のようにフォルダーがチェックされます。
 
@@ -177,15 +182,15 @@ Microsoft Azure Blob プロトコルを使用すると、Microsoft Azure Blob St
 
 >[!NOTE]
 >
->アクティビティを再実行しない限り、フォルダーはチェックされず、消去もされません。そのため、大きなファイルを転送する場合は注意してください。
+>アクティビティを再実行しない限り、フォルダーはチェックされず、消去もされません。 そのため、大きなファイルを転送する場合は注意してください。
 
 ## 出力変数 {#output-variables}
 
-**[!UICONTROL Transfer file]** アクティビティは、出力としてイベント変数を生成します。このイベント変数を他のアクティビティで利用することができます（例えば、ダウンロードされたファイルの数を [&#x200B; テスト &#x200B;](../../automating/using/test.md) アクティビティで確認する場合）。
+**[!UICONTROL Transfer file]** アクティビティは、他のアクティビティで活用できるイベント変数を出力として生成します。例えば、[ テスト ](../../automating/using/test.md) アクティビティを使用してダウンロードされたファイルの数を確認できます。
 
-イベント変数は、外部シグナルを使用して別のワークフローに渡すこともできます（[&#x200B; 外部パラメーターを使用したワークフローのカスタマイズ &#x200B;](../../automating/using/customizing-workflow-external-parameters.md) を参照）。
+イベント変数は、外部信号を使用して別のワークフローに渡すこともできます（[外部パラメーターを使用したワークフローのカスタマイズ ](../../automating/using/customizing-workflow-external-parameters.md)を参照）。
 
 使用可能な出力変数は次のとおりです。
 
 * **[!UICONTROL fileName]**：転送されたファイルの名前。
-* **[!UICONTROL filesCount]**：転送されたファイルの数。
+* **[!UICONTROL filesCount]**：転送されたファイル数。

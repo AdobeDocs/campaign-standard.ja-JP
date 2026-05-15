@@ -4,21 +4,26 @@ audience: delivery
 content-type: reference
 topic-tags: deliveries-best-practices
 index: true
-description: Adobe Campaignを使用した配信の設計と送信に関するベストプラクティスについて説明します。
+description: Adobe Campaign を使用した配信のデザインと送信に関するベストプラクティスについて説明します。
 feature: Deliverability
 role: User
 level: Intermediate
 exl-id: ba080b64-9106-4d5b-958b-3c5e738cb42a
-source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
+TQID: https://experienceleague.adobe.com/1perzquQPQYA2W5X18-2I5OUJVIps6g0xRmTpdQqcsg
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 38%
+source-wordcount: 95
+ht-degree: 51%
 
 ---
 
 # 配信のベストプラクティス {#delivery-best-practices}
 
-Adobe Campaign を使用した配信のデザインと送信に関するベストプラクティスについて説明します。トピック間を移動してガイダンスを確認するには、次のリンクを使用してください。
+Adobe Campaign を使用した配信のデザインと送信に関するベストプラクティスについて説明します。 トピック間を移動してガイダンスを確認するには、次のリンクを使用してください。
 
 <img src="assets/do-not-localize/optimize.svg"  width="60px">
 

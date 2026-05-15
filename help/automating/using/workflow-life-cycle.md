@@ -1,6 +1,6 @@
 ---
 title: ワークフローのライフサイクル
-description: ワークフローのライフサイクルの詳細情報
+description: ワークフローのライフサイクルについて詳しく見る
 audience: automating
 content-type: reference
 topic-tags: workflow-general-operation
@@ -10,39 +10,43 @@ old-role: Data Architect
 role: Developer
 level: Beginner
 exl-id: ba968add-25a3-4962-9e90-f0a06d9b74a8
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/nWv8hOZa2JQgiO2CEnffriIqb6czIA7Gh0AwWCTwRAA
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: 200
 ht-degree: 3%
 
 ---
 
 # ワークフローのライフサイクル {#life-cycle}
 
-ワークフローのライフサイクルには 3 つの主なステップが含まれ、各ステップはステータスとカラーにリンクされています。
+ワークフローのライフサイクルには3つの主要なステップがあり、各ステップはステータスと色にリンクされています。
 
-* **編集中** （灰色）
+* **編集** （グレー）
 
-  これは、ワークフローの初期デザインフェーズです（[&#x200B; ワークフローの作成 &#x200B;](../../automating/using/building-a-workflow.md#creating-a-workflow) を参照）。 ワークフローはまだサーバーで処理されず、リスクを伴わずに変更できます。
+  これは、ワークフローの最初の設計フェーズです（[ ワークフローの作成](../../automating/using/building-a-workflow.md#creating-a-workflow)を参照）。 ワークフローはまだサーバーによって処理されておらず、リスクなしに変更できます。
 
-* **処理中** （青）
+* **進行中** （青）
 
-  初期デザインフェーズが完了したら、ワークフローを開始し、サーバーで処理することができます。
+  最初の設計フェーズが完了すると、ワークフローを開始し、サーバーが処理します。
 
 * **完了** （緑）
 
-  ワークフローは、進行中のタスクがなくなるか、オペレーターがインスタンスを明示的に停止すると終了します。
+  処理中のタスクがなくなった場合、またはオペレーターがインスタンスを明示的に停止した場合、ワークフローは終了します。
 
-開始されると、ワークフローには他に 2 つのステータスが含まれる場合もあります。
+ワークフローを開始すると、他にも2つのステータスが表示される場合があります。
 
 * **警告** （黄色）
 
-  ワークフローを完了できなかったか、「![](assets/pause_darkgrey-24px.png)」または「![](assets/check_pause_darkgrey-24px.png)」ボタンを使用して一時停止しました。
+  ワークフローを完了できなかったか、![](assets/pause_darkgrey-24px.png)または![](assets/check_pause_darkgrey-24px.png) ボタンを使用して一時停止しました。
 
 * **エラー** （赤）
 
-  ワークフローの実行時にエラーが発生しました。 ワークフローが停止されました。ユーザーはアクションを実行する必要があります。 このエラーの詳細については、「![](assets/printpreview_darkgrey-24px.png)」ボタンを使用してワークフローログにアクセスしてください（[&#x200B; モニタリング &#x200B;](../../automating/using/monitoring-workflow-execution.md) を参照）。
+  ワークフローの実行時にエラーが発生しました。 ワークフローが停止されました。ユーザーはアクションを実行する必要があります。 このエラーの詳細については、![](assets/printpreview_darkgrey-24px.png) ボタンを使用してワークフローログにアクセスしてください（[監視](../../automating/using/monitoring-workflow-execution.md)を参照）。
 
-マーケティングアクティビティのリストを使用すると、すべてのワークフローとそのステータスを表示できます。 詳しくは、[&#x200B; マーケティングアクティビティの管理 &#x200B;](../../start/using/marketing-activities.md#about-marketing-activities) を参照してください。
+マーケティング活動のリストを使用すると、すべてのワークフローとそのステータスを表示できます。 詳しくは、「[ マーケティング活動の管理](../../start/using/marketing-activities.md#about-marketing-activities)」を参照してください。
 
 ![](assets/wkf_execution_3.png)

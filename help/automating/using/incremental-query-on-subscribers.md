@@ -1,6 +1,6 @@
 ---
 title: サービス購読者に対する増分処理クエリ
-description: 次の例では、増分処理クエリ アクティビティを設定して、サービスの購読者をフィルタリングする方法を示しています。
+description: 次の例では、サービスのサブスクライバーをフィルタリングするように増分クエリアクティビティを設定する方法を示します。
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -10,10 +10,15 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: c80ed1f6-ad8a-4448-a6df-b9881327228a
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/MHB1ETCecN9gQq51bSii-keTyFaYof0JtAyckFSCKQE
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 79%
+source-wordcount: 212
+ht-degree: 81%
 
 ---
 
@@ -33,10 +38,10 @@ ht-degree: 79%
 
   ![](assets/incremental_query_example3.png)
 
-* [&#x200B; メール配信 &#x200B;](../../automating/using/email-delivery.md) アクティビティ。 ワークフローは週に 1 回実行されますが、送信されたメールとその結果を 1 ヶ月ごとに集計できます。例えば、1 週間単位ではなく、1 ヶ月全体でのレポートを生成できます。
+* [メール配信](../../automating/using/email-delivery.md)アクティビティ ワークフローは週に 1 回実行されますが、送信されたメールとその結果を 1 ヶ月ごとに集計できます。例えば、1 週間単位ではなく、1 ヶ月全体でのレポートを生成できます。
 
   それには、ここで&#x200B;**[!UICONTROL Recurring email]**&#x200B;を作成し、「**[!UICONTROL By month]**」で指定した月数を単位としてメールとその結果を再グループ化します。
 
-  メールのコンテンツを定義し、ウェルカムプロモーションコードを挿入します。 詳しくは、[&#x200B; メールコンテンツの定義 &#x200B;](../../designing/using/personalization.md) の節を参照してください。
+  メールの内容を定義し、ウェルカムプロモーションコードを挿入します。 詳しくは、[電子メールコンテンツの定義](../../designing/using/personalization.md)の節を参照してください。
 
-そのあと、ワークフローの実行を開始します。毎週、新規購読者には、プロモーションコードが記載されたウェルカムメールが送信されます。
+そのあと、ワークフローの実行を開始します。 毎週、新規購読者には、プロモーションコードが記載されたウェルカムメールが送信されます。

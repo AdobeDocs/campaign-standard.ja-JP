@@ -9,9 +9,14 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: fa39eb54-9ec0-4aff-94a8-5459f4c496d0
-source-git-commit: bee4da592e0b3727949bc44c6e41b81d4e7e73d4
+TQID: https://experienceleague.adobe.com/yMObKVSUHuRFlzf7DgbbH3iwsNXTknAasYIfF37fy4E
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: 773
 ht-degree: 90%
 
 ---
@@ -30,18 +35,18 @@ ht-degree: 90%
 
 >[!NOTE]
 >
->イベントで使用されているカスタムリソースのフィールドが変更または削除された場合、対応するイベントは自動的に非公開になります。[&#x200B; トランザクションイベントの非公開 &#x200B;](../../channels/using/publishing-transactional-event.md#unpublishing-an-event) を参照してください。
+>イベントで使用されているカスタムリソースのフィールドが変更または削除された場合、対応するイベントは自動的に非公開になります。 「[ トランザクションイベントの非公開](../../channels/using/publishing-transactional-event.md#unpublishing-an-event)」を参照してください。
 
 1. 詳細設定メニューの Adobe Campaign ロゴから、**[!UICONTROL Administration]**／**[!UICONTROL Development]**／**[!UICONTROL Publishing]** を選択します。
 1. デフォルトでは、「**[!UICONTROL Determine modifications since the last publication]**」オプションはオンになっており、最後の更新以降に実行された変更のみが適用されます。
 
    >[!NOTE]
    >
-   >「**[!UICONTROL Repair database structure]**」をオンにすると、公開処理が完了する前に失敗した場合は正しい設定が再確立されます。カスタムリソースを使用せずにデータベース内で直接おこなわれた変更はすべて削除されます。
+   >「**[!UICONTROL Repair database structure]**」をオンにすると、公開処理が完了する前に失敗した場合は正しい設定が再確立されます。 カスタムリソースを使用せずにデータベース内で直接おこなわれた変更はすべて削除されます。
 
    ![](assets/schema_extension_12.png)
 
-1. 「**[!UICONTROL Prepare publication]**」ボタンをクリックして、分析を開始します。容量の大きいテーブルの更新は、インスタンスがワークフローの集中的な処理でビジー状態になっているときを避けて実行してください。
+1. 「**[!UICONTROL Prepare publication]**」ボタンをクリックして、分析を開始します。 容量の大きいテーブルの更新は、インスタンスがワークフローの集中的な処理でビジー状態になっているときを避けて実行してください。
 
    プロファイルおよびサービス API で実行するアクションについて詳しくは、[API 拡張を使用したリソースの公開](#publishing-a-resource-with-api-extension)を参照してください。
 
@@ -49,7 +54,7 @@ ht-degree: 90%
 
    >[!NOTE]
    >
-   >重複したインデックスが原因で公開が失敗するため、準備手順では、リソースに対して定義されたインデックスが別のリソースに対して同じ名前で既に存在するかどうかを確認します。 この場合は、インデックスの名前を変更するように求めるエラーメッセージが表示されます。 [&#x200B; インデックスの定義 &#x200B;](configuring-the-resource-s-data-structure.md#defining-indexes) を参照してください。
+   >重複したインデックスが公開に失敗する原因となるため、準備ステップでは、リソースに対して定義されたインデックスが、他のリソースに対して同じ名前で既に存在するかどうかを確認します。 この場合、インデックスの名前を変更するよう求めるエラーメッセージが表示されます。 [ インデックスの定義](configuring-the-resource-s-data-structure.md#defining-indexes)を参照してください。
 
 1. 公開が実行されたら、「**[!UICONTROL Publish]**」ボタンをクリックして新しい設定を適用します。
 1. 公開された各リソースの&#x200B;**[!UICONTROL Summary]**&#x200B;ウィンドウには、現在の状態が「**[!UICONTROL Published]**」と表示され、最新の公開日が示されます。
@@ -58,21 +63,21 @@ ht-degree: 90%
    >
    >リソースに新しい変更を加えた場合、変更を適用するには、この操作を繰り返す必要があります。
 
-   公開前にリソースのステータスが「**[!UICONTROL Pending re-draft]**」である場合は、追加のメッセージが表示されます。公開すると確定的な変更（列やテーブルの削除など）がおこなわれるので、アクションを確認するよう促されます。この部分の変更には、「**[!UICONTROL SQL Script]**」タブを使用すると便利です。公開時に実行される SQL コマンドが用意されています。
+   公開前にリソースのステータスが「**[!UICONTROL Pending re-draft]**」である場合は、追加のメッセージが表示されます。公開すると確定的な変更（列やテーブルの削除など）がおこなわれるので、アクションを確認するよう促されます。 この部分の変更には、「**[!UICONTROL SQL Script]**」タブを使用すると便利です。 公開時に実行される SQL コマンドが用意されています。
 
    ![](assets/schema_extension_scriptsql.png)
 
    >[!NOTE]
    >
-   >再ドラフト処理は、「**[!UICONTROL Cancel re-draft]**」ボタンをクリックして停止できます。このアクションにより、リソースのステータスが元の状態に戻ります。
+   >再ドラフト処理は、「**[!UICONTROL Cancel re-draft]**」ボタンをクリックして停止できます。 このアクションにより、リソースのステータスが元の状態に戻ります。
 
 1. 公開が失敗した場合は、いつでも「**[!UICONTROL Back to latest successful publication]**」をクリックして前の公開に戻ることができます。
 
-   公開の状態を失敗のままにしておくと、インスタンスにログインするとすぐにポップアップウィンドウが開き、この公開を修正するように促されます。公開が修正されるまで、インスタンスは新しい製品バージョンにアップグレードされません。
+   公開の状態を失敗のままにしておくと、インスタンスにログインするとすぐにポップアップウィンドウが開き、この公開を修正するように促されます。 公開が修正されるまで、インスタンスは新しい製品バージョンにアップグレードされません。
 
    ![](assets/schema_extension_31.png)
 
-## API 拡張機能を使用したリソースの公開 {#publishing-a-resource-with-api-extension}
+## API拡張機能を使用したリソースの公開 {#publishing-a-resource-with-api-extension}
 
 次の場合には、プロファイルおよびサービス API を作成できます。
 
@@ -87,13 +92,13 @@ ht-degree: 90%
 
 * API が既に公開されている場合（つまり、既にリソースを拡張してこのオプションを 1 回選択したことがある場合）は、API の更新が強制されます。
 
-  実際、API はいったん作成されると、再公開されるたびに自動的に更新されます。これは、この API のプロファイルリソースやサービスリソースが機能しなくなってインスタンスに障害が発生するのを避けるためです。
+  実際、API はいったん作成されると、再公開されるたびに自動的に更新されます。 これは、この API のプロファイルリソースやサービスリソースが機能しなくなってインスタンスに障害が発生するのを避けるためです。
 
 デフォルトでは、カスタムリソースは統合されますが、特定の動作についてこのリソースを公開したくない場合は、「**[!UICONTROL Hide this resource from APIs]**」オプションを&#x200B;**[!UICONTROL Resource Properties]**&#x200B;で選択できます。
 
 ![](assets/removefromextoption.png)
 
-「**[!UICONTROL Prepare Publication]**」ステップの後、Adobe Campaign の「**[!UICONTROL Profiles & Services API Preview]**」タブに、API の現在のバージョンと公開後の将来のバージョンの差分が表示されます。API を初めて拡張した場合は、標準搭載のカスタムリソース定義と拡張が比較されます。
+「**[!UICONTROL Prepare Publication]**」ステップの後、Adobe Campaign の「**[!UICONTROL Profiles & Services API Preview]**」タブに、API の現在のバージョンと公開後の将来のバージョンの差分が表示されます。 API を初めて拡張した場合は、標準搭載のカスタムリソース定義と拡張が比較されます。
 
 差分の情報は、追加された要素、削除された要素、変更された要素の 3 つのセクションに分かれてタブに表示されます。
 
@@ -103,6 +108,6 @@ ht-degree: 90%
 
 >[!NOTE]
 >
->この公開で **[!UICONTROL profilesAndServicesExt]** API が更新されます。**[!UICONTROL profilesAndServices]** API は更新されません。
+>この公開で **[!UICONTROL profilesAndServicesExt]** API が更新されます。 **[!UICONTROL profilesAndServices]** API は更新されません。
 
-Adobe Campaign Standard API について詳しくは、[&#x200B; この節 &#x200B;](../../api/using/get-started-apis.md) を参照してください。
+Adobe Campaign Standard APIについて詳しくは、[この節](../../api/using/get-started-apis.md)を参照してください。

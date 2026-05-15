@@ -8,9 +8,13 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 625d5e10-3d68-440e-a60c-4fcdfca34b5f
-source-git-commit: ee7539914aba9df9e7d46144e437c477a7e52168
+TQID: https://experienceleague.adobe.com/HRFz5Z-KxO7lUO-gXexQ3CHvb9JtCfJWSJY0ocZW-r8
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: 1039
 ht-degree: 92%
 
 ---
@@ -21,14 +25,14 @@ ht-degree: 92%
 
 この使用例では、該当するフィールドを使用してプロファイルおよびテストプロファイルを拡張する方法について詳しく説明します。
 
-ここでは、ランディングページを使用して新しいフィールドでプロファイルを更新し、プロファイルの興味に応じた固有のニュースレターでプロファイルのターゲティングをおこないます。
+ここでは、ランディングページを使用して新しいフィールドでプロファイルを更新し、プロファイルの興味に応じた固有のニュースレターでプロファイルをターゲットにします。
 
 これをおこなうには、以下の手順に従います。
 
-* [手順 1：プロファイルリソースを拡張する](#step-1--extend-the-profile-resource)
-* [手順 2：テストプロファイルを拡張する](#step-2--extend-the-test-profile)
-* [手順 3：カスタムリソースのPublish](#step-3--publish-your-custom-resource)
-* [手順 4：ワークフローでのプロファイルの更新とターゲット設定](#step-4--update-and-target-profiles-with-a-workflow)
+* [手順1：プロファイルリソースの拡張](#step-1--extend-the-profile-resource)
+* [手順2：テストプロファイルの拡張](#step-2--extend-the-test-profile)
+* [手順3：カスタムリソースの公開](#step-3--publish-your-custom-resource)
+* [手順4：ワークフローを使用したプロファイルの更新とターゲティング](#step-4--update-and-target-profiles-with-a-workflow)
 
 次のフィールドがプロファイルに追加され、配信でプロファイルのターゲティングを実行できます。
 
@@ -40,7 +44,7 @@ ht-degree: 92%
 * [プロファイルの管理](../../audiences/using/about-profiles.md)
 * [テストプロファイルの管理](../../audiences/using/managing-test-profiles.md)
 
-## 手順 1：プロファイルリソースを拡張する {#step-1--extend-the-profile-resource}
+## 手順1：プロファイルリソースの拡張 {#step-1--extend-the-profile-resource}
 
 プロファイルの新しい「**Interest**」フィールドを作成するには、まず標準の **[!UICONTROL Profiles (profile)]** リソースを拡張する必要があります。
 
@@ -60,7 +64,7 @@ ht-degree: 92%
 
    ![](assets/schema_extension_uc6.png)
 
-1. **[!UICONTROL Label]** と **[!UICONTROL ID]** を追加します。**[!UICONTROL Text]** タイプを選択し、「**[!UICONTROL Add]**」をクリックします。
+1. **[!UICONTROL Label]** と **[!UICONTROL ID]** を追加します。 **[!UICONTROL Text]** タイプを選択し、「**[!UICONTROL Add]**」をクリックします。
 
    ![](assets/schema_extension_uc9.png)
 
@@ -71,7 +75,7 @@ ht-degree: 92%
 
 1. 「**[!UICONTROL Add an element]**」をクリックし、**[!UICONTROL Label]** と **[!UICONTROL ID]** を追加して「**[!UICONTROL Add]**」をクリックし、必要な数だけ値を追加します。
 
-   この例では、書籍、展覧会、映画、プロファイルの N/A 値を作成して、これらのオプションから選択します。
+   この例では、プロファイルのブック、展示会、ムービー、N/A値を作成して、これらのオプションを選択します。
 
    ![](assets/schema_extension_uc11.png)
 
@@ -80,23 +84,23 @@ ht-degree: 92%
 
    ![](assets/schema_extension_uc12.png)
 
-1. **[!UICONTROL Type]**.を選択します。ここで、入力フィールドを追加します。次に、以前に作成したフィールドを選択し、「**[!UICONTROL Add]**」をクリックします。
+1. **[!UICONTROL Type]**.を選択します。 ここで、入力フィールドを追加します。 次に、以前に作成したフィールドを選択し、「**[!UICONTROL Add]**」をクリックします。
 
    ![](assets/schema_extension_uc2.png)
 
-1. プロファイルウィンドウを整理しやすくするためのセパレーターを追加するには、「**[!UICONTROL Create an element]**」をクリックし、**[!UICONTROL Type]** ドロップダウンから「**[!UICONTROL Separator]**」を選択します。
+1. プロファイルウィンドウを整理しやすくするための区切り記号を追加するには、「**[!UICONTROL Create an element]**」をクリックし、**[!UICONTROL Type]** ドロップダウンから「**[!UICONTROL Separator]**」を選択します。
 
    ![](assets/schema_extension_uc19.png)
 
-これで、フィールドが設定されました。次に、フィールドをテストプロファイルに拡張する必要があります。
+これで、フィールドが設定されました。 次に、フィールドをテストプロファイルに拡張する必要があります。
 
 >[!NOTE]
 >
 >テストプロファイルリソースを拡張する必要がない場合は、公開の手順に進むことができます。
 
-## 手順 2：テストプロファイルを拡張する {#step-2--extend-the-test-profile}
+## 手順2：テストプロファイルの拡張 {#step-2--extend-the-test-profile}
 
-新しく作成されたフィールドが正しく設定されているかどうかをテストするには、配信をテストプロファイルに送信します。まず、新しく作成されたフィールドをテストプロファイルに対しても実行する必要があります。
+新しく作成されたフィールドが正しく設定されているかどうかをテストするには、配信をテストプロファイルに送信します。 まず、新しく作成されたフィールドをテストプロファイルに対しても実行する必要があります。
 
 1. 詳細設定メニューの Adobe Campaign ロゴから、**[!UICONTROL Administration]**／**[!UICONTROL Development]**／**[!UICONTROL Custom resources]** を選択します。
 1. まだ **[!UICONTROL Profiles]** リソースを拡張していない場合は、「**[!UICONTROL Create]**」をクリックします。
@@ -117,9 +121,9 @@ ht-degree: 92%
 1. 上記の拡張プロファイルのチュートリアルと同じ手順 11～13 を実行し、**[!UICONTROL Test profile]** 画面でこのフィールドを追加します。
 1. 「**[!UICONTROL Save]**」をクリックします。
 
-これで、プロファイルとテストプロファイルの両方で、新しいフィールドが使用可能になります。正しく設定するには、カスタムリソースを公開する必要があります。
+これで、プロファイルとテストプロファイルの両方で、新しいフィールドが使用可能になります。 正しく設定するには、カスタムリソースを公開する必要があります。
 
-## 手順 3：カスタムリソースのPublish {#step-3--publish-your-custom-resource}
+## 手順3：カスタムリソースの公開 {#step-3--publish-your-custom-resource}
 
 リソースでおこなわれた変更を適用して使用できるようにするには、データベースの更新を実行する必要があります。
 
@@ -143,38 +147,38 @@ ht-degree: 92%
 
 これで、新しいリソースフィールドを使用して、配信でターゲットを設定できる状態になりました。
 
-## 手順 4：ワークフローでのプロファイルの更新とターゲット設定 {#step-4--update-and-target-profiles-with-a-workflow}
+## 手順4：ワークフローを使用したプロファイルの更新とターゲティング {#step-4--update-and-target-profiles-with-a-workflow}
 
-プロファイルを新しいカスタムフィールドのデータで更新するには、**[!UICONTROL Profile acquisition]** テンプレートを使用してランディングページを作成します。ランディングページについて詳しくは、この[ページ](../../channels/using/getting-started-with-landing-pages.md)を参照してください。
+プロファイルを新しいカスタムフィールドのデータで更新するには、**[!UICONTROL Profile acquisition]** テンプレートを使用してランディングページを作成します。 ランディングページについて詳しくは、この[ページ](../../channels/using/getting-started-with-landing-pages.md)を参照してください。
 
-ここでは、このフィールドに入力しなかったワークフロープロファイルにターゲットを設定します。各プロファイルには、パーソナライズされたニュースレターやオファーを受信するためにプロファイルの更新を求めるメールが届きます。その後、選択した興味に応じてパーソナライズされたニュースレターを受け取るようになります。
+ここでは、このフィールドに入力しなかったワークフロープロファイルにターゲットを設定します。 各プロファイルには、パーソナライズされたニュースレターやオファーを受信するためにプロファイルの更新を求めるメールが届きます。 その後、選択した興味に応じてパーソナライズされたニュースレターを受け取るようになります。
 
 まず、ターゲットプロファイルの「**Interest**」フィールドを更新するランディングページを作成する必要があります。
 
 1. **[!UICONTROL Marketing activities]** から「**[!UICONTROL Create]**」をクリックし、**[!UICONTROL Landing page]** を選択します。
-1. ランディングページのタイプを選択します。ここでは、プロファイルを更新するので、**[!UICONTROL Profile acquisition]** を選択します。
+1. ランディングページのタイプを選択します。 ここでは、プロファイルを更新するので、**[!UICONTROL Profile acquisition]** を選択します。
 1. 「**[!UICONTROL Create]**」をクリックします。
 1. **[!UICONTROL Content]** ブロックをクリックして、ランディングページのコンテンツの編集を開始します。
 
    ![](assets/schema_extension_uc21.png)
 
 1. 必要に応じてランディングページをカスタマイズします。
-1. プロファイルが興味を選択するために設定するフィールドをクリックします。左側のペインで、以前に作成した **Interest** カスタムリソースを選択します。
+1. プロファイルが興味を選択するために設定するフィールドをクリックします。 左側のペインで、以前に作成した **Interest** カスタムリソースを選択します。
 
    ![](assets/schema_extension_uc22.png)
 
 1. ランディングページを保存してテストし、フィールドが正しく設定されていることを確認します。
 1. ランディングページの準備が整ったら、「**[!UICONTROL Publish]**」をクリックします。
 
-これで、ランディングページの準備が整いました。プロファイルを更新するには、選択された興味に応じて特別なオファーを送信するワークフローを作成します。
+これで、ランディングページの準備が整いました。 プロファイルを更新するには、選択された興味に応じて特別なオファーを送信するワークフローを作成します。
 
 1. 「**[!UICONTROL Marketing activities]**」タブで「**[!UICONTROL Create]**」をクリックし、「**[!UICONTROL Workflow]**」を選択します。
 1. 「**[!UICONTROL Query]**」アクティビティをドラッグ＆ドロップして、必要なプロファイルやオーディエンスをターゲットします。
-1. 「**[!UICONTROL Email delivery]**」アクティビティをドラッグ＆ドロップして、ランディングページへのリンクを含むメールの設定を開始します。「**[!UICONTROL Add an outbound transition with the population]**」を選択します。
+1. 「**[!UICONTROL Email delivery]**」アクティビティをドラッグ＆ドロップして、ランディングページへのリンクを含むメールの設定を開始します。 「**[!UICONTROL Add an outbound transition with the population]**」を選択します。
 
    ![](assets/schema_extension_uc3.png)
 
-1. 必要に応じてメールを作成し、デザインします。メールのパーソナライゼーションについて詳しくは、この[ページ](../../designing/using/quick-start.md)を参照してください。
+1. 必要に応じてメールを作成し、デザインします。 メールのパーソナライゼーションについて詳しくは、この[ページ](../../designing/using/quick-start.md)を参照してください。
 1. プロファイルをランディングページにリダイレクトするためのボタンをメールに追加します。
 1. 追加されたボタンを選択し、左側のペインの「**[!UICONTROL Link]**」セクションで ![](assets/schema_extension_uc7.png) をクリックします。
 
@@ -184,7 +188,7 @@ ht-degree: 92%
 
    ![](assets/schema_extension_uc24.png)
 
-1. 「**[!UICONTROL Save]**」をクリックします。メールの準備が整ったので、ワークフローに戻ります。
+1. 「**[!UICONTROL Save]**」をクリックします。 メールの準備が整ったので、ワークフローに戻ります。
 1. プロファイルがランディングページで必要事項を入力する時間を確保するために、「**[!UICONTROL Wait]**」アクティビティを追加します。
 1. アウトバウンドトランジションを&#x200B;**興味**&#x200B;に応じて分割するために、「**[!UICONTROL Segmentation]**」アクティビティを追加します。
 1. 各&#x200B;**興味**&#x200B;に対してアウトバウンドセグメントを作成します。

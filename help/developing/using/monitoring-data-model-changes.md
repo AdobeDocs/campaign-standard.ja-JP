@@ -1,6 +1,6 @@
 ---
 title: データモデルの変更の監視
-description: Adobe Campaign データモデルの診断方法を説明します。
+description: Adobe Campaign データモデルの診断方法について説明します。
 audience: developing
 content-type: reference
 topic-tags: about-custom-resources
@@ -8,16 +8,19 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: ced9a897-47e9-4128-84fb-35660c553cd4
-source-git-commit: 5fef74296a4790102c75e609c270e52d5ead1d58
+TQID: https://experienceleague.adobe.com/XWMP0LlTRgqEJujGETPzVXOCUvkm-Q9OXC-RvaWd-58
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: 202
 ht-degree: 8%
 
 ---
 
 # データモデルの変更の監視{#monitoring-data-model-changes}
 
-**[!UICONTROL Diagnosis]** メニューから、アプリケーションで生成された技術的なオブジェクトを表示して分析できます。
+**[!UICONTROL Diagnosis]** メニューから、アプリケーションによって生成されたテクニカル オブジェクトを分析するために表示できます。
 
 >[!NOTE]
 >
@@ -25,7 +28,7 @@ ht-degree: 8%
 
 ![](assets/diagnostic.png)
 
-次のタイプのオブジェクトを表示できます。
+次の種類のオブジェクトを表示できます。
 
 * データスキーマ
 * Web ページ
@@ -34,24 +37,24 @@ ht-degree: 8%
 * コンポーネント
 * バッチジョブ
 
-リスト設定は次のように変更できます。
+リスト設定を変更できます。
 
-* 列の追加と削除を行うことができます。
-* 列名を定義できます。
+* 列を追加したり削除したりできます。
+* 列名を定義することもできます。
 * リスト内の列の表示順序を定義できます。
-* リスト内の値の並べ替え順を選択できます。
+* リスト内の値の並べ替え順序を選択できます。
 
 リストをフィルタリングできます。
 
-* ネイティブデータスキーマ、web ページ、フィルターおよびナビゲーションオブジェクトを含めたり、除外したりできます。
-* オブジェクトを名前で検索できます。
-* バッチジョブは、ステータス、開始日、終了日でフィルタリングできます。
+* ネイティブデータスキーマ、web ページ、フィルター、ナビゲーションオブジェクトを含めることも除外することもできます。
+* 名前でオブジェクトを検索できます。
+* ステータス、開始日、終了日でバッチジョブをフィルタリングできます。
 
-表示されたリストを、コンマ区切り値を使用して TXT 形式でダウンロードできます。
+コンマ区切りの値を含むTXT形式のファイルに表示されたリストをダウンロードできます。
 
 選択したオブジェクトの詳細を表示できます。
 
-例えば、この機能を使用して、標準のフィルターのフィルター条件を表示できます。 次の例は、標準のフィルターのフィルター条件に対して表示されるコードを示しています。
+例えば、この機能を使用して、標準のフィルターのフィルター条件を表示できます。 次の例は、標準フィルターのフィルター条件に表示されるコードを示しています。
 
 ```xml
 <where displayFilter="Has clicked an offer">

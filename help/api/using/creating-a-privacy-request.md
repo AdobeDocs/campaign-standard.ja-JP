@@ -1,6 +1,6 @@
 ---
 title: プライバシーリクエストの作成
-description: API を使用してプライバシーリクエストを作成する方法を説明します
+description: APIを使用してプライバシーリクエストを作成する方法を説明します
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -9,9 +9,14 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: 06ad2e13-922b-4f35-8726-007427125c63
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/KInaFaQrwA5FKro44yFABqmDDvefY5mhJIl2OtBCrFc
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: 179
 ht-degree: 4%
 
 ---
@@ -20,26 +25,26 @@ ht-degree: 4%
 
 >[!CAUTION]
 >
->[Privacy Core Service](https://developer.adobe.com/experience-platform-apis/references/privacy-service) 統合は、すべてのアクセスリクエストと削除リクエストに使用する必要がある方法です。<!--Starting 19.4, the use of the Campaign API and interface for access and delete requests is deprecated. For more on Campaign Standard deprecated and removed features, refer to [this page](../../rn/using/deprecated-features.md).-->
+>[Privacy Core Service](https://developer.adobe.com/experience-platform-apis/references/privacy-service)統合は、すべてのアクセスおよび削除要求に使用する必要がある方法です。<!--Starting 19.4, the use of the Campaign API and interface for access and delete requests is deprecated. For more on Campaign Standard deprecated and removed features, refer to [this page](../../rn/using/deprecated-features.md).-->
 
 プライバシーリクエストは、**POST** リクエストを使用して作成されます。
 
-リクエストを作成する前に、名前空間を定義する必要があります。 詳しくは、[&#x200B; プライバシー管理ドキュメント &#x200B;](../../start/using/privacy-requests.md) を参照してください。
+リクエストを作成する前に、使用する名前空間を定義する必要があります。 詳しくは、[ プライバシー管理ドキュメント ](../../start/using/privacy-requests.md)を参照してください。
 
 ペイロードには、次のパラメーターを含める必要があります。
 
 * **name**：一意の内部名
-* **namespace**:Campaign Standard インターフェイスで設定された名前空間名
+* **namespace**: Campaign Standard インターフェイスで設定された名前空間名
 * **reconciliationValue**：名前空間で定義された紐付けキーに基づく紐付け値
-* **label**：リクエストラベル
-* **type**：リクエストのタイプ。 指定できる値は、「access」または「delete」です。
-* **regulation**：規制タイプ。 例：「GDPR」、「CCPA」。 このパラメーターは必須で、Campaign Standard 19.4 リリース以降で使用できます。 古いビルドを使用している場合は、ペイロードに追加する必要はありません。
+* **label**: リクエストラベル
+* **type**: リクエストタイプ。 指定できる値は「access」または「delete」です。
+* **規制**：規制タイプ。 例：「GDPR」、「CCPA」 このパラメーターは必須であり、Campaign Standard 19.4 リリース以降で使用できます。 古いビルドを使用している場合は、ペイロードに追加する必要はありません。
 
 <br/>
 
-***リクエストのサンプル***
+***サンプルリクエスト***
 
-この POST リクエストは、名前空間 AMCDS2 で定義されたメール紐付けキーに基づいてプライバシーリクエストを作成します。
+このPOST リクエストは、名前空間AMCDS2で定義されたメール紐付けキーに基づいてプライバシーリクエストを作成します。
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/privacy/privacyTool \

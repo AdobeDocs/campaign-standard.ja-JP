@@ -9,16 +9,23 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 12fe13c2-899d-4c85-8381-ba812ff26f54
-source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
+TQID: https://experienceleague.adobe.com/RMGPVUR4mXc9ZU38JCpsVT-ytEwrYRfhTB-eaVsAt-Q
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
+subfeature_v2: id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: 656
 ht-degree: 70%
 
 ---
 
 # トランザクションメッセージのライフサイクル {#publishing-transactional-message}
 
-[&#x200B; トランザクションメッセージ &#x200B;](../../channels/using/editing-transactional-message.md)を送信する準備ができたら、公開できます。
+[ トランザクションメッセージ ](../../channels/using/editing-transactional-message.md)を送信する準備ができたら、公開できます。
 
 トランザクションメッセージを公開、一時停止、非公開および削除する手順について詳しくは、以下を参照してください。
 
@@ -96,7 +103,7 @@ The steps for sending a proof are detailed in the [Sending proofs](../../sending
 
 これで、「買い物かごの放棄」イベントがトリガーされるとすぐに、受信者のタイトルと姓、買い物かごの URL、最後に参照した製品、または製品のリスト（製品リストを定義した場合）と送信される買い物かごの総数を含むメッセージが自動的に表示されます。
 
-トランザクションメッセージに関するレポートにアクセスするには、「**[!UICONTROL Reports]**」ボタンを使用します。[動的レポート &#x200B;](../../reporting/using/about-dynamic-reports.md)を参照してください。
+トランザクションメッセージに関するレポートにアクセスするには、「**[!UICONTROL Reports]**」ボタンを使用します。 [動的レポート ](../../reporting/using/about-dynamic-reports.md)を参照してください。
 
 ![](assets/message-center_13.png)
 
@@ -107,13 +114,13 @@ The steps for sending a proof are detailed in the [Sending proofs](../../sending
 
 ## トランザクションメッセージの公開の一時停止 {#suspending-a-transactional-message-publication}
 
-トランザクションメッセージに含まれるデータを変更する場合など、「**[!UICONTROL Pause]**」ボタンを使用してメッセージの公開を中止できます。したがって、イベントは処理されず、Adobe Campaign データベースのキューに保持されます。
+トランザクションメッセージに含まれるデータを変更する場合など、「**[!UICONTROL Pause]**」ボタンを使用してメッセージの公開を中止できます。 したがって、イベントは処理されず、Adobe Campaign データベースのキューに保持されます。
 
-キューに入れられたイベントは、REST APIで定義された時間内に保持されます（[REST API ドキュメント &#x200B;](../../api/using/managing-transactional-messages.md)を参照）。また、トリガー コアサービスを使用している場合は、トリガーイベントで保持されます（[Adobe Experience Cloud Triggers](../../integrating/using/about-adobe-experience-cloud-triggers.md)について参照）。
+キューに入れられたイベントは、REST APIで定義された時間内に保持されます（[REST API ドキュメント ](../../api/using/managing-transactional-messages.md)を参照）。また、トリガー コアサービスを使用している場合は、トリガーイベントで保持されます（[Adobe Experience Cloud Triggers](../../integrating/using/about-adobe-experience-cloud-triggers.md)について参照）。
 
 ![](assets/message-center_pause.png)
 
-「**[!UICONTROL Resume]**」をクリックすると、キューに格納されているすべてのイベント（期限切れでない場合）が処理されます。テンプレートのパブリケーションが停止されている間に実行されたすべての変更が含まれています。
+「**[!UICONTROL Resume]**」をクリックすると、キューに格納されているすべてのイベント（期限切れでない場合）が処理されます。 テンプレートのパブリケーションが停止されている間に実行されたすべての変更が含まれています。
 
 ## トランザクションメッセージの非公開 {#unpublishing-a-transactional-message}
 
@@ -125,9 +132,9 @@ The steps for sending a proof are detailed in the [Sending proofs](../../sending
 
 >[!NOTE]
 >
->メッセージを再度公開するには、対応するイベント設定に戻り、[&#x200B; イベントを公開](../../channels/using/publishing-transactional-event.md)してから[&#x200B; メッセージを公開](#publishing-a-transactional-message)する必要があります。
+>メッセージを再度公開するには、対応するイベント設定に戻り、[ イベントを公開](../../channels/using/publishing-transactional-event.md)してから[ メッセージを公開](#publishing-a-transactional-message)する必要があります。
 
-一時停止したトランザクションメッセージを非公開にする場合は、再度公開するまで 24 時間待たなければならない場合があります。これは、キューに送信されたすべてのイベントを「**[!UICONTROL Database cleanup]**」ワークフローで消去するためです。
+一時停止したトランザクションメッセージを非公開にする場合は、再度公開するまで 24 時間待たなければならない場合があります。 これは、キューに送信されたすべてのイベントを「**[!UICONTROL Database cleanup]**」ワークフローで消去するためです。
 
 メッセージを一時停止する手順について詳しくは、[トランザクションメッセージ公開の一時停止](#suspending-a-transactional-message-publication)の節を参照してください。
 
@@ -135,7 +142,7 @@ The steps for sending a proof are detailed in the [Sending proofs](../../sending
 
 ## トランザクションメッセージの削除 {#deleting-a-transactional-message}
 
-トランザクションメッセージが非公開になっている場合、またはトランザクションメッセージがまだ公開されていない場合は、トランザクションメッセージリストから削除できます。手順は次のとおりです。
+トランザクションメッセージが非公開になっている場合、またはトランザクションメッセージがまだ公開されていない場合は、トランザクションメッセージリストから削除できます。 手順は次のとおりです。
 
 1. 左上隅の&#x200B;**Adobe** ロゴをクリックし、**[!UICONTROL Marketing plans]** > **[!UICONTROL Transactional messages]** > **[!UICONTROL Transactional messages]**&#x200B;を選択します。
 1. 選択したメッセージにマウスを合わせます。
@@ -145,15 +152,15 @@ The steps for sending a proof are detailed in the [Sending proofs](../../sending
 
 ただし、トランザクションメッセージの削除は、次の特定の状況でのみ実行できます。
 
-* トランザクションメッセージのステータスが「**[!UICONTROL Draft]**」であることを確認してください。そうでない場合、削除できません。この「**[!UICONTROL Draft]**」ステータスは、まだ公開されていないメッセージ、または[非公開にする](#unpublishing-a-transactional-message)（または[一時停止](#suspending-a-transactional-message-publication)されていない）メッセージに適用されます。
+* トランザクションメッセージのステータスが「**[!UICONTROL Draft]**」であることを確認してください。そうでない場合、削除できません。 この「**[!UICONTROL Draft]**」ステータスは、まだ公開されていないメッセージ、または[非公開にする](#unpublishing-a-transactional-message)（または[一時停止](#suspending-a-transactional-message-publication)されていない）メッセージに適用されます。
 
-* **トランザクションメッセージ**：対応するイベントに別のトランザクションメッセージがリンクされている場合を除き、トランザクションメッセージが非公開の場合は、イベントを正常に削除するために、トランザクションメッセージ設定も非公開にする必要があります。詳しくは、[イベントの非公開](../../channels/using/publishing-transactional-event.md#unpublishing-an-event)を参照してください。
+* **トランザクションメッセージ**：対応するイベントに別のトランザクションメッセージがリンクされている場合を除き、トランザクションメッセージが非公開の場合は、イベントを正常に削除するために、トランザクションメッセージ設定も非公開にする必要があります。 詳しくは、[イベントの非公開](../../channels/using/publishing-transactional-event.md#unpublishing-an-event)を参照してください。
 
   >[!IMPORTANT]
   >
   >既に通知を送信したトランザクションメッセージを削除すると、その送信およびトラッキングログも削除されます。
 
-* **標準搭載のイベントテンプレート（内部トランザクションメッセージ）**：内部トランザクションメッセージが、対応する内部イベントに関連付けられている唯一のものである場合、削除できません。別のトランザクションメッセージを作成する場合は、まず複製するか、**[!UICONTROL Resources]**／**[!UICONTROL Templates]**／**[!UICONTROL Transactional message templates]** メニューを使用します。
+* **標準搭載のイベントテンプレート（内部トランザクションメッセージ）**：内部トランザクションメッセージが、対応する内部イベントに関連付けられている唯一のものである場合、削除できません。 別のトランザクションメッセージを作成する場合は、まず複製するか、**[!UICONTROL Resources]**／**[!UICONTROL Templates]**／**[!UICONTROL Transactional message templates]** メニューを使用します。
 
 <!--
 ## Monitoring transactional message delivery {#monitoring-transactional-message-delivery}

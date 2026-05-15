@@ -1,6 +1,6 @@
 ---
-title: 統合アプリケーションワークフロー
-description: Campaign と Dynamics の統合ワークフロー
+title: アプリケーションのワークフローの統合
+description: キャンペーンとDynamicsの統合ワークフロー
 audience: integrating
 content-type: reference
 topic-tags: working-with-campaign-and-microsoft-dynamics-365
@@ -9,69 +9,74 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 51f07f08-5d57-4c4c-aff2-d03e5956ec6f
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/YTcYEg46GzZ83wU8cfw8UgRbcUNzTVSwhjILIq1n6Ss
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: beb7a3c1-66ab-4786-b879-7621375b3c40
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: 660
 ht-degree: 1%
 
 ---
 
-# Campaign - Microsoft Dynamics 365 統合ワークフロー
+# Campaign - Microsoft Dynamics 365統合ワークフロー
 
-**[!UICONTROL Workflows]** のページには、テクニカルワークフローとそのステータスが一覧表示されます。
+**[!UICONTROL Workflows]** ページには、テクニカルワークフローとそのステータスが一覧表示されます。
 
-統合アプリケーションには、次の 3 つのワークフローがあります。
+統合アプリケーションには、次の3つのワークフローがあります。
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows.png)
 
-**Microsoft Dynamics 365 から Campaign へ**
-* Microsoft Dynamics 365 からAdobe Campaignへの *連絡先* の送信
-* *カスタムエンティティ*:Microsoft Dynamics 365 からAdobe Campaignにカスタムテーブルを取り込みます。 [詳細情報](../../integrating/using/d365-acs-using-the-integration.md#data-flows)
-* これは、**入口** とも呼ばれます（Microsoft Dynamics 365 からAdobe Campaignへのデータの入口を指します）
+**Microsoft Dynamics 365からCampaign**
+* Microsoft Dynamics 365から&#x200B;*連絡先*&#x200B;をAdobe Campaignに送信する
+* *カスタムエンティティ*: Microsoft Dynamics 365からAdobe Campaignにカスタムテーブルを取り込みます。 [詳細情報](../../integrating/using/d365-acs-using-the-integration.md#data-flows)
+* これは&#x200B;**Ingress**&#x200B;とも呼ばれます（Microsoft Dynamics 365からAdobe Campaignへのデータのイングレスを指します）
 
-**Campaign からMicrosoft Dynamics 365 へ**
-* Adobe Campaign Standardからのメールマーケティングイベントは Dynamics 365 に送信されます（メール送信、開封、クリック、バウンス）。 [詳細情報](../../integrating/using/d365-acs-using-the-integration.md#email-marketing-event-flow)
-* これは、**エグレス** とも呼ばれます（Adobe CampaignからMicrosoft Dynamics 365 へのデータのエグレスを指します）
+**Microsoft Dynamics 365**&#x200B;へのキャンペーン
+* Adobe Campaign Standardのメールマーケティングイベントは、Dynamics 365 （メール送信、開封、クリック、バウンス）に送信されます。 [詳細情報](../../integrating/using/d365-acs-using-the-integration.md#email-marketing-event-flow)
+* これは&#x200B;**Egress**&#x200B;とも呼ばれます（Adobe CampaignからMicrosoft Dynamics 365へのデータの出力を指します）
 
-**オプトイン/オプトアウト**
+**オプトイン/アウト**
 
-オプトアウトステータス（例：^ブロックリスト）は、Microsoft Dynamics 365 からAdobe Campaignへ、またはAdobe CampaignからMicrosoft Dynamics 365 へ同期させることができます。 データは、双方向に同期することもできます（つまり、双方向のデータフロー）。 [詳細情報](../../integrating/using/d365-acs-self-service-app-data-sync.md#opt-in-out-wf)。
+オプトアウトステータス（例：「Adobe CampaignをMicrosoft Dynamics」など）は、Microsoft Dynamics 365からAdobe Campaignに、またはブロックリストに加えるから365に同期できます。 データは、双方向で同期することもできます（つまり、両方向のデータフロー）。 [詳細情報](../../integrating/using/d365-acs-self-service-app-data-sync.md#opt-in-out-wf)。
 
 >[!IMPORTANT]
 >
->変更内容をAdobe Campaign StandardまたはMicrosoft Dynamics 365 に公開する前に、**Microsoft Dynamics 365 から Campaign** へのワークフローを停止することを強くお勧めします。 これらの変更には、統合で現在使用されているリソース/エンティティ（およびその関連フィールド）、リンク、識別子列などの更新が含まれます。 そうしないと、データが失われたり、ワークフローが予期せず停止したりする可能性があります。
+>Adobe Campaign StandardまたはMicrosoft Dynamics 365に変更を公開する前に、**Microsoft Dynamics 365 to Campaign** ワークフローを停止することを強くお勧めします。 これらの変更には、リソース/エンティティ（および関連するフィールド）、リンク、識別子の列などの更新が含まれ、統合で現在使用されています。 これを怠ると、データが失われたり、ワークフローが予期せず停止したりする可能性があります。
 
 ## ワークフローバックログ
 
-この統合アプリケーションは、最初にデータを読み取り、次に宛先にデータを書き込みます。 **[!UICONTROL Backlog]** 列は、キューに入れられ、書き込みを待っているレコードの数を示します。 この値は、処理するデータが大量にある場合（例えば、統合を初めて実行する場合や、データを再生する場合など）に増加することが予想されます。
+この統合アプリケーションは、まずデータを読み込み、次に宛先にデータを書き込みます。 **[!UICONTROL Backlog]**&#x200B;列は、キューに入れられ、書き込み待ちになっているレコードの数を示します。 この値は、処理するデータ量が多い場合（例えば、統合を初めて実行する、データを再生するなど）に大きくなることが期待されます。
 
 >[!NOTE]
->Microsoft Dynamics 365 や Campaign レコードが更新されていない場合は、まず、書き込み先に書き込まれるのを待っているレコードが多数あるかどうかを確認する必要があります。
+>Microsoft Dynamics 365やCampaign レコードが更新されない場合は、まず、宛先への書き込みを待っているレコードが大量にあるかどうかを確認する必要があります。
 >
 
 ## ワークフローステータス {#workflow-status}
 
-**[!UICONTROL Status]** の列は、ワークフローに関連付けられているバックグラウンドプロセスの状態を示します。 次のような値を選択できます。
+**[!UICONTROL Status]**&#x200B;列は、ワークフローに関連付けられているバックグラウンド プロセスの状態を示します。 次のような値を選択できます。
 
-* **実行中**: プロセスは現在実行中です。データを同期する必要があります。
-* **停止**: プロセスは現在実行されていないので、データが同期される必要はありません。
-* **開始**：ワークフロープロセスの開始をリクエストしました。 アプリケーションは、このワークフローに関連付けられたデータの同期をまだ開始していませんが、数分後に開始されることが予想されます（その後、**実行中** のステータスが表示されます）
-* **失敗**: ワークフロープロセスは実行中ですが、エラーが発生したため、回復できませんでした。
+* **実行中**: プロセスは現在実行中で、データを同期する必要があります。
+* **停止**: プロセスは現在実行されていないため、データを同期する必要はありません。
+* **開始**: ワークフロープロセスを開始するように要求しました。 アプリケーションは、このワークフローに関連付けられたデータの同期をまだ開始していませんが、数分後に開始されると予想できます（その後、**RUNNING**&#x200B;のステータスが表示されます）
+* **失敗**: ワークフロープロセスは実行中でしたが、エラーが発生したため、これらのプロセスから回復できませんでした。
 
 ## 使用可能なアクション
 
-可能なアクションを以下に示します。
+考えられるアクションを以下に示します。
 
-* **編集**：鉛筆アイコンをクリックすると、ワークフローを更新できる別のページに送信されます。 加えた変更は、ワークフローを停止して再起動するまで有効になりません。
+* **編集**：鉛筆アイコンをクリックすると、ワークフローを更新できる別のページに移動します。 変更は、ワークフローを停止してから再起動するまで有効にならないことに注意してください。
 
-* **開始**：開始ボタンは、停止したワークフローの開始をリクエストします。 このボタンは、ワークフローに関連付けられているプロセスが現在停止されている場合にのみ表示されます。 プロセスは、最初に「開始中」に変わり、次に「実行中」に変わります。 ワークフローに関連付けられているデータは、ワークフローが「実行中」の状態になるまで同期を開始しません。
+* **開始**：開始ボタンは、停止したワークフローの開始を要求します。 このボタンは、ワークフローに関連付けられているプロセスが現在停止している場合にのみ表示されます。 プロセスはまず「開始」に変わり、次に「実行」に変わります。 ワークフローに関連付けられているデータは、ワークフローが「実行中」状態になるまで同期を開始しません。
 
-  「開始」ボタンは切り替えボタンです。 ワークフロープロセスが既に開始されている場合、ボタンは **停止** ボタンに変わります。
+  開始ボタンはトグルです。 ワークフロープロセスが既に開始されている場合、ボタンは&#x200B;**停止** ボタンに変わります。
 
-* **停止**:**停止** ボタンは、実行中のワークフローの停止をリクエストします。 このボタンは、ワークフローに関連付けられたプロセスが現在実行中の場合にのみ表示されます。
+* **停止**: **停止** ボタンは、実行中のワークフローを停止することを要求します。 このボタンは、ワークフローに関連付けられているプロセスが現在実行中の場合にのみ表示されます。
 
-ワークフローを編集する場合、その更新は、ワークフローを停止して「**開始**」ボタンをクリックするまで、実行中のプロセスのルールにすぐには組み込まれません。 その後、更新内容は実行中のプロセスに組み込まれます（プロセスが **実行中** 状態に戻ると）。
+ワークフローを編集する場合、ワークフローを停止して「**開始**」ボタンをクリックするまで、更新は実行中のプロセスのルールにすぐに組み込まれません。 次に、更新が実行中のプロセスに組み込まれます（プロセスが&#x200B;**RUNNING**&#x200B;状態に戻ると）。
 
-**a）ワークフローが更新されたが、（b）このワークフローの停止/開始を行っていない場合に通知する警告の表示が** 停止」ボタンに追加されます。
+**停止** ボタンに警告の表示が追加され、（a）ワークフローの更新を行ったが、（b）このワークフローの停止/開始を行っていない場合に通知されます。
 
 ![](assets/do-not-localize/d365-to-acs-icon-stop-with-changes.png)

@@ -9,9 +9,14 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 6bcd8dcd-d710-4ca3-937d-bf4339f36069
-source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
+TQID: https://experienceleague.adobe.com/zWvKFZRoejIDaRFEF8cxypI-4MLgNYSG2RYBiZLmOJs
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: 610
 ht-degree: 6%
 
 ---
@@ -24,11 +29,11 @@ ht-degree: 6%
 >
 >[機能管理者](../../administration/using/users-management.md#functional-administrators) <!--being part of the **[!UICONTROL All]** [organizational unit](../../administration/using/organizational-units.md) -->のみが、イベント設定を公開するための適切な権限を持っています。
 
-公開と非公開のイベント設定を含む、トランザクションメッセージの公開プロセス全体を示すチャートは、[このセクション &#x200B;](../../channels/using/publishing-transactional-message.md)で利用できます。
+公開と非公開のイベント設定を含む、トランザクションメッセージの公開プロセス全体を示すチャートは、[このセクション ](../../channels/using/publishing-transactional-message.md)で利用できます。
 
 公開が完了したら：
-* 対応するトランザクションメッセージが自動的に作成されます。 [&#x200B; トランザクションメッセージの編集](../../channels/using/editing-transactional-message.md)を参照してください。
-* Web サイト開発者が使用するAPIがデプロイされ、トランザクションイベントを送信できるようになりました。 [&#x200B; イベントトリガーの統合](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)を参照してください。
+* 対応するトランザクションメッセージが自動的に作成されます。 [ トランザクションメッセージの編集](../../channels/using/editing-transactional-message.md)を参照してください。
+* Web サイト開発者が使用するAPIがデプロイされ、トランザクションイベントを送信できるようになりました。 [ イベントトリガーの統合](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)を参照してください。
 
 ## イベントのプレビューと公開 {#previewing-and-publishing-the-event}
 
@@ -36,7 +41,7 @@ ht-degree: 6%
 
 1. 「**[!UICONTROL API preview]**」ボタンをクリックすると、Web サイト開発者が公開前に使用するREST APIのシミュレーションが表示されます。
 
-   イベントが公開されると、このボタンを使用すると、実稼動環境でAPIのプレビューを表示することもできます。 [&#x200B; イベントトリガーの統合](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)を参照してください。
+   イベントが公開されると、このボタンを使用すると、実稼動環境でAPIのプレビューを表示することもできます。 [ イベントトリガーの統合](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)を参照してください。
 
    ![](assets/message-center_api_preview.png)
 
@@ -58,7 +63,7 @@ ht-degree: 6%
    >
    >イベントを変更するたびに、**[!UICONTROL Publish]**&#x200B;をもう一度クリックして、web サイト開発者が使用する更新されたREST APIを生成する必要があります。
 
-   イベントが公開されると、新しいイベントにリンクされた[&#x200B; トランザクションメッセージ &#x200B;](../../channels/using/editing-transactional-message.md)が自動的に作成されます。
+   イベントが公開されると、新しいイベントにリンクされた[ トランザクションメッセージ ](../../channels/using/editing-transactional-message.md)が自動的に作成されます。
 
 1. 左側の領域にあるリンクから、このトランザクションメッセージに直接アクセスできます。
 
@@ -66,9 +71,9 @@ ht-degree: 6%
 
    >[!NOTE]
    >
-   >イベントがトランザクションメッセージの送信をトリガーにするには、作成したばかりのメッセージを変更して公開する必要があります。 「[編集](../../channels/using/editing-transactional-message.md)および[&#x200B; トランザクションメッセージの公開](../../channels/using/publishing-transactional-message.md)」を参照してください。 また、このトリガーイベント [をweb サイトに](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)統合する必要があります。
+   >イベントがトランザクションメッセージの送信をトリガーにするには、作成したばかりのメッセージを変更して公開する必要があります。 「[編集](../../channels/using/editing-transactional-message.md)および[ トランザクションメッセージの公開](../../channels/using/publishing-transactional-message.md)」を参照してください。 また、このトリガーイベント ](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)をweb サイトに[統合する必要があります。
 
-1. Adobe Campaignがこのイベント設定に関連するイベントの受信を開始したら、「**[!UICONTROL Latest transactional events]**」セクションの「**[!UICONTROL History]**」リンクをクリックして、サードパーティサービスによって送信され、Adobe Campaignによって処理された最新のイベントにアクセスできます。
+1. Adobe Campaignがこのイベント設定に関連するイベントの受信を開始したら、「**[!UICONTROL History]**」セクションの「**[!UICONTROL Latest transactional events]**」リンクをクリックして、サードパーティサービスによって送信され、Adobe Campaignによって処理された最新のイベントにアクセスできます。
 
 ![](assets/message-center_latest-events.png)
 
@@ -84,7 +89,7 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->対応するトランザクションメッセージを既に公開している場合、トランザクションメッセージの公開もキャンセルされます。 「[&#x200B; トランザクションメッセージの非公開](../../channels/using/publishing-transactional-message.md#unpublishing-a-transactional-message)」を参照してください。
+>対応するトランザクションメッセージを既に公開している場合、トランザクションメッセージの公開もキャンセルされます。 「[ トランザクションメッセージの非公開](../../channels/using/publishing-transactional-message.md#unpublishing-a-transactional-message)」を参照してください。
 
 **[!UICONTROL Publish]** ボタンをクリックして、新しいREST APIを生成します。
 

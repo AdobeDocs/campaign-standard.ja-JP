@@ -10,9 +10,13 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: c3f029d7-779e-47e7-a925-1e8f672da4dd
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/j9eu2D31Ic-nhZEk9NT4SGXYWdTpD-DAHLzJIS8ySLs
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '803'
+source-wordcount: 803
 ht-degree: 99%
 
 ---
@@ -23,15 +27,15 @@ ht-degree: 99%
 
 ![](assets/save_audience.png)
 
-「**[!UICONTROL Save audience]**」アクティビティを使用すると、既存のオーディエンスを更新したり、ワークフローの上流で計算された母集団から新しいオーディエンスを作成することができます。このアクティビティから作成または更新されるオーディエンスは、**リスト**&#x200B;オーディエンスと&#x200B;**ファイル**&#x200B;オーディエンスです。これらはアプリケーションオーディエンスのリストに追加され、**[!UICONTROL Audiences]** メニューから使用できるようになります。
+「**[!UICONTROL Save audience]**」アクティビティを使用すると、既存のオーディエンスを更新したり、ワークフローの上流で計算された母集団から新しいオーディエンスを作成することができます。 このアクティビティから作成または更新されるオーディエンスは、**リスト**&#x200B;オーディエンスと&#x200B;**ファイル**&#x200B;オーディエンスです。 これらはアプリケーションオーディエンスのリストに追加され、**[!UICONTROL Audiences]** メニューから使用できるようになります。
 
 >[!NOTE]
 >
->「**[!UICONTROL Save audience]**」アクティビティを通じて作成されたオーディエンスが追加データで強化された場合、これらのデータを使用してスタンドアロン配信をパーソナライズすることはできません。ワークフローで実行される配信からのみ使用できます。
+>「**[!UICONTROL Save audience]**」アクティビティを通じて作成されたオーディエンスが追加データで強化された場合、これらのデータを使用してスタンドアロン配信をパーソナライズすることはできません。 ワークフローで実行される配信からのみ使用できます。
 
-また、このアクティビティでは、プロファイルを Adobe Experience Cloud のオーディエンス／セグメントとしてエクスポートすることもできます。これにより、他の Adobe Experience Cloud ソリューションでこれらのオーディエンスを活用できます。共有オーディエンスの詳細については、[Campaign と People コアサービスの使用](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)を参照してください。
+また、このアクティビティでは、プロファイルを Adobe Experience Cloud のオーディエンス／セグメントとしてエクスポートすることもできます。 これにより、他の Adobe Experience Cloud ソリューションでこれらのオーディエンスを活用できます。 共有オーディエンスの詳細については、[Campaign と People コアサービスの使用](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)を参照してください。
 
-## 使用コンテキスト {#context-of-use}
+## Context of use {#context-of-use}
 
 「**[!UICONTROL Save audience]**」アクティビティは基本的に、同じワークフローで計算された母集団グループを再利用可能なオーディエンスに変換することで、このグループを維持するために使用されます。
 
@@ -44,20 +48,20 @@ ht-degree: 99%
 
    * **[!UICONTROL Update an existing audience]**：既存のオーディエンスを選択し、更新の種類を選択します。
 
-      * **[!UICONTROL Replace audience content with new data]**：オーディエンスコンテンツ全体を置き換えます。古いデータは失われます。「オーディエンスの保存」アクティビティのインバウンドトランジションからのデータのみが保持されます。
+      * **[!UICONTROL Replace audience content with new data]**：オーディエンスコンテンツ全体を置き換えます。 古いデータは失われます。 「オーディエンスの保存」アクティビティのインバウンドトランジションからのデータのみが保持されます。
       * **[!UICONTROL Complete audience with new data]**：古いオーディエンスデータは保持され、「オーディエンスの保存」アクティビティのインバウンドトランジションのデータが追加されます。
 
-   * **[!UICONTROL Create then update an audience]**：オーディエンスの名前を入力し、更新タイプを選択します。オーディエンスが存在しない場合は、作成されます。既に存在する場合は、選択したモードに従って更新されます。
+   * **[!UICONTROL Create then update an audience]**：オーディエンスの名前を入力し、更新タイプを選択します。 オーディエンスが存在しない場合は、作成されます。 既に存在する場合は、選択したモードに従って更新されます。
 
-      * **[!UICONTROL Replace audience content with new data]**：オーディエンスコンテンツ全体を置き換えます。古いデータは失われます。「オーディエンスの保存」アクティビティのインバウンドトランジションからのデータのみが保持されます。
+      * **[!UICONTROL Replace audience content with new data]**：オーディエンスコンテンツ全体を置き換えます。 古いデータは失われます。 「オーディエンスの保存」アクティビティのインバウンドトランジションからのデータのみが保持されます。
 
         警告：このオプションを選択すると、オーディエンスの種類と、更新されたオーディエンスのターゲティングディメンションが削除されます。
 
       * **[!UICONTROL Complete audience with new data]**：古いオーディエンスデータは保持され、「オーディエンスの保存」アクティビティのインバウンドトランジションのデータが追加されます。
 
-        警告：このオプションを選択すると、更新されたオーディエンスの種類またはターゲティングディメンションが現在のワークフローの設定と互換性がない場合、エラーが発生します。例えば、クエリーからのプロファイルを含むファイルタイプオーディエンスを完了することはできません。
+        警告：このオプションを選択すると、更新されたオーディエンスの種類またはターゲティングディメンションが現在のワークフローの設定と互換性がない場合、エラーが発生します。 例えば、クエリーからのプロファイルを含むファイルタイプオーディエンスを完了することはできません。
 
-   * **[!UICONTROL Create a new audience]**：作成するオーディエンスの名前を入力します。オーディエンスの作成日時が、オーディエンス名に自動的に追加されます。これにより、ワークフローが実行されるたびにオーディエンスが一意になります。
+   * **[!UICONTROL Create a new audience]**：作成するオーディエンスの名前を入力します。 オーディエンスの作成日時が、オーディエンス名に自動的に追加されます。 これにより、ワークフローが実行されるたびにオーディエンスが一意になります。
    * **[!UICONTROL Share in Adobe Experience Cloud]**：ターゲットプロファイルがあり、オーディエンスを Adobe Experience Cloud にエクスポートする場合は、このオプションを選択し、その後既存の共有オーディエンスを選択するか、新しいオーディエンスを作成します。
 
      また、データが Adobe Experience Cloud で正しく紐付けられるように、オーディエンスに含まれるデータのリソースに対応する **[!UICONTROL Shared Data source]** を選択します。
@@ -66,7 +70,7 @@ ht-degree: 99%
 
      >[!NOTE]
      >
-     >このオプションは、Adobe Experience Cloud の共有オーディエンス機能が管理者によって設定されている場合にのみ使用できます。詳しくは、[Campaign と People コアサービスの使用](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)を参照してください。
+     >このオプションは、Adobe Experience Cloud の共有オーディエンス機能が管理者によって設定されている場合にのみ使用できます。 詳しくは、[Campaign と People コアサービスの使用](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)を参照してください。
 
    更新時に保存または使用できるオーディエンスのタイプは、ワークフローの上流に配置されているアクティビティによって異なります。
 
@@ -74,7 +78,7 @@ ht-degree: 99%
 
    保存されたオーディエンスのターゲティングディメンションが、保存時に既に定義されている場合（ターゲティングからの場合、クエリ後の場合など）、オーディエンスはタイプが **[!UICONTROL List]** のオーディエンスとして保存または更新されます。
 
-   保存したオーディエンスの内容は、そのオーディエンスの詳細表示で利用できます。詳細表示は **[!UICONTROL Audiences]** メニューからアクセスできます。この表示で使用できる列は、ワークフローの「オーディエンスの保存」アクティビティのインバウンドトランジションの列に対応します（例：インポートしたファイルの列、クエリから追加された追加データの列）。
+   保存したオーディエンスの内容は、そのオーディエンスの詳細表示で利用できます。詳細表示は **[!UICONTROL Audiences]** メニューからアクセスできます。 この表示で使用できる列は、ワークフローの「オーディエンスの保存」アクティビティのインバウンドトランジションの列に対応します （例：インポートしたファイルの列、クエリから追加された追加データの列）。
 
 1. アクティビティの設定を確認し、ワークフローを保存します。
 

@@ -1,16 +1,19 @@
 ---
-title: データモデルのシードメンバー
-description: データモデルについて説明します
+title: DataModel シードメンバー
+description: データモデルについて詳しく見る
 audience: developing
 content-type: reference
 feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 9b522c84-e296-47c7-9588-2e5ed08ab631
-source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
+TQID: https://experienceleague.adobe.com/lfD2ncth570TSScQZE3UiO3ikqqxpjf4CVd7PvuAFXs
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 45%
+source-wordcount: 182
+ht-degree: 49%
 
 ---
 
@@ -22,7 +25,7 @@ ht-degree: 45%
                <tr>
                   <th>名前</th>
                   <th>ラベル</th>
-                  <th>タイプ （長さ）</th>
+                  <th>タイプ（長さ）</th>
                   <th>列挙値</th>
                </tr>
                <tr>
@@ -50,7 +53,7 @@ ht-degree: 45%
                   <td> </td>
                </tr>
                <tr>
-                  <td>降順</td>
+                  <td>desc</td>
                   <td>説明</td>
                   <td>文字列（512）</td>
                   <td> </td>
@@ -99,7 +102,7 @@ ht-degree: 45%
                </tr>
                <tr>
                   <td>marketingCloudId</td>
-                  <td>MARKETING CLOUDID</td>
+                  <td>MARKETING CLOUD ID</td>
                   <td>文字列（256）</td>
                   <td> </td>
                </tr>
@@ -152,7 +155,7 @@ ht-degree: 45%
                   <td> </td>
                </tr>
                <tr>
-                  <td>配達確認</td>
+                  <td>プルーフ</td>
                   <td>配達確認</td>
                   <td>ブール値 </td>
                   <td> </td>
@@ -206,7 +209,7 @@ ht-degree: 45%
                   <td> </td>
                </tr>
                <tr>
-                  <td>わな</td>
+                  <td>トラップ</td>
                   <td>トラップ</td>
                   <td>ブール値 </td>
                   <td> </td>
@@ -228,7 +231,7 @@ ht-degree: 45%
         </tr>
     </table>
 
-名前またはラベル （byText）
+名前またはラベル別（テキスト別）
 
 <table>
         <tr>
@@ -241,7 +244,7 @@ ht-degree: 45%
         </tr>
     </table>
 
-用途別（byUsage）
+使用状況別（使用状況別）
 
 <table>
         <tr>
@@ -249,7 +252,7 @@ ht-degree: 45%
         <th>タイプ</th>
         </tr>
         <tr>
-        <td>わな</td>
+        <td>トラップ</td>
         <td>ブール値</td>
         </tr>
         <tr>
@@ -257,12 +260,12 @@ ht-degree: 45%
         <td>ブール値</td>
         </tr>
         <tr>
-        <td>配達確認</td>
+        <td>プルーフ</td>
         <td>ブール値</td>
         </tr>
     </table>
 
-テストプロファイル （プロファイル）
+テストプロファイル（プロファイル）
 
 <table>
     <tr>

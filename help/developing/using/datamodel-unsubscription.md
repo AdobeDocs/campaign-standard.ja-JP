@@ -1,16 +1,19 @@
 ---
-title: データモデル購読解除イベント
-description: データモデルについて説明します
+title: DataModel購読解除イベント
+description: データモデルについて詳しく見る
 audience: developing
 content-type: reference
 feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 508361d1-6a0b-4476-a058-4162fb3e8d5e
-source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
+TQID: https://experienceleague.adobe.com/VuhZ3s5VTH3MFPuqzr18GBMmyaPxD2uQEdJAsMIOlf0
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '55'
-ht-degree: 60%
+source-wordcount: 54
+ht-degree: 61%
 
 ---
 
@@ -46,7 +49,7 @@ ht-degree: 60%
                <tr>
                   <td>emailFormat</td>
                   <td>False</td>
-                  <td>定義済みリスト</td>
+                  <td>列挙</td>
                   <td>False</td>
                </tr>
                <tr>
@@ -57,7 +60,7 @@ ht-degree: 60%
                </tr>
                <tr>
                   <td>serverUrl</td>
-                  <td>はい</td>
+                  <td>True</td>
                   <td>文字列</td>
                   <td>False</td>
                </tr>
@@ -87,7 +90,7 @@ byStatusOrType
         </tr>
         <tr>
         <td>ステータス</td>
-        <td>定義済みリスト</td>
+        <td>列挙</td>
         </tr>
         <tr>
         <td>タイプ</td>

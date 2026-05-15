@@ -3,10 +3,15 @@ keywords: Campaign Standard;home;popular topics
 title: Adobe Campaign Standard 製品ドキュメント
 description: Campaign Standard 製品ドキュメントの参照
 exl-id: ee03b1b6-6101-4975-9674-db83c9b4f9f3
-source-git-commit: 9924d811359a6845ee6fd230eb6ffd73985404ba
-workflow-type: ht
-source-wordcount: '284'
-ht-degree: 100%
+TQID: https://experienceleague.adobe.com/uNWyk8itcInOZ2iLyLAOYdGVKzr4ExnBuRRqNe24U-Y
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a4671286-a59f-47e3-b97b-90627a1977d5id: b12f6872-9271-4369-85e5-86969a0b99a2id: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2: id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0id: d3b34fea-a110-482f-adb2-aae8d686bac8id: ede6e1ec-9279-415e-b828-a09735018d48
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 318
+ht-degree: 91%
 
 ---
 
@@ -14,7 +19,7 @@ ht-degree: 100%
 
 ## 新着情報
 
-Adobe Campaign Standard 製品とドキュメントの最新の機能強化について説明します。機能、改善点、修正の包括的なリストについては、詳細な[リリースノート](rn/using/release-notes.md)を参照してください。
+Adobe Campaign Standard 製品とドキュメントの最新の機能強化について説明します。 機能、改善点、修正の包括的なリストについては、詳細な[リリースノート](rn/using/release-notes.md)を参照してください。
 
 >[!BEGINTABS]
 
@@ -103,10 +108,10 @@ Campaign と Real-time Customer Data Platform（RTCDP）間でデータを共有
 ## その他のリソース
 
 <table style="table-layout:fixed"><tr style="border: 0;">
-<td><strong>役に立つページ</strong><br/>
-<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja" target="_blank">チュートリアル</a> - <a href="https://helpx.adobe.com/jp/legal/product-descriptions/campaign-standard.html" target="_blank">製品説明</a> - <a href="rn/using/deprecated-features.md">非推奨（廃止予定）および削除された機能</a> - <a href="rn/using/release-planning.md">リリース計画</a>
+<td><strong>便利なページ </strong><br/>
+<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja" target="_blank"> チュートリアル </a> - <a href="https://helpx.adobe.com/jp/legal/product-descriptions/campaign-standard.html" target="_blank">製品説明</a> - <a href="rn/using/deprecated-features.md">非推奨の機能と削除された機能</a> - <a href="rn/using/release-planning.md"> リリース計画</a>
 </td>
-<td><strong>技術リソース</strong><br/>
-<a href="integrating/using/about-adobe-experience-cloud-triggers.md">Experience Cloudトリガー</a> - <a href="api/using/get-started-apis.md">Campaign API</a> - <a href="https://helpx.adobe.com/jp/campaign/kb/acs-article-list.html" target="blank">テクニカルノート</a> - <a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja" target="_blank">コントロールパネルのドキュメント</a> - <a href="https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=ja">エラーメッセージのリスト</a>
+<td><strong>技術リソース </strong><br/>
+<a href="integrating/using/about-adobe-experience-cloud-triggers.md">Experience Cloud トリガー</a> - <a href="api/using/get-started-apis.md">Campaign API</a> - <a href="https://helpx.adobe.com/jp/campaign/kb/acs-article-list.html" target="blank"> テクニカルノート </a> - <a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja" target="_blank"> エラードキュメント </a> - <a href="https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=ja">Campaign コントロールパネルメッセージの一覧</a>
 </td>
 </tr></table>

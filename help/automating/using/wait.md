@@ -10,9 +10,13 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 2ddc1b2b-0df5-4c91-a381-451cc094f2eb
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/PnbExucfP9-JLJA-0krFYAkYXJYExhHxEl7TRu5efec
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: 298
 ht-degree: 98%
 
 ---
@@ -23,11 +27,11 @@ ht-degree: 98%
 
 ![](assets/wait.png)
 
-「**[!UICONTROL Wait]**」アクティビティは、ワークフローの一部の実行を一時的に中断します。数秒から数ヶ月の遅延の後に、アウトバウンドトランジションがアクティブになり、その後、指定されたアクティビティが実行されます。
+「**[!UICONTROL Wait]**」アクティビティは、ワークフローの一部の実行を一時的に中断します。 数秒から数ヶ月の遅延の後に、アウトバウンドトランジションがアクティブになり、その後、指定されたアクティビティが実行されます。
 
-## 使用コンテキスト {#context-of-use}
+## Context of use {#context-of-use}
 
-「**[!UICONTROL Wait]**」アクティビティは、実行する 2 つのアクティビティ間に一定の時間間隔を設定するために使用します。例えば、メール配信アクティビティを実行したあと数日間待機し、この期間中に発生した開封数とクリック数を分析してから、フォローアップ操作（リマインダーメール、オーディエンスの作成など）を実行します。
+「**[!UICONTROL Wait]**」アクティビティは、実行する 2 つのアクティビティ間に一定の時間間隔を設定するために使用します。 例えば、メール配信アクティビティを実行したあと数日間待機し、この期間中に発生した開封数とクリック数を分析してから、フォローアップ操作（リマインダーメール、オーディエンスの作成など）を実行します。
 
 ## 設定 {#configuration}
 
@@ -43,7 +47,7 @@ ht-degree: 98%
 
 ## 例 {#example}
 
-以下に、「**[!UICONTROL Wait]**」アクティビティの一般的なユースケースを示します。イベントへの招待メールを送信します。送信後 24 時間が経過すると、メール配信ログが分析され、最初のメールを受信したものの登録しなかった人に対してリマインダーメールが送信されます。
+以下に、「**[!UICONTROL Wait]**」アクティビティの一般的なユースケースを示します。 イベントへの招待メールを送信します。 送信後 24 時間が経過すると、メール配信ログが分析され、最初のメールを受信したものの登録しなかった人に対してリマインダーメールが送信されます。
 
 ワークフローは次のとおりです。
 

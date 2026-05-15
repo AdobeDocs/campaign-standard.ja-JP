@@ -1,6 +1,6 @@
 ---
 title: アプリ内 FAQ
-description: アプリ内メッセージに関するよくある質問（FAQ）
+description: アプリ内メッセージに関するよくある質問
 audience: channels
 content-type: reference
 topic-tags: in-app-messaging
@@ -8,83 +8,88 @@ context-tags: delivery,triggers,back
 feature: In App
 role: User
 exl-id: 0101773d-b109-49a3-89d4-b4bb226d9ebd
-source-git-commit: 597ece8d833a216f0540f801461b08fdc9865024
+TQID: https://experienceleague.adobe.com/eR4kpesC5-G0rsM3FecB4uqiPFNE4Q3K-iJJoZ09iuM
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 0%
+source-wordcount: 725
+ht-degree: 2%
 
 ---
 
 # アプリ内 FAQ {#in-app-faq}
 
-## Adobe Campaign Standardのアプリ内チャネルについて詳しく知るのに役立つリソースの推奨事項を教えてください。 {#resources-inapp}
+## Adobe Campaign Standardのアプリ内チャネルについて詳しく知るための便利なリソースの推奨事項は何ですか？ {#resources-inapp}
 
-以下のリソースを確認してください。
+以下のリソースをご覧ください。
 
-* [&#x200B; ビデオTutorials](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/in-app/in-app-message-overview.html?lang=ja)
-* [&#x200B; ブログ投稿 &#x200B;](https://theblog.adobe.com/get-more-out-of-the-new-in-app-message-channel-from-adobe-campaign/)
-* [&#x200B; コミュニティページ &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community?profile.language=ja)
+* [ビデオチュートリアル](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/in-app/in-app-message-overview.html)
+* [ブログ投稿](https://theblog.adobe.com/get-more-out-of-the-new-in-app-message-channel-from-adobe-campaign/)
+* [コミュニティページ](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
-## Campaign 拡張機能 API の setLinkageField および resetLinkageField の目的は何ですか？ {#extensions-apis}
+## Campaign拡張機能API setLinkageFieldとresetLinkageFieldの目的は何ですか？ {#extensions-apis}
 
-アプリ内メッセージはSDKによって Campaign から取り込まれるので、PII データを含んだアプリ内メッセージが悪意のあるユーザーの手に渡らないようにする安全なメカニズムを提供する必要があります。 そのため、デバイスへのメッセージの安全な配信を確保するために、次のメカニズムが用意されています。
+アプリ内メッセージはCampaignからSDKによって取得されるため、PII データを含むアプリ内メッセージが悪意のある手に渡らないように、安全な仕組みを提供する必要があります。 そのため、デバイスへのメッセージの安全な配信を確保するために、次のメカニズムが導入されています。
 
-* 顧客は、この特定の情報を安全に配信する必要がある場合、モバイルプロファイルフィールド（appSubscriberRcp テーブル）フィールドを個人用および機密としてマークします。
-* そのようにマークされたフィールドは、追加のセキュリティメカニズムが組み込まれたプロファイルテンプレート（appSubscriber テンプレートまたはブロードキャストテンプレートではない）でのみ使用できます。
-* プロファイルテンプレートを使用して作成されたメッセージは、ユーザーがアプリにログインした場合にのみ提供されます。
-* この安全なハンドシェイクを容易にするために、モバイルアプリ開発者は setLinkageField API を使用して、追加の認証詳細を渡す必要があります。 リンケージフィールドは、appSubscriberRcp テーブルの拡張時にモバイルプロファイルと CRM プロファイル間のリンクとして識別されるフィールドです。
-* ユーザーが resetLinkageField を使用してアプリからログアウトすると、デバイスと resetLinkageFields に保存されているアプリ内メッセージをフラッシュする必要があります。 これにより、別のユーザーがアプリにログインした場合、以前のユーザー向けのメッセージが表示されなくなります。
-* このセキュリティ機構をクライアントサイドで実装するには、[Mobile SDK API](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/) を参照してください。
+* 顧客は、この特定の情報を安全に配信したいのであれば、モバイルプロファイルフィールド（appSubscriberRcp テーブル）を「個人」フィールドおよび「機密」フィールドとしてマークします。
+* そのようにマークされたフィールドは、追加のセキュリティメカニズムが組み込まれているプロファイルテンプレート（appSubscriber テンプレートまたはBroadcast テンプレートではなく）でのみ使用できます。
+* プロファイルテンプレートを使用して作成されたメッセージは、ユーザーがアプリにログインした場合にのみ配信できます。
+* この安全なハンドシェイクを容易にするために、モバイルアプリ開発者はsetLinkageField APIを使用して追加の認証の詳細を渡す必要があります。 リンクフィールドは、appSubscriberRcp テーブルを拡張する際に、モバイルプロファイルとCRM プロファイル間のリンクとして識別されるリンクフィールドです。
+* デバイスに保存されているアプリ内メッセージをフラッシュし、ユーザーがresetLinkageFieldを使用してアプリからログアウトしたときにresetLinkagefieldsをフラッシュする必要があります。 これにより、別のユーザーがアプリにログインしても、以前のユーザー向けのメッセージが表示されなくなります。
+* このセキュリティメカニズムをクライアントサイドで実装するには、[ モバイルSDK API](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/)を参照してください。
 
-## Campaign でアプリ内レポートを有効にするには、どうすればよいですか？ {#enable-inapp-reporting}
+## Campaignでアプリ内レポートを有効にするには、どうすればよいですか？ {#enable-inapp-reporting}
 
-アプリ内トラッキングのポストバックを設定する必要があります。 手順については、[&#x200B; こちら &#x200B;](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback) を参照してください。
+アプリ内トラッキングのポストバックを設定する必要があります。 手順は[こちら](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback)にあります。
 
-ローカル通知トラッキングを実装するには、この [&#x200B; ページ &#x200B;](../../administration/using/local-tracking.md) を参照してください。
+ローカル通知トラッキングを実装するには、この[ ページ ](../../administration/using/local-tracking.md)を参照してください。
 
 ## アプリ内チャネルで使用できるレポートはどれですか？ {#report-inapp}
 
-アプリ内チャネル用のAdobe Campaignでは、標準レポートを使用できます。 この [&#x200B; ドキュメント &#x200B;](../../reporting/using/in-app-report.md) を参照してください。
+Adobe Campaignのアプリ内チャネルでは、すぐに利用できるレポートを利用できます。 この[ ドキュメント ](../../reporting/using/in-app-report.md)を参照してください。
 
-各アプリ内指標の計算方法については、この [&#x200B; ページ &#x200B;](../../reporting/using/indicator-calculation.md#in-app-delivery) を参照してください。
+各アプリ内指標の計算方法については、この[ ページ ](../../reporting/using/indicator-calculation.md#in-app-delivery)を参照してください。
 
-## プッシュと同様に、アプリ内の多言語コンテンツのバリエーションをサポートしていますか？ {#multilingual-inapp}
+## プッシュ通知と同様に、アプリ内で多言語コンテンツのバリエーションをサポートしていますか？ {#multilingual-inapp}
 
-現在、アプリ内メッセージで使用できる多言語テンプレートはありません。
+アプリ内メッセージで使用できる多言語テンプレートは現在利用できません。
 
-ただし、英語以外の言語でアプリ内メッセージを送信することが目的の場合は、使用可能なテキストボックスにコンテンツを直接貼り付けることができます。
+ただし、目的が英語以外の言語でアプリ内メッセージを送信する場合は、コンテンツを使用可能なテキストボックスに直接貼り付けることができます。
 
 ![](assets/faq_inapp.png)
 
-## Campaign のパーソナライゼーションフィールドをカスタムHTMLに追加できますか？ {#custom-html-inapp}
+## Campaign パーソナライゼーションフィールドをカスタム HTMLに追加できますか？ {#custom-html-inapp}
 
-いいえ、まだサポートされていません。
+いいえ、これはまだサポートされていません。
 
 ## アラートメッセージを設定しましたが、デバイスに表示されません。 {#alert-message}
 
-アラートメッセージの場合は、少なくとも 1 つの解除ボタン（プライマリまたはセカンダリにアクションの解除が必要）が必要です。 それ以外の場合は、メッセージを保存することは可能ですが、受信されません。
+アラートメッセージの場合、少なくとも1つの却下ボタン（プライマリまたはセカンダリにはアクションの却下が必要）が必要です。 それ以外の場合は、メッセージを保存できますが、受信できません。
 
-## ローカル通知でiOSのカスタムサウンドが再生されない場合は、デフォルトのサウンドが再生されますか？ {#local-notification-sound}
+## ローカル通知iOSのカスタムサウンドが再生されない場合、デフォルトのサウンドが代わりに再生されますか？ {#local-notification-sound}
 
-iOSのカスタムサウンドの場合は、ローカル通知を作成する際に、拡張子を付けたファイル名を指定する必要があります（例：sound.caf）。 この拡張機能が指定されていない場合、デフォルトのサウンドが使用されます。
+IOSでカスタムサウンドを作成する場合、ローカル通知（sound.cafなど）を作成する際に、拡張子の付いたファイル名を指定する必要があります。 この拡張機能が指定されていない場合は、デフォルトのサウンドが使用されます。
 
-## ディープリンクはアプリ内メッセージでサポートされていますか？ {#inapp-deeplinks}
+## アプリ内メッセージでディープリンクはサポートされていますか？ {#inapp-deeplinks}
 
-はい、ディープリンクはアプリ内メッセージでサポートされています。 ディープリンクには、次を含める必要があります。
+はい、アプリ内メッセージではディープリンクがサポートされています。 ディープリンクには次のものが含まれます。
 
-* ディープリンクを機能させるには、配信トラッキングを無効にする必要があることを示す言語です。
-* ディープリンクトラッキングを実行できるパートナーとして支店を持つ Appsflyer。 ブランチとAdobe Campaign Standardの統合について詳しくは、この [&#x200B; ページ &#x200B;](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1) を参照してください。
+* ディープリンクを機能させるには、配信トラッキングを無効にする必要があることを示す言語。
+* AppsflyerとBranchをパートナーとして使用して、ディープリンクの追跡を行うことができます。 分岐とAdobe Campaign Standardの統合について詳しくは、この[ ページ ](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1)を参照してください。
 
-## ユーザーがプッシュ通知からアプリを起動すると、アプリ内メッセージをトリガーできますか？ {#inapp-push-trigger}
+## ユーザーがプッシュ通知からアプリを起動したときに、アプリ内メッセージをトリガーできますか？ {#inapp-push-trigger}
 
-はい、これらのメッセージはデイジーチェーンメッセージとも呼ばれます。 次の手順に従います。
+はい、これらのメッセージはデイジーチェーンメッセージとも呼ばれます。 以下の手順に従います。
 
-1. アプリ内メッセージを作成します。
+1. アプリ内メッセージの作成。
 
-1. カスタムイベントを定義し、この IAM のイベントトリガーとして選択します（例：「秋のプレビュープッシュからのトリガー」）。
+1. カスタムイベントを定義し、このIAMのイベントトリガーとして選択します（例：「秋のプレビュープッシュからのトリガー」）。
 
-1. プッシュメッセージをオーサリングする際に、IAM のトリガーに使用するイベントとして値を設定できるカスタム変数を定義します（例：Key = &quot;inappkey&quot;、value = &quot;秋のプレビュープッシュのトリガー&quot;）。
+1. プッシュメッセージをオーサリングする際に、値をIAMのトリガーに使用するイベントとして設定できるカスタム変数を定義します（例：Key = &quot;inappkey&quot;、value = &quot;秋のプレビュープッシュからのトリガー&quot;）。
 
-1. モバイルアプリコードで、次のようにイベントトリガーを実装します。
+1. モバイルアプリコードで、イベントトリガーを次のように実装します。
 
    ![](assets/faq_inapp_2.png)

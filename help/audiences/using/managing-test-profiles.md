@@ -9,10 +9,15 @@ feature: Profiles
 role: User
 level: Intermediate
 exl-id: 56ece9da-18ec-4d27-a637-c22709a5e6aa
-source-git-commit: 6530ca1726a2aff18c5be9566d8008c317918e64
+TQID: https://experienceleague.adobe.com/csDw0anKGvAW22BcB5p0Rb1bHYA2NvdWpLVIWtZrC98
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 94%
+source-wordcount: 454
+ht-degree: 91%
 
 ---
 
@@ -20,7 +25,7 @@ ht-degree: 94%
 
 ## テストプロファイルについて {#about-test-profiles}
 
-テストプロファイルを使用すると、定義済みのターゲティング条件に一致しない追加の受信者をターゲットにすることができます。テストプロファイルは、受信者データベースの不正使用を検出したり、メールがインボックスに確実に届くようにしたりするために、メッセージのオーディエンスに追加されます。
+テストプロファイルを使用すると、定義済みのターゲティング条件に一致しない追加の受信者をターゲットにすることができます。 テストプロファイルは、受信者データベースの不正使用を検出したり、メールがインボックスに確実に届くようにしたりするために、メッセージのオーディエンスに追加されます。
 
 ![](assets/do-not-localize/how-to-video.png) [ビデオでこの機能を確認する](#video)
 
@@ -28,19 +33,19 @@ ht-degree: 94%
 
 テストプロファイルには架空の連絡先情報または送信者が制御できる連絡先情報が含まれています。その情報をメッセージで使用できるコンテキストは次のいずれかです。
 
-* **配達確認**&#x200B;の送信のため：配達確認は、受信者に最終的な配信を送信する前にメッセージを確認するための特定のメッセージです。配達確認テストプロファイルには、配信の内容や形式をチェックする役割があります。詳しくは、[配達確認の送信](../../sending/using/sending-proofs.md)を参照してください。
-* **メールのレンダリング**&#x200B;の場合：メールのレンダリングのテストプロファイルは、メッセージを受信したメッセージインボックスに応じたメッセージの表示方法を確認するために使用します。例えば、Web メール、メッセージサービス、モバイルなどです。[メールのレンダリング](../../sending/using/email-rendering.md)を参照してください。
+* **配達確認**&#x200B;の送信のため：配達確認は、受信者に最終的な配信を送信する前にメッセージを確認するための特定のメッセージです。 配達確認テストプロファイルには、配信の内容や形式をチェックする役割があります。 詳しくは、[配達確認の送信](../../sending/using/sending-proofs.md)を参照してください。
+* **メールのレンダリング**&#x200B;の場合：メールのレンダリングのテストプロファイルは、メッセージを受信したメッセージインボックスに応じたメッセージの表示方法を確認するために使用します。 たとえば、web メール、メッセージサービス、モバイルなどです。[電子メールのレンダリング ](../../sending/using/email-rendering.md)を参照してください。
 
-  **メールのレンダリング**&#x200B;の使用は読み取り専用です。Adobe Campaign でそのまま使用できるのは、この用途のテストプロファイルのみです。
+  **メールのレンダリング**&#x200B;の使用は読み取り専用です。 Adobe Campaign でそのまま使用できるのは、この用途のテストプロファイルのみです。
 
-* **トラップ**&#x200B;として：メッセージは、メインターゲットに送信される場合と同じように、テストプロファイルに送信されます。[トラップの使用](../../sending/using/using-traps.md)を参照してください。
-* メッセージの&#x200B;**プレビュー**&#x200B;のため：メッセージのプレビュー時にテストプロファイルを選択して、パーソナライゼーション要素をテストできます。[メッセージのプレビュー](/help/sending/using/previewing-messages.md)を参照してください。
+* **トラップ**&#x200B;として：メッセージは、メインターゲットに送信される場合と同じように、テストプロファイルに送信されます。 [トラップの使用](../../sending/using/using-traps.md)を参照してください。
+* メッセージの&#x200B;**プレビュー**&#x200B;のため：メッセージのプレビュー時にテストプロファイルを選択して、パーソナライゼーション要素をテストできます。 [メッセージのプレビュー](/help/sending/using/previewing-messages.md)を参照してください。
 
 ![](assets/test_profile.png)
 
 ## テストプロファイルの作成 {#creating-test-profiles}
 
-1. Adobe Campaign のロゴをクリックし、詳細設定メニューから **Profiles &amp; audiences／Test profiles** を選択して、テストプロファイルのリストにアクセスします。
+1. Adobe Campaign のロゴをクリックし、詳細設定メニューから&#x200B;**プロファイルとオーディエンス／プロファイルをテスト**&#x200B;を選択して、テストプロファイルのリストにアクセスします。
 
    ![](assets/test_profile_creation_1.png)
 
@@ -82,6 +87,6 @@ ht-degree: 94%
 
 このビデオでは、テストプロファイルの作成方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/328365?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/24094?quality=12)
 
-その他のCampaign Standardチュートリアルビデオについては、[&#x200B; こちら &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja) を参照してください。
+その他のCampaign Standardのハウツー動画は[こちら](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja)でご覧いただけます。

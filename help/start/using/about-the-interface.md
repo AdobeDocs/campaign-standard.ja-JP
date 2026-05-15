@@ -1,6 +1,6 @@
 ---
 title: インターフェイスについて
-description: Campaign Workspace は、すべてのAdobe Experience Cloud ソリューションに共通する概念に基づいています。
+description: Campaign ワークスペースは、すべてのAdobe Experience Cloud ソリューションに共通する概念に基づいています。
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
@@ -8,32 +8,39 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: d32f2dd1-c579-4a3e-8330-b39bce941656
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/QRxTBg-V-7ingt25U37UEKIQOrbjOOM4MY0jdEpM-OA
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a658c786-869b-4194-a780-2594d663adda
+subfeature_v2: id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d3cdead0-685a-4489-9250-4bb709942f66id: e0eb8757-182f-49f3-94a4-1587d16f5094id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: 433
 ht-degree: 4%
 
 ---
 
 # インターフェイスについて{#about-the-interface}
 
-Adobe Campaignのユーザーインターフェイスは、すべてのAdobe Experience Cloud ソリューションに共通の概念に基づいています。
+Adobe Campaignのユーザーインターフェイスは、すべてのAdobe Experience Cloud ソリューションに共通する概念に基づいています。
 
-このインターフェイスは web ブラウザー向けです。 これは完全にサイズ変更できるので、使用されるメディア（デスクトップコンピューターまたはタブレット）に自動的に適応します。 すべての要素は、マウスまたはタッチスクリーンの使用と互換性があります。
+このインターフェイスは、web ブラウザーを対象としています。 それは完全にサイズ変更可能であり、したがって、それが使用されるメディアに自動的に適応します：デスクトップコンピュータまたはタブレット。 あらゆる要素は、マウスやタッチスクリーンの使用に対応しています。
 
-Campaign のインターフェイス、機能およびアクセスできるオプションは、契約やユーザー権限によって異なる場合があります。 英語、フランス語、ドイツ語でご利用いただけます。
+アクセスできるキャンペーンインターフェイス、機能、オプションは、契約とユーザーの権限によって異なります。 英語、フランス語、ドイツ語でご利用いただけます。
 
 言語はインストール時に設定され、後で変更することはできません。
 
-様々な用途や提供される新機能に適応するために、Adobe Campaign ユーザーインターフェイスとそのすべての要素が定期的に更新されます。 使用しているバージョンとこのドキュメントに表示される画面には、いくつかの違いがあります。
+提供されるさまざまな用途や新機能に対応するために、Adobe Campaignのユーザーインターフェイスとそのすべての要素は定期的に更新されます。 使用しているバージョンと、このドキュメントに表示されている画面との間に、いくつかの違いがあります。
 
-ナビゲーションの原則は、これらのすべてのソリューションに共通です。
+ナビゲーションの原則は、これらのソリューションすべてに共通しています。
 
-Adobe Campaignを使用してマーケティングキャンペーンを作成および調整する主な手順は次のとおりです。
+Adobe Adobe Campaignを利用して、マーケティングキャンペーンを構築、調整するための主なステップは次のとおりです。
 
-* **準備** – この初期フェーズでは、ユーザーはキャンペーンのニーズ、意図および目標を形式化できます。マーケティングプランの作成、ターゲットの特定、コンテンツと作成モードの定義、予想される結果、関係者などです。
-* **ターゲティング** - ターゲティングフェーズでは、データ収集モード、構造、セグメント化、オーディエンス、シードおよびテスト、設計するフィルタリング条件などを定義できます。 このフェーズでは、購読/購読解除方法も設定できます。 [&#x200B; プロファイルとオーディエンス &#x200B;](../../audiences/using/about-profiles.md) を参照してください。
-* **メッセージとコンテンツの作成** – このフェーズでは、[&#x200B; 通信チャネル &#x200B;](../../channels/using/get-started-communication-channels.md) を選択します。 また、[&#x200B; ランディングページ &#x200B;](../../channels/using/getting-started-with-landing-pages.md) をデザインして、プロファイルを取得または更新し、データベースを拡張することもできます。 [&#x200B; メールの作成 &#x200B;](../../channels/using/creating-an-email.md)、[SMS メッセージの作成 &#x200B;](../../channels/using/creating-an-sms-message.md)、[&#x200B; プッシュ通知の作成 &#x200B;](../../channels/using/preparing-and-sending-a-push-notification.md)、[&#x200B; アプリ内メッセージの作成 &#x200B;](../../channels/using/about-in-app-messaging.md)、[&#x200B; ダイレクトメール配信の作成 &#x200B;](../../channels/using/creating-the-direct-mail.md) を参照してください。
-* **テストと送信** – 実行フェーズでは、ユーザーは様々な検証ステップ（コンテンツ、ターゲット）を、特にプレビュー画面から、送信前に承認者に配達確認を送信することで実行できます。 [&#x200B; テストと送信 &#x200B;](../../sending/using/get-started-sending-messages.md) を参照してください。
-* **監視とレポート** - キャンペーンが実行され、様々なメッセージが送信されると、このステージでは、ユーザーは送信の様々なステータスや、トラッキングと監視情報を収集できます。 キャンペーンと配信のレポートは、キャンペーンの影響と受信者のアクティビティをトラッキングするために生成されます。 [&#x200B; レポートツール &#x200B;](../../reporting/using/about-dynamic-reports.md) を参照してください。
-* **自動化** – この段階では、インポート/エクスポートメカニズムの実装方法、データ管理モードと更新モード、パーソナライゼーションデータの識別など、追加の要因があります。 が定義されています。 [&#x200B; ワークフローとデータ管理 &#x200B;](../../automating/using/get-started-workflows.md) を参照してください。
+* **準備** – この初期フェーズでは、マーケティングプランの作成、ターゲットの特定、コンテンツと作成モードの定義、期待される結果、関与する人々など、キャンペーンの必要性、意図、目的を体系化できます。
+* **ターゲティング** - ターゲティング フェーズでは、データ収集モード、構造、セグメント化、オーディエンス、シードとテスト、デザインするフィルター条件などを定義できます。このフェーズでは、購読/購読解除メソッドを設定することもできます。 [ プロファイルとオーディエンス ](../../audiences/using/about-profiles.md)を参照してください。
+* **メッセージとコンテンツの作成** – このフェーズでは、[ コミュニケーションチャネル ](../../channels/using/get-started-communication-channels.md)を選択します。 また、[ ランディングページ ](../../channels/using/getting-started-with-landing-pages.md)をデザインして、プロファイルを取得または更新し、データベースを拡張することもできます。 [ メールの作成](../../channels/using/creating-an-email.md)、[SMS メッセージの作成](../../channels/using/creating-an-sms-message.md)、[ プッシュ通知の作成](../../channels/using/preparing-and-sending-a-push-notification.md)、[ アプリ内メッセージの作成](../../channels/using/about-in-app-messaging.md)、[ ダイレクトメール配信の作成](../../channels/using/creating-the-direct-mail.md)を参照してください。
+* **テストと送信** – 実行フェーズでは、特にプレビュー画面を使用して、様々な検証ステップ（コンテンツ、ターゲット）を実行し、送信前に承認者にプルーフを送信することができます。 [ テストと送信](../../sending/using/get-started-sending-messages.md)を参照してください。
+* **監視とレポート** - キャンペーンが実行され、異なるメッセージが送信された後、この段階では、ユーザーは送信のさまざまなステータス、および追跡と監視の情報を収集できます。 キャンペーンと配信レポートは、キャンペーンと受信者のアクティビティの影響を追跡するために生成されます。 [ レポートツール ](../../reporting/using/about-dynamic-reports.md)を参照してください。
+* **自動化** – この段階では、インポート/エクスポートメカニズムの実装方法、データ管理と更新モード、パーソナライゼーションデータ識別などの追加要素が定義されます。 [ ワークフローとデータ管理](../../automating/using/get-started-workflows.md)を参照してください。
