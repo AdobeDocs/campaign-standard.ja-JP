@@ -10,9 +10,20 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: d362563f-5ab3-4f7f-ae9f-a42b6f0bb2b9
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/ad9kmTbPPHVESELYoejgAaUcSy-JgBL00xW7OMW2NUo
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: 473
 ht-degree: 97%
 
 ---
@@ -25,9 +36,9 @@ ht-degree: 97%
 
 「**[!UICONTROL Update data]**」アクティビティを使用すると、データベース内のフィールドに対して一括更新を実行できます。
 
-## 使用コンテキスト {#context-of-use}
+## Context of use {#context-of-use}
 
-「**データ更新**」アクティビティは、ファイルのインポート後に使用して、復元されたデータを Adobe Campaign データベースに挿入できます。いくつかのオプションを使用して、データ更新をパーソナライズできます。
+「**データ更新**」アクティビティは、ファイルのインポート後に使用して、復元されたデータを Adobe Campaign データベースに挿入できます。 いくつかのオプションを使用して、データ更新をパーソナライズできます。
 
 **関連トピック：**
 
@@ -41,7 +52,7 @@ ht-degree: 97%
 1. 実行する「**[!UICONTROL Operation type]**」を次のいずれかに指定します。
 
    * **[!UICONTROL Insert or update]**：データを挿入するか、データベースに既にレコードが存在する場合は更新します。
-   * **[!UICONTROL Insert only]**：データのみ挿入します。既に存在するレコードは更新されません。紐付け条件が定義されている場合は、紐付けされていないレコードのみ追加されます。
+   * **[!UICONTROL Insert only]**：データのみ挿入します。 既に存在するレコードは更新されません。 紐付け条件が定義されている場合は、紐付けされていないレコードのみ追加されます。
 
      インポートしたデータに、データベースに既に存在する特定のレコードが含まれている場合は、「**[!UICONTROL Generate an outbound transition for rejects]**」チェックボックスをオンにして、起こり得るエラーを回避します。
 
@@ -54,20 +65,20 @@ ht-degree: 97%
 
 1. **[!UICONTROL Identification]**&#x200B;タブで、データベース内のレコードを識別する方法を指定します。
 
-   * **[!UICONTROL Using the targeting dimension]**：「**[!UICONTROL Dimension to update]**」を選択した後、「**[!UICONTROL Keys for finding records]**」を指定します。詳しくは、[ターゲティングディメンションとリソース](../../automating/using/query.md#targeting-dimensions-and-resources)を参照してください。
-   * 入力したデータが既存のターゲティングディメンションと一致する場合は、「**[!UICONTROL Using one or more links]**」オプションを選択します。次に、「**[!UICONTROL Dimension to update]**」を選択します。
+   * **[!UICONTROL Using the targeting dimension]**：「**[!UICONTROL Dimension to update]**」を選択した後、「**[!UICONTROL Keys for finding records]**」を指定します。 詳しくは、[ターゲティングディメンションとリソース](../../automating/using/query.md#targeting-dimensions-and-resources)を参照してください。
+   * 入力したデータが既存のターゲティングディメンションと一致する場合は、「**[!UICONTROL Using one or more links]**」オプションを選択します。 次に、「**[!UICONTROL Dimension to update]**」を選択します。
 
    選択した操作タイプに更新が必要な場合は、紐付けキーを使用する必要があります。
 
-1. 「**[!UICONTROL Fields to update]**」タブで、更新を適用するフィールドを指定し、必要に応じて条件を追加して、更新を実行します。それには、「**[!UICONTROL Taken into account if]**」列を使用します。条件はリスト順に順番に適用されます。更新の順序を変更するには、右側の矢印を使用します。同じ宛先フィールドを何度も使用できます。
+1. 「**[!UICONTROL Fields to update]**」タブで、更新を適用するフィールドを指定し、必要に応じて条件を追加して、更新を実行します。 それには、「**[!UICONTROL Taken into account if]**」列を使用します。 条件はリスト順に適用されます。 更新の順序を変更するには、右側の矢印を使用します。 同じ宛先フィールドを何度も使用できます。
 
-   「![](assets/wkf_magic_wand-24px.png)」ボタンを使用すると、フィールドを自動的にリンクできます。自動リンクでは、同じ名前のフィールドが検出されます。
+   「![](assets/wkf_magic_wand-24px.png)」ボタンを使用すると、フィールドを自動的にリンクできます。 自動リンクでは、同じ名前のフィールドが検出されます。
 
-   「**[!UICONTROL Insert or update]**」タイプの操作時に、各フィールドに適用する操作を個別に選択できます。それには、「**[!UICONTROL Operation]**」列で目的の値を選択します。
+   「**[!UICONTROL Insert or update]**」タイプの操作時に、各フィールドに適用する操作を個別に選択できます。 それには、「**[!UICONTROL Operation]**」列で目的の値を選択します。
 
    >[!NOTE]
    >
-   >**更新の管理**：「**[!UICONTROL lastModified]**」、「**[!UICONTROL modifiedBy]**」、「**[!UICONTROL created]**」および「**[!UICONTROL createdBy]**」フィールドの設定がフィールド更新テーブルで明示的に実行されていない限り、「データ更新」アクティビティが実行されると、これらのフィールドが自動的に更新されます。更新は、少なくとも 1 つの差異が検出されたレコードに対してのみ実行されます。すべての値が同じ場合は、更新はおこなわれません。
+   >**更新の管理**：「**[!UICONTROL lastModified]**」、「**[!UICONTROL modifiedBy]**」、「**[!UICONTROL created]**」および「**[!UICONTROL createdBy]**」フィールドの設定がフィールド更新テーブルで明示的に実行されていない限り、「データ更新」アクティビティが実行されると、これらのフィールドが自動的に更新されます。 更新は、少なくとも 1 つの差異が検出されたレコードに対してのみ実行されます。 すべての値が同じ場合は、更新はおこなわれません。
 
 1. 必要に応じて、アクティビティの[トランジション](../../automating/using/activity-properties.md)を管理して、アウトバウンド母集団の詳細設定オプションにアクセスします。
 

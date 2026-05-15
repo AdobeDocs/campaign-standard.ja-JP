@@ -9,9 +9,16 @@ feature: Audiences
 role: User
 level: Beginner
 exl-id: b40e4f6f-34bb-40f9-80e8-e9f1bce5548c
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/ezjnDdGh2ZoRmrZN088QgZQh1NAtsequFpjK9VH6alk
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '969'
+source-wordcount: 969
 ht-degree: 98%
 
 ---
@@ -20,7 +27,7 @@ ht-degree: 98%
 
 ## クエリオーディエンスの作成 {#creating-query-audiences}
 
-この節では、**クエリ**&#x200B;オーディエンスを作成する方法について説明します。オーディエンスは、ファイルのインポートや[ワークフロー](../../automating/using/get-started-workflows.md)でのターゲティングからも作成できます。
+この節では、**クエリ**&#x200B;オーディエンスを作成する方法について説明します。 オーディエンスは、ファイルのインポートや[ワークフロー](../../automating/using/get-started-workflows.md)でのターゲティングからも作成できます。
 
 オーディエンスリストからオーディエンスを作成するには、Adobe Campaign プロファイルでクエリを実行するか、Adobe Experience Cloud オーディエンスをインポートします。
 
@@ -32,13 +39,13 @@ ht-degree: 98%
 
    ![](assets/audiences_query.png)
 
-1. オーディエンスに名前を付けます。オーディエンスラベルは、オーディエンスのリストとクエリツールのパレットで使用されます。
+1. オーディエンスに名前を付けます。 オーディエンスラベルは、オーディエンスのリストとクエリツールのパレットで使用されます。
 1. **[!UICONTROL Query]** オーディエンスタイプを選択します。クエリが定義するオーディエンスは、それ以降使用されるたびに再計算されます。
 
    ![](assets/audience_type_selection.png)
 
-1. 次に、顧客のフィルタリングに使用する **[!UICONTROL Targeting dimension]** を選択します。各オーディエンスは単一のターゲティングディメンションで構成されます。例えば、プロファイル、テストプロファイル、購読者すべてを使用してオーディエンスを作成することはできません。ターゲティングディメンションについて詳しくは、[このページ](../../automating/using/query.md#targeting-dimensions-and-resources)を参照してください。
-1. オーディエンス母集団を定義するクエリを作成します。[クエリの編集](../../automating/using/editing-queries.md)の節を参照してください。
+1. 次に、顧客のフィルタリングに使用する **[!UICONTROL Targeting dimension]** を選択します。 各オーディエンスは単一のターゲティングディメンションで構成されます。 例えば、プロファイル、テストプロファイル、購読者すべてを使用してオーディエンスを作成することはできません。 ターゲティングディメンションについて詳しくは、[このページ](../../automating/using/query.md#targeting-dimensions-and-resources)を参照してください。
+1. オーディエンス母集団を定義するクエリを作成します。 [クエリの編集](../../automating/using/editing-queries.md)の節を参照してください。
 1. オーディエンスを保存するには、「**[!UICONTROL Create]**」ボタンをクリックします。
 
 >[!NOTE]
@@ -47,7 +54,7 @@ ht-degree: 98%
 
 ## リストオーディエンスの作成 {#creating-list-audiences}
 
-ここでは、ワークフロー内でターゲティングした後に&#x200B;**リスト**&#x200B;オーディエンスを作成する方法について説明します。オーディエンスは、[ワークフロー](../../automating/using/get-started-workflows.md)にファイルをインポートして作成することも **[!UICONTROL Audiences]** メニューでクエリを使用して作成することもできます。
+ここでは、ワークフロー内でターゲティングした後に&#x200B;**リスト**&#x200B;オーディエンスを作成する方法について説明します。 オーディエンスは、[ワークフロー](../../automating/using/get-started-workflows.md)にファイルをインポートして作成することも **[!UICONTROL Audiences]** メニューでクエリを使用して作成することもできます。
 
 **リスト**&#x200B;オーディエンスを作成する手順は、次のとおりです。
 
@@ -55,13 +62,13 @@ ht-degree: 98%
 
    ![](assets/audiences_list_1.png)
 
-1. ドラッグ＆ドロップして、**既知の**&#x200B;ディメンションを持つ母集団を選択できるようにターゲティングアクティビティを設定します。使用可能なアクティビティのリストとその設定について詳しくは、[ターゲティングアクティビティ](../../automating/using/about-targeting-activities.md)の節を参照してください。
+1. ドラッグ＆ドロップして、**既知の**&#x200B;ディメンションを持つ母集団を選択できるようにターゲティングアクティビティを設定します。 使用可能なアクティビティのリストとその設定について詳しくは、[ターゲティングアクティビティ](../../automating/using/about-targeting-activities.md)の節を参照してください。
 
-   「**[!UICONTROL Reconciliation]**」アクティビティを使用してインポートされたデータのディメンションを識別する前に、「**[!UICONTROL Query]**」アクティビティを使用するか、「**[!UICONTROL Load file]**」アクティビティを使用してデータをインポートできます。ここでは、スポーツニュースレターを購読した受信者を「**[!UICONTROL Query]**」アクティビティでターゲットに指定します。
+   「**[!UICONTROL Reconciliation]**」アクティビティを使用してインポートされたデータのディメンションを識別する前に、「**[!UICONTROL Query]**」アクティビティを使用するか、「**[!UICONTROL Load file]**」アクティビティを使用してデータをインポートできます。 ここでは、スポーツニュースレターを購読した受信者を「**[!UICONTROL Query]**」アクティビティでターゲットに指定します。
 
    ![](assets/audiences_list_2.png)
 
-1. ターゲティングが終わったら、ワークフローに「**[!UICONTROL Save audience]**」アクティビティをドラッグ＆ドロップします。例えば、**[!UICONTROL Create or update an audience]** を実行すると、新しいデータを使用してオーディエンスを作成し、自動的に更新することができます。この場合、ワークフローの先頭に「**[!UICONTROL Scheduler]**」アクティビティを追加します。
+1. ターゲティングが終わったら、ワークフローに「**[!UICONTROL Save audience]**」アクティビティをドラッグ＆ドロップします。 例えば、**[!UICONTROL Create or update an audience]** を実行すると、新しいデータを使用してオーディエンスを作成し、自動的に更新することができます。 この場合、ワークフローの先頭に「**[!UICONTROL Scheduler]**」アクティビティを追加します。
 
    このアクティビティの設定について詳しくは、[オーディエンスの保存](../../automating/using/save-audience.md)の節を参照してください。
 
@@ -71,39 +78,39 @@ ht-degree: 98%
 
    **[!UICONTROL Save audience]** は既知のディメンションでのターゲティングの後に配置されるので、このアクティビティを介して作成されるオーディエンスは&#x200B;**リスト**&#x200B;オーディエンスです。
 
-   保存されたオーディエンスのコンテンツは、オーディエンスの詳細表示で利用でき、オーディエンスのリストを介してアクセスできます。この表示で使用できる列は、ワークフローの保存アクティビティのインバウンドトランジションの列に対応します（例：インポートしたファイルの列、クエリから追加された追加データの列）。
+   保存されたオーディエンスのコンテンツは、オーディエンスの詳細表示で利用でき、オーディエンスのリストを介してアクセスできます。 この表示で使用できる列は、ワークフローの保存アクティビティのインバウンドトランジションの列に対応します （例：インポートしたファイルの列、クエリから追加された追加データの列）。
 
    ![](assets/audiences_list_4.png)
 
 ## ファイルオーディエンスの作成 {#creating-file-audiences}
 
-この節では、ファイルをワークフローにインポートして&#x200B;**ファイル**&#x200B;オーディエンスを作成する方法について説明します。オーディエンスは、[ワークフロー](../../automating/using/get-started-workflows.md)内のターゲティングアクティビティから作成することも **[!UICONTROL Audiences]** メニューでクエリを使用して作成することもできます。
+この節では、ファイルをワークフローにインポートして&#x200B;**ファイル**&#x200B;オーディエンスを作成する方法について説明します。 オーディエンスは、[ワークフロー](../../automating/using/get-started-workflows.md)内のターゲティングアクティビティから作成することも **[!UICONTROL Audiences]** メニューでクエリを使用して作成することもできます。
 
 **ファイル**&#x200B;オーディエンスを作成する手順は、次のとおりです。
 
 1. 「**Marketing activities**」タブで「**Create**」をクリックし、「**Workflow**」を選択します。
-1. ドラッグ＆ドロップして、ワークフローの実行時に&#x200B;**不明な**&#x200B;ディメンションを持つ母集団をインポートできるように「**[!UICONTROL Load file]**」アクティビティを設定します。このアクティビティの設定について詳しくは、[ファイルの読み込み](../../automating/using/load-file.md)の節を参照してください。
+1. ドラッグ＆ドロップして、ワークフローの実行時に&#x200B;**不明な**&#x200B;ディメンションを持つ母集団をインポートできるように「**[!UICONTROL Load file]**」アクティビティを設定します。 このアクティビティの設定について詳しくは、[ファイルの読み込み](../../automating/using/load-file.md)の節を参照してください。
 
    ![](assets/audience_files_1.png)
 
-1. 「**[!UICONTROL Load file]**」アクティビティの後に「**[!UICONTROL Save audience]**」アクティビティをドラッグ＆ドロップします。このアクティビティの設定について詳しくは、[オーディエンスの保存](../../automating/using/save-audience.md)の節を参照してください。
+1. 「**[!UICONTROL Load file]**」アクティビティの後に「**[!UICONTROL Save audience]**」アクティビティをドラッグ＆ドロップします。 このアクティビティの設定について詳しくは、[オーディエンスの保存](../../automating/using/save-audience.md)の節を参照してください。
 1. 保存して、ワークフローを開始します。
 
    ![](assets/audience_files_2.png)
 
    **[!UICONTROL Save audience]** はインポートの後に配置されるので、データディメンションは不明で、このアクティビティを介して作成されるオーディエンスは&#x200B;**ファイル**&#x200B;オーディエンスです。
 
-   保存されたオーディエンスのコンテンツは、オーディエンスの詳細表示で利用でき、オーディエンスのリストを介してアクセスできます。この表示で使用できる列は、ワークフローの保存アクティビティのインバウンドトランジションの列に対応します（例：インポートしたファイルの列、クエリから追加された追加データの列）。
+   保存されたオーディエンスのコンテンツは、オーディエンスの詳細表示で利用でき、オーディエンスのリストを介してアクセスできます。 この表示で使用できる列は、ワークフローの保存アクティビティのインバウンドトランジションの列に対応します （例：インポートしたファイルの列、クエリから追加された追加データの列）。
 
    ![](assets/audience_files_3.png)
 
-## Experience Cloudオーディエンスの作成 {#creating-experience-cloud-audiences}
+## Experience Cloud オーディエンスの作成 {#creating-experience-cloud-audiences}
 
-Adobe Campaign を使用すると、Adobe Experience Cloud とオーディエンスを共有し、交換できます。**Experience Cloud** タイプのオーディエンスは、**[!UICONTROL Import shared audience]** テクニカルワークフローで、People コアサービスから Adobe Campaign に直接インポートされます。
+Adobe Campaign を使用すると、Adobe Experience Cloud とオーディエンスを共有し、交換できます。 **Experience Cloud** タイプのオーディエンスは、**[!UICONTROL Import shared audience]** テクニカルワークフローで、People コアサービスから Adobe Campaign に直接インポートされます。
 
 Adobe Campaign からのプロファイルに対してクエリをおこなう&#x200B;**クエリ**&#x200B;タイプのオーディエンスとは異なり、**Experience Cloud** オーディエンスは、訪問者 ID のリストで構成されます。
 
-この統合を機能させるには、まず統合を設定する必要があります。設定および People コアサービスを使用したオーディエンスのインポートまたはエクスポート方法について詳しくは、次の[節](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)を参照してください。
+この統合を機能させるには、まず統合を設定する必要があります。 設定および People コアサービスを使用したオーディエンスのインポートまたはエクスポート方法について詳しくは、次の[節](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)を参照してください。
 
 ![](assets/audience_peoplecore.png)
 
@@ -113,18 +120,18 @@ Adobe Campaign からのプロファイルに対してクエリをおこなう&#
 
 * **クエリ**&#x200B;オーディエンスを編集するには、**[!UICONTROL Audiences]** メニューからオーディエンスのリストに移動するか、Adobe Campaign ホームページから **[!UICONTROL Audiences]** カードに移動します。
 
-  関連オーディエンスを開きます。以前に作成したオーディエンスのすべての要素を編集できます。
+  関連オーディエンスを開きます。 以前に作成したオーディエンスのすべての要素を編集できます。
 
   >[!CAUTION]
   >
   >クエリで **[!UICONTROL Filtering dimension]** を変更すると、以前に定義されたルールは失われます。
 
-* **リスト**&#x200B;オーディエンスまたは&#x200B;**ファイル**&#x200B;オーディエンスを編集するには、作成元のワークフローを編集し、「**[!UICONTROL Save audience]**」アクティビティを変更します。ワークフローを開始すると、オーディエンスが変更されます。
+* **リスト**&#x200B;オーディエンスまたは&#x200B;**ファイル**&#x200B;オーディエンスを編集するには、作成元のワークフローを編集し、「**[!UICONTROL Save audience]**」アクティビティを変更します。 ワークフローを開始すると、オーディエンスが変更されます。
 * **Experience Cloud** オーディエンスを編集するには、[People コアサービスを使用したオーディエンスのインポートとエクスポート](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)の節を参照してください。
 
 ## オーディエンスの削除 {#deleting-audiences}
 
-オーディエンスを削除する方法は 2 つあります。まず、オーディエンスに有効期限を追加します。
+オーディエンスを削除する方法は 2 つあります。 まず、オーディエンスに有効期限を追加します。
 
 それには、次の手順に従います。
 
@@ -139,7 +146,7 @@ Adobe Campaign からのプロファイルに対してクエリをおこなう&#
 
 1. 「**[!UICONTROL Confirm]**」、「**[!UICONTROL Save]**」の順にクリックします。
 
-有効期限が設定されました。この日付に達すると、オーディエンスは自動的に削除されます。
+有効期限が設定されました。 この日付に達すると、オーディエンスは自動的に削除されます。
 
 オーディエンスを手動で削除する必要がある場合は、1 つまたは複数のオーディエンスを選択して「**[!UICONTROL Delete element]**」ボタンをクリックします。
 

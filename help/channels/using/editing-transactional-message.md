@@ -9,10 +9,21 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: f5dcb715-7cbd-49f2-8713-7e16cfa04184
-source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
+TQID: https://experienceleague.adobe.com/jad-jiasYpiF89F-rL0d0v30ZpdE4uiPJYICbtkBDWY
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 27%
+source-wordcount: 663
+ht-degree: 26%
 
 ---
 
@@ -57,7 +68,7 @@ ht-degree: 27%
 
 例えば、商品をカートに入れたweb サイトのユーザーに通知を送信し、購入を完了せずにサイトを離れたいとします。 この例は、[&#x200B; トランザクションメッセージの動作原則](../../channels/using/getting-started-with-transactional-msg.md#transactional-messaging-operating-principle) セクションに記載されています。
 
-1. 「**[!UICONTROL Content]**」ブロックをクリックして、メッセージの件名と内容を変更します。この例では、画像とテキストを含む任意のテンプレートを選択します。メールコンテンツテンプレートについて詳しくは、[&#x200B; テンプレートを使用したメールのデザイン &#x200B;](../../designing/using/using-reusable-content.md#designing-templates)を参照してください。
+1. 「**[!UICONTROL Content]**」ブロックをクリックして、メッセージの件名と内容を変更します。 この例では、画像とテキストを含む任意のテンプレートを選択します。 メールコンテンツテンプレートについて詳しくは、[&#x200B; テンプレートを使用したメールのデザイン &#x200B;](../../designing/using/using-reusable-content.md#designing-templates)を参照してください。
 
    ![](assets/message-center_6.png)
 
@@ -65,15 +76,15 @@ ht-degree: 27%
 
    >[!NOTE]
    >
-   >放棄された買い物かごへのリンクは、ユーザーを買い物かごにリダイレクトする外部 URL へのリンクです。このパラメーターは、Adobe Campaign では管理されません。
+   >放棄された買い物かごへのリンクは、ユーザーを買い物かごにリダイレクトする外部 URL へのリンクです。 このパラメーターは、Adobe Campaign では管理されません。
 
-1. この例では、[イベントの作成時](../../channels/using/configuring-transactional-event.md)に定義した、次の 3 つのフィールドを追加します。最初の名前、最後に問い合わせた製品、買い物かごの総数。これをおこなうには、メッセージコンテンツに[パーソナライゼーションフィールド](../../designing/using/personalization.md#inserting-a-personalization-field)を挿入します。
+1. この例では、[イベントの作成時](../../channels/using/configuring-transactional-event.md)に定義した、次の 3 つのフィールドを追加します。最初の名前、最後に問い合わせた製品、買い物かごの総数。 これをおこなうには、メッセージコンテンツに[パーソナライゼーションフィールド](../../designing/using/personalization.md#inserting-a-personalization-field)を挿入します。
 
 1. **[!UICONTROL Context]**／**[!UICONTROL Real-time event]**／**[!UICONTROL Event context]** を順に選択して、該当するフィールドを表示します。
 
    ![](assets/message-center_7.png)
 
-1. メッセージのコンテンツを充実させることもできます。 これを行うには、イベント設定にリンクしたテーブルからフィールドを追加します（[&#x200B; イベントの強化](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)を参照）。 この例では、**[!UICONTROL Title (salutation)]** テーブルから&#x200B;**[!UICONTROL Profile]** > **[!UICONTROL Context]** > **[!UICONTROL Real-time event]**&#x200B;までの&#x200B;**[!UICONTROL Event context]** フィールドを選択します。
+1. メッセージのコンテンツを充実させることもできます。 これを行うには、イベント設定にリンクしたテーブルからフィールドを追加します（[&#x200B; イベントの強化](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)を参照）。 この例では、**[!UICONTROL Profile]** テーブルから&#x200B;**[!UICONTROL Context]** > **[!UICONTROL Real-time event]** > **[!UICONTROL Event context]**&#x200B;までの&#x200B;**[!UICONTROL Title (salutation)]** フィールドを選択します。
 
    ![](assets/message-center_7-enrichment.png)
 
@@ -87,7 +98,7 @@ ht-degree: 27%
 
    ![](assets/message-center_9.png)
 
-   パーソナライゼーションフィールドがテストプロファイルに入力された情報と一致しているかどうかを確認できます。詳しくは、[特定のテストプロファイルの定義](../../channels/using/testing-transactional-message.md#defining-specific-test-profile)を参照してください。
+   パーソナライゼーションフィールドがテストプロファイルに入力された情報と一致しているかどうかを確認できます。 詳しくは、[特定のテストプロファイルの定義](../../channels/using/testing-transactional-message.md#defining-specific-test-profile)を参照してください。
 
 <!--
 ## Using product listings in a transactional message {#using-product-listings-in-a-transactional-message}
@@ -224,7 +235,7 @@ For more on creating a collection and related fields when configuring the event,
 相違点を次に示します。
 
 1. [作成されたトランザクションメッセージ &#x200B;](#accessing-transactional-messages)を編集します。
-1. トランザクションメッセージで、「**[!UICONTROL Content]**」セクションをクリックします。トランザクションメールテンプレートに加えて、**[!UICONTROL Profile]** リソースをターゲットとする任意のメールテンプレートを選択することもできます。
+1. トランザクションメッセージで、「**[!UICONTROL Content]**」セクションをクリックします。 トランザクションメールテンプレートに加えて、**[!UICONTROL Profile]** リソースをターゲットとする任意のメールテンプレートを選択することもできます。
 
    ![](assets/message-center_marketing_templates.png)
 

@@ -1,16 +1,21 @@
 ---
-title: データモデルサービス
-description: データモデルについて説明します
+title: DataModel サービス
+description: データモデルについて詳しく見る
 audience: developing
 content-type: reference
 feature: Data Model
 role: Developer
 level: Experienced
 exl-id: a326b38f-ca88-4a44-a7c2-b6e34497a364
-source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
+TQID: https://experienceleague.adobe.com/kGtxG4yKA8Uxzc0hZbZFk1VLiVM9FPTvCoIoMd--n4M
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 42%
+source-wordcount: 222
+ht-degree: 47%
 
 ---
 
@@ -22,7 +27,7 @@ ht-degree: 42%
                <tr>
                   <th>名前</th>
                   <th>ラベル</th>
-                  <th>タイプ （長さ）</th>
+                  <th>タイプ（長さ）</th>
                   <th>列挙値</th>
                </tr>
                <tr>
@@ -32,7 +37,7 @@ ht-degree: 42%
                   <td> </td>
                </tr>
                <tr>
-                  <td>builtIn</td>
+                  <td>ビルトイン</td>
                   <td>アプリケーションのビルトインオブジェクト</td>
                   <td>ブール値 </td>
                   <td> </td>
@@ -56,7 +61,7 @@ ht-degree: 42%
                   <td> </td>
                </tr>
                <tr>
-                  <td>降順</td>
+                  <td>desc</td>
                   <td>説明</td>
                   <td>文字列（512）</td>
                   <td> </td>
@@ -121,9 +126,9 @@ ht-degree: 42%
                   <td>列挙（バイト） </td>
                   <td>
                      <ul>
-                        <li>モバイル （SMS） - sms - 1</li>
-                        <li>電子メール – 電子メール - 0</li>
-                        <li>無効な値 – __Invalid_value__ - __Invalid_value__</li>
+                        <li>モバイル （SMS） - SMS - 1</li>
+                        <li>電子メール – メール - 0</li>
+                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
@@ -135,7 +140,7 @@ ht-degree: 42%
                      <ul>
                         <li>バイラル – バイラル - 1</li>
                         <li>ニュースレター – ニュースレター – 0</li>
-                        <li>無効な値 – __Invalid_value__ - __Invalid_value__</li>
+                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
@@ -188,7 +193,7 @@ ht-degree: 42%
                   <td> </td>
                </tr>
                <tr>
-                  <td>subscriptions</td>
+                  <td>広告と</td>
                   <td>購読</td>
                   <td>コレクション </td>
                   <td> </td>
@@ -200,7 +205,7 @@ ht-degree: 42%
                   <td> </td>
                </tr>
                <tr>
-                  <td>テンプレート （サービス）</td>
+                  <td>テンプレート（サービス）</td>
                   <td>サービステンプレート</td>
                   <td>リンク </td>
                   <td> </td>
@@ -219,7 +224,7 @@ ht-degree: 42%
                </tr>
                <tr>
                   <td>unsubLandingPage （landingPageUnsubscriptionBase）</td>
-                  <td>登録解除のランディングページ</td>
+                  <td>購読解除のランディングページ</td>
                   <td>リンク </td>
                   <td> </td>
                </tr>
@@ -245,7 +250,7 @@ ht-degree: 42%
 
 ## フィルター
 
-指定された期間に使用可能（byPlanning）
+特定の期間に使用可能（計画別）
 
 <table>
     <tr>
@@ -271,11 +276,11 @@ ht-degree: 42%
 </tr>
 <tr>
 <td>チャネル</td>
-<td>定義済みリスト</td>
+<td>列挙</td>
 </tr>
 </table>
 
-名前またはラベル （byText）
+名前またはラベル別（テキスト別）
 
 <table>
 <tr>
@@ -288,7 +293,7 @@ ht-degree: 42%
 </tr>
 </table>
 
-ターゲティングリソースによる（byTargetResource）
+リソースをターゲット化する（byTargetResource）
 
 <table>
 <tr>

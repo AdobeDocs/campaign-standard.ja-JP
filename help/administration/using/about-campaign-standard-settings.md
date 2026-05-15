@@ -7,25 +7,33 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 47ecacbf-2a6a-4f33-972a-b2e47dc0284e
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+TQID: https://experienceleague.adobe.com/qnlxw0F1UDC6yQpyAjKMtzdvFfd29pmSw6AaXX9V9ks
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '134'
+source-wordcount: 135
 ht-degree: 5%
 
 ---
 
 # Adobe Campaign Standard 設定について{#about-campaign-standard-settings}
 
-[!DNL Campaign] Standard には、ニーズに合わせて設定できる様々なアプリケーション要素が用意されています。 次に例を示します。
+[!DNL Campaign] Standardには、ニーズに合わせて設定できる様々なアプリケーション要素が付属しています。 例えば、次の操作を実行できます。
 
-* 外部アカウントの設定
-* ターゲットマッピングを設定して、配信の送信に必要な技術設定を管理します。
-* アプリケーション内の内部通知の設定など
+* 外部アカウントの設定，
+* 配信の送信に必要な技術設定を管理するためのターゲットマッピングの設定，
+* アプリケーション内での内部通知の設定など。
 
-これらの設定は、**[!UICONTROL Administration]** / **[!UICONTROL Application settings]** メニューから利用できます。
+これらの設定は、**[!UICONTROL Administration]** / **[!UICONTROL Application settings]** メニューから使用できます。
 
-また、**[!UICONTROL Options]** のメニューにはテクニカルオプションが用意されており、アプリケーションをより具体的に設定できます。 一部のオプションは、Campaign のインストール時に組み込まれていますが、必要に応じて手動で追加することもできます（使用可能なオプションは、インスタンスにインストールされているパッケージによって異なります）。
+さらに、技術的なオプションは&#x200B;**[!UICONTROL Options]** メニューで利用できるため、アプリケーションをより具体的に設定できます。 Campaignのインストール時に組み込まれるものもあれば、必要に応じて手動で追加できるものもあります（使用可能なオプションは、インスタンスにインストールされたパッケージによって異なります）。
 
 >[!IMPORTANT]
 >
->これらのオプションは、Campaign のインストール時に既に設定されているので、上級ユーザーのみが変更する必要があります。 ご不明な点やご要望については、Adobeの担当者までお問い合わせください。
+>これらのオプションは、Campaignのインストール時に既に設定されており、上級ユーザーのみが変更する必要があります。 ご質問やご要望がある場合は、Adobeの担当者にお問い合わせください。

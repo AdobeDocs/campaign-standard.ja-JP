@@ -8,10 +8,17 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: 8daeb12d-4170-464f-ba33-afb681f72a91
-source-git-commit: 5435e1dbfbe08399c488322320ac5bb8e681a79d
+TQID: https://experienceleague.adobe.com/L-X9Edd4xtAsuGslGuiCDQg5Ih06Cm83FNQIh4PeUak
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1038'
-ht-degree: 27%
+source-wordcount: 1040
+ht-degree: 26%
 
 ---
 
@@ -32,15 +39,15 @@ ht-degree: 27%
 構造ツリーを参照すると、より正確に選択できます。 次のいずれかを選択できます。
 
 * 構造全体の要素です，
-* one of the columns that compose the structure component,
-* or only a component that is located inside a column.
+* 構造コンポーネントを構成する列の1つ，
+* または列内にあるコンポーネントのみです。
 
 ![](assets/des_tree_structure_selection.png)
 
-To select a column, you can also do the following:
+列を選択するには、次の操作も実行できます。
 
-1. Select a structure component (directly in the email or using the structure tree available from the left **Palette**).
-1. From the **contextual toolbar**, click **[!UICONTROL Select a column]** to choose the desired column.
+1. 構造コンポーネントを選択します（メール内で直接、または左側の&#x200B;**パレット**&#x200B;から利用できる構造ツリーを使用）。
+1. **コンテキストツールバー**&#x200B;から、**[!UICONTROL Select a column]**&#x200B;をクリックして、目的の列を選択します。
 
 [このセクション &#x200B;](#example--adjusting-vertical-alignment-and-padding)の例を参照してください。
 
@@ -77,19 +84,19 @@ To select a column, you can also do the following:
 
 >[!NOTE]
 >
->Depending on your selection (structure component, column or content component), the result will not be the same. Adobeでは、列レベルで&#x200B;**[!UICONTROL Padding]**&#x200B;および&#x200B;**[!UICONTROL Margin]** パラメーターを設定することをお勧めします。
+>選択（構造コンポーネント、列またはコンテンツコンポーネント）に応じて、結果は異なります。 Adobeでは、列レベルで&#x200B;**[!UICONTROL Padding]**&#x200B;および&#x200B;**[!UICONTROL Margin]** パラメーターを設定することをお勧めします。
 
-For both **[!UICONTROL Padding]** and **[!UICONTROL Margin]**, click the lock icon to break synchronization between top and bottom or right and left parameters. This enables you to adjust each parameter separately.
+**[!UICONTROL Padding]**&#x200B;と&#x200B;**[!UICONTROL Margin]**&#x200B;の両方で、ロックアイコンをクリックして、上下または左右のパラメーター間の同期を解除します。 これにより、各パラメーターを個別に調整できます。
 
 ![](assets/des_padding_lock_icon.png)
 
-## Styling alignment {#about-alignment}
+## スタイルの整列 {#about-alignment}
 
-* **Text alignment**: place the cursor of your mouse on some text and use the contextual toolbar to align it.
+* **テキストの整列**：一部のテキストにマウスのカーソルを置き、コンテキストツールバーを使用して整列します。
 
   ![](assets/des_text_alignment.png)
 
-* **Horizontal alignment** can be applied to text, images and buttons - currently not to the **[!UICONTROL Divider]** and **[!UICONTROL Social]** components.
+* **水平方向の整列**&#x200B;は、テキスト、画像、ボタンに適用できます。現在、**[!UICONTROL Divider]**&#x200B;および&#x200B;**[!UICONTROL Social]** コンポーネントには適用できません。
 
   ![](assets/des_horizontal_alignment.png)
 
@@ -102,7 +109,7 @@ For both **[!UICONTROL Padding]** and **[!UICONTROL Margin]**, click the lock ic
 >[!CONTEXTUALHELP]
 >id="ac_edition_backgroundimage"
 >title="背景設定"
->abstract="E メールデザイナーでは、コンテンツの背景色や背景画像をパーソナライズできます。なお、背景画像は、一部のメールクライアントではサポートされていません。"
+>abstract="メールDesignerでは、コンテンツの背景色または背景画像をパーソナライズできます。背景画像は、すべてのメールクライアントでサポートされているわけではありません。"
 
 E メールデザイナーで背景を設定する際の推奨事項は次のとおりです。
 
@@ -120,19 +127,19 @@ E メールデザイナーで背景を設定する際の推奨事項は次のと
 
   ![](assets/des_background_viewport.png)
 
-* 構造コンポーネントごとに異なる背景色を設定します。Select a structure in the navigation tree accessible from the left Palette to apply a specific background color only to that structure.
+* 構造コンポーネントごとに異なる背景色を設定します。 左側のパレットからアクセス可能なナビゲーションツリーで構造を選択し、その構造にのみ特定の背景色を適用します。
 
   ![](assets/des_background_structure.png)
 
   構造の背景色が隠れてしまう場合があるので、ビューポートの背景色を設定しないでください。
 
-* Set a **[!UICONTROL Background image]** for the content of a structure component.
+* 構造コンポーネントのコンテンツに&#x200B;**[!UICONTROL Background image]**&#x200B;を設定します。
 
   ![](assets/des_background_image.png)
 
   >[!NOTE]
   >
-  >一部のメールプログラムでは、背景画像はサポートされていません。サポートされていない場合は、代わりに行の背景色が使用されます。画像を表示できない場合は、必ず適切なフォールバックの背景色を選択してください。
+  >一部のメールプログラムでは、背景画像はサポートされていません。 サポートされていない場合は、代わりに行の背景色が使用されます。 画像を表示できない場合は、必ず適切なフォールバックの背景色を選択してください。
 
 * 列レベルで背景色を設定します。
 
@@ -140,7 +147,7 @@ E メールデザイナーで背景を設定する際の推奨事項は次のと
 
   >[!NOTE]
   >
-  >これは最も一般的な使用例です。アドビでは、メールコンテンツ全体を柔軟に編集できるように、背景色を列レベルで設定することをお勧めします。
+  >これは最も一般的な使用例です。 アドビでは、メールコンテンツ全体を柔軟に編集できるように、背景色を列レベルで設定することをお勧めします。
 
   また、列レベルで背景画像を設定することもできますが、ほとんど使用されません。
 
@@ -173,17 +180,17 @@ E メールデザイナーで背景を設定する際の推奨事項は次のと
 
 1. 変更内容を保存します。
 
-## Styling links {#about-styling-links}
+## リンクのスタイル設定 {#about-styling-links}
 
 E メールデザイナーでは、リンクに下線を引き、その色とターゲットを選択できます。
 
-1. In a component where a link is inserted, select the label text of your link.
+1. リンクが挿入されているコンポーネントで、リンクのラベルテキストを選択します。
 
-1. In the component settings, check **[!UICONTROL Underline link]** to underline the label text of your link.
+1. コンポーネント設定で、**[!UICONTROL Underline link]**&#x200B;をチェックして、リンクのラベルテキストに下線を引きます。
 
    ![](assets/stylelinks-selecttext.png)
 
-1. To select in which browsing context your link will be opened select a **[!UICONTROL Target]**.
+1. リンクを開くブラウジングコンテキストを選択するには、**[!UICONTROL Target]**&#x200B;を選択します。
 
    ![](assets/stylelinks-target.png)
 

@@ -1,6 +1,6 @@
 ---
 title: 年齢層によるセグメント化
-description: このページでは、データベース・プロファイルのセグメント化を年齢グループ別に示します。 ワークフローの目的は、年齢グループごとに特定のメールを送信することです。
+description: このページでは、年齢グループに応じたデータベースプロファイルのセグメント化を示します。 このワークフローの目的は、各年齢グループに対して特定のメールを送信することです。
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -10,26 +10,33 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: dab7ef86-4776-48f4-be9a-37de316e0dd9
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/LkH1qmElMwEn6JGmUaWj7Qpv7arSvLAZixbfJYTi2NQ
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 51%
+source-wordcount: 206
+ht-degree: 58%
 
 ---
 
 # 年齢層によるセグメント化 {#segmentation-age-groups}
 
-次の例は、データベースプロファイルを年齢層に応じてセグメント化する方法を示しています。
+次の例は、年齢グループに応じたデータベースプロファイルのセグメント化を示しています。
 
-このワークフローの目的は、各年齢グループに対して特定のメールを送信することです。このワークフローがテストキャンペーンの一部であることを考慮し、各セグメントには、制限された代表的なオーディエンスを同時に使用するためにランダムに選択された最大 100 人のプロファイルのみを含めることができます。
+このワークフローの目的は、各年齢グループに対して特定のメールを送信することです。 このワークフローがテストキャンペーンの一部であることを考慮し、各セグメントには、制限された代表的なオーディエンスを同時に使用するためにランダムに選択された最大 100 人のプロファイルのみを含めることができます。
 
 ![](assets/wkf_segment_example_4.png)
 
 ワークフローは、次の要素で構成されています。
 
-* ワークフローの実行日を指定する [&#x200B; スケジューラーアクティビティ &#x200B;](../../automating/using/segmentation.md)。
-* 誕生日とメールアドレスが入力された人物のプロファイルをターゲットにする [&#x200B; クエリ &#x200B;](../../automating/using/query.md) アクティビティ。
-* 3 つのセグメントを作成する [&#x200B; セグメント化 &#x200B;](../../automating/using/segmentation.md) アクティビティ。18～25 歳、26～32 歳のアウトバウンドトランジション、32 歳以上のプロファイルに分かれています。 セグメントは、次のパラメーターに従って定義されます。
+* ワークフローの実行日を指定する[&#x200B; スケジューラーアクティビティ &#x200B;](../../automating/using/segmentation.md)。
+* 誕生日と電子メールアドレスが入力されたユーザーのプロファイルをターゲットにする[&#x200B; クエリ &#x200B;](../../automating/using/query.md) アクティビティ。
+* 異なるアウトバウンドトランジションに分けられた3つのセグメントを作成する[&#x200B; セグメント &#x200B;](../../automating/using/segmentation.md) アクティビティ（18～25歳、26～32歳、32歳以上のプロファイル）。 セグメントは、次のパラメーターに従って定義されます。
 
   ![](assets/wkf_segment_example_3.png)
 
@@ -41,4 +48,4 @@ ht-degree: 51%
 
      ![](assets/wkf_segment_example_1.png)
 
-* セグメントごとの [&#x200B; メール配信 &#x200B;](../../automating/using/email-delivery.md) アクティビティ。
+* セグメントごとの[&#x200B; メール配信](../../automating/using/email-delivery.md) アクティビティ。

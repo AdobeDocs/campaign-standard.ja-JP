@@ -1,5 +1,5 @@
 ---
-title: 動的レポートの基本を学ぶ
+title: 動的レポートの概要
 description: 組み込みレポートまたはカスタマイズされた動的なレポートでキャンペーンの成功を分析します。
 audience: reporting
 content-type: reference
@@ -8,46 +8,58 @@ feature: Reporting
 role: Leader
 level: Beginner
 exl-id: 9ecb4ba6-c7a3-4b1f-ab73-5eb512ebb016
-source-git-commit: dcfd4e2610cbf9d250359cab6ed43e8c97dd4536
+TQID: https://experienceleague.adobe.com/4rmq12hEkuVgomFFRr9u1qZhr3AlTmPvFXnAFMbZBos
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 16%
+source-wordcount: 386
+ht-degree: 68%
 
 ---
 
-# 動的レポートの基本を学ぶ {#get-started-reporting}
+# 動的レポートの概要 {#get-started-reporting}
 
 <table>
 <tr>
-<td><img src="assets/do-not-localize/icon_manage.svg" width="60px"><p><a href="#manage-share-reports">動的レポートの管理と共有</a></p></td>
+<td><img src="assets/do-not-localize/icon_manage.svg" width="60px"><p><a href="#manage-share-reports">ダイナミックレポートの管理と共有</a></p></td>
 <td><img src="assets/do-not-localize/icon_build.svg" width="60px"><p><a href="#build-reports">レポートを作成</a></p></td>
-<td><img src="assets/do-not-localize/icon_customize.svg" width="60px"><p><a href="#customize-reports">レポートのカスタマイズ</a></p></td></tr>
+<td><img src="assets/do-not-localize/icon_customize.svg" width="60px"><p><a href="#customize-reports">レポートをカスタマイズ</a></p></td></tr>
 </table>
 
-動的レポート機能は、完全にカスタマイズ可能なリアルタイムのレポートを提供して、マーケティングアクティビティの影響を測定します。 プロファイルデータへのアクセスを追加し、開封数やクリック数などの機能的なメールキャンペーンデータに加えて、性別、市区町村、年齢などのプロファイルディメンション別の人口統計学的分析を可能にします。
+動的レポートは、マーケティングアクティビティの影響を測定するための完全にカスタマイズ可能なリアルタイムのレポートを提供します。 プロファイルデータへのアクセスが追加され、開封数やクリック数などの機能的なメールキャンペーンデータに加えて、性別、市区町村、年齢などのプロファイルディメンション別のデモグラフィック分析が可能になります。
 
-![](assets/do-not-localize/how-to-video.png) [&#x200B; ビデオで動的レポートを確認する &#x200B;](#video)
+![](assets/do-not-localize/how-to-video.png) [&#x200B; ビデオでの動的レポートの確認](#video)
 
 ## レポートの管理と共有 {#manage-share-reports}
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 
-動的レポート **ドラッグ&amp;ドロップインターフェイス** を使用すると、データを調査し、最も重要な顧客セグメントに対するメールキャンペーンのパフォーマンスを判断し、受信者への影響を 1 か所で測定できます。
+**ドラッグ＆ドロップインターフェイス**&#x200B;を使用してデータを探索し、最も重要な顧客セグメントに対するメールキャンペーンの効果や 1 つの場所からの受信者への影響を測定できます。
 
-**様々な機能（リアルタイムでのデータの更新** レポートの印刷、CSV ファイルとしてのエクスポート）により、動的レポートを管理します。 また、1 回限りのメールまたは繰り返しメールを使用して、Campaign Standardユーザーとレポートを共有することもできます。
+様々な機能（リアルタイムのデータ更新、レポートの印刷、CSV ファイルとしてエクスポート）を活用して、**動的レポートを管理**&#x200B;できます。 また、1回限りの電子メールや定期的な電子メールを通じて、レポートをCampaign Standardのユーザーと共有することもできます。
 
 詳しくは、以下を参照してください。
 
 * [動的レポートについて](../../reporting/using/about-dynamic-reports.md)
-* [レポートインターフェイス](../../reporting/using/reporting-interface.md)
+* [レポートのインターフェイス](../../reporting/using/reporting-interface.md)
 
 ## レポートを作成 {#build-reports}
 
 <img src="assets/do-not-localize/icon_build.svg" width="60px">
 
-Campaign Standardには、一連の **すぐに使用できる動的レポート** が付属しており、バウンス、スパムまたはジャンクとして最も多く宣言された配信、受信者によって最も多く閲覧された配信、チャネル関連レポート、配信スループット、トラッキングレポートなど、マーケティングキャンペーンの複数の側面を測定できます。
+Campaign Standardには、マーケティングキャンペーンの複数の側面を測定できる&#x200B;**すぐに使用できる動的レポート**&#x200B;のセットが付属しています。バウンス、スパムまたは迷惑メールとして最も宣言された配信、受信者が最も閲覧した配信、チャネル関連レポート、配信スループットおよびトラッキングレポートなど、マーケティングキャンペーンの複数の側面を測定できます。
 
-**様々なコンポーネント** ディメンション、指標とセグメント、期間）を組み合わせて、独自のレポートを作成したり、標準のレポートをパーソナライズしたりします。
+**様々なコンポーネント**（ディメンション、指標とセグメント、期間）を組み合わせて、独自のレポートを作成したり、標準のレポートをパーソナライズしたりできます。
 
 詳しくは、以下を参照してください。
 
@@ -55,15 +67,15 @@ Campaign Standardには、一連の **すぐに使用できる動的レポート
 * [指標の計算](../../reporting/using/indicator-calculation.md)
 * [レポートのリスト](../../reporting/using/defining-the-report-period.md)
 
-## レポートのカスタマイズ {#customize-reports}
+## レポートをカスタマイズ {#customize-reports}
 
 <img src="assets/do-not-localize/icon_customize.svg" width="60px">
 
-**動的なレポートデザイン機能を活用して** レポートをカスタマイズします。必要な数のコンポーネント（パネルとフリーフォームテーブル）を追加し、使用可能な指標とディメンションを使用してデータを分析します。
+動的なレポートデザイン機能を活用して&#x200B;**レポートをカスタマイズ**&#x200B;します。必要な数のコンポーネント（パネルとフリーフォームテーブル）を追加し、使用可能な指標とディメンションを使用してデータを分析します。
 
-**ビジュアライゼーションアイテム** をドラッグ&amp;ドロップして、データのグラフィカル表現をレポートに追加し、必要に応じて設定します。
+**ビジュアライゼーションアイテム**&#x200B;をドラッグ＆ドロップして、レポートにデータのグラフィカルな表示域を追加し、必要に応じて設定します。
 
-プロファイルリソースの拡張中に作成した **カスタムプロファイルデータ** に基づいてレポートを作成し、ターゲティングワークフローで定義した **セグメントに基づいてレポート** を作成します。
+プロファイルリソースの拡張中に作成された&#x200B;**カスタムプロファイルデータ**&#x200B;と、ターゲティングワークフローで定義されたセグメント **に基づく** レポートに基づいてレポートを作成します。
 
 詳しくは、以下を参照してください。
 
@@ -84,4 +96,4 @@ Campaign Standardには、一連の **すぐに使用できる動的レポート
 
 >[!VIDEO](https://video.tv.adobe.com/v/38315?quality=12&captions=jpn)
 
-その他のCampaign Standardチュートリアルビデオについては、[&#x200B; こちら &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja) を参照してください。
+その他のCampaign Standardのハウツー動画は[こちら](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja)でご覧いただけます。

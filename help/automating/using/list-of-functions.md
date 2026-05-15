@@ -9,10 +9,15 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: d1575626-55bb-4303-a796-ad323a399330
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/lpfCIMUH03d9zMB-R1Uq9ZwxnD1G-LG8b-iN3TQc7o8
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '2011'
-ht-degree: 94%
+source-wordcount: 2020
+ht-degree: 91%
 
 ---
 
@@ -20,9 +25,9 @@ ht-degree: 94%
 
 ## 関数について {#about-functions}
 
-クエリ編集ツールを使用すると、高度な関数を使用して複雑なフィルタリングを実行できます。このために、ツールパレットにはワークスペースで使用できる&#x200B;**[!UICONTROL Expression]**&#x200B;要素が含まれています。この要素について詳しくは、[こちらの節](../../automating/using/advanced-expression-editing.md)を参照してください。
+クエリ編集ツールを使用すると、高度な関数を使用して複雑なフィルタリングを実行できます。 このために、ツールパレットにはワークスペースで使用できる&#x200B;**[!UICONTROL Expression]**&#x200B;要素が含まれています。 この要素について詳しくは、[こちらの節](../../automating/using/advanced-expression-editing.md)を参照してください。
 
-この要素では、条件を手動で入力できます。ここでは、以降の節で説明する関数を使用できます。
+この要素では、条件を手動で入力できます。 ここでは、以降の節で説明する関数を使用できます。
 
 目的とする結果や操作するデータのタイプに応じて、次のいくつかの関数タイプを使用できます。
 
@@ -36,7 +41,7 @@ ht-degree: 94%
 
 >[!NOTE]
 >
->外部パラメーターを使用してワークフローを呼び出した後にイベント変数を使用できる追加関数をすべてのアクティビティで使用できます。 詳しくは、[この節](../../automating/using/customizing-workflow-external-parameters.md)を参照してください。
+>外部パラメーターを使用してワークフローを呼び出した後にイベント変数を使用できるすべてのアクティビティで、追加の関数を使用できます。 詳しくは、[この節](../../automating/using/customizing-workflow-external-parameters.md)を参照してください。
 
 ## 日付 {#dates}
 
@@ -221,7 +226,7 @@ ht-degree: 94%
   </tr> 
   <tr> 
    <td> <strong>ToDateTimeWithTimezone</strong><br /> </td> 
-   <td> 文字列を日付 + タイムゾーンに変換します<br />: ToDateTimeWithTimezone （"2019-02-19 08:09:00", "Asia/Tehlan"） <br /> </td> 
+   <td> 文字列を日付+ タイムゾーンに変換します。<br /> 例：ToDateTimeWithTimezone （"2019-02-19 08:09:00", "Asia/Tehran"） <br /> </td> 
    <td> ToDateTimeWithTimezone(&lt;文字列&gt;)<br /> </td> 
   </tr> 
   <tr> 
@@ -398,8 +403,8 @@ ht-degree: 94%
   </tr> 
   <tr> 
    <td> <strong>Case</strong><br /> </td> 
-   <td> 条件が成り立つ場合は、値 1 を返します。それ以外の場合は、値 2 を返します。<br /> </td> 
-   <td> Case(When(&lt;条件&gt;, &lt;値 1&gt;), Else(&lt;値 2&gt;))<br /> </td> 
+   <td> 条件が成り立つ場合は、値 1 を返します。 それ以外の場合は、値 2 を返します。<br /> </td> 
+   <td> (When(&lt;条件&gt;, &lt;値 1&gt;), Else(&lt;値 2&gt;))<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>ClearBit</strong><br /> </td> 
@@ -468,7 +473,7 @@ ht-degree: 94%
   </tr> 
   <tr> 
    <td> <strong>When</strong><br /> </td> 
-   <td> 式が成り立つ場合は、値 1 を返します。それ以外の場合は、値 2 を返します（ケース関数のパラメーターとしてのみ使用できます）<br /> </td> 
+   <td> 式が成り立つ場合は、値 1 を返します。 それ以外の場合は、値 2 を返します（ケース関数のパラメーターとしてのみ使用できます）<br /> </td> 
    <td> When(&lt;条件&gt;, &lt;値 1&gt;)<br /> </td> 
   </tr> 
   <tr> 
@@ -508,7 +513,7 @@ ht-degree: 94%
   <tr> 
    <td> <strong>Char</strong><br /> </td> 
    <td> ASCII コード「n」に対応する文字を返します<br /> </td> 
-   <td> Char （&lt; 数値 &gt;） <br /> </td> 
+   <td> Char （&lt;number&gt;） <br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Charindex</strong><br /> </td> 
@@ -537,12 +542,12 @@ ht-degree: 94%
   </tr> 
   <tr> 
    <td> <strong>JuxtWords</strong><br /> </td> 
-   <td> パラメーターとして渡された 2 つの文字列を連結します。 戻り値に含まれる各文字列の間にスペースが追加されます<br /> </td> 
+   <td> パラメーターとして渡された2つの文字列を連結します。 戻り値に含まれる各文字列の間にスペースが追加されます<br /> </td> 
    <td> JuxtWords(&lt;文字列&gt;, &lt;文字列&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>JuxtWords3</strong><br /> </td> 
-   <td> パラメーターとして渡された 3 つの文字列を連結します。 戻り値に含まれる各文字列の間にスペースが追加されます<br /> </td> 
+   <td> パラメーターとして渡された3つの文字列を連結します。 戻り値に含まれる各文字列の間にスペースが追加されます<br /> </td> 
    <td> JuxtWords3(&lt;文字列&gt;, &lt;文字列&gt;, &lt;文字列&gt;)<br /> </td> 
   </tr> 
   <tr> 
@@ -568,12 +573,12 @@ ht-degree: 94%
   <tr> 
    <td> <strong>Ltrim</strong><br /> </td> 
    <td> 文字列の左側の空白を削除します<br /> </td> 
-   <td> Ltrim （&lt;string&gt;） <br /> </td> 
+   <td> Ltrim （&lt;文字列&gt;） <br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Md5Digest</strong><br /> </td> 
    <td> 文字列の MD5 キーの 16 進数表現を返します<br /> </td> 
-   <td> Md5Digest （&lt;string&gt;） <br /> </td> 
+   <td> Md5Digest （&lt;文字列&gt;） <br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>MemoContains</strong><br /> </td> 
@@ -657,8 +662,8 @@ ht-degree: 94%
   </tr> 
   <tr> 
    <td> <strong>encryption_aescbcEncrypt</strong><br /> </td> 
-   <td> AES アルゴリズム（CBC ブロックモード）に基づき、キー（第 2 パラメーター）と初期化ベクター（第 3 パラメーター）を使用して、文字列（第 1 パラメーター）を暗号化します。キーと初期化ベクターは、16 進数表現（<strong>\x</strong> で始まる形式）で指定する必要があります。結果は、<strong>\x</strong> を除いた 16 進数で表されます。<br />キーのサイズには、128 ビット、192 ビット、256 ビット（16 進数文字で順に 16、24、32）のいずれかを指定できますが、256 ビット、およびキーと同じ長さのランダム化初期化ベクターを使用することをお勧めします<br /> </td> 
-   <td> encryption_aescbcEncrypt （&lt;String&gt;, &lt;String&gt;, &lt;String&gt;） <br /> 例：encryption_aescbcEncrypt （johndoe@example.com, "<strong>\\x0123456789ABCDEF0123456789ABCDEF</strong>", "<strong>\\x0123456789ABCDEFFEDCBA9876543210</strong>"） <br /> </td> 
+   <td> AES アルゴリズム（CBC ブロックモード）に基づき、キー（第 2 パラメーター）と初期化ベクター（第 3 パラメーター）を使用して、文字列（第 1 パラメーター）を暗号化します。 キーと初期化ベクターは、16 進数表現（<strong>\x</strong> で始まる形式）で指定する必要があります。 結果は、<strong>\x</strong>.<br />を含まない16進数になります キーサイズは128 ビット、192 ビット、256 ビット （16、24、32の16進数）である可能性がありますが、キーと同じ長さの256 ビットとランダム化されたIVを使用することをお勧めします。<br /> </td> 
+   <td> encryption_aescbcEncrypt （&lt;String&gt;, &lt;String&gt;, &lt;String&gt;） <br />例：encryption_aescbcEncrypt （johndoe@example.com, "<strong>\\x0123456789ABCDEF0123456789ABCDEF</strong>", "<strong>\\x0123456789ABCDEFFEDCBA9876543210</strong>"） <br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -677,7 +682,7 @@ ht-degree: 94%
    <td> <strong>構文</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong> 平均 </strong>、平均 <br /> </td> 
+   <td> <strong>平均</strong>、平均<br /> </td> 
    <td> 数値列の平均値を返します<br /> </td> 
    <td> Avg(&lt;値&gt;)<br /> </td> 
   </tr> 
@@ -692,7 +697,7 @@ ht-degree: 94%
    <td> CountAll()<br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Countdistinct</strong>、Distinct count<br /> </td> 
+   <td> <strong>Countdistinct</strong>、個別カウント <br /> </td> 
    <td> 列内の null 以外のユニーク値をカウントします<br /> </td> 
    <td> Countdistinct(&lt;値&gt;)<br /> </td> 
   </tr> 
@@ -707,9 +712,9 @@ ht-degree: 94%
    <td> Min(&lt;値&gt;)<br /> </td> 
   </tr>
   <tr>
-   <td> <strong>StringAgg</strong>、String aggregate<br /> </td>
-   <td> 文字列型の列の値を、2 番目の引数の文字で区切って連結したものを返します（デフォルトの区切り文字はコンマです）。<br /> </td>
-   <td> StringAgg （&lt;string values&gt;,&lt;separator&gt;）
+   <td> <strong>StringAgg</strong>、文字列集計<br /> </td>
+   <td> 2番目の引数の文字で区切られた文字列型の列の値の連結を返します（デフォルトの区切り記号はコンマです）。<br /> </td>
+   <td> StringAgg （&lt;文字列値&gt;,&lt;区切り記号&gt;）
   </tr>
   <tr> 
    <td> <strong>Sum</strong><br /> </td> 
@@ -747,7 +752,7 @@ ht-degree: 94%
   </tr> 
   <tr> 
    <td> <strong>RowNum</strong><br /> </td> 
-   <td> テーブルのパーティションと並べ替えシーケンスに基づいて行番号を生成します。この関数は MySQL ではサポートされていません<br /> </td> 
+   <td> テーブルのパーティションと並べ替えシーケンスに基づいて行番号を生成します。 この関数は MySQL ではサポートされていません<br /> </td> 
    <td> RowNum(PartitionBy(&lt;値 1&gt;), OrderBy(&lt;値 1&gt;))<br /> </td> 
   </tr> 
  </tbody> 

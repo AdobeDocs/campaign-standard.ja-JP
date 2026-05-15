@@ -1,15 +1,23 @@
 ---
 title: プッシュトラッキングの実装
-description: iOSとAndroidにプッシュ通知トラッキングが正しく実装されていることを確認する方法を説明します
+description: IOSとAndroidでプッシュ通知トラッキングが正しく実装されていることを確認する方法を説明します
 audience: channels
 feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 950d24e2-358f-44f8-98ea-643be61d4573
-source-git-commit: 1346f7d833515fb2e6feabb39d199ffd5610c88e
+TQID: https://experienceleague.adobe.com/tSPkfU35NbnvlF8s39rDKPbyrLFm8uKx7jvU4ZyB1hw
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '932'
-ht-degree: 0%
+source-wordcount: 939
+ht-degree: 3%
 
 ---
 
@@ -17,37 +25,37 @@ ht-degree: 0%
 
 ## プッシュトラッキングについて {#about-push-tracking}
 
-プッシュ通知が完全に開発されたことを確認するには、すべてのプッシュ通知でトラッキングが有効になっているわけではないので、トラッキング部分が正しく実装されていることを確認する必要があります。 これを有効にするには、デベロッパーはどの配信でトラッキングが有効になっているかを特定する必要があります。Adobe Campaign Standardは `_acsDeliveryTracking` というフラグを 2 つの値 **オン** または **オフ** で送信します。 アプリ開発者は、変数が **on** に設定されている配信に対してのみトラッキングリクエストを送信する必要があります。
+プッシュ通知が完全に開発されていることを確認するには、すべてのプッシュ通知でトラッキングが有効になっているわけではないので、トラッキング部分が正しく実装されていることを確認する必要があります。 これを有効にするには、開発者がトラッキングが有効になっている配信を特定する必要があります。Adobe Campaign Standardは、2つの値&#x200B;**on**&#x200B;または&#x200B;**off**&#x200B;を持つ`_acsDeliveryTracking`というフラグを送信します。 アプリ開発者は、変数が&#x200B;**on**&#x200B;に設定されている配信に対してのみトラッキングリクエストを送信する必要があります。
 
 >[!IMPORTANT]
 >
->この変数は、21.1 リリースより前のリリースで設定された配信や、カスタムテンプレートを使用した配信には使用できません。
+>この変数は、21.1 リリースより前に設定された配信や、カスタムテンプレートを使用した配信では使用できません。
 
-プッシュトラッキングは次の 3 つのタイプに分かれています。
+プッシュトラッキングは、次の3つのタイプに分かれています。
 
-* **プッシュインプレッション** - プッシュ通知がデバイスに正常に配信され、ユーザーの操作なしに通知センターに存在する場合。
+* **プッシュインプレッション** - プッシュ通知がデバイスに正常に配信された場合、ユーザーの操作なしで通知センターに格納されます。
 
-* **プッシュクリック** - プッシュ通知がデバイスに配信され、ユーザーがデバイスをクリックしたとき。  ユーザーは、通知を表示するか（プッシュオープントラッキングに移動します）、通知を閉じようとしました。
+* **プッシュクリック** - プッシュ通知がデバイスに配信され、ユーザーがデバイスをクリックした場合。  ユーザーは通知を表示するか（次にプッシュオープントラッキングに移動します）、通知を却下します。
 
-* **プッシュオープン** - プッシュ通知がデバイスに配信され、ユーザーが通知をクリックしてアプリを開いたとき。 これは、プッシュクリックと似ていますが、通知が閉じられた場合にプッシュオープンがトリガーされない点が異なります。
+* **プッシュオープン** - プッシュ通知がデバイスに配信され、ユーザーが通知をクリックしてアプリが開いた場合。 プッシュクリックと似ていますが、プッシュ開封は、通知が解除された場合はトリガーされません。
 
-Campaign Standard用のトラッキングを実装するには、モバイルアプリにAdobe Experience Platform SDK を含める必要があります。 これらの SDK は、[Adobe Experience Platform SDK ドキュメント &#x200B;](https://github.com/Adobe-Marketing-Cloud/acp-sdks) で入手できます。
+Campaign Standardのトラッキングを実装するには、モバイルアプリにAdobe Experience Platform SDKを含める必要があります。 これらのSDKは、[Adobe Experience Platform SDK ドキュメント &#x200B;](https://github.com/Adobe-Marketing-Cloud/acp-sdks)で入手できます。
 
-トラッキング情報を送信するには、3 つの変数を送信する必要があります。 Campaign Standardから受信したデータの一部を構成する 2 つのフィールドと、そのフィールドが **インプレッション**、**クリック**、**開く** のいずれであるかを示すアクション変数。
+トラッキング情報を送信するには、3つの変数を送信する必要があります。 2つは、Campaign Standardから受信したデータの一部であり、**インプレッション**、**クリック**、**オープン**&#x200B;のいずれであるかを示すアクション変数です。
 
 | 変数 | 値 |
 |:-:|:-:|
-| broadlogId | データからの mId （_m） |
-| deliveryId | データから dId を取得（_d） |
-| アクション | 「1」（オープン）、「2」（クリック）および「7」（インプレッション） |
+| broadlogId | データからの_mId |
+| deliveryId | データからの_dId |
+| アクション | 開く場合は「1」、クリックの場合は「2」、インプレッションの場合は「7」 |
 
-## Androidの実装 {#implementation-android}
+## Androidの導入 {#implementation-android}
 
-### プッシュインプレッショントラッキングの実装方法 {#push-impression-tracking-android}
+### プッシュインプレッション追跡の導入方法 {#push-impression-tracking-android}
 
-インプレッショントラッキングの場合、`collectMessageInfo()` 関数または `trackAction()` 関数を呼び出す際に、アクションの値「7」を送信する必要があります。
+インプレッションのトラッキングの場合、`collectMessageInfo()`または`trackAction()`関数を呼び出す際に、アクションの値「7」を送信する必要があります。
 
-21.1 リリースより前に作成された配信またはカスタムテンプレートを使用した配信の場合は、この [&#x200B; 節 &#x200B;](../../administration/using/push-tracking.md#about-push-tracking) を参照してください。
+21.1 リリースより前に作成された配信またはカスタムテンプレートを使用した配信については、この[&#x200B; セクション &#x200B;](../../administration/using/push-tracking.md#about-push-tracking)を参照してください。
 
 ```
 @Override
@@ -84,17 +92,17 @@ public void onMessageReceived(RemoteMessage remoteMessage) {
 }
 ```
 
-### クリックの追跡の実装方法 {#push-click-tracking-android}
+### クリックトラッキングの導入方法 {#push-click-tracking-android}
 
-クリックの追跡の場合、`collectMessageInfo()` 関数または `trackAction()` 関数を呼び出す際に、アクションの値「2」を送信する必要があります。
-クリックを追跡するには、次の 2 つのシナリオを処理する必要があります。
+クリック トラッキングの場合、`collectMessageInfo()`または`trackAction()`関数を呼び出す際に、アクションの値「2」を送信する必要があります。
+クリックを追跡するには、次の2つのシナリオを処理する必要があります。
 
-* ユーザーには通知が表示されますが、クリアされます。
-* ユーザーは通知を表示し、クリックすると、開封されたトラッキングに変わります。
+* ユーザーは通知を見たがクリアします。
+* ユーザーは通知を見てクリックすると、その通知が開いたトラッキングに変わります。
 
-これを処理するには、2 つのインテントを使用する必要があります。1 つは通知をクリックするためのインテント、もう 1 つは通知を閉じるためのインテントです。
+これを処理するには、2つのインテントを使用する必要があります。1つは通知をクリックするためのインテントで、もう1つは通知を却下するためのインテントです。
 
-21.1 リリースより前に作成された配信またはカスタムテンプレートを使用した配信の場合は、この [&#x200B; 節 &#x200B;](../../administration/using/push-tracking.md#about-push-tracking) を参照してください。
+21.1 リリースより前に作成された配信またはカスタムテンプレートを使用した配信については、この[&#x200B; セクション &#x200B;](../../administration/using/push-tracking.md#about-push-tracking)を参照してください。
 
 **[!UICONTROL MyFirebaseMessagingService.java]**
 
@@ -125,7 +133,7 @@ private void sendNotification(Map<String, String> data) {
 }
 ```
 
-**[!UICONTROL BroadcastReceiver]** を機能させるには、**[!UICONTROL AndroidManifest.xml]** に登録する必要があります
+**[!UICONTROL BroadcastReceiver]**&#x200B;を機能させるには、**[!UICONTROL AndroidManifest.xml]**&#x200B;に登録する必要があります
 
 ```
 <manifest>
@@ -176,15 +184,15 @@ public class NotificationDismissedReceiver extends BroadcastReceiver {
 }
 ```
 
-### オープントラッキングの実装方法 {#push-open-tracking-android}
+### オープントラッキングの導入方法 {#push-open-tracking-android}
 
-ユーザーがアプリを開くにはクリック通知が必要なので、「1」と「2」を送信する必要があります。 アプリがプッシュ通知を通じて起動/開封されない場合、トラッキングイベントは発生しません。
+ユーザーがアプリを開くには通知をクリックする必要があるため、「1」と「2」を送信する必要があります。 アプリがプッシュ通知を通じて起動/開かれていない場合、トラッキングイベントは発生しません。
 
-オープンを追跡するには、インテントを作成する必要があります。 インテントオブジェクトを使用すると、Android OS は特定のアクションが実行されたときにメソッドを呼び出すことができます。 この場合、通知をクリックしてアプリを開きます。
+開封率を追跡するには、インテントを作成する必要があります。 インテントオブジェクトを使用すると、特定のアクションが実行されたときにAndroid OSがメソッドを呼び出すことができます。 この場合、通知をクリックしてアプリを開きます。
 
-このコードは、クリックインプレッションのトラッキングの実装に基づいています。 **[!UICONTROL Intent]** を設定したら、トラッキング情報をAdobe Campaign Standardに送り返す必要があります。 この場合、アプリの特定のビューを開くように **[!UICONTROL Open Intent]** を設定する必要があります。これにより、**[!UICONTROL Intent Object]** の通知データを使用して onResume メソッドが呼び出されます。
+このコードは、クリックインプレッション追跡の実装に基づいています。 **[!UICONTROL Intent]**&#x200B;が設定されたら、トラッキング情報をAdobe Campaign Standardに送り返す必要があります。 この場合、**[!UICONTROL Open Intent]**&#x200B;を設定してアプリの特定のビューを開く必要があります。これにより、**[!UICONTROL Intent Object]**&#x200B;の通知データを使用してonResume メソッドが呼び出されます。
 
-21.1 リリースより前に作成された配信またはカスタムテンプレートを使用した配信の場合は、この [&#x200B; 節 &#x200B;](../../administration/using/push-tracking.md#about-push-tracking) を参照してください。
+21.1 リリースより前に作成された配信またはカスタムテンプレートを使用した配信については、この[&#x200B; セクション &#x200B;](../../administration/using/push-tracking.md#about-push-tracking)を参照してください。
 
 ```
 @Override
@@ -244,27 +252,27 @@ private void handleTracking() {
 }
 ```
 
-## iOSの実装 {#implementation-iOS}
+## IOSの導入 {#implementation-iOS}
 
-### プッシュインプレッショントラッキングの実装方法 {#push-impression-tracking-iOS}
+### プッシュインプレッション追跡の導入方法 {#push-impression-tracking-iOS}
 
-インプレッショントラッキングの場合、`collectMessageInfo()` 関数または `trackAction()` 関数を呼び出す際に、アクションの値「7」を送信する必要があります。
+インプレッションのトラッキングの場合、`collectMessageInfo()`または`trackAction()`関数を呼び出す際に、アクションの値「7」を送信する必要があります。
 
-iOSの通知の仕組みを理解するには、アプリの 3 つの状態を詳しく説明する必要があります。
+IOS通知の仕組みを理解するには、アプリの3つの状態を詳細に把握する必要があります。
 
-* **フォアグラウンド**：アプリが現在アクティブで、現在スクリーン上にある（フォアグラウンドにある）場合。
-* **背景**:is アプリが画面に表示されていないが、プロセスが閉じられていない場合。 ホームボタンをダブルクリックすると、通常、バックグラウンドにあるすべてのアプリが表示されます。
-* **オフ/クローズ**：プロセスが強制終了されたアプリ。
+* **描画中**: アプリが現在アクティブで、現在スクリーン上（描画中）にある場合。
+* **背景**：がアプリが画面にないが、プロセスが閉じられていない場合。 ホームボタンをダブルクリックすると、通常、バックグラウンドにあるすべてのアプリが表示されます。
+* **オフ/クローズ**: プロセスが強制終了されたアプリ。
 
-アプリがバックグラウンド **[!UICONTROL Impression]** ある間もトラッキングが機能するためには、トラッキングが必要であることをアプリに知らせる **[!UICONTROL Content-Available]** ールを送信する必要があります。
+アプリがバックグラウンドで動作している間も&#x200B;**[!UICONTROL Impression]**&#x200B;のトラッキングを引き続き実行するには、**[!UICONTROL Content-Available]**&#x200B;を送信して、トラッキングを実行する必要があることをアプリに知らせる必要があります。
 
 >[!CAUTION]
 >
-> アプリが閉じられた場合、Appleはアプリが再起動されるまでアプリを呼び出しません。 つまり、iOSで通知を受信した日時を知ることはできません。 </br> この理由から、iOSのインプレッショントラッキングは正確でない可能性があり、信頼性があると見なされるべきではありません。
+> アプリが閉じられた場合、アプリが再起動されるまで、Appleはアプリを呼び出しません。 つまり、iOSで通知がいつ受信されたかはわかりません。</br> このため、iOS インプレッション トラッキングは正確ではない可能性があり、信頼性が低いと見なされるべきではありません。
 
-21.1 リリースより前に作成された配信またはカスタムテンプレートを使用した配信の場合は、この [&#x200B; 節 &#x200B;](../../administration/using/push-tracking.md#about-push-tracking) を参照してください。
+21.1 リリースより前に作成された配信またはカスタムテンプレートを使用した配信については、この[&#x200B; セクション &#x200B;](../../administration/using/push-tracking.md#about-push-tracking)を参照してください。
 
-次のコードは、バックグラウンドアプリをターゲットにします。
+次のコードは、バックグラウンド アプリをターゲットにしています。
 
 ```
 // In didReceiveRemoteNotification event handler in AppDelegate.m
@@ -298,7 +306,7 @@ func application(_ application: UIApplication, didReceiveRemoteNotification user
     }
 ```
 
-次のコードはフォアグラウンドアプリをターゲットにします。
+次のコードは、フォアグラウンドアプリをターゲットにします。
 
 ```
 // This will get called when the app is in the foreground
@@ -330,10 +338,10 @@ func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent noti
     }
 ```
 
-### クリックの追跡の実装方法 {#push-click-tracking-iOS}
+### クリックトラッキングの導入方法 {#push-click-tracking-iOS}
 
-クリックの追跡の場合、`collectMessageInfo()` 関数または `trackAction()` 関数を呼び出す際に、アクションの値「2」を送信する必要があります。
-21.1 リリースより前に作成された配信またはカスタムテンプレートを使用した配信の場合は、この [&#x200B; 節 &#x200B;](../../administration/using/push-tracking.md#about-push-tracking) を参照してください。
+クリック トラッキングの場合、`collectMessageInfo()`または`trackAction()`関数を呼び出す際に、アクションの値「2」を送信する必要があります。
+21.1 リリースより前に作成された配信またはカスタムテンプレートを使用した配信については、この[&#x200B; セクション &#x200B;](../../administration/using/push-tracking.md#about-push-tracking)を参照してください。
 
 ```
 // AppDelegate.swift
@@ -370,11 +378,11 @@ func registerForPushNotifications() {
     }
 ```
 
-これで、プッシュ通知を送信する際に、カテゴリを追加する必要があります。 この例では、「DEFAULT」と呼ぶことにします。
+プッシュ通知を送信する際には、カテゴリを追加する必要があります。 この場合は「DEFAULT」と呼んでいます。
 
 ![](assets/tracking_push.png)
 
-**[!UICONTROL Dismiss]** を処理してトラッキング情報を送信するには、次の情報が必要です。
+次に、**[!UICONTROL Dismiss]**&#x200B;を処理してトラッキング情報を送信するには、次の情報を追加する必要があります。
 
 ```
 func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
@@ -408,11 +416,11 @@ func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive respo
     }
 ```
 
-### オープントラッキングの実装方法 {#push-open-tracking-iOS}
+### オープントラッキングの導入方法 {#push-open-tracking-iOS}
 
-ユーザーがアプリを開くにはクリック通知が必要なので、「1」と「2」を送信する必要があります。 アプリがプッシュ通知を通じて起動/開封されない場合、トラッキングイベントは発生しません。
+ユーザーがアプリを開くには通知をクリックする必要があるため、「1」と「2」を送信する必要があります。 アプリがプッシュ通知を通じて起動/開かれていない場合、トラッキングイベントは発生しません。
 
-21.1 リリースより前に作成された配信またはカスタムテンプレートを使用した配信の場合は、この [&#x200B; 節 &#x200B;](../../administration/using/push-tracking.md#about-push-tracking) を参照してください。
+21.1 リリースより前に作成された配信またはカスタムテンプレートを使用した配信については、この[&#x200B; セクション &#x200B;](../../administration/using/push-tracking.md#about-push-tracking)を参照してください。
 
 ```
 import Foundation

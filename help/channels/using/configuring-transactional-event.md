@@ -9,10 +9,24 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 1b91fb97-fe97-4564-936c-438be7ea7bc0
-source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
+TQID: https://experienceleague.adobe.com/gPeRyclF6wtJj0D3iN19ZwaxTGu-BoznkpccCQgO6XE
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1709'
-ht-degree: 3%
+source-wordcount: 1726
+ht-degree: 4%
 
 ---
 
@@ -68,7 +82,7 @@ Adobe Campaignを使用してトランザクションメッセージを送信す
 
 イベントコンテンツに、複数の属性を含む要素のコレクションを追加できます。
 
-このコレクションは、トランザクションメールで使用して、メッセージのコンテンツ（商品リスト [など）に](../../designing/using/using-product-listings.md)商品リスト を追加できます。価格、参照番号、数量などを含みます。 リストの各製品に一致します。
+このコレクションは、トランザクションメールで使用して、メッセージのコンテンツに[製品リスト &#x200B;](../../designing/using/using-product-listings.md)を追加できます。例えば、製品リストなど、リストの各製品の価格、参照番号、数量などを含みます。
 
 1. **[!UICONTROL Collections]** セクションで、「**[!UICONTROL Create element]**」ボタンをクリックします。
 
@@ -105,7 +119,7 @@ Adobe Campaignを使用してトランザクションメッセージを送信す
 
 拡張&#x200B;**[!UICONTROL Profile and services Ext API]**&#x200B;からの情報を使用して、トランザクションメッセージのコンテンツを強化できます。 詳しくは、[APIの拡張：拡張機能の公開](../../developing/using/step-2-publish-the-extension.md)を参照してください。
 
-この情報は新しいリソースに保存することもできます。 その場合、リソースは直接または別のテーブルを介して&#x200B;**[!UICONTROL Profile]**&#x200B;または&#x200B;**[!UICONTROL Service]** リソースにリンクする必要があります。 例えば、以下の設定では、**[!UICONTROL Product]** リソースが&#x200B;**[!UICONTROL Product]** リソースにリンクされている場合、製品カテゴリやIDなどの&#x200B;**[!UICONTROL Profile]** リソースからの情報を使用して、トランザクションメッセージのコンテンツを強化できます。
+この情報は新しいリソースに保存することもできます。 その場合、リソースは直接または別のテーブルを介して&#x200B;**[!UICONTROL Profile]**&#x200B;または&#x200B;**[!UICONTROL Service]** リソースにリンクする必要があります。 例えば、以下の設定では、**[!UICONTROL Product]** リソースが&#x200B;**[!UICONTROL Profile]** リソースにリンクされている場合、製品カテゴリやIDなどの&#x200B;**[!UICONTROL Product]** リソースからの情報を使用して、トランザクションメッセージのコンテンツを強化できます。
 
 ![](assets/message-center_usecaseschema.png)
 
@@ -175,13 +189,13 @@ Adobe Campaignを使用してトランザクションメッセージを送信す
 
 ### イベントベースのトランザクトメッセージ {#event-based-transactional-messages}
 
-イベントをターゲティングしたイベントトランザクションメッセージを送信できます。この種類のトランザクションメッセージには、プロファイル情報が含まれません。配信ターゲットは、イベント自体に含まれるデータによって定義されます。
+イベントをターゲティングしたイベントトランザクションメッセージを送信できます。 この種類のトランザクションメッセージには、プロファイル情報が含まれません。配信ターゲットは、イベント自体に含まれるデータによって定義されます。
 
 イベントベースのトランザクションメッセージを送信するには、まず、イベント自体&#x200B;**に含まれる** データをターゲットとするイベントを作成して設定する必要があります。
 
 1. イベント設定を作成する際に、**[!UICONTROL Real-time event]** ターゲティングディメンションを選択します（[&#x200B; イベントの作成](#creating-an-event)を参照）。
 1. トランザクションメッセージをパーソナライズするには、イベントにフィールドを追加します（[&#x200B; イベント属性の定義](#defining-the-event-attributes)を参照）。
-1. イベントベースのトランザクションメッセージでは、送信されたイベント内のデータのみを使用して、受信者とメッセージコンテンツのパーソナライゼーションを定義する必要があります。
+1. イベントベースのトランザクションメッセージでは、受信者とメッセージコンテンツのパーソナライゼーションを定義するために、送信イベント内のデータのみを使用することが想定されています。
 
    ただし、Adobe Campaign データベースの追加情報を使用する場合は、トランザクションメッセージコンテンツをエンリッチメントできます（[&#x200B; トランザクションメッセージコンテンツのエンリッチメント &#x200B;](#enriching-the-transactional-message-content)を参照）。
 

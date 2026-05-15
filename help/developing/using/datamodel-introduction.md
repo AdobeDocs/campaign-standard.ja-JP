@@ -8,9 +8,16 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: c4d6d420-1058-4ca7-bb39-717c56329e05
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/Fs7YA-EpzPGby-f6g8zv-qHAAuUIGGVkrbSms-DuZMM
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: 147
 ht-degree: 100%
 
 ---
@@ -19,11 +26,11 @@ ht-degree: 100%
 
 Adobe Campaign には、事前定義済みのデータモデルが付属します。
 
-Adobe Campaign Standard データモデルには、一連のマーケティング関連リソースの組み込みの SQL 構造が表示されます。
+Adobe Campaign Standard データモデルには、一連のマーケティング関連リソースのビルトインの SQL 構造が表示されます。
 
 この節は、Campaign の専門家または開発者を対象としています。
 
-各リソースについて、サブページに SQL フィールドの一覧表が表示されます。この一覧表には内部名、タイプ、定義済みリストの詳細などの使用可能な特性も表示されます。また、リソースに関連付けられている組み込みフィルターも表示されます。各フィルターには、固有のパラメーターリストがあります。
+各リソースについて、サブページに SQL フィールドの一覧表が表示されます。この一覧表には内部名、タイプ、定義済みリストの詳細などの使用可能な特性も表示されます。 また、リソースに関連付けられているビルトインのフィルターも表示されます。 各フィルターには、固有のパラメーターリストがあります。
 
 >[!NOTE]
 >Campaign データモデルは、[管理者](../../administration/using/users-management.md#functional-administrators)のみが変更できます。

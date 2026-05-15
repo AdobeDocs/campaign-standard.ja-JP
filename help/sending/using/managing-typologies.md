@@ -9,9 +9,18 @@ feature: Typology Rules
 role: User
 level: Intermediate
 exl-id: 10bd4e4f-78b4-4318-bded-4cf33b466f1d
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/1uLedUXL9KXfGfdTv05T6PVQGGcgy3orf2l6TgIi4Gw
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: 310
 ht-degree: 97%
 
 ---
@@ -20,9 +29,9 @@ ht-degree: 97%
 
 ## タイポロジについて {#about-typologies}
 
-タイポロジとは、メッセージを送信する前にメッセージの有効性を確認するための一連のルールです。例えば、メッセージの内容が空ではない、購読解除が存在する、重複を除外する、などです。
+タイポロジとは、メッセージを送信する前にメッセージの有効性を確認するための一連のルールです。 例えば、メッセージの内容が空ではない、購読解除が存在する、重複を除外する、などです。
 
-タイポロジは **[!UICONTROL Administration]**／**[!UICONTROL Channels]**／**[!UICONTROL Typologies]** メニューから確認できます。初期状態では、アプリケーションでデフォルトのタイポロジが使用できます。必要に応じて、独自のタイポロジを作成したり、既存のタイポロジを変更することができます。
+タイポロジは **[!UICONTROL Administration]**／**[!UICONTROL Channels]**／**[!UICONTROL Typologies]** メニューから確認できます。 初期状態では、アプリケーションでデフォルトのタイポロジが使用できます。 必要に応じて、独自のタイポロジを作成したり、既存のタイポロジを変更することができます。
 
 ![](assets/typologies-list.png)
 
@@ -32,7 +41,7 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->タイポロジルールの詳細を表示するには、目的のタイポロジルールをダブルクリックします。ルールは読み取り専用モードで表示されます。
+>タイポロジルールの詳細を表示するには、目的のタイポロジルールをダブルクリックします。 ルールは読み取り専用モードで表示されます。
 
 ## タイポロジの作成 {#creating-a-typology}
 
@@ -40,19 +49,19 @@ ht-degree: 97%
 
 1. **[!UICONTROL Administration]**／**[!UICONTROL Channels]**／**[!UICONTROL Typologies]** メニューにアクセスします。
 
-1. タイポロジのリストが表示されます。「**[!UICONTROL Create]**」ボタンをクリックします。
+1. タイポロジのリストが表示されます。 「**[!UICONTROL Create]**」ボタンをクリックします。
 
    ![](assets/typologies-create.png)
 
-1. タイポロジの「**[!UICONTROL Label]**」を定義し、「**[!UICONTROL Add an element]**」ボタンをクリックして、追加するタイポロジルールを選択します。タイポロジルールについて詳しくは、[この節](../../sending/using/managing-typology-rules.md)を参照してください。
+1. タイポロジの「**[!UICONTROL Label]**」を定義し、「**[!UICONTROL Add an element]**」ボタンをクリックして、追加するタイポロジルールを選択します。 タイポロジルールについて詳しくは、[この節](../../sending/using/managing-typology-rules.md)を参照してください。
 
    ![](assets/typology_addrules.png)
 
    >[!NOTE]
    >
-   >「**[!UICONTROL IP affinity]**」フィールドでは、設定に従ってアフィニティを管理できます。アフィニティはインスタンスの設定ファイルで定義されます。アフィニティを使用する場合は、管理者にお問い合わせください。
+   >「**[!UICONTROL IP affinity]**」フィールドでは、設定に従ってアフィニティを管理できます。 アフィニティはインスタンスの設定ファイルで定義されます。 アフィニティを使用する場合は、管理者にお問い合わせください。
 
-1. 「**[!UICONTROL Create]**」をクリックして選択内容を確定します。これで、メッセージでタイポロジを使用できるようになりました。
+1. 「**[!UICONTROL Create]**」をクリックして選択内容を確定します。 これで、メッセージでタイポロジを使用できるようになりました。
 
 ## メッセージへのタイポロジの適用 {#applying-typologies-to-messages}
 
@@ -64,7 +73,7 @@ ht-degree: 97%
 
 メッセージにタイポロジをリンクするには、次の手順に従います。
 
-1. メッセージのプロパティにアクセスします。メッセージテンプレートは、**[!UICONTROL Resources]**／**[!UICONTROL Templates]** ナビゲーションメニューからアクセスできます。
+1. メッセージのプロパティにアクセスします。 メッセージテンプレートは、**[!UICONTROL Resources]**／**[!UICONTROL Templates]** ナビゲーションメニューからアクセスできます。
 
 1. **[!UICONTROL Advanced parameters]**／「**[!UICONTROL Preparation]**」セクションで、メッセージにリンクするタイポロジを選択します。
 
@@ -72,4 +81,4 @@ ht-degree: 97%
 
 1. 「**[!UICONTROL Confirm]**」をクリックします。
 
-   選択したタイポロジがメッセージにリンクされます。関連するすべてのタイポロジルールが実行され、メッセージの有効性が確認されます。
+   選択したタイポロジがメッセージにリンクされます。 関連するすべてのタイポロジルールが実行され、メッセージの有効性が確認されます。

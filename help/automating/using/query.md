@@ -1,6 +1,6 @@
 ---
 title: クエリ
-description: 「Query」アクティビティを使用すると、Adobe Campaign データベースから要素の母集団をフィルタリングして抽出できます。
+description: 「クエリ」アクティビティを使用すると、Adobe Campaign データベースから要素の母集団をフィルタリングして抽出できます。
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -10,9 +10,16 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 0c26a0f9-9d71-4692-ae86-d47e2df53bb7
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/rja9hRgWDhDnLMNIYwt28rtxJrPyYnuwOa2XKR23uKA
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1765'
+source-wordcount: 1768
 ht-degree: 90%
 
 ---
@@ -23,16 +30,16 @@ ht-degree: 90%
 
 ![](assets/query.png)
 
-「**[!UICONTROL Query]**」アクティビティを使用すると、Adobe Campaign データベースから要素の母集団をフィルタリングして抽出できます。該当するタブを使用して、ターゲット母集団の **[!UICONTROL Additional data]** を定義できます。このデータは追加の列に格納され、進行中のワークフローでのみ使用できます。
+「**[!UICONTROL Query]**」アクティビティを使用すると、Adobe Campaign データベースから要素の母集団をフィルタリングして抽出できます。 該当するタブを使用して、ターゲット母集団の **[!UICONTROL Additional data]** を定義できます。 このデータは追加の列に格納され、進行中のワークフローでのみ使用できます。
 
-このアクティビティではクエリエディターツールを使用します。このツールについては、[該当する節](../../automating/using/editing-queries.md#about-query-editor)で詳しく説明します。
+このアクティビティではクエリエディターツールを使用します。 このツールについては、[該当する節](../../automating/using/editing-queries.md#about-query-editor)で詳しく説明します。
 
 **関連トピック：**
 
 * [クエリのサンプル](../../automating/using/query-samples.md)
-* [ユースケース：リターゲティングワークフローで開封者以外に新しい配信を送信する](../../automating/using/workflow-cross-channel-retargeting.md)
+* [ユースケース：開封者以外のユーザーに新しい配信を送信するリターゲティングワークフロー](../../automating/using/workflow-cross-channel-retargeting.md)
 
-## 使用コンテキスト {#context-of-use}
+## Context of use {#context-of-use}
 
 「**[!UICONTROL Query]**」アクティビティは、次のような様々な用途に使用できます。
 
@@ -43,7 +50,7 @@ ht-degree: 90%
 ## 設定 {#configuration}
 
 1. ワークフローに「**[!UICONTROL Query]**」アクティビティをドラッグ＆ドロップします。
-1. アクティビティを選択し、表示されるクイックアクションの ![](assets/edit_darkgrey-24px.png) ボタンを使用して開きます。デフォルトでは、このアクティビティはプロファイルを検索するように事前設定されています。
+1. アクティビティを選択し、表示されるクイックアクションの ![](assets/edit_darkgrey-24px.png) ボタンを使用して開きます。 デフォルトでは、このアクティビティはプロファイルを検索するように事前設定されています。
 1. プロファイルリソース以外のリソースに対してクエリを実行する場合は、アクティビティの「**[!UICONTROL Properties]**」タブに移動し、「**[!UICONTROL Resource]**」と「**[!UICONTROL Targeting dimension]**」を選択します。
 
    「**[!UICONTROL Resource]**」では、パレットに表示されるフィルターを絞り込むことができます。これに対して、「**[!UICONTROL Targeting dimension]**」は、選択されたリソースに応じて異なり、取得する母集団のタイプ（特定されたプロファイル、配信、選択されたリソースにリンクしているデータなど）に対応しています。
@@ -54,17 +61,17 @@ ht-degree: 90%
 
    >[!NOTE]
    >
-   >オーディエンスをターゲティングする場合、オーディエンスの定義は参照されず、クエリに **コピー** されます。 クエリのターゲットにした後にオーディエンスに変更を加える場合は、新しい定義を考慮してクエリを再度設定してください。
+   >オーディエンスをターゲットにする場合、オーディエンスの定義は参照されませんが、**クエリに** コピーされたことに注意してください。 クエリでターゲティングされた後にオーディエンスに変更を加えた場合は、新しい定義を考慮に入れるようにクエリを再度設定してください。
 
-1. 該当するタブを使用して、ターゲット母集団の **[!UICONTROL Additional data]** を定義できます。このデータは追加の列に格納され、進行中のワークフローでのみ使用できます。特に、クエリのターゲティングディメンションにリンクされた Adobe Campaign データベースのテーブルからデータを追加できます。[データのエンリッチメント](#enriching-data)の節を参照してください。
+1. 該当するタブを使用して、ターゲット母集団の **[!UICONTROL Additional data]** を定義できます。 このデータは追加の列に格納され、進行中のワークフローでのみ使用できます。 特に、クエリのターゲティングディメンションにリンクされた Adobe Campaign データベースのテーブルからデータを追加できます。 [データのエンリッチメント](#enriching-data)の節を参照してください。
 
    >[!NOTE]
    >
-   >デフォルトでは、クエリの「**[!UICONTROL Additional data]**」タブの「**[!UICONTROL Advanced options]**」で「**[!UICONTROL Remove duplicate rows (DISTINCT)]**」オプションがオンになっています。パフォーマンス上の理由から、追加のデータが「**[!UICONTROL Query]**」アクティビティに多数（100 以上）含まれている場合は、このオプションをオフにすることをお勧めします。このオプションをオフにすると、クエリされたデータに応じて重複が取得される可能性があるので注意してください。
+   >デフォルトでは、クエリの「**[!UICONTROL Additional data]**」タブの「**[!UICONTROL Advanced options]**」で「**[!UICONTROL Remove duplicate rows (DISTINCT)]**」オプションがオンになっています。 パフォーマンス上の理由から、追加のデータが「**[!UICONTROL Query]**」アクティビティに多数（100 以上）含まれている場合は、このオプションをオフにすることをお勧めします。 このオプションをオフにすると、クエリされたデータに応じて重複が取得される可能性があるので注意してください。
 
 1. 「**[!UICONTROL Transition]**」タブの「**[!UICONTROL Enable an outbound transition]**」オプションを使用すると、クエリアクティビティがデータを取得しない場合でも、このアクティビティの後にアウトバウンドトランジションを追加できます。
 
-   アウトバウンドトランジションのセグメントコードは、標準式とイベント変数を使用してパーソナライズできます（[&#x200B; このページ &#x200B;](../../automating/using/customizing-workflow-external-parameters.md) を参照）。
+   アウトバウンドトランジションのセグメントコードは、標準式とイベント変数を使用してパーソナライズできます（[このページ &#x200B;](../../automating/using/customizing-workflow-external-parameters.md)を参照）。
 
 1. アクティビティの設定を確認し、ワークフローを保存します。
 
@@ -72,7 +79,7 @@ ht-degree: 90%
 
 ターゲティングディメンションとリソースを使用すると、配信のターゲットを指定するためにクエリで使用する要素を定義できます。
 
-[&#x200B; ターゲットマッピング &#x200B;](../../administration/using/target-mappings-in-campaign.md) で設定し、ワークフローの作成時にクエリアクティビティの「**[!UICONTROL Properties]**」タブで定義します。
+これらは[&#x200B; ターゲットマッピング &#x200B;](../../administration/using/target-mappings-in-campaign.md)で設定され、ワークフローの作成時にクエリアクティビティの「**[!UICONTROL Properties]**」タブで定義されます。
 
 >[!NOTE]
 >
@@ -80,7 +87,7 @@ ht-degree: 90%
 
 ![](assets/targeting_dimension1.png)
 
-ターゲティングディメンションとリソースはリンクされています。したがって、使用可能なターゲティングディメンションは、選択したリソースによって異なります。
+ターゲティングディメンションとリソースはリンクされています。 したがって、使用可能なターゲティングディメンションは、選択したリソースによって異なります。
 
 例えば、**[!UICONTROL Profiles (profile)]** リソースの場合、次のターゲティングディメンションを使用できます。
 
@@ -100,49 +107,49 @@ ht-degree: 90%
 
 ![](assets/targeting_dimension5.png)
 
-デフォルトでは、プロファイルをターゲットにするために、ターゲティングディメンションとリソースが設定されます。 ただし、距離テーブル内の特定のレコードを検索する場合は、ターゲティングディメンションとは別のリソースを使用すると便利です。
+デフォルトでは、ターゲティングディメンションとリソースはターゲットプロファイルに設定されます。 ただし、距離テーブル内の特定のレコードを検索する場合は、ターゲティングディメンションとは別のリソースを使用すると便利です。
 
-詳しくは、次のユースケースを参照してください。[&#x200B; ターゲティングディメンションとは異なるリソースの使用 &#x200B;](../../automating/using/using-resources-different-from-targeting-dimensions.md)
+詳しくは、この使用例を参照してください。[&#x200B; ターゲティングディメンションとは異なるリソースを使用する](../../automating/using/using-resources-different-from-targeting-dimensions.md)
 
 ## データのエンリッチメント {#enriching-data}
 
-「**[!UICONTROL Query]**」アクティビティ、「**[!UICONTROL Incremental query]**」アクティビティ、「**[!UICONTROL Enrichment]**」アクティビティの「**[!UICONTROL Additional data]**」タブを使用すると、ターゲットとなるデータをエンリッチメントし、このデータを次のワークフローアクティビティに転送して利用できるようになります。特に、以下を追加できます。
+「**[!UICONTROL Query]**」アクティビティ、「**[!UICONTROL Incremental query]**」アクティビティ、「**[!UICONTROL Enrichment]**」アクティビティの「**[!UICONTROL Additional data]**」タブを使用すると、ターゲットとなるデータをエンリッチメントし、このデータを次のワークフローアクティビティに転送して利用できるようになります。 特に、以下を追加できます。
 
 * シンプルなデータ
 * 集計
 * コレクション
 
-集計とコレクションの場合は、複雑な式に技術的識別子を付与するために **[!UICONTROL Alias]** が自動的に定義されます。このエイリアスは一意である必要があり、後で集計とコレクションを容易に検索することができます。エイリアスをわかりやすい名前に変更することができます。
+集計とコレクションの場合は、複雑な式に技術的識別子を付与するために **[!UICONTROL Alias]** が自動的に定義されます。 このエイリアスは一意である必要があり、後で集計とコレクションを容易に検索することができます。 エイリアスをわかりやすい名前に変更することができます。
 
 >[!NOTE]
 >
->エイリアスは、次の構文規則に従う必要があります。英数字と「_」文字のみを利用できます。エイリアスでは、大文字と小文字が区別されます。エイリアスは「@」文字で開始する必要があります。「@」の直後に数字を挿入できません。例：@myAlias_1 と @_1Alias は正しいですが、@myAlias#1 と @1Alias は正しくありません。
+>エイリアスは、次の構文規則に従う必要があります。英数字と「_」文字のみを利用できます。 エイリアスでは、大文字と小文字が区別されます。 エイリアスは「@」文字で開始する必要があります。 「@」の直後に数字を挿入できません。 例：@myAlias_1 と @_1Alias は正しいですが、@myAlias#1 と @1Alias は正しくありません。
 
 データを追加した後、定義した追加のデータに基づいて条件を作成することで、最初にターゲットしたデータに追加のフィルターレベルを適用できます。
 
 >[!NOTE]
 >
->デフォルトでは、クエリの「**[!UICONTROL Additional data]**」タブの「**[!UICONTROL Advanced options]**」で「**[!UICONTROL Remove duplicate rows (DISTINCT)]**」オプションがオンになっています。パフォーマンス上の理由から、追加のデータが「**[!UICONTROL Query]**」アクティビティに多数（100 以上）含まれている場合は、このオプションをオフにすることをお勧めします。このオプションをオフにすると、クエリされたデータに応じて重複が取得される可能性があるので注意してください。
+>デフォルトでは、クエリの「**[!UICONTROL Additional data]**」タブの「**[!UICONTROL Advanced options]**」で「**[!UICONTROL Remove duplicate rows (DISTINCT)]**」オプションがオンになっています。 パフォーマンス上の理由から、追加のデータが「**[!UICONTROL Query]**」アクティビティに多数（100 以上）含まれている場合は、このオプションをオフにすることをお勧めします。 このオプションをオフにすると、クエリされたデータに応じて重複が取得される可能性があるので注意してください。
 
-追加データでメールをパーソナライズする方法のユースケースについては、[&#x200B; この節 &#x200B;](../../automating/using/personalizing-email-with-additional-data.md) を参照してください。
+追加データを使用して電子メールをパーソナライズする方法に関するユースケースは、[このセクション &#x200B;](../../automating/using/personalizing-email-with-additional-data.md)に記載されています。
 
 ### シンプルなフィールドの追加 {#adding-a-simple-field}
 
-シンプルなフィールドをデータとして追加すると、そのフィールドはアクティビティのアウトバウンドトランジションに直接表示されます。これにより、例えば、クエリのデータが適切なデータであるかを確認できます。
+シンプルなフィールドをデータとして追加すると、そのフィールドはアクティビティのアウトバウンドトランジションに直接表示されます。 これにより、例えば、クエリのデータが適切なデータであるかを確認できます。
 
 1. 「**[!UICONTROL Additional data]**」タブから、新しい要素を追加します。
-1. 開いたウィンドウの「**[!UICONTROL Expression]**」フィールドで、ターゲティングディメンションまたはリンクされたディメンションの 1 つで直接使用できるフィールドの 1 つを選択します。式を編集し、ディメンションフィールドから関数やシンプルな計算（集計を除く）を使用できます。
+1. 開いたウィンドウの「**[!UICONTROL Expression]**」フィールドで、ターゲティングディメンションまたはリンクされたディメンションの 1 つで直接使用できるフィールドの 1 つを選択します。 式を編集し、ディメンションフィールドから関数やシンプルな計算（集計を除く）を使用できます。
 
-   シンプルな XPATH パスではない式を編集すると、**[!UICONTROL Alias]** が自動的に作成されます（例：「Year(&lt;@birthDate>)」）。必要に応じて、変更を加えることができます。1 つのフィールドのみを選択する場合（例：「@age」）、**[!UICONTROL Alias]** を定義する必要はありません。
+   シンプルな XPATH パスではない式を編集すると、**[!UICONTROL Alias]** が自動的に作成されます（例：「Year(&lt;@birthDate>)」）。 必要に応じて、変更を加えることができます。 1 つのフィールドのみを選択する場合（例：「@age」）、**[!UICONTROL Alias]** を定義する必要はありません。
 
-1. 追加データへのフィールドの追加を確定するには、「**[!UICONTROL Add]**」を選択します。クエリを実行すると、追加されたフィールドに対応する追加の列が、アクティビティのアウトバウンドトランジションに表示されます。
+1. 追加データへのフィールドの追加を確定するには、「**[!UICONTROL Add]**」を選択します。 クエリを実行すると、追加されたフィールドに対応する追加の列が、アクティビティのアウトバウンドトランジションに表示されます。
 
 ![](assets/enrichment_add_simple_field.png)
 
 ### 集計の追加 {#adding-an-aggregate}
 
-集計を使用すると、ターゲティングディメンションのフィールドまたはターゲティングディメンションにリンクされたディメンションのフィールドから値を計算できます。例：プロファイルの平均購入金額。
-クエリで集計を使用する場合、関数は 0 に戻り、NULL と見なされます。クエリの「**[!UICONTROL Output filtering]**」タブを使用して、集計値をフィルターします。
+集計を使用すると、ターゲティングディメンションのフィールドまたはターゲティングディメンションにリンクされたディメンションのフィールドから値を計算できます。 例：プロファイルの平均購入金額。
+クエリで集計を使用する場合、関数は 0 に戻り、NULL と見なされます。 クエリの「**[!UICONTROL Output filtering]**」タブを使用して、集計値をフィルターします。
 
 * ゼロの値が必要な場合は、**[!UICONTROL is null]** にフィルターを適用します。
 * ゼロの値を除外したい場合は、**[!UICONTROL is not null]** にフィルターを適用します。
@@ -152,15 +159,15 @@ ht-degree: 90%
 1. 「**[!UICONTROL Additional data]**」タブから、新しい要素を追加します。
 1. 開いたウィンドウで、集計の作成に使用するコレクションを「**[!UICONTROL Expression]**」フィールドで選択します。
 
-   **[!UICONTROL Alias]** が自動的に作成されます。必要に応じて、クエリの「**[!UICONTROL Additional data]**」タブに戻って変更をおこないます。
+   **[!UICONTROL Alias]** が自動的に作成されます。 必要に応じて、クエリの「**[!UICONTROL Additional data]**」タブに戻って変更をおこないます。
 
    集計定義ウィンドウが開きます。
 
-1. 「**[!UICONTROL Data]**」タブで集計を定義します。選択した集計の種類に応じて、互換性のあるデータを持つ要素のみが「**[!UICONTROL Expression]**」フィールドで使用できます。例えば、合計は数値データでのみ計算できます。
+1. 「**[!UICONTROL Data]**」タブで集計を定義します。 選択した集計の種類に応じて、互換性のあるデータを持つ要素のみが「**[!UICONTROL Expression]**」フィールドで使用できます。 例えば、合計は数値データでのみ計算できます。
 
    ![](assets/enrichment_add_aggregate.png)
 
-   選択したコレクションのフィールドに複数の集計を追加できます。アクティビティのアウトバウンドデータの詳細において異なる列を区別するために、明示的なラベルを定義してください。
+   選択したコレクションのフィールドに複数の集計を追加できます。 アクティビティのアウトバウンドデータの詳細において異なる列を区別するために、明示的なラベルを定義してください。
 
    また、各集計に対して自動的に定義されるエイリアスを変更することもできます。
 
@@ -179,9 +186,9 @@ ht-degree: 90%
 ### コレクションの追加 {#adding-a-collection}
 
 1. 「**[!UICONTROL Additional data]**」タブから、新しい要素を追加します。
-1. 開いたウィンドウで、「**[!UICONTROL Expression]**」フィールドに追加するコレクションを選択します。**[!UICONTROL Alias]** が自動的に作成されます。必要に応じて、クエリの「**[!UICONTROL Additional data]**」タブに戻って変更をおこないます。
-1. 「**[!UICONTROL Add]**」を選択します。新しいウィンドウが開き、表示するコレクションデータを絞り込むことができます。
-1. 「**[!UICONTROL Parameters]**」タブで、「**[!UICONTROL Collection]**」を選択して追加するコレクションの行数を定義します。例えば、各プロファイルが最近おこなった 3 回の購入を取得する場合は、「**[!UICONTROL Number of lines to return]**」フィールドに「3」と入力します。
+1. 開いたウィンドウで、「**[!UICONTROL Expression]**」フィールドに追加するコレクションを選択します。 **[!UICONTROL Alias]** が自動的に作成されます。 必要に応じて、クエリの「**[!UICONTROL Additional data]**」タブに戻って変更をおこないます。
+1. 「**[!UICONTROL Add]**」を選択します。 新しいウィンドウが開き、表示するコレクションデータを絞り込むことができます。
+1. 「**[!UICONTROL Parameters]**」タブで、「**[!UICONTROL Collection]**」を選択して追加するコレクションの行数を定義します。 例えば、各プロファイルが最近おこなった 3 回の購入を取得する場合は、「**[!UICONTROL Number of lines to return]**」フィールドに「3」と入力します。
 
    >[!NOTE]
    >
@@ -220,7 +227,7 @@ ht-degree: 90%
 
 ### 追加データに従ったターゲットデータのフィルタリング {#filtering-the-targeted-data-according-to-additional-data}
 
-データを追加すると、**[!UICONTROL Query]** に新しい「**[!UICONTROL Output filtering]**」タブが表示されます。このタブでは、追加されたデータを考慮して、最初に「**[!UICONTROL Target]**」タブでターゲット設定されたデータに追加のフィルターを適用できます。
+データを追加すると、**[!UICONTROL Query]** に新しい「**[!UICONTROL Output filtering]**」タブが表示されます。 このタブでは、追加されたデータを考慮して、最初に「**[!UICONTROL Target]**」タブでターゲット設定されたデータに追加のフィルターを適用できます。
 
 例えば、少なくとも 1 つのトランザクションを実行したすべてのプロファイルをターゲットに設定し、プロファイルの平均トランザクション金額を計算する集計を **[!UICONTROL Additional data]** に追加した場合、この平均値を使用して最初に計算した母集団を絞り込むことができます。
 

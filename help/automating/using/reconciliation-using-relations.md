@@ -10,26 +10,33 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 7d0e3f17-ef04-4890-b63b-6957fc6cd648
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/0-hk7-ypJoU-1Sw4HYmYoYnv9z9iwFrsSQoPWNyhmik
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 81%
+source-wordcount: 338
+ht-degree: 86%
 
 ---
 
 # 関係を使用したデータの紐付け {#reconciliation-relations}
 
-次の例は、ファイル内の購入データを使用してデータベースを更新するワークフローを示しています。購入データには、クライアントのメールや商品コードなど、他のディメンションからの要素を参照するデータが含まれます。
+次の例は、ファイル内の購入データを使用してデータベースを更新するワークフローを示しています。 購入データには、クライアントのメールや商品コードなど、他のディメンションからの要素を参照するデータが含まれます。
 
 >[!NOTE]
 >
->この例で使用される **Transactions** リソースと **Products** リソースは、デフォルトでは Adobe Campaign データベースに存在しません。これらは、[Custom resources](../../developing/using/data-model-concepts.md) 関数を使用してあらかじめ作成されたものです。インポートされたファイルのメールアドレスに対応するプロファイルと商品は、事前にデータベースに読み込まれていたものです。
+>この例で使用される **Transactions** リソースと **Products** リソースは、デフォルトでは Adobe Campaign データベースに存在しません。 これらは、[Custom resources](../../developing/using/data-model-concepts.md) 関数を使用してあらかじめ作成されたものです。 インポートされたファイルのメールアドレスに対応するプロファイルと商品は、事前にデータベースに読み込まれていたものです。
 
 ワークフローは、次のアクティビティで構成されています。
 
 ![](assets/reconciliation_example1.png)
 
-* [&#x200B; ファイルを読み込み &#x200B;](../../automating/using/load-file.md) アクティビティ。読み込むファイルのデータを読み込んで検出します。 インポートされたファイルには、次のデータが含まれています。
+* 読み込むファイルのデータを読み込んで検出する[&#x200B; ファイルを読み込む](../../automating/using/load-file.md) アクティビティ。 インポートされたファイルには、次のデータが含まれています。
 
    * トランザクション日
    * クライアントのメールアドレス
@@ -48,7 +55,7 @@ ht-degree: 81%
   2015-05-19 09:06:00;mail9@email.com;ZZ6
   ```
 
-* 購入データをデータベースプロファイルと製品にバインドする [&#x200B; 紐付け &#x200B;](../../automating/using/reconciliation.md) アクティビティ。 ファイルデータ、プロファイルテーブル、および商品テーブルの間のリレーションを定義する必要があります。この設定は、アクティビティの「**[!UICONTROL Relations]**」タブで実行されます。
+* 購入データをデータベースプロファイルおよび製品にバインドするための[紐付け](../../automating/using/reconciliation.md) アクティビティ。 ファイルデータ、プロファイルテーブル、および商品テーブルの間のリレーションを定義する必要があります。 この設定は、アクティビティの「**[!UICONTROL Relations]**」タブで実行されます。
 
    * **Profiles** とのリレーション：ファイルの&#x200B;**クライアント**&#x200B;列は、**Profiles** ディメンションのメール&#x200B;**フィールドにリンクされています。**
    * **Products** との関係：ファイルの&#x200B;**商品**&#x200B;列は、**Profiles** ディメンションの&#x200B;**商品コード**&#x200B;フィールドにリンクされています。
@@ -57,9 +64,9 @@ ht-degree: 81%
 
   ![](assets/reconciliation_example3.png)
 
-* [&#x200B; データを更新 &#x200B;](../../automating/using/update-data.md) アクティビティでは、読み込んだデータを使用して更新するデータベースフィールドを定義できます。 前のアクティビティで **Transactions** ディメンションに属するデータが既に識別されているので、**[!UICONTROL Directly using the targeting dimension]** 識別オプションを使用できます。
+* [&#x200B; データの更新](../../automating/using/update-data.md) アクティビティを使用すると、インポートしたデータを使用して更新するデータベースフィールドを定義できます。 前のアクティビティで **Transactions** ディメンションに属するデータが既に識別されているので、**[!UICONTROL Directly using the targeting dimension]** 識別オプションを使用できます。
 
-  更新するフィールドを自動的に検出するオプションを使用すると、前のアクティビティで設定したリンク（プロファイルや商品へのリンク）が **[!UICONTROL Fields to update]** のリストに追加されます。また、トランザクション日に対応するフィールドがこのリストに正しく追加されていることを確認する必要があります。
+  更新するフィールドを自動的に検出するオプションを使用すると、前のアクティビティで設定したリンク（プロファイルや商品へのリンク）が **[!UICONTROL Fields to update]** のリストに追加されます。 また、トランザクション日に対応するフィールドがこのリストに正しく追加されていることを確認する必要があります。
 
   ![](assets/reconciliation_example5.png)
 

@@ -1,14 +1,22 @@
 ---
 title: 設定のガイドライン
-description: Campaign Standard設定のガイドラインについて学ぶ
+description: Campaign Standardの設定ガイドラインについて詳しく見る
 audience: administration
 feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 88684ed6-6d8d-4691-987f-812e7e1d834c
-source-git-commit: bfba6b156d020e8d2656239e713d2d24625bda54
+TQID: https://experienceleague.adobe.com/A54xeRieGeoElw38gcHeHrky80og-fNVPkf9qi2bu40
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: 119
 ht-degree: 7%
 
 ---
@@ -17,11 +25,11 @@ ht-degree: 7%
 
 ## 互換性のあるブラウザー{#compatible-browsers}
 
-Adobe Campaign Standardは、コンピューターのほとんどのブラウザーと互換性があり、タブレットの主要なオペレーティングシステムとも互換性があります。
+Adobe Campaign Standardは、ほとんどのコンピューターのブラウザーや、タブレットの主要なオペレーティングシステムと互換性があります。
 
-Adobe Campaign Standardでは、タブレットでのディスプレイモードとして横置きのみサポートしています。
+Adobe Campaign Standardでは、タブレットの表示モードとして横置きのみをサポートしています。
 
-以下に、Adobe Campaign Standardと互換性のあるブラウザーのリストを示します。
+Adobe Campaign Standardと互換性のあるブラウザーの一覧を次に示します。
 
 **コンピューター：**
 
@@ -32,20 +40,20 @@ Adobe Campaign Standardでは、タブレットでのディスプレイモード
 
 **タブレット：**
 
-* iOS（バージョン 7 以降）
-* Android（バージョン 4.4 以降）
+* iOS（バージョン 7以降）
+* Android（バージョン 4.4以降）
 
-## Campaign Standardネットワークエンドポイント {#campaign-standard-network-endpoints}
+## Campaign Standard ネットワークエンドポイント {#campaign-standard-network-endpoints}
 
-Campaign Standardで使用される様々なエンドポイントを次に示します。
+ここでは、Campaign Standardで使用されるさまざまなエンドポイントを紹介します。
 
 | コンテキスト | URL |
 |--- |--- |
-| Campaign インスタンス | `https://*.experiencecloud.adobe.com` （テナント ID * + クライアントドメイン） <br>`https://*.campaign.adobe.com` （Campaign インスタンステナント） |
+| キャンペーンインスタンス | `https://*.experiencecloud.adobe.com` （テナント ID * + クライアント ドメイン） <br>`https://*.campaign.adobe.com` （Campaign インスタンス テナント） |
 | IMS | `https://adobeid-na1.services.adobe.com`<br>`https://*.adobelogin.com` |
-| Experience cloud | `https://experiencecloud.adobe.com` |
+| Experience Cloud | `https://experiencecloud.adobe.com` |
 | トラッキング | `https://*.adobedtm.com`<br>`https://*.demdex.net`<br>`https://*.omtrdc.net` |
-| Assetsの統合 | `https://*.marketing-assets.adobe.com` |
+| Assetsとの連携 | `https://*.marketing-assets.adobe.com` |
 | 内部Adobe サービス | `https://*.adobe.io` |
 | 調査 | `https://adobe.allegiancetech.com` |
-| デフォルトのブランディング URL （クライアント設定の前） | `https://*.adobe-campaign.com` |
+| デフォルトのブランディング URL （クライアント設定前） | `https://*.adobe-campaign.com` |

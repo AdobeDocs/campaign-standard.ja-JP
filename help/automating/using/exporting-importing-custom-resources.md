@@ -9,10 +9,17 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: f8e7eb96-9541-4d28-9d8d-f06af822debd
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/3WJ46WcDxxGM-6Cx6Owk-p0z6J4k6KVRx8TqdbKFz9c
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 95%
+source-wordcount: 629
+ht-degree: 96%
 
 ---
 
@@ -26,16 +33,16 @@ ht-degree: 95%
 
 * **1 つ以上のカスタムリソース**：使用可能で公開されていること。
 
-  また、自動プライマリキーはエクスポートされたパッケージに含まれていないので、一意のキーを定義しておく必要があります。そうすることで、リソースのレコードの一意性を、プライマリキーと追加される一意キーによって保証できます。
+  また、自動プライマリキーはエクスポートされたパッケージに含まれていないので、一意のキーを定義しておく必要があります。 そうすることで、リソースのレコードの一意性を、プライマリキーと追加される一意キーによって保証できます。
 * パッケージの作成とエクスポートに&#x200B;**必要な権限**。
 
 その他のリソース：
 
 * [パッケージの管理](../../automating/using/managing-packages.md)
-* [パッケージのデプロイ：動作原理](../../developing/using/data-model-concepts.md)
+* [パッケージのデプロイ：動作原則](../../developing/using/data-model-concepts.md)
 * [リソースの追加または拡張](../../developing/using/key-steps-to-add-a-resource.md)
 
-## 構造のエクスポート {#exporting-the-structure}
+## 構造の書き出し {#exporting-the-structure}
 
 この節では、カスタムリソースデータの物理構造の詳細を示す最初のパッケージをエクスポートします。
 
@@ -56,7 +63,7 @@ ht-degree: 95%
 
 1. **[!UICONTROL Custom resource]**&#x200B;の詳細を、フィルター条件で「**製品**」と「**注文**」の 2 つのリソースを選択して設定します。
 
-   注意：論理演算子を変更することを忘れないでください。製品リソースと注文リソースの構造がパッケージに統合されるように、値を **OR** に設定する必要があります。
+   注意：論理演算子を変更することを忘れないでください。 製品リソースと注文リソースの構造がパッケージに統合されるように、値を **OR** に設定する必要があります。
 
    ![](assets/cusresources_export3.png)
 
@@ -66,9 +73,9 @@ ht-degree: 95%
 
 ![](assets/cusresources_export4.png)
 
-生成されたパッケージは、ダウンロードフォルダーから入手できます。zip ファイルの名前はランダムに生成されます。この名前は変更できます。
+生成されたパッケージは、ダウンロードフォルダーから入手できます。 zip ファイルの名前はランダムに生成されます。 この名前は変更できます。
 
-## データのエクスポート {#exporting-the-data}
+## データの書き出し {#exporting-the-data}
 
 次のエクスポートでは、**製品**&#x200B;と&#x200B;**注文**&#x200B;のカスタムリソースからデータをエクスポートします。
 
@@ -98,15 +105,15 @@ ht-degree: 95%
 
 ![](assets/cusresources_exportdata5.png)
 
-生成されたパッケージは、ダウンロードフォルダーから入手できます。zip ファイルの名前はランダムに生成されます。この名前は変更できます。
+生成されたパッケージは、ダウンロードフォルダーから入手できます。 zip ファイルの名前はランダムに生成されます。 この名前は変更できます。
 
-## 構造のインポート {#importing-the-structure}
+## 構造の読み込み {#importing-the-structure}
 
 ### パッケージのインポート {#importing-the-structure-package}
 
 1. 新しく作成したパッケージのインポート先となる&#x200B;**ターゲットインスタンス**&#x200B;に接続します。
 1. **[!UICONTROL Administration]**／**[!UICONTROL Deployment]**／**[!UICONTROL Package imports]**&#x200B;メニューに移動して、新しいパッケージを作成し、最初のエクスポートからファイルをインポートします。
-1. インポートファイル用のゾーンに&#x200B;**構造ファイル**&#x200B;をドラッグ＆ドロップします。使用できる形式は ZIP または XML です。
+1. インポートファイル用のゾーンに&#x200B;**構造ファイル**&#x200B;をドラッグ＆ドロップします。 使用できる形式は ZIP または XML です。
 
    ![](assets/cusresources_import2.png)
 
@@ -132,7 +139,7 @@ ht-degree: 95%
 ### パッケージのインポート {#importing-the-data-package}
 
 1. **[!UICONTROL Administration]**／**[!UICONTROL Deployment]**／**[!UICONTROL Package imports]**&#x200B;メニューに移動して、新しいパッケージを作成し、データを含んだファイルをインポートします。
-1. インポートファイル用のゾーンにデータファイルをドラッグ＆ドロップします。使用できる形式は ZIP または XML です。
+1. インポートファイル用のゾーンにデータファイルをドラッグ＆ドロップします。 使用できる形式は ZIP または XML です。
 1. 「Import data」などとラベルを変更し、「**[!UICONTROL Save]**」をクリックします。
 1. 「**[!UICONTROL Start import]**」をクリックします。
 

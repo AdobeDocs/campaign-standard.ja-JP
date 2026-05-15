@@ -5,9 +5,21 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 8c722084-988d-47bd-98ad-9f5a422980a0
-source-git-commit: e7c9c79a72b9f1ce36d0c60464b36be7d36a50a6
-workflow-type: ht
-source-wordcount: '1254'
+TQID: https://experienceleague.adobe.com/XeyIUqddLskoYUTD8zF1emb99O6HoL0gJrJlbX4V438
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+workflow-type: tm+mt
+source-wordcount: 1254
 ht-degree: 100%
 
 ---
@@ -29,7 +41,7 @@ ht-degree: 100%
 ### 修正点{#rn-fixes}
 
 * スケジュールされたタイミングの 1 時間前にトリガーされた予定レポートの問題を修正しました。 （CAMP-51502）
-* 配信ダッシュボードの配信インジケーターで、送信ログ（nms:broadLogRcp）と一致しない問題を修正しました。（CAMP-51127）
+* 配信ダッシュボードの配信インジケーターで、送信ログ（nms:broadLogRcp）と一致しない問題を修正しました。 （CAMP-51127）
 * ACS コネクタ（プライムオファー）でカスタムリソースを拡張できない問題を修正しました。 （CAMP-51033）
 * 遅延を避けるために、プライバシーリクエスト応答の公開プロセスを改善しました。 （CAMP-50613）
 
@@ -76,7 +88,7 @@ ht-degree: 100%
 <tbody> 
 <tr> 
 <td>
-<p>Apache log4j は、Apache log4j v2.17.1 リリースで報告された脆弱性を修正しました。Adobe Campaign Standard は Apache log4j を使用しており、このリリースにはこの最新の Apache log4j v2.17.1 が含まれています </p>
+<p>Apache log4j は、Apache log4j v2.17.1 リリースで報告された脆弱性を修正しました。 Adobe Campaign Standard は Apache log4j を使用しており、このリリースにはこの最新の Apache log4j v2.17.1 が含まれています </p>
 </td> 
 </tr> 
 </tbody> 
@@ -99,7 +111,7 @@ ht-degree: 100%
 **パッチ**
 
 * 動的レポートの「**今すぐレポートを送信**」オプションの問題（PDF 生成ジョブが複数のバリアントを含む配信で失敗した）を修正しました。 （CAMP-49120）
-* AEM で重複したコンテンツが同じキー（cq:uuid）を共有している場合に、ユーザーが Adobe Campaign Standard 配信から Adobe Experience Manager（AEM）コンテンツを更新またはリンク解除できない問題を修正しました。（CAMP-49161）
+* AEM で重複したコンテンツが同じキー（cq:uuid）を共有している場合に、ユーザーが Adobe Campaign Standard 配信から Adobe Experience Manager（AEM）コンテンツを更新またはリンク解除できない問題を修正しました。 （CAMP-49161）
 * ページが読み込まれない、配信を開けない、または保留中の変更を保存できないインスタンスにアクセスする際のエラーを修正しました。 （CAMP-50195）
 * この基準によって適用される「**配信フィルター**」フィールドが入力されていない場合に配信アラート基準が開かない問題を修正しました。 （CAMP-49093）
 * アプリ内配信の「**セカンダリ**」ボタンを編集するときに変更が考慮されない問題を修正しました。 （CAMP-50250）

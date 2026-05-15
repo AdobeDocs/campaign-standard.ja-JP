@@ -1,6 +1,6 @@
 ---
-title: 地理的単位属性の更新
-description: API を使用して地理的単位属性を更新する方法を説明します
+title: 地理単位属性の更新
+description: APIを使用して地理的単位属性を更新する方法を説明します
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -9,21 +9,30 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: 86810821-6f62-46ab-ba0b-2175797fe9dd
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/NQoeChz9CMFQEYy8LrNu1FQLGFy5Vgad8l8hmXiIPSU
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: 86
 ht-degree: 0%
 
 ---
 
-# 地理的単位属性の更新 {#managing-geographical-units}
+# 地理単位属性の更新 {#managing-geographical-units}
 
-1. **geoUnitBase** リソースに対してGET リクエストを実行し、地理的単位 PKey を取得します。
-1. ペイロードで更新する属性を指定して、地理的単位でPATCH リクエストを実行します。
+1. **geoUnitBase** リソースでGET リクエストを実行して、地理単位PKeyを取得します。
+1. ペイロードで更新する属性を使用して、地理単位でPATCH リクエストを実行します。
 
 <br/>
 
-***リクエストのサンプル***
+***サンプルリクエスト***
 
 地理的単位のリストを取得します。
 
@@ -35,7 +44,7 @@ ht-degree: 0%
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-すべての地理的単位を返します。 目的の単位の PKey を取得します。
+すべての地理的単位を返します。 目的のユニットのPKeyを取得します。
 
 ```
 {
@@ -51,7 +60,7 @@ ht-degree: 0%
 },
 ```
 
-ペイロードで更新する属性を指定して、地理的単位でPATCH リクエストを実行します。
+ペイロードで更新する属性を使用して、地理単位でPATCH リクエストを実行します。
 
 ```
 -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/orgUnitBase/<PKEY> \

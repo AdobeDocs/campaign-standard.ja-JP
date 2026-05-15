@@ -1,6 +1,6 @@
 ---
 title: トランザクションメッセージの基本を学ぶ
-description: トランザクションメッセージの概要と、Adobe Campaign Standardでトランザクションメッセージを設定するための主な手順を説明します。
+description: トランザクションメッセージの概要と、Adobe Campaign Standardでトランザクションメッセージを設定する主な手順について説明します。
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
@@ -9,26 +9,45 @@ feature: Transactional Messaging
 role: User
 level: Beginner
 exl-id: 49fba1af-3c99-45b7-bcbb-b9b9678eedcd
-source-git-commit: 0e486e87c94e273442de23d6eb65c99f065e5a71
+TQID: https://experienceleague.adobe.com/vveKWyxi6u44BmNqzEVeMwPvtvP8uWhAI-4UMD2CnVU
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2:
+  - id: b5852c32-876b-41ae-92a7-9f588865ae52
+  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+  - id: d3b34fea-a110-482f-adb2-aae8d686bac8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '992'
-ht-degree: 30%
+source-wordcount: 996
+ht-degree: 27%
 
 ---
 
 # トランザクションメッセージの基本を学ぶ {#getting-started-with-transactional-messaging}
 
-トランザクションメッセージは web サイトなどのプロバイダーがリアルタイムに送信する、個々に向けたユニークなコミュニケーションです。受信者が確認したい重要な情報が含まれているので、早い送信が特に期待されます。
+トランザクションメッセージは web サイトなどのプロバイダーがリアルタイムに送信する、個々に向けたユニークなコミュニケーションです。 受信者が確認したい重要な情報が含まれているので、早い送信が特に期待されます。
 
-* **いつまでに必要か？**&#x200B;メッセージには重要な情報が含まれているので、ユーザーはリアルタイムで送信されることを求めています。そのため、イベントがトリガーされてからメッセージが届くまでの時間を、非常に短縮する必要があります。
+* **期限はいつですか？** このメッセージには重要な情報が含まれているため、ユーザーはリアルタイムで送信されることを期待しています。 そのため、イベントがトリガーされてからメッセージが届くまでの時間を、非常に短縮する必要があります。
 
-* **なぜ重要なのか？**&#x200B;一般に、トランザクションメッセージは高い比率で開封されます。顧客との関係を定め、顧客の行動に強い影響を与える可能性があるので、慎重に設計する必要があります。
+* **なぜそれが重要なのですか？** 一般的に、トランザクションメッセージの開封率は高くなります。 顧客との関係を定め、顧客の行動に強い影響を与える可能性があるので、慎重に設計する必要があります。
 
-* **メッセージ例：** アカウント作成後のウェルカムメッセージ、注文の発送確認、請求書、パスワード変更の確認メッセージ、顧客が web サイトを閲覧した後の通知などがあります。
+* **例：?** アカウント作成後のウェルカムメッセージ、注文の発送確認、請求書、パスワード変更の確認メッセージ、web サイトの閲覧後の通知など、さまざまなタイプのメッセージが考えられます。
 
-Adobe Campaignでは、この機能を情報システムと統合し、カスタムトランザクションメッセージに変換するイベントを送信できます。
+Adobe Campaignでは、この機能を、カスタムトランザクションメッセージに変換するイベントを送信する情報システムと統合できます。
 
-トランザクションメッセージは、オプションに応じて、メール、SMS または [&#x200B; プッシュ通知 &#x200B;](../../channels/using/transactional-push-notifications.md) で送信できます。 使用許諾契約書を確認してください。
+トランザクションメッセージは、オプションに応じて、電子メール、SMS、または[&#x200B; プッシュ通知](../../channels/using/transactional-push-notifications.md)で送信できます。 使用許諾契約書を確認してください。
 
 >[!NOTE]
 >
@@ -36,7 +55,7 @@ Adobe Campaignでは、この機能を情報システムと統合し、カスタ
 
 <!--Guidelines to implement transactional messaging capabilities in your website are detailed in [this section](../../api/using/managing-transactional-messages.md).-->
 
-トランザクションメッセージの使用を開始する前に、対応する [&#x200B; ベストプラクティスと制限事項 &#x200B;](../../channels/using/transactional-messaging-limitations.md) を読んでください。
+トランザクションメッセージを開始する前に、対応する[&#x200B; ベストプラクティスと制限事項](../../channels/using/transactional-messaging-limitations.md)を必ずお読みください。
 
 ## トランザクションメッセージの動作原理 {#transactional-messaging-operating-principle}
 
@@ -46,86 +65,86 @@ Adobe Campaignでは、この機能を情報システムと統合し、カスタ
 
 例えば、顧客が製品を購入できる ｗeb サイトを持つ会社の例で考えてみます。
 
-Adobe Campaign を使用すると、買い物かごに製品を追加した顧客に通知メールを送信できます。Web サイトを訪れた人が購入せずにサイトを離れると（キャンペーンイベントをトリガーする外部イベント）、買い物かごの放棄に伴うメールを自動的に送信できます（トランザクションメッセージ配信）。
+Adobe Campaign を使用すると、買い物かごに製品を追加した顧客に通知メールを送信できます。 Web サイトを訪れた人が購入せずにサイトを離れると（キャンペーンイベントをトリガーする外部イベント）、買い物かごの放棄に伴うメールを自動的に送信できます（トランザクションメッセージ配信）。
 
 これを実現する主な手順は、[この節](#key-steps)で説明します。
 
 ## トランザクションメッセージタイプ {#transactional-message-types}
 
-Adobe Campaignでは、2 種類のトランザクションメッセージを使用できます。
+Adobe Campaignでは、2種類のトランザクションメッセージを利用できます。
 
-**イベントトランザクションメッセージ** イベント自体に含まれるターゲットデータ。 これらのメッセージ：
-* プロファイル情報を含めないので、購読解除リンクを含めることはできません。
-* 疲労ルールとの互換性がない（プロファイルを含むエンリッチメントの場合でも）。
-* イベント自体に含まれるデータによって配信ターゲットを定義する。
+イベント自体に含まれる&#x200B;**イベントトランザクションメッセージ** ターゲットデータ。 メッセージ：
+* プロファイル情報を含めないでください。そのため、購読解除リンクを含めることはできません。
+* 疲労ルールと互換性がありません（プロファイルを使用したエンリッチメントの場合でも）。
+* イベント自体に含まれるデータによって配信ターゲットを定義します。
 
-例えば、パスワードを忘れた場合や注文を確認する必要があるお客様に、イベントトランザクションメッセージを送信できます。 実際、受信者にこのタイプのお知らせの登録解除を望んでいません。また、この通知は、疲労ルールの一部としてマーケティングメッセージのカウンターに追加しないでください。
+例えば、忘れたパスワードを取得する必要がある顧客や、注文を確認する必要がある顧客に、イベントのトランザクションメッセージを送信する場合があります。 実際、受信者がこの種類のコミュニケーションの購読を解除することを望んでいません。また、この通知は、疲労ルールの一部としてマーケティングメッセージのカウンターに追加しないでください。
 
-**プロファイルトランザクションメッセージ** は、Campaign マーケティングデータベースからプロファイルをターゲットにします。 このタイプのメッセージを使用すると、次のことができます。
-* Adobe Campaign データベースに含まれるデータを活用します。
-* イベント設定に [&#x200B; エンリッチメント &#x200B;](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content) を追加して、プロファイル情報を使用してメッセージをパーソナライズします。
-* [&#x200B; マーケティングタイポロジルール &#x200B;](../../sending/using/managing-typology-rules.md) または [&#x200B; 疲労ルール &#x200B;](../../sending/using/fatigue-rules.md) を適用します。
+Campaign マーケティングデータベースから&#x200B;**トランザクションメッセージをプロファイル**&#x200B;のターゲットプロファイルに割り当てます。 この種類のメッセージを使用すると、次のことが可能になります。
+* Adobe Campaignデータベースに含まれるデータを活用。
+* イベント設定に[&#x200B; エンリッチメント &#x200B;](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)を追加して、プロファイル情報を使用してメッセージをパーソナライズします。
+* [&#x200B; マーケティングタイポロジルール &#x200B;](../../sending/using/managing-typology-rules.md)または[疲労ルール &#x200B;](../../sending/using/fatigue-rules.md)を適用します。
 * メッセージ内に購読解除リンクを含める。
 * グローバル配信レポートにトランザクションメッセージを追加する。
 * カスタマージャーニーでトランザクションメッセージを活用する。
 
-例えば、web サイトで買い物かごを放棄した後に顧客に連絡する際に、このタイプのメッセージを使用して、購入を続行するように促すことができます。 これにより、プロファイルデータベースからのすべての情報に直接アクセスしてメッセージをより簡単にパーソナライズし、マーケティングルールを適用し、このメッセージをグローバルなカスタマージャーニーおよびレポートに含めて、顧客行動をより明確に把握できます。
+たとえば、web サイトでカートを放棄した顧客に連絡する際に、このタイプのメッセージを利用することで、購入を促すことができます。 これにより、プロファイルデータベースのあらゆる情報に直接アクセスできるメッセージを、より簡単にパーソナライズして、マーケティングルールを適用し、このメッセージをグローバルカスタマージャーニーとレポートに含めることで、顧客行動をより詳細に把握することができます。
 
-メッセージタイプは、トランザクションメッセージに変換されるイベントを設定する際に定義されます。[&#x200B; イベントベースのトランザクションメッセージ &#x200B;](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages) および [&#x200B; プロファイルベースのトランザクションメッセージ &#x200B;](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages) 設定の節を参照してください。
+メッセージタイプは、トランザクションメッセージに変換されるイベントを設定する際に定義されます。 [&#x200B; イベントベースのトランザクションメッセージ &#x200B;](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages)および[&#x200B; プロファイルベースのトランザクションメッセージ &#x200B;](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages)の設定の節を参照してください。
 
 ## 主な手順 {#key-steps}
 
-パーソナライズされたトランザクションメッセージをAdobe Campaignで作成し、管理する主な手順については、以下のスキーマを参照してください。
+Adobe Campaignでパーソナライズされたトランザクションメッセージを作成および管理する際の主な手順を以下のスキーマにまとめます。
 
 ![](assets/message-center-overview.png)
 
-これらの各手順について、以下で詳しく説明します。
+以下では、それぞれの手順について詳しく説明します。
 
 >[!IMPORTANT]
 >
->トランザクションイベントを設定してトランザクションメッセージにアクセスできるのは、[&#x200B; 管理 &#x200B;](../../administration/using/users-management.md#functional-administrators) の役割を持つユーザーだけです。
+>トランザクション イベントを設定し、トランザクション メッセージにアクセスできるのは、[管理](../../administration/using/users-management.md#functional-administrators)の役割を持つユーザーのみです。
 
-### 手順 1 - イベント設定の作成と公開 {#create-event-configuration}
+### 手順1 - イベント設定を作成して公開する {#create-event-configuration}
 
 <!--<img src="assets/do-not-localize/icon_config.svg" width="60px">-->
 
 | イベントの作成 | ユーザー | アクション | 結果 |
 | --- |--- |--- |--- |
-| <img src="assets/do-not-localize/icon_config.svg" width="60px"> | この手順は、[&#x200B; 管理権限 &#x200B;](../../administration/using/users-management.md#functional-administrators) を持つ管理者が実行する必要があります。 | 「買い物かごの放棄」という名前のイベントを設定し、このイベント設定を公開します。 | Web サイト開発者が使用する API がデプロイされ、トランザクションメッセージが自動的に作成されます。 |
+| <img src="assets/do-not-localize/icon_config.svg" width="60px"> | この手順は、[管理権限](../../administration/using/users-management.md#functional-administrators)を持つ管理者が実行する必要があります。 | 「カート放棄」という名前のイベントを設定し、このイベント設定を公開します。 | Web サイト開発者が使用するAPIがデプロイされ、トランザクションメッセージが自動的に作成されます。 |
 
-イベントの作成と公開については、[&#x200B; トランザクションイベントの設定 &#x200B;](../../channels/using/configuring-transactional-event.md) および [&#x200B; トランザクションイベントの公開 &#x200B;](../../channels/using/publishing-transactional-event.md) を参照してください。
+イベントの作成と公開については、[&#x200B; トランザクションイベントの設定](../../channels/using/configuring-transactional-event.md)および[&#x200B; トランザクションイベントの公開](../../channels/using/publishing-transactional-event.md)の節を参照してください。
 
-### 手順 2 - トランザクションメッセージを編集して公開する {#create-transactional-message}
+### 手順2 - トランザクションメッセージの編集と公開 {#create-transactional-message}
 
 <!--<img src="assets/do-not-localize/icon_notification.svg" width="40px">-->
 
-| メッセージを編集 | ユーザー | アクション | 結果 |
+| メッセージの編集 | ユーザー | アクション | 結果 |
 | --- |--- |--- |--- |
-| <img src="assets/do-not-localize/icon_notification.svg" width="40px"> | この手順は、（管理権限 [&#x200B; を持つマーケティングユーザーが実行でき &#x200B;](../../administration/using/users-management.md#functional-administrators) す。 | トランザクションメッセージを編集してパーソナライズし、テストしてから公開します。 | これで、トランザクションメッセージを送信する準備が整いました。 |
+| <img src="assets/do-not-localize/icon_notification.svg" width="40px"> | この手順は、[管理権限](../../administration/using/users-management.md#functional-administrators)を持つマーケティングユーザーが実行できます。 | トランザクションメッセージを編集およびパーソナライズし、テストしてから公開します。 | トランザクションメッセージを送信する準備が整います。 |
 
-トランザクションメッセージの編集と公開について詳しくは、[&#x200B; トランザクションメッセージの編集 &#x200B;](../../channels/using/editing-transactional-message.md) および [&#x200B; トランザクションメッセージのライフサイクル &#x200B;](../../channels/using/publishing-transactional-message.md) を参照してください。
+トランザクションメッセージの編集と公開について詳しくは、[&#x200B; トランザクションメッセージの編集](../../channels/using/editing-transactional-message.md)および[&#x200B; トランザクションメッセージライフサイクル &#x200B;](../../channels/using/publishing-transactional-message.md)を参照してください。
 
-### 手順 3 - イベントトリガーの統合 {#integrate-event-trigger}
+### 手順3 - イベントトリガーの統合 {#integrate-event-trigger}
 
 <!--<img src="assets/do-not-localize/icon_api.svg" width="55px">-->
 
-イベントを作成したら、このイベントのトリガーを web サイトに統合する必要があります。<!--In this example, you want a "Cart abandonment" event to be triggered whenever one of your clients leaves your website before purchasing the products in their cart.--> それには、web サイトの開発者が **Adobe Campaign Standard REST API** を使用する必要があります。
+イベントを作成したら、このイベントのトリガーをweb サイトに統合する必要があります。<!--In this example, you want a "Cart abandonment" event to be triggered whenever one of your clients leaves your website before purchasing the products in their cart.--> これを行うには、web サイトのweb デベロッパーが&#x200B;**Adobe Campaign Standard REST API**&#x200B;を使用する必要があります。
 
 | トリガーの実装 | ユーザー | アクション | 結果 |
 | --- |--- |--- |--- |
-| <img src="assets/do-not-localize/icon_api.svg" width="55px"> | この手順は、web サイトの開発者が実行します。 | REST トランザクションメッセージ API を使用して、web サイトにイベントを統合します。 | クライアントが買い物かごを放棄すると、イベントがトリガーされます。 |
+| <img src="assets/do-not-localize/icon_api.svg" width="55px"> | この手順は、web サイトの開発者によって実行されます。 | REST トランザクションメッセージ APIを使用して、イベントをweb サイトに統合します。 | このイベントは、顧客がカートを放棄したときにトリガーされます。 |
 
-Campaign REST API を使用したトランザクションメッセージの管理について詳しくは、[REST API ドキュメント &#x200B;](../../api/using/managing-transactional-messages.md) を参照してください。
+Campaign REST APIを使用してトランザクションメッセージを管理する方法について詳しくは、[REST API ドキュメント &#x200B;](../../api/using/managing-transactional-messages.md)を参照してください。
 
-### 手順 4 - メッセージ配信 {#message-delivery}
+### ステップ 4 - メッセージ配信 {#message-delivery}
 
 <!--<img src="assets/do-not-localize/icon_channels.svg" width="60px">-->
 
-上記のすべての手順を実行したら、メッセージを配信できます。
+上記のすべての手順が実行されると、メッセージを配信できます。
 
 | メッセージの配信 | ユーザー | アクション | 結果 |
 | --- |--- |--- |--- |
-| <img src="assets/do-not-localize/icon_channels.svg" width="60px"> | この手順は、Web サイトを訪問する顧客が実行します。 | ユーザーが買い物かごに製品を注文せずにサイトを離れると、対応するキャンペーンイベントがトリガーされます。 | ユーザーは通知メールを自動的に受け取ります。 |
+| <img src="assets/do-not-localize/icon_channels.svg" width="60px"> | このステップは、web サイトにアクセスした顧客が実行します。 | 利用者がカートに商品を追加することなくサイトを離れるとすぐに、対応するCampaign イベントがトリガーされます。 | ユーザーは自動的に通知メールを受信します。 |
 
 ## 関連トピック
 

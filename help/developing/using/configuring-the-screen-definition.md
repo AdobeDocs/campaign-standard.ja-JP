@@ -9,9 +9,14 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: dc45f487-7502-478d-a2b3-51669cc6b225
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/oqbuWT87B-EkgJVioe5VMlsuqfOoI3tZA9RKM0LG4RI
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: 616
 ht-degree: 96%
 
 ---
@@ -45,7 +50,7 @@ ht-degree: 96%
 
 1. リソースの列を表示する形式を定義するには、「**[!UICONTROL Customize the list configuration]**」ボックスをオンにします。
 1. 「**[!UICONTROL Create element]**」ボタンを使用して、作成したフィールドの 1 つを選択します。
-1. 作成されたフィールドがリストに表示されます。ラベルと幅を編集できます。
+1. 作成されたフィールドがリストに表示されます。 ラベルと幅を編集できます。
 
    ![](assets/schema_extension_20.png)
 
@@ -55,18 +60,18 @@ ht-degree: 96%
    >
    >この設定により、デフォルト検索で使用するフィールドが置き換えられます。
 
-1. 「**[!UICONTROL Advanced filtering]**」セクションで「**[!UICONTROL Add search fields]**」をオンにして、単純検索フィールド以外のフィールドを追加します。例えば、作成したフィールドから「日付」フィールドを選択すると、ユーザーは該当する日付だけを参照する検索を実行できます。
+1. 「**[!UICONTROL Advanced filtering]**」セクションで「**[!UICONTROL Add search fields]**」をオンにして、単純検索フィールド以外のフィールドを追加します。 例えば、作成したフィールドから「日付」フィールドを選択すると、ユーザーは該当する日付だけを参照する検索を実行できます。
 1. 2 つのタイプの検索で対象とするフィールドの順序を変更することができます。
-1. 詳細検索では、リンクされたリソースに結び付けるフィールドを追加できます。これらのフィルターは、生成された画面の&#x200B;**[!UICONTROL Search]**&#x200B;メニューに表示されます。
+1. 詳細検索では、リンクされたリソースに結び付けるフィールドを追加できます。 これらのフィルターは、生成された画面の&#x200B;**[!UICONTROL Search]**&#x200B;メニューに表示されます。
 
 これでリソースの概要画面が定義されました。
 
-## 詳細画面の設定の定義 {#defining-the-detail-screen-configuration}
+## 詳細画面設定の定義 {#defining-the-detail-screen-configuration}
 
 画面定義の「**[!UICONTROL Detail screen configuration]**」セクションでは、リソースの各要素に対する詳細画面に表示する列と情報を定義することができます。
 
-1. 「**[!UICONTROL Detail screen configuration]**」セクションを展開し、「**[!UICONTROL Define a detail screen]**」をオンにして、リソースの各要素に対応する画面を設定します。このボックスをオフにすると、このリソースの要素を示す詳細表示にはアクセスできなくなります。
-1. 1 回のクリックで、カスタムリソースのすべてのフィールドを追加できます。これをおこなうには、![](assets/addallfieldsicon.png) アイコンをクリックするか、「**[!UICONTROL Add an element]**」ボタンを使用します。
+1. 「**[!UICONTROL Detail screen configuration]**」セクションを展開し、「**[!UICONTROL Define a detail screen]**」をオンにして、リソースの各要素に対応する画面を設定します。 このボックスをオフにすると、このリソースの要素を示す詳細表示にはアクセスできなくなります。
+1. 1 回のクリックで、カスタムリソースのすべてのフィールドを追加できます。 これをおこなうには、![](assets/addallfieldsicon.png) アイコンをクリックするか、「**[!UICONTROL Add an element]**」ボタンを使用します。
 1. このリソース用として作成された要素の 1 つを選択し、フィールドタイプを指定します。
 
    * **[!UICONTROL Input field]**：編集可能なフィールドです。
@@ -76,7 +81,7 @@ ht-degree: 96%
 
    ![](assets/schema_extension_23.png)
 
-1. 追加された要素がリストに表示されます。ラベルを編集できます。
+1. 追加された要素がリストに表示されます。 ラベルを編集できます。
 
    ![](assets/schema_extension_22.png)
 
@@ -88,13 +93,13 @@ ht-degree: 96%
 
 これでリソースの詳細画面が設定されました。
 
-## データセクションに対するアクション {#actions-on-data-section}
+## データセクションのアクション {#actions-on-data-section}
 
-以下の設定により、カスタムリソース画面にコントロールバーを表示できます。次の 3 つのオプションを使用できます。
+以下の設定により、カスタムリソース画面にコントロールバーを表示できます。 次の 3 つのオプションを使用できます。
 
 ![](assets/schema_extension_actions.png)
 
-* **[!UICONTROL Authorize creating]**：リソース要素の作成を有効にできます。これによりユーザーは、さらに別のレコードを追加できます。
+* **[!UICONTROL Authorize creating]**：リソース要素の作成を有効にできます。 これによりユーザーは、さらに別のレコードを追加できます。
 
   >[!NOTE]
   >

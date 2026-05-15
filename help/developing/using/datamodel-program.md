@@ -1,20 +1,25 @@
 ---
 title: DataModel プログラム
-description: データモデルについて説明します
+description: データモデルについて詳しく見る
 audience: developing
 content-type: reference
 feature: Data Model
 role: Developer
 level: Experienced
 exl-id: b05dc67a-6447-4d22-99f2-8a14a0ee46d2
-source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
+TQID: https://experienceleague.adobe.com/zo3wFxqwI6LIHn4Uolv9oipkW17maikqcO4zExmYQxM
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 37%
+source-wordcount: 228
+ht-degree: 41%
 
 ---
 
-# プログラム（nms:program）
+# プログラム （nms:program）
 
 ## オブジェクトの説明
 
@@ -22,7 +27,7 @@ ht-degree: 37%
                <tr>
                   <th>名前</th>
                   <th>ラベル</th>
-                  <th>タイプ （長さ）</th>
+                  <th>タイプ（長さ）</th>
                   <th>列挙値</th>
                </tr>
                <tr>
@@ -38,7 +43,7 @@ ht-degree: 37%
                   <td> </td>
                </tr>
                <tr>
-                  <td>builtIn</td>
+                  <td>ビルトイン</td>
                   <td>アプリケーションのビルトインオブジェクト</td>
                   <td>ブール値 </td>
                   <td> </td>
@@ -56,7 +61,7 @@ ht-degree: 37%
                   <td> </td>
                </tr>
                <tr>
-                  <td>降順</td>
+                  <td>desc</td>
                   <td>説明</td>
                   <td>文字列（512）</td>
                   <td> </td>
@@ -103,12 +108,12 @@ ht-degree: 37%
                   <td>列挙（文字列） （255）</td>
                   <td>
                      <ul>
-                        <li>処理中 – 開始 – 開始</li>
+                        <li>進行中 – 開始 – 開始</li>
                         <li>編集 – エディション – エディション</li>
                         <li>完了 – 完了 – 完了</li>
                         <li>警告 – 警告 – 警告</li>
                         <li>エラー – エラー – エラー</li>
-                        <li>無効な値 – __Invalid_value__ - __Invalid_value__</li>
+                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
@@ -154,10 +159,10 @@ ht-degree: 37%
                   <td>列挙（バイト） </td>
                   <td>
                      <ul>
-                        <li>開始日 – 開始日 – 1</li>
-                        <li>編集中 – エディション - 0</li>
+                        <li>開始 – 開始 – 1</li>
+                        <li>編集 – エディション - 0</li>
                         <li>終了 – 終了 – 2</li>
-                        <li>無効な値 – __Invalid_value__ - __Invalid_value__</li>
+                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
@@ -192,11 +197,11 @@ ht-degree: 37%
     </tr>
     <tr>
     <td>都道府県</td>
-    <td>定義済みリスト</td>
+    <td>列挙</td>
     </tr>
 </table>
 
-名前またはラベル （byText）
+名前またはラベル別（テキスト別）
 
 <table>
     <tr>
@@ -209,7 +214,7 @@ ht-degree: 37%
     </tr>
 </table>
 
-期間別（byPeriod）
+期間別（期間別）
 
 <table>
     <tr>
@@ -226,7 +231,7 @@ ht-degree: 37%
     </tr>
 </table>
 
-異機種リストからの連続配信を含める（withContinuous）
+異種リストからの継続的な配信を含める（Continuousを使用）
 
 <table>
     <tr>
@@ -252,7 +257,7 @@ ht-degree: 37%
         </tr>
     </table>
 
-対象の親のみ（eligibleParents）
+対象となる親のみ（対象となる親）
 
 <table>
     <tr>
@@ -265,7 +270,7 @@ ht-degree: 37%
     </tr>
 </table>
 
-指定された期間に予定（byPlanning）
+特定の期間に計画（計画別）
 
 <table>
     <tr>
@@ -282,7 +287,7 @@ ht-degree: 37%
     </tr>
 </table>
 
-指定された期間に存在（byCalendar）
+特定の期間に存在する（カレンダー別）
 
 <table>
     <tr>

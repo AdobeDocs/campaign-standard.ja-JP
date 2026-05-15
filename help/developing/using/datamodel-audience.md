@@ -1,16 +1,23 @@
 ---
-title: データモデルオーディエンス
-description: データモデルについて説明します
+title: DataModel オーディエンス
+description: データモデルについて詳しく見る
 audience: developing
 content-type: reference
 feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 53da6c4e-d4fb-4677-acff-744e3eb10960
-source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
+TQID: https://experienceleague.adobe.com/Fd12meY1UY9hZudGc18wtTTi2cVWWvN9wth8JSLzBQA
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 40%
+source-wordcount: 213
+ht-degree: 43%
 
 ---
 
@@ -22,7 +29,7 @@ ht-degree: 40%
                <tr>
                   <th>名前</th>
                   <th>ラベル</th>
-                  <th>タイプ （長さ）</th>
+                  <th>タイプ（長さ）</th>
                   <th>列挙値</th>
                </tr>
                <tr>
@@ -33,7 +40,7 @@ ht-degree: 40%
                </tr>
                <tr>
                   <td>aamMappingId</td>
-                  <td>Audience Managerマッピング ID</td>
+                  <td>Audience Manager マッピング ID</td>
                   <td>文字列（100）</td>
                   <td> </td>
                </tr>
@@ -63,7 +70,7 @@ ht-degree: 40%
                </tr>
                <tr>
                   <td>collectLineNumber</td>
-                  <td>ライン番号を ID として使用</td>
+                  <td>IDとして行番号を使用</td>
                   <td>ブール値 </td>
                   <td> </td>
                </tr>
@@ -75,7 +82,7 @@ ht-degree: 40%
                </tr>
                <tr>
                   <td>countDate</td>
-                  <td>日付をカウント</td>
+                  <td>カウント日</td>
                   <td>日付 </td>
                   <td> </td>
                </tr>
@@ -98,7 +105,7 @@ ht-degree: 40%
                   <td> </td>
                </tr>
                <tr>
-                  <td>降順</td>
+                  <td>desc</td>
                   <td>説明</td>
                   <td>文字列（512）</td>
                   <td> </td>
@@ -135,7 +142,7 @@ ht-degree: 40%
                </tr>
                <tr>
                   <td>isAMC</td>
-                  <td>Adobe Marketing Cloud オーディエンス</td>
+                  <td>Adobe Marketing Cloud audience</td>
                   <td>ブール値 </td>
                   <td> </td>
                </tr>
@@ -146,7 +153,7 @@ ht-degree: 40%
                   <td> </td>
                </tr>
                <tr>
-                  <td>jobLog</td>
+                  <td>jobLogs</td>
                   <td>ログ</td>
                   <td>コレクション </td>
                   <td> </td>
@@ -214,18 +221,18 @@ ht-degree: 40%
                <tr>
                   <td>タイプ</td>
                   <td>タイプ</td>
-                  <td>列挙（文字列）（100）</td>
+                  <td>列挙（文字列） （100）</td>
                   <td>
                      <ul>
                         <li>クエリ – クエリ – クエリ</li>
                         <li>リスト – リスト – リスト</li>
                         <li>ファイル – ファイル – ファイル</li>
-                        <li>無効な値 – __Invalid_value__ - __Invalid_value__</li>
+                        <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
                      </ul>
                   </td>
                </tr>
                <tr>
-                  <td>ここで、</td>
+                  <td>どこで</td>
                   <td>クエリ定義</td>
                   <td>項目 </td>
                   <td> </td>
@@ -240,7 +247,7 @@ ht-degree: 40%
 
 ## フィルター
 
-ディメンションのフィルター別（byFilteringResource）
+ディメンションをフィルタリングする（byFilteringResource）
 
 <table>
     <tr>
@@ -253,7 +260,7 @@ ht-degree: 40%
     </tr>
 </table>
 
-名前またはラベル （byText）
+名前またはラベル別（テキスト別）
 
 <table>
     <tr>
@@ -266,7 +273,7 @@ ht-degree: 40%
     </tr>
 </table>
 
-タイプ別（byType）
+タイプ別（タイプ別）
 
 <table>
     <tr>
@@ -275,7 +282,7 @@ ht-degree: 40%
     </tr>
     <tr>
     <td>タイプ</td>
-    <td>定義済みリスト</td>
+    <td>列挙</td>
     </tr>
     <tr>
     <td>isAMC</td>

@@ -9,32 +9,42 @@ feature: Landing Pages
 role: User
 level: Intermediate
 exl-id: 0b9795e9-83e6-4399-a3b1-fc69081f6a82
-source-git-commit: 17522f4df86c7fb46593472316d57b4ba4acee2b
+TQID: https://experienceleague.adobe.com/WGJMzhZXIgXMEioDtea5foDs7hRh70WOLG3XV41irvw
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: 656
 ht-degree: 93%
 
 ---
 
 # ランディングページの設定 {#configuring-landing-page}
 
-## ランディングページの送信を確認 {#confirm-a-landing-page-submission}
+## ランディングページの提出を確認 {#confirm-a-landing-page-submission}
 
-訪問者がランディングページを送信した場合に、アクションをトリガーするように設定できます。手順は次のとおりです。
+訪問者がランディングページを送信した場合に、アクションをトリガーするように設定できます。 手順は次のとおりです。
 
 1. ランディングページダッシュボードの ![](assets/edit_darkgrey-24px.png) アイコンを使用してアクセスするランディングページのプロパティを編集し、「**[!UICONTROL Job]**」パラメーターを表示します。
 
    ![](assets/lp_edit_properties_button.png)
 
-1. 自動メッセージを送信するよう指定する場合（サービスのサブスクリプションを確認する場合など）、「**[!UICONTROL Specific actions]**」セクションで「**[!UICONTROL Start sending message]**」を選択します。その後、メール配信テンプレートを選択する必要があります。
+1. 自動メッセージを送信するよう指定する場合（サービスのサブスクリプションを確認する場合など）、「**[!UICONTROL Specific actions]**」セクションで「**[!UICONTROL Start sending message]**」を選択します。 その後、メール配信テンプレートを選択する必要があります。
 
-   確認メッセージがサービスレベルで既に設定されている場合は、複数の確認メッセージが送信されないように、この画面では確認メッセージを選択しないでください。「[サービスの設定](../../audiences/using/creating-a-service.md)」を参照してください。
+   確認メッセージがサービスレベルで既に設定されている場合は、複数の確認メッセージが送信されないように、この画面では確認メッセージを選択しないでください。 「[サービスの設定](../../audiences/using/creating-a-service.md)」を参照してください。
 
-1. ランディングページの送信時に追加のデータを保存できるようにするには、**[!UICONTROL Additional data]** を作成します。このデータは、ページの訪問者には表示されません。定数値のみが使用できます。
+1. ランディングページの送信時に追加のデータを保存できるようにするには、**[!UICONTROL Additional data]** を作成します。 このデータは、ページの訪問者には表示されません。 定数値のみが使用できます。
 
    ![](assets/lp_parameters_6.png)
 
-## ランディングページのサービスへのリンク {#linking-a-landing-page-to-a-service}
+## ランディングページとサービスのリンク {#linking-a-landing-page-to-a-service}
 
 フォームをサービスにリンクして、ランディングページの検証時にプロファイルが特定のサービスに登録できるようにすることができます。
 
@@ -50,14 +60,14 @@ ht-degree: 93%
 
    ![](assets/lp_parameters_5.png)
 
-1. ランディングページを 1 件のサービスにリンクする場合は「**[!UICONTROL Specific service]**」を選択します。ランディングページで複数のサービスを使用する場合は、このオプションを選択しないでください。
+1. ランディングページを 1 件のサービスにリンクする場合は「**[!UICONTROL Specific service]**」を選択します。 ランディングページで複数のサービスを使用する場合は、このオプションを選択しないでください。
 
-   ランディングページを複数のサービスで使用する場合は、「**[!UICONTROL Specified service in the URL]**」オプションを使用します。そのため、サービスを設定する際はランディングページを参照する必要があります。
+   ランディングページを複数のサービスで使用する場合は、「**[!UICONTROL Specified service in the URL]**」オプションを使用します。 そのため、サービスを設定する際はランディングページを参照する必要があります。
 
 ## 権限の設定とデータのプリロード {#setting-permissions-and-pre-loading-data}
 
 ランディングページにアクセスできる人は、特定の訪問者（例えば、Campaign から送信されるメッセージ内のリンクからの訪問者）や特定の組織単位に限定することができます。
-特定の訪問者に限定する場合は、ランディングページでその訪問者のデータをプリロードできます。手順は次のとおりです。
+特定の訪問者に限定する場合は、ランディングページでその訪問者のデータをプリロードできます。 手順は次のとおりです。
 
 1. ランディングページダッシュボードの ![](assets/edit_darkgrey-24px.png) アイコンを使用してアクセスするランディングページのプロパティを編集し、「**[!UICONTROL Access & loading]**」パラメーターを表示します。
 
@@ -69,11 +79,11 @@ ht-degree: 93%
 
    ![](assets/lp_parameters_3_temp.png)
 
-また、**[!UICONTROL Authorize unidentified visitors]** オプションを使用して、ランディングページへのアクセスを任意の訪問者に許可することもできます。
+**[!UICONTROL Authorize unidentified visitors]** オプションを使用して、任意の訪問者にランディングページへのアクセスを許可することもできます。
 
 <!--Use the URL parameters to identify the visitors, using the **[!UICONTROL Authorize visitor identification via URL parameters]** option: then you must choose the loading key and map the filter parameters with the parameters of the corresponding URL.-->
 
-ランディングページは、組織単位にリンクすることもできます。これにより、各種のランディングページへのユーザーのアクセスが定義されます。組織単位を割り当てるには、次の手順に従います。
+ランディングページは、組織単位にリンクすることもできます。 これにより、各種のランディングページへのユーザーのアクセスが定義されます。 組織単位を割り当てるには、次の手順に従います。
 
 1. 「**[!UICONTROL Edit properties]**」アイコンからランディングページのプロパティにアクセスします。
 
@@ -81,7 +91,7 @@ ht-degree: 93%
 
 1. 「**[!UICONTROL Access authorization]**」を展開します。
 
-1. ドロップダウンメニューをクリックし、組織単位を選択します。組織単位の作成方法の詳細については、この[ページ](../../administration/using/organizational-units.md)を参照してください。
+1. ドロップダウンメニューをクリックし、組織単位を選択します。 組織単位の作成方法の詳細については、この[ページ](../../administration/using/organizational-units.md)を参照してください。
 
    ![](assets/lp_org_unit_2.png)
 
@@ -93,9 +103,9 @@ ht-degree: 93%
 
 ![](assets/lp_org_unit_3.png)
 
-## Google reCAPTCHA の設定 {#setting-google-recaptcha}
+## Google reCAPTCHAの設定 {#setting-google-recaptcha}
 
-ランディングページで Google reCAPTCHA V3 を設定すると、ボットによるスパムや悪用からランディングページを保護できます。ランディングページで使用するには、まず外部アカウントを作成する必要があります。設定方法について詳しくは、この[節](../../administration/using/external-accounts.md#google-recaptcha-external-account)を参照してください。
+ランディングページで Google reCAPTCHA V3 を設定すると、ボットによるスパムや悪用からランディングページを保護できます。 ランディングページで使用するには、まず外部アカウントを作成する必要があります。 設定方法について詳しくは、この[節](../../administration/using/external-accounts.md#google-recaptcha-external-account)を参照してください。
 
 設定した Google reCAPTCHA V3 外部アカウントは、ランディングページに追加できます。
 
@@ -115,4 +125,4 @@ ht-degree: 93%
 
 ![](assets/lp_parameters_google2.png)
 
-その後、Google reCAPTCHA は、ページでのユーザーのインタラクションに基づいてスコアを返します。スコアを確認するには、Google Admin Console に接続してください。
+その後、Google reCAPTCHA は、ページでのユーザーのインタラクションに基づいてスコアを返します。 スコアを確認するには、Google管理コンソールに接続します。

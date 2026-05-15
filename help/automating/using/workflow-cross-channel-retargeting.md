@@ -1,6 +1,6 @@
 ---
 title: メールを開封していないユーザーのリターゲティング
-description: このユースケースは、オープナー以外のユーザーをリターゲティングする方法を示しています。
+description: このユースケースでは、非オープナーをリターゲティングする方法を示します。
 audience: automating
 content-type: reference
 topic-tags: execution-activities
@@ -10,16 +10,23 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: cba4e5c6-8acd-47a1-824e-14415e90d451
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/FmSP-ecHeXM-ozitQoL684ZAQC0tbuj3vprW06znCUw
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 38%
+source-wordcount: 315
+ht-degree: 43%
 
 ---
 
-# リターゲティングワークフロー開いていないユーザーに新しい配信を送信{#retargeting-delivery-to-non-openers}
+# 開封者以外のユーザーに新しい配信を送信するリターゲティングワークフロー{#retargeting-delivery-to-non-openers}
 
-顧客にメールを送信した後、メールを開かなかった顧客に SMS を送信できます。
+顧客にメールを送信してから、メールを開かなかった顧客にSMSを送信できます。
 
 1. 「**[!UICONTROL Marketing Activities]**」で、「**[!UICONTROL Create]**」をクリックして「**[!UICONTROL Workflow]**」を選択します。
 1. ワークフローのタイプとして「**[!UICONTROL New Workflow]**」を選択し、「**[!UICONTROL Next]**」をクリックします。
@@ -29,15 +36,15 @@ ht-degree: 38%
 
 1. **[!UICONTROL Activities]**／**[!UICONTROL Targeting]** で、「[クエリ](../../automating/using/query.md)」アクティビティをドラッグ＆ドロップします。
 1. アクティビティをダブルクリックします。
-1. **[!UICONTROL Shortcuts]** で、**[!UICONTROL Profiles]** をドラッグ&amp;ドロップし、演算子 **[!UICONTROL email]** を使用して **[!UICONTROL is not empty]** を選択します。
-1. **[!UICONTROL Shortcuts]** で、**[!UICONTROL Profiles]** をドラッグ&amp;ドロップし、値が **[!UICONTROL no longer contact by email]** の **[!UICONTROL no]** を選択します。
+1. **[!UICONTROL Shortcuts]**&#x200B;で、**[!UICONTROL Profiles]**&#x200B;をドラッグ&amp;ドロップし、演算子&#x200B;**[!UICONTROL is not empty]**&#x200B;で&#x200B;**[!UICONTROL email]**&#x200B;を選択します。
+1. **[!UICONTROL Shortcuts]**&#x200B;で、**[!UICONTROL Profiles]**&#x200B;をドラッグ&amp;ドロップし、値&#x200B;**[!UICONTROL no]**&#x200B;を持つ&#x200B;**[!UICONTROL no longer contact by email]**&#x200B;を選択します。
 1. 「**[!UICONTROL Confirm]**」をクリックします。
 
 ![](assets/wf-complement-query.png)
 
 ## メール配信の作成{#creating-an-email-delivery}
 
-1. 各セグメントの後に [&#x200B; メール配信 &#x200B;](../../automating/using/email-delivery.md) をドラッグ&amp;ドロップします。
+1. 各セグメントの後に[&#x200B; メール配信](../../automating/using/email-delivery.md)をドラッグ&amp;ドロップします。
 1. アクティビティをクリックし、![](assets/edit_darkgrey-24px.png) を選択して編集します。
 1. 「**[!UICONTROL Simple email]**」を選択し、「**[!UICONTROL Next]**」をクリックします。
 1. 「**[!UICONTROL Add an outbound transition without the population]**」を選択し、「**[!UICONTROL Next]**」をクリックします。
@@ -45,33 +52,33 @@ ht-degree: 38%
 1. メールのプロパティを入力し、「**[!UICONTROL Next]**」をクリックします。
 1. メールのレイアウトを作成するには、「**[!UICONTROL Using the Email Designer]**」をクリックします。
 1. 要素を挿入するか、既存のテンプレートを選択します。
-1. 各場所に固有のオファーを使用してメールをパーソナライズします。詳しくは、[&#x200B; メールのデザイン &#x200B;](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch) を参照してください。
+1. 各場所に固有のオファーを使用して、メールをパーソナライズします。詳しくは、[メールのデザイン](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)を参照してください。
 1. 「**[!UICONTROL Preview]**」をクリックして、レイアウトを確認します。
 1. 「**[!UICONTROL Save]**」をクリックします。
 
-## クエリアクティビティでの非オープナーのターゲティング{#targeting-non-openers-in-a-query-activity}
+## クエリアクティビティ内の非開封者をターゲットにする{#targeting-non-openers-in-a-query-activity}
 
-1. **[!UICONTROL Activities]**/**[!UICONTROL Execution]** で、「[&#x200B; 待機 &#x200B;](../../automating/using/wait.md)」アクティビティをドラッグ&amp;ドロップします。
-1. **[!UICONTROL Duration]** で、「![](assets/duration-icon.png)」をクリックして 1 日を選択します。
+1. **[!UICONTROL Activities]** > **[!UICONTROL Execution]**&#x200B;で、[待機](../../automating/using/wait.md) アクティビティをドラッグ&amp;ドロップします。
+1. **[!UICONTROL Duration]**&#x200B;で、![](assets/duration-icon.png)をクリックし、1日を選択します。
 1. **[!UICONTROL Activities]**／**[!UICONTROL Targeting]** で、**[!UICONTROL Query activity]** をドラッグ＆ドロップします。
 1. アクティビティをダブルクリックします。
-1. **[!UICONTROL Shortcuts]** で、演算子 **[!UICONTROL Tracking Logs]** を使用し **[!UICONTROL exists]** とをドラッグ&amp;ドロップします。
-1. **[!UICONTROL Shortcuts]**> **[!UICONTROL Delivery]** で、演算子 **[!UICONTROL delivery]** を使用して **[!UICONTROL is equal to]** をドラッグ&amp;ドロップし、値として配信を選択します。
-1. **[!UICONTROL Shortcuts]**> **[!UICONTROL Delivery]** で、**[!UICONTROL type]** をドラッグ&amp;ドロップし、値として **[!UICONTROL Open]** をオンにします。
-1. ルール間の演算子を **[!UICONTROL except]** のように選択します。
+1. **[!UICONTROL Shortcuts]**&#x200B;で、**[!UICONTROL Tracking Logs]**&#x200B;と演算子&#x200B;**[!UICONTROL exists]**&#x200B;をドラッグ&amp;ドロップします。
+1. **[!UICONTROL Shortcuts]**> **[!UICONTROL Delivery]**&#x200B;で、演算子&#x200B;**[!UICONTROL is equal to]**&#x200B;を使用して&#x200B;**[!UICONTROL delivery]**&#x200B;をドラッグ&amp;ドロップし、配信を値として選択します。
+1. **[!UICONTROL Shortcuts]**> **[!UICONTROL Delivery]**&#x200B;で、**[!UICONTROL type]**&#x200B;をドラッグ&amp;ドロップし、**[!UICONTROL Open]**&#x200B;を値としてチェックします。
+1. ルール間の演算子を&#x200B;**[!UICONTROL except]**&#x200B;として選択します。
 1. 「**[!UICONTROL Confirm]**」をクリックします。
 
-## SMS 配信の作成{#creating-a-sms-delivery}
+## sms配信の作成{#creating-a-sms-delivery}
 
-1. 各セグメントの後に SMS 配信をドラッグ&amp;ドロップします。
+1. 各セグメントの後にSMS配信をドラッグ&amp;ドロップします。
 1. アクティビティをクリックし、![](assets/edit_darkgrey-24px.png) を選択して編集します。
 1. 「**[!UICONTROL Simple sms]**」を選択し、「**[!UICONTROL Next]**」をクリックします。
-1. Sms テンプレートを選択し、「**[!UICONTROL Next]**」をクリックします。
-1. SMS のプロパティを入力し、「**[!UICONTROL Next]**」をクリックします。
-1. SMS のレイアウトを作成するには、「**[!UICONTROL Email Designer]**」をクリックします。
+1. sms テンプレートを選択し、**[!UICONTROL Next]**&#x200B;をクリックします。
+1. sms プロパティを入力し、**[!UICONTROL Next]**&#x200B;をクリックします。
+1. SMSのレイアウトを作成するには、**[!UICONTROL Email Designer]**&#x200B;をクリックします。
 1. 要素を挿入するか、既存のテンプレートを選択します。
-1. 各場所に固有のオファーを使用して SMS をパーソナライズします。
-詳しくは、[SMS のデザイン &#x200B;](../../channels/using/creating-an-sms-message.md) の節を参照してください。
+1. 各地域に特化したオファーでsmsをパーソナライズします。
+詳細については、「[smsの設計](../../channels/using/creating-an-sms-message.md)」の節を参照してください。
 1. 「**[!UICONTROL Preview]**」をクリックして、レイアウトを確認します。
 1. 「**[!UICONTROL Save]**」をクリックします。
 

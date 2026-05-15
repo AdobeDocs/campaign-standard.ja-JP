@@ -1,15 +1,25 @@
 ---
-title: Adobe Campaign Standardのプッシュ通知からの画像を表示
-description: iOS デバイスでAdobe Campaignのプッシュ通知の画像を表示する方法を説明します
+title: Adobe Campaign Standard プッシュ通知からの画像の表示
+description: IOS デバイスでAdobe Campaign プッシュ通知の画像を表示する方法について説明します
 audience: channels
 feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 474c8002-4263-4617-9480-6a9b603bde8e
-source-git-commit: 7767b39a48502f97e2b3af9d21a3f49b9283ab2e
+TQID: https://experienceleague.adobe.com/dQyZVT7Q5Fdh4IdjkSGn0yEd8JmIUCPAN6qDjgYbdjo
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 12%
+source-wordcount: 434
+ht-degree: 15%
 
 ---
 
@@ -19,46 +29,46 @@ ht-degree: 12%
 >
 >このドキュメントは、iOS デバイスにのみ適用されます。
 
-このドキュメントでは、Adobe Campaign Standard iOSのプッシュ通知から画像を表示する方法を説明します。
+このドキュメントでは、Adobe Campaign Standard iOS プッシュ通知から画像を表示する方法について説明します。
 
-## 手順 1：プッシュ通知の設定 {#set-up-push}
+## 手順1：プッシュ通知の設定 {#set-up-push}
 
-プッシュ通知は、Experience Platform SDK でサポートされています。
+プッシュ通知は、Experience Platform SDKでサポートされています。
 
-プッシュ通知を受け取るモバイルアプリケーションは、Adobe Campaign インターフェイスで管理者が設定する必要があります。
+プッシュ通知を受信するモバイルアプリケーションは、Adobe Campaign インターフェイスで管理者が設定する必要があります。
 
-Adobe CampaignとAdobe Mobile Services の両方を設定すると、モバイルアプリケーションのデータをキャンペーンに使用できます。 詳しくは、この[ページ](../../administration/using/configuring-a-mobile-application.md)を参照してください。
+Adobe CampaignとAdobe Mobile Servicesの両方を設定すると、モバイルアプリケーションのデータをキャンペーンに使用できるようになります。 詳しくは、この[ページ](../../administration/using/configuring-a-mobile-application.md)を参照してください。
 
-Experience CloudSDK アプリケーションでプッシュ通知を送信するには、データ収集 UI でモバイルアプリを設定し、Adobe Campaignで設定する必要があります。 詳しくは、この[ページ](../../administration/using/configuring-a-mobile-application.md#channel-specific-config)を参照してください。
+Experience Cloud SDK アプリケーションでプッシュ通知を送信するには、モバイルアプリをデータ収集UIで設定し、Adobe Campaignで設定する必要があります。 詳しくは、この[ページ](../../administration/using/configuring-a-mobile-application.md#channel-specific-config)を参照してください。
 
-## 手順 2:Adobe Campaignでのプッシュ通知のカスタマイズ {#customize-push}
+## 手順2:Adobe Campaignでプッシュ通知をカスタマイズする {#customize-push}
 
 Adobe Campaign では、プッシュ通知のデザイン中に一連の詳細設定オプションにアクセスして、プッシュ通知を微調整することができます。
 
-1. プッシュ通知を作成します。 詳しくは、この[ページ](../../channels/using/preparing-and-sending-a-push-notification.md)を参照してください。
+1. プッシュ通知の作成。 詳しくは、この[ページ](../../channels/using/preparing-and-sending-a-push-notification.md)を参照してください。
 
-1. プッシュ通知のコンテンツページから、「**[!UICONTROL Advanced options]**」セクションにアクセスします。
+1. プッシュ通知コンテンツ ページから、**[!UICONTROL Advanced options]** セクションにアクセスします。
 
-1. ファイルの URL を「**[!UICONTROL Rich media content URL]**」フィールドに入力します。
-iOS 10 以降では、画像、gif、オーディオおよびビデオファイルを挿入できます。
+1. ファイルのURLを&#x200B;**[!UICONTROL Rich media content URL]** フィールドに入力します。
+iOS 10 以降では、画像、gif、オーディオおよびビデオのファイルを挿入できます。
 
    ![](assets/push_notif_advanced_6.png)
 
 1. プッシュ通知をプレビューして保存します。
 
-## 手順 3：モバイルアプリケーションコードの適応 {#mobile-app-code}
+## 手順3：モバイルアプリケーションコードの適応 {#mobile-app-code}
 
-Adobe Campaignでプッシュ通知をカスタマイズした後、デバイスに画像を表示するようにモバイルアプリケーションを設定する必要があります。
+Adobe Campaignでプッシュ通知をカスタマイズした後、モバイルアプリケーションを設定して、画像をデバイスに表示する必要があります。
 
 >[!NOTE]
 >
->アプリケーションが Objective-C の場合は、次の [&#x200B; ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/mobile-services/ios/messaging-ios/push-messaging/c-set-up-rich-push-notif-ios.html?lang=ja) を参照してください。
+>アプリケーションがObjective-Cの場合は、次の[&#x200B; ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/mobile-services/ios/messaging-ios/push-messaging/c-set-up-rich-push-notif-ios.html?lang=ja)を参照してください。
 
-アプリが [!DNL Swift] の場合は、次の手順に従います。
+アプリが[!DNL Swift]にある場合は、次の手順に従います。
 
 1. [!DNL Xcode] プロジェクトを開きます。
 
-1. [!DNL Xcode] プロジェクトで、**[!UICONTROL File]**/**[!UICONTROL New]**/**[!UICONTROL Target]** を選択します。
+1. [!DNL Xcode] プロジェクトで、**[!UICONTROL File]** > **[!UICONTROL New]** > **[!UICONTROL Target]**&#x200B;を選択します。
 
 1. 「**[!UICONTROL Notification Service Extension]**」を選択します。
 
@@ -66,8 +76,8 @@ Adobe Campaignでプッシュ通知をカスタマイズした後、デバイス
 
 1. **NotificationService.swift** ファイルクラスが作成されていることを確認します。
 
-1. このクラスを編集し、デフォルトコンテンツを次のコンテンツに置き換えます。
-これにより、アプリケーションは、受信パラメーターとイメージ URL を処理し、解析して、ローカルにコピーしてから、プッシュ通知から表示することができます。
+1. このクラスを編集し、デフォルトコンテンツを次の内容に置き換えます。
+これにより、アプリケーションは受信パラメーターを画像URLで処理し、それを解析し、ローカルにコピーして、プッシュ通知から表示できます。
 
    ```
    import UserNotifications
@@ -127,9 +137,9 @@ Adobe Campaignでプッシュ通知をカスタマイズした後、デバイス
    }
    ```
 
-通知が送信されると、モバイルは次のペイロードを受け取ります。
+通知の送信中に、モバイルは次のペイロードを受け取る必要があります。
 
-画像 URL は、キー media-attachment-url でマッピングされます。 画像をダウンロードして表示するには、アプリケーションコードの観点から処理する必要があるキーと値のペアです。
+画像URLは、キーmedia-attachment-urlでマッピングされます。 これは、画像をダウンロードして表示するために、アプリケーションコードの観点から処理する必要があるキーと値のペアです。
 
 ```
 userInfo: [AnyHashable("media-attachment-url"): https://pbs.twimg.com/profile_images/876737835314950144/zPTs9b7o.jpg, AnyHashable("_dId"): 1de3ef93, AnyHashable("_mId"): h280a5, AnyHashable("aps"): {
@@ -149,8 +159,8 @@ userInfo: [AnyHashable("media-attachment-url"): https://pbs.twimg.com/profile_im
 }]
 ```
 
-## 手順 4：プッシュの送信をテスト {#test-send-push}
+## 手順4：プッシュの送信をテストする {#test-send-push}
 
-これで、上記の手順 2 で作成したアプリケーションと配信の作成をテストできます。 プッシュ通知の準備と送信について詳しくは、この [&#x200B; ページ &#x200B;](../../channels/using/preparing-and-sending-a-push-notification.md) を参照してください
+これで、上記の手順2で作成したアプリケーションと配信の構築をテストできます。 プッシュ通知の準備と送信について詳しくは、この[&#x200B; ページ &#x200B;](../../channels/using/preparing-and-sending-a-push-notification.md)を参照してください。
 
 ![](assets/push_notif_advanced_34.png)

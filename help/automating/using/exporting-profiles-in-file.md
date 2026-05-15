@@ -1,6 +1,6 @@
 ---
 title: 外部ファイルへのプロファイルのエクスポート
-description: このユースケースは、プロファイルのリストを外部ファイルの形式で書き出し、Adobe Campaignの外部でデータを使用できるようにする方法を示しています。
+description: このユースケースでは、Adobe Campaign以外でデータを使用できるように、プロファイルのリストを外部ファイル形式で書き出す方法を示します。
 audience: automating
 content-type: reference
 topic-tags: data-management-activities
@@ -10,9 +10,16 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 3fc286a9-bba4-4e3d-95cd-600eed4943e7
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/wVo-oDNJNFmaNcb7p6fACNIfrPG-2Y-VbXxXG0P8XTQ
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: 229
 ht-degree: 68%
 
 ---
@@ -23,7 +30,7 @@ ht-degree: 68%
 
 このワークフローの目的は、プロファイルのリストを外部ファイルの形式でエクスポート、Adobe Campaign 外でデータを使用できるようにすることです。
 
-1. [&#x200B; ファイルを抽出 &#x200B;](../../automating/using/extract-file.md) アクティビティをワークフローにドラッグ&amp;ドロップし、[&#x200B; クエリ &#x200B;](../../automating/using/query.md) アクティビティの後に配置します。
+1. [&#x200B; ファイルを抽出](../../automating/using/extract-file.md) アクティビティをワークフローにドラッグ&amp;ドロップし、[&#x200B; クエリ &#x200B;](../../automating/using/query.md) アクティビティの後に配置します。
 
    この例では、クエリは 18～30 歳のすべてのプロファイルで実行されます。
 
@@ -46,7 +53,7 @@ ht-degree: 68%
      ![](assets/wkf_data_export9.png)
 
 1. アクティビティを確認します。
-1. [&#x200B; ファイルを転送 &#x200B;](../../automating/using/transfer-file.md) アクティビティを **[!UICONTROL Extract file]** アクティビティの後にドラッグ&amp;ドロップして、抽出ファイルを外部アカウントに復元します。
+1. **[!UICONTROL Extract file]** アクティビティの後に[&#x200B; ファイル転送](../../automating/using/transfer-file.md) アクティビティをドラッグ&amp;ドロップして、外部アカウントの抽出ファイルを回復します。
 1. アクティビティを開き、**[!UICONTROL File upload]** アクションを選択します。
 
    ![](assets/wkf_data_export11.png)

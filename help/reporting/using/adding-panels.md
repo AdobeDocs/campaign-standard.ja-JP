@@ -1,6 +1,6 @@
 ---
 title: パネルの追加
-description: 動的レポートを使用すると、パネルを追加して、選択した期間に応じてデータをより適切にフィルタリングできます。
+description: 動的レポートを使用すると、パネルを追加して、選択した期間に応じてデータをより適切にフィルターできます。
 audience: reporting
 content-type: reference
 topic-tags: customizing-reports
@@ -8,10 +8,19 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: e48b9630-c5ce-4d5d-90e6-97b77fbe3d50
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/jQtNVS-IFlOGMS5RAfKfOU610fZGzLB2GjEWwOPJE84
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '345'
-ht-degree: 1%
+source-wordcount: 345
+ht-degree: 60%
 
 ---
 
@@ -19,41 +28,41 @@ ht-degree: 1%
 
 ## 空のパネルの追加 {#adding-a-blank-panel}
 
-レポートを開始するには、一連のパネルを標準またはカスタムレポートに追加します。 各パネルには、様々なデータセットが含まれ、フリーフォームテーブルおよびビジュアライゼーションで構成されます。
+レポートを開始するには、標準またはカスタムのレポートに一連のパネルを追加します。 各パネルは、様々なデータセットを含み、フリーフォームテーブルとビジュアライゼーションで構成されています。
 
 このパネルを使用すると、必要に応じてレポートを作成できます。 異なる期間でデータをフィルタリングするために、レポートに必要な数のパネルを追加できます。
 
-1. **パネル** アイコンをクリックします。 また、「挿入」タブをクリックして **新しい空のパネル** を選択することで、パネルを追加す **こともでき** す。
+1. 「**パネル**」アイコンをクリックします。 また、「**タブを挿入**」をクリックして「**新しい空のパネルl**」を選択することで、パネルを追加することもできます。
 
    ![](assets/dynamic_report_panel_1.png)
 
-1. **空のパネル** をダッシュボードにドラッグ&amp;ドロップします。
+1. **空のパネル**&#x200B;をダッシュボードにドラッグ＆ドロップします。
 
    ![](assets/dynamic_report_panel.png)
 
-これで、フリーフォームテーブルをパネルに追加して、データのターゲット設定を開始できます。
+これで、パネルにフリーフォームテーブルを追加して、データのターゲティングを開始できるようになりました。
 
 ## フリーフォームテーブルの追加 {#adding-a-freeform-table}
 
-フリーフォームテーブルを使用すると、**コンポーネント** テーブルで使用できる様々な指標やディメンションを使用して、データを分析するテーブルを作成できます。
+フリーフォームテーブルでは、**コンポーネント**&#x200B;テーブルにある様々な指標やディメンションを使ってテーブルを作成し、データを分析できます。
 
-各テーブルとビジュアライゼーションはサイズ変更可能で、移動してレポートをカスタマイズできます。
+各テーブルとビジュアライゼーションはサイズ変更したり、移動したりしてレポートをカスタマイズできます。
 
 1. **[!UICONTROL Panels]** アイコンをクリックします。
 
    ![](assets/dynamic_report_panel_1.png)
 
-1. **[!UICONTROL Freeform]** の項目をダッシュボードにドラッグ&amp;ドロップします。
+1. **[!UICONTROL Freeform]**&#x200B;項目をダッシュボードにドラッグ&amp;ドロップします。
 
-   「テーブル」タブをクリックして選択するか、空のパネ **[!UICONTROL Insert]** で **[!UICONTROL New Freeform]** をクリックして、テー **[!UICONTROL Add a freeform table]** ルを追加することもできます。
+   テーブルを追加するには、**[!UICONTROL Insert]** タブをクリックして&#x200B;**[!UICONTROL New Freeform]**&#x200B;を選択するか、空のパネルで&#x200B;**[!UICONTROL Add a freeform table]**&#x200B;をクリックします。
 
    ![](assets/dynamic_report_panel_2.png)
 
-1. 「**[!UICONTROL Drop a segment here]**」フィールドで、「**[!UICONTROL Components]**」タブの **[!UICONTROL Segment]** を上部のバーに追加します。
+1. **[!UICONTROL Drop a segment here]** フィールドで、**[!UICONTROL Components]** タブから&#x200B;**[!UICONTROL Segment]**&#x200B;を上部バーに追加します。
 
    ![](assets/dynamic_report_panel_3.png)
 
-1. 「**[!UICONTROL Components]**」タブから列と行に項目をドラッグ&amp;ドロップして、テーブルを作成します。
+1. **[!UICONTROL Components]** タブから項目を列と行にドラッグ&amp;ドロップして、テーブルを作成します。
 
    ![](assets/dynamic_report_freeform_3.png)
 
@@ -61,15 +70,15 @@ ht-degree: 1%
 
    ![](assets/dynamic_report_freeform_4.png)
 
-   **[!UICONTROL Column settings]** は、次の要素で構成されます。
+   **[!UICONTROL Column settings]**&#x200B;は次の要素で構成されています：
 
-   * **[!UICONTROL Number]**：列の概要数値の表示と非表示を切り替えることができます。
-   * **[!UICONTROL Percent]**：列のパーセントの表示と非表示を切り替えることができます。
-   * **[!UICONTROL Interpret zero as no value]**：値が 0 に等しい場合に表示または非表示にできます。
-   * **[!UICONTROL Background]**: セル内の水平プログレスバーの表示と非表示を切り替えることができます。
-   * **[!UICONTROL Include retries]**：再試行を結果に含めることができます。 これは、**[!UICONTROL Sent]** と **[!UICONTROL Bounces + Errors]** でのみ使用できます。
+   * **[!UICONTROL Number]**：列の要約番号を表示または非表示にできます。
+   * **[!UICONTROL Percent]**：列のパーセントを表示または非表示にできます。
+   * **[!UICONTROL Interpret zero as no value]**：値が0に等しい場合に表示または非表示にできます。
+   * **[!UICONTROL Background]**: セルの水平方向の進行状況バーを表示または非表示にできます。
+   * **[!UICONTROL Include retries]**：結果に再試行を含めることができます。 これは、**[!UICONTROL Sent]**&#x200B;と&#x200B;**[!UICONTROL Bounces + Errors]**&#x200B;でのみ使用できます。
 
-1. 1 つまたは複数の行を選択して、「**[!UICONTROL Visualize]**」アイコンをクリックします。 ビジュアライゼーションが追加され、選択した行が反映されます。
+1. 1つまたは複数の行を選択し、**[!UICONTROL Visualize]** アイコンをクリックします。 ビジュアライゼーションが追加され、選択した行が反映されます。
 
    ![](assets/dynamic_report_freeform_5.png)
 

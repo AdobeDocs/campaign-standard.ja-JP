@@ -5,10 +5,30 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
-source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
+TQID: https://experienceleague.adobe.com/Os1EM221DXk1yVqd-md5iTlvK623LzFiqg5Ag7N2tTw
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+subfeature_v2:
+  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '7673'
-ht-degree: 9%
+source-wordcount: 7892
+ht-degree: 10%
 
 ---
 
@@ -29,8 +49,8 @@ ht-degree: 9%
    <td> <p>CCPAとは、2020年1月1日に施行されるデータ保護要件を調整し、今日の状況に対応するために近代化、整備された、カリフォルニア州の新しいプライバシー法です。 CCPA は、カリフォルニア州に居住しているデータ主体のデータを保有している Adobe Campaign の顧客に適用されます。</p>
    <p>Adobe Campaignで既に利用可能なプライバシー機能（同意管理、データ保持設定、ユーザーの役割など）に加えて、この機会にCCPAへの対応を促進するための追加機能も追加します。</p>
    <ul>
-    <li>アクセス権と削除権：GDPR 用に追加された機能を活用します。<a href="https://helpx.adobe.com/content/help/jp/campaign/kb/acs-privacy.html#righttoaccess">詳細情報</a> </li>
-    <li><p>プライバシーリクエストを作成する際に、プライバシーコアサービスに規制タイプ（GDPRまたはCCPA）が追加されました。 すべてのアクセス要求と削除要求に対して、このメソッドを使用する必要があります。アクセス要求および削除要求に対する Campaign API およびインターフェイスの使用は廃止されています。<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=ja">廃止および削除された機能の記事</a>を参照してください。</p></li>
+    <li>アクセス権と削除権：GDPR 用に追加された機能を活用します。 <a href="https://helpx.adobe.com/content/help/jp/campaign/kb/acs-privacy.html#righttoaccess">詳細情報</a> </li>
+    <li><p>プライバシーリクエストを作成する際に、プライバシーコアサービスに規制タイプ（GDPRまたはCCPA）が追加されました。 すべてのアクセス要求と削除要求に対して、このメソッドを使用する必要があります。 アクセス要求および削除要求に対する Campaign API およびインターフェイスの使用は廃止されています。  <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=ja">廃止および削除された機能の記事</a>を参照してください。</p></li>
     <li>プロファイルリソースに「<strong>CCPA オプトアウト </strong>」フィールドが追加され、Adobe Campaign ユーザーは、消費者が個人情報の販売をオプトアウトしたかどうかを追跡できるようになりました。 <a href="https://helpx.adobe.com/jp/campaign/kb/acs-privacy.html#ccpa">詳細情報</a>。</li>
   </ul>
     <p><a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html?lang=ja">ハウツービデオ</a>を参照してください。</p>
@@ -209,7 +229,7 @@ ht-degree: 9%
 **その他の変更**
 
 * 配信プロパティインターフェイスに警告が追加されました。 集計期間に基づいて配信を準備し、解凍して1日に複数回ワークフローを呼び出すように、配信に期間がないことを確認する必要があります。 （CAMP-34393）
-* カスタムリソース設定画面に警告が追加されました。 カスタムリソース ID には使用する文字は最大 30 文字にすることをお勧めします。これは、カスタムリソースフィールド、キー、インデックス、リンクにも適用されます。
+* カスタムリソース設定画面に警告が追加されました。 カスタムリソース ID には使用する文字は最大 30 文字にすることをお勧めします。 これは、カスタムのリソースフィールド、キー、インデックス、リンクについても同様です。
 * ランディングページで確認メッセージとして使用されるトランザクションメッセージを削除しようとすると、メッセージが表示されるようになりました。
 * アクティビティが6時間以上実行されている場合、ワークフローログに警告が表示されるようになりました。 これは、プッシュ通知、配信、シグナル、開始、終了、フォーク、AND ジョイント、スケジュール、待機の各アクティビティには適用されません。
 * 同時に実行するワークフローの最大数に達すると、ワークフローログに警告が表示されるようになりました。
@@ -359,14 +379,14 @@ ht-degree: 9%
 * 動的レポートから郵便番号ディメンションが削除されました。 代わりに、City、Country、State ディメンションを使用することをお勧めします。
 * アプリ内メッセージの「最初の起動」ライフサイクルイベントトリガーが削除されました。
 * セキュリティグループを含むパッケージを書き出す際に、各グループに割り当てられた役割が含まれるようになりました。 （CAMP-32960）
-* 「ファイルを読み込む」アクティビティでは、アップロードするファイルの列が列定義に一致することを確認できます。 詳しくは、[詳細ドキュメント](../../automating/using/load-file.md)を参照してください。（CAMP-32229）
-* ワークフローをペイロードで開始できるようになり、ワークフロー内のアクティビティ間で外部パラメーターを使用したり共有したりできるようになりました。 詳しくは、[詳細ドキュメント](../../automating/using/calling-a-workflow-with-external-parameters.md)を参照してください。（CAMP-29412 &amp; CAMP-29413）
+* 「ファイルを読み込む」アクティビティでは、アップロードするファイルの列が列定義に一致することを確認できます。 詳しくは、[詳細ドキュメント](../../automating/using/load-file.md)を参照してください。 （CAMP-32229）
+* ワークフローをペイロードで開始できるようになり、ワークフロー内のアクティビティ間で外部パラメーターを使用したり共有したりできるようになりました。 詳しくは、[詳細ドキュメント](../../automating/using/calling-a-workflow-with-external-parameters.md)を参照してください。 （CAMP-29412 &amp; CAMP-29413）
 * Campaign Standard APIで、ペイロードを使用してプロファイルの地理的および組織的単位を更新できるようになりました。 詳しくは、[詳細ドキュメント](../../api/using/get-started-apis.md)を参照してください。
 * データベースからのオブジェクトにアクセスできない場合のエラーメッセージが、理解しやすくなりました。
 * 「ファイルを抽出」アクティビティでは、書き出すファイルの名前を定義する際にJavascript機能が更新されました。 formatDate関数のみが出力フィールドで使用できるようになりました。 詳しくは、[詳細ドキュメント](../../automating/using/extract-file.md)を参照してください。
 * カスタムリソースの自動シーケンス ID生成が改善されました。 新しいカスタムリソースのプライマリキーは、デフォルトで64 ビットになりました。
 * カスタムリソース公開テストモードが改善されました。 最後のカスタムリソースの公開が失敗し、修正されていない場合は、ユーザーに警告メッセージが表示されるようになりました。 カスタムリソースの公開に失敗した場合は、最後の動作バージョンにロールバックできます。 詳しくは、[詳細ドキュメント](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)を参照してください。
-* ファイルの転送アクティビティに新しいオプションが追加されました。 ファイルのダウンロードアクションをSFTP モードで使用する場合は、ファイルを並べ替えることができます。 詳しくは、[詳細ドキュメント](../../automating/using/transfer-file.md)を参照してください。（CAMP-33109）
+* ファイルの転送アクティビティに新しいオプションが追加されました。 ファイルのダウンロードアクションをSFTP モードで使用する場合は、ファイルを並べ替えることができます。 詳しくは、[詳細ドキュメント](../../automating/using/transfer-file.md)を参照してください。 （CAMP-33109）
 
 **パッチ**
 
@@ -431,7 +451,7 @@ ht-degree: 9%
    <td> ワークフローの機能強化<br /> </td> 
    <td> <p>次のワークフロー機能が追加されました。</p> 
     <ul> 
-     <li> ワークフロー内または別のワークフロー内のアクティビティを、同じCampaign インスタンスからコピー&amp;ペーストできるようになりました。 これにより、ワークフロー全体または特定のアクティビティを簡単に複製し、最初に定義した設定を維持できます。 詳しくは、<a href="../../automating/using/workflow-interface.md#duplicating-workflow-activities">詳細ドキュメント</a>を参照してください。（CAMP-20014） </li> 
+     <li> ワークフロー内または別のワークフロー内のアクティビティを、同じCampaign インスタンスからコピー&amp;ペーストできるようになりました。 これにより、ワークフロー全体または特定のアクティビティを簡単に複製し、最初に定義した設定を維持できます。 詳しくは、<a href="../../automating/using/workflow-interface.md#duplicating-workflow-activities">詳細ドキュメント</a>を参照してください。 （CAMP-20014） </li> 
      <li> <strong> ファイルを読み込み</strong> アクティビティを使用する際に、拒否されたレコードを含むファイル名にタイムスタンプを追加できるようになりました。 詳しくは、<a href="../../automating/using/load-file.md#configuration">詳細ドキュメント</a>を参照してください。 </li> 
      <li> <strong> クエリ </strong>および<strong> セグメント化</strong> アクティビティで、アクティビティでデータが取得されない場合は、アウトバウンドトランジションを有効にできるようになりました。 </li> 
     </ul> </td> 
@@ -526,11 +546,11 @@ ht-degree: 9%
    <td> Designerの一般公開を電子メールで送信<br /> </td> 
    <td> <p>新しい直感的な電子メールDesigner（旧Creative Designer）が一般公開されました。 レガシーコンテンツエディターのすべての機能がサポートされるようになりました。次の機能をサポートします。</p> 
     <ul> 
-     <li> Adobe Target<a href="../../integrating/using/adding-target-dynamic-content.md">の</a>動的画像の使用 </li> 
+     <li> Adobe Target</a>の<a href="../../integrating/using/adding-target-dynamic-content.md">動的画像の使用 </li> 
      <li> 準備時にURLからコンテンツを自動的に<a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">取得する機能</a> </li> 
      <li> 完全に準拠した<a href="../../designing/using/using-reusable-content.md#content-templates">すぐに使えるコンテンツテンプレート </a>。 </li> 
     </ul> 
-    <p>詳細については、<a href="../../designing/using/designing-content-in-adobe-campaign.md">詳細ドキュメント </a>および<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html?lang=ja"> ハウツー動画</a>を参照してください。 機能強化および修正点を次に示します。</p><p>これにより、従来のメールコンテンツエディターは廃止されました。 詳しくは、<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=ja">このページ</a>を参照してください。</p> </td> 
+    <p>詳しくは、<a href="../../designing/using/designing-content-in-adobe-campaign.md">詳細ドキュメント</a>および<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html?lang=ja">ハウツービデオ</a>を参照してください。 機能強化および修正点を次に示します。</p><p>これにより、従来のメールコンテンツエディターは廃止されました。 詳しくは、<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=ja">このページ</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td> トランザクションメールでの製品リスト <br /> </td> 
@@ -553,9 +573,9 @@ ht-degree: 9%
  </tbody> 
 </table>
 
-**強化点**
+**改善点**
 
-* データの読み込みアクティビティの新しいオプションにより、拒否されたレコードを含むファイルに後処理ステージを適用できるようになりました（例： Zip 形式の圧縮）。（CAMP-24521）
+* データの読み込みアクティビティの新しいオプションにより、拒否されたレコードを含むファイルに後処理ステージを適用できるようになりました（例： Zip 形式の圧縮）。 （CAMP-24521）
 * データを更新アクティビティの新しいオプションで、データをアップロードするための最大バッチサイズを設定できるようになりました。 （CAMP-28400）
 * プロファイルのアドレス状態の選択を改善しました。 国を選択すると、「状態」ドロップダウンリストが関連する状態の値で自動的に更新されるようになりました。 （CAMP-28874）
 * ファイルを抽出アクティビティの新しいオプションで、インバウンドトランジションが空の場合、ファイルを生成できなくなります。 これにより、SFTP サーバー上で空のファイルを作成してアップロードすることが回避されます。

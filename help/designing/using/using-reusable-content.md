@@ -8,9 +8,20 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: 64c3d3dd-0c41-4dbc-abcd-9ddea23759f4
-source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
+TQID: https://experienceleague.adobe.com/OyHSlh5OPs1dt0kA67RYrb4beKDelLNfWGK4iB0GP54
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '1812'
+source-wordcount: 1835
 ht-degree: 2%
 
 ---
@@ -29,13 +40,13 @@ ht-degree: 2%
 
 ### コンテンツテンプレートについて {#content-templates}
 
-**[!UICONTROL Templates]**&#x200B;電子メールDesigner[&#x200B; ホームページの「](../../designing/using/designing-content-in-adobe-campaign.md)」タブで提供されるHTML コンテンツを管理できます。
+[電子メールDesigner](../../designing/using/designing-content-in-adobe-campaign.md) ホームページの「**[!UICONTROL Templates]**」タブで提供されるHTML コンテンツを管理できます。
 
 すぐに使用できるメールコンテンツテンプレートには、モバイルに最適化された18種類のレイアウトと、Behanceのアーティストがデザインしたクラス最高のレスポンシブテンプレート 4種類が含まれています。 これらのレポートは、顧客のウェルカムメッセージ、ニュースレター、リエンゲージメントメールなどの最新の使用状況に対応しています。 また、ブランドコンテンツに合わせて容易にカスタマイズできるため、ゼロからメールを設計するプロセスを簡素化できます。
 
 ![](assets/template_content.png)
 
-HTML コンテンツテンプレートには、**[!UICONTROL Resources]**&#x200B;詳細メニュー&#x200B;**[!UICONTROL Content templates & fragments]**&#x200B;の[&#x200B; > &#x200B;](../../start/using/interface-description.md#advanced-menu)画面からアクセスできます。 これにより、ランディングページのコンテンツテンプレート、メールコンテンツテンプレートおよびフラグメントを管理できます。
+HTML コンテンツテンプレートには、[詳細メニュー](../../start/using/interface-description.md#advanced-menu)の&#x200B;**[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]**&#x200B;画面からアクセスできます。 これにより、ランディングページのコンテンツテンプレート、メールコンテンツテンプレートおよびフラグメントを管理できます。
 
 ![](assets/content_templates_list.png)
 
@@ -59,8 +70,8 @@ HTML コンテンツテンプレートには、**[!UICONTROL Resources]**&#x200B
 1. 電子メールラベルをクリックして、電子メールDesignerの「**[!UICONTROL Properties]**」タブにアクセスします。
 1. 認識可能なラベルを指定し、次のパラメーターを選択して、このテンプレートをメールで使用できるようにします。
 
-   * **[!UICONTROL Shared]** ドロップダウンリストから&#x200B;**[!UICONTROL Delivery]**&#x200B;または&#x200B;**[!UICONTROL Content type]**&#x200B;を選択します。
-   * 「**[!UICONTROL Template]**」ドロップダウンリストから「**[!UICONTROL HTML type]**」を選択します。
+   * **[!UICONTROL Content type]** ドロップダウンリストから&#x200B;**[!UICONTROL Shared]**&#x200B;または&#x200B;**[!UICONTROL Delivery]**&#x200B;を選択します。
+   * 「**[!UICONTROL HTML type]**」ドロップダウンリストから「**[!UICONTROL Template]**」を選択します。
 
    ![](assets/email_designer_create-template.png)
 
@@ -68,7 +79,7 @@ HTML コンテンツテンプレートには、**[!UICONTROL Resources]**&#x200B
 
    ![](assets/email_designer_create-template_thumbnail.png)
 
-   このサムネールは、**[!UICONTROL Templates]**&#x200B;電子メール Designer[&#x200B; ホームページの](../../designing/using/designing-content-in-adobe-campaign.md) タブに表示されます。
+   このサムネールは、[電子メール Designer](../../designing/using/designing-content-in-adobe-campaign.md) ホームページの&#x200B;**[!UICONTROL Templates]** タブに表示されます。
 
 1. 「**[!UICONTROL Properties]**」タブを閉じて、メインワークスペースに戻ります。
 1. 必要に応じてカスタマイズできる構造コンポーネントやコンテンツコンポーネントを追加できます。
@@ -77,7 +88,7 @@ HTML コンテンツテンプレートには、**[!UICONTROL Resources]**&#x200B
    > コンテンツテンプレート内にパーソナライゼーションフィールドまたは条件付きコンテンツを挿入することはできません。
 1. 編集したら、テンプレートを保存します。
 
-このテンプレートは、Email Designerで作成されたメールで使用できるようになりました。 **[!UICONTROL Templates]**&#x200B;電子メール Designer[&#x200B; ホームページの「](../../designing/using/designing-content-in-adobe-campaign.md)」タブから選択します。
+このテンプレートは、Email Designerで作成されたメールで使用できるようになりました。 [電子メール Designer](../../designing/using/designing-content-in-adobe-campaign.md) ホームページの「**[!UICONTROL Templates]**」タブから選択します。
 
 ![](assets/content_template_new.png)
 
@@ -101,7 +112,7 @@ HTML コンテンツテンプレートには、**[!UICONTROL Resources]**&#x200B
 
 1. 作成したテンプレートを見つけるには、**[!UICONTROL Resources]** > **[!UICONTROL Content templates & fragments]**&#x200B;に移動します。
 
-1. 新しいテンプレートを使用するには、**[!UICONTROL Templates]**&#x200B;電子メールDesigner[&#x200B; ホームページの「](../../designing/using/designing-content-in-adobe-campaign.md)」タブからテンプレートを選択します。
+1. 新しいテンプレートを使用するには、[電子メールDesigner](../../designing/using/designing-content-in-adobe-campaign.md) ホームページの「**[!UICONTROL Templates]**」タブからテンプレートを選択します。
 
    ![](assets/content_template_new.png)
 
@@ -215,8 +226,8 @@ HTML コンテンツテンプレートには、**[!UICONTROL Resources]**&#x200B
 1. 電子メールラベルをクリックして、電子メールDesignerの「**[!UICONTROL Properties]**」タブにアクセスします。
 1. 認識可能なラベルを指定し、次のパラメーターを選択して、メールコンテンツの編集時にフラグメントを検索します。
 
-   * フラグメントはメールとのみ互換性があるので、**[!UICONTROL Delivery]** ドロップダウンリストから&#x200B;**[!UICONTROL Content type]**&#x200B;を選択します。
-   * 「**[!UICONTROL Fragment]**」ドロップダウンリストから「**[!UICONTROL HTML type]**」を選択すると、このコンテンツをフラグメントとして使用できます。
+   * フラグメントはメールとのみ互換性があるので、**[!UICONTROL Content type]** ドロップダウンリストから&#x200B;**[!UICONTROL Delivery]**&#x200B;を選択します。
+   * 「**[!UICONTROL HTML type]**」ドロップダウンリストから「**[!UICONTROL Fragment]**」を選択すると、このコンテンツをフラグメントとして使用できます。
 
    ![](assets/email_designer_createfragment.png)
 

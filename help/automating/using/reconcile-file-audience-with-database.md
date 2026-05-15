@@ -1,6 +1,6 @@
 ---
 title: ファイルオーディエンスとデータベースの紐付け
-description: この例では、オーディエンスを読み取りアクティビティを使用して、ファイルの読み込みから直接作成されたオーディエンスを紐付ける方法を示します。
+description: 次の例では、オーディエンスの読み込みアクティビティを使用して、ファイルの読み込みから直接作成されたオーディエンスを紐付ける方法を示します。
 audience: automating
 content-type: reference
 topic-tags: targeting-activities
@@ -10,9 +10,16 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 6a59907d-850e-4d61-b1f7-8fc8b915580e
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+TQID: https://experienceleague.adobe.com/z40XwpSoXzB0KpOs44BVIkxbUWAZShPIyb9l0QHUXZs
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: 254
 ht-degree: 87%
 
 ---
@@ -21,7 +28,7 @@ ht-degree: 87%
 
 この例では、「**[!UICONTROL Read audience]**」アクティビティを使用して、ファイルインポートから直接作成されたオーディエンスを紐付ける方法を示します。
 
-ファイルのインポートを実行する場合、その内容をオーディエンスに直接保存できます。このオーディエンスはファイルオーディエンスで、データはデータベースリソースにリンクされていません。
+ファイルのインポートを実行する場合、その内容をオーディエンスに直接保存できます。 このオーディエンスはファイルオーディエンスで、データはデータベースリソースにリンクされていません。
 
 インポートワークフローは、次のように設計されています。
 
@@ -45,12 +52,12 @@ ht-degree: 87%
   Ross;Timothy;04/07/1986;timross@example.com;157643
   ```
 
-* 「[オーディエンスの保存](../../automating/using/save-audience.md)」アクティビティは、読み込んだデータをオーディエンスとして保存します。データはまだ紐付けされていないので、オーディエンスはファイルオーディエンスで、そのデータはまだプロファイルデータとして認識されていません。
+* 「[オーディエンスの保存](../../automating/using/save-audience.md)」アクティビティは、読み込んだデータをオーディエンスとして保存します。 データはまだ紐付けされていないので、オーディエンスはファイルオーディエンスで、そのデータはまだプロファイルデータとして認識されていません。
 
 紐付けワークフローは、次のように設計されています。
 
 ![](assets/readaudience_activity_example2.png)
 
-* [&#x200B; オーディエンスを読み取り &#x200B;](../../automating/using/read-audience.md) アクティビティは、インポートワークフローで作成されたファイルオーディエンスをアップロードします。 オーディエンスデータは、Adobe Campaign データベースとまだ紐付けされていません。
-* 「[紐付け](../../automating/using/reconciliation.md)」アクティビティは、読み込んだデータをプロファイルとして「**[!UICONTROL Identification]**」タブから識別します。例えば、「**メール**」フィールドを紐付け条件として使用します。
-* 「[データ更新](../../automating/using/update-data.md)」アクティビティは、データベースのプロファイルリソースを挿入し、読み込んだデータを使用して更新します。データが既にプロファイルとして識別されているので、アクティビティの「**[!UICONTROL Identification]**」タブで「**[!UICONTROL Directly using the targeting dimension]**」オプションを選択し、「**[!UICONTROL Profiles]**」を選択できます。そして、当該タブで更新する必要のあるフィールドのリストを追加するだけです。
+* 読み込みワークフローで作成されたファイルオーディエンスが、[&#x200B; オーディエンスの読み込み](../../automating/using/read-audience.md) アクティビティによってアップロードされます。 オーディエンスデータは、Adobe Campaign データベースとまだ紐付けされていません。
+* 「[紐付け](../../automating/using/reconciliation.md)」アクティビティは、読み込んだデータをプロファイルとして「**[!UICONTROL Identification]**」タブから識別します。 例えば、「**メール**」フィールドを紐付け条件として使用します。
+* 「[データ更新](../../automating/using/update-data.md)」アクティビティは、データベースのプロファイルリソースを挿入し、読み込んだデータを使用して更新します。 データが既にプロファイルとして識別されているので、アクティビティの「**[!UICONTROL Identification]**」タブで「**[!UICONTROL Directly using the targeting dimension]**」オプションを選択し、「**[!UICONTROL Profiles]**」を選択できます。 そして、当該タブで更新する必要のあるフィールドのリストを追加するだけです。

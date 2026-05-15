@@ -9,9 +9,19 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 6bcd8dcd-d710-4ca3-937d-bf4339f36069
-source-git-commit: ac925ec5f59f1bb57b56b430fd175a27b08c3bfe
+TQID: https://experienceleague.adobe.com/zWvKFZRoejIDaRFEF8cxypI-4MLgNYSG2RYBiZLmOJs
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: 610
 ht-degree: 6%
 
 ---
@@ -66,9 +76,9 @@ ht-degree: 6%
 
    >[!NOTE]
    >
-   >イベントがトランザクションメッセージの送信をトリガーにするには、作成したばかりのメッセージを変更して公開する必要があります。 「[編集](../../channels/using/editing-transactional-message.md)および[&#x200B; トランザクションメッセージの公開](../../channels/using/publishing-transactional-message.md)」を参照してください。 また、このトリガーイベント [をweb サイトに](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)統合する必要があります。
+   >イベントがトランザクションメッセージの送信をトリガーにするには、作成したばかりのメッセージを変更して公開する必要があります。 「[編集](../../channels/using/editing-transactional-message.md)および[&#x200B; トランザクションメッセージの公開](../../channels/using/publishing-transactional-message.md)」を参照してください。 また、このトリガーイベント [&#128279;](../../channels/using/getting-started-with-transactional-msg.md#integrate-event-trigger)をweb サイトに統合する必要があります。
 
-1. Adobe Campaignがこのイベント設定に関連するイベントの受信を開始したら、「**[!UICONTROL Latest transactional events]**」セクションの「**[!UICONTROL History]**」リンクをクリックして、サードパーティサービスによって送信され、Adobe Campaignによって処理された最新のイベントにアクセスできます。
+1. Adobe Campaignがこのイベント設定に関連するイベントの受信を開始したら、「**[!UICONTROL History]**」セクションの「**[!UICONTROL Latest transactional events]**」リンクをクリックして、サードパーティサービスによって送信され、Adobe Campaignによって処理された最新のイベントにアクセスできます。
 
 ![](assets/message-center_latest-events.png)
 

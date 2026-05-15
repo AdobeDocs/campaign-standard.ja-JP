@@ -1,16 +1,23 @@
 ---
-title: データモデル訪問者
-description: データモデルについて説明します
+title: DataModel訪問者
+description: データモデルについて詳しく見る
 audience: developing
 content-type: reference
 feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 20dafd81-8546-450a-87a0-59a2509efb7a
-source-git-commit: a6471d2970a55373574301fb5d49ee73103fa870
+TQID: https://experienceleague.adobe.com/jzmKAer7SITNpxJRT1CsPf-LWW-bglgNhDl5NKP6mzU
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 39%
+source-wordcount: 154
+ht-degree: 44%
 
 ---
 
@@ -22,7 +29,7 @@ ht-degree: 39%
     <tr>
         <th>名前</th>
         <th>ラベル</th>
-        <th>タイプ （長さ）</th>
+        <th>タイプ（長さ）</th>
         <th>列挙値</th>
     </tr>
     <tr>
@@ -57,12 +64,12 @@ ht-degree: 39%
     </tr>
     <tr>
         <td>deliveryId</td>
-        <td>最終配信の ID</td>
+        <td>最後の配信のID</td>
         <td>整数 </td>
         <td> </td>
     </tr>
     <tr>
-        <td>降順</td>
+        <td>desc</td>
         <td>説明</td>
         <td>文字列（512）</td>
         <td> </td>
@@ -123,18 +130,18 @@ ht-degree: 39%
     </tr>
     <tr>
         <td>接触チャネル</td>
-        <td>接触チャネル</td>
+        <td>作成元</td>
         <td>列挙（バイト） </td>
         <td>
             <ul>
             <li>未定義 – 未定義 – 0</li>
-            <li>無効な値 – __Invalid_value__ - __Invalid_value__</li>
+            <li>INVALID VALUE - __Invalid_value__ - __Invalid_value__</li>
             </ul>
         </td>
     </tr>
     <tr>
         <td>受信者（受信者）</td>
-        <td>識別されたプロファイル</td>
+        <td>識別プロファイル</td>
         <td>リンク </td>
         <td> </td>
     </tr>
@@ -158,7 +165,7 @@ ht-degree: 39%
     </tr>
     <tr>
         <td>referrerId</td>
-        <td>リファラー ID</td>
+        <td>リファラーID</td>
         <td>整数 </td>
         <td> </td>
     </tr>
@@ -184,7 +191,7 @@ ht-degree: 39%
 
 ## フィルター
 
-姓、名またはメール （byText）別</p>
+姓、名、または電子メール（テキスト別）</p>
 
 <table>
         <tr>

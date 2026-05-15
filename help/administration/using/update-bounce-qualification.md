@@ -1,11 +1,16 @@
 ---
-title: ISP 機能停止後のバウンス選定の更新
+title: ISP の機能停止後にバウンス選定条件を更新
 description: ISP が機能停止した後にバウンス選定を更新する方法を説明します。
 audience: delivery
 exl-id: b06e9009-70c7-459f-8a9f-d5b7020d662f
-source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
+TQID: https://experienceleague.adobe.com/PcNbVFzTVJhadANGQ5uogj16VHiaNIf7HVn-7X-EbJA
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: 441
 ht-degree: 58%
 
 ---
@@ -43,7 +48,7 @@ Googleは、この問題を引き起こしたGmailの停止と中断は、12月1
 
 * **エラーテキスト（強制隔離テキスト）**&#x200B;に「550-5.1.1 The email account that you tried does not exist」が含まれ、かつ、**エラーテキスト（強制隔離テキスト）**&#x200B;に「support.google.com」が含まれる**
 * **2020年6月2日午前12日以降の更新ステータス （@lastModified）**:55:
-* **2020年6月16日午前6時** 00分以前のステータス（@lastModified） :00:の更新
+* **2020年6月16日午前6時:00:00分以前のステータス（@lastModified）**&#x200B;の更新
 
 影響を受ける受信者のリストを取得したら、ステータスを&#x200B;**[!UICONTROL Valid]**&#x200B;に設定して、**[!UICONTROL Database cleanup]** ワークフローで強制隔離リストから削除するか、テーブルから削除します。
 

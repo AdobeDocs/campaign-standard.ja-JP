@@ -1,6 +1,6 @@
 ---
 title: サービスのプロモーション
-description: Adobe Campaignを使用してサービスを宣伝し、専用のランディングページ、メールまたは web サイトで直接お客様を引き付けます。
+description: Adobe Campaignを利用すれば、専用のランディングページ、メール、web サイトを通じてサービスを宣伝し、顧客を惹きつけることができます。
 audience: audiences
 content-type: reference
 topic-tags: managing-subscriptions
@@ -8,25 +8,32 @@ feature: Audiences
 role: User
 level: Intermediate
 exl-id: c1f8770a-8b25-41db-aa52-828e181a563d
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+TQID: https://experienceleague.adobe.com/7WD3y15WK-NJeWZJFIv-crMu5UZ4m8V3KfYbamSY9WA
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: 196
 ht-degree: 3%
 
 ---
 
 # サービスのプロモーション{#promoting-a-service}
 
-サービスの購読をいくつかの方法で提供し、訪問者が購読を管理できるようにします。
+サービスにサブスクリプションを提供するには、いくつかの方法があり、訪問者にサブスクリプションを管理する機能があります。
 
-Campaign を使用してサービスを宣伝するには、次の方法があります。
+Campaignを使用して、次の方法でサービスを宣伝できます。
 
-* [&#x200B; メールへのサービスの購読または購読解除リンクの挿入 &#x200B;](../../designing/using/links.md#inserting-a-link)。
+* [&#x200B; サービスの購読または購読解除リンクをメールに挿入](../../designing/using/links.md#inserting-a-link)。
 
-* [&#x200B; メールへの購読または購読解除ランディングページへのリンクの挿入 &#x200B;](../../designing/using/links.md)。 この場合、関連するランディングページのプロパティでサービスを直接参照する必要があります（[&#x200B; ランディングページのサービスへのリンク &#x200B;](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service) を参照）。
+* [購読または購読解除ランディングページへのリンクをメールに挿入](../../designing/using/links.md)。 この場合、サービスは、関連するランディングページのプロパティで直接参照する必要があります（[&#x200B; ランディングページをサービスにリンクする](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)を参照）。
 
   >[!NOTE]
   >
-  >購読者に購読解除の可能性を与えることも重要です。 これを行うには、新しい購読者に自動的に送信された確認メール <b> サービスプロパティで定義）および今後のニュースレターメールに、サービス </b> 購読解除リンク）を挿入します。
+  >購読者に購読解除の可能性を与えることも重要です。 これを行うには、新しい購読者に自動的に送信される確認メール（サービスプロパティで定義）に、今後のニュースレターメールに含まれるサービス <b>購読解除リンク </b>を挿入します。
 
-* Web サイトで購読または購読解除のランディングページを利用できるようにする。 ランディングページへのアクセス権を付与する URL では、関連するサービスやそのサービスにアクセスするプロファイル ID などのパラメーターを指定する必要があります。 この ID は、ランディングページのパラメーターで定義できます（[&#x200B; ランディングページの設定 &#x200B;](../../channels/using/configuring-landing-page.md) を参照）。
+* web サイトでサブスクリプションまたは購読解除ランディングページを利用できるようにします。 ランディングページにアクセスできるURLには、関連するサービスなどのパラメーターと、それにアクセスするプロファイル IDを指定する必要があります。 このIDは、ランディングページのパラメーターで定義できます（[&#x200B; ランディングページの設定](../../channels/using/configuring-landing-page.md)を参照）。
