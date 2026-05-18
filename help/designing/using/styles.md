@@ -18,7 +18,7 @@ level_v2:
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 1040
-ht-degree: 26%
+ht-degree: 27%
 
 ---
 
@@ -109,7 +109,7 @@ ht-degree: 26%
 >[!CONTEXTUALHELP]
 >id="ac_edition_backgroundimage"
 >title="背景設定"
->abstract="メールDesignerでは、コンテンツの背景色または背景画像をパーソナライズできます。背景画像は、すべてのメールクライアントでサポートされているわけではありません。"
+>abstract="E メールデザイナーでは、コンテンツの背景色や背景画像をパーソナライズできます。背景画像は、すべてのメールクライアントでサポートされているわけではありません。"
 
 E メールデザイナーで背景を設定する際の推奨事項は次のとおりです。
 

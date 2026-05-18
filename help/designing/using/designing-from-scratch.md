@@ -20,7 +20,7 @@ topic_v2:
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 1238
-ht-degree: 21%
+ht-degree: 23%
 
 ---
 
@@ -188,7 +188,7 @@ E メール Designerで使用可能なコンポーネントのリストを次に
 >[!CONTEXTUALHELP]
 >id="ac_edition_carousel"
 >title="カルーセル設定"
->abstract="コンテンツにカルーセルを挿入して設定する方法について説明します。カルーセルはすべてのメールクライアントで機能するわけではなく、サポートされていない場合にはフォールバック画像が表示されます。"
+>abstract="コンテンツにカルーセルを挿入して設定する方法について説明します。カルーセルは、一部のメールクライアントで機能せず、サポートされていない場合はフォールバック画像が表示されます。"
 
 1. 構造コンポーネント内の&#x200B;**[!UICONTROL Carousel]** コンポーネントをドラッグ&amp;ドロップします。
 1. コンピューターから画像を参照して選択します。
