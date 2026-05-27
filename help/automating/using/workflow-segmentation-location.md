@@ -11,9 +11,12 @@ role: Developer
 level: Intermediate
 exl-id: feedc2f5-63da-44a5-b8f0-15afdfd47daa
 TQID: https://experienceleague.adobe.com/JWuP-ztPWX--nU-tPpPYUrwL-FsEKTJqdWX1KByF-80
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 270
@@ -31,7 +34,7 @@ ht-degree: 80%
 
 ## 電子メールで連絡できる受信者の選択{#selecting-recipients-contactable-via-email}
 
-1. **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**&#x200B;で、[ クエリ ](../../automating/using/query.md) アクティビティ ![](assets/query.png)をドラッグ&amp;ドロップします。
+1. **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**&#x200B;で、[&#x200B; クエリ &#x200B;](../../automating/using/query.md) アクティビティ ![](assets/query.png)をドラッグ&amp;ドロップします。
 1. アクティビティをダブルクリックします。
 1. 「**[!UICONTROL Shortcuts]**」で、「**[!UICONTROL Profiles]**」をドラッグ＆ドロップし、演算子「**[!UICONTROL email]**」を使用してフィールド「**[!UICONTROL is not empty]**」を選択します。
 1. 「**[!UICONTROL Shortcuts]**」で、「**[!UICONTROL Profiles]**」をドラッグ＆ドロップして、値「**[!UICONTROL no longer contact by email]**」を含むフィールド「**[!UICONTROL no]**」を選択します。
@@ -41,7 +44,7 @@ ht-degree: 80%
 
 ## セグメント化アクティビティの作成{#creating-a-segmentation-activity}
 
-1. 「[ セグメント化](../../automating/using/segmentation.md)」アクティビティをドラッグ&amp;ドロップし、ダブルクリックします。
+1. 「[&#x200B; セグメント化](../../automating/using/segmentation.md)」アクティビティをドラッグ&amp;ドロップし、ダブルクリックします。
 1. セグメントをクリックし、トランジションを開いて、最初の都市の人をターゲットにします。 ボストンです。
 1. 「**[!UICONTROL Location]**」をドラッグ＆ドロップし、演算子「**[!UICONTROL equals to]**」と値「**[!UICONTROL Boston]**」を使用して、「**[!UICONTROL City]**」を選択します。
 注意：ボストンに入ったすべての人に連絡するには、大文字と小文字を区別しないで、「大文字と小文字を区別する」オプションをオフにします。
@@ -53,7 +56,7 @@ ht-degree: 80%
 
 ## メール配信の作成{#creating-an-email-delivery}
 
-1. **[!UICONTROL Activities]** > **[!UICONTROL Channels]**&#x200B;で、各セグメントの後ろに[ メール配信](../../automating/using/email-delivery.md) アクティビティをドラッグ&amp;ドロップします。
+1. **[!UICONTROL Activities]** > **[!UICONTROL Channels]**&#x200B;で、各セグメントの後ろに[&#x200B; メール配信](../../automating/using/email-delivery.md) アクティビティをドラッグ&amp;ドロップします。
 1. アクティビティをクリックし、![](assets/edit_darkgrey-24px.png) を選択して編集します。
 1. 「**[!UICONTROL Simple email]**」を選択し、「**[!UICONTROL Next]**」をクリックします。
 1. メールテンプレートを選択し、「**[!UICONTROL Next]**」をクリックします。
