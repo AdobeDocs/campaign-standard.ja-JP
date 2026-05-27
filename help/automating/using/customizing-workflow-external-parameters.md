@@ -10,14 +10,10 @@ role: Developer
 level: Intermediate
 exl-id: 8c1a47ed-3467-4fcd-8747-86f0e8f15cec
 TQID: https://experienceleague.adobe.com/-MOTkG1XRoqVckcmiFoUgFZK2Ae47h86Y6nGrSM-CGs
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 812
@@ -29,7 +25,7 @@ ht-degree: 0%
 
 ワークフローがトリガーされると、パラメーターはイベント変数に取り込まれ、ワークフローのアクティビティのカスタマイズに使用できます。
 
-例えば、**[!UICONTROL Read audience]** アクティビティで読み取るオーディエンス、**[!UICONTROL Transfer file]** アクティビティで転送するファイルの名前などを定義するために使用できます（[このページ &#x200B;](../../automating/using/customizing-workflow-external-parameters.md)を参照）。
+例えば、**[!UICONTROL Read audience]** アクティビティで読み取るオーディエンス、**[!UICONTROL Transfer file]** アクティビティで転送するファイルの名前などを定義するために使用できます（[このページ ](../../automating/using/customizing-workflow-external-parameters.md)を参照）。
 
 ## イベント変数の使用 {#using-events-variables}
 
@@ -56,13 +52,13 @@ $(vars/@parameterName)
 
   ![](assets/wkf_test_activity_variables.png)
 
-* ![](assets/extsignal_expression_editor.png)：変数と関数を組み合わせた式を編集します（[このページ &#x200B;](../../automating/using/advanced-expression-editing.md)を参照）。
+* ![](assets/extsignal_expression_editor.png)：変数と関数を組み合わせた式を編集します（[このページ ](../../automating/using/advanced-expression-editing.md)を参照）。
 
   ![](assets/wkf_test_activity_variables_expression.png)
 
-  このリストには、複雑なフィルタリングを実行できる関数が用意されています。 これらの関数について詳しくは、[このセクション &#x200B;](../../automating/using/list-of-functions.md)を参照してください。
+  このリストには、複雑なフィルタリングを実行できる関数が用意されています。 これらの関数について詳しくは、[このセクション ](../../automating/using/list-of-functions.md)を参照してください。
 
-  さらに、以下の関数を使用できます。この関数は、外部パラメーターを使用してワークフローを呼び出した後にイベント変数を使用できるすべてのアクティビティで使用できます（[このセクション &#x200B;](../../automating/using/customizing-workflow-external-parameters.md#customizing-activities-with-events-variables)を参照）。
+  さらに、以下の関数を使用できます。この関数は、外部パラメーターを使用してワークフローを呼び出した後にイベント変数を使用できるすべてのアクティビティで使用できます（[このセクション ](../../automating/using/customizing-workflow-external-parameters.md#customizing-activities-with-events-variables)を参照）。
 
   | 名前 | 説明 | 構文 |
   | ---------|----------|---------|
@@ -130,7 +126,7 @@ $(vars/@parameterName)
 
 * 配信のパーソナライズ：パーソナライゼーションフィールドを選択して配信を設定する場合、イベント変数は&#x200B;**[!UICONTROL Workflow parameters]**&#x200B;要素で使用できます。 パーソナライゼーションフィールドとして使用できます。例えば、配信の件名や送信者などを定義できます。
 
-  配信のパーソナライゼーションについて詳しくは、[このセクション &#x200B;](../../designing/using/personalization.md)を参照してください。
+  配信のパーソナライゼーションについて詳しくは、[このセクション ](../../designing/using/personalization.md)を参照してください。
 
   ![](assets/extsignal_activities_perso.png)
 

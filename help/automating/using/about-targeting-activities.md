@@ -10,16 +10,11 @@ role: Developer
 level: Intermediate
 exl-id: 1cd471e3-5332-4119-b342-2c3c8503fdd1
 TQID: https://experienceleague.adobe.com/PPDlvoeHKNpeLfYe4qYFq7mzQUb3oR7XkrMK-jQFpmY
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 437
@@ -54,9 +49,9 @@ ht-degree: 62%
 
 次のアクティビティを使用してデータを選択できます。
 
-* 「**[!UICONTROL Query]**」アクティビティを使用すると、Adobe Campaign データベースから要素の母集団をフィルタリングして抽出できます。 「[&#x200B; クエリ &#x200B;](../../automating/using/query.md)」セクションを参照してください。
-* 「**[!UICONTROL Incremental query]**」アクティビティを使用すると、Adobe Campaign データベースから要素の母集団をフィルタリングして抽出できます。 このアクティビティが実行されるたびに、以前の実行結果が除外されます。 これにより、新しい要素のみをターゲットにできます。 [増分クエリ &#x200B;](../../automating/using/incremental-query.md) セクション。
-* 「**[!UICONTROL Read audience]**」アクティビティを使用すると、既存のオーディエンスを取得し、追加のフィルター条件を適用してそのオーディエンスを絞り込むことができます。「[&#x200B; オーディエンスの読み取り](../../automating/using/read-audience.md)」セクションを参照してください。
+* 「**[!UICONTROL Query]**」アクティビティを使用すると、Adobe Campaign データベースから要素の母集団をフィルタリングして抽出できます。 「[ クエリ ](../../automating/using/query.md)」セクションを参照してください。
+* 「**[!UICONTROL Incremental query]**」アクティビティを使用すると、Adobe Campaign データベースから要素の母集団をフィルタリングして抽出できます。 このアクティビティが実行されるたびに、以前の実行結果が除外されます。 これにより、新しい要素のみをターゲットにできます。 [増分クエリ ](../../automating/using/incremental-query.md) セクション。
+* 「**[!UICONTROL Read audience]**」アクティビティを使用すると、既存のオーディエンスを取得し、追加のフィルター条件を適用してそのオーディエンスを絞り込むことができます。「[ オーディエンスの読み取り](../../automating/using/read-audience.md)」セクションを参照してください。
 
 ## データのセグメント化 {#segmenting-data}
 
@@ -65,7 +60,7 @@ Adobe Campaignでは、インバウンドデータでデータセットを処理
 * 「**[!UICONTROL Union]**」アクティビティを使用すると、複数のアクティビティの結果を 1 つのターゲットに再グループ化できます。 [和集合](../../automating/using/union.md)の節を参照してください。
 * 「**[!UICONTROL Intersection]**」アクティビティでは、アクティビティ内の異なるインバウンド母集団に共通の要素のみを保持できます。 [積集合](../../automating/using/intersection.md)の節を参照してください。
 * ［**[!UICONTROL Exclusion]**］アクティビティでは、特定の条件に従って、ある母集団から要素を除外することができます。 「[除外](../../automating/using/exclusion.md)」セクションを参照してください。
-* 「**[!UICONTROL Segmentation]**」アクティビティを使用すると、ワークフローで既に配置されているアクティビティによって計算された母集団から、1 つまたは複数のセグメントを作成できます。 アクティビティの最後に、1 つのトランジションまたは複数のトランジションで処理できます。 「[&#x200B; セグメント化](../../automating/using/segmentation.md)」を参照してください。
+* 「**[!UICONTROL Segmentation]**」アクティビティを使用すると、ワークフローで既に配置されているアクティビティによって計算された母集団から、1 つまたは複数のセグメントを作成できます。 アクティビティの最後に、1 つのトランジションまたは複数のトランジションで処理できます。 「[ セグメント化](../../automating/using/segmentation.md)」を参照してください。
 
 ## データのエンリッチメント {#enriching-data}
 

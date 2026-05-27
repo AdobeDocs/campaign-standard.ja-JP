@@ -9,17 +9,11 @@ role: User
 level: Intermediate
 exl-id: 9c55a8b3-034e-4319-8a88-7b59e83fa458
 TQID: https://experienceleague.adobe.com/LROFX17EE6zvJRbH4P--NjtiJLwanqeudAKzwnQj0BI
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 455
@@ -47,7 +41,7 @@ Campaign Standardには、マーケティングデータベースを成長させ
 
 * **データテンプレートの読み込み**: ワークフローテンプレートと同様に、これらはワークフローに基づくテンプレートで、データベースを更新するためにファイルをアップロードするように設定されています。 設定が完了すると、**[!UICONTROL Profile & audiences]** / **[!UICONTROL Imports]** メニューの下に表示が簡略化されたユーザーが使用できるようになります。
 
-  データテンプレートの読み込みについて詳しくは、[専用ドキュメント &#x200B;](../../automating/using/importing-data-with-import-templates.md)を参照してください。
+  データテンプレートの読み込みについて詳しくは、[専用ドキュメント ](../../automating/using/importing-data-with-import-templates.md)を参照してください。
 
 ## ランディングページからのデータ収集 {#collecting-data-from-landing-pages}
 
@@ -59,14 +53,14 @@ Campaign Standardには、マーケティングデータベースを成長させ
 * 各入力フィールドを、データベースの対応するフィールドにマッピングします。
 * web サイトやメッセージへの直接リンクを通じて、ランディングページをオンラインで利用できるようにします。
 
-ランディングページについて詳しくは、[専用ドキュメント &#x200B;](../../channels/using/getting-started-with-landing-pages.md)を参照してください。
+ランディングページについて詳しくは、[専用ドキュメント ](../../channels/using/getting-started-with-landing-pages.md)を参照してください。
 
 ## Microsoft Dynamics 365からのプロファイルの同期
 
 Campaign StandardとMicrosoft Dynamics 365の連携により、Microsoft Dynamics 365からCampaign データベースに連絡先データを渡すことができます。
 これらの連絡先はプロファイルリストに表示され、マーケティング施策のターゲットにすることができます。
 
-この統合について詳しくは、[専用ドキュメント &#x200B;](../../integrating/using/d365-acs-get-started.md)を参照してください。
+この統合について詳しくは、[専用ドキュメント ](../../integrating/using/d365-acs-get-started.md)を参照してください。
 
 >[!NOTE]
 >
@@ -76,7 +70,7 @@ Campaign StandardとMicrosoft Dynamics 365の連携により、Microsoft Dynamic
 
 Campaign Standard APIを使用すると、プロファイルやサービスの作成、更新、削除など、データベースを更新する操作を実行できます。
 
-APIの使用方法について詳しくは、[専用ドキュメント &#x200B;](../../api/using/get-started-apis.md)を参照してください。
+APIの使用方法について詳しくは、[専用ドキュメント ](../../api/using/get-started-apis.md)を参照してください。
 
 >[!IMPORTANT]
 >

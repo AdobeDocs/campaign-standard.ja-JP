@@ -11,17 +11,11 @@ role: Developer
 level: Experienced
 exl-id: 44ad654e-bde9-4189-8765-0479d81dc0f7
 TQID: https://experienceleague.adobe.com/9f2fthO3uwDSjhIhVMzOZgqdimJcJOxlodEP1cJZicA
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-subfeature_v2:
-  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
+subfeature_v2: id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 2262
@@ -51,7 +45,7 @@ ht-degree: 92%
 
 ### 後方互換性に関する通知 {#from-beta-to-ga}
 
-Campaign Standard 20.4 リリースでは、http レスポンスのデータサイズ制限とレスポンスのタイムアウトガードレールが削減され、ベストプラクティスに合わせて調整されました。[制限とガードレール &#x200B;](#guardrails)を参照してください。 これらのガードレールの変更は、既存の外部 API アクティビティには影響しません。したがって、既存の外部 API アクティビティを、すべてのワークフローの新しいバージョンで置き換えることをお勧めします。
+Campaign Standard 20.4 リリースでは、http レスポンスのデータサイズ制限とレスポンスのタイムアウトガードレールが削減され、ベストプラクティスに合わせて調整されました。[制限とガードレール ](#guardrails)を参照してください。 これらのガードレールの変更は、既存の外部 API アクティビティには影響しません。したがって、既存の外部 API アクティビティを、すべてのワークフローの新しいバージョンで置き換えることをお勧めします。
 
 「外部 API」アクティビティを置き換える場合は、新しい「外部 API」アクティビティをワークフローに追加し、設定の詳細を手動でコピーしてから、古いアクティビティを削除します。
 
@@ -108,10 +102,10 @@ JSON パーサーは、標準の JSON 構造パターンタイプに対応する
 
 サンプルの JSON 定義には&#x200B;**次の特性**&#x200B;が必要です。
 
-* **配列要素**&#x200B;には、第 1 レベルのプロパティを含める必要があります（これより深いレベルはサポートされていません）。
+* **配列要素**には、第 1 レベルのプロパティを含める必要があります（これより深いレベルはサポートされていません）。
   **プロパティ名**&#x200B;は、出力された一時テーブルの出力スキーマの列名になります。
 * 取り込む **JSON 要素**&#x200B;は、JSON 応答内のネストが 10 レベル以下であることが必要です。
-* **列名**&#x200B;の定義は、「data」配列の最初の要素に基づいています。
+* **列名**の定義は、「data」配列の最初の要素に基づいています。
 列定義（追加／削除）とプロパティのタイプ値は、「**COLUMN DEFINITION**」タブで編集できます。
 
 **「Flatten」ェックボックス**&#x200B;の動作：
@@ -198,7 +192,7 @@ JSON パーサーは、標準の JSON 構造パターンタイプに対応する
   </tr> 
   <tr> 
    <td> Transferring content from '%s' (%s / %s).</td> 
-   <td> <p>「https://example.com/api/v1/web-coupon?count=2」からコンテンツを転送しています (1234/1234)。</p></td> 
+   <td> <p>「Https://example.com/api/v1/web-coupon?count=2」からコンテンツを転送しています (1234/1234)。</p></td> 
   </tr>
   <tr> 
    <td> Using cached access token for provider ID '%s'.</td> 
