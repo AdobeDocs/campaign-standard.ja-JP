@@ -9,17 +9,11 @@ role: Leader
 level: Beginner
 exl-id: 9ecb4ba6-c7a3-4b1f-ab73-5eb512ebb016
 TQID: https://experienceleague.adobe.com/4rmq12hEkuVgomFFRr9u1qZhr3AlTmPvFXnAFMbZBos
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
-role_v2:
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: c309ee4e-82e4-4f7e-b608-ef345678c34e
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 386
@@ -38,7 +32,7 @@ ht-degree: 68%
 
 動的レポートは、マーケティングアクティビティの影響を測定するための完全にカスタマイズ可能なリアルタイムのレポートを提供します。 プロファイルデータへのアクセスが追加され、開封数やクリック数などの機能的なメールキャンペーンデータに加えて、性別、市区町村、年齢などのプロファイルディメンション別のデモグラフィック分析が可能になります。
 
-![](assets/do-not-localize/how-to-video.png) [&#x200B; ビデオでの動的レポートの確認](#video)
+![](assets/do-not-localize/how-to-video.png) [ ビデオでの動的レポートの確認](#video)
 
 ## レポートの管理と共有 {#manage-share-reports}
 
@@ -94,6 +88,6 @@ Campaign Standardには、マーケティングキャンペーンの複数の側
 
 このビデオでは、Adobe Campaign Standardのレポート機能の概要を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/38315?quality=12&captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/23021?quality=12&captions=eng)
 
 その他のCampaign Standardのハウツー動画は[こちら](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja)でご覧いただけます。

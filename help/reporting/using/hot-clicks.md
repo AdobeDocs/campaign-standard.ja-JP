@@ -10,15 +10,10 @@ role: Leader
 level: Intermediate
 exl-id: 5af37156-e93b-4ae9-9856-053364f211ef
 TQID: https://experienceleague.adobe.com/YOdwQfIEEENsn3ZkEYqNOLPgZqlWB7dyzty7z9FYr4g
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 501
@@ -59,7 +54,7 @@ ht-degree: 0%
 
 25歳以上の受信者のクリック数を表示するには、**[!UICONTROL Change profile]** ボタンをクリックし、生年月日がこの条件に一致するテストプロファイルを選択します。
 
-テストプロファイルについて詳しくは、[&#x200B; テストプロファイルについて](../../audiences/using/managing-test-profiles.md)を参照してください。
+テストプロファイルについて詳しくは、[ テストプロファイルについて](../../audiences/using/managing-test-profiles.md)を参照してください。
 
 >[!NOTE]
 >
@@ -73,11 +68,11 @@ ht-degree: 0%
 
   例えば、この配信を管理するワークフローが月に1回実行される場合、月に1回の実行配信が行われます。 これに加えて、配信の内容が更新されるたびに、追加の実行配信が作成されます。
 
-  定期的なメール配信について詳しくは、[&#x200B; メール配信](../../automating/using/email-delivery.md)を参照してください。
+  定期的なメール配信について詳しくは、[ メール配信](../../automating/using/email-delivery.md)を参照してください。
 
 * デフォルトでは、トランザクションメッセージは月に1回、トランザクションメッセージが再度編集および公開されるたびに表示されます。
 
-  トランザクションメッセージについて詳しくは、[&#x200B; トランザクションメッセージの概要](../../channels/using/getting-started-with-transactional-msg.md)を参照してください。
+  トランザクションメッセージについて詳しくは、[ トランザクションメッセージの概要](../../channels/using/getting-started-with-transactional-msg.md)を参照してください。
 
 >[!NOTE]
 >
