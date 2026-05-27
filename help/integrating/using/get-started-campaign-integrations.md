@@ -67,7 +67,7 @@ ht-degree: 78%
    <td> Adobe Experience Manager<br /> </td> 
    <td> メールコンテンツや Adobe Campaign データベースにマッピングされたフォームを Adobe Experience Manager で直接作成することができます。<br /> </td> 
    <td> 
-     <a href="../../integrating/using/integrating-with-experience-manager.md">CampaignおよびExperience Managerの操作</a>、<a href="https://helpx.adobe.com/jp/experience-manager/6-4/sites/administering/using/campaignstandard.html">Experience ManagerとCampaign Standardの連携</a>、<a href="https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html">Experience ManagerおよびCampaignとのメール作成</a> 
+     <a href="../../integrating/using/integrating-with-experience-manager.md">CampaignおよびExperience Managerの操作</a>、<a href="https://helpx.adobe.com/jp/experience-manager/6-4/sites/administering/using/campaignstandard.html">Experience ManagerとCampaign Standardの連携</a>、<a href="https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html?lang=ja">Experience ManagerおよびCampaignとのメール作成</a> 
     </td> 
   </tr> 
   <tr> 
@@ -114,7 +114,7 @@ ht-degree: 78%
     <tr> 
    <td> Adobe Journey Orchestration<br /> </td> 
    <td> Adobe Journey Orchestrationのコンテキストで、Adobe Campaign Standardのトランザクションメッセージング機能を使用して、標準操作で電子メール、プッシュ通知、SMSを送信できます。<br /> </td> 
-   <td> <a href="https://experienceleague.adobe.com/docs/journeys/using/action-journeys/working-with-adobe-campaign.html">Adobe Journey OrchestrationおよびAdobe Campaign Standardの操作</a><br /> </td> 
+   <td> <a href="https://experienceleague.adobe.com/docs/journeys/using/action-journeys/working-with-adobe-campaign.html?lang=ja">Adobe Journey OrchestrationおよびAdobe Campaign Standardの操作</a><br /> </td> 
   </tr> 
   <tr> 
    <td> Adobe Dreamweaver<br /> </td> 
