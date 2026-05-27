@@ -10,10 +10,14 @@ role: User
 level: Intermediate
 exl-id: 56ece9da-18ec-4d27-a637-c22709a5e6aa
 TQID: https://experienceleague.adobe.com/csDw0anKGvAW22BcB5p0Rb1bHYA2NvdWpLVIWtZrC98
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 454
@@ -34,7 +38,7 @@ ht-degree: 91%
 テストプロファイルには架空の連絡先情報または送信者が制御できる連絡先情報が含まれています。その情報をメッセージで使用できるコンテキストは次のいずれかです。
 
 * **配達確認**&#x200B;の送信のため：配達確認は、受信者に最終的な配信を送信する前にメッセージを確認するための特定のメッセージです。 配達確認テストプロファイルには、配信の内容や形式をチェックする役割があります。 詳しくは、[配達確認の送信](../../sending/using/sending-proofs.md)を参照してください。
-* **メールのレンダリング**&#x200B;の場合：メールのレンダリングのテストプロファイルは、メッセージを受信したメッセージインボックスに応じたメッセージの表示方法を確認するために使用します。 たとえば、web メール、メッセージサービス、モバイルなどです。[電子メールのレンダリング ](../../sending/using/email-rendering.md)を参照してください。
+* **メールのレンダリング**&#x200B;の場合：メールのレンダリングのテストプロファイルは、メッセージを受信したメッセージインボックスに応じたメッセージの表示方法を確認するために使用します。 たとえば、web メール、メッセージサービス、モバイルなどです。[電子メールのレンダリング &#x200B;](../../sending/using/email-rendering.md)を参照してください。
 
   **メールのレンダリング**&#x200B;の使用は読み取り専用です。 Adobe Campaign でそのまま使用できるのは、この用途のテストプロファイルのみです。
 
