@@ -10,16 +10,11 @@ role: User
 level: Intermediate
 exl-id: dd3bd672-fb9d-4e82-bdf3-d319f372baaa
 TQID: https://experienceleague.adobe.com/500SaHxJS30x-b1g3zGpx9TB7xVmfr1tzJnFv814Q-E
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 435
@@ -51,7 +46,7 @@ ht-degree: 39%
 
 **ヒント**：メッセージトラッキングは、デフォルトで有効になっています。 URL を設定するには、配信ウィザードの下部のセクションで「URL を表示」オプションを選択します。 メッセージの URL ごとに、トラッキングを有効化するかどうかを選択できます。
 
-詳しくは、「[&#x200B; トラッキングメッセージ &#x200B;](../../sending/using/tracking-messages.md)」の節と「[&#x200B; トラッキングインジケーター](../../reporting/using/tracking-indicators.md)」の説明を参照してください。
+詳しくは、「[ トラッキングメッセージ ](../../sending/using/tracking-messages.md)」の節と「[ トラッキングインジケーター](../../reporting/using/tracking-indicators.md)」の説明を参照してください。
 
 ## 動的レポート {#dyn-reports}
 
@@ -59,13 +54,13 @@ ht-degree: 39%
 
 **ヒント** – 組み込みレポートを使用してキャンペーンを監視できますが、これらのレポートは、指標またはディメンションをレポートにドラッグ&amp;ドロップしてカスタマイズすることもできます。
 
-詳しくは、[&#x200B; レポート ガイド &#x200B;](../../reporting/using/about-dynamic-reports.md)を参照してください。
+詳しくは、[ レポート ガイド ](../../reporting/using/about-dynamic-reports.md)を参照してください。
 
 ## ホットクリック
 
 「ホットクリック」レポートには、各リンクのクリック率を含むメッセージコンテンツ（HTMLまたはテキスト）が表示されます。 動的コンテンツごとにクリック率を表示することで、受信者に最もアピールするコンテンツを測定できます。
 
-詳しくは、[&#x200B; ホットクリックレポート &#x200B;](../../reporting/using/hot-clicks.md)を参照してください。
+詳しくは、[ ホットクリックレポート ](../../reporting/using/hot-clicks.md)を参照してください。
 
 ## 配信パフォーマンスのヒント {#performance-tips}
 

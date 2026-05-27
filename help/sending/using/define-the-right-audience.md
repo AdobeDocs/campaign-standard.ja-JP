@@ -10,14 +10,10 @@ role: User
 level: Intermediate
 exl-id: 1e06fd9d-e850-4856-8f7b-b581dbe157df
 TQID: https://experienceleague.adobe.com/keRwWGnvoXbhg4XhReRZzSF1L9x93BbNu8YhBWtUoNM
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 518
@@ -47,22 +43,22 @@ ht-degree: 75%
 
 ## 外部データ {#external-data}
 
-データベースに保存されている受信者ではなく、外部ファイルに保存されている受信者に配信できます。 これを行うには、ワークフローを設計して、ファイルからデータベースにデータを読み込み、関連するオーディエンスを作成します。  詳しくは、[この使用例](../../automating/using/use-case-calling-workflow.md)を参照してください。 [&#x200B; パラメーターを使用したワークフローの呼び出し](../../automating/using/calling-a-workflow-with-external-parameters.md)も参照してください。
+データベースに保存されている受信者ではなく、外部ファイルに保存されている受信者に配信できます。 これを行うには、ワークフローを設計して、ファイルからデータベースにデータを読み込み、関連するオーディエンスを作成します。  詳しくは、[この使用例](../../automating/using/use-case-calling-workflow.md)を参照してください。 [ パラメーターを使用したワークフローの呼び出し](../../automating/using/calling-a-workflow-with-external-parameters.md)も参照してください。
 
 ## 購読者への送信 {#send-to-subscribers}
 
 ニュースレターの購読者にメッセージを送信するには、対応する情報サービスの購読者を直接ターゲットにできます。 詳しくは、[この節](../../audiences/using/about-subscriptions.md)を参照してください。
 
-**ヒント** - ワークフローを使用して、ニュースレターの購読者をターゲットとするリスト オーディエンスを作成できます。 そして、配信でこのオーディエンスを選択することができます。 詳しくは、[&#x200B; リストオーディエンスの作成](../../audiences/using/creating-audiences.md#creating-list-audiences)を参照してください。
+**ヒント** - ワークフローを使用して、ニュースレターの購読者をターゲットとするリスト オーディエンスを作成できます。 そして、配信でこのオーディエンスを選択することができます。 詳しくは、[ リストオーディエンスの作成](../../audiences/using/creating-audiences.md#creating-list-audiences)を参照してください。
 
 ## プルーフ、テストプロファイル、コントロールグループ {#proofs-test-control-groups}
 
 配信をテストするには、メインターゲットに送信する前に配達確認を使用します。
-配達確認の受信者には適切な人を選択してください。配達確認の受信者は、メッセージのフォームとコンテンツを検証する必要があります。 プルーフを送信する手順は、この節[&#128279;](../../sending/using/sending-proofs.md)で示されています。
+配達確認の受信者には適切な人を選択してください。配達確認の受信者は、メッセージのフォームとコンテンツを検証する必要があります。 プルーフを送信する手順は、この節](../../sending/using/sending-proofs.md)で[示されています。
 
 テストプロファイル [について詳しくは、この節](../../audiences/using/managing-test-profiles.md)を参照してください。
 
-[&#x200B; コントロール グループ &#x200B;](../../sending/using/control-group.md)を使用して、キャンペーンのオーディエンスの一部を除外することで、キャンペーンの影響を測定できます。 その後、メッセージを受け取ったターゲット母集団の行動と、ターゲット設定されていない連絡先の行動を比較できます。 送信ログに基づいて、今後のキャンペーンでコントロール母集団をターゲットすることもできます。
+[ コントロール グループ ](../../sending/using/control-group.md)を使用して、キャンペーンのオーディエンスの一部を除外することで、キャンペーンの影響を測定できます。 その後、メッセージを受け取ったターゲット母集団の行動と、ターゲット設定されていない連絡先の行動を比較できます。 送信ログに基づいて、今後のキャンペーンでコントロール母集団をターゲットすることもできます。
 
 ## アドレスの重複排除 {#deduplicate-addresses}
 
