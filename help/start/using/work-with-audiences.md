@@ -62,7 +62,7 @@ Campaign Standardには、マーケティングデータベースを成長させ
 
 * **ワークフローテンプレート**：これらは事前設定済みのワークフローで、必要に応じて1回設定し、データをインポートしてデータベースを更新するたびに再利用できます。 データを読み込むワークフローテンプレートの例については、[この節](../../automating/using/creating-import-workflow-templates.md)で詳しく説明しています。
 
-* **データテンプレートの読み込み**: ワークフローテンプレートと同様に、これらはワークフローに基づくテンプレートで、データベースを更新するためにファイルをアップロードするように設定されています。 設定が完了すると、**[!UICONTROL Profile & audiences]** / **[!UICONTROL Imports]** メニューの下に表示が簡略化されたユーザーが使用できるようになります。 データテンプレートの読み込みについて詳しくは、[専用ドキュメント ](../../automating/using/importing-data-with-import-templates.md)を参照してください。
+* **データテンプレートの読み込み**: ワークフローテンプレートと同様に、これらはワークフローに基づくテンプレートで、データベースを更新するためにファイルをアップロードするように設定されています。 設定が完了すると、**[!UICONTROL Profile & audiences]** / **[!UICONTROL Imports]** メニューの下に表示が簡略化されたユーザーが使用できるようになります。 データテンプレートの読み込みについて詳しくは、[専用ドキュメント &#x200B;](../../automating/using/importing-data-with-import-templates.md)を参照してください。
 
 ### ランディングページからのデータ収集 {#collecting-data-from-landing-pages}
 
@@ -72,7 +72,7 @@ Campaign Standardには、マーケティングデータベースを成長させ
 * 各入力フィールドを、データベースの対応するフィールドにマッピングします。
 * web サイトやメッセージへの直接リンクを通じて、ランディングページをオンラインで利用できるようにします。
 
-ランディングページについて詳しくは、[専用ドキュメント ](../../channels/using/getting-started-with-landing-pages.md)を参照してください。
+ランディングページについて詳しくは、[専用ドキュメント &#x200B;](../../channels/using/getting-started-with-landing-pages.md)を参照してください。
 
 **詳細情報**
 
@@ -82,7 +82,7 @@ Campaign Standardには、マーケティングデータベースを成長させ
 ### Microsoft Dynamics 365からのプロファイルの同期
 
 Campaign StandardとMicrosoft Dynamics 365の連携により、Microsoft Dynamics 365からCampaign データベースに連絡先データを渡すことができます。
-これらの連絡先はプロファイルリストに表示され、マーケティング施策のターゲットにすることができます。 この統合について詳しくは、[専用ドキュメント ](../../integrating/using/d365-acs-get-started.md)を参照してください。
+これらの連絡先はプロファイルリストに表示され、マーケティング施策のターゲットにすることができます。 この統合について詳しくは、[専用ドキュメント &#x200B;](../../integrating/using/d365-acs-get-started.md)を参照してください。
 
 >[!NOTE]
 >
@@ -95,7 +95,7 @@ Campaign StandardとMicrosoft Dynamics 365の連携により、Microsoft Dynamic
 
 ### API呼び出しを介したデータのインポート
 
-Campaign Standard APIを使用すると、プロファイルやサービスの作成、更新、削除など、データベースを更新する操作を実行できます。 APIの使用方法について詳しくは、[専用ドキュメント ](../../api/using/get-started-apis.md)を参照してください。
+Campaign Standard APIを使用すると、プロファイルやサービスの作成、更新、削除など、データベースを更新する操作を実行できます。 APIの使用方法について詳しくは、[専用ドキュメント &#x200B;](../../api/using/get-started-apis.md)を参照してください。
 
 >[!CAUTION]
 >

@@ -71,18 +71,18 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum placerat mau
 
 パーソナライズされたメッセージは、関連性の高いコンテンツを配信し、パーソナライズされた体験を提供し、開封率とコンバージョン率を向上させる鍵となります。 Adobe Campaignが配信するクロスチャネルメッセージは、様々な方法でパーソナライズできます。 プロファイルに応じた基準と組み合わせることができます。 以下を行うことができます。
 
-* メッセージに[動的パーソナライゼーションフィールド ](../../designing/using/personalization.md#inserting-a-personalization-field)を挿入します
+* メッセージに[動的パーソナライゼーションフィールド &#x200B;](../../designing/using/personalization.md#inserting-a-personalization-field)を挿入します
 * [定義済みのパーソナライゼーションブロックを挿入](../../designing/using/personalization.md#adding-a-content-block)
 * [電子メールまたはSMSの送信者](../../designing/using/subject-line.md)をパーソナライズする
-* [電子メールの件名をパーソナライズ ](../../designing/using/subject-line.md)
-* ランディングページ ](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)の電子メール ](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)または[に[条件付きコンテンツを作成
-* SMS メッセージまたはプッシュ通知に[動的テキスト ](../../channels/using/defining-dynamic-text.md)を挿入する
+* [電子メールの件名をパーソナライズ &#x200B;](../../designing/using/subject-line.md)
+* ランディングページ [&#128279;](../../channels/using/designing-a-landing-page.md#defining-dynamic-content-in-a-landing-page)の電子メール [&#128279;](../../designing/using/personalization.md#defining-dynamic-content-in-an-email)またはに条件付きコンテンツを作成
+* SMS メッセージまたはプッシュ通知に[動的テキスト &#x200B;](../../channels/using/defining-dynamic-text.md)を挿入する
 
 ![](assets/delivery_content_43.png)
 
 **詳細情報**
 
-* [ エンドツーエンドのサンプル ](../../designing/using/personalization.md#example-email-personalization)を通じて、メールのパーソナライゼーションを確認します
+* [&#x200B; エンドツーエンドのサンプル &#x200B;](../../designing/using/personalization.md#example-email-personalization)を通じて、メールのパーソナライゼーションを確認します
 * [URLのパーソナライズ](../../designing/using/personalization.md#personalizing-urls)
 * [画像のパーソナライゼーションの設定](../../designing/using/personalization.md#personalizing-an-image-source)
 
