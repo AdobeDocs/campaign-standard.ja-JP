@@ -10,14 +10,10 @@ role: Developer
 level: Experienced
 exl-id: 06ad2e13-922b-4f35-8726-007427125c63
 TQID: https://experienceleague.adobe.com/KInaFaQrwA5FKro44yFABqmDDvefY5mhJIl2OtBCrFc
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 179
@@ -33,7 +29,7 @@ ht-degree: 4%
 
 プライバシーリクエストは、**POST** リクエストを使用して作成されます。
 
-リクエストを作成する前に、使用する名前空間を定義する必要があります。 詳しくは、[&#x200B; プライバシー管理ドキュメント &#x200B;](../../start/using/privacy-requests.md)を参照してください。
+リクエストを作成する前に、使用する名前空間を定義する必要があります。 詳しくは、[ プライバシー管理ドキュメント ](../../start/using/privacy-requests.md)を参照してください。
 
 ペイロードには、次のパラメーターを含める必要があります。
 
