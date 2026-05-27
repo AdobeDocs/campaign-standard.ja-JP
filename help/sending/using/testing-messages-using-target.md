@@ -281,6 +281,6 @@ Campaign Standardでは、テストに使用できるプロファイルのオー
 
 このビデオでは、プロファイル置換を使用してメールメッセージをテストする方法を示します。
 
->[!VIDEO](https://video.tv.adobe.com/v/32368?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/36510?captions=jpn&quality=12)
 
 その他のCampaign Standardのハウツー動画は[こちら](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja)でご覧いただけます。

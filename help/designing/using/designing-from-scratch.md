@@ -39,7 +39,7 @@ E メール Designerを使用して、メールコンテンツをゼロから作
 1. メールのプレビュー。
 1. コンテンツを保存し、オーディエンスを定義し、送信を適切にスケジュールしてからメッセージを続行します。
 
-また、この[紹介ビデオ &#x200B;](https://video.tv.adobe.com/v/22771/?autoplay=true&hidetitle=true)も確認できます。
+また、この[紹介ビデオ &#x200B;](https://video.tv.adobe.com/v/330102/?captions=jpn&autoplay=true&hidetitle=true)も確認できます。
 
 >[!NOTE]
 >
