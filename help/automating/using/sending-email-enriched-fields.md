@@ -11,14 +11,10 @@ role: Developer
 level: Intermediate
 exl-id: 5ca7571d-d4d2-4b59-86d4-4f1f3a620b54
 TQID: https://experienceleague.adobe.com/5psJbqwsciRlctfnGyptzlEMWppn1-ueo57L8NUEgpE
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 351
@@ -38,11 +34,11 @@ ht-degree: 75%
 
 ワークフローを構築するには、次の手順に従います。
 
-1. [&#x200B; クエリ &#x200B;](../../automating/using/query.md) アクティビティをワークフローにドラッグ&amp;ドロップし、それを開いてメイン ターゲットを定義します。
+1. [ クエリ ](../../automating/using/query.md) アクティビティをワークフローにドラッグ&amp;ドロップし、それを開いてメイン ターゲットを定義します。
 
    <!--The Query activity is presented in the [Query](../../automating/using/query.md) section.-->
 
-1. [&#x200B; ファイルを読み込み](../../automating/using/load-file.md) アクティビティをドラッグ&amp;ドロップして、一部のデータをプロファイルに割り当てます。 この例では、データベースの一部のプロファイルに対応するアカウント番号が含まれているファイルを読み込みます。
+1. [ ファイルを読み込み](../../automating/using/load-file.md) アクティビティをドラッグ&amp;ドロップして、一部のデータをプロファイルに割り当てます。 この例では、データベースの一部のプロファイルに対応するアカウント番号が含まれているファイルを読み込みます。
 
    ![](assets/load_file_activity.png)
 
@@ -60,13 +56,13 @@ ht-degree: 75%
 
    詳しくは、[エンリッチメント](../../automating/using/enrichment.md)の節を参照してください。
 
-1. [&#x200B; セグメント化](../../automating/using/segmentation.md) アクティビティをワークフローにドラッグ&amp;ドロップし、それを開いてメインターゲットを調整します。
+1. [ セグメント化](../../automating/using/segmentation.md) アクティビティをワークフローにドラッグ&amp;ドロップし、それを開いてメインターゲットを調整します。
 
    ![](assets/load_file_segmentation.png)
 
    詳しくは、[セグメント化](../../automating/using/segmentation.md)の節を参照してください。
 
-1. [&#x200B; メール配信](../../automating/using/email-delivery.md) アクティビティをワークフローにドラッグ&amp;ドロップして開きます。
+1. [ メール配信](../../automating/using/email-delivery.md) アクティビティをワークフローにドラッグ&amp;ドロップして開きます。
 
    <!--The Email delivery activity is presented in the [Email delivery](../../automating/using/email-delivery.md) section.-->
 

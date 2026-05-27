@@ -11,12 +11,9 @@ role: Developer
 level: Intermediate
 exl-id: 32d9d174-8438-48d7-b876-33a0c35d9549
 TQID: https://experienceleague.adobe.com/NyjUiyKTwq937snrbOa8TNtG4Gk6A9avxrP7T-zO2kw
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 244
@@ -34,7 +31,7 @@ ht-degree: 76%
 
 ## スケジューラーアクティビティの作成{#creating-a-scheduler-activity}
 
-1. **[!UICONTROL Activities]** > **[!UICONTROL Execution]**&#x200B;で、[&#x200B; スケジューラー](../../automating/using/scheduler.md) アクティビティをドラッグ&amp;ドロップします。
+1. **[!UICONTROL Activities]** > **[!UICONTROL Execution]**&#x200B;で、[ スケジューラー](../../automating/using/scheduler.md) アクティビティをドラッグ&amp;ドロップします。
 1. アクティビティをダブルクリックします。
 1. 配信の実行を設定します。
 1. 「**[!UICONTROL Execution frequency]**」で、「**[!UICONTROL Weekly]**」を選択します。
@@ -51,7 +48,7 @@ ht-degree: 76%
 
 ## クエリアクティビティの作成{#creating-a-query-activity}
 
-1. **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**&#x200B;で、受信者を選択するには、[&#x200B; クエリ &#x200B;](../../automating/using/query.md) アクティビティをドラッグ&amp;ドロップし、ダブルクリックします。
+1. **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**&#x200B;で、受信者を選択するには、[ クエリ ](../../automating/using/query.md) アクティビティをドラッグ&amp;ドロップし、ダブルクリックします。
 1. **[!UICONTROL Shortcuts]**／**[!UICONTROL Profile]**&#x200B;で、**[!UICONTROL Email]** をドラッグ＆ドロップします。
 1. 演算子として「**[!UICONTROL is not empty]**」を選択します。
 1. **[!UICONTROL Shortcuts]**／**[!UICONTROL General]** でプロファイルを追加し、「**[!UICONTROL no longer contact by email]**」を選択して、値を「**[!UICONTROL No]**」に設定します。
@@ -61,7 +58,7 @@ ht-degree: 76%
 
 ## メール配信の作成{#creating-an-email-delivery}
 
-1. **[!UICONTROL Activities]** > **[!UICONTROL Channels]**&#x200B;で、[&#x200B; メール配信](../../automating/using/email-delivery.md) アクティビティをドラッグ&amp;ドロップします。
+1. **[!UICONTROL Activities]** > **[!UICONTROL Channels]**&#x200B;で、[ メール配信](../../automating/using/email-delivery.md) アクティビティをドラッグ&amp;ドロップします。
 1. アクティビティをクリックし、![](assets/edit_darkgrey-24px.png) を選択して編集します。
 1. 「**[!UICONTROL Recurring email]**」を選択し、「**[!UICONTROL Next]**」をクリックします。
 1. メールテンプレートを選択し、「**[!UICONTROL Next]**」をクリックします。

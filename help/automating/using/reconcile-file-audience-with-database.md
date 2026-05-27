@@ -11,12 +11,9 @@ role: Developer
 level: Intermediate
 exl-id: 6a59907d-850e-4d61-b1f7-8fc8b915580e
 TQID: https://experienceleague.adobe.com/z40XwpSoXzB0KpOs44BVIkxbUWAZShPIyb9l0QHUXZs
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 254
@@ -58,6 +55,6 @@ ht-degree: 87%
 
 ![](assets/readaudience_activity_example2.png)
 
-* 読み込みワークフローで作成されたファイルオーディエンスが、[&#x200B; オーディエンスの読み込み](../../automating/using/read-audience.md) アクティビティによってアップロードされます。 オーディエンスデータは、Adobe Campaign データベースとまだ紐付けされていません。
+* 読み込みワークフローで作成されたファイルオーディエンスが、[ オーディエンスの読み込み](../../automating/using/read-audience.md) アクティビティによってアップロードされます。 オーディエンスデータは、Adobe Campaign データベースとまだ紐付けされていません。
 * 「[紐付け](../../automating/using/reconciliation.md)」アクティビティは、読み込んだデータをプロファイルとして「**[!UICONTROL Identification]**」タブから識別します。 例えば、「**メール**」フィールドを紐付け条件として使用します。
 * 「[データ更新](../../automating/using/update-data.md)」アクティビティは、データベースのプロファイルリソースを挿入し、読み込んだデータを使用して更新します。 データが既にプロファイルとして識別されているので、アクティビティの「**[!UICONTROL Identification]**」タブで「**[!UICONTROL Directly using the targeting dimension]**」オプションを選択し、「**[!UICONTROL Profiles]**」を選択できます。 そして、当該タブで更新する必要のあるフィールドのリストを追加するだけです。

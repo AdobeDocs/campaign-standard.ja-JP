@@ -11,20 +11,12 @@ role: Developer
 level: Beginner
 exl-id: a3f35bb9-e61e-4f3f-b855-1d677422f75a
 TQID: https://experienceleague.adobe.com/yE5oFC7pHpJPh1NC0jMvVu-VfY-sFhgbSB4tqw55R-M
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: a4671286-a59f-47e3-b97b-90627a1977d5
-  - id: a658c786-869b-4194-a780-2594d663adda
-subfeature_v2:
-  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: a4671286-a59f-47e3-b97b-90627a1977d5id: a658c786-869b-4194-a780-2594d663adda
+subfeature_v2: id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 845
@@ -38,23 +30,23 @@ ht-degree: 5%
 
 ワークフロー編集画面は、次の要素で構成されます。
 
-* 使用可能なアクティビティを参照する[&#x200B; パレット &#x200B;](#palette)。
+* 使用可能なアクティビティを参照する[ パレット ](#palette)。
 * アクティビティが設定および整理された[Workspace](#workspace)。
-* [&#x200B; アクションバー](#action-bar)は、ワークフローやそのコンポーネントを操作できるボタンで構成されています。
-* 選択したアクティビティの周囲に表示される[&#x200B; クイックアクション &#x200B;](#quick-actions)を使用すると、このアクティビティを操作できます。
+* [ アクションバー](#action-bar)は、ワークフローやそのコンポーネントを操作できるボタンで構成されています。
+* 選択したアクティビティの周囲に表示される[ クイックアクション ](#quick-actions)を使用すると、このアクティビティを操作できます。
 
 ![](assets/wkf_overview.png)
 
-![](assets/do-not-localize/how-to-video.png) [&#x200B; ビデオでワークフローを作成する方法を確認](#video)
+![](assets/do-not-localize/how-to-video.png) [ ビデオでワークフローを作成する方法を確認](#video)
 
 ## パレット {#palette}
 
 パレットは画面の左側にあります。 使用可能なすべてのアクティビティは、次のカテゴリに分類されます。
 
-* [&#x200B; ターゲティング &#x200B;](../../automating/using/about-targeting-activities.md)：ターゲティング、母集団データの操作、およびアクティビティのフィルタリングに固有のアクティビティ
+* [ ターゲティング ](../../automating/using/about-targeting-activities.md)：ターゲティング、母集団データの操作、およびアクティビティのフィルタリングに固有のアクティビティ
 * [実行](../../automating/using/about-execution-activities.md): ワークフローの整理と実行に固有のアクティビティ
-* [&#x200B; チャネル &#x200B;](../../automating/using/about-channel-activities.md)：使用可能な様々なコミュニケーションチャネルを表すアクティビティ
-* [&#x200B; データ管理（ETL） &#x200B;](../../automating/using/about-data-management-activities.md)：データ操作に固有のアクティビティ
+* [ チャネル ](../../automating/using/about-channel-activities.md)：使用可能な様々なコミュニケーションチャネルを表すアクティビティ
+* [ データ管理（ETL） ](../../automating/using/about-data-management-activities.md)：データ操作に固有のアクティビティ
 
 ワークフローのパレットからアクティビティを使用するには、それをワークスペースにドラッグ&amp;ドロップします。
 
@@ -177,6 +169,6 @@ ht-degree: 5%
 
 このビデオでは、ワークフローの作成方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/27575?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/23937?quality=12)
 
 その他のCampaign Standardのハウツー動画は[こちら](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja)でご覧いただけます。
