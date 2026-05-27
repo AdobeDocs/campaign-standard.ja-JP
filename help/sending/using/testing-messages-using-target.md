@@ -10,10 +10,15 @@ role: User
 level: Intermediate
 exl-id: aa68914f-0497-40ba-98c8-4d4b2c6705fb
 TQID: https://experienceleague.adobe.com/52Xrj9jJWTlTtIrIqTt-Fhc4V-lRNfjfGDRiHv5dgUs
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 1544
@@ -25,7 +30,7 @@ ht-degree: 4%
 
 ## 概要 {#overview}
 
-さらに、[ プロファイルをテスト ](../../audiences/using/managing-test-profiles.md)するには、ターゲットとなるプロファイルの1つに自分を配置して、電子メールメッセージをテストします。 これにより、プロファイルが受け取るメッセージ（カスタムフィールド、動的およびパーソナライズされた情報、ワークフローからの追加データなど）の正確な表現を取得できます。
+さらに、[&#x200B; プロファイルをテスト &#x200B;](../../audiences/using/managing-test-profiles.md)するには、ターゲットとなるプロファイルの1つに自分を配置して、電子メールメッセージをテストします。 これにより、プロファイルが受け取るメッセージ（カスタムフィールド、動的およびパーソナライズされた情報、ワークフローからの追加データなど）の正確な表現を取得できます。
 
 >[!IMPORTANT]
 >
@@ -48,7 +53,7 @@ ht-degree: 4%
 
 ## プロファイルと代替アドレスの選択 {#selecting-profiles}
 
-ターゲットプロファイルをテストに使用するには、まずそれらを選択し、プルーフを受け取る代替アドレスを定義する必要があります。 これを行うには、対象プロファイルの中から[特定のプロファイル ](#selecting-individual-profiles)を選択するか、既存のオーディエンスから[ プロファイルを読み込みます](#importing-from-audience)。
+ターゲットプロファイルをテストに使用するには、まずそれらを選択し、プルーフを受け取る代替アドレスを定義する必要があります。 これを行うには、対象プロファイルの中から[特定のプロファイル &#x200B;](#selecting-individual-profiles)を選択するか、既存のオーディエンスから[&#x200B; プロファイルを読み込みます](#importing-from-audience)。
 
 >[!NOTE]
 >
@@ -148,7 +153,7 @@ Campaign Standardでは、テストに使用できるプロファイルのオー
 >
 >プレビューは、電子メール Designerでのみ使用できます。
 
-ターゲットプロファイルを使用してメッセージをプレビューするには、これらのプロファイルを&#x200B;**[!UICONTROL Profile substitution]** リストに追加していることを確認します（[ プロファイルと代替アドレスの定義](#selecting-profiles)を参照）。
+ターゲットプロファイルを使用してメッセージをプレビューするには、これらのプロファイルを&#x200B;**[!UICONTROL Profile substitution]** リストに追加していることを確認します（[&#x200B; プロファイルと代替アドレスの定義](#selecting-profiles)を参照）。
 
 メッセージでパーソナライゼーションフィールドを使用する場合は、メッセージ準備を開始する前に&#x200B;**追加する必要があります。**&#x200B;それ以外の場合は、プレビューで考慮されません。 その結果、パーソナライゼーションフィールドに変更が加えられた場合は、必ずメッセージの準備を再度開始してください。
 
@@ -194,9 +199,9 @@ Campaign Standardでは、テストに使用できるプロファイルのオー
 
 1. ファイルからオーディエンスを作成するワークフローを作成します。 これを行うには、次のアクティビティを追加して設定します。
 
-   * **[!UICONTROL Load file]** アクティビティ：CSV ファイルをインポートします（このアクティビティについて詳しくは、[このセクション ](../../automating/using/load-file.md)を参照してください）。
-   * **[!UICONTROL Reconciliation]** アクティビティ：ファイルの情報をデータベースの情報にリンクします。 この例では、プロファイルの電子メールアドレスを紐付けフィールドとして使用します（このアクティビティについて詳しくは、[このセクション ](../../automating/using/reconciliation.md)を参照してください）。
-   * **[!UICONTROL Save audience]** アクティビティ：インポートされたファイルに基づいてオーディエンスを作成します（このアクティビティについて詳しくは、[このセクション ](../../automating/using/save-audience.md)を参照してください）。
+   * **[!UICONTROL Load file]** アクティビティ：CSV ファイルをインポートします（このアクティビティについて詳しくは、[このセクション &#x200B;](../../automating/using/load-file.md)を参照してください）。
+   * **[!UICONTROL Reconciliation]** アクティビティ：ファイルの情報をデータベースの情報にリンクします。 この例では、プロファイルの電子メールアドレスを紐付けフィールドとして使用します（このアクティビティについて詳しくは、[このセクション &#x200B;](../../automating/using/reconciliation.md)を参照してください）。
+   * **[!UICONTROL Save audience]** アクティビティ：インポートされたファイルに基づいてオーディエンスを作成します（このアクティビティについて詳しくは、[このセクション &#x200B;](../../automating/using/save-audience.md)を参照してください）。
 
    ![](assets/substitution_uc2.png)
 
@@ -208,7 +213,7 @@ Campaign Standardでは、テストに使用できるプロファイルのオー
 
 ### 手順2：プロファイルのターゲットワークフローを構築し、ニュースレターを送信する
 
-1. **[!UICONTROL Query]**&#x200B;と&#x200B;**[!UICONTROL Email delivery]**&#x200B;のアクティビティを追加し、必要に応じて設定します（[ クエリ ](../../automating/using/query.md)と[ メール配信](../../automating/using/email-delivery.md)のセクションを参照）。
+1. **[!UICONTROL Query]**&#x200B;と&#x200B;**[!UICONTROL Email delivery]**&#x200B;のアクティビティを追加し、必要に応じて設定します（[&#x200B; クエリ &#x200B;](../../automating/using/query.md)と[&#x200B; メール配信](../../automating/using/email-delivery.md)のセクションを参照）。
 
    ![](assets/substitution_uc4.png)
 

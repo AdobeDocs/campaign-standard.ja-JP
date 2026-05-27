@@ -9,10 +9,14 @@ role: User
 level: Intermediate
 exl-id: bd9ec3f9-e047-42dc-ab64-9fb274cb4656
 TQID: https://experienceleague.adobe.com/sSLZ7Yi5SZTrFKNknQcrCKr49aeNUL4y249CleELWWo
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 1026
@@ -43,7 +47,7 @@ ht-degree: 1%
 1. language
 1. silentPush
 
-**[!UICONTROL Manage Content Variants]** ウィンドウの&#x200B;**[!UICONTROL Download a sample file]**&#x200B;をクリックして、CSV サンプルを確認します。 詳しくは、この[ セクション ](../../channels/using/creating-a-multilingual-push-notification.md)を参照してください。
+**[!UICONTROL Manage Content Variants]** ウィンドウの&#x200B;**[!UICONTROL Download a sample file]**&#x200B;をクリックして、CSV サンプルを確認します。 詳しくは、この[&#x200B; セクション &#x200B;](../../channels/using/creating-a-multilingual-push-notification.md)を参照してください。
 
 * **title, messageBody, sound, badge, deeplinkURI, category, iosMediaAttachmentURL, androidMediaAttachmentURL**：通常のプッシュペイロードのコンテンツ。 プッシュ配信を作成する場合と同様に、この情報を提供する必要があります。
 * **カスタムフィールド**：カスタムフィールドにJSON形式（例：`{"key1":"value1","key2":"value2"}`）を使用します。 カスタムフィールドの例については、上記のサンプルファイルを参照してください。

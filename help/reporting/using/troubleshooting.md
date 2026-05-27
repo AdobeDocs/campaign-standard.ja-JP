@@ -9,11 +9,17 @@ role: Leader
 level: Intermediate
 exl-id: 0f99a109-2923-4e64-8131-80fcacf79c82
 TQID: https://experienceleague.adobe.com/IZdWRhWkAwgvpZnanpAu6-taR723XFwOxvq3UTcyc-o
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: c309ee4e-82e4-4f7e-b608-ef345678c34e
-role_v2: id: f8a45b24-4be7-4f1b-909b-60d06b483a20
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+role_v2:
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 1208
@@ -114,8 +120,8 @@ P1 が 1 日目にメールを 2 回開き、2 日目に 3 回開きました。
 
 繰り返し配信とトランザクション配信を操作する場合、カウントは親と子の両方の配信に関連付けられます。
 例えば、**R1** という名前の繰り返し配信を、1 日目（RC1）、2 日目（RC2）、3 日目（RC3）に毎日実行するように設定するとします。
-1 人のユーザーのみが、すべての子配信を複数回開いたとします。 この場合、個々の定期的な子配信には、それぞれの**[!UICONTROL Open]** カウントが1として表示されます。
-ただし、同じユーザーがすべての配信をクリックしたため、親の定期的な配信にも**[!UICONTROL Unique open]**&#x200B;が1として含まれます。
+1 人のユーザーのみが、すべての子配信を複数回開いたとします。 この場合、個々の定期的な子配信には、それぞれの&#x200B;**[!UICONTROL Open]** カウントが1として表示されます。
+ただし、同じユーザーがすべての配信をクリックしたため、親の定期的な配信にも&#x200B;**[!UICONTROL Unique open]**&#x200B;が1として含まれます。
 
 レポートは次のようになります。
 
