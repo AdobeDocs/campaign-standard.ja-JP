@@ -10,10 +10,14 @@ role: User
 level: Intermediate
 exl-id: 7083447c-4cac-41cb-8453-369819e0c7c1
 TQID: https://experienceleague.adobe.com/RWC1QVnb36uYdmvYN4N4yUeaVATJ2RdI7G8vXkJqR0o
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 840
@@ -51,7 +55,7 @@ ht-degree: 18%
 
    >[!NOTE]
    >
-   >ランディングページでチェックボックスタイプを使用する方法について詳しくは、[複数のサービスのサブスクリプションを更新](#multiple-subscriptions)および[契約書のチェックボックス ](#agreement-checkbox)の節を参照してください。
+   >ランディングページでチェックボックスタイプを使用する方法について詳しくは、[複数のサービスのサブスクリプションを更新](#multiple-subscriptions)および[契約書のチェックボックス &#x200B;](#agreement-checkbox)の節を参照してください。
 
 1. 現在&#x200B;**[!UICONTROL Field]** ゾーンで選択されているデータベースフィールドと互換性のないフィールドタイプを選択すると、警告メッセージが表示されます。 最適なマッピングを行うには、適切な値を選択します。
 
@@ -125,7 +129,7 @@ ht-degree: 18%
 
    ![](assets/lp_checkbox-behavior.png)
 
-1. 対応するリストから[ サービス ](../../audiences/using/creating-a-service.md)を選択します。
+1. 対応するリストから[&#x200B; サービス &#x200B;](../../audiences/using/creating-a-service.md)を選択します。
 
    ![](assets/lp_checkbox-service.png)
 

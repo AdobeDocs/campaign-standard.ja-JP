@@ -10,10 +10,16 @@ role: User
 level: Intermediate
 exl-id: d6aaec6e-c718-46a2-88e8-7402970def1a
 TQID: https://experienceleague.adobe.com/rFFpX6Up3eir0KrwY0lsfhAHlfennHiJkq2BsHuiAps
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 763
@@ -46,9 +52,9 @@ ht-degree: 61%
 
 ## トランザクションメッセージ数 {#transactional-message-number}
 
-公開されるトランザクションメッセージの数は、プラットフォームに大きな影響を与える可能性があります。 最適なパフォーマンスを実現するには、公開されるトランザクションメッセージの数を100未満に抑える必要があります。そうしないと、パフォーマンスの低下が発生する可能性があります。 これを確実にするには、前述のガードレールを満たすために、未使用のトランザクションメッセージを非公開または削除します。 [ トランザクションメッセージの非公開](../../channels/using/publishing-transactional-message.md#unpublishing-a-transactional-message)および[ トランザクションメッセージの削除](../../channels/using/publishing-transactional-message.md#deleting-a-transactional-message)を参照してください。
+公開されるトランザクションメッセージの数は、プラットフォームに大きな影響を与える可能性があります。 最適なパフォーマンスを実現するには、公開されるトランザクションメッセージの数を100未満に抑える必要があります。そうしないと、パフォーマンスの低下が発生する可能性があります。 これを確実にするには、前述のガードレールを満たすために、未使用のトランザクションメッセージを非公開または削除します。 [&#x200B; トランザクションメッセージの非公開](../../channels/using/publishing-transactional-message.md#unpublishing-a-transactional-message)および[&#x200B; トランザクションメッセージの削除](../../channels/using/publishing-transactional-message.md#deleting-a-transactional-message)を参照してください。
 
-最高のパフォーマンスを確保するために、未使用のイベントを非公開または削除することもできます。 実際、イベントを非公開または削除すると、対応するトランザクションメッセージ、および送信ログとトラッキングログ（存在する場合）も非公開または削除されます。 [ イベントの非公開](../../channels/using/publishing-transactional-event.md#unpublishing-an-event)および[ イベントの削除](../../channels/using/publishing-transactional-event.md#deleting-an-event)を参照してください。
+最高のパフォーマンスを確保するために、未使用のイベントを非公開または削除することもできます。 実際、イベントを非公開または削除すると、対応するトランザクションメッセージ、および送信ログとトラッキングログ（存在する場合）も非公開または削除されます。 [&#x200B; イベントの非公開](../../channels/using/publishing-transactional-event.md#unpublishing-an-event)および[&#x200B; イベントの削除](../../channels/using/publishing-transactional-event.md#deleting-an-event)を参照してください。
 
 ## パーソナライズ機能 {#personalization}
 
@@ -56,14 +62,14 @@ ht-degree: 61%
 
 ### イベントベースのトランザクトメッセージ
 
-* パーソナライゼーションに関する情報は、イベント自体に含まれるデータから取得されます。 [ イベントベースのトランザクションメッセージ設定](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages)を参照してください。
-* **では、イベントトランザクションメッセージで&#x200B;**[!UICONTROL Unsubscription link]**コンテンツブロックを使用できません。**
-* イベントベースのトランザクションメッセージでは、受信者とメッセージコンテンツのパーソナライゼーションを定義するために、送信イベント内のデータのみを使用することが想定されています。 ただし、Adobe Campaign データベースの情報を使用して、トランザクションメッセージの内容をエンリッチメントすることができます。 [ イベントの強化](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)および[ トランザクションメッセージのパーソナライズ ](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message)を参照してください。
+* パーソナライゼーションに関する情報は、イベント自体に含まれるデータから取得されます。 [&#x200B; イベントベースのトランザクションメッセージ設定](../../channels/using/configuring-transactional-event.md#event-based-transactional-messages)を参照してください。
+* **では、イベントトランザクションメッセージで&#x200B;**&#x200B;[!UICONTROL Unsubscription link]&#x200B;**コンテンツブロックを使用できません。**
+* イベントベースのトランザクションメッセージでは、受信者とメッセージコンテンツのパーソナライゼーションを定義するために、送信イベント内のデータのみを使用することが想定されています。 ただし、Adobe Campaign データベースの情報を使用して、トランザクションメッセージの内容をエンリッチメントすることができます。 [&#x200B; イベントの強化](../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content)および[&#x200B; トランザクションメッセージのパーソナライズ &#x200B;](../../channels/using/editing-transactional-message.md#personalizing-a-transactional-message)を参照してください。
 * イベントトランザクションメッセージにはプロファイル情報が含まれないため、プロファイルを使用したエンリッチメントの場合でも、疲労ルールと互換性がありません。
 
 ### プロファイルベースのトランザクションメッセージ
 
-* パーソナライゼーションに関する情報は、イベントに含まれるデータ、または紐付け済みのプロファイルレコードから取得できます。 [ プロファイルベースのトランザクションメッセージ設定](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages)および[ プロファイルベースのトランザクションメッセージの詳細](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities)を参照してください。
+* パーソナライゼーションに関する情報は、イベントに含まれるデータ、または紐付け済みのプロファイルレコードから取得できます。 [&#x200B; プロファイルベースのトランザクションメッセージ設定](../../channels/using/configuring-transactional-event.md#profile-based-transactional-messages)および[&#x200B; プロファイルベースのトランザクションメッセージの詳細](../../channels/using/editing-transactional-message.md#profile-transactional-message-specificities)を参照してください。
 * プロファイルのトランザクションメッセージで&#x200B;**[!UICONTROL Unsubscription link]** コンテンツブロックを&#x200B;**さんが**&#x200B;使用できます。 [コンテンツブロックの追加](../../designing/using/personalization.md#adding-a-content-block)を参照してください。
 * 疲労ルールは、プロファイルトランザクションメッセージと互換性があります。 [疲労ルール](../../sending/using/fatigue-rules.md)を参照してください。
 
@@ -73,7 +79,7 @@ ht-degree: 61%
 
 ## ブランディング {#permissions-and-branding}
 
-[ブランディング](../../administration/using/branding.md)管理の場合、トランザクションメッセージは標準のメッセージよりも柔軟性が低くなります。 トランザクションメッセージで使用されるすべてのブランドを&#x200B;**[!UICONTROL All]**[&#x200B;組織単位](../../administration/using/organizational-units.md)にリンクすることをお勧めします。 詳しくは、以下の詳細を参照してください。
+[ブランディング](../../administration/using/branding.md)管理の場合、トランザクションメッセージは標準のメッセージよりも柔軟性が低くなります。 トランザクションメッセージで使用されるすべてのブランドを&#x200B;**[!UICONTROL All]**&#x200B;[&#x200B;組織単位](../../administration/using/organizational-units.md)にリンクすることをお勧めします。 詳しくは、以下の詳細を参照してください。
 
 トランザクションメッセージを編集する際に、ブランドにリンクして、ブランド名やブランドロゴなどのパラメーターを自動的に適用できます。 トランザクションメッセージプロパティでは、デフォルトで **[!UICONTROL Default brand]** が選択されています。
 

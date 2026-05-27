@@ -9,9 +9,13 @@ feature: Landing Pages
 role: User
 exl-id: 8015c555-9521-478c-8669-66b9cc145887
 TQID: https://experienceleague.adobe.com/r55Y65MfV0YNU5XLTeD3e--ZlHlcqUxH88HV2o3qec0
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 1037
@@ -27,7 +31,7 @@ ht-degree: 89%
 
 このページでは、各手順の情報と、詳細情報を参照できる関連ドキュメントを紹介します。
 
-![](assets/do-not-localize/how-to-video.png) [ ビデオでランディングページを作成する方法を確認](#video)
+![](assets/do-not-localize/how-to-video.png) [&#x200B; ビデオでランディングページを作成する方法を確認](#video)
 
 **関連トピック：**
 
