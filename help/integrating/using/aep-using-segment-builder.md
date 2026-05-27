@@ -24,9 +24,9 @@ ht-degree: 3%
 >
 >Audience Destinations サービスは現在ベータ版で、予告なく頻繁に更新される可能性があります。 これらの機能にアクセスするには、Azure（現在は北米のみベータ版）でホスティングされている必要があります。 アクセスをご希望の場合は、Adobe カスタマーケアにお問い合わせください。
 
-セグメントビルダーを使用すると、[ リアルタイム顧客プロファイル ](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja)からのデータに基づいてルールを定義して、オーディエンスを構築できます。
+セグメントビルダーを使用すると、[&#x200B; リアルタイム顧客プロファイル &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja)からのデータに基づいてルールを定義して、オーディエンスを構築できます。
 
-このセクションでは、セグメントを構築する際のグローバルな概念について説明します。 セグメントビルダー自体について詳しくは、[ セグメントビルダーユーザーガイド ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html)を参照してください。
+このセクションでは、セグメントを構築する際のグローバルな概念について説明します。 セグメントビルダー自体について詳しくは、[&#x200B; セグメントビルダーユーザーガイド &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html)を参照してください。
 
 セグメントビルダーのインターフェイスは次のように構成されています。
 
@@ -48,7 +48,7 @@ ht-degree: 3%
 
 1. 設定パネルで目的の結合ポリシーが選択されていることを確認します。
 
-   結合ポリシーについて詳しくは、[ セグメントビルダーユーザーガイド ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html)の専用セクションを参照してください。
+   結合ポリシーについて詳しくは、[&#x200B; セグメントビルダーユーザーガイド &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html)の専用セクションを参照してください。
 
    ![](assets/aep_audiences_mergepolicy.png)
 
@@ -66,7 +66,7 @@ ht-degree: 3%
 
 左側のペインには、ルールの作成に使用できるすべての属性、イベント、オーディエンスが一覧表示されます。
 
-リストされているフィールドは、会社によって取得された属性で、[Experience Data Model （XDM） システム ](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)を通じて使用できるようになっています。
+リストされているフィールドは、会社によって取得された属性で、[Experience Data Model （XDM） システム &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html)を通じて使用できるようになっています。
 
 フィールドはタブに整理されます。
 
@@ -96,7 +96,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->以下の節では、ルール定義に関するグローバル情報を提供します。 詳しくは、[ セグメントビルダーユーザーガイド ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html)を参照してください。
+>以下の節では、ルール定義に関するグローバル情報を提供します。 詳しくは、[&#x200B; セグメントビルダーユーザーガイド &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html)を参照してください。
 
 ルールを作成するには、次の手順に従います。
 

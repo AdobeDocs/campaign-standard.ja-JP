@@ -23,7 +23,7 @@ ht-degree: 3%
 >
 >Audience Destinations サービスは現在ベータ版で、予告なく頻繁に更新される可能性があります。 これらの機能にアクセスするには、Azure（現在は北米のみベータ版）でホスティングされている必要があります。 アクセスをご希望の場合は、Adobe カスタマーケアにお問い合わせください。
 
-セグメントビルダーを使用して[Adobe Experience Platform オーディエンス ](../../integrating/using/aep-about-audience-destinations-service.md)を作成したら、ワークフロー内のCampaign オーディエンスと同じ方法でメッセージをパーソナライズして送信できます。
+セグメントビルダーを使用して[Adobe Experience Platform オーディエンス &#x200B;](../../integrating/using/aep-about-audience-destinations-service.md)を作成したら、ワークフロー内のCampaign オーディエンスと同じ方法でメッセージをパーソナライズして送信できます。
 
 ワークフローにAdobe Experience Platform オーディエンスをアクティベートするには、次の手順に従います。
 
@@ -47,7 +47,7 @@ ht-degree: 3%
 
    ![](assets/aep_wkf_readaudience_namespace.png)
 
-   このリストには、インスタンスで設定されたすべてのExperience Data Model （XDM）マッピングが含まれます。 Adobe Experience Platform Data Connectorについて詳しくは、[この専用ドキュメント ](../../integrating/using/aep-about-data-connector.md)を参照してください。
+   このリストには、インスタンスで設定されたすべてのExperience Data Model （XDM）マッピングが含まれます。 Adobe Experience Platform Data Connectorについて詳しくは、[この専用ドキュメント &#x200B;](../../integrating/using/aep-about-data-connector.md)を参照してください。
 
    ![](assets/aep_wkf_readaudience_namespace2.png)
 

@@ -9,10 +9,15 @@ role: User
 level: Intermediate
 exl-id: 3bda4227-2a6e-4813-a288-93a4388a9787
 TQID: https://experienceleague.adobe.com/QDye5eM-hWU3DB-OqrxDLIYPDw9YlokgF0XIjvzHfgI
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 1293
@@ -39,10 +44,10 @@ Adobe Campaignには、定義済みの一連のコンテンツが用意されて
 
 1. 読み込むコンテンツのソースを選択：
 
-   * [ コンテンツテンプレート ](../../designing/using/using-reusable-content.md#content-templates):「**[!UICONTROL Templates]**」タブをクリックします。
-   * [最初からコンテンツ ](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)を作成して新しい作業を開始するには、**[!UICONTROL Create]** ボタンをクリックします。
-   * [ コンピューターのコンテンツをZIPまたはHTML ファイルとして](#importing-content-from-a-file):「**[!UICONTROL Upload]**」ボタンをクリックします。
-   * [既存のURLからのコンテンツ ](#importing-content-from-a-url) （メールのみ）:「**[!UICONTROL Import from URL]**」ボタンをクリックします。
+   * [&#x200B; コンテンツテンプレート &#x200B;](../../designing/using/using-reusable-content.md#content-templates):「**[!UICONTROL Templates]**」タブをクリックします。
+   * [最初からコンテンツ &#x200B;](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)を作成して新しい作業を開始するには、**[!UICONTROL Create]** ボタンをクリックします。
+   * [&#x200B; コンピューターのコンテンツをZIPまたはHTML ファイルとして](#importing-content-from-a-file):「**[!UICONTROL Upload]**」ボタンをクリックします。
+   * [既存のURLからのコンテンツ &#x200B;](#importing-content-from-a-url) （メールのみ）:「**[!UICONTROL Import from URL]**」ボタンをクリックします。
 
    ![](assets/des_loading_2.png)
 
@@ -52,7 +57,7 @@ Adobe Campaignには、定義済みの一連のコンテンツが用意されて
 
    >[!NOTE]
    >
-   >[電子メール Designer](../../designing/using/designing-content-in-adobe-campaign.md)は、特定のタグ付けを使用しています。 Campaignにアップロードされる標準のHTML コンテンツは、電子メールDesignerから完全に互換性があり、編集可能なタグ付けとして期待されるタグと一致する必要があります。 一致しない場合、コンテンツは[互換モード ](#compatibility-mode)でアップロードされます。 既存のコンテンツに互換性を持たせるには、[この節](#editing-existing-contents-with-the-email-designer)を参照してください。
+   >[電子メール Designer](../../designing/using/designing-content-in-adobe-campaign.md)は、特定のタグ付けを使用しています。 Campaignにアップロードされる標準のHTML コンテンツは、電子メールDesignerから完全に互換性があり、編集可能なタグ付けとして期待されるタグと一致する必要があります。 一致しない場合、コンテンツは[互換モード &#x200B;](#compatibility-mode)でアップロードされます。 既存のコンテンツに互換性を持たせるには、[この節](#editing-existing-contents-with-the-email-designer)を参照してください。
 
 **関連トピック：**
 
@@ -63,9 +68,9 @@ Adobe Campaignには、定義済みの一連のコンテンツが用意されて
 
 [電子メール Designer](../../designing/using/designing-content-in-adobe-campaign.md)の編集機能を最大限に活用するには、アップロードしたHTMLに、WYSIWYG エディターに準拠する特定のタグが含まれている必要があります。
 
-HTMLの全体または一部にこのタグ付けがない場合、コンテンツは&#39;[互換モード ](#compatibility-mode)&#39;で読み込まれます。
+HTMLの全体または一部にこのタグ付けがない場合、コンテンツは&#39;[互換モード &#x200B;](#compatibility-mode)&#39;で読み込まれます。
 
-電子メール Designer内で既存の外部コンテンツを完全に編集可能にするには、[既存のコンテンツを使用した電子メールのデザイン ](../../designing/using/using-existing-content.md) セクションを参照してください。
+電子メール Designer内で既存の外部コンテンツを完全に編集可能にするには、[既存のコンテンツを使用した電子メールのデザイン &#x200B;](../../designing/using/using-existing-content.md) セクションを参照してください。
 
 ## 既存のメールコンテンツのインポート {#importing}
 
