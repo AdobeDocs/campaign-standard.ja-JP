@@ -9,16 +9,11 @@ role: User
 level: Beginner
 exl-id: 47f53290-2190-4181-bcd5-e60287189c41
 TQID: https://experienceleague.adobe.com/0eUMMX7vLCR8uHV45WX3u-XfExReU0HLhunWZ1ho-X0
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: b631758a-142d-425f-b9aa-f756d85cb979
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b631758a-142d-425f-b9aa-f756d85cb979
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 942
@@ -32,18 +27,18 @@ ht-degree: 5%
 
 電子メール [を電子メール Designer](#without-existing-content)で新たに作成できます。
 
-1. 構造コンポーネントとコンテンツコンポーネントを簡単に追加し、コンテンツをパーソナライズして配信をすばやく送信することで、**空白のキャンバス**&#x200B;からメールを作成できます。 また、スタイル要素を包括的に管理することもできます。 詳しくは、[すぐに使い始める](#from-scratch-email)または[完全なドキュメント &#x200B;](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)を参照してください。
+1. 構造コンポーネントとコンテンツコンポーネントを簡単に追加し、コンテンツをパーソナライズして配信をすばやく送信することで、**空白のキャンバス**&#x200B;からメールを作成できます。 また、スタイル要素を包括的に管理することもできます。 詳しくは、[すぐに使い始める](#from-scratch-email)または[完全なドキュメント ](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)を参照してください。
 
 1. テンプレートを選択し、ここから新しいメールコンテンツを作成すると、すぐに使えるテンプレート **からメールを**&#x200B;作成できます。 [詳細情報](#building-content-from-an-out-of-the-box-template)
 
-既存のコンテンツ [&#128279;](#with-existing-content)を含むメール を作成することもできます。
+既存のコンテンツ ](#with-existing-content)を含むメール [を作成することもできます。
 
 1. （外部または従来のエディターで作成された）既存のHTML コンテンツ **を**&#x200B;変換できます。 [詳細情報](#converting-an-html-content)
 1. 既存のHTML コンテンツを&#x200B;**読み込むことができます**&#x200B;すぐに互換モードで。 [詳細情報](#compatibility-mode)
 
 | コンテンツなし | コンテンツで |
 |---|---|
-| [&#x200B; ゼロからメールを作成](#from-scratch-email) | [既存のHTML コンテンツを変換しています](#converting-an-html-content) |
+| [ ゼロからメールを作成](#from-scratch-email) | [既存のHTML コンテンツを変換しています](#converting-an-html-content) |
 | [すぐに使えるテンプレートからコンテンツを作成する](#building-content-from-an-out-of-the-box-template) | [既存のHTMLの読み込み](#compatibility-mode) |
 
 ## エディターでのメールのデザイン {#without-existing-content}
@@ -81,7 +76,7 @@ ht-degree: 5%
 
 ### コンテンツコンポーネントの追加 {#add-content-components}
 
-画像、テキスト、ボタンなど、複数のコンテンツコンポーネントをメールに追加できます。 詳しくは、[&#x200B; コンテンツコンポーネント &#x200B;](../../designing/using/designing-from-scratch.md#about-content-components)を参照してください。
+画像、テキスト、ボタンなど、複数のコンテンツコンポーネントをメールに追加できます。 詳しくは、[ コンテンツコンポーネント ](../../designing/using/designing-from-scratch.md#about-content-components)を参照してください。
 
 * **画像**
 
@@ -109,7 +104,7 @@ ht-degree: 5%
 
   ![](assets/html-component-source-code.png)
 
-  HTMLに精通している場合は、**[!UICONTROL Html]** コンテンツコンポーネントを使用して、元のフッターからHTML コードをコピー&amp;ペーストできます。 詳しくは、[&#x200B; コンテンツコンポーネントについて](../../designing/using/designing-from-scratch.md#about-content-components)を参照してください。
+  HTMLに精通している場合は、**[!UICONTROL Html]** コンテンツコンポーネントを使用して、元のフッターからHTML コードをコピー&amp;ペーストできます。 詳しくは、[ コンテンツコンポーネントについて](../../designing/using/designing-from-scratch.md#about-content-components)を参照してください。
 
   ![](assets/des_loading_compatible_fragment_9.png)
 
@@ -135,7 +130,7 @@ ht-degree: 5%
 1. ホームアイコンをクリックして、**[!UICONTROL Email Designer]** ホームページにアクセスします。
 1. 「**[!UICONTROL Templates]**」タブをクリックします。
 1. HTMLテンプレート：
-異なるテンプレートは、いくつかの種類の要素の様々な組み合わせを示します。 例えば、「ぼかし」テンプレートには余白があり、「アストロ」テンプレートには余白がありません。 詳しくは、[&#x200B; コンテンツテンプレート &#x200B;](../../designing/using/using-reusable-content.md#content-templates)を参照してください。
+異なるテンプレートは、いくつかの種類の要素の様々な組み合わせを示します。 例えば、「ぼかし」テンプレートには余白があり、「アストロ」テンプレートには余白がありません。 詳しくは、[ コンテンツテンプレート ](../../designing/using/using-reusable-content.md#content-templates)を参照してください。
 1. 電子メールDesignerのホームページ（ホームアイコンからアクセス可能）の「**[!UICONTROL Properties]**」タブに移動し、「**[!UICONTROL Subject]**」セクションに入力します。
 1. これらの要素を組み合わせることで、さまざまなメールのバリエーションを作成できます。 例えば、構造コンポーネントを選択し、コンテキストツールバーから「**[!UICONTROL Duplicate]**」をクリックすることで、メールセクションを複製できます。
 1. 左側の青い矢印を使用してエレメントを移動し、構造コンポーネントを他のコンポーネントの下または上にドラッグできます。 詳しくは、[メール構造の編集](../../designing/using/designing-from-scratch.md#defining-the-email-structure)を参照してください。

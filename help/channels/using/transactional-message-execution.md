@@ -10,12 +10,9 @@ role: User
 level: Intermediate
 exl-id: 4cea7207-469c-46c5-9921-ae2f8f12d141
 TQID: https://experienceleague.adobe.com/D4-ExbGPm1p4iWBL1msW5P3-K2xeE6Gg6byZDl6WqPI
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 744
@@ -74,7 +71,7 @@ ht-degree: 53%
 
 実行配信を停止することはできません。 ただし、現在の実行配信が失敗した場合、新しいイベントを受け取るとすぐに新しいイベントが作成され、すべての新しいイベントがこの新しい実行配信で処理されます。 失敗した実行配信で新しいイベントが処理されることはありません。
 
-再試行プロセスの一環として、既に実行配信に割り当てられている一部のイベントが延期され、その実行配信が失敗した場合、再試行システムは延期されたイベントを新しい実行配信に割り当てません。つまり、これらのイベントは失われます。 [配信ログ &#x200B;](#monitoring-transactional-message-delivery)を確認して、影響を受けた可能性のある受信者を確認します。
+再試行プロセスの一環として、既に実行配信に割り当てられている一部のイベントが延期され、その実行配信が失敗した場合、再試行システムは延期されたイベントを新しい実行配信に割り当てません。つまり、これらのイベントは失われます。 [配信ログ ](#monitoring-transactional-message-delivery)を確認して、影響を受けた可能性のある受信者を確認します。
 
 ## トランザクションメッセージの監視 {#monitoring-transactional-message-delivery}
 

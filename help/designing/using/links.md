@@ -9,15 +9,10 @@ role: User
 level: Intermediate
 exl-id: d1714101-bad0-40c1-8d60-90469d033197
 TQID: https://experienceleague.adobe.com/5Cuvn5C61-SD6tCmXoG8NSgrarJe4ALXFknzTJBCcys
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 594
@@ -45,7 +40,7 @@ ht-degree: 13%
 
    * **外部リンク**：外部URLへのリンクを挿入します。
 
-     URLにパーソナライゼーションを定義できます。 [URLのパーソナライズ &#x200B;](personalization.md#personalizing-urls)を参照してください。
+     URLにパーソナライゼーションを定義できます。 [URLのパーソナライズ ](personalization.md#personalizing-urls)を参照してください。
 
    * **ランディングページ**: Adobe Campaign ランディングページへのアクセス権を付与します。
    * **購読リンク**:Adobe Campaign サービスを購読するためのリンクを挿入します。
@@ -69,7 +64,7 @@ ht-degree: 13%
 
 ![](assets/des_link_edit.png)
 
-[電子メール Designer](../../designing/using/designing-content-in-adobe-campaign.md)を使用して電子メールを編集する場合、電子メールに含まれているすべてのURLを一覧表示したテーブルから、作成したリンクに簡単にアクセスして変更できます。 このリストを使用すると、一元的に表示し、メールコンテンツ内の各URLを見つけることができます。 アクセスするには、[&#x200B; トラッキング対象URLについて](#about-tracked-urls)を参照してください。
+[電子メール Designer](../../designing/using/designing-content-in-adobe-campaign.md)を使用して電子メールを編集する場合、電子メールに含まれているすべてのURLを一覧表示したテーブルから、作成したリンクに簡単にアクセスして変更できます。 このリストを使用すると、一元的に表示し、メールコンテンツ内の各URLを見つけることができます。 アクセスするには、[ トラッキング対象URLについて](#about-tracked-urls)を参照してください。
 
 ![](assets/des_link_list.png)
 
@@ -114,7 +109,7 @@ Adobe Campaignを使用すると、受信者がメールに含まれるURLをク
 >
 >Adobe Campaignでは、デフォルトで、**ミラーページ URL**&#x200B;と&#x200B;**購読解除** リンクを除くすべてのコンテンツ URLが追跡されます。
 
-メッセージで使用されているURLに応じて、**[!UICONTROL Category]** フィールドを編集することで、URLを再グループ化できます。 これらのカテゴリは、例えば[URLやクリックストリーム &#x200B;](../../reporting/using/urls-and-click-streams.md)のように、レポートに表示できます。
+メッセージで使用されているURLに応じて、**[!UICONTROL Category]** フィールドを編集することで、URLを再グループ化できます。 これらのカテゴリは、例えば[URLやクリックストリーム ](../../reporting/using/urls-and-click-streams.md)のように、レポートに表示できます。
 
 ![](assets/des_link_tracking_category.png)
 
