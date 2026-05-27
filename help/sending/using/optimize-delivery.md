@@ -62,7 +62,7 @@ ht-degree: 81%
 
    * メールの配信品質を確認するときは、データ品質、メッセージとコンテンツ、送信インフラストラクチャ、レピュテーションという 4 つの主要カテゴリを中心に調べます。 このトピックについて詳しくは、[この節](../../sending/using/about-deliverability.md)を参照してください。
 
-* 新しいプラットフォームを開始するときは、[このページ &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html#transition-process)で詳細に説明されている推奨事項を適用してください。
+* 新しいプラットフォームを開始するときは、[このページ &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/switching-email-platforms.html?lang=ja#transition-process)で詳細に説明されている推奨事項を適用してください。
 
 * サポートが必要な場合は、アドビ担当者にお問い合わせください。
 
