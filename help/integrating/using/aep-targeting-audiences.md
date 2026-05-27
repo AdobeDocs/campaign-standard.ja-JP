@@ -12,7 +12,7 @@ exl-id: 11e2cd7e-99b7-45cc-a0c2-41049128fe49
 hide: true
 source-git-commit: 7ad12890a24b2c0b8730d09b7d161bff511f4c69
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '406'
 ht-degree: 3%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 3%
 
 1. ワークフローに&#x200B;**[!UICONTROL Read audience]** アクティビティを追加してから開きます。
 
-1. **[!UICONTROL Adobe Experience Platform]**&#x200B;の下の&#x200B;**[!UICONTROL Type of audience]** オプションを選択し、目的のオーディエンスを追加します。
+1. **[!UICONTROL Type of audience]**&#x200B;の下の&#x200B;**[!UICONTROL Adobe Experience Platform]** オプションを選択し、目的のオーディエンスを追加します。
 
    ![](assets/aep_wkf_readaudience.png)
 
