@@ -53,7 +53,7 @@ ht-degree: 10%
     <li><p>プライバシーリクエストを作成する際に、プライバシーコアサービスに規制タイプ（GDPRまたはCCPA）が追加されました。 すべてのアクセス要求と削除要求に対して、このメソッドを使用する必要があります。 アクセス要求および削除要求に対する Campaign API およびインターフェイスの使用は廃止されています。  <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=ja">廃止および削除された機能の記事</a>を参照してください。</p></li>
     <li>プロファイルリソースに「<strong>CCPA オプトアウト </strong>」フィールドが追加され、Adobe Campaign ユーザーは、消費者が個人情報の販売をオプトアウトしたかどうかを追跡できるようになりました。 <a href="https://helpx.adobe.com/jp/campaign/kb/acs-privacy.html#ccpa">詳細情報</a>。</li>
   </ul>
-    <p><a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">ハウツービデオ</a>を参照してください。</p>
+    <p><a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html?lang=ja">ハウツービデオ</a>を参照してください。</p>
 </td> 
   </tr> 
  </tbody> 
@@ -174,11 +174,11 @@ ht-degree: 10%
  <tbody> 
   <tr> 
    <td> 外部API アクティビティ （パブリック Beta） <br /> </td> 
-   <td> <p>より詳細なパーソナライゼーションを実現するには、外部API アクティビティを使用して、外部システムからのデータをREST API呼び出しを介してワークフローに取り込みます。 REST エンドポイントは、顧客管理システム、Adobe I/O RuntimeまたはAdobe Experience Cloud REST エンドポイント（Data Platform、Target、Analytics、Campaignなど）にすることができます。</p><p>この機能は現在パブリックベータ版です。</p><p>詳しくは、<a href="../../automating/using/external-api.md">詳細ドキュメント</a>および<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">ハウツービデオ</a>を参照してください。</p></td> 
+   <td> <p>より詳細なパーソナライゼーションを実現するには、外部API アクティビティを使用して、外部システムからのデータをREST API呼び出しを介してワークフローに取り込みます。 REST エンドポイントは、顧客管理システム、Adobe I/O RuntimeまたはAdobe Experience Cloud REST エンドポイント（Data Platform、Target、Analytics、Campaignなど）にすることができます。</p><p>この機能は現在パブリックベータ版です。</p><p>詳しくは、<a href="../../automating/using/external-api.md">詳細ドキュメント</a>および<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html?lang=ja">ハウツービデオ</a>を参照してください。</p></td> 
   </tr> 
   <tr> 
    <td> ワークフローセグメント <br />に関するレポート </td> 
-   <td> <p>この機能により、マーケターは、セグメントコードごとに配信パフォーマンスを分類できます。 ワークフローを作成し、セグメント化アクティビティを使用して配信母集団にセグメントを割り当てると、これらのセグメントは同じ配信に入れることができるようになりました。 これにより、1つの配信内の複数のセグメントに基づく開封数/クリック数の統計を表示できます。</p><p>詳しくは、<a href="../../reporting/using/creating-a-report-workflow-segment.md">詳細ドキュメント</a>および<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/reporting/report-on-workflow-segments.html">ハウツービデオ</a>を参照してください。</p></td>
+   <td> <p>この機能により、マーケターは、セグメントコードごとに配信パフォーマンスを分類できます。 ワークフローを作成し、セグメント化アクティビティを使用して配信母集団にセグメントを割り当てると、これらのセグメントは同じ配信に入れることができるようになりました。 これにより、1つの配信内の複数のセグメントに基づく開封数/クリック数の統計を表示できます。</p><p>詳しくは、<a href="../../reporting/using/creating-a-report-workflow-segment.md">詳細ドキュメント</a>および<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/reporting/report-on-workflow-segments.html?lang=ja">ハウツービデオ</a>を参照してください。</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -327,7 +327,7 @@ ht-degree: 10%
   </tr> 
   <tr> 
    <td> ワークフローの機能強化 – ペイロードを外部シグナル アクティビティに追加します<br /> </td> 
-   <td> <p>別のワークフローまたはREST API呼び出しから定義された条件が正常に満たされたときに、ペイロードを使用してワークフローを開始し、外部システムと統合します。 これには、この機能に対してテストを実行できる新しい<strong> テスト </strong> アクティビティも含まれます。</p><p>詳しくは、<a href="../../automating/using/calling-a-workflow-with-external-parameters.md">詳細ドキュメント</a>および<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/execution-activities/external-signal-activity.html">ハウツービデオ</a>を参照してください。</p></td> 
+   <td> <p>別のワークフローまたはREST API呼び出しから定義された条件が正常に満たされたときに、ペイロードを使用してワークフローを開始し、外部システムと統合します。 これには、この機能に対してテストを実行できる新しい<strong> テスト </strong> アクティビティも含まれます。</p><p>詳しくは、<a href="../../automating/using/calling-a-workflow-with-external-parameters.md">詳細ドキュメント</a>および<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/execution-activities/external-signal-activity.html?lang=ja">ハウツービデオ</a>を参照してください。</p></td> 
   </tr> 
   <tr> 
    <td> ランディングページの機能強化 – Google reCAPTCHA<br /> </td> 
@@ -445,7 +445,7 @@ ht-degree: 10%
   </tr> 
   <tr> 
    <td> モバイル アプリ内メッセージ <br /> </td> 
-   <td> <p>このリリースには、Campaignのアプリ内チャネルのGA バージョンが含まれています。 機能的な観点から見ると、Beta リリースに最も注目すべき追加機能は、アプリ内チャネルとモバイルSDKとMCIAS （SDKにアプリ内ルールを提供するMarketing Cloud アプリ内メッセージングサービス）間の安全なハンドシェイクのための動的レポートです。 セキュアハンドシェイクは、ユーザーのPII データが悪意のある手に渡らないようにするだけでなく、ユーザーがログアウトするたびにメッセージキャッシュを消去することで、共有デバイス上でユーザーのプライバシーを維持できるようにします。</p><p>詳しくは、<a href="../../channels/using/about-in-app-messaging.md">詳細ドキュメント </a>および専用の<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/communication-channels/mobile/in-app/in-app-message-overview.html"> アプリ内チュートリアル </a>を参照してください。</p> </td> 
+   <td> <p>このリリースには、Campaignのアプリ内チャネルのGA バージョンが含まれています。 機能的な観点から見ると、Beta リリースに最も注目すべき追加機能は、アプリ内チャネルとモバイルSDKとMCIAS （SDKにアプリ内ルールを提供するMarketing Cloud アプリ内メッセージングサービス）間の安全なハンドシェイクのための動的レポートです。 セキュアハンドシェイクは、ユーザーのPII データが悪意のある手に渡らないようにするだけでなく、ユーザーがログアウトするたびにメッセージキャッシュを消去することで、共有デバイス上でユーザーのプライバシーを維持できるようにします。</p><p>詳しくは、<a href="../../channels/using/about-in-app-messaging.md">詳細ドキュメント </a>および専用の<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/communication-channels/mobile/in-app/in-app-message-overview.html?lang=ja"> アプリ内チュートリアル </a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td> ワークフローの機能強化<br /> </td> 
@@ -550,11 +550,11 @@ ht-degree: 10%
      <li> 準備時にURLからコンテンツを自動的に<a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">取得する機能</a> </li> 
      <li> 完全に準拠した<a href="../../designing/using/using-reusable-content.md#content-templates">すぐに使えるコンテンツテンプレート </a>。 </li> 
     </ul> 
-    <p>詳しくは、<a href="../../designing/using/designing-content-in-adobe-campaign.md">詳細ドキュメント</a>および<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html">ハウツービデオ</a>を参照してください。 機能強化および修正点を次に示します。</p><p>これにより、従来のメールコンテンツエディターは廃止されました。 詳しくは、<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=ja">このページ</a>を参照してください。</p> </td> 
+    <p>詳しくは、<a href="../../designing/using/designing-content-in-adobe-campaign.md">詳細ドキュメント</a>および<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html?lang=ja">ハウツービデオ</a>を参照してください。 機能強化および修正点を次に示します。</p><p>これにより、従来のメールコンテンツエディターは廃止されました。 詳しくは、<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=ja">このページ</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td> トランザクションメールでの製品リスト <br /> </td> 
-   <td> <p>トランザクションメールメッセージで1つ以上の商品コレクションを参照できるようになりました。 例えば、画像、価格、各商品へのリンクが記載されたカート放棄メールを、ユーザーのカートに入っていたすべての商品をリストして自動的に送信することができます。</p><p>詳しくは、<a href="../../designing/using/using-product-listings.md">詳細ドキュメント</a>および<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/product-listings-in-transactional-email.html">ハウツービデオ</a>を参照してください。</p> </td> 
+   <td> <p>トランザクションメールメッセージで1つ以上の商品コレクションを参照できるようになりました。 例えば、画像、価格、各商品へのリンクが記載されたカート放棄メールを、ユーザーのカートに入っていたすべての商品をリストして自動的に送信することができます。</p><p>詳しくは、<a href="../../designing/using/using-product-listings.md">詳細ドキュメント</a>および<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/product-listings-in-transactional-email.html?lang=ja">ハウツービデオ</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td> 電子メール Designer<br />のモバイル ビュー </td> 
