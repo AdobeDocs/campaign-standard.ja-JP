@@ -10,12 +10,9 @@ role: Developer
 level: Intermediate
 exl-id: b6a43d51-32d4-4806-b4e4-33236f1e27f5
 TQID: https://experienceleague.adobe.com/B-Za0p8ZN6AGt1reyaUID4B6IIzVHgNvOBil2XKpawA
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 773
@@ -68,7 +65,7 @@ ht-degree: 46%
 
 1. 通知タイプを選択します。 これらのタイプは、**[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]** メニューで定義されたプッシュ通知テンプレートから取得されます。
 1. プッシュ通知の一般的なプロパティを入力します。 既存のキャンペーンに SMS を添付することもできます。 ワークフローの配信アクティビティのラベルが、プッシュ通知ラベルで更新されます。
-1. プッシュ通知のコンテンツを定義します。 [&#x200B; プッシュ通知の作成](../../channels/using/preparing-and-sending-a-push-notification.md)を参照してください
+1. プッシュ通知のコンテンツを定義します。 [ プッシュ通知の作成](../../channels/using/preparing-and-sending-a-push-notification.md)を参照してください
 1. デフォルトでは、「**[!UICONTROL Push notification]**」アクティビティにアウトバウンドトランジションは含まれていません。 アウトバウンドトランジションを「**[!UICONTROL Push Notification]**」アクティビティに追加する場合は、アクティビティの詳細設定オプション（アクティビティのクイックアクションにある ![](assets/dlv_activity_params-24px.png) ボタンで開く）の「**[!UICONTROL General]**」タブに移動し、次のいずれかのオプションをオンにします。
 
    * **[!UICONTROL Add outbound transition without the population]**：インバウンドトランジションとまったく同じ母集団を含んだアウトバウンドトランジションを生成できます。

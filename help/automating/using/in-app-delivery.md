@@ -10,16 +10,11 @@ role: Developer
 level: Intermediate
 exl-id: 8d5a35c4-e22b-498e-b71c-c5922cf8c2fd
 TQID: https://experienceleague.adobe.com/fk0D9lHTMGS6deq5PqwzmrZeLexPDqSiVcaeJ4YJrq8
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a658c786-869b-4194-a780-2594d663adda
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a658c786-869b-4194-a780-2594d663adda
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
 workflow-type: tm+mt
 source-wordcount: 709
@@ -33,7 +28,7 @@ ht-degree: 42%
 
 ![](assets/wkf_in_app_1.png)
 
-**アプリ内配信** アクティビティを使用すると、ワークフロー内でのアプリ内メッセージの送信を設定できます。 アプリ内メッセージを使用すると、ユーザーがアプリケーション内でアクティブな場合にメッセージを表示できます。 アプリ内配信について詳しくは、この[&#x200B; セクション &#x200B;](../../channels/using/about-in-app-messaging.md)を参照してください。
+**アプリ内配信** アクティビティを使用すると、ワークフロー内でのアプリ内メッセージの送信を設定できます。 アプリ内メッセージを使用すると、ユーザーがアプリケーション内でアクティブな場合にメッセージを表示できます。 アプリ内配信について詳しくは、この[ セクション ](../../channels/using/about-in-app-messaging.md)を参照してください。
 
 ## Context of use {#context-of-use}
 
@@ -70,7 +65,7 @@ ht-degree: 42%
 
 1. アプリ内メッセージのプロパティを入力し、**[!UICONTROL Associate a Mobile App to a delivery]** フィールドでモバイルアプリを選択します。
 1. 「**[!UICONTROL Triggers]**」タブで、メッセージのトリガーとして使用するイベントをドラッグ＆ドロップします。 イベントには、次の3つのカテゴリがあります。
-1. アプリ内コンテンツを定義。 [&#x200B; アプリ内カスタマイズ &#x200B;](../../channels/using/customizing-an-in-app-message.md)に関する節を参照してください。
+1. アプリ内コンテンツを定義。 [ アプリ内カスタマイズ ](../../channels/using/customizing-an-in-app-message.md)に関する節を参照してください。
 1. デフォルトでは、「**[!UICONTROL In-App delivery]**」アクティビティにアウトバウンドトランジションは含まれていません。 アウトバウンドトランジションを「**[!UICONTROL In-App delivery]**」アクティビティに追加する場合は、アクティビティの詳細設定オプション（アクティビティのクイックアクションにある ![](assets/dlv_activity_params-24px.png) ボタンで開く）の「**[!UICONTROL General]**」タブに移動し、次のいずれかのオプションをオンにします。
 
    * **[!UICONTROL Add outbound transition without the population]**：インバウンドトランジションとまったく同じ母集団を含んだアウトバウンドトランジションを生成できます。
