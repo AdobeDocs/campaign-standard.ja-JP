@@ -17,10 +17,10 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+source-git-commit: 2fe8bfb2bc8d0266bea52504feffb7b11f481b91
 workflow-type: tm+mt
-source-wordcount: 357
-ht-degree: 35%
+source-wordcount: 346
+ht-degree: 32%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 35%
 
 ### 実行日と同じ日に作成されたプロファイルの取得 {#retrieving-profiles-created-on-the-same-day}
 
-1. **[!UICONTROL Profile]**&#x200B;で、**[!UICONTROL Created]** フィールドをドラッグ&amp;ドロップします。 **[!UICONTROL Advanced Mode]**&#x200B;をクリックします。
+1. **[!UICONTROL Profile]**&#x200B;で、**[!UICONTROL Created]** フィールドをドラッグ&amp;ドロップします。**[!UICONTROL Advanced Mode]**&#x200B;をクリックします。
    ![](assets/advanced_mode.png)
 1. **[!UICONTROL list of functions]**&#x200B;で、**[!UICONTROL Date]** ノードから&#x200B;**[!UICONTROL Day]**&#x200B;をダブルクリックします。
 1. 次に、フィールド **[!UICONTROL Created]**&#x200B;を引数として挿入します。
@@ -67,7 +67,7 @@ ht-degree: 35%
 
 その結果、次のことが可能になります。
 
-```Day(@created) = Day(GetDate())```
+`Day(@created) = Day(GetDate())`
 
 ![](assets/day_creation_query.png)
 
@@ -84,11 +84,11 @@ ht-degree: 35%
 
 その結果、次のことが可能になります。
 
-``` Month(@created) = Month(GetDate()) ```
+`Month(@created) = Month(GetDate())`
 
 最後のクエリは次のように表示されます。
 
-```Day(@created) = Day(GetDate()) AND Month(@created) = Month(GetDate())```
+`Day(@created) = Day(GetDate()) AND Month(@created) = Month(GetDate())`
 
 ![](assets/expression_editor_1.png)
 
@@ -101,8 +101,8 @@ ht-degree: 35%
 1. メールのプロパティを入力し、「**[!UICONTROL Next]**」をクリックします。
 1. メールのレイアウトを作成するには、「**[!UICONTROL Email Designer]**」をクリックします。
 1. 要素を挿入するか、既存のテンプレートを選択します。
-1. フィールドとリンクを使用してメールをパーソナライズします。
-詳しくは、[メールのデザイン](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)を参照してください。
+1. フィールドとリンクを使用してメールをパーソナライズ。
+詳しくは、[電子メールのデザイン &#x200B;](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)を参照してください。
 1. 「**[!UICONTROL Preview]**」をクリックして、レイアウトを確認します。
 1. 「**[!UICONTROL Save]**」をクリックします。
 
