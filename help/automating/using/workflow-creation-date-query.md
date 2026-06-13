@@ -11,9 +11,12 @@ role: Developer
 level: Intermediate
 exl-id: f611e023-f74c-476e-83b9-aff451f68c81
 TQID: https://experienceleague.adobe.com/qkMV-OW4cYN-u6R3PYn9kdMt7DgIgxA8WTsDhvLIzJw
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 2fe8bfb2bc8d0266bea52504feffb7b11f481b91
 workflow-type: tm+mt
 source-wordcount: 346
@@ -31,7 +34,7 @@ ht-degree: 32%
 
 ## スケジューラーアクティビティの作成 {#creating-a-scheduler-activity}
 
-1. **[!UICONTROL Activities]** > **[!UICONTROL Execution]**&#x200B;で、[ スケジューラー](../../automating/using/scheduler.md) アクティビティをドラッグ&amp;ドロップします。
+1. **[!UICONTROL Activities]** > **[!UICONTROL Execution]**&#x200B;で、[&#x200B; スケジューラー](../../automating/using/scheduler.md) アクティビティをドラッグ&amp;ドロップします。
 1. アクティビティをダブルクリックします。
 1. 配信の実行を設定します。
 1. 「**[!UICONTROL Execution frequency]**」で、「**[!UICONTROL Daily]**」を選択します。
@@ -47,12 +50,12 @@ ht-degree: 32%
 
 ## クエリアクティビティの作成 {#creating-a-query-activity}
 
-1. 受信者を選択するには、[ クエリ ](../../automating/using/query.md) アクティビティをドラッグ&amp;ドロップし、ダブルクリックします。
+1. 受信者を選択するには、[&#x200B; クエリ &#x200B;](../../automating/using/query.md) アクティビティをドラッグ&amp;ドロップし、ダブルクリックします。
 1. **[!UICONTROL Profiles]**&#x200B;を追加し、値&#x200B;**[!UICONTROL no]**&#x200B;を持つ&#x200B;**[!UICONTROL no longer contact by email]**&#x200B;を選択します。
 
 ### 実行日と同じ日に作成されたプロファイルの取得 {#retrieving-profiles-created-on-the-same-day}
 
-1. **[!UICONTROL Profile]**&#x200B;で、**[!UICONTROL Created]** フィールドをドラッグ&amp;ドロップします。**[!UICONTROL Advanced Mode]**をクリックします。
+1. **[!UICONTROL Profile]**&#x200B;で、**[!UICONTROL Created]** フィールドをドラッグ&amp;ドロップします。**[!UICONTROL Advanced Mode]**&#x200B;をクリックします。
    ![](assets/advanced_mode.png)
 1. **[!UICONTROL list of functions]**&#x200B;で、**[!UICONTROL Date]** ノードから&#x200B;**[!UICONTROL Day]**&#x200B;をダブルクリックします。
 1. 次に、フィールド **[!UICONTROL Created]**&#x200B;を引数として挿入します。
@@ -91,7 +94,7 @@ ht-degree: 32%
 
 ## メール配信の作成{#creating-an-email-delivery}
 
-1. [ メール配信](../../automating/using/email-delivery.md) アクティビティをドラッグ&amp;ドロップします。
+1. [&#x200B; メール配信](../../automating/using/email-delivery.md) アクティビティをドラッグ&amp;ドロップします。
 1. アクティビティをクリックし、![](assets/edit_darkgrey-24px.png) を選択して編集します。
 1. 「**[!UICONTROL Recurring email]**」を選択し、「**[!UICONTROL Next]**」をクリックします。
 1. メールテンプレートを選択し、「**[!UICONTROL Next]**」をクリックします。
@@ -99,7 +102,7 @@ ht-degree: 32%
 1. メールのレイアウトを作成するには、「**[!UICONTROL Email Designer]**」をクリックします。
 1. 要素を挿入するか、既存のテンプレートを選択します。
 1. フィールドとリンクを使用してメールをパーソナライズ。
-詳しくは、[電子メールのデザイン ](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)を参照してください。
+詳しくは、[電子メールのデザイン &#x200B;](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)を参照してください。
 1. 「**[!UICONTROL Preview]**」をクリックして、レイアウトを確認します。
 1. 「**[!UICONTROL Save]**」をクリックします。
 
