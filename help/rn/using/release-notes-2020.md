@@ -9,40 +9,16 @@ role: User
 level: Beginner
 exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
 TQID: https://experienceleague.adobe.com/qG7ToJy0sHbYmOX6kOYcRXzxyvCJER3G3TODUx1b3Ag
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: a658c786-869b-4194-a780-2594d663adda
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
-subfeature_v2:
-  - id: a2002dba-5e37-4dff-8e04-1cc3ec73558c
-  - id: af6750fd-3c1b-4ad2-9fe3-99e81510998d
-  - id: d1110311-2ca4-442b-be37-088a6db845ee
-  - id: eb007b6d-6e57-46ab-9485-3f24d6102304
-  - id: f5293531-9312-4099-bfa3-9e67df6a8750
-  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: a658c786-869b-4194-a780-2594d663addaid: b12f6872-9271-4369-85e5-86969a0b99a2id: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2: id: a2002dba-5e37-4dff-8e04-1cc3ec73558cid: af6750fd-3c1b-4ad2-9fe3-99e81510998did: d1110311-2ca4-442b-be37-088a6db845eeid: eb007b6d-6e57-46ab-9485-3f24d6102304id: f5293531-9312-4099-bfa3-9e67df6a8750id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eb30f47f-d87a-400f-8f78-63ce7979ff56id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
 workflow-type: tm+mt
-source-wordcount: 5439
-ht-degree: 95%
+source-wordcount: 5380
+ht-degree: 94%
 
 ---
 
@@ -64,9 +40,9 @@ ht-degree: 95%
 </thead> 
 <tbody> 
 <tr> 
-  <td> <p><strong>コントロール母集団</strong>を使用して、キャンペーンのオーディエンスの一部を除外することで、キャンペーンの影響を測定できるようになりました。 その後、メッセージを受け取ったターゲット母集団の行動と、ターゲット設定されていない連絡先の行動を比較できます。 送信ログに基づいて、今後のキャンペーンでコントロール母集団をターゲットすることもできます。
+  <td> <p><strong> コントロールグループ </strong>を使用して、オーディエンスの一部を除外することで、キャンペーンの影響を測定できるようになりました。その後、メッセージを受信したターゲット母集団の行動と、ターゲットされなかった連絡先の行動を比較できます。送信ログに基づいて、今後の施策でコントロールグループをターゲットにすることもできます。
 </p>
-<p>詳しくは、<a href="../../sending/using/control-group.md">詳細ドキュメント</a>および<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html?lang=ja">ハウツービデオ</a>を参照してください。
+<p>詳しくは、<a href="../../sending/using/control-group.md">詳細ドキュメント</a>および<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html">ハウツービデオ</a>を参照してください。
 </p>
 </td> 
 </tr> 
@@ -81,7 +57,7 @@ ht-degree: 95%
 </thead> 
 <tbody> 
 <tr> 
-  <td> <p>Adobe Campaign で、<strong>外部 API</strong> ワークフローアクティビティでの認証に OAuth がサポートされるようになりました。 この新しい機能により、このアクティビティが OAuth のサポートを必要とするシステムと通信できるようになります。
+  <td> <p>Adobe Campaignは、<strong>外部API</strong> ワークフローアクティビティでの認証に対してOAuthをサポートするようになりました。この新しい機能により、このアクティビティでOAuth サポートを必要とするシステムと通信する機能が開きます。
 </p>
 <p>詳しくは、<a href="../../automating/using/external-api.md">詳細ドキュメント</a>を参照してください。
 </p>
@@ -102,8 +78,8 @@ ht-degree: 95%
   <p>ジャーニーは、AIを利用した高度なマシンラーニングにより、顧客一人ひとりのエンゲージメントの好みを予測し、カスタマージャーニーの設計と提供を最適化できるようにしています。</p>
   <P>ジャーニー AI は、次の 2 つの ML 機能で構成されています。</p>
 <ul> 
-     <li> <strong>予測エンゲージメントスコアリング</strong> - メッセージのターゲティングとパーソナライゼーションを強化し、コンバージョンとリテンションを向上させるために、顧客が望むエンゲージメントレベルをインテリジェントに識別します。 <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-engagement-scoring.html?lang=ja">ビデオガイド、チュートリアル</a>をご覧ください。</li> 
-     <li> <strong>予測送信時間の最適化</strong> - キャンペーン中に各顧客にメールを送信する最適な時間を予測して、エンゲージメント率を最大化し、メールキャンペーンの ROI を向上させます。 <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-send-time-optimization.html?lang=ja">ビデオガイド、チュートリアル</a>をご覧ください。</li>
+     <li> <strong>予測エンゲージメントスコアリング</strong> - メッセージのターゲティングとパーソナライゼーションを強化し、コンバージョンとリテンションを向上させるために、顧客が望むエンゲージメントレベルをインテリジェントに識別します。 <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-engagement-scoring.html">ビデオガイド、チュートリアル</a>をご覧ください。</li> 
+     <li> <strong>予測送信時間の最適化</strong> - キャンペーン中に各顧客にメールを送信する最適な時間を予測して、エンゲージメント率を最大化し、メールキャンペーンの ROI を向上させます。 <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-send-time-optimization.html">ビデオガイド、チュートリアル</a>をご覧ください。</li>
     </ul>
   <p>ジャーニー AI の概要について詳しくは、<a href="../../sending/using/predictive.md">詳細なドキュメント</a>を確認し、担当のアカウント担当者にお問い合わせください。 ジャーニー AI は、既存の Adobe Campaign のお客様には無償で提供されます。実装に要する時間は約 50 時間です。</p>
     </td> 
@@ -236,7 +212,7 @@ ht-degree: 95%
 <li>アクセス権と削除権：GDPR および CCPA 用に追加された機能を活用します。 <a href="https://helpx.adobe.com/content/help/jp/campaign/kb/acs-privacy.html#righttoaccess">詳細情報</a> </li>
 <li><p>プライバシーリクエストを作成する際に、PDPA 規制タイプが Privacy コアサービスに追加されました。 すべてのアクセス要求と削除要求に対して、このメソッドを使用する必要があります。 アクセス要求および削除要求に対する Campaign API およびインターフェイスの使用は廃止されています。  <a href="../../rn/using/deprecated-features.md">廃止および削除された機能の記事</a>を参照してください。</p></li>
 </ul>
-<p><a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html?lang=ja">ハウツービデオ</a>を参照してください。</p>
+<p><a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">ハウツービデオ</a>を参照してください。</p>
 </td> 
 </tr> 
 </tbody> 
@@ -257,7 +233,7 @@ ht-degree: 95%
 <li>オブジェクトに「data」という名前を付けたり、最上位レベルに配置したりする必要なく、JSON から配列オブジェクトを選択して使用する。</li>
 </ul>
 <p><strong>注意：</strong><strong>すべてのベータ版外部 API アクティビティを、ワークフロー内の GA 外部 API アクティビティで置き換える必要があります</strong>。  ベータ版の外部 API を使用するワークフローは、20.3 以降では動作しなくなります。</p>
-<p>詳しくは、<a href="../../automating/using/external-api.md">詳細ドキュメント</a>および<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html?lang=ja">ハウツービデオ</a>を参照してください。</p>
+<p>詳しくは、<a href="../../automating/using/external-api.md">詳細ドキュメント</a>および<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">ハウツービデオ</a>を参照してください。</p>
 </td> 
 </tr> 
 </tbody> 
@@ -350,7 +326,7 @@ ht-degree: 95%
  <tbody> 
   <tr> 
    <td> <p>テストプロファイルに加えて、実際のターゲットプロファイルを対象にメールをテストできるようになりました。 これにより、プロファイルが受け取るメッセージ（ワークフローからの追加データを含め、カスタムフィールド、動的情報、パーソナライズされた情報など）が正確に表示されます。 </p>
-    <p>詳しくは、<a href="../../sending/using/testing-messages-using-target.md">詳細ドキュメント</a>および<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html?lang=ja">チュートリアルビデオ</a>を参照してください。 </p>
+    <p>詳しくは、<a href="../../sending/using/testing-messages-using-target.md">詳細ドキュメント</a>および<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html">チュートリアルビデオ</a>を参照してください。 </p>
    </td> 
   </tr> 
  </tbody> 
@@ -515,3 +491,4 @@ ht-degree: 95%
 * アプリ内メッセージの送信時に送信ログ画面にアドレスが表示されない問題を修正しました。
 * SMS 送信ログが正しいバウンス数に更新されない問題を修正しました。 （CAMP-38395）
 * アプリケーション購読の POST 呼び出しでプッシュ通知トークンを更新できるループホールを修正しました。 （CAMP-39273）
+
