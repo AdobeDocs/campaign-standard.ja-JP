@@ -6,12 +6,33 @@ role: User
 level: Beginner
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
 TQID: https://experienceleague.adobe.com/BtRFMP6fh8X5Z6R1wGzc0Q07HCQlx-2-3evgAOnU3eA
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b12f6872-9271-4369-85e5-86969a0b99a2id: c309ee4e-82e4-4f7e-b608-ef345678c34eid: c5474392-5419-4296-9e41-f6f4ce4f6e9bid: d5ef99fa-df0c-4153-bf94-105ad0724167
-subfeature_v2: id: b1fd1501-3105-4d6b-b4d4-9af53126df75id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0id: e3988c18-3cfa-4f16-b812-ac2d2b1056faid: e5e477db-ebc7-4368-ab0f-4d8fc2aed405id: e739ee2b-6228-412e-878f-45de0791417did: eff19c99-440a-4318-b319-444edc4d8d8f
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2:
+  - id: b1fd1501-3105-4d6b-b4d4-9af53126df75
+  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+  - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
+  - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+  - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
+  - id: e739ee2b-6228-412e-878f-45de0791417d
+  - id: eff19c99-440a-4318-b319-444edc4d8d8f
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
 workflow-type: tm+mt
 source-wordcount: 5217
@@ -61,7 +82,7 @@ ht-degree: 9%
 
 * Creative Designer インターフェイスを使用してコンテンツブロックを選択すると、リストのすべてのコンテンツブロックが読み込まれ、表示されるようになりました。 （CAMP-27311）
 
-  詳しくは、[詳細ドキュメント ](../../designing/using/personalization.md#adding-a-content-block)を参照してください。
+  詳しくは、[詳細ドキュメント &#x200B;](../../designing/using/personalization.md#adding-a-content-block)を参照してください。
 
 **パッチ**
 
@@ -129,8 +150,8 @@ ht-degree: 9%
 **その他の変更**
 
 * タイムアウトエラーを回避するために、レポート共有のタイムアウト時間が1分から4分に増加しました。
-* メールの内容を編集すると、新しいCreative Designerがデフォルトで開きます。 必要に応じて、変更を保存した後も、いつでもデフォルトのコンテンツエディターに戻すことができます。 詳しくは、[詳細ドキュメント ](../../designing/using/designing-content-in-adobe-campaign.md)を参照してください。
-* Creative Designerでは、新しいコンテンツコンポーネントをメールに追加できるようになりました。カルーセルです。 詳しくは、[詳細ドキュメント ](../../designing/using/designing-from-scratch.md#about-content-components)を参照してください。
+* メールの内容を編集すると、新しいCreative Designerがデフォルトで開きます。 必要に応じて、変更を保存した後も、いつでもデフォルトのコンテンツエディターに戻すことができます。 詳しくは、[詳細ドキュメント &#x200B;](../../designing/using/designing-content-in-adobe-campaign.md)を参照してください。
+* Creative Designerでは、新しいコンテンツコンポーネントをメールに追加できるようになりました。カルーセルです。 詳しくは、[詳細ドキュメント &#x200B;](../../designing/using/designing-from-scratch.md#about-content-components)を参照してください。
 * トランザクションメッセージのホットクリックレポートで、「**プロファイルを変更**」ボタンをクリックすると、トランザクションメッセージ用に定義したイベントにリンクされたテストプロファイルのみが一覧表示されるようになりました。
 
 **パッチ**
@@ -153,7 +174,7 @@ ht-degree: 9%
 
 **改善点**
 
-* **[!UICONTROL History]** APIがAdobe.IOに追加されました。 プロファイルのマーケティング履歴に関連する情報（タッチポイント数、送信された配信、ミラーページのURLなど）にアクセスできます。詳しくは、[専用ユースケース ](../../api/using/interacting-with-marketing-history.md)を参照してください。
+* **[!UICONTROL History]** APIがAdobe.IOに追加されました。 プロファイルのマーケティング履歴に関連する情報（タッチポイント数、送信された配信、ミラーページのURLなど）にアクセスできます。詳しくは、[専用ユースケース &#x200B;](../../api/using/interacting-with-marketing-history.md)を参照してください。
 * データベース バックアップのパフォーマンスを向上させるために、**[!UICONTROL Database cleanup]**&#x200B;のテクニカル ワークフローが最適化されました。
 * Creative Designer メール版は、フランス語とドイツ語でも利用できるようになりました。
 
@@ -163,7 +184,7 @@ ht-degree: 9%
 * **配信品質の更新**&#x200B;すぐに使用できるテクニカルワークフローで、機能管理者が&#x200B;**ルールの更新** JavaScript アクティビティで無視する連続エラーの数を定義できるようになりました。 デフォルトでは、フィールド値は0に設定されています。つまり、すべてのエラーが無視されます。
 * 単位アクセス制限条件の管理時に生成されるSQLが最適化されました。
 * **[!UICONTROL Update]** アクティビティで、サブスクリプションに関連するデータを追加、更新または削除できるようになりました（nms:appSubscriptionRcp テーブル）。
-* パフォーマンスを最適化するために、**[!UICONTROL Update delivery execution]**&#x200B;のテクニカルワークフローが2つのワークフローに分割されました：- **[!UICONTROL Update delivery execution]**：配信のトラッキングを更新します。 デフォルトでは、10分ごとに開始されます。 **[!UICONTROL Update delivery indicators]**：配信のKPIを更新します。デフォルトでは、1時間ごとに開始されます。 技術的なワークフローについて詳しくは、この[ セクション ](../../administration/using/technical-workflows.md#list-of-technical-workflows)を参照してください。
+* パフォーマンスを最適化するために、**[!UICONTROL Update delivery execution]**&#x200B;のテクニカルワークフローが2つのワークフローに分割されました：- **[!UICONTROL Update delivery execution]**：配信のトラッキングを更新します。 デフォルトでは、10分ごとに開始されます。 **[!UICONTROL Update delivery indicators]**：配信のKPIを更新します。デフォルトでは、1時間ごとに開始されます。 技術的なワークフローについて詳しくは、この[&#x200B; セクション &#x200B;](../../administration/using/technical-workflows.md#list-of-technical-workflows)を参照してください。
 * 配信がメッセージを送信している場合、**[!UICONTROL Deployment]** セクションのステータスに2つの値を指定できるようになりました：**[!UICONTROL Sending]**: メッセージを送信しています。 **[!UICONTROL Sending (retry)]**：再試行パスが進行中です。
 * **[!UICONTROL Delivery preparation]**&#x200B;の役割を持つユーザーは、プルーフを送信できるようになりました。 （CAMP-24313）
 * **SMPP経由でTLSを有効にする** オプションが、SMPP **外部アカウント経由の** SMS ルーティングに追加されました。 詳しくは、この[節](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing)を参照してください。
@@ -313,7 +334,7 @@ _カスタムリソース_
      <li> メールコンテンツテンプレートの作成と保存、保存したテンプレートの活用により、メール作成の規模を拡大 </li> 
      <li> コンテンツフラグメント（ヘッダー、フッター、記事など）の作成と保存 コンテンツ制作を合理化し、ブランドの一貫性を確保できます </li> 
      <li> ドラッグ&amp;ドロップ操作によるHTMLへの直接対応と、ボタンをクリックするだけで電子メールを直接編集できる機能をシームレスに切り替えることができます </li> 
-    </ul> Creative Designer メール版は、英語でのみ利用できます。<br /> 詳細については、<a href="../../designing/using/designing-content-in-adobe-campaign.md">詳細ドキュメント </a>を参照し、この<a href="https://www.youtube.com/watch?time_continue=1&amp;v=5S_6A4fsfms"> ビデオ </a>をご覧ください。<br /> </td> 
+    </ul> Creative Designer メール版は、英語でのみ利用できます。<br /> 詳細については、<a href="../../designing/using/designing-content-in-adobe-campaign.md">詳細ドキュメント </a>を参照し、この<a href="https://www.youtube.com/watch?time_continue=1&v=5S_6A4fsfms"> ビデオ </a>をご覧ください。<br /> </td> 
   </tr> 
   <tr> 
    <td> 多言語プッシュ配信<br /> </td> 
@@ -409,7 +430,7 @@ _電子メール、SMS メッセージ、ダイレクトメール_
 
 * パフォーマンスを向上させるために、配信準備フェーズが強化されました。
 * ニッチな状況でトラッキングログが破損する可能性があるいくつかの問題を修正しました。
-* 配信の準備と確認の間に連絡先日が変更されたときに発生した連絡先日の更新の問題を修正しました。 現在、準備後に連絡日を変更する場合は、送信を確認する前に、配信を再度準備する必要があります。 [詳細ドキュメント ](../../sending/using/preparing-the-send.md)を参照してください。
+* 配信の準備と確認の間に連絡先日が変更されたときに発生した連絡先日の更新の問題を修正しました。 現在、準備後に連絡日を変更する場合は、送信を確認する前に、配信を再度準備する必要があります。 [詳細ドキュメント &#x200B;](../../sending/using/preparing-the-send.md)を参照してください。
 
 _プッシュ通知_
 
