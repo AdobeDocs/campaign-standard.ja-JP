@@ -39,10 +39,10 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
 workflow-type: tm+mt
-source-wordcount: 5439
-ht-degree: 95%
+source-wordcount: 5380
+ht-degree: 94%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 95%
 </thead> 
 <tbody> 
 <tr> 
-  <td> <p><strong>コントロール母集団</strong>を使用して、キャンペーンのオーディエンスの一部を除外することで、キャンペーンの影響を測定できるようになりました。 その後、メッセージを受け取ったターゲット母集団の行動と、ターゲット設定されていない連絡先の行動を比較できます。 送信ログに基づいて、今後のキャンペーンでコントロール母集団をターゲットすることもできます。
+  <td> <p><strong> コントロールグループ </strong>を使用して、オーディエンスの一部を除外することで、キャンペーンの影響を測定できるようになりました。その後、メッセージを受信したターゲット母集団の行動と、ターゲットされなかった連絡先の行動を比較できます。送信ログに基づいて、今後の施策でコントロールグループをターゲットにすることもできます。
 </p>
 <p>詳しくは、<a href="../../sending/using/control-group.md">詳細ドキュメント</a>および<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html?lang=ja">ハウツービデオ</a>を参照してください。
 </p>
@@ -81,7 +81,7 @@ ht-degree: 95%
 </thead> 
 <tbody> 
 <tr> 
-  <td> <p>Adobe Campaign で、<strong>外部 API</strong> ワークフローアクティビティでの認証に OAuth がサポートされるようになりました。 この新しい機能により、このアクティビティが OAuth のサポートを必要とするシステムと通信できるようになります。
+  <td> <p>Adobe Campaignは、<strong>外部API</strong> ワークフローアクティビティでの認証に対してOAuthをサポートするようになりました。この新しい機能により、このアクティビティでOAuth サポートを必要とするシステムと通信する機能が開きます。
 </p>
 <p>詳しくは、<a href="../../automating/using/external-api.md">詳細ドキュメント</a>を参照してください。
 </p>
@@ -515,3 +515,4 @@ ht-degree: 95%
 * アプリ内メッセージの送信時に送信ログ画面にアドレスが表示されない問題を修正しました。
 * SMS 送信ログが正しいバウンス数に更新されない問題を修正しました。 （CAMP-38395）
 * アプリケーション購読の POST 呼び出しでプッシュ通知トークンを更新できるループホールを修正しました。 （CAMP-39273）
+

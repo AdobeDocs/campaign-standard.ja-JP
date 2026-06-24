@@ -25,7 +25,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
 workflow-type: tm+mt
 source-wordcount: 7892
 ht-degree: 10%
@@ -174,7 +174,7 @@ ht-degree: 10%
  <tbody> 
   <tr> 
    <td> 外部API アクティビティ （パブリック Beta） <br /> </td> 
-   <td> <p>より詳細なパーソナライゼーションを実現するには、外部API アクティビティを使用して、外部システムからのデータをREST API呼び出しを介してワークフローに取り込みます。 REST エンドポイントは、顧客管理システム、Adobe I/O RuntimeまたはAdobe Experience Cloud REST エンドポイント（Data Platform、Target、Analytics、Campaignなど）にすることができます。</p><p>この機能は現在パブリックベータ版です。</p><p>詳しくは、<a href="../../automating/using/external-api.md">詳細ドキュメント</a>および<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html?lang=ja">ハウツービデオ</a>を参照してください。</p></td> 
+   <td> <p>より詳細なパーソナライゼーションを実現するには、外部API アクティビティを使用して、外部システムからのデータをREST API呼び出しを介してワークフローに取り込みます。 REST エンドポイントは、顧客管理システム、Adobe I/O Runtime、Adobe Experience Cloud REST エンドポイント（Data Platform、Target、Analytics、Campaignなど）にすることができます。</p><p>この機能は現在パブリックベータ版です。</p><p>詳しくは、<a href="../../automating/using/external-api.md">詳細ドキュメント</a>および<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html?lang=ja">ハウツービデオ</a>を参照してください。</p></td> 
   </tr> 
   <tr> 
    <td> ワークフローセグメント <br />に関するレポート </td> 
@@ -503,7 +503,7 @@ ht-degree: 10%
 
 **その他の変更**
 
-* Adobe CampaignとAdobe Experience Cloudは、2019年春以降のMicrosoft Internet Explorer 11とCampaign Standard 19.2 リリースのサポートを終了します。 Microsoft Edge またはサポートされている別のブラウザーに切り替えてください。 [非推奨の機能と削除された機能](../../rn/using/deprecated-features.md) ページを参照してください。
+* Adobe CampaignとAdobe Experience Cloudは、2019年春以降のMicrosoft Internet Explorer 11およびCampaign Standard 19.2 リリースのサポートを終了します。 Microsoft Edge またはサポートされている別のブラウザーに切り替えてください。 [非推奨の機能と削除された機能](../../rn/using/deprecated-features.md) ページを参照してください。
 * プロファイルリソースの&#x200B;**国コード** フィールドの名前が&#x200B;**国/地域コード**&#x200B;に変更されました。
 
 **パッチ**
@@ -633,3 +633,4 @@ ht-degree: 10%
 * SMS メッセージの送信スループットが改善され、安定しました。
 * SMS メッセージで「～」文字を使用できない問題を修正しました。 （CAMP-29172）
 * 「送信時間の最適化」オプションを使用した配信の問題を修正しました。 （CAMP-29231）
+
