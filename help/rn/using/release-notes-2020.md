@@ -66,7 +66,7 @@ ht-degree: 94%
 <tr> 
   <td> <p><strong> コントロールグループ </strong>を使用して、オーディエンスの一部を除外することで、キャンペーンの影響を測定できるようになりました。その後、メッセージを受信したターゲット母集団の行動と、ターゲットされなかった連絡先の行動を比較できます。送信ログに基づいて、今後の施策でコントロールグループをターゲットにすることもできます。
 </p>
-<p>詳しくは、<a href="../../sending/using/control-group.md">詳細ドキュメント</a>および<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html">ハウツービデオ</a>を参照してください。
+<p>詳しくは、<a href="../../sending/using/control-group.md">詳細ドキュメント</a>および<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html?lang=ja">ハウツービデオ</a>を参照してください。
 </p>
 </td> 
 </tr> 
@@ -102,8 +102,8 @@ ht-degree: 94%
   <p>ジャーニーは、AIを利用した高度なマシンラーニングにより、顧客一人ひとりのエンゲージメントの好みを予測し、カスタマージャーニーの設計と提供を最適化できるようにしています。</p>
   <P>ジャーニー AI は、次の 2 つの ML 機能で構成されています。</p>
 <ul> 
-     <li> <strong>予測エンゲージメントスコアリング</strong> - メッセージのターゲティングとパーソナライゼーションを強化し、コンバージョンとリテンションを向上させるために、顧客が望むエンゲージメントレベルをインテリジェントに識別します。 <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-engagement-scoring.html">ビデオガイド、チュートリアル</a>をご覧ください。</li> 
-     <li> <strong>予測送信時間の最適化</strong> - キャンペーン中に各顧客にメールを送信する最適な時間を予測して、エンゲージメント率を最大化し、メールキャンペーンの ROI を向上させます。 <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-send-time-optimization.html">ビデオガイド、チュートリアル</a>をご覧ください。</li>
+     <li> <strong>予測エンゲージメントスコアリング</strong> - メッセージのターゲティングとパーソナライゼーションを強化し、コンバージョンとリテンションを向上させるために、顧客が望むエンゲージメントレベルをインテリジェントに識別します。 <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-engagement-scoring.html?lang=ja">ビデオガイド、チュートリアル</a>をご覧ください。</li> 
+     <li> <strong>予測送信時間の最適化</strong> - キャンペーン中に各顧客にメールを送信する最適な時間を予測して、エンゲージメント率を最大化し、メールキャンペーンの ROI を向上させます。 <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-send-time-optimization.html?lang=ja">ビデオガイド、チュートリアル</a>をご覧ください。</li>
     </ul>
   <p>ジャーニー AI の概要について詳しくは、<a href="../../sending/using/predictive.md">詳細なドキュメント</a>を確認し、担当のアカウント担当者にお問い合わせください。 ジャーニー AI は、既存の Adobe Campaign のお客様には無償で提供されます。実装に要する時間は約 50 時間です。</p>
     </td> 
@@ -236,7 +236,7 @@ ht-degree: 94%
 <li>アクセス権と削除権：GDPR および CCPA 用に追加された機能を活用します。 <a href="https://helpx.adobe.com/content/help/jp/campaign/kb/acs-privacy.html#righttoaccess">詳細情報</a> </li>
 <li><p>プライバシーリクエストを作成する際に、PDPA 規制タイプが Privacy コアサービスに追加されました。 すべてのアクセス要求と削除要求に対して、このメソッドを使用する必要があります。 アクセス要求および削除要求に対する Campaign API およびインターフェイスの使用は廃止されています。  <a href="../../rn/using/deprecated-features.md">廃止および削除された機能の記事</a>を参照してください。</p></li>
 </ul>
-<p><a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">ハウツービデオ</a>を参照してください。</p>
+<p><a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html?lang=ja">ハウツービデオ</a>を参照してください。</p>
 </td> 
 </tr> 
 </tbody> 
@@ -257,7 +257,7 @@ ht-degree: 94%
 <li>オブジェクトに「data」という名前を付けたり、最上位レベルに配置したりする必要なく、JSON から配列オブジェクトを選択して使用する。</li>
 </ul>
 <p><strong>注意：</strong><strong>すべてのベータ版外部 API アクティビティを、ワークフロー内の GA 外部 API アクティビティで置き換える必要があります</strong>。  ベータ版の外部 API を使用するワークフローは、20.3 以降では動作しなくなります。</p>
-<p>詳しくは、<a href="../../automating/using/external-api.md">詳細ドキュメント</a>および<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">ハウツービデオ</a>を参照してください。</p>
+<p>詳しくは、<a href="../../automating/using/external-api.md">詳細ドキュメント</a>および<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html?lang=ja">ハウツービデオ</a>を参照してください。</p>
 </td> 
 </tr> 
 </tbody> 
@@ -350,7 +350,7 @@ ht-degree: 94%
  <tbody> 
   <tr> 
    <td> <p>テストプロファイルに加えて、実際のターゲットプロファイルを対象にメールをテストできるようになりました。 これにより、プロファイルが受け取るメッセージ（ワークフローからの追加データを含め、カスタムフィールド、動的情報、パーソナライズされた情報など）が正確に表示されます。 </p>
-    <p>詳しくは、<a href="../../sending/using/testing-messages-using-target.md">詳細ドキュメント</a>および<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html">チュートリアルビデオ</a>を参照してください。 </p>
+    <p>詳しくは、<a href="../../sending/using/testing-messages-using-target.md">詳細ドキュメント</a>および<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html?lang=ja">チュートリアルビデオ</a>を参照してください。 </p>
    </td> 
   </tr> 
  </tbody> 
