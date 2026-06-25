@@ -6,12 +6,33 @@ role: User
 level: Beginner
 exl-id: 73a1ec49-fcbc-406b-9590-1ad20da9e73b
 TQID: https://experienceleague.adobe.com/o3S2hQizbgi5V-8uEzd4UsVZslopMk6BlpCy-DXESUQ
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b12f6872-9271-4369-85e5-86969a0b99a2id: c309ee4e-82e4-4f7e-b608-ef345678c34eid: d5ef99fa-df0c-4153-bf94-105ad0724167
-subfeature_v2: id: bb6c4d97-79f4-412c-a764-b541e9f9facdid: bf97c196-a4d1-4fa3-a151-e68a114c8ac0id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0id: d8d962e2-fcf3-4f64-82dc-4b50292e7f75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: beb7a3c1-66ab-4786-b879-7621375b3c40id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d00e9f03-e50b-4162-b143-0c0817c937c2id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2:
+  - id: bb6c4d97-79f4-412c-a764-b541e9f9facd
+  - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+  - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
+  - id: d8d962e2-fcf3-4f64-82dc-4b50292e7f75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
 source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
 workflow-type: tm+mt
 source-wordcount: 4540
@@ -155,7 +176,7 @@ _レポート_
 * **ホットクリック** レポートが改善されました。 また、配信で定義された各条件付きコンテンツに応じてホットクリックを表示したり、繰り返し配信やトランザクションメッセージの実行ごとにホットクリックを表示したりできるようになりました。 詳しくは、[詳細ドキュメント](../../sending/using/receiving-alerts-when-failures-happen.md#creating-a-delivery-alerting-criterion)を参照してください。
 * 強制隔離メトリックが正しいデータを取得できない問題を修正しました。
 * カレンダーウィジェットに新しいプリセット時間枠が追加されました。
-* [動的レポート指標](../../reporting/using/indicator-calculation.md)と[ キャンペーンのKPI](../../sending/using/confirming-the-send.md) （送信済みメッセージのダッシュボードに表示）は、より一貫性を持たせるために調整されました。
+* [動的レポート指標](../../reporting/using/indicator-calculation.md)と[&#x200B; キャンペーンのKPI](../../sending/using/confirming-the-send.md) （送信済みメッセージのダッシュボードに表示）は、より一貫性を持たせるために調整されました。
 * debian 7でパイプラインがクラッシュする可能性がある問題を修正しました。
 
 _ワークフロー_
@@ -224,8 +245,8 @@ _電子メール、SMS メッセージ、ダイレクトメール_
 * テストプロファイル用に定義された&#x200B;**[!UICONTROL Text]**&#x200B;優先メール形式に関する問題を修正しました。
 * 配信のスケジュール定義画面でデフォルトのタイムゾーンを選択する際にJavascript エラーが発生する問題を修正しました。
 * 送信ログにトラップが表示されない問題を修正しました。
-* 配信作成ウィザードのテンプレート選択画面で、フォローアップとA/B テストテンプレートがデフォルトで非表示になりました。 詳しくは、[詳細ドキュメント ](../../channels/using/creating-an-email.md)を参照してください。
-* 任意のユーザーが配信を送信できる問題を修正しました。 これで、**[!UICONTROL Start deliveries]**&#x200B;の役割を持つユーザーのみが許可されるようになりました。 詳しくは、[詳細ドキュメント ](../../sending/using/confirming-the-send.md)を参照してください。
+* 配信作成ウィザードのテンプレート選択画面で、フォローアップとA/B テストテンプレートがデフォルトで非表示になりました。 詳しくは、[詳細ドキュメント &#x200B;](../../channels/using/creating-an-email.md)を参照してください。
+* 任意のユーザーが配信を送信できる問題を修正しました。 これで、**[!UICONTROL Start deliveries]**&#x200B;の役割を持つユーザーのみが許可されるようになりました。 詳しくは、[詳細ドキュメント &#x200B;](../../sending/using/confirming-the-send.md)を参照してください。
 
 _プッシュ通知_
 
@@ -243,7 +264,7 @@ _レポート_
 
 _ワークフロー_
 
-* ワークフローログ（時間とテキスト検索の期間）をフィルタリングできるようになりました。 詳しくは、[詳細ドキュメント ](../../automating/using/monitoring-workflow-execution.md)を参照してください。
+* ワークフローログ（時間とテキスト検索の期間）をフィルタリングできるようになりました。 詳しくは、[詳細ドキュメント &#x200B;](../../automating/using/monitoring-workflow-execution.md)を参照してください。
 * ワークフロー配信で、送信前に確認を無効にするオプションを使用できるようになりました。
 * 定期的な配信の作成ウィザードでアウトバウンドトランジションを設定できない問題を修正しました。
 * 値が多い列挙を持つカスタムリソースフィールドに基づくワークフロークエリアクティビティを使用する際に発生する問題を修正しました
