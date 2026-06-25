@@ -8,10 +8,10 @@ product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
+source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
 workflow-type: tm+mt
 source-wordcount: 441
-ht-degree: 58%
+ht-degree: 41%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 58%
 
 ISP が機能停止した場合、Campaign 経由で送信されたメールは、受信者に正常に届きません。これらのメールは、誤ってバウンスと見なされます。
 
-2020 年 12 月、Gmail の グローバルな問題により、Gmail の有効なメールアドレスに送信されたメールメッセージの一部が、無効なメールアドレスとして Gmail サーバーから誤ってハードバウンスされ、「*550-5.1.1 送信先のメールアカウントは存在しません*」という応答が返されました。
+2020年12月、Gmailのグローバルな問題により、有効なGmail メールアドレスに送信された一部のメールメッセージが、Gmail サーバーによって無効なメールアドレスとして誤ってハードバウンスされ、次の応答が返されました。*&quot;550-5.1.1 The email account that you tried to reach does not exist.&quot;*
 
 Googleは、この問題を引き起こしたGmailの停止と中断は、12月14日の6:55AMに始まり、12月15日の6:09PM ESTに終わったと述べています。 当社のデータ分析では、12月16日のEST 2:06AM、EST 2:00、EST 6:30、EST 12月15日の午後2、EST 6の間にGmailのバウンスが非常に短期間に増加したことも示されています。
 
@@ -46,13 +46,14 @@ Googleは、この問題を引き起こしたGmailの停止と中断は、12月1
 
 強制隔離リストの&#x200B;**[!UICONTROL Error text]** フィールドにSMTP バウンス応答情報があるCampaign インスタンスの場合：
 
-* **エラーテキスト（強制隔離テキスト）**&#x200B;に「550-5.1.1 The email account that you tried does not exist」が含まれ、かつ、**エラーテキスト（強制隔離テキスト）**&#x200B;に「support.google.com」が含まれる**
+* **エラーテキスト（強制隔離テキスト）**&#x200B;に「550-5.1.1 リーチしようとした電子メールアカウントが存在しません」が含まれており、**エラーテキスト（強制隔離テキスト）**&#x200B;に「support.google.com」が含まれている**
 * **2020年6月2日午前12日以降の更新ステータス （@lastModified）**:55:
 * **2020年6月16日午前6時:00:00分以前のステータス（@lastModified）**&#x200B;の更新
 
 影響を受ける受信者のリストを取得したら、ステータスを&#x200B;**[!UICONTROL Valid]**&#x200B;に設定して、**[!UICONTROL Database cleanup]** ワークフローで強制隔離リストから削除するか、テーブルから削除します。
 
 **関連トピック：**
+
 * [配信エラーについて](../../sending/using/understanding-delivery-failures.md)
 * [バウンスメール選定](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification)
 

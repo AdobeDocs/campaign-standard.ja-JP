@@ -21,7 +21,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
 workflow-type: tm+mt
 source-wordcount: 1347
 ht-degree: 64%
@@ -84,7 +84,7 @@ ht-degree: 64%
 | **[!UICONTROL Not connected]** | 無視 | メッセージの送信時に、プロファイルの携帯電話の電源が切られているか、ネットワークに接続されていないか。 |
 | **[!UICONTROL Invalid domain]** | ソフト | メールアドレスのドメインが正しくないか、存在しません。 このプロファイルは、エラーカウントが 5 にならない限り、再びターゲットになります。 その後、レコードは強制隔離ステータスに設定され、以降は再試行されなくなります。 |
 | **[!UICONTROL Text too long]** | 無視 | SMS メッセージの文字数が制限を超えています。 詳しくは、[SMS のエンコーディング、長さ、表記変換](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration)を参照してください。 |
-| **[!UICONTROL Character not supported by encoding]** | 無視 | SMS メッセージには、エンコーディングでサポートされていない1つ以上の文字が含まれています。 詳しくは、[文字の一覧 - GSM 標準](../../administration/using/configuring-sms-channel.md#table-of-characters---gsm-standard)を参照してください。 |
+| **[!UICONTROL Character not supported by encoding]** | 無視 | SMS メッセージには、エンコーディングでサポートされていない1つ以上の文字が含まれています。 詳しくは、[文字の一覧 - GSM 標準](../../administration/using/configuring-sms-channel.md#table-of-characters-gsm-standard)を参照してください。 |
 
 
 **関連トピック：**

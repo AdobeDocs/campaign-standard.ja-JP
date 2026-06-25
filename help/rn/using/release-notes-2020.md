@@ -39,7 +39,7 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
+source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
 workflow-type: tm+mt
 source-wordcount: 5380
 ht-degree: 94%
@@ -52,7 +52,7 @@ ht-degree: 94%
 
 ![](assets/do-not-localize/cp-icon.png) **10 月の新しい コントロールパネルリリース**&#x200B;で、CNAME を使用したドメイン設定と新しいデータベース監視機能が追加されました。 [詳細情報](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ja)。
 
-## リリース 20.4 - 2020 年 10 月 {#release-20-4---october-2020}
+## リリース 20.4 - 2020 年 10 月 {#release-20-4-october-2020}
 
 **新機能**
 
@@ -218,7 +218,7 @@ ht-degree: 94%
 
 
 
-## リリース 20.3 - 2020 年 5 月 {#release-20-3---may-2020}
+## リリース 20.3 - 2020 年 5 月 {#release-20-3-may-2020}
 
 **新機能**
 
@@ -322,7 +322,7 @@ ht-degree: 94%
 
 ![](assets/do-not-localize/cp-icon.png) **コントロールパネルの 5 月の新しいリリース**&#x200B;で、CNAME サブドメインの証明書を更新できるようになりました。 [詳細情報](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ja)。
 
-## リリース 20.2 - 2020 年 4 月 {#release-20-2---april-2020}
+## リリース 20.2 - 2020 年 4 月 {#release-20-2-april-2020}
 
 **新機能**
 
@@ -407,15 +407,15 @@ ht-degree: 94%
 * 複数のインバウンドトランジションを含んだアクティビティの実行時にワークフローで生じる可能性がある問題を修正しました。
 * 標準ユーザーがワークフローのクエリまたは配信で「アプリケーションの購読」をターゲットディメンションとして使用できない問題を修正しました。 （CAMP-37618）
 
-## リリース 20.1.4 - 2020年2月 {#release-20-1-4---february-2020}
+## リリース 20.1.4 - 2020年2月 {#release-20-1-4-february-2020}
 
 * 既存のワークフローで「**オーディエンスの閲覧**」アクティビティを開く際の問題を修正しました。 （CAMP-41002）
 
-## リリース 20.1.3 - 2020年2月 {#release-20-1-3---february-2020}
+## リリース 20.1.3 - 2020年2月 {#release-20-1-3-february-2020}
 
 * ループホール使用に対処する CAMP-39273 が原因で 20.1 リリースに発生するようになった回帰の問題を修正しました。 CAMP-39273 による修正は元に戻されました。
 
-## リリース 20.1.2 - 2020年2月 {#release-20-1-2---february-2020}
+## リリース 20.1.2 - 2020年2月 {#release-20-1-2-february-2020}
 
 **E メールデザイナーの機能強化**
 
@@ -423,7 +423,7 @@ ht-degree: 94%
 * 動的コンテンツの使用時にスペースが追加される問題を修正しました。 （CAMP-40605）
 * トランザクションメールテンプレートの設定時に生じていた問題を修正しました。 （CAMP-40604）
 
-## リリース 20.1 - 2020 年 2 月 {#release-20-1---february-2020}
+## リリース 20.1 - 2020 年 2 月 {#release-20-1-february-2020}
 
 **新機能**
 

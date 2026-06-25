@@ -8,7 +8,7 @@ product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 6afe138f90ceedafd3f3e4229545e856840924fc
+source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
 workflow-type: tm+mt
 source-wordcount: 207
 ht-degree: 100%
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 **影響の有無**
 
-電子メール内のトラッキングリンクの署名メカニズムが [Campaign Standard 20.4](release-notes-2020.md#release-20-4---october-2020)（2020 年 10 月）で導入され、すべての顧客に対してデフォルトで有効になっているので、一部の Campaign Standard ユーザーは影響を受けます。
+電子メール内のトラッキングリンクの署名メカニズムが [Campaign Standard 20.4](release-notes-2020.md#release-20-4-october-2020)（2020 年 10 月）で導入され、すべての顧客に対してデフォルトで有効になっているので、一部の Campaign Standard ユーザーは影響を受けます。
 
 **更新方法**
 
