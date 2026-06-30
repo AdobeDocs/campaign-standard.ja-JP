@@ -21,9 +21,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: add46d6ff37deb4309146447f5a9026842368cf3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 238
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -120,8 +120,8 @@ Campaign と Real-time Customer Data Platform（RTCDP）間でデータを共有
 ## その他のリソース
 
 <table style="table-layout:fixed"><tr style="border: 0;">
-<td><strong>便利なページ </strong><br/>
-<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja" target="_blank"> チュートリアル </a> - <a href="https://helpx.adobe.com/jp/legal/product-descriptions/campaign-standard.html" target="_blank">製品説明</a> - <a href="rn/using/deprecated-features.md">非推奨および削除された機能</a> - <a href="rn/using/release-planning.md"> リリース計画</a> - <a href="https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/cnil-pixel-tracking" target="_blank">電子メールトラッキングピクセルとCNIL ガイダンス </a>
+<td><strong>役に立つページ</strong><br/>
+<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja" target="_blank">チュートリアル</a> - <a href="https://helpx.adobe.com/jp/legal/product-descriptions/campaign-standard.html" target="_blank">製品説明</a> - <a href="rn/using/deprecated-features.md">非推奨（廃止予定）および削除された機能</a> - <a href="rn/using/release-planning.md">リリース計画</a> - <a href="https://experienceleague.adobe.com/ja/docs/campaign/campaign-v8/new/cnil-pixel-tracking" target="_blank">メールトラッキングピクセルと CNIL ガイダンス</a>
 </td>
 <td><strong>技術リソース</strong><br/>
 <a href="integrating/using/about-adobe-experience-cloud-triggers.md">Experience Cloudトリガー</a> - <a href="api/using/get-started-apis.md">Campaign API</a> - <a href="https://helpx.adobe.com/jp/campaign/kb/acs-article-list.html" target="blank">テクニカルノート</a> - <a href="https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja" target="_blank">コントロールパネルのドキュメント</a> - <a href="https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=ja">エラーメッセージのリスト</a>
