@@ -4,11 +4,9 @@ description: ISP が機能停止した後にバウンス選定を更新する方
 audience: delivery
 exl-id: b06e9009-70c7-459f-8a9f-d5b7020d662f
 TQID: https://experienceleague.adobe.com/PcNbVFzTVJhadANGQ5uogj16VHiaNIf7HVn-7X-EbJA
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 77a1b72042c178fd56fefb639aba2674d85c9caa
 workflow-type: tm+mt
 source-wordcount: 441
 ht-degree: 41%
@@ -56,4 +54,5 @@ Googleは、この問題を引き起こしたGmailの停止と中断は、12月1
 
 * [配信エラーについて](../../sending/using/understanding-delivery-failures.md)
 * [バウンスメール選定](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification)
+
 
