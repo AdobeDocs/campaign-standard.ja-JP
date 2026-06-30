@@ -6,8 +6,8 @@ role: User
 level: Beginner
 hide: true
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: c2422ff58487b6e8251eab2508760cd201b2eebe
-workflow-type: ht
+source-git-commit: 77a1b72042c178fd56fefb639aba2674d85c9caa
+workflow-type: tm+mt
 source-wordcount: '7629'
 ht-degree: 100%
 
@@ -1121,4 +1121,5 @@ URL の変更：Assets コアサービス - [詳細を表示](../../integrating/
 URL の変更：People コアサービス - [詳細を表示](../../integrating/using/about-campaign-audience-manager-or-people-core-service-integration.md)
 
 プロファイルとオーディエンスに関するガイドの構成が変更されました。 [詳細を表示](../../audiences/using/get-started-profiles-and-audiences.md)
+
 
