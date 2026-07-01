@@ -4,13 +4,12 @@ user-guide-title: Campaign Standard
 user-guide-description: Adobe Campaign Standard に関する製品ドキュメント
 title: Campaign Standard ガイド
 breadcrumb-title: Campaign Standard ドキュメント
-source-git-commit: 919b8a7363bc6ca02bff6d8846bc0af051056863
-workflow-type: ht
+source-git-commit: e267777274122de6dc8badc2d6b8dfdaa20c5fb2
+workflow-type: tm+mt
 source-wordcount: '1796'
 ht-degree: 100%
 
 ---
-
 
 # Adobe Campaign Standard ドキュメント {#using}
 
@@ -509,4 +508,3 @@ ht-degree: 100%
       + [地理的単位属性の更新](api/using/updating-geographical-unit-attributes.md)
    + [トラブルシューティング](api/using/troubleshooting.md)
 + [Campaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja)
-
