@@ -33,7 +33,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 77a1b72042c178fd56fefb639aba2674d85c9caa
+source-git-commit: e267777274122de6dc8badc2d6b8dfdaa20c5fb2
 workflow-type: tm+mt
 source-wordcount: 4623
 ht-degree: 8%
@@ -555,5 +555,3 @@ _統合_
 * Adobe Campaignでイベントトリガーをデプロイする際にエラーが発生する可能性がある問題を修正しました。 このエラーは、「30日以内に返される可能性」メタデータがAdobe Marketing Cloudの放棄トリガーに追加された場合に発生しました。
 * People コアサービスからオーディエンスを読み込む際に、テクニカルワークフローがTarget Dimension フィールドをクリアする可能性がある問題を修正しました。 後続のクエリで、読み込まれたオーディエンスを取得できませんでした。
 * オプション **[!UICONTROL Share in Adobe Marketing Cloud]**&#x200B;がオンになっている場合に、ワークフローの&#x200B;**[!UICONTROL Save audience]** アクティビティが失敗する可能性がある問題を修正しました。
-
-

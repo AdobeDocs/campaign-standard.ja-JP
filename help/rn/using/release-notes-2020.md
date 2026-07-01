@@ -39,7 +39,7 @@ topic_v2:
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 77a1b72042c178fd56fefb639aba2674d85c9caa
+source-git-commit: e267777274122de6dc8badc2d6b8dfdaa20c5fb2
 workflow-type: tm+mt
 source-wordcount: 5439
 ht-degree: 95%
@@ -513,5 +513,3 @@ ht-degree: 95%
 * アプリ内メッセージの送信時に送信ログ画面にアドレスが表示されない問題を修正しました。
 * SMS 送信ログが正しいバウンス数に更新されない問題を修正しました。 （CAMP-38395）
 * アプリケーション購読の POST 呼び出しでプッシュ通知トークンを更新できるループホールを修正しました。 （CAMP-39273）
-
-
