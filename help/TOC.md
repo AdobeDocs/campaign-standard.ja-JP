@@ -436,7 +436,7 @@ ht-degree: 99%
    + チャネルの設定 {#configuring-channels}
       + [チャネル設定について](administration/using/about-channel-configuration.md)
       + [メールチャネルの設定](administration/using/configuring-email-channel.md)
-      + {hide-from-toc}[電子メールトラッキングピクセルに関するCNIL ガイダンス ](administration/using/cnil-pixel-tracking.md)
+      + {hide-from-toc}[電子メールトラッキングピクセルに関するCNIL ガイダンス &#x200B;](administration/using/cnil-pixel-tracking.md)
       + {hide-from-toc}[ISP の機能停止後にバウンス選定条件を更新](administration/using/update-bounce-qualification.md)
       + [モバイルアプリケーションの設定](administration/using/configuring-a-mobile-application.md)
    + モバイルチャネルの設定 {#configuring-mobile}
