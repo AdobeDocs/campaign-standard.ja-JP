@@ -4,10 +4,10 @@ user-guide-title: Campaign Standard
 user-guide-description: Adobe Campaign Standard に関する製品ドキュメント
 title: Campaign Standard ガイド
 breadcrumb-title: Campaign Standard ドキュメント
-source-git-commit: e267777274122de6dc8badc2d6b8dfdaa20c5fb2
+source-git-commit: f097d24265d3542ca8fc8a7f2727c49e7a21e773
 workflow-type: tm+mt
-source-wordcount: '1796'
-ht-degree: 100%
+source-wordcount: '1802'
+ht-degree: 99%
 
 ---
 
@@ -436,6 +436,7 @@ ht-degree: 100%
    + チャネルの設定 {#configuring-channels}
       + [チャネル設定について](administration/using/about-channel-configuration.md)
       + [メールチャネルの設定](administration/using/configuring-email-channel.md)
+      + {hide-from-toc}[電子メールトラッキングピクセルに関するCNIL ガイダンス ](administration/using/cnil-pixel-tracking.md)
       + {hide-from-toc}[ISP の機能停止後にバウンス選定条件を更新](administration/using/update-bounce-qualification.md)
       + [モバイルアプリケーションの設定](administration/using/configuring-a-mobile-application.md)
    + モバイルチャネルの設定 {#configuring-mobile}
