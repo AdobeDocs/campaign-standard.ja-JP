@@ -268,7 +268,7 @@ AI を利用した新しいメール機能（送信時間の最適化とプロ�
 
 ワークフローの使用例が更新され、主題の節に再構成されました。 [詳細を表示](../../automating/using/about-workflow-use-cases.md)
 
-コントロールパネルと Campaign ワークフローを使用したデータの[暗号化](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt)および[&#128279;](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt)復号化の方法に関する使用例が追加されました。
+コントロールパネルと Campaign ワークフローを使用したデータの[暗号化](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt)および[](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt)復号化の方法に関する使用例が追加されました。
 
 従来のサポート Web サイトへの参照は、新しい URL に置き換えられました。 [詳細情報](../../support.md)
 
@@ -592,7 +592,7 @@ Adobe Campaign から直接利用できるコンテキストヘルプリンク�
 
 動的レポートのインジケーターの計算に関する節が更新されました。 [詳細を表示](../../reporting/using/indicator-calculation.md)
 
-ディメンションと指標の互換性をより深く理解できるように、動的レポートの互換性の表が追加されました。 [詳細を表示](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=ja)
+ディメンションと指標の互換性をより深く理解できるように、動的レポートの互換性の表が追加されました。 [詳細を表示](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf)
 
 ワークフローの関数のリストが更新されました。 [詳細を表示](../../automating/using/list-of-functions.md)
 
@@ -870,7 +870,7 @@ Campaign とアドビソリューションの統合のほとんどの URL が変
 
 配信の準備方法に関するステップバイステップの使用例を追加しました。 [詳細を表示](../../sending/using/preparing-the-send.md)
 
-認証のリストが記載された節は削除されました。 [詳細を表示](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=ja)（PDF）
+認証のリストが記載された節は削除されました。 [詳細を表示](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)（PDF）
 
 SMS 自動返信に関するステップバイステップの使用例を追加しました。 [詳細を表示](../../channels/using/managing-incoming-sms.md#managing-stop-sms)
 
@@ -1042,7 +1042,7 @@ Campaign から Analytics への KPI 共有 - [詳細を表示](../../integratin
 
 People コアサービスまたは Audience Manager と Adobe Campaign の統合を設定する手順が追加されました。 [詳細を表示](../../integrating/using/integration-with-audience-manager-or-people-core-service.md)
 
-特定の役割の機能を明確にするために、認証表が改訂されました。 [詳細を表示](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=ja)
+特定の役割の機能を明確にするために、認証表が改訂されました。 [詳細を表示](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
 
 Adobe Campaign から直接利用できるコンテキストヘルプリンクが更新されました。
 
