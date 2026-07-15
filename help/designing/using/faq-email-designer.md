@@ -9,10 +9,14 @@ role: User
 level: Intermediate
 exl-id: f3208380-a4cf-4944-aa24-883995d1075d
 TQID: https://experienceleague.adobe.com/E-pr-K2MhoGRnz46df3Dz%2D%2D%2Ds3NRdSbweBFhTAMgSw4
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 116306c9479f7094cb2cb78b7fe2df31a508c9cd
 workflow-type: tm+mt
 source-wordcount: 445
@@ -45,7 +49,7 @@ HTMLのパンくずリストを使用すると、パディングを追加でき�
 
 独自のHTML コンテンツを電子メール Designerにアップロードできます。 電子メールDesignerで作成されていない場合は、元のHTMLを維持するように設計されていますが、UIを通じて特定のエディション機能を制限する互換モードで読み込まれます。
 
-詳しくは、[互換性モード ](../../designing/using/using-existing-content.md#compatibility-mode)を参照してください
+詳しくは、[互換性モード &#x200B;](../../designing/using/using-existing-content.md#compatibility-mode)を参照してください
 
 ## 最初のメールコンテンツを作成するにはどうすればよいですか？
 
@@ -57,13 +61,13 @@ HTMLのパンくずリストを使用すると、パディングを追加でき�
 
 E メールデザイナーの機能強化は継続的におこなわれています。 メールコンテンツをゼロから作成した場合、すぐに使えるテンプレートから作成した場合、またはフラグメントを作成した場合は、CSSの競合の問題などの問題を回避するために、コンテンツを最新バージョンに更新する必要がある場合があります。
 
-詳しくは、[ フラグメントの更新](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-updates)を参照してください
+詳しくは、[&#x200B; フラグメントの更新](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-updates)を参照してください
 
 ## テーマにスタイルを保存できますか？
 
 スタイルは、後で再利用するためにテーマとして保存することはできません。 ただし、CSS スタイルは、コンテンツテンプレートまたはメールに保存できます。
 
-詳しくは、[ スタイル ](../../designing/using/styles.md)を参照してください
+詳しくは、[&#x200B; スタイル &#x200B;](../../designing/using/styles.md)を参照してください
 
 ## 使用できるフォントはどれですか？
 
