@@ -7,9 +7,9 @@ level: Beginner
 hide: true
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
 source-git-commit: a86fd995b57d9c0e672611d99a3063a2baab15db
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '7650'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 99%
 
 ## 2026年6月 {#doc-updates-june-2026}
 
-メール追跡ピクセルと関連するAdobe Campaign Standard機能に関するCNIL ガイダンスに関するページを追加しました。 [詳細情報](../../administration/using/cnil-pixel-tracking.md)
+メールトラッキングピクセルに対する CNIL ガイダンスと、関連する Adobe Campaign Standard 機能のページを追加しました。[詳細情報](../../administration/using/cnil-pixel-tracking.md)
 
 ## リリース 24.1 - 2024年冬 {#release-24-1}
 
@@ -268,7 +268,7 @@ AI を利用した新しいメール機能（送信時間の最適化とプロ�
 
 ワークフローの使用例が更新され、主題の節に再構成されました。 [詳細を表示](../../automating/using/about-workflow-use-cases.md)
 
-コントロールパネルと Campaign ワークフローを使用したデータの[暗号化](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt)および[&#128279;](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt)復号化の方法に関する使用例が追加されました。
+コントロールパネルと Campaign ワークフローを使用したデータの[暗号化](../../automating/using/managing-encrypted-data.md#use-case-gpg-encrypt)および[](../../automating/using/managing-encrypted-data.md#use-case-gpg-decrypt)復号化の方法に関する使用例が追加されました。
 
 従来のサポート Web サイトへの参照は、新しい URL に置き換えられました。 [詳細情報](../../support.md)
 
