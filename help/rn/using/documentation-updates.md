@@ -6,9 +6,9 @@ role: User
 level: Beginner
 hide: true
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: a86fd995b57d9c0e672611d99a3063a2baab15db
-workflow-type: ht
-source-wordcount: '7650'
+source-git-commit: 437c3f380f03b901309160572c0ee1dda0369225
+workflow-type: tm+mt
+source-wordcount: '7568'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 ## 2026年6月 {#doc-updates-june-2026}
 
-メールトラッキングピクセルに対する CNIL ガイダンスと、関連する Adobe Campaign Standard 機能のページを追加しました。[詳細情報](../../administration/using/cnil-pixel-tracking.md)
+メールトラッキングピクセルに対する CNIL ガイダンスと、関連する Adobe Campaign Standard 機能のページを追加しました。 [詳細情報](../../administration/using/cnil-pixel-tracking.md)
 
 ## リリース 24.1 - 2024年冬 {#release-24-1}
 
@@ -452,8 +452,6 @@ Microsoft Dynamics 365 統合（GA） - [詳細情報](../../integrating/using/d
 
 **リリースに伴うその他のドキュメントのアップデート**
 
-Adobe Campaign のエラーメッセージのリストが更新されました。 [詳細を表示](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=ja)
-
 GDPR の入門ガイドが改善され、強化されました。 GDPR や CCPA を含む、プライバシー管理に関するドキュメントになりました。 [詳細を表示](https://helpx.adobe.com/content/help/jp/campaign/kb/campaign-privacy.html)
 
 トランザクションメッセージングの公開プロセスを示す新しいチャートが追加されました。 [詳細を表示](../../channels/using/publishing-transactional-message.md#transactional-messaging-pub-process)
@@ -534,8 +532,6 @@ E メールデザイナーの推奨されるアップデートに関する新し
 
 ワークフローのベストプラクティスに関する新しい節が追加されました。 [詳細を表示](../../automating/using/best-practices-workflows.md)
 
-Standard および Campaign Classic のエラーメッセージのリストが更新されました。 [詳細を表示](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=ja)
-
 カスタムリソースドキュメントに警告を追加しました。 カスタムリソース ID には使用する文字は最大 30 文字にすることをお勧めします。 これは、カスタムのリソースフィールド、キー、インデックス、リンクについても同様です。 [詳細を表示](../../developing/using/creating-or-extending-the-resource.md)
 
 ## 2019 年 6 月～7 月 {#doc-updates-2019}
@@ -545,8 +541,6 @@ Standard および Campaign Classic のエラーメッセージのリストが�
 複合識別キーを使用したプロファイルの呼び出し方法に関する使用例が追加されました。 [詳細を表示](../../developing/using/uc-calling-resource-id-key.md)
 
 パラメーターを使用してワークフローを呼び出す場合の、集計期間のない繰り返し配信の使用に関するレコメンデーションが追加されました。 [詳細を表示](../../automating/using/calling-a-workflow-with-external-parameters.md)
-
-Standard および Campaign Classic のエラーメッセージのリストが更新されました。 [詳細を表示](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=ja)
 
 カスタムリソースドキュメントに警告を追加しました。 カスタムリソース ID には使用する文字は最大 30 文字にすることをお勧めします。 これは、カスタムのリソースフィールド、キー、インデックス、リンクについても同様です。 [詳細を表示](../../developing/using/creating-or-extending-the-resource.md)
 
@@ -592,7 +586,7 @@ Adobe Campaign から直接利用できるコンテキストヘルプリンク�
 
 動的レポートのインジケーターの計算に関する節が更新されました。 [詳細を表示](../../reporting/using/indicator-calculation.md)
 
-ディメンションと指標の互換性をより深く理解できるように、動的レポートの互換性の表が追加されました。 [詳細を表示](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=ja)
+ディメンションと指標の互換性をより深く理解できるように、動的レポートの互換性の表が追加されました。 [詳細を表示](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf)
 
 ワークフローの関数のリストが更新されました。 [詳細を表示](../../automating/using/list-of-functions.md)
 
@@ -653,8 +647,6 @@ E メールデザイナーが Internet Explorer 11 をサポートしていな�
 Adobe Campaign Standard のプッシュ通知から画像を表示する方法に関する新しいテクニカルノートが追加されました。 [詳細を表示](../../administration/using/image-push-notification.md)
 
 プッシュトラッキングの実装に関する新しいテクニカルノートが追加されました。 [詳細を表示](../../administration/using/push-tracking.md)
-
-Standard および Campaign Classic のエラーメッセージのリストが更新されました。 [詳細を表示](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=ja)
 
 トリガー - Campaign の統合ドキュメントが更新されました。 [詳細を表示](../../integrating/using/about-adobe-experience-cloud-triggers.md)
 
@@ -870,7 +862,7 @@ Campaign とアドビソリューションの統合のほとんどの URL が変
 
 配信の準備方法に関するステップバイステップの使用例を追加しました。 [詳細を表示](../../sending/using/preparing-the-send.md)
 
-認証のリストが記載された節は削除されました。 [詳細を表示](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=ja)（PDF）
+認証のリストが記載された節は削除されました。 [詳細を表示](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)（PDF）
 
 SMS 自動返信に関するステップバイステップの使用例を追加しました。 [詳細を表示](../../channels/using/managing-incoming-sms.md#managing-stop-sms)
 
@@ -1042,7 +1034,7 @@ Campaign から Analytics への KPI 共有 - [詳細を表示](../../integratin
 
 People コアサービスまたは Audience Manager と Adobe Campaign の統合を設定する手順が追加されました。 [詳細を表示](../../integrating/using/integration-with-audience-manager-or-people-core-service.md)
 
-特定の役割の機能を明確にするために、認証表が改訂されました。 [詳細を表示](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=ja)
+特定の役割の機能を明確にするために、認証表が改訂されました。 [詳細を表示](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
 
 Adobe Campaign から直接利用できるコンテキストヘルプリンクが更新されました。
 
