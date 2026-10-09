@@ -9,25 +9,32 @@ exl-id: 76d70fd1-dd93-4a6d-b18c-96ebe5a27a7d
 TQID: https://experienceleague.adobe.com/veKfBzSOBLDuuVmwQjSQoa3cb-fY4jUigBdGTCUL8pM
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: ca3c1dd6-bdd2-41a9-bc5a-e35f5cca9e63
+    internal-label: Application settings
   - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+    internal-label: Permissions
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Administration
+source-git-commit: 690eddf477a139564babaa4e39cc66d095371480
 workflow-type: tm+mt
-source-wordcount: 2782
+source-wordcount: '2782'
 ht-degree: 55%
-
 ---
-
 # 電子メールチャネルの設定{#configuring-email-channel}
 
 Campaign [管理者](../../administration/using/users-management.md#functional-administrators)は、メールチャネルを設定できます。 これらの詳細設定には、一般的なメールチャネルパラメーター、メールルーティングアカウント、メール処理ルールおよびメールのプロパティが含まれます。 このページでは、一般的なメールと送信パラメーターのデフォルト値を編集する方法について説明します。
@@ -44,14 +51,14 @@ Campaign [管理者](../../administration/using/users-management.md#functional-a
 
   Adobe Campaign は、メッセージの準備段階で、入力されたアドレスが有効であるかどうかを確認します。 この動作モードでは、配信品質の問題をトリガーする可能性のあるアドレスを一切使用しないようにします。
 
-   * 送信者アドレスとエラーアドレスの両方は Adobe が設定します。 これらのフィールドは空にできません。
-   * これらのフィールドは編集できません。 住所を更新する場合は、Adobe カスタマーケアチームにお問い合わせください。
-   * 別のアドレスを追加するには、[&#x200B; キャンペーンCampaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=ja)を使用して新しいサブドメインを設定するか、Adobe カスタマーケアチームにお問い合わせください。 複数のマスクを使用する場合は、コンマで区切ります。
-   * **@yourdomain.com**&#x200B;などの星を使用してアドレスを設定することをお勧めします。これにより、サブドメイン名で終わるすべてのアドレスを使用できます。
+  * 送信者アドレスとエラーアドレスの両方は Adobe が設定します。 これらのフィールドは空にできません。
+  * これらのフィールドは編集できません。 住所を更新する場合は、Adobe カスタマーケアチームにお問い合わせください。
+  * 別のアドレスを追加するには、[ キャンペーンCampaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=ja)を使用して新しいサブドメインを設定するか、Adobe カスタマーケアチームにお問い合わせください。 複数のマスクを使用する場合は、コンマで区切ります。
+  * **@yourdomain.com**&#x200B;などの星を使用してアドレスを設定することをお勧めします。これにより、サブドメイン名で終わるすべてのアドレスを使用できます。
 
 * **配信品質**
 
-  **[!UICONTROL Delivery reports ID]**&#x200B;は、Adobe カスタマーケアチームによって提供されます。 これは、技術的な配信品質レポートで使用される配信品質 ID で各インスタンスを識別します。
+  **[!UICONTROL Delivery reports ID]**は、Adobe カスタマーケアチームによって提供されます。 これは、技術的な配信品質レポートで使用される配信品質 ID で各インスタンスを識別します。
   <!--The Technical Deliverability report is not accessible through the UI in ACS. It will be replaced with 250ok in the future (project starting).-->
 
 * **配信パラメーター**
@@ -80,7 +87,7 @@ Campaign [管理者](../../administration/using/users-management.md#functional-a
 
   「**[!UICONTROL Time between two significant errors]**」フィールドに値を入力して、ソフトバウンスのエラーが発生した場合にエラーカウンターを増やすまでのアプリケーションの待機時間を定義します。 デフォルト値は「**1d**」（1 日）です。
 
-  **[!UICONTROL Maximum number of errors before quarantine]**&#x200B;値に達すると、メールアドレスが隔離されます。 デフォルト値は&#x200B;**&quot;5&quot;**&#x200B;です。アドレスは5番目のエラーで強制隔離されます。 これは、連絡先が後続の配信から自動的に除外されることを意味します。
+  **[!UICONTROL Maximum number of errors before quarantine]**&#x200B;値に達すると、メールアドレスが隔離されます。 デフォルト値は&#x200B;**&quot;5&quot;**です。アドレスは5番目のエラーで強制隔離されます。 これは、連絡先が後続の配信から自動的に除外されることを意味します。
   <!--Actually the way ACS works is that the address is already on the quarantine list on the first bounce, but with a different status meaning that the error count has started.-->
 
   強制隔離について詳しくは、[強制隔離管理の理解](../../sending/using/understanding-quarantine-management.md)を参照してください。
@@ -199,7 +206,7 @@ Campaign で設定した&#x200B;**配信期間設定**（[有効期間パラメ�
 
 #### SMTP テストモード {#smtp-test-mode}
 
-実際にメッセージを送信せずにSMTP接続を介してメール送信をテストするには、**[!UICONTROL Enable SMTP test mode]** オプションを使用します。 配信は SMTP サーバーに接続するまで処理されますが、送信はされません。配信のすべての受信者について、Campaign は SMTP プロバイダーサーバーに接続し、「SMTP RCPT TO」コマンドを実行して、「SMTP DATA」コマンドの前に接続を閉じます。
+実際にメッセージを送信せずにSMTP接続を介してメール送信をテストするには、**[!UICONTROL Enable SMTP test mode]** オプションを使用します。 配信は SMTP サーバーへの接続まで処理されますが、送信はされません。配信の受信者ごとに、Campaign は SMTP プロバイダーサーバーに接続し、「SMTP RCPT TO」コマンドを実行して、「SMTP DATA」コマンドの前に接続を閉じます。
 
 ![](assets/smtp-test-mode.png)
 
@@ -237,10 +244,10 @@ SMTP の設定について詳しくは、[メール SMTP パラメーターの�
 * **[!UICONTROL Resource validity duration]**／**[!UICONTROL Validity limit date for resources]**：このフィールドは、アップロードされたリソース（主にミラーページと画像）に関して使用されます。 ディスクスペースを節約するために、このページ上のリソースが有効な期間は限られています。
 * **[!UICONTROL Mirror page management]**：ミラーページは、Web ブラウザーからオンラインアクセス可能な HTML ページです。 コンテンツはメールの内容と変わりません。 デフォルトでは、メールコンテンツ内にリンクが挿入されているとミラーページが生成されます。 このフィールドを使用して、このページの生成方法を変更します。
 
-   * **[!UICONTROL Generate the mirror page if a mirror link appears in the email content]**（デフォルトモード）：リンクがメールコンテンツに挿入された場合、ミラーページが生成されます。
-   * **Force the generation of the mirror page**：メッセージ内にミラーページへのリンクが挿入されていなくても、ミラーページを生成します。
-   * **Do not generate the mirror page**：メッセージ内にリンクが挿入されていても、ミラーページを生成しません。
-   * **Generate a mirror page accessible using only the message ID**：配信ログウィンドウで、パーソナライズ機能情報を含むミラーページのコンテンツにアクセスできるようにします。
+  * **[!UICONTROL Generate the mirror page if a mirror link appears in the email content]**（デフォルトモード）：リンクがメールコンテンツに挿入された場合、ミラーページが生成されます。
+  * **Force the generation of the mirror page**：メッセージ内にミラーページへのリンクが挿入されていなくても、ミラーページを生成します。
+  * **Do not generate the mirror page**：メッセージ内にリンクが挿入されていても、ミラーページを生成しません。
+  * **Generate a mirror page accessible using only the message ID**：配信ログウィンドウで、パーソナライズ機能情報を含むミラーページのコンテンツにアクセスできるようにします。
 
   >[!IMPORTANT]
   >

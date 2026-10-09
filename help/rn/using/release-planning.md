@@ -11,17 +11,18 @@ exl-id: 1f48d4da-5622-4fab-af87-fcce0e40ade1
 TQID: https://experienceleague.adobe.com/J9pNnea7LEzzIOs3B8lLWG7DhVI-iytVfpArC3Xdy94
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Beginner
+source-git-commit: 85ffa7d709dc970ab5315fb76577c457380b40f8
 workflow-type: tm+mt
-source-wordcount: 411
-ht-degree: 100%
-
+source-wordcount: '417'
+ht-degree: 94%
 ---
-
 # リリース計画 {#release-planning}
 
 アドビは、新しい機能の追加、機能強化および修正を加えることにより、ソリューションを継続的に改善しています。
@@ -30,39 +31,13 @@ ht-degree: 100%
 
 アップグレードは 2 段階でデプロイされます。 まず、ステージインスタンスがアップグレードされて、新しい機能をテストしたり、必要に応じて設定を調整したりできるようになります。 次に、実稼動インスタンスがアップグレードされます。
 
-リリース日は変更される場合があります。定期的にこのページにアクセスして、アップデートを確認してください。 環境のアップデートは、以下に示す期間に順次おこなわれます。 正確な日付は、各顧客にメールで通知されます。
+リリース日は変更される場合があります。定期的にこのページにアクセスして、アップデートを確認してください。 環境の更新は、波の中で行われます。 正確な日付は、各顧客にメールで通知されます。
 
 ## リリース 26.3 {#release-26-3-release}
 
 このリリースに関する詳細は、ステージング環境のアップグレードが開始されたときに[リリースノート](release-notes.md)で確認できます。
 
-<table>
- <thead>
-  <tr>
-   <th> 環境 </th>
-   <th> 日付</th>
-   <!--
-   <th> General Availability </th>
-   -->
-  </tr>
- </thead>
- <tbody>
-  <tr>
-   <td>ステージ </td>
-   <td>8月 </td>
-   <!--
-   <td>2025 - Dates to be confirmed</td>
-   -->
-  </tr>
-  <tr>
-   <td>本番 </td>
-   <td>9月 </td>
-   <!--
-   <td>2025 - Dates to be confirmed</td>
-   -->
-  </tr>
- </tbody>
-</table>
+リリース 26.3のアップグレードアップデートはまだ利用できません。 このページに定期的にアクセスして、更新を確認します。
 
 ## 質問と回答 {#questions-and-answers}
 
