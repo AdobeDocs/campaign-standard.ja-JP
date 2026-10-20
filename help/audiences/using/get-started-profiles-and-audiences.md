@@ -87,7 +87,7 @@ Campaignでは、[&#x200B; サービス &#x200B;](../../audiences/using/creating
 
 >[!IMPORTANT]
 >
->[Adobe Campaignの許容される使用ポリシー](https://www.adobe.com/legal/terms/aup.html)を尊重する必要があります。
+>[Adobe Campaignの許容される使用ポリシー](https://www.adobe.com/jp/legal/terms/aup.html)を尊重する必要があります。
 
 詳しくは、以下を参照してください。
 
