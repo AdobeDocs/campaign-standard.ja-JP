@@ -6,25 +6,36 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 00714c80-bdaf-4241-bf2f-51498ca1dbef
-TQID: https://experienceleague.adobe.com/HvLFiLS2GV0iJODsGL3AMMWd-lXbvDXYyLSJ8Mj20-w
+TQID: 'https://experienceleague.adobe.com/HvLFiLS2GV0iJODsGL3AMMWd-lXbvDXYyLSJ8Mj20-w'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+    internal-label: Permissions
+  - id: efa38731-2723-4334-8d8b-a778af834835
+    internal-label: Access management
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Administration
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 229
+source-wordcount: '229'
 ht-degree: 75%
-
 ---
-
 # 役割のリスト{#list-of-roles}
 
 Adobe Campaign には、ユーザーやユーザーグループに割り当てる単一権限を定義するための一連の役割がデフォルトで用意されています。
@@ -39,7 +50,7 @@ Adobe Campaign には、ユーザーやユーザーグループに割り当て�
 
   >[!NOTE]
   >
-  >Experience Cloud トリガーを使用している場合は、Experience Cloud トリガー メニューにアクセスするには&#x200B;**[!UICONTROL Administration]**&#x200B;権限が必要です。 Experience Cloud トリガーについて詳しくは、この[&#x200B; ページ &#x200B;](../../integrating/using/about-adobe-experience-cloud-triggers.md)を参照してください。
+  >Experience Cloud トリガーを使用している場合、Experience Cloud トリガーメニューにアクセスするには&#x200B;**[!UICONTROL Administration]**&#x200B;権限が必要です。 Experience Cloud トリガーについて詳しくは、この[ ページ ](../../integrating/using/about-adobe-experience-cloud-triggers.md)を参照してください。
 
 * **[!UICONTROL Datamodel]**：パブリケーションの実行とカスタムリソースの作成をおこなう権限
 * **[!UICONTROL Generic import]**：データに対する一般的なインポートを実行する権限。 これを機能させるには、**[!UICONTROL Generic import]**&#x200B;の役割を&#x200B;**[!UICONTROL Workflow]**&#x200B;の役割にリンクする必要があります。
@@ -49,7 +60,7 @@ Adobe Campaign には、ユーザーやユーザーグループに割り当て�
 
 詳しくは、[役割と権限の対応表](/help/administration/using/assets/acs_rights.pdf)を参照してください。この表には、選択した権限に応じて、インターフェイスで使用できる機能の詳細が示されています。
 
-[![画像](assets/user_management_3.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=ja)
+[![画像](assets/user_management_3.png)](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
 
 **関連トピック：**
 

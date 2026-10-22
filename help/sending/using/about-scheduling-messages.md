@@ -8,20 +8,26 @@ context-tags: delivery,schedule,back
 feature: Send Time Optimization
 role: User
 exl-id: 6b26615b-4aa6-401d-a12d-25cef4cd0524
-TQID: https://experienceleague.adobe.com/N0t5qvKiceoZEekhToXAk1PfNe1HE22vAaobLr32oME
+TQID: 'https://experienceleague.adobe.com/N0t5qvKiceoZEekhToXAk1PfNe1HE22vAaobLr32oME'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: 0d3d7867-163e-5570-9cfc-7132e55fb049
+    internal-label: Send Time Optimization
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Optimization
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 276
-ht-degree: 80%
-
+source-wordcount: '279'
+ht-degree: 79%
 ---
-
 # メッセージのスケジュール設定について{#about-scheduling-messages}
 
 >[!IMPORTANT]
@@ -42,7 +48,7 @@ ht-degree: 80%
 
   送信の準備と確認はできますが、メッセージは選択した日時まで送信されません。 送信の準備と確認は、[送信の準備](../../sending/using/preparing-the-send.md)および[送信の確認](../../sending/using/confirming-the-send.md)の節に記載されています。
 
-  **[!UICONTROL Time zone of the contact date]** ドロップダウンリストを使用すると、送信時間のタイムゾーンを変更できます。 例えば、**[!UICONTROL Start sending from]** フィールドに「午前9:00」と入力し、**[!UICONTROL Time zone of the contact date]** ドロップダウンリストで「ブリュッセル、コペンハーゲン、マドリード、パリ」（GMT+1）を選択すると、すべての受信者がパリ時間の午前9:00時にメッセージを受け取ります。 したがって、モスクワ（GMT+3）に位置する受信者は、モスクワ時間の午前11:00時にメッセージを受け取ります。
+  **[!UICONTROL Time zone of the contact date]** ドロップダウンリストを使用すると、送信時間のタイムゾーンを変更できます。 例えば、**[!UICONTROL Start sending from]** フィールドに「午前9:00」と入力し、**[!UICONTROL Time zone of the contact date]** ドロップダウンリストで「ブリュッセル、コペンハーゲン、マドリード、パリ」（GMT+1）を選択すると、すべての受信者がパリ時間の午前9:00にメッセージを受け取ります。 したがって、モスクワ（GMT+3）に位置する受信者は、モスクワ時間の午前11時にメッセージを受信します。
 
   手動で送信を確認する場合は、「**[!UICONTROL Request confirmation before sending messages]**」オプションをオンにします。 このオプションは、デフォルトでは有効になっています。
 

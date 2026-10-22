@@ -9,30 +9,43 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: 57e85f8e-65b4-44ea-98e6-0c555acf6dee
-TQID: https://experienceleague.adobe.com/WpIRNQtob-mtXSfXYBklwkcObjScygqUrHWRnJOscrM
+TQID: 'https://experienceleague.adobe.com/WpIRNQtob-mtXSfXYBklwkcObjScygqUrHWRnJOscrM'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: dd99420f-367d-4a14-bbc4-5140615992c2
+    internal-label: Microsoft CRM integration
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Administration
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 961
+source-wordcount: '964'
 ht-degree: 1%
-
 ---
-
 # Adobe Campaign Standardとの統合用にMicrosoft Dynamics 365を設定します
 
 Microsoft Dynamics 365との連携を設定し、Adobe Campaign Standardを使用してクロスチャネルコミュニケーションでCRM データをアクティブ化する方法について説明します。
 
 ## 概要
 
-Adobe Campaign StandardとMicrosoft Dynamics 365の統合に関する一般的な説明については、[このページ &#x200B;](../../integrating/using/d365-acs-get-started.md)を参照してください。
+Adobe Campaign StandardとMicrosoft Dynamics 365の統合に関する一般的な説明については、[このページ ](../../integrating/using/d365-acs-get-started.md)を参照してください。
 
 統合を有効にするには、複数のアプリケーションを設定する必要がありますが、この記事では、Dynamics 365内で必要な手順に焦点を当てます。
 
@@ -48,7 +61,7 @@ OAuth アクセストークンを使用すると、統合ツールはweb APIを�
 
 主な手順については、次のビデオを参照してください。
 
->[!VIDEO](https://video.tv.adobe.com/v/35054?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/27637)
 
 OAuth アクセストークンを生成するには、次の手順に従います。
 
@@ -131,7 +144,7 @@ OAuth アクセストークンを生成するには、次の手順に従いま�
 Dynamics 365 アプリをCampaign Standard環境に統合するには、次の手順に従います。
 
 1. [Microsoft Business Apps](https://appsource.microsoft.com/en-us/marketplace/apps)を参照し、検索バーで_Adobe Campaign Standard_を検索します。
-または、この[&#x200B; リンク &#x200B;](https://appsource.microsoft.com/en-us/product/dynamics-365/adobe.adobe_campaign_d365?tab=Overview){target="_blank"}に移動することもできます。
+または、この[ リンク ](https://appsource.microsoft.com/en-us/product/dynamics-365/adobe.adobe_campaign_d365?tab=Overview){target="_blank"}に移動することもできます。
 1. 手順に従って、Dynamics 365 インスタンス用のアプリをインストールします。
 1. インストールが完了したら、Dynamics 365 インスタンスに移動し、管理者としてログインします。
 1. 右上隅の歯車アイコンをクリックし、**[!UICONTROL Advanced Settings]**&#x200B;をクリックします。 上部バナーで、**[!UICONTROL Settings]**&#x200B;の横にあるドロップダウンをクリックし、**[!UICONTROL Process Center]**&#x200B;の下の&#x200B;**[!UICONTROL Processes]**&#x200B;をクリックします。
@@ -147,4 +160,4 @@ Dynamics 365 アプリをCampaign Standard環境に統合するには、次の�
 **関連トピック**
 
 * [Microsoft Dynamics 365統合用Adobe Developerの設定](../../integrating/using/d365-acs-configure-adobe-io.md)は、統合を設定する次の手順です
-* [&#x200B; セルフサービス統合アプリの基本を学ぶ](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md)には、統合を開始するための手順の完全なリストが含まれています。
+* [ セルフサービス統合アプリの基本を学ぶ](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md)には、統合を開始するための手順の完全なリストが含まれています。

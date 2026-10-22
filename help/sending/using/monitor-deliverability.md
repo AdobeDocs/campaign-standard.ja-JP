@@ -9,23 +9,31 @@ feature: Deliverability
 role: User
 level: Intermediate
 exl-id: 683341fb-fef5-4aa1-8606-9526d9ae6290
-TQID: https://experienceleague.adobe.com/e185wubn3YVJGYrzxDtT6CquM1hojLGStmxbsvtV0oE
+TQID: 'https://experienceleague.adobe.com/e185wubn3YVJGYrzxDtT6CquM1hojLGStmxbsvtV0oE'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: 63876777-85c3-57e1-a2da-81f02956c63c
+    internal-label: Deliverability
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Troubleshooting
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 310
+source-wordcount: '310'
 ht-degree: 48%
-
 ---
-
 # 配信品質の監視{#monitor-deliverability}
 
 以下では、**[!UICONTROL Delivery throughput]** レポートの詳細と、Adobe Campaignが提供する様々な監視ツールについて説明します。 配信品質の監視に関する追加のガイドラインを示します。
@@ -47,7 +55,7 @@ ht-degree: 48%
 
 タイムスケールを変更することで、表示される値を設定できます。
 
-**[!UICONTROL Delivery summary]**&#x200B;や&#x200B;**[!UICONTROL Non-deliverables and bounces]**&#x200B;など、その他のレポートを利用できます。 詳しくは、[動的レポート &#x200B;](../../reporting/using/about-dynamic-reports.md)を参照してください。
+**[!UICONTROL Delivery summary]**&#x200B;や&#x200B;**[!UICONTROL Non-deliverables and bounces]**&#x200B;など、その他のレポートを利用できます。 詳しくは、[動的レポート ](../../reporting/using/about-dynamic-reports.md)を参照してください。
 
 ## 配信の監視 {#monitoring-deliveries}
 
@@ -61,7 +69,7 @@ ht-degree: 48%
 
 **[!UICONTROL Delivery alerting]**&#x200B;機能は、ユーザーのグループが配信の実行に関する情報を含む通知を自動的に受信できるようにするアラート管理システムです。
 
-詳しくは、「[&#x200B; エラーが発生したときにアラートを受信する](../../sending/using/receiving-alerts-when-failures-happen.md)」を参照してください。
+詳しくは、「[ エラーが発生したときにアラートを受信する](../../sending/using/receiving-alerts-when-failures-happen.md)」を参照してください。
 
 <!--
 ## External tools (#external-tools)

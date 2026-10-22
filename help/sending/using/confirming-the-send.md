@@ -9,25 +9,36 @@ feature: Performance Monitoring
 role: User
 level: Intermediate
 exl-id: 0a0fe969-cdfd-4b0c-a746-081038424d86
-TQID: https://experienceleague.adobe.com/F0EDpvoHNd-fQYxgk5CD-3dlStrW1OhOdlQ6k4tH-c8
+TQID: 'https://experienceleague.adobe.com/F0EDpvoHNd-fQYxgk5CD-3dlStrW1OhOdlQ6k4tH-c8'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+    internal-label: Dynamic reporting
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: c03a11ff-bdf9-4e5b-b279-f468b4293464
+    internal-label: Performance Monitoring
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Security
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 996
+source-wordcount: '996'
 ht-degree: 40%
-
 ---
-
 # 送信の確認{#confirming-the-send}
 
 メッセージの準備と承認手順が完了したら、メッセージを送信できます。 メッセージの準備について詳しくは、[送信の準備](../../sending/using/preparing-the-send.md)を参照してください。
@@ -102,7 +113,7 @@ KPIの更新に時間がかかりすぎたり、送信ログの結果が反映�
 
 各メールの&#x200B;**[!UICONTROL Summary]** ビューでは、**[!UICONTROL Delivered]**&#x200B;の割合は100%で始まり、ソフトバウンスとハードバウンスが報告されるので、配信[有効期限](../../administration/using/configuring-email-channel.md#validity-period-parameters)を通じて徐々に下がります<!--from the Enhanced MTA to Campaign-->。
 
-実際、すべてのメッセージは、CampaignからEnhanced MTA （Message Transfer Agent）に正常に中継されるとすぐに、[送信ログ &#x200B;](../../sending/using/monitoring-a-delivery.md#sending-logs)に&#x200B;**[!UICONTROL Sent]**&#x200B;と表示されます。 メッセージの[バウンス](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)が Enhanced MTA からキャンペーンに返されるまで、メッセージのステータスは変わりません。
+実際、すべてのメッセージは、CampaignからEnhanced MTA （Message Transfer Agent）に正常に中継されるとすぐに、[送信ログ ](../../sending/using/monitoring-a-delivery.md#sending-logs)に&#x200B;**[!UICONTROL Sent]**&#x200B;と表示されます。 メッセージの[バウンス](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)が Enhanced MTA からキャンペーンに返されるまで、メッセージのステータスは変わりません。
 
 強化されたMTAからハードバウンス メッセージが報告されると、ステータスが&#x200B;**[!UICONTROL Sent]**&#x200B;から&#x200B;**[!UICONTROL Failed]**&#x200B;に変更され、それに応じて&#x200B;**[!UICONTROL Delivered]**&#x200B;の割合が減少します。
 

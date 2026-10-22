@@ -6,37 +6,48 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 5f9a8e84-a362-42b6-8bd2-e5d56214c1db
-TQID: https://experienceleague.adobe.com/VFoQlDxzagik5EI-gzWmNkHfZaJtM7V9-1TwJnGxstc
+TQID: 'https://experienceleague.adobe.com/VFoQlDxzagik5EI-gzWmNkHfZaJtM7V9-1TwJnGxstc'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: 7f0a1ee5-eeb8-5478-a9cd-b1896f033118
+    internal-label: Instance Settings
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Administration
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 1443
+source-wordcount: '1460'
 ht-degree: 4%
-
 ---
-
 # モバイルアプリケーションの設定{#configuring-a-mobile-application}
 
 ## Adobe Experience Platform SDKを使用したモバイルアプリケーションの設定 {#using-adobe-experience-platform-sdk}
 
 >[!IMPORTANT]
 >
-> Adobe Experience Platform Launchは、Adobe Experience Platformのデータ収集テクノロジースイートとしてリブランドされました。 これにより、製品ドキュメント全体で、いくつかの用語が変更されました。 用語の変更の統合参照については、[次のドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=ja){target="_blank"}を参照してください。
+> Adobe Experience Platform Launchは、Adobe Experience Platformのデータ収集テクノロジースイートとしてリブランドされました。 これにより、製品ドキュメント全体で、いくつかの用語が変更されました。 用語の変更の統合参照については、[次のドキュメント ](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html){target="_blank"}を参照してください。
 
 プッシュ通知とアプリ内実装は、エキスパートユーザーが実行する必要があることに注意してください。 詳しくは、Adobe アカウントの担当者またはプロフェッショナルサービスパートナーにお問い合わせください。
 
 Experience Platform SDK アプリケーションを使用してプッシュ通知やアプリ内メッセージを送信するには、モバイルアプリケーションをData Collection UIで設定し、Adobe Campaignで設定する必要があります。
 
-モバイルアプリケーションを設定すると、収集したPII データを取得して、データベースからプロファイルを作成または更新できます。 詳しくは、この節「[&#x200B; モバイルアプリケーションデータに基づくプロファイル情報の作成と更新](../../channels/using/updating-profile-with-mobile-app-data.md)」を参照してください。
+モバイルアプリケーションを設定すると、収集したPII データを取得して、データベースからプロファイルを作成または更新できます。 詳しくは、この節「[ モバイルアプリケーションデータに基づくプロファイル情報の作成と更新](../../channels/using/updating-profile-with-mobile-app-data.md)」を参照してください。
 
-Adobe Experience Platform SDKを使用してAdobe Campaign Standardでサポートされているさまざまなモバイルユースケースについて詳しくは、この[&#x200B; ページ &#x200B;](../../administration/using/supported-mobile-use-cases.md)を参照してください。
+Adobe Experience Platform SDKを使用してAdobe Campaign Standardでサポートされているさまざまなモバイルユースケースについて詳しくは、この[ ページ ](../../administration/using/supported-mobile-use-cases.md)を参照してください。
 
 設定を完了するには、次の手順を実行します。
 
@@ -52,7 +63,7 @@ Adobe Experience Platform SDKを使用してAdobe Campaign Standardでサポー�
    * Adobe Campaign Standardで、IMS ユーザーが標準ユーザーおよび管理者製品プロファイルの一部であることを確認します。 この手順では、ユーザーはAdobe Campaign Standardにログインし、Experience Platform SDK モバイルアプリページに移動して、データ収集UIで作成したモバイルアプリプロパティを表示できます。
 
    * データ収集UIで、IMS ユーザーがExperience Platform Launch製品プロファイルの一部であることを確認します。
-この手順では、ユーザーはデータ収集UIにログインして、プロパティを作成および表示できます。 データ収集UIの製品プロファイルについて詳しくは、[製品プロファイルの作成](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/manage-permissions.html?lang=ja#gain-admin-rights-for-a-tags-product-profile)を参照してください。 製品プロファイルでは、会社またはプロパティに対して権限が設定されていないことが必要ですが、ユーザーはログインできます。
+     この手順では、ユーザーはデータ収集UIにログインして、プロパティを作成および表示できます。 データ収集UIの製品プロファイルについて詳しくは、[製品プロファイルの作成](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/manage-permissions.html#gain-admin-rights-for-a-tags-product-profile)を参照してください。 製品プロファイルでは、会社またはプロパティに対して権限が設定されていないことが必要ですが、ユーザーはログインできます。
 
    拡張機能のインストール、アプリの公開、環境の設定など、追加のタスクを完了するには、製品プロファイルで権限を設定する必要があります。
 
@@ -68,7 +79,7 @@ Adobe Experience Platform SDKを使用してAdobe Campaign Standardでサポー�
 詳しくは、[Adobe Campaign のチャネル固有のアプリケーション設定](../../administration/using/configuring-a-mobile-application.md#channel-specific-config)を参照してください。
 
 1. 必要に応じて、タグプロパティを削除できます。
-詳しくは、[&#x200B; アプリケーションの削除](../../administration/using/configuring-a-mobile-application.md#delete-app)を参照してください。
+詳しくは、[ アプリケーションの削除](../../administration/using/configuring-a-mobile-application.md#delete-app)を参照してください。
 
 ## Launch テクニカルワークフローからモバイルアプリ AEPSDKを同期 {#aepsdk-workflow}
 
@@ -95,7 +106,7 @@ Campaignでタグモバイルプロパティを使用するには、このプロ
 
 テクニカルワークフローが実行されるのを待ち、タグモバイルプロパティをAdobe Campaignに同期する必要があります。 その後、Adobe Campaignで設定できます。
 
-Launch テクニカルワークフローからのモバイルアプリ AEPSDKの同期について詳しくは、この[&#x200B; セクション &#x200B;](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow)を参照してください。
+Launch テクニカルワークフローからのモバイルアプリ AEPSDKの同期について詳しくは、この[ セクション ](../../administration/using/configuring-a-mobile-application.md#aepsdk-workflow)を参照してください。
 
 >[!NOTE]
 >
@@ -154,7 +165,7 @@ Launch テクニカルワークフローからのモバイルアプリ AEPSDKの
 
 1. 「**[!UICONTROL Add]**」をクリックします。
 
-   アプリ内メッセージの作成時に、「トリガー」タブでイベントを利用できるようになりました。 詳しくは、[&#x200B; アプリ内メッセージの準備と送信](../../channels/using/preparing-and-sending-an-in-app-message.md)を参照してください。
+   アプリ内メッセージの作成時に、「トリガー」タブでイベントを利用できるようになりました。 詳しくは、[ アプリ内メッセージの準備と送信](../../channels/using/preparing-and-sending-an-in-app-message.md)を参照してください。
 
 1. モバイルアプリケーションダッシュボードの&#x200B;**[!UICONTROL Device-specific settings]** セクションで、各デバイスに対してアプリケーションの詳細を指定します。
 
@@ -162,10 +173,10 @@ Launch テクニカルワークフローからのモバイルアプリ AEPSDKの
 
    次のアプリケーションの詳細を入力します。
 
-   * **アプリ ID （iOS バンドル ID）**: バンドル IDの詳細については、[Apple ドキュメント &#x200B;](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids){target="_blank"}を参照してください。
-   * **iOS証明書（P8） ファイル**: .p8認証キーをドラッグ&amp;ドロップします。 .p8認証ファイルを生成する方法については、[Apple開発者アカウント &#x200B;](https://developer.apple.com/account/ios/authkey/create){target="_blank"}を参照してください。
-   * **キーID**: キーIDについて詳しくは、[Apple ドキュメント &#x200B;](https://developer.apple.com/help/account/manage-keys/get-a-key-identifier/){target="_blank"}を参照してください。
-   * **iOS チーム ID**: iOS チーム IDの詳細については、[Apple ドキュメント &#x200B;](https://developer.apple.com/help/account/manage-your-team/locate-your-team-id/){target="_blank"}を参照してください。
+   * **アプリ ID （iOS バンドル ID）**: バンドル IDの詳細については、[Apple ドキュメント ](https://developer.apple.com/documentation/appstoreconnectapi/bundle_ids){target="_blank"}を参照してください。
+   * **iOS証明書（P8） ファイル**: .p8認証キーをドラッグ&amp;ドロップします。 .p8認証ファイルを生成する方法については、[Apple開発者アカウント ](https://developer.apple.com/account/ios/authkey/create){target="_blank"}を参照してください。
+   * **キーID**: キーIDについて詳しくは、[Apple ドキュメント ](https://developer.apple.com/help/account/manage-keys/get-a-key-identifier/){target="_blank"}を参照してください。
+   * **iOS チーム ID**: iOS チーム IDの詳細については、[Apple ドキュメント ](https://developer.apple.com/help/account/manage-your-team/locate-your-team-id/){target="_blank"}を参照してください。
 
      ![](assets/mobile_app_ios_config.png)
    +++
@@ -174,7 +185,7 @@ Launch テクニカルワークフローからのモバイルアプリ AEPSDKの
 
    次のアプリケーションの詳細を入力します。
 
-   * **アプリ ID （Android パッケージ名）**: パッケージ名について詳しくは、[Android ドキュメント &#x200B;](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores){target="_blank"}を参照してください。
+   * **アプリ ID （Android パッケージ名）**: パッケージ名について詳しくは、[Android ドキュメント ](https://support.google.com/admob/answer/9972781?hl=en#:~:text=The%20package%20name%20of%20an,supported%20third%2Dparty%20Android%20stores){target="_blank"}を参照してください。
    * **Android キー（Json） ファイル**:.json秘密鍵ファイルをドラッグ&amp;ドロップします。 .json秘密鍵ファイルを生成する方法については、[Firebase](https://firebase.google.com/docs/admin/setup#initialize_the_sdk_in_non-google_environments){target="_blank"}の開発者ドキュメントを参照してください。
 
      ![](assets/mobile_app_android_config.png)
@@ -190,7 +201,7 @@ Launch テクニカルワークフローからのモバイルアプリ AEPSDKの
 >
 >アプリケーションの削除を元に戻すことはできません。
 
-アプリケーションを削除するには、[&#x200B; モバイルプロパティの削除](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/#deleting-mobile-properties-in-the-data-collection-ui)の手順を実行します。
+アプリケーションを削除するには、[ モバイルプロパティの削除](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/#deleting-mobile-properties-in-the-data-collection-ui)の手順を実行します。
 
 アプリケーションを削除した後、Adobe Campaignで、アプリケーションのプロパティステータスがLaunchの「削除済み」に正しく更新されているかどうかを確認します。
 

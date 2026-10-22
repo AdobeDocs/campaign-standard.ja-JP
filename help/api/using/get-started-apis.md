@@ -9,13 +9,25 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: c6968252-a012-4029-bbb8-66f4f693e99b
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '247'
 ht-degree: 100%
-
 ---
-
 # Campaign Standard API の基本を学ぶ {#get-started-apis}
 
 Campaign Standard API は、Adobe Campaign Standard 向けの&#x200B;**統合を実現**&#x200B;し、Adobe Campaign Standard と使用するテクノロジーのパネルを連携させて&#x200B;**独自のエコシステムを構築**&#x200B;することを目的としています。
@@ -38,9 +50,9 @@ Adobe Campaign Standard API を使用すると、次の機能にアクセスで�
 
 >[!NOTE]
 >
->API 呼び出しを実行する前に、使用許諾契約に対応する拡張制限を確認してください。詳しくは、[このページ](https://helpx.adobe.com/jp/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers)を参照してください。
+>API 呼び出しを実行する前に、使用許諾契約に対応する拡張制限を確認してください。 詳しくは、[このページ](https://helpx.adobe.com/jp/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers)を参照してください。
 
-Campaign Standard API を使用するには、Adobe I/O アカウントが必要です。これは、適切な API 機能を探し、利用するために必須となる最初の手順です。
+Campaign Standard API を使用するには、Adobe I/O アカウントが必要です。 これは、適切な API 機能を探し、利用するために必須となる最初の手順です。
 詳しくは、[この節](../../api/using/setting-up-api-access.md)を参照してください。
 
 アドビが提供する API は、REST インターフェイスと JSON ペイロードを備えた&#x200B;**標準的な概念**&#x200B;を使用します 。
@@ -51,4 +63,4 @@ Campaign Standard API を使用するには、Adobe I/O アカウントが必要
 
 このドキュメントでは、すべてのエンドポイントについて詳述するほか、API の操作に関する一般的な基本事項、完全な API リファレンス、コード例、クイックスタートガイドを紹介します。
 
-API について不明な点や問題がある場合は、[アドビコミュニティ](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community?profile.language=ja)で質問してください。
+API について不明な点や問題がある場合は、[アドビコミュニティ](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)で質問してください。

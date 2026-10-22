@@ -9,24 +9,36 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 5882ada6-dff4-4fd1-a433-0eb31570f73c
-TQID: https://experienceleague.adobe.com/Im9-z6yuesgiE6sMO-dM9WgPbty2C9d-PWCv5AE-kNY
+TQID: 'https://experienceleague.adobe.com/Im9-z6yuesgiE6sMO-dM9WgPbty2C9d-PWCv5AE-kNY'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
+    internal-label: Triggers
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Administration
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 350
+source-wordcount: '350'
 ht-degree: 18%
-
 ---
-
 # トラブルシューティング{#troubleshooting}
 
 Audience ManagerまたはPeople コアサービスとの統合中にエラーが発生する場合があります。
@@ -37,8 +49,8 @@ Audience ManagerまたはPeople コアサービスとの統合中にエラーが
 
   **[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL External accounts]**&#x200B;で、次の外部S3 アカウントが正しく設定されていることを確認してください。 前述のS3 サーバーは、プロビジョニング中に設定する必要があります。
 
-   * **[!UICONTROL importSharedAudience]**: オーディエンスの読み込み専用のS3 アカウント。
-   * **[!UICONTROL exportSharedAudience]**: オーディエンスの書き出し専用のS3 アカウント。
+  * **[!UICONTROL importSharedAudience]**: オーディエンスの読み込み専用のS3 アカウント。
+  * **[!UICONTROL exportSharedAudience]**: オーディエンスの書き出し専用のS3 アカウント。
 
 * **共有データソース**
 
@@ -54,9 +66,9 @@ Audience ManagerまたはPeople コアサービスとの統合中にエラーが
 
   AES暗号化アルゴリズムを選択した場合、次の追加フィールドを正しく設定する必要があります。
 
-   * AESの&#x200B;**暗号化キー**
-   * AESの&#x200B;**暗号化IV** （初期化ベクター）
-   * **チャネル** （電子メール/SMS/その他）：このフィールドを使用すると、電子メールアドレスとSMS番号を直接復号できます。 紐付けキーが&#x200B;**チャネル** フィールドの設定と一致していることを確認してください。 「その他」を選択すると、この特定の復号化は行われず、紐付けキーがデータの紐付けに使用されます。
+  * AESの&#x200B;**暗号化キー**
+  * AESの&#x200B;**暗号化IV** （初期化ベクター）
+  * **チャネル** （電子メール/SMS/その他）：このフィールドを使用すると、電子メールアドレスとSMS番号を直接復号できます。 紐付けキーが&#x200B;**チャネル** フィールドの設定と一致していることを確認してください。 「その他」を選択すると、この特定の復号化は行われず、紐付けキーがデータの紐付けに使用されます。
 
   テクニカルワークフローが停止または一時停止したため、Experience Cloud オーディエンスが共有されない可能性があります。 データソースの「**[!UICONTROL Show ImportShared Audience workflow]**」オプションを直接クリックして、**[!UICONTROL Import shared audience]** ワークフローにアクセスします。
 

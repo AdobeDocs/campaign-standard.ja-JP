@@ -8,31 +8,41 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: 3ea58bcf-234e-4dac-b296-da3f57e18a7d
-TQID: https://experienceleague.adobe.com/q4g-LFCqxGuz-d400R4m7GZ-d74L6iCzWBF6at8xjIE
+TQID: 'https://experienceleague.adobe.com/q4g-LFCqxGuz-d400R4m7GZ-d74L6iCzWBF6at8xjIE'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
+subfeature_v2:
+  - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Personalization
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 2628
+source-wordcount: '2628'
 ht-degree: 7%
-
 ---
-
 # メールコンテンツのパーソナライズ {#personalization}
 
 Adobe Campaignが配信するメッセージの内容と表示は、様々な方法でパーソナライズできます。 プロファイルに応じて基準に従ってこれらの方法を組み合わせることができます。 Adobe Campaign には、全体として次のようなパーソナライゼーション機能が備わっています。
 
 * 動的パーソナライゼーションフィールドを挿入します。 [パーソナライゼーションフィールドの挿入](#inserting-a-personalization-field)を参照してください。
 * 定義済みパーソナライゼーションブロックの挿入： [コンテンツブロックの追加](#adding-a-content-block)を参照してください。
-* 電子メールの送信者をパーソナライズ。 [送信者のパーソナライズ &#x200B;](#personalizing-the-sender)を参照してください。
-* メールの件名をパーソナライズ： [電子メールの件名のパーソナライズ &#x200B;](../../designing/using/subject-line.md#subject-line)を参照してください。
-* 条件付きコンテンツを作成します。 [&#x200B; メール内の動的コンテンツの定義](#defining-dynamic-content-in-an-email)を参照してください。
+* 電子メールの送信者をパーソナライズ。 [送信者のパーソナライズ ](#personalizing-the-sender)を参照してください。
+* メールの件名をパーソナライズ： [電子メールの件名のパーソナライズ ](../../designing/using/subject-line.md#subject-line)を参照してください。
+* 条件付きコンテンツを作成します。 [ メール内の動的コンテンツの定義](#defining-dynamic-content-in-an-email)を参照してください。
 
 ## 送信者のパーソナライズ {#personalizing-the-sender}
 
@@ -50,7 +60,7 @@ Adobe Campaignが配信するメッセージの内容と表示は、様々な方
 
 Adobe Campaignでは、パーソナライゼーションフィールド、コンテンツブロック、動的コンテンツを追加することで、メッセージ内の1つまたは複数のURLをパーソナライズできます。 手順は次のとおりです。
 
-1. 外部URLを挿入し、そのパラメーターを指定します。 「[&#x200B; リンクの挿入](../../designing/using/links.md#inserting-a-link)」を参照してください。
+1. 外部URLを挿入し、そのパラメーターを指定します。 「[ リンクの挿入](../../designing/using/links.md#inserting-a-link)」を参照してください。
 1. 表示されない場合は、設定ペインで選択したURLの横にある鉛筆をクリックして、パーソナライゼーションオプションにアクセスします。
 1. 使用するパーソナライゼーションフィールド、コンテンツブロック、動的コンテンツを追加します。
 
@@ -92,7 +102,7 @@ Adobe Campaignでは、データベースのフィールドを、プロファイ
 
 >[!NOTE]
 >
->メールがワークフローから作成された場合、ワークフローで計算された追加データは、パーソナライゼーション フィールドでも使用できます。 ワークフローから追加のデータを追加する方法について詳しくは、「[&#x200B; データの強化](../../automating/using/about-targeting-activities.md#enriching-data)」の節を参照してください。
+>メールがワークフローから作成された場合、ワークフローで計算された追加データは、パーソナライゼーション フィールドでも使用できます。 ワークフローから追加のデータを追加する方法について詳しくは、「[ データの強化](../../automating/using/about-targeting-activities.md#enriching-data)」の節を参照してください。
 
 ## コンテンツブロックの追加 {#adding-a-content-block}
 
@@ -156,7 +166,7 @@ Adobe Campaign は、事前設定済みのコンテンツブロックのリス�
 
    ![](assets/content_bloc_02.png)
 
-1. **[!UICONTROL Targeting dimension]**&#x200B;を選択できます。 詳しくは、「[&#x200B; ターゲティングディメンションについて](#about-targeting-dimension)」を参照してください。
+1. **[!UICONTROL Targeting dimension]**&#x200B;を選択できます。 詳しくは、「[ ターゲティングディメンションについて](#about-targeting-dimension)」を参照してください。
 
    ![](assets/content_bloc_04.png)
 
@@ -178,7 +188,7 @@ Adobe Campaign は、事前設定済みのコンテンツブロックのリス�
 
 実際、メッセージを編集する場合、そのメッセージのターゲティングディメンションと互換性のあるターゲティングディメンションを持つコンテンツブロックのみを選択できます。
 
-例えば、**[!UICONTROL Unsubscription link]** ブロックのターゲティングディメンションは、**[!UICONTROL Profiles]** リソースに固有のパーソナライゼーションフィールドが含まれているため、**[!UICONTROL Profiles]**&#x200B;です。 したがって、[&#x200B; イベントトランザクションメッセージ &#x200B;](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types)では、**[!UICONTROL Unsubscription link]** ブロックを使用できません。そのタイプのメッセージのターゲティングディメンションは&#x200B;**[!UICONTROL Real-time events]**&#x200B;であるためです。 ただし、メッセージのタイプのターゲティングディメンションが&#x200B;**プロファイル**&#x200B;であるため、[&#x200B; プロファイルのトランザクションメッセージ &#x200B;](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types)で&#x200B;**購読解除リンク** ブロックを使用できます。 最後に、**[!UICONTROL Link to mirror page]** ブロックにはターゲティングディメンションがないため、任意のメッセージで使用できます。
+例えば、**[!UICONTROL Unsubscription link]** ブロックのターゲティングディメンションは、**[!UICONTROL Profiles]** リソースに固有のパーソナライゼーションフィールドが含まれているため、**[!UICONTROL Profiles]**&#x200B;です。 したがって、[ イベントトランザクションメッセージ ](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types)では、**[!UICONTROL Unsubscription link]** ブロックを使用できません。そのタイプのメッセージのターゲティングディメンションは&#x200B;**[!UICONTROL Real-time events]**&#x200B;であるためです。 ただし、メッセージのタイプのターゲティングディメンションが&#x200B;**プロファイル**&#x200B;であるため、[ プロファイルのトランザクションメッセージ ](../../channels/using/getting-started-with-transactional-msg.md#transactional-message-types)で&#x200B;**購読解除リンク** ブロックを使用できます。 最後に、**[!UICONTROL Link to mirror page]** ブロックにはターゲティングディメンションがないため、任意のメッセージで使用できます。
 
 このフィールドを空のままにすると、ターゲティングディメンションにかかわらず、コンテンツブロックはすべてのメッセージと互換性があります。 ターゲティングディメンションを設定した場合、そのブロックは同じターゲティングディメンションを持つメッセージとのみ互換性があります。
 
@@ -274,7 +284,7 @@ Adobe Campaignを使用すると、特定の条件に従ってメッセージ内
 
    ![](assets/dynamic_content_7.png)
 
-   コンテンツは、上から下の順にパレットに表示されます。 優先順位について詳しくは、[このセクション &#x200B;](#defining-dynamic-content-in-an-email)を参照してください。
+   コンテンツは、上から下の順にパレットに表示されます。 優先順位について詳しくは、[このセクション ](#defining-dynamic-content-in-an-email)を参照してください。
 
 1. 定義したバリエーションの新しい画像をアップロードします。
 
@@ -337,7 +347,7 @@ Adobe Campaignを使用すると、特定の条件に従ってメッセージ内
 
   ![](assets/delivery_content_44.png)
 
-  パーソナライゼーションフィールドの追加と設定について詳しくは、[&#x200B; パーソナライゼーションフィールドの挿入](#inserting-a-personalization-field) セクションを参照してください。
+  パーソナライゼーションフィールドの追加と設定について詳しくは、[ パーソナライゼーションフィールドの挿入](#inserting-a-personalization-field) セクションを参照してください。
 
 ### 画像の設定 {#configuring-images}
 
@@ -374,7 +384,7 @@ Adobe Campaignを使用すると、特定の条件に従ってメッセージ内
 
 1. パレットから動的コンテンツを選択して編集します。
 1. ラベルを編集し、**[!UICONTROL Profile]** ノードから&#x200B;**[!UICONTROL Age]** フィールドを選択します。
-1. 値フィールドに&#x200B;**1&rbrace;より大きい演算子の後に27を追加して、** 27 **より古い式を作成します。**
+1. 値フィールドに&#x200B;**1}より大きい演算子の後に27を追加して、** 27 **より古い式を作成します。**
 
    ![](assets/delivery_content_52.png)
 

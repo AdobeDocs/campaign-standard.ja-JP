@@ -10,22 +10,32 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 736bf3dc-96c4-4518-96f8-d9aaa46d7f84
-TQID: https://experienceleague.adobe.com/tl7zyRjRGu9XFjQbPnubDvwqTY-HV7DDPDfOdiKHSi4
+TQID: 'https://experienceleague.adobe.com/tl7zyRjRGu9XFjQbPnubDvwqTY-HV7DDPDfOdiKHSi4'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Security
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 1172
+source-wordcount: '1173'
 ht-degree: 75%
-
 ---
-
 # ファイルを転送{#transfer-file}
 
 ## 説明 {#description}
@@ -190,9 +200,9 @@ Microsoft Azure Blob プロトコルを使用すると、Microsoft Azure Blob St
 
 ## 出力変数 {#output-variables}
 
-**[!UICONTROL Transfer file]** アクティビティは、他のアクティビティで活用できるイベント変数を出力として生成します。例えば、[&#x200B; テスト &#x200B;](../../automating/using/test.md) アクティビティを使用してダウンロードされたファイルの数を確認できます。
+**[!UICONTROL Transfer file]** アクティビティは、他のアクティビティで活用できるイベント変数を出力として生成します。例えば、[ テスト ](../../automating/using/test.md) アクティビティを使用してダウンロードされたファイルの数を確認できます。
 
-イベント変数は、外部信号を使用して別のワークフローに渡すこともできます（[外部パラメーターを使用したワークフローのカスタマイズ &#x200B;](../../automating/using/customizing-workflow-external-parameters.md)を参照）。
+イベント変数は、外部信号を使用して別のワークフローに渡すこともできます（[外部パラメーターを使用したワークフローのカスタマイズ ](../../automating/using/customizing-workflow-external-parameters.md)を参照）。
 
 使用可能な出力変数は次のとおりです。
 

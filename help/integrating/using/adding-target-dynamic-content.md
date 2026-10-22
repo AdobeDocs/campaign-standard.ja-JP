@@ -9,20 +9,29 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 7dfbd89f-877e-4598-bfe3-d743bb31ae9e
-TQID: https://experienceleague.adobe.com/51wbz72EYAf6-7RvC0QhOCm1Jmw9o7W04fs9iN0viNw
+TQID: 'https://experienceleague.adobe.com/51wbz72EYAf6-7RvC0QhOCm1Jmw9o7W04fs9iN0viNw'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
+    internal-label: Triggers
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Intermediate
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 457
+source-wordcount: '457'
 ht-degree: 34%
-
 ---
-
 # Target の動的コンテンツの追加{#adding-target-dynamic-content}
 
 Adobe Targetとの連携により、動的画像を配信に追加し、エクスペリエンスに応じてコンテンツをパーソナライズできます。
@@ -31,9 +40,9 @@ Adobe Targetとの連携により、動的画像を配信に追加し、エク�
 
 Adobe Campaignで画像にアクセスする前に、まずAdobe Targetで次の作業を行う必要があります。
 
-* 1つまたは複数の[&#x200B; リダイレクトオファー](https://experienceleague.adobe.com/docs/target/using/experiences/offers/offer-redirect.html?lang=ja)を作成し、使用する画像のURLを指定する必要があります。
-* 1 つ以上の[オーディエンス](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html?lang=ja)を作成します。アクティビティのターゲットをそこで定義します。
-* [&#x200B; フォームベースのエクスペリエンスコンポーザー](https://experienceleague.adobe.com/docs/target/using/experiences/form-experience-composer.html?lang=ja) アクティビティを作成します。このアクティビティでは、作成されたリダイレクトオファーの数に応じて、レイボックスを選択し、複数のエクスペリエンスを指定する必要があります。 エクスペリエンスごとに、作成したリダイレクトオファーのいずれかを選択する必要があります。
+* 1つまたは複数の[ リダイレクトオファー](https://experienceleague.adobe.com/docs/target/using/experiences/offers/offer-redirect.html?lang=ja)を作成し、使用する画像のURLを指定する必要があります。
+* 1 つ以上の[オーディエンス](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html)を作成します。アクティビティのターゲットをそこで定義します。
+* [ フォームベースのエクスペリエンスコンポーザー](https://experienceleague.adobe.com/docs/target/using/experiences/form-experience-composer.html) アクティビティを作成します。このアクティビティでは、作成されたリダイレクトオファーの数に応じて、レイボックスを選択し、複数のエクスペリエンスを指定する必要があります。 エクスペリエンスごとに、作成したリダイレクトオファーのいずれかを選択する必要があります。
 * Adobe Campaignの情報を使用してセグメントを作成し、エクスペリエンスを特定できます。 オファーの選択ルールで Adobe Campaign からのデータを使用するには、Adobe Target のローボックスでデータを指定する必要があります。
 
 1. メール配信を作成します。
@@ -61,4 +70,4 @@ Adobe Campaignで画像にアクセスする前に、まずAdobe Targetで次の
 
 * [Adobe Target Portal](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html?lang=ja)
 * [メールコンテンツデザインについて](../../designing/using/designing-content-in-adobe-campaign.md)
-* [&#x200B; リアルタイムでメール画像をパーソナライズ &#x200B;](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html)動画
+* [ リアルタイムでメール画像をパーソナライズ ](https://helpx.adobe.com/marketing-cloud/how-to/email-marketing.html)動画

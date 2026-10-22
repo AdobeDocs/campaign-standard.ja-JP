@@ -8,33 +8,44 @@ context-tags: delivery,triggers,back
 feature: In App
 role: User
 exl-id: 0101773d-b109-49a3-89d4-b4bb226d9ebd
-TQID: https://experienceleague.adobe.com/eR4kpesC5-G0rsM3FecB4uqiPFNE4Q3K-iJJoZ09iuM
+TQID: 'https://experienceleague.adobe.com/eR4kpesC5-G0rsM3FecB4uqiPFNE4Q3K-iJJoZ09iuM'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+subfeature_v2:
+  - id: f0a90a14-8ca9-484f-994e-d7ff1bead452
+    internal-label: In app messaging
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Personalization
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 725
+source-wordcount: '725'
 ht-degree: 2%
-
 ---
-
 # アプリ内 FAQ {#in-app-faq}
 
 ## Adobe Campaign Standardのアプリ内チャネルについて詳しく知るための便利なリソースの推奨事項は何ですか？ {#resources-inapp}
 
 以下のリソースをご覧ください。
 
-* [ビデオチュートリアル](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/in-app/in-app-message-overview.html?lang=ja)
+* [ビデオチュートリアル](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/in-app/in-app-message-overview.html)
 * [ブログ投稿](https://theblog.adobe.com/get-more-out-of-the-new-in-app-message-channel-from-adobe-campaign/)
-* [コミュニティページ](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community?profile.language=ja)
+* [コミュニティページ](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
 ## Campaign拡張機能API setLinkageFieldとresetLinkageFieldの目的は何ですか？ {#extensions-apis}
 
@@ -45,19 +56,19 @@ ht-degree: 2%
 * プロファイルテンプレートを使用して作成されたメッセージは、ユーザーがアプリにログインした場合にのみ配信できます。
 * この安全なハンドシェイクを容易にするために、モバイルアプリ開発者はsetLinkageField APIを使用して追加の認証の詳細を渡す必要があります。 リンクフィールドは、appSubscriberRcp テーブルを拡張する際に、モバイルプロファイルとCRM プロファイル間のリンクとして識別されるリンクフィールドです。
 * デバイスに保存されているアプリ内メッセージをフラッシュし、ユーザーがresetLinkageFieldを使用してアプリからログアウトしたときにresetLinkagefieldsをフラッシュする必要があります。 これにより、別のユーザーがアプリにログインしても、以前のユーザー向けのメッセージが表示されなくなります。
-* このセキュリティメカニズムをクライアントサイドで実装するには、[&#x200B; モバイルSDK API](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/)を参照してください。
+* このセキュリティメカニズムをクライアントサイドで実装するには、[ モバイルSDK API](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/)を参照してください。
 
 ## Campaignでアプリ内レポートを有効にするには、どうすればよいですか？ {#enable-inapp-reporting}
 
 アプリ内トラッキングのポストバックを設定する必要があります。 手順は[こちら](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback)にあります。
 
-ローカル通知トラッキングを実装するには、この[&#x200B; ページ &#x200B;](../../administration/using/local-tracking.md)を参照してください。
+ローカル通知トラッキングを実装するには、この[ ページ ](../../administration/using/local-tracking.md)を参照してください。
 
 ## アプリ内チャネルで使用できるレポートはどれですか？ {#report-inapp}
 
-Adobe Campaignのアプリ内チャネルでは、すぐに利用できるレポートを利用できます。 この[&#x200B; ドキュメント &#x200B;](../../reporting/using/in-app-report.md)を参照してください。
+Adobe Campaignのアプリ内チャネルでは、すぐに利用できるレポートを利用できます。 この[ ドキュメント ](../../reporting/using/in-app-report.md)を参照してください。
 
-各アプリ内指標の計算方法については、この[&#x200B; ページ &#x200B;](../../reporting/using/indicator-calculation.md#in-app-delivery)を参照してください。
+各アプリ内指標の計算方法については、この[ ページ ](../../reporting/using/indicator-calculation.md#in-app-delivery)を参照してください。
 
 ## プッシュ通知と同様に、アプリ内で多言語コンテンツのバリエーションをサポートしていますか？ {#multilingual-inapp}
 
@@ -84,7 +95,7 @@ IOSでカスタムサウンドを作成する場合、ローカル通知（sound
 はい、アプリ内メッセージではディープリンクがサポートされています。 ディープリンクには次のものが含まれます。
 
 * ディープリンクを機能させるには、配信トラッキングを無効にする必要があることを示す言語。
-* AppsflyerとBranchをパートナーとして使用して、ディープリンクの追跡を行うことができます。 分岐とAdobe Campaign Standardの統合について詳しくは、この[&#x200B; ページ &#x200B;](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1)を参照してください。
+* AppsflyerとBranchをパートナーとして使用して、ディープリンクの追跡を行うことができます。 分岐とAdobe Campaign Standardの統合について詳しくは、この[ ページ ](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1)を参照してください。
 
 ## ユーザーがプッシュ通知からアプリを起動したときに、アプリ内メッセージをトリガーできますか？ {#inapp-push-trigger}
 

@@ -4,29 +4,41 @@ description: トランザクションメッセージコンテンツで製品リ�
 audience: designing
 content-type: reference
 topic-tags: editing-email-content
-context-tags: null
+context-tags:
 feature: Email Design
 role: User
 level: Intermediate
 exl-id: 3c8ddd46-05b4-4414-ab2e-052d60da09e5
-TQID: https://experienceleague.adobe.com/dkHLMJ1OU3-chsOAaZbooc0tbLI8dmNENuUnEApEVS8
+TQID: 'https://experienceleague.adobe.com/dkHLMJ1OU3-chsOAaZbooc0tbLI8dmNENuUnEApEVS8'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
+subfeature_v2:
+  - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Personalization
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 868
+source-wordcount: '865'
 ht-degree: 74%
-
 ---
-
 # トランザクションメッセージでの製品リストの使用 {#using-product-listings}
 
 >[!IMPORTANT]
@@ -37,7 +49,7 @@ ht-degree: 74%
 
 トランザクションメッセージに放棄された製品のリストを追加するには、次の手順に従います。
 
-また、トランザクションメールで製品リストを設定するために必要な手順を説明する[この一連のビデオ &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html?lang=ja#configure-product-listings-in-transactional-emails)を視聴することもできます。
+また、トランザクションメールで製品リストを設定するために必要な手順を説明する[この一連のビデオ ](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/designing-content/product-listings-in-transactional-email.html#configure-product-listings-in-transactional-emails)を視聴することもできます。
 
 >[!NOTE]
 >
@@ -48,9 +60,9 @@ ht-degree: 74%
 トランザクションメッセージ内の製品リストを使用する前に、表示するリストの各製品のリストとフィールドをイベントレベルで定義する必要があります。 詳しくは、[データコレクションの定義](../../channels/using/configuring-transactional-event.md#defining-data-collections)を参照してください。
 
 1. トランザクションメッセージで、「**[!UICONTROL Content]**」ブロックをクリックしてメールの内容を変更します。
-1. 構造コンポーネントをワークスペースにドラッグ＆ドロップします。 詳しくは、[&#x200B; メール構造の定義](../../designing/using/designing-from-scratch.md#defining-the-email-structure)を参照してください。
+1. 構造コンポーネントをワークスペースにドラッグ＆ドロップします。 詳しくは、[ メール構造の定義](../../designing/using/designing-from-scratch.md#defining-the-email-structure)を参照してください。
 
-   例えば、1 列の構造コンポーネントを選択し、テキストコンポーネント、画像コンポーネント、ボタンコンポーネントを追加します。 詳しくは、[&#x200B; コンテンツコンポーネントの使用](../../designing/using/designing-from-scratch.md#about-content-components)を参照してください。
+   例えば、1 列の構造コンポーネントを選択し、テキストコンポーネント、画像コンポーネント、ボタンコンポーネントを追加します。 詳しくは、[ コンテンツコンポーネントの使用](../../designing/using/designing-from-scratch.md#about-content-components)を参照してください。
 
 1. 先ほど作成した構造コンポーネントを選択し、コンテキストツールバーの「**[!UICONTROL Enable product listing]**」アイコンをクリックします。
 
@@ -67,7 +79,7 @@ ht-degree: 74%
 
    >[!NOTE]
    >
-   >**[!UICONTROL Column]** オプションは、複数列構造コンポーネント （**[!UICONTROL 2:2列]**、**[!UICONTROL 3:3列]**、**[!UICONTROL 4:4列]**）を使用する場合にのみ使用できます。 製品リストを編集する場合は、最初の列にのみ入力します。他の列は考慮されません。 構造コンポーネントの選択について詳しくは、[&#x200B; メール構造の定義](../../designing/using/designing-from-scratch.md#defining-the-email-structure)を参照してください。
+   >**[!UICONTROL Column]** オプションは、複数列構造コンポーネント （**[!UICONTROL 2:2 column]**、**[!UICONTROL 3:3 column]**、**[!UICONTROL 4:4 column]**）を使用する場合にのみ使用できます。 製品リストを編集する場合は、最初の列にのみ入力します。他の列は考慮されません。 構造コンポーネントの選択について詳しくは、[ メール構造の定義](../../designing/using/designing-from-scratch.md#defining-the-email-structure)を参照してください。
 
 1. トランザクションメッセージに関連するイベントを設定する際に作成したデータ収集を選択します。 これは、**[!UICONTROL Context]**／**[!UICONTROL Real-time event]**／**[!UICONTROL Event context]** ノードの下にあります。
 

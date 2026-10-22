@@ -10,20 +10,35 @@ role: Developer
 level: Experienced
 exl-id: 11e2cd7e-99b7-45cc-a0c2-41049128fe49
 hide: true
-source-git-commit: 7ad12890a24b2c0b8730d09b7d161bff511f4c69
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: dd99420f-367d-4a14-bbc4-5140615992c2
+    internal-label: Microsoft CRM integration
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 3%
-
 ---
-
 # Adobe Experience Platform オーディエンスのターゲティング {#targeting-aep-audiences}
 
 >[!IMPORTANT]
 >
 >Audience Destinations サービスは現在ベータ版で、予告なく頻繁に更新される可能性があります。 これらの機能にアクセスするには、Azure（現在は北米のみベータ版）でホスティングされている必要があります。 アクセスをご希望の場合は、Adobe カスタマーケアにお問い合わせください。
 
-セグメントビルダーを使用して[Adobe Experience Platform オーディエンス &#x200B;](../../integrating/using/aep-about-audience-destinations-service.md)を作成したら、ワークフロー内のCampaign オーディエンスと同じ方法でメッセージをパーソナライズして送信できます。
+セグメントビルダーを使用して[Adobe Experience Platform オーディエンス ](../../integrating/using/aep-about-audience-destinations-service.md)を作成したら、ワークフロー内のCampaign オーディエンスと同じ方法でメッセージをパーソナライズして送信できます。
 
 ワークフローにAdobe Experience Platform オーディエンスをアクティベートするには、次の手順に従います。
 
@@ -47,7 +62,7 @@ ht-degree: 3%
 
    ![](assets/aep_wkf_readaudience_namespace.png)
 
-   このリストには、インスタンスで設定されたすべてのExperience Data Model （XDM）マッピングが含まれます。 Adobe Experience Platform Data Connectorについて詳しくは、[この専用ドキュメント &#x200B;](../../integrating/using/aep-about-data-connector.md)を参照してください。
+   このリストには、インスタンスで設定されたすべてのExperience Data Model （XDM）マッピングが含まれます。 Adobe Experience Platform Data Connectorについて詳しくは、[この専用ドキュメント ](../../integrating/using/aep-about-data-connector.md)を参照してください。
 
    ![](assets/aep_wkf_readaudience_namespace2.png)
 

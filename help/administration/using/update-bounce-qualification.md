@@ -3,18 +3,20 @@ title: ISP の機能停止後にバウンス選定条件を更新
 description: ISP が機能停止した後にバウンス選定を更新する方法を説明します。
 audience: delivery
 exl-id: b06e9009-70c7-459f-8a9f-d5b7020d662f
-TQID: https://experienceleague.adobe.com/PcNbVFzTVJhadANGQ5uogj16VHiaNIf7HVn-7X-EbJA
+TQID: 'https://experienceleague.adobe.com/PcNbVFzTVJhadANGQ5uogj16VHiaNIf7HVn-7X-EbJA'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e267777274122de6dc8badc2d6b8dfdaa20c5fb2
+    internal-label: Administration
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 441
+source-wordcount: '446'
 ht-degree: 41%
-
 ---
-
 # ISP の機能停止後にバウンス選定条件を更新 {#update-bounce-qualification.md}
 
 ## コンテキスト
@@ -23,7 +25,7 @@ ISP が機能停止した場合、Campaign 経由で送信されたメールは�
 
 2020年12月、Gmailのグローバルな問題により、有効なGmail メールアドレスに送信された一部のメールメッセージが、Gmail サーバーによって無効なメールアドレスとして誤ってハードバウンスされ、次の応答が返されました。*&quot;550-5.1.1 The email account that you tried to reach does not exist.&quot;*
 
-Googleは、この問題を引き起こしたGmailの停止と中断は、12月14日の6:55AMに始まり、12月15日の6:09PM ESTに終わったと述べています。 当社のデータ分析では、12月16日のEST 2:06AM、EST 2:00、EST 6:30、EST 12月15日の午後2、EST 6の間にGmailのバウンスが非常に短期間に増加したことも示されています。
+Googleは、この問題を引き起こしたGmailの停止と中断は、12月14日午前6時55分に始まり、12月15日の東部標準時6時9分に終了したと述べています。 当社のデータ分析では、12月16日の東部標準時2時6分にGmailのバウンスが非常に短く、大半は東部標準時2時から東部標準時6時30分の間の12月15日に発生しました。
 
 >[!NOTE]
 >

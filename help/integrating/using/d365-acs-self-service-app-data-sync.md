@@ -10,22 +10,32 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 66623c76-96aa-45cd-9637-19d8a9732c04
-TQID: https://experienceleague.adobe.com/rEACKEIILPxKSh-KZ8bFkXqt1MvmffvCTbb2IaJhQ0I
+TQID: 'https://experienceleague.adobe.com/rEACKEIILPxKSh-KZ8bFkXqt1MvmffvCTbb2IaJhQ0I'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: dd99420f-367d-4a14-bbc4-5140615992c2
+    internal-label: Microsoft CRM integration
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Email marketing
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 1854
+source-wordcount: '1854'
 ht-degree: 0%
-
 ---
-
 # データの同期
 
 Microsoft Dynamics 365からCampaignおよびCampaign マーケティング指標にテーブルをMicrosoft Dynamics 365に同期できます。 同期は、3つの専用テクニカルワークフロー（**[!UICONTROL Microsoft Dynamics 365 to Campaign]**、**[!UICONTROL Campaign to Microsoft Dynamics 365]**、**[!UICONTROL Opt-In/Out]**）を通じて実行されます。 この節では、[詳細情報](../../integrating/using/d365-acs-self-service-app-workflows.md)を参照してください。
@@ -48,25 +58,25 @@ Microsoft Dynamics 365からCampaignおよびCampaign マーケティング指�
 
 * **[!UICONTROL ACTIONS]**：可能なアクションを以下に示します：
 
-   * このマッピングを編集するには、**[!UICONTROL Edit]** アイコンをクリックします。
+  * このマッピングを編集するには、**[!UICONTROL Edit]** アイコンをクリックします。
 
-   * テーブル マッピングを削除するには、**[!UICONTROL Delete]** アイコンを使用します。
+  * テーブル マッピングを削除するには、**[!UICONTROL Delete]** アイコンを使用します。
 
-   * **[!UICONTROL Replay Data]** アイコンをクリックして、Microsoft Dynamics 365 テーブル内のすべてのデータを再同期します。 通常、統合アプリケーションは、最近変更されたMicrosoft Dynamics 365のデータのみを同期します。  ただし、場合によっては（変更やミスなど）、すべてのデータを再同期したい場合があります。  この場合、このボタンをクリックすると、次回&#x200B;**[!UICONTROL Microsoft Dynamics 365 to Campaign]** ワークフローを停止または開始すると、データの同期が開始されます。
+  * **[!UICONTROL Replay Data]** アイコンをクリックして、Microsoft Dynamics 365 テーブル内のすべてのデータを再同期します。 通常、統合アプリケーションは、最近変更されたMicrosoft Dynamics 365のデータのみを同期します。  ただし、場合によっては（変更やミスなど）、すべてのデータを再同期したい場合があります。  この場合、このボタンをクリックすると、次回&#x200B;**[!UICONTROL Microsoft Dynamics 365 to Campaign]** ワークフローを停止または開始すると、データの同期が開始されます。
 
-     「**[!UICONTROL Replay Data]**」ボタンをクリックしてチェックが成功すると、このアイコンは無効になります。このテーブルマッピングペアのデータが、**[!UICONTROL Microsoft Dynamics 365 to Campaign]** ワークフローの次の実行と再同期されることを示します。
+    「**[!UICONTROL Replay Data]**」ボタンをクリックしてチェックが成功すると、このアイコンは無効になります。このテーブルマッピングペアのデータが、**[!UICONTROL Microsoft Dynamics 365 to Campaign]** ワークフローの次の実行と再同期されることを示します。
 
-     次の条件に当てはまる場合、データを再生することはできません。
+    次の条件に当てはまる場合、データを再生することはできません。
 
-      * **[!UICONTROL Microsoft Dynamics 365 to Campaign]** ワークフローに関連付けられているバックログ指標に2,000,000件以上の項目がある場合（**[!UICONTROL Workflows]** ページに表示）
-      * Microsoft Dynamics 365 テーブルに2,000,000以上のレコードがある場合
+    * **[!UICONTROL Microsoft Dynamics 365 to Campaign]** ワークフローに関連付けられているバックログ指標に2,000,000件以上の項目がある場合（**[!UICONTROL Workflows]** ページに表示）
+    * Microsoft Dynamics 365 テーブルに2,000,000以上のレコードがある場合
 
-     再同期が必要なレコードの数は異なります。 レコード数が多い場合は、同期プロセスを完了するのに時間がかかる場合があります。 統合アプリケーションが同期プロセスを完了するために動作するので、**[!UICONTROL Workflows]** ページの&#x200B;**[!UICONTROL Backlog]**&#x200B;指標を参照してください。
+    再同期が必要なレコードの数は異なります。 レコード数が多い場合は、同期プロセスを完了するのに時間がかかる場合があります。 統合アプリケーションが同期プロセスを完了するために動作するので、**[!UICONTROL Workflows]** ページの&#x200B;**[!UICONTROL Backlog]**&#x200B;指標を参照してください。
 
-     >[!IMPORTANT]
-     >
-     > Adobe Campaign StandardまたはMicrosoft Dynamics 365に変更を公開する場合は、統合ワークフローを停止することを強くお勧めします。 適用可能な変更には、リソース/エンティティ（および関連するフィールド）、リンク、識別子の列など、統合で現在使用されている更新が含まれます。
-     >
+    >[!IMPORTANT]
+    >
+    > Adobe Campaign StandardまたはMicrosoft Dynamics 365に変更を公開する場合は、統合ワークフローを停止することを強くお勧めします。 適用可能な変更には、リソース/エンティティ（および関連するフィールド）、リンク、識別子の列など、統合で現在使用されている更新が含まれます。
+    >
 
 ## 新しいマッピングの作成 {#add-a-new-mapping}
 
@@ -105,10 +115,10 @@ Microsoft Dynamics 365からCampaignおよびCampaign マーケティング指�
 次の設定を定義できます。
 
 * **[!UICONTROL Tables]**：このセクションには、Microsoft Dynamics 365 テーブルの名前と、マッピング先のCampaign テーブルが一覧表示されます。
-* **[!UICONTROL Field Mappings]**：詳細については、[このセクション &#x200B;](#field-mappings)を参照してください
-* **[!UICONTROL Field Replacements]**：詳細については、[このセクション &#x200B;](#field-replacements)を参照してください
-* **[!UICONTROL Filters]**：詳細については、[このセクション &#x200B;](#filters)を参照してください
-* **[!UICONTROL Advanced Settings]**：詳細については、[このセクション &#x200B;](#advanced-settings)を参照してください
+* **[!UICONTROL Field Mappings]**：詳細については、[このセクション ](#field-mappings)を参照してください
+* **[!UICONTROL Field Replacements]**：詳細については、[このセクション ](#field-replacements)を参照してください
+* **[!UICONTROL Filters]**：詳細については、[このセクション ](#filters)を参照してください
+* **[!UICONTROL Advanced Settings]**：詳細については、[このセクション ](#advanced-settings)を参照してください
 
 ### フィールドマッピング {#field-mappings}
 
@@ -120,7 +130,7 @@ Microsoft Dynamics 365からCampaignおよびCampaign マーケティング指�
 
 Microsoft Dynamics 365のプライマリキーは、アプリケーションが検出するため、読み取り専用です。
 
-Campaignの場合、一意のキーとなるフィールドを選択する必要があります。 [CRM ID カスタムリソース &#x200B;](../../developing/using/uc-calling-resource-id-key.md)として設定する必要があり、重複を持たない必要があります。
+Campaignの場合、一意のキーとなるフィールドを選択する必要があります。 [CRM ID カスタムリソース ](../../developing/using/uc-calling-resource-id-key.md)として設定する必要があり、重複を持たない必要があります。
 
 >[!NOTE]
 >

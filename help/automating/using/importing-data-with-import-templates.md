@@ -9,20 +9,32 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: 5e93b39e-cdd1-4632-8f65-dfa76a735626
-TQID: https://experienceleague.adobe.com/eGnAy8lTEYc5wTmUCHKbidvDKU--U6rt8UEHdi1d3ak
+TQID: 'https://experienceleague.adobe.com/eGnAy8lTEYc5wTmUCHKbidvDKU--U6rt8UEHdi1d3ak'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Security
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 1095
+source-wordcount: '1095'
 ht-degree: 99%
-
 ---
-
 # インポートテンプレートを使用したデータのインポート{#importing-data-with-import-templates}
 
 データをインポートすると、データを収集してキャンペーンのデータベースに入力できます。
@@ -63,14 +75,14 @@ Adobe Campaign には、[ワークフロー](../../automating/using/get-started-
 * **[!UICONTROL Update Direct mail quarantines and delivery logs]**：このテンプレートは、ダイレクトメール用に強制隔離と配信ログを更新するための新しいインポートの基礎として使用できます。 このテンプレートのワークフローには、次のアクティビティが含まれます。
 * **[!UICONTROL Import data]**：このテンプレートは、ファイルからデータベースにデータを挿入するための新しいインポートの基礎として使用できます。 このテンプレートのワークフローには、次のアクティビティが含まれます。
 
-   * **[!UICONTROL Load file]**：このアクティビティを使用すると、Adobe Campaign サーバーにファイルをアップロードできます。
-   * **[!UICONTROL Update data]**：このアクティビティを使用すると、ファイルのデータをデータベースに挿入できます。
+  * **[!UICONTROL Load file]**：このアクティビティを使用すると、Adobe Campaign サーバーにファイルをアップロードできます。
+  * **[!UICONTROL Update data]**：このアクティビティを使用すると、ファイルのデータをデータベースに挿入できます。
 
 * **[!UICONTROL Import list]**：このテンプレートは、ファイル内のデータから&#x200B;**リスト**&#x200B;型オーディエンスを作成するための新しいインポートの基礎として使用できます。 このテンプレートのワークフローには、次のアクティビティが含まれます。
 
-   * **[!UICONTROL Load file]**：このアクティビティを使用すると、Adobe Campaign サーバーにファイルをアップロードできます。
-   * **[!UICONTROL Reconciliation]**：このアクティビティを使用すると、インポートしたデータをターゲティングディメンションにリンクできます。 これにより、**リスト**&#x200B;型のオーディエンスを作成できます。 インポートしたデータのターゲティングディメンションが不明な場合、オーディエンスは&#x200B;**ファイル**&#x200B;型です。 [ターゲティングディメンションとリソース](../../automating/using/query.md#targeting-dimensions-and-resources)を参照してください。
-   * **[!UICONTROL Save audience]**：このアクティビティを使用すると、インポートしたデータを&#x200B;**リスト**&#x200B;型のオーディエンスの形式で保存できます。 保存したオーディエンスの名前は、ユーザーがインポートしたファイルの名前に対応し、インポートの日時を指定するサフィックスが追加されます。 例えば「profiles_20150406_151448」のようになります。
+  * **[!UICONTROL Load file]**：このアクティビティを使用すると、Adobe Campaign サーバーにファイルをアップロードできます。
+  * **[!UICONTROL Reconciliation]**：このアクティビティを使用すると、インポートしたデータをターゲティングディメンションにリンクできます。 これにより、**リスト**&#x200B;型のオーディエンスを作成できます。 インポートしたデータのターゲティングディメンションが不明な場合、オーディエンスは&#x200B;**ファイル**&#x200B;型です。 [ターゲティングディメンションとリソース](../../automating/using/query.md#targeting-dimensions-and-resources)を参照してください。
+  * **[!UICONTROL Save audience]**：このアクティビティを使用すると、インポートしたデータを&#x200B;**リスト**&#x200B;型のオーディエンスの形式で保存できます。 保存したオーディエンスの名前は、ユーザーがインポートしたファイルの名前に対応し、インポートの日時を指定するサフィックスが追加されます。 例えば「profiles_20150406_151448」のようになります。
 
 これらのデフォルトのテンプレートは読み取り専用で、標準ユーザーには表示されません。 ユーザーが使用できるテンプレートを作成するには、次の手順に従います。
 

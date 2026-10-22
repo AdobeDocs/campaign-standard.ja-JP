@@ -5,10 +5,12 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 6a53e6f5-9b69-4068-ab7d-10e22e266277
-TQID: https://experienceleague.adobe.com/Os1EM221DXk1yVqd-md5iTlvK623LzFiqg5Ag7N2tTw
+TQID: 'https://experienceleague.adobe.com/Os1EM221DXk1yVqd-md5iTlvK623LzFiqg5Ag7N2tTw'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
@@ -16,9 +18,13 @@ feature_v2:
     internal-label: APIs
   - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
     internal-label: Dynamic reporting
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
     internal-label: REST API
+  - id: e8d937ec-9046-41b5-834b-d22a624e0d37
+    internal-label: Campaign overview
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -38,7 +44,7 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: e267777274122de6dc8badc2d6b8dfdaa20c5fb2
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
 source-wordcount: '7892'
 ht-degree: 10%
@@ -64,7 +70,7 @@ ht-degree: 10%
     <li><p>プライバシーリクエストを作成する際に、プライバシーコアサービスに規制タイプ（GDPRまたはCCPA）が追加されました。 すべてのアクセス要求と削除要求に対して、このメソッドを使用する必要があります。 アクセス要求および削除要求に対する Campaign API およびインターフェイスの使用は廃止されています。  <a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=ja">廃止および削除された機能の記事</a>を参照してください。</p></li>
     <li>プロファイルリソースに「<strong>CCPA オプトアウト </strong>」フィールドが追加され、Adobe Campaign ユーザーは、消費者が個人情報の販売をオプトアウトしたかどうかを追跡できるようになりました。 <a href="https://helpx.adobe.com/jp/campaign/kb/acs-privacy.html#ccpa">詳細情報</a>。</li>
   </ul>
-    <p><a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html?lang=ja">ハウツービデオ</a>を参照してください。</p>
+    <p><a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">ハウツービデオ</a>を参照してください。</p>
 </td> 
   </tr> 
  </tbody> 
@@ -185,11 +191,11 @@ ht-degree: 10%
  <tbody> 
   <tr> 
    <td> 外部API アクティビティ （パブリック Beta） <br /> </td> 
-   <td> <p>より詳細なパーソナライゼーションを実現するには、外部API アクティビティを使用して、外部システムからのデータをREST API呼び出しを介してワークフローに取り込みます。 REST エンドポイントは、顧客管理システム、Adobe I/O Runtime、Adobe Experience Cloud REST エンドポイント（Data Platform、Target、Analytics、Campaignなど）にすることができます。</p><p>この機能は現在パブリックベータ版です。</p><p>詳しくは、<a href="../../automating/using/external-api.md">詳細ドキュメント</a>および<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html?lang=ja">ハウツービデオ</a>を参照してください。</p></td> 
+   <td> <p>より詳細なパーソナライゼーションを実現するには、外部API アクティビティを使用して、外部システムからのデータをREST API呼び出しを介してワークフローに取り込みます。 REST エンドポイントは、顧客管理システム、Adobe I/O Runtime、Adobe Experience Cloud REST エンドポイント（Data Platform、Target、Analytics、Campaignなど）にすることができます。</p><p>この機能は現在パブリックベータ版です。</p><p>詳しくは、<a href="../../automating/using/external-api.md">詳細ドキュメント</a>および<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">ハウツービデオ</a>を参照してください。</p></td> 
   </tr> 
   <tr> 
    <td> ワークフローセグメント <br />に関するレポート </td> 
-   <td> <p>この機能により、マーケターは、セグメントコードごとに配信パフォーマンスを分類できます。 ワークフローを作成し、セグメント化アクティビティを使用して配信母集団にセグメントを割り当てると、これらのセグメントは同じ配信に入れることができるようになりました。 これにより、1つの配信内の複数のセグメントに基づく開封数/クリック数の統計を表示できます。</p><p>詳しくは、<a href="../../reporting/using/creating-a-report-workflow-segment.md">詳細ドキュメント</a>および<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/reporting/report-on-workflow-segments.html?lang=ja">ハウツービデオ</a>を参照してください。</p></td>
+   <td> <p>この機能により、マーケターは、セグメントコードごとに配信パフォーマンスを分類できます。 ワークフローを作成し、セグメント化アクティビティを使用して配信母集団にセグメントを割り当てると、これらのセグメントは同じ配信に入れることができるようになりました。 これにより、1つの配信内の複数のセグメントに基づく開封数/クリック数の統計を表示できます。</p><p>詳しくは、<a href="../../reporting/using/creating-a-report-workflow-segment.md">詳細ドキュメント</a>および<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/reporting/report-on-workflow-segments.html">ハウツービデオ</a>を参照してください。</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -228,14 +234,14 @@ ht-degree: 10%
 **その他の機能強化**
 
 * Adobe Experience Platform Location Servicesとの統合により、Adobe Campaignは、Experience Platform SDKを介してモバイルアプリケーションのサブスクライバーにロケーションベースマーケティングメッセージを送信することが可能になりました。 詳しくは、[詳細ドキュメント](../../integrating/using/configuring-campaign-points-of-interest-data-integration.md)を参照してください。
-* レポート機能が改善され、エクスペリエンスが向上しました。 この機能を使用するには、Dynamic Reporting使用許諾契約書に同意する必要があります。 詳しくは、[詳細ドキュメント &#x200B;](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement)を参照してください。
-* ワークフローでは、ワークフローの次の10回の実行をプレビューする新しいオプションが追加されました。 詳しくは、[詳細ドキュメント &#x200B;](../../automating/using/scheduler.md)を参照してください。
-* 「スケジューラー」アクティビティでは、月次配信の特定の曜日を選択できる新しいオプションが追加されました。 詳しくは、[詳細ドキュメント &#x200B;](../../automating/using/scheduler.md)を参照してください。
-* 集計期間のない定期的な配信を作成する場合、配信ダッシュボードでは、配信が送信される前に確認をリクエストできるようになりました。 詳しくは、[詳細ドキュメント &#x200B;](../../sending/using/confirming-the-send.md)を参照してください。
-* ワークフローの外部シグナルアクティビティで宣言されたイベント変数で、配信のラベルをパーソナライズできるようになりました。 詳しくは、[詳細ドキュメント &#x200B;](../../automating/using/calling-a-workflow-with-external-parameters.md)を参照してください。
+* レポート機能が改善され、エクスペリエンスが向上しました。 この機能を使用するには、Dynamic Reporting使用許諾契約書に同意する必要があります。 詳しくは、[詳細ドキュメント ](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement)を参照してください。
+* ワークフローでは、ワークフローの次の10回の実行をプレビューする新しいオプションが追加されました。 詳しくは、[詳細ドキュメント ](../../automating/using/scheduler.md)を参照してください。
+* 「スケジューラー」アクティビティでは、月次配信の特定の曜日を選択できる新しいオプションが追加されました。 詳しくは、[詳細ドキュメント ](../../automating/using/scheduler.md)を参照してください。
+* 集計期間のない定期的な配信を作成する場合、配信ダッシュボードでは、配信が送信される前に確認をリクエストできるようになりました。 詳しくは、[詳細ドキュメント ](../../sending/using/confirming-the-send.md)を参照してください。
+* ワークフローの外部シグナルアクティビティで宣言されたイベント変数で、配信のラベルをパーソナライズできるようになりました。 詳しくは、[詳細ドキュメント ](../../automating/using/calling-a-workflow-with-external-parameters.md)を参照してください。
 * GDPR削除クエリが改善され、パフォーマンスが向上しました。 （CAMP-33504）
 * 外部アカウント設定インターフェイスから「ftp」オプションが削除されました。 （CAMP-34472）
-* メールメッセージごとにSMTP テストモードオプションを有効または無効にできるようになりました。 詳しくは、[詳細ドキュメント &#x200B;](../../administration/using/configuring-email-channel.md#smtp-test-mode)を参照してください。 （CAMP-34602）
+* メールメッセージごとにSMTP テストモードオプションを有効または無効にできるようになりました。 詳しくは、[詳細ドキュメント ](../../administration/using/configuring-email-channel.md#smtp-test-mode)を参照してください。 （CAMP-34602）
 
 **その他の変更**
 
@@ -338,7 +344,7 @@ ht-degree: 10%
   </tr> 
   <tr> 
    <td> ワークフローの機能強化 – ペイロードを外部シグナル アクティビティに追加します<br /> </td> 
-   <td> <p>別のワークフローまたはREST API呼び出しから定義された条件が正常に満たされたときに、ペイロードを使用してワークフローを開始し、外部システムと統合します。 これには、この機能に対してテストを実行できる新しい<strong> テスト </strong> アクティビティも含まれます。</p><p>詳しくは、<a href="../../automating/using/calling-a-workflow-with-external-parameters.md">詳細ドキュメント</a>および<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/execution-activities/external-signal-activity.html?lang=ja">ハウツービデオ</a>を参照してください。</p></td> 
+   <td> <p>別のワークフローまたはREST API呼び出しから定義された条件が正常に満たされたときに、ペイロードを使用してワークフローを開始し、外部システムと統合します。 これには、この機能に対してテストを実行できる新しい<strong> テスト </strong> アクティビティも含まれます。</p><p>詳しくは、<a href="../../automating/using/calling-a-workflow-with-external-parameters.md">詳細ドキュメント</a>および<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/execution-activities/external-signal-activity.html">ハウツービデオ</a>を参照してください。</p></td> 
   </tr> 
   <tr> 
    <td> ランディングページの機能強化 – Google reCAPTCHA<br /> </td> 
@@ -380,13 +386,13 @@ ht-degree: 10%
 * トランザクションメッセージングプロセスは、同じメッセージの複数の分析を並行して開始できるように最適化されています。
 * トランザクションプッシュ通知のスループットと待ち時間に一貫性がない可能性がある問題を修正しました。
 * トランザクションメッセージの実行配信に誤ったターゲットオーディエンスが表示される問題を修正しました。
-* イベント設定と関連するトランザクションメッセージを含むパッケージを読み込む際に発生する問題を修正しました。 詳しくは、[詳細ドキュメント &#x200B;](../../channels/using/getting-started-with-transactional-msg.md#exporting-and-importing-transactional-messages)を参照してください。
+* イベント設定と関連するトランザクションメッセージを含むパッケージを読み込む際に発生する問題を修正しました。 詳しくは、[詳細ドキュメント ](../../channels/using/getting-started-with-transactional-msg.md#exporting-and-importing-transactional-messages)を参照してください。
 * 製品リストを含むトランザクションメッセージ用に作成されたテストプロファイルから収集データを削除する問題を修正しました。
 
 **その他の変更**
 
 * SMS外部アカウントに新しいオプションが追加されました。 これにより、並列接続の数をより適切に制御するために、SMSを送信するMTA プロセスの最大数を制限できます。 詳細については、[SMS コネクタプロトコルと設定](https://helpx.adobe.com/jp/campaign/kb/sms-connector-protocol-and-settings.html)のテクニカルノートを参照してください。
-* API拡張機能を使用してリソースを公開する場合、APIが既に公開されている場合は、再度公開されるたびに自動的に更新されるようになりました。 以前は、このアクションは手動でしたが、APIの更新に失敗すると、このAPIのプロファイルまたはサービスリソースが壊れる可能性がありました。 詳しくは、[詳細ドキュメント &#x200B;](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension)を参照してください。
+* API拡張機能を使用してリソースを公開する場合、APIが既に公開されている場合は、再度公開されるたびに自動的に更新されるようになりました。 以前は、このアクションは手動でしたが、APIの更新に失敗すると、このAPIのプロファイルまたはサービスリソースが壊れる可能性がありました。 詳しくは、[詳細ドキュメント ](../../developing/using/updating-the-database-structure.md#publishing-a-resource-with-api-extension)を参照してください。
 * 動的レポートから郵便番号ディメンションが削除されました。 代わりに、City、Country、State ディメンションを使用することをお勧めします。
 * アプリ内メッセージの「最初の起動」ライフサイクルイベントトリガーが削除されました。
 * セキュリティグループを含むパッケージを書き出す際に、各グループに割り当てられた役割が含まれるようになりました。 （CAMP-32960）
@@ -456,7 +462,7 @@ ht-degree: 10%
   </tr> 
   <tr> 
    <td> モバイル アプリ内メッセージ <br /> </td> 
-   <td> <p>このリリースには、Campaignのアプリ内チャネルのGA バージョンが含まれています。 機能的な観点から見ると、Beta リリースに最も注目すべき追加機能は、アプリ内チャネルとモバイルSDKとMCIAS （SDKにアプリ内ルールを提供するMarketing Cloud アプリ内メッセージングサービス）間の安全なハンドシェイクのための動的レポートです。 セキュアハンドシェイクは、ユーザーのPII データが悪意のある手に渡らないようにするだけでなく、ユーザーがログアウトするたびにメッセージキャッシュを消去することで、共有デバイス上でユーザーのプライバシーを維持できるようにします。</p><p>詳しくは、<a href="../../channels/using/about-in-app-messaging.md">詳細ドキュメント </a>および専用の<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/communication-channels/mobile/in-app/in-app-message-overview.html?lang=ja"> アプリ内チュートリアル </a>を参照してください。</p> </td> 
+   <td> <p>このリリースには、Campaignのアプリ内チャネルのGA バージョンが含まれています。 機能的な観点から見ると、Beta リリースに最も注目すべき追加機能は、アプリ内チャネルとモバイルSDKとMCIAS （SDKにアプリ内ルールを提供するMarketing Cloud アプリ内メッセージングサービス）間の安全なハンドシェイクのための動的レポートです。 セキュアハンドシェイクは、ユーザーのPII データが悪意のある手に渡らないようにするだけでなく、ユーザーがログアウトするたびにメッセージキャッシュを消去することで、共有デバイス上でユーザーのプライバシーを維持できるようにします。</p><p>詳しくは、<a href="../../channels/using/about-in-app-messaging.md">詳細ドキュメント </a>および専用の<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/communication-channels/mobile/in-app/in-app-message-overview.html"> アプリ内チュートリアル </a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td> ワークフローの機能強化<br /> </td> 
@@ -561,11 +567,11 @@ ht-degree: 10%
      <li> 準備時にURLからコンテンツを自動的に<a href="../../designing/using/using-existing-content.md#retrieving-content-from-a-url-automatically-at-preparation-time">取得する機能</a> </li> 
      <li> 完全に準拠した<a href="../../designing/using/using-reusable-content.md#content-templates">すぐに使えるコンテンツテンプレート </a>。 </li> 
     </ul> 
-    <p>詳しくは、<a href="../../designing/using/designing-content-in-adobe-campaign.md">詳細ドキュメント</a>および<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html?lang=ja">ハウツービデオ</a>を参照してください。 機能強化および修正点を次に示します。</p><p>これにより、従来のメールコンテンツエディターは廃止されました。 詳しくは、<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=ja">このページ</a>を参照してください。</p> </td> 
+    <p>詳しくは、<a href="../../designing/using/designing-content-in-adobe-campaign.md">詳細ドキュメント</a>および<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html">ハウツービデオ</a>を参照してください。 機能強化および修正点を次に示します。</p><p>これにより、従来のメールコンテンツエディターは廃止されました。 詳しくは、<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/deprecated-features.html?lang=ja">このページ</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td> トランザクションメールでの製品リスト <br /> </td> 
-   <td> <p>トランザクションメールメッセージで1つ以上の商品コレクションを参照できるようになりました。 例えば、画像、価格、各商品へのリンクが記載されたカート放棄メールを、ユーザーのカートに入っていたすべての商品をリストして自動的に送信することができます。</p><p>詳しくは、<a href="../../designing/using/using-product-listings.md">詳細ドキュメント</a>および<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/product-listings-in-transactional-email.html?lang=ja">ハウツービデオ</a>を参照してください。</p> </td> 
+   <td> <p>トランザクションメールメッセージで1つ以上の商品コレクションを参照できるようになりました。 例えば、画像、価格、各商品へのリンクが記載されたカート放棄メールを、ユーザーのカートに入っていたすべての商品をリストして自動的に送信することができます。</p><p>詳しくは、<a href="../../designing/using/using-product-listings.md">詳細ドキュメント</a>および<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/product-listings-in-transactional-email.html">ハウツービデオ</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td> 電子メール Designer<br />のモバイル ビュー </td> 

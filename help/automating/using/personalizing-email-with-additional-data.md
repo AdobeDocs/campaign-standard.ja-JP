@@ -10,25 +10,35 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: b207dc73-03dc-4f25-95e5-573e4b4bce54
-TQID: https://experienceleague.adobe.com/In2Pa0ur5bnsNUXl2Z0x4hVARQRy2FV2RmvpPnm5XGw
+TQID: 'https://experienceleague.adobe.com/In2Pa0ur5bnsNUXl2Z0x4hVARQRy2FV2RmvpPnm5XGw'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Personalization
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 480
+source-wordcount: '480'
 ht-degree: 81%
-
 ---
-
 # 追加データによるメールのパーソナライズ {#example--personalizing-an-email-with-additional-data}
 
-次の例は、クエリに異なるタイプの追加データを追加し、メールのパーソナライゼーションフィールドとして使用する方法を示しています。 **[!UICONTROL Query]** アクティビティでターゲットとするデータをエンリッチする方法について詳しくは、[このセクション &#x200B;](../../automating/using/query.md#enriching-data)を参照してください。
+次の例は、クエリに異なるタイプの追加データを追加し、メールのパーソナライゼーションフィールドとして使用する方法を示しています。 **[!UICONTROL Query]** アクティビティでターゲットとするデータをエンリッチする方法について詳しくは、[このセクション ](../../automating/using/query.md#enriching-data)を参照してください。
 
 この例では、[カスタムリソース](../../developing/using/data-model-concepts.md)を使用します。
 
@@ -42,7 +52,7 @@ ht-degree: 81%
 
 ![](assets/enrichment_example1.png)
 
-1. 少なくとも1つのトランザクションを実行したプロファイルをターゲットにできる[&#x200B; クエリ &#x200B;](../../automating/using/query.md) アクティビティを追加します。
+1. 少なくとも1つのトランザクションを実行したプロファイルをターゲットにできる[ クエリ ](../../automating/using/query.md) アクティビティを追加します。
 
    ![](assets/enrichment_example2.png)
 
@@ -64,7 +74,7 @@ ht-degree: 81%
 
    ![](assets/enrichment_example5.png)
 
-1. [&#x200B; メール配信](../../automating/using/email-delivery.md) アクティビティを追加します。 メールコンテンツに、クエリで計算されたデータに対応するパーソナライゼーションフィールドを挿入します。 パーソナライゼーションフィールドエクスプローラーの **[!UICONTROL Additional data (targetData)]** リンクからアクセスできます。
+1. [ メール配信](../../automating/using/email-delivery.md) アクティビティを追加します。 メールコンテンツに、クエリで計算されたデータに対応するパーソナライゼーションフィールドを挿入します。 パーソナライゼーションフィールドエクスプローラーの **[!UICONTROL Additional data (targetData)]** リンクからアクセスできます。
 
    ![](assets/enrichment_example3.png)
 

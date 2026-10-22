@@ -4,11 +4,15 @@ description: Adobe Campaign Standardのリスト画面での表示とアクシ�
 audience: start
 content-type: reference
 topic-tags: discovering-the-interface
-source-git-commit: fcb5c4a92f23bdffd1082b7b044b5859dead9d70
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 23%
-
 ---
 
 # インスタンスの管理

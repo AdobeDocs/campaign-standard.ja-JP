@@ -9,33 +9,43 @@ feature: SMS
 role: User
 level: Intermediate
 exl-id: 86cb6f4c-a5a7-4d9d-bbfd-4a70af38cf3a
-TQID: https://experienceleague.adobe.com/jxyxboMVl7lyXQZmiOqQX-kZukFyUtMZSAUMVBtoRak
+TQID: 'https://experienceleague.adobe.com/jxyxboMVl7lyXQZmiOqQX-kZukFyUtMZSAUMVBtoRak'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
 subfeature_v2:
   - id: ca3c1dd6-bdd2-41a9-bc5a-e35f5cca9e63
+    internal-label: Application settings
+  - id: b1bd1421-1927-4c59-9bc6-ce292360e43b
+    internal-label: SMS Messaging
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Administration
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 629
+source-wordcount: '629'
 ht-degree: 3%
-
 ---
-
 # 受信 SMS の管理{#managing-incoming-sms}
 
 ## Stop SMSの管理 {#managing-stop-sms}
 
 Campaignを介して送信されたSMS メッセージに対してプロファイルが返信する場合、自動的に返信されるメッセージと、実行するアクションを設定できます。
 
-この設定は、[SMS ルーティング外部アカウント &#x200B;](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing)の&#x200B;**[!UICONTROL Automatic reply sent to the MO]** セクションで定義されています。 MOは「Mobile Originated」を表します。つまり、SMSを送信したモバイルに自動返信を設定できます。
+この設定は、[SMS ルーティング外部アカウント ](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing)の&#x200B;**[!UICONTROL Automatic reply sent to the MO]** セクションで定義されています。 MOは「Mobile Originated」を表します。つまり、SMSを送信したモバイルに自動返信を設定できます。
 
 それには、次の手順に従います。
 
@@ -76,11 +86,11 @@ Campaignを介して送信されたSMS メッセージに対してプロファ�
 
 1. 「**[!UICONTROL Save]**」をクリックします。
 
-1. SMS配信&#x200B;**[!UICONTROL Properties]**&#x200B;の&#x200B;**[!UICONTROL Advanced parameters]**&#x200B;から、オプトアウトした受信者を自動的に除外するように、特定の&#x200B;**[!UICONTROL Short code]**&#x200B;を設定できます。 詳しくは、[このセクション &#x200B;](../../administration/using/configuring-sms-channel.md#configuring-sms-properties)を参照してください。
+1. SMS配信&#x200B;**[!UICONTROL Properties]**&#x200B;の&#x200B;**[!UICONTROL Advanced parameters]**&#x200B;から、オプトアウトした受信者を自動的に除外するように、特定の&#x200B;**[!UICONTROL Short code]**&#x200B;を設定できます。 詳しくは、[このセクション ](../../administration/using/configuring-sms-channel.md#configuring-sms-properties)を参照してください。
 
-受信者は、メッセージの購読を自動的に解除し、この自動返信を使用して強制隔離に送信できるようになります。 強制隔離された受信者は、**[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Quarantines]** メニューを通じて利用できる&#x200B;**[!UICONTROL Addresses]** テーブルに一覧表示されます。 強制隔離について詳しくは、この[&#x200B; セクション &#x200B;](../../sending/using/understanding-quarantine-management.md)を参照してください。
+受信者は、メッセージの購読を自動的に解除し、この自動返信を使用して強制隔離に送信できるようになります。 強制隔離された受信者は、**[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Quarantines]** メニューを通じて利用できる&#x200B;**[!UICONTROL Addresses]** テーブルに一覧表示されます。 強制隔離について詳しくは、この[ セクション ](../../sending/using/understanding-quarantine-management.md)を参照してください。
 
-これらの受信SMSは、必要に応じて保存できます。 詳しくは、この[&#x200B; セクション &#x200B;](#storing-incoming-sms)を参照してください。
+これらの受信SMSは、必要に応じて保存できます。 詳しくは、この[ セクション ](#storing-incoming-sms)を参照してください。
 
 ## 受信SMSの保存 {#storing-incoming-sms}
 
@@ -101,7 +111,7 @@ Campaignを介して送信されたSMS メッセージに対してプロファ�
    ![](assets/sms_config_mo_3.png)
 
 1. ワークフロータイプを選択します。
-1. ワークフローのプロパティを編集し、**[!UICONTROL Create]**&#x200B;をクリックします。 ワークフローの作成について詳しくは、この[&#x200B; セクション &#x200B;](../../automating/using/building-a-workflow.md)を参照してください。
+1. ワークフローのプロパティを編集し、**[!UICONTROL Create]**&#x200B;をクリックします。 ワークフローの作成について詳しくは、この[ セクション ](../../automating/using/building-a-workflow.md)を参照してください。
 1. **[!UICONTROL Query]** アクティビティをドラッグ&amp;ドロップし、アクティビティをダブルクリックします。
 1. クエリの「**[!UICONTROL Properties]**」タブで、**[!UICONTROL Resource]** フィールドの「**[!UICONTROL Incoming SMS (inSMS)]**」を選択します。
 

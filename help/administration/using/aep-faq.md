@@ -6,23 +6,33 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 6b3c189d-8ddd-4dc0-8831-65ae62e04c70
-TQID: https://experienceleague.adobe.com/o6mmez3uQ47pkbl-CXBR-CezbXVpf9Ef5L8oDZEToro
+TQID: 'https://experienceleague.adobe.com/o6mmez3uQ47pkbl-CXBR-CezbXVpf9Ef5L8oDZEToro'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
+  - id: 7f0a1ee5-eeb8-5478-a9cd-b1896f033118
+    internal-label: Instance Settings
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Administration
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 963
+source-wordcount: '963'
 ht-degree: 3%
-
 ---
-
 # Experience Platform SDKとの連携に関するFAQ {#aep-faq}
 
 Experience Platform SDK アプリケーションを使用してプッシュ通知やアプリ内メッセージを送信するには、モバイルアプリケーションをAdobe Experience Platform SDKで設定し、Adobe Campaignで設定する必要があります。
@@ -39,8 +49,8 @@ Experience Platform SDK アプリケーションを使用してプッシュ通�
 
 Adobe Experience PlatformとSDKの連携について詳しくは、次の資料を参照してください。
 
-* ローンチ/モバイル [概要ビデオ &#x200B;](https://www.adobe.com/jp/experience-platform/launch.html#acpl-mobile-video){target="_blank"}
-* Launch/Mobile [&#x200B; ヒントとテクニックのガイド &#x200B;](https://www.adobe.com/content/dam/dx/us/en/products/experience-platform/launch-tag-manager/pdfs/adobe-cloud-platform-launch-tips-and-tricks-sheet.pdf)
+* ローンチ/モバイル [概要ビデオ ](https://www.adobe.com/experience-platform/launch.html#acpl-mobile-video){target="_blank"}
+* Launch/Mobile [ ヒントとテクニックのガイド ](https://www.adobe.com/content/dam/dx/us/en/products/experience-platform/launch-tag-manager/pdfs/adobe-cloud-platform-launch-tips-and-tricks-sheet.pdf)
 
 ## Adobe Experience Platform SDKの統合は、Adobe Campaign StandardとAdobe Campaign Classicの両方で使用できますか？ {#aep-validity}
 
@@ -56,7 +66,7 @@ Adobe Experience PlatformとSDKの連携について詳しくは、次の資料�
 
 >[!NOTE]
 >
->[!DNL Places]統合には、アプリ内メッセージ（プッシュ通知の場合はN/A）のトリガーとしてplaces イベントが含まれ、[!DNL Places]個のデータとローカル通知のサポートを使用してプロファイルを強化します。 詳しくは、この[&#x200B; ページ &#x200B;](../../channels/using/preparing-and-sending-an-in-app-message.md)を参照してください。 <br>[!DNL Places]の制限付き統合には、[!DNL Places]個のデータを使用したプロファイルの強化が含まれます。
+>[!DNL Places]統合には、アプリ内メッセージ（プッシュ通知の場合はN/A）のトリガーとしてplaces イベントが含まれ、[!DNL Places]個のデータとローカル通知のサポートを使用してプロファイルを強化します。 詳しくは、この[ ページ ](../../channels/using/preparing-and-sending-an-in-app-message.md)を参照してください。 <br>[!DNL Places]の制限付き統合には、[!DNL Places]個のデータを使用したプロファイルの強化が含まれます。
 
 ## Adobe Experience PlatformとSDKの連携は、Adobe Campaign Standardでどのようなユースケースを促進しますか？ {#aep-use-cases}
 
@@ -106,10 +116,10 @@ CollectPII呼び出しの頻度と設計は、ビジネスニーズによって�
 
 以下のリソースをご覧ください。
 
-* Experience Platform SDK [&#x200B; ドキュメント &#x200B;](https://developer.adobe.com/client-sdks/documentation/)
-* LaunchとExperience Platform SDKの概要[&#x200B; ドキュメント &#x200B;](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/)
-* Experience Platform SDKへのアップグレード [&#x200B; ドキュメント &#x200B;](https://developer.adobe.com/client-sdks/resources/upgrade-platform-sdks/)
-* Github Experience Platform SDK [&#x200B; ドキュメント &#x200B;](https://github.com/Adobe-Marketing-Cloud/acp-sdks/)
+* Experience Platform SDK [ ドキュメント ](https://developer.adobe.com/client-sdks/documentation/)
+* LaunchとExperience Platform SDKの概要[ ドキュメント ](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/)
+* Experience Platform SDKへのアップグレード [ ドキュメント ](https://developer.adobe.com/client-sdks/resources/upgrade-platform-sdks/)
+* Github Experience Platform SDK [ ドキュメント ](https://github.com/Adobe-Marketing-Cloud/acp-sdks/)
 
 ## プッシュ通知配信の作成中に「配信時に書き込みアクセス権がありません」というエラーが発生します。 {#write-access-error}
 

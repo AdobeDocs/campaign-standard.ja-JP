@@ -10,27 +10,36 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 3fc286a9-bba4-4e3d-95cd-600eed4943e7
-TQID: https://experienceleague.adobe.com/wVo-oDNJNFmaNcb7p6fACNIfrPG-2Y-VbXxXG0P8XTQ
+TQID: 'https://experienceleague.adobe.com/wVo-oDNJNFmaNcb7p6fACNIfrPG-2Y-VbXxXG0P8XTQ'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Intermediate
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 229
+source-wordcount: '229'
 ht-degree: 68%
-
 ---
-
 # 外部ファイルへのプロファイルのエクスポート {#exporting-profiles-external-file}
 
 次の例は、「**[!UICONTROL Query]**」アクティビティの後に「**[!UICONTROL Extract file]**」アクティビティを設定する方法を示しています。
 
 このワークフローの目的は、プロファイルのリストを外部ファイルの形式でエクスポート、Adobe Campaign 外でデータを使用できるようにすることです。
 
-1. [&#x200B; ファイルを抽出](../../automating/using/extract-file.md) アクティビティをワークフローにドラッグ&amp;ドロップし、[&#x200B; クエリ &#x200B;](../../automating/using/query.md) アクティビティの後に配置します。
+1. [ ファイルを抽出](../../automating/using/extract-file.md) アクティビティをワークフローにドラッグ&amp;ドロップし、[ クエリ ](../../automating/using/query.md) アクティビティの後に配置します。
 
    この例では、クエリは 18～30 歳のすべてのプロファイルで実行されます。
 
@@ -53,7 +62,7 @@ ht-degree: 68%
      ![](assets/wkf_data_export9.png)
 
 1. アクティビティを確認します。
-1. **[!UICONTROL Extract file]** アクティビティの後に[&#x200B; ファイル転送](../../automating/using/transfer-file.md) アクティビティをドラッグ&amp;ドロップして、外部アカウントの抽出ファイルを回復します。
+1. **[!UICONTROL Extract file]** アクティビティの後に[ ファイル転送](../../automating/using/transfer-file.md) アクティビティをドラッグ&amp;ドロップして、外部アカウントの抽出ファイルを回復します。
 1. アクティビティを開き、**[!UICONTROL File upload]** アクションを選択します。
 
    ![](assets/wkf_data_export11.png)

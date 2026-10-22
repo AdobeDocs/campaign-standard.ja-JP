@@ -9,22 +9,32 @@ feature: Landing Pages
 role: User
 level: Intermediate
 exl-id: 28398843-a170-48cf-b9c0-dca7af56236d
-TQID: https://experienceleague.adobe.com/Khit4ZawqjXKPd9FG7eJaIgU-eQhaFGtNhLGzE74Xio
+TQID: 'https://experienceleague.adobe.com/Khit4ZawqjXKPd9FG7eJaIgU-eQhaFGtNhLGzE74Xio'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+subfeature_v2:
+  - id: d7be2b01-dc9c-40f7-aace-a151707504ed
+    internal-label: Landing pages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Personalization
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 1684
+source-wordcount: '1684'
 ht-degree: 91%
-
 ---
-
 # ランディングページのデザイン{#designing-a-landing-page}
 
 ## ランディングページコンテンツのデザインについて {#about-content-design}
@@ -60,7 +70,7 @@ ht-degree: 91%
 
 ![](assets/des_lp_content_8.png)
 
-1. 画面の左側の&#x200B;**パレット**&#x200B;を使用すると、選択したブロックにリンクされた一般オプションを変更できます。 変更できるオプションは、背景色、境界線、テキストの整列、表示条件などです。[&#x200B; パーソナライゼーションフィールドの挿入](../../designing/using/personalization.md#inserting-a-personalization-field)を参照してください。
+1. 画面の左側の&#x200B;**パレット**&#x200B;を使用すると、選択したブロックにリンクされた一般オプションを変更できます。 変更できるオプションは、背景色、境界線、テキストの整列、表示条件などです。[ パーソナライゼーションフィールドの挿入](../../designing/using/personalization.md#inserting-a-personalization-field)を参照してください。
 1. **アクションバー**&#x200B;には、ページの一般的なオプションが含まれています。 テンプレートを選択し、表示モードを変更できます。
 1. メイン&#x200B;**編集ゾーン**&#x200B;では、コンテキストツールバーを使用して、コンテンツを直接操作できます。画像にリンクを挿入する、フォントを変更する、フィールドを削除するなどです。
 

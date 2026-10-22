@@ -1,6 +1,6 @@
 ---
-title: GET/POST/PATCH/DELETE動詞
-description: Campaign Standard API で使用される動詞の詳細を説明します。
+title: GET / POST / PATCH / DELETE動詞
+description: Campaign Standard APIで使用される動詞について詳しく説明します。
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
@@ -9,27 +9,39 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: de97a194-d497-4665-906e-53178fd3b119
-source-git-commit: b3f3309a252971dc527d44913b7918abeea704d9
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 0%
-
 ---
-
-# GET/POST/PATCH/DELETE動詞 {#verbs}
+# GET / POST / PATCH / DELETE動詞 {#verbs}
 
 リソースに対して操作を実行するために使用できる動詞は次のとおりです。
 
-* `GET`:1 つの要素または要素のコレクションを取得します
-* `POST`：パラメーターを持つリソースを作成します。
-* `PATCH`：パラメーターでリソースを更新します。
+* `GET`: 1つの要素または要素のコレクションを取得します
+* `POST`: パラメーターを含むリソースを作成します。
+* `PATCH`: パラメーターを使用してリソースを更新します。
 * `DELETE`: リソースを削除します。
 
 <!-- ajouter codes retour -->
 
 <br/>
 
-***サンプルリクエスト***
+***リクエストのサンプル***
 
 * プロファイルコレクションに対するGET リクエストのサンプル。
 
@@ -67,7 +79,7 @@ ht-degree: 0%
   }
   ```
 
-* 特定のプロファイルでのサンプル GET リクエスト。
+* 特定のプロファイルに対するGET リクエストのサンプル。
 
 
   ```
@@ -79,7 +91,7 @@ ht-degree: 0%
   -H 'X-Api-Key: <API_KEY>'
   ```
 
-  リクエストされたプロファイルを返します。
+  リクエストされたプロファイルが返されます。
 
 
   ```
@@ -93,7 +105,7 @@ ht-degree: 0%
   }
   ```
 
-* プロファイルを作成するためのサンプル POST リクエスト。
+* プロファイルを作成するためのPOST リクエストのサンプル。
 
 
   ```
@@ -105,7 +117,7 @@ ht-degree: 0%
   -d '{"lastName":"Doe"}'
   ```
 
-  デフォルトフィールドを含むプロファイルが返されます。
+  デフォルトのフィールドを持つプロファイルを返します。
 
   ```
   {
@@ -117,7 +129,7 @@ ht-degree: 0%
   }
   ```
 
-* プロファイルを更新するPATCH リクエストのサンプル
+* プロファイルを更新するためのPATCH リクエストのサンプル。
 
   ```
   -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -128,7 +140,7 @@ ht-degree: 0%
   -d '{"firstName":"Mark"',"lastName":"Smith"}'
   ```
 
-  更新されたプロファイルを取得する PKEY と URL を返します。
+  更新されたプロファイルを取得するためのPKEYとURLを返します。
 
   ```
   {
@@ -137,7 +149,7 @@ ht-degree: 0%
   }
   ```
 
-* プロファイルを削除するDELETE リクエストのサンプル
+* プロファイルを削除するためのDELETE リクエストのサンプル。
 
   ```
   -X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -147,4 +159,4 @@ ht-degree: 0%
   -H 'X-Api-Key: <API_KEY>'
   ```
 
-  このリクエストは、プロファイルが削除されたことを確認する 200 応答を返します。
+  リクエストは200件の応答を返し、プロファイルが削除されたことを確認します。

@@ -8,18 +8,29 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 4ddfdbcc-a154-4c10-a97e-73ad888d1f1f
-TQID: https://experienceleague.adobe.com/cDShxyrLISaGidkLNnhtMwZHbo8SlRie6DTV0yVR6IY
+TQID: 'https://experienceleague.adobe.com/cDShxyrLISaGidkLNnhtMwZHbo8SlRie6DTV0yVR6IY'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: a1681cd8-6b2e-4955-9113-33b5f7a22b8c
+    internal-label: Data model architecture
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 251
+source-wordcount: '251'
 ht-degree: 15%
-
 ---
-
 # リソースの削除{#deleting-a-resource}
 
 リソースを削除するには、対象となるリソースが&#x200B;**[!UICONTROL Draft]**&#x200B;である必要があります。 次の場合、リソースは&#x200B;**[!UICONTROL Draft]** ステータスになります。
@@ -50,7 +61,7 @@ ht-degree: 15%
    >
    >標準の&#x200B;**プロファイル（プロファイル）** リソースの拡張機能を再ドラフトする場合は、定義した&#x200B;**テストプロファイル（シードメンバー）**&#x200B;拡張機能も再ドラフトする必要があります。 プロファイルリソースの拡張について詳しくは、[この節](../../developing/using/extending-the-profile-resource-with-a-new-field.md)を参照してください。
 
-1. リソースを公開します。 詳細な手順については、[&#x200B; カスタムリソースの公開](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)を参照してください。
+1. リソースを公開します。 詳細な手順については、[ カスタムリソースの公開](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)を参照してください。
 
    その後、リソースは&#x200B;**ドラフト** モードになり、アクティベーションのステータスは&#x200B;**[!UICONTROL Inactive]**&#x200B;です。
 
@@ -62,4 +73,4 @@ ht-degree: 15%
 
 >[!NOTE]
 >
->イベントで使用されているカスタムリソースのフィールドが変更または削除された場合、対応するイベントは自動的に非公開になります。 「[&#x200B; トランザクションイベントの非公開](../../channels/using/publishing-transactional-event.md#unpublishing-an-event)」を参照してください。
+>イベントで使用されているカスタムリソースのフィールドが変更または削除された場合、対応するイベントは自動的に非公開になります。 「[ トランザクションイベントの非公開](../../channels/using/publishing-transactional-event.md#unpublishing-an-event)」を参照してください。

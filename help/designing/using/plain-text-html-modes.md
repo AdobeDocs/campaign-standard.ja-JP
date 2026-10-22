@@ -8,24 +8,34 @@ feature: Email Design
 role: User
 level: Intermediate
 exl-id: 760c3c30-c899-4cf4-ba59-fb2fade9fc5e
-TQID: https://experienceleague.adobe.com/H-WFy-faNPufQFw5A-zN8c-G7rqwUuXTQ8iGN1CDk00
+TQID: 'https://experienceleague.adobe.com/H-WFy-faNPufQFw5A-zN8c-G7rqwUuXTQ8iGN1CDk00'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+  - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
+subfeature_v2:
+  - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Personalization
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 778
+source-wordcount: '778'
 ht-degree: 1%
-
 ---
-
 # プレーンテキスト、HTMLおよびモバイルメール形式の編集 {#plain-text-and-html-modes}
 
 メールDesignerでは、メールの複数のレンダリングを編集できます。 メールのテキストバージョンを生成したり、メールのHTML ソースを編集したり、モバイルビュー用のメールをデザインしたりできます。
@@ -74,7 +84,7 @@ HTMLのコードを変更すると、電子メールの応答性が低下する�
 
 すべてのスタイルオプションは、モバイルビューで使用できます。 メールDesignerのスタイル設定は、このページで以前に示されています。
 
-1. メールを作成し、コンテンツの編集を開始します。 詳しくは、[電子メールコンテンツをゼロからデザイン &#x200B;](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)するを参照してください。
+1. メールを作成し、コンテンツの編集を開始します。 詳しくは、[電子メールコンテンツをゼロからデザイン ](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)するを参照してください。
 1. 専用のモバイルビューにアクセスするには、**[!UICONTROL Switch to mobile view]** ボタンを選択します。
 
    ![](assets/email_designer_mobile_view_switch.png)
@@ -139,4 +149,4 @@ HTMLのコードを変更すると、電子メールの応答性が低下する�
 
 >[!NOTE]
 >
->モバイルビューは、[&#x200B; フラグメント &#x200B;](../../designing/using/using-reusable-content.md#about-fragments)では利用できません。
+>モバイルビューは、[ フラグメント ](../../designing/using/using-reusable-content.md#about-fragments)では利用できません。

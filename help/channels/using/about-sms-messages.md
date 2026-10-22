@@ -9,22 +9,32 @@ feature: SMS
 role: User
 level: Beginner
 exl-id: a7f22d92-dbf9-4c2b-8fc1-1e31d1e5e79c
-TQID: https://experienceleague.adobe.com/d0IcWAf5j-JUAKKeC84Fxm-mZsfuMJ2k6GmhQfdQeFk
+TQID: 'https://experienceleague.adobe.com/d0IcWAf5j-JUAKKeC84Fxm-mZsfuMJ2k6GmhQfdQeFk'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+subfeature_v2:
+  - id: b1bd1421-1927-4c59-9bc6-ce292360e43b
+    internal-label: SMS Messaging
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Reporting
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 267
+source-wordcount: '267'
 ht-degree: 29%
-
 ---
-
 # SMS メッセージについて{#about-sms-messages}
 
 Adobe Campaignでは、SMS （ショートメッセージサービス）メッセージを配信できます。
@@ -35,7 +45,7 @@ Adobe Campaignでは、SMS （ショートメッセージサービス）メッ�
 
 SMS メッセージの場合、テキスト形式のメッセージのみを作成、変更およびパーソナライズできます。 SMS メッセージは、送信前にプレビューすることもできます。
 
-SMS メッセージの長さは、GSM エンコーディングの場合は160文字、Unicodeの場合は70文字に制限されます。 ただし、特定の特殊文字がメッセージの長さに影響を与える場合があります。 詳しくは、[SMS エンコーディング &#x200B;](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration)の節を参照してください。
+SMS メッセージの長さは、GSM エンコーディングの場合は160文字、Unicodeの場合は70文字に制限されます。 ただし、特定の特殊文字がメッセージの長さに影響を与える場合があります。 詳しくは、[SMS エンコーディング ](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration)の節を参照してください。
 
 SMS メッセージは、**[!UICONTROL Marketing activities]** メニュー、キャンペーン、またはワークフローから作成できます。[SMS メッセージの作成](../../channels/using/creating-an-sms-message.md)を参照してください。
 

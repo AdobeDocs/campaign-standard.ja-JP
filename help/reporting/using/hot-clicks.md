@@ -9,23 +9,34 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 5af37156-e93b-4ae9-9856-053364f211ef
-TQID: https://experienceleague.adobe.com/YOdwQfIEEENsn3ZkEYqNOLPgZqlWB7dyzty7z9FYr4g
+TQID: 'https://experienceleague.adobe.com/YOdwQfIEEENsn3ZkEYqNOLPgZqlWB7dyzty7z9FYr4g'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+    internal-label: Dynamic reporting
+subfeature_v2:
+  - id: b3a4149f-2b3a-44d1-894e-e3ac4c77fb47
+    internal-label: Reporting interface
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Personalization
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 501
+source-wordcount: '501'
 ht-degree: 0%
-
 ---
-
 # ホットクリック{#hot-clicks}
 
 >[!IMPORTANT]
@@ -59,7 +70,7 @@ ht-degree: 0%
 
 25歳以上の受信者のクリック数を表示するには、**[!UICONTROL Change profile]** ボタンをクリックし、生年月日がこの条件に一致するテストプロファイルを選択します。
 
-テストプロファイルについて詳しくは、[&#x200B; テストプロファイルについて](../../audiences/using/managing-test-profiles.md)を参照してください。
+テストプロファイルについて詳しくは、[ テストプロファイルについて](../../audiences/using/managing-test-profiles.md)を参照してください。
 
 >[!NOTE]
 >
@@ -73,11 +84,11 @@ ht-degree: 0%
 
   例えば、この配信を管理するワークフローが月に1回実行される場合、月に1回の実行配信が行われます。 これに加えて、配信の内容が更新されるたびに、追加の実行配信が作成されます。
 
-  定期的なメール配信について詳しくは、[&#x200B; メール配信](../../automating/using/email-delivery.md)を参照してください。
+  定期的なメール配信について詳しくは、[ メール配信](../../automating/using/email-delivery.md)を参照してください。
 
 * デフォルトでは、トランザクションメッセージは月に1回、トランザクションメッセージが再度編集および公開されるたびに表示されます。
 
-  トランザクションメッセージについて詳しくは、[&#x200B; トランザクションメッセージの概要](../../channels/using/getting-started-with-transactional-msg.md)を参照してください。
+  トランザクションメッセージについて詳しくは、[ トランザクションメッセージの概要](../../channels/using/getting-started-with-transactional-msg.md)を参照してください。
 
 >[!NOTE]
 >

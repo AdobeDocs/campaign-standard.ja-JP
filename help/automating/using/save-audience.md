@@ -10,20 +10,29 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: c3f029d7-779e-47e7-a925-1e8f672da4dd
-TQID: https://experienceleague.adobe.com/j9eu2D31Ic-nhZEk9NT4SGXYWdTpD-DAHLzJIS8ySLs
+TQID: 'https://experienceleague.adobe.com/j9eu2D31Ic-nhZEk9NT4SGXYWdTpD-DAHLzJIS8ySLs'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Intermediate
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 803
+source-wordcount: '803'
 ht-degree: 99%
-
 ---
-
 # オーディエンスを保存{#save-audience}
 
 ## 説明 {#description}
@@ -51,18 +60,18 @@ ht-degree: 99%
 
    * **[!UICONTROL Update an existing audience]**：既存のオーディエンスを選択し、更新の種類を選択します。
 
-      * **[!UICONTROL Replace audience content with new data]**：オーディエンスコンテンツ全体を置き換えます。 古いデータは失われます。 「オーディエンスの保存」アクティビティのインバウンドトランジションからのデータのみが保持されます。
-      * **[!UICONTROL Complete audience with new data]**：古いオーディエンスデータは保持され、「オーディエンスの保存」アクティビティのインバウンドトランジションのデータが追加されます。
+     * **[!UICONTROL Replace audience content with new data]**：オーディエンスコンテンツ全体を置き換えます。 古いデータは失われます。 「オーディエンスの保存」アクティビティのインバウンドトランジションからのデータのみが保持されます。
+     * **[!UICONTROL Complete audience with new data]**：古いオーディエンスデータは保持され、「オーディエンスの保存」アクティビティのインバウンドトランジションのデータが追加されます。
 
    * **[!UICONTROL Create then update an audience]**：オーディエンスの名前を入力し、更新タイプを選択します。 オーディエンスが存在しない場合は、作成されます。 既に存在する場合は、選択したモードに従って更新されます。
 
-      * **[!UICONTROL Replace audience content with new data]**：オーディエンスコンテンツ全体を置き換えます。 古いデータは失われます。 「オーディエンスの保存」アクティビティのインバウンドトランジションからのデータのみが保持されます。
+     * **[!UICONTROL Replace audience content with new data]**：オーディエンスコンテンツ全体を置き換えます。 古いデータは失われます。 「オーディエンスの保存」アクティビティのインバウンドトランジションからのデータのみが保持されます。
 
-        警告：このオプションを選択すると、オーディエンスの種類と、更新されたオーディエンスのターゲティングディメンションが削除されます。
+       警告：このオプションを選択すると、オーディエンスの種類と、更新されたオーディエンスのターゲティングディメンションが削除されます。
 
-      * **[!UICONTROL Complete audience with new data]**：古いオーディエンスデータは保持され、「オーディエンスの保存」アクティビティのインバウンドトランジションのデータが追加されます。
+     * **[!UICONTROL Complete audience with new data]**：古いオーディエンスデータは保持され、「オーディエンスの保存」アクティビティのインバウンドトランジションのデータが追加されます。
 
-        警告：このオプションを選択すると、更新されたオーディエンスの種類またはターゲティングディメンションが現在のワークフローの設定と互換性がない場合、エラーが発生します。 例えば、クエリーからのプロファイルを含むファイルタイプオーディエンスを完了することはできません。
+       警告：このオプションを選択すると、更新されたオーディエンスの種類またはターゲティングディメンションが現在のワークフローの設定と互換性がない場合、エラーが発生します。 例えば、クエリーからのプロファイルを含むファイルタイプオーディエンスを完了することはできません。
 
    * **[!UICONTROL Create a new audience]**：作成するオーディエンスの名前を入力します。 オーディエンスの作成日時が、オーディエンス名に自動的に追加されます。 これにより、ワークフローが実行されるたびにオーディエンスが一意になります。
    * **[!UICONTROL Share in Adobe Experience Cloud]**：ターゲットプロファイルがあり、オーディエンスを Adobe Experience Cloud にエクスポートする場合は、このオプションを選択し、その後既存の共有オーディエンスを選択するか、新しいオーディエンスを作成します。

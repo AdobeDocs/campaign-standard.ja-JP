@@ -6,22 +6,32 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: d5e6034c-3673-4069-ac0b-49c7ad07259d
-TQID: https://experienceleague.adobe.com/aoMhXQxtQb9tDFW4eon-N7tw6ViTSMmwhpDl17zVwMQ
+TQID: 'https://experienceleague.adobe.com/aoMhXQxtQb9tDFW4eon-N7tw6ViTSMmwhpDl17zVwMQ'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Personalization
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 484
+source-wordcount: '484'
 ht-degree: 4%
-
 ---
-
 # ワークフローを使用した定期的なプッシュ通知の送信 {#sending-a-recurring-push-notification-with-a-workflow}
 
 ![](assets/wkf_push_example_1.png)
@@ -30,7 +40,7 @@ ht-degree: 4%
 
 ワークフローを構築するには、次の手順に従います。
 
-1. [&#x200B; スケジューラー](../../automating/using/scheduler.md) アクティビティを使用すると、配信の開始の数日前にワークフローを開始して、特定のタイムゾーンの午後8時にすべての購読者に通知を送信できます。
+1. [ スケジューラー](../../automating/using/scheduler.md) アクティビティを使用すると、配信の開始の数日前にワークフローを開始して、特定のタイムゾーンの午後8時にすべての購読者に通知を送信できます。
 
    * **[!UICONTROL Execution frequency]** フィールドで、「月単位」を選択します。
    * **[!UICONTROL Time]** フィールドで「午後8:00」を選択します。
@@ -44,7 +54,7 @@ ht-degree: 4%
 
    ![](assets/wkf_push_example_5.png)
 
-1. [&#x200B; クエリ &#x200B;](../../automating/using/query.md) アクティビティを使用すると、モバイルアプリケーションを購読し、送信したメールを開かなかった20 ～ 30歳のVIPのお客様をターゲットにできます。
+1. [ クエリ ](../../automating/using/query.md) アクティビティを使用すると、モバイルアプリケーションを購読し、送信したメールを開かなかった20 ～ 30歳のVIPのお客様をターゲットにできます。
 
    * オーディエンス（VIPのお客様）を選択し、その年齢でフィルタリングします。
    * **サブスクリプションをアプリケーション**&#x200B;要素にドラッグ&amp;ドロップします。 「**存在する**」を選択し、使用するモバイルアプリケーションを選択します。
@@ -54,7 +64,7 @@ ht-degree: 4%
 
      ![](assets/wkf_push_example_2.png)
 
-1. [&#x200B; プッシュ通知配信](../../automating/using/push-notification-delivery.md) アクティビティを使用すると、メッセージのコンテンツを入力し、使用するパーソナライゼーションフィールドを選択できます。
+1. [ プッシュ通知配信](../../automating/using/push-notification-delivery.md) アクティビティを使用すると、メッセージのコンテンツを入力し、使用するパーソナライゼーションフィールドを選択できます。
 
    * 「**[!UICONTROL Recurring notification]**」オプションを選択します。
    * プッシュ通知のコンテンツを定義します。 プッシュ通知コンテンツについて詳しくは、この[節](../../channels/using/preparing-and-sending-a-push-notification.md)を参照してください。

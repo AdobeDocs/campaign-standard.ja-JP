@@ -10,27 +10,36 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: d2ce702b-92d1-4b94-bd47-34ef46a8bd9f
-TQID: https://experienceleague.adobe.com/x8m3RC6xTxysD8WLgMBICv3Qp1Fz9FYm-OlDqimecbc
+TQID: 'https://experienceleague.adobe.com/x8m3RC6xTxysD8WLgMBICv3Qp1Fz9FYm-OlDqimecbc'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Intermediate
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 580
+source-wordcount: '580'
 ht-degree: 8%
-
 ---
-
 # ワークフローの実行の監視 {#monitoring}
 
 ## ワークフローのログとタスク {#workflow-log-and-tasks}
 
 ![](assets/printpreview_darkgrey-24px.png) アイコンがワークフローログとタスクメニューを開きます。
 
-ワークフロー履歴は、ワークフロー実行オプションで指定された期間にわたって保存されます（[&#x200B; ワークフローのプロパティ &#x200B;](../../automating/using/managing-execution-options.md)を参照）。 この期間中、再起動後でも、すべてのメッセージが保存されます。 以前の実行からメッセージを保存しない場合は、![](assets/delete_darkgrey-24px.png) ボタンをクリックして履歴をパージする必要があります。
+ワークフロー履歴は、ワークフロー実行オプションで指定された期間にわたって保存されます（[ ワークフローのプロパティ ](../../automating/using/managing-execution-options.md)を参照）。 この期間中、再起動後でも、すべてのメッセージが保存されます。 以前の実行からメッセージを保存しない場合は、![](assets/delete_darkgrey-24px.png) ボタンをクリックして履歴をパージする必要があります。
 
 「**[!UICONTROL Log]**」タブには、すべてのアクティビティまたは選択した任意のアクティビティの実行履歴が含まれます。 実行された操作と実行エラーのインデックスを時系列の順序で作成します。
 
@@ -58,9 +67,9 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->この設定は、各アクティビティに個別に適用できます。 これを行うには、アクティビティを選択し、クイックアクション ![](assets/edit_darkgrey-24px.png)を使用して開きます。 次に、**実行オプション** タブでエラー管理モードを選択します。 [&#x200B; アクティビティ実行オプション &#x200B;](../../automating/using/activity-properties.md)を参照してください。
+>この設定は、各アクティビティに個別に適用できます。 これを行うには、アクティビティを選択し、クイックアクション ![](assets/edit_darkgrey-24px.png)を使用して開きます。 次に、**実行オプション** タブでエラー管理モードを選択します。 [ アクティビティ実行オプション ](../../automating/using/activity-properties.md)を参照してください。
 
-[&#x200B; ワークフローのプロパティ &#x200B;](../../automating/using/managing-execution-options.md)で、エラー管理に関連する追加のオプションを利用できます。
+[ ワークフローのプロパティ ](../../automating/using/managing-execution-options.md)で、エラー管理に関連する追加のオプションを利用できます。
 
 ![](assets/wkf_execution_error.png)
 
@@ -70,11 +79,11 @@ ht-degree: 8%
 
 * **[!UICONTROL In case of error]**: アクティビティでエラーが発生した場合に実行するアクションを指定できます。 これには2つのオプションがあります。
 
-   * **プロセスを中断**：ワークフローは自動的に中断されます。 ワークフローのステータスは&#x200B;**エラー**&#x200B;になり、関連付けられている色が赤になります。 問題が解決したら、ワークフローを再起動します。
-   * **無視**: アクティビティは実行されないため、そのアクティビティに続くアクティビティも（同じブランチ内に）実行されません。 これは、繰り返し作業に役立つ場合があります。 ブランチにスケジューラーがアップストリームに配置されている場合、これは次の実行日にトリガーされます。
+  * **プロセスを中断**：ワークフローは自動的に中断されます。 ワークフローのステータスは&#x200B;**エラー**&#x200B;になり、関連付けられている色が赤になります。 問題が解決したら、ワークフローを再起動します。
+  * **無視**: アクティビティは実行されないため、そのアクティビティに続くアクティビティも（同じブランチ内に）実行されません。 これは、繰り返し作業に役立つ場合があります。 ブランチにスケジューラーがアップストリームに配置されている場合、これは次の実行日にトリガーされます。
 
 * **[!UICONTROL Consecutive errors]**：ワークフローの実行が自動的に中断される前に承認される連続したエラーの数を定義できます。
 
-   * 指定された数値が&#x200B;**[!UICONTROL 0]**&#x200B;である場合、または指定された数値に達しない限り、エラーが発生したアクティビティは無視されます。 その他のワークフローブランチは正常に実行されます。
+  * 指定された数値が&#x200B;**[!UICONTROL 0]**&#x200B;である場合、または指定された数値に達しない限り、エラーが発生したアクティビティは無視されます。 その他のワークフローブランチは正常に実行されます。
 
-   * 指定された数に達すると、ワークフロー全体が一時停止され、**[!UICONTROL Erroneous]**&#x200B;になります。 スーパーバイザーが定義されている場合は、電子メールで自動的に通知されます。 [Adobe Campaign 通知](../../administration/using/sending-internal-notifications.md)を参照してください。
+  * 指定された数に達すると、ワークフロー全体が一時停止され、**[!UICONTROL Erroneous]**&#x200B;になります。 スーパーバイザーが定義されている場合は、電子メールで自動的に通知されます。 [Adobe Campaign 通知](../../administration/using/sending-internal-notifications.md)を参照してください。

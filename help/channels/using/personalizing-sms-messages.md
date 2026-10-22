@@ -9,22 +9,32 @@ feature: SMS
 role: User
 level: Intermediate
 exl-id: 6c01662e-1e19-4cec-aa21-6e84b9b7a677
-TQID: https://experienceleague.adobe.com/rNZ7AuSVilyEUjsV2cgu2SLCxfT693AORqR6-GF9d5E
+TQID: 'https://experienceleague.adobe.com/rNZ7AuSVilyEUjsV2cgu2SLCxfT693AORqR6-GF9d5E'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+subfeature_v2:
+  - id: b1bd1421-1927-4c59-9bc6-ce292360e43b
+    internal-label: SMS Messaging
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Personalization
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 434
+source-wordcount: '434'
 ht-degree: 99%
-
 ---
-
 # SMS メッセージのパーソナライズ{#personalizing-sms-messages}
 
 SMSメッセージのパーソナライゼーションの原則は、[電子メール](../../designing/using/personalization.md#inserting-a-personalization-field)の原則と同じです。 ただし、表記変換オプションによってはエンコーディングが変わり、送信するSMSメッセージの数が増える場合があるので、注意が必要です。 詳しくは、[表記変換と SMS の長さ](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration)を参照してください。
@@ -36,8 +46,8 @@ SMSメッセージのパーソナライゼーションの原則は、[電子メ�
 * 受信者の名前が「John Smith」であれば、特殊文字が含まれていないので、Adobe Campaign は SMS メッセージごとに最大 160 文字まで可能な GSM エンコードを選択します。 したがって、メッセージは単体で送信されます。
 * 受信者の名前が「Raphaël Forêt」であると、GSM では「ë」と「ê」をエンコードできません。 この場合、Adobe Campaign では、表記変換が有効になっているかどうかに応じて、次のいずれかの動作を選択します。
 
-   * 表記変換が許可されている場合は、「ë」と「ê」が「e」に置き換えられます。その結果、GSM エンコーディングを使用できるので、SMS で最大 160 文字まで使用できます。 メッセージは若干変更されますが、単一の SMS メッセージとして送信されます。
-   * 表記変換が許可されていない場合、Adobe Campaign ではバイナリ形式（Unicode）でのメッセージ送信を選択します。したがって、すべての文字がそのまま送信されます。 Unicode の SMS メッセージは 70 文字までに制限されているので、Adobe Campaign ではメッセージを 2 つに分割して送信する必要があります。
+  * 表記変換が許可されている場合は、「ë」と「ê」が「e」に置き換えられます。その結果、GSM エンコーディングを使用できるので、SMS で最大 160 文字まで使用できます。 メッセージは若干変更されますが、単一の SMS メッセージとして送信されます。
+  * 表記変換が許可されていない場合、Adobe Campaign ではバイナリ形式（Unicode）でのメッセージ送信を選択します。したがって、すべての文字がそのまま送信されます。 Unicode の SMS メッセージは 70 文字までに制限されているので、Adobe Campaign ではメッセージを 2 つに分割して送信する必要があります。
 
 >[!NOTE]
 >

@@ -4,36 +4,48 @@ description: トランザクションメッセージを公開、一時停止、�
 audience: channels
 content-type: reference
 topic-tags: transactional-messaging
-context-tags: null
+context-tags:
 feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 12fe13c2-899d-4c85-8381-ba812ff26f54
-TQID: https://experienceleague.adobe.com/RMGPVUR4mXc9ZU38JCpsVT-ytEwrYRfhTB-eaVsAt-Q
+TQID: 'https://experienceleague.adobe.com/RMGPVUR4mXc9ZU38JCpsVT-ytEwrYRfhTB-eaVsAt-Q'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
 subfeature_v2:
   - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+    internal-label: REST API
+  - id: d3b34fea-a110-482f-adb2-aae8d686bac8
+    internal-label: Transactional messaging
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Administration
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 656
+source-wordcount: '656'
 ht-degree: 70%
-
 ---
-
 # トランザクションメッセージのライフサイクル {#publishing-transactional-message}
 
-[&#x200B; トランザクションメッセージ &#x200B;](../../channels/using/editing-transactional-message.md)を送信する準備ができたら、公開できます。
+[ トランザクションメッセージ ](../../channels/using/editing-transactional-message.md)を送信する準備ができたら、公開できます。
 
 トランザクションメッセージを公開、一時停止、非公開および削除する手順について詳しくは、以下を参照してください。
 
@@ -111,7 +123,7 @@ The steps for sending a proof are detailed in the [Sending proofs](../../sending
 
 これで、「買い物かごの放棄」イベントがトリガーされるとすぐに、受信者のタイトルと姓、買い物かごの URL、最後に参照した製品、または製品のリスト（製品リストを定義した場合）と送信される買い物かごの総数を含むメッセージが自動的に表示されます。
 
-トランザクションメッセージに関するレポートにアクセスするには、「**[!UICONTROL Reports]**」ボタンを使用します。 [動的レポート &#x200B;](../../reporting/using/about-dynamic-reports.md)を参照してください。
+トランザクションメッセージに関するレポートにアクセスするには、「**[!UICONTROL Reports]**」ボタンを使用します。 [動的レポート ](../../reporting/using/about-dynamic-reports.md)を参照してください。
 
 ![](assets/message-center_13.png)
 
@@ -124,7 +136,7 @@ The steps for sending a proof are detailed in the [Sending proofs](../../sending
 
 トランザクションメッセージに含まれるデータを変更する場合など、「**[!UICONTROL Pause]**」ボタンを使用してメッセージの公開を中止できます。 したがって、イベントは処理されず、Adobe Campaign データベースのキューに保持されます。
 
-キューに入れられたイベントは、REST APIで定義された時間内に保持されます（[REST API ドキュメント &#x200B;](../../api/using/managing-transactional-messages.md)を参照）。また、トリガー コアサービスを使用している場合は、トリガーイベントで保持されます（[Adobe Experience Cloud Triggers](../../integrating/using/about-adobe-experience-cloud-triggers.md)について参照）。
+キューに入れられたイベントは、REST APIで定義された時間内に保持されます（[REST API ドキュメント ](../../api/using/managing-transactional-messages.md)を参照）。また、トリガー コアサービスを使用している場合は、トリガーイベントで保持されます（[Adobe Experience Cloud Triggers](../../integrating/using/about-adobe-experience-cloud-triggers.md)について参照）。
 
 ![](assets/message-center_pause.png)
 
@@ -140,7 +152,7 @@ The steps for sending a proof are detailed in the [Sending proofs](../../sending
 
 >[!NOTE]
 >
->メッセージを再度公開するには、対応するイベント設定に戻り、[&#x200B; イベントを公開](../../channels/using/publishing-transactional-event.md)してから[&#x200B; メッセージを公開](#publishing-a-transactional-message)する必要があります。
+>メッセージを再度公開するには、対応するイベント設定に戻り、[ イベントを公開](../../channels/using/publishing-transactional-event.md)してから[ メッセージを公開](#publishing-a-transactional-message)する必要があります。
 
 一時停止したトランザクションメッセージを非公開にする場合は、再度公開するまで 24 時間待たなければならない場合があります。 これは、キューに送信されたすべてのイベントを「**[!UICONTROL Database cleanup]**」ワークフローで消去するためです。
 

@@ -8,23 +8,34 @@ feature: Performance Monitoring
 role: User
 level: Intermediate
 exl-id: fac29bc2-57fa-40f9-a160-cd75f695b91e
-TQID: https://experienceleague.adobe.com/0kuFE3F4zrJzydRFdByb6Jz1lNUA1wrpL70bXWwxYIA
+TQID: 'https://experienceleague.adobe.com/0kuFE3F4zrJzydRFdByb6Jz1lNUA1wrpL70bXWwxYIA'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: c03a11ff-bdf9-4e5b-b279-f468b4293464
+    internal-label: Performance Monitoring
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Customer profiles
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 485
-ht-degree: 32%
-
+source-wordcount: '485'
+ht-degree: 33%
 ---
-
 # メッセージのトラッキング{#tracking-messages}
 
 ## トラッキングについて {#about-tracking}
@@ -38,7 +49,7 @@ Cookieの使用を許可するチェックボックスを備えた認証リク�
 Adobe Campaign は、次の 2 つのタイプの Cookie を使用します。
 
 * セッション Cookie （nlid）。 連絡先に送信されるメールの識別子（broadlogId）およびメッセージテンプレートの識別子（deliveryId）が含まれています。 Adobe Campaign が送信したメールに含まれている URL を連絡先のユーザーがクリックすると追加され、この連絡先での web 上の行動をトラッキングできるようになります。 このセッション Cookie は、ブラウザーが閉じられると自動的に消去されます。 連絡先のユーザーは、Cookie を拒否するようにブラウザーを設定できます。
-* Adobe Experience Cloudソリューション間で共有されるCookie。 これにより、Web サイトの訪問時に Experience Cloud ソリューションとやり取りするユーザーを識別できます。 この Cookie の説明については、[こちら](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html?lang=ja)を参照してください。
+* Adobe Experience Cloud ソリューション間で共有されるCookie。 これにより、Web サイトの訪問時に Experience Cloud ソリューションとやり取りするユーザーを識別できます。 この Cookie の説明については、[こちら](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html)を参照してください。
 
 Adobe Campaign Standardを使用したトラッキングでは、次の機能にアクセスできます。
 
@@ -96,7 +107,7 @@ Adobe Campaign Standardを使用したトラッキングでは、次の機能に
 >
 >**プッシュ通知** チャネルでは、モバイル通知のクリックのみが追跡されます。 この場合、値は&#x200B;**[!UICONTROL Click on mobile notification]**&#x200B;になります。
 
-トラッキングリンクの挿入方法について詳しくは、[このページ &#x200B;](../../designing/using/links.md#inserting-a-link)を参照してください。
+トラッキングリンクの挿入方法について詳しくは、[このページ ](../../designing/using/links.md#inserting-a-link)を参照してください。
 
 **[!UICONTROL Tracking indicators]** レポートには、電子メール メッセージを受信した後のトラッキング動作に関する主要指標が含まれています。 詳しくは、この[ページ](../../reporting/using/tracking-indicators.md)を参照してください。
 

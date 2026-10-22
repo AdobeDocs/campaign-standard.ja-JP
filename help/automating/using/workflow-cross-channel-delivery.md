@@ -10,24 +10,34 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 9cee2005-a99b-47cb-b573-a25812614409
-TQID: https://experienceleague.adobe.com/zcoFbPtWA5lcopKI6FfXdj3I3Ypvl6FZvAiZMh7oDw0
+TQID: 'https://experienceleague.adobe.com/zcoFbPtWA5lcopKI6FfXdj3I3Ypvl6FZvAiZMh7oDw0'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Reporting
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 863
+source-wordcount: '863'
 ht-degree: 84%
-
 ---
-
 # クロスチャネル配信の作成{#cross-channel-delivery}
 
 このドキュメントでは、標準的な使用例を基に Adobe Campaign のクロスチャネル配信ワークフロー作成機能を紹介します。
@@ -77,7 +87,7 @@ Adobe Campaign で使用できるワークフローと様々なチャネルの�
 
 クエリアクティビティでターゲットを特定したら、ターゲットを 2 つの別々の母集団にセグメント化する条件を選択する必要があります。一方はメールを受信し、もう一方は SMS を受信します。
 
-クエリの上流で計算された母集団から1つまたは複数のセグメントを作成するには、[&#x200B; セグメント化](../../automating/using/segmentation.md) アクティビティを使用する必要があります。
+クエリの上流で計算された母集団から1つまたは複数のセグメントを作成するには、[ セグメント化](../../automating/using/segmentation.md) アクティビティを使用する必要があります。
 
 ![](assets/wkf_segment_activity.png)
 
@@ -124,7 +134,7 @@ Adobe Campaign で使用できるワークフローと様々なチャネルの�
 
 ## 配信の作成 {#creating-deliveries}
 
-2つのトランジションが既に作成されているので、「[&#x200B; メール配信](../../automating/using/email-delivery.md)」アクティビティと「[SMS配信](../../automating/using/sms-delivery.md)」アクティビティの2種類の配信をセグメント化アクティビティのアウトバウンドトランジションに追加する必要があります。
+2つのトランジションが既に作成されているので、「[ メール配信](../../automating/using/email-delivery.md)」アクティビティと「[SMS配信](../../automating/using/sms-delivery.md)」アクティビティの2種類の配信をセグメント化アクティビティのアウトバウンドトランジションに追加する必要があります。
 
 Adobe Campaign を使用すると、ワークフローに配信を追加できます。 これをおこなうには、ワークフローのアクティビティパレットの「**[!UICONTROL Channels]**」カテゴリから配信を選択します。
 
@@ -132,7 +142,7 @@ Adobe Campaign を使用すると、ワークフローに配信を追加でき�
 
 メール配信を作成するには：
 
-1. 最初のセグメントの後に[&#x200B; メール配信](../../automating/using/email-delivery.md) アクティビティをドラッグ&amp;ドロップします。
+1. 最初のセグメントの後に[ メール配信](../../automating/using/email-delivery.md) アクティビティをドラッグ&amp;ドロップします。
 1. アクティビティを編集するには、ダブルクリックします。
 1. 「**[!UICONTROL Simple email]**」を選択します。
 1. 「**[!UICONTROL Add an outbound transition with the population]**」を選択し、「**[!UICONTROL Next]**」をクリックします。

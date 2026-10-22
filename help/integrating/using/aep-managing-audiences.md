@@ -11,13 +11,28 @@ role: Developer
 level: Experienced
 exl-id: 2f6c5cc6-0634-4418-a2ee-e1c133d9cbd2
 hide: true
-source-git-commit: 7ad12890a24b2c0b8730d09b7d161bff511f4c69
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: dd99420f-367d-4a14-bbc4-5140615992c2
+    internal-label: Microsoft CRM integration
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '389'
 ht-degree: 2%
-
 ---
-
 # Adobe Experience Platform オーディエンスの管理 {#about-audiences}
 
 >[!IMPORTANT]
@@ -52,21 +67,21 @@ Campaign StandardでAdobe Experience Platform オーディエンスを直接作�
 
 1. セグメントを正常に作成するには、このセグメントのマーケティング目的に一致する&#x200B;**結合ポリシー**&#x200B;を選択する必要があります。
 
-   設定ペインで、Platformのデフォルトの結合ポリシーが選択されます。 結合ポリシーについて詳しくは、[&#x200B; セグメントビルダーユーザーガイド &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html?lang=ja)の専用セクションを参照してください。
+   設定ペインで、Platformのデフォルトの結合ポリシーが選択されます。 結合ポリシーについて詳しくは、[ セグメントビルダーユーザーガイド ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html)の専用セクションを参照してください。
 
    ![](assets/aep_audiences_mergepolicy.png)
 
 1. オーディエンスで取得するプロファイルを識別するルールを定義します。
 
-   これを行うには、左側のペインから目的の属性やイベントをワークスペースにドラッグし、対応するルールを定義してから&#x200B;**[!UICONTROL Create segment]** ボタンをクリックしてセグメントを保存します（[&#x200B; セグメントビルダーの使用](../../integrating/using/aep-using-segment-builder.md)を参照）。
+   これを行うには、左側のペインから目的の属性やイベントをワークスペースにドラッグし、対応するルールを定義してから&#x200B;**[!UICONTROL Create segment]** ボタンをクリックしてセグメントを保存します（[ セグメントビルダーの使用](../../integrating/using/aep-using-segment-builder.md)を参照）。
 
    ![](assets/aep_audiences_creation_query.png)
 
-オーディエンスをアクティブ化する準備が整ったので、キャンペーンのターゲットとして使用できます（[Adobe Experience Platform オーディエンスのターゲティング &#x200B;](../../integrating/using/aep-targeting-audiences.md)を参照）。
+オーディエンスをアクティブ化する準備が整ったので、キャンペーンのターゲットとして使用できます（[Adobe Experience Platform オーディエンスのターゲティング ](../../integrating/using/aep-targeting-audiences.md)を参照）。
 
 ## オーディエンスの編集
 
-オーディエンスを編集するには、オーディエンスを開き、セグメントビルダーインターフェイス内で必要に応じてルールを変更します（[&#x200B; セグメントビルダーの使用](../../integrating/using/aep-using-segment-builder.md)を参照）。
+オーディエンスを編集するには、オーディエンスを開き、セグメントビルダーインターフェイス内で必要に応じてルールを変更します（[ セグメントビルダーの使用](../../integrating/using/aep-using-segment-builder.md)を参照）。
 
 変更が完了したら、**[!UICONTROL Save segment]** ボタンをクリックしてオーディエンスを更新します。
 

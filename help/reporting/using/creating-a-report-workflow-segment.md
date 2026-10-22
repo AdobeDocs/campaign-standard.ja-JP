@@ -8,27 +8,38 @@ feature: Reporting
 role: Leader
 level: Intermediate
 exl-id: 514bffa0-2413-4212-b1b9-e070031c462f
-TQID: https://experienceleague.adobe.com/vxBxI9A1bHCAHCcPyhDVlmSeS9TOg-K1INwVzftpJLA
+TQID: 'https://experienceleague.adobe.com/vxBxI9A1bHCAHCcPyhDVlmSeS9TOg-K1INwVzftpJLA'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+    internal-label: Dynamic reporting
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: b3a4149f-2b3a-44d1-894e-e3ac4c77fb47
+    internal-label: Reporting interface
 role_v2:
   - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+    internal-label: Leader
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Administration
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 643
+source-wordcount: '649'
 ht-degree: 4%
-
 ---
-
 # ワークフローセグメントに基づくレポートの作成{#creating-a-report-workflow-segment}
 
 >[!CAUTION]
@@ -44,7 +55,7 @@ ht-degree: 4%
 >[!CAUTION]
 >これらのデータの収集を開始するには、Dynamic Reporting使用許諾契約書に同意する必要があります。
 >
->この契約書について詳しくは、この[&#x200B; ページ &#x200B;](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement)を参照してください。
+>この契約書について詳しくは、この[ ページ ](../../reporting/using/about-dynamic-reports.md#dynamic-reporting-usage-agreement)を参照してください。
 
 ## 手順1：セグメントを使用したプロファイルのカスタムリソースの更新{#step-1--update-profiles-custom-resource-segments}
 
@@ -64,7 +75,7 @@ ht-degree: 4%
 
    ![](assets/custom_profile_7.png)
 
-1. 「**[!UICONTROL Prepare publication]**」をクリックし、準備が完了したら、「**[!UICONTROL Publish]**」ボタンをクリックします。 カスタムリソースについて詳しくは、この[&#x200B; ページ &#x200B;](../../developing/using/updating-the-database-structure.md)を参照してください。
+1. 「**[!UICONTROL Prepare publication]**」をクリックし、準備が完了したら、「**[!UICONTROL Publish]**」ボタンをクリックします。 カスタムリソースについて詳しくは、この[ ページ ](../../developing/using/updating-the-database-structure.md)を参照してください。
 
 セグメントコードを使用してワークフローの作成を開始できるようになりました。
 
@@ -77,7 +88,7 @@ ht-degree: 4%
 
 まず、異なるターゲット母集団を持つワークフローを作成する必要があります。 ここでは、オーディエンスの年齢に応じてパーソナライズされた電子メールを送信したいと考えています。1つは20～30歳のプロファイル用で、もう1つは30～40歳のプロファイル用です。
 
-1. ワークフローの構築。 ワークフローの作成方法について詳しくは、この[&#x200B; ページ &#x200B;](../../automating/using/building-a-workflow.md)を参照してください。
+1. ワークフローの構築。 ワークフローの作成方法について詳しくは、この[ ページ ](../../automating/using/building-a-workflow.md)を参照してください。
 
 1. パレットからアクティビティをドラッグしてワークスペースにドロップし、**[!UICONTROL Query]** アクティビティを追加します。
 
@@ -85,7 +96,7 @@ ht-degree: 4%
 
    ![](assets/report_segment_1.png)
 
-1. クエリの結果を2つのターゲット母集団に分割する&#x200B;**[!UICONTROL Segmentation]** アクティビティを追加します。 セグメント化について詳しくは、この[&#x200B; ページ &#x200B;](../../automating/using/segmentation.md)を参照してください。
+1. クエリの結果を2つのターゲット母集団に分割する&#x200B;**[!UICONTROL Segmentation]** アクティビティを追加します。 セグメント化について詳しくは、この[ ページ ](../../automating/using/segmentation.md)を参照してください。
 
 1. **[!UICONTROL Segmentation]** アクティビティをダブルクリックして設定します。 **[!UICONTROL Edit properties]**&#x200B;をクリックして、最初のセグメントを編集します。
 
@@ -108,7 +119,7 @@ ht-degree: 4%
 
    ![](assets/report_segment_3.png)
 
-1. ターゲットとなる母集団に応じて、配信をパーソナライズします。 メール作成について詳しくは、この[&#x200B; ページ &#x200B;](../../designing/using/designing-content-in-adobe-campaign.md)を参照してください。
+1. ターゲットとなる母集団に応じて、配信をパーソナライズします。 メール作成について詳しくは、この[ ページ ](../../designing/using/designing-content-in-adobe-campaign.md)を参照してください。
 
 1. ワークフローを保存します。
 

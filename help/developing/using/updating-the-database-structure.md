@@ -9,22 +9,34 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: fa39eb54-9ec0-4aff-94a8-5459f4c496d0
-TQID: https://experienceleague.adobe.com/yMObKVSUHuRFlzf7DgbbH3iwsNXTknAasYIfF37fy4E
+TQID: 'https://experienceleague.adobe.com/yMObKVSUHuRFlzf7DgbbH3iwsNXTknAasYIfF37fy4E'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: a1681cd8-6b2e-4955-9113-33b5f7a22b8c
+    internal-label: Data model architecture
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Administration
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 773
+source-wordcount: '773'
 ht-degree: 90%
-
 ---
-
 # データベース構造の更新{#updating-the-database-structure}
 
 データモデルの変更を有効にして使用できるようにするには、データベース構造を更新する必要があります。
@@ -39,7 +51,7 @@ ht-degree: 90%
 
 >[!NOTE]
 >
->イベントで使用されているカスタムリソースのフィールドが変更または削除された場合、対応するイベントは自動的に非公開になります。 「[&#x200B; トランザクションイベントの非公開](../../channels/using/publishing-transactional-event.md#unpublishing-an-event)」を参照してください。
+>イベントで使用されているカスタムリソースのフィールドが変更または削除された場合、対応するイベントは自動的に非公開になります。 「[ トランザクションイベントの非公開](../../channels/using/publishing-transactional-event.md#unpublishing-an-event)」を参照してください。
 
 1. 詳細設定メニューの Adobe Campaign ロゴから、**[!UICONTROL Administration]**／**[!UICONTROL Development]**／**[!UICONTROL Publishing]** を選択します。
 1. デフォルトでは、「**[!UICONTROL Determine modifications since the last publication]**」オプションはオンになっており、最後の更新以降に実行された変更のみが適用されます。
@@ -58,7 +70,7 @@ ht-degree: 90%
 
    >[!NOTE]
    >
-   >重複したインデックスが公開に失敗する原因となるため、準備ステップでは、リソースに対して定義されたインデックスが、他のリソースに対して同じ名前で既に存在するかどうかを確認します。 この場合、インデックスの名前を変更するよう求めるエラーメッセージが表示されます。 [&#x200B; インデックスの定義](configuring-the-resource-s-data-structure.md#defining-indexes)を参照してください。
+   >重複したインデックスが公開に失敗する原因となるため、準備ステップでは、リソースに対して定義されたインデックスが、他のリソースに対して同じ名前で既に存在するかどうかを確認します。 この場合、インデックスの名前を変更するよう求めるエラーメッセージが表示されます。 [ インデックスの定義](configuring-the-resource-s-data-structure.md#defining-indexes)を参照してください。
 
 1. 公開が実行されたら、「**[!UICONTROL Publish]**」ボタンをクリックして新しい設定を適用します。
 1. 公開された各リソースの&#x200B;**[!UICONTROL Summary]**&#x200B;ウィンドウには、現在の状態が「**[!UICONTROL Published]**」と表示され、最新の公開日が示されます。

@@ -10,20 +10,29 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 39f7b216-b3cd-4aa6-b5df-23e6805076df
-TQID: https://experienceleague.adobe.com/pOXtN7OIlZSZTe5WWHJjiSuX56sS5pGojHp79GWgRP4
+TQID: 'https://experienceleague.adobe.com/pOXtN7OIlZSZTe5WWHJjiSuX56sS5pGojHp79GWgRP4'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Intermediate
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 877
+source-wordcount: '877'
 ht-degree: 52%
-
 ---
-
 # スケジューラー{#scheduler}
 
 ## 説明 {#description}
@@ -76,19 +85,19 @@ ht-degree: 52%
 
    * ワークフローを一日中定期的に実行するには、**[!UICONTROL Periodic]** オプションを切り替え、実行期間を設定します。
 
-      1. 「**[!UICONTROL Repeat processing according to the following frequency (e.g. 2h)]**」フィールドで、ワークフローを実行する間隔（30分ごと、2時間ごと）を指定します。
+     1. 「**[!UICONTROL Repeat processing according to the following frequency (e.g. 2h)]**」フィールドで、ワークフローを実行する間隔（30分ごと、2時間ごと）を指定します。
 
-         >[!NOTE]
-         >
-         >このオプションを使用すると、毎日、毎月、または毎年の繰り返し頻度も可能になります。 この場合、ワークフローは1日に数回実行するのではなく、このフィールドで指定した頻度に従って実行されます。
-         >
-         > ワークフローで1日以内に複数の実行を必要とせず、代わりに日単位、月単位、年単位で実行する必要がある場合は、**[!UICONTROL Execution frequency]** ドロップダウンリストで利用可能な&#x200B;**[!UICONTROL Daily]**、**[!UICONTROL Monthly]**&#x200B;または&#x200B;**[!UICONTROL Yearly]** オプションを使用することをお勧めします。
+        >[!NOTE]
+        >
+        >このオプションを使用すると、毎日、毎月、または毎年の繰り返し頻度も可能になります。 この場合、ワークフローは1日に数回実行するのではなく、このフィールドで指定した頻度に従って実行されます。
+        >
+        > ワークフローで1日以内に複数の実行を必要とせず、代わりに日単位、月単位、年単位で実行する必要がある場合は、**[!UICONTROL Execution frequency]** ドロップダウンリストで利用可能な&#x200B;**[!UICONTROL Daily]**、**[!UICONTROL Monthly]**&#x200B;または&#x200B;**[!UICONTROL Yearly]** オプションを使用することをお勧めします。
 
-      1. **[!UICONTROL Start]**/**[!UICONTROL End]**&#x200B;時間フィールドで、ワークフローの実行を開始および終了する時間を定義します。
+     1. **[!UICONTROL Start]**/**[!UICONTROL End]**&#x200B;時間フィールドで、ワークフローの実行を開始および終了する時間を定義します。
 
-         終了時間が指定されていない場合、実行は00:00:00時間深夜に終了し、次の実行は指定された開始時間に翌日に開始されます。
+        終了時間が指定されていない場合、実行は00:00:00時間深夜に終了し、次の実行は指定された開始時間に翌日に開始されます。
 
-      1. **[!UICONTROL Start]**&#x200B;日付フィールドで、最初の実行を開始する日付を選択します。
+     1. **[!UICONTROL Start]**&#x200B;日付フィールドで、最初の実行を開始する日付を選択します。
 
    次の例では、3月1日から午前8時から午後5時の間に2時間ごとにワークフローを実行するようにアクティビティが設定されています。
 

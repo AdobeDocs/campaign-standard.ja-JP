@@ -5,41 +5,64 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 17521357-14ae-4751-bd7c-aeabbcf71d07
-TQID: https://experienceleague.adobe.com/BtRFMP6fh8X5Z6R1wGzc0Q07HCQlx-2-3evgAOnU3eA
+TQID: 'https://experienceleague.adobe.com/BtRFMP6fh8X5Z6R1wGzc0Q07HCQlx-2-3evgAOnU3eA'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
   - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+    internal-label: Dynamic reporting
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
 subfeature_v2:
   - id: b1fd1501-3105-4d6b-b4d4-9af53126df75
+    internal-label: Target integration
   - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+    internal-label: REST API
   - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
+    internal-label: Triggers
   - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+    internal-label: Permissions
   - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
+    internal-label: Release notes
   - id: e739ee2b-6228-412e-878f-45de0791417d
+    internal-label: Use cases
   - id: eff19c99-440a-4318-b319-444edc4d8d8f
+    internal-label: Upgrade
+  - id: e8d937ec-9046-41b5-834b-d22a624e0d37
+    internal-label: Campaign overview
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 1e34b244937569402d8fe873f6dd67f20b9a9a29
+    internal-label: Privacy
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 5477
+source-wordcount: '5477'
 ht-degree: 9%
-
 ---
-
 # リリースノート 2018{#release-notes}
 
 ## リリース 18.9 - 2018 年 9 月 {#release-18-9-september-2018}
@@ -82,7 +105,7 @@ ht-degree: 9%
 
 * Creative Designer インターフェイスを使用してコンテンツブロックを選択すると、リストのすべてのコンテンツブロックが読み込まれ、表示されるようになりました。 （CAMP-27311）
 
-  詳しくは、[詳細ドキュメント &#x200B;](../../designing/using/personalization.md#adding-a-content-block)を参照してください。
+  詳しくは、[詳細ドキュメント ](../../designing/using/personalization.md#adding-a-content-block)を参照してください。
 
 **パッチ**
 
@@ -150,8 +173,8 @@ ht-degree: 9%
 **その他の変更**
 
 * タイムアウトエラーを回避するために、レポート共有のタイムアウト時間が1分から4分に増加しました。
-* メールの内容を編集すると、新しいCreative Designerがデフォルトで開きます。 必要に応じて、変更を保存した後も、いつでもデフォルトのコンテンツエディターに戻すことができます。 詳しくは、[詳細ドキュメント &#x200B;](../../designing/using/designing-content-in-adobe-campaign.md)を参照してください。
-* Creative Designerでは、新しいコンテンツコンポーネントをメールに追加できるようになりました。カルーセルです。 詳しくは、[詳細ドキュメント &#x200B;](../../designing/using/designing-from-scratch.md#about-content-components)を参照してください。
+* メールの内容を編集すると、新しいCreative Designerがデフォルトで開きます。 必要に応じて、変更を保存した後も、いつでもデフォルトのコンテンツエディターに戻すことができます。 詳しくは、[詳細ドキュメント ](../../designing/using/designing-content-in-adobe-campaign.md)を参照してください。
+* Creative Designerでは、新しいコンテンツコンポーネントをメールに追加できるようになりました。カルーセルです。 詳しくは、[詳細ドキュメント ](../../designing/using/designing-from-scratch.md#about-content-components)を参照してください。
 * トランザクションメッセージのホットクリックレポートで、「**プロファイルを変更**」ボタンをクリックすると、トランザクションメッセージ用に定義したイベントにリンクされたテストプロファイルのみが一覧表示されるようになりました。
 
 **パッチ**
@@ -174,7 +197,7 @@ ht-degree: 9%
 
 **改善点**
 
-* **[!UICONTROL History]** APIがAdobe.IOに追加されました。 プロファイルのマーケティング履歴に関連する情報（タッチポイント数、送信された配信、ミラーページのURLなど）にアクセスできます。詳しくは、[専用ユースケース &#x200B;](../../api/using/interacting-with-marketing-history.md)を参照してください。
+* **[!UICONTROL History]** APIがAdobe.IOに追加されました。 プロファイルのマーケティング履歴に関連する情報（タッチポイント数、送信された配信、ミラーページのURLなど）にアクセスできます。詳しくは、[専用ユースケース ](../../api/using/interacting-with-marketing-history.md)を参照してください。
 * データベース バックアップのパフォーマンスを向上させるために、**[!UICONTROL Database cleanup]**&#x200B;のテクニカル ワークフローが最適化されました。
 * Creative Designer メール版は、フランス語とドイツ語でも利用できるようになりました。
 
@@ -184,7 +207,7 @@ ht-degree: 9%
 * **配信品質の更新**&#x200B;すぐに使用できるテクニカルワークフローで、機能管理者が&#x200B;**ルールの更新** JavaScript アクティビティで無視する連続エラーの数を定義できるようになりました。 デフォルトでは、フィールド値は0に設定されています。つまり、すべてのエラーが無視されます。
 * 単位アクセス制限条件の管理時に生成されるSQLが最適化されました。
 * **[!UICONTROL Update]** アクティビティで、サブスクリプションに関連するデータを追加、更新または削除できるようになりました（nms:appSubscriptionRcp テーブル）。
-* パフォーマンスを最適化するために、**[!UICONTROL Update delivery execution]**&#x200B;のテクニカルワークフローが2つのワークフローに分割されました：- **[!UICONTROL Update delivery execution]**：配信のトラッキングを更新します。 デフォルトでは、10分ごとに開始されます。 **[!UICONTROL Update delivery indicators]**：配信のKPIを更新します。デフォルトでは、1時間ごとに開始されます。 技術的なワークフローについて詳しくは、この[&#x200B; セクション &#x200B;](../../administration/using/technical-workflows.md#list-of-technical-workflows)を参照してください。
+* パフォーマンスを最適化するために、**[!UICONTROL Update delivery execution]**&#x200B;のテクニカルワークフローが2つのワークフローに分割されました：- **[!UICONTROL Update delivery execution]**：配信のトラッキングを更新します。 デフォルトでは、10分ごとに開始されます。 **[!UICONTROL Update delivery indicators]**：配信のKPIを更新します。デフォルトでは、1時間ごとに開始されます。 技術的なワークフローについて詳しくは、この[ セクション ](../../administration/using/technical-workflows.md#list-of-technical-workflows)を参照してください。
 * 配信がメッセージを送信している場合、**[!UICONTROL Deployment]** セクションのステータスに2つの値を指定できるようになりました：**[!UICONTROL Sending]**: メッセージを送信しています。 **[!UICONTROL Sending (retry)]**：再試行パスが進行中です。
 * **[!UICONTROL Delivery preparation]**&#x200B;の役割を持つユーザーは、プルーフを送信できるようになりました。 （CAMP-24313）
 * **SMPP経由でTLSを有効にする** オプションが、SMPP **外部アカウント経由の** SMS ルーティングに追加されました。 詳しくは、この[節](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing)を参照してください。
@@ -222,7 +245,7 @@ ht-degree: 9%
  <tbody> 
   <tr> 
    <td> GDPR: コアサービス統合<br /> </td> 
-   <td> Privacy Core Service統合では、単一のJSON API呼び出しを通じて、マルチソリューションのコンテキストでGDPR要求を自動化できます。<br /> Privacy Core ServiceからすべてのExperience Cloud ソリューションにプッシュされたGDPR要求は、Campaignで自動的に処理されるようになりました。<br /> 詳しくは、<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html?lang=ja">詳細ドキュメント</a>を参照してください。<br /> </td> 
+   <td> Privacy Core Service統合では、単一のJSON API呼び出しを通じて、マルチソリューションのコンテキストでGDPR要求を自動化できます。<br /> Privacy Core ServiceからすべてのExperience Cloud ソリューションにプッシュされたGDPR要求は、Campaignで自動的に処理されるようになりました。<br /> 詳しくは、<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html">詳細ドキュメント</a>を参照してください。<br /> </td> 
   </tr> 
   <tr> 
    <td> プッシュの改善 – 詳細な配信フィードバック <br /> </td> 
@@ -230,7 +253,8 @@ ht-degree: 9%
   </tr> 
   <tr> 
    <td> 配信ログ拡張機能<br /> </td> 
-   <td> 配信ログ拡張機能を使用すると、プロファイルデータとワークフローからのセグメントコードを使用して送信ログを拡張できます。 この情報は動的レポートで使用でき、配信の送信時に一部の情報のスナップショットを保持できます。<br /> さらに2つの使用例があります：<br /> <ul> 
+   <td> 配信ログ拡張機能を使用すると、プロファイルデータとワークフローからのセグメントコードを使用して送信ログを拡張できます。 この情報は動的レポートで使用でき、配信の送信時に一部の情報のスナップショットを保持できます。<br /> さらに2つの使用例があります：<br /> 
+    <ul> 
      <li> 「凍結」データを含む拡張ブロードログの書き出し：マーケターとして、セグメントコードが「A」に等しいすべてのプロファイルを書き出します（ワークフローエンジンから）。 </li> 
      <li> 「凍結」データのセグメンテーション：マーケターとして、前回の送信以降に1000 ロイヤルティポイントを獲得したプロファイル、またはセグメントコードが「A」に等しかったプロファイルをすべて<strong> リターゲティング </strong>したいと思います。 </li> 
     </ul> 詳しくは、<a href="../../developing/using/configuring-the-resource-s-data-structure.md#defining-sending-logs-extension">詳細ドキュメント</a>を参照してください。<br /> </td> 
@@ -319,19 +343,21 @@ _カスタムリソース_
  <tbody> 
   <tr> 
    <td> EU 一般データ保護規則（GDPR）<br /> </td> 
-   <td> GDPRとは、2018年5月25日に施行される、データ保護要件を調整し、今日の状況に対応するために近代化、整備された、欧州連合（EU）の新しいプライバシー法です。 GDPRは、EUに居住するデータ主体のデータを保持するAdobe Campaignのお客様に適用されます。<br /> Adobe Campaignで既に利用可能なプライバシー機能（同意管理、データ保持の設定、ユーザーの役割など）に加えて、この機会をデータ処理者として活用して、特定のGDPR要求に対するデータ管理者としての準備を促進する機能を追加します。<br /> <ul> 
+   <td> GDPRとは、2018年5月25日に施行される、データ保護要件を調整し、今日の状況に対応するために近代化、整備された、欧州連合（EU）の新しいプライバシー法です。 GDPRは、EUに居住するデータ主体のデータを保持するAdobe Campaignのお客様に適用されます。<br /> Adobe Campaignで既に利用可能なプライバシー機能（同意管理、データ保持の設定、ユーザーの役割など）に加えて、この機会をデータ処理者として活用して、特定のGDPR要求に対するデータ管理者としての準備を促進する機能を追加します。<br /> 
+    <ul> 
      <li> アクセス権限：データ主体は、データ管理者により取得された自分の個人データのコピーを受け取ることができます。これには Adobe Campaign に保存されているデータも含まれている場合があります。 </li> 
      <li> 削除権限：データ主体は、データ管理者により取得された自分の個人データを消去させることができます。これには Adobe Campaign に保存されているデータも含まれている場合があります。 </li> 
-    </ul> 詳しくは、<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html?lang=ja">詳細ドキュメント</a>を参照してください。<br /> </td> 
+    </ul> 詳しくは、<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html">詳細ドキュメント</a>を参照してください。<br /> </td> 
   </tr> 
   <tr> 
    <td> 電子メール用Creative Designer （Beta） <br /> </td> 
-   <td> Adobe Campaignの新しいCreative Designerは、Campaignで完全に統合された制作体験を提供します。これにより、コードを記述することなく、魅力的でパーソナライズされたメールを迅速かつ容易に視覚的に作成できます。 Creative Designerのドラッグ&amp;ドロップ操作による強力なインターフェイスにより、空白のスレートから開始する場合でも、既存のコンテンツフラグメントやテンプレートを利用する場合でも、メール作成を拡大できます。<br /> 主な機能は次のとおりです。<br /> <ul> 
+   <td> Adobe Campaignの新しいCreative Designerは、Campaignで完全に統合された制作体験を提供します。これにより、コードを記述することなく、魅力的でパーソナライズされたメールを迅速かつ容易に視覚的に作成できます。 Creative Designerのドラッグ&amp;ドロップ操作による強力なインターフェイスにより、空白のスレートから開始する場合でも、既存のコンテンツフラグメントやテンプレートを利用する場合でも、メール作成を拡大できます。<br /> 主な機能は次のとおりです。<br /> 
+    <ul> 
      <li> Creative Cloudとのネイティブな連携により、ドラッグ&amp;ドロップ方式のインターフェイスを通じて、完全にパーソナライズされたレスポンシブなメールを視覚的にデザイン、作成できます </li> 
      <li> メールコンテンツテンプレートの作成と保存、保存したテンプレートの活用により、メール作成の規模を拡大 </li> 
      <li> コンテンツフラグメント（ヘッダー、フッター、記事など）の作成と保存 コンテンツ制作を合理化し、ブランドの一貫性を確保できます </li> 
      <li> ドラッグ&amp;ドロップ操作によるHTMLへの直接対応と、ボタンをクリックするだけで電子メールを直接編集できる機能をシームレスに切り替えることができます </li> 
-    </ul> Creative Designer メール版は、英語でのみ利用できます。<br /> 詳細については、<a href="../../designing/using/designing-content-in-adobe-campaign.md">詳細ドキュメント </a>を参照し、この<a href="https://www.youtube.com/watch?time_continue=1&v=5S_6A4fsfms"> ビデオ </a>をご覧ください。<br /> </td> 
+    </ul> Creative Designer メール版は、英語でのみ利用できます。<br /> 詳細については、<a href="../../designing/using/designing-content-in-adobe-campaign.md">詳細ドキュメント </a>を参照し、この<a href="https://www.youtube.com/watch?time_continue=1&amp;v=5S_6A4fsfms"> ビデオ </a>をご覧ください。<br /> </td> 
   </tr> 
   <tr> 
    <td> 多言語プッシュ配信<br /> </td> 
@@ -339,7 +365,8 @@ _カスタムリソース_
   </tr> 
   <tr> 
    <td> トランザクションメッセージでのカスタムリソースの使用<br /> </td> 
-   <td> すぐに使えるフィールドに加えて、トランザクションメッセージでは、カスタムリソースを使用してメッセージのコンテンツを強化できるようになりました。<br /> 例：<br /> <ul> 
+   <td> すぐに使えるフィールドに加えて、トランザクションメッセージでは、カスタムリソースを使用してメッセージのコンテンツを強化できるようになりました。<br /> 例：<br /> 
+    <ul> 
      <li> カスタムフィールドを紐付け基準として活用して、トランザクションメッセージをプロファイルに一致させます </li> 
      <li> 完全なプロファイル、サービス、リンクされたデータを活用して、取引メッセージをさらにパーソナライズします </li> 
     </ul> 詳しくは、<a href="../../channels/using/configuring-transactional-event.md#enriching-the-transactional-message-content">詳細ドキュメント</a>を参照してください。<br /> </td> 
@@ -426,7 +453,7 @@ _電子メール、SMS メッセージ、ダイレクトメール_
 
 * パフォーマンスを向上させるために、配信準備フェーズが強化されました。
 * ニッチな状況でトラッキングログが破損する可能性があるいくつかの問題を修正しました。
-* 配信の準備と確認の間に連絡先日が変更されたときに発生した連絡先日の更新の問題を修正しました。 現在、準備後に連絡日を変更する場合は、送信を確認する前に、配信を再度準備する必要があります。 [詳細ドキュメント &#x200B;](../../sending/using/preparing-the-send.md)を参照してください。
+* 配信の準備と確認の間に連絡先日が変更されたときに発生した連絡先日の更新の問題を修正しました。 現在、準備後に連絡日を変更する場合は、送信を確認する前に、配信を再度準備する必要があります。 [詳細ドキュメント ](../../sending/using/preparing-the-send.md)を参照してください。
 
 _プッシュ通知_
 
@@ -478,12 +505,13 @@ Campaign インターフェイスからコンテキストヘルプリンクを�
   </tr> 
   <tr> 
    <td> 新しい機能をプッシュ <br /> </td> 
-   <td> プッシュメッセージプレビュー – プッシュ通知コンテンツエディター内からiOSおよびAndroid デバイスのプッシュ通知をプレビューし、配信をテストまたは実行する前に受信者に表示される内容を正確に確認します。<br /> 詳しくは、<a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">詳細ドキュメント</a>を参照してください。<br /> 利用可能なコンテンツ：アプリが長期間にわたって開かれない場合、データが古くなる可能性があります。 その結果、利用者がアプリを最終的に開いた時点でデータを更新または置き換える必要があり、アプリの利用が遅れる可能性があります。 Content Availableのサポートが追加されたことで、Adobe Campaign ユーザーは、プッシュ通知を配信する際に、アプリを起動してバックグラウンドでデータを更新できるようになり、ユーザーのアプリ内エクスペリエンスの一貫性と制御が強化されました。<br /> 可変コンテンツ - Mutable Contentのサポートが追加され、Adobe Campaign ユーザーは、モバイルアプリ拡張機能を活用して、Adobe Campaignから送信される到着通知のコンテンツやプレゼンテーションをさらに変更できるようになりました。 例えば、ユーザーは可変コンテンツを次の場所に活用できます：<br /> <ul> 
+   <td> プッシュメッセージプレビュー – プッシュ通知コンテンツエディター内からiOSおよびAndroid デバイスのプッシュ通知をプレビューし、配信をテストまたは実行する前に受信者に表示される内容を正確に確認します。<br /> 詳しくは、<a href="../../channels/using/preparing-and-sending-a-push-notification.md#preparing-the-notification">詳細ドキュメント</a>を参照してください。<br /> 利用可能なコンテンツ：アプリが長期間にわたって開かれない場合、データが古くなる可能性があります。 その結果、利用者がアプリを最終的に開いた時点でデータを更新または置き換える必要があり、アプリの利用が遅れる可能性があります。 Content Availableのサポートが追加されたことで、Adobe Campaign ユーザーは、プッシュ通知を配信する際に、アプリを起動してバックグラウンドでデータを更新できるようになり、ユーザーのアプリ内エクスペリエンスの一貫性と制御が強化されました。<br /> 可変コンテンツ - Mutable Contentのサポートが追加され、Adobe Campaign ユーザーは、モバイルアプリ拡張機能を活用して、Adobe Campaignから送信される到着通知のコンテンツやプレゼンテーションをさらに変更できるようになりました。 例えば、ユーザーは可変コンテンツを次の場所に活用できます：<br /> 
+    <ul> 
      <li> 暗号化された形式で配信されたデータを復号する </li> 
      <li> 画像やその他のメディアファイルをダウンロードし、添付ファイルとして通知に追加できます </li> 
      <li> 通知の本文またはタイトルテキストの変更 </li> 
      <li> 通知へのスレッド IDの追加 </li> 
-    </ul> 利用可能なコンテンツと可変コンテンツについて詳しくは、<a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">詳細ドキュメント </a>を参照してください。<br /> <strong>警告：</strong> プッシュ通知に関するこれらの更新には、お客様がモバイルアプリケーションをアップグレードする必要があります。 詳しくは、<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/push-payload.html?lang=ja">このテクニカルノート </a>を参照してください。<br /> </td> 
+    </ul> 利用可能なコンテンツと可変コンテンツについて詳しくは、<a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">詳細ドキュメント </a>を参照してください。<br /> <strong>警告：</strong> プッシュ通知に関するこれらの更新には、お客様がモバイルアプリケーションをアップグレードする必要があります。 詳しくは、<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/push-payload.html">このテクニカルノート </a>を参照してください。<br /> </td> 
   </tr> 
   <tr> 
    <td> タイムゾーン最適化された配信<br /> </td> 

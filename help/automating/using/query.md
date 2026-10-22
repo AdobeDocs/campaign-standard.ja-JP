@@ -10,20 +10,29 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 0c26a0f9-9d71-4692-ae86-d47e2df53bb7
-TQID: https://experienceleague.adobe.com/rja9hRgWDhDnLMNIYwt28rtxJrPyYnuwOa2XKR23uKA
+TQID: 'https://experienceleague.adobe.com/rja9hRgWDhDnLMNIYwt28rtxJrPyYnuwOa2XKR23uKA'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Intermediate
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 1768
+source-wordcount: '1774'
 ht-degree: 90%
-
 ---
-
 # クエリ{#query}
 
 ## 説明 {#description}
@@ -71,7 +80,7 @@ ht-degree: 90%
 
 1. 「**[!UICONTROL Transition]**」タブの「**[!UICONTROL Enable an outbound transition]**」オプションを使用すると、クエリアクティビティがデータを取得しない場合でも、このアクティビティの後にアウトバウンドトランジションを追加できます。
 
-   アウトバウンドトランジションのセグメントコードは、標準式とイベント変数を使用してパーソナライズできます（[このページ &#x200B;](../../automating/using/customizing-workflow-external-parameters.md)を参照）。
+   アウトバウンドトランジションのセグメントコードは、標準式とイベント変数を使用してパーソナライズできます（[このページ ](../../automating/using/customizing-workflow-external-parameters.md)を参照）。
 
 1. アクティビティの設定を確認し、ワークフローを保存します。
 
@@ -79,7 +88,7 @@ ht-degree: 90%
 
 ターゲティングディメンションとリソースを使用すると、配信のターゲットを指定するためにクエリで使用する要素を定義できます。
 
-これらは[&#x200B; ターゲットマッピング &#x200B;](../../administration/using/target-mappings-in-campaign.md)で設定され、ワークフローの作成時にクエリアクティビティの「**[!UICONTROL Properties]**」タブで定義されます。
+これらは[ ターゲットマッピング ](../../administration/using/target-mappings-in-campaign.md)で設定され、ワークフローの作成時にクエリアクティビティの「**[!UICONTROL Properties]**」タブで定義されます。
 
 >[!NOTE]
 >
@@ -109,7 +118,7 @@ ht-degree: 90%
 
 デフォルトでは、ターゲティングディメンションとリソースはターゲットプロファイルに設定されます。 ただし、距離テーブル内の特定のレコードを検索する場合は、ターゲティングディメンションとは別のリソースを使用すると便利です。
 
-詳しくは、この使用例を参照してください。[&#x200B; ターゲティングディメンションとは異なるリソースを使用する](../../automating/using/using-resources-different-from-targeting-dimensions.md)
+詳しくは、この使用例を参照してください。[ ターゲティングディメンションとは異なるリソースを使用する](../../automating/using/using-resources-different-from-targeting-dimensions.md)
 
 ## データのエンリッチメント {#enriching-data}
 
@@ -131,7 +140,7 @@ ht-degree: 90%
 >
 >デフォルトでは、クエリの「**[!UICONTROL Additional data]**」タブの「**[!UICONTROL Advanced options]**」で「**[!UICONTROL Remove duplicate rows (DISTINCT)]**」オプションがオンになっています。 パフォーマンス上の理由から、追加のデータが「**[!UICONTROL Query]**」アクティビティに多数（100 以上）含まれている場合は、このオプションをオフにすることをお勧めします。 このオプションをオフにすると、クエリされたデータに応じて重複が取得される可能性があるので注意してください。
 
-追加データを使用して電子メールをパーソナライズする方法に関するユースケースは、[このセクション &#x200B;](../../automating/using/personalizing-email-with-additional-data.md)に記載されています。
+追加データを使用して電子メールをパーソナライズする方法に関するユースケースは、[このセクション ](../../automating/using/personalizing-email-with-additional-data.md)に記載されています。
 
 ### シンプルなフィールドの追加 {#adding-a-simple-field}
 

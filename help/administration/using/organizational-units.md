@@ -6,23 +6,34 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: fbab695a-2672-4183-8c3b-78af7aefd5b1
-TQID: https://experienceleague.adobe.com/OjO9gSlb5OKrPgK2vNQsmEjJ3ykPPULZR5KOb5BenlU
+TQID: 'https://experienceleague.adobe.com/OjO9gSlb5OKrPgK2vNQsmEjJ3ykPPULZR5KOb5BenlU'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: efa38731-2723-4334-8d8b-a778af834835
+    internal-label: Access management
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Administration
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 844
+source-wordcount: '844'
 ht-degree: 6%
-
 ---
-
 # 組織単位{#organizational-units}
 
 ## 単位について {#about-units}
@@ -45,13 +56,13 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->ユーザーが異なるユニットにリンクされた複数のグループに属している場合、特定のルールが適用されます。 詳しくは、「[&#x200B; グループとユーザーの管理](../../administration/using/managing-groups-and-users.md)」の節を参照してください。
+>ユーザーが異なるユニットにリンクされた複数のグループに属している場合、特定のルールが適用されます。 詳しくは、「[ グループとユーザーの管理](../../administration/using/managing-groups-and-users.md)」の節を参照してください。
 
 ## ユニットの作成と管理 {#creating-and-managing-units}
 
 組織単位を使用すると、ユーザーがリンクされている組織に応じてインスタンスをフィルタリングできます。 このユニットは、インスタンス内の地域、国、さらにはブランドを表すことができます。
 
-ここでは、2つのユーザーに異なる役割を持つセキュリティグループを以前に作成しました。1人のユーザーにセキュリティグループ管理者とGeometrixxが割り当てられ、もう1人のユーザーにセキュリティグループ標準ユーザーとGeometrixx服が割り当てられています。完全な例については、[&#x200B; セキュリティグループの作成とユーザーの割り当て](../../administration/using/managing-groups-and-users.md#creating-a-security-group-and-assigning-users)を参照してください。
+ここでは、2つのユーザーに異なる役割を持つセキュリティグループを以前に作成しました。1人のユーザーにセキュリティグループ管理者とGeometrixxが割り当てられ、もう1人のユーザーにセキュリティグループ標準ユーザーとGeometrixx服が割り当てられています。完全な例については、[ セキュリティグループの作成とユーザーの割り当て](../../administration/using/managing-groups-and-users.md#creating-a-security-group-and-assigning-users)を参照してください。
 
 次に、Geometrixxの衣類とGeometrixxのセキュリティグループの組織部門を作る必要がある。
 
@@ -113,7 +124,7 @@ Geometrixx組織単位のプロファイルは読み取り専用ですが、ユ�
 デフォルトでは、組織単位フィールドはプロファイルで使用できないので、追加する必要があります。
 
 1. 詳細設定メニューから、Adobe Campaign ロゴを使用して、**管理/開発/カスタムリソース**&#x200B;を選択します。
-1. **プロファイル**&#x200B;を選択するか、新しいカスタムリソースを作成してプロファイルを拡張します。 プロファイルの拡張方法について詳しくは、この[&#x200B; ページ &#x200B;](../../developing/using/extending-the-profile-resource-with-a-new-field.md#step-1--extend-the-profile-resource)を参照してください。
+1. **プロファイル**&#x200B;を選択するか、新しいカスタムリソースを作成してプロファイルを拡張します。 プロファイルの拡張方法について詳しくは、この[ ページ ](../../developing/using/extending-the-profile-resource-with-a-new-field.md#step-1--extend-the-profile-resource)を参照してください。
 1. 「**アクセス承認管理フィールドを追加**」ボックスをオンにして、**プロファイル**&#x200B;拡張機能に組織単位を追加します。
 
    ![](assets/user_management_9.png)

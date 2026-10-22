@@ -8,22 +8,32 @@ feature: Push
 role: User
 level: Intermediate
 exl-id: bd9ec3f9-e047-42dc-ab64-9fb274cb4656
-TQID: https://experienceleague.adobe.com/sSLZ7Yi5SZTrFKNknQcrCKr49aeNUL4y249CleELWWo
+TQID: 'https://experienceleague.adobe.com/sSLZ7Yi5SZTrFKNknQcrCKr49aeNUL4y249CleELWWo'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+subfeature_v2:
+  - id: a4657621-810c-498b-8a27-7ced9c176dda
+    internal-label: Push notifications
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Personalization
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 1026
+source-wordcount: '1026'
 ht-degree: 1%
-
 ---
-
 # 多言語プッシュ通知用の CSV ファイルの生成{#generating-csv-multilingual-push}
 
 配信用のコンテンツを生成するためのCSV ファイルのアップロードは、多言語プッシュ通知をサポートするために使用される機能です。 CSV ファイルの形式は、ファイルのアップロードを成功させ、結果として配信を作成できるようにするために、特定のガイドラインに準拠する必要があります。 次の節では、ファイル形式とその考慮事項について説明します。
@@ -47,7 +57,7 @@ ht-degree: 1%
 1. language
 1. silentPush
 
-**[!UICONTROL Manage Content Variants]** ウィンドウの&#x200B;**[!UICONTROL Download a sample file]**&#x200B;をクリックして、CSV サンプルを確認します。 詳しくは、この[&#x200B; セクション &#x200B;](../../channels/using/creating-a-multilingual-push-notification.md)を参照してください。
+**[!UICONTROL Manage Content Variants]** ウィンドウの&#x200B;**[!UICONTROL Download a sample file]**&#x200B;をクリックして、CSV サンプルを確認します。 詳しくは、この[ セクション ](../../channels/using/creating-a-multilingual-push-notification.md)を参照してください。
 
 * **title, messageBody, sound, badge, deeplinkURI, category, iosMediaAttachmentURL, androidMediaAttachmentURL**：通常のプッシュペイロードのコンテンツ。 プッシュ配信を作成する場合と同様に、この情報を提供する必要があります。
 * **カスタムフィールド**：カスタムフィールドにJSON形式（例：`{"key1":"value1","key2":"value2"}`）を使用します。 カスタムフィールドの例については、上記のサンプルファイルを参照してください。

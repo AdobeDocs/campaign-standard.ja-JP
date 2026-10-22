@@ -6,21 +6,34 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: bda6f8d5-3bcf-498c-a7c4-d3c2c79b9510
-TQID: https://experienceleague.adobe.com/EE3jnXvxis0E3rnCRqLX2Gc9Aivhx2d4o3l8dZnFzgQ
+TQID: 'https://experienceleague.adobe.com/EE3jnXvxis0E3rnCRqLX2Gc9Aivhx2d4o3l8dZnFzgQ'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: efa38731-2723-4334-8d8b-a778af834835
+    internal-label: Access management
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Administration
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 497
+source-wordcount: '497'
 ht-degree: 7%
-
 ---
-
 # 監査記録 {#audit}
 
 **[!UICONTROL Audit trail]**&#x200B;では、インスタンス内で行われた変更の完全な履歴にアクセスできます。
@@ -33,29 +46,29 @@ ht-degree: 7%
 
 * **カスタムリソース監査証跡**: アクティビティとカスタムリソースに対する最後の変更を確認してください。
 
-  **[!UICONTROL Custom resources]**&#x200B;について詳しくは、この[&#x200B; ページ &#x200B;](../../developing/using/key-steps-to-add-a-resource.md)を参照してください。
+  **[!UICONTROL Custom resources]**&#x200B;について詳しくは、この[ ページ ](../../developing/using/key-steps-to-add-a-resource.md)を参照してください。
 
 * **ワークフロー監査証跡**: ワークフローに対して行われたアクティビティと最後の変更、さらにワークフローの状態を次のように確認します。
 
-   * 作成日時
-   * 変更済み
-   * 削除済み
-   * ワークフロー開始
-   * ワークフローの一時停止
-   * ワークフロー停止
-   * ワークフローの再起動
-   * ワークフロークリーンアップ
-   * Workflow Simulate
-   * ワークフローのウェイクアップ
-   * ワークフロー即時停止
-   * 同じユーザーでのワークフローの再起動
-   * ワークフロー再起動の不明なコマンド
+  * 作成日時
+  * 変更済み
+  * 削除済み
+  * ワークフロー開始
+  * ワークフローの一時停止
+  * ワークフロー停止
+  * ワークフローの再起動
+  * ワークフロークリーンアップ
+  * Workflow Simulate
+  * ワークフローのウェイクアップ
+  * ワークフロー即時停止
+  * 同じユーザーでのワークフローの再起動
+  * ワークフロー再起動の不明なコマンド
 
-  **[!UICONTROL Workflows]**&#x200B;について詳しくは、この[&#x200B; ページ &#x200B;](../../automating/using/get-started-workflows.md)を参照してください。
+  **[!UICONTROL Workflows]**&#x200B;について詳しくは、この[ ページ ](../../automating/using/get-started-workflows.md)を参照してください。
 
 * **オプション監査記録**: アクティビティと最後に行った変更をオプションに確認します。
 
-  **[!UICONTROL Options]**&#x200B;について詳しくは、この[&#x200B; ページ &#x200B;](../../administration/using/about-campaign-standard-settings.md)を参照してください。
+  **[!UICONTROL Options]**&#x200B;について詳しくは、この[ ページ ](../../administration/using/about-campaign-standard-settings.md)を参照してください。
 
 デフォルトでは、保持期間は30日です。
 

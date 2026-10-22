@@ -8,22 +8,32 @@ feature: Audiences
 role: User
 level: Intermediate
 exl-id: 9992a05b-9f3c-4e6c-82e5-151c679565a1
-TQID: https://experienceleague.adobe.com/ztI-eJdW855g7S99FTujQ6RyRm3iRF0ApASHNi3a6Pk
+TQID: 'https://experienceleague.adobe.com/ztI-eJdW855g7S99FTujQ6RyRm3iRF0ApASHNi3a6Pk'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: afa4204e-6d08-4e29-bc35-26aafb656d48
+    internal-label: Profiles and audiences
+subfeature_v2:
+  - id: d6330382-c886-4f7a-a4f7-74e3f36c0d9c
+    internal-label: Audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Personalization
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 1322
+source-wordcount: '1322'
 ht-degree: 85%
-
 ---
-
 # サービスの購読の確認{#confirming-subscription-to-a-service}
 
 ## 購読確認の送信について {#sending-subscription-confirmation}
@@ -61,7 +71,7 @@ ht-degree: 85%
 1. イベントを作成するには、Adobe Campaign のロゴから **[!UICONTROL Marketing plans]**／**[!UICONTROL Transactional messages]**／**[!UICONTROL Event configuration]** メニューにアクセスします。
 1. ラベルを入力し、ターゲティングディメンションを選択して「**[!UICONTROL Create]**」をクリックします。
 
-   設定手順については、「[&#x200B; トランザクションイベントの設定](../../channels/using/configuring-transactional-event.md)」の節を参照してください。
+   設定手順については、「[ トランザクションイベントの設定](../../channels/using/configuring-transactional-event.md)」の節を参照してください。
 
 1. 「**[!UICONTROL Fields]**」セクションで、紐付けを有効にするために、「**[!UICONTROL Create element]**」をクリックして **[!UICONTROL publicLabel]** をデータ構造に追加します。
 
@@ -94,7 +104,7 @@ ht-degree: 85%
 1. Adobe Campaign のロゴから **[!UICONTROL Marketing plans]**／**[!UICONTROL Transactional messages]** を選択し、「**[!UICONTROL Transactional messages]**」をクリックします。
 1. 先ほど公開したイベントに対応するトランザクションメールを選択します。
 
-1. 「**[!UICONTROL Content]**」セクションをクリックし、メールテンプレートを選択します。 トランザクションメッセージのコンテンツの編集について詳しくは、[&#x200B; トランザクションメッセージの編集](../../channels/using/editing-transactional-message.md)を参照してください。
+1. 「**[!UICONTROL Content]**」セクションをクリックし、メールテンプレートを選択します。 トランザクションメッセージのコンテンツの編集について詳しくは、[ トランザクションメッセージの編集](../../channels/using/editing-transactional-message.md)を参照してください。
 1. **[!UICONTROL Service]** リソースのすべてのフィールドに直接アクセスできるので、**[!UICONTROL Context]**／**[!UICONTROL Real-time event (rtEvent)]**／**[!UICONTROL Event context (ctx)]**／「**[!UICONTROL Service]**」ノードから任意のフィールドを選択して、コンンツをパーソナライズできます。
 
    ![](assets/confirmation_personalization-service.png)
@@ -150,7 +160,7 @@ ht-degree: 85%
 1. イベントを作成するには、Adobe Campaign のロゴから **[!UICONTROL Marketing plans]**／**[!UICONTROL Transactional messages]**／**[!UICONTROL Event configuration]** メニューにアクセスします。
 1. ラベルを入力し、ターゲティングディメンションを選択して「**[!UICONTROL Create]**」をクリックします。
 
-   設定手順については、「[&#x200B; トランザクションイベントの設定](../../channels/using/configuring-transactional-event.md)」の節を参照してください。
+   設定手順については、「[ トランザクションイベントの設定](../../channels/using/configuring-transactional-event.md)」の節を参照してください。
 
 1. 「**[!UICONTROL Fields]**」セクションで、紐付けを有効にするために、「**[!UICONTROL Create element]**」をクリックして **[!UICONTROL serviceName]** をデータ構造に追加します。
 

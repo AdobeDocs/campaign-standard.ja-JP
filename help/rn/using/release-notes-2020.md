@@ -8,49 +8,77 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: b6cf7152-2200-43d7-8d0a-d65752bb2c9b
-TQID: https://experienceleague.adobe.com/qG7ToJy0sHbYmOX6kOYcRXzxyvCJER3G3TODUx1b3Ag
+TQID: 'https://experienceleague.adobe.com/qG7ToJy0sHbYmOX6kOYcRXzxyvCJER3G3TODUx1b3Ag'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: a2002dba-5e37-4dff-8e04-1cc3ec73558c
+    internal-label: Custom resources
   - id: af6750fd-3c1b-4ad2-9fe3-99e81510998d
+    internal-label: Data retention
   - id: d1110311-2ca4-442b-be37-088a6db845ee
+    internal-label: Data Management activities
   - id: eb007b6d-6e57-46ab-9485-3f24d6102304
+    internal-label: Experience Platform integration
   - id: f5293531-9312-4099-bfa3-9e67df6a8750
+    internal-label: Query Editor
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
+  - id: e8d937ec-9046-41b5-834b-d22a624e0d37
+    internal-label: Campaign overview
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
+    internal-label: Machine learning
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: e267777274122de6dc8badc2d6b8dfdaa20c5fb2
+    internal-label: Privacy
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 5439
+source-wordcount: '5439'
 ht-degree: 95%
-
 ---
-
 # リリースノート 2020{#release-notes-2020}
 
-![](assets/do-not-localize/cp-icon.png) **新しいコントロールパネル 6 月のリリース** - アクティブなプロファイルの監視、サブドメイン配信品質の監査、GPG キー管理。 [詳細情報](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ja)。
+![](assets/do-not-localize/cp-icon.png) **新しいコントロールパネル 6 月のリリース** - アクティブなプロファイルのモニタリング、サブドメイン配信品質の監査、GPG キー管理。 [詳細情報](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ja)。
 
-![](assets/do-not-localize/cp-icon.png) **10 月の新しい コントロールパネルリリース**&#x200B;で、CNAME を使用したドメイン設定と新しいデータベース監視機能が追加されました。 [詳細情報](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ja)。
+![](assets/do-not-localize/cp-icon.png) **10 月の新しい コントロールパネルリリース**&#x200B;で、CNAME を使用したドメイン設定と新しいデータベースモニタリング機能が追加されました。 [詳細情報](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=ja)。
 
 ## リリース 20.4 - 2020 年 10 月 {#release-20-4-october-2020}
 
@@ -64,8 +92,9 @@ ht-degree: 95%
 </thead> 
 <tbody> 
 <tr> 
-  <td> <p><strong>コントロール母集団</strong>を使用して、キャンペーンのオーディエンスの一部を除外することで、キャンペーンの影響を測定できるようになりました。 その後、メッセージを受け取ったターゲット母集団の行動と、ターゲット設定されていない連絡先の行動を比較できます。 送信ログに基づいて、今後のキャンペーンでコントロール母集団をターゲットすることもできます。</p>
-<p>詳しくは、<a href="../../sending/using/control-group.md">詳細ドキュメント</a>および<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html?lang=ja">ハウツービデオ</a>を参照してください。
+  <td> <p><strong>コントロール母集団</strong>を使用して、キャンペーンのオーディエンスの一部を除外することで、キャンペーンの影響を測定できるようになりました。 その後、メッセージを受け取ったターゲット母集団の行動と、ターゲット設定されていない連絡先の行動を比較できます。 送信ログに基づいて、今後のキャンペーンでコントロール母集団をターゲットすることもできます。
+</p>
+<p>詳しくは、<a href="../../sending/using/control-group.md">詳細ドキュメント</a>および<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/control-groups.html">ハウツービデオ</a>を参照してください。
 </p>
 </td> 
 </tr> 
@@ -80,7 +109,8 @@ ht-degree: 95%
 </thead> 
 <tbody> 
 <tr> 
-  <td> <p>Adobe Campaign で、<strong>外部 API</strong> ワークフローアクティビティでの認証に OAuth がサポートされるようになりました。 この新しい機能により、このアクティビティが OAuth のサポートを必要とするシステムと通信できるようになります。</p>
+  <td> <p>Adobe Campaign で、<strong>外部 API</strong> ワークフローアクティビティでの認証に OAuth がサポートされるようになりました。 この新しい機能により、このアクティビティが OAuth のサポートを必要とするシステムと通信できるようになります。
+</p>
 <p>詳しくは、<a href="../../automating/using/external-api.md">詳細ドキュメント</a>を参照してください。
 </p>
 </td> 
@@ -100,8 +130,8 @@ ht-degree: 95%
   <p>ジャーニーは、AIを利用した高度なマシンラーニングにより、顧客一人ひとりのエンゲージメントの好みを予測し、カスタマージャーニーの設計と提供を最適化できるようにしています。</p>
   <P>ジャーニー AI は、次の 2 つの ML 機能で構成されています。</p>
 <ul> 
-     <li> <strong>予測エンゲージメントスコアリング</strong> - メッセージのターゲティングとパーソナライゼーションを強化し、コンバージョンとリテンションを向上させるために、顧客が望むエンゲージメントレベルをインテリジェントに識別します。 <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-engagement-scoring.html?lang=ja">ビデオガイド、チュートリアル</a>をご覧ください。</li> 
-     <li> <strong>予測送信時間の最適化</strong> - キャンペーン中に各顧客にメールを送信する最適な時間を予測して、エンゲージメント率を最大化し、メールキャンペーンの ROI を向上させます。 <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-send-time-optimization.html?lang=ja">ビデオガイド、チュートリアル</a>をご覧ください。</li>
+     <li> <strong>予測エンゲージメントスコアリング</strong> - メッセージのターゲティングとパーソナライゼーションを強化し、コンバージョンとリテンションを向上させるために、顧客が望むエンゲージメントレベルをインテリジェントに識別します。 <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-engagement-scoring.html">ビデオガイド、チュートリアル</a>をご覧ください。</li> 
+     <li> <strong>予測送信時間の最適化</strong> - キャンペーン中に各個人にメールを送信する最適な時間を予測して、エンゲージメント率を最大化し、メールキャンペーンの ROI を向上させます。 <a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/journey-ai/predictive-send-time-optimization.html">ビデオガイド、チュートリアル</a>をご覧ください。</li>
     </ul>
   <p>ジャーニー AI の概要について詳しくは、<a href="../../sending/using/predictive.md">詳細なドキュメント</a>を確認し、担当のアカウント担当者にお問い合わせください。 ジャーニー AI は、既存の Adobe Campaign のお客様には無償で提供されます。実装に要する時間は約 50 時間です。</p>
     </td> 
@@ -111,7 +141,7 @@ ht-degree: 95%
 
 **強化点**
 
-* **プライバシー管理**：Campaign インターフェイスおよび API から利用できる「**CCPA オプトアウト**」フィールドが、Privacy コアサービスを通じてサポートされるようになりました。 このフィールドを使用して、顧客が個人情報の販売をオプトアウトしたかどうかを追跡できます。 [詳細情報](https://helpx.adobe.com/jp/campaign/kb/acs-privacy.html#ccpa)
+* **プライバシー管理**：Campaign インターフェイスおよび API から利用できる「**CCPA オプトアウト**」フィールドが、Privacy コアサービスを通じてサポートされるようになりました。 このフィールドを使用して、消費者が個人情報の販売をオプトアウトしたかどうかを追跡できます。 [詳細情報](https://helpx.adobe.com/jp/campaign/kb/acs-privacy.html#ccpa)
 * **ワークフロー実行の改善**（ベータ版）：ワークフローに関するグローバルイニシアチブの観点から、メモリ管理の安定化、レイテンシの低減、ワークフロー実行時のメモリ使用量の最適化を目的として、いくつかの大きな改善が進められています。 現時点では、これらの改善点はベータ版をご利用のお客様にのみ適用されます。 2021 年初頭までに、すべてのお客様に適用される予定です。
 * セキュリティを強化するために、Campaign では、メール内のリンクの追跡に&#x200B;**署名メカニズム**&#x200B;が使用されるようになりました。
 * iOS 証明書または Android キーをアップロードする際の&#x200B;**エラーメッセージが明確**&#x200B;になり、モバイルアプリの設定が改善されました。
@@ -234,7 +264,7 @@ ht-degree: 95%
 <li>アクセス権と削除権：GDPR および CCPA 用に追加された機能を活用します。 <a href="https://helpx.adobe.com/content/help/jp/campaign/kb/acs-privacy.html#righttoaccess">詳細情報</a> </li>
 <li><p>プライバシーリクエストを作成する際に、PDPA 規制タイプが Privacy コアサービスに追加されました。 すべてのアクセス要求と削除要求に対して、このメソッドを使用する必要があります。 アクセス要求および削除要求に対する Campaign API およびインターフェイスの使用は廃止されています。  <a href="../../rn/using/deprecated-features.md">廃止および削除された機能の記事</a>を参照してください。</p></li>
 </ul>
-<p><a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html?lang=ja">ハウツービデオ</a>を参照してください。</p>
+<p><a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/privacy/privacy-overview.html">ハウツービデオ</a>を参照してください。</p>
 </td> 
 </tr> 
 </tbody> 
@@ -255,7 +285,7 @@ ht-degree: 95%
 <li>オブジェクトに「data」という名前を付けたり、最上位レベルに配置したりする必要なく、JSON から配列オブジェクトを選択して使用する。</li>
 </ul>
 <p><strong>注意：</strong><strong>すべてのベータ版外部 API アクティビティを、ワークフロー内の GA 外部 API アクティビティで置き換える必要があります</strong>。  ベータ版の外部 API を使用するワークフローは、20.3 以降では動作しなくなります。</p>
-<p>詳しくは、<a href="../../automating/using/external-api.md">詳細ドキュメント</a>および<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html?lang=ja">ハウツービデオ</a>を参照してください。</p>
+<p>詳しくは、<a href="../../automating/using/external-api.md">詳細ドキュメント</a>および<a href="https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/managing-processes-and-data/data-management-activities/external-api-activity.html">ハウツービデオ</a>を参照してください。</p>
 </td> 
 </tr> 
 </tbody> 
@@ -263,7 +293,7 @@ ht-degree: 95%
 
 **その他の機能**（7 月 13 日より開始）
 
-* **AI を利用した送信時間の最適化とプロファイルスコアリング** - カスタマージャーニーの設計と配信を最適化して、各ユーザーのエンゲージメントの傾向を予測できるようになりました。 Adobe Campaign は、ジャーニー AI を活用して、過去のエンゲージメント指標に基づいて開封率や最適な送信時間、顧客離れの可能性を分析および予測できます。 [詳細情報](../../sending/using/predictive.md)
+* **AI を利用した送信時間の最適化とプロファイルスコアリング** - カスタマージャーニーの設計と配信を最適化して、各個人のエンゲージメントの傾向を予測できるようになりました。 Adobe Campaign は、ジャーニー AI を活用して、過去のエンゲージメント指標に基づいて開封率や最適な送信時間、顧客離れの可能性を分析および予測できます。 [詳細情報](../../sending/using/predictive.md)
 * **ブラジルの新しいプライバシー規制** - Adobeは、Campaignで既に利用可能なプライバシー機能に加えて、ブラジルのLei Geral de Proteçao de Datos （LGPD）への対応を促進するのに役立ちます。 プライバシーリクエストを作成する際に、LGPD 規制が Adobe Privacy コアサービスに追加されました。 [詳細情報](https://helpx.adobe.com/jp/campaign/kb/campaign-privacy-overview.html)
 
 **強化点**
@@ -348,7 +378,7 @@ ht-degree: 95%
  <tbody> 
   <tr> 
    <td> <p>テストプロファイルに加えて、実際のターゲットプロファイルを対象にメールをテストできるようになりました。 これにより、プロファイルが受け取るメッセージ（ワークフローからの追加データを含め、カスタムフィールド、動的情報、パーソナライズされた情報など）が正確に表示されます。 </p>
-    <p>詳しくは、<a href="../../sending/using/testing-messages-using-target.md">詳細ドキュメント</a>および<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html?lang=ja">チュートリアルビデオ</a>を参照してください。 </p>
+    <p>詳しくは、<a href="../../sending/using/testing-messages-using-target.md">詳細ドキュメント</a>および<a href="https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/email/profile-substitution.html">チュートリアルビデオ</a>を参照してください。 </p>
    </td> 
   </tr> 
  </tbody> 

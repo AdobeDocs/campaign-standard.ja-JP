@@ -9,31 +9,46 @@ feature: Data Model
 role: Developer
 level: Experienced
 exl-id: 58d4e02f-3c9a-4e5d-a6aa-fdbcec0d8dda
-TQID: https://experienceleague.adobe.com/UIBmxy8Dy3HqJDFYO6o87j1OppPU2zwjMv4yzRe3rLo
+TQID: 'https://experienceleague.adobe.com/UIBmxy8Dy3HqJDFYO6o87j1OppPU2zwjMv4yzRe3rLo'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
 subfeature_v2:
   - id: a1681cd8-6b2e-4955-9113-33b5f7a22b8c
+    internal-label: Data model architecture
   - id: bec93d13-829e-414d-9c2b-71b3974944a0
+    internal-label: Campaign data model
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+    internal-label: Data integration
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Data management
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 1577
+source-wordcount: '1577'
 ht-degree: 52%
-
 ---
-
 # データモデルのベストプラクティス{#data-model-best-practices}
 
 このドキュメントでは、Adobe Campaign データモデルを設計する際の主なレコメンデーションの概要を説明します。
@@ -43,7 +58,7 @@ ht-degree: 52%
 >
 >Adobe Campaignの事前定義済みデータモデルを拡張するためにリソースを作成および変更するには、[この節](../../developing/using/key-steps-to-add-a-resource.md)を参照してください。
 >
->組み込みリソースのデータモデル表現は、[このページ &#x200B;](../../developing/using/datamodel-introduction.md)にあります。
+>組み込みリソースのデータモデル表現は、[このページ ](../../developing/using/datamodel-introduction.md)にあります。
 
 ## 概要 {#overview}
 
@@ -63,7 +78,7 @@ Adobe Campaign Standardは、オンラインとオフラインの戦略を連携
 
 ![](assets/customer-centric-data-model.png)
 
-Adobe Campaignのデフォルトのデータモデルは、この[&#x200B; セクション &#x200B;](../../developing/using/datamodel-introduction.md)に記載されています。
+Adobe Campaignのデフォルトのデータモデルは、この[ セクション ](../../developing/using/datamodel-introduction.md)に記載されています。
 
 <!--You can find a datamodel representation for the out-of-the-box resources [here](../../developing/using/datamodel-introduction.md).-->
 
@@ -101,7 +116,7 @@ Adobe Campaignで属性が必要かどうかを判断するには、属性が次
 
 ## データ構造の設定 {#configuring-data-structure}
 
-この節では、[&#x200B; リソースのデータ構造を設定する](../../developing/using/configuring-the-resource-s-data-structure.md)際のベストプラクティスについて説明します。
+この節では、[ リソースのデータ構造を設定する](../../developing/using/configuring-the-resource-s-data-structure.md)際のベストプラクティスについて説明します。
 
 ### 識別子 {#identifiers}
 
@@ -115,7 +130,7 @@ Adobe Campaign リソースには 3 つの識別情報があり、別の識別�
 
 | 表示名 | 技術名 | 説明 | ベストプラクティス |
 |--- |--- |--- |--- |
-|  | PKey | <ul><li>PKeyは、Adobe Campaign テーブルの物理プライマリキーです。</li><li>このIDは通常、特定のAdobe Campaign インスタンスに固有です。</li><li>Adobe Campaign Standardでは、この値はエンドユーザーには表示されません（URLを除く）。</li></ul> | <ul><li>[API システム &#x200B;](../../api/using/get-started-apis.md)を介して、PKey値（物理キーではなく、生成/ハッシュ値）を取得できます。</li><li>API経由でレコードを取得、更新、または削除する以外の目的では使用しないことをお勧めします。</li></ul> |
+|  | PKey | <ul><li>PKeyは、Adobe Campaign テーブルの物理プライマリキーです。</li><li>このIDは通常、特定のAdobe Campaign インスタンスに固有です。</li><li>Adobe Campaign Standardでは、この値はエンドユーザーには表示されません（URLを除く）。</li></ul> | <ul><li>[API システム ](../../api/using/get-started-apis.md)を介して、PKey値（物理キーではなく、生成/ハッシュ値）を取得できます。</li><li>API経由でレコードを取得、更新、または削除する以外の目的では使用しないことをお勧めします。</li></ul> |
 | ID | nameまたはinternalName | <ul><li>この情報は、テーブル内のレコードの一意の識別子です。 この値は手動で更新できます。</li><li>このIDは、Adobe Campaignの別のインスタンスにデプロイされた場合、その値を保持します。 パッケージを介して書き出すには、生成された値とは異なる名前が必要です。</li><li>これはテーブルの実際のプライマリキーではありません。</li></ul> | <ul><li>スペース「」、半列「:」、ハイフン「 – 」などの特殊文字は使用しないでください。</li><li>これらの文字はすべて、アンダースコア「_」（許可されている文字）に置き換えられます。 例えば、「abc-def」と「abc:def」は「abc_def」として保存され、互いに上書きされます。</li></ul> |
 | ラベル | ラベル | <ul><li>ラベルは、Adobe Campaign 内のオブジェクトまたはレコードのビジネス識別子です。</li><li>このオブジェクトでは、スペースと特殊文字も使用できます。</li><li>レコードの一意性は保証されません。</li></ul> | <ul><li>オブジェクトラベルの構造を決定することをお勧めします。</li><li>これは、Adobe Campaign ユーザーにとって、レコードまたはオブジェクトを識別するための最も使いやすい解決策です。</li></ul> |
 | ACS ID | acsId | <ul><li>追加の識別子を生成できます：[ACS ID](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)。</li><li>Adobe CampaignのユーザーインターフェイスではPKeyを使用できないので、プロファイルレコードの挿入時に生成される一意の値を取得するソリューションです。</li><li>この値は、レコードがAdobe Campaignに挿入される前にリソースでオプションが有効になっている場合にのみ、自動生成できます。</li></ul> | <ul><li>このUUIDは、紐付けキーとして使用できます。</li><li>自動生成されたACS IDは、ワークフローまたはパッケージ定義の参照として使用できません。</li><li>この値は、Adobe Campaign インスタンスに固有です。</li></ul> |
@@ -143,7 +158,7 @@ When an out-of-the-box resource has both an internal auto-generated and an inter
 
 ### 索引 {#indexes}
 
-Adobe Campaignは、リソースで定義されているすべてのプライマリキーと内部キーに[&#x200B; インデックス &#x200B;](../../developing/using/configuring-the-resource-s-data-structure.md#defining-indexes)を自動的に追加します。
+Adobe Campaignは、リソースで定義されているすべてのプライマリキーと内部キーに[ インデックス ](../../developing/using/configuring-the-resource-s-data-structure.md#defining-indexes)を自動的に追加します。
 
 * Adobeでは、パフォーマンスが向上する可能性があるため、追加のインデックスを定義することをお勧めします。
 * ただし、データベース上のスペースを使用するので、インデックスを追加しすぎないようにしてください。 数多くのインデックスは、パフォーマンスに悪影響を与える可能性があります。

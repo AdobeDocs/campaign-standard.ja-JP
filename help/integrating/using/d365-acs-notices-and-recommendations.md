@@ -9,33 +9,49 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: aab6f005-f3da-4c0b-b856-da8504e611dc
-TQID: https://experienceleague.adobe.com/nb1iMYLX1mkPlTN0vodjRWHh4QhHKUU091nEvq-rGDg
+TQID: 'https://experienceleague.adobe.com/nb1iMYLX1mkPlTN0vodjRWHh4QhHKUU091nEvq-rGDg'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: dd99420f-367d-4a14-bbc4-5140615992c2
+    internal-label: Microsoft CRM integration
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Privacy
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 2582
+source-wordcount: '2582'
 ht-degree: 1%
-
 ---
-
 # ベストプラクティスと制限事項 {#acs-msdyn-best-practices}
 
 ## データの管理 {#acs-msdyn-manage-data}
 
 連絡先とカスタムエンティティの同期の場合、この統合は&#x200B;**Microsoft Dynamics 365を信頼できる唯一の情報源として扱います**。同期属性の変更はDynamics 365で行い、Adobe Campaign Standardでは行わないでください）。Campaignで変更を行った場合、同期は一方向であるため、Campaignで最終的に上書きされます。
 
-統合は、Dynamics 365で連絡先が削除されたときにCampaignに対してプロファイル削除呼び出しを発行するようにオプションで設定でき、データの整合性を維持するのに役立ちます。 ただし、プロファイル削除はプライバシー削除とは異なります。 Campaignでプライバシーを削除すると、Campaign プロファイルレコードと関連するログエントリが削除されます。一方、通常のプロファイル削除では、Campaign プロファイルレコードのみが削除され、残りはCampaign ログに残されます。 統合でプロファイル削除機能が有効になっている場合は、データ主体のプライバシー要求を適切に処理するために、追加の手順に従う必要があります。 以下の「[&#x200B; プライバシー」セクションの手順を参照してください](#manage-privacy-requests)。
+統合は、Dynamics 365で連絡先が削除されたときにCampaignに対してプロファイル削除呼び出しを発行するようにオプションで設定でき、データの整合性を維持するのに役立ちます。 ただし、プロファイル削除はプライバシー削除とは異なります。 Campaignでプライバシーを削除すると、Campaign プロファイルレコードと関連するログエントリが削除されます。一方、通常のプロファイル削除では、Campaign プロファイルレコードのみが削除され、残りはCampaign ログに残されます。 統合でプロファイル削除機能が有効になっている場合は、データ主体のプライバシー要求を適切に処理するために、追加の手順に従う必要があります。 以下の「[ プライバシー」セクションの手順を参照してください](#manage-privacy-requests)。
 
 ## プライバシー{#acs-msdyn-manage-privacy}
 
@@ -170,13 +186,13 @@ Campaign カスタムリソースのより包括的な概要については、�
 
   統合からのエンジン呼び出し量を推定するには、次を使用します。
 
-   * レコードの挿入（新しいレコードなど）:1つのエンジンコール
-   * レコードの削除：1つのエンジンコール
-   * レコードの更新：2回のエンジン呼び出し（宛先レコードがソースレコードと同じ場合、つまりCampaign レコードに変更がない場合にのみ1回の呼び出し）
+  * レコードの挿入（新しいレコードなど）:1つのエンジンコール
+  * レコードの削除：1つのエンジンコール
+  * レコードの更新：2回のエンジン呼び出し（宛先レコードがソースレコードと同じ場合、つまりCampaign レコードに変更がない場合にのみ1回の呼び出し）
 
   Campaign エンジン全体の呼び出し量を推定する場合、ランディングページ、WebApps、JSSP、API、モバイルアプリ登録など、エンジン呼び出しの他のソースを考慮することが重要です。
 
-  Adobe Campaign Standardのパッケージ情報を表示するには、次の場所を参照してください：[https://helpx.adobe.com/jp/legal/product-descriptions/campaign-standard.html](https://helpx.adobe.com/jp/legal/product-descriptions/campaign-standard.html)
+  Adobe Campaign Standardのパッケージ情報を表示するには、次の場所を参照してください：[https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html](https://helpx.adobe.com/jp/legal/product-descriptions/campaign-standard.html)
 
 * この統合では、Campaignのリソースに最初に同期するレコードの合計が最大1,500万件までサポートされます。 増分同期は、Adobe Campaign Standard パッケージによって制限されます。
 
@@ -202,7 +218,7 @@ Campaign カスタムリソースのより包括的な概要については、�
 
 この統合は、Microsoft Dynamics 365とCampaign間の一般的なデータ移動の一般的なユースケースを解決するために設計されていますが、お客様ごとに固有のすべてのユースケースに対応することを目的としたものではありません。
 
-* 統合では、プライバシー（GDPRなど）の削除は一切行われません。 エンドユーザーのプライバシーリクエストを満たす責任はお客様にあります。そのようなリクエストは、Campaign （Adobe Experience Platform Privacy Service経由）とDynamics 365の両方で個別に行う必要があります。 統合では、必要に応じて、データ同期に役立つ定期的な削除を発行できます。   詳しくは、[&#x200B; プライバシーセクション &#x200B;](#manage-privacy-requests)を参照してください。
+* 統合では、プライバシー（GDPRなど）の削除は一切行われません。 エンドユーザーのプライバシーリクエストを満たす責任はお客様にあります。そのようなリクエストは、Campaign （Adobe Experience Platform Privacy Service経由）とDynamics 365の両方で個別に行う必要があります。 統合では、必要に応じて、データ同期に役立つ定期的な削除を発行できます。   詳しくは、[ プライバシーセクション ](#manage-privacy-requests)を参照してください。
 
 * オプトアウト情報（お客様が設定した場合）を除いて、プロファイルまたはカスタムエンティティのデータがCampaignからDynamics 365に同期されることはありません。
 

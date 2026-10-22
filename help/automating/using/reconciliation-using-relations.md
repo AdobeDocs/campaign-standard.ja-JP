@@ -10,20 +10,29 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 7d0e3f17-ef04-4890-b63b-6957fc6cd648
-TQID: https://experienceleague.adobe.com/0-hk7-ypJoU-1Sw4HYmYoYnv9z9iwFrsSQoPWNyhmik
+TQID: 'https://experienceleague.adobe.com/0-hk7-ypJoU-1Sw4HYmYoYnv9z9iwFrsSQoPWNyhmik'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Intermediate
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 338
+source-wordcount: '338'
 ht-degree: 86%
-
 ---
-
 # 関係を使用したデータの紐付け {#reconciliation-relations}
 
 次の例は、ファイル内の購入データを使用してデータベースを更新するワークフローを示しています。 購入データには、クライアントのメールや商品コードなど、他のディメンションからの要素を参照するデータが含まれます。
@@ -36,11 +45,11 @@ ht-degree: 86%
 
 ![](assets/reconciliation_example1.png)
 
-* 読み込むファイルのデータを読み込んで検出する[&#x200B; ファイルを読み込む](../../automating/using/load-file.md) アクティビティ。 インポートされたファイルには、次のデータが含まれています。
+* 読み込むファイルのデータを読み込んで検出する[ ファイルを読み込む](../../automating/using/load-file.md) アクティビティ。 インポートされたファイルには、次のデータが含まれています。
 
-   * トランザクション日
-   * クライアントのメールアドレス
-   * 購入した商品のコード
+  * トランザクション日
+  * クライアントのメールアドレス
+  * 購入した商品のコード
 
   ```
   date;client;product
@@ -57,14 +66,14 @@ ht-degree: 86%
 
 * 購入データをデータベースプロファイルおよび製品にバインドするための[紐付け](../../automating/using/reconciliation.md) アクティビティ。 ファイルデータ、プロファイルテーブル、および商品テーブルの間のリレーションを定義する必要があります。 この設定は、アクティビティの「**[!UICONTROL Relations]**」タブで実行されます。
 
-   * **Profiles** とのリレーション：ファイルの&#x200B;**クライアント**&#x200B;列は、**Profiles** ディメンションのメール&#x200B;**フィールドにリンクされています。**
-   * **Products** との関係：ファイルの&#x200B;**商品**&#x200B;列は、**Profiles** ディメンションの&#x200B;**商品コード**&#x200B;フィールドにリンクされています。
+  * **Profiles** とのリレーション：ファイルの&#x200B;**クライアント**&#x200B;列は、**Profiles** ディメンションのメール&#x200B;**フィールドにリンクされています。**
+  * **Products** との関係：ファイルの&#x200B;**商品**&#x200B;列は、**Profiles** ディメンションの&#x200B;**商品コード**&#x200B;フィールドにリンクされています。
 
   列は、リンクされたディメンションの外部キーを参照するために、インバウンドデータに追加されます。
 
   ![](assets/reconciliation_example3.png)
 
-* [&#x200B; データの更新](../../automating/using/update-data.md) アクティビティを使用すると、インポートしたデータを使用して更新するデータベースフィールドを定義できます。 前のアクティビティで **Transactions** ディメンションに属するデータが既に識別されているので、**[!UICONTROL Directly using the targeting dimension]** 識別オプションを使用できます。
+* [ データの更新](../../automating/using/update-data.md) アクティビティを使用すると、インポートしたデータを使用して更新するデータベースフィールドを定義できます。 前のアクティビティで **Transactions** ディメンションに属するデータが既に識別されているので、**[!UICONTROL Directly using the targeting dimension]** 識別オプションを使用できます。
 
   更新するフィールドを自動的に検出するオプションを使用すると、前のアクティビティで設定したリンク（プロファイルや商品へのリンク）が **[!UICONTROL Fields to update]** のリストに追加されます。 また、トランザクション日に対応するフィールドがこのリストに正しく追加されていることを確認する必要があります。
 

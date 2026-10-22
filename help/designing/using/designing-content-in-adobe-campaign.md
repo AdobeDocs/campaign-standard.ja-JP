@@ -8,26 +8,36 @@ feature: Email Design
 role: User
 level: Beginner
 exl-id: 85d6361b-6c27-42c0-bac4-774b71625bf8
-TQID: https://experienceleague.adobe.com/vMtypGa523dBe7gAb-czQgSM9SEyMyd-ayg0SYjKj2E
+TQID: 'https://experienceleague.adobe.com/vMtypGa523dBe7gAb-czQgSM9SEyMyd-ayg0SYjKj2E'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Personalization
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 1263
+source-wordcount: '1263'
 ht-degree: 83%
-
 ---
-
 # Campaign E メールデザイナー{#designing-content-in-adobe-campaign}
 
 Adobe Campaign でメールを作成したら、そのコンテンツを定義する必要があります。
@@ -35,20 +45,20 @@ Adobe Campaign でメールを作成したら、そのコンテンツを定義�
 メールDesignerでは、ドラッグ&amp;ドロップで魅力的な、個別にカスタマイズされたメールを作成することができます
 インターフェイス： 新規のコンテンツを作成する場合でも、既存のコンテンツフラグメントやテンプレートを活用する場合でも、プロモーションやトランザクションなど、あらゆるメールコンテンツの設計と強化に対応します。
 
-レスポンシブデザイン向けに最適化された HTML の配信に対応する E メールデザイナーを利用して、表示条件や動的コンテンツを容易に定義し、メール、テンプレートまたはフラグメントに適用できます。 ボタンをクリックするだけで、ドラッグ&amp;ドロップのインターフェイスとHTMLコードをシームレスに切り替えることができます。
+レスポンシブデザイン向けに最適化された HTML の配信に対応する E メールデザイナーを利用すると、ユーザーインターフェイスから直接、表示条件や動的コンテンツを容易に定義し、メール、テンプレートまたはフラグメントに適用できます。 ボタンをクリックするだけで、ドラッグ&amp;ドロップのインターフェイスとHTMLコードをシームレスに切り替えることができます。
 
 E メールデザイナーでは、E メールコンテンツと E メールコンテンツテンプレートを作成できます。 シンプルなメール、トランザクションメール、A/B テスト用メール、多言語メール、繰り返しメールと互換性があります。
 
 <!--The Email Designer has more features than the Legacy Editor and is backward compatible.-->
 
-![](assets/do-not-localize/how-to-video.png) [&#x200B; ビデオでの電子メール Designerの検索](#video)
+![](assets/do-not-localize/how-to-video.png) [ ビデオでの電子メール Designerの検索](#video)
 
 * E メールコンテンツの作成方法について詳しくは、[E メールデザイナーの概要](../../designing/using/quick-start.md)を参照してください。
 * E メールデザイナーの概要については、[E メールデザイナーの使用](../../designing/using/designing-content-in-adobe-campaign.md)を参照してください。
 * コンテンツ作成の詳細：
-   * コンテンツを新規に作成する場合は、[新規でのメールのデザイン](../../designing/using/designing-from-scratch.md)を参照してください。
-   * 既存のコンテンツを使用する場合は、[既存のコンテンツを使用したデザイン](../../designing/using/using-existing-content.md)を参照してください。
-   * Creative Cloud 統合の使用については、[マルチソリューションメールデザイン](../../designing/using/using-integrations.md)を参照してください。
+  * コンテンツを新規に作成する場合は、[新規でのメールのデザイン](../../designing/using/designing-from-scratch.md)を参照してください。
+  * 既存のコンテンツを使用する場合は、[既存のコンテンツを使用したデザイン](../../designing/using/using-existing-content.md)を参照してください。
+  * Creative Cloud 統合の使用については、[マルチソリューションメールデザイン](../../designing/using/using-integrations.md)を参照してください。
 * パーソナライゼーションについて詳しくは、[パーソナライゼーション](../../designing/using/personalization.md)を参照してください。
 
 メールを作成する場合、定義済みのテンプレートを使用するか、別のソースから既存のコンテンツを読み込むかを選択できます。 詳しくは、[既存のコンテンツの選択](../../designing/using/using-existing-content.md#selecting-an-existing-content)を参照してください。
@@ -179,6 +189,6 @@ CSS のコリジョンなどの問題を回避するために、コンテンツ�
 
 このビデオでは、電子メール Designerの概要を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/330102?captions=jpn&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/22771?quality=12)
 
-電子メールDesignerを使い始めるには、電子メールDesignerの一般的な機能と、ゼロから電子メールをデザインする方法やテンプレートを使用する方法について説明した[一連のビデオ &#x200B;](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html?lang=ja#GettingStarted)をご覧ください
+電子メールDesignerを使い始めるには、電子メールDesignerの一般的な機能と、ゼロから電子メールをデザインする方法やテンプレートを使用する方法について説明した[一連のビデオ ](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted)をご覧ください

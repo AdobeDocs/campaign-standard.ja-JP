@@ -6,23 +6,34 @@ feature: Access Management
 role: Admin
 level: Experienced
 exl-id: 4b9834ab-0f7c-419e-a210-77a018ba874d
-TQID: https://experienceleague.adobe.com/f9WHgzRKHNEXrZESUsupb1Jk-ydnAsD47R1205A6CKE
+TQID: 'https://experienceleague.adobe.com/f9WHgzRKHNEXrZESUsupb1Jk-ydnAsD47R1205A6CKE'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: efa38731-2723-4334-8d8b-a778af834835
+    internal-label: Access management
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Administration
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 990
+source-wordcount: '990'
 ht-degree: 66%
-
 ---
-
 # グループとユーザーの管理{#managing-groups-and-users}
 
 ## セキュリティグループについて {#about-security-groups}
@@ -35,7 +46,7 @@ ht-degree: 66%
 
 ユーザーは、常にセキュリティグループにリンクされている必要があります。 これにより、特定の役割と組織単位を割り当てることができます。 ユーザーのアクセス権を制限するには、ユーザーをキャンペーン **[!UICONTROL Standard Users]** グループに追加しないでください。このグループは&#x200B;**[!UICONTROL All]**&#x200B;組織ユニットにリンクされています。
 
-ロールの詳細については、次のページの表に、ユーザーのロールに応じて使用可能な操作を示します。[Adobe Campaign Standardの承認](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=ja)。
+ロールの詳細については、次のページの表に、ユーザーのロールに応じて使用可能な操作を示します。[Adobe Campaign Standardの承認](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)。
 
 デフォルトのセキュリティグループは次のとおりです。
 
@@ -52,13 +63,13 @@ ht-degree: 66%
 >
 >Admin Consoleでは、セキュリティグループはプロファイルと呼ばれます。
 
-標準グループでユーザーを適切に管理できない場合は、独自のセキュリティグループを作成できます。 Adobe Campaign管理メニューとAdmin Consoleの両方にアクセスできる管理者が管理できます。 Admin Consoleについて詳しくは、この[&#x200B; ドキュメント &#x200B;](https://helpx.adobe.com/jp/enterprise/managing/user-guide.html)を参照してください。
+標準グループでユーザーを適切に管理できない場合は、独自のセキュリティグループを作成できます。 Adobe Campaign管理メニューとAdmin Consoleの両方にアクセスできる管理者が管理できます。 Admin Consoleについて詳しくは、この[ ドキュメント ](https://helpx.adobe.com/jp/enterprise/managing/user-guide.html)を参照してください。
 
-ここでは、最初に 2 つの標準グループ（Standard Users と Administrators）をユーザーに割り当てる必要があります。 これらのセキュリティグループは、Adobe Campaign 機能の一部を制限します。Standard Users には基本的な Adobe Campaign アクセス権がある一方、Administrators は管理メニューなどにアクセスできます。
+ここでは、最初に 2 つの標準グループ（Standard Users と Administrators）をユーザーに割り当てる必要があります。 これらのセキュリティグループは、Adobe Campaign 機能の一部を制限します。標準ユーザーには基本的な Adobe Campaign アクセス権がある一方、管理者は管理メニューなどにアクセスできます。
 
 Admin Console でセキュリティグループに対しておこなった変更は、ユーザーが Adobe Campaign にログインするとすぐに同期されます。
 
-次に、Geometrixx と Geometrixx Clothes セキュリティグループを作成し、Standard Users と Administrators の組織単位に応じて一部のアクセスが制限されるようにします。
+次に、Geometrixx と Geometrixx Clothes セキュリティグループを作成し、標準ユーザーと管理者の組織単位に応じて一部のアクセスが制限されるようにします。
 
 ![](assets/ootb_security_group_1.png)
 
@@ -101,7 +112,7 @@ Admin Console でセキュリティグループに対しておこなった変更
 
 1. 以前に作成したユーザーをクリックし、**[!UICONTROL Products]** カテゴリ内の ![](assets/managing_security_group_10.png) アイコンをクリックします。
 
-   「**[!UICONTROL Edit products assigned directly]**」を選択して、新しいセキュリティグループを割り当て始めます。
+   「**[!UICONTROL Edit products assigned directly]**」を選択して、ユーザーに新しいセキュリティグループを割り当て始めます。
 
    ![](assets/manage_security_group_8.png)
 

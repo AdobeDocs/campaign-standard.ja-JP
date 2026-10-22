@@ -9,22 +9,32 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 50e9fb7a-b28a-40b0-9f2c-3673c792529a
-TQID: https://experienceleague.adobe.com/PQ8Xf9wScBLj1ooFZW5fe-LOzhZy3jeq8pajISxQcK8
+TQID: 'https://experienceleague.adobe.com/PQ8Xf9wScBLj1ooFZW5fe-LOzhZy3jeq8pajISxQcK8'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
+    internal-label: Triggers
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Administration
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 845
+source-wordcount: '845'
 ht-degree: 7%
-
 ---
-
 # Experience Cloud での Triggers の設定{#configuring-triggers-in-experience-cloud}
 
 ## 機能のアクティブ化 {#activating-the-functionality}
@@ -63,11 +73,11 @@ Adobe チームは、トリガーをアクティベートするために次の�
 >
 >サブドメイン設定は、配信品質キー要素です。 Adobe Campaignの電子メールが、web サイトで使用されるものと同じドメインから送信されていることを確認します。
 
-これらのユースケースを実行するには、[Experience Cloud DTM コアサービス &#x200B;](#configuring-experience-cloud-dtm-core-service)、[Experience Cloud People コアサービス &#x200B;](#configuring-experience-cloud-people-core-service)および[Campaign](#configuring-triggers-and-aliases-in-campaign)を設定する必要があります。
+これらのユースケースを実行するには、[Experience Cloud DTM コアサービス ](#configuring-experience-cloud-dtm-core-service)、[Experience Cloud People コアサービス ](#configuring-experience-cloud-people-core-service)および[Campaign](#configuring-triggers-and-aliases-in-campaign)を設定する必要があります。
 
 ### Experience Cloud DTM コアサービスの設定 {#configuring-experience-cloud-dtm-core-service}
 
-1. Experience Cloud DTM コアサービス（Dynamic Tag Management）で、web サイトページのExperience Cloud IDとAdobe Analyticsを有効にします。
+1. Experience Cloud DTM コアサービス（Dynamic Tag Management）で、web サイトページに対してExperience Cloud IDとAdobe Analyticsを有効にします。
 
    ![](assets/trigger_uc_conf_1.png)
 
@@ -77,7 +87,7 @@ Adobe チームは、トリガーをアクティベートするために次の�
 
 ### Experience Cloud People コアサービスの設定 {#configuring-experience-cloud-people-core-service}
 
-DTMで以前に参照したエイリアスは、顧客属性を通じてExperience Cloud People コアサービスで作成する必要があります。 新しいDTM エイリアスを作成し、統合コードで同じDTM エイリアスを参照してください（例：「visitorid」）。
+DTMで以前に参照されたエイリアスは、顧客属性を通じてExperience Cloud People コアサービスで作成する必要があります。 新しいDTM エイリアスを作成し、統合コードで同じDTM エイリアスを参照してください（例：「visitorid」）。
 
 ![](assets/trigger_uc_conf_3.png)
 
@@ -103,9 +113,9 @@ DTMで以前に参照したエイリアスは、顧客属性を通じてExperien
 
 Campaignで使用できるように、Adobe Experience Cloud トリガーを作成する必要があります。
 
-Experience Cloudで新しいトリガーを作成し、web サイトで使用するレポートスイートを必ず選択します。 トリガーが起動するように適切な寸法を選択してください。
+Adobe Experience Cloudで新しいトリガーを作成し、web サイトで使用するレポートスイートを必ず選択してください。 トリガーが起動するように適切な寸法を選択してください。
 
-[Adobe Experience Cloud ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html?lang=ja)を参照してください。
+[Adobe Experience Cloud ドキュメント ](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html?lang=ja)を参照してください。
 
 ## トリガーのベストプラクティスと制限事項 {#triggers-best-practices-and-limitations}
 

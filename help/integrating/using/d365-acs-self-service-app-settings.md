@@ -9,22 +9,32 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 184bc656-2107-4380-9b35-148cb4380547
-TQID: https://experienceleague.adobe.com/PRwXxoE4v-Nn8gLT-7-2hbEe3IOiXT2dXTylTwHcmGs
+TQID: 'https://experienceleague.adobe.com/PRwXxoE4v-Nn8gLT-7-2hbEe3IOiXT2dXTylTwHcmGs'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: dd99420f-367d-4a14-bbc4-5140615992c2
+    internal-label: Microsoft CRM integration
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Privacy
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 724
+source-wordcount: '724'
 ht-degree: 7%
-
 ---
-
 # システムと統合アプリの接続
 
 ## 統合アプリに資格情報を追加する
@@ -37,11 +47,11 @@ Microsoft Dynamics 365資格情報は、統合アプリケーションにMicroso
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-settings-d365.png)
 
-* **[!UICONTROL Client ID]**: [このセクション &#x200B;](../../integrating/using/d365-acs-configure-d365.md#register-a-new-app)でクライアント IDを参照する方法について説明します
+* **[!UICONTROL Client ID]**: [このセクション ](../../integrating/using/d365-acs-configure-d365.md#register-a-new-app)でクライアント IDを参照する方法について説明します
 
-* **[!UICONTROL Client Secret]**: [このセクション &#x200B;](../../integrating/using/d365-acs-configure-d365.md#generate-a-client-secret)でクライアントシークレットを生成する方法について説明します
+* **[!UICONTROL Client Secret]**: [このセクション ](../../integrating/using/d365-acs-configure-d365.md#generate-a-client-secret)でクライアントシークレットを生成する方法について説明します
 
-* **[!UICONTROL Tenant]**: [このセクション &#x200B;](../../integrating/using/d365-acs-configure-d365.md#get-the-tenant-id)でテナント IDを見つける方法について説明します
+* **[!UICONTROL Tenant]**: [このセクション ](../../integrating/using/d365-acs-configure-d365.md#get-the-tenant-id)でテナント IDを見つける方法について説明します
 
 * **[!UICONTROL URL]**: URLの形式は`https://&lt;servername&gt;.api.crm.dynamics.com/`です
 
@@ -75,9 +85,9 @@ Microsoft Dynamics 365統合用のCampaign SFTP設定を定義するには、次
 
 * **SFTP ホスト**：このフィールドには&lt;campaign-instance-name>.campaign.adobe.comが含まれます。 統合アプリのヘッダーには、**組織**&#x200B;と&#x200B;**インスタンス**&#x200B;の両方が含まれます。 URLの「campaign-instance-name」部分は、このインスタンス値に見つかった名前になります。
 
-* **SFTP ユーザー**: SFTP ユーザーがある場合は、ここに追加します。 それ以外は、[このセクション &#x200B;](#ac-control-panel-settings)を参照してください。 プロセスの一部として、ユーザー名が表示されます。
+* **SFTP ユーザー**: SFTP ユーザーがある場合は、ここに追加します。 それ以外は、[このセクション ](#ac-control-panel-settings)を参照してください。 プロセスの一部として、ユーザー名が表示されます。
 
-* **SFTP キー**: SSH キーがある場合は、ここに追加します。 それ以外は、[このセクション &#x200B;](#ac-control-panel-settings)を参照してください。
+* **SFTP キー**: SSH キーがある場合は、ここに追加します。 それ以外は、[このセクション ](#ac-control-panel-settings)を参照してください。
 
 * **IP範囲**&#x200B;は、Adobe Campaign SFTP設定に含める必要があります。 統合でSFTP エンドポイントを使用するには、これらを許可リストに加えるする必要があります。
 
@@ -85,18 +95,18 @@ Microsoft Dynamics 365統合用のCampaign SFTP設定を定義するには、次
 
 ## Adobe CampaignでのSFTP設定 {#ac-control-panel-settings}
 
-次のセクションでは、[&#x200B; キャンペーンCampaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja)を使用したSFTP管理について説明します。
+次のセクションでは、[ キャンペーンCampaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja)を使用したSFTP管理について説明します。
 
 * [SFTP の管理について](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=ja#sftp-management)
 
-* [SFTP ストレージの管理](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html?lang=ja#installing-ssh-key)
+* [SFTP ストレージの管理](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html#installing-ssh-key)
 
-* [IP範囲の追加](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/ip-range-allow-listing.html?lang=ja#sftp-management)
+* [IP範囲の追加](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/ip-range-allow-listing.html#sftp-management)
 
-* [キーの管理](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html?lang=ja#sftp-management)
+* [キーの管理](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html#sftp-management)
 
-* [SFTP サーバーにログオンします](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/logging-into-sftp-server.html?lang=ja#sftp-management)
+* [SFTP サーバーにログオンします](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/logging-into-sftp-server.html#sftp-management)
 
 設定が完了したら、秘密鍵を使用してSFTP サーバーにログインし、「d365_loads/exports」ディレクトリを作成します。
 
-Adobe Campaign Standard SFTP サーバーについて詳しくは、[このページ &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/monitoring-server-capacity.html?lang=ja#sftp-management)を参照してください。
+Adobe Campaign Standard SFTP サーバーについて詳しくは、[このページ ](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/monitoring-server-capacity.html?lang=ja#sftp-management)を参照してください。
