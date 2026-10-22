@@ -199,6 +199,6 @@ Adobe Campaign インターフェイスで **[!UICONTROL Administration]** メ�
 
 このビデオでは、ユーザーのアクセス権を管理する方法を示します。
 
->[!VIDEO](https://video.tv.adobe.com/v/24671?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/36085?captions=jpn&quality=12)
 
 その他のCampaign Standardのハウツー動画は[こちら](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/overview.html?lang=ja)でご覧いただけます。

@@ -96,6 +96,6 @@ Adobe Experience Platform Data Connectorは、Adobe Campaign Standardのカス�
 
 このビデオでは、Adobe Experience Platform Data Connectorの概要を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/27304?quality=12&captions=eng)
+>[!VIDEO](https://video.tv.adobe.com/v/34384?quality=12&captions=jpn)
 
 Adobe Experience Platform Data Connectorに関連するその他のビデオについては、[こちら](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/administrating/adobe-experience-platform-data-connector/understanding-the-adobe-experience-platform-data-connector.html?lang=ja)を参照してください。
