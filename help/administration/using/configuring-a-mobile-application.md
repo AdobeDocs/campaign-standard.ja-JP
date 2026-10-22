@@ -39,7 +39,7 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
-> Adobe Experience Platform Launchは、Adobe Experience Platformのデータ収集テクノロジースイートとしてリブランドされました。 これにより、製品ドキュメント全体で、いくつかの用語が変更されました。 用語の変更の統合参照については、[次のドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html){target="_blank"}を参照してください。
+> Adobe Experience Platform Launchは、Adobe Experience Platformのデータ収集テクノロジースイートとしてリブランドされました。 これにより、製品ドキュメント全体で、いくつかの用語が変更されました。 用語の変更の統合参照については、[次のドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=ja){target="_blank"}を参照してください。
 
 プッシュ通知とアプリ内実装は、エキスパートユーザーが実行する必要があることに注意してください。 詳しくは、Adobe アカウントの担当者またはプロフェッショナルサービスパートナーにお問い合わせください。
 
@@ -63,7 +63,7 @@ Adobe Experience Platform SDKを使用してAdobe Campaign Standardでサポー�
    * Adobe Campaign Standardで、IMS ユーザーが標準ユーザーおよび管理者製品プロファイルの一部であることを確認します。 この手順では、ユーザーはAdobe Campaign Standardにログインし、Experience Platform SDK モバイルアプリページに移動して、データ収集UIで作成したモバイルアプリプロパティを表示できます。
 
    * データ収集UIで、IMS ユーザーがExperience Platform Launch製品プロファイルの一部であることを確認します。
-     この手順では、ユーザーはデータ収集UIにログインして、プロパティを作成および表示できます。 データ収集UIの製品プロファイルについて詳しくは、[製品プロファイルの作成](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/manage-permissions.html#gain-admin-rights-for-a-tags-product-profile)を参照してください。 製品プロファイルでは、会社またはプロパティに対して権限が設定されていないことが必要ですが、ユーザーはログインできます。
+     この手順では、ユーザーはデータ収集UIにログインして、プロパティを作成および表示できます。 データ収集UIの製品プロファイルについて詳しくは、[製品プロファイルの作成](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/manage-permissions.html?lang=ja#gain-admin-rights-for-a-tags-product-profile)を参照してください。 製品プロファイルでは、会社またはプロパティに対して権限が設定されていないことが必要ですが、ユーザーはログインできます。
 
    拡張機能のインストール、アプリの公開、環境の設定など、追加のタスクを完了するには、製品プロファイルで権限を設定する必要があります。
 

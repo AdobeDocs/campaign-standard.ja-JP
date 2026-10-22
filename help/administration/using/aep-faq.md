@@ -49,7 +49,7 @@ Experience Platform SDK アプリケーションを使用してプッシュ通�
 
 Adobe Experience PlatformとSDKの連携について詳しくは、次の資料を参照してください。
 
-* ローンチ/モバイル [概要ビデオ &#x200B;](https://www.adobe.com/experience-platform/launch.html#acpl-mobile-video){target="_blank"}
+* ローンチ/モバイル [概要ビデオ &#x200B;](https://www.adobe.com/jp/experience-platform/launch.html#acpl-mobile-video){target="_blank"}
 * Launch/Mobile [&#x200B; ヒントとテクニックのガイド &#x200B;](https://www.adobe.com/content/dam/dx/us/en/products/experience-platform/launch-tag-manager/pdfs/adobe-cloud-platform-launch-tips-and-tricks-sheet.pdf)
 
 ## Adobe Experience Platform SDKの統合は、Adobe Campaign StandardとAdobe Campaign Classicの両方で使用できますか？ {#aep-validity}

@@ -191,4 +191,4 @@ CSS のコリジョンなどの問題を回避するために、コンテンツ�
 
 >[!VIDEO](https://video.tv.adobe.com/v/22771?quality=12)
 
-電子メールDesignerを使い始めるには、電子メールDesignerの一般的な機能と、ゼロから電子メールをデザインする方法やテンプレートを使用する方法について説明した[一連のビデオ &#x200B;](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted)をご覧ください
+電子メールDesignerを使い始めるには、電子メールDesignerの一般的な機能と、ゼロから電子メールをデザインする方法やテンプレートを使用する方法について説明した[一連のビデオ &#x200B;](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html?lang=ja#GettingStarted)をご覧ください

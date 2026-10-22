@@ -51,7 +51,7 @@ Adobe Campaign StandardとAdobe Experience Managerの連携により、Adobe Exp
 
 そのため、Adobe Experience Managerのコンテンツ編集機能と、Adobe Campaignの配信およびデータ管理機能を最大限に活用できます。 Adobe Experience Managerから読み込まれたコンテンツに対して、A/B テストを実行することはできません。
 
-Adobe Campaign Standardは、Adobe Experience Manager 6.1、6.2、6.3、6.4、および6.5と互換性があります。 次の節では、実行できるアクションの概要を示します。 詳しくは、[設定](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html)と統合の[use](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/aem-adobe-campaign/campaign.html)に関する専用のセクションを参照してください。
+Adobe Campaign Standardは、Adobe Experience Manager 6.1、6.2、6.3、6.4、および6.5と互換性があります。 次の節では、実行できるアクションの概要を示します。 詳しくは、[設定](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignstandard.html?lang=ja)と統合の[use](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/aem-adobe-campaign/campaign.html?lang=ja)に関する専用のセクションを参照してください。
 
 >[!NOTE]
 >
@@ -63,19 +63,19 @@ Adobe Campaign Standardは、Adobe Experience Manager 6.1、6.2、6.3、6.4、�
 
   メールテンプレートはAdobe Experience Manager内で編集可能なので、Adobe Experience Managerで任意のテンプレートを編集する方が簡単に見えるかもしれません。 しかし、特定のテンプレートには容易に対応できません。 1人のお客様に固有の個別テンプレートは、この統合には推奨されないので、Adobe Campaign Standardで直接編集する必要があります。
 
-  テンプレートについて詳しくは、この[&#x200B; ページ &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/templates/templates.html)を参照してください。
+  テンプレートについて詳しくは、この[&#x200B; ページ &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/templates/templates.html?lang=ja)を参照してください。
 
 * **Externalizerが実装中に設定されていることを確認してください**
 
   Adobe Campaign Standard用Experience Managerを実装する際にExternalizerを設定すると、リソースパスをURLに変換できます。 これにより、画像をページに表示できます。 Externalizerが正しく設定されていない場合、メールに壊れた画像が含まれます。
 
-  Externalizerの設定方法については、この[&#x200B; ページ &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/externalizer.html)を参照してください。
+  Externalizerの設定方法については、この[&#x200B; ページ &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/externalizer.html?lang=ja)を参照してください。
 
 * **悪用を避けるために電子メールテンプレートを整理します。**
 
   テンプレートを整理することで、適切なテンプレートが適切なフォルダー内に配置され、間違って間違ったテンプレートを選択しないようにします。 実装時には、テンプレートを適切な場所に保存するためのパスを作成する必要があります。
 
-  テンプレートについて詳しくは、この[&#x200B; ページ &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/templates/templates.html#template-availability)を参照してください。
+  テンプレートについて詳しくは、この[&#x200B; ページ &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/templates/templates.html?lang=ja#template-availability)を参照してください。
 
 * **すぐに利用できるコンポーネントをすぐに使用できます。**
 
@@ -102,6 +102,6 @@ Adobe Campaign Standardは、Adobe Experience Manager 6.1、6.2、6.3、6.4、�
 * **Adobe Experience Managerを使用して、Adobe Campaign Standardの電子メールのバリエーションを作成します。**
 
   この統合により、セグメント化を利用して、ひとつの電子メールから複数のバージョンを容易に作成できます。
-  Adobe Experience Managerでセグメント化を設定する方法と、ターゲットコンテンツを使用してメールを作成する方法については、この[&#x200B; ページ &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/aem-adobe-campaign/target-adobe-campaign.html#setting-up-segmentation-in-aem)を参照してください。
+  Adobe Experience Managerでセグメント化を設定する方法と、ターゲットコンテンツを使用してメールを作成する方法については、この[&#x200B; ページ &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/aem-adobe-campaign/target-adobe-campaign.html?lang=ja#setting-up-segmentation-in-aem)を参照してください。
 
 * **同期を成功させるには、Experience Managerのセグメント名がCampaignのセグメント名と完全に一致している必要があります。**

@@ -37,12 +37,12 @@ Adobe Campaign REST APIで使用できるエンドポイント：
 * **/&lt;transactionalAPI>**: トランザクションメッセージ APIを操作します（トランザクションメッセージ API エンドポイントの名前は、インスタンス設定によって異なります）。 詳しくは、[この節](../../api/using/managing-transactional-messages.md)を参照してください。
 * **/ワークフロー/実行**: ワークフローを操作します。 詳しくは、[この節](../../api/using/controlling-a-workflow.md)を参照してください。
 * **/privacy/privacyTool**: privacy APIと対話して、プライバシーリクエストの自動処理を許可します。 詳しくは、[この節](../../api/using/creating-a-privacy-request.md)を参照してください。
-* **/履歴**: プロファイルのマーケティング履歴を取得します。 Campaignでの統合顧客プロファイルについて詳しくは、[Campaign ドキュメント &#x200B;](https://helpx.adobe.com/campaign/standard/audiences/using/integrated-customer-profile.html)を参照してください。
+* **/履歴**: プロファイルのマーケティング履歴を取得します。 Campaignでの統合顧客プロファイルについて詳しくは、[Campaign ドキュメント &#x200B;](https://helpx.adobe.com/jp/campaign/standard/audiences/using/integrated-customer-profile.html)を参照してください。
 
 デフォルトでは、**profileAndServices**&#x200B;および&#x200B;**profileAndServicesExt** APIで使用できる主なリソースは次のとおりです。
 
-* **/プロファイル**: Campaign データベースのプロファイルを操作します。 プロファイルをサービスに追加するには、**/service** エンドポイントを使用します。 Campaignのプロファイルについて詳しくは、[Campaign ドキュメント &#x200B;](https://helpx.adobe.com/campaign/standard/audiences/using/about-profiles.html)を参照してください。
-* **/サービス**：購読サービスを管理します。 Campaignのサービスについて詳しくは、[Campaign ドキュメント &#x200B;](https://helpx.adobe.com/campaign/standard/audiences/using/creating-a-service.html)を参照してください。
+* **/プロファイル**: Campaign データベースのプロファイルを操作します。 プロファイルをサービスに追加するには、**/service** エンドポイントを使用します。 Campaignのプロファイルについて詳しくは、[Campaign ドキュメント &#x200B;](https://helpx.adobe.com/jp/campaign/standard/audiences/using/about-profiles.html)を参照してください。
+* **/サービス**：購読サービスを管理します。 Campaignのサービスについて詳しくは、[Campaign ドキュメント &#x200B;](https://helpx.adobe.com/jp/campaign/standard/audiences/using/creating-a-service.html)を参照してください。
 
 >[!NOTE]
 >

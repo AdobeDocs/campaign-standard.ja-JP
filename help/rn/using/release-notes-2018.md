@@ -245,7 +245,7 @@ ht-degree: 9%
  <tbody> 
   <tr> 
    <td> GDPR: コアサービス統合<br /> </td> 
-   <td> Privacy Core Service統合では、単一のJSON API呼び出しを通じて、マルチソリューションのコンテキストでGDPR要求を自動化できます。<br /> Privacy Core ServiceからすべてのExperience Cloud ソリューションにプッシュされたGDPR要求は、Campaignで自動的に処理されるようになりました。<br /> 詳しくは、<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html">詳細ドキュメント</a>を参照してください。<br /> </td> 
+   <td> Privacy Core Service統合では、単一のJSON API呼び出しを通じて、マルチソリューションのコンテキストでGDPR要求を自動化できます。<br /> Privacy Core ServiceからすべてのExperience Cloud ソリューションにプッシュされたGDPR要求は、Campaignで自動的に処理されるようになりました。<br /> 詳しくは、<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html?lang=ja">詳細ドキュメント</a>を参照してください。<br /> </td> 
   </tr> 
   <tr> 
    <td> プッシュの改善 – 詳細な配信フィードバック <br /> </td> 
@@ -347,7 +347,7 @@ _カスタムリソース_
     <ul> 
      <li> アクセス権限：データ主体は、データ管理者により取得された自分の個人データのコピーを受け取ることができます。これには Adobe Campaign に保存されているデータも含まれている場合があります。 </li> 
      <li> 削除権限：データ主体は、データ管理者により取得された自分の個人データを消去させることができます。これには Adobe Campaign に保存されているデータも含まれている場合があります。 </li> 
-    </ul> 詳しくは、<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html">詳細ドキュメント</a>を参照してください。<br /> </td> 
+    </ul> 詳しくは、<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/privacy/privacy.html?lang=ja">詳細ドキュメント</a>を参照してください。<br /> </td> 
   </tr> 
   <tr> 
    <td> 電子メール用Creative Designer （Beta） <br /> </td> 
@@ -511,7 +511,7 @@ Campaign インターフェイスからコンテキストヘルプリンクを�
      <li> 画像やその他のメディアファイルをダウンロードし、添付ファイルとして通知に追加できます </li> 
      <li> 通知の本文またはタイトルテキストの変更 </li> 
      <li> 通知へのスレッド IDの追加 </li> 
-    </ul> 利用可能なコンテンツと可変コンテンツについて詳しくは、<a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">詳細ドキュメント </a>を参照してください。<br /> <strong>警告：</strong> プッシュ通知に関するこれらの更新には、お客様がモバイルアプリケーションをアップグレードする必要があります。 詳しくは、<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/push-payload.html">このテクニカルノート </a>を参照してください。<br /> </td> 
+    </ul> 利用可能なコンテンツと可変コンテンツについて詳しくは、<a href="../../channels/using/customizing-a-push-notification.md#change-the-notification-behavior-for-ios">詳細ドキュメント </a>を参照してください。<br /> <strong>警告：</strong> プッシュ通知に関するこれらの更新には、お客様がモバイルアプリケーションをアップグレードする必要があります。 詳しくは、<a href="https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/configuring-mobile/push-payload.html?lang=ja">このテクニカルノート </a>を参照してください。<br /> </td> 
   </tr> 
   <tr> 
    <td> タイムゾーン最適化された配信<br /> </td> 

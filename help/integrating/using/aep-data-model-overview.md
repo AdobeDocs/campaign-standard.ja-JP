@@ -48,7 +48,7 @@ XDM Workspaceでは、データスキーマを表示、作成、拡張するこ�
 
 XDM ユーザーインターフェイスにアクセスするには、Adobe Experience Platformを開きます。 データモデルウィンドウに移動して、XDM スキーマを作成または拡張します。
 
-[XDM Workspaceの完全なドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html)を参照してください。
+[XDM Workspaceの完全なドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=ja)を参照してください。
 
 ![](assets/aep_xdmworkspace.png)
 
@@ -63,4 +63,4 @@ XDM スキーマ APIを使用して、次のアクションを実行できます
 * スキーマ記述子の表示
 * スキーマ記述子の作成、更新、削除
 
-API呼び出しを操作するための詳細については、[開発者ガイド &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html)を参照してください。
+API呼び出しを操作するための詳細については、[開発者ガイド &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/xdm/api/getting-started.html?lang=ja)を参照してください。

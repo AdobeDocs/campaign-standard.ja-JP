@@ -27,4 +27,4 @@ ht-degree: 6%
 
 **geoUnitBase** エンドポイントを使用すると、地理的単位を操作できます。例えば、属性を更新したり、プロファイルの単位を更新したりできます。
 
-プロファイルリソースを拡張すると、**地理単位** フィールドがプロファイルに追加されます。 そのため、地理的単位を操作するには、常に&#x200B;**profileAndServicesExt** エンドポイントを使用することを忘れないでください。 プロファイルのリソース拡張機能について詳しくは、[Campaign ドキュメント &#x200B;](https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles)を参照してください。
+プロファイルリソースを拡張すると、**地理単位** フィールドがプロファイルに追加されます。 そのため、地理的単位を操作するには、常に&#x200B;**profileAndServicesExt** エンドポイントを使用することを忘れないでください。 プロファイルのリソース拡張機能について詳しくは、[Campaign ドキュメント &#x200B;](https://helpx.adobe.com/jp/campaign/standard/administration/using/organizational-units.html#partitioning-profiles)を参照してください。

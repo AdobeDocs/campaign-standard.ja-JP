@@ -192,7 +192,7 @@ Campaign カスタムリソースのより包括的な概要については、�
 
   Campaign エンジン全体の呼び出し量を推定する場合、ランディングページ、WebApps、JSSP、API、モバイルアプリ登録など、エンジン呼び出しの他のソースを考慮することが重要です。
 
-  Adobe Campaign Standardのパッケージ情報を表示するには、次の場所を参照してください：[https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html](https://helpx.adobe.com/jp/legal/product-descriptions/campaign-standard.html)
+  Adobe Campaign Standardのパッケージ情報を表示するには、次の場所を参照してください：[https://helpx.adobe.com/jp/legal/product-descriptions/campaign-standard.html](https://helpx.adobe.com/jp/legal/product-descriptions/campaign-standard.html)
 
 * この統合では、Campaignのリソースに最初に同期するレコードの合計が最大1,500万件までサポートされます。 増分同期は、Adobe Campaign Standard パッケージによって制限されます。
 

@@ -76,7 +76,7 @@ Adobe Campaign からユーザー管理インターフェイスにアクセス�
 
 **関連トピック：**
 
-* [ユーザー権限の管理](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/administrating/managing-user-access-rights.html)（ビデオ）
+* [ユーザー権限の管理](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/administrating/managing-user-access-rights.html?lang=ja)（ビデオ）
 * [役割のリスト](../../administration/using/list-of-roles.md)
 * [承認のリスト](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
 

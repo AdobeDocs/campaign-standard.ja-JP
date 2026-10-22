@@ -101,7 +101,7 @@ Campaignでは、[&#x200B; サービス &#x200B;](../../audiences/using/creating
 
 >[!IMPORTANT]
 >
->[Adobe Campaignの許容される使用ポリシー](https://www.adobe.com/legal/terms/aup.html)を尊重する必要があります。
+>[Adobe Campaignの許容される使用ポリシー](https://www.adobe.com/jp/legal/terms/aup.html)を尊重する必要があります。
 
 詳しくは、以下を参照してください。
 
@@ -124,4 +124,4 @@ Campaignのプライバシーと同意とその管理方法については、[�
 * [Microsoft Dynamics 365の使用](../../integrating/using/d365-acs-get-started.md)
 * [Adobe Shared Audiences](../../integrating/using/sharing-audiences-with-audience-manager-or-people-core-service.md)
 * [ワークフローを使用したプロファイルのインポート](../../automating/using/creating-import-workflow-templates.md)
-* [プロファイルとオーディエンスの動画](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html)
+* [プロファイルとオーディエンスの動画](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/profiles-and-audiences/creating-profiles-and-audiences.html?lang=ja)

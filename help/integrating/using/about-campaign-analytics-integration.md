@@ -52,6 +52,6 @@ Adobe Analyticsのコアサービス **トリガー**&#x200B;とAdobe Campaign�
 
 **関連トピック：**
 
-* [Campaign StandardとAnalyticsの統合の概要](https://experienceleague.adobe.com/docs/analytics/integration/adobe-campaign.html)
-* [Campaign Standard統合の設定](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-analytics/configure-campaign-analytics-integration.html)
+* [Campaign StandardとAnalyticsの統合の概要](https://experienceleague.adobe.com/docs/analytics/integration/adobe-campaign.html?lang=ja)
+* [Campaign Standard統合の設定](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-analytics/configure-campaign-analytics-integration.html?lang=ja)
 * [Analytics での Campaign のディメンションと指標](../../integrating/using/campaign-dimensions-and-metrics-in-analytics.md)

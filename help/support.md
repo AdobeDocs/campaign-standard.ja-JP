@@ -137,7 +137,7 @@ Campaign コントロールパネルの FAQ にアクセスするには、[こ�
 
 ### エキスパートへの質問
 
-Campaign コミュニティに参加：既存の質問の回答を検索するか、コミュニティに質問します。 [会話に参加](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
+Campaign コミュニティに参加：既存の質問の回答を検索するか、コミュニティに質問します。 [会話に参加](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community?profile.language=ja)
 
 ### チケットの作成またはチャットの開始
 
