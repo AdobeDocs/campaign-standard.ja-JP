@@ -53,7 +53,7 @@ ht-degree: 14%
 
 書き出しログの操作は、標準ユーザーが実行できます。 **プロファイル**&#x200B;のブロードログ、トラッキングログ、除外ログ、サブスクリプションログ、サブスクリプション履歴ログなどのプライベートリソースは、機能管理者のみが管理できます。
 
-1. [このセクション ](../../automating/using/building-a-workflow.md#creating-a-workflow)で詳しく説明されているように、新しいワークフローを作成します。
+1. [このセクション &#x200B;](../../automating/using/building-a-workflow.md#creating-a-workflow)で詳しく説明されているように、新しいワークフローを作成します。
 1. **[!UICONTROL Scheduler]** アクティビティを追加し、必要に応じて設定します。 以下は、月間実行の例です。
 
    ![](assets/export_logs_scheduler.png)
@@ -64,7 +64,7 @@ ht-degree: 14%
 
      ![](assets/export_logs_query_properties.png)
 
-   * 「**[!UICONTROL Target]**」タブで、2016年以降に送信された配信に対応するすべての配信ログを取得する条件を設定します。 詳しくは、「[ クエリの編集](../../automating/using/editing-queries.md#creating-queries)」の節を参照してください。
+   * 「**[!UICONTROL Target]**」タブで、2016年以降に送信された配信に対応するすべての配信ログを取得する条件を設定します。 詳しくは、「[&#x200B; クエリの編集](../../automating/using/editing-queries.md#creating-queries)」の節を参照してください。
 
      ![](assets/export_logs_query_target.png)
 
@@ -95,7 +95,7 @@ ht-degree: 14%
 1. **[!UICONTROL Transfer file]** アクティビティを追加し、新しく作成したファイルをAdobe Campaign サーバーからSFTP サーバーなどの別の場所に転送するように設定します。
 
    * 「**[!UICONTROL General]**」タブで、「**[!UICONTROL File upload]**」を選択します。その目的は、ファイルをAdobe Campaignから別のサーバーに送信することです。
-   * 「**[!UICONTROL Protocol]**」タブで、転送パラメーターを指定し、使用する[外部アカウント ](../../administration/using/external-accounts.md#creating-an-external-account)を選択します。
+   * 「**[!UICONTROL Protocol]**」タブで、転送パラメーターを指定し、使用する[外部アカウント &#x200B;](../../administration/using/external-accounts.md#creating-an-external-account)を選択します。
 
 1. **[!UICONTROL End]** アクティビティを追加して、適切に終了し、ワークフローを保存します。
 

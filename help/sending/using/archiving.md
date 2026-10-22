@@ -61,7 +61,7 @@ Adobe Campaignを設定して、メール BCCを通じてプラットフォー�
 
 ## 電子メールアーカイブのアクティブ化 {#activating-email-archiving}
 
-有効にすると、専用オプションを使用して、[電子メールテンプレート ](../../start/using/marketing-activity-templates.md)で電子メール BCCがアクティブ化されます。
+有効にすると、専用オプションを使用して、[電子メールテンプレート &#x200B;](../../start/using/marketing-activity-templates.md)で電子メール BCCがアクティブ化されます。
 
 1. **リソース**／**テンプレート**／**配信テンプレート**&#x200B;に移動します。
 1. すぐに使える&#x200B;**[!UICONTROL Send via email]** テンプレートを複製します。

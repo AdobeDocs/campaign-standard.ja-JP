@@ -59,7 +59,7 @@ ht-degree: 59%
 
 * **メール アドレスと強制隔離されたメール アドレスの違いは何ですか？**
 
-  * ステータス **[!UICONTROL On denylist]**&#x200B;は、[ フィードバックループ ](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ja#feedback-loops)の結果です（ユーザーがメッセージをスパムとして報告した場合）。
+  * ステータス **[!UICONTROL On denylist]**&#x200B;は、[&#x200B; フィードバックループ &#x200B;](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=ja#feedback-loops)の結果です（ユーザーがメッセージをスパムとして報告した場合）。
 
   * ステータス **[!UICONTROL Quarantined]**&#x200B;は、ソフトバウンスまたはハードバウンスの結果です。
 

@@ -39,7 +39,7 @@ ht-degree: 68%
 
 このワークフローの目的は、プロファイルのリストを外部ファイルの形式でエクスポート、Adobe Campaign 外でデータを使用できるようにすることです。
 
-1. [ ファイルを抽出](../../automating/using/extract-file.md) アクティビティをワークフローにドラッグ&amp;ドロップし、[ クエリ ](../../automating/using/query.md) アクティビティの後に配置します。
+1. [&#x200B; ファイルを抽出](../../automating/using/extract-file.md) アクティビティをワークフローにドラッグ&amp;ドロップし、[&#x200B; クエリ &#x200B;](../../automating/using/query.md) アクティビティの後に配置します。
 
    この例では、クエリは 18～30 歳のすべてのプロファイルで実行されます。
 
@@ -62,7 +62,7 @@ ht-degree: 68%
      ![](assets/wkf_data_export9.png)
 
 1. アクティビティを確認します。
-1. **[!UICONTROL Extract file]** アクティビティの後に[ ファイル転送](../../automating/using/transfer-file.md) アクティビティをドラッグ&amp;ドロップして、外部アカウントの抽出ファイルを回復します。
+1. **[!UICONTROL Extract file]** アクティビティの後に[&#x200B; ファイル転送](../../automating/using/transfer-file.md) アクティビティをドラッグ&amp;ドロップして、外部アカウントの抽出ファイルを回復します。
 1. アクティビティを開き、**[!UICONTROL File upload]** アクションを選択します。
 
    ![](assets/wkf_data_export11.png)

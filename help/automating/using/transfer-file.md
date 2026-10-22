@@ -200,9 +200,9 @@ Microsoft Azure Blob プロトコルを使用すると、Microsoft Azure Blob St
 
 ## 出力変数 {#output-variables}
 
-**[!UICONTROL Transfer file]** アクティビティは、他のアクティビティで活用できるイベント変数を出力として生成します。例えば、[ テスト ](../../automating/using/test.md) アクティビティを使用してダウンロードされたファイルの数を確認できます。
+**[!UICONTROL Transfer file]** アクティビティは、他のアクティビティで活用できるイベント変数を出力として生成します。例えば、[&#x200B; テスト &#x200B;](../../automating/using/test.md) アクティビティを使用してダウンロードされたファイルの数を確認できます。
 
-イベント変数は、外部信号を使用して別のワークフローに渡すこともできます（[外部パラメーターを使用したワークフローのカスタマイズ ](../../automating/using/customizing-workflow-external-parameters.md)を参照）。
+イベント変数は、外部信号を使用して別のワークフローに渡すこともできます（[外部パラメーターを使用したワークフローのカスタマイズ &#x200B;](../../automating/using/customizing-workflow-external-parameters.md)を参照）。
 
 使用可能な出力変数は次のとおりです。
 

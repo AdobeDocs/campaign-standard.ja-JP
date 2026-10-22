@@ -45,4 +45,4 @@ ht-degree: 6%
 
 例えば、過去2週間以内にボストンのある店舗を訪問し、アプリを使用している顧客に10%の割引オファーを送信することができます。
 
-ユースケースについては、「[Point of Interest データを使用したキャンペーンメッセージのパーソナライズ ](../../integrating/using/personalizing-campaign-messages-with-point-of-interest-data.md)」セクションを参照してください。
+ユースケースについては、「[Point of Interest データを使用したキャンペーンメッセージのパーソナライズ &#x200B;](../../integrating/using/personalizing-campaign-messages-with-point-of-interest-data.md)」セクションを参照してください。

@@ -48,7 +48,7 @@ Adobe Campaign では、メッセージのメインターゲットを定義す�
 >
 >プロファイルの作成は、Adobe Campaign Standard API を使用しても可能です。 詳しくは、[該当するドキュメント](../../api/using/creating-profiles-api.md)を参照してください。
 
-![](assets/do-not-localize/how-to-video.png) [ ビデオでワークフローを使用してプロファイルを読み込む方法を確認](#video)
+![](assets/do-not-localize/how-to-video.png) [&#x200B; ビデオでワークフローを使用してプロファイルを読み込む方法を確認](#video)
 
 Campaign でプロファイルを作成または更新するには、次の操作をおこないます。
 

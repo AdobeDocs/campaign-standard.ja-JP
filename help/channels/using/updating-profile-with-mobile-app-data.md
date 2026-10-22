@@ -49,7 +49,7 @@ ht-degree: 2%
 
 1. [モバイルアプリケーションの作成](../../administration/using/configuring-a-mobile-application.md)
 1. [Adobe Mobile SDKをモバイルアプリケーションと統合](../../administration/using/supported-mobile-use-cases.md)。
-1. [ プッシュ通知を送信するようにAdobe Campaignを設定](../../administration/using/configuring-a-mobile-application.md)。
+1. [&#x200B; プッシュ通知を送信するようにAdobe Campaignを設定](../../administration/using/configuring-a-mobile-application.md)。
 
 ## 手順1 - プッシュ通知/購読のプロファイルリソースの拡張
 
@@ -69,7 +69,7 @@ PII データを使用してプロファイルリソースを作成または更�
 
 **関連トピック：**
 
-* [ サブスクリプションをアプリケーションリソースに拡張しています](../../developing/using/extending-the-subscriptions-to-an-application-resource.md)。
+* [&#x200B; サブスクリプションをアプリケーションリソースに拡張しています](../../developing/using/extending-the-subscriptions-to-an-application-resource.md)。
 * [既存のリソースの作成または拡張](../../developing/using/key-steps-to-add-a-resource.md)。
 
 ## 手順2 - ワークフローの作成

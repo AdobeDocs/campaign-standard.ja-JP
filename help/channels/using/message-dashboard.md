@@ -64,13 +64,13 @@ ht-degree: 4%
 
 * **[!UICONTROL Show proofs]**：送信されたプルーフのリストが存在する場合、そのリストを表示または非表示にします。 このボタンは、プルーフを送信した場合にのみ有効になります。
 
-  プルーフについて詳しくは、[ プルーフの送信](../../sending/using/sending-proofs.md)を参照してください。
+  プルーフについて詳しくは、[&#x200B; プルーフの送信](../../sending/using/sending-proofs.md)を参照してください。
 
-* **[!UICONTROL Send a test]**：使用する承認モードを選択できます：**[!UICONTROL Email rendering]** （電子メールのみ）、**[!UICONTROL Proof]**、またはその両方。 テストプロファイルについて詳しくは、[ プルーフの送信](../../sending/using/sending-proofs.md)を参照してください。 このボタンは、テストプロファイルを作成した場合にのみ有効になります。
+* **[!UICONTROL Send a test]**：使用する承認モードを選択できます：**[!UICONTROL Email rendering]** （電子メールのみ）、**[!UICONTROL Proof]**、またはその両方。 テストプロファイルについて詳しくは、[&#x200B; プルーフの送信](../../sending/using/sending-proofs.md)を参照してください。 このボタンは、テストプロファイルを作成した場合にのみ有効になります。
 
 * **[!UICONTROL Prepare send]**：送信の準備を開始します。 **[!UICONTROL Deployment]** ブロックが表示され、準備結果が表示されます。 このボタンは、ターゲットが入力された後にのみ表示されます。 対応するボタンを使用して、いつでも準備を停止できます。 メッセージの準備について詳しくは、[送信の準備](../../sending/using/preparing-the-send.md)を参照してください。
 
-* **[!UICONTROL Confirm send]**: メッセージの送信を確認します。 送信統計情報が&#x200B;**[!UICONTROL Deployment]** ブロックに表示されます。 このボタンは、送信の準備が完了した後にのみ表示されます。 **送信を停止** ボタンと&#x200B;**[!UICONTROL Pause]** ボタンを使用して、いつでも送信を停止または一時停止できます。 送信の確認について詳しくは、[ メッセージの送信](../../sending/using/confirming-the-send.md)を参照してください。
+* **[!UICONTROL Confirm send]**: メッセージの送信を確認します。 送信統計情報が&#x200B;**[!UICONTROL Deployment]** ブロックに表示されます。 このボタンは、送信の準備が完了した後にのみ表示されます。 **送信を停止** ボタンと&#x200B;**[!UICONTROL Pause]** ボタンを使用して、いつでも送信を停止または一時停止できます。 送信の確認について詳しくは、[&#x200B; メッセージの送信](../../sending/using/confirming-the-send.md)を参照してください。
 
 ## ブロック {#blocks}
 
@@ -80,7 +80,7 @@ ht-degree: 4%
 
 * **[!UICONTROL Deployment]**: メッセージの準備または送信の進行状況を追跡できます。 このブロックの右下にあるボタンをクリックして、送信と分析のログにアクセスします。 このブロックは、送信が準備された後にのみ表示されます。 関連トピックス。 [送信確認](../../sending/using/confirming-the-send.md)を参照してください。
 * **[!UICONTROL Audience]**: メッセージのメイン ターゲットとテスト プロファイルを確立できます。 [オーディエンスの作成](../../audiences/using/creating-audiences.md)を参照してください。
-* **[!UICONTROL Schedule]**: メッセージを送信する日付を指定できます。 [ スケジュール ](../../sending/using/about-scheduling-messages.md)を参照してください。
+* **[!UICONTROL Schedule]**: メッセージを送信する日付を指定できます。 [&#x200B; スケジュール &#x200B;](../../sending/using/about-scheduling-messages.md)を参照してください。
 * **[!UICONTROL Content]**: メッセージの内容を定義してプレビューできます。 メッセージを送信するための主な手順[を参照](../../channels/using/key-steps-to-send-a-message.md)。
 
 ## 警告 {#warnings}
@@ -97,7 +97,7 @@ ht-degree: 4%
 
 * *「外部アカウントのルーティングは無効になっています。」*
 
-  詳しくは、[外部アカウント ](../../administration/using/external-accounts.md)を参照してください。
+  詳しくは、[外部アカウント &#x200B;](../../administration/using/external-accounts.md)を参照してください。
 
 * *「現在のIP アフィニティが送信プロセスで処理されていないため、メッセージを送信できません。」*
 

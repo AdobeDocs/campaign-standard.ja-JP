@@ -37,8 +37,8 @@ ht-degree: 17%
 ---
 # サービスの概要{#service-summary}
 
-**[!UICONTROL Service summary]**は、サービスのサブスクリプションとサブスクリプション解除の進化について詳しく説明しています。
-このレポートには、詳細メニュー**[!UICONTROL Profiles & Audiences]** > **[!UICONTROL Services]**&#x200B;経由でのみサービスページからアクセスできます。 詳しくは、この[ページ](../../audiences/using/monitoring-subscriptions.md#service-reports)を参照してください。
+**[!UICONTROL Service summary]**&#x200B;は、サービスのサブスクリプションとサブスクリプション解除の進化について詳しく説明しています。
+このレポートには、詳細メニュー&#x200B;**[!UICONTROL Profiles & Audiences]** > **[!UICONTROL Services]**&#x200B;経由でのみサービスページからアクセスできます。 詳しくは、この[ページ](../../audiences/using/monitoring-subscriptions.md#service-reports)を参照してください。
 
 ![](assets/service-summary.png)
 

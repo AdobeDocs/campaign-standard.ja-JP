@@ -60,7 +60,7 @@ HTMLのパンくずリストを使用すると、パディングを追加でき�
 
 独自のHTML コンテンツを電子メール Designerにアップロードできます。 電子メールDesignerで作成されていない場合は、元のHTMLを維持するように設計されていますが、UIを通じて特定のエディション機能を制限する互換モードで読み込まれます。
 
-詳しくは、[互換性モード ](../../designing/using/using-existing-content.md#compatibility-mode)を参照してください
+詳しくは、[互換性モード &#x200B;](../../designing/using/using-existing-content.md#compatibility-mode)を参照してください
 
 ## 最初のメールコンテンツを作成するにはどうすればよいですか？
 
@@ -73,13 +73,13 @@ HTMLのパンくずリストを使用すると、パディングを追加でき�
 
 E メールデザイナーの機能強化は継続的におこなわれています。 メールコンテンツをゼロから作成した場合、すぐに使えるテンプレートから作成した場合、またはフラグメントを作成した場合は、CSSの競合の問題などの問題を回避するために、コンテンツを最新バージョンに更新する必要がある場合があります。
 
-詳しくは、[ フラグメントの更新](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-updates)を参照してください
+詳しくは、[&#x200B; フラグメントの更新](../../designing/using/designing-content-in-adobe-campaign.md#email-designer-updates)を参照してください
 
 ## テーマにスタイルを保存できますか？
 
 スタイルは、後で再利用するためにテーマとして保存することはできません。 ただし、CSS スタイルは、コンテンツテンプレートまたはメールに保存できます。
 
-詳しくは、[ スタイル ](../../designing/using/styles.md)を参照してください
+詳しくは、[&#x200B; スタイル &#x200B;](../../designing/using/styles.md)を参照してください
 
 ## 使用できるフォントはどれですか？
 

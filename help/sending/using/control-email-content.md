@@ -47,13 +47,13 @@ ht-degree: 51%
 * [Personalizationと送信時間の最適化](#perso-send-time-optimization)：コンテンツをパーソナライズし、受信者ごとに送信時間を定義すると、メッセージが開く可能性が高まります。
 * 画像とテキスト：適切なテキスト／画像比率（例：テキスト 60%、画像 40％）に従います。
 * [購読解除リンク](#opt-out)とランディングページ：購読解除リンクは必須です。 表示されており、有効である必要があります。また、フォームは機能している必要があります。
-* プレビュー：Adobe Campaignのツールを使用して、電子メールの内容を確認および最適化します（[ スパム対策分析](#anti-spam-analysis)、[電子メールレンダリング ](#message-responsiveness)）。
+* プレビュー：Adobe Campaignのツールを使用して、電子メールの内容を確認および最適化します（[&#x200B; スパム対策分析](#anti-spam-analysis)、[電子メールレンダリング &#x200B;](#message-responsiveness)）。
 
 コンテンツの設計時に配信品質を最適化するためのその他のヒントについては、[アドビの配信品質のベストプラクティスガイド](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/content-best-practices-for-optimal-delivery.html?lang=ja)を参照してください。
 
 >[!NOTE]
 >
->電子メールコンテンツの編集について詳しくは、[電子メールDesignerの概要](../../designing/using/designing-content-in-adobe-campaign.md)および[ メッセージデザインのベストプラクティス ](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices)を参照してください。
+>電子メールコンテンツの編集について詳しくは、[電子メールDesignerの概要](../../designing/using/designing-content-in-adobe-campaign.md)および[&#x200B; メッセージデザインのベストプラクティス &#x200B;](../../designing/using/designing-content-in-adobe-campaign.md#content-design-best-practices)を参照してください。
 
 ## 送信者の名前と住所 {#sender-name}
 
@@ -73,9 +73,9 @@ Adobe Campaignを使用すれば、受信者の体験を向上させ、電子メ
 
 ## オプトアウトリンクとフォーム {#opt-out}
 
-デフォルトでは、メッセージが分析される場合、タイポロジルールでオプトアウトリンクが含まれているかどうかがチェックされ、見つからない場合は警告が表示されます。 リンクの管理について詳しくは、[このセクション ](../../designing/using/links.md)を参照してください。
+デフォルトでは、メッセージが分析される場合、タイポロジルールでオプトアウトリンクが含まれているかどうかがチェックされ、見つからない場合は警告が表示されます。 リンクの管理について詳しくは、[このセクション &#x200B;](../../designing/using/links.md)を参照してください。
 
-毎回、送信前に、オプトアウトリンクが適切に機能することを確認する必要があります。 例えば、[ プルーフ ](../../sending/using/sending-proofs.md)を送信する場合、リンクが有効であること、フォームがオンラインであること、およびこれを検証することで&#x200B;**[!UICONTROL No longer contact]** ボックスがチェックされていることを確認します。 リンクの入力時やフォームの変更時にヒューマンエラーが発生する可能性は常にあるので、このチェックは体系的におこなう必要があります。 オプトインとオプトアウトの管理について詳しくは、[この節](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)を参照してください。
+毎回、送信前に、オプトアウトリンクが適切に機能することを確認する必要があります。 例えば、[&#x200B; プルーフ &#x200B;](../../sending/using/sending-proofs.md)を送信する場合、リンクが有効であること、フォームがオンラインであること、およびこれを検証することで&#x200B;**[!UICONTROL No longer contact]** ボックスがチェックされていることを確認します。 リンクの入力時やフォームの変更時にヒューマンエラーが発生する可能性は常にあるので、このチェックは体系的におこなう必要があります。 オプトインとオプトアウトの管理について詳しくは、[この節](../../audiences/using/managing-opt-in-and-opt-out-in-campaign.md)を参照してください。
 
 ![](assets/optin_landingpage_3.png)
 
@@ -87,7 +87,7 @@ Adobe Campaignを使用すれば、受信者の体験を向上させ、電子メ
 
 ## スパム対策分析 {#anti-spam-analysis}
 
-Adobe Campaignのメッセージエディターには、**スパム対策分析**&#x200B;が統合されています。この分析では、電子メールをスコアリングして、受信時に使用されるスパム対策ツールによってスパムと見なされるリスクがあるかどうかを判断できます。 詳しくは、[ メッセージのプレビュー](../../sending/using/previewing-messages.md)を参照してください。
+Adobe Campaignのメッセージエディターには、**スパム対策分析**&#x200B;が統合されています。この分析では、電子メールをスコアリングして、受信時に使用されるスパム対策ツールによってスパムと見なされるリスクがあるかどうかを判断できます。 詳しくは、[&#x200B; メッセージのプレビュー](../../sending/using/previewing-messages.md)を参照してください。
 
 メッセージコンテンツエディターで、**[!UICONTROL Preview]**&#x200B;をクリックします。 迷惑メール対策チェックによって、このメッセージの高いリスクが検出された場合は、メッセージが警告されます。 **[!UICONTROL Anti-spam analysis]**&#x200B;をクリックして詳細を表示します。
 

@@ -65,7 +65,7 @@ Campaign Standardが宛先として設定されたら、Adobe Experience Platfor
 
 ![](assets/rtcdp-workflow.png)
 
-データ管理ワークフローの例については、[ ワークフローのユースケース ](../../automating/using/about-workflow-use-cases.md#management)の節を参照してください。
+データ管理ワークフローの例については、[&#x200B; ワークフローのユースケース &#x200B;](../../automating/using/about-workflow-use-cases.md#management)の節を参照してください。
 
 関連トピック ：
 

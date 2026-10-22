@@ -84,7 +84,7 @@ HTMLのコードを変更すると、電子メールの応答性が低下する�
 
 すべてのスタイルオプションは、モバイルビューで使用できます。 メールDesignerのスタイル設定は、このページで以前に示されています。
 
-1. メールを作成し、コンテンツの編集を開始します。 詳しくは、[電子メールコンテンツをゼロからデザイン ](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)するを参照してください。
+1. メールを作成し、コンテンツの編集を開始します。 詳しくは、[電子メールコンテンツをゼロからデザイン &#x200B;](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)するを参照してください。
 1. 専用のモバイルビューにアクセスするには、**[!UICONTROL Switch to mobile view]** ボタンを選択します。
 
    ![](assets/email_designer_mobile_view_switch.png)
@@ -149,4 +149,4 @@ HTMLのコードを変更すると、電子メールの応答性が低下する�
 
 >[!NOTE]
 >
->モバイルビューは、[ フラグメント ](../../designing/using/using-reusable-content.md#about-fragments)では利用できません。
+>モバイルビューは、[&#x200B; フラグメント &#x200B;](../../designing/using/using-reusable-content.md#about-fragments)では利用できません。

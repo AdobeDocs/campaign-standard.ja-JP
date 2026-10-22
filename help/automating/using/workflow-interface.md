@@ -46,23 +46,23 @@ ht-degree: 5%
 
 ワークフロー編集画面は、次の要素で構成されます。
 
-* 使用可能なアクティビティを参照する[ パレット ](#palette)。
+* 使用可能なアクティビティを参照する[&#x200B; パレット &#x200B;](#palette)。
 * アクティビティが設定および整理された[Workspace](#workspace)。
-* [ アクションバー](#action-bar)は、ワークフローやそのコンポーネントを操作できるボタンで構成されています。
-* 選択したアクティビティの周囲に表示される[ クイックアクション ](#quick-actions)を使用すると、このアクティビティを操作できます。
+* [&#x200B; アクションバー](#action-bar)は、ワークフローやそのコンポーネントを操作できるボタンで構成されています。
+* 選択したアクティビティの周囲に表示される[&#x200B; クイックアクション &#x200B;](#quick-actions)を使用すると、このアクティビティを操作できます。
 
 ![](assets/wkf_overview.png)
 
-![](assets/do-not-localize/how-to-video.png) [ ビデオでワークフローを作成する方法を確認](#video)
+![](assets/do-not-localize/how-to-video.png) [&#x200B; ビデオでワークフローを作成する方法を確認](#video)
 
 ## パレット {#palette}
 
 パレットは画面の左側にあります。 使用可能なすべてのアクティビティは、次のカテゴリに分類されます。
 
-* [ ターゲティング ](../../automating/using/about-targeting-activities.md)：ターゲティング、母集団データの操作、およびアクティビティのフィルタリングに固有のアクティビティ
+* [&#x200B; ターゲティング &#x200B;](../../automating/using/about-targeting-activities.md)：ターゲティング、母集団データの操作、およびアクティビティのフィルタリングに固有のアクティビティ
 * [実行](../../automating/using/about-execution-activities.md): ワークフローの整理と実行に固有のアクティビティ
-* [ チャネル ](../../automating/using/about-channel-activities.md)：使用可能な様々なコミュニケーションチャネルを表すアクティビティ
-* [ データ管理（ETL） ](../../automating/using/about-data-management-activities.md)：データ操作に固有のアクティビティ
+* [&#x200B; チャネル &#x200B;](../../automating/using/about-channel-activities.md)：使用可能な様々なコミュニケーションチャネルを表すアクティビティ
+* [&#x200B; データ管理（ETL） &#x200B;](../../automating/using/about-data-management-activities.md)：データ操作に固有のアクティビティ
 
 ワークフローのパレットからアクティビティを使用するには、それをワークスペースにドラッグ&amp;ドロップします。
 

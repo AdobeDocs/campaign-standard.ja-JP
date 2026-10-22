@@ -45,22 +45,22 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->モバイルアプリケーションは、すでにAdobe Experience Platform SDKを使用してAdobe Campaign Standardで設定されている必要があります。 詳細な手順については、この[ ページ ](https://helpx.adobe.com/jp/campaign/kb/configuring-app-sdk.html)を参照してください。
+>モバイルアプリケーションは、すでにAdobe Experience Platform SDKを使用してAdobe Campaign Standardで設定されている必要があります。 詳細な手順については、この[&#x200B; ページ &#x200B;](https://helpx.adobe.com/jp/campaign/kb/configuring-app-sdk.html)を参照してください。
 
 位置情報の収集に使用するモバイルアプリケーションは、Adobe Campaign インターフェイスの&#x200B;**管理者**&#x200B;が設定する必要があります。
 
 Adobe Experience Platform SDKで設定されたモバイルアプリケーションでAdobe Experience Platform Location Servicesを使用するには、次の操作が必要です。
 
-1. データ収集UIで&#x200B;**[!UICONTROL Places]**&#x200B;拡張機能をモバイルアプリ設定に追加します。 Adobe Campaignでモバイルアプリケーションを設定します。 [Places拡張機能のインストール ](https://developer.adobe.com/client-sdks/solution/places)を参照してください。
+1. データ収集UIで&#x200B;**[!UICONTROL Places]**&#x200B;拡張機能をモバイルアプリ設定に追加します。 Adobe Campaignでモバイルアプリケーションを設定します。 [Places拡張機能のインストール &#x200B;](https://developer.adobe.com/client-sdks/solution/places)を参照してください。
 
-1. 拡張機能を設定したら、データ収集UI内でデータ要素を作成して、これらの拡張機能からデータを取得します。 データ要素を作成するには、この[ ページ ](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Step1Createdataelements)を参照してください。
+1. 拡張機能を設定したら、データ収集UI内でデータ要素を作成して、これらの拡張機能からデータを取得します。 データ要素を作成するには、この[&#x200B; ページ &#x200B;](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Step1Createdataelements)を参照してください。
 
 1. 次に、データ収集UIで、Point of InterestとAdobe Campaign間のモバイルユースケースをサポートするルールを作成する必要があります。\
-   このルールは、ユーザーがジオフェンス設定された&#x200B;**[!UICONTROL Point of Interest]**&#x200B;にエントリするとトリガーされます。 ルールを作成するには、この[ ページ ](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Locationpostback)を参照してください。
+   このルールは、ユーザーがジオフェンス設定された&#x200B;**[!UICONTROL Point of Interest]**&#x200B;にエントリするとトリガーされます。 ルールを作成するには、この[&#x200B; ページ &#x200B;](https://helpx.adobe.com/campaign/kb/config-app-in-launch.html#Locationpostback)を参照してください。
 
 1. 場所で&#x200B;**[!UICONTROL Points of Interest]**&#x200B;を定義します。 [Point of Interestの作成](https://experienceleague.adobe.com/docs/places/using/poi-mgmt-ui/create-a-poi-ui.html)を参照してください。
 
-1. Adobe Campaignでモバイルアプリケーションと収集した位置情報にアクセスしていることを確認してください。 [位置情報の収集に使用されるモバイルアプリへのアクセス ](#accessing-mobile-apps-used-to-collect-location-data)および[収集された位置情報へのアクセス ](#accessing-collected-location-data)を参照してください。
+1. Adobe Campaignでモバイルアプリケーションと収集した位置情報にアクセスしていることを確認してください。 [位置情報の収集に使用されるモバイルアプリへのアクセス &#x200B;](#accessing-mobile-apps-used-to-collect-location-data)および[収集された位置情報へのアクセス &#x200B;](#accessing-collected-location-data)を参照してください。
 
 ## SDK V4を使用したCampaign-Point of Interest データ統合の設定 {#configuring-campaign-poi-sdkv4}
 
@@ -78,7 +78,7 @@ SDK V4で設定されたモバイルアプリケーションでPoint of Interest
 
 1. Adobe Mobile ServicesのインターフェイスでPoints of Interestを定義します。 Adobe Mobile ServicesのPoiの定義[を参照してください](#defining-points-of-interest-in-adobe-mobile-services)。
 1. モバイルアプリケーションのサブスクライバーから収集するデータを定義します。 [購読者のPoint of Interest データの収集](#collecting-subscribers--points-of-interest-data)を参照してください。
-1. Adobe Campaignでモバイルアプリケーションと収集した位置情報にアクセスしていることを確認してください。 [位置情報の収集に使用されるモバイルアプリへのアクセス ](#accessing-mobile-apps-used-to-collect-location-data)および[収集された位置情報へのアクセス ](#accessing-collected-location-data)を参照してください。
+1. Adobe Campaignでモバイルアプリケーションと収集した位置情報にアクセスしていることを確認してください。 [位置情報の収集に使用されるモバイルアプリへのアクセス &#x200B;](#accessing-mobile-apps-used-to-collect-location-data)および[収集された位置情報へのアクセス &#x200B;](#accessing-collected-location-data)を参照してください。
 
 ### SDK V4を使用したAdobe Campaignでのモバイルアプリの設定 {#setting-up-a-mobile-app-in-campaign}
 
@@ -186,13 +186,13 @@ Adobe Campaignで設定したモバイルアプリケーションのパラメー
 
 >[!NOTE]
 >
->ポストバックの設定について詳しくは、[Adobe Mobile Services ドキュメント ](https://experienceleague.adobe.com/docs/mobile-services/using/manage-app-settings-ug/configuring-app/signals.html)を参照してください。
+>ポストバックの設定について詳しくは、[Adobe Mobile Services ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/mobile-services/using/manage-app-settings-ug/configuring-app/signals.html)を参照してください。
 
 ### SDKのモバイルアプリケーションへの統合 {#integrating-the-sdk-into-a-mobile-application}
 
 Mobile コアサービスのソフトウェア開発キット（SDK）は、モバイルアプリケーションをAdobe Campaignに簡単に統合できます。
 
-この手順については、この[ ページ ](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/administrating/configuring-channels/configuring-a-mobile-application.html)で説明します。
+この手順については、この[&#x200B; ページ &#x200B;](https://docs.adobe.com/content/help/ja-JP/campaign-standard/using/administrating/configuring-channels/configuring-a-mobile-application.html)で説明します。
 
 ### Adobe Mobile Servicesにおける位置情報の定義 {#defining-points-of-interest-in-adobe-mobile-services}
 
@@ -201,11 +201,11 @@ Mobile コアサービスのソフトウェア開発キット（SDK）は、モ�
 1. Adobe Mobile Servicesのインターフェイスに移動します。
 1. アプリケーションを追加します。
 
-   Mobile Servicesでのアプリケーションの管理について詳しくは、[Adobe Mobile Services ドキュメント ](https://experienceleague.adobe.com/docs/mobile-services/using/manage-apps-ug/t-new-app.html)を参照してください。
+   Mobile Servicesでのアプリケーションの管理について詳しくは、[Adobe Mobile Services ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/mobile-services/using/manage-apps-ug/t-new-app.html)を参照してください。
 
 1. Points of Interestを定義します。
 
-   Poiの管理について詳しくは、[Adobe Mobile Services ドキュメント ](https://experienceleague.adobe.com/docs/mobile-services/using/location-ug/t-manage-points.html)を参照してください。
+   Poiの管理について詳しくは、[Adobe Mobile Services ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/mobile-services/using/location-ug/t-manage-points.html)を参照してください。
 
 ### 顧客のPoi データの収集 {#collecting-subscribers--points-of-interest-data}
 
@@ -237,4 +237,4 @@ Adobe Campaignで正常に作成されたアプリケーションにアクセス
 
 現在のプロファイルに対して収集されたPoints of Interest データが一覧表示されます。 位置情報は、Adobe Campaignのデータベースに6 ヶ月間保存されます。
 
-プロファイルへのアクセスと編集について詳しくは、[ プロファイル ](../../audiences/using/about-profiles.md)を参照してください。
+プロファイルへのアクセスと編集について詳しくは、[&#x200B; プロファイル &#x200B;](../../audiences/using/about-profiles.md)を参照してください。

@@ -84,7 +84,7 @@ Adobe Campaign からユーザー管理インターフェイスにアクセス�
 
 このユーザーセグメント化は必須ではなく、Adobe Campaign の最も一般的な使用方法の 1 つに過ぎません。
 
-このセクションでは、Adobe Campaign ユーザーの主な種類を理解するのに役立ちます。 ユーザーが保持できる特定の役割（配信の開始、書き出し、配信の準備など）について詳しくは、[役割のリスト ](../../administration/using/list-of-roles.md)および[ グループとユーザーの管理](../../administration/using/managing-groups-and-users.md) ページを参照してください。
+このセクションでは、Adobe Campaign ユーザーの主な種類を理解するのに役立ちます。 ユーザーが保持できる特定の役割（配信の開始、書き出し、配信の準備など）について詳しくは、[役割のリスト &#x200B;](../../administration/using/list-of-roles.md)および[&#x200B; グループとユーザーの管理](../../administration/using/managing-groups-and-users.md) ページを参照してください。
 
 この節では、Adobe Campaign 内の様々なタスクを 3 つの主なユーザータイプに分けて説明します。
 

@@ -51,7 +51,7 @@ E メールデザイナーでは、E メールコンテンツと E メールコ�
 
 <!--The Email Designer has more features than the Legacy Editor and is backward compatible.-->
 
-![](assets/do-not-localize/how-to-video.png) [ ビデオでの電子メール Designerの検索](#video)
+![](assets/do-not-localize/how-to-video.png) [&#x200B; ビデオでの電子メール Designerの検索](#video)
 
 * E メールコンテンツの作成方法について詳しくは、[E メールデザイナーの概要](../../designing/using/quick-start.md)を参照してください。
 * E メールデザイナーの概要については、[E メールデザイナーの使用](../../designing/using/designing-content-in-adobe-campaign.md)を参照してください。
@@ -191,4 +191,4 @@ CSS のコリジョンなどの問題を回避するために、コンテンツ�
 
 >[!VIDEO](https://video.tv.adobe.com/v/22771?quality=12)
 
-電子メールDesignerを使い始めるには、電子メールDesignerの一般的な機能と、ゼロから電子メールをデザインする方法やテンプレートを使用する方法について説明した[一連のビデオ ](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted)をご覧ください
+電子メールDesignerを使い始めるには、電子メールDesignerの一般的な機能と、ゼロから電子メールをデザインする方法やテンプレートを使用する方法について説明した[一連のビデオ &#x200B;](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/designing-content/email-designer/email-designer-overview.html#GettingStarted)をご覧ください

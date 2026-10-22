@@ -64,17 +64,17 @@ Adobe Campaignは、セグメンテーション、キャンペーンの実行、
 
 >[!IMPORTANT]
 >
-> Adobeでは、20個を超えるアクティブなワークフローを同時に実行しないようにし、ワークフローの実行を時間の経過に沿って優先順位付けして広げることをお勧めします。 詳しくは、[このページ ](../../automating/using/best-practices-workflows.md)で提供されているベストプラクティスを参照してください。
+> Adobeでは、20個を超えるアクティブなワークフローを同時に実行しないようにし、ワークフローの実行を時間の経過に沿って優先順位付けして広げることをお勧めします。 詳しくは、[このページ &#x200B;](../../automating/using/best-practices-workflows.md)で提供されているベストプラクティスを参照してください。
 
 ## ワークフローアクティビティ {#workflow-activities}
 
 ワークフローの設計に役立つ様々なアクティビティを利用できます。
 
-[ ターゲティングアクティビティ ](../../automating/using/about-targeting-activities.md)を使用すると、セットを定義し、積集合、和集合、除外演算を使用してこれらのセットを分割または組み合わせることで、1つ以上のターゲットを作成できます。
+[&#x200B; ターゲティングアクティビティ &#x200B;](../../automating/using/about-targeting-activities.md)を使用すると、セットを定義し、積集合、和集合、除外演算を使用してこれらのセットを分割または組み合わせることで、1つ以上のターゲットを作成できます。
 
-[実行アクティビティ ](../../automating/using/about-execution-activities.md)では、ワークフローとそのアクティビティを調整し、[ チャネルアクティビティ ](../../automating/using/about-channel-activities.md)では、Campaign Standard コミュニケーションチャネルを組み合わせてクロスチャネルワークフローを作成できます。
+[実行アクティビティ &#x200B;](../../automating/using/about-execution-activities.md)では、ワークフローとそのアクティビティを調整し、[&#x200B; チャネルアクティビティ &#x200B;](../../automating/using/about-channel-activities.md)では、Campaign Standard コミュニケーションチャネルを組み合わせてクロスチャネルワークフローを作成できます。
 
-最後に、[ データ管理アクティビティ ](../../automating/using/about-data-management-activities.md)を使用すると、データベースからデータを操作できます。
+最後に、[&#x200B; データ管理アクティビティ &#x200B;](../../automating/using/about-data-management-activities.md)を使用すると、データベースからデータを操作できます。
 
 詳しくは、以下を参照してください。
 
@@ -98,15 +98,15 @@ Adobe Campaignは、セグメンテーション、キャンペーンの実行、
 
 Campaign Standardには、データの読み込みと書き出しを行うための&#x200B;**データ管理機能**&#x200B;が搭載されています。
 
-[ ワークフローデータ管理アクティビティ ](../../automating/using/about-data-management-activities.md)を使用すると、データの読み込み、フィールドの一括更新の実行、ファイルの受信または送信、または未識別のデータを既存のリソースにリンクできます。
+[&#x200B; ワークフローデータ管理アクティビティ &#x200B;](../../automating/using/about-data-management-activities.md)を使用すると、データの読み込み、フィールドの一括更新の実行、ファイルの受信または送信、または未識別のデータを既存のリソースにリンクできます。
 
-[ テンプレートの読み込み](../../automating/using/importing-data-with-import-templates.md)を使用すると、簡単な読み込み関数を使用して、管理者が定義した特定の種類の読み込みを管理できます。
+[&#x200B; テンプレートの読み込み](../../automating/using/importing-data-with-import-templates.md)を使用すると、簡単な読み込み関数を使用して、管理者が定義した特定の種類の読み込みを管理できます。
 
-[ ログの書き出し](../../automating/using/exporting-logs.md)を使用すると、シンプルなワークフローでログデータを書き出すことができ、独自のレポートまたはBI ツールでマーケティングキャンペーンの結果を分析できます。
+[&#x200B; ログの書き出し](../../automating/using/exporting-logs.md)を使用すると、シンプルなワークフローでログデータを書き出すことができ、独自のレポートまたはBI ツールでマーケティングキャンペーンの結果を分析できます。
 
-[ パッケージ ](../../automating/using/managing-packages.md)を活用して、異なるキャンペーンインスタンス間でリソースを交換します。例えば、インスタンスの設定をレプリケートしたり、カスタムリソースを含むサーバーから別のサーバーにデータを転送したりできます。
+[&#x200B; パッケージ &#x200B;](../../automating/using/managing-packages.md)を活用して、異なるキャンペーンインスタンス間でリソースを交換します。例えば、インスタンスの設定をレプリケートしたり、カスタムリソースを含むサーバーから別のサーバーにデータを転送したりできます。
 
-最後に、[ リストの書き出し](../../automating/using/exporting-lists.md)を使用すると、テストプロファイルのリスト、強制隔離メールアドレスのリストなど、Campaign Standardから任意のリストを書き出すことができます。
+最後に、[&#x200B; リストの書き出し](../../automating/using/exporting-lists.md)を使用すると、テストプロファイルのリスト、強制隔離メールアドレスのリストなど、Campaign Standardから任意のリストを書き出すことができます。
 
 詳しくは、以下を参照してください。
 

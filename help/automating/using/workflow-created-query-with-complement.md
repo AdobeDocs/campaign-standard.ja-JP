@@ -53,7 +53,7 @@ ht-degree: 39%
 
 ## セグメント化アクティビティの作成 {#create-a-segmentation-activity}
 
-1. **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**&#x200B;で、[ セグメント化](../../automating/using/segmentation.md) アクティビティをドラッグ&amp;ドロップし、ダブルクリックします。
+1. **[!UICONTROL Activities]** > **[!UICONTROL Targeting]**&#x200B;で、[&#x200B; セグメント化](../../automating/using/segmentation.md) アクティビティをドラッグ&amp;ドロップし、ダブルクリックします。
 1. セグメントにカーソルを合わせ、![](assets/edit_darkgrey-24px.png)をクリックすると、今年データベースに追加されたターゲット顧客に移動します。
 1. **[!UICONTROL Profiles]**&#x200B;をドラッグ&amp;ドロップし、フィルタータイプ **[!UICONTROL Relative]**&#x200B;の&#x200B;**[!UICONTROL Created]**&#x200B;を選択します。
 1. **[!UICONTROL Level of precision]**&#x200B;を&#x200B;**[!UICONTROL Year]**&#x200B;に変更し、**[!UICONTROL This year]**&#x200B;を選択します。
@@ -70,7 +70,7 @@ ht-degree: 39%
 
 ## メール配信の作成 {#create-an-email-delivery}
 
-1. **[!UICONTROL Activities]** > **[!UICONTROL Channels]**&#x200B;で、各セグメントの後ろに[ メール配信](../../automating/using/email-delivery.md) アクティビティをドラッグ&amp;ドロップします。
+1. **[!UICONTROL Activities]** > **[!UICONTROL Channels]**&#x200B;で、各セグメントの後ろに[&#x200B; メール配信](../../automating/using/email-delivery.md) アクティビティをドラッグ&amp;ドロップします。
 1. アクティビティをクリックし、![](assets/edit_darkgrey-24px.png) を選択して編集します。
 1. 「**[!UICONTROL Single send email]**」を選択し、「**[!UICONTROL Next]**」をクリックします。
 1. メールテンプレートを選択し、「**[!UICONTROL Next]**」をクリックします。

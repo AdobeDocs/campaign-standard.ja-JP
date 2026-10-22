@@ -35,28 +35,28 @@ ht-degree: 24%
 
 多言語メールを異なる優先言語のプロファイルに送信できます。各プロファイルには、それぞれの優先言語のメールのバリエーションが送信されます。
 
-これには、多言語メールテンプレートが用意されていることを確認します。 そうでない場合は、[このセクション ](../../channels/using/multilingual-messages-template.md)で作成方法を説明します。
+これには、多言語メールテンプレートが用意されていることを確認します。 そうでない場合は、[このセクション &#x200B;](../../channels/using/multilingual-messages-template.md)で作成方法を説明します。
 
 オーディエンスは、完了した優先言語情報を持つプロファイルにもとづいています。
 
-1. [多言語テンプレート ](../../channels/using/multilingual-messages-template.md)に基づいて新しいメールを作成します。
+1. [多言語テンプレート &#x200B;](../../channels/using/multilingual-messages-template.md)に基づいて新しいメールを作成します。
 
    ![](assets/multi_create1.png)
 
 1. 通常のメールと同様に、メールの一般的なプロパティとターゲットオーディエンスを定義します。 [オーディエンスの作成](../../audiences/using/creating-audiences.md)の節を参照してください。
 
-1. 作成ウィザードの4番目の手順で、バリエーションのオプションを定義します。 [多言語テンプレート ](../../channels/using/multilingual-messages-template.md)に適切なパラメーターがすべて既に含まれている場合は、**[!UICONTROL Create]** ボタンを直接クリックできます。
+1. 作成ウィザードの4番目の手順で、バリエーションのオプションを定義します。 [多言語テンプレート &#x200B;](../../channels/using/multilingual-messages-template.md)に適切なパラメーターがすべて既に含まれている場合は、**[!UICONTROL Create]** ボタンを直接クリックできます。
 
    ![](assets/multi_create4.png)
 
-   必要に応じて、**[!UICONTROL Add an element]** ボタンを使用してバリエーションを追加します。 **[!UICONTROL Default]** バリアントは削除できません。 **[!UICONTROL default]**&#x200B;に設定すると、[ プロファイルの優先言語](../../audiences/using/creating-profiles.md)がバリエーションの選択に使用されます。 **[!UICONTROL Default]** バリエーションを他の言語に設定することもできます。
+   必要に応じて、**[!UICONTROL Add an element]** ボタンを使用してバリエーションを追加します。 **[!UICONTROL Default]** バリアントは削除できません。 **[!UICONTROL default]**&#x200B;に設定すると、[&#x200B; プロファイルの優先言語](../../audiences/using/creating-profiles.md)がバリエーションの選択に使用されます。 **[!UICONTROL Default]** バリエーションを他の言語に設定することもできます。
 
 1. メール作成を確認する：メールダッシュボードが表示されます。
 1. 各バリエーションに合わせて電子メールコンテンツを定義： 選択したテンプレートに応じて、複数の件名、複数の送信者名または複数の異なる内容を定義できます。 ドロップダウンメニューを使用して、エレメントの様々なバリエーション間を移動します。 詳しくは、[コンテンツエディター](../../designing/using/designing-content-in-adobe-campaign.md)の節を参照してください。
 
    ![](assets/multi_selectcontent.png)
 
-1. メッセージをテストして検証する。 「[ プルーフの送信](../../sending/using/sending-proofs.md)」セクションを参照してください。
+1. メッセージをテストして検証する。 「[&#x200B; プルーフの送信](../../sending/using/sending-proofs.md)」セクションを参照してください。
 1. **[!UICONTROL Send after confirmation option]**&#x200B;との送信をスケジュールします。
 1. 電子メールを送信した後は、そのログやレポートにアクセスして、キャンペーンの成果を測定できます。 レポートについて詳しくは、[この節](../../reporting/using/about-dynamic-reports.md)を参照してください。
 

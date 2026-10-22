@@ -146,4 +146,4 @@ ht-degree: 13%
    >
    >承認されていないAEM コンテンツを使用している場合、Adobe Campaignで電子メールを送信することはできません。
 
-オーディエンスは、**[!UICONTROL Profiles]**&#x200B;に設定されている&#x200B;**[!UICONTROL Preferred languages]**&#x200B;に応じて電子メールを受け取ります。 プロファイルと優先言語の編集方法について詳しくは、この[ ページ ](../../audiences/using/editing-profiles.md)を参照してください。
+オーディエンスは、**[!UICONTROL Profiles]**&#x200B;に設定されている&#x200B;**[!UICONTROL Preferred languages]**&#x200B;に応じて電子メールを受け取ります。 プロファイルと優先言語の編集方法について詳しくは、この[&#x200B; ページ &#x200B;](../../audiences/using/editing-profiles.md)を参照してください。

@@ -72,7 +72,7 @@ Adobe Campaignでプッシュ通知をカスタマイズした後、モバイル
 
 >[!NOTE]
 >
->アプリケーションがObjective-Cの場合は、次の[ ドキュメント ](https://experienceleague.adobe.com/docs/mobile-services/ios/messaging-ios/push-messaging/c-set-up-rich-push-notif-ios.html)を参照してください。
+>アプリケーションがObjective-Cの場合は、次の[&#x200B; ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/mobile-services/ios/messaging-ios/push-messaging/c-set-up-rich-push-notif-ios.html)を参照してください。
 
 アプリが[!DNL Swift]にある場合は、次の手順に従います。
 
@@ -171,6 +171,6 @@ userInfo: [AnyHashable("media-attachment-url"): https://pbs.twimg.com/profile_im
 
 ## 手順4：プッシュの送信をテストする {#test-send-push}
 
-これで、上記の手順2で作成したアプリケーションと配信の構築をテストできます。 プッシュ通知の準備と送信について詳しくは、この[ ページ ](../../channels/using/preparing-and-sending-a-push-notification.md)を参照してください。
+これで、上記の手順2で作成したアプリケーションと配信の構築をテストできます。 プッシュ通知の準備と送信について詳しくは、この[&#x200B; ページ &#x200B;](../../channels/using/preparing-and-sending-a-push-notification.md)を参照してください。
 
 ![](assets/push_notif_advanced_34.png)

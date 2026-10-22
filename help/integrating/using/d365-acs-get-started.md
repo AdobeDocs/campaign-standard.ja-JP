@@ -65,7 +65,7 @@ Adobe Campaign StandardとMicrosoft Dynamics 365の連携により、CRM シス�
 
 逆に、Adobe Campaign Standard内のプロファイルがメッセージを操作すると、それらのデータ（送信、開封、クリック、バウンスなど）は自動的にMicrosoft Dynamics 365に流れ込み、連絡先記録とマーケティング活動の両方を維持できます。
 
-統合では、Dynamics 365の[ カスタムエンティティ ](../../integrating/using/d365-acs-self-service-app-settings.md)を、Campaignの対応する&#x200B;**カスタムリソース**&#x200B;に同期することもサポートしています。
+統合では、Dynamics 365の[&#x200B; カスタムエンティティ &#x200B;](../../integrating/using/d365-acs-self-service-app-settings.md)を、Campaignの対応する&#x200B;**カスタムリソース**&#x200B;に同期することもサポートしています。
 
 この統合は、次の4つの主要なユースケースをサポートするように設計されています。
 
@@ -98,7 +98,7 @@ Adobe Campaign StandardとMicrosoft Dynamics 365の連携により、CRM シス�
 フローチャートの詳細（上記の手順にマップ）:
 
 * **手順1** – お客様は、セールスおよびAdobe Campaign Standard向けMicrosoft Dynamics 365のライセンスを既に保有しているか、現在購入中であると見なされます。
-* **手順2** – 標準の統合機能は、すべてのお客様が無料で利用できます。ただし、必要に応じて追加コストが適用される場合があります。 [ ベストプラクティスと制限事項](../../integrating/using/d365-acs-notices-and-recommendations.md)について詳しく説明します。 元のSOに含まれていない場合、統合を利用するには、新しい販売注文（SO）に署名する必要があります。
+* **手順2** – 標準の統合機能は、すべてのお客様が無料で利用できます。ただし、必要に応じて追加コストが適用される場合があります。 [&#x200B; ベストプラクティスと制限事項](../../integrating/using/d365-acs-notices-and-recommendations.md)について詳しく説明します。 元のSOに含まれていない場合、統合を利用するには、新しい販売注文（SO）に署名する必要があります。
 * **手順3** - Dynamics 365とCampaignの事前統合手順を完了します。 [この統合の設定](#configure-this-integration)を参照してください。
 * **手順4** - Adobe オンボーディングチームから、統合アプリケーションユーザーインターフェイス （UI）へのアクセス権が提供されます。
 * **手順5** - データマッピング、置換、フィルターなどを設定し、統合アプリケーション UI内から統合をテストできます。

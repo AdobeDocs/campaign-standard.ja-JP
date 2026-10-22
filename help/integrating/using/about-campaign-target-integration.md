@@ -44,4 +44,4 @@ Adobe Targetでは、いくつかの種類のデータを使用できます。
 * Adobe Target で訪問者 ID にリンクされたセグメント。ただし、使用されるデータに法的制限がない場合に限ります。
 * Adobe Target データ：ユーザーエージェント、IP アドレス、位置情報データ
 
-Adobe CampaignとAdobe Targetの統合について詳しくは、[Adobe Target ポータル ](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html?lang=ja)を参照することもできます。
+Adobe CampaignとAdobe Targetの統合について詳しくは、[Adobe Target ポータル &#x200B;](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html?lang=ja)を参照することもできます。

@@ -37,7 +37,7 @@ ht-degree: 11%
 
 次の例は、**[!UICONTROL Load file]** アクティビティに続く&#x200B;**[!UICONTROL Update data]** アクティビティの設定を示しています。 このワークフローの目的は、ファイルから復元されたデータを使用して、Adobe Campaign データベースにプロファイルを追加または更新することです。
 
-この例では、使用される紐付けキーは&#x200B;**電子メールアドレス**&#x200B;です。 [ ファイルを読み込む](../../automating/using/load-file.md) アクティビティに読み込まれたファイルは、次のデータ例を含む&#x200B;**.txt**&#x200B;形式のファイルです。
+この例では、使用される紐付けキーは&#x200B;**電子メールアドレス**&#x200B;です。 [&#x200B; ファイルを読み込む](../../automating/using/load-file.md) アクティビティに読み込まれたファイルは、次のデータ例を含む&#x200B;**.txt**&#x200B;形式のファイルです。
 
 ```
 lastname;firstname;email;birthdate
@@ -52,7 +52,7 @@ grimes;daryl;daryl_890@testmail.com;12/06/1979
 tycoon;tyreese;tyreese_t@testmail.net;10/08/1971
 ```
 
-[ データの更新](../../automating/using/update-data.md) アクティビティは、次のように設定されます。
+[&#x200B; データの更新](../../automating/using/update-data.md) アクティビティは、次のように設定されます。
 
 ![](assets/deduplication_example2_writer1.png)
 

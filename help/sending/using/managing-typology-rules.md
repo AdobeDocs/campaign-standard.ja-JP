@@ -47,7 +47,7 @@ ht-degree: 88%
 
 * **疲労**&#x200B;ルール：このタイプのルールを使用すると、プロファイルあたり最大メッセージ数を定義して、メッセージの過剰送信を回避できます。 詳しくは、[この節](../../sending/using/fatigue-rules.md)を参照してください。
 
-* **Control** ルール：このタイプのルールを使用すると、ユーザーはメッセージの有効性と品質（文字表示、SMS メッセージ サイズ、アドレス形式など）を送信前に確認できます。詳しくは、[このセクション ](../../sending/using/control-rules.md)を参照してください。
+* **Control** ルール：このタイプのルールを使用すると、ユーザーはメッセージの有効性と品質（文字表示、SMS メッセージ サイズ、アドレス形式など）を送信前に確認できます。詳しくは、[このセクション &#x200B;](../../sending/using/control-rules.md)を参照してください。
 
 タイポロジルールは、**[!UICONTROL Administration]**／**[!UICONTROL Channels]**／**[!UICONTROL Typologies]**／**[!UICONTROL Typology rules]** メニューから利用できます。
 

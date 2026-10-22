@@ -26,8 +26,8 @@ Campaign Standard APIは、GDPRやCCPAなどのプライバシー規制に関連
 * プライバシーデータファイルを取得し，
 * プロファイルのCCPA オプトアウトステータスを管理します。
 
-プライバシーAPI エンドポイントは&#x200B;**/privacy/privacyTool**&#x200B;です。 PrivacyTool リソースの説明と関連フィルターは、リソースメタデータで使用できます。 [ メタデータメカニズム ](../../api/using/metadata-mechanism.md)を参照してください。
+プライバシーAPI エンドポイントは&#x200B;**/privacy/privacyTool**&#x200B;です。 PrivacyTool リソースの説明と関連フィルターは、リソースメタデータで使用できます。 [&#x200B; メタデータメカニズム &#x200B;](../../api/using/metadata-mechanism.md)を参照してください。
 
 CCPA オプトアウトは、**ccpaOptOut** プロファイル属性を使用して管理されます。
 
-Adobe Campaign Standardとプライバシーのコンプライアンスについて詳しくは、[専用ドキュメント ](../../start/using/privacy-requests.md)を参照してください。
+Adobe Campaign Standardとプライバシーのコンプライアンスについて詳しくは、[専用ドキュメント &#x200B;](../../start/using/privacy-requests.md)を参照してください。

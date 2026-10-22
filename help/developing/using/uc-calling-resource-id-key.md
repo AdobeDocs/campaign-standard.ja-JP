@@ -113,7 +113,7 @@ ht-degree: 6%
 
 識別キーとそのフィルター定義を設定したら、それらを使用して、Campaign標準インターフェイスまたはREST APIからリソースを呼び出すことができます。
 
-インターフェイスからフィルター定義を使用するには、ワークフローで&#x200B;**[!UICONTROL Query]** アクティビティを使用します（[このセクション ](../../automating/using/query.md)を参照）。 その後、左側のペインでフィルターを利用できます。
+インターフェイスからフィルター定義を使用するには、ワークフローで&#x200B;**[!UICONTROL Query]** アクティビティを使用します（[このセクション &#x200B;](../../automating/using/query.md)を参照）。 その後、左側のペインでフィルターを利用できます。
 
 ![](assets/uc_idkey9.png)
 
@@ -132,4 +132,4 @@ GET /profileAndServicesExt/<resourceName>/by<filterName>?<param1_parameter>=<val
 GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byidentification_key?category_parameter=spring&crm_id_parameter=123456
 ```
 
-詳しくは、[Campaign Standard REST API ドキュメント ](../../api/using/filtering.md)を参照してください。
+詳しくは、[Campaign Standard REST API ドキュメント &#x200B;](../../api/using/filtering.md)を参照してください。

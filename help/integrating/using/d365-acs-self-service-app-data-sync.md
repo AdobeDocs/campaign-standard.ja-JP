@@ -115,10 +115,10 @@ Microsoft Dynamics 365からCampaignおよびCampaign マーケティング指�
 次の設定を定義できます。
 
 * **[!UICONTROL Tables]**：このセクションには、Microsoft Dynamics 365 テーブルの名前と、マッピング先のCampaign テーブルが一覧表示されます。
-* **[!UICONTROL Field Mappings]**：詳細については、[このセクション ](#field-mappings)を参照してください
-* **[!UICONTROL Field Replacements]**：詳細については、[このセクション ](#field-replacements)を参照してください
-* **[!UICONTROL Filters]**：詳細については、[このセクション ](#filters)を参照してください
-* **[!UICONTROL Advanced Settings]**：詳細については、[このセクション ](#advanced-settings)を参照してください
+* **[!UICONTROL Field Mappings]**：詳細については、[このセクション &#x200B;](#field-mappings)を参照してください
+* **[!UICONTROL Field Replacements]**：詳細については、[このセクション &#x200B;](#field-replacements)を参照してください
+* **[!UICONTROL Filters]**：詳細については、[このセクション &#x200B;](#filters)を参照してください
+* **[!UICONTROL Advanced Settings]**：詳細については、[このセクション &#x200B;](#advanced-settings)を参照してください
 
 ### フィールドマッピング {#field-mappings}
 
@@ -130,7 +130,7 @@ Microsoft Dynamics 365からCampaignおよびCampaign マーケティング指�
 
 Microsoft Dynamics 365のプライマリキーは、アプリケーションが検出するため、読み取り専用です。
 
-Campaignの場合、一意のキーとなるフィールドを選択する必要があります。 [CRM ID カスタムリソース ](../../developing/using/uc-calling-resource-id-key.md)として設定する必要があり、重複を持たない必要があります。
+Campaignの場合、一意のキーとなるフィールドを選択する必要があります。 [CRM ID カスタムリソース &#x200B;](../../developing/using/uc-calling-resource-id-key.md)として設定する必要があり、重複を持たない必要があります。
 
 >[!NOTE]
 >

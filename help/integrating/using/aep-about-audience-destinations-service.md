@@ -48,9 +48,9 @@ ht-degree: 4%
 * [リアルタイム顧客プロファイルの概要](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja)
 * [セグメント サービスの概要](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html)
 
-セグメントを作成したら、[Campaign Standard ワークフロー](../../integrating/using/aep-targeting-audiences.md)で配信のオーディエンスとしてアクティブ化できます。 さらに、Adobe Experience Platformのコンテキストデータを使用して[ パーソナライズ ](../../integrating/using/aep-personalizing-campaigns.md)し、キャンペーンに動的コンテンツを追加できます。
+セグメントを作成したら、[Campaign Standard ワークフロー](../../integrating/using/aep-targeting-audiences.md)で配信のオーディエンスとしてアクティブ化できます。 さらに、Adobe Experience Platformのコンテキストデータを使用して[&#x200B; パーソナライズ &#x200B;](../../integrating/using/aep-personalizing-campaigns.md)し、キャンペーンに動的コンテンツを追加できます。
 
-![](assets/do-not-localize/how-to-video.png)のハウツー動画は[このセクション ](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html)でも利用できます。
+![](assets/do-not-localize/how-to-video.png)のハウツー動画は[このセクション &#x200B;](https://experienceleague.adobe.com/docs/campaign-learn/campaign-standard-tutorials/profiles-and-audiences/audience-destinations/audience-destinations-overview.html)でも利用できます。
 
 これらのセクションで使用される用語：
 

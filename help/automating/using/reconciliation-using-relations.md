@@ -45,7 +45,7 @@ ht-degree: 86%
 
 ![](assets/reconciliation_example1.png)
 
-* 読み込むファイルのデータを読み込んで検出する[ ファイルを読み込む](../../automating/using/load-file.md) アクティビティ。 インポートされたファイルには、次のデータが含まれています。
+* 読み込むファイルのデータを読み込んで検出する[&#x200B; ファイルを読み込む](../../automating/using/load-file.md) アクティビティ。 インポートされたファイルには、次のデータが含まれています。
 
   * トランザクション日
   * クライアントのメールアドレス
@@ -73,7 +73,7 @@ ht-degree: 86%
 
   ![](assets/reconciliation_example3.png)
 
-* [ データの更新](../../automating/using/update-data.md) アクティビティを使用すると、インポートしたデータを使用して更新するデータベースフィールドを定義できます。 前のアクティビティで **Transactions** ディメンションに属するデータが既に識別されているので、**[!UICONTROL Directly using the targeting dimension]** 識別オプションを使用できます。
+* [&#x200B; データの更新](../../automating/using/update-data.md) アクティビティを使用すると、インポートしたデータを使用して更新するデータベースフィールドを定義できます。 前のアクティビティで **Transactions** ディメンションに属するデータが既に識別されているので、**[!UICONTROL Directly using the targeting dimension]** 識別オプションを使用できます。
 
   更新するフィールドを自動的に検出するオプションを使用すると、前のアクティビティで設定したリンク（プロファイルや商品へのリンク）が **[!UICONTROL Fields to update]** のリストに追加されます。 また、トランザクション日に対応するフィールドがこのリストに正しく追加されていることを確認する必要があります。
 

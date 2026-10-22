@@ -46,8 +46,8 @@ ht-degree: 79%
 
 ![](assets/enrichment_example_workflow.png)
 
-* メッセージを受信するプロファイルをターゲットとする[ クエリ ](../../automating/using/query.md) アクティビティ。
-* 購入データを読み込む[ ファイルを読み込む](../../automating/using/load-file.md) アクティビティ。 例：
+* メッセージを受信するプロファイルをターゲットとする[&#x200B; クエリ &#x200B;](../../automating/using/query.md) アクティビティ。
+* 購入データを読み込む[&#x200B; ファイルを読み込む](../../automating/using/load-file.md) アクティビティ。 例：
 
   ```
   tcode;tdate;customer;product;tamount
@@ -99,11 +99,11 @@ ht-degree: 79%
 
     ![](assets/enrichment_example_workflow9.png)
 
-* 1つのセグメントのみを持つ[ セグメント化](../../automating/using/segmentation.md) アクティビティ。少なくとも2つのトランザクションが記録されている初期ターゲットのプロファイルを取得します。 1 つのトランザクションのみのプロファイルは除外されます。 そのために、セグメント化のクエリは、既に定義されている集計に対して実行されます。
+* 1つのセグメントのみを持つ[&#x200B; セグメント化](../../automating/using/segmentation.md) アクティビティ。少なくとも2つのトランザクションが記録されている初期ターゲットのプロファイルを取得します。 1 つのトランザクションのみのプロファイルは除外されます。 そのために、セグメント化のクエリは、既に定義されている集計に対して実行されます。
 
   ![](assets/enrichment_example_workflow5.png)
 
-* **[!UICONTROL Enrichment]**&#x200B;で定義された追加データを使用して、プロファイルによって行われた2つの最後の購入を動的に取得する[ メール配信](../../automating/using/email-delivery.md) アクティビティ。 追加データは、パーソナライゼーションフィールドを追加する際に「**Additional data (TargetData)**」ノードに表示されます。
+* **[!UICONTROL Enrichment]**&#x200B;で定義された追加データを使用して、プロファイルによって行われた2つの最後の購入を動的に取得する[&#x200B; メール配信](../../automating/using/email-delivery.md) アクティビティ。 追加データは、パーソナライゼーションフィールドを追加する際に「**Additional data (TargetData)**」ノードに表示されます。
 
   ![](assets/enrichment_example_workflow10.png)
 

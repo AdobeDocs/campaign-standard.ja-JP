@@ -112,7 +112,7 @@ Adobe Campaign StandardとMicrosoft Dynamics 365のセルフサービス連携�
 
 ## 初期設定の確認 {#self-service-app-initial-config}
 
-上記の前提条件を完了し、すべての資格情報を正しく追加したと仮定して、**[!UICONTROL Workflows]** ページに移動します。 統合アプリのワークフローについて詳しくは、[このページ ](../../integrating/using/d365-acs-self-service-app-workflows.md)を参照してください。
+上記の前提条件を完了し、すべての資格情報を正しく追加したと仮定して、**[!UICONTROL Workflows]** ページに移動します。 統合アプリのワークフローについて詳しくは、[このページ &#x200B;](../../integrating/using/d365-acs-self-service-app-workflows.md)を参照してください。
 
 **[!UICONTROL Workflows]** ページで、**[!UICONTROL Microsoft Dynamics 365 to Campaign]** ワークフローに関連付けられている鉛筆アイコンをクリックして、その設定を編集します。
 

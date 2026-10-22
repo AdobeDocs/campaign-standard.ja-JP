@@ -105,7 +105,7 @@ ht-degree: 9%
 
 * Creative Designer インターフェイスを使用してコンテンツブロックを選択すると、リストのすべてのコンテンツブロックが読み込まれ、表示されるようになりました。 （CAMP-27311）
 
-  詳しくは、[詳細ドキュメント ](../../designing/using/personalization.md#adding-a-content-block)を参照してください。
+  詳しくは、[詳細ドキュメント &#x200B;](../../designing/using/personalization.md#adding-a-content-block)を参照してください。
 
 **パッチ**
 
@@ -173,8 +173,8 @@ ht-degree: 9%
 **その他の変更**
 
 * タイムアウトエラーを回避するために、レポート共有のタイムアウト時間が1分から4分に増加しました。
-* メールの内容を編集すると、新しいCreative Designerがデフォルトで開きます。 必要に応じて、変更を保存した後も、いつでもデフォルトのコンテンツエディターに戻すことができます。 詳しくは、[詳細ドキュメント ](../../designing/using/designing-content-in-adobe-campaign.md)を参照してください。
-* Creative Designerでは、新しいコンテンツコンポーネントをメールに追加できるようになりました。カルーセルです。 詳しくは、[詳細ドキュメント ](../../designing/using/designing-from-scratch.md#about-content-components)を参照してください。
+* メールの内容を編集すると、新しいCreative Designerがデフォルトで開きます。 必要に応じて、変更を保存した後も、いつでもデフォルトのコンテンツエディターに戻すことができます。 詳しくは、[詳細ドキュメント &#x200B;](../../designing/using/designing-content-in-adobe-campaign.md)を参照してください。
+* Creative Designerでは、新しいコンテンツコンポーネントをメールに追加できるようになりました。カルーセルです。 詳しくは、[詳細ドキュメント &#x200B;](../../designing/using/designing-from-scratch.md#about-content-components)を参照してください。
 * トランザクションメッセージのホットクリックレポートで、「**プロファイルを変更**」ボタンをクリックすると、トランザクションメッセージ用に定義したイベントにリンクされたテストプロファイルのみが一覧表示されるようになりました。
 
 **パッチ**
@@ -197,7 +197,7 @@ ht-degree: 9%
 
 **改善点**
 
-* **[!UICONTROL History]** APIがAdobe.IOに追加されました。 プロファイルのマーケティング履歴に関連する情報（タッチポイント数、送信された配信、ミラーページのURLなど）にアクセスできます。詳しくは、[専用ユースケース ](../../api/using/interacting-with-marketing-history.md)を参照してください。
+* **[!UICONTROL History]** APIがAdobe.IOに追加されました。 プロファイルのマーケティング履歴に関連する情報（タッチポイント数、送信された配信、ミラーページのURLなど）にアクセスできます。詳しくは、[専用ユースケース &#x200B;](../../api/using/interacting-with-marketing-history.md)を参照してください。
 * データベース バックアップのパフォーマンスを向上させるために、**[!UICONTROL Database cleanup]**&#x200B;のテクニカル ワークフローが最適化されました。
 * Creative Designer メール版は、フランス語とドイツ語でも利用できるようになりました。
 
@@ -207,7 +207,7 @@ ht-degree: 9%
 * **配信品質の更新**&#x200B;すぐに使用できるテクニカルワークフローで、機能管理者が&#x200B;**ルールの更新** JavaScript アクティビティで無視する連続エラーの数を定義できるようになりました。 デフォルトでは、フィールド値は0に設定されています。つまり、すべてのエラーが無視されます。
 * 単位アクセス制限条件の管理時に生成されるSQLが最適化されました。
 * **[!UICONTROL Update]** アクティビティで、サブスクリプションに関連するデータを追加、更新または削除できるようになりました（nms:appSubscriptionRcp テーブル）。
-* パフォーマンスを最適化するために、**[!UICONTROL Update delivery execution]**&#x200B;のテクニカルワークフローが2つのワークフローに分割されました：- **[!UICONTROL Update delivery execution]**：配信のトラッキングを更新します。 デフォルトでは、10分ごとに開始されます。 **[!UICONTROL Update delivery indicators]**：配信のKPIを更新します。デフォルトでは、1時間ごとに開始されます。 技術的なワークフローについて詳しくは、この[ セクション ](../../administration/using/technical-workflows.md#list-of-technical-workflows)を参照してください。
+* パフォーマンスを最適化するために、**[!UICONTROL Update delivery execution]**&#x200B;のテクニカルワークフローが2つのワークフローに分割されました：- **[!UICONTROL Update delivery execution]**：配信のトラッキングを更新します。 デフォルトでは、10分ごとに開始されます。 **[!UICONTROL Update delivery indicators]**：配信のKPIを更新します。デフォルトでは、1時間ごとに開始されます。 技術的なワークフローについて詳しくは、この[&#x200B; セクション &#x200B;](../../administration/using/technical-workflows.md#list-of-technical-workflows)を参照してください。
 * 配信がメッセージを送信している場合、**[!UICONTROL Deployment]** セクションのステータスに2つの値を指定できるようになりました：**[!UICONTROL Sending]**: メッセージを送信しています。 **[!UICONTROL Sending (retry)]**：再試行パスが進行中です。
 * **[!UICONTROL Delivery preparation]**&#x200B;の役割を持つユーザーは、プルーフを送信できるようになりました。 （CAMP-24313）
 * **SMPP経由でTLSを有効にする** オプションが、SMPP **外部アカウント経由の** SMS ルーティングに追加されました。 詳しくは、この[節](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing)を参照してください。
@@ -357,7 +357,7 @@ _カスタムリソース_
      <li> メールコンテンツテンプレートの作成と保存、保存したテンプレートの活用により、メール作成の規模を拡大 </li> 
      <li> コンテンツフラグメント（ヘッダー、フッター、記事など）の作成と保存 コンテンツ制作を合理化し、ブランドの一貫性を確保できます </li> 
      <li> ドラッグ&amp;ドロップ操作によるHTMLへの直接対応と、ボタンをクリックするだけで電子メールを直接編集できる機能をシームレスに切り替えることができます </li> 
-    </ul> Creative Designer メール版は、英語でのみ利用できます。<br /> 詳細については、<a href="../../designing/using/designing-content-in-adobe-campaign.md">詳細ドキュメント </a>を参照し、この<a href="https://www.youtube.com/watch?time_continue=1&amp;v=5S_6A4fsfms"> ビデオ </a>をご覧ください。<br /> </td> 
+    </ul> Creative Designer メール版は、英語でのみ利用できます。<br /> 詳細については、<a href="../../designing/using/designing-content-in-adobe-campaign.md">詳細ドキュメント </a>を参照し、この<a href="https://www.youtube.com/watch?time_continue=1&v=5S_6A4fsfms"> ビデオ </a>をご覧ください。<br /> </td> 
   </tr> 
   <tr> 
    <td> 多言語プッシュ配信<br /> </td> 
@@ -453,7 +453,7 @@ _電子メール、SMS メッセージ、ダイレクトメール_
 
 * パフォーマンスを向上させるために、配信準備フェーズが強化されました。
 * ニッチな状況でトラッキングログが破損する可能性があるいくつかの問題を修正しました。
-* 配信の準備と確認の間に連絡先日が変更されたときに発生した連絡先日の更新の問題を修正しました。 現在、準備後に連絡日を変更する場合は、送信を確認する前に、配信を再度準備する必要があります。 [詳細ドキュメント ](../../sending/using/preparing-the-send.md)を参照してください。
+* 配信の準備と確認の間に連絡先日が変更されたときに発生した連絡先日の更新の問題を修正しました。 現在、準備後に連絡日を変更する場合は、送信を確認する前に、配信を再度準備する必要があります。 [詳細ドキュメント &#x200B;](../../sending/using/preparing-the-send.md)を参照してください。
 
 _プッシュ通知_
 

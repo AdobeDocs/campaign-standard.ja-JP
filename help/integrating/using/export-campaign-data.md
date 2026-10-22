@@ -63,7 +63,7 @@ Campaign StandardからS3またはAzure Blob ストレージの場所にデー�
 
 ![](assets/aep-export.png)
 
-データ管理ワークフローの例については、[ ワークフローのユースケース ](../../automating/using/about-workflow-use-cases.md#management)の節を参照してください。
+データ管理ワークフローの例については、[&#x200B; ワークフローのユースケース &#x200B;](../../automating/using/about-workflow-use-cases.md#management)の節を参照してください。
 
 関連トピック ：
 

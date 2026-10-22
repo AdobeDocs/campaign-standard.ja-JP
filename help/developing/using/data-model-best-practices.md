@@ -58,7 +58,7 @@ ht-degree: 52%
 >
 >Adobe Campaignの事前定義済みデータモデルを拡張するためにリソースを作成および変更するには、[この節](../../developing/using/key-steps-to-add-a-resource.md)を参照してください。
 >
->組み込みリソースのデータモデル表現は、[このページ ](../../developing/using/datamodel-introduction.md)にあります。
+>組み込みリソースのデータモデル表現は、[このページ &#x200B;](../../developing/using/datamodel-introduction.md)にあります。
 
 ## 概要 {#overview}
 
@@ -78,7 +78,7 @@ Adobe Campaign Standardは、オンラインとオフラインの戦略を連携
 
 ![](assets/customer-centric-data-model.png)
 
-Adobe Campaignのデフォルトのデータモデルは、この[ セクション ](../../developing/using/datamodel-introduction.md)に記載されています。
+Adobe Campaignのデフォルトのデータモデルは、この[&#x200B; セクション &#x200B;](../../developing/using/datamodel-introduction.md)に記載されています。
 
 <!--You can find a datamodel representation for the out-of-the-box resources [here](../../developing/using/datamodel-introduction.md).-->
 
@@ -116,7 +116,7 @@ Adobe Campaignで属性が必要かどうかを判断するには、属性が次
 
 ## データ構造の設定 {#configuring-data-structure}
 
-この節では、[ リソースのデータ構造を設定する](../../developing/using/configuring-the-resource-s-data-structure.md)際のベストプラクティスについて説明します。
+この節では、[&#x200B; リソースのデータ構造を設定する](../../developing/using/configuring-the-resource-s-data-structure.md)際のベストプラクティスについて説明します。
 
 ### 識別子 {#identifiers}
 
@@ -130,7 +130,7 @@ Adobe Campaign リソースには 3 つの識別情報があり、別の識別�
 
 | 表示名 | 技術名 | 説明 | ベストプラクティス |
 |--- |--- |--- |--- |
-|  | PKey | <ul><li>PKeyは、Adobe Campaign テーブルの物理プライマリキーです。</li><li>このIDは通常、特定のAdobe Campaign インスタンスに固有です。</li><li>Adobe Campaign Standardでは、この値はエンドユーザーには表示されません（URLを除く）。</li></ul> | <ul><li>[API システム ](../../api/using/get-started-apis.md)を介して、PKey値（物理キーではなく、生成/ハッシュ値）を取得できます。</li><li>API経由でレコードを取得、更新、または削除する以外の目的では使用しないことをお勧めします。</li></ul> |
+|  | PKey | <ul><li>PKeyは、Adobe Campaign テーブルの物理プライマリキーです。</li><li>このIDは通常、特定のAdobe Campaign インスタンスに固有です。</li><li>Adobe Campaign Standardでは、この値はエンドユーザーには表示されません（URLを除く）。</li></ul> | <ul><li>[API システム &#x200B;](../../api/using/get-started-apis.md)を介して、PKey値（物理キーではなく、生成/ハッシュ値）を取得できます。</li><li>API経由でレコードを取得、更新、または削除する以外の目的では使用しないことをお勧めします。</li></ul> |
 | ID | nameまたはinternalName | <ul><li>この情報は、テーブル内のレコードの一意の識別子です。 この値は手動で更新できます。</li><li>このIDは、Adobe Campaignの別のインスタンスにデプロイされた場合、その値を保持します。 パッケージを介して書き出すには、生成された値とは異なる名前が必要です。</li><li>これはテーブルの実際のプライマリキーではありません。</li></ul> | <ul><li>スペース「」、半列「:」、ハイフン「 – 」などの特殊文字は使用しないでください。</li><li>これらの文字はすべて、アンダースコア「_」（許可されている文字）に置き換えられます。 例えば、「abc-def」と「abc:def」は「abc_def」として保存され、互いに上書きされます。</li></ul> |
 | ラベル | ラベル | <ul><li>ラベルは、Adobe Campaign 内のオブジェクトまたはレコードのビジネス識別子です。</li><li>このオブジェクトでは、スペースと特殊文字も使用できます。</li><li>レコードの一意性は保証されません。</li></ul> | <ul><li>オブジェクトラベルの構造を決定することをお勧めします。</li><li>これは、Adobe Campaign ユーザーにとって、レコードまたはオブジェクトを識別するための最も使いやすい解決策です。</li></ul> |
 | ACS ID | acsId | <ul><li>追加の識別子を生成できます：[ACS ID](../../developing/using/configuring-the-resource-s-data-structure.md#generating-a-unique-id-for-profiles-and-custom-resources)。</li><li>Adobe CampaignのユーザーインターフェイスではPKeyを使用できないので、プロファイルレコードの挿入時に生成される一意の値を取得するソリューションです。</li><li>この値は、レコードがAdobe Campaignに挿入される前にリソースでオプションが有効になっている場合にのみ、自動生成できます。</li></ul> | <ul><li>このUUIDは、紐付けキーとして使用できます。</li><li>自動生成されたACS IDは、ワークフローまたはパッケージ定義の参照として使用できません。</li><li>この値は、Adobe Campaign インスタンスに固有です。</li></ul> |
@@ -158,7 +158,7 @@ When an out-of-the-box resource has both an internal auto-generated and an inter
 
 ### 索引 {#indexes}
 
-Adobe Campaignは、リソースで定義されているすべてのプライマリキーと内部キーに[ インデックス ](../../developing/using/configuring-the-resource-s-data-structure.md#defining-indexes)を自動的に追加します。
+Adobe Campaignは、リソースで定義されているすべてのプライマリキーと内部キーに[&#x200B; インデックス &#x200B;](../../developing/using/configuring-the-resource-s-data-structure.md#defining-indexes)を自動的に追加します。
 
 * Adobeでは、パフォーマンスが向上する可能性があるため、追加のインデックスを定義することをお勧めします。
 * ただし、データベース上のスペースを使用するので、インデックスを追加しすぎないようにしてください。 数多くのインデックスは、パフォーマンスに悪影響を与える可能性があります。

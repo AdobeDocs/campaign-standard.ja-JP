@@ -75,7 +75,7 @@ Adobe Campaign で複数のブランドを管理する場合は、ブランド�
 
 **ヒント** – 受信者のエクスペリエンスをさらに向上させるために、「MegastoreのEmma」など、人物の名前を追加できます。
 
-送信者名のパーソナライズについて詳しくは、[ メール送信者](../../designing/using/subject-line.md#email-sender)を参照してください。
+送信者名のパーソナライズについて詳しくは、[&#x200B; メール送信者](../../designing/using/subject-line.md#email-sender)を参照してください。
 
 ## SMS送信者名のパーソナライズ
 
@@ -109,6 +109,6 @@ Adobe Campaignでのブランドの使用と設定について詳しくは、ブ
 
 ![](assets/template-brand.png)
 
-ブランドをテンプレートにリンクする方法について詳しくは、[ ブランドをメールに割り当て](../../administration/using/branding.md#assigning-a-brand-to-an-email)を参照してください。
+ブランドをテンプレートにリンクする方法について詳しくは、[&#x200B; ブランドをメールに割り当て](../../administration/using/branding.md#assigning-a-brand-to-an-email)を参照してください。
 
 ブランド [を作成して設定する方法については、この節](../../administration/using/branding.md#creating-a-brand)を参照してください。

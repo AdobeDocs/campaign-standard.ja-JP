@@ -53,7 +53,7 @@ Adobe Experience Platform Data Connectorは、Adobe Campaign Standardのカス�
 >
 >これは、APIまたはAdobe Experience Platformインターフェイスを通じて実行できます。 詳しくは、専用のドキュメントを参照してください。
 >
->* [ リアルタイム顧客プロファイルのデータセットを有効にする](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/datasets/dataset.html)
+>* [&#x200B; リアルタイム顧客プロファイルのデータセットを有効にする](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/datasets/dataset.html)
 >* [APIを使用したリアルタイム顧客プロファイルおよびID サービスのデータセットの設定](https://experienceleague.adobe.com/docs/experience-platform/catalog/api/getting-started.html)
 
 ## 主な概念 {#key-concepts}
@@ -74,7 +74,7 @@ Adobe Experience Platform Data Connectorは、Adobe Campaign Standardのカス�
 
 * Experience Cloud ID サービス（ECID）は、Experience Eventsでデフォルトで送信されるデバイス IDです。
 
-  これは、訪問者に割り当てられた一意の永続的なIDで、Platform ID サービスが同じ訪問者と異なるExperience Cloud ソリューション内のデータを識別するために使用できます。 詳しくは、[Experience Cloud Identity Service ヘルプ ](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)を参照してください。
+  これは、訪問者に割り当てられた一意の永続的なIDで、Platform ID サービスが同じ訪問者と異なるExperience Cloud ソリューション内のデータを識別するために使用できます。 詳しくは、[Experience Cloud Identity Service ヘルプ &#x200B;](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=ja)を参照してください。
 
   >[!NOTE]
   >
@@ -84,7 +84,7 @@ Adobe Experience Platform Data Connectorは、Adobe Campaign Standardのカス�
 
 * サブスクリプションイベントのすぐに使用できる転送はサポートされていません。 サブスクリプションイベントを転送するには、Adobe Experience Platformで対応するXDMとデータセットを作成し、これらのデータにカスタムデータマッピングを設定します。
 
-* プライバシーリクエスト（アクセスと削除の両方のアクション）について、お客様は[Privacy Core Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html#how-to-use-privacy-service-to-manage-privacy-job-requests)を介して個別のリクエストを配置する必要があります。Campaign用とAdobe Experience Platform用です。 詳しくは、「[ プライバシーリクエストについて](https://helpx.adobe.com/jp/campaign/kb/acs-privacy.html#righttoaccess)および[Campaignでのプライバシーリクエストの管理](https://helpx.adobe.com/jp/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)」を参照してください。
+* プライバシーリクエスト（アクセスと削除の両方のアクション）について、お客様は[Privacy Core Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html#how-to-use-privacy-service-to-manage-privacy-job-requests)を介して個別のリクエストを配置する必要があります。Campaign用とAdobe Experience Platform用です。 詳しくは、「[&#x200B; プライバシーリクエストについて](https://helpx.adobe.com/jp/campaign/kb/acs-privacy.html#righttoaccess)および[Campaignでのプライバシーリクエストの管理](https://helpx.adobe.com/jp/campaign/kb/acs-privacy.html#ManagingPrivacyRequests)」を参照してください。
 
 * XDM フィールドごとに、DULE ラベル付けをAdobe Experience Platformで行う必要があります。 DULE ラベルを適用するのはお客様の責任です。
 

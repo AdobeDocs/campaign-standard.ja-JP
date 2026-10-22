@@ -143,7 +143,7 @@ Adobe Campaign を使用すると、あらゆる種類のワークフローを�
 
 ## パラメーターを使用した呼び出しワークフロー{#workflow-with-parameters}
 
-パラメーターの名前と数が、ワークフローの呼び出し時に定義されるものと同じであることを確認します（[このページ ](../../automating/using/defining-parameters-calling-workflow.md)を参照）。 また、パラメーターのタイプは、想定される値と一致する必要があります。
+パラメーターの名前と数が、ワークフローの呼び出し時に定義されるものと同じであることを確認します（[このページ &#x200B;](../../automating/using/defining-parameters-calling-workflow.md)を参照）。 また、パラメーターのタイプは、想定される値と一致する必要があります。
 
 **[!UICONTROL External signal activity]**&#x200B;内ですべてのパラメーターが宣言されていることを確認します。 それ以外の場合は、アクティビティの実行時にエラーが発生します。
 
@@ -156,7 +156,7 @@ Adobe Campaign を使用すると、あらゆる種類のワークフローを�
 
 ## リストのエクスポート{#exporting-lists}
 
-リストエクスポートオプションを使用すると、デフォルトで 100,000 行までエクスポートでき、**Nms_ExportListLimit オプション**&#x200B;で定義できます。 このオプションは、機能管理者により&#x200B;**[!UICONTROL Administration]**／**[!UICONTROL Application settings]**／**[!UICONTROL Options]**で管理できます。
+リストエクスポートオプションを使用すると、デフォルトで 100,000 行までエクスポートでき、**Nms_ExportListLimit オプション**&#x200B;で定義できます。 このオプションは、機能管理者により&#x200B;**[!UICONTROL Administration]**／**[!UICONTROL Application settings]**／**[!UICONTROL Options]**&#x200B;で管理できます。
 詳しくは、[リストのエクスポート](../../automating/using/exporting-lists.md)を参照してください。
 
 ## トラブルシューティング{#workflow-troubleshooting}

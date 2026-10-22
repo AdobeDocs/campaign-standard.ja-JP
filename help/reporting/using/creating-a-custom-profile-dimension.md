@@ -158,11 +158,11 @@ ht-degree: 8%
    ![](assets/custom_profile_17.png)
 
 1. **[!UICONTROL Confirm]**&#x200B;をクリックし、フィルタリングが完了したら、**[!UICONTROL Next]**&#x200B;をクリックします。
-1. メッセージのコンテンツ、送信者の名前、件名を定義し、パーソナライズできます。 メール作成について詳しくは、この[ ページ ](../../designing/using/designing-content-in-adobe-campaign.md)を参照してください。
+1. メッセージのコンテンツ、送信者の名前、件名を定義し、パーソナライズできます。 メール作成について詳しくは、この[&#x200B; ページ &#x200B;](../../designing/using/designing-content-in-adobe-campaign.md)を参照してください。
 
    次に、**[!UICONTROL Create]**&#x200B;をクリックします。
 
-1. 準備ができたら、メッセージをプレビューして送信できます。 メッセージの準備と送信方法について詳しくは、この[ ページ ](../../sending/using/preparing-the-send.md)を参照してください。
+1. 準備ができたら、メッセージをプレビューして送信できます。 メッセージの準備と送信方法について詳しくは、この[&#x200B; ページ &#x200B;](../../sending/using/preparing-the-send.md)を参照してください。
 
 選択した受信者に電子メールが正しく送信されたら、データのフィルタリングを開始し、レポートを使用して配信の成功を追跡できます。
 

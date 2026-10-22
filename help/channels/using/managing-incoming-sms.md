@@ -45,7 +45,7 @@ ht-degree: 3%
 
 Campaignを介して送信されたSMS メッセージに対してプロファイルが返信する場合、自動的に返信されるメッセージと、実行するアクションを設定できます。
 
-この設定は、[SMS ルーティング外部アカウント ](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing)の&#x200B;**[!UICONTROL Automatic reply sent to the MO]** セクションで定義されています。 MOは「Mobile Originated」を表します。つまり、SMSを送信したモバイルに自動返信を設定できます。
+この設定は、[SMS ルーティング外部アカウント &#x200B;](../../administration/using/configuring-sms-channel.md#defining-an-sms-routing)の&#x200B;**[!UICONTROL Automatic reply sent to the MO]** セクションで定義されています。 MOは「Mobile Originated」を表します。つまり、SMSを送信したモバイルに自動返信を設定できます。
 
 それには、次の手順に従います。
 
@@ -86,11 +86,11 @@ Campaignを介して送信されたSMS メッセージに対してプロファ�
 
 1. 「**[!UICONTROL Save]**」をクリックします。
 
-1. SMS配信&#x200B;**[!UICONTROL Properties]**&#x200B;の&#x200B;**[!UICONTROL Advanced parameters]**&#x200B;から、オプトアウトした受信者を自動的に除外するように、特定の&#x200B;**[!UICONTROL Short code]**&#x200B;を設定できます。 詳しくは、[このセクション ](../../administration/using/configuring-sms-channel.md#configuring-sms-properties)を参照してください。
+1. SMS配信&#x200B;**[!UICONTROL Properties]**&#x200B;の&#x200B;**[!UICONTROL Advanced parameters]**&#x200B;から、オプトアウトした受信者を自動的に除外するように、特定の&#x200B;**[!UICONTROL Short code]**&#x200B;を設定できます。 詳しくは、[このセクション &#x200B;](../../administration/using/configuring-sms-channel.md#configuring-sms-properties)を参照してください。
 
-受信者は、メッセージの購読を自動的に解除し、この自動返信を使用して強制隔離に送信できるようになります。 強制隔離された受信者は、**[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Quarantines]** メニューを通じて利用できる&#x200B;**[!UICONTROL Addresses]** テーブルに一覧表示されます。 強制隔離について詳しくは、この[ セクション ](../../sending/using/understanding-quarantine-management.md)を参照してください。
+受信者は、メッセージの購読を自動的に解除し、この自動返信を使用して強制隔離に送信できるようになります。 強制隔離された受信者は、**[!UICONTROL Administration]** > **[!UICONTROL Channels]** > **[!UICONTROL Quarantines]** メニューを通じて利用できる&#x200B;**[!UICONTROL Addresses]** テーブルに一覧表示されます。 強制隔離について詳しくは、この[&#x200B; セクション &#x200B;](../../sending/using/understanding-quarantine-management.md)を参照してください。
 
-これらの受信SMSは、必要に応じて保存できます。 詳しくは、この[ セクション ](#storing-incoming-sms)を参照してください。
+これらの受信SMSは、必要に応じて保存できます。 詳しくは、この[&#x200B; セクション &#x200B;](#storing-incoming-sms)を参照してください。
 
 ## 受信SMSの保存 {#storing-incoming-sms}
 
@@ -111,7 +111,7 @@ Campaignを介して送信されたSMS メッセージに対してプロファ�
    ![](assets/sms_config_mo_3.png)
 
 1. ワークフロータイプを選択します。
-1. ワークフローのプロパティを編集し、**[!UICONTROL Create]**&#x200B;をクリックします。 ワークフローの作成について詳しくは、この[ セクション ](../../automating/using/building-a-workflow.md)を参照してください。
+1. ワークフローのプロパティを編集し、**[!UICONTROL Create]**&#x200B;をクリックします。 ワークフローの作成について詳しくは、この[&#x200B; セクション &#x200B;](../../automating/using/building-a-workflow.md)を参照してください。
 1. **[!UICONTROL Query]** アクティビティをドラッグ&amp;ドロップし、アクティビティをダブルクリックします。
 1. クエリの「**[!UICONTROL Properties]**」タブで、**[!UICONTROL Resource]** フィールドの「**[!UICONTROL Incoming SMS (inSMS)]**」を選択します。
 

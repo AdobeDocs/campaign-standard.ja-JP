@@ -41,7 +41,7 @@ ht-degree: 7%
 
 Adobe Campaignでは、後で使用するためにリストをファイルに直接書き出すことができます。 ファイル内のリストを書き出すと、**[!UICONTROL Export audits]** メニューにログエントリが生成されます。 エクスポートの監査について詳しくは、[エクスポートの監査](../../administration/using/auditing-export-logs.md)の節を参照してください。
 
-![](assets/do-not-localize/how-to-video.png) [ ビデオでリストを設定する方法を確認](#video)
+![](assets/do-not-localize/how-to-video.png) [&#x200B; ビデオでリストを設定する方法を確認](#video)
 
 リストの書き出しオプションを使用すると、デフォルトで最大100,000行を書き出し、**Nms_ExportListLimit** オプションで定義できます。 このオプションは、**[!UICONTROL Administration]** > **[!UICONTROL Application settings]** > **[!UICONTROL Options]** メニューで機能管理者が管理できます。
 
@@ -66,7 +66,7 @@ Adobe Campaignでは、後で使用するためにリストをファイルに直
 
 数値と日付は、書き出しを実行するユーザーの現地時間（ロケール）を考慮します。 例：DD-MM-YYYYまたはMM-DD-YYYY
 
-これより大きい書き出しを実行するには、専用のワークフローを作成する必要があります。 「[ ファイルを抽出](../../automating/using/extract-file.md)」セクションを参照してください。
+これより大きい書き出しを実行するには、専用のワークフローを作成する必要があります。 「[&#x200B; ファイルを抽出](../../automating/using/extract-file.md)」セクションを参照してください。
 
 **例**
 

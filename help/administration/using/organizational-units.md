@@ -56,13 +56,13 @@ ht-degree: 6%
 
 >[!NOTE]
 >
->ユーザーが異なるユニットにリンクされた複数のグループに属している場合、特定のルールが適用されます。 詳しくは、「[ グループとユーザーの管理](../../administration/using/managing-groups-and-users.md)」の節を参照してください。
+>ユーザーが異なるユニットにリンクされた複数のグループに属している場合、特定のルールが適用されます。 詳しくは、「[&#x200B; グループとユーザーの管理](../../administration/using/managing-groups-and-users.md)」の節を参照してください。
 
 ## ユニットの作成と管理 {#creating-and-managing-units}
 
 組織単位を使用すると、ユーザーがリンクされている組織に応じてインスタンスをフィルタリングできます。 このユニットは、インスタンス内の地域、国、さらにはブランドを表すことができます。
 
-ここでは、2つのユーザーに異なる役割を持つセキュリティグループを以前に作成しました。1人のユーザーにセキュリティグループ管理者とGeometrixxが割り当てられ、もう1人のユーザーにセキュリティグループ標準ユーザーとGeometrixx服が割り当てられています。完全な例については、[ セキュリティグループの作成とユーザーの割り当て](../../administration/using/managing-groups-and-users.md#creating-a-security-group-and-assigning-users)を参照してください。
+ここでは、2つのユーザーに異なる役割を持つセキュリティグループを以前に作成しました。1人のユーザーにセキュリティグループ管理者とGeometrixxが割り当てられ、もう1人のユーザーにセキュリティグループ標準ユーザーとGeometrixx服が割り当てられています。完全な例については、[&#x200B; セキュリティグループの作成とユーザーの割り当て](../../administration/using/managing-groups-and-users.md#creating-a-security-group-and-assigning-users)を参照してください。
 
 次に、Geometrixxの衣類とGeometrixxのセキュリティグループの組織部門を作る必要がある。
 
@@ -124,7 +124,7 @@ Geometrixx組織単位のプロファイルは読み取り専用ですが、ユ�
 デフォルトでは、組織単位フィールドはプロファイルで使用できないので、追加する必要があります。
 
 1. 詳細設定メニューから、Adobe Campaign ロゴを使用して、**管理/開発/カスタムリソース**&#x200B;を選択します。
-1. **プロファイル**&#x200B;を選択するか、新しいカスタムリソースを作成してプロファイルを拡張します。 プロファイルの拡張方法について詳しくは、この[ ページ ](../../developing/using/extending-the-profile-resource-with-a-new-field.md#step-1--extend-the-profile-resource)を参照してください。
+1. **プロファイル**&#x200B;を選択するか、新しいカスタムリソースを作成してプロファイルを拡張します。 プロファイルの拡張方法について詳しくは、この[&#x200B; ページ &#x200B;](../../developing/using/extending-the-profile-resource-with-a-new-field.md#step-1--extend-the-profile-resource)を参照してください。
 1. 「**アクセス承認管理フィールドを追加**」ボックスをオンにして、**プロファイル**&#x200B;拡張機能に組織単位を追加します。
 
    ![](assets/user_management_9.png)

@@ -41,7 +41,7 @@ ht-degree: 85%
 
 >[!NOTE]
 >
->Adobe Campaign Classicの&#x200B;**SMS コネクタプロトコルと設定**&#x200B;は、この[ ページ ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol.html)にあります。
+>Adobe Campaign Classicの&#x200B;**SMS コネクタプロトコルと設定**&#x200B;は、この[&#x200B; ページ &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol.html)にあります。
 >
 >このドキュメントでは、プロトコル、フィールド名とフィールド値の詳細については、すべて [SMPP 3.4 仕様](https://smpp.org/SMPP_v3_4_Issue1_2.pdf)を参照しています。
 
@@ -746,7 +746,7 @@ SR フィールド内の ID の `Extraction` 正規表現が十分に具体的�
 
 21.1 リリースでは、自動返信MTにオプションのパラメーターを追加できます。 これらは、[SMPP仕様](https://smpp.org/SMPP_v3_4_Issue1_2.pdf) （ページ 131）のセクション 5.3で説明されているように、返信の`SUBMIT_SM PDU`にオプションのTLV パラメーターとして追加されます。
 
-オプションのパラメーターについて詳しくは、この[ セクション ](../../administration/using/sms-protocol.md#smpp-optional-parameters)を参照してください。
+オプションのパラメーターについて詳しくは、この[&#x200B; セクション &#x200B;](../../administration/using/sms-protocol.md#smpp-optional-parameters)を参照してください。
 
 ## SMS 配信テンプレートパラメーター {#sms-delivery-template-parameters}
 

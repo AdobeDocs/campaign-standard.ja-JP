@@ -67,21 +67,21 @@ Campaign StandardでAdobe Experience Platform オーディエンスを直接作�
 
 1. セグメントを正常に作成するには、このセグメントのマーケティング目的に一致する&#x200B;**結合ポリシー**&#x200B;を選択する必要があります。
 
-   設定ペインで、Platformのデフォルトの結合ポリシーが選択されます。 結合ポリシーについて詳しくは、[ セグメントビルダーユーザーガイド ](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html)の専用セクションを参照してください。
+   設定ペインで、Platformのデフォルトの結合ポリシーが選択されます。 結合ポリシーについて詳しくは、[&#x200B; セグメントビルダーユーザーガイド &#x200B;](https://experienceleague.adobe.com/docs/experience-platform/segmentation/ui/overview.html)の専用セクションを参照してください。
 
    ![](assets/aep_audiences_mergepolicy.png)
 
 1. オーディエンスで取得するプロファイルを識別するルールを定義します。
 
-   これを行うには、左側のペインから目的の属性やイベントをワークスペースにドラッグし、対応するルールを定義してから&#x200B;**[!UICONTROL Create segment]** ボタンをクリックしてセグメントを保存します（[ セグメントビルダーの使用](../../integrating/using/aep-using-segment-builder.md)を参照）。
+   これを行うには、左側のペインから目的の属性やイベントをワークスペースにドラッグし、対応するルールを定義してから&#x200B;**[!UICONTROL Create segment]** ボタンをクリックしてセグメントを保存します（[&#x200B; セグメントビルダーの使用](../../integrating/using/aep-using-segment-builder.md)を参照）。
 
    ![](assets/aep_audiences_creation_query.png)
 
-オーディエンスをアクティブ化する準備が整ったので、キャンペーンのターゲットとして使用できます（[Adobe Experience Platform オーディエンスのターゲティング ](../../integrating/using/aep-targeting-audiences.md)を参照）。
+オーディエンスをアクティブ化する準備が整ったので、キャンペーンのターゲットとして使用できます（[Adobe Experience Platform オーディエンスのターゲティング &#x200B;](../../integrating/using/aep-targeting-audiences.md)を参照）。
 
 ## オーディエンスの編集
 
-オーディエンスを編集するには、オーディエンスを開き、セグメントビルダーインターフェイス内で必要に応じてルールを変更します（[ セグメントビルダーの使用](../../integrating/using/aep-using-segment-builder.md)を参照）。
+オーディエンスを編集するには、オーディエンスを開き、セグメントビルダーインターフェイス内で必要に応じてルールを変更します（[&#x200B; セグメントビルダーの使用](../../integrating/using/aep-using-segment-builder.md)を参照）。
 
 変更が完了したら、**[!UICONTROL Save segment]** ボタンをクリックしてオーディエンスを更新します。
 

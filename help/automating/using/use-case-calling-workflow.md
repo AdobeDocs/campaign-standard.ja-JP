@@ -59,7 +59,7 @@ ht-degree: 1%
 
 ## 手順1:API呼び出しの設定 {#step-1--configuring-the-api-call}
 
-パラメーターを使用して、トリガーワークフロー1へのAPI呼び出しを行います。 API呼び出し構文について詳しくは、[Campaign Standard REST API ドキュメント ](../../api/using/triggering-a-signal-activity.md)を参照してください。
+パラメーターを使用して、トリガーワークフロー1へのAPI呼び出しを行います。 API呼び出し構文について詳しくは、[Campaign Standard REST API ドキュメント &#x200B;](../../api/using/triggering-a-signal-activity.md)を参照してください。
 
 この場合、ワークフローを次のパラメーターで呼び出します。
 

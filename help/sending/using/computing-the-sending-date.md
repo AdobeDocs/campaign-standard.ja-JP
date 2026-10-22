@@ -55,9 +55,9 @@ ht-degree: 8%
 ![](assets/send-time_opt_workflow1.png)
 
 1. マーケティングアクティビティリストにアクセスし、新しいワークフローを作成します。 [ワークフローの作成](../../automating/using/building-a-workflow.md#creating-a-workflow)を参照してください。
-1. **クエリ** アクティビティをワークフローにドラッグ&amp;ドロップして開きます。 「[ クエリ ](../../automating/using/query.md)」セクションを参照してください。
+1. **クエリ** アクティビティをワークフローにドラッグ&amp;ドロップして開きます。 「[&#x200B; クエリ &#x200B;](../../automating/using/query.md)」セクションを参照してください。
 1. すべてのゴールド顧客などのオーディエンスを選択し、**[!UICONTROL Confirm]**&#x200B;をクリックしてクエリを保存します。
-1. **セグメント化** アクティビティをワークフローにドラッグ&amp;ドロップして開きます。 「[ セグメント化](../../automating/using/segmentation.md)」を参照してください。
+1. **セグメント化** アクティビティをワークフローにドラッグ&amp;ドロップして開きます。 「[&#x200B; セグメント化](../../automating/using/segmentation.md)」を参照してください。
 1. 5つのセグメントを定義。 各セグメントについて：
 
    * 「**[!UICONTROL Segment code]**」フィールドに入力します。メッセージを送信する目的の日時を手動で入力します。
@@ -84,7 +84,7 @@ ht-degree: 8%
 
    ![](assets/send-time_opt_segment_dates.png)
 
-1. **メール配信** アクティビティをワークフローにドラッグ&amp;ドロップして開きます。 「[ メール配信](../../automating/using/email-delivery.md)」セクションを参照してください。
+1. **メール配信** アクティビティをワークフローにドラッグ&amp;ドロップして開きます。 「[&#x200B; メール配信](../../automating/using/email-delivery.md)」セクションを参照してください。
 1. 電子メールダッシュボードの「**[!UICONTROL Schedule]**」セクションをクリックし、**[!UICONTROL Messages to be sent automatically on the date specified below]**&#x200B;を選択します。
 1. **[!UICONTROL Start sending from]** フィールドで、連絡先日を定義します。
 1. 送信時間の最適化ドロップダウンメニューから、**[!UICONTROL Send at a custom date defined by a formula]**&#x200B;を選択します。
@@ -131,9 +131,9 @@ ht-degree: 8%
 ![](assets/send-time_opt_workflow2.png)
 
 1. マーケティングアクティビティリストにアクセスし、新しいワークフローを作成します。 [ワークフローの作成](../../automating/using/building-a-workflow.md#creating-a-workflow)を参照してください。
-1. **クエリ** アクティビティをワークフローにドラッグ&amp;ドロップして開きます。 「[ クエリ ](../../automating/using/query.md)」セクションを参照してください。
+1. **クエリ** アクティビティをワークフローにドラッグ&amp;ドロップして開きます。 「[&#x200B; クエリ &#x200B;](../../automating/using/query.md)」セクションを参照してください。
 1. 35を超えるプロファイルなどのオーディエンスを選択し、**[!UICONTROL Confirm]**&#x200B;をクリックしてクエリを保存します。
-1. **セグメント化** アクティビティをワークフローにドラッグ&amp;ドロップして開きます。 「[ セグメント化](../../automating/using/segmentation.md)」を参照してください。
+1. **セグメント化** アクティビティをワークフローにドラッグ&amp;ドロップして開きます。 「[&#x200B; セグメント化](../../automating/using/segmentation.md)」を参照してください。
 1. 4つのセグメントを定義。 各セグメントについて：
 
    * セグメントコードを次のように定義します。
@@ -154,7 +154,7 @@ ht-degree: 8%
 
    ![](assets/send-time_opt_segment.png)
 
-1. **メール配信** アクティビティをワークフローにドラッグ&amp;ドロップして開きます。 「[ メール配信](../../automating/using/email-delivery.md)」セクションを参照してください。
+1. **メール配信** アクティビティをワークフローにドラッグ&amp;ドロップして開きます。 「[&#x200B; メール配信](../../automating/using/email-delivery.md)」セクションを参照してください。
 1. 電子メールダッシュボードの「**[!UICONTROL Schedule]**」セクションをクリックします。
 1. 「**[!UICONTROL Messages to be sent automatically on the date specified below]**」を選択します。
 1. **[!UICONTROL Start sending from]** フィールドで、連絡先日を定義します。

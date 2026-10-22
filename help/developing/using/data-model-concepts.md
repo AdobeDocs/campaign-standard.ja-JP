@@ -57,7 +57,7 @@ Adobe Campaign が使用するデータは、様々なリソースを通じて�
 
 >[!NOTE]
 >
->組み込みリソースのデータモデル表現は、[このページ ](../../developing/using/datamodel-introduction.md)にあります。
+>組み込みリソースのデータモデル表現は、[このページ &#x200B;](../../developing/using/datamodel-introduction.md)にあります。
 
 また、作成したリソースに対応する画面で[ナビゲーションを設定](configuring-the-screen-definition.md)することもできます。
 

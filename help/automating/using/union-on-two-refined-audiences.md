@@ -41,7 +41,7 @@ ht-degree: 43%
 
 ![](assets/readaudience_activity_example1.png)
 
-* ゴールドメンバーのオーディエンスを取得し、18歳から30歳までのプロファイルのみを選択して絞り込む最初の[ オーディエンスの読み取り](../../automating/using/read-audience.md) アクティビティ。
+* ゴールドメンバーのオーディエンスを取得し、18歳から30歳までのプロファイルのみを選択して絞り込む最初の[&#x200B; オーディエンスの読み取り](../../automating/using/read-audience.md) アクティビティ。
 * 2 つ目の「**[!UICONTROL Read audience]**」アクティビティ。シルバーメンバーオーディエンスを取得し、18～30 歳のプロファイルのみを選択して絞り込みます。
 * 両方の&#x200B;**[!UICONTROL Read audiences]** アクティビティの母集団を1つの最終母集団に統合する[Union](../../automating/using/union.md) アクティビティ。
 * **[!UICONTROL Union]** アクティビティから送信された母集団に電子メールを送信する[電子メール配信](../../automating/using/email-delivery.md) アクティビティ。

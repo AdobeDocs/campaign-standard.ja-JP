@@ -63,7 +63,7 @@ ht-degree: 66%
 >
 >Admin Consoleでは、セキュリティグループはプロファイルと呼ばれます。
 
-標準グループでユーザーを適切に管理できない場合は、独自のセキュリティグループを作成できます。 Adobe Campaign管理メニューとAdmin Consoleの両方にアクセスできる管理者が管理できます。 Admin Consoleについて詳しくは、この[ ドキュメント ](https://helpx.adobe.com/jp/enterprise/managing/user-guide.html)を参照してください。
+標準グループでユーザーを適切に管理できない場合は、独自のセキュリティグループを作成できます。 Adobe Campaign管理メニューとAdmin Consoleの両方にアクセスできる管理者が管理できます。 Admin Consoleについて詳しくは、この[&#x200B; ドキュメント &#x200B;](https://helpx.adobe.com/jp/enterprise/managing/user-guide.html)を参照してください。
 
 ここでは、最初に 2 つの標準グループ（Standard Users と Administrators）をユーザーに割り当てる必要があります。 これらのセキュリティグループは、Adobe Campaign 機能の一部を制限します。標準ユーザーには基本的な Adobe Campaign アクセス権がある一方、管理者は管理メニューなどにアクセスできます。
 

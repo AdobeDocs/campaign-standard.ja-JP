@@ -70,7 +70,7 @@ ht-degree: 0%
 
 25歳以上の受信者のクリック数を表示するには、**[!UICONTROL Change profile]** ボタンをクリックし、生年月日がこの条件に一致するテストプロファイルを選択します。
 
-テストプロファイルについて詳しくは、[ テストプロファイルについて](../../audiences/using/managing-test-profiles.md)を参照してください。
+テストプロファイルについて詳しくは、[&#x200B; テストプロファイルについて](../../audiences/using/managing-test-profiles.md)を参照してください。
 
 >[!NOTE]
 >
@@ -84,11 +84,11 @@ ht-degree: 0%
 
   例えば、この配信を管理するワークフローが月に1回実行される場合、月に1回の実行配信が行われます。 これに加えて、配信の内容が更新されるたびに、追加の実行配信が作成されます。
 
-  定期的なメール配信について詳しくは、[ メール配信](../../automating/using/email-delivery.md)を参照してください。
+  定期的なメール配信について詳しくは、[&#x200B; メール配信](../../automating/using/email-delivery.md)を参照してください。
 
 * デフォルトでは、トランザクションメッセージは月に1回、トランザクションメッセージが再度編集および公開されるたびに表示されます。
 
-  トランザクションメッセージについて詳しくは、[ トランザクションメッセージの概要](../../channels/using/getting-started-with-transactional-msg.md)を参照してください。
+  トランザクションメッセージについて詳しくは、[&#x200B; トランザクションメッセージの概要](../../channels/using/getting-started-with-transactional-msg.md)を参照してください。
 
 >[!NOTE]
 >

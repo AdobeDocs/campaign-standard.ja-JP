@@ -49,7 +49,7 @@ ht-degree: 15%
 
 さらに、Campaign Standardで利用できる配信品質のガイドラインとツールを活用して、配信されるメッセージ数を増やし、マーケティング施策を成功に導くことができます。
 
-![](assets/do-not-localize/how-to-video.png) [ テストメールの送信方法、準備およびメール配信の送信方法をビデオで確認](#video)
+![](assets/do-not-localize/how-to-video.png) [&#x200B; テストメールの送信方法、準備およびメール配信の送信方法をビデオで確認](#video)
 
 ## 準備とテスト {#prepare-test-send}
 

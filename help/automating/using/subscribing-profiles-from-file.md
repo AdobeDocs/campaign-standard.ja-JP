@@ -41,7 +41,7 @@ ht-degree: 61%
 
 ![](assets/subscription_activity_example1.png)
 
-* [ ファイルの読み込み](../../automating/using/load-file.md) アクティビティは、プロファイルファイルを読み込み、読み込まれた列の構造を定義します。
+* [&#x200B; ファイルの読み込み](../../automating/using/load-file.md) アクティビティは、プロファイルファイルを読み込み、読み込まれた列の構造を定義します。
 
   この例では、読み込まれるファイルは .csv 形式で、次のデータが含まれています。
 
@@ -68,6 +68,6 @@ ht-degree: 61%
 
   ![](assets/subscription_activity_example5.png)
 
-* [ サブスクリプションサービス ](../../automating/using/subscription-services.md) アクティビティを使用すると、プロファイルを購読する必要があるサービス、購読日に対応するフィールド、購読の送信元を選択できます。
+* [&#x200B; サブスクリプションサービス &#x200B;](../../automating/using/subscription-services.md) アクティビティを使用すると、プロファイルを購読する必要があるサービス、購読日に対応するフィールド、購読の送信元を選択できます。
 
   ![](assets/subscription_activity_example4.png)

@@ -55,10 +55,10 @@ Adobe Campaignには、定義済みの一連のコンテンツが用意されて
 
 1. 読み込むコンテンツのソースを選択：
 
-   * [ コンテンツテンプレート ](../../designing/using/using-reusable-content.md#content-templates):「**[!UICONTROL Templates]**」タブをクリックします。
-   * [最初からコンテンツ ](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)を作成して新しい作業を開始するには、**[!UICONTROL Create]** ボタンをクリックします。
-   * [ コンピューターのコンテンツをZIPまたはHTML ファイルとして](#importing-content-from-a-file):「**[!UICONTROL Upload]**」ボタンをクリックします。
-   * [既存のURLからのコンテンツ ](#importing-content-from-a-url) （メールのみ）:「**[!UICONTROL Import from URL]**」ボタンをクリックします。
+   * [&#x200B; コンテンツテンプレート &#x200B;](../../designing/using/using-reusable-content.md#content-templates):「**[!UICONTROL Templates]**」タブをクリックします。
+   * [最初からコンテンツ &#x200B;](../../designing/using/designing-from-scratch.md#designing-an-email-content-from-scratch)を作成して新しい作業を開始するには、**[!UICONTROL Create]** ボタンをクリックします。
+   * [&#x200B; コンピューターのコンテンツをZIPまたはHTML ファイルとして](#importing-content-from-a-file):「**[!UICONTROL Upload]**」ボタンをクリックします。
+   * [既存のURLからのコンテンツ &#x200B;](#importing-content-from-a-url) （メールのみ）:「**[!UICONTROL Import from URL]**」ボタンをクリックします。
 
    ![](assets/des_loading_2.png)
 
@@ -68,7 +68,7 @@ Adobe Campaignには、定義済みの一連のコンテンツが用意されて
 
    >[!NOTE]
    >
-   >[電子メール Designer](../../designing/using/designing-content-in-adobe-campaign.md)は、特定のタグ付けを使用しています。 Campaignにアップロードされる標準のHTML コンテンツは、電子メールDesignerから完全に互換性があり、編集可能なタグ付けとして期待されるタグと一致する必要があります。 一致しない場合、コンテンツは[互換モード ](#compatibility-mode)でアップロードされます。 既存のコンテンツに互換性を持たせるには、[この節](#editing-existing-contents-with-the-email-designer)を参照してください。
+   >[電子メール Designer](../../designing/using/designing-content-in-adobe-campaign.md)は、特定のタグ付けを使用しています。 Campaignにアップロードされる標準のHTML コンテンツは、電子メールDesignerから完全に互換性があり、編集可能なタグ付けとして期待されるタグと一致する必要があります。 一致しない場合、コンテンツは[互換モード &#x200B;](#compatibility-mode)でアップロードされます。 既存のコンテンツに互換性を持たせるには、[この節](#editing-existing-contents-with-the-email-designer)を参照してください。
 
 **関連トピック：**
 
@@ -79,9 +79,9 @@ Adobe Campaignには、定義済みの一連のコンテンツが用意されて
 
 [電子メール Designer](../../designing/using/designing-content-in-adobe-campaign.md)の編集機能を最大限に活用するには、アップロードしたHTMLに、WYSIWYG エディターに準拠する特定のタグが含まれている必要があります。
 
-HTMLの全体または一部にこのタグ付けがない場合、コンテンツは&#39;[互換モード ](#compatibility-mode)&#39;で読み込まれます。
+HTMLの全体または一部にこのタグ付けがない場合、コンテンツは&#39;[互換モード &#x200B;](#compatibility-mode)&#39;で読み込まれます。
 
-電子メール Designer内で既存の外部コンテンツを完全に編集可能にするには、[既存のコンテンツを使用した電子メールのデザイン ](../../designing/using/using-existing-content.md) セクションを参照してください。
+電子メール Designer内で既存の外部コンテンツを完全に編集可能にするには、[既存のコンテンツを使用した電子メールのデザイン &#x200B;](../../designing/using/using-existing-content.md) セクションを参照してください。
 
 ## 既存のメールコンテンツのインポート {#importing}
 

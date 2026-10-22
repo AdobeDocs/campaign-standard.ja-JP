@@ -41,7 +41,7 @@ ht-degree: 42%
 
 ![](assets/wkf_in_app_1.png)
 
-**アプリ内配信** アクティビティを使用すると、ワークフロー内でのアプリ内メッセージの送信を設定できます。 アプリ内メッセージを使用すると、ユーザーがアプリケーション内でアクティブな場合にメッセージを表示できます。 アプリ内配信について詳しくは、この[ セクション ](../../channels/using/about-in-app-messaging.md)を参照してください。
+**アプリ内配信** アクティビティを使用すると、ワークフロー内でのアプリ内メッセージの送信を設定できます。 アプリ内メッセージを使用すると、ユーザーがアプリケーション内でアクティブな場合にメッセージを表示できます。 アプリ内配信について詳しくは、この[&#x200B; セクション &#x200B;](../../channels/using/about-in-app-messaging.md)を参照してください。
 
 ## Context of use {#context-of-use}
 
@@ -78,7 +78,7 @@ ht-degree: 42%
 
 1. アプリ内メッセージのプロパティを入力し、**[!UICONTROL Associate a Mobile App to a delivery]** フィールドでモバイルアプリを選択します。
 1. 「**[!UICONTROL Triggers]**」タブで、メッセージのトリガーとして使用するイベントをドラッグ＆ドロップします。 イベントには、次の3つのカテゴリがあります。
-1. アプリ内コンテンツを定義。 [ アプリ内カスタマイズ ](../../channels/using/customizing-an-in-app-message.md)に関する節を参照してください。
+1. アプリ内コンテンツを定義。 [&#x200B; アプリ内カスタマイズ &#x200B;](../../channels/using/customizing-an-in-app-message.md)に関する節を参照してください。
 1. デフォルトでは、「**[!UICONTROL In-App delivery]**」アクティビティにアウトバウンドトランジションは含まれていません。 アウトバウンドトランジションを「**[!UICONTROL In-App delivery]**」アクティビティに追加する場合は、アクティビティの詳細設定オプション（アクティビティのクイックアクションにある ![](assets/dlv_activity_params-24px.png) ボタンで開く）の「**[!UICONTROL General]**」タブに移動し、次のいずれかのオプションをオンにします。
 
    * **[!UICONTROL Add outbound transition without the population]**：インバウンドトランジションとまったく同じ母集団を含んだアウトバウンドトランジションを生成できます。

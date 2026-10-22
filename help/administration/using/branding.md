@@ -118,7 +118,7 @@ Campaign で組織の新しいエンティティを追加することや、別�
    >
    >コントロールパネルは、すべての管理者ユーザーがアクセスできます。 ユーザーに管理者アクセス権を付与する手順については、[このページ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=ja#discover-control-panel)で詳しく説明しています。
 
-1. **チケットを作成** - サブドメインを設定すると、Adobeが実稼動環境で設定します。 これをリクエストするには、次の情報を含む[ クライアントケア ](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)へのチケットを作成します。
+1. **チケットを作成** - サブドメインを設定すると、Adobeが実稼動環境で設定します。 これをリクエストするには、次の情報を含む[&#x200B; クライアントケア &#x200B;](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)へのチケットを作成します。
 
    * 件名：ACS新しいブランドの設定
 

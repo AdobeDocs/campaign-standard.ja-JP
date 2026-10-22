@@ -42,7 +42,7 @@ ht-degree: 67%
 ---
 # パーソナライズされたコンテンツの作成 {#build-personalized-content}
 
-メッセージコンテンツを設計するときは、配信の実行を妨げる可能性がある一般的な問題が発生しないようにします。 多くの場合、発生する可能性のあるエラーは[ パーソナライゼーション ](../../designing/using/personalization.md)に関連しており、[既存のコンテンツを使用](../../designing/using/using-existing-content.md)すると書式設定され、[HTML コンテンツ ](../../designing/using/using-existing-content.md#converting-an-html-content)と[画像](../../designing/using/images.md)が変換されます。
+メッセージコンテンツを設計するときは、配信の実行を妨げる可能性がある一般的な問題が発生しないようにします。 多くの場合、発生する可能性のあるエラーは[&#x200B; パーソナライゼーション &#x200B;](../../designing/using/personalization.md)に関連しており、[既存のコンテンツを使用](../../designing/using/using-existing-content.md)すると書式設定され、[HTML コンテンツ &#x200B;](../../designing/using/using-existing-content.md#converting-an-html-content)と[画像](../../designing/using/images.md)が変換されます。
 
 ## パーソナライゼーションの最適化 {#optimize-personalization}
 
@@ -90,7 +90,7 @@ Adobe Campaign データベースに保存されている受信者データや�
 
 購読解除リンクは不可欠です。 購読解除リンクが表示され、有効である必要があり、フォームが機能する必要があります。 購読解除リンクのガイドライン [については、この節](../../designing/using/personalization.md#about-targeting-dimension)を参照してください。
 
-デフォルトでは、メッセージが分析されると、コントロール [ タイポロジルール ](../../sending/using/control-rules.md)は、オプトアウトリンクが含まれているかどうかをチェックし、含まれていない場合は警告を生成します。
+デフォルトでは、メッセージが分析されると、コントロール [&#x200B; タイポロジルール &#x200B;](../../sending/using/control-rules.md)は、オプトアウトリンクが含まれているかどうかをチェックし、含まれていない場合は警告を生成します。
 
 **ヒント**：ヒューマンエラーが発生する可能性は常にあるので、毎回、送信前に、オプトアウトリンクが適切に機能することを確認する必要があります。 例えば、配達確認を送信するときは、リンクが有効であること、フォームがオンラインであること、「今後のこの受信者への連絡は不要」フィールドが「はい」に変更されていることを確認します。
 
@@ -104,7 +104,7 @@ Adobe Campaign データベースに保存されている受信者データや�
 
 * 冗長なスタイル、または使用されていないスタイルの削除
 
-* メールコンテンツの一部を[ ランディングページ ](../../channels/using/getting-started-with-landing-pages.md)に移動します
+* メールコンテンツの一部を[&#x200B; ランディングページ &#x200B;](../../channels/using/getting-started-with-landing-pages.md)に移動します
 
 * コードの縮小
 
@@ -124,7 +124,7 @@ Adobeでは、最大メッセージサイズのデフォルト値を維持する
 
 デフォルトでは、SMS の文字数は GSM（Global System for Mobile Communications）標準に準じています。 GSM エンコードを使用する SMS メッセージは 160 文字以内に制限されています。複数の部分に分けて送信されるメッセージの場合は、SMS 1 件につき 153 文字以内です。
 
-表記変換では、SMS の特定の文字が GSM 標準に準じていない場合に、別の文字に置き換えられます。 パーソナライゼーションフィールドを SMS メッセージのコンテンツに入れると、GSM エンコードに対応していない文字が含まれる場合があります。 対応する&#x200B;**[!UICONTROL External account]**の「SMPP チャネル設定」タブで対応するボックスをオンにすることで、文字変換を承認できます。
+表記変換では、SMS の特定の文字が GSM 標準に準じていない場合に、別の文字に置き換えられます。 パーソナライゼーションフィールドを SMS メッセージのコンテンツに入れると、GSM エンコードに対応していない文字が含まれる場合があります。 対応する&#x200B;**[!UICONTROL External account]**&#x200B;の「SMPP チャネル設定」タブで対応するボックスをオンにすることで、文字変換を承認できます。
 詳しくは、[この節](../../administration/using/configuring-sms-channel.md#sms-encoding--length-and-transliteration)を参照してください。
 
 **ヒント**：
@@ -141,7 +141,7 @@ Adobeでは、最大メッセージサイズのデフォルト値を維持する
 
 * web HTML ではなく、レスポンシブメール HTML を使用します
 
-* プレビューモードとプルーフを使用して、できるだけ多くのデバイスでレンダリングをテストします。 送信前に[ メッセージをプレビュー](../../sending/using/previewing-messages.md)する方法について説明します。
+* プレビューモードとプルーフを使用して、できるだけ多くのデバイスでレンダリングをテストします。 送信前に[&#x200B; メッセージをプレビュー](../../sending/using/previewing-messages.md)する方法について説明します。
 
 * Campaign Email Designerには、モバイル用のレスポンシブデザイン形式のテンプレートが付属しています。 詳しくは、[このページ](../../designing/using/using-reusable-content.md#content-templates)を参照してください。
 

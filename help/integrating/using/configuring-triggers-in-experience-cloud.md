@@ -73,7 +73,7 @@ Adobe チームは、トリガーをアクティベートするために次の�
 >
 >サブドメイン設定は、配信品質キー要素です。 Adobe Campaignの電子メールが、web サイトで使用されるものと同じドメインから送信されていることを確認します。
 
-これらのユースケースを実行するには、[Experience Cloud DTM コアサービス ](#configuring-experience-cloud-dtm-core-service)、[Experience Cloud People コアサービス ](#configuring-experience-cloud-people-core-service)および[Campaign](#configuring-triggers-and-aliases-in-campaign)を設定する必要があります。
+これらのユースケースを実行するには、[Experience Cloud DTM コアサービス &#x200B;](#configuring-experience-cloud-dtm-core-service)、[Experience Cloud People コアサービス &#x200B;](#configuring-experience-cloud-people-core-service)および[Campaign](#configuring-triggers-and-aliases-in-campaign)を設定する必要があります。
 
 ### Experience Cloud DTM コアサービスの設定 {#configuring-experience-cloud-dtm-core-service}
 
@@ -115,7 +115,7 @@ Campaignで使用できるように、Adobe Experience Cloud トリガーを作�
 
 Adobe Experience Cloudで新しいトリガーを作成し、web サイトで使用するレポートスイートを必ず選択してください。 トリガーが起動するように適切な寸法を選択してください。
 
-[Adobe Experience Cloud ドキュメント ](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html?lang=ja)を参照してください。
+[Adobe Experience Cloud ドキュメント &#x200B;](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html?lang=ja)を参照してください。
 
 ## トリガーのベストプラクティスと制限事項 {#triggers-best-practices-and-limitations}
 

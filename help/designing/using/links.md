@@ -56,7 +56,7 @@ ht-degree: 13%
 
    * **外部リンク**：外部URLへのリンクを挿入します。
 
-     URLにパーソナライゼーションを定義できます。 [URLのパーソナライズ ](personalization.md#personalizing-urls)を参照してください。
+     URLにパーソナライゼーションを定義できます。 [URLのパーソナライズ &#x200B;](personalization.md#personalizing-urls)を参照してください。
 
    * **ランディングページ**: Adobe Campaign ランディングページへのアクセス権を付与します。
    * **購読リンク**:Adobe Campaign サービスを購読するためのリンクを挿入します。
@@ -80,7 +80,7 @@ ht-degree: 13%
 
 ![](assets/des_link_edit.png)
 
-[電子メール Designer](../../designing/using/designing-content-in-adobe-campaign.md)を使用して電子メールを編集する場合、電子メールに含まれているすべてのURLを一覧表示したテーブルから、作成したリンクに簡単にアクセスして変更できます。 このリストを使用すると、一元的に表示し、メールコンテンツ内の各URLを見つけることができます。 アクセスするには、[ トラッキング対象URLについて](#about-tracked-urls)を参照してください。
+[電子メール Designer](../../designing/using/designing-content-in-adobe-campaign.md)を使用して電子メールを編集する場合、電子メールに含まれているすべてのURLを一覧表示したテーブルから、作成したリンクに簡単にアクセスして変更できます。 このリストを使用すると、一元的に表示し、メールコンテンツ内の各URLを見つけることができます。 アクセスするには、[&#x200B; トラッキング対象URLについて](#about-tracked-urls)を参照してください。
 
 ![](assets/des_link_list.png)
 
@@ -125,7 +125,7 @@ Adobe Campaignを使用すると、受信者がメールに含まれるURLをク
 >
 >Adobe Campaignでは、デフォルトで、**ミラーページ URL**&#x200B;と&#x200B;**購読解除** リンクを除くすべてのコンテンツ URLが追跡されます。
 
-メッセージで使用されているURLに応じて、**[!UICONTROL Category]** フィールドを編集することで、URLを再グループ化できます。 これらのカテゴリは、例えば[URLやクリックストリーム ](../../reporting/using/urls-and-click-streams.md)のように、レポートに表示できます。
+メッセージで使用されているURLに応じて、**[!UICONTROL Category]** フィールドを編集することで、URLを再グループ化できます。 これらのカテゴリは、例えば[URLやクリックストリーム &#x200B;](../../reporting/using/urls-and-click-streams.md)のように、レポートに表示できます。
 
 ![](assets/des_link_tracking_category.png)
 

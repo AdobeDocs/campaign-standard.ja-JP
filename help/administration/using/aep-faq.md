@@ -49,8 +49,8 @@ Experience Platform SDK アプリケーションを使用してプッシュ通�
 
 Adobe Experience PlatformとSDKの連携について詳しくは、次の資料を参照してください。
 
-* ローンチ/モバイル [概要ビデオ ](https://www.adobe.com/experience-platform/launch.html#acpl-mobile-video){target="_blank"}
-* Launch/Mobile [ ヒントとテクニックのガイド ](https://www.adobe.com/content/dam/dx/us/en/products/experience-platform/launch-tag-manager/pdfs/adobe-cloud-platform-launch-tips-and-tricks-sheet.pdf)
+* ローンチ/モバイル [概要ビデオ &#x200B;](https://www.adobe.com/experience-platform/launch.html#acpl-mobile-video){target="_blank"}
+* Launch/Mobile [&#x200B; ヒントとテクニックのガイド &#x200B;](https://www.adobe.com/content/dam/dx/us/en/products/experience-platform/launch-tag-manager/pdfs/adobe-cloud-platform-launch-tips-and-tricks-sheet.pdf)
 
 ## Adobe Experience Platform SDKの統合は、Adobe Campaign StandardとAdobe Campaign Classicの両方で使用できますか？ {#aep-validity}
 
@@ -66,7 +66,7 @@ Adobe Experience PlatformとSDKの連携について詳しくは、次の資料�
 
 >[!NOTE]
 >
->[!DNL Places]統合には、アプリ内メッセージ（プッシュ通知の場合はN/A）のトリガーとしてplaces イベントが含まれ、[!DNL Places]個のデータとローカル通知のサポートを使用してプロファイルを強化します。 詳しくは、この[ ページ ](../../channels/using/preparing-and-sending-an-in-app-message.md)を参照してください。 <br>[!DNL Places]の制限付き統合には、[!DNL Places]個のデータを使用したプロファイルの強化が含まれます。
+>[!DNL Places]統合には、アプリ内メッセージ（プッシュ通知の場合はN/A）のトリガーとしてplaces イベントが含まれ、[!DNL Places]個のデータとローカル通知のサポートを使用してプロファイルを強化します。 詳しくは、この[&#x200B; ページ &#x200B;](../../channels/using/preparing-and-sending-an-in-app-message.md)を参照してください。 <br>[!DNL Places]の制限付き統合には、[!DNL Places]個のデータを使用したプロファイルの強化が含まれます。
 
 ## Adobe Experience PlatformとSDKの連携は、Adobe Campaign Standardでどのようなユースケースを促進しますか？ {#aep-use-cases}
 
@@ -116,10 +116,10 @@ CollectPII呼び出しの頻度と設計は、ビジネスニーズによって�
 
 以下のリソースをご覧ください。
 
-* Experience Platform SDK [ ドキュメント ](https://developer.adobe.com/client-sdks/documentation/)
-* LaunchとExperience Platform SDKの概要[ ドキュメント ](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/)
-* Experience Platform SDKへのアップグレード [ ドキュメント ](https://developer.adobe.com/client-sdks/resources/upgrade-platform-sdks/)
-* Github Experience Platform SDK [ ドキュメント ](https://github.com/Adobe-Marketing-Cloud/acp-sdks/)
+* Experience Platform SDK [&#x200B; ドキュメント &#x200B;](https://developer.adobe.com/client-sdks/documentation/)
+* LaunchとExperience Platform SDKの概要[&#x200B; ドキュメント &#x200B;](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/)
+* Experience Platform SDKへのアップグレード [&#x200B; ドキュメント &#x200B;](https://developer.adobe.com/client-sdks/resources/upgrade-platform-sdks/)
+* Github Experience Platform SDK [&#x200B; ドキュメント &#x200B;](https://github.com/Adobe-Marketing-Cloud/acp-sdks/)
 
 ## プッシュ通知配信の作成中に「配信時に書き込みアクセス権がありません」というエラーが発生します。 {#write-access-error}
 

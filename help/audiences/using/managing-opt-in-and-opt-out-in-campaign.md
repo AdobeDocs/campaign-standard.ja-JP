@@ -51,7 +51,7 @@ ht-degree: 9%
 >
 >ランディングページは、サービスのサブスクリプションを有効にするためにも使用できます。 詳しくは、[このページ](../../channels/using/configuring-landing-page.md#linking-a-landing-page-to-a-service)を参照してください。
 
-1. **[!UICONTROL Profile acquisition]** ランディングページを作成します（[このセクション ](../../channels/using/getting-started-with-landing-pages.md)を参照）。
+1. **[!UICONTROL Profile acquisition]** ランディングページを作成します（[このセクション &#x200B;](../../channels/using/getting-started-with-landing-pages.md)を参照）。
 1. 目的の各チャネルのランディングページコンテンツにチェックボックスを追加し、Campaign データベースの対応するフィールドにリンクします。
 
    ![](assets/optin_landingpage_1.png)
@@ -67,7 +67,7 @@ ht-degree: 9%
 
 ### すべての配信からオプトアウトするためのランディングページの設定 {#setting-up-a-landing-page-to-opt-out-from-all-deliveries}
 
-ユーザーがすべての配信からオプトアウトできるようにするには、**[!UICONTROL Denylist]** ランディングページを作成して公開する必要があります。 ランディングページの作成について詳しくは、[このページ ](../../channels/using/getting-started-with-landing-pages.md)を参照してください。
+ユーザーがすべての配信からオプトアウトできるようにするには、**[!UICONTROL Denylist]** ランディングページを作成して公開する必要があります。 ランディングページの作成について詳しくは、[このページ &#x200B;](../../channels/using/getting-started-with-landing-pages.md)を参照してください。
 
 ユーザーがランディングページのリンクをクリックすると、プロファイルの&#x200B;**[!UICONTROL No longer contact (by any channel)]** オプションが自動的に選択されます。
 

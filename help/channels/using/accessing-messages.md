@@ -56,7 +56,7 @@ ht-degree: 1%
 1. 上部のナビゲーションバーから&#x200B;**[!UICONTROL Marketing activities]**&#x200B;に移動します。
 1. 「**[!UICONTROL Marketing activities > Marketing plans > Programs & Campaigns]**」を選択します。
 
-   ホームページから&#x200B;**[!UICONTROL Programs & Campaigns]** カードを直接クリックすることもできます。 キャンペーンについて詳しくは、「[ プログラムとキャンペーン ](../../start/using/programs-and-campaigns.md)」の節を参照してください。
+   ホームページから&#x200B;**[!UICONTROL Programs & Campaigns]** カードを直接クリックすることもできます。 キャンペーンについて詳しくは、「[&#x200B; プログラムとキャンペーン &#x200B;](../../start/using/programs-and-campaigns.md)」の節を参照してください。
 
 1. プログラムを選択し、キャンペーンを選択します。
 
@@ -73,7 +73,7 @@ ht-degree: 1%
 
 1. 上部のナビゲーションバーから&#x200B;**[!UICONTROL Marketing activities]**&#x200B;を選択します。
 
-   また、ホームページの&#x200B;**[!UICONTROL Marketing activities]** カードからアクセスすることもできます。 マーケティング活動のリストについて詳しくは、「[ マーケティング活動の管理](../../start/using/marketing-activities.md#creating-a-marketing-activity)」の節を参照してください。
+   また、ホームページの&#x200B;**[!UICONTROL Marketing activities]** カードからアクセスすることもできます。 マーケティング活動のリストについて詳しくは、「[&#x200B; マーケティング活動の管理](../../start/using/marketing-activities.md#creating-a-marketing-activity)」の節を参照してください。
 
 1. マーケティング活動（名前、日付、ステータスまたは活動タイプ別）をフィルタリングするには、マーケティング活動のリストの左側にある&#x200B;**[!UICONTROL Search]** フィールドを使用します。
 

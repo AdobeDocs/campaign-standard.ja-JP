@@ -39,7 +39,7 @@ ht-degree: 3%
 
 * **編集** （グレー）
 
-  これは、ワークフローの最初の設計フェーズです（[ ワークフローの作成](../../automating/using/building-a-workflow.md#creating-a-workflow)を参照）。 ワークフローはまだサーバーによって処理されておらず、リスクなしに変更できます。
+  これは、ワークフローの最初の設計フェーズです（[&#x200B; ワークフローの作成](../../automating/using/building-a-workflow.md#creating-a-workflow)を参照）。 ワークフローはまだサーバーによって処理されておらず、リスクなしに変更できます。
 
 * **進行中** （青）
 
@@ -59,6 +59,6 @@ ht-degree: 3%
 
   ワークフローの実行時にエラーが発生しました。 ワークフローが停止されました。ユーザーはアクションを実行する必要があります。 このエラーの詳細については、![](assets/printpreview_darkgrey-24px.png) ボタンを使用してワークフローログにアクセスしてください（[監視](../../automating/using/monitoring-workflow-execution.md)を参照）。
 
-マーケティング活動のリストを使用すると、すべてのワークフローとそのステータスを表示できます。 詳しくは、「[ マーケティング活動の管理](../../start/using/marketing-activities.md#about-marketing-activities)」を参照してください。
+マーケティング活動のリストを使用すると、すべてのワークフローとそのステータスを表示できます。 詳しくは、「[&#x200B; マーケティング活動の管理](../../start/using/marketing-activities.md#about-marketing-activities)」を参照してください。
 
 ![](assets/wkf_execution_3.png)

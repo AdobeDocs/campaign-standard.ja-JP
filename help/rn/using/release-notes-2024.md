@@ -52,7 +52,7 @@ ht-degree: 94%
 
 このバージョン以降、サービスアカウント（JWT）資格情報はアドビによって廃止され、アドビのソリューションおよびアプリとの Campaign アウトバウンド統合は OAuth サーバー間の資格情報に依存するようになりました。 アドビでは、Campaign と Analytics 統合や Experience Cloud トリガー統合などのアウトバウンド統合に対して、JWT から OAuth への移行を実行します。
 
-Campaignでインバウンド統合を実装しており、[Campaign API](../../api/using/get-started-apis.md)を使用している場合は、[このドキュメント ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}に詳しく説明されているように、テクニカルアカウントを移行する必要があります。 既存のサービスアカウント（JWT）資格情報は、**2025年1月27日（PT）**&#x200B;に機能しなくなります。
+Campaignでインバウンド統合を実装しており、[Campaign API](../../api/using/get-started-apis.md)を使用している場合は、[このドキュメント &#x200B;](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}に詳しく説明されているように、テクニカルアカウントを移行する必要があります。 既存のサービスアカウント（JWT）資格情報は、**2025年1月27日（PT）**&#x200B;に機能しなくなります。
 
 ### 修正点 {#summer-24-rn-fixes}
 

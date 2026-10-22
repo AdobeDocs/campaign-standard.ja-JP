@@ -71,7 +71,7 @@ ht-degree: 85%
 1. イベントを作成するには、Adobe Campaign のロゴから **[!UICONTROL Marketing plans]**／**[!UICONTROL Transactional messages]**／**[!UICONTROL Event configuration]** メニューにアクセスします。
 1. ラベルを入力し、ターゲティングディメンションを選択して「**[!UICONTROL Create]**」をクリックします。
 
-   設定手順については、「[ トランザクションイベントの設定](../../channels/using/configuring-transactional-event.md)」の節を参照してください。
+   設定手順については、「[&#x200B; トランザクションイベントの設定](../../channels/using/configuring-transactional-event.md)」の節を参照してください。
 
 1. 「**[!UICONTROL Fields]**」セクションで、紐付けを有効にするために、「**[!UICONTROL Create element]**」をクリックして **[!UICONTROL publicLabel]** をデータ構造に追加します。
 
@@ -104,7 +104,7 @@ ht-degree: 85%
 1. Adobe Campaign のロゴから **[!UICONTROL Marketing plans]**／**[!UICONTROL Transactional messages]** を選択し、「**[!UICONTROL Transactional messages]**」をクリックします。
 1. 先ほど公開したイベントに対応するトランザクションメールを選択します。
 
-1. 「**[!UICONTROL Content]**」セクションをクリックし、メールテンプレートを選択します。 トランザクションメッセージのコンテンツの編集について詳しくは、[ トランザクションメッセージの編集](../../channels/using/editing-transactional-message.md)を参照してください。
+1. 「**[!UICONTROL Content]**」セクションをクリックし、メールテンプレートを選択します。 トランザクションメッセージのコンテンツの編集について詳しくは、[&#x200B; トランザクションメッセージの編集](../../channels/using/editing-transactional-message.md)を参照してください。
 1. **[!UICONTROL Service]** リソースのすべてのフィールドに直接アクセスできるので、**[!UICONTROL Context]**／**[!UICONTROL Real-time event (rtEvent)]**／**[!UICONTROL Event context (ctx)]**／「**[!UICONTROL Service]**」ノードから任意のフィールドを選択して、コンンツをパーソナライズできます。
 
    ![](assets/confirmation_personalization-service.png)
@@ -160,7 +160,7 @@ ht-degree: 85%
 1. イベントを作成するには、Adobe Campaign のロゴから **[!UICONTROL Marketing plans]**／**[!UICONTROL Transactional messages]**／**[!UICONTROL Event configuration]** メニューにアクセスします。
 1. ラベルを入力し、ターゲティングディメンションを選択して「**[!UICONTROL Create]**」をクリックします。
 
-   設定手順については、「[ トランザクションイベントの設定](../../channels/using/configuring-transactional-event.md)」の節を参照してください。
+   設定手順については、「[&#x200B; トランザクションイベントの設定](../../channels/using/configuring-transactional-event.md)」の節を参照してください。
 
 1. 「**[!UICONTROL Fields]**」セクションで、紐付けを有効にするために、「**[!UICONTROL Create element]**」をクリックして **[!UICONTROL serviceName]** をデータ構造に追加します。
 

@@ -41,9 +41,9 @@ ht-degree: 1%
 ---
 # Microsoft Dynamics 365統合の使用
 
-Microsoft Dynamics 365とのAdobe Campaign Standard統合では、いくつかのデータフローが実行されます。 これらのフローについて詳しくは、[このページ ](../../integrating/using/d365-acs-self-service-app-workflows.md)を参照してください。
+Microsoft Dynamics 365とのAdobe Campaign Standard統合では、いくつかのデータフローが実行されます。 これらのフローについて詳しくは、[このページ &#x200B;](../../integrating/using/d365-acs-self-service-app-workflows.md)を参照してください。
 
-データフローの詳細については、このドキュメントの[ データフロー](#data-flows) セクションを参照してください。
+データフローの詳細については、このドキュメントの[&#x200B; データフロー](#data-flows) セクションを参照してください。
 
 ## Adobe Campaign Standard ユーザーエクスペリエンス
 

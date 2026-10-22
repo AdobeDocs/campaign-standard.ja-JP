@@ -67,7 +67,7 @@ ht-degree: 1%
 
 **Web サイトからトリガーを生成**
 
-「[ トランザクションメッセージテンプレートの編集](../../integrating/using/using-triggers-in-campaign.md#editing-the-transactional-message-template)」の手順に従って、トランザクションテンプレートを編集および公開します。 続いて、web サイトからのトリガーの生成をテストします。
+「[&#x200B; トランザクションメッセージテンプレートの編集](../../integrating/using/using-triggers-in-campaign.md#editing-the-transactional-message-template)」の手順に従って、トランザクションテンプレートを編集および公開します。 続いて、web サイトからのトリガーの生成をテストします。
 
 トリガーがAnalyticsで受信された場合は、次の手順に進みます。 そうでない場合は、次の項目を確認してください。
 

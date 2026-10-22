@@ -69,14 +69,14 @@ Adobe Campaignは、クラウドベースのソリューションとして、管
 
 利用可能な様々なメニューは次のとおりです。
 
-* [ ユーザーとセキュリティ ](../../administration/using/about-access-management.md)：このメニューを使用すると、プラットフォーム（ユーザー、役割、セキュリティグループ、ユニット）へのアクセスを管理できます。
-* [ チャネル ](../../administration/using/about-channel-configuration.md)：このメニューは、様々なプラットフォームチャネル（電子メール、モバイル）にリンクされている技術的なパラメーターと、タイポロジおよび強制隔離の管理を再グループ化します。
-* [ アプリケーション設定](../../administration/using/external-accounts.md)：このメニューでは、様々なアプリケーション要素（外部アカウント、オプション、技術ワークフロー）を設定できます。
+* [&#x200B; ユーザーとセキュリティ &#x200B;](../../administration/using/about-access-management.md)：このメニューを使用すると、プラットフォーム（ユーザー、役割、セキュリティグループ、ユニット）へのアクセスを管理できます。
+* [&#x200B; チャネル &#x200B;](../../administration/using/about-channel-configuration.md)：このメニューは、様々なプラットフォームチャネル（電子メール、モバイル）にリンクされている技術的なパラメーターと、タイポロジおよび強制隔離の管理を再グループ化します。
+* [&#x200B; アプリケーション設定](../../administration/using/external-accounts.md)：このメニューでは、様々なアプリケーション要素（外部アカウント、オプション、技術ワークフロー）を設定できます。
 * [開発](../../developing/using/data-model-concepts.md)：このメニューを使用すると、カスタムリソースを管理したり、診断ツールにアクセスしたりできます。
-* [ インスタンス設定](../../administration/using/branding.md)：このメニューでは、様々なブランドを定義し、その設定（ロゴ、トラッキングの管理、ランディングページにアクセスするためのURL ドメインなど）を設定します。
-* [ デプロイメント ](../../automating/using/managing-packages.md)：このメニューは、パッケージのインポートとエクスポートのオプションを再グループ化します。
+* [&#x200B; インスタンス設定](../../administration/using/branding.md)：このメニューでは、様々なブランドを定義し、その設定（ロゴ、トラッキングの管理、ランディングページにアクセスするためのURL ドメインなど）を設定します。
+* [&#x200B; デプロイメント &#x200B;](../../automating/using/managing-packages.md)：このメニューは、パッケージのインポートとエクスポートのオプションを再グループ化します。
 * [顧客指標](../../audiences/using/active-profiles.md): Adobe Campaignは、アクティブなプロファイルの数を表示するレポートを提供します。 このレポートは情報提供に過ぎず、請求に直接影響を与えません。
-* [ プライバシーツール ](../../start/using/privacy-management.md)：このメニューを使用すると、GDPR アクセス要求と削除要求を作成し、その進化を追跡できます。
+* [&#x200B; プライバシーツール &#x200B;](../../start/using/privacy-management.md)：このメニューを使用すると、GDPR アクセス要求と削除要求を作成し、その進化を追跡できます。
 
 ## ユーザーとセキュリティ {#users-security}
 

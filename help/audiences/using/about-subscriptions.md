@@ -50,8 +50,8 @@ Adobe Campaignを使用して、一連の&#x200B;**サービス**&#x200B;を通�
 
 1. **サービスを作成** – この節[で説明した手順に従って、サブスクリプションサービスを作成します](../../audiences/using/creating-a-service.md)
 1. **リンクを共有** – このページでサービス [を宣伝および共有する方法について説明します](../../audiences/using/promoting-a-service.md)
-1. **サブスクリプションの監視** – このセクション ](../../audiences/using/monitoring-subscriptions.md)では、サービス [に対するサブスクリプションを監視する方法をいくつか紹介します
-1. **サブスクリプションの確認** - [このチュートリアル ](../../audiences/using/confirming-subscription-to-a-service.md)に従って、サブスクリプションの確認メッセージを送信します
+1. **サブスクリプションの監視** – このセクション [&#128279;](../../audiences/using/monitoring-subscriptions.md)では、サービス に対するサブスクリプションを監視する方法をいくつか紹介します
+1. **サブスクリプションの確認** - [このチュートリアル &#x200B;](../../audiences/using/confirming-subscription-to-a-service.md)に従って、サブスクリプションの確認メッセージを送信します
 
 ## その他のリソース
 

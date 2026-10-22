@@ -73,7 +73,7 @@ ht-degree: 38%
 
 1. **[!UICONTROL Reconciliation]** アクティビティを設定します。 ここでのこのアクティビティの目的は、受信データを識別することです。
 
-   * 「**[!UICONTROL Relations]**」タブで、**[!UICONTROL Create element]**&#x200B;を選択し、読み込まれたデータと受信者ターゲティングディメンションとの間のリンクを定義します（[ ターゲティングディメンションとリソース ](../../automating/using/query.md#targeting-dimensions-and-resources)を参照）。 この例では、結合条件の作成に **CRM ID** カスタムフィールドが使用されています。 一意のレコードを識別できる限り、必要なフィールドまたはフィールドの組み合わせを使用します。
+   * 「**[!UICONTROL Relations]**」タブで、**[!UICONTROL Create element]**&#x200B;を選択し、読み込まれたデータと受信者ターゲティングディメンションとの間のリンクを定義します（[&#x200B; ターゲティングディメンションとリソース &#x200B;](../../automating/using/query.md#targeting-dimensions-and-resources)を参照）。 この例では、結合条件の作成に **CRM ID** カスタムフィールドが使用されています。 一意のレコードを識別できる限り、必要なフィールドまたはフィールドの組み合わせを使用します。
    * 「**[!UICONTROL Identification]**」タブで、「**[!UICONTROL Identify the document from the working data]**」オプションをオフのままにします。
 
    ![](assets/import_template_example2.png)
@@ -109,7 +109,7 @@ ht-degree: 38%
 
      >[!NOTE]
      >
-     >これらのプロファイルにダイレクトメールを送信する場合は、この情報がダイレクトメールプロバイダーに不可欠であるため、必ず郵送先住所を含めてください。 また、プロファイルの情報にある「**[!UICONTROL Address specified]**」ボックスがオンになっていることを確認します。 ワークフローからこのオプションを更新するには、更新するフィールドに要素を追加し、**1**&#x200B;を&#x200B;**[!UICONTROL Source]**&#x200B;として指定し、`postalAddress/@addrDefined` フィールドを&#x200B;**[!UICONTROL Destination]**&#x200B;として選択します。 ダイレクトメールと&#x200B;**[!UICONTROL Address specified]** オプションの使用について詳しくは、[このドキュメント ](../../channels/using/about-direct-mail.md#recommendations)を参照してください。
+     >これらのプロファイルにダイレクトメールを送信する場合は、この情報がダイレクトメールプロバイダーに不可欠であるため、必ず郵送先住所を含めてください。 また、プロファイルの情報にある「**[!UICONTROL Address specified]**」ボックスがオンになっていることを確認します。 ワークフローからこのオプションを更新するには、更新するフィールドに要素を追加し、**1**&#x200B;を&#x200B;**[!UICONTROL Source]**&#x200B;として指定し、`postalAddress/@addrDefined` フィールドを&#x200B;**[!UICONTROL Destination]**&#x200B;として選択します。 ダイレクトメールと&#x200B;**[!UICONTROL Address specified]** オプションの使用について詳しくは、[このドキュメント &#x200B;](../../channels/using/about-direct-mail.md#recommendations)を参照してください。
 
 1. 未調整プロファイルを含むトランジションの後にある&#x200B;**[!UICONTROL Deduplication]** アクティビティを設定します。
 
@@ -135,7 +135,7 @@ ht-degree: 38%
 
      >[!NOTE]
      >
-     >これらのプロファイルにダイレクトメールを送信する場合は、この情報がダイレクトメールプロバイダーに不可欠であるため、必ず郵送先住所を含めてください。 また、プロファイルの情報にある「**[!UICONTROL Address specified]**」ボックスがオンになっていることを確認します。 ワークフローからこのオプションを更新するには、更新するフィールドに要素を追加し、**1**&#x200B;を&#x200B;**[!UICONTROL Source]**&#x200B;として指定し、**[postalAddress/@addrDefined]** フィールドを&#x200B;**[!UICONTROL Destination]**&#x200B;として選択します。 ダイレクトメールと&#x200B;**[!UICONTROL Address specified]** オプションの使用について詳しくは、[このドキュメント ](../../channels/using/about-direct-mail.md#recommendations)を参照してください。
+     >これらのプロファイルにダイレクトメールを送信する場合は、この情報がダイレクトメールプロバイダーに不可欠であるため、必ず郵送先住所を含めてください。 また、プロファイルの情報にある「**[!UICONTROL Address specified]**」ボックスがオンになっていることを確認します。 ワークフローからこのオプションを更新するには、更新するフィールドに要素を追加し、**1**&#x200B;を&#x200B;**[!UICONTROL Source]**&#x200B;として指定し、**[postalAddress/@addrDefined]** フィールドを&#x200B;**[!UICONTROL Destination]**&#x200B;として選択します。 ダイレクトメールと&#x200B;**[!UICONTROL Address specified]** オプションの使用について詳しくは、[このドキュメント &#x200B;](../../channels/using/about-direct-mail.md#recommendations)を参照してください。
 
 1. **[!UICONTROL Segmentation]** アクティビティの3回目の移行の後、データベースに挿入されていないデータを追跡する場合は、**[!UICONTROL Extract file]** アクティビティと&#x200B;**[!UICONTROL Transfer file]** アクティビティを追加します。 これらのアクティビティを設定して、必要な列をエクスポートし、ファイルを取得可能な FTP または SFTP サーバーにファイルを転送します。
 1. **[!UICONTROL End]** アクティビティを追加し、ワークフローテンプレートを保存します。

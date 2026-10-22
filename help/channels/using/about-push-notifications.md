@@ -107,7 +107,7 @@ Adobe Campaign では、2 つのプッシュ通知を使用できます。
 
 1. モバイルアプリケーションの設定にチャネル固有の設定を追加します。 詳しくは、[Adobe Campaign のチャネル固有のアプリケーション設定](../../administration/using/configuring-a-mobile-application.md#channel-specific-config)を参照してください。
 
-1. モバイルユースケースの実装をサポートするには、[Adobe Experience Platform SDKを使用してAdobe Campaign Standardでサポートされているモバイルユースケース ](../../administration/using/configuring-rules-launch.md)の拡張機能、タグルール、SDKの実装に関する詳細な手順を参照してください。
+1. モバイルユースケースの実装をサポートするには、[Adobe Experience Platform SDKを使用してAdobe Campaign Standardでサポートされているモバイルユースケース &#x200B;](../../administration/using/configuring-rules-launch.md)の拡張機能、タグルール、SDKの実装に関する詳細な手順を参照してください。
 
 ## プッシュ通知に関するFAQ {#push-faq}
 
@@ -117,7 +117,7 @@ Adobe Campaign では、2 つのプッシュ通知を使用できます。
 
 * [ビデオチュートリアル](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/communication-channels/mobile/push/creating-a-push-notification.html)
 * [製品ドキュメント](../../channels/using/about-push-notifications.md)
-* AEP SDK [ ドキュメント ](../../administration/using/configuring-a-mobile-application.md)を使用して設定
+* AEP SDK [&#x200B; ドキュメント &#x200B;](../../administration/using/configuring-a-mobile-application.md)を使用して設定
 * [コミュニティページ](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community)
 
 ### Campaignでプッシュトークンを取得するにはどうすればよいですか？ {#push-token-acquisition}
@@ -172,26 +172,26 @@ Androidの場合、Campaignは通知ペイロードではなくデータペイ�
 
 ### Campaignからプッシュ通知が配信されますが、メディアファイルが表示されません。{#media-file-unavailable}
 
-モバイルアプリ開発者は、アプリ内のメディアファイルのサポートを処理する必要があります。 ネットワーク帯域幅がメディアファイルのレンダリングを妨げる場合もあります。 追加のポインターについては、この[ ページ ](../../administration/using/image-push-notification.md)を参照してください。
+モバイルアプリ開発者は、アプリ内のメディアファイルのサポートを処理する必要があります。 ネットワーク帯域幅がメディアファイルのレンダリングを妨げる場合もあります。 追加のポインターについては、この[&#x200B; ページ &#x200B;](../../administration/using/image-push-notification.md)を参照してください。
 
 ### Campaignでプッシュレポートを有効にするには、どうすればよいですか？ {#push-reporting-enable}
 
 以下の手順に従います。
 
 * プッシュトラッキングのポストバックを設定します。 手順は[こちら](../../administration/using/configuring-a-mobile-application.md)にあります。
-* モバイルコアからtrackAction APIを実装します。 詳しくは、この[ ページ ](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/)を参照してください。
+* モバイルコアからtrackAction APIを実装します。 詳しくは、この[&#x200B; ページ &#x200B;](https://developer.adobe.com/client-sdks/documentation/mobile-core/api-reference/)を参照してください。
 
-詳細な手順については、この[ ページ ](../../administration/using/push-tracking.md)を参照してください。
+詳細な手順については、この[&#x200B; ページ &#x200B;](../../administration/using/push-tracking.md)を参照してください。
 
 ### プッシュチャネルで使用できるレポートは？ {#push-report-available}
 
-Adobe Campaignのプッシュ通知チャネルでは、すぐに使用できるレポートを利用できます。 この[ ドキュメント ](../../reporting/using/push-notification-report.md)を参照してください。
+Adobe Campaignのプッシュ通知チャネルでは、すぐに使用できるレポートを利用できます。 この[&#x200B; ドキュメント &#x200B;](../../reporting/using/push-notification-report.md)を参照してください。
 
-各プッシュ指標の計算方法については、この[ ページ ](../../reporting/using/indicator-calculation.md#push-notification-delivery)を参照してください。
+各プッシュ指標の計算方法については、この[&#x200B; ページ &#x200B;](../../reporting/using/indicator-calculation.md#push-notification-delivery)を参照してください。
 
 ### ディープリンクはプッシュおよびアプリ内メッセージでサポートされていますか？ {#deeplink-push}
 
 はい、ディープリンクはプッシュメッセージでサポートされています。 ディープリンクには次のものが含まれます。
 
 * ディープリンクを機能させるには、配信トラッキングを無効にする必要があることを示す言語。
-* AppsflyerとBranchをパートナーとして使用して、ディープリンクの追跡を行うことができます。 分岐とAdobe Campaign Standardの統合について詳しくは、この[ ページ ](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1)を参照してください。
+* AppsflyerとBranchをパートナーとして使用して、ディープリンクの追跡を行うことができます。 分岐とAdobe Campaign Standardの統合について詳しくは、この[&#x200B; ページ &#x200B;](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1)を参照してください。

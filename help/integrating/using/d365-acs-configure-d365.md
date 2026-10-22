@@ -45,7 +45,7 @@ Microsoft Dynamics 365との連携を設定し、Adobe Campaign Standardを使�
 
 ## 概要
 
-Adobe Campaign StandardとMicrosoft Dynamics 365の統合に関する一般的な説明については、[このページ ](../../integrating/using/d365-acs-get-started.md)を参照してください。
+Adobe Campaign StandardとMicrosoft Dynamics 365の統合に関する一般的な説明については、[このページ &#x200B;](../../integrating/using/d365-acs-get-started.md)を参照してください。
 
 統合を有効にするには、複数のアプリケーションを設定する必要がありますが、この記事では、Dynamics 365内で必要な手順に焦点を当てます。
 
@@ -144,7 +144,7 @@ OAuth アクセストークンを生成するには、次の手順に従いま�
 Dynamics 365 アプリをCampaign Standard環境に統合するには、次の手順に従います。
 
 1. [Microsoft Business Apps](https://appsource.microsoft.com/en-us/marketplace/apps)を参照し、検索バーで_Adobe Campaign Standard_を検索します。
-または、この[ リンク ](https://appsource.microsoft.com/en-us/product/dynamics-365/adobe.adobe_campaign_d365?tab=Overview){target="_blank"}に移動することもできます。
+または、この[&#x200B; リンク &#x200B;](https://appsource.microsoft.com/en-us/product/dynamics-365/adobe.adobe_campaign_d365?tab=Overview){target="_blank"}に移動することもできます。
 1. 手順に従って、Dynamics 365 インスタンス用のアプリをインストールします。
 1. インストールが完了したら、Dynamics 365 インスタンスに移動し、管理者としてログインします。
 1. 右上隅の歯車アイコンをクリックし、**[!UICONTROL Advanced Settings]**&#x200B;をクリックします。 上部バナーで、**[!UICONTROL Settings]**&#x200B;の横にあるドロップダウンをクリックし、**[!UICONTROL Process Center]**&#x200B;の下の&#x200B;**[!UICONTROL Processes]**&#x200B;をクリックします。
@@ -160,4 +160,4 @@ Dynamics 365 アプリをCampaign Standard環境に統合するには、次の�
 **関連トピック**
 
 * [Microsoft Dynamics 365統合用Adobe Developerの設定](../../integrating/using/d365-acs-configure-adobe-io.md)は、統合を設定する次の手順です
-* [ セルフサービス統合アプリの基本を学ぶ](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md)には、統合を開始するための手順の完全なリストが含まれています。
+* [&#x200B; セルフサービス統合アプリの基本を学ぶ](../../integrating/using/d365-acs-self-service-app-quick-start-guide.md)には、統合を開始するための手順の完全なリストが含まれています。

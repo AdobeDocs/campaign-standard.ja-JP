@@ -41,7 +41,7 @@ Return to Sender情報を組み込んだダイレクトメールプロバイダ�
 
 ![](assets/direct_mail_return_sender_1.png)
 
-インポートテンプレートは&#x200B;**[!UICONTROL Adobe Campaign > Resources > Templates > Import templates > Update Direct Mail quarantines and delivery logs]**&#x200B;で利用できます。 このテンプレートを複製して、独自のテンプレートを作成します。 インポートテンプレートの使用について詳しくは、[ インポートテンプレートの使用](../../automating/using/importing-data-with-import-templates.md#setting-up-import-templates)を参照してください。
+インポートテンプレートは&#x200B;**[!UICONTROL Adobe Campaign > Resources > Templates > Import templates > Update Direct Mail quarantines and delivery logs]**&#x200B;で利用できます。 このテンプレートを複製して、独自のテンプレートを作成します。 インポートテンプレートの使用について詳しくは、[&#x200B; インポートテンプレートの使用](../../automating/using/importing-data-with-import-templates.md#setting-up-import-templates)を参照してください。
 
 ![](assets/direct_mail_return_sender_2.png)
 

@@ -53,7 +53,7 @@ ht-degree: 42%
 
 ## メール配信の作成{#creating-an-email-delivery}
 
-1. 各セグメントの後に[ メール配信](../../automating/using/email-delivery.md)をドラッグ&amp;ドロップします。
+1. 各セグメントの後に[&#x200B; メール配信](../../automating/using/email-delivery.md)をドラッグ&amp;ドロップします。
 1. アクティビティをクリックし、![](assets/edit_darkgrey-24px.png) を選択して編集します。
 1. 「**[!UICONTROL Simple email]**」を選択し、「**[!UICONTROL Next]**」をクリックします。
 1. 「**[!UICONTROL Add an outbound transition without the population]**」を選択し、「**[!UICONTROL Next]**」をクリックします。

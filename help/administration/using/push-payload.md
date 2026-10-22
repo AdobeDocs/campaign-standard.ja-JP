@@ -121,7 +121,7 @@ Adobe Campaignを使用すると、iOSおよびAndroidのモバイルデバイ�
 
 ペイロードの最も重要なセクションはaps ディクショナリで、これはApple定義のキーを含み、通知を受け取るシステムがユーザーに警告する方法を判断するために使用されます。 このセクションには、プッシュ通知の動作を作成するためにモバイルアプリで使用される定義済みキーが含まれています。
 
-Apps内の属性について詳しくは、Apple開発者ドキュメントを参照してください。[ リモート通知ペイロードの作成](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html#//apple_ref/doc/uid/TP40008194-CH10-SW1)。
+Apps内の属性について詳しくは、Apple開発者ドキュメントを参照してください。[&#x200B; リモート通知ペイロードの作成](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html#//apple_ref/doc/uid/TP40008194-CH10-SW1)。
 
 ### Android アプリの場合 {#payload-structure-android}
 
@@ -165,7 +165,7 @@ Apps内の属性について詳しくは、Apple開発者ドキュメントを�
 }
 ```
 
-**Google FCM テスター[を使用するためのJSON サンプルペイロード ](https://pushtry.com/)**
+**Google FCM テスター[を使用するためのJSON サンプルペイロード &#x200B;](https://pushtry.com/)**
 
 ```
 {
@@ -209,7 +209,7 @@ Apps内の属性について詳しくは、Apple開発者ドキュメントを�
 
 ペイロードには、カスタムキーと値のペアを含むすべてのプッシュ通知配信コンテンツを含むデータメッセージが含まれており、クライアントアプリは、必要に応じてプッシュ通知を作成および表示するか、他のビジネスロジックを追加するためにメッセージを処理する必要があります。
 
-Android ペイロードの側面を理解するには、[ メッセージングの概念とオプション（fcm） ](https://firebase.google.com/docs/cloud-messaging/concept-options)を参照してください。
+Android ペイロードの側面を理解するには、[&#x200B; メッセージングの概念とオプション（fcm） &#x200B;](https://firebase.google.com/docs/cloud-messaging/concept-options)を参照してください。
 
 >[!NOTE]
 >
@@ -226,16 +226,16 @@ Android ペイロードの側面を理解するには、[ メッセージング�
 | カテゴリ | カテゴリー | カテゴリー | リモート通知でカスタムアクションを表示する。 <br> カテゴリーキーを使用すると、そのカテゴリのアクションを警告インターフェイスのボタンとしてシステムに表示できます。 |
 | カスタムフィールド | custom_field1, custom_field2 ... | custom_field1, custom_field2 ... | アプリに送信するカスタムデータ。 |
 | リッチメディアコンテンツ URL （画像、GIF、オーディオおよびビデオファイル） <br> （iOS 10以降にのみ適用） | media-attachment-url | NA | 通知にリッチコンテンツを追加するためのメディアファイルのURL。 <br>このURLに値を指定すると、可変コンテンツフラグが自動的にペイロードに送信されます。<br> （iOS 10以降にのみ適用） |
-| 可変コンテンツ <br> （iOS 10以降にのみ適用） | mutable-content | NA | アプリの通知サービス拡張機能は、可変コンテンツキーを使用してすべてのリモート通知を「インターセプト」し、リクエストペイロードのコンテンツを処理/操作できるようにします。これにより、通知をカスタマイズできます。 この機能のユースケースには、複数のメディアのダウンロードと表示、プッシュペイロードに存在する暗号化データの復号化が含まれます。 詳細については、[ リモート通知のペイロードの変更](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html)を参照してください。 <br> （iOS 10以降にのみ適用） |
+| 可変コンテンツ <br> （iOS 10以降にのみ適用） | mutable-content | NA | アプリの通知サービス拡張機能は、可変コンテンツキーを使用してすべてのリモート通知を「インターセプト」し、リクエストペイロードのコンテンツを処理/操作できるようにします。これにより、通知をカスタマイズできます。 この機能のユースケースには、複数のメディアのダウンロードと表示、プッシュペイロードに存在する暗号化データの復号化が含まれます。 詳細については、[&#x200B; リモート通知のペイロードの変更](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/ModifyingNotifications.html)を参照してください。 <br> （iOS 10以降にのみ適用） |
 | 利用可能なコンテンツ | content-available | NA | このオプションを選択すると、iOS アプリがバックグラウンドまたはサスペンド状態のときに起動できるようになります。 ウェイクアップとは、アプリがバックグラウンドで実行され、プッシュ通知データペイロードの受信を担当する適切なイベントハンドラーが制御を取得し、データを使用してカスタムプッシュ通知の作成や表示など、あらゆる計算を行うことができることを意味します。 詳細については、[通知配信を使用したアプリの起動](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/CreatingtheNotificationPayload.html)を参照してください。 |
 | リッチメディアコンテンツ URL （画像ファイル） <br> （Androidにのみ適用） | NA | media-attachment-url | 通知にリッチコンテンツを追加する画像ファイルのURL。 |
-| NA | _mId<br>_dId | _mId <br>_dId | broadlogIdおよびdeliveryIdの値。<br> プッシュ通知がクリック/開かれたときにトラッキング ポストバックをトラッキングに呼び出してトラッキングを実行する場合は、これらの属性が必要です。 この情報は、ユーザーの介入なしにアプリサーバーによって内部的に計算および送信されます。<br> ポストバックに関する情報は、この[ ページ ](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback)にあります。 |
+| NA | _mId<br>_dId | _mId <br>_dId | broadlogIdおよびdeliveryIdの値。<br> プッシュ通知がクリック/開かれたときにトラッキング ポストバックをトラッキングに呼び出してトラッキングを実行する場合は、これらの属性が必要です。 この情報は、ユーザーの介入なしにアプリサーバーによって内部的に計算および送信されます。<br> ポストバックに関する情報は、この[&#x200B; ページ &#x200B;](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback)にあります。 |
 
 ### モバイルアプリコードでペイロード情報を取得する方法 {#payload-information}
 
 アプリサーバーが送信したペイロード情報は、プッシュ通知を受信したことを示すイベントハンドラー内のモバイルアプリコードによって受信されます。 このイベントは、作業中のモバイルプラットフォームと、アプリが前景または背景で実行されているかどうかに応じて異なります。 次のドキュメントは、ユースケースに基づいて、処理するイベントハンドラーを特定するのに役立ちます。
 
-* iOS アプリケーション：[ リモート通知](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/HandlingRemoteNotifications.html)の&#x200B;**リモート通知の処理** セクション。
+* iOS アプリケーション：[&#x200B; リモート通知](https://developer.apple.com/library/archive/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/HandlingRemoteNotifications.html)の&#x200B;**リモート通知の処理** セクション。
 * Android アプリケーション：[Android クライアントアプリでメッセージを受信](https://firebase.google.com/docs/cloud-messaging/android/receive)
 
 iOS モバイルアプリの&#x200B;**サンプル**

@@ -52,7 +52,7 @@ ht-degree: 7%
 
    プロファイルのプロパティウィンドウには、すべてのプロファイル情報にアクセスできるタブがいくつか用意されています。
 
-   Adobe Campaignで作成または拡張されたカスタムリソースによっては、他のタブが表示されることもあります。 カスタムリソースについて詳しくは、[ カスタムリソースについて](../../developing/using/data-model-concepts.md)を参照してください。
+   Adobe Campaignで作成または拡張されたカスタムリソースによっては、他のタブが表示されることもあります。 カスタムリソースについて詳しくは、[&#x200B; カスタムリソースについて](../../developing/using/data-model-concepts.md)を参照してください。
 
    >[!NOTE]
    >
@@ -69,9 +69,9 @@ Adobe Campaign Standard APIを使用してプロファイルを編集するこ�
 
 「**[!UICONTROL General]**」タブには、プロファイルに関する次の情報がグループ化されます。
 
-* 連絡先情報：受信者の名前、姓、生年月日、写真、優先言語（[多言語メール ](../../channels/using/creating-a-multilingual-email.md)用）など
+* 連絡先情報：受信者の名前、姓、生年月日、写真、優先言語（[多言語メール &#x200B;](../../channels/using/creating-a-multilingual-email.md)用）など
 * 受信者のメールアドレス、携帯電話番号、オプトアウト情報を含む、プロファイルに連絡できるチャネル。
-* 郵送先住所（[ ダイレクトメール ](../../channels/using/about-direct-mail.md)の場合）、連絡先のタイムゾーン（[ タイムゾーン内のメッセージのスケジュール ](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md)まで）。
+* 郵送先住所（[&#x200B; ダイレクトメール &#x200B;](../../channels/using/about-direct-mail.md)の場合）、連絡先のタイムゾーン（[&#x200B; タイムゾーン内のメッセージのスケジュール &#x200B;](../../sending/using/sending-messages-at-the-recipient-s-time-zone.md)まで）。
 * アクセス認証。受信者の組織単位を示します（[権限の管理](../../administration/using/about-access-management.md)まで）。 [プロファイルの分割](../../administration/using/organizational-units.md#partitioning-profiles)も参照してください。
 
 ![](assets/profile_creation4.png)
@@ -80,10 +80,10 @@ Adobe Campaign Standard APIを使用してプロファイルを編集するこ�
 
 「**[!UICONTROL Sending logs]**」タブと「**[!UICONTROL Tracking logs]**」タブには、プロファイルに送信された配信のリストと、関連するすべてのトラッキングデータがグループ化されます。
 
-ログの送信とトラッキングについて詳しくは、[配信ログ ](../../sending/using/monitoring-a-delivery.md#delivery-logs)および[ トラッキングメッセージ ](../../sending/using/tracking-messages.md)の節を参照してください。
+ログの送信とトラッキングについて詳しくは、[配信ログ &#x200B;](../../sending/using/monitoring-a-delivery.md#delivery-logs)および[&#x200B; トラッキングメッセージ &#x200B;](../../sending/using/tracking-messages.md)の節を参照してください。
 
 ## 購読 {#subscriptions}
 
 連絡先のサブスクリプションは、対応するタブに一覧表示されます。 サービスの購読について詳しくは、[この節](../../audiences/using/about-subscriptions.md)を参照してください。
 
-「**[!UICONTROL Mobile App Subscriptions]**」タブは、プッシュ通知を参照します。 詳しくは、[ プッシュ通知](../../channels/using/about-push-notifications.md) チャネルを参照してください。
+「**[!UICONTROL Mobile App Subscriptions]**」タブは、プッシュ通知を参照します。 詳しくは、[&#x200B; プッシュ通知](../../channels/using/about-push-notifications.md) チャネルを参照してください。

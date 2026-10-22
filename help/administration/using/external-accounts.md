@@ -106,7 +106,7 @@ ETL のためのファイルやデータを管理する際、これらのファ�
 * 時々 SFTP にログインして、問題がないか直接確認します。
 * SFTP のディスク管理は、基本的に管理者の責任となります。
 
-また、SFTP接続を開始しようとしているパブリック IPは、Campaign インスタンスの許可リストに追加する必要があることに注意してください。 許可リストにIP アドレスを追加するには、認証に使用する公開鍵を提供するとともに、[ サポートチケット ](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)を介してリクエストできます。
+また、SFTP接続を開始しようとしているパブリック IPは、Campaign インスタンスの許可リストに追加する必要があることに注意してください。 許可リストにIP アドレスを追加するには、認証に使用する公開鍵を提供するとともに、[&#x200B; サポートチケット &#x200B;](https://helpx.adobe.com/jp/enterprise/using/support-for-experience-cloud.html)を介してリクエストできます。
 
 SFTP サーバーは、コントロールパネルから管理できます。 詳しくは、[コントロールパネルのドキュメント](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=ja)を参照してください。
 

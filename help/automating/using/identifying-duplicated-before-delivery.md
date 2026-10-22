@@ -44,7 +44,7 @@ ht-degree: 79%
 
 ![](assets/deduplication_example_workflow.png)
 
-* メールのターゲットを定義できる[ クエリ ](../../automating/using/query.md)です。 このワークフローでは、18 歳から 25 歳までのプロファイルのうち、1 年以上クライアントデータベースに存在しているすべてのプロファイルがターゲットになります。
+* メールのターゲットを定義できる[&#x200B; クエリ &#x200B;](../../automating/using/query.md)です。 このワークフローでは、18 歳から 25 歳までのプロファイルのうち、1 年以上クライアントデータベースに存在しているすべてのプロファイルがターゲットになります。
 
   ![](assets/deduplication_example_query.png)
 
@@ -56,5 +56,5 @@ ht-degree: 79%
 
   ![](assets/deduplication_example_dedup.png)
 
-* 重複排除のメインのアウトバウンドトランジションの後に配置された[ メール配信](../../automating/using/email-delivery.md)。
-* 重複を&#x200B;**重複** オーディエンスに保存するために、重複排除の追加移行後に配置された[ オーディエンスを保存](../../automating/using/save-audience.md) アクティビティ。 このオーディエンスを再利用して、メール配信のたびにオーディエンスのメンバーを直接除外することができます。
+* 重複排除のメインのアウトバウンドトランジションの後に配置された[&#x200B; メール配信](../../automating/using/email-delivery.md)。
+* 重複を&#x200B;**重複** オーディエンスに保存するために、重複排除の追加移行後に配置された[&#x200B; オーディエンスを保存](../../automating/using/save-audience.md) アクティビティ。 このオーディエンスを再利用して、メール配信のたびにオーディエンスのメンバーを直接除外することができます。

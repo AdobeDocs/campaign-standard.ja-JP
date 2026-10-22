@@ -47,11 +47,11 @@ Microsoft Dynamics 365資格情報は、統合アプリケーションにMicroso
 
 ![](assets/do-not-localize/d365-to-acs-ui-page-workflows-settings-d365.png)
 
-* **[!UICONTROL Client ID]**: [このセクション ](../../integrating/using/d365-acs-configure-d365.md#register-a-new-app)でクライアント IDを参照する方法について説明します
+* **[!UICONTROL Client ID]**: [このセクション &#x200B;](../../integrating/using/d365-acs-configure-d365.md#register-a-new-app)でクライアント IDを参照する方法について説明します
 
-* **[!UICONTROL Client Secret]**: [このセクション ](../../integrating/using/d365-acs-configure-d365.md#generate-a-client-secret)でクライアントシークレットを生成する方法について説明します
+* **[!UICONTROL Client Secret]**: [このセクション &#x200B;](../../integrating/using/d365-acs-configure-d365.md#generate-a-client-secret)でクライアントシークレットを生成する方法について説明します
 
-* **[!UICONTROL Tenant]**: [このセクション ](../../integrating/using/d365-acs-configure-d365.md#get-the-tenant-id)でテナント IDを見つける方法について説明します
+* **[!UICONTROL Tenant]**: [このセクション &#x200B;](../../integrating/using/d365-acs-configure-d365.md#get-the-tenant-id)でテナント IDを見つける方法について説明します
 
 * **[!UICONTROL URL]**: URLの形式は`https://&lt;servername&gt;.api.crm.dynamics.com/`です
 
@@ -85,9 +85,9 @@ Microsoft Dynamics 365統合用のCampaign SFTP設定を定義するには、次
 
 * **SFTP ホスト**：このフィールドには&lt;campaign-instance-name>.campaign.adobe.comが含まれます。 統合アプリのヘッダーには、**組織**&#x200B;と&#x200B;**インスタンス**&#x200B;の両方が含まれます。 URLの「campaign-instance-name」部分は、このインスタンス値に見つかった名前になります。
 
-* **SFTP ユーザー**: SFTP ユーザーがある場合は、ここに追加します。 それ以外は、[このセクション ](#ac-control-panel-settings)を参照してください。 プロセスの一部として、ユーザー名が表示されます。
+* **SFTP ユーザー**: SFTP ユーザーがある場合は、ここに追加します。 それ以外は、[このセクション &#x200B;](#ac-control-panel-settings)を参照してください。 プロセスの一部として、ユーザー名が表示されます。
 
-* **SFTP キー**: SSH キーがある場合は、ここに追加します。 それ以外は、[このセクション ](#ac-control-panel-settings)を参照してください。
+* **SFTP キー**: SSH キーがある場合は、ここに追加します。 それ以外は、[このセクション &#x200B;](#ac-control-panel-settings)を参照してください。
 
 * **IP範囲**&#x200B;は、Adobe Campaign SFTP設定に含める必要があります。 統合でSFTP エンドポイントを使用するには、これらを許可リストに加えるする必要があります。
 
@@ -95,7 +95,7 @@ Microsoft Dynamics 365統合用のCampaign SFTP設定を定義するには、次
 
 ## Adobe CampaignでのSFTP設定 {#ac-control-panel-settings}
 
-次のセクションでは、[ キャンペーンCampaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja)を使用したSFTP管理について説明します。
+次のセクションでは、[&#x200B; キャンペーンCampaign コントロールパネル](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=ja)を使用したSFTP管理について説明します。
 
 * [SFTP の管理について](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=ja#sftp-management)
 
@@ -109,4 +109,4 @@ Microsoft Dynamics 365統合用のCampaign SFTP設定を定義するには、次
 
 設定が完了したら、秘密鍵を使用してSFTP サーバーにログインし、「d365_loads/exports」ディレクトリを作成します。
 
-Adobe Campaign Standard SFTP サーバーについて詳しくは、[このページ ](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/monitoring-server-capacity.html?lang=ja#sftp-management)を参照してください。
+Adobe Campaign Standard SFTP サーバーについて詳しくは、[このページ &#x200B;](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/monitoring-server-capacity.html?lang=ja#sftp-management)を参照してください。

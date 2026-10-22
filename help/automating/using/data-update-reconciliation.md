@@ -39,7 +39,7 @@ ht-degree: 49%
 
 ![](assets/identification_example2.png)
 
-* 読み込むファイルのデータを読み込んで検出する[ ファイルを読み込む](../../automating/using/load-file.md) アクティビティ。 インポートされたファイルには、次のデータが含まれています。
+* 読み込むファイルのデータを読み込んで検出する[&#x200B; ファイルを読み込む](../../automating/using/load-file.md) アクティビティ。 インポートされたファイルには、次のデータが含まれています。
 
   ```
   lastname;firstname;email;dateofbirth
@@ -58,6 +58,6 @@ ht-degree: 49%
 
   ![](assets/identification_example1.png)
 
-* プロファイルのオーディエンスを保存する[ オーディエンスを保存](../../automating/using/save-audience.md) アクティビティ。
+* プロファイルのオーディエンスを保存する[&#x200B; オーディエンスを保存](../../automating/using/save-audience.md) アクティビティ。
 
   ![](assets/identification_example3.png)

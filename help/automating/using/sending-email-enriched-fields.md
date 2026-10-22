@@ -48,11 +48,11 @@ ht-degree: 75%
 
 ワークフローを構築するには、次の手順に従います。
 
-1. [ クエリ ](../../automating/using/query.md) アクティビティをワークフローにドラッグ&amp;ドロップし、それを開いてメイン ターゲットを定義します。
+1. [&#x200B; クエリ &#x200B;](../../automating/using/query.md) アクティビティをワークフローにドラッグ&amp;ドロップし、それを開いてメイン ターゲットを定義します。
 
    <!--The Query activity is presented in the [Query](../../automating/using/query.md) section.-->
 
-1. [ ファイルを読み込み](../../automating/using/load-file.md) アクティビティをドラッグ&amp;ドロップして、一部のデータをプロファイルに割り当てます。 この例では、データベースの一部のプロファイルに対応するアカウント番号が含まれているファイルを読み込みます。
+1. [&#x200B; ファイルを読み込み](../../automating/using/load-file.md) アクティビティをドラッグ&amp;ドロップして、一部のデータをプロファイルに割り当てます。 この例では、データベースの一部のプロファイルに対応するアカウント番号が含まれているファイルを読み込みます。
 
    ![](assets/load_file_activity.png)
 
@@ -70,13 +70,13 @@ ht-degree: 75%
 
    詳しくは、[エンリッチメント](../../automating/using/enrichment.md)の節を参照してください。
 
-1. [ セグメント化](../../automating/using/segmentation.md) アクティビティをワークフローにドラッグ&amp;ドロップし、それを開いてメインターゲットを調整します。
+1. [&#x200B; セグメント化](../../automating/using/segmentation.md) アクティビティをワークフローにドラッグ&amp;ドロップし、それを開いてメインターゲットを調整します。
 
    ![](assets/load_file_segmentation.png)
 
    詳しくは、[セグメント化](../../automating/using/segmentation.md)の節を参照してください。
 
-1. [ メール配信](../../automating/using/email-delivery.md) アクティビティをワークフローにドラッグ&amp;ドロップして開きます。
+1. [&#x200B; メール配信](../../automating/using/email-delivery.md) アクティビティをワークフローにドラッグ&amp;ドロップして開きます。
 
    <!--The Email delivery activity is presented in the [Email delivery](../../automating/using/email-delivery.md) section.-->
 

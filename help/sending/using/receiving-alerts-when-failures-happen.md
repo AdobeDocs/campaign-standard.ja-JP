@@ -83,7 +83,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->ダッシュボードとアラート条件にアクセスして設定するには、管理者権限を持っているか、**配信スーパーバイザー** セキュリティグループに表示されている必要があります。 標準ユーザーは、Adobe Campaign インターフェイスのダッシュボードにアクセスできません。 アラート通知のみを受信できます。 Adobe Campaignのユーザーとセキュリティについて詳しくは、[ ユーザーの種類](../../administration/using/users-management.md)および[ セキュリティグループについて](../../administration/using/managing-groups-and-users.md#about-security-groups)を参照してください。
+>ダッシュボードとアラート条件にアクセスして設定するには、管理者権限を持っているか、**配信スーパーバイザー** セキュリティグループに表示されている必要があります。 標準ユーザーは、Adobe Campaign インターフェイスのダッシュボードにアクセスできません。 アラート通知のみを受信できます。 Adobe Campaignのユーザーとセキュリティについて詳しくは、[&#x200B; ユーザーの種類](../../administration/using/users-management.md)および[&#x200B; セキュリティグループについて](../../administration/using/managing-groups-and-users.md#about-security-groups)を参照してください。
 
 Adobe Campaignのインターフェイスでは、次のことができます。
 
@@ -112,7 +112,7 @@ Adobe Campaignのインターフェイスでは、次のことができます。
 
    ![](assets/delivery-alerting_dashboard_general.png)
 
-1. **[!UICONTROL Alert group]** ドロップダウンリストから通知する受信者のグループを選択します。 グループを変更または作成するには、[ セキュリティグループの作成とユーザーの割り当て](../../administration/using/managing-groups-and-users.md#creating-a-security-group-and-assigning-users)を参照してください。
+1. **[!UICONTROL Alert group]** ドロップダウンリストから通知する受信者のグループを選択します。 グループを変更または作成するには、[&#x200B; セキュリティグループの作成とユーザーの割り当て](../../administration/using/managing-groups-and-users.md#creating-a-security-group-and-assigning-users)を参照してください。
 1. **[!UICONTROL Delivery alerting criteria]** セクションで、**[!UICONTROL Create element]**&#x200B;をクリックして条件を追加します。 アラート条件について[を参照](#about-alerting-criteria)。
 1. 「**[!UICONTROL Edit properties]**」ボタンをクリックします。 「**[!UICONTROL Criteria parameters]**」タブで、基準の適用方法を定義します。 [条件パラメーター](#criteria-parameters)を参照してください。
 1. **[!UICONTROL Create]**&#x200B;をクリックしてダッシュボードを保存します。
@@ -178,7 +178,7 @@ Adobe Campaignのインターフェイスでは、次のことができます。
 
    ![](assets/delivery-alerting_extend-delivery-cus.png)
 
-   既存のリソースの拡張について詳しくは、[ リソースの定義](../../developing/using/creating-or-extending-the-resource.md)を参照してください。
+   既存のリソースの拡張について詳しくは、[&#x200B; リソースの定義](../../developing/using/creating-or-extending-the-resource.md)を参照してください。
 
 1. **[!UICONTROL Delivery]** リソースで、**[!UICONTROL Filter definition]** タブに移動し、**[!UICONTROL Add an element]**&#x200B;をクリックしてフィルターを作成します。
 
@@ -188,9 +188,9 @@ Adobe Campaignのインターフェイスでは、次のことができます。
 
    ![](assets/delivery-alerting_filter-status.png)
 
-   カスタムフィルターの作成と編集について詳しくは、[ フィルターの定義](../../developing/using/configuring-filter-definition.md)を参照してください。
+   カスタムフィルターの作成と編集について詳しくは、[&#x200B; フィルターの定義](../../developing/using/configuring-filter-definition.md)を参照してください。
 
-1. 変更を保存し、リソースを公開します。 詳しくは、[ カスタムリソースの公開](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)を参照してください。
+1. 変更を保存し、リソースを公開します。 詳しくは、[&#x200B; カスタムリソースの公開](../../developing/using/updating-the-database-structure.md#publishing-a-custom-resource)を参照してください。
 
    フィルターが作成され、新しい配信アラート基準で選択できるようになります。
 
@@ -213,22 +213,22 @@ Adobe Campaignのインターフェイスでは、次のことができます。
 
 ### 条件パラメーター {#criteria-parameters}
 
-[配信アラートダッシュボード ](#creating-a-delivery-alerting-dashboard)の「**[!UICONTROL Criteria parameters]**」タブで、このダッシュボードで選択した条件に適用される設定を定義できます。
+[配信アラートダッシュボード &#x200B;](#creating-a-delivery-alerting-dashboard)の「**[!UICONTROL Criteria parameters]**」タブで、このダッシュボードで選択した条件に適用される設定を定義できます。
 
 ![](assets/delivery-alerting_dashboard_criteria-parameters.png)
 
 * **[!UICONTROL Delivery target minimum size]**：例えば、このフィールドに100と入力すると、ターゲットが100人以上の受信者の配信に対してのみ通知が送信されます。 このパラメーターは、すべての条件に適用されます。
 * **[!UICONTROL Monitoring period before and after the contact date (in hours)]**：現在の時刻の前後の時間数。 この時間範囲内に連絡日がある配信のみが考慮されます。 このパラメーターは、すべての条件に適用されます。 デフォルトでは、このフィールドの値は 24 時間に設定されています。
 
-  連絡日について詳しくは、[ スケジュールについて](../../sending/using/about-scheduling-messages.md)を参照してください。
+  連絡日について詳しくは、[&#x200B; スケジュールについて](../../sending/using/about-scheduling-messages.md)を参照してください。
 
 * **[!UICONTROL Maximum ratio of soft bounce errors]**: ソフトバウンスのエラー率が指定された値を超えるすべての配信に対して通知が送信されます。 デフォルトでは、このフィールドの値は 0.05（5%）に設定されます。
 
-  ソフトバウンスエラーについて詳しくは、[ バウンスメールの選定](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification)および[配信エラーの種類の一覧](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)を参照してください。
+  ソフトバウンスエラーについて詳しくは、[&#x200B; バウンスメールの選定](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification)および[配信エラーの種類の一覧](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)を参照してください。
 
 * **[!UICONTROL Maximum ratio of hard bounce errors]**: ハードバウンスのエラー率が指定された値を超えるすべての配信に対して通知が送信されます。 デフォルトでは、このフィールドの値は 0.05（5%）に設定されます。
 
-  ハードバウンスのエラーについて詳しくは、[ バウンスメールの選定](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification)および[配信エラーの種類の一覧](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)を参照してください。
+  ハードバウンスのエラーについて詳しくは、[&#x200B; バウンスメールの選定](../../sending/using/understanding-delivery-failures.md#bounce-mail-qualification)および[配信エラーの種類の一覧](../../sending/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons)を参照してください。
 
 * **[!UICONTROL Minimum time threshold for delivery in 'Start pending' status (in minutes)]**：このフィールドで指定された期間より長い&#x200B;**[!UICONTROL Start pending]** ステータスの配信すべてに対して通知が送信されます。**[!UICONTROL Start pending]** ステータスは、メッセージがまだシステムで考慮されていないことを意味します。
 * **[!UICONTROL Minimum time required for the computation of the throughput (in minutes)]**：指定された期間を超える配信のみが開始されました（**[!UICONTROL In progress]** ステータス）が、**[!UICONTROL Deliveries with low throughput]**&#x200B;条件に考慮されます。
@@ -254,7 +254,7 @@ Adobe Campaignのインターフェイスでは、次のことができます。
 
 まず、配信の「**ログ**」タブを確認して、配信とプルーフに関連するすべての情報を表示します。 赤と黄色のアイコンを使用すると、エラーや警告を識別できます。 赤いアイコンは、配信の開始を妨げる重大なエラーを示します。
 
-配信が発生するたびに履歴を表示するには、「**[!UICONTROL Sending logs]**」タブを選択します。 送信されたメッセージとそのステータスのリストが含まれます。 そこで、各受信者の配信ステータスを確認できます（**[!UICONTROL Sent]**、**[!UICONTROL Pending]**、**[!UICONTROL Failed]**&#x200B;など）。 詳しくは、「[ ログの送信](../../sending/using/monitoring-a-delivery.md#sending-logs)」を参照してください。
+配信が発生するたびに履歴を表示するには、「**[!UICONTROL Sending logs]**」タブを選択します。 送信されたメッセージとそのステータスのリストが含まれます。 そこで、各受信者の配信ステータスを確認できます（**[!UICONTROL Sent]**、**[!UICONTROL Pending]**、**[!UICONTROL Failed]**&#x200B;など）。 詳しくは、「[&#x200B; ログの送信](../../sending/using/monitoring-a-delivery.md#sending-logs)」を参照してください。
 
 配信に対して満たされる基準に従ってアラート通知を受信する理由を、いくつか示します。
 
@@ -265,7 +265,7 @@ Adobe Campaignのインターフェイスでは、次のことができます。
   * 配信品質の問題
   * 誤ったワークフロー
 
-  配信がワークフローでトリガーされた場合は、そのワークフローが正しく開始されたかどうかを確認します。 詳しくは、「[ ワークフローの実行](../../automating/using/about-workflow-execution.md)」を参照してください。 それ以外の場合は、Adobe Campaign管理者に連絡して問題を解決してください。
+  配信がワークフローでトリガーされた場合は、そのワークフローが正しく開始されたかどうかを確認します。 詳しくは、「[&#x200B; ワークフローの実行](../../automating/using/about-workflow-execution.md)」を参照してください。 それ以外の場合は、Adobe Campaign管理者に連絡して問題を解決してください。
 
 * **[!UICONTROL Deliveries with preparation failed]**：次の場合、配信準備中にエラーが発生する可能性があります。
 
@@ -274,14 +274,14 @@ Adobe Campaignのインターフェイスでは、次のことができます。
   * ターゲットがありません。
   * 配信がサイズ制限を超えています。
 
-  詳しくは、[送信の準備](../../sending/using/preparing-the-send.md)を参照してください。 ただし、これらのエラーは一般的に、メッセージの分析中に検出されます。 [ コントロールルール ](../../sending/using/control-rules.md)を参照してください。
+  詳しくは、[送信の準備](../../sending/using/preparing-the-send.md)を参照してください。 ただし、これらのエラーは一般的に、メッセージの分析中に検出されます。 [&#x200B; コントロールルール &#x200B;](../../sending/using/control-rules.md)を参照してください。
 
 * **[!UICONTROL Delivery with bad error ratio for soft bounces]** アラートの考えられる原因は次のとおりです。
 
   * 受信者のサーバーが停止しています。
   * 受信者のメールボックスがいっぱいです。
 
-  詳細については、配信ログの&#x200B;**[!UICONTROL Exclusion logs]**&#x200B;および&#x200B;**[!UICONTROL Exclusion causes]** タブを確認してください。 [除外ログ ](../../sending/using/monitoring-a-delivery.md#exclusion-logs)を参照してください。
+  詳細については、配信ログの&#x200B;**[!UICONTROL Exclusion logs]**&#x200B;および&#x200B;**[!UICONTROL Exclusion causes]** タブを確認してください。 [除外ログ &#x200B;](../../sending/using/monitoring-a-delivery.md#exclusion-logs)を参照してください。
 
   **[!UICONTROL Delivery with bad error ratio for hard bounces]** アラートの考えられる原因は次のとおりです。
 
@@ -292,7 +292,7 @@ Adobe Campaignのインターフェイスでは、次のことができます。
 
   ソフトエラーとハードバウンスのエラーを回避するには、次のベストプラクティスに従います。
 
-  * フィルターのタイポロジルールを作成して、配信分析中にメッセージターゲットの一部（強制隔離された受信者など）を除外します。 [ フィルタリングルールの作成](../../sending/using/filtering-rules.md)を参照してください。
+  * フィルターのタイポロジルールを作成して、配信分析中にメッセージターゲットの一部（強制隔離された受信者など）を除外します。 [&#x200B; フィルタリングルールの作成](../../sending/using/filtering-rules.md)を参照してください。
   * 適切な隔離管理プロセスを維持するために、顧客データベースを定期的に更新します。 [強制隔離について](../../sending/using/understanding-quarantine-management.md#about-quarantines)を参照してください。
   * 一般的に、配信品質は可能な限り向上させましょう。 詳しくは、Adobe Campaign [配信品質](../../sending/using/about-deliverability.md)の詳細ドキュメントを参照し、Adobe Campaign管理者にお問い合わせください。
 

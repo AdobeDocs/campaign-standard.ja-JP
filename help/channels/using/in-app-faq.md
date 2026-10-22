@@ -56,19 +56,19 @@ ht-degree: 2%
 * プロファイルテンプレートを使用して作成されたメッセージは、ユーザーがアプリにログインした場合にのみ配信できます。
 * この安全なハンドシェイクを容易にするために、モバイルアプリ開発者はsetLinkageField APIを使用して追加の認証の詳細を渡す必要があります。 リンクフィールドは、appSubscriberRcp テーブルを拡張する際に、モバイルプロファイルとCRM プロファイル間のリンクとして識別されるリンクフィールドです。
 * デバイスに保存されているアプリ内メッセージをフラッシュし、ユーザーがresetLinkageFieldを使用してアプリからログアウトしたときにresetLinkagefieldsをフラッシュする必要があります。 これにより、別のユーザーがアプリにログインしても、以前のユーザー向けのメッセージが表示されなくなります。
-* このセキュリティメカニズムをクライアントサイドで実装するには、[ モバイルSDK API](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/)を参照してください。
+* このセキュリティメカニズムをクライアントサイドで実装するには、[&#x200B; モバイルSDK API](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-standard/api-reference/)を参照してください。
 
 ## Campaignでアプリ内レポートを有効にするには、どうすればよいですか？ {#enable-inapp-reporting}
 
 アプリ内トラッキングのポストバックを設定する必要があります。 手順は[こちら](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback)にあります。
 
-ローカル通知トラッキングを実装するには、この[ ページ ](../../administration/using/local-tracking.md)を参照してください。
+ローカル通知トラッキングを実装するには、この[&#x200B; ページ &#x200B;](../../administration/using/local-tracking.md)を参照してください。
 
 ## アプリ内チャネルで使用できるレポートはどれですか？ {#report-inapp}
 
-Adobe Campaignのアプリ内チャネルでは、すぐに利用できるレポートを利用できます。 この[ ドキュメント ](../../reporting/using/in-app-report.md)を参照してください。
+Adobe Campaignのアプリ内チャネルでは、すぐに利用できるレポートを利用できます。 この[&#x200B; ドキュメント &#x200B;](../../reporting/using/in-app-report.md)を参照してください。
 
-各アプリ内指標の計算方法については、この[ ページ ](../../reporting/using/indicator-calculation.md#in-app-delivery)を参照してください。
+各アプリ内指標の計算方法については、この[&#x200B; ページ &#x200B;](../../reporting/using/indicator-calculation.md#in-app-delivery)を参照してください。
 
 ## プッシュ通知と同様に、アプリ内で多言語コンテンツのバリエーションをサポートしていますか？ {#multilingual-inapp}
 
@@ -95,7 +95,7 @@ IOSでカスタムサウンドを作成する場合、ローカル通知（sound
 はい、アプリ内メッセージではディープリンクがサポートされています。 ディープリンクには次のものが含まれます。
 
 * ディープリンクを機能させるには、配信トラッキングを無効にする必要があることを示す言語。
-* AppsflyerとBranchをパートナーとして使用して、ディープリンクの追跡を行うことができます。 分岐とAdobe Campaign Standardの統合について詳しくは、この[ ページ ](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1)を参照してください。
+* AppsflyerとBranchをパートナーとして使用して、ディープリンクの追跡を行うことができます。 分岐とAdobe Campaign Standardの統合について詳しくは、この[&#x200B; ページ &#x200B;](https://help.branch.io/using-branch/docs/adobe-campaign-standard-1)を参照してください。
 
 ## ユーザーがプッシュ通知からアプリを起動したときに、アプリ内メッセージをトリガーできますか？ {#inapp-push-trigger}
 

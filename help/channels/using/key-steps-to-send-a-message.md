@@ -47,29 +47,29 @@ ht-degree: 12%
 * [メールの作成](../../channels/using/creating-an-email.md)
 * [SMSの作成](../../channels/using/creating-an-sms-message.md)
 * [ダイレクトメール配信の作成](../../channels/using/creating-the-direct-mail.md)
-* [ プッシュ通知の作成](../../channels/using/preparing-and-sending-a-push-notification.md)。
+* [&#x200B; プッシュ通知の作成](../../channels/using/preparing-and-sending-a-push-notification.md)。
 * [アプリ内メッセージの準備と送信](../../channels/using/preparing-and-sending-an-in-app-message.md)
 
-配信のベストプラクティスについては、[配信のベストプラクティス ](../../sending/using/delivery-best-practices.md)の節を参照してください。
+配信のベストプラクティスについては、[配信のベストプラクティス &#x200B;](../../sending/using/delivery-best-practices.md)の節を参照してください。
 
 ## メッセージの構築
 
-Campaign Standard [ マーケティング活動](../../start/using/marketing-activities.md)を活用して、電子メール、SMS、ダイレクトメール、プッシュ通知またはアプリ内メッセージを作成します。
+Campaign Standard [&#x200B; マーケティング活動](../../start/using/marketing-activities.md)を活用して、電子メール、SMS、ダイレクトメール、プッシュ通知またはアプリ内メッセージを作成します。
 
 ![](assets/marketing-activities.png)
 
-メッセージは、マーケティングアクティビティリストから、または[専用アクティビティ ](../../automating/using/about-channel-activities.md)を使用するワークフローから作成できます。
+メッセージは、マーケティングアクティビティリストから、または[専用アクティビティ &#x200B;](../../automating/using/about-channel-activities.md)を使用するワークフローから作成できます。
 
 ![](assets/steps-channel.png)
 
 ## オーディエンスを定義
 
-メッセージの受信者を定義します。 これを行うには、左側のペインの[ クエリエディター](../../automating/using/editing-queries.md)を使用して、データベースに含まれるデータをフィルタリングし、オーディエンスをターゲットとするルールを構築します。
+メッセージの受信者を定義します。 これを行うには、左側のペインの[&#x200B; クエリエディター](../../automating/using/editing-queries.md)を使用して、データベースに含まれるデータをフィルタリングし、オーディエンスをターゲットとするルールを構築します。
 
 オーディエンスにはいくつかの種類があります。
 
 * **[!UICONTROL Target]**&#x200B;はあなたのメールの主なターゲットです，
-* **[!UICONTROL Test profiles]**&#x200B;は、電子メールのテストと検証に使用されるプロファイルです（[ テストプロファイルの管理](../../audiences/using/managing-test-profiles.md)を参照）。
+* **[!UICONTROL Test profiles]**&#x200B;は、電子メールのテストと検証に使用されるプロファイルです（[&#x200B; テストプロファイルの管理](../../audiences/using/managing-test-profiles.md)を参照）。
 
 ![](assets/steps-audience.png)
 
@@ -85,9 +85,9 @@ Campaign Standard [ マーケティング活動](../../start/using/marketing-act
 
 ![](assets/steps-prepare.png)
 
-**プレビュー、電子メールのレンダリング、プルーフなど、Campaign Standard機能を使用してメッセージを送信する前に、** メッセージを確認してテストします。詳しくは、[このセクション ](../../sending/using/previewing-messages.md)を参照してください。
+**プレビュー、電子メールのレンダリング、プルーフなど、Campaign Standard機能を使用してメッセージを送信する前に、** メッセージを確認してテストします。詳しくは、[このセクション &#x200B;](../../sending/using/previewing-messages.md)を参照してください。
 
-**[!UICONTROL Schedule]** ブロックを使用して、メッセージを送信するタイミングを定義します（[ メッセージのスケジュール設定](../../sending/using/about-scheduling-messages.md)を参照）。
+**[!UICONTROL Schedule]** ブロックを使用して、メッセージを送信するタイミングを定義します（[&#x200B; メッセージのスケジュール設定](../../sending/using/about-scheduling-messages.md)を参照）。
 
 ![](assets/steps-schedule.png)
 
@@ -97,10 +97,10 @@ Campaign Standard [ マーケティング活動](../../start/using/marketing-act
 
 ![](assets/steps-send.png)
 
-メッセージの配信を監視するのに役立つログがいくつか用意されています（[配信の監視](../../sending/using/monitoring-a-delivery.md)を参照）。 Campaign Standardの[ トラッキング機能](../../sending/using/tracking-messages.md)により、配信受信者の動作をトラッキングすることもできます。
+メッセージの配信を監視するのに役立つログがいくつか用意されています（[配信の監視](../../sending/using/monitoring-a-delivery.md)を参照）。 Campaign Standardの[&#x200B; トラッキング機能](../../sending/using/tracking-messages.md)により、配信受信者の動作をトラッキングすることもできます。
 
 ![](../../sending/using/assets/tracking_logs.png)
 
-様々な指標とチャートを通じて、メッセージの効果や、送信とキャンペーンの進化を測定します（[ レポートへのアクセス ](../../reporting/using/about-dynamic-reports.md)を参照）。
+様々な指標とチャートを通じて、メッセージの効果や、送信とキャンペーンの進化を測定します（[&#x200B; レポートへのアクセス &#x200B;](../../reporting/using/about-dynamic-reports.md)を参照）。
 
 ![](assets/steps-reports.png)

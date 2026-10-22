@@ -45,7 +45,7 @@ ht-degree: 3%
 データ収集UIでルールを作成するには、次の手順に従います。
 
 1. [データ要素の作成](../../administration/using/configuring-rules-launch.md#create-data-elements)
-2. [ サポートするユースケースのルール ](../../administration/using/configuring-rules-launch.md#create-data-elements)を作成しています：
+2. [&#x200B; サポートするユースケースのルール &#x200B;](../../administration/using/configuring-rules-launch.md#create-data-elements)を作成しています：
    * [PII ポストバック](../../administration/using/configuring-rules-launch.md#pii-postback)
    * [アプリ内トラッキングのポストバック](../../administration/using/configuring-rules-launch.md#inapp-tracking-postback)
    * [プッシュ通知の追跡ポストバック](../../administration/using/configuring-rules-launch.md#push-tracking-postback)
@@ -211,9 +211,9 @@ PII データを[!DNL Adobe Campaign Standard]に送信するには、データ�
 
 プッシュ通知の配信とモバイルアプリケーションとのユーザーのインタラクションを追跡するのに役立つトラッキングデータを[!DNL Adobe Campaign Standard]に送信するには、データ収集UIでルールを作成する必要があります。
 
-プッシュトラッキングについて詳しくは、[ プッシュトラッキング ](../../administration/using/push-tracking.md)を参照してください。
+プッシュトラッキングについて詳しくは、[&#x200B; プッシュトラッキング &#x200B;](../../administration/using/push-tracking.md)を参照してください。
 
-アプリのアクションを追跡するには、trackAction APIを使用します。 詳しくは、[ アプリのアクションを追跡](https://app.gitbook.com/@aep-sdks/s/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#track-app-actions)を参照してください。
+アプリのアクションを追跡するには、trackAction APIを使用します。 詳しくは、[&#x200B; アプリのアクションを追跡](https://app.gitbook.com/@aep-sdks/s/docs/using-mobile-extensions/mobile-core/mobile-core-api-reference#track-app-actions)を参照してください。
 
 1. データ収集UIで、モバイルアプリケーションダッシュボードから「**[!UICONTROL Rules]**」タブをクリックし、「**[!UICONTROL Add Rule]**」をクリックします。
 
@@ -284,7 +284,7 @@ PII データを[!DNL Adobe Campaign Standard]に送信するには、データ�
 
    >[!NOTE]
    >
-   >上記の例では、右側のデータ要素は、[ データ要素の作成](../../administration/using/configuring-rules-launch.md#create-data-elements)の手順を利用して、データ収集UIで設定する必要があります。 左側のデータ要素は[!DNL Adobe Campaign Standard]でサポートされており、設定は必要ありません。 追加のデータが必要な場合は、[!DNL Adobe Campaign Standard]でカスタムリソース拡張機能を実行する必要があります。
+   >上記の例では、右側のデータ要素は、[&#x200B; データ要素の作成](../../administration/using/configuring-rules-launch.md#create-data-elements)の手順を利用して、データ収集UIで設定する必要があります。 左側のデータ要素は[!DNL Adobe Campaign Standard]でサポートされており、設定は必要ありません。 追加のデータが必要な場合は、[!DNL Adobe Campaign Standard]でカスタムリソース拡張機能を実行する必要があります。
 
 1. **[!UICONTROL Content Type]**&#x200B;に「**application/json**」と入力します。
 
