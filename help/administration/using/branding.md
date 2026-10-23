@@ -7,26 +7,38 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: b6032160-fd8b-4a19-b868-b2fb85e6a56b
-TQID: https://experienceleague.adobe.com/we4WG7qol0-EXX1i1YkwYTPdOeTUD7wZftO02X-B2ek
+TQID: 'https://experienceleague.adobe.com/we4WG7qol0-EXX1i1YkwYTPdOeTUD7wZftO02X-B2ek'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+  - id: 7f0a1ee5-eeb8-5478-a9cd-b1896f033118
+    internal-label: Instance Settings
 subfeature_v2:
   - id: b5852c32-876b-41ae-92a7-9f588865ae52
+    internal-label: Best practices
   - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+    internal-label: Permissions
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Administration
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 1310
+source-wordcount: '1310'
 ht-degree: 84%
-
 ---
-
 # ブランディング{#branding}
 
 ## ブランドアイデンティティについて {#about-brand-identity}
@@ -59,20 +71,20 @@ ht-degree: 84%
 
   ![](assets/branding_01.png)
 
-   * **Label**：インターフェイスに表示されます。
-   * **Brand name**
-   * **Website URL** と **Website label**
-   * **Logo URL**
+  * **Label**：インターフェイスに表示されます。
+  * **Brand name**
+  * **Website URL** と **Website label**
+  * **Logo URL**
 
 * **[!UICONTROL Header parameters of sent emails]**：キャンペーンの受信者に表示される内容をパーソナライズします。 このセクションには、次のフィールドが含まれています。
 
   ![](assets/branding_04_header.png)
 
-   * **Sender (email address)**：ブランドの電子メールアドレスです。
-   * **Sender (name)**：ブランドの名前です。
-   * **Reply to (email address)**：ユーザーからの返信先のメールアドレスです。
-   * ブランド名を含む&#x200B;**Reply to (name)**：ユーザーからの返信先（ブランド）の名前です。
-   * **）Error (email address)**：エラーの場合に使用するメールアドレスです。
+  * **Sender (email address)**：ブランドの電子メールアドレスです。
+  * **Sender (name)**：ブランドの名前です。
+  * **Reply to (email address)**：ユーザーからの返信先のメールアドレスです。
+  * ブランド名を含む&#x200B;**Reply to (name)**：ユーザーからの返信先（ブランド）の名前です。
+  * **）Error (email address)**：エラーの場合に使用するメールアドレスです。
 
   >[!IMPORTANT]
   >
@@ -82,9 +94,9 @@ ht-degree: 84%
 
   ![](assets/configure_branding_04.png)
 
-   * **External URL of the application server**：作成する様々なランディングページのホスティングとアクセスに使用します。
-   * **External URL of the tracking server**：配信時のトラッキング URL として使用します。
-   * **External URL of the mirror page server**：配信のデフォルトのミラーページとして使用します。
+  * **External URL of the application server**：作成する様々なランディングページのホスティングとアクセスに使用します。
+  * **External URL of the tracking server**：配信時のトラッキング URL として使用します。
+  * **External URL of the mirror page server**：配信のデフォルトのミラーページとして使用します。
 
   >[!NOTE]
   >

@@ -10,20 +10,29 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: 373e4012-9daf-4da7-aad6-54726d991544
-TQID: https://experienceleague.adobe.com/edHsRImxIpD0dL-LI3-xcet9JIFvxWFO3ALu-Jr-6-A
+TQID: 'https://experienceleague.adobe.com/edHsRImxIpD0dL-LI3-xcet9JIFvxWFO3ALu-Jr-6-A'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Intermediate
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 1368
+source-wordcount: '1368'
 ht-degree: 90%
-
 ---
-
 # ファイルを読み込み {#load-file}
 
 ## 説明 {#description}
@@ -143,24 +152,24 @@ ht-degree: 90%
 * **[!UICONTROL Data type]**：各列に適用されるデータタイプを指定します。
 * **[!UICONTROL Format and separators]**、**プロパティ**：テキスト、時間、日付、数値の形式のプロパティ、および列コンテキストで指定される区切り記号を指定します。
 
-   * **[!UICONTROL Maximum number of characters]**：文字列タイプの列の最大文字数を指定します。
+  * **[!UICONTROL Maximum number of characters]**：文字列タイプの列の最大文字数を指定します。
 
-     固定長の列で構成されるファイルを読み込む場合は、このフィールドを入力する必要があります。
+    固定長の列で構成されるファイルを読み込む場合は、このフィールドを入力する必要があります。
 
-   * **[!UICONTROL Letter case management]**：**テキスト**&#x200B;データに文字ケース処理を適用する必要があるかどうかを定義します。
-   * **[!UICONTROL White space management]**：**テキスト**&#x200B;データの文字列で特定のスペースを無視する必要があるかどうかを指定します。
-   * **[!UICONTROL Time format]**、**[!UICONTROL Date format]**：**日付**、**時間**、**日時**&#x200B;の各データの形式を指定します。
-   * **[!UICONTROL Format]**：**整数**&#x200B;および&#x200B;**浮動小数点数**&#x200B;データの数値の形式を定義します。
-   * **[!UICONTROL Separator]**：**日付**、**時間**、**日時**、**整数**、**浮動小数点**&#x200B;の各データについて、列コンテキストで指定される区切り記号（数値の場合は桁区切り記号や小数点、日付と時間の場合は区切り記号）を定義します。
+  * **[!UICONTROL Letter case management]**：**テキスト**&#x200B;データに文字ケース処理を適用する必要があるかどうかを定義します。
+  * **[!UICONTROL White space management]**：**テキスト**&#x200B;データの文字列で特定のスペースを無視する必要があるかどうかを指定します。
+  * **[!UICONTROL Time format]**、**[!UICONTROL Date format]**：**日付**、**時間**、**日時**&#x200B;の各データの形式を指定します。
+  * **[!UICONTROL Format]**：**整数**&#x200B;および&#x200B;**浮動小数点数**&#x200B;データの数値の形式を定義します。
+  * **[!UICONTROL Separator]**：**日付**、**時間**、**日時**、**整数**、**浮動小数点**&#x200B;の各データについて、列コンテキストで指定される区切り記号（数値の場合は桁区切り記号や小数点、日付と時間の場合は区切り記号）を定義します。
 
 * **[!UICONTROL Remapping of values]**：このフィールドは、列の詳細設定でのみ使用できます。 この設定により、特定の値をインポート時に変換できます。 例えば、「three」を「3」に変換できます。
 * **[!UICONTROL Error processing]**：エラーが発生した場合の処理を定義します。
 
-   * **[!UICONTROL Ignore the value]**：値は無視されます。 ワークフローの実行ログに警告が生成されます。
-   * **[!UICONTROL Reject the line]**：行全体が処理されなくなります。
-   * **[!UICONTROL Use a default value]**：エラーの原因となる値を、「**[!UICONTROL Default value]**」フィールドで定義されているデフォルト値に置き換えます。
-   * **[!UICONTROL Use a default value in case the value is not remapped]**：エラーの原因となる値を、「**[!UICONTROL Default value]**」フィールドで定義されているデフォルト値に置き換えます。ただし、エラー値についてマッピングが定義されている場合は除きます（前述の「**[!UICONTROL Remapping of values]**」オプションを参照）。
-   * **[!UICONTROL Reject the line when there is no remapping value]**：行全体が処理されなくなります。ただし、エラー値についてマッピングが定義されている場合は除きます（前述の「**[!UICONTROL Remapping of values]**」オプションを参照）。
+  * **[!UICONTROL Ignore the value]**：値は無視されます。 ワークフローの実行ログに警告が生成されます。
+  * **[!UICONTROL Reject the line]**：行全体が処理されなくなります。
+  * **[!UICONTROL Use a default value]**：エラーの原因となる値を、「**[!UICONTROL Default value]**」フィールドで定義されているデフォルト値に置き換えます。
+  * **[!UICONTROL Use a default value in case the value is not remapped]**：エラーの原因となる値を、「**[!UICONTROL Default value]**」フィールドで定義されているデフォルト値に置き換えます。ただし、エラー値についてマッピングが定義されている場合は除きます（前述の「**[!UICONTROL Remapping of values]**」オプションを参照）。
+  * **[!UICONTROL Reject the line when there is no remapping value]**：行全体が処理されなくなります。ただし、エラー値についてマッピングが定義されている場合は除きます（前述の「**[!UICONTROL Remapping of values]**」オプションを参照）。
 
   >[!NOTE]
   >
@@ -169,6 +178,6 @@ ht-degree: 90%
 * **[!UICONTROL Default value]**：選択したエラーの処理方法に応じてデフォルトの値を選択します。
 * **[!UICONTROL Empty value management]**：データの読み込み中に空の値を管理する方法を指定します。
 
-   * **[!UICONTROL Generate an error for numerical fields]**：数値フィールドのみエラーを生成します。それ以外は、null 値を挿入します。
-   * **[!UICONTROL Insert NULL in the corresponding field]**: 空の値を許可します。 したがって、null 値が挿入されます。
-   * **[!UICONTROL Generate an error]**：値が空の場合に、エラーを生成します。
+  * **[!UICONTROL Generate an error for numerical fields]**：数値フィールドのみエラーを生成します。それ以外は、null 値を挿入します。
+  * **[!UICONTROL Insert NULL in the corresponding field]**: 空の値を許可します。 したがって、null 値が挿入されます。
+  * **[!UICONTROL Generate an error]**：値が空の場合に、エラーを生成します。

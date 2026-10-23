@@ -6,13 +6,28 @@ role: User
 level: Beginner
 hide: true
 exl-id: 3f77825e-cb98-4cb1-9775-a8b6995e9da1
-source-git-commit: 437c3f380f03b901309160572c0ee1dda0369225
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: e8d937ec-9046-41b5-834b-d22a624e0d37
+    internal-label: Campaign overview
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
 source-wordcount: '7568'
 ht-degree: 100%
-
 ---
-
 # ドキュメントの更新{#documentation-updates}
 
 このページでは、Adobe Campaign の[リリースノート](../../rn/using/release-notes.md)に加えて、Adobe Campaign Standard のドキュメントの新規更新をすべて紹介します。
@@ -20,7 +35,7 @@ ht-degree: 100%
 
 ## 2026年6月 {#doc-updates-june-2026}
 
-メールトラッキングピクセルに対する CNIL ガイダンスと、関連する Adobe Campaign Standard 機能のページを追加しました。 [詳細情報](../../administration/using/cnil-pixel-tracking.md)
+メールトラッキングピクセルに対する CNIL ガイダンスと、関連する Adobe Campaign Standard 機能のページを追加しました。 [詳細を表示](../../administration/using/cnil-pixel-tracking.md)
 
 ## リリース 24.1 - 2024年冬 {#release-24-1}
 
@@ -586,7 +601,7 @@ Adobe Campaign から直接利用できるコンテキストヘルプリンク�
 
 動的レポートのインジケーターの計算に関する節が更新されました。 [詳細を表示](../../reporting/using/indicator-calculation.md)
 
-ディメンションと指標の互換性をより深く理解できるように、動的レポートの互換性の表が追加されました。 [詳細を表示](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf?lang=ja)
+ディメンションと指標の互換性をより深く理解できるように、動的レポートの互換性の表が追加されました。 [詳細を表示](https://experienceleague.adobe.com/docs/campaign-standard/assets/dynamic_report_compatibility.pdf)
 
 ワークフローの関数のリストが更新されました。 [詳細を表示](../../automating/using/list-of-functions.md)
 
@@ -862,7 +877,7 @@ Campaign とアドビソリューションの統合のほとんどの URL が変
 
 配信の準備方法に関するステップバイステップの使用例を追加しました。 [詳細を表示](../../sending/using/preparing-the-send.md)
 
-認証のリストが記載された節は削除されました。 [詳細を表示](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=ja)（PDF）
+認証のリストが記載された節は削除されました。 [詳細を表示](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)（PDF）
 
 SMS 自動返信に関するステップバイステップの使用例を追加しました。 [詳細を表示](../../channels/using/managing-incoming-sms.md#managing-stop-sms)
 
@@ -1034,7 +1049,7 @@ Campaign から Analytics への KPI 共有 - [詳細を表示](../../integratin
 
 People コアサービスまたは Audience Manager と Adobe Campaign の統合を設定する手順が追加されました。 [詳細を表示](../../integrating/using/integration-with-audience-manager-or-people-core-service.md)
 
-特定の役割の機能を明確にするために、認証表が改訂されました。 [詳細を表示](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf?lang=ja)
+特定の役割の機能を明確にするために、認証表が改訂されました。 [詳細を表示](https://experienceleague.adobe.com/docs/campaign-standard/assets/acs_rights.pdf)
 
 Adobe Campaign から直接利用できるコンテキストヘルプリンクが更新されました。
 

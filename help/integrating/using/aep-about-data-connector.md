@@ -10,13 +10,28 @@ role: Developer
 level: Experienced
 exl-id: f4fcf256-e030-4d7b-b4b7-2448acc2ae1c
 hide: true
-source-git-commit: 7ad12890a24b2c0b8730d09b7d161bff511f4c69
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: dd99420f-367d-4a14-bbc4-5140615992c2
+    internal-label: Microsoft CRM integration
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: '706'
-ht-degree: 3%
-
+source-wordcount: '792'
+ht-degree: 5%
 ---
-
 # Adobe Experience Platform Data Connector について {#about-aep-data-connector}
 
 >[!IMPORTANT]
@@ -45,7 +60,7 @@ Adobe Experience Platform Data Connectorは、Adobe Campaign Standardのカス�
 
 * 標準提供のマッピングは、デフォルトでCampaign Standardで提供されるフィールドでのみ使用できます。 すべてのカスタムフィールドとリソースを取り込むには、各顧客が独自のマッピングを定義する必要があります。
 
-* Adobe Experience Platform Data Connectorは、プロファイルデータを定期的にプラットフォームにプッシュします&#x200B; インターバル期間は15分です。 この値は、[Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=ja)を使用して変更できます。
+* Adobe Experience Platform Data Connectorは、一定の間隔でプロファイルデータをプラットフォームにプッシュします。&#x200B;間隔の期間は15分です。 この値は、[Adobe Experience Platform API](https://experienceleague.adobe.com/docs/experience-platform/ingestion/home.html?lang=ja)を使用して変更できます。
 
 * データエンジニアは、CampaignからAdobe Experience Platformへのマッピングを公開、変更、一時停止できます。
 

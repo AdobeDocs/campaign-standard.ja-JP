@@ -6,22 +6,33 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: 7ef0712e-4e42-41c8-9382-fbbd06edfdd9
-TQID: https://experienceleague.adobe.com/14iQSiLOTGCwAvxz0lwxS8tB0X3pg0Pi8JB0NjBOTAc
+TQID: 'https://experienceleague.adobe.com/14iQSiLOTGCwAvxz0lwxS8tB0X3pg0Pi8JB0NjBOTAc'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: 7f0a1ee5-eeb8-5478-a9cd-b1896f033118
+    internal-label: Instance Settings
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Administration
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 2724
-ht-degree: 88%
-
+source-wordcount: '2741'
+ht-degree: 89%
 ---
-
 # SMS のトラブルシューティング {#sms-troubleshooting}
 
 ## 異なる外部アカウント間の競合 {#external-account-conflict}
@@ -48,14 +59,14 @@ Adobe Campaign は、外部アカウントを無関係なエンティティと�
 
   アカウント間で競合が発生しています。 前述したように、Adobe Campaign はアカウントを個別に扱いますが、プロバイダーはアカウントを単一のアカウントとして扱うことができます。
 
-   * すべてのアカウント間で異なるログイン／パスワードの組み合わせを使用しています。
-プロバイダーに連絡して、プロバイダー側の競合の可能性を診断する必要があります。
+  * すべてのアカウント間で異なるログイン／パスワードの組み合わせを使用しています。
+    プロバイダーに連絡して、プロバイダー側の競合の可能性を診断する必要があります。
 
-   * 一部の外部アカウントは、同じログイン／パスワードの組み合わせを共有します。
-プロバイダーは、`BIND PDU` がどの外部アカウントから来たのかを知る手段がないので、複数のアカウントからの接続をすべて単一のものとして扱います。 2 つのアカウントに対してランダムに MO と SR をルーティングし、問題を引き起こしている可能性があります。
-プロバイダーが同じログイン／パスワードの組み合わせで複数のショートコードをサポートしている場合は、`BIND PDU` のどこにショートコードを置くのかについて問い合わせる必要があります。 MO を正しくルーティングできるのは `BIND PDU` だけなので、この情報は `BIND PDU` の中に入れる必要があり、`SUBMIT_SM` の中に入れる必要はありません。
-`BIND PDU` で使用できるフィールドは、前述の[各種 PDU の情報](../../administration/using/sms-protocol.md#information-pdu)の節を参照してください。通常は `address_range` にショートコードを追加しますが、プロバイダーの特別なサポートが必要です。 複数のショートコードを個別にルーティングする方法については、担当者にお問い合わせください。
-Adobe Campaign は、同じ外部アカウントでの複数のショートコードの処理をサポートしています。
+  * 一部の外部アカウントは、同じログイン／パスワードの組み合わせを共有します。
+    プロバイダーは、`BIND PDU` がどの外部アカウントから来たのかを知る手段がないので、複数のアカウントからの接続をすべて単一のものとして扱います。 2 つのアカウントに対してランダムに MO と SR をルーティングし、問題を引き起こしている可能性があります。
+    プロバイダーが同じログイン／パスワードの組み合わせで複数のショートコードをサポートしている場合は、`BIND PDU` のどこにショートコードを置くのかについて問い合わせる必要があります。 MO を正しくルーティングできるのは `BIND PDU` だけなので、この情報は `BIND PDU` の中に入れる必要があり、`SUBMIT_SM` の中に入れる必要はありません。
+    `BIND PDU` で使用できるフィールドは、前述の[各種 PDU の情報](../../administration/using/sms-protocol.md#information-pdu)の節を参照してください。通常は `address_range` にショートコードを追加しますが、プロバイダーの特別なサポートが必要です。 複数のショートコードを個別にルーティングする方法については、担当者にお問い合わせください。
+    Adobe Campaign は、同じ外部アカウントでの複数のショートコードの処理をサポートしています。
 
 ## 外部アカウント一般に関する問題 {#external-account-issues}
 
@@ -100,7 +111,7 @@ Adobe Campaign は、同じ外部アカウントでの複数のショートコ�
 
 * `enquire_link` が、Adobe Campaign 側またはプロバイダー側でタイムアウトする場合。 この場合、`ENQUIRE_LINK_RESP` にはゼロ以外のエラーコードが表示されます。
 
-* `BIND PDU`さんがたくさんいます。 接続の数に応じて、1日に数個を超えてはいけません。 1 時間に 1 つ以上の BIND PDU は、警告を発する必要があります。
+* `BIND PDU` が多数ある場合。 接続数によって異なりますが、1 日うち数回を超えるべきではありません。 1 時間に 1 つ以上の BIND PDU は、警告を発する必要があります。
 
 接続の安定性の問題を解決する方法：
 

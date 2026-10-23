@@ -8,29 +8,42 @@ feature: Proofs
 role: User
 level: Beginner
 exl-id: dc8bd1d3-e199-4901-9b1f-7b485879897d
-TQID: https://experienceleague.adobe.com/P2rZ9NJ2p1UsYgUHtLDpqTc3wiqc3Ac1Cyi1WvymVqc
+TQID: 'https://experienceleague.adobe.com/P2rZ9NJ2p1UsYgUHtLDpqTc3wiqc3Ac1Cyi1WvymVqc'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+  - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
 subfeature_v2:
   - id: b5852c32-876b-41ae-92a7-9f588865ae52
+    internal-label: Best practices
   - id: ca3c1dd6-bdd2-41a9-bc5a-e35f5cca9e63
+    internal-label: Application settings
+  - id: 458b98fa-9d41-55f3-9c8e-3aeb5c95457a
+    internal-label: Proofs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Administration
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 2045
+source-wordcount: '2045'
 ht-degree: 7%
-
 ---
-
 # エラー発生時のアラートの受信{#receiving-alerts-when-failures-happen}
 
 ## 配信アラートについて {#about-delivery-alerting}
@@ -247,41 +260,41 @@ Adobe Campaignのインターフェイスでは、次のことができます。
 
 * **[!UICONTROL Deliveries failed]**：この条件は、間違ったステータスを持つすべての配信を通知します。 それは次のことが原因である可能性があります。
 
-   * 配信サーバー（MTA、Message Transfer Agent）の問題
-   * Adobe Campaign配信サーバーと受信サーバー間の接続タイムアウト
-   * 配信品質の問題
-   * 誤ったワークフロー
+  * 配信サーバー（MTA、Message Transfer Agent）の問題
+  * Adobe Campaign配信サーバーと受信サーバー間の接続タイムアウト
+  * 配信品質の問題
+  * 誤ったワークフロー
 
   配信がワークフローでトリガーされた場合は、そのワークフローが正しく開始されたかどうかを確認します。 詳しくは、「[&#x200B; ワークフローの実行](../../automating/using/about-workflow-execution.md)」を参照してください。 それ以外の場合は、Adobe Campaign管理者に連絡して問題を解決してください。
 
 * **[!UICONTROL Deliveries with preparation failed]**：次の場合、配信準備中にエラーが発生する可能性があります。
 
-   * 配信に件名がありません。
-   * パーソナライゼーションフィールドの構文が間違っています。
-   * ターゲットがありません。
-   * 配信がサイズ制限を超えています。
+  * 配信に件名がありません。
+  * パーソナライゼーションフィールドの構文が間違っています。
+  * ターゲットがありません。
+  * 配信がサイズ制限を超えています。
 
   詳しくは、[送信の準備](../../sending/using/preparing-the-send.md)を参照してください。 ただし、これらのエラーは一般的に、メッセージの分析中に検出されます。 [&#x200B; コントロールルール &#x200B;](../../sending/using/control-rules.md)を参照してください。
 
 * **[!UICONTROL Delivery with bad error ratio for soft bounces]** アラートの考えられる原因は次のとおりです。
 
-   * 受信者のサーバーが停止しています。
-   * 受信者のメールボックスがいっぱいです。
+  * 受信者のサーバーが停止しています。
+  * 受信者のメールボックスがいっぱいです。
 
   詳細については、配信ログの&#x200B;**[!UICONTROL Exclusion logs]**&#x200B;および&#x200B;**[!UICONTROL Exclusion causes]** タブを確認してください。 [除外ログ &#x200B;](../../sending/using/monitoring-a-delivery.md#exclusion-logs)を参照してください。
 
   **[!UICONTROL Delivery with bad error ratio for hard bounces]** アラートの考えられる原因は次のとおりです。
 
-   * 受信者はメールの受信者ブロックリストに追加されます。つまり、受信者に連絡する必要がなくなります。
-   * 受信者の電子メールアドレスが存在しません。
-   * 受信者のドメインが存在しません。
-   * 受信者のサーバーが配信をブロックしています。
+  * 受信者はメールの受信者ブロックリストに追加されます。つまり、受信者に連絡する必要がなくなります。
+  * 受信者の電子メールアドレスが存在しません。
+  * 受信者のドメインが存在しません。
+  * 受信者のサーバーが配信をブロックしています。
 
   ソフトエラーとハードバウンスのエラーを回避するには、次のベストプラクティスに従います。
 
-   * フィルターのタイポロジルールを作成して、配信分析中にメッセージターゲットの一部（強制隔離された受信者など）を除外します。 [&#x200B; フィルタリングルールの作成](../../sending/using/filtering-rules.md)を参照してください。
-   * 適切な隔離管理プロセスを維持するために、顧客データベースを定期的に更新します。 [強制隔離について](../../sending/using/understanding-quarantine-management.md#about-quarantines)を参照してください。
-   * 一般的に、配信品質は可能な限り向上させましょう。 詳しくは、Adobe Campaign [配信品質](../../sending/using/about-deliverability.md)の詳細ドキュメントを参照し、Adobe Campaign管理者にお問い合わせください。
+  * フィルターのタイポロジルールを作成して、配信分析中にメッセージターゲットの一部（強制隔離された受信者など）を除外します。 [&#x200B; フィルタリングルールの作成](../../sending/using/filtering-rules.md)を参照してください。
+  * 適切な隔離管理プロセスを維持するために、顧客データベースを定期的に更新します。 [強制隔離について](../../sending/using/understanding-quarantine-management.md#about-quarantines)を参照してください。
+  * 一般的に、配信品質は可能な限り向上させましょう。 詳しくは、Adobe Campaign [配信品質](../../sending/using/about-deliverability.md)の詳細ドキュメントを参照し、Adobe Campaign管理者にお問い合わせください。
 
 * **[!UICONTROL Deliveries with long start pending]**：通常、これは、MTA （Message Transfer Agent）レベルで問題が発生していることを意味します。 実行プロセスが、リソースが使用可能になるのを待っています。 MTA が開始されていない可能性があります。
 

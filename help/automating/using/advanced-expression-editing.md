@@ -10,18 +10,29 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: f11754fb-188e-4cae-bd5b-0dfbf74befb3
-TQID: https://experienceleague.adobe.com/Wz7KYgeVn1RlS4wnfhs-FD-kO5PJb1DzuUg9t1asD5U
+TQID: 'https://experienceleague.adobe.com/Wz7KYgeVn1RlS4wnfhs-FD-kO5PJb1DzuUg9t1asD5U'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 1103
+source-wordcount: '1115'
 ht-degree: 93%
-
 ---
-
 # 高度な式の編集{#advanced-expression-editing}
 
 ## エクスプレッションの詳細編集について {#about-advanced-expression-editing}
@@ -78,9 +89,9 @@ ht-degree: 93%
 
 * それぞれの条件は、**&lt;値 1>&lt;比較演算子> &lt;値 2>**&#x200B;の形式で記述します。
 
-   * **&lt;値 1>** はフィールドまたは関数です。 例えば、プロファイルの作成日を表す **@created**、またはプロファイルの作成年を表す **Year(@created)**。
-   * **&lt;比較演算子>** は、[比較演算子](../../automating/using/advanced-expression-editing.md#comparison-operators)の節に記載されている演算子の 1 つです。 **&lt;値 1>** と **&lt;値 2>** の間の比較方法をこの演算子で定義します。
-   * **&lt;値 2>** は、手動で入力したフィールド、関数、値のいずれかです。
+  * **&lt;値 1>** はフィールドまたは関数です。 例えば、プロファイルの作成日を表す **@created**、またはプロファイルの作成年を表す **Year(@created)**。
+  * **&lt;比較演算子>** は、[比較演算子](../../automating/using/advanced-expression-editing.md#comparison-operators)の節に記載されている演算子の 1 つです。 **&lt;値 1>** と **&lt;値 2>** の間の比較方法をこの演算子で定義します。
+  * **&lt;値 2>** は、手動で入力したフィールド、関数、値のいずれかです。
 
   >[!NOTE]
   >
@@ -88,8 +99,8 @@ ht-degree: 93%
 
 * 複数の条件を使用する場合は、論理演算子を使用して組み合わせることができます。
 
-   * **[!UICONTROL AND]**：2 つの条件の積集合を取ります。
-   * **[!UICONTROL OR]**：2 つの条件の和集合を取ります。
+  * **[!UICONTROL AND]**：2 つの条件の積集合を取ります。
+  * **[!UICONTROL OR]**：2 つの条件の和集合を取ります。
 
 例：
 
@@ -107,9 +118,9 @@ JavaScript 式は 1 つ以上の条件で構成され、次の構文要素を使
 
 * それぞれの条件は、**&lt;コンテキスト> &lt;比較演算子> &lt;値 2**> の形式で記述します。
 
-   * ここで、**&lt;コンテキスト>** はコンテキストを指定できるフィールドまたは関数です。 例えば、プロファイルの電子メールアドレスの場合は&#x200B;**context.profile.@email**、プロファイルの名の文字数の場合は&#x200B;**context.profile.firstName.length （）**&#x200B;とします。
-   * **&lt;比較演算子>** は、[比較演算子](../../automating/using/advanced-expression-editing.md#comparison-operators)の節に記載されている演算子の 1 つです。 **&lt;コンテキスト>** と **&lt;値 2>** の間の比較方法をこの演算子で定義します。
-   * **&lt;値 2>** は、手動で入力したフィールド、関数、値のいずれかです。
+  * ここで、**&lt;コンテキスト>** はコンテキストを指定できるフィールドまたは関数です。 例えば、プロファイルの電子メールアドレスの場合は&#x200B;**context.profile.@email**、プロファイルの名の文字数の場合は&#x200B;**context.profile.firstName.length （）**&#x200B;とします。
+  * **&lt;比較演算子>** は、[比較演算子](../../automating/using/advanced-expression-editing.md#comparison-operators)の節に記載されている演算子の 1 つです。 **&lt;コンテキスト>** と **&lt;値 2>** の間の比較方法をこの演算子で定義します。
+  * **&lt;値 2>** は、手動で入力したフィールド、関数、値のいずれかです。
 
   >[!NOTE]
   >
@@ -117,8 +128,8 @@ JavaScript 式は 1 つ以上の条件で構成され、次の構文要素を使
 
 * 複数の条件を使用する場合は、論理演算子を使用して組み合わせることができます。
 
-   * **[!UICONTROL &&]**：2 つの条件の積集合を取ります。
-   * **[!UICONTROL ||]**：2 つの条件の和集合を取ります。
+  * **[!UICONTROL &&]**：2 つの条件の積集合を取ります。
+  * **[!UICONTROL ||]**：2 つの条件の和集合を取ります。
 
 例：
 

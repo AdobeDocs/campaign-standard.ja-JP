@@ -6,24 +6,37 @@ feature: Instance Settings
 role: Admin
 level: Experienced
 exl-id: ea936128-1c51-483d-914c-6d06708456d6
-TQID: https://experienceleague.adobe.com/KaN9nMAWXIbyhlv6AzJXrsjfGz-ZJG3zWbaLanmddDQ
+TQID: 'https://experienceleague.adobe.com/KaN9nMAWXIbyhlv6AzJXrsjfGz-ZJG3zWbaLanmddDQ'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: 7f0a1ee5-eeb8-5478-a9cd-b1896f033118
+    internal-label: Instance Settings
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Administration
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 8714
-ht-degree: 84%
-
+source-wordcount: '8720'
+ht-degree: 85%
 ---
-
 # SMS コネクタのプロトコルと設定 {#sms-connector-protocol}
 
 >[!NOTE]
@@ -85,7 +98,7 @@ SMS は、テキストよりも多くの情報を伝送します。 SMS によ�
 
 ## SMPP プロトコル {#smpp-protocol}
 
-Adobe Campaign Standardは、SMPP プロトコルバージョン 3.4をサポートしています。 これは、プロバイダー（SMSC）にSMSを送信し、SMSとレシートを受信できる広範なプロトコルです。 詳しくは、[SMPP ドキュメント](https://smpp.org/SMPP_v3_4_Issue1_2.pdf)を参照してください。
+Adobe Campaign Standardは、SMPP プロトコルバージョン 3.4をサポートしています。 これは、SMS をプロバイダー（SMSC）に送信し、SMS および領収書も受信できる広範なプロトコルです。 詳しくは、[SMPP ドキュメント](https://smpp.org/SMPP_v3_4_Issue1_2.pdf)を参照してください。
 
 SMS サービスプロバイダー側のネットワーク機器は、SMSC と呼ばれることが多いです。
 
@@ -558,7 +571,7 @@ TCP 接続試行と `BIND_*_RESP` 応答の間のタイムアウト。 タイム
 
 この設定を使用すると、仕様とは異なるカスタムエンコーディングマッピングを定義できます。 エンコーディングのリストと `data_coding` 値を宣言できます。
 
-MTA は、リスト内の最初のエンコードを使用してエンコードを試みます。 失敗した場合は、リスト上の次のエンコーディングを使用しようとします。メッセージをエンコードするためにエンコーディングを使用できない場合、エラーが発生します。 エンコーディングが見つかると、MTA はエンコードされたテキストと `SUBMIT_SM PDU` フィールドを作成し、テーブルで指定された値を使用して `data_coding` フィールドを設定します。
+MTA は、リスト内の最初のエンコードを使用してエンコードを試みます。 失敗した場合は、リスト上で次のエンコーディングを使用しようとします。メッセージのエンコードにエンコーディングを使用できない場合は、エラーが発生します。 エンコーディングが見つかると、MTA はエンコードされたテキストと `SUBMIT_SM PDU` フィールドを作成し、テーブルで指定された値を使用して `data_coding` フィールドを設定します。
 
 テーブル内の項目の順序は重要です。エンコーディングは上から下へ試行します。 最も費用のかからないエンコーディング、または最も推奨されるエンコーディングをリストの上部に配置し、続けて高価なエンコーディングを配置する必要があります。
 
@@ -663,7 +676,7 @@ SR 形式は、SMPP プロトコル仕様に厳密には適用されません。
 
 * **10 進数**：ID は、ASCII 形式の 10 進数である必要があります。 この設定を使用すると、先頭と末尾の空白文字と先頭の 0 が削除されます。
 
-* **16進数**: IDはASCII形式の16進数である必要があります。先頭に0xはなく、末尾にhはありません。 IDは、データベースに保存される前に10進数に変換されます。
+* **16 進数**：ID は ASCII 形式の 16 進数です。先頭に 0x および末尾に h を付けません。 その後、ID を 10 進数に変換してから、データベースに保存します。
 
 * **16 進文字列**：ID は、ASCII エンコードされたテキストで、16 進数でエンコードされたバイト数の文字列である必要があります。 例えば、PDU には `0x34 0x31 0x34 0x32 0x34 0x33` があり、これは ASCII「414243」に変換されます。 次に、この文字列が 16 進数のバイト文字列としてデコードされ、「ABC」が返されます。ID「ABC」をデータベースに格納します。
 
@@ -841,13 +854,13 @@ MTが確認されると（`SUBMIT_SM_RESP`）、`sProviderId`はすぐにデー�
 
 ### SMS のテスト {#test}
 
-* **あらゆる種類の文字を使用してSMSを送信する**
-非GSMまたは非ASCII文字を使用してSMSを送信する必要がある場合は、できるだけ多くの多様な文字を使用してメッセージを送信してみてください。 カスタム文字マッピングテーブルを設定する場合は、考えられるすべての `data_coding` 値に対して 1 つ以上の SMS を送信します。
+* **SMS に様々な文字を送信する**
+GSM 以外の文字や ASCII 以外の文字で SMS を送信する必要がある場合は、できるだけ多様な文字でメッセージを送信してみてください。 カスタム文字マッピングテーブルを設定する場合は、考えられるすべての `data_coding` 値に対して 1 つ以上の SMS を送信します。
 
 * **SRが適切に処理されていることを確認してください**
 SMSは、配信ログで「受信」としてマークする必要があります。 配信ログは正常に作成され、次のようになります。
   `SR yourProvider stat=DELIVRD err=000|#MESSAGE`
-配信プロバイダー名を変更したことを確認してください。 本番環境では、配信ログに **SR Generic** を含めないでください。
+  配信プロバイダー名を変更したことを確認してください。 本番環境では、配信ログに **SR Generic** を含めないでください。
 
 * **MOが処理されていることを確認してください**
 MO （自動返信、MOのデータベースへの保存など）を処理する必要がある場合 テストをいくつか実施します。 すべての自動返信キーワードに対して SMS を送信し、返信速度が適切である（数秒以内）ことを確認します。
@@ -863,7 +876,7 @@ Adobe Campaign が `DELIVER_SM_RESP`（command_status=0）に正常に応答し�
 
 `BIND_* PDUs` が正しく送信されていることを確認します。 最も重要な点は、プロバイダーが常に成功した `BIND_*_RESP PDUs` を返すことです（command_status = 0）。
 
-`BIND_* PDU`が多すぎないことを確認してください。 数が多すぎる場合は、接続が不安定であることを示している可能性があります。 詳しくは、[不安定な接続の問題](../../administration/using/sms-protocol.md#issues-unstable-connection)の節を参照してください。
+`BIND_* PDU` の数が多すぎないか確認します。 数が多すぎる場合は、接続が不安定であることを示している可能性があります。 詳しくは、[不安定な接続の問題](../../administration/using/sms-protocol.md#issues-unstable-connection)の節を参照してください。
 
 #### ENQUIRE_LINK {#enquire-link-pdus}
 

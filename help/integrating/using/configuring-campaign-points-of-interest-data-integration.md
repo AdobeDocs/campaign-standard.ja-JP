@@ -9,24 +9,36 @@ old-role: Data Architect
 role: Developer
 level: Intermediate
 exl-id: b097b3fa-f949-446e-ad44-cc6ca025ee55
-TQID: https://experienceleague.adobe.com/IWKDZDotgF6Kj0jtroM2BhEiaJAND3TyfwEhfFCtVBU
+TQID: 'https://experienceleague.adobe.com/IWKDZDotgF6Kj0jtroM2BhEiaJAND3TyfwEhfFCtVBU'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: afa4204e-6d08-4e29-bc35-26aafb656d48
+    internal-label: Profiles and audiences
+subfeature_v2:
+  - id: d6330382-c886-4f7a-a4f7-74e3f36c0d9c
+    internal-label: Audiences
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+    internal-label: Data integration
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Administration
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 1346
+source-wordcount: '1346'
 ht-degree: 3%
-
 ---
-
 # Campaign と POI データの統合の設定{#configuring-campaign-points-of-interest-data-integration}
 
 ## Adobe Experience Platform SDKを使用したCampaign-Point of Interest データ統合の設定 {#configuring-campaign-poi-aep-sdk}
@@ -62,7 +74,7 @@ SDK V4で設定されたモバイルアプリケーションでPoint of Interest
 1. モバイルアプリケーションの特定の設定を実行します。
 
    * Adobe Mobile Services インターフェイスからダウンロードした設定ファイルをモバイルアプリケーションにパッケージ化します。
-   * Experience Cloud Mobile SDKをモバイルアプリケーションに統合します。 [SDKのモバイルアプリケーションへの統合](#integrating-the-sdk-into-a-mobile-application)を参照してください。
+   * Adobe Experience Cloud Mobile SDKをモバイルアプリケーションに統合します。 [SDKのモバイルアプリケーションへの統合](#integrating-the-sdk-into-a-mobile-application)を参照してください。
 
 1. Adobe Mobile ServicesのインターフェイスでPoints of Interestを定義します。 Adobe Mobile ServicesのPoiの定義[を参照してください](#defining-points-of-interest-in-adobe-mobile-services)。
 1. モバイルアプリケーションのサブスクライバーから収集するデータを定義します。 [購読者のPoint of Interest データの収集](#collecting-subscribers--points-of-interest-data)を参照してください。
@@ -80,7 +92,7 @@ Adobe Campaignを使用してポイントオブインタレストのデータを
 
 **[!UICONTROL Mobile application properties]** セクションには、次の2つのURLが表示されます：**[!UICONTROL Collect PII endpoint]**&#x200B;と&#x200B;**[!UICONTROL Location Services endpoint]**。 Adobe Mobile Servicesのインターフェイスで使用されます。 [Adobe Mobile Servicesでのモバイルアプリの設定](#configuring-a-mobile-app-in-adobe-mobile-services)を参照してください。
 
-* **[!UICONTROL Collect PII endpoint]** URLは、モバイルアプリケーションの起動時に、ユーザーのExperience Cloud IDと登録トークンをモバイルアプリケーションから収集するために使用されます。 ユーザーが電子メール、名、姓などの資格情報を使用してアプリケーションにログインすると、このデータも収集され、Adobe Campaign プロファイルとユーザーの登録トークンを照合するために使用されます。
+* **[!UICONTROL Collect PII endpoint]** URLは、起動時にモバイルアプリケーションからユーザーのExperience Cloud IDと登録トークンを収集するために使用されます。 ユーザーが電子メール、名、姓などの資格情報を使用してアプリケーションにログインすると、このデータも収集され、Adobe Campaign プロファイルとユーザーの登録トークンを照合するために使用されます。
 * **[!UICONTROL Location Services endpoint]** URLは、ユーザーの緯度、経度、半径などの位置データを目標点から収集するために使用されます。
 
 Adobe Mobile Servicesでこれらの値を使用して設定を完了できるようになりました。詳しくは、「[Adobe Mobile Servicesでのモバイルアプリの設定](#configuring-a-mobile-app-in-adobe-mobile-services)」節を参照してください。

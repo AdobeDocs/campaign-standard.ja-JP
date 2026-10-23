@@ -10,25 +10,38 @@ old-role: Data Architect
 role: Developer
 level: Experienced
 exl-id: 44ad654e-bde9-4189-8765-0479d81dc0f7
-TQID: https://experienceleague.adobe.com/9f2fthO3uwDSjhIhVMzOZgqdimJcJOxlodEP1cJZicA
+TQID: 'https://experienceleague.adobe.com/9f2fthO3uwDSjhIhVMzOZgqdimJcJOxlodEP1cJZicA'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
 subfeature_v2:
   - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+    internal-label: REST API
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Security
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 2262
+source-wordcount: '2262'
 ht-degree: 92%
-
 ---
-
 # 外部 API {#external-api}
 
 ## 説明 {#description}
@@ -137,7 +150,7 @@ JSON パーサーは、標準の JSON 構造パターンタイプに対応する
 
 ![](assets/externalAPI-execution.png)
 
-### プロパティ
+### 「PROPERTIES」タブ
 
 このタブを使用すると、UI に表示されるラベルなど、「外部 API」アクティビティの&#x200B;**一般的なプロパティ**&#x200B;を調整できます。 内部 ID はカスタマイズできません。
 
@@ -201,11 +214,11 @@ JSON パーサーは、標準の JSON 構造パターンタイプに対応する
    <td> <p>「https://example.com/api/v1/web-coupon?count=2」からコンテンツを転送しています (1234/1234)。</p></td> 
   </tr>
   <tr> 
-   <td> Using cached access token for provider ID '%s'.</td> 
+   <td> プロバイダー ID「%s」に対してキャッシュされたアクセストークンを使用しています。</td> 
    <td> <p>プロバイダー ID「EXT25」にキャッシュされたアクセストークンを使用しています。 注：EXT25 は、外部アカウントの ID（または名前）です。 </p></td> 
   </tr>
   <tr> 
-   <td> Fetched access token from server for provider ID '%s'.</td> 
+   <td> プロバイダー ID「%s」のアクセストークンをサーバーから取得しました。</td> 
    <td> <p>プロバイダー ID「EXT25」のアクセストークンをサーバーから取得しました。 注：EXT25 は、外部アカウントの ID（または名前）です。</p></td> 
   </tr>
   <tr> 
@@ -213,11 +226,11 @@ JSON パーサーは、標準の JSON 構造パターンタイプに対応する
    <td> <p>エラー (HTTP : 「401」) が発生したため、OAuth アクセストークンを更新しています。</p></td> 
   </tr>
   <tr> 
-   <td> Error refreshing OAuth access token (error: '%d'). </td> 
+   <td> OAuth アクセストークンの更新に失敗しました (エラー :「%d」)。 </td> 
    <td> <p>OAuth アクセストークンの更新中にエラーが発生しました (エラー : 「404」)。</p></td> 
   </tr>
   <tr> 
-   <td> Failed to fetch the OAuth access token using the specified external account on attempt %d, retrying in %d ms.</td> 
+   <td> 指定された外部アカウントを使用した OAuth アクセストークンの取得に失敗しました (試行回数 %d)。%d ミリ秒後に再試行します。</td> 
    <td> <p>試行 1 で指定された外部アカウントを使用して OAuth アクセストークンを取得できませんでした。1,387 ミリ秒後に再試行します。</p></td> 
   </tr>
  </tbody> 
@@ -313,7 +326,7 @@ JSON パーサーは、標準の JSON 構造パターンタイプに対応する
    <td> <p>このエラーは、アクティビティに関連付けられている外部アカウントが OAuth 2.0 外部アカウントではないことを示します。 したがって、アクティビティ設定に何らかの破損や手動の変更がない限り、このエラーは発生しません。</p></td>
   </tr>
   <tr> 
-   <td> WKF-560283 - Failed to fetch the OAuth access token.</td> 
+   <td> WKF-560283 - OAuth アクセストークンの取得に失敗しました。</td> 
    <td> <p>このエラーの最も一般的な原因は、外部アカウントの構成の誤りです（例えば、 接続が成功したことをテストせずに外部アカウントを使用した場合など）。 外部アカウント上の URL／資格情報が変更される可能性があります。</p></td>
   </tr>
   <tr> 

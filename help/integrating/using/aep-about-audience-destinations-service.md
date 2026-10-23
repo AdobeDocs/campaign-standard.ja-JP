@@ -11,13 +11,28 @@ role: Developer
 level: Experienced
 exl-id: 34235749-d056-4d4c-9939-7dc52f980a76
 hide: true
-source-git-commit: 7ad12890a24b2c0b8730d09b7d161bff511f4c69
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: dd99420f-367d-4a14-bbc4-5140615992c2
+    internal-label: Microsoft CRM integration
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 3%
-
+source-wordcount: '376'
+ht-degree: 4%
 ---
-
 # Audience Destinations サービスについて {#about-audiences}
 
 >[!IMPORTANT]
@@ -30,8 +45,8 @@ ht-degree: 3%
 
 **オーディエンス**&#x200B;は、最初に&#x200B;**セグメント**&#x200B;を構築することによって作成されます。これは、基本的に、Adobe Experience Platformから顧客プロファイル内の事実上あらゆる変数（プロファイル、イベント、マルチエンティティティデータなど）に基づく一連のルールであり、多次元ターゲットを作成します。 リアルタイム顧客プロファイルとセグメンテーションサービスに関するグローバルな概念については、次の専用ドキュメントで紹介しています。
 
-* [&#x200B; リアルタイム顧客プロファイルの概要](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja)
-* [&#x200B; セグメント化サービスの概要](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja)
+* [リアルタイム顧客プロファイルの概要](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=ja)
+* [セグメント サービスの概要](https://experienceleague.adobe.com/docs/experience-platform/segmentation/home.html?lang=ja)
 
 セグメントを作成したら、[Campaign Standard ワークフロー](../../integrating/using/aep-targeting-audiences.md)で配信のオーディエンスとしてアクティブ化できます。 さらに、Adobe Experience Platformのコンテキストデータを使用して[&#x200B; パーソナライズ &#x200B;](../../integrating/using/aep-personalizing-campaigns.md)し、キャンペーンに動的コンテンツを追加できます。
 

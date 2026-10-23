@@ -5,25 +5,38 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 8c722084-988d-47bd-98ad-9f5a422980a0
-TQID: https://experienceleague.adobe.com/XeyIUqddLskoYUTD8zF1emb99O6HoL0gJrJlbX4V438
+TQID: 'https://experienceleague.adobe.com/XeyIUqddLskoYUTD8zF1emb99O6HoL0gJrJlbX4V438'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: f5407121-8933-4ac3-8e06-a9b692a4e88a
+    internal-label: Campaign Standard
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: e8d937ec-9046-41b5-834b-d22a624e0d37
+    internal-label: Campaign overview
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 85d9a6a6a6b20412c2edadfc5ced5f5e248d1ac4
+    internal-label: Privacy
+source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
 workflow-type: tm+mt
-source-wordcount: 1254
+source-wordcount: '1254'
 ht-degree: 100%
-
 ---
-
 # リリースノート 2022{#release-notes-2022}
 
 ## リリース 22.3.2 {#feb-23}
@@ -57,10 +70,10 @@ ht-degree: 100%
 
 * **アクセシビリティ** - アプリケーションの全体的な使いやすさを改善するために、アクセシビリティに関する多くの修正を行いました。 これらの機能は、現在、一部の早期導入ユーザーに対してのみ有効になっており、将来のリリースですべてのお客様にロールアウトされる予定です。 アクセシビリティの向上には、例えば次のものがあります。
 
-   * 各画面のフォーカス可能な要素に対するフォーカスインジケーターの確実な表示
-   * ナビゲーションを容易にするためのページランドマークの作成
-   * 多くのコントロールの名前、役割、値、状態の追加
-   * メイン画面のダイナミックフォーカス順序で発生した問題の修正
+  * 各画面のフォーカス可能な要素に対するフォーカスインジケーターの確実な表示
+  * ナビゲーションを容易にするためのページランドマークの作成
+  * 多くのコントロールの名前、役割、値、状態の追加
+  * メイン画面のダイナミックフォーカス順序で発生した問題の修正
 
 
 **パッチ**
