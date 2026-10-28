@@ -24,7 +24,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
 source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '7568'
 ht-degree: 100%
 ---
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 ## 2026年6月 {#doc-updates-june-2026}
 
-メールトラッキングピクセルに対する CNIL ガイダンスと、関連する Adobe Campaign Standard 機能のページを追加しました。 [詳細を表示](../../administration/using/cnil-pixel-tracking.md)
+メールトラッキングピクセルに対する CNIL ガイダンスと、関連する Adobe Campaign Standard 機能のページを追加しました。 [詳細情報](../../administration/using/cnil-pixel-tracking.md)
 
 ## リリース 24.1 - 2024年冬 {#release-24-1}
 
