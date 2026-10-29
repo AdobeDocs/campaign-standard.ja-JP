@@ -27,9 +27,9 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
     internal-label: Accessibility
 source-git-commit: bb37e2bfbc52de1b0cc03f0f8e03985caff5e5b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '663'
-ht-degree: 95%
+ht-degree: 100%
 ---
 # Adobe Campaign Standard でのアクセシビリティ {#accessibility-acs}
 
@@ -45,11 +45,11 @@ Adobe Campaign Standard には、コントラスト、ラベル、構造化コ�
 
 Adobe Campaign Standard のユーザーインターフェイスは、アプリケーションのコントラストを十分な水準に高め、視力や色覚に障がいのあるユーザーに対して、アクセスしやすい視聴エクスペリエンスを提供します。
 
-* 大きなテキストと見出しは、3:1のコントラスト比に合わせて強化されています。
+* 大きなテキストと見出しは、3:1 のコントラスト比に合わせて強化されています。
 
   ![](assets/accessibility_2.png)
 
-* アプリケーションのヘルプコンテンツとボディテキストが、4.5:1のコントラスト比に対応するように更新されました。
+* アプリケーションのヘルプコンテンツと本文が、4.5:1 のコントラスト比に合わせて更新されました。
 
 * ワークフローの一時停止アイコンとキャンセルアイコンが更新され、背景色と前景色のコントラストが改善されました。
 
